@@ -18,12 +18,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 831b205d0839f6347ac887db0d3c3f0b1d9a4f3d
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: b47ec915bc9f5f51df8ed425e7bfd76966bb989e
+ms.sourcegitcommit: 8b3ff6e9f8931327b6f0541fd882107687cd123e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932821"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49942773"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Visão geral da central de segurança do Microsoft 365
 
@@ -44,17 +44,25 @@ Visite a central de segurança do Microsoft 365 em [https://security.microsoft.c
 > [!NOTE]
 > Você deve ter uma função apropriada, como Administrador Global, Administrador de Segurança, Operador de Segurança ou Leitor de Segurança no Azure Active Directory para acessar a central de segurança do Microsoft 365.
 
+## <a name="at-a-glance-view-of-your-microsoft-365-environment"></a>Visão rápida do seu ambiente do Microsoft 365
 
-## <a name="lets-take-a-closer-look"></a>Vamos dar uma olhada mais de perto
-
-A **home** page mostra muitos dos cartões comuns de que as equipes de segurança precisam. A composição de cartões e dados depende da função de usuário. Como a central de segurança do Microsoft 365 usa controle de acesso baseado em função, funções diferentes verão cartões mais significativos para seus trabalhos do dia a dia.  
+A **home** page mostra muitos dos cartões comuns de que as equipes de segurança precisam. A composição de cartões e dados depende da função do usuário. Como a central de segurança do Microsoft 365 usa controle de acesso baseado em função, funções diferentes verão cartões mais significativos para seus trabalhos do dia a dia.  
 
 Essas informações rápidas ajudam você a acompanhar as atividades mais recentes em sua organização. O centro de segurança do Microsoft 365 reúne sinais de diferentes fontes para apresentar uma visão holística do seu ambiente do Microsoft 365.
+
+De forma mais livre, os cartões se enquadram nessas categorias:
+
+- **Identidades**- Monitore as identidades em sua organização e acompanhe comportamentos suspeitos ou arriscados. [Saiba mais sobre a proteção de identidade](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection)
+- **Dados** - Ajuda a controlar a atividade do usuário que pode levar à divulgação não autorizada de dados.
+- **Dispositivos** - Obter informações atualizadas sobre alertas, atividade de violação e outras ameaças em seus dispositivos.
+- **Aplicativos** - Obtenha informações sobre como os aplicativos de nuvem estão sendo usados em sua organização. [Saiba mais sobre os aplicativos descobertos do Cloud App Security](https://docs.microsoft.com/cloud-app-security/discovered-apps)
+
+## <a name="explore-what-the-security-center-has-to-offer"></a>Explore o que a central de segurança tem a oferecer
 
 A central de segurança do Microsoft 365 inclui:
 
 * **Início** – Obter uma visão geral da saúde geral da segurança da sua organização.
-* **Incidentes** - Veja a história mais ampla de um ataque conectando os pontos vistos em alertas individuais em entidades. Você vai saber exatamente onde um ataque foi iniciado, quais dispositivos foram afetados, quem foi afetado e onde a ameaça foi.
+* **Incidentes** - Veja a história mais ampla de um ataque conectando os pontos vistos em alertas individuais em entidades. Você vai saber exatamente onde um ataque foi iniciado, quais dispositivos foram afetados, quem foi afetado e para onde a ameaça foi.
 * **Alertas** – Tenha maior visibilidade de todos os alertas em seu ambiente do Microsoft 365. Inclui alertas do Microsoft Cloud App Security, do Microsoft Defender para Office 365, do Azure Active Directory, do Microsoft Defender para Identidade e do Microsoft Defender para o Ponto de Extremidade. Disponível para clientes E3 e E5.  
 * **Central de ações** - Reduza o volume de alertas que sua equipe de segurança deve tratar manualmente, permitindo que sua equipe de operações de segurança se concentre em ameaças mais sofisticadas e outras iniciativas de alto valor.
 * **Relatórios** – Obter os detalhes e as informações necessárias para proteger melhor seus usuários, dispositivos, aplicativos e muito mais.

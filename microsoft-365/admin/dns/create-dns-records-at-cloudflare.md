@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no cloudflare para Microsoft
+title: Criar registros DNS no Cloudflare para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em cloudflare para a Microsoft.
-ms.openlocfilehash: 110bd96c0eecf40ae96efe7055d82a8d12dde607
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços na Cloudflare para Microsoft.
+ms.openlocfilehash: 8d5dd7779f07fd42dd230ee33c40849da3519d26
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657955"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939267"
 ---
-# <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Criar registros DNS no cloudflare para Microsoft
+# <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Criar registros DNS no Cloudflare para a Microsoft
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
-Se o Cloudflare for seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para email, Skype for Business Online e assim por diante.
+Se o Cloudflare for seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
   
-Depois que você adicionar esses registros no Cloudflare, o domínio será configurado para funcionar com os serviços do Microsoft 365.
+Depois que você adicionar esses registros na Cloudflare, seu domínio será definido para funcionar com os serviços do Microsoft 365.
   
   
 > [!NOTE]
@@ -46,20 +46,20 @@ Depois que você adicionar esses registros no Cloudflare, o domínio será confi
 > [!IMPORTANT]
 > Você deve executar este procedimento no registrador de domínios onde você comprou e registrou seu domínio. 
   
-Quando você se inscreveu no Cloudflare, adicionou um domínio usando o processo de **instalação** do cloudflare. 
+Quando você se inscreveu no Cloudflare, adicionou  um domínio usando o processo de instalação cloudflare. 
   
-O domínio adicionado foi comprado de Cloudflare ou de um registrador de domínio separado. Para verificar e criar registros DNS para o seu domínio no Microsoft 365, primeiro você precisa alterar os nameservers no seu registrador de domínio para que eles usem os nameservers do cloudflare.
+O domínio adicionado foi adquirido do Cloudflare ou de um registrador de domínios separado. Para verificar e criar registros DNS para seu domínio no Microsoft 365, primeiro você precisa alterar os nameservers no registrador de domínios para que eles usem os nameservers do Cloudflare.
   
 Para mudar os servidores de nomes do seu domínio por conta própria no site do registrador de domínios, siga essas etapas.
   
 1. Localize a área no site do registrador de domínios na qual você pode editar os servidores de nomes do seu domínio.
     
-2. Crie dois registros de nameserver usando os valores na tabela a seguir ou edite os registros de nameserver existentes para que eles correspondam a esses valores.
+2. Crie dois registros de nameserver usando os valores da tabela a seguir ou edite os registros de nameserver existentes para que eles corresponderem a esses valores.
     
     |||
     |:-----|:-----|
-    |Primeiro servidor de nome  <br/> |Use o valor de nameserver fornecido pelo cloudflare.  <br/> |
-    |Segundo servidor de nome  <br/> |Use o valor de nameserver fornecido pelo cloudflare.  <br/> |
+    |Primeiro servidor de nome  <br/> |Use o valor de nameserver fornecido pelo Cloudflare.  <br/> |
+    |Segundo servidor de nome  <br/> |Use o valor de nameserver fornecido pelo Cloudflare.  <br/> |
    
     > [!TIP]
     > You should use at least two name server records. Se houver outros servidores de nomes listados, exclua-os. 
@@ -67,7 +67,7 @@ Para mudar os servidores de nomes do seu domínio por conta própria no site do 
 3. Salve suas alterações.
     
 > [!NOTE]
-> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão configurados para funcionar com seu domínio. 
+> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão definidos para funcionar com seu domínio. 
   
 ## <a name="add-a-txt-record-for-verification"></a>Adicionar um registro TXT para verificação
 <a name="BKMK_verify"> </a>
@@ -77,16 +77,16 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
   
-1. Para começar, vá até a sua página de domínios no Cloudflare usando [este link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
+1. To get started, go to your domains page at Cloudflare by using [this link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
   
-2. Na página **inicial** , selecione o domínio que você deseja atualizar. 
+2. Na **home** page, selecione o domínio que você deseja atualizar. 
   
-3. Na página **visão geral** do seu domínio, selecione **DNS**.
+3. Na página **Visão** geral do seu domínio, selecione **DNS.**
 
   
-4. Na página **Gerenciamento de DNS** , clique em **adicionar registro** e selecione os valores da tabela a seguir. 
+4. Na página **de gerenciamento DNS,** clique **em Adicionar registro** e selecione os valores da tabela a seguir. 
     
-    |**Tipo**|**Nome**|**TTL automático**|**Conteúdo**|
+    | Tipo | Nome | TTL automática | Conteúdo |
     |:-----|:-----|:-----|:----|
     |TXT  <br/> |@  <br/> |30 minutos  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)    |
   
@@ -96,7 +96,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
   
 9. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para a Microsoft e pesquisará o registro.
+Agora que você adicionou o registro no site do registrador de domínios, volte para a Microsoft e procure o registro.
   
 Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verificado.
   
@@ -121,45 +121,45 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Adicione um registro MX para que o email do domínio vá para a Microsoft.
 <a name="BKMK_add_MX"> </a>
 
-1. Para começar, vá até a sua página de domínios no Cloudflare usando [este link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
+1. To get started, go to your domains page at Cloudflare by using [this link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
   
-2. Na página **inicial** , selecione o domínio que você deseja atualizar. 
+2. Na **home** page, selecione o domínio que você deseja atualizar. 
   
-3. Na página **visão geral** do seu domínio, selecione **DNS**.
+3. Na página **Visão** geral do seu domínio, selecione **DNS.**
 
   
-4. Na página **Gerenciamento de DNS** , clique em **adicionar registro** e selecione os valores da tabela a seguir. 
+4. Na página **de gerenciamento DNS,** clique **em Adicionar registro** e selecione os valores da tabela a seguir. 
     
-    |**Tipo**|**Nome**|**Servidor de email**|**Prioridade**|**TTL**|
+    | Tipo | Nome | Servidor de email | Prioridade | TTL |
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta do Microsoft 365.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md) |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/>|30 minutos  <br/> |
+    |MX  <br/> |@  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu na sua conta do Microsoft 365.   [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md) |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/>|30 minutos  <br/> |
    
 
   
 5. Selecione **Salvar**.
   
-9. Se houver outros registros MX listados na seção **registros MX** , exclua-os selecionando o ícone **excluir (X)** . 
+9. Se houver outros registros MX listados na seção **Registros MX,** exclua-os selecionando o ícone **Excluir (X).** 
   
-10. Na caixa de diálogo de confirmação, selecione **excluir** para confirmar suas alterações. 
+10. Na caixa de diálogo de confirmação, selecione **Excluir** para confirmar suas alterações. 
 
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Adicionar os seis registros CNAME necessários para o Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Adicionar os seis registros CNAME necessários para a Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
-1. Para começar, vá até a sua página de domínios no Cloudflare usando [este link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
+1. To get started, go to your domains page at Cloudflare by using [this link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
     
   
-2. Na página **inicial** , selecione o domínio que você deseja atualizar. 
+2. Na **home** page, selecione o domínio que você deseja atualizar. 
   
-3. Na página **visão geral** do seu domínio, selecione **DNS**.
+3. Na página **Visão** geral do seu domínio, selecione **DNS.**
 
   
 4. Adicione o primeiro dos cinco registros CNAME.
     
-    Na página **Gerenciamento de DNS** , clique em **adicionar registro** e selecione os valores da tabela a seguir.
+    Na página **de gerenciamento DNS,** clique **em Adicionar registro** e selecione os valores da tabela a seguir.
     
     
-    |**Tipo**|**Nome**|**Destino**|**TTL**|
+    | Tipo | Nome | Target | TTL |
     |:-----|:-----|:-----|:-----|
     |CNAME  <br/> |descoberta automática  <br/> |autodiscover.outlook.com  <br/> |30 minutos  <br/> |
     |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |30 minutos  <br/> |
@@ -169,7 +169,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |CNAME  <br/> |msoid  <br/> |clientconfig.microsoftonline-p.net  <br/> |30 minutos  <br/> |
     
   
-5. Selecione o ícone de **tráfego DNS** (nuvem laranja) para ignorar os servidores cloudflare.
+5. Selecione o **ícone de Tráfego DNS** (alterar a nuvem laranja para cinza) para ignorar os servidores Cloudflare.
   
 6. Selecione **Salvar**.
   
@@ -182,17 +182,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 > [!IMPORTANT]
 > Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para o Microsoft 365. Em vez disso, adicione os valores necessários do Microsoft 365 ao registro atual para que você tenha um *único* registro SPF que inclua os dois conjuntos de valores. 
   
-1. Para começar, vá até a sua página de domínios no Cloudflare usando [este link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
+1. To get started, go to your domains page at Cloudflare by using [this link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
     
   
-2. Na página **inicial** , selecione o domínio que você deseja atualizar. 
+2. Na **home** page, selecione o domínio que você deseja atualizar. 
   
-3. Na página **visão geral** do seu domínio, selecione **DNS**.
+3. Na página **Visão** geral do seu domínio, selecione **DNS.**
 
   
-4. Na página **Gerenciamento de DNS** , clique em **adicionar registro** e selecione os valores da tabela a seguir.  
+4. Na página **de gerenciamento DNS,** clique **em Adicionar registro** e selecione os valores da tabela a seguir.  
     
-    |**Tipo**|**Nome**|**TTL**|**Conteúdo**|
+    | Tipo | Nome | TTL | Conteúdo |
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |@  <br/> |30 minutos  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.   |
 
@@ -205,19 +205,19 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_SRV"> </a>
 
 > [!IMPORTANT]
-> Tenha em mente que o Cloudflare é responsável por tornar essa funcionalidade disponível. Caso você veja discrepâncias entre as etapas abaixo e a GUI atual do Cloudflare (interface gráfica do usuário), aproveite a [comunidade do Cloudflare](https://community.cloudflare.com/). 
+> Lembre-se de que o Cloudflare é responsável por disponibilizar essa funcionalidade. Caso você veja discrepâncias entre as etapas abaixo e a GUI cloudflare atual (Interface gráfica do usuário), aproveite a [comunidade Cloudflare.](https://community.cloudflare.com/) 
 
-1. Para começar, vá até a sua página de domínios no Cloudflare usando [este link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
+1. To get started, go to your domains page at Cloudflare by using [this link](https://www.cloudflare.com/a/login). Será solicitado que você faça logon primeiro.
       
-2. Na página **inicial** , selecione o domínio que você deseja atualizar. 
+2. Na **home** page, selecione o domínio que você deseja atualizar. 
   
-3. Na página **visão geral** do seu domínio, selecione **DNS**.
+3. Na página **Visão** geral do seu domínio, selecione **DNS.**
   
 4. Adicione o primeiro dos dois registros SRV.
 
-    Na página **Gerenciamento de DNS** , clique em **adicionar registro** e selecione os valores da primeira linha da tabela a seguir.
+    Na página **de gerenciamento DNS,** clique em **Adicionar registro** e selecione os valores da primeira linha da tabela a seguir.
         
-    |**Tipo**|**Serviço**|**Protocolo**|**Nome**|**TTL**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
+    | Tipo | Serviço | Protocolo | Nome | TTL | Priority | Peso | Porta | Target |
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV|_sip |TLS |Use seu *domain_name*; por exemplo, contoso.com  |30 minutos | 100|1  |443 |sipfed.online.lync.com  |
     |SRV|_sipfederationtls | TCP|Use seu *domain_name*; por exemplo, contoso.com   |30 minutos |100 |1  |5061 | sipfed.online.lync.com |

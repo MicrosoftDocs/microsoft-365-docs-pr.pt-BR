@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: a0f4307cc0ed42a8ed53cdeefdb0a7b32eb36d35
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 39abcbde82c2902b091b42db3dbc8e1ee2cbd924
+ms.sourcegitcommit: 8b3ff6e9f8931327b6f0541fd882107687cd123e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930577"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49942785"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -69,7 +69,7 @@ Sua pontuação é atualizada em tempo real para refletir as informações apres
 
 ### <a name="how-improvement-actions-are-scored"></a>Como as ações de melhoria são pontuadas
 
-Cada ação de melhoria vale 10 pontos ou menos e a maioria é pontuada de forma binária. Se implementar a ação de melhoria, como criar uma nova política ou ativar uma configuração específica, você obterá 100% dos pontos. Para outras ações de melhoria, os pontos são dados como um percentual da configuração total.
+Cada ação de melhoria vale 10 pontos ou menos e a maioria é pontuada de forma binária. Se implementar a ação de melhoria, como criar uma nova política ou ativar uma configuração específica, você obterá 100% dos pontos. Para outras ações de melhoria, os pontos são dados como uma porcentagem da configuração total.
 
 Por exemplo, uma ação de melhoria informa que você tem 10 pontos protegendo todos os usuários com a autenticação multifatória. Você tem apenas 50 de 100 usuários no total protegidos, para obter uma pontuação parcial de 5 pontos (50 protegidos / 100 total * 10 pts máximos = 5 pts).
 
@@ -82,6 +82,7 @@ Atualmente, há recomendações para os seguintes produtos:
 - Microsoft Defender para Ponto de Extremidade
 - Microsoft Defender para Identidade?
 - Segurança no Aplicativo na Nuvem
+- Microsoft Teams
 
 As recomendações para outros produtos de segurança serão apresentadas em breve. As recomendações não abrangem todas as superfícies de ataque associadas a cada produto, mas são uma boa linha de base. Você também pode marcar as ações de melhoria como cobertas por uma mitigação alternativa ou de terceiros.
 

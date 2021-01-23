@@ -1,7 +1,7 @@
 ---
-title: Instalar o portal da empresa do Intune em dispositivos
-description: Informações sobre a instalação do aplicativo portal da empresa em dispositivos de área de trabalho gerenciada da Microsoft
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, portal da empresa
+title: Instalar o Portal da Empresa do Intune em dispositivos
+description: Informações sobre como instalar o aplicativo de portal da empresa em dispositivos da Área de Trabalho Gerenciada da Microsoft
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, Portal da Empresa
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
@@ -9,50 +9,48 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: d457c4b96e47485eee041b72a1cf24e96a13bf18
-ms.sourcegitcommit: de600339b08951d6dd3933288a8da2327a4b6ef3
+ms.openlocfilehash: bddf46e451408e4f17e58cc62186b7cd6cefb382
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48430182"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939279"
 ---
-# <a name="install-intune-company-portal-on-devices"></a>Instalar o portal da empresa do Intune em dispositivos
+# <a name="install-intune-company-portal-on-devices"></a>Instalar o Portal da Empresa do Intune em dispositivos
 
-O Microsoft Managed desktop exige que os administradores de ti instalem o portal da empresa do Intune para seus usuários com dispositivos de área de trabalho gerenciada da Microsoft Veja alguns benefícios da sua organização:
-- Os usuários têm um local para procurar e instalar aplicativos disponíveis. 
-- Os administradores de ti podem organizar os aplicativos por categorias para seus usuários.  
-- Alguns aplicativos (como o Microsoft Project e o Microsoft Visio) exigem que o portal da empresa implante com a área de trabalho gerenciada da Microsoft.
-- Os administradores de ti podem personalizar o portal da empresa para sua organização. Isso inclui imagens de marca, adição em contatos de suporte local e muito mais. Para obter mais informações, consulte [como configurar o aplicativo do portal da empresa do Microsoft Intune](https://docs.microsoft.com/intune/company-portal-app).   
+A Área de Trabalho Gerenciada da Microsoft exige que os administradores de IT instalem o Portal da Empresa do Intune para seus usuários com dispositivos da Área de Trabalho Gerenciada da Microsoft. Aqui estão alguns benefícios para sua organização:
+- Os usuários têm um local para navegar e instalar os aplicativos disponíveis. 
+- Os administradores de IT podem organizar aplicativos por categorias para seus usuários.  
+- Alguns aplicativos (como o Microsoft Project e o Microsoft Visio) exigem que o Portal da Empresa seja implantado com a Área de Trabalho Gerenciada da Microsoft.
+- Os administradores de IT podem personalizar o Portal da Empresa para sua organização. Isso inclui a imagem da marca, a adição de contatos de suporte local e muito mais. Para obter mais informações, consulte Como configurar o aplicativo portal da empresa [do Microsoft Intune.](https://docs.microsoft.com/intune/company-portal-app)   
 
-Este tópico documenta o processo de implantação do portal da empresa do Intune em seus usuários de área de trabalho gerenciada da Microsoft. O processo geral tem a seguinte aparência:
-1. Comprar portal da empresa da Microsoft Store para empresas e sincronizar com o Intune
-2. Atribuir portal da empresa aos usuários
-3. Comunicar alterações para seus usuários
+Este tópico documenta o processo de implantação do Portal da Empresa do Intune para os usuários da Área de Trabalho Gerenciada da Microsoft. O processo geral tem esta aparência:
+1. Adquirir o Portal da Empresa na Microsoft Store para Empresas e sincronizar com o Intune
+2. Atribuir o Portal da Empresa aos seus usuários
+3. Comunicar a alteração aos usuários
 
-## <a name="step-1---purchase-company-portal-from-microsoft-store-for-business-and-sync-with-intune"></a>Etapa 1: comprar o portal da empresa da Microsoft Store para empresas e sincronizar com o Intune
-Para obter informações sobre como comprar os aplicativos e sincronizar com o Intune, consulte [Microsoft Store para aplicativos comerciais](deploy-apps.md#msfb-apps) em *implantar aplicativos em dispositivos de área de trabalho gerenciada da Microsoft*.
+## <a name="step-1---purchase-company-portal-from-microsoft-store-for-business-and-sync-with-intune"></a>Etapa 1: Comprar o Portal da Empresa na Microsoft Store para Empresas e sincronizar com o Intune
+Para obter informações sobre como comprar os aplicativos e sincronizar com o Intune, consulte os aplicativos da [Microsoft Store](deploy-apps.md#msfb-apps) para Empresas em Implantar aplicativos em dispositivos da Área de *Trabalho Gerenciada da Microsoft.*
 
 Este tópico fornece informações sobre como: 
-- Comprar portal da empresa da Microsoft Store para empresas 
-- Forçar sincronização entre o Intune e a Microsoft Store para empresas
-- Verificar a sincronização ativa entre o Intune e a Microsoft Store para empresas 
+- Purchase Company Portal from Microsoft Store for Business 
+- Forçar a sincronização entre o Intune e a Microsoft Store para Empresas
+- Verificar a sincronização ativa entre o Intune e a Microsoft Store para Empresas 
 
-## <a name="step-2---assign-company-portal-to-your-users"></a>Etapa 2-atribuir o portal da empresa aos seus usuários
-Envie uma solicitação de suporte para operações de área de trabalho gerenciada da Microsoft por meio do portal de administração do Microsoft Managed desktop. Na solicitação de suporte, solicite que o portal da empresa seja atribuído aos seus usuários. O Microsoft Managed desktop implantará o portal da empresa em seu locatário e instalará o aplicativo em dispositivos de área de trabalho gerenciada da Microsoft em sua organização.
+## <a name="step-2---assign-company-portal-to-your-users"></a>Etapa 2- Atribuir o Portal da Empresa aos seus usuários
+Após o registro na Área de Trabalho Gerenciada da Microsoft, as Operações da Área de Trabalho Gerenciada da Microsoft implantarão automaticamente o Portal da Empresa em seu locatário e instalarão o aplicativo em dispositivos da Área de Trabalho Gerenciada da Microsoft em sua organização.
 
-Para obter mais informações sobre como enviar solicitações de suporte com a área de trabalho gerenciada da Microsoft, consulte [admin support for Microsoft Managed desktop](../working-with-managed-desktop/admin-support.md).
+## <a name="step-3---communicate-change-to-your-users"></a>Etapa 3: comunicar as alterações aos usuários
+Como administrador de IT da sua organização, é importante que os usuários saibam como usar o Portal da Empresa em sua organização. A Área de Trabalho Gerenciada da Microsoft recomenda:
+- Etapas para instalar aplicativos do Portal da Empresa. Para obter mais informações, [consulte Instalar e compartilhar aplicativos em seu dispositivo.](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows)
+- Como enviar solicitações para administradores de IT para aplicativos que não estão disponíveis no momento. Para obter mais informações, [consulte Solicitar um aplicativo para trabalho ou escola.](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows#request-an-app-for-work-or-school)  
 
-## <a name="step-3---communicate-change-to-your-users"></a>Etapa 3-comunicar alterações para seus usuários
-Como administrador de ti da sua organização, é importante permitir que os usuários saibam como usar o portal da empresa em sua organização. O Microsoft Managed desktop recomenda:
-- Etapas de instalação de aplicativos do portal da empresa. Para obter mais informações, consulte [Install and share apps in your Device](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows).
-- Como enviar solicitações para os administradores de ti para aplicativos que não estão disponíveis no momento. Para obter mais informações, consulte [solicitação de um aplicativo para trabalho ou escola](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows#request-an-app-for-work-or-school).  
-
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a usar a área de trabalho gerenciada da Microsoft
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a trabalhar com a Área de Trabalho Gerenciada da Microsoft
 
 1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
 2. [Ajustar o acesso condicional](conditional-access.md)
 3. [Atribuir licenças](assign-licenses.md)
-4. Implantar o portal da empresa do Intune (este tópico)
+4. Implantar o Portal da Empresa do Intune (este tópico)
 5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)
 6. [Configurar dispositivos](set-up-devices.md)
 7. [Preparar usuários para o uso dos dispositivos](get-started-devices.md)

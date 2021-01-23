@@ -1,84 +1,85 @@
 ---
-title: Usar o Microsoft defender para Office 365 junto com o Microsoft defender para ponto de extremidade
+title: Usar o Microsoft Defender para Office 365 em conjunto com o Microsoft Defender para Ponto de Extremidade
 f1.keywords:
 - NOCSH
-keywords: integrar, Microsoft defender, ATP
+keywords: integrar, Microsoft Defender, ATP
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/29/2020
+ms.date: 01/21/2021
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection:
 - M365-security-compliance
-description: Use o Microsoft defender para Office 365 junto com o Microsoft defender para ponto de extremidade para obter informações mais detalhadas sobre as ameaças contra seus dispositivos e conteúdo de email.
+description: Use o Microsoft Defender para Office 365 em conjunto com o Microsoft Defender for Endpoint para obter informações mais detalhadas sobre ameaças contra seus dispositivos e conteúdo de email.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cc78e7d674facb371ea98125b6857502031d26e
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 24b81bb4c445c44d7c0228fa1c4440faff642816
+ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616507"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49939327"
 ---
-# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Usar o Microsoft defender para Office 365 junto com o Microsoft defender para ponto de extremidade
+# <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Usar o Microsoft Defender para Office 365 em conjunto com o Microsoft Defender para Ponto de Extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-[O Microsoft defender para Office 365](office-365-atp.md) pode ser configurado para trabalhar com [o Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection).
+[O Microsoft Defender para Office 365](office-365-atp.md) pode ser configurado para funcionar com [o Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection)
 
-A integração do Microsoft defender para Office 365 com o Microsoft defender para o ponto de extremidade pode ajudar sua equipe de operações de segurança a monitorar e tomar medidas rapidamente se os dispositivos dos usuários estiverem em risco. Por exemplo, depois que a integração estiver habilitada, sua equipe de operações de segurança poderá ver os dispositivos potencialmente afetados por uma mensagem de email detectada, bem como quantos alertas recentes foram gerados para esses dispositivos no Microsoft defender para ponto de extremidade.
+A integração do Microsoft Defender para Office 365 com o Microsoft Defender for Endpoint pode ajudar a equipe de operações de segurança a monitorar e tomar medidas rapidamente se os dispositivos dos usuários estão em risco. Por exemplo, depois que a integração for habilitada, sua equipe de operações de segurança poderá ver os dispositivos potencialmente afetados por uma mensagem de email detectada, bem como quantos alertas recentes foram gerados para esses dispositivos no Microsoft Defender para o Ponto de Extremidade.
 
-A imagem a seguir mostra a aparência da guia **dispositivos** para que a integração do Microsoft defender para ponto de extremidade seja habilitada:
+A imagem a seguir ilustra a aparência da guia **Dispositivos** com a integração do Microsoft Defender for Endpoint habilitada:
 
-![Quando o Microsoft defender para ponto de extremidade estiver habilitado, você poderá ver uma lista de dispositivos com alertas.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
+![Quando o Microsoft Defender para Ponto de Extremidade está habilitado, você pode ver uma lista de dispositivos com alertas.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
 
-Neste exemplo, você pode ver que os destinatários da mensagem de email detectado têm quatro dispositivos e um tem um alerta. Clicar no link de um dispositivo abre sua página no centro de segurança do Microsoft defender ( <https://securitycenter.windows.com> ).
+Neste exemplo, você pode ver que os destinatários da mensagem de email detectada têm quatro dispositivos e um tem um alerta. Clicar no link para um dispositivo abre sua página na Central de Segurança do Microsoft Defender ( <https://securitycenter.windows.com> ).
 
 > [!TIP]
-> **[Saiba mais sobre a central de segurança do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (também conhecida como Microsoft defender para o portal de ponto de extremidade).
+> **[Saiba mais sobre a Central de Segurança do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (também conhecida como portal de ponto de extremidade do Microsoft Defender).
 
 ## <a name="requirements"></a>Requisitos
 
-- Sua organização deve ter o Microsoft defender para Office 365 (ou o Office 365 E5) e o Microsoft defender para ponto de extremidade.
+- Sua organização deve ter o Microsoft Defender para Office 365 (ou Office 365 E5) e o Microsoft Defender para o Ponto de Extremidade.
 
-- Você deve ser um administrador global ou ter uma função de administrador de segurança (como administrador de segurança) atribuída no [centro de conformidade & segurança](https://protection.office.com). (Consulte [permissões no centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md))
+- Você deve ser um administrador global ou ter uma função de administrador de segurança (como o Administrador de Segurança) atribuída no Centro de [& Conformidade](https://protection.office.com)e Segurança. (Consulte [Permissões no Centro de Conformidade e & Segurança)](permissions-in-the-security-and-compliance-center.md)
 
-- Você deve ter acesso ao [Explorer (ou às detecções em tempo real)](threat-explorer.md) no centro de segurança & conformidade e no centro de segurança do Microsoft defender.
+- Você deve ter acesso ao [Explorer (ou](threat-explorer.md) detecções em tempo real) no Centro de Conformidade & segurança e na Central de Segurança do Microsoft Defender.
 
-## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a>Para integrar o Microsoft defender para Office 365 com o Microsoft defender para ponto de extremidade
+## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a>Para integrar o Microsoft Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade
 
-A integração do Microsoft defender para Office 365 com o Microsoft defender para ponto de extremidade é configurada usando o centro de segurança & conformidade e a central de segurança do Microsoft defender.
+A integração do Microsoft Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade é configurada usando o Centro de Conformidade & Segurança e a Central de Segurança do Microsoft Defender.
 
-1. Como administrador global ou administrador de segurança, acesse <https://protection.office.com> e entre. (Isso leva você para o centro de conformidade & segurança do Office 365.)
+1. Como administrador global ou administrador de segurança, acesse <https://protection.office.com> e entre. (Isso leva você ao Centro de Conformidade e Segurança & do Office 365.)
 
-2. No painel de navegação, escolha Gerenciador de **Gerenciamento de ameaças** \> .
+2. No painel de navegação, escolha Explorador **de gerenciamento de** \> **ameaças.**
 
-   ![Gerenciador no menu de gerenciamento de ameaças](../../media/ThreatMgmt-Explorer-nav.png)
+   ![Explorer in Threat Management menu](../../media/ThreatMgmt-Explorer-nav.png)
 
-3. No canto superior direito da tela, escolha **defender para configurações de ponto de extremidade**.
+3. No canto superior direito da tela, escolha Defender para Configurações de Ponto de Extremidade **(Configurações MDE).**
 
-4. Na caixa de diálogo conexão do Microsoft defender para ponto de extremidade, ative **conectar ao Microsoft defender para ponto de extremidade**.
+4. Na caixa de diálogo Conexão do Microsoft Defender para Ponto de Extremidade, a ligue **Conectar-se ao Microsoft Defender para Ponto de Extremidade.**
 
-   ![Conexão de ponto de extremidade do Microsoft defender](../../media/Explorer-WDATPConnection-dialog.png)
+   ![Conexão do Microsoft Defender para Ponto de Extremidade](../../media/Explorer-WDATPConnection-dialog.png)
 
-5. Vá para o centro de segurança do Microsoft defender ( <https://securitycenter.windows.com> ).
+5. Vá para a Central de Segurança do Microsoft Defender ( <https://securitycenter.windows.com> ).
 
-6. Na barra de navegação, escolha **configurações**. Em seguida, em **geral**, escolha **recursos avançados**.
+6. Na barra de navegação, escolha **Configurações.** Em seguida, em **Geral,** escolha **Recursos avançados.**
 
-7. Role para baixo até a **conexão do Office 365 Threat Intelligence** e ative a conexão.
+7. Role para baixo até a conexão de Inteligência contra Ameaças do **Office 365** e a ligue.
 
-   ![Conexão do Office 365 Threat Intelligence](../../media/mdatp-oatptoggle.png)
+   ![Conexão de inteligência contra ameaças do Office 365](../../media/mdatp-oatptoggle.png)
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Recursos de investigação e resposta contra ameaças no Office 365](office-365-ti.md)
+[Recursos de investigação e resposta a ameaças no Office 365](office-365-ti.md)
 
-[Microsoft defender para Office 365](office-365-atp.md)
+[Obter o Microsoft Defender para Office 365](office-365-atp.md)
 
 [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection)

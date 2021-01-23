@@ -18,20 +18,28 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: A prevenção contra perda de dados (DLP) no Centro de Conformidade de Segurança inclui 80 tipos de informações confidenciais que estão prontos para uso em suas &amp; políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo.
-ms.openlocfilehash: 584e2fe2353c1f80545a3742a44163cb26ee2c29
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.openlocfilehash: b70f335fd0742e6bc34957058c6e695530e83507
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881780"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49927124"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
-A prevenção contra perda de dados (DLP) no Centro de Conformidade inclui vários tipos de informações confidenciais que estão prontos para uso em suas políticas de DLP. Este tópico lista todos os tipos de informações confidenciais e mostra o que uma política de DLP procura ao detectar cada tipo. Um tipo de informação confidencial é definido por um padrão que pode ser identificado por uma função ou uma expressão regular. Além disso, evidências corroborativas, como palavras-chave e somas de verificação, podem ser usadas para identificar um tipo de informação confidencial. O nível de confiança e a proximidade também são usados no processo de avaliação.
+Um tipo de informação confidencial é definido por um padrão que pode ser identificado por uma função ou uma expressão regular. Além disso, evidências corroborativas, como palavras-chave e somas de verificação, podem ser usadas para identificar um tipo de informação confidencial. O nível de confiança e a proximidade também são usados no processo de avaliação.
 
 Os tipos de informações confidenciais exigem uma destas assinaturas:
 - Microsoft 365 E3
 - Microsoft 365 E5
+
+Os tipos de informações confidenciais são usados em:
+
+- [Políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) 
+- [Rótulos de confidencialidade](sensitivity-labels.md)
+- [Rótulos de retenção](retention.md)
+- [Conformidade em comunicações](communication-compliance.md)
+- [Políticas de rotulagem automática](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
 ## <a name="aba-routing-number"></a>Número de roteamento ABA
 
@@ -56,11 +64,11 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política tem confiança média de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_aba_routing localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ABA_Routing for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_aba_routing localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -119,7 +127,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_argentina_national_id localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_argentina_national_id for encontrada.
 
@@ -168,12 +176,12 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_australia_bank_account_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_australia_bank_account_number for encontrada.
 - A expressão regular Regex_australia_bank_account_number_bsb localiza o conteúdo que corresponde ao padrão.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_australia_bank_account_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_australia_bank_account_number for encontrada.
 
@@ -241,11 +249,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_australian_business_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_australian_business_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_australian_business_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -301,11 +309,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_Australian_Company_Number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Australian_Company_Number for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_Australian_Company_Number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -361,7 +369,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_australia_drivers_license_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_australia_drivers_license_number for encontrada.
 - Nenhuma palavra-chave de Keyword_australia_drivers_license_number_exclusions for encontrada.
@@ -503,7 +511,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_australian_medical_account_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_Australia_Medical_Account_Number for encontrada.
 - A soma de verificação passa.
@@ -550,7 +558,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_australia_passport_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_passport ou Keyword_australia_passport_number for encontrada.
 
@@ -626,7 +634,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_australian_tax_file_number localiza conteúdo que corresponde ao padrão.
 - Nenhuma palavra-chave de Keyword_Australia_Tax_File_Number ou Keyword_number_exclusions for encontrada.
 - A soma de verificação passa.
@@ -671,7 +679,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A expressão regular  `Regex_austria_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_austria_eu_driver's_license_number` ou for encontrada. 
@@ -837,7 +845,7 @@ Uma combinação de 24 caracteres de letras, dígitos e caracteres especiais
 
 24 caracteres:
   
--  22 letras (não sensíveis a maiúsculas e minúsculas), dígitos, barras in backslashes, barras ou sinais de mais 
+-  22 letras (não sensíveis a maiúsculas e minúsculas), dígitos, barras in backslashes, barras ou sinais de a mais 
     
 - duas letras (não sensíveis a maiúsculas e minúsculas), dígitos, barras in backslashes, barras para frente, sinais de mais ou sinais de igual
     
@@ -847,7 +855,7 @@ Não aplicável
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A expressão regular  `Regex_austria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_austria_eu_national_id_card` de onde foi encontrada. 
@@ -890,12 +898,12 @@ não se aplica
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_austria_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_austria_eu_passport_number` ou for encontrada. 
-- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
+- A expressão regular localiza a data no formato `Regex_eu_passport_date1` DD.MM.AAAA ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_austria_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_austria_eu_passport_number` ou for encontrada. 
     
@@ -969,11 +977,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
 - uma palavra-chave  `Keywords_austria_eu_ssn_or_equivalent` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_austria_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -1043,11 +1051,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_austria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_austria_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_austria_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -1121,11 +1129,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_Austria_Value_Added_Tax localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Austria_Value_Added_Tax for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_Austria_Value_Added_Tax localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -1181,7 +1189,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzureDocumentDBAuthKey localiza conteúdo que corresponde ao padrão.
 - A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
@@ -1241,7 +1249,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzureConnectionString localiza conteúdo que corresponde ao padrão.
 - A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
@@ -1301,7 +1309,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzureIoTConnectionString localiza conteúdo que corresponde ao padrão.
 - A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
@@ -1351,7 +1359,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzurePublishSettingPasswords localiza conteúdo que corresponde ao padrão.
 - A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
@@ -1407,7 +1415,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzureRedisCacheConnectionString localiza conteúdo que corresponde ao padrão.
 - A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
@@ -1461,7 +1469,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzureSAS localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -1501,7 +1509,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzureServiceBusConnectionString localiza conteúdo que corresponde ao padrão.
 - A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
 
@@ -1559,7 +1567,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzureStorageAccountKey localiza conteúdo que corresponde ao padrão.
 - A expressão regular CEP_AzureEmulatorStorageAccountFilter **não encontra** conteúdo que corresponde ao padrão.
 - A expressão regular CEP_CommonExampleKeywords **não encontra** conteúdo que corresponde ao padrão.
@@ -1617,7 +1625,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_AzureStorageAccountKeyGeneric localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -1644,7 +1652,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_belgium_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave `Keywords_eu_driver's_license_number` de `Keywords_belgium_eu_driver's_license_number` ou for encontrada.
     
@@ -1821,12 +1829,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_belgium_national_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_belgium_national_number for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_belgium_national_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -1920,12 +1928,12 @@ não se aplica
   
 ### <a name="definition"></a>Definição
 
- Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+ Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_belgium_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_belgium_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date2` localiza data no formato DD MM AA ou uma palavra-chave de ou é `Keywords_eu_passport_date` `Keywords_belgium_eu_passport_number` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_belgium_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_belgium_eu_passport_number` ou for encontrada. 
 
@@ -2017,11 +2025,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_belgium_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_belgium_value_added_tax_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_belgium_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -2078,12 +2086,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_brazil_cpf localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_brazil_cpf for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_brazil_cpf localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -2141,12 +2149,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_brazil_cnpj localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_brazil_cnpj for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_brazil_cnpj localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -2218,12 +2226,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_brazil_rg localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_brazil_rg for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_brazil_rg localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -2270,7 +2278,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_bulgaria_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_bulgaria_eu_driver's_license_number` ou for encontrada. 
     
@@ -2446,11 +2454,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_bulgaria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_bulgaria_eu_national_id_card` de onde foi encontrada. 
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_bulgaria_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -2534,12 +2542,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_bulgaria_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_bulgaria_eu_passport_number` ou for encontrada. 
-- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
+- A expressão regular localiza a data no formato `Regex_eu_passport_date1` DD.MM.AAAA ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_bulgaria_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_bulgaria_eu_passport_number` ou for encontrada. 
 
@@ -2615,12 +2623,12 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_canada_bank_account_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_canada_bank_account_number for encontrada.
 - A expressão regular Regex_canada_bank_account_transit_number localiza o conteúdo que corresponde ao padrão.
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_canada_bank_account_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_canada_bank_account_number for encontrada.
 
@@ -2682,7 +2690,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_[province_name]_drivers_license_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_[province_name]_drivers_license_name for encontrada.
 - Uma palavra-chave de Keyword_canada_drivers_license for encontrada.
@@ -2900,7 +2908,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_canada_health_service_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_canada_health_service_number for encontrada.
 
@@ -2926,7 +2934,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - speciality services
 - automobile accident
 - patient hospital
-- ad
+- ad.
 - workers compensation
 - deficiência
 
@@ -2947,7 +2955,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_canada_passport_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_canada_passport_number ou Keyword_passport for encontrada.
 
@@ -2989,7 +2997,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - パスポート
 - パスポート番号
 - パ ポトスNum
-- パスポート#
+- パスポート＃
 - Numéro de passeport
 - Passeport n °
 - Passeport Non
@@ -2999,7 +3007,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - Passeportn °
 
    
-## <a name="canada-personal-health-identification-number-phin"></a>Número de identificação de saúde pessoal do Canadá (PHIN)
+## <a name="canada-personal-health-identification-number-phin"></a>Número de identificação de saúde pessoal (PHIN) do Canadá
 
 ### <a name="format"></a>Formatar
 
@@ -3015,7 +3023,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_canada_phin localiza o conteúdo que corresponde ao padrão.
 - Pelo menos duas palavras-chave de Keyword_canada_phin ou Keyword_canada_provinces são encontradas.
 
@@ -3093,7 +3101,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_canadian_sin localiza conteúdo que corresponde ao padrão.
 - Pelo menos duas de qualquer combinação do seguinte:
     - Uma palavra-chave de Keyword_sin for encontrada.
@@ -3101,7 +3109,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
     - A função Func_eu_date encontra uma data no formato de data à direita.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_unformatted_canadian_sin localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_sin for encontrada.
 - A soma de verificação passa.
@@ -3163,7 +3171,7 @@ sete a oito dígitos mais delimitadores um dígito de verificação ou letra
 ### <a name="pattern"></a>Padrão
 
 sete a oito dígitos mais delimitadores:
-- de um a dois dígitos 
+- um a dois dígitos 
 - um período opcional 
 - três dígitos 
 - um período opcional 
@@ -3177,12 +3185,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_chile_id_card localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_chile_id_card for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_chile_id_card localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -3259,12 +3267,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_china_resident_id localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_china_resident_id for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_china_resident_id localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -3301,7 +3309,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 ### <a name="format"></a>Formatar
 
-14 a 16 dígitos que podem ser formatados ou não formatados (ddddd) e que devem passar no teste luhn.
+14 a 16 dígitos que podem ser formatados ou não formatados (dddd) e que devem passar no teste luhn.
 
 ### <a name="pattern"></a>Padrão
 
@@ -3313,7 +3321,7 @@ Sim, a soma de verificação Luhn
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_credit_card localiza conteúdo que corresponde ao padrão.
 - Uma das seguintes opções for verdadeira:
     - Uma palavra-chave de Keyword_cc_verification for encontrada.
@@ -3321,7 +3329,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
     - A função Func_expiration_date encontra uma data no formato de data à direita.
 - A soma de verificação passa.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_credit_card localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -3566,13 +3574,13 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - não. do cartao
 - クレジットカード番号
 - クレジットカードナンバー
-- クレジットカード#
+- クレジットカード＃
 - クレジットカード
 - クレジット
 - クレカ
 - カード番号
 - カードナンバー
-- カード#
+- カード＃
 - アメックス
 - アメリカンエクスプレス
 - アメリカン エクスプレス
@@ -3611,7 +3619,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A expressão regular  `Regex_croatia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave `Keywords_eu_driver's_license_number` de `Keywords_croatia_eu_driver's_license_number` ou for encontrada. 
@@ -3760,7 +3768,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 
 ## <a name="croatia-identity-card-number"></a>Número do cartão de identidade croata
-Essa entidade de tipo de informação sensível está incluída no tipo de informação sensível ao Número de Identificação Nacional da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
+Essa entidade de tipo de informação confidenciais está incluída no tipo de informação sensível ao Número de Identificação Nacional da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
 
 ### <a name="format"></a>Formatar
 
@@ -3776,7 +3784,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_croatia_id_card localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_croatia_id_card for encontrada.
 
@@ -3813,7 +3821,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -3840,12 +3848,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_croatia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_croatia_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_croatia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_croatia_eu_passport_number` ou for encontrada. 
     
@@ -3911,12 +3919,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_croatia_oib_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_croatia_eu_tax_file_number for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_croatia_oib_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -3956,7 +3964,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -3983,7 +3991,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_cyprus_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_cyprus_eu_driver's_license_number` ou for encontrada.
 
@@ -4152,7 +4160,7 @@ não se aplica
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_cyprus_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_cyprus_eu_national_id_card` de onde foi encontrada. 
     
@@ -4194,12 +4202,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_cyprus_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_cyprus_eu_passport_number` ou for encontrada. 
-- A expressão regular `Regex_cyprus_eu_passport_date` localiza a data no formato DD/MM/AAAA ou uma palavra-chave de onde foi `Keywords_cyprus_eu_passport_date` encontrada
+- A expressão regular localiza a data no formato `Regex_cyprus_eu_passport_date` DD/MM/AAAA ou uma palavra-chave de `Keywords_cyprus_eu_passport_date` onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_cyprus_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_cyprus_eu_passport_number` ou for encontrada.  
     
@@ -4288,11 +4296,11 @@ não se aplica
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_cyprus_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_cyprus_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_cyprus_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -4360,7 +4368,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_czech_republic_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_czech_republic_eu_driver's_license_number` ou for encontrada. 
 
@@ -4524,12 +4532,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_czech_republic_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_czech_republic_eu_passport_number` ou for encontrada. 
-- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
+- A expressão regular localiza a data no formato `Regex_eu_passport_date1` DD.MM.AAAA ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_czech_republic_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_czech_republic_eu_passport_number` ou for encontrada. 
     
@@ -4610,13 +4618,13 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 
 - A função Func_czech_id_card localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_czech_id_card for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 
 - A função Func_czech_id_card_new_format localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
@@ -4702,7 +4710,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_denmark_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_denmark_eu_driver's_license_number` ou for encontrada. 
     
@@ -4864,12 +4872,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_denmark_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_denmark_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date2` localiza a data no formato DD MM AA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_denmark_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_denmark_eu_passport_number` ou for encontrada. 
     
@@ -4922,7 +4930,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="denmark-personal-identification-number"></a>Número de identificação pessoal da Dinamarca
@@ -4944,12 +4952,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Func_denmark_eu_tax_file_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_denmark_id for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Func_denmark_eu_tax_file_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -5061,12 +5069,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_dea_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave `Keyword_dea_number` de onde foi encontrada
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_dea_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -5119,7 +5127,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_estonia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_estonia_eu_driver's_license_number` ou for encontrada. 
     
@@ -5283,7 +5291,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
 
 11 dígitos:
   
-- um dígito que corresponde ao sexo e ao gênero de nascimento (número ímpar do sexo, número par de mulheres; 1-2: décimo-nove; 3-4: 20º aniversário; 5-6: 21 do séc)
+- um dígito que corresponde ao sexo e ao gênero de nascimento (número ímpar adulto, número par de mulheres; 1-2: décimo-nove; 3-4: séc. 20; 5-6: 21 do séc)
 - seis dígitos que correspondem à data de nascimento (AAMMDD)
 - três dígitos que correspondem a um número de série separando pessoas na mesma data
 - um dígito de verificação
@@ -5294,11 +5302,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_estonia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_estonia_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_estonia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -5370,12 +5378,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_estonia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_estonia_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_estonia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_estonia_eu_passport_number` ou for encontrada. 
     
@@ -5444,7 +5452,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_eu_debit_card localiza conteúdo que corresponde ao padrão.
 - Pelo menos uma das seguintes opções for verdadeira:
     - Uma palavra-chave de Keyword_eu_debit_card for encontrada.
@@ -5584,7 +5592,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - kreditkarteninstitut 
 - kreditkartennummer 
 - kreditkartentyp 
-- porque 
+- que 
 - master card 
 - master cards 
 - mastercard 
@@ -5814,7 +5822,7 @@ Estas são as entidades no tipo de informação sensível ao Número de Carteira
 
 ## <a name="eu-national-identification-number"></a>Número de identificação nacional da UE
 
-Estas são as entidades do tipo de informação sensível ao Número de Identificação Nacional da UE.
+Essas são as entidades no tipo de informação sensível ao Número de Identificação Nacional da UE.
 
 - [Áustria ](#austria-identity-card)
 - [Bélgica](#belgium-national-number)
@@ -5953,7 +5961,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_finland_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_finland_eu_driver's_license_number` ou for encontrada. 
     
@@ -6133,7 +6141,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A regex Regex_Finland_European_Health_Insurance_Number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Finland_European_Health_Insurance_Number for encontrada.
 
@@ -6187,12 +6195,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - a função Func_finnish_national_id localiza conteúdo que corresponde ao padrão
 - uma palavra-chave Keyword_finnish_national_id for encontrada
 - as passagens de verificação
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - a função Func_finnish_national_id localiza conteúdo que corresponde ao padrão
 - as passagens de verificação
 
@@ -6241,7 +6249,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -6276,7 +6284,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_finland_passport_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_eu_passport_number_common ou Keyword_finland_passport_number for encontrada.
 
@@ -6334,7 +6342,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - a função Func_french_drivers_license localiza conteúdo que corresponde ao padrão.
 - uma palavra-chave Keyword_french_drivers_license for encontrada.
 
@@ -6507,7 +6515,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - a regex Regex_France_Health_Insurance_Number localiza conteúdo que corresponde ao padrão.
 - uma palavra-chave Keyword_France_Health_Insurance_Number for encontrada.
 
@@ -6545,7 +6553,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_france_cni localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_france_eu_national_id_card for encontrada.
 
@@ -6596,7 +6604,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_fr_passport localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_passport for encontrada.
 
@@ -6659,7 +6667,7 @@ Uma política de DLP tem 95% de certeza de que ela detectou este tipo de informa
 - Uma palavra-chave de Keyword_fr_insee for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_french_insee ou Func_fr_insee localiza conteúdo que corresponde ao padrão.
 - Nenhuma palavra-chave de Keyword_fr_insee for encontrada.
 - A soma de verificação passa.
@@ -6738,11 +6746,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_france_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_france_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_france_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -6818,11 +6826,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_france_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_france_value_added_tax_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_france_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -6874,7 +6882,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_german_drivers_license localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_german_drivers_license_number for encontrada.
 - A soma de verificação passa.
@@ -6905,7 +6913,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - lpscheinnummer
 - fuehrerscheinnummer
 - führerschein- 
-- queschein- 
+- chesschein- 
 - fuehrerschein- 
 - führerscheinnummernr
 - lpscheinnummernr
@@ -7064,7 +7072,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_germany_id_card localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_germany_id_card for encontrada.
 
@@ -7117,12 +7125,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_german_passport localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave `Keyword_german_passport` de `Keywords_eu_passport_number_common` ou for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_german_passport_data localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave `Keyword_german_passport` de `Keywords_eu_passport_number_common` ou for encontrada.
 - A soma de verificação passa.
@@ -7200,11 +7208,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_germany_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_germany_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_germany_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -7235,7 +7243,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -7280,11 +7288,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_germany_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_germany_value_added_tax_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_germany_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -7328,7 +7336,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_greece_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_greece_eu_driver's_license_number` ou for encontrada. 
     
@@ -7501,11 +7509,11 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_greece_id_card localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_greece_id_card for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_greece_id_card localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -7551,12 +7559,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_greece_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_greece_eu_passport_number` ou for encontrada. 
 - A expressão regular localiza a data no formato `Regex_greece_eu_passport_date` DD MMM AA (Exemplo - 28 de agosto de 19) ou uma palavra-chave de `Keywords_greece_eu_passport_date` onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_greece_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_greece_eu_passport_number` ou for encontrada. 
     
@@ -7630,11 +7638,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_greece_eu_ssn` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_greece_eu_ssn_or_equivalent` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_greece_eu_ssn` localiza conteúdo que corresponde ao padrão. 
 
 ```xml
@@ -7686,7 +7694,7 @@ Não aplicável
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A expressão regular  `Regex_greece_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_greece_eu_tax_file_number` de onde foi encontrada. 
@@ -7752,12 +7760,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_hong_kong_id_card localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_hong_kong_id_card for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_hong_kong_id_card localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -7836,7 +7844,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A expressão regular  `Regex_hungary_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_hungary_eu_driver's_license_number` ou for encontrada. 
@@ -8000,7 +8008,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
 
 11 dígitos:
   
-- Um dígito que corresponde ao sexo (1 adulto, 2 homens, 2 mulheres, outros números também são possíveis para cidadãos que já foram homens antes de 1900 ou cidadãos com dupla cidadania) 
+- Um dígito que corresponde ao sexo (1 adulto, 2 homens, 2 mulheres, outros números também são possíveis para cidadãos que já têm 1900 ou cidadãos com dupla cidadania) 
 - Seis dígitos que correspondem à data de nascimento (AAMMDD)
 - Três dígitos que correspondem a um número de série
 - Um dígito de verificação
@@ -8011,12 +8019,12 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_hungary_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
@@ -8066,12 +8074,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_hungary_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_hungary_eu_passport_number` ou for encontrada. 
 - A expressão regular localiza a data no formato `Regex_hungary_eu_passport_date` DD MMM/MMM AA (Exemplo - 01 MÁR/MAR 12) ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_hungary_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_hungary_eu_passport_number` ou for encontrada. 
     
@@ -8136,12 +8144,12 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_hungary_eu_ssn_or_equivalent` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_ssn_or_equivalent` localiza conteúdo que corresponde ao padrão. 
     
@@ -8207,12 +8215,12 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_hungary_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A função  `Func_hungary_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
@@ -8250,7 +8258,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -8288,12 +8296,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 
 - A função Func_hungarian_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_hungarian_value_added_tax_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 
 - A função Func_hungarian_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
@@ -8348,11 +8356,11 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_india_permanent_account_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_india_permanent_account_number for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_india_permanent_account_number localiza conteúdo que corresponde ao padrão.
 
 
@@ -8400,12 +8408,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_india_aadhaar localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_india_aadhar for encontrada.
 - A soma de verificação passa.
 - 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 
 - A função Func_india_aadhaar localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
@@ -8456,7 +8464,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 
 - A expressão regular Regex_indonesia_id_card localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_indonesia_id_card for encontrada.
@@ -8503,7 +8511,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 
 - A função Func_iban localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
@@ -8537,11 +8545,11 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - Uma palavra-chave Dictionary_icd_10_updated for encontrada.
 - Uma palavra-chave Dictionary_icd_10_codes for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - Uma palavra-chave Dictionary_icd_10_ atualizada for encontrada.
 
 ```xml
@@ -8579,11 +8587,11 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - Uma palavra-chave Dictionary_icd_9_updated for encontrada.
 - Uma palavra-chave Dictionary_icd_9_codes for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - Uma palavra-chave Dictionary_icd_9_updated for encontrada.
 
 ```xml
@@ -8622,7 +8630,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Para IPv6, uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Para IPv6, uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_ipv6_address localiza o conteúdo que corresponde ao padrão.
 - Nenhuma palavra-chave de Keyword_ipaddress for encontrada.
 
@@ -8679,7 +8687,7 @@ Seis dígitos seguidos por quatro letras
 Seis dígitos e quatro letras:
   
 - Seis dígitos
-- Quatro letras (não sensíveis a maiúsculas e minúsculas)
+- Quatro letras (não são sensíveis a maiúsculas e minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -8687,7 +8695,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
   
 - A expressão regular  `Regex_ireland_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_ireland_eu_driver's_license_number` ou for encontrada. 
@@ -8853,12 +8861,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_ireland_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_ireland_eu_passport_number` ou for encontrada. 
 - A expressão regular localiza a data no formato `Regex_ireland_eu_passport_date` DD MMM/MMM AAAY (Exemplo - 01 BEA/MAIO de 1988) ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_ireland_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_ireland_eu_passport_number` ou for encontrada.
     
@@ -8914,7 +8922,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="ireland-personal-public-service-pps-number"></a>Número de serviço público pessoal (PPS) da Irlanda
@@ -8944,12 +8952,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_ireland_pps localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_ireland_eu_national_id_card for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_ireland_pps localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -9003,7 +9011,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -9038,7 +9046,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_israel_bank_account_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_israel_bank_account_number for encontrada.
 
@@ -9079,7 +9087,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_israeli_national_id_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_Israel_National_ID for encontrada.
 - A soma de verificação passa.
@@ -9138,7 +9146,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_italy_drivers_license_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_italy_drivers_license_number for encontrada.
 
@@ -9193,11 +9201,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_italy_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_italy_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_italy_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -9231,7 +9239,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - código de ID pessoal
 - número de ID pessoal
 - personalcodeno #
-- código fiscal
+- tax code
 - tax id
 - tax identification no
 - tax identification number
@@ -9270,12 +9278,12 @@ não se aplica
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_italy_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_italy_eu_passport_number` ou for encontrada. 
 - A expressão regular localiza a data no formato `Regex_italy_eu_passport_date` DD MMM/MMM AAAA (Exemplo - 01 GEN/JAN 1988) ou uma palavra-chave de onde `Keywords_eu_passport_date` foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_italy_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_italy_eu_passport_number` ou for encontrada. 
     
@@ -9361,11 +9369,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_italy_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_italy_value_added_tax_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_italy_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -9413,14 +9421,14 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_jp_bank_account localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_jp_bank_account for encontrada.
 - Uma das seguintes opções for verdadeira:
 - A função Func_jp_bank_account_branch_code localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_jp_bank_branch_code for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_jp_bank_account localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_jp_bank_account for encontrada.
 
@@ -9511,7 +9519,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_jp_drivers_license_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_jp_drivers_license_number for encontrada.
 
@@ -9591,11 +9599,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_japanese_my_number_corporate localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_japanese_my_number_corporate for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_japanese_my_number_corporate localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -9655,11 +9663,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_japanese_my_number_personal localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_japanese_my_number_personal for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_japanese_my_number_personal localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -9707,7 +9715,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_jp_passport localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_jp_passport for encontrada.
 
@@ -9732,11 +9740,11 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - パスポート
 - パスポート番号
 - パスポートナンバー
-- パスポート#
+- パスポート＃
 - パスポート #
 - パ ポトNo.
 - 旅券番号
-- 旅券番号#
+- 旅券番号＃
 - 旅券番号♯
 - 旅券ナンバー
 
@@ -9760,7 +9768,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_jp_residence_card_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_jp_residence_card_number for encontrada.
 
@@ -9801,7 +9809,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_jp_resident_registration_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_jp_resident_registration_number for encontrada.
 
@@ -9851,11 +9859,11 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_jp_sin localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_jp_sin for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_jp_sin_pre_1997 localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_jp_sin for encontrada.
 
@@ -9916,7 +9924,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_latvia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_latvia_eu_driver's_license_number` ou for encontrada. 
     
@@ -10093,11 +10101,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_latvia_eu_national_id_card` ou regex `Regex_latvia_eu_national_id_card_new_format` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_latvia_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_latvia_eu_national_id_card` ou regex `Regex_latvia_eu_national_id_card_new_format` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -10213,12 +10221,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_latvia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_latvia_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_latvia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_latvia_eu_passport_number` ou for encontrada. 
     
@@ -10292,7 +10300,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_lithuania_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_lithuania_eu_driver's_license_number` ou for encontrada. 
     
@@ -10433,7 +10441,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - dl number
 
 
-#### <a name="keywords_lithuania_eu_drivers_license_number"></a>Keywords_lithuania_eu_driver é s_license_number
+#### <a name="keywords_lithuania_eu_drivers_license_number"></a>Keywords_lithuania_eu_driver's_license_number
 
 - vairuotojo pažymėjimas
 - vairuotojo pažymėjimo numeris
@@ -10466,11 +10474,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_lithuania_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_lithuania_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_lithuania_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -10512,7 +10520,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -10543,12 +10551,12 @@ não se aplica
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_lithuania_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_lithuania_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date3` localiza a data no formato DD MM AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_lithuania_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_lithuania_eu_passport_number` ou for encontrada. 
     
@@ -10600,7 +10608,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="luxemburg-drivers-license-number"></a>Número de carteira de motorista de Luxemburgo
@@ -10619,7 +10627,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_luxemburg_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_luxemburg_eu_driver's_license_number` ou for encontrada. 
     
@@ -10765,7 +10773,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - fahrerlaubnis
 - Führerschäin
 
-## <a name="luxemburg-national-identification-number-natural-persons"></a>Número de identificação nacional (pessoas físicas) de Luxemburgo
+## <a name="luxemburg-national-identification-number-natural-persons"></a>Número de identificação nacional de Luxemburgo (pessoas físicas)
 Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
@@ -10790,11 +10798,11 @@ sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_luxemburg_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_luxemburg_eu_national_id_card` de onde foi encontrada. 
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_luxemburg_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 
 
@@ -10856,12 +10864,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_luxemburg_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_luxemburg_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date3` localiza a data no formato DD MM AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_luxemburg_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_luxemburg_eu_passport_number` ou for encontrada. 
     
@@ -10952,11 +10960,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_luxemburg_eu_tax_file_number_non_natural` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_luxemburg_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_luxemburg_eu_tax_file_number_non_natural` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -11005,7 +11013,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -11031,7 +11039,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - seis dígitos no formato AAMMDD que são a data de nascimento 
 - um travessão (opcional) 
 - código de local de nascimento de duas letras 
-- um travessão (opcional) 
+- um traço (opcional) 
 - três dígitos aleatórios 
 - código de gênero de um dígito
 
@@ -11041,7 +11049,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_malaysia_id_card_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_malaysia_id_card_number for encontrada.
 
@@ -11107,7 +11115,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_malta_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_malta_eu_driver's_license_number` ou for encontrada. 
     
@@ -11279,11 +11287,11 @@ Não aplicável
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_malta_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_malta_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_malta_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -11335,12 +11343,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_malta_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_malta_eu_passport_number` ou for encontrada. 
 - Uma palavra-chave `Keywords_eu_passport_date` de onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_malta_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_malta_eu_passport_number` ou for encontrada. 
     
@@ -11419,11 +11427,11 @@ Não aplicável
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A regex  `Regex_malta_eu_tax_file_number`  ou localiza conteúdo que corresponde ao `Regex_malta_eu_tax_file_number_non_maltese_national` padrão. 
 - Uma palavra-chave  `Keywords_malta_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A regex  `Regex_malta_eu_tax_file_number` ou localiza conteúdo que corresponde ao `Regex_malta_eu_tax_file_number_non_maltese_national` padrão. 
     
 ```xml
@@ -11502,7 +11510,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_netherlands_bsn localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_netherlands_bsn for encontrada.
 - A soma de verificação passa.
@@ -11559,7 +11567,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_netherlands_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_netherlands_eu_driver's_license_number` ou for encontrada. 
     
@@ -11726,12 +11734,12 @@ não se aplica
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_netherlands_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_netherlands_eu_passport_number` ou for encontrada. 
 - A expressão regular localiza a data no formato `Regex_netherlands_eu_passport_date` DD MMM/MMM AAAY (Exemplo - 26 MAA/MAR 2012)
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_netherlands_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_netherlands_eu_passport_number` ou for encontrada. 
     
@@ -11800,11 +11808,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_netherlands_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_netherlands_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_netherlands_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -11840,7 +11848,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - netherlands tax identification
 - netherland's tax identification
 - netherlands tin
-- tin dos países baixos
+- tin dos Países Baixos
 - tax id
 - tax identification no
 - tax identification number
@@ -11891,11 +11899,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_netherlands_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_netherlands_value_added_tax_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_netherlands_value_added_tax_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -11918,12 +11926,12 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - número do iva
 - vat no
 - vat #
-- getal de imposto do wearde tafoege
+- getal imposto wearde tafoege
 - btw nūmer
 - btw-nummer
 
 
-## <a name="new-zealand-bank-account-number"></a>Número de conta bancária da Nova Zelândia
+## <a name="new-zealand-bank-account-number"></a>Número da conta bancária da Nova Zelândia
 Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
@@ -11954,11 +11962,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_zealand_bank_account_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_new_zealand_bank_account_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_zealand_bank_account_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -12010,11 +12018,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_newzealand_driver_license_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_newzealand_driver_license_number for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_newzealand_driver_license_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -12128,11 +12136,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_zealand_inland_revenue_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_new_zealand_inland_revenue_number for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_zealand_inland_revenue_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -12178,12 +12186,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_zealand_ministry_of_health_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_nz_terms for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_zealand_ministry_of_health_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -12245,11 +12253,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_newzealand_social_welfare_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_newzealand_social_welfare_number for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_newzealand_social_welfare_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -12296,12 +12304,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_norway_id_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_norway_id_number for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_norway_id_numbe localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -12351,7 +12359,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_philippines_unified_id localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_philippines_id for encontrada.
 
@@ -12396,7 +12404,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_poland_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_poland_eu_driver's_license_number` ou for encontrada. 
     
@@ -12540,7 +12548,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_poland_eu_drivers_license_number"></a>Keywords_poland_eu_driver é s_license_number
 
 - prawo quedasdy
-- prawa não se pode fazer isso
+- prawa não se pode mais
 
 ## <a name="poland-identity-card"></a>Cartão de identidade polônia
 
@@ -12550,7 +12558,7 @@ três letras e seis dígitos
 
 ### <a name="pattern"></a>Padrão
 
-três letras (não sensíveis a maiúsculas e minúsculas) seguidas por seis dígitos
+três letras (não sensíveis a maiúsculas e minúsculas) seguidas de seis dígitos
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -12558,7 +12566,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_polish_national_id localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_polish_national_id_passport_number for encontrada.
 - A soma de verificação passa.
@@ -12577,7 +12585,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 #### <a name="keyword_poland_national_id_passport_number"></a>Keyword_poland_national_id_passport_number
 
-- Dowód osobisty
+- Osobisty do dowód
 - Numer dowodu osobistego
 - Nazwa i numer dowodu osobistego
 - Nazwa i nr dowodu osobistego
@@ -12604,12 +12612,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_pesel_identification_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_pesel_identification_number for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_pesel_identification_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -12658,7 +12666,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_polish_passport_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_polish_national_id_passport_number for encontrada.
 - A soma de verificação passa.
@@ -12709,11 +12717,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_polish_regon_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_polish_regon_number for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_polish_regon_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -12770,7 +12778,7 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_poland_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_poland_eu_tax_file_number` de onde foi encontrada. 
     
@@ -12800,7 +12808,7 @@ Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -12834,7 +12842,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_portugal_citizen_card localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_portugal_citizen_card for encontrada.
 
@@ -12900,7 +12908,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_portugal_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_portugal_eu_driver's_license_number` ou for encontrada. 
     
@@ -13064,7 +13072,7 @@ uma letra seguida por seis dígitos sem espaços ou delimitadores
 
 uma letra seguida por seis dígitos:
   
-- uma letra (não sensível a letras minúsculas)
+- uma letra (não sensitivo entre letras minúsculas)
 - seis dígitos
     
 ### <a name="checksum"></a>Soma de verificação
@@ -13073,12 +13081,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_portugal_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_portugal_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_portugal_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_portugal_eu_passport_number` ou for encontrada.
     
@@ -13160,11 +13168,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_portugal_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_portugal_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_portugal_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -13226,7 +13234,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_romania_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_romania_eu_driver's_license_number` ou for encontrada. 
     
@@ -13371,7 +13379,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 
 - permis decere
 - permisului decere
-- permisului conduzcere
+- permisului propcere
 - permisele decere
 - permisele conduzcere
 - permis conduzcere
@@ -13401,11 +13409,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_romania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_romania_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_romania_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -13474,7 +13482,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - uniqueidentityno #
 - uniqueidentityno
 
-## <a name="romania-passport-number"></a>Número de passaporte romênia
+## <a name="romania-passport-number"></a>Número de passaporte da Romênia
 
 ### <a name="format"></a>Formatar
 
@@ -13490,12 +13498,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_romania_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_romania_eu_passport_number` ou for encontrada. 
 - A expressão regular localiza a data no formato `Regex_romania_eu_passport_date` DD MMM/MMM AA (Exemplo- 01 FEB/FEB 10) ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_romania_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_romania_eu_passport_number` ou for encontrada. 
     
@@ -13576,7 +13584,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A regex Regex_Russian_Passport_Number_Domestic localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Russian_Passport_Number for encontrada.
 
@@ -13636,7 +13644,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A regex Regex_Russian_Passport_Number_International localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Russian_Passport_Number for encontrada.
 
@@ -13686,7 +13694,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_saudi_arabia_national_id localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_saudi_arabia_national_id for encontrada.
 
@@ -13731,12 +13739,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_singapore_nric localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_singapore_nric for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_singapore_nric localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -13785,7 +13793,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_slovakia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_slovakia_eu_driver's_license_number` ou for encontrada. 
     
@@ -13958,11 +13966,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_slovakia_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -14044,12 +14052,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_slovakia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_slovakia_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_slovakia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_slovakia_eu_passport_number` ou for encontrada. 
     
@@ -14122,7 +14130,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_slovenia_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_slovenia_eu_driver's_license_number` ou for encontrada. 
     
@@ -14298,11 +14306,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_slovenia_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -14368,12 +14376,12 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_slovenia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_slovenia_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_slovenia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_slovenia_eu_passport_number` ou for encontrada. 
     
@@ -14428,7 +14436,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="slovenia-tax-identification-number"></a>Número de identificação fiscal da Eslovênia
@@ -14455,11 +14463,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_slovenia_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -14523,7 +14531,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_south_africa_identification_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_south_africa_identification_number for encontrada.
 - A soma de verificação passa.
@@ -14568,12 +14576,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_south_korea_resident_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_south_korea_resident_number for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_south_korea_resident_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -14619,11 +14627,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_spain_eu_DL_and_NI_number_citizen` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_foreigner` padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_spain_eu_driver's_license_number` ou for encontrada. 
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_spain_eu_DL_and_NI_number_citizen` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_foreigner` padrão. 
     
 ```xml
@@ -14817,11 +14825,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_spain_eu_DL_and_NI_number_citizen` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_foreigner` padrão. 
 - Uma palavra-chave  `Keywords_spain_eu_national_id_card"` de onde foi encontrada. 
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_spain_eu_DL_and_NI_number_citizen` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_foreigner` padrão. 
 
     
@@ -14891,12 +14899,12 @@ Não aplicável
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_spain_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_spain_eu_passport_number` ou for encontrada. 
 - A expressão regular `Regex_spain_eu_passport_date` localiza a data no formato DD-MM-AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_spain_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_spain_eu_passport_number` ou for encontrada.
     
@@ -14981,7 +14989,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_spanish_social_security_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -15025,13 +15033,13 @@ Residentes sem um Cartão de Identidade Nacional da Espanha
     
 Residentes com menos de 14 anos sem um Cartão de Identidade Nacional da Espanha:
   
-- uma letra maiúscula "K" (sensível a maiúsculas e minúsculas)
+- uma letra maiúscula "K" (com maiúsculas e minúsculas)
 - sete dígitos 
 - uma letra maiúscula (sensível a maiúsculas e minúsculas)
     
 Identificações com o número de identificação de um estrangeiro
   
-- uma letra maiúscula que seja "X", "Y" ou "Z" (sensível a maiúsculas e minúsculas) 
+- uma letra maiúscula que seja "X", "Y" ou "Z" (sensível a maiúsculas) 
 - sete dígitos
 - uma letra maiúscula (sensível a maiúsculas e minúsculas) 
     
@@ -15047,11 +15055,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_spain_eu_tax_file_number` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_citizen` padrão. 
 - Uma palavra-chave  `Keywords_spain_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_spain_eu_tax_file_number` ou localiza conteúdo que corresponde ao `Func_spain_eu_DL_and_NI_number_citizen` padrão. 
     
 ```xml
@@ -15097,7 +15105,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no
 - tax number
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -15130,7 +15138,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_SQLServerConnectionString localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave CEP_GlobalFilter **não for** encontrada.
 - A expressão regular CEP_PasswordPlaceHolder **não encontra** conteúdo que corresponde ao padrão.
@@ -15204,7 +15212,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_sweden_eu_driver's_license_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_driver's_license_number` de `Keywords_sweden_eu_driver's_license_number` ou for encontrada. 
     
@@ -15379,12 +15387,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função `Func_swedish_national_identifier` localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave `Keywords_swedish_national_identifier` de onde foi encontrada
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função `Func_swedish_national_identifier` localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -15440,7 +15448,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - a expressão regular Regex_sweden_passport_number localiza conteúdo que corresponde ao padrão.
 - um dos seguintes é verdadeiro:
     - uma palavra-chave Keyword_passport for encontrada.
@@ -15485,7 +15493,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - パスポート 
 - パスポート番号 
 - パ ポトスNum 
-- パスポート# 
+- パスポート＃ 
 - Numéro de passeport 
 - Passeport n ° 
 - Passeport Non 
@@ -15524,11 +15532,11 @@ Sim
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_sweden_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_sweden_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_sweden_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -15598,7 +15606,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_swift localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_swift for encontrada.
 
@@ -15680,11 +15688,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_swiss_social_security_number_ahv localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_swiss_social_security_number_ahv for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_swiss_social_security_number_ahv localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -15743,12 +15751,12 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_taiwanese_national_id localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_taiwanese_national_id for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_taiwanese_national_id localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -15805,7 +15813,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_taiwan_passport localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_taiwan_passport for encontrada.
 
@@ -15850,7 +15858,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_taiwan_resident_certificate localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_taiwan_resident_certificate for encontrada.
 
@@ -15899,11 +15907,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_Thai_Citizen_Id localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Thai_Citizen_Id for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_Thai_Citizen_Id localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -15946,11 +15954,11 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_Turkish_National_Id localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Turkish_National_Id for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_Turkish_National_Id localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -15997,7 +16005,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_uk_drivers_license localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_uk_drivers_license for encontrada.
 - A soma de verificação passa.
@@ -16048,7 +16056,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_uk_electoral localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_uk_electoral for encontrada.
 
@@ -16095,7 +16103,7 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_uk_nhs_number localiza conteúdo que corresponde ao padrão.
 - Uma das seguintes opções for verdadeira:
     - Uma palavra-chave de Keyword_uk_nhs_number for encontrada.
@@ -16152,7 +16160,7 @@ sete caracteres ou nove caracteres separados por espaços ou traços
 
 dois padrões possíveis:
 
-- duas letras (os NINOs válidos usam apenas determinados caracteres nesse prefixo, o que esse padrão valida; não faz sentido para maiúsculas e minúsculas)
+- duas letras (os NINOs válidos usam apenas determinados caracteres nesse prefixo, que esse padrão valida; não faz a alteração de maiúsculas e minúsculas)
 - seis dígitos
 - 'A', 'B', 'C' ou 'D' (como o prefixo, somente determinados caracteres são permitidos no sufixo; não fazem a alteração de minúsculas)
 
@@ -16174,11 +16182,11 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_uk_nino localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_uk_nino for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_uk_nino localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -16242,7 +16250,7 @@ Não
   
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_uk_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_uk_eu_tax_file_number` de onde foi encontrada. 
     
@@ -16268,7 +16276,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - tax no #
 - tax no
 - tax registration number
-- aaa #
+- planejador #
 - adno #
 - adnumber #
 - taxno #
@@ -16294,7 +16302,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular Regex_usa_bank_account_number localiza o conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_usa_Bank_Account for encontrada.
 
@@ -16350,7 +16358,7 @@ Depende do estado
 
 depende do estado – por exemplo, Nova York:
 - nove dígitos formatados como ddd ddd ddd corresponderão.
-- nove dígitos como ddddddd não corresponderão.
+- nove dígitos como dddddd não corresponderão.
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -16358,12 +16366,12 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_york_drivers_license_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_[state_name]_drivers_license_name for encontrada.
 - Uma palavra-chave Keyword_us_drivers_license for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_new_york_drivers_license_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_[state_name]_drivers_license_name for encontrada.
 - Uma palavra-chave de Keyword_us_drivers_license_abbreviations for encontrada.
@@ -16521,15 +16529,15 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_formatted_itin localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_itin for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_unformatted_itin localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_itin for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_formatted_itin ou Func_unformatted_itin localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -16566,7 +16574,7 @@ Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informa
 - social security 
 - tax payer 
 - itins 
-- aaa 
+- planejador 
 - individual taxpayer 
 
 
@@ -16582,7 +16590,7 @@ nove dígitos, que podem estar em um padrão formatado ou não formatado
 ### <a name="pattern"></a>Padrão
 
 quatro funções procurarão SSNs em quatro padrões diferentes:
-- Func_ssn localiza SSNs com formatação forte pré-2011 formatada com traços ou espaços (ddd-dd-dddd OR ddd d)
+- Func_ssn localiza SSNs com formatação forte pré-2011 formatada com traços ou espaços (ddd-dd-dddd OR d d)
 - Func_unformatted_ssn localiza SSNs com formatação forte pré-2011 que não são formatados como nove dígitos consecutivos (ddd)
 - Func_randomized_formatted_ssn localiza SSNs pós-2011 formatados com traços ou espaços (ddd-dd-dd OR ddd d)
 - Func_randomized_unformatted_ssn localiza SSNs pós-2011 não formatados como nove dígitos consecutivos (dddddd)
@@ -16594,15 +16602,15 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 85% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_ssn localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_unformatted_ssn localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
 
-Uma política de DLP tem 65% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_randomized_formatted_ssn localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_ssn for encontrada.
 
@@ -16667,7 +16675,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_usa_uk_passport localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_passport for encontrada.
 
@@ -16694,7 +16702,7 @@ Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informa
 - パスポート 
 - パスポート番号 
 - パ ポトスNum 
-- パスポート# 
+- パスポート＃ 
 - Numéro de passeport 
 - Passeport n ° 
 - Passeport Non 
@@ -16725,7 +16733,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A regex Regex_Ukraine_Passport_Domestic localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Ukraine_Passport_Domestic for encontrada.
 
@@ -16775,7 +16783,7 @@ Não
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 75% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A regex Regex_Ukraine_Passport_International localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keyword_Ukraine_Passport_International for encontrada.
 
