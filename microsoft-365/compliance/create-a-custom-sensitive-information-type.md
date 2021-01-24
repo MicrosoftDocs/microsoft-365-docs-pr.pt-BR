@@ -1,5 +1,5 @@
 ---
-title: Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança
+title: Comece com tipos de informações confidenciais personalizados
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,174 +17,117 @@ search.appverid:
 - MET150
 description: Saiba como criar, modificar, remover e testar tipos de informações confidenciais personalizados para DLP na interface gráfica do usuário, no Centro de Conformidade e Segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d16ed662ff1b577bbb6c8388c5d27836832c1f
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 94f0f6b68e9f952e0d52ce7cb71ccf03913584f4
+ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681717"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49929347"
 ---
-<!-- rename md file to match the display name -->
-# <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança
+# <a name="get-started-with-custom-sensitive-information-types"></a>Comece com tipos de informações confidenciais personalizados
 
-Leia este artigo para criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança ([https://protection.office.com](https://protection.office.com)). Os tipos personalizados de informações confidenciais criados através desse método são adicionados ao pacote de regras chamado `Microsoft.SCCManaged.CustomRulePack`.
+Se os tipos de informações confidenciais pré-configurados não atendem às suas necessidades, você pode criar seus próprios tipos de informações confidenciais personalizados que você define totalmente ou pode copiar um dos pré-configurados e modificá-lo.
+
+Os tipos personalizados de informações confidenciais criados através desse método são adicionados ao pacote de regras chamado `Microsoft.SCCManaged.CustomRulePack`.
+
+Existem duas maneiras de criar um novo tipo de informação confidencial:
+
+- [do zero, onde você define totalmente todos os elementos](#create-a-custom-sensitive-information-type)
+- [copiar e modificar um tipo de informação confidencial](#copy-and-modify-a-sensitive-information-type)
+
+
+## <a name="before-you-begin"></a>Antes de começar
+
+- Você deve estar familiarizado com os tipos de informações confidenciais e com o que eles são compostos. Consulte, [Saiba mais sobre os tipos de informações confidenciais](sensitive-information-type-learn-about.md). É fundamental compreender as funções de:
+    - [expressões regulares](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/) - os tipos de informações confidenciais do Microsoft 365 usam o mecanismo Boost.RegEx 5.1.3
+    - listas de palavras-chave - você pode criar suas próprias conforme define seu tipo de informação confidencial ou escolher entre as listas de palavras-chave existentes
+    - [dicionário de palavras-chave](create-a-keyword-dictionary.md)
+    - [funções](what-the-dlp-functions-look-for.md)
+    - [níveis de confiança](sensitive-information-type-learn-about.md#more-on-confidence-levels)
+ 
+- Você deve ter permissões de administrador Global ou administrador de Conformidade para criar, testar e implantar um tipo personalizado de informações confidenciais por meio da interface do usuário. Confira, [Funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide) no Office 365.
+
+- Sua organização deve ter uma assinatura, como o Office 365 Enterprise, que inclua a Prevenção Contra Perda de Dados (DLP) Consulte [Política de Mensagens e Descrição do Serviço de Conformidade](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc). 
+
+
+> [!IMPORTANT]
+> O suporte e serviço de atendimento ao cliente da Microsoft não consegue ajudar na criação de classificações personalizadas ou padrões de expressão regular. Os engenheiros de suporte podem fornecer suporte limitado para os recursos, como, fornecer padrões de expressão regular de exemplo para fins de teste ou auxiliar na solução de problemas de um padrão de expressão regular existente que não seja disparador conforme o esperado, mas não oferecer garantias de que qualquer desenvolvimento da correspondência de conteúdo personalizado atenderá a seus requisitos ou obrigações.
+
+## <a name="create-a-custom-sensitive-information-type"></a>Criar um tipo de informação confidencial personalizado
+
+Usar este procedimento para criar um novo tipo de informação confidencial que você define completamente. 
+
+1. No Centro de Conformidade, vá para **Classificação de dados** \>**Tipos de informações confidenciais** e escolha **Criar tipo de informação**.
+2. Preencher os valores para **Nome** e **Descrição** e escolher **Próximo**.
+3. Escolher **Criar padrão**. Você pode criar vários padrões, cada um com diferentes elementos e níveis de confiança, conforme define seu novo tipo de informação confidencial.
+4. Escolher o nível de confiança padrão para o padrão. Os valores são **Confiança baixa**, **Confiança média** e **Confiança alta**.
+5. Escolher e definir **Elemento primário**. O elemento primário pode ser uma **Expressão regular** com um validador opcional, uma **Lista de palavras-chave**, um **Dicionário de palavras-chave**, ou uma das **Funções** pré-configuradas. Para obter mais informações sobre as funções DLP, consulte [O que procuram as funções DLP](what-the-dlp-functions-look-for.md).
+6. Preencha um valor para **Proximidade do caractere**.
+7. (Opcional) Adicionar elementos de suporte, se houver. Os elementos de suporte podem ser uma expressão regular com um validador opcional, uma lista de palavras-chave, um dicionário de palavras-chave ou uma das funções predefinidas. 
+8.  (Opcional) Adicionar verificações adicionais da lista de verificações disponíveis
+9. Escolher **Criar**.
+10. Escolher **Próximo**.
+11. Escolher o **nível de confiança recomendado** para este tipo de informação confidencial.
+12. Verificar sua configuração e escolha **Enviar**.
+
+> [!IMPORTANT]
+> O Microsoft 365 usa o rastreador de pesquisa para identificar e classificar informações confidenciais nos sites do SharePoint Online e OneDrive for Business. Para identificar seu novo tipo personalizado de informações confidenciais no conteúdo existente, o conteúdo deve ser novamente rastreado. O conteúdo e rastreado de acordo com um cronograma, mas você pode re-rastrear manualmente o conteúdo de um conjunto de sites, lista ou biblioteca. Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação de um site, uma biblioteca ou uma lista](https://docs.microsoft.com/sharepoint/crawl-site-content).
+
+13. Na página **Classificação de dados**, você verá todos os tipos de informações confidenciais listados. Escolher **Atualizar** e procure ou use a ferramenta de pesquisa para encontrar o tipo de informação confidencial que acabou de criar.
+
+## <a name="test-a-sensitive-information-type"></a>Teste um tipo de informação confidencial
+
+Você pode testar qualquer tipo de informação confidencial na lista. Sugerimos que você teste todos os tipos de informações confidenciais que criar antes de usá-los em uma política.
+
+1. Prepare dois arquivos, como um documento do Word. Um com conteúdo que corresponda aos elementos que você especificou em seu tipo de informação confidencial e outro que não corresponda.
+2. No Centro de Conformidade, vá para **Classificação de dados** \>**Tipos de informações confidenciais** e escolha o tipo de informações confidenciais na lista para abrir o painel de detalhes e escolha **Teste**.
+3. Faça upload de um arquivo e escolha **Teste**.
+4. Na página **Resultados das correspondências**, analise os resultados e escolha **Fim**.
+
+## <a name="modify-custom-sensitive-information-types-in-the-compliance-center"></a>Modificar tipos de informações confidenciais personalizadas no Centro de Conformidade
+
+1. No Centro de Conformidade, vá para **Classificação de dados** \>**Tipos de informações confidenciais** e escolha o tipo de informações confidenciais na lista que você deseja modificar, escolha **Editar**.
+2. Você pode adicionar outros padrões, com elementos primários e de suporte exclusivos, níveis de confiança, proximidade de caractere e verificações adicionais ou editar/remover os existentes. Para mais informações, consulte [Criar um tipo de informação confidencial personalizado](#create-a-custom-sensitive-information-type).
+
+## <a name="remove-custom-sensitive-information-types-in-the-compliance-center"></a>Remover tipos de informações confidenciais personalizados no Centro de Conformidade 
+
+> [!NOTE]
+> Você só pode remover tipos de informações confidenciais personalizados. Não é possível remover tipos internos de informações confidenciais.
+
+> [!IMPORTANT]
+> Antes de remover um tipo personalizado de informação confidencial, verifique se nenhuma política de DLP ou regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) ainda fazem referência ao tipo de informação confidencial.
+
+1. No Centro de Conformidade, vá para **Classificação de dados** \>**Tipos de informações confidenciais** e escolha o tipo de informações confidenciais da lista que deseja remover.
+2. No menu desdobrável que é aberto, escolha **Excluir**.
+
+## <a name="copy-and-modify-a-sensitive-information-type"></a>Copiar e modificar um tipo de informação confidencial
+
+Usar este procedimento para criar um novo tipo de informação confidencial baseado em um tipo de informação sensível existente. 
+
+1. No Centro de Conformidade, vá para **Classificação de dados** \>**Tipos de informações confidenciais** e escolha o tipo de informações confidenciais que deseja copiar.
+2. No menu desdobrável, escolha **Copiar**.
+3. Escolher **Atualizar** na lista de tipos de informações confidenciais e navegue ou pesquise a cópia que acabou de fazer. Pesquisas parciais de picada funcionam, então você pode apenas pesquisar por `copy`e a pesquisa retornará todos os tipos de informações confidenciais com a palavra `copy` no nome. 
+4. Preencher os valores para **Nome** e **Descrição** e escolher **Próximo**.
+5. Escolher a cópia do seu tipo de informação confidenciall e escolha **Editar**. 
+6. Dê ao seu novo tipo de informação confidencial um novo **Nome** e **Descrição**.
+7. Você pode escolher por editar ou remover os padrões existentes e adicionar novos. Escolher o nível de confiança padrão para o novo padrão. Os valores são **Confiança baixa**, **Confiança média** e **Confiança alta**.
+8. Escolher e definir **Elemento primário**. O elemento primário pode ser uma **Expressão regular**, uma **Lista de palavras-chave**, um **Dicionário de palavras-chave** ou uma das **Funções** pré-configuradas. Consulte, [O que procuram as funções DLP](what-the-dlp-functions-look-for.md).
+9. Preencha um valor para **Proximidade do caractere**.
+10. (Opcional) Se você tiver **Elementos de suporte** ou quaisquer **Verificações adicionais** adicione-os. Se necessário, você pode agrupar seus **Elementos de suporte**.
+11. Escolher **Criar**.
+12. Escolher **Próximo**.
+13. Escolher o **nível de confiança recomendado** para este tipo de informação confidencial.
+14. Verificar sua configuração e escolha **Enviar**.
 
 Também é possível criar tipos personalizados de informações confidenciais usando os recursos PowerShell e Exact Data Match. Para saber mais sobre esses métodos, confira:
 - [Crie um tipo personalizado de informação confidencial no PowerShell do Centro de Conformidade e Segurança](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [Criar um tipo personalizado de informações confidenciais com Correspondência Exata de Dados (visualização)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
-
+ 
 > [!NOTE]
-> A Proteção de Informações do Microsoft 365 agora oferece suporte a idiomas de conjunto de caracteres de byte duplo de visualização:
+> A Proteção de Informações do Microsoft 365 oferece suporte, em visualização, a idiomas de conjunto de caracteres de byte duplo para:
 > - Chinês (simplificado)
 > - Chinês (tradicional)
 > - Coreano
 > - Japonês
 >
 >Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
-
-## <a name="before-you-begin"></a>Antes de começar
-
-> [!NOTE]
-> Você deve ter permissões de administrador Global ou administrador de Conformidade para criar, testar e implantar um tipo personalizado de informações confidenciais por meio da interface do usuário. Confira, [Funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide) no Office 365.
-
-- Sua organização deve ter uma assinatura, como o Office 365 Enterprise, que inclua a Prevenção Contra Perda de Dados (DLP) Consulte [Política de Mensagens e Descrição do Serviço de Conformidade](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc). 
-
-- Os tipos de informações confidenciais personalizados exigem familiaridade com expressões regulares (RegEx). Para saber mais sobre o mecanismo de RegEx (anteriormente conhecido como RegEx++) usado para processar o texto, confira [Boost.RegEx 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/).
-
-  O suporte e serviço de atendimento ao cliente da Microsoft não consegue ajudar na criação de classificações personalizadas ou padrões de expressão regular. Os engenheiros de suporte podem fornecer suporte limitado para os recursos, como, fornecer padrões de expressão regular de exemplo para fins de teste ou auxiliar na solução de problemas de um padrão de expressão regular existente que não seja disparador conforme o esperado, mas não oferecer garantias de que qualquer desenvolvimento da correspondência de conteúdo personalizado atenderá a seus requisitos ou obrigações.
-
-- A DLP usa o rastreador de pesquisa para identificar e classificar informações confidenciais em sites do SharePoint Online e do OneDrive for Business. Para identificar seu novo tipo personalizado de informações confidenciais no conteúdo existente, o conteúdo deve ser novamente rastreado. O conteúdo e rastreado de acordo com um cronograma, mas você pode re-rastrear manualmente o conteúdo de um conjunto de sites, lista ou biblioteca. Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação de um site, uma biblioteca ou uma lista](https://docs.microsoft.com/sharepoint/crawl-site-content).
-
-## <a name="create-custom-sensitive-information-types-in-the-security--compliance-center"></a>Criar tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança
-
-No Centro de Conformidade e Segurança, acesse **Classificações** \> **Tipos de informações confidenciais** e clique em **Criar**.
-
-As configurações são bastante óbvias e são explicadas na página associada do assistente:
-
-- **Nome**
-
-- **Descrição**
-
-- **Proximidade**
-
-- **Nível de confiança**
-
-- **Elemento de padrão principal** (palavras-chave, expressão regular ou dicionário)
-
-- **Elementos de padrão de suporte** opcionais (palavras-chave, expressão regular ou dicionário) e um valor de **Custo mínimo** correspondente.
-
-Aqui está um cenário: você deseja um tipo personalizado de informação confidencial que detecte os números de funcionários com nove dígitos no conteúdo, juntamente com as palavras-chave "funcionário", "ID" e "crachá". Para criar esse tipo personalizado de informação confidencial, faça o seguinte:
-
-1. No Centro de Conformidade e Segurança, acesse **Classificações** \> **Tipos de informações confidenciais** e clique em **Criar**.
-
-    ![Local dos tipos de informações confidenciais e botão Criar](../media/scc-cust-sens-info-type-new.png)
-
-2. Na página **Escolher um nome e uma descrição** que é aberta, insira os seguintes valores:
-
-  - **Nome**: ID de funcionário.
-
-  - **Descrição** detectar os números de nove dígitos de ID de funcionário da Contoso.
-
-    ![Página de nome e descrição](../media/scc-cust-sens-info-type-new-name-desc.png)
-
-    Quando terminar, clique em **Avançar**.
-
-3. Na página **Requisitos para correspondência** que é aberta, clique em **Adicionar um elemento** e defina as seguintes configurações:
-
-    - **Detectar conteúdo que tenha**:
- 
-      a. Clique em **Qualquer um destes elementos** e selecione **Expressão regular**.
-
-      b. Na caixa de expressão regular, insira `(\s)(\d{9})(\s)` (números de nove dígitos delimitados por espaço em branco)
-  
-    - **Elementos de suporte**: clique em **Adicionar elementos de suporte** e selecione **Contém esta lista de palavras-chave**.
-
-    - Na área **Contém esta lista de palavra-chave** que é exibida, defina as seguintes configurações:
-
-      - **Lista de palavra-chave**: insira o seguinte valor: funcionário,ID,crachá.
-
-      - **Contagem mínima**: mantenha o valor padrão 1.
-
-    - Mantenha o valor padrão de 60 para o **Nível de confiança**. 
-
-    - Mantenha o valor padrão de 300 para a **Proximidade de caracteres**.
-
-    ![Requisitos para a página correspondente](../media/scc-cust-sens-info-type-new-reqs.png)
-
-    Quando terminar, clique em **Avançar**.
-
-4. Na página **Examinar e finalizar** que é aberta, examine as configurações e clique em **Concluir**.
-
-    ![Examine e finalizar a página](../media/scc-cust-sens-info-type-new-review.png)
-
-5. A próxima página incentiva você a testar o novo tipo personalizado de informação confidencial clicando em **Sim**. Para saber mais, confira [Tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança](#test-custom-sensitive-information-types-in-the-security--compliance-center). Para testar a regra mais tarde, clique em **Não**.
-
-    ![Página de recomendações de teste](../media/scc-cust-sens-info-type-new-test.png)
-
-### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
-
-Para confirmar que você criou um novo tipo de informação confidencial com êxito, execute uma destas etapas:
-
-  - Vá para **Classificações** \> **Tipos de informações confidenciais** e verifique se o novo tipo personalizado de informações confidenciais está listado.
-
-  - Teste o novo tipo personalizado de informação confidencial. Para saber mais, confira [Testar tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança](#test-custom-sensitive-information-types-in-the-security--compliance-center).
-
-## <a name="modify-custom-sensitive-information-types-in-the-security--compliance-center"></a>Modificar tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança
-
-**Observações**:
-<!-- check to see if this note contradicts the guidance in "customize a built in sensitive information type customize-a-built-in-sensitive-information-type it sure seems like it does-->
-- Você só pode modificar tipos de informações confidenciais personalizados. Não é possível modificar tipos internos de informações confidenciais. Porém, você pode usar o PowerShell para exportar tipos de informações confidenciais personalizados internos, personalizá-los e importá-los como tipos de informações confidenciais personalizados. Para saber mais, confira [Personalizar um tipo de informação confidencial interno](customize-a-built-in-sensitive-information-type.md).
-
-- Somente você pode modificar os tipos de informações confidenciais personalizados que criou na interface do usuário. Se você tiver usado o [procedimento do PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md) para importar um pacote de regras de tipo personalizado de informações confidenciais, você receberá um erro.
-
-No Centro de Conformidade e Segurança, acesse **Classificações** \> **Tipos de informações confidenciais**, selecione os tipos de informações confidenciais personalizados que você deseja modificar e clique em **Editar**.
-
-  ![Local dos tipos de informações confidenciais e botão Editar](../media/scc-cust-sens-info-type-edit.png)
-
-Aqui estão disponíveis as mesmas opções oferecidas quando você criou o tipo de informação confidencial personalizado no Centro de Conformidade e Segurança. Para saber mais, confira [Criar tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança](#create-custom-sensitive-information-types-in-the-security--compliance-center).
-
-### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
-
-Para confirmar que você modificou um tipo de informação confidencial com êxito, execute uma destas etapas:
-
-  - Vá para **classificações** \> **Tipos de informações confidenciais** para verificar as propriedades do tipo personalizado de informação confidencial modificado. 
-
-  - Teste o tipo personalizado de informação confidencial modificada. Para saber mais, confira [Testar tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança](#test-custom-sensitive-information-types-in-the-security--compliance-center).
-
-## <a name="remove-custom-sensitive-information-types-in-the-security--compliance-center"></a>Remover tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança 
-
-**Observações**:
-
-- Você só pode remover tipos de informações confidenciais personalizados. Não é possível remover tipos internos de informações confidenciais.
-
-- Antes de remover um tipo personalizado de informação confidencial, verifique se nenhuma política de DLP ou regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) ainda fazem referência ao tipo de informação confidencial.
-
-1. No Centro de Conformidade e Segurança, acesse **Classificações** \> **Tipos de informações confidenciais** e selecione um ou mais tipos de informações confidenciais personalizados que você deseja remover.
-
-2. No submenu que é aberto, clique em **Excluir** (ou **Excluir tipos de informações confidenciais** se você tiver selecionado mais de um).
-
-    ![Local dos tipos de informações confidenciais e botão Excluir](../media/scc-cust-sens-info-type-delete.png)
-
-3. Na mensagem de aviso exibida, clique em **Sim**.
-
-### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
-
-Para verificar se você removeu um tipo personalizado de informação confidencial com êxito, vá até **Classificações** \> **Tipos de informações confidenciais** para verificar se o tipo personalizado de informação confidencial não está mais presente.
-
-## <a name="test-custom-sensitive-information-types-in-the-security--compliance-center"></a>Teste tipos de informações confidenciais personalizados no Centro de Conformidade e Segurança
-
-1. No Centro de Conformidade e Segurança, acesse **Classificações** \> **Tipos de informações confidenciais**.
-
-2. Selecione um ou mais tipos de informações confidenciais personalizados para testar. No submenu suspenso que é aberto, clique em **Testar tipo** (ou **Testar tipos de informações confidenciais** se você tiver selecionado mais de um).
-
-    ![Local dos tipos de informações confidenciais e botão de tipo de Teste](../media/scc-cust-sens-info-type-test.png)
-
-3. Na página **Carregar arquivo para teste** que se abre, carregue um documento para teste arrastando e soltando um arquivo, ou então clicando em **Procurar** e selecionando um arquivo.
-
-    ![Carregar arquivos na página de teste](../media/scc-cust-sens-info-type-test-upload.png)
-
-4. Clique no botão **Testar** para testar o documento em busca de correspondências de padrão no arquivo.
-
-5. Na página **Resultados da correspondência**, clique em **Concluir**.
-
-    ![Resultados da correspondência](../media/scc-cust-sens-info-type-test-results.png)
