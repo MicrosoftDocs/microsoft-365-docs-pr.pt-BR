@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 61f92b5873497a75fd516900a7b7cd67a5d63b41
-ms.sourcegitcommit: 27cb4591e08f62ba0a08d6dcf224bf2039034fe5
+ms.openlocfilehash: ea96780846507e7fc3edccb28e04055ce79261fa
+ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2021
-ms.locfileid: "49883670"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49980094"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
@@ -33,7 +33,7 @@ Depois de configurar suas políticas de conformidade de comunicação, você com
 
 A primeira etapa para investigar problemas detectados por suas políticas é analisar os alertas de conformidade de comunicação no centro de conformidade do Microsoft 365. Há várias áreas na área de solução de conformidade de comunicação para ajudá-lo a investigar rapidamente alertas, dependendo de como você prefere exibir o grupo de alertas:
 
-- **Página de política de** conformidade de comunicação: quando você entrar usando credenciais para uma conta de administrador em sua organização do [https://compliance.microsoft.com](https://compliance.microsoft.com) Microsoft 365, selecione Conformidade de comunicação para exibir a página política de conformidade **de** comunicação.  Esta página exibe políticas de conformidade de comunicação configuradas para sua organização do Microsoft 365 e links para modelos de política recomendados. Cada política listada inclui a contagem de alertas que precisam de revisão, o número de itens escalonados e resolvidos e o status atual da política. Selecionar uma política exibe todos os alertas pendentes para as combinações com a política, selecionar um alerta específico para iniciar a página de detalhes da política e iniciar ações de correção.
+- **Página de política de** conformidade de comunicação: quando você entrar usando credenciais para uma conta de administrador em sua organização do [https://compliance.microsoft.com](https://compliance.microsoft.com) Microsoft 365, selecione Conformidade de comunicação para exibir a página política de conformidade **de** comunicação.  Esta página exibe políticas de conformidade de comunicação configuradas para sua organização do Microsoft 365 e links para modelos de política recomendados. Cada política listada inclui a contagem de alertas que precisam de revisão, o número de itens escalonados e resolvidos, o status da política e a data e hora da última verificação de política. Selecionar uma política exibe todos os alertas pendentes para as combinações com a política, selecionar um alerta específico para iniciar a página de detalhes da política e iniciar ações de correção.
 - **Alertas:** navegue até **Alertas** de conformidade de comunicação para exibir os últimos 30 dias de  >   alertas agrupados por diretivas. Essa exibição permite que você veja rapidamente quais políticas de conformidade de comunicação estão gerando a maioria dos alertas ordenados por gravidade. Para iniciar ações de correção, selecione a política associada ao alerta para iniciar a **página detalhes da** política. Na  página Detalhes da Política, você pode revisar um resumo das atividades na  página Visão Geral, revisar e agir em  mensagens de alerta na página Pendente ou revisar o histórico de alertas fechados na página Resolvido. 
 - **Relatórios:** navegue até **Relatórios de conformidade de**  >  **comunicação** para exibir widgets de relatório de conformidade de comunicação. Cada widget fornece uma visão geral das atividades e status de conformidade de comunicação, incluindo acesso a informações mais aprofundadas sobre as políticas de resultados e ações de correção.
 
@@ -49,7 +49,7 @@ Para obter uma lista completa de filtros e detalhes do campo, consulte [Filtros]
 
 2. No centro de conformidade do Microsoft 365, vá para **Conformidade de comunicação.**
 
-3. Selecione a **guia Políticas** e selecione uma política para investigação, clique duas vezes para abrir a **página Política.**
+3. Selecione a **guia Políticas** e selecione uma política para investigação, clique duas vezes para abrir a **página** Política.
 
 4. Na página **Política,** selecione a  guia **Pendente** ou Resolvido para exibir os itens para filtragem.
 
@@ -65,7 +65,7 @@ Para obter uma lista completa de filtros e detalhes do campo, consulte [Filtros]
 
 ### <a name="using-near-and-exact-duplicate-analysis"></a>Usando análise duplicada próxima e exata
 
-As políticas de conformidade de comunicação automaticamente digitalizar e agrupar previamente duplicatas de mensagens próximas e exatas sem quaisquer etapas de configuração adicionais. Esse modo de exibição permite que você aja rapidamente em mensagens semelhantes, uma por uma, ou como um grupo, reduzindo a carga de investigação de mensagens para os revisadores. Como duplicatas são detectadas, os **controles Duplicatas Próximas** e/ou Duplicatas Exatas são **exibidos** na barra de ferramentas de ação de correção. Essa exibição não estará disponível se duplicatas próximas ou exatas não foram encontradas.
+As políticas de conformidade de comunicação automaticamente digitalizar e agrupar previamente duplicatas de mensagens próximas e exatas sem quaisquer etapas adicionais de configuração. Esse modo de exibição permite que você aja rapidamente em mensagens semelhantes, uma por uma, ou como um grupo, reduzindo a carga de investigação de mensagens para os revisadores. Como duplicatas são detectadas, os **controles Duplicatas Próximas** e/ou Duplicatas Exatas são **exibidos** na barra de ferramentas de ação de correção. Essa exibição não estará disponível se duplicatas próximas ou exatas não foram encontradas.
 
 #### <a name="to-remediate-duplicates"></a>Para remediar duplicatas
 
@@ -93,7 +93,7 @@ Não importa onde você comece a revisar alertas ou a filtragem configurada, a p
 
 ### <a name="step-1-examine-the-message-basics"></a>Etapa 1: Examinar as noções básicas de mensagem
 
- Às vezes, é óbvio da origem ou do assunto que uma mensagem pode ser imediatamente remediada. Pode ser que a mensagem seja imática ou incorretamente a ela corresponder a uma política e deve ser resolvida como um falso positivo. Selecione o **controle Falso Positivo** para resolver imediatamente o alerta e remover da fila de alertas pendente. A partir das informações de origem ou remetente, talvez você já saiba como a mensagem deve ser roteada ou tratada nessas circunstâncias. Considere usar os **controles Tag como** ou **Escalate** para atribuir uma marca às mensagens aplicáveis ou enviar mensagens a um revistor designado.
+ Às vezes, é óbvio da origem ou do assunto que uma mensagem pode ser imediatamente remediada. Pode ser que a mensagem seja falsa ou incorretamente a ela corresponder a uma política e deve ser resolvida como um falso positivo. Selecione o **controle Falso Positivo** para resolver imediatamente o alerta e remover da fila de alertas pendente. A partir das informações de origem ou remetente, talvez você já saiba como a mensagem deve ser roteada ou tratada nessas circunstâncias. Considere usar os **controles Tag como** ou **Escalate** para atribuir uma marca às mensagens aplicáveis ou enviar mensagens a um revistor designado.
 
 ![Controles de correção de conformidade de comunicação](../media/communication-compliance-remediation-controls.png)
 
@@ -102,7 +102,7 @@ Não importa onde você comece a revisar alertas ou a filtragem configurada, a p
 Depois de analisar as noções básicas da mensagem, é hora de abrir uma mensagem para examinar os detalhes e determinar outras ações de correção. Selecione uma mensagem para exibir as informações completas do corpo e do header da mensagem. Várias exibições diferentes estão disponíveis para ajudá-lo a decidir o curso adequado da ação:
 
 - **Exibição de** origem: esse é o padrão de exibição de mensagens comumente visto na maioria das plataformas de mensagens baseadas na Web. As informações de header são formatadas no estilo normal e o corpo da mensagem dá suporte a arquivos gráficos imbedded e texto em forma de palavras.
-- **Exibição de** texto: o texto exibe uma exibição somente de texto de linha numerada da mensagem e inclui a palavra-chave realçada em mensagens e anexos para termos que corresponderem à política de conformidade de comunicação associada. O realçamento de palavras-chave pode ajudá-lo a verificar rapidamente mensagens longas e anexos para a área de interesse. Em alguns casos, o texto realçado pode estar apenas em anexos para mensagens que corresponderem às condições da política. Os arquivos incorporados não são exibidos e a numeração de linhas desse ponto de vista é útil para fazer referência a detalhes pertinentes entre vários revisores.
+- **Exibição de** texto: o texto exibe uma exibição somente de texto numerada em linha da mensagem e inclui a palavra-chave realçada em mensagens e anexos para termos que corresponderem à política de conformidade de comunicação associada. O realçamento de palavras-chave pode ajudá-lo a verificar rapidamente mensagens longas e anexos em busca da área de interesse. Em alguns casos, o texto realce pode estar apenas em anexos para mensagens que corresponderem às condições da política. Os arquivos incorporados não são exibidos e a numeração de linhas desse ponto de vista é útil para fazer referência a detalhes pertinentes entre vários revisores.
 - **Exibição de anotações:** essa exibição permite que os revisadores adicionem anotações diretamente na mensagem que são salvas na exibição da mensagem.
 - **Histórico do usuário:** a exibição do histórico do usuário exibe todos os outros alertas gerados por qualquer política de conformidade de comunicação para o usuário que envia a mensagem.
 - **Exibição de detalhes da mensagem:** exibição avançada de metadados de mensagem e informações de configuração.
@@ -114,9 +114,9 @@ Depois de analisar as noções básicas da mensagem, é hora de abrir uma mensag
 
 Agora que você revisões os detalhes da mensagem para o alerta, você pode escolher várias ações de correção:
 
-- **Resolver:** selecionar **o controle Resolver** remove imediatamente a mensagem da fila de **alertas Pendentes** e nenhuma outra ação pode ser tomada na mensagem. Ao selecionar **Resolver,** você essencialmente fechou o alerta sem classificação e ele não pode ser reaberto para mais ações. Todas as mensagens resolvidas são exibidas na **guia** Resolvido.
+- **Resolver:** selecionar **o controle Resolver** remove imediatamente a mensagem da fila de **alertas Pendentes** e nenhuma outra ação pode ser tomada na mensagem. Ao selecionar **Resolver,** você essencialmente fechou o alerta sem classificação e ele não pode ser reaberto para mais ações. Todas as mensagens resolvidas são exibidas na **guia Resolvido.**
 - **Falso positivo:** você sempre pode resolver uma mensagem como um falso positivo a qualquer momento durante o fluxo de trabalho de revisão de mensagens. Falso positivo significa que o alerta não foi a actionable ou que foi gerado incorretamente pelo processo de alerta. A mensagem não pode ser reaberta e todas as mensagens de falso positivo são exibidas **na** guia Resolvido.
-- **Power Automate (visualização)**: use um fluxo do Power Automate para automatizar tarefas de processo para uma mensagem de alerta. Por padrão, *a* conformidade de comunicação inclui o gerenciador de notificação quando um usuário tem um modelo de fluxo de alerta de conformidade de comunicação que os revisadores podem usar para automatizar o processo de notificação para usuários com alertas de mensagem. Para obter mais informações sobre como criar e gerenciar fluxos do Power Automate em conformidade com as comunicações, consulte o artigo de referência do [recurso de conformidade de](communication-compliance-feature-reference.md#power-automate-flows) comunicação.
+- **Power Automate (visualização)**: use um fluxo do Power Automate para automatizar tarefas de processo para uma mensagem de alerta. Por padrão, *a* conformidade de comunicação inclui o gerenciador de notificação quando um usuário tem um modelo de fluxo de alerta de conformidade de comunicação que os revisadores podem usar para automatizar o processo de notificação para usuários com alertas de mensagem. Para obter mais informações sobre como criar e gerenciar fluxos do Power Automate em conformidade com a comunicação, consulte o artigo de referência do [recurso de conformidade de](communication-compliance-feature-reference.md#power-automate-flows) comunicação.
 - **Tag as**: Tag the message as *compliant*, *non-compliant*, or as *questionable* as it relates to the policies and standards for your organization. Adicionar marcas e comentários de marcação ajuda você a filtrar micro-alertas de política para escalonamentos ou como parte de outros processos de revisão interna. Depois que a marcação for concluída, você também poderá optar por resolver a mensagem para movê-la da fila de revisão pendente.
 - **Notificar:** você pode usar o controle **De** notificação para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso  apropriado configurado na  área de configurações de conformidade de comunicação e selecione Enviar para enviar um lembrete por email para o usuário que enviou a mensagem e para resolver o problema.
 - **Escalonar:** usando o **controle Escalonar,** você pode escolher quem mais em sua organização deve analisar a mensagem. Escolha em uma lista de revisadores configurados na política de conformidade de comunicação para enviar uma notificação por email solicitando revisão adicional do alerta de mensagem. O revisador selecionado pode usar um link na notificação por email para ir diretamente aos itens escalonados para eles para revisão.
@@ -146,4 +146,4 @@ Agora que você revisões os detalhes da mensagem para o alerta, você pode esco
 
 ### <a name="step-4-determine-if-message-details-should-be-archived-outside-of-communication-compliance"></a>Etapa 4: Determinar se os detalhes da mensagem devem ser arquivados fora da conformidade de comunicação
 
-Detalhes da mensagem podem ser exportados ou baixados se você precisar arquivar as mensagens em uma solução de armazenamento separada. Selecionar o **controle download** adiciona automaticamente mensagens selecionadas a um . Arquivo ZIP que pode ser salvo no armazenamento fora do Microsoft 365.
+Os detalhes da mensagem podem ser exportados ou baixados se você precisar arquivar as mensagens em uma solução de armazenamento separada. Selecionar o **controle download** adiciona automaticamente mensagens selecionadas a um . Arquivo ZIP que pode ser salvo no armazenamento fora do Microsoft 365.

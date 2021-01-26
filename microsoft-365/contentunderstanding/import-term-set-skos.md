@@ -11,12 +11,12 @@ ms.service: ''
 ms.collection: enabler-strategic
 search.appverid: ''
 localization_priority: Priority
-ms.openlocfilehash: 96ffa22880aa9bcb70c0f7159ac7587c911b375b
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: ba0f240caa8b3452783436e9a35c53d44baba894
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087350"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976430"
 ---
 # <a name="import-a-term-set-using-a-skos-based-format"></a>Importar um conjunto de termos usando um formato baseado em SKOS
 

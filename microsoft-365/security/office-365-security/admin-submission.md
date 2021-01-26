@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o portal de Envios no Centro de Conformidade e Segurança & para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e arquivos à Microsoft para verificação.
-ms.openlocfilehash: 432a245530d7906ae8babbc54176480d36315351
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 879a13e7c059495e653b79c424b227fe9f35a498
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864943"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976598"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -32,7 +33,15 @@ ms.locfileid: "49864943"
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, os administradores podem usar o portal de Envios no Centro de Conformidade & e Segurança para enviar mensagens de email, URLs e anexos à Microsoft para verificação.
 
-Ao enviar um email, você receberá informações sobre todas as políticas que possam ter permitido o email de entrada em seu locatário, bem como a análise de quaisquer URLs e anexos no email. As políticas que podem ter permitido um email incluem a lista de remetentes seguros de um usuário individual, bem como políticas de nível de locatário, como regras de fluxo de emails do Exchange (também conhecidas como regras de transporte).
+Ao enviar uma mensagem de email, você receberá:
+
+1. **Verificação de autenticação de** email: Detalhes sobre se a autenticação de email passou ou falhou quando foi entregue.
+2. **Visitas à** política: informações sobre quaisquer políticas que possam ter permitido ou bloqueado o email de entrada em seu locatário, substituindo nossos vereditos de filtro de serviço.
+3. **Reputação/detonação da** carga: exame de quaisquer URLs e anexos na mensagem.
+4. **Análise de nota:** revisão feita por notas humanas para confirmar se as mensagens são mal-intencionadas ou não.
+
+> [!IMPORTANT]
+> A reputação/a detonação da carga e a análise de classificação não são feitas em todos os locatários. As informações são impedidas de sair da organização quando os dados não deveriam sair do limite do locatário para fins de conformidade.
 
 Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, consulte Mensagens e arquivos [de relatório para a Microsoft.](report-junk-email-messages-to-microsoft.md)
 
@@ -67,7 +76,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
    > [!NOTE]
    > Os administradores com o Defender para Office 365 Plano 1 ou Plano 2 podem enviar mensagens com até 30 dias. Outros administradores só poderão voltar 7 dias.
 
-2. Na seção **Destinatários,** especifique um ou mais destinatários para os quais você gostaria de executar uma verificação de política. A verificação de política determinará se o email burlou a verificação devido às políticas do usuário ou da organização.
+2. Na seção **Destinatários,** especifique um ou mais destinatários para os quais você gostaria de executar uma verificação de política. A verificação de política determinará se o email burlou a verificação devido a políticas de usuário ou organização.
 
 3. Na seção **Motivo do envio,** selecione uma das seguintes opções:
 
@@ -77,7 +86,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 4. Quando terminar, clique no **botão** Enviar.
 
-![Exemplo de envio de URL](../../media/submission-flyout-email.PNG)
+   ![Exemplo de envio de URL](../../media/submission-flyout-email.PNG)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Enviar uma URL suspeita para a Microsoft
 
@@ -91,7 +100,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 3. Quando terminar, clique no **botão** Enviar.
 
-![Exemplo de envio de email](../../media/submission-url-flyout.png)
+   ![Exemplo de envio de email](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Enviar um arquivo suspeito para a Microsoft
 
@@ -107,7 +116,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 4. Quando terminar, clique no **botão** Enviar.
 
-![Exemplo de envio de anexo](../../media/submission-file-flyout.PNG)
+   ![Exemplo de envio de anexo](../../media/submission-file-flyout.PNG)
 
 ## <a name="view-admin-submissions"></a>Exibir envios de administrador
 
@@ -248,7 +257,7 @@ Depois que um usuário envia um email suspeito para a caixa de correio personali
 
 ### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>Enviar mensagens para a Microsoft da caixa de correio personalizada
 
-Se você configurou a caixa de correio personalizada para interceptar mensagens relatadas pelo usuário sem enviar as mensagens para a Microsoft, você pode encontrar e enviar mensagens específicas para a Microsoft para análise. Isso efetivamente move um envio de usuário para um envio de administrador.
+Se você configurou a caixa de correio personalizada para interceptar mensagens relatadas pelo usuário sem enviar as mensagens para a Microsoft, poderá encontrar e enviar mensagens específicas à Microsoft para análise. Isso efetivamente move um envio de usuário para um envio de administrador.
 
 Na guia **Caixa de Correio** Personalizada, selecione  uma mensagem na lista, clique no botão Ação e faça uma das seguintes seleções:
 

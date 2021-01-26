@@ -7,15 +7,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 localization_priority: Priority
 description: Aprenda a aplicar um rótulo de retenção a um modelo de compreensão de documentos
-ms.openlocfilehash: b71f75006a856d4fd551bffe232cbe044f7726a5
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 793ae34fa5f033b10023811887af89c1785f7cda
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087132"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976394"
 ---
 # <a name="document-understanding-model-usage-analytics"></a>Análise do uso do modelo de compreensão de documentos
 
@@ -54,6 +56,6 @@ O gráfico de barras dos **arquivos processados ao longo do tempo** mostra não 
 
 [Criar um extrator](create-an-extractor.md)
 
-[Visão geral sobre Compreensão de Documentos](document-understanding-overview.md).
+[Visão geral da compreensão de documentos](document-understanding-overview.md)
 
 [Criar um modelo de processamento de formulário](create-a-form-processing-model.md)  

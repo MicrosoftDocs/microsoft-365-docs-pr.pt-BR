@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de sensibilidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 376e0ed2eb6d7fd719cbafcd5bfbf66aaffd93cb
-ms.sourcegitcommit: 9e4b3df05eff94fe1be4ef8618a7ce6f2fca3658
+ms.openlocfilehash: 0b5f17286456a364c6a8b4c5bdb397c5b0263b73
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49904006"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49975894"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
@@ -47,7 +47,7 @@ Depois de habilitar rótulos de sensibilidade para arquivos do Office no SharePo
 - A Descoberta Pública do Office 365 dá suporte à pesquisa de texto completo para esses arquivos e as políticas de Prevenção contra Perda de Dados (DLP) suportam conteúdo nesses arquivos.
 
 > [!NOTE]
-> Se a criptografia tiver sido aplicada com uma chave local (uma topologia de gerenciamento de chaves geralmente chamada de "manter sua própria chave" ou HYOK) ou usando a Criptografia de Chave [Dupla,](double-key-encryption.md)o comportamento do serviço para processar o conteúdo do arquivo não será mudada. Portanto, para esses arquivos, a coautoria, a Descoberta e Descoberta, a Prevenção contra Perda de Dados, a pesquisa e outros recursos colaborativos não funcionarão.
+> Se a criptografia tiver sido aplicada com uma chave local (uma topologia de gerenciamento de chaves geralmente chamada de "manter sua própria chave" ou HYOK) ou usando a Criptografia de Chave [Dupla,](double-key-encryption.md)o comportamento do serviço para processar o conteúdo do arquivo não será diferente. Portanto, para esses arquivos, a coautoria, a Descoberta EDiscovery, a Prevenção contra Perda de Dados, a pesquisa e outros recursos colaborativos não funcionarão.
 >
 > O comportamento do SharePoint e do OneDrive também não muda para arquivos existentes nesses locais que são rotulados com criptografia usando uma única chave baseada no Azure. Para que esses arquivos se beneficiem dos novos recursos depois que você habilitar os rótulos de sensibilidade para arquivos do Office no SharePoint e no OneDrive, os arquivos devem ser baixados e carregados novamente ou editados.
 
@@ -60,7 +60,7 @@ Assista ao vídeo a seguir (sem áudio) para ver os novos recursos em ação:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
-Você sempre tem a opção de desabilitar rótulos de sensibilidade para arquivos do Office no SharePoint e no OneDrive[(](#how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out)desativar) a qualquer momento.
+Você sempre tem a opção de desabilitar os rótulos de sensibilidade para arquivos do Office no SharePoint e no OneDrive[(](#how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out)desativar) a qualquer momento.
 
 Se você estiver protegendo documentos no SharePoint usando o Gerenciamento de Direitos de Informação do SharePoint (IRM), certifique-se de verificar a seção gerenciamento de direitos de informação [(IRM)](#sharepoint-information-rights-management-irm-and-sensitivity-labels) do SharePoint e rótulos de sensibilidade nesta página. 
 
@@ -93,7 +93,7 @@ Use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou post
 
 - Se um administrador mudar as configurações de um rótulo publicado que já tenha sido aplicado aos arquivos baixados para o cliente de sincronização dos usuários, os usuários poderão não conseguir salvar as alterações feitas no arquivo na pasta sincronização do OneDrive. Esse cenário se aplica a arquivos rotulados com criptografia e também quando a alteração de rótulo é de um rótulo que não aplicou criptografia a um rótulo que não aplica criptografia. Os usuários veem [um círculo vermelho com um erro de](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)ícone cruzado branco e são solicitados a salvar novas alterações como uma cópia separada. Em vez disso, eles podem fechar e reabrir o arquivo ou usar o Office na Web.
 
-- Se um documento rotulado for carregado no SharePoint ou no OneDrive e o rótulo tiver aplicado a criptografia usando uma conta de um nome de entidade de serviço, o documento não poderá ser aberto no Office na Web. Os cenários de exemplo incluem o Microsoft Cloud App Security e um arquivo enviado ao Teams por email.
+- Se um documento rotulado for carregado no SharePoint ou no OneDrive e o rótulo aplicar criptografia usando uma conta de um nome de entidade de serviço, o documento não poderá ser aberto no Office na Web. Os cenários de exemplo incluem o Microsoft Cloud App Security e um arquivo enviado ao Teams por email.
 
 - Os usuários podem experimentar problemas para salvar depois de ficar offline ou entrar em um modo de compartilhamento quando, em vez de usar o Office para a Web, eles usam os aplicativos da área de trabalho e móveis para Word, Excel ou PowerPoint. Para esses usuários, quando eles retomam a sessão do aplicativo do Office e tentam salvar as alterações, eles veem uma mensagem de falha de upload com a opção de salvar uma cópia em vez de salvar o arquivo original. 
 
@@ -101,6 +101,8 @@ Use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou post
     - Criptografia que usa uma chave local ("mantenha sua própria chave" ou HYOK)
     - Criptografia que foi aplicada usando a Criptografia [de Chave Dupla](double-key-encryption.md)
     - Criptografia que foi aplicada independentemente de um rótulo, por exemplo, aplicando diretamente um modelo de proteção de Gerenciamento de Direitos.
+
+- Rótulos configurados [para outros idiomas](create-sensitivity-labels.md#additional-label-settings-with-security--compliance-center-powershell) não são suportados e exibem apenas o idioma original.
 
 - Se você excluir um rótulo que foi aplicado a um documento no SharePoint ou no OneDrive, em vez de remover o rótulo da política de rótulo aplicável, o documento quando baixado não será rotulado ou criptografado. Em comparação, se o documento rotulado estiver armazenado fora do SharePoint ou do OneDrive, o documento permanecerá criptografado se o rótulo for excluído. Observe que, embora você possa excluir rótulos durante uma fase de teste, é muito raro excluir um rótulo em um ambiente de produção.
 
@@ -112,7 +114,7 @@ Você pode habilitar os novos recursos usando o centro de conformidade do Micros
 
 Essa opção é a maneira mais fácil de habilitar rótulos de sensibilidade para o SharePoint e o OneDrive, mas você deve entrar como um administrador global do seu locatário.
 
-1. Entre no centro de [conformidade do Microsoft 365](https://compliance.microsoft.com/) como um administrador global e navegue até **a** Proteção de  >  **Informações de Soluções**
+1. Entre no centro de conformidade [do Microsoft 365](https://compliance.microsoft.com/) como um administrador global e navegue até **a** Proteção de  >  **Informações de Soluções**
     
     Se você não vir essa opção imediatamente, selecione primeiro **Mostrar tudo**. 
 
@@ -237,7 +239,7 @@ Requisitos:
 
 - Shell de Gerenciamento do SharePoint Online versão 16.0.20616.12000 ou posterior.
 
-- A criptografia foi aplicada por um rótulo de sensibilidade com configurações de criptografia definidas pelo administrador (as configurações de atribuir permissões [agora rotulam).](encryption-sensitivity-labels.md#assign-permissions-now) [Não há suporte](encryption-sensitivity-labels.md#double-key-encryption) para a Criptografia de Chave Dupla para este cmdlet.
+- A criptografia foi aplicada por um rótulo de sensibilidade com configurações de criptografia definidas pelo administrador (as configurações de atribuir permissões [agora rotulam).](encryption-sensitivity-labels.md#assign-permissions-now) [Não há suporte para](encryption-sensitivity-labels.md#double-key-encryption) a Criptografia de Chave Dupla para este cmdlet.
 
 O texto de justificativa [](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) é adicionado ao evento de auditoria do rótulo de confidencialidade Removido do **arquivo,** e a ação de descriptografia também é registrada no log de uso de proteção para a Proteção de Informações do [Azure.](https://docs.microsoft.com/azure/information-protection/log-analyze-usage)
 
@@ -257,4 +259,4 @@ Se você tiver o Microsoft 365 Multi-Geo, deverá executar este comando para cad
 
 Depois de habilitar os rótulos de sensibilidade para arquivos do Office no SharePoint e no OneDrive, considere rotular automaticamente esses arquivos usando políticas de rotulagem automática. Para obter mais informações, [consulte Aplicar um rótulo de sensibilidade ao conteúdo automaticamente.](apply-sensitivity-label-automatically.md)
 
-Precisa compartilhar seus documentos rotulados e criptografados com pessoas de fora da sua organização?  Consulte [Compartilhamento de documentos criptografados com usuários externos.](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users)
+Precisa compartilhar os seus documentos rotulados e criptografados com pessoas fora de sua organização?  Consulte [Compartilhamento de documentos criptografados com usuários externos](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users).

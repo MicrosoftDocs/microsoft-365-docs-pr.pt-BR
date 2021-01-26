@@ -1,5 +1,5 @@
 ---
-title: Introdução às experiências de tópicos (versão prévia)
+title: Introdução às Experiências de Tópico (Visualização)
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -8,21 +8,23 @@ audience: ''
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
 description: Saiba como encontrar recursos para experiências de tópico.
-ms.openlocfilehash: 9141f6b445932234ebfa5a3d77833f64110ceeb4
-ms.sourcegitcommit: 18f95c4b7f74881b4a6ce71ad2ffa78a6ead5584
+ms.openlocfilehash: a9069b8723cb23a406fcce3b96a53b3de2a07568
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731338"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976174"
 ---
-# <a name="introduction-to-topic-experiences-preview"></a>Introdução às experiências de tópicos (versão prévia)
+# <a name="introduction-to-topic-experiences-preview"></a>Introdução às Experiências de Tópico (Visualização)
 
 > [!Note] 
-> O conteúdo deste artigo é para a visualização privada do Project Cortex. [Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).
+> O conteúdo deste artigo é para o Project Cortex Private Preview. [Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).
 
 </br>
 
@@ -31,30 +33,30 @@ ms.locfileid: "49731338"
 </br>
 
 
-A experiência do tópico é um serviço do Office 365 que ajuda as organizações a transformar informações em conhecimento.
+Experiências de tópico é um serviço do Office 365 que ajuda as organizações a transformar informações em conhecimento.
 
-Os recursos nesta página foram projetados para ajudá-lo a aprender sobre o e usar experiências de tópico em sua organização.
+Os recursos nesta página foram projetados para você começar a aprender sobre e usar as Experiências de Tópico em sua organização.
 
 ## <a name="get-started"></a>Introdução
 
-Os recursos desta seção o ajudarão a saber mais sobre o que é a experiência do tópico e como ele pode ajudá-lo.
+Os recursos desta seção ajudam você a saber mais sobre o que são experiências de tópico e como eles podem ajudá-lo.
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
-|Saiba mais sobre compreensão de documentos|[Visão geral da experiência do tópico](topic-experiences-overview.md)|
-|Saiba como os tópicos são descobertos e criados pelo AI|[Descoberta de experiências de tópico](topic-experiences-discovery.md)|
-|Saiba mais sobre segurança de tópico|[Tópico experiências de segurança e privacidade](topic-experiences-security-privacy.md)|
+|Saiba mais sobre compreensão de documentos|[Visão geral das experiências de tópico](topic-experiences-overview.md)|
+|Saiba como os tópicos são descobertos e criados pela IA|[Descoberta de experiências de tópico](topic-experiences-discovery.md)|
+|Saiba mais sobre segurança de tópicos|[Tópico Experiências de segurança e privacidade](topic-experiences-security-privacy.md)|
 
 
 ## <a name="adoption"></a>Adoção
 
-Saiba mais sobre como usar e implementar experiências de tópico em sua organização para ajudá-lo a solucionar problemas de negócios: 
+Saiba mais sobre como usar e implementar experiências de tópico em sua organização para ajudá-lo a resolver seus problemas de negócios: 
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
-|Saiba como começar a planejar o uso de experiências de tópico. |[Introdução](topics-adoption-getstarted.md)<br><br>|  
+|Saiba como começar a planejar o uso de Experiências de Tópico. |[Introdução](topics-adoption-getstarted.md)<br><br>|  
 
-## <a name="set-up-and-administration"></a>Configurar e administrar
+## <a name="set-up-and-administration"></a>Configuração e administração
 
 Os recursos nessa seção ajudam o administrador da sua organização a instalar e configurar o Microsoft SharePoint Syntex em seu ambiente Microsoft 365.
 
@@ -63,18 +65,18 @@ Os recursos nessa seção ajudam o administrador da sua organização a instalar
 |Saiba como configurar e configurar experiências de tópico|[Configurar experiências de tópico](set-up-topic-experiences.md)|
 |Saiba como configurar permissões de usuário|[Gerenciar permissões de tópico](topic-experiences-user-permissions.md)|
 |Saiba como gerenciar quem pode exibir tópicos|[Gerenciar a visibilidade de tópicos](topic-experiences-knowledge-rules.md)|
-|Saiba como gerenciar suas configurações de descoberta de tópico|[Gerenciar descoberta de tópicos](topic-experiences-discovery.md)|
+|Saiba como gerenciar as configurações de descoberta de tópicos|[Gerenciar descoberta de tópicos](topic-experiences-discovery.md)|
 
 ## <a name="work-with-topics"></a>Trabalhar com os tópicos
 
-Os recursos desta seção ajudam os usuários a aprender a usar e gerenciar tópicos.
+Os recursos nesta seção ajudam os usuários a aprender a usar e gerenciar tópicos.
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
 |Saiba como trabalhar com tópicos|[Visão geral do centro de tópicos](topic-center-overview.md)<br><br>[Gerenciar tópicos](manage-topics.md)<br><br>[Criar um novo tópico](create-a-topic.md)<br><br>[Editar um tópico existente](edit-a-topic.md)<br><br>|
-|Entender as funções de usuário|[Funções da experiência do tópico](topic-experiences-roles.md)|
-|Entender por que os tópicos podem diferir para diferentes usuários|[Tópico enfrenta filtragem de segurança](topic-experiences-security-trimming.md)|
-|Saiba como impedir que tópicos específicos sejam identificados e exibidos|[Restringir o acesso aos tópicos](restrict-access-to-topics.md)|
+|Compreender as funções de usuário|[Funções de Experiência de Tópico](topic-experiences-roles.md)|
+|Entender por que os tópicos podem ser diferentes para usuários diferentes|[Corte de segurança de Experiências de Tópico](topic-experiences-security-trimming.md)|
+|Saiba como impedir que tópicos específicos sejam identificados e exibidos|[Restringir o acesso a tópicos](restrict-access-to-topics.md)|
 
 
 

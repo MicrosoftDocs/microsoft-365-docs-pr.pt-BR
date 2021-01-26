@@ -8,14 +8,16 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-topics
 localization_priority: Priority
-ms.openlocfilehash: bd5d0b180a95239b1a3ac7b85ae0ada57f098293
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: ad777fde5179b8425fad3ead4d4733a9a455e657
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087269"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976334"
 ---
 # <a name="term-store-reports"></a>Relatórios do repositório de termos
 
