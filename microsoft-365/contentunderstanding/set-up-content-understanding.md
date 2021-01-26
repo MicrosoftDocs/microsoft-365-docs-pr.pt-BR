@@ -7,16 +7,18 @@ manager: serdars
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 search.appverid: MET150
 localization_priority: Priority
 description: Configure a compreensão de conteúdo no Projeto Cortex
-ms.openlocfilehash: 1abcc71200642de3f74a92e83299e079ffffb038
-ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
+ms.openlocfilehash: a9713f1d28cf863ab827d2975e84042026105b3f
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49604255"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976371"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Configuração do SharePoint Syntex
 
@@ -24,15 +26,15 @@ Os administradores podem usar o Centro de administração do Microsoft 365 para 
 
 Considere o seguinte antes de começar:
 
-- Em quais sites do SharePoint você vai ativar o processamento de formulários? Todos, alguns ou sites selecionados?
-- Qual será o nome do seu centro de conteúdo padrão?
+- Em quais sites do Microsoft Office SharePoint Online você habilitará o processamento de formulários? Todos, alguns ou sites selecionados?
+- Como você nomeará seu centro de conteúdo padrão?
 
 É possível alterar suas configurações após a configuração inicial no Centro de administração do Microsoft 365.
 
-Antes da configuração, certifique-se de planejar a melhor maneira de estabelecer e configurar a compreensão de conteúdo no seu ambiente. Por exemplo, você precisa levar em consideração os seguintes nomes de:
+Antes da configuração, certifique-se de planejar a melhor maneira de estabelecer e configurar a compreensão de conteúdo no seu ambiente. Por exemplo, você precisa tomar as seguintes decisões:
 
-- Sites do SharePoint que você deseja ativar o processamento de formulários - todos, alguns ou sites selecionados
-- Seu centro de conteúdo e o nome do administrador do site principal
+- Os sites do Microsoft Office SharePoint Online nos quais você deseja habilitar o processamento de formulários - todos, alguns ou sites selecionados
+- O nome e administradores ou seu centro de conteúdo
 
 ## <a name="requirements"></a>Requisitos 
 
@@ -55,8 +57,8 @@ Como administrador, também é possível fazer alterações nas configurações 
 4. Na página **Configurar Processamento de Formulário**, você pode escolher se quer permitir que os usuários sejam capazes de criar modelos de processamento de formulários em bibliotecas específicas de documentos do SharePoint. Uma opção de menu estará disponível na faixa de opções da biblioteca de documentos para **Criar um modelo de processamento de formulário** nas bibliotecas de documentos do SharePoint nas quais ele está ativado.
  
      Para **Quais bibliotecas do SharePoint devem exibir a opção para criar um modelo de processamento de formulário**, você pode selecionar:</br>
-      - **Todas as bibliotecas do SharePoint** para torná-lo disponível em todas as bibliotecas do SharePoint em sua organização.</br>
-      - **Bibliotecas somente em sites selecionados**, e então selecione os sites nos quais você quer disponibilizá-lo ou carregue uma lista de até 50 sites.</br>
+      - **Bibliotecas em todos os sites do Microsoft Office SharePoint Online** para torná-lo disponível para todas as bibliotecas do SharePoint em sua organização.</br>
+      - **Bibliotecas em sites selecionados do Microsoft Office SharePoint Online** e, a seguir, selecione os sites nos quais deseja disponibilizá-las ou carregue uma lista de até 50 sites.</br>
       - **Nenhuma biblioteca do SharePoint** se você não deseja torná-lo disponível para nenhum site (você pode alterar isto após a configuração).
 
    > [!div class="mx-imgBorder"]
@@ -114,4 +116,3 @@ Vá até o [Centro de administração da Plataforma Power ](https://admin.powerp
 [Visão geral do modelo de processamento de formulários](https://docs.microsoft.com/ai-builder/form-processing-model-overview).
 
 [Passo a passo: como construir um modelo de compreensão de documentos (vídeo)](https://www.youtube.com/watch?v=DymSHObD-bg)
-

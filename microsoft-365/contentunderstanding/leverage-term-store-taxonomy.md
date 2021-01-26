@@ -7,15 +7,17 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
-ms.collection: enabler-strategic
+ms.collection:
+- enabler-strategic
+- m365initiative-syntex
 localization_priority: Priority
-description: Use a taxonomia do repositório de termos ao criar um extrator no seu modelo de compreensão de documentos no Microsoft SharePoint Syntex.
-ms.openlocfilehash: cf396d14a497981389cc336c5efd121f36392181
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+description: Utilize a taxonomia de repositório de termos ao criar um extrator em seu modelo de compreensão de documento no Microsoft SharePoint Syntex.
+ms.openlocfilehash: aff2df6a96fdfee7380651f68e647019e9485658
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709543"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49975734"
 ---
 # <a name="leverage-term-store-taxonomy-when-creating-an-extractor"></a>Aproveitar a taxonomia do repositório de termos ao criar um extrator
 
@@ -33,13 +35,13 @@ Por exemplo, o modelo identifica e classifica todos os documentos de **Contrato*
 
 ## <a name="use-a-managed-metadata-column-in-your-extractor"></a>Usar uma coluna de metadados gerenciados no extrator
 
-Os conjuntos de termos são configurados no repositório de termos de serviços de Metadados Gerenciados (MMS) no Centro de administração do SharePoint. No exemplo a seguir, o *conjunto de termos* dos [Serviços contratados](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) é configurado para incluir um número de termos, incluindo *Criativo*.  Os detalhes mostram que o termo tem três sinônimos (*Design*, *Gráficos* e *Topografia*) e os sinônimos devem ser traduzidos para *Criativo*. 
+Os conjuntos de termos são configurados no repositório de termos de serviços de Metadados Gerenciados (MMS) no Centro de administração do SharePoint. No exemplo abaixo, o *Contrato de Serviços* [conjunto de termos](https://docs.microsoft.com/sharepoint/managed-metadata#term-set) está configurado para incluir vários termos, incluindo o *Criativo*.  Os detalhes mostram que o termo tem três sinônimos (*Design*, *Gráficos* e *Topografia*) e os sinônimos devem ser traduzidos para *Criativo*. 
 
    ![Conjunto de termos](../media/content-understanding/term-store.png)</br>
 
-Pode haver vários motivos pelos quais você pode querer usar um sinônimo em seu conjunto de termos. Por exemplo, pode haver termos desatualizados, termos renomeados ou variações de nome entre seus departamentos de organizações.
+Pode haver muitos motivos pelos quais você pode querer usar um sinônimo em seu conjunto de termos. Por exemplo, pode haver termos desatualizados, termos renomeados ou variações de nome entre seus departamentos de organizações.
 
-Para disponibilizar o campo de metadados gerenciados para seleção quando você cria o seu extrador em seu modelo, é necessário [adicioná-lo como uma coluna de site de metadados gerenciados](https://support.microsoft.com/office/8fad9e35-a618-4400-b3c7-46f02785d27f). Depois que você adicionar a coluna de site, ela estará disponível para você selecionar quando criar o extrator para o seu modelo.
+Para disponibilizar o campo de metadados gerenciados para seleção ao criar seu extrator em seu modelo, você precisa [adicioná-lo como uma coluna de site de metadados gerenciados](https://support.microsoft.com/office/8fad9e35-a618-4400-b3c7-46f02785d27f). Depois de adicionar a coluna do site, você pode selecioná-la ao criar o extrator para o seu modelo.
 
    ![Serviços contratados](../media/content-understanding/contract-services.png)</br>
 
