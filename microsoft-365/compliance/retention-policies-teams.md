@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: e3cd36fe6a7f075516d7778094ff5dd29480bfd9
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: ec5085b2d0a828300cb90fb260cb293eda4b9433
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794123"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988177"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -38,7 +38,10 @@ Para outras cargas de trabalho, confira:
 
 ## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
 
-Os seguintes itens do Microsoft Teams podem ser retidos e excluídos usando políticas de retenção para o Microsoft Teams: mensagens de chat e mensagens de canal, incluindo imagens incorporadas, tabelas, links de hipertexto e links para outras mensagens e arquivos do Microsoft Teams. As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
+Os seguintes itens de equipes podem ser retidos e excluídos usando políticas de retenção para equipes: Mensagens de bate-papo e mensagens de canal, incluindo imagens incorporadas, tabelas, links de hipertexto e links para outras mensagens e arquivos de equipes e [conteúdo de cartão](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards). As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
+
+> [!NOTE]
+> Incluir o conteúdo do cartão é uma adição recente e está sendo implementada atualmente para os locatários. Para obter mais informações, confira [Centro de conformidade do Microsoft 365 para conteúdo do Cartão Adaptável por meio de aplicativos no Teams agora disponíveis](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
 As mensagens do Teams em canais privados e as reações de outras pessoas na forma de emoticons não são incluídas.
 
