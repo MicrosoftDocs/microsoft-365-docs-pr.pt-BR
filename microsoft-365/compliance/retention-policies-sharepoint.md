@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: 0ce3a95754bcffd118d78b7919eb6773d3f14b54
-ms.sourcegitcommit: 9e4b3df05eff94fe1be4ef8618a7ce6f2fca3658
+ms.openlocfilehash: 253b4f2c09468b45b8e6102f585a8e4b7bbe4e4e
+ms.sourcegitcommit: ddbc6f8ebadf2f8149dff910b743535cbc3fa3c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903986"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "49992497"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -57,15 +57,23 @@ Para políticas de retenção e políticas de aplicação automática: sites do 
 
 ## <a name="how-retention-works-for-sharepoint-and-onedrive"></a>Como funciona a retenção para o SharePoint e o OneDrive
 
-Para oferecer suporte à retenção, o Microsoft Office SharePoint Online e o Microsoft OneDrive criam uma Biblioteca de Retenção para Preservação, se não houver uma. Você pode ver essa biblioteca na página **Conteúdo do site** no site de nível superior do conjunto de sites. A maioria dos usuários não poderá ver a biblioteca de Retenção para Preservação porque ela só fica visível para os administradores do conjunto de sites.
-  
-Se alguém tentar alterar ou excluir um documento sujeito à retenção de conteúdo, uma verificação é feita para detectar se o conteúdo foi alterado desde que as configurações de retenção foram aplicadas. Se essa for a primeira alteração desde que as configurações de retenção foram aplicadas, o conteúdo é copiado para a Biblioteca de Retenção para Preservação, permitindo que a pessoa altere ou exclua o conteúdo original. Todo o conteúdo em um conjunto de sites pode ser copiado para a Biblioteca de Retenção para Preservação, independentemente das configurações de retenção.
+Para armazenar o conteúdo que precisa ser retido, o SharePoint e o OneDrive criam uma biblioteca de retenção para preservação, se não houver uma. Você pode ver essa biblioteca na página **Conteúdo do site** no site de nível superior do conjunto de sites. A maioria dos usuários não poderá ver a biblioteca de Retenção para Preservação porque ela só fica visível para os administradores do conjunto de sites.
+
+Os itens no SharePoint que têm um rótulo de retenção padrão (não declara o item como um registro) não precisam da biblioteca de Retenção de Preservação porque esses itens permanecem em seu local original. O SharePoint impede que os usuários excluam itens quando o rótulo de retenção aplicado é configurado para reter o conteúdo, e o controle de versão do SharePoint preserva as versões mais antigas quando os itens são editados. Mas para outros cenários, a biblioteca de retenção de preservação é usada quando os itens devem ser retidos:
+- Itens no OneDrive que possuem rótulos de retenção padrão
+- Itens no SharePoint ou OneDrive que têm rótulos de retenção que os declaram um registro, e o item está desbloqueado para edição
+- Itens que estão sujeitos a políticas de retenção
+
+Para reter este conteúdo quando um usuário tenta alterá-lo ou excluí-lo, é feita uma verificação se o conteúdo foi alterado desde que as configurações de retenção foram aplicadas. Se essa for a primeira alteração desde que as configurações de retenção foram aplicadas, o conteúdo é copiado para a Biblioteca de Retenção para Preservação, permitindo que a pessoa altere ou exclua o conteúdo original. Todo o conteúdo em um conjunto de sites pode ser copiado para a Biblioteca de Retenção para Preservação, independentemente das configurações de retenção.
   
 Um trabalho do temporizador limpa periodicamente a Biblioteca de Retenção para Preservação. Esta tarefa compara todo o conteúdo da Biblioteca de Retenção para Preservação com todas as configurações de retenção para aquele conteúdo. O conteúdo anterior ao período de retenção configurado é excluído da Biblioteca de Retenção para Preservação e do local original, se ainda estiver lá. Este trabalho temporizado é executado a cada sete dias, o que significa que pode levar até sete dias para que o conteúdo seja apagado.
   
 Esse comportamento se aplica ao conteúdo que existe quando as configurações de retenção foram aplicadas. Além disso, para políticas de retenção, qualquer conteúdo novo criado ou adicionado ao conjunto de sites depois que ele tiver sido incluído na política será retido após a exclusão. Entretanto, o novo conteúdo não será copiado para a Biblioteca de Retenção para Preservação na primeira vez em que for editado, somente quando for excluído. Para manter todas as versões de um arquivo, você deve ativar o [controle de versão](#how-retention-works-with-document-versions).
   
-O usuário recebe um erro se tentar excluir uma biblioteca, lista, pasta ou um site sujeitos a uma política de retenção. Para excluir uma pasta, o usuário deve mover ou excluir todos os arquivos da pasta que estejam sujeitos à política. Além disso, a Biblioteca de Retenção para Preservação é criada nesse estágio, e não quando você cria uma política de retenção ou aplica um rótulo de retenção. Isso significa que, para testar a retenção, você deve primeiro editar ou excluir um documento em um site sujeito à política de retenção ou que tenha um rótulo de retenção aplicado, e, em seguida, navegar até a Biblioteca de Retenção para Preservação para exibir a cópia retida.
+Os usuários verão uma mensagem de erro se tentarem excluir uma biblioteca, lista, pasta ou site sujeito à retenção. Eles podem excluir uma pasta se primeiro moverem ou excluirem quaisquer arquivos da pasta que estejam sujeitos à retenção.
+
+> [!NOTE]
+> Como a biblioteca de Retenção de Preservação é criada somente quando é necessária, e não quando você aplica uma política de retenção ou rótulo de retenção, para ver isso funcionando, você deve primeiro editar ou excluir um item que está sujeito à retenção. Em seguida, navegue até a Biblioteca de retenção para preservação para exibir a cópia retida.
   
 Depois de atribuir as configurações de retenção ao conteúdo em uma conta do OneDrive ou em um site do SharePoint, os caminhos que o conteúdo assume dependem se as configurações de retenção forem para reter e excluir, reter somente, ou excluir somente.
 

@@ -20,62 +20,54 @@ search.appverid:
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 ms.custom:
 - seo-marvel-apr2020
-description: Use a ferramenta de Pesquisa de Conteúdo no centro de conformidade do Office 365 ou Microsoft 365 para pesquisar conteúdo em uma variedade de serviços do Office 365.
-ms.openlocfilehash: b2120ed131af48defb87af80e8b38c55dc0a0422
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+description: Use a ferramenta de Pesquisa de Conteúdo no centro de conformidade da Microsoft para pesquisar conteúdo em diferentes serviços do Microsoft 365.
+ms.openlocfilehash: b497c584dce02279e0d2a0e68a8f5ada415164e5
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166102"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988199"
 ---
 # <a name="content-search"></a>Pesquisa de Conteúdo
 
-Use a ferramenta de Descoberta Eletrônica de Pesquisa de Conteúdo no centro de conformidade do Office 365 ou Microsoft 365 para pesquisar itens no local, como email, documentos e conversas de mensagens instantâneas na organização. Use esta ferramenta para pesquisar itens nos seguintes serviços:
+Você pode usar a ferramenta de descoberta eletrônica de Pesquisa de Conteúdo na central de conformidade do Office 365 ou Microsoft 365 para pesquisar itens in-loco como email, documentos e conversas de mensagens instantâneas em sua organização. Use esta ferramenta para pesquisar itens nos seguintes serviços:
   
-- Pastas públicas e caixas de correio do Exchange Online.
-    
+- Caixas de correio do Exchange Online.
+
 - Sites do SharePoint Online e contas do OneDrive for Business
-    
-- Conversas do Skype for Business
-    
-- Microsoft Teams 
+
+- Microsoft Teams
 
 - Grupos do Microsoft 365
 
-- Grupos do Yammer 
-    
-Após a execução de uma Pesquisa de Conteúdo, o número de locais de conteúdo e um número estimado de resultados de pesquisa serão exibidos nas estatísticas de pesquisa. As estatísticas podem ser visualizadas prontamente, como os locais de conteúdo que têm mais itens que correspondem à consulta de pesquisa. Ao executar uma pesquisa, elas poderão ser visualizadas ou exportadas para um computador local.
+- Grupos do Yammer
+
+- Conversas do Skype for Business
+
+Depois de executar uma pesquisa de conteúdo, o número de locais de conteúdo e um número estimado de resultados da pesquisa são exibidos nas estatísticas de pesquisa. As estatísticas podem ser visualizadas prontamente, como os locais de conteúdo que têm mais itens que correspondem à consulta de pesquisa. Ao executar uma pesquisa, elas poderão ser visualizadas ou exportadas para um computador local.
 
 ## <a name="create-a-search"></a>Criar uma pesquisa
 
 Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquisas, visualizar e exportar resultados de pesquisa, um administrador, um responsável pela conformidade ou um gerente de descoberta eletrônica deve ser membro do grupo da função de gerente de descoberta eletrônica do Centro de Conformidade e Segurança. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
   
-1. Vá para [https://protection.office.com](https://protection.office.com) e entre usando o seu endereço de email e senha da Microsoft.
+1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre usando o seu endereço de email e senha da Microsoft.
+
+2. No painel de navegação esquerdo do Centro de Conformidade do Microsoft 365, clique em **Mostrar tudo** e, a seguir, clique em **Pesquisa de conteúdo**.
     
-2. Clique em **Pesquisar** \> **Pesquisa de conteúdo**.
-    
-3. Na página de **Pesquisa**, clique na seta ao lado do ![ícone Adicionar](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **Nova pesquisa**. 
-    
-    ![A Nova lista suspensa de pesquisa](../media/76b25861-55c5-4f50-9d48-9e2be2d0d078.png)
+3. Na página **Pesquisa de conteúdo**, clique em **Nova pesquisa**.
   
-    Você pode escolher uma das seguintes opções:
+    Você também pode escolher uma das outras opções de pesquisa:
     
-    - **Pesquisa dirigida:** Essa opção inicia um assistente que o orientará durante a criação da pesquisa. A interface do usuário usada para selecionar locais de conteúdo e criar a consulta de pesquisa é igual à opção **Nova pesquisa**. 
+    - **Pesquisa dirigida:** Essa opção inicia um assistente que o orientará durante a criação da pesquisa. A interface do usuário usada para selecionar locais de conteúdo e criar a consulta de pesquisa é igual à opção **Nova pesquisa**.
     
-    - **Nova pesquisa:** Essa opção exibe uma interface do usuário atualizada para criar uma pesquisa. Essa é a opção padrão se você clicar em **Nova pesquisa**.
+    - **Pesquisar por lista de IDs:** esta opção permite que você pesquise mensagens de email específicas e outros itens de caixa de correio usando uma lista de IDs do Exchange. Para criar uma pesquisa de lista de IDs, você envia um arquivo de valores separados por vírgula (CSV) que identifica os itens específicos da caixa de correio a serem pesquisados. Para obter instruções, confira [Preparar um arquivo CSV para uma pesquisa de lista de IDs](csv-file-for-an-id-list-content-search.md). 
     
-    - **Pesquisar por Lista de IDs** – Essa opção permite pesquisar mensagens de email específicas e outros itens da caixa de correio usando uma lista de IDs do Exchange. Para criar uma pesquisa de lista de IDs (chamada formalmente de pesquisa direcionada), envie um arquivo de valores separados por vírgula (CSV) que identifique os itens específicos da caixa de correio a serem pesquisados. Para obter instruções, confira [Preparar um arquivo CSV para uma lista de IDs de Pesquisa de Conteúdo no Office 365](csv-file-for-an-id-list-content-search.md).
-    
-    O restante das etapas desse procedimento segue o novo fluxo de trabalho de pesquisa padrão.
-    
-4. Clique em **Nova pesquisa** na lista suspensa. 
-    
-5. Em **Consulta de pesquisa**, especifique o seguinte:
+4. Em **Consulta de pesquisa**, especifique o seguinte:
     
     ![Especifique palavras-chave, condições e locais a serem pesquisados](../media/1e6de9dd-eac9-4e2a-819d-9740cf6c9106.png)
   
    - **Palavras-chave a pesquisar:** Digite uma consulta de pesquisa na caixa de **Palavras-chave**. Você pode especificar palavras-chave, propriedades de mensagem como datas enviadas e recebidas, ou ainda, propriedades do documento como nomes de arquivos ou a data em que um documento foi alterado pela última vez. Faça consultas mais complexas que usam um operador Booleano, **E**, **OU**, **NÃO** e **PRÓXIMO**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavra-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa.
-    
+
       Como alternativa, você pode clicar na caixa de seleção **Mostrar lista de palavras-chave** e digitar uma palavra-chave em cada linha. Ao fazer isso, as palavras-chave em cada linha serão conectadas por um operador lógico (**c:s**) com funcionalidade semelhante ao operador **OU** na consulta de pesquisa criada. 
     
       Por que usar a lista de palavras-chave? Para obter estatísticas que mostram quantos itens correspondem a cada palavra-chave. Isso ajudará a identificar rapidamente quais palavras-chave são as mais recentes. Também poderá usar uma frase de palavra-chave (entre parênteses) em uma linha. Para obter mais informações sobre as estatísticas de pesquisa, confira [Exibir estatísticas da palavra-chave para Resultados de Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
@@ -98,17 +90,17 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
        > [!NOTE]
        > Quando você pesquisa todos os locais de caixa de correio ou apenas caixas de correio específicas, os dados de outros aplicativos do Office 365 salvos nas caixas de correio do usuário são incluídos quando você exporta os resultados de uma pesquisa de conteúdo. Esses dados não serão incluídos nos resultados de pesquisa estimados e não estarão disponíveis para visualização. Eles serão incluídos na exportação e no download dos resultados da pesquisa. Para obter mais informações, confira [Conteúdo armazenado nas caixas de correio do Exchange Online](what-is-stored-in-exo-mailbox.md).
    
-6. Depois de configurar a consulta de pesquisa, clique em **Salvar e executar**.
+5. Depois de configurar a consulta de pesquisa, clique em **Salvar e executar**.
     
-7. Na página **Salvar pesquisa**, digite um nome para a pesquisa e uma descrição opcional que ajude a identificar a pesquisa. O nome da pesquisa deve ser exclusivo na organização. 
+6. Na página **Salvar pesquisa**, digite um nome para a pesquisa e uma descrição opcional que ajude a identificar a pesquisa. O nome da pesquisa deve ser exclusivo na organização. 
     
-8. Clique em **Salvar** para iniciar a pesquisa. 
+7. Clique em **Salvar** para iniciar a pesquisa. 
     
     Depois de salvar e executar a pesquisa, todos os resultados retornados pela pesquisa serão exibidos no painel de resultados. Dependendo de como a configuração de visualização foi definida, os resultados da pesquisa serão exibidos ou você precisará clicar em **Visualizar resultados** para visualizá-los. Veja mais detalhes na próxima seção. 
     
 Para acessar a pesquisa de conteúdo novamente ou acessar outras pesquisas de conteúdo listadas na página **Pesquisa de conteúdo**, selecione a pesquisa e clique em **Abrir**. 
   
-Para limpar os resultados ou criar outra pesquisa, clique em ![Adicionar ícone](../media/O365-MDM-CreatePolicy-AddIcon.gif) **Nova pesquisa**. 
+Para limpar os resultados ou criar outra pesquisa, clique em ![Adicionar ícone](../media/O365-MDM-CreatePolicy-AddIcon.gif) **Nova pesquisa**.
   
 ## <a name="preview-search-results"></a>Visualização de resultados de pesquisa
 
@@ -116,7 +108,7 @@ Há dois parâmetros de configuração para visualizar os resultados de pesquisa
   
 ![Visualizar configurações de resultados de pesquisa](../media/83519477-1c85-4442-8886-481f186fd758.png)
   
-1. **Visualizar resultados automaticamente:** Essa configuração exibe os resultados após a execução de uma pesquisa.
+1. **Visualizar os resultados automaticamente:** esta configuração exibe os resultados da pesquisa depois que você executa uma pesquisa.
     
 2. **Visualizar resultados manualmente:** Essa configuração exibe espaços reservados no painel de resultados da pesquisa e exibe o botão **Visualizar resultados** que você deve clicar para exibir os resultados da pesquisa. Esta é a configuração padrão. Ela ajuda a melhorar o desempenho da pesquisa ao não exibir automaticamente os resultados quando uma pesquisa existente é aberta. 
     
@@ -134,22 +126,21 @@ Você também poderá baixar as estatísticas da pesquisa e as estatísticas da 
   
 Para visualizar as estatísticas de pesquisa:
   
-1. Na página **Pesquisa de conteúdo**, clique em **Abrir** e depois, clique na pesquisa para a qual você deseja exibir as estatísticas. 
-    
+1. Na página **Pesquisa de conteúdo**, clique em **Abrir** e depois, clique na pesquisa para a qual você deseja exibir as estatísticas.
+  
 2. Na página do submenu, clique em **Abrir consulta**. 
-    
+  
 3. Na lista suspensa **Resultados individuais**, clique em **Estatísticas de pesquisa**.
-    
+  
 4. Na lista suspensa **Tipo**, clique em uma das seguintes opções, dependendo das estatísticas de pesquisa que você deseja visualizar:
-    
+  
     - **Resumo**: Exibe as estatísticas de cada tipo de locais de conteúdo pesquisado. Tal resumo contém o número de locais de conteúdo com os itens correspondentes à consulta de pesquisa, o número total e o tamanho dos itens de resultado da pesquisa. Esta é a configuração padrão.
 
     - **Consultas:** Exibe estatísticas sobre a consulta de pesquisa. Já esse inclui o tipo de local de conteúdo ao qual as estatísticas de consulta são aplicáveis, parte da consulta de pesquisa à qual as estatísticas são aplicáveis (observe que **Primário** indica toda a consulta de pesquisa), o número de locais de conteúdo que contêm itens correspondentes à consulta de pesquisa, o número total, tamanho e os itens que foram encontrados (no local de conteúdo especificado) correspondentes à consulta de pesquisa. As estatísticas para itens não indexados (também chamados de *itens parcialmente indexados*) também são exibidas. No entanto, apenas itens parcialmente indexados de caixas de correio estão inclusos nas estatísticas. Itens parcialmente indexados do SharePoint e do OneDrive não são incluídos nas estatísticas.
 
     - **Principais locais:** Exibe estatísticas sobre o número de itens que correspondem à consulta de pesquisa em cada local de conteúdo. Os primeiros 1.000 locais são exibidos.
-    
+
 Para obter mais informações sobre as estatísticas de pesquisa, confira [Exibir estatísticas da palavra-chave para resultados de Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
-  
   
 ## <a name="export-search-results"></a>Exportar resultados de pesquisa
 
@@ -158,21 +149,20 @@ Depois que uma pesquisa é executada com êxito, você pode exportar os resultad
 Exportar resultados de pesquisa:
   
 1. Na página **Pesquisa de conteúdo**, clique na pesquisa para a qual você deseja atualizar os resultados. 
-    
-2. Na página do submenu, clique em ![Exportar ícone de resultados de pesquisa](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **Mais** e em seguida, clique em **Exportar resultados**. Também é possível exportar um relatório de resultados de pesquisa.
-    
-3. Complete as seções na página do submenu **Exportar resultados**. Use a barra de rolagem para exibir todas as opções de exportação. 
-    
+
+2. Na página flyout, clique em **Exportar resultados**. Também é possível exportar um relatório de resultados de pesquisa.
+
+3. Complete as seções na página do submenu **Exportar resultados**. Use a barra de rolagem para exibir todas as opções de exportação.
+
 Para obter instruções mais detalhadas e dicas de solução de problemas, confira:
   
-- [Exportar resultados de Pesquisa de Conteúdo](export-search-results.md)
-    
-- [Exportar um relatório da Pesquisa de Conteúdo](export-a-content-search-report.md)
-    
-  
-## <a name="more-information-about-content-search"></a>Para obter mais informações sobre pesquisa de conteúdo
+- [Exportar resultados de Pesquisa de conteúdo](export-search-results.md)
 
-Consulte as seções a seguir para obter mais informações sobre pesquisas de conteúdo.
+- [Exportar um relatório de Pesquisa de conteúdo](export-a-content-search-report.md)
+
+## <a name="more-information-about-content-search"></a>Mais informações sobre pesquisa de conteúdo
+
+Confira as seções a seguir para obter mais informações sobre Pesquisas de conteúdo.
   
 [Limites da pesquisa de conteúdo](#content-search-limits)
   
@@ -196,18 +186,19 @@ Consulte as seções a seguir para obter mais informações sobre pesquisas de c
   
 ### <a name="content-search-limits"></a>Limites da pesquisa de conteúdo
 
-- Para obter uma descrição dos limites que são aplicados ao recurso de Pesquisa de Conteúdo, confira [Limites de Pesquisa de Conteúdo](limits-for-content-search.md).
-    
-- A Microsoft coleta informações sobre o desempenho das Pesquisas de Conteúdo executadas por todas as organizações. Embora a complexidade da consulta de pesquisa possa afetar os tempos de pesquisa, o maior fator que afeta o tempo de duração das pesquisas é o número de caixas de correio pesquisadas. Embora a Microsoft não forneça um Contrato de Nível de Serviço para os tempos de pesquisa, a tabela a seguir lista os tempos médios de pesquisa para uma Pesquisa de Conteúdo com base no número de caixas de correio incluídas na pesquisa.
-    
-|**Número de caixas de correio**|**Tempo médio de pesquisa**|
-|:-----|:-----|
-|100  <br/> |30 segundos  <br/> |
-|1.000  <br/> |45 segundos  <br/> |
-|10.000  <br/> |4 minutos  <br/> |
-|25.000  <br/> |10 minutos  <br/> |
-|50.000  <br/> |20 minutos  <br/> |
-|100.000  <br/> |25 minutos  <br/> |
+- Para obter uma descrição dos limites aplicados à pesquisa de conteúdo, confira [Limites da pesquisa de conteúdo](limits-for-content-search.md).
+  
+- A Microsoft coleta informações de desempenho para pesquisas de conteúdo realizadas por todas as organizações. Embora a complexidade da consulta de pesquisa possa afetar os tempos de pesquisa, o maior fator que afeta o tempo de duração das pesquisas é o número de caixas de correio pesquisadas. Embora a Microsoft não forneça um Contrato de Nível de Serviço para os tempos de pesquisa, a tabela a seguir lista os tempos médios de pesquisa para uma Pesquisa de Conteúdo com base no número de caixas de correio incluídas na pesquisa.
+  
+  |**Número de caixas de correio**|**Tempo médio de pesquisa**|
+  |:-----|:-----|
+  |100  <br/> |30 segundos  <br/> |
+  |1.000  <br/> |45 segundos  <br/> |
+  |10.000  <br/> |4 minutos  <br/> |
+  |25.000  <br/> |10 minutos  <br/> |
+  |50.000  <br/> |20 minutos  <br/> |
+  |100.000  <br/> |25 minutos  <br/> |
+  |||
   
 ### <a name="building-a-search-query"></a>Criar uma consulta de pesquisa
 
@@ -251,7 +242,7 @@ Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos d
 
 - O conteúdo dos canais privados é armazenado na caixa de correio de cada usuário, não na caixa de correio da equipe. Para pesquisar conteúdo em canais privados, confira [Descoberta eletrônica de canais privados](https://docs.microsoft.com/microsoftteams/ediscovery-investigation#ediscovery-of-private-channels).
     
-- Execute o cmdlet **Get-UnifiedGroup** no Exchange Online para exibir as propriedades de uma equipe ou de um Grupo do Microsoft 365. Esta é uma boa maneira de obter a URL do site associado a uma equipe ou a um grupo. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Microsoft 365 chamado de Equipe de Liderança Sênior: 
+- Execute o cmdlet **Get-UnifiedGroup** no Exchange Online para exibir as propriedades de uma equipe ou Grupo Microsoft 365. Essa é uma boa maneira de obter o URL do site que está associado a uma equipe ou grupo. Por exemplo, o seguinte comando exibe as propriedades selecionadas para um Grupo Microsoft 365 denominado Equipe de Liderança Sênior: 
     
   ```text
   Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
@@ -264,12 +255,12 @@ Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos d
     > [!NOTE]
     > Para executar o cmdlet **Get-UnifiedGroup**, é preciso ter atribuído a função de Destinatários Somente Leitura no Exchange Online ou ser membro de um grupo de funções atribuído à função de Destinatários Somente Leitura. 
   
-- Quando uma caixa de correio de usuário é pesquisada, qualquer equipe ou Grupo do Microsoft 365 do qual o usuário seja membro não serão pesquisados. Da mesma forma, quando você pesquisa uma equipe ou um Grupo do Microsoft 365, somente a caixa de correio e o site do grupo especificados são pesquisados. As caixas de correio e as contas do OneDrive for Business dos membros do grupo não são pesquisadas, a menos que você as adicione explicitamente à pesquisa.
-    
-- Para obter uma lista dos membros de uma equipe ou um Grupo do Microsoft 365, você pode exibir as propriedades na página **Início \> Grupos** no Centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online: 
-    
+- Quando uma caixa de correio de usuário é pesquisada, qualquer equipe ou Grupo do Microsoft 365 do qual o usuário seja membro não serão pesquisados. Da mesma forma, quando você pesquisa uma equipe ou um Grupo do Microsoft 365, apenas a caixa de correio do grupo e o site do grupo que você especifica são pesquisados. As caixas de correio e contas do OneDrive for Business dos membros do grupo não são pesquisadas, a menos que você os adicione explicitamente à pesquisa.
+
+- Para obter uma lista dos membros de uma equipe ou Grupo do Microsoft 365, você pode exibir as propriedades na **Pagina Inicial\>Grupos** no Centro de administração do Microsoft 365. Como alternativa, execute o comando a seguir no PowerShell do Exchange Online: 
+
   ```powershell
-  Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
+  Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress
   ```
 
     > [!NOTE]
@@ -280,14 +271,14 @@ Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos d
 - Como alternativa, as conversas que fazem parte da Lista de chat no Teams são armazenadas na caixa de correio do Exchange Online dos usuários que participam do chat. E os arquivos que um usuário compartilha nas conversas do Chat são armazenados na conta do OneDrive for Business do usuário que compartilha o arquivo. Portanto, é preciso adicionar as caixas de correio do usuário individual e as contas do OneDrive for Business como locais de conteúdo para pesquisar conversas e arquivos na Lista de chat.
     
     > [!NOTE]
-    > Em uma implantação híbrida do Exchange, os usuários com uma caixa de correio local podem participar de conversas que fazem parte da Lista de chat no Teams. Nesse caso, o conteúdo dessas conversas também pode ser pesquisado porque é salvo em uma área de armazenamento baseada na nuvem (chamada de *caixa de correio baseada na nuvem para usuários locais*) para usuários que possuem uma caixa de correio local. Para obter mais informações, consulte [Pesquisar caixas de correio baseadas na nuvem para usuários locais no Office 365](search-cloud-based-mailboxes-for-on-premises-users.md).
+    > Em uma implantação híbrida do Exchange, os usuários com uma caixa de correio local podem participar de conversas que fazem parte da Lista de chat no Teams. Nesse caso, o conteúdo dessas conversas também pode ser pesquisado porque é salvo em uma área de armazenamento baseada na nuvem (chamada de *caixa de correio baseada na nuvem para usuários locais*) para usuários que possuem uma caixa de correio local. Para obter mais informações, confira [Pesquisar dados de bate-papo do Teams para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
   
-- Todas as equipes ou canal de equipe contêm um Wiki para anotações e colaboração. O conteúdo Wiki é salvo automaticamente em um arquivo com um formato .mht. Esse arquivo é armazenado na biblioteca de documentos de Dados do Wiki do Teams no site do SharePoint da equipe. Você pode usar a ferramenta de Pesquisa de Conteúdo para pesquisar o Wiki ao especificar o site do SharePoint da equipe como o local de conteúdo a ser pesquisado. 
-    
+- Todas as equipes ou canal de equipe contêm um Wiki para anotações e colaboração. O conteúdo Wiki é salvo automaticamente em um arquivo com um formato .mht. Esse arquivo é armazenado na biblioteca de documentos de Dados do Wiki do Teams no site do SharePoint da equipe. Você pode usar a ferramenta de Pesquisa de Conteúdo para pesquisar o Wiki ao especificar o site do SharePoint da equipe como o local de conteúdo a ser pesquisado.
+
     > [!NOTE]
-    > O recurso de pesquisar o Wiki de uma equipe ou canal (quando você pesquisa o site do SharePoint da equipe) foi lançado em 22 de junho de 2017. As páginas Wiki que foram salvas ou atualizadas nesta data ou após estarão disponíveis para serem pesquisadas. As páginas Wiki salvas pela última vez ou atualizadas antes dessa data não estarão disponíveis para a pesquisa. 
- 
-- As informações resumidas para reuniões e chamadas em um canal do Teams também são armazenadas nas caixas de correio de usuários que discam para a reunião ou chamada. Isso significa que você pode usar a Pesquisa de Conteúdo para pesquisar esses registros de resumo. Essas informações de resumo incluem: 
+    > O recurso de pesquisar o Wiki de uma equipe ou canal (quando você pesquisa o site do SharePoint da equipe) foi lançado em 22 de junho de 2017. As páginas Wiki que foram salvas ou atualizadas nesta data ou após estarão disponíveis para serem pesquisadas. As páginas Wiki salvas pela última vez ou atualizadas antes dessa data não estarão disponíveis para a pesquisa.
+
+- As informações resumidas para reuniões e chamadas em um canal do Teams também são armazenadas nas caixas de correio de usuários que discam para a reunião ou chamada. Isso significa que você pode usar a Pesquisa de Conteúdo para pesquisar esses registros de resumo. Essas informações de resumo incluem:
   
   - Data, hora de início, hora de término e duração de uma reunião ou chamada
 
@@ -301,23 +292,42 @@ Lembre-se do seguinte ao pesquisar o conteúdo do Microsoft Teams e dos grupos d
 
   Pode levar até 8 horas para que os registros de reunião e de chamada estejam disponíveis para pesquisa.
 
-  Nos resultados da pesquisa, os resumos de reuniões são identificados como **Reunião** no **Campo de tipo** e os resumos de chamadas são identificados como **Chamada**. Além disso, as conversas que fazem parte de um canal do Teams e chats 1xN são identificadas como **Mensagens instantâneas ** no campo de **Tipo**.
+  Nos resultados da pesquisa, os resumos de reuniões são identificados como **Reunião** no **Campo de tipo** e os resumos de chamadas são identificados como **Chamada**. Além disso, as conversas que fazem parte de um canal do Teams e chats 1xN são identificadas como **Mensagens instantâneas** no campo de **Tipo**.
   
   ![As reuniões, chamadas e chats 1xN do Teams são identificados no campo de Tipo](../media/O365-ContentSearch-Teams-MessageKind.png)
 
    Para saber mais, confira [o Microsoft Teams lança a Descoberta eletrônica para chamadas e reuniões](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-launches-ediscovery-for-calling-and-meetings/ba-p/210947).
 
-- Você pode usar a propriedade de email **Tipo**ou a condição de pesquisa **Tipo de mensagem** para pesquisar especificamente por conteúdo no Teams. 
+- O conteúdo do cartão gerado por aplicativos em canais Teams, chats 1: 1 e chats 1xN é armazenado em caixas de correio e pode ser pesquisado. Um *cartão* é um contêiner de interface de usuário para pequenos pedaços de conteúdo. Os cartões podem ter várias propriedades e anexos e podem incluir botões que podem acionar ações do cartão. Para obter mais informações, confira [Cartões](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+
+  Como outros conteúdos de equipes, onde o conteúdo do cartão é armazenado é baseado em onde o cartão foi usado. O conteúdo dos cartões usados em um canal Teams é armazenado na caixa de correio do grupo Teams. O conteúdo do cartão para bate-papos individuais e 1xN é armazenado nas caixas de correio dos participantes do bate-papo.
+
+  Para pesquisar o conteúdo do cartão, você pode usar as condições de pesquisa `kind:microsoftteams` ou `itemclass:IPM.SkypeTeams.Message`. Ao revisar os resultados da pesquisa, o conteúdo do cartão gerado por bots em um canal Teams tem a propriedade de e-mail **Remetente/Autor** como `<appname>@teams.microsoft.com`, onde `appname` é o nome do aplicativo que gerou o conteúdo do cartão. Se o conteúdo do cartão foi gerado por um usuário, o valor de **Remetente/Autor** identifica o usuário.
+
+  Ao exibir o conteúdo do cartão nos resultados da pesquisa de conteúdo, o conteúdo aparece como um anexo da mensagem. O anexo é denominado `appname.html`, onde `appname` é o nome do aplicativo que gerou o conteúdo do cartão. As capturas de tela a seguir mostram como o conteúdo do cartão (para um aplicativo chamado Asana) aparece no Teams e nos resultados de uma pesquisa.
+
+  **Conteúdo do cartão no Teams**
+
+  ![Conteúdo do cartão na mensagem do canal Teams](../media/CardContentTeams.png)
+
+  **Conteúdo do cartão nos resultados de pesquisa**
+  
+  ![Mesmo conteúdo do cartão nos resultados de uma Pesquisa de conteúdo](../media/CardContentEdiscoverySearchResults.png)
+
+  > [!NOTE]
+  > Para exibir imagens do conteúdo do cartão nos resultados da pesquisa neste momento (como as marcas de seleção na captura de tela anterior), você deve estar conectado ao Teams (em https://teams.microsoft.com) em uma guia diferente na mesma sessão do navegador que você usa para exibir os resultados da pesquisa. Caso contrário, serão exibidos espaços reservados para imagens.
+
+- Você pode usar a propriedade de email **Tipo** ou a condição de pesquisa **Tipo de mensagem** para pesquisar especificamente por conteúdo no Teams.
   
   - Para usar a propriedade **Tipo** como parte da consulta de pesquisa de palavras-chave, na caixa **Palavras-chave** de uma consulta de pesquisa, digite `kind:microsoftteams`.
 
     ![Use o termo tipo:microsoftteams na caixa Palavras-chave](../media/O365-ContentSearch-Teams-Keywords.png)
   
-  - Para utilizar uma condição de pesquisa, adicione a condição de **Tipo de mensagem** e use o valor `microsoftteams`. 
+  - Para utilizar uma condição de pesquisa, adicione a condição de **Tipo de mensagem** e use o valor `microsoftteams`.
 
     ![Utilize a condição de Tipo de mensagem com o valor microsoftteams.](../media/O365-ContentSearch-Teams-MessageKindCondition.png)
 
-Observe que as condições estão logicamente associadas à consulta de palavra-chave pelo operador **E (AND)**. Isso significa que um item deve corresponder à consulta da palavra-chave e à condição da pesquisa para aparecer nos resultados da pesquisa. Para saber mais, consulte a seção “Diretrizes de condições de uso” em [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md#guidelines-for-using-conditions).
+   Observe que as condições estão logicamente associadas à consulta de palavra-chave pelo operador **E (AND)**. Isso significa que um item deve corresponder à consulta da palavra-chave e à condição da pesquisa para aparecer nos resultados da pesquisa. Para saber mais, consulte a seção “Diretrizes de condições de uso” em [Consultas de palavra-chave e condições de pesquisa para Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md#guidelines-for-using-conditions).
   
 ### <a name="searching-yammer-groups"></a>Pesquisar grupos do Yammer
 
@@ -334,7 +344,7 @@ Você pode usar a propriedade de e-mail **ItemClass** ou o critério de pesquisa
 
     ![Usar a propriedade ItemClass para procurar itens do Yammer](../media/YammerContentSearch1.png)
   
-  - Como alternativa, você pode usar a condição de e-mail**Tipo** e selecionar **mensagens do Yammer** para retornar itens do Yammer. Por exemplo, a seguinte consulta de pesquisa retornará todos os itens de conversa do Yammer que contenham a palavra-chave "confidencial". 
+  - Como alternativa, você pode usar a condição de e-mail **Tipo** e selecionar **mensagens do Yammer** para retornar itens do Yammer. Por exemplo, a seguinte consulta de pesquisa retornará todos os itens de conversa do Yammer que contenham a palavra-chave "confidencial". 
 
     ![Use o cartão de condição de tipo para pesquisar itens de conversa do Yammer](../media/YammerContentSearch2.png)
 
@@ -345,21 +355,21 @@ Você pode pesquisar por caixas de correio inativas em uma pesquisa de conteúdo
 Eis alguns pontos a serem levados em consideração durante a pesquisa de caixas de correio inativas.
 
 - Se uma pesquisa de conteúdo incluir uma caixa de correio de usuário e essa caixa de correio depois for desativada, a pesquisa de conteúdo continuará a pesquisar a caixa de correio inativa ao executar a pesquisa novamente.
-    
+
 - Em alguns casos, um usuário pode ter uma caixa de correio ativa e uma inativa com o mesmo endereço SMTP. Nesse caso, apenas a caixa de correio específica que você selecionar como local para uma pesquisa de conteúdo será pesquisada. Em outras palavras, se você adicionar a caixa de correio de um usuário a uma pesquisa, não será possível supor que as caixas de correio ativas e inativas sejam pesquisadas. Somente a caixa de correio que você adicionar explicitamente à pesquisa será pesquisada.
-    
+
 - Você pode usar o Centro de Conformidade & Segurança do PowerShell para criar uma pesquisa de conteúdo para pesquisar uma caixa de correio inativa. Para fazer isso, você precisa acrescentar um ponto (. ) ao endereço de email da caixa de correio inativa. Por exemplo, o comando a seguir cria uma pesquisa de conteúdo que pesquisa uma caixa de correio inativa com o endereço de email pavelb@contoso.onmicrosoft.com:
 
-   ``` 
+   ```powershell
    New-ComplianceSearch -Name InactiveMailboxSearch -ExchangeLocation .pavelb@contoso.onmicrosoft.com -AllowNotFoundExchangeLocationsEnabled $true
    ```
 
 - Não é recomendável de forma alguma que você tenha uma caixa de correio ativa e uma inativa com o mesmo endereço SMTP. Se você precisar reutilizar o endereço SMTP atribuído atualmente a uma caixa de correio inativa, é recomendável recuperar a caixa de correio inativa ou restaurar o conteúdo de uma caixa de correio inativa para uma ativa (ou o arquivo de uma caixa de correio ativa) e excluir a caixa de correio inativa. Para obter mais informações, consulte um dos seguintes tópicos:
-    
+
   - [Recuperar uma caixa de correio inativa no Office 365](recover-an-inactive-mailbox.md)
-    
+
   - [Restaurar uma caixa de correio inativa no Office 365](restore-an-inactive-mailbox.md)
-    
+
   - [Excluir uma caixa de correio inativa no Office 365](delete-an-inactive-mailbox.md)
 
 ### <a name="searching-disconnected-or-de-licensed-mailboxes"></a>Pesquisar caixas de correio desconectadas ou que tiveram a licença removida
@@ -391,28 +401,27 @@ Se você precisar preservar os dados em uma caixa de correio desconectada para q
 Além disso, os seguintes tipos de contêiner de arquivos possuem suporte. Você pode exibir a lista de arquivos no contêiner no painel de visualização.
   
 - .zip
-    
+
 - .gzip
-    
+
 ### <a name="partially-indexed-items"></a>Itens parcialmente indexados
 
-- Como explicado anteriormente, os itens parcialmente indexados na caixa de correio são incluídos nos resultados estimados da pesquisa. Itens parcialmente indexados do SharePoint e do OneDrive não são incluídos nos resultados estimados da pesquisa. 
-    
+- Como explicado anteriormente, os itens parcialmente indexados na caixa de correio são incluídos nos resultados estimados da pesquisa. Itens parcialmente indexados do SharePoint e do OneDrive não são incluídos nos resultados estimados da pesquisa.
+
 - Se um item parcialmente indexado corresponder à consulta de pesquisa (porque outras propriedades do documento ou mensagem atendem aos critérios de pesquisa), não será incluído no número estimado de itens não indexados. Se um item parcialmente indexado for excluído pelos critérios de pesquisa, ele não será incluído no número estimado de itens não indexados. Para obter mais informações, consulte [Itens parcialmente indexados na Pesquisa de Conteúdo do Office 365](partially-indexed-items-in-content-search.md).
 
 ### <a name="searching-for-content-in-a-sharepoint-multi-geo-environment"></a>Pesquisa de conteúdo em um ambiente Multi-Geo do SharePoint (englobando diferente áreas geográficas)
 
 Se for necessário que um gerente de Descoberta Eletrônica pesquise conteúdo no SharePoint e no OneDrive em um [ambiente multi-geo do SharePoint](https://go.microsoft.com/fwlink/?linkid=860840), você precisará fazer o seguinte:
-   
+
 1. Crie uma conta de usuário separada para cada área geográfica satélite que o gerenciador de Descoberta Eletrônica precisa pesquisar. Para pesquisar conteúdo nos sites dessa área geográfica, o gerenciador de Descoberta Eletrônica deve entrar na conta que você criou para aquela área e executar uma pesquisa de conteúdo.
 
 2. Crie um filtro de permissões de pesquisa para cada área geográfica satélite que o gerenciador de Descoberta Eletrônica precise pesquisar. Cada um desses filtros de permissões de pesquisa limita o escopo da pesquisa de conteúdo a uma área geográfica específica quando o gerenciador de Descoberta Eletrônica está conectado à conta de usuário associada à essa área.
- 
+
 > [!TIP]
-> Você não precisa usar essa estratégia ao usar a ferramenta de pesquisa na[Descoberta Eletrônica Avançada](overview-ediscovery-20.md). Isso ocorre porque todos os data centers são pesquisados quando você pesquisa sites do SharePoint e contas do OneDrive em Descoberta Eletrônica Avançada. Você deve usar essa estratégia de contas de usuário específicas de região e esses filtros de permissões de pesquisa somente quando usar a ferramenta Pesquisa de Conteúdo e executar pesquisas associadas a [casos de Descoberta Eletrônica](ediscovery-cases.md). 
+> Você não precisa usar essa estratégia ao usar a ferramenta de pesquisa na[Descoberta Eletrônica Avançada](overview-ediscovery-20.md). Isso ocorre porque todos os data centers são pesquisados quando você pesquisa sites do SharePoint e contas do OneDrive em Descoberta Eletrônica Avançada. Você deve usar essa estratégia de contas de usuário específicas de região e esses filtros de permissões de pesquisa somente quando usar a ferramenta Pesquisa de Conteúdo e executar pesquisas associadas a [casos de Descoberta Eletrônica](ediscovery-cases.md).
 
-
-Por exemplo, digamos que um gerenciador de Descoberta Eletrônica precise pesquisar o conteúdo do SharePoint e do OneDrive em áreas satélite na América do Norte, Europa e Pacífico Asiático. A primeira etapa é criar três contas de usuários, uma para cada área. A próxima etapa é criar três filtros de permissões de pesquisa, um para cada área *e* conta de usuário correspondente. Aqui estão exemplos de três filtros de permissões de pesquisa para esse cenário. Em cada um desses exemplos, o parâmetro **Região** especifica o local do data center do SharePoint para aquela região geográfica enquanto o parâmetro **Usuários** especifica a conta do usuário correspondente. 
+Por exemplo, digamos que um gerenciador de Descoberta Eletrônica precise pesquisar o conteúdo do SharePoint e do OneDrive em áreas satélite na América do Norte, Europa e Pacífico Asiático. A primeira etapa é criar três contas de usuários, uma para cada área. A próxima etapa é criar três filtros de permissões de pesquisa, um para cada área *e* conta de usuário correspondente. Aqui estão exemplos de três filtros de permissões de pesquisa para esse cenário. Em cada um desses exemplos, o parâmetro **Região** especifica o local do data center do SharePoint para aquela região geográfica enquanto o parâmetro **Usuários** especifica a conta do usuário correspondente.
 
 **América do Norte**
 
@@ -434,8 +443,8 @@ New-ComplianceSecurityFilter -FilterName "SPMultiGeo-APC" -Users ediscovery-apc@
 
 Lembre-se do seguinte ao usar filtros de permissão de pesquisa para pesquisar conteúdo em ambientes de regiões diversas:
 
-- O parâmetro **Região**direciona as pesquisas para a área de satélite especificada. Se um gerente de Descoberta Eletrônica só pesquisa sites do SharePoint e do OneDrive fora da região especificada no filtro permissões de pesquisa, nenhum resultado de pesquisa será mostrado. 
+- O parâmetro **Região** direciona as pesquisas para a área de satélite especificada. Se um gerente de Descoberta Eletrônica só pesquisa sites do SharePoint e do OneDrive fora da região especificada no filtro permissões de pesquisa, nenhum resultado de pesquisa será mostrado. 
 
-- O parâmetro **Região** não controla as pesquisas de caixas de correio do Exchange. Todos os datacenters são pesquisados quando se pesquisa caixas de correio. 
-    
+- O parâmetro **Região** não controla as pesquisas de caixas de correio do Exchange. Todos os datacenters são pesquisados quando se pesquisa caixas de correio.
+
 Para obter mais informações sobre como usar filtros de permissões de pesquisa em um ambiente de várias regiões, confira a seção "Pesquisa e exportação de conteúdo em ambientes Multi-Geo" em[Configurar limites de conformidade para investigações de Descoberta Eletrônica](set-up-compliance-boundaries.md#searching-and-exporting-content-in-multi-geo-environments).
