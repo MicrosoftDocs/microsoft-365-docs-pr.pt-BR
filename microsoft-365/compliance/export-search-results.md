@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: Exporte os resultados da pesquisa de uma Pesquisa de Conteúdo no centro de conformidade do Microsoft 365 para um computador local. Os resultados de email são exportados como arquivos PST. O conteúdo de sites do SharePoint e do OneDrive for Business é exportado como documentos nativos do Office.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12c8755d4ca8b5ff97582b879c07fe103c996ecf
-ms.sourcegitcommit: 495b66b77d6dbe6d69e5b06b304089e4e476e568
+ms.openlocfilehash: 7027593768238b3d9a465eaa6038d92234c32f82
+ms.sourcegitcommit: ddbc6f8ebadf2f8149dff910b743535cbc3fa3c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799698"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "49992507"
 ---
 # <a name="export-content-search-results"></a>Exportar os resultados da Pesquisa de Conteúdo
 
@@ -45,7 +45,7 @@ Exportar os resultados de uma Pesquisa de Conteúdo envolve preparar os resultad
   
   - Microsoft .NET Framework 4.7
   
-- Você precisa usar um dos seguintes navegadores com suporte para executar a Ferramenta de Exportação de Descobertas e<sup>1:</sup>
+- Você precisa usar um dos seguintes navegadores com suporte para executar a Ferramenta de Exportação de Descobertas EDiscovery<sup>1:</sup>
 
   - Microsoft Edge <sup>2</sup>
   
@@ -61,7 +61,7 @@ Exportar os resultados de uma Pesquisa de Conteúdo envolve preparar os resultad
 
 - Para melhorar o desempenho ao baixar os resultados da pesquisa, considere dividir as pesquisas que retornam um grande conjunto de resultados em pesquisas menores. Por exemplo, você pode usar intervalos de datas em consultas de pesquisa para retornar um conjunto menor de resultados que podem ser baixados mais rapidamente.
   
-- Quando você exporta os resultados da pesquisa, os dados são armazenados temporariamente em um local de Armazenamento do Azure fornecido pela Microsoft na nuvem da Microsoft antes de ser baixado para o computador local. Certifique-se de que sua organização possa se conectar ao ponto de extremidade no Azure, que é **\* .blob.core.windows.net** (o caractere curinga representa um identificador exclusivo para a exportação). Os dados dos resultados da pesquisa são excluídos do local de armazenamento do Azure duas semanas após sua criação. 
+- Quando você exporta os resultados da pesquisa, os dados são armazenados temporariamente em um local de Armazenamento do Azure fornecido pela Microsoft na nuvem da Microsoft antes de ser baixado para o computador local. Certifique-se de que sua organização possa se conectar ao ponto de extremidade no Azure, que é **\* .blob.core.windows.net** (o caractere curinga representa um identificador exclusivo para sua exportação). Os dados dos resultados da pesquisa são excluídos do local de armazenamento do Azure duas semanas após sua criação. 
   
 - Se sua organização usa um servidor proxy para se comunicar com a Internet, você precisa definir as configurações do servidor proxy no computador usado para exportar os resultados da pesquisa (para que a ferramenta de exportação possa ser autenticada pelo servidor proxy). Para fazer isso, abra o  *arquivomachine.config*  no local que corresponde à sua versão do Windows. 
   
@@ -84,7 +84,7 @@ Exportar os resultados de uma Pesquisa de Conteúdo envolve preparar os resultad
 
 ## <a name="step-1-prepare-search-results-for-export"></a>Etapa 1: Preparar os resultados da pesquisa para exportação
 
-A primeira etapa é preparar os resultados da pesquisa para a exportação. Quando você prepara os resultados, eles são carregados em um local de armazenamento do Azure fornecido pela Microsoft na nuvem da Microsoft. O conteúdo de caixas de correio e sites é carregado a uma taxa máxima de 2 GB por hora.
+A primeira etapa é preparar os resultados da pesquisa para a exportação. Quando você prepara os resultados, eles são carregados em um local de Armazenamento do Azure fornecido pela Microsoft na nuvem da Microsoft. O conteúdo de caixas de correio e sites é carregado a uma taxa máxima de 2 GB por hora.
   
 1. Acesse [https://protection.office.com](https://protection.office.com).
   
@@ -103,30 +103,30 @@ A primeira etapa é preparar os resultados da pesquisa para a exportação. Quan
   
     - Todos os itens, excluindo aqueles que não têm formato não reconhecedo, são criptografados ou não foram indexados por outros motivos
   
-    - Todos os itens, incluindo aqueles com formato não reconhecedo, são criptografados ou não foram indexados por outros motivos
+    - Todos os itens, incluindo aqueles que não têm formato não reconhecedo, são criptografados ou não foram indexados por outros motivos
   
     - Somente os itens que têm um formato não reconhecedo, são criptografados ou não foram indexados por outros motivos
   
     Consulte a [seção Mais informações](#more-information) para obter uma descrição sobre como itens parcialmente indexados são exportados. Para obter mais informações sobre itens parcialmente indexados, consulte [Itens parcialmente indexados na Pesquisa de Conteúdo.](partially-indexed-items-in-content-search.md)
   
-7. Em **Exportar conteúdo do Exchange como,** escolha uma das seguintes opções:
+7. Em **Exportar conteúdo do Exchange como**, escolha uma das seguintes opções:
   
     - **Um arquivo PST para cada caixa de correio:** Exporta um arquivo PST para cada caixa de correio de usuário que contém resultados de pesquisa. Quaisquer resultados da caixa de correio de arquivo morto do usuário são incluídos no mesmo arquivo PST. Essa opção reproduz a estrutura de pastas da caixa de correio da caixa de correio de origem.
   
     - **Um arquivo PST que contém todas as mensagens:** Exporta um único arquivo PST (chamado *Exchange.pst)* que contém os resultados da pesquisa de todas as caixas de correio de origem incluídas na pesquisa. Essa opção reproduz a estrutura de pastas da caixa de correio para cada mensagem.
   
-    - **Um arquivo PST que contém todas as mensagens em uma única pasta:** Exporta os resultados da pesquisa para um único arquivo PST onde todas as mensagens estão localizadas em uma única pasta de nível superior. Essa opção permite que os revisadores revisem os itens em ordem cronológica (os itens são organizados por data de enviar) sem precisar navegar na estrutura de pastas de caixa de correio original para cada item.
+    - **Um arquivo PST que contém todas as mensagens em uma única pasta:** Exporta os resultados da pesquisa para um único arquivo PST onde todas as mensagens estão localizadas em uma única pasta de nível superior. Essa opção permite que os revisadores revisem os itens em ordem cronológica (os itens são organizados por data de enviado) sem precisar navegar na estrutura original da pasta da caixa de correio para cada item.
   
-    - **Mensagens individuais:** Exporta os resultados da pesquisa como mensagens de email individuais, usando o formato .msg. Se você selecionar essa opção, os resultados da pesquisa de email serão exportados para uma pasta no sistema de arquivos. O caminho da pasta para mensagens individuais será o mesmo usado se você tiver exportado os resultados para arquivos PST.
+    - **Mensagens individuais:** Exporta resultados de pesquisa como mensagens de email individuais, usando o formato .msg. Se você selecionar essa opção, os resultados da pesquisa de email serão exportados para uma pasta no sistema de arquivos. O caminho da pasta para mensagens individuais é o mesmo usado se você exportou os resultados para arquivos PST.
   
       > [!IMPORTANT]
-      > Para descriptografar mensagens protegidas por RMS quando exportadas, você deve exportar os resultados da pesquisa de email como mensagens individuais. As mensagens criptografadas permanecerão criptografadas se você exportar os resultados da pesquisa como um arquivo PST. Para obter mais informações, [consulte Descriptografando](#decrypting-rms-protected-email-messages-and-encrypted-file-attachments) mensagens de email protegidas por RMS e anexos de arquivo criptografados neste artigo.
+      > Para descriptografar mensagens protegidas por RMS quando exportadas, você deve exportar os resultados da pesquisa de email como mensagens individuais. As mensagens criptografadas permanecerão criptografadas se você exportar os resultados da pesquisa como um arquivo PST. Para obter mais informações, consulte Descriptografando mensagens de [email protegidas por RMS](#decrypting-rms-protected-email-messages-and-encrypted-file-attachments) e anexos de arquivo criptografados neste artigo.
   
-8. Clique na **caixa de seleção Habilitar des duplicação** para excluir mensagens duplicadas. Essa opção só será exibida se as fontes de conteúdo da pesquisa incluír caixas de correio do Exchange ou pastas públicas. 
+8. Clique na **caixa de seleção Habilitar des duplicação** para excluir mensagens duplicadas. Essa opção só aparece se as fontes de conteúdo da pesquisa incluem caixas de correio do Exchange ou pastas públicas. 
   
     Se você selecionar essa opção, apenas uma cópia de uma mensagem será exportada, mesmo que várias cópias da mesma mensagem sejam encontradas nas caixas de correio pesquisadas. O relatório de resultados de exportação (Results.csv) conterá uma linha para cada cópia de uma mensagem duplicada para que você possa identificar as caixas de correio (ou pastas públicas) que contêm uma cópia da mensagem duplicada. Para obter mais informações sobre a des duplicação e como os itens duplicados são identificados, consulte Des duplicação nos resultados da pesquisa [de DescobertaScoberta.](de-duplication-in-ediscovery-search-results.md)
   
-9. Clique na **caixa de seleção Incluir versões para** documentos do SharePoint para exportar todas as versões de documentos do SharePoint. Essa opção só será exibida se as fontes de conteúdo da pesquisa incluír sites do SharePoint ou do OneDrive for Business. 
+9. Clique na **caixa de seleção Incluir versões para documentos** do SharePoint para exportar todas as versões de documentos do SharePoint. Essa opção só será exibida se as fontes de conteúdo da pesquisa incluirem sites do SharePoint ou do OneDrive for Business. 
   
 10. Clique na caixa de seleção Exportar arquivos em uma pasta compactada **(compactada)** para exportar resultados de pesquisa para pastas compactadas. Essa opção está disponível somente quando você escolhe exportar itens do Exchange como mensagens individuais e quando os resultados da pesquisa incluem documentos do SharePoint ou do OneDrive. Essa opção é usada principalmente para resolver o limite de 260 caracteres em nomes de caminho de arquivo do Windows quando itens são exportados. Consulte "Nomes de arquivo de itens exportados" na [seção Mais](#more-information) informações. 
   
@@ -140,7 +140,7 @@ A próxima etapa é baixar os resultados da pesquisa do local de armazenamento d
   
 1. Na página **Pesquisa de** conteúdo, clique na **guia** Exportações. 
   
-   Talvez seja preciso clicar em **Atualizar para** atualizar a lista de trabalhos de exportação para que ela mostre o trabalho de exportação que você criou. Os trabalhos de exportação têm o mesmo nome da pesquisa correspondente **_Export** anexados ao nome da pesquisa.
+   Talvez seja preciso clicar em **Atualizar para** atualizar a lista de trabalhos de exportação para que ela mostre o trabalho de exportação que você criou. Os trabalhos de exportação têm o mesmo nome que a pesquisa correspondente **_Export** anexado ao nome da pesquisa.
   
 2. Selecione o trabalho de exportação criado na Etapa 1.
 
@@ -158,9 +158,12 @@ A próxima etapa é baixar os resultados da pesquisa do local de armazenamento d
   
    2. Clique em **Procurar** para especificar o local onde deseja baixar os arquivos de resultado da pesquisa.
   
-      > [!NOTE]
-      > Devido à alta quantidade de atividade de disco (leituras e gravações), você deve baixar os resultados da pesquisa para uma unidade de disco local; não os baixe para uma unidade de rede mapeada ou outro local de rede. 
-  
+      > [!IMPORTANT]
+      >  Devido à alta atividade de rede durante o download, você deve baixar os resultados da pesquisa apenas para um local em uma unidade interna no computador local. Para ter a melhor experiência de download, siga estas diretrizes: <br/>
+      >- Não baixe os resultados da pesquisa para um caminho UNC, uma unidade de rede mapeada, uma unidade USB externa ou uma conta sincronizada do OneDrive for Business.<br/>
+      >- Desabilite a verificação de antivírus para a pasta para a onde você baixa o resultado da pesquisa.<br/>
+      >- Baixe os resultados da pesquisa em pastas diferentes para trabalhos de download simultâneos.
+
 6. Clique em **Iniciar** para baixar os resultados da pesquisa em seu computador.
   
     A **Ferramenta de Exportação de Descoberta Eletrônica** exibe informações de status sobre o processo de exportação, incluindo uma estimativa do número (e tamanho) dos itens restantes a serem baixados. Quando o processo de exportação estiver concluído, você poderá acessar os arquivos no local onde eles foram baixados.
@@ -223,7 +226,7 @@ Para obter informações sobre limites ao exportar resultados de pesquisa de con
 
   - **Erros e avisos** Contém erros e avisos para arquivos encontrados durante a exportação. Consulte a coluna Detalhes do Erro para obter informações específicas de cada erro ou aviso individual.
 
-  - **Itens ignorados** Quando você exporta resultados de pesquisa de sites do SharePoint e do OneDrive for Business, a exportação geralmente inclui um relatório de itens ignorados (SkippedItems.csv). Os itens citados neste relatório normalmente são itens que não serão baixados, como uma pasta ou um conjunto de documentos. Não exportar esses tipos de itens é por design. Para outros itens que foram ignorados, os campos "Tipo de Erro" e "Detalhes do Erro" no relatório de itens ignorados mostram o motivo pelo qual o item foi ignorado e não foi baixado com os outros resultados da pesquisa.
+  - **Itens ignorados** Quando você exporta resultados de pesquisa de sites do SharePoint e do OneDrive for Business, a exportação geralmente inclui um relatório de itens ignorados (SkippedItems.csv). Os itens citados neste relatório geralmente são itens que não serão baixados, como uma pasta ou um conjunto de documentos. Não exportar esses tipos de itens é por design. Para outros itens que foram ignorados, os campos "Tipo de Erro" e "Detalhes do Erro" no relatório de itens ignorados mostram o motivo pelo qual o item foi ignorado e não foi baixado com os outros resultados da pesquisa.
 
   - **Log de Rastreamento** Contém informações detalhadas de registro em log sobre o processo de exportação e pode ajudar a descobrir problemas durante a exportação.
   
@@ -232,7 +235,7 @@ Para obter informações sobre limites ao exportar resultados de pesquisa de con
   
 ### <a name="exporting-partially-indexed-items"></a>Exportando itens parcialmente indexados
   
-- Se você estiver exportando itens de caixa de correio de uma pesquisa de conteúdo que retorna todos os itens de caixa de correio nos resultados da pesquisa (porque nenhuma palavra-chave foi incluída na consulta de pesquisa), os itens parcialmente indexados não serão copiados para o arquivo PST que contém os itens não indexados. Isso acontece porque todos os itens, incluindo os itens parcialmente indexados, são automaticamente incluídos nos resultados regulares da pesquisa. Isso significa que os itens parcialmente indexados serão incluídos em um arquivo PST (ou como mensagens individuais) que contém os outros itens indexados.
+- Se você estiver exportando itens de caixa de correio de uma pesquisa de conteúdo que retorna todos os itens de caixa de correio nos resultados da pesquisa (porque nenhuma palavra-chave foi incluída na consulta de pesquisa), os itens parcialmente indexados não serão copiados para o arquivo PST que contém os itens não indexados. Isso acontece porque todos os itens, incluindo itens parcialmente indexados, são automaticamente incluídos nos resultados regulares da pesquisa. Isso significa que os itens parcialmente indexados serão incluídos em um arquivo PST (ou como mensagens individuais) que contém os outros itens indexados.
 
     Se você exportar os itens indexados e parcialmente indexados ou se exportar apenas os itens indexados de uma pesquisa de conteúdo que retorna todos os itens, o mesmo número de itens será baixado. Isso acontece mesmo que os resultados estimados da pesquisa de conteúdo (exibido & s nas estatísticas de pesquisa no Centro de Conformidade e Segurança) ainda incluam uma estimativa separada para o número de itens parcialmente indexados. Por exemplo, digamos que a estimativa de uma pesquisa que inclui todos os itens (sem palavras-chave na consulta de pesquisa) mostra que 1.000 itens foram encontrados e que 200 itens parcialmente indexados também foram encontrados. Nesse caso, os 1.000 itens incluem os itens parcialmente indexados porque a pesquisa retorna todos os itens. Em outras palavras, há 1.000 itens no total retornados pela pesquisa e não 1.200 itens (como você poderia esperar). Se você exportar os resultados dessa pesquisa e optar por exportar itens indexados e parcialmente indexados (ou exportar apenas itens parcialmente indexados), 1.000 itens serão baixados. Novamente, isso acontece porque itens parcialmente indexados são incluídos nos resultados regulares (indexados) quando você usa uma consulta de pesquisa em branco para retornar todos os itens. Neste mesmo exemplo, se você optar por exportar apenas itens parcialmente indexados, somente os 200 itens não indexados serão baixados.
 
@@ -240,7 +243,7 @@ Para obter informações sobre limites ao exportar resultados de pesquisa de con
 
 - Se a pesquisa de onde você está exportando resultados foi uma pesquisa de locais de conteúdo específicos ou de todos os locais de conteúdo em sua organização, apenas os itens parciais de locais de conteúdo que contêm itens que corresponderem aos critérios de pesquisa serão exportados. Em outras palavras, se nenhum resultado de pesquisa for encontrado em uma caixa de correio ou site, os itens parcialmente indexados nessa caixa de correio ou site não serão exportados. O motivo para isso é que exportar itens parcialmente indexados de muitos locais na organização pode aumentar a probabilidade de erros de exportação e aumentar o tempo necessário para exportar e baixar os resultados da pesquisa.
 
-    Para exportar itens parcialmente indexados de todos os locais de conteúdo de uma pesquisa, configure a pesquisa para retornar todos os itens (removendo todas as palavras-chave da consulta de pesquisa) e exporte apenas itens parcialmente indexados quando você exportar os resultados da pesquisa.
+    Para exportar itens parcialmente indexados de todos os locais de conteúdo para uma pesquisa, configure a pesquisa para retornar todos os itens (removendo todas as palavras-chave da consulta de pesquisa) e exporte apenas itens parcialmente indexados quando você exportar os resultados da pesquisa.
 
     ![Usar a terceira opção de exportação para exportar apenas itens não índicedos](../media/5d7be338-a0e5-425f-8ba5-92769c24bf75.png)
   
@@ -256,7 +259,7 @@ Para obter informações sobre limites ao exportar resultados de pesquisa de con
 
     Se você optar por exportar itens parcialmente indexados, os itens de caixa de correio parcialmente indexados serão exportados em um arquivo PST separado, independentemente da opção escolhida em Exportar conteúdo do **Exchange como**.
 
-- Se os itens parcialmente indexados são retornados nos resultados da pesquisa (porque outras propriedades de itens parcialmente indexados corresponderam aos critérios de pesquisa), então esses itens parcialmente indexados são exportados com os resultados regulares da pesquisa. Portanto, se você optar por exportar itens indexados e itens parcialmente indexados (selecionando todos os itens, incluindo aqueles que não têm formato não registrado, são criptografados ou não **foram indexados** por outros motivos opção de exportação), os itens parcialmente indexados exportados com os resultados regulares serão listados no relatório de Results.csv. Eles não serão listados no relatório de items.csv não items.csv.
+- Se itens parcialmente indexados são retornados nos resultados da pesquisa (porque outras propriedades de itens parcialmente indexados corresponderam aos critérios de pesquisa), então esses itens parcialmente indexados são exportados com os resultados regulares da pesquisa. Portanto, se você optar por exportar itens indexados e itens parcialmente indexados (selecionando todos os itens, incluindo aqueles que não têm formato não registrado, são criptografados ou não **foram indexados** por outros motivos opção de exportação), os itens parcialmente indexados exportados com os resultados regulares serão listados no relatório de Results.csv. Eles não serão listados no relatório de items.csv não items.csv.
   
 ### <a name="exporting-individual-messages-or-pst-files"></a>Exportando mensagens individuais ou arquivos PST
   
@@ -266,7 +269,7 @@ Para obter informações sobre limites ao exportar resultados de pesquisa de con
 
 - Se você optar por exportar mensagens de email em um arquivo  PST que contenha todas as mensagens em uma única pasta, uma pasta Itens Excluídos e uma pasta Pastas de Pesquisa serão **incluídas** no nível superior da pasta PST. Essas pastas estão vazias.
 
-- Conforme mencionado anteriormente, você deve exportar resultados de pesquisa de email como mensagens individuais para descriptografar mensagens protegidas por RMS quando elas são exportadas. As mensagens criptografadas permanecerão criptografadas se você exportar os resultados da pesquisa de email como um arquivo PST.
+- Conforme mencionado anteriormente, você deve exportar os resultados da pesquisa de email como mensagens individuais para descriptografar mensagens protegidas por RMS quando elas são exportadas. As mensagens criptografadas permanecerão criptografadas se você exportar os resultados da pesquisa de email como um arquivo PST.
   
 ### <a name="exporting-results-from-more-than-100000-mailboxes"></a>Exportar resultados de mais de 100.000 caixas de correio
 
@@ -282,7 +285,7 @@ Para obter informações sobre limites ao exportar resultados de pesquisa de con
 
   No script, você precisa especificar o nome da pesquisa para a qual deseja exportar os resultados. Por exemplo, para uma pesquisa chamada, `SearchAllMailboxes` substitua SEARCHNAME_Export por `SearchAllMailboxes_Export` .
 
-  Depois de adicionar o nome da pesquisa ao script, você pode copiar o texto do script e, em seguida, colar em uma janela do Windows Power & Shell conectada ao Centro de Conformidade e Segurança do [PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) Depois que você colar o script, a Ferramenta de Exportação de Descobertas Online será exibida (como acontece quando você baixa os resultados da pesquisa usando a interface do usuário):
+  Depois de adicionar o nome da pesquisa ao script, você pode copiar o texto do script e, em seguida, colar em uma janela do Windows Power & Shell conectada ao Centro de Conformidade e Segurança do [PowerShell.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) Depois de colar o script, a Ferramenta de Exportação de Descobertas Online é exibida (como acontece quando você baixa os resultados da pesquisa usando a interface do usuário):
 
   ![Ferramenta de Exportação de Descobertas e Descobertas](../media/eDiscoveryExportTool.png)
 
@@ -292,7 +295,7 @@ Para obter informações sobre limites ao exportar resultados de pesquisa de con
 
 ### <a name="decrypting-rms-protected-email-messages-and-encrypted-file-attachments"></a>Descriptografando mensagens de email protegidas por RMS e anexos de arquivos criptografados
 
-Todas as mensagens de email protegidas por direitos (protegidas por RMS) incluídas nos resultados de uma Pesquisa de Conteúdo serão descriptografadas quando você exportá-las. Além disso, qualquer arquivo criptografado com uma tecnologia de criptografia da [Microsoft](encryption.md) e anexado a uma mensagem de email incluída nos resultados da pesquisa também será descriptografado quando exportado. Essa funcionalidade de descriptografia é habilitada por padrão para membros do grupo de funções gerente de descoberta de eDiscovery. Isso porque a função de gerenciamento de descriptografia de descriptografia rmS é atribuída a esse grupo de função por padrão. Lembre-se do seguinte ao exportar mensagens de email e anexos criptografados:
+Todas as mensagens de email protegidas por direitos (protegidas por RMS) incluídas nos resultados de uma Pesquisa de Conteúdo serão descriptografadas quando você exportá-las. Além disso, qualquer arquivo criptografado com uma tecnologia de criptografia da [Microsoft](encryption.md) e anexado a uma mensagem de email incluída nos resultados da pesquisa também será descriptografado quando exportado. Essa funcionalidade de descriptografia é habilitada por padrão para membros do grupo de função gerente de descoberta de ediscovery. Isso porque a função de gerenciamento de descriptografia de descriptografia RMS é atribuída a esse grupo de funções por padrão. Lembre-se do seguinte ao exportar mensagens de email e anexos criptografados:
   
 - Conforme explicado anteriormente, para descriptografar mensagens protegidas por RMS quando exportá-las, você precisa exportar os resultados da pesquisa como mensagens individuais. Se você exportar os resultados da pesquisa para um arquivo PST, as mensagens protegidas por RMS permanecerão criptografadas.
 
@@ -302,7 +305,7 @@ Todas as mensagens de email protegidas por direitos (protegidas por RMS) incluí
 
 - No momento, a funcionalidade de descriptografia ao exportar resultados de pesquisa não inclui conteúdo criptografado de sites do SharePoint e do OneDrive for Business. No entanto, o suporte estará em breve para documentos criptografados com tecnologias de criptografia da Microsoft e armazenados no SharePoint Online e no OneDrive for Business.
 
-- Se você precisar impedir que alguém descriptografe mensagens protegidas por RMS e anexos de arquivo criptografados, será necessário criar um grupo de função personalizado (copiando o grupo de função do Gerenciador de Descobertas eDiscovery) e remover a função de gerenciamento de Descriptografia rmS do grupo de função personalizado. Em seguida, adicione a pessoa que você não deseja descriptografar mensagens como membro do grupo de função personalizado.
+- Se você precisar impedir que alguém descriptografe mensagens protegidas por RMS e anexos de arquivo criptografados, você precisa criar um grupo de função personalizado (copiando o grupo de função do Gerenciador de Descobertas eDiscovery) e, em seguida, remover a função de gerenciamento de Descriptografia rms do grupo de função personalizado. Em seguida, adicione a pessoa que você não deseja descriptografar mensagens como membro do grupo de função personalizado.
   
 ### <a name="filenames-of-exported-items"></a>Nomes de arquivo de itens exportados
   
@@ -310,9 +313,9 @@ Todas as mensagens de email protegidas por direitos (protegidas por RMS) incluí
 
     Se o limite de 260 caracteres for excedido, o nome do caminho completo de um item será truncado.
 
-  - Se o nome do caminho completo tiver mais de 260 caracteres, o nome do arquivo será reduzido para ficar abaixo do limite; observe que o nome de arquivo truncado (excluindo a extensão de arquivo) não terá menos de oito caracteres.
+  - Se o nome completo do caminho for maior que 260 caracteres, o nome do arquivo será reduzido para ficar abaixo do limite; observe que o nome de arquivo truncado (excluindo a extensão de arquivo) não terá menos de oito caracteres.
 
-  - Se o nome do caminho completo ainda for muito longo após reduzir o nome do arquivo, o item será movido de seu local atual para a pasta pai. Se o nome do caminho ainda for muito longo, o processo será repetido: encurte o nome do arquivo e, se necessário, mova-se novamente para a pasta pai. Esse processo é repetido até que o nome completo do caminho seja abaixo do limite de 260 caracteres.
+  - Se o nome do caminho completo ainda for muito longo após o encurtamento do nome do arquivo, o item será movido de seu local atual para a pasta pai. Se o nome do caminho ainda for muito longo, o processo será repetido: encurte o nome do arquivo e, se necessário, mova-se novamente para a pasta pai. Esse processo é repetido até que o nome completo do caminho seja abaixo do limite de 260 caracteres.
 
   - Se já existir um nome de caminho completo truncado, um número de versão será adicionado ao final do nome do arquivo; por exemplo,  `statusmessage(2).msg` .
 
@@ -332,4 +335,4 @@ Todas as mensagens de email protegidas por direitos (protegidas por RMS) incluí
 
 - Os metadados do sistema de arquivos para documentos nos sites do SharePoint e do OneDrive for Business são mantidos quando os documentos são exportados para o computador local. Isso significa as propriedades do documento, tais como data de criação e última modificação, não são alteradas quando os documentos são exportados.
 
-- Se os resultados da pesquisa incluem um item de lista do SharePoint que corresponde à consulta de pesquisa, todas as linhas na lista serão exportadas além do item que corresponde à consulta de pesquisa e quaisquer anexos na lista. O motivo para esse comportamento é fornecer um contexto para itens de lista que são retornados nos resultados da pesquisa. Observe também que os anexos e itens de lista adicionais podem fazer com que a contagem de itens exportados seja diferente da estimativa original dos resultados da pesquisa.
+- Se os resultados da pesquisa incluem um item de lista do SharePoint que corresponde à consulta de pesquisa, todas as linhas na lista serão exportadas além do item que corresponde à consulta de pesquisa e quaisquer anexos na lista. O motivo desse comportamento é fornecer um contexto para itens de lista que são retornados nos resultados da pesquisa. Observe também que os anexos e itens de lista adicionais podem fazer com que a contagem de itens exportados seja diferente da estimativa original dos resultados da pesquisa.
