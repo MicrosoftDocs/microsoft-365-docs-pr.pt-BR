@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta Pesquisa de conteúdo no Centro de conformidade e segurança para procurar e exportar dados de bate-papo do Teams para usuários locais em uma implantação híbrida do Exchange.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9620c48056545e6d6cf053040849acfe0a1bc68e
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: 23f8ea08de3d7fdbbc36274374d315ef0cb66a84
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868009"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976198"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>Pesquisar dados de chat do Teams para usuários locais
 
@@ -34,6 +34,8 @@ Estes são os requisitos e limitações para a configuração de caixas de corre
 - As contas de usuário no serviço de diretório local (por exemplo, o Active Directory) devem ser sincronizadas com o Azure Active Directory, o serviço de diretório do Microsoft 365. Isso significa que uma conta de usuário de email é criada no Microsoft 365 e está associada a um usuário cuja caixa de correio principal está localizada na organização local.
 
 - O usuário cuja caixa de correio principal está localizada na organização local deve receber uma licença do Microsoft Teams e, no mínimo, uma licença do Exchange Online Plan 1.
+
+- Se sua organização não tiver uma implantação híbrida do Exchange, você deve sincronizar seu esquema do Exchange local com o Azure Active Directory. Se você não fizer isso, pode correr o risco de criar caixas de correio duplicadas baseadas em nuvem no Exchange Online para os usuários que têm uma caixa de correio em sua organização do Exchange local.
 
 - Somente dados de chat do Teams associadas a um usuário local são armazenados na área de armazenamento baseada na nuvem. Um usuário local não pode acessar essa área de armazenamento de forma alguma.
 

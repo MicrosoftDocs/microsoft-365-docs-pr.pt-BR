@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4028d5ff59625d2008afb4a384bc290a5df1b2a3
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 2e95c2f3627a6bb0c28b736437012a92107b3533
+ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682642"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49976242"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -66,10 +66,12 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 
 Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
-- Você (ou outro administrador) primeiro deve ativar o registro em log de auditoria antes de começar a pesquisar no log de auditoria. Para ativá-lo, clique em **Ativar a auditoria** na página **Pesquisar log de auditoria** no Centro de Conformidade e Segurança. (Se você não vir esse link, a auditoria já está ativada na sua organização). Depois de ativá-lo, será exibida uma mensagem informando que o log de auditoria está sendo preparado e que você pode executar uma pesquisa dentro de algumas horas após concluir a preparação. Isso só precisa ser feito uma vez. Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
+- A pesquisa de log de auditoria é ativada por padrão para organizações usando o Microsoft 365 e o Microsoft Office 365 corporativo. Isto inclui organizações com assinaturas E3/G3 ou E5/G5. Para verificar se a pesquisa de log de auditoria está ativada, você pode executar o seguinte comando em Exchange Online PowerShell:
 
-  > [!NOTE]
-  > Estamos em processo de ativar a auditoria por padrão. Até lá, ative-a conforme descrevemos anteriormente.
+  ```powershell
+  Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
+  ```
+  O valor de `True` para a propriedade *UnifiedAuditLogIngestionEnabled* indica que a pesquisa de log de auditoria está ativada. Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](turn-audit-log-search-on-or-off.md).
 
 - É preciso atribuir a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria do Exchange Online para pesquisar o log de auditoria. Por padrão, essas funções são atribuídas aos grupos de funções Gerenciamento de Conformidade e Gerenciamento de Organização na página **Permissões** do centro de administração do Exchange. Note que os administradores globais do Office 365 e do Microsoft 365 são automaticamente adicionados como membros do grupo de função Gerenciamento da Organização no Exchange Online. Para que um usuário tenha a capacidade de pesquisar o log de auditoria com o nível mínimo de privilégios, você pode criar um grupo de funções personalizado no Exchange Online, adicionar a função Logs de Auditoria Somente para Exibição ou Logs de Auditoria e, em seguida, adicionar o usuário como um membro do novo grupo de funções. Para saber mais, confira [Gerenciar Grupos de Funções do Exchange Online](https://go.microsoft.com/fwlink/p/?LinkID=730688).
 
@@ -677,7 +679,7 @@ A tabela a seguir lista as atividades que podem ser registradas pelo log de audi
 |Permissões removidas da pasta|RemoveFolderPermissions|Uma permissão da pasta foi removida. As permissões de pasta controlam quais usuários da sua organização podem acessar as pastas em uma caixa de correio e as mensagens localizadas nessas pastas.|
 |Mensagem enviada|Enviar|Uma mensagem foi enviada, respondida ou encaminhada. Essa atividade é registrada apenas aos usuários com uma licença do Office 365 ou do Microsoft 365 E5. Para obter mais informações, consulte a seção "Acesso aos eventos cruciais de investigações" em [Auditoria Avançada](advanced-audit.md#access-to-crucial-events-for-investigations).|
 |Mensagem enviada com permissões Enviar Como|SendAs|Uma mensagem foi enviada usando a permissão SendAs. Isto significa que outro usuário enviou a mensagem como se ela tivesse vindo do proprietário da caixa de correio.|
-|Mensagem enviada com permissões Enviar em Nome de|SendOnBehalf|Uma mensagem foi enviada usando a permissão SendOnBehalf. Isto significa que outro usuário enviou a mensagem em nome do proprietário da caixa de correio. A mensagem indica ao destinatário em nome de quem a mensagem foi enviada e quem realmente a enviou.|
+|Mensagem enviada com permissões Enviar em Nome de|SendOnBehalf|Uma mensagem foi enviada usando a permissão SendOnBehalf. Isto significa que outro usuário enviou a mensagem em nome do proprietário da caixa de correio. A mensagem indica ao destinatário em nome de quem a mensagem foi enviada e quem realmente enviou a mensagem.|
 |Regras atualizadas da caixa de entrada do cliente do Outlook|UpdateInboxRules|Um proprietário da caixa de correio ou outro usuário com acesso à caixa de correio modificou uma regra da caixa de entrada no cliente do Outlook.|
 |Mensagem atualizada|Atualizar|Uma mensagem ou suas propriedades foram alteradas.|
 |Usuário entrou na caixa de correio|MailboxLogin|O usuário entrou em sua caixa de correio.|
