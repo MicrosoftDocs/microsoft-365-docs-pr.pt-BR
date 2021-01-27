@@ -22,12 +22,12 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Agora que você já instalou o Microsoft 365, saiba como instalar aplicativos individuais do Office em seu Mac, PC ou dispositivos móveis e configurar o email no Outlook.
-ms.openlocfilehash: b05a61f9579ee98a8b0be9d01b6a507b06c29321
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: dc8a4c3670dacf4b3cc85637c3e18c51a8c8e350
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926841"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988027"
 ---
 # <a name="install-office-applications"></a>Instalar aplicativos do Office
 
@@ -36,6 +36,8 @@ Agora que você já instalou o Microsoft 365, pode instalar aplicativos individu
 Siga estes links para obter informações sobre como:
   
 - Instalar aplicativos do Office:  [instalar o Office em seu PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+
+- Instalar outros aplicativos: [Project](https://support.microsoft.com/office/install-project-7059249b-d9fe-4d61-ab96-5c5bf435f281), [Visio](https://support.microsoft.com/office/install-visio-f98f21e3-aa02-4827-9167-ddab5b025710)ou [Skype for Business](https://support.microsoft.com/office/install-skype-for-business-8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
 
 - Configurar dispositivos móveis: [configuração móvel do Microsoft 365 - Ajuda](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
 

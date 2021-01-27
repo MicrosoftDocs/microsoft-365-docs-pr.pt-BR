@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4213773c3305c28f0913013d8f7634c083811f52
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 99f39a10de6231a72220c5c2a90ec915b1a4e44a
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932077"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988111"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>API de busca avançada do Microsoft 365 Defender
 
@@ -46,11 +46,14 @@ As condições a seguir se relacionam a todas as consultas.
 
 1. As consultas exploram e retornam dados dos últimos 30 dias.
 2. Os resultados podem retornar até 100.000 linhas.
-3. Você pode fazer até 10 chamadas por minuto por locatário.
+3. Você pode fazer até 15 chamadas por minuto por locatário.
 4. Você tem 10 minutos de tempo de execução por hora por locatário.
-5. Você tem quatro horas totais de dias de tempo de execução por locatário.
+5. Você tem quatro horas totais de tempo de execução por dia por locatário.
 6. Se uma única solicitação for executado por mais de 10 minutos, o tempo esgota e retornará um erro.
-7. Um código de resposta HTTP indica que você atingiu uma cota, por número de solicitações enviadas ou por tempo `429` de execução alocado. O corpo da resposta incluirá o tempo até que a cota alcançada seja redefinida.
+7. Um código de resposta HTTP indica que você atingiu uma cota, por número de solicitações enviadas ou por tempo `429` de execução alocado. Leia o corpo da resposta para entender o limite atingido. 
+
+> [!NOTE]
+> Todas as cotas listadas acima (por exemplo, 15 chamadas por mínimo) são por tamanho de locatário. Essas cotas são mínimas.
 
 ## <a name="permissions"></a>Permissões
 

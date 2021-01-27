@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,12 +15,14 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
-ms.openlocfilehash: 8f9da620643d46bf21a18eccc2047ad4361832cc
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 9759bbae1dc49b80859198e11e6f85383cdf2f66
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865052"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988123"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuário
 
@@ -53,13 +54,13 @@ Use os artigos a seguir para configurar os pré-requisitos necessários para que
 
 - Desativar a verificação de anexos de malware na caixa de correio personalizada. Use políticas de Configuração de Anexos Seguros no [Defender para Office 365](set-up-atp-safe-attachments-policies.md) para criar uma política de Anexos Seguros com a configuração Off para a resposta de malware desconhecida de **Anexos Seguros.** 
 
-- Desativar a verificação de URL em mensagens na caixa de correio personalizada. Use as políticas Configurar Links Seguros no [Defender para Office 365](set-up-atp-safe-links-policies.md) para criar uma política de Links Seguros com a configuração Para Selecionar a ação para **URLs** potencialmente mal-intencionadas desconhecidas em mensagens. 
+- Desativar a verificação de URL em mensagens na caixa de correio personalizada. Use as políticas Configurar Links Seguros no [Defender para Office 365](set-up-atp-safe-links-policies.md) para criar uma política de Links Seguros com a configuração Para Selecionar a ação para URLs potencialmente mal-intencionadas **desconhecidas nas mensagens.** 
 
-- Crie uma política anti-malware para desativar a Limpeza Automática Zero Hora do Malware. Consulte Usar o Centro de Conformidade e Segurança & para criar políticas [anti-malware](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) para definir a Limpeza Automática **Zero Hora** do Malware como **Desligada.**
+- Crie uma política anti-malware para desativar a Limpeza Automática Zero Hora do Malware. Consulte Usar o Centro de Conformidade & segurança para criar políticas [anti-malware](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) para definir a Limpeza **Automática Zero Hora** do Malware como **Desligada.**
 
-- Crie uma política de filtro de spam para desabilitar a ZAP (Limpeza Automática Zero Hora) para spam e phishing na caixa de correio personalizada. Consulte Usar o Centro de Conformidade e Segurança & para criar políticas [anti-spam](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) e des clear **as** caixas de seleção Ao para ZAP de **spam** e ZAP **de phishing.**
+- Crie uma política de filtro de spam para desabilitar a ZAP (Limpeza Automática Zero Hora) para spam e phishing na caixa de correio personalizada. Consulte Usar o Centro de Conformidade e Segurança & para criar políticas [anti-spam](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) e des clear the **On** checkboxes for **Spam ZAP** and Phish **ZAP**.
 
-- Desabilite a regra de lixo eletrônico na caixa de correio personalizada. Use [Definir configurações de lixo eletrônico em caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md) para desabilitar a regra de lixo eletrônico. Depois de desabilitada, o EOP não pode mover mensagens para  a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam Mover mensagem para a pasta Lixo Eletrônico ou o conjunto de listas seguras na caixa de correio.
+- Desabilite a regra de lixo eletrônico na caixa de correio personalizada. Use [Definir configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md) para desabilitar a regra de lixo eletrônico. Depois de desabilitada, o EOP não pode mover mensagens para  a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam Mover mensagem para a pasta Lixo Eletrônico ou o conjunto de listas seguras na caixa de correio.
 
 Depois de verificar se sua caixa de correio atende a todos os pré-requisitos aplicáveis, & use o Centro de Conformidade e Segurança para configurar a caixa de correio de [envios](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) do usuário (neste artigo).
 
@@ -70,11 +71,20 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 - Para modificar a configuração para envios de usuário, você precisa ser membro de um dos seguintes grupos de função:
 
   - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento de organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Gerenciamento da organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+- Você precisa acessar o PowerShell do Exchange Online. Se a conta que você está tentando usar não tiver acesso ao PowerShell do Exchange Online, você receberá um erro parecido com este ao especificar a caixa de correio de envios:
+
+  > Especificar um endereço de email em seu domínio
+
+  Para obter mais informações sobre a habilitação ou desabilitação do acesso ao PowerShell do Exchange Online, consulte os seguintes tópicos:
+
+  - [Habilitar ou desabilitar o acesso ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Regras de Acesso para Cliente no Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Usar o Centro de Conformidade & segurança para configurar a caixa de correio de envios do usuário
 
-1. No Centro de Conformidade & segurança,  vá para envios de usuário da Política de Gerenciamento \>  \> **de Ameaças.**
+1. No Centro de Conformidade & Segurança, vá **para** Envios de Usuário da Política de Gerenciamento \>  \> **de Ameaças.**
 
 2. Na página **Envios de usuário** exibida, selecione uma das seguintes opções:
 
@@ -82,7 +92,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
       - **Personalize a mensagem de confirmação do usuário final:** clique neste link. No menu **de confirmação Personalizar mensagem** exibida, de configure as seguintes configurações:
 
-      - **Antes do envio:**  nas caixas de mensagem Título e Confirmação, insira o texto descritivo que os usuários veem antes de relatar uma mensagem usando o complemento Mensagem de Relatório ou o complemento Phishing de Relatório.  Você pode usar a variável %type% para incluir o tipo de envio (lixo eletrônico, não lixo eletrônico, phishing etc.).
+      - **Antes do** envio:  nas caixas de mensagem Título e Confirmação, insira o texto descritivo que os usuários veem antes de relatar uma mensagem usando o complemento Mensagem de Relatório ou o complemento Phishing de Relatório.  Você pode usar a variável %type% para incluir o tipo de envio (lixo eletrônico, não lixo eletrônico, phishing etc.).
 
         Conforme registrado, se você selecionar uma opção que envia as mensagens relatadas à Microsoft, o texto a seguir também será adicionado à notificação:
 
@@ -106,7 +116,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
       Quando terminar, clique em **Confirmar.**
 
       > [!CAUTION]
-      > Se você desabilitou o relatório de lixo eletrônico no Outlook na [Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) usando as políticas de caixa de correio do Outlook na Web, mas definiu uma das configurações anteriores para relatar mensagens à Microsoft, os usuários poderão relatar mensagens à Microsoft no Outlook na Web usando o complemento Mensagem de Relatório ou o complemento Phishing de Relatório.
+      > Se você desabilitou o relatório de lixo eletrônico no Outlook na [Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) usando as políticas de caixa de correio do Outlook na Web, mas definiu uma das configurações anteriores para relatar mensagens à Microsoft, os usuários poderão relatar mensagens à Microsoft no Outlook na Web usando o complemento Mensagem de Relatório ou o complemento Relatar Phishing.
 
    - Desabilite o recurso Mensagem de Relatório do **Outlook:** selecione essa opção se você usar ferramentas de relatório de terceiros em vez do complemento Mensagem de Relatório, o complemento Relatar Phishing ou os relatórios integrados no Outlook na Web e, em seguida, definir as seguintes configurações:
 
@@ -136,4 +146,4 @@ No exemplo a seguir:
 
 `3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
-Mensagens que não seguem esse formato não serão exibidas corretamente no portal envios.
+As mensagens que não seguirem esse formato não serão exibidas corretamente no portal de Envios.

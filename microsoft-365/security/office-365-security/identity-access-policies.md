@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: a928044df2c4185cff71db4883dcc1ddf30cdf3e
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 511f044960c5b723c8e10f6644007036c45d1f44
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932581"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988087"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -141,7 +141,7 @@ Escolha **Selecionar** para salvar as **configurações** de Concessão.
 
 Por fim, **selecione Ativado** **para Habilitar política** e, em seguida, escolha **Criar**.
 
-Considere também usar a [ferramenta E se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
+Considere também usar a [ferramenta What if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
 
 ## <a name="block-clients-that-dont-support-modern-authentication"></a>Bloquear clientes que não oferecem suporte à autenticação moderna
 
@@ -244,6 +244,8 @@ Para criar a política de Acesso Condicional que exige aplicativos aprovados e p
 
 Se você estiver habilitando o acesso móvel ao Exchange Online, implemente o bloqueio de clientes [do ActiveSync,](secure-email-recommended-policies.md#block-activesync-clients)o que impede que os clientes do Exchange ActiveSync aproveitando a autenticação básica se conectem ao Exchange Online. Essa política não é ilustrada na parte superior deste artigo. Ele é descrito e descrito nas [recomendações de política para proteger emails.](secure-email-recommended-policies.md)
 
+Para criar a política de Acesso Condicional que exige o Edge para iOS e Android, siga a "Etapa 2: Configurar uma política de Acesso Condicional do Azure AD para o Microsoft 365" no Cenário [2:](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-2-browser-apps-require-approved-apps-with-app-protection-policies)os aplicativos do navegador exigem aplicativos aprovados com políticas de proteção de aplicativo, que permite que o Edge para iOS e Android, mas impede que outros navegadores da Web de dispositivo móvel se conectem aos pontos de extremidade do Microsoft 365.
+
  Essas políticas aproveitam os controles de [concessão Exigem aplicativo cliente aprovado](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) e [exigem política de proteção de aplicativo.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)
 
 Por fim, bloquear a autenticação herdda para outros aplicativos cliente em dispositivos iOS e Android garante que esses clientes não podem ignorar políticas de Acesso Condicional. Se você estiver seguindo as orientações neste artigo, já configurou clientes De bloqueio que não suportam [autenticação moderna.](#block-clients-that-dont-support-modern-authentication)
@@ -276,7 +278,7 @@ Você deve criar uma política para cada computador, telefone ou plataforma de t
 - Windows 8.1 e posterior
 - Windows 10 e posterior
 
-Para criar políticas de conformidade de dispositivos, entre no Centro de Administração  do [Microsoft Endpoint Manager](https://endpoint.microsoft.com) com suas credenciais de administrador e navegue até Políticas de Conformidade \> **de** \> **Dispositivos.** Selecione **Criar Política**.
+Para criar políticas de conformidade de dispositivos, entre no Centro de Administração  do [Microsoft Endpoint Manager](https://endpoint.microsoft.com) com suas credenciais de administrador e navegue até Políticas de Conformidade \> **de** \> **Dispositivos.** Selecione **Criar Política.**
 
 Para que as políticas de conformidade do dispositivo sejam implantadas, elas devem ser atribuídas a grupos de usuários. Atribua uma política depois de criar e salvá-la. No centro de administração, selecione a política e selecione **Atribuições.** Depois de selecionar os grupos que você deseja receber a política, selecione **Salvar** para salvar essa atribuição de grupo e implantar a política.
 
@@ -284,7 +286,7 @@ Para obter orientações passo a passo sobre como criar políticas de conformida
 
 ### <a name="recommended-settings-for-windows-10-and-later"></a>Configurações recomendadas para o Windows 10 e versões posteriores
 
-As configurações a seguir são recomendadas para computadores que executam o Windows 10 e versões posteriores, conforme configurado na Etapa **2:** Configurações de conformidade , do processo de criação de política.
+As configurações a seguir são recomendadas para computadores que executam o Windows 10 e versões posteriores, conforme configurado na Etapa **2:** Configurações de conformidade, do processo de criação de política.
 
 Para **ver as regras > de avaliação** do Serviço de Atestado de Saúde do Windows, consulte esta tabela.
 
@@ -316,7 +318,7 @@ Para **segurança do** sistema, consulte esta tabela.
 ||Antivírus|Exigir|Selecionar|
 ||Antispyware|Exigir|Selecionar <p> Essa configuração requer uma solução Anti-Spyware registrada na Central de Segurança do Windows.|
 |Defender|Microsoft Defender Antimalware|Exigir|Selecionar|
-||Versão mínima do Microsoft Defender Antimalware||Tipo <p> Suporte apenas para área de trabalho do Windows 10. A Microsoft recomenda versões com até cinco atrás da versão mais recente.|
+||Versão mínima do Microsoft Defender Antimalware||Tipo <p> Só há suporte para área de trabalho do Windows 10. A Microsoft recomenda versões com até cinco atrás da versão mais recente.|
 ||Assinatura do Microsoft Defender Antimalware atualizada|Exigir|Selecionar|
 ||Proteção em tempo real|Exigir|Selecionar <p> Suporte apenas para área de trabalho do Windows 10|
 |
@@ -345,9 +347,9 @@ Para exigir PCs compatíveis:
 
 7. For **Include**, choose **Select apps > Select**, and then select the desired apps from the Cloud **apps** list. Por exemplo, selecione Exchange Online. Escolha **Selecionar** quando terminar.
 
-8. Para exigir computadores compatíveis (mas não telefones e tablets compatíveis), em **Atribuições,** escolha **Condições > plataformas de dispositivo.** Selecione **Sim** para **Configurar.** Choose  **Select device platforms,** select **Windows** and **macOS**, and then choose **Done**.
+8. Para exigir computadores compatíveis (mas não telefones e tablets em conformidade), em **Atribuições,** escolha **Condições > plataformas de dispositivo.** Selecione **Sim** para **Configurar.** Choose  **Select device platforms,** select **Windows** and **macOS**, and then choose **Done**.
 
-9. Em **Controles de Acesso,** escolha **Conceder** .
+9. Em **Controles de acesso,** escolha **Conceder** .
 
 10. Escolha **Conceder acesso e** marque Exigir que o dispositivo seja marcado como **compatível.** Para vários controles, selecione **Exigir todos os controles selecionados.** Ao concluir, escolha **Selecionar**.
 
@@ -371,7 +373,7 @@ Para exigir conformidade para todos os dispositivos:
 
 7. For **Include**, choose **Select apps > Select**, and then select the desired apps from the Cloud **apps** list. Por exemplo, selecione Exchange Online. Escolha **Selecionar** quando terminar.
 
-8. Em **Controles de Acesso,** escolha **Conceder** .
+8. Em **Controles de acesso,** escolha **Conceder** .
 
 9. Escolha **Conceder acesso e** marque Exigir que o dispositivo seja marcado como **compatível.** Para vários controles, selecione **Exigir todos os controles selecionados.** Ao concluir, escolha **Selecionar**.
 
