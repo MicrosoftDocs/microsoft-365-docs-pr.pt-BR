@@ -12,12 +12,12 @@ ms.custom: seo-marvel-jun2020
 localization_priority: Priority
 description: Aprenda como as instituições de serviços financeiros podem manter a conformidade de segurança financeira e colaborar com eficácia usando o Microsoft 365 e o Microsoft Teams.
 f1.keywords: NOCSH
-ms.openlocfilehash: ff4ce29e42ea3a8a5619f514373041c1e8c3e138
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 1d1c3886a38636e7e72774f8b2bb5ce574d1c7a6
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558473"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029949"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>Considerações de segurança e conformidade essenciais para os mercados bancário e de capital dos EUA
 
@@ -319,7 +319,7 @@ O Microsoft 365 lançou recentemente uma solução de gerenciamento de risco int
 
 Por exemplo, o gerenciamento de riscos internos no Microsoft 365 pode correlacionar sinais da área de trabalho do Windows 10 de um usuário, como copiar arquivos para uma unidade USB ou enviar uma conta de email pessoal por email, com atividades de serviços online, como email do Office 365, SharePoint Online, Microsoft Teams ou OneDrive for Business, para identificar padrões de exfiltração de dados. Ele também pode correlacionar essas atividades com os funcionários que saem de uma organização, o que é um padrão comum de exfiltração de dados. Ele pode monitorar várias atividades e comportamentos ao longo do tempo. Quando surgem padrões comuns, ele pode gerar alertas e ajudar os investigadores a se concentrarem nas atividades principais para verificar, com um alto grau de confiança, se há uma violação de política. O gerenciamento de riscos internos pode pseudo-anonimizar os dados dos investigadores para ajudar a cumprir as regulamentações de privacidade de dados, enquanto ainda apresenta as principais atividades que ajudam a realizar as investigações com eficiência. Ele permite que os investigadores empacotem e enviem com segurança os principais dados das atividades ao departamento jurídico e de RH, seguindo fluxos de trabalho de escalação comuns para levantar casos para ações de correção.
 
-O gerenciamento de riscos internos no Microsoft 365 aumenta significativamente os recursos das organizações para monitorar e investigar riscos internos, permitindo que as organizações ainda cumpram os regulamentos de privacidade de dados e sigam os caminhos de escalonamento estabelecidos quando os casos exigem ações de nível superior.
+O gerenciamento de riscos internos no Microsoft 365 aumenta significativamente os recursos das organizações para monitorar e investigar riscos internos, permitindo que as organizações ainda cumpram os regulamentos de privacidade de dados e sigam os caminhos de escalonamento estabelecidos quando os casos exigem ações de nível superior. Para obter mais informações sobre o gerenciamento de risco interno no Microsoft 365, consulte [Pontos críticos de risco modernos e Fluxo de trabalho no gerenciamento de risco interno no Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management?view=o365-worldwide).
 
 ![Um funcionário de central de atendimento em um cubículo digita enquanto visualiza uma tela.](../media/clo17-call-center-006.jpg)
  
