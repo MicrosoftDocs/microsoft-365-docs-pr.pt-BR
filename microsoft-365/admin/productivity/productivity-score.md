@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da pontuação de produtividade da Microsoft.
-ms.openlocfilehash: 8ba1ceb57cd322a67e7b154700a8ac90c62f5ef0
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 9f3e24d4af6858f106cde937940d5f0be1a4f85f
+ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921237"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49988063"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productivity Score 
 
@@ -80,13 +80,14 @@ Para pessoas com dados de experiência, você precisa de uma assinatura do Micro
 
 A Pontuação de Produtividade só está disponível no Centro de Administração Microsoft 365 e só pode ser acessada por profissionais de TI que tenham uma das seguintes funções:  
 
-- Administração global 
+- Administração global
 - Administradores do Exchange
-- Administrador do SharePoint 
-- Administrador do Skype for Business 
-- Administrador do Teams 
-- Leitor Global 
-- Leitor de Relatórios 
+- Administrador do SharePoint
+- Administrador do Skype for Business
+- Administrador do Teams
+- Leitor Global
+- Leitor de Relatórios
+- Leitor de relatórios de resumo do uso
 
 > [!NOTE]
 > Apenas um profissional de TI com a função de administrador global pode se inscrever ou optar por um locatário para o Índice de Produtividade.
