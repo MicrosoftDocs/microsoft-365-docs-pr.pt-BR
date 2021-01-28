@@ -3,54 +3,55 @@ title: Visão geral sobre regras de correção de fluxo reduzido de email
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender como usar a correção de regras de fluxo de emails lentos no centro de conformidade de & de segurança para identificar e corrigir regras de fluxo de emails ineficientes ou desfeitas (também conhecidas como regras de transporte) em sua organização.
-ms.openlocfilehash: f51c5a577fc6d9c52e35a5217cae4ae94c546c9d
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+description: Os administradores podem aprender a usar o insight de regras de correção de fluxo lento de emails no Centro de Conformidade e Segurança & para identificar e corrigir regras de fluxo de emails ineficientes ou desaprinciados (também conhecidas como regras de transporte) em sua organização.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: ef9f26994f563a5f9dad411f2276fd42c28496f9
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920543"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029121"
 ---
-# <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Correção de regras de fluxo de email lentos no centro de conformidade e segurança &
+# <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Visão das regras de fluxo de emails lentas no Centro de Conformidade & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Regras de fluxo de emails ineficientes (também conhecidas como regras de transporte) podem levar a atrasos de fluxo de emails para sua organização. Esta percepção relata regras de fluxo de emails que afetam o fluxo de email da sua organização. Exemplos desses tipos de regras incluem:
+Regras de fluxo de emails ineficientes (também conhecidas como regras de transporte) podem levar a atrasos de fluxo de emails para sua organização. Esse insight relata regras de fluxo de emails que têm um impacto no fluxo de emails da sua organização. Exemplos desses tipos de regras incluem:
 
-- Condições que o uso **é membro de** grupos grandes.
-- Condições que usam a correspondência de padrão de expressão regular (Regex) complexa.
+- Condições que usam **é membro de grupos** grandes.
+- Condições que usam correspondência de padrão de expressão regular complexa (regex).
 - Condições que usam a verificação de conteúdo em anexos.
 
-A **correção de regras de fluxo de emails lentos** na área **recomendada para você** do [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de segurança & conformidade](https://protection.office.com) avisa quando uma regra de fluxo de emails demora muito para ser concluída.
+The **Fix slow mail flow rules** insight in the Recommended for **you** area of the Mail [flow dashboard](mail-flow-insights-v2.md) in the Security & [Compliance Center](https://protection.office.com) notifes you when a mail flow rule is taking too long to complete.
 
-Essa percepção aparece apenas após a condição ser detectada (se você não tiver loops de email, não verá a percepção).
+Esse insight só aparece depois que a condição é detectada (se você não tiver loops de email, você não verá o insight).
 
 Você pode usar essa notificação para ajudá-lo a identificar e ajustar as regras de fluxo de emails para ajudar a reduzir os atrasos de fluxo de emails.
 
-![Corrigir recomendações de regras de fluxo de email lentos na área recomendada para você do painel de fluxo de emails](../../media/mfi-fix-slow-mail-flow-rules.png)
+![Fix slow mail flow rules insight in the Recommended for you area of the Mail flow dashboard](../../media/mfi-fix-slow-mail-flow-rules.png)
 
-Quando você clica em **Exibir detalhes** no widget, um submenu aparece com mais informações:
+Quando você clica **em Exibir detalhes** no widget, um flyout é exibido com mais informações:
 
-- **Regra** : você pode passar o mouse sobre o resumo para ver todas as condições, exceções e ações da regra. Você pode clicar no resumo para editar a regra no centro de administração do Exchange (Eat).
-- **Número de mensagens avaliadas** : você pode clicar em **Exibir exemplos de mensagens** para ver os resultados do [rastreamento](message-trace-scc.md) de mensagens para um exemplo das mensagens que foram afetadas pela regra.
+- **Regra:** você pode passar o mouse sobre o resumo para ver todas as condições, exceções e ações da regra. Você pode clicar no resumo para editar a regra no Centro de administração do Exchange (EAC).
+- **Número de mensagens avaliadas:** você pode [](message-trace-scc.md) clicar em Exibir mensagens de exemplo para ver os resultados do rastreamento de mensagens para um exemplo das mensagens que foram afetadas pela regra. 
 - **Tempo médio gasto em cada mensagem**
-- **Tempo médio gasto em uma mensagem** : o valor intermediário que separa a metade superior da metade inferior dos dados de tempo.
+- **Tempo médio gasto em uma mensagem:** o valor intermediário que separa a metade superior dos dados da metade inferior do tempo.
 
-![Submenu de detalhes que aparece depois de clicar em Exibir detalhes na visão de regras de fluxo de emails de correção lenta](../../media/mfi-fix-slow-mail-flow-rules-details.png)
+![Detalhes do flyout que aparece depois de clicar em Exibir detalhes no insight de regras de fluxo de emails lento corrigir](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-Para obter mais informações sobre as condições e exceções nas regras de fluxo de emails, consulte [Mail Flow Rule Conditions and exceptions (predicates) no Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
+Para obter mais informações sobre condições e exceções em regras de fluxo de emails, consulte Condições e exceções de regras de fluxo de email [(predicados) no Exchange Online.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
 ## <a name="see-also"></a>Confira também
 
-Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).
+Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações sobre o fluxo de emails no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)

@@ -1,6 +1,6 @@
 ---
-title: Application Guard para Office 365 (visualização pública) para administradores
-keywords: application guard, protection, isolation, isolated container, hardware isolation
+title: Application Guard para Office 365 para administradores
+keywords: proteção de aplicativo, proteção, isolamento, contêiner isolado, isolamento de hardware
 f1.keywords:
 - NOCSH
 ms.author: maccruz
@@ -8,29 +8,24 @@ author: schmurky
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
 description: Obter o mais recente no isolamento baseado em hardware. Impedir ataques atuais e emergentes, como explorações ou links mal-intencionados, de interromper a produtividade dos funcionários e a segurança corporativa.
-ms.openlocfilehash: f5a5feb14db75c5baccecf0c6afafe0c42517224
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 9a9c9270f61661982108da518d1bf24d2a717b6a
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794503"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029721"
 ---
-# <a name="application-guard-for-office-public-preview-for-admins"></a>Application Guard para Office (visualização pública) para administradores
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
-
+# <a name="application-guard-for-office-for-admins"></a>Application Guard para Office para administradores
 
 **Aplica-se a:** Word, Excel e PowerPoint para Microsoft 365, Windows 10 Enterprise
-
-> [!IMPORTANT]
-> Algumas informações estão relacionadas a um produto pré-lançado que pode ser substancialmente modificado antes de ser lançado comercialmente. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 O Microsoft Defender Application Guard para Office (Application Guard para Office) ajuda a evitar que arquivos não confiáveis acessem recursos confiáveis, mantendo sua empresa segura contra ataques novos e emergentes. Este artigo orienta os administradores sobre como configurar dispositivos para uma visualização do Application Guard para Office. Ele fornece informações sobre os requisitos do sistema e as etapas de instalação para habilitar o Application Guard para Office em um dispositivo.
 
@@ -44,11 +39,11 @@ O Microsoft Defender Application Guard para Office (Application Guard para Offic
 
 ### <a name="minimum-software-requirements"></a>Requisitos mínimos de software
 
-* **Windows 10**: windows 10 Enterprise edition, client build versão 2004 (20H1) build 19041
-* **Office**: Office Beta Channel Build versão 2008 16.0.13212 ou posterior
-* **Pacote de** atualização : atualizações de segurança mensais cumulativas do Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
+* **Windows 10**: windows 10 Enterprise edition, client build versão 2004 (20H1) build 19041 ou posterior
+* **Office**: Office Current Channel Build versão 2011 16.0.13530.10000 ou posterior
+* **Pacote de atualização**: atualização cumulativa de segurança mensal do Windows 10 [KB4571756](https://support.microsoft.com/help/4571756/windows-10-update-KB4571756)
 
-Para requisitos detalhados do sistema, consulte [os requisitos do sistema para o Microsoft Defender Application Guard.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard) Para saber mais sobre os builds do Office Insider Preview, confira o início da implantação de builds do [Office Insider.](https://insider.office.com/business/deploy)
+Para requisitos detalhados do sistema, consulte [os requisitos do sistema do Microsoft Defender Application Guard.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/reqs-md-app-guard) Para saber mais sobre os canais de atualização do Office, confira [Visão geral dos canais de atualização do Microsoft 365.](https://docs.microsoft.com/deployoffice/overview-update-channels)
 
 ### <a name="licensing-requirements"></a>Requisitos de licença
 
@@ -58,7 +53,7 @@ Para requisitos detalhados do sistema, consulte [os requisitos do sistema para o
 
 ### <a name="enable-application-guard-for-office"></a>Habilitar o Application Guard para Office
 
-1. Baixe e instale **atualizações de segurança mensais cumulativas do Windows 10 KB4571756.**
+1. Baixe e instale as atualizações de segurança **mensais cumulativas do Windows 10 KB4571756.**
 
 2. Selecione **o Microsoft Defender Application Guard** em Recursos do Windows e selecione **OK.** A habilitação do recurso Application Guard solicitará uma reinicialização do sistema. Você pode optar por reiniciar agora ou após a etapa 3.
 
@@ -70,15 +65,15 @@ Para requisitos detalhados do sistema, consulte [os requisitos do sistema para o
    Enable-WindowsOptionalFeature -online -FeatureName Windows-Defender-ApplicationGuard
    ```
 
-3. Procure o Microsoft Defender Application Guard na política de grupo do Modo Gerenciado localizado em Modelos Administrativos de Configuração do Computador **\\ componentes \\ do Windows Microsoft Defender \\ Application Guard.** A ativar essa política definindo o valor em Opções como **2** ou **3** e selecionando **OK** ou **Aplicar.**
+3. Procure o **Microsoft Defender Application Guard no Modo** Gerenciado, uma política de grupo nos Modelos Administrativos de Configuração do Computador dos Componentes do Windows Microsoft Defender Application **\\ \\ \\ Guard.** A turn on this policy by setting the value under Options as **2** or **3**, and then selecting **OK** or **Apply**.
 
    ![Ativar AG no Modo Gerenciado](../../media/ag04-deploy.png)
 
-   Como alternativa, você pode definir a política CSP correspondente:
+   Em vez disso, você pode definir a política CSP correspondente:
 
    > OMA-URI: **./Device/Vendor/MSFT/WindowsDefenderApplicationGuard/Settings/AllowWindowsDefenderApplicationGuard** <br> Tipo de dados: **Inteiro** <br> Valor: **2**
 
-4. Reinicialize o sistema.
+4. Reinicie o sistema.
 
 ### <a name="set-diagnostics--feedback-to-send-full-data"></a>Definir Comentários & diagnóstico para enviar dados completos
 
@@ -102,9 +97,9 @@ Para obter mais informações sobre como definir as configurações de diagnóst
 
 Antes de confirmar se o Application Guard para Office está habilitado, iniciar o Word, o Excel ou o PowerPoint em um dispositivo onde as políticas foram implantadas. Certifique-se de que o Office está ativado. Talvez seja necessário usar sua identidade de trabalho para ativar o produto do Office primeiro.
 
-Para confirmar que o Application Guard para Office agora está habilitado, abra o Word, o Excel ou o PowerPoint e abra um documento não falso. Por exemplo, você pode abrir um documento baixado da Internet ou um anexo de email de alguém de fora da sua organização.
+Para confirmar se o Application Guard para Office está habilitado, abra o Word, o Excel ou o PowerPoint e abra um documento não falso. Por exemplo, você pode abrir um documento que foi baixado da Internet ou um anexo de email de alguém de fora da sua organização.
 
-Na primeira vez em que um arquivo não é de confiança, você pode ver uma tela inicial do Office como a que está abaixo. Ele pode aparecer por algum tempo enquanto o Application Guard para Office está sendo ativado e o arquivo está sendo aberto. As iniciações subsequentes de arquivos não confianças devem ser mais rápidas.
+Ao abrir pela primeira vez um arquivo não falso, você poderá ver uma tela inicial do Office como o exemplo a seguir. Ele pode ser exibido por algum tempo enquanto o Application Guard para Office está sendo ativado e o arquivo está sendo aberto. As aberturas subsequentes de arquivos não confianças devem ser mais rápidas.
 
 ![Tela inicial do aplicativo do Office](../../media/ag08-confirm.png)
 
@@ -123,24 +118,26 @@ Ao ser aberto, o arquivo deve exibir alguns indicadores visuais de que o arquivo
 O Office oferece suporte às seguintes políticas para permitir que você configure os recursos do Application Guard para Office. Essas políticas podem ser configuradas por meio de políticas de grupo ou por meio do serviço de política de nuvem do Office.
 
 > [!NOTE]
-> Essas políticas serão disponibilizadas em breve.
-> Além disso, configurar essas políticas pode desabilitar algumas funcionalidades para arquivos abertos no Application Guard para Office.
+> Configurar essas políticas pode desabilitar algumas funcionalidades para arquivos abertos no Application Guard para Office.
 
 |Política|Descrição|
 |---|---|
-|Desabilitar o Application Guard para Office|A habilitação dessa política força o Word, o Excel e o PowerPoint a usar o contêiner de isolamento do Protected View em vez do Application Guard para Office. Essa política pode ser usada para desabilitar temporariamente o Application Guard para Office quando há problemas ao deixá-lo habilitado para o Edge.|
-|Desabilitar copiar/colar para documentos abertos no Application Guard|Habil passada essa política impedirá que um usuário copie e copie e copie o conteúdo de um documento aberto no Application Guard for Office para um documento aberto fora dele.|
-|Impedir que os usuários removam a proteção do Application Guard em arquivos|A habilitação dessa política removerá a opção (dentro da experiência do aplicativo do Office) para desabilitar a proteção do Application Guard ou abrir um arquivo fora do Application Guard. <p> **Observação:** Os usuários ainda podem ignorar essa política removendo manualmente a propriedade mark-of-the-web do arquivo ou movendo um documento para um local confiável.|
-|Restringir a impressão de documentos abertos no Application Guard|A habilitação dessa política limitará as impressoras que um usuário pode imprimir a partir de um arquivo aberto no Application Guard para Office. Por exemplo, você pode usar essa política para restringir os usuários a imprimir somente em PDF.|
-|Desativar o acesso à câmera e ao microfone para documentos abertos no Application Guard|A habilitação dessa política removerá o acesso do Office à câmera e ao microfone dentro do Application Guard para Office.|
+|Não usar o Application Guard para Office|A habilitação dessa política força o Word, o Excel e o PowerPoint a usar o contêiner de isolamento do Protected View em vez do Application Guard para Office. Essa política pode ser usada para desabilitar temporariamente o Application Guard para Office quando há problemas ao deixá-lo habilitado para o Microsoft Edge.|
+|Configurar o Application Guard para pré-criação de contêiner do Office|Essa política determina se o contêiner do Application Guard para Office, para isolar arquivos não-não-confiança, é pré-criado para melhorar o desempenho em tempo de execução. Se você habilitar essa configuração, poderá especificar o número de dias para continuar pré-criar um contêiner ou permitir que a heurística do Office crie o contêiner previamente.
+|Não permitir copiar/colar para documentos do Office abertos no Application Guard para Office|Habilenciar essa política impedirá que um usuário copie e paste o conteúdo de um documento aberto no Application Guard for Office para um documento aberto fora dele.|
+|Desabilitar a aceleração de hardware no Application Guard para Office|Essa política controla se o Application Guard para Office usa aceleração de hardware para renderizar elementos gráficos. Se você habilitar essa configuração, o Application Guard para Office usará a renderização baseada em software (CPU) e não carregará drivers gráficos de terceiros nem interagirá com nenhum hardware gráfico conectado.
+|Desabilitar a proteção de tipos de arquivo sem suporte no Application Guard para Office|Essa política controla se o Application Guard para Office bloqueará a abertura de tipos de arquivo sem suporte ou se habilita o redirecionamento para o Modo de Exibição Protegido.
+|Desativar o acesso à câmera e ao microfone para documentos abertos no Application Guard para Office|A habilitação dessa política removerá o acesso do Office à câmera e ao microfone dentro do Application Guard para Office.|
+|Restringir a impressão de documentos abertos no Application Guard para Office|A habilitação dessa política limitará as impressoras que um usuário pode imprimir a partir de um arquivo aberto no Application Guard para Office. Por exemplo, você pode usar essa política para restringir os usuários a imprimir somente em PDF.|
+|Impedir que os usuários removam o Application Guard para proteção do Office em arquivos|A habilitação dessa política removerá a opção (dentro da experiência do aplicativo do Office) para desabilitar a proteção do Application Guard para Office ou abrir um arquivo fora do Application Guard para Office. <p> **Observação:** Os usuários ainda podem ignorar essa política removendo manualmente a propriedade mark-of-the-web do arquivo ou movendo um documento para um local confiável.|
 |
 
 > [!NOTE]
-> As políticas a seguir exigirão que o usuário faça logoff e faça logon no Windows para entrar em vigor:
+> As políticas a seguir exigirão que o usuário saia e entre novamente no Windows para entrar em vigor:
 >
-> * Desabilitar copiar/colar para documentos abertos no Application Guard
-> * Restringir a impressão para documentos abertos no Application Guard
-> * Desativar o acesso de câmera e microfone a documentos abertos no Application Guard
+> * Desabilitar copiar/colar para documentos abertos no Application Guard para Office
+> * Restringir a impressão de documentos abertos no Application Guard para Office
+> * Desativar o acesso de câmera e microfone a documentos abertos no Application Guard para Office
 
 ## <a name="submit-feedback"></a>Enviar comentários
 
@@ -150,13 +147,13 @@ Se você encontrar problemas ao iniciar o Application Guard para Office, é ince
 
 1. Abra o **aplicativo Hub de Feedback** e entre.
 
-2. Se você receber uma caixa de diálogo de erro ao iniciar o Application Guard, selecione Relatar para a **Microsoft** na caixa de diálogo de erro para iniciar um novo envio de comentários. Caso contrário, <https://aka.ms/mdagoffice-fb> navegue até selecionar a categoria correta para o Application Guard e selecione **+ Adicionar** novos comentários próximo ao canto superior direito.
+2. Se você receber uma caixa de diálogo de erro ao iniciar o Application Guard, selecione Relatar para a **Microsoft** na caixa de diálogo de erro para iniciar um novo envio de comentários. Caso contrário, <https://aka.ms/mdagoffice-fb> navegue até selecionar a categoria correta para o Application Guard e selecione **+ &nbsp; Adicionar novos comentários** próximo ao canto superior direito.
 
-3. Preencha a caixa **Resumir** seus comentários se ela ainda não tiver sido preenchida para você.
+3. Insira um resumo na caixa **Resumir** seus comentários se ele ainda não estiver preenchido para você.
 
-4. Preencha a **caixa Explicar em mais** detalhes com uma descrição detalhada do problema que você experimentou e quais etapas você tomou e, em seguida, selecione **Próximo**.
+4. Insira uma descrição detalhada do problema que você experimentou e quais etapas você tomou na caixa Explicar em mais detalhes e, em seguida, selecione **Next**. 
 
-5. Selecione a bolha ao lado de Problema. Certifique-se de que a categoria selecionada **é Segurança e Privacidade do Microsoft Defender Application Guard – \> Office** e selecione **Próximo**.
+5. Selecione a bolha ao lado de **Problema.** Certifique-se de que a categoria selecionada **é Segurança e Privacidade do Microsoft Defender Application Guard – \> Office** e selecione **Próximo**.
 
 6. Selecione **Novo comentário** e, em **seguida, Próximo.**
 
@@ -164,15 +161,15 @@ Se você encontrar problemas ao iniciar o Application Guard para Office, é ince
 
    1. Expanda **oile Recriar** meu problema.
 
-   2. Se o problema que você está enfrentando ocorrer durante a execução do Application Guard, abra uma instância do Application Guard. Isso permite que rastreamentos adicionais sejam coletados de dentro do contêiner do Application Guard.
+   2. Se o problema que você está enfrentando ocorrer durante a execução do Application Guard, abra uma instância do Application Guard. Abrir uma instância permite que rastreamentos adicionais sejam coletados de dentro do contêiner do Application Guard.
 
-   3. Selecione **Iniciar gravação e** aguarde até que o tile pare de girar e diga Parar *gravação.*
+   3. Selecione **Iniciar gravação** e aguarde até que o tile pare de girar e diga Parar *gravação.*
 
-   4. Reproduza totalmente o problema com o Application Guard. Isso pode incluir tentar iniciar uma instância do Application Guard e aguardar até que ela falhe ou reproduzir um problema em uma instância do Application Guard em execução.
+   4. Reproduza totalmente o problema com o Application Guard. A reprodução pode incluir a tentativa de iniciar uma instância do Application Guard e aguardar até que ela falhe ou reproduzir um problema em uma instância do Application Guard em execução.
 
    5. Selecione o **tile Parar gravação.**
 
-   6. Mantenha todas as instâncias do Application Guard em execução abertas, mesmo até alguns minutos após o envio, para que o diagnóstico de contêiner também possa ser coletado.
+   6. Mantenha todas as instâncias do Application Guard em execução abertas, mesmo por alguns minutos após o envio, para que o diagnóstico de contêiner também possa ser coletado.
 
 8. Anexe quaisquer capturas de tela ou arquivos relevantes relacionados ao problema.
 
@@ -184,15 +181,15 @@ Você também pode enviar comentários do Office se o problema ocorrer quando os
 
 ## <a name="integration-with-microsoft-defender-for-endpoint-and-microsoft-defender-for-office-365"></a>Integração com o Microsoft Defender para Endpoint e o Microsoft Defender para Office 365
 
-O Application Guard para Office está integrado ao Microsoft Defender for Endpoint para fornecer monitoramento e alertas sobre atividades mal-intencionadas que ocorrem no ambiente isolado.
+O Application Guard para Office está integrado ao Microsoft Defender for Endpoint para fornecer monitoramento e alerta sobre atividades mal-intencionadas que ocorrem no ambiente isolado.
 
-O Microsoft Defender for Endpoint é uma plataforma de segurança projetada para ajudar as redes corporativas a prevenir, detectar, investigar e responder a ameaças avançadas. Para obter mais detalhes sobre essa plataforma, visite a [página do Microsoft Defender for Endpoint.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) Saiba mais sobre a integração de dispositivos nessa plataforma em dispositivos [onboard para o serviço Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure)
+O Microsoft Defender for Endpoint é uma plataforma de segurança projetada para ajudar as redes corporativas a prevenir, detectar, investigar e responder a ameaças avançadas. Para obter mais detalhes sobre essa plataforma, consulte [o Microsoft Defender para Ponto de Extremidade.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp) Para saber mais sobre a integração de dispositivos nessa plataforma, consulte Dispositivos onboard [para o serviço Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/onboard-configure)
 
-Você também pode configurar o Microsoft Defender para Office 365 para trabalhar com o Defender para o Ponto de Extremidade. Consulte Integrar [o Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade.](integrate-office-365-ti-with-wdatp.md)
+Você também pode configurar o Microsoft Defender para Office 365 para trabalhar com o Defender para o Ponto de Extremidade. Para obter mais informações, consulte [Integrar o Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade.](integrate-office-365-ti-with-wdatp.md)
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-* O Application Guard para Office é um modo restrito que isola documentos não confiáveis de acessar recursos corporativos confiáveis, intranet, identidade do usuário e arquivos arbitrários presentes no computador. Como resultado, se um usuário tentar acessar um recurso que tenha uma dependência de tal acesso, por exemplo, inserindo uma imagem de um arquivo local no disco, ele falhará e produzirá um prompt como o abaixo. Para permitir que um documento não confiável acesse recursos confiáveis, os usuários devem remover a proteção do Application Guard do documento.
+* O Application Guard para Office é um modo restrito que isola documentos não confiáveis para que eles não possam acessar recursos corporativos confiáveis, uma intranet, a identidade do usuário e arquivos arbitrários no computador. Como resultado, se um usuário tentar acessar um recurso que tenha uma dependência nesse acesso — por exemplo, inserindo uma imagem de um arquivo local no disco — o acesso falhará e produzirá um prompt como o exemplo a seguir. Para permitir que um documento não confiável acesse recursos confiáveis, os usuários devem remover a proteção do Application Guard do documento.
 
   ![Caixa de diálogo dizendo para ajudá-lo a manter a segurança, esse recurso não está disponível](../../media/ag10-limitations.png)
 
@@ -201,32 +198,33 @@ Você também pode configurar o Microsoft Defender para Office 365 para trabalha
 
 * O conteúdo ativo em documentos como macros e controles ActiveX está desabilitado no Application Guard para Office. Os usuários precisam remover a proteção do Application Guard para habilitar o conteúdo ativo.
 
-* Arquivos não confidenciais abertos a partir de compartilhamentos de rede ou arquivos compartilhados do OneDrive, OneDrive for Business ou SharePoint Online de uma organização diferente abrem como somente leitura no Application Guard. Os usuários podem salvar uma cópia local desses arquivos para continuar a trabalhar no contêiner ou remover a proteção para trabalhar diretamente com o arquivo original.
+* Arquivos nãotrudos de compartilhamentos de rede ou arquivos compartilhados do OneDrive, OneDrive for Business ou SharePoint Online de uma organização diferente abrem como somente leitura no Application Guard. Os usuários podem salvar uma cópia local desses arquivos para continuar a trabalhar no contêiner ou remover a proteção para trabalhar diretamente com o arquivo original.
 
-* Os arquivos protegidos pelo Gerenciamento de Direitos de Informação (IRM) continuam a ser abertos no Exibição Protegido.
+* Os arquivos protegidos pelo Gerenciamento de Direitos de Informação (IRM) são bloqueados por padrão. Se os usuários quiserem abrir esses arquivos no Modo de Exibição Protegido, um administrador deverá definir as configurações de política para tipos de arquivo sem suporte para a organização.
 
-* Quaisquer personalizações para aplicativos do Office no Application Guard para Office não persistirão depois que um usuário efetuar logo off e fazer logo in ou reinicializar o dispositivo.
+* Quaisquer personalizações em aplicativos do Office no Application Guard para Office não persistirão depois que um usuário sair e entrar novamente ou depois que o dispositivo for reiniciado.
 
 * Somente as ferramentas de acessibilidade que usam a estrutura UIA podem fornecer uma experiência acessível para arquivos abertos no Application Guard para Office.
 
-* A conectividade de rede é necessária para a primeira iniciação do Application Guard após a instalação. Isso é necessário para que o Application Guard valide a licença.
+* A conectividade de rede é necessária para a primeira iniciação do Application Guard após a instalação. A conectividade é necessária para que o Application Guard valide a licença.
 
-* Na seção de informações do documento, a propriedade *Last Modified By* pode exibir WDAGUtilityAccount como o usuário. Esse é o usuário anônimo configurado no Application Guard, já que a identidade do usuário da área de trabalho não é compartilhada dentro do contêiner do Application Guard.
+* Na seção de informações do documento, a propriedade *Last Modified By* pode exibir **WDAGUtilityAccount** como o usuário. WDAGUtilityAccount é o usuário anônimo configurado no Application Guard. A identidade do usuário da área de trabalho não é compartilhada dentro do contêiner do Application Guard.
 
-## <a name="performance-optimizations-for-application-guard"></a>Otimizações de desempenho para o Application Guard
+## <a name="performance-optimizations-for-application-guard-for-office"></a>Otimizações de desempenho do Application Guard para Office
 
 Esta seção fornece uma visão geral das otimizações de desempenho usadas no Application Guard para Office. Essas informações podem ajudar os administradores a diagnosticar relatórios de usuários relacionados ao desempenho do Office ou do sistema geral quando o Application Guard está habilitado.
 
 O Application Guard usa um contêiner virtualizado para isolar documentos não falsos do sistema. O processo de criar um contêiner e configurar o contêiner do Application Guard para abrir documentos do Office tem uma sobrecarga de desempenho que pode afetar negativamente a experiência do usuário quando os usuários abrem um documento não falso.
 
-Para fornecer aos usuários a experiência de abertura de arquivos esperada, o Application Guard usa lógica para pré-criar um contêiner quando a heurística a seguir é atendida em um sistema: um usuário abriu um arquivo no Protected View ou no Application Guard nos últimos 28 dias.
+Para fornecer aos usuários a experiência esperada de abertura de arquivos, o Application Guard usa lógica para pré-criar um contêiner quando a heurística a seguir é atendida em um sistema: um usuário abriu um arquivo no Protected View ou no Application Guard nos últimos 28 dias.
 
-Quando essa heurística for atendida, o Office criará previamente um contêiner do Application Guard para o usuário depois que ele fizer logoff no Windows. Quando essa operação de pré-criação está em andamento, o sistema pode experimentar um desempenho lento. Isso será resolvido assim que a operação terminar.
+Quando essa heurística for atendida, o Office criará previamente um contêiner do Application Guard para o usuário depois que ele entrar no Windows. Enquanto essa operação de pré-criação está em andamento, o sistema pode experimentar um desempenho lento, mas o efeito será resolvido assim que a operação for concluída.
 
 > [!NOTE]
-> As dicas necessárias para a heurística usada para pré-criar o contêiner são geradas pelos aplicativos do Office à medida que um usuário as usa. Se um usuário instalar o Office em um novo sistema em que o Application Guard está habilitado, o Office não criará previamente o contêiner até depois da primeira vez em que um usuário abrir um documento não falso no sistema. O usuário observará que esse primeiro arquivo leva mais tempo para ser aberto no Application Guard.
+> As dicas necessárias para a heurística criar previamente o contêiner são geradas pelos aplicativos do Office conforme um usuário as usa. Se um usuário instalar o Office em um novo sistema em que o Application Guard está habilitado, o Office não criará previamente o contêiner até depois da primeira vez em que um usuário abrir um documento não falso no sistema. O usuário observará que esse primeiro arquivo leva mais tempo para ser aberto no Application Guard.
 
-## <a name="known-issues-in-preview"></a>Problemas conhecidos na visualização
+## <a name="known-issues"></a>Problemas conhecidos
 
-* Clicar em links da Web `http` `https` (ou) não abre o navegador.
-* As atualizações do .NET causam falha na abertura dos arquivos no Application Guard. Como alternativa, os usuários podem reiniciar o dispositivo quando esse problema é encontrado. Saiba mais sobre o problema ao [receber uma mensagem de erro ao tentar abrir o Windows Defender Application Guard ou a área de segurança do Windows.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)
+* Selecionar links da Web `http` `https` (ou) não abre o navegador.
+* Não há suporte para colar conteúdo ou imagens RTF (rich text format) em documentos do Office abertos com o Application Guard no momento.
+* Atualizações no .NET causam falha na abertura de arquivos no Application Guard. Como alternativa, os usuários podem reiniciar o dispositivo quando se deparam com essa falha. Saiba mais sobre o problema ao [receber uma mensagem de erro ao tentar abrir o Windows Defender Application Guard ou a área de segurança do Windows.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)

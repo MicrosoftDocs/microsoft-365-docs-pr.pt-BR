@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Determine as regulamentações de privacidade de dados, os cenários relevantes, sua preparação e os tipos de informações confidenciais que estão no seu ambiente do Microsoft 365.
-ms.openlocfilehash: c5a1662f5e82c8b8b9439439df0ee369d45e7616
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: b52359cfac053c7a602a2cbb32dc70185416452a
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931897"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029769"
 ---
 # <a name="assess-data-privacy-risks-and-identify-sensitive-items-with-microsoft-365"></a>Avaliar os riscos de privacidade de dados e identificar itens confidenciais com o Microsoft 365
 
@@ -30,7 +30,7 @@ Avaliar os regulamentos e os riscos de privacidade de dados aos quais sua organi
 
 ## <a name="potentially-applicable-data-privacy-regulations"></a>Regulamentos de privacidade de dados potencialmente aplicáveis
 
-Para uma boa referência sobre a estrutura regulatória mais ampla para regulamentos de privacidade de dados, consulte o Portal de Confiança dos Serviços [microsoft](https://servicetrust.microsoft.com/) e a série de artigos sobre a regulamentação RGPD (Regulamento Geral sobre a Proteção de [Dados),](../compliance/gdpr.md)bem como outros materiais sobre os regulamentos aos quais você pode estar sujeito em seu setor ou região.
+Para uma boa referência sobre a estrutura regulatória mais ampla para regulamentos de privacidade de dados, consulte o Portal de Confiança dos Serviços [da Microsoft](https://servicetrust.microsoft.com/) e a série de artigos sobre a regulamentação RGPD (Regulamento Geral sobre a Proteção de [Dados),](../compliance/gdpr.md)bem como outros materiais sobre os regulamentos aos quais você pode estar sujeito em seu setor ou região.
 
 ### <a name="gdpr"></a>RGPD
 
@@ -38,7 +38,7 @@ O RGPD, a mais conhecida e citada das regulamentações de privacidade de dados,
 
 De acordo com o Artigo 4 do RGPD: 
 
-- "dados pessoais" significa qualquer informação relacionada a uma pessoa natural identificada ou identificável ('assunto dos dados'); uma pessoa natural identificável é aquela que pode ser identificada, direta ou indiretamente, em particular por referência a um identificador como um nome, um número de identificação, dados de localização, um identificador online ou um ou mais fatores específicos da identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa natural.
+- "dados pessoais" significa qualquer informação relacionada a uma pessoa natural identificada ou identificável ('assunto dos dados'); uma pessoa física identificável é aquela que pode ser identificada, direta ou indiretamente, em particular por referência a um identificador como um nome, um número de identificação, dados de localização, um identificador online ou por um ou mais fatores específicos da identidade física, fisiológica, genética, mental, econômica, cultural ou social dessa pessoa natural.
 
 ### <a name="iso-27001"></a>ISO 27001
 
@@ -48,7 +48,7 @@ A adesão a outros padrões, como a ISO 27001, também foi reconhecida por vári
 
 Outros regulamentos de privacidade de dados proeminentes também especificam requisitos para o tratamento de dados pessoais.
 
-Nos Estados Unidos, eles incluem o[CCPA](../compliance/ccpa-faq.md)(Ato de Proteção do Consumidor da Califórnia), HIPAA-HITECH (lei de privacidade de serviços de saúde dos Estados Unidos) e o Ato de Proteção do Consumidor da Califórnia (GLBA). Regulamentos adicionais específicos do estado também estão em vigor ou em desenvolvimento. 
+Nos Estados Unidos, eles incluem a Lei de Proteção do Consumidor da Califórnia[(CCPA),](../compliance/ccpa-faq.md)HIPAA-HITECH (Lei de privacidade da saúde dos Estados Unidos) e o Ato de Proteção do Consumidor da Califórnia (GLBA). Regulamentos adicionais específicos do estado também estão em vigor ou em desenvolvimento. 
 
 Em todo o mundo, outros exemplos incluem a Lei Nacional de Implementação do RGPD (BDSG) da Alemanha, a LGPD (Lei de Proteção de Dados do Brasil) e muitos outros.
 
@@ -60,7 +60,7 @@ Para referência posterior nos artigos desta solução geral, esta tabela fornec
 
 | Regulamentação | Artigo/seção | Excerpt | Categorias de controle técnico aplicáveis |
 |:-------|:-----|:-------|:-------|
-| RGPD | Artigo 5(1)(f) | Os dados pessoais devem ser processados de maneira a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou ilegal e contra perda, destruição ou danos acidentais, usando medidas técnicas ou organizacionais apropriadas ('integridade e confidencialidade'.  |  (Tudo) <br> Identidade <br> Dispositivo <br> Proteção contra Ameaças <br> Proteger informações <br> Govern information <br> Descobrir e responder |
+| RGPD | Artigo 5(1)(f) | Os dados pessoais devem ser processados de maneira a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou ilegal e contra perda, destruição ou danos acidentais, usando medidas técnicas ou organizacionais apropriadas ('integridade e confidencialidade'.  |  (Tudo) <br> Identity <br> Dispositivo <br> Proteção contra Ameaças <br> Proteger informações <br> Govern information <br> Descobrir e responder |
 |  | Artigo (32)(1)(a) | Levando em conta o estado da arte, os custos de implementação e a natureza, o escopo, o contexto e as finalidades do processamento, bem como o risco de variação de probabilidade e gravidade para os direitos e liberdades das pessoas naturais, o controlador e o processador devem implementar medidas técnicas e organizacionais apropriadas para garantir um nível de segurança apropriado ao risco , incluindo, entre outras coisas, conforme apropriado: (a) a pseudonimização e a criptografia de dados pessoais. | Proteger informações |
 |  | Artigo (13)(2)(a) | "... o controlador deve, no momento em que os dados pessoais são obtidos, fornecer ao assunto dos dados as seguintes informações adicionais necessárias para garantir o processamento justo e transparente: (a) o período para o qual os dados pessoais serão armazenados ou, se isso não for possível, os critérios usados para determinar esse período. | Govern information |
 |  | Artigo (15)(1)(e) | O assunto dos dados deve ter o direito de obter do controlador a confirmação de que os dados pessoais relativos a ele estão ou não sendo processados, e se for esse o caso, o acesso aos dados pessoais e às seguintes informações: (e) a existência do direito de solicitar ao controlador a retificação ou eliminação de dados pessoais ou a restrição de processamento de dados pessoais referentes ao assunto dos dados ou a objeção a esse processamento | Descobrir e responder |
@@ -74,7 +74,7 @@ Para referência posterior nos artigos desta solução geral, esta tabela fornec
 |  | 45 C.F.R. 164.308(a)(1)(ii)(D) | Implementar procedimentos para revisar regularmente registros de atividades do sistema de informações, como logs de auditoria, relatórios de acesso e relatórios de rastreamento de incidentes de segurança | Descobrir e responder |
 |  | 45 C.F.R. 164.308(a)(6)(ii) | Identificar e responder a incidentes de segurança suspeitos ou conhecidos; atenuar, na medida do possível, os efeitos nocivos dos incidentes de segurança conhecidos pela entidade coberta ou parceiro comercial; e documentar incidentes de segurança e seus resultados. | Descobrir e responder |
 |  | 45 C.F.R. 164.312(b) | Implemente mecanismos de hardware, software e procedimentos que registram e examinam a atividade em sistemas de informações que contenham ou usem informações de saúde eletrônicas protegidas. | Descobrir e responder |
-| CCPA | 1798.105(c) | Uma empresa que recebe uma solicitação verificável de um consumidor para excluir as informações pessoais do consumidor de acordo com a subdivisão (a) desta seção deve excluir as informações pessoais do consumidor de seus registros e direcionar quaisquer provedores de serviços para excluir as informações pessoais do consumidor de seus registros | Descobrir e responder |
+| CCPA | 1798.105(c) | Uma empresa que recebe uma solicitação verificável de um consumidor para excluir as informações pessoais do consumidor, de acordo com a subdivisão (a) desta seção, deve excluir as informações pessoais do consumidor de seus registros e direcionar quaisquer provedores de serviços para excluir as informações pessoais do consumidor de seus registros | Descobrir e responder |
 |  | 1798.105(d) | (exceções a 1798.105(c) <br> Uma empresa ou um provedor de serviços não deve ser obrigado a atender à solicitação de um consumidor para excluir as informações pessoais do consumidor, se for necessário que a empresa ou o provedor de serviços mantenha as informações pessoais do consumidor para: (consulte a regulamentação atual para obter informações adicionais). | Descobrir e responder |
 |||||
 
@@ -120,25 +120,25 @@ Aqui está um exemplo dos diferentes tipos de dados para departamentos típicos 
 
 ![Tipos de dados pessoais](../media/information-protection-deploy-assess/information-protection-deploy-assess-data-types.png)
 
-Grande parte dos dados pessoais sujeitos à regulamentação de privacidade de dados geralmente é coletada e armazenada fora do Microsoft 365. Quaisquer dados pessoais de aplicativos móveis ou da Web voltados para o consumidor precisariam ser exportados desses aplicativos para o Microsoft 365 para ficar sujeito à análise da privacidade de dados no Microsoft 365. 
+Grande parte dos dados pessoais sujeitos à regulamentação de privacidade de dados normalmente é coletada e armazenada fora do Microsoft 365. Quaisquer dados pessoais de aplicativos móveis ou da Web voltados para o consumidor precisariam ser exportados desses aplicativos para o Microsoft 365 para ficar sujeito à análise da privacidade de dados no Microsoft 365. 
 
-Sua exposição à privacidade de dados no Microsoft 365 pode ser mais limitada em relação aos seus aplicativos Web e sistemas CRM, que essa solução não aborda.
+Sua exposição de privacidade de dados no Microsoft 365 pode ser mais limitada em relação aos seus aplicativos Web e sistemas CRM, que essa solução não aborda.
 
 Também é importante pensar nos seguintes desafios comuns de conformidade de privacidade de dados ao avaliar seu perfil de risco:
 
  - **Distribuição de dados pessoais.** Qual é a dispersão de informações sobre um determinado assunto? É conhecido o suficiente para convencer órgãos reguladores de que os controles adequados estão em funcionamento? Pode ser investigado e remediado, se necessário?
 - **Proteção contra exfiltração.** Como você protege os dados pessoais de um determinado tipo ou fonte de serem comprometidos e como responder se foram?
 - **Proteção versus risco.** Quais mecanismos de proteção de informações são apropriados em relação ao risco e como manter a continuidade e a produtividade dos negócios e minimizar o impacto do usuário final se a intervenção do usuário final for necessária? Por exemplo, a classificação manual ou a criptografia devem ser usadas?
-- **Retenção de dados pessoais.** Por quanto tempo as informações que contêm dados pessoais precisam ser mantidas por motivos comerciais válidos e como evitar práticas de manter para sempre, balanceadas com as necessidades de retenção para a continuidade dos negócios?
+- **Retenção de dados pessoais.** Por quanto tempo as informações que contêm dados pessoais precisam ser mantidas por motivos comerciais válidos e como evitar práticas passadas de manter para sempre, balanceadas com as necessidades de retenção para a continuidade dos negócios?
 - **Manipulação de solicitações de assunto de dados.** Quais mecanismos serão necessários para lidar com solicitações de assunto de dados (DSRs) e quaisquer ações corretivas, como anonimato, redação e exclusão?
 - **Monitoramento e relatórios contínuos.** Que tipo de técnicas diárias de monitoramento, investigação e relatório estão disponíveis para os diferentes tipos e fontes de dados?
-- **Limitações do processamento de dados.** Há limitações no uso de dados para informações coletadas ou armazenadas por meio desses métodos que a organização deve refletir nos controles de privacidade? Por exemplo, os compromissos de que os dados pessoais não serão usados pela equipe de vendas podem exigir que sua organização coloque mecanismos no local para impedir a transferência ou armazenamento dessas informações em sistemas associados à organização de vendas.
+- **Limitações do processamento de dados.** Há limitações no uso de dados para informações coletadas ou armazenadas por meio desses métodos que a organização deve refletir nos controles de privacidade? Por exemplo, os compromissos de que os dados pessoais não serão usados pela equipe de vendas podem exigir que sua organização coloque mecanismos para evitar a transferência ou armazenamento dessas informações em sistemas associados à organização de vendas.
 
 ### <a name="employee-data-required-to-carry-out-day-to-day-business-functions"></a>Dados de funcionários necessários para executar funções diárias de negócios
 
 As organizações, por natureza, precisam coletar dados sobre funcionários para fins de identidade eletrônica e RH, sujeitos ao que eles concordam em seus contratos de funcionários. Desde que uma pessoa trabalhe em uma empresa, isso normalmente não é um problema. A organização pode querer colocar mecanismos no lugar para evitar que atores mal-intencionados exfiltram ou vazamento de dados pessoais de funcionários. 
 
-Se uma pessoa sair de uma empresa, as organizações geralmente têm agendas de processos, procedimentos e retenção e exclusão para remover contas de usuário, descomissionar caixas de correio e unidades pessoais e alterar o status do funcionário em coisas como sistemas de recursos humanos. Para situações em que o litígio está envolvido, um funcionário ou outra parte de uma investigação legal pode ter motivos válidos para obter informações sobre dados pessoais armazenados nos sistemas da organização. Em algumas ocasiões, essa parte pode solicitar que esses dados sejam removidos ou anonimizados. 
+Se uma pessoa sair de uma empresa, as organizações geralmente têm processos, procedimentos e agendamentos de retenção e exclusão para remover contas de usuário, descomissionar caixas de correio e unidades pessoais e alterar o status do funcionário em coisas como sistemas de recursos humanos. Para situações em que o litígio está envolvido, um funcionário ou outra parte de uma investigação legal pode ter motivos válidos para obter informações sobre dados pessoais armazenados nos sistemas da organização. Em algumas ocasiões, essa parte pode solicitar que esses dados sejam removidos ou anonimizados. 
 
 Para atender a essas necessidades, as organizações devem ter processos e procedimentos no local que a fim de atender às necessidades preventivas, descontantes e corretivas para facilitar essas solicitações, notando que algumas informações sobre um funcionário podem ser razoavelmente consideradas cruciais para a continuidade dos negócios. Por exemplo, informações de que um indivíduo escreveu um arquivo ou realizou uma função. 
 
@@ -148,7 +148,7 @@ Para atender a essas necessidades, as organizações devem ter processos e proce
  
 ### <a name="data-the-organization-has-about-its-business-customers-in-the-b2b-scenario"></a>Dados que a organização tem sobre seus clientes comerciais no cenário B2B
 
-A coleção de informações B2B também é um desafio porque sua organização pode precisar manter registros de nomes de clientes e transações em seus diversos sistemas para fins de continuidade de negócios e ainda proteger essas informações contra exfiltração inadvertida ou mal-intencionada. Assim como os dados dos funcionários, as organizações devem ter políticas, procedimentos e controles técnicos para proteger esses dados, bem como age-los de acordo com os agendamentos definidos de retenção e exclusão. 
+A coleção de informações B2B também é um desafio porque sua organização pode precisar manter registros de nomes de clientes e transações em seus diversos sistemas para fins de continuidade de negócios e, ainda assim, proteger essas informações contra exfiltração inadvertida ou mal-intencionada. Assim como os dados dos funcionários, as organizações devem ter políticas, procedimentos e controles técnicos para proteger esses dados, bem como age-los de acordo com os agendamentos definidos de retenção e exclusão. 
 
 Normalmente, os contratos com clientes externos, parceiros e outras entidades com as quais a organização faz negócios terão idioma para lidar com a manipulação desses dados, incluindo proteção, retenção e exclusão durante e após a entidade ter um relacionamento com a organização. 
 
@@ -161,13 +161,13 @@ Essa categoria é a que mais pessoas pensa em relação à privacidade de dados,
 - [Notificações de violação](../compliance/gdpr-breach-office365.md)
 - [Solicitações de entidades de dados](../compliance/gdpr-dsr-office365.md)
 
-Se sua organização não faz muitas coletas diretas de dados do consumidor, essa categoria pode ser menos um problema. No entanto, talvez você ainda precise passar pelos processos descritos nestes artigos para obter conformidade.
+Se sua organização não faz muita coleta direta de dados do consumidor, essa categoria pode ser menos um problema. No entanto, talvez você ainda precise passar pelos processos descritos nestes artigos para obter conformidade.
 
 ### <a name="step-1-summary"></a>Resumo da etapa 1
 
-Compreender sua exposição a riscos e à regulamentação de privacidade de dados é uma primeira etapa importante e baseada em uma compreensão básica dos cenários de dados pessoais da sua organização.
+Entender sua exposição a riscos e à regulamentação de privacidade de dados é uma primeira etapa importante e baseada em uma compreensão básica dos cenários de dados pessoais da sua organização.
 
-Se você não tiver dados pessoais de consumidores em seu ambiente do Microsoft 365 ou se ele estiver confinado a determinadas partes do ambiente e a necessidade de um controle técnico estiver predicado em que haja exposição de dados do tipo consumidor, esse controle técnico talvez só precise ser empregado em partes de alto risco do ambiente, não em todos os lugares.
+Se você não tiver dados pessoais de consumidores em seu ambiente do Microsoft 365 ou se eles estão confinados a determinadas partes do ambiente e a necessidade de um controle técnico está predicado em haver exposição de dados do tipo consumidor, esse controle técnico pode precisar ser empregado apenas em partes de alto risco do ambiente, não em todos os lugares.
 
 Embora uma organização externa ou uma recomendação padrão do conjunto de controles, como o Gerenciador de Conformidade no Microsoft 365, possa ajudar a informar sua estratégia de controle, sua escolha de implementação deve ser orientada pelo reconhecimento do inventário de dados para quantificar sua exposição real a riscos.
 
@@ -175,9 +175,9 @@ A maioria das organizações terá alguma exposição a um dos cenários acima. 
 
 ## <a name="step-2-assess-your-readiness-for-complying-with-data-privacy-regulations"></a>Etapa 2: Avalie sua preparação para estar em conformidade com as regulamentações de privacidade de dados
 
-Embora específica para o RGPD, as perguntas colocadas na ferramenta gratuita de avaliação de [RGPD](https://www.microsoft.com/cyberassessment/en/gdpr/uso365) da Microsoft fornecem um bom começo para entender sua preparação geral de privacidade de dados. 
+Embora específica para o RGPD, as perguntas colocadas na ferramenta gratuita de avaliação de [RGPD](https://www.microsoft.com/cyberassessment/en/gdpr/uso365) da Microsoft fornecem um bom começo para entender a prontidão geral da privacidade de dados. 
 
-As organizações sujeitas a outras regulamentações de privacidade de dados, como CCPA nos Estados Unidos ou LGPD do Brasil, também podem se beneficiar do inventário de preparação dessa ferramenta devido a provisões sobrepostas com o RGPD.
+As organizações sujeitas a outras regulamentações de privacidade de dados, como o CCPA nos Estados Unidos ou no LGPD do Brasil, também podem se beneficiar do inventário de preparação dessa ferramenta devido a provisões sobrepostas com o RGPD.
 
 A avaliação de RGPD consiste nestas seções:
 
@@ -191,7 +191,7 @@ A avaliação de RGPD consiste nestas seções:
  
 ## <a name="step-3-identify-sensitive-information-types-that-occur-in-your-microsoft-365-environment"></a>Etapa 3: identifique os tipos de informações confidenciais que ocorrem em seu ambiente do Microsoft 365. 
 
-Esta etapa envolve a identificação de determinados tipos de informações confidenciais que estão sujeitos a controles regulamentar específicos, bem como a ocorrência deles em seu ambiente do Microsoft 365. 
+Esta etapa envolve a identificação de determinados tipos de informações confidenciais que estão sujeitos a controles regulatórios específicos, bem como a ocorrência deles em seu ambiente do Microsoft 365. 
 
 Localizar conteúdo em seu ambiente que contenha pessoal pode ser uma tarefa complexa, anteriormente envolvendo uma combinação de uso da Pesquisa de Conformidade, Descobertas e Descobertas, Descobertas Avançadas, DLP e auditoria. 
 
@@ -212,7 +212,7 @@ Você também pode personalizar um tipo de informação confidenciais existente 
 Confira estes artigos para obter mais informações:
 
 - [Personalizar um tipo de informação confidencial interno](../compliance/customize-a-built-in-sensitive-information-type.md)
-- [Saiba mais sobre os tipos de informações confidenciais](../compliance/sensitive-information-type-learn-about.md)
+- [Aprenda sobre os tipos de informações confidenciais](../compliance/sensitive-information-type-learn-about.md)
 - [Criar um tipo personalizado de informação confidencial no Centro de Conformidade e Segurança](../compliance/create-a-custom-sensitive-information-type.md)
 - [Crie um tipo personalizado de informação confidencial no PowerShell do Centro de Conformidade e Segurança](../compliance/create-a-custom-sensitive-information-type-in-scc-powershell.md)
 - [Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match](../compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
@@ -223,7 +223,7 @@ Uma ferramenta importante para determinar a ocorrência de itens [](../complianc
  
 A nova ferramenta Explorador de Conteúdo permite identificar rapidamente os locais de itens confidenciais em seu ambiente, usando tipos de informações confidenciais integrados ou personalizados. Isso pode envolver o estabelecimento de um processo e a responsabilidade atribuída para investigar regularmente a presença e o local de itens confidenciais.
 
-Juntamente com as outras etapas destacadas neste artigo, isso fornece um ponto de partida para identificar a exposição, a preparação e o local geral de itens confidenciais a serem protegidos por meio de configuração e monitoramento planejados do Microsoft 365. 
+Juntamente com as outras etapas destacadas neste artigo, isso fornece um ponto de partida para identificar sua exposição, prontidão e local de risco geral de itens confidenciais a serem protegidos por meio de configuração e monitoramento planejados do Microsoft 365. 
 
 ### <a name="other-methods-to-identify-personal-data-in-your-environment"></a>Outros métodos para identificar dados pessoais em seu ambiente
 
@@ -232,3 +232,7 @@ Além do Explorador de Conteúdo, as organizações têm acesso ao recurso pesqu
 Orientações detalhadas sobre o uso da Pesquisa de Conteúdo para descoberta de dados pessoais são fornecidas [neste artigo.](../compliance/search-for-and-find-personal-data.md) A Pesquisa de Conteúdo e outras técnicas de descoberta também são exploradas [em DSRs para o RGPD e CCPA.](../compliance/gdpr-dsr-office365.md#introduction-to-dsrs)
 
 Informações adicionais sobre técnicas de investigação e correção para dados pessoais no Microsoft 365 são fornecidas no monitor e [no artigo de resposta.](information-protection-deploy-monitor-respond.md)
+
+> [!NOTE]
+> Para encontrar quais informações confidenciais você tem nos arquivos armazenados no local, consulte a Proteção de Informações do [Azure.](https://docs.microsoft.com/azure/information-protection/quickstart-findsensitiveinfo)
+

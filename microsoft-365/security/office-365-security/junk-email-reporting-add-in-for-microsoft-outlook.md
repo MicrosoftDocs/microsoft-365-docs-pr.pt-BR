@@ -3,23 +3,24 @@ title: Instalar e usar o complemento Relatório de Lixo Eletrônico para o Micro
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
-description: Saiba como instalar e usar o complemento Relatório de Lixo Eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing para a Microsoft.
-ms.openlocfilehash: 2b98fb0183cb7164ee90fb6a3a22d949e6edc2bc
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+description: Saiba como instalar e usar o complemento Relatório de Lixo Eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing à Microsoft.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 896ef89149e5ef65ea96b2b21e1010c29fa7a7fc
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865051"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029415"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar e usar o complemento Relatório de Lixo Eletrônico para o Microsoft Outlook
 
@@ -27,9 +28,9 @@ ms.locfileid: "49865051"
 
 
 > [!NOTE]
-> Se você não estiver usando o complemento Relatório de Lixo Eletrônico [](enable-the-report-message-add-in.md) no momento, recomendamos o complemento Mensagem de Relatório ou o complemento [Phishing de Relatório.](enable-the-report-phish-add-in.md) Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
+> Se você não estiver usando o complemento Relatório de Lixo Eletrônico [](enable-the-report-message-add-in.md) no momento, recomendamos o complemento Mensagem de Relatório ou o complemento [De Phishing de](enable-the-report-phish-add-in.md) Relatório. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
-O Complemento Relatório de Lixo Eletrônico do Microsoft Outlook permite que os usuários enviem falsos positivos (emails bons marcados como spam), falsos negativos (emails falsos permitidos) e mensagens de phishing para a Microsoft. Se sua organização não usa a Proteção do Exchange Online (por exemplo, o Exchange local ou serviços de email que não seja o Exchange Online), o envio do relatório de lixo eletrônico não afetará a filtragem de spam.
+O Complemento Relatório de Lixo Eletrônico do Microsoft Outlook permite que os usuários enviem falsos positivos (emails bons marcados como spam), falsos negativos (emails falsos permitidos) e mensagens de phishing para a Microsoft. Se sua organização não usa a Proteção do Exchange Online (por exemplo, serviços locais do Exchange ou de email que não seja o Exchange Online), seu envio de relatório de lixo eletrônico não afetará a filtragem de spam.
 
 Este tópico explica como instalar e usar o complemento Relatório de Lixo Eletrônico.
 
@@ -85,7 +86,7 @@ Este tópico explica como instalar e usar o complemento Relatório de Lixo Eletr
 
      ![Relatar não lixo eletrônico ou email de phishing clicando com o botão direito do mouse na pasta Lixo Eletrônico](../../media/junk-email-reporting-junk-folder-right-click.png)
 
-   - Selecione várias mensagens, clique com o botão direito do mouse e selecione **Relatar como** Não é Lixo Eletrônico ou Relatar **como Phishing.**
+   - Selecione várias mensagens, clique com o botão direito do mouse e selecione **Relatar como** Não é Lixo Eletrônico ou Relatar como **Phishing.**
 
      ![Relatar várias mensagens de email que não são de lixo eletrônico ou phishing clicando com o botão direito do mouse na pasta Lixo Eletrônico](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
 
@@ -149,7 +150,7 @@ Selecione a seta para baixo ao lado de **Lixo Eletrônico** para obter mais opç
    msiexec /qn /i "<PathToMSIFile>\<MSIFile>" [MaxMessageSelection=<1-50>] [BccEmailAddress="<EmailAddress1>; <EmailAddress2>"...]
    ```
 
-   - `MaxMessageSelection` especifica o número máximo de mensagens que você pode selecionar para um único envio. Os valores válidos são de 1 a 50. O valor padrão é 15.
+   - `MaxMessageSelection` especifica o número máximo de mensagens que você pode selecionar para um único envio. Os valores válidos vão de 1 a 50. O valor padrão é 15.
 
    - `BccEmailAddress` especifica destinatários Cc adicionais que receberão uma cópia de todos os envios de usuário. O valor padrão está em branco (nenhum destinatário Cc adicional).
 
@@ -172,7 +173,7 @@ Selecione a seta para baixo ao lado de **Lixo Eletrônico** para obter mais opç
 
 Para verificar se você instalou com êxito o Complemento Relatório de Lixo Eletrônico, faça as seguintes etapas no Outlook:
 
-- Selecione a mensagem ou abra a mensagem. Na guia **Página** Home ou **Mensagem** na faixa de opções, clique em **Lixo** Eletrônico e verifique se as seguintes opções estão disponíveis:
+- Selecione a mensagem ou abra a mensagem. Na guia **Página Home** ou **Mensagem** na faixa de opções, clique em **Lixo** Eletrônico e verifique se as seguintes opções estão disponíveis:
 
   - **Relatar como Lixo Eletrônico**
   - **Relatar como Phishing**
@@ -221,7 +222,7 @@ Depois de fechar o Outlook, use qualquer um dos procedimentos a seguir para desi
 
   Na caixa de diálogo exibida, selecione Remover o **Microsoft Junk Email Reporting Add-in para Outlook** e clique em **Próximo.**
 
-- **Modo Silencioso:** encontre ou baixe o arquivo .msi apropriado. Em uma janela de Prompt de Comando, substitua pelo local do arquivo \<PathToFile\> .msi e execute um dos seguintes comandos:
+- **Modo Silencioso:** encontre ou baixe o arquivo .msi apropriado. Em uma janela de Prompt de Comando, substitua o local do arquivo \<PathToFile\> .msi e execute um dos seguintes comandos:
 
   - **32 bits:**
 
@@ -290,7 +291,7 @@ Para outros métodos que você pode usar para enviar mensagens à Microsoft, con
      "LoggingLevel"="Verbose"
      ```
 
-2. Reinicie o Outlook e peça aos usuários para relatar quando eles veem a mensagem de erro.
+2. Reinicie o Outlook e peça aos usuários que re reportem quando eles veem a mensagem de erro.
 
 3. Colete as informações de log encontradas no seguinte local:
 

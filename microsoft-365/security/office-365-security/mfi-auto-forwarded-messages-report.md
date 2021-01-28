@@ -3,58 +3,59 @@ title: Visão geral sobre mensagens encaminhadas automaticamente
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
-description: Os administradores podem saber mais sobre o relatório de mensagens de encaminhamento automático no painel de fluxo de emails no centro de conformidade do & de segurança.
-ms.openlocfilehash: 28cb593d56d0b0054c8c8cbe4596d4f7df6442ab
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+description: Os administradores podem saber mais sobre o relatório de mensagens encaminhadas automaticamente no painel Fluxo de emails no Centro de Conformidade e & Segurança.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: c892400152df15adb3dfeb0c747ed7fae034d3d6
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920591"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029937"
 ---
-# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Informações de encaminhamento automático de mensagens no centro de conformidade & segurança
+# <a name="auto-forwarded-messages-insight-in-the-security--compliance-center"></a>Insight de mensagens encaminhadas automaticamente no Centro de Conformidade e Segurança & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-As **mensagens de encaminhamento automático** no painel de [fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade de & de segurança](https://protection.office.com) exibem informações sobre as mensagens que são automaticamente encaminhadas da sua organização para destinatários em domínios externos.
+O & **insight** de mensagens [](mail-flow-insights-v2.md) encaminhadas automaticamente no painel fluxo de emails no Centro de Conformidade e Segurança exibe informações sobre mensagens [que](https://protection.office.com) são encaminhadas automaticamente da sua organização para destinatários em domínios externos.
 
-![Widget mensagens automaticamente encaminhadas no centro de conformidade de & de segurança](../../media/mfi-auto-forwarded-messages.png)
+![Widget mensagens encaminhadas automaticamente no Centro de Conformidade e Segurança & Segurança](../../media/mfi-auto-forwarded-messages.png)
 
-## <a name="auto-forwarded-messages-details"></a>Detalhes de mensagens automaticamente encaminhadas
+## <a name="auto-forwarded-messages-details"></a>Detalhes das mensagens encaminhadas automaticamente
 
-Quando você clica no número de mensagens no widget, um painel de submenu aparece mostrando mais informações sobre as mensagens automaticamente encaminhadas:
+Quando você clica no número de mensagens no widget, um painel de sub-texto é exibido, que mostra mais informações sobre as mensagens encaminhadas automaticamente:
 
-- **Encaminhar mensagens automaticamente por métodos de encaminhamento** :
+- **Mensagens encaminhadas automaticamente por meio de métodos de encaminhamento:**
 
   - **Por regras de fluxo de emails**
-  - **Por regras de caixa de entrada**
-  - **Pelo encaminhamento SMTP** : Este método indica o encaminhamento automático que os administradores podem configurar em uma caixa de correio, conforme descrito em [Configure e-mail Forwarding for a Mailbox](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding).
+  - **Por regras da Caixa de Entrada**
+  - Por meio do encaminhamento **SMTP:** esse método indica o encaminhamento automático que os administradores podem configurar em uma caixa de correio, conforme descrito em Configurar o encaminhamento de [email para uma caixa de correio.](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
   - Um link para o [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) para obter mais detalhes.
 
-- **Encaminhar mensagens automaticamente por domínios e usuários** :
+- **Mensagens encaminhadas automaticamente por domínios e usuários:**
 
-  - **Cinco principais domínios encaminhados para**
-  - **Novos domínios (semana passada)**
+  - **Os 5 principais domínios encaminhados para**
+  - **Novos domínios (última semana)**
   - **Cinco principais usuários de encaminhamento**
-  - **Novos usuários (semana passada)**
-  - Um link para o [relatório de alterações de encaminhamento](mfi-new-users-forwarding-email.md#forwarding-modifications-report) para obter mais detalhes.
+  - **Novos usuários (última semana)**
+  - Um link para o [relatório de modificações de encaminhamento](mfi-new-users-forwarding-email.md#forwarding-modifications-report) para obter mais detalhes.
 
-![Submenu de detalhes do relatório de mensagens automaticamente encaminhadas no centro de conformidade & segurança](../../media/mfi-auto-forwarded-messages-details.png)
+![Submenu de detalhes do relatório de mensagens encaminhadas automaticamente no Centro de Conformidade & Segurança](../../media/mfi-auto-forwarded-messages-details.png)
 
-## <a name="insights"></a>Informações
+## <a name="insights"></a>Insights
 
-Dois insights são gerados com base nos dados do relatório:
+Duas informações são geradas com base nos dados do relatório:
 
-- [Novos usuários encaminhando email](mfi-new-users-forwarding-email.md)
-- [Novos domínios sendo encaminhados emails](mfi-new-domains-being-forwarded-email.md)
+- [Novos usuários encaminhando emails](mfi-new-users-forwarding-email.md)
+- [Novos domínios sendo encaminhados por email](mfi-new-domains-being-forwarded-email.md)
 
 ## <a name="see-also"></a>Confira também
 
-Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).
+Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações sobre o fluxo de emails no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)

@@ -3,50 +3,51 @@ title: Visão geral sobre correção de possíveis loop de email
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a usar a correção de possíveis loops de email no painel de fluxo de emails no centro de conformidade de & de segurança para identificar e corrigir loops de email em sua organização.
-ms.openlocfilehash: 1d49fd93b2ea068986e003b36077672215a2dd57
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+description: Os administradores podem aprender a usar o insight corrigir possíveis & loop de email no painel fluxo de emails no Centro de Conformidade e Segurança para identificar e corrigir loops de email em sua organização.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: f08c27c761cdfe4acbbd8cf80e8ab6da8012b55f
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920555"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029889"
 ---
-# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Correção de possíveis informações de loop de email no centro de conformidade e segurança &
+# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Corrigir informações de loop de email possíveis no Centro de Conformidade & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
 Os loops de email são ruins porque:
 
-- Eles desperdiçam recursos do sistema.
+- Eles perdem recursos do sistema.
 - Eles consomem a cota de volume de email da sua organização.
-- Eles enviam notificações confusas de não entrega (também conhecidas como NDRs ou mensagens de devolução) para os remetentes de mensagens originais.
+- Eles enviam relatórios confusos de não entrega (também conhecidos como NDRs ou mensagens de rejeição) para os envios de mensagens originais.
 
-A **correção de possíveis loops de email** na área **recomendada para você** do [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de segurança & conformidade](https://protection.office.com) avisa quando um loop de email é detectado em sua organização.
+The **Fix possible mail loop** insight in the Recommended for **you** area of the Mail [flow dashboard](mail-flow-insights-v2.md) in the Security & [Compliance Center](https://protection.office.com) notifes you when a mail loop is detected in your organization.
 
-Essa percepção aparece apenas após a condição ser detectada (se você não tiver loops de email, não verá a percepção).
+Esse insight só aparece depois que a condição é detectada (se você não tiver loops de email, você não verá o insight).
 
-![Corrigir recomendações de regras de fluxo de email lentos na área recomendada para você do painel de fluxo de emails](../../media/mfi-fix-possible-mail-loop.png)
+![Fix slow mail flow rules insight in the Recommended for you area of the Mail flow dashboard](../../media/mfi-fix-possible-mail-loop.png)
 
-Quando você clica em **Exibir detalhes** no widget, um submenu aparece com mais informações:
+Quando você clica **em Exibir detalhes** no widget, um flyout é exibido com mais informações:
 
 - **Domínio**
-- **Número de mensagens** : você pode clicar em **Exibir exemplos de mensagens** para ver os resultados do [rastreamento](message-trace-scc.md) de mensagens para um exemplo das mensagens que foram afetadas pelo loop.
-- **Tipo de domínio** "por exemplo, autoritativo ou não autoritativo.
-- **Registro MX** : o host ( **servidor de email** ) e os valores de **prioridade** do registro MX do domínio.
-- **Motivo do loop** e **como corrigir** : identificaremos os cenários de loop de email mais comuns e fornecerão as ações recomendadas para corrigir o loop.
+- **Número de mensagens:** você pode clicar [](message-trace-scc.md) em Exibir **mensagens de** exemplo para ver os resultados do rastreamento de mensagens para uma amostra das mensagens que foram afetadas pelo loop.
+- **Tipo de** domínio " Por exemplo, Autoritativo ou Não Autoritativo.
+- **Registro MX:** o host (**servidor de email**) e valores **de** prioridade do registro MX para o domínio.
+- **Motivo do** loop **e como corrigir:** identificaremos os cenários de loop de email mais comuns e forneceremos ações recomendadas para corrigir o loop.
 
-![Submenu de detalhes que aparece depois de clicar em Exibir detalhes na correção de possíveis loops de emails](../../media/mfi-fix-possible-mail-loop-details.png)
+![Detalhes do flyout que aparece depois de clicar em Exibir detalhes no insight de correção do loop de email possível](../../media/mfi-fix-possible-mail-loop-details.png)
 
 ## <a name="see-also"></a>Confira também
 
-Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).
+Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações sobre o fluxo de emails no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)

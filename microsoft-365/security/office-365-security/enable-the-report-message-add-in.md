@@ -3,11 +3,10 @@ title: Habilitar o suplemento de Mensagem de Relatório
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: Admin
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,13 +14,15 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Saiba como habilitar o complemento Mensagem de Relatório para o Outlook e o Outlook na Web, para usuários individuais ou toda a organização.
-ms.openlocfilehash: 13721317c33cf207f27cd8b98fb6d32864651847
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+description: Saiba como habilitar o complemento Mensagem de Relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a1f8cffaa6346ec7f426da3c862014ed85a9a367
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864990"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029227"
 ---
 # <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
@@ -39,7 +40,7 @@ Você pode instalar o complemento Mensagem de Relatório ou Phishing de Relatór
 
 O complemento Mensagem de Relatório oferece a opção de relatar mensagens de spam e phishing. Os administradores podem habilitar o complemento Mensagem de Relatório para a organização, e usuários individuais podem instalá-lo por conta própria.
 
-Se você for um usuário individual, poderá habilitar o complemento [Mensagem de Relatório para si mesmo.](#get-the-report-message-add-in-for-yourself)
+Se você for um usuário individual, poderá habilitar o complemento Mensagem [de Relatório para si mesmo.](#get-the-report-message-add-in-for-yourself)
 
 Se você for um administrador global ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá habilitar o complemento Mensagem de Relatório para [sua organização.](#get-and-enable-the-report-message-add-in-for-your-organization) A mensagem de Add-In relatório agora está disponível por meio [da Implantação Centralizada.](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
 
@@ -66,7 +67,7 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
 
 1. Vá para o Microsoft AppSource em e procure o complemento <https://appsource.microsoft.com/marketplace/apps> Mensagem de Relatório. To go directly to the Report Message add-in, go to <https://appsource.microsoft.com/product/office/wa104381180> .
 
-2. Clique **EM OBTER AGORA.**
+2. Clique **em OBTER AGORA.**
 
    ![Mensagem de Relatório - Obter Agora](../../media/ReportMessageGETITNOW.png)
 
@@ -82,32 +83,34 @@ Depois que o complemento for instalado e habilitado, você verá os seguintes í
 
 - No Outlook na Web, o ícone tem esta aparência:
 
-  ![Ícone do complemento Mensagem de Relatório do Outlook na Web](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
+  ![Ícone de add-in Mensagem de Relatório do Outlook na Web](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
 
-Para saber como usar o complemento, confira [Usar o complemento Mensagem de Relatório.](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+Para saber como usar o complemento, confira Usar o [complemento Mensagem de Relatório.](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
 ## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>Obter e habilitar o complemento Mensagem de Relatório para sua organização
 
 > [!NOTE]
 > Pode levar até 12 horas para que o complemento apareça em sua organização.
 
-1. No centro de administração do Microsoft 365, vá para **Configurações, aplicativos integrados &** página de & Em seguida, clique em Implantar <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> Um **Complemento.**
+1. No Centro de administração do Microsoft 365, vá para a página Configurações de  \> **Add-ins** em , Se você não vir a Página de Complementos, vá para o link Configurações Integradas de <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>  Aplicativos, na parte superior da página **Aplicativos integrados.** \>  \>  
+
+2. Selecione **Implantar o add-in** na parte superior da página e, em seguida, **selecione Próximo**.
 
    ![Página de serviços e complementos no centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.
+3. In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.
 
-3. Na próxima página, clique **em Escolher na Loja.**
+4. Na próxima página, clique **em Escolher na Loja.**
 
    ![Implantar uma nova página de complemento](../../media/NewAddInScreen2.png)
 
-4. Na página Selecionar **add-in** exibida,  clique na caixa Pesquisar, insira  **Mensagem** de Relatório e clique no ícone ![ ](../../media/search-icon.png) Pesquisar. Na lista de resultados, encontre a **Mensagem de Relatório** e clique em **Adicionar.**
+5. Na página Selecionar **add-in** exibida,  clique na caixa Pesquisar, insira  **Mensagem** de Relatório e clique no ícone ![ ](../../media/search-icon.png) Pesquisar. Na lista de resultados, encontre a **Mensagem de Relatório** e clique em **Adicionar.**
 
    ![Selecionar resultados de pesquisa de add-in](../../media/NewAddInScreen3.png)
 
-5. Na caixa de diálogo exibida, revise as informações de licenciamento e privacidade e clique em **Continuar.**
+6. Na caixa de diálogo exibida, revise as informações de licenciamento e privacidade e clique em **Continuar.**
 
-6. Na página **Configurar o complemento** exibida, de configure as seguintes configurações:
+7. Na página **Configurar o complemento** exibida, de configure as seguintes configurações:
 
    - **Usuários atribuídos:** selecione um dos seguintes valores:
 
@@ -125,11 +128,11 @@ Para saber como usar o complemento, confira [Usar o complemento Mensagem de Rela
 
    Quando terminar, clique em **Implantar.**
 
-7. Na página **Implantar Mensagem de** Relatório exibida, você verá um relatório de progresso seguido de uma confirmação de que o complemento foi implantado. Depois de ler as informações, clique em **Próximo.**
+8. Na página **Implantar Mensagem de** Relatório exibida, você verá um relatório de progresso seguido de uma confirmação de que o complemento foi implantado. Depois de ler as informações, clique em **Próximo.**
 
    ![Página Implantar Mensagem de Relatório](../../media/deploy-report-message-page.png)
 
-8. Na página **Anunciar o complemento** que aparece, revise as informações e clique em **Fechar.**
+9. Na página **Anunciar o complemento** que aparece, revise as informações e clique em **Fechar.**
 
    ![Anunciar página de add-in](../../media/announce-add-in-page.png)
 
@@ -145,11 +148,11 @@ As pessoas que têm o complemento atribuído a elas verão os seguintes ícones:
 
   ![Ícone de Aplicativo de Mensagem de Relatório do Outlook na Web](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
 
-Quando você notificar os usuários sobre o complemento Mensagem de Relatório, inclua um link para Usar o complemento [Mensagem de Relatório.](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+Quando você notificar os usuários sobre o complemento Mensagem de Relatório, inclua um link para [Usar o complemento Mensagem de Relatório.](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Revisar ou editar configurações para o complemento Mensagem de Relatório
 
-1. No centro de administração do Microsoft 365, vá para a página de & de **serviços** em <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
+1. No Centro de administração do Microsoft 365, vá para a página Configurações de  \> **Add-ins** em , Se você não vir a Página de Complementos, vá para o link Configurações Integradas de <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>  Aplicativos, na parte superior da página **Aplicativos integrados.** \>  \>  
 
    ![Página Serviços e Add-Ins no novo Centro de Administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 

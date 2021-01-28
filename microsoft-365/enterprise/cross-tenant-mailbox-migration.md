@@ -14,18 +14,18 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: aecb1230ac9a9b2868c519c9b8920e312ff5a282
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.openlocfilehash: 4296879b36e26f11f945105ccebea351ad88314d
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794039"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029521"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migração de caixa de correio entre locatários (visualização)
 
 Anteriormente, quando um locatário do Exchange Online precisava mover caixas de correio para outro locatário no mesmo serviço do Exchange Online, ele teria que removê-las completamente para o local e, em seguida, abordá-las para um novo locatário. Com o novo recurso de migração de caixa de correio entre locatários, os administradores de locatários nos locatários de origem e de destino podem mover caixas de correio entre os locatários com dependências mínimas de infraestrutura em seus sistemas locais. Isso elimina a necessidade de remoção e integração de caixas de correio.
 
-Normalmente, durante fusões ou desa instituções, você precisa da capacidade de mover usuários e conteúdo para um novo locatário. Quando o administrador do locatário de destino executa a movimentação, ela é chamada de movimentação pull, semelhante às migrações de integração na nuvem no local.
+Normalmente, durante fusões ou desa instituções, você precisa da capacidade de mover usuários e conteúdo para um novo locatário. Quando o administrador do locatário de destino executa a movimentação, ela é chamada de movimentação Pull, semelhante às migrações de integração na nuvem no local.
 
 As movimentações de caixa de correio entre locatários do Exchange são totalmente autoatendida por administradores de locatários, usando interfaces conhecidas que podem ser scripts em fluxos de trabalho maiores necessários para fazer a transição de usuários para a nova organização. Os administradores podem usar o cmdlet, disponível por meio da função de gerenciamento Mover Caixas de Correio, para executar movimentações `New-MigrationBatch` entre locatários. O processo de movimentação inclui verificações de autorização de locatário durante a sincronização e finalização da caixa de correio. 
  
@@ -39,7 +39,7 @@ Este artigo descreve o processo de movimentações de caixa de correio entre loc
 
 ## <a name="preparing-source-and-target-tenants"></a>Preparando locatários de origem e destino
 
-O recurso de migração de caixa de correio do Exchange entre locatários requer autorização e o exame para migrações entre locatários. Usando o aplicativo Azure Enterprise e as soluções de armazenamento do Key Vault, os administradores de locatários agora estão capacitados a gerenciar a autorização e o exame das migrações de caixa de correio do Exchange Online de um locatário para outro. As movimentações de caixa de correio entre locatários suportam um modelo de convite e consentimento para estabelecer um aplicativo do Azure Active Directory (Azure AD) usado para autenticação entre um par de locatários. Componentes adicionais, como um relacionamento de organização e um ponto de extremidade de migração, também são necessários.
+O recurso de migração de caixa de correio do Exchange entre locatários exige autorização e o exame para migrações entre locatários. Usando o aplicativo Azure Enterprise e as soluções de armazenamento do Key Vault, os administradores de locatários agora têm permissão para gerenciar a autorização e o controle de migrações de caixa de correio do Exchange Online de um locatário para outro. As movimentações de caixa de correio entre locatários suportam um modelo de convite e consentimento para estabelecer um aplicativo do Azure Active Directory (Azure AD) usado para autenticação entre um par de locatários. Componentes adicionais, como um relacionamento de organização e um ponto de extremidade de migração, também são necessários.
 
 Esta seção não inclui as etapas específicas necessárias para preparar os objetos de usuário MailUser no diretório de destino, nem inclui o comando de exemplo para enviar um lote de migração. Consulte Preparar [objetos de usuário de destino para migração](#prepare-target-user-objects-for-migration) para essas informações.
 
@@ -47,7 +47,7 @@ Esta seção não inclui as etapas específicas necessárias para preparar os ob
 
 O recurso de movimentação de caixa de correio entre locatários exige que o [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts) estabeleça um aplicativo do Azure específico de par de locatários para armazenar e acessar com segurança o certificado/segredo usado para autenticar e autorizar a migração de caixa de correio de um locatário para o outro, removendo quaisquer requisitos para compartilhar certificados/segredos entre locatários. 
 
-Antes de começar, certifique-se de ter as permissões necessárias para executar os scripts de implantação para configurar o Azure Key Vault, o aplicativo Mover Caixa de Correio, o Ponto de Extremidade de Migração EXO e o Relacionamento de Organização EXO. Normalmente, o Administrador Global tem permissão para executar todas as etapas de configuração.
+Antes de começar, certifique-se de ter as permissões necessárias para executar os scripts de implantação a fim de configurar o Azure Key Vault, o aplicativo Mover Caixa de Correio, o Ponto de Extremidade de Migração EXO e o Relacionamento de Organização EXO. Normalmente, o Administrador Global tem permissão para executar todas as etapas de configuração.
 
 Além disso, os grupos de segurança habilitados para email no locatário de origem são necessários antes da execução da instalação. Esses grupos são usados para escopo da lista de caixas de correio que podem mudar do locatário de origem (ou às vezes chamado de recurso) para o locatário de destino. Isso permite que o administrador do locatário de origem restrinja ou denove o conjunto específico de caixas de correio que precisam ser movidas, impedindo que usuários não intencionais sejam migrados. Não há suporte para grupos aninhados.
 
@@ -176,7 +176,7 @@ A configuração do administrador de destino agora está concluída!
 
 3. No Centro de administração do Microsoft 365 ou em uma sessão do PowerShell Remoto, crie um ou mais grupos de segurança habilitados para email para controlar a lista de caixas de correio permitidas pelo locatário de destino para puxar (mover) do locatário de origem para o locatário de destino. Você não precisa preencher esse grupo com antecedência, mas pelo menos um grupo deve ser fornecido para executar as etapas de configuração (script). Não há suporte para grupos de aninhar. 
 
-4. Baixe o SetupCrossTenantRelationshipForTargetResource.ps1 script para a configuração do locatário de origem no repositório do GitHub aqui: [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) . 
+4. Baixe o SetupCrossTenantRelationshipForResourceTenant.ps1 script para a configuração do locatário de origem no repositório do GitHub aqui: [https://github.com/microsoft/cross-tenant/releases/tag/Preview](https://github.com/microsoft/cross-tenant/releases/tag/Preview) . 
 
 5. Crie uma conexão do PowerShell Remoto com o locatário de origem com suas permissões de Administrador do Exchange. As permissões de Administrador Global não são necessárias para configurar o locatário de origem, somente o locatário de destino devido ao processo de criação de aplicativos do Azure.
 
@@ -229,7 +229,7 @@ MailboxMoveCapability : Inbound
 
 **Ponto de extremidade de migração**
 
-Verifique se o objeto de ponto de extremidade de migração foi criado e configurado com esse comando.
+Verifique se o objeto do ponto de extremidade de migração foi criado e configurado com esse comando.
 
 ```powershell
 Get-MigrationEndpoint "<fabrikam_contoso_1123> | fl Identity, RemoteTenant, ApplicationId, AppSecretKeyVaultUrl
@@ -271,9 +271,9 @@ MailboxMovePublishedScopes : {MigScope}
 OAuthApplicationId         : sd9890342-3243-3242-fe3w2-fsdade93m0
 ```
 
-### <a name="move-mailboxes-back-to-the-original-source"></a>Mover caixas de correio de volta para a fonte original
+### <a name="move-mailboxes-back-to-the-original-source"></a>Mover caixas de correio de volta para a origem original
 
-Se uma caixa de correio voltar para o locatário de origem original for necessária, o mesmo conjunto de etapas e scripts precisará ser executado em locatários novos e de origem. O objeto De relacionamento de organização existente será atualizado ou anexado, não recriado.
+Se uma caixa de correio voltar para o locatário de origem original for necessária, o mesmo conjunto de etapas e scripts precisará ser executado nos novos locatários de origem e de destino. O objeto De relacionamento de organização existente será atualizado ou anexado, não recriado.
 
 ## <a name="prepare-target-user-objects-for-migration"></a>Preparar objetos de usuário de destino para migração
 
@@ -334,7 +334,7 @@ Você deve garantir que os seguintes objetos e atributos sejam definidos na orga
    - msExchSafeRecipientsHash – Grava novamente dados de remetentes seguros e bloqueados online de clientes para o Active Directory local.
    - msExchSafeSendersHash – Grava novamente dados de remetentes seguros e bloqueados online de clientes para o Active Directory local.
 
-2. Se a caixa de correio de origem estiver em LitigationHold e o tamanho dos Itens Recuperáveis da caixa de correio de origem for maior que o padrão do banco de dados (30 GB), as movimentações não prosseguirão, pois a cota de destino é menor do que o tamanho da caixa de correio de origem. Você pode atualizar o objeto MailUser de destino para fazer a transição dos sinalizadores de caixa de correio ELC do ambiente de origem para o destino, o que dispara o sistema de destino para expandir a cota do MailUser para 100 GB, permitindo assim a movimentação para o destino. Essas instruções funcionarão apenas para a identidade híbrida executando o Azure AD Connect, pois os comandos para carimbar os sinalizadores ELC não são expostos aos administradores de locatários.
+2. Se a caixa de correio de origem estiver em LitigationHold e o tamanho dos Itens Recuperáveis da caixa de correio de origem for maior que o padrão do banco de dados (30 GB), as movimentações não continuarão, pois a cota de destino é menor que o tamanho da caixa de correio de origem. Você pode atualizar o objeto MailUser de destino para fazer a transição dos sinalizadores de caixa de correio ELC do ambiente de origem para o destino, o que dispara o sistema de destino para expandir a cota do MailUser para 100 GB, permitindo assim a movimentação para o destino. Essas instruções funcionarão apenas para a identidade híbrida executando o Azure AD Connect, pois os comandos para carimbar os sinalizadores ELC não são expostos aos administradores de locatários.
 
     >[!Note]
     > EXEMPLO – COMO ESTÁ, SEM GARANTIA<br/>Esse script pressupõe uma conexão com a caixa de correio de origem (para obter valores de origem) e o Active Directory local de destino (para carimbar o objeto ADUser). Se a fonte tiver litígio ou recuperação de item único habilitado, de definida na conta de destino.  Isso aumentará o tamanho do dumpster da conta de destino para 100 GB.
@@ -344,12 +344,12 @@ Você deve garantir que os seguintes objetos e atributos sejam definidos na orga
     if ($source.LitigationHoldEnabled) {$ELCValue = $ELCValue + 8} if ($source.SingleItemRecoveryEnabled) {$ELCValue = $ELCValue + 16} if ($ELCValue -gt 0) {Set-ADUser -Server $domainController -Identity $destination.SamAccountName -Replace @{msExchELCMailboxFlags=$ELCValue}} 
     ```
 
-3. Os locatários de destino não híbridos podem modificar a cota na pasta Itens Recuperáveis para MailUsers antes da migração executando o seguinte comando para habilitar a Responsabilidade de Litígio no objeto MailUser e aumentando a cota para 100 GB: `Set-MailUser -EnableLitigationHoldForMigration $TRUE` . Observe que isso não funcionará para locatários híbridos.
+3. Os locatários de destino não híbridos podem modificar a cota na pasta Itens Recuperáveis para mailUsers antes da migração executando o seguinte comando para habilitar a responsabilidade de litígio no objeto MailUser e aumentando a cota para 100 GB: `Set-MailUser -EnableLitigationHoldForMigration $TRUE` . Observe que isso não funcionará para locatários híbridos.
 
 4. Os usuários na organização de destino devem ser licenciados com as assinaturas apropriadas do Exchange Online aplicáveis à organização. Você pode aplicar uma licença antes de uma movimentação de caixa de correio, mas apenas uma vez que o MailUser de destino está corretamente definido com o ExchangeGUID e endereços proxy. A aplicação de uma licença antes da aplicação do ExchangeGUID resultará em uma nova caixa de correio provisionada na organização de destino. 
 
     > [!Note]
-    > Quando você aplica uma licença em uma caixa de correio ou objeto MailUser, todos os proxyAddresses do tipo SMTP são limpos para garantir que apenas domínios verificados sejam incluídos na matriz Exchange EmailAddresses. 
+    > Quando você aplica uma licença em um objeto MailUser ou Caixa de Correio, todos os proxyAddresses do tipo SMTP são limpos para garantir que apenas domínios verificados sejam incluídos na matriz Exchange EmailAddresses. 
 
 5. Você deve garantir que o MailUser de destino não tenha ExchangeGuid anterior que não corresponder ao ExchangeGuid de origem. Isso pode ocorrer se o MEU de destino tiver sido licenciado anteriormente para o Exchange Online e provisionado uma caixa de correio. Se o MailUser de destino tiver sido licenciado anteriormente ou tiver um ExchangeGuid que não corresponder ao ExchangeGuid de origem, você precisará executar uma limpeza do MEU de nuvem. Para essas MEUs de nuvem, você pode `Set-User <identity> -PermanentlyClearPreviousMailboxInfo` executar.  
 
@@ -491,7 +491,7 @@ Como apenas um locatário pode ter um domínio, o antigo SMTPAddress principal n
 Para essa implantação inicial, os usuários precisarão recriar seu perfil com seu novo UPN, endereço SMTP principal e ressincronize o conteúdo OST. 
 
 > [!Note]
-> Planeje conforme você faz o lote de seus usuários para conclusão. Você precisa levar em conta a utilização e a capacidade da rede quando os perfis de cliente do Outlook são criados e os arquivos OST e OAB subsequentes são baixados para os clientes. 
+> Planeje conforme você lote seus usuários para conclusão. Você precisa levar em conta a utilização e a capacidade da rede quando os perfis de cliente do Outlook são criados e os arquivos OST e OAB subsequentes são baixados para os clientes. 
  
 **De quais funções do Exchange RBAC preciso ser membro para configurar ou concluir uma movimentação entre locatários?**
  
@@ -522,7 +522,7 @@ User                                             AccessRights                   
 NT AUTHORITY\SELF                                {FullAccess, ReadPermission}                                            False       False
 TestUser_8@SourceCompany.onmicrosoft.com         {FullAccess}                                                            False       False....
 ```
-Aqui está um exemplo da saída da permissão da caixa de correio após a movimentação. 
+Veja um exemplo da saída da permissão da caixa de correio após a movimentação. 
 
 ```powershell
 PS C:\PowerShell\> Get-TargetMailboxPermission testuser_7 | ft -AutoSize User, AccessRights, IsInherited, Deny
@@ -552,7 +552,7 @@ x500:/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn
 
 **O Azure Key Vault é necessário e quando as transações são feitas?**  
 
-Sim, uma assinatura do Azure é necessária para usar o Key Vault para armazenar o certificado para autorizar a migração. Ao contrário das migrações de integração que usam o nome de usuário & senha para se autenticar na origem, as migrações de caixa de correio entre locatários usam o OAuth e esse certificado como o segredo/credencial. O acesso ao Key Vault deve ser mantido em todas as migrações de caixa de correio, pois ele é acessado uma vez no início e depois do fim da migração, bem como uma vez a cada 24 horas durante os tempos de sincronização incrementais. Você pode analisar os detalhes de custo de AKV [aqui.]( https://azure.microsoft.com/en-us/pricing/details/key-vault/)  
+Sim, uma assinatura do Azure é necessária para usar o Key Vault para armazenar o certificado para autorizar a migração. Ao contrário das migrações de integração que usam o nome de usuário & senha para se autenticar na origem, as migrações de caixa de correio entre locatários usam o OAuth e esse certificado como o segredo/credencial. O acesso ao Key Vault deve ser mantido em todas as migrações de caixa de correio, pois ele é acessado uma vez no início e depois do fim da migração, bem como uma vez a cada 24 horas durante os tempos de sincronização incrementais. Você pode revisar os detalhes de custo de AKV [aqui.]( https://azure.microsoft.com/en-us/pricing/details/key-vault/)  
 
 **Você tem alguma recomendação para lotes?**  
 
@@ -564,7 +564,7 @@ A caixa de correio será descriptografada antes da movimentação. Verifique se 
 
 **Qual é o tempo estimado de migração?**
 
-Para ajudá-lo a planejar [](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) sua migração, a tabela apresentada aqui mostra as diretrizes sobre quando esperar a conclusão de migrações de caixa de correio em massa ou migrações individuais. Essas estimativas são baseadas em uma análise de dados de migrações anteriores do cliente. Como cada ambiente é exclusivo, sua velocidade de migração exata pode variar.  
+Para ajudá-lo a planejar [](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) a migração, a tabela apresentada aqui mostra as diretrizes sobre quando esperar a conclusão de migrações de caixa de correio em massa ou migrações individuais. Essas estimativas são baseadas em uma análise de dados de migrações anteriores do cliente. Como cada ambiente é exclusivo, sua velocidade de migração exata pode variar.  
 
 Lembre-se de que esse recurso está atualmente em visualização, e o SLA e quaisquer Níveis de Serviço aplicáveis não se aplicam a nenhum problema de desempenho ou disponibilidade durante o status de visualização desse recurso.
 
@@ -587,7 +587,7 @@ Lembre-se de que esse recurso está atualmente em visualização, e o SLA e quai
 
 - **Problema: os objetos MailUser com endereços SMTP primários "externos" são modificados/redefinidos para domínios "internos" reivindicados pela empresa**
 
-   Objetos MailUser são ponteiros para caixas de correio não locais. No caso de migrações de caixa de correio entre locatários, usamos objetos MailUser para representar a caixa de correio de origem (da perspectiva da organização de destino) ou a caixa de correio de destino (da perspectiva da organização de origem). MailUsers terá um ExternalEmailAddress (targetAddress) que aponta para o endereço smtp da caixa de correio real (ProxyTest@fabrikam.onmicrosoft.com) e o endereço primarySMTP que representa o endereço SMTP exibido do usuário de caixa de correio no diretório. Algumas organizações optam por exibir o endereço SMTP principal como um endereço SMTP externo, não como um endereço de propriedade/verificado pelo locatário local (como fabrikam.com em vez de contoso.com).  No entanto, depois que um objeto de plano de serviço do Exchange é aplicado ao MailUser por meio de operações de licenciamento, o endereço SMTP principal é modificado para mostrar como um domínio verificado pela organização local (contoso.com). Há dois motivos possíveis:
+   Objetos MailUser são ponteiros para caixas de correio não locais. No caso de migrações de caixa de correio entre locatários, usamos objetos MailUser para representar a caixa de correio de origem (da perspectiva da organização de destino) ou a caixa de correio de destino (da perspectiva da organização de origem). MailUsers terá um ExternalEmailAddress (targetAddress) que aponta para o endereço smtp da caixa de correio real (ProxyTest@fabrikam.onmicrosoft.com) e o endereço primarySMTP que representa o endereço SMTP exibido do usuário de caixa de correio no diretório. Algumas organizações optam por exibir o endereço SMTP principal como um endereço SMTP externo, não como um endereço de propriedade/verificado pelo locatário local (como fabrikam.com em vez de contoso.com).  No entanto, depois que um objeto de plano de serviço do Exchange é aplicado ao MailUser por meio de operações de licenciamento, o endereço SMTP principal é modificado para aparecer como um domínio verificado pela organização local (contoso.com). Há dois motivos possíveis:
    
    - Quando qualquer plano de serviço do Exchange é aplicado a um MailUser, o processo do Azure AD começa a impor a depuração de proxy para garantir que a organização local não consiga enviar emails, spoof ou emails de outro locatário. Qualquer endereço SMTP em um objeto de destinatário com esses planos de serviço será removido se o endereço não for verificado pela organização local. Como é o caso no exemplo, o domínio Fabikam.com não é verificado pelo locatário do contoso.onmicrosoft.com, portanto, a depuração remove esse fabrikam.com domínio. Se você quiser manter esses domínios externos em MailUser, antes da migração ou após a migração, será necessário alterar seus processos de migração para retirar licenças após a conclusão da movimentação ou antes da movimentação para garantir que os usuários tenham a identidade visual externa esperada aplicada. Você precisará garantir que o objeto de caixa de correio está licenciado corretamente para não afetar o serviço de email.<br/><br/>Um script de exemplo para remover os planos de serviço em um MailUser no Contoso.onmicrosoft.com locatário é mostrado aqui.
 

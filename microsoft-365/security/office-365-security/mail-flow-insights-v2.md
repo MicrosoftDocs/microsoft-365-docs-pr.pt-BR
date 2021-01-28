@@ -1,44 +1,45 @@
 ---
-title: Insights de fluxo de email no painel de fluxo de emails
+title: Percepções de fluxo de emails no painel Fluxo de emails
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
-description: Os administradores podem saber mais sobre as ideias e os relatórios disponíveis no painel de fluxo de emails no centro de conformidade do & de segurança.
+description: Os administradores podem saber mais sobre as informações e relatórios disponíveis no painel Fluxo de emails no Centro de Conformidade & e Segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7781dca48e1eae4716dbe6c7c3b40da4bae0cd8
-ms.sourcegitcommit: d7975c391e03eeb96e29c1d02e77d2a1433ea67c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: ef9498d19e79cf670fbae52171b78b0c44c45910
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920003"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029357"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-Os administradores podem usar o painel de fluxo de emails no centro de conformidade de & de segurança para descobrir tendências, insights e realizar ações para corrigir problemas relacionados ao fluxo de emails em sua organização.
+Os administrador & es podem usar o painel fluxo de emails no Centro de Conformidade e Segurança para descobrir tendências, insights e tomar ações para corrigir problemas relacionados ao fluxo de emails em sua organização.
 
-![O painel de fluxo de emails no centro de conformidade & segurança](../../media/mail-flow-dashboard-v2.png)
+![O painel De fluxo de emails no Centro de Conformidade & segurança](../../media/mail-flow-dashboard-v2.png)
 
 As informações disponíveis são:
 
 - [Visão geral sobre mensagens encaminhadas automaticamente](mfi-auto-forwarded-messages-report.md)
 
-- [Corrigir possíveis informações de loop de email](mfi-mail-loop-insight.md)<sup>1</sup>
+- [Correção do insight de loop de email](mfi-mail-loop-insight.md)possível<sup>1</sup>
 
-- [Corrigir as regras de fluxo de email lentos informações](mfi-slow-mail-flow-rules-insight.md)<sup>1</sup>
+- [Visão 1 de correção de](mfi-slow-mail-flow-rules-insight.md)regras de fluxo de emails<sup>lentos</sup>
 
 - [Mapa de fluxo de email](mfi-mail-flow-map-report.md)
 
-- [Novos domínios sendo encaminhados informações sobre email](mfi-new-domains-being-forwarded-email.md)<sup>2</sup>
+- [Visão 2 dos novos domínios que estão sendo encaminhados](mfi-new-domains-being-forwarded-email.md)<sup></sup>
 
 - [Novos usuários encaminhando informações de email](mfi-new-users-forwarding-email.md)<sup>2</sup>
 
@@ -48,33 +49,33 @@ As informações disponíveis são:
 
 - [Visão geral sobre fluxo de entrada e saída de emails](mfi-outbound-and-inbound-mail-flow.md)
 
-- [Visão geral sobre filas](mfi-queue-alerts-and-queues.md)
+- [Informações sobre filas](mfi-queue-alerts-and-queues.md)
 
 - [Visão geral e relatório de clientes de autenticação SMTP](mfi-smtp-auth-clients-report.md)
 
 - [Insight sobre o status do fluxo de mensagens dos principais domínios](mfi-domain-mail-flow-status-insight.md)
 
-<sup>1</sup> essa percepção aparecerá na área **recomendada para você** no painel de fluxo de emails somente depois que o problema for detectado. Caso contrário, você não o verá.
+<sup>1</sup> Esse insight aparece na área **Recomendado para você** do painel de fluxo de emails somente depois que o problema é detectado. Caso contrário, você não o verá.
 
-<sup>2</sup> essa percepção não aparece no painel de fluxo de emails, mas fica visível na página de [relatório de encaminhamento](view-mail-flow-reports.md#forwarding-report) depois que o problema é detectado. Caso contrário, você não o verá.
+<sup>2</sup> Esse insight não aparece no painel de fluxo [](view-mail-flow-reports.md#forwarding-report) de emails, mas fica visível na página relatório de encaminhamento depois que o problema é detectado. Caso contrário, você não o verá.
 
 ## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Permissões necessárias para exibir o painel de fluxo de emails
 
-O painel de fluxo de emails está disponível para os membros dos seguintes grupos de função:
+O painel Fluxo de emails está disponível para membros dos seguintes grupos de função:
 
-- **Gerenciamento de organização** no centro de conformidade e segurança & (administradores globais).
+- **Gerenciamento da** organização no Centro de Conformidade & Segurança (administradores globais).
 
 - **[Administrador do Exchange](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#exchange-administrator)** no Azure Active Directory.
 
-- **Fluxo administrador** no centro de conformidade & segurança. Se a conta também não for membro dos grupos de função de gerenciamento da organização ou de administrador do Exchange, considere os seguintes problemas:
-  - O usuário deve entrar no centro de conformidade & segurança diretamente em <https://protection.office.com> .
+- **Administrador do Fluxo de** Mensagens no Centro de Conformidade & Segurança. Se a conta não for membro dos grupos de função Gerenciamento da Organização ou Administrador do Exchange, considere os seguintes problemas:
+  - O usuário deve entrar no Centro de Conformidade e Segurança & diretamente em <https://protection.office.com> .
   - O usuário só terá permissão somente leitura para o painel de fluxo de emails.
   - O usuário não terá acesso ao centro de administração do Microsoft 365.
 
-Para obter mais informações sobre permissões, consulte [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md) e [conceder aos usuários acesso ao centro de conformidade de & de segurança](grant-access-to-the-security-and-compliance-center.md).
+Para obter mais informações sobre permissões, consulte Permissões no Centro de Conformidade e Segurança [&](permissions-in-the-security-and-compliance-center.md) e dê aos usuários acesso ao Centro de Conformidade & [segurança.](grant-access-to-the-security-and-compliance-center.md)
 
-## <a name="where-to-find-the-mail-flow-dashboard"></a>Onde encontrar o painel de fluxo de emails
+## <a name="where-to-find-the-mail-flow-dashboard"></a>Onde encontrar o painel fluxo de emails
 
-Abra o centro de conformidade do & de segurança em <https://protection.office.com> , expanda **fluxo de email** e selecione **painel**.
+Abra o Centro de Conformidade & segurança em <https://protection.office.com> , **expanda o fluxo** de emails e selecione **Painel**.
 
 Para ir diretamente para o painel de fluxo de emails, abra <https://protection.office.com/mailflow/dashboard> .

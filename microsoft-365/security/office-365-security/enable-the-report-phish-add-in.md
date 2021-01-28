@@ -3,7 +3,7 @@ title: Habilitar o relatório de phishing add-in
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: Admin
 ms.topic: how-to
@@ -16,20 +16,20 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o complemento Phishing de Relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: 2ea6a9bf9b00fc844aede6daeb9fc11f23c81e4a
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.openlocfilehash: 6d86fdc710539bc3c74eb94f8931ca48a0c992c1
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865255"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029133"
 ---
-# <a name="enable-the-report-phishing-add-in"></a>Habilitar o complemento Phishing de Relatório
+# <a name="enable-the-report-phishing-add-in"></a>Habilite o suplemento Relatório de Phishing
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
 > [!NOTE]
-> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos usar o portal Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador [para enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
+> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos usar o portal Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador para [enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
 
 Os complementos De Relatório de Mensagem e Phishing para Outlook e Outlook na Web (anteriormente conhecido como Outlook Web App) permitem que as pessoas reportem facilmente falsos positivos (emails válidos marcados como ruins) ou falsos negativos (emails ruins permitidos) para a Microsoft e suas afiliadas para análise.
 
@@ -37,7 +37,7 @@ A Microsoft usa esses envios para melhorar a eficácia das tecnologias de prote�
 
 Você pode instalar o complemento Mensagem de Relatório ou Phishing de Relatório. Se você quiser que os usuários reportem mensagens de spam e phishing, implante o complemento Mensagem de Relatório em sua organização. Para obter mais informações, [consulte Habilitar o complemento Mensagem de Relatório.](enable-the-report-message-add-in.md)
 
-O add-in de Phishing de Relatório oferece a opção de relatar apenas mensagens de phishing. Os administradores podem habilitar o complemento Phishing de Relatório para a organização, e usuários individuais podem instalá-lo por conta própria.
+O complemento De Relatório de Phishing oferece a opção de relatar apenas mensagens de phishing. Os administradores podem habilitar o complemento Phishing de Relatório para a organização, e usuários individuais podem instalá-lo por conta própria.
 
 Se você for um usuário individual, poderá habilitar o complemento [Phishing de Relatório para si mesmo.](#get-the-report-phishing-add-in-for-yourself)
 
@@ -87,21 +87,23 @@ Depois que o complemento for instalado e habilitado, você verá os seguintes í
 > [!NOTE]
 > Pode levar até 12 horas para que o complemento apareça em sua organização.
 
-1. No centro de administração do Microsoft 365, vá para **Configurações, aplicativos integrados &** página de & Em seguida, clique em Implantar <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns> Um **Complemento.**
+1. No Centro de administração do Microsoft 365, vá para a página Configurações de  \> **Add-ins** em , Se você não vir a Página de Complementos, vá para o link Configurações Integradas de <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>  Aplicativos, na parte superior da página **Aplicativos integrados.** \>  \>  
+
+2. Selecione **Implantar o add-in** na parte superior da página e, em seguida, **selecione Próximo**.
 
    ![Página de serviços e complementos no centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.
+3. In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.
 
-3. Na próxima página, clique **em Escolher na Loja.**
+4. Na próxima página, clique **em Escolher na Loja.**
 
    ![Implantar uma nova página de complemento](../../media/NewAddInScreen2.png)
 
-4. Na página Selecionar **add-in** exibida,  clique na caixa Pesquisar, insira  **Phishing** de Relatório e clique no ícone ![ ](../../media/search-icon.png) Pesquisar. Na lista de resultados, encontre **Phishing de Relatório** e clique em **Adicionar.**
+5. Na página Selecionar **add-in** exibida,  clique na caixa Pesquisar, insira  **Phishing** de Relatório e clique no ícone ![ ](../../media/search-icon.png) Pesquisar. Na lista de resultados, encontre **Phishing de Relatório** e clique em **Adicionar.**
 
-5. Na caixa de diálogo exibida, revise as informações de licenciamento e privacidade e clique em **Continuar.**
+6. Na caixa de diálogo exibida, revise as informações de licenciamento e privacidade e clique em **Continuar.**
 
-6. Na página **Configurar o complemento** exibida, de configure as seguintes configurações:
+7. Na página **Configurar o complemento** exibida, de configure as seguintes configurações:
 
    - **Usuários atribuídos:** selecione um dos seguintes valores:
 
@@ -117,11 +119,11 @@ Depois que o complemento for instalado e habilitado, você verá os seguintes í
 
    Quando terminar, clique em **Implantar.**
 
-7. Na página **Implantar Phishing** de Relatório exibida, você verá um relatório de progresso seguido de uma confirmação de que o complemento foi implantado. Depois de ler as informações, clique em **Próximo.**
+8. Na página **Implantar Phishing** de Relatório exibida, você verá um relatório de progresso seguido de uma confirmação de que o complemento foi implantado. Depois de ler as informações, clique em **Próximo.**
 
-8. Na página **Anunciar o complemento** que aparece, revise as informações e clique em **Fechar.**
+9. Na página **Anunciar o complemento** que aparece, revise as informações e clique em **Fechar.**
 
-## <a name="learn-how-to-use-the-report-phishing-add-in"></a>Saiba como usar o complemento De phishing de relatório
+## <a name="learn-how-to-use-the-report-phishing-add-in"></a>Saiba como usar o complemento Phishing de Relatório
 
 As pessoas que têm o complemento atribuído a elas verão os seguintes ícones:
 
@@ -135,7 +137,7 @@ As pessoas que têm o complemento atribuído a elas verão os seguintes ícones:
 
 ## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>Revisar ou editar configurações para o add-in de Phishing de Relatório
 
-1. No centro de administração do Microsoft 365, vá para a página de & de **serviços** em <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns> .
+1. No Centro de administração do Microsoft 365, vá para a página Configurações de  \> **Add-ins** em , Se você não vir a Página de Complementos, vá para o link Configurações Integradas de <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>  Aplicativos, na parte superior da página **Aplicativos integrados.** \>  \>  
 
 2. Encontre e selecione o **add-in De Phishing** de Relatório.
 

@@ -3,12 +3,11 @@ title: Enviar mensagens manualmente à Microsoft para análise
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,12 +16,14 @@ ms.collection:
 - M365-security-compliance
 description: Administradores e usuários finais podem aprender a enviar mensagens de email (emails bons marcados como emails ruins ou ruins permitidos) para análise da Microsoft.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 94747b1d0a1aef746a63abada977aa47270ae4e2
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: d5d3b7a51c39b85af8a6fae84f525da6d806789c
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865075"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029579"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Enviar mensagens manualmente à Microsoft para análise
 

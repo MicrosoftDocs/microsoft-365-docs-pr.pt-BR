@@ -1,5 +1,5 @@
 ---
-title: Baixar chaves de licença de produto e software permanentes
+title: Baixar chaves de licença de produto e software permanentes compradas por meio do programa CSP (Provedor de Soluções na Nuvem)
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - AdminSurgePortfolio
 description: Saiba como baixar as chaves de licença de produto e software para software permanente comprado por meio do programa CSP (Provedor de Soluções na Nuvem).
-ms.openlocfilehash: bd9584e6a160f713cdfbfbcdac876b2e18b94110
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 9e55161111ae1796e8254a60ecdc693592988386
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877219"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029393"
 ---
 # <a name="download-perpetual-software-and-product-license-keys"></a>Baixar chaves de licença de produto e software permanentes
 

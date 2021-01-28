@@ -14,12 +14,12 @@ ms.collection:
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
 description: Saiba como encontrar recursos para experiências de tópico.
-ms.openlocfilehash: a9069b8723cb23a406fcce3b96a53b3de2a07568
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: afba6930c30ad59dc95abb255eadab501b01f189
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976174"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029603"
 ---
 # <a name="introduction-to-topic-experiences-preview"></a>Introdução às Experiências de Tópico (Visualização)
 
@@ -43,8 +43,8 @@ Os recursos desta seção ajudam você a saber mais sobre o que são experiênci
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
-|Saiba mais sobre compreensão de documentos|[Visão geral das experiências de tópico](topic-experiences-overview.md)|
-|Saiba como os tópicos são descobertos e criados pela IA|[Descoberta de experiências de tópico](topic-experiences-discovery.md)|
+|Saiba mais sobre experiências de tópico|[Visão geral das experiências de tópico](topic-experiences-overview.md)|
+|Saiba como os tópicos são descobertos e sugeridos pela IA|[Descoberta de experiências de tópico](topic-experiences-discovery.md)|
 |Saiba mais sobre segurança de tópicos|[Tópico Experiências de segurança e privacidade](topic-experiences-security-privacy.md)|
 
 

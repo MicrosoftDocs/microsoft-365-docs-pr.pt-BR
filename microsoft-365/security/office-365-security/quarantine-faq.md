@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: troubleshooting
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,12 +17,14 @@ ms.collection:
 - m365initiative-defender-office365
 description: Os administradores podem exibir perguntas frequentes e respostas sobre mensagens em quarentena no Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 58ddb5847706aef3d2c3b8ea8cd9a96fd65a9b3d
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: abd2304e83d2814cab55d13312535bd94308d8be
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794407"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032596"
 ---
 # <a name="quarantined-messages-faq"></a>Perguntas frequentes sobre mensagens em quarentena
 
@@ -52,7 +53,7 @@ Um usuário deve ter uma conta válida para acessar suas próprias mensagens em 
 
 ## <a name="what-messages-can-end-users-access-in-quarantine"></a>Quais mensagens os usuários finais podem acessar em quarentena?
 
-Os usuários podem acessar spam, email em massa e (a partir de abril de 2020) mensagens de phishing em que são destinatários. Os usuários finais não podem acessar malware em quarentena, phishing de  alta confiança ou mensagens que foram colocadas em quarentena devido à ação Entregar a mensagem para a quarentena hospedada em regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações sobre os usuários que acessam mensagens em quarentena, consulte Encontrar e liberar mensagens em quarentena [como um usuário.](find-and-release-quarantined-messages-as-a-user.md)
+Os usuários podem acessar spam, email em massa e (a partir de abril de 2020) mensagens de phishing em que são destinatários. Os usuários finais não podem acessar malware em quarentena, phishing de  alta confiança ou mensagens que foram colocadas em quarentena devido à ação Entregar a mensagem para a quarentena hospedada em regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações sobre os usuários que acessam mensagens em quarentena, consulte Encontrar e liberar mensagens [em quarentena como um usuário.](find-and-release-quarantined-messages-as-a-user.md)
 
 ## <a name="how-long-are-messages-kept-in-the-quarantine"></a>Por quanto tempo as mensagens são mantidas em quarentena?
 
@@ -72,16 +73,39 @@ Os administradores podem usar os cmdlets [Get-QuarantineMessage](https://docs.mi
 
 Caracteres curinga não são suportados no Centro de Conformidade & segurança. Por exemplo, ao pesquisar um remetente, você precisa especificar o endereço de email completo. Porém, você pode usar curingas no PowerShell do Exchange Online ou no EOP PowerShell autônomo.
 
-Por exemplo, execute o seguinte comando para encontrar mensagens em quarentena de spam de todos os remetentes no domínio contoso.com:
+Por exemplo, copie o seguinte código do PowerShell para o Bloco de Notas e salve o arquivo como .ps1 em um local fácil de encontrar (por exemplo, C:\Data\QuarantineRelease.ps1).
+
+Em seguida, depois de se conectar [ao PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online ou ao PowerShell da Proteção do [Exchange Online,](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)execute o seguinte comando para executar o script:
 
 ```powershell
-$CQ = Get-QuarantineMessage -Type Spam | where {$_.SenderAddress -like "*@contoso.com"}
+& C:\Data\QuarantineRelease.ps1
 ```
 
-Em seguida, execute o seguinte comando para liberar essas mensagens para todos os destinatários originais:
+O script faz as seguintes ações:
+
+- Encontre mensagens não enviadas que foram colocadas em quarentena como spam de todos os remetentes no domínio fabrikam. O número máximo de resultados é 50.000 (50 páginas de 1.000 resultados).
+- Salve os resultados em um arquivo CSV.
+- Libere as mensagens em quarentena correspondentes para todos os destinatários originais.
 
 ```powershell
-$CQ | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+$Page = 1
+$List = $null
+
+Do
+{
+Write-Host "Getting Page " $Page
+
+$List = (Get-QuarantineMessage -Type Spam -PageSize 1000 -Page $Page | where {$_.Released -like "False" -and $_.SenderAddress -like "*fabrikam.com"})
+Write-Host "                     " $List.count " rows in this page match"
+Write-Host "                                                             Exporting list to appended CSV for logging"
+$List | Export-Csv -Path "C:\Data\Quarantined Message Matches.csv" -Append -NoTypeInformation
+
+Write-Host "Releasing page " $Page
+$List | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
+
+$Page = $Page + 1
+
+} Until ($Page -eq 50)
 ```
 
 Depois de liberar uma mensagem, você não poderá liberá-la novamente.

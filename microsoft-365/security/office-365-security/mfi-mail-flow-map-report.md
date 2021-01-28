@@ -3,74 +3,75 @@ title: Mapa de fluxo de email
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a usar o mapa de fluxo de emails no painel de fluxo de emails no centro de conformidade de & de segurança para visualizar e controlar como o email flui para e de sua organização sobre os conectores e sem usar conectores.
-ms.openlocfilehash: fc03f05db77c40dbf726692e6fb6069d587a5ffc
-ms.sourcegitcommit: b64f36d3873fa0041b24bec029deb73ccfdfdbac
+description: Os administradores podem aprender a usar o mapa de fluxo de emails no painel Fluxo de emails no Centro de Conformidade e Segurança para visualizar e controlar como os emails fluem de e para sua organização sobre conectores e sem usar conectores. &
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: c07730f3abcec8905285cdfdf1579ffb71573ec1
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48877760"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029913"
 ---
-# <a name="mail-flow-map-in-the-security--compliance-center"></a>Mapa de fluxo de emails no centro de conformidade de & de segurança
+# <a name="mail-flow-map-in-the-security--compliance-center"></a>Mapa de fluxo de emails no Centro de Conformidade & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 
-O **mapa de fluxo de emails** no [painel de fluxo de emails](mail-flow-insights-v2.md) no [centro de conformidade do & de segurança](https://protection.office.com) fornece informações sobre como os emails fluem pela sua organização. Você pode usar essas informações para aprender padrões, identificar anomalias e corrigir problemas conforme eles ocorrem.
+O **mapa de fluxo de** emails no painel [Fluxo](mail-flow-insights-v2.md) de emails no Centro de Conformidade e Segurança & [fornece](https://protection.office.com) informações sobre como os emails fluem pela sua organização. Você pode usar essas informações para aprender padrões, identificar anomalias e corrigir problemas à medida que eles ocorrem.
 
-![Widget mapa de fluxo de emails no painel de fluxo de emails no centro de conformidade de & de segurança](../../media/mfi-mail-flow-map-widget.png)
+![Widget de mapa de fluxo de emails no painel Fluxo de emails no Centro de Conformidade e & Segurança](../../media/mfi-mail-flow-map-widget.png)
 
-Por padrão, o widget mostra o padrão de fluxo de emails do dia anterior em um gráfico conhecido como diagrama *Sankey* . Você pode usar a seta para a esquerda seta para a ![ esquerda e seta para ](../../media/scc-left-arrow.png) a direita ![ ](../../media/scc-right-arrow.png) para mostrar informações de diferentes dias. Cada cor diferente representa o fluxo de mensagens por um conector de entrada ou saída diferente (ou sem usar conectores). Se você passar o mouse sobre uma cor específica, o número de mensagens será exibido para esse tipo de conector.
+Por padrão, o widget mostra o padrão de fluxo de emails do dia anterior em um gráfico conhecido como *diagrama Sankey.* Você pode usar a seta para a esquerda e a seta para a direita para ![ mostrar informações de dias ](../../media/scc-left-arrow.png) ![ ](../../media/scc-right-arrow.png) diferentes. Cada cor diferente representa o fluxo de emails em um conector de entrada ou de saída diferente (ou sem usar conectores). Se você passar o mouse sobre uma cor específica, o número de mensagens será exibido para esse tipo de conector.
 
 ## <a name="report-view-for-the-mail-flow-map"></a>Exibição de relatório para o mapa de fluxo de emails
 
-Clicar no widget **mapa de fluxo de emails** o levará para o relatório de **mapa de fluxo de emails** .
+Clicar no widget mapa de **fluxo de** emails levará você para o relatório de mapa de **fluxo de** email.
 
-Os gráficos a seguir estão disponíveis no modo de exibição de relatório:
+Os gráficos a seguir estão disponíveis na exibição de relatório:
 
-- **Show data for: Overview** : Este é basicamente uma visão maior do widget. Se você passar o mouse sobre uma cor específica, o número de mensagens será exibido para esse tipo de conector.
+- **Mostrar dados para: Visão geral:** é basicamente uma exibição maior do widget. Se você passar o mouse sobre uma cor específica, o número de mensagens será exibido para esse tipo de conector.
 
-  ![Exibição de visão geral no relatório de mapa de fluxo de emails](../../media/mfi-mail-flow-map-report-overview.png)
+  ![Visão geral no relatório de mapa de fluxo de emails](../../media/mfi-mail-flow-map-report-overview.png)
 
-- **Mostrar dados de: Detail** : este modo de exibição mostra detalhes sobre os conectores e domínios de destino. Os principais remetentes e domínios de destinatário são listados e o restante é colocado em **outros**. Se você passar o mouse sobre uma cor e seção específica, o número de mensagens será exibido.
+- **Mostrar dados para: Detalhe:** esta exibição mostra detalhes sobre os conectores e domínios de destino. Os principais domínios de remetentes e destinatários são listados, e o restante é colocado em **Outros.** Se você passar o mouse sobre uma cor e uma seção específicas, o número de mensagens será exibido.
 
-  ![Exibição de detalhes no relatório de mapa de fluxo de emails](../../media/mfi-mail-flow-map-report-detail.png)
+  ![Exibição detalhada no relatório de mapa de fluxo de emails](../../media/mfi-mail-flow-map-report-detail.png)
 
-Se você clicar em **filtros** em um modo de exibição de relatório, poderá especificar um intervalo de datas com **data de início** e data de **término**.
+Se você clicar em **Filtros** em uma exibição de relatório, poderá especificar um intervalo de datas com data **de** início **e data de término.**
 
-Para enviar por email o relatório para um intervalo de datas específico para um ou mais destinatários, clique em **solicitar download**.
+Para enviar o relatório por email para um intervalo de datas específico para um ou mais destinatários, clique em **Solicitar download.**
 
-Os insights relacionados são mostrados abaixo do mapa de fluxo de emails, se estiverem disponíveis (por exemplo, a [correção de possíveis informações de loop de email](mfi-mail-loop-insight.md)).
+Informações relacionadas são mostradas abaixo do mapa de fluxo de email se elas estão disponíveis (por exemplo, o insight de correção de [possível loop de email).](mfi-mail-loop-insight.md)
 
-## <a name="details-table-view-for-the-mail-flow-map"></a>Exibição da tabela de detalhes para o mapa de fluxo de emails
+## <a name="details-table-view-for-the-mail-flow-map"></a>Details table view for the Mail flow map
 
-Se você clicar em **Exibir tabela de detalhes** em um modo de exibição de relatório, as seguintes informações serão exibidas:
+Se você clicar em **Exibir tabela de detalhes** em uma exibição de relatório, as seguintes informações serão mostradas:
 
 - **Date**
 - **Categoria**
-- **Conector/provedor de serviços terceirizado**
-- **Domínio do remetente/destinatário**
+- **Conector/Provedor de serviços de terceiros**
+- **Domínio remetente/destinatário**
 - **Contagem de mensagem**
 
-Se você clicar em **filtros** em um modo de exibição de tabela detalhes, poderá especificar um intervalo de datas com **data de início** e data de **término**.
+Se você clicar em **Filtros** em uma exibição de tabela de detalhes, poderá especificar um intervalo de datas com data **de** início **e data de término.**
 
-Se você selecionar uma linha, os detalhes semelhantes serão mostrados em um submenu:
+Se você selecionar uma linha, detalhes semelhantes serão mostrados em um flyout:
 
-![Submenu de detalhes da tabela detalhes no mapa de fluxo de emails](../../media/mfi-mail-flow-map-view-details-table-details.png)
+![Detalhes do flyout da tabela de detalhes no mapa de fluxo de emails](../../media/mfi-mail-flow-map-view-details-table-details.png)
 
-Para enviar por email o relatório para um intervalo de datas específico para um ou mais destinatários, clique em **solicitar download**.
+Para enviar o relatório por email para um intervalo de datas específico para um ou mais destinatários, clique em **Solicitar download.**
 
-Para voltar para o modo de exibição relatórios, clique em **Exibir relatório**.
+Para voltar para a exibição de relatórios, clique em **Exibir relatório.**
 
 ## <a name="see-also"></a>Confira também
 
-Para obter informações sobre outras ideias no painel de fluxo de emails, consulte [Mail Flow insights no centro de conformidade de & de segurança](mail-flow-insights-v2.md).
+Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações sobre o fluxo de emails no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)

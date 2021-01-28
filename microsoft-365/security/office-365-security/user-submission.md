@@ -3,7 +3,7 @@ title: Política de envios de usuário
 f1.keywords:
 - NOCSH
 ms.author: siosulli
-author: chrisda
+author: siosulli
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9759bbae1dc49b80859198e11e6f85383cdf2f66
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 28848908934057cc898eeca489cd2ee21f30692f
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988123"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029757"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuário
 
@@ -60,7 +60,7 @@ Use os artigos a seguir para configurar os pré-requisitos necessários para que
 
 - Crie uma política de filtro de spam para desabilitar a ZAP (Limpeza Automática Zero Hora) para spam e phishing na caixa de correio personalizada. Consulte Usar o Centro de Conformidade e Segurança & para criar políticas [anti-spam](configure-your-spam-filter-policies.md#use-the-security--compliance-center-to-create-anti-spam-policies) e des clear the **On** checkboxes for **Spam ZAP** and Phish **ZAP**.
 
-- Desabilite a regra de lixo eletrônico na caixa de correio personalizada. Use [Definir configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md) para desabilitar a regra de lixo eletrônico. Depois de desabilitada, o EOP não pode mover mensagens para  a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam Mover mensagem para a pasta Lixo Eletrônico ou o conjunto de listas seguras na caixa de correio.
+- Desabilite a regra de lixo eletrônico na caixa de correio personalizada. Use [Definir configurações de lixo eletrônico em caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md) para desabilitar a regra de lixo eletrônico. Depois de desabilitada, o EOP não pode mover mensagens para  a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam Mover mensagem para a pasta Lixo Eletrônico ou o conjunto de listas seguras na caixa de correio.
 
 Depois de verificar se sua caixa de correio atende a todos os pré-requisitos aplicáveis, & use o Centro de Conformidade e Segurança para configurar a caixa de correio de [envios](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) do usuário (neste artigo).
 
@@ -84,7 +84,7 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Usar o Centro de Conformidade & segurança para configurar a caixa de correio de envios do usuário
 
-1. No Centro de Conformidade & Segurança, vá **para** Envios de Usuário da Política de Gerenciamento \>  \> **de Ameaças.**
+1. No Centro de Conformidade & segurança,  vá para envios de usuário da Política de Gerenciamento \>  \> **de Ameaças.**
 
 2. Na página **Envios de usuário** exibida, selecione uma das seguintes opções:
 
@@ -146,4 +146,4 @@ No exemplo a seguir:
 
 `3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
-As mensagens que não seguirem esse formato não serão exibidas corretamente no portal de Envios.
+Mensagens que não seguem esse formato não serão exibidas corretamente no portal envios.
