@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Recursos para ajudá-lo a atender aos requisitos normativos para o controle de informações e o gerenciamento de registros.
-ms.openlocfilehash: f8641af2ec839c9ed3f4d029b4f6de52fe7033e3
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: 891dd3f37e70ae94dbae96baaa7c38b71456305b
+ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941416"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50032562"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>Requisitos regulatórios para o controle de informações e o gerenciamento de registros
 
@@ -28,7 +28,19 @@ ms.locfileid: "48941416"
 
 Use os recursos desta página para ajudar a atender a requisitos reguladores específicos para o controle de informações e o gerenciamento de registros no Microsoft 365. As seções deste documento concentram-se em uma ou mais normas relacionadas e inclui qualquer orientação existente ou análise de terceiros sobre como configurar o Microsoft 365 para ajudá-lo com os requisitos descritos.
 
-Esses recursos estão disponíveis para download na página [Recursos de Proteção de Dados, perguntas frequentes e White Papers](https://servicetrust.microsoft.com/ViewPage/TrustDocuments) do Portal de Confiança do Serviço.
+Esses recursos estão disponíveis para download na página [Recursos de Proteção de Dados, Perguntas Frequentes e White Papers](https://servicetrust.microsoft.com/ViewPage/TrustDocuments) do Portal de Confiança do Serviço.
+
+## <a name="new-zealand-public-records-act"></a>Lei de Registros Públicos da Nova Zelândia
+
+**Dar suporte às obrigações de conformidade da Lei de Registros Públicos da Nova Zelândia com o Microsoft 365** - [Avaliação de download](https://aka.ms/NZPRA)
+
+Cargas de trabalho aplicáveis: Microsoft Office SharePoint Online, OneDrive, Microsoft Teams, Exchange e Skype for Business
+
+Lançado em janeiro de 2021, este relatório foi produzido em parceria com a Microsoft Nova Zelândia para avaliar as capacidades dos serviços Microsoft 365 para gravação, armazenamento e gerenciamento de requisitos para registros eletrônicos, conforme especificado por: 
+
+- Lei de Registros Públicos da Nova Zelândia 2005, que define as diretrizes para preservação de arquivos públicos e arquivos de autoridade local na Nova Zelândia.
+
+Este relatório ajuda você a entender como os aspectos do sistema da Lei de Registros Públicos da Nova Zelândia 2005 (PRA) são acessíveis ao usar o Microsoft 365.
 
 ## <a name="sec-17a-4f-finra-4511c-and-cftc-131c-d"></a>SEC 17a-4(f), FINRA 4511(c), e CFTC 1.31(c)-(d)
 

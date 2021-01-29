@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta Pesquisa de conteúdo no Centro de conformidade e segurança para procurar e exportar dados de bate-papo do Teams para usuários locais em uma implantação híbrida do Exchange.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 23f8ea08de3d7fdbbc36274374d315ef0cb66a84
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 7bdcba3a14b2ee6d14210d3525e20ec507166a5d
+ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976198"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50029711"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>Pesquisar dados de chat do Teams para usuários locais
 
@@ -39,10 +39,8 @@ Estes são os requisitos e limitações para a configuração de caixas de corre
 
 - Somente dados de chat do Teams associadas a um usuário local são armazenados na área de armazenamento baseada na nuvem. Um usuário local não pode acessar essa área de armazenamento de forma alguma.
 
-- Você deve enviar uma solicitação para o suporte da Microsoft para permitir que sua organização pesquise dados de chat do Teams nas caixas de correio baseadas em nuvem para usuários locais. Confira [Arquivando uma solicitação com o suporte da Microsoft para habilitar esse recurso](#filing-a-request-with-microsoft-support-to-enable-this-feature) neste artigo.
-
 > [!NOTE]
-> As conversas em canais do Teams sempre são armazenadas na caixa de correio baseada em nuvem associada à equipe. Isso significa que você pode usar a Pesquisa de Conteúdo para pesquisar conversas de canal sem ter que registrar uma solicitação de suporte. Para obter mais informações sobre como Pesquisar conversas de canal do Teams, confira [Pesquisar no Microsoft Teams e Grupos do Microsoft 365 ](content-search.md#searching-microsoft-teams-and-microsoft-365-groups).
+> As conversas de canal do Teams sempre são armazenadas na caixa de correio baseada em nuvem associada à Equipe, o que significa que você pode pesquisar por conversas de canal. Para obter mais informações sobre como Pesquisar conversas de canal do Teams, confira [Pesquisar no Microsoft Teams e Grupos do Microsoft 365 ](content-search.md#searching-microsoft-teams-and-microsoft-365-groups).
   
 ## <a name="how-it-works"></a>Como funciona
 
@@ -54,20 +52,7 @@ O gráfico a seguir mostra o fluxo de trabalho de como os dados de chat do Teams
   
 Além desse novo recurso, você ainda poderá usar a Pesquisa de Conteúdo para pesquisar, visualizar e exportar conteúdo do Teams no site do SharePoint baseado na nuvem e na caixa de correio do Exchange associada a cada dado de chat do Microsoft Teams e 1xN Teams na caixa de correio do Exchange Online para usuários baseados em nuvem.
 
-## <a name="filing-a-request-with-microsoft-support-to-enable-this-feature"></a>Registrando uma solicitação com o suporte da Microsoft para habilitar esse recurso
 
-Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams para usuários locais. Esse recurso está disponível no PowerShell do Centro de Conformidade e Segurança. Você não precisa enviar uma solicitação de suporte para usar o PowerShell para pesquisar os dados de chat do Teams para usuários locais.
-  
-Inclua as seguintes informações ao enviar a solicitação para o suporte da Microsoft:
-  
-- O nome de domínio padrão da sua organização.
-
-- O nome do locatário e o ID do locatário da sua organização. Você pode encontrá-los no portal do Azure Active Directory (em **Gerenciar** \> **Propriedades**). Confira [Localizar sua ID de locatário do Microsoft 365](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
-
-- O seguinte título ou a descrição de finalidade da solicitação de suporte: "Habilitar a pesquisa de conteúdo do aplicativo para usuários locais". Isso ajuda a rotear a solicitação para a equipe de engenharia de Descoberta eletrônica, o qual implementará a solicitação.
-
-Após a mudança de engenharia, o suporte da Microsoft enviará a você uma data estimada da implantação. O processo de implantação geralmente demora de duas a três semanas após o envio da solicitação de suporte.
-  
 ### <a name="what-happens-after-this-feature-is-enabled"></a>O que acontece após esse recurso ser habilitado?
 
 Após a implantação desse recurso na sua organização, as seguintes alterações são feitas na Pesquisa de Conteúdo e em pesquisas associadas a um caso de Descoberta eletrônica no Centro de Conformidade e Segurança:
