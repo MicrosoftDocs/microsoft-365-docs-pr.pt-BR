@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os limites de caso, os limites de indexação e os limites de pesquisa em vigor para a solução descoberta de eDiscovery Avançada no Microsoft 365.
-ms.openlocfilehash: 8238a86df2d4e6b487571a3c0f9a380d90607729
-ms.sourcegitcommit: 495b66b77d6dbe6d69e5b06b304089e4e476e568
+ms.openlocfilehash: 6994a3511b97e9209491fa61a8c6f9bc147b6b87
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799678"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044623"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
@@ -61,20 +61,20 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 
 | Descrição do limite | Limite |
 |:-----|:-----|
-|Número máximo de caixas de correio ou sites que podem ser pesquisados em uma única pesquisa.  <br/> |Sem limite  <br/> |
-|Número máximo de pesquisas que podem ser executados ao mesmo tempo.  <br/> |Sem limite  <br/> | 
-|Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo.  <br/> |10   <br/> | 
-|Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições).  <br/> |**Caixas de** correio : 10.000<br/>**Sites**: 4.000 ao pesquisar em todos os sites ou 2.000 ao pesquisar até 20 sites <sup>2</sup> <br/> |
-|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo, **um \** _ ou _*definir \**_. <br/> |3   <br/> |  
-|Variantes máximas retornadas ao usar caractere curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booleano _ *NEAR**.  <br/> |10.000 <sup>3</sup> <br/> |
-|Número máximo de itens por caixa de correio de usuário que são exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos.   <br/> |100  <br/> |
-|Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.  <br/> |1.000  <br/> |
-|Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1.000 caixas de correio que contenham itens que corresponderem à consulta de pesquisa, somente as 1.000 caixas de correio com mais resultados estarão disponíveis para visualização.<br/> |1.000  <br/> |
-|Número máximo de itens de sites do SharePoint e do OneDrive for Business exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos.  <br/> |200  <br/> |
-|Número máximo de sites do SharePoint e do OneDrive for Business que podem ser visualizados para resultados de pesquisa. Se houver mais de 200 sites que contenham itens que corresponderem à consulta de pesquisa, somente os 200 sites com mais resultados estarão disponíveis para visualização.  <br/> |200  <br/> |
-|Número máximo de itens por caixa de correio de pasta pública exibido na página de visualização para pesquisas.  <br/> |100  <br/> |
-|Número máximo de itens encontrados em todos os itens de caixa de correio de pasta pública exibidos na página de visualização para pesquisas.  <br/> |200  <br/> |
-|Número máximo de caixas de correio de pasta pública que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contenham itens que corresponderem à consulta de pesquisa, somente as 500 caixas de correio com mais resultados estarão disponíveis para visualização.  <br/> |500  <br/> |
+|Número máximo de caixas de correio ou sites que podem ser pesquisados em uma única pesquisa. |Sem limite|
+|Número máximo de pesquisas que podem ser executados ao mesmo tempo. |Sem limite |
+|Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo. |10  | 
+|Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições). |10.000 &nbsp; <sup>2</sup>|
+|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo, **um \** _ ou _*definir \**_.|3 |  
+|Variantes máximas retornadas ao usar caractere curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booliana _ *NEAR**. |10.000 &nbsp; <sup>3</sup>|
+|Número máximo de itens por caixa de correio de usuário que são exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos. |100|
+|Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.|1.000|
+|Número máximo de caixas de correio que podem ser visualizadas para resultados de pesquisa.  Se houver mais de 1.000 caixas de correio que contenham itens que corresponderem à consulta de pesquisa, somente as 1.000 caixas de correio com mais resultados estarão disponíveis para visualização.|1.000|
+|Número máximo de itens de sites do SharePoint e do OneDrive for Business exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos. |200|
+|Número máximo de sites do SharePoint e do OneDrive for Business que podem ser visualizados para resultados de pesquisa. Se houver mais de 200 sites que contenham itens que corresponderem à consulta de pesquisa, somente os 200 sites com mais resultados estarão disponíveis para visualização.|200|
+|Número máximo de itens por caixa de correio de pasta pública exibido na página de visualização para pesquisas. |100|
+|Número máximo de itens encontrados em todos os itens de caixa de correio de pasta pública exibidos na página de visualização para pesquisas. |200|
+|Número máximo de caixas de correio de pasta pública que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contenham itens que corresponderem à consulta de pesquisa, somente as 500 caixas de correio com mais resultados estarão disponíveis para visualização.|500|
 |||
 
 ## <a name="viewer-limits"></a>Limites do visualizador
@@ -91,7 +91,7 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 |Tamanho máximo de uma única exportação.|3 milhões de documentos ou 100 GB, o que for menor|
 |Quantidade máxima de dados em um único dia. | 2 TB |
 |Máximo de exportações simultâneas em sua organização. | 10 <sup>4</sup> |
-|Máximo de exportações simultâneas por usuário. | 3  |
+|Máximo de exportações simultâneas por usuário. | 3 |
 |Tamanho máximo de um único arquivo PST. | 10 GB |
 |Máximo de exportações simultâneas por conjunto de revisão. | 1  |
 |||

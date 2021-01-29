@@ -23,72 +23,73 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Inscrição passo a passo para o Microsoft 365 para campanhas. Proteger sua campanha contra ameaças cybersecurity a email, dados e comunicação.
-ms.openlocfilehash: a66380ea5b657d1ce231dd4a56b333087140c777
-ms.sourcegitcommit: 1522a6471e0c5254a6d0f592e1f4dfacd1dd473a
+description: Inscreva-se passo a passo para o Microsoft 365 for Campaigns. Proteja sua campanha contra ameaças de segurança cibernética a emails, dados e comunicação.
+ms.openlocfilehash: 8920cb28881d884413a8d30c0edb75f96a77cf1e
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48245864"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044259"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Inscreva-se no Microsoft 365 para campanhas 
 
-Confira aqui como concluir a inscrição para o Microsoft 365 para campanhas.
+Veja aqui como concluir sua assinatura do Microsoft 365 for Campaigns.
 
-## <a name="before-you-start"></a>Antes de começar: 
-- Confira o convite para a Microsoft 365 para campanhas completando as etapas em [obter o microsoft 365 para campanhas](get-microsoft-365-campaigns.md#get-microsoft-365-for-campaigns). 
-- Abra seu convite de email da Microsoft. O convite tem um link de inscrição exclusivo para sua organização. Você precisa disso para obter preços especiais de campanhas.
-- Ter seu cartão de crédito comercial e um telefone prontos. 
+## <a name="before-you-start"></a>Antes de começar:
+
+- Get your invite to Microsoft 365 for Campaigns by completing the steps in [Get Microsoft 365 for Campaigns](get-microsoft-365-campaigns.md#get-microsoft-365-for-campaigns).
+- Abra seu convite por email da Microsoft. O convite tem um link de assinatura exclusivo para sua organização. Você precisa disso para obter preços especiais de campanhas.
+- Tenha seu cartão de crédito e um telefone prontos.
 
     > [!TIP]
-    > Seu link de inscrição é exclusivo de sua campanha. Ele só funciona uma vez, portanto, certifique-se de que você tenha tempo suficiente para concluir a inscrição. Você precisa de cerca de dez minutos. 
+    > O link de sua assinatura é exclusivo para sua campanha. Ele só funciona uma vez, portanto, certifique-se de que você tenha tempo suficiente para concluir a assinatura. Você precisa de cerca de dez minutos.
 
-## <a name="steps-to-sign-up"></a>Etapas para inscrever-se
+## <a name="steps-to-sign-up"></a>Etapas para se inscrever
 
-1. Em seu convite para o Microsoft 365 para emails de campanhas, selecione **inscrever sua organização >**. Isso leva você para a assinatura do Microsoft 365.
+1. Em seu convite para o email do Microsoft 365 for Campaigns, selecione **INSCREVER SUA ORGANIZAÇÃO >**. Isso leva você para a assinatura do Microsoft 365.
     > [!NOTE]
-    > Se você já tem uma assinatura existente do Microsoft 365 for Business e deseja adicionar o Microsoft 365 para a oferta de campanhas, vá para [Adicionar o microsoft 365 para campanhas a uma assinatura existente](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription).
-1. **Na página de negócios do Microsoft 365**, insira seus detalhes comerciais. Em **endereço de email comercial**, use um endereço de email atual. Só precisamos desse endereço para manter contato com você durante o processo de instalação. Selecione **Avançar**.
-1. **Na página criar sua ID de usuário**:
-    1. Em **nome de usuário**, digite o nome ou alias desejado para seu endereço de email. Por exemplo, você pode querer ser conhecido como apenas Alice ou roubar. Em uma campanha maior, o AliceC ou o AliceChavez podem fazer mais sentido.
-    2. Em **sua empresa**, insira o nome da campanha para a qual você trabalha. Por exemplo, ContosoCampaign. Se você já possui um domínio, use esse nome aqui. 
-    3. Em **selecionar um domínio**, selecione **. onmicrosoft.com** por enquanto. Podemos configurar um domínio mais tarde ou ajudá-lo a obter o Microsoft 365 conectado a um domínio que você já possui.
-    4. Crie uma senha e selecione **criar minha conta**. 
+    > Se você já tiver uma assinatura existente do Microsoft 365 para empresas e quiser adicionar a oferta do Microsoft 365 for Campaigns a ele, adicione o [Microsoft 365 for Campaigns](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription)a uma assinatura existente.
+1. **Na página do Microsoft 365 Business,** insira os detalhes da sua empresa. For **Business email address**, use a current email address. Só precisamos desse endereço para entrar em contato com você durante o processo de configuração. Selecione **Avançar**.
+1. **Na página Criar sua ID de usuário:**
+    1. Em **Nome de** Usuário, insira o nome ou alias que você deseja para seu endereço de email. Por exemplo, talvez você queira ser conhecido apenas como Alice ou Rob. Em uma campanha maior, AliceC ou AliceChavez pode fazer mais sentido.
+    2. Em **Sua empresa,** insira o nome da campanha para a sua empresa. Por exemplo, ContosoCampaign. Se você já possui um domínio, use esse nome aqui. 
+    3. Em **Selecionar um domínio,** selecione **.onmicrosoft.com** por enquanto. Podemos configurar você com um domínio posteriormente ou ajudá-lo a conectar o Microsoft 365 a um domínio que você já possui.
+    4. Crie uma senha e selecione **Criar minha conta.**
     > [!NOTE]
-    > Se sua campanha ou parte não for proprietária de um domínio e você tiver decidido o domínio desejado, poderá comprar um agora selecionando-o.
+    > Se sua campanha ou parte não possuir um domínio e você tiver decidido qual domínio deseja, poderá comprar um agora selecionando-o.
 
-4. **Prova. Você está. Não. A. página**:
-    1. Prepare o seu telefone e selecione **Text me** (ou **ligue para mim** se preferir). Em seguida, insira seu número de telefone. 
-    2. Ao selecionar o **texto eu**, enviaremos um código de verificação. Ou chamaremos um código se você selecionar **ligar para mim**.
-    3. Insira o código da mensagem de texto (ou ligue) e selecione **Avançar**. Espere uma breve espera. 
-5. **Onde você estará usando esta página**: Insira o número de telefone e os detalhes do local de trabalho principal da campanha. Selecione **Avançar**.
-6. **Como esta página de aparência**:
-    1. Verifique se o custo por usuário é $5. 
-    2. Se você só quiser se configurar por enquanto, selecione **Avançar**. 
-    3. Opcional: Adicione algumas licenças extras agora alterando o número no campo **usuário** . [A equipe com a qual você trabalha pode ter licenças atribuídas ao Microsoft 365](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) a qualquer momento.
-7. **Como você deseja pagar? página**: selecione **novo cartão de crédito**, insira seus detalhes de cartão de crédito de negócios e selecione **fazer pedido**. Se preferir, também é possível usar uma conta bancária.
-8. **Isso pode levar uma página de tempo**: você encontrará detalhes sobre onde entrar e sua ID de usuário. Também enviaremos essas informações para o endereço de email inserido durante a etapa 2 acima.
+4. **Prove. Você está. Não. A. Robô. page**:
+    1. Prepare seu telefone e selecione **Text me** (ou Ligue **para mim,** se preferir). Em seguida, insira seu número de telefone. 
+    2. Quando você selecionar **Text me**, enviaremos um código de verificação. Ou chamaremos você com um código se você selecionar **Telefonar para mim.**
+    3. Insira o código de sua mensagem de texto (ou chamada) e selecione **Next**. Espere uma espera curta. 
+5. **Onde você estará usando esta página:** insira os detalhes do local de trabalho principal da campanha e o número de telefone. Selecione **Avançar**.
+6. **Como é esta página de aparência:**
+    1. Verifique se o custo por usuário é de US$ 5,00. 
+    2. Se você só quiser se configurar por enquanto, selecione **Próximo**. 
+    3. Opcional: Adicione algumas licenças extras agora alterando o número no **campo do** usuário. [A equipe com quem você trabalha pode ter licenças atribuídas ao Microsoft 365](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) a qualquer momento.
+7. **Como você deseja pagar? Página:** Selecione Novo cartão de **crédito,** insira os detalhes do cartão de crédito e selecione **Fazer pedido.** Se preferir, também é possível usar uma conta bancária.
+8. **This may take a moment page:** You'll find details about where to sign in and your user ID. Também enviaremos essas informações para o endereço de email que você insere durante a etapa 2 acima.
 
-Suas etapas de inscrição estão completas! Se você quiser continuar com as próximas etapas, selecione **Iniciar configuração**ou voltar mais tarde para concluir as etapas. Quando estiver pronto, verifique seu email (na etapa 2) para localizar o nome de usuário e a senha para que você possa fazer logon na próxima vez. Eles são chamados de suas credenciais de administrador global ou de administrador.
+Suas etapas de assinatura foram concluídas! Se você quiser continuar com as próximas etapas, selecione Iniciar a Instalação ou volte mais tarde para concluir as etapas. Quando estiver pronto, verifique seu email (da etapa 2) para encontrar seu nome de usuário e senha para que você possa fazer logoff na próxima vez. Eles são chamados de credenciais de administrador global ou administrador global.
 
-## <a name="steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription"></a>Etapas para adicionar o Microsoft 365 para campanhas a uma assinatura existente
+## <a name="steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription"></a>Etapas para adicionar o Microsoft 365 for Campaigns a uma assinatura existente
 
-Se você já tiver uma assinatura do Microsoft 365 for Business, por exemplo, o Microsoft 365 Business Standard, poderá usar o Microsoft 365 para a oferta de campanhas para adicionar licenças a ela.
+Se você já tiver uma assinatura existente do Microsoft 365 para empresas, por exemplo, o Microsoft 365 Business Standard, poderá usar a oferta do Microsoft 365 for Campaigns para adicionar licenças a ele.
 > [!IMPORTANT]
-> Não é possível adicionar o Microsoft 365 para a oferta de campanhas a uma conta de Microsoft 365 existente.
+> Você não pode adicionar a oferta do Microsoft 365 for Campaigns a uma conta existente do Microsoft 365.
 
-1. Em seu convite para o Microsoft 365 para emails de campanhas, selecione **inscrever sua organização >**. Isso leva você para a assinatura do Microsoft 365.
-2. Na **tela de boas-vindas, vamos conhecer a** página, clique ou toque em **deseja adicioná-lo a uma assinatura existente? Entre**.
+1. Em seu convite para o email do Microsoft 365 for Campaigns, selecione **INSCREVER SUA ORGANIZAÇÃO >**. Isso leva você para a assinatura do Microsoft 365.
+2. On the **Welcome, let's get to know you** page, click or tap Want to add this to an **existing subscription? Entre.**
     
-    ![Escolha entrar no canto superior direito.](../media/addtoexisting.png)
-3. Na página de entrada, insira o alias de administração de sua assinatura existente, por exemplo *Alice@VoteContoso <span></span> . org*, escolha **Avançar**, insira sua senha e, em seguida, escolha **entrar**.
-4. Sobre **como esta aparência?** Insira o número de usuários que você tem e escolha **Avançar**. Você não precisa inserir um código promocional aqui porque ele já está incluído na URL do convite.
-5. Na página **como você deseja pagar?** , insira sua forma de pagamento e escolha **fazer pedido**.
+    ![Escolha Entrar no canto superior direito.](../media/addtoexisting.png)
+3. Na página de entrada, insira o alias de administrador para sua assinatura existente, por *exemplo, Alice@VoteContoso <span></span> .org*, escolha **Próximo**, insira sua senha e escolha **Entrar.**
+4. On the **How does this look?** enter the number of users you have and choose **Next**. Você não precisa inserir um código promocional aqui porque ele já está incluído na URL do convite.
+5. On the **How do you want to pay?** page, enter your payment method and choose Place **order**.
 
-Depois de concluir essas etapas, você estará pronto para [atribuir as novas licenças](../admin/manage/assign-licenses-to-users.md) à equipe de campanha.
-
+Depois de concluir essas etapas, você estará pronto para [atribuir as novas licenças](../admin/manage/assign-licenses-to-users.md) à equipe da campanha.
 
 ## <a name="whats-next"></a>O que vem a seguir?
-- [Configure o microsoft 365](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para concluir o Microsoft 365 para campanhas configuradas. 
-- [Adicionar usuários](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) ao seu plano. Inclua o candidato da campanha, todos os funcionários seniores da campanha e qualquer pessoa que tenha acesso a informações confidenciais de campanha ou de terceiros.
-- [Aumentar a proteção da sua campanha](m365-campaigns-security-overview.md)
+
+- [Configurar o Microsoft 365](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) para concluir a configuração do Microsoft 365 for Campaigns.
+- [Adicione usuários](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) ao seu plano. Inclua o candidato à campanha, toda a equipe de campanha sênior e qualquer pessoa que tenha acesso a informações confidenciais de campanha ou de terceiros.
+- [Insocar a proteção da sua campanha](m365-campaigns-security-overview.md)
