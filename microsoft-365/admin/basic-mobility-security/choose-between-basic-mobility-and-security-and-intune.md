@@ -18,19 +18,19 @@ ms.custom:
 search.appverid:
 - MET150
 description: A Mobilidade Básica e a Segurança fazem parte dos planos do Microsoft 365.
-ms.openlocfilehash: cfd1a68c313d1a1335490e2b8d6938de192fe3f3
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: ec3ffa8879bf14ab3116bbbbf5cf2a1a3fd7c6e6
+ms.sourcegitcommit: ea8a096df5acedecdce1780969f2b189c3fadf73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877087"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50053796"
 ---
-# <a name="choose-between-basic-mobility-and-security-or-intune"></a>Escolha entre Mobilidade Básica e Segurança ou Intune
+# <a name="choose-between-basic-mobility-and-security-or-intune"></a>Escolher entre Mobilidade Básica e Segurança ou Intune
 
-[O Microsoft Intune](https://docs.microsoft.com/mem/intune/) é um produto autônomo incluído em determinados planos do Microsoft 365, enquanto o Basic Mobility and Security faz parte dos planos do Microsoft 365. 
+[O Microsoft Intune](https://docs.microsoft.com/mem/intune/) é um produto autônomo incluído em determinados planos do Microsoft 365, enquanto o Basic Mobility and Security faz parte dos planos do Microsoft 365.
 
  ## <a name="availability-of-basic-mobility-and-security-and-intune"></a>Disponibilidade de Mobilidade Básica e Segurança e Intune
- 
+
 Mobilidade Básica e Segurança e Intune estão incluídos em uma variedade de planos, descritos na tabela a seguir.
 
 | Planejar | Mobilidade e Segurança Básica | Microsoft Intune |
@@ -57,7 +57,7 @@ Mobilidade Básica e Segurança e Intune estão incluídos em uma variedade de p
 
  Para obter detalhes, confira as descrições dos serviços da plataforma [Microsoft 365 e Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) 
 
-## <a name="differences-in-capabilities"></a>Diferenças de recursos
+## <a name="differences-in-capabilities"></a>Diferenças em recursos
 
 O Microsoft Intune e a Mobilidade Básica e a Segurança básicas permitem gerenciar dispositivos móveis em sua organização, mas há diferenças importantes na funcionalidade, descritas na tabela a seguir.
 
@@ -72,10 +72,10 @@ O Microsoft Intune e a Mobilidade Básica e a Segurança básicas permitem geren
 |Configuração do dispositivo  |Definir configurações do dispositivo (por exemplo, desabilitar a câmera)|Conjunto limitado de configurações.|Sim|
 |Conformidade do dispositivo  |Definir e gerenciar políticas de segurança, como bloqueio de PIN no nível do dispositivo e detecção de jailbreak. |Limitações no Android 9 e em dispositivos posteriores. Veja [detalhes.](capabilities.md) |Sim|
 |Perfis de email  |Provisione um perfil de email nativo no dispositivo. |Sim|Sim|
-|Perfis de WiFi |Provisione um perfil de WiFi nativo no dispositivo. |Não|Sim|
+|Perfis WiFi |Provisione um perfil de WiFi nativo no dispositivo. |Não|Sim|
 |Perfis VPN |Provisione um perfil vpn nativo no dispositivo. |Não|Sim|
 |Gerenciamento básico de aplicativos de Mobilidade e Segurança  |Implante seus aplicativos de linha de negócios internos e de lojas de aplicativos para os usuários. |Não|Sim|
-|Proteção de aplicativo móvel  |Permita que os usuários acessem com segurança informações corporativas usando os aplicativos móveis e de linha de negócios do Office que eles conhecem, garantindo a segurança dos dados, ajudando a restringir ações como copiar, recortar, colar e salvar como, apenas para os aplicativos gerenciados aprovados para dados corporativos. Funciona mesmo se os dispositivos não estão inscritos no Basic Mobility and Security. Consulte Proteger dados de aplicativo usando políticas de MAM. |Não|Sim|
+|Proteção de aplicativo móvel  |Permita que os usuários acessem com segurança as informações corporativas usando os aplicativos móveis e de linha de negócios do Office que eles conhecem, garantindo a segurança dos dados, ajudando a restringir ações como copiar, recortar, colar e salvar como, apenas para os aplicativos gerenciados aprovados para dados corporativos. Funciona mesmo se os dispositivos não estão inscritos no Basic Mobility and Security. Consulte Proteger dados de aplicativo usando políticas de MAM. |Não|Sim|
 |Navegador gerenciado  |Habilita a navegação na Web mais segura usando o aplicativo Edge. |Não|Sim|
 |Programas de registro zero por toque autopilot) |Registrar um grande número de dispositivos de propriedade corporativa, simplificando a configuração do usuário. |Não|Sim|
 |||
@@ -90,7 +90,7 @@ Com o Intune, você tem o seguinte conjunto de ações:
 -  [Rotação da chave do](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys)   Bitlocker (Somente Windows)
 -  [Usar apagar, retirar ou desemrollar manualmente o dispositivo](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal)
 -  [Desabilitar loc de ativação](https://docs.microsoft.com/mem/intune/remote-actions/device-activation-lock-disable)   (somente iOS)
--  [Novo início](https://docs.microsoft.com/mem/intune/remote-actions/device-fresh-start)   (Somente Windows)
+-  [Novo começo](https://docs.microsoft.com/mem/intune/remote-actions/device-fresh-start)   (Somente Windows)
 - [Verificação completa](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)   (Somente Windows 10)
 - [Localizar dispositivo](https://docs.microsoft.com/mem/intune/remote-actions/device-locate)   (somente iOS)
 - [Modo perdido](https://docs.microsoft.com/mem/intune/remote-actions/device-lost-mode)   (somente iOS)- [Verificação rápida](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus)(somente Windows 10)

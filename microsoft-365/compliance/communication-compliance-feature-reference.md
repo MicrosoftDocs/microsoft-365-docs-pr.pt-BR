@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6260e28f5df8e6be82db90a6a7e3efa64516f4f8
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: bd838c3ff000d936ed131f625d112017271c61ac
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980084"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055504"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência de recursos de conformidade de comunicação
 
@@ -32,7 +32,7 @@ ms.locfileid: "49980084"
 >[!Important]
 >Não há suporte para o uso do PowerShell para criar e gerenciar políticas de conformidade de comunicação. Para criar e gerenciar essas políticas, você deve usar os controles de gerenciamento de política na solução de conformidade de comunicação [do Microsoft 365.](https://compliance.microsoft.com/supervisoryreview)
 
-Você cria políticas de conformidade de comunicação para organizações do Microsoft 365 no centro de conformidade do Microsoft 365. As políticas de conformidade de comunicação definem quais comunicações e usuários estão sujeitos à revisão em sua organização, definem quais condições personalizadas as comunicações devem atender e especificam quem deve fazer avaliações. Os usuários  atribuídos à função Administrador de Conformidade de Comunicação podem configurar  políticas, e qualquer pessoa que tenha essa função atribuída pode acessar a página de conformidade de comunicação e as configurações globais no centro de conformidade do Microsoft 365. Se necessário, você pode exportar o histórico de modificações para uma política para um arquivo .csv que também inclui o status de alertas pendentes revisão, itens escalonados e itens resolvidos. As políticas não podem ser renomeadas e podem ser excluídas quando não são mais necessárias.
+Você cria políticas de conformidade de comunicação para organizações do Microsoft 365 no centro de conformidade do Microsoft 365. As políticas de conformidade de comunicação definem quais comunicações e usuários estão sujeitos à revisão em sua organização, definem quais condições personalizadas as comunicações devem atender e especificam quem deve fazer avaliações. Os usuários  atribuídos à função administrador de conformidade de comunicação podem configurar  políticas, e qualquer pessoa que tenha essa função atribuída pode acessar a página de conformidade de comunicação e as configurações globais no centro de conformidade do Microsoft 365. Se necessário, você pode exportar o histórico de modificações para uma política para um arquivo .csv que também inclui o status de alertas pendentes revisão, itens escalonados e itens resolvidos. As políticas não podem ser renomeadas e podem ser excluídas quando não são mais necessárias.
 
 >[!NOTE]
 >As políticas de supervisão criadas no Centro de Conformidade e Segurança & assinaturas do Office 365 não podem migrar para o Microsoft 365. Se você estiver migrando de uma assinatura do Office 365 para uma assinatura do Microsoft 365, precisará criar novas políticas de conformidade de comunicação para substituir as políticas de Supervisão existentes.
@@ -44,11 +44,11 @@ Os modelos de política são configurações de política predefinidas que você
 |**Área**|**Modelo de Política**|**Detalhes**|
 |:-----|:-----|:-----|
 | **Linguagem ofensiva e anti-abuso** | Monitorar comunicações para linguagem ofensiva | - Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> - Direção: Entrada, Saída, Interna <br> - Porcentagem de Revisão: 100% <br> - Condições: Classificador de idioma ofensivo |
-| **Informação confidencial** | Monitorar comunicações para informações confidenciais | - Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> - Direção: Entrada, Saída, Interna <br> - Porcentagem de Revisão: 10% <br> - Condições: Informações confidenciais, padrões de conteúdo não disponíveis e tipos, opção de dicionário personalizado, anexos maiores do que 1 MB |
-| **Conformidade regulatória** | Monitorar comunicações para obter informações relacionadas à conformidade regulamentar financeira | - Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> - Direção: Entrada, Saída <br> - Porcentagem de Revisão: 10% <br> - Condições: opção de dicionário personalizado, anexos maiores do que 1 MB |
+| **Informação confidencial** | Monitorar comunicações para informações confidenciais | - Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> - Direção: Entrada, Saída, Interna <br> - Porcentagem de Revisão: 10% <br> - Condições: Informações confidenciais, padrões de conteúdo não disponíveis e tipos, opção de dicionário personalizado, anexos maiores que 1 MB |
+| **Conformidade regulatória** | Monitorar comunicações para obter informações relacionadas à conformidade regulatória financeira | - Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> - Direção: Entrada, Saída <br> - Porcentagem de Revisão: 10% <br> - Condições: opção de dicionário personalizado, anexos maiores que 1 MB |
 | **Conflito de interesse** | Monitorar as comunicações entre dois grupos ou dois usuários para ajudar a evitar conflitos de interesse | - Locais: Exchange Online, Microsoft Teams, Yammer, Skype for Business <br> - Direção: Interna <br> - Porcentagem de Revisão: 100% <br> - Condições: Nenhuma |
 
-As comunicações são examinadas a cada 24 horas a partir do momento em que as políticas são criadas. Por exemplo, se você criar uma política de idioma ofensiva às 11:00, a política coletará sinais de conformidade de comunicação a cada 24 horas às 11:00 diariamente. A edição de uma política não muda desta vez. Para exibir a data e a hora da última verificação de uma política, navegue até a coluna *Verificação* da última política na **página** Política.
+As comunicações são examinadas a cada 24 horas a partir do momento em que as políticas são criadas. Por exemplo, se você criar uma política de idioma ofensiva às 11:00, a política coletará sinais de conformidade de comunicação a cada 24 horas às 11:00 diariamente. A edição de uma política não muda desta vez. Para exibir a data e a hora da última verificação de uma política, navegue até a coluna *Verificação* da Última Política na **página** Política. A data e a hora da última verificação serão convertidas para o fuso horário do seu sistema local.
 
 ## <a name="permissions"></a>Permissões
 
@@ -65,13 +65,13 @@ Escolha entre estas opções de grupo de função ao configurar a conformidade d
 |:-----|:-----|
 | **Conformidade de Comunicação** | Use esse grupo de função para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores designados, analistas, investigadores e visualizadores, você pode configurar permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente com a conformidade de comunicação e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos separados de usuários. |
 | **Administrador de Conformidade de Comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e posteriormente segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupo de função. Os usuários atribuídos a esse grupo de funções não podem exibir alertas de mensagem. |
-| **Analista de Conformidade de Comunicação** | Use esse grupo para atribuir permissões aos usuários que atuarão como analistas de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir políticas às quais são atribuídos como Revisadores, exibir metadados de mensagem (não conteúdo de mensagem), escalonar para revistores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
+| **Analista de Conformidade de Comunicação** | Use esse grupo para atribuir permissões aos usuários que atuarão como analistas de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir políticas onde são atribuídos como Revisadores, exibir metadados de mensagem (não conteúdo de mensagem), escalonar para revistores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
 | **Investigador de conformidade de comunicação** | Use esse grupo para atribuir permissões aos usuários que atuarão como investigadores de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir metadados e conteúdo de mensagens, escalonar para revistores adicionais, escalonar para um caso de Descoberta Avançada, enviar notificações aos usuários e resolver o alerta. |
 | **Visualizador de Conformidade de Comunicação** | Use esse grupo para atribuir permissões a usuários que gerenciarão relatórios de comunicação. Os usuários atribuídos a esse grupo de função podem acessar todos os widgets de relatórios na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
 
 ### <a name="for-organizations-using-the-original-permissions-and-role-groups"></a>Para organizações que usam as permissões originais e grupos de funções
 
-A nova estrutura de grupo de função substitui a estrutura inicial do grupo de funções para conformidade de comunicação. Para organizações que já usam a conformidade de comunicação, você precisava ter a função Administrador de Revisão de Supervisão para começar a usar a conformidade de comunicação no centro de conformidade do Microsoft 365. Além disso, você precisava criar um novo grupo de funções para revisadores com as funções Administrador de Análise de Supervisão, Gerenciamento de Caso, Administrador de Conformidade e Revisão para investigar e remediar mensagens com as políticas de acordo. Essencialmente, todos os administradores e revisadores estavam em um único grupo de funções e todos tinham as mesmas permissões de acesso e gerenciamento. Com as atualizações mais recentes para a conformidade de comunicação, você deve planejar a migração da estrutura anterior do grupo de funções para a nova estrutura de grupo de função. O suporte para a estrutura anterior do grupo de função será desaparado.
+A nova estrutura de grupo de função substitui a estrutura inicial do grupo de função para conformidade de comunicação. Para organizações que já usam a conformidade de comunicação, você precisava ter a função Administrador de Revisão de Supervisão para começar a usar a conformidade de comunicação no centro de conformidade do Microsoft 365. Além disso, você precisava criar um novo grupo de funções para revisadores com as funções Administrador de Análise de Supervisão, Gerenciamento de Caso, Administrador de Conformidade e Revisão para investigar e remediar mensagens com as políticas de acordo. Essencialmente, todos os administradores e revisadores estavam em um único grupo de funções e todos tinham as mesmas permissões de acesso e gerenciamento. Com as atualizações mais recentes de conformidade de comunicação, você deve planejar a migração da estrutura anterior do grupo de função para a nova estrutura de grupo de função. O suporte para a estrutura anterior do grupo de função será desaparado.
 
 Para ajudar no planejamento da migração, considere o exemplo a seguir. Atualmente, você tem três tipos de usuários em sua organização, administradores de TI, triagem e revisadores. Esses três tipos de usuários estão na estrutura de grupo de função anterior e são todos membros de um único grupo de funções com as seguintes funções atribuídas:
 
@@ -103,20 +103,20 @@ Para simplificar sua configuração, crie grupos para pessoas que precisam de su
 
 Quando você atribui um grupo de distribuição na política, a política monitora todos os emails de cada usuário no grupo de distribuição. Quando você atribui um grupo do Microsoft 365 na política, a política monitora todos os emails enviados a esse grupo, não os emails individuais recebidos por cada membro do grupo.
 
-A adição de grupos e listas de distribuição a políticas de conformidade de comunicação faz parte das condições e regras gerais definidas, portanto, o número máximo de grupos e listas de distribuição que uma política suporta varia dependendo do número de condições também adicionadas à política. Cada política deve suportar aproximadamente 20 grupos ou listas de distribuição, dependendo do número de condições adicionais presentes na política.
+A adição de grupos e listas de distribuição a políticas de conformidade de comunicação faz parte das condições gerais e do conjunto de regras, portanto, o número máximo de grupos e listas de distribuição que uma política suporta varia dependendo do número de condições também adicionadas à política. Cada política deve suportar aproximadamente 20 grupos ou listas de distribuição, dependendo do número de condições adicionais presentes na política.
 
 ## <a name="supported-communication-types"></a>Tipos de comunicação com suporte
 
 Com as políticas de conformidade de comunicação, você pode optar por examinar as mensagens em uma ou mais das seguintes plataformas de comunicação como um grupo ou como fontes autônomas. As comunicações capturadas nessas plataformas são mantidas por sete anos para cada política por padrão, mesmo que os usuários saiam da sua organização e suas caixas de correio sejam excluídas.
 
-- **Microsoft Teams:** as comunicações de chat em canais públicos e privados do Microsoft Teams e chats individuais podem ser examinadas. Quando os usuários são atribuídos a uma política de conformidade de comunicação com a cobertura do Microsoft Teams selecionada, as comunicações de chat para os usuários são monitoradas automaticamente em todos os Microsoft Teams onde os usuários são membros. A cobertura do Microsoft Teams é incluída automaticamente para modelos de política predefinida e é selecionada por padrão no modelo de política personalizado. Os chats do Teams correspondentes às condições da política de conformidade de comunicação podem levar até 48 horas para processar. Use as seguintes configurações de gerenciamento de grupo para supervisionar chats de usuários individuais e comunicações de canal no Teams:
+- **Microsoft Teams:** as comunicações de chat em canais públicos e privados do Microsoft Teams e chats individuais podem ser examinadas. Quando os usuários são atribuídos a uma política de conformidade de comunicação selecionada com a cobertura do Microsoft Teams, as comunicações de chat para os usuários são automaticamente monitoradas em todos os Microsoft Teams onde os usuários são membros. A cobertura do Microsoft Teams é incluída automaticamente para modelos de política predefinida e é selecionada por padrão no modelo de política personalizado. Os chats do Teams correspondentes às condições da política de conformidade de comunicação podem levar até 48 horas para processar. Use as seguintes configurações de gerenciamento de grupo para supervisionar chats de usuários individuais e comunicações de canal no Teams:
 
-    - **Para comunicações de chat do Teams:** Atribua usuários individuais ou atribua [um grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um para um ou um para muitos.
+    - **Para comunicações de chat do Teams:** Atribua usuários individuais ou atribua [um grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um para um ou um-para-muitos.
     - **Para comunicações do Canal do Teams:** Atribua cada canal do Microsoft Teams ou grupo do Microsoft 365 que você deseja verificar que contém um usuário específico para a política de conformidade de comunicação. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou grupos do Microsoft 365, certifique-se de adicionar esses novos canais e grupos à política de conformidade de comunicação.
     - Para comunicações de chat do Teams com ambientes de **email híbridos:** a conformidade de comunicação pode monitorar mensagens de chat de usuários para organizações com uma implantação local do Exchange ou um provedor de email externo que tenha habilitado o Microsoft Teams. Você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas a monitorar. Ao criar uma política de conformidade de comunicação,  você atribuirá esse grupo de distribuição como a seleção de usuários e grupos supervisionados no assistente de política.
 
     >[!IMPORTANT]
-    >Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams para usuários locais. Para obter mais informações, consulte [Pesquisar caixas de correio baseadas em nuvem para usuários locais.](search-cloud-based-mailboxes-for-on-premises-users.md)
+    >Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams para usuários locais. Para obter mais informações, consulte Pesquisar caixas de [correio baseadas em nuvem para usuários locais.](search-cloud-based-mailboxes-for-on-premises-users.md)
 
 Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams as caixas de correio baseadas em nuvem para usuários locais.
 
@@ -132,27 +132,27 @@ Você deve registrar uma solicitação com o suporte da Microsoft para permitir 
 
     Você deve configurar um conector de terceiros para sua organização do Microsoft 365 antes de atribuir o conector a uma política de conformidade de comunicação. A **seção Fontes de Terceiros** do assistente de política de conformidade de comunicação exibe apenas conectores de terceiros configurados no momento.
 
-## <a name="transitioning-from-supervision-in-office-365"></a>Transição da supervisão no Office 365
+## <a name="transitioning-from-supervision-in-office-365"></a>Transição da Supervisão no Office 365
 
 As organizações que usam políticas de supervisão no Office 365 e planejam fazer a transição para políticas de conformidade de comunicação no Microsoft 365 precisam entender estes pontos importantes:
 
 - Ambas as soluções podem ser usadas lado a lado em sua organização, mas as políticas usadas em cada solução devem ter nomes de política exclusivos. Grupos e dicionários de palavras-chave personalizados podem ser compartilhados entre soluções durante um período de transição.
-- As mensagens salvas na supervisão nas políticas do Office 365 não podem ser movidas ou compartilhadas para conformidade de comunicação no Microsoft 365.
+- As mensagens salvas em supervisão nas políticas do Office 365 não podem ser movidas ou compartilhadas para conformidade de comunicação no Microsoft 365.
 - A solução de supervisão no Office 365 será totalmente substituída pela solução de conformidade de comunicação no Microsoft 365. É recomendável criar novas políticas de conformidade de comunicação que tenham as mesmas configurações das políticas de supervisão existentes para usar as novas melhorias de investigação e correção. Ao fazer a transição para a conformidade de comunicação no Microsoft 365, você deve planejar exportar dados de relatórios da supervisão no Office 365 se tiver requisitos de política de retenção de conformidade interna.
 
-Para obter informações sobre a baixa supervisão no Office 365, confira o Mapa do [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para obter detalhes.
+Para obter informações sobre a baixa supervisão no Office 365, confira o [Mapa do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para obter detalhes.
 
 ## <a name="policy-settings"></a>Configurações de política
 
 ### <a name="users"></a>Usuários
 
-Você tem a opção de selecionar **Todos os usuários** ou definir usuários específicos em uma política de conformidade de comunicação. Selecionar **Todos os usuários** aplica a política a todos os usuários e grupos em que qualquer usuário está incluído como membro. A definição de usuários específicos aplica a política aos usuários definidos e a todos os grupos nos quais os usuários definidos estão incluídos como membros.
+Você tem a opção de selecionar **Todos os usuários** ou definir usuários específicos em uma política de conformidade de comunicação. Selecionar **Todos os** usuários aplica a política a todos os usuários e grupos em que qualquer usuário está incluído como membro. A definição de usuários específicos aplica a política aos usuários definidos e a todos os grupos nos quais os usuários definidos estão incluídos como membros.
 
 ### <a name="direction"></a>Direção
 
 Por padrão, **a condição Direção** é exibida e não pode ser removida. As configurações de direção de comunicação em uma política são escolhidas individualmente ou juntas:
 
-- **Entrada**: você pode escolher **Entrada para** revisar as comunicações enviadas **para** as pessoas que você escolheu supervisionar.
+- **Entrada**: você pode escolher **Entrada para revisar** as comunicações enviadas **para** as pessoas que você escolheu supervisionar.
 - **Saída**: Você pode escolher **Saída** se quiser revisar as comunicações enviadas **das** pessoas que você escolheu para supervisionar.
 - **Interno**: você pode escolher **Interno** para revisar as comunicações enviadas **entre** as pessoas identificadas na política.
 
@@ -173,7 +173,7 @@ Configure dicionários de palavras-chave personalizados (ou léxicos) para forne
 
 ### <a name="classifiers"></a>Classificadores
 
-Classificadores globais e integrados verificam mensagens enviadas ou recebidas em todos os canais de comunicação em sua organização em busca de diferentes tipos de problemas de conformidade. Os classificadores usam uma combinação de inteligência artificial e palavras-chave para identificar o idioma nas mensagens que provavelmente violarão políticas anti-abuso. Os classificadores integrados atualmente suportam apenas palavras-chave em inglês nas mensagens.
+Classificadores integrados e globais verificam mensagens enviadas ou recebidas em todos os canais de comunicação em sua organização em busca de diferentes tipos de problemas de conformidade. Os classificadores usam uma combinação de inteligência artificial e palavras-chave para identificar o idioma nas mensagens que provavelmente violarão políticas anti-abuso. Os classificadores integrados atualmente suportam apenas palavras-chave em inglês nas mensagens.
 
 Os classificadores globais e integrados de conformidade de comunicação verificam as comunicações em busca de termos, imagens e opiniões para os seguintes tipos de idioma e conteúdo:
 
@@ -184,7 +184,7 @@ Os classificadores globais e integrados de conformidade de comunicação verific
 - **Imagens de varredura:** verifica se há imagens sugeritivas por natureza, mas que contêm conteúdo menos explícito do que imagens consideradas adulto.
 - **Imagens de consulta:** verifica se há imagens que descrevem a violência e a violência.
 
-Os *classificadores* de imagem Adult , *Racy* e *Gory* verificam arquivos em . JPEG, . PNG, . GIF e . Formatos BMP. O tamanho dos arquivos de imagem deve ser menor que 4 megabytes (MB) e as dimensões das imagens devem ser maiores que 50 x 50 pixels e mais de 50 kilobytes (KB) para que a imagem se qualibiliza para avaliação. A identificação de imagem é suportada para mensagens de email do Exchange Online e canais e chats do Microsoft Teams.
+Os *classificadores* de imagem Adult , *Racy* e *Gory* verificam arquivos em . JPEG, . PNG, . GIF e . Formatos BMP. O tamanho dos arquivos de imagem deve ser menor que 4 megabytes (MB) e as dimensões das imagens devem ser maiores que 50 x 50 pixels e mais de 50 quilobytes (KB) para que a imagem se qualibiliza para avaliação. A identificação de imagem é suportada para mensagens de email do Exchange Online e canais e chats do Microsoft Teams.
 
 Os classificadores globais e de treinamento integrados não fornecem uma lista exaustiva de termos ou imagens nessas áreas. Além disso, os padrões de idioma e cultura mudam continuamente e, à luz dessas pessoas, a Microsoft reserva-se o direito de atualizar os classificadores a seu critério. Embora os classificadores possam ajudar sua organização no monitoramento dessas áreas, os classificadores não têm a intenção de fornecer o único meio de monitoramento ou endereçamento de tais idiomas ou imagens da sua organização. Sua organização, não a Microsoft, permanece responsável por todas as decisões relacionadas ao monitoramento, verificação e bloqueio de idioma e imagens nessas áreas, incluindo a conformidade com a privacidade local e outras leis aplicáveis. A Microsoft incentiva a consultoria com consultoria jurídica antes da implantação e uso.
 
@@ -228,7 +228,7 @@ Para verificar mensagens de email e anexos em [](create-test-tune-dlp-policy.md)
   
 #### <a name="enter-multiple-conditions"></a>Inserir várias condições
 
-Se você inserir várias condições, o Microsoft 365 usará todas as condições juntas para determinar quando aplicar a política de conformidade de comunicação aos itens de comunicação. Quando você configura várias condições, todas as condições devem ser atendidas para que a política seja aplicada, a menos que você insira uma exceção. Por exemplo, você precisa de uma política que se aplique se uma mensagem contiver a palavra "comercial" e for maior que 2 MB. No entanto, se a mensagem também contiver as palavras "Aprovada pela Contoso financeira", a política não deverá ser aplicada. Neste exemplo, as três condições seriam definidas da seguinte forma:
+Se você inserir várias condições, o Microsoft 365 usará todas as condições juntas para determinar quando aplicar a política de conformidade de comunicação aos itens de comunicação. Quando você configura várias condições, todas as condições devem ser atendidas para que a política seja aplicada, a menos que você insira uma exceção. Por exemplo, você precisa de uma política que se aplique se uma mensagem contiver a palavra "comercial" e for maior que 2 MB. No entanto, se a mensagem também contiver as palavras "Aprovada pela Contoso financeira", a política não deve se aplicar. Neste exemplo, as três condições seriam definidas da seguinte forma:
   
 - **A mensagem contém qualquer uma destas palavras,** com a palavra-chave "comercial"
 - **O tamanho da mensagem é maior que**, com o valor de 2 MB
@@ -240,7 +240,7 @@ Se você quiser reduzir a quantidade de conteúdo a ser revisado, poderá especi
 
 ## <a name="privacy"></a>Privacidade
 
-Proteger a privacidade dos usuários que têm as políticas de acordo é importante e pode ajudar a promover a o objectivity na investigação de dados e análises para alertas de conformidade de comunicação. Essa configuração se aplica somente aos nomes de usuário exibidos na solução de conformidade de comunicação. Isso não afeta como os nomes são exibidos em outras soluções de conformidade ou centro de administração.
+Proteger a privacidade dos usuários que têm as políticas de acordo é importante e pode ajudar a promover a o objectivity nas análises de análise e investigação de dados para alertas de conformidade de comunicação. Essa configuração se aplica somente aos nomes de usuário exibidos na solução de conformidade de comunicação. Isso não afeta como os nomes são exibidos em outras soluções de conformidade ou centro de administração.
 
 Para usuários com uma combinação de conformidade de comunicação, você pode escolher uma das seguintes configurações nas configurações de conformidade **de comunicação:**
 
@@ -303,7 +303,7 @@ Os filtros de conformidade de comunicação permitem filtrar e classificar mensa
 
 ## <a name="alert-policies"></a>Políticas de alerta
 
-Depois de configurar uma política, uma política de alerta correspondente é criada automaticamente e alertas são gerados para mensagens que correspondem às condições definidas na política. Por padrão, todos os gatilhos de alerta de acordo com a política são atribuídos a um nível de severidade médio na política de alerta associada. Os alertas são gerados para uma política de conformidade de comunicação quando o nível limite do gatilho de agregação é atendido na política de alerta associada.
+Depois de configurar uma política, uma política de alerta correspondente é criada automaticamente e os alertas são gerados para mensagens que correspondem às condições definidas na política. Por padrão, todos os gatilhos de alerta de acordo com a política são atribuídos a um nível de severidade médio na política de alerta associada. Os alertas são gerados para uma política de conformidade de comunicação quando o nível limite do gatilho de agregação é atendido na política de alerta associada.
 
 Para políticas de conformidade de comunicação, os seguintes valores de política de alerta são configurados por padrão:
 
@@ -316,13 +316,13 @@ Para políticas de conformidade de comunicação, os seguintes valores de polít
 >[!Note]
 >As configurações de gatilho de limite de política de alerta para atividades suportam um valor mínimo de 3 ou superior para políticas de conformidade de comunicação.
 
-Você pode alterar as configurações padrão para gatilhos no número de atividades &,  período para as atividades e para usuários específicos em políticas de alerta na página Políticas de alerta no Centro de Conformidade e Segurança.
+Você pode alterar as configurações padrão para gatilhos no número de atividades, período  para as atividades e para usuários específicos em políticas de alerta na página Políticas de alerta no Centro de Conformidade e & Segurança.
 
 ### <a name="change-the-severity-level-for-an-alert-policy"></a>Alterar o nível de severidade de uma política de alerta
 
 Se você quiser alterar o nível de severidade atribuído em uma política de alerta para uma política de conformidade de comunicação específica, conclua as seguintes etapas:
 
-1. Entre usando [https://compliance.microsoft.com](https://compliance.microsoft.com) credenciais para uma conta de administrador em sua organização do Microsoft 365.
+1. Entre usando [https://compliance.microsoft.com](https://compliance.microsoft.com) credenciais para uma conta de administrador na sua organização do Microsoft 365.
 
 2. No centro de conformidade do Microsoft 365, vá para **Políticas.**
 
@@ -340,7 +340,7 @@ Se você quiser alterar o nível de severidade atribuído em uma política de al
 
 [O Microsoft Power Automate é](https://docs.microsoft.com/power-automate/getting-started) um serviço de fluxo de trabalho que automatiza ações entre aplicativos e serviços. Usando fluxos de modelos ou criados manualmente, você pode automatizar tarefas comuns associadas a esses aplicativos e serviços. Ao habilitar fluxos do Power Automate para conformidade de comunicação, você pode automatizar tarefas importantes para alertas e usuários. Você pode configurar fluxos do Power Automate para notificar gerentes quando os usuários têm alertas de conformidade de comunicação e outros aplicativos.
 
-Os clientes com assinaturas do Microsoft 365 que incluem conformidade de comunicação não precisam de licenças adicionais do Power Automate para usar o modelo do Power Automate de conformidade de comunicação padrão recomendado. O modelo padrão pode ser personalizado para dar suporte à sua organização e abranger os principais cenários de conformidade de comunicação. Se você optar por usar recursos premium do Power Automate nesses modelos, criar um modelo personalizado usando o conector de conformidade do Microsoft 365 ou usar modelos do Power Automate para outras áreas de conformidade no Microsoft 365, talvez você precise de licenças adicionais do Power Automate.
+Os clientes com assinaturas do Microsoft 365 que incluem conformidade de comunicação não precisam de licenças adicionais do Power Automate para usar o modelo do Power Automate de conformidade de comunicação padrão recomendado. O modelo padrão pode ser personalizado para dar suporte à sua organização e abranger os principais cenários de conformidade de comunicação. Se você optar por usar recursos premium do Power Automate nesses modelos, crie um modelo personalizado usando o conector de conformidade do Microsoft 365 ou use modelos do Power Automate para outras áreas de conformidade no Microsoft 365, talvez você precise de licenças adicionais do Power Automate.
 
 >[!IMPORTANT]
 >Você está recebendo solicitações de validação de licença adicionais ao testar fluxos do Power Automate? Sua organização pode não ter recebido atualizações de serviço para esse recurso de visualização ainda. As atualizações estão sendo implantadas e todas as organizações com assinaturas do Microsoft 365 que incluem conformidade de comunicação devem ter suporte de licença para fluxos criados a partir dos modelos recomendados do Power Automate até 30 de outubro de 2020.
@@ -372,7 +372,7 @@ Conclua as seguintes etapas para criar um fluxo do Power Automate a partir de um
 
 ### <a name="share-a-power-automate-flow"></a>Compartilhar um fluxo do Power Automate
 
-Por padrão, os fluxos do Power Automate criados por um usuário estão disponíveis apenas para esse usuário. Para que outros usuários de conformidade de comunicação tenham acesso e usem um fluxo, o fluxo deve ser compartilhado pelo criador do fluxo. Para compartilhar um fluxo, você usará o controle **do Power Automate** ao trabalhar diretamente em um alerta.
+Por padrão, os fluxos do Power Automate criados por um usuário só estão disponíveis para esse usuário. Para que outros usuários de conformidade de comunicação tenham acesso e usem um fluxo, o fluxo deve ser compartilhado pelo criador do fluxo. Para compartilhar um fluxo, você usará o controle **do Power Automate** ao trabalhar diretamente em um alerta.
 
 Para compartilhar um fluxo do Power Automate, você deve ser membro de pelo menos um grupo de função de conformidade de comunicação.
 Conclua as seguintes etapas para compartilhar um fluxo do Power Automate:
@@ -393,7 +393,7 @@ Conclua as seguintes etapas para editar um fluxo do Power Automate:
 
 1. No centro de conformidade do Microsoft 365, vá para Políticas de conformidade de comunicação e selecione a política com o  >   alerta que você deseja analisar.
 2. Na política, selecione a guia **Pendente** e selecione um alerta pendente.
-3. Selecione **Power Automate** no menu de ação de alerta.
+3. Selecione **o Power Automate** no menu de ação de alerta.
 4. Na página **fluxos do Power Automate,** selecione o fluxo para editar. Selecione **Editar** no menu de controle de fluxo.
 5. Selecione as **configurações de re elipse** para alterar uma configuração de componente de fluxo ou  >   re **elipses**  >  **Excluir** para excluir um componente de fluxo.
 6. Selecione **Salvar** e **Feche para** concluir a edição do fluxo.
@@ -421,9 +421,9 @@ O **painel Relatórios** contém os seguintes widgets de relatório e links deta
 - **Usuários com a maioria do** widget de política de match: exibe os usuários (ou nomes de usuário anônimos) e o número de diretivas que corresponde a um determinado período.
 - **Política com o** widget mais coincidente: exibe as políticas e o número de partidas para um determinado período, classificados de forma mais alta para menor para as combinações.
 - **Escalonamentos por** widget de política: exibe o número de escalonamentos por política em um determinado tempo.
-- **Configurações de** política e relatório detalhado de status: fornece uma análise detalhada das configurações e das configurações de política, bem como o status geral de cada política (combinações e ações) nas mensagens. Use a *opção Exportar* para criar um . Arquivo CSV contendo os detalhes do relatório.
-- **Itens e ações por relatório detalhado** de política: Revisar e exportar itens correspondentes e ações de correção por política. Use a *opção Exportar* para criar um . Arquivo CSV que contém os detalhes do relatório.
-- **Item e ações por relatório** detalhado de local: revisar e exportar itens correspondentes e ações de correção por local do Microsoft 365. Use a *opção Exportar* para criar um . Arquivo CSV contendo os detalhes do relatório.
+- **Configurações de** política e relatório detalhado de status: fornece uma análise detalhada da configuração e das configurações de política, bem como o status geral de cada política (combinações e ações) nas mensagens. Use a *opção Exportar* para criar um . Arquivo CSV contendo os detalhes do relatório.
+- **Itens e ações por relatório detalhado** de política: Revisar e exportar itens correspondentes e ações de correção por política. Use a *opção Exportar* para criar um . Arquivo CSV contendo os detalhes do relatório.
+- **Item e ações por relatório** detalhado de local: Revisar e exportar itens correspondentes e ações de correção por local do Microsoft 365. Use a *opção Exportar* para criar um . Arquivo CSV contendo os detalhes do relatório.
 
 ## <a name="audit"></a>Auditoria
 
@@ -441,14 +441,14 @@ Para exibir as atividades de atualização da política de conformidade de comun
 | **Operations** | As operações de atualização executadas na política. |
 | **AuditData** | Esse campo é a principal fonte de dados para todas as atividades de atualização de política. Todas as atividades de atualização são registradas e separadas por delimitadores de vírgula. |
 
-Para exibir as atividades de revisão de conformidade de comunicação de uma política, selecione o **controle** de atividades de revisão de exportação na página **Visão** geral de uma política específica. Você deve ter as funções administrador *global* ou administrador de conformidade *de comunicação* para exportar atividades de revisão. Essa ação gera um arquivo de auditoria no formato .csv que contém as seguintes informações:
+Para exibir as atividades de revisão de conformidade de comunicação de uma política, selecione o **controle** de atividades de revisão de exportação na página **Visão** geral de uma política específica. Você deve ter as funções de Administrador *Global* ou Administrador de Conformidade de *Comunicação* para exportar as atividades de revisão. Essa ação gera um arquivo de auditoria no formato .csv que contém as seguintes informações:
 
 |**Field**|**Detalhes**|
 |:-----|:-----|
 | **CreationDate** | A data em que a atividade de revisão foi executada em uma política. |
 | **UserIds** | O usuário que realizou a atividade de revisão em uma política. |
 | **Operations** | As operações de revisão executadas na política. |
-| **AuditData** | Esse campo é a principal fonte de dados para todas as atividades de revisão de política. Todas as atividades de revisão são gravadas e separadas por delimitadores de vírgula. |
+| **AuditData** | Esse campo é a principal fonte de dados para todas as atividades de revisão de política. Todas as atividades de revisão são registradas e separadas por delimitadores de vírgula. |
 
 Você também pode exibir as atividades de auditoria no log de auditoria unificado ou com o cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) PowerShell.
 

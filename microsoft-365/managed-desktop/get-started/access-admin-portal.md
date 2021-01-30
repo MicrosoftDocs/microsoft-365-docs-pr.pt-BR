@@ -10,19 +10,19 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 09427d163b8b5e47911b6df26e5acf0fcd1f3524
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: c2a5b7f837d6c43369301820019732ca3aef83bf
+ms.sourcegitcommit: ea8a096df5acedecdce1780969f2b189c3fadf73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841346"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50053842"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 
-Seu gateway para o serviço de Área de Trabalho Gerenciada da Microsoft é o portal do Microsoft [Azure.](https://portal.azure.com) Para saber mais sobre como usar e personalizar sua experiência de portal do Azure em geral, consulte a [documentação do portal do Azure.](https://docs.microsoft.com/azure/azure-portal/) Disponível na visualização agora, você também pode encontrar a Área de Trabalho Gerenciada da Microsoft no [Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) Se você não estiver familiarizado com os recursos deste portal para gerenciamento de dispositivos, consulte a documentação [do Microsoft Endpoint Manager.](https://docs.microsoft.com/mem/)
+Seu gateway para o serviço de Área de Trabalho Gerenciada da Microsoft é [o Microsoft Endpoint Manager.](https://endpoint.microsoft.com/) Se você não estiver familiarizado com os recursos deste portal para gerenciamento de dispositivos, consulte a documentação [do Microsoft Endpoint Manager.](https://docs.microsoft.com/mem/)
 
 > [!NOTE]
-> No entanto, você escolhe acessar a Área de Trabalho Gerenciada da Microsoft, no [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) ou no portal do [Azure,](https://portal.azure.com)os seguintes navegadores são suportados:
+> No [Microsoft Endpoint Manager,](https://endpoint.microsoft.com/) os seguintes navegadores são suportados:
 > - Microsoft Edge (versão mais recente)
 > - Microsoft Internet Explorer 11
 > - Safari (versão mais recente, somente Mac)
@@ -35,9 +35,9 @@ Cada uma das funções abaixo pode ser atribuída para fornecer níveis diferent
 
 |Função do Azure AD  |Permissões da Área de Trabalho Gerenciada da Microsoft  |
 |---------|---------|
-|Administrador Global     | Os administradores com essa função terão **permissões de leitura** e gravação para todos os recursos no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
+|Administrador Global     | Os administradores com essa função terão permissões de leitura e **gravação para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
 |Leitor global     | Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
-|Administrador de Serviços do Intune     |  Os administradores com essa função terão **permissões de leitura** e gravação para recursos não relacionados à segurança no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.       |
+|Administrador de Serviços do Intune     |  Os administradores com essa função terão permissões de **leitura** e gravação para recursos não relacionados à segurança no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.       |
 |Administrador de Suporte ao Serviço     | Os administradores com  essa função terão permissões somente leitura  para recursos não relacionados à segurança e permissões de gravação para gerenciar solicitações de suporte no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
 |Administrador de Segurança | Os administradores com  essa função terão permissões somente  leitura para todos os recursos e permissões de gravação para recursos relacionados à segurança na Área de Trabalho Gerenciada da Microsoft no portal de administração. |
 |Leitor de segurança |Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.|
@@ -64,7 +64,7 @@ Para facilitar o gerenciamento de funções internas, há um grupo de segurança
 2.  Selecione **Grupos** no lado esquerdo.
 3.  Pesquise **funções** de local de trabalho modernas e selecione o grupo associado à função que você deseja atribuir. 
 4.  Selecione **Membros** no lado esquerdo e, em seguida, **selecione + Adicionar membros** na barra de comandos.
-5.  Insira o email da pessoa que está sendo adicionada. Se ele for um convidado, você deve convidá-lo antes de atribuir o grupo.
+5.  Insira o email da pessoa que está sendo adicionada. Se eles são convidados, você deve convidá-los antes de atribuir o grupo.
 6.  Selecione **Selecionar** na parte inferior.
 
 > [!NOTE]

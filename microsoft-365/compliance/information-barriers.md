@@ -16,12 +16,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6ca1502c16accc0d9d9c0453e407eadaeb4c12e5
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: 4a0200b894bcdbc734bb90e25eff8c52848d7b65
+ms.sourcegitcommit: ea8a096df5acedecdce1780969f2b189c3fadf73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980064"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50053808"
 ---
 # <a name="learn-about-information-barriers-in-microsoft-365"></a>Saiba mais sobre barreiras de informações no Microsoft 365
 
@@ -33,20 +33,21 @@ O Microsoft Teams, o SharePoint Online e o OneDrive for Business suportam barrei
 - A equipe de finanças que trabalha com informações confidenciais da empresa não deve se comunicar ou compartilhar arquivos com determinados grupos dentro da organização
 - Uma equipe interna com material de segredos comerciais não deve ligar ou conversar online com pessoas de determinados grupos dentro da organização
 - Uma equipe de pesquisa só deve ligar ou conversar online com uma equipe de desenvolvimento de produtos
+- Um site para o grupo de comerciantes de dia não deve ser compartilhado ou acessado por qualquer pessoa fora do grupo de comerciantes de dia
 
 > [!IMPORTANT]
-> Barreiras de informações ***só oferece suporte a** restrições de duas vias. Restrições de uma via, como marketing, podem se comunicar com comerciantes de dia, mas os comerciantes de dia não podem se comunicar com marketing _*_não é suportado_**.
+> Barreiras de informações ***só oferece suporte a** restrições de duas vias. Restrições de uma via, como marketing, podem se comunicar e colaborar com comerciantes de dia, mas os comerciantes de dia não podem se comunicar e colaborar com marketing _*_não é suportado_**.
 
-Para todos esses cenários de exemplo (e muito mais), as políticas de barreira de informações podem ser definidas para impedir ou permitir comunicações no Microsoft Teams. Essas políticas podem impedir que as pessoas conversem ou ligarem ou conversarem com as pessoas que não deveriam ou permitir que as pessoas se comuniquem apenas com grupos específicos no Microsoft Teams. Com as políticas de barreira de informações em vigor, sempre que os usuários cobertos por essas políticas tentarem se comunicar com outras pessoas no Microsoft Teams, as verificações são feitas para impedir (ou permitir) a comunicação (conforme definido pelas políticas de barreira de informações). Para saber mais sobre a experiência do usuário com barreiras de informações, confira as [barreiras de informações no Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
+Para todos esses cenários de exemplo (e muito mais), as políticas de barreira de informações podem ser definidas para impedir ou permitir comunicações e colaboração no Microsoft Teams, SharePoint Online e OneDrive. Essas políticas podem impedir que as pessoas ligarem ou conversarem com aqueles que não deveriam ou permitir que as pessoas se comuniquem apenas com grupos específicos no Microsoft Teams. Com as políticas de barreira de informações em vigor, sempre que os usuários cobertos por essas políticas tentarem se comunicar e colaborar com outras pessoas no Microsoft Teams, as verificações do SharePoint Online ou do OneDrive são feitas para impedir (ou permitir) a comunicação e a colaboração (conforme definido pelas políticas de barreira de informações). Para saber mais sobre a experiência do usuário com barreiras de informações, confira [barreiras](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams) de informações no Microsoft Teams e [barreiras de informações no SharePoint Online](https://docs.microsoft.com/sharepoint/information-barriers)
 
 > [!IMPORTANT]
-> Atualmente, as barreiras de informações não se aplicam às comunicações por email. Além disso, as barreiras de informações são independentes dos limites [de conformidade.](set-up-compliance-boundaries.md)<p> Antes de definir e aplicar políticas de barreira de informações, certifique-se de que sua organização não tenha políticas de agenda do [Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) em vigor. (As barreiras de informações são baseadas em políticas do livro de endereços.)
+> Atualmente, as barreiras de informações não se aplicam às comunicações por email. Além disso, as barreiras de informações são independentes dos limites [de conformidade.](set-up-compliance-boundaries.md)<p> Antes de definir e aplicar políticas de barreira de informações, certifique-se de que sua organização não tenha políticas de agenda do [Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) em vigor. (As barreiras de informações são baseadas em políticas de agendamento de endereços.)
 
 ## <a name="what-happens-with-information-barriers"></a>O que acontece com barreiras de informações
 
-Quando as políticas de barreira de informações estão em uso, as pessoas que não devem se comunicar ou compartilhar arquivos com outros usuários específicos não poderão encontrar, selecionar, conversar ou ligar para esses usuários. Com barreiras de informações, as verificações são realizadas para evitar a comunicação não autorizada.
+Quando as políticas de barreira de informações estão em uso, as pessoas que não devem se comunicar ou compartilhar arquivos com outros usuários específicos não poderão encontrar, selecionar, conversar ou ligar para esses usuários. Com barreiras de informações, as verificações são realizadas para evitar a comunicação e a colaboração não autorizadas. 
 
-Inicialmente, as barreiras de informações se aplicam somente a chats e canais do Microsoft Teams. No Microsoft Teams, as políticas de barreira de informações determinam e impedem os seguintes tipos de comunicações não autorizadas:
+As barreiras de informações se aplica ao Microsoft Teams (chats e canais), SharePoint Online e OneDrive. No Microsoft Teams, as políticas de barreira de informações determinam e impedem os seguintes tipos de comunicações não autorizadas:
 
 - Pesquisar um usuário
 - Adicionar um membro a uma equipe
@@ -61,6 +62,15 @@ Inicialmente, as barreiras de informações se aplicam somente a chats e canais 
 Se as pessoas envolvidas estão incluídas em uma política de barreira de informações para impedir a atividade, elas não poderão continuar. Além disso, potencialmente, todas as pessoas incluídas em uma política de barreira de informações podem ser impedidas de se comunicar com outras pessoas no Microsoft Teams. Quando as pessoas afetadas por políticas de barreira de informações fazem parte da mesma equipe ou chat em grupo, elas podem ser removidas dessas sessões de chat e a comunicação posterior com o grupo pode não ser permitida.
 
 Para saber mais sobre a experiência do usuário com barreiras de informações, confira as [barreiras de informações no Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
+
+No SharePoint Online e no OneDrive, as políticas de barreira de informações determinam e impedem os seguintes tipos de colaborações não autorizadas:
+
+- Adicionando um membro a um site
+- Acessar site ou conteúdo por um usuário
+- Compartilhar site ou conteúdo com outro usuário
+- Pesquisar um site 
+
+Para saber mais sobre a experiência do usuário com barreiras de informações, confira [barreiras de informações no SharePoint Online](https://docs.microsoft.com/sharepoint/information-barriers)
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 

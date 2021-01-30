@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: As caixas de correio compartilhadas são usadas quando várias pessoas precisam acessar a mesma caixa de correio. Saiba o que você precisa saber antes de criar uma caixa de correio compartilhada.
-ms.openlocfilehash: 744c4fece24cf1fa5ee7259a0d722ff123ff2664
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: c8d29ac2dfe8670181064e61a7fba145ae00fed1
+ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926505"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "50058442"
 ---
 # <a name="about-shared-mailboxes"></a>Sobre as caixas de correio compartilhadas
 
@@ -58,6 +58,10 @@ Antes de [criar uma caixa de correio compartilhada,](create-a-shared-mailbox.md)
 - **Muitos usuários:** Quando há muitos usuários designados acessando simultaneamente uma caixa de correio compartilhada, eles podem falhar intermitentemente ao se conectar a essa caixa de correio. Nesse caso, você pode considerar reduzir o número de usuários ou usar uma carga de trabalho diferente, como um grupo do Microsoft 365 ou uma pasta pública.
 
 - **Exclusão de mensagem:** Infelizmente, não é possível impedir que as pessoas excluindo mensagens em uma caixa de correio compartilhada. A única maneira de fazer isso é criar um grupo do Microsoft 365 em vez de uma caixa de correio compartilhada. Um grupo no Outlook é como uma caixa de correio compartilhada. Para ver uma comparação entre os dois, confira [Comparar grupos.](../create-groups/compare-groups.md) Para saber mais sobre grupos, confira [Saiba mais sobre grupos.](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+
+
+> [!NOTE]
+> Para acessar uma caixa de correio compartilhada, um usuário deve ter uma licença do Exchange Online, mas a caixa de correio compartilhada não exige uma licença separada. Sem uma licença, as caixas de correio compartilhadas são limitadas a 50 GB. Para aumentar o limite de tamanho para 100 GB, a caixa de correio compartilhada deve ser atribuída uma licença do Plano 2 do Exchange Online ou uma licença do Plano 1 do Exchange Online com uma licença complementar de Arquivamento do Exchange Online. Isso também permitirá que você habilite o arquivamento automático para uma quantidade ilimitada de capacidade de armazenamento de arquivos. Da mesma forma, se você deseja colocar uma caixa de correio compartilhada em retenção de litígio, a caixa de correio compartilhada deve ter uma licença Exchange Online Plano 2 ou uma licença Exchange Online Plano 1 com uma licença complementar de Arquivamento do Exchange Online. Se você quiser aplicar recursos avançados, como o Microsoft Defender para Office 365, Descoberta Automática Ou políticas de retenção automática, a caixa de correio compartilhada deverá ser licenciada para esses recursos.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
