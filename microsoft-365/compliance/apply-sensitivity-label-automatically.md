@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 40cb270ee7084b50ed9ef58b9598f16e76dffa36
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 190b06a719775fbbf14c94a4fd817d3242a95e6c
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929487"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044741"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -138,7 +138,7 @@ Também de forma semelhante à configuração da política DLP, você pode escol
 
 ### <a name="configuring-trainable-classifiers-for-a-label"></a>Configurar classificadores treináveis para um rótulo
 
-Esta opção está atualmente no modo de visualização.
+Esta opção está atualmente no modo de visualização. Se você usar esta opção, certifique-se de que publicou no seu locatário pelo menos um outro rótulo de confidencialidade configurado para auto-rotulagem e a [opção de tipos de informações confidenciais](#configuring-sensitive-info-types-for-a-label).
 
 Ao selecionar a opção **Classificadores treináveis**, selecione um ou mais classificadores internos da Microsoft Corporation. Se você tiver criado seus próprios classificadores treináveis, eles também estão disponíveis para selecionar:
 
