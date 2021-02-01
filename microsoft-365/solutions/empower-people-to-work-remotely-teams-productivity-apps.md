@@ -17,21 +17,24 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Permita que seus usuários sejam produtivos com o Teams, Exchange, Microsoft Office SharePoint Online e outros serviços do Microsoft 365.
-ms.openlocfilehash: 57e862769533b8c076513874e7f6daafdbe836da
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: ce19085a358861238e9a7cd4d650246d08fd272d
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681403"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055480"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Etapa 5. Implantar aplicativos e serviços de produtividade de trabalhador remoto
 
 Para serem produtivas, as pessoas precisam se comunicar e colaborar umas com as outras. Elas precisam se reunir, conversar por voz e texto, criar novos conteúdos e compartilhar informações e arquivos, trocar emails e gerenciar calendários e tarefas. O Microsoft 365 fornece serviços baseados em nuvem para todas estas funções importantes:
 
-- Para manter as pessoas conectadas enquanto trabalham separadas, use o Microsoft Teams, que fornece um hub comum de comunicação para reuniões, chats e armazenamento de arquivos para a organização, departamentos e pequenas equipes e indivíduos. 
-- Para trocar emails e gerenciar calendários, contatos e tarefas, use o Exchange Online e o cliente Outlook.
-- Para armazenar e colaborar em arquivos, use o Microsoft Office SharePoint Online e o OneDrive. Você pode usá-los em um navegador da web ou no Teams.
-- Para criar novos conteúdos ou colaborar em conteúdos existentes, os Aplicativos do Microsoft 365 são versões do Word, PowerPoint, Excel e Outlook instaladas no computador local e recebem atualizações contínuas de recursos e segurança.
+| Função IT | Componentes do Microsoft 365 | Descrição |
+|:-------|:-----|:-------|
+| Serviços de email | Exchange Online | Troque email e gerencie calendários, contatos e tarefas com o cliente Outlook. |
+| Chat organizacional, voz sobre IP (VOIP) e colaboração baseada em equipe | Microsoft Teams | Mantenha as pessoas conectadas enquanto trabalham separadas com um hub comum de comunicação para reuniões, chats e armazenamento de arquivos para a organização, departamentos e para pequenas equipes e indivíduos. |
+| Sites de intranet, colaboração de documentos | SharePoint e OneDrive | Armazene e colabore em arquivos em um navegador da web ou no Teams. |
+| Aplicativos para desktop e dispositivos móveis do Office | Microsoft 365 Apps | Crie novo conteúdo ou colabore em conteúdo existente com versões do Word, PowerPoint, Excel e Outlook que são instaladas em seu computador local e receba recursos contínuos e atualizações de segurança. |
+||||
 
 ![Usar o Teams, o Outlook, o SharePoint, o OneDrive e os aplicativos do Microsoft 365 para se manterem produtivos](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
 

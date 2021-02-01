@@ -18,12 +18,12 @@ ms.collection:
 - M365initiative-coredeploy
 ms.custom: seo-marvel-jun2020
 description: Certifique-se de ter habilitado todos os recursos do Microsoft 365 para maximizar a produtividade do trabalhador remoto e manter o acesso seguro aos seus servidores, dados e nuvem.
-ms.openlocfilehash: c6f17f2a80fa37abe43ceabc7a06c86c80eeadbd
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.openlocfilehash: aa72ba0c47acdd507bf86a082c9b4c2a87e3f1ef
+ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616351"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055514"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Capacite funcionários remotos com o Microsoft 365
 
@@ -37,11 +37,16 @@ O Microsoft 365 tem os recursos para permitir que seus funcionários trabalhem r
 
 ![Capacite funcionários remotos com o Microsoft 365](../media/empower-people-to-work-remotely/2-m365-remoteworker-solution-businessoverview.png)
 
-Assista a esse vídeo para obter uma visão geral do processo de implantação.
+>[!Note]
+>Se você é novo no Microsoft 365, confira [estes recursos](https://www.microsoft.com/microsoft-365).
+>
+
+Assista a esse vídeo para obter uma visão geral do processo de implementação.
+<br>
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4F1af]
 
-Esta solução fornece esses recursos essenciais.
+Para profissionais de TI que gerenciam infraestrutura local e baseada em nuvem para permitir a produtividade do funcionário, esta solução oferece estes recursos principais:
 
 - Conectado
 

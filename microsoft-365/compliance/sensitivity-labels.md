@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 2a4b66de9996ec0ea7047ca44ae3750a917c4cc2
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 2e334e57b84bea7985983527e600be731e4de20c
+ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921675"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "50058514"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -42,6 +42,11 @@ Exemplo mostrando os rótulos de confidencialidade disponíveis no Excel, na gui
 ![Rótulo de confidencialidade na faixa de opções e barra de status do Excel](../media/Sensitivity-label-in-Excel.png)
 
 Para aplicar rótulos de confidencialidade, os usuários devem ter entrado com sua conta Microsoft 365 do trabalho ou da escola.
+
+> [!NOTE]
+> Rótulos de confidencialidade são recentemente suportados para locatários do governo dos EUA (GCC e GCC-H). Para obter mais informações, confira as notas de lançamento do Microsoft 365 Apps para Grandes Empresas, [Versão 2101: 26 de janeiro](https://docs.microsoft.com/officeupdates/current-channel#version-2101-january-26).
+>
+> Para o cliente e scanner de rotulagem unificada da Proteção de Informações do Azure, confira [Descrição do serviço governamental premium da Proteção de Informações do Azure](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description).
 
 Você pode usar rótulos de confidencialidade para:
   
@@ -195,7 +200,7 @@ Ao configurar uma política de rótulo, você pode:
 
     ![Link do Saiba mais no botão Confidencialidade na faixa de opções](../media/Sensitivity-label-learn-more.png)
 
-Após ser criada uma política de rótulo que atribui novos rótulos de confidencialidade a usuários e grupos, esses rótulos estarão visíveis para os usuários em seus aplicativos do Office dentro de 30 minutos. No entanto, é preciso aguardar até 24 horas para as alterações desses rótulos.
+Depois de criar uma política de rótulo que atribui novos rótulos de confidencialidade a usuários e grupos, os usuários começam a ver esses rótulos em seus aplicativos do Office. Aguarde até 24 horas para que as alterações mais recentes sejam replicadas em sua organização.
 
 Não há limite para o número de rótulos de confidencialidade que você pode criar e publicar, com uma exceção: se o rótulo aplicar criptografia, o máximo que pode ser criado é de 500 rótulos. No entanto, como prática recomendada para diminuir as despesas gerais do administrador e reduzir a complexidade para seus usuários, tente manter o número mínimo de rótulos. As implantações no mundo real provaram que a eficácia é visivelmente reduzida quando os usuários têm mais de cinco rótulos principais ou mais de cinco sub-rótulos por rótulo principal.
 
@@ -268,4 +273,4 @@ Você também pode saber mais sobre [soluções de parceiro que estão integrada
 
 ## <a name="deployment-guidance"></a>Guia de implantação
 
-Para planejamento de implantação e orientação que inclui informações de licenciamento, permissões, estratégia de implantação, uma lista de cenários suportados e documentação do usuário final, confira [Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md).
+Para planejamento de implantação e orientação que inclui informações de licenciamento, permissões, estratégia de implantação, uma lista de cenários com suporte e documentação do usuário final, confira [Introdução aos rótulos de sensibilidade](get-started-with-sensitivity-labels.md).

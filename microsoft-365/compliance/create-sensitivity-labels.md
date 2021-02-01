@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: 10d677eb328ee002e187b098fa44b09372b59f72
-ms.sourcegitcommit: 7e003ee0a06f61bfb9f80441c3479fa3148afafe
+ms.openlocfilehash: 816da1001593dc36d625a48d12a1e0ace86578bf
+ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49568323"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "50058494"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -59,7 +59,8 @@ O administrador global da sua organização tem permissões completas para criar
     
     ![Criar um rótulo de confidencialidade](../media/create-sensitivity-label-full.png)
     
-    Observação: por padrão, os locatários não têm nenhum rótulo e é preciso criá-los. Os rótulos na imagem de exemplo mostram rótulos padrão que foram [migrados do sistema de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
+    > [!NOTE]
+    > Por padrão, os locatários não têm rótulos e você deve criá-los. Os rótulos na imagem de exemplo mostram rótulos padrão que foram [migrados do sistema de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
 3. Na página **Definir o escopo deste rótulo**, as opções selecionadas determinam o escopo do rótulo para as configurações que você pode definir e onde eles estarão visíveis quando forem publicados:
     
@@ -88,7 +89,7 @@ Este botão inicia o assistente **Editar rótulo de confidencialidade**, que per
 Não exclua um rótulo se não estiver ciente do impacto dessa exclusão sobre os usuários. Para obter mais informações, confira a seção [Como remover e excluir rótulos](#removing-and-deleting-labels). 
 
 > [!NOTE]
-> Se você editar um rótulo que já foi publicado usando uma política de rótulo, etapas adicionais não serão necessárias quando você concluir o assistente. Por exemplo, não é necessário adicioná-lo a uma nova política de rótulos para que as alterações fiquem disponíveis para os mesmos usuários. No entanto, aguarde 24 horas para que as alterações sejam replicadas para usuários e serviços.
+> Se você editar um rótulo que já foi publicado usando uma política de rótulo, etapas adicionais não serão necessárias quando você concluir o assistente. Por exemplo, não é necessário adicioná-lo a uma nova política de rótulos para que as alterações fiquem disponíveis para os mesmos usuários. No entanto, aguarde até 24 horas para que as alterações sejam replicadas em todos os aplicativos e serviços.
 
 Até que você publique seus rótulos, eles não estarão disponíveis para seleção em aplicativos ou em serviços. Para publicar os rótulos, eles dever ser [adicionados a uma política de rótulos](#publish-sensitivity-labels-by-creating-a-label-policy).
 
@@ -155,7 +156,8 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
         
     ![Publicar rótulos](../media/publish-sensitivity-labels-full.png)
     
-    Observação: por padrão, os locatários não têm nenhuma política de rótulos e é preciso criá-las. 
+    > [!NOTE]
+    > Por padrão, os locatários não têm nenhuma política de rótulo e você deve criá-los. 
 
 3. No assistente, selecione **Escolha os rótulos de confidencialidade que deseja publicar**. Selecione os rótulos que você deseja disponibilizar nos aplicativos e serviços, e selecione **Adicionar**.
     
@@ -184,7 +186,7 @@ Para editar uma política de rótulo existente, selecione-a e, em seguida, selec
 
 Esse botão dá início ao assistente **Criar política**, que permite editar quais rótulos estão incluídos e as configurações de rótulo. Quando você concluir o assistente, todas as alterações serão replicadas automaticamente para os usuários e serviços selecionados.
 
-Os usuários conseguem ver os novos rótulos em seus aplicativos do Office dentro de uma hora. No entanto, é preciso aguardar 24 horas para que as alterações de rótulos existentes sejam replicadas para todos os usuários e serviços.
+Quando você usa a rotulagem integrada para Windows, macOS, iOS e Android, os usuários veem novos rótulos em seus aplicativos do Office em quatro horas e em uma hora para o Office na web. No entanto, aguarde até 24 horas para que as alterações sejam replicadas em todos os aplicativos e serviços.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de políticas de rótulo com o PowerShell do Centro de Conformidade e Segurança
 
