@@ -152,8 +152,6 @@
           href: encryption-sensitivity-labels.md
         - name: Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
           href: apply-sensitivity-label-automatically.md
-        - name: Exibição do uso do rótulo com análises de rótulo
-          href: label-analytics.md
         - name: 'Usar rótulos de confidencialidade para equipes, grupos e sites'
           href: sensitivity-labels-teams-groups-sites.md
         - name: Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive

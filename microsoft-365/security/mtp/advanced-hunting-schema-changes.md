@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 483fedd1fb152e3df5311c981b305e621ec2aec3
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3f03543b03dca5fe426700ffff4f5c6edb8fa3c7
+ms.sourcegitcommit: c550c1b5b9e67398fd95bfb0256c4f5c7930b2be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932197"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50066864"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Esquema de busca avançada - Alterações de nomeação
 
@@ -47,10 +47,32 @@ As alterações de nomeação são aplicadas automaticamente às consultas salva
 
 | Nome da tabela | Nome da coluna original | Novo nome de coluna | Motivo da alteração
 |--|--|--|--|
-| [EmailEvents](advanced-hunting-emailevents-table.md) | FinalEmailAction | EmailAction | Comentários dos clientes |
-| [EmailEvents](advanced-hunting-emailevents-table.md) | FinalEmailActionPolicy | EmailActionPolicy | Comentários dos clientes |
-| [EmailEvents](advanced-hunting-emailevents-table.md) | FinalEmailActionPolicyGuid | EmailActionPolicyGuid | Comentários dos clientes |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | `FinalEmailAction` | `EmailAction` | Comentários dos clientes |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | `FinalEmailActionPolicy` | `EmailActionPolicy` | Comentários dos clientes |
+| [EmailEvents](advanced-hunting-emailevents-table.md) | `FinalEmailActionPolicyGuid` | `EmailActionPolicyGuid` | Comentários dos clientes |
 
+## <a name="january-2021"></a>Janeiro de 2021
+
+| Nome da coluna | Nome do valor original | Nome do novo valor | Motivo da alteração
+|--|--|--|--|
+| `DetectionSource` | MCAS |    Microsoft Cloud App Security | Rebranding |
+| `DetectionSource` | WindowsDefenderAtp|   EDR| Rebranding |
+| `DetectionSource` | WindowsDefenderAv | Antivírus | Renomear |
+| `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Renomear |
+| `DetectionSource` | CustomerTI |  TI personalizada | Renomear |
+| `DetectionSource` | OfficeATP | Microsoft Defender para Office 365 | Renomear |
+| `DetectionSource` | MTP   | Microsoft 365 Defender | Renomear |
+| `DetectionSource` | AzureATP |    Microsoft Defender para Identidade? | Renomear |
+| `DetectionSource` | CustomDetection   | Detecção personalizada | Renomear |
+| `DetectionSource` | AutomatedInvestigation |Investigação automatizada | Rebranding |
+| `DetectionSource` | ThreatExperts | Especialistas em ameaças da Microsoft | Rebranding |
+| `DetectionSource` | TI de terceiros | Sensores de terceiros | Rebranding |
+| `ServiceSource` | O Microsoft Defender ATP| Proteção Avançada contra Ameaças do Microsoft Defender | Rebranding |
+|`ServiceSource` |Proteção contra Ameaças da Microsoft   | Microsoft 365 Defender | Rebranding |
+| `ServiceSource` | Office 365 ATP  |Microsoft Defender para Office 365 | Rebranding |
+| `ServiceSource` |Azure ATP    |Microsoft Defender para Identidade? | Rebranding |
+
+`DetectionSource`está disponível na [tabela AlertInfo.](advanced-hunting-alertinfo-table.md) `ServiceSource`está disponível nas [tabelas AlertEvidence](advanced-hunting-alertevidence-table.md) e [AlertInfo.](advanced-hunting-alertinfo-table.md) 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)

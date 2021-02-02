@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 10/16/2020
+ms.date: 2/1/2021
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,27 +16,27 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Exibir uma lista completa de certificados raiz e autoridades de certificação (CAs) no Microsoft 365.
-ms.openlocfilehash: 96499cbf2eae554ecddc9bc7bcf622db2515f980
-ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
+description: Veja uma lista completa de certificados raiz e autoridades de certificação (CAs) no Microsoft 365.
+ms.openlocfilehash: 3dd85ae9ec4e691c8b3dce03256e1afb1fcb6274
+ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905260"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50068926"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Cadeias de criptografia do Microsoft 365
 
-O Microsoft 365 aproveita vários provedores de certificados diferentes. O exemplo a seguir descreve a lista completa de certificados raiz conhecidos do Microsoft 365 que os clientes podem encontrar ao acessar o Microsoft 365. Para obter informações sobre os certificados que talvez seja necessário instalar em sua própria infraestrutura, consulte Planejar certificados SSL de terceiros para [o Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates) As informações de certificado a seguir se aplica a todas as instâncias de nuvem nacional e mundial do Microsoft 365.
+O Microsoft 365 aproveita vários provedores de certificados diferentes. O exemplo a seguir descreve a lista completa de certificados raiz conhecidos do Microsoft 365 que os clientes podem encontrar ao acessar o Microsoft 365. Para obter informações sobre os certificados que talvez você precise instalar em sua própria infraestrutura, consulte Planejar certificados SSL de terceiros para [o Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates) As informações de certificado a seguir se aplica a todas as instâncias de nuvem nacional e mundial do Microsoft 365.
 
 Last updated: **16/10/2020**
 
 >[!NOTE]
 >Para obter informações de certificado que se apliquem a clientes do DOD e **GCC High,** consulte cadeias de criptografia do [Microsoft 365 - DOD e GCC High](encryption-office-365-certificate-chains-itar.md).
 
-| **Tipo de certificado** | **Download P7b** | **Pontos de extremidade da CRL** | **Pontos de extremidade do OCSP** | **Pontos de extremidade do AIA** |
+| **Tipo de certificado** | **Download P7b** | **Pontos de extremidade de CRL** | **Pontos de extremidade do OCSP** | **Pontos de extremidade do AIA** |
 | --- | --- | --- | --- | --- |
 | Certificados raiz confiáveis publicamente | [Pacote de certificado raiz do Microsoft 365 (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | Não disponível | Não disponível |
-| Certificados Intermediários Confiáveis Publicamente | [Pacote de certificado intermediário do Microsoft 365 (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
+| Certificados Intermediários Confiáveis Publicamente | [Pacote de certificados intermediários do Microsoft 365 (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais sobre os provedores de certificados.
 
@@ -225,7 +225,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **Comprimento da Chave Pública** | RSA 2048 bits (e 65537) |
 | **Algoritmo de assinatura** | sha256RSA |
 | **Validade não anterior** | Abr 02 00:00:00 2008 UTC |
-| **Validade não após** | 01 de dez 23:59:59 2037 UTC |
+| **Validade não após** | Dezembro 01 23:59:59 2037 UTC |
 | **Identificador da chave do assunto** | ad:6c:aa:94:60:9c:ed:e4:ff:fa:3e:0a:74:2b:63:03:f7:b6:59:bf |
 | **Thumbprint (SHA-1)** | F18B538D1BE903B6A6F056435B171589CAF36BF2 |
 | **Thumbprint (SHA-256)** | 4B03F45807AD70F21BFC2CAE71C9FDE4604C064CF5FFB686BAE5DBAAD7FDD34C |
@@ -249,7 +249,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="cnnic-sha256-ssl"></a>**CNNIC SHA256 SSL**
 
-| **Assunto** | CN=TIMEIC SHA256 SSL <br>O=QUEIC SHA256 SSL <br>C=CN |
+| **Assunto** | CN=TIMEIC SHA256 SSL <br>O=TIMEIC SHA256 SSL <br>C=CN |
 | --- | --- |
 | **Emissor** | CN=RAIZ NOIC <br>O=VALORIC <br>C=CN |
 | **Número de série** | 49:33:00:7C |
@@ -321,6 +321,23 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **CRL URLs** | http://crl.digicert.cn/DigiCertGlobalRootCA.crl |
 | **OCSP URLs** | http://ocsp.digicert.cn |
 
+### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
+
+| **Assunto** | CN=DigiCert Cloud Services CA-1<br>O=DigiCert Inc<br>C=US |
+| --- | --- |
+| **Emissor** | CN=DigiCert Global Root CA<br>OU=www.digicert.com<br>O=DigiCert Inc<br>C=US |
+| **Número de série** | 01:9E:C1:C6:BD:3F:59:7B:B2:0C:33:38:E5:51:D8:77 |
+| **Comprimento da Chave Pública** | RSA 2048 bits |
+| **Algoritmo de assinatura** | sha256RSA |
+| **Validade não anterior** | 4 de agosto de 2015 00:00 |
+| **Validade não até** | August 4, 2030 12:00 AM |
+| **Identificador da chave do assunto** | dd:51:d0:a2:31:73:a9:73:ae:8f:b4:01:7e:5d:8c:57:cb:9f:f0:f7 |
+| **Identificador de Chave de Autoridade** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **Thumbprint (SHA-1)** | 81B68D6CD2f221F8F534E677523BB236BBA1DC56 |
+| **Thumbprint (SHA-256)** | 2F6889961A7CA7067E8BA103C2CF9B9A924F8CA293F11178E23A1978D2F133D3 |
+| **Pin (SHA-256)** | UgpUVparimk8QCjtWQaUQ7EGrtrykc/L8N66EhFY3VE= |
+| **CRL URLs** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **OCSP URLs** | http://ocsp.digicert.com |
 
 ### <a name="digicert-cloud-services-ca-1"></a>**DigiCert Cloud Services CA-1**
 
@@ -330,15 +347,15 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **Número de série** | 0F:17:1A:48:C6:F2:23:80:92:18:CD:2E:D6:DD:C0:E8 |
 | **Comprimento da Chave Pública** | RSA 2048 bits |
 | **Algoritmo de assinatura** | sha256RSA |
-| **Validade não anterior** | Quinta-feira, 24 de setembro de 2020 17:00 |
-| **Validade não até** | Terça-feira, 24 de setembro de 2030 16:59 |
-| **Identificador da chave do assunto** | DD51D0A23173A973AE8FB4017E5D8C57CB9FF0F7 |
-| **Identificador de Chave de Autoridade** | KeyID:03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
+| **Validade não anterior** | 25 de setembro de 2020 00:00 |
+| **Validade não após** | 24 de setembro de 2030 23:59 |
+| **Identificador da chave do assunto** | dd:51:d0:a2:31:73:a9:73:ae:8f:b4:01:7e:5d:8c:57:cb:9f:f0:f7 |
+| **Identificador de Chave de Autoridade** | 03:de:50:35:56:d1:4c:bb:66:f0:a3:e2:1b:1b:c3:97:b2:3d:d1:55 |
 | **Thumbprint (SHA-1)** | B3F6B64A07BB9611F47174407841F564FB991F29 |
-| **Thumbprint (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 |
+| **Thumbprint (SHA-256)** | 5F88694615E4C61686E106B84C3338C6720C535F60D36F61282ED15E1977DD44 | -
 | **Pin (SHA-256)** | UgpUVparimk8QCjtWQaUQ7EGrtrykc/L8N66EhFY3VE= |
-| **CRL URLs** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl <br> http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
-| **OCSP URLs** | http://ocsp.digicert.com |
+| **CRL URLs** | http://crl3.digicert.com/DigiCertGlobalRootCA.crl<br>http://crl4.digicert.com/DigiCertGlobalRootCA.crl |
+| **OCSP URLs** | http://ocsp.digicert.com
 
 ### <a name="digicert-sha2-extended-validation-server-ca"></a>**DigiCert SHA2 Extended Validation Server CA**
 
@@ -429,7 +446,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1c"></a>**Autoridade de Certificação Credencial - L1C**
 
-| **Assunto** | CN=Autoridade de Certificação de Confiança - L1C<br>OU= &quot; (c) 2009Corporated, Inc.&quot;<br>OU=www.corporated.net/rpa é incorporado por referência<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **Assunto** | CN=Autoridade de Certificação de Confiança - L1C<br>OU= &quot; (c) 2009 Entrust, Inc.&quot;<br>OU=www.corporated.net/rpa é incorporado por referência<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Authority Certification.net (2048)<br>OU=(c) 1999 Entrust.net Limitada<br>OU=www.entrust.net/CPS \_ 2048 incorp. por ref. (limits liab.)<br>O=Entrust.net |
 | **Número de série** | 4C:0E:8C:39 |

@@ -16,12 +16,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4a0200b894bcdbc734bb90e25eff8c52848d7b65
-ms.sourcegitcommit: ea8a096df5acedecdce1780969f2b189c3fadf73
+ms.openlocfilehash: 003347d46bed2529831a92681e73630d58a1f653
+ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50053808"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50071266"
 ---
 # <a name="learn-about-information-barriers-in-microsoft-365"></a>Saiba mais sobre barreiras de informações no Microsoft 365
 
@@ -38,10 +38,16 @@ O Microsoft Teams, o SharePoint Online e o OneDrive for Business suportam barrei
 > [!IMPORTANT]
 > Barreiras de informações ***só oferece suporte a** restrições de duas vias. Restrições de uma via, como marketing, podem se comunicar e colaborar com comerciantes de dia, mas os comerciantes de dia não podem se comunicar e colaborar com marketing _*_não é suportado_**.
 
-Para todos esses cenários de exemplo (e muito mais), as políticas de barreira de informações podem ser definidas para impedir ou permitir comunicações e colaboração no Microsoft Teams, SharePoint Online e OneDrive. Essas políticas podem impedir que as pessoas ligarem ou conversarem com aqueles que não deveriam ou permitir que as pessoas se comuniquem apenas com grupos específicos no Microsoft Teams. Com as políticas de barreira de informações em vigor, sempre que os usuários cobertos por essas políticas tentarem se comunicar e colaborar com outras pessoas no Microsoft Teams, as verificações do SharePoint Online ou do OneDrive são feitas para impedir (ou permitir) a comunicação e a colaboração (conforme definido pelas políticas de barreira de informações). Para saber mais sobre a experiência do usuário com barreiras de informações, confira [barreiras](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams) de informações no Microsoft Teams e [barreiras de informações no SharePoint Online](https://docs.microsoft.com/sharepoint/information-barriers)
+Para todos esses cenários de exemplo (e muito mais), as políticas de barreira de informações podem ser definidas para impedir ou permitir comunicações e colaboração no Microsoft Teams, SharePoint Online e OneDrive. Essas políticas podem impedir que as pessoas ligarem ou conversarem com aqueles que não deveriam ou permitir que as pessoas se comuniquem apenas com grupos específicos no Microsoft Teams. Com as políticas de barreira de informações em vigor, sempre que os usuários cobertos por essas políticas tentarem se comunicar e colaborar com outras pessoas no Microsoft Teams, as verificações do SharePoint Online ou do OneDrive são feitas para impedir (ou permitir) a comunicação e a colaboração (conforme definido pelas políticas de barreira de informações).
+
+Para saber mais sobre a experiência do usuário com barreiras de informações, consulte:
+
+- [Barreiras de informações no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams)
+- [Barreiras de informações no SharePoint Online](/sharepoint/information-barriers)
+- [Barreiras de informações no OneDrive](/onedrive/information-barriers)
 
 > [!IMPORTANT]
-> Atualmente, as barreiras de informações não se aplicam às comunicações por email. Além disso, as barreiras de informações são independentes dos limites [de conformidade.](set-up-compliance-boundaries.md)<p> Antes de definir e aplicar políticas de barreira de informações, certifique-se de que sua organização não tenha políticas de agenda do [Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) em vigor. (As barreiras de informações são baseadas em políticas de agendamento de endereços.)
+> Atualmente, as barreiras de informações não se aplicam às comunicações por email. Além disso, as barreiras de informações são independentes dos limites [de conformidade.](set-up-compliance-boundaries.md)<p> Antes de definir e aplicar políticas de barreira de informações, certifique-se de que sua organização não tenha políticas de agenda do [Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) em vigor. (As barreiras de informações são baseadas em políticas do livro de endereços.)
 
 ## <a name="what-happens-with-information-barriers"></a>O que acontece com barreiras de informações
 
@@ -53,7 +59,7 @@ As barreiras de informações se aplica ao Microsoft Teams (chats e canais), Sha
 - Adicionar um membro a uma equipe
 - Iniciando uma sessão de chat com alguém
 - Iniciando um chat em grupo
-- Convidar alguém para participar de uma reunião
+- Convidar alguém para ingressar em uma reunião
 - Compartilhando uma tela
 - Fazendo uma chamada
 - Compartilhando um arquivo com outro usuário
@@ -61,16 +67,16 @@ As barreiras de informações se aplica ao Microsoft Teams (chats e canais), Sha
 
 Se as pessoas envolvidas estão incluídas em uma política de barreira de informações para impedir a atividade, elas não poderão continuar. Além disso, potencialmente, todas as pessoas incluídas em uma política de barreira de informações podem ser impedidas de se comunicar com outras pessoas no Microsoft Teams. Quando as pessoas afetadas por políticas de barreira de informações fazem parte da mesma equipe ou chat em grupo, elas podem ser removidas dessas sessões de chat e a comunicação posterior com o grupo pode não ser permitida.
 
-Para saber mais sobre a experiência do usuário com barreiras de informações, confira as [barreiras de informações no Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
+Para saber mais sobre a experiência do usuário com barreiras de informações, confira as [barreiras de informações no Microsoft Teams.](/MicrosoftTeams/information-barriers-in-teams)
 
 No SharePoint Online e no OneDrive, as políticas de barreira de informações determinam e impedem os seguintes tipos de colaborações não autorizadas:
 
 - Adicionando um membro a um site
-- Acessar site ou conteúdo por um usuário
+- Acessando site ou conteúdo por um usuário
 - Compartilhar site ou conteúdo com outro usuário
-- Pesquisar um site 
+- Pesquisar um site
 
-Para saber mais sobre a experiência do usuário com barreiras de informações, confira [barreiras de informações no SharePoint Online](https://docs.microsoft.com/sharepoint/information-barriers)
+Para saber mais sobre a experiência do usuário com barreiras de informações, confira [barreiras de informações no SharePoint Online](/sharepoint/information-barriers)
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
@@ -84,7 +90,7 @@ Barreiras de informações estão sendo implantadas agora e estão incluídas em
 
 Para saber mais, confira as [diretrizes de licenciamento do Microsoft 365 para segurança & conformidade.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)
 
-Para [definir ou editar políticas de barreira de](information-barriers-policies.md)informações, você deve ter uma das seguintes funções:
+Para [definir ou editar políticas de barreira de](information-barriers-policies.md)informações, você deve ter uma das seguintes funções atribuídas:
 
 - Administrador global do Microsoft 365
 - Administrador global do Office 365
@@ -97,9 +103,9 @@ Você deve estar familiarizado com os cmdlets do PowerShell para definir, valida
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Saiba mais sobre barreiras de informações no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
+- [Saiba mais sobre barreiras de informações no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams)
+- [Saiba mais sobre barreiras de informações no SharePoint Online](/sharepoint/information-barriers)
+- [Saiba mais sobre barreiras de informações no OneDrive](/onedrive/information-barriers)
 - [Ver os atributos que podem ser usados para políticas de barreira de informações](information-barriers-attributes.md)
 - [Definir políticas para barreiras de informações](information-barriers-policies.md)
 - [Editar (ou remover) políticas de barreira de informações](information-barriers-edit-segments-policies.md)
-- [Saiba mais sobre barreiras de informações no SharePoint Online](https://docs.microsoft.com/sharepoint/information-barriers)
-- [Saiba mais sobre barreiras de informações no OneDrive for Business](https://docs.microsoft.com/onedrive/information-barriers)
