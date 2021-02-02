@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/15/2019
+ms.date: 02/01/2021
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Priority
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Fornece uma introdução aos componentes, planos e caminhos de implantação do Microsoft 365 para empresas.
-ms.openlocfilehash: 0916fa97daec166a7bae8b19e3c9efbd693f4874
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 324e5166dd722f9fcd682db7e536a4b864365025
+ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48846959"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50068960"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Visão geral do Microsoft 365 para empresas
 
@@ -85,7 +85,7 @@ Esse pôster de duas páginas é uma maneira rápida de fazer o inventário da i
 
 O [Windows 7](https://aka.ms/win7upgrade) chega ao fim do suporte em **14 de janeiro de 2020**.
 
-Estes produtos chegaram ao fim do suporte em **13 de outubro de 2020** :
+Estes produtos chegaram ao fim do suporte em **13 de outubro de 2020**:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](exchange-2010-end-of-support.md)
@@ -131,6 +131,24 @@ Para um exemplo de como uma organização multinacional fictícia mas representa
 - [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government)
 
   Capacite os funcionários do setor público dos Estados Unidos a trabalharem juntos, com segurança.
+
+## <a name="best-together-with-surface-and-the-edge-browser"></a>Melhor junto com Surface e o navegador Microsoft Edge
+
+Otimize a produtividade integrada e segura do seu usuário com a melhor combinação conjunta do Microsoft 365 para empresas, dispositivos Microsoft Surface e o navegador Microsoft Edge. Esta integração entre produtos oferece:
+
+- Uma identidade comum e infraestrutura de segurança de entrada.
+- Aplicativos locais e em nuvem integrados para pesquisa, colaboração, produtividade e conformidade.
+- Segurança abrangente e integrada para hardware, navegador, aplicativo local e aplicativos em nuvem.
+- Uma infra-estrutura comum para o gerenciamento de instalações e atualizações de TI.
+
+Aqui está um exemplo para uma organização empresarial.
+
+![Uma organização empresarial com o Microsoft 365, dispositivos Surface e o navegador Microsoft Edge](../media/microsoft-365-overview/best-together-with-surface-and-edge.png)
+
+Para obter mais informações e exemplos de configuração para uma pequena e média empresa e uma instituição educacional, baixe o [Cartaz Melhor Juntos](https://download.microsoft.com/download/2/8/d/28db0cf9-2f5a-4f63-91e2-46ff5c4d3baf/microsoft-best-together-poster.pdf).
+
+[![Imagem do poster para Melhor Juntos contendo o Surface e o navegador Microsoft Edge](../media/microsoft-365-overview/best-together-poster-thumbnail.png)](https://download.microsoft.com/download/2/8/d/28db0cf9-2f5a-4f63-91e2-46ff5c4d3baf/microsoft-best-together-poster.pdf)
+
 
 ## <a name="microsoft-365-training"></a>Treinamento do Microsoft 365
 
