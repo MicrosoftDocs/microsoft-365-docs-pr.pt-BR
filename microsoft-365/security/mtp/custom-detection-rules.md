@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8c7e47e66f9e5543cc122c5b5154207cae836d2a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d58292f658446259bfab5b1b55c8b462d081421c
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932917"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080618"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Criar e gerenciar regras de detecções personalizadas
 
@@ -35,7 +35,7 @@ ms.locfileid: "49932917"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Regras de detecção personalizadas são regras que você pode projetar e ajustar usando [consultas de busca](advanced-hunting-overview.md) avançada. Essas regras permitem monitorar proativamente vários eventos e estados do sistema, incluindo atividades suspeitas de violação e pontos de extremidade configurados incorretamente. Você pode defini-los para que sejam executados em intervalos regulares, gerando alertas e tomando ações de resposta sempre que houver resultados.
+Regras de detecção personalizadas são regras que você pode projetar e ajustar usando [consultas de busca](advanced-hunting-overview.md) avançada. Essas regras permitem monitorar proativamente vários eventos e estados do sistema, incluindo atividades suspeitas de violação e pontos de extremidade configurados incorretamente. Você pode defini-los para executar em intervalos regulares, gerando alertas e tomando ações de resposta sempre que houver resultados.
 
 ## <a name="required-permissions-for-managing-custom-detections"></a>Permissões necessárias para gerenciar detecções personalizadas
 
@@ -47,7 +47,7 @@ Para gerenciar detecções personalizadas, você precisa ter uma destas funçõe
 
 Para gerenciar as permissões necessárias, um **administrador global** pode:
 
-- Atribua **a função de administrador de** segurança **ou** operador de segurança no Centro de administração do [Microsoft 365](https://admin.microsoft.com/) sob **o administrador de Segurança** de  >  **Funções.**
+- Atribua **a função de administrador de** segurança **ou** operador de segurança no centro de administração do [Microsoft 365](https://admin.microsoft.com/) sob **o administrador de Segurança** de  >  **Funções.**
 - Verifique as configurações do RBAC para o Microsoft Defender para o ponto de extremidade na Central de Segurança do [Microsoft Defender](https://securitycenter.windows.com/) em **Funções** de  >  **Permissões de**  >  **Configurações.** Selecione a função correspondente para atribuir a **permissão gerenciar configurações de** segurança.
 
 > [!NOTE]
@@ -85,7 +85,7 @@ Para criar uma regra de detecção personalizada, a consulta deve retornar as se
 >[!NOTE]
 >O suporte para entidades adicionais será adicionado à medida que novas tabelas são adicionadas ao [esquema de busca avançada.](advanced-hunting-schema-tables.md)
 
-Consultas simples, como aquelas que não usam o operador ou para personalizar ou agregar resultados, normalmente `project` `summarize` retornam essas colunas comuns.
+Consultas simples, como aquelas que não usam o operador ou o operador para personalizar ou agregar resultados, normalmente `project` `summarize` retornam essas colunas comuns.
 
 Há várias maneiras de garantir que consultas mais complexas retornem essas colunas. Por exemplo, se você preferir agregar e contar por entidade sob uma coluna, como , você ainda pode retornar e recebendo-o do evento mais recente envolvendo `DeviceId` `Timestamp` cada exclusivo `ReportId` `DeviceId` .
 
@@ -102,23 +102,23 @@ DeviceEvents
 > [!TIP]
 > Para melhorar o desempenho da consulta, de definir um filtro de tempo que corresponde à frequência de execução pretendido para a regra. Como a menor frequência de run é _a cada 24 horas,_ a filtragem do dia anterior abrangerá todos os novos dados.
 
-### <a name="2-create-new-rule-and-provide-alert-details"></a>2. Crie uma nova regra e forneça detalhes de alerta.
+### <a name="2-create-new-rule-and-provide-alert-details"></a>2. Crie uma nova regra e forneça detalhes do alerta.
 
 Com a consulta no editor de consulta, selecione **Criar regra de** detecção e especifique os seguintes detalhes de alerta:
 
 - **Nome da detecção**— nome da regra de detecção
-- **Frequência**— intervalo para executar a consulta e executar uma ação. [Consulte as diretrizes adicionais abaixo](#rule-frequency)
+- **Frequência**— intervalo para executar a consulta e executar uma ação. [Veja as diretrizes adicionais abaixo](#rule-frequency)
 - **Título do** alerta – título exibido com alertas disparados pela regra
 - **Gravidade —** risco potencial do componente ou da atividade identificado pela regra
 - **Categoria**— componente de ameaça ou atividade identificado pela regra
-- **TÉCNICAS CK mitRE ATT&** uma ou mais técnicas de ataque identificadas pela regra, conforme documentado na estrutura [MITRE ATT&CK](https://attack.mitre.org/). Esta seção está oculta para determinadas categorias de alerta, incluindo malware, ransomware, atividade suspeita e software indesejado
+- Técnicas de CK do **MITRE ATT&** uma ou mais técnicas de ataque identificadas pela regra, conforme documentado na estrutura [MITRE ATT&CK.](https://attack.mitre.org/) Esta seção está oculta para determinadas categorias de alerta, incluindo malware, ransomware, atividade suspeita e software indesejado
 - **Descrição**– mais informações sobre o componente ou a atividade identificada pela regra 
 - **Ações recomendadas**— ações adicionais que os respondentes podem tomar em resposta a um alerta
 
 #### <a name="rule-frequency"></a>Frequência de regra
 Quando você salva ou edita uma nova regra, ela é executado e verifica se há combinações dos últimos 30 dias de dados. Em seguida, a regra é executado novamente em intervalos fixos, aplicando uma duração de retorno com base na frequência escolhida:
 
-- **A cada 24 horas**— é executado a cada 24 horas, verificando os dados dos últimos 30 dias
+- **A cada 24 horas**— é executado a cada 24 horas, verificando dados dos últimos 30 dias
 - **A cada 12 horas**— é executado a cada 12 horas, verificando dados das últimas 24 horas
 - **A cada 3 horas**— é executado a cada 3 horas, verificando dados das últimas 6 horas
 - **A cada hora**— é executado a cada hora, verificando dados das últimas 2 horas
@@ -139,7 +139,7 @@ Sua regra de detecção personalizada pode automaticamente tomar ações em disp
 #### <a name="actions-on-devices"></a>Ações em dispositivos
 Essas ações são aplicadas a dispositivos na `DeviceId` coluna dos resultados da consulta:
 - **Isole o** dispositivo — usa o Microsoft Defender para o Ponto de Extremidade para aplicar o isolamento de rede completo, impedindo que o dispositivo se conecte a qualquer aplicativo ou serviço. [Saiba mais sobre o Microsoft Defender para isolamento de máquina de ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
-- **Coletar pacote de investigação**– coleta informações do dispositivo em um arquivo ZIP. [Saiba mais sobre o pacote de investigação do Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
+- **Coletar pacote de investigação**— coleta informações do dispositivo em um arquivo ZIP. [Saiba mais sobre o pacote de investigação do Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 - **Executar a verificação antivírus**— executa uma verificação completa do Windows Defender Antivírus no dispositivo
 - **Iniciar investigação**— inicia uma [investigação automatizada](mtp-autoir.md) no dispositivo
 - **Restringir a execução do** aplicativo — define restrições no dispositivo para permitir que somente arquivos assinados com um certificado emitido pela Microsoft sejam executados. [Saiba mais sobre restrições de aplicativos com o Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)
@@ -167,7 +167,7 @@ Somente os dados de dispositivos no escopo serão consultados. Além disso, as a
 Depois de analisar a regra, selecione **Criar** para salvá-la. A regra de detecção personalizada é imediatamente executado. Ele é executado novamente com base na frequência configurada para verificar se há resultados, gerar alertas e tomar ações de resposta.
 
 ## <a name="manage-existing-custom-detection-rules"></a>Gerenciar regras de detecção personalizadas existentes
-Você pode exibir a lista de regras de detecção personalizadas existentes, verificar suas versões anteriores e revisar os alertas disparados. Você também pode executar uma regra sob demanda e modificá-la.
+Você pode exibir a lista de regras de detecção personalizadas existentes, verificar suas versões anteriores e analisar os alertas disparados. Você também pode executar uma regra sob demanda e modificá-la.
 
 ### <a name="view-existing-rules"></a>Exibir regras existentes
 
@@ -176,7 +176,7 @@ Para exibir todas as regras de detecção personalizadas existentes, navegue at�
 - **Última vez —** quando uma regra foi executado pela última vez para verificar se há consultas e gerar alertas
 - **Status da última vez**— se uma regra foi executado com êxito
 - **Próxima sequência —** a próxima sequência agendada
-- **Status**— se uma regra foi 2013 ou não
+- **Status**— se uma regra foi 10 ou não
 
 ### <a name="view-rule-details-modify-rule-and-run-rule"></a>Exibir detalhes da regra, modificar regra e executar regra
 
@@ -207,7 +207,8 @@ Na tela de detalhes da regra **(** Detecções personalizadas de busca [nome da 
 >[!TIP]
 >Para exibir rapidamente informações e tomar medidas em um item em uma tabela, use a coluna de seleção [&#10003;] à esquerda da tabela.
 
-## <a name="related-topic"></a>Tópico relacionado
+## <a name="see-also"></a>Confira também
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Conhecer a linguagem de consulta de busca avançada](advanced-hunting-query-language.md)
+- [Migrar consultas de busca avançada do Microsoft Defender para o Ponto de Extremidade](advanced-hunting-migrate-from-mdatp.md)

@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ae9617a55fd5efb40a3aba07202ebfb1494d4db6
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: de9fb28f09b88cf1730f3bb3539234f6a03ec2e3
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928803"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080708"
 ---
 # <a name="custom-detections-overview"></a>Visão geral de detecções personalizadas
 
@@ -41,6 +41,7 @@ As detecções personalizadas fornecem:
 - Alertas para detecções baseadas em regras criadas a partir de consultas de busca avançada
 - Ações de resposta automática
 
-## <a name="related-topic"></a>Tópico relacionado
+## <a name="see-also"></a>Confira também
 - [Criar e gerenciar regras de detecção personalizadas](custom-detection-rules.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
+- [Migrar consultas de busca avançada do Microsoft Defender para o Ponto de Extremidade](advanced-hunting-migrate-from-mdatp.md)

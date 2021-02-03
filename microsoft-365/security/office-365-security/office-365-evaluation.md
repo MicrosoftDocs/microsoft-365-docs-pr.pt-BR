@@ -9,7 +9,6 @@ author: levinec
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,12 +16,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f8f105215b23ec49318c133714e758e2a2a9c1df
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 7c0bb1701cf030692bc98218b38be00cae57a2bd
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870916"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080696"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft Defender para Office 365
 
@@ -31,7 +32,7 @@ ms.locfileid: "49870916"
 > [!IMPORTANT]
 > A avaliação do Microsoft Defender para Office 365 está em visualização pública. Esta versão de visualização é fornecida sem um contrato de nível de serviço. Certos recursos podem não ter suporte ou podem ter funcionalidades restritas.
 
-A realização de uma avaliação abrangente do produto de segurança pode ajudá-lo a tomar decisões informadas sobre atualizações e compras. Ele ajuda a experimentar os recursos do produto de segurança para avaliar como ele pode ajudar sua equipe de operações de segurança em suas tarefas diárias.
+A realização de uma avaliação abrangente do produto de segurança pode ajudar a tomar decisões informadas sobre atualizações e compras. Ele ajuda a experimentar os recursos do produto de segurança para avaliar como ele pode ajudar sua equipe de operações de segurança em suas tarefas diárias.
 
 A experiência de avaliação do [Microsoft Defender para Office 365](office-365-atp.md) foi projetada para eliminar a complexidade da configuração de dispositivos e ambientes para que você possa se concentrar na avaliação dos recursos da solução de segurança. Isso só se aplica à proteção de email e não ao SharePoint, aos clientes do Office ou ao Teams.
 
@@ -58,7 +59,7 @@ Com a experiência de configuração simplificada, você pode se concentrar em:
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-### <a name="licensing"></a>Licenças
+### <a name="licensing"></a>Licenciamento
 
 Para acessar a avaliação, você precisará atender aos requisitos de licenciamento. Qualquer uma das seguintes licenças funcionará:
 
@@ -86,11 +87,11 @@ As funções do Exchange Online são necessárias para configurar o Defender par
 
 As seguintes funções são necessárias:
 
-|Tarefa|Role|
+|Tarefas|Role|
 |---|---|
 |Obter uma avaliação gratuita ou comprar o Microsoft Defender para Office 365 (Plano 2)|Função de administrador de cobrança OU função de administrador global|
 |Criar política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança|
-|Editar política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança|
+|Editar política de avaliação|Função domínios remotos e aceitos; Função de administrador de segurança|
 |Excluir política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança |
 |Exibir relatório de avaliação|Função de administrador de segurança OU função de leitor de segurança|
 |
@@ -104,7 +105,7 @@ A filtragem aprimorada para conectores permitirá que os locatários usem a prot
 
 ### <a name="urls"></a>URLs
 
-As URLs serão acionada durante o fluxo de emails. Se você não quiser URLs específicas acionada, gerencie sua lista de URLs permitidas adequadamente. Consulte [Gerenciar URLs na Lista de Locatários Permitir/Bloquear](tenant-allow-block-list.md) para obter detalhes.
+As URLs serão acionada durante o fluxo de emails. Se você não quiser urLs específicas acionada, gerencie sua lista de URLs permitidas adequadamente. Consulte [Gerenciar a Lista de Locatários Para](tenant-allow-block-list.md) obter detalhes.
 
 Links de URL nos corpos de mensagens de email não são quebrados, para diminuir o impacto ao cliente.
 
@@ -153,17 +154,17 @@ Depois de iniciar o fluxo de configuração para sua avaliação, você terá du
 
 Revise suas configurações e edite-as, se necessário. Em seguida, selecione **Criar avaliação.** Você deve receber uma mensagem de confirmação para indicar que a configuração foi concluída.
 
-O relatório de avaliação do Microsoft Defender para Office 365 é gerado uma vez por dia. Pode levar até 24 horas para que os dados se preencham.
+O relatório de avaliação do Microsoft Defender for Office 365 é gerado uma vez por dia. Pode levar até 24 horas para que os dados se preencham.
 
 ### <a name="exchange-rules-optional"></a>Regras do Exchange (opcional)
 
-Se você tiver um gateway existente, talvez queira ignorar a filtragem porque ela ativará a filtragem aprimorada para conectores e alterará o endereço IP do remetente de entrada. Para ignorar, navegue até o Centro de administração do Exchange e crie uma política de SCL -1 (caso ainda não tenha uma). Para obter detalhes sobre os componentes de regra e como eles funcionam, consulte Regras de fluxo de email (regras de transporte) no Exchange Online.
+Se você tiver um gateway existente, a habilitação do modo de avaliação ativará a filtragem aprimorada para conectores. Isso melhora a precisão da filtragem alterando o endereço IP do remetente de entrada. Isso pode alterar os vereditos de filtro e, se você não estiver ignorando a Proteção do Exchange Online, isso poderá alterar a entrega de determinadas mensagens. Nesse caso, talvez você queira ignorar temporariamente a filtragem para analisar o impacto. Para ignorar, navegue até o Centro de administração do Exchange e crie uma política de SCL -1 (caso ainda não tenha uma). Para obter detalhes sobre os componentes de regra e como eles funcionam, consulte Regras de fluxo de email (regras de transporte) no Exchange Online.
 
 ## <a name="evaluate-capabilities"></a>Avaliar as funcionalidades
 
 Depois que o relatório de avaliação tiver sido gerado, veja quantos links avançados de ameaças, anexos avançados de ameaças e possíveis personificações foram identificados nos espaços de trabalho de colaboração e emails em sua organização.
 
-Depois que a avaliação tiver expirado, você poderá continuar a acessar o relatório por 90 dias. No entanto, ele não coletará mais informações. Se você quiser continuar usando o Microsoft Defender para Office 365 após a expiração da avaliação, certifique-se de comprar uma assinatura paga do [Microsoft Defender para Office 365 (Plano 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
+Depois que a avaliação expirar, você poderá continuar a acessar o relatório por 90 dias. No entanto, ele não coletará mais informações. Se você quiser continuar usando o Microsoft Defender para Office 365 após a expiração da avaliação, certifique-se de comprar uma assinatura paga do [Microsoft Defender para Office 365 (Plano 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
 Você pode ir para **Configurações para** atualizar seu roteamento ou desativar sua avaliação a qualquer momento. No entanto, você precisa passar pelo mesmo processo de configuração novamente caso decida continuar sua avaliação depois de ter desligado.
 

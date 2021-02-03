@@ -18,12 +18,12 @@ description: Saiba mais sobre como definir políticas de Anexos seguros para pro
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5a26d214fe99d0053bf178d7d85a0b526d64f887
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 9343ce222f1deb84e900f0d6f18e7d55daa73372
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988075"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084608"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas de Anexos Seguros no Microsoft Defender para Office 365
 
@@ -34,11 +34,11 @@ ms.locfileid: "49988075"
 
 Anexos Seguros é um recurso do [Microsoft Defender para Office 365](office-365-atp.md) que usa um ambiente virtual para verificar anexos em mensagens de email de entrada depois que eles são verificados pela proteção anti-malware no Proteção do Exchange Online [(EOP),](anti-malware-protection.md)mas antes da entrega aos destinatários. Para obter mais informações, consulte [Anexos seguros no Microsoft Defender para Office 365.](atp-safe-attachments.md)
 
-Não há nenhuma política de Anexos Seguros interna ou padrão. Para obter a verificação de Anexos Seguros de anexos de mensagens de email, você precisa criar uma ou mais políticas de Anexos Seguros, conforme descrito neste artigo.
+Não há nenhuma política de Anexos seguros interna ou padrão. Para obter a verificação de Anexos Seguros de anexos de mensagens de email, você precisa criar uma ou mais políticas de Anexos Seguros, conforme descrito neste artigo.
 
 Você pode configurar políticas de Anexos Seguros no Centro de Conformidade e Segurança ou no PowerShell (PowerShell do Exchange Online para organizações qualificadas do Microsoft 365 com caixas de correio no Exchange Online; PowerShell do EOP autônomo para organizações sem caixas de correio do Exchange Online, mas com assinaturas de complemento do Defender para Office 365). &
 
-Os elementos básicos de uma política de Anexos Seguros são:
+Os elementos básicos de uma política de Anexos seguros são:
 
 - A política de anexo **seguro:** especifica as ações para detecções de malware desconhecidas, se é para enviar mensagens com anexos de malware para um endereço de email especificado e se a verificação de Anexos Seguros não pode ser concluída.
 - **A regra de anexo seguro:** especifica os filtros de prioridade e destinatário (a quem a política se aplica).
@@ -61,8 +61,8 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Para fazer os procedimentos deste artigo, você precisa ter permissões:
-  - Para criar, modificar e excluir políticas de Links seguros  &,  você precisa ser membro dos grupos de  função Gerenciamento  da Organização ou Administrador de Segurança no Centro de Conformidade e Segurança e membro do grupo de funções Gerenciamento da Organização no Exchange Online.
-  - Para acesso somente leitura às políticas de Links seguros, você  precisa ser membro dos grupos de função Leitor & **Global** ou Leitor de Segurança no Centro de Conformidade e Segurança.
+  - Para criar, modificar e excluir políticas de Anexos Seguros  &, você precisa ser membro dos grupos de função Gerenciamento  da Organização ou Administrador de Segurança no Centro de Conformidade e Segurança e membro do grupo de funções Gerenciamento da Organização no Exchange Online.  
+  - Para acesso somente leitura às políticas de Anexos Seguros, você  precisa ser membro dos grupos de função Leitor & **Global** ou Leitor de Segurança no Centro de Conformidade e Segurança.
 
   Para obter mais informações, [consulte Permissões no Centro de conformidade e & segurança](permissions-in-the-security-and-compliance-center.md) no Exchange [Online.](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
 
@@ -107,7 +107,7 @@ Criar uma política de Anexo & s Seguros personalizada no Centro de Conformidade
 
      A recomendação para as configurações de política Padrão e Estrito é habilitar o redirecionamento. Para obter mais informações, consulte [configurações de Anexos seguros.](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)
 
-   - Aplique a seleção acima se a verificação de anexos de **malware esgoter** ou ocorrer um erro: a ação especificada pela resposta de malware desconhecido **anexos** seguros é tomada em mensagens, mesmo quando a verificação de Anexos seguros não puder ser concluída. Se você selecionou essa opção, sempre selecione **Redirecionamento habilitado.** Caso contrário, as mensagens podem ser perdidas.
+   - Aplique a seleção acima se a verificação de anexos de **malware esgoter** ou ocorrer um erro: a ação especificada pela resposta de malware desconhecido **anexos** seguros é tomada em mensagens mesmo quando a verificação de Anexos Seguros não puder ser concluída. Se você selecionou essa opção, sempre selecione **Redirecionamento habilitado.** Caso contrário, as mensagens podem ser perdidas.
 
    Quando terminar, clique em **Avançar**.
 
@@ -155,13 +155,13 @@ Criar uma política de Anexo & s Seguros personalizada no Centro de Conformidade
 
 3. Nos detalhes da política exibidos, clique em **Editar política.**
 
-As configurações disponíveis no & menu explicativo exibido são idênticas às descritas na seção Usar o Centro de Conformidade e Segurança para criar políticas de [Anexos seguros.](#use-the-security--compliance-center-to-create-safe-attachments-policies)
+As configurações disponíveis no menu explicativo exibido são idênticas às descritas na seção & Usar o Centro de Conformidade e Segurança para criar políticas de [Anexos seguros.](#use-the-security--compliance-center-to-create-safe-attachments-policies)
 
 Para habilitar ou desabilitar uma política ou definir a ordem de prioridade da política, consulte as seções a seguir.
 
 ### <a name="enable-or-disable-safe-attachments-policies"></a>Habilitar ou desabilitar políticas de Anexos Seguros
 
-1. No Centro de Conformidade & Segurança, vá para **Anexos** Seguros da ATP da Política \>  \> **de Gerenciamento de Ameaças.**
+1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de Ameaças anexos seguros \>  \> **da ATP.**
 
 2. Observe o valor na coluna **Status:**
 
@@ -181,7 +181,7 @@ As políticas de Anexos Seguros são exibidas na ordem em que são processadas (
 
 Para alterar a prioridade de uma política, mova a política para cima ou para baixo na lista (não é possível modificar diretamente o número de **Prioridade** no Centro de Conformidade e Segurança).
 
-1. No Centro de Conformidade & Segurança, vá para **Anexos** Seguros da ATP da Política \>  \> **de Gerenciamento de Ameaças.**
+1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de Ameaças anexos seguros \>  \> **da ATP.**
 
 2. Na página **Anexos Seguros,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
 
@@ -189,7 +189,7 @@ Para alterar a prioridade de uma política, mova a política para cima ou para b
 
    - A política de Anexos Seguros com o **valor** **prioridade 0** tem apenas o **botão** Diminuir prioridade disponível.
 
-   - A política de Anexos Seguros com o menor valor **de** Prioridade (por exemplo, **3**) tem apenas o **botão** Aumentar prioridade disponível.
+   - A política anexos seguros com o menor valor **de** prioridade (por exemplo, **3**) tem apenas o **botão** Aumentar prioridade disponível.
 
    - Se você tiver três ou mais políticas de Anexos Seguros,  as políticas  entre os valores de prioridade mais alta e mais baixa terão os botões Aumentar prioridade e Diminuir prioridade disponíveis.
 
@@ -224,7 +224,7 @@ Criar uma política de Anexos Seguros no PowerShell é um processo de duas etapa
 
  **Observações**:
 
-- Você pode criar uma nova regra de anexo seguro e atribuir uma política de anexo seguro existente e nãossociada a ela. Uma regra de anexo seguro não pode ser associada a mais de uma política de anexo seguro.
+- Você pode criar uma nova regra de anexo seguro e atribuir uma política de anexo seguro não associada existente a ela. Uma regra de anexo seguro não pode ser associada a mais de uma política de anexo seguro.
 
 - Você pode definir as seguintes configurações em novas políticas de anexo seguro no PowerShell que não estarão disponíveis no Centro de Conformidade e Segurança até que você crie & a política:
   - Crie a nova política como desabilitada (_Habilitado_ no `$false` cmdlet **New-SafeAttachmentRule).**
@@ -275,7 +275,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [New-SafeAt
 
 ### <a name="use-powershell-to-view-safe-attachment-policies"></a>Usar o PowerShell para exibir políticas de anexo seguro
 
-Para exibir as políticas de anexos seguros existentes, use a seguinte sintaxe:
+Para exibir políticas de anexos seguros existentes, use a seguinte sintaxe:
 
 ```PowerShell
 Get-SafeAttachmentPolicy [-Identity "<PolicyIdentity>"] [| <Format-Table | Format-List> <Property1,Property2,...>]
@@ -331,7 +331,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-SafeAt
 
 Não é possível renomear uma política de anexo seguro no PowerShell (o cmdlet **Set-SafeAttachmentPolicy** não tem parâmetro _Name)._ Ao renomear uma política de Anexos Seguros no Centro de & Conformidade e Segurança, você está apenas renomeando a regra de anexo _seguro._
 
-Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma política de anexo seguro conforme descrito na Etapa [1: usar](#step-1-use-powershell-to-create-a-safe-attachment-policy) o PowerShell para criar uma seção de política de anexo seguro anteriormente neste artigo.
+Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma política de anexo seguro conforme descrito na Etapa [1: use](#step-1-use-powershell-to-create-a-safe-attachment-policy) o PowerShell para criar uma seção de política de anexo seguro anteriormente neste artigo.
 
 Para modificar uma política de anexo seguro, use esta sintaxe:
 
@@ -439,7 +439,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-Saf
 
 Para verificar se você criou, modificou ou removeu com êxito as políticas de Anexos Seguros, faça uma das seguintes etapas:
 
-- No Centro de Conformidade & Segurança, vá para **Anexos** Seguros da ATP da Política \>  \> **de Gerenciamento de Ameaças.** Verifique a lista de políticas, seus valores **de Status** e seus **valores de** Prioridade. Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly out.
+- No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de Ameaças anexos seguros \>  \> **da ATP.** Verifique a lista de políticas, seus valores **de Status** e seus **valores de** Prioridade. Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly out.
 
 - No PowerShell do Exchange Online ou no PowerShell da Proteção do Exchange Online, substitua o nome da política ou regra, execute o seguinte comando e \<Name\> verifique as configurações:
 
