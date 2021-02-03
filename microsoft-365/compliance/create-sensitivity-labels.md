@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: 816da1001593dc36d625a48d12a1e0ace86578bf
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: 60865b40582416ac2ac963c4a8c68353b06fc6d4
+ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058494"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50071286"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -239,4 +239,4 @@ Para configurar e usar seus rótulos de confidencialidade em cenários específi
 
 - [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 
-Para monitorar como os rótulos estão sendo usados, confira [Exibir uso do rótulo com análise de rótulo](label-analytics.md).
+Para monitorar como os rótulos estão sendo usados, confira [Introdução à classificação de dados](data-classification-overview.md).
