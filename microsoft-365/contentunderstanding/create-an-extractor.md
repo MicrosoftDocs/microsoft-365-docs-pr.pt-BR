@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Aprenda como criar um extrator no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 7417805f51bb3a1c7b993ce2cd72137478abbc02
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: dd26b049f71688804cd5110a5a0bb7c87950be94
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976538"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080477"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Criar um extrator no Microsoft SharePoint Syntex
 
@@ -57,6 +57,14 @@ A criação do extrator abre a página do extrator. Aqui você vê uma lista com
 
  
 Uma vez rotulados os cinco arquivos, um banner de notificação informa que você deve passar para o treinamento. É possível escolher entre etiquetar mais documentos ou avançar para o treinamento. 
+
+### <a name="use-find-to-search-your-file"></a>Usar a ferramenta Procurar para pesquisar seu arquivo
+Você pode usar o recurso <b>Encontrar</b> para procurar uma entidade em seu documento que você deseja rotular.
+
+   ![Localizar nos arquivos](../media/content-understanding/find-feature.png) 
+
+O recurso Encontrar é útil se você estiver pesquisando um documento grande ou se houver várias instâncias da entidade no documento. Se você encontrar várias instâncias, poderá selecionar a de que precisa nos resultados da pesquisa para ir até esse local no visualizador para rotulá-la.
+
 
 ## <a name="add-an-explanation"></a>Adicione uma explicação
 
