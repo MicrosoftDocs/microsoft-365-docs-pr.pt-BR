@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Aprenda a criar e importar um tipo de informação confidencial personalizada para políticas no Centro de Conformidade.
-ms.openlocfilehash: 31badcb2ab0102584e3addf3ed4d1549afe78525
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ab96a3928105f612ab97bc8ca3a0acc3613082c3
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929417"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080676"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Criar um tipo de informação confidencial personalizado usando o Windows PowerShell
 
-Este tópico mostra como usar o Windows PowerShell para criar um arquivo XML *pacote de regras* que define seus próprios [tipos de informações confidenciais ](sensitive-information-type-entity-definitions.md)personalizados. Você precisa saber como criar uma expressão regular. Como exemplo, este tópico cria um tipo personalizado de informações confidenciais que identifica uma ID de funcionário. Você pode usar esse XML de exemplo como ponto de partida para o seu próprio arquivo XML. Se você for novo nos tipos de informações confidenciais, consulte [Saiba mais sobre os tipos de informações confidenciais](sensitive-information-type-learn-about.md).
+Este tópico mostra como usar o Windows PowerShell para criar um arquivo XML *pacote de regras* que define seus próprios [tipos de informações confidenciais](sensitive-information-type-entity-definitions.md)personalizados. Você precisa saber como criar uma expressão regular. Como exemplo, este tópico cria um tipo personalizado de informações confidenciais que identifica uma ID de funcionário. Você pode usar esse XML de exemplo como ponto de partida para o seu próprio arquivo XML. Se você for novo nos tipos de informações confidenciais, consulte [Saiba mais sobre os tipos de informações confidenciais](sensitive-information-type-learn-about.md).
 
 Depois de criar um arquivo XML bem formado, você pode carregá-lo no Microsoft 365 usando o Microsoft 365 Windows PowerShell. Então você está pronto para usar seu tipo de informação confidencial personalizado em suas políticas e testar se ele está detectando as informações confidenciais conforme desejado.
 
@@ -161,7 +161,7 @@ Uma entidade é um tipo de informação confidencial, como um número de cartão
 ### <a name="name-the-entity-and-generate-its-guid"></a>Nomear a entidade e gerar seu GUID
 
 1. No editor XML de sua escolha, adicione os elementos Regras e Entidade.
-2. Em seguida, adicione um comentário que contenha o nome da sua entidade personalizada – neste exemplo, ID do Funcionário. Posteriormente, você adicionará o nome da entidade à seção de strings localizadas, e esse nome é o que aparece na IU quando você cria uma política.
+2. Adicione um comentário que contenha o nome da sua entidade personalizada - neste exemplo, ID do funcionário. Posteriormente, você adicionará o nome da entidade à seção de strings localizadas, e esse nome é o que aparece na IU quando você cria uma política.
 3. Gere um GUID para sua entidade. Há várias maneiras de gerar GUIDs, mas você pode fazer isso facilmente no Windows PowerShell digitando **[guid]::NewGuid()**. Posteriormente, você também adicionará o GUID da entidade à seção de strings localizadas.
   
 ![Marcação XML mostrando os elementos Rules e Entity](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
@@ -192,7 +192,7 @@ Você pode usar o atributo opcional minCount para especificar quantas instância
   
 ### <a name="keywords-keyword-group-and-term-elements-matchstyle-and-casesensitive-attributes"></a>Palavras-chave [elementos Keyword, Group e Term, atributos matchStyle e caseSensitive]
 
-Ao identificar informações confidenciais, como uma ID de funcionário, muitas vezes você deseja exigir palavras-chave como evidências comprobatórias. Por exemplo, além de corresponder a um número de nove dígitos, talvez você queira procurar palavras como "cartão", "crachá" ou "ID". Para fazer isso, use o elemento Keyword. O elemento Keyword tem um atributo id que pode ser referenciado por vários elementos Match em vários padrões ou entidades.
+Quando você identifica informações confidenciais, como a ID de um funcionário, geralmente deseja exigir palavras-chave como evidência corroborativa. Por exemplo, além de corresponder a um número de nove dígitos, você pode procurar palavras como "cartão", "crachá" ou "ID". Para fazer isso, você usa o elemento Keyword. O elemento Keyword tem um atributo ID que pode ser referenciado por vários elementos Match em vários padrões ou entidades.
   
 Palavras-chave são incluídas como uma lista de elementos Term em um elemento Group. O elemento Group tem um atributo matchStyle com dois valores possíveis:
   
@@ -206,7 +206,7 @@ Por fim, você pode usar o atributo caseSensitive do elemento Term para especifi
   
 ### <a name="regular-expressions-regex-element"></a>Expressões regulares [elemento Regex]
 
-Neste exemplo, a entidade ID do funcionário já usa o elemento IdMatch para fazer referência a uma expressão regular para o padrão, um número de nove dígitos delimitado por espaços em branco. Além disso, um padrão pode usar um elemento Match para fazer referência a um elemento Regex adicional a fim de identificar evidências comprobatórias, como um número de cinco ou nove dígitos no formato de um código postal americano.
+Neste exemplo, a entidade de ID do funcionário já usa o elemento IdMatch para fazer referência a uma regex para o padrão - um número de nove dígitos cercado por um espaço em branco. Além disso, um padrão pode usar um elemento Match para fazer referência a um elemento Regex adicional para identificar evidências corroborativas, como um número de cinco ou nove dígitos no formato de um código postal dos EUA.
   
 ### <a name="additional-patterns-such-as-dates-or-addresses-built-in-functions"></a>Padrões adicionais, como datas ou endereços [funções internas]
 
@@ -220,7 +220,7 @@ Para saber mais, confira [O que as funções DLP procuram](what-the-dlp-function
   
 ## <a name="different-combinations-of-evidence-any-element-minmatches-and-maxmatches-attributes"></a>Diferentes combinações de evidências [elemento Any, atributos minMatches e maxMatches]
 
-Em um elemento Pattern, todos os elementos IdMatch e Match são unidos por um operador AND implícito, todas as correspondências devem ser satisfeitas para que o padrão possa ser satisfeito. No entanto, você pode criar a lógica de correspondência mais flexível usando o elemento Any para agrupar elementos Match. Por exemplo, você pode usar o elemento Any para corresponder a todos, nenhum ou um subconjunto exato de seus elementos Match filhos.
+Em um elemento Pattern, todos os elementos IdMatch e Match são unidos por um operador AND implícito - todas as correspondências devem ser satisfeitas antes que o padrão possa ser satisfeito. No entanto, você pode criar uma lógica de correspondência mais flexível usando o elemento Any para agrupar elementos Match. Por exemplo, você pode usar o elemento Any para corresponder a todos, nenhum ou um subconjunto exato de seus elementos filhos Match.
   
 O elemento Any tem atributos opcionais minMatches e maxMatches que você pode usar para definir quantos elementos Match filhos devem ser satisfeitos para que esse padrão seja correspondido. Observe que esses atributos definem o número de elementos Match que devem ser satisfeitos, e não o número de instâncias de evidências encontradas para as correspondências. Para definir um número mínimo de instâncias para uma correspondência específica, como duas palavras-chave de uma lista, use o atributo minCount para um elemento Match (veja acima).
   
@@ -238,7 +238,7 @@ Se você quiser exigir que apenas um número mínimo de elementos Match seja ate
     
 ### <a name="match-an-exact-subset-of-any-children-match-elements"></a>Corresponder um subconjunto exato dos elementos filhos de Match
 
-Se você quiser exigir que um número exato de elementos Match seja atendido, defina minMatches e maxMatches como o mesmo valor. Esse elemento Any apenas será satisfeito se exatamente uma data ou uma palavra-chave for encontrada: qualquer coisa além disso e o padrão não será correspondido.
+Se você quiser exigir que um número exato de elementos Match seja atendido, você pode definir minMatches e maxMatches com o mesmo valor. Este elemento Qualquer é satisfeito apenas se exatamente uma data ou palavra-chave for encontrada - mais do que isso, e o padrão não será correspondido.
 
 ```xml
 <Any minMatches="1" maxMatches="1" >
@@ -294,7 +294,7 @@ Observe que, para email, o corpo da mensagem e cada anexo são tratados como ite
 
 Quanto mais evidências um padrão exigir, mais confiança você terá que uma entidade real (como ID do funcionário) será identificada quando esse padrão for correspondido. Por exemplo, você tem mais confiança em um padrão que exige um número de ID de nove dígitos, uma data de contratação e palavras-chave com proximidade imediata do que em um padrão que exige apenas um número de ID de nove dígitos.
   
-O elemento Pattern tem um atributo confidenceLevel necessário. Você pode pensar no valor do Nível de confiança (um número inteiro entre 1 e 100) como um ID exclusivo para cada padrão em uma entidade - os padrões em uma entidade devem ter diferentes níveis de confiança atribuídos por você. O valor preciso do inteiro não importa - basta escolher os números que fazem sentido para sua equipe de conformidade. Depois de fazer upload de seu tipo de informação confidencial personalizado e criar uma política, você pode fazer referência a esses níveis de confiança nas condições das regras que criar.
+O elemento Pattern tem um atributo confidenceLevel necessário. Você pode pensar no valor de trustLevel (um inteiro entre 1 e 100) como um ID exclusivo para cada padrão em uma entidade - os padrões em uma entidade devem ter diferentes níveis de confiança que você atribui. O valor preciso do inteiro não importa - basta escolher os números que fazem sentido para sua equipe de conformidade. Depois de fazer upload de seu tipo de informação confidencial personalizado e criar uma política, você pode fazer referência a esses níveis de confiança nas condições das regras que criar.
   
 ![Marcação XML mostrando elementos Pattern com valores diferentes para o atributo confidenceLevel](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
   
@@ -428,6 +428,14 @@ Ao carregar seu arquivo XML do pacote de regras, o sistema validará o XML e ver
 - Não pode ter um repetidor não vinculado (como "\*" ou "+") em um grupo.
     
   Por exemplo, "(xx)\*" e "(xx)+" não passarão na validação.
+  
+- As palavras-chave têm no máximo 50 caracteres de comprimento.  Se você tiver uma palavra-chave dentro de um Grupo que exceda isso, uma solução sugerida é criar o Grupo de termos como [Dicionário de Palavras-chave](https://docs.microsoft.com/microsoft-365/compliance/create-a-keyword-dictionary) e fazer referência ao GUID do Dicionário de Palavras-chave dentro da estrutura XML como parte da Entidade para Correspondência ou idMatch no Arquivo.
+
+- Cada tipo de informação confidencial personalizada pode ter no máximo 2.048 palavras-chave no total.
+
+- Ao usar o cmdlet do Windows PowerShell, há um tamanho máximo de retorno dos dados desserializados de aproximadamente 1 megabyte.   Isso afetará o tamanho do seu arquivo XML. Mantenha o arquivo carregado limitado a um máximo de 512 megabytes como um limite sugerido para resultados consistentes sem erros durante o processamento.
+
+- A estrutura XML não requer caracteres de formatação, como espaços, guias ou entradas de retorno de carro / avanço de linha.  Observe isso ao otimizar o espaço em uploads.
     
 Se um tipo personalizado de informações confidenciais contiver um problema que pode afetar o desempenho, ele não será carregado e você poderá ver uma dessas mensagens de erro:
   
@@ -441,7 +449,7 @@ Se um tipo personalizado de informações confidenciais contiver um problema que
 
 O Microsoft 365 usa o rastreador de pesquisa para identificar e classificar informações confidenciais no conteúdo do site. O conteúdo dos sites do SharePoint Online e do OneDrive for Business é rastreado novamente de forma automática sempre que é atualizado. Porém, para identificar seu novo tipo personalizado de informações confidenciais em todo o conteúdo existente, esse conteúdo deve ser novamente rastreado.
   
-No Microsoft 365, não é possível solicitar manualmente um novo rastreamento de um locatário inteiro, mas você pode fazer isso para um conjunto de sites, lista ou biblioteca. Confira [Solicitar manualmente o rastreamento e a reindexação de um site, biblioteca ou lista](https://docs.microsoft.com/sharepoint/crawl-site-content).
+No Microsoft 365, você não pode solicitar manualmente um novo rastreamento de um locatário inteiro, mas pode fazer isso para um conjunto de sites, lista ou biblioteca - consulte [ Solicitar manualmente o rastreamento e reindexação de um site, uma biblioteca ou uma lista ](https://docs.microsoft.com/sharepoint/crawl-site-content). 
   
 ## <a name="remove-a-custom-sensitive-information-type"></a>Remover um tipo personalizado de informação confidencial
 
