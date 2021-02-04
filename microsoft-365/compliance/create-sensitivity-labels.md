@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: 60865b40582416ac2ac963c4a8c68353b06fc6d4
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: b7943259d3a20cbf4fd6d8b0b57ca7c027e74d3f
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071286"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084652"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
@@ -186,7 +186,7 @@ Para editar uma política de rótulo existente, selecione-a e, em seguida, selec
 
 Esse botão dá início ao assistente **Criar política**, que permite editar quais rótulos estão incluídos e as configurações de rótulo. Quando você concluir o assistente, todas as alterações serão replicadas automaticamente para os usuários e serviços selecionados.
 
-Quando você usa a rotulagem integrada para Windows, macOS, iOS e Android, os usuários veem novos rótulos em seus aplicativos do Office em quatro horas e em uma hora para o Office na web. No entanto, aguarde até 24 horas para que as alterações sejam replicadas em todos os aplicativos e serviços.
+Quando você usa rótulos integrados para aplicativos do Office no Windows, macOS, iOS e Android, os usuários veem os novos rótulos em quatro horas e em uma hora para o Office na web. No entanto, aguarde até 24 horas para que as alterações sejam replicadas em todos os aplicativos e serviços.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de políticas de rótulo com o PowerShell do Centro de Conformidade e Segurança
 

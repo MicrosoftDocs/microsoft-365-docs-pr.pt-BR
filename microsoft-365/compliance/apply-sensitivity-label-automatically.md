@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 190b06a719775fbbf14c94a4fd817d3242a95e6c
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 4bbea7810c20d72ef75bbb5602b1daddfce45576
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044741"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084672"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -227,9 +227,9 @@ Fluxo de trabalho para uma política de rotulagem automática:
 
 1. Crie e configure uma política de rotulagem automática.
 
-2. Execute a política no modo de simulação e aguarde 24 horas, ou até que a simulação seja concluída.
+2. Execute a política no modo de simulação, o que pode levar 48 horas para ser concluído.
 
-3. Examine os resultados e, se necessário, refine a política. Execute novamente a política no modo de simulação e aguarde mais 24 horas, ou até que a simulação seja concluída.
+3. Examine os resultados e, se necessário, refine a política. Execute o modo de simulação novamente e espere que ele seja concluído novamente.
 
 4. Repita a etapa 3 conforme necessário.
 

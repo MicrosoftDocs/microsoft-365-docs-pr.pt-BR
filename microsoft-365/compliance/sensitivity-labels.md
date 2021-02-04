@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 2e334e57b84bea7985983527e600be731e4de20c
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: 1cb11573efcb23bbac7cf54e21ee457913b21f18
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058514"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084630"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -216,7 +216,7 @@ Uma política de rótulo consiste em:
 
 Você pode incluir um usuário em várias políticas de rótulos e esse usuário verá todas os rótulos de confidencialidade dessas políticas. Entretanto, um usuário só obtém as configurações de política da política de rótulo com a prioridade mais alta.
 
-Se não estiver vendo a configuração da política de rótulos ou do rótulo esperada para um usuário ou grupo e já tiver aguardado 30 minutos, verifique a ordem das políticas de rótulos de confidencialidade. Para reordenar as políticas de rótulo, selecione uma política de rótulo de sensibilidade > escolha as reticências à direita > **Mover para baixo** ou **Mover para cima**.
+Se você não estiver vendo o rótulo ou configuração de política de rótulo que você espera para um usuário ou grupo, verifique a ordem das políticas de rótulo de confidencialidade. Para reordenar as políticas de rótulo, selecione uma política de rótulo de sensibilidade > escolha as reticências à direita > **Mover para baixo** ou **Mover para cima**.
 
 ![Opções de movimentação na página de políticas de rótulos de confidencialidade](../media/sensitivity-label-policy-priority.png)
 

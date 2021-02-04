@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O explorador de conteúdo permite que se veja nativamente os itens rotulados.
-ms.openlocfilehash: 9beeab0c0b00ac1ac37c9df53e14a2f3f2914422
-ms.sourcegitcommit: f231eece2927f0d01072fd092db1eab15525bbc2
+ms.openlocfilehash: 19ad68d3c32046754e366919e8c4e66336945624
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701148"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080720"
 ---
 # <a name="get-started-with-content-explorer"></a>Introdução ao gerenciador de conteúdo
 
@@ -47,8 +47,6 @@ Toda conta que acessa e usa a classificação de dados deve ter uma licença atr
 
 Para obter acesso à guia do Gerenciador de conteúdo, uma conta deve ter associação em qualquer uma dessas funções ou grupos de funções. 
 
-Uma **política DLP** ajuda a proteger informações confidenciais, que são definidas como um [tipo de informações confidenciais](data-loss-prevention-policies.md). O Microsoft 365 inclui [definições para vários tipos de informações confidenciais comuns](sensitive-information-type-entity-definitions.md) em diferentes regiões, prontas para você usar. Por exemplo, um número de cartão de crédito, números de contas bancárias, números de ID nacionais e números de serviço Windows Live ID.
-
 **Grupos de funções do Microsoft 365**
 
 - Administrador global
@@ -66,7 +64,7 @@ O acesso ao Gerenciador de conteúdo é altamente restrito porque permite ler o 
 > [!IMPORTANT]
 > Essas permissões substituem as permissões que são atribuídas localmente aos itens, permitindo a visualização do conteúdo. 
 
-Há duas funções que concedem acesso ao Explorador de conteúdo:
+Existem duas funções que concedem acesso ao explorador de conteúdo e é concedido usando o [Centro da Segurança e Conformidade da Microsoft](https://protection.office.com/permissions):
 
 - **Visualizador de Listas do Explorador de Conteúdo**: a associação neste grupo de função permite que você veja cada item e seu local na exibição da lista. A função `data classification list viewer` foi predefinida para esse grupo de função.
 

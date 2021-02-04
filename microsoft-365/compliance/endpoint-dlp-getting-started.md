@@ -18,13 +18,13 @@ ms.collection:
 - m365initiative-compliance
 search.appverid:
 - MET150
-description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar as atividades de arquivo e implementar ações de proteção para os pontos de extremidade desse arquivo.
-ms.openlocfilehash: c9b7b10328e80a70f14b8fb40a3bf91cb89dbc88
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+description: Configure a prevenção contra perda de dados de ponto de extremidade do Microsoft 365 para monitorar atividades de arquivo e implementar ações de proteção para esses arquivos para pontos de extremidade.
+ms.openlocfilehash: c337d5ccd05ee665b62c9ce5a68abbd8084da943
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49867955"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080814"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Introdução à Prevenção contra perda de dados do ponto de extremidade
 
@@ -77,6 +77,9 @@ Os dados do Endpoint DLP podem ser exibidos no [Explorador de atividades](data-c
 - Administrador de conformidade
 - Administrador de segurança
 - Administrador de dados de conformidade
+- Leitor global
+- Leitor de segurança
+- Leitor de relatórios
 
 ### <a name="prepare-your-endpoints"></a>Preparar seus pontos de extremidade
 
@@ -86,11 +89,13 @@ Certifique-se de que os dispositivos Windows 10 que você pretende implantar o E
 
 2. A Versão do Cliente Antimalware é 4.18.2009.7 ou mais recente. Verifique sua versão atual abrindo o aplicativo Segurança do Windows, selecione o ícone Configurações e, em seguida, selecione Sobre. O número da versão está listado na Versão do Cliente Antimalware. Atualize para a Versão do Cliente Antimalware instalando o Windows Update KB4052623. 
 
-> [!NOTE]
-> Nenhum dos componentes de Segurança do Windows precisa estar ativo, você pode executar o ponto de extremidade da DLP independente do status de segurança do Windows, mas a [proteção em tempo real e o monitor de comportamento devem estar habilitados](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus).
+   > [!NOTE]
+   > Nenhum dos componentes de Segurança do Windows precisa estar ativo, você pode executar o ponto de extremidade da DLP independente do status de segurança do Windows, mas a [proteção em tempo real e o monitor de comportamento devem estar habilitados](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus).
  
-
-3. As seguintes atualizações do Windows foram instaladas. Observação: Essas atualizações não são um pré-requisito para integrar um dispositivo a Ponto de extremidade DLP, mas contêm correções para problemas importantes, portanto, devem ser instaladas antes de usar o produto.
+3. As seguintes atualizações do Windows foram instaladas. 
+ 
+   > [!NOTE]
+   > Essas atualizações não são um pré-requisito para integrar um dispositivo ao Ponto de extremidade da DLP, mas contêm correções para problemas importantes, portanto, devem ser instaladas antes de usar o produto.
 
     - Para Windows 10 1809 - KB4559003, KB4577069, KB4580390
     - Para Windows 10 1903 ou 1909 - KB4559004, KB4577062, KB4580386
@@ -136,7 +141,7 @@ Neste cenário de implantação, você integrará dispositivos que ainda não fo
    > [!div class="mx-imgBorder"]
    > ![método de implantação](../media/endpoint-dlp-getting-started-3-deployment-method.png)
    
-6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos do Microsoft Defender para Ponto de Extremidade que correspondem ao pacote de implantação selecionado na etapa 5:
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Este link leva você a uma página de destino onde você pode acessar os procedimentos da Proteção Avançada contra Ameaças do Microsoft Defender que correspondem ao pacote de implantação selecionado na etapa 5:
 
     - Integrar computadores com Windows 10 usando uma política de grupo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
@@ -166,7 +171,7 @@ Neste cenário, o Microsoft Defender para Ponto de Extremidade já está implant
 
 5. Escolha a maneira como deseja implantar para esses dispositivos adicionais a partir da lista de **Método de implantação** e **Baixe o pacote**.
 
-6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Esse link levará você a uma página inicial onde você pode acessar os procedimentos do Microsoft Defender para Ponto de Extremidade que correspondem ao pacote de implantação selecionado na etapa 5:
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Este link leva você a uma página de destino onde você pode acessar os procedimentos da Proteção Avançada contra Ameaças do Microsoft Defender que correspondem ao pacote de implantação selecionado na etapa 5:
 
     - Integrar computadores com Windows 10 usando uma política de grupo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
@@ -198,7 +203,7 @@ Uma vez que o ponto de extremidade está integrado, ele deve estar visível na t
 ## <a name="next-steps"></a>Próximas etapas
 Agora que você tem dispositivos integrados e pode exibir os dados de atividade no Explorador de atividades, você está pronto para prosseguir para a próxima etapa na qual você cria políticas DLP que protegem seus itens confidenciais.
 
-- [Usando a prevenção contra perda de dados do EndPoint (visualização)](endpoint-dlp-using.md)
+- [Usando a Prevenção contra perda de dados de ponto de extremidade](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>Confira também
 

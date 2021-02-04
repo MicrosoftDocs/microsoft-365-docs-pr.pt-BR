@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 751b88ea3dde0c4cf2a33dded26a032a1e320b5e
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: d834cc53677c8b7c01ed4bec40ed51983d41e9da
+ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071306"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084620"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -77,7 +77,7 @@ Para obter informações mais detalhadas sobre como funcionam as configurações
 
 ## <a name="retention-policies-and-retention-labels"></a>Políticas de retenção e rótulos de retenção
 
-Você pode usar tanto as políticas de retenção quanto os rótulos de retenção para atribuir as suas configurações de retenção ao conteúdo. 
+Para atribuir suas configurações de retenção ao conteúdo, use **políticas de retenção** e **rótulos de retenção com políticas de rótulos**. Você pode usar apenas um desses métodos ou combiná-los.
 
 Use uma política de retenção para atribuir as mesmas configurações de retenção para o conteúdo em um site ou nível de caixa de correio e usar um rótulo de retenção para atribuir configurações de retenção a um nível de item (pasta, documento, email).
 
