@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Saiba mais sobre tipos de explicação no Microsoft SharePoint Syntex
-ms.openlocfilehash: 9a65c5de5321ee623a3d1a1e4260c0bcb2ad331e
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 2c2997fd165339cc43f7f007050f343794021a23
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975950"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080539"
 ---
 # <a name="introduction-to-explanation-types"></a>Introdução aos tipos de explicação
 
@@ -123,6 +123,31 @@ Há três tokens em *(móvel)*:
 Definir a configuração de proximidade para ter um intervalo de 0 a 3.
 
    ![Exemplo de proximidade](../media/content-understanding/proximity-example.png)</br>
+
+
+## <a name="configure-where-phrases-occur-in-the-document"></a>Configurar onde as frases ocorrem no documento
+
+Quando você cria uma explicação, por padrão, todo o documento é pesquisado pela frase que você está tentando extrair. No entanto, você pode usar a configuração avançada <b>Onde essas frases ocorrem</b> para ajudar a isolar um local específico do documento em que ocorre uma frase. Isso é útil em situações em que instâncias semelhantes de uma frase podem aparecer em outro lugar no documento e você deseja ter certeza de que a correta está selecionada. Ao se referir ao nosso exemplo de documento de Referência Médica, o **Médico Encaminhador** sempre é mencionado no primeiro parágrafo do documento. Com a configuração <b>Onde essas frases ocorrem</b>, neste exemplo, você pode configurar a explicação para pesquisar por esse rótulo somente na seção inicial do documento ou em qualquer outro local em que ela possa ocorrer.
+
+   ![Configuração de onde essas frases ocorrem](../media/content-understanding/phrase-location.png)</br>
+
+Você pode escolher uma das três opções para esta configuração:
+
+- Em qualquer lugar no arquivo: o documento inteiro é pesquisado pela frase.
+- Início do arquivo: o documento é pesquisado do início até o local da frase.</br> 
+   ![Início do arquivo](../media/content-understanding/beginning-of-file.png)</br>
+No visualizador, você pode ajustar manualmente a caixa de seleção para incluir o local onde a fase ocorre. O valor <b>Posição final</b> será atualizado para mostrar o número de tokens que sua área selecionada inclui. Observe que você também pode atualizar o valor da Posição final para ajustar a área selecionada.</br>
+   ![Início da caixa de posição do arquivo](../media/content-understanding/beginning-box.png)</br>
+
+- Final do arquivo: o documento é pesquisado do final até o local da frase.</br> 
+   ![Fim do arquivo](../media/content-understanding/end-of-file.png)</br>
+No visualizador, você pode ajustar manualmente a caixa de seleção para incluir o local onde a fase ocorre. O valor <b>Posição incial</b> será atualizado para mostrar o número de tokens que sua área selecionada inclui. Observe que você também pode atualizar o valor da Posição inicial para ajustar a área selecionada.</br> 
+   ![Fim da caixa de fim do arquivo](../media/content-understanding/end-box.png)</br>
+- Intervalo personalizado: o documento é pesquisado em um intervalo especificado dentro dele para o local da frase.</br> 
+   ![Intervalo personalizado](../media/content-understanding/custom-file.png)</br>
+No visualizador, você pode ajustar manualmente a caixa de seleção para incluir o local onde a fase ocorre. Para essa configuração, você precisa selecionar uma posição <b>Inicial</b> e uma <b>Final</b>. Esses valores representam o número de tokens do início do documento. Embora seja possível inserir manualmente esses valores, é mais fácil ajustar manualmente a caixa de seleção no visualizador.</br> 
+   
+
 
 ## <a name="use-explanation-templates"></a>Usar modelos de explicação
 
