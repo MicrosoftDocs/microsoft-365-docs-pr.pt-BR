@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre os Grupos do Microsoft 365.
-ms.openlocfilehash: b3bc0c30f4ac292da7af46678fc742854984db12
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 5d5c15c13d46738ac9de701b5a39f47274b9f1e5
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925345"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094728"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Visão geral dos Grupos do Microsoft 365 para administradores
 
@@ -64,7 +64,7 @@ Como administrador, você pode:
 
 Se você preferir uma maneira mais automatizada de gerenciar o ciclo de vida dos grupos do Microsoft 365, poderá usar políticas de expiração para expirar grupos em um intervalo de tempo específico. Os proprietários do grupo receberão um email 30, 15 e 1 dia antes da expiração do grupo, permitindo que eles renovem o grupo, caso ainda seja necessário. Confira: Política de Expiração de Grupo do [Microsoft 365.](office-365-groups-expiration-policy.md)
 
-Você pode administrar seus grupos no centro de administração do Microsoft 365 [ou usando o PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershel)
+Você pode administrar seus grupos no centro de administração do Microsoft 365 [ou usando o PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
 
 Se você tiver muitos usuários, como em uma grande corporação ou empresa, talvez tenha muitos usuários que criem grupos para várias finalidades. É altamente recomendável que você revise [o Plano de governança nos grupos do Microsoft 365](plan-for-groups-governance.md) para práticas recomendadas.
 
@@ -114,7 +114,7 @@ Os grupos do Microsoft 365 funcionam com o Azure Active Directory. Os recursos d
 
 > [!IMPORTANT]
 > Para todos os recursos de grupos, se você tiver uma assinatura do Azure AD Premium, os usuários poderão ingressar no grupo independentemente de eles ter ou não uma licença do AAD P1 atribuída a eles. O licenciamento não é imposto.
-> Periodicamente, geraremos relatórios de uso que informam quais usuários estão sem uma licença e precisam de uma atribuída para que sejam compatíveis com os requisitos de licenciamento. Por exemplo, digamos que um usuário não tem uma licença e eles são adicionados a um grupo em que a política de nomen por nomeação é imposta. O relatório sinaliza para você que eles precisam de uma licença.
+> Periodicamente, geraremos relatórios de uso que informam quais usuários estão sem uma licença e precisam de uma atribuída para que sejam compatíveis com os requisitos de licenciamento. Por exemplo, digamos que um usuário não tenha uma licença e eles são adicionados a um grupo em que a política de nomen por nomeação é imposta. O relatório sinaliza para você que eles precisam de uma licença.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

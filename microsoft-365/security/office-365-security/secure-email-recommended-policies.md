@@ -19,18 +19,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: f3654762bf4d4c28a82b1e93829094b9e0386a60
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 261c375aa17e4a3bc8f7d1b469d82621cf4ae45b
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926517"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097123"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
 Este artigo descreve como implementar as políticas de acesso a dispositivos e identidade recomendadas para proteger clientes de email e email organizacionais que suportam autenticação moderna e acesso condicional. Essa orientação se baseia nas políticas [comuns](identity-access-policies.md) de acesso a dispositivos e identidade e também inclui algumas recomendações adicionais.
 
-Essas recomendações são baseadas em três camadas diferentes de segurança e proteção que podem ser aplicadas com base na granularidade de suas **necessidades:** linha de **base,** sensível e altamente **controlada.** Você pode aprender mais sobre esses níveis de segurança e os sistemas operacionais de cliente recomendada, referenciados por essas recomendações na [introdução de configurações e políticas de segurança recomendadas](microsoft-365-policies-configurations.md).
+Essas recomendações são baseadas em três camadas diferentes de segurança e proteção que podem ser aplicadas com base na granularidade de suas **necessidades:** linha de base **,** sensível e altamente **controlada.** Você pode aprender mais sobre esses níveis de segurança e os sistemas operacionais de cliente recomendada, referenciados por essas recomendações na [introdução de configurações e políticas de segurança recomendadas](microsoft-365-policies-configurations.md).
 
 Essas recomendações exigem que os usuários usem clientes de email modernos, incluindo o Outlook para iOS e Android em dispositivos móveis. O Outlook para iOS e Android oferece suporte para os melhores recursos do Office 365. Esses aplicativos móveis do Outlook também são projetados com recursos de segurança que suportam o uso móvel e trabalham em conjunto com outros recursos de segurança de nuvem da Microsoft. Para saber mais, confira [Perguntas frequentes sobre o Outlook para iOS e Android.](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq)
 
@@ -49,7 +49,7 @@ Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando a
 |Nível de Proteção|Políticas|Mais informações|
 |---|---|---|
 |**Baseline**|[Exigir MFA quando o risco de login for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
-||[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
+||[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
 ||[Aplicar políticas de proteção de dados app](identity-access-policies.md#apply-app-data-protection-policies)|Certifique-se de que o Outlook está incluído na lista de aplicativos. Certifique-se de atualizar a política para cada plataforma (iOS, Android, Windows)|
 ||[Exigir aplicativos aprovados e proteção de APLICATIVO](identity-access-policies.md#require-approved-apps-and-app-protection)|Incluir o Exchange Online na lista de aplicativos de nuvem|
 ||[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Incluir o Exchange Online na lista de aplicativos de nuvem|
@@ -61,7 +61,7 @@ Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando a
 
 ## <a name="block-activesync-clients"></a>Bloquear clientes do ActiveSync
 
-Essa política impede que os clientes do ActiveSync ignorem outras políticas de Acesso Condicional. A configuração de política se aplica somente aos clientes do ActiveSync. Ao selecionar **[Exigir política de proteção de](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** aplicativo, essa política bloqueia os clientes do ActiveSync. Detalhes sobre como criar essa política podem ser encontrados em Exigir política de proteção de aplicativo para acesso a aplicativos [na nuvem com Acesso Condicional.](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
+Essa política impede que os clientes do ActiveSync ignorem outras políticas de Acesso Condicional. A configuração de política se aplica somente a clientes ActiveSync. Ao selecionar **[Exigir política de proteção de](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** aplicativo, essa política bloqueia os clientes do ActiveSync. Detalhes sobre como criar essa política podem ser encontrados em Exigir política de proteção de aplicativo para acesso a aplicativos [na nuvem com Acesso Condicional.](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
 
 - Siga a "Etapa 2: Configurar uma política de Acesso Condicional do Azure AD para o Exchange Online com o ActiveSync (EAS)" no Cenário 1: os aplicativos do [Office 365](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)exigem aplicativos aprovados com políticas de proteção de aplicativos, o que impede que os clientes do Exchange ActiveSync aproveitando a autenticação básica se conectem ao Exchange Online.
 
@@ -69,7 +69,7 @@ Você também pode usar políticas de autenticação para [desabilitar a autenti
 
 ## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>Limitar o acesso ao Exchange Online a partir do Outlook na Web
 
-Você pode restringir a capacidade de os usuários baixarem anexos do Outlook na Web em dispositivos com um perfil. Os usuários nesses dispositivos podem exibir e editar esses arquivos usando o Office Online sem vazamento e armazenamento dos arquivos no dispositivo. Você também pode impedir que os usuários vejam anexos em um dispositivo não-manado.
+Você pode restringir a capacidade de os usuários baixarem anexos do Outlook na Web em dispositivos sem análise. Os usuários nesses dispositivos podem exibir e editar esses arquivos usando o Office Online sem vazamento e armazenamento dos arquivos no dispositivo. Você também pode impedir que os usuários vejam anexos em um dispositivo não-manado.
 
 Estas são as etapas:
 

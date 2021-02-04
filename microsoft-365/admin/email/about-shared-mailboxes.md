@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: As caixas de correio compartilhadas são usadas quando várias pessoas precisam acessar a mesma caixa de correio. Saiba o que você precisa saber antes de criar uma caixa de correio compartilhada.
-ms.openlocfilehash: c8d29ac2dfe8670181064e61a7fba145ae00fed1
-ms.sourcegitcommit: 50f10d83fa21db8572adab90784146e5231e3321
+ms.openlocfilehash: f5d46af5abdd528ce3db817dbabce015ed5abade
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "50058442"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094716"
 ---
 # <a name="about-shared-mailboxes"></a>Sobre as caixas de correio compartilhadas
 
@@ -45,7 +45,7 @@ Antes de [criar uma caixa de correio compartilhada,](create-a-shared-mailbox.md)
 
 - **Use com o Outlook:** Além de usar o Outlook na Web no navegador para acessar caixas de correio compartilhadas, você também pode usar o aplicativo Outlook para iOS ou o aplicativo Outlook para Android. Para saber mais, confira [Adicionar uma caixa de correio compartilhada ao Outlook Mobile.](https://support.microsoft.com/office/f866242c-81b2-472e-8776-6c49c5473c9f) Outra opção é criar um grupo para sua caixa de correio compartilhada. Para saber mais, consulte [Comparar Grupos.](../create-groups/compare-groups.md)
 
-- **Criptografia:** Não é possível criptografar emails enviados de uma caixa de correio compartilhada. Isso acontece porque uma caixa de correio compartilhada não tem seu próprio contexto de segurança (nome de usuário/senha) para que ela não possa receber uma chave. Se mais de uma pessoa for membro e enviar/receber emails criptografados com suas próprias chaves, outros membros poderão ler o email e outros podem não, dependendo de qual chave pública o email foi criptografado.
+- **Criptografia:** Não é possível criptografar emails enviados de uma caixa de correio compartilhada. Isso acontece porque uma caixa de correio compartilhada não tem seu próprio contexto de segurança (nome de usuário/senha) para que ela não possa receber uma chave. Se mais de uma pessoa for membro e enviar/receber emails criptografados com suas próprias chaves, outros membros poderão ler o email e outros poderão não, dependendo da chave pública com a qual o email foi criptografado.
 
 - **Conversão de caixa de correio:** Você pode converter caixas de correio de usuário em caixas de correio compartilhadas. Confira [Converter uma caixa de correio do usuário em uma caixa de correio compartilhada](convert-user-mailbox-to-shared-mailbox.md).
 
@@ -61,7 +61,7 @@ Antes de [criar uma caixa de correio compartilhada,](create-a-shared-mailbox.md)
 
 
 > [!NOTE]
-> Para acessar uma caixa de correio compartilhada, um usuário deve ter uma licença do Exchange Online, mas a caixa de correio compartilhada não exige uma licença separada. Sem uma licença, as caixas de correio compartilhadas são limitadas a 50 GB. Para aumentar o limite de tamanho para 100 GB, a caixa de correio compartilhada deve ser atribuída uma licença do Plano 2 do Exchange Online ou uma licença do Plano 1 do Exchange Online com uma licença complementar de Arquivamento do Exchange Online. Isso também permitirá que você habilite o arquivamento automático para uma quantidade ilimitada de capacidade de armazenamento de arquivos. Da mesma forma, se você deseja colocar uma caixa de correio compartilhada em retenção de litígio, a caixa de correio compartilhada deve ter uma licença Exchange Online Plano 2 ou uma licença Exchange Online Plano 1 com uma licença complementar de Arquivamento do Exchange Online. Se você quiser aplicar recursos avançados, como o Microsoft Defender para Office 365, Descoberta Automática Ou políticas de retenção automática, a caixa de correio compartilhada deverá ser licenciada para esses recursos.
+> Para acessar uma caixa de correio compartilhada, um usuário deve ter uma licença do Exchange Online, mas a caixa de correio compartilhada não exige uma licença separada. Toda caixa de correio compartilhada tem uma conta de usuário correspondente. Observe como você não foi solicitado a fornecer uma senha ao criar a caixa de correio compartilhada? A conta tem uma senha, mas é gerada pelo sistema (desconhecido). Você não deve usar a conta para entrar na caixa de correio compartilhada. Sem uma licença, as caixas de correio compartilhadas são limitadas a 50 GB. Para aumentar o limite de tamanho para 100 GB, a caixa de correio compartilhada deve ser atribuída uma licença do Plano 2 do Exchange Online ou uma licença do Plano 1 do Exchange Online com uma licença complementar de Arquivamento do Exchange Online. Isso também permitirá que você habilite o arquivamento automático para uma quantidade ilimitada de capacidade de armazenamento de arquivos. Da mesma forma, se você deseja colocar uma caixa de correio compartilhada em retenção de litígio, a caixa de correio compartilhada deve ter uma licença Exchange Online Plano 2 ou uma licença Exchange Online Plano 1 com uma licença complementar de Arquivamento do Exchange Online. Se você quiser aplicar recursos avançados, como o Microsoft Defender para Office 365, Descoberta Automática ou políticas de retenção automática, a caixa de correio compartilhada deverá ser licenciada para esses recursos.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

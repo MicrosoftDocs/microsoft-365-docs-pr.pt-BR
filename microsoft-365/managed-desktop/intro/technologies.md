@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: cb368939e87ddbbfc8f5386c6fc5d6bff110a7ec
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 4932a40455c8ed4d8fdfc0dfae99c8001e582ff4
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840896"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094862"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Tecnologias de Área de Trabalho Gerenciada da Microsoft
 
@@ -37,17 +37,40 @@ Aplicativos Win32 |    O Teams não é fornecido com o dispositivo, mas é empac
 Aplicativos Web |  O Yammer, o Office em um navegador, o Delve, o Flow, o StaffHub, o PowerApps e o Planner não são fornecidos com o dispositivo. Os usuários podem acessar a versão web desses aplicativos com um navegador.
 
 
-## <a name="windows-10-enterprise-e5-or-e3-with-microsoft-defender-for-endpoint"></a>Windows 10 Enterprise E5 ou E3 com o Microsoft Defender para Ponto de Extremidade
 
+## <a name="windows-10-enterprise-e5-or-e3-with-microsoft-defender-for-endpoint"></a>Windows 10 Enterprise E5 ou E3 com o Microsoft Defender para Ponto de Extremidade
+Recomendado
  |
  --- | ---
-Application Virtualization (App-V) |    Os clientes podem implantar pacotes do App-V usando o cliente de gerenciamento de aplicativos Win32 do Intune.
-Microsoft Defender para Ponto de Extremidade |    A Área de Trabalho Gerenciada da Microsoft usa esse produto para monitorar a segurança do dispositivo. 
+[Windows Hello para Empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) | Recomendamos que os clientes implementem o Windows Hello para Empresas para substituir senhas pela autenticação forte de dois fatores usada em dispositivos da Área de Trabalho Gerenciada da Microsoft.
+[Virtualização de aplicativo](https://docs.microsoft.com/windows/application-management/app-v/appv-technical-reference) | Os clientes podem implantar pacotes do App-V (Application Virtualization) usando o cliente de gerenciamento de aplicativos Do Intune Win32.
+[Prevenção contra perda de dados do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about) | Os clientes são recomendáveis implementar a prevenção contra perda de dados (DLP) do Microsoft 365 para monitorar as ações que estão sendo tomadas em itens que você determinou serem confidenciais e para ajudar a evitar o compartilhamento não intencional desses itens.   
+
+Incluído e gerenciado no serviço
+ |
+ --- | ---
+[Criptografia de Unidade de Disco BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) | A Criptografia de Unidade de Disco BitLocker é usada para criptografar todas as unidades do sistema. 
+[Windows Defender System Guard]( https://docs.microsoft.com/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows) | Protege a integridade do sistema na sua iniciação e valida que a integridade do sistema realmente foi mantida.
+[Windows Defender Credential Guard]( https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard) | O Windows Defender Credential Guard usa segurança baseada em virtualização para isolar segredos para que somente o software do sistema privilegiado possa acessá-los.
+[Microsoft Defender para Ponto de Extremidade | Detecção e resposta do ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) |     As Operações de Segurança da Área de Trabalho Gerenciada da Microsoft respondem a alertas e toma medidas para remediar ameaças usando Detecção e Resposta de Ponto de Extremidade.
+[Microsoft Defender para Ponto de Extremidade | Especialistas em ameaças](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts) | A Área de Trabalho Gerenciada da Microsoft integra-se a informações e dados de Especialistas em Ameaças por meio de notificações de ataque direcionadas. Os clientes devem fornecer consentimento adicional antes que esse serviço seja habilitado.  
+[Microsoft Defender para Ponto de Extremidade | Gerenciamento de Ameaças e Vulnerabilidades](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) | Necessário para uso futuro no plano de serviço da Área de Trabalho Gerenciada da Microsoft.
+[Microsoft Defender para Ponto de Extremidade | Redução de Superfície de Ataque](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction) | A Redução de superfície de ataque tem como alvo comportamentos de software arriscados que geralmente são invasores invasores.
+[Microsoft Defender para Ponto de Extremidade | Exploit Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) | Protege contra malware que usa explorações para infectar dispositivos e se espalhar automaticamente aplicando técnicas de mitigação de exploração a aplicativos e processos do sistema operacional.
+[Microsoft Defender para Ponto de Extremidade | Proteção de rede](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/network-protection) | A proteção de rede expande o escopo do Microsoft Defender SmartScreen para bloquear todo o tráfego HTTP(s) de saída que tenta se conectar a fontes de baixa reputação.
+[Proteção contra Adulterações do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/prevent-changes-to-security-settings-with-tamper-protection) | A Proteção contra Adulterações do Windows é usada para impedir que as configurações de segurança, como a proteção antivírus, seja alterada.
+[Proteção antivírus baseada em comportamento, heurística e em tempo real do Microsoft Defender Antivírus]( https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) | Sempre em busca de ameaças de arquivo e processo que podem não ser detectadas como malware.
+[Proteção entregue na nuvem do Microsoft Defender Antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus) | Fornece proteção dinâmica quase instantânea e automatizada contra ameaças novas e emergentes.
+[Bloquear à primeira vista do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus) | Fornece detecção e bloqueio de novo malware quando o Windows detecta um arquivo suspeito ou desconhecido.
+[Aplicativos potencialmente indesejados do Microsoft Defender AV](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) | Aplicativos potencialmente indesejados (PUA) são usados para bloquear aplicativos que podem fazer com que seu computador seja executado lentamente, exibir anúncios inesperados ou, na pior das hipóteses, instalar outro software que possa ser inesperado ou indesejado.
+[Windows Defender Firewall com Segurança Avançada](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) | Filtragem de tráfego de rede two-way baseada em host para um dispositivo, o Windows Defender Firewall bloqueia o tráfego de rede não autorizado que flui para dentro ou para fora do dispositivo local.
+[Controle de Conta de Usuário](https://docs.microsoft.com/windows/security/identity-protection/user-account-control/how-user-account-control-works) | O Controle de Conta de Usuário alterna para a Área de Trabalho Segura quando uma tarefa ou ação requer acesso de tipo de conta de administrador. Os usuários da Área de Trabalho Gerenciada da Microsoft têm acesso padrão ao usuário no registro. 
+
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5
 
  |
  --- | ---
 Enterprise Mobility + Security E3<br>Azure Active Directory Premium P2 |    Você pode usar todos os recursos do Enterprise Mobility + Security E3 e do Azure Active Directory Premium P2 para gerenciar dispositivos MDM.
-Microsoft Cloud App Security |  Você pode usar esse recurso opcional com a Área de Trabalho Gerenciada da Microsoft.
+Segurança no aplicativo na nuvem da Microsoft |  Você pode usar esse recurso opcional com a Área de Trabalho Gerenciada da Microsoft.
 Proteção de Informações do Azure P2  | Você pode usar esse recurso opcional com a Área de Trabalho Gerenciada da Microsoft.

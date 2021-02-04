@@ -15,16 +15,16 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: dd72ded935b9108e4b2699f5ddb6d320f5c32e69
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: ba851a7ad6243b9b3b6bc69432bd2b3036d6b269
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841252"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094762"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Começar a trabalhar com as configurações de gerenciamento de riscos insider
 
-As configurações de gerenciamento de riscos internas se aplicam a todas as políticas de gerenciamento de riscos internas, independentemente do modelo que você escolheu ao criar uma política. As configurações são configuradas usando o controle de configurações de risco do **Insider** localizado na parte superior de todas as guias de gerenciamento de riscos insider. Essas configurações controlam os componentes da política para as seguintes áreas:
+As configurações de gerenciamento de riscos insider se aplicam a todas as políticas de gerenciamento de riscos insider, independentemente do modelo que você escolheu ao criar uma política. As configurações são configuradas usando o controle de configurações de risco do **Insider** localizado na parte superior de todas as guias de gerenciamento de riscos insider. Essas configurações controlam os componentes da política para as seguintes áreas:
 
 - Privacidade
 - Indicadores
@@ -42,7 +42,7 @@ Antes de começar e criar políticas de gerenciamento de riscos insider, é impo
 
 Proteger a privacidade dos usuários que têm as políticas de acordo é importante e pode ajudar a promover a o objectivity na investigação de dados e análises para alertas de risco interno. Para usuários com uma política de risco interno, você pode escolher uma das seguintes configurações:
 
-- **Mostrar versões anônimas** de nomes de usuário: os nomes dos usuários são anonimizados para impedir que administradores, investigadores de dados e revisadores veja quem está associado aos alertas de política. Por exemplo, uma usuária "Grace Ltd" apareceria com um pseudônimo aleatório, como "AnonIS8-988" em todas as áreas da experiência de gerenciamento de riscos interno. Escolher essa configuração anonimiza todos os usuários com as políticas atuais e passadas e se aplica a todas as políticas. As informações do perfil do usuário no alerta de risco interno e os detalhes do caso não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários a políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que possuem as políticas atuais ou anteriores.
+- **Mostrar versões anônimas** de nomes de usuário: os nomes dos usuários são anonimizados para impedir que administradores, investigadores de dados e revisadores veja quem está associado aos alertas de política. Por exemplo, um usuário "Grace Ltd" apareceria com um pseudônimo aleatório, como "AnonIS8-988" em todas as áreas da experiência de gerenciamento de riscos interno. Escolher essa configuração anonimiza todos os usuários com as políticas atuais e passadas e se aplica a todas as políticas. As informações do perfil do usuário no alerta de risco interno e os detalhes do caso não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários a políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que possuem as políticas atuais ou anteriores.
 - **Não mostre versões anônimas** de nomes de usuário: os nomes de usuário são exibidos para todas as políticas atuais e passadas para alertas e casos. As informações de perfil de usuário (nome, título, alias e organização ou departamento) são exibidas para o usuário em todos os alertas e casos de gerenciamento de riscos insider.
 
 ![Configurações de privacidade de gerenciamento de riscos interno](../media/insider-risk-settings-privacy.png)
@@ -53,24 +53,24 @@ Os modelos de política de risco interno definem o tipo de atividades de risco q
 
 Os alertas são disparados por políticas quando os usuários executam atividades relacionadas a indicadores de política que atendem a um limite necessário. O gerenciamento de riscos insider usa dois tipos de indicadores:
 
-- **Eventos de disparo:** eventos que determinam se um usuário está ativo para uma política de gerenciamento de riscos interno. Se um usuário for adicionado a uma política de gerenciamento de risco interno não tiver um evento de disparo, a atividade do usuário não será avaliada pela política. Por exemplo, o Usuário A é  adicionado a uma política criada a partir do roubo de dados, o modelo de política de usuários departamente e a política e o conector de RH do Microsoft 365 estão configurados corretamente. Até que o Usuário A tenha uma data de término relatada pelo conector de RH, as atividades do Usuário A não serão avaliadas por esta política interna de gerenciamento de riscos quanto ao risco. Outro exemplo de um evento de disparo  é se um usuário tiver um alerta de política DLP de alta gravidade ao usar políticas *de vazamento de* dados.
+- **Eventos de disparo:** eventos que determinam se um usuário está ativo para uma política de gerenciamento de riscos interno. Se um usuário for adicionado a uma política de gerenciamento de risco interno não tiver um evento de disparo, a atividade do usuário não será avaliada pela política. Por exemplo, o Usuário A é  adicionado a uma política criada a partir do roubo de dados, ao separar o modelo de política de usuários e a política e o conector de RH do Microsoft 365 estão configurados corretamente. Até que o Usuário A tenha uma data de término relatada pelo conector de RH, as atividades do Usuário A não são avaliadas por esta política de gerenciamento de riscos interno quanto ao risco. Outro exemplo de um evento de disparo  é se um usuário tiver um alerta de política DLP de alta gravidade ao usar políticas *de vazamento de* dados.
 - **Indicadores de** política: indicadores incluídos em políticas de gerenciamento de riscos internas usadas para determinar uma pontuação de risco para um usuário dentro do escopo. Esses indicadores de política são ativados somente depois que ocorre um evento de disparo para um usuário. Alguns exemplos de indicadores de política são quando um usuário copia dados para serviços de armazenamento em nuvem pessoais ou dispositivos de armazenamento portáteis ou se um usuário compartilha arquivos e pastas internos com terceiros externos não autorizados.
 
 Os indicadores de política são segmentados nas áreas a seguir. Você pode escolher os indicadores para ativar e personalizar os limites de eventos do indicador para cada nível de indicador ao criar uma política de risco interno:
 
 - **Indicadores do Office:** incluem indicadores de política para sites do SharePoint, Teams e mensagens de email.
-- **Indicadores de** dispositivo: incluem indicadores de política para atividades como o compartilhamento de arquivos pela rede ou com dispositivos. Os indicadores incluem atividades envolvendo arquivos do Microsoft Office. Arquivos CSV e . Arquivos PDF. Se você selecionar **indicadores de dispositivo,** a atividade será processada somente para dispositivos com Windows 10 Build 1809 ou superior. Para obter mais informações sobre como configurar dispositivos para integração com riscos insider, consulte a seção Habilitar indicadores de dispositivo e [dispositivos integrados](insider-risk-management-settings.md#OnboardDevices) a seguir.
+- **Indicadores de** dispositivo: incluem indicadores de política para atividades como o compartilhamento de arquivos pela rede ou com dispositivos. Os indicadores incluem atividades envolvendo arquivos do Microsoft Office. Arquivos CSV e . Arquivos PDF. Se você selecionar **indicadores de dispositivo,** a atividade será processada somente para dispositivos com Windows 10 Build 1809 ou superior. Para obter mais informações sobre como configurar dispositivos para integração com o risco interno, consulte a seção Habilitar indicadores de dispositivo e [dispositivos integrados](insider-risk-management-settings.md#OnboardDevices) a seguir.
 - **Indicador de violação de política de** segurança: incluem indicadores do Microsoft Defender para Ponto de Extremidade relacionados à instalação de software não aprovado ou mal-intencionado ou ignorar controles de segurança. Para receber alertas no gerenciamento de riscos insider, você deve ter uma licença ativa do Defender para Ponto de Extremidade e integração de riscos insider habilitada. Para obter mais informações sobre como configurar o Defender para Endpoint para integração de gerenciamento de riscos insider, consulte Configurar recursos avançados no [Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features\#share-endpoint-alerts-with-microsoft-compliance-center)
 - **Pontuação de risco**: isso inclui aumentar a pontuação de risco para atividades incomuns ou violações de políticas passadas. A habilitação de pontuações de risco aumenta as pontuações de risco e a probabilidade de alertas para esses tipos de atividades. Os indicadores de pontuação de risco só poderão ser selecionados se um ou mais indicadores forem selecionados.
 
 ![Configurações do indicador de gerenciamento de riscos interno](../media/insider-risk-settings-indicators.png)
 
-Em alguns casos, talvez você queira limitar os indicadores de política de risco interno que são aplicados às políticas de risco interno em sua organização. Você pode desativar os indicadores de política para áreas específicas desabilitando-os de todas as políticas de risco interno. Eventos de disparo não podem ser modificados para modelos de política de risco interno.
+Em alguns casos, talvez você queira limitar os indicadores de política de risco interno que são aplicados a políticas de risco interno em sua organização. Você pode desativar os indicadores de política para áreas específicas desabilitando-os de todas as políticas de risco interno. Eventos de disparo não podem ser modificados para modelos de política de risco interno.
 
-Para definir os indicadores de política de risco interno **habilitados** em todas as políticas de risco internas, navegue até Indicadores de configurações de risco interno e selecione um ou mais indicadores  >   de política. Os indicadores selecionados na página De configurações de Indicadores não podem ser configurados individualmente ao criar ou editar uma política de risco interno no assistente de política.
+Para definir os indicadores de política de risco interno **habilitados** em todas as políticas de risco interno, navegue até Indicadores de configurações de risco interno e selecione um ou mais indicadores  >   de política. Os indicadores selecionados na página de configurações de Indicadores não podem ser configurados individualmente ao criar ou editar uma política de risco interno no assistente de política.
 
 >[!NOTE]
->Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel Usuários.** As atividades dos 90 dias anteriores para esses usuários podem levar até 24 horas para exibição. Para exibir as atividades de usuários adicionados  manualmente,  selecione o usuário no painel Usuários e abra a guia Atividade do usuário no painel de detalhes.
+>Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel Usuários.** As atividades dos 90 dias anteriores para esses usuários podem levar até 24 horas para exibição. Para exibir as atividades de usuários adicionados  manualmente, selecione o usuário no painel Usuários e abra a guia Atividade **do** usuário no painel de detalhes.
 
 ### <a name="enable-device-indicators-and-onboard-devices"></a>Habilitar indicadores de dispositivos e dispositivos de integração
 <a name="OnboardDevices"> </a>
@@ -88,9 +88,9 @@ Certifique-se de que os dispositivos Windows 10 que você planeja relatar no ger
 #### <a name="step-2-onboarding-devices"></a>Etapa 2: Integração de dispositivos
 <a name="OnboardStep2"> </a>
 
-Você deve habilitar o monitoramento de dispositivos e integrar seus pontos de extremidade antes de poder monitorar atividades de gerenciamento de riscos interno em um dispositivo. Estas ações estão concluídas no portal de conformidade do Microsoft 365.
+Você deve habilitar o monitoramento de dispositivos e a integração de seus pontos de extremidade antes de poder monitorar atividades de gerenciamento de riscos interno em um dispositivo. Estas ações estão concluídas no portal de conformidade do Microsoft 365.
 
-Quando você quiser fazer a integração de dispositivos que ainda não foram onboarded, você baixará o script apropriado e implantará conforme descrito nas etapas a seguir.
+Quando quiser fazer a integração de dispositivos que ainda não foram onboarded, você baixará o script apropriado e implantará conforme descrito nas etapas a seguir.
 
 Se você já tiver dispositivos integrados na [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/), eles já serão exibidos na lista dispositivos gerenciados. Siga [a Etapa 3: se você tiver dispositivos integrados ao Microsoft Defender para Ponto](insider-risk-management-settings.md#OnboardStep3) de Extremidade na próxima seção.
 
@@ -105,7 +105,7 @@ Neste cenário de implantação, você integra dispositivos que ainda não foram
 3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. A lista estará vazia até você integrar os dispositivos.
 4. Escolha **Integração** para iniciar o processo de integração.
 5. Escolha a maneira como você deseja implantar  para esses dispositivos mais na lista de métodos de implantação e baixe **o pacote.**
-6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Este link leva você a uma página inicial onde você pode acessar o Microsoft Defender para procedimentos de ponto de extremidade que corresponderem ao pacote de implantação selecionado na etapa 5:
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Este link leva você a uma página de destino onde você pode acessar os procedimentos da Proteção Avançada contra Ameaças do Microsoft Defender que correspondem ao pacote de implantação selecionado na etapa 5:
     - Integrar computadores com Windows 10 usando uma política de grupo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
     - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel
@@ -127,7 +127,7 @@ Se o Microsoft Defender for Endpoint já estiver implantado e houver relatórios
 3. Escolha **Gerenciamento de dispositivos** para abrir a lista **Dispositivos**. Você deverá ver a lista de dispositivos que já estão relatando para o Microsoft Defender para Ponto de Extremidade.
 4. Escolha **Integração** se precisar fazer a integração de mais dispositivos.
 5. Escolha a maneira como você deseja implantar  para esses dispositivos mais na lista de métodos de implantação e, em seguida, **baixe o pacote.**
-6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Este link leva você a uma página inicial onde você pode acessar o Microsoft Defender para procedimentos de ponto de extremidade que corresponderem ao pacote de implantação selecionado na etapa 5:
+6. Siga os procedimentos apropriados em [Ferramentas e métodos de integração dos computadores do Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Este link leva você a uma página de destino onde você pode acessar os procedimentos da Proteção Avançada contra Ameaças do Microsoft Defender que correspondem ao pacote de implantação selecionado na etapa 5:
     - Integrar computadores com Windows 10 usando uma política de grupo
     - Integrar computadores com Windows usando o Microsoft Endpoint Configuration Manager
     - Integrar computadores com Windows 10 usando ferramentas de gerenciamento de dispositivo móvel
@@ -147,7 +147,7 @@ Por exemplo, você decide habilitar os indicadores do SharePoint nas configuraç
 
 ![Configurações do indicador personalizado de gerenciamento de riscos interno](../media/insider-risk-custom-indicators.png)
 
-Para o primeiro nível de evento diário, você pode definir o limite em *10* ou mais eventos por dia para um impacto menor para a pontuação de risco para os eventos, *20* ou mais eventos por dia para um impacto médio na pontuação de risco para os eventos e *30* ou mais eventos por dia um impacto mais alto para a pontuação de risco para os eventos. Essas configurações significam efetivamente:
+Para o primeiro nível de evento diário, você pode definir o limite em *10* ou mais eventos por dia para um impacto menor na pontuação de risco para os eventos, *20* ou mais eventos por dia para um impacto médio na pontuação de risco para os eventos e *30* ou mais eventos por dia um impacto mais alto para a pontuação de risco para os eventos. Essas configurações significam efetivamente:
 
 - Se houver 1 a 9 eventos do SharePoint que ocorrem após o acionamento do evento, as pontuações de risco são minimamente impactadas e tendem a não gerar um alerta.
 - Se houver 10 a 19 eventos do SharePoint que ocorrem após um evento de disparo, a pontuação de risco é inerentemente menor e os níveis de gravidade do alerta tendem a estar em um nível baixo.
@@ -156,18 +156,16 @@ Para o primeiro nível de evento diário, você pode definir o limite em *10* ou
 
 ## <a name="policy-timeframes"></a>Períodos de política
 
-Os períodos de tempo de política permitem que você defina períodos de revisão anteriores e futuros que são disparados após as diretivas de acordo com eventos e atividades para os modelos de política de gerenciamento de riscos insider. Dependendo do modelo de política escolhido, os seguintes períodos de política estarão disponíveis:
+Os períodos de tempo da política permitem que você defina períodos de revisão anteriores e futuros que são disparados após as diretivas de acordo com eventos e atividades para os modelos de política de gerenciamento de riscos insider. Dependendo do modelo de política escolhido, os seguintes períodos de política estarão disponíveis:
 
 - **Janela de** ativação : Disponível para  todos os modelos de política, **a** janela Ativação é o número definido de dias que a janela ativa após um evento de disparo. A janela é ativada por 1 a 30 dias após um evento de disparo ocorrer para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de riscos interno e definiu a janela *Ativação* para 30 dias. Já se passaram vários meses desde que você configurou a política e ocorre um evento de disparo para um dos usuários incluídos na política. O evento de disparo ativa a janela *Ativação* e a política fica ativa para esse usuário por 30 dias após o evento de disparo ocorrer.
-- **Detecção de atividades anteriores**: Disponível para  todos os modelos de política, **a** detecção de atividade passada é o número definido de dias que a janela ativa antes de um evento de disparo. A janela é ativada de 0 a 180 dias antes que um evento de disparo ocorra para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de riscos interno e definiu a detecção *de* atividades anteriores como 90 dias. Já se passaram vários meses desde que você configurou a política e ocorre um evento de disparo para um dos usuários incluídos na política. O evento de disparo ativa a detecção *de* atividades anteriores e a política reúne atividades históricas para esse usuário por 90 dias antes do evento de disparo.
+- **Detecção de atividades anteriores**: Disponível para  todos os modelos de política, **a** detecção de atividade passada é o número definido de dias que a janela ativa antes de um evento de disparo. A janela é ativada de 0 a 180 dias antes que um evento de disparo ocorra para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de riscos interno e definiu a detecção *de* atividades passadas para 90 dias. Já se passaram vários meses desde que você configurou a política e ocorre um evento de disparo para um dos usuários incluídos na política. O evento de disparo ativa a detecção *de* atividades anteriores e a política reúne atividades históricas para esse usuário por 90 dias antes do evento de disparo.
 
 ![Configurações de período de gerenciamento de riscos interno](../media/insider-risk-settings-timeframes.png)
 
 ## <a name="intelligent-detections"></a>Detecções inteligentes
 
-As configurações de detecção inteligente ajudam a refinar como as detecções de atividades arriscadas são processadas para alertas. Em determinadas circunstâncias, talvez seja necessário definir tipos de arquivos a ignorar ou impor um nível de detecção para os arquivos para ajudar a definir uma barra mínima para alertas. Ao usar políticas de linguagem ofensivas, talvez seja necessário aumentar ou diminuir a sensibilidade à detecção para controlar a quantidade de diretivas relatadas. Use essas configurações para controlar o volume de alerta geral, as exclusões de tipo de arquivo, os limites de volume de arquivo e a sensibilidade de detecção de idioma ofensivo.
-
-![Configurações inteligentes de detecções de gerenciamento de riscos interno](../media/insider-risk-settings-detections.png)
+As configurações de detecção inteligente ajudam a refinar como as detecções de atividades arriscadas são processadas para alertas. Em determinadas circunstâncias, talvez seja necessário definir tipos de arquivos a ignorar ou impor um nível de detecção para os arquivos para ajudar a definir uma barra mínima para alertas. Use essas configurações para controlar o volume de alerta geral, exclusões de tipo de arquivo e limites de volume de arquivo.
 
 ### <a name="anomaly-detections"></a>Detecções de anomalias
 
@@ -175,17 +173,6 @@ Detecções anômalas incluem configurações para exclusões de tipo de arquivo
 
 - **Exclusões de tipo de** arquivo: para excluir tipos de arquivo específicos de todas as correspondências de política de gerenciamento de risco interno, insira extensões de tipo de arquivo separadas por vírgulas. Por exemplo, para excluir determinados tipos de arquivos de música de diretivas que você pode inserir *aac,mp3,wav,wma* no campo **exclusões de** tipo de arquivo. Os arquivos com essas extensões seriam ignorados por todas as políticas de gerenciamento de risco interno.
 - **Limite de corte de volume** de arquivo: para definir um nível mínimo de arquivo antes que os alertas de atividade sejam relatados em políticas de risco interno, insira o número de arquivos. Por exemplo, você digitaria "10" se não quisesse gerar alertas de risco interno quando um usuário baixasse 10 arquivos ou menos, mesmo que as políticas considerem essa atividade uma anomalia.
-
-### <a name="offensive-language-detections"></a>Detecções de idioma ofensivo
-
->[!IMPORTANT]
->A partir de 16 de outubro de 2020, você não poderá mais criar políticas usando esse modelo. Todas as políticas ativas que usam esse modelo funcionarão até que elas serão removidas permanentemente em janeiro de 2021. Estamos preterindo o classificador de Idioma Ofensivo integrado que dá suporte a esse modelo porque ele está produzindo um grande número de falsos positivos. Para resolver problemas de risco para linguagem ofensiva, recomendamos usar as políticas de conformidade de comunicação [do](communication-compliance.md) Microsoft 365. Para obter mais informações sobre classificadores integrados, consulte [Getting started with trainable classifiers](classifier-get-started-with.md).
-
-Para ajustar a sensibilidade do classificador de idioma ofensivo para políticas que usam o idioma ofensivo no modelo de *email,* escolha uma das seguintes configurações:
-
-- **Baixo:** o nível de sensibilidade mais baixo com a faixa mais ampla para detecção de linguagem e opiniões ofensivas. A probabilidade de falsos positivos para correspondência de linguagem ofensiva é elevada.
-- **Médio**: o nível de sensibilidade de nível médio com um intervalo balanceado para detecção de linguagem ofensiva e opiniões. A probabilidade de falsos positivos para correspondência de linguagem ofensiva é média.
-- **Alto:** o nível de sensibilidade mais alto com uma faixa estreita para detecção de linguagem ofensiva e opiniões. A probabilidade de falsos positivos para correspondência de linguagem ofensiva é baixa.
 
 ### <a name="alert-volume"></a>Volume de alertas
 
@@ -215,7 +202,7 @@ Por exemplo, se você selecionar Novo  *,* Em andamento e Resolvido para essa co
 
 ### <a name="domains-preview"></a>Domínios (visualização)
 
-As configurações de domínio ajudam a definir níveis de risco para comunicações com domínios específicos. Essas comunicações incluem o compartilhamento de arquivos, mensagens de email ou download de conteúdo. Ao especificar domínios nessas configurações, você pode aumentar ou diminuir a pontuação de risco para atividades que ocorrem com esses domínios. Por exemplo, para especificar contoso.com e sales.wingtiptoys.com como domínios permitidos, você inserirá "contoso.com sales.wingtiptoys.com" no **campo Domínios Permitidos.**
+As configurações de domínio ajudam a definir níveis de risco para comunicações com domínios específicos. Essas comunicações incluem o compartilhamento de arquivos, mensagens de email ou download de conteúdo. Ao especificar domínios nessas configurações, você pode aumentar ou diminuir a pontuação de risco para atividades que ocorrem com esses domínios. Por exemplo, para especificar contoso.com e sales.wingtiptoys.com como domínios permitidos, digite "contoso.com sales.wingtiptoys.com" no **campo Domínios Permitidos.**
 
 Para cada uma das seguintes configurações de domínio, você pode inserir até 500 domínios:
 
@@ -249,7 +236,7 @@ Os campos e valores a seguir são exportados para alertas de gerenciamento de ri
 | Nome | Nome da política para política de gerenciamento de riscos interno que gerou o alerta. |
 | PolicyId | O GUID da política de gerenciamento de riscos interno que disparou o alerta. |
 | Severity | A gravidade do alerta. Os valores *são Alto,* *Médio* ou *Baixo.* |
-| Origem | A origem do alerta. O valor é a *Conformidade & Segurança do Office 365.* |
+| Source | A origem do alerta. O valor é a *Conformidade & Segurança do Office 365.* |
 | Status | O status do alerta. Os valores estão *ativos* (*Precisa* de Revisão no risco *interno),* Investigando *(* Confirmado no risco interno), *Resolvido* *(* Resolvido no risco interno), *Descartado* *(* Ignorado no risco interno). |
 | Versão | A versão do esquema de alerta de segurança e conformidade. |
 
@@ -292,7 +279,7 @@ Conclua as seguintes etapas para criar um grupo de usuários com prioridade:
 
 ### <a name="update-a-priority-user-group"></a>Atualizar um grupo de usuários com prioridade
 
-Para atualizar um grupo de usuários com prioridade existente, você usará os controles de configuração na solução de gerenciamento de riscos do **Insider** no centro de conformidade do Microsoft 365. Para atualizar um grupo de usuários com prioridade, você deve ser membro do grupo de funções Gerenciamento de Riscos Do Insider ou Administrador de Gerenciamento de Riscos *Do Insider.* 
+Para atualizar um grupo de usuários com prioridade existente, você usará os controles de configuração na solução de gerenciamento de riscos do **Insider** no centro de conformidade do Microsoft 365. Para atualizar um grupo de usuários com prioridade, você deve ser membro do grupo de funções Gerenciamento de Riscos Do *Insider* ou Administrador de Gerenciamento de Riscos *Do Insider.*
 
 Conclua as seguintes etapas para editar um grupo de usuários com prioridade:
 
@@ -339,12 +326,12 @@ Conclua as seguintes etapas para configurar ativos físicos prioritários:
     >[!IMPORTANT]
     >Para que as políticas de gerenciamento de riscos insider usem e correlacionem dados de sinal relacionados a usuários de saída e encerrados com dados de eventos de suas plataformas de controle físico e acesso, você também deve configurar o conector de RH do Microsoft 365. Se você habilitar o conector de badging físico sem habilitar o conector de RH do Microsoft 365, as políticas de gerenciamento de riscos insider processarão apenas eventos para atividades de acesso físico para usuários em sua organização.
 
-2. No centro [de conformidade do Microsoft 365,](https://compliance.microsoft.com)vá para o gerenciamento de riscos do **Insider** e selecione Configurações de risco **internas** Ativos físicos de  >  **prioridade.**
+2. No centro [de conformidade do Microsoft 365,](https://compliance.microsoft.com)vá para o gerenciamento de riscos do **Insider** e selecione Configurações de risco **internas** Prioridade  >  **de ativos físicos.**
 3. Na página **Prioridade** de ativos físicos, você pode adicionar manualmente as IDs de ativo físico que deseja monitorar para os eventos de ativo importados pelo conector de badging físico ou importar um . Arquivo CSV de todas as IDs de ativos físicos importadas pelo conector de badging físico: a) Para adicionar manualmente IDs de ativos físicos, escolha Adicionar ativos físicos de **prioridade,** insira uma ID de ativo físico e selecione **Adicionar**. Insira outras IDs de ativo físico e selecione **Adicionar ativos físicos de prioridade** para salvar todos os ativos inseridos.
     b) Para adicionar uma lista de IDs de ativo físico de um . Arquivo CSV, escolha **Importar ativos físicos de prioridade.** Na caixa de diálogo do explorador de arquivos, selecione o . Arquivo CSV que você deseja importar e selecione **Abrir**. As IDs de ativo físico do . Os arquivos CSV são adicionados à lista.
 4. Navegue até a **guia Indicadores de** política em Configurações.
-5. Na página **Indicadores de política,** navegue até a seção Indicadores de acesso físico e marque a caixa de seleção acesso físico após o término ou falha no acesso **ao ativo sensível.** 
-6. Selecione **Salvar para** configurar e sair.
+5. Na página **Indicadores de política,** navegue até a seção Indicadores de acesso físico e marque a caixa de seleção de acesso físico após o término ou falha no acesso **ao ativo sensível.** 
+6. Selecione **Salvar** para configurar e sair.
 
 ### <a name="delete-a-priority-physical-asset"></a>Excluir um ativo físico de prioridade
 
@@ -377,7 +364,7 @@ Os seguintes modelos do Power Automate são fornecidos aos clientes para dar sup
     O fluxo atualiza automaticamente as anotações de caso em que a mensagem foi enviada e que o fluxo foi ativado. Se você optou por tornar os usuários anônimos nas configurações de Privacidade, os **fluxos** criados a partir desse modelo não funcionarão conforme o esperado para que a privacidade do usuário seja mantida. Fluxos do Power Automate usando esse modelo estão disponíveis no painel **Casos.**
 
 - **Adicione lembrete** de calendário para acompanhar um caso de risco interno: este modelo permite que os investigadores e analistas de risco adicionem lembretes de calendário para casos ao calendário do Office 365 Outlook. Esse fluxo elimina a necessidade de os usuários saírem ou saírem do fluxo de trabalho de gerenciamento de riscos interno ao processar casos e triar alertas. Quando esse fluxo é configurado e selecionado, um lembrete é adicionado ao calendário do Outlook do Office 365 para o usuário que está executando o fluxo. Fluxos do Power Automate usando esse modelo estão disponíveis no painel **Casos.**
-- Crie um registro para o caso de risco interno no **ServiceNow:** esse modelo é para organizações que querem usar sua solução ServiceNow para rastrear casos de gerenciamento de riscos insider.  Quando, em um caso, analistas e investigadores de risco interno podem criar um registro para o caso no ServiceNow. Você pode personalizar esse modelo para preencher campos selecionados no ServiceNow com base nos requisitos da sua organização. Fluxos do Power Automate usando esse modelo estão disponíveis no painel **Casos.** Para obter mais informações sobre os campos disponíveis do ServiceNow, consulte o artigo de referência do [Conector do ServiceNow.](/connectors/service-now/)
+- Crie um registro para o caso de risco interno no **ServiceNow:** esse modelo é para organizações que querem usar sua solução ServiceNow para rastrear casos de gerenciamento de riscos insider.  Quando, em um caso, analistas e investigadores de riscos insider podem criar um registro para o caso em ServiceNow. Você pode personalizar esse modelo para preencher campos selecionados no ServiceNow com base nos requisitos da sua organização. Fluxos do Power Automate usando esse modelo estão disponíveis no painel **Casos.** Para obter mais informações sobre os campos disponíveis do ServiceNow, consulte o artigo de referência do [Conector do ServiceNow.](/connectors/service-now/)
 
 ### <a name="create-a-power-automate-flow-from-insider-risk-management-template"></a>Criar um fluxo do Power Automate a partir do modelo de gerenciamento de riscos interno
 
@@ -387,8 +374,8 @@ Para criar um fluxo do Power Automate na área de configurações, você deve se
 
 Conclua as seguintes etapas para criar um fluxo do Power Automate a partir de um modelo de gerenciamento de risco interno recomendado:
 
-1. No centro [de conformidade do Microsoft 365,](https://compliance.microsoft.com/)vá para o gerenciamento de riscos do Insider e selecione configurações de risco do **Insider** **fluxos**  >  **do Power Automate.** Você também pode acessar a partir das **páginas de** painéis Casos ou Usuários escolhendo **Automatizar** o gerenciamento de   >  **fluxos do Power Automate.**
-2. Na página **fluxos do Power Automate,** selecione um modelo recomendado nos modelos de gerenciamento de riscos do **Insider que** você talvez adoe a seção na página.
+1. No centro [de conformidade do Microsoft 365,](https://compliance.microsoft.com/)vá para o gerenciamento de riscos do Insider e selecione configurações de risco do **Insider** **fluxos**  >  **do Power Automate.** Você também pode acessar a partir das **páginas de** painéis Casos ou Usuários escolhendo **Automatizar o** gerenciamento de   >  **fluxos do Power Automate.**
+2. Na página **fluxos do Power Automate,** selecione um modelo recomendado dos modelos de gerenciamento de riscos do **Insider que** você talvez adoe a seção na página.
 3. O fluxo lista as conexões incorporadas necessárias para o fluxo e observará se os status da conexão estão disponíveis. Se necessário, atualize as conexões que não são exibidas como disponíveis. Selecione **Continuar**.
 4. Por padrão, os fluxos recomendados são pré-configurados com o gerenciamento de risco interno recomendado e os campos de dados de serviço do Microsoft 365 necessários para concluir a tarefa atribuída para o fluxo. Se necessário, personalize os componentes de fluxo usando o controle Mostrar opções **avançadas** e configurando as propriedades disponíveis para o componente de fluxo.
 5. Se necessário, adicione outras etapas ao fluxo selecionando o **botão Nova etapa.** Na maioria dos casos, isso não deve ser necessário para os modelos padrão recomendados.
@@ -408,7 +395,7 @@ Conclua as seguintes etapas para criar um modelo personalizado do Power Automate
 2. **Crie um fluxo automatizado:** crie um fluxo que execute uma ou mais tarefas depois que ele é disparado por um evento de gerenciamento de riscos interno. Para obter detalhes sobre como criar um fluxo automatizado, consulte [Criar um fluxo no Power Automate](https://docs.microsoft.com/power-automate/get-started-logic-flow).
 3. Selecione o conector de conformidade do **Microsoft 365:** procure e selecione o conector de conformidade do Microsoft 365. Esse conector habilita gatilhos e ações de gerenciamento de riscos insider. Para obter mais informações sobre conectores, consulte o [artigo de visão geral de referência do](https://docs.microsoft.com/connectors/connector-reference/) Conector.
 4. **Escolha gatilhos de gerenciamento de** riscos insider para seu fluxo: o gerenciamento de riscos do Insider tem dois gatilhos disponíveis para fluxos personalizados do Power Automate:
-    - **Para um caso de gerenciamento de risco** interno selecionado: fluxos com esse gatilho podem ser selecionados na página de painel Casos de gerenciamento de riscos insider.
+    - **Para um caso de gerenciamento de** risco interno selecionado: fluxos com esse gatilho podem ser selecionados na página de painel Casos de gerenciamento de riscos insider.
     - Para um usuário selecionado de gerenciamento de riscos **insider:** fluxos com esse gatilho podem ser selecionados na página de painel Usuários de gerenciamento de riscos insider.
 5. Escolha ações de gerenciamento de riscos internas para seu fluxo: você pode escolher entre várias ações para o gerenciamento de riscos interno incluir em seu fluxo personalizado:
     - Obter alerta de gerenciamento de riscos interno
@@ -421,11 +408,11 @@ Conclua as seguintes etapas para criar um modelo personalizado do Power Automate
 
 Por padrão, os fluxos do Power Automate criados por um usuário estão disponíveis apenas para esse usuário. Para que outros usuários de gerenciamento de riscos insider tenham acesso e usem um fluxo, o fluxo deve ser compartilhado pelo criador do fluxo. Para compartilhar um fluxo, você usará os controles de configurações na solução de gerenciamento de riscos do **Insider** no centro de conformidade  do  Microsoft 365 ou na opção Gerenciar fluxos do **Power Automate** do controle automatizado ao trabalhar diretamente nas páginas de painel Casos ou Usuários. Depois de compartilhar um fluxo, todos com quem ele foi  compartilhado podem acessar  o fluxo no menu suspenso Automatizar controles nos painéis Caso **e Usuário.**
 
-Para compartilhar um fluxo do Power Automate na área de configurações, você deve ser membro do grupo de função Gerenciamento de Riscos Do *Insider* ou Do *Insider Risk Management.* Para compartilhar um fluxo do Power Automate com a opção Gerenciar fluxos do **Power Automate,** você deve ser membro de pelo menos um grupo de função de gerenciamento de risco interno.
+Para compartilhar um fluxo do Power Automate na área de  configurações,  você deve ser membro do grupo de funções Gerenciamento de Risco Interno ou Administrador de Gerenciamento de Risco Interno. Para compartilhar um fluxo do Power Automate com a opção Gerenciar fluxos do **Power Automate,** você deve ser membro de pelo menos um grupo de função de gerenciamento de risco interno.
 
 Conclua as seguintes etapas para compartilhar um fluxo do Power Automate:
 
-1. No centro [de conformidade do Microsoft 365,](htttps://compliance.microsoft.com)vá para o gerenciamento de riscos do Insider e selecione configurações de risco do **Insider** **fluxos**  >  **do Power Automate.** Você também pode acessar a partir das **páginas de** painéis Casos ou Usuários escolhendo **Automatizar** o gerenciamento de   >  **fluxos do Power Automate.**
+1. No centro [de conformidade do Microsoft 365,](htttps://compliance.microsoft.com)vá para o gerenciamento de riscos do Insider e selecione configurações de risco do **Insider** **fluxos**  >  **do Power Automate.** Você também pode acessar a partir das **páginas de** painéis Casos ou Usuários escolhendo **Automatizar o** gerenciamento de   >  **fluxos do Power Automate.**
 2. Na página **Fluxos do Power Automate,** selecione a **guia Meus fluxos** ou **Fluxos de** equipe.
 3. Selecione o fluxo a ser compartilhá-lo e, em seguida, **selecione Compartilhar** no menu opções de fluxo.
 4. Na página de compartilhamento de fluxo, insira o nome do usuário ou grupo que você deseja adicionar como proprietário do fluxo.
@@ -470,10 +457,10 @@ Para obter mais informações sobre como usar equipes e canais no Microsoft Team
 
 A habilitação do suporte do Microsoft Teams para casos é rápida e fácil de configurar. Para habilitar o Microsoft Teams para gerenciamento de riscos insider, conclua as seguintes etapas:
 
-1. No centro [de conformidade do Microsoft 365,](htttps://compliance.microsoft.com)vá para Configurações de risco do **Insider management**  >  **Insider.**
+1. No centro [de conformidade do Microsoft 365,](htttps://compliance.microsoft.com)vá para As configurações de risco do **Insider management**  >  **Insider.**
 2. Selecione a **guia Microsoft Teams.**
-3. Habilitar a integração do Microsoft Teams para gerenciamento de riscos insider.
-4. Selecione **Salvar para** configurar e sair.
+3. Habilitar a integração do Microsoft Teams para o gerenciamento de riscos interno.
+4. Selecione **Salvar** para configurar e sair.
 
 ### <a name="create-a-microsoft-teams-team-for-existing-cases"></a>Criar uma equipe do Microsoft Teams para casos existentes
 

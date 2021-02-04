@@ -20,18 +20,18 @@ search.appverid:
 - GEA150
 description: Saiba mais sobre a Proteção de Informações do Azure (AIP) para o Office 365 operado pela 21Vianet e como configurá-la para clientes na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: cee50384587ffc3e1e43eb9c6bb07d2e0ced7e13
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 300e7633237511fb9de64199ae7cf54594f2239e
+ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988039"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099673"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>Suporte à Proteção de Informações do Azure para o Office 365 operado pela 21Vianet
 
 Este artigo aborda as diferenças entre o suporte à Proteção de Informações do Azure (AIP) para o Office 365 operado pela 21Vianet e ofertas comerciais, bem como instruções específicas para configurar o AIP para clientes na China, incluindo como instalar o scanner local do AIP e gerenciar trabalhos de verificação de &mdash; conteúdo.
 
-## <a name="differences-between-aip-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Diferenças entre o AIP para o Office 365 operado pela 21Vianet e as ofertas comerciais
+## <a name="differences-between-aip-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Diferenças entre o AIP para o Office 365 operado pela 21Vianet e ofertas comerciais
 
 Embora nosso objetivo seja fornecer todos os recursos comerciais e funcionalidades aos clientes na China com nosso AIP para o Office 365 operado pela 21Vianet, há algumas funcionalidades ausentes que queremos destacar.
 
@@ -47,9 +47,11 @@ A lista a seguir inclui as lacunas existentes entre o AIP para o Office 365 oper
   
 - O IRM com o SharePoint (bibliotecas e sites protegidos por IRM) não está disponível no momento.
   
-- A Extensão de Dispositivo Móvel para AD RMS não está disponível no momento.
+- A extensão de dispositivo móvel para AD RMS não está disponível no momento.
 
 - O [Visualizador Móvel](/azure/information-protection/rms-client/mobile-app-faq) não é suportado pelo Azure China 21Vianet.
+
+- A área de AIP do portal do Azure não está disponível para os clientes na China. Use [comandos do PowerShell](#step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs) em vez de executar ações no portal, como instalar o scanner local e gerenciar seus trabalhos de verificação de conteúdo.
 
 ## <a name="configure-aip-for-customers-in-china"></a>Configurar o AIP para clientes na China
 
@@ -142,9 +144,9 @@ Os aplicativos AIP no Windows precisam da seguinte chave do Registro para aponta
 > [!IMPORTANT]
 > Certifique-se de não excluir a chave do Registro após uma desinstalação. Se a chave estiver vazia, incorreta ou inexistente, a funcionalidade se comportará como o valor padrão (valor padrão = 0 para a nuvem comercial). Se a chave estiver vazia ou incorreta, um erro de impressão também será adicionado ao log.
 
-### <a name="step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs"></a>Etapa 5: instalar o scanner local do AIP e gerenciar trabalhos de verificação de conteúdo
+### <a name="step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs"></a>Etapa 5: Instalar o scanner local do AIP e gerenciar trabalhos de verificação de conteúdo
 
-Instale o scanner local do AIP para verificar se há dados confidenciais nos compartilhamentos de rede e conteúdo e aplique rótulos de classificação e proteção conforme configurado na política da sua organização.
+Instale o scanner local do AIP para verificar se há dados confidenciais na rede e nos compartilhamentos de conteúdo e aplique rótulos de classificação e proteção conforme configurado na política da sua organização.
 
 Ao instalar o scanner e gerenciar seus trabalhos de verificação de conteúdo, use os seguintes cmdlets em vez da interface do portal do Azure usada pelas ofertas comerciais:<br><br>
 
@@ -158,4 +160,4 @@ Ao instalar o scanner e gerenciar seus trabalhos de verificação de conteúdo, 
 | [Set-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/set-aipscannercontentscanjob) | Define configurações para seu trabalho de verificação de conteúdo. |
 | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Define configurações para um repositório existente em seu trabalho de verificação de conteúdo. |
 
-Para saber mais, confira O que é o scanner de rotulagem unificado da Proteção de Informações do [Azure?](/azure/information-protection/deploy-aip-scanner) e Gerencie seus trabalhos de verificação de conteúdo usando apenas [o PowerShell.](/azure/information-protection/deploy-aip-scanner-prereqs#use-powershell-with-a-disconnected-computer)
+Para saber mais, confira O que é o scanner de rotulagem unificado da Proteção de Informações do [Azure?](/azure/information-protection/deploy-aip-scanner) e gerencie seus trabalhos de verificação de conteúdo usando apenas [o PowerShell.](/azure/information-protection/deploy-aip-scanner-prereqs#use-powershell-with-a-disconnected-computer)

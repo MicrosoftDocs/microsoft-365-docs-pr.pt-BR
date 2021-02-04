@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Saiba como habilitar o complemento Phishing de Relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
-ms.openlocfilehash: 6d86fdc710539bc3c74eb94f8931ca48a0c992c1
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: abac24e447d0afe9bc725dd8f9a976dce900b278
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029133"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094672"
 ---
 # <a name="enable-the-report-phishing-add-in"></a>Habilite o suplemento Relatório de Phishing
 
@@ -29,7 +29,7 @@ ms.locfileid: "50029133"
 
 
 > [!NOTE]
-> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos usar o portal Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador para [enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
+> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos usar o portal Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador [para enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
 
 Os complementos De Relatório de Mensagem e Phishing para Outlook e Outlook na Web (anteriormente conhecido como Outlook Web App) permitem que as pessoas reportem facilmente falsos positivos (emails válidos marcados como ruins) ou falsos negativos (emails ruins permitidos) para a Microsoft e suas afiliadas para análise.
 
@@ -51,6 +51,7 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
   - Outlook 2013 SP1 ou posterior
   - Outlook 2016 para Mac
   - Outlook incluído nos aplicativos do Microsoft 365 para Empresas
+  - Aplicativo outlook para iOS e Android
 
 - O complemento De Phishing de Relatório não está disponível para caixas de correio em organizações locais do Exchange.
 
@@ -66,7 +67,7 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
 
 1. Vá para o Microsoft AppSource em <https://appsource.microsoft.com/marketplace/apps> e pesquise o complemento Phishing de relatório.
 
-2. Clique **EM OBTER AGORA.**
+2. Clique **em OBTER AGORA.**
 
 3. Na caixa de diálogo exibida, revise os termos de uso e a política de privacidade e clique em **Continuar.**
 
@@ -82,14 +83,14 @@ Depois que o complemento for instalado e habilitado, você verá os seguintes í
 
   ![Ícone de complemento de phishing de relatório do Outlook na Web](../../media/OWA-ReportPhishing.png)
 
-## <a name="get-and-enable-the-report-phishing-add-in-for-your-organization"></a>Obter e habilitar o add-in de Phishing de Relatório para sua organização
+## <a name="get-and-enable-the-report-phishing-add-in-for-your-organization"></a>Obter e habilitar o complemento De phishing de relatório para sua organização
 
 > [!NOTE]
 > Pode levar até 12 horas para que o complemento apareça em sua organização.
 
 1. No Centro de administração do Microsoft 365, vá para a página Configurações de  \> **Add-ins** em , Se você não vir a Página de Complementos, vá para o link Configurações Integradas de <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>  Aplicativos, na parte superior da página **Aplicativos integrados.** \>  \>  
 
-2. Selecione **Implantar o add-in** na parte superior da página e, em seguida, **selecione Próximo**.
+2. Selecione **Implantar o Add-in** na parte superior da página e, em seguida, **selecione Next**.
 
    ![Página de serviços e complementos no centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -97,7 +98,7 @@ Depois que o complemento for instalado e habilitado, você verá os seguintes í
 
 4. Na próxima página, clique **em Escolher na Loja.**
 
-   ![Implantar uma nova página de complemento](../../media/NewAddInScreen2.png)
+   ![Implantar uma nova página de add-in](../../media/NewAddInScreen2.png)
 
 5. Na página Selecionar **add-in** exibida,  clique na caixa Pesquisar, insira  **Phishing** de Relatório e clique no ícone ![ ](../../media/search-icon.png) Pesquisar. Na lista de resultados, encontre **Phishing de Relatório** e clique em **Adicionar.**
 

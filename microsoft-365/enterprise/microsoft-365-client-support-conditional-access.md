@@ -1,5 +1,5 @@
 ---
-title: 'Suporte ao aplicativo cliente Microsoft 365: acesso condicional'
+title: 'Suporte ao aplicativo cliente microsoft 365: acesso condicional'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,26 +14,26 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - NOCSH
-description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam acesso condicional para o Microsoft 365.
+description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam o Acesso Condicional para o Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc187a26cd3aa644888312327b07fc9a116950cc
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: 969dd9d712fe124458273144b3e7974e03ade9e0
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806677"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097241"
 ---
-# <a name="microsoft-365-client-app-support-conditional-access"></a>Suporte ao aplicativo cliente Microsoft 365: acesso condicional
+# <a name="microsoft-365-client-app-support-conditional-access"></a>Suporte ao aplicativo cliente microsoft 365: acesso condicional
 
-No local de trabalho moderno, os usuários podem acessar os recursos da sua organização usando vários dispositivos e aplicativos de qualquer lugar. Como resultado, apenas o foco em quem pode acessar um recurso não é mais suficiente. Sua organização também deve suportar como e onde um recurso é acessado em sua infraestrutura de controle de acesso.
+No local de trabalho moderno, os usuários podem acessar os recursos da sua organização usando vários dispositivos e aplicativos de qualquer lugar. Como resultado, apenas focar em quem pode acessar um recurso não é mais suficiente. Sua organização também deve dar suporte a como e onde um recurso é acessado em sua infraestrutura de controle de acesso.
 
-Com o dispositivo do Azure Active Directory, o local e o acesso condicional com base na autenticação multifator, você pode atender a esse novo requisito. O acesso condicional é um recurso do Azure Active Directory que permite que você aplique controles no acesso aos aplicativos no seu ambiente, tudo com base em condições específicas e gerenciados de um local central.
+Com o acesso condicional baseado em autenticação multifacional, local e dispositivo do Azure Active Directory, você pode atender a esse novo requisito. O Acesso Condicional é um recurso do Azure Active Directory que permite impor controles no acesso a aplicativos em seu ambiente, tudo com base em condições específicas e gerenciado de um local central.
 
-Saiba mais sobre o [acesso condicional do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/).
+Saiba mais sobre o Acesso Condicional do [Azure Active Directory.](/azure/active-directory/conditional-access/)
 
-## <a name="supported-clients--platforms"></a>Plataformas de & de clientes com suporte
+## <a name="supported-clients--platforms"></a>Clientes com suporte & plataformas
 
-As versões mais recentes dos seguintes clientes e plataformas suportam acesso condicional. Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System Requirements for Microsoft 365](https://www.microsoft.com/microsoft-365/microsoft-365-and-office-resources).
+As versões mais recentes dos seguintes clientes e plataformas suportam acesso condicional. Para saber mais sobre o suporte à plataforma no Microsoft 365, confira [Os requisitos do sistema para o Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 
 <br>
 <br>
@@ -44,11 +44,11 @@ As versões mais recentes dos seguintes clientes e plataformas suportam acesso c
 | Access | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Administrador do Azure | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
 | Portal da empresa | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
-| Consome | Liga | Liga | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
+| Cortana | Planejado | Planejado | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
 | Delve | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
 | Borda | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Excel | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Administração do Exchange Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
+| Administrador do Exchange Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Formulários | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
 | Administração do Office 365 | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |  |
 | Kaizala | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
@@ -59,7 +59,7 @@ As versões mais recentes dos seguintes clientes e plataformas suportam acesso c
 | OneNote | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Outlook | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Planner | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Aplicativos de energia | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | Liga | Não disponível |
+| Aplicativos de energia | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | Planejado | Não disponível |
 | Power Automate | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
 | Power BI | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | PowerPoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
@@ -67,20 +67,20 @@ As versões mais recentes dos seguintes clientes e plataformas suportam acesso c
 | Publisher | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Skype for Business | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível ||
 | SharePoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Administração do SharePoint Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Notas auto-adesivas | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
-| Fluxo | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
+| Administrador do SharePoint Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
+| Observações Desaderentadas | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
+| Stream | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
 | Sway | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
 | Teams | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) |
 | To Do | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
 | Visio | Não disponível | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Quadro de comunicações | Liga | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
+| Quadro de comunicações | Planejado | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Word | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Análise de local de trabalho | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
+| Análise do local de trabalho | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
 | Yammer | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) |
 
-## <a name="supported-powershell-modules"></a>Módulos do PowerShell suportados
+## <a name="supported-powershell-modules"></a>Módulos do PowerShell com suporte
 
-- [PowerShell do Azure Active Directory](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)
-- [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)
-- [PowerShell do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+- [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+- [PowerShell do Exchange Online](/powershell/exchange/exchange-online-powershell)
+- [PowerShell do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)

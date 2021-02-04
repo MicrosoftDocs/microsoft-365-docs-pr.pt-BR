@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Exigir que seus funcionários remotos entrem com autenticação multifator (MFA).
-ms.openlocfilehash: 85bac90085b47b5114db875c822d98aa1365cf97
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: 7df6b1335c0ca45c06eee98eeff89f59b6365807
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558159"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097135"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Etapa 1. Aumentar a segurança de entrada para funcionários remotos com a MFA
 
@@ -38,12 +38,12 @@ Há três maneiras de exigir que seus usuários usem a MFA com base no seu plano
 |---------|---------|
 |Planos do Microsoft 365 (sem licenças do Microsoft Azure AD Premium P1 ou P2)     |[Habilitar os padrões de segurança no Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Os padrões de segurança no Microsoft Azure Active Directory incluem a MFA para usuários e administradores.   |
 |Microsoft 365 E3 (inclui licenças do Azure AD Premium P1)     | Use [políticas de Acesso Condicional Comuns](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) para configurar as seguintes políticas: <br>- [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Exigir MFA para todos os usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Bloquear autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5 (inclui licenças do Azure AD Premium P2)     | Aproveitando as vantagens do Azure AD Identity Protection, comece a implementar o [conjunto recomendado de Acesso Condicional e políticas relacionadas](../security/office-365-security/identity-access-policies.md) da Microsoft criando estas políticas:<br> - [Exigir MFA quando o risco de entrada for médio ou alto](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Bloquear clientes sem suporte para a autenticação moderna](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Usuários de alto risco devem alterar a senha](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Microsoft 365 E5 (inclui licenças do Azure AD Premium P2)     | Aproveitando as vantagens do Azure AD Identity Protection, comece a implementar o [conjunto recomendado de Acesso Condicional e políticas relacionadas](../security/office-365-security/identity-access-policies.md) da Microsoft criando estas políticas:<br> - [Exigir MFA quando o risco de entrada for médio ou alto](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Bloquear clientes sem suporte para a autenticação moderna](../security/office-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br>- [Usuários de alto risco devem alterar a senha](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ## <a name="security-defaults"></a>Padrões de segurança
 
-Os padrões de segurança são um novo recurso para assinaturas pagas ou de avaliação do Microsoft 365 e Office 365 criadas após 21 de outubro de 2019. Essas assinaturas têm padrões de segurança ativados, o que ***exige que todos os seus usuários utilizem o MFA com o aplicativo Microsoft Authenticator** _.
+Os padrões de segurança são um novo recurso para assinaturas pagas ou de avaliação do Microsoft 365 e Office 365 criadas após 21 de outubro de 2019. Essas assinaturas têm padrões de segurança ativados, o que ***exige que todos os seus usuários usem a MFA com o aplicativo Microsoft Authenticator***.
  
 Os usuários têm 14 dias para se registrar na MFA com o aplicativo Microsoft Authenticator em seus smartphones, que começa na primeira vez em que eles entram depois de os padrões de segurança terem sido habilitados. Após 14 dias, o usuário não poderá entrar até que o registro da MFA seja concluído.
 
@@ -91,7 +91,7 @@ Esta tabela mostra os resultados da habilitação da MFA com padrões de seguran
 
 | Método | Habilitado | Desabilitado | Método de autenticação adicional |
 |:-------|:-----|:-------|:-------|
-| _ *Padrões de segurança**  | Não é possível usar políticas de Acesso Condicional | Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
+| **Padrões de segurança**  | Não é possível usar políticas de Acesso Condicional | Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
 | **Políticas de Acesso Condicional** | Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança  | Especificado pelo usuário durante o registro da MFA  |
 ||||
 

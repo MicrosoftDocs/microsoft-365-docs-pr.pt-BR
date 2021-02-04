@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 4e008488bdd733c9a7ce5b418fb838e0fe880d9d
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 521b5fc2a8efee83b6a2931e7dbc1c713bd63cd2
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080730"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094802"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Migrar consultas de busca avançada do Microsoft Defender para o Ponto de Extremidade
 
@@ -35,7 +35,7 @@ ms.locfileid: "50080730"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Mova seus fluxos de trabalho de busca avançada do Microsoft Defender para o Ponto de Extremidade para procurar proativamente por ameaças usando um conjunto mais amplo de dados. No Microsoft 365 Defender, você tem acesso aos dados de outras soluções de segurança do Microsoft 365, incluindo:
+Mova seus fluxos de trabalho de busca avançada do Microsoft Defender para o Ponto de Extremidade para procurar proativamente por ameaças usando um conjunto mais amplo de dados. No Microsoft 365 Defender, você tem acesso a dados de outras soluções de segurança do Microsoft 365, incluindo:
 
 - Proteção Avançada contra Ameaças do Microsoft Defender
 - Microsoft Defender para Office 365
@@ -54,7 +54,7 @@ O [esquema de busca avançada do Microsoft 365 Defender](advanced-hunting-schema
 |------------|-------------|
 | [AlertEvidence](advanced-hunting-alertevidence-table.md) | Arquivos, endereços IP, URLs, usuários ou dispositivos associados a alertas |
 | [AlertInfo](advanced-hunting-alertinfo-table.md) | Alertas do Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Cloud App Security e Microsoft Defender para Identidade, incluindo informações de gravidade e categorias de ameaças  |
-| [AppFileEvents](advanced-hunting-appfileevents-table.md) | Atividades relacionadas a arquivos em aplicativos e serviços em nuvem |
+| [AppFileEvents](advanced-hunting-appfileevents-table.md) | Atividades relacionadas a arquivos em serviços e aplicativos de nuvem |
 | [EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md) | Informações sobre arquivos anexados a emails |
 | [EmailEvents](advanced-hunting-emailevents-table.md) | Eventos de email do Microsoft 365, incluindo eventos de entrega e bloqueio de email |
 | [EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md) | Eventos de segurança que ocorrem após a entrega, depois que o Microsoft 365 entrega os emails para a caixa de correio do destinatário |
@@ -87,7 +87,7 @@ Use a tabela a seguir para verificar como `DeviceAlertEvents` as colunas são ma
 | `RemoteIP` | `AlertEvidence` tabela |
 | `AttackTechniques` | `AlertInfo` tabela |
 | `ReportId` | Essa coluna é normalmente usada no Microsoft Defender para o Ponto de Extremidade para localizar registros relacionados em outras tabelas. No Microsoft 365 Defender, você pode obter dados relacionados diretamente da `AlertEvidence` tabela. |
-| `Table` | Essa coluna é normalmente usada no Microsoft Defender para o Ponto de Extremidade para obter informações adicionais sobre o evento em outras tabelas. No Microsoft 365 Defender, você pode obter dados relacionados diretamente da `AlertEvidence` tabela. |
+| `Table` | Essa coluna é normalmente usada no Microsoft Defender para o Ponto de Extremidade para obter informações de evento adicionais em outras tabelas. No Microsoft 365 Defender, você pode obter dados relacionados diretamente da `AlertEvidence` tabela. |
 
 ## <a name="adjust-existing-microsoft-defender-for-endpoint-queries"></a>Ajustar o Microsoft Defender existente para consultas de ponto de extremidade
 As consultas do Microsoft Defender para Pontos de Extremidade funcionarão como estão, a menos que elas faça referência à `DeviceAlertEvents` tabela. Para usar essas consultas no Microsoft 365 Defender, aplique estas alterações:
@@ -114,64 +114,7 @@ AlertInfo
 | where FileName == "powershell.exe"
 ```
 
-## <a name="migrate-custom-detection-rules"></a>Migrar regras de detecção personalizadas
 
-Quando as regras do Microsoft Defender for Endpoint são editadas no Microsoft 365 Defender, elas continuam a funcionar como antes se a consulta resultante analisasse apenas as tabelas do dispositivo. Por exemplo, alertas gerados por regras de detecção personalizadas que consultam apenas tabelas de dispositivos continuarão a ser entregues ao SIEM e gerarão notificações por email, dependendo de como você as configurou no Microsoft Defender para o Ponto de Extremidade. Quaisquer regras de supressão existentes no Defender para Ponto de Extremidade também continuarão a ser aplicadas.
-
-Depois de editar uma regra do Defender para Ponto de Extremidade para que ele consulte as tabelas de identidade e email, que só estão disponíveis no Microsoft 365 Defender, a regra é movida automaticamente para o Microsoft 365 Defender. 
-
-Alertas gerados pela regra migrada:
-
-- Não estão mais visíveis no portal do Defender para Ponto de Extremidade (Central de Segurança do Microsoft Defender)
-- Pare de ser entregue ao SIEM ou gere notificações por email. Para resolver essa alteração, configure as notificações por meio do Microsoft 365 Defender para receber os alertas. Você pode usar a [API do Microsoft 365 Defender](api-incident.md) para receber notificações de alertas de detecção do cliente ou incidentes relacionados.
-- Não será suprimido pelo Microsoft Defender para regras de supressão de ponto de extremidade. Para impedir que alertas são gerados para determinados usuários, dispositivos ou caixas de correio, modifique as consultas correspondentes para excluir essas entidades explicitamente.
-
-Se editar uma regra dessa maneira, você será solicitado a confirmar antes que essas alterações sejam aplicadas.
-
-Novos alertas gerados por regras de detecção personalizadas no portal do Microsoft 365 Defender são exibidos em uma página de alerta que fornece as seguintes informações:
-
-- Título e descrição do alerta 
-- Ativos afetados
-- Ações tomadas em resposta ao alerta
-- Resultados de consulta que dispararam o alerta 
-- Informações sobre a regra de detecção personalizada 
- 
-![Imagem da nova página de alerta](../../media/newalertpage.png)
-
-## <a name="write-queries-without-devicealertevents"></a>Gravar consultas sem DeviceAlertEvents
-
-No esquema do Microsoft 365 Defender, as tabelas e as tabelas são fornecidas para acomodar o conjunto diversificado de informações que acompanham `AlertInfo` `AlertEvidence` alertas de várias fontes. 
-
-Para obter as mesmas informações de alerta que você usou para obter da tabela no esquema do Microsoft Defender para Ponto de Extremidade, filtre a tabela e, em seguida, insinte cada ID exclusiva na tabela, que fornece informações detalhadas de evento e `DeviceAlertEvents` `AlertInfo` `ServiceSource` `AlertEvidence` entidade. 
-
-Consulte a consulta de exemplo abaixo:
-
-```kusto
-AlertInfo
-| where Timestamp > ago(7d)
-| where ServiceSource == "Microsoft Defender for Endpoint"
-| join AlertEvidence on AlertId
-```
-
-Essa consulta gera muito mais colunas do que no `DeviceAlertEvents` esquema do Microsoft Defender para Ponto de Extremidade. Para manter os resultados gerenciáveis, use para obter apenas as `project` colunas em que você está interessado. O exemplo abaixo projeta colunas em que você pode estar interessado quando a investigação detectou a atividade do PowerShell:
-
-```kusto
-AlertInfo
-| where Timestamp > ago(7d)
-| where ServiceSource == "Microsoft Defender for Endpoint"
-    and AttackTechniques has "powershell"
-| join AlertEvidence on AlertId
-| project Timestamp, Title, AlertId, DeviceName, FileName, ProcessCommandLine 
-```
-
-Se você quiser filtrar entidades específicas envolvidas nos alertas, poderá fazer isso especificando o tipo de entidade e o valor que você gostaria de `EntityType` filtrar. O exemplo a seguir procura um endereço IP específico:
-
-```kusto
-AlertInfo
-| where Title == "Insert_your_alert_title"
-| join AlertEvidence on AlertId 
-| where EntityType == "Ip" and RemoteIP == "192.88.99.01" 
-```
 
 ## <a name="see-also"></a>Confira também
 - [Ativar o Microsoft 365 Defender](advanced-hunting-query-language.md)

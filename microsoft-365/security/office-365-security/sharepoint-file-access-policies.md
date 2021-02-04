@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: a3485896cae5e41808cfd16a77d484a35c768a6d
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: a217970098ab88da286bb44a69845b6383a27bbc
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931765"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097169"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Recomendações de política para proteger arquivos e sites do SharePoint
 
@@ -31,7 +31,7 @@ Este artigo descreve como implementar as políticas de acesso a dispositivos e i
 
 Essas recomendações são baseadas em três camadas diferentes de segurança e proteção para arquivos do SharePoint que podem ser aplicados com base na granularidade de suas **necessidades:** linha de **base,** sensível e altamente **controlada.** Você pode saber mais sobre essas camadas de segurança e os sistemas operacionais cliente recomendados, referenciados por estas recomendações [na visão geral.](microsoft-365-policies-configurations.md)
 
-Além de implementar essas diretrizes, certifique-se de configurar sites do SharePoint com a quantidade certa de proteção, incluindo a configuração de permissões apropriadas para conteúdo altamente regulamentado e confidenciais.
+Além de implementar essas diretrizes, certifique-se de configurar sites do SharePoint com a quantidade certa de proteção, incluindo a definição de permissões apropriadas para conteúdo altamente regulamentado e confidenciais.
 
 ## <a name="updating-common-policies-to-include-sharepoint-and-onedrive-for-business"></a>Atualizando políticas comuns para incluir o SharePoint e o OneDrive for Business
 
@@ -50,13 +50,13 @@ A tabela a seguir lista as políticas que você precisa revisar e atualizar ou c
 |Nível de Proteção|Políticas|Mais informações|
 |---|---|---|
 |**Baseline**|[Exigir MFA quando o risco de login for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Inclua o SharePoint na atribuição de aplicativos de nuvem.|
-||[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Inclua o SharePoint na atribuição de aplicativos de nuvem.|
+||[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|Inclua o SharePoint na atribuição de aplicativos de nuvem.|
 ||[Aplicar políticas de proteção de dados app](identity-access-policies.md#apply-app-data-protection-policies)|Certifique-se de que todos os aplicativos recomendados estão incluídos na lista de aplicativos. Certifique-se de atualizar a política para cada plataforma (iOS, Android, Windows).|
 ||[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Inclua o SharePoint na lista de aplicativos de nuvem.|
 ||[Usar restrições impostas pelo aplicativo no SharePoint](#use-app-enforced-restrictions-in-sharepoint)|Adicione esta nova política. Isso informa ao Azure Active Directory (Azure AD) para usar as configurações especificadas no SharePoint. Essa política se aplica a todos os usuários, mas afeta apenas o acesso a sites incluídos nas políticas de acesso do SharePoint.|
 |**Confidencial**|[Exigir MFA quando o risco de login for *baixo,* *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Inclua o SharePoint nas atribuições de aplicativos de nuvem.|
 ||[Exigir PCs e dispositivos *móveis compatíveis*](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Inclua o SharePoint na lista de aplicativos de nuvem.|
-||[Política de controle de acesso do SharePoint:](#sharepoint-access-control-policies)permitir acesso somente do navegador a sites específicos do SharePoint de dispositivos não controlados.|Isso impede a edição e o download de arquivos. Use o PowerShell para especificar sites.|
+||[Política de controle de acesso do SharePoint:](#sharepoint-access-control-policies)permitir o acesso somente do navegador a sites específicos do SharePoint de dispositivos não controlados.|Isso impede a edição e o download de arquivos. Use o PowerShell para especificar sites.|
 |**Altamente controlado**|[*Sempre* exigir MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Inclua o SharePoint na atribuição de aplicativos de nuvem.|
 ||[Política de controle de acesso do SharePoint:](#use-app-enforced-restrictions-in-sharepoint)bloquear o acesso a sites específicos do SharePoint de dispositivos não controlados.|Use o PowerShell para especificar sites.|
 |
@@ -86,11 +86,11 @@ A ilustração a seguir fornece um exemplo de como as políticas de acesso a dis
 
 [Ver uma versão maior desta imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/SharePoint-rules-scenario.png)
 
-O Diretor tem políticas de Acesso Condicional de linha de base atribuídas, mas pode ter acesso aos sites do SharePoint com proteção altamente regulamentada ou confidenciais.
+Ele tem políticas de Acesso Condicional de linha de base atribuídas, mas pode ter acesso a sites do SharePoint com proteção altamente regulamentada ou sensível.
 
 - Se o James acessar um site altamente regulamentado ou sensível, ele é membro do uso de seu computador, seu acesso será concedido desde que seu computador seja compatível.
 - Se o James acessar um site sensível, ele é membro do uso de seu telefone não-autorizado, o que é permitido para usuários de linha de base, ele receberá acesso somente do navegador ao site sensível devido à política de acesso de dispositivo configurada para esse site.
-- Se o James acessar um site altamente regulamentado, ele será membro do uso de seu telefone não autorizado, ele será bloqueado devido à política de acesso configurada para esse site. Ele só pode acessar esse site usando seu computador gerenciado e compatível.
+- Se Paulo Araúque acessar um site altamente regulamentado, ele será membro do uso de seu telefone não autorizado, ele será bloqueado devido à política de acesso configurada para este site. Ele só pode acessar esse site usando seu computador gerenciado e compatível.
 
 ## <a name="next-step"></a>Próxima etapa
 

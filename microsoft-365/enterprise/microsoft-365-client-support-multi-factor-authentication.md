@@ -1,5 +1,5 @@
 ---
-title: 'Suporte ao aplicativo cliente microsoft 365: autenticação baseada em certificado'
+title: 'Suporte ao aplicativo cliente do Microsoft 365: autenticação multifa factor'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,33 +14,29 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: Neste artigo, encontre detalhes sobre o suporte do aplicativo cliente Microsoft 365 para autenticação baseada em certificado.
+description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam a autenticação multifa factor para o Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7ab5e4a2575796e37a115b36a4f78add20414ef
+ms.openlocfilehash: fdec611fc595cdc15abb0fc1fb7a998f7a615ff7
 ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097253"
+ms.locfileid: "50097453"
 ---
-# <a name="microsoft-365-client-app-support-certificate-based-authentication"></a>Suporte ao aplicativo cliente microsoft 365: autenticação baseada em certificado
+# <a name="microsoft-365-client-app-support-multi-factor-authentication"></a>Suporte ao aplicativo cliente do Microsoft 365: autenticação multifa factor
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-A autenticação moderna é um termo-guarda para uma combinação de métodos de autenticação e autorização. Entre eles:
+Para fornecer um nível adicional de segurança para as logins, os clientes podem ser configurados para usar a autenticação multifato (MFA), que usa uma senha de usuário e um método de verificação de usuário adicional com base em:
 
-- **Métodos de autenticação:** Autenticação multifa factor; Autenticação baseada em certificado de cliente.
-- **Métodos de autorização:** implementação da Autorização Aberta (OAuth) pela Microsoft.
+- Algo em sua posse que não é facilmente duplicado, como um smartphone.
+- Algo que o usuário tem de forma única e sem problemas, como suas impressões digitais, rosto ou outro atributo biométrico
 
-A autenticação moderna é habilitada por meio de uma biblioteca de autenticação, como a ADAL (Biblioteca de Autenticação do Active Directory) ou a Biblioteca de Autenticação da Microsoft (MSAL). Autenticação moderna é o que os clientes usam para autenticar e autorizar o acesso aos recursos do Microsoft 365. A autenticação moderna aproveita o OAuth e fornece um mecanismo seguro para que os clientes acessem os serviços do Microsoft 365, sem a necessidade de acesso às credenciais do usuário. Na entrada, o usuário autentica diretamente com o Azure Active Directory e recebe um par de token de acesso/atualização em retorno. O token de acesso concede ao cliente acesso aos recursos apropriados no locatário do Microsoft 365. Um token de atualização é usado para obter um novo par de tokens de acesso ou atualização quando o token de acesso atual expira.
-
-A autenticação moderna dá suporte a diferentes mecanismos de autenticação, como autenticação baseada em certificado. Os clientes em dispositivos Windows, Android ou iOS podem usar a autenticação baseada em certificado (CBA) para autenticar no Azure Active Directory usando um certificado de cliente no dispositivo. Em vez de um nome de usuário/senha típico, o certificado é usado para obter um par de token de acesso/atualização do Azure Active Directory.
-
-Saiba mais sobre [a autenticação baseada em certificado.](/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)
+Saiba mais sobre [a autenticação multifa factor.](/azure/active-directory/authentication/multi-factor-authentication)
 
 ## <a name="supported-clients--platforms"></a>Clientes com suporte & plataformas
 
-As versões mais recentes dos seguintes clientes e plataformas suportam autenticação baseada em certificado ao entrar em contas do Azure Active Directory no cliente (por exemplo, ao adicionar uma conta ao aplicativo). Para saber mais sobre o suporte à plataforma no Microsoft 365, confira [Os requisitos do sistema para o Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
+As versões mais recentes dos seguintes clientes e plataformas suportam a autenticação multifa factor. Para saber mais sobre o suporte à plataforma no Microsoft 365, confira [Os requisitos do sistema para o Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
 <br>
 <br>
 
@@ -50,9 +46,9 @@ As versões mais recentes dos seguintes clientes e plataformas suportam autentic
 | Access | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Administrador do Azure | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
 | Portal da empresa | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
-| Cortana | Planejado | Planejado | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
+| Cortana | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Delve | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Borda<sup>1</sup> | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
+| Borda | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Excel | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Administrador do Exchange Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Formulários | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
@@ -61,7 +57,7 @@ As versões mais recentes dos seguintes clientes e plataformas suportam autentic
 | Office Lens| ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Office Mobile | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
 | Portal do Office | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
-| OneDrive | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Planejado | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
+| OneDrive | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | OneNote | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Outlook | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Planner | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
@@ -74,24 +70,20 @@ As versões mais recentes dos seguintes clientes e plataformas suportam autentic
 | Skype for Business | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) |
 | Administrador do Skype for Business | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | SharePoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Administrador do SharePoint Online | Planejado | Planejado | Não disponível | Não disponível | Não disponível |
+| Administrador do SharePoint Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
 | Observações Desaderentadas | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
 | Stream | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
 | Sway | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
-| Teams | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | Planejado |
+| Teams | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) |
 | To Do | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
 | Visio | Não disponível | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Quadro de comunicações | Planejado | Planejado | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
+| Quadro de comunicações | Planejado | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Word | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Análise do local de trabalho | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
-| Yammer | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Planejado | Não disponível | Planejado |
-
->[!NOTE]
-><sup>1 Edge</sup> para iOS e Android oferece suporte à autenticação baseada em certificado durante a adoção de fluxos de adoção da conta. O Edge para iOS e Android não dá suporte à autenticação baseada em certificado ao executar a autenticação em sites, que normalmente são sites da intranet. <br><br>  Nesse cenário, um usuário navega até um site (geralmente na intranet) em que o site exige que o usuário autentgue por meio de um certificado. Isso não envolve autenticação moderna e não utiliza uma biblioteca de autenticação da Microsoft. Isso ocorre devido a uma limitação com o iOS: o iOS impede que aplicativos de terceiros acessem o keychain do sistema onde os certificados estão armazenados (somente os aplicativos Apple e o controlador [de webview safari](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller) podem acessar o keychain do sistema). <br><br> Como o Edge depende da estrutura [do WebKit](https://developer.apple.com/documentation/webkit) para renderizar sites, o Edge não consegue acessar o keychain do sistema e apresentar ao usuário uma escolha de certificado. Infelizmente, isso ocorre devido ao design devido à arquitetura da Apple.
+| Yammer | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) |
 
 ## <a name="supported-powershell-modules"></a>Módulos do PowerShell com suporte
 
 - [Azure Active Directory PowerShell](/powershell/azure/active-directory/overview?view=azureadps-2.0)
 - [PowerShell do Exchange Online](/powershell/exchange/exchange-online-powershell)
 - [PowerShell do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
-

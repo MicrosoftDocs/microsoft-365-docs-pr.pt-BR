@@ -1,6 +1,6 @@
 ---
 title: Identidade comum e políticas de acesso a dispositivos - Microsoft 365 para empresas | Microsoft Docs
-description: Descreve as configurações e políticas de acesso a dispositivos e identidade comuns recomendadas.
+description: Descreve as configurações e políticas de acesso a dispositivos e identidades comuns recomendadas.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 511f044960c5b723c8e10f6644007036c45d1f44
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: 5f1f9d8c5f4e507e62de1b815d2345fc6b70bfea
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988087"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097277"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -54,7 +54,7 @@ Para dar tempo para realizar essas tarefas, recomendamos implementar as polític
 |Nível de Proteção|Políticas|Mais informações|
 |---|---|---|
 |**Baseline**|[Exigir MFA quando o risco de login for *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)||
-||[Bloquear clientes sem suporte para a autenticação moderna](#block-clients-that-dont-support-modern-authentication)|Os clientes que não usam a autenticação moderna podem ignorar as políticas de Acesso Condicional, portanto, é importante bloqueá-los.|
+||[Bloquear clientes sem suporte para a autenticação moderna](#block-clients-that-dont-support-multi-factor)|Os clientes que não usam a autenticação moderna podem ignorar as políticas de Acesso Condicional, portanto, é importante bloqueá-los.|
 ||[Usuários de alto risco devem alterar a senha](#high-risk-users-must-change-password)|Força os usuários a alterarem a senha ao entrar se atividades de alto risco são detectadas para sua conta.|
 ||[Aplicar políticas de proteção de dados de aplicativo](#apply-app-data-protection-policies)|Uma política de Proteção de Aplicativos do Intune por plataforma (Windows, iOS/iPadOS, Android).|
 ||[Exigir aplicativos aprovados e proteção de aplicativos](#require-approved-apps-and-app-protection)|Impõe a proteção de aplicativo móvel para telefones e tablets usando iOS, iPadOS ou Android.|
@@ -83,7 +83,7 @@ Aqui estão os resultados:
 
   Nesse caso, os membros do grupo De equipe executiva combinam as políticas de Acesso Condicional de linha de base e confidenciais. Os controles de acesso para ambas as políticas são combinados, o que neste caso é equivalente à política de Acesso Condicional sensível.
 
-- Os membros do grupo Top Secret Project X são sempre obrigados a usar a MFA
+- Os membros do grupo Top Secret Project X sempre são obrigados a usar a MFA
 
   Nesse caso, os membros do grupo Top Secret Project X combinam as políticas de Acesso Condicional de linha de base e de Acesso Condicional altamente controladas. Os controles de acesso para ambas as políticas são combinados. Como o controle de acesso para a política de Acesso Condicional altamente controlada é mais restritivo, ele é usado.
 
@@ -108,7 +108,7 @@ As tabelas a seguir descrevem as configurações de política de Acesso Condicio
 
 Na seção **Atribuições:**
 
-|Configuração|Propriedades|Valores|Anotações|
+|Setting|Propriedades|Valores|Anotações|
 |---|---|---|---|
 |Usuários e grupos|Incluir|**Selecione usuários e grupos > Usuários e grupos:** selecione grupos específicos que contêm contas de usuário direcionadas.|Comece com o grupo que inclui contas de usuário piloto.|
 ||Excluir|**Usuários e grupos:** selecione seu grupo de exceção de Acesso Condicional; contas de serviço (identidades de aplicativo).|A associação deve ser modificada de forma temporária e necessária.|
@@ -121,7 +121,7 @@ Na seção **Atribuições:**
 
 Aplique as configurações de nível de risco com base no nível de proteção que você está direcionando.
 
-|Nível de proteção|Valores de nível de risco necessários|Action|
+|Nível de proteção|Valores de nível de risco necessários|Ação|
 |---|---|---|
 |Linha de base|Alto, médio|Verifique ambos.|
 |Confidencial|Alto, médio, baixo|Verifique todos os três.|
@@ -130,7 +130,7 @@ Aplique as configurações de nível de risco com base no nível de proteção q
 
 Na seção **Controles do Access:**
 
-|Configuração|Propriedades|Valores|Action|
+|Setting|Propriedades|Valores|Ação|
 |---|---|---|---|
 |Conceder|**Grant access**||Selecionar|
 |||**Exigir autenticação multifa factor**|Cheque|
@@ -141,27 +141,27 @@ Escolha **Selecionar** para salvar as **configurações** de Concessão.
 
 Por fim, **selecione Ativado** **para Habilitar política** e, em seguida, escolha **Criar**.
 
-Considere também usar a [ferramenta What if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
+Considere também usar a [ferramenta E se](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) para testar a política.
 
-## <a name="block-clients-that-dont-support-modern-authentication"></a>Bloquear clientes que não oferecem suporte à autenticação moderna
+## <a name="block-clients-that-dont-support-multi-factor"></a>Bloquear clientes que não suportam vários fatores
 
-Use as configurações nessas tabelas para uma política de Acesso Condicional para bloquear clientes que não suportam autenticação moderna.
+Use as configurações nessas tabelas para uma política de Acesso Condicional para bloquear clientes que não suportam a autenticação multifacional.
 
-Confira [este artigo](../../enterprise/microsoft-365-client-support-modern-authentication.md) para ver uma lista de clientes no Microsoft 365 que não são portadores da autenticação moderna.
+Confira [este artigo para](../../enterprise/microsoft-365-client-support-multi-factor-authentication.md) ver uma lista de clientes no Microsoft 365 que suportam a autenticação multifa factor.
 
 Na seção **Atribuições:**
 
-|Configuração|Propriedades|Valores|Anotações|
+|Setting|Propriedades|Valores|Anotações|
 |---|---|---|---|
 |Usuários e grupos|Incluir|**Selecione usuários e grupos > Usuários e grupos:** selecione grupos específicos que contêm contas de usuário direcionadas.|Comece com o grupo que inclui contas de usuário piloto.|
 ||Excluir|**Usuários e grupos:** selecione seu grupo de exceção de Acesso Condicional; contas de serviço (identidades de aplicativo).|A associação deve ser modificada de forma temporária e necessária.|
 |Aplicativos ou ações na nuvem|**Aplicativos de nuvem > Incluir**|**Selecionar aplicativos:** selecione os aplicativos correspondentes aos clientes que não suportam a autenticação moderna.||
-|Condições|**Aplicativos cliente**|Escolha **Sim** para **Configurar** <p> Limpar as marcas de seleção para **aplicativos** móveis **e navegadores e clientes da área de trabalho**||
+|Condições|**Aplicativos cliente**|Escolha **Sim** para **Configurar** <p> Limpar as marcas de seleção para **aplicativos móveis** **e navegadores e clientes da área de trabalho**||
 |
 
 Na seção **Controles do Access:**
 
-|Configuração|Propriedades|Valores|Action|
+|Setting|Propriedades|Valores|Ação|
 |---|---|---|---|
 |Conceder|**Bloquear acesso**||Selecionar|
 ||**Exigir todos os controles selecionados**||Selecionar|
@@ -183,7 +183,7 @@ Faça logon no [Portal do Microsoft Azure (https://portal.azure.com)](https://po
 
 Na seção **Atribuições:**
 
-|Tipo|Propriedades|Valores|Action|
+|Tipo|Propriedades|Valores|Ação|
 |---|---|---|---|
 |Usuários|Incluir|**Todos os usuários**|Selecionar|
 |Risco do usuário|**High**||Selecionar|
@@ -191,7 +191,7 @@ Na seção **Atribuições:**
 
 Na segunda seção **Assignments:**
 
-|Tipo|Propriedades|Valores|Action|
+|Tipo|Propriedades|Valores|Ação|
 |---|---|---|---|
 |Access|**Permitir acesso**||Selecionar|
 |||**Requer a alteração de senha**|Cheque|
@@ -211,13 +211,13 @@ As Políticas de Proteção de Aplicativos (APP) definem quais aplicativos são 
 
 A estrutura de proteção de dados do APP é organizada em três níveis de configuração distintos, com cada nível criando do nível anterior:
 
-- **A proteção de dados básicos** empresariais (Nível 1) garante que os aplicativos sejam protegidos com um PIN e criptografados e executem operações de limpeza seletiva. Para dispositivos Android, esse nível valida o atestado de dispositivo Android. Essa é uma configuração de nível de entrada que fornece um controle de proteção de dados semelhante nas políticas de caixa de correio do Exchange Online e apresenta a IT e a população de usuários ao APP.
-- **A proteção de dados aprimorada** corporativa (Nível 2) apresenta mecanismos de prevenção contra vazamento de dados de APP e requisitos mínimos do sistema operacional. Essa é a configuração aplicável à maioria dos usuários móveis que acessam dados do trabalho ou da escola.
+- **A proteção de dados básicos** empresariais (Nível 1) garante que os aplicativos sejam protegidos com um PIN e criptografados e executem operações de limpeza seletiva. Para dispositivos Android, esse nível valida o atestado de dispositivo Android. Essa é uma configuração de nível de entrada que fornece um controle de proteção de dados semelhante nas políticas de caixa de correio do Exchange Online e introduz a IT e a população de usuários ao APP.
+- **A proteção de dados corporativa aprimorada** (Nível 2) apresenta mecanismos de prevenção contra vazamento de dados de APP e requisitos mínimos do sistema operacional. Essa é a configuração aplicável à maioria dos usuários móveis que acessam dados do trabalho ou da escola.
 - **A proteção de dados corporativos** de alto nível (Nível 3) apresenta mecanismos avançados de proteção de dados, configuração de PIN aprimorada e defesa contra ameaças do APP Mobile. Essa configuração é desejável para os usuários que estão acessando dados de alto risco.
 
 Para ver as recomendações específicas para cada nível de configuração e os aplicativos mínimos que devem ser protegidos, revise a estrutura de proteção de dados usando [políticas de proteção de aplicativo.](https://docs.microsoft.com/mem/intune/apps/app-protection-framework)
 
-Usando os princípios descritos nas configurações de acesso a identidades e [dispositivos,](microsoft-365-policies-configurations.md)as camadas de proteção de linha de base e confidenciais são mapeados de perto com as configurações de proteção de dados aprimorada corporativa de Nível 2. A camada de proteção altamente regulamentada é mapeada de perto para as configurações de alta proteção de dados corporativas de Nível 3.
+Usando os princípios descritos nas configurações de acesso a identidades e [dispositivos,](microsoft-365-policies-configurations.md)as camadas de proteção de linha de base e confidenciais são mapeados de perto com as configurações de proteção de dados aprimorada corporativa de Nível 2. A camada de proteção altamente regulamentada mapeia de perto as configurações de proteção de dados de alta empresa de Nível 3.
 
 |Nível de Proteção|Política de Proteção de Aplicativos|Mais informações|
 |---|---|---|
@@ -229,7 +229,7 @@ Usando os princípios descritos nas configurações de acesso a identidades e [d
 Para criar uma nova política de proteção de aplicativo para cada plataforma (iOS e Android) no Microsoft Endpoint Manager usando as configurações da estrutura de proteção de dados, você pode:
 
 1. Crie manualmente as políticas seguindo as etapas em Como criar e implantar políticas de proteção [de aplicativos com o Microsoft Intune.](https://docs.microsoft.com/mem/intune/apps/app-protection-policies)
-2. Importe o exemplo de modelos JSON da Estrutura de Configuração da Política de Proteção de Aplicativo [do Intune](https://github.com/microsoft/Intune-Config-Frameworks/tree/master/AppProtectionPolicies) com [scripts do PowerShell do Intune.](https://github.com/microsoftgraph/powershell-intune-samples)
+2. Importe o exemplo de modelos JSON da Estrutura de Configuração da Política de Proteção de Aplicativos do [Intune](https://github.com/microsoft/Intune-Config-Frameworks/tree/master/AppProtectionPolicies) com [scripts do PowerShell do Intune.](https://github.com/microsoftgraph/powershell-intune-samples)
 
 ## <a name="require-approved-apps-and-app-protection"></a>Exigir aplicativos aprovados e proteção de APLICATIVO
 
@@ -237,18 +237,18 @@ Para impor as políticas de proteção do APP aplicadas no Intune, você deve cr
 
 Impor políticas de proteção de APLICATIVO requer um conjunto de políticas descritas em Exigir política de proteção de aplicativo para acesso de aplicativos na nuvem [com Acesso Condicional.](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) Essas políticas estão incluídas neste conjunto recomendado de políticas de configuração de identidade e acesso.
 
-Para criar a política de Acesso Condicional que exige aplicativos aprovados e proteção de APLICATIVO, siga a "Etapa 1: Configurar uma política de Acesso Condicional do Azure AD para o Microsoft 365" no Cenário 1: os aplicativos do [Microsoft 365](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)exigem aplicativos aprovados com políticas de proteção de aplicativos, que permitem o Outlook para iOS e Android, mas impede que clientes do Exchange ActiveSync com capacidade OAuth se conectem ao Exchange Online.
+Para criar a política de Acesso Condicional que exige aplicativos aprovados e proteção de APLICATIVO, siga a "Etapa 1: Configurar uma política de Acesso Condicional do Azure AD para o Microsoft 365" no Cenário 1: os aplicativos do [Microsoft 365](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)exigem aplicativos aprovados com políticas de proteção de aplicativos, que permitem o Outlook para iOS e Android, mas impede que os clientes do Exchange ActiveSync com capacidade OAuth se conectem ao Exchange Online.
 
    > [!NOTE]
    > Essa política garante que os usuários móveis possam acessar todos os pontos de extremidade do Office usando os aplicativos aplicáveis.
 
-Se você estiver habilitando o acesso móvel ao Exchange Online, implemente o bloqueio de clientes [do ActiveSync,](secure-email-recommended-policies.md#block-activesync-clients)o que impede que os clientes do Exchange ActiveSync aproveitando a autenticação básica se conectem ao Exchange Online. Essa política não é ilustrada na parte superior deste artigo. Ele é descrito e descrito nas [recomendações de política para proteger emails.](secure-email-recommended-policies.md)
+Se você estiver habilitando o acesso móvel ao Exchange Online, implemente o bloqueio de clientes [do ActiveSync](secure-email-recommended-policies.md#block-activesync-clients), o que impede que os clientes do Exchange ActiveSync aproveitando a autenticação básica se conectem ao Exchange Online. Essa política não é ilustrada na parte superior deste artigo. Ele é descrito e descrito nas [recomendações de política para proteger emails.](secure-email-recommended-policies.md)
 
 Para criar a política de Acesso Condicional que exige o Edge para iOS e Android, siga a "Etapa 2: Configurar uma política de Acesso Condicional do Azure AD para o Microsoft 365" no Cenário [2:](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-2-browser-apps-require-approved-apps-with-app-protection-policies)os aplicativos do navegador exigem aplicativos aprovados com políticas de proteção de aplicativo, que permite que o Edge para iOS e Android, mas impede que outros navegadores da Web de dispositivo móvel se conectem aos pontos de extremidade do Microsoft 365.
 
  Essas políticas aproveitam os controles de [concessão Exigem aplicativo cliente aprovado](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) e [exigem política de proteção de aplicativo.](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)
 
-Por fim, bloquear a autenticação herdda para outros aplicativos cliente em dispositivos iOS e Android garante que esses clientes não podem ignorar políticas de Acesso Condicional. Se você estiver seguindo as orientações neste artigo, já configurou clientes De bloqueio que não suportam [autenticação moderna.](#block-clients-that-dont-support-modern-authentication)
+Por fim, bloquear a autenticação herdda para outros aplicativos cliente em dispositivos iOS e Android garante que esses clientes não podem ignorar políticas de Acesso Condicional. Se você estiver seguindo as orientações neste artigo, já configurou clientes De bloqueio que não suportam [autenticação moderna.](#block-clients-that-dont-support-multi-factor)
 
 <!---
 With Conditional Access, organizations can restrict access to approved (modern authentication capable) iOS and Android client apps with Intune app protection policies applied to them. Several Conditional Access policies are required, with each policy targeting all potential users. Details on creating these policies can be found in [Require app protection policy for cloud app access with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
@@ -278,7 +278,7 @@ Você deve criar uma política para cada computador, telefone ou plataforma de t
 - Windows 8.1 e posterior
 - Windows 10 e posterior
 
-Para criar políticas de conformidade de dispositivos, entre no Centro de Administração  do [Microsoft Endpoint Manager](https://endpoint.microsoft.com) com suas credenciais de administrador e navegue até Políticas de Conformidade \> **de** \> **Dispositivos.** Selecione **Criar Política.**
+Para criar políticas de conformidade de dispositivos, entre no Centro de Administração  do [Microsoft Endpoint Manager](https://endpoint.microsoft.com) com suas credenciais de administrador e navegue até Políticas de Conformidade \> **de** \> **Dispositivos.** Selecione **Criar Política**.
 
 Para que as políticas de conformidade do dispositivo sejam implantadas, elas devem ser atribuídas a grupos de usuários. Atribua uma política depois de criar e salvá-la. No centro de administração, selecione a política e selecione **Atribuições.** Depois de selecionar os grupos que você deseja receber a política, selecione **Salvar** para salvar essa atribuição de grupo e implantar a política.
 
@@ -290,7 +290,7 @@ As configurações a seguir são recomendadas para computadores que executam o W
 
 Para **ver as regras > de avaliação** do Serviço de Atestado de Saúde do Windows, consulte esta tabela.
 
-|Propriedades|Valor|Action|
+|Propriedades|Valor|Ação|
 |---|---|---|
 |Exigir BitLocker|Exigir|Selecionar|
 |Exigir que a Inicialização Segura seja habilitada no dispositivo|Exigir|Selecionar|
@@ -303,7 +303,7 @@ Para **Conformidade do Configuration Manager,** selecione **Exigir**.
 
 Para **segurança do** sistema, consulte esta tabela.
 
-|Tipo|Propriedades|Valor|Action|
+|Tipo|Propriedades|Valor|Ação|
 |---|---|---|---|
 |Password|Exigir uma senha para desbloquear dispositivos móveis|Exigir|Selecionar|
 ||Senhas simples|Bloquear|Selecionar|
@@ -323,9 +323,9 @@ Para **segurança do** sistema, consulte esta tabela.
 ||Proteção em tempo real|Exigir|Selecionar <p> Suporte apenas para área de trabalho do Windows 10|
 |
 
-#### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade
+#### <a name="microsoft-defender-for-endpoint"></a>Proteção Avançada contra Ameaças do Microsoft Defender
 
-|Tipo|Propriedades|Valor|Action|
+|Tipo|Propriedades|Valor|Ação|
 |---|---|---|---|
 |Regras do Microsoft Defender para Ponto de Extremidade|Exigir que o dispositivo está na pontuação de risco do computador ou na pontuação de risco da máquina|Médio|Selecionar|
 |
@@ -347,7 +347,7 @@ Para exigir PCs compatíveis:
 
 7. For **Include**, choose **Select apps > Select**, and then select the desired apps from the Cloud **apps** list. Por exemplo, selecione Exchange Online. Escolha **Selecionar** quando terminar.
 
-8. Para exigir computadores compatíveis (mas não telefones e tablets em conformidade), em **Atribuições,** escolha **Condições > plataformas de dispositivo.** Selecione **Sim** para **Configurar.** Choose  **Select device platforms,** select **Windows** and **macOS**, and then choose **Done**.
+8. Para exigir computadores compatíveis (mas não telefones e tablets compatíveis), em **Atribuições,** escolha **Condições > plataformas de dispositivo.** Selecione **Sim** para **Configurar.** Choose  **Select device platforms,** select **Windows** and **macOS**, and then choose **Done**.
 
 9. Em **Controles de acesso,** escolha **Conceder** .
 
