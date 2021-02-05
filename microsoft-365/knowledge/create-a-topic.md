@@ -1,9 +1,10 @@
 ---
-title: 'Criar um novo tópico em Experiências de Tópico (Visualização) '
-description: Como criar um novo tópico em Experiências de Tópico.
+title: Criar um novo tópico nos tópicos do Microsoft Viva
+description: Como criar um novo tópico nos tópicos do Microsoft Viva.
 author: efrene
 ms.author: efrene
 manager: pamgreen
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -13,63 +14,91 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 982cb4b0f750db9aecbaab6696f57be3f2390d1d
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 35d4615057deee81285ba950a157f28160b6eefa
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976346"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107213"
 ---
-# <a name="create-a-new-topic-preview"></a><span data-ttu-id="a41d0-103">Criar um novo tópico (Visualização)</span><span class="sxs-lookup"><span data-stu-id="a41d0-103">Create a new topic (Preview)</span></span>
+# <a name="create-a-new-topic"></a><span data-ttu-id="1b472-103">Criar um novo tópico</span><span class="sxs-lookup"><span data-stu-id="1b472-103">Create a new topic</span></span> 
+
+<span data-ttu-id="1b472-104">Em Tópicos do Viva, você pode criar um novo tópico se não for descoberto por meio da indexação ou se a tecnologia de IA não tiver encontrado evidências suficientes para estabeleça-o como um tópico.</span><span class="sxs-lookup"><span data-stu-id="1b472-104">In Viva Topics, you can create a new topic if one is not discovered through indexing or if the AI technology did not find enough evidence to establish it as a topic.</span></span>
 
 > [!Note] 
-> <span data-ttu-id="a41d0-104">O conteúdo deste artigo é para o Project Cortex Private Preview.</span><span class="sxs-lookup"><span data-stu-id="a41d0-104">The content in this article is for Project Cortex Private Preview.</span></span> <span data-ttu-id="a41d0-105">[Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).</span><span class="sxs-lookup"><span data-stu-id="a41d0-105">[Find out more about Project Cortex](https://aka.ms/projectcortex).</span></span>
+> <span data-ttu-id="1b472-105">Embora as informações em um tópico coletados pela IA tenham sido cortadas com [segurança,](topic-experiences-security-trimming.md)observe que as informações em um tópico criado manualmente são visíveis para todos os usuários que têm permissões para exibir o tópico.</span><span class="sxs-lookup"><span data-stu-id="1b472-105">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that information in a manually created topic is visible to all users who have permissions to view the topic.</span></span> 
 
-<span data-ttu-id="a41d0-106">Em Experiências de Tópico, você pode criar um novo tópico se não tiver sido descoberto por meio da indexação ou se a tecnologia de IA não tiver encontrado evidências suficientes para estabeleça-o como um tópico.</span><span class="sxs-lookup"><span data-stu-id="a41d0-106">In Topic Experiences, you can create a new topic if one was not discovered through indexing or if the AI technology did not find enough evidence to establish it as a topic.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="a41d0-107">Requisitos</span><span class="sxs-lookup"><span data-stu-id="a41d0-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="1b472-106">Requisitos</span><span class="sxs-lookup"><span data-stu-id="1b472-106">Requirements</span></span>
 
-<span data-ttu-id="a41d0-108">Para criar um novo tópico, você precisa:</span><span class="sxs-lookup"><span data-stu-id="a41d0-108">To create a new topic, you need to:</span></span>
-- <span data-ttu-id="a41d0-109">Ter uma licença de Experiências de Tópico.</span><span class="sxs-lookup"><span data-stu-id="a41d0-109">Have a Topic Experiences license.</span></span>
-- <span data-ttu-id="a41d0-110">Ter permissões para [**Quem pode criar ou editar tópicos.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)</span><span class="sxs-lookup"><span data-stu-id="a41d0-110">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="a41d0-111">Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Rede de Conhecimento.</span><span class="sxs-lookup"><span data-stu-id="a41d0-111">Knowledge admins can give users this permission in the Knowledge Network topic permissions settings.</span></span> 
+<span data-ttu-id="1b472-107">Para criar um novo tópico, você precisa:</span><span class="sxs-lookup"><span data-stu-id="1b472-107">To create a new topic, you need to:</span></span>
+- <span data-ttu-id="1b472-108">Ter uma licença de Tópicos do Viva.</span><span class="sxs-lookup"><span data-stu-id="1b472-108">Have a Viva Topics license.</span></span>
+- <span data-ttu-id="1b472-109">Ter permissões para [**Quem pode criar ou editar tópicos.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions)</span><span class="sxs-lookup"><span data-stu-id="1b472-109">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="1b472-110">Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva.</span><span class="sxs-lookup"><span data-stu-id="1b472-110">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="a41d0-112">Os usuários que têm permissão para gerenciar tópicos na Central de Tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.</span><span class="sxs-lookup"><span data-stu-id="a41d0-112">Users who have permission to manage topics in the Topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
+> <span data-ttu-id="1b472-111">Os usuários que têm permissão para gerenciar tópicos no centro de tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.</span><span class="sxs-lookup"><span data-stu-id="1b472-111">Users who have permission to manage topics in the topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
 
-## <a name="to-create-a-new-topic"></a><span data-ttu-id="a41d0-113">Para criar um novo tópico:</span><span class="sxs-lookup"><span data-stu-id="a41d0-113">To create a new topic:</span></span>
+## <a name="to-create-a-new-topic"></a><span data-ttu-id="1b472-112">Para criar um novo tópico:</span><span class="sxs-lookup"><span data-stu-id="1b472-112">To create a new topic:</span></span>
 
-1. <span data-ttu-id="a41d0-114">Na página Central de Tópicos, selecione **Novo** e Página **de Tópico.**</span><span class="sxs-lookup"><span data-stu-id="a41d0-114">On the Topic center page, select **New**, then select **Topic Page**.</span></span> <span data-ttu-id="a41d0-115">Se você não conseguir ver a **nova opção** na Central de Tópicos, talvez não tenha as permissões necessárias.</span><span class="sxs-lookup"><span data-stu-id="a41d0-115">If you are not able to see the **New** option in the Topic Center, you may not have the required permissions.</span></span>
+1. <span data-ttu-id="1b472-113">Na seção **Nome deste tópico,** digite o nome do novo tópico.</span><span class="sxs-lookup"><span data-stu-id="1b472-113">In the **Name this topic** section, type the name of the new topic.</span></span>
 
-    ![Novo tópico](../media/knowledge-management/k-new-topic.png)
+    ![Nomear este tópico](../media/knowledge-management/k-new-topic-page.png) </br> 
 
-2. <span data-ttu-id="a41d0-117">Na nova página de tópicos, você pode preencher as informações sobre o novo modelo de tópico:</span><span class="sxs-lookup"><span data-stu-id="a41d0-117">On the new topic page, you can fill in the information on the new topic template:</span></span>
 
-    - <span data-ttu-id="a41d0-118">Na seção **Nome deste tópico,** digite o nome do novo tópico.</span><span class="sxs-lookup"><span data-stu-id="a41d0-118">In the **Name this topic** section, type the name of the new topic.</span></span>
+2. <span data-ttu-id="1b472-115">Na seção <b>Nomes Alternativos,</b> digite qualquer outro nome ao qual o tópico possa ser referido.</span><span class="sxs-lookup"><span data-stu-id="1b472-115">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
+
+    ![Nomes alternativos](../media/knowledge-management/alt-names.png) </br> 
+3. <span data-ttu-id="1b472-117">Na seção <b>Descrição,</b> digite algumas frases que descrevem o tópico.</span><span class="sxs-lookup"><span data-stu-id="1b472-117">In the <b>Description</b> section, type a couple of sentences that describe the topic.</span></span> 
+
+    ![Descrição do tópico](../media/knowledge-management/description.png)</br>
+
+4. <span data-ttu-id="1b472-119">Na seção <b>Pessoas fixadas,</b> você pode "fixar" uma pessoa para exibi-la como um especialista no assunto sobre o tópico.</span><span class="sxs-lookup"><span data-stu-id="1b472-119">In the <b>Pinned people</b> section, you can "pin" a person to show them as a subject matter expert on the topic.</span></span> <span data-ttu-id="1b472-120">Comece digitando seu nome ou <b></b> endereço de email na caixa adicionar um novo usuário e selecione o usuário que você deseja adicionar nos resultados da pesquisa.</span><span class="sxs-lookup"><span data-stu-id="1b472-120">Begin by typing their name or email address in the <b>add a new user</b> box, and then select the user you want to add from the search results.</span></span> <span data-ttu-id="1b472-121">Você também pode "inpiná-los" selecionando o ícone <b>Remover da</b> lista no cartão do usuário.</span><span class="sxs-lookup"><span data-stu-id="1b472-121">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span> <span data-ttu-id="1b472-122">Você também pode arrastar a pessoa para alterar a ordem em que a lista de pessoas aparece.</span><span class="sxs-lookup"><span data-stu-id="1b472-122">You can also drag the person to change the order that the list of people appear.</span></span>
+ 
+    ![Pessoas fixadas](../media/knowledge-management/pinned-people.png)</br>
+
+
+5. <span data-ttu-id="1b472-124">Na seção <b>Arquivos e páginas</b> fixados, você pode adicionar ou "fixar" um arquivo ou uma página de site do SharePoint que está associada ao tópico.</span><span class="sxs-lookup"><span data-stu-id="1b472-124">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
+
+   ![Arquivos e páginas fixados](../media/knowledge-management/pinned-files-and-pages.png)</br>
+ 
+    <span data-ttu-id="1b472-126">Para adicionar um novo arquivo, selecione <b>Adicionar</b>, selecione o site do SharePoint em seus sites Frequentes ou Seguidos e selecione o arquivo na biblioteca de documentos do site.</span><span class="sxs-lookup"><span data-stu-id="1b472-126">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
+
+    <span data-ttu-id="1b472-127">Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou página fornecendo a URL.</span><span class="sxs-lookup"><span data-stu-id="1b472-127">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
+
+
+6.  <span data-ttu-id="1b472-128">A <b>seção Sites relacionados</b> mostra sites que têm informações sobre o tópico.</span><span class="sxs-lookup"><span data-stu-id="1b472-128">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
+
+    ![Seção sites relacionados](../media/knowledge-management/related-sites.png)</br>
+
+    <span data-ttu-id="1b472-130">Você pode adicionar um site relacionado selecionando <b>Adicionar</b> e, em seguida, pesquisando o site ou selecionando-o em sua lista de sites Frequentes ou Recentes.</span><span class="sxs-lookup"><span data-stu-id="1b472-130">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
     
-    - <span data-ttu-id="a41d0-119">Na seção **Nomes alternativos,** digite nomes ou acrônimos que também são usados para se referir ao tópico.</span><span class="sxs-lookup"><span data-stu-id="a41d0-119">In the **Alternate names** section, type names or acronyms that are also used to refer to the topic.</span></span>
-    
-    - <span data-ttu-id="a41d0-120">Na seção **Short description,** digite uma ou duas frases descrição do tópico.</span><span class="sxs-lookup"><span data-stu-id="a41d0-120">In the **Short description** section, type a one or two sentence description of the topic.</span></span> <span data-ttu-id="a41d0-121">Este texto será usado para o cartão de tópico associado.</span><span class="sxs-lookup"><span data-stu-id="a41d0-121">This text will be used for the associated topic card.</span></span>
-    
-    - <span data-ttu-id="a41d0-122">Na seção **Pessoas,** digite os nomes de especialistas no assunto do tópico.</span><span class="sxs-lookup"><span data-stu-id="a41d0-122">In the **People** section, type the names of subject matter experts for the topic.</span></span> <span data-ttu-id="a41d0-123">As pessoas que você adicionar manualmente ao tópico serão exibidas na página de tópico como **Pessoas fixadas.**</span><span class="sxs-lookup"><span data-stu-id="a41d0-123">People you manually add to the topic will display in the topic page as **Pinned people**.</span></span>
-    
-    - <span data-ttu-id="a41d0-124">Na seção **Arquivos e páginas,** selecione **Adicionar** e, na próxima página, você pode selecionar arquivos associados do OneDrive ou páginas do SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="a41d0-124">In the **Files and pages** section, select **Add** and then on the next page you can select associated OneDrive files or SharePoint Online pages.</span></span>
-    
-    - <span data-ttu-id="a41d0-125">Na seção **Sites,** selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="a41d0-125">In the **Sites** section, select **Add**.</span></span> <span data-ttu-id="a41d0-126">No painel  **Sites** exibido, selecione os sites associados ao tópico.</span><span class="sxs-lookup"><span data-stu-id="a41d0-126">In the  **Sites** pane that displays, select the sites that are associated to the topic.</span></span>
+    ![Selecionar site](../media/knowledge-management/sites.png)</br>
 
-    ![Nova página de tópicos](../media/knowledge-management/k-new-topic-page.png)
-    
-3. <span data-ttu-id="a41d0-128">Se você precisar adicionar outros componentes à página, como texto, imagens, Web Parts, links, etc., selecione o ícone de tela no meio da página para localizá-los e adicioná-los.</span><span class="sxs-lookup"><span data-stu-id="a41d0-128">If you need to add other components to the page, such as text, images, web parts, links, etc., select the canvas icon in the middle of the page to locate and add them.</span></span>
+7. <span data-ttu-id="1b472-132">A <b>seção Tópicos relacionados</b> mostra conexões que existem entre tópicos.</span><span class="sxs-lookup"><span data-stu-id="1b472-132">The <b>Related topics</b> section shows connections that exist between topics.</span></span> <span data-ttu-id="1b472-133">Você pode adicionar uma conexão a um tópico diferente selecionando o botão Conectar <b>a</b> um tópico relacionado, digitando o nome do tópico relacionado e selecionando-o nos resultados da pesquisa.</span><span class="sxs-lookup"><span data-stu-id="1b472-133">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
 
-    ![Adicionar itens à página](../media/knowledge-management/static-icon.png)
+   ![Tópicos relacionados](../media/knowledge-management/related-topic.png)</br>  
 
-4. <span data-ttu-id="a41d0-130">Quando terminar, selecione **Publicar para** publicar a página de tópico.</span><span class="sxs-lookup"><span data-stu-id="a41d0-130">When you are done, select **Publish** to publish the topic page.</span></span> <span data-ttu-id="a41d0-131">As páginas de tópico publicadas serão exibidas na **guia** Páginas.</span><span class="sxs-lookup"><span data-stu-id="a41d0-131">Published topic pages will display in the **Pages** tab.</span></span>
+    <span data-ttu-id="1b472-135">Em seguida, você pode dar uma descrição de como os tópicos estão relacionados e selecionar <b>Atualizar.</b></span><span class="sxs-lookup"><span data-stu-id="1b472-135">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
 
-<span data-ttu-id="a41d0-132">Depois de publicar o artigo, o nome do tópico, o nome alternativo, a descrição e as pessoas fixadas serão exibidos para todos os usuários licenciados que exibirem o artigo.</span><span class="sxs-lookup"><span data-stu-id="a41d0-132">After you publish the article, the topic name, alternate name, description, and pinned people will display to all licensed users who view the article.</span></span> <span data-ttu-id="a41d0-133">Arquivos, páginas e sites só aparecerão na página de tópico se o visualizador tiver permissões do Office 365 para o item.</span><span class="sxs-lookup"><span data-stu-id="a41d0-133">Files, pages, and sites will only appear in the topic page if the viewer has Office 365 permissions to the item.</span></span> 
+   ![Descrição de tópicos relacionados](../media/knowledge-management/related-topics-update.png)</br> 
 
-<span data-ttu-id="a41d0-134">A nova página de tópicos é feita de Web Parts que são *cientes da rede de conhecimento.*</span><span class="sxs-lookup"><span data-stu-id="a41d0-134">The new topic page is made up of web parts that are *knowledge network aware*.</span></span> <span data-ttu-id="a41d0-135">Isso significa que, à medida que a IA coletar mais informações sobre o tópico, as informações nessas Web Parts serão atualizadas com sugestões para tornar a página mais útil para os usuários.</span><span class="sxs-lookup"><span data-stu-id="a41d0-135">This means that as AI gathers more information on the topic, the information in these web parts will be updated with suggestions to make the page more useful to users.</span></span>
+   <span data-ttu-id="1b472-137">O tópico relacionado adicionado será exibido como um tópico conectado.</span><span class="sxs-lookup"><span data-stu-id="1b472-137">The related topic you added will display as a connected topic.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a41d0-136">Confira também</span><span class="sxs-lookup"><span data-stu-id="a41d0-136">See also</span></span>
+   ![Tópicos relacionados conectados](../media/knowledge-management/related-topics-final.png)</br> 
+
+
+8. <span data-ttu-id="1b472-139">Você também pode adicionar itens estáticos à página (como texto, imagens ou links) selecionando o ícone de tela, que pode ser localizado abaixo da descrição curta.</span><span class="sxs-lookup"><span data-stu-id="1b472-139">You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="1b472-140">Se você selecioná-la, a caixa de ferramentas do SharePoint será aberta a partir da qual você poderá escolher o item que deseja adicionar à página.</span><span class="sxs-lookup"><span data-stu-id="1b472-140">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
+
+   ![Ícone de tela](../media/knowledge-management/webpart-library.png)</br> 
+
+
+9. <span data-ttu-id="1b472-142">Selecione **Publicar** para salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="1b472-142">Select **Publish** to save your changes.</span></span> 
+
+<span data-ttu-id="1b472-143">Depois de publicar a página, o nome do tópico, o nome alternativo, a descrição e as pessoas fixadas serão exibidos para todos os usuários licenciados que exibirem o tópico.</span><span class="sxs-lookup"><span data-stu-id="1b472-143">After you publish the page, the topic name, alternate name, description, and pinned people will display to all licensed users who view the topic.</span></span> <span data-ttu-id="1b472-144">Arquivos, páginas e sites específicos só aparecerão na página de tópico se o visualizador tiver permissões do Office 365 para o item.</span><span class="sxs-lookup"><span data-stu-id="1b472-144">Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item.</span></span> 
+
+
+
+## <a name="see-also"></a><span data-ttu-id="1b472-145">Confira também</span><span class="sxs-lookup"><span data-stu-id="1b472-145">See also</span></span>
 
 
 

@@ -235,8 +235,6 @@
           href: manage/change-address-contact-and-more.md
         - name: Atualizar suas informações de contato de administrador
           href: manage/update-phone-number-and-email-address.md
-        - name: Definir política de expiração de senha
-          href: manage/set-password-expiration-policy.md
         - name: Personalizar o inicializador de aplicativos
           href: manage/customize-the-app-launcher.md
         - name: Fixe aplicativos ao iniciador de aplicativos dos usuários
