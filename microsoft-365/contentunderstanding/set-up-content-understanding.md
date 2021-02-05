@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Configure a compreensão de conteúdo no Projeto Cortex
-ms.openlocfilehash: a9713f1d28cf863ab827d2975e84042026105b3f
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 0e5b48bab343f887a1438386bfa4f7915126ccd7
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976371"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094704"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Configuração do SharePoint Syntex
 
@@ -34,12 +34,12 @@ Considere o seguinte antes de começar:
 Antes da configuração, certifique-se de planejar a melhor maneira de estabelecer e configurar a compreensão de conteúdo no seu ambiente. Por exemplo, você precisa tomar as seguintes decisões:
 
 - Os sites do Microsoft Office SharePoint Online nos quais você deseja habilitar o processamento de formulários - todos, alguns ou sites selecionados
-- O nome e administradores ou seu centro de conteúdo
+- O nome e os administradores do seu centro de conteúdo
 
 ## <a name="requirements"></a>Requisitos 
 
 > [!NOTE]
-> Você deve ter permissões administrativas globais ou de administrador do SharePoint para poder acessar o Centro de administração do Microsoft 365 e configurar a compreensão de conteúdo.
+> Você precisa ter permissões administrativas globais ou de administrador do SharePoint para poder acessar o Centro de administração do Microsoft 365 e configurar o SharePoint Syntex.
 
 Como administrador, também é possível fazer alterações nas configurações selecionadas a qualquer momento após a configuração e ao longo das configurações de gerenciamento de compreensão de conteúdo no Centro de Administração do Microsoft 365.
 

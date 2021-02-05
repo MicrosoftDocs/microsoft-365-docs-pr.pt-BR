@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Saiba como aplicar um modelo publicado a uma biblioteca de documentos do SharePoint
-ms.openlocfilehash: 742c6b7088619579f6157e20de63fe311039d6e2
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 17da1e37f72504ac5e0e26c0dd190efced08d285
+ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975926"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50080755"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Aplicar um modelo de compreensão de documento no Microsoft SharePoint Syntex
 
@@ -65,6 +65,11 @@ Para aplicar o modelo a uma biblioteca de documentos do SharePoint:
 
     ![Modo de exibição informações](../media/content-understanding/info-du.png)</br> 
 
+    Você pode selecionar a opção **Exibir modelos ativos** para ver detalhes sobre todos os modelos aplicados à biblioteca de documentos.
+
+8. No painel **Modelos ativos**, você pode ver os modelos aplicados à biblioteca de documentos. Selecione um modelo para ver mais detalhes sobre ele, como uma descrição do modelo, quem publicou o modelo e se ele aplica um rótulo de retenção aos arquivos que ele classifica.
+
+    ![Painel Modelos ativos](../media/content-understanding/active-models.png)</br> 
 
 Depois de aplicar o modelo à biblioteca de documentos, você pode começar a carregar documentos no site e ver os resultados.
 
@@ -82,6 +87,20 @@ Enquanto um modelo aplicado processa todos os arquivos carregados na biblioteca 
 
 > [!NOTE]
 > Você pode copiar arquivos individuais para uma biblioteca e aplicá-los a um modelo, mas não a pastas.
+
+### <a name="the-classification-date-field"></a>O campo Data de Classificação
+
+Quando a compreensão de um documento do SharePoint Syntex ou um modelo de processamento de formulário é aplicado a uma biblioteca de documentos, um campo <b>Data de Classificação</b> é incluído no esquema de biblioteca. Por padrão, esse campo fica vazio, mas quando os documentos são processados e classificados por um modelo, esse campo é atualizado com um carimbo de data e hora de conclusão. 
+
+   ![Coluna Data de Classificação](../media/content-understanding/class-date-column.png)</br> 
+
+O campo Data de classificação é usado pelo [<b>Quando um arquivo é classificado por um modelo de compreensão de conteúdo</b> aciona o ](https://docs.microsoft.com/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model) para executar um fluxo do Power Automate depois que um modelo de compreensão de conteúdo Syntex terminar de processar um arquivo e atualizar o campo "Data de classificação".
+
+   ![Gatilho de fluxo](../media/content-understanding/trigger.png)</br>
+
+O <b>Quando um arquivo é classificado por um modelo de compreensão de conteúdo</b> acionador pode ser usado para iniciar outro fluxo de trabalho usando qualquer informação extraída do arquivo.
+
+
 
 ## <a name="see-also"></a>Confira também
 [Criar um classificador](create-a-classifier.md)
