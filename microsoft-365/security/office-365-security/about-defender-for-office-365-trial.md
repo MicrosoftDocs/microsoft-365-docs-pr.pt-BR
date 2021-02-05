@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Os administradores podem saber mais sobre o modo de avaliação do Microsoft Defender para Office 365
-ms.openlocfilehash: 70f5264671e16e5e7fb6138de055a7da942a57cf
-ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
+ms.openlocfilehash: f5ab0b0cd4ef5c2bf1a799043af94a0938a53783
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099785"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114890"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Sobre a avaliação do Microsoft Defender para Office 365
 
@@ -41,7 +41,7 @@ Uma avaliação do Microsoft Defender para Office 365 é a maneira mais fácil d
 
 ## <a name="terms-and-conditions"></a>Termos e condições
 
-A avaliação do Defender para Office 365 está disponível por 90 dias e pode ser iniciada para todos os seus usuários. Para obter mais informações, confira <link to TOU>.
+A avaliação do Defender para Office 365 está disponível por 90 dias e pode ser iniciada para todos os seus usuários. Para obter mais informações, [consulte Termos de uso para a avaliação do Microsoft Defender para Office 365.](terms-of-use-defender-for-office-365-trial.md)
 
 ## <a name="set-up-a-defender-for-office-365-trial"></a>Configurar um Defender para avaliação do Office 365
 

@@ -1,5 +1,5 @@
 ---
-title: Gerenciar a visibilidade de tópicos no Microsoft 365
+title: Gerenciar visibilidade de tópicos nos tópicos do Microsoft Viva
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,52 +9,51 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-description: Saiba como administrar a visibilidade de tópicos no Microsoft 365.
-ms.openlocfilehash: e2f09d06051d3fc8314a17d55f97aab305c0d358
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+description: Saiba como administrar a visibilidade do tópico nos tópicos do Microsoft Viva.
+ms.openlocfilehash: cd6a712687a63c3d131ee678c6c408f516c7b529
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49668091"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107656"
 ---
-# <a name="manage-topic-visibility-in-microsoft-365"></a>Gerenciar a visibilidade de tópicos no Microsoft 365
+# <a name="manage-topic-visibility-in-microsoft-viva-topics"></a>Gerenciar visibilidade de tópicos nos tópicos do Microsoft Viva
 
-Você pode gerenciar o conjunto de usuários que podem ver destaques de tópico, cartões de tópico e o tópico central no [centro de administração do Microsoft 365](https://admin.microsoft.com). Você deve ser um administrador global ou administrador do SharePoint para executar essas tarefas.
+Você pode gerenciar o conjunto de usuários que podem ver destaques de tópicos, cartões de tópico e o centro de tópicos no centro de administração do [Microsoft 365.](https://admin.microsoft.com) Você deve ser um administrador global ou administrador do SharePoint para executar essas tarefas.
 
 ## <a name="to-access-topics-management-settings"></a>Para acessar as configurações de gerenciamento de tópicos:
 
-1. No centro de administração do Microsoft 365, clique em **configurações** e em **configurações da organização**.
-2. Na guia **Serviços** , clique em **rede de conhecimento**.
+1. No centro de administração do Microsoft 365, clique em **Configurações** e, em seguida, **nas configurações da organização.**
+2. Na guia **Serviços,** clique em Experiências **de Tópico.**
 
-    ![Conectar pessoas a conhecimento](../media/admin-org-knowledge-options-completed.png) 
+    ![Conectar as pessoas ao conhecimento](../media/admin-org-knowledge-options-completed.png) 
 
-3. Selecione a guia **visibilidade de tópico** . Consulte as seções a seguir para obter informações sobre cada configuração.
+3. Selecione a **guia Visibilidade do** tópico. Consulte as seções a seguir para obter informações sobre cada configuração.
 
-    ![conhecimento-rede – configurações](../media/knowledge-network-settings-topic-visibility.png) 
+    ![knowledge-network-settings](../media/knowledge-network-settings-topic-visibility.png) 
 
 ##  <a name="change-who-can-see-topics-in-your-organization"></a>Alterar quem pode ver os tópicos em sua organização
 
 Você pode alterar os usuários que podem ver tópicos em sua organização.
 
-1. Na guia **visibilidade do tópico** , em **quem pode ver os tópicos na rede de conhecimento**, selecione **Editar**.
-2. Na página **quem pode ver os tópicos da página da rede de conhecimento** , você escolhe quem terá acesso aos detalhes do tópico, como tópicos realçados, cartões de tópicos, respostas de tópicos em pesquisa e páginas de tópicos. Você pode selecionar:
+1. Na guia **Visibilidade do** tópico, em **Quem pode ver tópicos,** selecione **Editar**.
+2. Na página **Quem pode ver tópicos,** escolha quem terá acesso aos detalhes do tópico, como tópicos realçados, cartões de tópicos, respostas de tópicos na pesquisa e páginas de tópicos. Você pode selecionar:
     - **Todos em sua organização**
-    - **Apenas pessoas ou grupos de segurança selecionados**
+    - **Somente pessoas ou grupos de segurança selecionados**
     - **Ninguém**
 
-    ![Quem pode ver os tópicos](../media/k-manage-who-can-see-topics.png) 
+    ![Quem pode ver tópicos](../media/k-manage-who-can-see-topics.png) 
 
 3. Selecione **Salvar**.  
  
 > [!Note] 
-> Embora essa configuração permita que você selecione qualquer usuário da sua organização, somente os usuários que tiverem o tópico experiências de licenças atribuídas poderão exibir tópicos.
+> Embora essa configuração permita que você selecione qualquer usuário em sua organização, somente os usuários que têm licenças de Experiências de Tópico atribuídas a eles poderão exibir tópicos.
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 
-[Gerenciar descoberta de tópicos no Microsoft 365](topic-experiences-discovery.md)
+[Gerenciar a descoberta de tópicos nos tópicos do Microsoft Viva](topic-experiences-discovery.md)
 
-[Gerenciar permissões de tópico no Microsoft 365](topic-experiences-user-permissions.md)
+[Gerenciar permissões de tópico nos tópicos do Microsoft Viva](topic-experiences-user-permissions.md)
 
-[Alterar o nome da central de tópicos no Microsoft 365](topic-experiences-administration.md)
+[Alterar o nome do centro de tópicos nos tópicos do Microsoft Viva](topic-experiences-administration.md)
 

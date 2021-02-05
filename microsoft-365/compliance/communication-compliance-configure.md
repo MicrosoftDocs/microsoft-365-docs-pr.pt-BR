@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: f958a2f6854ca34b0d24a527e2517c848885ad1c
-ms.sourcegitcommit: 27cb4591e08f62ba0a08d6dcf224bf2039034fe5
+ms.openlocfilehash: 442f0dd13415c4ca435cdf69336d1fb07a9e045d
+ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2021
-ms.locfileid: "49883680"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50109920"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -36,7 +36,7 @@ Use as políticas de conformidade de comunicação para identificar as comunica�
 Antes de começar a conformidade de comunicação, você deve confirmar sua assinatura do [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) e quaisquer complementos. Para acessar e usar a conformidade de comunicação, sua organização deve ter uma das seguintes assinaturas ou complementos:
 
 - Assinatura do Microsoft 365 E5 (versão paga ou de avaliação)
-- Assinatura do Microsoft 365 E3 + complemento de Conformidade do Microsoft 365 E5
+- Assinatura do Microsoft 365 E3 + o complemento de Conformidade do Microsoft 365 E5
 - Assinatura do Microsoft 365 E3 + o complemento Microsoft 365 E5 Insider Risk Management
 - Assinatura do Microsoft 365 A5 (versão paga ou de avaliação)
 - Assinatura do Microsoft 365 A3 + complemento de Conformidade do Microsoft 365 A5
@@ -51,9 +51,9 @@ Antes de começar a conformidade de comunicação, você deve confirmar sua assi
 Os usuários incluídos nas políticas de conformidade de comunicação devem ter uma das licenças atribuídas acima.
 
 >[!IMPORTANT]
->A Conformidade Avançada do Office 365 não é mais vendida como uma assinatura autônoma. Quando as assinaturas atuais expirarem, os clientes deverão fazer a transição para uma das assinaturas acima, que contêm os mesmos recursos de conformidade ou adicionais.
+>A Conformidade Avançada do Office 365 não é mais vendida como uma assinatura autônoma. Quando as assinaturas atuais expirarem, os clientes devem fazer a transição para uma das assinaturas acima, que contêm os mesmos recursos de conformidade ou adicionais.
 
-Se você não tiver um plano existente do Office 365 Enterprise E5 e quiser experimentar [a](https://www.microsoft.com/microsoft-365/enterprise) conformidade de comunicação, adicione o [Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente ou inscreva-se para uma avaliação do Office 365 Enterprise E5.
+Se você não tiver um plano existente do Office 365 Enterprise E5 e quiser experimentar [a](https://www.microsoft.com/microsoft-365/enterprise) conformidade de comunicação, adicione o [Microsoft 365](/office365/admin/try-or-buy-microsoft-365) à sua assinatura existente ou inscreva-se para uma avaliação do Office 365 Enterprise E5.
 
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>Etapa 1 (obrigatório): Habilitar permissões para conformidade de comunicação
 
@@ -69,7 +69,7 @@ Escolha entre essas opções de grupo de função ao configurar a conformidade d
 | Role | Permissões de função |
 |:-----|:-----|
 | **Conformidade de Comunicação** | Use esse grupo de função para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores designados, analistas, investigadores e visualizadores, você pode configurar permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente com a conformidade de comunicação e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos separados de usuários. |
-| **Administrador de Conformidade de Comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e posteriormente segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupo de função. Os usuários atribuídos a esse grupo de funções não podem exibir alertas de mensagem. |
+| **Administrador de Conformidade de Comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e posteriormente segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de funções podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupo de função. Os usuários atribuídos a esse grupo de funções não podem exibir alertas de mensagem. |
 | **Analista de Conformidade de Comunicação** | Use esse grupo para atribuir permissões aos usuários que atuarão como analistas de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir políticas onde são atribuídos como Revisadores, exibir metadados de mensagem (não conteúdo de mensagem), escalonar para revistores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
 | **Investigador de conformidade de comunicação** | Use esse grupo para atribuir permissões aos usuários que atuarão como investigadores de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir metadados e conteúdo de mensagens, escalonar para revistores adicionais, escalonar para um caso de Descoberta Avançada, enviar notificações aos usuários e resolver o alerta. |
 | **Visualizador de Conformidade de Comunicação** | Use esse grupo para atribuir permissões a usuários que gerenciarão relatórios de comunicação. Os usuários atribuídos a esse grupo de função podem acessar todos os widgets de relatórios na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
@@ -82,7 +82,7 @@ Escolha entre essas opções de grupo de função ao configurar a conformidade d
 
 3. Selecione o grupo *de função Conformidade* de Comunicação e, em seguida, selecione Editar grupo de **funções.**
 
-4. Selecione **Escolher membros** no painel de navegação esquerdo e, em seguida, selecione **Editar.**
+4. Selecione **Escolher membros** no painel de navegação esquerdo e selecione **Editar.**
 
 5. Selecione **Adicionar** e marque a caixa de seleção de todos os usuários que você deseja adicionar ao grupo de função *Conformidade* de Comunicação.
 
@@ -112,11 +112,11 @@ Use essa opção para atribuir usuários a grupos de função específicos para 
 
 9. Selecione **Fechar** para concluir as etapas.
 
-Para obter mais informações sobre grupos de função e permissões, consulte [Permissões no Centro de Conformidade.](../security/office-365-security/protect-against-threats.md)
+Para obter mais informações sobre grupos de função e permissões, [consulte Permissões no Centro de Conformidade.](../security/office-365-security/protect-against-threats.md)
 
 ## <a name="step-2-required-enable-the-audit-log"></a>Etapa 2 (obrigatório): Habilitar o log de auditoria
 
-A conformidade de comunicação requer logs de auditoria para mostrar alertas e rastrear ações de correção tomadas pelos revisadores. Os logs de auditoria são um resumo de todas as atividades associadas a uma política organizacional definida ou sempre que uma política de conformidade de comunicação é mudada.
+A conformidade de comunicação requer logs de auditoria para mostrar alertas e rastrear ações de correção tomadas pelos revisadores. Os logs de auditoria são um resumo de todas as atividades associadas a uma política organizacional definida ou sempre que uma política de conformidade de comunicação muda.
 
 Para obter instruções passo a passo para ativar a auditoria, consulte Ativar ou desativar a pesquisa de [log de auditoria.](turn-audit-log-search-on-or-off.md) Depois de ativar a auditoria, é exibida uma mensagem informando que o log de auditoria está sendo preparado e que você pode executar uma pesquisa em algumas horas após a conclusão da preparação. Você só precisa fazer essa ação uma vez. Para obter mais informações sobre como usar o log de auditoria, consulte [Pesquisar o log de auditoria.](search-the-audit-log-in-security-and-compliance.md)
 
@@ -129,7 +129,7 @@ Use o gráfico a seguir para ajudá-lo a configurar grupos em sua organização 
 | **Membro da Política** | **Grupos com suporte** | **Grupos sem suporte** |
 |:-----|:-----|:-----|
 |Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
-| Revisores | Nenhum | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
+| Revisores | Nenhuma | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
   
 Quando você atribui um grupo de distribuição na política, a política monitora todos os emails e chats do Teams de cada usuário no grupo de distribuição. Quando você atribui um grupo do Microsoft 365 na política, a política monitora todos os emails e chats do Teams enviados a esse grupo, não os emails e chats individuais recebidos por cada membro do grupo.
 
@@ -140,7 +140,7 @@ Se você é uma organização com uma implantação local do Exchange ou um prov
 
 Para gerenciar usuários supervisionados em grandes organizações corporativas, talvez seja necessário monitorar todos os usuários em grandes grupos. Você pode usar o PowerShell para configurar um grupo de distribuição para uma política de conformidade de comunicação global para o grupo atribuído. Isso permite monitorar milhares de usuários com uma única política e manter a política de conformidade de comunicação atualizada à medida que novos funcionários ingressarem em sua organização.
 
-1. Crie um [grupo](https://docs.microsoft.com/powershell/module/exchange/new-distributiongroup) de distribuição dedicado para sua política de conformidade de comunicação global com as seguintes propriedades: certifique-se de que esse grupo de distribuição não seja usado para outros fins ou outros serviços do Office 365.
+1. Crie um [grupo](/powershell/module/exchange/new-distributiongroup) de distribuição dedicado para sua política de conformidade de comunicação global com as seguintes propriedades: certifique-se de que esse grupo de distribuição não seja usado para outros fins ou outros serviços do Office 365.
 
     - **MemberDepartRestriction = Closed**. Garante que os usuários não podem se remover do grupo de distribuição.
     - **MemberJoinRestriction = Fechado**. Garante que os usuários não podem adicionar a si mesmos ao grupo de distribuição.
@@ -150,7 +150,7 @@ Para gerenciar usuários supervisionados em grandes organizações corporativas,
     New-DistributionGroup -Name <your group name> -Alias <your group alias> -MemberDepartRestriction 'Closed' -MemberJoinRestriction 'Closed' -ModerationEnabled $true
     ```
 
-2. Selecione um atributo personalizado do [Exchange nãousado](https://docs.microsoft.com/Exchange/recipients/mailbox-custom-attributes) para acompanhar os usuários adicionados à política de conformidade de comunicação em sua organização.
+2. Selecione um atributo personalizado do [Exchange nãousado](/Exchange/recipients/mailbox-custom-attributes) para acompanhar os usuários adicionados à política de conformidade de comunicação em sua organização.
 
 3. Execute o seguinte script do PowerShell em uma agenda recorrente para adicionar usuários à política de conformidade de comunicação:
 
@@ -169,8 +169,8 @@ Para gerenciar usuários supervisionados em grandes organizações corporativas,
 
 Para obter mais informações sobre como configurar grupos, consulte:
 
-- [Criar e gerenciar grupos de distribuição](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
-- [Visão geral dos Grupos do Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups)
+- [Criar e gerenciar grupos de distribuição](/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
+- [Visão geral dos Grupos do Microsoft 365](/office365/admin/create-groups/office-365-groups)
 
 ## <a name="step-4-optional-verify-your-yammer-tenant-is-in-native-mode"></a>Etapa 4 (opcional): verifique se o locatário do Yammer está no modo Nativo
 
@@ -178,8 +178,8 @@ No Modo Nativo, todos os usuários do Yammer estão no Azure Active Directory (A
 
 Para saber mais sobre como configurar o Yammer no modo nativo, confira:
 
-- [Visão geral do Modo Nativo do Yammer no Microsoft 365](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode)
-- [Configurar sua rede do Yammer para o modo Nativo para o Microsoft 365](https://docs.microsoft.com/yammer/configure-your-yammer-network/native-mode)
+- [Visão geral do Modo Nativo do Yammer no Microsoft 365](/yammer/configure-your-yammer-network/overview-native-mode)
+- [Configurar sua rede do Yammer para o modo Nativo para o Microsoft 365](/yammer/configure-your-yammer-network/native-mode)
 
 ## <a name="step-5-required-create-a-communication-compliance-policy"></a>Etapa 5 (obrigatório): criar uma política de conformidade de comunicação
   
@@ -239,7 +239,7 @@ Se você quiser ter a opção de responder a um alerta de política enviando um 
 
 Você também pode optar por habilitar o anonimato para nomes de usuário exibidos ao investigar as diretivas e tomar medidas em mensagens.
 
-1. Entre usando [https://compliance.microsoft.com](https://compliance.microsoft.com) credenciais para uma conta de administrador em sua organização do Microsoft 365.
+1. Entre usando [https://compliance.microsoft.com](https://compliance.microsoft.com) credenciais para uma conta de administrador na sua organização do Microsoft 365.
 
 2. No centro de conformidade do Microsoft 365, vá para **Conformidade de comunicação.**
 
@@ -249,7 +249,7 @@ Você também pode optar por habilitar o anonimato para nomes de usuário exibid
 
 5. Selecione **Salvar**.
 
-6. Navegue até a **guia Modelos de Aviso e** selecione Criar modelo de **aviso.**
+6. Navegue até a **guia Modelos de aviso e** selecione Criar modelo de **aviso.**
 
 7. Na página **Modificar um modelo de aviso,** preencha os seguintes campos:
 
@@ -263,7 +263,7 @@ Você também pode optar por habilitar o anonimato para nomes de usuário exibid
 
 ## <a name="step-7-optional-test-your-communication-compliance-policy"></a>Etapa 7 (opcional): teste sua política de conformidade de comunicação
 
-Depois de criar uma política de conformidade de comunicação, é uma boa ideia testá-la para garantir que as condições definidas estão sendo impostas corretamente pela política. Você também pode querer testar suas políticas de prevenção contra perda de dados [(DLP)](create-test-tune-dlp-policy.md) se suas políticas de conformidade de comunicação incluem tipos de informações confidenciais. Certifique-se de dar a suas políticas tempo de ativação para que as comunicações que você deseja testar sejam capturadas.
+Depois de criar uma política de conformidade de comunicação, é uma boa ideia testá-la para garantir que as condições definidas estão sendo impostas corretamente pela política. Você também pode testar suas políticas de prevenção contra perda de dados [(DLP)](create-test-tune-dlp-policy.md) se suas políticas de conformidade de comunicação incluem tipos de informações confidenciais. Certifique-se de dar a suas políticas tempo de ativação para que as comunicações que você deseja testar sejam capturadas.
 
 Siga estas etapas para testar sua política de conformidade de comunicação:
 

@@ -1,9 +1,10 @@
 ---
-title: 'Criar um novo tópico em Experiências de Tópico (Visualização) '
-description: Como criar um novo tópico em Experiências de Tópico.
+title: Criar um novo tópico nos tópicos do Microsoft Viva
+description: Como criar um novo tópico nos tópicos do Microsoft Viva.
 author: efrene
 ms.author: efrene
 manager: pamgreen
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -13,61 +14,89 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 982cb4b0f750db9aecbaab6696f57be3f2390d1d
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 35d4615057deee81285ba950a157f28160b6eefa
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976346"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107213"
 ---
-# <a name="create-a-new-topic-preview"></a>Criar um novo tópico (Visualização)
+# <a name="create-a-new-topic"></a>Criar um novo tópico 
+
+Em Tópicos do Viva, você pode criar um novo tópico se não for descoberto por meio da indexação ou se a tecnologia de IA não tiver encontrado evidências suficientes para estabeleça-o como um tópico.
 
 > [!Note] 
-> O conteúdo deste artigo é para o Project Cortex Private Preview. [Mais informações sobre o Projeto Cortex](https://aka.ms/projectcortex).
+> Embora as informações em um tópico coletados pela IA tenham sido cortadas com [segurança,](topic-experiences-security-trimming.md)observe que as informações em um tópico criado manualmente são visíveis para todos os usuários que têm permissões para exibir o tópico. 
 
-Em Experiências de Tópico, você pode criar um novo tópico se não tiver sido descoberto por meio da indexação ou se a tecnologia de IA não tiver encontrado evidências suficientes para estabeleça-o como um tópico.
 
 ## <a name="requirements"></a>Requisitos
 
 Para criar um novo tópico, você precisa:
-- Ter uma licença de Experiências de Tópico.
-- Ter permissões para [**Quem pode criar ou editar tópicos.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Rede de Conhecimento. 
+- Ter uma licença de Tópicos do Viva.
+- Ter permissões para [**Quem pode criar ou editar tópicos.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva. 
 
 > [!Note] 
-> Os usuários que têm permissão para gerenciar tópicos na Central de Tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.
+> Os usuários que têm permissão para gerenciar tópicos no centro de tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.
 
 ## <a name="to-create-a-new-topic"></a>Para criar um novo tópico:
 
-1. Na página Central de Tópicos, selecione **Novo** e Página **de Tópico.** Se você não conseguir ver a **nova opção** na Central de Tópicos, talvez não tenha as permissões necessárias.
+1. Na seção **Nome deste tópico,** digite o nome do novo tópico.
 
-    ![Novo tópico](../media/knowledge-management/k-new-topic.png)
+    ![Nomear este tópico](../media/knowledge-management/k-new-topic-page.png) </br> 
 
-2. Na nova página de tópicos, você pode preencher as informações sobre o novo modelo de tópico:
 
-    - Na seção **Nome deste tópico,** digite o nome do novo tópico.
+2. Na seção <b>Nomes Alternativos,</b> digite qualquer outro nome ao qual o tópico possa ser referido. 
+
+    ![Nomes alternativos](../media/knowledge-management/alt-names.png) </br> 
+3. Na seção <b>Descrição,</b> digite algumas frases que descrevem o tópico. 
+
+    ![Descrição do tópico](../media/knowledge-management/description.png)</br>
+
+4. Na seção <b>Pessoas fixadas,</b> você pode "fixar" uma pessoa para exibi-la como um especialista no assunto sobre o tópico. Comece digitando seu nome ou <b></b> endereço de email na caixa adicionar um novo usuário e selecione o usuário que você deseja adicionar nos resultados da pesquisa. Você também pode "inpiná-los" selecionando o ícone <b>Remover da</b> lista no cartão do usuário. Você também pode arrastar a pessoa para alterar a ordem em que a lista de pessoas aparece.
+ 
+    ![Pessoas fixadas](../media/knowledge-management/pinned-people.png)</br>
+
+
+5. Na seção <b>Arquivos e páginas</b> fixados, você pode adicionar ou "fixar" um arquivo ou uma página de site do SharePoint que está associada ao tópico.
+
+   ![Arquivos e páginas fixados](../media/knowledge-management/pinned-files-and-pages.png)</br>
+ 
+    Para adicionar um novo arquivo, selecione <b>Adicionar</b>, selecione o site do SharePoint em seus sites Frequentes ou Seguidos e selecione o arquivo na biblioteca de documentos do site.
+
+    Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou página fornecendo a URL. 
+
+
+6.  A <b>seção Sites relacionados</b> mostra sites que têm informações sobre o tópico. 
+
+    ![Seção sites relacionados](../media/knowledge-management/related-sites.png)</br>
+
+    Você pode adicionar um site relacionado selecionando <b>Adicionar</b> e, em seguida, pesquisando o site ou selecionando-o em sua lista de sites Frequentes ou Recentes.</br>
     
-    - Na seção **Nomes alternativos,** digite nomes ou acrônimos que também são usados para se referir ao tópico.
-    
-    - Na seção **Short description,** digite uma ou duas frases descrição do tópico. Este texto será usado para o cartão de tópico associado.
-    
-    - Na seção **Pessoas,** digite os nomes de especialistas no assunto do tópico. As pessoas que você adicionar manualmente ao tópico serão exibidas na página de tópico como **Pessoas fixadas.**
-    
-    - Na seção **Arquivos e páginas,** selecione **Adicionar** e, na próxima página, você pode selecionar arquivos associados do OneDrive ou páginas do SharePoint Online.
-    
-    - Na seção **Sites,** selecione **Adicionar**. No painel  **Sites** exibido, selecione os sites associados ao tópico.
+    ![Selecionar site](../media/knowledge-management/sites.png)</br>
 
-    ![Nova página de tópicos](../media/knowledge-management/k-new-topic-page.png)
-    
-3. Se você precisar adicionar outros componentes à página, como texto, imagens, Web Parts, links, etc., selecione o ícone de tela no meio da página para localizá-los e adicioná-los.
+7. A <b>seção Tópicos relacionados</b> mostra conexões que existem entre tópicos. Você pode adicionar uma conexão a um tópico diferente selecionando o botão Conectar <b>a</b> um tópico relacionado, digitando o nome do tópico relacionado e selecionando-o nos resultados da pesquisa. 
 
-    ![Adicionar itens à página](../media/knowledge-management/static-icon.png)
+   ![Tópicos relacionados](../media/knowledge-management/related-topic.png)</br>  
 
-4. Quando terminar, selecione **Publicar para** publicar a página de tópico. As páginas de tópico publicadas serão exibidas na **guia** Páginas.
+    Em seguida, você pode dar uma descrição de como os tópicos estão relacionados e selecionar <b>Atualizar.</b></br>
 
-Depois de publicar o artigo, o nome do tópico, o nome alternativo, a descrição e as pessoas fixadas serão exibidos para todos os usuários licenciados que exibirem o artigo. Arquivos, páginas e sites só aparecerão na página de tópico se o visualizador tiver permissões do Office 365 para o item. 
+   ![Descrição de tópicos relacionados](../media/knowledge-management/related-topics-update.png)</br> 
 
-A nova página de tópicos é feita de Web Parts que são *cientes da rede de conhecimento.* Isso significa que, à medida que a IA coletar mais informações sobre o tópico, as informações nessas Web Parts serão atualizadas com sugestões para tornar a página mais útil para os usuários.
+   O tópico relacionado adicionado será exibido como um tópico conectado.
+
+   ![Tópicos relacionados conectados](../media/knowledge-management/related-topics-final.png)</br> 
+
+
+8. Você também pode adicionar itens estáticos à página (como texto, imagens ou links) selecionando o ícone de tela, que pode ser localizado abaixo da descrição curta. Se você selecioná-la, a caixa de ferramentas do SharePoint será aberta a partir da qual você poderá escolher o item que deseja adicionar à página.
+
+   ![Ícone de tela](../media/knowledge-management/webpart-library.png)</br> 
+
+
+9. Selecione **Publicar** para salvar suas alterações. 
+
+Depois de publicar a página, o nome do tópico, o nome alternativo, a descrição e as pessoas fixadas serão exibidos para todos os usuários licenciados que exibirem o tópico. Arquivos, páginas e sites específicos só aparecerão na página de tópico se o visualizador tiver permissões do Office 365 para o item. 
+
+
 
 ## <a name="see-also"></a>Confira também
 

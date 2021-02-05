@@ -10,12 +10,12 @@ audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
-ms.openlocfilehash: 5b7ba0db52f06f7b3f6fce596015b56c8e46c6c2
-ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
+ms.openlocfilehash: d22cef41fb1d6dc3fde39681ad84edc510440b11
+ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50068948"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110002"
 ---
 # <a name="access-the-admin-portal"></a>Acessar o portal de administração
 
@@ -37,7 +37,7 @@ Sua conta administrativa precisará de permissões específicas para acessar os 
 |---------|---------|
 |Administrador Global     | Os administradores com essa função terão permissões de leitura e **gravação para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
 |Leitor global     | Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
-|Administrador de Serviços do Intune     |  Os administradores com essa função terão permissões de **leitura** e gravação para recursos não relacionados à segurança no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.       |
+|Administrador de Serviços do Intune     |  Os administradores com essa função terão **permissões de leitura** e gravação para recursos não relacionados à segurança no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.       |
 |Administrador de Suporte ao Serviço     | Os administradores com  essa função terão permissões somente leitura  para recursos não relacionados à segurança e permissões de gravação para gerenciar solicitações de suporte no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
 |Administrador de Segurança | Os administradores com  essa função terão permissões somente  leitura para todos os recursos e permissões de gravação para recursos relacionados à segurança na Área de Trabalho Gerenciada da Microsoft no portal de administração. |
 |Leitor de segurança |Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.|
@@ -45,7 +45,7 @@ Sua conta administrativa precisará de permissões específicas para acessar os 
 Se precisar de ajuda para atribuir funções do Azure Active Directory, confira Permissões de função [de administrador no Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
 > [!IMPORTANT]
-> Somente a função Administrador Global tem as permissões necessárias para registrar *sua* organização na Área de Trabalho Gerenciada da Microsoft. Esteja ciente de que as funções do Azure Active Directory darão privilégios a contas de usuário em uma variedade de serviços Microsoft. Depois de concluir o registro na Área de Trabalho  Gerenciada da Microsoft, você deve sempre usar a função com os privilégios mínimos necessários para realizar outras tarefas.
+> Somente a função Administrador Global tem as permissões necessárias para registrar *sua* organização na Área de Trabalho Gerenciada da Microsoft. Esteja ciente de que as funções do Azure Active Directory darão privilégios a contas de usuário em uma variedade de serviços Microsoft. Depois de concluir o registro na Área de Trabalho  Gerenciada da Microsoft, você deve sempre usar a função com os privilégios mínimos necessários para realizar suas outras tarefas.
 
 ## <a name="built-in-roles-provided-by-microsoft-managed-desktop"></a>Funções integrados fornecidas pela Área de Trabalho Gerenciada da Microsoft
 
@@ -59,15 +59,28 @@ Se precisar de ajuda para atribuir funções do Azure Active Directory, confira 
 > [!NOTE]
 > Os recursos de segurança incluem comunicações relacionadas à segurança, gerenciamento de contatos de segurança, gerenciamento de solicitações de suporte relacionadas à segurança e acesso a relatórios relacionados à segurança. 
 
-### <a name="assigning-built-in-roles-to-administrators"></a>Atribuindo funções integrados a administradores
+### <a name="assigning-built-in-roles-to-user"></a>Atribuindo funções internas ao usuário
 
-Para gerenciar funções internas, há um grupo de segurança para cada função personalizada com o nome "Modern Workplace Roles - _Role Name_"(for example, "Modern Workplace Roles – Security Manager"). Para atribuir usuários a um desses grupos de segurança, siga estas etapas:
+Para facilitar o gerenciamento de funções internas, há um grupo de segurança para cada função personalizada com o nome "Funções de Local de Trabalho _Modernas_- Nome da Função "(por exemplo, "Funções do Local de Trabalho Modernas – Gerenciador de Segurança"). Para atribuir usuários a um desses grupos de segurança, siga estas etapas:
 1.  Acesse o portal do Microsoft Endpoint Manager.
 2.  Selecione **Grupos** no lado esquerdo.
 3.  Pesquise **funções** de local de trabalho modernas e selecione o grupo associado à função que você deseja atribuir. 
 4.  Selecione **Membros** no lado esquerdo e selecione **+ Adicionar membros** na barra de comandos.
-5.  Insira o email da pessoa que está sendo adicionada. Se ele for um convidado, você deve convidá-lo antes de atribuir o grupo.
+5.  Insira o email da pessoa que está sendo adicionada. Se eles são convidados, você deve convidá-los antes de atribuir o grupo.
 6.  Selecione **Selecionar** na parte inferior.
 
 > [!NOTE]
 > O aninhamento de grupos de segurança para atribuição de função não é suportado no momento. 
+
+### <a name="assigning-built-in-roles-to-groups"></a>Atribuindo funções integrados a grupos
+
+Se você precisar atribuir uma ou mais funções integrados a um grupo existente, siga estas etapas:
+1. Vá para [portal.azure.com](https://portal.azure.com/).
+2. Procure e abra **aplicativos Enterprise.**
+3. Altere **o filtro de tipo** de aplicativo para Microsoft _Applications_ e, em seguida, selecione **Aplicar**.
+4. Pesquise e selecione _APIs modernas do cliente do local de trabalho._
+5. Selecione **Usuários e grupos** no painel à esquerda e, em seguida, selecione + Adicionar **usuário/grupo.**
+6. Pesquise o grupo que você deseja **de Usuários e grupos.**
+7. Procure a função aplicável em **Selecionar uma função** e selecione-a.
+8. Selecione **Atribuir**.
+ 

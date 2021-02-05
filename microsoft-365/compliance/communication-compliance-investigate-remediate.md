@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: ea96780846507e7fc3edccb28e04055ce79261fa
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: 7e5dc3ef4a79b1bdbcde9a7a15fec84efe9b92c9
+ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980094"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50109951"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
@@ -45,7 +45,7 @@ Para obter uma lista completa de filtros e detalhes do campo, consulte [Filtros]
 
 #### <a name="to-configure-a-filter"></a>Para configurar um filtro
 
-1. Entre usando [https://compliance.microsoft.com](https://compliance.microsoft.com) credenciais para uma conta de administrador na sua organização do Microsoft 365.
+1. Entre usando [https://compliance.microsoft.com](https://compliance.microsoft.com) credenciais para uma conta de administrador em sua organização do Microsoft 365.
 
 2. No centro de conformidade do Microsoft 365, vá para **Conformidade de comunicação.**
 
@@ -65,15 +65,15 @@ Para obter uma lista completa de filtros e detalhes do campo, consulte [Filtros]
 
 ### <a name="using-near-and-exact-duplicate-analysis"></a>Usando análise duplicada próxima e exata
 
-As políticas de conformidade de comunicação automaticamente digitalizar e agrupar previamente duplicatas de mensagens próximas e exatas sem quaisquer etapas adicionais de configuração. Esse modo de exibição permite que você aja rapidamente em mensagens semelhantes, uma por uma, ou como um grupo, reduzindo a carga de investigação de mensagens para os revisadores. Como duplicatas são detectadas, os **controles Duplicatas Próximas** e/ou Duplicatas Exatas são **exibidos** na barra de ferramentas de ação de correção. Essa exibição não estará disponível se duplicatas próximas ou exatas não foram encontradas.
+As políticas de conformidade de comunicação automaticamente digitalizar e agrupar previamente duplicatas de mensagens próximas e exatas sem quaisquer etapas de configuração adicionais. Esse modo de exibição permite que você aja rapidamente em mensagens semelhantes, uma por uma, ou como um grupo, reduzindo a carga de investigação de mensagens para os revisadores. Como duplicatas são detectadas, os **controles Duplicatas Próximas** e/ou Duplicatas Exatas são **exibidos** na barra de ferramentas de ação de correção. Essa exibição não estará disponível se duplicatas próximas ou exatas não foram encontradas.
 
 #### <a name="to-remediate-duplicates"></a>Para remediar duplicatas
 
-1. Entre usando [https://compliance.microsoft.com](https://compliance.microsoft.com) credenciais para uma conta de administrador na sua organização do Microsoft 365.
+1. Entre usando [https://compliance.microsoft.com](https://compliance.microsoft.com) credenciais para uma conta de administrador em sua organização do Microsoft 365.
 
 2. No centro de conformidade do Microsoft 365, vá para **Conformidade de comunicação.**
 
-3. Selecione a **guia Políticas** e selecione uma política para investigação, clique duas vezes para abrir a **página Política.**
+3. Selecione a **guia Políticas** e selecione uma política para investigação, clique duas vezes para abrir a **página** Política.
 
 4. Na página **Política,** selecione a  guia **Pendente** ou Resolvido para exibir mensagens duplicadas.
 
@@ -93,26 +93,27 @@ Não importa onde você comece a revisar alertas ou a filtragem configurada, a p
 
 ### <a name="step-1-examine-the-message-basics"></a>Etapa 1: Examinar as noções básicas de mensagem
 
- Às vezes, é óbvio da origem ou do assunto que uma mensagem pode ser imediatamente remediada. Pode ser que a mensagem seja falsa ou incorretamente a ela corresponder a uma política e deve ser resolvida como um falso positivo. Selecione o **controle Falso Positivo** para resolver imediatamente o alerta e remover da fila de alertas pendente. A partir das informações de origem ou remetente, talvez você já saiba como a mensagem deve ser roteada ou tratada nessas circunstâncias. Considere usar os **controles Tag como** ou **Escalate** para atribuir uma marca às mensagens aplicáveis ou enviar mensagens a um revistor designado.
+ Às vezes, é óbvio da origem ou do assunto que uma mensagem pode ser imediatamente remediada. Pode ser que a mensagem seja imática ou incorretamente a ela corresponder a uma política e deve ser resolvida como um falso positivo. Selecione o **controle Falso Positivo** para resolver imediatamente o alerta e remover da fila de alertas pendente. A partir das informações de origem ou remetente, talvez você já saiba como a mensagem deve ser roteada ou tratada nessas circunstâncias. Considere usar os **controles Tag como** ou **Escalate** para atribuir uma marca às mensagens aplicáveis ou enviar mensagens a um revistor designado.
 
 ![Controles de correção de conformidade de comunicação](../media/communication-compliance-remediation-controls.png)
 
 ### <a name="step-2-examine-the-message-details"></a>Etapa 2: Examinar os detalhes da mensagem
 
-Depois de analisar as noções básicas da mensagem, é hora de abrir uma mensagem para examinar os detalhes e determinar outras ações de correção. Selecione uma mensagem para exibir as informações completas do corpo e do header da mensagem. Várias exibições diferentes estão disponíveis para ajudá-lo a decidir o curso adequado da ação:
+Depois de analisar as noções básicas da mensagem, é hora de abrir uma mensagem para examinar os detalhes e determinar outras ações de correção. Selecione uma mensagem para exibir as informações completas do corpo e do header da mensagem. Várias exibições diferentes estão disponíveis para ajudá-lo a decidir o curso apropriado da ação:
 
 - **Exibição de** origem: esse é o padrão de exibição de mensagens comumente visto na maioria das plataformas de mensagens baseadas na Web. As informações de header são formatadas no estilo normal e o corpo da mensagem dá suporte a arquivos gráficos imbedded e texto em forma de palavras.
-- **Exibição de** texto: o texto exibe uma exibição somente de texto numerada em linha da mensagem e inclui a palavra-chave realçada em mensagens e anexos para termos que corresponderem à política de conformidade de comunicação associada. O realçamento de palavras-chave pode ajudá-lo a verificar rapidamente mensagens longas e anexos em busca da área de interesse. Em alguns casos, o texto realce pode estar apenas em anexos para mensagens que corresponderem às condições da política. Os arquivos incorporados não são exibidos e a numeração de linhas desse ponto de vista é útil para fazer referência a detalhes pertinentes entre vários revisores.
+- **Exibição de** texto: o texto exibe uma exibição somente de texto de linha numerada da mensagem e inclui a palavra-chave realçada em mensagens e anexos para termos que corresponderem à política de conformidade de comunicação associada. O realçamento de palavras-chave pode ajudá-lo a verificar rapidamente mensagens longas e anexos em busca da área de interesse. Em alguns casos, o texto realce pode estar apenas em anexos para mensagens que corresponderem às condições da política. Os arquivos incorporados não são exibidos e a numeração de linhas desse ponto de vista é útil para fazer referência a detalhes pertinentes entre vários revisores.
 - **Exibição de anotações:** essa exibição permite que os revisadores adicionem anotações diretamente na mensagem que são salvas na exibição da mensagem.
 - **Histórico do usuário:** a exibição do histórico do usuário exibe todos os outros alertas gerados por qualquer política de conformidade de comunicação para o usuário que envia a mensagem.
 - **Exibição de detalhes da mensagem:** exibição avançada de metadados de mensagem e informações de configuração.
-- **Notificação detectada por padrão (visualização)**: muitas ações de incomodar e incomodar ao longo do tempo e envolvem instâncias recorrentes do mesmo comportamento por um usuário. A *notificação de* Padrão detectada é exibida nos detalhes do alerta e chama a atenção para o alerta. A detecção de padrões é feita por política e avalia o comportamento nos últimos 30 dias quando pelo menos duas mensagens são enviadas ao mesmo destinatário por um remetente. Os investigadores e revistores podem usar essa notificação para identificar comportamento repetido para avaliar o alerta conforme apropriado.
+- **Notificação de padrão detectada:** muitas ações incomodar e incomodar ao longo do tempo e envolvem instâncias recorrentes do mesmo comportamento por um usuário. A *notificação de* Padrão detectada é exibida nos detalhes do alerta e chama a atenção para o alerta. A detecção de padrões é feita por política e avalia o comportamento nos últimos 30 dias quando pelo menos duas mensagens são enviadas ao mesmo destinatário por um remetente. Os investigadores e revistores podem usar essa notificação para identificar comportamento repetido para avaliar o alerta conforme apropriado.
+- **Mostrar exibição** traduzir: essa exibição converte automaticamente o  texto da mensagem de alerta para o idioma configurado na configuração de idioma exibido na assinatura do Microsoft 365 para cada revisador. O modo de exibição Traduzir ajuda a ampliar o suporte de investigação para organizações com usuários multilíngues e elimina a necessidade de serviços de tradução adicionais fora do processo de revisão de conformidade de comunicação. Usando os serviços de Tradução da Microsoft, o visualização Traduzir pode ser ligado e desligado conforme necessário e oferece suporte a uma ampla variedade de idiomas. Para uma lista completa de idiomas com suporte, consulte [Idiomas do Microsoft Translator.](https://www.microsoft.com/translator/business/languages/) Os idiomas listados na Lista *de Idiomas* do Tradutor são suportados na exibição Traduzir.
 
     ![Controles de exibição de mensagem de conformidade de comunicação](../media/communication-compliance-message-views.png)
 
 ### <a name="step-3-decide-on-a-remediation-action"></a>Etapa 3: Decidir sobre uma ação de correção
 
-Agora que você revisões os detalhes da mensagem para o alerta, você pode escolher várias ações de correção:
+Agora que você analisou os detalhes da mensagem para o alerta, pode escolher várias ações de correção:
 
 - **Resolver:** selecionar **o controle Resolver** remove imediatamente a mensagem da fila de **alertas Pendentes** e nenhuma outra ação pode ser tomada na mensagem. Ao selecionar **Resolver,** você essencialmente fechou o alerta sem classificação e ele não pode ser reaberto para mais ações. Todas as mensagens resolvidas são exibidas na **guia Resolvido.**
 - **Falso positivo:** você sempre pode resolver uma mensagem como um falso positivo a qualquer momento durante o fluxo de trabalho de revisão de mensagens. Falso positivo significa que o alerta não foi a actionable ou que foi gerado incorretamente pelo processo de alerta. A mensagem não pode ser reaberta e todas as mensagens de falso positivo são exibidas **na** guia Resolvido.
@@ -129,9 +130,9 @@ Agora que você revisões os detalhes da mensagem para o alerta, você pode esco
     4. Se houver outro classificador que seria mais apropriado para o item, escolha-o na lista Sugerir **outros classificadores** de treinamento. Esse feedback aciona o outro classificador para avaliar o item.
 
     > [!TIP]
-    > Você pode fornecer comentários sobre vários itens simultaneamente escolhendo todos eles e escolhendo Fornecer comentários **detalhados** na barra de comandos.
+    > Você pode fornecer comentários sobre vários itens simultaneamente escolhendo todos eles e escolhendo Fornecer comentários detalhados **na** barra de comandos.
 
-    5. Escolha **Enviar comentários** para enviar sua avaliação das classificações **Match** e Not **a match** e sugerir outros classificadores de treinamento. Quando você forneceu 30 instâncias de comentários para um classificador, ele automaticamente é restringido. O retraining pode levar de 1 a 4 horas para ser concluído. Os classificadores só podem ser restringidos duas vezes por dia.
+    5. Escolha **Enviar comentários** para enviar sua avaliação das classificações **Match** e Not **a match** e sugira outros classificadores de treinamento. Quando você forneceu 30 instâncias de comentários para um classificador, ele automaticamente é restringido. O retraining pode levar de 1 a 4 horas para ser concluído. Os classificadores só podem ser restringidos duas vezes por dia.
 
     > [!IMPORTANT]
     > Essas informações vão para o classificador em seu locatário, **ela não volta para a Microsoft**.

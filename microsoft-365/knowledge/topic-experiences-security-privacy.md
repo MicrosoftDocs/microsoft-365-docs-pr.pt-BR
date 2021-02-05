@@ -1,5 +1,5 @@
 ---
-title: Tópico experiências de segurança e privacidade
+title: Segurança e privacidade dos Tópicos do Microsoft Viva
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,84 +9,83 @@ ms.topic: article
 ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-description: Saiba como planejar a experiência de tópicos de segurança e privacidade no Microsoft 365
-ms.openlocfilehash: b3c33a49b8273c5f7830f08de17af9757a858413
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+description: Saiba como planejar a segurança e a privacidade dos Tópicos do Microsoft Viva
+ms.openlocfilehash: be5be01bce117a80bd95ee268c193889eccea67f
+ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698492"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50107787"
 ---
-# <a name="topic-experiences-security-and-privacy"></a>Tópico experiências de segurança e privacidade
+# <a name="microsoft-viva-topics-security-and-privacy"></a>Segurança e privacidade dos Tópicos do Microsoft Viva
 
-A experiência do tópico usa recursos de segurança de conteúdo existentes no Microsoft 365, junto com os controles de rede de conhecimento, para controlar o conteúdo gerado pelo AI que será exibido aos usuários em sua organização. É a combinação das configurações de segurança do Microsoft 365 (permissões para sites, arquivos e pastas) e o tópico experiências de administração que determinam o que um usuário pode ver nos tópicos.
+Os tópicos usam recursos de segurança de conteúdo existentes no Microsoft 365, juntamente com controles administrativos, para controlar qual conteúdo gerado por IA é exibido aos usuários em sua organização. É a combinação das configurações de segurança do Microsoft 365 (permissões para sites, arquivos e pastas) e configurações de administração de Tópicos que determinam o que um determinado usuário pode ver nos tópicos.
 
-A configuração da rede de conhecimento não modifica qualquer controle de acesso existente no conteúdo da sua organização. Os usuários verão apenas o que eles já têm acesso.
+A configuração de Tópicos não modifica os controles de acesso existentes no conteúdo da sua organização. Os usuários verão apenas o que já têm acesso.
 
-Este artigo descreve como as experiências de tópicos funcionam de uma perspectiva de segurança e as opções que os administradores de conhecimento e os gerentes de conhecimento precisam controlar a visibilidade do tópico. Leia este artigo como parte do [planejamento de experiências de tópico](plan-topic-experiences.md).
+Este artigo descreve como os tópicos funcionam de uma perspectiva de segurança e as opções que os administradores de conhecimento e gerentes de conhecimento têm para controlar a visibilidade do tópico. Leia este artigo como parte do [seu planejamento para tópicos.](plan-topic-experiences.md)
 
-Você deve estar familiarizado com [experiências de tópicos](topic-experiences-overview.md), o [centro de tópicos](topic-center-overview.md)e como [trabalhar com tópicos no centro](manage-topics.md) de tópicos antes de ler este artigo.
+Você deve estar familiarizado com o [](topic-center-overview.md)que é [Topics](topic-experiences-overview.md), o centro de tópicos e como trabalhar com tópicos no centro de [tópicos](manage-topics.md) antes de ler este artigo.
 
 ## <a name="what-users-can-see-in-topics"></a>O que os usuários podem ver nos tópicos
 
-Para ver os tópicos, um usuário deve:
+Para ver tópicos, um usuário deve:
 
-- Tem uma licença de experiência do tópico
-- Ser um [Visualizador de tópicos](topic-experiences-knowledge-rules.md#change-who-can-see-topics-in-your-organization), [Contribuidor ou gerente de conhecimento](topic-experiences-user-permissions.md)
+- Ter uma licença de Tópicos do Viva
+- Ser um [visualizador de tópicos,](topic-experiences-knowledge-rules.md#change-who-can-see-topics-in-your-organization) [colaborador ou gerente de conhecimento](topic-experiences-user-permissions.md)
 
-Essas duas coisas permitem que os usuários exibam o acesso ao centro de tópicos e permitem que eles vejam destaques e cartões de tópico.
+Essas duas coisas dão aos usuários acesso de exibição ao centro de tópicos e permitem que eles vejam destaques e cartões de tópico.
 
-Os colaboradores de tópico também têm permissões [criar e editar](topic-experiences-user-permissions.md#change-who-has permissions-to-update-topic-details) para tópicos, e os gerentes de conhecimento podem confirmar ou remover tópicos.
+Os colaboradores de tópicos também [têm permissões](topic-experiences-user-permissions.md) de criação e edição para tópicos, e os gerentes de conhecimento podem confirmar ou remover tópicos.
 
-Quando um tópico é descoberto pela primeira vez, os gerentes de conhecimento podem vê-lo no centro de tópicos. Dependendo da integridade e da relevância do tópico, os visualizadores de tópico podem ou não ver o tópico apresentado nos cartões de tópico.
+Quando um tópico é descoberto pela primeira vez, os gerentes de conhecimento podem vê-lo no centro de tópicos. Dependendo da totalidade e relevância do tópico, os visitantes do tópico podem ou não ver o tópico apresentado nos cartões de tópico.
 
-Os tópicos podem conter informações geradas pelo AI e informações adicionadas ou editadas por colaboradores de tópico ou gerentes de conhecimento.
+Os tópicos podem conter informações geradas por IA e informações adicionadas ou editadas por colaboradores de tópicos ou gerentes de conhecimento.
 
-- As informações de um tópico que foram adicionadas pelo AI são visíveis apenas para pessoas que têm acesso ao conteúdo de origem.
-- O texto que foi adicionado ou editado manualmente por um tópico Contribuidor ou gerente de conhecimento é visível para todas as pessoas que podem ver o tópico.
+- As informações em um tópico que foi adicionado pela ia só são visíveis para as pessoas que têm acesso ao conteúdo de origem.
+- O texto adicionado ou editado manualmente por um colaborador de tópico ou gerente de conhecimento fica visível para todos que podem ver o tópico.
 
-Os visualizadores de tópicos e colaboradores podem ver a lista de tópicos confirmados e publicados no centro de tópicos, mas os detalhes do tópico que uma determinada pessoa pode ver dependem das permissões que eles têm para o material de origem e sobre se o tópico foi editado manualmente.
+Os visualizadores e colaboradores de tópicos podem ver a lista de tópicos confirmados e publicados no centro de tópicos, mas os detalhes do tópico que uma determinada pessoa pode ver dependem das permissões que ela tem para o material de origem e se o tópico foi editado manualmente.
 
-A tabela a seguir descreve quais usuários – visualizadores de tópicos, colaboradores e gerentes de conhecimento-podem ver em um determinado tópico com base em suas permissões.
+A tabela a seguir descreve o que os usuários ( visualizadores de tópicos, colaboradores e gerentes de conhecimento ) podem ver em um determinado tópico com base em suas permissões.
 
 |Item de tópico|O que os usuários podem ver|
 |:---------|:------------------|
-|Nome do tópico|Os usuários podem ver o nome do tópico de todos os tópicos no centro de tópicos. Alguns tópicos podem não estar visíveis se tiverem uma relevância baixa para o usuário.|
-|Descrição do tópico|As descrições geradas pelo AI são visíveis apenas para os usuários que têm permissões para o conteúdo de origem. Descrições inseridas ou editadas manualmente são visíveis para todos os usuários.|
-|Pessoas|Pessoas fixas estão visíveis para todos os usuários. As pessoas sugeridas são visíveis apenas para os usuários que têm permissões para o conteúdo de origem.|
-|Arquivos|Os arquivos são visíveis apenas para os usuários que têm permissões para o conteúdo de origem.|
-|Páginas|As páginas são visíveis apenas para os usuários que têm permissões para o conteúdo de origem.|
-|Sites|Os sites são visíveis apenas para os usuários que têm permissões para o conteúdo de origem.|
+|Nome do tópico|Os usuários podem ver o nome do tópico de todos os tópicos no centro de tópicos. Alguns tópicos podem não estar visíveis se eles têm uma baixa relevância para o usuário.|
+|Descrição do tópico|As descrições geradas por IA são visíveis apenas para usuários que têm permissões para o conteúdo de origem. As descrições inseridas ou editadas manualmente ficam visíveis para todos os usuários.|
+|Pessoas|As pessoas fixadas ficam visíveis para todos os usuários. As pessoas sugeridas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
+|Arquivos|Os arquivos só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
+|Páginas|As páginas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
+|Sites|Os sites ficam visíveis apenas para os usuários que têm permissões para o conteúdo de origem.|
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
-A experiência do tópico apresenta informações aos usuários com base em suas permissões existentes para o conteúdo. A Microsoft 365 oferece várias maneiras de garantir que o conteúdo confidencial seja restrito aos usuários apropriados. Além da equipe ou das permissões de site padrão, você pode usar [Rótulos de confidencialidade](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ou [prevenção de perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) para restringir o acesso a revisões de conteúdo e de [acesso](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) para rever periodicamente o acesso de usuários a informações confidenciais.
+Os tópicos apresentam informações aos usuários com base em suas permissões existentes para o conteúdo. O Microsoft 365 oferece várias maneiras de garantir que o conteúdo sensível seja restrito aos usuários apropriados. Além das permissões padrão de equipe [](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ou site, você pode usar rótulos de sensibilidade ou prevenção contra perda de dados para restringir o acesso ao conteúdo e acessar revisões para revisar periodicamente o acesso do usuário a informações confidenciais. [](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) [](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
-Recomendamos que você use essas ferramentas para garantir que as permissões de conteúdo sejam definidas apropriadamente dentro da sua organização. As experiências de tópicos podem fornecer informações úteis e apropriadas para seus usuários.
+Recomendamos que você use essas ferramentas para garantir que suas permissões de conteúdo sejam definidas adequadamente dentro da sua organização. As experiências de tópico podem fornecer informações úteis e apropriadas aos seus usuários.
 
 Se houver tópicos que você deseja excluir inteiramente das experiências de tópico, você também pode:
 
-- [Excluir sites confidenciais do SharePoint da descoberta de tópicos](topic-experiences-discovery.md#select-sharepoint-topic-sources). O conteúdo desses sites não aparecerá em experiências de tópico.
+- [Exclua sites confidenciais do SharePoint da descoberta de tópico.](topic-experiences-discovery.md#select-sharepoint-topic-sources) O conteúdo desses sites não será exibido nas experiências de tópico.
 
-- [Exclua os tópicos por nome](topic-experiences-discovery.md#exclude-topics-by-name). Os tópicos explicitamente excluídos não aparecerão em experiências de tópico.
+- [Excluir tópicos por nome.](topic-experiences-discovery.md#exclude-topics-by-name) Os tópicos explicitamente excluídos não aparecerão nas experiências de tópico.
 
-- Os gerentes de conhecimento removem tópicos no centro de tópicos.
+- Fazer com que os gerentes de conhecimento removam os tópicos no centro de tópicos.
 
 Além disso, recomendamos estas práticas recomendadas:
 
-- Recrutar gerentes de conhecimento de diferentes áreas da sua organização. Ter gerentes de conhecimento com uma variedade de especialização e acesso ao conteúdo subjacente usado pelo AI-pode ajudá-lo a obter o conhecimento mais útil para seus usuários e remover informações confidenciais, se encontrado.
+- Recrutar gerentes de conhecimento de diferentes áreas da sua organização. Ter gerentes de conhecimento com uma variedade de experiência e acesso ao conteúdo subjacente usado pela IA pode ajudá-lo a obter o conhecimento mais útil para seus usuários e remover informações confidenciais, se encontradas.
 
-- Configurar um fluxo de trabalho para solicitar alterações. Os gerentes de conhecimento ou os proprietários do site devem ter um processo pelo qual eles podem solicitar a exclusão de tópicos ou sites à medida que novos projetos são iniciados na sua organização ou quando eles encontram conteúdo com configurações de permissões inadequadas.
+- Configurar um fluxo de trabalho para solicitar alterações. Gerentes de conhecimento ou proprietários de equipe ou site devem ter um processo pelo qual podem solicitar a exclusão de tópicos ou sites à medida que novos projetos são iniciados em sua organização ou se encontram conteúdo com configurações de permissões inadequadas.
 
-- Esteja ciente da audiência e a confidencialidade das informações ao criar descrições de tópicos. Essas descrições podem ser visíveis para os usuários que não têm permissões para o conteúdo de origem do tópico.
+- Esteja ciente da audiência e da sensibilidade das informações ao criar descrições de tópicos. Essas descrições podem estar visíveis para os usuários que não têm permissões para o conteúdo de origem do tópico.
 
-Embora você possa alterar as permissões em páginas de tópicos individuais para restringir o acesso a um grupo específico de usuários, não recomendamos essa abordagem devido ao alto grau de esforço administrativo necessário.
+Embora você possa alterar as permissões em páginas de tópico individuais para restringir o acesso a um grupo específico de usuários, não recomendamos essa abordagem devido ao alto grau de esforço administrativo necessário.
 
 ## <a name="see-also"></a>Confira também
 
 [Configure equipes com três níveis de proteção](../solutions/configure-teams-three-tiers-protection.md)
 
-[Planejar experiências de tópico](plan-topic-experiences.md)
+[Planejar Experiências de tópico](plan-topic-experiences.md)
 
-[Configurar experiências de tópico](set-up-topic-experiences.md)
+[Configurar Experiências de tópico](set-up-topic-experiences.md)

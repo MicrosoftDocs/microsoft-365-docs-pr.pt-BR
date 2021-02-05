@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: Saiba como renovar o Microsoft 365, ativando ou desativando faturas recorrentes.
-ms.openlocfilehash: 1bf6d3957479d1cb695075e139dc4af2a09db3df
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+ms.openlocfilehash: 3bde3cc6d62e89e3339c268b9e3f9be5d657c467
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324299"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114604"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Renove o Microsoft 365 para empresas
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
@@ -46,7 +46,7 @@ Para renovar usando uma chave do produto comprada em um varejista ou em um parce
   
 ## <a name="turn-recurring-billing-off-or-on"></a>Ativar ou desativar as cobranças recorrentes
 
-Se você pagar com um cartão de crédito ou uma conta bancária, a ** Cobrança recorrente** será ativada por padrão. Quando a **cobrança recorrente** está ativada, sua assinatura continua a ser cobrada por ano, no dia em que você se inscreveu. Você pode desativar ou ativar essa opção novamente no centro de administração se sua assinatura estiver ativa.
+Se você pagar com um cartão de crédito ou uma conta bancária, a **Cobrança recorrente** será ativada por padrão. Quando a **cobrança recorrente** está ativada, sua assinatura continua a ser cobrada por ano, no dia em que você se inscreveu. Você pode desativar ou ativar essa opção novamente no centro de administração se sua assinatura estiver ativa.
   
 Se sua assinatura for pré-paga com uma chave do produto, ela expirará no final do período da assinatura. Você pode ativar a **Cobrança recorrente** e fornecer informações do cartão de crédito ou da conta bancária para que sua assinatura seja cobrada anualmente no dia que você se inscreveu. Você também tem a opção de pagar mensalmente ou pagar pelo ano inteiro. Não haverá cobrança em seu cartão de crédito ou conta bancária até o período inicial da assinatura expirar.
 

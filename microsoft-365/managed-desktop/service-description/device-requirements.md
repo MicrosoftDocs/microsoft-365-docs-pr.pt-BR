@@ -9,19 +9,19 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 88b1ba657b4823d90a41b28b01362760676410ba
-ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
+ms.openlocfilehash: a6b5cbbcb2f48797130b080d9d1dd1e6427d4fb8
+ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50032676"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110046"
 ---
 # <a name="device-requirements"></a>Requisitos do dispositivo
 
 A Área de Trabalho Gerenciada da Microsoft avalia regularmente os requisitos de dispositivo para serem incluídos no serviço. Este artigo descreve os requisitos de hardware e software que um dispositivo deve atender para funcionar com a Área de Trabalho Gerenciada da Microsoft. Você pode revisar uma lista de dispositivos [específicos já aprovados](device-list.md) para uso com o serviço com base nesses requisitos.
 
 > [!NOTE]
-> Esses requisitos podem mudar a qualquer momento, mas forneceremos um aviso de 90 dias sobre essas alterações. Os requisitos alterados mais recentemente são marcados com **\*** . 
+> Esses requisitos podem mudar a qualquer momento, mas forneceremos um aviso de 30 dias sobre quaisquer alterações de requisitos de hardware. Os requisitos alterados mais recentemente são marcados com **\*** . 
 
 ## <a name="check-hardware-requirements"></a>Verificar requisitos de hardware
 
@@ -46,7 +46,7 @@ O dispositivo deve ter sido feito por um destes fabricantes:
 O dispositivo deve ter esse software pré-instalado:
 
 - Edição Windows 10 Enterprise, Pro ou Pro Workstation
-- {the 64-bit version of Office click-to-run {I will double-check name w/ Office colleagues]}
+- a versão de 64 bits do Clique para Executar do Microsoft Office 
 - Todos os drivers de dispositivo aplicáveis
 
 
@@ -59,7 +59,7 @@ Os dispositivos devem ter estes recursos:
 - Capaz de segurança baseada em virtualização 
 - Dá suporte à integridade de código protegida pelo hipervisor 
 
-Para saber mais sobre esses recursos e as tecnologias relacionadas a eles que o serviço usa, consulte [Tecnologias da Área de Trabalho Gerenciada da Microsoft.](../intro/technologies.md)
+Para saber mais sobre esses recursos e as tecnologias relacionadas a eles que o serviço usa, consulte Tecnologias da Área de [Trabalho Gerenciada da Microsoft.](../intro/technologies.md)
 
 > [!NOTE]
 > Não há suporte para processadores ARM.

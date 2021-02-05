@@ -18,23 +18,23 @@ ms.collection:
 - M365-security-compliance
 description: Seja adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, o Microsoft 365 ajuda você a se manter informado sobre o cenário de conformidade em constante mudança. Descubra o que estamos fazendo até este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4fcc0c9317ed0f302c03ba4bda0b536b57889660
-ms.sourcegitcommit: c550c1b5b9e67398fd95bfb0256c4f5c7930b2be
+ms.openlocfilehash: 682f736456ebe822ee5a34de0175003fd7516920
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50066814"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50113970"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
-Seja adicionando novas soluções ao centro de conformidade do [Microsoft 365,](microsoft-365-compliance-center.md)atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, o Microsoft 365 ajuda você a se manter informado sobre o cenário de conformidade em constante mudança. Dê uma olhada abaixo para ver as novidades na conformidade do Microsoft 365 hoje.
+Seja adicionando novas soluções ao centro de conformidade do [Microsoft 365,](microsoft-365-compliance-center.md)atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, o Microsoft 365 ajuda você a se manter informado sobre o cenário de conformidade em constante mudança. Dê uma olhada abaixo para ver as novidades na conformidade com o Microsoft 365 hoje.
 
 > [!NOTE]
 > Alguns recursos de conformidade são lançados em velocidades diferentes para nossos clientes. Se você ainda não estiver vendo um recurso, tente adicionar a si mesmo ao [lançamento direcionado.](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365)
 
 > [!TIP]
 > Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[Novidades no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview)<br>[Novidades no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Novidades no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
-E visite o Mapa do [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão sendo lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+Visite o Mapa do [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão sendo lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
 
 ## <a name="december-2020"></a>Dezembro de 2020
 
@@ -59,7 +59,7 @@ Melhor fluxo de trabalho e funcionalidade para adicionar [custodiantes](add-cust
 
 ### <a name="data-connectors"></a>Conectores de dados
 
-[Quatro novos conectores globanet lançados:](archiving-third-party-data.md#third-party-data-connectors)Redtail Speak, Salesforce Connector, ServiceNow e Yieldbroker.
+[Quatro novos conectores Globanet lançados:](archiving-third-party-data.md#third-party-data-connectors)Redtail Speak, Salesforce Connector, ServiceNow e Yieldbroker.
 
 ### <a name="encryption"></a>Criptografia
 
@@ -75,11 +75,11 @@ Apresentando [a Chave de Cliente para o Microsoft 365 no nível do locatário.](
 
 ### <a name="records-management"></a>Gerenciamento de registros
 
-O [grupo de funções de administração de](get-started-with-records-management.md#permissions-required-for-records-management) Gerenciamento de Registros agora concede permissões para todos os recursos de gerenciamento de registros, incluindo a revisão de disposição.
+O [grupo de função de administração de](get-started-with-records-management.md#permissions-required-for-records-management) Gerenciamento de Registros agora concede permissões para todos os recursos de gerenciamento de registros, incluindo a revisão de disposição.
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
-- [Rotule automaticamente os dados no Azure Purview (visualização).](https://docs.microsoft.com/en-us/azure/purview/create-sensitivity-label) Agora você pode criar e aplicar automaticamente rótulos de sensibilidade a ativos no Azure Purview, como arquivos no armazenamento de Blob do Azure e colunas de banco de dados no SQL Server.
+- [Rotule automaticamente os dados no Azure Purview (visualização).](https://docs.microsoft.com/azure/purview/create-sensitivity-label) Agora você pode criar e aplicar automaticamente rótulos de sensibilidade a ativos no Azure Purview, como arquivos no armazenamento de Blob do Azure e colunas de banco de dados no SQL Server.
 - [Exigir que os usuários apliquem um rótulo aos itens.](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) Também conhecida como "rotulagem obrigatória", essa nova opção exige que os usuários escolham e apliquem um rótulo de sensibilidade nos cenários específicos.
 
 ## <a name="november-2020"></a>Novembro de 2020
@@ -89,7 +89,7 @@ Apenas um lembrete de que muitas vezes lançamos recursos novos e atualizados em
 
 ### <a name="spotlight-endpoint-data-loss-prevention-dlp-released"></a>Destaque: lançamento da DLP (prevenção contra perda de dados) do ponto de extremidade
 
-[O Endpoint DLP amplia](endpoint-dlp-learn-about.md) os recursos de proteção e monitoramento de atividades da DLP para informações confidenciais em dispositivos Windows 10. Depois que os [dispositivos são](dlp-configure-endpoints.md) integrados ao centro de conformidade do Microsoft 365, você pode configurar políticas DLP para proteger as informações confidenciais nesses dispositivos.
+[O Endpoint DLP amplia](endpoint-dlp-learn-about.md) os recursos de proteção e monitoramento de atividades da DLP para informações confidenciais em dispositivos Windows 10. Depois que os [dispositivos são integrados](dlp-configure-endpoints.md) ao centro de conformidade do Microsoft 365, você pode configurar políticas DLP para proteger as informações confidenciais nesses dispositivos.
 
 ### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
 
@@ -118,7 +118,7 @@ Para exibir itens durante uma revisão de disposição, os usuários agora devem
 
 ### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
 
-[Suporte à linguagem CJK.](ediscovery-cjk-support.md) A Descoberta Avançada agora dá suporte a idiomas de conjunto de caracteres de byte duplo, conhecidos coletivamente como idiomas CJK (inclui chinês simplificado, chinês tradicional, japonês e coreano). Eles podem ser usados em vários cenários avançados de conjunto de revisão.
+[Suporte à linguagem CJK.](ediscovery-cjk-support.md) A Descoberta Avançada agora dá suporte a idiomas de conjunto de caracteres de byte duplo, coletivamente conhecidos como idiomas CJK (inclui chinês simplificado, chinês tradicional, japonês e coreano). Eles podem ser usados em vários cenários avançados de conjunto de revisão.
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
@@ -146,7 +146,7 @@ Assista ao vídeo abaixo para saber como o Gerenciador de Conformidade pode ajud
 - [Grupos de função atualizados.](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance) Os grupos de função de conformidade de comunicação agora corresponderão à estrutura de grupo de função disponível para a solução de gerenciamento de riscos interno.
 - [Painel de relatórios.](communication-compliance-feature-reference.md#reports-preview) Seu local central para exibir todos os relatórios de conformidade de comunicação. Os widgets de relatório fornecem uma exibição rápida das informações mais comumente necessárias para uma avaliação geral do status das atividades de conformidade de comunicação.
 - [Fluxos do Power Automate.](communication-compliance-feature-reference.md#power-automate-flows) Configurar fluxos para automatizar tarefas para alertas e usuários, notificar gerentes quando os usuários dispararem alertas e muito mais.
-- [Ação de correção "Melhorar a classificação".](communication-compliance-investigate-remediate.md#step-3-decide-on-a-remediation-action) Os alertas que contêm itens que corresponderem a classificadores de treinamento podem se beneficiar dos comentários para ajudar a minimizar falsos positivos em sua organização. A **opção Melhorar classificação** permite que você forneça comentários se os itens detectados corresponderem ao classificador configurado na política de conformidade de comunicação relacionada. Você pode até sugerir outros classificadores para associar ao item para melhorar a precisão da combinação para alertas futuros.
+- [Ação de correção "Melhorar a classificação".](communication-compliance-investigate-remediate.md#step-3-decide-on-a-remediation-action) Os alertas que contêm itens que corresponderem a classificadores de treinamento podem se beneficiar dos comentários para ajudar a minimizar falsos positivos em sua organização. A **opção Melhorar classificação** permite que você forneça comentários se os itens detectados corresponderem ao classificador configurado na política de conformidade de comunicação relacionada. Você pode até sugerir outros classificadores para associar ao item a fim de melhorar a precisão de match para alertas futuros.
 
 ### <a name="data-connectors"></a>Conectores de dados
 
@@ -155,7 +155,7 @@ Assista ao vídeo abaixo para saber como o Gerenciador de Conformidade pode ajud
 
 ### <a name="insider-risk-management"></a>Gerenciamento de risco interno
 
-- [Integração com o Microsoft Teams.](insider-risk-management-settings.md#microsoft-teams-preview) Quando a integração com o Teams está corretamente corretamente, você pode coordenar e colaborar com outros participantes no Teams em tarefas como compartilhamento seguro e armazenamento de dados relacionados a casos individuais, rastreamento e revisão de atividades de resposta de analistas e investigadores e muito mais.
+- [Integração com o Microsoft Teams.](insider-risk-management-settings.md#microsoft-teams-preview) Quando a integração com o Teams é responsabilidade em configurações de risco interno, você pode coordenar e colaborar com outros participantes no Teams em tarefas como compartilhamento seguro e armazenamento de dados relacionados a casos individuais, rastreamento e revisão de atividades de resposta de analistas e investigadores e muito mais.
 - [Fluxos do Power Automate.](insider-risk-management-settings.md#power-automate-flows-preview) Configurar fluxos para automatizar tarefas importantes para casos e usuários, como recuperar informações de usuário, alerta e caso para compartilhar com participantes e outros aplicativos, automatizar ações como postar em anotações de ocorrência e muito mais.
 - [Explorador de atividades.](insider-risk-management-alerts.md#activity-explorer-preview) Disponível ao analisar alertas, o explorador de atividades fornece aos investigadores e analistas uma ferramenta de análise abrangente para analisar cada alerta. Revise rapidamente uma linha do tempo de atividade arriscada detectada e identifique e filtre todas as atividades de risco associadas a alertas.
 
@@ -170,7 +170,7 @@ Assista ao vídeo abaixo para saber como o Gerenciador de Conformidade pode ajud
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
-[Suporte para clientes do Governo dos Estados Unidos.](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) Os rótulos de sensibilidade agora têm suporte para clientes GCC, GCC High e DoD, apenas para o cliente e scanner de rotulagem unificada da Proteção de Informações do Azure.
+[Suporte para clientes do Governo dos Estados Unidos.](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) Os rótulos de sensibilidade agora têm suporte para clientes GCC, GCC High e DoD, somente para o cliente e scanner de rotulagem unificada da Proteção de Informações do Azure.
 
 ### <a name="trainable-classifiers"></a>Classificadores de treinamento
 
@@ -179,7 +179,7 @@ Os novos recursos de retraining e feedback ajudam a melhorar a precisão e minim
 Esse novo recurso está incluído nos seguintes recursos:
 
 > [!NOTE]
-> Para todos os recursos, se você fornecer pelo menos 30 respostas de comentários, criaremos uma versão restrita desse classificador que você pode analisar. Se houver melhorias, você poderá republicar o classificador.
+> Para todos os recursos, se você fornecer pelo menos 30 respostas de comentários, criaremos uma versão restrita desse classificador que você pode revisar. Se houver melhorias, você poderá republicar o classificador.
 
 - [Classificadores de treinamento.](classifier-learn-about.md#retraining-classifiers) Para melhorar a precisão dos classificadores publicados, você pode fornecer comentários sobre se os itens detectados corresponderão ao classificador.
 - [Conformidade de comunicação.](classifier-how-to-retrain-comms-compliance.md) A nova **ação melhorar** a correção de classificação permite que você forneça comentários se um item de um alerta de conformidade de comunicação corresponde ao classificador configurado na política de conformidade de comunicação.
@@ -207,7 +207,7 @@ Vários recursos novos e aprimorados atingiram a visualização pública este m�
     > Para aproveitar a integração do Microsoft Defender para o Ponto de Extremidade (incluindo os novos modelos de violação de política de segurança), você precisará ter o Microsoft Defender para Ponto de Extremidade configurado em sua organização. Você também precisará habilitar o Microsoft Defender para Endpoint para integração de gerenciamento de riscos insider configurando recursos avançados no [Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
  
 - Personalizar limites do indicador ao [criar uma política.](insider-risk-management-policies.md#create-a-new-policy)
-- Configurar [grupos](insider-risk-management-settings.md#priority-user-groups-preview) de usuários prioritários para definir usuários em sua organização cujas atividades exigem uma inspeção mais próxima com base em fatores como sua posição, nível de acesso a informações confidenciais ou histórico de riscos.
+- Configurar [grupos](insider-risk-management-settings.md#priority-user-groups-preview) de usuários prioritários para definir usuários em sua organização cuja atividade exige uma inspeção mais próxima com base em fatores como sua posição, nível de acesso a informações confidenciais ou histórico de riscos.
 - Use as APIs da Atividade [](insider-risk-management-settings.md#export-alerts-preview) de Gerenciamento do Office 365 para exportar detalhes do alerta de risco interno para outros aplicativos que sua organização pode usar para gerenciar ou agregar dados de risco interno.
 - As [novas configurações de domínio](insider-risk-management-settings.md#domains-preview) ajudam a definir e controlar níveis de risco para atividades em domínios específicos.
 
@@ -222,7 +222,7 @@ Vários recursos novos e aprimorados atingiram a visualização pública este m�
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
 - Para locatários do governo dos Estados Unidos (GCC, GCC-H e DoD) rótulos de confidencialidade possuem suporte somente quando o cliente de rotulagem unificada e digitalização da Proteção de Informações do Microsoft Azure está instalado. Para obter mais informações, confira [Descrição do Serviço Governamental Premium de Proteção de Informações do Microsoft Azure](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description).
-- Agora você pode [usar o PowerShell do & Centro](create-sensitivity-labels.md#use-powershell-for-sensitivity-labels-and-their-policies) de Conformidade e Segurança para criar e definir todas as configurações que você vê no centro de administração de rótulos. Isso significa que, além de usar o PowerShell para configurações que não estão disponíveis nos centros de administração de rotulagem, agora você pode criar um script completo da criação e manutenção de rótulos de sensibilidade e políticas de rótulos de sensibilidade.
+- Agora você pode [usar o PowerShell](create-sensitivity-labels.md#use-powershell-for-sensitivity-labels-and-their-policies) do & Centro de Conformidade e Segurança para criar e definir todas as configurações que você vê no centro de administração de rótulos. Isso significa que, além de usar o PowerShell para configurações que não estão disponíveis nos centros de administração de rotulagem, agora você pode criar um script completo da criação e manutenção de rótulos de sensibilidade e políticas de rótulos de sensibilidade.
 
 ### <a name="records-management-content-overhaul"></a>Gerenciamento de registros: revisão de conteúdo
 
@@ -238,8 +238,8 @@ A atividade de administrador relacionada à retenção agora está registrada e 
 
 ### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
 
-- Ao [adicionar uma coleção a um conjunto](add-data-to-review-set.md#define-options-to-scope-your-collection-for-review)de revisão, agora você pode incluir anexos modernos (também chamados de "anexos de nuvem") e versões de documentos do SharePoint.
-- Nova [experiência de exportação de download direto,](export-documents-from-review-set.md)eliminando a necessidade de usar o Azure Storage Explorer para baixar o conteúdo da ocorrência.
+- Ao [adicionar uma coleção a um](add-data-to-review-set.md#define-options-to-scope-your-collection-for-review)conjunto de revisão, agora você pode incluir anexos modernos (também chamados de "anexos de nuvem") e versões de documentos do SharePoint.
+- Nova [experiência de exportação de download](export-documents-from-review-set.md)direto, eliminando a necessidade de usar o Azure Storage Explorer para baixar o conteúdo da ocorrência.
 
 ## <a name="july-2020"></a>Julho de 2020
 
@@ -260,7 +260,7 @@ Adicionar dados a uma ocorrência sem precisar associá-lo a um custodiante (con
 
 ### <a name="retention-labels-new-support-for-email"></a>Rótulos de retenção: novo suporte para email
 
-Agora você pode criar um [rótulo de retenção](retention.md#retention-labels) para começar a reter emails com base em quando as mensagens foram rotuladas. Isso não se aplica a itens de calendário, que serão mantidos com base em quando o item for enviado.
+Agora você pode criar um [rótulo de retenção](retention.md#retention-labels) para começar a reter emails com base em quando as mensagens foram rotuladas. Isso não se aplica a itens de calendário, que serão retidos com base em quando o item for enviado.
 
 ### <a name="sensitivity-labels-new-feature-and-an-improvement"></a>Rótulos de sensibilidade: novo recurso e uma melhoria
 

@@ -20,19 +20,19 @@ search.appverid:
 - MET150
 description: Saiba como ler e entender sua fatura ou cobrança de produtos comerciais da Microsoft.
 keywords: contas de cobrança, informações sobre a organização, fatura
-ms.openlocfilehash: 1d13112957c7c09cc5f2f8cd314a510a6cae760a
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 79702c369a097dbcbc8fe2319cd04663f9fe0441
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928589"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114772"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Entenda sua cobrança ou fatura
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 

@@ -20,50 +20,50 @@ search.appverid:
 - MOE150
 ms.assetid: 286fcf0b-ffc7-4593-8073-d7a4a5dd2b45
 description: Saiba como exibir os relatórios usando guias de navegação e filtros.
-ms.openlocfilehash: 3a43d638d50c2e9415dde3bc7c547a7ba3b9d5bd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: aa7508b65d2a2b949c8e6737e92171ebb95812e1
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401477"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114268"
 ---
 # <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Navegar e utilizar os relatórios da análise de uso do Microsoft 365 
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
-O painel mostra uma visão geral das principais métricas de uso e adoção. Ao selecionar as métricas de nível superior, você pode acessar relatórios que fornecem mais detalhes e insights. Cada guia de relatório contém visualizações de dados específicas para um aspecto de uso e adoção da sua organização. Os dados coletados são explicados no título de cada relatório e aparece um bloco que contém mais informações sobre as visualizações na guia relatório que você está exibindo.
+O painel mostra uma visão geral das principais métricas de uso e adoção. Selecionando as métricas de nível superior, você pode acessar relatórios que fornecem mais detalhes e ideias. Cada guia de relatório contém visualizações de dados específicas para um aspecto de uso e adoção da sua organização. Os dados coletados são explicados no título de cada relatório e um lado é exibido contendo mais informações sobre as visualizações na guia relatório que você está exibindo.
 
 Para começar com seus relatórios, aqui estão algumas dicas:
 
-- Use as guias de navegação à esquerda ou em uma métrica relacionada na página **Resumo executivo** para navegar até cada relatório de nível superior.
+- Use as guias de navegação à esquerda ou  em uma métrica relacionada na página Resumo Executivo para navegar até cada relatório de nível superior.
 
     ![Mostra as guias de navegação à esquerda](../../media/navigate-usage-analytics1.png)
 
-- Use as guias de navegação na parte superior de cada relatório de nível superior para navegar para relatórios diferentes dentro desse nível.
+- Use as guias de navegação na parte superior de cada relatório de nível superior para navegar para diferentes relatórios dentro desse nível.
 
     ![Mostra as guias de navegação na parte superior de cada relatório](../../media/navigate-usage-analytics2.png)
 
-- Muitos relatórios contêm uma segmentação de, onde você pode filtrar o produto, atributo AAD ou atividade que você deseja exibir. Podem ser seleção única ou seleção múltipla.
+- Muitos relatórios contêm uma slicer onde você pode filtrar o produto, atributo AAD ou atividade que deseja exibir. Elas podem ser de seleção única ou de várias seleções.
 
-    ![Mostra uma segmentação de,](../../media/navigate-usage-analytics3.png)
+    ![Mostra uma slicer](../../media/navigate-usage-analytics3.png)
 
-    ![Mostra uma segmentação de,](../../media/navigate-usage-analytics4.png)
+    ![Mostra uma slicer](../../media/navigate-usage-analytics4.png)
 
 
 - Passe o mouse sobre os pontos de dados para ver um texto explicativo que contém detalhes.
 
-    ![Mostra o exemplo de foco](../../media/navigate-usage-analytics6.png)
+    ![Mostra um exemplo de foco](../../media/navigate-usage-analytics6.png)
 
-O usuário que instanciou o aplicativo de modelo terá a capacidade de personalizar o relatório às suas necessidades. Para personalizar o aplicativo de modelo:
+O usuário que instanciou o aplicativo de modelo terá a capacidade de personalizar o relatório de acordo com suas necessidades. Para personalizar o aplicativo de modelo:
 
 - Selecione **Editar relatório** na parte superior do relatório.
 
-    ![Mostrar relatório de edição](../../media/navigate-usage-analytics7.png)
+    ![Mostra o relatório Editar](../../media/navigate-usage-analytics7.png)
 
 
 - Crie seus próprios recursos visuais usando os [conjuntos de dados](usage-analytics-data-model.md) subjacentes.
@@ -72,13 +72,13 @@ O usuário que instanciou o aplicativo de modelo terá a capacidade de personali
 
 Para compartilhar seus relatórios, basta selecionar o botão compartilhar ![Power BI Share icon](../../media/dbb0569d-2013-4f9d-ab9d-d01b09631b92.png) na parte superior da página.
 
-Para saber como personalizar os relatórios, consulte [Personalizando os relatórios na análise de uso do Microsoft 365](customize-reports.md).
+Para saber como personalizar os relatórios, confira Personalizar os relatórios na [análise de uso do Microsoft 365.](customize-reports.md)
 
 Você pode encontrar muitas informações adicionais na documentação de ajuda do Power BI:
 
 - [Conceitos básicos do Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts)
 
-    Saiba mais sobre Dashboard, DataSets, relatórios e outros conceitos do Power BI.
+    Saiba mais sobre o painel, conjuntos de dados, relatórios e outros conceitos do Power BI.
 
 - [Introdução ao Power BI](https://docs.microsoft.com/power-bi/service-get-started?wt.mc_id=O365_Reports_PBI_contentpack)
 
@@ -86,4 +86,4 @@ Você pode encontrar muitas informações adicionais na documentação de ajuda 
 
 - [Compartilhe painéis e relatórios](https://docs.microsoft.com/power-bi/service-share-dashboards)
 
-    Saiba como compartilhar relatórios com seus colegas ou pessoas fora da sua organização. Você também pode compartilhar o relatório ou uma versão filtrada do relatório.
+    Saiba como compartilhar relatórios com seus colegas ou pessoas de fora da sua organização. Você também pode compartilhar o relatório ou uma versão filtrada do relatório.

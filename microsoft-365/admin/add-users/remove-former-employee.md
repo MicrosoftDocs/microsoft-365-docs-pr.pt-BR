@@ -24,20 +24,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
-description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e dados seguros. '
-ms.openlocfilehash: e8f0b61fae3656b7d700857e3cc7167cc121a77f
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e proteger dados. '
+ms.openlocfilehash: a875a8b7620067cdae46fcae3bb7ef8ce7d148fa
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48445514"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114052"
 ---
-# <a name="remove-or-delete-a-former-employee"></a>Remover ou excluir um funcionário anterior
+# <a name="remove-or-delete-a-former-employee"></a>Remover ou excluir um ex-funcionário
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
   
@@ -45,52 +45,52 @@ ms.locfileid: "48445514"
 
 ::: moniker range="o365-worldwide"
 
-Assista a um pequeno vídeo sobre como remover um funcionário. <br><br>
+Assista a um vídeo curto sobre como remover um funcionário. <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
 Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Para impedir que um funcionário faça logon:
+Para impedir que um funcionário entre:
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-2. Selecione a caixa ao lado do nome do usuário e, em seguida, selecione **Redefinir senha**.
-3. Insira uma nova senha e, em seguida, selecione **Redefinir**. (Não o envie para eles.)
-4. Selecione o nome do usuário para ir para o painel de propriedades e, na guia **conta** , selecione **Iniciar**saída.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+2. Selecione a caixa ao lado do nome do usuário e selecione **Redefinir senha.**
+3. Insira uma nova senha e selecione **Redefinir.** (Não o envie para eles.)
+4. Selecione o nome do usuário para ir para o  painel de propriedades e, na guia Conta, selecione **Iniciar saída.**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
-2. Selecione o usuário e, em seguida, selecione **Redefinir senha**.
+2. Selecione o usuário e, em seguida, selecione **Redefinir senha.**
 
-3. Insira uma nova senha e, em seguida, selecione **Redefinir**. (Não o envie para eles.)
+3. Insira uma nova senha e selecione **Redefinir.** (Não o envie para eles.)
 
-4. Selecione o nome do usuário para ir para o painel de propriedades e, na guia **conta** , selecione **Iniciar**saída.
+4. Selecione o nome do usuário para ir para o  painel de propriedades e, na guia Conta, selecione **Iniciar saída.**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-2. Selecione o usuário e, em seguida, selecione **Redefinir senha**.
+2. Selecione o usuário e, em seguida, selecione **Redefinir senha.**
 
-3. Insira uma nova senha e, em seguida, selecione **Redefinir**. (Não o envie para eles.)
+3. Insira uma nova senha e selecione **Redefinir.** (Não o envie para eles.)
 
-4. Selecione o nome do usuário para ir para o painel de propriedades e, na guia **conta** , selecione **Iniciar**saída.
+4. Selecione o nome do usuário para ir para o  painel de propriedades e, na guia Conta, selecione **Iniciar saída.**
 
 ::: moniker-end
 
 > [!NOTE]
 > Você precisa ser um administrador global para iniciar a saída.
 
-Dentro de uma hora ou após elas saírem da página atual do Microsoft 365, eles são solicitados a entrar novamente. Um token de acesso é bom por uma hora, portanto, a linha do tempo depende de quanto tempo resta naquele token e se ele navegará de sua página da Web atual.
+Dentro de uma hora - ou depois que eles saem da página atual do Microsoft 365 em que estão - eles são solicitados a entrar novamente. Um token de acesso é bom para uma hora, portanto, a linha do tempo depende de quanto tempo resta nesse token e se eles navegam fora de sua página da Web atual.
   
 > [!IMPORTANT]
-> Se o usuário estiver no Outlook na Web, basta clicar em volta em suas caixas de correio, eles não poderão ser iniciados imediatamente. Assim que eles selecionam um bloco diferente, como o OneDrive, ou atualizam o navegador, a saída é iniciada.
+> Se o usuário estiver no Outlook na Web, apenas clicando em sua caixa de correio, talvez ele não seja imediatamente desarmado. Assim que eles selecionarem um lado diferente, como o OneDrive, ou atualizarem o navegador, a saída será iniciada.
   
 Para usar o PowerShell para desconectar um usuário imediatamente, confira o cmdlet [Revoke-AzureADUserAllRefreshToken](https://go.microsoft.com/fwlink/?linkid=841345).
   
@@ -101,21 +101,21 @@ Para saber mais sobre quanto tempo é preciso para excluir alguém do email, con
 Uma pergunta que recebemos frequentemente é: o que posso fazer para proteger os dados quando um funcionário deixa a organização? Este artigo explica como bloquear o acesso ao Microsoft 365 e as etapas que você deve seguir para proteger seus dados.
   
 > [!NOTE]
-> Se você for um administrador global, poderá excluir o funcionário, encaminhar seu email, escolher o que fazer com o conteúdo do OneDrive usando a nova experiência interativa. Para obter mais informações, consulte [Administração Global: excluir um usuário](remove-former-employee.md). No entanto, recomendamos concluir todas as etapas adicionais listadas aqui para garantir que o funcionário não tenha acesso aos dados da sua empresa. 
+> Se você for um administrador global, poderá excluir o funcionário, encaminhar seus emails, escolher o que fazer com o conteúdo do OneDrive usando a nova experiência guiada. Para obter mais informações, consulte [Administrador global: Excluir um usuário.](remove-former-employee.md) No entanto, recomendamos concluir todas as etapas adicionais listadas aqui para garantir que o funcionário não tenha acesso aos dados da sua empresa. 
   
 A seguir está uma breve visão geral. Cada etapa é explicada em detalhes neste artigo.
   
 |||
 |:-----|:-----|
 |**Etapa** <br/> |**Por que fazer isso** <br/> |
-|1. [Salvar o conteúdo da caixa de correio de um ex-funcionário](#save-the-contents-of-a-former-employees-mailbox) <br/> |Isso é útil para a pessoa que vai assumir o trabalho do funcionário, ou se houver litígio.  <br/> |
+|1. [Salvar o conteúdo da caixa de correio de um ex-funcionário](#save-the-contents-of-a-former-employees-mailbox) <br/> |Isso é útil para a pessoa que assumirá o trabalho do funcionário ou se houver litígio.  <br/> |
 |2. [Encaminhar o email do ex-funcionário a outro funcionário ou convertê-lo em uma caixa de correio compartilhada](#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox) <br/> |Isso permite manter o endereço de email do ex-funcionário ativo. Se clientes ou parceiros ainda enviarem emails ao endereço de email do ex-funcionário, isso os encaminhará para a pessoa que assumir o trabalho.  <br/> |
 |3. [Apagar e bloquear o dispositivo móvel de um ex-funcionário](#wipe-and-block-a-former-employees-mobile-device) <br/> |Remove seus dados comerciais do telefone ou tablet.  <br/> |
-|4. [bloquear o acesso de um antigo funcionário aos dados do Microsoft 365](#block-a-former-employees-access-to-microsoft-365-data)<br/> |Ele impede que a pessoa acesse sua antiga caixa de correio e dados da Microsoft 365.  <br/><br/> **Dica**: ao bloquear o acesso de um usuário, você ainda está pagando por sua licença. Para parar de pagar, exclua a licença da sua assinatura (etapa 5).  |
+|4. [Bloquear o acesso de um ex-funcionário aos dados do Microsoft 365](#block-a-former-employees-access-to-microsoft-365-data)<br/> |Ela impede que a pessoa acesse sua antiga caixa de correio e dados do Microsoft 365.  <br/><br/> **Dica:** ao bloquear o acesso de um usuário, você ainda pagará pela licença dele. Para parar de pagar por ela, exclua a licença da sua assinatura (etapa 5).  |
 |5. [Mover o conteúdo do OneDrive do funcionário](get-access-to-and-back-up-a-former-user-s-data.md) <br/> |Quando você remove apenas a licença e não exclui a conta do usuário, o conteúdo do OneDrive permanece acessível para você mesmo após os 30 dias.  <br/><br/> Antes de excluir a conta, você deve migrar o conteúdo do OneDrive desse usuário para outro local de fácil acesso. Depois que você excluir a conta de um funcionário, o conteúdo no OneDrive será retido por **30** dias. No entanto, durante esses 30 dias você pode restaurar a conta do usuário e ter acesso ao conteúdo dele no OneDrive. Se você restaurar a conta do usuário, o conteúdo do OneDrive permanecerá acessível para você mesmo após os 30 dias.  <br/> |
 |5a. E se a pessoa usou o computador pessoal para acessar o OneDrive e o SharePoint?  <br/> |Se ela usou um computador pessoal em vez de um computador corporativo para baixar arquivos do OneDrive e do SharePoint, não há nenhuma maneira de apagar os arquivos armazenados por ela.  <br/><br/> Eles continuam a ter acesso a todos os arquivos que foram sincronizados com o computador.  <br/> |
-|6. [remover e excluir a licença do Microsoft 365 de um funcionário antigo](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |Ao remover uma licença, você pode atribuí-la a outra pessoa. Ou pode excluir a licença para não pagar por ela até contratar outra pessoa.  <br/><br/> Quando você remove ou exclui uma licença, o antigo email, contatos e calendário do usuário são mantidos por **30 dias** e, em seguida, excluídos permanentemente. Se você remover ou excluir a licença, mas não excluir a conta do usuário, o conteúdo do OneDrive permanecerá acessível para você mesmo após os 30 dias.  <br/> |
-|7. [Excluir a conta de usuário de um ex-funcionário](#delete-a-former-employees-user-account)<br/> |Isso remove a conta do seu centro de administração. Mantenha as coisas organizadas.  <br/> |
+|6. [Remover e excluir a licença do Microsoft 365 de um ex-funcionário](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |Ao remover uma licença, você pode atribuí-la a outra pessoa. Ou pode excluir a licença para não pagar por ela até contratar outra pessoa.  <br/><br/> Quando você remove ou exclui uma licença, o antigo email, contatos e calendário do usuário são mantidos por **30 dias** e, em seguida, excluídos permanentemente. Se você remover ou excluir a licença, mas não excluir a conta do usuário, o conteúdo do OneDrive permanecerá acessível para você mesmo após os 30 dias.  <br/> |
+|7. [Excluir a conta de usuário de um ex-funcionário](#delete-a-former-employees-user-account)<br/> |Isso remove a conta do centro de administração. Mantenha as coisas organizadas.  <br/> |
 
 ## <a name="save-the-contents-of-a-former-employees-mailbox"></a>Salvar o conteúdo da caixa de correio de um ex-funcionário
 
@@ -127,11 +127,11 @@ Há duas maneiras de salvar o conteúdo da caixa de correio do ex-funcionário:
 
 2. Coloque uma retenção de litígio ou bloqueio in-loco na caixa de correio antes de excluir a conta do usuário. Isso é muito mais complicado do que a primeira opção, mas vale a pena se o seu plano empresarial inclui arquivamento e retenção jurídica, se o litígio é uma possibilidade e se você tem um departamento de TI com excelente experiência técnica.
 
-    Depois de converter a caixa de correio em uma "caixa de correio inativa", os administradores, os gerentes de conformidade ou os gerentes de registros podem usar as ferramentas de descoberta eletrônica do In-Place no Exchange Online para acessar e pesquisar o conteúdo.
+    Depois de converter In-Place caixa de correio em uma "caixa de correio inativa", os administradores, responsáveis pela conformidade ou gerentes de registros podem usar as ferramentas de Descoberta In-Place no Exchange Online para acessar e pesquisar o conteúdo.
 
     As caixas de correio inativas não podem receber emails e não são exibidas no catálogo de endereços compartilhados da sua organização ou em outras listas.
 
-    Para saber como colocar uma retenção em uma caixa de correio, consulte [gerenciar caixas de correio inativas no Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes).
+    Para saber como colocar uma caixa de correio em espera, consulte Gerenciar caixas de correio [inativas no Exchange Online.](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes)
 
 ## <a name="forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>Encaminhar o email do ex-funcionário a outro funcionário ou convertê-lo em uma caixa de correio compartilhada
 
@@ -142,14 +142,14 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 - Quando você configura o encaminhamento de email, apenas os  *novos*  emails enviados ao ex-funcionário são enviados para o funcionário atual.
 
  > [!IMPORTANT]
- > Se você estiver configurando o encaminhamento de emails ou uma caixa de correio compartilhada, no final, não exclua a conta do funcionário anterior. Ela deve existir para ancorar o encaminhamento de email ou a caixa de correio compartilhada.
+ > Se você estiver configurando o encaminhamento de email ou uma caixa de correio compartilhada, no final, não exclua a conta do ex-funcionário. Ela deve existir para ancorar o encaminhamento de email ou a caixa de correio compartilhada.
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-2. Selecione o nome do funcionário que você deseja bloquear e, em seguida, selecione a guia **email** .
-3. Em **encaminhamento de email**, selecione **gerenciar encaminhamento de email**.
-4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **endereço de encaminhamento** , digite o endereço de email do funcionário atual que vai receber o email.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+2. Selecione o nome do funcionário que você deseja bloquear e selecione a **guia** Email.
+3. Em **Encaminhamento de Email,** selecione **Gerenciar encaminhamento de email.**
+4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **Endereço de encaminhamento,** digite o endereço de email do funcionário atual que vai receber o email.
 5. Selecione **Salvar**.
 6. Lembre-se de não excluir a conta do ex-funcionário.
 
@@ -157,11 +157,11 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
-2. Selecione o funcionário que você deseja bloquear e expandir **as configurações de email**.
+2. Selecione o funcionário que você deseja bloquear e expandir **configurações de email.**
 
-3. Ao lado de **encaminhamento de email**, selecione **Editar**.
+3. Ao lado de **Encaminhamento de email,** selecione **Editar**.
 
 4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **Endereço de encaminhamento**, digite o endereço de email do funcionário atual (ou da caixa de correio compartilhada) que vai receber os emails.
   
@@ -173,11 +173,11 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-2. Selecione o funcionário que você deseja bloquear e expandir **as configurações de email**.
+2. Selecione o funcionário que você deseja bloquear e expandir **configurações de email.**
 
-3. Ao lado de **encaminhamento de email**, selecione **Editar**.
+3. Ao lado de **Encaminhamento de email,** selecione **Editar**.
 
 4. Ative **Encaminhar todos os emails enviados para esta caixa de correio**. Na caixa **Endereço de encaminhamento**, digite o endereço de email do funcionário atual (ou da caixa de correio compartilhada) que vai receber os emails.
   
@@ -189,115 +189,115 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 
 ## <a name="wipe-and-block-a-former-employees-mobile-device"></a>Apagar e bloquear o dispositivo móvel de um ex-funcionário
 
-Se o antigo funcionário tivesse um telefone de organização, você pode usar o centro de administração do Exchange para apagar e bloquear esse dispositivo para que todos os dados da organização sejam removidos do dispositivo e não possam mais se conectar ao Office 365.
+Se o ex-funcionário tinha um telefone da organização, você pode usar o Centro de administração do Exchange para apagar e bloquear esse dispositivo para que todos os dados da organização são removidos do dispositivo e ele não possa mais se conectar ao Office 365.
 
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 2. No Centro de administração do Exchange, navegue até **Destinatários** \> **Caixas de Correio**.
-3. Selecione o usuário e, em **dispositivos móveis**, selecione **Exibir detalhes**.
-4. Na página **detalhes do dispositivo móvel** , em **dispositivos móveis**, selecione o dispositivo móvel, selecione **apagar dados** ![ apagar dispositivo ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) e, em seguida, selecione **Bloquear**.
+3. Selecione o usuário e, em **Dispositivos Móveis,** selecione **Exibir detalhes.**
+4. Na página **Detalhes do Dispositivo Móvel,** em **Dispositivos** Móveis, selecione o dispositivo móvel, selecione **Apagar** Dispositivo de Apagamento de Dados e, em seguida, ![ selecione ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) **Bloquear.**
 5. Selecione **Salvar**.
    > [!TIP]
-   > Certifique-se de remover ou desabilitar o usuário do seu serviço local do BlackBerry Enterprise. Você também deve desabilitar todos os dispositivos Blackberry desse usuário. Veja o Guia de Administração do Blackberry Business Cloud Services se precisar de etapas específicas para desabilitar o usuário.
+   > Certifique-se de remover ou desabilitar o usuário do Blackberry Enterprise Service local. Você também deve desabilitar todos os dispositivos Blackberry desse usuário. Veja o Guia de Administração do Blackberry Business Cloud Services se precisar de etapas específicas para desabilitar o usuário.
 
-## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Bloquear o acesso de um antigo funcionário aos dados do Microsoft 365
+## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Bloquear o acesso de um ex-funcionário aos dados do Microsoft 365
 
  > [!IMPORTANT]
- > Bloquear uma conta pode levar até 24 horas para entrar em vigor. Se você precisar evitar imediatamente o acesso de entrada de um usuário, deverá redefinir a [senha](reset-passwords.md) e, em seguida, iniciar um evento de ocorrência única que o desconectará das sessões do Microsoft 365 em todos os dispositivos. Confira [Sair agora!](#sign-out-now)
+ > O bloqueio de uma conta pode levar até 24 horas para ter efeito. Se você precisar impedir imediatamente o acesso de logon de um usuário, redefina a senha e inicie um evento único que o desajuste das sessões do Microsoft 365 em todos os dispositivos. [](reset-passwords.md) Confira [Sair agora!](#sign-out-now)
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-2. Selecione o nome do funcionário que você deseja bloquear e, sob o nome do usuário, selecione o símbolo para **bloquear este usuário**.
-3. Selecione **bloquear o usuário para entrar**e, em seguida, selecione **salvar**.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+2. Selecione o nome do funcionário que você deseja bloquear e, sob o nome do usuário, selecione o símbolo para **Bloquear este usuário.**
+3. Selecione **Bloquear o usuário de entrar e,** em seguida, selecione **Salvar.**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
-2. Selecione o funcionário que você deseja bloquear e, em seguida, selecione **bloqueio de entrada**.
+2. Selecione o funcionário que você deseja bloquear e, em seguida, selecione **Bloquear entrar.**
 
-3. Selecione **bloquear o usuário para entrar**e, em seguida, selecione **salvar**.
+3. Selecione **Bloquear o usuário de entrar e,** em seguida, selecione **Salvar.**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-2. Selecione o funcionário que você deseja bloquear e, em seguida, selecione **bloqueio de entrada**.
+2. Selecione o funcionário que você deseja bloquear e, em seguida, selecione **Bloquear entrar.**
 
-3. Selecione **bloquear o usuário para entrar**e, em seguida, selecione **salvar**.
+3. Selecione **Bloquear o usuário de entrar e,** em seguida, selecione **Salvar.**
 
 ::: moniker-end
 
 ## <a name="block-a-former-employees-access-to-email-exchange-online"></a>Bloquear o acesso de um ex-funcionário ao email (Exchange Online)
 
-Se você tiver email como parte da sua assinatura do Microsoft 365, você precisará entrar no centro de administração do Exchange para executar estas etapas para impedir o acesso de seus funcionários antes de seus emails.
+Se você tiver um email como parte da sua assinatura do Microsoft 365, entre no Centro de administração do Exchange para seguir estas etapas para impedir que seu ex-funcionário acesse seus emails.
   
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 2. No Centro de administração do Exchange, navegue até **Destinatários** \> **Caixas de Correio**.
-3. Clique duas vezes no usuário e vá para a página **recursos de caixa de correio** . Em **dispositivos móveis**, selecione **desabilitar o Exchange ActiveSync** e **desabilitar o OWA para dispositivos** e responda **Sim** para ambos quando solicitado.
-4. Em **conectividade de email**, selecione **desabilitar** e responder **Sim** quando solicitado.
+3. Clique duas vezes no usuário e vá para a página de recursos **de Caixa de** Correio. Em **Dispositivos Móveis,** selecione **Desabilitar Exchange ActiveSync** e **Desabilitar OWA** para Dispositivos e responda **Sim** a ambos quando solicitado.
+4. Em **Conectividade de Email,** selecione **Desabilitar** e responder **Sim** quando solicitado.
 
-## <a name="remove-and-delete-the-microsoft-365-license-from-a-former-employee"></a>Remover e excluir a licença do Microsoft 365 de um funcionário antigo
+## <a name="remove-and-delete-the-microsoft-365-license-from-a-former-employee"></a>Remover e excluir a licença do Microsoft 365 de um ex-funcionário
 
-Portanto, você não continua pagando por uma licença depois que alguém deixa sua organização, você precisa remover a licença do Microsoft 365 e excluí-la da sua assinatura. Se preferir não excluir a licença da assinatura, é possível atribuí-la a outro usuário.
+Para que você não continue pagando por uma licença depois que alguém sair da sua organização, será necessário remover a licença do Microsoft 365 e excluí-la da sua assinatura. Se preferir não excluir a licença da assinatura, é possível atribuí-la a outro usuário.
   
-Quando você remove a licença, todos os dados do usuário são mantidos por 30 dias. Você pode [acessar](get-access-to-and-back-up-a-former-user-s-data.md) os dados ou [restaurar](restore-user.md) a conta se o usuário retornar. Após 30 dias, todos os dados do usuário (exceto os documentos armazenados no SharePoint Online) são excluídos permanentemente do Microsoft 365 e não podem ser recuperados.
+Quando você remove a licença, todos os dados do usuário são mantidos por 30 dias. Você pode [acessar](get-access-to-and-back-up-a-former-user-s-data.md) os dados ou [restaurar](restore-user.md) a conta se o usuário retornar. Após 30 dias, todos os dados do usuário (exceto os documentos armazenados no SharePoint Online) serão excluídos permanentemente do Microsoft 365 e não poderão ser recuperados.
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-2. Selecione o nome do funcionário que você deseja bloquear e, em seguida, selecione a guia **licenças e aplicativos** .
-3. Desmarque as caixas de seleção para as licenças que você deseja remover e, em seguida, selecione **salvar alterações**.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+2. Selecione o nome do funcionário que você deseja bloquear e selecione a guia **Licenças e** Aplicativos.
+3. Des marque as caixas de seleção das licenças que você deseja remover e selecione **Salvar alterações.**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
-2. Selecione o funcionário que você deseja bloquear e, em seguida, ao lado de **licenças de produto**, selecione **Editar**.
+2. Selecione o funcionário que você deseja bloquear e, em seguida, ao lado de **Licenças de produto**, selecione **Editar**.
 
-3. Na página **licenças de produtos** , desative a (s) licença (s) que você deseja remover e, em seguida, selecione **salvar**.
+3. Na página **Licenças de** produto, alterne as licenças que você deseja remover e selecione **Salvar.**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
-2. Selecione o funcionário que você deseja bloquear e, em seguida, ao lado de **licenças de produto**, selecione **Editar**.
+2. Selecione o funcionário que você deseja bloquear e, em seguida, ao lado de **Licenças de produto**, selecione **Editar**.
 
-3. Na página **licenças de produtos** , desative a (s) licença (s) que você deseja remover e, em seguida, selecione **salvar**.
+3. Na página **Licenças de** produto, alterne as licenças que você deseja remover e selecione **Salvar.**
 
 ::: moniker-end
 
-**Para reduzir o número de licenças que você está pagando** até contratar outra pessoa, siga estas etapas:
+**Para reduzir o número de licenças** que você está pagando até contratar outra pessoa, faça o seguinte:
 
 ::: moniker range="o365-worldwide"
-1. No centro de administração, vá para a página **cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus produtos</a> e selecione a guia **produtos** .
+1. No centro de administração, vá para a página **Cobrança** de seus produtos e selecione a \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"></a> **guia** Produtos.
 2. Selecione a assinatura da qual você deseja remover licenças.
-3. Na página detalhes, selecione **remover licenças**.
-4. No painel **remover licenças** , em nova quantidade, na caixa **total de licenças** , insira o número total de licenças que você deseja para essa assinatura. Por exemplo, se você tiver 25 licenças e quiser remover uma delas, digite 24.
+3. Na página de detalhes, selecione **Remover licenças.**
+4. No painel **Remover licenças,** em Nova quantidade, na caixa Total de **licenças,** insira o número total de licenças que você deseja para essa assinatura. Por exemplo, se você tiver 25 licenças e quiser remover uma delas, digite 24.
 5. Selecione **Salvar**.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
-2. Selecione **Adicionar/remover licenças** para excluir a licença para não pagar por ela até contratar outra pessoa.
+2. Selecione **Adicionar/Remover licenças para** excluir a licença para que você não pagar por ela até contratar outra pessoa.
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
-2. Selecione **Adicionar/remover licenças** para excluir a licença para não pagar por ela até contratar outra pessoa.
+2. Selecione **Adicionar/Remover licenças para** excluir a licença para que você não pagar por ela até contratar outra pessoa.
 ::: moniker-end
 
-Ao [adicionar outra pessoa](add-users.md) à sua empresa, você será solicitado a comprar uma licença ao mesmo tempo, com apenas uma etapa!
+Ao adicionar [outra pessoa](add-users.md) à sua empresa, você será solicitado a comprar uma licença ao mesmo tempo, com apenas uma etapa!
 
-Para obter mais informações sobre o gerenciamento de licenças de usuário para o Microsoft 365 for Business, consulte [atribuir licenças aos usuários no microsoft 365 para empresas](../manage/assign-licenses-to-users.md)e [cancelar a atribuição de licenças de usuários no Microsoft 365 para empresas](../manage/remove-licenses-from-users.md).
+Para obter mais informações sobre como gerenciar licenças de usuário do Microsoft 365 para empresas, consulte Atribuir licenças a usuários no [Microsoft 365 para](../manage/assign-licenses-to-users.md)empresas e Desatribuição de licenças de usuários no [Microsoft 365 para](../manage/remove-licenses-from-users.md)empresas.
   
 ## <a name="how-the-deleted-employee-account-affects-skype-for-business"></a>Como a conta de funcionário excluída afeta o Skype for Business
 
@@ -305,9 +305,9 @@ Quando você remove uma licença de usuário do Office 365, o número de chamada
   
 Se o usuário pertencer a um grupo de espera, ele não será mais um alvo viável de agentes da fila a chamada. Portanto, recomendamos remover o usuário também de grupos associados à fila de chamadas.
 
-## <a name="set-up-call-forwarding-to-people-in-your-organization"></a>Configurar o encaminhamento de chamadas para pessoas em sua organização
+## <a name="set-up-call-forwarding-to-people-in-your-organization"></a>Configurar o encaminhamento de chamada para pessoas em sua organização
 
-Se você precisar configurar o encaminhamento de chamadas para o número de telefone do funcionário demitido, a configuração de encaminhamento de chamadas em políticas de chamadas poderá configurar o encaminhamento onde as chamadas de entrada podem ser encaminhadas para outros usuários ou podem tocar outra pessoa ao mesmo tempo. Para obter mais informações, consulte [chamadas de diretivas no Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-calling-policy).
+Se você precisar configurar o encaminhamento de chamadas para o número de telefone do funcionário finalizado, a configuração de encaminhamento de chamadas em políticas de chamada poderá configurar o encaminhamento para onde as chamadas de entrada podem ser encaminhadas para outros usuários ou pode tocar para outra pessoa ao mesmo tempo. Para saber mais, confira [Políticas de chamada no Microsoft Teams.](https://docs.microsoft.com/microsoftteams/teams-calling-policy)
   
 ## <a name="delete-a-former-employees-user-account"></a>Excluir a conta de usuário de um ex-funcionário
 
@@ -317,29 +317,29 @@ Não exclua a conta se tiver configurado o encaminhamento de email ou se tiver c
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 2. Selecione o nome do funcionário que você deseja excluir.
-3. Sob o nome do usuário, selecione o símbolo de **exclusão do usuário**. Escolha as opções desejadas para este usuário e, em seguida, selecione **excluir usuário**.
+3. Under the user's name, select the symbol for **Delete user**. Escolha as opções que você deseja para esse usuário e, em seguida, selecione **Excluir usuário**.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
 2. Selecione o nome do funcionário que você deseja excluir.
 
-3. Na parte superior da página, selecione **excluir usuário**. Escolha as opções desejadas para este usuário e, em seguida, selecione **excluir usuário**.
+3. Na parte superior da página, selecione **Excluir usuário**. Escolha as opções que você deseja para esse usuário e, em seguida, selecione **Excluir usuário**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
 2. Selecione o nome do funcionário que você deseja excluir.
 
-3. Na parte superior da página, selecione **excluir usuário**. Escolha as opções desejadas para este usuário e, em seguida, selecione **excluir usuário**.
+3. Na parte superior da página, selecione **Excluir usuário**. Escolha as opções que você deseja para esse usuário e, em seguida, selecione **Excluir usuário**.
 
 ::: moniker-end
 
@@ -347,11 +347,11 @@ Quando você exclui um usuário, a conta se torna inativa por aproximadamente 30
   
 ### <a name="does-your-organization-use-active-directory"></a>Sua organização usa o Active Directory?
 
-Se sua organização sincronizar as contas de usuário para a Microsoft 365 a partir de um ambiente local do Active Directory, você deverá excluir e restaurar essas contas de usuário no serviço local do Active Directory. Não é possível excluí-las ou restaurá-las no Office 365.
+Se sua organização sincroniza contas de usuário com o Microsoft 365 de um ambiente local do Active Directory, você deve excluir e restaurar essas contas de usuário em seu serviço local do Active Directory. Não é possível excluí-las ou restaurá-las no Office 365.
   
-Para saber como excluir e restaurar a conta de usuário no Active Directory, confira [excluir uma conta de usuário](https://go.microsoft.com/fwlink/?linkid=841808).
+Para saber como excluir e restaurar a conta de usuário no Active Directory, consulte [Excluir uma conta de usuário.](https://go.microsoft.com/fwlink/?linkid=841808)
   
-Se você estiver usando o Azure Active Directory, confira o cmdlet [Remove-MsolUser](https://go.microsoft.com/fwlink/?linkid=842230) do PowerShell.
+Se você estiver usando o Azure Active Directory, consulte o cmdlet [Remove-MsolUser](https://go.microsoft.com/fwlink/?linkid=842230) PowerShell.
   
 ## <a name="what-you-need-to-know-about-terminating-an-employees-email-session"></a>O que você precisa saber sobre o encerramento da sessão de email de um funcionário
 
@@ -361,10 +361,10 @@ Aqui estão as informações sobre como excluir um funcionário do email (Exchan
 |:-----|:-----|
 |**O que você pode fazer** <br/> |**Como fazer isso** <br/> |
 |Encerrar uma sessão (como o Outlook na Web, Outlook, Exchange Active Sync, etc.) e forçar a abertura de uma nova sessão  <br/> |Redefina a senha  <br/> |
-|Encerrar uma sessão e bloquear o acesso a sessões futuras (para todos os protocolos)  <br/> |Desabilite a conta. Por exemplo, (no centro de administração do Exchange ou usando o PowerShell):  <br/>  `Set-Mailbox user@contoso.com -AccountDisabled:$true` <br/> |
-|Encerrar a sessão de um protocolo específico (como ActiveSync)  <br/> |Desabilite o protocolo. Por exemplo, (no centro de administração do Exchange ou usando o PowerShell):  <br/>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false` <br/> |
+|Encerrar uma sessão e bloquear o acesso a sessões futuras (para todos os protocolos)  <br/> |Desabilite a conta. Por exemplo, (no Centro de administração do Exchange ou usando o PowerShell):  <br/>  `Set-Mailbox user@contoso.com -AccountDisabled:$true` <br/> |
+|Encerrar a sessão de um protocolo específico (como ActiveSync)  <br/> |Desabilite o protocolo. Por exemplo, (no Centro de administração do Exchange ou usando o PowerShell):  <br/>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false` <br/> |
 
-As operações acima podem ser realizadas em três locais:
+As operações acima podem ser feitas em três lugares:
   
 |||
 |:-----|:-----|

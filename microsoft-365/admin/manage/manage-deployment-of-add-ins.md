@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Aprenda a implantar os complementos para usuários e grupos em sua organização usando a Implantação Centralizada no centro de administração.
-ms.openlocfilehash: ef7237f20780cb67bc84561ad8617dd8da6f8b82
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 5d17242d98f0e58ec4bfbcfd5b7014e6a6e0a6c5
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926349"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114496"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Implantar suplementos no centro de administração
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
@@ -142,8 +142,8 @@ As atualizações para os complementos ocorrem da seguinte forma:
 
 [Crie seu primeiro complemento do painel de tarefas do Word.](https://docs.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)
 
-[Menores e aquisição de complementos da loja](minors-and-acquiring-addins-from-the-store.md)
+[Menores de idade e aquisição de complementos da loja](minors-and-acquiring-addins-from-the-store.md)
   
-[Usar cmdlets do PowerShell de implantação centralizada para gerenciar os complementos](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
+[Usar cmdlets do PowerShell de Implantação Centralizada para gerenciar os complementos](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
   
 [Solução de problemas: o usuário não está vendo os complementos](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)

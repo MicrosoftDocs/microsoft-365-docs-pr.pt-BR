@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus dados e email comercial contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: a329d2879309812a516191fdbd1858ad10e4beeb
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3ae6d896d5ef060e2f077167f81e2029a3a143ac
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926325"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114400"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>10 principais maneiras de proteger os planos do Microsoft 365 para empresas
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
 
 ::: moniker-end
 
@@ -42,10 +42,10 @@ Se você for uma organização de pequeno ou médio porte usando um dos planos d
 
 A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir que se aplicam ao seu plano de serviço.
 
-||Tarefa|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
+||Tarefas|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
-|1 |[Configurar autenticação multifatorial](secure-your-business-data.md#setup)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2 |[Treinar os usuários](secure-your-business-data.md#train)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1|[Configurar autenticação multifatorial](secure-your-business-data.md#setup)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2|[Treinar os usuários](secure-your-business-data.md#train)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |3|[Usar contas de administrador dedicadas](secure-your-business-data.md#admin)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[Aumentar o nível de proteção contra malware no email](secure-your-business-data.md#malware)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5 |[Proteção contra ransomware](secure-your-business-data.md#ransomware)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -55,7 +55,7 @@ A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir q
 |9 |[Proteger contra anexos mal-intencionados e arquivos com Anexos Seguros](secure-your-business-data.md#atp)||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |10 |[Proteger-se contra ataques de phishing com Links seguros](secure-your-business-data.md#phishingatp)||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 
-Antes de começar, verifique a [Classificação de Segurança do Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) no centro de segurança do Microsoft 365. Em um painel centralizado, você pode monitorar e melhorar a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365. Você recebe pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou lidar com recomendações com um aplicativo ou software de terceiros. Com percepções adicionais e mais visibilidade de um conjunto mais amplo de produtos e serviços da Microsoft, você pode se sentir confiante sobre a saúde de segurança da sua organização.
+Antes de começar, verifique a Classificação de Segurança [do Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) no centro de segurança do Microsoft 365. Em um painel centralizado, você pode monitorar e melhorar a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365. Você recebe pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou lidar com recomendações com um aplicativo ou software de terceiros. Com percepções adicionais e mais visibilidade de um conjunto mais amplo de produtos e serviços da Microsoft, você pode se sentir confiante sobre a saúde de segurança da sua organização.
 
 ![Captura de tela do Microsoft Secure Score](../../media/secure-score.png)
 
@@ -128,7 +128,7 @@ Seu ambiente do Microsoft 365 inclui proteção contra malware, mas você pode a
 
 4. Selecione **Configurações**.
 
-5. Under **Common Attachment Types Filter**, select **On**. Os tipos de arquivo bloqueados estão listados na janela diretamente abaixo desse controle. Você pode adicionar ou excluir tipos de arquivo posteriormente, se necessário.
+5. Under **Common Attachment Types Filter**, select **On**. Os tipos de arquivo bloqueados são listados na janela diretamente abaixo desse controle. Você pode adicionar ou excluir tipos de arquivo posteriormente, se necessário.
 
 6. Selecione **Salvar.**
 
@@ -145,7 +145,7 @@ Você pode se proteger contra ransomware criando uma ou mais regras de fluxo de 
 
 - Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado. Vamos começar com uma lista comum de executáveis (listada na tabela abaixo). Se sua organização usa qualquer um desses tipos executáveis e você espera que eles sejam enviados por email, adicione-os à regra anterior (avisar os usuários).
 
-Para criar uma regra de transporte de email, veja um [breve vídeo de treinamento](https://support.microsoft.com/office/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)ou conclua as seguintes etapas:
+Para criar uma regra de transporte de email, assista a um [breve vídeo de treinamento](https://support.microsoft.com/office/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)ou conclua as seguintes etapas:
 
 1. Vá até o [Centro de administração do Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104).
 
@@ -159,7 +159,7 @@ Para criar uma regra de transporte de email, veja um [breve vídeo de treinament
 
 6. Selecione **Salvar**.
     
-| Configuração | Avisar os usuários antes de abrir anexos de arquivos do Office | Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado |
+| Setting | Avisar os usuários antes de abrir anexos de arquivos do Office | Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado |
 |:-----|:-----|:-----|
 |Nome  <br/> |Regra anti-ransomware: avisar os usuários  <br/> |Regra anti-ransomware: bloquear tipos de arquivo  <br/> |
 |Aplicar esta regra se . . .  <br/> |Qualquer anexo . . . file extension matches . . .  <br/> |Qualquer anexo . . . file extension matches . . .  <br/> |
@@ -195,7 +195,7 @@ Para criar uma regra de transporte de email:
 
 6. Selecione **Salvar**.
 
-|Configuração|Rejeitar emails de encaminhamento automático para domínios externos|
+|Setting|Rejeitar emails de encaminhamento automático para domínios externos|
 |---|---|
 |Nome|Impedir o encaminhamento automático de email para domínios externos|
 |Aplicar esta regra se...|O remetente . . . é externo/interno . . . Dentro da organização|
@@ -297,7 +297,7 @@ Para criar uma política de Anexo seguro, assista a [um breve vídeo de treiname
 |---|---|
 |Nome|Bloquear emails atuais e futuros com malware detectado.|
 |Descrição|Bloquear emails e anexos atuais e futuros com malware detectado.|
-|Salvar anexos resposta de malware desconhecido|Select **Block - Block the current and future emails and attachments with detected malware**.|
+|Salvar a resposta de malware desconhecida de anexos|Select **Block - Block the current and future emails and attachments with detected malware**.|
 |Redirecionar anexo na detecção|Habilitar redirecionamento (selecione esta caixa) <br/> Insira a conta de administrador ou uma configuração de caixa de correio para quarentena. <br/> Aplique a seleção acima se a verificação de anexos de malware e o erro ocorrer (marque esta caixa).|
 |Aplicado a|O domínio do destinatário é . . . selecione seu domínio.|
 |
@@ -327,7 +327,7 @@ Para modificar a política padrão:
 
 1. Na página Links seguros, em Políticas que se aplicam a **toda a organização,** clique duas vezes na **política** Padrão.
 
-2. Em Configurações que se aplicam ao conteúdo no **Office 365,** insira uma URL a ser _bloqueada,_ como example.com e selecione **+** .
+2. Em Configurações que se aplicam ao conteúdo no **Office 365,** insira uma URL a ser bloqueada, como example.com _e_ selecione **+** .
 
 3. Em Configurações que se aplicam ao conteúdo, exceto email, selecione **aplicativos** do **Office 365,** não rastreie quando os usuários clicam em **links** seguros e não permite que os usuários cliquem em links seguros para a **URL original.**
 
