@@ -1,22 +1,22 @@
-- name: Introdução às Experiências de tópico
+- name: Começar a trabalhar com o Microsoft Viva
   items:
-    - name: Introdução às Experiências de tópico
+    - name: Introdução ao Microsoft Viva
       href: index.md
-    - name: Visão geral das Experiências de tópico
+    - name: Visão geral do Microsoft Viva
       href: topic-experiences-overview.md
-    - name: Descoberta e curadoria das Experiências de tópíco
+    - name: Descoberta e curadoria do Microsoft Viva
       href: topic-experiences-discovery-curation.md
-    - name: Funções das Experiências de tópico
+    - name: Funções do Microsoft Viva
       href: topic-experiences-roles.md
     - name: Preparar seu ambiente
       href: topic-experiences-get-ready.md
 - name: Configuração e administração
   items:
-    - name: Segurança do tópico
+    - name: Tópicos de segurança
       href: topic-experiences-security-privacy.md
-    - name: Planejar Experiências de tópico
+    - name: Planejar para Tópicos
       href: plan-topic-experiences.md
-    - name: Configurar Experiências de tópico
+    - name: Configurar tópicos
       href: set-up-topic-experiences.md
     - name: Gerenciar descoberta de tópicos
       href: topic-experiences-discovery.md
@@ -38,6 +38,8 @@
       href: edit-a-topic.md
     - name: Filtragem de segurança
       href: topic-experiences-security-trimming.md
+    - name: Pesquisar marcas
+      href: search.md
 - name: Adoção
   items:
     - name: Começar a impulsionar a adoção
