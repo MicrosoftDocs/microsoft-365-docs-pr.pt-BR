@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: c11f970f1cbda506614611e7841f2dea26d5aacd
-  ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+  ms.openlocfilehash: a41abb409af039fabbf44e0eb3324c96bdeccf92
+  ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/11/2021
-  ms.locfileid: "49794203"
+  ms.lasthandoff: 02/04/2021
+  ms.locfileid: "50099719"
 highlightedContent:
   items:
   - title: Capacitar trabalhadores remotos
@@ -65,8 +65,8 @@ productDirectory:
     links:
     - url: solutions/collaborate-with-people-outside-your-organization.md
       text: Configurar o compartilhamento externo
-    - url: /sharepoint/plan-intranet
-      text: Planejar uma intranet inteligente do SharePoint
+    - url: /sharepoint/intelligent-internet-overview
+      text: Construa uma intranet inteligente do Microsoft Office SharePoint Online
     - url: /sharepoint/deploy-file-collaboration
       text: Colaboração de arquivos no SharePoint
     - url: /onedrive/plan-onedrive-enterprise

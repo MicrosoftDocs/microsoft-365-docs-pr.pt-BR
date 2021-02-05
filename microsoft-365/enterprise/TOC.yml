@@ -113,14 +113,16 @@
               href: azure-integration.md
             - name: Rota Expressa do Azure
               href: azure-expressroute.md
-        - name: Suporte ao aplicativo do cliente
+        - name: Suporte a aplicativos de clientes e serviços
           items:
+            - name: Suporte a aplicativos de clientes e serviços
+              href: microsoft-365-client-services-app-support.md
             - name: Autenticação baseada em certificados
               href: microsoft-365-client-support-certificate-based-authentication.md
             - name: Acesso Condicional
               href: microsoft-365-client-support-conditional-access.md
-            - name: Autenticação moderna
-              href: microsoft-365-client-support-modern-authentication.md
+            - name: Autenticação multifator
+              href: microsoft-365-client-support-multi-factor-authentication.md
             - name: Logon único
               href: microsoft-365-client-support-single-sign-on.md
             - name: Escolher entre a Segurança Básica de Mobilidade e o Intune
