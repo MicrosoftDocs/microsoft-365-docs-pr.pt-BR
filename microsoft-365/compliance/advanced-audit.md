@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: 83ff462ada02c9b262cfcaadb6bd48e47376cc0f
-ms.sourcegitcommit: 36d12e02f6fda199ae7f2fb72fe52d7e2b5b4efd
+ms.openlocfilehash: f265a30a3d43b592a7d297e2137fd6b9ff4acfb4
+ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "49740358"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50097147"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
@@ -116,7 +116,9 @@ Para pesquisar os registros de auditoria SearchQueryInitiatedExchange, é possí
 Você também pode executar o [Search-UnifiedAuditLog – Operations SearchQueryInitiatedExchange](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) no PowerShell do Exchange Online.
 
 > [!NOTE]
-> Você deve executar o comando a seguir no PowerShell do Exchange Online para que os eventos do SearchQueryInitiatedExchange (feitos pelo usuário E5 especificado) sejam incluídos nos resultados de pesquisa de log de auditoria: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.
+> Você deve executar o comando a seguir no PowerShell do Exchange Online para que os eventos do SearchQueryInitiatedExchange (feitos pelo usuário E5 especificado) sejam incluídos nos resultados de pesquisa de log de auditoria: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
+Em um ambiente multi-geo, você deve executar o comando **Set-Mailbox** na floresta onde a caixa de correio do usuário está localizada. Para identificar a localização da caixa de correio do usuário, execute o seguinte comando: `Get-Mailbox <user identity> | FL MailboxLocations`.
+Se o comando `Set-Mailbox -AuditOwner @{Add="SearchQueryInitiated"}` foi executado anteriormente na floresta diferente daquela em que a caixa de correio do usuário está localizada, você deve remover o valor SearchQueryInitiated da caixa de correio do usuário (executando `Set-Mailbox -AuditOwner @{Remove="SearchQueryInitiated"}`) e, em seguida, adicioná-lo à caixa de correio do usuário na floresta onde o usuário caixa de correio está localizada.
 
 ### <a name="searchqueryinitiatedsharepoint"></a>SearchQueryInitiatedSharePoint
 
@@ -129,7 +131,9 @@ Para pesquisar os registros de auditoria SearchQueryInitiatedSharePoint, é poss
 Você também pode executar o [Search-UnifiedAuditLog – Operations SearchQueryInitiatedSharePoint](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) no PowerShell do Exchange Online.
 
 > [!NOTE]
-> Você deve executar o comando a seguir no PowerShell do Exchange Online para que os eventos do SearchQueryInitiatedSharePoint (feitos pelo usuário E5 especificado) sejam incluídos nos resultados de pesquisa de log de auditoria: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.
+> Você deve executar o comando a seguir no PowerShell do Exchange Online para que os eventos do SearchQueryInitiatedExchange (feitos pelo usuário E5 especificado) sejam incluídos nos resultados de pesquisa de log de auditoria: `Set-Mailbox <user identity> -AuditOwner @{Add="SearchQueryInitiated"}`.<br/><br/>
+Em um ambiente multi-geo, você deve executar o comando **Set-Mailbox** na floresta onde a caixa de correio do usuário está localizada. Para identificar a localização da caixa de correio do usuário, execute o seguinte comando: `Get-Mailbox <user identity> | FL MailboxLocations`.
+Se o comando `Set-Mailbox -AuditOwner @{Add="SearchQueryInitiated"}` foi executado anteriormente na floresta diferente daquela em que a caixa de correio do usuário está localizada, você deve remover o valor SearchQueryInitiated da caixa de correio do usuário (executando `Set-Mailbox -AuditOwner @{Remove="SearchQueryInitiated"}`) e, em seguida, adicioná-lo à caixa de correio do usuário na floresta onde o usuário caixa de correio está localizada.
 
 ## <a name="high-bandwidth-access-to-the-office-365-management-activity-api"></a>Acesso de alta largura de banda à API da Atividade de Gerenciamento do Office 365
 

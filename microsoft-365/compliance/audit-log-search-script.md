@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Use um script Windows PowerShell, o executa o cmdlet Search-UnifiedAuditLog, para pesquisar o log de auditoria. Este script é otimizado para retornar um grande conjunto (até 50.000) de registros de auditoria. O script exporta esses registros para um arquivo CSV que você pode exibir ou transformar usando o Power Query no Excel.
-ms.openlocfilehash: a91a54a6c35f96b90df156eaf4bc9735c911fc11
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: d4fcf59297747d0499f6616438299ad8cbe96d7f
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084694"
+ms.locfileid: "50094782"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>Usar um script Windows PowerShell para pesquisar o log de auditoria
 

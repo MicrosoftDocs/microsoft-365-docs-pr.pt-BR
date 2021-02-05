@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar os locais de prevenção contra perda de dados do Ponto de extremidade (EPDLP) do Microsoft 365.
-ms.openlocfilehash: 531fd5506aeb255e261c3cce35473f1ddad2aa42
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 15a540c323c8f49cfa6c15358cfec89034667378
+ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667806"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50094792"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Usando a prevenção contra perda de dados do Endpoint
 
@@ -80,11 +80,19 @@ Restringir arquivos confidenciais que correspondam a suas políticas contra dom�
 
 Se o modo de lista estiver definido como **Bloquear**, o usuário não poderá carregar itens confidenciais para esses domínios. Quando uma ação de carregamento é bloqueada porque um item corresponde a uma política DLP, a DLP gera um aviso ou bloqueia o carregamento do item confidenciais.
 
-Se o modo de lista estiver definido como **Permitir**, os usuários poderão carregar itens confidenciais **_apenas_* _ a esses domínios, e carregar o acesso a todos os outros domínios não será permitido.
+Se o modo de lista estiver definido como **Permitir**, os usuários poderão fazer upload de itens confidenciais **_apenas_** para esses domínios, e o acesso de upload a todos os outros domínios não é permitido.
 
 #### <a name="unallowed-browsers"></a>Navegadores não permitidos
 
 Adicione navegadores, identificados por seus nomes executáveis, que serão impedidos de acessar arquivos que correspondam às condições de uma política de DLP, em que a restrição de upload para serviços de nuvem está definida para bloquear ou para substituição de bloqueio. Quando estes navegadores estiverem bloqueados de acessar um arquivo, os usuários finais verão uma notificação do sistema solicitando que eles abram o arquivo por meio do Edge Chromium.
+
+### <a name="business-justification-in-policy-tips"></a>Justificativa de negócios em dicas de política
+
+Você pode controlar como os usuários interagem com a opção de justificativa de negócios nas notificações de dica de política DLP. Esta opção aparece quando os usuários realizam uma atividade protegida pela configuração **Bloquear com substituição** em uma política DLP. Você pode escolher uma das seguintes opções:
+
+- Por padrão, os usuários podem selecionar uma justificativa interna ou inserir seu próprio texto.
+- Os usuários podem selecionar apenas uma justificativa embutida.
+- Os usuários só podem inserir sua própria justificativa.
 
 
 ## <a name="tying-dlp-settings-together"></a>Como ligar as configurações da DLP
@@ -99,7 +107,7 @@ Para usar essa restrição, você precisará configurar três partes importantes
 
 2. Adicione os navegadores que não têm permissão para acessar determinados itens confidenciais quando ocorre uma correspondência de política DLP.
 
-3. Configure as políticas DLP para definir os tipos de itens confidenciais para os quais o carregamento deve ser restrito a esses lugares, ativando *Carregar nos serviços de nuvem* e **Acesso a partir do navegador não permitido**.
+3. Configure as políticas DLP para definir os tipos de itens confidenciais para os quais o carregamento deve ser restrito a esses lugares, ativando **Carregar nos serviços de nuvem** e **Acesso a partir do navegador não permitido**.
 
 Você pode continuar a adicionar novos serviços, aplicativos e políticas para estender e aprimorar suas restrições para atender às suas necessidades de negócios e proteger dados confidenciais. 
 
