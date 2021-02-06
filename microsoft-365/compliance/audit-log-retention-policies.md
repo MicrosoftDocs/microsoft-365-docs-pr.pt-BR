@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: c106024e5426972f6637d6226b385d1179516d4d
-ms.sourcegitcommit: df58fd8ebe14ca98fc1be84dbfb9c29ef7ab1d62
+ms.openlocfilehash: eeddf4c963284acaa908e07ddfdae77ec0bb080c
+ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49870940"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50114926"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -51,21 +51,19 @@ A Auditoria Avançada no Microsoft 365 fornece uma política de retenção de lo
 
 - Todas as políticas de retenção de log de auditoria personalizadas (criadas por sua organização) têm prioridade sobre a política de retenção padrão. Por exemplo, se você criar uma política de retenção de log de auditoria para a atividade de caixa de correio do Exchange que tenha um período de retenção menor que um ano, os registros de auditoria para as atividades de caixa de correio serão mantidos por um período menor especificado pela política personalizada.
 
-## <a name="create-an-audit-log-retention-policy-in-the-compliance-center"></a>Criar uma política de retenção de log de auditoria no Centro de Conformidade
+## <a name="create-an-audit-log-retention-policy"></a>Criar uma política de retenção de log de auditoria
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre com a conta de usuário a qual a função de Configuração da Organização foi atribuída no Centro de Conformidade e Segurança.
+1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e entre com uma conta de usuário que tenha atribuído a função de Configuração da Organização na página Permissões do Centro de Conformidade e Segurança.
 
 2. No painel esquerdo do Centro de Conformidade do Microsoft 365, clique em **Mostrar todos** e, em seguida, clique em **Auditoria**.
 
-    A página **Auditoria** é exibida.
+3. Clique na guia **Políticas de retenção de Auditoria**.
 
-    ![A página Pesquisa de log de auditoria no centro de conformidade](../media/AuditLogRetentionPolicy1.png)
+4. Clique em **Criar política de retenção de auditoria** e preencha os seguintes campos na página submenu:
 
-3. Clique em **Criar política de retenção de auditoria** e preencha os seguintes campos na página do submenu:
+    ![Nova página de submenu da política de retenção de auditoria](../media/CreateAuditLogRetentionPolicy.png)
 
-    ![Página do submenu da política de retenção de auditoria](../media/AuditLogRetentionPolicy2.png)
-
-   1. **Nome:** o nome da política de retenção de log de auditoria.  Este nome deve ser exclusivo em sua organização.
+   1. **Nome da política:** O nome da política de retenção do log de auditoria. Esse nome deve ser exclusivo em sua organização e não pode ser alterado após a criação da política.
 
    2. **Descrição:** opcional, mas útil para fornecer informações sobre a política, como o tipo de registro ou a carga de trabalho, os usuários especificados na política e a duração.
 
@@ -81,11 +79,44 @@ A Auditoria Avançada no Microsoft 365 fornece uma política de retenção de lo
 
    6. **Prioridade:** esse valor determinar a ordem na qual as políticas de retenção de log de auditoria são processadas na sua organização. Um valor mais alto indica uma prioridade mais alta. Por exemplo, uma política com um valor de prioridade de **5** teria prioridade sobre uma política com um valor de prioridade **0**. Como explicado anteriormente, qualquer política de retenção de log de auditoria personalizada tem prioridade sobre a política padrão da sua organização.
 
-4. Clique em **Salvar** para criar a nova política de retenção.
+5. Clique em **Salvar** para criar a nova política de retenção.
 
-## <a name="create-an-audit-log-retention-policy-in-powershell"></a>Criar uma política de retenção de log de auditoria no PowerShell
+   A nova política é exibida na lista da guia **Políticas de retenção de Auditoria**.
 
-Você também pode usar o PowerShell do Centro de conformidade e segurança para criar políticas de retenção de log de auditoria.
+## <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
+
+As políticas de retenção de log de auditoria estão listadas na guia **Políticas de retenção de Auditoria** (também chamado de *painel*). Você pode usar o painel para exibir, editar e excluir políticas de retenção de auditoria.
+
+### <a name="view-policies-in-the-dashboard"></a>Exibir políticas no painel
+
+As políticas de retenção de log de Auditoria são listadas no painel. Uma vantagem de visualizar as políticas no painel é que você pode clicar na coluna **Prioridade** para listar as políticas na prioridade em que são aplicadas. Conforme explicado anteriormente, um valor mais alto indica uma prioridade mais alta.
+
+![Coluna de prioridade no painel de políticas de retenção de Auditoria](../media/AuditLogRetentionDashboardPriority.png)
+
+Você também pode selecionar uma política para exibir suas configurações na página de submenu.
+
+> [!NOTE]
+> A política de retenção de log de auditoria padrão para sua organização não é exibida no painel.
+
+### <a name="edit-policies-in-the-dashboard"></a>Editar políticas no painel
+
+Para editar uma política, selecione-a para exibir a página de submenu. Você pode modificar uma ou mais configurações e salvar suas alterações.
+
+
+> [!IMPORTANT]
+> Se você usar o cmdlet **New-UnifiedAuditLogRetentionPolicy**, é possível criar uma política de retenção de log de auditoria para tipos de registro ou atividades que não estão disponíveis na ferramenta **Criar política de retenção de auditoria** no painel. Nesse caso, você não poderá editar a política (por exemplo, alterar a duração da retenção ou adicionar e remover atividades) no painel **Políticas de retenção de Auditoria**. Você só poderá exibir e excluir a política na central de conformidade. Para editar a política, você terá que usar o cmdlet [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell.<br/><br/>**Dica:** Uma mensagem é exibida na parte superior da página de submenu para políticas que devem ser editadas usando o Windows PowerShell.
+
+### <a name="delete-policies-in-the-dashboard"></a>Excluir políticas no painel
+
+Para excluir uma política, clique no ícone **Excluir**![ícone Excluir](../media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg) e confirme que deseja excluir a política. A política é removida do painel, mas pode demorar até 30 minutos para que a política seja removida de sua organização.
+
+## <a name="create-and-manage-audit-log-retention-policies-in-powershell"></a>Criar e gerenciar políticas de retenção de log de auditoria no Windows PowerShell
+
+Você também pode usar o Centro de Conformidade e Segurança do Windows PowerShell para criar e gerenciar políticas de retenção de log de auditoria. Um motivo para usar o Windows PowerShell é criar uma política para um tipo de registro ou atividade que não está disponível na interface do usuário.
+
+### <a name="create-an-audit-log-retention-policy-in-powershell"></a>Criar uma política de retenção de log de auditoria no Windows PowerShell
+
+Siga estas etapas para criar uma política de retenção de log de auditoria no Windows PowerShell:
 
 1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
@@ -113,41 +144,41 @@ New-UnifiedAuditLogRetentionPolicy -Name "SixMonth retention for admin logons" -
 
 Para saber mais, confira [New-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/new-unifiedauditlogretentionpolicy).
 
-## <a name="view-audit-log-retention-policies"></a>Visualizar as políticas de retenção de log de auditoria
+### <a name="view-policies-in-powershell"></a>Exibir políticas no Windows PowerShell
 
-No momento, a única maneira de visualizar as políticas de retenção de log de auditoria personalizadas é usar o cmdlet **Get-UnifiedAuditRetentionPolicy** no PowerShell do Centro de Conformidade e Segurança. Veja um comando de exemplo para exibir as configurações (que você configurou na etapa anterior) para as políticas de retenção de log de auditoria em sua organização. Esse comando classifica as políticas da prioridade mais alta para a mais baixa.
+Use o cmdlet [Get-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para exibir as políticas de retenção de log de auditoria.
+
+Este é um exemplo de comando para exibir as configurações de todas as políticas de retenção de log de auditoria em sua organização. Este comando classifica as políticas da prioridade mais alta para a mais baixa.
 
 ```powershell
 Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending | FL Priority,Name,Description,RecordTypes,Operations,UserIds,RetentionDuration
 ```
 
 > [!NOTE]
-> No momento, o cmdlet **Get-UnifiedAuditLogRetentionPolicy** não retorna a política de log de auditoria padrão da sua organização.
+> O cmdlet **Get-UnifiedAuditLogRetentionPolicy** não retorna a política de retenção de log de auditoria padrão para sua organização.
 
-Para saber mais, confira [Get-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy).
+### <a name="edit-policies-in-powershell"></a>Editar políticas no Windows PowerShell
 
-## <a name="some-audit-log-retention-policies-not-supported-in-the-ui"></a>Algumas políticas de retenção de log de auditoria não são compatíveis com a Interface de Usuário
+Use o cmdlet [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para editar uma política de retenção de log de auditoria existente.
 
-Se você usar o cmdlet **New-UnifiedAuditLogRetentionPolicy**, é possível criar uma política de retenção de log de auditoria para tipos de registro ou atividades que não estão disponíveis na ferramenta **Criar política de retenção de auditoria** Centro de conformidade do Microsoft 365. Nesse caso, você não poderá editar a política (por exemplo, alterar a duração da retenção ou adicionar e remover atividades) na guia **Políticas de retenção de Auditoria** no centro de conformidade. Você só poderá exibir e excluir a política na central de conformidade. Para editar a política, você terá que usar o cmdlet **Set-UnifiedAuditLogRetentionPolicy** no Centro de Conformidade e Segurança do Windows PowerShell.
+### <a name="delete-policies-in-powershell"></a>Excluir políticas no Windows PowerShell
 
-## <a name="more-information"></a>Mais informações
+Use o cmdlet [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para excluir uma política de retenção de log de auditoria. Pode levar até 30 minutos para que a política seja removida de sua organização.
 
-- Use o cmdlet **Set-UnifiedAuditLogRetentionPolicy** no PowerShell do Centro de Conformidade e Segurança para modificar uma política de retenção de log de auditoria existente. Para saber mais, confira [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy).
+## <a name="more-information"></a>Mais Informações
 
-- Use o cmdlet **Remove-UnifiedAuditLogRetentionPolicy** no PowerShell do Centro de Conformidade e Segurança para excluir uma política de retenção de log de auditoria. Pode levar até 30 minutos para a política ser removida. Para saber mais, confira [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-unifiedauditlogretentionpolicy).
+Conforme declarado anteriormente, os registros de auditoria para operações no Microsoft Azure Active Directory, Exchange e Microsoft Office SharePoint Online são retidos por um ano por padrão. A seguinte tabela lista todos os tipos de registro (para cada um desses serviços) incluídos na política de retenção de log de auditoria padrão. Isso significa que os logs de auditoria para qualquer operação com esse tipo de registro são mantidos por um ano, a menos que uma política de retenção de log de auditoria personalizada tenha precedência sobre um tipo específico de registro, uma operação ou usuário. O valor de enumeração (que é exibido como o valor da propriedade RecordType em um registro de auditoria) para cada tipo de registro é mostrado entre parênteses.
 
-- Conforme dito anteriormente, os registros de auditoria para operações no Azure Active Directory, no Exchange e no SharePoint são mantidos por um ano. A seguinte tabela lista todos os tipos de registro (para cada um desses serviços) incluídos na política de retenção de log de auditoria padrão. Isso significa que os logs de auditoria para qualquer operação com esse tipo de registro são mantidos por um ano, a menos que uma política de retenção de log de auditoria personalizada tenha precedência sobre um tipo específico de registro, uma operação ou usuário. O valor de enumeração (que é exibido como o valor da propriedade RecordType em um registro de auditoria) para cada tipo de registro é mostrado entre parênteses.
-
-   |AzureActiveDirectory |Exchange  |SharePoint|
-   |:---------|:---------|:---------|
-   |AzureActiveDirectory (8)|ExchangeAdmin (1)|ComplianceDLPSharePoint (11)|
-   |AzureActiveDirectoryAccountLogon (9)|ExchangeItem (2)|ComplianceDLPSharePointClassification (33)|
-   |AzureActiveDirectoryStsLogon (15)|Campaign (62)|Project (35)|
-   ||ComplianceDLPExchange (13)|SharePoint (4)|
-   ||ComplianceSupervisionExchange (68)|SharePointCommentOperation (37)|
-   ||CustomerKeyServiceEncryption (69)|SharePointContentTypeOperation (55)|
-   ||ExchangeAggregatedOperation (19)|SharePointFieldOperation (56)|
-   ||ExchangeItemAggregated (50)|SharePointFileOperation (6)|
-   ||ExchangeItemGroup (3)|SharePointListOperation (36)|
-   ||InformationBarrierPolicyApplication (53)|SharePointSharingOperation (14)|
-   ||||
+|AzureActiveDirectory |Exchange  |SharePoint|
+|:---------|:---------|:---------|
+|AzureActiveDirectory (8)|ExchangeAdmin (1)|ComplianceDLPSharePoint (11)|
+|AzureActiveDirectoryAccountLogon (9)|ExchangeItem (2)|ComplianceDLPSharePointClassification (33)|
+|AzureActiveDirectoryStsLogon (15)|Campaign (62)|Project (35)|
+||ComplianceDLPExchange (13)|SharePoint (4)|
+||ComplianceSupervisionExchange (68)|SharePointCommentOperation (37)|
+||CustomerKeyServiceEncryption (69)|SharePointContentTypeOperation (55)|
+||ExchangeAggregatedOperation (19)|SharePointFieldOperation (56)|
+||ExchangeItemAggregated (50)|SharePointFileOperation (6)|
+||ExchangeItemGroup (3)|SharePointListOperation (36)|
+||InformationBarrierPolicyApplication (53)|SharePointSharingOperation (14)|
+||||
