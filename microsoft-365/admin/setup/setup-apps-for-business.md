@@ -18,102 +18,101 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
-- okr_smb
 - AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Apps for business.
-ms.openlocfilehash: 905a8a69045ed283c0c6e38ab9bc58523fd8bade
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 04a1d4878e1d3d3e16e20a39dbadf2a7d3724e7b
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350254"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126146"
 ---
-# <a name="set-up-microsoft-365-apps-for-business"></a><span data-ttu-id="59c27-103">Configurar o Microsoft 365 Apps for business</span><span class="sxs-lookup"><span data-stu-id="59c27-103">Set up Microsoft 365 Apps for business</span></span>
+# <a name="set-up-microsoft-365-apps-for-business"></a><span data-ttu-id="5d8a4-103">Configurar o Microsoft 365 Apps for business</span><span class="sxs-lookup"><span data-stu-id="5d8a4-103">Set up Microsoft 365 Apps for business</span></span>
 
-## <a name="add-users-and-assign-licenses"></a><span data-ttu-id="59c27-104">Adicionar usuários e atribuir licenças</span><span class="sxs-lookup"><span data-stu-id="59c27-104">Add users and assign licenses</span></span>
+## <a name="add-users-and-assign-licenses"></a><span data-ttu-id="5d8a4-104">Adicionar usuários e atribuir licenças</span><span class="sxs-lookup"><span data-stu-id="5d8a4-104">Add users and assign licenses</span></span>
 
-<span data-ttu-id="59c27-105">Você pode adicionar usuários no assistente, mas também pode [adicionar usuários posteriormente](../add-users/add-users.md) o centro de administração.</span><span class="sxs-lookup"><span data-stu-id="59c27-105">You can add users in the wizard, but you can also [add users later](../add-users/add-users.md) in the admin center.</span></span>
+<span data-ttu-id="5d8a4-105">Você pode adicionar usuários no assistente, mas também pode [adicionar usuários posteriormente](../add-users/add-users.md) o centro de administração.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-105">You can add users in the wizard, but you can also [add users later](../add-users/add-users.md) in the admin center.</span></span>
 
  ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="59c27-106">Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="59c27-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
+1. <span data-ttu-id="5d8a4-106">Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="59c27-107">Se você estiver usando o Office 365 Germany, acesse [este Centro de Administração](https://go.microsoft.com/fwlink/p/?linkid=848041).</span><span class="sxs-lookup"><span data-stu-id="59c27-107">If you're using Office 365 Germany, go to [this admin center](https://go.microsoft.com/fwlink/p/?linkid=848041).</span></span>
+1. <span data-ttu-id="5d8a4-107">Se você estiver usando o Office 365 Germany, acesse [este Centro de Administração](https://go.microsoft.com/fwlink/p/?linkid=848041).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-107">If you're using Office 365 Germany, go to [this admin center](https://go.microsoft.com/fwlink/p/?linkid=848041).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="59c27-108">Se você estiver usando o Office 365 operado pela 21Vianet, acesse [este Centro de Administração.](https://go.microsoft.com/fwlink/p/?linkid=850627).</span><span class="sxs-lookup"><span data-stu-id="59c27-108">If you're using Office 365 operated by 21Vianet, go to [this admin center.](https://go.microsoft.com/fwlink/p/?linkid=850627).</span></span>
+1. <span data-ttu-id="5d8a4-108">Se você estiver usando o Office 365 operado pela 21Vianet, acesse [este Centro de Administração.](https://go.microsoft.com/fwlink/p/?linkid=850627).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-108">If you're using Office 365 operated by 21Vianet, go to [this admin center.](https://go.microsoft.com/fwlink/p/?linkid=850627).</span></span>
 
 ::: moniker-end 
 
-2. <span data-ttu-id="59c27-109">Clique em **Ir para a Configuração** pra iniciar o assistente.</span><span class="sxs-lookup"><span data-stu-id="59c27-109">Choose **Go to setup** to start the wizard.</span></span>
+2. <span data-ttu-id="5d8a4-109">Clique em **Ir para a Configuração** pra iniciar o assistente.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-109">Choose **Go to setup** to start the wizard.</span></span>
 
-3. <span data-ttu-id="59c27-110">Na primeira página, você terá a opção de instalar os aplicativos do Office no seu computador.</span><span class="sxs-lookup"><span data-stu-id="59c27-110">On the first page you will get the option to install Office apps on your computer.</span></span> <span data-ttu-id="59c27-111">Você também pode fazer isso mais tarde.</span><span class="sxs-lookup"><span data-stu-id="59c27-111">You can also do this later.</span></span>
+3. <span data-ttu-id="5d8a4-110">Na primeira página, você terá a opção de instalar os aplicativos do Office no seu computador.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-110">On the first page you will get the option to install Office apps on your computer.</span></span> <span data-ttu-id="5d8a4-111">Você também pode fazer isso mais tarde.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-111">You can also do this later.</span></span>
 
-3. <span data-ttu-id="59c27-112">Na próxima página, você pode adicionar usuários e eles receberão automaticamente a licença Microsoft Apps for business.</span><span class="sxs-lookup"><span data-stu-id="59c27-112">On the next page you can add users and they will automatically get assigned the Microsoft Apps for business license.</span></span> <span data-ttu-id="59c27-113">Depois de adicionar os usuários, você também terá a opção de compartilhar credenciais com os novos usuários adicionados.</span><span class="sxs-lookup"><span data-stu-id="59c27-113">After you've added the users, you'll also get an option to share credentials with the new users you added.</span></span> <span data-ttu-id="59c27-114">Você pode optar por imprimi-las, enviá-las por email ou baixá-las.</span><span class="sxs-lookup"><span data-stu-id="59c27-114">You can choose to print them out, email them, or download them.</span></span>
+3. <span data-ttu-id="5d8a4-112">Na próxima página, você pode adicionar usuários e eles receberão automaticamente a licença Microsoft Apps for business.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-112">On the next page you can add users and they will automatically get assigned the Microsoft Apps for business license.</span></span> <span data-ttu-id="5d8a4-113">Depois de adicionar os usuários, você também terá a opção de compartilhar credenciais com os novos usuários adicionados.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-113">After you've added the users, you'll also get an option to share credentials with the new users you added.</span></span> <span data-ttu-id="5d8a4-114">Você pode optar por imprimi-las, enviá-las por email ou baixá-las.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-114">You can choose to print them out, email them, or download them.</span></span>
 
- <span data-ttu-id="59c27-115">Quando o processo de inscrição estiver concluído, você será direcionado ao centro de administração onde poderá adicionar usuários e atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="59c27-115">When the sign-up process is complete, you'll be directed to the admin center, where you can add users, and assign licenses.</span></span> 
+ <span data-ttu-id="5d8a4-115">Quando o processo de inscrição estiver concluído, você será direcionado ao centro de administração onde poderá adicionar usuários e atribuir licenças.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-115">When the sign-up process is complete, you'll be directed to the admin center, where you can add users, and assign licenses.</span></span> 
 
-## <a name="install-office"></a><span data-ttu-id="59c27-116">Instalar o Office</span><span class="sxs-lookup"><span data-stu-id="59c27-116">Install Office</span></span>
+## <a name="install-office"></a><span data-ttu-id="5d8a4-116">Instalar o Office</span><span class="sxs-lookup"><span data-stu-id="5d8a4-116">Install Office</span></span>
 
-<span data-ttu-id="59c27-p103">Depois de criar contas para outras pessoas na sua empresa, você e os membros da sua equipe podem instalar a versão completa do Office para área de trabalho (Word, Excel, Outlook etc.). Cada pessoa pode instalar o Office em até 5 PCs ou Macs.</span><span class="sxs-lookup"><span data-stu-id="59c27-p103">Once you've created accounts for other people in your business, you and your team members will be able to install the full desktop version of Office (Word, Excel, Outlook, etc.). Each person can install Office on up to 5 PCs or Macs.</span></span>
+<span data-ttu-id="5d8a4-p103">Depois de criar contas para outras pessoas na sua empresa, você e os membros da sua equipe podem instalar a versão completa do Office para área de trabalho (Word, Excel, Outlook etc.). Cada pessoa pode instalar o Office em até 5 PCs ou Macs.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-p103">Once you've created accounts for other people in your business, you and your team members will be able to install the full desktop version of Office (Word, Excel, Outlook, etc.). Each person can install Office on up to 5 PCs or Macs.</span></span>
   
 ::: moniker range="o365-worldwide"
 
-<span data-ttu-id="59c27-119">Acesse [https://admin.microsoft.com/OLS/MySoftware.aspx](https://admin.microsoft.com/OLS/MySoftware.aspx).</span><span class="sxs-lookup"><span data-stu-id="59c27-119">Go to [https://admin.microsoft.com/OLS/MySoftware.aspx](https://admin.microsoft.com/OLS/MySoftware.aspx).</span></span>
+<span data-ttu-id="5d8a4-119">Acesse [https://admin.microsoft.com/OLS/MySoftware.aspx](https://admin.microsoft.com/OLS/MySoftware.aspx).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-119">Go to [https://admin.microsoft.com/OLS/MySoftware.aspx](https://admin.microsoft.com/OLS/MySoftware.aspx).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<span data-ttu-id="59c27-120">Se você estiver usando Office 365 Germany, vá até [https://portal.office.de/OLS/MySoftware.aspx](https://portal.office.de/OLS/MySoftware.aspx).</span><span class="sxs-lookup"><span data-stu-id="59c27-120">If you're using Office 365 Germany, go to [https://portal.office.de/OLS/MySoftware.aspx](https://portal.office.de/OLS/MySoftware.aspx).</span></span>
+<span data-ttu-id="5d8a4-120">Se você estiver usando Office 365 Germany, vá até [https://portal.office.de/OLS/MySoftware.aspx](https://portal.office.de/OLS/MySoftware.aspx).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-120">If you're using Office 365 Germany, go to [https://portal.office.de/OLS/MySoftware.aspx](https://portal.office.de/OLS/MySoftware.aspx).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-<span data-ttu-id="59c27-121">Se você estiver usando o Office 365 operado pela 21Vianet, vá para [https://portal.partner.microsoftonline.cn/OLS/MySoftware.aspx](https://portal.partner.microsoftonline.cn/OLS/MySoftware.aspx).</span><span class="sxs-lookup"><span data-stu-id="59c27-121">If you're using Office 365 operated by 21Vianet, go to [https://portal.partner.microsoftonline.cn/OLS/MySoftware.aspx](https://portal.partner.microsoftonline.cn/OLS/MySoftware.aspx).</span></span>
+<span data-ttu-id="5d8a4-121">Se você estiver usando o Office 365 operado pela 21Vianet, vá para [https://portal.partner.microsoftonline.cn/OLS/MySoftware.aspx](https://portal.partner.microsoftonline.cn/OLS/MySoftware.aspx).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-121">If you're using Office 365 operated by 21Vianet, go to [https://portal.partner.microsoftonline.cn/OLS/MySoftware.aspx](https://portal.partner.microsoftonline.cn/OLS/MySoftware.aspx).</span></span>
 
 ::: moniker-end
 
-1. <span data-ttu-id="59c27-122">Entre com sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="59c27-122">Sign in with your work or school account.</span></span>
+1. <span data-ttu-id="5d8a4-122">Entre com sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-122">Sign in with your work or school account.</span></span>
 
-2. <span data-ttu-id="59c27-123">Selecionar **Instalar**.</span><span class="sxs-lookup"><span data-stu-id="59c27-123">Select **Install**.</span></span>
+2. <span data-ttu-id="5d8a4-123">Selecionar **Instalar**.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-123">Select **Install**.</span></span>
 
-<span data-ttu-id="59c27-124">Precisa de etapas mais detalhadas ou prefere instalar a versão de 64 bits do Office?</span><span class="sxs-lookup"><span data-stu-id="59c27-124">Need more detailed steps or want to install the 64-bit version of Office?</span></span> <span data-ttu-id="59c27-125">Confira a seguir as [Instruções de instalação passo a passo](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658#BKMK_InstallSteps).</span><span class="sxs-lookup"><span data-stu-id="59c27-125">See [Step-by-step installation instructions](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658#BKMK_InstallSteps).</span></span>
+<span data-ttu-id="5d8a4-124">Precisa de etapas mais detalhadas ou prefere instalar a versão de 64 bits do Office?</span><span class="sxs-lookup"><span data-stu-id="5d8a4-124">Need more detailed steps or want to install the 64-bit version of Office?</span></span> <span data-ttu-id="5d8a4-125">Confira a seguir as [Instruções de instalação passo a passo](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658#BKMK_InstallSteps).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-125">See [Step-by-step installation instructions](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658#BKMK_InstallSteps).</span></span>
   
-## <a name="set-up-mobile"></a><span data-ttu-id="59c27-126">Configurar dispositivos móveis</span><span class="sxs-lookup"><span data-stu-id="59c27-126">Set up mobile</span></span>
+## <a name="set-up-mobile"></a><span data-ttu-id="5d8a4-126">Configurar dispositivos móveis</span><span class="sxs-lookup"><span data-stu-id="5d8a4-126">Set up mobile</span></span>
 
-<span data-ttu-id="59c27-p105">Instale o Office em seu dispositivo móvel e configure o Outlook para trabalhar com a sua nova caixa de correio da Microsoft. Todos na sua equipe precisam executar esta etapa. Cada pessoa pode instalar os aplicativos móveis do Office em até 5 telefones e 5 tablets. </span><span class="sxs-lookup"><span data-stu-id="59c27-p105">Install Office on your mobile device, and set up Outlook to work with your new Microsoft mailbox. Everyone on your team will need to do this step. Each person can install the Office mobile apps on up to 5 phones and 5 tablets.</span></span>
+<span data-ttu-id="5d8a4-p105">Instale o Office em seu dispositivo móvel e configure o Outlook para trabalhar com a sua nova caixa de correio da Microsoft. Todos na sua equipe precisam executar esta etapa. Cada pessoa pode instalar os aplicativos móveis do Office em até 5 telefones e 5 tablets. </span><span class="sxs-lookup"><span data-stu-id="5d8a4-p105">Install Office on your mobile device, and set up Outlook to work with your new Microsoft mailbox. Everyone on your team will need to do this step. Each person can install the Office mobile apps on up to 5 phones and 5 tablets.</span></span>
   
-<span data-ttu-id="59c27-130">Obtenha as etapas para o seu dispositivo: [Android](https://support.microsoft.com/office/6ef2ebf2-fc2d-474a-be4a-5a801365c87f) | [iOS](https://support.microsoft.com/office/0402b37e-49c4-4419-a030-f34c2013041f) | [Windows Phone](https://support.microsoft.com/office/9bccc8b8-a321-4d0d-a45e-6e06a3438e43)</span><span class="sxs-lookup"><span data-stu-id="59c27-130">Get the steps for your device: [Android](https://support.microsoft.com/office/6ef2ebf2-fc2d-474a-be4a-5a801365c87f) | [iOS](https://support.microsoft.com/office/0402b37e-49c4-4419-a030-f34c2013041f) | [Windows Phone](https://support.microsoft.com/office/9bccc8b8-a321-4d0d-a45e-6e06a3438e43)</span></span>
+<span data-ttu-id="5d8a4-130">Obtenha as etapas para o seu dispositivo: [Android](https://support.microsoft.com/office/6ef2ebf2-fc2d-474a-be4a-5a801365c87f) | [iOS](https://support.microsoft.com/office/0402b37e-49c4-4419-a030-f34c2013041f) | [Windows Phone](https://support.microsoft.com/office/9bccc8b8-a321-4d0d-a45e-6e06a3438e43)</span><span class="sxs-lookup"><span data-stu-id="5d8a4-130">Get the steps for your device: [Android](https://support.microsoft.com/office/6ef2ebf2-fc2d-474a-be4a-5a801365c87f) | [iOS](https://support.microsoft.com/office/0402b37e-49c4-4419-a030-f34c2013041f) | [Windows Phone](https://support.microsoft.com/office/9bccc8b8-a321-4d0d-a45e-6e06a3438e43)</span></span>
   
-## <a name="store-files-online"></a><span data-ttu-id="59c27-131">Armazenar arquivos on-line</span><span class="sxs-lookup"><span data-stu-id="59c27-131">Store files online</span></span>
+## <a name="store-files-online"></a><span data-ttu-id="5d8a4-131">Armazenar arquivos on-line</span><span class="sxs-lookup"><span data-stu-id="5d8a4-131">Store files online</span></span>
 
-<span data-ttu-id="59c27-p106">A Microsoft facilita o armazenamento de arquivos online. Para saber quais locais de armazenamento são ideais para sua empresa, confira [Onde você pode armazenar arquivos no Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).</span><span class="sxs-lookup"><span data-stu-id="59c27-p106">Microsoft makes online file storage easy. To learn which storage locations are best for your business, see [Where you can store files in Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).</span></span>
+<span data-ttu-id="5d8a4-p106">A Microsoft facilita o armazenamento de arquivos online. Para saber quais locais de armazenamento são ideais para sua empresa, confira [Onde você pode armazenar arquivos no Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-p106">Microsoft makes online file storage easy. To learn which storage locations are best for your business, see [Where you can store files in Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).</span></span>
   
-<span data-ttu-id="59c27-p107">Todas as pessoas recebem um local de armazenamento em nuvem do **OneDrive**, quando você cria contas da Microsoft para elas. Com o OneDrive, você pode acessar arquivos em computadores, telefones e tablets.</span><span class="sxs-lookup"><span data-stu-id="59c27-p107">Everyone gets a **OneDrive** cloud storage location automatically when you create Microsoft accounts for them. With OneDrive, you can access files across your computers, phones, and tablets.</span></span>
+<span data-ttu-id="5d8a4-p107">Todas as pessoas recebem um local de armazenamento em nuvem do **OneDrive**, quando você cria contas da Microsoft para elas. Com o OneDrive, você pode acessar arquivos em computadores, telefones e tablets.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-p107">Everyone gets a **OneDrive** cloud storage location automatically when you create Microsoft accounts for them. With OneDrive, you can access files across your computers, phones, and tablets.</span></span>
   
-1. <span data-ttu-id="59c27-p108">No seu computador, use o Explorador de Arquivos para abrir o OneDrive. Ou, no [Office 365](https://www.office.com), abra o **OneDrive** no inicializador de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="59c27-p108">On your computer, use File Explorer to open OneDrive. Or, from [Office 365](https://www.office.com), open **OneDrive** from the app launcher.</span></span>
+1. <span data-ttu-id="5d8a4-p108">No seu computador, use o Explorador de Arquivos para abrir o OneDrive. Ou, no [Office 365](https://www.office.com), abra o **OneDrive** no inicializador de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-p108">On your computer, use File Explorer to open OneDrive. Or, from [Office 365](https://www.office.com), open **OneDrive** from the app launcher.</span></span>
 
-2. <span data-ttu-id="59c27-138">Visualize e carregue arquivos pessoais ou compartilhe documentos ou pastas selecionando **Compartilhar** e convidando outras pessoas a visualizar os documentos ou enviando um link para elas.</span><span class="sxs-lookup"><span data-stu-id="59c27-138">View and upload personal files, or share documents or folders by selecting **Share** and then either inviting others to view the documents or sending them a link.</span></span> <span data-ttu-id="59c27-139">Para saber mais, confira [Compartilhar arquivos e pastas do OneDrive](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business).</span><span class="sxs-lookup"><span data-stu-id="59c27-139">To learn more, see [Share OneDrive files and folders](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business).</span></span>
+2. <span data-ttu-id="5d8a4-138">Visualize e carregue arquivos pessoais ou compartilhe documentos ou pastas selecionando **Compartilhar** e convidando outras pessoas a visualizar os documentos ou enviando um link para elas.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-138">View and upload personal files, or share documents or folders by selecting **Share** and then either inviting others to view the documents or sending them a link.</span></span> <span data-ttu-id="5d8a4-139">Para saber mais, confira [Compartilhar arquivos e pastas do OneDrive](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-139">To learn more, see [Share OneDrive files and folders](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business).</span></span>
   
-<span data-ttu-id="59c27-140">Confira mais em [Carregar arquivos para uma biblioteca](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0).</span><span class="sxs-lookup"><span data-stu-id="59c27-140">More at [Upload files to a library](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0).</span></span>
+<span data-ttu-id="5d8a4-140">Confira mais em [Carregar arquivos para uma biblioteca](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-140">More at [Upload files to a library](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0).</span></span>
   
-## <a name="get-started-using-office"></a><span data-ttu-id="59c27-141">Introdução ao Office</span><span class="sxs-lookup"><span data-stu-id="59c27-141">Get started using Office</span></span>
+## <a name="get-started-using-office"></a><span data-ttu-id="5d8a4-141">Introdução ao Office</span><span class="sxs-lookup"><span data-stu-id="5d8a4-141">Get started using Office</span></span>
 
-<span data-ttu-id="59c27-142">Para fazer um tour pelo Microsoft 365 e aprender a usar todos os aplicativos do Office móvel, confira [Introdução](../admin-overview/get-started-with-office-365.md).</span><span class="sxs-lookup"><span data-stu-id="59c27-142">To take a tour of Microsoft 365 and learn how to use all the Office mobile apps, see [Get started](../admin-overview/get-started-with-office-365.md).</span></span>
+<span data-ttu-id="5d8a4-142">Para fazer um tour pelo Microsoft 365 e aprender a usar todos os aplicativos do Office móvel, confira [Introdução](../admin-overview/get-started-with-office-365.md).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-142">To take a tour of Microsoft 365 and learn how to use all the Office mobile apps, see [Get started](../admin-overview/get-started-with-office-365.md).</span></span>
 
-## <a name="add-a-custom-domain"></a><span data-ttu-id="59c27-143">Adicionar um domínio personalizado</span><span class="sxs-lookup"><span data-stu-id="59c27-143">Add a custom domain</span></span>
+## <a name="add-a-custom-domain"></a><span data-ttu-id="5d8a4-143">Adicionar um domínio personalizado</span><span class="sxs-lookup"><span data-stu-id="5d8a4-143">Add a custom domain</span></span>
 
-<span data-ttu-id="59c27-144">Durante a inscrição, você escolheu um domínio. onmicrosoft.</span><span class="sxs-lookup"><span data-stu-id="59c27-144">During the sign-up you chose an .onmicrosoft domain.</span></span> <span data-ttu-id="59c27-145">Você também pode adicionar um domínio personalizado, como *contoso.com*, à sua conta para personalizar os e-mails.</span><span class="sxs-lookup"><span data-stu-id="59c27-145">You can also add a custom domain, like *contoso.com*, to your account to personalize the emails.</span></span> <span data-ttu-id="59c27-146">Para saber mais, consulte [Adicionar um domínio](add-domain.md).</span><span class="sxs-lookup"><span data-stu-id="59c27-146">For more information, see [add a domain](add-domain.md).</span></span>
+<span data-ttu-id="5d8a4-144">Durante a inscrição, você escolheu um domínio. onmicrosoft.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-144">During the sign-up you chose an .onmicrosoft domain.</span></span> <span data-ttu-id="5d8a4-145">Você também pode adicionar um domínio personalizado, como *contoso.com*, à sua conta para personalizar os e-mails.</span><span class="sxs-lookup"><span data-stu-id="5d8a4-145">You can also add a custom domain, like *contoso.com*, to your account to personalize the emails.</span></span> <span data-ttu-id="5d8a4-146">Para saber mais, consulte [Adicionar um domínio](add-domain.md).</span><span class="sxs-lookup"><span data-stu-id="5d8a4-146">For more information, see [add a domain](add-domain.md).</span></span>
