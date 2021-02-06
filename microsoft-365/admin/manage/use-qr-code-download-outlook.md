@@ -15,17 +15,17 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Saiba como usar um código QR para autenticar e baixar o Outlook Mobile.
-ms.openlocfilehash: 2d62a49b93fa7bd5f2d747525de7244e8014e6a7
-ms.sourcegitcommit: b8e9b2ecdc4927b67088c5fffb1585424c66fb10
+ms.openlocfilehash: b9e433e0c7d3f5f3466924b318e242e5ac29181c
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50050766"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122367"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>Usar um código QR para entrar nos aplicativos móveis do Outlook
 
 > [!IMPORTANT]
-> Esse recurso do Microsoft 365 está na visualização pública. A visualização pública fornece acesso antecipado aos recursos do Microsoft 365.
+> Esse recurso do Microsoft 365 está em visualização pública. A visualização pública fornece acesso antecipado aos recursos do Microsoft 365.
 
 Como administrador do Microsoft 365, você pode permitir que os usuários entrem no Outlook para Android ou no aplicativo iOS em seus dispositivos móveis sem precisar inserir o nome de usuário e a senha. Ao digitalizar um código QR, os usuários podem autenticar com segurança e entrar no Outlook Mobile.
 
@@ -42,7 +42,7 @@ Por padrão, essa experiência está 1.000. Para desabilitar esse recurso, siga 
 2. Usando o PowerShell, você pode desabilitar as notificações informando os usuários sobre os aplicativos móveis do Outlook. Isso também impedirá que o fluxo de login do código QR seja mostrado.
 
 ```powershell
-Set-Organization -MobileAppEducationEnabled <Boolean>
+Set-OrganizationConfig -MobileAppEducationEnabled <Boolean>
 ```
 
 Tópicos relacionados

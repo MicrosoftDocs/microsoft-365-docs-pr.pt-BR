@@ -1,17 +1,34 @@
 ---
-title: "Gerenciar quais recursos do Office aparecem em What's New" f1.keywords:
-- NOCSH ms.author: danbrown author: DHB-MSFT manager: scotv audience: Admin ms.topic: article ms.service: o365-administration localization_priority: Normal ms.collection:
+title: Gerenciar quais recursos do Office aparecem no What's New
+f1.keywords:
+- NOCSH
+ms.author: danbrown
+author: DHB-MSFT
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC ms.custom: AdminSurgePortfolio search.appverid:
+- Adm_TOC
+ms.custom: AdminSurgePortfolio
+search.appverid:
 - BCS160
 - MET150
-- Descrição do RECURSO150: "Decida quais recursos do Office mostrar ou ocultar quando um usuário escolher a Ajuda > Novidades no aplicativo do Office no Windows usando o recurso "Novidades do Office" no Centro de administração do Microsoft 365."
+- MOE150
+description: Decida quais recursos do Office mostrar ou ocultar quando um usuário escolher a Ajuda > Novidades no aplicativo do Office no Windows usando o recurso "Novidades do Office" no Centro de administração do Microsoft 365.
+ms.openlocfilehash: d0b5bc3e643b306d9a38a707fed50ab546249c2b
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122343"
 ---
-
 # <a name="manage-which-office-features-appear-in-whats-new"></a>Gerenciar quais recursos do Office aparecem no What's New
 
-Quando um recurso importante do Office é lançado, os usuários receberão uma mensagem sobre ele quando escolherEm Ajudar o que há de novo em seus aplicativos do  >   Office no Windows.
+Quando um recurso importante do Office é lançado, os usuários receberão uma mensagem sobre ele quando escolherEm Ajudar o que há de novo no aplicativo do  >   Office no Windows.
 
 Você pode controlar quais dessas mensagens de recurso seus usuários são mostrados usando o recurso Novidades do **Office** no Centro de administração do Microsoft 365. Se você decidir ocultar uma mensagem de recurso para seus usuários, sempre poderá voltar mais tarde e decidir exibi-la para eles.
 
@@ -35,7 +52,7 @@ Você também pode selecionar vários recursos na página Gerenciar quais recurs
 > [!NOTE]
 > - Se um recurso estiver disponível em vários aplicativos do Office, a configuração do recurso como Oculto ocultará a mensagem de recurso em todos esses aplicativos do Office. 
 > - Todas as mensagens de recurso são mostradas aos usuários por padrão. Esse é o status padrão para todos os recursos, e o status só muda se você tiver optado por ocultar ou mostrar uma mensagem de recurso.
-> - Você também pode acessar o **recurso Novidades do Office** no centro de administração do Microsoft 365 Apps ( [https://config.office.com](https://config.office.com) ). O recurso é encontrado em **Personalização**  >  **o que há de novo gerenciamento.**
+> - Você também pode acessar o **recurso Novidades do Office** no centro de administração do Microsoft 365 Apps ( [https://config.office.com](https://config.office.com) ). O recurso é encontrado em **Personalização**  >  **O que Há de Novo Gerenciamento.**
 
 ## <a name="list-of-features"></a>Lista de recursos
 

@@ -16,12 +16,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 003347d46bed2529831a92681e73630d58a1f653
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: 1ef09fbf7a517950ae182472e4b4d5ef896d65e5
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071266"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126538"
 ---
 # <a name="learn-about-information-barriers-in-microsoft-365"></a>Saiba mais sobre barreiras de informações no Microsoft 365
 
@@ -47,7 +47,7 @@ Para saber mais sobre a experiência do usuário com barreiras de informações,
 - [Barreiras de informações no OneDrive](/onedrive/information-barriers)
 
 > [!IMPORTANT]
-> Atualmente, as barreiras de informações não se aplicam às comunicações por email. Além disso, as barreiras de informações são independentes dos limites [de conformidade.](set-up-compliance-boundaries.md)<p> Antes de definir e aplicar políticas de barreira de informações, certifique-se de que sua organização não tenha políticas de agenda do [Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) em vigor. (As barreiras de informações são baseadas em políticas do livro de endereços.)
+> Atualmente, as barreiras de informações não se aplicam às comunicações por email. Além disso, as barreiras de informações são independentes dos limites [de conformidade.](set-up-compliance-boundaries.md)<p> Antes de definir e aplicar políticas de barreira de informações, certifique-se de que sua organização não tenha políticas de agenda do [Exchange](/exchange/address-books/address-book-policies/address-book-policies) em vigor. (As barreiras de informações são baseadas em políticas do livro de endereços.)
 
 ## <a name="what-happens-with-information-barriers"></a>O que acontece com barreiras de informações
 
@@ -59,7 +59,7 @@ As barreiras de informações se aplica ao Microsoft Teams (chats e canais), Sha
 - Adicionar um membro a uma equipe
 - Iniciando uma sessão de chat com alguém
 - Iniciando um chat em grupo
-- Convidar alguém para ingressar em uma reunião
+- Convidar alguém para participar de uma reunião
 - Compartilhando uma tela
 - Fazendo uma chamada
 - Compartilhando um arquivo com outro usuário
@@ -88,7 +88,7 @@ Barreiras de informações estão sendo implantadas agora e estão incluídas em
 - Microsoft 365 Compliance E5/A5
 - Gerenciamento de riscos do Microsoft 365 Insider
 
-Para saber mais, confira as [diretrizes de licenciamento do Microsoft 365 para segurança & conformidade.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)
+Para saber mais, confira as [diretrizes de licenciamento do Microsoft 365 para segurança & conformidade.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection)
 
 Para [definir ou editar políticas de barreira de](information-barriers-policies.md)informações, você deve ter uma das seguintes funções atribuídas:
 

@@ -13,16 +13,16 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5e7815dbcfc6129685322a250351276476f8a9e3
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: c45a2733c1fa7cf6d05cff747a9cfcdba1b124cc
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980044"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126158"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Atributos das políticas de barreira de informações
 
-Determinados atributos no Azure Active Directory podem ser usados para segmentar usuários. Depois que os segmentos são definidos, esses segmentos podem ser usados como filtros para políticas de barreira de informações. Por exemplo, você  pode usar Departamento para definir segmentos de usuários por departamento dentro de sua organização (supondo que nenhum único funcionário trabalhe para dois departamentos ao mesmo tempo).
+Determinados atributos no Azure Active Directory podem ser usados para segmentar usuários. Depois que os segmentos são definidos, esses segmentos podem ser usados como filtros para políticas de barreira de informações. Por exemplo, você pode usar **Departamento** para definir segmentos de usuários por departamento dentro de sua organização (supondo que nenhum único funcionário trabalhe para dois departamentos ao mesmo tempo).
 
 Este artigo descreve como usar atributos com barreiras de informações e fornece uma lista de atributos que podem ser usados. Para saber mais sobre barreiras de informações, consulte os seguintes recursos:
 
@@ -32,15 +32,15 @@ Este artigo descreve como usar atributos com barreiras de informações e fornec
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>Como usar atributos em políticas de barreira de informações
 
-Os atributos listados neste artigo podem ser usados para definir ou editar segmentos de usuários. Seus segmentos definidos servem como parâmetros (chamados *de valores UserGroupFilter)* em políticas de barreira [de informações.](information-barriers-policies.md)
+Os atributos listados neste artigo podem ser usados para definir ou editar segmentos de usuários. Seus segmentos definidos servem como parâmetros (chamados de *valores UserGroupFilter)* em políticas de barreira [de informações.](information-barriers-policies.md)
 
 1. Determine qual atributo você deseja usar para definir segmentos. (Consulte [a seção](#reference) Reference neste artigo.)
 
 2. Certifique-se de que as contas de usuário tenham valores preenchidos para os atributos selecionados na Etapa 1. Exibir detalhes da conta de usuário e, se necessário, editar contas de usuário para incluir valores de atributos. 
 
-    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira Configurar propriedades de conta de usuário com o [Office 365 PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
+    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira Configurar propriedades de conta de usuário com o [Office 365 PowerShell.](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
 
-    - Para editar uma única conta, confira Adicionar ou atualizar as informações de perfil de um [usuário usando o Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+    - Para editar uma única conta, confira Adicionar ou atualizar as informações de perfil de um [usuário usando o Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 3. [Defina segmentos usando o PowerShell,](information-barriers-policies.md#define-segments-using-powershell)semelhante aos exemplos a seguir:
 

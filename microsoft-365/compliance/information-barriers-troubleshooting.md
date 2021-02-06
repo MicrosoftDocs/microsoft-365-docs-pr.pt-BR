@@ -13,21 +13,21 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 39ac5c2f12b8947bce26d426cac83e57cd4c87ae
-ms.sourcegitcommit: c10eb675da725830e9776d2a0566ba3622eb361c
+ms.openlocfilehash: 3810dd977ef0d25642ba86a2b62a036c9a4ace06
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980034"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126558"
 ---
 # <a name="troubleshooting-information-barriers"></a>Solução de problemas de barreiras de informações
 
-[As barreiras de informações](information-barriers.md) podem ajudar sua organização a permanecer em conformidade com os requisitos legais e os regulamentos do setor. Por exemplo, com barreiras de informações, você pode restringir a comunicação entre grupos específicos de usuários para evitar um conflito de interesses ou outros problemas. (Para saber mais sobre como configurar barreiras de informações, consulte [Definir políticas para barreiras de informações.)](information-barriers-policies.md)
+[As barreiras de informações](information-barriers.md) podem ajudar sua organização a permanecer em conformidade com os requisitos legais e os regulamentos do setor. Por exemplo, com barreiras de informações, você pode restringir a comunicação entre grupos de usuários específicos para evitar um conflito de interesses ou outros problemas. (Para saber mais sobre como configurar barreiras de informações, consulte [Definir políticas para barreiras de informações.)](information-barriers-policies.md)
 
 Caso as pessoas se deem com problemas inesperados depois que as barreiras de informações estão em vigor, há algumas etapas que você pode seguir para resolver esses problemas. Use este artigo como guia.
 
 > [!IMPORTANT]
-> Para executar as tarefas descritas neste artigo, você deve ter uma função apropriada, como uma das seguintes:<br/>– Administrador Global do Microsoft 365 Enterprise<br/>- administrador global<br/>- Administrador de Conformidade<br/>– Gerenciamento de Conformidade do IB (esta é uma nova função!)<p>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [Pré-requisitos (para](information-barriers-policies.md#prerequisites)políticas de barreira de informações).<p>Certifique-se [de se conectar ao PowerShell do Centro](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)de Conformidade & segurança.
+> Para executar as tarefas descritas neste artigo, você deve ter uma função apropriada, como uma das seguintes:<br/>– Administrador Global do Microsoft 365 Enterprise<br/>- administrador global<br/>- Administrador de Conformidade<br/>– Gerenciamento de Conformidade do IB (esta é uma nova função!)<p>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [Pré-requisitos (para](information-barriers-policies.md#prerequisites)políticas de barreira de informações).<p>Certifique-se [de se conectar ao PowerShell do Centro](/powershell/exchange/connect-to-scc-powershell)de Conformidade & segurança.
 
 ## <a name="issue-users-are-unexpectedly-blocked-from-communicating-with-others-in-microsoft-teams"></a>Problema: os usuários são impedidos inesperadamente de se comunicar com outras pessoas no Microsoft Teams 
 
@@ -47,7 +47,7 @@ Determinar se os usuários são afetados por uma política de barreira de inform
     |:---------|:----------|
     | `Get-InformationBarrierRecipientStatus -Identity` <p> É possível usar qualquer valor de identidade que identifique cada destinatário com exclusividade, como Nome, Alias, Nome Diferenciado (DN), DN Canônico, Endereço de Email ou GUID. |`Get-InformationBarrierRecipientStatus -Identity meganb` <p> Neste exemplo, estamos usando um alias (*meganb*) para o parâmetro Identity. Este cmdlet retornará informações que indicam se o usuário é afetado por uma política de barreira de informações. (Procure *ExoPolicyId: \<GUID> .) |
 
-    **Se os usuários não estão incluídos nas políticas de barreira de informações, contate o suporte.** Caso contrário, prossiga para a próxima etapa.
+    **Se os usuários não estão incluídos nas políticas de barreira de informações, entre em contato com o suporte.** Caso contrário, prossiga para a próxima etapa.
 
 2. Descubra quais segmentos estão incluídos em uma política de barreira de informações. Para fazer isso, use o `Get-InformationBarrierPolicy` cmdlet com o parâmetro Identity. 
 
@@ -75,7 +75,7 @@ Determinar se os usuários são afetados por uma política de barreira de inform
     |:---------|:----------|
     | `Get-OrganizationSegment`<p> Use este cmdlet com um parâmetro Identity. | `Get-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd` <p> Neste exemplo, estamos recebendo informações sobre o segmento que tem GUID *c96e0837-c232-4a8a-841e-ef45787d8fcd.* |
 
-    Revise os detalhes do segmento. Se necessário, [edite um segmento](information-barriers-edit-segments-policies.md#edit-a-segment)e, em seguida, re-use o `Start-InformationBarrierPoliciesApplication` cmdlet.
+    Revise os detalhes do segmento. Se necessário, [edite um segmento](information-barriers-edit-segments-policies.md#edit-a-segment)e use o `Start-InformationBarrierPoliciesApplication` cmdlet.
 
     **Se você ainda estiver tendo problemas com sua política de barreira de informações, entre em** contato com o suporte.
 
@@ -91,7 +91,7 @@ Verifique se os usuários em questão estão incluídos em uma política de barr
 
     |**Sintaxe** _|_ *Example**|
     |:----------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> É possível usar qualquer valor que identifique cada usuário com exclusividade, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*. |
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> É possível usar qualquer valor que identifique com exclusividade cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*. |
 
     > [!TIP]
     > Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>`
@@ -102,7 +102,7 @@ Verifique se os usuários em questão estão incluídos em uma política de barr
 
     |**Resultados**|**O que fazer em seguida**|
     |:----------|:------------------|
-    | Nenhum segmento está listado para o(s) usuário(s) selecionado(s) | Siga um destes procedimentos:<br/>- Atribua usuários a um segmento existente editando seus perfis de usuário no Azure Active Directory. (Consulte [Configurar propriedades de conta de usuário com o Office 365 PowerShell.)](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- Definir um segmento usando um [atributo com suporte para barreiras de informações.](information-barriers-attributes.md) Em seguida, [defina uma nova política](information-barriers-policies.md#part-2-define-information-barrier-policies) [ou edite uma política existente](information-barriers-edit-segments-policies.md#edit-a-policy) para incluir esse segmento. |
+    | Nenhum segmento está listado para o(s) usuário(s) selecionado(s) | Siga um destes procedimentos:<br/>- Atribua usuários a um segmento existente editando seus perfis de usuário no Azure Active Directory. (Consulte [Configurar propriedades de conta de usuário com o Office 365 PowerShell.)](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- Definir um segmento usando um [atributo com suporte para barreiras de informações.](information-barriers-attributes.md) Em seguida, [defina uma nova política](information-barriers-policies.md#part-2-define-information-barrier-policies) [ou edite uma política existente](information-barriers-edit-segments-policies.md#edit-a-policy) para incluir esse segmento. |
     | Os segmentos são listados, mas nenhuma política de barreira de informações é atribuída a esses segmentos | Siga um destes procedimentos:<br/>- [Definir uma nova política de barreira de](information-barriers-policies.md#part-2-define-information-barrier-policies) informações para cada segmento em questão <br/>- [Editar uma política de barreira de informações existente](information-barriers-edit-segments-policies.md#edit-a-policy) para atribuí-la ao segmento correto |
     | Os segmentos são listados e cada um está incluído em uma política de barreira de informações | - Execute o `Get-InformationBarrierPolicy` cmdlet para verificar se as políticas de barreira de informações estão ativas<br/>- Execute o `Get-InformationBarrierPoliciesApplicationStatus` cmdlet para confirmar se as políticas estão aplicadas<br/>- Execute o `Start-InformationBarrierPoliciesApplication` cmdlet para aplicar todas as políticas de barreira de informações ativas |
 
@@ -123,7 +123,7 @@ As políticas de barreira de informações são atribuídas a segmentos de usuá
 
 2. Revise os resultados para ver se as políticas de barreira de informações estão atribuídas e a quais segmentos os usuários pertencem.
 
-3. Para remover um usuário de um segmento afetado pelas barreiras de informações, atualize as informações de perfil do usuário [no Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+3. Para remover um usuário de um segmento afetado pelas barreiras de informações, atualize as informações de perfil do usuário [no Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 4. Aguarde cerca de 30 minutos para que o FwdSync ocorra. Ou execute o `Start-InformationBarrierPoliciesApplication` cmdlet para aplicar todas as políticas de barreira de informações ativas.
 
@@ -149,7 +149,7 @@ Lembre-se de que, ao executar o cmdlet de aplicativo de política, as políticas
     |:---------|:------------|
     | **Não iniciado** | Se tiver sido mais de 45 minutos desde que o cmdlet **Start-InformationBarrierPoliciesApplication** foi executado, revise seu log de auditoria para ver se há erros nas definições de política ou algum outro motivo pelo qual o aplicativo não foi iniciado. |
     | **Falhou** | Se o aplicativo tiver falhado, revise o log de auditoria. Revise também seus segmentos e políticas. Algum usuário está atribuído a mais de um segmento? Há segmentos atribuídos a mais de uma poliicia? Se necessário, [edite segmentos](information-barriers-edit-segments-policies.md#edit-a-segment) e/ou [edite](information-barriers-edit-segments-policies.md#edit-a-policy)políticas e execute o cmdlet **Start-InformationBarrierPoliciesApplication** novamente. |
-    | **Em andamento** | Se o aplicativo ainda estiver em andamento, deixe mais tempo para ser concluído. Se já faz vários dias, reúna seus logs de auditoria e contate o suporte. |
+    | **Em andamento** | Se o aplicativo ainda estiver em andamento, deixe mais tempo para ser concluído. Se já tiver sido vários dias, reúna seus logs de auditoria e contate o suporte. |
 
 ## <a name="issue-information-barrier-policies-are-not-being-applied-at-all"></a>Problema: as políticas de barreira de informações não estão sendo aplicadas
 
@@ -157,16 +157,16 @@ Nesse caso, você definiu segmentos, definiu políticas de barreira de informaç
 
 ### <a name="what-to-do"></a>O que fazer
 
-Certifique-se de que sua organização não tenha políticas de [agenda do Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) em uso. Essas políticas impedirão a aplicação de políticas de barreira de informações.
+Certifique-se de que sua organização não tenha políticas de [agenda do Exchange](/exchange/address-books/address-book-policies/address-book-policies) em uso. Essas políticas impedirão a aplicação de políticas de barreira de informações.
 
-1. Conecte-se [ao PowerShell do Exchange Online.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. Conecte-se [ao PowerShell do Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. Execute o cmdlet [Get-AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy) e revise os resultados.
+2. Execute o cmdlet [Get-AddressBookPolicy](/powershell/module/exchange/get-addressbookpolicy) e revise os resultados.
 
     |**Resultados**|**Próxima etapa**|
     |:----------|:------------|
-    | As políticas de agenda do Exchange estão listadas | [Remover políticas de lista de endereços](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
-    | Nenhuma política de agenda existe |Revise seus logs de auditoria para descobrir por que o aplicativo de política está falhando |
+    | As políticas de agenda do Exchange estão listadas | [Remover políticas de lista de endereços](/exchange/address-books/address-book-policies/remove-an-address-book-policy) |
+    | Não há políticas de agendas existentes |Revise seus logs de auditoria para descobrir por que o aplicativo de política está falhando |
 
 3. [Exibir o status de contas de usuário, segmentos, políticas ou aplicativo de política.](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)
 

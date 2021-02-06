@@ -12,16 +12,16 @@ ms.collection:
 localization_priority: None
 f1.keywords:
 - NOCSH
-ms.openlocfilehash: 3a95ccb476960424b701f522aacce78576e6f68f
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: 0d46459f61b29c6bdb457c7e0c82e9147e7709ba
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071276"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126136"
 ---
 # <a name="manage-information-barrier-policies"></a>Gerenciar políticas de barreira de informações
 
-Depois de definir [políticas de](information-barriers-policies.md)barreira de informações, talvez seja necessário fazer alterações nessas políticas ou em seus segmentos de usuário, como parte da solução de problemas [ou](information-barriers-troubleshooting.md) como manutenção regular. Use este artigo como guia.
+Depois de definir [políticas de](information-barriers-policies.md)barreira de informações, talvez seja necessário fazer alterações [](information-barriers-troubleshooting.md) nessas políticas ou em seus segmentos de usuário, como parte da solução de problemas ou como manutenção regular. Use este artigo como guia.
 
 ## <a name="what-do-you-want-to-do"></a>O que você deseja fazer?
 
@@ -37,7 +37,7 @@ Depois de definir [políticas de](information-barriers-policies.md)barreira de i
 | [Solução de problemas de barreiras de informações](information-barriers-troubleshooting.md) | Consulte este artigo quando você tem problemas inesperados com barreiras de informações. |
 
 > [!IMPORTANT]
-> Para executar as tarefas descritas neste artigo, você deve ter uma função apropriada, como uma das seguintes:<br/>– Administrador Global do Microsoft 365 Enterprise<br/>- Administrador Global<br/>- Administrador de Conformidade<br/>– Gerenciamento de Conformidade do IB (esta é uma nova função!)<br><br>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [Pré-requisitos (para](information-barriers-policies.md#prerequisites)políticas de barreira de informações).<br><br> Certifique-se [de se conectar ao PowerShell do Centro de Conformidade & segurança.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+> Para executar as tarefas descritas neste artigo, você deve ter uma função apropriada, como uma das seguintes:<br/>– Administrador Global do Microsoft 365 Enterprise<br/>- Administrador Global<br/>- Administrador de Conformidade<br/>– Gerenciamento de Conformidade do IB (esta é uma nova função!)<br><br>Para saber mais sobre os pré-requisitos para barreiras de informações, consulte [Pré-requisitos (para](information-barriers-policies.md#prerequisites)políticas de barreira de informações).<br><br> Certifique-se [de se conectar ao PowerShell do Centro de Conformidade & segurança.](/powershell/exchange/connect-to-scc-powershell)
 
 ## <a name="edit-user-account-attributes"></a>Editar atributos de conta de usuário
 
@@ -47,15 +47,15 @@ Use este procedimento para editar atributos usados para segmentar usuários. Por
 
     |**Sintaxe**|**Exemplo**|
     |:---------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> É possível usar qualquer valor que identifique com exclusividade cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p> (Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` ) |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*. |
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> É possível usar qualquer valor que identifique cada usuário com exclusividade, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p> (Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` ) |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*. |
 
 2. Determine qual atributo você deseja editar para seus perfis de conta de usuário. Para obter mais informações, consulte [Atributos para políticas de barreira de informações.](information-barriers-attributes.md) 
 
 3. Edite uma ou mais contas de usuário para incluir valores para o atributo selecionado na etapa anterior. Para tomar essa ação, use um dos seguintes procedimentos:
 
-    - Para editar uma única conta, confira Adicionar ou atualizar as informações de perfil de um [usuário usando o Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+    - Para editar uma única conta, confira Adicionar ou atualizar as informações de perfil de um [usuário usando o Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
-    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira Configurar propriedades de conta de usuário com o [Office 365 PowerShell.](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
+    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira Configurar propriedades de conta de usuário com o [Office 365 PowerShell.](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
 
 ## <a name="edit-a-segment"></a>Editar um segmento
 
@@ -92,7 +92,7 @@ Quando terminar de editar segmentos para sua organização, você poderá [defin
 
     Suponha que queiramos alterá-la para que as pessoas no segmento *Pesquisa* só possam se comunicar com pessoas no *segmento de* RH. Para fazer essa alteração, usamos este cmdlet: `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
 
-    Neste exemplo, trocamos "SegmentsBlocked" para "SegmentsAllowed" e especificamos o *segmento rh.*
+    Neste exemplo, trocamos "SegmentsBlocked" para "SegmentsAllowed" e especificamos o *segmento RH.*
 
 3. Quando terminar de editar uma política, certifique-se de aplicar suas alterações. (Consulte [Aplicar políticas de barreira de informações.)](information-barriers-policies.md#part-3-apply-information-barrier-policies)
 

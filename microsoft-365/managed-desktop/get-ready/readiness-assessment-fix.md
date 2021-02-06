@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 22b5a6353720f8fbee218c138a3c9d0dee444db9
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: ff2ef15f93cef5255e8c8113facf51b833eff77d
+ms.sourcegitcommit: 719b89baca1bae14455acf2e517ec18fc473636c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114914"
+ms.locfileid: "50122355"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Corrigir problemas encontrados pela ferramenta de avaliação de prontidão
 
@@ -72,11 +72,11 @@ As políticas de acesso condicional não devem impedir que a Área de Trabalho G
 
 **Não está pronto**
 
-Você tem pelo menos uma política de acesso condicional que segmenta todos os usuários. Durante o registro, excluiremos as contas de serviço da Área de Trabalho Gerenciada da Microsoft das políticas de acesso condicional relevantes e aplicaremos novas políticas de acesso condicional para restringir o acesso a essas contas. Após o registro, você pode revisar a política de acesso condicional da Área de Trabalho Gerenciada da Microsoft no Microsoft Endpoint Manager. Para saber mais sobre essas contas de serviço, consulte [Procedimentos operacionais Padrão.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+Você tem pelo menos uma política de acesso condicional que segmenta todos os usuários. Durante o registro, excluiremos as contas de serviço da Área de Trabalho Gerenciada da Microsoft das políticas de acesso condicional relevantes e aplicaremos novas políticas de acesso condicional para restringir o acesso a essas contas. Após o registro, você pode revisar a política de acesso condicional da Área de Trabalho Gerenciada da Microsoft no Microsoft Endpoint Manager. Para obter mais informações sobre essas contas de serviço, consulte [Procedimentos operacionais Padrão.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Aviso**
 
-Você tem políticas de acesso condicional que podem impedir que a Área de Trabalho Gerenciada da Microsoft gerencie o serviço de Área de Trabalho Gerenciada da Microsoft. Durante o registro, excluiremos as contas de serviço da Área de Trabalho Gerenciada da Microsoft das políticas de acesso condicional relevantes e aplicaremos novas políticas de acesso condicional para restringir o acesso a essas contas. Para obter mais informações sobre essas contas de serviço, consulte [Procedimentos operacionais Padrão.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+Você tem políticas de acesso condicional que podem impedir que a Área de Trabalho Gerenciada da Microsoft gerencie o serviço de Área de Trabalho Gerenciada da Microsoft. Durante o registro, excluiremos as contas de serviço da Área de Trabalho Gerenciada da Microsoft das políticas de acesso condicional relevantes e aplicaremos novas políticas de acesso condicional para restringir o acesso a essas contas. Para saber mais sobre essas contas de serviço, consulte [Procedimentos operacionais Padrão.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Erro**
 
@@ -95,7 +95,7 @@ As políticas de Conformidade de Dispositivos do Intune em sua organização do 
 
 **Não está pronto**
 
-Você tem pelo menos uma política de conformidade que segmenta todos os usuários. A Área de Trabalho Gerenciada da Microsoft inclui políticas de conformidade que direcionarão seus dispositivos da Área de Trabalho Gerenciada da Microsoft.  Altere a política para direcionar um grupo específico do Azure AD que não inclui nenhum dispositivo ou usuário da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar uma política de conformidade no Microsoft Intune.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
+Você tem pelo menos uma política de conformidade voltada para todos os usuários. A Área de Trabalho Gerenciada da Microsoft inclui políticas de conformidade que direcionarão seus dispositivos da Área de Trabalho Gerenciada da Microsoft.  Altere a política para direcionar um grupo específico do Azure AD que não inclui nenhum dispositivo ou usuário da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar uma política de conformidade no Microsoft Intune.](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy)
 
 **Aviso**
 
@@ -109,7 +109,7 @@ Os perfis de Configuração de Dispositivo do Intune em sua organização do Azu
 
 **Não está pronto**
 
-Você tem pelo menos um perfil de configuração destinado a todos os usuários, todos os dispositivos ou ambos. Redefina o perfil para direcionar um grupo específico do Azure AD que não inclui nenhum dispositivo da Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar um perfil com configurações personalizadas no Microsoft Intune.](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
+Você tem pelo menos um perfil de configuração destinado a todos os usuários, todos os dispositivos ou ambos. Redefina o perfil para direcionar um grupo específico do Azure AD que não inclui nenhum dispositivo de Área de Trabalho Gerenciada da Microsoft. Para ver as etapas, [confira Criar um perfil com configurações personalizadas no Microsoft Intune.](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
 
 **Aviso**
 
@@ -153,7 +153,7 @@ A autenticação multifator não deve impedir a Área de Trabalho Gerenciada da 
 
 **Não está pronto**
 
-Você tem algumas políticas de autenticação multifator definidas como **necessárias** para políticas de acesso condicional atribuídas a todos os usuários. Durante o registro, excluiremos as contas de serviço da Área de Trabalho Gerenciada da Microsoft das políticas de acesso condicional relevantes e aplicaremos novas políticas de acesso condicional para restringir o acesso a essas contas. Para saber mais sobre essas contas de serviço, consulte [Procedimentos operacionais Padrão.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
+Você tem algumas políticas de autenticação multifator definidas como **necessárias** para políticas de acesso condicional atribuídas a todos os usuários. Durante o registro, excluiremos as contas de serviço da Área de Trabalho Gerenciada da Microsoft das políticas de acesso condicional relevantes e aplicaremos novas políticas de acesso condicional para restringir o acesso a essas contas. Para obter mais informações sobre essas contas de serviço, consulte [Procedimentos operacionais Padrão.](../service-description/operations-and-monitoring.md#standard-operating-procedures)
 
 **Aviso**
 
@@ -245,13 +245,13 @@ Certifique-se de que todas as políticas de anel de atualização que você excl
 
 Você pode acessar as configurações do Azure Active Directory no [portal do Azure.](https://portal.azure.com)
 
-### <a name="intune-enrollment"></a>Registro do Intune
+### <a name="intune-enrollment"></a>Registro no Intune
 
 Os dispositivos Windows 10 em sua organização do Azure AD devem ser capazes de se inscrever automaticamente no Intune.
 
 **Aviso**
 
-Certifique-se de **que o escopo de usuário MDM** está definido como **Alguns** ou **Todos**, não **Nenhum**. Se você escolher **Alguns**, volte após o registro e selecione Modern **Workplace -All** Azure AD group for **Groups** ou um grupo equivalente destinado a todos os usuários da Área de Trabalho Gerenciada da Microsoft.  Consulte [Configurar o registro para dispositivos Windows usando o Microsoft Intune.](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
+Certifique-se de **que o escopo de usuário MDM** está definido como **Alguns** ou **Todos**, não **Nenhum**. Se você escolher **Alguns**, volte após o registro e selecione o  grupo Modern **Workplace -All** Azure AD para Grupos ou um grupo equivalente destinado a todos os usuários da Área de Trabalho Gerenciada da Microsoft.  Consulte [Configurar o registro para dispositivos Windows usando o Microsoft Intune.](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
 
 
 ### <a name="ad-hoc-subscriptions"></a>Assinaturas ad hoc
@@ -260,7 +260,7 @@ Aconselha como verificar uma configuração que (se definida como "false") pode 
 
 **Aviso**
 
-Certifique-se **de que AllowAdHocSubscriptions** está definido como **True**. Caso contrário, o Enterprise State Roaming pode não funcionar. Para obter mais informações, [consulte Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0).
+**Certifique-se de que AllowAdHocSubscriptions** está definido como **True**. Caso contrário, o Enterprise State Roaming pode não funcionar. Para obter mais informações, [consulte Set-MsolCompanySettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0).
 
 
 ### <a name="enterprise-state-roaming"></a>Roaming de Estado da Empresa
@@ -269,7 +269,7 @@ O Enterprise State Roaming deve estar habilitado.
 
 **Aviso**
 
-Certifique-se de que o Enterprise State Roaming está habilitado para **Todos ou** para **grupos Selecionados.** Para saber mais, confira [Habilitar Enterprise State Roaming no Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-enable)
+Certifique-se de que o Enterprise State Roaming está habilitado para **todos ou** para **grupos selecionados.** Para obter mais informações, consulte [Habilitar Enterprise State Roaming no Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-enable)
 
 ### <a name="licenses"></a>Licenças
 
@@ -280,13 +280,13 @@ Várias licenças são necessárias para usar a Área de Trabalho Gerenciada da 
 Você não tem todas as licenças de que precisa para usar a Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [As tecnologias da Área de Trabalho Gerenciada](../intro/technologies.md) da Microsoft [e muito mais sobre licenças.](prerequisites.md#more-about-licenses)
 
 
-### <a name="security-account-names"></a>Nomes de contas de segurança
+### <a name="microsoft-managed-desktop-service-accounts"></a>Contas de serviço da Área de Trabalho Gerenciada da Microsoft
 
-Certos nomes de contas de segurança podem estar em conflito com aqueles criados pela Área de Trabalho Gerenciada da Microsoft.
+Certos nomes de conta podem estar em conflito com nomes de conta criados pela Área de Trabalho Gerenciada da Microsoft para gerenciar o serviço da Área de Trabalho Gerenciada da Microsoft.
 
 **Não está pronto**
 
-Você tem pelo menos um nome de conta que entra em conflito com aqueles criados pela Área de Trabalho Gerenciada da Microsoft. Trabalhe com seu representante de conta da Microsoft para excluir esses nomes de conta.
+Você tem pelo menos um nome de conta que entra em conflito com os nomes de conta criados pela Área de Trabalho Gerenciada da Microsoft. Trabalhe com seu representante de conta da Microsoft para excluir esses nomes de conta. Não listamos os nomes de conta publicamente para minimizar o risco à segurança. 
 
 
 ### <a name="security-administrator-roles"></a>Funções de administrador de segurança

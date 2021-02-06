@@ -15,7 +15,6 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
-- okr_smb
 - AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -23,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Microsoft 365 para empresas. '
-ms.openlocfilehash: afb576a0499577b910fe3ed14eff75ae0a52b394
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 3c97640f4bb16876ec028a1af2b361a21a0decab
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114028"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126400"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
 
@@ -83,7 +82,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal, Eliza@NodPublishers.com e seu alias, Sales@NodPublishers.com, serão enviados para a Caixa de Entrada da Filha.
     
   
-7. **Quando o usuário responder, o endereço *De*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com e ela chega na caixa de entrada da Clara. Quando Clara responder à mensagem, seu endereço de email principal aparecerá como remetente, não Sales@NodPublishers.com. 
+7. **Quando o usuário responder, o *endereço De*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com e ela chega na caixa de entrada da Clara. Quando Clara responder à mensagem, seu endereço de email principal aparecerá como o remetente, não Sales@NodPublishers.com. 
     
 ::: moniker-end
 
@@ -114,7 +113,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal, Eliza@NodPublishers.com e seu alias, Sales@NodPublishers.com, serão enviados para a Caixa de Entrada da Filha.
     
   
-7. **Quando o usuário responder, o *endereço De*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com e ela chega na caixa de entrada da Clara. Quando Clara responder à mensagem, seu endereço de email principal aparecerá como o remetente, não Sales@NodPublishers.com. 
+7. **Quando o usuário responder, o *endereço De*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com e ela chega na caixa de entrada da Clara. Quando Clara responder à mensagem, seu endereço de email principal aparecerá como remetente, não Sales@NodPublishers.com. 
 
 ::: moniker-end
 
@@ -142,7 +141,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
 
 6. Aguarde 24 horas para que os novos aliases preencham todo o Microsoft 365. 
     
-    O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal, Eliza@NodPublishers.com e seu alias, Sales@NodPublishers.com, serão enviados para a Caixa de Entrada da Filha.
+    O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal, Eliza@NodPublishers.com e seu alias, Sales@NodPublishers.com, serão enviados para a Caixa de Entrada da Dra.
     
   
 7. **Quando o usuário responder, o *endereço De*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com e ela chega na caixa de entrada da Clara. Quando Clara responder à mensagem, seu endereço de email principal aparecerá como o remetente, não Sales@NodPublishers.com. 

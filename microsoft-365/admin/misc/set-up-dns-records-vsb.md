@@ -19,14 +19,13 @@ search.appverid:
 ROBOTS: NOINDEX, NOFOLLOW
 description: Aprenda a verificar seu domínio e criar registros DNS com o Microsoft 365.
 ms.custom:
-- okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 206b435130e8e77ed1540432e3bbeff7f16463bf
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: c5c33af8a5635d1092aec2f1bffdfc942f2e4851
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658157"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126330"
 ---
 # <a name="connect-your-domain-to-microsoft-365"></a>Conectar seu domínio ao Microsoft 365
 

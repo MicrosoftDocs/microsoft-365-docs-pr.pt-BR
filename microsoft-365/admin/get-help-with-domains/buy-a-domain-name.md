@@ -16,7 +16,6 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - AdminSurgePortfolio
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Saiba como comprar um nome de domínio no Microsoft 365.
-ms.openlocfilehash: 40fc44dfa3bc3e608b590157b7db423302af748d
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: d7215db61577968bb2b21f708bda9d42acd7e675
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50113958"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126388"
 ---
 # <a name="buy-a-domain-name"></a>Comprar um nome de domínio
 
@@ -74,7 +73,7 @@ Escolha um entre os domínios de nível superior para seu domínio.
     
 
 > [!NOTE]
-> Ao selecionar **o domínio Comprar,** você poderá ser redirecionado para o site do parceiro da Microsoft se o locatário for comprado/gerenciado por meio de um parceiro da Microsoft.
+> Ao selecionar **Comprar domínio,** você poderá ser redirecionado para o site do parceiro da Microsoft se o locatário for comprado/gerenciado por meio de um parceiro da Microsoft.
 
 ### <a name="domain-privacy"></a>Privacidade do Domínio
 Oferecemos uma Assinatura de Privacidade de Domínio gratuita com a compra de um domínio. Isso mantém suas informações de contato anexadas ao registro do seu domínio com a ICANN particular. [Saiba mais.](https://whois.icann.org/en/privacy-and-proxy-services)
@@ -102,7 +101,7 @@ Solicite a transferência ao registrador para onde você deseja mover seu domín
 
 Se você ainda não tem seu próprio domínio, é possível comprar um online facilmente em um registrador, um revendedor de domínios ou, até mesmo, com seu provedor de Internet atual. Você obtém um nome de domínio quando se inscreve no Office 365 operado pela 21Vianet, por exemplo, contoso.partner.onmschina.cn, mas talvez você queira usar um nome de domínio personalizado, como fourthcoffee.com.
   
-Para configurar um domínio no Microsoft 365, você deve possuir um domínio e alterar alguns dos registros DNS do seu domínio.
+Para configurar um domínio no Microsoft 365, você deve ter um domínio e alterar alguns dos registros DNS do seu domínio.
   
 > [!CAUTION]
 > Alguns registradores de domínio ou provedores de hospedagem DNS não permitem a criação de todos os registros DNS exigidos pelo Microsoft 365. Os registradores listados aqui oferecem suporte a todos os registros necessários. Se você está pensando em usar outro provedor de hospedagem, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 

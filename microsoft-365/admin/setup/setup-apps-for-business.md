@@ -18,19 +18,18 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
-- okr_smb
 - AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Apps for business.
-ms.openlocfilehash: 905a8a69045ed283c0c6e38ab9bc58523fd8bade
-ms.sourcegitcommit: 3a0accd616ca94d6ba7f50e502552b45e9661a95
+ms.openlocfilehash: 04a1d4878e1d3d3e16e20a39dbadf2a7d3724e7b
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48350254"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126146"
 ---
 # <a name="set-up-microsoft-365-apps-for-business"></a>Configurar o Microsoft 365 Apps for business
 
