@@ -666,6 +666,8 @@
               href: themes-in-advanced-ediscovery.md
             - name: Usar o módulo Relevância para analisar dados
               href: using-relevance.md
+            - name: Aposentadoria do módulo de Relevância
+              href: relevance-module-retirement.md
         - name: Exportar dados de ocorrência
           href: exporting-data-ediscover20.md
           items:
