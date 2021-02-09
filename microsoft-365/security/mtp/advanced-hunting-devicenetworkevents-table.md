@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0ed696f36737a4102895369e1254b4215cad4def
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: c9509c76e5fa945c693e67f394b6432f939b58a5
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931213"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145318"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -62,6 +62,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessSHA256` | string | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `InitiatingProcessMD5` | string | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessFileName` | string | Nome do processo que iniciou o evento |
+| `InitiatingProcessFileSize` | long | Tamanho do arquivo que fez o processo responsável pelo evento |
 | `InitiatingProcessId` | int | ID do processo (PID) do processo que iniciou o evento |
 | `InitiatingProcessCommandLine` | string | Linha de comando usada para executar o processo que iniciou o evento |
 | `InitiatingProcessCreationTime` | datetime | Data e hora em que o processo que iniciou o evento foi iniciado |
@@ -69,13 +70,15 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessParentFileName` | string | Nome do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentId` | int | ID do processo (PID) do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentCreationTime` | datetime | Data e hora em que o pai do processo responsável pelo evento foi iniciado |
-| `InitiatingProcessAccountDomain` | string | Domínio da conta que correu o processo responsável pelo evento |
-| `InitiatingProcessAccountName` | string | Nome de usuário da conta que fez a correção do processo responsável pelo evento |
-| `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que fez a correção do processo responsável pelo evento |
-| `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se fossem lançados em um download da Internet. Esses níveis de integridade influenciam as permissões para recursos |
+| `InitiatingProcessAccountDomain` | string | Domínio da conta que fez o processo responsável pelo evento |
+| `InitiatingProcessAccountName` | string | Nome de usuário da conta que correu o processo responsável pelo evento |
+| `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que correu o processo responsável pelo evento |
+| `InitiatingProcessAccountUpn` | string | Nome UPN da conta que fez a correção do processo responsável pelo evento |
+| `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se eles fossem lançados em um download da Internet. Esses níveis de integridade influenciam as permissões para recursos |
 | `InitiatingProcessTokenElevation` | string | Tipo de token indicando a presença ou ausência da elevação de privilégio do Controle de Acesso de Usuário (UAC) aplicada ao processo que iniciou o evento |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 | `AppGuardContainerId` | string | Identificador do contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
+| `AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

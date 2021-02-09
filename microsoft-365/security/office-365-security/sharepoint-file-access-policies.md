@@ -18,18 +18,24 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: a217970098ab88da286bb44a69845b6383a27bbc
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: 5c739a47ccab79561277436812c36f842b6b578c
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097169"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142808"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Recomendações de política para proteger arquivos e sites do SharePoint
 
-Este artigo descreve como implementar as políticas de acesso a dispositivos e identidade recomendadas para proteger o SharePoint e o OneDrive for Business. Essa orientação se baseia nas políticas comuns de acesso a dispositivos [e identidades.](identity-access-policies.md)
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- SharePoint Online 
 
-Essas recomendações são baseadas em três camadas diferentes de segurança e proteção para arquivos do SharePoint que podem ser aplicados com base na granularidade de suas **necessidades:** linha de **base,** sensível e altamente **controlada.** Você pode saber mais sobre essas camadas de segurança e os sistemas operacionais cliente recomendados, referenciados por estas recomendações [na visão geral.](microsoft-365-policies-configurations.md)
+
+Este artigo descreve como implementar as políticas de acesso a dispositivos e identidade recomendadas para proteger o SharePoint e o OneDrive for Business. Essa orientação se baseia nas políticas [comuns de acesso a dispositivos e identidades.](identity-access-policies.md)
+
+Essas recomendações são baseadas em três camadas diferentes de segurança e proteção para arquivos do SharePoint que podem ser aplicadas com base na granularidade de suas **necessidades:** linha de **base,** sensível e altamente **controlada.** Você pode saber mais sobre essas camadas de segurança e os sistemas operacionais cliente recomendados, referenciados por essas recomendações [na visão geral.](microsoft-365-policies-configurations.md)
 
 Além de implementar essas diretrizes, certifique-se de configurar sites do SharePoint com a quantidade certa de proteção, incluindo a definição de permissões apropriadas para conteúdo altamente regulamentado e confidenciais.
 
@@ -47,7 +53,7 @@ As novas políticas implementam a proteção de dispositivos para conteúdo alta
 
 A tabela a seguir lista as políticas que você precisa revisar e atualizar ou criar novas para o SharePoint. As políticas comuns vinculam-se às instruções de configuração associadas no artigo De identidade [comum e políticas de acesso a dispositivos.](identity-access-policies.md)
 
-|Nível de Proteção|Políticas|Mais informações|
+|Nível de Proteção|Políticas|Mais Informações|
 |---|---|---|
 |**Baseline**|[Exigir MFA quando o risco de login for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Inclua o SharePoint na atribuição de aplicativos de nuvem.|
 ||[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|Inclua o SharePoint na atribuição de aplicativos de nuvem.|
@@ -90,7 +96,7 @@ Ele tem políticas de Acesso Condicional de linha de base atribuídas, mas pode 
 
 - Se o James acessar um site altamente regulamentado ou sensível, ele é membro do uso de seu computador, seu acesso será concedido desde que seu computador seja compatível.
 - Se o James acessar um site sensível, ele é membro do uso de seu telefone não-autorizado, o que é permitido para usuários de linha de base, ele receberá acesso somente do navegador ao site sensível devido à política de acesso de dispositivo configurada para esse site.
-- Se Paulo Araúque acessar um site altamente regulamentado, ele será membro do uso de seu telefone não autorizado, ele será bloqueado devido à política de acesso configurada para este site. Ele só pode acessar esse site usando seu computador gerenciado e compatível.
+- Se o James acessar um site altamente regulamentado, ele será membro do uso de seu telefone não autorizado, ele será bloqueado devido à política de acesso configurada para esse site. Ele só pode acessar esse site usando seu computador gerenciado e compatível.
 
 ## <a name="next-step"></a>Próxima etapa
 

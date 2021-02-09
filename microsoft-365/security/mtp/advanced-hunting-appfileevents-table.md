@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 59e9affc53398f2a1b06fbab9774e4b53e146425
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8406d1f9e3d56555b1699d191933c6f9735c9574
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932869"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145482"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -54,6 +54,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `Protocol` | string | Protocolo de rede usado |
 | `AccountName` | string | Nome de usuário da conta |
 | `AccountDomain` | string | Domínio da conta |
+| `AccountSid` | string | Sid (Identificador de Segurança) da conta |
 | `AccountUpn` | string | Nome UPN da conta |
 | `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
 | `AccountDisplayName` | string | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação do meio e um sobrenome ou sobrenome. |
@@ -61,8 +62,10 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `DeviceType` | string | Tipo de dispositivo | 
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
 | `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas |
+| `Port` | string | Porta TCP usada durante a comunicação  |
 | `DestinationDeviceName` | string | Nome do dispositivo que executa o aplicativo servidor que processou a ação gravada |
 | `DestinationIPAddress` | string | Endereço IP do dispositivo que executa o aplicativo servidor que processou a ação gravada |
+| `DestinationPort` | string | Porta de destino de comunicações de rede relacionadas |
 | `Location` | string | Cidade, país ou outra localização geográfica associada ao evento |
 | `Isp` | string | Provedor de serviços de Internet (ISP) associado ao endereço IP do ponto de extremidade |
 | `ReportId` | long | Identificador exclusivo do evento |

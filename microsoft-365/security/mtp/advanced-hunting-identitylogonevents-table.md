@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1df1295b3386b94e3737c53ac8226c719c8bfa08
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 87ac6194374e8e042cf9d00271b17dd8bb785d64
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929917"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145341"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -35,7 +35,7 @@ ms.locfileid: "49929917"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-A tabela no esquema de busca avançada contém informações sobre atividades de autenticação feitas por meio do Active Directory local capturado pelo Microsoft Defender para atividades de identidade e autenticação relacionadas aos serviços online da Microsoft capturados pelo `IdentityLogonEvents` Microsoft Cloud App Security. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançada contém informações sobre atividades de autenticação feitas por meio do Active Directory local capturado pelo Microsoft Defender para identidade e atividades de autenticação relacionadas aos serviços online da Microsoft capturados pelo `IdentityLogonEvents` Microsoft Cloud App Security. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
 
 >[!TIP]
 > Para obter informações detalhadas sobre os tipos de eventos (valores) com suporte em uma tabela, use a referência de esquema interna disponível na `ActionType` central de segurança. [](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center)
@@ -63,8 +63,10 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `DeviceType` | string | Tipo de dispositivo |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
 | `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas |
+| `Port` | string | Porta TCP usada durante a comunicação |
 | `DestinationDeviceName` | string | Nome do dispositivo que executa o aplicativo servidor que processou a ação gravada |
 | `DestinationIPAddress` | string | Endereço IP do dispositivo que executa o aplicativo servidor que processou a ação gravada |
+| `DestinationPort` | string | Porta de destino de comunicações de rede relacionadas |
 | `TargetDeviceName` | string | Nome de domínio totalmente qualificado (FQDN) do dispositivo ao qual a ação gravada foi aplicada |
 | `TargetAccountDisplayName` | string | Nome de exibição da conta à que a ação gravada foi aplicada |
 | `Location` | string | Cidade, país ou outra localização geográfica associada ao evento |

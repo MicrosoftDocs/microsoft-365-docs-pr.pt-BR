@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e445902ee83b734f84d02607905413a14c016b8f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6462096a6c1b44ee11299f652a54f261d0355523
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931273"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145362"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -52,9 +52,11 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica sistemas operacionais específicos, incluindo variações dentro da mesma família, como o Windows 10 e o Windows 7 |
 | `OSBuild` | string | Versão de com build do sistema operacional em execução no computador |
 | `IsAzureADJoined` | booliano | Indicador booleano de se o computador está ingressado no Azure Active Directory |
+| `DeviceObjectId` | string | Identificador exclusivo do dispositivo no Azure AD |
 | `LoggedOnUsers` | string | Lista de todos os usuários que estão conectados no computador no momento do evento no formato de matriz JSON |
 | `RegistryDeviceTag` | string | Marca de computador adicionada por meio do Registro |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
+|`AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
 | `OSVersion` | string | Versão do sistema operacional em execução no computador. |
 | `MachineGroup` | string | Grupo de máquinas do computador. Esse grupo é usado pelo controle de acesso baseado em função para determinar o acesso ao computador |
 

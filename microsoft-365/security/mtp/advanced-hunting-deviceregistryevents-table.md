@@ -1,6 +1,6 @@
 ---
 title: Tabela DeviceRegistryEvents no esquema de busca avançada
-description: Saiba mais sobre os eventos do Registro que você pode consultar na tabela DeviceRegistryEvents do esquema de busca avançada
+description: Saiba mais sobre os eventos de registro que você pode consultar na tabela DeviceRegistryEvents do esquema de busca avançada
 keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, registro, registro, DeviceRegistryEvents, chave, subkey, valor
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 376e54fb4bf5f07a1c821ff436ddc8ec7dd25812
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6bd0e4fe3173fa899b0b9c86d6f85d724b52be3a
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931105"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145002"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
@@ -52,15 +52,19 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `RegistryValueType` | string | Tipo de dados, como binário ou cadeia de caracteres, do valor do Registro ao qual a ação gravada foi aplicada |
 | `RegistryValueName` | string | Nome do valor do Registro ao que a ação gravada foi aplicada |
 | `RegistryValueData` | string | Dados do valor do Registro ao que a ação gravada foi aplicada |
-| `PreviousRegistryValueName` | string | Nome original do valor do Registro antes da modificação |
+| `PreviousRegistryKey` | string | Chave do Registro original do valor do Registro antes de ser modificada |
+| `PreviousRegistryValueName` | string | Nome original do valor do Registro antes de ele ter sido modificado |
 | `PreviousRegistryValueData` | string | Dados originais do valor do Registro antes da modificação |
 | `InitiatingProcessAccountDomain` | string | Domínio da conta que correu o processo responsável pelo evento |
 | `InitiatingProcessAccountName` | string | Nome de usuário da conta que fez a correção do processo responsável pelo evento |
 | `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que fez a correção do processo responsável pelo evento |
+| `InitiatingProcessAccountUpn` | string | Nome UPN da conta que fez a correção do processo responsável pelo evento |
+| `InitiatingProcessAccountObjectId` | string | Azure AD object ID of the user account that ran the process responsible for the event |
 | `InitiatingProcessSHA1` | string | SHA-1 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessSHA256` | string | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `InitiatingProcessMD5` | string | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessFileName` | string | Nome do processo que iniciou o evento |
+| `InitiatingProcessFileSize` | long | Tamanho do arquivo que fez o processo responsável pelo evento |
 | `InitiatingProcessId` | int | ID do processo (PID) do processo que iniciou o evento |
 | `InitiatingProcessCommandLine` | string | Linha de comando usada para executar o processo que iniciou o evento |
 | `InitiatingProcessCreationTime` | datetime | Data e hora em que o processo que iniciou o evento foi iniciado |
@@ -68,7 +72,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessParentId` | int | ID do processo (PID) do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentFileName` | string | Nome do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentCreationTime` | datetime | Data e hora em que o pai do processo responsável pelo evento foi iniciado |
-| `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se fossem lançados em um download da Internet. Esses níveis de integridade influenciam as permissões para recursos |
+| `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se eles fossem lançados em um download da Internet. Esses níveis de integridade influenciam as permissões para recursos |
 | `InitiatingProcessTokenElevation` | string | Tipo de token indicando a presença ou ausência da elevação de privilégio do Controle de Acesso de Usuário (UAC) aplicada ao processo que iniciou o evento |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 | `AppGuardContainerId` | string | Identificador do contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |

@@ -1,7 +1,7 @@
 ---
 title: Tabela IdentityQueryEvents no esquema de busca avançada
 description: Saiba mais sobre os eventos de consulta do Active Directory na tabela IdentityQueryEvents do esquema de busca avançada
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, IdentityQueryEvents, Azure AD, Active Directory, ATP do Azure, identidades, consultas LDAP
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, IdentityQueryEvents, Azure AD, Active Directory, Azure ATP, identidades, consultas LDAP
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7016127a75bca48103f5325ce169faa3d7c31c85
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 48a1520e9fc6239fd3105f01a32a03e5e58df174
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929809"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145278"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -59,8 +59,10 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AccountDisplayName` | string | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação do meio e um sobrenome ou sobrenome. |
 | `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) do ponto de extremidade |
 | `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas |
+| `Port` | string | Porta TCP usada durante a comunicação |
 | `DestinationDeviceName` | string | Nome do dispositivo que executa o aplicativo servidor que processou a ação gravada |
 | `DestinationIPAddress` | string | Endereço IP do dispositivo que executa o aplicativo servidor que processou a ação gravada |
+| `DestinationPort` | string | Porta de destino de comunicações de rede relacionadas |
 | `TargetDeviceName` | string | Nome de domínio totalmente qualificado (FQDN) do dispositivo ao qual a ação gravada foi aplicada |
 | `TargetAccountUpn` | string | Nome UPN da conta à que a ação gravada foi aplicada |
 | `TargetAccountDisplayName` | string | Nome de exibição da conta à que a ação gravada foi aplicada |

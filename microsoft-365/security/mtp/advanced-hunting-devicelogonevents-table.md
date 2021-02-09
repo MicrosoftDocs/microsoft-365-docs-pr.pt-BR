@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3a5666cc106365876956c8e313f9cd2f5a996e6f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 60455c0a66548654da52544e3d7ece84aecb9cf3
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931225"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145434"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
@@ -53,6 +53,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AccountDomain` | string | Domínio da conta |
 | `AccountName` | string | Nome de usuário da conta |
 | `AccountSid` | string | Sid (Identificador de Segurança) da conta |
+| `Protocol` | string | Protocolo usado durante a comunicação |
+| `FailureReason` | string | Informações explicando por que a ação gravada falhou |
 | `LogonType` | string | Tipo de sessão de logon, especificamente:<br><br> - **Interativo** - o usuário interage fisicamente com o computador usando o teclado local e a tela<br><br> - **Logons interativos remotos (RDP)** – o usuário interage com o computador remotamente usando a Área de Trabalho Remota, Serviços de Terminal, Assistência Remota ou outros clientes RDP<br><br> - **Rede** - Sessão iniciada quando o computador é acessado usando PsExec ou quando os recursos compartilhados no computador, como impressoras e pastas compartilhadas, são acessados<br><br> - **Lote** - Sessão iniciada por tarefas agendadas<br><br> - **Serviço** - Sessão iniciada pelos serviços ao iniciar<br> |
 | `LogonId` | string | Identificador de uma sessão de logon. Esse identificador é exclusivo no mesmo computador somente entre reinicializações |
 | `RemoteDeviceName` | string | Nome do computador que realizou uma operação remota no computador afetado. Dependendo do evento relatado, esse nome pode ser um nome de domínio totalmente qualificado (FQDN), um nome NetBIOS ou um nome de host sem informações de domínio |
@@ -60,10 +62,13 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `RemoteIPType` | string | Tipo de endereço IP, por exemplo, Public, Private, Reserved, Loopback, Teredo, FourToSixMapping e Broadcast |
 | `RemotePort` | int | Porta TCP no dispositivo remoto que estava sendo conectado |
 | `AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
+| `InitiatingProcessFileSize` | long | Tamanho do arquivo que fez o processo responsável pelo evento |
 | `InitiatingProcessAccountDomain` | string | Domínio da conta que fez o processo responsável pelo evento |
 | `InitiatingProcessAccountName` | string | Nome de usuário da conta que correu o processo responsável pelo evento |
 | `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que correu o processo responsável pelo evento |
-| `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se eles fossem lançados em um download da Internet. Esses níveis de integridade influenciam as permissões para recursos |
+| `InitiatingProcessAccountUpn` | string | Nome UPN da conta que fez a correção do processo responsável pelo evento |
+| ` InitiatingProcessAccountObjectId` | string | Azure AD object ID of the user account that ran the process responsible for the event |
+| `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se fossem lançados em um download da Internet. Esses níveis de integridade influenciam as permissões para recursos |
 | `InitiatingProcessTokenElevation` | string | Tipo de token indicando a presença ou ausência da elevação de privilégio do Controle de Acesso de Usuário (UAC) aplicada ao processo que iniciou o evento |
 | `InitiatingProcessSHA1` | string | SHA-1 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessSHA256` | string | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível |

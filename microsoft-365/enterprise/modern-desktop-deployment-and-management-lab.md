@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: f7f6dcaa9c1e007f6b83f897539bdabe9faa0b96
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.openlocfilehash: 459b0fd246455f46a1c1ff497379487de9fdb61d
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780551"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142260"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows e do Office
 
@@ -99,7 +99,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* A versão de linha de base instalada 2002 pode ser atualizada para a Versão 2010 usando e a atualização no console. Use uma conexão de Internet de largura de banda larga para baixar esse conteúdo e aguarde de 30 a 45 minutos para provisionamento automático. O ambiente de laboratório requer um mínimo de 16 GB de memória disponível e 150 GB de espaço livre em disco. Para obter o desempenho ideal, recomenda-se 32 GB de memória disponível e 300 GB de espaço livre. O kit expira em 7 de fevereiro de 2021. Uma nova versão será publicada antes da expiração.
+* A versão de linha de base instalada 2002 pode ser atualizada para a Versão 2010 usando e a atualização no console. Use uma conexão de Internet de largura de banda larga para baixar esse conteúdo e aguarde de 30 a 45 minutos para provisionamento automático. O ambiente de laboratório requer um mínimo de 16 GB de memória disponível e 150 GB de espaço livre em disco. Para obter o desempenho ideal, recomenda-se 32 GB de memória disponível e 300 GB de espaço livre. O kit expira em 11 de fevereiro de 2021. Uma nova versão será publicada antes da expiração.
 
 ## <a name="additional-guidance"></a>Orientações adicionais
 

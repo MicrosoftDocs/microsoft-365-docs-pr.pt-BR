@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como planejar o planejamento de tópicos do Microsoft Viva
-ms.openlocfilehash: 65983f342b3277d33c7bfeb21d8481b1d3d5e817
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 2f7b85399f0b1f49e25aae1f1d4627413594f618
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107949"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150473"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Planejar tópicos do Microsoft Viva
 
@@ -30,11 +30,11 @@ Neste artigo, examinaremos estas decisões de planejamento:
 - Quais usuários você deseja dar permissões para criar ou editar tópicos no centro de tópicos
 - Qual nome você deseja dar ao seu centro de tópicos
 
-A segurança e a privacidade dos seus dados são respeitadas, e as experiências de tópicos não concedem aos usuários acesso adicional aos arquivos aos que eles não têm direitos. Recomendamos que você leia também a segurança e a privacidade [dos Tópicos](topic-experiences-security-privacy.md) do Microsoft Viva como parte do seu processo de planejamento.
+A segurança e a privacidade dos seus dados são respeitadas, e as experiências de tópico não concedem aos usuários acesso adicional aos arquivos aos que eles não têm direitos. Recomendamos que você leia também a segurança e a privacidade [dos Tópicos](topic-experiences-security-privacy.md) do Microsoft Viva como parte do seu processo de planejamento.
 
 ## <a name="requirements"></a>Requisitos
 
-Você deve ser um administrador global ou administrador do SharePoint para acessar o centro de administração do Microsoft 365 e configurar Tópicos.
+Você deve estar inscrito nos [Tópicos](https://www.microsoft.com/microsoft-viva/topics) do Viva e ser um administrador global ou administrador do SharePoint para acessar o centro de administração do Microsoft 365 e configurar Tópicos.
 
 Todos os usuários que usarão Tópicos exigem uma licença **de Experiências de** Tópico. A atribuição de licenças é [abordada em Configurar tópicos do Microsoft Viva.](set-up-topic-experiences.md)
 
@@ -57,7 +57,7 @@ Você pode copiar o modelo .csv abaixo:
 Site name,URL
 ```
 
-Não recomendamos escolher **Nenhum site porque** impede que os tópicos são criados ou atualizados automaticamente. No entanto, você pode escolher essa opção se quiser configurar Tópicos e adicionar sites mais tarde.
+Não recomendamos escolher Nenhum **site porque** impede que os tópicos são criados ou atualizados automaticamente. No entanto, você pode escolher essa opção se quiser configurar Tópicos e adicionar sites mais tarde.
 
 Recomendamos que você crie um processo para que os usuários ou gerentes de conhecimento solicitem que sites individuais sejam removidos da descoberta de tópicos, se necessário, em sua organização.
 
@@ -79,13 +79,13 @@ Recomendamos que você permita que todos em sua organização criem e editem tó
 
 Se você deseja limitar a criação e edição de tópicos a pessoas ou grupos específicos, crie um grupo de segurança para eles e especifique-o durante o processo de configuração.
 
-Você pode optar por não permitir que ninguém contribua com tópicos, no entanto, isso não é recomendado. Os gerentes de conhecimento ainda poderão editar e criar tópicos se você escolher essa opção.
+Você pode optar por não permitir que ninguém contribua para tópicos, no entanto, isso não é recomendado. Os gerentes de conhecimento ainda poderão editar e criar tópicos se você escolher essa opção.
 
 *Visualizadores de tópicos*
 
 Os visualizadores de tópicos podem ver informações em páginas de tópicos, nos resultados da pesquisa e quando os tópicos são realçados no conteúdo, como páginas do SharePoint. Os usuários só podem ver tópicos descobertos quando têm acesso aos arquivos e páginas em que o tópico foi descoberto.
 
-Ao configurar os visualizadores de tópicos, você pode escolher entre:
+Ao configurar os visualizadores de tópico, você pode escolher entre:
 
 - **Todos na minha organização**
 - **Somente pessoas ou grupos de segurança selecionados**
@@ -104,7 +104,7 @@ O arquivo .csv deve conter os seguintes parâmetros:
 - **Nome:** digite o nome do tópico que você deseja excluir. Há duas maneiras de fazer isso:
 - **MatchType-Exact/Partial**: digite se o nome digitado foi um *tipo de* combinação exato *ou* parcial.
     - Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).
-    - Parciais: você pode excluir todos os tópicos que têm uma palavra específica.  Por exemplo, *o arco* excluirá  todos os tópicos com o arco de palavras nele, como Arc *circle*, *Arc arc* ou *Training arc*. Observe que ele não excluirá tópicos nos quais o texto é incluído como parte de uma palavra, *como* Arquitetura .
+    - Parciais: você pode excluir todos os tópicos que têm uma palavra específica.  Por exemplo, *o arco* excluirá  todos os tópicos com o arco de palavras nele, como arco *círculo,* arco *de Arc arc arc ou* arco *de treinamento.* Observe que ele não excluirá tópicos nos quais o texto é incluído como parte de uma palavra, *como* Arquitetura .
 - **Significa (opcional)**: (também conhecido como expansão) Se você quiser excluir um acrônimo, digite as palavras que o acrônimo representa.
 
     ![Excluir tópicos no modelo CSV](../media/exclude-topics-csv.png) 
@@ -117,7 +117,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>Administração
 
-Quando você configura Tópicos, como parte do processo de configuração, um centro de tópicos é criado automaticamente. Pense em como você deseja nomear o centro de tópicos e o que você deseja que a URL seja. Você pode definir o nome e a URL como parte do processo de instalação e pode alterar o nome (mas não a URL) posteriormente no Centro de administração do Microsoft 365. Você só pode ter um centro de tópicos.
+Quando você configura Tópicos, como parte do processo de instalação, um centro de tópicos é criado automaticamente. Pense em como você deseja nomear o centro de tópicos e o que você deseja que a URL seja. Você pode definir o nome e a URL como parte do processo de instalação e pode alterar o nome (mas não a URL) posteriormente no Centro de administração do Microsoft 365. Você só pode ter um centro de tópicos.
 
 ## <a name="setup-checklist"></a>Lista de verificação de instalação
 

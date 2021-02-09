@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9fbd24185288265d698288e0d5e63e8b3c2afd10
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 1a00f7d5fb37cc9eea3f9454d473703084960864
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921841"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142928"
 ---
 # <a name="readiness-assessment-tools"></a>Ferramentas de avaliação de preparação
 
@@ -28,7 +28,7 @@ Para obter detalhes sobre como usar o verificador de avaliação de preparação
 
 A ferramenta online verifica as configurações no Microsoft Endpoint Manager (especificamente, Microsoft Intune), Azure Active Directory (Azure AD) e Microsoft 365 para garantir que funcionarão com a Área de Trabalho Gerenciada da Microsoft. A Área de Trabalho Gerenciada da Microsoft mantém os dados associados a essas verificações por 12 meses após a última vez que você executar uma verificação em sua organização do Azure AD (locatário). Após 12 meses, nós o manteremos no formato não identificado. Você pode optar por excluir os dados que coletamos.
 
-Qualquer pessoa com pelo menos a função de Administrador do Intune poderá executar essa ferramenta, mas duas das verificações[(](readiness-assessment-fix.md#conditional-access-policies) políticas de acesso condicional e autenticação [multifator](readiness-assessment-fix.md#multifactor-authentication) exigem permissões adicionais.
+Qualquer pessoa com pelo menos a função Leitor Global ou Administrador do Intune poderá executar essa ferramenta, mas duas das verificações[(](readiness-assessment-fix.md#conditional-access-policies) políticas de acesso condicional e autenticação [multifator](readiness-assessment-fix.md#multifactor-authentication) exigem permissões adicionais.
  
 A ferramenta de avaliação verifica estes itens:
 
@@ -43,7 +43,7 @@ A ferramenta de avaliação verifica estes itens:
 |Perfis de configuração do dispositivo     | Confirma se os perfis de configuração não estão atribuídos a todos os usuários ou a todos os dispositivos (os perfis de configuração não devem ser atribuídos a nenhum dispositivo da Área de Trabalho Gerenciada da Microsoft).      |
 |Restrições de tipo de dispositivo     | Verifica se os dispositivos Windows 10 em sua organização têm permissão para se inscrever no Intune        |
 |Página status do registro     | Confirma se a Página de Status do Registro não está habilitada      |
-|Registro no Intune     | Verifica se os dispositivos Windows 10 em sua organização do Azure AD são inscritos automaticamente no Intune         |
+|Registro do Intune     | Verifica se os dispositivos Windows 10 em sua organização do Azure AD são inscritos automaticamente no Intune         |
 |Microsoft Store para empresas     | Confirma se a Microsoft Store para Empresas está habilitada e sincronizada com o Intune        |
 |Autenticação de vários fatores | Verifica se a autenticação multifator não é aplicada às contas de serviço da Área de Trabalho Gerenciada da Microsoft.
 |Scripts do PowerShell     | Verifica se os scripts do Windows PowerShell *não estão* atribuídos de uma maneira que direcionaria dispositivos da Área de Trabalho Gerenciada da Microsoft    |
@@ -82,9 +82,9 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Resultado  |Significado  |
 |---------|---------|
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
-|Aviso    | Siga as etapas na ferramenta para ter a melhor experiência com o registro e os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
+|Aviso    | Siga as etapas na ferramenta para a melhor experiência com o registro e para os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
 |Não está pronto | *O registro falhará* se você não corrigir esses problemas. Siga as etapas na ferramenta para resolvê-las.        |
-|Erro | A função do Azure Active Director (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+|Error | A função do Azure Active Director (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
 
 ## <a name="after-enrollment"></a>Após o registro
 

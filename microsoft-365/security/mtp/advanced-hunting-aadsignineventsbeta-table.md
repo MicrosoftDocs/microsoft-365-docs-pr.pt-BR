@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b574717d0ba5621d85c8e73f36ddc72b062a1494
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 174db150920d2d95c043bb5d6e5a4593ea1ea39d
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931033"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145422"
 ---
 # <a name="aadsignineventsbeta"></a>AADSignInEventsBeta
 
@@ -35,7 +35,7 @@ ms.locfileid: "49931033"
 
 >[!IMPORTANT]
 > A tabela está atualmente na versão beta e está sendo oferecida a curto prazo para permitir que você cace os eventos de login do `AADSignInEventsBeta` Azure Active Directory (AAD). Eventualmente, moveremos todas as informações do esquema de logom para a `IdentityLogonEvents` tabela.<br><br>
-> Os clientes que podem acessar o Microsoft 365 Defender por meio da solução integrada do Microsoft Defender for Endpoint da Central de Segurança do Azure, mas não têm licenças para o Microsoft Defender for Office, o Microsoft Defender for Identity ou o Microsoft Cloud App Security, não poderão exibir esse esquema. 
+> Os clientes que podem acessar o Microsoft 365 Defender por meio da solução integrada do Microsoft Defender for Endpoint da Central de Segurança do Azure, mas não têm licenças para o Microsoft Defender para Office, o Microsoft Defender for Identity ou o Microsoft Cloud App Security, não poderão exibir esse esquema. 
 
  
 
@@ -74,7 +74,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `IsManaged`                       | int       | Indica se o dispositivo que iniciou a entrada é um dispositivo gerenciado (1) ou não um dispositivo gerenciado (0)                                                                         |
 | `IsCompliant`                     | int       | Indica se o dispositivo que iniciou a entrada é compatível (1) ou não compatível (0)                                                                                       |
 | `AuthenticationProcessingDetails` | string        | Detalhes sobre o processador de autenticação                                                                                                                                          |
-| `AuthenticationRequirement`       | string        | Tipo de autenticação necessário para entrar. Valores possíveis: multiFactorAuthentication (A MFA era necessária) e singleFactorAuthentication (nenhuma MFA era necessária).                |
+| `AuthenticationRequirement`       | string        | Tipo de autenticação necessário para entrar. Valores possíveis: multiFactorAuthentication (MFA era necessária) e singleFactorAuthentication (nenhuma MFA era necessária).                |
 | `TokenIssuerType`                 | int        | Indica se o emissor do token é o Azure Active Directory (0) ou os Serviços de Federação do Active Directory (1)                                                                             |
 | `RiskLevelAggregated`                       | int        | Nível de risco agregado durante a login. Valores possíveis: 0 (nível de risco agregado não definido), 1 (nenhum), 10 (baixo), 50 (médio) ou 100 (alto).                               |
 | `RiskDetails`                      | int        | Detalhes sobre o estado arriscado do usuário que se inscreveu                                                                                                                            |
@@ -85,8 +85,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `ConditionalAccessPolicies`       | string        | Detalhes das políticas de acesso condicional aplicadas ao evento de entrada                                                                                                             |
 | `ConditionalAccessStatus`         | int        | Status das políticas de acesso condicional aplicadas à entrada. Os valores possíveis são 0 (políticas aplicadas), 1 (falha na tentativa de aplicar políticas) ou 2 (políticas não aplicadas).      |
 | `IPAddress`                       | string        | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas                                                                                                  |
-| `CountryCode`                     | string        | Código de duas letras indicando o país onde o endereço IP do cliente está geolocalado                                                                                                    |
-| `State`                           | string        | Estado onde ocorreu a login, se disponível                                                                                                                                      |
+| `Country`                     | string        | Código de duas letras indicando o país onde o endereço IP do cliente está geolocalado                                                                                                    |
+| `State`                           | string        | Estado em que ocorreu a login, se disponível                                                                                                                                      |
 | `City`                            | string        | Cidade onde o usuário da conta está localizado                                                                                                                                              |
 | `Latitude`                        | string        | As coordenadas de norte para sul do local de login                                                                                                                              |
 | `Longitude`                       | string        | As coordenadas de leste para oeste do local de login                                                                                                                                |

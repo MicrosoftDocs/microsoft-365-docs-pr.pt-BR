@@ -15,17 +15,21 @@ ms.custom:
 description: Os administradores podem aprender a usar o insight de regras de correção de fluxo lento de emails no Centro de Conformidade e Segurança & para identificar e corrigir regras de fluxo de emails ineficientes ou desaprinciados (também conhecidas como regras de transporte) em sua organização.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef9f26994f563a5f9dad411f2276fd42c28496f9
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: f7f084735decda922b5bcc57c029f2b384114d30
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029121"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150779"
 ---
 # <a name="fix-slow-mail-flow-rules-insight-in-the-security--compliance-center"></a>Visão das regras de fluxo de emails lentas no Centro de Conformidade & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Regras de fluxo de emails ineficientes (também conhecidas como regras de transporte) podem levar a atrasos de fluxo de emails para sua organização. Esse insight relata regras de fluxo de emails que têm um impacto no fluxo de emails da sua organização. Exemplos desses tipos de regras incluem:
 
@@ -44,13 +48,13 @@ Você pode usar essa notificação para ajudá-lo a identificar e ajustar as reg
 Quando você clica **em Exibir detalhes** no widget, um flyout é exibido com mais informações:
 
 - **Regra:** você pode passar o mouse sobre o resumo para ver todas as condições, exceções e ações da regra. Você pode clicar no resumo para editar a regra no Centro de administração do Exchange (EAC).
-- **Número de mensagens avaliadas:** você pode [](message-trace-scc.md) clicar em Exibir mensagens de exemplo para ver os resultados do rastreamento de mensagens para um exemplo das mensagens que foram afetadas pela regra. 
+- **Número de mensagens avaliadas:** você pode [](message-trace-scc.md) clicar em Exibir mensagens **de** exemplo para ver os resultados do rastreamento de mensagens para um exemplo das mensagens que foram afetadas pela regra.
 - **Tempo médio gasto em cada mensagem**
 - **Tempo médio gasto em uma mensagem:** o valor intermediário que separa a metade superior dos dados da metade inferior do tempo.
 
-![Detalhes do flyout que aparece depois de clicar em Exibir detalhes no insight de regras de fluxo de emails lento corrigir](../../media/mfi-fix-slow-mail-flow-rules-details.png)
+![Detalhes do flyout que aparece depois de clicar em Exibir detalhes no insight de regras de fluxo de emails lentos de Correção](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-Para obter mais informações sobre condições e exceções em regras de fluxo de emails, consulte Condições e exceções de regras de fluxo de email [(predicados) no Exchange Online.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
+For more information about conditions and exceptions in mail flow rules, see [Mail flow rule conditions and exceptions (predicates) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions).
 
 ## <a name="see-also"></a>Confira também
 

@@ -12,17 +12,21 @@ ms.assetid: ''
 description: Os administradores podem aprender a usar os novos domínios que estão sendo encaminhados no painel fluxo de emails no Centro de Conformidade e Segurança para investigar quando seus usuários estão encaminhando mensagens para domínio & s externos para os quais nunca foram encaminhados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eb44f5d577d18fc38333cca5e8d2d862f288a2e0
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: a4429f1657861091082fdfaedb52c85cec3a0cc1
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029853"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150591"
 ---
 # <a name="new-domains-being-forwarded-email-insight-in-the-security--compliance-center"></a>Visão dos novos domínios que estão sendo encaminhados no Centro de Conformidade e Segurança & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Há razões comerciais válidas para encaminhar mensagens de email para destinatários externos em domínios específicos. No entanto, é suspeito quando os usuários em sua organização começam a encaminhar mensagens para um domínio para o qual ninguém em sua organização encaminhou mensagens (um novo domínio).
 
@@ -30,11 +34,11 @@ Essa condição pode indicar que as contas de usuário estão comprometidas. Se 
 
 Os **novos domínios que** estão sendo encaminhados no Centro de Conformidade e Segurança & [notifica](https://protection.office.com) quando os usuários em sua organização estão encaminhando mensagens para novos domínios.
 
-Esse insight só aparece quando o problema é detectado e aparece na página [de relatório de encaminhamento.](view-mail-flow-reports.md#forwarding-report)
+Esse insight só aparece quando o problema é detectado e aparece na página [do relatório de encaminhamento.](view-mail-flow-reports.md#forwarding-report)
 
 ![Email de visão geral sobre novos domínios encaminhados](../../media/mfi-new-domains-being-forwarded.png)
 
-Quando você clica no widget, um flyout é exibido, onde você pode encontrar mais detalhes sobre as mensagens encaminhadas, incluindo um link de volta para o relatório [de encaminhamento.](view-mail-flow-reports.md#forwarding-report)
+Quando você clica no widget, um flyout é exibido onde você pode encontrar mais detalhes sobre as mensagens encaminhadas, incluindo um link de volta para o relatório [de encaminhamento.](view-mail-flow-reports.md#forwarding-report)
 
 ![Detalhes do flyout que aparece depois de clicar nos novos domínios que estão sendo encaminhados insight de email](../../media/mfi-new-domains-being-forwarded-details.png)
 

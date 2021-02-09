@@ -20,12 +20,12 @@ mms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3d4c72d78fc6a31ec3075d4e7a889e191e639829
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: b810d7b15ef47a33a0675086219d2193cea00f2e
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029369"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145014"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -46,6 +46,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
 | `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Microsoft 365 |
 | `SenderFromAddress` | string | Endereço de email do remetente no cabeçalho DE, visível para os destinatários dos seus clientes de email |
+| `SenderDisplayName` | string | Nome do remetente exibido no livro de endereços, normalmente uma combinação de um nome ou nome determinado, uma inicial do meio e um sobrenome ou sobrenome |
+| `SenderObjectId` | string | Identificador exclusivo da conta do remetente no Azure AD |
 | `RecipientEmailAddress` | string | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
 | `RecipientObjectId` | string | Identificador exclusivo do destinatário do email no Azure AD |
 | `FileName` | string | Nome do arquivo ao qual a ação gravada foi aplicada |
@@ -53,12 +55,10 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `MalwareFilterVerdict` | string | Veredito da pilha de filtragem de email sobre se o email contém malware: Malware, Não malware |
 | `MalwareDetectionMethod` | string | Método usado para detectar malware no email: mecanismo antimalware, reputação do arquivo, Anexos seguros |
-| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp. |
-| `SenderDisplayName` | string | Nome do remetente exibido no livro de endereços, normalmente uma combinação de um nome ou nome determinado, uma inicial do meio e um sobrenome ou sobrenome |
-| `SenderObjectId` | string | Identificador exclusivo da conta do remetente no Azure AD |
 | `ThreatTypes` | string | Veredito da pilha de filtragem de email sobre se o email contém malware, phishing ou outras ameaças |
 | `ThreatNames` | string | Nome da detecção de malware ou outras ameaças encontradas |
 | `DetectionMethods` | string | Métodos usados para detectar malware, phishing ou outras ameaças encontradas no email |
+| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp. |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

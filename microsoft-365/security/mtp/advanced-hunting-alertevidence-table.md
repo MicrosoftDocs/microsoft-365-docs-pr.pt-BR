@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c01b0aae1eff3d9b4add632aff0f13cb56941a30
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 7457084d49c5a9fef4ef79abc7702c6b473efcd2
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932293"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145280"
 ---
 # <a name="alertevidence"></a>AlertEvidence
 
@@ -59,6 +59,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AccountDomain` | string | Domínio da conta |
 | `AccountSid` | string | Sid (Identificador de Segurança) da conta |
 | `AccountObjectId` | string | Identificador exclusivo da conta no Azure Active Directory |
+| `AccountUpn` | string | Nome UPN da conta |
 | `DeviceId` | string | Identificador exclusivo do dispositivo no serviço |
 | `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `LocalIP` | string | Endereço IP atribuído ao dispositivo local usado durante a comunicação |
@@ -68,6 +69,9 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `Application` | string | Aplicativo que realizou a ação gravada |
 | `ProcessCommandLine` | string | Linha de comando usada para criar o novo processo |
 | `AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
+| `RegistryKey` |string | Chave do Registro à que a ação gravada foi aplicada |
+| `RegistryValueName` |string | Nome do valor do Registro ao que a ação gravada foi aplicada |
+| `RegistryValueData` |string | Dados do valor do Registro ao que a ação gravada foi aplicada |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

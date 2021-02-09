@@ -14,17 +14,21 @@ ms.custom:
 description: Os administradores podem aprender a usar o insight e o relatório de autenticação SMTP no painel de fluxo de emails no Centro de Conformidade & e Segurança para monitorar os envios de email em sua organização que usam SMTP autenticado (SMTP AUTH) para enviar mensagens de email.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: afceb767f6ebfeed96deb6362e05bb088b548c3d
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 3476ee2f9388245fb105a0910fa7b7d11ec3aeee
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029157"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150238"
 ---
 # <a name="smtp-auth-clients-insight-and-report-in-the-security--compliance-center"></a>Insight e relatório de clientes de Auth SMTP no Centro de Conformidade e & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Os insights dos clientes de **Auth SMTP** no painel de fluxo de emails e no relatório de clientes de [Auth SMTP](#smtp-auth-clients-report) associados no Centro de Conformidade [do &](https://protection.office.com) de Segurança destacam o uso do protocolo de envio de cliente SMTP AUTH por usuários ou contas do sistema em sua organização. [](mail-flow-insights-v2.md) Esse protocolo herdado (que usa o ponto de extremidade smtp.office365.com) só oferece autenticação Básica e é suscetível a ser usado por contas comprometidas para enviar emails. O insight e o relatório permitem que você verifique se há atividades incomuns para envios de email SMTP AUTH. Ele também mostra os dados de uso do TLS para clientes ou dispositivos que usam SMTP AUTH.
 
@@ -32,7 +36,7 @@ O widget indica o número de usuários ou contas de serviço que usaram o protoc
 
 ![Widget de clientes de Auth SMTP no painel Fluxo de emails no Centro de Conformidade e Segurança & Segurança](../../media/mfi-smtp-auth-clients-report-widget.png)
 
-Se você clicar no número de mensagens no widget, um flyout de clientes **de Auth SMTP** será exibido. O flyout fornece uma exibição agregada do uso e volumes do TLS da última semana.
+Se você clicar no número de mensagens no widget, um flyout de clientes **de Auth SMTP** será exibido. O flyout fornece uma exibição agregada do uso e dos volumes do TLS da última semana.
 
 ![Detalhes do flyout depois de clicar no widget de clientes de Auth SMTP no painel de fluxo de emails](../../media/mfi-smtp-auth-clients-report-details.png)
 
@@ -40,7 +44,7 @@ Você pode clicar no link de relatório de clientes de **Auth SMTP** para ir par
 
 ## <a name="smtp-auth-clients-report"></a>Relatório de clientes de autenticação SMTP
 
-### <a name="report-view-for-the-smtp-auth-clients-report"></a>Exibição de relatório para o relatório de clientes de Auth SMTP
+### <a name="report-view-for-the-smtp-auth-clients-report"></a>Report view for the SMTP Auth clients report
 
 Por padrão, o relatório mostra dados dos últimos 7 dias, mas os dados estão disponíveis para os últimos 90 dias.
 

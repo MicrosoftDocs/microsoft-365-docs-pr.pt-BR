@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 56d35e2812d895215cbe76deb6791695380abc50
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 76a2389eace73ee9d21962c8c618e0dac9994de0
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929710"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145458"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -35,16 +35,17 @@ ms.locfileid: "49929710"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-A tabela no esquema de busca avançada contém informações sobre URLs em emails e `EmailUrlInfo` anexos processados pelo Microsoft Defender para Office 365. [](advanced-hunting-overview.md) Use esta referência para criar consultas que retornam informações desta tabela.
+A tabela no esquema de busca avançada contém informações sobre URLs em emails e `EmailUrlInfo` anexos processados pelo Microsoft Defender para Office 365. [](advanced-hunting-overview.md) Use esta referência para criar consultas que retornam informações desta tabela. 
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `UrlId` | string | Identificador exclusivo da URL no assunto, no corpo ou no anexo de email |
 | `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Microsoft 365 |
 | `Url` | string | URL completa no assunto, no corpo ou no anexo de email |
+| `UrlDomain` | string | Nome de domínio ou nome de host da URL |
+| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

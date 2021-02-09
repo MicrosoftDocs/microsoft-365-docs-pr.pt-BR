@@ -1,5 +1,5 @@
 ---
-title: Revisar e aprovar ações de correção pendentes em investigação e resposta automatizadas
+title: Revisar e gerenciar ações de correção no Microsoft Defender para Office 365
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção
 f1.keywords:
 - NOCSH
@@ -7,8 +7,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 audience: ITPro
-ms.topic: article
-ms.service: O365-seccomp
+ms.topic: how-to
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,45 +15,61 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Saiba mais sobre as ações de correção em recursos de investigação e resposta automatizados no Microsoft defender para Office 365 plano 2.
-ms.openlocfilehash: 9a1fdb4bec5168dfcd816dbce7da01f930e38ae1
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Saiba mais sobre as ações de correção em recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
+ms.technology: mdo
+ms.prod: m365-security
+ms.date: 01/29/2021
+ms.openlocfilehash: bcff8f12133ea16e3d91e293943be1593eaf9659
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615187"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142688"
 ---
-# <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Exibir ações de correção pendentes ou concluídas após uma investigação automatizada no Office 365
+# <a name="review-and-manage-remediation-actions-in-office-365"></a>Revisar e gerenciar ações de correção no Office 365
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+Como investigações automatizadas em emails & conteúdo de colaboração  resultam em vereditos, como Mal-intencionados ou *suspeitos,* determinadas ações de correção são criadas. No Microsoft Defender para Office 365, as ações de correção podem incluir:
+- Bloqueando uma URL (hora do clique)
+- Exclusão suave de mensagens de email ou clusters
+- Quarentena de emails ou anexos de email
+- Como desligar o encaminhamento de email externo
 
-
-
-![Página de ação de investigações aéreas](../../media/air-investigationactionspage.png)
+Essas ações de correção não serão tomadas, a menos e até que sua equipe de operações de segurança as aprove. Recomendamos analisar e aprovar todas as ações pendentes assim que possível para que suas investigações automatizadas seja concluídas em tempo hábil. Em alguns casos, você pode desfazer uma ação de correção.
 
 ## <a name="approve-or-reject-pending-actions"></a>Aprovar (ou rejeitar) ações pendentes
 
-Ao exibir os [detalhes de uma investigação](air-view-investigation-results.md), você pode aprovar ou rejeitar qualquer ação de correção pendente. É recomendável fazer isso assim que possível para que suas investigações automatizadas sejam concluídas.
+1. Vá para a central de segurança do Microsoft 365 [https://security.microsoft.com](https://security.microsoft.com) ) e entre.
+2. No painel de navegação, selecione Central **de ações.**
+3. Na guia **Pendente,** revise a lista de ações que estão aguardando aprovação.
+4. Selecione um item na lista. Seu painel de sobrevoo é aberto. 
+5. Revise as informações no painel do flyout e, em seguida, tome uma das seguintes etapas:
+   - Selecione **a página Abrir investigação** para exibir mais detalhes sobre a investigação.
+   - Selecione **Aprovar** para iniciar uma ação pendente.
+   - Selecione **Rejeitar** para impedir que uma ação pendente seja tomada.
 
-> [!IMPORTANT]
-> As permissões apropriadas são necessárias para aprovar ou rejeitar ações de correção. Confira [as permissões necessárias para usar os recursos de ar](office-365-air.md#required-permissions-to-use-air-capabilities).
+## <a name="undo-one-remediation-action"></a>Desfazer uma ação de correção
 
-1. Acesse <https://protection.office.com> e entre. Isso leva você para o centro de conformidade de & de segurança.
+1. Vá para a Central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.
+2. Na guia **Histórico,** selecione uma ação que você deseja desfazer.
+3. No painel no lado direito da tela, selecione **Desfazer**.
 
-2. Vá para investigações de **Gerenciamento de ameaças** \> .
+## <a name="undo-multiple-remediation-actions"></a>Desfazer várias ações de correção
 
-3. Na lista de investigações, selecione um item na coluna **ID** .
+1. Vá para a Central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.
+2. Na guia **Histórico,** selecione as ações que você deseja desfazer. Certifique-se de selecionar itens que tenham o mesmo tipo de ação. Um painel de sobrevoo é aberto.
+3. No painel do flyout, selecione Desfazer.
 
-4. Selecione a guia **ações** .
+## <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Para remover um arquivo da quarentena em vários dispositivos
 
-5. Selecione um item na lista. (Isso ativa os botões aprovar e rejeitar).
-
-6. Revise as informações disponíveis para o (s) item (ns) que você selecionou e, em seguida, aprove ou rejeite a (s) ação (ões).
-   - **Aprovar** permite que a correção seja iniciada.
-   - **Rejeitar** não realiza mais nenhuma ação
+1. Vá para a Central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.
+2. Na guia **Histórico,** selecione um arquivo que tenha o arquivo de quarentena do tipo **Ação.**
+3. No painel no lado direito da tela, selecione Aplicar a **X mais instâncias** deste arquivo e selecione **Desfazer.**
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Detalhes e resultados de uma investigação automatizada no Office 365](air-view-investigation-results.md)
+- [Usar o Explorador de Ameaças](threat-explorer.md)
+- [Como relatar falsos positivos/negativos em recursos automatizados de investigação e resposta](air-report-false-positives-negatives.md)
 
-- [Usar o explorador de ameaças](threat-explorer.md)
+## <a name="see-also"></a>Confira também
+
+- [Exibir detalhes e resultados de uma investigação automatizada no Office 365](air-view-investigation-results.md)

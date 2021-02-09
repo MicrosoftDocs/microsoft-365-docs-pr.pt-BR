@@ -12,23 +12,27 @@ ms.assetid: ''
 description: Os administradores podem aprender a usar os novos usuários que encaminham informações de & email no Centro de Conformidade e Segurança para investigar quando os usuários em sua organização estão encaminhando mensagens para novos domínios.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: af991cb0af20a0f48bc5283d4e4fb26ea75d6ba6
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 7b86d726979991a55e7d4e43bf3581a4a664ee4f
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029865"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150250"
 ---
 # <a name="new-users-forwarding-email-insight-in-the-security--compliance-center"></a>Novos usuários encaminhando informações de email no Centro de Conformidade e & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 É suspeito quando novas contas de usuário em sua organização começam a encaminhar mensagens de email para domínios externos.
 
 Os **novos domínios** que estão sendo encaminhado [& s](https://protection.office.com) no Centro de Conformidade e Segurança notifica você quando usuários recém-criados em sua organização estão encaminhando mensagens para domínios externos. Essa condição pode indicar que contas de administrador comprometidas foram usadas para criar novos usuários. Se você suspeitar que as contas foram comprometidas, confira [Responder a uma conta de email comprometida.](responding-to-a-compromised-email-account.md)
 
-Esse insight só aparece quando o problema é detectado e aparece na página [de relatório de encaminhamento.](view-mail-flow-reports.md#forwarding-report)
+Esse insight só aparece quando o problema é detectado e aparece na página [do relatório de encaminhamento.](view-mail-flow-reports.md#forwarding-report)
 
 ![Visão geral sobre novos usuários encaminhando email](../../media/mfi-new-users-forwarding-email.png)
 
@@ -102,7 +106,7 @@ Se você selecionar uma linha da tabela, um flyout **Detalhes** aparecerá com a
 - **Detalhes**
 - **Count**
 - **Data de início**
-- **Recomendação:** a partir daqui, você pode clicar no link para gerenciar o usuário no centro de administração do Microsoft 365.
+- **Recomendação:** a partir daqui, você pode clicar no link para gerenciar o usuário no Centro de administração do Microsoft 365.
 
 ![Detalhes do flyout da tabela de detalhes da exibição Novos usuários de encaminhamento no relatório de modificações de encaminhamento](../../media/mfi-forwarding-modifications-report-new-forwarding-users-view-details-table-details.png)
 
@@ -110,4 +114,4 @@ Para voltar para a exibição de relatórios, clique em **Exibir relatório.**
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações de fluxo de email no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)
+Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações sobre o fluxo de emails no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)

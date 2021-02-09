@@ -13,23 +13,27 @@ ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: Os administradores podem saber mais sobre o insight de fluxo de emails de saída e de entrada no painel de fluxo de emails no Centro de Conformidade & e Segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e46a0ebf0c14e31462d1e86d8a8d8c08486337af
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: fcce6981369217f21ace5fdf2abbf23ca8606569
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029817"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150803"
 ---
 # <a name="outbound-and-inbound-mail-flow-insight-in-the-security--compliance-center"></a>Visão do fluxo de emails de saída e de entrada no Centro de Conformidade e & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-O insight & **de** fluxo de [](mail-flow-insights-v2.md) emails de saída e de entrada no painel fluxo [](view-mail-flow-reports.md#connector-report) de emails [no](https://protection.office.com) Centro de Conformidade e Segurança combina as informações do relatório conector e do relatório de visão geral **do TLS** anterior em um só lugar.
+O insight & **de** fluxo de [](mail-flow-insights-v2.md) emails de saída e de entrada no painel Fluxo [](view-mail-flow-reports.md#connector-report) de emails [no](https://protection.office.com) Centro de Conformidade e Segurança combina as informações do relatório do Conector e do relatório de visão geral do **TLS** anterior em um só lugar.
 
 O widget exibe a criptografia TLS usada para a conexão quando as mensagens são entregues de e para sua organização. As conexões estabelecidas com outros serviços de email são criptografadas pelo TLS quando o TLS é oferecido por ambos os lados. O widget oferece um instantâneo da última semana de fluxo de emails.
 
-![Widget de fluxo de emails de saída e de entrada no painel de fluxo de emails no Centro de Conformidade e & Segurança](../../media/mfi-outbound-and-inbound-mail-flow-report-widget.png)
+![Widget de fluxo de emails de saída e de entrada no painel fluxo de emails no Centro de Conformidade e & Segurança](../../media/mfi-outbound-and-inbound-mail-flow-report-widget.png)
 
 As informações no widget estão relacionadas aos conectores e à proteção de mensagens TLS no Microsoft 365. Para obter mais informações, consulte estes tópicos:
 

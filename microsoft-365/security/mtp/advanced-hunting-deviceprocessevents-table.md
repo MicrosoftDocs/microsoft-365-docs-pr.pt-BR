@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7ad4fa530c3bc44169f7785aad95a3205f2cb8d9
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 6f94b861aa73d01f9e906d41bc52a9724552cd33
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931141"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145506"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 
@@ -57,16 +57,20 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `MD5` | string | Hash MD5 do arquivo ao que a ação gravada foi aplicada |
 | `ProcessId` | int | ID do processo (PID) do processo recém-criado |
 | `ProcessCommandLine` | string | Linha de comando usada para criar o novo processo |
-| `ProcessIntegrityLevel` | string | Nível de integridade do processo recém-criado. O Windows atribui níveis de integridade a processos com base em determinadas características, como se fossem lançados de um download pela Internet. Esses níveis de integridade influenciam as permissões para recursos |
-| `ProcessTokenElevation` | string | Tipo de token indicando a presença ou ausência da elevação de privilégio do Controle de Acesso de Usuário (UAC) aplicada ao processo recém-criado |
+| `ProcessIntegrityLevel` | string | Nível de integridade do processo recém-criado. O Windows atribui níveis de integridade a processos com base em determinadas características, como se eles fossem lançados de um download pela Internet. Esses níveis de integridade influenciam as permissões para recursos |
+| `ProcessTokenElevation` | string | Indica o tipo de elevação do token aplicado ao processo recém-criado. Valores possíveis: TokenElevationTypeLimited (restrito), TokenElevationTypeDefault (padrão) e TokenElevationTypeFull (elevado) |
 | `ProcessCreationTime` | datetime | Data e hora em que o processo foi criado |
 | `AccountDomain` | string | Domínio da conta |
 | `AccountName` | string | Nome de usuário da conta |
 | `AccountSid` | string | Sid (Identificador de Segurança) da conta |
+| `AccountUpn` | string | Nome UPN da conta |
+| `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
 | `LogonId` | string | Identificador de uma sessão de logon. Esse identificador é exclusivo no mesmo computador somente entre reinicializações |
-| `InitiatingProcessAccountDomain` | string | Domínio da conta que correu o processo responsável pelo evento |
-| `InitiatingProcessAccountName` | string | Nome de usuário da conta que fez a correção do processo responsável pelo evento |
-| `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que fez a correção do processo responsável pelo evento |
+| `InitiatingProcessAccountDomain` | string | Domínio da conta que fez o processo responsável pelo evento |
+| `InitiatingProcessAccountName` | string | Nome de usuário da conta que correu o processo responsável pelo evento |
+| `InitiatingProcessAccountSid` | string | Identificador de segurança (SID) da conta que correu o processo responsável pelo evento |
+| `InitiatingProcessAccountUpn` | string | Nome UPN da conta que fez a correção do processo responsável pelo evento |
+| `InitiatingProcessAccountObjectId` | string | Azure AD object ID of the user account that ran the process responsible for the event |
 | `InitiatingProcessLogonId` | string | Identificador de uma sessão de logon do processo que iniciou o evento. Esse identificador é exclusivo no mesmo computador somente entre reinicializações. |
 | `InitiatingProcessIntegrityLevel` | string | Nível de integridade do processo que iniciou o evento. O Windows atribui níveis de integridade a processos com base em determinadas características, como se fossem lançados em um download da Internet. Esses níveis de integridade influenciam as permissões para recursos |
 | `InitiatingProcessTokenElevation` | string | Tipo de token indicando a presença ou ausência da elevação de privilégio do Controle de Acesso de Usuário (UAC) aplicada ao processo que iniciou o evento |
@@ -74,6 +78,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessSHA256` | string | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `InitiatingProcessMD5` | string | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessFileName` | string | Nome do processo que iniciou o evento |
+| `InitiatingProcessFileSize` | long | Tamanho do arquivo que fez o processo responsável pelo evento |
 | `InitiatingProcessId` | int | ID do processo (PID) do processo que iniciou o evento |
 | `InitiatingProcessCommandLine` | string | Linha de comando usada para executar o processo que iniciou o evento |
 | `InitiatingProcessCreationTime` | datetime | Data e hora em que o processo que iniciou o evento foi iniciado |
@@ -83,6 +88,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessParentCreationTime` | datetime | Data e hora em que o pai do processo responsável pelo evento foi iniciado |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 | `AppGuardContainerId` | string | Identificador do contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
+| `AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
+| `FileSize` | long | Tamanho do arquivo em bytes |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

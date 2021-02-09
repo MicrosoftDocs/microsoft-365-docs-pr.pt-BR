@@ -14,17 +14,21 @@ ms.custom:
 description: Os administradores podem aprender a usar o insight corrigir possíveis & loop de email no painel fluxo de emails no Centro de Conformidade e Segurança para identificar e corrigir loops de email em sua organização.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f08c27c761cdfe4acbbd8cf80e8ab6da8012b55f
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 3c9607f053fb5011b8c8af3c8bb2073a9d022909
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029889"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150226"
 ---
 # <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a>Corrigir informações de loop de email possíveis no Centro de Conformidade & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Os loops de email são ruins porque:
 

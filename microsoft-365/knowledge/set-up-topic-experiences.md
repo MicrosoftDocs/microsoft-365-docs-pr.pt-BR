@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como configurar tópicos do Microsoft Viva
-ms.openlocfilehash: e8cfe1d849ba5df903f377fd001a8d067f80b608
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 6bd0d3eca653ae44e46b410ef3ac55fe11629a6b
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107855"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150495"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Configurar tópicos do Microsoft Viva
 
@@ -23,7 +23,7 @@ Você pode usar o Centro de administração do Microsoft 365 para configurar e c
 
 É importante planejar a melhor maneira de configurar e configurar tópicos em seu ambiente. Certifique-se de [ler Plan for Microsoft Viva Topics](plan-topic-experiences.md) antes de começar os procedimentos deste artigo.
 
-Você deve ser um administrador global ou administrador do SharePoint para acessar o centro de administração do Microsoft 365 e configurar Tópicos.
+Você deve estar inscrito nos [Tópicos](https://www.microsoft.com/microsoft-viva/topics) do Viva e ser um administrador global ou administrador do SharePoint para acessar o centro de administração do Microsoft 365 e configurar Tópicos.
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
@@ -74,7 +74,7 @@ Para configurar tópicos
 
     - **Nome:** digite o nome do tópico que você deseja excluir. Há duas maneiras de fazer isso:
         - Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).
-        - Parciais: você pode excluir todos os tópicos que têm uma palavra específica.  Por exemplo, *o arco* excluirá  todos os tópicos com o arco de palavras nele, como arco *círculo,* arco *de Arc arc arc ou* arco *de treinamento.* Observe que ele não excluirá tópicos nos quais o texto é incluído como parte de uma palavra, *como* Arquitetura .
+        - Parciais: você pode excluir todos os tópicos que têm uma palavra específica.  Por exemplo, *o arco* excluirá  todos os tópicos com o arco de palavras nele, como Arc *circle*, *Arc arc* ou *Training arc*. Observe que ele não excluirá tópicos nos quais o texto é incluído como parte de uma palavra, *como* Arquitetura .
     - **Significa (opcional)**: se você quiser excluir um acrônimo, digite as palavras que o acrônimo significa.
     - **MatchType-Exact/Partial**: digite se o nome digitado foi um *tipo de* combinação exato *ou* parcial.
 
@@ -92,7 +92,7 @@ Para configurar tópicos
     > [!Note] 
     > Embora essa configuração permita que você selecione qualquer usuário em sua organização, somente os usuários que têm licenças de Experiências de Tópico atribuídas a eles poderão exibir tópicos.
 
-7. Na página **Permissões de gerenciamento de tópicos,** escolha quem poderá criar, editar ou gerenciar tópicos. Na seção **Quem pode criar e editar tópicos,** você pode selecionar:
+7. Na página **Permissões para gerenciamento de tópicos,** escolha quem poderá criar, editar ou gerenciar tópicos. Na seção **Quem pode criar e editar tópicos,** você pode selecionar:
     - **Todos na minha organização**
     - **Somente pessoas ou grupos de segurança selecionados**
     - **Ninguém**
@@ -121,7 +121,7 @@ Para configurar tópicos
 
     ![Configurações aplicadas](../media/ksetup7.png)    
 
-## <a name="assign-licenses"></a>Atribua licenças
+## <a name="assign-licenses"></a>Atribuir licenças
 
 Depois de configurar as experiências de tópico, você deve atribuir licenças para os usuários que usarão Tópicos. Somente os usuários com uma licença podem ver informações sobre tópicos, incluindo destaques, cartões de tópicos, páginas de tópicos e o centro de tópicos. 
 
@@ -131,7 +131,7 @@ Atribuição de licenças:
 
 2. Selecione os usuários que você deseja licenciar e clique em **Licenças e aplicativos.**
 
-3. Em **Aplicativos,** certifique-se **de que a Pesquisa de Conectores do Graph com Índice** e **Tópicos do Viva estão** selecionadas.
+3. Em **Aplicativos,** certifique-se **de que a Pesquisa de Conectores do Graph com Experiências** de Índice e **Tópicos** estão selecionadas.
 
 4. Clique em **Salvar alterações**.
 

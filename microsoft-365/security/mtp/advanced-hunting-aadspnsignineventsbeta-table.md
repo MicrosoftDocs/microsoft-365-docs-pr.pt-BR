@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 172c400df3adea70a2e2d2e37547fa39e0d3b9cf
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 3eba2459fd9a0af1963ca8d1446b22fc0b1bdb93
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928613"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145398"
 ---
 # <a name="aadspnsignineventsbeta"></a>AADSpnSignInEventsBeta
 
@@ -63,7 +63,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `ResourceId`           | string        | Identificador exclusivo do recurso acessado                                                                                                      |
 | `ResourceTenantId`     | string        | Identificador exclusivo do locatário do recurso acessado                                                                                        |
 | `IPAddress`            | string        | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas                                                              |
-| `CountryCode`          | string        | Código de duas letras indicando o país onde o endereço IP do cliente está geolocalado                                                                |
+| `Country`          | string        | Código de duas letras indicando o país onde o endereço IP do cliente está geolocalado                                                                |
 | `State`                | string        | Estado em que ocorreu a login, se disponível                                                                                                  |
 | `City`                 | string        | Cidade onde o usuário da conta está localizado                                                                                                          |
 | `Latitude`             | string        | As coordenadas de norte para sul do local de login                                                                                          |

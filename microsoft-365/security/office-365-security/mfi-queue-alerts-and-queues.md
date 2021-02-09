@@ -12,17 +12,21 @@ ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Os administradores podem aprender a usar o & widget Filas no painel Fluxo de emails no Centro de Conformidade e Segurança para monitorar o fluxo de emails malsucedido para suas organizações locais ou parceiras em conectores de saída.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 73e97cbbd05e298013e9e686053a969d587ad5cf
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 94e8a1f3b54c3738c21e94ba85ae4f1d3f953498
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029145"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150166"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Informações sobre filas no Centro de Conformidade & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Quando as mensagens não puderem ser enviadas de sua organização para seus servidores de email locais ou parceiros usando conectores, as mensagens serão en filas no Microsoft 365. Exemplos comuns que causam essa condição são:
 
@@ -37,7 +41,7 @@ Se o volume de email na fila exceder o limite predefinido (o valor padrão é 20
 
 - Um alerta é exibido em **Alertas** recentes do painel Alertas no Centro de Conformidade e Segurança [&](https://protection.office.com) ( Painel de **Alertas** \>  ou <https://protection.office.com/alertsdashboard> ).
 
-  ![Alertas recentes no painel Alertas no Centro de Conformidade e Segurança & segurança](../../media/mfi-queued-messages-alert.png)
+  ![Alertas recentes no painel Alertas no Centro de Conformidade e & Segurança](../../media/mfi-queued-messages-alert.png)
 
 - Os administradores receberão uma notificação por email com base na configuração da política de alerta padrão chamada **Mensagens que foram adiadas.** Para definir as configurações de notificação para esse alerta, consulte a próxima seção.
 
@@ -45,7 +49,7 @@ Se o volume de email na fila exceder o limite predefinido (o valor padrão é 20
 
 ## <a name="customize-queue-alerts"></a>Personalizar alertas de fila
 
-1. No Centro [de Conformidade & Segurança,](https://protection.office.com)vá para Políticas **de** \> **Alertas ou** <https://protection.office.com/alertpolicies> abra.
+1. In the [Security & Compliance Center](https://protection.office.com), go to **Alerts** \> **Alert policies** or open <https://protection.office.com/alertpolicies> .
 
 2. Na página **Políticas de alerta,** encontre e selecione a política chamada **Mensagens que foram atrasadas.**
 
@@ -53,7 +57,7 @@ Se o volume de email na fila exceder o limite predefinido (o valor padrão é 20
 
    ![As mensagens atrasaram detalhes da política de alerta no Centro de Conformidade e & Segurança](../../media/mfi-queued-messages-alert-policy.png)
 
-   - **Status**: Você pode alternar ou desligar o alerta.
+   - **Status:** você pode a adoção ou re alternância do alerta.
 
    - **Destinatários de email** e **limite de notificação diária:** clique **em Editar** para definir as seguintes configurações:
 
@@ -83,11 +87,11 @@ Se você clicar no número de mensagens no widget, um flyout Mensagens **em** fi
 - **Servidor de destino**
 - **Último endereço IP**
 - **Último erro**
-- **Como corrigir:** Problemas comuns e soluções estão disponíveis. Se for um **link Corrigir agora** está disponível, clique nele para corrigir o problema. Caso contrário, clique em qualquer link disponível para obter mais informações sobre o erro e possíveis soluções.
+- **Como corrigir:** problemas comuns e soluções estão disponíveis. Se for um **link Corrigir agora** está disponível, clique nele para corrigir o problema. Caso contrário, clique em qualquer link disponível para obter mais informações sobre o erro e possíveis soluções.
 
 ![Detalhes depois de clicar no insight Filas no painel Fluxo de emails](../../media/mfi-queues-details.png)
 
-O mesmo flyout é exibido depois que você **clica** em Exibir fila nos detalhes de um alerta de **atraso de** mensagens.
+O mesmo flyout é exibido depois que você clica **em** Exibir fila nos detalhes de um alerta de **atraso de** mensagens.
 
 ![Mensagens atrasaram detalhes de alerta no Centro de Conformidade e Segurança & segurança](../../media/mfi-queued-messages-alert-details.png)
 

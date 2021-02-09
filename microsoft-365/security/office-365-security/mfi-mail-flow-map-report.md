@@ -14,17 +14,21 @@ ms.custom:
 description: Os administradores podem aprender a usar o mapa de fluxo de emails no painel Fluxo de emails no Centro de Conformidade e Segurança para visualizar e controlar como os emails fluem de e para sua organização sobre conectores e sem usar conectores. &
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c07730f3abcec8905285cdfdf1579ffb71573ec1
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 87a5780bd2485ba6ad3b295c09a30a4d7fc34277
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029913"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150555"
 ---
 # <a name="mail-flow-map-in-the-security--compliance-center"></a>Mapa de fluxo de emails no Centro de Conformidade & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 O **mapa de fluxo de** emails no painel [Fluxo](mail-flow-insights-v2.md) de emails no Centro de Conformidade e Segurança & [fornece](https://protection.office.com) informações sobre como os emails fluem pela sua organização. Você pode usar essas informações para aprender padrões, identificar anomalias e corrigir problemas à medida que eles ocorrem.
 
@@ -74,4 +78,4 @@ Para voltar para a exibição de relatórios, clique em **Exibir relatório.**
 
 ## <a name="see-also"></a>Confira também
 
-Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações sobre o fluxo de emails no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)
+Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações de fluxo de email no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)
