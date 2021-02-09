@@ -1,9 +1,9 @@
 ---
-title: Como relatar falsos positivos ou falsos negativos seguindo a investigação automatizada no Microsoft defender para Office 365
-description: Algo estava perdido ou erroneamente detectado pelo ar no Microsoft defender para Office 365? Saiba como enviar falsos positivos ou falsos negativos para a Microsoft para análise.
+title: Como relatar falsos positivos ou falsos negativos após investigação automatizada no Microsoft Defender para Office 365
+description: Algo foi perdido ou detectado incorretamente pelo AIR no Microsoft Defender para Office 365? Saiba como enviar falsos positivos ou falsos negativos à Microsoft para análise.
 keywords: automatizado, investigação, alerta, gatilho, ação, correção, falso positivo, falso negativo
 search.appverid: met150
-ms.prod: microsoft-365-enterprise
+ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
@@ -11,88 +11,77 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 09/29/2020
+ms.date: 01/29/2021
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom:
 - autoir
-ms.openlocfilehash: 0fe8891f5ea6af215791c5f4321a93667a9d58f0
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.openlocfilehash: 4ccc023a72ca450b1f0a433410206ccce59cb5f1
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616171"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142969"
 ---
-# <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a><span data-ttu-id="51524-105">Como relatar falsos positivos/negativos em recursos de investigação e resposta automatizados</span><span class="sxs-lookup"><span data-stu-id="51524-105">How to report false positives/negatives in automated investigation and response capabilities</span></span>
+# <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a><span data-ttu-id="f4e01-105">Como relatar falsos positivos/negativos em recursos automatizados de investigação e resposta</span><span class="sxs-lookup"><span data-stu-id="f4e01-105">How to report false positives/negatives in automated investigation and response capabilities</span></span>
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+<span data-ttu-id="f4e01-106">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="f4e01-106">**Applies to:**</span></span>
+- <span data-ttu-id="f4e01-107">Microsoft Defender para Office 365</span><span class="sxs-lookup"><span data-stu-id="f4e01-107">Microsoft Defender for Office 365</span></span>
 
+<span data-ttu-id="f4e01-108">Se os recursos de investigação e resposta [automatizadas (AIR) no Office 365](automated-investigation-response-office.md) perderam ou detectaram incorretamente algo, há etapas que sua equipe de operações de segurança pode seguir para corrigi-lo.</span><span class="sxs-lookup"><span data-stu-id="f4e01-108">If [automated investigation and response (AIR) capabilities in Office 365](automated-investigation-response-office.md) missed or wrongly detected something, there are steps your security operations team can take to fix it.</span></span> <span data-ttu-id="f4e01-109">Essas ações incluem:</span><span class="sxs-lookup"><span data-stu-id="f4e01-109">Such actions include:</span></span>
 
-<span data-ttu-id="51524-106">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="51524-106">**Applies to:**</span></span>
-- <span data-ttu-id="51524-107">Microsoft defender para Office 365</span><span class="sxs-lookup"><span data-stu-id="51524-107">Microsoft Defender for Office 365</span></span>
+- <span data-ttu-id="f4e01-110">[Relatar um falso positivo/negativo para a Microsoft;](#report-a-false-positivenegative-to-microsoft-for-analysis)</span><span class="sxs-lookup"><span data-stu-id="f4e01-110">[Reporting a false positive/negative to Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);</span></span>
+- <span data-ttu-id="f4e01-111">[Ajustando alertas](#adjust-an-alert-to-prevent-false-positives-from-recurring) (se necessário); e</span><span class="sxs-lookup"><span data-stu-id="f4e01-111">[Adjusting alerts](#adjust-an-alert-to-prevent-false-positives-from-recurring) (if needed); and</span></span>
+- <span data-ttu-id="f4e01-112">[Desfazer ações de correção que foram tomadas.](#undo-a-remediation-action)</span><span class="sxs-lookup"><span data-stu-id="f4e01-112">[Undoing remediation actions that were taken](#undo-a-remediation-action).</span></span>
 
-<span data-ttu-id="51524-108">Os [recursos de investigação e resposta automatizados (Air) do Office 365](automated-investigation-response-office.md) perdem ou detectou erroneamente algo?</span><span class="sxs-lookup"><span data-stu-id="51524-108">Did [automated investigation and response (AIR) capabilities in Office 365](automated-investigation-response-office.md) miss or wrongly detect something?</span></span> <span data-ttu-id="51524-109">Há etapas que você pode executar para corrigi-lo.</span><span class="sxs-lookup"><span data-stu-id="51524-109">There are steps you can take to fix it.</span></span> <span data-ttu-id="51524-110">Você pode:</span><span class="sxs-lookup"><span data-stu-id="51524-110">You can:</span></span>
+<span data-ttu-id="f4e01-113">Use este artigo como guia.</span><span class="sxs-lookup"><span data-stu-id="f4e01-113">Use this article as a guide.</span></span>
 
-- <span data-ttu-id="51524-111">[Relatar um falso positivo/negativo para a Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);</span><span class="sxs-lookup"><span data-stu-id="51524-111">[Report a false positive/negative to Microsoft](#report-a-false-positivenegative-to-microsoft-for-analysis);</span></span>
-- <span data-ttu-id="51524-112">[Ajustar seus alertas](#adjust-an-alert-to-prevent-false-positives-from-recurring) (se necessário); e</span><span class="sxs-lookup"><span data-stu-id="51524-112">[Adjust your alerts](#adjust-an-alert-to-prevent-false-positives-from-recurring) (if needed); and</span></span>
-- <span data-ttu-id="51524-113">[Desfazer ações de correção que foram tomadas](#undo-a-remediation-action).</span><span class="sxs-lookup"><span data-stu-id="51524-113">[Undo remediation actions that were taken](#undo-a-remediation-action).</span></span>
+## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a><span data-ttu-id="f4e01-114">Relatar um falso positivo/negativo à Microsoft para análise</span><span class="sxs-lookup"><span data-stu-id="f4e01-114">Report a false positive/negative to Microsoft for analysis</span></span>
 
-<span data-ttu-id="51524-114">Use este artigo como uma guia.</span><span class="sxs-lookup"><span data-stu-id="51524-114">Use this article as a guide.</span></span>
+<span data-ttu-id="f4e01-115">Se o AIR no Microsoft Defender para Office 365 perdeu uma mensagem de email, um anexo de email, uma URL em uma mensagem de email ou uma URL em um arquivo do Office, você pode enviar [spam, phishing, URLs](admin-submission.md)e arquivos suspeitos para a verificação do Microsoft para Office 365.</span><span class="sxs-lookup"><span data-stu-id="f4e01-115">If AIR in Microsoft Defender for Office 365 missed an email message, an email attachment, a URL in an email message, or a URL in an Office file, you can [submit suspected spam, phish, URLs, and files to Microsoft for Office 365 scanning](admin-submission.md).</span></span>
 
-## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a><span data-ttu-id="51524-115">Relatar um falso positivo/negativo para a Microsoft para análise</span><span class="sxs-lookup"><span data-stu-id="51524-115">Report a false positive/negative to Microsoft for analysis</span></span>
+<span data-ttu-id="f4e01-116">Você também pode [enviar um arquivo à Microsoft para análise de malware.](https://www.microsoft.com/wdsi/filesubmission)</span><span class="sxs-lookup"><span data-stu-id="f4e01-116">You can also [Submit a file to Microsoft for malware analysis](https://www.microsoft.com/wdsi/filesubmission).</span></span>
 
-<span data-ttu-id="51524-116">Se o AIR no Microsoft defender para Office 365 perder uma mensagem de email, um anexo de email, uma URL em uma mensagem de email ou uma URL em um arquivo do Office, você poderá [enviar spam, Phish, URLs e arquivos suspeitos para a Microsoft para a verificação de 365 do Office](admin-submission.md).</span><span class="sxs-lookup"><span data-stu-id="51524-116">If AIR in Microsoft Defender for Office 365 missed an email message, an email attachment, a URL in an email message, or a URL in an Office file, you can [submit suspected spam, phish, URLs, and files to Microsoft for Office 365 scanning](admin-submission.md).</span></span>
+## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a><span data-ttu-id="f4e01-117">Ajustar um alerta para evitar que falsos positivos se repitam</span><span class="sxs-lookup"><span data-stu-id="f4e01-117">Adjust an alert to prevent false positives from recurring</span></span>
 
-<span data-ttu-id="51524-117">Você também pode [enviar um arquivo para a Microsoft para análise de malware](https://www.microsoft.com/wdsi/filesubmission).</span><span class="sxs-lookup"><span data-stu-id="51524-117">You can also [Submit a file to Microsoft for malware analysis](https://www.microsoft.com/wdsi/filesubmission).</span></span>
+<span data-ttu-id="f4e01-118">Se um alerta for disparado por uso legítimo ou se o alerta for impreciso, você poderá gerenciar alertas no portal do [Cloud App Security.](https://docs.microsoft.com/cloud-app-security/managing-alerts)</span><span class="sxs-lookup"><span data-stu-id="f4e01-118">If an alert is triggered by legitimate use, or the alert is inaccurate, you can [Manage alerts in the Cloud App Security portal](https://docs.microsoft.com/cloud-app-security/managing-alerts).</span></span>
 
-## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a><span data-ttu-id="51524-118">Ajustar um alerta para impedir que falsos positivos sejam recorrentes</span><span class="sxs-lookup"><span data-stu-id="51524-118">Adjust an alert to prevent false positives from recurring</span></span>
+<span data-ttu-id="f4e01-119">Se sua organização estiver usando o [Microsoft Defender para](https://docs.microsoft.com/windows/security/threat-protection) Ponto de Extremidade, além do Office 365, e um arquivo, endereço IP, URL ou domínio for tratado como malware em um dispositivo, mesmo que seja seguro, você pode criar um indicador personalizado com uma ação ["Permitir"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)para seu dispositivo.</span><span class="sxs-lookup"><span data-stu-id="f4e01-119">If your organization is using [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection) in addition to Office 365, and a file, IP address, URL, or domain is treated as malware on a device, even though it's safe, you can [create a custom indicator with an "Allow" action for your device](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators).</span></span>
 
-<span data-ttu-id="51524-119">Se um alerta for disparado por uso legítimo ou se o alerta for impreciso, você poderá [Gerenciar alertas no portal do Cloud app Security](https://docs.microsoft.com/cloud-app-security/managing-alerts).</span><span class="sxs-lookup"><span data-stu-id="51524-119">If an alert is triggered by legitimate use, or the alert is inaccurate, you can [Manage alerts in the Cloud App Security portal](https://docs.microsoft.com/cloud-app-security/managing-alerts).</span></span>
+## <a name="undo-a-remediation-action"></a><span data-ttu-id="f4e01-120">Desfazer uma ação de correção</span><span class="sxs-lookup"><span data-stu-id="f4e01-120">Undo a remediation action</span></span>
 
-<span data-ttu-id="51524-120">Se sua organização estiver usando o [Microsoft defender para ponto de extremidade](https://docs.microsoft.com/windows/security/threat-protection) , além do Office 365, e um arquivo, endereço IP, URL ou domínio for tratado como malware em um dispositivo, mesmo que seja seguro, você poderá [criar um indicador personalizado com uma ação "permitir" para o dispositivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators).</span><span class="sxs-lookup"><span data-stu-id="51524-120">If your organization is using [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection) in addition to Office 365, and a file, IP address, URL, or domain is treated as malware on a device, even though it's safe, you can [create a custom indicator with an "Allow" action for your device](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators).</span></span>
-
-## <a name="undo-a-remediation-action"></a><span data-ttu-id="51524-121">Desfazer uma ação de correção</span><span class="sxs-lookup"><span data-stu-id="51524-121">Undo a remediation action</span></span>
-
-<span data-ttu-id="51524-122">Na maioria dos casos, se uma ação de correção foi realizada em uma mensagem de email, anexo de email ou URL, e o item não é uma ameaça, a equipe de operações de segurança pode desfazer a ação de correção e realizar etapas para evitar o falso positivo de recorrência.</span><span class="sxs-lookup"><span data-stu-id="51524-122">In most cases, if a remediation action was taken on an email message, email attachment, or URL, and the item is actually not a threat, your security operations team can undo the remediation action and take steps to prevent the false positive from recurring.</span></span> <span data-ttu-id="51524-123">Você pode usar o [Gerenciador de ameaças](#undo-an-action-using-threat-explorer) ou a [guia ações para uma investigação](#undo-an-action-using-the-actions-tab-for-an-investigation) para desfazer uma ação.</span><span class="sxs-lookup"><span data-stu-id="51524-123">You can either use [Threat Explorer](#undo-an-action-using-threat-explorer) or the [Actions tab for an investigation](#undo-an-action-using-the-actions-tab-for-an-investigation) to undo an action.</span></span>
+<span data-ttu-id="f4e01-121">Na maioria dos casos, se uma ação de correção tiver sido realizada em uma mensagem de email, um anexo de email ou uma URL, e o item não for realmente uma ameaça, sua equipe de operações de segurança poderá desfazer a ação de correção e tomar medidas para evitar que o falso positivo se repita.</span><span class="sxs-lookup"><span data-stu-id="f4e01-121">In most cases, if a remediation action was taken on an email message, email attachment, or URL, and the item is actually not a threat, your security operations team can undo the remediation action and take steps to prevent the false positive from recurring.</span></span> <span data-ttu-id="f4e01-122">Você pode usar o [Explorador de Ameaças](#undo-an-action-using-threat-explorer) ou a guia Ações para uma investigação [desfazer](#undo-an-action-in-the-action-center) uma ação.</span><span class="sxs-lookup"><span data-stu-id="f4e01-122">You can either use [Threat Explorer](#undo-an-action-using-threat-explorer) or the [Actions tab for an investigation](#undo-an-action-in-the-action-center) to undo an action.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="51524-124">Verifique se você tem as permissões necessárias antes de tentar executar as tarefas a seguir.</span><span class="sxs-lookup"><span data-stu-id="51524-124">Make sure you have the necessary permissions before attempting to perform the following tasks.</span></span>
+> <span data-ttu-id="f4e01-123">Certifique-se de que você tenha as permissões necessárias antes de tentar executar as tarefas a seguir.</span><span class="sxs-lookup"><span data-stu-id="f4e01-123">Make sure you have the necessary permissions before attempting to perform the following tasks.</span></span>
 
-### <a name="undo-an-action-using-threat-explorer"></a><span data-ttu-id="51524-125">Desfazer uma ação usando o explorador de ameaças</span><span class="sxs-lookup"><span data-stu-id="51524-125">Undo an action using Threat Explorer</span></span>
+### <a name="undo-an-action-using-threat-explorer"></a><span data-ttu-id="f4e01-124">Desfazer uma ação usando o Explorador de Ameaças</span><span class="sxs-lookup"><span data-stu-id="f4e01-124">Undo an action using Threat Explorer</span></span>
 
-<span data-ttu-id="51524-126">Com o Gerenciador de ameaças, a equipe de operações de segurança pode encontrar um email afetado por uma ação e possivelmente desfazer a ação.</span><span class="sxs-lookup"><span data-stu-id="51524-126">With Threat Explorer, your security operations team can find an email affected by an action and potentially undo the action.</span></span>
+<span data-ttu-id="f4e01-125">Com o Explorador de Ameaças, sua equipe de operações de segurança pode encontrar um email afetado por uma ação e potencialmente desfazer a ação.</span><span class="sxs-lookup"><span data-stu-id="f4e01-125">With Threat Explorer, your security operations team can find an email affected by an action and potentially undo the action.</span></span>
 
-****
-
-|<span data-ttu-id="51524-127">Cenário</span><span class="sxs-lookup"><span data-stu-id="51524-127">Scenario</span></span>|<span data-ttu-id="51524-128">Opções de desfazer</span><span class="sxs-lookup"><span data-stu-id="51524-128">Undo Options</span></span>|<span data-ttu-id="51524-129">Saiba mais</span><span class="sxs-lookup"><span data-stu-id="51524-129">Learn more</span></span>|
+|<span data-ttu-id="f4e01-126">Cenário</span><span class="sxs-lookup"><span data-stu-id="f4e01-126">Scenario</span></span>|<span data-ttu-id="f4e01-127">Opções de desfazer</span><span class="sxs-lookup"><span data-stu-id="f4e01-127">Undo Options</span></span>|<span data-ttu-id="f4e01-128">Saiba mais</span><span class="sxs-lookup"><span data-stu-id="f4e01-128">Learn more</span></span>|
 |---|---|---|
-|<span data-ttu-id="51524-130">Uma mensagem de email foi encaminhada para a pasta lixo eletrônico de um usuário</span><span class="sxs-lookup"><span data-stu-id="51524-130">An email message was routed to a user's Junk Email folder</span></span>|<ul><li><span data-ttu-id="51524-131">Mover a mensagem para a pasta itens excluídos do usuário</span><span class="sxs-lookup"><span data-stu-id="51524-131">Move the message to the user's Deleted Items folder</span></span></li><li><span data-ttu-id="51524-132">Mover a mensagem para a caixa de entrada do usuário</span><span class="sxs-lookup"><span data-stu-id="51524-132">Move the message to the user's Inbox</span></span></li><li><span data-ttu-id="51524-133">Excluir a mensagem</span><span class="sxs-lookup"><span data-stu-id="51524-133">Delete the message</span></span></li></ul>|[<span data-ttu-id="51524-134">Encontre e investigue emails mal-intencionados que foram entregues no Office 365</span><span class="sxs-lookup"><span data-stu-id="51524-134">Find and investigate malicious email that was delivered in Office 365</span></span>](investigate-malicious-email-that-was-delivered.md)|
-|<span data-ttu-id="51524-135">Uma mensagem de email ou um arquivo foi colocado em quarentena</span><span class="sxs-lookup"><span data-stu-id="51524-135">An email message or a file was quarantined</span></span>|<ul><li><span data-ttu-id="51524-136">Liberar o email ou o arquivo</span><span class="sxs-lookup"><span data-stu-id="51524-136">Release the email or file</span></span></li><li><span data-ttu-id="51524-137">Excluir o email ou arquivo</span><span class="sxs-lookup"><span data-stu-id="51524-137">Delete the email or file</span></span></li></ul>|[<span data-ttu-id="51524-138">Gerenciar mensagens em quarentena como um administrador</span><span class="sxs-lookup"><span data-stu-id="51524-138">Manage quarantined messages as an admin</span></span>](manage-quarantined-messages-and-files.md)|
+|<span data-ttu-id="f4e01-129">Uma mensagem de email foi roteada para a pasta Lixo Eletrônico de um usuário</span><span class="sxs-lookup"><span data-stu-id="f4e01-129">An email message was routed to a user's Junk Email folder</span></span>|<span data-ttu-id="f4e01-130">- Mover a mensagem para a pasta Itens Excluídos do usuário</span><span class="sxs-lookup"><span data-stu-id="f4e01-130">- Move the message to the user's Deleted Items folder</span></span><br/><span data-ttu-id="f4e01-131">- Mover a mensagem para a Caixa de Entrada do usuário</span><span class="sxs-lookup"><span data-stu-id="f4e01-131">- Move the message to the user's Inbox</span></span><br/><span data-ttu-id="f4e01-132">- Excluir a mensagem</span><span class="sxs-lookup"><span data-stu-id="f4e01-132">- Delete the message</span></span>|[<span data-ttu-id="f4e01-133">Encontrar e investigar emails mal-intencionados que foram entregues no Office 365</span><span class="sxs-lookup"><span data-stu-id="f4e01-133">Find and investigate malicious email that was delivered in Office 365</span></span>](investigate-malicious-email-that-was-delivered.md)|
+|<span data-ttu-id="f4e01-134">Uma mensagem de email ou um arquivo foi colocado em quarentena</span><span class="sxs-lookup"><span data-stu-id="f4e01-134">An email message or a file was quarantined</span></span>|<span data-ttu-id="f4e01-135">- Liberar o email ou arquivo</span><span class="sxs-lookup"><span data-stu-id="f4e01-135">- Release the email or file</span></span><br/><span data-ttu-id="f4e01-136">- Excluir o email ou arquivo</span><span class="sxs-lookup"><span data-stu-id="f4e01-136">- Delete the email or file</span></span>|[<span data-ttu-id="f4e01-137">Gerenciar mensagens em quarentena como administrador</span><span class="sxs-lookup"><span data-stu-id="f4e01-137">Manage quarantined messages as an admin</span></span>](manage-quarantined-messages-and-files.md)|
 |
 
-### <a name="undo-an-action-using-the-actions-tab-for-an-investigation"></a><span data-ttu-id="51524-139">Desfazer uma ação usando a guia ações para uma investigação</span><span class="sxs-lookup"><span data-stu-id="51524-139">Undo an action using the Actions tab for an investigation</span></span>
+### <a name="undo-an-action-in-the-action-center"></a><span data-ttu-id="f4e01-138">Desfazer uma ação na Central de ações</span><span class="sxs-lookup"><span data-stu-id="f4e01-138">Undo an action in the Action center</span></span>
 
-<span data-ttu-id="51524-140">Na central de ações, você pode ver ações de correção que foram tomadas e possivelmente desfazer a ação.</span><span class="sxs-lookup"><span data-stu-id="51524-140">In the Action center, you can see remediation actions that were taken and potentially undo the action.</span></span>
+<span data-ttu-id="f4e01-139">Na Central de ações, você pode ver as ações de correção que foram tomadas e potencialmente desfazer a ação.</span><span class="sxs-lookup"><span data-stu-id="f4e01-139">In the Action center, you can see remediation actions that were taken and potentially undo the action.</span></span>
 
-1. <span data-ttu-id="51524-141">Acesse <https://protection.office.com> e entre.</span><span class="sxs-lookup"><span data-stu-id="51524-141">Go to <https://protection.office.com> and sign in.</span></span> <span data-ttu-id="51524-142">Isso leva você para o centro de conformidade & segurança.</span><span class="sxs-lookup"><span data-stu-id="51524-142">This takes you to the Security & Compliance Center.</span></span>
+1. <span data-ttu-id="f4e01-140">Vá para a central de segurança do Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ).</span><span class="sxs-lookup"><span data-stu-id="f4e01-140">Go to the Microsoft 365 security center ([https://security.microsoft.com](https://security.microsoft.com)).</span></span>
+2. <span data-ttu-id="f4e01-141">No painel de navegação, selecione Central **de ações.**</span><span class="sxs-lookup"><span data-stu-id="f4e01-141">In the navigation pane, select **Action center**.</span></span> 
+3. <span data-ttu-id="f4e01-142">Selecione a **guia Histórico** para exibir a lista de ações concluídas.</span><span class="sxs-lookup"><span data-stu-id="f4e01-142">Select the **History** tab to view the list of completed actions.</span></span>
+4. <span data-ttu-id="f4e01-143">Selecione um item.</span><span class="sxs-lookup"><span data-stu-id="f4e01-143">Select an item.</span></span> <span data-ttu-id="f4e01-144">Seu painel de sobrevoo é aberto.</span><span class="sxs-lookup"><span data-stu-id="f4e01-144">Its flyout pane opens.</span></span> 
+5. <span data-ttu-id="f4e01-145">No painel do flyout, selecione **Desfazer**.</span><span class="sxs-lookup"><span data-stu-id="f4e01-145">In the flyout pane, select **Undo**.</span></span> <span data-ttu-id="f4e01-146">(Somente ações que podem ser desfeitas terão um **botão Desfazer.)**</span><span class="sxs-lookup"><span data-stu-id="f4e01-146">(Only actions that can be undone will have an **Undo** button.)</span></span>
 
-2. <span data-ttu-id="51524-143">Vá para investigações de **Gerenciamento de ameaças** \> .</span><span class="sxs-lookup"><span data-stu-id="51524-143">Go to **Threat management** \> **Investigations**.</span></span>
+## <a name="see-also"></a><span data-ttu-id="f4e01-147">Confira também</span><span class="sxs-lookup"><span data-stu-id="f4e01-147">See also</span></span>
 
-3. <span data-ttu-id="51524-144">Na lista de investigações, selecione o ícone **abrir na nova janela** ao lado da ID de um item.</span><span class="sxs-lookup"><span data-stu-id="51524-144">In the list of investigations, select the **Open in new window** icon next to an item's ID.</span></span>
-
-4. <span data-ttu-id="51524-145">Selecione a guia **ações** .</span><span class="sxs-lookup"><span data-stu-id="51524-145">Select the **Actions** tab.</span></span>
-
-5. <span data-ttu-id="51524-146">Selecione um item com status **concluído** e procure um link, como **aprovado**, na coluna **decisão** .</span><span class="sxs-lookup"><span data-stu-id="51524-146">Select an item that has status of **Completed**, and look for a link, such as **Approved**, in the **Decision** column.</span></span> <span data-ttu-id="51524-147">Isso abre um submenu com mais detalhes sobre a ação.</span><span class="sxs-lookup"><span data-stu-id="51524-147">This opens a flyout with more details about the action.</span></span>
-
-6. <span data-ttu-id="51524-148">Para desfazer a ação, selecione **excluir correção**.</span><span class="sxs-lookup"><span data-stu-id="51524-148">To undo the action, select **Delete remediation**.</span></span>
-
-## <a name="related-articles"></a><span data-ttu-id="51524-149">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="51524-149">Related articles</span></span>
-
-[<span data-ttu-id="51524-150">Microsoft defender para Office 365</span><span class="sxs-lookup"><span data-stu-id="51524-150">Microsoft Defender for Office 365</span></span>](office-365-atp.md)
-
-[<span data-ttu-id="51524-151">AR no Microsoft defender para Office 365</span><span class="sxs-lookup"><span data-stu-id="51524-151">AIR in Microsoft Defender for Office 365</span></span>](office-365-air.md)
+- [<span data-ttu-id="f4e01-148">Microsoft Defender para Office 365</span><span class="sxs-lookup"><span data-stu-id="f4e01-148">Microsoft Defender for Office 365</span></span>](office-365-atp.md)
+- [<span data-ttu-id="f4e01-149">Investigações automatizadas no Microsoft Defender para Office 365</span><span class="sxs-lookup"><span data-stu-id="f4e01-149">Automated investigations in Microsoft Defender for Office 365</span></span>](office-365-air.md)

@@ -1,5 +1,5 @@
 ---
-title: Revisar e aprovar ações de correção pendentes em investigação e resposta automatizadas
+title: Revisar e gerenciar ações de correção no Microsoft Defender para Office 365
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção
 f1.keywords:
 - NOCSH
@@ -7,8 +7,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 audience: ITPro
-ms.topic: article
-ms.service: O365-seccomp
+ms.topic: how-to
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,45 +15,61 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Saiba mais sobre as ações de correção em recursos de investigação e resposta automatizados no Microsoft defender para Office 365 plano 2.
-ms.openlocfilehash: 9a1fdb4bec5168dfcd816dbce7da01f930e38ae1
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+description: Saiba mais sobre as ações de correção em recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
+ms.technology: mdo
+ms.prod: m365-security
+ms.date: 01/29/2021
+ms.openlocfilehash: bcff8f12133ea16e3d91e293943be1593eaf9659
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615187"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142688"
 ---
-# <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a><span data-ttu-id="e0a48-104">Exibir ações de correção pendentes ou concluídas após uma investigação automatizada no Office 365</span><span class="sxs-lookup"><span data-stu-id="e0a48-104">View pending or completed remediation actions following an automated investigation in Office 365</span></span>
+# <a name="review-and-manage-remediation-actions-in-office-365"></a><span data-ttu-id="6223e-104">Revisar e gerenciar ações de correção no Office 365</span><span class="sxs-lookup"><span data-stu-id="6223e-104">Review and manage remediation actions in Office 365</span></span>
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+<span data-ttu-id="6223e-105">Como investigações automatizadas em emails & conteúdo de colaboração  resultam em vereditos, como Mal-intencionados ou *suspeitos,* determinadas ações de correção são criadas.</span><span class="sxs-lookup"><span data-stu-id="6223e-105">As automated investigations on email & collaboration content result in verdicts, such as *Malicious* or *Suspicious*, certain remediation actions are created.</span></span> <span data-ttu-id="6223e-106">No Microsoft Defender para Office 365, as ações de correção podem incluir:</span><span class="sxs-lookup"><span data-stu-id="6223e-106">In Microsoft Defender for Office 365, remediation actions can include:</span></span>
+- <span data-ttu-id="6223e-107">Bloqueando uma URL (hora do clique)</span><span class="sxs-lookup"><span data-stu-id="6223e-107">Blocking a URL (time-of-click)</span></span>
+- <span data-ttu-id="6223e-108">Exclusão suave de mensagens de email ou clusters</span><span class="sxs-lookup"><span data-stu-id="6223e-108">Soft deleting email messages or clusters</span></span>
+- <span data-ttu-id="6223e-109">Quarentena de emails ou anexos de email</span><span class="sxs-lookup"><span data-stu-id="6223e-109">Quarantining email or email attachments</span></span>
+- <span data-ttu-id="6223e-110">Como desligar o encaminhamento de email externo</span><span class="sxs-lookup"><span data-stu-id="6223e-110">Turning off external mail forwarding</span></span>
 
+<span data-ttu-id="6223e-111">Essas ações de correção não serão tomadas, a menos e até que sua equipe de operações de segurança as aprove.</span><span class="sxs-lookup"><span data-stu-id="6223e-111">These remediation actions are not taken unless and until your security operations team approves them.</span></span> <span data-ttu-id="6223e-112">Recomendamos analisar e aprovar todas as ações pendentes assim que possível para que suas investigações automatizadas seja concluídas em tempo hábil.</span><span class="sxs-lookup"><span data-stu-id="6223e-112">We recommend reviewing and approving any pending actions as soon as possible so that your automated investigations complete in a timely manner.</span></span> <span data-ttu-id="6223e-113">Em alguns casos, você pode desfazer uma ação de correção.</span><span class="sxs-lookup"><span data-stu-id="6223e-113">In some cases, you can undo a remediation action.</span></span>
 
+## <a name="approve-or-reject-pending-actions"></a><span data-ttu-id="6223e-114">Aprovar (ou rejeitar) ações pendentes</span><span class="sxs-lookup"><span data-stu-id="6223e-114">Approve (or reject) pending actions</span></span>
 
-![Página de ação de investigações aéreas](../../media/air-investigationactionspage.png)
+1. <span data-ttu-id="6223e-115">Vá para a central de segurança do Microsoft 365 [https://security.microsoft.com](https://security.microsoft.com) ) e entre.</span><span class="sxs-lookup"><span data-stu-id="6223e-115">Go to the Microsoft 365 security center [https://security.microsoft.com](https://security.microsoft.com)) and sign in.</span></span>
+2. <span data-ttu-id="6223e-116">No painel de navegação, selecione Central **de ações.**</span><span class="sxs-lookup"><span data-stu-id="6223e-116">In the navigation pane, select **Action center**.</span></span>
+3. <span data-ttu-id="6223e-117">Na guia **Pendente,** revise a lista de ações que estão aguardando aprovação.</span><span class="sxs-lookup"><span data-stu-id="6223e-117">On the **Pending** tab, review the list of actions that are awaiting approval.</span></span>
+4. <span data-ttu-id="6223e-118">Selecione um item na lista.</span><span class="sxs-lookup"><span data-stu-id="6223e-118">Select an item in the list.</span></span> <span data-ttu-id="6223e-119">Seu painel de sobrevoo é aberto.</span><span class="sxs-lookup"><span data-stu-id="6223e-119">Its flyout pane opens.</span></span> 
+5. <span data-ttu-id="6223e-120">Revise as informações no painel do flyout e, em seguida, tome uma das seguintes etapas:</span><span class="sxs-lookup"><span data-stu-id="6223e-120">Review the information in the flyout pane, and then take one of the following steps:</span></span>
+   - <span data-ttu-id="6223e-121">Selecione **a página Abrir investigação** para exibir mais detalhes sobre a investigação.</span><span class="sxs-lookup"><span data-stu-id="6223e-121">Select **Open investigation page** to view more details about the investigation.</span></span>
+   - <span data-ttu-id="6223e-122">Selecione **Aprovar** para iniciar uma ação pendente.</span><span class="sxs-lookup"><span data-stu-id="6223e-122">Select **Approve** to initiate a pending action.</span></span>
+   - <span data-ttu-id="6223e-123">Selecione **Rejeitar** para impedir que uma ação pendente seja tomada.</span><span class="sxs-lookup"><span data-stu-id="6223e-123">Select **Reject** to prevent a pending action from being taken.</span></span>
 
-## <a name="approve-or-reject-pending-actions"></a><span data-ttu-id="e0a48-106">Aprovar (ou rejeitar) ações pendentes</span><span class="sxs-lookup"><span data-stu-id="e0a48-106">Approve (or reject) pending actions</span></span>
+## <a name="undo-one-remediation-action"></a><span data-ttu-id="6223e-124">Desfazer uma ação de correção</span><span class="sxs-lookup"><span data-stu-id="6223e-124">Undo one remediation action</span></span>
 
-<span data-ttu-id="e0a48-107">Ao exibir os [detalhes de uma investigação](air-view-investigation-results.md), você pode aprovar ou rejeitar qualquer ação de correção pendente.</span><span class="sxs-lookup"><span data-stu-id="e0a48-107">While viewing the [details of an investigation](air-view-investigation-results.md), you can approve or reject any pending remediation actions.</span></span> <span data-ttu-id="e0a48-108">É recomendável fazer isso assim que possível para que suas investigações automatizadas sejam concluídas.</span><span class="sxs-lookup"><span data-stu-id="e0a48-108">We recommend doing this as soon as possible so that your automated investigations complete.</span></span>
+1. <span data-ttu-id="6223e-125">Vá para a Central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.</span><span class="sxs-lookup"><span data-stu-id="6223e-125">Go to the Action center ([https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)) and sign in.</span></span>
+2. <span data-ttu-id="6223e-126">Na guia **Histórico,** selecione uma ação que você deseja desfazer.</span><span class="sxs-lookup"><span data-stu-id="6223e-126">On the **History** tab, select an action that you want to undo.</span></span>
+3. <span data-ttu-id="6223e-127">No painel no lado direito da tela, selecione **Desfazer**.</span><span class="sxs-lookup"><span data-stu-id="6223e-127">In the pane on the right side of the screen, select **Undo**.</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="e0a48-109">As permissões apropriadas são necessárias para aprovar ou rejeitar ações de correção.</span><span class="sxs-lookup"><span data-stu-id="e0a48-109">Appropriate permissions are required to approve or reject remediation actions.</span></span> <span data-ttu-id="e0a48-110">Confira [as permissões necessárias para usar os recursos de ar](office-365-air.md#required-permissions-to-use-air-capabilities).</span><span class="sxs-lookup"><span data-stu-id="e0a48-110">See [Required permissions to use AIR capabilities](office-365-air.md#required-permissions-to-use-air-capabilities).</span></span>
+## <a name="undo-multiple-remediation-actions"></a><span data-ttu-id="6223e-128">Desfazer várias ações de correção</span><span class="sxs-lookup"><span data-stu-id="6223e-128">Undo multiple remediation actions</span></span>
 
-1. <span data-ttu-id="e0a48-111">Acesse <https://protection.office.com> e entre.</span><span class="sxs-lookup"><span data-stu-id="e0a48-111">Go to <https://protection.office.com> and sign in.</span></span> <span data-ttu-id="e0a48-112">Isso leva você para o centro de conformidade de & de segurança.</span><span class="sxs-lookup"><span data-stu-id="e0a48-112">This takes you to the the Security & Compliance Center.</span></span>
+1. <span data-ttu-id="6223e-129">Vá para a Central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.</span><span class="sxs-lookup"><span data-stu-id="6223e-129">Go to the Action center ([https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)) and sign in.</span></span>
+2. <span data-ttu-id="6223e-130">Na guia **Histórico,** selecione as ações que você deseja desfazer.</span><span class="sxs-lookup"><span data-stu-id="6223e-130">On the **History** tab, select the actions that you want to undo.</span></span> <span data-ttu-id="6223e-131">Certifique-se de selecionar itens que tenham o mesmo tipo de ação.</span><span class="sxs-lookup"><span data-stu-id="6223e-131">Make sure to select items that have the same Action type.</span></span> <span data-ttu-id="6223e-132">Um painel de sobrevoo é aberto.</span><span class="sxs-lookup"><span data-stu-id="6223e-132">A flyout pane opens.</span></span>
+3. <span data-ttu-id="6223e-133">No painel do flyout, selecione Desfazer.</span><span class="sxs-lookup"><span data-stu-id="6223e-133">In the flyout pane, select Undo.</span></span>
 
-2. <span data-ttu-id="e0a48-113">Vá para investigações de **Gerenciamento de ameaças** \> .</span><span class="sxs-lookup"><span data-stu-id="e0a48-113">Go to **Threat management** \> **Investigations**.</span></span>
+## <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a><span data-ttu-id="6223e-134">Para remover um arquivo da quarentena em vários dispositivos</span><span class="sxs-lookup"><span data-stu-id="6223e-134">To remove a file from quarantine across multiple devices</span></span>
 
-3. <span data-ttu-id="e0a48-114">Na lista de investigações, selecione um item na coluna **ID** .</span><span class="sxs-lookup"><span data-stu-id="e0a48-114">In the list of investigations, select an item in the **ID** column.</span></span>
+1. <span data-ttu-id="6223e-135">Vá para a Central de ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.</span><span class="sxs-lookup"><span data-stu-id="6223e-135">Go to the Action center ([https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)) and sign in.</span></span>
+2. <span data-ttu-id="6223e-136">Na guia **Histórico,** selecione um arquivo que tenha o arquivo de quarentena do tipo **Ação.**</span><span class="sxs-lookup"><span data-stu-id="6223e-136">On the **History** tab, select a file that has the Action type **Quarantine file**.</span></span>
+3. <span data-ttu-id="6223e-137">No painel no lado direito da tela, selecione Aplicar a **X mais instâncias** deste arquivo e selecione **Desfazer.**</span><span class="sxs-lookup"><span data-stu-id="6223e-137">In the pane on the right side of the screen, select **Apply to X more instances of this file**, and then select **Undo**.</span></span>
 
-4. <span data-ttu-id="e0a48-115">Selecione a guia **ações** .</span><span class="sxs-lookup"><span data-stu-id="e0a48-115">Select the **Actions** tab.</span></span>
+## <a name="next-steps"></a><span data-ttu-id="6223e-138">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="6223e-138">Next steps</span></span>
 
-5. <span data-ttu-id="e0a48-116">Selecione um item na lista.</span><span class="sxs-lookup"><span data-stu-id="e0a48-116">Select an item in the list.</span></span> <span data-ttu-id="e0a48-117">(Isso ativa os botões aprovar e rejeitar).</span><span class="sxs-lookup"><span data-stu-id="e0a48-117">(This activates the Approve and Reject buttons.)</span></span>
+- [<span data-ttu-id="6223e-139">Usar o Explorador de Ameaças</span><span class="sxs-lookup"><span data-stu-id="6223e-139">Use Threat Explorer</span></span>](threat-explorer.md)
+- [<span data-ttu-id="6223e-140">Como relatar falsos positivos/negativos em recursos automatizados de investigação e resposta</span><span class="sxs-lookup"><span data-stu-id="6223e-140">How to report false positives/negatives in automated investigation and response capabilities</span></span>](air-report-false-positives-negatives.md)
 
-6. <span data-ttu-id="e0a48-118">Revise as informações disponíveis para o (s) item (ns) que você selecionou e, em seguida, aprove ou rejeite a (s) ação (ões).</span><span class="sxs-lookup"><span data-stu-id="e0a48-118">Review available information for the item(s) you selected, and then either approve or reject the action(s).</span></span>
-   - <span data-ttu-id="e0a48-119">**Aprovar** permite que a correção seja iniciada.</span><span class="sxs-lookup"><span data-stu-id="e0a48-119">**Approve** allows remediation to begin.</span></span>
-   - <span data-ttu-id="e0a48-120">**Rejeitar** não realiza mais nenhuma ação</span><span class="sxs-lookup"><span data-stu-id="e0a48-120">**Reject** takes no further action</span></span>
+## <a name="see-also"></a><span data-ttu-id="6223e-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="6223e-141">See also</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="e0a48-121">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="e0a48-121">Next steps</span></span>
-
-- [<span data-ttu-id="e0a48-122">Detalhes e resultados de uma investigação automatizada no Office 365</span><span class="sxs-lookup"><span data-stu-id="e0a48-122">Details and results of an automated investigation in Office 365</span></span>](air-view-investigation-results.md)
-
-- [<span data-ttu-id="e0a48-123">Usar o explorador de ameaças</span><span class="sxs-lookup"><span data-stu-id="e0a48-123">Use Threat Explorer</span></span>](threat-explorer.md)
+- [<span data-ttu-id="6223e-142">Exibir detalhes e resultados de uma investigação automatizada no Office 365</span><span class="sxs-lookup"><span data-stu-id="6223e-142">View details and results of an automated investigation in Office 365</span></span>](air-view-investigation-results.md)
