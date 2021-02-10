@@ -20,16 +20,16 @@ search.appverid:
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 ms.custom: seo-marvel-apr2020
 description: Saiba como executar um script para adicionar caixas de correio & sites do OneDrive for Business a uma nova espera associada a um caso de Descoberta Eletrônico no centro de conformidade do Microsoft 365.
-ms.openlocfilehash: 72fd9b8e7b63b36399d055e2eb710e8b53967e44
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 278e8e051165eca906e9b454268068cbbe6aef05
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126434"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175570"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-a-core-ediscovery-case"></a>Usar um script para adicionar usuários a uma espera em um caso de Descoberta e Principal
 
-O PowerShell & segurança e conformidade fornece cmdlets que permitem automatizar tarefas demoradas relacionadas à criação e gerenciamento de casos de Descoberta Eletrônica. Atualmente &, o uso do caso de Descoberta Principal no Centro de Conformidade e Segurança para colocar um grande número de locais de conteúdo custodiante em espera leva tempo e preparação. Por exemplo, antes de criar uma espera, você precisa coletar a URL de cada site do OneDrive for Business que deseja colocar em espera. Em seguida, para cada usuário que você deseja colocar em espera, você precisa adicionar sua caixa de correio e seu site do OneDrive for Business à espera. Você pode usar o script neste artigo para automatizar esse processo.
+O PowerShell & segurança e conformidade fornece cmdlets que permitem automatizar tarefas demoradas relacionadas à criação e gerenciamento de casos de Descoberta Eletrônica. Atualmente, o uso do caso de Descoberta Principal no Centro de Conformidade e Segurança & para colocar um grande número de locais de conteúdo custodiante em espera leva tempo e preparação. Por exemplo, antes de criar uma espera, você precisa coletar a URL de cada site do OneDrive for Business que deseja colocar em espera. Em seguida, para cada usuário que você deseja colocar em espera, você precisa adicionar sua caixa de correio e seu site do OneDrive for Business à espera. Você pode usar o script neste artigo para automatizar esse processo.
   
 O script solicita o nome do domínio de Meu Site da sua organização (por exemplo, na URL, o nome de um caso de Descoberta Eletrônico existente, o nome da nova responsabilidade associada à ocorrência, uma lista de endereços de email dos usuários que você deseja colocar em espera e uma consulta de pesquisa a ser usada se quiser criar uma espera baseada em `contoso` https://contoso-my.sharepoint.com) consulta. Em seguida, o script obtém a URL do site do OneDrive for Business para cada usuário na lista, cria a nova espera e, em seguida, adiciona a caixa de correio e o site do OneDrive for Business para cada usuário na lista à espera. O script também gera arquivos de log que contêm informações sobre a nova espera.
   
@@ -51,11 +51,11 @@ Aqui estão as etapas para fazer isso acontecer:
 
 - O script adiciona a lista de usuários a uma nova isenta que está associada a um caso existente. Certifique-se de que o caso ao que você deseja associar a iseção foi criado antes de executar o script.
 
-- O script neste artigo oferece suporte à autenticação moderna & ao se conectar ao PowerShell do Centro de Conformidade e Segurança e Ao Shell de Gerenciamento do SharePoint Online. Você pode usar o script como está se você for uma organização do Microsoft 365 ou microsoft 365 GCC. Se você for uma organização do Office 365 Germany, uma organização do Microsoft 365 GCC High ou uma organização do Microsoft 365 DoD, terá que editar o script para executar com êxito. Especificamente, você precisa editar a linha e usar os `Connect-IPPSSession` parâmetros *ConnectionUri* e *AzureADAuthorizationEndpointUri* (e os valores apropriados para seu tipo de organização &) para se conectar ao PowerShell do Centro de Conformidade e Segurança. Para obter mais informações, consulte os exemplos no Centro de Conformidade e Segurança [& PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa).
+- O script neste artigo oferece suporte à autenticação moderna & ao se conectar ao PowerShell do Centro de Conformidade e Segurança e Ao Shell de Gerenciamento do SharePoint Online. Você pode usar o script como está se você for uma organização do Microsoft 365 ou microsoft 365 GCC. Se você for uma organização do Office 365 Germany, uma organização do Microsoft 365 GCC High ou uma organização do Microsoft 365 DoD, terá que editar o script para executar com êxito. Especificamente, você precisa editar a linha e usar os `Connect-IPPSSession` parâmetros *ConnectionUri* e *AzureADAuthorizationEndpointUri* (e os valores apropriados para seu tipo de organização &) para se conectar ao PowerShell do Centro de Conformidade e Segurança. Para obter mais informações, consulte os exemplos no PowerShell do Centro de Conformidade e Segurança [& Segurança.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa)
 
 - O script se desconecta automaticamente do PowerShell do Centro de Conformidade & Segurança e do Shell de Gerenciamento do SharePoint Online.
 
-- O script inclui tratamento mínimo de erros. Sua principal finalidade é colocar a caixa de correio e o site do OneDrive for Business de forma rápida e fácil de cada usuário em espera.
+- O script inclui tratamento mínimo de erros. Seu objetivo principal é colocar rapidamente e facilmente a caixa de correio e o site do OneDrive for Business de cada usuário em espera.
 
 - Os scripts de exemplo fornecidos neste tópico não são compatíveis com nenhum serviço ou programa de suporte padrão da Microsoft. Os scripts de exemplo são fornecidos COMO ESTÃO sem qualquer tipo de garantia. A Microsoft também se isenta de todas as garantias implícitas, incluindo sem limitações quaisquer garantias aplicáveis de padrões de comercialização ou de adequação a uma finalidade específica. Todos os riscos decorrentes do uso ou da execução da documentação ou scripts de exemplo serão de sua responsabilidade. De modo algum a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou veiculação dos scripts serão considerados responsáveis por quaisquer danos (incluindo sem limitações danos por perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas pecuniárias) resultantes do uso ou da incapacidade de uso da documentação ou scripts de exemplo, mesmo que a Microsoft tenha sido alertada sobre a possibilidade de tais danos.
 
@@ -63,11 +63,11 @@ Aqui estão as etapas para fazer isso acontecer:
 
 A primeira etapa é instalar o Shell de Gerenciamento do SharePoint Online se ele ainda não estiver instalado no computador local. Você não precisa usar o shell neste procedimento, mas precisa instalá-lo porque ele contém os pré-requisitos exigidos pelo script executado na Etapa 3. Esses pré-requisitos permitem que o script se comunique com o SharePoint Online para obter as URLs dos sites do OneDrive for Business.
   
-Vá para Configurar o ambiente Do Windows PowerShell do Shell de Gerenciamento do [SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=286318) e execute a Etapa 1 e a Etapa 2 para instalar o Shell de Gerenciamento do SharePoint Online no computador local.
+Vá para Configurar o ambiente Do Windows PowerShell do Shell de Gerenciamento do [SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=286318) e execute as Etapas 1 e 2 para instalar o Shell de Gerenciamento do SharePoint Online no computador local.
 
 ## <a name="step-2-generate-a-list-of-users"></a>Etapa 2: Gerar uma lista de usuários
 
-O script na Etapa 3 criará uma espera associada a um caso de Descoberta Eletrônico e adicionará as caixas de correio e os sites do OneDrive for Business de uma lista de usuários à espera. Você pode apenas digitar os endereços de email em um arquivo de texto ou pode executar um comando no Windows PowerShell para obter uma lista de endereços de email e salvá-los em um arquivo (localizado na mesma pasta em que você salvará o script na Etapa 3).
+O script na Etapa 3 criará uma responsabilidade associada a um caso de Descoberta Eletrônico e adicionará as caixas de correio e os sites do OneDrive for Business de uma lista de usuários à espera. Você pode apenas digitar os endereços de email em um arquivo de texto ou pode executar um comando no Windows PowerShell para obter uma lista de endereços de email e salvá-los em um arquivo (localizado na mesma pasta em que você salvará o script na Etapa 3).
   
 Aqui está um comando do PowerShell (executado usando o PowerShell remoto conectado à sua organização do Exchange Online) para obter uma lista de endereços de email para todos os usuários em sua organização e salvá-lo em um arquivo de texto chamado HoldUsers.txt.
   
@@ -81,9 +81,9 @@ Depois de executar esse comando, abra o arquivo de texto e remova o header que c
 
 Quando você executar o script nesta etapa, ele solicitará as informações a seguir. Certifique-se de ter essas informações prontas antes de executar o script.
   
-- **Suas credenciais de usuário:** O script usará suas credenciais para se conectar ao Centro de Conformidade & segurança com o PowerShell remoto. Ele também usará essas credenciais para acessar o SharePoint Online e obter as URLs do OneDrive for Business para a lista de usuários.
+- **Suas credenciais de usuário:** O script usará suas credenciais para se conectar ao Centro de Conformidade & segurança com o PowerShell. Ele também usará essas credenciais para acessar o SharePoint Online e obter as URLs do OneDrive for Business para a lista de usuários.
 
-- **Nome do seu domínio de Meu Site:** O domínio de Meu Site é o domínio que contém todos os sites do OneDrive for Business em sua organização. Por exemplo, se a URL do seu domínio de Meu Site for, você digitará quando o script solicitar o nome do seu domínio **https://contoso-my.sharepoint.com**  `contoso` de Meu Site.
+- **Nome do seu domínio do SharePoint:** O script solicita que você insira esse nome para que ele possa se conectar ao Centro de administração do SharePoint. Ele também usa o nome de domínio para as URLs do OneDrive em sua organização. Por exemplo, se a URL do seu centro de administração for e a URL do OneDrive for, você digitará quando o script solicitar seu `https://contoso-admin.sharepoint.com` `https://contoso-my.sharepoint.com` nome de `contoso` domínio.
 
 - **Nome da ocorrência:** O nome de uma ocorrência existente. O script criará uma nova iseção associada a esse caso.
 
@@ -91,7 +91,7 @@ Quando você executar o script nesta etapa, ele solicitará as informações a s
 
 - **Consulta de pesquisa para uma espera baseada em consulta:** Você pode criar uma isenção baseada em consulta para que somente o conteúdo que atenda aos critérios de pesquisa especificados seja colocado em espera. Para colocar todo o conteúdo em espera, pressione **Enter** quando for solicitado a fazer uma consulta de pesquisa.
 
-- **A ligar a espera ou não:** Você pode fazer o script ativar a espera depois que ele é criado ou fazer com que o script crie a espera sem habilita-lo. Se você não tiver o script para ativar a espera &, poderá a turn-lo posteriormente no Centro de Conformidade e Segurança ou executando os seguintes comandos do PowerShell:
+- **A ligar a espera ou não:** Você pode fazer o script ativar a espera depois que ele é criado ou pode fazer com que o script crie a espera sem habilita-lo. Se você não tiver o script para ativar a espera &, poderá a turn-lo posteriormente no Centro de Conformidade e Segurança ou executando os seguintes comandos do PowerShell:
 
   ```powershell
   Set-CaseHoldPolicy -Identity <name of the hold> -Enabled $true
@@ -103,7 +103,7 @@ Quando você executar o script nesta etapa, ele solicitará as informações a s
 
 - **Nome do arquivo de texto** com a lista de usuários - O nome do arquivo de texto da Etapa 2 que contém a lista de usuários a adicionar à espera. Se esse arquivo estiver localizado na mesma pasta do script, basta digitar o nome do arquivo (por exemplo, HoldUsers.txt). Se o arquivo de texto estiver em outra pasta, digite o nome de caminho completo do arquivo.
 
-Depois de coletar as informações que o script solicitará, a etapa final é executar o script para criar a nova iseção e adicionar usuários a ela.
+Depois de coletar as informações que o script solicitará, a etapa final é executar o script para criar o novo hold e adicionar usuários a ele.
   
 1. Salve o texto a seguir em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo de `.ps1` . Por exemplo, `AddUsersToHold.ps1`.
 

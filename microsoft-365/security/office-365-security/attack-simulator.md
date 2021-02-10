@@ -20,25 +20,24 @@ ms.custom:
 description: Os administradores podem aprender a usar o Simulador de Ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou Microsoft Defender for Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a9abca803c21baa7fcb5f0ab7b3d4c497c4473b8
-ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
+ms.openlocfilehash: 824ee04e2fcf0757a7eb32b48246bf1a1c638926
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49939315"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175878"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataques no Centro de Conformidade e Segurança & para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real a impacte seu resultado final. Leia este artigo para saber mais.
+**Aplica-se ao** [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
-> [!TIP]
-> O treinamento de simulação de ataque está disponível para Visualização Pública no centro de segurança do Microsoft 365. Confira [Simular um ataque de phishing com o Microsoft Defender para Office 365](attack-simulation-training.md) para saber mais.
+Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataques no Centro de Conformidade e Segurança & para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real a impacte seu resultado final. Leia este artigo para saber mais.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no Simulador **de ataques de gerenciamento** de \> **ameaças.** Vá diretamente para o simulador de ataques, <https://protection.office.com/attacksimulator> abra.
+- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no **Simulador de** \> **ataques de gerenciamento de ameaças.** Vá diretamente para o simulador de ataques, <https://protection.office.com/attacksimulator> abra.
 
 - Para saber mais sobre a disponibilidade do Simulador de Ataque em diferentes assinaturas do Microsoft 365, confira a descrição do serviço do [Microsoft Defender para Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
@@ -69,7 +68,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de phish
 - **Phishing (anexo)**: o ataque tenta convencer os destinatários a abrir um anexo .docx ou .pdf na mensagem. O anexo contém o mesmo conteúdo do link de phishing padrão, mas a primeira frase começa com " \<Display Name\> , you are seeing this message as a recent email message you opened...".
 
 > [!NOTE]
-> Atualmente, as campanhas de phishing em um Simulador de Ataques não expiram.
+> Atualmente, as campanhas de phishing em phishing no Simulador de Ataques não expiram.
 
 ### <a name="create-a-spear-phishing-campaign"></a>Criar uma campanha de phishing em forma de phishing
 
@@ -79,7 +78,7 @@ Uma parte importante de qualquer campanha de phishing de phishing é a aparênci
 
 - **Crie um modelo de email** reutilizável: depois de criar e salvar o modelo de email, você poderá usá-lo novamente em futuras campanhas de phishing. Você pode personalizar ainda mais algumas, todas ou nenhuma das propriedades de email do modelo ao criar e iniciar a campanha.
 
-- **Crie a mensagem de email no** assistente: você pode criar a mensagem de email diretamente no assistente ao criar e iniciar a campanha de phishing.
+- **Crie a mensagem de email no assistente:** você pode criar a mensagem de email diretamente no assistente ao criar e iniciar a campanha de phishing.
 
 #### <a name="step-1-optional-create-a-custom-email-template"></a>Etapa 1 (opcional): criar um modelo de email personalizado
 
@@ -235,7 +234,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
 - Senha de força bruta (ataque  de  **dicionário)**: um ataque de força bruta ou de dicionário usa um arquivo de dicionário grande de senhas em uma conta de usuário com a expectativa de que uma delas funcione (muitas senhas em uma conta). Bloqueios de senha incorretos ajudam a impedir ataques de senha de força bruta.
 
-  Para o ataque de dicionário, você pode especificar uma ou várias senhas a tentar (inseridas manualmente ou em um arquivo carregado) e pode especificar um ou vários usuários.
+  Para o ataque de dicionário, você pode especificar uma ou várias senhas para tentar (inseridas manualmente ou em um arquivo carregado) e você pode especificar um ou vários usuários.
 
 - **Ataque de pulverização de** senha: um ataque de *pulverização* de senha usa a mesma senha cuidadosamente considerada em uma lista de contas de usuário (uma senha em várias contas). Ataques de pulverização de senha são mais difíceis de detectar do que ataques de senha de força bruta (a probabilidade de sucesso aumenta quando um invasor tenta uma senha em dezenas ou centenas de contas sem o risco de bloquear a senha incorreta do usuário).
 

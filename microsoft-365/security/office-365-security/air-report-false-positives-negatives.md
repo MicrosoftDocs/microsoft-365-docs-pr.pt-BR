@@ -22,17 +22,20 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 4ccc023a72ca450b1f0a433410206ccce59cb5f1
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 451a6b19139502a3765795694860e884a7a469bf
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142969"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175746"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Como relatar falsos positivos/negativos em recursos automatizados de investigação e resposta
 
-**Aplica-se a:**
-- Microsoft Defender para Office 365
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**Aplica-se a**
+- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Se os recursos de investigação e resposta [automatizadas (AIR) no Office 365](automated-investigation-response-office.md) perderam ou detectaram incorretamente algo, há etapas que sua equipe de operações de segurança pode seguir para corrigi-lo. Essas ações incluem:
 
@@ -68,7 +71,7 @@ Com o Explorador de Ameaças, sua equipe de operações de segurança pode encon
 |Cenário|Opções de desfazer|Saiba mais|
 |---|---|---|
 |Uma mensagem de email foi roteada para a pasta Lixo Eletrônico de um usuário|- Mover a mensagem para a pasta Itens Excluídos do usuário<br/>- Mover a mensagem para a Caixa de Entrada do usuário<br/>- Excluir a mensagem|[Encontrar e investigar emails mal-intencionados que foram entregues no Office 365](investigate-malicious-email-that-was-delivered.md)|
-|Uma mensagem de email ou um arquivo foi colocado em quarentena|- Liberar o email ou arquivo<br/>- Excluir o email ou arquivo|[Gerenciar mensagens em quarentena como administrador](manage-quarantined-messages-and-files.md)|
+|Uma mensagem de email ou um arquivo foi colocado em quarentena|- Liberar o email ou arquivo<br/>- Excluir o email ou o arquivo|[Gerenciar mensagens em quarentena como administrador](manage-quarantined-messages-and-files.md)|
 |
 
 ### <a name="undo-an-action-in-the-action-center"></a>Desfazer uma ação na Central de ações

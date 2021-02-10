@@ -22,18 +22,24 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 97cc2f6bcb066ff2d6f64254add3a57eb27b8828
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: b187c5fee560e1ebf5463e889fff874aca05212d
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142544"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175818"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Como funciona a investigação e resposta automatizadas no Microsoft Defender para Office 365
 
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**Aplica-se a**
+- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
 À medida que os alertas de segurança são disparados, fica a sua equipe de operações de segurança procurar esses alertas e tomar medidas para proteger sua organização. Às vezes, as equipes de operações de segurança podem se sentir sobrecarregadas pelo volume de alertas disparados. Recursos automatizados de investigação e resposta (AIR) no Microsoft Defender para Office 365 podem ajudar.
 
-O AIR permite que sua equipe de operações de segurança opere de forma mais eficiente e eficaz. Os recursos air incluem processos de investigação automatizados em resposta a ameaças conhecidas que existem atualmente. As ações de correção apropriadas aguardam aprovação, permitindo que sua equipe de operações de segurança responda a ameaças detectadas.
+O AIR permite que sua equipe de operações de segurança opere de forma mais eficiente e eficaz. Os recursos air incluem processos de investigação automatizada em resposta a ameaças conhecidas que existem atualmente. As ações de correção apropriadas aguardam aprovação, permitindo que sua equipe de operações de segurança responda a ameaças detectadas.
 
 Este artigo descreve como o AIR funciona por meio de vários exemplos. Quando você estiver pronto para começar a usar o AIR, consulte [Investigar e responder a ameaças automaticamente.](office-365-air.md)
 
@@ -62,7 +68,7 @@ Em seguida, várias etapas de investigação e busca de ameaças são executadas
 - Mensagens de email semelhantes são identificadas por meio de pesquisas de cluster de email.
 - O sinal é compartilhado com outras plataformas, como [o Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - Uma determinação é feita sobre se algum usuário clicou em links mal-intencionados em mensagens de email suspeitas.
-- Uma verificação é feita no Exchange Online Protection[(EOP)](exchange-online-protection-overview.md)e ([Microsoft Defender for Office 365](office-365-atp.md)) para ver se há outras mensagens semelhantes relatadas pelos usuários.
+- Uma verificação é feita no Exchange Online Protection[(EOP)](exchange-online-protection-overview.md)e ([Microsoft Defender para Office 365](office-365-atp.md)) para ver se há outras mensagens semelhantes relatadas pelos usuários.
 - Uma verificação é feita para ver se um usuário foi comprometido. Essa verificação utiliza sinais no Office 365, no [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)e no [Azure Active Directory,](https://docs.microsoft.com/azure/active-directory)correlacionando quaisquer anomalias relacionadas à atividade do usuário.
 
 Durante a fase de busca, os riscos e as ameaças são atribuídos a várias etapas de busca.
@@ -81,7 +87,7 @@ Usando o menu **Ações,** você pode selecionar Investigação **de gatilho.**
 
 ![Menu Ações para mensagens selecionadas](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
-Semelhante aos playbooks disparados por um alerta, as investigações automáticas que são acionadas a partir de uma exibição no Explorer incluem uma investigação raiz, etapas para identificar e correlacionar ameaças e ações recomendadas para atenuar essas ameaças.
+Semelhante aos playbooks disparados por um alerta, as investigações automáticas que são acionadas de uma exibição no Explorer incluem uma investigação raiz, etapas para identificar e correlacionar ameaças e ações recomendadas para atenuar essas ameaças.
 
 ## <a name="example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api"></a>Exemplo: uma equipe de operações de segurança integra o AIR ao SIEM usando a API da Atividade de Gerenciamento do Office 365
 

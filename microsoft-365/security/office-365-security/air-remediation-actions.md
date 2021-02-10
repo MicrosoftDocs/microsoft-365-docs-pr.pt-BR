@@ -1,5 +1,5 @@
 ---
-title: Ações de correção após investigação automatizada no Microsoft Defender para Office 365
+title: Ações de correção no Microsoft Defender para Office 365
 keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção
 f1.keywords:
 - NOCSH
@@ -21,14 +21,20 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4966ce860c3d27f003a4fd86e158ce80de8252e2
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 6d50ea767a795eb8370e9e5c8c1b07a8c9877424
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142628"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50176034"
 ---
 # <a name="remediation-actions-in-microsoft-defender-for-office-365"></a>Ações de correção no Microsoft Defender para Office 365
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**Aplica-se a**
+- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="remediation-actions"></a>Ações de correção
 
@@ -50,12 +56,12 @@ O Microsoft Defender para Office 365 inclui ações de correção para lidar com
 |Email|Malware|Exclusão suave de email/cluster <p> Se mais de algumas mensagens de email em um cluster contêm malware, o cluster é considerado mal-intencionado.|
 |Email|URL mal-intencionada<br/>(Uma URL mal-intencionada foi detectada por [Links seguros.)](atp-safe-links.md)|Exclusão suave de email/cluster <p>O email que contém uma URL mal-intencionada é considerado mal-intencionado.|
 |Email|Golpe|Exclusão suave de email/cluster <p> Se mais de algumas mensagens de email em um cluster contêm tentativas de phishing, todo o cluster é considerado uma tentativa de phishing.|
-|Email|Phishing em estilo phishing <br>(As mensagens de email foram entregues [e, em seguida, enviadas em massa.)](zero-hour-auto-purge.md)|Exclusão suave de email/cluster <p>Os relatórios estão disponíveis para exibir mensagens em massa. [Veja se a ZAP moveu uma mensagem e perguntas frequentes.](zero-hour-auto-purge.md#how-to-see-if-zap-moved-your-message)|
+|Email|Phishing em sua casa <br>(As mensagens de email foram entregues [e, em seguida, enviadas em massa.)](zero-hour-auto-purge.md)|Exclusão suave de email/cluster <p>Os relatórios estão disponíveis para exibir mensagens em massa. [Veja se a ZAP moveu uma mensagem e perguntas frequentes.](zero-hour-auto-purge.md#how-to-see-if-zap-moved-your-message)|
 |Email|Email de [phishing perdido relatado](enable-the-report-message-add-in.md) por um usuário|[Investigação automatizada disparada pelo relatório do usuário](automated-investigation-response-office.md#example-a-user-reported-phish-message-launches-an-investigation-playbook)|
 |Email|Anomalia de volume <br> (Quantidades recentes de email excedem os últimos 7 a 10 dias para correspondência de critérios.)|A investigação automatizada não resulta em uma ação pendente específica. <p>A anomalia de volume não é uma ameaça clara, mas é simplesmente uma indicação de volumes de email maiores nos últimos dias em comparação aos últimos 7 a 10 dias. <p>Embora um alto volume de email possa indicar possíveis problemas, a confirmação é necessária em termos de vereditos mal-intencionados ou de uma revisão manual de mensagens de email/clusters. Consulte [Encontrar emails suspeitos que foram entregues.](investigate-malicious-email-that-was-delivered.md#find-suspicious-email-that-was-delivered)|
 |Email|Nenhuma ameaça encontrada <br> (O sistema não encontrou ameaças baseadas em arquivos, URLs ou análise de vereditos de cluster de email.)|A investigação automatizada não resulta em uma ação pendente específica. <p>As ameaças [encontradas e](zero-hour-auto-purge.md) descobertas após a conclusão de uma investigação não são refletidas nas descobertas numéricas de uma investigação, mas essas ameaças podem ser visualizadas no [Explorador de Ameaças.](threat-explorer.md)|
-|Usuário|Um usuário clicou em uma URL mal-intencionada <br> (Um usuário navegue até uma página que posteriormente foi encontrada como sendo mal-intencionada ou um usuário desviou uma página de aviso de [Links](atp-safe-links.md#warning-pages-from-safe-links) seguros para chegar a uma página mal-intencionada.)|A investigação automatizada não resulta em uma ação pendente específica. <p>Use o Explorador de [Ameaças para exibir dados sobre URLs e vereditos de clique.](threat-explorer.md#view-phishing-url-and-click-verdict-data) <p>Se sua organização estiver usando [o Microsoft Defender para o Ponto](https://docs.microsoft.com/windows/security/threat-protection/)de Extremidade, considere investigar o usuário para determinar se a conta está comprometida. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user)|
-|Usuário|Um usuário está enviando malware/phishing|A investigação automatizada não resulta em uma ação pendente específica. <p> O usuário pode estar relatando malware/phish, ou alguém pode [estar spoofando o usuário](anti-spoofing-protection.md) como parte de um ataque. Use [o Explorador de Ameaças](threat-explorer.md) para exibir e manipular emails contendo [malware](threat-explorer-views.md#email--malware) ou [phishing.](threat-explorer-views.md#email--phish)|
+|Usuário|Um usuário clicou em uma URL mal-intencionada <br> (Um usuário navegue até uma página que posteriormente foi encontrada como sendo mal-intencionada ou um usuário desviou uma página de aviso de [Links](atp-safe-links.md#warning-pages-from-safe-links) seguros para chegar a uma página mal-intencionada.)|A investigação automatizada não resulta em uma ação pendente específica. <p>Use o Explorador de [Ameaças para exibir dados sobre URLs e clique em vereditos.](threat-explorer.md#view-phishing-url-and-click-verdict-data) <p>Se sua organização estiver usando [o Microsoft Defender para o Ponto](https://docs.microsoft.com/windows/security/threat-protection/)de Extremidade, considere investigar o usuário para determinar se a conta está comprometida. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user)|
+|Usuário|Um usuário está enviando malware/phishing|A investigação automatizada não resulta em uma ação pendente específica. <p> O usuário pode estar relatando malware/phishing ou alguém pode [estar spoofando o usuário](anti-spoofing-protection.md) como parte de um ataque. Use [o Explorador de Ameaças](threat-explorer.md) para exibir e manipular emails contendo [malware](threat-explorer-views.md#email--malware) ou [phishing.](threat-explorer-views.md#email--phish)|
 |Usuário|Encaminhamento de e-mail <br> (As regras de encaminhamento de caixa de correio estão configuradas, que podem ser usadas para exfiltração de dados.)|Remover regra de encaminhamento <p> Use [as informações de fluxo](mail-flow-insights-v2.md)de emails, incluindo o [relatório](mfi-auto-forwarded-messages-report.md)de mensagens com encaminhamento automático, para exibir detalhes mais específicos sobre emails encaminhados.|
 |Usuário|Regras de delegação de email <br> (A conta de um usuário tem a delegação configurada.)|Remover regra de delegação <p> Se sua organização estiver usando [o Microsoft Defender para o Ponto](https://docs.microsoft.com/windows/security/threat-protection/)de Extremidade, considere investigar o usuário que está recebendo a permissão de delegação. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user)|
 |Usuário|Exfiltração dos dados <br> (Um usuário violou o email ou as políticas [DLP de](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)compartilhamento de arquivos.)|A investigação automatizada não resulta em uma ação pendente específica. <p> [Exibir relatórios DLP e tomar medidas.](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports)|
@@ -68,5 +74,5 @@ O Microsoft Defender para Office 365 inclui ações de correção para lidar com
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Saiba mais sobre a investigação automatizada no Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [Saiba mais sobre investigação automatizada no Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 - [Saiba mais sobre os recursos no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)

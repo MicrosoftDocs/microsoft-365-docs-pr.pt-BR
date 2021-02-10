@@ -15,16 +15,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Saiba mais sobre as ações de correção em recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
+description: Saiba mais sobre ações de correção em recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: bcff8f12133ea16e3d91e293943be1593eaf9659
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 3fb77fa41ff3e9af995cf80b9f4024aa92a51212
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142688"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50176010"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Revisar e gerenciar ações de correção no Office 365
 
@@ -35,6 +35,10 @@ Como investigações automatizadas em emails & conteúdo de colaboração  resul
 - Como desligar o encaminhamento de email externo
 
 Essas ações de correção não serão tomadas, a menos e até que sua equipe de operações de segurança as aprove. Recomendamos analisar e aprovar todas as ações pendentes assim que possível para que suas investigações automatizadas seja concluídas em tempo hábil. Em alguns casos, você pode desfazer uma ação de correção.
+
+**Aplica-se a**
+- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="approve-or-reject-pending-actions"></a>Aprovar (ou rejeitar) ações pendentes
 

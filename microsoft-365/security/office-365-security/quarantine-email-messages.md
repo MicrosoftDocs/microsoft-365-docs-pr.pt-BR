@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: Admin
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -21,21 +20,27 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre a quarentena no Exchange Online Protection (EOP) que contém mensagens potencialmente perigosas ou indesejadas.
-ms.openlocfilehash: 8a978ece029de06bcb7b434de730b0baea33a5e1
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 4b111ea0d07453ef4280ec9e57247c8215420074
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794323"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167402"
 ---
 # <a name="quarantined-email-messages-in-eop"></a>Mensagens de email em quarentena no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+-   [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+-   [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena está disponível para ressalvar mensagens potencialmente perigosas ou indesejadas.
 
-As políticas anti-malware colocarão automaticamente uma mensagem em quarentena *se* qualquer anexo for encontrado contendo malware. Para obter mais informações, [consulte Configurar políticas anti-malware no EOP.](configure-anti-malware-policies.md)
+As políticas anti-malware colocarão automaticamente uma mensagem em quarentena *se* qualquer anexo for encontrado contendo malware. Para obter mais informações, consulte [Configurar políticas anti-malware no EOP.](configure-anti-malware-policies.md)
 
 Por padrão, a política anti-spam coloca as mensagens de phishing em quarentena e envia mensagens de spam e emails em massa para a pasta Lixo Eletrônico do usuário. Porém, você também pode criar e personalizar políticas anti-spam para colocar mensagens de spam e emails em massa em quarentena. Para obter mais informações, consulte [Configure as políticas de anti-spam no EOP](configure-your-spam-filter-policies.md).
 

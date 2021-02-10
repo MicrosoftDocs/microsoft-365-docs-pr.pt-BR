@@ -19,23 +19,27 @@ description: Durante e após uma investigação automatizada no Microsoft 365, v
 ms.date: 01/29/2021
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7ebfa8bb7060b633bdb48c77bc661477ad3e201b
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 36cce42d0986cc793753d247d97315616f86f986
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142508"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175592"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Detalhes e resultados de uma investigação automatizada no Microsoft 365
 
-Quando ocorre [uma investigação automatizada](office-365-air.md) no Microsoft Defender para Office [365,](office-365-atp.md)detalhes sobre essa investigação estão disponíveis durante e após o processo de investigação automatizada. Se você tiver as permissões necessárias, poderá exibir esses detalhes em sua central de segurança. Os detalhes da investigação fornecem o status atualizado e a capacidade de aprovar ações pendentes.
+**Aplica-se a**
+- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+Quando ocorre [uma investigação automatizada](office-365-air.md) no Microsoft Defender para Office [365,](office-365-atp.md)detalhes sobre essa investigação estão disponíveis durante e após o processo de investigação automatizada. Se você tiver as permissões necessárias, poderá exibir esses detalhes na central de segurança do Microsoft 365. Os detalhes da investigação fornecem o status atualizado e a capacidade de aprovar ações pendentes.
 
 > [!TIP]
 > Confira a nova página de investigação unificada no centro de segurança do Microsoft 365. Para saber mais, consulte [(NOVO!) Página de investigação unificada.](../mtp/mtp-autoir-results.md#new-unified-investigation-page)
 
 ## <a name="investigation-status"></a>Status da investigação
 
-O status da investigação indica o progresso da análise e das ações. À medida que a investigação é realizada, o status muda para indicar se foram encontradas ameaças e se as ações foram aprovadas.
+O status da investigação indica o progresso da análise e ações. À medida que a investigação é realizada, o status muda para indicar se foram encontradas ameaças e se as ações foram aprovadas.
 
 |Status|Descrição|
 |:---|:---|
@@ -83,11 +87,11 @@ Certos tipos de alertas acionam a investigação automatizada no Microsoft 365. 
 
   Mostrar contagens históricas e atuais em diferentes exibições é feita para indicar o impacto do email no momento da investigação e o impacto atual até o momento em que a correção é realizada.
 
-- No contexto do email, você pode ver uma superfície de ameaça de anomalia de volume como parte da investigação. Uma anomalia de volume indica um pico em mensagens de email semelhantes em relação ao tempo do evento de investigação em comparação aos períodos anteriores. Um pico no tráfego de email junto com determinadas características (por exemplo, domínio de assunto e remetente, similaridade de corpo e IP do remetente) é típico do início de campanhas ou ataques de email. No entanto, campanhas de email em massa, spam e legítimas normalmente compartilham essas características.
+- No contexto de email, você pode ver uma superfície de ameaça de anomalia de volume como parte da investigação. Uma anomalia de volume indica um pico em mensagens de email semelhantes em relação ao tempo do evento de investigação em comparação com períodos anteriores. Um pico no tráfego de email junto com determinadas características (por exemplo, domínio de assunto e remetente, similaridade de corpo e IP do remetente) é típico do início de campanhas ou ataques de email. No entanto, campanhas de email em massa, spam e legítimas normalmente compartilham essas características.
 
 - Anomalias de volume representam uma ameaça em potencial e, portanto, podem ser menos graves em comparação com ameaças de malware ou phishing identificadas usando mecanismos de antivírus, detonação ou reputação mal-intencionada.
 
-- Você não precisa aprovar todas as ações. Se você não concordar com a ação recomendada ou sua organização não escolher  determinados tipos de ações, você poderá optar por Rejeitar as ações ou simplesmente ignorá-las e não tomar nenhuma ação.
+- Você não precisa aprovar todas as ações. Se você não concorda com a ação recomendada ou sua organização não escolhe  certos tipos de ações, você pode optar por Rejeitar as ações ou simplesmente ignorá-las e não tomar nenhuma ação.
 
 - Aprovar e/ou rejeitar todas as ações permite que a investigação seja totalmente fechada (o status é remediado), enquanto algumas ações incompletas resulta na alteração do status da investigação para um estado parcialmente remediado.
 
