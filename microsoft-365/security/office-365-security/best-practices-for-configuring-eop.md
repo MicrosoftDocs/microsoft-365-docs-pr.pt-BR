@@ -7,21 +7,24 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas práticas práticas recomendações para o Exchange Online Protection (EOP) autônomo a fim de se configurar para obter sucesso e evitar erros comuns de configuração.
-ms.openlocfilehash: a229f8a269037296fa2b97ff7211343549b33685
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 1a38454ceaba7f95dff172335dc374530efca20a
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49864883"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165926"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Práticas recomendadas para configurar o EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+-  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
 
 Siga estas práticas práticas recomendações para o Exchange Online Protection (EOP) autônomo a fim de se configurar para obter sucesso e evitar erros comuns de configuração. Este tópico supõe que você já concluiu o processo de configuração. Se ainda não realizou a configuração da EOP, confira [Configurar seu serviço EOP](set-up-your-eop-service.md).
 
@@ -35,7 +38,7 @@ Se sua organização tiver contas de usuário existentes em um ambiente do Activ
 
 ## <a name="recommended-settings"></a>Configurações recomendadas
 
-Capacitamos os administradores de segurança a personalizar suas configurações de segurança para atender às necessidades de sua organização. Embora, como regra geral, haja dois níveis de segurança no EOP e no Microsoft Defender para Office 365 que recomendamos: Padrão e Estrito. Essas configurações estão listadas nas [Configurações recomendadas para o EOP e o Microsoft Defender para segurança do Office 365.](recommended-settings-for-eop-and-office365-atp.md)
+Capacitamos os administradores de segurança a personalizar suas configurações de segurança para atender às necessidades de sua organização. Embora, como regra geral, haja dois níveis de segurança no EOP e no Microsoft Defender para Office 365 que recomendamos: Padrão e Estrito. Essas configurações estão listadas nas Configurações recomendadas para segurança do EOP e [do Microsoft Defender para Office 365.](recommended-settings-for-eop-and-office365-atp.md)
 
 ### <a name="miscellaneousnon-policy-settings"></a>Configurações miscellaneous/non-policy
 
@@ -43,11 +46,11 @@ Essas configurações abrangem uma variedade de recursos que estão fora das pol
 
 ****
 
-|Nome do recurso de segurança|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Estrito|Comment|
 |---|---|---|---|
 |[Configurar o SPF para ajudar a prevenir falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
 |[Usar DKIM para validar emails enviados de seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md)|Sim|Sim||
-|[Usar DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md)|Sim|Sim|Use `action=quarantine` para Padrão e `action=reject` Estrito.|
+|[Usar DMARC para validar emails no Office 365](use-dmarc-to-validate-email.md)|Sim|Sim|Use `action=quarantine` para Standard e `action=reject` Strict.|
 |Implantar o [complemento Mensagem de Relatório ou](enable-the-report-message-add-in.md) o complemento [Phishing](enable-the-report-phish-add-in.md) de Relatório para melhorar o relatório de email suspeito para o usuário final|Sim|Sim||
 |Agendar Relatórios de Malware e Spam|Sim|Sim||
 |O encaminhamento automático para domínios externos deve ser não permitido ou monitorado|Sim|Sim||
@@ -78,4 +81,4 @@ Ao implementar uma nova regra à produção, selecione um dos modos de teste pri
 
 Ao implementar novas regras, considere adicionar outras ações de **Gerar Relatório de Incidente** para monitorar a regra em ação.
 
-Em ambientes híbridos em que sua organização inclui o Exchange local e o Exchange Online, considere as condições que você usa nas regras de fluxo de emails. Se você quiser que as regras se apliquem a toda a organização, certifique-se de usar as condições disponíveis no Exchange local e no Exchange Online. Embora a maioria das condições está disponível em ambos os ambientes, há alguns que só estão disponíveis em um ambiente ou outro. Saiba mais em [Regras de fluxo de emails (regras de transporte) no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
+Em ambientes híbridos em que sua organização inclui o Exchange local e o Exchange Online, considere as condições que você usa nas regras de fluxo de emails. Se quiser que as regras sejam aplicadas a toda a organização, certifique-se de usar as condições disponíveis no Exchange local e no Exchange Online. Embora a maioria das condições está disponível em ambos os ambientes, há alguns que só estão disponíveis em um ambiente ou outro. Saiba mais em [Regras de fluxo de emails (regras de transporte) no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)

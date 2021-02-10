@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: efbdee1fd5ee3c8c48aca9cbaf9e5a85a107edb4
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: 675a98656655521095096a535d4ee8352885e70c
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094684"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166456"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 

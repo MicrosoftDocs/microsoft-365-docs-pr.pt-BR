@@ -18,17 +18,21 @@ ms.collection:
 description: Os administradores podem aprender a usar o analisador de configuração para encontrar e corrigir políticas de segurança que estão abaixo das políticas de segurança predefinidas de proteção Padrão e Estrito.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04027e78a2683c6c33954bb548c502497c5e8323
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: a78452cb3a7e4cb65c72d98b9322f217309a6d6f
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029473"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165902"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Analisador de configuração para políticas de proteção no EOP e no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 O analisado & r de configuração no Centro de Conformidade e Segurança fornece um local central para localizar e [](preset-security-policies.md)corrigir políticas de segurança onde as configurações estão abaixo das configurações de perfil de proteção Padrão e Estrito em políticas de segurança predefinidas.
 
@@ -52,7 +56,7 @@ Os seguintes tipos de políticas são analisados pelo analisador de configuraç�
 
   - [Políticas de Anexos Seguros.](set-up-atp-safe-attachments-policies.md)
 
-Os **valores de** configuração de política Padrão e Estrito usados como linhas de base são descritos em Configurações recomendadas para a segurança do EOP e do Microsoft Defender para Office  [365.](recommended-settings-for-eop-and-office365-atp.md)
+Os **valores de** configuração de política Padrão e Estrito usados como linhas de base são descritos em Configurações recomendadas para segurança do EOP e do Microsoft Defender para Office  [365.](recommended-settings-for-eop-and-office365-atp.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -62,7 +66,7 @@ Os **valores de** configuração de política Padrão e Estrito usados como linh
 
 - Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos neste artigo:
   - Para usar o **analisador** de configuração e fazer atualizações em  políticas de segurança, você precisa ser membro dos grupos de função Gerenciamento da Organização ou **Administrador de** Segurança.
-  - Para acesso somente leitura ao analisador de configuração, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
+  - Para acesso somente leitura ao analisador de configuração, você precisa ser membro dos grupos de funções Leitor **Global** ou **Leitor de** Segurança.
 
   Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -74,7 +78,7 @@ Os **valores de** configuração de política Padrão e Estrito usados como linh
 
 ## <a name="use-the-configuration-analyzer-in-the-security--compliance-center"></a>Usar o analisador de configuração no Centro de Conformidade & segurança
 
-No Centro de Conformidade & segurança, vá para o analisador **de** Configuração de Política de \> **Gerenciamento** \> **de Ameaças.**
+No Centro de Conformidade & Segurança, vá para o Analisador **de** Configuração de Política de \> **Gerenciamento** \> **de Ameaças.**
 
 ![Widget do analisador de configuração na página Política de \> Gerenciamento de Ameaças](../../media/configuration-analyzer-widget.png)
 
@@ -108,7 +112,7 @@ Para comparações favoráveis, você verá o texto: Todas **as configurações 
 
 Se você expandir **o nome do grupo/configuração** da política, todas as políticas e as configurações associadas em cada política específica que exigem atenção serão reveladas. Ou você pode expandir um tipo específico de política (por exemplo, **Anti-spam)** para ver apenas as configurações nesses tipos de políticas que exigem sua atenção.
 
-Se a comparação não tiver recomendações para melhoria (verde), a expansão da política não revelará nada. Se houver qualquer número de recomendações de melhoria (em vermelho ou vermelho), as configurações que exigem atenção serão reveladas e as informações correspondentes serão reveladas nas seguintes colunas:
+Se a comparação não tiver recomendações para melhoria (verde), a expansão da política não revelará nada. Se houver qualquer número de recomendações de melhoria (vermelho ou vermelho), as configurações que exigem atenção serão reveladas e as informações correspondentes serão reveladas nas seguintes colunas:
 
 - O nome da configuração que requer sua atenção. Por exemplo, na captura de tela anterior, é o limite de **email** em massa em uma política anti-spam.
 
@@ -120,7 +124,7 @@ Se a comparação não tiver recomendações para melhoria (verde), a expansão 
 
 - **Última modificação:** a data em que a política foi modificada pela última vez.
 
-- **Recomendações:** o valor da configuração no perfil de proteção Padrão ou Estrito. Para alterar o valor da configuração em sua política para corresponder ao valor recomendado no perfil de proteção, clique em **Adotar**. Se a alteração for bem-sucedida, você verá a mensagem: **Recomendações adotadas com êxito.** Clique **em** Atualizar para ver o número reduzido de recomendações e a remoção da linha de configuração/política específica dos resultados.
+- **Recomendações:** o valor da configuração no perfil de proteção Padrão ou Estrito. Para alterar o valor da configuração em sua política para corresponder ao valor recomendado no perfil de proteção, clique em **Adotar**. Se a alteração for bem-sucedida, você verá a mensagem: Recomendações **adotadas com êxito.** Clique **em** Atualizar para ver o número reduzido de recomendações e a remoção da linha de configuração/política específica dos resultados.
 
 ### <a name="configuration-drift-analysis-and-history-tab-in-the-configuration-analyzer"></a>Análise de desvio de configuração e guia histórico no analisador de configuração
 

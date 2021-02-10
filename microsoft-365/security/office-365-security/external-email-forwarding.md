@@ -1,5 +1,5 @@
 ---
-title: Configurando e controlando o encaminhamento de emails externos, encaminhamento automático, acesso de 5.7.520 negado, desabilitar o encaminhamento externo, o administrador desabilitou o encaminhamento externo, política antispam de saída
+title: Configurando e controlando o encaminhamento de email externo, encaminhamento automático, Acesso negado 5.7.520, desabilitar encaminhamento externo, Seu administrador desabilitou o encaminhamento externo, política anti-spam de saída
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -8,65 +8,72 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: .
-ms.openlocfilehash: f75504941e8481d35458ad2ae6b5e8a72c5e8c8c
-ms.sourcegitcommit: a49338bde6923b13132c7b9e4c6bb75c14163c72
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e578cadf6687e02c900299a75bdd00a9d6e5b2ee
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "49728183"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166142"
 ---
-# <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Controlar o encaminhamento de email externo automático no Microsoft 365
+# <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Controlar o encaminhamento automático de email externo no Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Como administrador, você pode ter requisitos da empresa para restringir ou controlar mensagens encaminhadas automaticamente para destinatários externos (destinatários fora da sua organização). O encaminhamento de emails pode ser um recurso útil, mas também pode representar um risco de segurança devido à possível divulgação de informações. Os invasores podem usar essas informações para atacar sua organização ou seus parceiros.
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+Como administrador, você pode ter requisitos da empresa para restringir ou controlar mensagens encaminhadas automaticamente para destinatários externos (destinatários fora da sua organização). O encaminhamento de email pode ser útil, mas também pode representar um risco à segurança devido à divulgação potencial de informações. Os invasores podem usar essas informações para atacar sua organização ou parceiros.
+
 
 Os seguintes tipos de encaminhamento automático estão disponíveis no Microsoft 365:
 
-- Os usuários podem configurar [regras de caixa de entrada](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) para encaminhar mensagens automaticamente para remetentes externos (deliberadamente ou como resultado de uma conta comprometida).
+- Os usuários podem configurar [regras de Caixa de](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) Entrada para encaminhar mensagens automaticamente para os envios externos (deliberadamente ou como resultado de uma conta comprometida).
 
-- Os administradores podem configurar o [encaminhamento de caixa de correio](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) (também conhecido como _encaminhamento SMTP_) para encaminhar mensagens automaticamente para destinatários externos. O administrador pode escolher se deseja simplesmente encaminhar mensagens ou manter cópias de mensagens encaminhadas na caixa de correio.
+- Os administradores podem configurar [o encaminhamento de](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) caixa de correio (também conhecido como encaminhamento _SMTP)_ para encaminhar mensagens automaticamente para destinatários externos. O administrador pode optar por simplesmente encaminhar mensagens ou manter cópias das mensagens encaminhadas na caixa de correio.
 
-Você pode usar as políticas de filtro de spam de saída para controlar o encaminhamento automático para destinatários externos. Três configurações estão disponíveis:
+Você pode usar políticas de filtro de spam de saída para controlar o encaminhamento automático para destinatários externos. Três configurações estão disponíveis:
 
-- **Automático**: o encaminhamento externo automático está bloqueado. O encaminhamento automático de mensagens interno continuará funcionando. Esta é a configuração padrão.
-- **Ativado**: o encaminhamento externo automático é permitido e não é restrito.
-- **Off**: o encaminhamento externo automático está desabilitado e resultará em uma notificação de falha na entrega (também conhecida como NDR ou mensagem de devolução) para o remetente.
+- **Automático:** o encaminhamento externo automático está bloqueado. O encaminhamento automático interno de mensagens continuará a funcionar. Esta é a configuração padrão.
+- **On:** O encaminhamento externo automático é permitido e não restrito.
+- **Desativado:** o encaminhamento externo automático está desabilitado e resultará em um relatório de não entrega (também conhecido como NDR ou mensagem de rejeição) para o remetente.
 
-Para obter instruções sobre como definir essas configurações, consulte [Configure Outbound spam Filtering in EOP](configure-the-outbound-spam-policy.md).
+Para obter instruções sobre como definir essas configurações, consulte Configurar a filtragem de [spam de saída no EOP](configure-the-outbound-spam-policy.md).
 
 > [!NOTE]
 >
-> - Desabilitar o encaminhamento automático desabilita qualquer regra de caixa de entrada (usuários) ou de caixa de correio (admins) que redireciona mensagens para endereços externos.
+> - Desabilitar o encaminhamento automático desabilita quaisquer regras de Caixa de Entrada (usuários) ou encaminhamento de caixa de correio (administradores) que redirecionam mensagens para endereços externos.
 >
-> - O encaminhamento automático de mensagens entre usuários internos não é afetado pelas configurações em políticas de filtro de spam de saída.
+> - O encaminhamento automático de mensagens entre usuários internos não é afetado pelas configurações nas políticas de filtro de spam de saída.
 >
-> - Você pode ver informações sobre os usuários que estão encaminhando mensagens automaticamente para destinatários externos no [relatório de mensagens de encaminhamento automático](mfi-auto-forwarded-messages-report.md).
+> - Você pode ver informações sobre usuários que estão encaminhando mensagens automaticamente para destinatários externos no [relatório de mensagens encaminhadas automaticamente.](mfi-auto-forwarded-messages-report.md)
 
-## <a name="how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls"></a>Como as configurações da política de filtro de spam de saída funcionam com outros controles de encaminhamento automáticos de email
+## <a name="how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls"></a>Como as configurações de política de filtro de spam de saída funcionam com outros controles automáticos de encaminhamento de email
 
-Como administrador, você já deve ter configurado outros controles para permitir ou bloquear o encaminhamento automático de emails. Por exemplo:
+Como administrador, você pode já ter configurado outros controles para permitir ou bloquear o encaminhamento automático de emails. Por exemplo:
 
-- [Domínios remotos](https://docs.microsoft.com/exchange/mail-flow-best-practices/remote-domains/remote-domains) para permitir ou bloquear o encaminhamento automático de emails para alguns ou todos os domínios externos.
+- [Domínios remotos](https://docs.microsoft.com/exchange/mail-flow-best-practices/remote-domains/remote-domains) para permitir ou bloquear o encaminhamento automático de email para alguns ou todos os domínios externos.
 
-- Condições e ações nas [regras de fluxo de emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) do Exchange (também conhecidas como regras de transporte) para detectar e bloquear automaticamente mensagens encaminhadas para destinatários externos.
+- Condições e ações nas regras de fluxo de [emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) do Exchange (também conhecidas como regras de transporte) para detectar e bloquear mensagens encaminhadas automaticamente para destinatários externos.
 
-As regras de domínio remoto e de fluxo de emails são independentes das configurações nas políticas de filtro de spam de saída. Por exemplo:
+As configurações de domínio remoto e as regras de fluxo de emails são independentes das configurações nas políticas de filtro de spam de saída. Por exemplo:
 
 - Você permite o encaminhamento automático para um domínio remoto, mas bloqueia o encaminhamento automático em políticas de filtro de spam de saída. Neste exemplo, as mensagens encaminhadas automaticamente são bloqueadas.
 
-- Você permite o encaminhamento automático em políticas de filtro de spam de saída, mas usa regras de fluxo de emails ou configurações de domínio remoto para bloquear emails encaminhados automaticamente. Neste exemplo, as regras de fluxo de email ou as configurações de domínio remoto bloquearão mensagens automaticamente encaminhadas.
+- Você permite o encaminhamento automático em políticas de filtro de spam de saída, mas usa regras de fluxo de emails ou configurações de domínio remoto para bloquear emails encaminhados automaticamente. Neste exemplo, as regras de fluxo de emails ou as configurações de domínio remoto bloquearão automaticamente as mensagens encaminhadas.
 
-Essa independência de recurso permite que você (por exemplo) permita o encaminhamento automático em políticas de filtro de spam de saída, mas use domínios remotos para controlar os domínios externos aos quais os usuários podem encaminhar mensagens.
+Essa independência de recursos permite que você (por exemplo) permita o encaminhamento automático em políticas de filtro de spam de saída, mas use domínios remotos para controlar os domínios externos para os que os usuários podem encaminhar mensagens.
 
-## <a name="the-blocked-email-forwarding-message"></a>A mensagem de encaminhamento de email bloqueado
+## <a name="the-blocked-email-forwarding-message"></a>A mensagem de encaminhamento de email bloqueada
 
-Quando uma mensagem é detectada como encaminhada automaticamente e a política organizacional *bloqueia* essa atividade, a mensagem é retornada ao remetente em uma notificação de falha na entrega que contém as seguintes informações:
+Quando uma mensagem é detectada como encaminhada  automaticamente e a política organizacional bloqueia essa atividade, a mensagem é retornada ao remetente em uma NDR que contém as seguintes informações:
 
 `5.7.520 Access denied, Your organization does not allow external forwarding. Please contact your administrator for further assistance. AS(7555)`

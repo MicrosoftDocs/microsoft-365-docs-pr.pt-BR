@@ -8,31 +8,36 @@ manager: dansimp
 ms.date: 09/18/2020
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba como o Exchange Online Protection (EOP) pode ajudar a proteger sua organização de email local em ambientes autônomos e híbridos.
-ms.openlocfilehash: 997f157432dced474ccc17bf47cf9af68f4b8c08
-ms.sourcegitcommit: 474bd6a86c3692d11fb2c454591c89029ac5bbd5
+description: Saiba como o Proteção do Exchange Online (EOP) pode ajudar a proteger sua organização de email local em ambientes autônomos e híbridos.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b84ac26333163caec6117cf042044b9bbfad0a4f
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356710"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165452"
 ---
 # <a name="exchange-online-protection-overview"></a>Visão geral do Exchange Online Protection
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+-    [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+-    [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-O proteção do Exchange Online (EOP) é o serviço de filtragem baseado em nuvem que ajuda a proteger sua organização contra spam e malware. O EOP está incluído em todas as organizações do Microsoft 365 com caixas de correio do Exchange Online. No entanto, o EOP também está disponível nos seguintes cenários locais:
+O Exchange Online Protection (EOP) é o serviço de filtragem baseado em nuvem que ajuda a proteger sua organização contra spam e malware. O EOP está incluído em todas as organizações do Microsoft 365 com caixas de correio do Exchange Online. No entanto, o EOP também está disponível nos seguintes cenários locais:
 
-- **Em um cenário autônomo: o** EOP fornece proteção de email baseada em nuvem para sua organização local do Exchange ou para qualquer outra solução de email SMTP local.
+- **Em um cenário autônomo:** o EOP fornece proteção de email baseada em nuvem para sua organização local do Exchange ou para qualquer outra solução de email SMTP local.
 
-- **Em uma implantação híbrida: o** EOP pode ser configurado para proteger seu ambiente de email e controlar o roteamento de email quando você tem uma combinação de caixas de correio locais e em nuvem.
+- **Em uma implantação** híbrida: o EOP pode ser configurado para proteger seu ambiente de email e controlar o roteamento de email quando você tem uma combinação de caixas de correio locais e na nuvem.
 
-Nesses cenários, o EOP pode simplificar o gerenciamento de seu ambiente de email e aliviar muitos dos ônus que acompanham a manutenção de hardware e software locais.
+Nesses cenários, o EOP pode simplificar o gerenciamento de seu ambiente de email e aliviar muitos dos problemas que vêm com a manutenção de hardware e software local.
 
 O restante deste tópico explica como o EOP funciona em ambientes autônomos e híbridos.
 
@@ -40,31 +45,31 @@ O restante deste tópico explica como o EOP funciona em ambientes autônomos e h
 
 Para entender como o EOP funciona, ele o ajuda a ver como processa o email de entrada:
 
-:::image type="content" source="../../media/tp_emailprocessingineopt3.png" alt-text="Gráfico de email da Internet ou dos comentários do cliente transmitidos para o EOP e por meio da conexão, do anti-malware, da filtragem de política de barra de Tróia e da filtragem de conteúdo, antes do veredicto de lixo eletrônico ou quarentena ou entrega de email do usuário final.":::
+:::image type="content" source="../../media/tp_emailprocessingineopt3.png" alt-text="Gráfico de email da Internet ou comentários do cliente que passam pelo EOP e pela Conexão, Anti-malware, Filtragem de Regras de Fluxo de Mensagens e Filtragem de Conteúdo, antes do veredito de lixo eletrônico ou quarentena ou da entrega de email do usuário final.":::
 
-- Quando uma mensagem de entrada entra EOP, ela inicialmente passa pela filtragem de conexão, que verifica a reputação do remetente. A maior parte do spam é interrompida neste ponto e rejeitada pelo EOP. Para obter mais informações, confira [Configurar a filtragem da conexão](configure-the-connection-filter-policy.md).
+- Quando uma mensagem de entrada entra no EOP, ela passa inicialmente pela filtragem de conexão, que verifica a reputação do remetente. A maioria dos spams é interrompida neste ponto e rejeitada pelo EOP. Para obter mais informações, confira [Configurar a filtragem da conexão](configure-the-connection-filter-policy.md).
 
-- Em seguida, a mensagem é inspecionada em busca de sinais de malware. Se o malware for encontrado na mensagem ou no (s) anexo (s) a mensagem é roteada para um repositório de quarentena somente do administrador. Você pode saber mais sobre a configuração do anti-malware [aqui](configure-anti-malware-policies.md).
+- Em seguida, a mensagem é inspecionada em busca de sinais de malware. Se um malware for encontrado na mensagem ou nos anexos, a mensagem será roteada para um armazenamento de quarentena somente para administradores. Você pode saber mais sobre como configurar o anti-malware [aqui.](configure-anti-malware-policies.md)
 
-- As mensagens continuam por meio da filtragem de política, onde são avaliadas em relação às regras de fluxo de emails personalizadas (também conhecidas como regras de transporte) que você cria ou impõe de um modelo. Por exemplo, você pode ter uma regra que envia uma notificação a um gerente quando o email chega de um remetente específico. As verificações de prevenção de perda de dados (DLP) também ocorrem neste ponto (Exchange Enterprise CAL com serviços).
+- As mensagens continuam pela filtragem de política, onde são avaliadas em relação às regras personalizadas de fluxo de emails (também conhecidas como regras de transporte) que você cria ou impõe a partir de um modelo. Por exemplo, você pode ter uma regra que envia uma notificação a um gerente quando o email chega de um remetente específico. As verificações de prevenção contra perda de dados (DLP) também ocorrem neste ponto (Exchange Enterprise CAL com Serviços).
 
-- Em seguida, a mensagem passa pela filtragem de conteúdo (também conhecida como anti-spam). Uma mensagem que este filtro determina ser spam *ou phishing* pode ser enviada para a quarentena ou para a pasta lixo eletrônico de um usuário, entre outras opções. Para obter mais informações, consulte [Configure anti-spam Policies](configure-your-spam-filter-policies.md) e [Configure anti-phishing Policies](configure-anti-phishing-policies-eop.md).
+- Em seguida, a mensagem passa pela filtragem de conteúdo (também conhecida como Anti-spam). Uma mensagem que esse filtro determina como sendo spam ou *phishing* pode ser enviada para a quarentena, ou para a pasta Lixo Eletrônico do usuário, entre outras opções. Para obter mais informações, [consulte Configurar políticas anti-spam](configure-your-spam-filter-policies.md) [e Configurar políticas anti-phishing.](configure-anti-phishing-policies-eop.md)
 
-Qualquer mensagem que transmita todas essas camadas de proteção com êxito é entregue ao destinatário.
+Qualquer mensagem que passe todas essas camadas de proteção com êxito será entregue ao destinatário.
 
-Para obter mais informações, consulte [ordem e precedência de proteção de email](how-policies-and-protections-are-combined.md).
+Para obter mais informações, consulte [Ordem e precedência da proteção de email.](how-policies-and-protections-are-combined.md)
 
 ## <a name="eop-plans-and-features-for-on-premises-email-organizations"></a>Planos e recursos do EOP para organizações de email locais
 
-Os planos de assinatura disponíveis do EOP são:
+Os planos de assinatura do EOP disponíveis são:
 
-- **EOP autônomo**: você se inscreve no EOP para proteger sua organização de email local.
+- **EOP autônomo: inscreva-se** no EOP para proteger sua organização de email local.
 
-- **Recursos do EOP no Exchange Online**: qualquer assinatura que inclua o Exchange Online (autônomo ou como parte do Microsoft 365) usa o EOP para proteger suas caixas de correio do Exchange Online.
+- **Recursos do EOP** no Exchange Online: qualquer assinatura que inclua o Exchange Online (autônoma ou como parte do Microsoft 365) usa o EOP para proteger suas caixas de correio do Exchange Online.
 
-- **Exchange Enterprise CAL com serviços**: se você tiver uma organização do Exchange no local onde comprou o Exchange Enterprise CAL adicional com licenças de serviços, o EOP faz parte dos serviços incluídos.
+- **Exchange Enterprise CAL com Serviços:** se você tiver uma organização local do Exchange onde comprou licenças adicionais do Exchange Enterprise CAL com Serviços, o EOP faz parte dos serviços incluídos.
 
-Para obter informações sobre requisitos, limites importantes e disponibilidade de recursos em todos os planos de assinatura do EOP, consulte a [Descrição do serviço de proteção do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
+Para obter informações sobre requisitos, limites importantes e disponibilidade de recursos em todos os planos de assinatura do EOP, consulte a descrição do serviço do [Exchange Online Protection.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)
 
 ## <a name="setting-up-eop-for-on-premises-email-organizations"></a>Configurando o EOP para organizações de email locais
 
@@ -80,15 +85,15 @@ EOP realiza balanceamento de carga entre data centers, mas apenas dentro de uma 
 
 - Na Europa, Oriente Médio e África (EMEA), todas as caixas de correio do Exchange Online são localizadas nos data centers da EMEA e todas as mensagens são roteadas através de data centers da EMEA para filtragem do EOP.
 
-- No Asia-Pacific (na EOP), todas as caixas de correio do Exchange Online estão localizadas em datacenters da linha da Pacífico e as mensagens são roteadas por meio de datacenters da rota para filtragem do.
+- No Asia-Pacific (APAC), todas as caixas de correio do Exchange Online estão localizadas em datacenters da APAC, e as mensagens atualmente são roteadas através de datacenters APAC para filtragem EOP.
 
 - Nas Américas, os serviços são distribuídos nos seguintes locais:
 
-  - América do Sul: as caixas de correio do Exchange Online estão localizadas em datacenters no Brasil e no Chile. Todas as mensagens são roteadas através de datacenters locais para filtragem do EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
+  - América do Sul: as caixas de correio do Exchange Online estão localizadas em datacenters no Brasil e no Chile. Todas as mensagens são roteadas através de datacenters locais para filtragem EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
 
-  - Canadá: as caixas de correio do Exchange Online estão localizadas em datacenters no Canadá. Todas as mensagens são roteadas através de datacenters locais para filtragem do EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
+  - Canadá: as caixas de correio do Exchange Online estão localizadas em datacenters no Canadá. Todas as mensagens são roteadas através de datacenters locais para filtragem EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
 
-  - Estados Unidos: caixas de correio do Exchange Online estão localizadas em datacenters dos EUA. Todas as mensagens são roteadas através de datacenters locais para filtragem do EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
+  - Estados Unidos: as caixas de correio do Exchange Online estão localizadas em datacenters dos EUA. Todas as mensagens são roteadas através de datacenters locais para filtragem EOP. As mensagens em quarentena são armazenadas no datacenter onde o locatário está localizado.
 
 - Para a Nuvem de Comunidade Governamental (GCC), todas as caixas de correio do Exchange Online localizadas em data centers dos EUA e todas as mensagens são roteadas através de data centers dos EUA para filtragem do EOP.
 
@@ -96,28 +101,28 @@ EOP realiza balanceamento de carga entre data centers, mas apenas dentro de uma 
 
 O conteúdo da Ajuda para administradores do EOP é composta pelas seguintes categorias de primeiro nível:
 
-- [Configure o EOP, o dia 1, para administradores do Microsoft defender para Office 365](protect-against-threats.md): Configurando as ferramentas de proteção e detecção do EOP no núcleo do Microsoft defender para Office 365.
+- Configure o EOP, Dia 1, para administradores do [Microsoft Defender para Office 365:](protect-against-threats.md)configurando ferramentas de proteção e detecção do EOP no núcleo do Microsoft Defender para Office 365.
 
-- [Recursos do EOP](eop-features.md): fornece uma lista de recursos disponíveis no EOP.
+- [Recursos do EOP:](eop-features.md)fornece uma lista dos recursos disponíveis no EOP.
 
-- [Set up your EOP Service](set-up-your-eop-service.md): fornece etapas para configurar o seu serviço do EOP e links para informações adicionais.
+- [Configurar seu serviço EOP:](set-up-your-eop-service.md)fornece etapas para configurar seu serviço EOP e links para informações adicionais.
 
-- [Vá para EOP do Google Postini, firewall de vírus e spam de Barracuda ou Cisco IronPort](switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md): descreve o processo para mudar para EOP de outro produto de proteção de email.
+- Alternar para o EOP do Google Postini, Firewall de Vírus e [Spam Barracuda ou Cisco IronPort:](switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md)descreve o processo para mudar para o EOP de outro produto de proteção de email.
 
-- [Gerenciar destinatários no EOP autônomo](manage-recipients-in-eop.md): descreve como gerenciar usuários e grupos de email no EOP.
+- [Gerenciar destinatários no EOP autônomo:](manage-recipients-in-eop.md)descreve como gerenciar usuários de email e grupos no EOP.
 
-- [Fluxo de email no EOP](mail-flow-in-eop.md): descreve como configurar cenários de fluxo de email personalizados usando conectores, como gerenciar domínios associados ao serviço e como habilitar o recurso bloqueio de borda baseado em diretório (DBEB).
+- Fluxo de emails no [EOP](mail-flow-in-eop.md): descreve como configurar cenários de fluxo de email personalizados usando conectores, como gerenciar domínios associados ao serviço e como habilitar o recurso Bloqueio de Borda Baseado em Diretório (DBEB).
 
-- [Práticas recomendadas para a configuração do EOP](best-practices-for-configuring-eop.md): descreve as definições de configuração e considerações recomendadas para depois de configurar e provisionar o serviço.
+- [Práticas recomendadas para configurar o EOP:](best-practices-for-configuring-eop.md)descreve as configurações recomendadas e considerações para depois de configurar e provisionar seu serviço.
 
-- [Relatórios de auditoria em EOP autônomos](auditing-reports-in-eop.md): descreve como usar os relatórios de auditoria para rastrear as alterações de configuração para o serviço.
+- [Relatórios de auditoria no EOP autônomo:](auditing-reports-in-eop.md)descreve como usar relatórios de auditoria para controlar alterações de configuração no serviço.
 
-- [Proteção antispam e antimalware no EOP](anti-spam-and-anti-malware-protection.md): descreve a filtragem de spam e a filtragem de malware e mostra como personalizá-las para atender melhor às necessidades da sua organização. Descreve também as tarefas que os administradores e usuários finais podem realizar em mensagens em quarentena.
+- [Proteção anti-spam e anti-malware no EOP:](anti-spam-and-anti-malware-protection.md)descreve a filtragem de spam e malware e mostra como personalizá-los para atender melhor às necessidades da sua organização. Descreve também as tarefas que os administradores e usuários finais podem realizar em mensagens em quarentena.
 
-- [Relatórios e rastreamento de mensagens no Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md): descreve os relatórios e as ferramentas de solução de problemas disponíveis.
+- [Relatórios e rastreamento de mensagens no Exchange Online Protection:](reporting-and-message-trace-in-exchange-online-protection.md)descreve os relatórios e as ferramentas de solução de problemas disponíveis.
 
-- [Centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md): descreve como acessar e navegar pela interface de gerenciamento do centro de administração do Exchange (Eat) para gerenciar seu serviço do EOP.
+- [Centro de administração do Exchange no EOP](exchange-admin-center-in-exchange-online-protection-eop.md)autônomo: descreve como acessar e navegar pela interface de gerenciamento do Centro de administração do Exchange (EAC) para gerenciar seu serviço EOP.
 
-- [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell): fornece informações sobre o PowerShell remoto, que permite gerenciar seu serviço do EOP a partir da linha de comando.
+- [PowerShell da Proteção](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)do Exchange Online: fornece informações sobre o PowerShell remoto, que permite gerenciar seu serviço EOP na linha de comando.
 
 - [Ajuda e suporte para EOP](help-and-support-for-eop.md) Fornece informações sobre como obter ajuda e suporte técnico.

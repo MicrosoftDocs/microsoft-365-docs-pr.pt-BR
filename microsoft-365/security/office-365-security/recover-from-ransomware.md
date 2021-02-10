@@ -6,7 +6,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.article: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -14,19 +13,25 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os administradores do Microsoft 365 podem aprender a se recuperar de um ataque de ransomware.
-ms.openlocfilehash: 753171578dc7b76aefadf4b8587e84320d98b912
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b834adb3d9ba5f85984e09b4bb1e4b48673c32f2
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794443"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166898"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Recuperar-se de um ataque de ransomware no Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Mesmo que você tome todas as precauções para proteger sua organização, ainda poderá ser vítima de um ataque [de ransomware.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) Ransomware é uma grande empresa e os ataques são muito sofisticados.
+Mesmo que você tome todas as precauções para proteger sua organização, ainda poderá ser vítima de um ataque [de ransomware.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) O ransomware é uma grande empresa e os ataques são muito sofisticados.
 
 As etapas neste artigo lhe darão a melhor chance de recuperar dados e parar a propagação interna da infecção. Antes de começar, considere os seguintes itens:
 
@@ -100,7 +105,7 @@ Depois de limpar seus computadores e dispositivos e recuperar seus dados, você 
 
 ## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Etapa 8 (Opcional): Bloquear a sincronização do OneDrive para extensões de arquivo específicas
 
-Depois de recuperar, você pode impedir que os clientes do OneDrive for Business sincroniem os tipos de arquivo que foram afetados por esse ransomware. Para obter mais informações, [consulte Set-SPOTenantSyncClientRestriction](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+Após a recuperação, você pode impedir que os clientes do OneDrive for Business sincroniem os tipos de arquivo que foram afetados por esse ransomware. Para obter mais informações, [consulte Set-SPOTenantSyncClientRestriction](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
 ## <a name="report-the-attack"></a>Relatar o ataque
 
@@ -140,7 +145,7 @@ Você pode relatar mensagens de phishing que contêm ransomware usando um dos v�
 
 - [Resposta a ransomware : para pagar ou não pagar?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
 
-- [Norsk Ransomware responde a um ataque de ransomware com transparência](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+- [NorskSk Responds to ransomware attack with transparency](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
 - [Detecção de ransomware e recuperação de arquivos no OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
@@ -150,7 +155,7 @@ Você pode relatar mensagens de phishing que contêm ransomware usando um dos v�
 
 - [Configurações recomendadas para o EOP e o Microsoft Defender para segurança do Office 365](recommended-settings-for-eop-and-office365-atp.md)
 
-- [Uma atualização valiosa: a segurança da próxima geração no Windows 10 prova a resiliência contra ataques de ransomware em 2017](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
+- [Uma atualização que vale a pena: a segurança da próxima geração no Windows 10 prova a resiliência contra ataques de ransomware em 2017](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
 - [No mas, Samas: What's in this ransomware's mmodo operandi?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
 

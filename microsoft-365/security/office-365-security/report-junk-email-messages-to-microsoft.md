@@ -17,18 +17,23 @@ ms.collection:
 description: Os administradores podem aprender sobre as diferentes maneiras de relatar mensagens e arquivos bons e ruins à Microsoft para análise.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 601d0c599a815529540281679bd2b0f907031058
-ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
+ms.openlocfilehash: b75b05f33ab6c6a5827101ad2f5b14c94b932135
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099685"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166682"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Relatar mensagens e arquivos à Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os usuários e administradores têm vários métodos diferentes para relatar mensagens de email e arquivos à Microsoft.
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os usuários e administradores têm vários métodos diferentes para relatar mensagens de email e arquivos à Microsoft.
 
 ****
 
@@ -44,7 +49,7 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou 
 |[Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que notifica quando os usuários relatam mensagens à Microsoft para análise.|
 |[Enviar malware e não malware à Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Use o site de Inteligência de Segurança da Microsoft para enviar anexos e outros arquivos.|
 
-Se as mensagens de spam ou phishing foram colocadas em quarentena em vez de entregues, os usuários podem relatar as mensagens à Microsoft do & portal quarentena no Centro de Conformidade e Segurança. Para obter detalhes, [consulte Encontrar e liberar mensagens em quarentena como um usuário no Microsoft 365.](find-and-release-quarantined-messages-as-a-user.md)
+Se as mensagens de spam ou phishing foram colocadas em quarentena em vez de entregues, os usuários podem relatar as mensagens à Microsoft do portal quarentena no Centro de Conformidade e & Segurança. Para obter detalhes, [consulte Encontrar e liberar mensagens em quarentena como um usuário no Microsoft 365.](find-and-release-quarantined-messages-as-a-user.md)
 
 > [!NOTE]
 > Os dados de envios para a Microsoft residem no limite de conformidade do Office 365 em data centers na América do Norte. Os dados são revisados por analistas da equipe de engenharia para ajudar a melhorar a eficácia dos filtros.

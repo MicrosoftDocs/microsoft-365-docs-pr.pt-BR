@@ -14,21 +14,25 @@ ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem aprender sobre os códigos de erro associados à entrega de mensagens usando conectores (também conhecidos como inteligência de fluxo de emails).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c7d4277d1ce3baeabcb5b1795b5d57583fbc8245
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 864b69bf650a4e460376ae988a9ce4abc4c61ad4
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029251"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167066"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de emails no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você normalmente usa um conector para rotear mensagens de email do EOP para seu ambiente de email local. Você também pode usar um conector para encaminhar mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas estão na fila no Microsoft 365. O Microsoft 365 continuará tentando entregar cada mensagem por 24 horas. Após 24 horas, a mensagem em fila expirará e a mensagem será retornada ao remetente original em um relatório de não entrega (também conhecido como NDR ou mensagem de rejeição).
+Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você normalmente usa um conector para rotear mensagens de email do EOP para seu ambiente de email local. Você também pode usar um conector para encaminhar mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas estão na fila no Microsoft 365. O Microsoft 365 continuará tentando entregar cada mensagem por 24 horas. Após 24 horas, a mensagem na fila expirará e a mensagem será retornada ao remetente original em um relatório de não entrega (também conhecido como NDR ou mensagem de rejeição).
 
-O Microsoft 365 gera um erro quando uma mensagem não pode ser entregue usando um conector. Os erros mais comuns e suas soluções são descritos neste artigo. Coletivamente, erros de fila e notificação para mensagens não entregues enviadas por meio de conectores é conhecido como _inteligência de fluxo de emails._
+O Microsoft 365 gera um erro quando uma mensagem não pode ser entregue usando um conector. Os erros mais comuns e suas soluções são descritos neste artigo. Coletivamente, erros de fila e notificação para mensagens não entregues enviadas por conectores é conhecido como _inteligência de fluxo de emails._
 
 ## <a name="error-code-450-44312-dns-query-failed"></a>Código de erro: falha na consulta DNS 450 4.4.312
 
@@ -80,7 +84,7 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
        - Desabilite o conector clicando no **ícone** ![ Editar e ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) desblicando **a a ligue.**
 
-  - Altere o domínio aceito no Microsoft 365 associado ao seu ambiente  de email local de Retransmissão Interna para **Autoritativo.** Para obter instruções, [confira Gerenciar domínios aceitos no Exchange Online.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
+  - Altere o domínio aceito no Microsoft 365 associado ao seu ambiente de email local de Retransmissão Interna **para** **Autoritativo.** Para obter instruções, [confira Gerenciar domínios aceitos no Exchange Online.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
 
   **Observação:** normalmente, essas alterações levam entre 30 minutos e uma hora para ter efeito. Após uma hora, verifique se você não recebe mais o erro.
 
@@ -136,6 +140,6 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro ao tentar
 
 ## <a name="other-error-codes"></a>Outros códigos de erro
 
-O Microsoft 365 está com dificuldades para entregar mensagens para seu servidor de email local ou parceiro. Use as **informações do servidor** de Destino no erro para examinar o problema em seu ambiente ou modifique o conector se houver um erro de configuração.
+O Microsoft 365 está com dificuldades para entregar mensagens ao seu servidor de email local ou parceiro. Use as **informações do servidor** de Destino no erro para examinar o problema em seu ambiente ou modifique o conector se houver um erro de configuração.
 
 Se o erro for da sua organização parceira (por exemplo, um provedor de serviços de nuvem de terceiros), você precisará entrar em contato com seu parceiro para corrigir o problema.

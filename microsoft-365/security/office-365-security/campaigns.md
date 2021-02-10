@@ -1,5 +1,5 @@
 ---
-title: Exibições de Campanha no Plano do Microsoft Defender para Office 365
+title: Exibições de campanha no plano do Microsoft Defender para Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -9,7 +9,6 @@ ms.reviewer: mcostea
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -18,17 +17,21 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Saiba mais sobre exibições de campanha no Microsoft Defender para Office 365.
-ms.openlocfilehash: 20cb50a4b304e148df24e54fac3a05c484cfa4f0
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e3b9c1a9a19e38ea83b13d9028af1a6ba042b900
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794359"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165914"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Exibições de campanha no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
 Exibições de Campanha é um recurso do Microsoft Defender para Office 365 Plano 2 (por exemplo, Microsoft 365 E5 ou organizações com um complemento do Defender para Office 365 Plano 2). Exibições de campanha no Centro de Conformidade & segurança identifica e categoriza ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
 
@@ -70,7 +73,7 @@ Para acessar as Exibições de Campanha, você precisa ser  membro dos grupos de
 
 A página de visão geral mostra informações sobre todas as campanhas.
 
-Na guia **Campanha** padrão, a área **Tipo** de campanha mostra um gráfico de barras que mostra o número de destinatários por dia. Por padrão, o gráfico mostra dados **de phishing** **e malware.**
+Na guia **Campanha** padrão, a área **Tipo de** campanha mostra um gráfico de barras que mostra o número de destinatários por dia. Por padrão, o gráfico mostra dados **de phishing** **e malware.**
 
 > [!TIP]
 > Se você não vir dados de campanha, tente alterar o intervalo de datas ou [filtros.](#filters-and-settings)
@@ -113,7 +116,7 @@ Na parte superior da página Exibições de Campanha, há várias configuraçõe
 
 A filtragem mais básica que você pode fazer é a data/hora de início e a data/hora de término.
 
-Para filtrar ainda mais a exibição, você pode fazer  uma única propriedade com vários valores filtrando clicando no botão Tipo de campanha, fazendo sua seleção e clicando em **Atualizar.**
+Para filtrar ainda mais a exibição, você pode fazer  uma única propriedade com vários valores filtrando clicando no botão tipo campanha, fazendo sua seleção e clicando em **Atualizar**.
 
 As propriedades de campanha filtáveis que estão disponíveis no botão **Tipo** de campanha são descritas na lista a seguir:
 
@@ -139,7 +142,7 @@ As propriedades de campanha filtáveis que estão disponíveis no botão **Tipo*
 
 - **Avançado:**
   - **ID da mensagem** da Internet: Disponível no campo de header **Message-ID** no header da mensagem. Um valor de exemplo `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` é (observe os colchetes angulares).
-  - **ID** da mensagem de rede: um valor GUID disponível no campo de header **X-MS-Exchange-Organization-Network-Message-Id** no header da mensagem.
+  - **ID** da mensagem de rede : um valor GUID disponível no campo de header **X-MS-Exchange-Organization-Network-Message-Id** no header da mensagem.
   - **IP do remetente**
   - **Anexo SHA256**: Para encontrar o valor de hash SHA256 de um arquivo no Windows, execute o seguinte comando em um Prompt de Comando: `certutil.exe -hashfile "<Path>\<Filename>" SHA256` .
   - **Cluster ID**
@@ -187,7 +190,7 @@ Na parte superior da exibição de detalhes da campanha, as seguintes informaç�
 
 - **Direcionado**: a porcentagem conforme calculado por: (o número de destinatários da campanha em sua organização) / (o número total de destinatários na campanha em todas as organizações no serviço). Observe que esse valor é calculado durante todo o tempo de vida da campanha e não muda com base nos filtros de data.
 
-- Uma linha do tempo interativa da atividade da campanha: a linha do tempo mostra atividade durante todo o tempo de vida da campanha. Por padrão, a área sombreada inclui o filtro de intervalo de datas selecionado na visão geral. Você pode clicar e arrastar para selecionar um ponto inicial e um ponto de extremidade específicos, o que alterará os dados exibidos na área de Impacto e no restante da página, conforme descrito nas <u>próximas seções.  </u>
+- Uma linha do tempo interativa da atividade da campanha: a linha do tempo mostra a atividade durante todo o tempo de vida da campanha. Por padrão, a área sombreada inclui o filtro de intervalo de datas selecionado na visão geral. Você pode clicar e arrastar para selecionar um ponto inicial e um ponto de extremidade específicos, o que alterará os dados exibidos na área de Impacto e no restante da página, conforme descrito nas <u>próximas seções.  </u>
 
 Na barra de título, você pode clicar no botão Baixar o **write-up** da campanha Baixar o ícone de gravação da campanha para baixar os detalhes da campanha em um documento do ![ ](../../media/download-campaign-write-up-button.png) Word (por padrão, chamado CampaignReport.docx). Observe que o download contém detalhes durante todo o tempo de vida da campanha (não apenas as datas de filtro que você selecionou).
 
@@ -208,7 +211,7 @@ O diagrama contém as seguintes informações:
 
 - **IPs do remetente**
 - **Domínios do remetente**
-- **Vereditos de filtro:** Os valores de veredito estão relacionados aos vereditos de filtragem de spam e phishing disponíveis, conforme descrito nos headers de mensagens [anti-spam.](anti-spam-message-headers.md) Os valores disponíveis são descritos na tabela a seguir:
+- **Vereditos de filtro:** Os valores de veredito estão relacionados aos vereditos disponíveis de filtragem de phishing e spam, conforme descrito nos headers de mensagens [anti-spam.](anti-spam-message-headers.md) Os valores disponíveis são descritos na tabela a seguir:
 
   ****
 
@@ -223,7 +226,7 @@ O diagrama contém as seguintes informações:
   |**Bloqueio de Locatário**<sup>\*\*</sup>|`SFV:SKA`|A mensagem foi bloqueada pela filtragem de spam devido às configurações em uma política anti-spam. Por exemplo, o remetente estava na lista de remetentes permitidos ou na lista de domínios permitidos.|
   |**Permitir Usuário**<sup>\*</sup>|`SFV:SFE`|A mensagem ignorou a filtragem de spam porque o remetente estava na lista de Remetentes Seguros de um usuário.|
   |**Bloqueio de Usuário**<sup>\*\*</sup>|`SFV:BLK`|A mensagem foi bloqueada pela filtragem de spam porque o remetente estava na lista de Remetentes Bloqueados de um usuário.|
-  |**ZAP**|n/d|[A ZAP (Limpeza Automática Zero Hora)](zero-hour-auto-purge.md) moveu a mensagem entregue para a pasta Lixo Eletrônico ou quarentena. Configure a ação em sua política anti-spam.|
+  |**ZAP**|n/d|[A ZAP (Limpeza Automática Zero Hora)](zero-hour-auto-purge.md) moveu a mensagem entregue para a pasta Lixo Eletrônico ou quarentena. Você configura a ação em sua política anti-spam.|
   |
 
   <sup>\*</sup> Revise suas políticas anti-spam, pois a mensagem permitida provavelmente seria bloqueada pelo serviço.
@@ -250,7 +253,7 @@ O diagrama contém as seguintes informações:
 
 Quando uma mensagem de phishing é entregue na pasta Caixa de Entrada ou Lixo Eletrônico de um destinatário, sempre há uma chance de o usuário clicar na URL do conteúdo. Não clicar na URL é uma pequena medida de sucesso, mas você precisa determinar por que a mensagem de phishing foi até mesmo entregue à caixa de correio.
 
-Se um usuário clicou na URL de carga na mensagem de phishing, as ações são exibidas na área de **cliques** de URL do diagrama na exibição de detalhes da campanha.
+Se um usuário clicou na URL de carga na mensagem de phishing, as ações serão exibidas na área de **cliques** de URL do diagrama na exibição de detalhes da campanha.
 
 - **Permitido**
 - **BlockPage**: o destinatário clicou na URL do conteúdo, mas o acesso ao site mal-intencionado foi bloqueado por uma política de [Links](atp-safe-links.md) seguros em sua organização.

@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150s
@@ -16,17 +15,23 @@ ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem saber mais sobre as opções disponíveis e preferenciais para permitir mensagens de entrada no Exchange Online Protection (EOP).
-ms.openlocfilehash: 48f08e5b0d94a0e1eb65b78ba56639d8457f90aa
-ms.sourcegitcommit: a76de3d1604d755b29053e7bf557c0008be6ad23
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 92229f0324eb9c05b233e5c4b0bc9f1bd7ab2e39
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49788094"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165554"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Se você for um cliente do Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de garantir que os usuários receberão emails de destinatários confiáveis. Essas opções incluem regras de fluxo de emails do Exchange (também conhecidas como regras de transporte), Remetentes Seguros do Outlook, Lista de IIs Permitidos (filtragem de conexão) e listas de remetentes permitidos ou listas de domínios permitidos em políticas anti-spam. Coletivamente, você pode pensar nessas opções como listas _de remetentes seguros._
 
@@ -98,9 +103,9 @@ O exemplo a seguir presume que você precisa de email contoso.com ignorar a filt
 ## <a name="use-outlook-safe-senders"></a>Usar o Outlook Safe Senders
 
 > [!CAUTION]
-> Esse método cria um alto risco de invasores entregarem com êxito emails para a Caixa de Entrada que, de outra forma, seriam filtrados; No entanto, as listas de Envios Seguros ou Domínios Seguros do usuário não impedem a filtragem de mensagens de phishing de malware ou de alta confiança.
+> Esse método cria um alto risco de invasores entregarem com êxito emails para a Caixa de Entrada que, de outra forma, seriam filtrados; No entanto, as listas de Envios Seguros ou Domínios Seguros do usuário não impedem que mensagens de phishing de malware ou alta confiança seja filtrada.
 
-Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de Remetentes Seguros na caixa de correio. Para obter instruções, confira [Definir configurações de lixo eletrônico em caixas de correio do Exchange Online no Office 365.](configure-junk-email-settings-on-exo-mailboxes.md) Isso não é desejável na maioria das situações, pois os envios ignorarão partes da pilha de filtragem. Embora você confie no remetente, o remetente ainda pode ser comprometido e enviar conteúdo mal-intencionado. É melhor que você deixe nossos filtros fazer o que for necessário para verificar todas as mensagens e, em seguida, relatar o falso [positivo/negativo](report-junk-email-messages-to-microsoft.md) para a Microsoft se nossos filtros daem errado. Ignorar a pilha de filtragem também interfere com [a ZAP.](zero-hour-auto-purge.md)
+Em vez de uma configuração organizacional, os usuários ou administradores podem adicionar os endereços de email do remetente à lista de Remetentes Seguros na caixa de correio. Para obter instruções, confira [Definir configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365.](configure-junk-email-settings-on-exo-mailboxes.md) Isso não é desejável na maioria das situações, pois os envios ignorarão partes da pilha de filtragem. Embora você confie no remetente, o remetente ainda pode ser comprometido e enviar conteúdo mal-intencionado. É melhor que você deixe nossos filtros fazer o que for necessário para verificar cada mensagem e, em seguida, relatar o falso [positivo/negativo](report-junk-email-messages-to-microsoft.md) para a Microsoft se nossos filtros fizerem errado. Ignorar a pilha de filtragem também interfere com [a ZAP.](zero-hour-auto-purge.md)
 
 Quando as mensagens ignoram a filtragem de spam devido à lista de Remetentes Seguros de um usuário, o campo de header **X-Forefront-Antispam-Report** conterá o valor , que indica que a filtragem de `SFV:SFE` spam, spoof e phishing foi ignorada.
 
@@ -135,7 +140,7 @@ O limite máximo para essas listas é de aproximadamente 1.000 entradas; embora 
 
 Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e conteúdo de mensagem. O envelope da mensagem contém informações necessárias para transmitir e entregar a mensagem entre servidores SMTP. O conteúdo da mensagem contém campos de título da mensagem (coletivamente chamado de título da *mensagem)* e o corpo da mensagem. O envelope da mensagem é descrito na RFC 5321 e o header da mensagem é descrito na RFC 5322. Os destinatários nunca veem o envelope real da mensagem porque ele é gerado pelo processo de transmissão da mensagem e não faz parte realmente da mensagem.
 
-- O endereço (também conhecido como endereço MAIL FROM, remetente P1 ou remetente de envelope) é o endereço de email usado na transmissão `5321.MailFrom` SMTP  da mensagem. Esse endereço de email normalmente é registrado no campo de título **Return-Path** no título da mensagem (embora seja possível para o remetente designar um endereço de email de Caminho **de** Retorno diferente). Se a mensagem não puder ser entregue, será o destinatário do relatório de não entrega (também conhecido como NDR ou mensagem de rejeição).
+- O endereço (também conhecido como endereço MAIL FROM, remetente P1 ou remetente de envelope) é o endereço de email usado na transmissão `5321.MailFrom` SMTP  da mensagem. Esse endereço de email normalmente é registrado no campo de título **Return-Path** no título da mensagem (embora seja possível para o remetente designar um endereço de email **return-path** diferente). Se a mensagem não puder ser entregue, será o destinatário do relatório de não entrega (também conhecido como NDR ou mensagem de rejeição).
 
 - O (também conhecido como endereço De ou remetente P2) é o endereço de email no campo de título De e é o endereço de email do remetente exibido nos clientes de `5322.From` email.  
 
@@ -153,6 +158,6 @@ Para impedir que essa mensagem seja filtrada, você pode seguir as seguintes eta
 
 - Adicione blueyonder@news.blueyonderairlines.com (o `5322.From` endereço) como um Remetente Seguro do Outlook.
 
-- [Use uma regra de fluxo de](#recommended-use-mail-flow-rules) emails com uma condição que procura mensagens de blueyonder@news.blueyonderairlines.com (o endereço, blueyonder.airlines@margiestravel.com `5322.From` (o ), ou `5321.MailFrom` ambos.
+- [Use uma regra de fluxo de](#recommended-use-mail-flow-rules) emails com uma condição que procura mensagens de blueyonder@news.blueyonderairlines.com (o `5322.From` endereço, blueyonder.airlines@margiestravel.com (o `5321.MailFrom` ), ou ambos.
 
 Para obter mais informações, [consulte Criar listas de remetentes seguros no EOP.](create-safe-sender-lists-in-office-365.md)

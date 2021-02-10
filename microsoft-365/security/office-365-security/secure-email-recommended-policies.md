@@ -19,20 +19,25 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 261c375aa17e4a3bc8f7d1b469d82621cf4ae45b
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: 653b16b7b3f6637440e3740830ffe9f9a51c6dd8
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097123"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166502"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+
+
 Este artigo descreve como implementar as políticas de acesso a dispositivos e identidade recomendadas para proteger clientes de email e email organizacionais que suportam autenticação moderna e acesso condicional. Essa orientação se baseia nas políticas [comuns](identity-access-policies.md) de acesso a dispositivos e identidade e também inclui algumas recomendações adicionais.
 
-Essas recomendações são baseadas em três camadas diferentes de segurança e proteção que podem ser aplicadas com base na granularidade de suas **necessidades:** linha de base **,** sensível e altamente **controlada.** Você pode aprender mais sobre esses níveis de segurança e os sistemas operacionais de cliente recomendada, referenciados por essas recomendações na [introdução de configurações e políticas de segurança recomendadas](microsoft-365-policies-configurations.md).
+Essas recomendações são baseadas em três camadas diferentes de segurança e proteção que podem ser aplicadas com base na granularidade de suas **necessidades:** linha de **base,** sensível e altamente **controlada.** Você pode aprender mais sobre esses níveis de segurança e os sistemas operacionais de cliente recomendada, referenciados por essas recomendações na [introdução de configurações e políticas de segurança recomendadas](microsoft-365-policies-configurations.md).
 
-Essas recomendações exigem que os usuários usem clientes de email modernos, incluindo o Outlook para iOS e Android em dispositivos móveis. O Outlook para iOS e Android oferece suporte para os melhores recursos do Office 365. Esses aplicativos móveis do Outlook também são projetados com recursos de segurança que suportam o uso móvel e trabalham em conjunto com outros recursos de segurança de nuvem da Microsoft. Para saber mais, confira [Perguntas frequentes sobre o Outlook para iOS e Android.](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq)
+Essas recomendações exigem que os usuários usem clientes de email modernos, incluindo o Outlook para iOS e Android em dispositivos móveis. O Outlook para iOS e Android oferece suporte para os melhores recursos do Office 365. Esses aplicativos móveis do Outlook também são projetados com recursos de segurança que suportam o uso móvel e trabalham em conjunto com outros recursos de segurança em nuvem da Microsoft. Para saber mais, confira [Perguntas frequentes sobre o Outlook para iOS e Android.](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android-faq)
 
 ## <a name="update-common-policies-to-include-email"></a>Atualizar políticas comuns para incluir email
 
@@ -46,7 +51,7 @@ Observe a adição de uma nova política para o Exchange Online bloquear cliente
 
 Se você incluiu o Exchange Online e o Outlook no escopo das políticas quando as configura, só precisa criar a nova política para bloquear clientes do ActiveSync. Revise as políticas listadas na tabela a seguir e faça as adições recomendadas ou confirme se elas já estão incluídas. Cada política é vinculada às instruções de configuração associadas [em políticas comuns de acesso a dispositivos e identidade.](identity-access-policies.md)
 
-|Nível de Proteção|Políticas|Mais informações|
+|Nível de Proteção|Políticas|Mais Informações|
 |---|---|---|
 |**Baseline**|[Exigir MFA quando o risco de login for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
 ||[Bloquear clientes sem suporte para a autenticação moderna](identity-access-policies.md#block-clients-that-dont-support-multi-factor)|Incluir o Exchange Online na atribuição de aplicativos de nuvem|
@@ -69,13 +74,13 @@ Você também pode usar políticas de autenticação para [desabilitar a autenti
 
 ## <a name="limit-access-to-exchange-online-from-outlook-on-the-web"></a>Limitar o acesso ao Exchange Online a partir do Outlook na Web
 
-Você pode restringir a capacidade de os usuários baixarem anexos do Outlook na Web em dispositivos sem análise. Os usuários nesses dispositivos podem exibir e editar esses arquivos usando o Office Online sem vazamento e armazenamento dos arquivos no dispositivo. Você também pode impedir que os usuários vejam anexos em um dispositivo não-manado.
+Você pode restringir a capacidade de os usuários baixarem anexos do Outlook na Web em dispositivos com um perfil. Os usuários nesses dispositivos podem exibir e editar esses arquivos usando o Office Online sem vazamento e armazenamento dos arquivos no dispositivo. Você também pode impedir que os usuários vejam anexos em um dispositivo não-manado.
 
 Estas são as etapas:
 
 1. [Conecte-se a uma sessão do PowerShell Remoto do Exchange Online.](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
 2. Se você ainda não tiver uma política de caixa de correio do OWA, crie uma com o cmdlet [New-OwaMailboxPolicy.](https://docs.microsoft.com/powershell/module/exchange/new-owamailboxpolicy)
-3. Se você deseja permitir a exibição de anexos, mas sem download, use este comando:
+3. Se você quiser permitir a exibição de anexos, mas sem download, use este comando:
 
    ```powershell
    Set-OwaMailboxPolicy -Identity Default -ConditionalAccessPolicy ReadOnly
@@ -105,7 +110,7 @@ Consulte as etapas para configurar essa política em [Gerenciar o acesso de cola
 
 Com os novos recursos de Criptografia de Mensagens do Office 365 (OME), que aproveitam os recursos de proteção na Proteção de Informações do Azure, sua organização pode compartilhar facilmente emails protegidos com qualquer pessoa em qualquer dispositivo. Os usuários podem enviar e receber mensagens protegidas com outras organizações do Microsoft 365, bem como não clientes que usam Outlook.com, Gmail e outros serviços de email.
 
-Para saber mais, confira Configurar novos recursos de Criptografia de Mensagem do [Office 365.](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities)
+Para obter mais informações, consulte Configurar novos recursos de Criptografia de Mensagem do [Office 365.](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities)
 
 ## <a name="next-steps"></a>Próximas etapas
 

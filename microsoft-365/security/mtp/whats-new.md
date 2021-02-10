@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 8e66c734151e7476d7c54bd050891a1bffb17b3c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 4e065ff4da80b50ea11ff2069e8938c59f16f962
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49932017"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165986"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Novidades no Microsoft 365 Defender
 
@@ -34,12 +34,13 @@ ms.locfileid: "49932017"
 
 Os recursos a seguir estão geralmente disponíveis (GA) na versão mais recente do Microsoft 365 Defender.
 
-RSS feed: Receba notificado quando esta página for atualizada copiando e copiando a seguinte URL no leitor de feed:
+RSS feed: receba notificado quando esta página for atualizada copiando e copiando a seguinte URL no leitor de feed:
 ```http
 https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
 ```
-> Deseja experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou executar seu projeto piloto em [produção](https://aka.ms/m365d-pilotplaybook)
->
+
+## <a name="february-2021"></a>Fevereiro de 2021
+- (Visualização) A central de [segurança aprimorada do Microsoft 365 ( https://security.microsoft.com) ](https://security.microsoft.com) agora está disponível na visualização pública. Essa nova experiência traz o Defender para o Ponto de Extremidade e o Defender para Office 365 para o Centro. [Saiba mais sobre o que mudou.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
 
 ## <a name="september-2020"></a>Setembro de 2020
 - [Tabela IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md) <br> Encontre eventos envolvendo um controlador de domínio local executando o Active Directory (AD). Esta [tabela de esquema](advanced-hunting-overview.md) de busca avançada abrange uma variedade de eventos relacionados à identidade e eventos do sistema no controlador de domínio.
@@ -61,7 +62,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="february-2020"></a>Fevereiro de 2020
 - [Incidentes](incidents-overview.md) <br> Saiba exatamente onde um ataque foi iniciado e outros detalhes para ajudá-lo a ver a extensão do ataque.
 - [Resposta e investigação automatizadas](mtp-autoir.md) <br> O AIR permite à sua equipe de operações de segurança aumentar drasticamente a capacidade da sua organização para lidar com alertas e incidentes de segurança.
-- [Aprimoramentos avançados de busca](advanced-hunting-overview.md) <br> Busca proativa por ameaças no espaço de trabalho moderno com a Linguagem de Consulta Kusto e um esquema otimizado para segurança.
+- [Aprimoramentos avançados na busca](advanced-hunting-overview.md) <br> Busca proativa por ameaças no espaço de trabalho moderno com a Linguagem de Consulta Kusto e um esquema otimizado para segurança.
 
 ## <a name="march-2019"></a>Março de 2019
 - Busca avançada <br> Página de aterrissagem para vários recursos de busca que permitem encontrar proativamente ameaças que afetam emails e dados, dispositivos e identidades.

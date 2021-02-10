@@ -19,12 +19,12 @@ description: Use o Microsoft Defender para Office 365 em conjunto com o Microsof
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 24b81bb4c445c44d7c0228fa1c4440faff642816
-ms.sourcegitcommit: ba830e85899f247e5a1e117d63e09e4d5b8a8020
+ms.openlocfilehash: 035834e1e4855c0e47defed06043a5fdbd0e63bd
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49939327"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166082"
 ---
 # <a name="use-microsoft-defender-for-office-365-together-with-microsoft-defender-for-endpoint"></a>Usar o Microsoft Defender para Office 365 em conjunto com o Microsoft Defender para Ponto de Extremidade
 
@@ -33,13 +33,13 @@ ms.locfileid: "49939327"
 
 [O Microsoft Defender para Office 365](office-365-atp.md) pode ser configurado para funcionar com [o Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection)
 
-A integração do Microsoft Defender para Office 365 com o Microsoft Defender for Endpoint pode ajudar a equipe de operações de segurança a monitorar e tomar medidas rapidamente se os dispositivos dos usuários estão em risco. Por exemplo, depois que a integração for habilitada, sua equipe de operações de segurança poderá ver os dispositivos potencialmente afetados por uma mensagem de email detectada, bem como quantos alertas recentes foram gerados para esses dispositivos no Microsoft Defender para o Ponto de Extremidade.
+A integração do Microsoft Defender for Office 365 com o Microsoft Defender for Endpoint pode ajudar a equipe de operações de segurança a monitorar e tomar medidas rapidamente se os dispositivos dos usuários estão em risco. Por exemplo, depois que a integração for habilitada, sua equipe de operações de segurança poderá ver os dispositivos potencialmente afetados por uma mensagem de email detectada, bem como quantos alertas recentes foram gerados para esses dispositivos no Microsoft Defender para o Ponto de Extremidade.
 
-A imagem a seguir ilustra a aparência da guia **Dispositivos** com a integração do Microsoft Defender for Endpoint habilitada:
+A imagem a seguir mostra a aparência da guia **Dispositivos** quando você tem a integração do Microsoft Defender for Endpoint habilitada:
 
 ![Quando o Microsoft Defender para Ponto de Extremidade está habilitado, você pode ver uma lista de dispositivos com alertas.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
 
-Neste exemplo, você pode ver que os destinatários da mensagem de email detectada têm quatro dispositivos e um tem um alerta. Clicar no link para um dispositivo abre sua página na Central de Segurança do Microsoft Defender ( <https://securitycenter.windows.com> ).
+Neste exemplo, você pode ver que os destinatários da mensagem de email detectada têm quatro dispositivos e um tem um alerta. Clicar no link de um dispositivo abre sua página na Central de Segurança do Microsoft Defender ( <https://securitycenter.windows.com> ).
 
 > [!TIP]
 > **[Saiba mais sobre a Central de Segurança do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/use)** (também conhecida como portal de ponto de extremidade do Microsoft Defender).
@@ -54,7 +54,7 @@ Neste exemplo, você pode ver que os destinatários da mensagem de email detecta
 
 ## <a name="to-integrate-microsoft-defender-for-office-365-with-microsoft-defender-for-endpoint"></a>Para integrar o Microsoft Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade
 
-A integração do Microsoft Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade é configurada usando o Centro de Conformidade & Segurança e a Central de Segurança do Microsoft Defender.
+A integração do Microsoft Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade é configurada usando o Centro de Conformidade e & Segurança e a Central de Segurança do Microsoft Defender.
 
 1. Como administrador global ou administrador de segurança, acesse <https://protection.office.com> e entre. (Isso leva você ao Centro de Conformidade e Segurança & do Office 365.)
 
@@ -80,6 +80,6 @@ A integração do Microsoft Defender para Office 365 com o Microsoft Defender pa
 
 [Recursos de investigação e resposta a ameaças no Office 365](office-365-ti.md)
 
-[Obter o Microsoft Defender para Office 365](office-365-atp.md)
+[Microsoft Defender para Office 365](office-365-atp.md)
 
 [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection)

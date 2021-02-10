@@ -17,23 +17,27 @@ ms.collection:
 description: Os administradores podem aprender sobre as opções internas de relatório de lixo eletrônico, não lixo eletrônico e phishing no Outlook na Web (Outlook Web App) no Exchange Online e como desabilitar essas opções de relatório para usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0af57aceed608ae80e72e3ae18724925c1168e26
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: bd22e7f08ae420adf2923d4da731494a0f6af3e3
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029205"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166730"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Relatar lixo eletrônico e phishing no Outlook na Web no Exchange Online
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, você pode usar as opções internas de relatório no Outlook na Web (anteriormente conhecido como Outlook Web App) para enviar falsos positivos (emails bons marcados como spam), falsos negativos (emails falsos permitidos) e mensagens de phishing para o Exchange Online Protection (EOP).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos usar o portal de Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador [para enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
+- Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos usar o portal de Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador para [enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
 
 - Os administradores podem desabilitar ou habilitar a capacidade dos usuários de relatar mensagens à Microsoft no Outlook na Web. Para obter detalhes, consulte [a seção Desabilitar](#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) ou habilitar o relatório de lixo eletrônico no Outlook na Web posteriormente neste artigo.
 
@@ -63,7 +67,7 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, vo
 
 1. Na pasta Lixo Eletrônico, use um dos métodos a seguir para relatar falsos positivos de spam ou mensagens de phishing:
 
-   - Selecione a mensagem, clique **em Não é Lixo** Eletrônico na barra de ferramentas e selecione Não é Lixo **Eletrônico** ou **Phishing.**
+   - Selecione a mensagem, clique **em Não Lixo** Eletrônico na barra de ferramentas e selecione Não é Lixo **Eletrônico** ou **Phishing.**
 
      ![Relatar não lixo eletrônico ou não phishing na faixa de opções](../../media/owa-report-not-junk.png)
 
@@ -87,7 +91,7 @@ Por padrão, os usuários podem relatar falsos positivos de spam, falsos negativ
 
 - Você precisa ter permissões no Exchange Online para poder fazer os procedimentos neste artigo. Especificamente, você precisa das **funções Políticas** de Destinatário ou  Destinatários  de Email, que são **atribuídas** aos grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários por padrão. Para obter mais informações sobre grupos de função no Exchange Online, consulte Permissões no [Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) e modificar grupos de função no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups).
 
-- Cada organização tem uma política padrão chamada OwaMailboxPolicy-Default, mas você pode criar políticas personalizadas. As políticas personalizadas são aplicadas a usuários com escopo antes da política padrão. Para saber mais sobre as políticas de caixa de correio do Outlook na Web, confira as políticas de caixa de correio do Outlook na [Web no Exchange Online.](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies)
+- Cada organização tem uma política padrão chamada OwaMailboxPolicy-Default, mas você pode criar políticas personalizadas. As políticas personalizadas são aplicadas a usuários com escopo antes da política padrão. Para saber mais sobre as políticas de caixa de correio do Outlook na Web, confira As políticas de caixa de correio do Outlook na [Web no Exchange Online.](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies)
 
 - Desabilitar o relatório de lixo eletrônico não remove a capacidade de marcar uma mensagem como lixo eletrônico ou não no Outlook na Web. Selecionar uma mensagem na pasta Lixo eletrônico e clicar em **Não** é lixo eletrônico Ainda move a mensagem de volta para a \>  Caixa de Entrada. Selecionar uma mensagem em qualquer outra pasta de email e clicar em **Lixo** Eletrônico ainda move a mensagem \>  para a pasta Lixo Eletrônico. O que não está mais disponível é a opção de relatar a mensagem à Microsoft.
 

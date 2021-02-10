@@ -8,52 +8,55 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a executar um relatório de grupo de funções de administrador no proteção do Exchange Online (EOP) autônomo. Este relatório registra quando um administrador adiciona ou remove membros dos grupos de função de administrador.
-ms.openlocfilehash: cd7ca13a3d863240a0f2608ed13321cbe3d50ad2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Os administradores podem aprender a executar um relatório de grupo de funções de administrador no Exchange Online Protection (EOP) autônomo. Esse relatório registra quando um administrador adiciona membros a ou remove membros de grupos de função de administrador.
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 507fbe6fb6c99677cf91b6eb824bf110f1c826f3
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659225"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166622"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Executar um relatório de grupo de função de administrador no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+-  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
 
-Em organizações autônomas de proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, quando um administrador adiciona ou remove membros dos grupos de função administrativa, o serviço registra cada ocorrência. Para obter mais informações sobre grupos de função em EOP autônomos, consulte [permissões no EOP autônomo](feature-permissions-in-eop.md).
+Em organizações autônomas do Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, quando um administrador adiciona membros ou remove membros de grupos de funções administrativas, o serviço registra cada ocorrência. Para obter mais informações sobre grupos de função no EOP autônomo, consulte Permissões no [EOP autônomo.](feature-permissions-in-eop.md)
 
-Quando você executa um relatório de grupo de funções de administrador no centro de administração do Exchange (Eat), as entradas são exibidas como resultados de pesquisa e incluem os grupos de função afetados, quem alterou a associação do grupo de função e quando e quais foram feitas as atualizações de associação. Use esse relatório para monitorar as alterações nas permissões administrativas atribuídas aos usuários da sua organização.
+Quando você executar um relatório de grupo de função de administrador no Centro de administração do Exchange (EAC), as entradas são exibidas como resultados de pesquisa e incluem os grupos de função afetados, quem alterou a associação do grupo de função e quando e quais atualizações de associação foram feitas. Use esse relatório para monitorar as alterações nas permissões administrativas atribuídas aos usuários da sua organização.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Para abrir o centro de administração do Exchange, confira [centro de administração do Exchange em EOP autônomo](exchange-admin-center-in-exchange-online-protection-eop.md).
+- Para abrir o Centro de administração do Exchange, confira o Centro de administração [do Exchange no EOP autônomo.](exchange-admin-center-in-exchange-online-protection-eop.md)
 
-- Você precisa receber permissões na proteção do Exchange Online antes de poder executar os procedimentos deste artigo. Especificamente, você precisa da **função logs de auditoria** ou de **logs de auditoria somente para exibição** , que são atribuídos aos grupos de função de gerenciamento de **organização**, gerenciamento de **conformidade** e **administrador de segurança** por padrão. Para obter mais informações, consulte [permissões em EOP autônomos](feature-permissions-in-eop.md) e [use o Eat modificar a lista de membros nos grupos de função](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
+- Você precisa ter permissões no Exchange Online Protection antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa da  função **Logs** de Auditoria ou **Logs** de Auditoria Somente Exibição, que são atribuídas aos grupos de função Gerenciamento da **Organização,** Gerenciamento de Conformidade e Administrador de Segurança por padrão. Para obter mais informações, [consulte Permissões no EOP](feature-permissions-in-eop.md) autônomo e use o EAC modificar a lista de [membros em grupos de função.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
-- Para obter informações sobre os atalhos de teclado que podem se aplicar aos procedimentos deste artigo, consulte [atalhos de teclado para o centro de administração do Exchange no Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
+- Para obter informações sobre atalhos de teclado que podem se aplicar aos procedimentos neste artigo, consulte [Atalhos](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)de teclado para o Centro de administração do Exchange no Exchange Online .
 
 > [!TIP]
 > Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
 
 ## <a name="use-the-eac-to-run-an-administrator-role-group-report"></a>Usar o EAC para executar o relatório de grupo de funções de administrador
 
-Execute o relatório do grupo de funções de administrador para localizar as alterações nos grupos de função de gerenciamento em um determinado período de tempo.
+Execute o relatório do grupo de funções de administrador para encontrar as alterações nos grupos de função de gerenciamento dentro de um determinado período de tempo.
 
-1. No Eat, vá para auditoria de **Gerenciamento de conformidade** \> e, em seguida, escolha **executar um relatório de grupo de função de administrador**.
+1. No EAC, vá para Auditoria de **gerenciamento** de conformidade e escolha Executar um relatório de grupo de funções \>  **de administrador.**
 
-2. Na página **Pesquisar alterações nos grupos de funções de administrador** que é aberta, defina as seguintes configurações:
+2. Na página **Pesquisar alterações nos grupos de função de administrador** que é aberta, de configure as seguintes configurações:
 
-   - **Data de início** e **data de término**: Insira um intervalo de datas. Por padrão, o relatório procura alterações feitas nos grupos de funções do administrador nas duas últimas semanas.
+   - **Data de início** **e data de término:** insira um intervalo de datas. Por padrão, o relatório procura alterações feitas nos grupos de funções do administrador nas duas últimas semanas.
 
-   - **Selecionar grupos de função**: por padrão, todos os grupos de função são pesquisados. Para filtrar os resultados por grupos de função específicos, clique em **Selecionar grupos de função**. Na caixa de diálogo exibida, selecione um grupo de função e clique em **Adicionar->**. Repita essa etapa quantas vezes for necessário e clique em **OK** quando terminar.
+   - **Selecionar grupos de função:** Por padrão, todos os grupos de funções são pesquisados. Para filtrar os resultados por grupos de função específicos, clique **em Selecionar grupos de função.** Na caixa de diálogo exibida, selecione um grupo de funções e clique **em add ->**. Repita essa etapa quantas vezes for necessário e clique em **OK** quando terminar.
 
-3. Quando tiver concluído, clique em **Pesquisar**.
+3. Quando terminar, clique em **Pesquisar.**
 
 Se quaisquer alterações forem encontradas usando os critérios especificados, elas aparecerão no painel de resultados. Clique em um grupo de função nos resultados da pesquisa para ver as alterações no painel de detalhes.
 
@@ -67,16 +70,16 @@ Quando os membros são adicionados ou removidos de um grupo de funções, os res
 
 Para determinar se um usuário foi adicionado ou removido, você terá que comparar duas entradas separadas no relatório. Por exemplo, vamos observar as entradas de log a seguir do grupo de funções de **HelpDesk**:
 
-> 1/27/2018 4:43 PM <br> Administrador <br> Membros atualizados: Administrator;annb,florencef;pilarp <br> 2/06/2018 10:09 AM <br> Administrador <br> Membros atualizados: Administrator;annb;florencef;pilarp;tonip <br> 2/19/2018 2:12 PM <br> Administrador <br> Membros atualizados: Administrator;annb;florencef;tonip
+> 27/1/2018 16:43 <br> Administrador <br> Membros atualizados: Administrator;annb,florencef;pilarp <br> 06/02/2018 10:09 <br> Administrador <br> Membros atualizados: Administrator;annb;florencef;pilarp;tonip <br> 19/02/2018 14:12 <br> Administrador <br> Membros atualizados: Administrator;annb;florencef;tonip
 
 Nesse exemplo, a conta de usuário Administrador fez as seguintes alterações:
 
-- No 2/06/2018, eles adicionaram o usuário tonip.
-- No 2/19/2018, eles removeram o usuário pilarp.
+- Em 06/02/2018, ele adicionou o tonip do usuário.
+- Em 19/02/2018, a usuária pilarp foi removida.
 
-## <a name="use-standalone-exchange-online-powershell-to-search-for-audit-log-entries"></a>Usar o PowerShell autônomo do Exchange Online para pesquisar entradas de log de auditoria
+## <a name="use-standalone-exchange-online-powershell-to-search-for-audit-log-entries"></a>Usar o PowerShell autônomo do Exchange Online para procurar entradas de log de auditoria
 
-Você pode usar o PowerShell do Exchange Online para pesquisar entradas de log de auditoria que atendam aos critérios especificados. Para obter uma lista de critérios de pesquisa, consulte [Search-AdminAuditLog search criteria](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#search-adminauditlog-cmdlet). Este procedimento usa o cmdlet **Search-AdminAuditLog** e exibe os resultados da pesquisa no PowerShell do Exchange Online. Ele pode ser usado quando você precisa retornar um conjunto de resultados que exceda os limites definidos no cmdlet **New-AdminAuditLogSearch** ou nos Relatórios de Auditoria do EAC.
+Você pode usar o PowerShell do Exchange Online para pesquisar entradas de log de auditoria que atendem aos critérios especificados. Para uma lista de critérios de pesquisa, consulte Critérios de pesquisa [Search-AdminAuditLog](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#search-adminauditlog-cmdlet). Este procedimento usa o cmdlet **Search-AdminAuditLog** e exibe os resultados da pesquisa no PowerShell do Exchange Online. Ele pode ser usado quando você precisa retornar um conjunto de resultados que exceda os limites definidos no cmdlet **New-AdminAuditLogSearch** ou nos Relatórios de Auditoria do EAC.
 
 Para pesquisar no log de auditoria pelos critérios especificados, use a sintaxe a seguir.
 
@@ -85,13 +88,13 @@ Search-AdminAuditLog - Cmdlets <cmdlet 1, cmdlet 2, ...> -Parameters <parameter 
 ```
 
 > [!NOTE]
-> O cmdlet **Search-AdminAuditLog** retorna um máximo de 1.000 entradas de log por padrão. Use o parâmetro _resultize_ para especificar até 250.000 entradas de log. Ou use o valor `Unlimited` para retornar todas as entradas.
+> O cmdlet **Search-AdminAuditLog** retorna um máximo de 1.000 entradas de log por padrão. Use o _parâmetro ResultSize_ para especificar até 250.000 entradas de log. Ou use o valor `Unlimited` para retornar todas as entradas.
 
 Esse exemplo realiza uma pesquisa em todas as entradas de log de auditoria com os seguintes critérios:
 
-- **Data de início**: 08/04/2018
-- **Data de término**: 10/03/2018
-- **IDs de usuário**: `davids` , `chrisd` , `kima`
+- **Data de** início : 04/08/2018
+- **Data de** término : 03/10/2018
+- **IDs de usuário:** `davids` `chrisd` , `kima`
 - **Cmdlets**: **Set-Mailbox**
 - **Parâmetros**: _ProhibitSendQuota_, _ProhibitSendReceiveQuota_, _IssueWarningQuota_, _MaxSendSize_, _MaxReceiveSize_
 
@@ -101,23 +104,23 @@ Search-AdminAuditLog -Cmdlets Set-Mailbox -Parameters ProhibitSendQuota,Prohibit
 
 Este exemplo pesquisa alterações efetuadas em uma caixa de correio específica. Isso será útil se você estiver solucionando problemas ou precisar fornecer informações para uma investigação. Os seguintes critérios são usados:
 
-- **Data de início**: 05/01/2018
-- **Data de término**: 10/03/2018
-- **ID do objeto**: contoso.com/users/DavidS
+- **Data de** início : 01/05/2018
+- **Data de** término : 03/10/2018
+- **ID do** objeto : contoso.com/Users/DavidS
 
 ```PowerShell
 Search-AdminAuditLog -StartDate 05/01/2018 -EndDate 10/03/2018 -ObjectID contoso.com/Users/DavidS
 ```
 
-Se as pesquisas retornarem muitas entradas de log, recomendamos que você use o procedimento fornecido em **usar o PowerShell do Exchange Online para pesquisar entradas de log de auditoria e enviar resultados para um destinatário** mais adiante neste artigo. O procedimento dessa seção envia um arquivo XML como anexo de email aos destinatários especificados, permitindo que você extraia com mais facilidade os dados em que está interessado.
+Se suas pesquisas retornarem muitas entradas de log, recomendamos que você use o procedimento fornecido em Usar o **PowerShell** do Exchange Online para procurar entradas de log de auditoria e enviar resultados a um destinatário posteriormente neste artigo. O procedimento dessa seção envia um arquivo XML como anexo de email aos destinatários especificados, permitindo que você extraia com mais facilidade os dados em que está interessado.
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-adminauditlog).
 
 ### <a name="view-details-of-audit-log-entries"></a>Exibir detalhes de entradas de log de auditoria
 
-O cmdlet **Search-AdminAuditLog** retorna os campos descritos no [conteúdo do log de auditoria](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#audit-log-contents). Desses campos retornados pelo cmdlet, dois campos, **CmdletParameters** e **ModifiedProperties**, contêm informações adicionais que não podem ser exibidas por padrão.
+O cmdlet **Search-AdminAuditLog** retorna os campos descritos no [conteúdo do log de auditoria.](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#audit-log-contents) Desses campos retornados pelo cmdlet, dois campos, **CmdletParameters** e **ModifiedProperties**, contêm informações adicionais que não podem ser exibidas por padrão.
 
-Para exibir o conteúdo dos campos **CmdletParameters** e **ModifiedProperties**, siga as etapas na sequência. Ou, você pode usar o procedimento em **usar o Exchange Online PowerShell para pesquisar entradas de log de auditoria e enviar resultados para um destinatário** mais adiante neste artigo para criar um arquivo XML.
+Para exibir o conteúdo dos campos **CmdletParameters** e **ModifiedProperties**, siga as etapas na sequência. Ou você pode usar o procedimento em Usar o **PowerShell** do Exchange Online para procurar entradas de log de auditoria e enviar resultados a um destinatário posteriormente neste artigo para criar um arquivo XML.
 
 Esse procedimento usa os seguintes conceitos:
 
@@ -131,7 +134,7 @@ Esse procedimento usa os seguintes conceitos:
    $Results = Search-AdminAuditLog <search criteria>
    ```
 
-2. Cada entrada de log de auditoria é armazenada como um elemento de matriz na variável `$Results` . Você pode selecionar um elemento de matriz especificando seu índice de elemento de matriz. Os índices de elemento de matriz começam em zero (0) para o primeiro elemento da matriz. Por exemplo, para recuperar o elemento da quinta matriz, que tem um índice de 4, use o comando a seguir.
+2. Cada entrada de log de auditoria é armazenada como um elemento de matriz na `$Results` variável. Você pode selecionar um elemento de matriz especificando seu índice de elemento de matriz. Os índices de elemento de matriz começam em zero (0) para o primeiro elemento da matriz. Por exemplo, para recuperar o elemento da quinta matriz, que tem um índice de 4, use o comando a seguir.
 
    ```PowerShell
    $Results[4]

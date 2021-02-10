@@ -1,6 +1,6 @@
 ---
 title: Recomendações da Microsoft para configurações de segurança do EOP e do Defender para Office 365
-keywords: Recomendações de segurança do Office 365, Sender Policy Framework, Relatórios e Conformidade de Mensagens baseados em Domínio, Email Identificado por DomainKeys, etapas, como funciona, linhas de base de segurança, linhas de base para EOP, linhas de base do Defender para Office 365, configurar o Defender para Office 365, configurar o EOP, configurar o Defender para Office 365, configurar o EOP, configuração de segurança
+keywords: Recomendações de segurança do Office 365, Sender Policy Framework, Relatórios e Conformidade de Mensagens baseados em domínio, Email Identificado por DomainKeys, etapas, como funciona, linhas de base de segurança, linhas de base para EOP, linhas de base do Defender para Office 365, configurar o Defender para Office 365, configurar o EOP, configurar o Defender para Office 365, configurar o EOP, configuração de segurança
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -9,7 +9,6 @@ ms.date: ''
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,17 +16,24 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e do Defender para Office 365? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você quiser ser mais estrito? E quais extras você obterá se também usar o Defender para Office 365?
-ms.openlocfilehash: c93475f1215477281604abe72d70a60a75c41b3f
-ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+description: Quais são as práticas recomendadas para as configurações de segurança do Exchange Online Protection (EOP) e do Defender para Office 365? Quais são as recomendações atuais para a proteção padrão? O que deve ser usado se você quiser ser mais estrito? E quais extras você obterá se também usar o Defender para o Office 365?
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 7a609a069e0e35b673b0902f2600f9c5433a14bb
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49794455"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166934"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Configurações recomendadas para o EOP e o Microsoft Defender para segurança do Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 **O Proteção do Exchange Online (EOP)** é o núcleo de segurança para assinaturas do Microsoft 365 e ajuda a evitar que emails mal-intencionados chegam às caixas de entrada do funcionário. Porém, com ataques novos e mais sofisticados que surgem todos os dias, proteções aprimoradas são frequentemente necessárias. **Microsoft Defender para Office 365** O Plano 1 ou o Plano 2 contêm recursos adicionais que dão aos administradores mais camadas de segurança, controle e investigação.
 
@@ -38,7 +44,7 @@ Para aplicar automaticamente as configurações Padrão ou Estrito aos usuários
 > [!NOTE]
 > A regra de lixo eletrônico precisa ser habilitada em caixas de correio para que a filtragem funcione corretamente. Ela está habilitada por padrão, mas você deve verificar se a filtragem não parece estar funcionando. Para obter mais informações, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online no Office 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-Este artigo descreve as configurações padrão e também as configurações padrão e estrita recomendadas para ajudar a proteger seus usuários.
+Este artigo descreve as configurações padrão e também as configurações Padrão e Estrito recomendadas para ajudar a proteger seus usuários.
 
 > [!TIP]
 > O módulo Analisador de Configuração Recomendada da Proteção Avançada contra Ameaças do Office 365 (ORCA) para PowerShell pode ajudá-lo (administradores) a encontrar os valores atuais dessas configurações. Especificamente, o cmdlet **Get-ORCAReport** gera uma avaliação de anti-spam, anti-phishing e outras configurações de higienização de mensagens. Você pode baixar o módulo ORCA em <https://www.powershellgallery.com/packages/ORCA/> .
@@ -49,20 +55,20 @@ Anti-spam, anti-malware e anti-phishing são recursos do EOP que podem ser confi
 
 ### <a name="eop-anti-spam-policy-settings"></a>Configurações de política anti-spam do EOP
 
-Para criar e configurar políticas anti-spam, confira [Configurar políticas anti-spam no Office 365.](configure-your-spam-filter-policies.md)
+Para criar e configurar políticas anti-spam, confira Configurar políticas [anti-spam no Office 365.](configure-your-spam-filter-policies.md)
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
-|**Ação de** detecção de spam <p> _SpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`||
+|**Ação de detecção** de spam <p> _SpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de detecção de spam** de alta confiança <p> _HighConfidenceSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de detecção de email** de phishing <p> _PhishSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de detecção de email de phishing** de alta confiança <p> _HighConfidencePhishAction_|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`|**Mensagem em quarentena** <p> `Quarantine`||
 |**Ação de detecção de email** em massa <p> _BulkSpamAction_|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mover mensagem para a pasta Lixo Eletrônico** <p> `MoveToJmf`|**Mensagem em quarentena** <p> `Quarantine`||
 |Limite de email em massa <p> _BulkThreshold_|7 |6 |4 |Para obter detalhes, consulte Nível de reclamação em massa [(BCL) no Office 365.](bulk-complaint-level-values.md)|
 |Período de retenção de quarentena <p> _QuarantineRetentionPeriod_|15 dias|30 dias|30 dias||
-|**Dicas de segurança** <p> _InlineSafetyTipsEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
+|**Dicas de Segurança** <p> _InlineSafetyTipsEnabled_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |Envios Permitidos <p> _AllowedSenders_|Nenhum|Nenhum|Nenhum||
 |Domínios permitidos do remetente <p> _AllowedSenderDomains_|Nenhum|Nenhum|Nenhum|Adicionar domínios à lista de envios permitidos é uma má ideia. Os invasores seriam capazes de enviar um email que seria filtrado de outra forma. <p> Use a inteligência de spoof no Centro de Conformidade e Segurança na página Configurações **anti-spam** para revisar todos os remetentes que estão [spo & ofando](learn-about-spoof-intelligence.md) endereços de email do remetente nos domínios de email da sua organização ou nos endereços de email do remetente de spoofing em domínios externos.|
 |Bloqueados Senders <p> _BlockedSenders_|Nenhum|Nenhum|Nenhum||
@@ -80,7 +86,7 @@ Há várias outras configurações de Filtro de Spam Avançado (ASF) em polític
 
 ****
 
-|Nome do recurso de segurança|Comentário|
+|Nome do recurso de segurança|Comment|
 |---|---|
 |**Links de imagem para sites remotos** (_IncreaseScoreWithImageLinks_)||
 |**Endereço IP numérico na URL** (_IncreaseScoreWithNumericIps_)||
@@ -107,7 +113,7 @@ Para obter mais informações sobre os limites de envio padrão no serviço, con
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
 |**Número máximo de destinatários por usuário: Limite de hora externa** <p> _RecipientLimitExternalPerHour_|0|500|400|O valor padrão 0 significa usar os padrões de serviço.|
 |**Número máximo de destinatários por usuário: Limite interno por hora** <p> _RecipientLimitInternalPerHour_|0|1000|800|O valor padrão 0 significa usar os padrões de serviço.|
@@ -121,7 +127,7 @@ Para criar e configurar políticas anti-malware, confira [Configurar políticas 
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
 |**Deseja notificar os destinatários se suas mensagens estão em quarentena?** <p> _Ação_|Não <p> _DeleteMessage_|Não <p> _DeleteMessage_|Não <p> _DeleteMessage_|Se um malware for detectado em um anexo de email, a mensagem será colocada em quarentena e só poderá ser liberada por um administrador.|
 |**Filtro tipos de anexo comuns** <p> _EnableFileFilter_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`|Essa configuração coloca em quarentena as mensagens que contêm anexos executáveis com base no tipo de arquivo, independentemente do conteúdo do anexo.|
@@ -136,16 +142,16 @@ Para obter mais informações sobre essas configurações, consulte [Configuraç
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
 |**Habilitar a proteção anti-spoofing** <p> _EnableSpoofIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |**Habilitar Remetente Não Autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente no Outlook para remetentes não identificados. Para obter mais informações, consulte [Configurações de Spoof em políticas anti-phishing.](set-up-anti-phishing-policies.md)|
-|**Se o email for enviado por alguém que não tem permissão para fazer spoof do seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas de Lixo Eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas de Lixo Eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar a mensagem em quarentena** <p> `Quarantine`|Esta configuração se aplica a senders bloqueados em [inteligência contra spoof intelligence.](learn-about-spoof-intelligence.md)|
+|**Se o email for enviado por alguém que não tem permissão para fazer a spoof do seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas de Lixo Eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas de Lixo Eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar a mensagem em quarentena** <p> `Quarantine`|Esta configuração se aplica a senders bloqueados em [inteligência contra spoof intelligence.](learn-about-spoof-intelligence.md)|
 |
 
 ## <a name="microsoft-defender-for-office-365-security"></a>Segurança do Microsoft Defender para Office 365
 
-Benefícios adicionais de segurança vêm com uma assinatura do Microsoft Defender para Office 365. Para obter as últimas notícias e informações, você pode ver novidades no [Defender para Office 365.](whats-new-in-office-365-atp.md)
+Benefícios adicionais de segurança vêm com uma assinatura do Microsoft Defender para Office 365. Para obter as últimas notícias e informações, você pode ver [novidades no Defender para Office 365.](whats-new-in-office-365-atp.md)
 
 > [!IMPORTANT]
 >
@@ -153,7 +159,7 @@ Benefícios adicionais de segurança vêm com uma assinatura do Microsoft Defend
 >
 > - Não há políticas de Links seguros padrão ou políticas de Anexos seguros que protejam automaticamente todos os destinatários na organização. Para obter as proteções, você precisa criar pelo menos uma Política de Links Seguros e uma política de Anexos Seguros.
 >
-> - A PROTEÇÃO E Documentos Seguros da ATP [](safe-docs.md) para [SharePoint, OneDrive](atp-for-spo-odb-and-teams.md) e Microsoft Teams não tem dependências nas políticas de Links seguros.
+> - A proteção de Anexos Seguros para o [](safe-docs.md) [SharePoint, OneDrive](atp-for-spo-odb-and-teams.md) e Proteção de Documentos Seguros do Microsoft Teams não tem dependências nas políticas de Links seguros.
 
 Se sua assinatura inclui o Microsoft Defender para Office 365 ou se você comprou o Defender para Office 365 como um complemento, de definidas as seguintes configurações Padrão ou Estrito.
 
@@ -167,7 +173,7 @@ Para obter mais informações sobre essas configurações, consulte Configuraç�
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
 |Usuários protegidos: **Adicionar usuários para proteger** <p> _EnableTargetedUserProtection_ <p> _TargetedUsersToProtect_|Desabilitado <p> `$false` <p> nenhum|Habilitado <p> `$true` <p> \<list of users\>|Habilitado <p> `$true` <p> \<list of users\>|Dependendo da sua organização, recomendamos adicionar usuários (envios de mensagens) em funções principais. Internamente, os remententes protegidos podem ser seu CEO, CFO e outros líderes sênior. Externamente, os rementes protegidos podem incluir membros do conselho ou seu conselho de diretores.|
 |Domínios protegidos: **Incluir automaticamente os domínios que eu tenho** <p> _EnableOrganizationDomainsProtection_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
@@ -190,11 +196,11 @@ Observe que essas são as mesmas configurações disponíveis nas configuraçõe
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|---|---|---|---|
 |**Habilitar a proteção anti-spoofing** <p> _EnableSpoofIntelligence_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |**Habilitar Remetente Não Autenticado** <p> _EnableUnauthenticatedSender_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Adiciona um ponto de interrogação (?) à foto do remetente no Outlook para remetentes não identificados. Para obter mais informações, consulte [Configurações de Spoof em políticas anti-phishing.](set-up-anti-phishing-policies.md)|
-|**Se o email for enviado por alguém que não tem permissão para fazer spoof do seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas de Lixo Eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas de Lixo Eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar a mensagem em quarentena** <p> `Quarantine`|Esta configuração se aplica a senders bloqueados em [inteligência contra spoof intelligence.](learn-about-spoof-intelligence.md)|
+|**Se o email for enviado por alguém que não tem permissão para fazer a spoof do seu domínio** <p> _AuthenticationFailAction_|**Mover mensagem para as pastas de Lixo Eletrônico dos destinatários** <p> `MoveToJmf`|**Mover mensagem para as pastas de Lixo Eletrônico dos destinatários** <p> `MoveToJmf`|**Colocar a mensagem em quarentena** <p> `Quarantine`|Esta configuração se aplica a senders bloqueados em [inteligência contra spoof intelligence.](learn-about-spoof-intelligence.md)|
 |
 
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurações avançadas em políticas anti-phishing no Microsoft Defender para Office 365
@@ -203,7 +209,7 @@ Para obter mais informações sobre essa configuração, consulte Limites avanç
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
 |**Limites avançados de phishing** <p> _PhishThresholdLevel_|**1 - Padrão** <p> `1`|**2 - Agressivo** <p> `2`|**3 - Mais agressivo** <p> `3`||
 |
@@ -220,9 +226,9 @@ No PowerShell, use o cmdlet [Set-AtpPolicyForO365](https://docs.microsoft.com/po
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
-|**Usar Links Seguros em: aplicativos do Office 365** <p> _EnableSafeLinksForO365Clients_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Use Links seguros em aplicativos de área de trabalho e dispositivos móveis (iOS e Android) com suporte do Office 365. Para saber mais, confira as [configurações de Links seguros para aplicativos do Office 365.](atp-safe-links.md#safe-links-settings-for-office-365-apps)|
+|**Usar Links Seguros em: aplicativos do Office 365** <p> _EnableSafeLinksForO365Clients_|Habilitado <p> `$true`|Habilitado <p> `$true`|Habilitado <p> `$true`|Use Links seguros em aplicativos de área de trabalho e dispositivos móveis (iOS e Android) com suporte do Office 365. Para obter mais informações, consulte [Configurações de Links seguros para aplicativos do Office 365.](atp-safe-links.md#safe-links-settings-for-office-365-apps)|
 |**Não rastrear quando os usuários clicam em Links Seguros** <p> _TrackClicks_|Ativada <p> `$false`|Desativada <p> `$true`|Desabilitado <p> `$true`|A opção de desligar essa configuração (definir _TrackClicks_ como ) rastreia os cliques do usuário nos aplicativos do `$true` Office 365 com suporte.|
 |**Não permitir que os usuários cliquem em Links Seguros para a URL original** <p> _AllowClickThrough_|Habilitado <p> `$false`|Habilitado <p> `$false`|Habilitado <p> `$false`|A ativá-la _(configurando AllowClickThrough_ como ) impede o clique na URL original nos aplicativos do `$false` Office 365 com suporte.|
 |
@@ -238,7 +244,7 @@ No PowerShell, você usa os cmdlets [New-SafeLinksPolicy](https://docs.microsoft
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
 |**Selecionar a ação para URLs potencialmente mal-intencionadas desconhecidas em mensagens** <p> _IsEnabled_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
 |**Selecione a ação para URLs desconhecidas ou potencialmente mal-intencionadas no Microsoft Teams** <p> _EnableSafeLinksForTeams_|Desativada <p> `$false`|Ativada <p> `$true`|Habilitado <p> `$true`||
@@ -255,15 +261,15 @@ Os Anexos Seguros no Microsoft Defender para Office 365 incluem configurações 
 
 #### <a name="global-settings-for-safe-attachments"></a>Configurações globais para anexos seguros
 
-Para definir essas configurações, confira Ativar a ATP para [SharePoint, OneDrive](turn-on-atp-for-spo-odb-and-teams.md) e Microsoft Teams e Documentos Seguros no [Microsoft 365 E5.](safe-docs.md)
+Para definir essas configurações, confira Ativar Anexos Seguros para [SharePoint, OneDrive e Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md) e Documentos Seguros no [Microsoft 365 E5.](safe-docs.md)
 
 No PowerShell, use o cmdlet [Set-AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) para essas configurações.
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
-|**Ativar a ATP para SharePoint, OneDrive e Microsoft Teams** <p> _EnableATPForSPOTeamsODB_|Habilitado <p> `$true`|Habilitado <p> `$true`||
+|**Ativar o Defender para Office 365, para SharePoint, OneDrive e Microsoft Teams.** <p> _EnableATPForSPOTeamsODB_|Habilitado <p> `$true`|Habilitado <p> `$true`||
 |**Ativar Documentos Seguros para clientes do Office** <p> _EnableSafeDocs_|Habilitado <p> `$true`|Habilitado <p> `$true`|Essa configuração só está disponível com as licenças do Microsoft 365 E5 ou do Microsoft 365 E5 Security. Para obter mais informações, consulte [Documentos seguros no Microsoft Defender para Office 365.](safe-docs.md)|
 |**Permitir que as pessoas cliquem no Exibição Protegido, mesmo se os Documentos Seguros identificarem o arquivo como mal-intencionado** <p> _AllowSafeDocsOpen_|Desabilitado <p> `$false`|Desabilitado <p> `$false`|Essa configuração está relacionada a Documentos Seguros.|
 |
@@ -275,11 +281,11 @@ Para definir essas configurações, consulte Configurar políticas de [Anexos Se
 No PowerShell, você usa os cmdlets [New-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) e [Set-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) para essas configurações.
 
 > [!NOTE]
-> Conforme descrito anteriormente, não há nenhuma política de Anexos seguros padrão. Os valores na coluna Padrão são os valores padrão nas novas políticas de Anexos seguros que você cria.
+> Conforme descrito anteriormente, não há nenhuma política de Anexos seguros padrão. Os valores na coluna Padrão são os valores padrão nas novas políticas de Anexos Seguros que você cria.
 
 ****
 
-|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Padrão|Estrito|Comment|
 |---|:---:|:---:|:---:|---|
 |**Resposta de malware desconhecida de Anexos Seguros** <p> _Ação_|Bloquear <p> `Block`|Bloquear <p> `Block`|Bloquear <p> `Block`||
 |**Redirecionar anexo na detecção:** **Habilitar redirecionamento** <p> _Redirecionar_ <p> _RedirectAddress_|Desligado e nenhum endereço de email especificado. <p> `$true` <p> nenhum|Em e especifique um endereço de email. <p> `$true` <p> um endereço de email|Em e especifique um endereço de email. <p> `$true` <p> um endereço de email|Redirecionar mensagens para um administrador de segurança para revisão.|
@@ -290,7 +296,7 @@ No PowerShell, você usa os cmdlets [New-SafeAttachmentPolicy](https://docs.micr
 
 - Você está procurando práticas recomendadas para regras de fluxo de emails **do Exchange (também conhecidas como regras de transporte)?** Confira [as práticas recomendadas para configurar regras de fluxo de emails no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)
 
-- Os administradores e usuários podem enviar falsos positivos (emails bons marcados como ruins) e falsos negativos (emails ruins permitidos) para análise da Microsoft. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
+- Administradores e usuários podem enviar falsos positivos (emails bons marcados como ruins) e falsos negativos (emails ruins permitidos) para análise da Microsoft. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
 
 - Use estes links para obter informações sobre como **configurar seu** [serviço EOP](set-up-your-eop-service.md)e **configurar o** [Microsoft Defender para Office 365.](office-365-atp.md) Não se esqueça das instruções úteis em '[Protect Against Threats in Office 365](protect-against-threats.md)'.
 

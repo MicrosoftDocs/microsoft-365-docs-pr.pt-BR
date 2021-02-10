@@ -17,17 +17,22 @@ ms.collection:
 description: Saiba mais sobre a configuração segura por padrão no Exchange Online Protection (EOP)
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c8af609b8ed50b0bfacb7d9f5397fab4c4726927
-ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
+ms.openlocfilehash: 51b33afa6b07c040e6aa18abe996c78b770f0773
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040539"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166574"
 ---
 # <a name="secure-by-default-in-office-365"></a>Seguro por padrão no Office 365
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 "Seguro por padrão" é um termo usado para definir as configurações padrão mais seguras possíveis.
 
@@ -53,13 +58,13 @@ Como a Microsoft deseja manter nossos clientes seguros por padrão, algumas subs
 Mais informações sobre essas substituições podem ser encontradas em [Criar listas de remetentes seguros.](create-safe-sender-lists-in-office-365.md)
 
 > [!NOTE]
-> Estamos no processo de preter a  ação Mover mensagem para a pasta Lixo Eletrônico para um veredito de email de **phishing** de alta confiança nas políticas anti-spam do EOP. As políticas anti-spam que usam essa ação para mensagens de phishing de alta confiança serão convertidas em mensagem **de quarentena.** A **mensagem de redirecionamento para a ação de endereço de email** para mensagens de phishing de alta confiança não é afetada.
+> Estamos no processo de preter a  ação Mover mensagem para a pasta Lixo Eletrônico para um veredito de email de **phishing** de alta confiança nas políticas anti-spam do EOP. As políticas anti-spam que usam essa ação para mensagens de phishing de alta confiança serão convertidas em mensagem **de quarentena.** A **mensagem de redirecionamento para a ação de endereço** de email para mensagens de phishing de alta confiança não é afetada.
 
-Por padrão, a segurança não é uma configuração que pode ser 1000 por padrão, mas é a maneira como a filtragem funciona para manter mensagens potencialmente perigosas ou indesejadas fora de suas caixas de correio. Mensagens de phishing de malware e alta confiança devem ser colocadas em quarentena. Somente os administradores podem gerenciar mensagens que estão em quarentena como malware ou phishing de alta confiança, e eles também podem relatar falsos positivos para a Microsoft a partir daí. Para obter mais informações, consulte Gerenciar mensagens e arquivos em [quarentena como administrador no EOP](manage-quarantined-messages-and-files.md)
+Por padrão, a segurança não é uma configuração que pode ser ativas ou desligadas, mas é a maneira como a filtragem funciona para manter mensagens potencialmente perigosas ou indesejadas fora de suas caixas de correio. Mensagens de phishing de malware e alta confiança devem ser colocadas em quarentena. Somente os administradores podem gerenciar mensagens que estão em quarentena como malware ou phishing de alta confiança, e eles também podem relatar falsos positivos para a Microsoft a partir daí. Para obter mais informações, consulte Gerenciar mensagens e arquivos em [quarentena como administrador no EOP](manage-quarantined-messages-and-files.md)
 
 ## <a name="more-on-why-were-doing-this"></a>Mais informações sobre por que estamos fazendo isso
 
-O problema de ser seguro por padrão é: estamos tomando a mesma ação na mensagem que você tomaria se tivesse a mensagem mal-intencionada, mesmo quando uma exceção configurada permitisse que a mensagem fosse entregue. Essa é a mesma abordagem que sempre utilizamos no malware e, agora, estamos estendendo esse mesmo comportamento para mensagens de phishing de alta confiança.
+O problema de ser seguro por padrão é: estamos tomando a mesma ação na mensagem que você tomaria se tivesse a mensagem mal-intencionada, mesmo quando uma exceção configurada permitisse que a mensagem fosse entregue. Essa é a mesma abordagem que sempre utilizamos em malware e, agora, estamos estendendo esse mesmo comportamento para mensagens de phishing de alta confiança.
 
 Nossos dados indicam que um usuário tem 30 vezes mais probabilidade de clicar em um link mal-intencionado em mensagens na pasta Lixo Eletrônico versus Quarentena. Nossos dados também indicam que a taxa de falsos positivos (mensagens boas marcadas como ruins) para mensagens de phishing de alta confiança é muito baixa, e os administradores podem resolver falsos positivos com envios de administrador.
 
@@ -76,4 +81,4 @@ Você só deve considerar o uso de substituições nos seguintes cenários:
 - Simulações de phishing: ataques simulados podem ajudá-lo a identificar usuários vulneráveis antes de um ataque real afetar sua organização.
 - Caixas de correio de Segurança/SecOps: caixas de correio dedicadas usadas pelas equipes de segurança para receber mensagens não filtradas (boas e ruins). Em seguida, o Teams pode analisar para ver se eles contêm conteúdo mal-intencionado.
 - Filtros de terceiros: Seguro por padrão não se aplica quando o registro MX do domínio não aponta para o Office 365.
-- Falsos positivos: talvez você queira permitir temporariamente determinadas mensagens que ainda estão sendo analisadas pela Microsoft por meio de [envios de Administrador.](admin-submission.md) Assim como em todas as substituições, é recomendável que elas sejam temporárias.
+- Falsos positivos: talvez você queira permitir temporariamente determinadas mensagens que ainda estão sendo analisadas pela Microsoft por meio de [envios de administrador.](admin-submission.md) Assim como em todas as substituições, é recomendável que elas sejam temporárias.

@@ -1,5 +1,5 @@
 ---
-title: Percepções de fluxo de emails no painel Fluxo de emails
+title: Informações de fluxo de emails no painel Fluxo de emails
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -13,17 +13,21 @@ description: Os administradores podem saber mais sobre as informações e relat�
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ef9498d19e79cf670fbae52171b78b0c44c45910
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: b65e235e3446fa62bca1c9f8aef73f2387b1140b
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029357"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50167090"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Fluxo de emails no Centro de Conformidade e Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Os administrador & es podem usar o painel fluxo de emails no Centro de Conformidade e Segurança para descobrir tendências, insights e tomar ações para corrigir problemas relacionados ao fluxo de emails em sua organização.
 
@@ -33,7 +37,7 @@ As informações disponíveis são:
 
 - [Visão geral sobre mensagens encaminhadas automaticamente](mfi-auto-forwarded-messages-report.md)
 
-- [Correção do insight de loop de email](mfi-mail-loop-insight.md)possível<sup>1</sup>
+- [Correção de possível visão de loop de email](mfi-mail-loop-insight.md)<sup>1</sup>
 
 - [Visão 1 de correção de](mfi-slow-mail-flow-rules-insight.md)regras de fluxo de emails<sup>lentos</sup>
 

@@ -1,10 +1,9 @@
 ---
-title: Corrigir emails mal-intencionados que foram entregues no Office 365
+title: Remediar emails mal-intencionados que foram entregues no Office 365
 author: msfttracyp
 ms.author: tracyp
 manager: dansimp
 ms.topic: article
-ms.service: O365-seccomp
 audience: admin
 f1.keywords:
 - NOCSH
@@ -14,122 +13,126 @@ search.appverid: MET150
 description: Correção de ameaças
 appliesto:
 - Microsoft 365 Defender
-ms.openlocfilehash: 67b27102ff9319e334b5ff1e006fe49f14d3f1ed
-ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 2f623957a79ccd76702482cd23b4d8ce219603f6
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620570"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166874"
 ---
-# <a name="remediate-malicious-email-delivered-in-office-365"></a>Corrigir emails mal-intencionados entregues no Office 365
+# <a name="remediate-malicious-email-delivered-in-office-365"></a>Correção de emails mal-intencionados entregues no Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+-    [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
-Correção significa tomar uma ação prescrita contra uma ameaça. Emails maliciosos enviados para sua organização podem ser limpos pelo sistema, por meio de limpeza automática de zero horas (ZAP) ou por equipes de segurança por meio de ações de correção, como *mover para a caixa de entrada*, *mover para o lixo eletrônico*, *mover para itens excluídos*, *exclusão reversível* ou *exclusão de hardware*. O Microsoft defender para Office 365 P2/E5 permite que as equipes de segurança remediam ameaças em email e a funcionalidade de colaboração através da investigação manual e automatizada.
+Correção significa tomar uma ação prescrita contra uma ameaça. Emails mal-intencionados enviados para sua organização podem ser limpos pelo sistema, por meio da ZAP (Limpeza Automática Zero Hora) ou por equipes de segurança por meio de ações de correção, como mover para a caixa de *entrada,* ir para lixo *eletrônico,* mover para itens excluídos, exclusão automática ou *exclusão* permanente.  O Microsoft Defender para Office 365 P2/E5 permite que as equipes de segurança remediam ameaças na funcionalidade de colaboração e email por meio de investigação manual e automatizada.
 
 > [!NOTE]
-> Para corrigir emails mal-intencionados, as equipes de segurança precisam da função de *pesquisa e limpeza* atribuída a eles. A atribuição de função é feita através de permissões no centro de conformidade e segurança.
+> Para remediar emails mal-intencionados, as equipes de segurança precisam da *função de* pesquisa e limpeza atribuída a elas. A atribuição de função é feita por meio de permissões no centro de conformidade e segurança.
 
 ## <a name="what-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar
 
-Os administradores podem executar a ação necessária em emails, mas para obter essas ações aprovadas, eles devem ter a função de *pesquisa e limpeza* atribuída a eles por meio de permissões de **segurança do centro de conformidade &** \> . Sem a função "pesquisa e limpeza" adicionada a um dos grupos de função, eles não poderão executar a ação.
+Os administradores podem tomar as medidas necessárias em emails, mas  para aprovar essas ações,  eles devem ter a função de pesquisa e limpeza atribuída a eles por meio de permissões do Centro de Conformidade e Segurança \> &. Sem a função "pesquisar e limpar" adicionada a um dos grupos de função, eles não poderão executar a ação.
 
 ## <a name="manual-and-automated-remediation"></a>Correção manual e automatizada
 
-A busca *manual* ocorre quando o Security Teams identifica ameaças manualmente usando os recursos de pesquisa e filtragem no Gerenciador de ameaças. A correção manual de email pode ser acionada por qualquer modo de exibição de email (*malware*, *phishing* ou *todos os emails*) após a identificação de um conjunto de emails que precisam ser corrigidos.
+*A busca* manual ocorre quando as equipes de segurança identificam ameaças manualmente usando os recursos de pesquisa e filtragem no Explorador de Ameaças. A correção manual de email pode ser disparada por meio de qualquer modo de exibição de email (*Malware,* *Phish*, ou Todos os *emails*) depois de identificar um conjunto de emails que precisam ser remediados.
 
 > [!div class="mx-imgBorder"]
-> [![Caça manual no Office 365 Threat Explorer por data.](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
+> [![Busca manual no Explorador de Ameaças do Office 365 por data.](../../media/tp-RemediationArticle1.png)](../../media/tp-RemediationArticle1.png#lightbox)
 
-As equipes de segurança podem usar o explorador de ameaças para selecionar emails de várias maneiras:
+As equipes de segurança podem usar o Explorador de Ameaças para selecionar emails de várias maneiras:
 
-- Escolha emails à mão: usar filtros em vários modos de exibição. Selecione até 100 emails a serem corrigidos.
+- Escolha emails manualmente: use filtros em vários visualizações. Selecione até 100 emails para remediar.
 
-- Seleção de consulta: selecione uma consulta inteira usando o botão **selecionar tudo** principal. A mesma consulta também é mostrada nos detalhes de envio de mensagens da central de ações.
+- Seleção de consulta: selecione uma consulta inteira usando o botão selecionar **todos na** parte superior. A mesma consulta também é mostrada nos detalhes de envio de email da central de ações.
 
-- Seleção de consulta com exclusão: às vezes, as equipes de operações de segurança podem querer corrigir emails selecionando uma consulta inteira e excluindo certos emails da consulta manualmente. Para fazer isso, um administrador pode usar a caixa de seleção **selecionar tudo** e rolar para baixo para excluir emails manualmente. A consulta pode conter um máximo de 1.000 emails. O número máximo de exclusões é de 100.
+- Seleção de consultas com exclusão: às vezes, as equipes de operações de segurança podem querer remediar emails selecionando uma consulta inteira e excluindo determinados emails da consulta manualmente. Para fazer isso, um administrador pode usar a caixa **de** seleção Selecionar tudo e rolar para baixo para excluir emails manualmente. A consulta pode conter no máximo 1.000 emails. O número máximo de exclusões é 100.
 
-Depois que os emails são selecionados por meio do Gerenciador de ameaças, você pode iniciar a correção executando a ação direta ou enfileirar emails para uma ação:
+Depois que os emails são selecionados por meio do Explorador de Ameaças, você pode iniciar a correção, tomando uma ação direta ou enmorando emails para uma ação:
 
-- Aprovação direta: quando as ações como *mover para a caixa de entrada*, *mover para o lixo eletrônico*, *mover para itens excluídos*, *exclusão reversível* ou *exclusão de hardware* são selecionadas pelo pessoal de segurança com permissões apropriadas e as próximas etapas da correção são seguidas, o processo de correção começa a executar a ação selecionada. Um submenu temporário mostra A correção em andamento.
+- Aprovação direta: quando ações como mover para a caixa de  *entrada,*  mover para lixo *eletrônico,* mover para itens excluídos *,* exclusão suave ou exclusão permanente são selecionadas pela equipe de segurança que tem as permissões apropriadas e as próximas etapas na correção são seguidas, o processo de correção começa a executar a ação selecionada. Um flyout temporário mostra correção em andamento.
 
-- Aprovação em duas etapas: uma ação "adicionar à correção" pode ser tomada por administradores que não têm as permissões apropriadas ou que precisam esperar para executar a ação. Nesse caso, os emails direcionados são adicionados a um contêiner de correção. A aprovação é necessária antes que a correção seja executada.
+- Aprovação em duas etapas: uma ação "adicionar à correção" pode ser executada por administradores que não têm permissões apropriadas ou que precisam esperar para executar a ação. Nesse caso, os emails direcionados são adicionados a um contêiner de correção. A aprovação é necessária antes que a correção seja executada.
 
-Ações **automatizadas de investigação e resposta** são acionadas por alertas ou por equipes de operações de segurança do explorador de ameaças. Eles podem incluir ações de correção recomendadas que devem ser aprovadas por uma equipe de operações de segurança. Essas ações são incluídas na guia **ação** da investigação automatizada.
-
-> [!div class="mx-imgBorder"]
-> [![Email com malware na página "Zapped" mostrando a hora da execução de zap.](../../media/tp-RemediationArticle3.png)](../../media/tp-RemediationArticle3.png#lightbox)
-
-Todas as correções (aprovação direta ou aprovação em duas etapas) que foram criadas no Gerenciador de ameaças, bem como as ações aprovadas provenientes de investigações automatizadas, são exibidas na central de ações. Acessá-los por meio do painel de navegação esquerdo em **revisar** \> **central de ações**.
+**As ações automatizadas de investigação e** resposta são disparadas por alertas ou por equipes de operações de segurança do Explorador de Ameaças. Isso pode incluir ações de correção recomendadas que devem ser aprovadas por uma equipe de operações de segurança. Essas ações estão incluídas na **guia Ação** na investigação automatizada.
 
 > [!div class="mx-imgBorder"]
-> [![A central de ações com uma lista de ameaças por data e severidade.](../../media/tp-RemediationArticle4.png)](../../media/tp-RemediationArticle4.png#lightbox)
+> [![Email com malware na página "Com malware" mostrando o tempo de execução da Zap.](../../media/tp-RemediationArticle3.png)](../../media/tp-RemediationArticle3.png#lightbox)
 
-A central de ações mostra todas as ações de correção dos últimos 30 dias. As ações realizadas pelo Gerenciador de ameaças são listadas pelo nome que a equipe de operações de segurança forneceu quando a correção foi criada. Ações tomadas por meio de investigações automatizadas têm títulos que começam com o alerta relacionado que disparou a investigação, como "zap email cluster...."
+Todas as correções (aprovação direta ou aprovação em duas etapas) criadas no Explorador de Ameaças, bem como ações aprovadas provenientes de investigações automatizadas, são exibidas na Central de Ações. Acesse-os por meio do painel de navegação esquerdo em **Revisar** \> **Central de Ações.**
 
-Abra qualquer item de correção para exibir detalhes sobre ele, incluindo o nome, a data de criação, a descrição, a severidade da ameaça e o status. Ele também mostra as duas guias a seguir.
+> [!div class="mx-imgBorder"]
+> [![A central de ações com uma lista de ameaças por data e gravidade.](../../media/tp-RemediationArticle4.png)](../../media/tp-RemediationArticle4.png#lightbox)
 
-- Guia **envio de email** : exibe o número de emails enviados por meio do explorador de ameaças ou investigações automatizadas a serem corrigidos. Esses emails podem ser acionáveis ou não acionáveis.
+A Central de Ações mostra todas as ações de correção dos últimos 30 dias. As ações realizadas por meio do Explorador de Ameaças são listadas pelo nome fornecido pela equipe de operações de segurança quando a correção foi criada. As ações realizadas por meio de investigações automatizadas têm títulos que começam com o alerta relacionado que disparou a investigação, como "Cluster de email da Zap... ."
+
+Abra qualquer item de correção para exibir detalhes sobre ele, incluindo seu nome, data de criação, descrição, gravidade da ameaça e status. Ele também mostra as duas guias a seguir.
+
+- **Guia envio** de email: exibe o número de emails enviados por meio do Explorador de Ameaças ou investigações automatizadas a serem remediadas. Esses emails podem ser a ação ou não a ação.
 
   > [!div class="mx-imgBorder"]
-  > [![A central de ações com ameaças acionáveis e não acionáveis.](../../media/tp-RemediationArticle5.png)](../../media/tp-RemediationArticle5.png#lightbox)
+  > [![A central de ações com ameaças a actionable e não a actionable.](../../media/tp-RemediationArticle5.png)](../../media/tp-RemediationArticle5.png#lightbox)
 
-  - **Acionável**: os emails nos seguintes locais de caixa de correio na nuvem podem ser afetados e movidos:
+  - **A actionable**: emails nos seguintes locais de caixa de correio na nuvem podem ser agidos e movidos:
     - Caixa de Entrada
-    - Desejado
+    - Lixo eletrônico
     - Pasta excluída
-    - Pasta de exclusão reversível
+    - Pasta excluída de forma suave
 
       > [!NOTE]
-      > Atualmente, apenas um usuário com acesso à caixa de correio pode recuperar itens de uma pasta de exclusão reversível.
+      > Atualmente, apenas um usuário com acesso à caixa de correio pode recuperar itens de uma pasta excluída de forma suave.
 
-  - **Não acionável**: os emails nos seguintes locais não podem ser afetados ou movidos em ações de correção:
+  - **Não a actionable:** emails nos seguintes locais não podem ser agidos ou movidos em ações de correção:
     - Quarentena
-    - Pasta de exclusão fixa
+    - Pasta excluída de forma permanente
     - Local/externo
-    - Com falha/Descartado
+    - Falhou/suou
 
-  As mensagens suspeitas são categorizadas como remediable ou nonremediable. Na maioria dos casos, as mensagens do remediable e do nonremediable combinam o total de mensagens enviadas. Mas, em casos raros, isso pode não ser verdadeiro. Isso pode acontecer devido a atrasos no sistema, tempo limite ou mensagens expiradas. As mensagens expiram com base no período de retenção do explorador de ameaças para sua organização.
+  Mensagens suspeitas são categorizadas como remediadas ou não corretivas. Na maioria dos casos, as mensagens corretivas e não corretivas combinam o total de mensagens enviadas. Mas, em casos raros, isso pode não ser verdadeiro. Isso pode acontecer devido a atrasos do sistema, tempos esgotados ou mensagens expiradas. As mensagens expiram com base no período de retenção do Explorador de Ameaças da sua organização.
 
-  A menos que você esteja corrigindo mensagens antigas após o período de retenção do explorador de ameaças da organização, é aconselhável repetir a correção de itens se você vir inconsistências de número. Para os atrasos do sistema, as atualizações de correção são normalmente atualizadas dentro de algumas horas.
+  A menos que você esteja remediando mensagens antigas após o período de retenção do Explorador de Ameaças da sua organização, é aconselhável tentar remediar itens se você vir inconsistências de número. Para atrasos do sistema, as atualizações de correção são normalmente atualizadas dentro de algumas horas.
 
-  Se o período de retenção da sua organização para email no Gerenciador de ameaças for 30 dias e você estiver corrigindo os emails de volta 29-30 dias, as contagens de envio de emails não poderão ser sempre adicionadas. Os emails talvez já tenham iniciado a mudança do período de retenção.
+  Se o período de retenção de email da sua organização no Explorador de Ameaças for de 30 dias e você estiver remediando emails de 29 a 30 dias, as contagens de envio de email podem nem sempre aumentar. Os emails já podem ter começado a sair do período de retenção.
 
-  Se as correções estiverem presas no estado "em andamento" por um tempo, provavelmente será devido a atrasos no sistema. Pode levar algumas horas para ser corrigida. Você pode ver variações nas contagens de envio de emails, pois alguns emails podem não ter sido incluídos na consulta no início da correção devido a atrasos no sistema. É uma boa ideia repetir a correção nesses casos.
+  Se as correções estão travadas no estado "Em andamento" por um tempo, provavelmente devido a atrasos no sistema. Pode levar algumas horas para ser remediado. Você pode ver variações em contagens de envio de email, pois alguns dos emails podem não ter sido incluídos na consulta no início da correção devido a atrasos do sistema. É uma boa ideia tentar remediar nesses casos.
 
   > [!NOTE]
-  > Para obter melhores resultados, a correção deve ser feita em lotes de 50.000 ou menos.
+  > Para melhores resultados, a correção deve ser feita em lotes de 50.000 ou menos.
 
-  Somente os emails do remediable são afetados durante a correção. Os emails do Nonremediable não podem ser corrigidos pelo sistema de email do Office 365, pois eles não são armazenados nas caixas de correio na nuvem.
+  Somente emails remediados são remediados durante a correção. Emails não remediados não podem ser remediados pelo sistema de email do Office 365, pois eles não são armazenados em caixas de correio na nuvem.
 
-  Os administradores podem executar ações nos emails em quarentena, se necessário, mas esses emails expirarão em quarentena se não forem removidos manualmente. Os emails em quarentena porque o conteúdo mal-intencionado não é acessível por usuários, portanto, a equipe de segurança não precisa realizar qualquer ação para se livrar de ameaças em quarentena. Se os emails estiverem no local ou externos, o usuário poderá ser contatado para lidar com o email suspeito. Ou os administradores podem usar ferramentas de segurança e servidor de email separadas para remoção. Esses emails podem ser identificados aplicando o filtro externo de *entrega = local* no Gerenciador de ameaças. Para email com falha ou cancelado, ou email não acessível por usuários, não haverá nenhum email para reduzir, pois esses emails não chegam à caixa de correio.
+  Os administradores podem realizar ações em emails em quarentena, se necessário, mas esses emails expiram da quarentena se não são limpos manualmente. Os emails colocados em quarentena por causa de conteúdo mal-intencionado não são acessíveis aos usuários, portanto, a equipe de segurança não precisa tomar medidas para eliminar ameaças em quarentena. Se os emails são locais ou externos, o usuário pode ser contatado para tratar do email suspeito. Ou os administradores podem usar servidor de email/ferramentas de segurança separadas para remoção. Esses emails podem ser identificados aplicando o local *de entrega = filtro* externo local no Explorador de Ameaças. Para emails com falha ou descartados, ou emails não acessíveis por usuários, não haverá nenhum email para atenuar, já que esses emails não chegam à caixa de correio.
 
-  A imagem a seguir mostra a aparência de um envio na central de ações. Uma correção pode conter vários envios. Se várias ações forem aprovadas por meio de uma investigação automatizada, cada ação de email ou de cluster de emails aparecerá na mesma correção que um envio diferente.
+  A imagem a seguir mostra a aparência de um envio na Central de Ações. Uma correção pode conter vários envios. Se várias ações são aprovadas por meio de uma investigação automatizada, cada ação de email ou cluster de email aparece na mesma correção de um envio diferente.
 
   > [!div class="mx-imgBorder"]
-  > [![Painel de submenu de cluster de email de ZAP.](../../media/tp-RemediationArticle6.png)](../../media/tp-RemediationArticle6.png#lightbox)
+  > [![Painel do flyout do cluster de email ZAP.](../../media/tp-RemediationArticle6.png)](../../media/tp-RemediationArticle6.png#lightbox)
 
-  Selecione um item de envio de email para mostrar os detalhes dessa correção, como a consulta (quando a correção é acionada por meio de investigações automatizadas ou explorador de ameaças por meio da seleção de uma consulta) e dos horários de início e término da correção. Também exibe uma lista de mensagens que foram enviadas para correção. Como as mensagens são movidas para o período de retenção do explorador de ameaças, as mensagens desaparecem dessa lista. A lista também mostra mensagens individuais que são remediable.
+  Selecione um item de envio de email para mostrar os detalhes dessa correção, como a consulta (quando a correção é disparada por meio de investigações automatizadas ou do Explorador de Ameaças por meio da seleção de uma consulta) e os horários de início e término da correção. Ele também exibe uma lista de mensagens que foram enviadas para correção. À medida que as mensagens sairem do período de retenção do Explorador de Ameaças, as mensagens desaparecerão dessa lista. A lista também mostra mensagens individuais que são remediadas.
 
-- **Logs de ação**: essa guia mostra as mensagens corrigidas, incluindo a data aprovada, o administrador que aprovou a ação, a ação, o status e as contagens.
+- **Logs de** ações: esta guia mostra as mensagens remediadas, incluindo a data aprovada, o administrador que aprovou a ação, a ação, o status e as contagens.
 
   O status pode ser:
 
-  - **Iniciado**: a correção foi disparada.
-  - Em **fila**: a correção é enfileirada para atenuação de emails.
-  - **Em andamento**: a mitigação está em andamento.
-  - **Concluído**: a mitigação de todos os emails do remediable foi concluída com êxito ou com algumas falhas.
-  - **Falha**: nenhuma correção foi bem-sucedida.
+  - **Iniciado:** a correção é disparada.
+  - **Na fila:** a correção está na fila para mitigação de emails.
+  - **Em andamento:** a mitigação está em andamento.
+  - **Concluído:** mitigação em todos os emails remediados concluídos com êxito ou com algumas falhas.
+  - **Falha:** nenhuma correção foi bem-sucedida.
 
-  Como apenas os emails do remediable podem ser afetados, a limpeza de cada email é mostrada como bem-sucedida ou com falha. Do total de emails do remediable, as atenuações com êxito e com falha são relatadas.
+  Como apenas emails remediados podem ser remediados, a limpeza de cada email é mostrada como bem-sucedida ou falhou. Do total de emails remediados, mitigações bem-sucedidas e com falha são relatadas.
 
-  - **Êxito**: a ação desejada em emails do remediable foi realizada. Por exemplo: um administrador deseja remover emails de caixas de correio, portanto, o administrador executa a ação de excluir emails de forma reversível. Se um email do remediable não for encontrado na pasta original após a ação ser realizada, o status será exibido como bem-sucedido.
+  - **Sucesso**: a ação desejada em emails remediados foi realizada. Por exemplo: um administrador deseja remover emails de caixas de correio, portanto, o administrador toma a ação de excluir emails de forma simples. Se um email remediado não for encontrado na pasta original após a ação ser realizada, o status será como bem-sucedido.
 
-  - **Falha**: a ação desejada em emails do remediable falhou. Por exemplo: um administrador deseja remover emails de caixas de correio, portanto, o administrador executa a ação de excluir emails de forma reversível. Se um email do remediable ainda for encontrado na caixa de correio após a ação ser executada, o status será mostrado como falha.
+  - **Falha:** falha na ação desejada em emails remediados. Por exemplo: um administrador deseja remover emails de caixas de correio, portanto, o administrador toma a ação de excluir emails de forma simples. Se um email remediado ainda for encontrado na caixa de correio após a ação ser realizada, o status será como falha.
 
-  Selecione qualquer item no log de ações para exibir detalhes de correção. Se os detalhes dizem "êxito" ou "não encontrado na caixa de correio", esse item já foi removido da caixa de correio. Às vezes, há um erro do sistema durante a correção. Nesses casos, é uma boa ideia tentar novamente a correção.
+  Selecione qualquer item no log de ações para exibir detalhes de correção. Se os detalhes dizem "bem-sucedido" ou "não encontrado na caixa de correio", esse item já foi removido da caixa de correio. Às vezes, há um erro de erro de erro durante a correção. Nesses casos, é uma boa ideia tentar a correção.
 
-  No caso de corrigir grandes lotes, você também pode exportar as mensagens enviadas para correção via envio de email e mensagens que foram corrigidas por meio de logs de ação. O limite de exportação aumentou para 100 mil registros.
+  No caso de correção de lotes grandes, você também pode exportar as mensagens enviadas para correção por meio de Envio de Email e mensagens que foram remediadas por meio de Logs de Ações. O limite de exportação é aumentado para 100 mil registros.
 
-  Correção é uma poderosa ferramenta para reduzir as ameaças e lidar com emails suspeitos. Ele ajuda a manter uma organização segura.
+  A correção é uma ferramenta poderosa para reduzir ameaças e resolver emails suspeitos. Ele ajuda a manter uma organização segura.

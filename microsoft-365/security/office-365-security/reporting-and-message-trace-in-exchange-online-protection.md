@@ -8,59 +8,64 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para os administradores do Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: 856e99e55e6b67d1d22a30e2f55f60857eb4fe75
-ms.sourcegitcommit: 9546708a5506fdbadbfe2500cbf1bd1aeaec6fcb
+description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para administradores do Microsoft Exchange Online Protection (EOP).
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 86c9eb0ee050c4c1a40ef7f29ea3d01dc202be9a
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49020886"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166670"
 ---
-# <a name="reporting-and-message-trace-in-eop"></a>Relatórios e rastreamento de mensagens no EOP
+# <a name="reporting-and-message-trace-in-eop"></a>Rastreamento de mensagens e relatórios no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Nas organizações do Microsoft 365 com caixas de correio em organizações do Exchange Online ou do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece vários relatórios diferentes que podem ajudá-lo a determinar o status e a integridade gerais de sua organização. Existem também ferramentas que ajudam você a solucionar problemas com eventos específicos (tais como uma mensagem que não chega aos destinatários pretendidos), e relatórios de auditoria para ajudar nos requisitos de conformidade.
+Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece muitos relatórios diferentes que podem ajudá-lo a determinar o status e a saúde gerais da sua organização. Existem também ferramentas que ajudam você a solucionar problemas com eventos específicos (tais como uma mensagem que não chega aos destinatários pretendidos), e relatórios de auditoria para ajudar nos requisitos de conformidade.
 
 ## <a name="usage-reports"></a>Relatórios de uso
 
-**Atividade de grupos do microsoft 365** : exibir informações sobre o número de grupos do Microsoft 365 que são criados e usados.
+**Atividade de grupos do Microsoft 365:** exibir informações sobre o número de grupos do Microsoft 365 criados e usados.
 
-**Atividade de email** : exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda sua organização e por usuários específicos.
+**Atividade de** email: exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda a organização e por usuários específicos.
 
-**Uso do aplicativo de email** : exibir informações sobre os aplicativos de email usados. Isso inclui o número total de conexões para cada aplicativo, e as versões do Outlook que estão se conectando.
+**Uso do aplicativo de** email: exibir informações sobre os aplicativos de email usados. Isso inclui o número total de conexões para cada aplicativo, e as versões do Outlook que estão se conectando.
 
-**Uso da caixa de correio** : exibir informações sobre o armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio.
+**Uso da caixa** de correio: Exibir informações sobre armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio.
 
 Veja os seguintes recursos para obter mais informações:
 
-- [Relatórios do Microsoft 365 no centro de administração-Microsoft 365 grupos](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
+- [Relatórios do Microsoft 365 no centro de administração - grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
 
-- [Relatórios do Microsoft 365 no centro de administração-atividade de email](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
+- [Relatórios do Microsoft 365 no centro de administração - Atividade de email](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
 
-- [Relatórios do Microsoft 365 no centro de administração-uso de aplicativos de email](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
+- [Relatórios do Microsoft 365 no centro de administração - Uso de aplicativos de email](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
 
-- [Relatórios da Microsoft 365 no centro de administração-uso da caixa de correio](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
+- [Relatórios do Microsoft 365 no centro de administração - Uso da caixa de correio](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
 
-## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios de segurança & conformidade no centro de administração do Microsoft 365
+## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios & conformidade de segurança no centro de administração do Microsoft 365
 
-Esses relatórios aprimorados fornecem uma experiência de relatório interativa para administradores do EOP, que inclui informações de resumo e a capacidade de aprofundar para obter mais detalhes.
+Esses relatórios aprimorados fornecem uma experiência interativa de relatório para administradores do EOP, que inclui informações resumidas e a capacidade de fazer buscas mais detalhes.
 
-**Defender para Office 365** : exibir informações sobre links seguros e anexos seguros que fazem parte do Microsoft defender para Office 365.
+**Defender para Office 365:** exibir informações sobre Links seguros e anexos seguros que fazem parte do Microsoft Defender para Office 365.
 
-**EOP** : exibir informações sobre detecções de malware, email falsificado, detecções de spam e fluxo de emails para e da sua organização.
+**EOP**: exibir informações sobre detecções de malware, emails falsas, detecções de spam e fluxo de emails de e para sua organização.
 
-[Exibir relatórios do defender para Office 365](view-reports-for-atp.md)
+[Exibir relatórios do Defender para Office 365](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Relatórios personalizados usando o Microsoft Graph
 
-Criar programaticamente relatórios disponíveis no centro de administração usando o Microsoft Graph. Para obter mais informações, consulte [Overview of Microsoft Graph](https://docs.microsoft.com/graph/overview) e [Working with Office 365 Usage reports in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/report).
+Crie programaticamente relatórios que estão disponíveis no centro de administração usando o Microsoft Graph. Para saber mais, confira [Visão geral do Microsoft Graph](https://docs.microsoft.com/graph/overview) e como trabalhar com relatórios de uso do Office [365 no Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/report)
 
 ## <a name="message-trace"></a>Rastreamento de mensagens
 
@@ -68,11 +73,11 @@ Acompanhe as mensagens enviadas conforme elas circulam através di EOP. Você po
 
 Você pode usar essa informação para responder com eficiência às perguntas dos seus usuários, solucionar problemas de fluxo de email, validar alterações de política e reduzir a necessidade de contatar o suporte técnico para obter assistência.
 
-Consulte [rastreamento de mensagens no centro de conformidade & segurança](message-trace-scc.md).
+Consulte [Rastreamento de mensagens no Centro de Conformidade & segurança.](message-trace-scc.md)
 
 ## <a name="audit-logging"></a>Registro em log de auditoria
 
-Rastreie alterações específica feitas pelos administradores na sua organização. Estes relatórios ajudam você a solucionar problemas de configuração ou a encontrar a causa de problemas relacionados à conformidade ou à segurança. Confira [relatórios de auditoria no EOP](auditing-reports-in-eop.md).
+Rastreie alterações específica feitas pelos administradores na sua organização. Estes relatórios ajudam você a solucionar problemas de configuração ou a encontrar a causa de problemas relacionados à conformidade ou à segurança. Consulte [Relatórios de auditoria no EOP](auditing-reports-in-eop.md).
 
 ## <a name="reporting-and-message-trace-data-availability-and-latency"></a>Disponibilidade e latência de dados de relatórios e rastreamento de mensagens
 
@@ -82,10 +87,10 @@ A tabela a seguir descreve quando dados de relatórios e rastreamento de mensage
 
 |Tipo de relatório|Dados disponíveis por (período retrospectivo)|Latência|
 |---|---|---|
-|Relatórios de Resumo de proteção de email|90 dias|A agregação de dados de mensagens geralmente é concluída em 24 a 48 horas. Algumas pequenas alterações agregadas progressivas podem ocorrer por até 5 dias.|
-|Relatórios de detalhes de proteção de email|90 dias|Para obter dados detalhados de um período menor que 7 dias, os dados deverão aparecer no prazo de 24 horas, mas a operação talvez não seja concluída em até 48 horas. Algumas pequenas alterações incrementais podem ocorrer por até 5 dias. <p> Para exibir relatórios detalhados de mensagens ocorridas em um período superior a sete dias, os resultados podem demorar umas poucas horas.|
+|Relatórios de resumo de proteção de email|90 dias|A agregação de dados de mensagens geralmente é concluída em 24 a 48 horas. Algumas pequenas alterações agregadas progressivas podem ocorrer por até 5 dias.|
+|Relatórios detalhados de proteção de email|90 dias|Para obter dados detalhados de um período menor que 7 dias, os dados deverão aparecer no prazo de 24 horas, mas a operação talvez não seja concluída em até 48 horas. Algumas pequenas alterações incrementais podem ocorrer por até 5 dias. <p> Para exibir relatórios detalhados de mensagens ocorridas em um período superior a sete dias, os resultados podem demorar umas poucas horas.|
 |Dados de rastreamento de mensagem|90 dias|Ao rastrear mensagens ocorridas em um período menor que 7 dias, as mensagens devem aparecer no intervalo de 5 a 30 minutos.<p> Ao rastrear mensagens ocorridas em um período superior a 7 dias, os resultados podem demorar umas poucas horas.|
 |
 
 > [!NOTE]
-> A disponibilidade e a latência dos dados é a mesma, seja ela solicitada por meio do centro de administração ou do PowerShell remoto.
+> A disponibilidade e a latência de dados são as mesmas, sejam solicitadas por meio do centro de administração ou do PowerShell remoto.

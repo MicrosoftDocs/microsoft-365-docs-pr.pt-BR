@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre os tipos de informações confidenciais
+title: Aprenda sobre os tipos de informações confidenciais
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 896a529d67faddb45b2672ca077f5a8e3b19827e
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 91366e8f255d277d4d40de4c4cd3330283da718c
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49933074"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166446"
 ---
-# <a name="learn-about-sensitive-information-types"></a>Saiba mais sobre os tipos de informações confidenciais
+# <a name="learn-about-sensitive-information-types"></a>Aprenda sobre os tipos de informações confidenciais
 
 Identificar e classificar itens confidenciais que estão sob o controle de suas organizações é a primeira etapa na disciplina de Proteção [de Informações.](protect-information.md)  O Microsoft 365 fornece três maneiras de identificar itens para que eles possam ser classificados:
 
@@ -48,7 +48,7 @@ Cada entidade de tipo de informação confidenciais é definida por estes campos
 - name: how the sensitive information type is referred to
 - description: descreve o que o tipo de informação confidenciais está procurando
 - padrão: um padrão define o que um tipo de informação confidenciais detecta. Ele consiste nos seguintes componentes
-    - Elemento principal – o elemento principal que o tipo de informação sensível está procurando. Pode ser uma expressão **regular com ou sem** uma validação de verificação, uma lista de palavras-chave, um dicionário de palavras-chave ou uma **função.**  
+    - Elemento principal – o elemento principal que o tipo de informação confidenciais está procurando. Pode ser uma expressão **regular com ou sem** uma validação de verificação, uma lista de palavras-chave, um dicionário de palavras-chave ou uma **função.**  
     - Elemento de suporte – elementos que atuam como evidências de suporte que ajudam a aumentar a confiança da partida. Por exemplo, a palavra-chave "SSN" perto de um número SSN. Pode ser uma expressão regular com ou sem uma validação de verificação, uma lista de palavras-chave, um dicionário de palavras-chave.
     - Nível de Confiança - os níveis de confiança (alto, médio, baixo) refletem quanta evidência de suporte foi detectada junto com o elemento principal. Quanto mais evidências de suporte um item contiver, maior será a confiança de que um item com as informações confidenciais que você está procurando.
     - Proximidade – Número de caracteres entre o elemento principal e o elemento de suporte
@@ -137,6 +137,8 @@ Para criar tipos de informações confidenciais personalizadas no Centro de Conf
 
 
 > [!NOTE]
+> Níveis de confiança aprimorados estão disponíveis para uso imediato na Prevenção contra Perda de Dados para serviços do Microsoft 365, Proteção de Informações da Microsoft para serviços do Microsoft 365, Conformidade de Comunicação, Governança de Informações e Gerenciamento de Registros.
+
 > A Proteção de Informações do Microsoft 365 agora oferece suporte a idiomas de conjunto de caracteres de byte duplo de visualização:
 > - Chinês (simplificado)
 > - Chinês (tradicional)

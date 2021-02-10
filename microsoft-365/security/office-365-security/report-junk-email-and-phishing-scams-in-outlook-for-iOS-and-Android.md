@@ -17,19 +17,23 @@ ms.collection:
 description: Os administradores podem saber mais sobre as opções de relatório de lixo eletrônico, não lixo eletrônico e phishing no Outlook para iOS e Android.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d702ab1d97c07c3e38430a9a7beff5f14db7b60a
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 58027f7589280b1266cddc8cfbf44db9e4f0ece4
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029275"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166814"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Relatar lixo eletrônico e phishing no Outlook para iOS e Android no Exchange Online
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Nas organizações do Microsoft 365 com caixas de correio [](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview)no Exchange Online ou caixas de correio locais usando a autenticação moderna híbrida, você pode usar as opções de relatório internas no Outlook para iOS e Android para enviar falsos positivos (emails bons marcados como spam), falsos negativos (emails falsos permitidos) e mensagens de phishing para o Exchange Online Protection (EOP).
+Nas organizações do Microsoft 365 com caixas de correio [](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview)no Exchange Online ou caixas de correio locais usando a autenticação moderna híbrida, você pode usar as opções internas de relatório no Outlook para iOS e Android para enviar falsos positivos (emails bons marcados como spam), falsos negativos (emails falsos permitidos) e mensagens de phishing para o Exchange Online Protection (EOP).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar
 
@@ -59,7 +63,7 @@ Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto L
 
    ![Relatar opções de relatório de lixo eletrônico ou phishing](../../media/Android-junk-email-reporting-options.png)
 
-Se você mudar de ideia, selecione **Desfazer** na notificação do usuário exibida. A mensagem permanece na pasta Caixa de Entrada.
+Se você mudar de ideia, selecione **Desfazer** na notificação do notificação do notificação do jogo que aparecer. A mensagem permanece na pasta Caixa de Entrada.
 
 ## <a name="report-non-spam-messages-from-the-junk-folder-in-outlook-for-ios-and-android"></a>Relatar mensagens não spam da pasta Lixo eletrônico no Outlook para iOS e Android
 
@@ -72,4 +76,4 @@ Na pasta Lixo eletrônico, use as etapas a seguir para relatar falsos positivos 
 
 3. Toque **em Não é lixo eletrônico.**
 
-Uma notificação do notificação do jogo é exibida de que o email foi movido para sua Caixa de Entrada. Se você mudar de ideia, selecione **Desfazer** na notificação do notificação do notificação do jogo. O email permanece na pasta Lixo eletrônico.
+Uma notificação do notificação do jogo é exibida de que o email foi movido para sua Caixa de Entrada. Se você mudar de ideia, selecione **Desfazer** na notificação do notificação do jogo. O email permanece na pasta Lixo eletrônico.

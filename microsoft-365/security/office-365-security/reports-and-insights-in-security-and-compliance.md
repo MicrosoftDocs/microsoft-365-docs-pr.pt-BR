@@ -1,5 +1,5 @@
 ---
-title: Relatórios inteligentes, insights-centro de conformidade & segurança da Microsoft 365
+title: Relatórios inteligentes, insights – Centro de Conformidade e Segurança & do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: siosulli
@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -16,52 +15,58 @@ search.appverid:
 ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
-description: Saiba mais sobre os relatórios inteligentes e insights disponíveis no centro de conformidade do & de segurança e como usá-los para exibir e explorar dados e realizar ações rápidas.
+description: Saiba mais sobre os relatórios inteligentes e & as informações disponíveis no Centro de Conformidade e Segurança e como usá-los para exibir e explorar dados e tomar ações rápidas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1b6a3b6d19b9cfd2740baba9a3b3e53e4ec9637
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 0d1c44bf212ecedadf0af47637920805c0c9f241
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615871"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166694"
 ---
 # <a name="smart-reports-and-insights-in-the-security--compliance-center"></a>Relatórios inteligentes e insights no Centro de Conformidade e Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Se você fizer parte da equipe de segurança do Microsoft para 365 para empresas da sua organização e tiver as [permissões necessárias atribuídas no centro de conformidade & segurança](permissions-in-the-security-and-compliance-center.md), poderá acessar uma variedade de relatórios, incluindo relatórios inteligentes e insights. Leia este artigo para obter uma visão geral desses relatórios e insights e onde ir para saber mais sobre relatórios específicos.
+Se você faz parte da equipe de segurança do Microsoft for 365 para empresas da sua organização e tem as permissões necessárias atribuída [& s](permissions-in-the-security-and-compliance-center.md)no Centro de Conformidade e Segurança, você pode acessar uma variedade de relatórios, incluindo relatórios inteligentes e ideias. Leia este artigo para obter uma visão geral desses relatórios e ideias e onde ir para saber mais sobre relatórios específicos.
 
-## <a name="smart-reports-and-insights-overview"></a>Visão geral de relatórios inteligentes e insights
+## <a name="smart-reports-and-insights-overview"></a>Visão geral de relatórios inteligentes e ideias
 
-Os recursos de monitoramento disponíveis no centro de conformidade e segurança & incluem relatórios inteligentes e insights que permitem aos administradores de segurança e conformidade se concentrarem em problemas de alta prioridade, como ataques de segurança ou uma maior atividade suspeita. Em um painel, os relatórios inteligentes e insights se assemelham à imagem a seguir:
+Os recursos de monitoramento disponíveis no Centro de Conformidade e Segurança incluem relatórios inteligentes e ideias que permitem que seus administradores de segurança e conformidade se concentrem em problemas de alta prioridade, como ataques de segurança ou aumento de atividades suspeitas. & Em um painel, relatórios inteligentes e ideias são semelhantes à seguinte imagem:
 
-![O painel de relatórios no centro de conformidade & segurança](../../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
+![O painel Relatórios no Centro de Conformidade e & Segurança](../../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
 
-Além de destacar áreas problemáticas, relatórios inteligentes e insights incluem recomendações e links para exibir e explorar dados e também realizar ações rápidas. Por exemplo, se a sua organização tiver inesperadamente uma grande quantidade de mensagens de email sendo marcadas como spam por usuários finais, você poderá ser aconselhado a revisitar suas políticas antispam para garantir que o nível certo de proteção esteja em vigor.
+Além de destacar áreas problemáticas, relatórios inteligentes e ideias incluem recomendações e links para exibir e explorar dados e também tomar ações rápidas. Por exemplo, se sua organização tiver um grande número de mensagens de email marcadas como spam por usuários finais, talvez seja aconselhável revisitar suas políticas anti-spam para garantir que o nível de proteção correto seja válido.
 
-## <a name="types-of-reports-in-the-security--compliance-center"></a>Tipos de relatórios no centro de conformidade & segurança
+## <a name="types-of-reports-in-the-security--compliance-center"></a>Tipos de relatórios no Centro de Conformidade & segurança
 
-Uma ampla variedade de relatórios estão disponíveis no centro de conformidade e segurança &. (Ir para **relatórios** \> **Painel** para obter um modo de exibição tudo.) A tabela a seguir lista os relatórios disponíveis com links para saber mais:
+Uma ampla variedade de relatórios está disponível no Centro de Conformidade e & Segurança. (Ir para **Relatórios** \> **Painel** para obter uma exibição all-up.) A tabela a seguir lista os relatórios disponíveis com links para saber mais:
 
 ****
 
-|Tipo de informação|Como chegar lá|Onde acessar mais informações|
+|Tipo de informação|Como chegar lá|Onde ir para saber mais|
 |---|---|---|
-|**Relatórios do centro de conformidade & segurança** (tudo em diante) <p> Principais ideias e recomendações e links para relatórios de segurança & conformidade, incluindo relatórios de prevenção de perda de dados, rótulos, relatórios de segurança de email, relatórios do defender for Office 365 e mais|No centro de conformidade & segurança, vá para  \> **painel** relatórios|[Monitorar e exibir relatórios no centro de segurança do Microsoft 365](../mtp/monitoring-and-reporting.md)|
-|**Prevenção contra perda de dados** <p> Correspondência de políticas de prevenção contra perda de dados, falsos positivos e substituições e links para criar ou editar políticas|No centro de conformidade & segurança, vá para política de **prevenção de perda de dados** \> |[Exibir os relatórios de prevenção contra perda de dados](../../compliance/view-the-dlp-reports.md)|
-|**Governança de dados** <p> Informações sobre como os rótulos são aplicados, rótulos classificados como registros, tendências de rótulo e muito mais|No centro de conformidade & segurança, vá para painel de **governança de informações** \> |[Exibir os relatórios de governança de dados](../../compliance/view-the-data-governance-reports.md)|
-|**Painel de gerenciamento de ameaças** (isso também é conhecido como painel de segurança) <p> Detecções de ameaças, tendências de malware, principais usuários direcionados, detalhes sobre mensagens de email enviadas e recebidas e muito mais|No centro de conformidade & segurança, vá para  o \> **painel** gerenciamento de ameaças|[Exibir relatórios do defender para Office 365](view-reports-for-atp.md)|
-|**Gerenciador de ameaças** (também chamado de Explorer) ou **detecções em tempo real** <p> Malware suspeito detectado em emails e arquivos no Microsoft 365|No centro de conformidade & segurança, vá para o Gerenciador de **Gerenciamento de ameaças** \>  ou **detecções em tempo real**<br> |[Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md)|
-|**Defender para Office 365 e relatórios de segurança de email** <p> Relatórios de segurança de email e proteção contra ameaças (incluindo malware, spam, phishing e relatórios de falsificação)|No centro de conformidade & segurança, vá para  \> **painel** relatórios|[Exibir relatórios do defender para Office 365](view-reports-for-atp.md) <p> [Exibir relatórios de segurança de email no centro de conformidade & segurança](view-email-security-reports.md)|
-|**Fluxo de mensagens** <p> Informações sobre mensagens de email enviadas e recebidas, alertas recentes, principais remetentes e destinatários, relatórios de encaminhamento de emails e muito mais|No centro de conformidade & segurança, vá para painel de **fluxo de emails** \>  e painel de **relatórios** \> |[Insights de fluxo de emails no Centro de Conformidade e Segurança](mail-flow-insights-v2.md) <p> [Exibir relatórios de fluxo de emails no centro de conformidade & segurança](view-mail-flow-reports.md)|
-|**Conformidade com o GDPR** <p> Informações sobre a conformidade do RGPD, incluindo links para entidades de dados, tendências de rótulo e ocorrências de fechamento de & ativas|No centro de conformidade & segurança, vá para  \> **painel de rgpd** de privacidade de dados|[Proteção de Informações do Office 365 para o RGPD](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)|
-|**Log de auditoria** <p> Informações sobre as atividades, usuários, arquivos ou pastas do Microsoft 365 e muito mais|No centro de conformidade & segurança, vá para **pesquisa & investigação** \> **log de auditoria pesquisa**|[Pesquisar o log de auditoria no centro de conformidade & segurança](../../compliance/search-the-audit-log-in-security-and-compliance.md)|
-|**Relatórios de conformidade** <p> Relatórios FedRAMP, governança, relatórios de risco e conformidade, relatórios de gerenciamento de segurança da Informação ISO e relatórios Service Organization Controls de auditoria e análise.|No centro de conformidade & segurança, vá para  \> **relatórios de conformidade** de garantia de serviço|[Planejar a segurança & conformidade no Office 365](../../compliance/plan-for-security-and-compliance.md)|
+|**Relatórios & Centro de Conformidade** e Segurança (tudo em cima) <p> Principais ideias e recomendações, além de & links para relatórios de Conformidade e Segurança, incluindo relatórios de prevenção contra perda de dados, rótulos, relatórios de segurança de email, relatórios do Defender para Office 365 e muito mais|No Centro de Conformidade & segurança, vá para o **Painel de** \> **Relatórios**|[Monitorar e exibir relatórios no centro de segurança do Microsoft 365](../mtp/monitoring-and-reporting.md)|
+|**Prevenção contra perda de dados** <p> Correspondência de políticas de prevenção contra perda de dados, falsos positivos e substituições e links para criar ou editar políticas|No Centro de Conformidade & segurança, vá para Política **de prevenção contra perda de** \> **dados**|[Exibir os relatórios de prevenção contra perda de dados](../../compliance/view-the-dlp-reports.md)|
+|**Governança de dados** <p> Informações sobre como os rótulos são aplicados, rótulos classificados como registros, tendências de rótulo e muito mais|No Centro de Conformidade & segurança, vá para **o Painel de Governança de** \> **Informações**|[Exibir os relatórios de governança de dados](../../compliance/view-the-data-governance-reports.md)|
+|**Painel de gerenciamento de** ameaças (também conhecido como painel de segurança) <p> Detecções de ameaças, tendências de malware, principais usuários direcionados, detalhes sobre mensagens de email enviadas e recebidas e muito mais|No Centro de Conformidade & Segurança, vá para o **Painel de Gerenciamento de** \> **Ameaças**|[Exibir relatórios do Defender para Office 365](view-reports-for-atp.md)|
+|**Explorador de** ameaças (também conhecido como Explorer) ou **detecções em tempo real** <p> Malware suspeito detectado em emails e arquivos no Microsoft 365|No Centro de Conformidade & segurança, vá para o Explorador **de gerenciamento de** ameaças ou \>  **detecções em tempo real**<br> |[Explorador de Ameaças (ou detecções em tempo real)](threat-explorer.md)|
+|**Defender para Office 365 e relatórios de segurança de email** <p> Relatórios de proteção contra ameaças e segurança de email (incluindo relatórios de malware, spam, phishing e spoofing)|No Centro de Conformidade & segurança, vá para o **Painel de** \> **Relatórios**|[Exibir relatórios do Defender para Office 365](view-reports-for-atp.md) <p> [Exibir relatórios de segurança de email no Centro de Conformidade & segurança](view-email-security-reports.md)|
+|**Fluxo de mensagens** <p> Informações sobre mensagens de email enviadas e recebidas, alertas recentes, principais remetentes e destinatários, relatórios de encaminhamento de emails e muito mais|No Centro de Conformidade & Segurança, vá para Painel **de fluxo de** emails e Painel \>  **de** \> **Relatórios**|[Insights de fluxo de emails no Centro de Conformidade e Segurança](mail-flow-insights-v2.md) <p> [Exibir relatórios de fluxo de emails no Centro de Conformidade & segurança](view-mail-flow-reports.md)|
+|**Conformidade com o GDPR** <p> Informações sobre a conformidade com o RGPD, incluindo links para titulares de dados, tendências de rótulo e & casos fechados|No Centro de Conformidade & Segurança, vá para o **painel** \> **RGPD** de privacidade de dados|[Proteção de Informações do Office 365 para o RGPD](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)|
+|**Log de auditoria** <p> Informações sobre as atividades, usuários, arquivos ou pastas do Microsoft 365 e muito mais|No Centro de Conformidade & segurança, vá para Pesquisa **& de** Auditoria \> **de Investigação**|[Pesquisar o log de auditoria no Centro de Conformidade e Segurança & segurança](../../compliance/search-the-audit-log-in-security-and-compliance.md)|
+|**Relatórios de conformidade** <p> Relatórios FedRAMP, governança, relatórios de risco e conformidade, relatórios de gerenciamento de segurança da Informação ISO e relatórios Service Organization Controls de auditoria e análise.|No Centro de Conformidade & segurança, vá para relatórios de Conformidade **da** Garantia \> **do Serviço**|[Planejar a conformidade & segurança no Office 365](../../compliance/plan-for-security-and-compliance.md)|
 |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Monitorar e exibir relatórios no centro de segurança do Microsoft 365](../mtp/monitoring-and-reporting.md)
 
-[Proteção contra ameaças no Office 365](protect-against-threats.md)
+[Proteger contra ameaças no Office 365](protect-against-threats.md)

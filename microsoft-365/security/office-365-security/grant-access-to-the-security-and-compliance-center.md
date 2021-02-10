@@ -10,54 +10,59 @@ audience: Admin
 ms.topic: how-to
 f1_keywords:
 - ms.o365.cc.PermissionsHelp
-ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: Os usuários precisam receber permissões no centro de conformidade & segurança da Microsoft 365 antes de poderem gerenciar qualquer um dos seus recursos de segurança ou conformidade.
+description: Os usuários precisam ter permissões no Centro de Conformidade e Segurança do Microsoft 36 & 5 para poder gerenciar qualquer um dos seus recursos de segurança ou conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1bf8da85a0e090a9d74934ea5084f547d6a8794f
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 9e19825ce0f8224b2aee8e1419ef5d1ad425aadb
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616603"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165410"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Conceder aos usuários acesso ao Centro de Conformidade e Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-Os usuários precisam receber permissões no centro de conformidade e segurança & antes de poderem gerenciar qualquer um dos seus recursos de segurança ou conformidade. Como um administrador global ou membro do grupo de função gerenciamento no centro de conformidade & segurança, você pode conceder essas permissões aos usuários. Os usuários só podem gerenciar os recursos de segurança ou de conformidade para os quais você conceder acesso.
+Os usuários precisam ter permissões no Centro de Conformidade e Segurança & para poder gerenciar qualquer um de seus recursos de segurança ou conformidade. Como administrador global ou membro do grupo de função OrganizationManage & ment no Centro de Conformidade e Segurança, você pode dar essas permissões aos usuários. Os usuários só podem gerenciar os recursos de segurança ou de conformidade para os quais você conceder acesso.
 
-Para obter mais informações sobre as diferentes permissões que você pode dar aos usuários no centro de conformidade & segurança, confira [permissões no centro de conformidade de & de segurança](permissions-in-the-security-and-compliance-center.md).
+Para obter mais informações sobre as diferentes permissões que você pode dar aos usuários no Centro de Conformidade e Segurança &, confira Permissões no Centro de Conformidade e & [Segurança.](permissions-in-the-security-and-compliance-center.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você precisa ser um administrador global ou um membro do grupo de função gerenciamento no centro de conformidade & segurança, para concluir as etapas neste artigo.
+- Você precisa ser um administrador global ou um membro do grupo de função OrganizationManage & ment no Centro de Conformidade e Segurança, para concluir as etapas deste artigo.
 
-- Grupos de função para o centro de conformidade & segurança podem ter nomes semelhantes aos grupos de função no Exchange Online, mas eles não são os mesmos.
+- Grupos de função para o Centro de Conformidade e Segurança & podem ter nomes semelhantes aos grupos de função no Exchange Online, mas eles não são os mesmos.
 
-- As associações do grupo de funções não são compartilhadas entre o Exchange Online e o centro de conformidade & segurança.
+- As associações do grupo de funções não são compartilhadas entre o Exchange Online e o Centro de Conformidade & segurança.
 
-- Permissão de acesso delegado (DAP) parceiros com permissões de administração em nome de (AOBO) não podem acessar o centro de conformidade & segurança.
+- Parceiros com permissões de acesso delegado (DAP) com permissões Administrar em nome de (AOBO) não podem acessar o Centro de Conformidade e Segurança & Segurança.
 
-## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o centro de conformidade de & de segurança para conceder acesso de outro usuário ao centro de conformidade & segurança
+## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o Centro de Conformidade & segurança para dar a outro usuário acesso ao Centro de Conformidade & segurança
 
-1. Abra o centro de conformidade & segurança em <https://protection.office.com> e vá até **permissões**. Para ir diretamente para a guia **permissões** , abra <https://protection.office.com/permissions> .
+1. Abra o Centro de Conformidade & segurança <https://protection.office.com> e vá para **Permissões.** Para ir diretamente para a **guia Permissões,** abra <https://protection.office.com/permissions> .
 
-2. Na lista de grupos de função, escolha o grupo de função e, em seguida, clique em **Editar** ![ ícone de edição ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
+2. Na lista de grupos de função, escolha o grupo de função e clique em **Editar** ![ ícone ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
 
-3. Na página de propriedades do grupo de funções, em **Membros**, clique em **Adicionar** ![ ícone ](../../media/ITPro-EAC-AddIcon.gif) de adição e selecione o nome do usuário (ou usuários) que você deseja adicionar.
+3. Na página de propriedades do grupo de funções em **Membros,** clique em Adicionar Ícone e selecione o nome do usuário ![ ](../../media/ITPro-EAC-AddIcon.gif) (ou usuários) que você deseja adicionar.
 
-4. Depois de selecionar todos os usuários que você deseja adicionar ao grupo de funções, clique em **Adicionar \>** e em **OK**.
+4. Quando você selecionar todos os usuários que deseja adicionar ao grupo de funções, clique em **adicionar \> e,** em seguida, **OK.**
 
 5. Quando concluir, clique em **Salvar**.
 
-## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o PowerShell do centro de conformidade & a segurança para conceder acesso a outro usuário ao centro de conformidade & segurança
+## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Use o & PowerShell do Centro de Conformidade e Segurança para dar a outro usuário acesso ao Centro de Conformidade e Segurança & Segurança
 
 1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
@@ -75,18 +80,18 @@ Para obter mais informações sobre as diferentes permissões que você pode dar
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-Para problemas detalhados de sintaxe e parâmetro, consulte [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)
+Para problemas detalhados de sintaxes e de parâmetros, consulte [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
-Para verificar se você obteve com êxito o acesso ao centro de conformidade de & de segurança, faça uma das seguintes etapas:
+Para verificar se você concedeu com êxito o acesso ao Centro de Conformidade & segurança, faça uma das seguintes etapas:
 
-- No centro de conformidade & segurança, acesse **permissões** e selecione o grupo de função. No submenu de detalhes que é aberto, verifique os membros do grupo de função.
+- No Centro de Conformidade & segurança, vá para **Permissões** e selecione o grupo de funções. No flyout de detalhes que é aberto, verifique os membros do grupo de função.
 
-- Em segurança & o PowerShell do centro de conformidade, substitua \<RoleGroupName\> o nome do grupo de função e execute o seguinte comando:
+- No PowerShell & Centro de Conformidade e Segurança, substitua pelo nome do grupo de função \<RoleGroupName\> e execute o seguinte comando:
 
   ```powershell
   Get-RoleGroupMember -Identity "<RoleGroupName>"
   ```
 
-  Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).
+  Para informações detalhadas de sintaxes e de parâmetros, [consulte Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).
