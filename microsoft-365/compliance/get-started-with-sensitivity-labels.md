@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: b2a16da1d4a7b9b35d519d544eba951765122596
-ms.sourcegitcommit: 8d28bce1a3445878b066864e766cf52cb83becd1
+ms.openlocfilehash: 04ac373250f13ece1a4e976891044a6584989f6d
+ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071296"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50142034"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -98,7 +98,9 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Documentação do usuário final para rótulos de confidencialidade
 
-A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes de etiqueta e configurações que você escolher. Confira a postagem de blog a seguir para um pacote de download que você pode usar para treinar os usuários e impulsionar a adoção: [Treinamento do Usuário Final para Rótulos de Retenção no M365 – Como Acelerar a Sua Adoção](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-sensitivity-labels-in-m365-how-to/ba-p/1750880). 
+A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes de etiqueta e configurações que você escolher. Para rotulagem interna, você pode usar a configuração de política de rótulo **Fornecer aos usuários um link para uma página de ajuda personalizada** para especificar um link interno desta documentação. Os usuários podem acessá-lo facilmente selecionando **Saiba mais** no botão **Confidencialidade** na faixa de opções do Office para Word, PowerPoint, Excel e Outlook.
+
+Para ajudá-lo a escrever sua documentação personalizada, confira a seguinte postagem no blog para obter um pacote de download que você pode usar para treinar usuários e impulsionar a adoção: [Treinamento de usuário final para rótulos de confidencialidade no M365 - Como acelerar a adoção](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-sensitivity-labels-in-m365-how-to/ba-p/1750880). 
 
 Você também pode usar os seguintes recursos para obter instruções básicas:
 
