@@ -75,15 +75,17 @@
       "breadcrumb_path": "/microsoft-365/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "uhfHeaderId": "MSDocsHeader-M365-IT",
-      "bilingual_type": "hover over"
+      "bilingual_type": "hover over",
+      "contributors_to_exclude": [ 
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
+      ]
     },
-    "contributors_to_exclude": [
-      "rjagiewich",
-      "traya1",
-      "v-raaba",
-      "rmca14",
-      "claydetels19"
-    ],
     "fileMetadata": {
       "titleSuffix": {
         "compliance/**/*.md": "Microsoft 365 Compliance",
