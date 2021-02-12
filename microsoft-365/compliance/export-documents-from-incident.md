@@ -23,6 +23,6 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/15/2020
 ms.locfileid: "42074368"
 ---
-# <a name="export-documents-from-an-incident"></a><span data-ttu-id="8643e-102">Exportar documentos de um incidente</span><span class="sxs-lookup"><span data-stu-id="8643e-102">Export documents from an incident</span></span>
+# <a name="export-documents-from-an-incident"></a><span data-ttu-id="65fc4-102">Exportar documentos de um incidente</span><span class="sxs-lookup"><span data-stu-id="65fc4-102">Export documents from an incident</span></span>
 
-<span data-ttu-id="8643e-103">Conteúdo em breve.</span><span class="sxs-lookup"><span data-stu-id="8643e-103">Content coming soon.</span></span>
+<span data-ttu-id="65fc4-103">Conteúdo em breve.</span><span class="sxs-lookup"><span data-stu-id="65fc4-103">Content coming soon.</span></span>
