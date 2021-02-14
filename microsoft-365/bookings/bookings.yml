@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft Bookings
-summary: Agendar e gerenciar compromissos com o Microsoft bookings. Inclui integração com o Outlook e notificações automatizadas.
+summary: Agende e gerencie compromissos com o Microsoft Bookings. Inclui integração com o Outlook e notificações automatizadas.
 metadata:
   title: Microsoft Bookings
-  description: Agendar e gerenciar compromissos com o Microsoft bookings. Inclui integração com o Outlook e notificações automatizadas.
+  description: Agende e gerencie compromissos com o Microsoft Bookings. Inclui integração com o Outlook e notificações automatizadas.
   ms.service: bookings
   ms.topic: landing-page
   author: dmaguire
@@ -18,31 +18,31 @@ metadata:
   ms.lasthandoff: 09/09/2020
   ms.locfileid: "47419239"
 landingContent:
-- title: Sobre as reservas da Microsoft
+- title: Sobre o Microsoft Bookings
   linkLists:
   - linkListType: overview
     links:
-    - text: O que é o Microsoft bookings?
+    - text: O que é o Microsoft Bookings?
       url: bookings-overview.md
   - linkListType: download
     links:
-    - text: Obter o aplicativo de reservas
+    - text: Obtenha o aplicativo Microsoft Bookings
       url: get-bookings-app.md
-- title: Configurar o Microsoft bookings
+- title: Configurar o Microsoft Bookings
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: Insira suas informações comerciais
       url: enter-business-information.md
-    - text: Definir suas políticas de agendamento
+    - text: Configurar as políticas de agendamento
       url: set-scheduling-policies.md
-    - text: Definir suas ofertas de serviços
+    - text: Definir suas ofertas de serviço
       url: define-service-offerings.md
-    - text: Definir horário de trabalho do funcionário
+    - text: Definir o horário de trabalho dos funcionários
       url: employee-hours.md
-    - text: Personalizar e publicar sua página de reservas
+    - text: Personalizar e publicar a página de reserva
       url: customize-booking-page.md
-    - text: Criar e equipar suas reservas
+    - text: Criar e criar equipe para suas reservas
       url: create-a-manual-booking.md
 - title: Convidar pessoas para agendar compromissos
   linkLists:
