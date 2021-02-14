@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o acesso de aplicativos de email no centro de administração do Microsoft 365
+title: Gerenciar o acesso ao aplicativo de email no Centro de administração do Microsoft 365
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -28,38 +28,38 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/27/2020
 ms.locfileid: "44400047"
 ---
-# <a name="manage-email-app-access-in-the-microsoft-365-admin-center"></a>Gerenciar o acesso de aplicativos de email no centro de administração do Microsoft 365
+# <a name="manage-email-app-access-in-the-microsoft-365-admin-center"></a>Gerenciar o acesso ao aplicativo de email no centro de administração do Microsoft 365
 
-Use as configurações de acesso de email móvel para escolher quais aplicativos móveis os usuários da sua organização podem usar para acessar sua conta corporativa ou de estudante para acessar email, calendário e contatos.
+Use as configurações de acesso a email móvel para escolher quais aplicativos móveis as pessoas em sua organização podem usar para acessar sua conta comercial ou de estudante para acessar email, calendário e contatos.
   
 > [!IMPORTANT]
-> Sua organização terá acesso a essa configuração, a menos que você esteja usando o Microsoft Intune ou tenha configurado as configurações de gerenciamento de dispositivos móveis no centro de administração do Exchange. 
+> Sua organização terá acesso a essa configuração, a menos que você esteja usando o Microsoft Intune ou tenha configurado as configurações de gerenciamento de dispositivo móvel no Centro de administração do Exchange. 
   
 ## <a name="manage-email-app-options"></a>Gerenciar opções de aplicativo de email
 
 > [!IMPORTANT]
->  Se você não usar esse recurso, não haverá alterações na experiência dos seus usuários. Eles poderão usar qualquer aplicativo de email móvel para acessar sua conta corporativa ou de estudante para email, calendário e contatos do seu dispositivo móvel. 
+>  Se você não usar esse recurso, não haverá alterações na experiência dos usuários. Eles poderão usar qualquer aplicativo de email móvel para acessar suas contas de trabalho ou de estudante para email, calendário e contatos de seus dispositivos móveis. 
     
 1. No centro de administração, vá para a página **Configurações** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Serviços&amp; suplementos</a>. 
 
-2. Na página **Opções de acesso a email móvel** , marque a caixa de seleção e, em seguida, escolha como os usuários em sua organização usam aplicativos de email em seus dispositivos:
+2. Na página **Opções de acesso ao email** móvel, marque a caixa de seleção e escolha como os usuários em sua organização usam aplicativos de email em seus dispositivos:
   
-Escolha a opção para definir como os usuários em sua organização acessam sua conta corporativa ou de estudante de seus dispositivos móveis
+Escolha a opção para definir como os usuários em sua organização acessam suas contas de trabalho ou de estudante em seus dispositivos móveis
   
-- **Somente Outlook** -os usuários de sua organização serão solicitados a usar o aplicativo Outlook para Android ou Outlook para Ios em seu dispositivo móvel. 
+- **Somente Outlook** - os usuários em sua organização precisarão usar o Outlook para Android ou o aplicativo Outlook para iOS em seus dispositivos móveis. 
     
-- **Qualquer aplicativo de email** – todos os usuários em sua organização serão solicitados a usar o Outlook, mas poderão optar por usar qualquer aplicativo de email. 
+- **Qualquer aplicativo de** email - todos os usuários em sua organização serão solicitados a usar o Outlook, mas eles podem optar por usar qualquer aplicativo de email. 
     
-- **Qualquer aplicativo de email** – novos usuários ou dispositivos em sua organização serão solicitados uma vez para usar o Outlook, mas poderão optar por usar qualquer aplicativo de email. 
+- **Qualquer aplicativo de email** - novos usuários ou dispositivos em sua organização serão solicitados uma vez a usar o Outlook, mas eles podem optar por usar qualquer aplicativo de email. 
     
-Para obter mais detalhes, confira [opções para acessar emails do seu dispositivo móvel](access-email-from-a-mobile-device.md).
+Para obter mais detalhes, confira Opções [para acessar emails do seu dispositivo móvel.](access-email-from-a-mobile-device.md)
   
-## <a name="new-user-or-device-is-activated-in-your-organization"></a>Novo usuário ou dispositivo ativado em sua organização
+## <a name="new-user-or-device-is-activated-in-your-organization"></a>Novo usuário ou dispositivo é ativado em sua organização
 
-Assim que um usuário da sua organização adicionar seu email de trabalho ou escola a um aplicativo de email de terceiros ou a um novo dispositivo, ele receberá um email da **Microsoft em nome de sua organização**. O email o avisará sobre os benefícios de usar o aplicativo móvel do Outlook e fornecer um link para o local de download. Os usuários podem escolher se deseja continuar usando o aplicativo de terceiros ou optar por usar o aplicativo móvel do Outlook. Durante as 24 horas após o usuário receber esse email pela primeira vez, o dispositivo estará em quarentena, e os dados de email, calendário e contato não serão atualizados. Se eles optarem por usar o aplicativo móvel do Outlook, o aplicativo de terceiros permanecerá em quarentena e os dados só serão sincronizados com o aplicativo móvel do Outlook. Se decidirem continuar usando o aplicativo de terceiros, os dados serão iniciados para sincronizar instantaneamente. Se nenhuma ação for tomada durante as primeiras 24 horas, o email será removido da caixa de entrada e os dados começarão a ser sincronizados do servidor automaticamente.
+Assim que um usuário em sua organização adiciona seu email de trabalho ou escola a um aplicativo de email de terceiros ou a um novo dispositivo, ele receberá um email da Microsoft em nome de **sua organização.** O email permitirá que eles saibam sobre os benefícios de usar o aplicativo móvel do Outlook e fornecerão um link para o local de download. Os usuários podem optar por continuar usando o aplicativo de terceiros ou optar por usar o aplicativo móvel do Outlook. Durante as 24 horas após o usuário receber esse email pela primeira vez, o dispositivo ficará em quarentena e os dados de email, calendário e contato não serão atualizados. Se eles optarem por usar o aplicativo móvel do Outlook, o aplicativo de terceiros permanecerá em quarentena e os dados serão sincronizados apenas com o aplicativo móvel do Outlook. Se eles decidirem continuar usando o aplicativo de terceiros, os dados começarão a ser sincronizados instantaneamente. Se nenhuma ação for tomada durante essas primeiras 24 horas, o email será removido da caixa de entrada e os dados começarão a ser sincronizados do servidor automaticamente.
   
 ## <a name="previously-configured-users-in-your-organization"></a>Usuários configurados anteriormente em sua organização
 
-Se você optar por recomendar o Outlook para todos em sua organização, além da experiência descrita acima para novos usuários, os usuários que conectaram previamente sua conta de email do trabalho ou da escola a um aplicativo de terceiros receberão um email da **Microsoft em nome da sua organização** em até 48 horas após a habilitação da configuração. O email o avisará sobre os benefícios de usar o aplicativo móvel do Outlook e fornecer um link para o local de download. Os usuários podem escolher se deseja continuar usando o aplicativo de terceiros ou optar por usar o aplicativo móvel do Outlook. Durante as 24 horas após o usuário receber esse email pela primeira vez, o dispositivo estará em quarentena, e os dados de email, calendário e contato não serão atualizados. Se eles optarem por usar o aplicativo móvel do Outlook, o aplicativo de terceiros permanecerá em quarentena e os dados só serão sincronizados com o aplicativo móvel do Outlook. Se decidirem continuar usando o aplicativo de terceiros, os dados serão iniciados para sincronizar instantaneamente. Se nenhuma ação for tomada durante as primeiras 24 horas, o email será removido da caixa de entrada e os dados começarão a ser sincronizados do servidor automaticamente. 
+Se você decidir recomendar o Outlook para todos em sua organização, além da experiência descrita acima para novos usuários, os usuários que já conectaram sua conta de email comercial ou de estudante a um aplicativo de terceiros receberão um email da **Microsoft** em nome de sua organização dentro de 48 horas após essa configuração ser habilitada. O email permitirá que eles saibam sobre os benefícios de usar o aplicativo móvel do Outlook e fornecerão um link para o local de download. Os usuários podem optar por continuar usando o aplicativo de terceiros ou optar por usar o aplicativo móvel do Outlook. Durante as 24 horas após o usuário receber esse email pela primeira vez, o dispositivo ficará em quarentena e os dados de email, calendário e contato não serão atualizados. Se eles optarem por usar o aplicativo móvel do Outlook, o aplicativo de terceiros permanecerá em quarentena e os dados serão sincronizados apenas com o aplicativo móvel do Outlook. Se eles decidirem continuar usando o aplicativo de terceiros, os dados começarão a ser sincronizados instantaneamente. Se nenhuma ação for tomada durante essas primeiras 24 horas, o email será removido da caixa de entrada e os dados começarão a ser sincronizados do servidor automaticamente. 
   
 

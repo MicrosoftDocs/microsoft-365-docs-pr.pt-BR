@@ -1,5 +1,5 @@
 ---
-title: Configurar resíduos para sua organização
+title: Configurar o Clutter para sua organização
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
-description: 'Saiba como habilitar ou desabilitar o recurso de desordem para todos ou usuários específicos em sua organização, usando o Exchange PowerShell. '
+description: 'Saiba como habilitar ou desabilitar o recurso Desorganização para todos ou usuários específicos em sua organização usando o Exchange PowerShell. '
 ms.openlocfilehash: 67267b0865dfcfd6c0ba66d59ce1d0d111d59325
 ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
@@ -27,82 +27,82 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 06/17/2020
 ms.locfileid: "44780272"
 ---
-# <a name="configure-clutter-for-your-organization"></a>Configurar resíduos para sua organização
+# <a name="configure-clutter-for-your-organization"></a>Configurar o Clutter para sua organização
 
 > [!TIP]
-> A [caixa de entrada destaques](../setup/configure-focused-inbox.md) vai substituir resíduos. Saiba mais: [Atualizar na caixa de entrada destaques e nos nossos planos de email secundário](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
+> [A Caixa de Entrada](../setup/configure-focused-inbox.md) Focada substituirá o Clutter. Saiba mais: [atualização na Caixa de Entrada Focada e nossos planos para o Clutter](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
   
-Como administrador, você pode ter que gerenciar o recurso de desordem no Microsoft 365. Para ativar/desativar o recurso de aglomeração para usuários em sua organização, você deve usar o Exchange PowerShell. (As pessoas podem ativá-la/desligar usando estas instruções: [desative/desobstruída no Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c).
+Como administrador, você pode ter que gerenciar o recurso Desorganização no Microsoft 365. Para ativar/desativar o recurso Desorganização para usuários em sua organização, você deve usar o Exchange PowerShell. (Os indivíduos podem a ativar/desativar usando estas instruções: [Desativar/ativar o Clutter no Outlook.](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
   
-Confira [usando o PowerShell com o Exchange Online](https://go.microsoft.com/fwlink/?LinkID=402831) e [Conecte-se ao PowerShell do Exchange Online](https://go.microsoft.com/fwlink/?LinkID=722415) para obter detalhes sobre como usar o Exchange PowerShell. Você precisa ter uma conta que tenha pelo menos a função Administrador de serviços do Exchange e a capacidade de se conectar ao Exchange Online com o PowerShell. 
+Confira o [uso do PowerShell com o Exchange Online](https://go.microsoft.com/fwlink/?LinkID=402831) e [conecte-se ao PowerShell](https://go.microsoft.com/fwlink/?LinkID=722415) do Exchange Online para obter detalhes sobre como usar o Exchange PowerShell. Você precisa ter uma conta que tenha pelo menos a função de administrador do Serviço do Exchange e a capacidade de se conectar ao Exchange Online com o PowerShell. 
   
-## <a name="turn-clutter-on-using-exchange-powershell"></a>Tornar o email secundário usando o Exchange PowerShell
+## <a name="turn-clutter-on-using-exchange-powershell"></a>Ativar o Clutter usando o Exchange PowerShell
 
-Você pode habilitar resíduos manualmente para uma caixa de correio executando o cmdlet [set-desordem](https://go.microsoft.com/fwlink/?LinkID=834446) . Você também pode exibir configurações de resíduos para caixas de correio em sua organização executando o cmdlet de [obtenção-desordem](https://go.microsoft.com/fwlink/?LinkID=834759) . 
+Você pode habilitar o Email Desorganizou manualmente para uma caixa de correio executando o cmdlet [Set-Clutter.](https://go.microsoft.com/fwlink/?LinkID=834446) Você também pode exibir as configurações de Email de Email de sua organização executando o cmdlet [Get-Clutter.](https://go.microsoft.com/fwlink/?LinkID=834759) 
   
-Ative o email secundário para um único usuário chamado Leonor Marques
+Ativar o Clutter para um único usuário chamado Allie Bellew
     
 `Set-Clutter -Identity "Allie Bellew" -Enable $true`
 
 
-## <a name="turn-clutter-off-using-exchange-powershell"></a>Desligar resíduos usando o Exchange PowerShell
+## <a name="turn-clutter-off-using-exchange-powershell"></a>Desativar o Clutter usando o Exchange PowerShell
 
-Você pode desabilitar a desordem manualmente para uma caixa de correio executando o cmdlet [set-desordem](https://go.microsoft.com/fwlink/?LinkID=834446) . Você também pode exibir configurações de **resíduos** para caixas de correio em sua organização executando o cmdlet de [obtenção-desordem](https://go.microsoft.com/fwlink/?LinkID=834759) . 
+Você pode desabilitar o Email Desorganizar manualmente para uma caixa de correio executando o cmdlet [Set-Clutter.](https://go.microsoft.com/fwlink/?LinkID=834446) Você também pode exibir as **configurações** de Email de Email de sua organização executando o cmdlet [Get-Clutter.](https://go.microsoft.com/fwlink/?LinkID=834759) 
   
-Desative o email secundário para um único usuário chamado Leonor Marques:
+Desativar o Clutter para uma única usuária chamada Allie Bellew:
     
 `Set-Clutter -Identity "Allie Bellew" -Enable $false`
 
-Se você usar o PowerShell para criar seus usuários em massa, será necessário executar [set-desordem](https://go.microsoft.com/fwlink/?LinkID=834446) em relação à caixa de correio de cada usuário para gerenciar o email secundário. 
+Se você usar o PowerShell para criar seus usuários em massa, precisará executar [o Set-Clutter](https://go.microsoft.com/fwlink/?LinkID=834446) na caixa de correio de cada usuário para gerenciar o Clutter. 
   
-## <a name="when-does-the-clutter-onoff-switch-appear-to-users-in-outlook-on-the-web"></a>Quando a opção de truncar/desligar aparece para os usuários no Outlook na Web?
+## <a name="when-does-the-clutter-onoff-switch-appear-to-users-in-outlook-on-the-web"></a>Quando a opção Desorganização é exibida para os usuários no Outlook na Web?
 <a name="bkmk_onoff"> </a>
 
-Como administrador, você pode reabilitar resíduos usando o Exchange PowerShell. Depois disso, a caixa de entrada destaques será desativada e a desordem ficará ativa novamente. 
+Como administrador, você pode reabilitar o Clutter usando o Exchange PowerShell. Quando isso for feito, a Caixa de Entrada Focada será desligada e o Clutter estará ativo novamente. 
   
  **Se você estiver usando o Outlook na Web com uma assinatura do Microsoft 365 Business Premium:**
   
-- Se o usuário está com aglomeração habilitada: 
+- Se o usuário atualmente tiver o Clutter habilitado: 
     
-  - As configurações de resíduos aparecem
+  - As configurações de desorganização são exibidas
     
-- Se o usuário tem atualmente a caixa de entrada destaques habilitada: 
+- Se o usuário atualmente tiver a Caixa de Entrada Focada habilitada: 
     
-  - Configurações de resíduos não serão exibidas
+  - As configurações de desorganização não serão exibidas
     
-- Se nenhuma caixa de entrada de email secundário ou prioritário estiver habilitada: 
+- Se nem o Clutter ou a Caixa de Entrada Focada estiver habilitada: 
     
-  - A desordem e a caixa de entrada destaques aparecem como opções nas configurações de email do usuário
+  - O Email e a Caixa de Entrada Focada aparecem como opções nas Configurações de Email do usuário
     
- **Se você estiver usando o Outlook.com:**
+ **Se você estiver usando Outlook.com:**
   
-- Se o usuário está com aglomeração habilitada: 
+- Se o usuário atualmente tiver o Clutter habilitado: 
     
-  - As configurações de resíduos aparecem
+  - As configurações de desorganização são exibidas
     
-- Se o usuário tem atualmente a caixa de entrada destaques habilitada: 
+- Se o usuário atualmente tiver a Caixa de Entrada Focada habilitada: 
     
-  - Configurações de resíduos não serão exibidas
+  - As configurações de desorganização não serão exibidas
     
-- Se nenhuma caixa de entrada de email secundário ou prioritário estiver habilitada: 
+- Se nem o Clutter ou a Caixa de Entrada Focada estiver habilitada: 
     
-  - A desordem e a caixa de entrada destaques aparecem como opções nas configurações de email do usuário
+  - O Email e a Caixa de Entrada Focada aparecem como opções nas Configurações de Email do usuário
     
-- Se o usuário habilitou a caixa de entrada destaques em algum momento no passado:
+- Se o usuário tiver habilitado a Caixa de Entrada Focada em algum momento no passado:
     
-  - As configurações de resíduos nunca serão exibidas
+  - As configurações de desorganização nunca serão exibidas
     
-    Outro 
+    Caso contrário, 
     
-  - As configurações de resíduos serão exibidas
+  - As configurações de desorganização serão exibidas
     
 ## <a name="related-articles"></a>Artigos relacionados
 <a name="bkmk_onoff"> </a>
 
-[Usar email secundário para classificar mensagens de baixa prioridade no Outlook](https://support.microsoft.com/office/7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
+[Usar o Clutter para classificar mensagens de baixa prioridade no Outlook](https://support.microsoft.com/office/7b50c5db-7704-4e55-8a1b-dfc7bf1eafa0)
     
-[Usar email secundário para classificar mensagens de baixa prioridade no OWA](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce)
+[Usar o Clutter para classificar mensagens de baixa prioridade no OWA](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce)
     
-[Desligar resíduos no Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
+[Desativar o Clutter no Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
     
 

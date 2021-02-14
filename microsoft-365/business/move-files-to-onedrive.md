@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Saiba como você pode mover seus arquivos de trabalho pessoal e arquivos confidenciais da empresa para o OneDrive for Business em apenas algumas etapas simples.
+description: Saiba como você pode mover seus arquivos de trabalho pessoais e arquivos confidenciais da empresa para o OneDrive for Business em apenas algumas etapas fáceis.
 ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
 ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
@@ -33,11 +33,11 @@ ms.locfileid: "44785903"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Mover arquivos para o OneDrive for Business
 
-Assista a um pequeno vídeo sobre como mover arquivos para o OneDrive for Business.<br><br>
+Assista a um vídeo curto sobre como mover arquivos para o OneDrive for Business.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Se você achou esse vídeo útil, Confira as [ séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Mover arquivos para o OneDrive for Business
@@ -52,6 +52,6 @@ Se um usuário tiver um computador com muitos arquivos pessoais, você deve prim
     
 Para transferir o perfil do usuário e arquivos importantes, você também pode usar uma ferramenta de terceiros, como o ForensiT. Você também deve carregar os arquivos resultantes na OneDrive for Business.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Para saber mais sobre como configurar e usar o Microsoft 365 for Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Para obter mais informações sobre como configurar e usar o Microsoft 365 para empresas
 
 [Vídeos de treinamento do Microsoft 365 Business ](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

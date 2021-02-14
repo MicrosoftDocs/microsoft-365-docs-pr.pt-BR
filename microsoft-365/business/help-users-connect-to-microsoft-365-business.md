@@ -27,7 +27,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
-description: Saiba o que esperar após a conclusão da instalação do Business Cloud Suite e se as políticas de dispositivo padrão estão vigentes e prontas para serem aplicadas.
+description: Saiba o que esperar após a conclusão da configuração do Business Cloud Suite e suas políticas de dispositivo padrão estão prontas para ser aplicadas.
 ms.openlocfilehash: d3aad182f7e233f239b35e35c032e8ca09c57769
 ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "44400913"
 ---
 # <a name="help-users-connect-to-microsoft-365-business-premium"></a>Ajudar os usuários a se conectarem ao Microsoft 365 Business Premium
 
-Depois de concluir a instalação, suas políticas de dispositivo padrão estão vigentes e prontas para serem aplicadas. Em dispositivos móveis, os usuários baixam aplicativos do Office. As políticas são aplicadas quando o usuário faz logon com sua conta corporativa ou de estudante. Há um pouco mais de trabalho a fazer antes que as políticas se apliquem a PCs Windows, como uma atualização in-loco. Confira e compartilhe os seguintes tópicos para ajudar os usuários a se configurar e conectarem:
+Depois de concluir a instalação, as políticas de dispositivo padrão estão prontas para ser aplicadas. Em dispositivos móveis, os usuários baixam aplicativos do Office. As políticas serão aplicadas quando o usuário entrar com sua conta de trabalho ou de estudante. Há um pouco mais de trabalho a fazer antes que as políticas se apliquem a computadores Windows, como uma atualização in-loca. Consulte e compartilhe os tópicos a seguir para ajudar os usuários a se configurarem e se conectarem:
   
 [Configurar dispositivos Windows para usuários do Microsoft 365 Business Premium](set-up-windows-devices.md)
   

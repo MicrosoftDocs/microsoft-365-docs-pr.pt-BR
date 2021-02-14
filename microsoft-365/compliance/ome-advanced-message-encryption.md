@@ -1,5 +1,5 @@
 ---
-title: Criptografia de mensagem avançada
+title: Criptografia avançada de mensagens
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -15,7 +15,7 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: A criptografia avançada de mensagens ajuda as organizações a cumprir suas obrigações de conformidade, permitindo que os administradores façam muito mais com mensagens protegidas.
+description: A Criptografia Avançada de Mensagens ajuda as organizações a cumprir suas obrigações de conformidade, permitindo que os administradores façam ainda mais com mensagens protegidas.
 ms.openlocfilehash: 0e28bd283b6a7d1666d5db9b71040d2f377adffe
 ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
@@ -23,26 +23,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 04/21/2020
 ms.locfileid: "43626889"
 ---
-# <a name="advanced-message-encryption"></a>Criptografia de mensagem avançada
+# <a name="advanced-message-encryption"></a>Criptografia avançada de mensagens
 
-O Office 365 Advanced Message Encryption está incluído no [microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 e5, Microsoft 365 E5 (precificação de pessoas sem fins lucrativos), Office 365 Enterprise E5 (precificação de pessoas sem fins lucrativos) e Office 365 Education a5. Se sua organização tem uma assinatura que não inclui a criptografia de mensagem avançada do Office 365, você pode comprá-la com o complemento de SKU de conformidade da Microsoft 365 E5 para o Microsoft 365 E3, Microsoft 365 E3 (precificação de pessoas sem fins lucrativos) ou o complemento de SKU de conformidade avançada do Office 365 para o Microsoft 365 E3, a Microsoft 365 E3 (precificação de pessoas sem fins lucrativos), o Office 365 SKUs ou o complemento de proteção de informações do Microsoft 365 E5/a5 para a Microsoft 365 a3/E3.
+A Criptografia Avançada de Mensagens do Office 365 está incluída no [Microsoft 365 Enterprise E5,](https://www.microsoft.com/microsoft-365/enterprise/home)office 365 E5, Microsoft 365 E5 (preços de funcionários sem fins lucrativos), Office 365 Enterprise E5 (preços de funcionários sem fins lucrativos) e Office 365 Education A5. Se sua organização tiver uma assinatura que não inclua a Criptografia de Mensagens Avançada do Office 365, você poderá compre-la com o complemento SKU de Conformidade do Microsoft 365 E5 para o Microsoft 365 E3, Microsoft 365 E3 (preços para funcionários sem fins lucrativos) ou o complemento SKU de Conformidade Avançada do Office 365 para Microsoft 365 E3, Microsoft 365 E3 (preços de funcionários sem fins lucrativos), SKUs do Office 365 ou o complemento SKU de Governança e Proteção de Informações do Microsoft 365 E5/A5 para Microsoft 365 A3/E3.
 
-A criptografia avançada de mensagens ajuda os clientes a cumprir as obrigações de conformidade que exigem controles mais flexíveis sobre destinatários externos e seu acesso a emails criptografados. Com a criptografia de mensagem avançada no Office 365, você pode controlar emails confidenciais compartilhados fora da organização com políticas automáticas. Você configura essas políticas para identificar tipos de informações confidenciais, como PII, finanças ou IDs de integridade, ou pode usar palavras-chave para melhorar a proteção. Depois de configurar as políticas, você emparelhará políticas com os modelos de email com identidade visual personalizada e, em seguida, adicionará uma data de expiração para o controle adicional de emails que se encaixam na política. Além disso, os administradores podem controlar ainda mais os emails criptografados acessados externamente por meio de um portal da Web seguro revogando o acesso ao email a qualquer momento.
+A Criptografia Avançada de Mensagens ajuda os clientes a cumprir obrigações de conformidade que exigem controles mais flexíveis sobre destinatários externos e seu acesso a emails criptografados. Com a Criptografia Avançada de Mensagens no Office 365, você pode controlar emails confidenciais compartilhados fora da organização com políticas automáticas. Você configura essas políticas para identificar tipos de informações confidenciais, como IDs de PII, Financeiro ou De Saúde, ou pode usar palavras-chave para aprimorar a proteção. Depois de configurar as políticas, você emparelha as políticas com modelos de email com identidade visual personalizada e, em seguida, adiciona uma data de expiração para um controle extra de emails que se encaixam na política. Além disso, os administradores podem controlar ainda mais os emails criptografados acessados externamente por meio de um portal da Web seguro revogando o acesso ao email a qualquer momento.
 
-Você só pode revogar e definir uma data de vencimento para emails enviados para destinatários externos.
+Você só pode revogar e definir uma data de expiração para emails enviados a destinatários externos.
 
-## <a name="get-started-with-office-365-advanced-message-encryption"></a>Introdução à criptografia de mensagem avançada do Office 365
+## <a name="get-started-with-office-365-advanced-message-encryption"></a>Começar a trabalhar com a Criptografia de Mensagens Avançada do Office 365
 
-Os artigos a seguir descrevem como configurar e usar a criptografia de mensagem avançada.
+Os artigos a seguir descrevem como configurar e usar a Criptografia Avançada de Mensagens.
 
-Sua organização deve ter uma assinatura que inclua a criptografia de mensagem avançada do Office 365. Para obter informações detalhadas sobre assinaturas suportadas, consulte a [Descrição de política de mensagens e serviço de conformidade](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance).
+Sua organização deve ter uma assinatura que inclua a Criptografia de Mensagem Avançada do Office 365. Para obter informações detalhadas sobre assinaturas com suporte, consulte a descrição do serviço de conformidade [e política de mensagens.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance)
 
-Se você não tiver a configuração de criptografia de mensagem do Office 365 já configurada, confira [configurar novos recursos de criptografia de mensagens do office 365](set-up-new-message-encryption-capabilities.md).
+Se você ainda não tiver a Criptografia de Mensagem do Office 365 configurada, confira Configurar novos recursos de Criptografia de Mensagens do [Office 365.](set-up-new-message-encryption-capabilities.md)
 
-Com a criptografia de mensagem avançada, você não está limitado a um único modelo de identidade visual. Em vez disso, você pode criar e usar vários modelos de identidade visual. Para saber mais, confira [Adicionar a marca da sua organização às mensagens criptografadas](add-your-organization-brand-to-encrypted-messages.md).
+Com a Criptografia Avançada de Mensagens, você não está limitado a um único modelo de identidade visual. Em vez disso, você pode criar e usar vários modelos de identidade visual. Para obter informações, [consulte Adicionar a marca da sua organização às suas mensagens criptografadas.](add-your-organization-brand-to-encrypted-messages.md)
 
-[Definir uma data de expiração para email criptografado pela criptografia de mensagem avançada do Office 365](ome-advanced-expiration.md). Controlar emails confidenciais compartilhados fora da organização com políticas automáticas que aprimoram a proteção, expirando o acesso por meio de um portal da Web seguro para emails criptografados.
+Definir uma data de expiração para email criptografado pela Criptografia de Mensagem Avançada do [Office 365.](ome-advanced-expiration.md) Controlar emails confidenciais compartilhados fora da organização com políticas automáticas que melhoram a proteção, expirando o acesso por meio de um portal da Web seguro para emails criptografados.
 
-[Revogar emails criptografados pela criptografia de mensagem avançada do Office 365](revoke-ome-encrypted-mail.md). Controle emails confidenciais compartilhados fora da organização e aprimore a proteção revogando o acesso por meio de um portal da Web seguro para emails criptografados.  
+Revogar email criptografado pela Criptografia de Mensagem Avançada [do Office 365.](revoke-ome-encrypted-mail.md) Controle emails confidenciais compartilhados fora da organização e aprimora a proteção revogando o acesso por meio de um portal da Web seguro para emails criptografados.  
 
-Com a criptografia de mensagem avançada do Office 365, sempre que você aplicar um modelo de identidade visual personalizado, a Microsoft aplica um invólucro ao email que se ajusta à regra de fluxo de emails para a qual você aplica o modelo. Você só pode revogar mensagens e aplicar datas de expiração a mensagens que os usuários recebem pelo portal. Em outras palavras, email com um modelo de identidade visual personalizado aplicado. Para obter mais informações e um exemplo, consulte o guia em [garantir que todos os destinatários externos usem o portal do ome para ler emails criptografados](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail).
+Com a Criptografia avançada de mensagens do Office 365, sempre que você aplica um modelo de identidade visual personalizado, a Microsoft aplica um wrapper ao email que se ajuste à regra de fluxo de emails à qual você aplica o modelo. Você só pode revogar mensagens e aplicar datas de expiração a mensagens que os usuários recebem por meio do portal. Em outras palavras, o email que tem um modelo de identidade visual personalizado aplicado. Para obter mais informações e um exemplo, consulte as diretrizes em Garantir que todos os [destinatários externos usem](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail)o Portal OME para ler emails criptografados.

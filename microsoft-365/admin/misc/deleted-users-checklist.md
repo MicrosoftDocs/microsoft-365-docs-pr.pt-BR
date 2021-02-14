@@ -1,5 +1,5 @@
 ---
-title: Lista de verificação de usuários excluídos da ajuda rápida
+title: Ajuda rápida Lista de verificação Usuários excluídos
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -28,30 +28,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/27/2020
 ms.locfileid: "44399369"
 ---
-# <a name="quick-help-deleted-users-checklist"></a>Ajuda rápida: lista de verificação de usuários excluídos
+# <a name="quick-help-deleted-users-checklist"></a>Ajuda rápida: Lista de verificação de usuários excluídos
 
-Portanto, você optou por excluir um usuário da sua organização. Por exemplo, você pode excluir um usuário uma vez que a pessoa saia da sua organização. Há algumas coisas que você deve fazer antes e depois de excluir o usuário. Esta lista de verificação rápida ajuda as etapas.
+Portanto, você decidiu excluir um usuário da sua organização. Por exemplo, você pode excluir um usuário depois que essa pessoa sair da sua organização. Há algumas coisas que você deve fazer antes e depois de excluir esse usuário. Esta lista de verificação rápida ajuda você com as etapas.
   
 ## <a name="remove-the-microsoft-365-license-from-the-user"></a>Remover a licença do Microsoft 365 do usuário
 
-Você pode remover uma licença de um usuário pesquisando o usuário na página inicial ou a partir da página **usuários ativos** e, em seguida, selecionando-a. Na guia **licenças e aplicativos** , desmarque a caixa de seleção da licença que você deseja remover do usuário. [Leia o artigo completo](../manage/remove-licenses-from-users.md).
+Você pode remover uma licença de um usuário pesquisando pelo usuário  na home page ou na página Usuários ativos e selecionando-o. Na guia **Licenças e Aplicativos,** des limpe a caixa de seleção da licença que você deseja remover do usuário. [Leia o artigo completo](../manage/remove-licenses-from-users.md).
   
-## <a name="block-sign-in"></a>Entrar em bloco
+## <a name="block-sign-in"></a>Bloquear login
 
-Você pode bloquear o usuário para que ele não possa entrar em sua organização. Você pode pesquisar o usuário na home page ou na página **usuários ativos** e, em seguida, selecioná-lo. Na parte superior do painel, sob o nome do usuário, selecione o ícone **bloquear este** usuário e marque a caixa de seleção **bloquear este usuário na entrada** . [Leia o artigo completo](../add-users/assign-admin-roles.md).
+Você pode bloquear o usuário para que ele não possa entrar em sua organização. Você pode pesquisar o usuário na home page ou na página **Usuários** ativos e, em seguida, selecioná-lo. Na parte superior do painel, sob o nome  do usuário, selecione o ícone Bloquear este usuário e marque a caixa de seleção Bloquear este usuário ao **entrar.** [Leia o artigo completo](../add-users/assign-admin-roles.md).
   
 ## <a name="get-their-data"></a>Obter seus dados
 
-Você pode enviar emails do usuário para outro funcionário ou usuário em sua organização seguindo estas [etapas](../add-users/remove-former-employee.md). Você também pode fazer backup e salvar todos os dados do funcionário anterior seguindo estas [etapas](../add-users/get-access-to-and-back-up-a-former-user-s-data.md).
+Você pode enviar o email desse usuário para outro funcionário ou usuário em sua organização seguindo estas [etapas.](../add-users/remove-former-employee.md) Você também pode fazer o back up e salvar todos os dados do ex-funcionário seguindo estas [etapas.](../add-users/get-access-to-and-back-up-a-former-user-s-data.md)
   
 ## <a name="delete-user"></a>Excluir usuário
 
-Você pode excluir o usuário procurando o usuário na home page ou na página **usuários excluídos** . Selecione o usuário e escolha **excluir usuário**. [Leia o artigo completo](../add-users/delete-a-user.md).
+Você pode excluir o usuário pesquisando pelo usuário na home page ou na **página Usuários Excluídos.** Selecione o usuário e selecione **Excluir usuário**. [Leia o artigo completo](../add-users/delete-a-user.md).
   
 ## <a name="what-to-do-with-the-unassigned-license"></a>O que fazer com a licença não atribuída
 
-Se você tiver um novo funcionário ou uma pessoa que esteja ingressando em sua organização, é possível atribuir essa licença para que eles possam usar o Microsoft 365. Você pode pesquisar o usuário na home page ou na página **usuários ativos** e, em seguida, selecioná-lo. Na guia **licenças e aplicativos** , marque a caixa de seleção da licença que você deseja adicionar ao novo usuário. [Leia o artigo completo](../manage/assign-licenses-to-users.md).
+Se você tiver um novo funcionário ou uma pessoa que ingressará em sua organização, poderá atribuir essa licença para que ele possa usar o Microsoft 365. Você pode pesquisar o usuário na home page ou na página **Usuários** ativos e, em seguida, selecioná-lo. Na guia **Licenças e Aplicativos,** marque a caixa de seleção da licença que você deseja adicionar ao novo usuário. [Leia o artigo completo](../manage/assign-licenses-to-users.md).
   
-## <a name="remove-license-so-you-dont-have-to-pay-for-it"></a>Remover licença para que você não precise pagar por ela
+## <a name="remove-license-so-you-dont-have-to-pay-for-it"></a>Remover licença para que você não tenha que pagar por ela
 
-Também é possível remover a licença da sua assinatura para que você não precise pagar por ela. Na home page do centro de administração, digite **Subscription** e selecione **Exibir assinaturas**. Selecione **Adicionar/remover licenças**. Na caixa **total de licenças** , insira o número total de licenças necessárias para esta assinatura e selecione **Enviar alteração**. Por exemplo, se você tivesse 5 licenças e precisa remover 1 delas, digite **4**. [Ler artigo completo](../../commerce/licenses/remove-licenses-from-subscription.md).
+Você também pode remover a licença da sua assinatura para não ter que pagar por ela. Na home page do centro de administração, digite **a assinatura** e selecione **Exibir assinaturas.** Selecione **Adicionar/remover licenças.** Na caixa **Total de licenças,** insira o número total de licenças que você precisa para esta assinatura e selecione **Enviar alteração.** Por exemplo, se você tivesse 5 licenças e precisa remover 1 delas, digite **4.** [Ler artigo completo](../../commerce/licenses/remove-licenses-from-subscription.md).

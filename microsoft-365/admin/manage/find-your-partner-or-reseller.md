@@ -22,7 +22,7 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
-description: 'Saiba como encontrar um novo Microsoft 365 Partner ou obter informações de contato para um parceiro com o qual você trabalhou no passado. '
+description: 'Saiba como encontrar um novo parceiro do Microsoft 365 ou obter informações de contato de um parceiro com o qual você trabalhou no passado. '
 ms.openlocfilehash: fad16990df7783908f59a6e3dd59cb0a1a13572e
 ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
@@ -32,28 +32,28 @@ ms.locfileid: "44780104"
 ---
 # <a name="find-your-partner-or-reseller"></a>Localizar o seu parceiro ou revendedor
 
-Como administrador, você pode trabalhar com um parceiro para adquirir, ativar e renovar assinaturas do Microsoft 365 por meio de um programa de licenciamento de volume aberto da Microsoft. 
+Como administrador, você pode trabalhar com um parceiro para comprar, ativar e renovar assinaturas do Microsoft 365 por meio de um programa de licenciamento por volume aberto da Microsoft. 
   
  **Não tem certeza se o Licenciamento Open Volume é adequado para você?** Confira a [visão geral dos Programas Open da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613298).
   
 ## <a name="find-a-new-partner-or-reseller"></a>Localizar um novo parceiro ou revendedor
 
-Se você estiver pronto para comprar ou renovar o Microsoft 365 por meio de licenciamento de volume aberto, ou simplesmente quiser saber mais sobre como trabalhar com um parceiro, escolha uma opção abaixo. 
+Se você estiver pronto para comprar ou renovar o Microsoft 365 por meio do Licenciamento Open Volume, ou se quiser apenas saber mais sobre como trabalhar com um parceiro, escolha uma opção abaixo. 
   
-- [Pesquisar um parceiro usando o Microsoft PinPoint](https://go.microsoft.com/fwlink/p/?LinkId=613304)
+- [Procurar um parceiro usando o Microsoft PinPoint](https://go.microsoft.com/fwlink/p/?LinkId=613304)
     
-- [Chamar o licenciamento por volume da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613305)
+- [Chamar o Licenciamento por Volume da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613305)
     
 ## <a name="find-contact-information-for-a-partner-youve-worked-with-in-the-past"></a>Localizar informações de contato de um parceiro com o qual você trabalhou no passado
 
 > [!NOTE]
-> Em alguns casos, você pode encontrar informações no centro de administração do Microsoft 365 para parceiros com os quais trabalhou no passado. Lembre-se de que as informações podem estar desatualizadas. Como prática recomendada, sugerimos contatar a pessoa ou o departamento de responsável pelas compras em sua organização para descobrir com qual parceiro você deve trabalhar. 
+> Em alguns casos, você pode encontrar informações no centro de administração do Microsoft 365 para parceiros com os quais você trabalhou no passado. Lembre-se de que as informações podem estar desatualizadas. Como prática recomendada, sugerimos contatar a pessoa ou o departamento de responsável pelas compras em sua organização para descobrir com qual parceiro você deve trabalhar. 
   
-## <a name="get-partner-info-in-the-admin-center"></a>Obter informações de parceiro no centro de administração
+## <a name="get-partner-info-in-the-admin-center"></a>Obter informações do parceiro no centro de administração
 
-1. No centro de administração, vá para a página **definições**de  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">parceiros</a> de configurações.
+1. No centro de administração, vá para a página **Configurações** de relações  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">de</a> parceiros.
   
-2. Se você tiver um parceiro, o nome do parceiro e a relação com a sua organização serão listados aqui. Para exibir informações de contato do parceiro (número de telefone e endereço de email), selecione o nome do parceiro.
+2. Se você tiver um parceiro, o nome do parceiro e a relação com sua organização serão listados aqui. Para exibir informações de contato do parceiro (número de telefone e endereço de email), selecione o nome do parceiro.
     
 ## <a name="more-resources"></a>Mais recursos
 

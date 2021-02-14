@@ -26,7 +26,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
-description: Saiba mais sobre as políticas de proteção que permitem gerenciar como os usuários acessam aplicativos do Office e arquivos de trabalho de dispositivos móveis.
+description: Saiba mais sobre as políticas de proteção que permitem que você gerencie como os usuários acessam os aplicativos do Office e os arquivos de trabalho de dispositivos móveis.
 ms.openlocfilehash: b2b828cf2e201360f12b8fadcb395e72958230f6
 ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
@@ -46,11 +46,11 @@ As configurações a seguir estão disponíveis para gerenciar como os usuários
   
 |||
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
-|Exigir um PIN ou uma impressão digital para acessar aplicativos do Office  <br/> |Se essa configuração estiver **ativada**, os usuários devem fornecer outra forma de autenticação, além de seu nome de usuário e senha, antes de poderem usar os aplicativos do Office em seus dispositivos móveis.  <br/> |
+|Setting  <br/> |Descrição  <br/> |
+|Exigir um PIN ou uma impressão digital para acessar aplicativos do Office  <br/> |Se essa configuração **estiver** 1, os usuários deverão fornecer outra forma de autenticação, além de seu nome de usuário e senha, para que possam usar aplicativos do Office em seus dispositivos móveis.  <br/> |
 |Redefinir o PIN quando houver muitas falhas de logon  <br/> |Para impedir que um usuário não autorizado adivinhe um PIN, o PIN será redefinido após determinado número de tentativas incorretas.  <br/> |
-|Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos  <br/> |Essa configuração determina quanto tempo um usuário pode ficar ocioso antes que seja solicitado a entrar novamente.  <br/> |
+|Exigir que os usuários entrem novamente depois que os aplicativos do Office ficarem ociosos  <br/> |Esta configuração determina por quanto tempo um usuário pode ficar ocioso antes de ser solicitado a entrar novamente.  <br/> |
 |Negar o acesso aos arquivos de trabalho em dispositivos com jailbreak ou com acesso raiz  <br/> |Os usuários inteligentes podem ter dispositivos com jailbreak ou com acesso raiz. Isso significa que o usuário pode modificar o sistema operacional, o que pode tornar o dispositivo mais suscetível a malware. Os dispositivos são bloqueados quando essa configuração está **Ativada**.  <br/> |
-|Não permitir que os usuários copiem conteúdo de aplicativos do Office para aplicativos pessoais  <br/> |Quando a configuração está **ativada**, o usuário não pode copiar informações de um arquivo de trabalho para um arquivo pessoal. Se a configuração estiver **desativada**, o usuário pode copiar informações de um arquivo de trabalho para um aplicativo pessoal ou uma conta pessoal.  <br/> |
+|Não permitir que os usuários copiem conteúdo de aplicativos do Office para aplicativos pessoais  <br/> |Quando a configuração **estiver 1,** o usuário não poderá copiar informações em um arquivo de trabalho para um arquivo pessoal. Se a **configuração** estiver desligada, o usuário poderá copiar informações de um arquivo de trabalho para um aplicativo pessoal ou uma conta pessoal.  <br/> |
    
 

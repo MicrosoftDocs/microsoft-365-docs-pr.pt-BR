@@ -30,9 +30,9 @@ ms.locfileid: "44817920"
 
 Entenda os elementos básicos de segurança da criptografia de dados no OneDrive for Business e no SharePoint Online.
   
-## <a name="security-and-data-encryption-in-office-365"></a>Criptografia de dados e segurança no Office 365
+## <a name="security-and-data-encryption-in-office-365"></a>Segurança e criptografia de dados no Office 365
 
-O Microsoft 365 é um ambiente altamente seguro que oferece proteção abrangente em várias camadas: segurança física do Data Center, segurança da rede, segurança do acesso, segurança do aplicativo e segurança dos dados. Este artigo aborda especificamente o lado da criptografia em repouso e em trânsito da segurança de dados para OneDrive for Business e SharePoint Online.
+O Microsoft 365 é um ambiente altamente seguro que oferece proteção ampla em várias camadas: segurança física do data center, segurança de rede, segurança de acesso, segurança de aplicativo e segurança de dados. Este artigo aborda especificamente o lado da criptografia em repouso e em trânsito da segurança de dados para OneDrive for Business e SharePoint Online.
   
 Assista ao vídeo a seguir para ver como funciona a criptografia de dados.
   
@@ -50,11 +50,11 @@ No OneDrive for Business e no SharePoint Online, há dois cenários em que os da
 
 A criptografia em repouso inclui dois componentes: Criptografia BitLocker no nível do disco e criptografia por arquivo de conteúdo do cliente.
   
-A criptografia BitLocker está implantada para o serviço do OneDrive for Business e do SharePoint Online. A criptografia por arquivo também está no OneDrive for Business e no SharePoint Online no Microsoft 365 multilocatário e novos ambientes dedicados criados na tecnologia de vários locatários.
+A criptografia BitLocker está implantada para o serviço do OneDrive for Business e do SharePoint Online. A criptografia por arquivo também está no OneDrive for Business e no SharePoint Online no Microsoft 365 multi-locatário e em novos ambientes dedicados que são construídos com base na tecnologia multi-inquilino.
   
 Enquanto o BitLocker criptografa todos os dados no disco, a criptografia por arquivo vai ainda mais longe e inclui uma chave de criptografia exclusiva para cada arquivo. Além disso, as atualizações de cada arquivo são criptografadas com uma chave de criptografia própria. Antes de armazená-las, as chaves do conteúdo criptografado são armazenadas em um local físico separado do conteúdo. Todas as etapas dessa criptografia usam a criptografia AES com chaves de 256 bits e estão em conformidade com o padrão FIPS 140-2. O conteúdo criptografado é distribuído para vários contêineres no data center, e cada contêiner tem credenciais exclusivas. Essas credenciais são armazenadas em um local físico separado do conteúdo e das chaves de conteúdo.
   
-Para obter informações adicionais sobre a conformidade com o FIPS 140-2, confira conformidade com o [fips 140-2](https://go.microsoft.com/fwlink/?LinkId=517625).
+Para obter informações adicionais sobre a conformidade FIPS 140-2, consulte [Conformidade FIPS 140-2.](https://go.microsoft.com/fwlink/?LinkId=517625)
   
 A criptografia em repouso no nível do arquivo aproveita o armazenamento de blobs para proporcionar o crescimento do armazenamento praticamente ilimitado e viabilizar uma proteção sem precedentes. Todo o conteúdo do cliente no OneDrive for Business e no SharePoint Online será migrado para o armazenamento de blobs. Veja como esses dados são protegidos:
   

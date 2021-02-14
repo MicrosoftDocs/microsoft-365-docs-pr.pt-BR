@@ -25,7 +25,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
-description: Saiba mais sobre as configurações disponíveis no Microsoft 365 for Business para proteger arquivos de trabalho se o dispositivo de um usuário for perdido ou roubado.
+description: Saiba mais sobre as configurações disponíveis no Microsoft 365 para empresas para proteger arquivos de trabalho se o dispositivo de um usuário for perdido ou roubado.
 ms.openlocfilehash: 89f9041a39ef0167d5b918622b68c9566e65d5b3
 ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
@@ -43,9 +43,9 @@ As configurações a seguir estão disponíveis para proteger os arquivos de tra
   
 |||
 |:-----|:-----|
-|Configuração  <br/> |Descrição  <br/> |
-|Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado para o número de dias especificado aqui, todos os arquivos de trabalho armazenados no dispositivo serão excluídos automaticamente.  <br/> |
-|Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração estiver **ativada**, o único local de salvamento disponível para os arquivos de trabalho é o onedrive for Business.  <br/> |
-|Criptografar arquivos de trabalho  <br/> |Mantenha essa configuração **Ativada** para que os arquivos de trabalho sejam protegidos por criptografia. Mesmo que o dispositivo seja perdido ou roubado, ninguém poderá ler os dados da sua empresa.  <br/> |
+|Setting  <br/> |Descrição  <br/> |
+|Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado pelo número de dias especificado aqui, todos os arquivos de trabalho armazenados no dispositivo serão automaticamente excluídos.  <br/> |
+|Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração estiver **1,** o único local de armazenamento disponível para arquivos de trabalho será o OneDrive for Business.  <br/> |
+|Criptografar arquivos de trabalho  <br/> |Mantenha essa configuração **Ativada** para que os arquivos de trabalho sejam protegidos por criptografia. Mesmo que o dispositivo seja perdido ou roubado, ninguém poderá ler os dados da empresa.  <br/> |
    
 
