@@ -1,5 +1,5 @@
 ---
-title: Mapa do PowerShell para o Microsoft 365
+title: Roteiro do PowerShell para o Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -20,10 +20,10 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46687007"
 ---
-# <a name="powershell-roadmap-for-microsoft-365"></a><span data-ttu-id="bf1a9-103">Mapa do PowerShell para o Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="bf1a9-103">PowerShell roadmap for Microsoft 365</span></span>
+# <a name="powershell-roadmap-for-microsoft-365"></a><span data-ttu-id="28539-103">Roteiro do PowerShell para o Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="28539-103">PowerShell roadmap for Microsoft 365</span></span>
 
-<span data-ttu-id="bf1a9-104">Conteúdo do mapa do PowerShell</span><span class="sxs-lookup"><span data-stu-id="bf1a9-104">PowerShell roadmap content</span></span>
+<span data-ttu-id="28539-104">Conteúdo de mapa do PowerShell</span><span class="sxs-lookup"><span data-stu-id="28539-104">PowerShell roadmap content</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="bf1a9-105">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="bf1a9-105">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="28539-105">Próxima etapa</span><span class="sxs-lookup"><span data-stu-id="28539-105">Next step</span></span>
 
-<span data-ttu-id="bf1a9-106">A definir</span><span class="sxs-lookup"><span data-stu-id="bf1a9-106">TBD</span></span>
+<span data-ttu-id="28539-106">A definir</span><span class="sxs-lookup"><span data-stu-id="28539-106">TBD</span></span>
