@@ -1,5 +1,5 @@
 ---
-title: Analisar conversas na descoberta eletrônica avançada
+title: Revisar conversas na Descoberta Avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Saiba como usar o recurso de reconstrução de conversa em descoberta eletrônica avançada para reconstruir, revisar e exportar conversas encadeadas.
+description: Saiba como usar o recurso de Reconstrução de Conversa na Descoberta Avançada para reconstruir, revisar e exportar conversas encadeadas.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: bf5c39f567240b58546dbeb353e3e461e9b69e48
 ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
@@ -24,109 +24,109 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/03/2020
 ms.locfileid: "47358339"
 ---
-# <a name="review-conversations-in-advanced-ediscovery"></a>Analisar conversas na descoberta eletrônica avançada 
+# <a name="review-conversations-in-advanced-ediscovery"></a>Revisar conversas na Descoberta Avançada 
 
-O sistema de mensagens instantâneas é uma maneira conveniente de fazer perguntas, compartilhar ideias ou se comunicar rapidamente entre grandes audiências. Como as plataformas de mensagens instantâneas, como o Microsoft Teams, se tornarem essenciais para a colaboração corporativa, as organizações devem avaliar como o fluxo de trabalho de descoberta eletrônica resolve essas novas formas de comunicação e colaboração. 
+O sistema de mensagens instantâneas é uma maneira conveniente de fazer perguntas, compartilhar ideias ou comunicar-se rapidamente entre grandes públicos. À medida que as plataformas de mensagens instantâneas, como o Microsoft Teams, se tornam fundamentais para a colaboração corporativa, as organizações devem avaliar como seu fluxo de trabalho de Descoberta Eletrônico aborda essas novas formas de comunicação e colaboração. 
 
-O recurso de reconstrução de conversa na descoberta eletrônica avançada foi projetado para ajudá-lo a identificar o conteúdo contextual e produzir modos de exibição de conversa distintos. Esse recurso permite que você examine de forma eficiente e rápida as conversas de mensagens instantâneas completas (também chamadas de *conversações encadeadas*) geradas em plataformas como o Microsoft Teams.
+O recurso de Reconstrução de Conversa na Descoberta Avançada foi projetado para ajudá-lo a identificar conteúdo contextual e produzir exibições de conversa distintas. Esse recurso permite que você revise com eficiência e rapidez a conclusão de conversas de mensagens instantâneas (também chamadas de conversas encadeadas) geradas em plataformas como o Microsoft Teams.
 
-Com a reconstrução de conversas, você pode usar recursos internos para reconstruir, revisar e exportar conversas encadeadas. Use a reconstrução de conversa de descoberta eletrônica avançada para:
+Com a Reconstrução da Conversa, você pode usar recursos integrados para reconstruir, revisar e exportar conversas encadeadas. Use Advanced eDiscovery Conversation Reconstruction to:
 
-- Preservar metadados únicos em nível de mensagem em todas as mensagens de uma conversa.
+- Preservar metadados exclusivos no nível da mensagem em todas as mensagens de uma conversa.
 
 - Coletar mensagens contextuais em torno dos resultados da pesquisa.
 
-- Revisar, anotar e redigir conversas encadeadas.
+- Revise, anota e reacte conversas encadeadas.
 
 - Exportar mensagens individuais ou conversas encadeadas
 
 ## <a name="terminology"></a>Terminologia
 
-Aqui estão algumas definições para ajudá-lo a começar a usar a reconstrução de conversa.
+Aqui estão algumas definições para ajudá-lo a começar a usar a Reconstrução da Conversa.
 
-- **Mensagens:** Representa a menor unidade de uma conversa. As mensagens podem variar de tamanho, estrutura e metadados. 
+- **Mensagens:** Representa a menor unidade de uma conversa. As mensagens podem variar em tamanho, estrutura e metadados. 
 
-- **Conversa:** Representa um agrupamento de uma ou mais mensagens. Em diferentes aplicativos, as conversas podem ser representadas de diferentes maneiras. Em alguns aplicativos, há uma ação explícita que resulta da resposta a uma mensagem existente. As conversas são formadas explicitamente como resultado dessa ação do usuário. Por exemplo, aqui está uma captura de tela de uma conversa de canal no Microsoft Teams.
+- **Conversa:** Representa um grupo de uma ou mais mensagens. Em diferentes aplicativos, as conversas podem ser representadas de maneiras diferentes. Em alguns aplicativos, há uma ação explícita que resulta da resposta a uma mensagem existente. As conversas são formadas explicitamente como resultado dessa ação do usuário. Por exemplo, aqui está uma captura de tela de uma conversa de canal no Microsoft Teams.
 
-   ![Conversa de canal do Microsoft Teams](../media/threadedchat.png)
+   ![Conversa do canal do Microsoft Teams](../media/threadedchat.png)
 
-   Em outros aplicativos (como mensagens de chat do 1xN no Microsoft Teams), não há uma cadeia de resposta formal e, em vez disso, as mensagens aparecem como "Rio simples de mensagens" em um único thread. Nesses tipos de aplicativos, as conversas são inferidas de um grupo de mensagens que ocorrem dentro de um determinado momento. Esse "Agrupamento de mensagens" (em vez de uma cadeia de resposta) representa a conversa "frente e para trás" sobre um tópico específico de interesse. 
+   Em outros aplicativos (como mensagens de chat 1xN no Teams), não há uma cadeia de resposta formal e, em vez disso, as mensagens aparecem como um "river plano de mensagens" dentro de um único thread. Nesses tipos de aplicativos, as conversas são adiadas de um grupo de mensagens que ocorrem dentro de um determinado tempo. Esse "soft-grouping" de mensagens (em vez de uma cadeia de resposta) representa a conversa "voltar e voltar" sobre um tópico específico de interesse. 
 
-## <a name="step-1-run-a-search"></a>Etapa 1: executar uma pesquisa
+## <a name="step-1-run-a-search"></a>Etapa 1: Executar uma pesquisa
 
-Após identificar os responsáveis e locais de conteúdo relevantes, você poderá criar uma pesquisa para localizar conteúdo potencialmente relevante. Na guia **pesquisas** da caixa de descoberta eletrônica avançada, você pode criar uma pesquisa clicando em **nova pesquisa** e seguindo o assistente. Para obter informações sobre como você pode criar uma pesquisa, criar uma consulta de pesquisa e exibir os resultados da pesquisa, consulte [coletar dados por um caso](create-search-to-collect-data.md).
+Depois de identificar os custodiantes relevantes e locais de conteúdo, você pode criar uma pesquisa para encontrar conteúdo potencialmente relevante. Na guia **Pesquisas** no caso de Descobertas Avançadas, você pode criar uma pesquisa clicando em Nova pesquisa **e** seguindo o assistente. For information about how you can create a search, build a search query, and view the search results, see [Collect data for a case](create-search-to-collect-data.md).
 
-## <a name="step-2-create-a-conversation-review-set"></a>Etapa 2: criar um conjunto de revisão de conversa
+## <a name="step-2-create-a-conversation-review-set"></a>Etapa 2: Criar um conjunto de revisão de conversa
 
-Em um conjunto de revisão, você pode pesquisar, marcar, anotar e redigir documentos, mensagens de email e conversas de chat. Na descoberta eletrônica avançada, você pode personalizar a revisão de conversas, com base em mensagens individuais ou conversas encadeadas. Isso é determinado pelo tipo de conjunto de revisão que você adiciona os resultados da pesquisa criada na etapa 1 para. Há dois tipos diferentes de conjuntos de revisão: 
+Em um conjunto de revisão, você pode pesquisar, marcar, anotar e reencenar documentos, mensagens de email e conversas de chat. Na Descoberta Avançada, você pode personalizar sua revisão de conversas, com base em mensagens individuais ou conversas encadeadas. Isso é determinado pelo tipo de conjunto de revisão ao qual você adiciona os resultados da pesquisa criada na Etapa 1. Há dois tipos diferentes de conjuntos de revisão: 
   
   - **Conjuntos de revisão padrão:** As mensagens em conversas são processadas e exibidas como itens individuais. 
   
-  -  **Conjuntos de revisão de conversa:** As mensagens em conversas são processadas individualmente, mas exibidas em um modo de exibição de conversa. Em um conjunto de revisão de conversa, você pode anotar, marcar e redigir mensagens em um modo de exibição de conversa encadeado. 
+  -  **Conjuntos de revisão de conversa:** As mensagens em conversas são processadas individualmente, mas exibidas em uma exibição de conversa. Em um conjunto de revisão de conversa, você pode anotar, marcar e reactar mensagens em uma exibição de conversa encadeada. 
 
-Para obter mais informações sobre como revisar e gerenciar o conteúdo em um conjunto de revisão, consulte [Manage Review sets](managing-review-sets.md). 
+Para obter mais informações sobre como revisar e gerenciar conteúdo em um conjunto de revisão, consulte [Gerenciar conjuntos de revisão.](managing-review-sets.md) 
 
-## <a name="step-3-enable-conversation-retrieval-options"></a>Etapa 3: habilitar as opções de recuperação de conversa
+## <a name="step-3-enable-conversation-retrieval-options"></a>Etapa 3: Habilitar opções de recuperação de conversa
 
-Depois de revisar e finalizar a consulta de pesquisa, você pode adicionar os resultados da pesquisa a um conjunto de revisão. Quando você adiciona os resultados da pesquisa em um conjunto de revisão, os dados originais são copiados para uma área de armazenamento do Azure para facilitar o processo de revisão e análise. Para obter mais informações sobre como adicionar resultados de pesquisa a um conjunto de revisão, consulte [Add Search Results to a Review Set](add-data-to-review-set.md). 
+Depois de revisar e finalizar a consulta de pesquisa, você poderá adicionar os resultados da pesquisa a um conjunto de revisão. Quando você adiciona os resultados da pesquisa em um conjunto de revisão, os dados originais são copiados para uma área de Armazenamento do Azure para facilitar o processo de análise e revisão. Para obter mais informações sobre como adicionar resultados de pesquisa a um conjunto de revisão, consulte [Adicionar resultados de pesquisa a um conjunto de revisão.](add-data-to-review-set.md) 
 
-Ao adicionar dados de conversas a um conjunto de revisão, você pode usar as opções de recuperação de conversa para expandir sua pesquisa e incluir mensagens contextuais. Após definir as opções de recuperação de conversa, as seguintes coisas podem ocorrer:
+Ao adicionar dados de conversas a um conjunto de revisão, você pode usar as opções de recuperação de conversa para expandir sua pesquisa e incluir mensagens contextuais. Depois de definir as opções de recuperação de conversa, as seguintes coisas podem acontecer:
 
-  ![Recuperação de conversa](../media/messagesandconversations.png)
+  ![Recuperação de Conversa](../media/messagesandconversations.png)
   
-1. Usando uma consulta de intervalo de datas e palavras-chave, a pesquisa retornou uma ocorrência na *mensagem 3*. Esta mensagem faz parte de uma conversa maior, ilustrada por *CRC1*. 
+1. Usando uma palavra-chave e uma consulta de intervalo de datas, a pesquisa retornou uma mensagem *3*. Esta mensagem fazia parte de uma conversa maior, ilustrada por *CRC1.* 
   
-2. Quando você adiciona os dados em um conjunto de revisão e habilita as opções de recuperação de conversa, a descoberta eletrônica avançada volta e coleta outros itens no *CRC1*. 
+2. Quando você adiciona os dados em um conjunto de revisão e habilita as opções de recuperação de conversa, a Descoberta Avançada volta e coleta outros itens no *CRC1*. 
   
-3. Depois que os itens tiverem sido adicionados ao conjunto de revisão, você poderá revisar todas as mensagens individuais do *CRC1*. 
+3. Depois que os itens foram adicionados ao conjunto de revisão, você pode revisar todas as mensagens individuais de *CRC1*. 
 
-Para habilitar a recuperação de conversas:
+Para habilitar a recuperação de conversa:
   
-1. Na guia **pesquisas** da caixa de descoberta eletrônica avançada, selecione uma pesquisa e, em seguida, clique em **Adicionar a revisão definida** na página do menu suspenso.
+1. Na guia **Pesquisas no** caso de Descobertas Avançadas, selecione  uma pesquisa e clique em Adicionar para revisar definida na página do flyout.
   
-2. Selecione um conjunto de revisão existente ou crie um conjunto de revisão. Você pode configurar opções de recuperação ao adicionar resultados de pesquisa a um conjunto de análise de conversa padrão ou padrão.
+2. Selecione um conjunto de revisão existente ou crie um conjunto de revisão. Você pode configurar opções de recuperação ao adicionar resultados de pesquisa a um conjunto de revisão de conversa ou padrão.
   
-3. Em **Opções de coleta**, configure as opções de recuperação de conversa para as fontes de conteúdo que você deseja expandir em sua pesquisa e clique em **Adicionar** para iniciar o processo.  
+3. Em **Opções de coleção,** configure as opções de recuperação de conversa para as  fontes de conteúdo que você deseja expandir em sua pesquisa e clique em Adicionar para iniciar o processo.  
   
-4. Após a conclusão do trabalho de **adição à revisão** do trabalho na guia **trabalhos** , você poderá começar a revisar as conversas.
+4. Depois que **o trabalho de conjunto Adicionar a revisão** na guia **Trabalhos** tiver sido concluído, você poderá começar a revisar as conversas.
 
-## <a name="step-4-review-and-export-conversations-in-a-review-set"></a>Etapa 4: revisar e exportar conversas em um conjunto de revisão
+## <a name="step-4-review-and-export-conversations-in-a-review-set"></a>Etapa 4: Revisar e exportar conversas em um conjunto de revisão
 
-Após o conteúdo ter sido processado e adicionado ao conjunto de revisão, você pode começar a revisar os dados no conjunto de revisão. Os recursos de revisão são diferentes dependendo se o conteúdo foi adicionado a um conjunto de revisão padrão ou um conjunto de revisão de conversa. 
+Depois que o conteúdo tiver sido processado e adicionado ao conjunto de revisão, você poderá começar a analisar os dados no conjunto de revisão. Os recursos de revisão são diferentes dependendo se o conteúdo foi adicionado a um conjunto de revisão padrão ou a um conjunto de revisão de conversa. 
 
-### <a name="reviewing-conversations-in-a-standard-review-set"></a>Revisando conversas em um conjunto de análise padrão
+### <a name="reviewing-conversations-in-a-standard-review-set"></a>Revendo conversas em um conjunto de revisão padrão
 
-Em um conjunto de revisão padrão, as mensagens são processadas e exibidas como itens individuais, semelhante à forma como estão armazenadas em uma pasta de caixa de correio. Neste fluxo de trabalho, cada mensagem é processada como um item separado. Como resultado, o resumo segmentado e as opções de exportação não estão disponíveis em um conjunto de análise padrão. 
+Em um conjunto de revisão padrão, as mensagens são processadas e exibidas como itens individuais, semelhante à forma como são armazenadas em uma pasta da caixa de correio. Nesse fluxo de trabalho, cada mensagem é processada como um item separado. Como resultado, as opções de exportação e resumo threaded não estão disponíveis em um conjunto de revisão padrão. 
 
   ![Conjunto de revisão padrão](../media/standardrs.PNG)
 
-### <a name="reviewing-conversations-in-a-conversation-review-set"></a>Analisar conversas em um conjunto de revisão de conversa
+### <a name="reviewing-conversations-in-a-conversation-review-set"></a>Revendo conversas em um conjunto de revisão de conversa
 
-Em um conjunto de revisão de conversa, as mensagens individuais são encadeadas e apresentadas como conversas. Isso permite que você revise e exporte conversas contextuais. 
+Em um conjunto de revisão de conversa, mensagens individuais são encadeadas e apresentadas como conversas. Isso permite que você revise e exporte conversas contextuais. 
 
   ![Conjunto de revisão de conversa](../media/ConversationRSOptions.PNG)
 
-As seções a seguir descrevem a revisão e exportação de conversas em um conjunto de análise de conversa.
+As seções a seguir descrevem a revisão e a exportação de conversas em um conjunto de revisão de conversa.
 
-#### <a name="reviewing-conversations"></a>Revisando conversas
+#### <a name="reviewing-conversations"></a>Revendo conversas
 
 Em um conjunto de revisão de conversa, você pode usar as seguintes opções para facilitar o processo de revisão.
 
-- **Agrupar por conversa:** Agrupa as mensagens dentro da mesma conversa para ajudar os usuários a simplificar e agilizar o processo de revisão. 
+- **Agrupar por conversa:** Reúne mensagens dentro da mesma conversa para ajudar os usuários a simplificar e acelerar o processo de revisão. 
 
-- **Exibição de Resumo:** Exibe a conversa encadeada. Nesse modo de exibição, você pode ver toda a conversa e também acessar os metadados de cada mensagem individual.  
+- **Exibição resumida:** Exibe a conversa encadeada. Nessa exibição, você pode ver a conversa inteira e também acessar os metadados de cada mensagem individual.  
   
    - Exibir metadados para mensagens individuais
    
    - Baixar mensagens individuais
 
-- **Exibição de texto:** Fornece o texto extraído da conversa inteira. 
+- **Exibição de texto:** Fornece o texto extraído para toda a conversa. 
 
-- **Modo de anotações:** Permite marcar um modo de exibição segmentado da conversa. Todas as mensagens na conversa compartilham o mesmo documento anotado.
+- **Exibição de anotações:** Permite marcar uma exibição encadeada da conversa. Todas as mensagens na conversa compartilham o mesmo documento anotado.
 
-- **Marcação:** Ao exibir conversas em um conjunto de revisão, você pode exibir e aplicar marcas clicando em **painel de marcação** no painel de codificação.
+- **Marcação:** Ao exibir conversas em um conjunto de revisão,  você pode exibir e aplicar marcas clicando no painel marcação no painel de codificação.
 
-- **Executar a conversão de conversa novamente:** Quando as mensagens são adicionadas a um conjunto de revisão de conversa, um trabalho de conversão é executado automaticamente para criar os modos de exibição de resumo e anotações encadeados. Se o trabalho de reconstrução da conversa falhar, você poderá executar novamente esse trabalho clicando em **ação > criar PDFs de conversa** no conjunto de revisão.
+- **Rerun conversation conversion:** Quando as mensagens são adicionadas a um conjunto de revisão de conversa, um trabalho de conversão é executado automaticamente para criar o resumo encadeado e anotar as exibições. Se o trabalho de Reconstrução da Conversa falhar, você poderá reprisar esse trabalho clicando em Ação **> Criar PDFs** de conversa no conjunto de revisão.
 
 #### <a name="exporting-conversations"></a>Exportando conversas
 
@@ -136,30 +136,30 @@ Em um conjunto de revisão de conversa, você pode definir as seguintes opções
 
 a. Opções de metadados
 
-   - **Carregar arquivo:** Os metadados são incluídos para cada mensagem, email e documento individual. Há uma linha para cada mensagem em uma conversa. 
+   - **Carregar arquivo:** Os metadados são incluídos para cada mensagem individual, email e documento. Há uma linha para cada mensagem em uma conversa. 
 
-   - **Marcas:** As marcas do processo de revisão são incluídas no arquivo de metadados. As mensagens em uma conversa compartilham as mesmas marcas. 
+   - **Marcas:** As marcas do seu processo de revisão estão incluídas no arquivo de metadados. As mensagens em uma conversa compartilham as mesmas marcas. 
 
 b. Opções de conversa
   
-   - **Arquivos de conversa:** Quando você exporta arquivos de conversa, o modo de exibição anotado é convertido em um arquivo PDF e baixado para a pasta de exportação. As mensagens em um arquivo de conversa apontam para a versão do PDF do mesmo arquivo de conversa.  
+   - **Arquivos de conversa:** Quando você exporta arquivos de conversa, o exibição anotado é convertido em um arquivo PDF e baixado para a pasta de exportação. As mensagens em um arquivo de conversa apontam para a versão PDF do mesmo arquivo de conversa.  
   
-   - **Mensagens de chat individuais:** Quando você exporta mensagens individuais, cada mensagem exclusiva na conversa é exportada como um item autônomo. O arquivo é exportado no mesmo formato em que foi salvo na caixa de correio. Para uma conversa específica, você recebe vários arquivos. msg. 
+   - **Mensagens de chat individuais:** Quando você exporta mensagens individuais, cada mensagem exclusiva na conversa é exportada como um item autônomo. O arquivo é exportado no mesmo formato em que foi salvo como na caixa de correio. Para uma conversa específica, você recebe vários arquivos .msg. 
 
      >[!NOTE]
      > Se você aplicou anotações ao arquivo de conversa, essas anotações não serão transferidas para as mensagens individuais. 
 
 c. Outras opções
 
-   - **Gerar arquivos de texto para todo o conteúdo exportado:** Gera um arquivo de texto para cada conversa exportada do conjunto de revisão. 
+   - **Gere arquivos de texto para todo o conteúdo exportado:** Gera um arquivo de texto para cada conversa exportada do conjunto de revisão. 
 
-   - **Substitua o conteúdo exportado por PDFs redigidos:** Se os arquivos de conversa redigidos forem gerados durante o processo de revisão, esses arquivos estarão disponíveis durante a exportação. Você pode decidir se deseja exportar somente os arquivos nativos (sem selecionar essa opção) ou substituir os arquivos nativos pelas versões redigidas dos arquivos nativos (selecionando essa opção), que são exportadas como arquivos PDF.
+   - **Substitua o conteúdo exportado por PDFs redacionados:** Se os arquivos de conversa redacted são gerados durante o processo de revisão, esses arquivos estarão disponíveis durante a exportação. Você pode decidir se exportará somente os arquivos nativos (não selecionando essa opção) ou se substituirá os arquivos nativos pelas versões redacionadas dos arquivos nativos (selecionando essa opção), que serão exportados como arquivos PDF.
 
 ## <a name="more-information"></a>Mais informações
 
-Para saber mais sobre como revisar os dados do caso na descoberta eletrônica avançada, consulte os seguintes artigos:
+Para saber mais sobre como revisar dados de caso na Descoberta Avançada, consulte os seguintes artigos:
 
-- [Exibir dados de caso](view-documents-in-review-set.md)
+- [Exibir dados de ocorrência](view-documents-in-review-set.md)
 
 - [Analisar dados de ocorrência](analyzing-data-in-review-set.md)
 

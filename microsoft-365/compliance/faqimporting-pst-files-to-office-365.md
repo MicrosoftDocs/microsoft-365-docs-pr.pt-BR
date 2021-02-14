@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 ms.custom: seo-marvel-apr2020
-description: Este artigo contém respostas para algumas perguntas frequentes para administradores sobre a importação de arquivos PST para o Microsoft 365 usando o serviço de importação do Office 365.
+description: Este artigo contém respostas para algumas perguntas frequentes dos administradores sobre a importação de arquivos PST para o Microsoft 365 usando o Serviço de Importação do Office 365.
 ms.openlocfilehash: b6d00bf58225ca016f6debbeeac8468c558c3556
 ms.sourcegitcommit: 37da941919036a714da42eaa039682ccbe0da670
 ms.translationtype: MT
@@ -26,13 +26,13 @@ ms.locfileid: "46860696"
 ---
 # <a name="faq-about-importing-pst-files"></a>Perguntas Frequentes sobre a importação de arquivos PST
 
-**Este artigo é para administradores. Deseja importar arquivos PST para sua própria caixa de correio? Confira [importar email, contatos e calendário de um arquivo. pst do Outlook](https://go.microsoft.com/fwlink/p/?LinkID=785075)**
+**Este artigo é para administradores. Você deseja importar arquivos PST para sua própria caixa de correio? Confira [Importar email, contatos e calendário de um arquivo .pst do Outlook](https://go.microsoft.com/fwlink/p/?LinkID=785075)**
    
-Aqui estão algumas perguntas frequentes sobre como usar o serviço de importação do Office 365 para importar arquivos PST em massa para caixas de correio do Microsoft 365. Para obter mais informações sobre como importar arquivos PST, consulte [visão geral da importação de arquivos pst para o Office 365](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365).
+Aqui estão algumas perguntas frequentes sobre como usar o Serviço de Importação do Office 365 para importar arquivos PST em massa para caixas de correio do Microsoft 365. Para obter mais informações sobre como importar arquivos PST, consulte Visão geral da importação de [arquivos PST para o Office 365.](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365)
   
 ## <a name="using-network-upload-to-import-pst-files"></a>Usar o carregamento de rede para importar arquivos PST
 
-Para obter instruções passo a passo, consulte [usar o carregamento de rede para importar arquivos pst para o Office 365](use-network-upload-to-import-pst-files.md).
+Para obter instruções passo a passo, confira Usar o carregamento de rede [para importar arquivos PST para o Office 365.](use-network-upload-to-import-pst-files.md)
   
  **Quais permissões são necessárias para criar trabalhos de importação no serviço de importação do Office 365?**
   
@@ -51,7 +51,7 @@ Além disso, para criar trabalhos de importação no Centro de Conformidade e Se
   
  **Onde o carregamento de rede está disponível?**
   
-O carregamento de rede está disponível atualmente nestas áreas: Estados Unidos, Canadá, Brasil, Reino Unido, França, Alemanha, Suíça, Noruega, Europa, Índia, leste asiático, Sudeste Asiático, Japão, República da Coréia, Austrália e Emirados Árabes Unidos (Emirados). Network upload will be available in more regions soon.
+O carregamento de rede está disponível atualmente nestes países: Estados Unidos, Canadá, Brasil, Reino Unido, França, Alemanha, Suíça, Noruega, Europa, Índia, leste asiático, Sudeste Asiático, Japão, República Democrática Popular da Coréia, Austrália e Emirados Árabes Unidos (Emirados). O carregamento de rede estará disponível para mais regiões em breve.
   
  **Qual é o custo de importação dos arquivos PST usando o carregamento de rede?**
   
@@ -61,7 +61,7 @@ Isso também significa que depois que os arquivos PST forem excluídos da área 
   
  **Qual versão do formato de arquivo PST é compatível com a importação para o Office 365?**
   
-Há duas versões do formato de arquivo PST: ANSI e Unicode. Recomendamos importar arquivos que usem o formato de arquivo PST Unicode. No entanto, os arquivos que utilizam o formato de arquivo PST ANSI, como aqueles para linguagens que utilizam um conjunto de caracteres de bytes duplos (DBCS), também podem ser importados para o Office 365. Para obter mais informações sobre a importação de arquivos PST ANSI, consulte a etapa 4 em [usar o carregamento de rede para importar arquivos pst da sua organização para o Office 365](use-network-upload-to-import-pst-files.md#step-4-create-the-pst-import-mapping-file).
+Há duas versões do formato de arquivo PST: ANSI e Unicode. Recomendamos importar arquivos que usem o formato de arquivo PST Unicode. No entanto, os arquivos que utilizam o formato de arquivo PST ANSI, como aqueles para linguagens que utilizam um conjunto de caracteres de bytes duplos (DBCS), também podem ser importados para o Office 365. Para obter mais informações sobre como importar arquivos PST ANSI, consulte a Etapa 4 em Usar carregamento de rede para importar os arquivos PST da sua organização para o [Office 365.](use-network-upload-to-import-pst-files.md#step-4-create-the-pst-import-mapping-file)
   
 Além disso, os arquivos PST do Outlook 2007 e versões posteriores podem ser importados para o Office 365.
   
@@ -107,7 +107,7 @@ Não. Não é possível importar arquivos PST para pastas públicas.
   
 ## <a name="using-drive-shipping-to-import-pst-files"></a>Usar a entrega de unidade para importar arquivos PST
 
-Para obter instruções passo a passo, consulte [usar o envio de unidade para importar arquivos pst para o Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md).
+Para obter instruções passo a passo, confira Usar o envio de unidade [para importar arquivos PST para o Office 365.](use-drive-shipping-to-import-pst-files-to-office-365.md)
   
  **Quais permissões são necessárias para criar trabalhos de importação no serviço de importação do Office 365?**
   
@@ -141,7 +141,7 @@ O custo para usar o envio de unidade para importar arquivos PST para caixas de c
   
  **Que tipos de discos rígidos têm suporte para o envio de unidade?**
   
-Apenas unidades de estado sólido (SSDs) de 2,5 polegadas ou discos rígidos internos SATA II/III de 2,5 polegadas ou 3,5 polegadas têm suporte para uso com o serviço de importação do Office 365. Use discos rígidos de até 10 TB. Para trabalhos de importação, somente o primeiro volume de dados do disco rígido será processado. O volume de dados deve ser formatado com NTFS. Ao copiar dados para uma unidade de disco rígido, você pode anexá-los diretamente usando um conector de 2,5-polegadas ou de 2,5 polegadas ou 3,5-polegada SATA II/III, ou você pode anexá-lo externamente usando um adaptador USB II/III SSD de 2,5 polegadas ou 2,5 polegadas externo.
+Somente unidades de estado sólido (SSDs) de 2,5 polegadas ou discos rígidos internos SATA II/III de 2,5 ou 3,5 polegadas têm suporte para uso com o serviço de Importação do Office 365. Use discos rígidos de até 10 TB. Para trabalhos de importação, somente o primeiro volume de dados do disco rígido será processado. O volume de dados deve ser formatado com NTFS. Ao copiar dados para um disco rígido, você pode anexá-los diretamente usando um SSD de 2,5 polegadas ou um conector SATA II/III de 2,5 polegadas ou 3,5 polegadas ou pode anexá-lo externamente usando um SSD externo de 2,5 polegadas ou um adaptador USB SATA II/III de 2,5 polegadas ou 3,5 polegadas.
   
 > [!IMPORTANT]
 > As unidades de disco rígido com um adaptador USB interno não são compatíveis com o serviço de importação do Office 365. Além disso, o disco dentro da caixa do disco rígido externo não pode ser utilizado. Não remova discos rígidos externos. 
@@ -156,7 +156,7 @@ Isso depende de alguns pontos, como da sua proximidade com o data center da Micr
   
  **Depois que meu disco rígido chegar ao data center da Microsoft, quanto tempo será necessário para carregar meus arquivos PST para o Azure?**
   
-Depois que a unidade de disco rígido for recebida no Data Center da Microsoft, levará entre 7 e 10 dias úteis para carregar os arquivos PST para a área de armazenamento do Azure para sua organização. Os arquivos PST serão carregados para o contêiner de blob do Azure chamado `ingestiondata`. 
+Depois que seu disco rígido for recebido no data center da Microsoft, levará de 7 a 10 dias úteis para carregar os arquivos PST na área de Armazenamento do Azure para sua organização. Os arquivos PST serão carregados para o contêiner de blob do Azure chamado `ingestiondata`. 
   
  **Quanto tempo é necessário para importar um arquivo PST para uma caixa de correio?**
   
@@ -172,7 +172,7 @@ Isso também significa que depois que os arquivos PST forem excluídos da área 
   
  **Qual versão do formato de arquivo PST é compatível com a importação para o Microsoft 365?**
   
-Há duas versões do formato de arquivo PST: ANSI e Unicode. Recomendamos importar arquivos que usem o formato de arquivo PST Unicode. No entanto, os arquivos que utilizam o formato de arquivo PST ANSI, como aqueles para linguagens que utilizam um conjunto de caracteres de bytes duplos (DBCS), também podem ser importados para o Microsoft 365. Para obter mais informações sobre a importação de arquivos PST ANSI, consulte a etapa 3 em [usar o envio de unidade para importar arquivos pst para o Office 365](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file).
+Há duas versões do formato de arquivo PST: ANSI e Unicode. Recomendamos importar arquivos que usem o formato de arquivo PST Unicode. No entanto, os arquivos que utilizam o formato de arquivo PST ANSI, como aqueles para linguagens que utilizam um conjunto de caracteres de bytes duplos (DBCS), também podem ser importados para o Microsoft 365. Para obter mais informações sobre como importar arquivos PST ANSI, consulte a Etapa 3 em Usar o envio de unidade para importar arquivos PST para o [Office 365.](use-drive-shipping-to-import-pst-files-to-office-365.md#step-3-create-the-pst-import-mapping-file)
   
 Além disso, os arquivos PST do Outlook 2007 e versões posteriores podem ser importados para o Office 365.
   
@@ -220,7 +220,7 @@ Se você estiver nos Estados Unidos ou na Europa, a Microsoft utilizará a FedEx
   
 Os custos da remessa de devolução variam, dependendo da sua proximidade em relação ao data center da Microsoft para o qual você enviou o seu disco rígido. A Microsoft cobrará o valor cobrado pela FedEx ou DHL para a devolução do seu disco rígido. O custo para a remessa de devolução é de sua responsabilidade.
   
- ** Posso usar um serviço de entrega personalizado, como a Remessa Personalizada da FedEx, para enviar meu disco rígido à Microsoft? **
+ **Posso usar um serviço de entrega personalizado, como a Remessa Personalizada da FedEx, para enviar meu disco rígido à Microsoft?**
   
 Sim.
   

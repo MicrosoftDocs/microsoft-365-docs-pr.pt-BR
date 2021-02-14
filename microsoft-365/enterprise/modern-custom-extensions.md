@@ -37,7 +37,7 @@ A ferramenta Diagnóstico de Página para SharePoint é uma extensão do navegad
 >[!NOTE]
 >A ferramenta de Diagnóstico de Página só funciona com o SharePoint Online e não pode ser usada em uma página do sistema do SharePoint.
 
-Ao analisar uma página de site do SharePoint com a ferramenta Diagnóstico de Página para SharePoint, você pode visualizar informações sobre extensões personalizadas que excedem a métrica de linha de base em**As extensões estão afetando o tempo de carregamento** e/ou em **Excesso de extensões usadas** resultam no painel _Testes de diagnóstico_ 
+Ao analisar uma página de site do SharePoint com a ferramenta Diagnóstico de Página para SharePoint, você pode visualizar informações sobre extensões personalizadas que excedem a métrica de linha de base em **As extensões estão afetando o tempo de carregamento** e/ou em **Excesso de extensões usadas** resultam no painel _Testes de diagnóstico_ 
 
 Os resultados possíveis incluem:
 

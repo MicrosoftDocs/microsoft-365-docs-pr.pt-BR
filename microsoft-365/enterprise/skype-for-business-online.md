@@ -21,7 +21,7 @@ search.appverid:
 - MSO150
 - BCS160
 ms.assetid: 4307bdbf-6097-458d-9a6a-048112695c59
-description: Como administrador, encontre ajuda para configurar partes do Skype for Business Online, incluindo rede, reuniões e mensagens instantâneas e acesso externo para os usuários.
+description: Como administrador, encontre ajuda para configurar partes do Skype for Business Online, incluindo sua rede, reuniões e mensagens de IM e acesso externo para os usuários.
 ms.openlocfilehash: 1e3807199fc83d642399b29870f2cac477d2ec75
 ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "47415701"
 
 ## <a name="were-here-to-help"></a>Estamos aqui para ajudar!
 
-Como administrador do Office 365 para empresas, você tem acesso gratuito aos nossos experientes agentes de suporte. Se você não encontrar as informações de que precisa neste site, ** [entre em contato com o suporte para produtos de negócios-ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
+Como administrador do Office 365 para empresas, você tem acesso gratuito aos nossos experientes agentes de suporte. Se você não encontrar as informações necessárias neste site, entre em contato com o suporte para produtos **[comerciais - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
   
 ## <a name="let-your-users-contact-external-skype-or-skype-for-business-users"></a>Deixe seus usuários falarem com usuários externos do Skype ou do Skype for Business
 
@@ -69,7 +69,7 @@ Confira também:
     
 - [Precisa de ajuda para entrar no Skype for Business?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
     
-- [Vídeo: entrar e sair do Skype for Business](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
+- [Vídeo: Entrar e sair do Skype for Business](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
     
 - [Definir opções de dispositivo de áudio no Skype for Business](https://support.office.com/article/2533d929-9814-4349-8ae4-fca29246e2ff)
     
@@ -89,6 +89,6 @@ Confira também:
     
 - [Iniciar uma chamada em conferência no Skype for Business](https://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
     
- **Para obter mais artigos para usuários, consulte [a ajuda do Skype for Business](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410).**
+ **Para obter mais artigos para usuários, consulte [a ajuda do Skype for Business.](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410)**
   
 

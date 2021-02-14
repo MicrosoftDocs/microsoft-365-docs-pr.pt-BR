@@ -31,9 +31,9 @@ ms.locfileid: "46695332"
 
 Uma rede virtual entre locais do Azure está conectada à sua rede local, ampliando sua rede para incluir sub-redes e máquinas virtuais hospedadas em serviços na infraestrutura do Azure. Esta conexão permite que os computadores na sua rede local acessem diretamente máquinas virtuais no Azure e vice-versa. 
 
-Por exemplo, um servidor de sincronização de diretório executando em uma máquina virtual do Azure precisa consultar seus controladores de domínio no local para alterações nas contas e sincronizar essas alterações com sua assinatura do Microsoft 365. Este artigo mostra como configurar uma rede virtual do Azure entre locais usando uma conexão VPN (rede virtual privada) de site a site que está pronta para hospedar máquinas virtuais do Azure.
+Por exemplo, um servidor de sincronização de diretório em execução em uma máquina virtual do Azure precisa consultar seus controladores de domínio locais para alterações nas contas e sincronizar essas alterações com sua assinatura do Microsoft 365. Este artigo mostra como configurar uma rede virtual do Azure entre locais usando uma conexão VPN (rede virtual privada) de site a site que está pronta para hospedar máquinas virtuais do Azure.
 
-## <a name="configure-a-cross-premises-azure-virtual-network"></a>Configurar uma rede virtual do Azure entre locais
+## <a name="configure-a-cross-premises-azure-virtual-network"></a>Configurar uma rede virtual entre locais do Azure
 
 Suas máquinas virtuais no Azure não precisam ser isoladas do seu ambiente local. Para conectar as máquinas virtuais do Azure aos recursos da sua rede local, é preciso configurar uma rede virtual do Azure entre locais. O diagrama a seguir mostra os componentes necessários para implantar uma rede virtual do Azure entre locais com uma máquina virtual no Azure.
   
@@ -336,4 +336,4 @@ Esta é a configuração resultante.
   
 ## <a name="next-step"></a>Próxima etapa
   
-[Implantar a sincronização de diretórios do Microsoft 365 no Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+[Implantar a Sincronização de Diretórios do Microsoft 365 no Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)

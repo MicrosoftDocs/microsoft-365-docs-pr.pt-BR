@@ -1,5 +1,5 @@
 ---
-title: Adicionar um domínio a uma locação de cliente com o Windows PowerShell para parceiros DAP
+title: Adicionar um domínio a um local de cliente com o Windows PowerShell para parceiros DAP
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: f49b4d24-9aa0-48a6-95dd-6bae9cf53d2c
-description: 'Resumo: Use o PowerShell para Microsoft 365 para adicionar um nome de domínio alternativo a um locatário do cliente existente.'
+description: 'Resumo: Use o PowerShell para Microsoft 365 para adicionar um nome de domínio alternativo a um locatário existente do cliente.'
 ms.openlocfilehash: 23137d2e2461e75a22d0403f9b8246a29e48019f
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -28,12 +28,12 @@ ms.locfileid: "46687497"
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Você pode criar e associar novos domínios à locação do cliente com o PowerShell para a Microsoft 365 mais rápido do que usar o centro de administração do Microsoft 365.
+Você pode criar e associar novos domínios à sua loja do cliente com o PowerShell para Microsoft 365 mais rápido do que usar o centro de administração do Microsoft 365.
   
-Os Parceiros com Permissão de Acesso Delegada (DAP) são parceiros da Agregação e dos Provedores de Soluções em Nuvem (CSP). Muitas vezes, eles são provedores de rede ou de telecomunicações para outras empresas. Eles agrupam assinaturas do Microsoft 365 em suas ofertas de serviço para seus clientes. Ao vender uma assinatura do Microsoft 365, elas recebem automaticamente as permissões de administração em nome de (AOBO) para o cliente locações, para que possam administrar e relatar o locações do cliente.
+Os Parceiros com Permissão de Acesso Delegada (DAP) são parceiros da Agregação e dos Provedores de Soluções em Nuvem (CSP). Muitas vezes, eles são provedores de rede ou de telecomunicações para outras empresas. Eles agrupam assinaturas do Microsoft 365 em suas ofertas de serviço para seus clientes. Ao vender uma assinatura do Microsoft 365, eles receberão automaticamente permissões de Administrar em Nome de (AOBO) para as empresas do cliente para que possam administrar e relatar as permissões do cliente.
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-Os procedimentos neste tópico exigem que você se conecte para [se conectar ao Microsoft 365 com o PowerShell](connect-to-microsoft-365-powershell.md).
+Os procedimentos neste tópico exigem que você se conecte ao [Microsoft 365 com o PowerShell.](connect-to-microsoft-365-powershell.md)
   
 Você também precisa ter as credenciais de administrador de locatários do parceiro.
   
@@ -45,18 +45,18 @@ Você também precisará das seguintes informações:
     
 - O FQDN deve ser registrado com um registrador de Serviço de Nomes de Domínio da Internet (DNS), como o GoDaddy. Para saber mais sobre como registrar publicamente um nome de domínio, confira [Como comprar um nome de domínio](https://go.microsoft.com/fwlink/p/?LinkId=532541).
     
-- Você precisa saber como adicionar um registro TXT à zona DNS registrada do seu registrador de DNS. Para obter mais informações sobre como adicionar um registro TXT, consulte [adicionar registros DNS para conectar seu domínio](https://go.microsoft.com/fwlink/p/?LinkId=532542). Se esses procedimentos não funcionarem, localize os procedimentos do seu registrador de DNS.
+- Você precisa saber como adicionar um registro TXT à zona DNS registrada do seu registrador de DNS. Para obter mais informações sobre como adicionar um registro TXT, consulte Adicionar registros [DNS para conectar seu domínio.](https://go.microsoft.com/fwlink/p/?LinkId=532542) Se esses procedimentos não funcionarem, localize os procedimentos do seu registrador de DNS.
     
 ## <a name="create-domains"></a>Criar domínios
 
  Os clientes provavelmente vão solicitar a criação de domínios adicionais para associar às suas locações, uma vez que não pretendem ter o<domínio>.onmicrosoft.compadrão como o domínio principal que representa sua identidade corporativa mundialmente. Este procedimento lhe orienta na criação de um novo domínio associado à locação do cliente.
   
 > [!NOTE]
-> Para realizar algumas dessas operações, a conta de administrador de parceiros que você faz logon deve ser definida como **Administração completa** para a configuração **atribuir acesso administrativo às empresas às quais você dá suporte,** localizada nos detalhes da conta de administrador no centro de administração do Microsoft 365. Para obter mais informações sobre o gerenciamento de funções de administrador de parceiros, consulte [parceiros: oferecer administração delegada](https://go.microsoft.com/fwlink/p/?LinkId=532435). 
+> Para executar algumas dessas operações, a conta de administrador  do parceiro  com a que você entrar deve ser definida como Administração total para atribuir acesso administrativo a empresas às empresas às que você dá suporte à configuração encontrada nos detalhes da conta de administrador no Centro de administração do Microsoft 365. Para obter mais informações sobre como gerenciar funções de administrador de parceiros, [consulte Parceiros: Oferecer administração delegada.](https://go.microsoft.com/fwlink/p/?LinkId=532435) 
   
 ### <a name="create-the-domain-in-azure-active-directory"></a>Criar o domínio no Azure Active Directory
 
-Esse comando cria o domínio no Azure Active Directory, mas não o associa ao domínio registrado publicamente. Isso se deve ao provar que você é o proprietário do domínio registrado publicamente para a Microsoft Microsoft 365 para empresas.
+Esse comando cria o domínio no Azure Active Directory, mas não o associa ao domínio registrado publicamente. Isso acontece quando você provar que é o domínio registrado publicamente no Microsoft 365 para empresas.
   
 ```powershell
 New-MsolDomain -TenantId <customer TenantId> -Name <FQDN of new domain>
@@ -68,7 +68,7 @@ New-MsolDomain -TenantId <customer TenantId> -Name <FQDN of new domain>
 
 ### <a name="get-the-data-for-the-dns-txt-verification-record"></a>Obter os dados do registro de verificação TXT de DNS
 
- O Microsoft 365 irá gerar os dados específicos que você precisa colocar no registro de verificação TXT de DNS. Para obter os dados, execute o seguinte comando.
+ O Microsoft 365 gerará os dados específicos que você precisa colocar no registro de verificação TXT dns. Para obter os dados, execute o seguinte comando.
   
 ```powershell
 Get-MsolDomainVerificationDNS -TenantId <customer TenantId> -DomainName <FQDN of new domain> -Mode DnsTxtRecord
@@ -87,7 +87,7 @@ Isso lhe dará saída como:
   
 ### <a name="add-a-txt-record-to-the-publically-registered-dns-zone"></a>Adicionar um registro TXT à zona DNS registrada publicamente
 
-Antes de o Microsoft 365 começar a aceitar o tráfego direcionado para o nome de domínio registrado publicamente, você deve provar que possui e tem permissões de administrador para o domínio. Para provar que você é o proprietário do domínio, crie um registro TXT nele. Um registro TXT não altera nada em seu domínio e pode ser excluído depois que for provado que você possui o domínio. Para criar os registros TXT, siga os procedimentos em [adicionar registros DNS para conectar seu domínio](https://go.microsoft.com/fwlink/p/?LinkId=532542). Caso esses procedimentos não funcionem, localize os procedimentos do seu registrador de DNS.
+Antes que o Microsoft 365 comece a aceitar tráfego direcionado para o nome de domínio registrado publicamente, você deve provar que é o próprio e tem permissões de administrador para o domínio. Para provar que você é o proprietário do domínio, crie um registro TXT nele. Um registro TXT não altera nada em seu domínio e pode ser excluído depois que for provado que você possui o domínio. Para criar os registros TXT, siga os procedimentos em [Adicionar registros DNS para conectar seu domínio.](https://go.microsoft.com/fwlink/p/?LinkId=532542) Caso esses procedimentos não funcionem, localize os procedimentos do seu registrador de DNS.
   
 Confirme a criação bem-sucedida do registro TXT por meio do nslookup. Execute a seguinte sintaxe.
   
@@ -105,7 +105,7 @@ Isso lhe dará saída como:
   
 ### <a name="validate-domain-ownership-in-microsoft-365"></a>Validar a propriedade do domínio no Microsoft 365
 
-Nesta última etapa, você valida para a Microsoft 365 que você é o proprietário do domínio registrado publicamente. Após esta etapa, a Microsoft 365 começará a aceitar o tráfego roteado para o novo nome de domínio. Para concluir a criação do domínio e o processo de registro, execute o seguinte comando. 
+Nesta última etapa, você valida para o Microsoft 365 que é o domínio registrado publicamente. Após essa etapa, o Microsoft 365 começará a aceitar tráfego roteado para o novo nome de domínio. Para concluir a criação do domínio e o processo de registro, execute o seguinte comando. 
   
 ```powershell
 Confirm-MsolDomain -TenantId <customer TenantId> -DomainName <FQDN of new domain>

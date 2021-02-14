@@ -1,7 +1,7 @@
 ---
-title: Modelos de aviso de gerenciamento de risco do insider
-description: Saiba mais sobre modelos de aviso de gerenciamento de risco do insider no Microsoft 365
-keywords: Microsoft 365, gerenciamento de risco do Insider, gerenciamento de riscos, conformidade
+title: Modelos de aviso de gerenciamento de riscos insider
+description: Saiba mais sobre modelos de aviso de gerenciamento de risco interno no Microsoft 365
+keywords: Microsoft 365, gerenciamento de riscos insider, gerenciamento de riscos, conformidade
 localization_priority: Normal
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -19,21 +19,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/09/2020
 ms.locfileid: "47416475"
 ---
-# <a name="insider-risk-management-notice-templates"></a>Modelos de aviso de gerenciamento de risco do insider
+# <a name="insider-risk-management-notice-templates"></a>Modelos de aviso de gerenciamento de riscos insider
 
-Os modelos de aviso de gerenciamento de risco do insider permitem que você envie mensagens de email aos usuários quando suas atividades geram uma correspondência de política e alerta. Na maioria dos casos, as ações do usuário que geram alertas são o resultado de erros ou atividades inadvertidas sem intenção mal. Os avisos servem como lembretes simples para que os usuários tenham mais cuidado para fornecer links para informações para o treinamento atualizado ou para recursos de política corporativa. Os avisos podem ser uma parte importante do seu programa de treinamento de conformidade interno e podem ajudar a criar uma trilha de auditoria documentada para usuários com atividades recorrentes de riscos.
+Os modelos de aviso de gerenciamento de riscos insider permitem que você envie mensagens de email aos usuários quando suas atividades geram uma política de match e alerta. Na maioria dos casos, as ações do usuário que geram alertas são o resultado de erros ou atividades inadvertida sem má intenção. Os avisos servem como lembretes simples para que os usuários tenham mais cuidado, forneçam links para informações sobre treinamento atualizado ou recursos de política corporativa. Os avisos podem ser uma parte importante do seu programa de treinamento de conformidade interna e podem ajudar a criar uma trilha de auditoria documentada para usuários com atividades de risco recorrentes.
 
-Criar modelos de aviso se quiser enviar aos usuários um aviso de lembrete por email para correspondências de política como parte do processo de solução de problemas. Os avisos só podem ser enviados ao endereço de email do usuário associado ao alerta específico que está sendo revisado. Ao selecionar um modelo de aviso a ser aplicado a uma correspondência de política, você pode optar por aceitar os valores de campo definidos no modelo ou substituir os campos, conforme necessário.
+Crie modelos de aviso se quiser enviar aos usuários um aviso de lembrete por email para as diretivas que fazem parte do processo de resolução de problemas. Os avisos só podem ser enviados para o endereço de email do usuário associado ao alerta específico que está sendo revisado. Ao selecionar um modelo de aviso a ser aplicado a uma política de acordo, você pode optar por aceitar os valores de campo definidos no modelo ou substituir os campos conforme necessário.
 
 ## <a name="notice-templates-dashboard"></a>Painel de modelos de aviso
 
-O **painel de modelos de avisos** exibe uma lista de modelos de aviso configurados e permite que você crie novos modelos de aviso. Os modelos de aviso são listados em ordem de data inversa com o modelo de aviso mais recente listado primeiro.
+O **painel de modelos de Avisos** exibe uma lista de modelos de aviso configurados e permite que você crie novos modelos de aviso. Os modelos de aviso são listados na ordem de data inversa com o modelo de aviso mais recente listado primeiro.
 
-![Painel de modelos de aviso de gerenciamento de risco](../media/insider-risk-notices-dashboard.png)
+![Painel de modelo de aviso de gerenciamento de riscos interno](../media/insider-risk-notices-dashboard.png)
 
 ## <a name="html-for-notices"></a>HTML para avisos
 
-Se quiser criar mais de uma mensagem de email baseada em texto simples para notificações, você poderá criar uma mensagem mais detalhada usando HTML no campo corpo da mensagem de um modelo de aviso. O exemplo a seguir fornece o formato de corpo da mensagem para um modelo de notificação de email baseado em HTML básico:
+Se você quiser criar mais do que uma mensagem de email simples baseada em texto para notificações, crie uma mensagem mais detalhada usando HTML no campo do corpo da mensagem de um modelo de aviso. O exemplo a seguir fornece o formato do corpo da mensagem para um modelo básico de notificação de email baseado em HTML:
 
 ```HTML
 <!DOCTYPE html>
@@ -49,44 +49,44 @@ Se quiser criar mais de uma mensagem de email baseada em texto simples para noti
 ```
 
 > [!NOTE]
-> A implementação de atributo HTML href nos modelos de aviso de gerenciamento de risco do insider atualmente suporta apenas aspas simples em vez de aspas duplas para referências de URL.
+> A implementação de atributos html href nos modelos de aviso de gerenciamento de risco interno atualmente suporta apenas aspas simples em vez de aspas duplas para referências de URL.
 
 ## <a name="create-a-new-notice-template"></a>Criar um novo modelo de aviso
 
-Para criar um novo modelo de aviso de gerenciamento de risco do Insider, você usará o assistente de aviso na solução de **Gerenciamento de risco do insider** no centro de conformidade da Microsoft 365.
+Para criar um novo modelo de aviso de gerenciamento de riscos, você usará o assistente de aviso na solução de gerenciamento de riscos do **Insider** no centro de conformidade do Microsoft 365.
 
-Conclua as etapas a seguir para criar um novo modelo de aviso de gerenciamento de risco do insider:
+Conclua as seguintes etapas para criar um novo modelo de aviso de gerenciamento de risco interno:
 
-1. No [centro de conformidade da Microsoft 365](https://compliance.microsoft.com), vá para gerenciamento de **risco do insider** e selecione a guia **modelos de aviso** .
-2. Selecione **criar modelo de aviso** para abrir o assistente de aviso.
-3. Na página **criar um novo modelo de aviso** , preencha os seguintes campos:
-    - **Nome do modelo**: Insira um nome amigável para o aviso. Esse nome aparece na lista de avisos no painel de aviso e na lista de seleção de aviso ao enviar avisos de uma ocorrência.
-    - **Enviar de**: Insira o endereço de email do remetente para o aviso. Esse endereço aparecerá no campo **de:** em todos os avisos enviados aos usuários, a menos que sejam alterados ao enviar um aviso de um caso.
-    - Campos **CC e Cco** : usuários ou grupos opcionais que serão notificados da correspondência da política, selecionados no Active Directory para a sua assinatura.
-    - **Subject**: as informações que aparecem na linha de assunto da mensagem dão suporte a caracteres de texto.
-    - **Corpo da mensagem**: as informações que aparecem no corpo da mensagem dão suporte a valores de texto ou HTML.
-4. Selecione **criar** para criar e salvar o modelo de aviso ou selecione **Cancelar** para fechar sem salvar o modelo de aviso.
+1. No centro [de conformidade do Microsoft 365,](https://compliance.microsoft.com)vá para o gerenciamento de riscos do **Insider** e selecione a guia Modelos **de** Aviso.
+2. Selecione **Criar modelo de aviso** para abrir o assistente de aviso.
+3. Na página **Criar um novo modelo de aviso,** preencha os seguintes campos:
+    - **Nome do** modelo: insira um nome amigável para o aviso. Esse nome aparece na lista de avisos no painel de aviso e na lista de seleção de avisos ao enviar avisos de uma ocorrência.
+    - **Enviar de:** insira o endereço de email do remetente para o aviso. Esse endereço aparecerá no campo **De:** em todos os avisos enviados aos usuários, a menos que seja alterado ao enviar um aviso de uma ocorrência.
+    - **Campos Cc e Cc:** Usuários ou grupos opcionais a serem notificados sobre a política de match, selecionados no Active Directory para sua assinatura.
+    - **Assunto**: as informações que aparecem na linha de assunto da mensagem têm suporte para caracteres de texto.
+    - **Corpo da** mensagem: informações que aparecem no corpo da mensagem, suportam valores de texto ou HTML.
+4. Selecione **Criar para** criar e salvar o modelo de aviso ou **cancelar** para fechar sem salvar o modelo de aviso.
 
 ## <a name="update-a-notice-template"></a>Atualizar um modelo de aviso
 
-Para atualizar um modelo de aviso de gerenciamento de risco do insider existente, conclua as seguintes etapas:
+Para atualizar um modelo de aviso de gerenciamento de riscos insider existente, conclua as seguintes etapas:
 
-1. No [centro de conformidade da Microsoft 365](https://compliance.microsoft.com), vá para gerenciamento de **risco do insider** e selecione a guia **modelos de aviso** .
+1. No centro [de conformidade do Microsoft 365,](https://compliance.microsoft.com)vá para o gerenciamento de riscos do **Insider** e selecione a guia Modelos **de** Aviso.
 2. No painel de aviso, selecione o modelo de aviso que você deseja gerenciar.
-3. Na página detalhes do aviso, selecione **Editar**
-4. Na página **Editar** , você pode editar os seguintes campos:
-    - **Nome do modelo**: Insira um novo nome amigável para o aviso. Esse nome aparece na lista de avisos no painel de aviso e na lista de seleção de aviso ao enviar avisos de uma ocorrência.
-    - **Enviar de**: Atualize o endereço de email do remetente para o aviso. Esse endereço aparecerá no campo **de:** em todos os avisos enviados aos usuários, a menos que sejam alterados ao enviar um aviso de um caso.
-    - Campos **CC e Cco** : atualizar usuários ou grupos opcionais a serem notificados sobre a correspondência da política, selecionados no Active Directory para a sua assinatura.
-    - **Assunto**: atualização de informações que aparece na linha de assunto da mensagem, com suporte para caracteres de texto.
-    - **Corpo da mensagem**: atualização de informações que aparece no corpo da mensagem, suporta valores de texto ou HTML.
-5. Selecione **salvar** para atualizar e salvar o aviso ou selecione **Cancelar** para fechar sem salvar o modelo de aviso.
+3. Na página de detalhes do aviso, selecione **Editar**
+4. Na página **Editar,** você pode editar os seguintes campos:
+    - **Nome do** modelo: insira um novo nome amigável para o aviso. Esse nome aparece na lista de avisos no painel de aviso e na lista de seleção de avisos ao enviar avisos de uma ocorrência.
+    - **Enviar de:** atualizar o endereço de email do remetente para o aviso. Esse endereço aparecerá no campo **De:** em todos os avisos enviados aos usuários, a menos que seja alterado ao enviar um aviso de uma ocorrência.
+    - **Campos Cc e Cc:** Atualizar usuários ou grupos opcionais para serem notificados sobre a política de match, selecionados no Active Directory para sua assinatura.
+    - **Assunto:** atualize as informações que aparecem na linha de assunto da mensagem, com suporte para caracteres de texto.
+    - **Corpo da** mensagem: atualizar as informações que aparecem no corpo da mensagem, dá suporte a valores de texto ou HTML.
+5. Selecione **Salvar** para atualizar e salvar o aviso ou **selecione Cancelar** para fechar sem salvar o modelo de aviso.
 
 ## <a name="delete-a-notice-template"></a>Excluir um modelo de aviso
 
-Para excluir um modelo de aviso de gerenciamento de risco do insider existente, conclua as seguintes etapas:
+Para excluir um modelo de aviso de gerenciamento de risco interno existente, conclua as seguintes etapas:
 
-1. No [centro de conformidade da Microsoft 365](https://compliance.microsoft.com), vá para gerenciamento de **risco do insider** e selecione a guia **modelos de aviso** .
+1. No centro [de conformidade do Microsoft 365,](https://compliance.microsoft.com)vá para o gerenciamento de riscos do **Insider** e selecione a guia Modelos **de** Aviso.
 2. No painel de aviso, selecione o modelo de aviso que você deseja excluir.
-3. Selecione o ícone **excluir** na barra de ferramentas.
-4. Para excluir o modelo de aviso, selecione **Sim** na caixa de diálogo Excluir. Para cancelar a exclusão, selecione **Cancelar**.
+3. Selecione o **ícone Excluir** na barra de ferramentas.
+4. Para excluir o modelo de aviso, selecione **Sim** na caixa de diálogo excluir. Para cancelar a exclusão, selecione **Cancelar**.
