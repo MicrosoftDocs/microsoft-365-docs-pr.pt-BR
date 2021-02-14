@@ -1,5 +1,5 @@
 ---
-title: Mapa do PowerShell para o Microsoft 365
+title: Roteiro do PowerShell para o Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -20,9 +20,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46687007"
 ---
-# <a name="powershell-roadmap-for-microsoft-365"></a>Mapa do PowerShell para o Microsoft 365
+# <a name="powershell-roadmap-for-microsoft-365"></a>Roteiro do PowerShell para o Microsoft 365
 
-Conteúdo do mapa do PowerShell
+Conteúdo de mapa do PowerShell
 
 ## <a name="next-step"></a>Próxima etapa
 

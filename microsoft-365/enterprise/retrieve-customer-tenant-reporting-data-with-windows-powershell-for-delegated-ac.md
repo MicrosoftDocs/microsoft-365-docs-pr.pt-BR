@@ -1,5 +1,5 @@
 ---
-title: Recuperar dados de relatório do locatário do cliente com o Windows PowerShell para parceiros DAP
+title: Recuperar dados de relatório de locatário do cliente com o Windows PowerShell para parceiros DAP
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -26,11 +26,11 @@ ms.locfileid: "46686983"
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Use o Windows PowerShell remoto para o Microsoft Exchange Online para recuperar relatórios de locatários individuais do cliente.
+Use o Windows PowerShell remoto para Microsoft Exchange Online para recuperar relatórios de locatários individuais do cliente.
   
-Os parceiros de distribuição e provedor de soluções em nuvem (CSP) podem acessar os dados que constituem os relatórios de locatários do cliente diretamente por meio do Windows PowerShell remoto para o PowerShell do Exchange Online. Isso permite aos parceiros coletar e salvar os dados dos relatórios e, em seguida, realizar outras operações neles. Depois de abrir uma conexão remota, recuperar dados de relatório de uma locação é o mesmo que executar qualquer cmdlet em uma locação do cliente.
+Os parceiros da A sindicalização e do Provedor de Soluções na Nuvem (CSP) podem acessar os dados que comporem os relatórios de locatários do cliente diretamente por meio do Windows PowerShell remoto para o PowerShell do Exchange Online. Isso permite aos parceiros coletar e salvar os dados dos relatórios e, em seguida, realizar outras operações neles. Depois de abrir uma conexão remota, recuperar dados de relatório de uma locação é o mesmo que executar qualquer cmdlet em uma locação do cliente.
   
-Neste artigo, você usa o Windows PowerShell remoto para o Exchange Online para se conectar a uma única locação de cliente e recuperar um relatório. Por padrão, o Windows PowerShell não tem suporte para agregar dados de relatórios de várias locações do cliente. Os relatórios que você recuperar com esse procedimento são destinados apenas ao  _DelegatedOrg_ para o qual você se conectar.
+Neste artigo, você usa o Windows PowerShell remoto para Exchange Online para se conectar a um único cliente e recuperar um relatório. Por padrão, o Windows PowerShell não tem suporte para agregar dados de relatórios de várias locações do cliente. Os relatórios que você recuperar com esse procedimento são destinados apenas ao  _DelegatedOrg_ para o qual você se conectar.
   
  
 ## <a name="before-you-begin"></a>Antes de começar

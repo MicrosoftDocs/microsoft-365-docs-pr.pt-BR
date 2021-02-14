@@ -19,17 +19,17 @@ ms.locfileid: "45430454"
 ---
 # <a name="get-started-with-app-control"></a>Introdução ao controle de aplicativos
 
-Antes de habilitar o controle de aplicativos em seu ambiente, leia e entenda [como a área de trabalho gerenciada da Microsoft implementa](../service-description/app-control.md) e suas funções e responsabilidades.
+Antes de habilitar o controle de aplicativos em seu ambiente, revise e entenda como a Área de Trabalho Gerenciada da [Microsoft](../service-description/app-control.md) o implementa e suas funções e responsabilidades.
 
-O Microsoft Managed desktop simplifica o controle de aplicativos ao cuidar dos aspectos mais desafiadores de obter uma política de base segura. Seus administradores de ti ainda devem testar seus aplicativos no anel de teste e examinar os logs em busca de erros ou avisos. Se um aplicativo precisar de uma isenção, você poderá arquivar uma solicitação, ou a operação de área de trabalho gerenciada da Microsoft poderá, dependendo de quem a detecta primeiro.
+A Área de Trabalho Gerenciada da Microsoft simplifica o controle de aplicativos ao cuidar dos aspectos mais desafiadores de obter uma política de base segura. Os administradores de IT ainda devem testar seus aplicativos no anel teste e revisar os logs em busca de avisos ou erros. Se um aplicativo precisar de uma isenção, você poderá fazer uma solicitação ou a Operação da Área de Trabalho Gerenciada da Microsoft poderá, dependendo de quem a detectar primeiro.
 
 ## <a name="initial-deployment-of-apps"></a>Implantação inicial de aplicativos
 
-Quando você implanta aplicativos pela primeira vez, o Microsoft Managed desktop precisa avaliar seu comportamento atual. As etapas exatas para habilitar o controle de aplicativos dependem se os dispositivos já foram implantados em seu ambiente.
+Quando você implanta aplicativos pela primeira vez, a Área de Trabalho Gerenciada da Microsoft precisa avaliar seu comportamento atual. As etapas exatas para ativar o controle de aplicativo dependem se os dispositivos já foram implantados em seu ambiente.
 
-### <a name="devices-not-yet-in-use"></a>Dispositivos que ainda não estão em uso
+### <a name="devices-not-yet-in-use"></a>Dispositivos ainda não em uso
 
-Se você ainda não tiver dispositivos em uso, abra um tíquete de serviço com operações de área de trabalho gerenciada da Microsoft solicitando que o controle de aplicativos seja ativado. As operações implantarão progressivamente políticas em grupos de implantação seguindo esta programação:
+Se você ainda não tiver dispositivos em uso, abra um tíquete de serviço com as Operações de Área de Trabalho Gerenciada da Microsoft solicitando que a adoção do controle de aplicativo. As operações implantarão progressivamente políticas em grupos de implantação seguindo este cronograma:
 
 |Grupo de implantação  |Tipo de política  |Tempo  |
 |---------|---------|---------|
@@ -42,18 +42,18 @@ Você sempre pode abrir outra solicitação de serviço para pausar ou reverter 
 
 ### <a name="devices-already-in-use"></a>Dispositivos já em uso
 
-Se já tiver pelo menos um dispositivo de área de trabalho gerenciado da Microsoft em uso, siga estas etapas:
+Se já tiver pelo menos um dispositivo de Área de Trabalho Gerenciada da Microsoft em uso, siga estas etapas:
 
-1. Abra um tíquete de serviço com operações de área de trabalho gerenciada da Microsoft solicitando que nós ativamos o controle de aplicativos. As operações irão implantar uma [política de auditoria](../service-description/app-control.md#audit-policy) para todos os dispositivos.
-2. [Teste seus aplicativos](../working-with-managed-desktop/work-with-app-control.md#add-a-new-app) para ver se qualquer um será bloqueado. Se um aplicativo for bloqueado, abra uma [solicitação de signatário](../working-with-managed-desktop/work-with-app-control.md#add-or-remove-a-trusted-signer). 
-3. Após concluir o teste (seja qual for o resultado), notifique as operações, observando todas as solicitações de signatário pendentes. As operações implantarão progressivamente políticas em grupos de implantação seguindo esta programação:
+1. Abra um tíquete de serviço com as Operações de Área de Trabalho Gerenciada da Microsoft solicitando que a adoção do controle do aplicativo. As operações implantarão uma [política de auditoria em](../service-description/app-control.md#audit-policy) todos os dispositivos.
+2. [Teste seus aplicativos](../working-with-managed-desktop/work-with-app-control.md#add-a-new-app) para ver se algum seria bloqueado. Se um aplicativo seria bloqueado, abra uma [solicitação de signante.](../working-with-managed-desktop/work-with-app-control.md#add-or-remove-a-trusted-signer) 
+3. Depois de concluir o teste (independentemente dos resultados), notifique o Operations, notificando quaisquer solicitações pendentes do signante. As operações implantarão progressivamente políticas em grupos de implantação seguindo este cronograma:
 
 |Grupo de implantação  |Tipo de política  |Tempo  |
 |---------|---------|---------|
 |Testar     |  Auditoria       |  Dia 0       |
 |Primeiro     | Enforced        | 1º dia        |
-|Rápida     | Enforced        |  Pausa, distribuição na solicitação       |
-|Amplas     | Enforced        |  Pausa, distribuição na solicitação       |
+|Rápida     | Enforced        |  Pausado, lançamento na solicitação       |
+|Amplas     | Enforced        |  Pausado, lançamento na solicitação       |
 
 Você sempre pode abrir outra solicitação de serviço para pausar ou reverter parte dessa implantação a qualquer momento durante a distribuição.
 

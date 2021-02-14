@@ -1,5 +1,5 @@
 ---
-title: Desabilitar o acesso aos serviços do Microsoft 365 enquanto atribui licenças de usuário
+title: Desabilitar o acesso aos serviços do Microsoft 365 ao atribuir licenças de usuário
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -25,15 +25,15 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46687140"
 ---
-# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>Desabilitar o acesso aos serviços do Microsoft 365 enquanto atribui licenças de usuário
+# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>Desabilitar o acesso aos serviços do Microsoft 365 ao atribuir licenças de usuário
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-As assinaturas do Microsoft 365 vêm com planos de serviço para serviços individuais. Os administradores do Microsoft 365 geralmente precisam desabilitar determinados planos ao atribuir licenças aos usuários. Com as instruções deste artigo, você pode atribuir uma licença do Microsoft 365 enquanto desabilita os planos de serviço específicos usando o PowerShell para uma conta de usuário individual ou várias contas de usuário.
+As assinaturas do Microsoft 365 vêm com planos de serviço para serviços individuais. Os administradores do Microsoft 365 geralmente precisam desabilitar determinados planos ao atribuir licenças aos usuários. Com as instruções neste artigo, você pode atribuir uma licença do Microsoft 365 ao desabilitar planos de serviço específicos usando o PowerShell para uma conta de usuário individual ou várias contas de usuário.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
 
-Primeiro, [Conecte-se ao seu locatário do Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 
 Em seguida, liste os planos de licença para seu locatário com este comando.
@@ -42,11 +42,11 @@ Em seguida, liste os planos de licença para seu locatário com este comando.
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-Em seguida, obtenha o nome de entrada da conta para a qual você deseja adicionar uma licença, também conhecido como o nome de usuário principal (UPN).
+Em seguida, obter o nome de logon da conta à qual você deseja adicionar uma licença, também conhecida como nome UPN.
 
-Em seguida, compile uma lista de serviços a serem habilitados. Para obter uma lista completa de planos de licença (também conhecidos como nomes de produtos), seus planos de serviço incluídos e seus nomes amigáveis correspondentes, confira [nomes de produtos e identificadores de planos de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+Em seguida, compile uma lista de serviços para habilitar. Para uma lista completa de planos de licença (também conhecidos como nomes de produtos), seus planos de serviço incluídos e seus nomes amigáveis correspondentes, consulte Nomes de produtos e identificadores de plano de serviço [para licenciamento.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 
-Para o bloco de comando abaixo, preencha o nome principal do usuário da conta de usuário, o número de peça do SKU e a lista de planos de serviço para habilitar e remover o texto explicativo e os \< and > caracteres. Em seguida, execute os comandos resultantes no prompt de comando do PowerShell.
+Para o bloco de comando abaixo, preencha o nome principal do usuário da conta de usuário, o número da parte SKU e a lista de planos de serviço para habilitar e remover o texto explicativo e os \< and > caracteres. Em seguida, execute os comandos resultantes no prompt de comando do PowerShell.
   
 ```powershell
 $userUPN="<user account UPN>"
@@ -67,7 +67,7 @@ Set-AzureADUserLicense -ObjectId $user.ObjectId -AssignedLicenses $LicensesToAss
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Use o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
-Primeiro, [Conecte-se ao seu locatário do Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 Em seguida, execute este comando para ver suas assinaturas atuais:
   
@@ -81,15 +81,15 @@ Get-MsolAccountSku
 
 Na exibição do  `Get-MsolAccountSku` comando:
   
-- **AccountSkuId** é uma assinatura da sua organização em \<OrganizationName> : \<Subscription> Format. O \<OrganizationName> é o valor que você forneceu quando registrou no Microsoft 365 e é exclusivo para sua organização. O \<Subscription> valor é para uma assinatura específica. Por exemplo, para litwareinc: ENTERPRISEPACK, o nome da organização é litwareinc e o nome da assinatura é ENTERPRISEPACK (Office 365 Enterprise E3).
+- **AccountSkuId** é uma assinatura da sua organização no \<OrganizationName> formato : \<Subscription> O valor que você forneceu ao se inscrever no \<OrganizationName> Microsoft 365 e é exclusivo para sua organização. O \<Subscription> valor é para uma assinatura específica. Por exemplo, para litwareinc:ENTERPRISEPACK, o nome da organização é litwareinc e o nome da assinatura é ENTERPRISEPACK (Office 365 Enterprise E3).
     
 - **ActiveUnits** é o número de licenças que você comprou para a assinatura.
     
-- **WarningUnits** é o número de licenças em uma assinatura que você não renovou e que expirarão após o período de cortesia de 30 dias.
+- **WarningUnits** é o número de licenças em uma assinatura que você não renovou e que expirará após o período de carência de 30 dias.
     
 - **ConsumedUnits** é o número de licenças que você atribuiu aos usuários para a assinatura.
     
-Observe o AccountSkuId para sua assinatura do Microsoft 365 que contém os usuários que você deseja licenciar. Além disso, verifique se há licenças suficientes para atribuir (subtrair **ConsumedUnits** de **ActiveUnits** ).
+Observe a AccountSkuId da sua assinatura do Microsoft 365 que contém os usuários que você deseja licenciar. Além disso, verifique se há licenças suficientes para atribuir (subtrair **ConsumedUnits** de **ActiveUnits** ).
   
 Em seguida, execute este comando para ver os detalhes sobre os planos de serviço do Microsoft 365 que estão disponíveis em todas as suas assinaturas:
   
@@ -97,9 +97,9 @@ Em seguida, execute este comando para ver os detalhes sobre os planos de serviç
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 ```
 
-Na exibição desse comando, determine quais planos de serviço você deseja desabilitar ao atribuir licenças aos usuários.
+Na exibição desse comando, determine quais planos de serviço você gostaria de desabilitar ao atribuir licenças aos usuários.
   
-Veja a seguir uma lista parcial de planos de serviço e seus serviços do Microsoft 365 correspondentes.
+Aqui está uma lista parcial de planos de serviço e seus serviços correspondentes do Microsoft 365.
 
 A tabela a seguir mostra os planos de serviço do Microsoft 365 e seus nomes amigáveis para os serviços mais comuns. Sua lista de planos de serviço pode ser diferente. 
   
@@ -109,15 +109,15 @@ A tabela a seguir mostra os planos de serviço do Microsoft 365 e seus nomes ami
 | `TEAMS1` <br/> |Microsoft Teams  <br/> |
 | `YAMMER_ENTERPRISE` <br/> |Yammer  <br/> |
 | `RMS_S_ENTERPRISE` <br/> |Azure Rights Management (RMS)  <br/> |
-| `OFFICESUBSCRIPTION` <br/> |Microsoft 365 Apps for Enterprise *(anteriormente chamado Office 365 ProPlus)*  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |Aplicativos do Microsoft 365 para *empresas (anteriormente denominado Office 365 ProPlus)*  <br/> |
 | `MCOSTANDARD` <br/> |Skype for Business Online  <br/> |
 | `SHAREPOINTWAC` <br/> |Office   <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
 | `EXCHANGE_S_ENTERPRISE` <br/> |Plano 2 do Exchange Online  <br/> |
    
-Para obter uma lista completa de planos de licença (também conhecidos como nomes de produtos), seus planos de serviço incluídos e seus nomes amigáveis correspondentes, confira [nomes de produtos e identificadores de planos de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+Para uma lista completa de planos de licença (também conhecidos como nomes de produtos), seus planos de serviço incluídos e seus nomes amigáveis correspondentes, consulte Nomes de produtos e identificadores de plano de serviço [para licenciamento.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
    
-Agora que você tem o AccountSkuId e os planos de serviço para desabilitar, é possível atribuir licenças para um usuário individual ou para vários usuários.
+Agora que você tem a AccountSkuId e os planos de serviço para desabilitar, você pode atribuir licenças para um usuário individual ou para vários usuários.
   
 ### <a name="for-a-single-user"></a>Para um único usuário
 
@@ -133,7 +133,7 @@ Sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
 ```
 
-Aqui está um exemplo de bloco de comando para a conta chamada belindan@contoso.com, para a licença contoso: ENTERPRISEPACK e os planos de serviço a serem desabilitados são RMS_S_ENTERPRISE, SWAY, INTUNE_O365 e YAMMER_ENTERPRISE:
+Aqui está um exemplo de bloco de comando para a conta chamada belindan@contoso.com, para a licença contoso:ENTERPRISEPACK, e os planos de serviço para desabilitar são RMS_S_ENTERPRISE, SWAY, INTUNE_O365 e YAMMER_ENTERPRISE:
   
 ```powershell
 $userUPN="belindan@contoso.com"
@@ -147,7 +147,7 @@ Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions 
 
 ### <a name="for-multiple-users"></a>Para vários usuários
 
-Para executar essa tarefa de administração para vários usuários, crie um arquivo de texto de valor separado por vírgula (CSV) que contenha os campos UserPrincipalName e UsageLocation. Veja um exemplo:
+Para executar essa tarefa de administração para vários usuários, crie um arquivo de texto de valores separados por vírgula (CSV) que contenha os campos UserPrincipalName e UsageLocation. Veja um exemplo:
   
 ```powershell
 UserPrincipalName,UsageLocation
@@ -156,7 +156,7 @@ LynneB@contoso.onmicrosoft.com,US
 ShawnM@contoso.onmicrosoft.com,US
 ```
 
-Em seguida, preencha o local dos arquivos CSV de entrada e saída, a ID SKU da conta e a lista de planos de serviço a serem desabilitados e, em seguida, execute os comandos resultantes no prompt de comando do PowerShell.
+Em seguida, preencha o local dos arquivos CSV de entrada e saída, a ID de SKU da conta e a lista de planos de serviço a ser desabilitada e execute os comandos resultantes no prompt de comando do PowerShell.
   
 ```powershell
 $inFileName="<path and file name of the input CSV file that contains the users, example: C:\admin\Users2License.CSV>"
@@ -176,7 +176,7 @@ $users | Get-MsolUser | Select UserPrincipalName, Islicensed,Usagelocation | Exp
 }
 ```
 
-Este bloco de comando do PowerShell:
+Este bloco de comandos do PowerShell:
   
 - Exibe o nome principal do usuário de cada usuário.
     

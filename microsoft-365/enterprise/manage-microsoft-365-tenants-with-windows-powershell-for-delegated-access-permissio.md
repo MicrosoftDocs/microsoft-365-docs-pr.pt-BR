@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
-description: Neste artigo, saiba como usar o PowerShell para a Microsoft 365 para gerenciar o locações do cliente.
+description: Neste artigo, saiba como usar o PowerShell para o Microsoft 365 para gerenciar as gestões do cliente.
 ms.openlocfilehash: 14290f04159e3ba0ce46971d204b71d3bb1600d9
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -28,12 +28,12 @@ ms.locfileid: "46687047"
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-O Windows PowerShell permite que os parceiros de distribuição e provedor de soluções em nuvem (CSP) administrem e reportem facilmente as configurações de locação do cliente que não estão disponíveis no centro de administração do Microsoft 365. Observe que as permissões "Administrar em Nome de" (AOBO) são necessárias para a conta de administrador do parceiro para se conectar às locações dos clientes.
+O Windows PowerShell permite que os parceiros de Aplicação e Provedor de Soluções na Nuvem (CSP) administrem e reportem facilmente as configurações de local do cliente que não estão disponíveis no Centro de administração do Microsoft 365. Observe que as permissões "Administrar em Nome de" (AOBO) são necessárias para a conta de administrador do parceiro para se conectar às locações dos clientes.
   
-Os Parceiros com Permissão de Acesso Delegada (DAP) são parceiros da Agregação e dos Provedores de Soluções em Nuvem (CSP). Muitas vezes, eles são provedores de rede ou de telecomunicações para outras empresas. Eles agrupam assinaturas do Microsoft 365 em suas ofertas de serviço para seus clientes. Ao vender uma assinatura do Microsoft 365, elas recebem automaticamente as permissões de administração em nome de (AOBO) para o cliente locações, para que possam administrar e relatar o locações do cliente.
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+Os Parceiros com Permissão de Acesso Delegada (DAP) são parceiros da Agregação e dos Provedores de Soluções em Nuvem (CSP). Muitas vezes, eles são provedores de rede ou de telecomunicações para outras empresas. Eles agrupam assinaturas do Microsoft 365 em suas ofertas de serviço para seus clientes. Quando eles vendem uma assinatura do Microsoft 365, eles são automaticamente concedidos permissões administrar em nome de (AOBO) para as empresas do cliente para que possam administrar e relatar as permissões do cliente.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-Os procedimentos neste tópico exigem que você se conecte para [se conectar ao Microsoft 365 com o PowerShell](connect-to-microsoft-365-powershell.md).
+Os procedimentos neste tópico exigem que você se conecte ao [Microsoft 365 com o PowerShell.](connect-to-microsoft-365-powershell.md)
   
 Você também precisa ter as credenciais de administrador de locatários do parceiro.
   
@@ -76,7 +76,7 @@ Se você registrou domínios adicionais, serão retornados todos os domínios as
   
 ### <a name="get-a-mapping-of-all-tenants-and-registered-domains"></a>Obter um mapeamento de todos os locatários e domínios registrados
 
-Os comandos anteriores do PowerShell para Microsoft 365 mostraram como recuperar IDs de locatários ou domínios, mas não ambos ao mesmo tempo, sem nenhum mapeamento claro entre eles. Esse comando gera uma lista de todas as IDs de Locatários do cliente e os respectivos domínios.
+Os comandos anteriores do PowerShell para Microsoft 365 mostravam como recuperar IDs de locatário ou domínios, mas não ambos ao mesmo tempo e sem nenhum mapeamento claro entre todos eles. Esse comando gera uma lista de todas as IDs de Locatários do cliente e os respectivos domínios.
   
 ```
 $Tenants = Get-MsolPartnerContract -All; $Tenants | foreach {$Domains = $_.TenantId; Get-MsolDomain -TenantId $Domains | fl @{Label="TenantId";Expression={$Domains}},name}
@@ -100,7 +100,7 @@ Get-MsolUser -TenantId <customer TenantId value> -UserPrincipalName <user princi
 
 ### <a name="add-users-set-options-and-assign-licenses"></a>Adicionar usuários, definir opções e atribuir licenças
 
-A criação, configuração e licenciamento em massa de usuários do Microsoft 365 é particularmente eficiente usando o PowerShell para Microsoft 365. Neste processo de duas etapas, você primeiro cria entradas para todos os usuários que deseja adicionar em um arquivo de valores separados por vírgula (CSV) e, em seguida, importa esse arquivo usando o PowerShell para o Microsoft 365. 
+A criação, configuração e licenciamento em massa de usuários do Microsoft 365 é particularmente eficiente ao usar o PowerShell para o Microsoft 365. Nesse processo de duas etapas, você primeiro cria entradas para todos os usuários que deseja adicionar em um arquivo de valores separados por vírgula (CSV) e, em seguida, importa esse arquivo usando o PowerShell para Microsoft 365. 
   
 #### <a name="create-a-csv-file"></a>Criar um arquivo CSV
 
@@ -110,7 +110,7 @@ Crie um arquivo CSV usando este formato:
     
 em que:
   
-- **UsageLocation**: O valor para isso é o código de país/região ISO de duas letras do usuário. Os códigos de país/região podem ser visualizados na[Plataforma de Navegação Online ISO](https://go.microsoft.com/fwlink/p/?LinkId=532703). Por exemplo, o código para os Estados Unidos é US e o código para o Brasil é BR. 
+- **UsageLocation**: O valor para isso é o código de país/região ISO de duas letras do usuário. Os códigos de país/região podem ser visualizados na [Plataforma de Navegação Online ISO](https://go.microsoft.com/fwlink/p/?LinkId=532703). Por exemplo, o código para os Estados Unidos é US e o código para o Brasil é BR. 
     
 - **LicenseAssignment**: O valor para isso tem o seguinte formato: `syndication-account:<PROVISIONING_ID>`. Por exemplo, se você está atribuindo licenças para usuários do O365_Business_Premium, o valor de **LicenseAssignment** tem a seguinte aparência: **syndication-account:O365_Business_Premium**. Você vai encontrar as PROVISIONING_IDs no portal do parceiro de distribuição ao qual tem acesso como um parceiro de agregação ou um CSP.
     

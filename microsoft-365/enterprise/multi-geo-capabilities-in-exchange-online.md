@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
-description: Saiba mais sobre recursos multigeográfico no Exchange Online, como limitações de recurso e posicionamento de caixa de correio.
+description: Saiba mais sobre as funcionalidades multi-geográficas no Exchange Online, como limitações de recursos e posicionamento da caixa de correio.
 ms.openlocfilehash: ca7203c72f23fd03512bf23eaa5a4687e4bac1b5
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

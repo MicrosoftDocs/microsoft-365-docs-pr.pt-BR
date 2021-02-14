@@ -1,5 +1,5 @@
 ---
-title: Princípios de design multinacionais para o Microsoft 365
+title: Princípios de design multinacionais do Microsoft 365
 description: Descrição.
 ms.author: samanro
 author: samanro
@@ -19,6 +19,6 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 07/29/2020
 ms.locfileid: "46521094"
 ---
-# <a name="multi-national-design-principles-for-microsoft-365"></a>Princípios de design multinacionais para o Microsoft 365
+# <a name="multi-national-design-principles-for-microsoft-365"></a>Princípios de design multinacionais do Microsoft 365
 
 Texto

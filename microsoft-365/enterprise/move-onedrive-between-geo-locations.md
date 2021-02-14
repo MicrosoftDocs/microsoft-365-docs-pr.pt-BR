@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: Encontre informações sobre como mover um site do OneDrive para um local geográfico diferente, incluindo como agendar movimentações de site e expectativas de comunicação para os usuários.
+description: Encontre informações sobre como mover um site do OneDrive para uma localização geográfica diferente, incluindo como agendar movimentações de site e comunicar expectativas aos usuários.
 ms.openlocfilehash: 59b3fb47fd195967e7af056c7a71fb4e736471d1
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -24,9 +24,9 @@ ms.locfileid: "46686895"
 ---
 # <a name="move-a-onedrive-site-to-a-different-geo-location"></a>Mover um site do OneDrive para um local geográfico diferente 
 
-Com a movimentação geográfica do OneDrive, você pode mover o OneDrive de um usuário para um local geográfico diferente. A movimentação geográfica do OneDrive é executada pelo administrador do SharePoint Online ou pelo administrador global do Microsoft 365. Antes de iniciar uma movimentação geográfica do OneDrive, lembre-se de notificar o usuário de que o OneDrive está sendo movido e recomenda que eles fechem todos os arquivos durante a movimentação. (Se o usuário tiver um documento aberto usando o cliente do Office durante a movimentação, após a conclusão da movimentação, o documento precisará ser salvo no novo local.) A movimentação pode ser agendada para um momento futuro, se desejado.
+Com a movimentação geográfica do OneDrive, você pode mover o OneDrive de um usuário para uma localização geográfica diferente. A movimentação geográfica do OneDrive é realizada pelo administrador do SharePoint Online ou pelo administrador global do Microsoft 365. Antes de iniciar uma movimentação geográfica do OneDrive, certifique-se de notificar o usuário cujo OneDrive está sendo movido e recomendar que ele feche todos os arquivos durante a mudança. (Se o usuário tiver um documento aberto usando o cliente do Office durante a movimentação, após a conclusão da movimentação, o documento precisará ser salvo no novo local.) A movimentação pode ser agendada para uma hora futura, se desejado.
 
-O serviço do OneDrive usa o armazenamento de blob do Azure para armazenar conteúdo. O blob de armazenamento associado ao OneDrive do usuário será movido da origem para a localização geográfica de destino em 40 dias de destino do OneDrive que estão sendo disponibilizados para o usuário. O acesso ao OneDrive do usuário será restaurado assim que o OneDrive de destino estiver disponível.
+O serviço do OneDrive usa o Armazenamento de Blob do Azure para armazenar conteúdo. O blob de armazenamento associado ao OneDrive do usuário será movido da origem para a localização geográfica de destino dentro de 40 dias após o Destino do OneDrive estar disponível para o usuário. O acesso ao OneDrive do usuário será restaurado assim que o OneDrive de destino for disponibilizado.
 
 Durante a janela de movimentação geográfica do OneDrive (entre 2 e 6 horas), o OneDrive do usuário é definido como somente leitura. O usuário ainda pode acessar os arquivos pelo cliente de sincronização do OneDrive ou pelo site do OneDrive no SharePoint Online. Após a conclusão da movimentação geográfica do OneDrive, o usuário será automaticamente conectado ao seu OneDrive na localização geográfica destinada quando navegar para o OneDrive no inicializador de aplicativos do Microsoft 365. O cliente de sincronização começará automaticamente a sincronizar do novo local.
 
@@ -54,13 +54,13 @@ Você pode agendar as movimentações de site do OneDrive com antecedência (con
 
 ## <a name="moving-a-onedrive-site"></a>Mover um site do OneDrive
 
-Para executar uma movimentação geográfica do OneDrive, o administrador do locatário deve primeiro definir o local de dados preferencial do usuário (PDL) para o local geográfico apropriado. Depois que a PDL estiver definida, aguarde pelo menos 24 horas para que a atualização da PDL seja sincronizada nos locais geográficos antes de iniciar a movimentação geográfica do OneDrive.
+Para executar uma movimentação geográfica do OneDrive, o administrador de locatários deve primeiro definir o Local de Dados Preferencial (PDL) do usuário para a localização geográfica apropriada. Depois que o PDL for definido, aguarde pelo menos 24 horas para que a atualização pdl seja sincronizada entre as localizações geográficas antes de iniciar a movimentação geográfica do OneDrive.
 
-Ao usar os cmdlets de movimentação geográfica, conecte-se ao serviço SPO na localização geográfica atual do OneDrive do usuário, usando a seguinte sintaxe:
+Ao usar os cmdlets de movimentação geográfica, conecte-se ao Serviço SPO na localização geográfica atual do OneDrive do usuário, usando a seguinte sintaxe:
 
 `Connect-SPOService -url https://<tenantName>-admin.sharepoint.com`
 
-Por exemplo: para mover o OneDrive do usuário ' Matt@contosoenergy.onmicrosoft.com ', conecte-se ao centro de administração do SharePoint EUR, pois o OneDrive do usuário está na localização geográfica EUR:
+Por exemplo: para mover o OneDrive do usuário 'Matt@contosoenergy.onmicrosoft.com', conecte-se ao Centro de administração do SharePoint EUR, pois o OneDrive do usuário está na localização geográfica euR:
 
 `Connect-SPOSservice -url https://contosoenergyeur-admin.sharepoint.com`
 
@@ -92,7 +92,7 @@ Usando estes parâmetros:
 
 -   _UserPrincipalName_ – UPN do usuário cujo OneDrive está sendo movido.
 
--   _DestinationDataLocation_ – localização geográfica onde o onedrive precisa ser movido. Deve ser igual ao local de dados preferencial do usuário.
+-   _DestinationDataLocation_ – Geo-Location para onde o OneDrive precisa ser movido. Deve ser igual ao local de dados preferencial do usuário.
 
 Por exemplo, para mover o OneDrive de carlos@contosoenergy.onmicrosoft.com de EUR para AUS, execute:
 
@@ -108,7 +108,7 @@ Para agendar uma movimentação geográfica posteriormente, use um dos seguintes
 
 ## <a name="cancel-a-onedrive-geo-move"></a>Cancelar uma movimentação geográfica do OneDrive 
 
-Você pode parar a movimentação geográfica do OneDrive de um usuário, desde que a movimentação não esteja em andamento ou seja concluída usando o cmdlet:
+Você pode parar a movimentação geográfica do OneDrive de um usuário, desde que a movimentação não está em andamento ou concluída usando o cmdlet:
 
 `Stop-SPOUserAndContentMove – UserPrincipalName <UserPrincipalName>`
 
@@ -116,7 +116,7 @@ Em que _UserPrincipalName_ é o UPN do usuário cuja movimentação do OneDrive 
 
 ## <a name="determining-current-status"></a>Determinar o status atual
 
-Você pode verificar o status de uma movimentação geográfica do OneDrive dentro ou fora da geografia à qual você está conectado usando o cmdlet Get-SPOUserAndContentMoveState.
+Você pode verificar o status de uma movimentação geográfica do OneDrive para dentro ou fora da área geográfica à qual está conectado usando o cmdlet Get-SPOUserAndContentMoveState aplicativo.
 
 Os status de movimentação estão descritas na seguinte tabela:
 
@@ -147,11 +147,11 @@ Os status de movimentação estão descritas na seguinte tabela:
 </tbody>
 </table>
 
-Para localizar o status da movimentação de um usuário específico, use o parâmetro UserPrincipalName:
+Para encontrar o status da movimentação de um usuário específico, use o parâmetro UserPrincipalName:
 
 `Get-SPOUserAndContentMoveState -UserPrincipalName <UPN>`
 
-Para localizar o status de todas as movimentações de ou para a localização geográfica à qual você está conectado, use o parâmetro Movestate com um dos seguintes valores: não iniciado, InProgress, Success, Failed, All.
+Para localizar o status de todas as movimentações dentro ou fora da localização geográfica à qual você está conectado, use o parâmetro MoveState com um dos seguintes valores: NotStarted, InProgress, Success, Failed, All.
 
 `Get-SPOUserAndContentMoveState -MoveState <value>`
 
@@ -163,11 +163,11 @@ Os usuários do OneDrive deverão enfrentar um mínimo de interrupção se o One
 
 ### <a name="onedrive-for-business"></a>OneDrive for Business
 
-Enquanto a movimentação estiver em andamento, o OneDrive do usuário será definido como somente leitura. Após a conclusão da movimentação, o usuário será direcionado para o OneDrive no novo local geográfico quando navegar até o OneDrive no iniciador de aplicativos Microsoft 365 ou em um navegador da Web.
+Enquanto a movimentação está em andamento, o OneDrive do usuário é definido como somente leitura. Depois que a movimentação for concluída, o usuário será direcionado para o OneDrive na nova localização geográfica quando navegar para o OneDrive, o iniciador de aplicativos do Microsoft 365 ou um navegador da Web.
 
 ### <a name="permissions-on-onedrive-content"></a>Permissões sobre o conteúdo do OneDrive
 
-Os usuários com permissões para o conteúdo do OneDrive continuarão a ter acesso ao conteúdo durante a movimentação e após sua conclusão.
+Os usuários com permissões para o conteúdo do OneDrive continuarão a ter acesso ao conteúdo durante a mudança e após sua conclusão.
 
 ### <a name="onedrive-sync-client"></a>Cliente de sincronização do OneDrive 
 
@@ -199,8 +199,8 @@ Após a conclusão da movimentação geográfica do OneDrive, o usuário precisa
 
 ### <a name="existing-followed-groups-and-sites"></a>Grupos e sites seguidos existentes
 
-Os sites e grupos seguidos serão exibidos no OneDrive do usuário independentemente da localização geográfica. Sites e grupos hospedados em outro local geográfico serão abertos em uma guia separada.
+Os sites e grupos seguidos aparecerão no OneDrive do usuário independentemente da localização geográfica. Sites e grupos hospedados em outra localização geográfica serão abertos em uma guia separada.
 
 ### <a name="delve-geo-url-updates"></a>Atualizações da URL geográfica do Delve
 
-Os usuários serão enviados para a geografia do Delve correspondente à sua PDL somente depois que o OneDrive tiver sido movido para a nova geografia.
+Os usuários serão enviados para a área geográfica do Delve correspondente ao PDL somente depois que o OneDrive tiver sido movido para a nova área geográfica.

@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Saiba como usar a ferramenta diagnóstico de página para otimizar o peso da página em páginas do site moderno do SharePoint Online.
+description: Saiba como usar a ferramenta Diagnóstico de Página para otimizar o peso da página nas páginas do site moderno do SharePoint Online.
 ms.openlocfilehash: 64fb3c90db78a23c7f1c3fcfe604c8ef58703be0
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -44,7 +44,7 @@ A ferramenta Diagnóstico de Página para SharePoint é uma extensão do navegad
 >[!NOTE]
 >A ferramenta de Diagnóstico de Página só funciona com o SharePoint Online e não pode ser usada em uma página do sistema do SharePoint.
 
-Ao analisar uma página de site do SharePoint com a ferramenta Diagnóstico de Página para SharePoint, você pode ver informações sobre a página **Peso da página em 500kB** resultado do painel dos _Testes de Diagnóstico _. O resultado será exibido em verde se o peso da página estiver abaixo do valor da linha de base e vermelho se o peso da página exceder o valor da linha de base.
+Ao analisar uma página de site do SharePoint com a ferramenta Diagnóstico de Página para SharePoint, você pode ver informações sobre a página **Peso da página em 500kB** resultado do painel dos _Testes de Diagnóstico_. O resultado será exibido em verde se o peso da página estiver abaixo do valor da linha de base e vermelho se o peso da página exceder o valor da linha de base.
 
 Os resultados possíveis incluem:
 

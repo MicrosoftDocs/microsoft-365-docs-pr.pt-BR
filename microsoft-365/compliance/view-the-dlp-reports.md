@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.custom: seo-marvel-apr2020
-description: Use os relatórios de DLP no Office 365 para exibir o número de correspondências de política de DLP, substituições ou falsos positivos e ver se elas estão se esvidas para cima ou para baixo ao longo do tempo.
+description: Use os relatórios de DLP no Office 365 para exibir o número de políticas de DLP, substituições ou falsos positivos e veja se elas estão mais ou menos tendências ao longo do tempo.
 ms.openlocfilehash: 1ddcd60dc9314779ade2f7ceae02d336f902e483
 ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
@@ -26,73 +26,73 @@ ms.locfileid: "44818991"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Exibir os relatórios de prevenção contra perda de dados
 
-Após criar as políticas de prevenção de perda de dados (DLP), convém verificar se estão funcionando conforme o esperado e ajudando você a se manter em conformidade. Com os relatórios de DLP no centro de conformidade de segurança &amp; , você pode exibir rapidamente:
+Depois de criar suas políticas de prevenção contra perda de dados (DLP), verifique se elas estão funcionando conforme o esperado e se estão ajudando a manter a conformidade. Com os relatórios de DLP no Centro de Conformidade &amp; de Segurança, você pode exibir rapidamente:
   
-- **Correspondências de política DLP** Este relatório mostra a contagem de correspondências de política de DLP ao longo do tempo. Você pode filtrar o relatório por data, local, política ou ação. Você pode usar este relatório para: 
+- **DLP policy matches** Este relatório mostra a contagem de combinações de política de DLP ao longo do tempo. Você pode filtrar o relatório por data, local, política ou ação. Você pode usar esse relatório para: 
     
-  - Ajuste ou Refine suas políticas de DLP enquanto as executa no modo de teste. Você pode exibir a regra específica que correspondeu ao conteúdo.
+  - Ajuste ou refine suas políticas de DLP conforme você as executar no modo de teste. Você pode exibir a regra específica que corresponder ao conteúdo.
     
   - Se concentrar em períodos de tempo específicos e entender os motivos para picos e tendências.
     
   - Descobrir processos empresariais que violam as políticas DLP da organização.
     
-  - Entenda qualquer impacto nos negócios das políticas de DLP observando quais ações estão sendo aplicadas ao conteúdo.
+  - Entenda qualquer impacto comercial das políticas de DLP ao ver quais ações estão sendo aplicadas ao conteúdo.
     
   - Verificar a conformidade com uma determinada política DLP mostrando as correspondências dessa política.
     
-  - Exibir uma lista dos principais usuários e repetir usuários que estão contribuindo com incidentes em sua organização.
+  - Exibir uma lista dos principais usuários e repetir usuários que estão contribuindo para incidentes em sua organização.
     
   - Exibir uma lista dos principais tipos de informações confidenciais em sua organização.
     
-- **Incidentes de DLP** Este relatório também mostra correspondências de política com o tempo, como o relatório de correspondências de política. No entanto, o relatório de correspondências de política mostra correspondências em um nível de regra; por exemplo, se um email coincidir com três regras diferentes, o relatório de correspondência de política mostrará três itens de linha diferentes. Por outro lado, o relatório de incidentes mostra correspondências em um nível de item; por exemplo, se um email coincidir com três regras diferentes, o relatório de incidentes mostrará um único item de linha para essa parte do conteúdo. 
+- **Incidentes de DLP** Esse relatório também mostra as diretivas que coincidem com o tempo, como o relatório de diretivas. No entanto, o relatório de diretivas que corresponde mostra as combinações em um nível de regra; por exemplo, se um email corresponde a três regras diferentes, o relatório de diretivas corresponde a três itens de linha diferentes. Por outro lado, o relatório de incidentes mostra as combinações em um nível de item; por exemplo, se um email corresponder a três regras diferentes, o relatório de incidentes mostrará um único item de linha para esse conteúdo. 
     
-  Como as contagens de relatórios são agregadas de forma diferente, o relatório de correspondências de política é melhor para identificar correspondências com regras específicas e ajustar as políticas de DLP. O relatório de incidentes é melhor para identificar partes específicas do conteúdo que são problemáticas para suas políticas de DLP.
+  Como as contagens de relatório são agregadas de forma diferente, o relatório de políticas corresponde melhor para identificar as combinações com regras específicas e ajustar as políticas DLP. O relatório de incidentes é melhor para identificar partes específicas do conteúdo que são problemáticas para suas políticas de DLP.
     
-- **Falsos positivos e substituições de DLP** Se sua política de DLP permitir que os usuários substituam ou relatem um falso positivo, esse relatório mostrará uma contagem de tais instâncias ao longo do tempo. Você pode filtrar o relatório por data, local ou política. Você pode usar este relatório para: 
+- **Substituições e falsos positivos de DLP** Se sua política de DLP permitir que os usuários a substituam ou re reportem um falso positivo, esse relatório mostrará uma contagem dessas instâncias ao longo do tempo. Você pode filtrar o relatório por data, local ou política. Você pode usar esse relatório para: 
     
-  - Ajuste ou Refine suas políticas de DLP, conferindo quais políticas provocam um grande número de falsos positivos.
+  - Ajuste ou refine suas políticas de DLP ao ver quais políticas incorrem em um alto número de falsos positivos.
     
-  - Exibir as justificativas enviadas pelos usuários quando eles resolverem uma dica de política substituindo a política.
+  - Veja as justificativas enviadas pelos usuários quando eles resolvem uma dica de política substituindo a política.
     
-  - Descubra onde as políticas de DLP entram em conflito com processos de negócios válidos incorrendo um grande número de substituições de usuário.
+  - Descubra onde as políticas de DLP estão em conflito com processos empresariais válidos, incorrendo em um grande número de substituições de usuário.
     
-Todos os relatórios DLP podem mostrar dados do período de tempo de quatro meses mais recente. Os dados mais recentes podem levar até 24 horas para serem exibidos nos relatórios.
+Todos os relatórios de DLP podem mostrar dados do período de quatro meses mais recente. Os dados mais recentes podem levar até 24 horas para aparecer nos relatórios.
   
-Você pode encontrar esses relatórios no &amp; \> **painel relatórios** do centro de conformidade de segurança \> **Dashboard**.
+Você pode encontrar esses relatórios no Painel de Relatórios &amp; do Centro de Conformidade \>  \> **de Segurança.**
   
-![Relatório de correspondências de política DLP](../media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
+![Relatório de combinações de política de DLP](../media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
   
 ## <a name="view-the-justification-submitted-by-a-user-for-an-override"></a>Exibir a justificativa enviada por um usuário para uma substituição
 
-Se sua política de DLP permitir que os usuários o substituam, você poderá usar o falso positivo e substituir relatório para exibir o texto enviado por usuários na dica de política.
+Se sua política DLP permitir que os usuários a substituam, você poderá usar o falso positivo e substituir o relatório para exibir o texto enviado pelos usuários na dica de política.
   
-![Campo de justificativa em detalhes do relatório falso positivo e substituição do DLP](../media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
+![Campo justification in details of the DLP false positive and override report](../media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
   
-## <a name="take-action-on-insights-and-recommendations"></a>Executar ações em ideias e recomendações
+## <a name="take-action-on-insights-and-recommendations"></a>Tomar medidas sobre informações e recomendações
 
-Os relatórios podem mostrar ideias e recomendações onde você pode clicar no ícone de aviso vermelho para ver detalhes sobre possíveis problemas e realizar ações corretivas possíveis.
+Os relatórios podem mostrar insights e recomendações em que você pode clicar no ícone de aviso vermelho para ver detalhes sobre possíveis problemas e tomar uma possível ação corretiva.
   
-![Clicando em um ícone do insights para ver detalhes e ações a serem tomadas](../media/51782036-7299-4960-8175-75c2b1637159.png)
+![Clicar em um ícone do Insights para ver detalhes e ações a tomar](../media/51782036-7299-4960-8175-75c2b1637159.png)
   
-## <a name="permissions-for-dlp-reports"></a>Permissões para relatórios de DLP
+## <a name="permissions-for-dlp-reports"></a>Permissões para relatórios DLP
 
-Para exibir relatórios de DLP no centro de conformidade & segurança, você precisa ter a atribuição de:
+Para exibir relatórios de DLP no Centro de Conformidade & segurança, você deve ter o:
 
-- Função de **leitor de segurança** no centro de administração do Exchange. Por padrão, essa função é atribuída aos grupos de função de gerenciamento de organização e leitor de segurança no centro de administração do Exchange.
+- **Função leitor de** segurança no Centro de administração do Exchange. Por padrão, essa função é atribuída aos grupos de funções Gerenciamento da Organização e Leitor de Segurança no Centro de administração do Exchange.
 
-- **Somente exibição** a função de gerenciamento de conformidade DLP no centro de conformidade de & de segurança. Por padrão, essa função é atribuída aos grupos de função Administrador de conformidade, gerenciamento de organização, administrador de segurança e leitor de segurança no centro de conformidade de & de segurança.
+- **Função de Gerenciamento de Conformidade de DLP somente** para exibição no Centro de Conformidade & Segurança. Por padrão, essa função é atribuída aos grupos de funções Administrador de Conformidade, Gerenciamento da Organização, Administrador de Segurança e Leitor de Segurança no Centro de Conformidade & Segurança.
 
-- Função de **destinatários somente para exibição** no centro de administração do Exchange. Por padrão, essa função é atribuída ao gerenciamento de conformidade, ao gerenciamento da organização e aos grupos de função de gerenciamento da organização somente para exibição no centro de administração do Exchange.
+- **Função Somente Exibição de Destinatários** no Centro de administração do Exchange. Por padrão, essa função é atribuída aos grupos de função Gerenciamento de Conformidade, Gerenciamento da Organização View-Only Gerenciamento da Organização no Centro de administração do Exchange.
 
-## <a name="find-the-cmdlets-for-the-dlp-reports"></a>Localizar os cmdlets dos relatórios de DLP
+## <a name="find-the-cmdlets-for-the-dlp-reports"></a>Encontrar os cmdlets para os relatórios de DLP
 
 Para usar a maioria dos cmdlets do Centro de Conformidade &amp; Segurança, você precisa:
   
-1. [Conectar-se ao &amp; centro de conformidade de segurança usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [Conectar-se ao Centro &amp; de Conformidade de Segurança usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
-2. Use qualquer um desses [ &amp; cmdlets do centro de conformidade de segurança](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
+2. Usar qualquer um desses [ &amp; cmdlets do Centro de Conformidade de Segurança](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
     
-No entanto, os relatórios DLP precisam extrair dados do Office 365, incluindo o Exchange Online. Por esse motivo, os cmdlets dos relatórios DLP estão disponíveis no PowerShell do Exchange Online, e não no &amp; PowerShell do centro de conformidade de segurança. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
+No entanto, os relatórios DLP precisam extrair dados do Office 365, incluindo o Exchange Online. Por esse motivo, os cmdlets para os relatórios de DLP estão disponíveis no Powershell do Exchange Online, não no Powershell do Centro de Conformidade &amp; de Segurança. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
   
 1. [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)
     

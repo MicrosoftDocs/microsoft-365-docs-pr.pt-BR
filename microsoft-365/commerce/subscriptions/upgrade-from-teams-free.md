@@ -1,5 +1,5 @@
 ---
-title: Atualização do Microsoft Teams gratuitamente para o Microsoft 365 for Business
+title: Atualizar do Microsoft Teams Gratuitamente para o Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 - fwlink 2135143
@@ -18,7 +18,7 @@ ms.collection:
 - commerce
 ms.custom: ''
 search.appverid: ''
-description: Saiba como atualizar do Microsoft Teams gratuitamente para uma nova assinatura do Microsoft 365 for Business.
+description: Saiba como atualizar do Microsoft Teams Gratuitamente para uma nova assinatura do Microsoft 365 para empresas.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 07/08/2020
 ms.openlocfilehash: fcd06db64f78c80e5b4a015380e672f529feb0ae
@@ -28,56 +28,56 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/04/2020
 ms.locfileid: "46552453"
 ---
-# <a name="upgrade-from-microsoft-teams-free-to-microsoft-365-for-business"></a>Atualização do Microsoft Teams gratuitamente para o Microsoft 365 for Business
+# <a name="upgrade-from-microsoft-teams-free-to-microsoft-365-for-business"></a>Atualizar do Microsoft Teams Gratuitamente para o Microsoft 365 para empresas
 
 > [!IMPORTANT]
 > Este documento só se aplica às organizações gratuitas do Microsoft Teams na Índia.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador gratuito do Microsoft Teams para atualizar uma organização gratuita do Microsoft Teams.Você é automaticamente um administrador se criou a organização gratuita do Microsoft Teams.
+Você deve ser um administrador gratuito do Microsoft Teams para atualizar uma organização gratuita do Microsoft Teams.Você será automaticamente um administrador se tiver criado a organização Gratuita do Microsoft Teams.
 
-## <a name="step-1-get-your-work-or-school-account-id"></a>Etapa 1: obter sua ID de conta corporativa ou de estudante
+## <a name="step-1-get-your-work-or-school-account-id"></a>Etapa 1: Obter sua ID de conta de trabalho ou de estudante
 
-Para começar o processo, obtenha sua ID de conta corporativa ou de estudante. Essa ID de conta é diferente do endereço de email que você usa para acessar o Microsoft Teams gratuitamente.
+Para iniciar o processo, obter sua ID de conta de trabalho ou de estudante subjacente. Essa ID de conta é diferente do endereço de email que você usa para acessar o Microsoft Teams Gratuitamente.
 
-1. Ir para<a href="https://go.microsoft.com/fwlink/p/?linkid=2134797" target="_blank">https://account.activedirectory.windowsazure.com</a>
-2. No cabeçalho, selecione o ícone de perfil. Sua ID de conta é exibida abaixo do seu nome e termina com *. onmicrosoft.com*. \
-    Seu endereço de email do administrador se parecerá com o *admin@yourfreeorgname.onmicrosoft.com*.
+1. Vá para <a href="https://go.microsoft.com/fwlink/p/?linkid=2134797" target="_blank">https://account.activedirectory.windowsazure.com</a>
+2. No header, selecione o ícone de perfil. Sua ID de conta é exibida abaixo do seu nome e termina com *.onmicrosoft.com*.\
+    Seu endereço de email de administrador será parecido *com admin@yourfreeorgname.onmicrosoft.com*.
 
-## <a name="step-2-reset-your-password"></a>Etapa 2: redefinir sua senha
+## <a name="step-2-reset-your-password"></a>Etapa 2: Redefinir sua senha
 
-Depois de ter a conta de trabalho ou da escola subjacente para o Microsoft Teams gratuito, você deve redefinir a senha da conta.
+Depois de ter a conta de trabalho ou de estudante subjacente para sua organização do Microsoft Teams Free, você deve redefinir a senha da conta.
 
-1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração do Microsoft 365</a>. Quando solicitado a entrar, escolha **esqueceu minha senha**.
-2. Conclua o procedimento de redefinição de senha usando a conta de trabalho ou da escola subjacente (aquela que termina com *. onmicrosoft.com*).
+1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Centro de administração do Microsoft 365.</a> Quando solicitado a entrar, escolha **Esqueceu minha senha.**
+2. Conclua o procedimento de redefinição de senha usando a conta do trabalho ou da escola subjacente (aquela que termina com *.onmicrosoft.com).*
 3. Conclua as etapas de verificação. Você receberá um email com um código a ser usado para definir uma nova senha.
 4. Insira o código para concluir o processo de verificação.
 
 ## <a name="step-3-buy-your-new-subscription"></a>Etapa 3: comprar sua nova assinatura
 
-Use a conta de trabalho ou escolar subjacente que você recuperou e sua nova senha de administrador para comprar uma nova assinatura do Microsoft 365 for Business.
+Use a conta de trabalho ou de estudante subjacente que você recuperou e sua nova senha de administrador para comprar uma nova assinatura do Microsoft 365 para empresas.
 
-1. No centro de administração do Microsoft 365, vá para serviços de compra de **cobrança**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase Services</a>.
-2. Encontre o produto Microsoft 365 for Business que você deseja comprar.
+1. No Centro de administração do Microsoft 365, consulte **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Serviços de Compra</a>.
+2. Encontre o produto do Microsoft 365 para empresas que você deseja comprar.
     > [!IMPORTANT]
-    > Escolha uma que inclua o Microsoft Teams.
-3. Concluir a compra. Lembre-se de comprar licenças suficientes para todos os usuários em sua organização do Microsoft Teams gratuita que você deseja mover para o Microsoft 365 for Business.
+    > Certifique-se de escolher um que inclua o Microsoft Teams.
+3. Conclua a compra. Lembre-se de comprar licenças suficientes para todos os usuários em sua organização gratuita do Microsoft Teams que você deseja mover para o Microsoft 365 para empresas.
 
-## <a name="step-4-assign-new-licenses-to-users"></a>Etapa 4: atribuir novas licenças aos usuários
+## <a name="step-4-assign-new-licenses-to-users"></a>Etapa 4: Atribuir novas licenças aos usuários
 
-Agora que você tem uma nova assinatura do Microsoft 365 for Business, você pode atribuir licenças aos usuários existentes em sua organização gratuita do Microsoft Teams.
+Agora que você tem uma nova assinatura do Microsoft 365 para empresas, pode atribuir licenças aos usuários existentes em sua organização gratuita do Microsoft Teams.
 
-1. No centro de administração, vá para usuários ativos do **usuário**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a>.
-2. Selecione os usuários aos quais você deseja atribuir licenças do Microsoft 365 para empresas e selecione **gerenciar licenças de produto**.
-3. No painel **gerenciar licenças de produto** , selecione **substituir atribuições de licença existentes**.
-4. No painel **substituir produtos existentes** , encontre o produto Microsoft 365 for Business que você comprou e alterne o botão para **Ativar**.
-5. Selecione **substituir**e selecione **fechar**.
+1. No centro de administração, vá para **Usuários**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Ativos.</a>
+2. Selecione os usuários aos quais você deseja atribuir licenças do Microsoft 365 para empresas e, em seguida, selecione **Gerenciar licenças de produto.**
+3. No painel **Gerenciar licenças de** produto, selecione Substituir **atribuições de licença existentes.**
+4. In the **Replace existing products** pane, find the Microsoft 365 for business product that you bought, and switch the toggle to **On**.
+5. Select **Replace**, then select **Close**.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Bem-vindo ao Microsoft Teams grátis](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) (artigo) \
-[Atualizar o Microsoft Teams gratuitamente para a versão de assinatura](https://docs.microsoft.com/microsoftteams/upgrade-freemium) (artigo) \
-[Comprar ou remover licenças de assinatura](../licenses/buy-licenses.md) (artigo) \
-[Atribuir licenças aos usuários](../../admin/manage/assign-licenses-to-users.md) (artigo) \
-[Cancelar a atribuição de licenças de usuários](../../admin/manage/remove-licenses-from-users.md) (artigo)
+[Bem-vindo ao Microsoft Teams gratuitamente](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) (artigo)\
+[Atualizar o Microsoft Teams gratuitamente para a versão de assinatura](https://docs.microsoft.com/microsoftteams/upgrade-freemium) (artigo)\
+[Comprar ou remover licenças de assinatura](../licenses/buy-licenses.md) (artigo)\
+[Atribuir licenças a usuários](../../admin/manage/assign-licenses-to-users.md) (artigo)\
+[Desa designar licenças de usuários](../../admin/manage/remove-licenses-from-users.md) (artigo)

@@ -1,5 +1,5 @@
 ---
-title: Implantar o Microsoft 365 Enterprise para a sua organização
+title: Implantar o Microsoft 365 Enterprise para sua organização
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -20,7 +20,7 @@ ms.custom:
 - Adm_O365
 - seo-marvel-apr2020
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
-description: Estas etapas de visão geral foram projetadas para ajudá-lo a configurar sua rede, criar suas identidades, implantar aplicativos da Microsoft 365 e migrar seus dados.
+description: Estas etapas de visão geral foram projetadas para ajudá-lo a configurar sua rede, criar suas identidades, implantar o Microsoft 365 Apps e migrar seus dados.
 ms.openlocfilehash: 65465b56c5bf9846dab8678b96e17b0646060c74
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -28,27 +28,27 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46687091"
 ---
-# <a name="deploy-microsoft-365-enterprise-for-your-organization"></a>Implantar o Microsoft 365 Enterprise para a sua organização
+# <a name="deploy-microsoft-365-enterprise-for-your-organization"></a>Implantar o Microsoft 365 Enterprise para sua organização
 
 Você está pronto para implantar o Microsoft 365 Enterprise, integrá-lo à sua infraestrutura local e permitir que seus funcionários aproveitem a produtividade e a colaboração baseadas em nuvem?
 
-Este artigo descreve duas opções de implantação, se você deseja obter ajuda ou fazer isso por conta própria. Em cada caso, a Microsoft fornece um caminho orientado a ser seguido para o sucesso da implantação.
+Este artigo descreve duas opções de implantação, quer você queira ajuda ou está fazendo isso por conta própria. Em cada caso, a Microsoft fornece um caminho guiado para você seguir para o sucesso da implantação.
 
-## <a name="guided-microsoft-365-enterprise-setup-process-with-fasttrack"></a>Processo de instalação do Microsoft 365 Enterprise orientado com FastTrack
+## <a name="guided-microsoft-365-enterprise-setup-process-with-fasttrack"></a>Processo de instalação orientado do Microsoft 365 Enterprise com o FastTrack
 
-O **[FastTrack para Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365)** é o melhor método para implantar o Microsoft 365. O FastTrack orienta você pelas configurações de implantação mais comuns e responde a perguntas durante o processo. 
+**[O FastTrack para Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365)** é o melhor método para implantar o Microsoft 365. O FastTrack orienta você pelas configurações de implantação mais comuns e responde a perguntas durante o processo. 
 
-Para acessar uma série de guias de configuração, entre em sua assinatura do Microsoft 365 e vá para a [orientação da instalação](https://aka.ms/o365fasttrack).
+Para acessar uma série de guias de configuração, entre em sua assinatura do Microsoft 365 e, em seguida, acesse as diretrizes [de configuração.](https://aka.ms/o365fasttrack)
 
 >[!Note]
->Você também pode obter ajuda de um [parceiro da Microsoft](https://www.microsoft.com/solution-providers/home).
+>Você também pode obter ajuda de um [parceiro da Microsoft.](https://www.microsoft.com/solution-providers/home)
 >
 
-## <a name="do-it-yourself-guided-deployment-of-microsoft-365-enterprise"></a>Implantação dirigida do Microsoft 365 Enterprise
+## <a name="do-it-yourself-guided-deployment-of-microsoft-365-enterprise"></a>Implantação orientada do Microsoft 365 Enterprise
 
-A implantação do Microsoft 365 Enterprise por conta própria requer que você execute uma pesquisa detalhada para tomar as decisões de design que simplifiquem a configuração do serviço do Microsoft 365 e a adoção do usuário. Inicie seu planejamento [aqui](get-your-organization-ready-for-office-365.md).
+A implantação do Microsoft 365 Enterprise por conta própria exige que você execute pesquisas detalhadas para tomar as decisões de design que simplificam a configuração do serviço do Microsoft 365 e a adoção do usuário. Comece seu planejamento [aqui.](get-your-organization-ready-for-office-365.md)
 
-Para implantar o Microsoft 365 Enterprise sozinho após concluir o planejamento, estas são as etapas recomendadas.
+Para implantar o Microsoft 365 Enterprise por conta própria após concluir o planejamento, estas são as etapas recomendadas.
 
 1. [Configurar a rede](set-up-network-for-microsoft-365.md)
 
@@ -56,29 +56,29 @@ Para implantar o Microsoft 365 Enterprise sozinho após concluir o planejamento,
  
 2. [Configurar suas identidades](protect-your-global-administrator-accounts.md)
 
-   Inclui a determinação de um modelo de identidade (somente na nuvem ou híbrida) e a identidade híbrida, a configuração da sincronização de diretórios entre os serviços de domínio do Active Directory (AD DS) local e sua assinatura do Microsoft 365.
+   Inclui determinar um modelo de identidade (somente nuvem ou híbrida) e, para a identidade híbrida, configurar a sincronização de diretórios entre seus Serviços de Domínio do Active Directory (AD DS) local e sua assinatura do Microsoft 365.
 
-3. [Implementar a segurança](https://docs.microsoft.com/office365/securitycompliance/security-roadmap)
+3. [Implementar segurança](https://docs.microsoft.com/office365/securitycompliance/security-roadmap)
 
-   Inclui a configuração e a implantação de segurança, ameaças e proteções de informações e de locatários básicos e aprimorados para o seu locatário e as identidades nos primeiros 30 dias, 90 dias e posteriores.
+   Inclui a configuração e a implantação de proteções básicas e aprimoradas de segurança, ameaças e informações para seu locatário e identidades nos primeiros 30 dias, 90 dias e depois.
  
 4. [Implantar software cliente](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 
-   Inclui a implantação de aplicativos Microsoft 365 para empresas (anteriormente denominadas Office 365 ProPlus), a versão atualizada em nuvem e sempre atual do pacote do Office (Word, Excel, PowerPoint e outros) em seus dispositivos. Cada licença de cliente do Microsoft 365 inclui uma licença para o Microsoft 365 aplicativos para empresas.
+   Inclui a implantação do Microsoft 365 Apps para empresas (anteriormente denominado Office 365 ProPlus), a versão sempre atual e atualizada na nuvem do pacote do Office (Word, Excel, PowerPoint e outros) em seus dispositivos. Cada licença de cliente do Microsoft 365 inclui uma licença do Microsoft 365 Apps para empresas.
  
-5. [Configurar o gerenciamento de dispositivos móveis](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
+5. [Configurar o gerenciamento de dispositivo móvel](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 
-   O Microsoft 365 Enterprise inclui recursos de gerenciamento de dispositivos móveis que ajudam você a proteger e gerenciar os dispositivos móveis dos seus usuários.
+   O Microsoft 365 Enterprise inclui recursos de gerenciamento de dispositivo móvel que ajudam a proteger e gerenciar os dispositivos móveis dos usuários.
  
 6. [Configurar serviços e aplicativos](configure-services-and-applications.md)
 
-   Inclui informações sobre a migração de seus dados e links para artigos que o ajudarão a usar os principais aplicativos de produtividade da Microsoft 365, como o Exchange Online, o SharePoint Online e o Microsoft Teams.
+   Inclui informações sobre a migração de seus dados e links para artigos que o ajudarão a começar a trabalhar com os principais aplicativos de produtividade do Microsoft 365, como o Exchange Online, o SharePoint Online e o Teams.
  
 7. [Treinar os usuários](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
 
-   Inclui vídeos curtos que ajudam os usuários a obter o máximo do Microsoft 365 rapidamente.
+   Inclui vídeos curtos que ajudam os usuários a tirar o máximo do Microsoft 365 rapidamente.
  
 
 >[!Note]
->Essas etapas também são para empresas e não [fins lucrativos](https://go.microsoft.com/fwlink/?LinkId=627221) que desejam iniciar com uma implantação personalizada do Microsoft 365 Enterprise. 
+>Essas etapas também são para empresas [e entidades](https://go.microsoft.com/fwlink/?LinkId=627221) sem fins lucrativos que querem começar com uma implantação personalizada do Microsoft 365 Enterprise. 
 >

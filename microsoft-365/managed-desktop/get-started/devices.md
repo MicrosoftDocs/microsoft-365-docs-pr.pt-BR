@@ -1,5 +1,5 @@
 ---
-title: Ordenar dispositivos na área de trabalho gerenciada da Microsoft
+title: Solicitar dispositivos na Área de Trabalho Gerenciada da Microsoft
 description: ''
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -16,11 +16,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 07/30/2020
 ms.locfileid: "46529524"
 ---
-# <a name="order-microsoft-managed-desktop-devices"></a>Ordenar dispositivos de área de trabalho gerenciada da Microsoft
+# <a name="order-microsoft-managed-desktop-devices"></a>Solicitar dispositivos da Área de Trabalho Gerenciada da Microsoft
 
-Recomendamos trabalhar com um de nossos parceiros de dispositivo aprovados. Você pode trabalhar com seu contato de conta da Microsoft para saber mais sobre como configurar uma parceria de dispositivo.
+Recomendamos trabalhar com um de nossos parceiros de dispositivos aprovados. Você pode trabalhar com seu contato de conta da Microsoft para obter mais ajuda sobre como configurar uma parceria de dispositivo.
 
-Enquanto isso, você pode revisar a lista de [dispositivos aprovados atualmente](../service-description/device-list.md) que têm suporte para uso com a área de trabalho gerenciada da Microsoft.
+Enquanto isso, você pode revisar [](../service-description/device-list.md) a lista de dispositivos aprovados atualmente com suporte para uso com a Área de Trabalho Gerenciada da Microsoft.
 
 
 
