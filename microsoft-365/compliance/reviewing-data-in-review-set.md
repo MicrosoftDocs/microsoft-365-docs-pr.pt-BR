@@ -1,5 +1,5 @@
 ---
-title: Revisar dados de caso na descoberta eletrônica avançada
+title: Analisar dados de caso na Descoberta eDiscovery Avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,7 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: Saiba mais sobre como revisar os dados de caso em uma revisão definida em descoberta eletrônica avançada.
+description: Saiba mais sobre como analisar dados de caso em um conjunto de revisão na Descoberta Avançada.
 ms.openlocfilehash: 890edc0e813f620944cea1e73bc8f9dc45132eb3
 ms.sourcegitcommit: 2160e7cf373f992dd4d11793a59cb8c44f8d587e
 ms.translationtype: MT
@@ -24,6 +24,6 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/26/2020
 ms.locfileid: "48285347"
 ---
-# <a name="review-case-data-in-advanced-ediscovery"></a>Revisar dados de caso na descoberta eletrônica avançada
+# <a name="review-case-data-in-advanced-ediscovery"></a>Analisar dados de caso na Descoberta eDiscovery Avançada
 
 Em breve.

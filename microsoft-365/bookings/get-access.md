@@ -1,5 +1,5 @@
 ---
-title: Obter acesso a reservas da Microsoft
+title: Obter acesso ao Microsoft Bookings
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 5382dc07-aaa5-45c9-8767-502333b214ce
-description: Saiba como obter acesso ao recurso de reservas no Microsoft 365.
+description: Saiba como obter acesso ao recurso do Bookings no Microsoft 365.
 ms.openlocfilehash: 5d4ccc76b8cfc67b4e92fa02f65a1badd7b8dc13
 ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
 ms.translationtype: MT
@@ -18,27 +18,27 @@ ms.locfileid: "47419201"
 ---
 # <a name="get-access-to-microsoft-bookings"></a>Obter acesso ao Microsoft Bookings
 
-Este tópico descreve como obter acesso a reservas pela primeira vez. Também informa como ativar ou desativar reservas em sua organização. Também explica como você pode atribuir licenças aos seus usuários para que eles possam acessar e usar reservas.
+Este tópico descreve como obter acesso ao Bookings pela primeira vez. Ele também mostra como ativar ou desativar o Bookings em sua organização. Ele também explica como você pode atribuir licenças aos usuários para que eles possam acessar e usar o Bookings.
 
-## <a name="access-bookings-for-the-first-time"></a>Acessar reservas pela primeira vez
+## <a name="access-bookings-for-the-first-time"></a>Acessar o Bookings pela primeira vez
 
-Se seu administrador de TI tiver concedido acesso a reservas, você poderá acessar o aplicativo através do Office Online.
+Se o administrador de TI tiver concedido acesso ao Bookings, você poderá acessar o aplicativo por meio do Office online.
 
-Na primeira vez em que você usar o [livro](https://outlook.office.com/bookings/onboarding) , criará um calendário e definirá sua empresa.
+Na primeira vez que usar [o Bookings,](https://outlook.office.com/bookings/onboarding) você criará um calendário e configurará sua empresa.
 
-1. Selecione **obter agora** e escolha **Adicionar um calendário de reserva**. Se essa não for a primeira vez nesta página, você poderá selecionar outro calendário de reserva ou fazer uma pesquisa para outro calendário de reserva.
+1. Selecione **Obter agora e** escolha, Adicionar um calendário de **reserva.** Se essa não for a primeira vez nesta página, você poderá selecionar outro calendário de reserva ou pesquisar outro calendário de reserva.
 
-:::image type="content" source="media/bookings - get it now.png" alt-text="Captura de tela: página de reservas agora. Selecione fazer agora para começar a usar o recurso de reservas":::
+:::image type="content" source="media/bookings - get it now.png" alt-text="Screenshot: Get it now bookings page. Selecione Obter agora para começar a usar o Bookings":::
 
-2. Insira o nome da empresa e o tipo de negócios e selecione **continuar**.
+2. Insira seu nome de negócios e tipo de negócios e selecione **Continuar**.
 
-Agora você está pronto para configurar reservas para sua organização. Você pode acessar a página de reservas com este [link](https://outlook.office.com/bookings/onboarding), no inicializador de aplicativos ou no Office.com. Use os tópicos a seguir para continuar a configurar seus recursos de livro.
+Agora você está pronto para configurar o Bookings para sua organização. Você pode chegar à página do Bookings com este [link,](https://outlook.office.com/bookings/onboarding)no iniciador de aplicativos ou no office.com. Use os tópicos a seguir para continuar configurando seus recursos do Bookings.
 
 - [Insira suas informações comerciais](enter-business-information.md)
-- [Adicionar equipe a reservas](add-staff.md)
-- [Definir suas ofertas de serviços](define-service-offerings.md)
-- [Agendar feriados comerciais, folgas e horários de férias](schedule-closures-time-off-vacation.md)
-- [Definir suas políticas de agendamento](set-scheduling-policies.md)
-- [Definir horário de trabalho do funcionário](employee-hours.md)
-- [Personalizar e publicar sua página de reservas](customize-booking-page.md)
+- [Adicionar funcionários ao Microsoft Bookings](add-staff.md)
+- [Definir suas ofertas de serviço](define-service-offerings.md)
+- [Agendar fechamentos comerciais, folgas e períodos de férias](schedule-closures-time-off-vacation.md)
+- [Configurar as políticas de agendamento](set-scheduling-policies.md)
+- [Definir o horário de trabalho dos funcionários](employee-hours.md)
+- [Personalizar e publicar a página de reserva](customize-booking-page.md)
 - [Criar uma reserva manual](create-a-manual-booking.md)

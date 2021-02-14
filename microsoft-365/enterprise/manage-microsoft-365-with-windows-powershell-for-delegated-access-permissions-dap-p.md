@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: be497751-596f-431d-b256-0a89d36a47ce
-description: Como os parceiros de distribuição e provedor de soluções em nuvem (CSP) podem usar o Windows PowerShell para gerenciar os locatários do cliente Microsoft 365.
+description: Como os parceiros de A sindicalização e provedor de soluções na nuvem (CSP) podem usar o Windows PowerShell para gerenciar locatários de clientes do Microsoft 365.
 ms.openlocfilehash: a7b2fbb5423e3b923e17aa2d9c488e7dd085be35
 ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
 ms.translationtype: MT
@@ -26,15 +26,15 @@ ms.locfileid: "47429873"
 ---
 # <a name="how-to-manage-microsoft-365-with-windows-powershell-for-delegated-access-permissions-partners"></a>Como gerenciar o Microsoft 365 com o Windows PowerShell para parceiros com permissões de acesso delegado
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Os Parceiros com Permissão de Acesso Delegada (DAP) são parceiros da Agregação e dos Provedores de Soluções em Nuvem (CSP). Muitos são provedores de rede ou de telecomunicações. Eles agrupam assinaturas do Microsoft 365 em suas ofertas de serviço. Ao vender uma assinatura do Microsoft 365, elas recebem automaticamente permissões de administração em nome de (AOBO) para o locações do cliente, para que possam administrar e relatar esses locações. Essas tarefas são difíceis de fazer no centro de administração do Microsoft 365. É muito mais fácil usar o PowerShell para a Microsoft 365 para realizar tarefas administrativas, como:
-- Listar todos os **TenantIds** do cliente e seus domínios 
-- Identificar todos os usuários em um locatário do cliente e suas licenças atribuídas
+Os Parceiros com Permissão de Acesso Delegada (DAP) são parceiros da Agregação e dos Provedores de Soluções em Nuvem (CSP). Muitos são provedores de rede ou de telecomunicações. Eles agrupam assinaturas do Microsoft 365 em suas ofertas de serviço. Ao vender uma assinatura do Microsoft 365, eles receberão automaticamente permissões de Administrar em Nome de (AOBO) para as empresas do cliente para que possam administrar e relatar essas permissões. Essas tarefas são difíceis de fazer no centro de administração do Microsoft 365. É muito mais fácil usar o PowerShell para Microsoft 365 para realizar tarefas administrativas, como:
+- Listar todos os **tenantIds do** cliente e seus domínios 
+- Identificar todos os usuários em uma instalação do cliente e suas licenças atribuídas
 > [!NOTE]
 > Algumas tarefas administrativas só podem ser feitas no PowerShell.
 
-Os artigos a seguir mostram como os parceiros de agregação e CSP usam o PowerShell para administrar seus locações de cliente:
+Os artigos a seguir mostram como os parceiros de A syndication e CSP usam o PowerShell para administrar as empresas dos clientes:
   
 - [Gerenciar locatários do Microsoft 365 com o Windows PowerShell para parceiros com permissões de acesso delegado (DAP)](manage-microsoft-365-tenants-with-windows-powershell-for-delegated-access-permissio.md)
     

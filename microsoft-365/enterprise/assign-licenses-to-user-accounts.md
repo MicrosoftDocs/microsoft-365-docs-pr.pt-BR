@@ -39,11 +39,11 @@ ms.locfileid: "48326502"
 
 Para o modelo de identidade somente na nuvem, você pode atribuir licenças do Microsoft 365 a contas de usuário à medida que elas são criadas, dependendo de como você as cria.
 
-Para o modelo de identidade híbrida, quando as contas de usuário dos serviços de domínio Active Directory (AD DS) são sincronizadas pela primeira vez, elas não são automaticamente atribuídas a um local ou uma licença do Microsoft 365. **Você deve configurar cada conta de usuário com um local de usuário antes ou depois de atribuir uma licença.**
+Para o modelo de identidade híbrida, quando as contas de usuário dos Serviços de Domínio Active Directory (AD DS) são sincronizadas pela primeira vez, elas não são atribuídas automaticamente a um local ou uma licença do Microsoft 365. **Você deve configurar cada conta de usuário com um local de usuário antes ou junto com a atribuição de uma licença.**
 
-Em ambos os casos, você deve atribuir uma licença às contas de usuário para que seus usuários possam acessar os serviços do Microsoft 365, como email e Microsoft Teams.
+Em ambos os casos, você deve atribuir uma licença a contas de usuário para que os usuários possam acessar os serviços do Microsoft 365, como email e Microsoft Teams.
 
-Você pode atribuir licenças a contas de usuário individualmente ou automaticamente através da Associação de grupo.
+Você pode atribuir licenças a contas de usuário individualmente ou automaticamente por meio da associação de grupo.
 
 Para atribuir licenças do Microsoft 365 a contas de usuário individuais, você pode usar:
 
@@ -53,7 +53,7 @@ Para atribuir licenças do Microsoft 365 a contas de usuário individuais, você
 
 ## <a name="group-based-licensing"></a>Licenciamento com base em grupo
 
-Você pode configurar grupos de segurança no Azure AD para atribuir licenças automaticamente a partir de um conjunto de assinaturas para todos os membros do grupo. Isso é conhecido como *licenciamento baseado em grupo*. Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão automaticamente atribuídas ou não atribuídas à conta do usuário.
+Você pode configurar grupos de segurança no Azure AD para atribuir automaticamente licenças de um conjunto de assinaturas a todos os membros do grupo. Isso é conhecido como *licenciamento baseado em grupo*. Se uma conta de usuário for adicionada ou removida do grupo, as licenças das assinaturas do grupo serão automaticamente atribuídas ou não atribuídas à conta do usuário.
 
 Verifique se você tem licenças suficientes para todos os membros do grupo. Se você ficar sem licenças, os novos usuários não receberão licenças até que as licenças estejam disponíveis.
 
@@ -61,13 +61,13 @@ Verifique se você tem licenças suficientes para todos os membros do grupo. Se 
 >Você não deve configurar o licenciamento baseado em grupo para grupos que contenham contas do Azure para empresas (B2B).
 >
 
-Para saber mais, confira [Licenciamento baseado em grupo no Azure ad](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).
+Para obter mais informações, consulte [licenciamento baseado em grupo no Azure AD.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal)
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Com o conjunto apropriado de contas de usuário às quais foram atribuídas licenças, agora você está pronto para:
+Com o conjunto apropriado de contas de usuário que foram atribuídas licenças, agora você está pronto para:
 
-- [Implementar a segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
-- [Implantar software cliente, como o Microsoft 365 aplicativos](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
+- [Implementar segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
+- [Implantar software cliente, como o Microsoft 365 Apps](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 - [Configurar o gerenciamento de dispositivos](device-management-roadmap-microsoft-365.md)
 - [Configurar serviços e aplicativos](configure-services-and-applications.md)

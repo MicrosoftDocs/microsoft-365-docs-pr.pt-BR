@@ -1,5 +1,5 @@
 ---
-title: Avaliação de rede do Microsoft 365 (versão prévia)
+title: Avaliação de rede do Microsoft 365 (visualização)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,7 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Avaliação de rede do Microsoft 365 (versão prévia)
+description: Avaliação de rede do Microsoft 365 (visualização)
 ms.openlocfilehash: 3d80130dbf9ca41342bc1a01fe3ce992303efb48
 ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
@@ -21,64 +21,64 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48200742"
 ---
-# <a name="microsoft-365-network-assessment-preview"></a>Avaliação de rede do Microsoft 365 (versão prévia)
+# <a name="microsoft-365-network-assessment-preview"></a>Avaliação de rede do Microsoft 365 (visualização)
 
-Na conectividade de rede do centro de administração do Microsoft 365, as **avaliações de rede** expostam uma agregação de muitas métricas de desempenho de rede em um instantâneo da integridade do perímetro da rede corporativa, representado por um valor de pontos de 0-100. Uma avaliação de rede informa quanto o design de rede responsável pelo cliente está impactando a experiência do usuário do Office 365. As avaliações de rede têm o escopo para o locatário inteiro e para cada localização geográfica a partir da qual os usuários se conectam ao seu locatário, fornecendo aos administradores da Microsoft 365 uma maneira fácil de obter instantaneamente um Gestalt da integridade da rede da empresa e rapidamente se aprofundam em um relatório detalhado de qualquer local do escritório global.
+Na conectividade de rede do Centro de Administração do Microsoft 365, as avaliações de rede agregam uma agregação de muitas **métricas** de desempenho de rede em um instantâneo da sua saúde de perímetro de rede corporativa, representada por um valor de pontos de 0 a 100. Uma avaliação de rede informa o quanto o design de rede responsável pelo cliente está afetando a experiência do usuário do Office 365. As avaliações de rede têm como escopo todo o locatário e para cada localização geográfica a partir da qual os usuários se conectam ao seu locatário, fornecendo aos administradores do Microsoft 365 uma maneira fácil de compreender instantaneamente uma gestão da saúde da rede da empresa e detalhar rapidamente um relatório detalhado para qualquer local de escritório global.
 
-O valor de pontos de avaliação de rede é uma média de latência TCP, velocidade de download e métricas de qualidade de conexão UDP compiladas uma vez por dia. As métricas de desempenho para redes de propriedade da Microsoft são excluídas dessas medidas para garantir que os resultados da avaliação sejam inequívocas e específicos da rede corporativa.
+O valor dos pontos de avaliação de rede é uma média de latência de TCP, velocidade de download e métricas de qualidade de conexão UDP compiladas uma vez por dia. As métricas de desempenho para redes de propriedade da Microsoft são excluídas dessas medições para garantir que os resultados da avaliação não sejam ambíguos e específicos à rede corporativa.
 
 ![Valor de avaliação de rede](../media/m365-mac-perf/m365-mac-perf-overview-score-top.png)
 
-Um valor de avaliação de rede muito baixo sugere que os clientes do Microsoft 365 terão problemas significativos para se conectar ao locatário ou manter uma experiência de usuário responsiva, enquanto um valor alto indica uma rede configurada corretamente com poucos problemas de desempenho contínuos. Um valor de 80% representa uma linha de base saudável onde você não deve receber queixas regulares do usuário sobre a conectividade ou a capacidade de resposta do Microsoft 365 devido ao desempenho da rede. Conforme são feitas melhorias de conectividade de rede iterativa, esse valor aumentará junto com a experiência do usuário.
+Um valor de avaliação de rede muito baixo sugere que os clientes do Microsoft 365 terão problemas significativos para se conectar ao locatário ou manter uma experiência do usuário responsiva, enquanto um valor alto indica uma rede corretamente configurada com poucos problemas de desempenho contínuos. Um valor de 80% representa uma linha de base saudável em que você não deve esperar receber reclamações de usuários regulares sobre a conectividade ou a capacidade de resposta do Microsoft 365 devido ao desempenho da rede. À medida que melhorias iterativas de conectividade de rede são feitas, esse valor aumentará junto com a experiência do usuário.
 
-| Avaliação de rede | Experiência de usuário esperada |
+| Avaliação de rede | Experiência do usuário esperada |
 | :----------------- | :----------------------- |
 | 100                | Melhor                     |
 | 80                 | Atende às recomendações    |
 | 60                 | Aceitável               |
-| 40                 | Os usuários podem enfrentar problemas |
-| 508                 | Os usuários podem reclamar       |
-| ,0                  | Problemas de rede um tópico comum de discussão |
+| 40                 | Os usuários podem ter problemas |
+| 20                 | Os usuários podem reclamar       |
+| 0                  | Problemas de rede um tópico comum de discussão |
 
 >[!IMPORTANT]
->Os insights de rede, as recomendações de desempenho e as avaliações no centro de administração do Microsoft 365 estão atualmente no status de visualização e só estão disponíveis para os locatários do Microsoft 365 que foram registrados no programa de visualização de recurso.
+>Informações de rede, recomendações de desempenho e avaliações no Centro de administração do Microsoft 365 estão atualmente no status de visualização e só estão disponíveis para locatários do Microsoft 365 que foram inscritos no programa de visualização de recursos.
 
 ## <a name="network-assessment-panel"></a>Painel de avaliação de rede
 
-Cada avaliação de rede, com escopo para o locatário ou para um local específico do Office, mostra um painel com detalhes sobre a avaliação. Este painel mostra um gráfico de barras da avaliação como uma porcentagem e como o total de pontos para cada carga de trabalho do componente, incluindo apenas as cargas de trabalho onde os dados de medição foram recebidos. Para uma avaliação de rede de local do Office, também mostramos uma comparação com a porcentagem de clientes da Microsoft 365 em cada um dos cinco Quintiles que relatavam dados na mesma cidade do local do escritório.
+Cada avaliação de rede, seja com escopo para o locatário ou para um local específico do escritório, mostra um painel com detalhes sobre a avaliação. Este painel mostra um gráfico de barras da avaliação como uma porcentagem e como o total de pontos para cada carga de trabalho de componente, incluindo apenas cargas de trabalho em que os dados de medição foram recebidos. Para uma avaliação da rede local do escritório, também mostramos uma comparação com a porcentagem de clientes do Microsoft 365 em cada um dos cinco milimos que relataram dados na mesma cidade do seu local de escritório.
 
 ![Exemplo de valor de avaliação de rede](../media/m365-mac-perf/m365-mac-perf-overview-score.png)
 
-A **divisão de avaliação** no painel mostra a avaliação de cada uma das cargas de trabalho do componente.
+O **detalhamento da Avaliação** no painel mostra a avaliação de cada uma das cargas de trabalho do componente.
 
-O **histórico de avaliação** mostra os últimos 30 dias da avaliação e o benchmark. Você também pode relatar o histórico de métricas de qualquer local do Office por até dois anos usando a guia histórico. A guia histórico permite que você selecione seus atributos para relatar e escolhendo um período de relatório, você pode realçar o impacto de um projeto de atualização de rede e ver a melhoria na avaliação da sua rede.
+O **histórico de avaliação** mostra os últimos 30 dias da avaliação e o parâmetro de comparação. Você também pode relatar o histórico de métricas de qualquer local do escritório por até dois anos usando a guia histórico. A guia histórico permite que você selecione seus atributos para relatar e escolhendo um período de tempo de relatório que você pode destacar o impacto de um projeto de atualização de rede e ver o aprimoramento da sua avaliação de rede.
 
-## <a name="tenant-network-assessments-and-office-location-network-assessments"></a>Avaliações de rede de locatários e avaliações de rede de local do escritório
+## <a name="tenant-network-assessments-and-office-location-network-assessments"></a>Avaliações de rede de locatários e avaliações de rede local do escritório
 
-Uma avaliação de rede mede o design do perímetro de rede de um local do escritório para a rede da Microsoft. Os aprimoramentos no perímetro de rede são mais bem executados em cada local do escritório.
+Uma avaliação de rede mede o design do perímetro de rede de um local de escritório para a rede da Microsoft. É melhor fazer melhorias no perímetro da rede em cada local do escritório.
 
-Mostramos um valor de avaliação de rede para todo o Microsoft 365 locatário na página de visão geral do desempenho da rede, que é uma média ponderada das avaliações de rede para todos os locais do Office. Há também um valor de avaliação de rede específico para cada local de escritório detectado na página de resumo desse local.
+Mostramos um valor de avaliação de rede para todo o locatário do Microsoft 365 na página de visão geral do desempenho da rede, que é uma média ponderada das avaliações de rede para todos os locais de escritório. Há também um valor de avaliação de rede específico para cada local de escritório detectado na página de resumo desse local.
 
 ## <a name="exchange-online"></a>Exchange Online
 
-Para o Exchange Online, a latência TCP da máquina cliente para a porta frontal do serviço do Exchange é medida. Isso pode ser afetado pela distância que a rede se movimenta na LAN e na WAN dos clientes. Também pode ser afetado por dispositivos ou serviços intermediários de rede que atrasam a conectividade ou fazem com que os pacotes sejam reenviados. E é afetado por quanto distância da porta frontal mais próxima do Exchange Service é. A mediana (também conhecida como a medida 50 º percentil ou P50) é tomada para todas as medições nos três dias anteriores.
+Para o Exchange Online, a latência TCP da máquina cliente para a porta frontal do serviço do Exchange é medida. Isso pode ser afetado pela distância que a rede percorre pela LAN e WAN dos clientes. Ele também pode ser afetado por dispositivos ou serviços intermediários de rede que atrasam a conectividade ou causam a reenconsão dos pacotes. E isso é afetado pela distância da porta frontal do serviço Exchange mais próxima. A mediana (também conhecida como 50º percentil ou medida P50) é tomada para todas as medições dos três dias anteriores.
 
-A avaliação do Exchange Online é feita usando a tabela a seguir. Qualquer número de latência TCP entre os limites é atribuído pontos linearmente dentro da banda.
+A avaliação do Exchange Online é feita usando a tabela a seguir. Qualquer número de latência TCP entre os limites é atribuído a pontos linearmente dentro da faixa.
 
 | Latência TCP   | Pontos |
 | :------------ | :----- |
 | 10 ms ou menos  | 100    |
-| 25ms          | 80     |
+| 25 ms          | 80     |
 | 100 ms         | 60     |
-| 200ms         | 40     |
-| 300ms         | 508     |
-| 350ms ou mais | ,0      |
+| 200 ms         | 40     |
+| 300 ms         | 20     |
+| 350 ms ou mais | 0      |
 
 ## <a name="sharepoint-online"></a>SharePoint Online
 
-Para o SharePoint Online, a velocidade de download disponível para o usuário acessar um documento do SharePoint ou do OneDrive é medida. Isso pode ser afetado pela largura de banda disponível em circuitos de rede entre a máquina cliente e a rede da Microsoft. Também é possível impactar com o congestionamento de rede que existe em gargalos em dispositivos de rede complexos ou em áreas de Wi-Fi de cobertura ruim. A velocidade de download é medida em megabytes por segundo, que é aproximadamente um décimo de um dos circuitos classificados de megabits por segundo. A unidade de MegaByte por segundo é útil porque você pode ver diretamente o arquivo de tamanho que pode ser baixado em 1 segundo. O 25º percentil (também conhecido como a medida P25) é usado para todas as medições nos três dias anteriores. Este 25º percentil ajuda a reduzir o impacto de congestionamento variável ao longo do tempo.
+Para o SharePoint Online, a velocidade de download disponível para um usuário acessar um documento do SharePoint ou do OneDrive é medida. Isso pode ser afetado pela largura de banda disponível em circuitos de rede entre o computador cliente e a rede da Microsoft. Ela também é frequentemente afetada pelo congestionamento de rede que existe em gargalos em dispositivos de rede complexos ou em áreas de cobertura Wi-Fi ruins. A velocidade de download é medida em megabytes por segundo, que é aproximadamente um décimo de um circuito classificado de megabits por segundo. A unidade MegaByte por segundo é útil porque você pode ver diretamente qual arquivo de tamanho pode ser baixado em 1 segundo. O 25º percentil (também conhecido como medida P25) é feito para todas as medições dos três dias anteriores. Esse 25º percentil ajuda a reduzir o impacto da variação do congestionamento ao longo do tempo.
 
-A avaliação do SharePoint Online é feita usando a tabela a seguir. Qualquer número de velocidade de download entre os limites é atribuído pontos linearmente na banda.
+A avaliação do SharePoint Online é feita usando a tabela a seguir. Qualquer número de velocidade de download entre os limites é atribuído a pontos linearmente dentro da faixa.
 
 | Velocidade de download | Pontos |
 | :------------- | :----- |
@@ -86,21 +86,21 @@ A avaliação do SharePoint Online é feita usando a tabela a seguir. Qualquer n
 | 14MBps         | 80     |
 | 8MBps          | 60     |
 | 4MBps          | 40     |
-| 2MBps          | 508     |
-| 0MBps          | ,0      |
+| 2MBps          | 20     |
+| 0MBps          | 0      |
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 
-Para o Microsoft Teams, a qualidade da rede é medida como latência de UDP, tremulação de UDP e perda de pacotes UDP. O UDP é usado para a chamada e conferência de áudio e conectividade de mídia de vídeo para o Microsoft Teams. Isso pode ser afetado pelos mesmos fatores para a latência e velocidade de download, além de falhas de conectividade no suporte a UDP de uma rede, pois o UDP é configurado separadamente para o protocolo TCP mais comum. A mediana (também conhecida como a medida 50 º percentil ou P50) é tomada para todas as medições nos três dias anteriores. 
+Para o Microsoft Teams, a qualidade de rede é medida como latência UDP, tremência de UDP e perda de pacotes UDP. O UDP é usado para conectividade de mídia de áudio e vídeo de chamada e conferência para o Microsoft Teams. Isso pode ser afetado pelos mesmos fatores que a velocidade de latência e download, além de lacunas de conectividade no suporte a UDP de uma rede, já que o UDP é configurado separadamente para o protocolo TCP mais comum. A mediana (também conhecida como 50º percentil ou medida P50) é tomada para todas as medições dos três dias anteriores. 
 
-Calculamos uma pontuação de opinião média dessas medidas UDP para uma escala de um para cinco. Em seguida, mapeamos isso para a escala de pontos de 0-100 para a avaliação de rede do Microsoft Teams.  A qualidade geral é superior a 87,5 pontos e o mau inválido está abaixo de 50 pontos.
+Calculamos uma pontuação média de opinião dessas medidas UDP para uma escala de um a cinco. Em seguida, mapeemos isso para a escala de 0 a 100 pontos para a avaliação de rede do Microsoft Teams.  O bem geral está acima de 87,5 pontos e o ruim geral está abaixo de 50 pontos.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Conectividade de rede no centro de administração do Microsoft 365 (versão prévia)](office-365-network-mac-perf-overview.md)
+[Conectividade de rede no Centro de administração do Microsoft 365 (visualização)](office-365-network-mac-perf-overview.md)
 
-[Microsoft 365 Network Performance insights (versão prévia)](office-365-network-mac-perf-insights.md)
+[Percepções de desempenho de rede do Microsoft 365 (visualização)](office-365-network-mac-perf-insights.md)
 
-[Ferramenta de teste de conectividade de rede 365 da Microsoft (versão prévia)](office-365-network-mac-perf-onboarding-tool.md)
+[Ferramenta de teste de conectividade de rede do Microsoft 365 (visualização)](office-365-network-mac-perf-onboarding-tool.md)
 
-[Serviços de local de conectividade de rede da Microsoft 365 (versão prévia)](office-365-network-mac-location-services.md)
+[Serviços de Localização de Conectividade de Rede do Microsoft 365 (visualização)](office-365-network-mac-location-services.md)

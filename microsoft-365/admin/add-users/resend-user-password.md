@@ -29,39 +29,39 @@ ms.locfileid: "48131741"
 ---
 # <a name="resend-a-users-password---admin-help"></a>Reenviar a senha de um usuário – ajuda para administradores
 
-Este artigo explica como reenviar o email de notificação para um novo usuário no Office 365. Isso pode acontecer quando você cria um novo usuário e não recebe um email com sua nova senha. Para fazer isso, redefina a senha do usuário.
+Este artigo explica como re enviar o email de notificação para um novo usuário no Office 365. Isso pode acontecer quando você cria um novo usuário e ele não receber um email com a nova senha. Você faz isso redefinindo a senha do usuário.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
 Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md).
 
-Você deve ser um [administrador de administrador ou de senha global](about-admin-roles.md) para executar estas etapas.
+Você deve ser um [administrador global ou administrador de senhas](about-admin-roles.md) para executar estas etapas.
 
 ## <a name="resend-user-password"></a>Reenviar senha do usuário
   
 ::: moniker range="o365-worldwide"  
   
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
 
 ::: moniker-end
 
-2. Na página **usuários ativos** , selecione o usuário e, em seguida, selecione **Redefinir senha**.
+2. Na página **Usuários ativos,** selecione o usuário e selecione **Redefinir senha.**
 
-3. Siga as instruções na página **Redefinir senha** para gerar automaticamente uma nova senha para o usuário ou criar uma para elas e, em seguida, selecione **Redefinir**.  
+3. Siga as instruções na página **Redefinir** senha para gerar automaticamente uma nova senha para o usuário ou crie uma para ele e selecione **Redefinir.**  
 
-4. Insira um endereço de email que o usuário possa acessar para que recebam a nova senha e acompanhe com eles para garantir que eles o tenham.
+4. Insira um endereço de email que o usuário possa obter para receber a nova senha e acompanhe-o para garantir que a recebeu.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

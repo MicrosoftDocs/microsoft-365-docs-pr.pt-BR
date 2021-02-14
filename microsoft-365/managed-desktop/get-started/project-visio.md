@@ -1,7 +1,7 @@
 ---
-title: Instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft
-description: Informações sobre como instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, Microsoft Project, Microsoft Visio
+title: Instalar o Microsoft Project ou o Microsoft Visio em dispositivos da Área de Trabalho Gerenciada da Microsoft
+description: Informações sobre como instalar o Microsoft Project ou o Microsoft Visio em dispositivos da Área de Trabalho Gerenciada da Microsoft
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, Microsoft Project, Microsoft Visio
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
@@ -15,30 +15,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 09/17/2020
 ms.locfileid: "47950527"
 ---
-# <a name="install-microsoft-project-or-microsoft-visio-on-microsoft-managed-desktop-devices"></a>Instalar o Microsoft Project ou o Microsoft Visio em dispositivos de área de trabalho gerenciada da Microsoft
+# <a name="install-microsoft-project-or-microsoft-visio-on-microsoft-managed-desktop-devices"></a>Instalar o Microsoft Project ou o Microsoft Visio em dispositivos da Área de Trabalho Gerenciada da Microsoft
 
-O Microsoft Project e o Microsoft Visio exigem que etapas específicas sejam instaladas em dispositivos de área de trabalho gerenciada da Microsoft. Este tópico documenta os pré-requisitos e o processo de instalação desses aplicativos.
+O Microsoft Project e o Microsoft Visio exigem que etapas específicas sejam instaladas em dispositivos da Área de Trabalho Gerenciada da Microsoft. Este tópico documenta os pré-requisitos e o processo de instalação desses aplicativos.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Os administradores devem verificar se eles atendem a estes pré-requisitos:
-- **Quantidade de licenças** -a quantidade correta de licenças do Microsoft Project e do Microsoft Visio deve estar disponível para os usuários. Atualmente, a área de trabalho gerenciada da Microsoft dá suporte apenas a versões de 64 bits desses aplicativos. 
-- **Nomes de licença** : os nomes de licença apropriados para esses aplicativos são:
-    - **Microsoft Project** -Project online Professional ou Project Online Premium
-    - **Microsoft Visio** -Visio online plano 2
-- **Portal da empresa** -o portal da empresa deve estar disponível em seu locatário para que os usuários instalem esses aplicativos. Se o portal da empresa não estiver implantado em seu locatário, confira [portal da empresa](company-portal.md).
+Os administradores devem verificar se atendem a esses pré-requisitos:
+- **Quantidades de** licenças - a quantidade correta de licenças do Microsoft Project e do Microsoft Visio deve estar disponível para seus usuários. A Área de Trabalho Gerenciada da Microsoft atualmente só dá suporte a versões de 64 bits desses aplicativos. 
+- **Nomes de licença** - Os nomes de licença apropriados para esses aplicativos são:
+    - **Microsoft Project** - Project Online Professional ou Project Online Premium
+    - **Microsoft Visio** - Plano 2 do Visio Online
+- **Portal da** Empresa - O Portal da Empresa deve estar disponível em seu locatário para que os usuários instalem esses aplicativos. Se o Portal da Empresa não estiver implantado em seu locatário, consulte [o Portal da Empresa.](company-portal.md)
 
-## <a name="deploy-project-and-visio-for-microsoft-managed-desktop-devices"></a>Implantar o Project e o Visio para dispositivos de área de trabalho gerenciada da Microsoft
-A área de trabalho gerenciada da Microsoft adicionará o Microsoft Project e o Microsoft Visio como dois aplicativos Win32 no Microsoft Intune. Também criaremos dois grupos no Azure Active Directory que serão atribuídos ao aplicativo correspondente com a intenção "disponível". 
+## <a name="deploy-project-and-visio-for-microsoft-managed-desktop-devices"></a>Implantar o Project e o Visio para dispositivos da Área de Trabalho Gerenciada da Microsoft
+A Área de Trabalho Gerenciada da Microsoft adicionará o Microsoft Project e o Microsoft Visio como dois Aplicativos Win32 no Microsoft Intune. Também criaremos dois grupos no Azure Active Directory que serão atribuídos ao aplicativo correspondente com a intenção "Disponível". 
 
-**Para implantar o Project e o Visio** Adicione o usuário ao grupo apropriado e o aplicativo ficará disponível no portal da empresa. Pode levar alguns minutos para sincronizar, mas os usuários podem instalar os aplicativos do portal da empresa. 
+**Para implantar o Project e o Visio** Adicione o usuário ao grupo apropriado e o aplicativo ficará disponível no Portal da Empresa. Pode levar alguns minutos para sincronizar, mas os usuários podem instalar os aplicativos do Portal da Empresa. 
 
-Nome do grupo do Azure AD | Quais usuários serão atribuídos?   
+Nome do grupo do Azure AD | Quais usuários atribuir?   
  --- | ---
-Área de trabalho moderna-Office-Project_Install | Usuários que precisam de projeto
-Área de trabalho moderna-Office-Visio_Install | Usuários que precisam do Visio
+Modern Workplace-Office-Project_Install | Usuários que precisam do Project
+Modern Workplace-Office-Visio_Install | Usuários que precisam do Visio
 
 ## <a name="communicate-changes"></a>Comunicar alterações
-É importante para os administradores de ti permitir que seus usuários saibam como instalar o Project e o Visio. Isso inclui: 
-- Notificar os usuários quando esses aplicativos estiverem disponíveis para eles. 
-- Instruções sobre como instalar esses aplicativos do portal da empresa.
+É importante que os administradores de IT saibam aos usuários como instalar o Project e o Visio. Isso inclui: 
+- Notificar os usuários quando esses aplicativos estão disponíveis para eles. 
+- Instruções sobre como instalar esses aplicativos do Portal da Empresa.
