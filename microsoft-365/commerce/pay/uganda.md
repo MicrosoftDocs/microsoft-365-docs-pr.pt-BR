@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: eb55ed270970b92fc107edbefba55ccff98ee67d
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48648186"
 ---
-# <a name="payment-information-for-uganda"></a><span data-ttu-id="f8ea3-103">Informações de pagamento para Uganda</span><span class="sxs-lookup"><span data-stu-id="f8ea3-103">Payment information for Uganda</span></span>
+# <a name="payment-information-for-uganda"></a><span data-ttu-id="7538e-103">Informações de pagamento para Uganda</span><span class="sxs-lookup"><span data-stu-id="7538e-103">Payment information for Uganda</span></span>
 
-<span data-ttu-id="f8ea3-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="f8ea3-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="7538e-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="7538e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="f8ea3-105">Pague apenas USD e números de fatura de referência em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="f8ea3-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="7538e-105">Pagar apenas em USD e fazer referência aos números de fatura em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="7538e-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="f8ea3-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="f8ea3-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="7538e-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="7538e-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="f8ea3-107">**Banco:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="f8ea3-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="f8ea3-108">**Código Swift:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="f8ea3-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="f8ea3-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="f8ea3-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="f8ea3-110">**Número da conta:** 12510049</span><span class="sxs-lookup"><span data-stu-id="f8ea3-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="f8ea3-111">**Nome da conta:** O</span><span class="sxs-lookup"><span data-stu-id="f8ea3-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="7538e-107">**Bank:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="7538e-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="7538e-108">**Código SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="7538e-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="7538e-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="7538e-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="7538e-110">**Número da conta:** 12510049</span><span class="sxs-lookup"><span data-stu-id="7538e-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="7538e-111">**Nome da conta:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="7538e-111">**Account Name:** MICROSOFT</span></span>  

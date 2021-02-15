@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para Etiópia
+title: Informações de pagamento para a Etiópia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4a1c60972ded80cfe31b15131f6061a0fe538f3c
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48647694"
 ---
-# <a name="payment-information-for-ethiopia"></a><span data-ttu-id="0e547-103">Informações de pagamento para Etiópia</span><span class="sxs-lookup"><span data-stu-id="0e547-103">Payment information for Ethiopia</span></span>
+# <a name="payment-information-for-ethiopia"></a><span data-ttu-id="1db47-103">Informações de pagamento para a Etiópia</span><span class="sxs-lookup"><span data-stu-id="1db47-103">Payment information for Ethiopia</span></span>
 
-<span data-ttu-id="0e547-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="0e547-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="1db47-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="1db47-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="0e547-105">Pague apenas USD e números de fatura de referência em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="0e547-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="1db47-105">Pagar apenas em USD e fazer referência aos números de fatura em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="1db47-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="0e547-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="0e547-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="1db47-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="1db47-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="0e547-107">**Banco:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="0e547-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="0e547-108">**Código Swift:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="0e547-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="0e547-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="0e547-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="0e547-110">**Número da conta:** 12510049</span><span class="sxs-lookup"><span data-stu-id="0e547-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="0e547-111">**Nome da conta:** O</span><span class="sxs-lookup"><span data-stu-id="0e547-111">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="1db47-107">**Bank:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="1db47-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="1db47-108">**Código SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="1db47-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="1db47-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="1db47-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="1db47-110">**Número da conta:** 12510049</span><span class="sxs-lookup"><span data-stu-id="1db47-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="1db47-111">**Nome da conta:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="1db47-111">**Account Name:** MICROSOFT</span></span>  

@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 76acf9d82701721d5d26d3a22a382fa171243281
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48647394"
 ---
-# <a name="payment-information-for-guatemala"></a><span data-ttu-id="f9c14-103">Informações de pagamento para Guatemala</span><span class="sxs-lookup"><span data-stu-id="f9c14-103">Payment information for Guatemala</span></span>
+# <a name="payment-information-for-guatemala"></a><span data-ttu-id="83ffe-103">Informações de pagamento para Guatemala</span><span class="sxs-lookup"><span data-stu-id="83ffe-103">Payment information for Guatemala</span></span>
 
-<span data-ttu-id="f9c14-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="f9c14-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="83ffe-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="83ffe-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="f9c14-105">Pague apenas USD e números de fatura de referência em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="f9c14-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="83ffe-105">Pagar apenas em USD e fazer referência aos números de fatura em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="83ffe-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="f9c14-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="f9c14-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="83ffe-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="83ffe-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="f9c14-107">**Banco:** Banco da América</span><span class="sxs-lookup"><span data-stu-id="f9c14-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="f9c14-108">**Ramificação:** Dallas</span><span class="sxs-lookup"><span data-stu-id="f9c14-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="f9c14-109">**Código Swift:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="f9c14-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="f9c14-110">**Número da conta:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="f9c14-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="f9c14-111">**Nome da conta:** O</span><span class="sxs-lookup"><span data-stu-id="f9c14-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="83ffe-107">**Bank:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="83ffe-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="83ffe-108">**Branch:** Dallas</span><span class="sxs-lookup"><span data-stu-id="83ffe-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="83ffe-109">**Código SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="83ffe-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="83ffe-110">**Número da conta:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="83ffe-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="83ffe-111">**Nome da conta:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="83ffe-111">**Account Name:** Microsoft</span></span>  

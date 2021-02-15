@@ -20,22 +20,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643842"
 ---
-# <a name="contact-support-for-bonaire"></a><span data-ttu-id="be829-103">Contatar o suporte para Bonaire</span><span class="sxs-lookup"><span data-stu-id="be829-103">Contact support for Bonaire</span></span>
+# <a name="contact-support-for-bonaire"></a><span data-ttu-id="c813d-103">Contatar o suporte do Bonaire</span><span class="sxs-lookup"><span data-stu-id="c813d-103">Contact support for Bonaire</span></span>
 
-<span data-ttu-id="be829-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="be829-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="c813d-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="c813d-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="be829-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="be829-105">Phone number</span></span>
-<span data-ttu-id="be829-106">+ 1 312 843 5146</span><span class="sxs-lookup"><span data-stu-id="be829-106">+1 312 843 5146</span></span>
+## <a name="phone-number"></a><span data-ttu-id="c813d-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="c813d-105">Phone number</span></span>
+<span data-ttu-id="c813d-106">+1 312 843 5146</span><span class="sxs-lookup"><span data-stu-id="c813d-106">+1 312 843 5146</span></span>
 
-## <a name="hours"></a><span data-ttu-id="be829-107">Horas</span><span class="sxs-lookup"><span data-stu-id="be829-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="be829-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="be829-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="c813d-107">Horas</span><span class="sxs-lookup"><span data-stu-id="c813d-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="c813d-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="c813d-108">Billing Support:</span></span>
 
-<span data-ttu-id="be829-109">Holandês: Mon-Fri 4 AM-Noon</span><span class="sxs-lookup"><span data-stu-id="be829-109">Dutch: Mon-Fri 4 AM-noon</span></span>
+<span data-ttu-id="c813d-109">Holandês: Mon-Fri 4 da manhã</span><span class="sxs-lookup"><span data-stu-id="c813d-109">Dutch: Mon-Fri 4 AM-noon</span></span>
 
-<span data-ttu-id="be829-110">Inglês: Mon-Fri 4 AM-Noon</span><span class="sxs-lookup"><span data-stu-id="be829-110">English: Mon-Fri 4 AM-noon</span></span>
+<span data-ttu-id="c813d-110">Inglês: Mon-Fri às 4:00</span><span class="sxs-lookup"><span data-stu-id="c813d-110">English: Mon-Fri 4 AM-noon</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="be829-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="be829-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="c813d-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="c813d-111">Technical Support:</span></span>
 
-<span data-ttu-id="be829-112">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="be829-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="c813d-112">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="c813d-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="be829-113">Tarifas de chamada internacional se aplicam</span><span class="sxs-lookup"><span data-stu-id="be829-113">International call charges apply</span></span>
+<span data-ttu-id="c813d-113">Aplicam-se encargos de chamada internacional</span><span class="sxs-lookup"><span data-stu-id="c813d-113">International call charges apply</span></span>

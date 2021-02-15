@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644382"
 ---
-# <a name="contact-support-for-albania"></a><span data-ttu-id="0862d-103">Contatar o suporte para Albânia</span><span class="sxs-lookup"><span data-stu-id="0862d-103">Contact support for Albania</span></span>
+# <a name="contact-support-for-albania"></a><span data-ttu-id="d85d3-103">Contatar o suporte da Albânia</span><span class="sxs-lookup"><span data-stu-id="d85d3-103">Contact support for Albania</span></span>
 
-<span data-ttu-id="0862d-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="0862d-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="d85d3-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="d85d3-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="0862d-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="0862d-105">Phone number</span></span>
-<span data-ttu-id="0862d-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="0862d-106">04 451 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="d85d3-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="d85d3-105">Phone number</span></span>
+<span data-ttu-id="d85d3-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="d85d3-106">04 451 5151</span></span>
 
-<span data-ttu-id="0862d-107">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="0862d-107">Select option 9</span></span>
+<span data-ttu-id="d85d3-107">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="d85d3-107">Select option 9</span></span>
 
-<span data-ttu-id="0862d-108">Insira o código 7700</span><span class="sxs-lookup"><span data-stu-id="0862d-108">Enter code 7700</span></span>
+<span data-ttu-id="d85d3-108">Digite o código 7700</span><span class="sxs-lookup"><span data-stu-id="d85d3-108">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="0862d-109">Horas</span><span class="sxs-lookup"><span data-stu-id="0862d-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="0862d-110">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="0862d-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="d85d3-109">Horas</span><span class="sxs-lookup"><span data-stu-id="d85d3-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="d85d3-110">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="d85d3-110">Billing Support:</span></span>
 
-<span data-ttu-id="0862d-111">Inglês: Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="0862d-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="d85d3-111">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="d85d3-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="0862d-112">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="0862d-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="d85d3-112">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="d85d3-112">Technical Support:</span></span>
 
-<span data-ttu-id="0862d-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="0862d-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="d85d3-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="d85d3-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="0862d-114">Tarifas de chamada local se aplicam</span><span class="sxs-lookup"><span data-stu-id="0862d-114">Local call charges apply</span></span>
+<span data-ttu-id="d85d3-114">Aplicam-se encargos de chamada local</span><span class="sxs-lookup"><span data-stu-id="d85d3-114">Local call charges apply</span></span>
