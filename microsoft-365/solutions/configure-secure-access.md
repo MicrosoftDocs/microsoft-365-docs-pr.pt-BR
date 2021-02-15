@@ -1,6 +1,6 @@
 ---
-title: Configurar acesso seguro aos serviços do Microsoft 365
-description: 'Encontre orientações prescritivas para implementar a MFA, acesso condicional e políticas relacionadas para três camadas de proteção: linha de base, confidencial e altamente confidencial.'
+title: Configurar o acesso seguro aos serviços do Microsoft 365
+description: 'Encontre orientações prescritivas para implementar a MFA, o acesso condicional e as políticas relacionadas para três camadas de proteção: linha de base, sensível e altamente sensível.'
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -19,6 +19,6 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "49771794"
 ---
-# <a name="configure-secure-access-to-microsoft-365-services"></a><span data-ttu-id="98399-103">Configurar acesso seguro aos serviços do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="98399-103">Configure secure access to Microsoft 365 services</span></span>
+# <a name="configure-secure-access-to-microsoft-365-services"></a><span data-ttu-id="e7e82-103">Configurar o acesso seguro aos serviços do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="e7e82-103">Configure secure access to Microsoft 365 services</span></span>
 
-<span data-ttu-id="98399-104">Esta solução baseia-se na "[configuração de ouro M365](https://aka.ms/m365goldenconfig)"--orientação prescritiva para implementar a MFA, acesso condicional e políticas relacionadas para três camadas de proteção: linha de base, confidencial, altamente confidencial.</span><span class="sxs-lookup"><span data-stu-id="98399-104">This solution is based on the "[M365 golden config](https://aka.ms/m365goldenconfig)" -- prescriptive guidance for implementing MFA, conditional access, and related policies for three tiers of protection: baseline, sensitive, highly sensitive.</span></span> 
+<span data-ttu-id="e7e82-104">Esta solução se baseia na " configuração de ouro do[M365](https://aka.ms/m365goldenconfig)" – orientação prescritiva para implementar a MFA, o acesso condicional e as políticas relacionadas para três camadas de proteção: linha de base, sensível, altamente sensível.</span><span class="sxs-lookup"><span data-stu-id="e7e82-104">This solution is based on the "[M365 golden config](https://aka.ms/m365goldenconfig)" -- prescriptive guidance for implementing MFA, conditional access, and related policies for three tiers of protection: baseline, sensitive, highly sensitive.</span></span> 
