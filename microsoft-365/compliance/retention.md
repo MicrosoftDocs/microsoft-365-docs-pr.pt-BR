@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: d834cc53677c8b7c01ed4bec40ed51983d41e9da
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: 3d317a0a26d69eb46b8bb84253571b7d14f9836b
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084620"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242485"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -449,7 +449,7 @@ Se você usa esses recursos mais antigos, eles continuarão a funcionar lado a l
     
 - [Como configurar o gerenciamento de registros no local](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (apenas retenção) 
     
-- [Usar políticas de fechamento de site e exclusão](https://support.microsoft.com/pt-BR/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (apenas exclusão) 
+- [Usar políticas de fechamento de site e exclusão](https://support.microsoft.com/pt-BR/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (apenas exclusão)
     
 - [Políticas de gerenciamento de informações](intro-to-info-mgmt-policies.md) (apenas exclusão)
      

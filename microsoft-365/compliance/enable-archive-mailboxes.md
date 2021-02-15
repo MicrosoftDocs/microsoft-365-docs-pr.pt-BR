@@ -19,20 +19,20 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
-description: Aprenda a usar o Centro de segurança e conformidade no Office 365 para habilitar caixas de correio de arquivo morto para dar suporte aos requisitos de retenção de mensagens, descoberta eletrônica e retenção de mensagens da sua organização.
-ms.openlocfilehash: 6ecd84e36c39a90bf6df57286ef1559431c8dda1
-ms.sourcegitcommit: 294a51ef0ff48dddb659c602e047d7fd98f91172
+description: Aprenda a usar o centro de conformidade para habilitar o arquivamento de caixas de correio para dar suporte aos requisitos de retenção de mensagens, descoberta eletrônica e retenção de sua organização.
+ms.openlocfilehash: d7506b92cc16120f1d40a6d5a1744ab38d446a76
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47407935"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233811"
 ---
-# <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>Ative as caixas de correio de arquivo morto no Centro de Conformidade e Segurança
+# <a name="enable-archive-mailboxes-in-the-compliance-center"></a>Habilitar o arquivamento de caixas de correio no centro de conformidade
 
-O arquivamento no Office 365 (também chamado de arquivamento in-loco) fornece aos usuários espaço adicional de armazenamento na caixa de correio. Depois de ativar as caixas de correio de arquivo morto, os usuários podem acessar e armazenar mensagens em suas caixas de correio de arquivo morto usando o Microsoft Outlook e o Outlook na Web (anteriormente conhecido como Outlook Web App). Os usuários também podem mover ou copiar mensagens entre sua caixa de correio principal e sua caixa de correio de arquivo morto. Eles também podem recuperar itens excluídos da pasta Itens Recuperáveis em suas caixas de correio de arquivo morto usando a ferramenta Recuperar Itens Excluídos.
+O arquivamento no Microsoft 365 (também chamado de *Arquivamento no Local*) fornece aos usuários espaço adicional de armazenamento na caixa de correio. Depois de ativar as caixas de correio de arquivo morto, os usuários podem acessar e armazenar mensagens em suas caixas de correio de arquivo morto usando o Microsoft Outlook e o Outlook na Web (anteriormente conhecido como Outlook Web App). Os usuários também podem mover ou copiar mensagens entre sua caixa de correio principal e sua caixa de correio de arquivo morto. Eles também podem recuperar itens excluídos da pasta Itens Recuperáveis em suas caixas de correio de arquivo morto usando a ferramenta Recuperar Itens Excluídos.
 
 > [!NOTE]
-> O recurso de arquivamento de expansão automática no Office 365 fornece armazenamento adicional em caixas de correio de arquivos. Quando o arquivamento de expansão automática está ativado e a cota de armazenamento inicial na caixa de correio de arquivo morto de um usuário é atingida, o Office 365 adiciona automaticamente mais espaço de armazenamento. Isso significa que os usuários não ficarão sem espaço de armazenamento na caixa de correio, e você não precisará gerenciar nada depois de habilitar inicialmente a caixa de correio de arquivo morto e ativar o arquivamento de expansão automática para sua organização. Confira mais informações em [Visão geral do arquivamento ilimitado no Office 365](unlimited-archiving.md).
+> O recurso de arquivamento de expansão automática no Microsoft 365 fornece armazenamento adicional em caixas de correio de arquivamento. Quando o arquivamento de expansão automática está ativado e a cota de armazenamento inicial na caixa de correio de arquivamento de um usuário é atingida, o Microsoft 365 adiciona automaticamente mais espaço de armazenamento. Isso significa que os usuários não ficarão sem espaço de armazenamento na caixa de correio, e você não precisará gerenciar nada depois de habilitar inicialmente a caixa de correio de arquivo morto e ativar o arquivamento de expansão automática para sua organização. Confira mais informações em [Visão geral do arquivamento ilimitado](unlimited-archiving.md).
 
 ## <a name="get-the-necessary-permissions"></a>Obtenha as permissões necessárias
 
@@ -70,7 +70,7 @@ Você precisa ter atribuída a função de Destinatários de Email no Exchange O
 
 Você também pode usar a página **Arquivo** no Centro de Segurança e Conformidade para desabilitar a caixa de correio de arquivo morto do usuário. Após desabilitar uma caixa de correio de arquivo morto, você pode reconectá-la à caixa de correio principal do usuário dentro de 30 dias após desativá-la. Neste caso, o conteúdo original da caixa de correio de arquivo morto é restaurado. Após 30 dias, o conteúdo da caixa de correio de arquivo original é excluído permanentemente e não pode ser recuperado. Portanto, se você reativar o arquivo morto mais de 30 dias após desabilitá-lo, será criada uma nova caixa de correio de arquivo morto.
 
-Observe que a política de arquivamento padrão atribuída às caixas de correio dos usuários move itens para a caixa de correio de arquivo morto dois anos após a data em que o item é entregue. Se você desabilitar a caixa de correio de arquivo morto do usuário, nenhuma ação será executada nos itens da caixa de correio e eles permanecerão na caixa de correio principal do usuário.
+A política de arquivamento padrão atribuída às caixas de correio dos usuários move itens para a caixa de correio de arquivamento dois anos após a data em que o item é entregue. Se você desabilitar a caixa de correio de arquivo morto do usuário, nenhuma ação será executada nos itens da caixa de correio e eles permanecerão na caixa de correio principal do usuário.
 
 Para desabilitar uma caixa de correio de arquivo morto:
 
@@ -93,7 +93,7 @@ Para desabilitar uma caixa de correio de arquivo morto:
 
 6. Clique em **Sim** para desabilitar a caixa de correio de arquivo morto.
 
-   Pode levar alguns instantes para desabilitar a caixa de correio de arquivo morto. Quando desabilitada, é exibido**Caixa de correio de arquivo morto: desabilitada** no painel de detalhes do usuário selecionado. Talvez seja necessário clicar em **Atualizar** ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações no painel de detalhes.
+   Pode levar alguns instantes para desabilitar a caixa de correio de arquivo morto. Quando desabilitada, é exibido **Caixa de correio de arquivo morto: desabilitada** no painel de detalhes do usuário selecionado. Talvez seja necessário clicar em **Atualizar** ![Ícone Atualizar](../media/O365-MDM-Policy-RefreshIcon.gif) para atualizar as informações no painel de detalhes.
 
 > [!TIP]
 > Você também pode desabilitar em massa as caixas de correio de arquivo morto selecionando vários usuários com caixas de correio de arquivo morto habilitadas (use as teclas Shift ou Ctrl). Depois de selecionar várias caixas de correio, clique em **Desabilitar** no painel de detalhes.
@@ -117,7 +117,7 @@ Enable-Mailbox -Identity <username> -Archive
 Execute o seguinte comando para habilitar a caixa de correio de arquivo morto para todos os usuários da organização (cujas caixas de correio de arquivo morto não estejam atualmente habilitadas).
 
 ```powershell
-Get-Mailbox -Filter {ArchiveStatus -Eq "None" -AND RecipientTypeDetails -eq "UserMailbox"} | Enable-Mailbox -Archive
+Get-Mailbox -Filter {ArchiveGuid -Eq "00000000-0000-0000-0000-000000000000" -AND RecipientTypeDetails -Eq "UserMailbox"} | Enable-Mailbox -Archive
 ```
 
 ### <a name="disable-archive-mailboxes"></a>Desabilitar caixas de correio de arquivo morto
@@ -131,7 +131,7 @@ Disable-Mailbox -Identity <username> -Archive
 Execute o seguinte comando para desabilitar a caixa de correio de arquivo morto para todos os usuários em sua organização (cujas caixas de correio de arquivo morto estejam atualmente habilitadas).
 
 ```powershell
-Get-Mailbox -Filter {ArchiveStatus -Eq "Active" -AND RecipientTypeDetails -eq "UserMailbox"} | Disable-Mailbox -Archive
+Get-Mailbox -Filter {ArchiveGuid -Ne "00000000-0000-0000-0000-000000000000" -AND RecipientTypeDetails -Eq "UserMailbox"} | Disable-Mailbox -Archive
 ```
 
 ## <a name="more-information"></a>Mais informações

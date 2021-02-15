@@ -21,16 +21,16 @@ ms.collection:
 - SPO_Content
 description: Você pode usar o Gerenciamento de Direitos de Informação (IRM) para ajudar a controlar e proteger arquivos baixados de listas ou bibliotecas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b0b541619e7bd969072755eacf103d53da6fc6a
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 0648d511ee882765f1905e83ebdea673f306c186
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840522"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233347"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>Aplicar o IrM (Gerenciamento de Direitos de Informação) a uma lista ou biblioteca
 
-Você pode usar o Gerenciamento de Direitos de Informação (IRM) para ajudar a controlar e proteger arquivos baixados de listas ou bibliotecas.
+Você pode usar o Gerenciamento de Direitos de Informação (IRM) para ajudar a controlar e proteger arquivos baixados de listas ou bibliotecas. Esse recurso só é suportado na nuvem global da Microsoft. O IRM não é suportado para listas e bibliotecas do SharePoint em implantações de nuvem nacional.
   
 ## <a name="administrator-preparations-before-applying-irm"></a>Preparação do administrador antes de aplicar o IRM
 
@@ -73,7 +73,7 @@ Você pode usar o Gerenciamento de Direitos de Informação (IRM) para ajudar a 
 |Selecione essa opção se quiser restringir o acesso ao conteúdo a um período de tempo especificado. Se você selecionar essa opção, as licenças de emissão de pessoas para acessar o conteúdo expirará após o número especificado de dias, e as pessoas deverão retornar ao servidor para verificar suas credenciais e baixar uma nova cópia.|Marque a caixa de seleção Após o download, os direitos de acesso ao documento expiram após esse número de dias **(1 a 365) e especifique** o número de dias para os quais você deseja que o documento seja visualizado.|
 | Impedir que as pessoas carreguem documentos que não suportam IRM nessa lista ou biblioteca. Se você selecionar essa opção, as pessoas não poderão carregar nenhum dos seguintes tipos de arquivo: tipos de arquivo que não tenham protetores de IRM correspondentes instalados em todos os servidores web front-end. Tipos de arquivo que o SharePoint Server 2010 não pode descriptografar. Tipos de arquivo protegidos por IRM em outro programa.|Marque a **caixa de seleção Não permitir que os usuários carreguem documentos que não suportam IRM.**|
 |Remova permissões restritas dessa lista ou biblioteca em uma data específica.|Marque a caixa de seleção Parar **de restringir** o acesso à biblioteca e selecione a data que você deseja.|
-|Controlar o intervalo em que as credenciais são armazenadas em cache para o programa licenciado para abrir o documento. Essa configuração só é suportada na nuvem global da Microsoft. A configuração não está disponível em implantações de nuvem nacional.|Marque a caixa de seleção Usuários que devem verificar suas credenciais usando esse intervalo **(dias)** e, em seguida, insira o intervalo para armazenamento em cache de credenciais em número de dias.|
+|Controlar o intervalo em que as credenciais são armazenadas em cache para o programa licenciado para abrir o documento.|Marque a caixa de seleção Usuários que devem verificar suas credenciais usando esse intervalo **(dias)** e, em seguida, insira o intervalo para armazenamento em cache de credenciais em número de dias.|
 |Permitir proteção de grupo para que os usuários possam compartilhar com membros do mesmo grupo.|Selecione **Permitir proteção de** grupo e insira o nome do grupo para compartilhamento.|
 
 8. Depois de terminar de selecionar as opções que você deseja, selecione **OK**.

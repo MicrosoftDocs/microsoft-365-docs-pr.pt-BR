@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Saiba mais sobre tipos de explicação no Microsoft SharePoint Syntex
-ms.openlocfilehash: 2c2997fd165339cc43f7f007050f343794021a23
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: caba92b635feaf8f87e2c487559f70be3fab6df9
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080539"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242568"
 ---
 # <a name="introduction-to-explanation-types"></a>Introdução aos tipos de explicação
 
@@ -147,43 +147,65 @@ No visualizador, você pode ajustar manualmente a caixa de seleção para inclui
    ![Intervalo personalizado](../media/content-understanding/custom-file.png)</br>
 No visualizador, você pode ajustar manualmente a caixa de seleção para incluir o local onde a fase ocorre. Para essa configuração, você precisa selecionar uma posição <b>Inicial</b> e uma <b>Final</b>. Esses valores representam o número de tokens do início do documento. Embora seja possível inserir manualmente esses valores, é mais fácil ajustar manualmente a caixa de seleção no visualizador.</br> 
    
-
-
 ## <a name="use-explanation-templates"></a>Usar modelos de explicação
 
-Embora seja possível adicionar vários valores da lista de padrões à sua explicação, pode ser mais fácil usar os modelos fornecidos na biblioteca de explicações.
+Embora você possa adicionar manualmente vários valores da lista de frases para sua explicação, pode ser mais fácil usar os modelos fornecidos a você na biblioteca de explicação.
 
-Por exemplo, em vez de adicionar manualmente todas as variações para *Data*, você pode usar o modelo de lista de padrões para *Data*, pois já inclui diversos valores de listas de padrões:</br>
+Por exemplo, em vez de adicionar manualmente todas as variações de *Data*, você pode usar o modelo de lista de frases para *Data*, pois já inclui vários valores da listas de frases:</br>
 
    ![Biblioteca de explicações](../media/content-understanding/explanation-template.png)</br>
  
-A biblioteca de explicações inclui explicações de lista de padrões usadas com frequência, incluindo:</br>
+A biblioteca de explicação inclui explicações da lista de frases comumente usadas, incluindo:</br>
 
 - Data</br>
 - Data (numérico)</br>
 - Hora</br>
 - Número</br>
+- Porcentagem</br>
 - Número de telefone</br>
 - Código postal</br>
 - Primeira palavra da frase</br>
+- Fim da frase</br>
 - Cartão de crédito</br>
 - Cadastro de pessoas físicas</br>
+- Caixa de seleção</br>
+- Moeda</br>
+- Email CC</br>
+- Data do email</br>
+- Saudação por email</br>
+- Destinatário do email</br>
+- Remetente do email</br>
+- Assunto do email</br>
 
-Observe que a biblioteca de explicações também inclui modelos de explicações de lista de frases:
-- Fim da frase
-- Moeda
+A biblioteca de explicação também inclui três tipos de modelos automáticos que funcionam com os dados que você rotulou em seus arquivos de exemplo:
 
+- Depois do rótulo: As palavras ou caracteres que ocorrem após os rótulos nos arquivos de exemplo.</br>
+- Antes do rótulo: As palavras ou caracteres que ocorrem antes dos rótulos nos arquivos de exemplo.</br>
+- Rótulos: Até os primeiros 10 rótulos dos arquivos de exemplo.</br>
+
+Para lhe dar um exemplo de como os modelos automáticos funcionam, no arquivo de exemplo a seguir, usaremos o modelo de explicação Antes do rótulo para ajudar a fornecer ao modelo mais informações para obter uma correspondência mais precisa.
+
+   ![Arquivo de exemplo](../media/content-understanding/before-label.png)</br>
+
+Quando você seleciona o modelo de explicação Antes do Rótulo, ele procura o primeiro conjunto de palavras que aparece antes do rótulo em seus arquivos de exemplo. No exemplo, as palavras identificadas no primeiro arquivo de exemplo são "A partir de".
+
+   ![Antes do Modelo do Rótulo](../media/content-understanding/before-label-explanation.png)</br>
+
+Você pode selecionar <b>Adicionar</b> para criar uma explicação a partir do modelo.  Conforme você adiciona mais arquivos de exemplo, palavras adicionais serão identificadas e adicionadas à lista de frases.
+
+   ![Adicionar o rótulo](../media/content-understanding/before-label-add.png)</br>
+ 
 #### <a name="to-use-a-template-from-the-explanation-library"></a>Para usar um modelo da biblioteca de explicações
 
 1. Na seção **Explicações** da página de **Treinamento** do seu modelo, selecione **Novo** e, em seguida, selecione **De um modelo**.</br>
 
-   ![Criar do modelo](../media/content-understanding/from-template.png)</br>
+   ![Adicionar Antes do Rótulo](../media/content-understanding/from-template.png)</br>
 
 2.  Na página **Modelos de explicação**, selecione a explicação que você deseja usar e, em seguida, selecione **Adicionar**.</br>
 
        ![Selecionar um modelo](../media/content-understanding/phone-template.png)</br>
 
-3. As informações do modelo que você selecionou são exibidas na página **Criar uma explicação**. Se necessário, edite o nome da explicação e adicione ou remova itens da lista de padrões. </br> 
+3. As informações do modelo que você selecionou são exibidas na página **Criar uma explicação**. Se necessário, edite o nome da explicação e adicione ou remova itens da lista de frases. </br> 
 
    ![Editar modelo](../media/content-understanding/phone-template-live.png)</br>
 

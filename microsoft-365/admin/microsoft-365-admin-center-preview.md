@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: Saiba mais sobre o Centro de administração do Microsoft 365.
-ms.openlocfilehash: 2e54ad576b944153332aaec2012538e84c444db1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: da2b54e5f69fcc1209459b02220c0ead3f564067
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48645066"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233381"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
@@ -45,7 +45,7 @@ O Centro de administração do Microsoft 365 é o ponto de entrada comum para to
 
 ::: moniker range="o365-worldwide"
 
-À medida que novos recursos se tornarem disponíveis no centro de administração do Microsoft 365, você poderá optar por entrar no centro de administração e compartilhar seus comentários com a Microsoft para que possamos continuar a melhorar a experiência do administrador. Se você optar por isso, não haverá impacto para os usuários e poderá voltar para o centro de administração antigo a qualquer momento.
+À medida que novos recursos se tornarem disponíveis no centro de administração do Microsoft 365, você poderá optar pelo centro de administração e compartilhar seus comentários com a Microsoft para que possamos continuar a melhorar a experiência do administrador. Se você optar por isso, não haverá impacto para os usuários e poderá voltar para o centro de administração antigo a qualquer momento.
 Novidades no centro de administração do [Microsoft 365.](whats-new-in-preview.md)
   
 > [!NOTE]
@@ -101,20 +101,68 @@ Para saber mais, confira [Experimentar ou comprar uma assinatura do Microsoft 36
 
 We love to hear from you! Relatar bugs e compartilhar comentários nos ajuda a melhorar o centro de administração do Microsoft 365. To give feedback, select the **Feedback** button on the bottom of the page and use the form to send us your thoughts. Marque a caixa de seleção e confirme seu endereço de email se quiser que alguém da equipe do centro de administração do Microsoft 365 acompanhe seus comentários. Não podemos fazer o acompanhamento de todos os comentários, mas vamos tentar! 
   
-Você também pode fazer comentários de fora do centro de administração no nosso fórum UserVoice. Você pode usar essa página para fazer sugestões de recursos que podem ser usadas por outros usuários do fórum: Fórum do [UserVoice para o novo centro de administração.](https://go.microsoft.com/fwlink/?linkid=2024994)
+Você também pode fazer comentários de fora do centro de administração no nosso fórum UserVoice. Você pode usar essa página para fazer sugestões de recursos que podem ser usadas por outros usuários do fórum: [Fórum do UserVoice para o novo centro de administração.](https://go.microsoft.com/fwlink/?linkid=2024994)
 
 ## <a name="what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange"></a>E os tipos específicos de funções de IT e outros espaços de trabalho, como Segurança, Gerenciamento de Dispositivos ou Exchange?
 
-O Centro de administração do Microsoft 365 é o ponto de entrada comum para todas as equipes e funções que gerenciam o Microsoft 365. A experiência, as informações e os controles são personalizados e personalizáveis para cada administrador e função. Além disso, espaços de trabalho especializados permitem um controle profundo e granular. Esses espaços de trabalho especializados incluem SharePoint, Teams Skype, Exchange, Segurança, Conformidade, Gerenciamento de Dispositivos &amp; e Azure Active Directory. Você pode encontrar os espaços de trabalho especializados no painel de navegação no centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) .
+O Centro de administração do Microsoft 365 é o ponto de entrada comum para todas as equipes e funções que gerenciam o Microsoft 365. A experiência, as informações e os controles são personalizados e personalizáveis para cada administrador e função. Além disso, espaços de trabalho especializados permitem um controle profundo e granular. Esses espaços de trabalho especializados incluem SharePoint, Teams Skype, Exchange, Segurança, Conformidade, Gerenciamento de Dispositivos &amp; e Azure Active Directory. Você pode encontrar os espaços de trabalho especializados no painel de navegação no Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) .
   
 Atualizar todos os centros de administração para ter uma experiência coerente levará algum tempo, mas você pode saber mais sobre os centros de administração que já começamos a fazer:
   
 - [Começar a trabalhar com o novo Centro de Administração do SharePoint](https://go.microsoft.com/fwlink/?linkid=2024186)
     
-- [Gerenciar o Teams durante a transição para o novo Centro de Administração do Skype for Business do Microsoft &amp; Teams](https://go.microsoft.com/fwlink/?linkid=2024308)
+- [Gerenciar o Teams durante a transição para o novo Centro de Administração do Skype for Business do Microsoft Teams &amp;](https://go.microsoft.com/fwlink/?linkid=2024308)
     
 - [Visão geral do Gerenciamento de Dispositivos do Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2006262)
     
 - [Apresentando o Centro de Conformidade e Segurança do Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2025413)
+
+## <a name="what-language-options-are-available-the-admin-center"></a>Quais opções de idioma estão disponíveis no Centro de Administração?
+
+O Centro de administração do Microsoft 365 está totalmente localizado em 40 idiomas.
+
+|Idioma |Locale |
+|---------|---------|
+|Árabe | ar |
+|Búlgaro | bg |
+|Catalão | ca |
+|Tcheco | cs |
+|Dinamarquês | da |
+|Alemão | de |
+|Grego | el |
+|Espanhol | sd |
+|Inglês | en |
+|Estoniano | et |
+|Basco (Basco) | eu |
+|Finlandês | fi |
+|Francês | fr |
+|Galego | gl |
+|Hebraico | he |
+|Croata | hr |
+|Húngaro | hu |
+|Indonésio  | id |
+|Italiano | it |
+|Japonês | ja |
+|Coreano | ko |
+|Lituano | lt |
+|Letão | lv |
+|Holandês | nl |
+|Norueguês | não |
+|Polonês | pl |
+|Português (Brasil) | pt |
+|Português (Portugal) | pt-pt |
+|Romeno | ro |
+|Russo | ru |
+|Eslovaco | sk |
+|Esloveno | sl |
+|Sérvio (cirílico)  | sr-cyrl |
+|Serbian Latin | sr |
+|Sueco | sv |
+|Tailandês | th |
+|Turco | tr |
+|Ucraniano | uk |
+|Vietnamita | vi |
+|Chinese Simplified | zh-hans |
+|Chinese Traditional | zh-hant |
 
 ::: moniker-end

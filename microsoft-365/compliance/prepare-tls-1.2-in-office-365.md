@@ -1,7 +1,7 @@
 ---
 title: Preparação para o TLS 1.2 no Office 365 e no Office 365 GCC
 description: Como se preparar para usar o TLS 1.2 para todas as combinações de servidor-cliente e servidor-navegador no Office 365 e Office 365 GCC após o suporte para TLS 1.0 e 1.1 ser desabilitado.
-author: workshay
+author: kccross
 manager: laurawi
 localization_priority: Normal
 search.appverid:
@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: 4cc1fc739ee7fbcc4b976ae6e3f220713a53a007
-ms.sourcegitcommit: 554755bc9ce40228ce6e34bde6fc6e226869b6a1
+ms.openlocfilehash: 8078f5de698adf437e843a423fe9e82c5e4dd8de
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48681653"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233115"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Preparação para o TLS 1.2 no Office 365 e no Office 365 GCC
 
@@ -35,6 +35,8 @@ Para obter mais informações sobre como remover as dependências do TLS 1.0 e 1
 Já iniciamos o preterimento do TLS 1.0 e 1.1 a partir de janeiro de 2020. Quaisquer clientes, dispositivos ou serviços que se conectam ao Office 365 por meio do TLS 1.0 ou 1.1 em nossas instâncias DoD ou GCC High não têm suporte. Para nossos clientes comerciais do Office 365, a preterência do TLS 1.0 e 1.1 começará em 15 de outubro de 2020 e a aprovação continuará durante as seguintes semanas e meses. 
 
 Recomendamos que todas as combinações de cliente-servidor e navegador-servidor usem o TLS 1.2 (ou uma versão posterior) para manter a conexão com os serviços do Office 365. Você poderá ter que atualizar certas combinações de cliente-servidor e navegador-servidor.
+
+Você precisará atualizar aplicativos que chamam as APIs do Microsoft 365 sobre TLS 1.0 ou TLS 1.1 para usar o TLS 1.2. O .NET 4.5 assume como padrão o TLS 1.1. Para atualizar sua configuração do .NET, consulte Como habilitar o [TLS (Transport Layer Security) 1.2 em clientes.](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client)
 
 Os seguintes clientes não podem usar o TLS 1.2. Atualize esses clientes para garantir o acesso sem interrupções ao serviço.
 

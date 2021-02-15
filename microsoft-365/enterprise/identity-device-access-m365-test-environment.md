@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 04/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,18 +14,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um ambiente do Microsoft 365 para testar o acesso a identidades e dispositivos.
-ms.openlocfilehash: b8e91a58bb6e1c00013b963c77151080a419b836
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: ed143341079a55d6bdd1d4a68feea68acb86ef85
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48398802"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233723"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Acesso a identidades e dispositivos para o seu ambiente de teste do Microsoft 365
 
 *Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
 
-[As configurações de](../security/office-365-security/microsoft-365-policies-configurations.md) acesso a identidades e dispositivos são um conjunto de recursos e políticas de acesso condicional para proteger o acesso a todos os serviços integrados ao Azure Active Directory (Azure AD).
+[As configurações de](../security/office-365-security/microsoft-365-policies-configurations.md) acesso a identidades e dispositivos são um conjunto de configurações recomendadas e políticas de acesso condicional para proteger o acesso a todos os serviços integrados ao Azure Active Directory (Azure AD).
 
 Para criar um ambiente de teste que tenha as configurações comuns de acesso de dispositivo e identidade no local:
 
@@ -36,7 +35,7 @@ Para criar um ambiente de teste que tenha as configurações comuns de acesso de
   - [Sincronização de hash de senha (PHS)](phs-prereqs-m365-test-environment.md)
   - [Autenticação de passagem (PTA)](pta-prereqs-m365-test-environment.md)
 
-2. Use [políticas comuns de](identity-access-policies.md) identidade e acesso a dispositivos para configurar as políticas que se baseam nos pré-requisitos configurados para seu ambiente de teste e explore e verifique a proteção de identidades e dispositivos.
+2. Use [políticas comuns de](identity-access-policies.md) identidade e acesso a dispositivos para configurar as políticas que se baseiem nos pré-requisitos configurados para seu ambiente de teste e explore e verifique a proteção de identidades e dispositivos.
 
 ## <a name="see-also"></a>Confira também
 

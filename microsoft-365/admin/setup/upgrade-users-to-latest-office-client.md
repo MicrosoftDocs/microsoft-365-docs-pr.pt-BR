@@ -23,12 +23,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Saiba mais sobre como atualizar o Microsoft Office para o cliente mais recente do Office para usuários em sua organização.
-ms.openlocfilehash: 596dfc8f4a005d01c0bf330243bf1fb3c639f97e
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 3f8ea0d16e1c27414b5f3e11e842e336fadb3e75
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906436"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233313"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Atualize seus usuários do Microsoft 365 para empresas para o cliente mais recente do Office
 
@@ -48,7 +48,7 @@ Consulte o roteiro de fim do suporte do [Office 2010](https://docs.microsoft.com
   
  Se você for o administrador responsável pela assinatura do Microsoft 365 for Business em sua organização, você está no lugar certo. Os administradores geralmente são responsáveis por tarefas como gerenciar usuários, redefinir senhas, gerenciar as instalações do Office e adicionar ou remover licenças.
 
- Se você não for um administrador e tiver um produto da Família [do Microsoft 365,](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) confira Como atualizar o [Office](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) para obter informações sobre como atualizar sua versão antiga e de uso íntegrado do Office.
+ Se você não for um administrador e tiver um produto da Família [do Microsoft 365,](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) confira Como atualizar o [Office](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) para saber mais sobre como atualizar sua versão mais antiga e de uso em casa do Office.
 
 ## <a name="get-ready-to-upgrade-to-microsoft-365"></a>Prepare-se para atualizar para o Microsoft 365
 
@@ -56,7 +56,7 @@ Como administrador, você controla qual versão das pessoas do Office em sua org
 
 ## <a name="upgrade-steps"></a>Etapas de atualização
 
-As etapas abaixo orientarão você pelo processo de atualização de seus usuários para o cliente de área de trabalho do Office mais recente. Recomendamos que você leia essas etapas antes de iniciar o processo de atualização.
+As etapas a seguir orientarão você pelo processo de atualização de seus usuários para o cliente de área de trabalho do Office mais recente. Recomendamos que você leia essas etapas antes de iniciar o processo de atualização.
   
 ## <a name="step-1---check-system-requirements"></a>Etapa 1- Verificar os requisitos do sistema
 
@@ -79,7 +79,7 @@ Alguns planos do Microsoft 365 não incluem as versões completas da área de tr
   
 Não sabe ao certo qual plano de assinatura você tem? Veja o que eu tenho de assinatura do [Microsoft 365 para empresas?](../admin-overview/what-subscription-do-i-have.md)
   
-Se seu plano existente incluir o Office, vá para a [Etapa 3 - Desinstalar o Office.](#step-3---uninstall-office)
+Se o seu plano existente incluir o Office, vá para a [Etapa 3 - Desinstalar o Office.](#step-3---uninstall-office)
   
 Se seu plano existente não incluir o Office, selecione uma das opções abaixo:
   
@@ -87,7 +87,7 @@ Se seu plano existente não incluir o Office, selecione uma das opções abaixo:
 
  **Opção 1: Mudar de assinatura do Office**
 
-Alternar para uma assinatura que inclua o Office. Confira [Alternar para um plano diferente do Microsoft 365 para empresas.](../../commerce/subscriptions/switch-to-a-different-plan.md)
+Alternar para uma assinatura que inclua o Office. Confira [Mudar para um plano diferente do Microsoft 365 para empresas.](../../commerce/subscriptions/switch-to-a-different-plan.md)
 
 **Opção 2: comprar compras individuais e avões do Office ou comprar o Office por meio de uma licença por volume**
 
@@ -99,9 +99,12 @@ Alternar para uma assinatura que inclua o Office. Confira [Alternar para um plan
 
 ## <a name="step-3---uninstall-office"></a>Etapa 3 - Desinstalar o Office
 
-Antes de instalar a versão mais recente do Office, recomendamos que você desinstale todas as versões mais antigas do Office. No entanto, se você mudar de ideia sobre como atualizar o Office, observe as seguintes instâncias em que você não poderá reinstalar o Office após desinstalá-lo.
+Antes de instalar a versão mais recente do Office, recomendamos que você desinstale todas as versões mais antigas do Office. No entanto, se você mudar de ideia sobre como atualizar o Office, observe as seguintes instâncias em que você não poderá reinstalar o Office depois de desinstalá-lo.
   
 Recomendamos que, se você tiver complementos de terceiros, entre em contato com o fabricante para ver se há uma atualização que funcionará com a versão mais recente do Office.
+
+> [!TIP]
+> Se você tiver problemas ao desinstalar o Office, poderá usar a ferramenta Assistente de Recuperação e Suporte da Microsoft para ajudá-lo a remover o Office: baixar e executar o Assistente de Recuperação e Suporte da [Microsoft.](https://go.microsoft.com/fwlink/?LinkID=2155008)
 
 ### <a name="select-the-version-of-office-you-want-to-uninstall"></a>Selecione a versão do Office que você deseja desinstalar
 

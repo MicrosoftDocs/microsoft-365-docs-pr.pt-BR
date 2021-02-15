@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Saiba como cancelar sua assinatura paga ou de avaliação do Microsoft 365 para empresas.
 ms.date: ''
-ms.openlocfilehash: 4141de3f1a228f465559212098cf46e68f2844f6
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 5d96b541030646668f636ee09cc3ccc4b43ef75a
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114724"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233335"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -35,7 +35,7 @@ ms.locfileid: "50114724"
 
 ::: moniker-end
 
-*Qualificação:* Se você tiver menos de 25 licenças atribuídas aos usuários, poderá cancelar sua assinatura de avaliação ou paga do Microsoft 365 para empresas online no Centro de administração do Microsoft 365 a qualquer momento. Se você tiver mais de 25 licenças atribuídas aos usuários, ligue para [o suporte para cancelar sua assinatura.](../../admin/contact-support-for-business-products.md)
+*Qualificação:* Se você tiver menos de 25 licenças atribuídas aos usuários, poderá cancelar sua assinatura de avaliação ou paga do Microsoft 365 para empresas online no Centro de administração do Microsoft 365 a qualquer momento. Se você tiver mais de 25 licenças atribuídas aos usuários, reduza-as para menos de 25 ou ligue para o suporte [para cancelar sua assinatura.](../../admin/contact-support-for-business-products.md)
 
 *Reembolso:* qualquer crédito rateado será devolvido a você no próximo ciclo de faturamento.
 

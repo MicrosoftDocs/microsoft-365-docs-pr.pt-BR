@@ -1,0 +1,30 @@
+---
+title: Termos de uso da avaliação do Microsoft Defender para Office 365
+f1.keywords: ''
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+audience: Admin
+ms.topic: overview
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: ''
+ms.collection:
+- M365-security-compliance
+- m365initiative-defender-office365
+ms.custom:
+- seo-marvel-apr2020
+ROBOTS: NOINDEX
+description: Os administradores podem saber mais sobre os termos de uso da avaliação do Microsoft Defender para Office 365
+ms.openlocfilehash: 3aa35f2fab6868899884775ea45b41dab813c173
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233883"
+---
+# <a name="microsoft-defender-for-office-365-trial-terms--conditions"></a>Termos de Avaliação do Microsoft Defender para Office 365 & condições
+
+Ao participar desta avaliação gratuita **("** Avaliação ") do Microsoft Defender for Office 365 Services, você concorda em estar vinculado aos nossos Termos de Serviços [Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) e aos termos a seguir **("** Termos de Avaliação "), desde que, em caso de conflito, os Termos de Avaliação regem. O período de avaliação será de noventa (90) dias a partir da data em que você ativar a avaliação. A menos que você compre uma assinatura do Microsoft Defender para Office 365 antes da expiração ou do término do período de avaliação, você não terá mais acesso a (i) quaisquer dados relacionados aos recursos da avaliação que você tenha inserido em sua conta e (ii) configurações ou personalizações feitas por você ou para você usar os recursos da Avaliação. A Microsoft se reserva o direito de encerrar ou modificar os Termos de Avaliação e/ou estes Termos de Avaliação a qualquer momento, sem aviso prévio e sem responsabilidade. A oferta de avaliação não está disponível para clientes em todas as regiões e países.

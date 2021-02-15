@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um ambiente do Microsoft 365 para testar a identidade e o acesso a dispositivos com os pré-requisitos para a autenticação de passagem.
-ms.openlocfilehash: 7741b38a947e58d81192326c412760487d803e36
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 71ba116ee45f031b156934e0924a0c3d460110d5
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399176"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233757"
 ---
 # <a name="identity-and-device-access-prerequisites-for-pass-through-authentication-in-your-microsoft-365-test-environment"></a>Pré-requisitos de acesso a identidades e dispositivos para autenticação de passagem no seu ambiente de teste do Microsoft 365
 
@@ -30,16 +29,18 @@ As configurações de acesso a identidades e dispositivos são um conjunto de co
 
 Este artigo descreve como você pode configurar um ambiente de teste do Microsoft 365 que atenda aos requisitos da [Configuração de pré-requisitos de autenticação de passagem](../security/office-365-security/identity-access-prerequisites.md#prerequisites) para acesso a identidades e dispositivos.
 
-Existem oito fases para configurar este ambiente de teste:
+Há dez fases para configurar esse ambiente de teste:
 
-1.  Crie sua empresa simulada com autenticação de passagem no ambiente de teste do Microsoft 365
-2.  Configurar logon único contínuo do Azure AD
-3.  Configurar localizações nomeadas
-4.  Configurar o write-back de senha
-5.  Configurar a redefinição de senha de autoatendimento
-6.  Configurar autenticação multifatorial
-7.  Habilitar o Azure AD Identity Protection
-8.  Habilite a autenticação moderna para o Exchange Online e o Skype for Business Online
+1. Crie sua empresa simulada com autenticação de passagem no ambiente de teste do Microsoft 365
+2. Configurar logon único contínuo do Azure AD
+3. Configurar localizações nomeadas
+4. Configurar o write-back de senha
+5. Configurar a redefinição de senha de autoatendimento
+6. Configurar autenticação multifatorial
+7. Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio
+8. Configurar a proteção por senha do Azure AD 
+9. Habilitar o Azure AD Identity Protection
+10. Habilite a autenticação moderna para o Exchange Online e o Skype for Business Online
 
 ## <a name="phase-1-build-out-your-simulated-enterprise-with-pass-through-authentication-microsoft-365-test-environment"></a>Fase 1: crie sua empresa simulada com autenticação de passagem no ambiente de teste do Microsoft 365
 
@@ -85,13 +86,21 @@ Siga as instruções na [Fase 2 do Guia do Laboratório de Teste de autenticaç�
 - Usuário 4
 - Usuário 5
 
-Teste a autenticação de vários fatores somente para a conta do Usuário 2.
+Teste a autenticação multifator apenas para a conta de Usuário 2.
 
-## <a name="phase-7-enable-azure-ad-identity-protection"></a>Fase 7: ativar a proteção de identidade do Azure AD
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 7: Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio 
 
-Siga as instruções na [Fase 2 do Guia do Laboratório de Teste do Azure AD Identity Protection](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection). 
+Siga [estas instruções para](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio.
 
-## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 8: habilite a autenticação moderna para o Exchange Online e o Skype for Business Online
+## <a name="phase-8-configure-azure-ad-password-protection"></a>Fase 8: Configurar a proteção por senha do Azure AD 
+
+Siga [estas instruções](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) para bloquear senhas fracas conhecidas e suas variantes.
+
+## <a name="phase-9-enable-azure-ad-identity-protection"></a>Fase 9: Habilitar o Azure AD Identity Protection
+
+Siga as instruções em [Fase 2 Azure AD Identity Protection do Guia do Laboratório de Teste](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection). 
+
+## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 10: Habilitar a autenticação moderna para o Exchange Online e o Skype for Business Online
 
 Para o Exchange Online, siga [estas instruções](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
 

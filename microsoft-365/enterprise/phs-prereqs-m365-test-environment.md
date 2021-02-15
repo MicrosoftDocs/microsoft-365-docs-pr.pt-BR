@@ -5,7 +5,6 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um ambiente do Microsoft 365 para testar o acesso a identidades e dispositivos com os pré-requisitos para a autenticação de sincronização de hash de senha.
-ms.openlocfilehash: 63f433d5297139fcc7f6eb8bd5383a6593c29388
-ms.sourcegitcommit: cd17328baa58448214487e3e68c37590ab9fd08d
+ms.openlocfilehash: 8e8db4aae39acda0762f9b6394b23ab047727ea5
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "48399438"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233779"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Pré-requisitos de acesso a identidades e dispositivos para sincronização de hash de senha no seu ambiente de teste do Microsoft 365
 
@@ -28,22 +27,24 @@ ms.locfileid: "48399438"
 
 As configurações de acesso a identidades e dispositivos são um conjunto de configurações e políticas de acesso condicional para proteger o acesso a todos os serviços do Microsoft 365 para empresas [integrados](../security/office-365-security/microsoft-365-policies-configurations.md) ao Azure Active Directory (Azure AD).
 
-Este artigo descreve como configurar um ambiente de teste do Microsoft 365 que atenda aos requisitos do [Active Directory com a configuração de pré-requisito de sincronização de hash de senha](../security/office-365-security/identity-access-prerequisites.md#prerequisites) para acesso a identidades e dispositivos.
+Este artigo descreve como configurar um ambiente de teste do Microsoft 365 que atenda aos requisitos do híbrido com a configuração de pré-requisito de autenticação de sincronização de [hash](../security/office-365-security/identity-access-prerequisites.md#prerequisites) de senha para acesso a identidades e dispositivos.
 
-Existem oito fases para configurar este ambiente de teste:
+Há dez fases para configurar esse ambiente de teste:
 
-1.  Crie uma empresa simulada com o ambiente de teste de sincronização de hash de senha
-2.  Configurar logon único contínuo do Azure AD
-3.  Configurar localizações nomeadas
-4.  Configurar o write-back de senha
-5.  Configurar redefinição de senha de autoatendimento para todas as contas de usuário
-6.  Configurar autenticação multifator para todas as contas de usuário
-7.  Habilitar o Azure AD Identity Protection
-8.  Habilite a autenticação moderna para o Exchange Online e o Skype for Business Online
+1. Crie uma empresa simulada com o ambiente de teste de sincronização de hash de senha
+2. Configurar logon único contínuo do Azure AD
+3. Configurar localizações nomeadas
+4. Configurar o write-back de senha
+5. Configurar redefinição de senha de autoatendimento para todas as contas de usuário
+6. Configurar autenticação multifator para todas as contas de usuário
+7. Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio
+8. Configurar a proteção por senha do Azure AD 
+9. Habilitar o Azure AD Identity Protection
+10. Habilite a autenticação moderna para o Exchange Online e o Skype for Business Online
 
 ## <a name="phase-1-build-out-your-simulated-enterprise-with-password-hash-sync-microsoft-365-test-environment"></a>Fase 1: construa sua empresa simulada com sincronização de hash de senha no ambiente de teste do Microsoft 365
 
-Siga as instruções em [Sincronização de hash de senha](password-hash-sync-m365-ent-test-environment.md).
+Siga as instruções no Guia do Laboratório de Teste [de sincronização](password-hash-sync-m365-ent-test-environment.md) de hash de senha.
 Esta é a configuração resultante.
 
 ![Empresa simulada com ambiente de teste de sincronização de hash de senha](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
@@ -84,13 +85,21 @@ Siga as instruções na [Fase 2 do Guia do Laboratório de Teste de autenticaç�
 - Usuário 4
 - Usuário 5
 
-Teste a autenticação de vários fatores somente para a conta do Usuário 2.
+Teste a autenticação multifator apenas para a conta de Usuário 2.
 
-## <a name="phase-7-enable-azure-ad-identity-protection"></a>Fase 7: ativar a proteção de identidade do Azure AD
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 7: Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio 
 
-Siga as instruções na [Fase 2 do Guia do Laboratório de Teste do Azure AD Identity Protection](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection). 
+Siga [estas instruções para](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio.
 
-## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 8: habilite a autenticação moderna para o Exchange Online e o Skype for Business Online
+## <a name="phase-8-configure-azure-ad-password-protection"></a>Fase 8: Configurar a proteção por senha do Azure AD 
+
+Siga [estas instruções](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) para bloquear senhas fracas conhecidas e suas variantes.
+
+## <a name="phase-9-enable-azure-ad-identity-protection"></a>Fase 9: Habilitar o Azure AD Identity Protection
+
+Siga as instruções em [Fase 2 Azure AD Identity Protection do Guia do Laboratório de Teste](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection). 
+
+## <a name="phase-10-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 10: Habilitar a autenticação moderna para o Exchange Online e o Skype for Business Online
 
 Para o Exchange Online, siga [estas instruções](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha informações sobre os aplicativos do Microsoft Teams usados em sua organização ao obter o relatório de uso de aplicativos do Microsoft Teams nos Relatórios do Microsoft 365.
-ms.openlocfilehash: 928ba7bbe4d4753499e71b347baffafa7441f5b5
-ms.sourcegitcommit: 82d8be71c5861a501ac62a774b306a3fc1d4e627
+ms.openlocfilehash: 54219b060767193e711c839d25780dd3b4a618bf
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988523"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233429"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Relatórios do Microsoft 365 no centro de administração - uso de dispositivos do Microsoft Teams
 
@@ -44,9 +44,11 @@ O painel Relatórios  do Microsoft 365 mostra a visão geral das atividades em t
 
 Você pode exibir o uso do dispositivo no relatório do Teams escolhendo a **guia Uso do** dispositivo.<br/>![Relatórios do Microsoft 365 : uso de dispositivos do Microsoft Teams.](../../media/e46c7f7c-8371-4a20-ae82-b20df64b0205.png)
 
-Selecione **Escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![Relatório de dispositivos de usuário do Teams - escolher colunas](../../media/3358d5d9-931b-4d30-931f-450b2f5717da.png)
+Selecione **Escolher colunas** para adicionar ou remover colunas do relatório.  <br/> ![Relatório de dispositivos do usuário do Teams - escolher colunas](../../media/3358d5d9-931b-4d30-931f-450b2f5717da.png)
 
 Você também pode exportar os dados do relatório para um arquivo .csv do Excel selecionando o link **Exportar.** Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
+
+O relatório **Uso de dispositivo do Microsoft Teams** pode ser consultado sobre tendências dos últimos 7, 30, 90 ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados por até 28 dias a partir da data atual (e não a data em que o relatório foi gerado).
   
 |Item|Descrição|
 |:-----|:-----|

@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
@@ -17,17 +16,23 @@ search.appverid:
 - MET150
 description: Usando a central de segurança do Microsoft 365 ou o centro de conformidade da Microsoft 365, você pode gerenciar as permissões centralmente para todas as tarefas relacionadas à segurança ou conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 266d8184db5ebc79609c0a5f27c7511087ea42d0
-ms.sourcegitcommit: 21b0ea5715e20b4ab13719eb18c97fadb49b563d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 2be0b1ced6a10d37b400a454987b908e21afbaa0
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49624715"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150695"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Permissões novo centro de segurança do Microsoft 365 e no centro de conformidade do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Sua organização precisa gerenciar cenários de segurança e conformidade que abrangem todos os serviços do Microsoft 365. E você precisa ter flexibilidade para dar permissões de administrador para as pessoas certas no grupo de TI da sua organização. Usando a central de segurança do Microsoft 365 ou o centro de conformidade da Microsoft 365, você pode gerenciar as permissões centralmente para todas as tarefas relacionadas à segurança ou conformidade.
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Seja adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, o Microsoft 365 ajuda você a se manter informado sobre o cenário de conformidade em constante mudança. Descubra o que estamos fazendo até este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 682f736456ebe822ee5a34de0175003fd7516920
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 40140c950bb42078cb1e72ae74762db00a4516b6
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50113970"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233159"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -34,7 +34,26 @@ Seja adicionando novas soluções ao centro de conformidade do [Microsoft 365,](
 
 > [!TIP]
 > Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[Novidades no centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview)<br>[Novidades no centro de administração do SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br>[Novidades no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/whats-new)<br><br>
-E visite o Mapa do [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão sendo lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+Visite o Mapa do [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão sendo lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
+
+## <a name="january-2021"></a>Janeiro de 2021
+
+### <a name="support-for-card-content-in-teams"></a>Suporte para conteúdo de cartão no Teams
+
+As seguintes soluções de conformidade do Microsoft 365 agora suportam a detecção de conteúdo [de](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards) cartão gerado por meio de aplicativos nas mensagens do Teams:
+
+- **Descobertas Básicas e Avançadas.** O conteúdo do cartão agora [pode ser colocado em](create-ediscovery-holds.md#preserve-card-content) espera ou incluído em [pesquisas](https://docs.microsoft.com/microsoftteams/ediscovery-investigation#search-for-card-content) (também se aplica à pesquisa de conteúdo).
+- **Auditoria**. A atividade do cartão agora [é registrada no log de auditoria.](https://docs.microsoft.com/microsoftteams/audit-log-events#teams-activities)
+- **Políticas de retenção**. Agora pode usar as políticas de retenção para [reter e excluir o conteúdo do cartão.](retention-policies-teams.md#whats-included-for-retention-and-deletion)
+
+### <a name="information-governance-and-records-management"></a>Governança de informações e gerenciamento de registros
+
+[Nova avaliação](retention-regulatory-requirements.md#new-zealand-public-records-act) a ser abordada usando a governança de informações e o gerenciamento de registros para ajudar a cumprir as obrigações de conformidade da Lei de Registros Públicos da Nova Zelândia.
+
+### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
+
+- Os rótulos de sensibilidade agora têm suporte para locatários do Governo dos Estados Unidos (GCC e GCC-H).
+- Novo [suporte à rotulagem](sensitivity-labels-office-apps.md) automática para macOS.
 
 ## <a name="december-2020"></a>Dezembro de 2020
 
@@ -118,7 +137,7 @@ Para exibir itens durante uma revisão de disposição, os usuários agora devem
 
 ### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
 
-[Suporte à linguagem CJK.](ediscovery-cjk-support.md) A Descoberta Avançada agora dá suporte a idiomas de conjunto de caracteres de byte duplo, conhecidos coletivamente como idiomas CJK (inclui chinês simplificado, chinês tradicional, japonês e coreano). Eles podem ser usados em vários cenários avançados de conjunto de revisão.
+[Suporte à linguagem CJK.](ediscovery-cjk-support.md) A Descoberta Avançada agora dá suporte a idiomas de conjunto de caracteres de byte duplo, coletivamente conhecidos como idiomas CJK (inclui chinês simplificado, chinês tradicional, japonês e coreano). Eles podem ser usados em vários cenários avançados de conjunto de revisão.
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
@@ -143,7 +162,7 @@ Assista ao vídeo abaixo para saber como o Gerenciador de Conformidade pode ajud
 
 ### <a name="communication-compliance"></a>Conformidade de comunicações
 
-- [Grupos de função atualizados.](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance) Os grupos de função de conformidade de comunicação agora corresponderão à estrutura de grupo de função disponível para a solução de gerenciamento de riscos interno.
+- [Grupos de função atualizados.](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance) Os grupos de função de conformidade de comunicação agora corresponderão à estrutura de grupo de funções disponível para a solução de gerenciamento de riscos interno.
 - [Painel de relatórios.](communication-compliance-feature-reference.md#reports-preview) Seu local central para exibir todos os relatórios de conformidade de comunicação. Os widgets de relatório fornecem uma exibição rápida das informações mais comumente necessárias para uma avaliação geral do status das atividades de conformidade de comunicação.
 - [Fluxos do Power Automate.](communication-compliance-feature-reference.md#power-automate-flows) Configurar fluxos para automatizar tarefas para alertas e usuários, notificar gerentes quando os usuários dispararem alertas e muito mais.
 - [Ação de correção "Melhorar a classificação".](communication-compliance-investigate-remediate.md#step-3-decide-on-a-remediation-action) Os alertas que contêm itens que corresponderem a classificadores de treinamento podem se beneficiar dos comentários para ajudar a minimizar falsos positivos em sua organização. A **opção Melhorar classificação** permite que você forneça comentários se os itens detectados corresponderem ao classificador configurado na política de conformidade de comunicação relacionada. Você pode até sugerir outros classificadores para associar ao item para melhorar a precisão da combinação para alertas futuros.
@@ -155,7 +174,7 @@ Assista ao vídeo abaixo para saber como o Gerenciador de Conformidade pode ajud
 
 ### <a name="insider-risk-management"></a>Gerenciamento de risco interno
 
-- [Integração com o Microsoft Teams.](insider-risk-management-settings.md#microsoft-teams-preview) Quando a integração com o Teams é responsabilidade em configurações de risco interno, você pode coordenar e colaborar com outros participantes no Teams em tarefas como compartilhamento seguro e armazenamento de dados relacionados a casos individuais, rastreamento e revisão de atividades de resposta de analistas e investigadores e muito mais.
+- [Integração com o Microsoft Teams.](insider-risk-management-settings.md#microsoft-teams-preview) Quando a integração com o Teams está corretamente corretamente, você pode coordenar e colaborar com outros participantes no Teams em tarefas como compartilhamento seguro e armazenamento de dados relacionados a casos individuais, rastreamento e revisão de atividades de resposta de analistas e investigadores e muito mais.
 - [Fluxos do Power Automate.](insider-risk-management-settings.md#power-automate-flows-preview) Configurar fluxos para automatizar tarefas importantes para casos e usuários, como recuperar informações de usuário, alerta e caso para compartilhar com participantes e outros aplicativos, automatizar ações como postar em anotações de ocorrência e muito mais.
 - [Explorador de atividades.](insider-risk-management-alerts.md#activity-explorer-preview) Disponível ao analisar alertas, o explorador de atividades fornece aos investigadores e analistas uma ferramenta de análise abrangente para analisar cada alerta. Revise rapidamente uma linha do tempo de atividade arriscada detectada e identifique e filtre todas as atividades de risco associadas a alertas.
 
@@ -179,11 +198,11 @@ Os novos recursos de retraining e feedback ajudam a melhorar a precisão e minim
 Esse novo recurso está incluído nos seguintes recursos:
 
 > [!NOTE]
-> Para todos os recursos, se você fornecer pelo menos 30 respostas de comentários, criaremos uma versão restrita desse classificador que você pode analisar. Se houver melhorias, você poderá republicar o classificador.
+> Para todos os recursos, se você fornecer pelo menos 30 respostas de comentários, criaremos uma versão restrita desse classificador que você pode revisar. Se houver melhorias, você poderá republicar o classificador.
 
 - [Classificadores de treinamento.](classifier-learn-about.md#retraining-classifiers) Para melhorar a precisão dos classificadores publicados, você pode fornecer comentários sobre se os itens detectados corresponderão ao classificador.
 - [Conformidade de comunicação.](classifier-how-to-retrain-comms-compliance.md) A nova **ação melhorar** a correção de classificação permite que você forneça comentários se um item de um alerta de conformidade de comunicação corresponde ao classificador configurado na política de conformidade de comunicação.
-- [Explorador de conteúdo.](classifier-how-to-retrain-content-explorer.md) Se você configurar uma política de rotulagem automática de retenção para aplicar automaticamente rótulos a mensagens de email que corresponderem a classificadores de treinamento, poderá usar o Explorador de Conteúdo para revisar os itens rotulados e fornecer comentários se os itens corresponderem ao classificador.
+- [Explorador de conteúdo.](classifier-how-to-retrain-content-explorer.md) Se você configurar uma política de rotulagem automática de retenção para aplicar rótulos automaticamente a mensagens de email que corresponderem a classificadores de treinamento, poderá usar o Explorador de Conteúdo para revisar os itens rotulados e fornecer comentários se os itens corresponderem ao classificador.
 
 ## <a name="august-2020"></a>Agosto de 2020
 
@@ -201,7 +220,7 @@ Vários recursos novos e aprimorados atingiram a visualização pública este m�
     - Violações da política de segurança por usuários prioritários
     - Violações da política de segurança por usuários não coerentes
 
-- A [integração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) com o Microsoft Defender para Ponto de Extremidade permite importar e filtrar alertas do Microsoft Defender para Pontos de Extremidade para atividades detectadas por políticas criadas a partir dos novos modelos de política de violação de segurança. Há também uma configuração de risco interno relacionada onde você pode optar por importar alertas de segurança para o gerenciamento de riscos [insider](insider-risk-management-settings.md#microsoft-defender-for-endpoint-preview) com base no status de triagem de alerta do Microsoft Defender para Ponto de Extremidade.
+- A [integração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) com o Microsoft Defender para Ponto de Extremidade permite importar e filtrar o Microsoft Defender para alertas de ponto de extremidade para atividades detectadas por políticas criadas a partir dos novos modelos de política de violação de segurança. Há também uma [](insider-risk-management-settings.md#microsoft-defender-for-endpoint-preview) configuração relacionada de risco interno em que você pode optar por importar alertas de segurança para o gerenciamento de riscos insider com base no status de triagem de alerta do Microsoft Defender para Ponto de Extremidade.
 
     > [!NOTE]
     > Para aproveitar a integração do Microsoft Defender para o Ponto de Extremidade (incluindo os novos modelos de violação de política de segurança), você precisará ter o Microsoft Defender para Ponto de Extremidade configurado em sua organização. Você também precisará habilitar o Microsoft Defender para Endpoint para integração de gerenciamento de riscos insider configurando recursos avançados no [Microsoft Defender para Ponto de Extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-features#share-endpoint-alerts-with-microsoft-compliance-center)
@@ -239,30 +258,4 @@ A atividade de administrador relacionada à retenção agora está registrada e 
 ### <a name="advanced-ediscovery"></a>Descoberta Eletrônica Avançada
 
 - Ao [adicionar uma coleção a um conjunto](add-data-to-review-set.md#define-options-to-scope-your-collection-for-review)de revisão, agora você pode incluir anexos modernos (também chamados de "anexos de nuvem") e versões de documentos do SharePoint.
-- Nova [experiência de exportação de download direto,](export-documents-from-review-set.md)eliminando a necessidade de usar o Azure Storage Explorer para baixar o conteúdo da ocorrência.
-
-## <a name="july-2020"></a>Julho de 2020
-
-### <a name="spotlight-on-help-docs"></a>Destaque nos documentos de ajuda
-
-Para ajudá-lo a entender quais soluções de conformidade são usadas para proteger e reger os dados confidenciais da sua organização, criamos duas novas páginas invasões com visão geral de como as soluções funcionam em conjunto para atingir essas metas, incluindo links para documentos relacionados para que você possa se desesincar ainda mais.
-
-[Proteção de Informações da Microsoft no Microsoft 365](information-protection.md)<br>
-[Governança de Informações da Microsoft no Microsoft 365](manage-Information-governance.md)
-
-### <a name="advanced-ediscovery-add-non-custodial-data-sources-to-your-cases"></a>Descoberta Avançada: Adicionar fontes de dados não custodial aos seus casos
-
-Adicionar dados a uma ocorrência sem precisar associá-lo a um custodiante (conhecido como fontes de dados não [custodial).](non-custodial-data-sources.md) E se precisar colocar esses dados não custodiais em espera, você poderá fazer isso usando nosso novo recurso de Indexação Avançada.
-
-### <a name="data-connectors-hr-connector-enhancements"></a>Conectores de dados: aprimoramentos do conector de RH
-
-(Na visualização) Uma nova versão do conector [de RH](import-hr-data.md) permite importar dados relacionados a alterações no nível do trabalho, revisões de desempenho e planos de melhoria de desempenho. Esses dados podem ser usados em várias políticas [de risco](insider-risk-management-policies.md) interno para detectar atividades relacionadas.
-
-### <a name="retention-labels-new-support-for-email"></a>Rótulos de retenção: novo suporte para email
-
-Agora você pode criar um [rótulo de retenção](retention.md#retention-labels) para começar a reter emails com base em quando as mensagens foram rotuladas. Isso não se aplica a itens de calendário, que serão mantidos com base em quando o item for enviado.
-
-### <a name="sensitivity-labels-new-feature-and-an-improvement"></a>Rótulos de sensibilidade: novo recurso e uma melhoria
-
-- (Na visualização) Ao definir as configurações de criptografia para um [](encryption-sensitivity-labels.md#double-key-encryption) rótulo, procure a nova opção para usar a Criptografia de Chave Dupla para proteger ainda mais os arquivos e emails rotulados.
-- Ao criar ou excluir rótulos de sensibilidade ou criar, editar ou excluir suas políticas de rótulo, as alterações agora são sincronizadas em até 1 hora para todos os usuários, aplicativos e serviços.
+- Nova [experiência de exportação de download](export-documents-from-review-set.md)direto, eliminando a necessidade de usar o Azure Storage Explorer para baixar o conteúdo da ocorrência.

@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 search.appverid:
 - MET150
 ms.assetid: ''
@@ -18,16 +17,23 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: Os administradores podem saber como o EOP usa autenticação de email (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
-ms.openlocfilehash: 6a0bf6fd7958f44a9cfbe7ae0600aeb064170437
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: ff6bbaa4831234e45c5617fb4e7ee9d4113f1eb1
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760513"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165446"
 ---
 # <a name="email-authentication-in-eop"></a>Autenticação de e-mail no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
+
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
 A autenticação de email (também conhecida como validação de email) é um grupo de padrões que tenta interromper a falsificação (mensagens de email de remetentes forjados). Em todas as organizações do Microsoft 365, o EOP usa estes padrões para verificar emails de entrada:

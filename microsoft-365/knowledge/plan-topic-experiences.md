@@ -79,13 +79,13 @@ Recomendamos que você permita que todos em sua organização criem e editem tó
 
 Se você deseja limitar a criação e edição de tópicos a pessoas ou grupos específicos, crie um grupo de segurança para eles e especifique-o durante o processo de configuração.
 
-Você pode optar por não permitir que ninguém contribua para tópicos, no entanto, isso não é recomendado. Os gerentes de conhecimento ainda poderão editar e criar tópicos se você escolher essa opção.
+Você pode optar por não permitir que ninguém contribua com tópicos, no entanto, isso não é recomendado. Os gerentes de conhecimento ainda poderão editar e criar tópicos se você escolher essa opção.
 
 *Visualizadores de tópicos*
 
 Os visualizadores de tópicos podem ver informações em páginas de tópicos, nos resultados da pesquisa e quando os tópicos são realçados no conteúdo, como páginas do SharePoint. Os usuários só podem ver tópicos descobertos quando têm acesso aos arquivos e páginas em que o tópico foi descoberto.
 
-Ao configurar os visualizadores de tópico, você pode escolher entre:
+Ao configurar os visualizadores de tópicos, você pode escolher entre:
 
 - **Todos na minha organização**
 - **Somente pessoas ou grupos de segurança selecionados**
@@ -117,7 +117,7 @@ Name (required),Expansion,MatchType- Exact/Partial (required)
 
 ## <a name="administration"></a>Administração
 
-Quando você configura Tópicos, como parte do processo de instalação, um centro de tópicos é criado automaticamente. Pense em como você deseja nomear o centro de tópicos e o que você deseja que a URL seja. Você pode definir o nome e a URL como parte do processo de instalação e pode alterar o nome (mas não a URL) posteriormente no Centro de administração do Microsoft 365. Você só pode ter um centro de tópicos.
+Quando você configura Tópicos, como parte do processo de configuração, um centro de tópicos é criado automaticamente. Pense em como você deseja nomear o centro de tópicos e o que você deseja que a URL seja. Você pode definir o nome e a URL como parte do processo de instalação e pode alterar o nome (mas não a URL) posteriormente no Centro de administração do Microsoft 365. Você só pode ter um centro de tópicos.
 
 ## <a name="setup-checklist"></a>Lista de verificação de instalação
 

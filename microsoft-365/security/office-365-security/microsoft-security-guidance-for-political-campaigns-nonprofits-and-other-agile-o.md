@@ -12,7 +12,6 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -21,17 +20,22 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: 'Resumo: Diretrizes de planejamento e implementação para organizações ágeis que têm um perfil de ameaça maior.'
-ms.openlocfilehash: 7818dde40086a1f1b424091d6fb951eb6d650073
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e7d16f63b808edc008022b17d20461df6cd30e75
+ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616111"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150767"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações Agile
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
 
  **Resumo:** Diretrizes de planejamento e implementação para organizações ágeis que têm um perfil de ameaça maior.
 

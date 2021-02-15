@@ -74,7 +74,7 @@ Para configurar tópicos
 
     - **Nome:** digite o nome do tópico que você deseja excluir. Há duas maneiras de fazer isso:
         - Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).
-        - Parciais: você pode excluir todos os tópicos que têm uma palavra específica.  Por exemplo, *o arco* excluirá  todos os tópicos com o arco de palavras nele, como Arc *circle*, *Arc arc* ou *Training arc*. Observe que ele não excluirá tópicos nos quais o texto é incluído como parte de uma palavra, *como* Arquitetura .
+        - Parciais: você pode excluir todos os tópicos que têm uma palavra específica.  Por exemplo, *o arco* excluirá  todos os tópicos com o arco de palavras nele, como arco *círculo,* arco *de Arc arc arc ou* arco *de treinamento.* Observe que ele não excluirá tópicos nos quais o texto é incluído como parte de uma palavra, *como* Arquitetura .
     - **Significa (opcional)**: se você quiser excluir um acrônimo, digite as palavras que o acrônimo significa.
     - **MatchType-Exact/Partial**: digite se o nome digitado foi um *tipo de* combinação exato *ou* parcial.
 
@@ -82,7 +82,7 @@ Para configurar tópicos
     
     Selecione **Avançar**.
 
-6. Nos **tópicos Quem pode ver e onde eles** podem vê-los, você configurará a visibilidade do tópico. Na configuração Quem pode **ver tópicos,** escolha quem terá acesso aos detalhes do tópico, como tópicos destacados, cartões de tópicos, respostas de tópicos na pesquisa e páginas de tópicos. Você pode selecionar:
+6. Nos **tópicos Quem pode ver e onde eles** podem vê-los, você configurará a visibilidade do tópico. Na configuração Quem pode **ver tópicos,** escolha quem terá acesso aos detalhes do tópico, como tópicos destacados, cartões de tópicos, respostas de tópicos em pesquisa e páginas de tópicos. Você pode selecionar:
     - **Todos na minha organização**
     - **Somente pessoas ou grupos de segurança selecionados**
     - **Ninguém**
@@ -92,7 +92,7 @@ Para configurar tópicos
     > [!Note] 
     > Embora essa configuração permita que você selecione qualquer usuário em sua organização, somente os usuários que têm licenças de Experiências de Tópico atribuídas a eles poderão exibir tópicos.
 
-7. Na página **Permissões para gerenciamento de tópicos,** escolha quem poderá criar, editar ou gerenciar tópicos. Na seção **Quem pode criar e editar tópicos,** você pode selecionar:
+7. Na página **Permissões de gerenciamento de tópicos,** escolha quem poderá criar, editar ou gerenciar tópicos. Na seção **Quem pode criar e editar tópicos,** você pode selecionar:
     - **Todos na minha organização**
     - **Somente pessoas ou grupos de segurança selecionados**
     - **Ninguém**
@@ -121,7 +121,7 @@ Para configurar tópicos
 
     ![Configurações aplicadas](../media/ksetup7.png)    
 
-## <a name="assign-licenses"></a>Atribuir licenças
+## <a name="assign-licenses"></a>Atribua licenças
 
 Depois de configurar as experiências de tópico, você deve atribuir licenças para os usuários que usarão Tópicos. Somente os usuários com uma licença podem ver informações sobre tópicos, incluindo destaques, cartões de tópicos, páginas de tópicos e o centro de tópicos. 
 
@@ -131,7 +131,7 @@ Atribuição de licenças:
 
 2. Selecione os usuários que você deseja licenciar e clique em **Licenças e aplicativos.**
 
-3. Em **Aplicativos,** certifique-se **de que a Pesquisa de Conectores do Graph com Experiências** de Índice e **Tópicos** estão selecionadas.
+3. Em **Aplicativos,** **certifique-se de que a Pesquisa de Conectores do Graph com Experiências** de Índice e **Tópicos** estão selecionadas.
 
 4. Clique em **Salvar alterações**.
 

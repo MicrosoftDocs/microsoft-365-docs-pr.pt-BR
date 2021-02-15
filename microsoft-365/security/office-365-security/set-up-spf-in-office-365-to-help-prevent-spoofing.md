@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: 11/21/2019
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -18,23 +17,23 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Este artigo descreve como atualizar um registro de Serviço de Nome de Domínio (DNS) para que você possa usar a Sender Policy Framework (SPF) com seu domínio personalizado no Office 365.
-ms.openlocfilehash: 536f727ee71db70490259179ff8e47009c547f89
-ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: fbed28047b88a3eff75f574fc4d2581a75f15518
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905218"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50166226"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Configure o SPF para ajudar a evitar falsificações
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-- [Pré-requisitos](#prerequisites)
-- [Criar ou atualizar seu registro TXT da SPF](#create-or-update-your-spf-txt-record)   
-  - [Como lidar com subdomínios?](#how-to-handle-subdomains)
-- [O que a autenticação de email da SPF realmente faz?](#what-does-spf-email-authentication-actually-do)   
-   - [Solução de problemas da SPF](#troubleshooting-spf)
-- [Mais informações sobre a SPF](#more-information-about-spf)
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Este artigo descreve como atualizar um registro Sistema de Nomes de Domínio (DNS) para que você possa usar a autenticação de email Sender Policy Framework (SPF) com O seu domínio personalizado no Office 365.
 

@@ -6,7 +6,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Saiba como usar os limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de DescobertaScoberta pode pesquisar no Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fe6df03491350c33416021523f276e203a416fc9
-ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
+ms.openlocfilehash: 28e61665d286292f8ba301c313fc3d9bb13065c1
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099731"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233180"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de Descobertas
 
@@ -36,13 +36,17 @@ Usamos o exemplo na ilustração a seguir para explicar como funcionam os limite
   
 ![Os limites de conformidade consistem em filtros de permissões de pesquisa que controlam o acesso a agências e grupos de função de administrador que controlam o acesso a ocorrências de Descobertas](../media/M365_ComplianceBoundary_OrgChart_v2.png)
   
-Neste exemplo, a Contoso LTD é uma organização que consiste em duas subsidiárias, Fourth Coffee e Coho Winery. A empresa exige que os agentes e investigadores da Descoberta Eletrônico possam pesquisar apenas as caixas de correio do Exchange, contas do OneDrive e sites do SharePoint em sua agência. Além disso, os gerentes e investigadores de Descobertas e Descobertas Podem ver apenas ocorrências de Descobertas Na agência, e eles só podem acessar os casos dos quais são membros. Veja como os limites de conformidade atendem a esses requisitos.
+Neste exemplo, a Contoso LTD é uma organização que consiste em duas subsidiárias, Fourth Coffee e Coho Winery. A empresa exige que os agentes e investigadores da Descoberta Eletrônico possam pesquisar apenas as caixas de correio do Exchange, contas do OneDrive e sites do SharePoint em sua agência. Além disso, os gerentes e investigadores de Descobertas e Descobertas Podem ver apenas ocorrências de DescobertaScoberta em sua agência, e eles só podem acessar os casos dos quais são membros. Além disso, neste cenário, os investigadores não podem colocar locais de conteúdo em espera ou exportar conteúdo de uma ocorrência. Veja como os limites de conformidade atendem a esses requisitos.
   
-- A funcionalidade de filtragem de permissões de pesquisa na Pesquisa de Conteúdo controla os locais de conteúdo que os gerentes e investigadores de Descobertas e Descobertas Podem pesquisar. Isso significa que os gerentes e investigadores de Descobertas e Descobertas Na Agência fourth Coffee só podem pesquisar locais de conteúdo na subsidiária Fourth Coffee. A mesma restrição se aplica à subsidiária Coho Winery.
+- A funcionalidade de filtragem de permissões de pesquisa na pesquisa de conteúdo controla os locais de conteúdo que os gerentes e investigadores de Descobertas e Descobertas Podem pesquisar. Isso significa que os gerentes e investigadores de Descobertas e Descobertas Na Agência fourth Coffee só podem pesquisar locais de conteúdo na subsidiária Fourth Coffee. A mesma restrição se aplica à subsidiária Coho Winery.
 
-    Os grupos de função controlam quem pode ver os casos de Descoberta eDiscovery no Centro de Conformidade & segurança. Isso significa que os gerentes e investigadores de Descobertas e Descobertas Só podem ver os casos de Descoberta eDiscovery em sua agência.
+- Os grupos de função fornecem as seguintes funções para limites de conformidade:
 
-- Os grupos de função também controlam quem pode atribuir membros a uma ocorrência de Descoberta eDiscovery. Isso significa que os gerentes e investigadores de Descobertas EDiscovery só podem atribuir membros a casos dos quais eles próprios são membros.
+  - Controle quem pode ver as ocorrências de Descobertas No Centro de Conformidade e Segurança & Segurança. Isso significa que os gerentes e investigadores de Descobertas e Descobertas Só podem ver os casos de Descoberta eDiscovery em sua agência.
+
+  - Controlar quem pode atribuir membros a uma ocorrência de Descoberta eDiscovery. Isso significa que os gerentes e investigadores de Descobertas EDiscovery só podem atribuir membros a casos dos quais eles próprios são membros.
+
+  - Controlar as tarefas relacionadas à Descoberta e Que os membros podem executar adicionando ou removendo funções que atribuem permissões específicas.
 
 Aqui está o processo para configurar limites de conformidade:
   
@@ -54,7 +58,7 @@ Aqui está o processo para configurar limites de conformidade:
 
 [Etapa 4: Criar um filtro de permissões de pesquisa para impor o limite de conformidade](#step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary)
 
-[Etapa 5: Criar um caso de Descoberta Pública para investigações dentro da agência](#step-5-create-an-ediscovery-case-for-intra-agency-investigations)
+[Etapa 5: Criar um caso de Descoberta Bancária para investigações dentro da agência](#step-5-create-an-ediscovery-case-for-intra-agency-investigations)
 
 ## <a name="before-you-set-up-compliance-boundaries"></a>Antes de configurar os limites de conformidade
 
@@ -68,7 +72,7 @@ Você precisa atender aos seguintes pré-requisitos antes que o atributo do Azur
 
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>Etapa 1: Identificar um atributo de usuário para definir suas agências
 
-A primeira etapa é escolher um atributo do Azure AD para usar que definirá suas agências. Esse atributo é usado para criar o filtro de permissões de pesquisa que limita um gerente de Descobertas Descoberta a pesquisar apenas os locais de conteúdo de usuários aos que foram atribuídos um valor específico para esse atributo. Por exemplo, digamos que Contoso decida usar o **atributo Department.** O valor desse atributo para usuários na subsidiária Fourth Coffee seria e o valor para usuários na  `FourthCoffee`  subsidiária Coho Winery seria `CohoWinery` . Na Etapa 4, você usa esse par  `attribute:value`  (por exemplo, *Department:FourthCoffee*) para limitar os locais de conteúdo do usuário que os gerentes de Descobertas Públicas podem pesquisar. 
+A primeira etapa é escolher um atributo do Azure AD para usar que definirá suas agências. Esse atributo é usado para criar o filtro de permissões de pesquisa que limita um gerente de Descobertas Descoberta a pesquisar apenas os locais de conteúdo de usuários aos que foram atribuídos um valor específico para esse atributo. Por exemplo, digamos que Contoso decida usar o **atributo Department.** O valor desse atributo para usuários na subsidiária Fourth Coffee seria e o valor para usuários na  `FourthCoffee`  subsidiária Coho Winery seria `CohoWinery` . Na Etapa 4, use esse par  `attribute:value`  (por exemplo, *Department:FourthCoffee*) para limitar os locais de conteúdo do usuário que os gerentes de Descobertas e Podem pesquisar. 
   
 Aqui está uma lista de atributos de usuário do Azure AD que você pode usar para limites de conformidade:
   
@@ -99,7 +103,7 @@ Inclua as seguintes informações ao enviar a solicitação para o suporte da Mi
 
 - O título ou a descrição a seguir da finalidade da solicitação de suporte: "Habilitar a sincronização do OneDrive for Business com o Azure AD para filtros de segurança de conformidade". Isso ajuda a encaminhar a solicitação para a equipe de engenharia de Descoberta eDiscovery que implementa a solicitação.
 
-Depois que a alteração de engenharia for feita e o atributo for sincronizado com o OneDrive, o Suporte da Microsoft enviará o número da computação em que a alteração foi feita e uma data de implantação estimada. O processo de implantação geralmente leva de 4 a 6 semanas depois que você envia a solicitação de suporte.
+Depois que a alteração de engenharia for feita e o atributo for sincronizado com o OneDrive, o Suporte da Microsoft enviará o número do build no qual a alteração foi feita e uma data de implantação estimada. O processo de implantação geralmente leva de 4 a 6 semanas depois que você envia a solicitação de suporte.
   
 > [!IMPORTANT]
 > Você pode concluir as etapas de 3 a 5 antes da implantação dessa alteração de atributo. Mas a execução de pesquisas de conteúdo não retornará documentos de contas do OneDrive especificadas em um filtro de permissões de pesquisa até que a sincronização de atributos seja implantada.
@@ -108,7 +112,7 @@ Depois que a alteração de engenharia for feita e o atributo for sincronizado c
 
 A próxima etapa é criar os grupos de função no Centro de Conformidade e Segurança & que se alinhará às suas agências. Recomendamos que você crie um grupo de funções copiando o grupo de Gerentes de Descoberta eDiscovery integrado, adicionando os membros apropriados e removendo funções que podem não ser aplicáveis às suas necessidades. Para obter mais informações sobre funções relacionadas à Descoberta eDiscovery, consulte Atribuir permissões de Descoberta eDiscovery no Centro de Conformidade e Segurança [& Office 365.](assign-ediscovery-permissions.md)
   
-Para criar os grupos de função, vá para a página Permissões no Centro de Conformidade e Segurança e crie um grupo de função para cada equipe em cada agência que usará limites de conformidade e ocorrência **& s** de Descoberta e Para gerenciar investigações.
+Para criar os grupos de função, vá para a página Permissões no Centro de Conformidade e Segurança & e crie um grupo de função para cada equipe em cada agência que usará limites de conformidade e **ocorrências** de Descoberta e Para gerenciar investigações.
   
 Usando o cenário de limites de conformidade da Contoso, quatro grupos de função precisam ser criados e os membros apropriados adicionados a cada um deles.
   
@@ -116,10 +120,12 @@ Usando o cenário de limites de conformidade da Contoso, quatro grupos de funç�
 
 - Investigadores do Quarto Café
 
-- Coho Winery eDiscovery Managers
+- Gerentes de Descoberta eDiscovery da Coho Winery
 
 - Investigadores da Coho Winery
   
+Para atender aos requisitos do cenário de limites  de  conformidade da Contoso, você também removeria as funções de Espera e Exportação dos grupos de função de investigadores para impedir que investigadores colocar retém em locais de conteúdo e exportar conteúdo de uma ocorrência.
+
 ## <a name="step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary"></a>Etapa 4: Criar um filtro de permissões de pesquisa para impor o limite de conformidade
 
 Depois de criar grupos de função para cada agência, a próxima etapa é criar os filtros de permissões de pesquisa que associam cada grupo de função à sua agência específica e define o limite de conformidade em si. Você precisa criar um filtro de permissões de pesquisa para cada agência. Para obter mais informações sobre como criar filtros de permissões de segurança, consulte [Configurar filtragem de permissões para Pesquisa de Conteúdo.](permissions-filtering-for-content-search.md)
@@ -136,7 +142,7 @@ Aqui está uma descrição de cada parâmetro no comando:
 
 - `Users`: Especifica os usuários ou grupos que têm esse filtro aplicado às ações de Pesquisa de Conteúdo realizadas. Para limites de conformidade, este parâmetro especifica os grupos de função (criados na Etapa 3) na agência para os que você está criando o filtro. Observe que esse é um parâmetro de vários valores para que você possa incluir um ou mais grupos de função, separados por vírgulas.
 
-- `Filters`: Especifica os critérios de pesquisa para o filtro. Para os limites de conformidade, defina os filtros a seguir. Cada um se aplica a um local de conteúdo. 
+- `Filters`: especifica os critérios de pesquisa para o filtro. Para os limites de conformidade, defina os filtros a seguir. Cada uma se aplica a um local de conteúdo. 
 
     - `Mailbox`: Especifica as caixas de correio que os grupos de função definidos no  `Users` parâmetro podem pesquisar. Para limites de conformidade,  *ComplianceAttribute*  é o mesmo atributo identificado na Etapa 1 e  *AttributeValue*  especifica a agência. Esse filtro permite que os membros do grupo de funções pesquisem apenas as caixas de correio em uma agência específica; por exemplo, `"Mailbox_Department -eq 'FourthCoffee'"` . 
 
@@ -165,17 +171,17 @@ New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users 
 New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_ComplianceAttribute -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL
 ```
 
-## <a name="step-5-create-an-ediscovery-case-for-intra-agency-investigations"></a>Etapa 5: Criar um caso de Descoberta Bancária para investigações intra-agência
+## <a name="step-5-create-an-ediscovery-case-for-intra-agency-investigations"></a>Etapa 5: Criar um caso de Descoberta Pública para investigações dentro da agência
 
 A etapa final é criar um caso principal de Descoberta eDiscovery ou Descoberta Avançada no centro de conformidade do Microsoft 365 e, em seguida, adicionar o grupo de função que você criou na Etapa 3 como um membro da ocorrência. Isso resulta em duas características importantes do uso de limites de conformidade:
   
-- Somente membros do grupo de funções adicionados à ocorrência poderão ver e acessar o caso no Centro de Conformidade & Segurança. Por exemplo, se o grupo de funções Quatro Investigadores de Café for o único membro de uma ocorrência, os membros do grupo de função Gerentes de Descoberta eDiscovery Managers da Fourth Coffee (ou membros de qualquer outro grupo de função) não poderão ver ou acessar o caso.
+- Somente os membros do grupo de funções adicionados à ocorrência poderão ver e acessar o caso no Centro de Conformidade e Segurança & Segurança. Por exemplo, se o grupo de funções Quatro Investigadores de Café for o único membro de uma ocorrência, os membros do grupo de função Gerentes de Descoberta eDiscovery Managers da Fourth Coffee (ou membros de qualquer outro grupo de função) não poderão ver ou acessar o caso.
 
 - Quando um membro do grupo de funções atribuído a uma ocorrência executa uma pesquisa associada à ocorrência, ele só poderá pesquisar os locais de conteúdo dentro de sua agência (que é definido pelo filtro de permissões de pesquisa que você criou na Etapa 4).)
 
 Para criar uma ocorrência e atribuir membros:
 
-1. Vá para a **página Descoberta eDiscovery** Principal **ou** Descoberta Avançada no centro de conformidade do Microsoft 365 e crie uma ocorrência.
+1. Vá para a **página Descoberta eDiscovery** Principal ou Descoberta Avançada no centro de conformidade do Microsoft 365 e crie uma ocorrência. 
 
 2. Na lista de casos, clique no nome da ocorrência que você criou.
 
@@ -295,13 +301,13 @@ Lembre-se das seguintes limitações ao gerenciar casos de Descoberta e investig
 
 - O atributo de conformidade é sincronizado da caixa de correio do Exchange de um usuário com sua conta do OneDrive a cada sete dias. Conforme mencionado anteriormente, essa sincronização só ocorre quando o usuário recebe uma licença do Exchange Online e do SharePoint Online e a caixa de correio do usuário é de pelo menos 10 MB.
 
-- Se os limites de conformidade e os filtros de permissões de pesquisa implementados para a caixa de correio de um usuário e para a conta do OneDrive, recomendamos que você não exclua a caixa de correio de um usuário e não a conta do OneDrive dele. Em outras palavras, se você excluir a caixa de correio de um usuário, também deverá remover a conta do OneDrive do usuário.
+- Se os limites de conformidade e os filtros de permissões de pesquisa são implementados para a caixa de correio de um usuário e para a conta do OneDrive, recomendamos que você não exclua a caixa de correio de um usuário e não a conta do OneDrive. Em outras palavras, se você excluir a caixa de correio de um usuário, também deverá remover a conta do OneDrive do usuário.
 
 - Há situações (como um funcionário em retorno) em que um usuário pode ter duas ou mais contas do OneDrive. Nesses casos, somente a conta principal do OneDrive associada ao usuário no Azure AD será sincronizada.
 
 - Os limites de conformidade e os filtros de permissões de pesquisa dependem de atributos carimbados no conteúdo do Exchange, oneDrive e SharePoint e da indexação subsequente desse conteúdo carimbado. 
 
-- Não recomendamos usar filtros de exclusão (como usar em um filtro de permissões de pesquisa) para um limite de conformidade `-not()` baseado em conteúdo. O uso de um filtro de exclusão poderá ter resultados inesperados se o conteúdo com atributos atualizados recentemente não tiver sido indexado. 
+- Não recomendamos o uso de filtros de exclusão (como o uso em um filtro de permissões de pesquisa) para um limite de conformidade `-not()` baseado em conteúdo. O uso de um filtro de exclusão poderá ter resultados inesperados se o conteúdo com atributos atualizados recentemente não tiver sido indexado. 
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como obter o relatório de atividades do usuário do Microsoft Teams e obter informações sobre a atividade do Teams em sua organização.
-ms.openlocfilehash: 7e32ca6b665cab9da93dec9632ef25176db0e839
-ms.sourcegitcommit: 039205fdaaa2a233ff7e95cd91bace474b84b68c
+ms.openlocfilehash: e8e4ab6fd78fb290243d8fdc780b5a7a14ca2ee0
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611395"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233405"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Relatórios do Microsoft 365 no centro de administração - atividade do usuário do Microsoft Teams
 
@@ -46,6 +46,8 @@ Selecione **Escolher colunas** para adicionar ou remover colunas do relatório. 
 
 Você também pode exportar os dados do relatório para um arquivo .csv do Excel selecionando o link **Exportar.** Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. O formato exportado para **tempo de áudio,** **tempo de vídeo** e tempo de **compartilhamento** de tela segue o formato de duração ISO8601.
 
+O relatório **Atividade de usuários do Microsoft Teams** pode ser consultado sobre tendências dos últimos 7, 30, 90 ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados por até 28 dias a partir da data atual (e não a data em que o relatório foi gerado).
+
 Para garantir a qualidade dos dados, realizamos verificações diárias de validação de dados nos últimos três dias e preencheremos as lacunas detectadas. Você pode notar diferenças nos dados históricos durante o processo.
 
 |Item|Descrição|
@@ -54,7 +56,7 @@ Para garantir a qualidade dos dados, realizamos verificações diárias de valid
 |Nome de usuário  <br/> |O endereço de email do usuário. Você pode exibir o endereço de email real ou tornar este campo anônimo.   <br/> |
 |Mensagens de canal   <br/> |O número de mensagens exclusivas que o usuário publicou em um chat da equipe durante o período de tempo especificado.  <br/> |
 |Mensagens de chat   <br/> |O número de mensagens exclusivas que o usuário publicou em um chat privado durante o período de tempo especificado.  <br/> |
-|Total de reuniões   <br/> |O número de reuniões online das que o usuário participou durante o período de tempo especificado.  <br/> |
+|Total de reuniões   <br/> |O número de reuniões online em que o usuário participou durante o período de tempo especificado.  <br/> |
 |Chamadas 1:1   <br/> | O número de chamadas 1:1 das que o usuário participou durante o período de tempo especificado.  <br/> |
 |Data da última atividade (UTC)  <br/> |A última data em que o usuário participou de uma atividade do Microsoft Teams.<br/> |
 |Reuniões participadas adhoc   <br/> | O número de reuniões não agendadas no calendário em que o usuário participou durante o período de tempo especificado.  <br/> |

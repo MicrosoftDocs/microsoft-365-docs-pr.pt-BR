@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: overview
-ms.service: O365-seccomp
 search.appverid:
 - MET150
 ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
@@ -21,17 +20,23 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
-ms.openlocfilehash: cae99cce070e6dc362dc678c153074fee53ca6a6
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b824ce68ee74deb2c2ff5ab51e8e2dbb0eace78b
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616711"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175902"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Se você for um cliente do Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo da Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, o EOP incluirá recursos para ajudar a proteger sua organização contra remetentes falsificados (forjados).
 

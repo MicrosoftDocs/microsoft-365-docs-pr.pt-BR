@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Os administradores podem saber mais sobre o modo de avaliação do Microsoft Defender para Office 365
-ms.openlocfilehash: f5ab0b0cd4ef5c2bf1a799043af94a0938a53783
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 6207ae117f06a0e5f10d4a7a47a251137c51df05
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114890"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233573"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Sobre a avaliação do Microsoft Defender para Office 365
 
@@ -41,7 +41,7 @@ Uma avaliação do Microsoft Defender para Office 365 é a maneira mais fácil d
 
 ## <a name="terms-and-conditions"></a>Termos e condições
 
-A avaliação do Defender para Office 365 está disponível por 90 dias e pode ser iniciada para todos os seus usuários. Para obter mais informações, [consulte Termos de uso para a avaliação do Microsoft Defender para Office 365.](terms-of-use-defender-for-office-365-trial.md)
+A avaliação do Defender para Office 365 está disponível por 90 dias e pode ser iniciada para todos os seus usuários. Para saber mais, confira Os Termos de Avaliação do [Microsoft Defender para Office 365 & condições.](defender-for-office-365-trial-terms-and-conditions.md)
 
 ## <a name="set-up-a-defender-for-office-365-trial"></a>Configurar um Defender para avaliação do Office 365
 
@@ -55,7 +55,7 @@ Durante a instalação, a funcionalidade de resposta do MDO (encontrada no MDO P
 
 Como parte da configuração de avaliação, as licenças do Defender para Office 365 são aplicadas automaticamente à organização. As licenças são gratuitas pelos primeiros 90 dias.
 
-## <a name="permissions"></a>Permissions
+## <a name="permissions"></a>Permissões
 
 Para iniciar ou finalizar a avaliação, você precisa  ser membro das funções de Administrador **Global** ou Administrador de Segurança no Azure Active Directory. Para obter detalhes, consulte [Sobre funções de administrador.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
 

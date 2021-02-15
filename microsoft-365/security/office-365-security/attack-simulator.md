@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o Simulador de Ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou Microsoft Defender for Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 824ee04e2fcf0757a7eb32b48246bf1a1c638926
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 9d3d55c17e5d77ee18bd822899fea2f64136e1a3
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175878"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233595"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
 
@@ -34,6 +34,10 @@ ms.locfileid: "50175878"
 **Aplica-se ao** [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
 
 Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataques no Centro de Conformidade e Segurança & para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real a impacte seu resultado final. Leia este artigo para saber mais.
+
+> [!NOTE]
+> A experiência do Simulador de Ataque v1 foi alternada para o modo somente leitura e substituída pelo treinamento do simulador de ataques descrito em Começar a usar o treinamento de [simulação de ataque.](attack-simulation-training-get-started.md)
+> A capacidade de iniciar novas simulações deste site foi desabilitada. No entanto, você ainda pode acessar relatórios de simulações executados por um período de 90 dias a partir de 24 de janeiro de 2021.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -53,7 +57,7 @@ Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inc
 
 ## <a name="spear-phishing-campaigns"></a>Campanhas de phishing em banda
 
-*Phishing* é um termo genérico para ataques de email que tentam roubar informações confidenciais em mensagens que parecem ser de senders legítimos ou confiáveis. *O phishing* em busca de phishing é um ataque de phishing direcionado que usa conteúdo focado e personalizado especificamente adaptado aos destinatários de alvo (normalmente, após a ida e volta aos destinatários pelo invasor).
+*Phishing* é um termo genérico para ataques de email que tentam roubar informações confidenciais em mensagens que parecem ser de envios legítimos ou confiáveis. *O phishing* em busca de phishing é um ataque de phishing direcionado que usa conteúdo focado e personalizado especificamente adaptado aos destinatários-alvo (normalmente, após a ida e volta aos destinatários pelo invasor).
 
 No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de phishing estão disponíveis:
 
@@ -72,7 +76,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de phish
 
 ### <a name="create-a-spear-phishing-campaign"></a>Criar uma campanha de phishing em forma de phishing
 
-Uma parte importante de qualquer campanha de phishing de phishing é a aparência da mensagem de email que é enviada aos destinatários de alvo. Para criar e configurar a mensagem de email, você tem estas opções:
+Uma parte importante de qualquer campanha de phishing é a aparência da mensagem de email que é enviada aos destinatários de alvo. Para criar e configurar a mensagem de email, você tem estas opções:
 
 - **Use um modelo de email integrado:** dois modelos integrados estão disponíveis: **Giveaway e Payroll** **Update.** Você pode personalizar ainda mais algumas, todas ou nenhuma das propriedades de email do modelo ao criar e iniciar a campanha.
 
@@ -153,14 +157,14 @@ Se você for usar um dos modelos integrados ou criar a mensagem de email diretam
 
    - Na caixa **Nome,** insira um nome de exibição exclusivo para a campanha. Não clique em **Usar Modelo,** pois você criará a mensagem de email posteriormente no assistente.
 
-   - Clique **em Usar** Modelo e selecione um modelo de email personalizado ou integrado. Depois de selecionar o modelo, a **caixa** Nome será preenchida automaticamente com base no modelo, mas você poderá alterar o nome.
+   - Clique **em Usar** Modelo e selecione um modelo de email integrado ou personalizado. Depois de selecionar o modelo, a **caixa** Nome será preenchida automaticamente com base no modelo, mas você poderá alterar o nome.
 
    > [!div class="mx-imgBorder"]
    > ![Página Inicial de Phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
    Quando terminar, clique em **Avançar**.
 
-4. Na etapa **Destinatários de** destino, faça uma das seguintes etapas:
+4. Na etapa **Destinatários de destino,** faça uma das seguintes etapas:
 
    - Clique **no Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário de alvo deve ter uma caixa de correio do Exchange Online. Se você clicar em **Filtrar** **e Aplicar** sem inserir critérios de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
 
@@ -199,7 +203,7 @@ Se você for usar um dos modelos integrados ou criar a mensagem de email diretam
      >
      > - Você precisa selecionar uma URL. Para **campanhas** de Phishing de Phishing (Anexo), você pode remover o link do corpo da mensagem na próxima etapa (caso contrário, a mensagem conterá um **link** e um anexo).
 
-   - **Tipo de anexo:** essa configuração só está disponível em campanhas **de Phishing de Phishing (Anexo).** Clique no drop down e selecione **. DOCX** ou **. PDF** da lista.
+   - **Tipo de anexo:** essa configuração só está disponível em campanhas **de Phishing (Anexo).** Clique no drop down e selecione **. DOCX** ou **. PDF** da lista.
 
    - **Nome do** anexo: essa configuração só está disponível em campanhas **de Phishing de Phishing (Anexo).** Insira um nome de arquivo para o anexo .docx ou .pdf.
 
@@ -217,7 +221,7 @@ Se você for usar um dos modelos integrados ou criar a mensagem de email diretam
 
    - `${loginserverurl}`insere o valor da URL do Servidor de **Logon de Phishing.**
 
-   Para campanhas de **Phishing** de Phishing (Anexo), você deve remover o link do corpo da mensagem (caso contrário, a mensagem conterá um **link** e um anexo, e os cliques de link não serão rastreados em uma campanha de anexo).
+   Para campanhas de **Phishing** de Phishing (Anexo), você deve remover o link do corpo da mensagem (caso contrário, a mensagem conterá um **link** e um anexo, e os cliques de link não são rastreados em uma campanha de anexo).
 
    > [!div class="mx-imgBorder"]
    > ![Corpo do email de composição](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
@@ -236,12 +240,12 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
   Para o ataque de dicionário, você pode especificar uma ou várias senhas para tentar (inseridas manualmente ou em um arquivo carregado) e você pode especificar um ou vários usuários.
 
-- **Ataque de pulverização de** senha: um ataque de *pulverização* de senha usa a mesma senha cuidadosamente considerada em uma lista de contas de usuário (uma senha em várias contas). Ataques de pulverização de senha são mais difíceis de detectar do que ataques de senha de força bruta (a probabilidade de sucesso aumenta quando um invasor tenta uma senha em dezenas ou centenas de contas sem o risco de bloquear a senha incorreta do usuário).
+- **Ataque de pulverização de** senha: um ataque de *pulverização* de senha usa a mesma senha cuidadosamente considerada em uma lista de contas de usuário (uma senha em várias contas). Os ataques de pulverização de senha são mais difíceis de detectar do que ataques de senha de força bruta (a probabilidade de sucesso aumenta quando um invasor tenta uma senha em dezenas ou centenas de contas sem o risco de bloquear a senha incorreta do usuário).
 
-  Para o ataque de pulverização de senha, você só pode especificar uma senha para tentar, e você pode especificar um ou vários usuários.
+  Para o ataque de pulverização de senha, você só pode especificar uma senha para tentar e você pode especificar um ou vários usuários.
 
 > [!NOTE]
-> Os ataques de senha no Simulador de Ataque passam o nome de usuário e a senha Solicitações de autenticação básicas para um ponto de extremidade, para que também funcionem com outros métodos de autenticação (AD FS, sincronização de hash de senha, passagem, PingFederate, etc.). Para os usuários que têm a MFA habilitada, mesmo que o ataque de senha tente sua senha real, a tentativa sempre se registrará como uma falha (em outras palavras, os usuários da MFA nunca aparecerão na contagem de tentativas bem-sucedidas da campanha).  Esse é o resultado esperado. A MFA é um método principal para ajudar a proteger contra ataques de senha.
+> Os ataques de senha no Simulador de Ataque passam o nome de usuário e a senha Solicitações de autenticação básicas para um ponto de extremidade, para que também funcionem com outros métodos de autenticação (AD FS, sincronização de hash de senha, passagem, PingFederate, etc.). Para usuários que têm a MFA habilitada, mesmo se o ataque de senha tentar sua senha real,  a tentativa sempre será registrar como uma falha (em outras palavras, os usuários de MFA nunca aparecerão na contagem de tentativas bem-sucedidas da campanha). Esse é o resultado esperado. A MFA é um método principal para ajudar a proteger contra ataques de senha.
 
 ### <a name="create-and-launch-a-password-attack-campaign"></a>Criar e iniciar uma campanha de ataque de senha
 
@@ -253,7 +257,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
    - na seção **Ataque de pulverização de** senha, clique em Iniciar **Ataque** ou em Ataque **de Detalhes** \> **de Ataque.**
 
-3. O **assistente Configurar Ataque de** Senha é iniciado em um novo flyout. Na etapa **Iniciar,** insira um nome de exibição exclusivo para a campanha e clique em **Próximo.**
+3. O **Assistente para Configurar Ataque** de Senha é iniciado em um novo flyout. Na etapa **Iniciar,** insira um nome de exibição exclusivo para a campanha e clique em **Próximo.**
 
 4. Na etapa **Usuários de** destino, faça uma das seguintes etapas:
 
@@ -267,7 +271,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
    - **Senha de Força Bruta (Ataque de Dicionário)**: faça uma das seguintes etapas:
 
-     - **Insira senhas manualmente:** pressione Enter **para adicionar uma caixa** de senha, digite uma senha e pressione ENTER. Repita essa etapa quantas vezes forem necessárias.
+     - **Insira senhas manualmente:** pressione **Enter para adicionar uma caixa** de senha, digite uma senha e pressione ENTER. Repita essa etapa quantas vezes forem necessárias.
 
      - **Carregar senhas de um** arquivo  de dicionário: clique em Carregar para importar um arquivo de texto existente que contenha uma senha em cada linha e uma última linha em branco. O arquivo de texto deve ter 10 MB ou menos de tamanho e não pode conter mais de 30.000 senhas.
 
@@ -345,7 +349,7 @@ As informações a seguir estão disponíveis na página **Detalhes do** ataque 
 
 - **Tempo de abertura do anexo mais** rápido: quanto tempo o primeiro usuário levou para abrir o anexo depois que você iniciou a campanha.
 
-- **Tempo médio de abertura do anexo:** a soma de quanto tempo todos demoraram para abrir o anexo dividido pelo número de usuários que abriram o anexo.
+- **Tempo médio de abertura do anexo:** a soma do tempo que todos demoraram para abrir o anexo dividido pelo número de usuários que abriram o anexo.
 
 - **Taxa de sucesso de abertura de** anexos: Uma porcentagem calculada por (número de usuários que abriram o anexo) / Total de usuários **direcionados.**
 

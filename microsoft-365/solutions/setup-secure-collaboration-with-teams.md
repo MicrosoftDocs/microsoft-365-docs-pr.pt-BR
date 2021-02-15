@@ -16,16 +16,18 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Saiba como configurar a colaboração de conteúdo seguro no Teams para proteger seus dados com base em sua sensibilidade.
-ms.openlocfilehash: f65657125fef8b8cf7e4e229d70d8fe211153392
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: c92dc6dbf62d3fa0cb00307447b3d5a793830394
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613579"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233851"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configure a colaboração segura com o Microsoft 365
 
 Ser capaz de compartilhar facilmente informações com as pessoas certas enquanto impede o compartilhamento em excesso é fundamental para o sucesso de uma organização. Isso inclui a capacidade de compartilhar dados confidenciais com segurança apenas com aqueles que devem ter acesso a eles. Dependendo do projeto, isso pode incluir o compartilhamento de dados confidenciais com pessoas de fora da sua organização.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 Este guia de solução de colaboração inclui dois componentes para ajudá-lo:
 - Implantar o Microsoft Teams com o nível certo de proteção para cada projeto
@@ -71,7 +73,7 @@ Para configurar a colaboração segura, use esses recursos e recursos do Microso
 
 ### <a name="using-teams-for-all-kinds-of-data"></a>Usar o Teams para todos os tipos de dados
 
-Para gerenciar o acesso a informações com diferentes sensibilidades, desenvolvemos três camadas diferentes de [proteção para o Teams.](configure-teams-three-tiers-protection.md) Você pode personalizar qualquer uma dessas camadas para atender melhor às necessidades ou à sua empresa. 
+Para gerenciar o acesso a informações com diferentes sensibilidades, desenvolvemos três camadas diferentes de [proteção para o Teams.](configure-teams-three-tiers-protection.md) Você pode personalizar qualquer uma dessas camadas para melhor atender às necessidades ou à sua empresa. 
 
 ![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](../media/solutions-architecture-center/Teams-tiers-of-protection-1.png)
 
@@ -92,7 +94,7 @@ A configuração dessas camadas envolve:
 
 - Definindo configurações no Teams para acesso de convidados e canais privados
 - Definindo configurações no site do SharePoint associado de uma equipe para compartilhamento interno e de convidados, solicitações de acesso e links de compartilhamento
-- Para as  *camadas altamente* confidenciais e altamente confidenciais, configurar rótulos de sensibilidade para classificar as equipes e controlar o compartilhamento de convidados e o acesso de dispositivos não controlados
+- Para as  *camadas confidenciais* e altamente confidenciais, configurar rótulos de sensibilidade para classificar as equipes e controlar o compartilhamento de convidados e o acesso de dispositivos não controlados
 - Para a *camada altamente* sensível, configurar um rótulo de sensibilidade para criptografar os documentos aos quais ele é aplicado
 
 Comece com a camada de linha de  base  e, em seguida, adicione equipes que usem as camadas confidenciais e altamente confidenciais conforme necessário para ajudar a proteger as informações em sua organização. Consulte estes recursos para começar:
@@ -101,7 +103,7 @@ Comece com a camada de linha de  base  e, em seguida, adicione equipes que usem 
 - [Configurar equipes com proteção para dados altamente confidenciais](configure-teams-sensitive-protection.md)
 - [Configurar equipes com proteção para dados altamente confidenciais](configure-teams-highly-sensitive-protection.md)
 
-Se você tiver um projeto altamente sensível que exija proteção adicional contra o compartilhamento mesmo dentro de sua organização, poderá configurar uma equipe que usa seu próprio rótulo de sensibilidade para criptografar arquivos para que somente os membros da equipe possam lê-los. Consulte [Configurar uma equipe com isolamento de segurança](secure-teams-security-isolation.md) para obter detalhes.
+Se você tiver um projeto altamente sensível que exija proteção adicional contra o compartilhamento mesmo dentro da sua organização, poderá configurar uma equipe que use seu próprio rótulo de sensibilidade para criptografar arquivos para que somente os membros da equipe possam lê-los. Consulte [Configurar uma equipe com isolamento de segurança](secure-teams-security-isolation.md) para obter detalhes.
 
 ### <a name="sharing-with-people-outside-your-organization"></a>Compartilhar com pessoas de fora da sua organização
 

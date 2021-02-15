@@ -17,18 +17,18 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do Microsoft 365 necessárias para configurar uma equipe para colaboração de tarefas, conversas e documentação com convidados no Teams.
-ms.openlocfilehash: 34b7d5d47d7fb0c9196beda70184fa6510b6cc33
-ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
+ms.openlocfilehash: 66c5692dd8cd233d8b3639f8ce0755ce51b60c0a
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49780539"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233069"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
 Se você precisar colaborar com convidados em documentos, tarefas e conversas, recomendamos usar o Microsoft Teams. O Teams fornece todos os recursos de colaboração disponíveis no Office e no SharePoint com chat persistente e um conjunto personalizável e extensível de ferramentas de colaboração em uma experiência unificada do usuário.
 
-Neste artigo, vamos ver as etapas de configuração do Microsoft 365 necessárias para configurar uma equipe para colaboração com convidados.
+Neste artigo, vamos ver as etapas de configuração do Microsoft 365 necessárias para configurar uma equipe para colaboração com convidados. Depois de configurar o acesso de convidados, você poderá convidar convidados para as equipes seguindo as etapas em Adicionar [convidados a uma equipe no Teams.](https://support.microsoft.com/office/fccb4fa6-f864-4508-bdde-256e7384a14f)
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
@@ -50,7 +50,7 @@ Para definir configurações de colaboração externa
 2. No painel de navegação esquerdo, clique no **Azure Active Directory.**
 3. Clique **em Identidades externas.**
 4. Na tela **De início,** no painel de navegação esquerdo, clique em **Configurações de colaboração externa.**
-5. Certifique-se de que os administradores e usuários na função de convidado convidado possam convidar e que os membros **possam** convidar estão **definidos** como **Sim.**
+5. Certifique-se de que os administradores e  usuários na função de convidado convidado possam convidar e que os membros possam convidar estão **definidos** como **Sim.**
 6. Caso tenha feito alterações, clique em **Salvar**.
 
 Observe as configurações na seção **Restrições de** colaboração. Certifique-se de que os domínios dos convidados com os que você deseja colaborar não sejam bloqueados.
@@ -90,7 +90,7 @@ Para definir as configurações de convidado dos Grupos do Microsoft 365
 1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, **expanda Configurações.**
 2. Clique **em Configurações da Organização.**
 3. Na lista, clique em **Grupos do Microsoft 365.**
-4. Verifique se os proprietários do grupo Permitir que os proprietários  adicionem pessoas de fora da sua organização aos Grupos do **Microsoft 365** como convidados e deixe que os membros do grupo convidado acessem as caixas de seleção de conteúdo do grupo.
+4. Verifique se os proprietários do grupo Permitem que os proprietários adicionem pessoas de fora da sua organização aos Grupos do **Microsoft 365** como convidados e deixe que os membros do grupo convidado acessem as caixas de seleção de conteúdo do grupo. 
 5. Se você fez alterações, clique em **Salvar alterações.**
 
 
@@ -100,7 +100,7 @@ O conteúdo do Teams, como arquivos, pastas e listas, é armazenado no SharePoin
 
 As configurações no nível da organização determinam quais configurações estão disponíveis para sites individuais, incluindo sites associados a equipes. As configurações de site não podem ser mais permissivas do que as configurações no nível da organização.
 
-Se você quiser permitir o compartilhamento de arquivos e pastas com pessoas não autenticadas, escolha **Qualquer pessoa.** Se você quiser garantir que todos os convidados tenham que se autenticar, escolha **convidados novos e existentes.** Escolha a configuração mais permissiva que será necessária para qualquer site em sua organização.
+Se você quiser permitir o compartilhamento de arquivos e pastas com pessoas não autenticadas, escolha **Qualquer pessoa.** Se você quiser garantir que todos os convidados tenham que se autenticar, escolha **Convidados novos e existentes.** Escolha a configuração mais permissiva que será necessária para qualquer site em sua organização.
 
 ![Captura de tela das configurações de compartilhamento no nível da organização do SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
 

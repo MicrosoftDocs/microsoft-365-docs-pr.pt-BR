@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -16,17 +15,23 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender como criar, modificar e excluir políticas antispam no Exchange Online Protection (EOP).
-ms.openlocfilehash: f5cc652bcc16cec28dd411ad30ce0896334733f4
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: a31f65eb415fbe6ebd58eddf50456ca5e9bb1d27
+ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49683374"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50165782"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Configurar políticas antispam no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou um cliente independente do Exchange Online Protection (EOP), ou organizações sem as caixas de correio do Exchange Online, as mensagens de e-mail de entrada serão automaticamente protegidas contra spam por EOP. A EOP usa políticas antispam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) como parte da defesa geral da sua organização contra spams. Para obter mais informações, consulte [Proteção antispam](anti-spam-protection.md).
 

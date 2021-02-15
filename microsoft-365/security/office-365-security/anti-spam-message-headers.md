@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
@@ -17,17 +16,23 @@ ms.collection:
 - m365initiative-defender-office365
 description: Os administradores podem aprender sobre os campos de cabeçalho adicionados às mensagens pelo EOP (Exchange Online Protection). Esses campos de cabeçalho fornecem informações sobre a mensagem e como ela foi processada.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3b2eb9e4ce4a63d4bef276dde9e19b491aae53
-ms.sourcegitcommit: ee39faf3507d0edc9497117b3b2854955c959c6c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 5f0befa764982ae30e0c7c5c1a9f109067f3ee02
+ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49615535"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175643"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Cabeçalhos de mensagens anti-spam no Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Em todas as organizações do Microsoft 365, o EOP (Proteção do Exchange Online) verifica todas as mensagens recebidas em busca de spam, malware e outras ameaças. Os resultados dessas verificações são adicionados aos seguintes campos de cabeçalho nas mensagens:
 
