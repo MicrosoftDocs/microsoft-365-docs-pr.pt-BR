@@ -1,5 +1,5 @@
 ---
-title: Dispositivos integrados do Windows 10 usando o Configuration Manager
+title: Integrar dispositivo Windows 10 usando o Configuration Manager
 f1.keywords: NOCSH
 ms.author: chrfox
 author: chrfox
@@ -13,7 +13,7 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Use o Gerenciador de configurações para implantar o pacote de configuração nos dispositivos para que eles sejam incluídos no serviço.
+description: Use o Configuration Manager para implantar o pacote de configuração em dispositivos para que eles sejam onboarded ao serviço.
 ms.openlocfilehash: ea1b0cba10dc3e7120192e0c0ee87e2e354f1cc2
 ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
 ms.translationtype: MT
@@ -21,54 +21,54 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/27/2020
 ms.locfileid: "48769391"
 ---
-# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Dispositivos integrados do Windows 10 usando o Configuration Manager
+# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Integrar dispositivo Windows 10 usando o Configuration Manager
 
 **Aplica-se a:**
 
-- [Prevenção de perda de dados do Microsoft 365 EndPoint (DLP)](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Prevenção contra perda de dados de ponto de extremidade (DLP) do Microsoft 365](/microsoft-365/compliance/endpoint-dlp-learn-about)
 - Gerenciador de Configurações do System Center 2012 R2
 
 ### <a name="onboard-devices-using-system-center-configuration-manager"></a>Dispositivos integrados usando o System Center Configuration Manager
 
-1. Abra o arquivo. zip do pacote de configuração do Gerenciador de configurações ( *DeviceComplianceOnboardingPackage.zip* ) que você baixou do assistente de integração de serviço. Você também pode obter o pacote do [centro de conformidade da Microsoft](https://compliance.microsoft.com/).
+1. Abra o arquivo .zip do pacote de configuração do Configuration Manager *(DeviceComplianceOnboardingPackage.zip)* que você baixou do assistente de integração de serviço. Você também pode obter o pacote no Centro [de Conformidade da Microsoft.](https://compliance.microsoft.com/)
 
-2. No painel de navegação, selecione integração de integração do dispositivo de **configuração**  >  **Device Onboarding**  >  **Onboarding** .
+2. No painel de navegação, selecione **Configurações**  >  **integração de**  >  **dispositivos à integração.**
 
-3. No campo **método de implantação** , selecione **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602** .
+3. No campo do método **de** implantação, selecione **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602.**
  
-4. Selecione **baixar pacote** e salve o arquivo. zip.
+4. Selecione **Baixar pacote** e salve o arquivo .zip.
 
-5. Extraia o conteúdo do arquivo. zip para um local compartilhado e somente leitura que possa ser acessado pelos administradores de rede que implantarão o pacote. Você deve ter um arquivo chamado *DeviceComplianceOnboardingScript. cmd* .
+5. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que possa ser acessado pelos administradores de rede que implantarão o pacote. Você deve ter um arquivo chamado *DeviceComplianceOnboardingScript.cmd*.
 
-6. Implante o pacote seguindo as etapas descritas no artigo [pacotes e programas no System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) .
+6. Implante o pacote seguindo as etapas do artigo Pacotes e Programas no [System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
 
 7. Escolha uma coleção de dispositivos predefinida para implantar o pacote.
 
 > [!NOTE]
-> O Microsoft 365 Endpoint Data Loss Prevention não dá suporte à integração durante a fase de [experiência inicial (OOBE)](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) . Certifique-se de que os usuários concluem o OOBE após executar a instalação ou atualização do Windows.
+> A prevenção contra perda de dados de ponto de extremidade do Microsoft 365 não dá suporte à integração durante a fase [OOBE (Out-Of-Box Experience).](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) Certifique-se de que os usuários concluam a OOBE após executar a instalação ou atualização do Windows.
 
 >[!TIP]
-> Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se um dispositivo está corretamente integrado ao serviço. Para obter mais informações, consulte [executar um teste de detecção em um dispositivo ATP do Microsoft defender recentemente integrado](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-detection-test).
+> Após a integração do dispositivo, você pode optar por executar um teste de detecção para verificar se um dispositivo está corretamente onboarded ao serviço. Para obter mais informações, consulte [Executar um teste de detecção em um dispositivo Microsoft Defender ATP recém-integrado.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
 >
-> Observe que é possível criar uma regra de detecção em um aplicativo do Gerenciador de configurações para verificar continuamente se um dispositivo foi integrado. Um aplicativo é um tipo diferente de objeto do que um pacote e programa.
-> Se um dispositivo ainda não estiver integrado (devido à conclusão do OOBE pendente ou a qualquer outro motivo), o Gerenciador de configurações tentará integrar novamente o dispositivo até que a regra detecte a alteração do status.
+> Observe que é possível criar uma regra de detecção em um aplicativo do Configuration Manager para verificar continuamente se um dispositivo foi onboarded. Um aplicativo é um tipo de objeto diferente de um pacote e programa.
+> Se um dispositivo ainda não estiver onboarded (devido à conclusão do OOBE pendente ou qualquer outro motivo), o Configuration Manager repetirá a integração do dispositivo até que a regra detecte a alteração de status.
 > 
-> Esse comportamento pode ser feito criando uma regra de detecção verificando se o valor do registro "OnboardingState" (do tipo REG_DWORD) = 1.
-> Esse valor do registro está localizado em "HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status".
-Para obter mais informações, consulte [Configure Detection Methods in System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type).
+> Esse comportamento pode ser realizado criando uma verificação de regra de detecção se o valor do Registro "OnboardingState" (do tipo REG_DWORD) = 1.
+> Esse valor do Registro está localizado em "HKLM\SOFTWARE\Microsoft\Proteção Avançada contra Ameaças do Windows\Status".
+Para obter mais informações, [consulte Configurar métodos de detecção no System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682159\(v=technet.10\)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type)
 
-### <a name="configure-sample-collection-settings"></a>Definir configurações de coleção de amostra
+### <a name="configure-sample-collection-settings"></a>Definir configurações de coleção de amostras
 
-Para cada dispositivo, você pode definir um valor de configuração para indicar se os exemplos podem ser coletados do dispositivo quando uma solicitação é feita por meio da central de segurança do Microsoft defender para enviar um arquivo para análise profunda.
+Para cada dispositivo, você pode definir um valor de configuração para dizer se os exemplos podem ser coletados do dispositivo quando uma solicitação é feita por meio da Central de Segurança do Microsoft Defender para enviar um arquivo para análise profunda.
 
 >[!NOTE]
->Essas definições de configuração geralmente são realizadas pelo Configuration Manager. 
+>Essas definições de configuração geralmente são feitas por meio do Configuration Manager. 
 
-Você pode definir uma regra de conformidade para o item de configuração no Gerenciador de configurações para alterar a configuração de compartilhamento de amostra em um dispositivo.
+Você pode definir uma regra de conformidade para o item de configuração no Configuration Manager para alterar a configuração de compartilhamento de exemplo em um dispositivo.
 
-Esta regra deve ser um item de configuração de regra de conformidade de *correção* que define o valor de uma chave de registro em dispositivos de destino para garantir que eles sejam queixas.
+Essa regra deve  ser um item de configuração de regra de conformidade que define o valor de uma chave do Registro em dispositivos de destino para garantir que eles sejam compatíveis.
 
-A configuração é definida por meio da seguinte entrada de chave do registro:
+A configuração é definida por meio da seguinte entrada de chave do Registro:
 
 ```
 Path: “HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection”
@@ -76,135 +76,135 @@ Name: "AllowSampleCollection"
 Value: 0 or 1
 ```
 Onde:<br>
-O tipo de chave é uma palavra D. <br>
+O tipo de chave é um D-WORD. <br>
 Os valores possíveis são:
-- 0-não permitir o compartilhamento de exemplo deste dispositivo
-- 1-permite o compartilhamento de todos os tipos de arquivo deste dispositivo
+- 0 - não permite o compartilhamento de amostra deste dispositivo
+- 1 - permite o compartilhamento de todos os tipos de arquivo deste dispositivo
 
-O valor padrão no caso de a chave do registro não existir é 1.
+O valor padrão caso a chave do Registro não exista é 1.
 
-Para obter mais informações sobre a conformidade do System Center Configuration Manager, consulte [Introduction to Compliance Settings in System center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\)).
+Para obter mais informações sobre a conformidade do System Center Configuration Manager, consulte Introdução às configurações de conformidade no [System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
 
 
 ## <a name="other-recommended-configuration-settings"></a>Outras definições de configuração recomendadas
-Após a integração de dispositivos ao serviço, é importante aproveitar os recursos de proteção contra ameaças incluídos habilitando-os com as seguintes definições de configuração recomendada.
+Após a integração de dispositivos ao serviço, é importante tirar proveito dos recursos de proteção contra ameaças incluídos, habilitando-os com as seguintes configurações recomendadas.
 
-### <a name="device-collection-configuration"></a>Configuração do conjunto de dispositivos
-Se você estiver usando o Endpoint Configuration Manager, versão 2002 ou posterior, você pode optar por ampliar a implantação para incluir servidores ou clientes de nível inferior.
+### <a name="device-collection-configuration"></a>Configuração da coleção de dispositivos
+Se você estiver usando o Endpoint Configuration Manager, versão 2002 ou posterior, poderá optar por ampliar a implantação para incluir servidores ou clientes de nível inferior.
 
 
 ### <a name="next-generation-protection-configuration"></a>Configuração de proteção de próxima geração
 
-As definições de configuração a seguir são recomendadas:
+As seguintes definições de configuração são recomendadas:
 
 **Examinar**
 
-- Examinar dispositivos de armazenamento removíveis, como unidades USB: Sim
+- Verificar dispositivos de armazenamento removível, como unidades USB: Sim
 
 **Proteção em tempo real**
 
-- Habilitar monitoramento comportamental: Sim
+- Habilitar o Monitoramento Comportamental: Sim
 - Habilitar a proteção contra aplicativos potencialmente indesejados no download e antes da instalação: Sim
 
-**Serviço de proteção de nuvem**
+**Serviço de Proteção de Nuvem**
 
-- Tipo de associação do serviço de proteção de nuvem: Associação avançada
+- Tipo de associação do Serviço de Proteção de Nuvem: Associação avançada
 
-**Redução da superfície de ataque** Configure todas as regras disponíveis para auditoria.
+**Redução de superfície de ataque** Configure todas as regras disponíveis para Auditoria.
 
 >[!NOTE]
-> Bloquear essas atividades pode interromper processos de negócios legítimos. A melhor abordagem é definir tudo como auditoria, identificar quais são os que são seguros e, em seguida, habilitar essas configurações em pontos de extremidade que não têm detecções falsas positivas.
+> O bloqueio dessas atividades pode interromper processos empresariais legítimos. A melhor abordagem é definir tudo para auditar, identificar quais são seguros para ativar e, em seguida, ativar essas configurações em pontos de extremidade que não têm detecções de falsos positivos.
 
 **Proteção de rede**
 
-Antes de habilitar a proteção de rede no modo de auditoria ou de bloqueio, verifique se você instalou a atualização da plataforma Antimalware, que pode ser obtida na [página de suporte](https://support.microsoft.com/en-us/help/4560203/windows-defender-anti-malware-platform-binaries-are-missing).
+Antes de ativar a proteção de rede no modo de auditoria ou bloqueio, verifique se você instalou a atualização da plataforma antimalware, que pode ser obtida na página [de suporte.](https://support.microsoft.com/en-us/help/4560203/windows-defender-anti-malware-platform-binaries-are-missing)
 
 
-**Acesso a pastas controladas**
+**Acesso controlado a pastas**
 
-Habilite o recurso no modo de auditoria por pelo menos 30 dias. Após esse período, revise as detecções e crie uma lista de aplicativos que têm permissão para gravar em diretórios protegidos.
+Habilita o recurso no modo de auditoria por pelo menos 30 dias. Após esse período, revise as detecções e crie uma lista de aplicativos que têm permissão para gravar em diretórios protegidos.
 
-Para obter mais informações, consulte [avaliar acesso a pastas controladas](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluate-controlled-folder-access).
+Para obter mais informações, consulte [Avaliar o acesso controlado a pastas.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/evaluate-controlled-folder-access)
 
 
-## <a name="offboard-devices-using-configuration-manager"></a>Dispositivos externamente usando o Configuration Manager
+## <a name="offboard-devices-using-configuration-manager"></a>Desligar dispositivos usando o Configuration Manager
 
-Por motivos de segurança, o pacote usado para os dispositivos do externamente expirará 30 dias após a data em que foi baixado. Os pacotes de remoção expirados enviados para um dispositivo serão rejeitados. Ao baixar um pacote de remoção, você será notificado da data de expiração dos pacotes e ele também será incluído no nome do pacote.
+Por motivos de segurança, o pacote usado para dispositivos offboard expirará 30 dias após a data em que foi baixado. Os pacotes de reexenciamento expirados enviados para um dispositivo serão rejeitados. Ao baixar um pacote de descarregamento, você será notificado sobre a data de vencimento dos pacotes e ele também será incluído no nome do pacote.
 
 > [!NOTE]
-> As políticas de integração e remoção não devem ser implantadas no mesmo dispositivo ao mesmo tempo, caso contrário, isso causará colisões imprevisíveis.
+> As políticas de integração e de transferência não devem ser implantadas no mesmo dispositivo ao mesmo tempo, caso contrário, isso causará colisões imprevisíveis.
 
-### <a name="offboard-devices-using-microsoft-endpoint-configuration-manager-current-branch"></a>Dispositivos externamente usando a ramificação atual do Microsoft Endpoint Configuration Manager
+### <a name="offboard-devices-using-microsoft-endpoint-configuration-manager-current-branch"></a>Redução de dispositivos usando a ramificação atual do Microsoft Endpoint Configuration Manager
 
-Se você usar a ramificação atual do Microsoft Endpoint Configuration Manager, confira [criar um arquivo de configuração de remoção](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file).
+Se você usar a ramificação atual do Microsoft Endpoint Configuration Manager, consulte [Criar um arquivo de configuração de redução.](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#create-an-offboarding-configuration-file)
 
-### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Dispositivos externamente usando o Gerenciador de configuração do System Center 2012 R2
+### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Desligar dispositivos usando o System Center 2012 R2 Configuration Manager
 
-1. Obtenha o pacote de remoção do [centro de conformidade da Microsoft](https://compliance.microsoft.com/):
+1. Obter o pacote de redação do Centro [de Conformidade da Microsoft:](https://compliance.microsoft.com/)
 
-2. No painel de navegação, selecione remoção de configuração de dispositivo de **configurações**  >   **Device onboarding** >  **Offboarding** .
+2. No painel de navegação, selecione **Configurações**  >   **integração do dispositivo** à >  **rebordagem.**
 
-3. Selecione Windows 10 como sistema operacional.
+3. Selecione o Windows 10 como o sistema operacional.
 
-4. No campo **método de implantação** , selecione **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602** .
+4. No campo do método **de** implantação, selecione **Microsoft Endpoint Configuration Manager 2012/2012 R2/1511/1602.**
     
-5. Selecione **baixar pacote** e salve o arquivo. zip.
+5. Selecione **Baixar pacote** e salve o arquivo .zip.
 
-6. Extraia o conteúdo do arquivo. zip para um local compartilhado e somente leitura que possa ser acessado pelos administradores de rede que implantarão o pacote. Você deve ter um arquivo chamado *DeviceComplianceOffboardingScript_valid_until_YYYY-mm-dd. cmd* .
+6. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que possa ser acessado pelos administradores de rede que implantarão o pacote. Você deve ter um arquivo *chamado DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd.*
 
-7. Implante o pacote seguindo as etapas descritas no artigo [pacotes e programas no System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\)) .
+7. Implante o pacote seguindo as etapas do artigo Pacotes e Programas no [System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg699369\(v=technet.10\))
 
 8. Escolha uma coleção de dispositivos predefinida para implantar o pacote.
 
 > [!IMPORTANT]
-> A remoção faz com que o dispositivo pare de enviar dados de sensor para o portal, mas os dados do dispositivo, incluindo referência a qualquer alerta que tenha tido, serão mantidos por até seis meses.
+> A reação faz com que o dispositivo pare de enviar dados do sensor para o portal, mas os dados do dispositivo, incluindo a referência a todos os alertas que ele recebeu, serão retidos por até seis meses.
 
 
 ## <a name="monitor-device-configuration"></a>Monitorar a configuração do dispositivo
 
-Se você estiver usando a ramificação atual do Microsoft Endpoint Configuration Manager, use o painel interno do Microsoft defender ATP no console do Configuration Manager. Para obter mais informações, consulte [Microsoft defender Advanced Threat Protection-monitor](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor).
+Se você estiver usando a ramificação atual do Microsoft Endpoint Configuration Manager, use o painel integrado do Microsoft Defender ATP no console do Configuration Manager. Para obter mais informações, consulte [Proteção Avançada contra Ameaças do Microsoft Defender - Monitor](https://docs.microsoft.com/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor).
 
 Se você estiver usando o System Center 2012 R2 Configuration Manager, o monitoramento consiste em duas partes:
 
-1. A confirmação do pacote de configuração foi implantada corretamente e está em execução (ou foi executada com êxito) nos dispositivos da sua rede.
+1. Confirmação de que o pacote de configuração foi implantado corretamente e está em execução (ou foi executado com êxito) nos dispositivos em sua rede.
 
-2. Verificar se os dispositivos estão em conformidade com o serviço de prevenção de perda de dados de ponto de extremidade do Microsoft 365 (isso garante que o dispositivo possa concluir o processo de integração e que possa continuar a relatar dados para o serviço).
+2. Verificar se os dispositivos estão em conformidade com o serviço de prevenção contra perda de dados do ponto de extremidade do Microsoft 365 (isso garante que o dispositivo possa concluir o processo de integração e continuar a relatar dados para o serviço).
 
 ### <a name="confirm-the-configuration-package-has-been-correctly-deployed"></a>Confirmar se o pacote de configuração foi implantado corretamente
 
-1. No console do Gerenciador de configurações, clique em **monitoramento** na parte inferior do painel de navegação.
+1. No console do Configuration Manager, clique **em Monitoramento** na parte inferior do painel de navegação.
 
-2. Selecione **visão geral** e **implantações** .
+2. Selecione **Visão geral** e **implantações.**
 
 3. Selecione na implantação com o nome do pacote.
 
-4. Revise os indicadores de status sob **Estatísticas de conclusão** e **status do conteúdo** .
+4. Revise os indicadores de status **em Estatísticas de Conclusão** e Status do **Conteúdo.**
 
-    Se houver falha nas implantações (dispositivos com **erro** , **requisitos não atendidos** ou **status de falha** ), talvez seja necessário solucionar problemas dos dispositivos. Para saber mais, confira [solucionar problemas de integração da proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding).
+    Se houver falhas nas implantações (dispositivos com **Status** de Erro **,** Requisitos Não Atendidos ou **Falha),** talvez seja necessário solucionar problemas nos dispositivos. Para obter mais informações, consulte, Solucionar [problemas de integração da Proteção Avançada](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)contra Ameaças do Microsoft Defender.
 
-    ![Gerenciador de configurações mostrando uma implantação bem-sucedida sem erros](../media/sccm-deployment.png)
+    ![Configuration Manager mostrando a implantação bem-sucedida sem erros](../media/sccm-deployment.png)
 
-### <a name="check-that-the-devices-are-compliant-with-the-microsoft-365-endpoint-data-loss-prevention-service"></a>Verifique se os dispositivos são compatíveis com o serviço de prevenção de perda de dados de ponto de extremidade do Microsoft 365
+### <a name="check-that-the-devices-are-compliant-with-the-microsoft-365-endpoint-data-loss-prevention-service"></a>Verifique se os dispositivos estão em conformidade com o serviço de prevenção contra perda de dados do Ponto de Extremidade do Microsoft 365
 
 Você pode definir uma regra de conformidade para o item de configuração no System Center 2012 R2 Configuration Manager para monitorar sua implantação.
 
 > [!NOTE]
-> Este procedimento e a entrada do registro se aplicam ao Endpoint DLP, bem como à proteção avançada contra ameaças.
+> Este procedimento e entrada do Registro se aplica ao Endpoint DLP, bem como à Proteção Avançada contra Ameaças.
 
-Esta regra deve ser um item de configuração de regra de conformidade de *não correção* que monitora o valor de uma chave do registro em dispositivos de destino.
+Essa regra deve ser um item *de* configuração de regra de conformidade não corretivo que monitora o valor de uma chave do Registro em dispositivos de destino.
 
-Monitore a seguinte entrada de chave do registro:
+Monitore a seguinte entrada de chave do Registro:
 ```
 Path: “HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status”
 Name: “OnboardingState”
 Value: “1”
 ```
-Para obter mais informações, consulte [introdução às configurações de conformidade no System Center 2012 R2 Configuration Manager](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\)).
+Para obter mais informações, [consulte Introdução às configurações de conformidade no System Center 2012 R2 Configuration Manager.](https://docs.microsoft.com/previous-versions/system-center/system-center-2012-R2/gg682139\(v=technet.10\))
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Dispositivos Windows 10 integrados usando a política de grupo](dlp-configure-endpoints-gp.md)
-- [Dispositivos do Windows 10 integrados usando ferramentas de gerenciamento de dispositivos móveis](dlp-configure-endpoints-mdm.md)
-- [Dispositivos integrados do Windows 10 usando um script local](dlp-configure-endpoints-script.md)
-- [Dispositivos não persistentes de infraestrutura de área de trabalho virtual (VDI)](dlp-configure-endpoints-vdi.md)
-- [Executar um teste de detecção em um dispositivo Microsoft defender ATP recentemente integrado](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [Solucionar problemas de integração com a proteção avançada contra ameaças do Microsoft defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Integração de dispositivos Windows 10 usando Política de Grupo](dlp-configure-endpoints-gp.md)
+- [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](dlp-configure-endpoints-mdm.md)
+- [Integrar dispositivos Windows 10 usando um script local](dlp-configure-endpoints-script.md)
+- [Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)](dlp-configure-endpoints-vdi.md)
+- [Executar um teste de detecção em um dispositivo Microsoft Defender ATP recém-integrado](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
+- [Solucionar problemas de integração da Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

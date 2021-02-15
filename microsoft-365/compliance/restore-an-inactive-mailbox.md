@@ -26,23 +26,23 @@ ms.locfileid: "48655836"
 ---
 # <a name="restore-an-inactive-mailbox"></a>Restaurar uma caixa de correio inativa
 
-Uma caixa de correio inativa (que é um tipo de caixa de correio excluída por software) é usada para manter o email de um funcionário anterior, depois que ele deixa sua organização. Se outro funcionário tomar as responsabilidades do trabalho do funcionário em parte ou se esse funcionário retornar à sua organização, haverá duas maneiras de tornar o conteúdo da caixa de correio inativa disponível para um usuário:
+Uma caixa de correio inativa (que é um tipo de caixa de correio excluída de forma flexível) é usada para reter o email de um ex-funcionário depois que ele deixa a organização. Se outro funcionário assumir as responsabilidades do trabalho do ex-funcionário ou se esse funcionário retornar à sua organização, haverá duas maneiras de disponibilizar o conteúdo da caixa de correio inativa para um usuário:
 
-- **Restaurar uma caixa de correio inativa** Se outro funcionário assumir as responsabilidades do trabalho do funcionário de parte, ou se outro usuário precisar acessar o conteúdo da caixa de correio inativa, você poderá restaurar (ou mesclar) o conteúdo da caixa de correio inativa para uma caixa de correio existente. Você também pode restaurar o arquivo morto de uma caixa de correio inativa. Após a restauração, a caixa de correio inativa é preservada e é mantida como uma caixa de correio inativa. Este tópico descreve os procedimentos para restaurar uma caixa de correio inativa.
+- **Restaurar uma caixa de correio inativa** Se outro funcionário assumir as responsabilidades do trabalho do ex-funcionário, ou se outro usuário precisar acessar o conteúdo da caixa de correio inativa, você poderá restaurar (ou mesclar) o conteúdo da caixa de correio inativa para uma caixa de correio existente. Você também pode restaurar o arquivo morto de uma caixa de correio inativa. Depois de restaurada, a caixa de correio inativa é preservada e mantida como uma caixa de correio inativa. Este tópico descreve os procedimentos para restaurar uma caixa de correio inativa.
 
-- **Recuperar uma caixa de correio inativa** Se o funcionário desparter retornar à sua organização ou se um novo funcionário for contratado para realizar as responsabilidades de trabalho do funcionário de parte, você poderá recuperar o conteúdo da caixa de correio inativa. Este método converte a caixa de correio inativa em uma nova caixa de correio que contenha o conteúdo da caixa de correio inativa. Após sua recuperação, a caixa de correio inativa deixa de existir. Para obter os procedimentos passo a passo, consulte [recuperar uma caixa de correio inativa no Office 365](recover-an-inactive-mailbox.md).
+- **Recuperar uma caixa de correio inativa** Se o ex-funcionário retornar à sua organização ou se um novo funcionário for contratado para assumir as responsabilidades de trabalho do ex-funcionário, você poderá recuperar o conteúdo da caixa de correio inativa. Esse método converte a caixa de correio inativa em uma nova caixa de correio que contém o conteúdo da caixa de correio inativa. Após sua recuperação, a caixa de correio inativa deixa de existir. Para ver os procedimentos passo a passo, confira [Recuperar uma caixa de correio inativa no Office 365.](recover-an-inactive-mailbox.md)
 
-Consulte a seção [mais informações](#more-information) neste artigo para obter mais detalhes sobre as diferenças entre a restauração e a recuperação de uma caixa de correio inativa.
+Consulte a [seção Mais informações](#more-information) neste artigo para obter mais detalhes sobre as diferenças entre restaurar e recuperar uma caixa de correio inativa.
 
 > [!NOTE]
-> Não é possível recuperar ou restaurar uma caixa de correio inativa configurada com um arquivo morto de expansão automática. Se você precisar recuperar dados de uma caixa de correio inativa com um arquivo de expansão automática, use a pesquisa de conteúdo para exportar os dados da caixa de correio e, em seguida, importe para outra caixa de correio. Para obter instruções, consulte os seguintes tópicos:
+> Não é possível recuperar ou restaurar uma caixa de correio inativa configurada com um arquivo morto de expansão automática. Se você precisar recuperar dados de uma caixa de correio inativa com um arquivo morto de expansão automática, use a pesquisa de conteúdo para exportar os dados da caixa de correio e, em seguida, importe para outra caixa de correio. Para obter instruções, consulte os seguintes tópicos:
 >
 > - [Pesquisa de conteúdo](content-search.md)
 > - [Exportar resultados de pesquisa de conteúdo](export-search-results.md)
 
 ## <a name="requirements-to-restore-an-inactive-mailbox"></a>Requisitos para restaurar uma caixa de correio inativa
 
-- Você precisa usar o PowerShell do Exchange Online para restaurar uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções detalhadas, consulte [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Você precisa usar o PowerShell do Exchange Online para restaurar uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções passo a passo, confira [Conectar-se ao Exchange Online Windows PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Execute o seguinte comando no PowerShell do Exchange Online para obter informações de identidade para as caixas de correio inativas em sua organização.
 
@@ -50,32 +50,32 @@ Consulte a seção [mais informações](#more-information) neste artigo para obt
   Get-Mailbox -InactiveMailboxOnly | Format-List Name,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
   ```
 
-  Use as informações retornadas por este comando para restaurar uma caixa de correio inativa específica.
+  Use as informações retornadas por esse comando para restaurar uma caixa de correio inativa específica.
 
-- Para obter mais informações sobre caixas de correio inativas, consulte [inativa caixas de correio no Office 365](inactive-mailboxes-in-office-365.md).
+- Para saber mais sobre caixas de correio inativas, confira Caixas de correio [inativas no Office 365.](inactive-mailboxes-in-office-365.md)
 
 ## <a name="restore-inactive-mailboxes"></a>Restaurar caixas de correio inativas
 
 Use o cmdlet **New-MailboxRestoreRequest** com os parâmetros  _SourceMailbox_ e  _TargetMailbox_ para restaurar o conteúdo de uma caixa de correio inativa para uma caixa de correio existente. Para obter mais informações sobre como usar esse cmdlet, consulte [New-MailboxRestoreRequest](https://docs.microsoft.com/powershell/module/exchange/new-mailboxrestorerequest).
 
-1. Criar uma variável que contém as propriedades da caixa de correio inativa.
+1. Crie uma variável que contenha as propriedades da caixa de correio inativa.
 
    ```powershell
    $InactiveMailbox = Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox>
    ```
 
    > [!IMPORTANT]
-   > No comando anterior, use o valor da propriedade **distinguishedName** ou **ExchangeGUID** para identificar a caixa de correio inativa. Essas propriedades são exclusivas para cada caixa de correio em sua organização, enquanto é possível que uma caixa de correio ativa e inativa tenha o mesmo endereço SMTP principal.
+   > No comando anterior, use o valor da propriedade **DistinguishedName** ou **ExchangeGUID** para identificar a caixa de correio inativa. Essas propriedades são exclusivas para cada caixa de correio em sua organização, enquanto é possível que uma caixa de correio ativa e inativa possa ter o mesmo endereço SMTP principal.
 
-2. Restaure o conteúdo da caixa de correio inativa para uma caixa de correio existente. O conteúdo da caixa de correio inativa (caixa de correio de origem) será mesclado nas pastas correspondentes da caixa de correio existente (caixa de correio de destino).
+2. Restaure o conteúdo da caixa de correio inativa para uma caixa de correio existente. O conteúdo da caixa de correio inativa (caixa de correio de origem) será mesclado nas pastas correspondentes na caixa de correio existente (caixa de correio de destino).
 
    ```powershell
    New-MailboxRestoreRequest -SourceMailbox $InactiveMailbox.DistinguishedName -TargetMailbox newemployee@contoso.com -AllowLegacyDNMismatch
    ```
 
-   Como alternativa, você pode especificar uma pasta de nível superior na caixa de correio de destino na qual restaurar o conteúdo da caixa de correio inativa. Se a pasta de destino especificada ou a estrutura de pasta de destino ainda não existir na caixa de correio de destino, ela será criada durante o processo de restauração.
+   Como alternativa, você pode especificar uma pasta de nível superior na caixa de correio de destino na qual restaurar o conteúdo da caixa de correio inativa. Se a pasta de destino especificada ou a estrutura de pastas de destino ainda não existir na caixa de correio de destino, ela será criada durante o processo de restauração.
 
-   Este exemplo copia os itens de caixa de correio e subpastas de uma caixa de correio inativa para uma pasta chamada "caixa de correio inativa" na estrutura de pastas de nível superior da caixa de correio de destino.
+   Este exemplo copia itens de caixa de correio e subpastas de uma caixa de correio inativa para uma pasta chamada "Caixa de Correio Inativa" na estrutura de pastas de nível superior da caixa de correio de destino.
 
    ```powershell
    New-MailboxRestoreRequest -SourceMailbox $InactiveMailbox.DistinguishedName -TargetMailbox newemployee@contoso.com -TargetRootFolder "Inactive Mailbox" -AllowLegacyDNMismatch
@@ -83,18 +83,18 @@ Use o cmdlet **New-MailboxRestoreRequest** com os parâmetros  _SourceMailbox_ e
 
 ## <a name="restore-the-archive-from-an-inactive-mailbox"></a>Restaurar o arquivo morto de uma caixa de correio inativa
 
-Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, você também poderá restaurá-la à caixa de correio de arquivo morto de uma caixa de correio existente. Para restaurar o arquivo morto de uma caixa de correio inativa, adicione as opções _SourceIsArchive_ e _TargetIsArchive_ ao comando usado para restaurar uma caixa de correio inativa.
+Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, você também poderá restaurá-la para a caixa de correio de arquivo morto de uma caixa de correio existente. Para restaurar o arquivo morto de uma caixa de correio inativa, você precisa adicionar as opções _SourceIsArchive_ e _TargetIsArchive_ ao comando usado para restaurar uma caixa de correio inativa.
 
-1. Criar uma variável que contém as propriedades da caixa de correio inativa.
+1. Crie uma variável que contenha as propriedades da caixa de correio inativa.
 
    ```powershell
    $InactiveMailbox = Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox>
    ```
 
    > [!NOTE]
-   > No comando anterior, use o valor da propriedade **distinguishedName** ou **ExchangeGUID** para identificar a caixa de correio inativa. Essas propriedades são exclusivas para cada caixa de correio em sua organização, enquanto é possível que uma caixa de correio ativa e inativa tenha o mesmo endereço SMTP principal.
+   > No comando anterior, use o valor da propriedade **DistinguishedName** ou **ExchangeGUID** para identificar a caixa de correio inativa. Essas propriedades são exclusivas para cada caixa de correio em sua organização, enquanto é possível que uma caixa de correio ativa e inativa possa ter o mesmo endereço SMTP principal.
 
-2. Restaure o conteúdo do arquivo morto da caixa de correio inativa (arquivo fonte) para o arquivo morto de uma caixa de correio existente (arquivo de destino). Neste exemplo, o conteúdo do arquivo de origem é copiado para uma pasta chamada "arquivo morto de caixa de correio inativa" no arquivo morto da caixa de correio de destino.
+2. Restaure o conteúdo do arquivo morto da caixa de correio inativa (arquivo morto de origem) para o arquivo morto de uma caixa de correio existente (arquivo morto de destino). Neste exemplo, o conteúdo do arquivo de origem é copiado para uma pasta chamada "Arquivo Morto de Caixa de Correio Inativa" no arquivo da caixa de correio de destino.
 
    ```powershell
    New-MailboxRestoreRequest -SourceMailbox $InactiveMailbox.DistinguishedName -SourceIsArchive -TargetMailbox newemployee@contoso.com -TargetIsArchive -TargetRootFolder "Inactive Mailbox Archive" -AllowLegacyDNMismatch
@@ -102,33 +102,33 @@ Se uma caixa de correio inativa tiver uma caixa de correio de arquivo morto, voc
 
 ## <a name="more-information"></a>Mais informações
 
-- **Qual é a principal diferença entre a recuperação e a restauração de uma caixa de correio inativa?** Ao recuperar uma caixa de correio inativa, a caixa de correio é basicamente convertida para uma nova caixa de correio, o conteúdo e a estrutura de pastas da caixa de correio inativa são mantidos e a caixa de correio é vinculada a uma nova conta de usuário. Após a recuperação, a caixa de correio inativa não existe mais e qualquer alteração feita no conteúdo da nova caixa de correio afetará o conteúdo que estava originalmente em retenção na caixa de correio inativa. Por outro lado, quando você restaura uma caixa de correio inativa, o conteúdo é simplesmente copiado para outra caixa de correio. A caixa de correio inativa é preservada e permanece como inativa. As alterações feitas no conteúdo da caixa de correio de destino não afetarão o conteúdo original mantido na caixa de correio inativa. A caixa de correio inativa ainda pode ser pesquisada usando a [ferramenta de pesquisa de conteúdo](content-search.md), seu conteúdo pode ser restaurado para outra caixa de correio ou pode ser recuperado ou excluído posteriormente.
+- **Qual é a principal diferença entre recuperar e restaurar uma caixa de correio inativa?** Quando você recupera uma caixa de correio inativa, a caixa de correio é basicamente convertida em uma nova caixa de correio, o conteúdo e a estrutura de pastas da caixa de correio inativa são mantidos e a caixa de correio é vinculada a uma nova conta de usuário. Depois que ela é recuperada, a caixa de correio inativa não existe mais, e quaisquer alterações feitas no conteúdo na nova caixa de correio afetarão o conteúdo originalmente em espera na caixa de correio inativa. Por outro lado, quando você restaura uma caixa de correio inativa, o conteúdo é simplesmente copiado para outra caixa de correio. A caixa de correio inativa é preservada e permanece como inativa. Quaisquer alterações feitas no conteúdo na caixa de correio de destino não afetarão o conteúdo original mantido na caixa de correio inativa. A caixa de correio inativa ainda pode ser pesquisada usando a ferramenta Pesquisa de [Conteúdo,](content-search.md)seu conteúdo pode ser restaurado para outra caixa de correio ou pode ser recuperado ou excluído posteriormente.
 
-- **Como localizar caixas de correio inativas?** Para obter uma lista das caixas de correio inativas em sua organização e exibir informações que são úteis para restaurar uma caixa de correio inativa, você pode executar este comando.
+- **Como você encontra caixas de correio inativas?** Para obter uma lista das caixas de correio inativas em sua organização e exibir informações úteis para restaurar uma caixa de correio inativa, você pode executar este comando.
 
   ```powershell
   Get-Mailbox -InactiveMailboxOnly | Format-List Name,PrimarySMTPAddress,DistinguishedName,ExchangeGUID,LegacyExchangeDN,ArchiveStatus
   ```
 
-- **Use uma retenção de litígio ou uma política de retenção do Microsoft 365 para reter o conteúdo de caixa de correio inativa.** Se você deseja manter o estado de uma caixa de correio inativa após a restauração, é possível colocar a caixa de correio de destino em [retenção de litígio](create-a-litigation-hold.md) ou aplicar uma política de [retenção da Microsoft 365](retention.md) antes de restaurar a caixa de correio inativa. Isso impedirá a exclusão permanente de todos os itens da caixa de correio inativa depois que eles forem restaurados para a caixa de correio de destino.
+- **Use uma Retenção de Litígio ou uma política de retenção do Microsoft 365 para reter o conteúdo da caixa de correio inativa.** Se você deseja manter o estado de uma caixa de correio inativa após [](create-a-litigation-hold.md) ela ser restaurada, você pode colocar a caixa de correio de destino em Retenção de Litígio ou aplicar uma política de retenção do [Microsoft 365](retention.md) antes de restaurar a caixa de correio inativa. Isso impedirá a exclusão permanente de todos os itens da caixa de correio inativa depois que eles são restaurados para a caixa de correio de destino.
 
-- **Habilite retenção na caixa de correio de destino antes de restaurar uma caixa de correio inativa.** Como os itens de caixa de correio de uma caixa de correio inativa podem ser antigos, você pode considerar habilitar a retenção na caixa de correio de destino antes de restaurar uma caixa de correio inativa. Quando você coloca uma caixa de correio em retenção, a política de retenção atribuída a ela não será processada até que a retenção tenha sido removida ou até que o período de retenção expire. Isso dá ao proprietário do tempo de caixa de correio de destino para gerenciar mensagens antigas da caixa de correio inativa. Caso contrário, a política de retenção poderá excluir itens antigos (ou mover itens para a caixa de correio de arquivo morto, se estiver habilitada) que expiraram com base nas configurações de retenção configuradas para a caixa de correio de destino. Para obter mais informações, consulte [colocar uma caixa de correio em retenção no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold).
+- **Habilita a retenção na caixa de correio de destino antes de restaurar uma caixa de correio inativa.** Como os itens de caixa de correio de uma caixa de correio inativa podem ser antigos, você pode considerar a habilitação da retenção na caixa de correio de destino antes de restaurar uma caixa de correio inativa. Quando você coloca uma caixa de correio em retenção, a política de retenção atribuída a ela não será processada até que a retenção seja removida ou até que o período de retenção expire. Isso dá ao proprietário do tempo de caixa de correio de destino para gerenciar mensagens antigas da caixa de correio inativa. Caso contrário, a política de retenção poderá excluir itens antigos (ou mover itens para a caixa de correio de arquivo morto, se estiver habilitada) que expiraram com base nas configurações de retenção configuradas para a caixa de correio de destino. Para obter mais informações, consulte [Colocar uma caixa de correio em retenção no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold)
 
-- **O que a opção AllowLegacyDNMismatch faz?** Nos exemplos anteriores para restaurar uma caixa de correio inativa, a opção **AllowLegacyDNMismatch** é usada para permitir a restauração da caixa de correio inativa para uma caixa de correio de destino diferente. Em um cenário de restauração típico, o objetivo é restaurar o conteúdo em que as caixas de correio de origem e destino são a mesma caixa de correio. Portanto, por padrão, o cmdlet **New-MailboxRestoreRequest** verifica se o valor da propriedade **legacyExchangeDN** nas caixas de correio de origem e destino é o mesmo. Isso ajuda a evitar a restauração acidental de uma caixa de correio de origem na caixa de correio de destino errada. Se você tentar restaurar uma caixa de correio inativa sem usar a opção **AllowLegacyDNMismatch** , o comando poderá falhar se as caixas de correio de origem e de destino tiverem valores diferentes para a propriedade **legacyExchangeDN** .
+- **O que a opção AllowLegacyDNMismatch faz?** Nos exemplos anteriores para restaurar uma caixa de correio inativa, a opção **AllowLegacyDNMismatch** é usada para permitir a restauração da caixa de correio inativa para uma caixa de correio de destino diferente. Em um cenário de restauração típico, o objetivo é restaurar o conteúdo onde as caixas de correio de origem e de destino são a mesma caixa de correio. Portanto, por padrão, o cmdlet **New-MailboxRestoreRequest** verifica se o valor da propriedade **LegacyExchangeDN** nas caixas de correio de origem e de destino é o mesmo. Isso ajuda a impedir que você restaurá-la acidentalmente na caixa de correio de destino errada. Se você tentar restaurar uma caixa de correio inativa sem usar a opção **AllowLegacyDNMismatch,** o comando poderá falhar se as caixas de correio de origem e de destino têm valores diferentes para a propriedade **LegacyExchangeDN.**
 
-- **Você pode usar outros parâmetros com o cmdlet New-MailboxRestoreRequest para implementar diferentes cenários de restauração para caixas de correio inativas.** Por exemplo, você pode executar este comando para restaurar o arquivo morto da caixa de correio inativa para a caixa de correio principal da caixa de correio de destino.
+- **Você pode usar outros parâmetros com o cmdlet New-MailboxRestoreRequest para implementar diferentes cenários de restauração para caixas de correio inativas.** Por exemplo, você pode executar esse comando para restaurar o arquivo morto da caixa de correio inativa para a caixa de correio principal da caixa de correio de destino.
 
   ```powershell
   New-MailboxRestoreRequest -SourceMailbox <inactive mailbox> -SourceIsArchive -TargetMailbox <target mailbox> -TargetRootFolder "Inactive Mailbox Archive" -AllowLegacyDNMismatch
   ```
 
-  Você também pode restaurar a caixa de correio principal inativa no arquivo morto da caixa de correio de destino executando este comando.
+  Você também pode restaurar a caixa de correio principal inativa para o arquivo morto da caixa de correio de destino executando esse comando.
 
   ```powershell
   New-MailboxRestoreRequest -SourceMailbox <inactive mailbox> -TargetMailbox <target mailbox> -TargetIsArchive -TargetRootFolder "Inactive Mailbox" -AllowLegacyDNMismatch
   ```
 
-- **O que o parâmetro TargetRootFolder faz?** Como explicado anteriormente, você pode usar o parâmetro **TargetRootFolder** para especificar uma pasta na parte superior da estrutura de pastas (também chamada de raiz) na caixa de correio de destino na qual restaurar o conteúdo da caixa de correio inativa. Se você não usar esse parâmetro, os itens de caixa de correio da caixa de correio inativa serão mesclados nas pastas padrão correspondentes da caixa de correio de destino e as pastas personalizadas serão recriadas na raiz da caixa de correio de destino. As ilustrações a seguir destacam essas diferenças entre o uso e o uso do parâmetro **TargetRootFolder** .
+- **O que o parâmetro TargetRootFolder faz?** Conforme explicado anteriormente, você pode usar o parâmetro **TargetRootFolder** para especificar uma pasta na parte superior da estrutura de pastas (também chamada de raiz) na caixa de correio de destino na qual restaurar o conteúdo da caixa de correio inativa. Se você não usar esse parâmetro, os itens de caixa de correio da caixa de correio inativa serão mesclados nas pastas padrão correspondentes da caixa de correio de destino e as pastas personalizadas serão criadas na raiz da caixa de correio de destino. As ilustrações a seguir destacam essas diferenças entre não usar e usar o **parâmetro TargetRootFolder.**
 
   **Hierarquia de pastas na caixa de correio de destino quando o parâmetro TargetRootFolder não é usado**
 

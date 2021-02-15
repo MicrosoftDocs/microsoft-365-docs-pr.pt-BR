@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Saiba como criar e executar uma consulta em uma revisão definida para organizar dados para uma análise mais eficiente em uma ocorrência de descoberta eletrônica avançada.
+description: Saiba como criar e executar uma consulta em um conjunto de revisão para organizar os dados para uma análise mais eficiente em um caso de Descoberta Avançada.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 1ead897d412af2356d8b57ab8494539a5ed9a019
 ms.sourcegitcommit: 3c39866865c8c61bce2169818d8551da65033cfe
@@ -26,17 +26,17 @@ ms.locfileid: "48816564"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Consultar dados em um conjunto de revisão
 
-Na maioria dos casos, será útil ser capaz de se aprofundar nos dados de um conjunto de análise e organizar esses dados para facilitar uma análise mais eficiente. Usar consultas em um conjunto de revisão ajuda você a se concentrar em um subconjunto de documentos que atendem aos critérios de sua análise.
+Na maioria dos casos, será útil ser capaz de se aprofundar mais nos dados em um conjunto de revisão e organizar esses dados para facilitar uma análise mais eficiente. O uso de Consultas em um conjunto de revisão ajuda você a se concentrar em um subconjunto de documentos que atendem aos critérios da sua análise.
 
 ## <a name="creating-and-running-a-query-in-a-review-set"></a>Criando e executando uma consulta em um conjunto de revisão
 
-Para criar e executar uma consulta nos documentos em um conjunto de revisão, selecione **nova consulta** no conjunto de revisão. Depois de nomear sua consulta e definir as condições, selecione **salvar** para salvar e executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, selecione uma consulta salva.
+Para criar e executar uma consulta nos documentos em um conjunto de revisão, selecione **Nova consulta** no conjunto de revisão. Depois de nomear sua consulta e definir as condições, selecione **Salvar** para salvar e executar a consulta. Para executar uma consulta que tenha sido salva anteriormente, selecione uma consulta salva.
 
-![Analisar consultas de definição](../media/AeDReviewSetQueries.png)
+![Revisar consultas de conjunto](../media/AeDReviewSetQueries.png)
 
-## <a name="building-a-review-set-query"></a>Criar uma consulta de conjunto de revisão
+## <a name="building-a-review-set-query"></a>Criando uma consulta de conjunto de revisão
 
-Você pode criar uma consulta usando uma combinação de palavras-chave, propriedades e condições na condição de palavras-chave. Você também pode agrupar as condições como um bloco (chamado de *grupo de condição* ) para criar uma consulta mais complexa. Para obter uma lista e uma descrição das propriedades de metadados que você pode pesquisar, confira os [campos de metadados de documentos na descoberta eletrônica avançada](document-metadata-fields-in-Advanced-eDiscovery.md).
+Você pode criar uma consulta usando uma combinação de palavras-chave, propriedades e condições na condição Palavras-chave. Você também pode agrupar condições como um bloco (chamado de grupo *de condição)* para criar uma consulta mais complexa. Para uma lista e uma descrição das propriedades de metadados que você pode pesquisar, consulte Campos de metadados do [documento na Descoberta Avançada.](document-metadata-fields-in-Advanced-eDiscovery.md)
 
 ### <a name="conditions"></a>Condições
 
@@ -44,26 +44,26 @@ Cada campo pesquisável em um conjunto de revisão tem uma condição correspond
 
 Há vários tipos de condições:
 
-- FREETEXT: uma condição freetext é usada para campos de texto como assunto. Você pode listar vários termos de pesquisa separando-os com uma vírgula.
+- Texto livre: uma condição de texto livre é usada para campos de texto, como assunto. Você pode listar vários termos de pesquisa separando-os com uma vírgula.
 
-- Date: uma condição de data é usada para campos de data, como data da última modificação.
+- Data: uma condição de data é usada para campos de data, como a data da última modificação.
 
-- Opções de pesquisa: uma condição de opções de pesquisa fornecerá uma lista de valores possíveis para o campo específico em seu conjunto de análise. Isso é usado para campos, como remetente, onde há um número finito de valores possíveis em seu conjunto de análise.
+- Opções de pesquisa: uma condição de opções de pesquisa fornecerá uma lista de valores possíveis para o campo específico no conjunto de revisão. Isso é usado para campos, como o remetente, onde há um número finito de valores possíveis em seu conjunto de revisão.
 
-- Palavra-chave: uma condição de palavra-chave é uma instância específica da condição FREETEXT que você pode usar para pesquisar termos ou usar o idioma de consulta do KQL como no. Veja mais detalhes abaixo.
+- Palavra-chave: uma condição de palavra-chave é uma instância específica da condição de texto livre em que você pode usar para pesquisar termos ou usar linguagem de consulta do tipo KQL. Veja abaixo para obter mais detalhes.
 
 ### <a name="query-language"></a>Linguagem de consulta
 
-Além das condições, você pode usar um idioma de consulta semelhante a KQL na condição de palavras-chave para compilar sua consulta. A linguagem de consulta para consultas de conjunto de revisão oferece suporte a operadores booleanos padrão, como **e** , **ou** , e **não** , e **Near** . Também suporta um curinga de caractere único (?) e um curinga de vários caracteres (*).
+Além das condições, você pode usar uma linguagem de consulta do tipo KQL na condição Palavras-chave para criar sua consulta. A linguagem de consulta para consultas do conjunto de revisão oferece suporte a operadores booleano padrão, como **AND**, **OR**, **NOT** e **NEAR**. Ele também dá suporte a um caractere curinga de um único caractere (?) e a um caractere curinga de vários caracteres (*).
 
 ## <a name="filters"></a>Filtros
 
-Além das consultas que podem ser salvas, você pode usar os filtros de definição de análise para aplicar rapidamente condições adicionais a uma consulta de conjunto de revisão. O uso de filtros ajuda você a refinar ainda mais os resultados exibidos por uma consulta de conjunto de revisão.
+Além das consultas que você pode salvar, você pode usar filtros de conjunto de revisão para aplicar rapidamente condições adicionais a uma consulta de conjunto de revisão. O uso de filtros ajuda a refinar ainda mais os resultados exibidos por uma consulta de conjunto de revisão.
 
-![Examinar filtros de conjunto](../media/AeDReviewSetFilters.png)
+![Revisar filtros de conjunto](../media/AeDReviewSetFilters.png)
 
 Os filtros diferem das consultas de duas maneiras significativas:
 
-- Os filtros são transitórios. Eles não persistem além da sessão existente. Em outras palavras, não é possível salvar um filtro. As consultas são salvas no conjunto de revisão e acessadas sempre que abrir o conjunto de revisão.
+- Os filtros são transitórios. Elas não persistem além da sessão existente. Em outras palavras, não é possível salvar um filtro. As consultas são salvas no conjunto de revisão e as acessam sempre que abrem o conjunto de revisão.
 
-- Os filtros são sempre aditivos. Os filtros são aplicados além da consulta do conjunto de análise atual. A aplicação de uma consulta diferente substituirá os resultados retornados pela consulta atual.
+- Os filtros são sempre aditivos. Os filtros são aplicados além da consulta atual do conjunto de revisão. A aplicação de uma consulta diferente substituirá os resultados retornados pela consulta atual.

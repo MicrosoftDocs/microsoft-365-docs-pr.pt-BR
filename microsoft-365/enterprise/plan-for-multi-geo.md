@@ -73,7 +73,7 @@ Se os usuários serão sincronizados com um sistema do Active Directory local ao
 
 A administração de um locatário multigeográfico pode variar de um locatário que não seja de multigeografia, pois muitos dos serviços e configurações do SharePoint e do OneDrive detectam a multigeografia. Recomendamos que leia [Administrar um ambiente multigeográfico](administering-a-multi-geo-environment.md) antes de prosseguir com a configuração.
 
-Leia a [experiência do usuário em um ambiente multigeográfico](multi-geo-user-experience.md) para obter detalhes sobre a experiência dos seus usuários finais em um ambiente multigeográfico.
+Leia [a experiência do usuário em um ambiente multi-geo](multi-geo-user-experience.md) para obter detalhes sobre a experiência dos usuários finais em um ambiente multi-geo.
 
 Para obter mais detalhes sobre a experiência do Teams em um locatário do Microsoft 365 Multi-Geo, consulte [Experiência do Teams em um local multigeográfico habilitado do Microsoft 365 OneDrive e do SharePoint Online](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo).
 

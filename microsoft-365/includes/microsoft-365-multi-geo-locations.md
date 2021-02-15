@@ -11,7 +11,7 @@
 |Japão                        |JPN     |Datacenters no sudeste ou leste da Ásia|
 |República da Coreia                        |KOR     |Datacenters no sudeste ou leste da Ásia|
 |América do Norte                |NAM     |Datacenters nos Estados Unidos                    |
-|Noruega                       |ASSIM     |(Localização dos dados de descoberta eletrônica em breve)|
+|Noruega                       |NOR     |(Localização dos dados de descoberta eletrônica em breve)|
 |África do Sul                 |ZAF     |Datacenters no sudeste ou leste da Ásia|
 |Suíça                  |CHE     |Datacenters na Europa                |
 |Emirados Árabes Unidos         |ARE     |Datacenters no sudeste ou leste da Ásia|

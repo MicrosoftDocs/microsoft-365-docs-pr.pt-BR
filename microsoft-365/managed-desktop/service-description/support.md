@@ -1,5 +1,5 @@
 ---
-title: Suporte para a área de trabalho gerenciada da Microsoft
+title: Suporte para Área de Trabalho Gerenciada da Microsoft
 description: ''
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -14,39 +14,39 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 11/03/2020
 ms.locfileid: "48846187"
 ---
-# <a name="support-for-microsoft-managed-desktop"></a>Suporte para a área de trabalho gerenciada da Microsoft
+# <a name="support-for-microsoft-managed-desktop"></a>Suporte para Área de Trabalho Gerenciada da Microsoft
 
-A Microsoft oferecerá gerenciamento de incidentes proativo e reativo. A Microsoft rastreia incidentes no portal de administração de área de trabalho gerenciada da Microsoft. Eles são classificados de acordo com as [definições de gravidade](../working-with-managed-desktop/admin-support.md#sev).
+A Microsoft fornecerá gerenciamento proativo e reativo de incidentes. A Microsoft rastreia incidentes no portal de administração da Área de Trabalho Gerenciada da Microsoft. Eles são classificados de acordo com [as definições de severidade.](../working-with-managed-desktop/admin-support.md#sev)
 
-Os clientes podem contatar as operações de área de trabalho gerenciada da Microsoft para:
-- Solicitações de informações sobre o locatário ou a configuração da área de trabalho gerenciada da Microsoft
-- Solicitações de alteração para a configuração de dispositivos de área de trabalho gerenciada da Microsoft
-- Relatar um incidente ou uma interrupção
+Os clientes podem entrar em contato com as operações da Área de Trabalho Gerenciada da Microsoft para:
+- Solicitações de informações no locatário ou configuração da Área de Trabalho Gerenciada da Microsoft
+- Alterar solicitações para a configuração de dispositivos da Área de Trabalho Gerenciada da Microsoft
+- Relatar um incidente ou uma paralisação
 
 ## <a name="whats-included"></a>O que está incluído?
 
-O suporte ao Microsoft Managed desktop inclui:
+O suporte da Área de Trabalho Gerenciada da Microsoft inclui:
 
-- Uma equipe de engenheiros dedicada aos dispositivos de área de trabalho gerenciada da Microsoft
-- Opções de suporte para usuários com dispositivos de área de trabalho gerenciada da Microsoft
-- Concede acesso administrativo limitado aos dispositivos de área de trabalho gerenciada da Microsoft para engenheiros que gerenciam dispositivos de área de trabalho gerenciado 
+- Uma equipe de engenheiros dedicados a dispositivos da Área de Trabalho Gerenciada da Microsoft
+- Opções de suporte para usuários com dispositivos da Área de Trabalho Gerenciada da Microsoft
+- Concede acesso administrativo limitado a dispositivos da Área de Trabalho Gerenciada da Microsoft para engenheiros que gerenciam dispositivos da Área de Trabalho Gerenciada da Microsoft 
 
-Produtos suportados:
+Produtos com suporte:
 
-- Windows 10 com Microsoft defender para ponto de extremidade
-- Estes aplicativos da Microsoft 365 para aplicativos corporativos: Outlook, Word, PowerPoint, Excel, cliente Skype for Business, Microsoft Teams 
+- Windows 10 com Microsoft Defender para Ponto de Extremidade
+- Estes aplicativos do Microsoft 365 Apps para empresas: Outlook, Word, PowerPoint, Excel, cliente Skype for Business, Microsoft Teams 
 - Microsoft Store para empresas 
 - Cliente do OneDrive for Business 
 
-Detalhes de suporte:
+Detalhes do suporte:
 
-- Atual: Estados Unidos, Canadá (exceto Quebec), Reino Unido, Bélgica, Luxemburgo, Holanda, Austrália e Nova Zelândia (24x7x365) 
-- O inglês é o único idioma suportado para conversas de telefone e chat com clientes 
-- Estamos estabelecendo parcerias com o, não substituindo o helpdesk corporativo; aplicativos de linha de negócios (LOB), recursos de rede, etc. ainda são tratados pela assistência técnica 
-- Os dispositivos de área de trabalho gerenciada da Microsoft no grupo "teste" e dispositivos que não fazem parte da área de trabalho gerenciada da Microsoft estão fora do escopo 
+- Atual: Estados Unidos, Canadá (excluindo Quebec), Reino Unido, Bélgica, Luxemburgo, Países Baixos, Austrália e Nova Zelândia (24x7x365) 
+- Inglês é o único idioma com suporte para conversas por telefone e chat com clientes 
+- Estamos fazendo parceria com, não substituindo, sua helpdesk corporativa; aplicativos de linha de negócios (LOB), recursos de rede etc. ainda são manipulados por sua helpdesk 
+- Os dispositivos da Área de Trabalho Gerenciada da Microsoft no grupo "Teste" e os dispositivos que não fazem parte da Área de Trabalho Gerenciada da Microsoft estão fora do escopo 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Saiba como os administradores de ti podem obter suporte](../working-with-managed-desktop/admin-support.md)
+- [Saiba como os administradores de IT podem obter suporte](../working-with-managed-desktop/admin-support.md)
 - [Saiba como os usuários podem obter suporte](../working-with-managed-desktop/end-user-support.md)

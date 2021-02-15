@@ -13,7 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Compreenda a infraestrutura de rede da Contoso e como ela usa a tecnologia SD-WAN para o desempenho ideal de rede para o Microsoft 365 para serviços em nuvem corporativos.
+description: Entenda a infraestrutura de rede da Contoso e como a empresa usa sua tecnologia SD-WAN para obter o melhor desempenho de rede para o Microsoft 365 para serviços de nuvem corporativos.
 ms.openlocfilehash: d5f3581b81d33bdc200321692b82d57a96d09298
 ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "48754009"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Sistema de rede para a Contoso Corporation
 
-Para adotar uma infraestrutura incluindo a nuvem, a contoso criou uma mudança fundamental na forma como o tráfego de rede para os serviços em nuvem viaja. Em vez de um modelo de Hub e spoke interno que focaliza a conectividade de rede e o tráfego para o próximo nível da hierarquia do Office, eles mapearam os locais de usuário para conexões locais e de saída da Internet para o local de rede do Microsoft 365 mais próximo na Internet.
+Para adotar uma infraestrutura de nuvem inclusiva, a Contoso desdopou uma mudança fundamental em como o tráfego de rede para serviços de nuvem viaja. Em vez de um modelo interno de hub e spoke que concentra a conectividade de rede e o tráfego para o próximo nível da hierarquia de escritório, eles mapearam locais de usuário para saída de Internet local e conexões locais para o local de rede do Microsoft 365 mais próximo na Internet.
 
 ## <a name="networking-infrastructure"></a>Infraestrutura de rede
 
@@ -31,21 +31,21 @@ Estes são os elementos de rede que vinculam escritórios da Contoso em todo o m
 
 - Rede WAN de Comutação de Rótulos Multiprotocolo (MPLS)
 
-  Uma rede de WAN MPLS conecta a sede de Paris a escritórios regionais e escritórios regionais a escritórios satélites em uma configuração de spoke e Hub. A rede permite que os usuários acessem servidores locais que fazem parte dos aplicativos de linha de negócios na sede de Paris. Ele também roteia qualquer tráfego genérico da Internet para o escritório de Paris, onde os dispositivos de segurança de rede desdepurar as solicitações. Dentro de cada escritório, os roteadores entregam o tráfego para hosts com fio ou pontos de acesso sem fio em sub-redes, que usam o espaço de endereço IP privado.
+  Uma rede MPLS WAN conecta a sede de Paris a escritórios regionais e escritórios regionais a filiais em uma configuração spoke-and-hub. A rede permite que os usuários acessem servidores locais que comem aplicativos de linha de negócios na sede de Paris. Ele também encaminha qualquer tráfego genérico da Internet para o escritório de Paris, onde os dispositivos de segurança de rede limparão as solicitações. Em cada escritório, os roteadores entregam tráfego para hosts com fio ou pontos de acesso sem fio em sub-redes, que usam o espaço de endereço IP privado.
 
-- Acesso à Internet direto local para o tráfego do Microsoft 365
+- Acesso direto local à Internet para o tráfego do Microsoft 365
 
-  Cada Office tem um dispositivo WAN (SD-WAN) definido pelo software que tem um ou mais circuitos de rede de Internet ISP locais com sua própria conectividade com a Internet por meio de um servidor proxy. Isso é normalmente implementado como um link WAN para um provedor de Internet local que também fornece endereços IP públicos e um servidor DNS local.
+  Cada escritório tem um dispositivo WAN (SD-WAN) definido por software que tem um ou mais circuitos de rede ISP de Internet locais com sua própria conectividade com a Internet por meio de um servidor proxy. Normalmente, isso é implementado como um link WAN para um ISP local que também fornece endereços IP públicos e um servidor DNS local.
 
 - Presença na Internet
 
-  A contoso é proprietária do \. nome de domínio público da contoso. O site público da Contoso para pedidos de produtos é um conjunto de servidores em um datacenter conectado à Internet no campus de Paris. A contoso usa a/24 intervalo de endereços IP públicos na Internet.
+  A Contoso possui o nome de domínio público contoso \. com. O site público da Contoso para solicitar produtos é um conjunto de servidores em um datacenter conectado à Internet no campus de Paris. A Contoso usa um intervalo de endereços IP públicos /24 na Internet.
 
 A Figura 1 mostra a infraestrutura de rede da Contoso e suas conexões com a Internet.
 
-![A rede contoso](../media/contoso-networking/contoso-networking-fig1.png)
+![A rede Contoso](../media/contoso-networking/contoso-networking-fig1.png)
  
-**Figura 1: a rede contoso**
+**Figura 1: A rede da Contoso**
 
 ## <a name="use-of-sd-wan-for-optimal-network-connectivity-to-microsoft"></a>Uso de SD-WAN para conectividade de rede ideal para a Microsoft
 
@@ -56,73 +56,73 @@ A Contoso seguiu os [Princípios de conectividade de rede do Microsoft 365](micr
 - Evitar hairpins de rede
 - Ignorar dispositivos de segurança de rede duplicados
 
-Há três categorias de tráfego de rede para o Microsoft 365: *otimizar*, *permitir*e *padrão*. Otimizar e permitir tráfego é o tráfego de rede confiável criptografado e protegido nos pontos de extremidade e destinado à rede 365 da Microsoft.
+Há três categorias de tráfego de rede para o Microsoft 365: *Otimizar,* *Permitir* e *Padrão.* Otimizar e Permitir tráfego é um tráfego de rede confiável que é criptografado e protegido nos pontos de extremidade e destinado à rede do Microsoft 365.
 
 A Contoso decidiu:
 
-- Use o egresso de Internet direto para otimizar e permitir o tráfego de categoria e encaminhar todo o tráfego de categoria padrão para a conexão de Internet central baseada em Paris.
+- Use a saída direta da Internet para otimizar e permitir o tráfego da categoria e para encaminhar todo o tráfego de categoria padrão para a conexão de Internet central com base em Paris.
 
-- Implantar os dispositivos SD-WAN em cada escritório como uma maneira simples de seguir estes princípios e obter o melhor desempenho da rede para os serviços baseados em nuvem da Microsoft 365.
+- Implante dispositivos SD-WAN em cada escritório como uma maneira simples de seguir esses princípios e alcançar o melhor desempenho de rede para os serviços baseados em nuvem do Microsoft 365.
 
-  Os dispositivos SD-WAN possuem uma porta LAN para a rede do escritório local e várias portas WAN. Uma porta WAN conecta-se à sua rede MPLS. Outro se conecta a um circuito de provedor local. O dispositivo SD-WAN roteia o tráfego de rede da categoria Otimizar e Permitir através do link ISP.
+  Os dispositivos SD-WAN possuem uma porta LAN para a rede do escritório local e várias portas WAN. Uma porta WAN se conecta à rede MPLS. Outro conecta-se a um circuito ISP local. O dispositivo SD-WAN roteia o tráfego de rede da categoria Otimizar e Permitir através do link ISP.
 
 
 
-## <a name="the-contoso-line-of-business-app-infrastructure"></a>A infraestrutura de aplicativos de linha de negócios da contoso
+## <a name="the-contoso-line-of-business-app-infrastructure"></a>A infraestrutura do aplicativo de linha de negócios da Contoso
 
-A contoso arquitetau a infraestrutura de intranet de servidor e aplicativos de linha de negócios para o seguinte:
+A Contoso arquitetou sua infraestrutura de intranet de servidor e aplicativo de linha de negócios para o seguinte:
 
 - As filiais usam servidores de cache locais para armazenar documentos acessados com frequência e sites internos.
 - Os hubs regionais usam servidores de aplicativo regionais para os escritórios regionais e as filiais. Esses servidores sincronizam-se com os servidores da matriz de Paris.
-- Os datacenters de campus de Paris contêm servidores de aplicativos centralizados que atendem a toda a organização.
+- Os datacenters do campus de Paris contêm servidores de aplicativos centralizados que atendem toda a organização.
 
-A Figura 2 mostra a porcentagem de capacidade de tráfego de rede usada ao acessar servidores na intranet da contoso.
+A Figura 2 mostra a porcentagem de capacidade de tráfego de rede usada ao acessar servidores na intranet da Contoso.
 
 ![A infraestrutura da Contoso para aplicativos internos](../media/contoso-networking/contoso-networking-fig2.png)
  
-**Figura 2: infraestrutura da Contoso para aplicativos internos**
+**Figura 2: A infraestrutura da Contoso para aplicativos internos**
 
-Para os escritórios de Hub satélite ou regional, 60% dos recursos necessários para os funcionários podem ser servidos por satélite e servidores de Hub regionais do Office. A porcentagem adicional de solicitações de recursos de 40% deve passar pelo link WAN para o campus de Paris.
+Para os escritórios de hub satélite ou regionais, 60% dos recursos necessários para os funcionários podem ser atendidos por servidores de filiais e hubs regionais. Os 40% adicionais de solicitações de recursos devem passar pelo link WAN para o campus de Paris.
 
-## <a name="network-analysis-and-preparation-for-microsoft-365-for-enterprise"></a>Análise de rede e preparação para o Microsoft 365 para empresas
+## <a name="network-analysis-and-preparation-for-microsoft-365-for-enterprise"></a>Análise de rede e preparação do Microsoft 365 para empresas
 
-A adoção bem-sucedida do Microsoft 365 for Enterprise Services por usuários da Contoso depende da conectividade de alta disponibilidade e desempenho à Internet ou diretamente aos serviços de nuvem da Microsoft. A contoso adotou estas etapas para planejar e implementar a conectividade otimizada para o Microsoft 365 para serviços de nuvem corporativa:
+A adoção bem-sucedida do Microsoft 365 para serviços corporativos por usuários da Contoso depende de conectividade altamente disponível e de alto desempenho com a Internet ou diretamente com os serviços de nuvem da Microsoft. A Contoso tomou estas etapas para planejar e implementar a conectividade otimizada com o Microsoft 365 para serviços de nuvem corporativos:
 
-1. Criar um diagrama de rede WAN da empresa para ajudar no planejamento
+1. Criar um diagrama de rede WAN da empresa para auxiliar no planejamento
 
-   Para iniciar o planejamento de rede, a contoso criou um diagrama mostrando seus locais de escritório, a conectividade de rede existente, os dispositivos de perímetro de rede existentes e as classes de serviço que são gerenciadas na rede. Ela usou este diagrama para cada etapa subsequente no planejamento e na implementação da conectividade de rede.
+   Para iniciar o planejamento de rede, a Contoso criou um diagrama mostrando seus locais de escritório, conectividade de rede existente, dispositivos de perímetro de rede existentes e classes de serviço gerenciadas na rede. Ela usou este diagrama para cada etapa subsequente no planejamento e na implementação da conectividade de rede.
 
 2. Criar um plano para o Microsoft 365 para conectividade de rede corporativa
 
-   A contoso usou os [princípios de conectividade de rede do Microsoft 365](microsoft-365-network-connectivity-principles.md) e as arquiteturas de rede de referência de exemplo para identificar o SD-WAN como sua topologia preferencial para a conectividade do Microsoft 365.
+   A Contoso usou os princípios de conectividade de rede do [Microsoft 365](microsoft-365-network-connectivity-principles.md) e exemplos de arquiteturas de rede de referência para identificar o SD-WAN como sua topologia preferida para a conectividade do Microsoft 365.
 
-3. Analisar utilização de conexão com a Internet e largura de banda de MPLS-WAN em cada escritório e aumentar a largura de banda conforme necessário
+3. Analisar a utilização da conexão com a Internet e a largura de banda MPLS-WAN em cada escritório e aumentar a largura de banda conforme necessário
 
-   Cada uso atual do Office foi analisado, e os circuitos foram aumentados para que o tráfego da Microsoft 365 em nuvem previsto opere com uma média de 20% de capacidade não usada.
+   O uso atual de cada escritório foi analisado e os circuitos foram aumentados para que o tráfego previsto na nuvem do Microsoft 365 funcionasse com uma média de 20% de capacidade não utilizado.
 
-4. Otimizar o desempenho para os serviços de rede da Microsoft
+4. Otimizar o desempenho dos serviços de rede da Microsoft
 
-   A contoso determinou o conjunto de pontos de extremidade do Office 365, do Intune e do Azure e dos firewalls configurados, dos dispositivos de segurança e de outros sistemas no caminho da Internet para obter o melhor desempenho. Pontos de extremidade do Office 365 otimizar e permitir tráfego de categoria foram configurados nos dispositivos SD-WAN para roteamento através do circuito ISP.
+   A Contoso determinou o conjunto de pontos de extremidade do Office 365, Do Intune e do Azure e configurou firewalls, dispositivos de segurança e outros sistemas no caminho da Internet para obter o melhor desempenho. Os pontos de extremidade do tráfego da categoria Otimizar e Permitir do Office 365 foram configurados nos dispositivos SD-WAN para roteamento pelo circuito ISP.
 
-5. Configurar DNS interno
+5. Configurar o DNS interno
 
    O DNS precisa ser funcional e ser pesquisado localmente para o tráfego do Microsoft 365.
 
 6. Validar o ponto de extremidade de rede e a conectividade de porta
 
-   A contoso executou ferramentas de teste de conectividade de rede da Microsoft para validar a conectividade para o Microsoft 365 para serviços de nuvem corporativos.
+   A Contoso fez o teste de conectividade de rede da Microsoft para validar a conectividade do Microsoft 365 para serviços de nuvem corporativos.
 
-7. Otimizar os computadores do funcionário para conectividade de rede
+7. Otimizar computadores dos funcionários para conectividade de rede
 
-   Os computadores individuais foram verificados para garantir que as atualizações mais recentes do sistema operacional foram instaladas e que o monitoramento de segurança do ponto de extremidade estava ativo em todos os clientes.
+   Computadores individuais foram verificados para garantir que as atualizações mais recentes do sistema operacional foram instaladas e que o monitoramento de segurança do ponto de extremidade estava ativo em todos os clientes.
 
 ## <a name="next-step"></a>Próxima etapa
 
-Saiba como a Contoso está [aproveitando seus serviços de domínio do Active Directory local na nuvem](contoso-identity.md) para funcionários e Federação de autenticação para clientes e parceiros de negócios.
+Saiba como a Contoso está aproveitando seus Serviços de Domínio Active Directory locais na nuvem para [funcionários](contoso-identity.md) e autenticação federante para clientes e parceiros de negócios.
 
 ## <a name="see-also"></a>Confira também
 
-[Mapa de rede para o Microsoft 365](networking-roadmap-microsoft-365.md)
+[Roteiro de rede do Microsoft 365](networking-roadmap-microsoft-365.md)
 
 [Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 

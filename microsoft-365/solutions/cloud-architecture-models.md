@@ -1,6 +1,6 @@
 ---
-title: Modelos de arquitetura de nuvem da Microsoft-planejamento de recursos empresariais
-description: Estes cartazes da arquitetura de nuvem da Microsoft fornecem informações sobre os serviços de nuvem da Microsoft, como o Azure e o Office 365.
+title: Modelos de arquitetura de nuvem da Microsoft - planejamento de recursos da empresa
+description: Esses cartazes de arquitetura em nuvem da Microsoft dão informações sobre os serviços de nuvem da Microsoft, como o Azure e o Office 365.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -22,9 +22,9 @@ ms.locfileid: "48906866"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Microsoft cloud para ilustrações de arquitetos de empresas
 
-Estes cartazes de arquitetura de nuvem fornecem informações sobre os serviços de nuvem da Microsoft, incluindo o Microsoft 365, Azure Active Directory (Azure AD), Microsoft Intune, Microsoft Dynamics 365 e soluções de nuvem e locais híbridas. 
+Esses cartazes de arquitetura de nuvem dão informações sobre os serviços de nuvem da Microsoft, incluindo o Microsoft 365, o Azure Active Directory (Azure AD), o Microsoft Intune, o Microsoft Dynamics 365 e soluções híbridas no local e na nuvem. 
 
-Os responsáveis pelas decisões de ti e arquitetos podem usar esses recursos para determinar as soluções ideais para suas cargas de trabalho e tomar decisões sobre os principais componentes da infraestrutura, como rede, identidade e segurança.
+Os arquitetos e tomadores de decisões de TI podem usar esses recursos para determinar as soluções ideais para suas cargas de trabalho e para tomar decisões sobre os principais componentes de infraestrutura, como rede, identidade e segurança.
 
 
 <a name="identity"></a>
@@ -34,7 +34,7 @@ O que os arquitetos de TI precisam saber sobre a criação de identidade para or
   
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Imagem em miniatura do modelo de identidade de nuvem da Microsoft](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [Exibir como um PDF](../downloads/MSFT_cloud_architecture_identity.pdf) \| [Baixar como um PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [Baixar como um Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>Atualizado em agosto de 2020 | Este modelo contém:  <ul> <li> Introdução à identidade com a nuvem da Microsoft </li><li> Recursos do Azure AD IDaaS </li><li> Integração de contas do AD DS (serviços de domínio Active Directory) local com o Azure AD </li><li> Colocando componentes de diretório no Azure IaaS </li><li> Opções do AD DS para cargas de trabalho no Azure IaaS </li></ul><br/>  <br/>|
+|[![Imagem em miniatura do modelo de identidade de nuvem da Microsoft](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)](../downloads/MSFT_cloud_architecture_identity.pdf) <br/> [Exibir como um PDF](../downloads/MSFT_cloud_architecture_identity.pdf) \| [Baixar como pdf](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.pdf) \| [Baixar como um Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_identity.vsdx)   <br/>Atualizado em agosto de 2020 | Este modelo contém:  <ul> <li> Introdução à identidade com a nuvem da Microsoft </li><li> Recursos do Azure AD IDaaS </li><li> Integração de contas do Active Directory Domain Services (AD DS) local com o Azure AD </li><li> Colocando componentes de diretório no IaaS do Azure </li><li> Opções do AD DS para cargas de trabalho no Azure IaaS </li></ul><br/>  <br/>|
    
 <a name="networking"></a>
 ### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>Rede do Microsoft Cloud para arquitetos corporativos
@@ -43,7 +43,7 @@ O que os arquitetos de TI precisam saber sobre redes para plataformas e serviço
   
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Imagem em miniatura do modelo de sistema de rede em nuvem da Microsoft](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](../downloads/MSFT_cloud_architecture_networking.pdf) <br/>  [Exibir como um PDF](../downloads/MSFT_cloud_architecture_networking.pdf) \| [Baixar como um PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf) \| [Baixar como um Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.vsdx)   <br/>Atualizado em agosto de 2020 | Este modelo contém: <ul><li> Expandindo sua rede para conectividade de nuvem </li><li> Elementos comuns de conectividade de nuvem da Microsoft </li><li> ExpressRoute para conectividade de nuvem da Microsoft </li><li> Projetando a rede para Microsoft SaaS, Azure PaaS e Azure IaaS </li></ul><br/>  <br/>|
+|[![Imagem em miniatura do modelo de sistema de rede em nuvem da Microsoft](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](../downloads/MSFT_cloud_architecture_networking.pdf) <br/>  [Exibir como um PDF](../downloads/MSFT_cloud_architecture_networking.pdf) \| [Baixar como pdf](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf) \| [Baixar como um Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.vsdx)   <br/>Atualizado em agosto de 2020 | Este modelo contém: <ul><li> Expandindo sua rede para conectividade de nuvem </li><li> Elementos comuns de conectividade de nuvem da Microsoft </li><li> ExpressRoute para conectividade de nuvem da Microsoft </li><li> Criação de rede para Microsoft SaaS, Azure PaaS e Azure IaaS </li></ul><br/>  <br/>|
 
 <a name="hybrid"></a>
 ### <a name="microsoft-hybrid-cloud-for-enterprise-architects"></a>Nuvem híbrida da Microsoft para arquitetos corporativos
@@ -52,21 +52,21 @@ O que os arquitetos de TI precisam saber sobre nuvem híbrida dos serviços e pl
   
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Imagem em miniatura do modelo híbrido em nuvem da Microsoft](../media/solutions-architecture-center/msft-hybrid-cloud-model-thumb.png)](../downloads/MSFT_cloud_architecture_hybrid.pdf) <br/> [Exibir como um PDF](../downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Baixar como um PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Baixar como um Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.vsdx)     <br>Atualizado em agosto de 2020 | Este modelo contém: <ul><li> Ofertas de nuvem da Microsoft (SaaS, Azure PaaS e Azure IaaS) e seus elementos em comum </li><li> Arquitetura de nuvem híbrida para as ofertas de nuvem da Microsoft </li><li> Cenários de nuvem híbrida para o Microsoft SaaS (Office 365), Azure PaaS e Azure IaaS </li></ul><br/>|
+|[![Imagem em miniatura do modelo híbrido em nuvem da Microsoft](../media/solutions-architecture-center/msft-hybrid-cloud-model-thumb.png)](../downloads/MSFT_cloud_architecture_hybrid.pdf) <br/> [Exibir como um PDF](../downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Baixar como pdf](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.pdf) \| [Baixar como um Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_hybrid.vsdx)     <br>Atualizado em agosto de 2020 | Este modelo contém: <ul><li> Ofertas de nuvem da Microsoft (SaaS, Azure PaaS e Azure IaaS) e seus elementos em comum </li><li> Arquitetura de nuvem híbrida para as ofertas de nuvem da Microsoft </li><li> Cenários de nuvem híbrida para o Microsoft SaaS (Office 365), Azure PaaS e Azure IaaS </li></ul><br/>|
    
 
 ### <a name="architecture-approaches-for-microsoft-cloud-tenant-to-tenant-migrations"></a>Abordagens de arquitetura para as migrações de locatário do Microsoft Cloud para o locatário 
-Esta série de tópicos ilustra várias abordagens de arquitetura para fusões, aquisições, despojamento e outros cenários que podem levar você a migrar para um novo locatário de nuvem. Estes tópicos fornecem orientações de ponto inicial para o planejamento de recursos corporativos. 
+Esta série de tópicos ilustra várias abordagens de arquitetura para fusões, aquisições, despojamento e outros cenários que podem levar você a migrar para um novo locatário de nuvem. Estes tópicos fornecem orientação inicial para o planejamento de recursos da empresa. 
 
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Atualizado em outubro de 2020    |Este modelo contém: <ul><li>Um mapeamento de cenários de negócios para abordagens de arquitetura</li><li>Considerações de design</li><li>Exemplo de fluxo de migração de evento único</li><li>Exemplo de fluxo de migração em fases</li><li>Exemplo de transferência ou de fluxo de divisão de locatário</li></ul>|
+|[![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Atualizado em outubro de 2020    |Este modelo contém: <ul><li>Um mapeamento de cenários de negócios para abordagens de arquitetura</li><li>Considerações de design</li><li>Exemplo de fluxo de migração de evento único</li><li>Exemplo de fluxo de migração em fases</li><li>Exemplo de fluxo de movimentação ou divisão de locatários</li></ul>|
 
 <a name="security"></a>
 ### <a name="microsoft-cloud-security-for-enterprise-architects"></a>Segurança no Microsoft Cloud para arquitetos corporativos
 
 >[!Note]
->Este modelo está sendo revisado. Confira este artigo no futuro para obter a versão atualizada.
+>Este modelo está sendo revisado. Confira este artigo no futuro para ver a versão atualizada.
 >
 
 <!--
@@ -81,9 +81,9 @@ What IT architects need to know about security in Microsoft cloud services and p
 
 
 <a name="attacks"></a>
-### Os ataques comuns e os recursos da Microsoft que protegem sua organização aprendem sobre os ataques de Cyber mais comuns e como a Microsoft pode ajudar sua organização em cada estágio de um ataque. 
+### Ataques comuns e recursos da Microsoft que protegem sua organização Saiba mais sobre os ataques cibernéticos mais comuns e como a Microsoft pode ajudar sua organização em todos os estágios de um ataque. 
 
 |**Item**|**Descrição**|
 |:-----|:-----|
-|[![Ilustração do cartaz de ataques comuns. ](../media/solutions-architecture-center/common-attacks-model-thumb.png)](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> Atualizado em agosto de 2017 | Este cartaz ilustra o caminho dos ataques comuns e descreve quais recursos ajudam a impedir os invasores em cada etapa de um ataque. <br/>|
+|[![Ilustração do cartaz ataques comuns. ](../media/solutions-architecture-center/common-attacks-model-thumb.png)](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> Atualizado em agosto de 2017 | Este cartaz ilustra o caminho dos ataques comuns e descreve quais recursos ajudam a impedir os invasores em cada etapa de um ataque. <br/>|
 

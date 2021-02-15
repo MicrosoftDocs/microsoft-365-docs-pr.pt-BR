@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o acesso de convidados nos grupos do Microsoft 365
+title: Gerenciar o acesso de convidados em grupos do Microsoft 365
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -26,46 +26,46 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/24/2020
 ms.locfileid: "48753272"
 ---
-# <a name="manage-guest-access-in-microsoft-365-groups"></a>Gerenciar o acesso de convidados nos grupos do Microsoft 365
+# <a name="manage-guest-access-in-microsoft-365-groups"></a>Gerenciar o acesso de convidados em grupos do Microsoft 365
 
-Por padrão, o acesso de convidados para os grupos do Microsoft 365 está ativado para sua organização. Os administradores podem controlar a possibilidade de permitir o acesso de convidados a grupos para toda a sua organização ou para grupos individuais.
+Por padrão, o acesso de convidados para grupos do Microsoft 365 está ligado para sua organização. Os administradores podem controlar se permitem o acesso de convidados a grupos para toda a organização ou para grupos individuais.
 
-Quando ele está ativado, os membros do grupo podem convidar usuários convidados para um grupo do Microsoft 365 por meio do Outlook na Web. Os convites são enviados ao proprietário do grupo para aprovação.
+Quando ele está ligado, os membros do grupo podem convidar usuários convidados para um grupo do Microsoft 365 por meio do Outlook na Web. Os convites são enviados ao proprietário do grupo para aprovação.
 
 Depois de aprovado, o usuário convidado é adicionado ao diretório e ao grupo.
 
 > [!Note]
-> As redes corporativas do Yammer que estão no modo nativo ou na [Geografia da UE](https://go.microsoft.com/fwlink/?linkid=2107357) não dão suporte a convidados de rede.
-> Os grupos do Yammer conectados ao Microsoft 365 atualmente não dão suporte ao acesso de convidados, mas você pode criar grupos externos não conectados na sua rede do Yammer. Veja [criar e gerenciar grupos externos no Yammer](https://docs.microsoft.com/yammer/work-with-external-users/create-and-manage-external-groups) para obter instruções.
+> As redes do Yammer Enterprise que estão no Modo Nativo ou na área geográfica da [UE](https://go.microsoft.com/fwlink/?linkid=2107357) não suportam convidados de rede.
+> No momento, os grupos do Yammer conectados ao Microsoft 365 não suportam o acesso de convidados, mas você pode criar grupos externos não conectados em sua rede do Yammer. Confira [Criar e gerenciar grupos externos no Yammer](https://docs.microsoft.com/yammer/work-with-external-users/create-and-manage-external-groups) para obter instruções.
 
-O acesso de convidados em grupos é geralmente usado como parte de um cenário mais amplo que inclui o SharePoint ou o Teams. Esses serviços têm suas próprias configurações de compartilhamento de convidados. Para obter instruções completas sobre como configurar o compartilhamento de convidados entre grupos, SharePoint e equipes, consulte:
+O acesso de convidados em grupos geralmente é usado como parte de um cenário mais amplo que inclui o SharePoint ou o Teams. Esses serviços têm suas próprias configurações de compartilhamento de convidados. Para obter instruções completas para configurar o compartilhamento de convidados entre grupos, SharePoint e Teams, confira:
 
 - [Colaborar com convidados em um site](../../solutions/collaborate-in-site.md)
 - [Colaborar com convidados em uma equipe](../../solutions/collaborate-as-team.md)
 
-## <a name="manage-groups-guest-access"></a>Gerenciar o acesso de convidados a grupos
+## <a name="manage-groups-guest-access"></a>Gerenciar o acesso de convidados de grupos
 
-Se quiser habilitar ou desabilitar o acesso de convidados em grupos, você pode fazer isso no centro de administração do Microsoft 365.
+Se quiser habilitar ou desabilitar o acesso de convidados em grupos, você pode fazê-lo no centro de administração do Microsoft 365.
 
-1. No centro de administração, vá para **Mostrar todas** as \> **Settings** \> **configurações da organização** configurações e, na guia **Serviços** , selecione **Microsoft 365 grupos**.
+1. No centro de administração, vá para Mostrar todas **as** configurações da Organização de Configurações e, na guia Serviços, selecione grupos \>  \>  do **Microsoft 365.** 
   
-2. Na página de **grupos do Microsoft 365** , escolha se você deseja permitir que as pessoas de fora de sua organização acessem os recursos do grupo ou permitir que os proprietários de grupos adicionem pessoas de fora da sua organização a grupos.
+2. Na página **Grupos do Microsoft 365,** escolha se deseja permitir que pessoas de fora da sua organização acessem recursos de grupo ou permitir que os proprietários de grupos adicionem aos grupos pessoas de fora da sua organização.
 
-## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>Adicionar convidados a um grupo do Microsoft 365 a partir do centro de administração
+## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>Adicionar convidados a um grupo do Microsoft 365 no centro de administração
 
-Se o convidado já existir no seu diretório, você poderá adicioná-lo aos seus grupos no centro de administração do Microsoft 365.
+Se o convidado já existir em seu diretório, você poderá adicioná-lo aos seus grupos no centro de administração do Microsoft 365.
   
-1. No centro de administração, vá para a página grupos de **grupos**  >  **Groups** .
+1. No centro de administração, vá para a página **Grupos**  >  **de** Grupos.
   
-2. Clique no grupo ao qual você deseja adicionar o convidado e selecione **Exibir todos e gerenciar Membros** na guia **Membros** . 
+2. Clique no grupo ao que você deseja adicionar o convidado e selecione **Exibir todos e gerenciar** membros na **guia** Membros. 
   
-4. Selecione **adicionar membros**e escolha o nome do convidado que você deseja adicionar.
+4. Selecione **Adicionar membros** e escolha o nome do convidado que você deseja adicionar.
     
 5. Selecione **Salvar**.
 
-Se quiser adicionar um convidado ao diretório diretamente, você poderá [Adicionar usuários de colaboração B2B do Azure Active Directory no portal do Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Se quiser adicionar um convidado diretamente ao diretório, você pode adicionar usuários de colaboração [B2B do Azure Active Directory no portal do Azure.](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)
 
-Se quiser editar as informações de um convidado, você poderá [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
+Se quiser editar qualquer uma das informações de um convidado, você pode adicionar ou atualizar as informações de perfil de um usuário usando o [Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ## <a name="see-also"></a>Confira também
 
@@ -73,6 +73,6 @@ Se quiser editar as informações de um convidado, você poderá [Adicionar ou a
 
 [Gerenciar a associação de grupo no centro de administração do Microsoft 365](add-or-remove-members-from-groups.md)
   
-[Revisões do acesso ao Active Directory do Azure](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
+[Revisões de acesso do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 
 [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser)

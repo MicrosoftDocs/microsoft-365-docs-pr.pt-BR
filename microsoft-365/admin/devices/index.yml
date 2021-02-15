@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Proteger e gerenciar dispositivos e dados de aplicativos
-summary: Confira estes recursos para ajudar os administradores a escolher entre os métodos de gerenciamento de dados de dispositivos e aplicativos.
+title: Proteger e gerenciar dispositivos e dados de aplicativo
+summary: Confira esses recursos para ajudar os administradores a escolher entre os métodos de gerenciamento de dados de dispositivos e aplicativos.
 metadata:
-  title: Proteger e gerenciar dispositivos e dados de aplicativos
-  description: Gerenciar e proteger os dados de dispositivos e aplicativos
+  title: Proteger e gerenciar dispositivos e dados de aplicativo
+  description: Gerenciar e proteger dispositivos e dados de aplicativo
   ms.service: O365-administration
   ms.topic: landing-page
   author: Sirkkuw
@@ -34,9 +34,9 @@ landingContent:
     links:
     - text: Configurar o registro automático para dispositivos Windows 10
       url: https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment
-    - text: Configurar o registro do Android
+    - text: Configurar o registro no Android
       url: https://docs.microsoft.com/mem/intune/enrollment/android-enroll
-    - text: Configurar o registro iOS/iPadOS
+    - text: Configurar o registro do iOS/iPadOS
       url: https://docs.microsoft.com/mem/intune/enrollment/ios-enroll
 - title: Gerenciar dispositivos e dados de aplicativo com o Microsoft 365 Business Premium
   linkLists:
@@ -46,23 +46,23 @@ landingContent:
       url: ../../business/view-policies-and-devices.md
     - text: Remover dados da empresa de dispositivos
       url: ../../business/remove-company-data.md
-    - text: Redefinir dispositivos do Windows para configurações de fábrica
+    - text: Redefinir dispositivos Windows para configurações de fábrica
       url: ../../business/reset-devices-to-factory-settings.md
-- title: Gerenciar dispositivos e dados de aplicativo com o Microsoft 365 for Enterprise
+- title: Gerenciar dispositivos e dados de aplicativos com o Microsoft 365 para empresas
   linkLists:
   - linkListType: overview
     links:
     - text: Visão geral do Microsoft 365 para empresas
       url: ../../enterprise/microsoft-365-overview.md
-    - text: Mapa de estrada de gerenciamento de dispositivos para o Microsoft 365 for Enterprise
+    - text: Mapa de gerenciamento de dispositivos do Microsoft 365 para empresas
       url: ../../enterprise/device-management-roadmap-microsoft-365.md
-- title: Gerenciar dispositivos e dados de aplicativos com mobilidade básica e segurança
+- title: Gerenciar dispositivos e dados de aplicativos com mobilidade e segurança básicas
   linkLists:
   - linkListType: overview
     links:
-    - text: Visão geral da mobilidade básica e segurança
+    - text: Visão geral da Mobilidade e Segurança Básicas
       url: ../basic-mobility-security/overview.md
     - text: Configurar mobilidade básica e segurança
       url: ../basic-mobility-security/set-up.md
-    - text: Recursos de mobilidade básica e segurança
+    - text: Recursos básicos de mobilidade e segurança
       url: ../basic-mobility-security/capabilities.md

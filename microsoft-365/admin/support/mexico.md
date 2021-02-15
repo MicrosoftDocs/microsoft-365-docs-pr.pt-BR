@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/29/2020
 ms.locfileid: "48794984"
 ---
-# <a name="contact-support-for-mexico"></a>Contatar o suporte para o México
+# <a name="contact-support-for-mexico"></a>Contatar o suporte do México
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -32,7 +32,7 @@ ms.locfileid: "48794984"
 
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Espanhol: Mon-Fri 9 AM-5 PM
+Espanhol: Mon-Fri das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
@@ -40,4 +40,4 @@ Espanhol: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 55 4738 6567
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

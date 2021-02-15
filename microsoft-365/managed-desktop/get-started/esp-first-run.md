@@ -1,6 +1,6 @@
 ---
 title: Experiência da primeira execução com o piloto automático e a página de status do registro
-description: Como implantar a experiência de ESP, as configurações usadas e as alterações de configuração
+description: Como implantar a experiência ESP, as configurações usadas e as alterações de configuração
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -19,95 +19,95 @@ ms.locfileid: "49126620"
 ---
 # <a name="first-run-experience-with-autopilot-and-the-enrollment-status-page"></a>Experiência da primeira execução com o piloto automático e a página de status do registro
 
-O Microsoft Managed desktop usa o [Windows AutoPilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot) e a página de status de registro do Microsoft INTUNE [(ESP)](https://docs.microsoft.com/windows/deployment/windows-autopilot/enrollment-status) para fornecer a melhor experiência de primeira execução para os seus usuários.
+A Área de Trabalho Gerenciada da Microsoft usa o [Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot) e a Página de Status de Registro [(ESP)](https://docs.microsoft.com/windows/deployment/windows-autopilot/enrollment-status) do Microsoft Intune para fornecer a melhor experiência possível de primeira apresentação aos usuários.
 
-A página status do registro está atualmente em visualização pública.
+A página Status do Registro está atualmente em visualização pública.
 
 ## <a name="initial-deployment"></a>Implantação inicial
 
-Para fornecer a experiência de ESP, você deve registrar dispositivos no serviço de área de trabalho gerenciada da Microsoft. Para saber mais sobre o registro, confira [registrar novos dispositivos](../get-started/register-devices-self.md) ou [as etapas de parceiros para registrar dispositivos](../get-started/register-devices-partner.md).
+Para fornecer a experiência ESP, você deve registrar dispositivos no serviço de Área de Trabalho Gerenciada da Microsoft. Para obter mais informações sobre registro, [consulte Registrar novos dispositivos por](../get-started/register-devices-self.md) conta própria ou etapas para parceiros [registrarem dispositivos.](../get-started/register-devices-partner.md)
 
-Depois que os dispositivos são registrados com o serviço, você pode habilitar o ESP para seus dispositivos de área de trabalho gerenciada da Microsoft, arquivando um tíquete de suporte através do [portal de administração](https://portal.azure.com/). Inicialmente, implantaremos a configuração de ESP no grupo de teste quando você arquivar o tíquete. Ele é implantado para os outros grupos de implantação subsequentes (primeiro, rápido e abrangente) a cada 24 horas. Para pausar a implantação, arquivo outro tíquete pedindo que as operações sejam mantidas.
+Depois que seus dispositivos são registrados no serviço, você pode habilitar o ESP para seus dispositivos da Área de Trabalho Gerenciada da Microsoft, apresentando um tíquete de suporte por meio do [Portal de Administração.](https://portal.azure.com/) Implantaremos inicialmente a configuração esp no grupo teste quando você arquivar o tíquete. Ela é implantada nos outros grupos de implantação subsequentes (First, Fast e Broad) a cada 24 horas. Para pausar a implantação, arquiva outro tíquete solicitando que o Operations mantenha.
 
-## <a name="autopilot-profile-settings"></a>Configurações de perfil do AutoPilot
+## <a name="autopilot-profile-settings"></a>Configurações de perfil do Autopilot
 
-O Microsoft Managed desktop usa essas configurações no perfil do piloto automático usado para os dispositivos de seus usuários:
+A Área de Trabalho Gerenciada da Microsoft usa essas configurações no perfil do Autopilot usado para os dispositivos dos usuários:
 
 
 |Setting  |Valor  |
 |---------|---------|
-|Modo de implantação |  Controlado pelo usuário       |
-|Ingressar no Azure AD como     |  Azure AD Unido       |
-|Idioma (região)     | Padrão do sistema operacional        |
+|Modo de implantação |  Orientado pelo usuário       |
+|Ingressar no Azure AD como     |  Ingressado no Azure AD       |
+|Idioma (Região)     | Padrão do sistema operacional        |
 |Configurar automaticamente o teclado     | Não        |
-|Termos de licença para software Microsoft     |  Ocultar       |
+|Termos de Licença para Software Microsoft     |  Ocultar       |
 |Configurações de privacidade     | Ocultar        |
-|Ocultar opções de conta de alteração     | Mostrar        |
+|Ocultar opções de alteração de conta     | Mostrar        |
 |Tipo de conta de usuário     |  Padrão       |
-|Permitir branco Glove OOBE     |  Sim       |
-|Aplicar modelo de nome do dispositivo     | Sim        |
-|Insira um nome     | MMD-% RAND: 11%        |
+|Permitir OOBE de White Glove     |  Sim       |
+|Aplicar modelo de nome de dispositivo     | Sim        |
+|Insira um nome     | MMD-%RAND:11%        |
 
 > [!NOTE]
-> Embora o provisionamento "White Glove" seja habilitado apenas para clientes com ESP ativado, ele não tem suporte no momento na área de trabalho gerenciada da Microsoft.
+> Embora o provisionamento "ajuda branca" só seja habilitado para clientes com ESP ativado, ele não tem suporte no momento na Área de Trabalho Gerenciada da Microsoft.
 
-## <a name="enrollment-status-page-settings"></a>Configurações da página de status do registro
+## <a name="enrollment-status-page-settings"></a>Configurações da Página de Status do Registro
 
-O Microsoft Managed desktop usa estas configurações para a experiência de página de status de registro:
+A Área de Trabalho Gerenciada da Microsoft usa estas configurações para a experiência da Página de Status do Registro:
 
 
 |Setting  |Valor  |
 |---------|---------|
-|Mostrar progresso da configuração de aplicativo e perfil     | Sim        |
-|Mostrar um erro quando a instalação levar mais tempo do que o número especificado de minutos     |  60       |
-|Mostrar mensagem personalizada quando ocorre um erro de limite de tempo     |  Sim       |
-|Mensagem de erro     | Sim, está demorando um pouco mais para configurar seu dispositivo do que o esperado. Clique abaixo para começar e terminaremos a configuração em segundo plano        |
+|Mostrar progresso da configuração do aplicativo e do perfil     | Sim        |
+|Mostrar um erro quando a instalação demorar mais do que o número especificado de minutos     |  60       |
+|Mostrar mensagem personalizada quando ocorrer um erro de limite de tempo     |  Sim       |
+|Mensagem de erro     | Sim, está demorando um pouco mais para configurar seu dispositivo do que o esperado. Clique abaixo para começar e concluiremos a configuração em segundo plano        |
 |Permitir que os usuários coletem logs sobre erros de instalação     |  Sim       |
-|Mostrar apenas a página para dispositivos configurados por experiência inicial (OOBE)     | Sim        |
-|Bloquear o uso do dispositivo até que todos os aplicativos e perfis sejam instalados     |  Sim       |
-|Permitir que os usuários redefinam o dispositivo se ocorrer erro de instalação     |  Sim       |
-|Permitir que os usuários usem dispositivo se ocorrer erro de instalação     |  Sim       |
-|Bloquear o uso do dispositivo até que estes aplicativos necessários sejam instalados se forem atribuídos ao usuário/dispositivo     |  Correção de tempo de trabalho moderna       |
+|Mostrar somente a página para dispositivos provisionados pela experiência inicial pelo usuário (OOBE)     | Sim        |
+|Bloquear o uso de dispositivos até que todos os aplicativos e perfis sejam instalados     |  Sim       |
+|Permitir que os usuários redefinir o dispositivo se ocorrer um erro de instalação     |  Sim       |
+|Permitir que os usuários usem o dispositivo se ocorrer um erro de instalação     |  Sim       |
+|Bloquear o uso de dispositivos até que esses aplicativos necessários sejam instalados se eles são atribuídos ao usuário/dispositivo     |  Modern Workplace - Correção de Tempo       |
 
 
 
-A experiência da página de status do registro ocorre em três fases. Para saber mais, confira [informações de acompanhamento de página de status de registro](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status#enrollment-status-page-tracking-information).
+A experiência da Página de Status do Registro ocorre em três fases. Para obter mais informações, [consulte Informações de controle da página de status do registro.](https://docs.microsoft.com/mem/intune/enrollment/windows-enrollment-status#enrollment-status-page-tracking-information)
 
-A experiência continua da seguinte maneira:
+A experiência continua da seguinte forma:
 
-1. A experiência do AutoPilot começa e o usuário insere suas credenciais.
-2. O dispositivo abre a página de status do registro e prossegue pelas fases de preparação do dispositivo e configuração do dispositivo. A terceira etapa (configuração da conta) é *ignorada no momento* na configuração da área de trabalho gerenciada da Microsoft porque o ESP do usuário está desabilitado. O dispositivo é reiniciado.
-3. Após a reinicialização, o dispositivo abre a página de entrada do Windows com **outro usuário**.
-4. Os usuários inserem suas credenciais novamente e a área de trabalho é aberta.
+1. A experiência do Autopilot é iniciada e o usuário ins dá as credenciais.
+2. O dispositivo abre a Página de Status do Registro e passa pelas fases de Preparação do Dispositivo e Configuração do Dispositivo. A terceira etapa (Configuração da *Conta)* atualmente é ignorada na configuração da Área de Trabalho Gerenciada da Microsoft porque o ESP do usuário está desabilitado. O dispositivo é reiniciado.
+3. Após a reinicialização, o dispositivo abre a página de entrada do Windows com **Outro usuário.**
+4. Os usuários insuem suas credenciais novamente e a área de trabalho é aberta.
 
 > [!NOTE]
-> Os aplicativos Win32 são implantados somente durante o ESP se a versão do Windows 10 for 1903 ou posterior.
+> Os aplicativos Win32 só são implantados durante ESP se a versão do Windows 10 for 1903 ou posterior.
 
-![Página inicial da configuração do AutoPilot mostrando as fases "preparação do dispositivo" e "instalação do dispositivo".](../../media/mmd-autopilot-screenshot.png)
+![Página inicial da configuração do Autopilot mostrando as fases de "preparação do dispositivo" e "configuração do dispositivo".](../../media/mmd-autopilot-screenshot.png)
 
-## <a name="white-glove-provisioning"></a>Provisionamento de Glove branco
+## <a name="white-glove-provisioning"></a>Provisionamento de mão branca
 
-A área de trabalho gerenciada da Microsoft não suporta atualmente o recurso "White Glove" do Windows AutoPilot.
+No momento, a Área de Trabalho Gerenciada da Microsoft não dá suporte ao recurso "ajuda branca" do Windows Autopilot.
 
-## <a name="change-to-autopilot-and-enrollment-status-page-settings"></a>Alterar as configurações de página de status do AutoPilot e do registro
+## <a name="change-to-autopilot-and-enrollment-status-page-settings"></a>Alterar para as configurações do Autopilot e da Página de Status do Registro
 
-Se a configuração usada pelo Microsoft Managed desktop não corresponder exatamente às suas necessidades, você poderá arquivar um tíquete de suporte através do [portal de administração](https://portal.azure.com/). Estes são alguns exemplos dos tipos de configuração que podem ser necessários:
+Se a configuração usada pela Área de Trabalho Gerenciada da Microsoft não corresponder exatamente às suas necessidades, você poderá registrar um tíquete de suporte por meio do [Portal de Administração.](https://portal.azure.com/) Aqui estão alguns exemplos dos tipos de configuração que podem ser necessários:
 
-### <a name="autopilot-settings-change"></a>Alteração das configurações do AutoPilot
+### <a name="autopilot-settings-change"></a>Alteração das configurações do Autopilot
 
-Você pode querer solicitar um modelo de nome de dispositivo diferente. No entanto, você não pode alterar o modo de implantação, ingressar no Azure AD como, configurações de privacidade ou tipo de conta de usuário.
+Talvez você queira solicitar um modelo de nome de dispositivo diferente. No entanto, você não pode alterar o modo de implantação, ingressar no Azure AD como, configurações de privacidade ou tipo de conta de usuário.
 
-### <a name="enrollment-status-page-settings-change"></a>Alteração das configurações da página de status do registro
+### <a name="enrollment-status-page-settings-change"></a>Alteração das configurações da Página de Status do Registro
 
-- Um número maior de minutos para a configuração "mostrar um erro quando a instalação demorar mais do que o número especificado de minutos".
+- Um número maior de minutos para a configuração "Mostrar um erro quando a instalação demorar mais do que o número especificado de minutos".
 - A mensagem de erro exibida
-- Adição ou remoção de aplicativos na configuração "bloquear o uso do dispositivo até que estes aplicativos necessários sejam instalados, se forem atribuídos ao usuário/dispositivo".
+- Adicionar ou remover aplicativos na configuração "Bloquear uso do dispositivo até que esses aplicativos necessários sejam instalados se eles são atribuídos ao usuário/dispositivo".
 
 ## <a name="required-applications"></a>Aplicativos necessários
 
-- Você deve direcionar aplicativos nos grupos de *dispositivos* de área de trabalho moderna Test, First, Fast e amplo. Os aplicativos devem ser instalados no contexto "sistema". Certifique-se de concluir o teste com o ESP no grupo de teste antes de atribuí-los a todos os grupos.
-- Nenhum aplicativo deve exigir que o dispositivo seja reiniciado. Recomendamos que os aplicativos sejam configurados como "não fazer nada" quando você criar o pacote de aplicativos, caso eles exijam uma reinicialização.
-- Limitar os aplicativos necessários apenas aos aplicativos principais que um usuário precisa imediatamente ao entrar no dispositivo.
-- Mantenha o tamanho total de todos os aplicativos coletivamente abaixo de 1 GB para evitar tempos limite durante a fase de instalação do aplicativo.
-- O ideal é que os aplicativos não devam ter dependências. Se você tiver aplicativos que *precisam* ter dependências, configure, teste e valide-os como parte da sua avaliação de ESP.
-- Nenhum aplicativo que exija o contexto "usuário" (por exemplo, o Teams) pode ser incluído na visualização pública do ESP.
+- Você deve direcionar aplicativos nos grupos de dispositivos *Test,* First, Fast e Broad do Modern Workplace. Os aplicativos devem ser instalados no contexto "Sistema". Certifique-se de concluir o teste com ESP no grupo teste antes de atribuí-los a todos os grupos.
+- Nenhum aplicativo deve exigir que o dispositivo seja reiniciado. Recomendamos que os aplicativos sejam definidos como "Não fazer nada" ao criar o pacote de aplicativos se eles exigirem uma reinicialização.
+- Limite os aplicativos necessários apenas aos principais aplicativos de que um usuário precisa imediatamente ao entrar no dispositivo.
+- Mantenha o tamanho total de todos os aplicativos coletivamente abaixo de 1 GB para evitar tempos tempos máximos durante a fase de instalação do aplicativo.
+- Idealmente, os aplicativos não devem ter nenhuma dependência. Se você tiver aplicativos que *devem* ter dependências, configure, teste e valide-os como parte de sua avaliação esp.
+- Nenhum aplicativo que exige o contexto "usuário" (por exemplo, o Teams) pode ser incluído na visualização pública do ESP.

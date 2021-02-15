@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
-description: Saiba como gerenciar os grupos do Microsoft 365, incluindo a adição de adicionar ou remover membros do grupo, editar o endereço de email, o nome do grupo ou a descrição e personalizar como o grupo funciona.
+description: Aprenda a gerenciar grupos do Microsoft 365, incluindo a adição de remover membros do grupo, a edição do endereço de email, o nome do grupo ou a descrição e a personalização de como o grupo funciona.
 ms.openlocfilehash: 8216b80ba6cd6bffe470f4fe4ace43307afba5f2
 ms.sourcegitcommit: 3cdb670f10519f7af4015731e7910954ba9f70dc
 ms.translationtype: MT
@@ -28,61 +28,61 @@ ms.locfileid: "48753296"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Gerenciar um grupo no centro de administração do Microsoft 365
 
-Depois de [criar um grupo do Microsoft 365](create-groups.md) e adicionar membros de grupo, você pode configurar seu grupo. Você pode editar o nome ou a descrição do grupo, gerenciar proprietários ou membros e especificar se os remetentes externos podem enviar emails para o grupo e se deseja enviar cópias de conversas de grupo para membros.
+Depois de criar [um grupo do Microsoft 365](create-groups.md) e adicionar membros do grupo, você poderá configurar o grupo. Você pode editar o nome ou a descrição do grupo, gerenciar proprietários ou membros e especificar se os usuários externos podem enviar emails para o grupo e se devem enviar cópias de conversas do grupo para os membros.
 
-Vá para o centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com) .
+Vá para o Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://admin.microsoft.com) .
 
 ## <a name="edit-the-group-name-or-description"></a>Editar o nome ou a descrição do grupo
 
-1. No centro de administração, expanda **grupos**e clique em **grupos**.
+1. No centro de administração, **expanda Grupos** e clique em **Grupos.**
 
-2. Selecione o grupo que você deseja editar e clique em **Editar nome e descrição**.
+2. Selecione o grupo que você deseja editar e clique em **Editar nome e descrição.**
 
-3. Atualize o nome e a descrição e, em seguida, selecione **salvar**.
+3. Atualize o nome e a descrição e selecione **Salvar.**
 
 ## <a name="manage-group-owners-and-members"></a>Gerenciar proprietários e membros do grupo
 
-1. No centro de administração, expanda **grupos**e clique em **grupos**.
+1. No centro de administração, **expanda Grupos** e clique em **Grupos.**
 
 2. Clique no nome do grupo que você deseja gerenciar para abrir o painel de configurações.
 
-3. Na guia **Membros** , escolha se você deseja gerenciar proprietários ou membros.
+3. Na guia **Membros,** escolha se deseja gerenciar proprietários ou membros.
 
-4. Escolha **Adicionar** para adicionar alguém ou clique em **X** para remover alguém.
+4. Escolha **Adicionar** para adicionar alguém ou clique **em X** para remover alguém.
 
 5. Clique em **Fechar**.
 
-## <a name="send-copies-of-conversations-to-group-members-inboxes"></a>Enviar cópias de conversas para caixas de entrada de membros do grupo
+## <a name="send-copies-of-conversations-to-group-members-inboxes"></a>Enviar cópias de conversas para as caixas de entrada dos membros do grupo
   
-Quando você usa o centro de administração para criar um grupo, por padrão, os usuários não recebem cópias de emails de grupo e convites de reunião enviados para suas caixas de entrada. Eles precisarão acessar o grupo para ver as conversas e reuniões. Você pode alterar essa configuração no centro de administração.
+Quando você usa o centro de administração para criar um grupo, por padrão, os usuários não receberão cópias de emails do grupo e convites de reunião enviados para suas caixas de entrada. Eles precisarão ir para o grupo para ver conversas e reuniões. Você pode alterar essa configuração no centro de administração.
 
-Quando você ativar essa configuração, os membros do grupo receberão uma cópia dos emails de grupo e convites de reunião enviados para a caixa de entrada do Outlook. Eles podem ler e excluir essa cópia do email e não afetar mais ninguém. Na caixa de entrada do Grupo, uma cópia do email ainda existe.
+Quando você ativar essa configuração, os membros do grupo receberão uma cópia dos emails do grupo e convites de reunião enviados para a caixa de entrada do Outlook. Eles podem ler e excluir essa cópia do email e não afetar mais ninguém. Na caixa de entrada do Grupo, uma cópia do email ainda existe.
 
-Os membros do grupo podem optar por receber esses emails escolhendo parar de seguir o grupo no Outlook.
+Os membros do grupo podem optar por não receber esses emails, optando por parar de seguir o grupo no Outlook.
 
-1. No centro de administração, expanda **grupos**e clique em **grupos**.
+1. No centro de administração, **expanda Grupos** e clique em **Grupos.**
 
 2. Clique no nome do grupo que você deseja gerenciar para abrir o painel de configurações.
 
-3. Na guia **configurações** , selecione **enviar cópias de conversas de grupo e eventos para agrupar Membros** se você quiser que os Membros recebam cópias de mensagens de grupo e itens de calendário em sua própria caixa de entrada.
+3. Na guia **Configurações,** selecione Enviar cópias de conversas em grupo e eventos para membros do grupo se quiser que os membros recebam cópias de mensagens de grupo e itens de calendário em sua própria caixa de entrada. 
 
 4. Selecione **Salvar**.
 
 ## <a name="let-people-outside-the-organization-email-the-group"></a>Permitir que pessoas de fora da organização enviem email para o grupo
 
-Essa opção é ótima se você deseja ter um endereço de email da empresa, como o info@contoso.com.
+Essa opção é ótima se você quiser ter um endereço de email da empresa como info@contoso.com.
  
-1. No centro de administração, expanda **grupos**e clique em **grupos**.
+1. No centro de administração, **expanda Grupos** e clique em **Grupos.**
 
 2. Clique no nome do grupo que você deseja gerenciar para abrir o painel de configurações.
 
-3. Na lista grupos do centro de administração, selecione o nome do grupo que você deseja alterar e, na guia **configurações** , selecione **permitir que remetentes externos enviem esse grupo por email**.
+3. Na lista de grupos do centro de administração, selecione o nome do grupo que você deseja alterar e, na guia Configurações, selecione Permitir que os **envios externos** enviem um **email para esse grupo.**
     
 4. Selecione **Salvar**.
 
 ## <a name="permanently-delete-a-microsoft-365-group"></a>Excluir permanentemente um grupo do Microsoft 365
 
-Às vezes, você pode querer limpar permanentemente um grupo sem esperar que o período de exclusão reversível de 30 dias expire. Para fazer isso, inicie o PowerShell e execute este comando para obter a ID de objeto do grupo:
+Às vezes, você pode querer limpar permanentemente um grupo sem esperar o período de exclusão suave de 30 dias expirar. Para fazer isso, inicie o PowerShell e execute este comando para obter a ID de objeto do grupo:
  
  ```powershell
 `Get-AzureADMSDeletedGroup`
@@ -107,10 +107,10 @@ Para confirmar que o grupo foi limpo, execute o cmdlet  *Get-AzureADMSDeletedGro
 
 [Gerenciar o acesso de convidados aos grupos do Microsoft 365](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
-[Escolha o domínio a ser usado ao criar grupos do Microsoft 365](../../solutions/choose-domain-to-create-groups.md)
+[Escolher o domínio a ser usado ao criar grupos do Microsoft 365](../../solutions/choose-domain-to-create-groups.md)
 
 [Permitir que os membros enviem como ou enviem em nome de um grupo do Microsoft 365](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
 [Atualizar listas de distribuição para grupos do Microsoft 365](../manage/upgrade-distribution-lists.md)
 
-[Gerenciar os grupos do Microsoft 365 com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
+[Gerenciar grupos do Microsoft 365 com o PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell)
