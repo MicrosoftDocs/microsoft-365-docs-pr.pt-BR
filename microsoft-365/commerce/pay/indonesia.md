@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: a17accaebc4dd64ad6baf0542382d70f67ff5ab2
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -24,12 +24,12 @@ ms.locfileid: "48647202"
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md). 
 
-Pague apenas em IDR e os números de fatura de referência na remessa de pagamento.
+Pagar somente IDR e os números de fatura de referência em sua remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank, Indonésia  
-**Ramificação:** Jacarta  
-**Código Swift:** CITIIDJX  
+**Bank:** Citibank, Indonésia  
+**Branch:** Jakarta  
+**Código SWIFT:** CITIIDJX  
 **Número da conta:** 104468055  
 **Nome da conta:** PT Microsoft Indonésia  

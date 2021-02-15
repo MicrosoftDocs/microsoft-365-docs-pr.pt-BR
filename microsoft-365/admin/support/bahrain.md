@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Bahrein, Unido da
+title: Informações de suporte para Bahrein, Reino do
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644094"
 ---
-# <a name="contact-support-for-bahrain-kingdom-of"></a>Contatar o suporte para Bahrein, Unido de
+# <a name="contact-support-for-bahrain-kingdom-of"></a>Contatar o suporte para Bahrein, Reino dos
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,12 +30,12 @@ ms.locfileid: "48644094"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: Sun-Thu 10 AM-6 PM
+Árabe: Sun-Thu das 10:00 às 18:00
 
-Inglês: Mon-Fri 10 PM
+Inglês: Mon-Fri das 10:00 às 18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: Sun-Thu 10 AM-6 PM
+Árabe: Sun-Thu das 10:00 às 18:00
 
 Inglês: 24 horas por dia, 7 dias por semana

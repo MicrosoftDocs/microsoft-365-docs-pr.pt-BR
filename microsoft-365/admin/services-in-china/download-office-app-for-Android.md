@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - GEU150
 - GEA150
-description: Saiba mais sobre o aplicativo Microsoft Office para Android para Office 365 operado pela 21Vianet e como baixá-lo para clientes da China.
+description: Saiba mais sobre o aplicativo Microsoft Office para Android para Office 365 operado pela 21Vianet e como baixá-lo para clientes na China.
 monikerRange: o365-21vianet
 ms.openlocfilehash: 6cabe2e9769f7cebf9d128f78773f8014fd004e2
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -29,36 +29,36 @@ ms.locfileid: "48644802"
 ---
 # <a name="office-app-for-android-for-office-365-operated-by-21vianet"></a>Aplicativo do Office para Android para Office 365 operado pela 21Vianet
 
-O aplicativo Microsoft Office para Android combina aplicativos móveis do Word, Excel e PowerPoint em um único aplicativo disponível para download para telefones Android. Com o aplicativo do Office para Android, você pode se conectar ao Office 365 exatamente como faria com os aplicativos do Word, Excel e PowerPoint Mobile. O download do aplicativo do Office para Android não afetará nenhuma instalação existente do Word, Excel e PowerPoint.
+O aplicativo do Microsoft Office para Android combina aplicativos móveis do Word, Excel e PowerPoint em um único aplicativo disponível para download para telefones Android. Com o aplicativo do Office para Android, você pode se conectar ao Office 365 da mesma forma que faria com os aplicativos móveis do Word, Excel e PowerPoint. O download do aplicativo do Office para Android não afetará as instalações existentes do Word, Excel e PowerPoint.
 
-Alguns aplicativos do Office para recursos Android não estão disponíveis para o Office 365 operado por clientes da 21Vianet:
+Alguns recursos do aplicativo do Office para Android não estão disponíveis para clientes do Office 365 operados pela 21Vianet:
 
 - Imagem em texto e imagem em tabela 
-- Convertendo fotos em documentos do Word de lentes 
-- Ação de transferência de arquivos 
+- Converter fotos em documentos do Word do Lens 
+- Ação de transferir arquivos 
 - As anotações permanecem locais e não são sincronizadas com o servidor
-- Visualização de link dentro da verificação QR
-- Cartões persona do Live na seção mim
-- Classificação, rotulação e proteção (CLP)
+- Visualização de link em QR de verificação
+- Cartões persona ao vivo na seção Eu
+- Classificação, rotulagem e proteção (CLP)
 
 
 ## <a name="download-the-office-app-for-android"></a>Baixar o aplicativo do Office para Android
 
-Baixe o aplicativo do Office para telefones Android de qualquer um destes repositórios da China:
+Baixe o aplicativo do Office para telefones Android em qualquer uma dessas lojas da China:
 - [Baidu](https://shouji.baidu.com/software/26842919.html)
-- [Xiaomi](http://app.mi.com/details?id=com.microsoft.office.officehub&ref=search)
+- [Rda](http://app.mi.com/details?id=com.microsoft.office.officehub&ref=search)
 - [Huawei](https://appstore.huawei.com/app/C10888510)
 - [Lenovo](https://www.lenovomm.com/appdetail/com.microsoft.office.officehub/43003745)
 - [360](http://zhushou.360.cn/detail/index/soft_id/708682?recrefer=SE_D_office%20mobile)
 - [tencent](https://sj.qq.com/myapp/detail.htm?apkName=com.microsoft.office.officehub)
-- [wandoujia](https://www.wandoujia.com/apps/1502895)
+- [bedoujia](https://www.wandoujia.com/apps/1502895)
 
 > [!NOTE]
-> O aplicativo do Office para Android está disponível somente para telefones no momento. O suporte para tablets será adicionado posteriormente. 
+> O aplicativo do Office para Android está disponível apenas para telefones. O suporte para tablets será adicionado posteriormente. 
 
 
 ## <a name="security-considerations"></a>Considerações de segurança
 
-Se sua organização envia aplicativos para dispositivos móveis de funcionários, sugerimos substituir os aplicativos Word, Excel e PowerPoint pelo aplicativo Office para Android.  
+Se sua organização leva aplicativos para dispositivos móveis de funcionários, sugerimos substituir os aplicativos word, Excel e PowerPoint pelo aplicativo do Office para Android.  
 
 

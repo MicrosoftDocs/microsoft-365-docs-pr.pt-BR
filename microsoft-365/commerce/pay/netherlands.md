@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para países baixos
+title: Informações de pagamento para Países Baixos
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: f8fbe40237e4ec9eec7eaf242b98df9f677b08cf
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,17 +20,17 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48649050"
 ---
-# <a name="payment-information-for-netherlands"></a>Informações de pagamento para países baixos
+# <a name="payment-information-for-netherlands"></a>Informações de pagamento para Países Baixos
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pague apenas EUR e números de fatura de referência em sua remessa de pagamento.
+Pagar apenas em EUR e fazer referência a números de fatura em sua remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank, Londres  
-**Código Swift/BIC:** CITIGB2L  
+**Bank:** Citibank, Londres  
+**Código/BIC SWIFT:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
-**Código de classificação:** 185008  
+**Código SORT:** 185008  
 **Número da conta:** 12207591  
-**Nome da conta:** O
+**Nome da conta:** MICROSOFT

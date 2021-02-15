@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: ded6bbd9603f1faab9c1ca6339e9cbeea50e6ed1
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -24,12 +24,12 @@ ms.locfileid: "48648270"
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Faça o pagamento em Tente apenas e o número de faturas de referência na remessa de pagamento.
+Please pay in TRY only and reference invoice number(s) on your payment remittance.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank A.S., Istambul  
-**Código Swift:** CITITRIX  
-**IBAN:** TR420009200000000092407039  
+**Bank:** Citibank A.S., Turquia  
+**Código SWIFT:** CITITRIX  
+**IBAN:** TR42000920000000092407039  
 **Número da conta:** 92407039  
 **Nome da conta:** Pagamentos da Microsoft  

@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
-description: 'Saiba mais sobre o centro de administração do Microsoft 365: como entrar, quem é seu administrador e assista a uma introdução de vídeo sobre ele.'
+description: 'Saiba mais sobre o Centro de administração do Microsoft 365: como entrar, quem é seu administrador e assistir a uma introdução em vídeo sobre ele.'
 ms.openlocfilehash: 6db1ea88d9a9aeb003f16c746a8fe0a5b4d87a42
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.locfileid: "48646590"
 # <a name="admin-center-overview"></a>Visão geral do Centro de administração 
 
   
-Quando você compra um plano [de aplicativos do microsoft 365 para empresas](https://go.microsoft.com/fwlink/?linkid=856886) ou um [plano do Microsoft 365 para empresas](https://www.microsoft.com/microsoft-365/business), fornecemos uma conta especial com permissões de administrador. Essa conta é chamada de conta de administrador.
+Quando você compra um [plano do Microsoft 365 Apps para](https://go.microsoft.com/fwlink/?linkid=856886) empresas ou um plano do Microsoft [365](https://www.microsoft.com/microsoft-365/business)para empresas, damos uma conta especial com permissões de administrador. Essa conta é chamada de conta de administrador.
   
-Com essa conta, você pode acessar o centro de administração do Microsoft 365 para gerenciar sua empresa: adicionar usuários, gerenciar sua assinatura, redefinir senhas e muito mais. Experimente!
+Com essa conta, você pode acessar o Centro de administração do Microsoft 365 para gerenciar sua empresa: adicionar usuários, gerenciar sua assinatura, redefinir senhas e muito mais. Experimente!
   
 ::: moniker range="o365-worldwide"
 
@@ -42,7 +42,7 @@ Com essa conta, você pode acessar o centro de administração do Microsoft 365 
 
 ::: moniker range="o365-germany"
 
-**Entre com sua conta de administrador no Office 365 Alemanha em <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a> .**
+**Entre com sua conta de administrador no Office 365 Germany em <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a> .**
 
 ::: moniker-end
 
@@ -52,7 +52,7 @@ Com essa conta, você pode acessar o centro de administração do Microsoft 365 
 
 ::: moniker-end
 
-Se você receber a mensagem "**você não tem permissão para acessar esta página ou executar esta ação**", você não é um administrador.
+Se receber a mensagem **"Você não tem** permissão para acessar esta página ou executar esta ação", você não é um administrador.
 <br><br>    
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/3a4e19ee-1a2a-473f-8995-06de0052c169?autoplay=false]
   
@@ -67,6 +67,6 @@ Ao procurar seu administrador para redefinir sua senha, excluir uma conta ou exe
     
 - **Empresas pequenas**: entre em contato com o proprietário/coproprietário da empresa. Geralmente, eles concedem permissões de administrador ao consultor de TI que faz toda a manutenção dos computadores da empresa. 
     
-Por padrão, a pessoa que se inscreve e compra uma assinatura do Microsoft 365 for Business recebe permissões de administrador. Essa pessoa pode atribuir permissões de administrador a outras pessoas para ajudá-los a gerenciar o Microsoft 365 para sua organização.
+Por padrão, a pessoa que se ins inscrito e compra uma assinatura do Microsoft 365 para empresas recebe permissões de administrador. Essa pessoa pode atribuir permissões de administrador a outras pessoas para ajudá-la a gerenciar o Microsoft 365 para sua organização.
   
-Se você não tem idéia de quem entrar em contato em seu trabalho ou escola para obter ajuda, tente perguntar à pessoa que deu sua conta de usuário e senha.
+Se você não tiver ideia de quem contatar em seu trabalho ou escola para pedir ajuda, tente pedir ajuda à pessoa que lhe deu sua conta de usuário e senha.

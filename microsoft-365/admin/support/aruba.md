@@ -25,17 +25,17 @@ ms.locfileid: "48644166"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5146
++1 312 843 5146
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Holandês: Mon-Fri 4 AM-Noon
+Holandês: Mon-Fri 4 da manhã
 
-Inglês: Mon-Fri 4 AM-Noon
+Inglês: Mon-Fri às 4:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

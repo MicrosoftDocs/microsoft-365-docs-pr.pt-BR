@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: e7619287e6bd98236f5b513ccbdb6e6b30777af6
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -24,15 +24,15 @@ ms.locfileid: "48646878"
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pague somente em RUB e números de fatura de referência na remessa de pagamento.
+Pagar somente RUB e fazer referência a números de fatura em sua remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** ZAO KB Citibank em Moscou  
-**Código Swift:** CITIRUMX  
-**Bik:** 044525202  
-**Na:** 7731420476  
+**Bank:** ZAO KB Citibank em Washington  
+**Código SWIFT:** CITIRUMX  
+**BIK:** 044525202  
+**INN:** 7731420476  
 **KPP:** 773101001  
 **Número da conta:** 40702810000702700004  
-**Conta correspondente:** 30101810300000000202 no Moskovsky GTU Bank of Rússia  
-**Nome da conta:** Microsoft Payments Rússia LLC
+**Conta correspondente:** 30101810300000000202 no OPERU Mosk gtU Bank of Rússia  
+**Nome da conta:** LlC da Rússia de Pagamentos da Microsoft

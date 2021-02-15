@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644118"
 ---
-# <a name="contact-support-for-austria"></a>Contatar o suporte para a Áustria
+# <a name="contact-support-for-austria"></a>Contatar o suporte da Áustria
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,16 +30,16 @@ ms.locfileid: "48644118"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Alemão: Mon-Fri 9 AM-5 PM
+Alemão: Mon-Fri das 9h às 17h
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Alemão: Mon-Fri 8 PM
+Alemão: Mon-Fri das 8h às 21h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 01 206 09 15 78
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

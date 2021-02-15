@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para catar
+title: Informações de pagamento para Catar
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 81ab5d3d40fd3419a683f02f2ec53e07471afaf4
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48646914"
 ---
-# <a name="payment-information-for-qatar"></a>Informações de pagamento para catar
+# <a name="payment-information-for-qatar"></a>Informações de pagamento para Catar
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pague apenas USD e números de fatura de referência em sua remessa de fatura.
+Pagar apenas em USD e fazer referência aos números da fatura na remessa da fatura.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank, Londres  
-**Código Swift:** CITIGB2L  
+**Bank:** Citibank, Londres  
+**Código SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Número da conta:** 12510049  
-**Nome da conta:** O  
+**Nome da conta:** MICROSOFT  

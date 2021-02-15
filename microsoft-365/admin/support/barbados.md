@@ -30,7 +30,7 @@ ms.locfileid: "48643938"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

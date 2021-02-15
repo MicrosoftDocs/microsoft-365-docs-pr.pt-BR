@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento de Israel
+title: Informações de pagamento para Israel
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 0d923c31b41ab42687f865f389beec31ad3bd348
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -20,16 +20,16 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48647154"
 ---
-# <a name="payment-information-for-israel"></a>Informações de pagamento de Israel
+# <a name="payment-information-for-israel"></a>Informações de pagamento para Israel
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pague apenas USD e números de fatura de referência em sua remessa de pagamento.
+Pagar apenas em USD e fazer referência aos números de fatura em sua remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank, Londres  
-**Código Swift:** CITIGB2L  
+**Bank:** Citibank, Londres  
+**Código SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Número da conta:** 12510049  
-**Nome da conta:** O  
+**Nome da conta:** MICROSOFT  

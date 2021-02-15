@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: ee59c03eedcbe214be96457d18b96a53819818d6
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -24,13 +24,13 @@ ms.locfileid: "48649259"
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pague somente no México pesos. Para que o pagamento seja processado, o nome da empresa e o número da fatura (s) devem ser fornecidos no pagamento da remessa.
+Por favor, paga somente em Pesos de Pesos Desem pesos. Para que o pagamento seja processado, o nome da empresa e o número da fatura devem ser fornecidos no pagamento de remessa.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank/Banamex  
-**Ramificação:** Act. Roberto Medellin 800, P.B. Sur, Col. Santa Fe, cidade do México C.P. 01210, México  
-**Código Swift:** BNMXMM  
+**Bank:** Citibank/Banamex  
+**Branch:** Act. Roberto Megostoin 800, P.B. Sur,Col. Santa Fe, Cidade do México C.P. 01210, México  
+**Código SWIFT:** BNMXMM  
 **CLABE** 002180002337160225  
 **Número da conta:** 0233716022  
 **Nome da conta:** Microsoft Payments Inc.

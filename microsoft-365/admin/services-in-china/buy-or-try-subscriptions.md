@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - GEA150
 ms.assetid: f9877a28-1434-4108-9e92-f29ef8ee5591
-description: Saiba como experimentar uma assinatura do Office 365 ou comprá-la imediatamente, adicionar assinaturas ou obter Complementos para uma conta existente do Office 365 operada pela 21Vianet na China.
+description: Saiba como experimentar uma assinatura do Office 365 ou comprá-la imediatamente, adicionar assinaturas ou obter complementos para uma conta existente do Office 365 operado pela 21Vianet na China.
 monikerRange: o365-21vianet
 ms.openlocfilehash: b20233190b117b4b2562bc2e47774541e6e2d3f8
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -35,13 +35,13 @@ ms.locfileid: "48644826"
 
 ## <a name="buy-or-try-office-365"></a>Comprar ou experimentar o Office 365
 
-Você pode comprar uma assinatura imediatamente ou pode experimentar o Office 365 por até 30 dias. Se quiser, você pode comprar sua assinatura de avaliação e manter o domínio, os dados e a configuração que você configurou em sua avaliação.
+Você pode comprar uma assinatura imediatamente ou pode experimentar o Office 365 por até 30 dias. Se você quiser, poderá comprar sua assinatura de avaliação e manter o domínio, os dados e a configuração que você definiu em sua avaliação.
 
-1. Vá para [comparar os planos do Office 365 para empresas](https://go.microsoft.com/fwlink/p/?linkid=393691&amp;clcid=0x409) e selecione o nome do plano que você deseja comprar. Em seguida, selecione **comprar agora**.
+1. Vá para [Comparar planos do Office 365 para empresas](https://go.microsoft.com/fwlink/p/?linkid=393691&amp;clcid=0x409) e selecione o nome do plano que você deseja comprar. Em seguida, selecione **Comprar agora.**
 
-2. Crie uma conta preenchendo a página **apenas alguns detalhes** .
+2. Crie uma conta preenchendo a **página Apenas alguns** detalhes.
 
-3. Siga as instruções para configurar a avaliação de 30 dias ou para concluir a compra.
+3. Siga as instruções para configurar sua avaliação de 30 dias ou para concluir sua compra.
 
 ## <a name="buy-your-trial-subscription"></a>Comprar sua assinatura de avaliação
 
@@ -58,29 +58,29 @@ Você pode comprar uma assinatura imediatamente ou pode experimentar o Office 36
 4. Na página **Comprar assinaturas**, você verá os diferentes planos que podem ser adquiridos. O plano que você está experimentando é identificado pela faixa **Em Avaliação**.
 
     > [!IMPORTANT]
-    > Se você comprar um plano diferente de seu plano de avaliação, precisará reatribuir suas licenças do seu plano de avaliação ao novo plano (antes de o período de cortesia de 90 dias terminar após a expiração do plano de avaliação) para manter seus dados, contas e configurações. Caso contrário, você perderá seus dados, contas e configurações.
+    > Se você comprar um plano diferente do seu plano de avaliação, terá que reatribuir suas licenças do seu plano de avaliação para o novo plano (antes do fim do período de carência de 90 dias após o vencimento do seu plano de avaliação) para manter seus dados, contas e configuração. Caso contrário, você perderá seus dados, contas e configuração.
 
 5. Selecione a assinatura que deseja comprar e, em seguida, selecione **Comprar agora**.
 
-6. Siga as etapas para fazer o check-out.
+6. Siga as etapas para fazer check-out.
 
-## <a name="add-subscriptions-or-add-ons-to-an-existing-office-365-account"></a>Adicionar assinaturas ou Complementos a uma conta existente do Office 365
+## <a name="add-subscriptions-or-add-ons-to-an-existing-office-365-account"></a>Adicionar assinaturas ou complementos a uma conta existente do Office 365
 
-1. No [centro de administração](https://go.microsoft.com/fwlink/p/?linkid=850627), vá para a **Billing** \> página **serviços de compra** de cobrança.
+1. No centro [de administração,](https://go.microsoft.com/fwlink/p/?linkid=850627)vá para a página **De** compra \> **de** cobrança.
 
-2. Selecione os serviços que você gostaria de comprar, selecione **comprar**e, em seguida, selecione **fazer check-out agora**.
+2. Selecione o(s) serviço(s) que você gostaria de comprar, selecione **Comprar** e, em seguida, selecione **Check-out agora.**
 
 3. Siga as instruções para concluir a compra.
 
 ## <a name="payment-options"></a>Opções de pagamento
 
-Você pode pagar sua assinatura por:
+Você pode pagar por sua assinatura:
 
 - Fatura
 
 - Pagamento online usando Alipay ou China UnionPay
 
-A prova de pagamento será fornecida na forma de Fapiaos. Você pode enviar sua solicitação de Fapiao para o nosso [sistema do Fapiao](https://go.microsoft.com/fwlink/p/?LinkId=395314) cerca de três (3) dias após o pagamento. Para obter mais informações, consulte [Apply for a Fapiao for Office 365 operated by 21vianet](apply-for-a-fapiao.md).
+A prova de pagamento será fornecida na forma de Fapiaos. Você pode enviar sua solicitação fapiao para nosso sistema [Fapiao](https://go.microsoft.com/fwlink/p/?LinkId=395314) cerca de três (3) dias após o pagamento. Para saber mais, confira [Aplicar um Fapiao para Office 365 operado pela 21Vianet.](apply-for-a-fapiao.md)
 
 > [!NOTE]
 >  Cartões de crédito internacionais não são aceitos.

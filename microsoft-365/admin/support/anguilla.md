@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Anguilla
+title: Informações de suporte para Anguila
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644322"
 ---
-# <a name="contact-support-for-anguilla"></a>Entrar em contato com o suporte do Anguilla
+# <a name="contact-support-for-anguilla"></a>Contatar o suporte para Anguila
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5145
++1 312 843 5145
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

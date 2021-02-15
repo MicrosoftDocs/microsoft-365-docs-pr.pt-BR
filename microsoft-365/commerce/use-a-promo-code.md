@@ -1,5 +1,5 @@
 ---
-title: Use seu código promocional para reduzir o preço
+title: Usar seu código promocional para reduzir o preço
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -31,21 +31,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48646734"
 ---
-# <a name="use-your-promo-code-to-reduce-price"></a>Use seu código promocional para reduzir o preço
+# <a name="use-your-promo-code-to-reduce-price"></a>Usar seu código promocional para reduzir o preço
 
-Ao comprar uma assinatura, você pode usar um código promocional para reduzir o preço. Leia este artigo para saber como aplicar um código promocional à sua assinatura, para saber mais sobre os [termos do código promocional](#promo-code-terms)e para [solucionar problemas de códigos promocionais](#troubleshooting-promo-codes).
+Ao comprar uma assinatura, você pode usar um código promocional para reduzir o preço. Leia este artigo para saber como aplicar um código promocional à sua assinatura, para saber mais sobre os termos do código [promocional](#promo-code-terms)e solucionar problemas [de códigos promocionais.](#troubleshooting-promo-codes)
   
 ## <a name="apply-a-promo-code-to-your-subscription"></a>Aplicar um código promocional à sua assinatura
 
-1. Comece sua compra comprando uma nova assinatura ou adicionando serviços a uma assinatura existente.
+1. Comece a compra comprando uma nova assinatura ou adicionando serviços a uma assinatura existente.
     
-2. Ao fazer check-out, escolha * * ter um código de promoção ou desconto? e, em seguida, insira seu código na caixa. 
+2. When you check out, choose **Have a promo or discount code?, and then enter your code in the box. 
   
-3. Selecione **aplicar código promocional**. Você deve ver a confirmação de que ela foi aplicada com êxito. Se você vir uma mensagem diferente, confira a página [Solução de problemas dos códigos promocionais](#troubleshooting-promo-codes) para descobrir a razão. 
+3. Selecione **Aplicar código promocional**. Você deverá ver a confirmação de que ela foi aplicada com êxito. Se você vir uma mensagem diferente, confira a página [Solução de problemas dos códigos promocionais](#troubleshooting-promo-codes) para descobrir a razão. 
     
-4. Continuar check-out. Na página confirmação da ordem, você verá o código de desconto incluído na quantidade. 
+4. Continue fazendo check-out. Na página de confirmação do pedido, você verá seu código de desconto incluído no valor. 
     
-A qualquer momento depois de concluir a compra, você poderá ver o desconto criado pelo seu código promocional na fatura. Para saber mais, confira [exibir seu](billing-and-payments/view-your-bill-or-invoice.md).
+A qualquer momento depois de concluir a compra, você poderá ver o desconto criado pelo seu código promocional na fatura. Para saber mais, consulte [Exibir seu](billing-and-payments/view-your-bill-or-invoice.md).
   
 ## <a name="promo-code-terms"></a>Termos de código promocional
 

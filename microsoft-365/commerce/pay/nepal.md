@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 0190eb9584d5b5e5bfaf66d58d8dfc154b9ed1a9
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -24,11 +24,11 @@ ms.locfileid: "48649074"
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pague apenas USD e números de fatura de referência em sua remessa de pagamento.
+Pagar apenas em USD e fazer referência aos números de fatura em sua remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank, Cingapura  
-**Código Swift:** CITISGSG  
+**Bank:** Citibank, Cingapura  
+**Código SWIFT:** CSITEGSG  
 **Número da conta:** 0-817543-138  
 **Nome da conta:** MICROSOFT REGIONAL SALES CORP  

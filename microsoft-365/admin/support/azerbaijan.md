@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Azerbaijão
+title: Informações de suporte para Azerbaijão
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48644106"
 ---
-# <a name="contact-support-for-azerbaijan"></a>Contatar o suporte para o Azerbaijão
+# <a name="contact-support-for-azerbaijan"></a>Contatar o suporte do Azerbaijão
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -29,19 +29,19 @@ ms.locfileid: "48644106"
 
 Selecione a opção 9
 
-Insira o código 7706
+Digite o código 7706
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Russo: Mon-Fri 10 de AM-7 PM Moscou
+Russo: Mon-Fri 10:00 às 19h00, Brasil
 
-Inglês: Mon-Fri 9 AM-5 P.M. Londres
+Inglês: Mon-Fri das 9h às 17h de Londres
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Russo: Mon-Fri 7 de manhã-8 P.M. Moscou
+Russo: Mon-Fri das 7h às 20h00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local
