@@ -31,13 +31,13 @@ ms.locfileid: "50044549"
 ---
 # <a name="customize-your-sign-in-page-with-a-privacy-and-consent-notice"></a>Personalizar sua página de login com um aviso de privacidade e consentimento
 
-Sua empresa ou campanha pode tornar mais fácil para as autoridades legais registrarem encargos legais contra agentes online adicionando um aviso de privacidade e consentimento à sua página de login.
+Sua empresa ou campanha pode tornar mais fácil para as autoridades legais registrarem encargos legais contra um advogado online adicionando um aviso de privacidade e consentimento à sua página de login.
 
 Você pode personalizar sua página de login com sua identidade visual. Você também pode adicionar texto para ajudar os usuários a entrar ou para apontar requisitos legais ou restrições para obter acesso aos recursos do Microsoft 365.
 
 ## <a name="design-customization-the-text-on-your-sign-in-page"></a>Personalização de design do texto na página de login
 
-Para atualizar os elementos personalizáveis na página de entrada, você precisa ser um administrador global. Para obter instruções específicas, [consulte o artigo de identidade visual da](https://docs.microsoft.com/azure/active-directory/fundamentals/customize-branding) empresa.
+Para atualizar os elementos personalizáveis na página de entrada, você precisa ser um administrador global. Para obter instruções específicas, [consulte o artigo adicionar a identidade visual da](https://docs.microsoft.com/azure/active-directory/fundamentals/customize-branding) empresa.
 
 Os elementos que você pode atualizar são:
 

@@ -36,13 +36,13 @@ Uma ótima maneira de comunicar prioridades, compartilhar documentos de estraté
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
-Inclua os seguintes elementos no site de Comunicações:
+Inclua os seguintes elementos em seu site de comunicações:
 
 1. Adicione seu logotipo e cores como uma imagem de header e tema.
-2. Conduza sua estratégia, mensagem, documentos importantes, um diretório e perguntas frequentes em uma **Web Part herói.**
+2. Conduza com sua estratégia, mensagem, documentos importantes, um diretório e perguntas frequentes em uma **Web Part herói.**
 3. Inclua um CEO ou declaração de candidato à equipe em uma **Web Part de texto.**
 4. Adicione eventos a uma **Web Part de Eventos** para que todos possam ver o que está por vir.
-5. Adicione fotos que as pessoas possam usar ou compartilhar a uma **Web Part da Galeria de imagens.**
+5. Adicione fotos que as pessoas possam usar ou compartilhar a uma **Web Part da galeria de imagens.**
 
 ![Diagrama de uma página de Comunicações do SharePoint com espaço para elementos comuns que uma campanha precisaria](../media/m365-democracy-comms-site.png)
 
@@ -58,7 +58,7 @@ Os links a seguir para PowerPoint e PDF podem ser baixados e impressos em format
 
 1. Entre no https://Office.com.
 2. No canto superior esquerdo da página, selecione o ícone do iniciador de aplicativos e, em seguida, selecione o lado do **SharePoint.** Se você não vir o lado do **SharePoint,**  clique no **lado dos sites** ou tudo se o SharePoint não estiver visível.
-3. Na parte superior da home page do SharePoint, clique **em + Criar site** e escolha a opção do site **de** Comunicação.
+3. Na parte superior da home page do SharePoint, clique **em + Criar site** e escolha a opção de site **de** Comunicação.
 
 Saiba tudo [sobre sites de comunicação](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) e como criar um site de comunicação no [SharePoint Online.](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-online-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb)
 

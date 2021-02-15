@@ -56,7 +56,7 @@ A Microsoft e quaisquer colaboradores reservam todos os outros direitos, seja so
 
 ## <a name="other-restrictions"></a>Outras restrições
 
-A API de busca avançada tem [algumas limitações](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api#limitations) no número de resultados retornados e nos dados que podem ser consultados.
+A API de busca avançada tem [algumas limitações sobre](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/run-advanced-query-api#limitations) o número de resultados retornados e os dados que podem ser consultados.
 
 1. Você só pode consultar dados dos últimos 30 dias.
 1. Os resultados incluirão um máximo de 100.000 linhas.

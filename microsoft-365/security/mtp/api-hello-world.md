@@ -52,7 +52,7 @@ Deve levar de 5 a 10 minutos para concluir esse projeto. Essa estimativa de temp
 
 3. In the registration form, choose a name for your application, then select **Register**. Selecionar um URI de redirecionamento é opcional. Você não precisará de um para concluir este exemplo.
 
-4. Na página do seu aplicativo, selecione Permissões de API Adicionar **APIs** de permissão que minha organização usa >, digite Proteção contra Ameaças da Microsoft e selecione  >    >   Proteção contra Ameaças **da Microsoft.**  Seu aplicativo agora pode acessar o Microsoft 365 Defender.
+4. Na página do seu aplicativo, selecione **Permissões** de API Adicionar APIs de permissão que minha organização usa >, digite Proteção contra Ameaças da Microsoft e selecione  >    >   Proteção **contra Ameaças da Microsoft.**  Seu aplicativo agora pode acessar o Microsoft 365 Defender.
 
    > [!TIP]
    > *A Proteção contra* Ameaças da Microsoft é um nome antigo do Microsoft 365 Defender e não aparecerá na lista original. Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparecer.
@@ -66,14 +66,14 @@ Deve levar de 5 a 10 minutos para concluir esse projeto. Essa estimativa de temp
 
     ![Imagem de conceder permissões](../../media/grant-consent.PNG)
 
-6. Adicione um segredo ao aplicativo. Selecione **Certificados & segredos,** adicione uma descrição ao segredo e selecione **Adicionar.**
+6. Adicione um segredo ao aplicativo. Selecione **Certificados & segredos,** adicione uma descrição ao segredo e selecione **Adicionar**.
 
     > [!TIP]
     > Depois de selecionar **Adicionar,** selecione **copiar o valor secreto gerado.** Você não poderá recuperar o valor secreto depois de sair.
 
     ![Imagem de criar chave do aplicativo](../../media/webapp-create-key2.png)
 
-7. Grave sua ID de aplicativo e sua ID de locatário em algum lugar seguro. Eles estão listados em **Visão Geral** na página do aplicativo.
+7. Grave sua ID de aplicativo e sua ID de locatário em algum lugar seguro. Eles estão listados em **Visão geral** na página do aplicativo.
 
    ![Imagem da ID do aplicativo criado](../../media/app-and-tenant-ids.png)
 
@@ -82,7 +82,7 @@ Deve levar de 5 a 10 minutos para concluir esse projeto. Essa estimativa de temp
 Para saber mais sobre tokens do Azure Active Directory, confira o [tutorial do Azure AD.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 > [!IMPORTANT]
-> Embora o exemplo neste aplicativo de demonstração incentive você a colar  seu valor secreto para fins de teste, você nunca deve codificar segredos em um aplicativo em execução em produção. Terceiros podem usar seu segredo para acessar recursos. Você pode ajudar a manter os segredos do seu aplicativo seguros usando o [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Para um exemplo prático de como você pode proteger seu aplicativo, confira Gerenciar segredos em seus aplicativos de servidor com o [Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
+> Embora o exemplo neste aplicativo de demonstração incentive você a colar  seu valor secreto para fins de teste, você nunca deve codificar segredos em um aplicativo em execução em produção. Terceiros podem usar seu segredo para acessar recursos. Você pode ajudar a manter os segredos do seu aplicativo seguros usando o [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) Para ver um exemplo prático de como você pode proteger seu aplicativo, confira Gerenciar segredos em seus aplicativos de servidor com o [Azure Key Vault.](https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/)
 
 1. Copie o script abaixo e copie-o em seu editor de texto favorito. Salvar como **Get-Token.ps1**. Você também pode executar o código como está no ISE do PowerShell, mas deve salvá-lo, pois será necessário executar novamente quando usarmos o script de busca de incidentes na próxima seção.
 
@@ -112,7 +112,7 @@ Para saber mais sobre tokens do Azure Active Directory, confira o [tutorial do A
 
 #### <a name="validate-the-token"></a>Validar o token
 
-1. Copie e colar o token recebido no [JWT](https://jwt.ms) para decodificá-lo.
+1. Copie e copie e copie o token recebido no [JWT](https://jwt.ms) para decodificá-lo.
 1. *JWT* significa *JSON Web Token*. O token decodificado conterá vários itens ou declarações formatados em JSON. Certifique-se de *que a* declaração de funções dentro do token decodificado contém as permissões desejadas.
 
     Na imagem a seguir, você pode ver um token decodificado adquirido de um aplicativo, com ```Incidents.Read.All``` ```Incidents.ReadWrite.All``` , e ```AdvancedHunting.Read.All``` permissões:

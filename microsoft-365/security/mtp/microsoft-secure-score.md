@@ -80,7 +80,7 @@ Atualmente, há recomendações para os seguintes produtos:
 - Microsoft 365 (incluindo o Exchange Online)
 - Azure Active Directory
 - Microsoft Defender para Ponto de Extremidade
-- Microsoft Defender para Identidade?
+- O que é o Microsoft Defender para Identidade?
 - Segurança no Aplicativo na Nuvem
 - Microsoft Teams
 
@@ -111,7 +111,7 @@ Com o acesso de leitura e gravação, você pode fazer alterações e interagir 
 * Administrador de segurança
 * Administrador do Exchange
 * Administrador do SharePoint
-* Administrador de contas
+* Administrador da conta
 
 ### <a name="read-only-roles"></a>Funções somente leitura
 

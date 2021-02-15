@@ -60,7 +60,7 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
     
     Não consegue encontrar o aplicativo que está procurando? No iniciador de aplicativos, selecione **Todos** os aplicativos para ver uma lista em ordem alfabética dos aplicativos disponíveis para você. Nesse local, você pode pesquisar um aplicativo específico. 
     
-2. Selecione **Grupos** \> **de** Grupos no painel de navegação esquerdo e, em seguida, **selecione Adicionar um grupo.** 
+2. Selecione **Grupos** \> **no** painel de navegação esquerdo e, em seguida, **selecione Adicionar um grupo.** 
       
 3. On the **Choose a group type** field, choose **Distribution**, and then choose **Next**.
   

@@ -38,6 +38,6 @@ Você deve ser um administrador global para seguir as etapas deste artigo. Para 
 1. No Centro de administração do Microsoft 365, vá para a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos,** na seção **Software,** selecione o software que você deseja baixar.
 3. Na página de detalhes da assinatura, na seção **Downloads &** chaves, escolha a versão do produto **,** idioma e **cpu**& tipo de arquivo, em seguida, selecione **Baixar**.
-4. Para baixar a chave, selecione **Copiar chave para a área de transferência.**
+4. Para baixar a chave, selecione **Copiar tecla para área de transferência.**
 5. No painel direito, selecione **Copiar** e feche o painel.
 6. Paste the key in a file in a secure location and then enter it as instructed during the software installation. A chave é necessária para ativar o software baixado.

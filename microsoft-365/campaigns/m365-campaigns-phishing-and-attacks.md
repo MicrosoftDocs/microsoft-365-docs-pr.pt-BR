@@ -46,7 +46,7 @@ O Microsoft 365 inclui muitas proteções para se proteger contra ataques, mas h
 
 Siga estas [10 dicas sobre como ajudar a reduzir spam.](https://support.microsoft.com/en-us/office/10-tips-on-how-to-help-reduce-spam-55f756e8-688b-41c3-a086-8f68ccc592f6)
 
-### <a name="report-it"></a>Reporte-o!
+### <a name="report-it"></a>Reportá-lo!
 
 Relatar qualquer email de phishing ou outros esquemas recebidos. Selecione a mensagem e escolha **Relatar mensagem** na faixa de opções.
 Veja mais informações sobre como relatar [lixo eletrônico e emails de phishing.](https://support.office.com/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
@@ -57,7 +57,7 @@ Veja mais informações sobre como relatar [lixo eletrônico e emails de phishin
 - Se você receber um email que pareça suspeito ou pedir esse tipo de informação, nunca clique em links que provavelmente levam você a um site da empresa.
 - Nunca abra nenhum arquivo anexado a um email suspeito.
 - Se o email parecer vir de uma empresa, entre em contato com o serviço de atendimento ao cliente da empresa por telefone ou navegador da Web para ver se o email é legítimo.
-- Pesquise na Web a linha de assunto do email seguida da palavra que está sendo usada para ver se outra pessoa relatou esse esquema.
+- Pesquise na Web a linha de assunto do email seguida pela palavra que está sendo informada para ver se outra pessoa relatou esse esquema.
 
 Leia sobre cinco tipos comuns de tentativas em [Lidar com abuso, phishing ou spoofing.](https://support.office.com/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 

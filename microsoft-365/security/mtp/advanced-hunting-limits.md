@@ -52,6 +52,6 @@ Consulte a tabela a seguir para entender as cotas e os parâmetros de uso existe
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Práticas recomendadas de busca avançada](advanced-hunting-best-practices.md)
-- [Lidar com erros avançados de busca](advanced-hunting-errors.md)
+- [Lidar com erros de busca avançada](advanced-hunting-errors.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)

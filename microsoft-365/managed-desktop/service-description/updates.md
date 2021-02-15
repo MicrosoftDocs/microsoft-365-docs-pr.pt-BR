@@ -37,8 +37,8 @@ A Área de Trabalho Gerenciada da Microsoft usa quatro grupos do Azure AD para g
 - **Rápido:** prioriza a velocidade em vez da estabilidade. Útil para detectar problemas de qualidade antes que eles sejam oferecidos ao grupo Amplo. Esse grupo serve como uma próxima camada de validação, mas normalmente é mais estável do que os grupos Test e First. 
 - **Amplo:** último grupo a ter atualizações de recursos e qualidade disponíveis. Esse grupo contém a maioria dos usuários no locatário e, portanto, favorece a estabilidade em relação à velocidade na implantação. Os testes de aplicativos devem ser feitos aqui, pois o ambiente é mais estável. 
 
-### <a name="moving-devices-between-update-groups"></a>Movendo dispositivos entre grupos de atualização
-Talvez você queira que alguns dispositivos recebam as atualizações por último e outros que você deseja que acessem primeiro. Para mover esses dispositivos para o grupo de atualização apropriado, envie uma solicitação de suporte [do](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support?view=o365-worldwide) administrador e moveremos os dispositivos para você. 
+### <a name="moving-devices-between-update-groups"></a>Mover dispositivos entre grupos de atualização
+Você pode querer que alguns dispositivos recebam as atualizações por último e outros que você deseja ir primeiro. Para mover esses dispositivos para o grupo de atualização apropriado, envie uma solicitação de suporte [do](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support?view=o365-worldwide) administrador e moveremos os dispositivos para você. 
 
 > [!NOTE]
 > Se você precisar mover um usuário para um grupo de atualização diferente, envie uma solicitação de suporte. Não mova dispositivos entre grupos de atualização por conta própria. Há consequências sérias se um dispositivo for movido incorretamente. O dispositivo pode ser atualizado inesperadamente e as políticas podem conflitar, alterando a configuração do dispositivo.
@@ -50,8 +50,8 @@ Há partes do serviço que você gerencia, como a implantação de aplicativos, 
 
 ## <a name="how-update-deployment-works"></a>Como funciona a implantação de atualização:
 1. A Área de Trabalho Gerenciada da Microsoft implanta um novo recurso ou atualização de qualidade de acordo com o cronograma especificado na tabela a seguir.
-2. Durante a implantação, a Área de Trabalho Gerenciada da Microsoft monitora sinais de falha ou interrupção com base nos dados de diagnóstico e no sistema de suporte do usuário. Se algum deles for detectado, pausamos imediatamente a implantação para todos os grupos atuais e futuros.
-    - Exemplo: se um problema for descoberto durante a implantação de uma atualização de qualidade no primeiro grupo, atualizar as implantações para First, Fast e Broad será pausado até que o problema seja resolvido.
+2. Durante a implantação, a Área de Trabalho Gerenciada da Microsoft monitora sinais de falha ou interrupção com base nos dados de diagnóstico e no sistema de suporte do usuário. Se algum for detectado, pausamos imediatamente a implantação para todos os grupos atuais e futuros.
+    - Exemplo: se um problema for descoberto durante a implantação de uma atualização de qualidade no primeiro grupo, as implantações para First, Fast e Broad serão pausadas até que o problema seja resolvido.
     - Você pode relatar problemas de compatibilidade, apresentando um tíquete no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.
     - As atualizações de recursos e qualidade são pausadas independentemente. A pausa está em vigor por 35 dias por padrão, mas pode ser reduzida ou estendida dependendo se o problema foi remediado.
 3. Depois que os grupos não são pausados, a implantação é retomada de acordo com o cronograma na tabela.
@@ -80,7 +80,7 @@ Esse processo de implantação se aplica a atualizações de recursos e qualidad
 
 ## <a name="windows-insider-program"></a>Programa Windows Insider
 
-A Área de Trabalho Gerenciada da Microsoft não dá suporte a dispositivos que fazem parte do programa Windows Insider. O programa Windows Insider é usado para validar o software do Windows de pré-lançamento e destina-se a dispositivos que não são essenciais. Embora seja uma iniciativa importante da Microsoft, ela não se destina a ampla implantação em ambientes de produção. 
+A Área de Trabalho Gerenciada da Microsoft não dá suporte a dispositivos que fazem parte do programa Windows Insider. O programa Windows Insider é usado para validar o software do Windows de pré-lançamento e destina-se a dispositivos que não são essenciais. Embora seja uma iniciativa importante da Microsoft, ela não se destina à implantação ampla em ambientes de produção. 
 
 Todos os dispositivos encontrados com builds do Windows Insider podem ser colocados no grupo de teste e estarão isentos dos contratos de nível de serviço de atualização e do suporte do usuário da Área de Trabalho Gerenciada da Microsoft.
 

@@ -91,7 +91,7 @@ Nesta fase, você será orientado a:
 
 8. Conecte seu domínio corporativo ao locatário do Office 365. [Opcional] Escolha **Conectar um domínio que você já possui** e digite seu nome de domínio. Clique em **Avançar**.
 
-   ![Imagem of_Office da Instalação do 365 E5 na qual você deve personalizar sua inscrição e email](../../media/mtp-eval-16.png)
+   ![Imagem of_Office da Instalação do 365 E5 em que você deve personalizar sua inscrição e email](../../media/mtp-eval-16.png)
  
 9. Adicione um registro TXT ou MX para validar a propriedade do domínio. Depois de adicionar o registro TXT ou MX ao seu domínio, selecione **Verificar.**
 
@@ -101,7 +101,7 @@ Nesta fase, você será orientado a:
 
     ![Imagem of_Office de instalação do 365 E5 onde você pode adicionar mais usuários](../../media/mtp-eval-18.png)
  
-11. [Opcional] Baixe os aplicativos do Office. Clique **em Next** para ignorar esta etapa. 
+11. [Opcional] Baixe aplicativos do Office. Clique **em Next** para ignorar esta etapa. 
 
     ![Imagem of_Office 365 E5 onde você pode instalar seus aplicativos do Office](../../media/mtp-eval-19.png)
 
@@ -138,7 +138,7 @@ Nesta fase, você será orientado a:
  
 4. Insira o código de verificação e clique **em Iniciar sua avaliação gratuita.**
 
-   ![Imagem of_Microsoft página iniciar avaliação gratuita do 365 E5 onde você pode preencher o código de verificação do sistema enviado para provar que você não é um robô](../../media/mtp-eval-26.png)
+   ![Imagem of_Microsoft página iniciar avaliação gratuita do 365 E5 onde você pode preencher o código de verificação que o sistema enviou para provar que você não é um robô](../../media/mtp-eval-26.png)
 
 5. Clique **em Experimentar agora** para confirmar sua avaliação do Microsoft 365 E5.
 
@@ -154,7 +154,7 @@ Nesta fase, você será orientado a:
 
 8. [Opcional] Altere o domínio *de onmicrosoft.com* para seu próprio domínio, dependendo do que você escolheu nas etapas anteriores. Clique em **Salvar alterações**.
 
-   ![Imagem of_Microsoft página do Centro de administração do 365 onde você pode alterar sua preferência de domínio](../../media/mtp-eval-30.png)
+   ![Imagem of_Microsoft do Centro de administração do 365 onde você pode alterar sua preferência de domínio](../../media/mtp-eval-30.png)
 
 
 

@@ -37,7 +37,7 @@ ms.locfileid: "49929965"
 
 
 
-A tabela no esquema de busca avançada contém informações sobre alertas do Microsoft Defender para Ponto de `AlertInfo` Extremidade, Microsoft Defender para Office 365, Microsoft Cloud App Security e Microsoft Defender for Identity. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançada contém informações sobre alertas do Microsoft Defender para Ponto de `AlertInfo` Extremidade, Microsoft Defender para Office 365, Microsoft Cloud App Security e Microsoft Defender para Identidade. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
@@ -49,7 +49,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `Category` | cadeia de caracteres | Tipo de atividade indicadora de ameaça ou violação identificada pelo alerta |
 | `Severity` | cadeia de caracteres | Indica o impacto potencial (alto, médio ou baixo) do indicador de ameaça ou da atividade de violação identificados pelo alerta |
 | `ServiceSource` | cadeia de caracteres | Produto ou serviço que forneceu as informações de alerta |
-| `DetectionSource` | string | Tecnologia ou sensor de detecção que identificou o componente ou a atividade notável |
+| `DetectionSource` | string | Tecnologia ou sensor de detecção que identificou o componente ou atividade notável |
 | `AttackTechniques` | string | MITRE ATT&CK associadas à atividade que disparou o alerta |
 
 ## <a name="related-topics"></a>Tópicos relacionados

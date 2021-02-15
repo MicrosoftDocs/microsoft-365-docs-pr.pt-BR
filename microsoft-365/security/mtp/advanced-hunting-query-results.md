@@ -41,7 +41,7 @@ Embora você possa [](advanced-hunting-overview.md) construir suas consultas de 
 
 - Exibir resultados como uma tabela ou gráfico
 - Exportar tabelas e gráficos
-- Detalhar informações detalhadas da entidade
+- Drill down to detailed entity information
 - Ajustar suas consultas diretamente dos resultados ou aplicar filtros
 
 ## <a name="view-query-results-as-a-table-or-chart"></a>Exibir resultados de consulta como uma tabela ou gráfico
@@ -86,8 +86,8 @@ AlertInfo
 ```
 Esses resultados são melhor visualizados usando um gráfico de colunas empilhadas:
 
-![Imagem de resultados de consulta de busca avançada exibida como um gráfico empilhado Resultados de consulta para alertas por sistema operacional e gravidade ](../../media/advanced-hunting-stacked-chart.jpg)
- *exibidos como um gráfico empilhado*
+![Imagem de resultados de consulta de busca avançada exibida como um gráfico empilhado Resultados de consulta para alertas por sistema operacional e gravidade exibidos como ](../../media/advanced-hunting-stacked-chart.jpg)
+ *um gráfico empilhado*
 
 #### <a name="phishing-emails-across-top-ten-sender-domains"></a>Phishing de emails nos dez principais domínios de remetente
 Se você estiver lidando com uma lista de valores que não são finitos, você pode usar o operador para gráfico apenas os valores com a maioria `Top` das instâncias. Por exemplo, para obter os dez principais domínios de remetente com mais emails de phishing, use a consulta abaixo:

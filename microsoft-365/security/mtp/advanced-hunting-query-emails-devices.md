@@ -42,13 +42,13 @@ ms.locfileid: "49932245"
 
 Com esse nível de visibilidade, você pode rapidamente procurar por ameaças que atravessam seções da sua rede, incluindo invasões sofisticadas que chegam ao email ou na Web, elevam os privilégios locais, adquirem credenciais de domínio privilegiado e se movem lateralmente para seus dispositivos. 
 
-Aqui estão técnicas gerais e consultas de exemplo com base em vários cenários de busca que podem ajudá-lo a explorar como você pode construir consultas ao procurar ameaças sofisticadas.
+Aqui estão as técnicas gerais e as consultas de exemplo com base em vários cenários de busca que podem ajudá-lo a explorar como você pode construir consultas ao procurar ameaças sofisticadas.
 
 ## <a name="get-entity-info"></a>Obter informações de entidade
 Use essas consultas para saber como você pode obter rapidamente informações sobre contas de usuário, dispositivos e arquivos. 
 
 ### <a name="obtain-user-accounts-from-email-addresses"></a>Adicionar contas de usuário a partir de endereços de email
-Ao criar consultas em [tabelas que abrangem dispositivos e emails](advanced-hunting-schema-tables.md), provavelmente será necessário obter nomes de contas de usuário dos endereços de email de remetentes ou destinatários. Geralmente, você pode fazer isso para o destinatário ou o endereço do remetente usando *o host local* do endereço de email.
+Ao criar consultas em [tabelas que abrangem dispositivos e emails](advanced-hunting-schema-tables.md), provavelmente será necessário obter nomes de contas de usuário dos endereços de email de remetentes ou destinatários. Geralmente, você pode fazer isso para o destinatário ou o endereço do remetente usando *o host local* no endereço de email.
 
 No trecho abaixo, usamos a função [tostring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) Kusto para extrair o host local imediatamente antes dos endereços de email do destinatário `@` na `RecipientEmailAddress` coluna.
 
@@ -121,7 +121,7 @@ LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, Lo
 ```
 
 ### <a name="get-logon-attempts-by-domain-accounts-targeted-by-credential-theft"></a>Obter tentativas de logon por contas de domínio direcionadas por roubo de credenciais
-Esta consulta identifica primeiro todos os alertas de acesso de credenciais na `AlertInfo` tabela. Em seguida, ele mescla ou ingressa na tabela, que ela analisará para os nomes das contas direcionadas e filtros somente para contas `AlertEvidence` ingressadas no domínio. Por fim, ele verifica a tabela para obter todas `IdentityLogonEvents` as atividades de logon das contas direcionadas ingressadas no domínio.
+Esta consulta identifica primeiro todos os alertas de acesso de credenciais na `AlertInfo` tabela. Em seguida, ele mescla ou ingressa na tabela, que ela avalia para os nomes das contas direcionadas e filtros apenas para contas `AlertEvidence` ingressadas no domínio. Por fim, ele verifica a tabela para obter todas `IdentityLogonEvents` as atividades de logon das contas direcionadas ingressadas no domínio.
 
 ```kusto
 AlertInfo

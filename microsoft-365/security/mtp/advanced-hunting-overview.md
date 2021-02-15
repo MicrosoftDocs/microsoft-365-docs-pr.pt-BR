@@ -51,7 +51,7 @@ Esse recurso é semelhante à [busca avançada no Microsoft Defender para Ponto 
 - Microsoft Defender para Ponto de Extremidade
 - Obter o Microsoft Defender para Office 365
 - Microsoft Cloud App Security
-- Microsoft Defender para Identidade?
+- O que é o Microsoft Defender para Identidade?
 
 Para usar a busca avançada, [a ligue o Microsoft 365 Defender.](mtp-enable.md)
 

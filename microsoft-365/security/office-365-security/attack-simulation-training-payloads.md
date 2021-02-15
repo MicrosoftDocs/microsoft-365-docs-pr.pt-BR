@@ -62,7 +62,7 @@ Adicione uma descrição personalizada para descrever o indicador e clique no qu
 Você terminou de criar sua carga. Agora é hora de revisar os detalhes e ver uma visualização da carga. A visualização incluirá todos os indicadores que você criou. Você pode editar cada parte da carga desta etapa. Depois de satisfeito, você **pode enviar** sua carga.
 
 > [!IMPORTANT]
-> As cargas que você criou terão Tenant **como** origem. Ao selecionar cargas, certifique-se de não filtrar **Tenant**.
+> As cargas que você criou terão o **locatário como** origem. Ao selecionar cargas, certifique-se de não filtrar **Tenant**.
 
 ## <a name="related-links"></a>Links relacionados
 

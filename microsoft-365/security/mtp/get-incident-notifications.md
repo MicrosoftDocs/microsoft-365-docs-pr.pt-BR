@@ -58,7 +58,7 @@ Para configurar sua primeira notificação por email para incidentes, crie uma n
 3. Dê um nome à regra em **Nome e** fornecer uma **Descrição.**
 
     ![Criar janela de regra para notifica o email de incidente](../../media/incidentemailnotif1.png) 
-4. Selecione **Próximo** para ir para **configurações de notificação.** Aqui você pode especificar:
+4. Selecione **Próximo** para ir para **configurações de Notificação.** Aqui você pode especificar:
     - **Gravidade do alerta** - Escolha a gravidade do alerta que disparará uma notificação de incidente. Por exemplo, se você quiser apenas ser informado sobre incidentes de alta gravidade, selecione Alta.
     - **Escopo do grupo de** dispositivos - Essa lista suspenso exibe todos os grupos de dispositivos que o usuário pode acessar. Selecione para quais grupos de dispositivos você está criando as regras de notificação de incidentes.
     - **Notificar somente na primeira ocorrência por incidente-** Selecionar essa opção enviará uma notificação por email somente no primeiro alerta que corresponde às outras seleções. Atualizações ou alertas posteriores relacionados ao incidente não dispararão uma notificação.
@@ -70,7 +70,7 @@ Para configurar sua primeira notificação por email para incidentes, crie uma n
 
     ![Janela Adicionar destinatários para notifica o email de incidente](../../media/incidentemailnotif3.png) 
 
-6. Por fim, **selecione Próximo** a Ir **para Revisão para** que você possa ver todas as configurações associadas à nova regra. Os destinatários começarão a receber notificações de incidentes por email com base nas configurações.
+6. Por fim, **selecione Próximo** para ir **para a** regra revisão para que você possa ver todas as configurações associadas à sua nova regra. Os destinatários começarão a receber notificações de incidentes por email com base nas configurações.
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral de incidentes no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/incidents-overview)

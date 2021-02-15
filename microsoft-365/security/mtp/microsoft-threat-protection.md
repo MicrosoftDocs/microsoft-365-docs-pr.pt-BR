@@ -60,7 +60,7 @@ Neste guia interativo, você aprenderá a proteger sua organização com o Micro
 
 
 
-O pacote do Microsoft 365 Defender protege: 
+O pacote Microsoft 365 Defender protege: 
 - **Pontos de extremidade com** o Microsoft Defender para Ponto de Extremidade - o Microsoft Defender para Ponto de Extremidade é uma plataforma unificada de pontos de extremidade para proteção preventiva, detecção pós-violação, investigação automatizada e resposta. 
 - Email e colaboração com o **Microsoft Defender para Office 365** - O Defender para Office 365 protege sua organização contra ameaças mal-intencionadas, colocadas por mensagens de email, links (URLs) e ferramentas de colaboração. 
 - Identidades com o Microsoft Defender for Identity e o **Azure AD Identity Protection** - o Microsoft Defender for Identity usa sinais do Active Directory para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização. 

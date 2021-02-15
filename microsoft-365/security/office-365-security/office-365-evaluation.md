@@ -48,7 +48,7 @@ Como parte da instalação, o modo de avaliação também configura [a Filtrag
 
 Para minimizar o possível impacto na produção em alguns cenários sem suporte, você pode ignorar toda a filtragem do EOP criando uma regra de transporte para definir o Nível de Confiança de Spam (SCL) como -1. Consulte [Usar o EAC para criar uma regra de fluxo de](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)emails que define o SCL de uma mensagem para obter   detalhes.
 
-Quando o modo de avaliação estiver definido, você terá um relatório atualizado diariamente com até 90 dias de dados quantificando as mensagens que teriam sido bloqueadas se as políticas fossem implementadas (por exemplo, excluir, enviar para lixo eletrônico, quarentena). Os relatórios são gerados para todas as detecções do Defender para Office 365 e EOP. Eles são agregados por tecnologia de detecção (por exemplo, representação) e podem ser filtrados por intervalo de tempo. Além disso, os relatórios de mensagens podem ser criados sob demanda para criar pivôs personalizados ou enviar mensagens de profundidade usando o Explorador de Ameaças.
+Quando o modo de avaliação estiver definido, você terá um relatório atualizado diariamente com até 90 dias de dados quantificando as mensagens que teriam sido bloqueadas se as políticas fossem implementadas (por exemplo, excluir, enviar para lixo eletrônico, quarentena). Os relatórios são gerados para todas as detecções do Defender para Office 365 e EOP. Eles são agregados por tecnologia de detecção (por exemplo, representação) e podem ser filtrados por intervalo de tempo. Além disso, os relatórios de mensagens podem ser criados sob demanda para criar pivôs personalizados ou para enviar mensagens de profundidade usando o Explorador de Ameaças.
 
 Com a experiência de configuração simplificada, você pode se concentrar em:
 
@@ -87,12 +87,12 @@ As funções do Exchange Online são necessárias para configurar o Defender par
 
 As seguintes funções são necessárias:
 
-|Tarefas|Role|
+|Tarefas|Função|
 |---|---|
 |Obter uma avaliação gratuita ou comprar o Microsoft Defender para Office 365 (Plano 2)|Função de administrador de cobrança OU função de administrador global|
-|Criar política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança|
+|Criar política de avaliação|Função domínios remotos e aceitos; Função de administrador de segurança|
 |Editar política de avaliação|Função domínios remotos e aceitos; Função de administrador de segurança|
-|Excluir política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança |
+|Excluir política de avaliação|Função domínios remotos e aceitos; Função de administrador de segurança |
 |Exibir relatório de avaliação|Função de administrador de segurança OU função de leitor de segurança|
 |
 
@@ -101,7 +101,7 @@ As seguintes funções são necessárias:
 
 Suas políticas do Proteção do Exchange Online, como proteção em massa e spam, permanecerão as mesmas. A entrega de mensagens também permanecerá a mesma. No entanto, a avaliação aprimora a filtragem para conectores, o que afetará o fluxo de emails e as políticas do Exchange Online Protection, a menos que seja ignorada.
 
-A filtragem aprimorada para conectores permitirá que os locatários usem a proteção anti-spoofing. A anti-spoofing não será suportada se você estiver usando um gateway de segurança de email (ESG) sem ter ligado a filtragem aprimorada para conectores.
+A filtragem aprimorada para conectores permitirá que os locatários usem a proteção anti-spoofing. Não há suporte para anti-spoofing se você estiver usando um gateway de segurança de email (ESG) sem ter ligado a filtragem aprimorada para conectores.
 
 ### <a name="urls"></a>URLs
 
@@ -164,7 +164,7 @@ Se você tiver um gateway existente, a habilitação do modo de avaliação ativ
 
 Depois que o relatório de avaliação tiver sido gerado, veja quantos links avançados de ameaças, anexos avançados de ameaças e possíveis personificações foram identificados nos espaços de trabalho de colaboração e emails em sua organização.
 
-Depois que a avaliação expirar, você poderá continuar a acessar o relatório por 90 dias. No entanto, ele não coletará mais informações. Se você quiser continuar usando o Microsoft Defender para Office 365 após a expiração da avaliação, certifique-se de comprar uma assinatura paga do [Microsoft Defender para Office 365 (Plano 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
+Depois que a avaliação tiver expirado, você poderá continuar a acessar o relatório por 90 dias. No entanto, ele não coletará mais informações. Se você quiser continuar usando o Microsoft Defender para Office 365 após a expiração da avaliação, compre uma assinatura paga do [Microsoft Defender para Office 365 (Plano 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
 Você pode ir para **Configurações para** atualizar seu roteamento ou desativar sua avaliação a qualquer momento. No entanto, você precisa passar pelo mesmo processo de configuração novamente caso decida continuar sua avaliação depois de ter desligado.
 

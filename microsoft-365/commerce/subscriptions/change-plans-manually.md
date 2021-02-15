@@ -48,7 +48,7 @@ Para continuar com uma alteração manual, leia [a Etapa 2: Comprar uma nova ass
 
 ## <a name="step-2-buy-a-new-subscription"></a>Etapa 2: comprar uma nova assinatura
 
-**Já comprou?** Se você já tiver uma assinatura para a quais deseja mover os usuários, pule esta etapa e vá para a Etapa [3:](#step-3-check-your-new-subscription-and-licenses) verificar sua nova assinatura e licenças neste tópico.
+**Já comprou?** Se você já tiver uma assinatura para a quais deseja mover os usuários, pule esta etapa e vá para a Etapa [3:](#step-3-check-your-new-subscription-and-licenses) Verificar sua nova assinatura e licenças neste tópico.
 
 OU
 
@@ -61,9 +61,9 @@ Inclua uma licença para cada usuário que você deseja mover.
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
-2. **Verifique se ambas as assinaturas estão listadas e ativas** A assinatura de onde você está movendo os usuários e a assinatura para a que você está movendo os usuários devem estar listadas juntas. Se a nova assinatura não estiver lá quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão ativas. [A nova assinatura não está listada ou não está ativa.](#the-new-subscription-isnt-listed-or-isnt-active)
+2. **Verifique se ambas as assinaturas estão listadas e ativas** A assinatura de onde você está movendo usuários e a assinatura para a que você está movendo os usuários devem estar listadas juntas. Se a nova assinatura não estiver lá quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão ativas. [A nova assinatura não está listada ou não está ativa.](#the-new-subscription-isnt-listed-or-isnt-active)
 
-3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponde à sua assinatura. Portanto, se você quiser mover dez usuários para o Microsoft 365 Business Premium, precisará garantir que dez licenças estão disponíveis.
+3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponde à sua assinatura. Portanto, se quiser mover dez usuários para o Microsoft 365 Business Premium, você precisará garantir que dez licenças estão disponíveis.
 
 4. **Precisa de mais licenças para a nova assinatura?**
    Vá para a **página Seus produtos** e compre mais [licenças.](../licenses/buy-licenses.md)

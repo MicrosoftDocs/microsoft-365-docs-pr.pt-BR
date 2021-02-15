@@ -15,7 +15,7 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba mais sobre como as ferramentas de Descoberta Eletrônico do Microsoft 365 lidam com documentos criptografados anexados a mensagens de email e armazenados no SharePoint Online e no OneDrive for Business.
+description: Saiba como as ferramentas de Descoberta Eletrônico do Microsoft 365 lidam com documentos criptografados anexados a mensagens de email e armazenados no SharePoint Online e no OneDrive for Business.
 ms.openlocfilehash: aeb1d927a5da24c55838fe3379451956949d8b4f
 ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
@@ -46,7 +46,7 @@ A tabela a seguir identifica as tarefas com suporte que podem ser executadas nas
 |Pesquisar conteúdo em arquivos criptografados em emails e sites     |Sim      |Sim      |Sim      |
 |Visualizar arquivos criptografados anexados ao email     |Sim      |Sim     |Sim       |
 |Visualizar documentos criptografados no SharePoint e no OneDrive|Não      |Não    |Sim       |
-|Revisar arquivos criptografados em um conjunto de revisão    |Não disponível      |Não disponível        | Sim        |
+|Revisar arquivos criptografados em um conjunto de revisão    |N/D      |N/D        | Sim        |
 |Exportar arquivos criptografados anexados ao email    |Sim       |Sim  |Sim    |
 |Exportar documentos criptografados no SharePoint e no OneDrive    |Não       |Não  |Sim    |
 |||||
@@ -65,4 +65,4 @@ Os documentos criptografados com as configurações anteriores ainda podem ser r
 
 Você precisa ter a função de descriptografar RMS para visualizar, revisar e exportar arquivos criptografados com tecnologias de criptografia da Microsoft. Você também precisa ter essa função atribuída para revisar e consultar arquivos criptografados que são adicionados a um conjunto de revisão na Descoberta Avançada.
 
-Essa função é atribuída por padrão ao grupo de função Gerente de Descobertas eDiscovery na página **Permissões** no Centro de Conformidade e Segurança & do Office 365. Para obter mais informações sobre a função Descriptografar RMS, consulte [Atribuir permissões de Descoberta e.](assign-ediscovery-permissions.md#rms-decrypt)
+Essa função é atribuída por padrão ao grupo de funções Gerente de Descobertas eDiscovery na página **Permissões** no Centro de Conformidade e Segurança & Office 365. Para obter mais informações sobre a função Descriptografar RMS, consulte [Atribuir permissões de Descoberta eDiscovery](assign-ediscovery-permissions.md#rms-decrypt).

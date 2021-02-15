@@ -81,13 +81,13 @@ Alguns ataques se concentram no direcionamento para exfiltrar dados confidenciai
 Filtrar por grupos de dispositivos definidos.
 
 ### <a name="investigation-state"></a>Estado de investigação
-Filtrar incidentes pelo status da investigação automatizada. 
+Filtrar incidentes pelo status de investigação automatizada. 
 
 ### <a name="multiple-categories"></a>Várias categorias 
-Você pode optar por ver apenas os incidentes que foram mapeados para várias categorias e, portanto, pode causar mais danos. 
+Você pode optar por ver apenas incidentes que foram mapeados para várias categorias e, portanto, pode causar mais danos. 
 
 ### <a name="multiple-service-sources"></a>Várias fontes de serviço 
-Filtrar para ver apenas incidentes que contêm alertas de diferentes fontes (Microsoft Defender para Ponto de Extremidade, Microsoft Cloud App Security, Microsoft Defender para Identidade, Microsoft Defender para Office 365).
+Filtrar para ver apenas incidentes que contêm alertas de diferentes fontes (Microsoft Defender para Ponto de Extremidade, Microsoft Cloud App Security, Microsoft Defender for Identity, Microsoft Defender para Office 365).
 
 ### <a name="os-platform"></a>Plataforma do sistema operacional
 Limitar a exibição da fila de incidentes por sistema operacional.
@@ -96,7 +96,7 @@ Limitar a exibição da fila de incidentes por sistema operacional.
 Ao escolher uma fonte específica, é possível se concentrar em incidentes com pelo menos um alerta da fonte escolhida. 
 
 ### <a name="severity"></a>Severity
-A gravidade de um incidente indica o impacto que ele pode ter em seus ativos. Quanto maior a gravidade, maior o impacto e normalmente requer a atenção mais imediata. 
+A gravidade de um incidente indica o impacto que ele pode ter em seus ativos. Quanto maior a gravidade, maior o impacto e normalmente exige a atenção mais imediata. 
 
 ### <a name="status"></a>Status
 Você pode optar por limitar a lista de incidentes exibidos com base em seu status para ver quais estão ativos ou resolvidos.

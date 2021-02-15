@@ -33,7 +33,7 @@ As marcas de quarentena no Proteção do Exchange Online (EOP) permitem que os a
 
 O EOP tem permitido ou impedido tradicionalmente determinados níveis de interatividade para mensagens em quarentena e em notificações de [spam para o usuário final.](use-spam-notifications-to-release-and-report-quarantined-messages.md) [](find-and-release-quarantined-messages-as-a-user.md) Por exemplo, os usuários finais podem exibir e liberar mensagens que foram colocadas em quarentena pela filtragem anti-spam como spam ou em massa, mas não podem exibir ou liberar mensagens que foram colocadas em quarentena como phishing de alta confiança.
 
-Para [recursos](#step-2-assign-a-quarantine-tag-to-supported-features)de proteção com suporte, as marcas de quarentena especificam o que os usuários têm permissão para fazer em mensagens de notificação de spam do usuário final e em suas mensagens em quarentena (mensagens em que o usuário é um destinatário). As marcas de quarentena padrão são atribuídas automaticamente para impor os recursos históricos para usuários finais em mensagens em quarentena. Ou você pode criar e atribuir marcas de quarentena personalizadas para permitir ou impedir que os usuários finais esão executar ações específicas em mensagens em quarentena.
+Para [recursos](#step-2-assign-a-quarantine-tag-to-supported-features)de proteção com suporte, as marcas de quarentena especificam o que os usuários têm permissão para fazer em mensagens de notificação de spam do usuário final e em suas mensagens em quarentena (mensagens em que o usuário é um destinatário). As marcas de quarentena padrão são atribuídas automaticamente para impor os recursos históricos para usuários finais em mensagens em quarentena. Ou você pode criar e atribuir marcas de quarentena personalizadas para permitir ou impedir que os usuários finais executam ações específicas em mensagens em quarentena.
 
 As permissões individuais são combinadas nos seguintes grupos de permissões predefinidos:
 
@@ -124,7 +124,7 @@ New-QuarantineTag -Name "<UniqueName>" -EndUserQuarantinePermissionsValue <0 to 
 
 O _parâmetro EndUserQuarantinePermissionsValue_ usa um valor decimal convertido de um valor binário. O valor binário corresponde às permissões de quarentena de usuário final disponíveis em uma ordem específica. Para cada permissão, o valor 1 é igual a True e o valor 0 é igual a False.
 
-A ordem e os valores necessários para cada permissão individual em grupos de permissão predefinidos são descritos na tabela a seguir:
+A ordem e os valores necessários para cada permissão individual em grupos de permissões predefinidos são descritos na tabela a seguir:
 
 ****
 
@@ -151,7 +151,7 @@ Este exemplo cria um novo nome de marca de quarentena NoAccess que atribui as pe
 New-QuarantineTag -Name NoAccess -EndUserQuarantinePermissionsValue 0
 ```
 
-Para permissões de acesso limitado, use o valor 106. Para permissões de acesso completo, use o valor 236.
+Para permissões de acesso limitado, use o valor 106. Para permissões de acesso total, use o valor 236.
 
 Para permissões personalizadas, use a tabela anterior para obter o valor binário que corresponde às permissões que você deseja. Converta o valor binário em um valor decimal e use o valor decimal para o parâmetro _EndUserQuarantinePermissionsValue._
 
@@ -321,7 +321,7 @@ As configurações globais para marcas de quarentena permitem que você personal
 
      Selecione pelo menos um idioma na primeira caixa de idioma e clique em **Adicionar**. Você pode selecionar vários idiomas clicando em **Adicionar** após cada um deles. Uma caixa de idioma de seção mostra todos os idiomas que você selecionou:
 
-     ![Idiomas selecionados na segunda caixa de idioma nas configurações globais de notificação de quarentena de marcas de quarentena](../../media/quarantine-tags-esn-customization-selected-languages.png)
+     ![Idiomas selecionados na caixa de segundo idioma nas configurações globais de notificação de quarentena de marcas de quarentena](../../media/quarantine-tags-esn-customization-selected-languages.png)
 
    - **Nome para** exibição: personalize o nome de exibição do remetente usado nas notificações de spam do usuário final.
 
@@ -331,11 +331,11 @@ As configurações globais para marcas de quarentena permitem que você personal
 
      ![Um nome de exibição de remetente personalizado em uma notificação de spam para o usuário final](../../media/quarantine-tags-esn-customization-display-name.png)
 
-   - **Aviso de isenção** de responsabilidade: adicione um aviso de isenção de responsabilidade personalizado na parte inferior das notificações de spam do usuário final. O texto localizado, um aviso de isenção de responsabilidade da sua **organização:** é sempre incluído primeiro, seguido pelo texto especificado.
+   - **Aviso de isenção** de responsabilidade: adicione um aviso de isenção de responsabilidade personalizado na parte inferior das notificações de spam do usuário final. O texto localizado, **um aviso de isenção de responsabilidade** da sua organização: é sempre incluído primeiro, seguido pelo texto especificado.
 
      Para cada idioma que você adicionou, selecione o idioma na segunda caixa de idioma (não clique no X) e insira o valor de texto que você deseja na caixa de aviso **de** isenção de responsabilidade.
 
-     A captura de tela a seguir mostra o aviso de isenção de responsabilidade personalizado em uma notificação de spam do usuário final:
+     A captura de tela a seguir mostra o aviso de isenção de responsabilidade personalizado em uma notificação de spam para o usuário final:
 
      ![Um aviso de isenção de responsabilidade personalizado na parte inferior de uma notificação de spam para o usuário final](../../media/quarantine-tags-esn-customization-disclaimer.png)
 
@@ -434,7 +434,7 @@ Se a marca de quarentena atribuir as **permissões de** acesso limitado, os usu�
 
   ![Botões disponíveis nos detalhes da mensagem em quarentena se a marca de quarentena der ao usuário permissões de acesso limitado](../../media/quarantine-tags-quarantined-message-details-limited-access.png)
 
-- **Notificações de spam para o usuário** final: os seguintes botões estão disponíveis:
+- **Notificações de spam para o usuário final:** os seguintes botões estão disponíveis:
   - **Bloquear remetente**
   - **Examinar**
 
@@ -456,7 +456,7 @@ Se a marca de quarentena atribuir as **permissões** de acesso completo (todas a
 
 - **Notificações de spam para o usuário final:** os seguintes botões estão disponíveis:
   - **Bloquear remetente**
-  - **Lançar**
+  - **Liberar**
   - **Examinar**
 
   ![Botões disponíveis na notificação de spam do usuário final se a marca de quarentena der ao usuário permissões de acesso total](../../media/quarantine-tags-esn-full-access.png)
@@ -500,7 +500,7 @@ A **permissão Delete** (_PermissionToDelete_) controla a capacidade dos usuári
   - **Permissão** de exclusão habilitada: o **botão Remover** da quarentena está disponível.
   - **Excluir** permissão desabilitada: **o botão Remover da** quarentena não está disponível.
 
-- **Notificações de spam para o usuário final:** sem efeito.
+- **Notificações de spam para o usuário final:** Sem efeito.
 
 #### <a name="preview-permission"></a>Permissão de visualização
 

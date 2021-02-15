@@ -25,7 +25,7 @@ ms.locfileid: "50058484"
 ---
 # <a name="service-encryption-with-customer-key"></a>Criptografia do serviço com a Chave de Cliente
 
-O Microsoft 365 fornece criptografia de nível de volume e linha de base habilitada por meio do BitLocker e do Distributed Key Manager (DKM). O Microsoft 365 oferece uma camada adicional de criptografia na camada do aplicativo para seu conteúdo. Esse conteúdo inclui dados do Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do Teams. Essa camada adicionada de criptografia é chamada de criptografia de serviço.
+O Microsoft 365 fornece criptografia de nível de volume e linha de base habilitada por meio do BitLocker e do Distributed Key Manager (DKM). O Microsoft 365 oferece uma camada adicional de criptografia na camada do aplicativo para o conteúdo. Esse conteúdo inclui dados do Exchange Online, Skype for Business, SharePoint Online, OneDrive for Business e arquivos do Teams. Essa camada adicionada de criptografia é chamada de criptografia de serviço.
 
 ## <a name="how-service-encryption-bitlocker-and-customer-key-work-together"></a>Como a criptografia de serviço, o BitLocker e a Chave do Cliente funcionam juntos
 
@@ -42,7 +42,7 @@ Usando chaves fornecidas, a Chave do Cliente criptografa:
 - Arquivos do SharePoint Online, do OneDrive for Business e do Teams.
 - Arquivos carregados no OneDrive for Business.
 - Conteúdo da caixa de correio do Exchange Online, incluindo conteúdo do corpo do email, entradas de calendário e o conteúdo em anexos de email.
-- Conversas de texto do Skype for Business.
+- Conversas em texto do Skype for Business.
 
 Atualmente, não oferecemos controle de cliente das chaves de criptografia para carregamentos de conteúdo de Transmissão de Reunião do Skype e Reunião do Skype. Em vez disso, esse conteúdo é criptografado junto com todos os outros conteúdos do Office 365.
 
@@ -56,20 +56,20 @@ Uma política de criptografia de dados define a hierarquia de criptografia para 
 
 **Exchange Online e Skype for Business** Você pode criar até 50 DEPs por locatário. Você associa DEPs às suas Chaves do Cliente no Azure Key Vault e, em seguida, atribui DEPs a caixas de correio individuais. Quando você atribui um DEP a uma caixa de correio:
 
-- a caixa de correio está marcada para uma movimentação de caixa de correio. Com base nas prioridades no Microsoft 365, conforme descrito aqui, [mover solicitações no serviço microsoft 365](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#move-requests-in-the-office-365-service).
+- a caixa de correio está marcada para uma movimentação de caixa de correio. Com base nas prioridades no Microsoft 365, conforme descrito aqui, mova as solicitações [no serviço do Microsoft 365.](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#move-requests-in-the-office-365-service)
 
 - A criptografia ocorre enquanto a caixa de correio é movida. Deixe 72 horas para que a caixa de correio seja criptografada com a nova DEP. Se as caixas de correio não são criptografadas após aguardar 72 horas a partir do momento em que você atribuiu a DEP, entre em contato com a Microsoft.
 
 Posteriormente, você pode atualizar a DEP ou atribuir uma DEP diferente à caixa de correio, conforme descrito em Gerenciar chave do cliente para [o Office 365.](customer-key-manage.md) Cada caixa de correio deve ter licenças apropriadas para atribuir uma DEP. Para obter mais informações sobre licenciamento, consulte [Antes de configurar a Chave do Cliente.](customer-key-set-up.md#before-you-set-up-customer-key)
 
 > [!NOTE]
-> A DEP pode ser aplicada a uma caixa de correio compartilhada, caixa de correio de pasta pública e caixa de correio de grupo do Microsoft 365 para locatários que atendem ao requisito de licenciamento para caixas de correio de usuário, mesmo que alguns desses tipos de caixa de correio não possam ser uma licença atribuída (caixa de correio de pasta pública e caixa de correio de grupo do Microsoft 365) ou precisem de uma licença para aumentar o armazenamento (caixa de correio compartilhada).
+> A DEP pode ser aplicada a uma caixa de correio compartilhada, uma caixa de correio de pasta pública e uma caixa de correio de grupo do Microsoft 365 para locatários que atendem ao requisito de licenciamento para caixas de correio de usuário, mesmo que alguns desses tipos de caixa de correio não possam ser uma licença atribuída (caixa de correio de pasta pública e caixa de correio de grupo do Microsoft 365) ou precisem de uma licença para aumentar o armazenamento (caixa de correio compartilhada).
 
-**Arquivos do SharePoint Online, OneDrive for Business e Teams** Se você estiver usando o recurso multi-geo, poderá criar até um DEP por geo para sua organização. Você pode usar chaves de cliente diferentes para cada área geográfica. Se você não estiver usando o recurso multi-geo, só poderá criar uma DEP por locatário. Quando você atribui a DEP, a criptografia começa automaticamente, mas pode levar algum tempo para ser concluída. Consulte os detalhes em [Set up Customer Key](customer-key-set-up.md).
+**Arquivos do SharePoint Online, OneDrive for Business e Teams** Se você estiver usando o recurso multi-geo, poderá criar até uma DEP por geo para sua organização. Você pode usar chaves de cliente diferentes para cada área geográfica. Se você não estiver usando o recurso multi-geo, só poderá criar uma DEP por locatário. Quando você atribui a DEP, a criptografia começa automaticamente, mas pode levar algum tempo para ser concluída. Consulte os detalhes em [Set up Customer Key](customer-key-set-up.md).
 
 ## <a name="leaving-the-service"></a>Sair do serviço
 
-A Chave do Cliente ajuda você a cumprir as obrigações de conformidade, permitindo que você revoque suas chaves quando deixar o serviço do Microsoft 365. Quando você revoga suas chaves como parte da saída do serviço, a chave de disponibilidade é excluída, resultando na exclusão criptográfica de seus dados. A exclusão criptográfica reduz o risco de remanenciamento de dados, o que é importante para atender às obrigações de segurança e conformidade. Para obter informações sobre o processo de limpeza de dados e a revogação de chave, consulte Revogar suas chaves e iniciar o processo [de limpeza de dados.](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process)
+A Chave do Cliente ajuda você a cumprir as obrigações de conformidade, permitindo que você revoque suas chaves quando deixar o serviço do Microsoft 365. Quando você revoga suas chaves como parte da saída do serviço, a chave de disponibilidade é excluída, resultando na exclusão criptográfica de seus dados. A exclusão criptográfica reduz o risco de remanenciamento de dados, o que é importante para cumprir as obrigações de segurança e conformidade. Para obter informações sobre o processo de limpeza de dados e a revogação de chave, consulte Revogar suas chaves e iniciar o processo de [limpeza de dados.](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process)
 
 ### <a name="encryption-ciphers-used-by-customer-key"></a>Codificações de criptografia usadas pela Chave do Cliente
 

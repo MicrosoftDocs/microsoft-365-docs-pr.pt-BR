@@ -25,7 +25,7 @@ ms.locfileid: "49976562"
 
 Pense nos serviços de conteúdo inteligente disponíveis no SharePoint Syntex como tendo três partes:
 
-- **Noções básicas sobre conteúdo:** crie modelos de IA sem código para classificar e extrair informações do conteúdo para aplicar automaticamente metadados para descoberta e reutilização de conhecimento. Saiba mais sobre a [compreensão de conteúdo.](document-understanding-overview.md)
+- **Noções básicas sobre conteúdo:** crie modelos de IA sem código para classificar e extrair informações do conteúdo para aplicar automaticamente metadados à descoberta e reutilização de conhecimento. Saiba mais sobre a [compreensão de conteúdo.](document-understanding-overview.md)
 - **Processamento do conteúdo:** Automatize a captura, a ingestão e a categorização de conteúdo e simplifica processos centrados no conteúdo usando o Power Automate. Saiba mais sobre [o processamento do conteúdo.](form-processing-overview.md)
 - **Conformidade de conteúdo:** Controle e gerencie conteúdo para melhorar a segurança e a governança com a integração com a Proteção de Informações da Microsoft.
 
@@ -44,13 +44,13 @@ A tabela a seguir explica a disponibilidade e o licenciamento do Syntex do Share
 
 | Processamento de formulário | Noções básicas sobre documentos |
 |:-------|:-------|
-| O processamento de formulário depende da Plataforma De energia. <br>Para obter informações sobre a disponibilidade global do Power Platform e do Construtor de IA, consulte [a disponibilidade da Plataforma De energia.](https://dynamics.microsoft.com/geographic-availability/) | Disponível em todas as regiões. |
+| O processamento de formulário depende da Plataforma De energia. <br>Para obter informações sobre a disponibilidade global para o Power Platform e o Construtor de IA, consulte [a disponibilidade da plataforma de energia.](https://dynamics.microsoft.com/geographic-availability/) | Disponível em todas as regiões. |
 | Usa créditos do Construtor de IA.<br>Os créditos podem ser comprados em lotes de 1M.<br>Os créditos 1M são incluídos quando mais de 300 licenças de Syntex do SharePoint são adquiridas.<br>Os créditos 1M permitirão o processamento de 2.000 páginas de arquivo. | Os modelos funcionam em todos os idiomas latinos de alfabeto. Além do inglês: alemão, sueco, francês, espanhol, italiano e português. |
 | Provisionado no ambiente padrão de serviço de dados comuns. | Não tem restrições de capacidade. |
 
 Para obter mais informações sobre créditos e unidades do Construtor de AI, consulte [licenciamento do Construtor de AI.](https://docs.microsoft.com/ai-builder/administer-licensing)
 
-O SharePoint Syntex integra-se aos recursos de conformidade do Microsoft 365, como:
+O Syntex do SharePoint se integra aos recursos de conformidade do Microsoft 365, como:
 
 - Rótulos de retenção que definem a política de registros com base na idade do documento ou em eventos externos.
 - Rótulos de sensibilidade que configuram políticas de DLP, criptografia, compartilhamento e acesso condicional.
@@ -91,9 +91,9 @@ Ao automatizar esse cenário, você pode:
 
 ### <a name="document-understanding-scenario-example"></a>Exemplo de cenário de compreensão de documentos
 
-Como outro exemplo, você pode configurar um processo para identificar contratos que sua empresa tem com outras empresas ou indivíduos. Você pode configurar um modelo para extrair informações importantes desses contratos, como o nome do cliente, taxas, datas ou outras informações importantes, e adicioná-los à biblioteca como campos que você pode exibir rapidamente. E você pode aplicar um rótulo de retenção à biblioteca de documentos para garantir que os contratos não possam ser excluídos antes de um período específico para conformidade apropriada com seus regulamentos comerciais.
+Como outro exemplo, você pode configurar um processo para identificar contratos que sua empresa tem com outras empresas ou indivíduos. Você pode configurar um modelo para extrair informações importantes desses contratos, como o nome do cliente, taxas, datas ou outras informações importantes, e adicioná-los à biblioteca como campos que você pode exibir rapidamente. E você pode aplicar um rótulo de retenção à biblioteca de documentos para garantir que os contratos não possam ser excluídos antes de um período específico para conformidade apropriada com os regulamentos de negócios.
 
-1. Comece na central de conteúdo e crie um novo modelo de compreensão de documentos para contratos.
+1. Comece no centro de conteúdo e crie um novo modelo de compreensão de documentos para contratos.
 1. Carregue documentos de exemplo para exemplos positivos e negativos e execute o treinamento para identificar documentos de contrato e revisar os resultados.
 1. Treine o extrator para identificar campos nos contratos, como o nome do cliente, taxa e data e, em seguida, teste o extrator.
 1. Quando o modelo for concluído, aplique o modelo a uma biblioteca onde você pode carregar contratos.
@@ -108,7 +108,7 @@ Ao automatizar esse cenário, você pode:
 
 ### <a name="tips-for-identifying-scenarios"></a>Dicas para identificar cenários
 
-Ao pensar sobre quais cenários de negócios considerar, pergunte a si mesmo:
+Ao pensar sobre quais cenários de negócios considerar, faça as seguintes perguntas:
 
 - Ele resolve um problema real?
 - Ele será amplamente usado ou terá um impacto amplo?
@@ -127,7 +127,7 @@ Determinar quem em sua organização criará e gerenciará os modelos? As seguin
 | Configurar o processamento de formulário | Configurar ambiente de serviço de dados comuns para processamento de formulário | Coletar casos de uso | Coletar casos de uso comercial |
 | Gerenciar centros de conteúdo e permissões| Comprar e alocar créditos AIB | Estabeleça as práticas recomendadas e revise a análise do modelo | Criar e aplicar modelos |
 
-O gerente de conhecimento, o proprietário do processo de negócios e o proprietário do modelo de conteúdo criam modelos de exemplo e adoção de defensores na organização.
+Gerente de conhecimento, proprietário do processo de negócios e proprietário do modelo de conteúdo criar modelos de exemplo e adoção de defensores na organização.
 Outros que podem estar envolvidos: administrador de conformidade, gerentes de taxonomia.
 
 Onde eles criarão e aplicarão os modelos? Existem processos ou repositórios existentes que podem ser aprimorados?
@@ -152,12 +152,12 @@ Trabalhe com os stakeholders para garantir que eles estejam alinhados com a estr
 
 Identifique os participantes do seu projeto.
 
-|Role |Responsabilidades |Department |
+|Função |Responsabilidades |Department |
 |:-------|:-------|:--------|
 | Patrocinadores executivos   | Comunicar visão de alto nível e valores à empresa   |  Liderança executiva   |
 | Líder(s) do projeto | Supervisionar todo o processo de execução e lançamento de lançamento | Gerenciamento de projeto |
 | Administradores de conhecimento| Criar e gerenciar os centros de conteúdo | IT ou outro departamento|
-| Gerentes de conteúdo e proprietários de modelos| Reunir casos de uso e criar e aplicar modelos | Qualquer departamento|
+| Gerentes de conteúdo e proprietários de modelos| Coletar casos de uso e criar e aplicar modelos | Qualquer departamento|
 | Campeões | Ajudar o evangelize e gerenciar tratamento de objeção | Qualquer departamento (funcionário) |
 | Administrador de locatários | Definir configurações no nível do locatário | Departamento de IT|
 | Administrador da Plataforma Do Power| Configurar o ambiente de serviços de dados comuns | Departamento de IT|
@@ -174,7 +174,7 @@ Para se preparar para implementar o Syntex do SharePoint, você precisa:
 1. Planejar o estado final
     - Document understanding models are the means, not the end.
     - Planeje aproveitar o valor dos metadados extraídos com:
-      - Pesquisa
+      - Pesquisar
       - Filtragem e exibição de formatação
       - Conformidade
       - Automação

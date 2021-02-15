@@ -32,7 +32,7 @@ Na guia **Visão geral** do treinamento de simulação de ataque, você encontra
 No gráfico, você pode ver:
 
 - **Taxa de** comprometimento prevista que reflete a taxa média de comprometimento para simulações usando o mesmo tipo de carga em outros locatários do Microsoft 365 que usam treinamento de simulação de ataque.
-- **A taxa de comprometimento** real reflete a porcentagem de funcionários que ficaram sem tempo para a simulação.
+- **A taxa de comprometimento** real reflete a porcentagem de funcionários que ficaram inocentados para a simulação.
 
 Além disso, reflete a diferença entre o número real de funcionários comprometidos pelo ataque e a `<number> less susceptible to phishing` taxa de comprometimento prevista. Esse número de funcionários tem menos probabilidade de ser comprometido por ataques semelhantes no futuro, enquanto indica como os funcionários fizeram em geral em contraste com a taxa de `<percent%> better than predicted rate` comprometimento prevista.
 

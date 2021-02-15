@@ -41,18 +41,18 @@ Você está atualmente na fase de simulação de ataque.
 
 Depois de preparar seu ambiente piloto, é hora de testar o gerenciamento de incidentes do Microsoft 365 Defender e os recursos automatizados de investigação e correção. Ajudaremos você a simular um ataque sofisticado que utiliza técnicas avançadas para ocultar-se da detecção. O ataque enumera sessões SMB (Bloco de Mensagens do Servidor) abertas em controladores de domínio e recupera endereços IP recentes dos dispositivos dos usuários. Essa categoria de ataques geralmente não inclui arquivos descartados no dispositivo da vítima— eles ocorrem apenas na memória. Eles "live off the land" by using existing system and administrative tools and inject their code into system processes to hide their execution, Such behavior allows them to evade detection and persist on the device.
 
-Nesta simulação, nosso cenário de exemplo começa com um script do PowerShell. Um usuário pode ser complicado para executar um script. Ou o script pode ser executado de uma conexão remota com outro computador de um dispositivo infectado anteriormente — o invasor que está tentando se mover lateralmente na rede. A detecção desses scripts pode ser difícil porque os administradores geralmente também podem executar scripts remotamente para realizar várias atividades administrativas.
+Nesta simulação, nosso cenário de exemplo começa com um script do PowerShell. Um usuário pode ser complicado para executar um script. Ou o script pode ser executado de uma conexão remota com outro computador de um dispositivo infectado anteriormente — o invasor que está tentando se mover lateralmente na rede. A detecção desses scripts pode ser difícil porque os administradores geralmente também executarão scripts remotamente para realizar várias atividades administrativas.
 
-![Ataque do PowerShell sem arquivos com injeção de processo e diagrama de ataque de reconnaisance SMB](../../media/mtp/mtpdiydiagram.png)
+![Ataque do PowerShell sem arquivo com injeção de processo e diagrama de ataque de reconnaisance SMB](../../media/mtp/mtpdiydiagram.png)
 
-Durante a simulação, o ataque injeta o código do shell em um processo aparentemente lento. O cenário exige o uso de notepad.exe. Escolhemos esse processo para a simulação, mas os invasores provavelmente direcionariam um processo de sistema de longa execução, como o svchost.exe. Em seguida, o shellcode entra em contato com o servidor de comando e controle (C2) do invasor para receber instruções sobre como continuar. O script tenta executar consultas no controlador de domínio (DC). A autorização permite que um invasor receba informações sobre informações de logon recentes do usuário. Depois que os invasores têm essas informações, eles podem se mover lateralmente na rede para obter uma conta sensível específica
+Durante a simulação, o ataque injeta o shellcode em um processo aparentemente lento. O cenário exige o uso de notepad.exe. Escolhemos esse processo para a simulação, mas os invasores provavelmente direcionariam um processo de sistema de longa execução, como o svchost.exe. Em seguida, o shellcode entra em contato com o servidor de comando e controle (C2) do invasor para receber instruções sobre como continuar. O script tenta executar consultas no controlador de domínio (DC). A autorização permite que um invasor receba informações sobre informações de logon recentes do usuário. Depois que os invasores têm essas informações, eles podem se mover lateralmente na rede para obter uma conta sensível específica
 
 > [!IMPORTANT]
 > Para obter os melhores resultados, siga as instruções de simulação de ataque o mais próximo possível.
 
 ## <a name="simulation-environment-requirements"></a>Requisitos de ambiente de simulação
 
-Como você já configurou seu ambiente piloto durante a fase de preparação, verifique se tem dois dispositivos para esse cenário: um dispositivo de teste e um controlador de domínio.
+Como você já configurou seu ambiente piloto durante a fase de preparação, verifique se você tem dois dispositivos para esse cenário: um dispositivo de teste e um controlador de domínio.
 
 1. Verifique se o locatário [habilitar o Microsoft 365 Defender.](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable#starting-the-service)
 
@@ -99,9 +99,9 @@ Para executar a simulação do cenário de ataque:
 4. No prompt, copie e execute o script copiado.
 
 > [!NOTE]
-> Se você estiver executando o PowerShell usando o protocolo de área de trabalho remota (RDP), use o comando Digitar Texto da Área de Transferência no cliente RDP porque a tecla de atalho **CTRL-V** ou o método clique com o botão direito do mouse pode não funcionar. Às vezes, as versões recentes do PowerShell também não aceitarão esse método, talvez seja preciso copiar para o Bloco de Notas na memória primeiro, copiá-lo na máquina virtual e, em seguida, colar no PowerShell.
+> Se você estiver executando o PowerShell usando o protocolo de área de trabalho remota (RDP), use o comando Digitar Texto da Área de Transferência no cliente RDP porque a tecla de atalho **CTRL-V** ou o método de colar com o botão direito do mouse pode não funcionar. Às vezes, as versões recentes do PowerShell também não aceitarão esse método, talvez seja preciso copiar para o Bloco de Notas na memória primeiro, copiá-lo na máquina virtual e, em seguida, copiá-lo no PowerShell.
 
-Alguns segundos depois, <i>notepad.exe</i> será aberto. Um código de ataque simulado será injetado em notepad.exe. Mantenha aberta a instância do Bloco de Notas gerada automaticamente para experimentar o cenário completo.
+Alguns segundos depois, <i>notepad.exe</i> abrirá. Um código de ataque simulado será injetado em notepad.exe. Mantenha aberta a instância do Bloco de Notas gerada automaticamente para experimentar o cenário completo.
 
 O código de ataque simulado tentará se comunicar com um endereço IP externo (simulando o servidor C2) e tentará se comunicar com o controlador de domínio por meio de SMB.
 
@@ -165,15 +165,15 @@ Para exibir o incidente:
 Vamos ver alguns dos alertas gerados durante o ataque simulado.
 
 > [!NOTE]
-> Vamos ver apenas alguns dos alertas gerados durante o ataque simulado. Dependendo da versão do Windows e dos produtos do Microsoft 365 Defender em execução em seu dispositivo de teste, você poderá ver mais alertas que aparecem em uma ordem ligeiramente diferente.
+> Vamos ver apenas alguns dos alertas gerados durante o ataque simulado. Dependendo da versão do Windows e dos produtos do Microsoft 365 Defender em execução em seu dispositivo de teste, você pode ver mais alertas que aparecem em uma ordem ligeiramente diferente.
 
 ![Captura de tela de alertas gerados](../../media/mtp/fig6.png)
 
 #### <a name="alert-suspicious-process-injection-observed-source-microsoft-defender-for-endpoint-edr"></a>Alerta: injeção de processo suspeito observada (Fonte: Microsoft Defender para Endpoint EDR)
 
-Invasores avançados usam métodos sofisticados e furtivos para persistir na memória e ocultar-se das ferramentas de detecção. Uma técnica comum é operar dentro de um processo de sistema confiável em vez de um executável mal-intencionado, dificultando a detecção de ferramentas e operações de segurança para detectar o código mal-intencionado.
+Invasores avançados usam métodos sofisticados e furtivos para persistir na memória e se ocultar das ferramentas de detecção. Uma técnica comum é operar dentro de um processo de sistema confiável em vez de um executável mal-intencionado, dificultando a detecção de ferramentas e operações de segurança para detectar o código mal-intencionado.
 
-Para permitir que os analistas de SOC detectem esses ataques avançados, os sensores de memória profunda no Microsoft Defender para Ponto de Extremidade fornecem ao nosso serviço de nuvem visibilidade sem precedentes de uma variedade de técnicas de injeção de código entre processos. A figura a seguir mostra como o Defender para Ponto de Extremidade detectado e alertado sobre a tentativa de injetar código <i>notepad.exe</i>.
+Para permitir que os analistas de SOC detectem esses ataques avançados, os sensores de memória avançada no Microsoft Defender para Ponto de Extremidade fornecem ao nosso serviço de nuvem visibilidade sem precedentes em uma variedade de técnicas de injeção de código entre processos. A figura a seguir mostra como o Defender para Ponto de Extremidade detectado e alertado sobre a tentativa de injetar código <i>notepad.exe</i>.
 
 ![Captura de tela do alerta para injeção de código potencialmente mal-intencionado](../../media/mtp/fig7.png)
 
@@ -188,9 +188,9 @@ Para esse cenário, o processo <i>notepad.exe</i> está exibindo comportamento a
 > [!NOTE]
 > Como esse alerta é baseado em modelos de aprendizado de máquina que exigem processamento adicional de back-end, pode levar algum tempo até que você veja esse alerta no portal.
 
-Observe que os detalhes do alerta incluem o endereço IP externo, um indicador que você pode usar como pivô para expandir a investigação.
+Observe que os detalhes do alerta incluem o endereço IP externo— um indicador que você pode usar como pivô para expandir a investigação.
 
-Selecione o endereço IP na árvore do processo de alerta para exibir a página de detalhes do endereço IP.
+Selecione o endereço IP na árvore de processo de alerta para exibir a página de detalhes do endereço IP.
 
 ![Captura de tela do alerta para comportamento inesperado por um processo executado sem argumentos de linha de comando](../../media/mtp/fig8.png)
 
@@ -217,7 +217,7 @@ Selecione a guia **Linha** do Tempo para abrir a linha do tempo do dispositivo e
 
 A expansão de alguns dos comportamentos mais interessantes fornece detalhes úteis, como árvores de processo.
 
-Por exemplo, role para baixo até encontrar a injeção de processo suspeito do evento **de alerta observada.** Selecione o **powershell.exe injetado** em um evento de processo notepad.exe abaixo dele, para exibir  a árvore de processos completa para esse comportamento sob o gráfico entidades de evento no painel lateral. Use a barra de pesquisa para filtragem, se necessário.
+Por exemplo, role para baixo até encontrar a injeção de processo **suspeito do evento de alerta observada.** Selecione o **powershell.exe injetado** em um evento de processo notepad.exe abaixo dele, para exibir  a árvore de processos completa para esse comportamento sob o gráfico entidades de evento no painel lateral. Use a barra de pesquisa para filtragem, se necessário.
 
 ![Captura de tela da árvore de processos do comportamento de criação de arquivo do PowerShell selecionado](../../media/mtp/fig12.png)
 
@@ -232,11 +232,11 @@ Selecione o nome de usuário para abrir a página de perfil do usuário onde uma
 ## <a name="automated-investigation-and-remediation"></a>Investigação e correção automatizadas
 
 > [!NOTE]
->Antes de passarmos por essa simulação, assista ao vídeo a seguir para se familiarizar com o que é a autorrecução automática, onde encontrá-lo no portal e como ele pode ajudar em suas operações de segurança:
+>Antes de passarmos por essa simulação, assista ao vídeo a seguir para se familiarizar com o que é a autorecução automática, onde encontrá-lo no portal e como ele pode ajudar em suas operações de segurança:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BzwB]
 
-Navegue de volta para o incidente no portal da Central de Segurança do Microsoft 365. A **guia Investigações** na página **Incidente** mostra as investigações automatizadas que foram disparadas pelo Microsoft Defender for Identity e pelo Microsoft Defender para o Ponto de Extremidade. A captura de tela abaixo exibe apenas a investigação automatizada acionada pelo Defender para Ponto de Extremidade. Por padrão, o Defender para Ponto de Extremidade remedia automaticamente os artefatos encontrados na fila, o que requer correção.
+Navegue de volta para o incidente no portal da Central de Segurança do Microsoft 365. A **guia Investigações** na página **Incidente** mostra as investigações automatizadas que foram disparadas pelo Microsoft Defender for Identity e pelo Microsoft Defender para Ponto de Extremidade. A captura de tela abaixo exibe apenas a investigação automatizada disparada pelo Defender para Ponto de Extremidade. Por padrão, o Defender para Ponto de Extremidade remedia automaticamente os artefatos encontrados na fila, o que requer correção.
 
 ![Captura de tela de investigações automatizadas relacionadas ao incidente](../../media/mtp/fig14.png)
 
@@ -252,13 +252,13 @@ Selecione o alerta que disparou uma investigação para abrir a **página Detalh
 
 ![Captura de tela da página detalhes da investigação](../../media/mtp/fig15.png)
 
-Durante a investigação automatizada, o Microsoft Defender para Ponto de Extremidade identificou o processo de notepad.exe, que foi injetado como um dos artefatos que exigem correção. O Defender para Ponto de Extremidade interrompe automaticamente a injeção de processo suspeito como parte da correção automatizada.
+Durante a investigação automatizada, o Microsoft Defender for Endpoint identificou o processo de notepad.exe, que foi injetado como um dos artefatos que exigem correção. O Defender para Ponto de Extremidade interrompe automaticamente a injeção de processo suspeito como parte da correção automatizada.
 
 Você pode ver <i>notepad.exe</i> desaparecer da lista de processos em execução no dispositivo de teste.
 
 ## <a name="resolve-the-incident"></a>Resolver o incidente
 
-Após a conclusão da investigação e confirmação da correção, feche o incidente.
+Depois que a investigação for concluída e confirmada como remediada, feche o incidente.
 
 Selecione **Gerenciar incidente.** Definir o status para **Resolver incidente e** selecionar a classificação relevante.
 
@@ -374,7 +374,7 @@ Há uma única caixa de correio interna e um dispositivo necessários para esse 
 
    Agora você criou uma consulta que identificará todos os emails de entrada onde o usuário abriu ou salvou o anexo. Você também pode refinar essa consulta para filtrar domínios de remetente específicos, tamanhos de arquivo, tipos de arquivo e assim por diante.
 
-7. As funções são um tipo especial de junção, que permite obter mais dados de TI sobre um arquivo, como sua prevalência, as informações do signante e do emissor, etc. Para obter mais detalhes sobre o arquivo, use o **enriquecimento da função FileProfile():**
+7. As funções são um tipo especial de junção, que permite obter mais dados de TI sobre um arquivo, como sua prevalência, as informações do signante e do emissor, etc. Para obter mais detalhes sobre o arquivo, use o enriquecimento **da função FileProfile():**
 
     ```console
     EmailEvents
@@ -414,7 +414,7 @@ Detecções personalizadas executarão a consulta de acordo com a frequência de
 
    ![Screenshot of the create detection rule page where you can run an antivirus scan when an alert is triggered to help address threats](../../media/mtp/fig25.png)
 
-5. Selecione o escopo da regra de alerta. Como essa consulta envolve dispositivos, os grupos de dispositivos são relevantes nessa detecção personalizada de acordo com o microsoft Defender para contexto de ponto de extremidade. Ao criar uma detecção personalizada que não inclui dispositivos como entidades impactadas, o escopo não se aplica.
+5. Selecione o escopo da regra de alerta. Como essa consulta envolve dispositivos, os grupos de dispositivos são relevantes nessa detecção personalizada de acordo com o microsoft Defender para contexto de ponto de extremidade. Ao criar uma detecção personalizada que não inclua dispositivos como entidades impactadas, o escopo não se aplica.
 
    ![Screenshot of the create detection rule page where you can set the scope for the alert rule manages your expectations for the results that you'll see](../../media/mtp/fig26.png)
 
@@ -447,5 +447,5 @@ Para saber mais sobre a busca avançada, os webcasts a seguir o acompanharão pe
 
 ## <a name="next-step"></a>Próxima etapa
 
-|![Fase de fechamento e resumo](../../media/mtp/close.png) <br>[Fase de fechamento e resumo](mtp-pilot-close.md)|Analise o resultado piloto do Microsoft 365 Defender, apresente-os aos participantes e dê o próximo passo.
+|![Fase de fechamento e resumo](../../media/mtp/close.png) <br>[Fase de fechamento e resumo](mtp-pilot-close.md)|Analise o resultado piloto do Microsoft 365 Defender, apresente-os aos stakeholders e dê o próximo passo.
 |:-----|:-----|

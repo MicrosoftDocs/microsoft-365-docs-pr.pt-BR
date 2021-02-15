@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50053796"
 ---
-# <a name="choose-between-basic-mobility-and-security-or-intune"></a>Escolher entre Mobilidade Básica e Segurança ou Intune
+# <a name="choose-between-basic-mobility-and-security-or-intune"></a>Escolha entre Mobilidade Básica e Segurança ou Intune
 
 [O Microsoft Intune](https://docs.microsoft.com/mem/intune/) é um produto autônomo incluído em determinados planos do Microsoft 365, enquanto o Basic Mobility and Security faz parte dos planos do Microsoft 365.
 
@@ -75,7 +75,7 @@ O Microsoft Intune e a Mobilidade Básica e a Segurança básicas permitem geren
 |Perfis WiFi |Provisione um perfil de WiFi nativo no dispositivo. |Não|Sim|
 |Perfis VPN |Provisione um perfil vpn nativo no dispositivo. |Não|Sim|
 |Gerenciamento básico de aplicativos de Mobilidade e Segurança  |Implante seus aplicativos de linha de negócios internos e de lojas de aplicativos para os usuários. |Não|Sim|
-|Proteção de aplicativo móvel  |Permita que os usuários acessem com segurança as informações corporativas usando os aplicativos móveis e de linha de negócios do Office que eles conhecem, garantindo a segurança dos dados, ajudando a restringir ações como copiar, recortar, colar e salvar como, apenas para os aplicativos gerenciados aprovados para dados corporativos. Funciona mesmo se os dispositivos não estão inscritos no Basic Mobility and Security. Consulte Proteger dados de aplicativo usando políticas de MAM. |Não|Sim|
+|Proteção de aplicativo móvel  |Permita que os usuários acessem com segurança informações corporativas usando os aplicativos móveis e de linha de negócios do Office que eles conhecem, garantindo a segurança dos dados, ajudando a restringir ações como copiar, recortar, colar e salvar como, apenas para os aplicativos gerenciados aprovados para dados corporativos. Funciona mesmo se os dispositivos não estão inscritos no Basic Mobility and Security. Consulte Proteger dados de aplicativo usando políticas de MAM. |Não|Sim|
 |Navegador gerenciado  |Habilita a navegação na Web mais segura usando o aplicativo Edge. |Não|Sim|
 |Programas de registro zero por toque autopilot) |Registrar um grande número de dispositivos de propriedade corporativa, simplificando a configuração do usuário. |Não|Sim|
 |||

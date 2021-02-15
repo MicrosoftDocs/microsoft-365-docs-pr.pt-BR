@@ -94,13 +94,13 @@ Esta tabela descreve os motivos pelos quais os botões **Comprar licenças** ou 
 |Reason  |Descrição  |Solução  |
 |---------|---------|---------|
 |Uma verificação de crédito está pendente. |Se uma verificação de crédito estiver pendente, você não poderá comprar ou remover licenças até que a verificação de crédito seja concluída.  | Verifique mais tarde se a verificação de crédito foi concluída. Geralmente, as verificações de crédito levam até dois dias úteis para serem concluídas.<br/>Depois que a verificação de crédito for concluída, você deverá ver os botões Comprar **licenças** e **Remover** licenças. |
-|Você ativou a assinatura usando uma chave do produto (Product Key).| Se a assinatura foi comprada e ativada usando uma chave do produto de 25  caracteres, você verá a palavra "Pré-paga" na coluna Comprar canal da página Seus **produtos.**  |Consulte [Adicionar licenças a uma assinatura paga por usar uma chave do produto (Product Key).](add-licenses-using-product-key.md) |
+|Você ativou a assinatura usando uma chave do produto (Product Key).| Se a assinatura foi comprada e ativada usando uma chave do produto de 25  caracteres, você verá a palavra "Pré-paga" na coluna Canal de compra da página Seus **produtos.**  |Consulte [Adicionar licenças a uma assinatura paga por usar uma chave do produto (Product Key).](add-licenses-using-product-key.md) |
 |Você comprou sua assinatura por meio de um revendedor.| Você vê a palavra "Revendedor" na coluna **Canal de** compra da **página Seus** produtos. | Se a assinatura foi comprada por meio de um parceiro CSP (Provedor de Soluções na Nuvem), entre em contato com seu parceiro CSP para comprar mais licenças.        |
 |Você tem uma assinatura de avaliação. | Para exibir suas assinaturas de avaliação, selecione o botão de filtro e escolha **Avaliação.** | Primeiro compre sua assinatura de avaliação e, em seguida, você pode comprar mais licenças.|
 
 ## <a name="when-will-the-new-licenses-be-available-to-assign"></a>Quando as novas licenças estarão disponíveis para atribuição?
 
-A forma de pagamento associada à sua assinatura ou perfil de cobrança é cobrada assim que você compra mais licenças para uma assinatura. As licenças estão imediatamente disponíveis para você atribuir aos usuários.
+A forma de pagamento associada à sua assinatura ou perfil de cobrança será cobrada assim que você comprar mais licenças para uma assinatura. As licenças estão imediatamente disponíveis para você atribuir aos usuários.
 
 Se você pré-paga para sua assinatura com uma chave do produto, pode adicionar mais licenças usando outra chave do produto ou adicionando um cartão de crédito ou débito, ou uma conta bancária para cobrir o custo adicional das novas licenças. Se sua assinatura for pré-paga, você não poderá remover licenças.
 

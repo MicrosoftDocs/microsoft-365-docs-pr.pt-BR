@@ -57,7 +57,7 @@ A API dá suporte aos seguintes **operadores OData:**
 
 ## <a name="permissions"></a>Permissões
 
-Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, confira Acessar as [APIs do Microsoft 365 Defender](api-access.md)
+Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, confira As APIs do [Microsoft 365 Defender](api-access.md) do Access
 
 Tipo de permissão | Permissão | Nome de exibição da permissão
 -|-|-
@@ -108,9 +108,9 @@ assignedTo | Proprietário do incidente ou *nulo* se nenhum proprietário for at
 classificação | A especificação do incidente. Os valores de propriedade são: *Unknown*, *FalsePositive*, *TruePositive* | Desconhecido
 determinação | Especifica a determinação do incidente. Os valores de propriedade são: *NotAvailable*, *Apt*, *Malware*, *SecurityPersonnel*, *SecurityTesting*, *UnwantedSoftware*, *Other* | NotAvailable
 status | Categorizar incidentes (como *Ativo* ou *Resolvido).* Ele pode ajudá-lo a organizar e gerenciar sua resposta a incidentes. | Ativo
-severity | Indica o possível impacto nos ativos. Quanto maior a gravidade, maior o impacto. Normalmente, os itens de gravidade mais alta exigem a atenção mais imediata.<br /><br />Um dos seguintes valores: *Informacional*, *Baixo*, *Médio e *Alto*. | Médio
-categorias | Matriz de marcas personalizadas associadas a um incidente, por exemplo, para sinalizar um grupo de incidentes com uma característica comum. | \[\]
-alerts | Matriz contendo todos os alertas relacionados ao incidente, além de outras informações, como gravidade, entidades envolvidas no alerta e a origem dos alertas. | \[\] (veja os detalhes dos campos de alerta abaixo)
+severity | Indica o possível impacto sobre os ativos. Quanto maior a gravidade, maior o impacto. Normalmente, os itens de gravidade mais alta exigem a atenção mais imediata.<br /><br />Um dos seguintes valores: *Informacional*, *Baixo*, *Médio e *Alto*. | Médio
+tags | Matriz de marcas personalizadas associadas a um incidente, por exemplo, para sinalizar um grupo de incidentes com uma característica comum. | \[\]
+alerts | Matriz contendo todos os alertas relacionados ao incidente, além de outras informações, como gravidade, entidades envolvidas no alerta e a origem dos alertas. | \[\] (veja detalhes sobre campos de alerta abaixo)
 
 ### <a name="alerts-metadata"></a>Metadados de alertas
 
@@ -125,7 +125,7 @@ resolvedTime | Hora em que o alerta foi resolvido. | 2020-09-10T05:22:59Z
 firstActivity | Hora em que o alerta relatou pela primeira vez que a atividade foi atualizada no back-end.| 2020-09-04T05:22:59Z
 Título | Breve valor de cadeia de caracteres de identificação disponível para cada alerta. | Atividade de ransomware
 description | Valor de cadeia de caracteres que descreve cada alerta. | O usuário Test User2 (testUser2@contoso.com) manipulou 99 arquivos com várias extensões terminando com a extensão incomum *herunterladen*. Esse é um número incomum de manipulações de arquivos e indica um possível ataque de ransomware.
-category | Exibição visual e numérica de até que ponto o ataque avançou ao longo do kill chain. Alinhado à estrutura [MITRE ATT&CK™.](https://attack.mitre.org/) | Impacto
+category | Exibição visual e numérica de até que ponto o ataque avançou ao longo do kill chain. Alinhado à estrutura [MITRE ATT&CK™ CK.](https://attack.mitre.org/) | Impacto
 status | Categorizar alertas (como *Novo,* *Ativo* ou *Resolvido).* Ele pode ajudá-lo a organizar e gerenciar sua resposta a alertas. | Novo
 severity | Indica o possível impacto sobre os ativos. Quanto maior a gravidade, maior o impacto. Normalmente, os itens de gravidade mais alta exigem a atenção mais imediata.<br>Um dos seguintes valores: *Informacional*, *Baixo*, *Médio e *Alto*. | Médio
 investigationId | A ID de investigação automatizada disparada por esse alerta. | 1234
@@ -150,7 +150,7 @@ osBuild | A versão de com build do sistema operacional em execução pelo dispo
 rbacGroupName | O [grupo de controle de](https://docs.microsoft.com/azure/role-based-access-control/overview) acesso baseado em função (RBAC) associado ao dispositivo. | WDATP-Ring0
 firstSeen | Hora em que o dispositivo foi visto pela primeira vez. | 2020-02-06T14:16:01.9330135Z
 healthStatus | O estado de saúde do dispositivo. | Ativo
-riskScore | A pontuação de risco do dispositivo. | Alta
+riskScore | A pontuação de risco do dispositivo. | Alto
 entidades | Todas as entidades que foram identificadas como parte ou relacionadas a um determinado alerta. | \[\] (veja os detalhes sobre os campos de entidade abaixo)
 
 ### <a name="entity-format"></a>Entity Format
@@ -197,7 +197,7 @@ deviceId | A ID, se for o caso, do dispositivo relacionado à entidade. | 986e5d
 GET https://api.security.microsoft.com/api/incidents
 ```
 
-**Resposta**
+**Response**
 
 ```json
 {

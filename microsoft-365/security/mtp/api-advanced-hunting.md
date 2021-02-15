@@ -55,7 +55,7 @@ As condições a seguir se relacionam a todas as consultas.
 > [!NOTE]
 > Todas as cotas listadas acima (por exemplo, 15 chamadas por mínimo) são por tamanho de locatário. Essas cotas são mínimas.
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 Uma das seguintes permissões é necessária para chamar a API de busca avançada. Para saber mais, incluindo como escolher permissões, confira Acessar as APIs do [Microsoft 365 Defender Protection](api-access.md)
 
@@ -181,6 +181,6 @@ No exemplo a seguir, um usuário envia a consulta abaixo e recebe um objeto de r
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Acessar as APIs do Microsoft 365 Defender](api-access.md)
-- [Saiba mais sobre limites e licenciamento da API](api-terms.md)
+- [Saiba mais sobre limites e licenciamento de API](api-terms.md)
 - [Noções sobre códigos de erro](api-error-codes.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

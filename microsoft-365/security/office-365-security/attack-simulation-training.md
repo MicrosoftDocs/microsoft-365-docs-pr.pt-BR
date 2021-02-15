@@ -36,10 +36,10 @@ Em **Simulações,** selecione **+ Iniciar uma simulação.**
 
 ## <a name="selecting-a-social-engineering-technique"></a>Selecionando uma técnica de engenharia social
 
-Selecione de 4 técnicas diferentes, selecionadas a partir da estrutura [MITRE ATT&CK® estrutura.](https://attack.mitre.org/techniques/enterprise/) Diferentes cargas estão disponíveis para diferentes técnicas:
+Selecione de 4 técnicas diferentes, selecionadas a partir da estrutura [MITRE ATT&CK® estrutura.](https://attack.mitre.org/techniques/enterprise/) Cargas diferentes estão disponíveis para diferentes técnicas:
 
 - **A coleta de** credenciais tenta coletar credenciais levando os usuários a um site com aparência conhecida com caixas de entrada para enviar um nome de usuário e senha.
-- **O anexo de** malware adiciona um anexo mal-intencionado a uma mensagem. Quando o usuário abre o anexo, é executado um código arbitrário que ajudará o invasor a comprometer o dispositivo do destino.
+- **O anexo de malware** adiciona um anexo mal-intencionado a uma mensagem. Quando o usuário abre o anexo, é executado um código arbitrário que ajudará o invasor a comprometer o dispositivo do destino.
 - **O link no anexo** é um tipo de coleta híbrida de credencial. Um invasor insere uma URL em um anexo de email. A URL dentro do anexo segue a mesma técnica que a coleta de credenciais.
 - **O link para malware** executará alguns códigos arbitrários de um arquivo hospedado em um serviço de compartilhamento de arquivos conhecido. A mensagem enviada ao usuário conterá um link para esse arquivo mal-intencionado. Abrir o arquivo e ajudar o invasor a comprometer o dispositivo do destino.
 
@@ -59,14 +59,14 @@ As cargas têm vários pontos de dados para ajudá-lo a escolher:
 - **A taxa de** clique conta quantas pessoas clicaram nessa carga.
 - **A taxa de** comprometimento prevista prevê a porcentagem de pessoas que serão comprometidas por essa carga com base nos dados históricos da carga nos clientes do Microsoft Defender para Office 365.
 - **As simulações lançadas** conta o número de vezes que essa carga foi usada em outras simulações.
-- **A complexidade,** disponível por **meio** de filtros, é calculada com base no número de indicadores dentro da carga que indica que se trata de um ataque. Mais indicadores levam à menor complexidade.
-- **Fonte**, disponível por **meio** de filtros , indica se a carga foi criada em seu locatário ou é uma parte do catálogo de carga pré-existente da Microsoft (global).
+- **A complexidade,** disponível por **meio** de filtros, é calculada com base no número de indicadores dentro da carga que indica um ataque. Mais indicadores levam à menor complexidade.
+- **Source**, disponível por **meio** de filtros , indica se a carga foi criada em seu locatário ou é uma parte do catálogo de carga pré-existente da Microsoft (global).
 
 ![Carga selecionada no treinamento de simulação de ataque no centro de segurança do Microsoft 365](../../media/attack-sim-preview-select-payload.png)
 
 Selecione uma carga na lista para ver uma visualização da carga com informações adicionais sobre ela.
 
-Se você quiser criar sua própria carga, leia criar uma carga para treinamento de [simulação de ataque.](attack-simulation-training-payloads.md)
+Se você quiser criar sua própria carga, leia criar uma carga para treinamento [de simulação de ataque.](attack-simulation-training-payloads.md)
 
 ## <a name="audience-targeting"></a>Segmentação por público-alvo
 
@@ -80,7 +80,7 @@ Ao optar por **incluir somente usuários e grupos específicos,** você pode:
 
 ## <a name="assigning-training"></a>Atribuindo treinamento
 
-Recomendamos que você atribua treinamento para cada simulação, pois os funcionários que passam por treinamento são menos suscetíveis a ataques semelhantes.
+Recomendamos que você atribua treinamento para cada simulação, pois os funcionários que passam pelo treinamento são menos suscetíveis a ataques semelhantes.
 
 Você pode optar por ter treinamento atribuído a você ou selecionar cursos e módulos de treinamento por conta própria.
 
@@ -99,4 +99,4 @@ Agora que tudo está configurado, você pode iniciar essa simulação imediatame
 
 **Habilita a entrega de zona de** tempo ciente da região para entregar mensagens de ataque simuladas aos funcionários durante o horário de trabalho com base na região.
 
-Quando terminar, clique em Próximo **e** revise os detalhes da simulação. Clique em **Editar** em qualquer uma das partes para voltar e alterar os detalhes que precisam ser mudados. Depois de terminar, clique em **Enviar**.
+Quando terminar, clique em Próximo **e** revise os detalhes da simulação. Clique em **Editar** em qualquer uma das partes para voltar e alterar todos os detalhes que precisam ser mudados. Depois de terminar, clique **em Enviar.**

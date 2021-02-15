@@ -1,5 +1,5 @@
 ---
-title: Entender assinaturas e licenças no Microsoft 365 para empresas
+title: Compreender assinaturas e licenças no Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -28,7 +28,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49928505"
 ---
-# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Entender assinaturas e licenças no Microsoft 365 para empresas
+# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Compreender assinaturas e licenças no Microsoft 365 para empresas
 
 Ao comprar uma assinatura do Microsoft 365 para empresas, inscreva-se para um conjunto de aplicativos e serviços que você paga mensalmente ou anualmente. Os aplicativos e serviços que você recebe como parte da sua assinatura dependem de qual produto você comprou, como o Microsoft 365 Apps para Empresas ou o Microsoft 365 Business Standard. Você pode ver o que vem com cada produto na [página do Microsoft 365 para pequenas e médias empresas.](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1)
 

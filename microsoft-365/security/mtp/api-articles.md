@@ -42,4 +42,4 @@ Os recursos a seguir fornecem mais informações sobre APIs disponíveis para ou
 
 - [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
 - [Obter o Microsoft Defender para Office 365](https://docs.microsoft.com/office/office-365-management-api/)
-- [Segurança no Aplicativo da Nuvem da Microsoft](https://docs.microsoft.com/cloud-app-security/api-introduction)
+- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/api-introduction)

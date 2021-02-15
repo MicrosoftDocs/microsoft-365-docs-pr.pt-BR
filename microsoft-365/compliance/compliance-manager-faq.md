@@ -35,7 +35,7 @@ Agora há apenas uma solução: o Gerenciador de Conformidade. Esta seção o or
 )
 #### <a name="the-basics"></a>Noções básicas
 
-O Gerenciador de Conformidade da Microsoft começou como uma solução de gerenciamento de conformidade dentro do Portal de Confiança do Serviço da Microsoft.  À medida que as soluções de conformidade foram criadas no centro de conformidade do Microsoft 365, desenvolvemos uma nova experiência com um design mais amigável para esse local. A visualização pública da Pontuação de Conformidade foi lançada no centro de conformidade do Microsoft 365 em novembro de 2019. A Pontuação de Conformidade compartilhou o mesmo back-back do Gerenciador de Conformidade, permitindo que os clientes trabalhem em ambos os lugares. Desde novembro de 2019, lançamos várias atualizações conforme a nova funcionalidade foi criada e respondemos aos comentários dos clientes.
+O Gerenciador de Conformidade da Microsoft começou como uma solução de gerenciamento de conformidade dentro do Portal de Confiança do Serviço da Microsoft.  Conforme as soluções de conformidade foram criadas no centro de conformidade do Microsoft 365, desenvolvemos uma nova experiência com um design mais amigável para esse local. A visualização pública da Pontuação de Conformidade foi lançada no centro de conformidade do Microsoft 365 em novembro de 2019. A Pontuação de Conformidade compartilhou o mesmo back-back do Gerenciador de Conformidade, permitindo que os clientes trabalhem em ambos os lugares. Desde novembro de 2019, lançamos várias atualizações conforme a nova funcionalidade foi criada e respondemos aos comentários dos clientes.
 
 A disponibilidade geral do Gerenciador de Conformidade no centro de conformidade do Microsoft 365 em setembro de 2020 conclui essa evolução. O Gerenciador de Conformidade é a solução unificada de conformidade de ponta a ponta. Sua pontuação de conformidade permanece um componente importante do Gerenciador de Conformidade.
 
@@ -65,7 +65,7 @@ O Gerenciador de Conformidade também tem novos termos de licenciamento. Veja a 
 
 #### <a name="youre-new-to-compliance-manager"></a>Você é novo no Gerenciador de Conformidade
 
-O Gerenciador de Conformidade é uma solução de ponta a ponta no centro de conformidade do Microsoft 365 para gerenciar e acompanhar as atividades de conformidade. É um ótimo lugar para começar sua jornada de conformidade, pois ele oferece uma avaliação inicial da postura de conformidade na primeira visita. Abaixo estão bons lugares para começar a aprender mais:
+O Gerenciador de Conformidade é uma solução de ponta a ponta no centro de conformidade do Microsoft 365 para gerenciar e acompanhar as atividades de conformidade. É um ótimo lugar para começar sua jornada de conformidade porque oferece uma avaliação inicial da postura de conformidade na primeira visita. Abaixo estão bons lugares para começar a aprender mais:
 
 - [Obter uma visão geral do Gerenciador de Conformidade](compliance-manager.md)
 - [Use nosso guia de início rápido para ajudar a aumentar o processo em etapas](compliance-manager-quickstart.md)
@@ -73,7 +73,7 @@ O Gerenciador de Conformidade é uma solução de ponta a ponta no centro de con
 
 ## <a name="are-there-licensing-requirements-for-using-compliance-manager"></a>Há requisitos de licenciamento para usar o Gerenciador de Conformidade?
 
-Sim. A versão GA do Gerenciador de Conformidade contém novos termos de licenciamento. Todas as organizações com licenças do Office 365 e do Microsoft 365 e clientes moderados da GCC (Comunidade Governamental dos EUA) e GCC High têm acesso ao Gerenciador de Conformidade. No entanto, as avaliações disponíveis para sua organização e como você gerencia os modelos de avaliação dependem do seu contrato de licenciamento. Visite as [diretrizes de licenciamento do Microsoft 365 para obter detalhes](https://go.microsoft.com/fwlink/?linkid=2132371) sobre segurança e conformidade.
+Sim. A versão GA do Gerenciador de Conformidade contém novos termos de licenciamento. Todas as organizações com licenças do Office 365 e do Microsoft 365 e clientes moderados da GCC (Comunidade Governamental dos EUA) e GCC High têm acesso ao Gerenciador de Conformidade. No entanto, as avaliações disponíveis para sua organização e como você gerencia os modelos de avaliação dependem do seu contrato de licenciamento. Visite as diretrizes de licenciamento do [Microsoft 365 para obter detalhes](https://go.microsoft.com/fwlink/?linkid=2132371) sobre segurança e conformidade.
 
 ## <a name="if-i-have-a-high-score-does-it-mean-im-fully-compliant"></a>Se eu tiver uma pontuação alta, significa que estou totalmente compatível?
 

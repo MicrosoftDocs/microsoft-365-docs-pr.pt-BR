@@ -61,7 +61,7 @@ Se suas organizações têm qualquer um dos seguintes requisitos, você pode usa
 
 **Proteção de Informações do Azure.** O DKE funciona com rótulos de sensibilidade e requer a Proteção de Informações do Azure.
 
-Os rótulos de sensibilidade DKE são disponibilizados para os usuários finais por meio da faixa de opções de sensibilidade nos Aplicativos da Área de Trabalho do Office. Instale esses pré-requisitos em cada computador cliente onde você deseja proteger e consumir documentos protegidos.
+Os rótulos de sensibilidade DKE são disponibilizados para os usuários finais por meio da faixa de opções de sensibilidade nos Aplicativos da Área de Trabalho do Office. Instale esses pré-requisitos em cada computador cliente em que você deseja proteger e consumir documentos protegidos.
 
 **Microsoft Office Apps para empresas** versão *.12711 ou posterior (versões da área de trabalho do Word, PowerPoint e Excel) no Windows.
 
@@ -69,7 +69,7 @@ Os rótulos de sensibilidade DKE são disponibilizados para os usuários finais 
 
 ## <a name="supported-environments-for-storing-and-viewing-dke-protected-content"></a>Ambientes com suporte para armazenar e exibir conteúdo protegido por DKE
 
-**Aplicativos com suporte.** [Aplicativos do Microsoft 365 para clientes](https://www.microsoft.com/microsoft-365/business/microsoft-365-apps-for-enterprise-product) corporativos no Windows, incluindo Word, Excel e PowerPoint.
+**Aplicativos com suporte.** [Aplicativos do Microsoft 365 para clientes corporativos](https://www.microsoft.com/microsoft-365/business/microsoft-365-apps-for-enterprise-product) no Windows, incluindo Word, Excel e PowerPoint.
 
 **Suporte a conteúdo online.** Documentos e arquivos armazenados online no Microsoft SharePoint e no OneDrive for Business são suportados. Você pode compartilhar conteúdo criptografado por email, mas não pode exibir documentos e arquivos criptografados online. Em vez disso, você deve exibir o conteúdo protegido usando os aplicativos da área de trabalho no computador local.
 
@@ -137,7 +137,7 @@ As instruções a seguir destinam-se a usuários não qualificados do Git ou do 
 
 1. No navegador, vá para: [https://github.com/Azure-Samples/DoubleKeyEncryptionService](https://github.com/Azure-Samples/DoubleKeyEncryptionService) .
 
-2. No lado direito da tela, selecione **Código.** Sua versão da interface do usuário pode mostrar um **clone ou botão de download.** Em seguida, no menu suspenso exibido, selecione o ícone de cópia para copiar a URL para sua área de transferência.
+2. No lado direito da tela, selecione **Código.** Sua versão da interface do usuário pode mostrar um **clone ou um botão de download.** Em seguida, no menu suspenso exibido, selecione o ícone de cópia para copiar a URL para sua área de transferência.
 
     Por exemplo:
 
@@ -177,7 +177,7 @@ Modifique as configurações do aplicativo appsettings.jsarquivo on. Esse arquiv
 
 #### <a name="key-access-settings"></a>Configurações de acesso de teclas
 
-Escolha se quer usar a autorização de email ou função. O DKE dá suporte a apenas um desses métodos de autenticação de cada vez.
+Escolha se quer usar a autorização de email ou função. O DKE dá suporte a apenas um desses métodos de autenticação por vez.
 
 - **Autorização de email.** Permite que sua organização autorize o acesso a chaves somente com base em endereços de email.
 
@@ -358,7 +358,7 @@ Use as instruções a seguir para criar o projeto DKE localmente:
 
    A chave deve ser exibida no formato JSON.
 
-Sua configuração agora está concluída. Antes de publicar o repositório de chaves, em appsettings.js, para a configuração JwtAudience, certifique-se de que o valor do nome do host corresponde exatamente ao nome do host do Serviço de Aplicativo. Você pode ter alterado para localhost para solucionar problemas de com build.
+Sua configuração agora está concluída. Antes de publicar o repositório de chaves, em appsettings.js, para a configuração JwtAudience, verifique se o valor do nome do host corresponde exatamente ao nome do host do Serviço de Aplicativo. Você pode ter alterado para localhost para solucionar problemas de com build.
 
 ### <a name="deploy-the-dke-service-and-publish-the-key-store"></a>Implantar o serviço DKE e publicar o armazenamento de chaves
 
@@ -376,7 +376,7 @@ Para publicar o armazenamento de chaves, você criará uma instância do Serviç
 
 2. Selecione sua assinatura e grupo de recursos e defina seus detalhes de instância.
 
-   - Insira o nome do host do computador em que você deseja instalar o serviço DKE. Certifique-se de que seja o mesmo nome definido para a configuração JwtAudience noappsettings.js [**no**](#tenant-and-key-settings) arquivo. O valor que você fornece para o nome também é WebAppInstanceName.
+   - Insira o nome do host do computador em que você deseja instalar o serviço DKE. Certifique-se de que seja o mesmo nome definido para a configuração JwtAudience no arquivo [**appsettings.json.**](#tenant-and-key-settings) O valor que você fornece para o nome também é WebAppInstanceName.
 
    - For **Publish**, select **code,** and for **Runtime stack**, select **.NET Core 3.1**.
 

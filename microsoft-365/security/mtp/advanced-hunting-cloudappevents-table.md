@@ -37,7 +37,7 @@ ms.locfileid: "49928445"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Atualmente disponível na visualização, a tabela no esquema de busca avançada contém informações sobre atividades em vários aplicativos e serviços de nuvem, especificamente `CloudAppEvents` Microsoft Teams e Exchange Online. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
+Disponível atualmente na visualização, a tabela no esquema de busca avançada contém informações sobre atividades em vários aplicativos e serviços de nuvem, especificamente `CloudAppEvents` Microsoft Teams e Exchange Online. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
 
 Esta tabela será expandida para incluir mais atividades monitoradas pelo Microsoft Cloud App Security. Eventualmente, esta tabela incluirá a atividade de arquivo atualmente armazenada na [tabela AppFileEvents.](advanced-hunting-appfileevents-table.md) A Microsoft fornecerá orientações adicionais à medida que mais dados se moverem para esta tabela.
 

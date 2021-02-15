@@ -1,5 +1,5 @@
 ---
-title: Proteger computadores e Macs windows 10 não-manados
+title: Proteja PCs e Macs com Windows 10 não gerenciados
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -31,7 +31,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044379"
 ---
-# <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Proteger computadores e Macs windows 10 não-manados
+# <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Proteja PCs e Macs com Windows 10 não gerenciados
 
 Você pode gerenciar computadores e Macs Com o Windows 10 registrando-os no Microsoft Intune, o que permite garantir que eles estão seguros e saudável antes de acessar os dados em seu ambiente. No entanto, muitas campanhas e pequenas empresas incluem funcionários que trazem seus próprios dispositivos (BYOD), que não serão gerenciados pela organização. Para esses PCs e Macs não gerenciamento, use este artigo para garantir que os recursos mínimos de segurança sejam configurados.
 
@@ -42,7 +42,7 @@ Você pode gerenciar computadores e Macs Com o Windows 10 registrando-os no Micr
 2. You have [connected your computer to Azure Active Directory](../business/set-up-windows-devices.md) and use your Microsoft 365 username and password to sign in.
 3. --> 
 
-## <a name="protect-a-computer-running-windows-10-or-a-mac"></a>Proteger um computador que executa o Windows 10 ou um Mac
+## <a name="protect-a-computer-running-windows-10-or-a-mac"></a>Proteger um computador executando o Windows 10 ou um Mac
 
 <!--If you have a PC that is running Windows 10 that is not connected to Microsoft 365, or a Mac, the Microsoft 365 protections do not apply to it, but here are some things you can do to keep your data secure on these devices as well:
 -->
@@ -52,7 +52,7 @@ Se o seu PC ou Mac do Windows 10 não for gerenciado pela sua organização, cer
 
 **Ativar a criptografia de dispositivo**<p>
 
-A criptografia de dispositivo está disponível em uma ampla variedade de dispositivos Windows e ajuda a proteger seus dados criptografando-os. Se você ativar a criptografia de dispositivo, somente pessoas autorizadas poderão acessar seu dispositivo e dados. Veja [como ativar a criptografia de dispositivo](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) para obter instruções.
+A criptografia de dispositivo está disponível em uma ampla variedade de dispositivos Windows e ajuda a proteger seus dados criptografando-os. Se você ativar a criptografia de dispositivo, somente pessoas autorizadas poderão acessar seu dispositivo e dados. Consulte [ativar a criptografia de dispositivo](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) para obter instruções.
 
  Se a criptografia de dispositivo não estiver disponível em seu dispositivo, você poderá ativar a criptografia [BitLocker padrão.](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) (O BitLocker não está disponível no Windows 10 Home Edition.) 
 
@@ -61,10 +61,10 @@ Se você tiver o Windows 10, obterá a proteção antivírus mais recente com a 
 
 O Windows Update baixa atualizações da Segurança do Windows automaticamente para ajudar a manter seu computador seguro e protegido contra ameaças.
 
-Se você tiver uma versão anterior do Windows e estiver usando o Microsoft Security Essentials, é uma boa ideia mudar para a Segurança do Windows. Para obter mais informações, consulte [Ajuda para proteger meu dispositivo com a Segurança do Windows.](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security)
+Se você tiver uma versão anterior do Windows e estiver usando o Microsoft Security Essentials, é uma boa ideia mudar para a Segurança do Windows. Para obter mais informações, consulte [Ajuda para proteger meu dispositivo com Segurança do Windows.](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security)
 
 **Ativar o Firewall do Windows**<p>
-Você sempre deve executar o Firewall do Windows mesmo se tiver outro firewall ativado. Desligar o Firewall do Windows pode tornar seu dispositivo (e sua rede, se você tiver um) mais vulnerável a acesso não autorizado. Consulte [Ativar ou desativar o Firewall do Windows para](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) obter instruções
+Você sempre deve executar o Firewall do Windows mesmo se tiver outro firewall ativado. Desligar o Firewall do Windows pode tornar seu dispositivo (e sua rede, se você tiver um) mais vulnerável a acesso não autorizado. Consulte [Ativar ou desativar o Firewall do Windows para obter](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) instruções
 
 ## <a name="mac"></a>[Mac](#tab/Mac)
 
@@ -77,4 +77,4 @@ A Microsoft recomenda que você instale e use software antivírus confiável no 
 Você também pode reduzir o risco de malware usando software apenas de fontes confiáveis. As configurações em Segurança & privacidade permitem que você especifique as fontes de software instaladas em seu Mac. Para obter mais informações, confira [proteger seu Mac contra malware.](https://support.apple.com/kb/PH25087)
 
 **Ativar a proteção de firewall**<p>
-Use as configurações de firewall para proteger seu Mac contra contatos indesejados iniciados por outros computadores quando você estiver conectado à Internet ou a uma rede. Sem essa proteção, seu Mac pode estar mais vulnerável a acesso não autorizado. Consulte [o firewall do aplicativo](https://support.apple.com/HT201642) para obter instruções.
+Use as configurações de firewall para proteger seu Mac contra contatos indesejados iniciados por outros computadores quando você estiver conectado à Internet ou a uma rede. Sem essa proteção, seu Mac pode ficar mais vulnerável a acesso não autorizado. Consulte [o firewall do aplicativo](https://support.apple.com/HT201642) para obter instruções.

@@ -32,7 +32,7 @@ ms.locfileid: "49939267"
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
-Se o Cloudflare for seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
+Se o Cloudflare for seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
   
 Depois que você adicionar esses registros na Cloudflare, seu domínio será definido para funcionar com os serviços do Microsoft 365.
   
@@ -48,7 +48,7 @@ Depois que você adicionar esses registros na Cloudflare, seu domínio será def
   
 Quando você se inscreveu no Cloudflare, adicionou  um domínio usando o processo de instalação cloudflare. 
   
-O domínio adicionado foi adquirido do Cloudflare ou de um registrador de domínios separado. Para verificar e criar registros DNS para seu domínio no Microsoft 365, primeiro você precisa alterar os nameservers no registrador de domínios para que eles usem os nameservers do Cloudflare.
+O domínio que você adicionou foi adquirido do Cloudflare ou de um registrador de domínios separado. Para verificar e criar registros DNS para seu domínio no Microsoft 365, primeiro você precisa alterar os nameservers no registrador de domínios para que eles usem os nameservers do Cloudflare.
   
 Para mudar os servidores de nomes do seu domínio por conta própria no site do registrador de domínios, siga essas etapas.
   

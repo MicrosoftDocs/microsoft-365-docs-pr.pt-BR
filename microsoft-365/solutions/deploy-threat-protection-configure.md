@@ -55,7 +55,7 @@ A Microsoft testou e recomenda um conjunto específico de acesso condicional e p
 O [Microsoft Defender for Identity](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) é uma solução de segurança baseada em nuvem que funciona com seus sinais locais do [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização.
 
 O Microsoft Defender for Identity permite que analistas de operações de segurança (SecOps) e profissionais de segurança se esforçam para detectar ataques avançados em ambientes híbridos para:
-- Monitore os usuários, o comportamento da entidade e as atividades com análises baseadas em aprendizagem.
+- Monitore usuários, comportamento de entidade e atividades com análises baseadas em aprendizado.
 - Proteger as identidades e credenciais do usuário armazenadas no Active Directory.
 - Identificar e investigar atividades suspeitas do usuário e ataques avançados em toda a cadeia de extermínio.
 - Fornecer informações claras sobre incidentes em uma linha do tempo simples para triagem rápida.
@@ -102,7 +102,7 @@ O Microsoft 365 Defender unifica alertas, incidentes, investigação e resposta 
 |[Anexos Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Links Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Documentos Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP para SharePoint, OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Anti-phishing no Defender para proteção do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Controladores de Ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Explorador de Ameaças](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Resposta e investigação automatizadas](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Simulador de Ataque](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
-Com o Microsoft Defender para Office 365, as pessoas em toda a organização podem se comunicar e colaborar com mais segurança, com proteção contra ameaças para o conteúdo de email e documentos do Office.
+Com o Microsoft Defender para Office 365, as pessoas em sua organização podem se comunicar e colaborar com mais segurança, com proteção contra ameaças para o conteúdo de email e documentos do Office.
 
 ### <a name="to-set-up-microsoft-defender-for-office-365"></a>Para configurar o Microsoft Defender para Office 365
 
@@ -119,7 +119,7 @@ Com o Microsoft Defender para Office 365, as pessoas em toda a organização pod
 
 ## <a name="step-5-configure-microsoft-defender-for-endpoint"></a>Etapa 5: Configurar o Microsoft Defender para o Ponto de Extremidade
 
-[O Microsoft Defender para Ponto](https://docs.microsoft.com/windows/security/threat-protection) de Extremidade protege seus dispositivos de organizações (também chamados de pontos de extremidade) contra ameaças cibernéticas, ataques avançados e violações de dados. As equipes de segurança podem ser mais eficientes no gerenciamento da segurança de seus pontos de extremidade. Ferramentas robustas ajudam as organizações a acompanhar os sistemas sem correção usando a detecção de vulnerabilidades com [o gerenciamento de ameaças e vulnerabilidades.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Recursos automatizados de detecção e correção, como redução [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)de superfície de [ataque,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)proteção de próxima [geração,](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10)detecção e resposta de ponto de extremidade e investigação e correção automatizadas ajudam a manter seus dispositivos seguros contra malware. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) Além desses recursos, os clientes podem receber notificações proativas e consultar especialistas em ameaças da Microsoft sob demanda, como parte do serviço de busca gerenciada de aceitação. 
+[O Microsoft Defender para Ponto](https://docs.microsoft.com/windows/security/threat-protection) de Extremidade protege seus dispositivos de organizações (também chamados de pontos de extremidade) contra ameaças cibernéticas, ataques avançados e violações de dados. As equipes de segurança podem ser mais eficientes no gerenciamento da segurança de seus pontos de extremidade. Ferramentas robustas ajudam as organizações a acompanhar os sistemas sem correção usando a detecção de vulnerabilidades com o gerenciamento [de ameaças e vulnerabilidades.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) Recursos automatizados de detecção e correção, como redução [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response)de superfície de [ataque,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-attack-surface-reduction)proteção de próxima [geração,](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10)detecção e resposta do ponto de extremidade e investigação e correção automatizadas ajudam a manter seus dispositivos seguros contra malware. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) Além desses recursos, os clientes podem receber notificações proativas e consultar especialistas em ameaças da Microsoft sob demanda, como parte do serviço de busca gerenciada de aceitação. 
 
 
 ### <a name="set-up-microsoft-defender-for-endpoint"></a>Configurar o Microsoft Defender para o Ponto de Extremidade
@@ -147,7 +147,7 @@ Com o Microsoft Defender para Office 365, as pessoas em toda a organização pod
 1. [Configurar o portal e outros requisitos básicos.](https://docs.microsoft.com/cloud-app-security/general-setup)
 2. [Configurar a descoberta na nuvem](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) e [conectar aplicativos.](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)
 3. [Implante o controle de aplicativo de acesso condicional para aplicativos em destaque.](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
-4. [Use as ferramentas e painéis de investigação.](https://docs.microsoft.com/cloud-app-security/investigate)
+4. [Use as ferramentas de investigação e painéis.](https://docs.microsoft.com/cloud-app-security/investigate)
 
 ### <a name="more-information-about-microsoft-cloud-app-security"></a>Mais informações sobre o Microsoft Cloud App Security
 
@@ -161,7 +161,7 @@ Depois de configurar e implantar seus serviços e funcionalidades de proteção 
 ![Centro de segurança do Microsoft 365](../media/solutions-architecture-center/m365-security-center.png)
 
 O centro de segurança do Microsoft 365 destina-se especificamente a administradores de segurança e equipes de operações de segurança. Na central de segurança do Microsoft 365, você pode:
-- Exibir a saúde geral de segurança da sua organização com [a Classificação de Segurança.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)
+- Exibir a saúde geral de segurança da sua organização com a [Classificação de Segurança.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)
 - [Monitore e veja relatórios](https://docs.microsoft.com/microsoft-365/security/mtp/monitoring-and-reporting) sobre o status de suas identidades, dados, dispositivos, aplicativos e infraestrutura.
 - Conecte os pontos em alertas por meio [de incidentes.](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue)
 - Use [investigação e correção automatizadas para](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir) lidar com ameaças.
@@ -187,7 +187,7 @@ O Microsoft 365 fornece os seguintes recursos para ajudar a informar os usuário
 |---------|---------|
 |Microsoft 365     |[Caminhos de aprendizagem personalizáveis](https://docs.microsoft.com/office365/customlearning/) <p>Esses recursos podem ajudá-lo a reunir treinamento para usuários finais em sua organização        |
 |Segurança do Microsoft 365 |[Módulo de aprendizagem: proteja sua organização com segurança interna e inteligente do Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>Este módulo permite descrever como os recursos de segurança do Microsoft 365 funcionam juntos e articular os benefícios desses recursos de segurança. |
-|Autenticação multifator     | [Verificação em duas etapas: Qual é a página de verificação adicional?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Este artigo ajuda os usuários finais a entender o que é a autenticação multifatare e por que ela está sendo usada em sua organização.    |
+|Multi-factor Authentication     | [Verificação em duas etapas: Qual é a página de verificação adicional?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Este artigo ajuda os usuários finais a entender o que é a autenticação multifatare e por que ela está sendo usada em sua organização.    |
 
 Além dessas diretrizes, a Microsoft recomenda que os usuários tomem as ações descritas neste artigo: proteger sua conta e dispositivos [contra hackers e malware.](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx) Essas ações incluem:
 - Usando senhas fortes

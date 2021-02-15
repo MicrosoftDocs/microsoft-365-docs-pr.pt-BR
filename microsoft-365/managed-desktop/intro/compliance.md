@@ -24,7 +24,7 @@ Quando você usa a Área de Trabalho Gerenciada da Microsoft, a Microsoft fornec
 
 A Área de Trabalho Gerenciada da Microsoft atingiu as seguintes certificações:
 
-- [Padrões de Gerenciamento de Segurança da Informação (ISMS) ISO 27001](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
+- [Padrões de gerenciamento de segurança de informações (ISMS) ISO 27001](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
 - [PIMS (Sistema de Gerenciamento de Informações de Privacidade) ISO 27701](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
 - [Código de conduta ISO 27017 para controles de segurança de informações](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27017)
 - [Código de conduta ISO 27018 para proteger dados pessoais na nuvem](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27018)

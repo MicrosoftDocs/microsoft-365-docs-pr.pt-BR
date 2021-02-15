@@ -35,7 +35,7 @@ ms.locfileid: "49931309"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-A `DeviceFileCertificateInfo` tabela no esquema de busca [avançada](advanced-hunting-overview.md) contém informações sobre certificados de assinatura de arquivo. Esta tabela usa dados obtidos de atividades de verificação de certificado executadas regularmente em arquivos em pontos de extremidade.
+A `DeviceFileCertificateInfo` tabela no esquema de busca [avançada](advanced-hunting-overview.md) contém informações sobre certificados de assinatura de arquivo. Esta tabela usa dados obtidos de atividades de verificação de certificado executadas regularmente em arquivos nos pontos de extremidade.
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 
@@ -48,7 +48,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `IsSigned` | booliano | Indica se o arquivo está assinado |
 | `SignatureType` | string | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou lidas de um arquivo de catálogo externo |
 | `Signer` | string | Informações sobre o signante do arquivo |
-| `SignerHash` | string | Valor de hash exclusivo que identifica o signante |
+| `SignerHash` | string | Valor de hash exclusivo identificando o signante |
 | `Issuer` | string | Informações sobre a autoridade de certificação (CA) de emissão |
 | `IssuerHash` | string | Valor de hash exclusivo identificando a autoridade de certificação (CA) de emissão |
 | `CertificateSerialNumber` | string | Identificador do certificado que é exclusivo da autoridade de certificação (CA) de emissão |

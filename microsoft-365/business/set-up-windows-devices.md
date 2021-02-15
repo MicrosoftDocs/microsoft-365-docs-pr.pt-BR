@@ -26,7 +26,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Saiba como configurar dispositivos Windows que executam o Windows 10 Pro para usuários do Microsoft 365 Business Premium, habilitando controles de segurança e gerenciamento centralizados.
+description: Saiba como configurar dispositivos Windows que executam o Windows 10 Pro para usuários do Microsoft 365 Business Premium, permitindo o gerenciamento centralizado e os controles de segurança.
 ms.openlocfilehash: b1877d83f113a2ba23d0db374967e0afcd7fe067
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
@@ -40,7 +40,7 @@ ms.locfileid: "49928715"
 
 Antes de configurar dispositivos Windows para usuários do Microsoft 365 Business Premium, certifique-se de que todos os dispositivos Windows estão executando o Windows 10 Pro, versão 1703 (Atualização para Criadores). O Windows 10 Pro é um pré-requisito para implantar o Windows 10 Business, que é um conjunto de serviços de nuvem e recursos de gerenciamento de dispositivos que complementam o Windows 10 Pro e permitem o gerenciamento centralizado e os controles de segurança do Microsoft 365 Business Premium.
   
-Se você tiver dispositivos Windows que executam o Windows 7 Pro, Windows 8 Pro ou Windows 8.1 Pro, sua assinatura do Microsoft 365 Business Premium lhe dará direito a uma atualização do Windows 10.
+Se você tiver dispositivos Windows executando o Windows 7 Pro, Windows 8 Pro ou Windows 8.1 Pro, sua assinatura do Microsoft 365 Business Premium lhe dará direito a uma atualização do Windows 10.
   
 Para obter mais informações sobre como atualizar dispositivos Windows para a Atualização do Windows 10 Pro para Criadores, siga as etapas deste tópico: [Atualize dispositivos Windows para a Atualização do Windows Pro para Criadores](upgrade-to-windows-pro-creators-update.md).
   
@@ -64,7 +64,7 @@ No caso de um novo dispositivo que executa a Atualização do Windows 10 Pro par
     
     ![On the How would you like to set up page, choose Set up for an organization](../media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
   
-2. Aqui, escolha **Configurar para uma organização e** insira seu nome de usuário e senha para o Microsoft 365 Business Premium. 
+2. Aqui, escolha **Configurar para uma organização e** insira seu nome de usuário e senha do Microsoft 365 Business Premium. 
     
 3. Conclua a configuração do dispositivo Windows 10.
     

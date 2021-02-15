@@ -101,7 +101,7 @@ O novo certificado requer a conexão com os pontos de extremidade da nova AC com
     - crl.globalsign.com
     - secure.globalsign.com   
 
-Normalmente, você recebe atualizações para seus certificados raiz automaticamente por meio do Windows Update. No entanto, algumas implantações têm segurança adicional no local que impede que essas atualizações ocorram automaticamente. Nessas implantações bloqueadas em que o Windows Update não pode atualizar automaticamente os certificados raiz, você precisa garantir que o certificado ac raiz correto seja instalado, concluindo estas etapas:
+Normalmente, você recebe atualizações para seus certificados raiz automaticamente por meio do Windows Update. No entanto, algumas implantações têm segurança adicional no local que impede que essas atualizações ocorram automaticamente. Nessas implantações bloqueadas em que o Windows Update não pode atualizar automaticamente os certificados raiz, você precisa garantir que o certificado ac raiz correto seja instalado concluindo estas etapas:
 1.  Conecte-se ao seu Exchange Server local usando o Windows PowerShell e execute o seguinte comando:  
   `certmgr.msc`
 

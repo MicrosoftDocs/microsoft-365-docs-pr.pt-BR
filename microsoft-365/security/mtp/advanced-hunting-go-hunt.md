@@ -37,11 +37,11 @@ ms.locfileid: "49929497"
 
 Com a *ação de busca de* ir, você pode investigar rapidamente eventos e vários tipos de entidade usando recursos avançados de busca avançados baseados [em](advanced-hunting-overview.md) consulta poderosos. Essa ação executa automaticamente uma consulta de busca avançada para encontrar informações relevantes sobre o evento ou entidade selecionada.
 
-A *ação de busca de* ir está disponível em várias seções do centro de segurança sempre que os detalhes do evento ou da entidade são exibidos. Por exemplo, você pode usar *a busca nas* seguintes seções:
+A *ação de busca* de ir está disponível em várias seções do centro de segurança sempre que os detalhes do evento ou da entidade são exibidos. Por exemplo, você pode usar *ir procurar* nas seguintes seções:
 
-- Na página [de incidentes,](investigate-incidents.md#incident-overview)você pode analisar detalhes sobre usuários, dispositivos e muitas outras entidades associadas a um incidente. À medida que você seleciona uma entidade, você pode obter informações adicionais, bem como várias ações que podem ser tomadas sobre essa direitos. No exemplo a seguir, uma caixa de correio é selecionada, mostrando detalhes sobre a caixa de correio, bem como a opção para procurar mais informações sobre a caixa de correio.
+- Na página [de incidentes,](investigate-incidents.md#incident-overview)você pode revisar detalhes sobre usuários, dispositivos e muitas outras entidades associadas a um incidente. À medida que você seleciona uma entidade, você pode obter informações adicionais, bem como várias ações que podem ser tomadas sobre essa direitos. No exemplo a seguir, uma caixa de correio é selecionada, mostrando detalhes sobre a caixa de correio, bem como a opção para procurar mais informações sobre a caixa de correio.
 
-    ![Imagem mostrando detalhes da caixa de correio com a opção de busca de ir](../../media/mtp-ah/go-hunt-email.png)
+    ![Imagem mostrando detalhes da caixa de correio com a opção ir para busca](../../media/mtp-ah/go-hunt-email.png)
 
 - Na página de incidentes, você também pode acessar uma lista de entidades na guia evidências. Selecionar uma dessas entidades oferece uma opção para rapidamente procurar informações sobre essa entidade.
 
@@ -71,7 +71,7 @@ and DeviceName == deviceName
 | take 100
 ```
 ### <a name="supported-entity-types"></a>Tipos de entidade com suporte
-Você pode usar *ir à busca* após selecionar qualquer um desses tipos de entidade:
+Você pode usar *ir à busca* após selecionar qualquer um destes tipos de entidade:
 
 - Arquivos
 - Emails

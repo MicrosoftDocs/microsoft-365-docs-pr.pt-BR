@@ -1,6 +1,6 @@
 ---
 title: Microsoft Report Message and Report Phishing Add-In license terms
-description: Descreve os termos de licença microsoft Report Message and Report Phishing Add-In
+description: Descreve os termos de licença de Mensagens e Phishing Add-In Relatório da Microsoft
 keywords: microsoft, relatório, phishing, segurança, esquema, pirataria, licença, termos, aplicativo, uso, instalação, serviço, comentários
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
@@ -62,7 +62,7 @@ Se você estiver em conformidade com estes termos de licença, você tem os dire
 
 6. **UPDATES.** The software may periodically check for updates, and download and install them for you. You may obtain updates only from Microsoft or authorized sources. Microsoft may need to update your system to provide you with updates. You agree to receive these automatic updates without any additional notice. Updates may not include or support all existing software features, services, or peripheral devices.
 
-7. **BINDING ARBITRATION AND CLASS ACTION WAIVER.** **Esta seção se aplica se você estiver nos Estados Unidos (ou, se for uma empresa, seu principal local de negócios).** If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. Se você e a Microsoft não puderem, você e a Microsoft concordarão em vincular a arbitragem individual antes da **American Arbitration Association** sob a FEDERAL Arbitration Act ("FAA"), e não processar em tribunal na frente de um júri ou de um **júri.** Instead, a neutral arbitrator will decide. **Ações legais de** ação de classe, arbitragens em toda a classe, ações gerais de advogado particular e qualquer outro procedimento em que alguém age em uma capacidade representativa não são **permitidos;** nem está combinando procedimentos individuais sem o consentimento de todas as partes. O Contrato de Arbitragem completo contém mais termos e está em [https://aka.ms/arb-agreement-1](https://aka.ms/arb-agreement-1) . You and Microsoft agree to these terms.
+7. **BINDING ARBITRATION AND CLASS ACTION WAIVER.** **Esta seção se aplica se você estiver nos Estados Unidos (ou, se for uma empresa, seu principal local de negócios).** If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. Se você e a Microsoft não puderem, você e a Microsoft concordarão em vincular a arbitragem individual antes da American **Arbitration Association** sob a FEDERAL Arbitration Act ("FAA"), e não processar em tribunal na frente de um júri ou de um **júri.** Instead, a neutral arbitrator will decide. **Ações judiciais de classe,** arbitragens em toda a classe, ações gerais de advogado particular e qualquer outro procedimento em que alguém age em uma capacidade representativa **não são permitidos;** nem está combinando procedimentos individuais sem o consentimento de todas as partes. O Contrato de Arbitragem completo contém mais termos e está em [https://aka.ms/arb-agreement-1](https://aka.ms/arb-agreement-1) . You and Microsoft agree to these terms.
 
 8. **ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may provide for supplements, updates, or third-party applications, is the entire agreement for the software.
 

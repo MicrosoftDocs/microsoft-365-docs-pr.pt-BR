@@ -123,7 +123,7 @@ Selecione **Executar consulta para** ver os resultados. Use o ícone expandir no
 
 ## <a name="learn-common-query-operators"></a>Conheça operadores de consulta comuns
 
-Você acabou de executar sua primeira consulta e ter uma ideia geral de seus componentes. É hora de voltar um pouco e aprender algumas noções básicas. A linguagem de consulta Kusto usada por caça avançada oferece suporte a vários operadores, incluindo os seguintes.
+Você acabou de executar sua primeira consulta e tem uma ideia geral de seus componentes. É hora de voltar um pouco e aprender algumas noções básicas. A linguagem de consulta Kusto usada por caça avançada oferece suporte a vários operadores, incluindo os seguintes.
 
 | Operador | Descrição e uso |
 |--|--|
@@ -161,7 +161,7 @@ Aproveite as funcionalidades a seguir para escrever rapidamente as consultas:
 - **[Referência de esquema](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**— referência no portal com descrições de tabelas e colunas, bem como tipos de eventos com suporte (valores) e `ActionType` consultas de exemplo
 
 ## <a name="work-with-multiple-queries-in-the-editor"></a>Trabalhar com várias consultas no editor
-Você pode usar o editor de consulta para experimentar várias consultas. Para usar várias consultas:
+Você pode usar o editor de consultas para experimentar várias consultas. Para usar várias consultas:
 
 - Separe cada consulta com uma linha vazia.
 - Place the cursor on any part of a query to select that query before running it. Isso executará somente a consulta selecionada. Para executar outra consulta, mova o cursor de acordo e selecione **Executar consulta.**

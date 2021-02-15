@@ -33,13 +33,13 @@ ms.locfileid: "50044637"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>Obter o Microsoft 365 for Campaigns
 
-Qualquer pessoa com o Microsoft 365 Business Premium pode usar essas diretrizes para configurar segurança extra para email e colaboração. No entanto, campanhas e partes políticas nos EUA estão qualificadas para preços especiais para o Microsoft 365. Atualmente, esse preço especial está disponível para:
+Qualquer pessoa com o Microsoft 365 Business Premium pode usar essas diretrizes para configurar segurança extra para email e colaboração. No entanto, campanhas e partes políticas nos EUA estão qualificados para preços especiais para o Microsoft 365. Atualmente, esse preço especial está disponível para:
 
 - National-level political parties in the United States, Canada, and New Zelândia
 - Campanhas políticas nacionais ou federais nos Estados Unidos e na Nova Zelândia
 - Campanhas políticas para todo o estado dos EUA (por exemplo: campanhas em busca de cargo de presidente, legislador do estado ou advogado geral)*
 
-    *Devido a regulamentações locais, não é possível oferecer m365 para campanhas nos seguintes estados no momento: CO, DE, IL, OK, WI & WY. Incentivamos as campanhas nesses estados a explorar ofertas adicionais no [Microsoft 365 para empresas.](https://www.office.com/business)
+    *Devido a regulamentações locais, não é possível oferecer o M365 para campanhas nos seguintes estados no momento: CO, DE, IL, OK, WI & WY. Incentivamos as campanhas nesses estados a explorar ofertas adicionais no [Microsoft 365 para empresas.](https://www.office.com/business)
 
 - Políticas de nível de estado nos Estados Unidos
 
@@ -54,7 +54,7 @@ Essa configuração do Microsoft 365 Business Premium inclui controles simples q
 - **Proteger a identidade do** usuário: certifique-se de que os usuários são quem dizem ser ao entrar para enviar emails ou acessar arquivos (autenticação multifator).
 - **Proteger informações confidenciais:** proteger informações confidenciais para monitorar informações que são compartilhadas fora da sua organização (prevenção contra perda de dados).
 - **Proteger dispositivos móveis:** proteger dados em dispositivos móveis (política de proteção de aplicativo móvel).
-- **Proteção contra conteúdo mal-intencionado:** impedir o acesso a conteúdo mal-intencionado por meio da verificação de anexos de email (Defender para Office 365).
+- **Proteção contra conteúdo mal-intencionado:** impedir o acesso a conteúdo mal-intencionado, verificação de anexos de email (Defender para Office 365).
 - **Proteger senhas:** definir senhas para nunca expirar, o que é mais seguro e ajuda a evitar as paradas de trabalho (política de senha).
 - **Acesso ao Programa AccountGuard**: Microsoft AccountGuard é um serviço de segurança oferecido sem custo adicional para os clientes no espaço política. O serviço foi projetado para informar e ajudar esses clientes altamente direcionados a se proteger contra ameaças à segurança cibernética em suas contas de email pessoais e organizacionais da Microsoft. Veja mais informações em [Microsoft AccountGuard](https://www.microsoftaccountguard.com/).
 
@@ -66,8 +66,8 @@ Não há compromisso de tempo mínimo ao se inscrever no Microsoft 365 for Campa
 
 ## <a name="how-do-i-qualify-for-special-pricing"></a>Como me qualifico para preços especiais?
 
-1. Acesse o [aka.ms/m365forcampaigns](https://aka.ms/m365forcampaigns/) e forneça alguns detalhes sobre sua organização. Os detalhes que você fornece nos ajudam a verificar se você representa uma campanha política de nível nacional ou uma parte nos Estados Unidos. Não há nenhum compromisso ao preencher este formulário.
-2. Depois de concluir o formulário, leva alguns dias para analisarmos suas informações.
+1. Acesse o [aka.ms/m365forcampaigns](https://aka.ms/m365forcampaigns/) e forneça alguns detalhes sobre sua organização. Os detalhes que você fornece nos ajudam a verificar se você representa uma campanha política de nível nacional ou uma parte nos Estados Unidos. Não há nenhum compromisso quando você concluir este formulário.
+2. Depois que você concluir o formulário, demorará alguns dias para revisar suas informações.
 3. Depois de verificarmos que você representa uma campanha política ou uma parte política de nível nacional, você receberá um convite por email da Microsoft. Seu convite inclui um link de assinatura específico para sua organização.
 
 Quando você receber o convite, [inscreva-se no Microsoft 365 para campanhas.](m365-campaigns-sign-up.md)

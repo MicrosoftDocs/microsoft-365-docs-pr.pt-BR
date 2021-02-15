@@ -24,10 +24,10 @@ ms.locfileid: "50058474"
 
 Com a Chave do Cliente, você controla as chaves de criptografia da sua organização e configura o Microsoft 365 para usá-las para criptografar seus dados em repouso nos data centers da Microsoft. Em outras palavras, a Chave do Cliente permite que os clientes adicionem uma camada de criptografia que pertence a eles, com suas chaves. Os dados em repouso incluem dados do Exchange Online e do Skype for Business armazenados em caixas de correio e arquivos armazenados no SharePoint Online e no OneDrive for Business.
 
-Você deve configurar o Azure antes de poder usar a Chave do Cliente para o Office 365. Este artigo descreve as etapas que você precisa seguir para criar e configurar os recursos necessários do Azure e fornece as etapas para configurar a Chave do Cliente no Office 365. Depois de concluir a configuração do Azure, você determina qual política e, portanto, quais chaves atribuir a caixas de correio e arquivos em sua organização. Caixas de correio e arquivos para os quais você não atribui uma política usarão políticas de criptografia controladas e gerenciadas pela Microsoft. Para obter mais informações sobre a Chave do Cliente ou para obter uma visão geral, consulte Criptografia de serviço com a Chave de [Cliente no Office 365.](customer-key-overview.md)
+Você deve configurar o Azure para poder usar a Chave de Cliente do Office 365. Este artigo descreve as etapas que você precisa seguir para criar e configurar os recursos necessários do Azure e fornece as etapas para configurar a Chave do Cliente no Office 365. Depois de concluir a configuração do Azure, você determina qual política e, portanto, quais chaves atribuir a caixas de correio e arquivos em sua organização. Caixas de correio e arquivos para os quais você não atribui uma política usarão políticas de criptografia controladas e gerenciadas pela Microsoft. Para obter mais informações sobre a Chave do Cliente ou para obter uma visão geral, consulte Criptografia de serviço com a Chave de [Cliente no Office 365.](customer-key-overview.md)
   
 > [!IMPORTANT]
-> Recomendamos que você siga as práticas recomendadas neste artigo. Eles são chamados de DICA **e** **IMPORTANTE.** A Chave do Cliente oferece controle sobre as chaves de criptografia raiz cujo escopo pode ser tão grande quanto toda a organização. Isso significa que os erros feitos com essas chaves podem ter um impacto amplo e podem resultar em interrupções de serviço ou perda irrevogável de seus dados.
+> Recomendamos que você siga as práticas recomendadas neste artigo. Eles são chamados de **DICA e** **IMPORTANTE.** A Chave do Cliente oferece controle sobre chaves de criptografia raiz cujo escopo pode ser tão grande quanto toda a organização. Isso significa que os erros feitos com essas chaves podem ter um impacto amplo e podem resultar em interrupções de serviço ou perda irrevogável de seus dados.
   
 ## <a name="before-you-set-up-customer-key"></a>Antes de configurar a Chave do Cliente
 
@@ -41,11 +41,11 @@ Se precisar de mais suporte além da documentação, entre em contato com o Micr
   
 ## <a name="overview-of-steps-to-set-up-customer-key"></a>Visão geral das etapas para configurar a Chave do Cliente
 
-Para configurar a Chave do Cliente, conclua essas tarefas na ordem listada. O restante deste artigo fornece instruções detalhadas para cada tarefa ou links para mais informações sobre cada etapa do processo.
+Para configurar a Chave do Cliente, conclua essas tarefas na ordem listada. O restante deste artigo fornece instruções detalhadas para cada tarefa ou links para obter mais informações sobre cada etapa do processo.
   
 **No Azure e no Microsoft FastTrack:**
   
-Você concluirá a maioria dessas tarefas se conectando remotamente ao Azure PowerShell. Para melhores resultados, use a versão 4.4.0 ou posterior do Azure PowerShell.
+Você concluirá a maioria dessas tarefas remotamente conectando-se ao Azure PowerShell. Para melhores resultados, use a versão 4.4.0 ou posterior do Azure PowerShell.
   
 - [Criar duas novas assinaturas do Azure](#create-two-new-azure-subscriptions)
 
@@ -55,7 +55,7 @@ Você concluirá a maioria dessas tarefas se conectando remotamente ao Azure Pow
 
 - [Enviar uma solicitação para ativar a Chave do Cliente para o Office 365](#submit-a-request-to-activate-customer-key-for-office-365)
 
-Depois de criar as duas novas assinaturas do Azure, você precisará enviar a solicitação de oferta da Chave do Cliente apropriada preenchendo um formulário da Web hospedado no portal do Microsoft FastTrack. **A equipe FastTrack não fornece assistência com a Chave do Cliente. O Office simplesmente usa o portal FastTrack** para permitir que você envie o formulário e nos ajude a acompanhar as ofertas relevantes para a Chave do Cliente.
+Depois de criar as duas novas assinaturas do Azure, você precisará enviar a solicitação de oferta da Chave do Cliente apropriada preenchendo um formulário da Web hospedado no portal do Microsoft FastTrack. **A equipe FastTrack não fornece assistência com a Chave do Cliente. O Office simplesmente usa o portal fastTrack** para permitir que você envie o formulário e nos ajude a acompanhar as ofertas relevantes para a Chave do Cliente.
 
 - [Criar um Azure Key Vault premium em cada assinatura](#create-a-premium-azure-key-vault-in-each-subscription)
 
@@ -71,7 +71,7 @@ Depois de criar as duas novas assinaturas do Azure, você precisará enviar a so
 
 - [Validar as definições de configuração do Azure Key Vault](#validate-azure-key-vault-configuration-settings)
 
-- [Obtenha o URI de cada chave do Azure Key Vault](#obtain-the-uri-for-each-azure-key-vault-key)
+- [Obter o URI de cada chave do Azure Key Vault](#obtain-the-uri-for-each-azure-key-vault-key)
 
 **No Office 365:**
   
@@ -91,21 +91,21 @@ SharePoint Online e OneDrive for Business:
 
 ## <a name="complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key"></a>Concluir tarefas no Azure Key Vault e no Microsoft FastTrack for Customer Key
 
-Conclua essas tarefas no Azure Key Vault. Você precisará concluir essas etapas independentemente se pretende configurar a Chave do Cliente para o Exchange Online, Skype for Business ou para arquivos do SharePoint Online, OneDrive for Business e Teams ou para todos os serviços com suporte no Office 365.
+Conclua essas tarefas no Azure Key Vault. Você precisará concluir essas etapas independentemente se pretende configurar a Chave do Cliente para o Exchange Online e o Skype for Business ou para arquivos do SharePoint Online, OneDrive for Business e Teams ou para todos os serviços com suporte no Office 365.
   
 ### <a name="create-two-new-azure-subscriptions"></a>Criar duas novas assinaturas do Azure
 
-A Chave do Cliente requer duas assinaturas do Azure. Como prática recomendável, a Microsoft recomenda que você crie novas assinaturas do Azure para uso com a Chave do Cliente. As chaves do Azure Key Vault só podem ser autorizadas para aplicativos no mesmo locatário do Azure Active Directory (Microsoft Azure Active Directory), você deve criar as novas assinaturas usando o mesmo locatário do Azure AD usado com sua organização na qual os DEPs serão atribuídos. Por exemplo, usar sua conta de trabalho ou de estudante que tenha privilégios de administrador global em sua organização. Para etapas detalhadas, confira [Inscrever-se no Azure como uma organização.](https://azure.microsoft.com/documentation/articles/sign-up-organization/)
+A Chave do Cliente requer duas assinaturas do Azure. Como prática recomendável, a Microsoft recomenda que você crie novas assinaturas do Azure para uso com a Chave do Cliente. As chaves do Azure Key Vault só podem ser autorizadas para aplicativos no mesmo locatário do Azure Active Directory (Microsoft Azure Active Directory), você deve criar as novas assinaturas usando o mesmo locatário do Azure AD usado com sua organização onde os DEPs serão atribuídos. Por exemplo, usar sua conta de trabalho ou de estudante que tenha privilégios de administrador global em sua organização. Para etapas detalhadas, confira [Inscrever-se no Azure como uma organização.](https://azure.microsoft.com/documentation/articles/sign-up-organization/)
   
 > [!IMPORTANT]
-> A Chave do Cliente exige duas chaves para cada DEP (política de criptografia de dados). Para conseguir isso, você deve criar duas assinaturas do Azure. Como prática recomendável, a Microsoft recomenda que você tenha membros separados da sua organização para configurar uma chave em cada assinatura. Você só deve usar essas assinaturas do Azure para administrar chaves de criptografia do Office 365. Isso protege sua organização caso um de seus operadores exclua acidentalmente, intencionalmente ou mal-intencionado ou, de outra forma, incorretamente as chaves pelas quais são responsáveis.
+> A Chave do Cliente exige duas chaves para cada DEP (política de criptografia de dados). Para conseguir isso, você deve criar duas assinaturas do Azure. Como prática recomendável, a Microsoft recomenda que você tenha membros separados da sua organização para configurar uma chave em cada assinatura. Você só deve usar essas assinaturas do Azure para administrar chaves de criptografia do Office 365. Isso protege sua organização caso um de seus operadores exclua acidentalmente, intencionalmente ou mal-intencionado ou, de alguma forma, incorretamente as chaves pelas quais são responsáveis.
 >
 
 Não há um limite prático para o número de assinaturas do Azure que você pode criar para sua organização. Seguir essas práticas recomendadas minimizará o impacto do erro humano enquanto ajuda a gerenciar os recursos usados pela Chave do Cliente.
   
 ### <a name="submit-a-request-to-activate-customer-key-for-office-365"></a>Enviar uma solicitação para ativar a Chave do Cliente para o Office 365
 
-Depois de concluir as etapas do Azure, você precisará enviar uma solicitação de oferta no [portal do Microsoft FastTrack.](https://fasttrack.microsoft.com/) Depois que você enviar uma solicitação por meio do portal da Web do FastTrack, a Microsoft verificará os dados de configuração e as informações de contato do Azure Key Vault que você forneceu. As seleções que você faz no formulário de oferta sobre os oficiais autorizados da sua organização são essenciais e necessárias para a conclusão do registro da Chave do Cliente. Os agentes da sua organização garantem a autenticidade de qualquer solicitação para revogar e destruir todas as chaves usadas com uma política de criptografia de dados da Chave do Cliente. Você precisará fazer essa etapa uma vez para ativar a Chave do Cliente para a cobertura do Exchange Online e do Skype for Business e uma segunda vez para ativar a Chave do Cliente para o SharePoint Online e o OneDrive for Business.
+Depois de concluir as etapas do Azure, você precisará enviar uma solicitação de oferta no [portal do Microsoft FastTrack.](https://fasttrack.microsoft.com/) Depois que você enviar uma solicitação por meio do portal da Web do FastTrack, a Microsoft verificará os dados de configuração e as informações de contato do Azure Key Vault que você forneceu. As seleções que você faz no formulário de oferta sobre os oficiais autorizados da sua organização são essenciais e necessárias para a conclusão do registro da Chave do Cliente. Os agentes da sua organização garantem a autenticidade de qualquer solicitação para revogar e destruir todas as chaves usadas com uma política de criptografia de dados da Chave do Cliente. Você precisará fazer essa etapa uma vez para ativar a Chave do Cliente para cobertura do Exchange Online e do Skype for Business e uma segunda vez para ativar a Chave do Cliente para o SharePoint Online e o OneDrive for Business.
   
 Para enviar uma oferta para ativar a Chave do Cliente, conclua estas etapas:
   
@@ -127,9 +127,9 @@ Para enviar uma oferta para ativar a Chave do Cliente, conclua estas etapas:
 
 ### <a name="register-azure-subscriptions-to-use-a-mandatory-retention-period"></a>Registrar assinaturas do Azure para usar um período de retenção obrigatório
 
-A perda temporária ou permanente de chaves de criptografia raiz pode ser prejudicial ou até mesmo catastrófica para a operação de serviço e pode resultar em perda de dados. Por esse motivo, os recursos usados com a Chave do Cliente exigem proteção forte. Todos os recursos do Azure usados com a Chave do Cliente oferecem mecanismos de proteção além da configuração padrão. Você pode marcar ou registrar assinaturas do Azure por um período *de retenção obrigatório.* Um período de retenção obrigatório impede o cancelamento imediato e irrevogável de sua assinatura do Azure. As etapas necessárias para registrar assinaturas do Azure para um período de retenção obrigatório exigem colaboração com a equipe do Microsoft 365. Esse processo pode levar de um a cinco dias úteis. Anteriormente, o período de retenção obrigatório às vezes era chamado de "Não Cancelar".
+A perda temporária ou permanente de chaves de criptografia raiz pode ser prejudicial ou até mesmo catastrófica para a operação de serviço e pode resultar em perda de dados. Por esse motivo, os recursos usados com a Chave do Cliente exigem proteção forte. Todos os recursos do Azure usados com a Chave do Cliente oferecem mecanismos de proteção além da configuração padrão. Você pode marcar ou registrar assinaturas do Azure por um período *de retenção obrigatório.* Um período de retenção obrigatório impede o cancelamento imediato e irrevogável da sua assinatura do Azure. As etapas necessárias para registrar assinaturas do Azure para um período de retenção obrigatório exigem colaboração com a equipe do Microsoft 365. Esse processo pode levar de um a cinco dias úteis. Anteriormente, o período de retenção obrigatório às vezes era chamado de "Não Cancelar".
   
-Antes de entrar em contato com a equipe do Microsoft 365, você deve seguir as etapas a seguir para cada assinatura do Azure usada com a Chave do Cliente. Verifique se você tem o [módulo do Azure PowerShell Az](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) instalado antes de começar.
+Antes de entrar em contato com a equipe do Microsoft 365, você deve seguir as etapas a seguir para cada assinatura do Azure usada com a Chave do Cliente. Verifique se você tem o [módulo do Azure PowerShell Az](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) instalado antes de iniciar.
   
 1. Entre com o Azure PowerShell. Para obter instruções, [confira Entrar com o Azure PowerShell.](https://docs.microsoft.com/powershell/azure/authenticate-azureps)
 
@@ -182,18 +182,18 @@ A criação de cofres de chaves também exige a criação de grupos de recursos 
 > [!IMPORTANT]
 > Para maximizar a disponibilidade, seus cofres de chaves devem estar em regiões próximas ao seu serviço do Microsoft 365. Por exemplo, se sua organização do Exchange Online estiver na América do Norte, coloque seus cofres de chaves na América do Norte. Se sua organização do Exchange Online estiver na Europa, coloque seus cofres de chaves na Europa.
 > 
-> Use um prefixo comum para cofres de chaves e inclua uma abreviação do uso e do escopo do cofre de chaves e chaves (por exemplo, para o serviço Do SharePoint da Contoso onde os cofres estarão localizados na América do Norte, um possível par de nomes é Contoso-O365SP-NA-VaultA1 e Contoso-O365SP-NA-VaultA2. Os nomes dos cofres são cadeias de caracteres globalmente exclusivas no Azure, portanto, talvez seja necessário experimentar variações dos nomes desejados caso os nomes desejados já sejam reivindicados por outros clientes do Azure. A partir de julho de 2017, os nomes dos cofres não podem ser alterados, portanto, uma prática melhor é ter um plano escrito para instalação e usar uma segunda pessoa para verificar se o plano foi executado corretamente.
+> Use um prefixo comum para cofres de chaves e inclua uma abreviação do uso e do escopo do cofre de chaves e chaves (por exemplo, para o serviço Do SharePoint da Contoso onde os cofres estarão localizados na América do Norte, um possível par de nomes é Contoso-O365SP-NA-VaultA1 e Contoso-O365SP-NA-VaultA2. Os nomes dos cofres são cadeias de caracteres globalmente exclusivas no Azure, portanto, talvez seja necessário experimentar variações dos nomes desejados caso os nomes desejados já sejam reivindicados por outros clientes do Azure. A partir de julho de 2017, os nomes do cofre não podem ser alterados, portanto, uma prática melhor é ter um plano escrito para instalação e usar uma segunda pessoa para verificar se o plano foi executado corretamente.
 > 
-> Se possível, crie seus cofres em regiões não emparelhadas. As regiões emparelhadas do Azure fornecem alta disponibilidade entre domínios de falha de serviço. Portanto, pares regionais podem ser pensados como a região de backup uns dos outros. Isso significa que um recurso do Azure colocado em uma região está ganhando automaticamente tolerância a falhas por meio da região emparelhada. Por esse motivo, escolher regiões para dois cofres usados em uma política de criptografia de dados onde as regiões estão emparelhadas significa que apenas um total de duas regiões de disponibilidade estão em uso. A maioria das regiões tem apenas duas regiões, portanto, ainda não é possível selecionar regiões não emparelhadas. Se possível, escolha duas regiões não emparelhadas para os dois cofres usados com uma política de criptografia de dados. Isso beneficia-se de um total de quatro regiões de disponibilidade. Para obter mais informações, consulte Continuidade de negócios e recuperação de desastre [(BCDR):](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) Regiões emparelhadas do Azure para obter uma lista atual de pares regionais.
+> Se possível, crie seus cofres em regiões não emparelhadas. Regiões emparelhadas do Azure fornecem alta disponibilidade entre domínios de falha de serviço. Portanto, pares regionais podem ser pensados como a região de backup uns dos outros. Isso significa que um recurso do Azure colocado em uma região está ganhando automaticamente tolerância a falhas por meio da região emparelhada. Por esse motivo, escolher regiões para dois cofres usados em uma política de criptografia de dados onde as regiões estão emparelhadas significa que apenas um total de duas regiões de disponibilidade estão em uso. A maioria das regiões tem apenas duas regiões, portanto, ainda não é possível selecionar regiões não emparelhadas. Se possível, escolha duas regiões não emparelhadas para os dois cofres usados com uma política de criptografia de dados. Isso beneficia-se de um total de quatro regiões de disponibilidade. Para obter mais informações, consulte Continuidade de negócios e recuperação de desastre [(BCDR):](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) Regiões emparelhadas do Azure para obter uma lista atual de pares regionais.
   
 ### <a name="assign-permissions-to-each-key-vault"></a>Atribuir permissões a cada cofre de chaves
 
 Você precisará definir três conjuntos separados de permissões para cada cofre de chaves, dependendo da implementação. Por exemplo, você precisará definir um conjunto de permissões para cada um dos seguintes:
   
-- **Administradores de cofre de** chaves que fazem o gerenciamento do dia a dia do seu cofre de chaves para sua organização. Essas tarefas incluem backup, criação, obter, importar, listar e restaurar.
+- **Os administradores de cofre de** chaves que fazem o gerenciamento do seu cofre de chaves no dia a dia da sua organização. Essas tarefas incluem backup, criação, obter, importar, listar e restaurar.
 
   > [!IMPORTANT]
-  > O conjunto de permissões atribuídas aos administradores de cofre de chaves não inclui a permissão para excluir chaves. Isso é intencional e uma prática importante. A exclusão de chaves de criptografia normalmente não é feita, pois fazer isso destrói permanentemente os dados. Como prática prática, não conceda esta permissão aos administradores do cofre de chaves por padrão. Em vez disso, reserve-o para colaboradores do key vault e atribua-o apenas a um administrador a curto prazo, uma vez que uma compreensão clara das consequências seja compreendida.
+  > O conjunto de permissões atribuídas aos administradores do cofre de chaves não inclui a permissão para excluir chaves. Isso é intencional e uma prática importante. A exclusão de chaves de criptografia normalmente não é feita, pois fazer isso destrói permanentemente os dados. Como prática prática, não conceda essa permissão aos administradores do cofre de chaves por padrão. Em vez disso, reserve-o para colaboradores do key vault e atribua-o apenas a um administrador a curto prazo, uma vez que uma compreensão clara das consequências seja compreendida.
   
   Para atribuir essas permissões a um usuário em sua organização, entre em sua assinatura do Azure com o Azure PowerShell. Para obter instruções, [confira Entrar com o Azure PowerShell.](https://docs.microsoft.com/powershell/azure/authenticate-azureps)
 
@@ -209,7 +209,7 @@ Você precisará definir três conjuntos separados de permissões para cada cofr
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-- **Colaboradores do key vault** que podem alterar permissões no próprio Azure Key Vault. Você precisará alterar essas permissões à medida que os funcionários saírem ou ingressarem em sua equipe. Na rara situação em que os administradores de cofre de chaves precisam de permissão para excluir ou restaurar uma chave, você também precisará alterar as permissões. Esse conjunto de colaboradores do key vault precisa ter a função **Colaborador** no cofre de chaves. Você pode atribuir essa função usando o Gerenciador de Recursos do Azure. Para saber as etapas detalhadas, confira Usar Role-Based Controle de Acesso para gerenciar o acesso aos recursos de [assinatura do Azure.](https://docs.microsoft.com/azure/active-directory/role-based-access-control-configure) O administrador que cria uma assinatura tem esse acesso implicitamente e a capacidade de atribuir outros administradores à função Colaborador.
+- **Colaboradores do key vault** que podem alterar permissões no próprio Azure Key Vault. Você precisará alterar essas permissões à medida que os funcionários saírem ou ingressarem em sua equipe. Na rara situação em que os administradores de cofre de chaves precisam de permissão para excluir ou restaurar uma chave, você também precisará alterar as permissões. Esse conjunto de colaboradores do key vault precisa ter a função **Colaborador** no cofre de chaves. Você pode atribuir essa função usando o Gerenciador de Recursos do Azure. Para etapas detalhadas, confira Usar Role-Based Controle de Acesso para gerenciar o acesso aos recursos de [assinatura do Azure.](https://docs.microsoft.com/azure/active-directory/role-based-access-control-configure) O administrador que cria uma assinatura tem esse acesso implicitamente e a capacidade de atribuir outros administradores à função Colaborador.
 
 - Se você pretende usar a Chave do Cliente com o Exchange Online e o Skype for Business, é necessário dar permissão ao Microsoft 365 para usar o cofre de chaves em nome do Exchange Online e do Skype for Business. Da mesma forma, se você pretende usar a Chave do Cliente com o SharePoint Online e o OneDrive for Business, é necessário adicionar permissão para o Microsoft 365 usar o cofre de chaves em nome do SharePoint Online e do OneDrive for Business. Para dar permissão ao Microsoft 365, execute o cmdlet **Set-AzKeyVaultAccessPolicy** usando a seguinte sintaxe:
 
@@ -221,7 +221,7 @@ Você precisará definir três conjuntos separados de permissões para cada cofr
 
     - *O nome do* cofre é o nome do cofre de chaves que você criou.
 
-    - Para o Exchange Online e o Skype for Business, substitua  *o Office 365 appID* pelo `00000002-0000-0ff1-ce00-000000000000`
+    - Para o Exchange Online e o Skype for Business, substitua  *o Office 365 appID* por `00000002-0000-0ff1-ce00-000000000000`
 
     - Para arquivos do SharePoint Online, OneDrive for Business e Teams, substitua  *o Office 365 appID* por `00000003-0000-0ff1-ce00-000000000000`
 
@@ -239,7 +239,7 @@ Você precisará definir três conjuntos separados de permissões para cada cofr
 
 ### <a name="enable-and-then-confirm-soft-delete-on-your-key-vaults"></a>Habilitar e confirmar a exclusão suave em seus cofres de chaves
 
-Quando você pode recuperar suas chaves rapidamente, é menos provável que você experimente uma paralisação de serviço estendida devido a chaves excluídas acidentalmente ou maliciosamente. Você precisa habilitar essa configuração, conhecida como Exclusão Suave, antes de poder usar suas chaves com a Chave do Cliente. A habilitação da Exclusão Suave permite que você recupere chaves ou cofres dentro de 90 dias após a exclusão sem precisar restaurá-los do backup.
+Quando você pode recuperar suas chaves rapidamente, é menos provável que uma paralisação de serviço estendida seja devido a chaves excluídas acidentalmente ou maliciosamente. Você precisa habilitar essa configuração, conhecida como Exclusão Suave, antes de poder usar suas chaves com a Chave do Cliente. A habilitação da Exclusão Suave permite que você recupere chaves ou cofres dentro de 90 dias após a exclusão sem precisar restaurá-los do backup.
   
 Para habilitar a Exclusão Suave em seus cofres de chaves, conclua estas etapas:
   
@@ -291,7 +291,7 @@ Para importar uma chave diretamente para o cofre de chaves, você precisa ter um
   
 Algumas organizações preferem essa abordagem para estabelecer a proveniência de suas chaves e, em seguida, esse método também fornece os seguintes atestados:
   
-- O toolset usado para importação inclui o atestado de nCipher de que o KEK (Key Exchange Key) usado para criptografar a chave gerada não é exportável e é gerado dentro de um HSM original que foi fabricado por nCipher.
+- O toolset usado para importação inclui o atestado de nCipher de que a Chave de Troca de Chaves (KEK) usada para criptografar a chave gerada não é exportável e é gerada dentro de um HSM original que foi fabricado por nCipher.
 
 - O toolset inclui o atestado de nCipher de que o mundo de segurança do Azure Key Vault também foi gerado em um HSM original fabricado por nCipher. Esse atestado prova que a Microsoft também está usando hardware nCipher original.
 
@@ -299,7 +299,7 @@ Verifique com seu grupo de segurança para determinar se os atestados acima são
   
 ### <a name="check-the-recovery-level-of-your-keys"></a>Verificar o nível de recuperação de suas chaves
 
-O Microsoft 365 requer que a assinatura do Azure Key Vault seja definida como Não Cancelar e que as chaves usadas pela Chave do Cliente tenham a exclusão suave habilitada. Você pode confirmar as configurações de assinaturas observando o nível de recuperação em suas chaves.
+O Microsoft 365 requer que a assinatura do Azure Key Vault seja definida como Não Cancelar e que as chaves usadas pela Chave do Cliente tenham a exclusão soft habilitada. Você pode confirmar as configurações de assinaturas observando o nível de recuperação em suas chaves.
   
 Para verificar o nível de recuperação de uma chave, no Azure PowerShell, execute o cmdlet Get-AzKeyVaultKey seguinte:
   
@@ -311,7 +311,7 @@ Se a propriedade _Nível_ de Recuperação retornar algo diferente de um valor *
   
 ### <a name="back-up-azure-key-vault"></a>Back up Azure Key Vault
 
-Imediatamente após a criação ou qualquer alteração em uma chave, execute um backup e armazene cópias do backup, online e offline. Cópias offline não devem ser conectadas a nenhuma rede, como em um local de armazenamento físico seguro ou comercial. Pelo menos uma cópia do backup deve ser armazenada em um local que poderá ser acessado em caso de desastre. Os blobs de backup são o único meio de restaurar material de chave caso uma chave do Key Vault seja destruída permanentemente ou, de outra forma, inoperante. As chaves externas ao Azure Key Vault e que foram importadas para o Azure Key Vault não se qualificam como um backup porque os metadados necessários para a Chave do Cliente usar a chave não existem com a chave externa. Somente um backup feito do Azure Key Vault pode ser usado para operações de restauração com a Chave do Cliente. Portanto, você deve criar um backup do Azure Key Vault depois de carregar ou criar uma chave.
+Imediatamente após a criação ou qualquer alteração em uma chave, execute um backup e armazene cópias do backup, online e offline. Cópias offline não devem ser conectadas a nenhuma rede, como em um local de armazenamento físico seguro ou comercial. Pelo menos uma cópia do backup deve ser armazenada em um local que poderá ser acessado em caso de desastre. Os blobs de backup são o único meio de restaurar material de chave caso uma chave do Key Vault seja destruída permanentemente ou, de outra forma, inoperável. As chaves externas ao Azure Key Vault e que foram importadas para o Azure Key Vault não se qualificam como um backup porque os metadados necessários para a Chave do Cliente usar a chave não existem com a chave externa. Somente um backup feito do Azure Key Vault pode ser usado para operações de restauração com a Chave do Cliente. Portanto, você deve criar um backup do Azure Key Vault depois de carregar ou criar uma chave.
   
 Para criar um backup de uma chave do Azure Key Vault, execute o cmdlet [Backup-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/backup-azkeyvaultkey) da seguinte forma:
 
@@ -337,7 +337,7 @@ Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-N
 
 Validar antes de usar chaves em um DEP é opcional, mas altamente recomendável. Se você usar etapas para configurar suas chaves e cofres diferentes dos descritos neste artigo, valide a saúde dos recursos do Azure Key Vault antes de configurar a Chave do Cliente.
   
-Para verificar se as chaves têm `get` `wrapKey` e as operações `unwrapKey` habilitadas:
+Para verificar se suas chaves têm `get` `wrapKey` e as operações `unwrapKey` habilitadas:
   
 Execute o cmdlet [Get-AzKeyVault](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) da seguinte forma:
   
@@ -384,7 +384,7 @@ Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date
 > [!CAUTION]
 > Não de definir datas de expiração em chaves de criptografia usadas com a Chave do Cliente.
   
-### <a name="obtain-the-uri-for-each-azure-key-vault-key"></a>Obtenha o URI de cada chave do Azure Key Vault
+### <a name="obtain-the-uri-for-each-azure-key-vault-key"></a>Obter o URI de cada chave do Azure Key Vault
 
 Depois de configurar seus cofres de chaves e adicionar suas chaves, execute o seguinte comando para obter o URI da chave em cada cofre de chaves. Você precisará usar esses URIs ao criar e atribuir cada DEP posteriormente, portanto, salve essas informações em um local seguro. Execute este comando uma vez para cada cofre de chaves.
   
@@ -396,13 +396,13 @@ No Azure PowerShell:
 
 ## <a name="office-365-setting-up-customer-key-for-exchange-online-and-skype-for-business"></a>Office 365: Configurando a chave do cliente para o Exchange Online e o Skype for Business
 
-Antes de começar, verifique se concluiu as tarefas necessárias para configurar o Azure Key Vault. Consulte [Tarefas completas no Azure Key Vault e no Microsoft FastTrack para obter informações](#complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key) sobre a Chave do Cliente.
+Antes de começar, verifique se concluiu as tarefas necessárias para configurar o Azure Key Vault. Confira [Tarefas completas no Azure Key Vault e no Microsoft FastTrack para obter informações.](#complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key)
   
 Para configurar a Chave do Cliente para o Exchange Online e o Skype for Business, você concluirá estas etapas conectando-se remotamente ao Exchange Online com o Windows PowerShell.
   
 ### <a name="create-a-data-encryption-policy-dep-for-use-with-exchange-online-and-skype-for-business"></a>Criar uma política de criptografia de dados (DEP) para uso com o Exchange Online e o Skype for Business
 
-Uma DEP é associada a um conjunto de chaves armazenadas no Azure Key Vault. Você atribui um DEP a uma caixa de correio no Microsoft 365. O Microsoft 365 usará as chaves identificadas na política para criptografar a caixa de correio. Para criar a DEP, você precisa dos URIs do Key Vault obtidos anteriormente. Confira [Obter o URI de cada chave do Azure Key Vault para](#obtain-the-uri-for-each-azure-key-vault-key) obter instruções.
+Uma DEP é associada a um conjunto de chaves armazenadas no Azure Key Vault. Você atribui um DEP a uma caixa de correio no Microsoft 365. O Microsoft 365 usará as chaves identificadas na política para criptografar a caixa de correio. Para criar a DEP, você precisa dos URIs do Key Vault obtidos anteriormente. Consulte [Obter o URI de cada chave do Azure Key Vault para](#obtain-the-uri-for-each-azure-key-vault-key) obter instruções.
   
 Lembre-se! Ao criar uma DEP, você especifica duas chaves em dois Azure Key Vaults diferentes. Crie essas chaves em duas regiões separadas do Azure para garantir a redundância geográfica.
   
@@ -410,7 +410,7 @@ Para criar a DEP, siga estas etapas:
   
 1. No computador local, usando uma conta de trabalho ou de estudante que tenha permissões de administrador global em sua organização, conecte-se ao [PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online em uma janela do Windows PowerShell.
 
-2. Para criar um DEP, use o cmdlet New-DataEncryptionPolicy digitando o comando a seguir.
+2. Para criar uma DEP, use o cmdlet New-DataEncryptionPolicy digitando o comando a seguir.
 
    ```powershell
    New-DataEncryptionPolicy -Name <PolicyName> -Description "Policy Description" -AzureKeyIDs <KeyVaultURI1>, <KeyVaultURI2>
@@ -420,7 +420,7 @@ Para criar a DEP, siga estas etapas:
 
    - *PolicyName* é o nome que você deseja usar para a política. Os nomes não podem conter espaços. Por exemplo, USA_mailboxes.
 
-   - *A Descrição* da Política é uma descrição amigável da política que o ajudará a se lembrar para o que é a política. Você pode incluir espaços na descrição. Por exemplo, "Chave raiz para caixas de correio nos EUA e seus territórios".
+   - *A Descrição* da Política é uma descrição amigável da política que ajudará você a se lembrar para que a política é. Você pode incluir espaços na descrição. Por exemplo, "Chave raiz para caixas de correio nos EUA e seus territórios".
 
    - *KeyVaultURI1* é o URI da primeira chave na política. Por exemplo, <https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01>.
 
@@ -454,7 +454,7 @@ Onde *MailUserIdParameter especifica* um usuário de email (também conhecido co
   
 ### <a name="validate-mailbox-encryption"></a>Validar a criptografia de caixa de correio
 
-Criptografar uma caixa de correio pode levar algum tempo. Para a atribuição de política pela primeira vez, a caixa de correio também deve se mover completamente de um banco de dados para outro antes que o serviço possa criptografar a caixa de correio. Recomendamos que você aguarde 72 horas antes de tentar validar a criptografia depois de alterar uma DEP ou da primeira vez que atribuir um DEP a uma caixa de correio.
+Criptografar uma caixa de correio pode levar algum tempo. Para a atribuição de política pela primeira vez, a caixa de correio também deve se mover completamente de um banco de dados para outro para que o serviço possa criptografar a caixa de correio. Recomendamos que você aguarde 72 horas antes de tentar validar a criptografia depois de alterar uma DEP ou da primeira vez que atribuir um DEP a uma caixa de correio.
   
 Use o Get-MailboxStatistics cmdlet para determinar se uma caixa de correio está criptografada.
   
@@ -466,19 +466,19 @@ A propriedade IsEncrypted retornará um valor verdadeiro se a  caixa de correio 
 
 ## <a name="office-365-setting-up-customer-key-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>Office 365: Configurando a chave do cliente para arquivos do SharePoint Online, OneDrive for Business e Teams
 
-Antes de começar, verifique se concluiu as tarefas necessárias para configurar o Azure Key Vault. Consulte [Tarefas completas no Azure Key Vault e no Microsoft FastTrack para obter informações](#complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key) sobre a Chave do Cliente.
+Antes de começar, verifique se concluiu as tarefas necessárias para configurar o Azure Key Vault. Confira [Tarefas completas no Azure Key Vault e no Microsoft FastTrack para obter informações.](#complete-tasks-in-azure-key-vault-and-microsoft-fasttrack-for-customer-key)
   
 Para configurar a Chave do Cliente para os arquivos do SharePoint Online, do OneDrive for Business e do Teams, você conclui essas etapas remotamente conectando-se ao SharePoint Online com o Windows PowerShell.
   
 ### <a name="create-a-data-encryption-policy-dep-for-each-sharepoint-online-and-onedrive-for-business-geo"></a>Criar uma política de criptografia de dados (DEP) para cada área geográfica do SharePoint Online e do OneDrive for Business
 
-Você associa um DEP a um conjunto de chaves armazenado no Azure Key Vault. Você aplica uma DEP a todos os seus dados em uma localização geográfica, também chamada de localização geográfica. Se você usar o recurso multi-geo do Office 365, poderá criar uma DEP por geo com a capacidade de usar chaves diferentes por geo. Se você não estiver usando a multi-geo, poderá criar uma DEP em sua organização para uso com arquivos do SharePoint Online, OneDrive for Business e Teams. O Microsoft 365 usa as chaves identificadas na DEP para criptografar seus dados nessa área geográfica. Para criar a DEP, você precisa dos URIs do Key Vault obtidos anteriormente. Confira [Obter o URI de cada chave do Azure Key Vault para](#obtain-the-uri-for-each-azure-key-vault-key) obter instruções.
+Você associa uma DEP a um conjunto de chaves armazenadas no Azure Key Vault. Você aplica uma DEP a todos os seus dados em uma localização geográfica, também chamada de localização geográfica. Se você usar o recurso multi-geo do Office 365, poderá criar uma DEP por geo com a capacidade de usar chaves diferentes por geo. Se você não estiver usando a multi-geo, poderá criar uma DEP em sua organização para uso com arquivos do SharePoint Online, OneDrive for Business e Teams. O Microsoft 365 usa as chaves identificadas na DEP para criptografar seus dados nessa área geográfica. Para criar a DEP, você precisa dos URIs do Key Vault obtidos anteriormente. Consulte [Obter o URI de cada chave do Azure Key Vault para](#obtain-the-uri-for-each-azure-key-vault-key) obter instruções.
   
 Lembre-se! Ao criar uma DEP, você especifica duas chaves em dois Azure Key Vaults diferentes. Crie essas chaves em duas regiões separadas do Azure para garantir a redundância geográfica.
   
 Para criar uma DEP, você precisa se conectar remotamente ao SharePoint Online usando o Windows PowerShell.
   
-1. No computador local, usando uma conta de trabalho ou de estudante que tenha permissões de administrador global em sua organização, conecte-se ao [PowerShell do SharePoint Online.](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true)
+1. No computador local, usando uma conta de trabalho ou de estudante que tenha permissões de administrador global em sua organização, conecte-se ao PowerShell do [SharePoint Online.](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true)
 
 2. No Shell de Gerenciamento do Microsoft SharePoint Online, execute o cmdlet Register-SPODataEncryptionPolicy seguinte:
 
@@ -496,7 +496,7 @@ Para criar uma DEP, você precisa se conectar remotamente ao SharePoint Online u
 
 ### <a name="validate-file-encryption"></a>Validar a criptografia de arquivo
 
- Para validar a criptografia de arquivos do SharePoint Online, oneDrive for Business e Teams, conecte-se ao PowerShell do [SharePoint Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)e use o cmdlet Get-SPODataEncryptionPolicy para verificar o status do seu locatário. A _propriedade State_ retornará um valor registrado se a criptografia de Chave de Cliente estiver habilitada e todos os arquivos em todos os sites foram criptografados.  Se a criptografia ainda estiver em andamento, este cmdlet retornará um valor **de registro.**
+ Para validar a criptografia dos arquivos do SharePoint Online, do OneDrive for Business e do Teams, conecte-se ao PowerShell do [SharePoint Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)e use o cmdlet Get-SPODataEncryptionPolicy para verificar o status do seu locatário. A _propriedade State_ retornará um valor registrado se a criptografia de Chave de Cliente estiver habilitada e todos os arquivos em todos os sites foram criptografados.  Se a criptografia ainda estiver em andamento, este cmdlet retornará um valor de **registro.**
 
 ## <a name="related-articles"></a>Artigos relacionados
 

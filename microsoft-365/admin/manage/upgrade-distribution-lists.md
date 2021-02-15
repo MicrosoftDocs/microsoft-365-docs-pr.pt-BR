@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
-description: Saiba como atualizar uma ou várias listas de distribuição para grupos do Microsoft 365 no Outlook e como usar o PowerShell para atualizar várias listas de distribuição simultaneamente.
+description: Saiba como atualizar uma ou várias listas de distribuição para Grupos do Microsoft 365 no Outlook e como usar o PowerShell para atualizar várias listas de distribuição simultaneamente.
 ms.openlocfilehash: 95f887b4386b349dc9d8bb471deab19b5425f6f5
 ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
 ms.translationtype: MT
@@ -47,7 +47,7 @@ Você deve ser um administrador global ou administrador do Exchange para atualiz
 
 5. Na caixa de diálogo de informações, selecione **Sim** para confirmar a atualização. O processo começa imediatamente. Dependendo do tamanho e do número de DLs que você está atualizando, o processo pode levar minutos ou horas.<br/>Se a lista de distribuição não puder ser atualizada, uma caixa de diálogo aparecerá dizendo isso. Veja [Quais listas de distribuição não podem ser atualizadas?](#which-distribution-lists-cant-be-upgraded).
 
-6. Se você estiver atualizando várias listas de distribuição, use a lista drop-down para filtrar quais listas de distribuição foram atualizadas. Se a lista não estiver concluída, aguarde  um pouco mais e selecione Atualizar para ver o que foi atualizado com êxito.<br/>Não há aviso informando quando o processo de atualização foi concluído para todas as DLs selecionadas. Você pode descobrir isso procurando para ver o que está listado em **Disponível para atualização** ou **DLs atualizadas.**
+6. Se você estiver atualizando várias listas de distribuição, use a lista drop-down para filtrar quais listas de distribuição foram atualizadas. Se a lista não estiver completa, aguarde  um pouco mais e selecione Atualizar para ver o que foi atualizado com êxito.<br/>Não há aviso informando quando o processo de atualização foi concluído para todas as DLs selecionadas. Você pode descobrir isso procurando para ver o que está listado em **Disponível para atualização** ou **DLs atualizadas.**
 
 7. Se você selecionou uma DL para atualização, mas ela ainda aparece na página como Disponível para atualização, ela falhou ao atualizar. Veja [o que fazer se a atualização não funcionar.](#what-to-do-if-the-upgrade-doesnt-work)
 
@@ -58,7 +58,7 @@ Você deve ser um administrador global ou administrador do Exchange para atualiz
 
 As listas de distribuição que não conseguem atualizar permanecem inalteradas.
 
-Se uma ou mais **listas de** distribuição elegíveis não conseguirem ser atualizadas, abra um [tíquete de Suporte.](../contact-support-for-business-products.md) O problema precisará ser escalonado para a equipe de Engenharia de Grupos para que eles descubram o problema.
+Se uma ou mais **listas de** distribuição qualificadas não for atualizada, abra um [tíquete de suporte.](../contact-support-for-business-products.md) O problema precisará ser escalonado para a equipe de Engenharia de Grupos para que eles descubram o problema.
 
 É possível que a lista de distribuição não seja atualizada por causa de uma paralisação de serviço, mas é bastante improvável. Se você quiser, aguarde um pouco e tente atualizar a DL novamente.
 
@@ -92,7 +92,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
-Por exemplo, se você quiser atualizar cinco DLs com endereço SMTP `dl1@contoso.com` `dl2@contoso.com` `dl3@contoso.com` e, `dl4@contoso.com` `dl5@contoso.com` e, execute o seguinte comando:
+Por exemplo, se você quiser atualizar cinco DLs com endereço SMTP `dl1@contoso.com` `dl2@contoso.com` e, e, execute o seguinte `dl3@contoso.com` `dl4@contoso.com` `dl5@contoso.com` comando:
 
 `Upgrade-DistributionGroup -DlIdentities dl1@contoso.com, dl2@contoso.com, dl3@contoso.com, dl4@contoso.com, dl5@contoso.com`
 
@@ -134,7 +134,7 @@ Você só pode atualizar listas de distribuição gerenciadas na nuvem, simples 
 |Lista de distribuição que tem apenas membros, mas nenhum proprietário  <br/> |Não  <br/> |
 |Lista de distribuição que tem alias contendo caracteres especiais  <br/> |Não  <br/> |
 |Se a lista de distribuição estiver configurada para ser um endereço de encaminhamento para a Caixa de Correio Compartilhada  <br/> |Não  <br/> |
-|Se a DL faz parte da **Restrição do Remetente** em outra DL.  <br/> |Não  <br/> |
+|Se a DL faz parte da **Restrição de Remetente** em outra DL.  <br/> |Não  <br/> |
 |Grupos de segurança  <br/> |Não  <br/> |
 |Listas de Distribuição Dinâmica  <br/> |Não  <br/> |
 |Listas de distribuição que foram convertidas **em RoomLists**  <br/> |Não  <br/> |
@@ -142,7 +142,7 @@ Você só pode atualizar listas de distribuição gerenciadas na nuvem, simples 
 
 ### <a name="check-which-dls-are-eligible-for-upgrade"></a>Verificar quais DLs estão qualificados para atualização
 
-Se quiser verificar se uma DL é qualificada ou não, você pode executar o comando abaixo:
+Se quiser verificar se uma DL está qualificada ou não, você pode executar o comando abaixo:
 
 `Get-DistributionGroup \<DL SMTP address\> | Get-EligibleDistributionGroupForMigration`
 
@@ -152,11 +152,11 @@ Se você quiser verificar quais DLs estão qualificados para atualização, exec
 
 ### <a name="who-can-run-the-upgrade-scripts"></a>Quem pode executar os scripts de atualização?
 
-Pessoas com direitos de administrador global ou administrador do Exchange.
+Pessoas com direitos de administrador global ou do Exchange.
 
 ### <a name="why-is-the-contact-card-still-showing-a-distribution-list-what-should-i-do-to-prevent-a-upgraded-distribution-list-from-showing-up-in-my-auto-suggest-list"></a>Por que o cartão de visita ainda está exibindo uma lista de distribuição? O que devo fazer para impedir que uma lista de distribuição atualizada seja aparecendo na minha lista de sugestões automáticas?
 
-- For Outlook: When someone tries to send an email in Outlook by typing the Microsoft 365 group name after migration, the recipient will be resolved as the distribution list instead of the group. O cartão de visita do destinatário será o cartão de visita das listas de distribuição. Isso se deve ao cache de destinatários ou cache de nome nick no Outlook. O email será enviado com êxito para o grupo, mas pode causar confusão para o remetente.<br/>Você pode executar as etapas neste tópico, informações sobre a lista de Preenchimento Automático do [Outlook](https://go.microsoft.com/fwlink/?LinkID=798736) para redefinir o cache, o que corrigirá esse problema.
+- For Outlook: When someone tries to send an email in Outlook by typing the Microsoft 365 group name after migration, the recipient will be resolved as the distribution list instead of the group. O cartão de visita do destinatário será o cartão de visita das listas de distribuição. Isso é devido ao cache de destinatário ou cache de nome nick no Outlook. O email será enviado com êxito para o grupo, mas pode causar confusão para o remetente.<br/>Você pode executar as etapas neste tópico, informações sobre a lista de Preenchimento Automático do [Outlook](https://go.microsoft.com/fwlink/?LinkID=798736) para redefinir o cache, o que corrigirá esse problema.
 
 - Para o Outlook na Web: no caso do Outlook na Web, o destinatário da lista de distribuição continuará no cache. Você pode seguir as etapas em Remover nome sugerido ou endereço de [email](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) da Lista de Conclusão Automática para atualizar o cache para ver o cartão de visita do grupo.
 

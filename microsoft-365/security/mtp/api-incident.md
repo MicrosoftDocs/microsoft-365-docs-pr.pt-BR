@@ -46,7 +46,7 @@ Você pode solicitar até 50 chamadas por minuto ou 1500 chamadas por hora. Cada
 
 Um código de resposta HTTP indica que você atingiu uma cota, por número de solicitações enviadas ou por tempo `429` de execução alocado. O corpo da resposta incluirá o tempo até que a cota alcançada seja redefinida.
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 A API de incidentes requer diferentes tipos de permissões para cada um de seus métodos. Para obter mais informações sobre as permissões necessárias, consulte o artigo do respectivo método.
 
@@ -75,7 +75,7 @@ severity | Enum | Gravidade do incidente. Os valores possíveis ```UnSpecified``
 status | Enum | Especifica o status atual do incidente. Os valores possíveis ```Active``` são: ```Resolved``` , e ```Redirected``` .
 classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do incidente. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
-categorias | string List | Lista de marcas de incidente.
+tags | string List | Lista de marcas de incidente.
 alerts | Lista de alertas | Lista de alertas relacionados. Veja exemplos na documentação da API [de incidentes](api-list-incidents.md) de lista.
 
 ## <a name="related-articles"></a>Artigos relacionados

@@ -44,7 +44,7 @@ Para obter instruções sobre como ativar o serviço, [leia Ativar o Microsoft 3
 Os clientes com as seguintes licenças que não são E5 podem usar o Microsoft 365 Defender:
 
 - Microsoft Defender para Ponto de Extremidade
-- Microsoft Defender para Identidade?
+- O que é o Microsoft Defender para Identidade?
 - Microsoft Cloud App Security
 - Defender para Office 365 (Plano 2)
  
@@ -86,10 +86,10 @@ Por padrão, o Microsoft 365 Defender exibe informações de hora no fuso horár
 
 ## <a name="how-can-i-learn-about-new-microsoft-365-defender-feature-and-ui-updates"></a>Como posso saber mais sobre as novas atualizações de interface do usuário e recursos do Microsoft 365 Defender?
 
-A Microsoft fornece regularmente informações por meio de vários canais, incluindo:
+A Microsoft fornece informações regularmente por meio de vários canais, incluindo:
 
 - O [centro de mensagens](../../admin/manage/message-center.md) no Centro de administração do Microsoft 365
-- Postagens de blog na comunidade técnica de conformidade e & segurança do [Microsoft 365](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/bg-p/securityprivacycompliance)
+- Postagens de blog na comunidade técnica de conformidade e segurança & Microsoft [365](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/bg-p/securityprivacycompliance)
 
 Obter as experiências publicamente mais recentes disponíveis ao ligar os recursos [de visualização.](preview.md)
 

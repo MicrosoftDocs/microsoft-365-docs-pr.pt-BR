@@ -34,7 +34,7 @@ ms.locfileid: "50044247"
 ---
 # <a name="set-up-microsoft-365"></a>Configurar o Microsoft 365
 
-Este artigo descreve o processo de configuração do Microsoft 365. Qualquer pessoa com o Microsoft 365 Business Premium pode usar essas diretrizes para dar um passo à segurança.
+Este artigo descreve o processo de configuração do Microsoft 365. Qualquer pessoa com o Microsoft 365 Business Premium pode usar essas diretrizes para dar um passo à frente na segurança.
 
 ## <a name="admins-set-up-microsoft-365"></a>Administradores: Configurar o Microsoft 365
 

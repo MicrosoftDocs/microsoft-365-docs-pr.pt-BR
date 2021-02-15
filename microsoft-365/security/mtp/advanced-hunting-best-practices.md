@@ -35,7 +35,7 @@ ms.locfileid: "49928469"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Aplique essas recomendações para obter resultados mais rapidamente e evitar tempos finais durante a execução de consultas complexas. Para obter mais informações sobre como melhorar o desempenho da consulta, leia [ práticas recomendadas de consulta no Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).
+Aplique essas recomendações para obter resultados com mais rapidez e evitar tempos finais durante a execução de consultas complexas. Para obter mais informações sobre como melhorar o desempenho da consulta, leia [ práticas recomendadas de consulta no Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).
 
 ## <a name="understand-cpu-resource-quotas"></a>Compreender as cotas de recursos da CPU
 Dependendo de seu tamanho, cada locatário tem acesso a uma quantidade definida de recursos da CPU alocados para executar consultas de busca avançadas. Para obter informações detalhadas sobre vários limites de serviço, leia sobre cotas de busca avançada [e parâmetros de uso.](advanced-hunting-limits.md)
@@ -58,10 +58,10 @@ Os clientes que executarem várias consultas regularmente devem controlar o cons
 - **Tem batidas contém** para evitar pesquisar substrings dentro de palavras desnecessariamente, use o `has` operador em vez de `contains` . [Saiba mais sobre operadores de cadeia de caracteres](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
 - **Procure em colunas específicas**— procure em uma coluna específica em vez de executar pesquisas de texto completo em todas as colunas. Não use para `*` verificar todas as colunas.
 - **Sensível a caso para velocidade —** as pesquisas que fazem parte de casos são mais específicas e geralmente mais bem-desempenho. Nomes de operadores de cadeia [de](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)caracteres que não são sensíveis a minúsculas, `has_cs` como e geralmente `contains_cs` terminam com `_cs` . Você também pode usar o operador igual a minúsculas em `==` vez de `=~` .
-- **Analisar, não extraia sempre que** possível, use o operador de análise ou uma função de análise como [parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). [](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) Evite o `matches regex` operador de cadeia de [caracteres ou a função extract(),](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)ambos usam expressão regular. Reserve o uso da expressão regular para cenários mais complexos. [Leia mais sobre funções de análise](#parse-strings)
+- **Analisar, não extraia sempre que** possível, use o operador de análise ou uma função de análise como [parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). [](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) Evite o `matches regex` operador de cadeia de [caracteres ou a função extract(),](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)ambos usam expressão regular. Reserve o uso de expressões regulares para cenários mais complexos. [Leia mais sobre funções de análise](#parse-strings)
 - **Filtrar tabelas não expressões**— Não filtre em uma coluna calculada se você puder filtrar em uma coluna de tabela.
 - **Sem termos de três caracteres**: evite comparar ou filtrar usando termos com três caracteres ou menos. Esses termos não são indexados e a correspondência deles exigirá mais recursos.
-- **Projetar seletivamente**— Facilmente entenda seus resultados projetando apenas as colunas de que você precisa. Projetar colunas específicas antes de executar [junção ou](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) operações semelhantes também ajuda a melhorar o desempenho.
+- **Projetar seletivamente**— Facilmente entenda seus resultados projetando apenas as colunas de que você precisa. Projetar colunas específicas antes da execução de [junção ou](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) operações semelhantes também ajuda a melhorar o desempenho.
 
 ## <a name="optimize-the-join-operator"></a>Otimizar o `join` operador
 O [operador de junção](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) mescla linhas de duas tabelas correspondendo valores em colunas especificadas. Aplique essas dicas para otimizar consultas que usam esse operador.
@@ -81,7 +81,7 @@ O [operador de junção](https://docs.microsoft.com/azure/data-explorer/kusto/qu
     on AccountSid
     ```
 
-- **Use** o tipo de junção interna — O tipo de junção padrão ou [innerunique-join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) deduplica linhas na tabela esquerda pela tecla de junção antes de retornar uma linha para cada combinação à tabela direita. [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) Se a tabela esquerda tiver várias linhas com o mesmo valor para a chave, essas linhas serão desuplicadas para deixar uma única linha aleatória para `join` cada valor exclusivo.
+- **Use** o tipo de junção interna — O tipo de junção padrão ou junção interna deduplica as linhas na tabela esquerda pela tecla de junção antes de retornar uma linha para cada combinação à tabela direita. [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) Se a tabela esquerda tiver várias linhas com o mesmo valor para a chave, essas linhas serão desuplicadas para deixar uma única linha aleatória para `join` cada valor exclusivo.
 
     Esse comportamento padrão pode deixar de fora informações importantes da tabela esquerda que podem fornecer informações úteis. Por exemplo, a consulta abaixo mostrará apenas um email que contém um anexo específico, mesmo se esse mesmo anexo tiver sido enviado usando várias mensagens de email:
 
@@ -207,7 +207,7 @@ A consulta é resumida por tanto `InitiatingProcessId` quanto`InitiatingProcessC
 ### <a name="query-command-lines"></a>Linhas de comando de consulta
 Há várias maneiras de criar uma linha de comando para executar uma tarefa. Por exemplo, um invasor pode fazer referência a um arquivo de imagem sem um caminho, sem uma extensão de arquivo, usando variáveis de ambiente ou entre aspas. O invasor também pode alterar a ordem dos parâmetros ou adicionar várias aspas e espaços.
 
-Para criar consultas mais duráveis ao redor das linhas de comando, aplique as seguintes práticas:
+Para criar consultas mais duráveis em torno das linhas de comando, aplique as seguintes práticas:
 
 - Identifique os processos conhecidos (como *net.exe* ou *psexec.exe)* correspondendo aos campos de nome de arquivo, em vez de filtrar na própria linha de comando.
 - Analisar seções de linha de comando usando a [função parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) 
@@ -235,7 +235,7 @@ DeviceProcessEvents
 ```
 
 ### <a name="ingest-data-from-external-sources"></a>Ingestão de dados de fontes externas
-Para incorporar listas longas ou tabelas grandes à sua consulta, use o operador [externaldata](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) para ingerir dados de um URI especificado. Você pode obter dados de arquivos em TXT, CSV, JSON ou [outros formatos.](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats) O exemplo a seguir mostra como você pode utilizar a lista extensa de hashes SHA-256 de malware fornecidos pelo MalwareBazaar (abuse.ch) para verificar anexos em emails:
+Para incorporar listas longas ou tabelas grandes à sua consulta, use o operador [de dados externos](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) para ingerir dados de um URI especificado. Você pode obter dados de arquivos em TXT, CSV, JSON ou [outros formatos.](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats) O exemplo a seguir mostra como você pode utilizar a lista extensa de hashes SHA-256 de malware fornecidos pelo MalwareBazaar (abuse.ch) para verificar anexos em emails:
 
 ```kusto
 let abuse_sha256 = (externaldata(sha256_hash: string )

@@ -128,7 +128,7 @@ O número de itens exibidos e as colunas na lista podem ser personalizadas. As c
 
 Selecionar um item dessa lista abrirá um flyout exibindo um gráfico de entidades de evento, mostrando os processos pai e filho envolvidos no evento.
 
-A lista pode ser filtrada pelo tipo específico de evento; por exemplo, eventos do Registro ou eventos smart screen.
+A lista pode ser filtrada pelo tipo específico de evento; por exemplo, eventos do Registro ou Eventos de Tela Inteligente.
 
 A lista também pode ser exportada para um arquivo CSV, para download. Embora o arquivo não seja limitado pelo número de eventos, o intervalo máximo de tempo que você pode optar por exportar é de sete dias.
 
@@ -148,7 +148,7 @@ A **guia Inventário de** software lista o software instalado no dispositivo.
 
 ![Imagem da guia inventário de software para perfil de dispositivo](../../media/mtp-device-profile/hybrid-device-tab-software-inventory.png)
 
-O modo de exibição padrão exibe o fornecedor do software, o número de versão instalado, o número de pontos fracos conhecidos do software, informações sobre ameaças, código do produto e marcas. O número de itens exibidos e quais colunas são exibidas podem ser personalizadas.
+O modo de exibição padrão exibe o fornecedor do software, o número de versão instalado, o número de pontos fracos conhecidos do software, as informações sobre ameaças, o código do produto e as marcas. O número de itens exibidos e quais colunas são exibidas podem ser personalizadas.
 
 Selecionar um item dessa lista abre um flyout contendo mais detalhes sobre o software selecionado, bem como o caminho e o timestamp da última vez em que o software foi encontrado.
 
@@ -176,7 +176,7 @@ O modo de exibição padrão lista o boletim que contém as atualizações, a ve
 
 O número de itens exibidos por página e quais colunas são exibidas podem ser personalizadas.
 
-Selecionar um item abrirá um flyout com links para a atualização.
+Selecionar um item abrirá um flyout que se vincula à atualização.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

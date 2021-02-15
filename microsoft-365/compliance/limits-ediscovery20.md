@@ -65,7 +65,7 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 |Número máximo de pesquisas que podem ser executados ao mesmo tempo. |Sem limite |
 |Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo. |10  | 
 |Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições). |10.000 &nbsp; <sup>2</sup>|
-|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo, **um \** _ ou _*definir \**_.|3 |  
+|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo, **um \** _ ou _*definir \**_.|3  |  
 |Variantes máximas retornadas ao usar caractere curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o operador booliana _ *NEAR**. |10.000 &nbsp; <sup>3</sup>|
 |Número máximo de itens por caixa de correio de usuário que são exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos. |100|
 |Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.|1.000|
@@ -91,7 +91,7 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 |Tamanho máximo de uma única exportação.|3 milhões de documentos ou 100 GB, o que for menor|
 |Quantidade máxima de dados em um único dia. | 2 TB |
 |Máximo de exportações simultâneas em sua organização. | 10 <sup>4</sup> |
-|Máximo de exportações simultâneas por usuário. | 3 |
+|Máximo de exportações simultâneas por usuário. | 3  |
 |Tamanho máximo de um único arquivo PST. | 10 GB |
 |Máximo de exportações simultâneas por conjunto de revisão. | 1  |
 |||
@@ -111,7 +111,7 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 >
 > <sup>2</sup> Ao pesquisar locais do SharePoint e do OneDrive for Business, os caracteres nas URLs dos sites que estão sendo pesquisados contam para esse limite.
 >
-> <sup>3</sup> Para consultas sem frase (um valor de palavra-chave que não usa aspas duplas), usamos um índice de prefixo especial. Isso nos informa que uma palavra ocorre em um documento, mas não onde ela ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição no documento com as palavras na frase. Isso significa que não podemos usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis para as quais o prefixo se expande; por exemplo, **time _ pode expandir para \* *_*"time OR timer OR times OR timex OR timeboxed OR ..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, não o número de documentos correspondentes à consulta. Não há limite superior para termos sem frase.
+> <sup>3</sup> Para consultas sem frase (um valor de palavra-chave que não usa aspas duplas), usamos um índice de prefixo especial. Isso nos informa que uma palavra ocorre em um documento, mas não onde ela ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição no documento com as palavras na frase. Isso significa que não é possível usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis para as quais o prefixo se expande; por exemplo, **time _ pode expandir para \* *_*"time OR timer OR times OR timex OR timeboxed OR ..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, não o número de documentos correspondentes à consulta. Não há limite superior para termos sem frase.
 >
 > <sup>4</sup> Esse limite é compartilhado em todas as ferramentas de Descoberta eDiscovery. Isso significa que as exportações simultâneas na Pesquisa de Conteúdo, Descobertas Principais e Descobertas Avançadas são aplicadas nesse limite.
 >

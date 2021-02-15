@@ -22,7 +22,7 @@ ms.locfileid: "50055539"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Ilustrações de produtividade do Microsoft 365
 
-A série de soluções do Microsoft 365 Enterprise fornece orientações para implementar os recursos do Microsoft 365, especialmente onde os recursos são tecnologias cruzadas, incluindo diagramas de arquitetura do Teams.
+A série de soluções do Microsoft 365 Enterprise fornece orientações para implementar os recursos do Microsoft 365, especialmente onde há funcionalidades entre tecnologias, incluindo diagramas de arquitetura do Teams.
 
 ### <a name="microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects"></a>Microsoft Teams e serviços de produtividade relacionados no Microsoft 365 para arquitetos de TI
 A arquitetura lógica dos serviços de produtividade no Microsoft 365, liderada pelo Microsoft Teams.
@@ -84,7 +84,7 @@ Fluxo de trabalho de ponta a ponta e fluxo de dados da Descoberta Avançada, inc
 
 | Item | Descrição |
 |:-----|:-----|
-|[![Pôster de modelo: Arquitetura de Descobertas Descoberta Avançada no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Baixar como pdf](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Baixar como um Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Atualizado em outubro de 2020|Contém: <ul><li>  Fluxo de trabalho de ponta a ponta em um único ambiente</li><li>Fluxo de trabalho de ponta a ponta em um ambiente do Microsoft 365 Multi-Geo </li><li>Fluxo de dados de ponta a ponta que suporta o fluxo de trabalho EDRM</li> |
+|[![Pôster de modelo: Arquitetura avançada de DescobertaScoberta no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) <br/> [Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png) \| [Baixar como pdf](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf) \| [Baixar como um Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)   <br/> Atualizado em outubro de 2020|Contém: <ul><li>  Fluxo de trabalho de ponta a ponta em um único ambiente</li><li>Fluxo de trabalho de ponta a ponta em um ambiente do Microsoft 365 Multi-Geo </li><li>Fluxo de dados de ponta a ponta que suporta o fluxo de trabalho EDRM</li> |
   
 <!--
 
@@ -133,7 +133,7 @@ Para saber mais, confira o artigo neste cartaz: [Soluções de telefonia da Micr
 
 ### <a name="empower-remote-workers"></a>Capacitar trabalhadores remotos
 
-Com o Microsoft 365 e outras tecnologias de nuvem da Microsoft, você pode fornecer aos seus funcionários acesso seguro às informações, ferramentas e recursos locais e baseados na nuvem da sua organização a partir de suas casas. 
+Com o Microsoft 365 e outras tecnologias de nuvem da Microsoft, você pode fornecer aos seus funcionários acesso seguro às informações, ferramentas e recursos locais e baseados em nuvem da sua organização a partir de suas casas. 
 
 [![Pôster Capacitar trabalhadores remotos](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf) <br/>
 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)  |  [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) <br>

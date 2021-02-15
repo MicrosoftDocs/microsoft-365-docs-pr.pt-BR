@@ -39,7 +39,7 @@ ms.locfileid: "50066864"
 
 O [esquema de busca avançada é](advanced-hunting-schema-tables.md) atualizado regularmente para adicionar novas tabelas e colunas. Em alguns casos, os nomes de colunas existentes são renomeados ou substituídos para melhorar a experiência do usuário. Consulte este artigo para revisar as alterações de nomeação que podem afetar suas consultas.
 
-As alterações de nomeação são aplicadas automaticamente às consultas salvas no centro de segurança, incluindo consultas usadas por regras de detecção personalizadas. Você não precisa atualizar essas consultas manualmente. No entanto, você precisará atualizar as seguintes consultas:
+As alterações de nomeação são aplicadas automaticamente a consultas salvas no centro de segurança, incluindo consultas usadas por regras de detecção personalizadas. Você não precisa atualizar essas consultas manualmente. No entanto, você precisará atualizar as seguintes consultas:
 - Consultas que são executados usando a API
 - Consultas salvas em outro lugar fora da central de segurança
 
@@ -57,22 +57,22 @@ As alterações de nomeação são aplicadas automaticamente às consultas salva
 |--|--|--|--|
 | `DetectionSource` | MCAS |    Microsoft Cloud App Security | Rebranding |
 | `DetectionSource` | WindowsDefenderAtp|   EDR| Rebranding |
-| `DetectionSource` | WindowsDefenderAv | Antivírus | Renomear |
-| `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Renomear |
+| `DetectionSource` | WindowsDefenderAv | Antivírus | Rebranding |
+| `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Rebranding |
 | `DetectionSource` | CustomerTI |  TI personalizada | Renomear |
-| `DetectionSource` | OfficeATP | Microsoft Defender para Office 365 | Renomear |
+| `DetectionSource` | OfficeATP | Obter o Microsoft Defender para Office 365 | Renomear |
 | `DetectionSource` | MTP   | Microsoft 365 Defender | Renomear |
-| `DetectionSource` | AzureATP |    Microsoft Defender para Identidade? | Renomear |
-| `DetectionSource` | CustomDetection   | Detecção personalizada | Renomear |
+| `DetectionSource` | AzureATP |    O que é o Microsoft Defender para Identidade? | Rebranding |
+| `DetectionSource` | CustomDetection   | Detecção personalizada | Rebranding |
 | `DetectionSource` | AutomatedInvestigation |Investigação automatizada | Rebranding |
 | `DetectionSource` | ThreatExperts | Especialistas em ameaças da Microsoft | Rebranding |
 | `DetectionSource` | TI de terceiros | Sensores de terceiros | Rebranding |
-| `ServiceSource` | O Microsoft Defender ATP| Proteção Avançada contra Ameaças do Microsoft Defender | Rebranding |
+| `ServiceSource` | O Microsoft Defender ATP| Microsoft Defender para Ponto de Extremidade | Rebranding |
 |`ServiceSource` |Proteção contra Ameaças da Microsoft   | Microsoft 365 Defender | Rebranding |
-| `ServiceSource` | Office 365 ATP  |Microsoft Defender para Office 365 | Rebranding |
-| `ServiceSource` |Azure ATP    |Microsoft Defender para Identidade? | Rebranding |
+| `ServiceSource` | Office 365 ATP  |Obter o Microsoft Defender para Office 365 | Rebranding |
+| `ServiceSource` |Azure ATP    |O que é o Microsoft Defender para Identidade? | Rebranding |
 
-`DetectionSource`está disponível na [tabela AlertInfo.](advanced-hunting-alertinfo-table.md) `ServiceSource`está disponível nas [tabelas AlertEvidence](advanced-hunting-alertevidence-table.md) e [AlertInfo.](advanced-hunting-alertinfo-table.md) 
+`DetectionSource`está disponível na [tabela AlertInfo.](advanced-hunting-alertinfo-table.md) `ServiceSource`está disponível nas tabelas [AlertEvidence](advanced-hunting-alertevidence-table.md) e [AlertInfo.](advanced-hunting-alertinfo-table.md) 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)

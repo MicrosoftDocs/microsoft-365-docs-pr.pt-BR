@@ -99,7 +99,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
     - Se você possui registros DNS existentes, por exemplo, um site existente, mas seu organizador DNS está ativado para [conexão com o domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), clique em **Adicionar registros para mim**. Na página **Escolha seus serviços on-line**, aceite todos os padrões, clique em **Avançar** e clique em **Autorizar** na página do organizador DNS.
     - Se você possui registros DNS existentes com outros organizadores DNS (não habilitados para conexão ao domínio), convém gerenciar seus próprios registros DNS para garantir que os serviços existentes fiquem conectados. Consulte [noções básicas de domínio](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) para obter mais informações.
 
-        ![Página Ativar registros.](../media/activaterecords.png)
+        ![Ativar página de registros.](../media/activaterecords.png)
 
 2. Siga as etapas no assistente e o e-mail e outros serviços serão configurados para você.
 
@@ -107,7 +107,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
 
 As políticas configuradas no assistente são aplicadas automaticamente a um grupo [de Segurança](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) chamado *Todos os Usuários.* Você também pode criar grupos adicionais para atribuir políticas no centro de administração.
 
-1. Em Aumentar **a proteção** contra ameaças cibernéticas avançadas, é recomendável que você aceite os padrões para permitir que a Proteção Avançada contra Ameaças do [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) digitalizar arquivos e links em aplicativos do Office.
+1. Em Aumentar **a** proteção contra ameaças cibernéticas avançadas, é recomendável que você aceite os padrões para permitir que a Proteção Avançada contra Ameaças do [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) digitalizar arquivos e links em aplicativos do Office.
 
     ![Captura de tela da página Aumentar proteção.](../media/increasetreatprotection.png)
 

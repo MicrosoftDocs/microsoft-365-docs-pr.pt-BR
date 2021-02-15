@@ -66,7 +66,7 @@ O ransomware restringe o acesso aos dados criptografando arquivos ou travando te
 
 Você pode se proteger contra ransomware criando uma ou mais regras de fluxo de emails para bloquear extensões de arquivo comumente usadas para ransomware (elas foram adicionadas no nível de proteção contra [malware](#raise-the-level-of-protection-against-malware-in-mail) na etapa de email) ou para avisar os usuários que recebem esses anexos por email.
 
-Além dos arquivos bloqueados na etapa anterior, também é uma boa prática criar uma regra para avisar os usuários antes de abrir anexos de arquivo do Office que incluem macros. Ransomware pode ficar oculto em macros, portanto, avise os usuários para não abrirem esses arquivos de pessoas que não conhecem.
+Além dos arquivos bloqueados na etapa anterior, também é uma boa prática criar uma regra para avisar os usuários antes de abrir anexos de arquivo do Office que incluem macros. Ransomware pode ficar oculto dentro de macros, portanto, avise os usuários para não abrirem esses arquivos de pessoas que não conhecem.
 
 Para criar uma regra de transporte de email:
 
@@ -102,7 +102,7 @@ Os hackers que têm acesso à caixa de correio de um usuário podem roubar seus 
 
 Para criar uma regra de transporte de email, assista [a este breve vídeo](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) ou siga estas etapas:
 
-1. No centro de administração do Microsoft 365, clique em **Centros de administração do** \> **Exchange.**
+1. No Centro de administração do Microsoft 365, clique em **Centros de administração do** \> **Exchange.**
 
 2. Na categoria **de fluxo de** emails, clique em **regras.**
 
@@ -124,7 +124,7 @@ Para criar uma regra de transporte de email, assista [a este breve vídeo](https
 
 ## <a name="protect-your-email-from-phishing-attacks"></a>Proteger seu email contra ataques de phishing
 
-Se você configurou um ou mais domínios personalizados para seu ambiente do Office 365 ou microsoft 365, você pode configurar a proteção anti-phishing direcionada. A proteção anti-phishing, parte do Microsoft Defender para Office 365, pode ajudar a proteger sua organização contra ataques de phishing com base em representação mal-intencionada e outros ataques de phishing. Se você ainda não configurou um domínio personalizado, não é necessário fazer isso.
+Se você tiver configurado um ou mais domínios personalizados para seu ambiente do Office 365 ou do Microsoft 365, poderá configurar a proteção anti-phishing direcionada. A proteção anti-phishing, parte do Microsoft Defender para Office 365, pode ajudar a proteger sua organização contra ataques de phishing com base em representação mal-intencionada e outros ataques de phishing. Se você ainda não configurou um domínio personalizado, não é necessário fazer isso.
 
 Recomendamos que você começar a usar essa proteção criando uma política para proteger seus usuários mais importantes e seu domínio personalizado.
 
@@ -163,7 +163,7 @@ Primeiro, certifique-se de que, no centro de administração, você tenha a visu
 
    ![A visualização do novo centro de administração.](../media/previewon.png)
 
-Se você ainda não  vir a página configuração com cartões em seu locatário &, veja como concluir essas etapas no Centro de Conformidade e Segurança. Consulte [Configurar Anexos Seguros no](#set-up-safe-attachments-in-the-security--compliance-center) Centro de Conformidade e Segurança & e Configurar Links Seguros no Centro de Conformidade & [Segurança.](#set-up-safe-links-in-the-security--compliance-center)
+Se você ainda não  vir a página configuração com cartões em seu locatário, veja como concluir essas etapas no Centro de Conformidade e & Segurança. Consulte [Configurar Anexos Seguros no](#set-up-safe-attachments-in-the-security--compliance-center) Centro de Conformidade e Segurança & e Configurar Links Seguros no Centro de Conformidade & [Segurança.](#set-up-safe-links-in-the-security--compliance-center)
 
 1. In the left nav, choose **Setup**.
 2. Na página **Configuração,** escolha **Exibir o** cartão **aumentar a proteção contra ameaças** avançadas.
@@ -171,7 +171,7 @@ Se você ainda não  vir a página configuração com cartões em seu locatário
    ![Choose View on the Increase protection from advanced threats.](../media/startatp.png)
 
 3. Na página **Aumentar a proteção contra ameaças avançadas,** escolha **Começar.**
-4. No painel que é aberto, marque as caixas de seleção ao lado de Links e anexos no **email,** Digitalizar arquivos no **SharePoint, OneDrive e Teams** e Verificar links em **aplicativos** do Office para área de trabalho e Office Online em Examinar itens para conteúdo mal-intencionado. 
+4. No painel que é aberto, marque as caixas de seleção ao lado de Links e **anexos** no email, Digitalizar arquivos no **SharePoint, OneDrive** e Teams e Verificar links em **aplicativos** do Office para área de trabalho e Office Online em Examinar itens para conteúdo mal-intencionado. 
 
    Em **Links e anexos no email,** digite Todos os Usuários ou os usuários específicos cujos emails você deseja digitalizados.
 
@@ -179,9 +179,9 @@ Se você ainda não  vir a página configuração com cartões em seu locatário
 
 5. Escolha **Criar políticas para** ativar Anexos Seguros e Links Seguros.
 
-### <a name="set-up-safe-attachments-in-the-security--compliance-center"></a>Configurar Anexos Seguros no Centro de Conformidade e Segurança & segurança
+### <a name="set-up-safe-attachments-in-the-security--compliance-center"></a>Configurar Anexos Seguros no Centro de Conformidade e Segurança & Segurança
 
-As pessoas enviam, recebem e compartilham anexos regularmente, como documentos, apresentações, planilhas e muito mais. Nem sempre é fácil saber se um anexo é seguro ou mal-intencionado apenas olhando para uma mensagem de email. O Microsoft Defender para Office 365 inclui a proteção de Anexo Seguro, mas essa proteção não está 1000 por padrão. Recomendamos que você crie uma nova regra para começar a usar essa proteção. Essa proteção se estende a arquivos no SharePoint, OneDrive e Microsoft Teams.
+As pessoas enviam, recebem e compartilham anexos regularmente, como documentos, apresentações, planilhas e muito mais. Nem sempre é fácil saber se um anexo é seguro ou mal-intencionado apenas olhando para uma mensagem de email. O Microsoft Defender para Office 365 inclui a proteção de Anexo Seguro, mas essa proteção não está 1000 por padrão. Recomendamos que você crie uma nova regra para começar a usar essa proteção. Essa proteção se estende a arquivos no SharePoint, No OneDrive e no Microsoft Teams.
 
 Para criar uma política de Anexo Seguro, assista [a este breve vídeo](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)ou conclua as seguintes etapas:
 
@@ -263,7 +263,7 @@ Você deve ter a função Logs de Auditoria no Exchange Online para ativar ou de
 
     ![Choose Open on the security & compliance cars.](../media/gotosecandcomp.png)
 3. Na página segurança e conformidade, escolha **Pesquisar** e, em seguida, pesquisa de log **de auditoria.**
-4. Na parte superior da página de pesquisa **do log de** auditoria, escolha Ativar **auditoria.**
+4. Na parte superior da página de **pesquisa do log de** auditoria, escolha Ativar **auditoria.**
 
 Depois que o recurso for ligado, você poderá pesquisar arquivos, pastas e muitas atividades. Para obter mais informações, consulte [pesquisar o log de auditoria.](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
@@ -279,7 +279,7 @@ Depois que o recurso for ligado, você poderá pesquisar arquivos, pastas e muit
 
 ## <a name="activity-alerts"></a>Alertas de atividade
 
-Você pode usar alertas de atividade para rastrear atividades de administradores e usuários e detectar incidentes de prevenção contra perda de dados e malware em sua organização. Sua assinatura inclui um conjunto de políticas padrão, mas você também pode criar políticas personalizadas. Para obter mais informações, consulte [políticas de alerta.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) Por exemplo, se você armazenar um arquivo importante no SharePoint que não deseja que ninguém compartilhe externamente, poderá criar uma notificação que alerta você se alguém compartilhá-lo.
+Você pode usar alertas de atividade para rastrear atividades de administradores e usuários e detectar incidentes de prevenção contra perda de dados e malware em sua organização. Sua assinatura inclui um conjunto de políticas padrão, mas você também pode criar políticas personalizadas. Para obter mais informações, consulte [políticas de alerta.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) Por exemplo, se você armazenar um arquivo importante no SharePoint que não deseja que ninguém compartilhe externamente, poderá criar uma notificação que o alertará se alguém compartilhá-lo.
 
 A figura a seguir mostra as políticas padrão incluídas no Microsoft 365.
 

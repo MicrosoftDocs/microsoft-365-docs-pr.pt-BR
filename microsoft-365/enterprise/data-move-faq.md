@@ -23,13 +23,13 @@ ms.locfileid: "50094650"
 ---
 # <a name="data-move-general-faq"></a>Perguntas frequentes gerais sobre migração de dados
 
-Aqui estão respostas para perguntas gerais sobre como mover os principais dados do cliente em repouso para uma nova área geográfica de datacenter.
+Aqui estão respostas para perguntas gerais sobre como mover os principais dados do cliente em repouso para uma nova área geográfica do datacenter.
   
 ## <a name="what-customers-are-eligible-to-request-a-move"></a>Quais clientes estão qualificados para solicitar uma movimentação?
   
-Os clientes comerciais existentes do Microsoft 365 que selecionaram um país qualificado para a nova área geográfica do datacenter poderão solicitar uma movimentação. O programa existe apenas para locatários com um código de país qualificado atribuído ao locatário do Microsoft 365 para migrar os principais dados do cliente em repouso para cargas de trabalho qualificadas para o datacenter correspondente do Microsoft 365. Consulte a página [Como solicitar a movimentação de](request-your-data-move.md) dados para confirmar a qualificação do país.   
+Os clientes comerciais existentes do Microsoft 365 que selecionaram um país qualificado para a nova região geográfica do datacenter poderão solicitar uma movimentação. O programa existe apenas para locatários com um código de país qualificado atribuído ao locatário do Microsoft 365 para migrar os principais dados do cliente em repouso para cargas de trabalho qualificadas para o datacenter correspondente do Microsoft 365. Consulte a página [Como solicitar a movimentação de](request-your-data-move.md) dados para confirmar a qualificação do país.   
 
-## <a name="how-do-we-define-core-customer-data"></a>Como definimos os Principais Dados do Cliente?
+## <a name="how-do-we-define-core-customer-data"></a>Como definimos os Dados Principais do Cliente?
  
 Os dados principais do cliente são um termo que se refere a um subconjunto de dados do cliente definidos nos Termos do [Microsoft Online Services:](https://aka.ms/ost) 
 - Conteúdo da caixa de correio do Exchange Online (corpo do email, entradas de calendário e o conteúdo de anexos de email)
@@ -44,13 +44,13 @@ Além do Exchange Online, do SharePoint Online e do OneDrive for Business; A Mic
 
 Os arquivos do Teams são armazenados no SharePoint Online e os arquivos de chat do Teams são armazenados no OneDrive for Business. A caixa postal, o calendário e os contatos são armazenados no Exchange Online. Em muitos casos, o Exchange Online, o SharePoint Online e o OneDrive for Business já são usados pelo cliente na localização geográfica do datacenter local e também fazem parte do programa de migração do Microsoft 365 para países cliente qualificados.
 
-## <a name="at-what-point-is-my-migration-complete-so-that-my-tenants-core-customer-data-is-being-stored-at-rest-in-my-new-geo"></a>Em que ponto minha migração está concluída para que os principais dados do cliente do meu locatário fiquem em repouso na minha nova área geográfica?
+## <a name="at-what-point-is-my-migration-complete-so-that-my-tenants-core-customer-data-is-being-stored-at-rest-in-my-new-geo"></a>Em que ponto minha migração está concluída para que os principais dados do cliente do meu locatário estão sendo armazenados em repouso na minha nova área geográfica?
 
 Devido a dependências compartilhadas entre o Exchange Online e o SharePoint Online/OneDrive for Business, nenhuma migração pode ser considerada concluída até que ambos os serviços sejam migrados. O Exchange Online e o SharePoint Online/OneDrive for Business geralmente migram em momentos separados e independentemente um do outro. Os administradores de locatários do cliente recebem a confirmação no Centro de Mensagens quando cada migração de serviço é concluída e podem exibir o cartão de localização de dados no Centro de Administração a qualquer momento para confirmar os principais dados do cliente no local de repouso para cada serviço.
 
 ## <a name="how-do-you-make-sure-my-customer-data-is-safe-during-the-move-and-that-i-wont-experience-downtime"></a>Como você garante que meus dados do cliente estão seguros durante a mudança e que eu não experimentarei o tempo de inatividade?
   
-Movimentações de dados são uma operação de serviço back-end com impacto mínimo para os usuários finais. Os recursos que podem ser afetados são listados [em Durante e após a movimentação de dados.](during-and-after-your-data-move.md) Aderimos ao Contrato de Nível de Serviço [(SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) do Microsoft Online Services para disponibilidade, portanto, não há nada que os clientes precisem preparar ou monitorar durante a mudança. 
+Movimentações de dados são uma operação de serviço back-end com impacto mínimo para os usuários finais. Os recursos que podem ser afetados são listados [em Durante e após a movimentação de dados.](during-and-after-your-data-move.md) Aderimos ao Contrato de Nível de Serviço [do Microsoft Online Services (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) para disponibilidade, portanto, não há nada que os clientes precisem preparar ou monitorar durante a mudança. 
   
 Todos os serviços do Microsoft 365 executarão as mesmas versões nos datacenters, para que você possa ter certeza de uma funcionalidade consistente. Seu serviço é totalmente suportado durante todo o processo.
   
@@ -122,7 +122,7 @@ Se você criar um novo locatário depois que a nova área geográfica do datacen
   
 ## <a name="my-customer-data-has-already-been-moved-to-a-new-datacenter-geo-can-i-move-back"></a>Os dados de meus clientes já foram movidos para uma nova área geográfica do datacenter. Posso voltar?
  
-Não, isso não é possível. Os clientes que foram movidos para novos datacenters geográficas não podem ser movidos de volta. Como um cliente em qualquer área geográfica, você experimentará a mesma qualidade de serviço, desempenho e controles de segurança que você fez antes. O [Microsoft 365 Multi Geo](https://aka.ms/multi-geo) está disponível para alguns clientes como um complemento e permite que um único locatário crie várias áreas geográficas satélites e mova os dados do usuário para essas cercas geográficas com compromissos de residência de dados.
+Não, isso não é possível. Os clientes que foram movidos para novos datacenters geográficas não podem ser movidos de volta. Como um cliente em qualquer área geográfica, você experimentará a mesma qualidade de controles de serviço, desempenho e segurança que você fez antes. O [Microsoft 365 Multi Geo](https://aka.ms/multi-geo) está disponível para alguns clientes como um complemento e permite que um único locatário crie várias áreas geográficas satélites e mova os dados do usuário para essas cercas geográficas com compromissos de residência de dados.
   
 ## <a name="will-microsoft-365-tenants-hosted-in-the-new-datacenters-be-available-to-users-outside-of-the-country"></a>Os locatários do Microsoft 365 hospedados nos novos datacenters estarão disponíveis para usuários fora do país?
   
@@ -134,7 +134,7 @@ Sim, seu locatário está qualificado para se inscrever, mas há considerações
 
 O SharePoint Online e o OneDrive for Business não podem migrar para o novo datacenter no nível do locatário por meio deste programa. O administrador do cliente pode configurar compartilhamentos do OneDrive for Business para se mover para qualquer região disponível usando o Multi-Geo, mas o local padrão do locatário não pode ser alterado depois que o Multi-Geo tiver sido configurado para um locatário.
 
-Para os clientes que optarem pela migração, moveremos todas as caixas de correio do Exchange Online da sua localização geográfica padrão atual para a nova localização geográfica do datacenter e atualizaremos a região padrão do Exchange Online. Não moveremos nenhuma caixa de correio EXO configurada em regiões de satélite multi-geográficas para continuar a respeitar a residência de dados de região satélite como você planejou. 
+Para os clientes que optarem pela migração, moveremos todas as caixas de correio do Exchange Online da sua localização geográfica padrão atual para a nova localização geográfica do datacenter e atualizaremos a região padrão do Exchange Online. Não moveremos nenhuma caixa de correio EXO configurada em regiões satélites multi-geográficas para continuar a respeitar a residência de dados de região satélite como você planejou. 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

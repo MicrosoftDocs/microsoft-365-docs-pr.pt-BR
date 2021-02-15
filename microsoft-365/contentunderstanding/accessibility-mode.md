@@ -18,7 +18,7 @@ ms.locfileid: "50080992"
 ---
 # <a name="sharepoint-syntex-accessibility-mode"></a>Modo de acessibilidade do Syntex do SharePoint
 
-No [SharePoint Syntex,](index.md)os usuários podem ativar o modo de acessibilidade em todos os estágios do treinamento do modelo (rótulo, treinamento, teste) ao trabalhar com documentos de exemplo. Usar o modo de acessibilidade pode ajudar os usuários com pouca visão a ter uma acessibilidade de teclado mais fácil à medida que navegam e rotulam itens no visualizador de documentos.
+No [SharePoint Syntex,](index.md)os usuários podem ativar o modo de acessibilidade em todos os estágios do treinamento de modelo (rótulo, treinamento, teste) ao trabalhar com documentos de exemplo. Usar o modo de acessibilidade pode ajudar os usuários com pouca visão a ter uma acessibilidade de teclado mais fácil à medida que navegam e rotulam itens no visualizador de documentos.
 
 Isso ajuda os usuários a usar seus teclados para navegar pelo texto no visualizador de documentos e ouvir uma narração não apenas dos valores selecionados, mas também de ações (como rotular ou remover a rotulagem do texto selecionado) ou valores de rótulo previstos à medida que você treinar o modelo com documentos de exemplo adicionais. 
 
@@ -35,7 +35,7 @@ Para ouvir o áudio da narração, certifique-se de ativar o aplicativo [Narrado
 
 Para usuários de teclado usando o modo de acessibilidade, se você estiver rotulando texto em um documento de exemplo no visualizador, poderá usar as seguintes teclas:
 
-- Guia: move você para frente e seleciona a próxima palavra.
+- Guia: Move você para frente e seleciona a próxima palavra.
 - Tab + Shift: move você para trás e seleciona a palavra anterior.
 - Insira: rotule ou remova um rótulo da palavra selecionada.
 - Seta para frente: move você para frente pelos caracteres individuais em uma palavra selecionada.

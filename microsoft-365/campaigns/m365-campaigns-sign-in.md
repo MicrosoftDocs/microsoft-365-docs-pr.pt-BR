@@ -43,5 +43,5 @@ Se você se inscreveu no Microsoft 365, você é o administrador do Microsoft 36
 
 ## <a name="for-staff"></a>Para a equipe
 
-Configurar a equipe conforme descrito em [Adicionar usuários](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) Você também pode redefinir e resendir senhas na página Adicionar **usuários.**
-Toda a equipe pode entrar em <a href="https://office.com" target="_blank">https://Office.com</a> .
+Configurar a equipe conforme descrito em [Adicionar usuários](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) Você também pode redefinir e resendir senhas na **página** Adicionar usuários.
+Toda a equipe pode entrar <a href="https://office.com" target="_blank">https://Office.com</a> em.

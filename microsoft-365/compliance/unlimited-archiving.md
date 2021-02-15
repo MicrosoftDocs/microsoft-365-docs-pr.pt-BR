@@ -61,7 +61,7 @@ Para fazer uso eficiente do armazenamento de arquivo morto de expansão automát
 
 - **aaaa** é o ano em que as mensagens na pasta foram recebidas.
 
-- **mmm dd, a h_m** é a data e a hora em que a subpasta foi criada pelo Office 365, no formato UTC, com base no fuso horário do usuário e nas configurações regionais no Outlook.
+- **mmm dd, yyyy h_m** é a data e hora em que a subpasta foi criada pelo Office 365, no formato UTC, com base no fuso horário do usuário e nas configurações regionais no Outlook.
 
 As capturas de tela a seguir mostram uma lista de pastas antes e depois que as mensagens são movidas para um arquivo morto expandido automaticamente.
 
@@ -74,7 +74,7 @@ As capturas de tela a seguir mostram uma lista de pastas antes e depois que as m
 ![Lista de pastas da caixa de correio de arquivo morto depois que o arquivo morto de expansão automática é provisionado](../media/c03c5f51-23fa-4fc2-b887-7e7e5cce30da.png)
 
 > [!NOTE]
-> Conforme descrito anteriormente, o Microsoft 365 move itens para subpastas (e os nomeia usando a convenção de nomenu descrita acima) para ajudar a distribuir conteúdo para um arquivo morto auxiliar. Mas mover itens para subpastas nem sempre pode ser o caso. Às vezes, uma pasta inteira pode ser movida para um arquivo morto auxiliar. Nesse caso, a pasta manterá seu nome original.  Não ficará aparente na lista de pastas no Outlook que a pasta foi movida para um arquivo auxiliar.
+> Conforme descrito anteriormente, o Microsoft 365 move itens para subpastas (e os nomeia usando a convenção de nomenu descrita acima) para ajudar a distribuir conteúdo para um arquivo morto auxiliar. Mas mover itens para subpastas nem sempre pode ser o caso. Às vezes, uma pasta inteira pode ser movida para um arquivo morto auxiliar. Nesse caso, a pasta manterá seu nome original.  Não será aparente na lista de pastas no Outlook que a pasta foi movida para um arquivo auxiliar.
 
 ## <a name="outlook-requirements-for-accessing-items-in-an-auto-expanded-archive"></a>Requisitos do Outlook para acessar itens em um arquivo morto expandido automaticamente
 
@@ -113,4 +113,4 @@ Esta seção explica a funcionalidade entre o arquivamento de expansão automát
 
 ## <a name="more-information"></a>Mais informações
 
-Para obter mais detalhes técnicos sobre o arquivamento de expansão automática, consulte [o Microsoft 365: Perguntas frequentes sobre a expansão automática de arquivos.](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-auto-expanding-archives-faq/ba-p/607784)
+Para obter mais detalhes técnicos sobre o arquivamento de expansão automática, consulte [o Microsoft 365: Perguntas frequentes sobre a expansão](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-auto-expanding-archives-faq/ba-p/607784)automática de arquivos.

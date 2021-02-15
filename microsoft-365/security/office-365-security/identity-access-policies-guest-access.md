@@ -27,7 +27,7 @@ ms.locfileid: "49932605"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>Políticas para permitir acesso de convidados e acesso de usuário externo B2B
 
-Este artigo discute o ajuste das políticas de acesso de identidade e dispositivo recomendadas para permitir o acesso a convidados e usuários externos que tenham uma conta do Azure Active Directory (Azure AD) Entre Empresas (B2B). Essa orientação se baseia nas políticas comuns de acesso a dispositivos [e identidades.](identity-access-policies.md)
+Este artigo discute o ajuste das políticas de acesso de identidade e dispositivo recomendadas para permitir o acesso a convidados e usuários externos que tenham uma conta do Azure Active Directory (Azure AD) Business para Empresas (B2B). Essa orientação se baseia nas políticas comuns de acesso a dispositivos [e identidades.](identity-access-policies.md)
 
 Essas recomendações foram projetadas para se aplicar à camada **de linha de base** de proteção. Mas você também pode ajustar as recomendações com base em suas necessidades específicas de **proteção** altamente **controlada e** sensível.
 
@@ -35,7 +35,7 @@ Fornecer um caminho para contas B2B autenticar com seu locatário do Azure AD n�
 
 ## <a name="updating-the-common-policies-to-allow-and-protect-guests-and-external-user-access"></a>Atualizando as políticas comuns para permitir e proteger convidados e acesso de usuário externo
 
-Este diagrama mostra quais políticas adicionar ou atualizar entre as políticas comuns de acesso a dispositivos e identidade, para acesso de usuário externo e convidado B2B.
+Este diagrama mostra quais políticas adicionar ou atualizar entre as políticas comuns de acesso a identidades e dispositivos, para acesso de usuário externo e convidado B2B.
 
 [![Resumo das atualizações de política para proteger o acesso de convidados](../../media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-guest.png)
 
@@ -45,7 +45,7 @@ A tabela a seguir lista as políticas que você precisa criar e atualizar. As po
 
 |Nível de Proteção|Políticas|Mais informações|
 |---|---|---|
-|**Baseline**|[Exigir MFA sempre para convidados e usuários externos](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Crie essa nova política e configure: <ul><li>For **Assignments > Users and groups > Include**, choose Select users and **groups**, and then select All guest and **external users**.</li><li>Para **Atribuições > condições > entrar,** deixe todas as opções desmarcadas para sempre impor a MFA (autenticação multifatória).</li></ul>|
+|**Baseline**|[Exigir MFA sempre para convidados e usuários externos](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Crie essa nova política e configure: <ul><li>For **Assignments > Users and groups > Include**, choose Select users and **groups**, and then select All guest and **external users**.</li><li>Para **Atribuições > condições > entrar,** deixe todas as opções desmarcadas para sempre impor a autenticação multifatória (MFA).</li></ul>|
 ||[Exigir MFA quando o risco de login for *médio* ou *alto*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Modifique essa política para excluir convidados e usuários externos.|
 ||[Exigir PCs compatíveis](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Modifique essa política para excluir convidados e usuários externos.|
 

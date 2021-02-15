@@ -61,8 +61,8 @@ Para exigir que todos os usuários se inscrevam com uma segunda forma de ID:
     ![Tornar o cartão de acesso mais seguro.](../media/setupmfa.png)
 3. On the Make sign-in more secure page, choose **Get started**.
 
-4. No painel de segurança Reforçar a entrada, marque as caixas de seleção ao lado de Exigir autenticação **multifator** para administradores e exigir que os usuários se registrem para autenticação multifator e bloqueie o acesso se o risco for **detectado.**
-    Certifique-se de excluir [a conta](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) de administrador de emergência ou "quebra de vidro" do requisito de MFA na caixa **Encontrar usuários.**
+4. No painel de segurança Reforçar a entrada, marque as caixas de seleção ao lado de Exigir autenticação **multifator** para administradores e exigir que os usuários se registrem para autenticação **multifator** e bloqueie o acesso se o risco for detectado.
+    Certifique-se de excluir [a conta de](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) administrador de emergência ou "quebra de vidro" do requisito de MFA na caixa Encontrar **usuários.**
 
     ![Fortalecer a página de segurança de um canto.](../media/requiremfa.png)
 
@@ -75,7 +75,7 @@ Para exigir que todos os usuários se inscrevam com uma segunda forma de ID:
 Consulte as instruções específicas a seguir para cada política: <br>
     - [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
     - [Exigir MFA para usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
-    - [Bloquear autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
+    - [Bloquear autenticação herdda](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
     - [Exigir MFA para gerenciamento de serviços](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 > [!NOTE]

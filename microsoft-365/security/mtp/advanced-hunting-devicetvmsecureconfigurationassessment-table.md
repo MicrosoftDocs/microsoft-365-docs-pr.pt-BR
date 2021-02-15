@@ -54,7 +54,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `IsCompliant` | booliano | Indica se a configuração ou política está configurada corretamente |
 | `IsApplicable` | booliano | Indica se a configuração ou a política se aplica ao dispositivo |
 | `Context` | string | Informações contextuais adicionais sobre a configuração ou a política |
-| `IsExpectedUserImpactCompliant` | booliano | Indica se haverá impacto no usuário se a configuração ou a política for aplicada |
+| `IsExpectedUserImpactCompliant` | booliano | Indica se haverá impacto ao usuário se a configuração ou a política for aplicada |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

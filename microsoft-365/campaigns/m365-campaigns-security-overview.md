@@ -31,7 +31,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044367"
 ---
-# <a name="bump-up-security-protection-for-your-campaign-or-business"></a>Aumento da proteção de segurança para sua campanha ou empresa
+# <a name="bump-up-security-protection-for-your-campaign-or-business"></a>Up security protection for your campaign or business
 
 
 ## <a name="overview"></a>Visão Geral 

@@ -30,7 +30,7 @@ Avaliar os regulamentos e os riscos de privacidade de dados aos quais sua organi
 
 ## <a name="potentially-applicable-data-privacy-regulations"></a>Regulamentos de privacidade de dados potencialmente aplicáveis
 
-Para uma boa referência sobre a estrutura regulatória mais ampla para regulamentos de privacidade de dados, consulte o Portal de Confiança dos Serviços [da Microsoft](https://servicetrust.microsoft.com/) e a série de artigos sobre a regulamentação RGPD (Regulamento Geral sobre a Proteção de [Dados),](../compliance/gdpr.md)bem como outros materiais sobre os regulamentos aos quais você pode estar sujeito em seu setor ou região.
+Para uma boa referência sobre a estrutura regulatória mais ampla para regulamentos de privacidade de dados, consulte o Portal de Confiança dos Serviços [microsoft](https://servicetrust.microsoft.com/) e a série de artigos sobre a regulamentação RGPD (Regulamento Geral sobre a Proteção de [Dados),](../compliance/gdpr.md)bem como outros materiais sobre os regulamentos aos quais você pode estar sujeito em seu setor ou região.
 
 ### <a name="gdpr"></a>RGPD
 
@@ -60,10 +60,10 @@ Para referência posterior nos artigos desta solução geral, esta tabela fornec
 
 | Regulamentação | Artigo/seção | Excerpt | Categorias de controle técnico aplicáveis |
 |:-------|:-----|:-------|:-------|
-| RGPD | Artigo 5(1)(f) | Os dados pessoais devem ser processados de maneira a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou ilegal e contra perda, destruição ou danos acidentais, usando medidas técnicas ou organizacionais apropriadas ('integridade e confidencialidade'.  |  (Tudo) <br> Identity <br> Dispositivo <br> Proteção contra Ameaças <br> Proteger informações <br> Govern information <br> Descobrir e responder |
+| RGPD | Artigo 5(1)(f) | Os dados pessoais devem ser processados de maneira a garantir a segurança adequada dos dados pessoais, incluindo proteção contra processamento não autorizado ou ilegal e contra perda, destruição ou danos acidentais, usando medidas técnicas ou organizacionais apropriadas ('integridade e confidencialidade'.  |  (Tudo) <br> Identidade <br> Dispositivo <br> Proteção contra Ameaças <br> Proteger informações <br> Govern information <br> Descobrir e responder |
 |  | Artigo (32)(1)(a) | Levando em conta o estado da arte, os custos de implementação e a natureza, o escopo, o contexto e as finalidades do processamento, bem como o risco de variação de probabilidade e gravidade para os direitos e liberdades das pessoas naturais, o controlador e o processador devem implementar medidas técnicas e organizacionais apropriadas para garantir um nível de segurança apropriado ao risco , incluindo, entre outras coisas, conforme apropriado: (a) a pseudonimização e a criptografia de dados pessoais. | Proteger informações |
 |  | Artigo (13)(2)(a) | "... o controlador deve, no momento em que os dados pessoais são obtidos, fornecer ao assunto dos dados as seguintes informações adicionais necessárias para garantir o processamento justo e transparente: (a) o período para o qual os dados pessoais serão armazenados ou, se isso não for possível, os critérios usados para determinar esse período. | Govern information |
-|  | Artigo (15)(1)(e) | O assunto dos dados deve ter o direito de obter do controlador a confirmação de que os dados pessoais relativos a ele estão ou não sendo processados, e se for esse o caso, o acesso aos dados pessoais e às seguintes informações: (e) a existência do direito de solicitar ao controlador a retificação ou eliminação de dados pessoais ou a restrição de processamento de dados pessoais referentes ao assunto dos dados ou a objeção a esse processamento | Descobrir e responder |
+|  | Artigo (15)(1)(e) | O assunto dos dados deve ter o direito de obter do controlador a confirmação de que os dados pessoais a seu respeito estão ou não sendo processados, e se for esse o caso, o acesso aos dados pessoais e às seguintes informações: (e) a existência do direito de solicitar ao controlador retificação ou eliminação de dados pessoais ou restrição de processamento de dados pessoais referentes ao assunto dos dados ou para se opor a esse processamento | Descobrir e responder |
 | LGPD | Artigo 46 | Os agentes de processamento devem adotar medidas de segurança, técnicas e administrativas capazes de proteger dados pessoais contra acessos não autorizados e situações acidentais ou ilegais de destruição, perda, alteração, comunicação ou qualquer tipo de processamento impróprio ou ilegal. | Proteger informações <br> Govern information <br> Descobrir e responder|
 |  | Artigo 48 | O controlador deve se comunicar à autoridade nacional e ao titular dos dados a ocorrência de um incidente de segurança, que pode criar riscos ou danos relevantes aos titulares de dados. | Descobrir e responder |
 | HIPPA-HITECH | 45 CFR 164.312 (e) (1) | Implementar medidas técnicas de segurança para se proteger contra o acesso não autorizado às informações de saúde eletrônicas protegidas que estão sendo transmitidas por uma rede de comunicações eletrônicas. | Proteger informações |
@@ -71,10 +71,10 @@ Para referência posterior nos artigos desta solução geral, esta tabela fornec
 |  | 45 CFR 164.312(c)(2) | Implementar mecanismos eletrônicos para corroborar se as informações de saúde eletrônicas protegidas não foram alteradas nem destruídas de maneira não autorizada. | Govern information |
 |  | 45 CFR 164.316(b)(1)(i) | Se uma ação, atividade ou avaliação for exigida por essa subparte para ser documentada, mantenha um registro escrito (que pode ser eletrônico) da ação, atividade ou avaliação | Govern information |
 |  | 45 CFR 164.316(b)(1)(ii) | Reter a documentação exigida pelo parágrafo (b)(1) desta seção por seis (6) anos a partir da data de criação ou da data em que esteve em vigor pela última vez, o que tiver ocorrido por último. | Govern information |
-|  | 45 C.F.R. 164.308(a)(1)(ii)(D) | Implementar procedimentos para revisar regularmente registros de atividades do sistema de informações, como logs de auditoria, relatórios de acesso e relatórios de rastreamento de incidentes de segurança | Descobrir e responder |
+|  | 45 C.F.R. 164.308(a)(1)(ii)(D) | Implementar procedimentos para revisar regularmente registros de atividades do sistema de informações, como logs de auditoria, relatórios de acesso e relatórios de controle de incidentes de segurança | Descobrir e responder |
 |  | 45 C.F.R. 164.308(a)(6)(ii) | Identificar e responder a incidentes de segurança suspeitos ou conhecidos; atenuar, na medida do possível, os efeitos nocivos dos incidentes de segurança conhecidos pela entidade coberta ou parceiro comercial; e documentar incidentes de segurança e seus resultados. | Descobrir e responder |
 |  | 45 C.F.R. 164.312(b) | Implemente mecanismos de hardware, software e procedimentos que registram e examinam a atividade em sistemas de informações que contenham ou usem informações de saúde eletrônicas protegidas. | Descobrir e responder |
-| CCPA | 1798.105(c) | Uma empresa que recebe uma solicitação verificável de um consumidor para excluir as informações pessoais do consumidor, de acordo com a subdivisão (a) desta seção, deve excluir as informações pessoais do consumidor de seus registros e direcionar quaisquer provedores de serviços para excluir as informações pessoais do consumidor de seus registros | Descobrir e responder |
+| CCPA | 1798.105(c) | Uma empresa que recebe uma solicitação verificável de um consumidor para excluir as informações pessoais do consumidor de acordo com a subdivisão (a) desta seção deve excluir as informações pessoais do consumidor de seus registros e direcionar quaisquer provedores de serviços para excluir as informações pessoais do consumidor de seus registros | Descobrir e responder |
 |  | 1798.105(d) | (exceções a 1798.105(c) <br> Uma empresa ou um provedor de serviços não deve ser obrigado a atender à solicitação de um consumidor para excluir as informações pessoais do consumidor, se for necessário que a empresa ou o provedor de serviços mantenha as informações pessoais do consumidor para: (consulte a regulamentação atual para obter informações adicionais). | Descobrir e responder |
 |||||
 
@@ -138,7 +138,7 @@ Também é importante pensar nos seguintes desafios comuns de conformidade de pr
 
 As organizações, por natureza, precisam coletar dados sobre funcionários para fins de identidade eletrônica e RH, sujeitos ao que eles concordam em seus contratos de funcionários. Desde que uma pessoa trabalhe em uma empresa, isso normalmente não é um problema. A organização pode querer colocar mecanismos no lugar para evitar que atores mal-intencionados exfiltram ou vazamento de dados pessoais de funcionários. 
 
-Se uma pessoa sair de uma empresa, as organizações geralmente têm processos, procedimentos e agendamentos de retenção e exclusão para remover contas de usuário, descomissionar caixas de correio e unidades pessoais e alterar o status do funcionário em coisas como sistemas de recursos humanos. Para situações em que o litígio está envolvido, um funcionário ou outra parte de uma investigação legal pode ter motivos válidos para obter informações sobre dados pessoais armazenados nos sistemas da organização. Em algumas ocasiões, essa parte pode solicitar que esses dados sejam removidos ou anonimizados. 
+Se uma pessoa sair de uma empresa, as organizações geralmente têm agendas de processos, procedimentos e retenção e exclusão para remover contas de usuário, descomissionar caixas de correio e unidades pessoais e alterar o status do funcionário em coisas como sistemas de recursos humanos. Para situações em que o litígio está envolvido, um funcionário ou outra parte de uma investigação legal pode ter motivos válidos para obter informações sobre dados pessoais armazenados nos sistemas da organização. Em algumas ocasiões, essa parte pode solicitar que esses dados sejam removidos ou anonimizados. 
 
 Para atender a essas necessidades, as organizações devem ter processos e procedimentos no local que a fim de atender às necessidades preventivas, descontantes e corretivas para facilitar essas solicitações, notando que algumas informações sobre um funcionário podem ser razoavelmente consideradas cruciais para a continuidade dos negócios. Por exemplo, informações de que um indivíduo escreveu um arquivo ou realizou uma função. 
 
@@ -161,7 +161,7 @@ Essa categoria é a que mais pessoas pensa em relação à privacidade de dados,
 - [Notificações de violação](../compliance/gdpr-breach-office365.md)
 - [Solicitações de entidades de dados](../compliance/gdpr-dsr-office365.md)
 
-Se sua organização não faz muita coleta direta de dados do consumidor, essa categoria pode ser menos um problema. No entanto, talvez você ainda precise passar pelos processos descritos nestes artigos para obter conformidade.
+Se sua organização não faz muitas coletas diretas de dados do consumidor, essa categoria pode ser menos um problema. No entanto, talvez você ainda precise passar pelos processos descritos nestes artigos para obter conformidade.
 
 ### <a name="step-1-summary"></a>Resumo da etapa 1
 
@@ -177,14 +177,14 @@ A maioria das organizações terá alguma exposição a um dos cenários acima. 
 
 Embora específica para o RGPD, as perguntas colocadas na ferramenta gratuita de avaliação de [RGPD](https://www.microsoft.com/cyberassessment/en/gdpr/uso365) da Microsoft fornecem um bom começo para entender a prontidão geral da privacidade de dados. 
 
-As organizações sujeitas a outras regulamentações de privacidade de dados, como o CCPA nos Estados Unidos ou no LGPD do Brasil, também podem se beneficiar do inventário de preparação dessa ferramenta devido a provisões sobrepostas com o RGPD.
+As organizações sujeitas a outras regulamentações de privacidade de dados, como CCPA nos Estados Unidos ou LGPD do Brasil, também podem se beneficiar do inventário de preparação dessa ferramenta devido a provisões sobrepostas com o RGPD.
 
 A avaliação de RGPD consiste nestas seções:
 
 | Seção | Descrição |
 |:-------|:-----|
 | Governança | <ol><li>Sua política de privacidade informa explicitamente quais informações de dados estão sendo processadas? </li><li>Você executar regularmente as Avaliações de Impacto de Privacidade (PIAs)? </li><li> Você usa uma ferramenta para gerenciar informações pessoais (PI)? </li><li> Você tem autoridade legal para conduzir negócios usando dados de PI em um determinado indivíduo? Você rastreia o consentimento de dados? </li><li> Você rastreia, implementa e gerencia controles de auditoria? Você monitora se há vazamentos de dados? </li></ol>|
-| Exclusão e notificação | <ol><li>Você dá instruções explícitas sobre como os dados dos usuários podem ser acessados? </li><li> Você tem processos documentados em andamento para lidar com a aceitação de consentimento? </li><li> Você tem um processo de Exclusão Automatizada para dados? </li><li>   Você tem um processo para validar a identidade ao interagir com um cliente? </li></ol>|
+| Exclusão e notificação | <ol><li>Você dá instruções explícitas sobre como os dados dos usuários podem ser acessados? </li><li> Você tem processos documentados em andamento para lidar com a aceitação de consentimento? </li><li> Você tem um processo de Exclusão Automática para dados? </li><li>   Você tem um processo para validar a identidade ao interagir com um cliente? </li></ol>|
 | Mitigação de riscos e segurança de informações | <ol><li>Você usa ferramentas para verificar dados não estruturados? </li><li>Todos os servidores estão atualizados e você aproveita os firewalls para protegê-los? </li><li>Você executar backups regulares de seus servidores? </li><li>Você monitora ativamente se há vazamentos de dados? </li><li>Você criptografa seus dados em repouso e em transmissão? </li></ol>|
 | Gerenciamento de políticas | <ol><li>Como você gerencia suas Regras Corporativas vinculativas (BCRs)? </li><li>Você rastreia o consentimento de dados? </li><li> Em uma escala de 1 a 5, sendo 5 completamente cobertos, seus contratos abrangem as classificações de dados e os requisitos de tratamento? </li><li>Você tem e testa regularmente um plano de resposta a incidentes? </li><li>Qual política você usa para gerenciar o acesso? </li></ol>|
 |||
@@ -223,7 +223,7 @@ Uma ferramenta importante para determinar a ocorrência de itens [](../complianc
  
 A nova ferramenta Explorador de Conteúdo permite identificar rapidamente os locais de itens confidenciais em seu ambiente, usando tipos de informações confidenciais integrados ou personalizados. Isso pode envolver o estabelecimento de um processo e a responsabilidade atribuída para investigar regularmente a presença e o local de itens confidenciais.
 
-Juntamente com as outras etapas destacadas neste artigo, isso fornece um ponto de partida para identificar sua exposição, prontidão e local de risco geral de itens confidenciais a serem protegidos por meio de configuração e monitoramento planejados do Microsoft 365. 
+Juntamente com as outras etapas destacadas neste artigo, isso fornece um ponto de partida para identificar a exposição, a preparação e o local geral de itens confidenciais a serem protegidos por meio de configuração e monitoramento planejados do Microsoft 365. 
 
 ### <a name="other-methods-to-identify-personal-data-in-your-environment"></a>Outros métodos para identificar dados pessoais em seu ambiente
 

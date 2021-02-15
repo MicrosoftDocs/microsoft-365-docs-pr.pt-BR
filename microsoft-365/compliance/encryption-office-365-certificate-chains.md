@@ -16,7 +16,7 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Veja uma lista completa de certificados raiz e autoridades de certificação (CAs) no Microsoft 365.
+description: Exibir uma lista completa de certificados raiz e autoridades de certificação (CAs) no Microsoft 365.
 ms.openlocfilehash: 3dd85ae9ec4e691c8b3dce03256e1afb1fcb6274
 ms.sourcegitcommit: 2c4c7ebe9bea52765ece0ed27d3ea77313711b10
 ms.translationtype: MT
@@ -26,17 +26,17 @@ ms.locfileid: "50068926"
 ---
 # <a name="microsoft-365-encryption-chains"></a>Cadeias de criptografia do Microsoft 365
 
-O Microsoft 365 aproveita vários provedores de certificados diferentes. O exemplo a seguir descreve a lista completa de certificados raiz conhecidos do Microsoft 365 que os clientes podem encontrar ao acessar o Microsoft 365. Para obter informações sobre os certificados que talvez você precise instalar em sua própria infraestrutura, consulte Planejar certificados SSL de terceiros para [o Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates) As informações de certificado a seguir se aplica a todas as instâncias de nuvem nacional e mundial do Microsoft 365.
+O Microsoft 365 aproveita vários provedores de certificados diferentes. O exemplo a seguir descreve a lista completa de certificados raiz conhecidos do Microsoft 365 que os clientes podem encontrar ao acessar o Microsoft 365. Para obter informações sobre os certificados que talvez seja necessário instalar em sua própria infraestrutura, consulte Planejar certificados SSL de terceiros para [o Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates) As informações de certificado a seguir se aplica a todas as instâncias de nuvem nacional e mundial do Microsoft 365.
 
 Last updated: **16/10/2020**
 
 >[!NOTE]
 >Para obter informações de certificado que se apliquem a clientes do DOD e **GCC High,** consulte cadeias de criptografia do [Microsoft 365 - DOD e GCC High](encryption-office-365-certificate-chains-itar.md).
 
-| **Tipo de certificado** | **Download P7b** | **Pontos de extremidade de CRL** | **Pontos de extremidade do OCSP** | **Pontos de extremidade do AIA** |
+| **Tipo de certificado** | **Download P7b** | **Pontos de extremidade da CRL** | **Pontos de extremidade do OCSP** | **Pontos de extremidade do AIA** |
 | --- | --- | --- | --- | --- |
-| Certificados raiz confiáveis publicamente | [Pacote de certificado raiz do Microsoft 365 (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | Não disponível | Não disponível |
-| Certificados Intermediários Confiáveis Publicamente | [Pacote de certificados intermediários do Microsoft 365 (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
+| Certificados raiz confiáveis publicamente | [Pacote de certificado raiz do Microsoft 365 (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | N/D | N/D |
+| Certificados Intermediários Confiáveis Publicamente | [Pacote de certificado intermediário do Microsoft 365 (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais sobre os provedores de certificados.
 
@@ -225,7 +225,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 | **Comprimento da Chave Pública** | RSA 2048 bits (e 65537) |
 | **Algoritmo de assinatura** | sha256RSA |
 | **Validade não anterior** | Abr 02 00:00:00 2008 UTC |
-| **Validade não após** | Dezembro 01 23:59:59 2037 UTC |
+| **Validade não após** | 01 de dez 23:59:59 2037 UTC |
 | **Identificador da chave do assunto** | ad:6c:aa:94:60:9c:ed:e4:ff:fa:3e:0a:74:2b:63:03:f7:b6:59:bf |
 | **Thumbprint (SHA-1)** | F18B538D1BE903B6A6F056435B171589CAF36BF2 |
 | **Thumbprint (SHA-256)** | 4B03F45807AD70F21BFC2CAE71C9FDE4604C064CF5FFB686BAE5DBAAD7FDD34C |
@@ -249,7 +249,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="cnnic-sha256-ssl"></a>**CNNIC SHA256 SSL**
 
-| **Assunto** | CN=TIMEIC SHA256 SSL <br>O=TIMEIC SHA256 SSL <br>C=CN |
+| **Assunto** | CN=TIMEIC SHA256 SSL <br>O=QUEIC SHA256 SSL <br>C=CN |
 | --- | --- |
 | **Emissor** | CN=RAIZ NOIC <br>O=VALORIC <br>C=CN |
 | **Número de série** | 49:33:00:7C |
@@ -446,7 +446,7 @@ Expanda as seções raiz e intermediária abaixo para ver detalhes adicionais so
 
 ### <a name="entrust-certification-authority---l1c"></a>**Autoridade de Certificação Credencial - L1C**
 
-| **Assunto** | CN=Autoridade de Certificação de Confiança - L1C<br>OU= &quot; (c) 2009 Entrust, Inc.&quot;<br>OU=www.corporated.net/rpa é incorporado por referência<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
+| **Assunto** | CN=Autoridade de Certificação de Confiança - L1C<br>OU= &quot; (c) 2009Corporated, Inc.&quot;<br>OU=www.corporated.net/rpa é incorporado por referência<br>O= &quot; Entrust, Inc.&quot;<br>C=US |
 | --- | --- |
 | **Emissor** | CN=Authority Certification.net (2048)<br>OU=(c) 1999 Entrust.net Limitada<br>OU=www.entrust.net/CPS \_ 2048 incorp. por ref. (limits liab.)<br>O=Entrust.net |
 | **Número de série** | 4C:0E:8C:39 |

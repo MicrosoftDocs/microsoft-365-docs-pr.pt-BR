@@ -34,7 +34,7 @@ Os scripts do Office permitem que os usuários automatizem tarefas gravando, edi
 - Certifique-se de que os usuários em sua organização tenham uma licença válida para um plano comercial ou EDU do Microsoft 365 ou Office 365 que inclua acesso a aplicativos da área de trabalho do Office, como um dos seguintes planos:
 
     - Microsoft 365 Business Standard
-    - Aplicativos do Microsoft 365 para empresas
+    - Microsoft 365 Apps para Pequenos e Médios negócios
     - Microsoft 365 Apps para empresas
     - Office 365 E3
     - Office 365 E5
@@ -70,7 +70,7 @@ Os scripts do Office permitem que os usuários automatizem tarefas gravando, edi
     
     - Para permitir que todos os usuários com acesso aos Scripts do Office compartilhem seus scripts, deixe **Todos** (o padrão) selecionado.
 
-    - Para permitir que apenas membros de um grupo específico com acesso aos scripts do Office compartilhem seus scripts, selecione Grupo específico e insira o nome ou alias de email do grupo para adicioná-lo à lista de autorizações. Você pode adicionar apenas um grupo à lista de autorizações, e ele deve ser um dos seguintes tipos:
+    - Para permitir que apenas membros de um grupo específico com acesso aos Scripts do Office compartilhem seus scripts, selecione Grupo específico e insira o nome ou alias de email do grupo para adicioná-lo à lista de autorizações. Você pode adicionar apenas um grupo à lista de autorizações, e ele deve ser um dos seguintes tipos:
         - Grupo do Microsoft 365
         - Grupo de distribuição
         - Grupo de segurança
@@ -80,9 +80,9 @@ Os scripts do Office permitem que os usuários automatizem tarefas gravando, edi
 
 7. Para permitir que os usuários executem seus scripts do Office dentro de fluxos do Power Automate, selecione Permitir que os usuários com acesso aos scripts do Office executem **seus scripts com o Power Automate.** Isso permite que os usuários adicionem etapas de fluxo com a opção de **script Executar** do Conector do Excel [Online (Business).](/connectors/excelonlinebusiness)
 
-    - Para permitir que todos os usuários com acesso aos Scripts do Office usem seus scripts em fluxos, deixe **Todos** (o padrão) selecionado.
+    - Para permitir que todos os usuários com acesso aos scripts do Office usem seus scripts em fluxos, deixe **Todos** (o padrão) selecionado.
 
-    - Para permitir que apenas membros de um grupo específico com acesso aos Scripts do Office usem seus scripts em fluxos, selecione Grupo específico e insira o nome ou alias de email do grupo para adicioná-lo à lista de autorizações. Você pode adicionar apenas um grupo à lista de autorizações, e ele deve ser um dos seguintes tipos:
+    - Para permitir que apenas membros de um grupo específico com acesso aos scripts do Office usem seus scripts em fluxos, selecione Grupo específico e insira o nome ou alias de email do grupo para adicioná-lo à lista de autorizações. Você pode adicionar apenas um grupo à lista de autorizações, e ele deve ser um dos seguintes tipos:
         - Grupo do Microsoft 365
         - Grupo de distribuição
         - Grupo de segurança

@@ -80,7 +80,7 @@ Crie uma equipe privada apenas para o proprietário e gerentes da empresa, ou pa
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWeqWA]
 
-Crie uma equipe de toda a organização que todos na empresa ou campanha possam usar para comunicar e compartilhar arquivos.
+Crie uma equipe de toda a organização que todos na empresa ou na campanha possam usar para comunicar e compartilhar arquivos.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2GCG9]
 

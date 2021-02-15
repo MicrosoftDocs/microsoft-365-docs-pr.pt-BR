@@ -33,7 +33,7 @@ As marcas de usuário são identificadores para grupos específicos de usuários
 - **Marcas do** sistema: Atualmente, as contas [de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) são o único tipo de marca do sistema.
 - **Marcas personalizadas:** você mesmo cria essas marcas de usuário.
 
-Se sua organização tiver o Defender para Office 365 Plano 2 (incluído na sua assinatura ou como um complemento), você pode criar marcas de usuário personalizadas além de usar a marca de contas de prioridade.
+Se sua organização tiver o Defender para Office 365 Plano 2 (incluído em sua assinatura ou como um complemento), você pode criar marcas de usuário personalizadas além de usar a marca de contas de prioridade.
 
 Depois de aplicar marcas do sistema ou marcas personalizadas aos usuários, você pode usá-la como filtros em alertas, relatórios e investigações:
 
@@ -59,7 +59,7 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
   **Observações**:
 
   - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
-  - O gerenciamento de marca de usuário é controlado pelas funções Leitor **de Marca,** **Colaborador de Marca** e Gerenciador de **Marca.**
+  - O gerenciamento de marca de usuário é controlado pelas funções **Leitor de Marca,** **Colaborador de Marca** e Gerenciador de **Marca.**
 
 - Você também pode gerenciar e monitorar contas prioritárias no Centro de administração do Microsoft 365. Para obter instruções, consulte [Gerenciar e monitorar contas de prioridade.](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)
 
@@ -82,9 +82,9 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
      - Clique na caixa e comece a digitar para filtrar a lista e selecionar um usuário ou grupo.
      - Para adicionar valores adicionais, clique em uma área vazia na caixa.
      - Para remover entradas individuais da  caixa, clique no ícone Remover do ![ usuário ou grupo na ](../../media/scc-remove-icon.png) caixa.
-     - Para remover as entradas existentes da lista abaixo da caixa, clique no ícone **Remover** ![ da ](../../media/scc-remove-icon.png) entrada.
+     - Para remover entradas existentes da lista abaixo da caixa, clique em **Remover** ![ ícone Remover a ](../../media/scc-remove-icon.png) entrada.
 
-     Quando terminar, clique em **Adicionar.**
+     Quando terminar, clique em **Adicionar**.
 
    - Clique **em Importar** para selecionar um arquivo de texto que contém os endereços de email dos usuários ou grupos. Certifique-se de que o arquivo de texto contenha uma entrada por linha.
 

@@ -1,5 +1,5 @@
 ---
-title: Criar retém de Descoberta e em um caso principal de Descoberta eDiscovery
+title: Criar retém de Descoberta De eDiscovery em um caso principal de Descoberta eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -26,23 +26,23 @@ ms.locfileid: "49988145"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
-Você pode usar um caso de Descoberta eDiscovery Principal para criar retém para preservar o conteúdo que pode ser relevante para o caso. Você pode colocar em espera as caixas de correio do Exchange e as contas do OneDrive for Business das pessoas que está investigando no caso. Você também pode colocar em espera as caixas de correio e sites associados ao Microsoft Teams, grupos do Office 365 e grupos do Yammer. Quando você coloca locais de conteúdo em espera, o conteúdo é preservado até que você remova a iseção do local de conteúdo ou até que você exclua a ista.
+Você pode usar um caso de Descoberta eDiscovery Principal para criar retém para preservar o conteúdo que pode ser relevante para o caso. Você pode colocar em espera as caixas de correio do Exchange e as contas do OneDrive for Business das pessoas que está investigando no caso. Você também pode colocar em espera as caixas de correio e sites associados ao Microsoft Teams, grupos do Office 365 e grupos do Yammer. Quando você coloca locais de conteúdo em espera, o conteúdo é preservado até que você remova a iseção do local de conteúdo ou até que você exclua a ise.
 
 Depois de criar uma espera de Descoberta eDiscovery, pode levar até 24 horas para que a espera entre em vigor. 
 
 Ao criar uma iseção, você tem as seguintes opções para criar um escopo do conteúdo preservado nos locais de conteúdo especificados:
   
-- Você cria uma espera infinita onde todo o conteúdo nos locais especificados é colocado em espera. Como alternativa, você pode criar uma isenção baseada em consulta onde apenas o conteúdo nos locais especificados que corresponde a uma consulta de pesquisa é colocado em espera.
+- Você cria uma espera infinita em que todo o conteúdo nos locais especificados é colocado em espera. Como alternativa, você pode criar uma isenção baseada em consulta onde apenas o conteúdo nos locais especificados que corresponde a uma consulta de pesquisa é colocado em espera.
 
 - Você pode especificar um intervalo de datas para preservar apenas o conteúdo que foi enviado, recebido ou criado dentro desse intervalo de datas. Como alternativa, você pode manter todo o conteúdo em locais especificados, independentemente de quando ele foi enviado, recebido ou criado.
   
 ## <a name="how-to-create-an-ediscovery-hold"></a>Como criar uma espera de Descoberta eDiscovery
 
-Para criar uma espera de Descoberta e Que está associada a um caso de Descoberta eDiscovery Principal:
+Para criar uma espera de Descoberta e Que está associada a um caso principal de Descoberta eDiscovery:
   
-1. Acesse e entre usando as credenciais da conta de usuário que recebeu [https://compliance.microsoft.com](https://compliance.microsoft.com) as permissões apropriadas de Descoberta.
+1. Acesse e entre usando as credenciais da conta de usuário que recebeu as permissões [https://compliance.microsoft.com](https://compliance.microsoft.com) apropriadas de Descoberta.
 
-2. No painel de navegação esquerdo do centro de conformidade do Microsoft 365, clique em Mostrar tudo e clique em Descoberta > **Principal.**
+2. No painel de navegação esquerdo do centro de conformidade do Microsoft 365, clique em Mostrar tudo e clique em **eDiscovery > Core.**
 
 3. Na página **Descoberta eDiscovery** Principal, selecione a ocorrência em que você deseja criar a espera e clique em **Abrir caso.**
 
@@ -56,14 +56,14 @@ Para criar uma espera de Descoberta e Que está associada a um caso de Descobert
 
     ![Escolher os locais de conteúdo para colocar em espera](../media/a59e4265-9151-4dbf-913f-6a4ab8db06b4.png)
   
-   1. **Locais de caixa** de correio - Clique em Escolher **usuários,** grupos ou equipes e clique em Escolher **usuários, grupos** ou equipes novamente para especificar as caixas de correio a colocar em espera. Use a caixa de pesquisa para encontrar caixas de correio de usuário e grupos de distribuição (para colocar uma espera nas caixas de correio de membros do grupo) para colocar em espera. Você também pode colocar em espera a caixa de correio associada a uma equipe da Microsoft, grupo do Office 365 ou grupo do Yammer. Selecione o usuário, grupo, caixa de seleção da equipe, **clique em Escolher** e clique em **Feito.**
+   1. **Locais de caixa** de correio - Clique em Escolher **usuários,** grupos ou equipes e clique em Escolher **usuários, grupos** ou equipes novamente para especificar as caixas de correio a colocar em espera. Use a caixa de pesquisa para encontrar caixas de correio de usuário e grupos de distribuição (para colocar em espera as caixas de correio de membros do grupo) para colocar em espera. Você também pode colocar uma espera na caixa de correio associada para um Microsoft Team, Grupo do Office 365 ou Grupo do Yammer. Marque o usuário, grupo, caixa de seleção da equipe, clique em **Escolher** e clique em **Feito.**
 
-   1. **Locais de** site - Clique **em Escolher sites** e clique em Escolher **sites** novamente para especificar contas do SharePoint e do OneDrive para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para uma equipe da Microsoft, grupo do Office 365 ou grupo do Yammer. Clique **em Escolher** e em **Done**.
+   1. **Locais de** site - Clique **em Escolher sites** e clique em Escolher **sites** novamente para especificar contas do SharePoint e do OneDrive para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para um Microsoft Team, Grupo do Office 365 ou um Grupo do Yammer. Clique **em Escolher** e em **Done**.
   
    1. **Pastas públicas do Exchange.** Mova o controle de alternância de alternância para a posição Todos para colocar todas as pastas públicas em ![ sua organização do Exchange Online em ](../media/scc-toggle-on.png) espera.  Você não pode escolher pastas públicas específicas para colocar em espera. Deixe o botão de alternância **definido** como Nenhum se você não quiser colocar uma espera em pastas públicas.
 
    > [!NOTE]
-   > Você deve adicionar pelo menos um local de conteúdo à espera. Caso contrário, a estática de espera da Descoberta eDiscovery mostrará que nenhum item está em espera.
+   > Você deve adicionar pelo menos um local de conteúdo à espera. Caso contrário, a estática de espera da Descoberta Descoberta mostrará que nenhum item está em espera.
 
 8. Quando terminar de adicionar locais de conteúdo à espera, clique em **Próximo.**
 
@@ -71,7 +71,7 @@ Para criar uma espera de Descoberta e Que está associada a um caso de Descobert
 
     ![Criar uma espera baseada em consulta com condições](../media/d587b58e-d05c-4ac0-b0fe-09019e4f1063.png)
   
-    1. Na caixa **palavras-chave,** digite uma consulta de pesquisa para que somente o conteúdo que atenda aos critérios de pesquisa seja preservado. Você pode especificar palavras-chave, propriedades de mensagens de email ou propriedades de documentos, como nomes de arquivo. Você também pode usar consultas mais complexas que usam um operador booleano, como **AND**, **OR** ou **NOT**.
+    1. Na caixa em **Palavras-chave,** digite uma consulta de pesquisa para que somente o conteúdo que atenda aos critérios de pesquisa seja preservado. Você pode especificar palavras-chave, propriedades de mensagens de email ou propriedades do documento, como nomes de arquivo. Você também pode usar consultas mais complexas que usam um operador booleano, como **AND**, **OR** ou **NOT**.
 
     1. Clique **em Adicionar** condições para adicionar uma ou mais condições para restringir a consulta de pesquisa para a espera. Cada condição adiciona uma cláusula à consulta de pesquisa KQL que é criada e executado quando você cria a isenção. Por exemplo, você pode especificar um intervalo de datas para que os documentos de email ou site criados dentro do intervalo de datas sejam colocados em espera. Uma condição é logicamente conectada à consulta de  palavra-chave (especificada na caixa Palavras-chave) pelo **operador AND.** Isso significa que os itens devem atender à consulta de palavra-chave e à condição a ser preservada.
 
@@ -85,7 +85,7 @@ Para criar uma espera de Descoberta e Que está associada a um caso de Descobert
 
 Lembre-se do seguinte ao colocar uma espera de Descoberta eDiscovery baseada em consulta em documentos localizados em sites do SharePoint:
 
-- Uma espera baseada em consulta inicialmente preserva todos os documentos em um site por um curto período de tempo depois que eles são excluídos. Isso significa que, quando um documento for excluído, ele será movido para a Biblioteca de Reter Para Preservação mesmo se não corresponder aos critérios da isenção baseada em consulta. No entanto, os documentos excluídos que não corresponderem a uma espera baseada em consulta serão removidos por um trabalho de timer que processa a Biblioteca de Reter Preservação. O trabalho de timer é executado periodicamente e compara todos os documentos na biblioteca de Retenção para Preservação com suas retenções de Descoberta e Descobertas (e outros tipos de retenção e políticas de retenção). O trabalho de timer exclui os documentos que não corresponderem a uma espera baseada em consulta e preserva os documentos que fazem isso.
+- Uma espera baseada em consulta inicialmente preserva todos os documentos em um site por um curto período de tempo depois que eles são excluídos. Isso significa que, quando um documento for excluído, ele será movido para a Biblioteca de Reter Para Preservação mesmo se não corresponder aos critérios da isenção baseada em consulta. No entanto, os documentos excluídos que não corresponderem a uma espera baseada em consulta serão removidos por um trabalho de timer que processa a Biblioteca de Reter Para Preservação. O trabalho de timer é executado periodicamente e compara todos os documentos na biblioteca de Retenção para Preservação com suas retenções de Descoberta e Descobertas (e outros tipos de retenção e políticas de retenção). O trabalho de timer exclui os documentos que não corresponderem a uma espera baseada em consulta e preserva os documentos que fazem isso.
 
 - As respeções baseadas em consulta não devem ser usadas para realizar a preservação direcionada, como preservar documentos em uma pasta ou site específico ou usar outros critérios de espera baseados no local. Isso pode ter resultados não intencionais. Recomendamos usar critérios de espera não baseados no local, como palavras-chave, intervalos de datas ou outras propriedades do documento para preservar documentos do site.
 
@@ -95,25 +95,25 @@ Depois de criar uma isenção de Descoberta eDiscovery, as informações sobre a
   
 ![Estatísticas de espera](../media/575cfe0a-9210-4ae4-8df8-65665d66712e.png)
   
-Lembre-se do seguinte sobre as estatísticas de espera da Descoberta e:
+Lembre-se do seguinte sobre as estatísticas de responsabilidade da Descoberta e:
   
 - O número total de itens em espera indica o número de itens de todas as fontes de conteúdo colocadas em espera. Se você criou uma espera baseada em consulta, essa estatística indica o número de itens que corresponderem à consulta.
 
 - O número de itens em espera também inclui itens não índicedos encontrados nos locais de conteúdo. Se você criar uma espera baseada em consulta, todos os itens não índicedos nos locais de conteúdo serão colocados em espera. Isso inclui itens não índicedos que não corresponderem aos critérios de pesquisa de uma espera baseada em consulta e itens não índicedos que podem ficar fora de uma condição de intervalo de datas. Isso é diferente do que acontece quando você executar uma pesquisa, na qual itens não índicedos que não corresponderem à consulta de pesquisa ou que são excluídos por uma condição de intervalo de datas não são incluídos nos resultados da pesquisa. Para obter mais informações sobre itens não indexados, consulte [Itens parcialmente indexados.](partially-indexed-items-in-content-search.md)
 
-- Você pode obter as estatísticas de  espera mais recentes clicando em Estatísticas de atualização para realizar uma nova estimativa de pesquisa que calcula o número atual de itens em espera.
+- Você pode obter as estatísticas de  espera mais recentes clicando em Estatísticas de atualização para reruncar uma estimativa de pesquisa que calcula o número atual de itens em espera.
 
 - É normal que o número de itens em espera aumente ao longo do tempo porque os usuários cuja caixa de correio ou site está em espera normalmente estão enviando ou recebendo novas mensagens de email e criando novos documentos no SharePoint e no OneDrive.
 
 - Se uma caixa de correio do Exchange, um site do SharePoint ou uma conta do OneDrive for movida para uma região diferente em um ambiente multi-geo, as estatísticas desse site não serão incluídas nas estatísticas de isenção. Mas o conteúdo nesses locais ainda será preservado. Além disso, se uma caixa de correio ou site for movido para uma região diferente, o endereço SMTP ou a URL exibida no iso não serão atualizados automaticamente. Você terá que editar a espera e atualizar a URL ou o endereço SMTP para que os locais de conteúdo sejam incluídos novamente nas estatísticas de espera
 
-## <a name="search-locations-on-ediscovery-hold"></a>Locais de pesquisa em espera de Descoberta e
+## <a name="search-locations-on-ediscovery-hold"></a>Locais de pesquisa em espera de Descoberta eDiscovery
 
 Ao [pesquisar](search-for-content-in-core-ediscovery.md) conteúdo em um caso de Descoberta e Principal, você pode configurar rapidamente a pesquisa para pesquisar apenas os locais de conteúdo que foram colocados em uma espera associada à ocorrência.
 
 ![Locais em espera](../media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
 
-Selecione a **opção Locais em espera** para pesquisar todos os locais de conteúdo que foram colocados em espera. Se a ocorrência contiver várias regiões de Descobertas Desconsucess, os locais de conteúdo de todas as regiões serão pesquisados quando você selecionar essa opção. Além disso, se um local de conteúdo foi colocado em uma espera baseada em consulta, somente os itens que corresponderem à consulta de espera serão pesquisados quando você executar a pesquisa. Em outras palavras, somente o conteúdo que corresponde aos critérios de espera e aos critérios de pesquisa é retornado com os resultados da pesquisa. Por exemplo, se um usuário foi colocado em um caso de espera baseado em consulta que preserva itens que foram enviados ou criados antes de uma data específica, somente esses itens serão pesquisados. Isso é realizado conectando a consulta de isenção de caso e a consulta de pesquisa por um **operador AND.**
+Selecione a **opção Locais em espera** para pesquisar todos os locais de conteúdo que foram colocados em espera. Se o caso contiver várias regiões de Descoberta eDiscovery, os locais de conteúdo de todas as regiões serão pesquisados quando você selecionar essa opção. Além disso, se um local de conteúdo foi colocado em uma espera baseada em consulta, somente os itens que corresponderem à consulta de espera serão pesquisados quando você executar a pesquisa. Em outras palavras, somente o conteúdo que corresponde aos critérios de espera e aos critérios de pesquisa é retornado com os resultados da pesquisa. Por exemplo, se um usuário foi colocado em um caso de espera baseado em consulta que preserva itens que foram enviados ou criados antes de uma data específica, somente esses itens serão pesquisados. Isso é realizado conectando a consulta de isenção de caso e a consulta de pesquisa por um **operador AND.**
 
 Aqui estão algumas outras coisas que você deve ter em mente ao pesquisar locais em um eDiscovery hold:
 
@@ -121,7 +121,7 @@ Aqui estão algumas outras coisas que você deve ter em mente ao pesquisar locai
 
 - Se uma pesquisa estiver configurada para locais de pesquisa em espera e, em seguida, você alterar uma isenção de Descoberta Eletrônica no caso (adicionando ou removendo um local ou alterando uma consulta de isenção), a configuração de pesquisa será atualizada com essas alterações. No entanto, você precisa realizar a pesquisa depois que a espera for alterada para atualizar os resultados da pesquisa.
 
-- Se várias regiões de Descoberta eDiscovery são colocadas em um único local em um caso de Descoberta e você seleciona para pesquisar locais em espera, o número máximo de palavras-chave para essa consulta de pesquisa é 500. Isso porque a pesquisa combina todas as retém baseadas em consulta usando o **operador OR.** Se houver mais de 500 palavras-chave nas consultas de isenção combinadas e na consulta de pesquisa, todo o conteúdo da caixa de correio será pesquisado, e não apenas o conteúdo que corresponde à isenção de caso baseada em consulta.
+- Se várias regiões de Descoberta eDiscovery são colocadas em um único local em um caso de Descoberta e você seleciona para pesquisar locais em espera, o número máximo de palavras-chave para essa consulta de pesquisa é 500. Isso porque a pesquisa combina todas as retém baseadas em consulta usando o **operador OR.** Se houver mais de 500 palavras-chave nas consultas de isenção combinadas e na consulta de pesquisa, todo o conteúdo da caixa de correio será pesquisado, e não apenas o conteúdo que corresponde à ocorrência baseada em consulta.
 
 - Se um eDiscovery hold tiver um status de a turned **on**, você ainda pode pesquisar os locais em espera enquanto a isenção está sendo responsabilidade.
 
@@ -138,17 +138,17 @@ Para obter mais informações sobre como preservar o conteúdo do Teams, confira
 
 ### <a name="preserve-card-content"></a>Preservar o conteúdo do cartão
 
-Da mesma forma, o conteúdo do cartão gerado por aplicativos nos canais do Teams, chats 1:1 e chats de grupo 1:N é armazenado em caixas de correio e preservado quando uma caixa de correio é colocada em uma isenção de Descoberta Eletrônico. Um *cartão* é um contêiner de interface do usuário para partes curtas de conteúdo. Os cartões podem ter várias propriedades e anexos e podem incluir botões que disparam ações de cartão. Para obter mais informações, consulte [Cartões.](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards) Como outros conteúdos do Teams, o local em que o conteúdo do cartão é armazenado é baseado em onde o cartão foi usado. O conteúdo dos cartões usados em um canal do Teams é armazenado na caixa de correio do grupo do Teams. O conteúdo do cartão para chats 1:1 e 1xN é armazenado nas caixas de correio dos participantes do chat.
+Da mesma forma, o conteúdo do cartão gerado por aplicativos nos canais do Teams, chats 1:1 e chats de grupo 1:N é armazenado em caixas de correio e preservado quando uma caixa de correio é colocada em uma isenção de Descoberta Eletrônico. Um *cartão* é um contêiner de interface de usuário para pequenos pedaços de conteúdo. Os cartões podem ter várias propriedades e anexos e podem incluir botões que disparam ações de cartão. Para obter mais informações, consulte [Cartões.](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards) Como outros conteúdos de equipes, onde o conteúdo do cartão é armazenado é baseado em onde o cartão foi usado. O conteúdo dos cartões usados em um canal Teams é armazenado na caixa de correio do grupo Teams. O conteúdo do cartão para bate-papos individuais e 1xN é armazenado nas caixas de correio dos participantes do bate-papo.
 
 ### <a name="preserve-meeting-and-call-information"></a>Preservar informações de reunião e chamada
 
-As informações resumidas para reuniões e chamadas em um canal do Teams também são armazenadas nas caixas de correio de usuários que discam para a reunião ou chamada. Esse conteúdo também é preservado quando uma espera de Descoberta Eletrônico é colocada em caixas de correio do usuário.
+As informações de resumo para reuniões e chamadas em um canal do Teams também são armazenadas nas caixas de correio de usuários que discam para a reunião ou chamada. Esse conteúdo também é preservado quando uma isenção de Descoberta Eletrônico é colocada em caixas de correio do usuário.
 
 ### <a name="preserve-content-in-private-channels"></a>Preservar conteúdo em canais privados
 
-A partir de fevereiro de 2020, também podemos preservar o conteúdo em canais privados. Como os chats de canal privado são armazenados nas caixas de correio dos participantes do chat, colocar uma caixa de correio de usuário em espera de Descoberta Eletrônico preservará chats de canal privado. Além disso, se uma caixa de correio de usuário foi colocada em uma espera de Descoberta Eletrônico antes de fevereiro de 2020, a espera agora se aplicará automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. Também há suporte para preservar arquivos compartilhados em canais privados.
+A partir de fevereiro de 2020, também podemos preservar o conteúdo em canais privados. Como os chats de canal privado são armazenados nas caixas de correio dos participantes do chat, colocar uma caixa de correio de usuário em espera de Descoberta Eletrônico preservará chats de canal privado. Além disso, se uma caixa de correio de usuário foi colocada em uma espera de Descoberta Automática antes de fevereiro de 2020, a espera agora se aplicará automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. Também há suporte para preservar arquivos compartilhados em canais privados.
 
-### <a name="preserve-wiki-content"></a>Preservar conteúdo wiki
+### <a name="preserve-wiki-content"></a>Preservar o conteúdo wiki
 
 Cada canal de equipe ou equipe também contém um Wiki para anotações e colaboração. O conteúdo Wiki é salvo automaticamente em um arquivo com um formato .mht. Esse arquivo é armazenado na biblioteca de documentos de Dados do Wiki do Teams no site do SharePoint da equipe. Você pode preservar o conteúdo wiki adicionando o site do SharePoint da equipe a uma espera de Descoberta eDiscovery.
 
@@ -157,9 +157,9 @@ Cada canal de equipe ou equipe também contém um Wiki para anotações e colabo
 
 ### <a name="office-365-groups"></a>Grupos do Office 365
 
-O Teams foi criado com base nos Grupos do Office 365. Portanto, colocar grupos do Office 365 em espera de Descobertas e é semelhante colocar o conteúdo do Teams em espera.
+O Teams foi criado com base nos Grupos do Office 365. Portanto, colocar grupos do Office 365 em espera de Descobertas eDiscovery é semelhante colocar o conteúdo do Teams em espera.
 
-Lembre-se do seguinte ao colocar o Teams e os Grupos do Office 365 em uma espera de Descoberta eDiscovery:
+Lembre-se do seguinte ao colocar o Teams e os Grupos do Office 365 em uma espera de Descobertas Locais:
 
 - Conforme explicado anteriormente, para colocar o conteúdo localizado nos Grupos do Teams e do Office 365 em espera, você precisa especificar a caixa de correio e o site do SharePoint associados a um grupo ou equipe.
 
@@ -197,15 +197,15 @@ Para coletar uma lista das URLs dos sites do OneDrive for Business em sua organi
 
 ## <a name="removing-content-locations-from-an-ediscovery-hold"></a>Removendo locais de conteúdo de uma espera de Descoberta
 
-Depois que uma caixa de correio, um site do SharePoint ou uma conta do OneDrive é removido de uma isenção de Descoberta Eletrônico, um atraso *é* aplicado. Isso significa que a remoção real da iseção é adiada por 30 dias para impedir que os dados são excluídos permanentemente (excluídos) de um local de conteúdo. Isso dá aos administradores a oportunidade de pesquisar ou recuperar conteúdo que será removido após a remoção de uma isenção de Descoberta. Os detalhes de como a espera por atraso funciona para caixas de correio e sites são diferentes.
+Depois que uma caixa de correio, o site do SharePoint ou *a* conta do OneDrive são removidos de uma isenção de Descoberta Eletrônico, um atraso é aplicado. Isso significa que a remoção real da espera é adiada por 30 dias para impedir que os dados são excluídos permanentemente (excluídos) de um local de conteúdo. Isso oferece aos administradores a oportunidade de pesquisar ou recuperar conteúdo que será removido após a remoção de uma isenção de Descoberta. Os detalhes de como a espera por atraso funciona para caixas de correio e sites são diferentes.
 
-- **Caixas de correio:** Um atraso é colocado em uma caixa de correio na próxima vez que o Assistente de Pasta Gerenciada processa a caixa de correio e detecta que uma isenção de Descoberta Eletrônico foi removida. Especificamente, um atraso de espera é aplicado a uma caixa de correio quando o Assistente de Pasta Gerenciada define uma das seguintes propriedades de caixa de correio como **True:**
+- **Caixas de correio:** Um atraso é colocado em uma caixa de correio na próxima vez que o Assistente de Pasta Gerenciada processa a caixa de correio e detecta que uma isenção de Descoberta Eletrônico foi removida. Especificamente, um atraso é aplicado a uma caixa de correio quando o Assistente de Pasta Gerenciada define uma das seguintes propriedades de caixa de correio como **True:**
 
-   - **DelayHoldApplied:** Essa propriedade se aplica ao conteúdo relacionado ao email (gerado por pessoas que usam o Outlook e o Outlook na Web) que é armazenado na caixa de correio de um usuário.
+   - **DelayHoldApplied:** Essa propriedade se aplica ao conteúdo relacionado ao email (gerado por pessoas que usam o Outlook e o Outlook na Web) armazenado na caixa de correio de um usuário.
 
-   - **DelayReleaseHoldApplied:** Essa propriedade se aplica ao conteúdo baseado em nuvem (gerado por aplicativos que não são do Outlook, como Microsoft Teams, Microsoft Forms e Microsoft Yammer) armazenado na caixa de correio de um usuário. Os dados de nuvem gerados por um aplicativo da Microsoft geralmente são armazenados em uma pasta oculta na caixa de correio de um usuário.
+   - **DelayReleaseHoldApplied:** Essa propriedade se aplica ao conteúdo baseado em nuvem (gerado por aplicativos que não são do Outlook, como Microsoft Teams, Microsoft Forms e Microsoft Yammer) armazenado na caixa de correio de um usuário. Os dados de nuvem gerados por um aplicativo da Microsoft normalmente são armazenados em uma pasta oculta na caixa de correio de um usuário.
 
-   Quando um atraso é colocado na caixa de correio (quando uma das propriedades anteriores é definida como **True**), a caixa de correio ainda é considerada como em espera por uma duração de espera ilimitada, como se a caixa de correio estivesse em Litígio. Após 30 dias, a espera de atraso expirará, e o Microsoft 365 tentará remover automaticamente a espera de atraso (definindo a propriedade DelayHoldApplied ou DelayReleaseHoldApplied como **False**) para que a espera seja removida. Depois que uma dessas propriedades for definida como **False**, os itens correspondentes marcados para remoção serão limpos na próxima vez que a caixa de correio for processada pelo Assistente de Pasta Gerenciada.
+   Quando uma espera de atraso é colocada na caixa de correio (quando uma das propriedades anteriores é definida como **True**), a caixa de correio ainda é considerada em espera por uma duração de espera ilimitada, como se a caixa de correio estivesse em Litígio. Após 30 dias, a espera de atraso expirará, e o Microsoft 365 tentará remover automaticamente a espera de atraso (definindo a propriedade DelayHoldApplied ou DelayReleaseHoldApplied como **False**) para que a espera seja removida. Depois que uma dessas propriedades for definida como **False**, os itens correspondentes marcados para remoção serão limpos na próxima vez que a caixa de correio for processada pelo Assistente de Pasta Gerenciada.
 
    Para saber mais, confira [Gerenciar caixas de correios em retenção por atraso](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold).
 
@@ -217,7 +217,7 @@ Uma isenção de atraso também é aplicada a locais de conteúdo em espera quan
 
 ## <a name="ediscovery-hold-limits"></a>Limites de espera de Descoberta eDiscovery
 
-A tabela a seguir lista os limites para ocorrências de Descoberta e casos de Ocorrência.
+A tabela a seguir lista os limites para ocorrências de Descoberta EDiscovery e retém ocorrências.
 
   | Descrição do limite | Limite |
   |:-----|:-----|

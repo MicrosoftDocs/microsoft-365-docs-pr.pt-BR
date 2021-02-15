@@ -76,7 +76,7 @@ Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 ## <a name="request-body"></a>Corpo da solicitação
 
-No corpo da solicitação, fornece os valores para os campos que devem ser atualizados. Propriedades existentes que não estão incluídas no corpo da solicitação manterão seus valores, a menos que tenham que ser recalculadas devido a alterações nos valores relacionados. Para melhor desempenho, você deve omitir valores existentes que não foram alterados.
+No corpo da solicitação, fornece os valores para os campos que devem ser atualizados. Propriedades existentes que não estão incluídas no corpo da solicitação manterão seus valores, a menos que tenham que ser recalculadas devido a alterações nos valores relacionados. Para melhorar o desempenho, você deve omitir valores existentes que não foram alterados.
 
 Propriedade | Tipo | Descrição
 -|-|-
@@ -84,7 +84,7 @@ status | Enum | Especifica o status atual do alerta. Os valores possíveis ```Ac
 assignedTo | string | Proprietário do incidente.
 classificação | Enum | Especificação do alerta. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 determinação | Enum | Especifica a determinação do alerta. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
-categorias | string List | Lista de marcas de incidente.
+tags | string List | Lista de marcas de incidente.
 
 ## <a name="response"></a>Resposta
 
@@ -100,7 +100,7 @@ Veja um exemplo da solicitação.
  PATCH https://api.security.microsoft.com/api/incidents/{id}
 ```
 
-**Resposta**
+**Response**
 
 ```json
 {
@@ -115,7 +115,7 @@ Veja um exemplo da solicitação.
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Acessar as APIs do Microsoft 365 Defender](api-access.md)
-- [Saiba mais sobre limites e licenciamento da API](api-terms.md)
+- [Saiba mais sobre limites e licenciamento de API](api-terms.md)
 - [Noções sobre códigos de erro](api-error-codes.md)
 - [APIs de Incidente](api-incident.md)
 - [Listar incidentes](api-list-incidents.md)

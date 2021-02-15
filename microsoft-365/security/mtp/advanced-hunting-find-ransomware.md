@@ -34,7 +34,7 @@ ms.locfileid: "49929499"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-O ransomware evoluiu rapidamente de ser um malware de mercadorias simples que afeta usuários de computador individuais para uma ameaça corporativa que está afetando gravemente as indústrias e instituições governamentais. Embora [o Microsoft 365 Defender](microsoft-threat-protection.md) fornece muitos recursos que detectam e bloqueiam ransomware e atividades de invasão associadas, executar verificações proativas em busca de sinais de comprometimento pode ajudar a manter sua rede protegida.
+O ransomware evoluiu rapidamente de ser um malware de mercadorias simples que afeta usuários de computador individuais para uma ameaça corporativa que está afetando gravemente as indústrias e instituições governamentais. Embora [o Microsoft 365 Defender](microsoft-threat-protection.md) fornece muitos recursos que detectam e bloqueiam ransomware e atividades de invasão associadas, executar verificações proativas de sinais de comprometimento pode ajudar a manter sua rede protegida.
 
 > [Leia sobre ransomware operado por humanos](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
 
@@ -152,7 +152,7 @@ Em vez de executar várias consultas separadamente, você também pode usar uma 
 - Pondera a presença desses sinais
 - Identifica dispositivos com uma maior chance de serem alvos de ransomware 
 
-Quando executado, essa consulta consolidada retorna uma lista de dispositivos que apresentaram vários sinais de ataque. A contagem de cada tipo de atividade de ransomware também é mostrada. Para executar essa consulta consolidada, copie-a diretamente para o editor de consulta de busca [avançada.](https://security.microsoft.com/advanced-hunting) 
+Quando executado, essa consulta consolidada retorna uma lista de dispositivos que apresentaram vários sinais de ataque. A contagem de cada tipo de atividade de ransomware também é mostrada. Para executar essa consulta consolidada, copie-a diretamente para o [editor de consulta de busca avançada.](https://security.microsoft.com/advanced-hunting) 
 
 ```kusto
 // Find attempts to stop processes using taskkill.exe

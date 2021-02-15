@@ -61,7 +61,7 @@ Quando a instalação for concluída, toque no botão **Abrir** para abrir o Out
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Insira seu endereço de email de trabalho na tela Adicionar Conta de **Email** Adicionar Conta e insira suas credenciais do \> Microsoft 365 para \> **empresas.**
+Insira seu endereço de email comercial na tela Adicionar Conta de **Email** Adicionar Conta e insira suas credenciais do \> Microsoft 365 para \> **empresas.**
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   

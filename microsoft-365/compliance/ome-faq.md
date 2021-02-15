@@ -62,7 +62,7 @@ Para obter mais informações sobre BYOK, consulte Planejamento e implementaçã
   
 ## <a name="do-ome-and-byok-with-azure-information-protection-change-microsofts-approach-to-third-party-data-requests-such-as-subpoenas"></a>O OME e BYOK com a Proteção de Informações do Azure alteram a abordagem da Microsoft para solicitações de dados de terceiros, como rotinas?
 
-Não. O OME e a opção de fornecer e controlar suas próprias chaves de criptografia, chamadas BYOK, da Proteção de Informações do Azure não foram projetadas para responder a autoridades. O OME, com BYOK para Proteção de Informações do Azure, foi projetado para clientes focados em conformidade. A Microsoft leva muito a sério as solicitações de dados de terceiros para os dados do cliente. Como provedor de serviços de nuvem, sempre defenderemos a privacidade dos dados do cliente. Caso obtenhamos uma surpresa, sempre tentaremos redirecionar o terceiro para o cliente para obter as informações. (Leia o blog de Brad Smith: [protegendo os dados do cliente contra a espionagem do governo).](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) Publicamos periodicamente informações detalhadas da solicitação que recebemos. Para obter mais informações sobre solicitações de dados de terceiros, consulte Respondendo a solicitações governamentais e de aplicação [da](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) lei para acessar dados do cliente na Central de Confiação da Microsoft. Além disso, consulte "Divulgação de dados do cliente" nos Termos [de Serviços Online (OST).](https://www.microsoft.com/Licensing/product-licensing/products.aspx)
+Não. O OME e a opção de fornecer e controlar suas próprias chaves de criptografia, chamadas BYOK, da Proteção de Informações do Azure não foram projetadas para responder a imposições da lei. O OME, com BYOK para Proteção de Informações do Azure, foi projetado para clientes focados em conformidade. A Microsoft leva muito a sério as solicitações de dados de terceiros para os dados do cliente. Como provedor de serviços de nuvem, sempre defenderemos a privacidade dos dados do cliente. Caso obtenhamos uma surpresa, sempre tentaremos redirecionar o terceiro para o cliente para obter as informações. (Leia o blog de Brad Smith: [protegendo os dados do cliente contra a espionagem do governo).](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/) Publicamos periodicamente informações detalhadas da solicitação que recebemos. Para obter mais informações sobre solicitações de dados de terceiros, consulte Respondendo a solicitações governamentais e de aplicação [da](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) lei para acessar dados do cliente na Central de Confiação da Microsoft. Além disso, consulte "Divulgação de dados do cliente" nos Termos [de Serviços Online (OST).](https://www.microsoft.com/Licensing/product-licensing/products.aspx)
   
 ## <a name="how-is-this-feature-related-to-legacy-office-365-message-encryption-ome-and-information-rights-management-irm-features"></a>Como esse recurso está relacionado aos recursos herdado de Criptografia de Mensagens (OME) e Gerenciamento de Direitos de Informação (IRM) do Office 365?
 
@@ -96,7 +96,7 @@ Os usuários locais podem enviar emails criptografados usando regras de fluxo de
   
 ## <a name="what-email-client-do-i-need-to-use-in-order-to-create-an-ome-encrypted-message-what-applications-are-supported-for-sending-protected-messages"></a>Qual cliente de email preciso usar para criar uma mensagem criptografada do OME? Quais aplicativos são suportados para envio de mensagens protegidas?
 
-Você pode criar mensagens protegidas do Outlook 2016, Outlook 2013 para Windows e Mac e do Outlook na Web. Para obter mais informações sobre como enviar mensagens criptografadas, consulte Enviar, exibir e responder a mensagens [criptografadas no Outlook para PC.](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us)
+Você pode criar mensagens protegidas do Outlook 2016, Do Outlook 2013 para Windows e Mac e do Outlook na Web. Para obter mais informações sobre como enviar mensagens criptografadas, consulte Enviar, exibir e responder a mensagens [criptografadas no Outlook para PC.](https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980?ui=en-us&rs=en-us&ad=us)
   
 ## <a name="what-email-clients-are-supported-to-read-and-reply-to-protected-emails"></a>Quais clientes de email têm suporte para ler e responder a emails protegidos?
 
@@ -137,7 +137,7 @@ A criptografia PDF permite que você proteja documentos PDF confidenciais por me
 
 ## <a name="are-onedrive-for-business-attachments-supported"></a>Há suporte para anexos do OneDrive for Business?
 
-Not yet. Não há suporte para anexos do OneDrive for Business e os usuários finais não podem criptografar um email que contenha um anexo do OneDrive for Business na nuvem.
+Not yet. Os anexos do OneDrive for Business não são suportados e os usuários finais não podem criptografar um email que contenha um anexo do OneDrive for Business na nuvem.
   
 ## <a name="what-email-clients-support-preview-of-encrypted-attachments-in-protected-emails"></a>Quais clientes de email suportam a visualização de anexos criptografados em emails protegidos?
 
@@ -145,7 +145,7 @@ Quando os anexos são protegidos com um email protegido, os clientes do Outlook 
 
 ## <a name="what-email-clients-support-revocation-of-protected-emails"></a>Quais clientes de email suportam revogação de emails protegidos?
 
-O Outlook na Web oferece suporte à revogação de emails protegidos.  Veja [como revogar uma mensagem criptografada que você enviou](https://docs.microsoft.com/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide#how-to-revoke-an-encrypted-message-that-you-sent) para obter detalhes.
+O Outlook na Web oferece suporte à revogação de emails protegidos.  Veja [como revogar uma mensagem criptografada que você enviou para](https://docs.microsoft.com/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide#how-to-revoke-an-encrypted-message-that-you-sent) obter detalhes.
 
 
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>Posso criptografar automaticamente as mensagens configurando políticas?
@@ -166,7 +166,7 @@ Sim! Para obter informações sobre como personalizar mensagens de email e o por
   
 ## <a name="are-there-any-reporting-capabilities-or-insights-for-encrypted-emails"></a>Há recursos de relatórios ou ideias para emails criptografados?
 
-Há um relatório de criptografia no Centro de Conformidade e Segurança. Consulte [Exibir relatórios de segurança de email no Centro de Conformidade & segurança.](../security/office-365-security/view-email-security-reports.md)
+Há um relatório de criptografia no Centro de Conformidade e Segurança. Consulte [Exibir relatórios de segurança de email no Centro de Conformidade e & Segurança.](../security/office-365-security/view-email-security-reports.md)
   
 ## <a name="can-i-use-message-encryption-with-compliance-features-such-as-ediscovery"></a>Posso usar a criptografia de mensagens com recursos de conformidade, como a Descoberta eDiscovery?
 

@@ -50,7 +50,7 @@ Em geral, você precisará seguir as seguintes etapas para usar essas APIs:
 - Obter um token de acesso usando este aplicativo.
 - Use o token para acessar a API do Microsoft 365 Defender.
 
-Como esse aplicativo é multi-locatário, você também precisará do consentimento [do](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) administrador de cada locatário em nome de seus usuários.
+Como esse aplicativo é multi-locatário, você também precisará do [consentimento](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) do administrador de cada locatário em nome de seus usuários.
 
 Este artigo explica como:
 
@@ -115,7 +115,7 @@ As etapas a seguir guiam como criar um aplicativo Azure AD de vários locatário
 
     ![Imagem de criar chave do aplicativo](../../media/webapp-create-key2.png)
 
-8. Grave sua ID de aplicativo e sua ID de locatário em algum lugar seguro. Eles estão listados em **Visão geral** na página do aplicativo.
+8. Grave sua ID de aplicativo e sua ID de locatário em algum lugar seguro. Eles estão listados em **Visão Geral** na página do aplicativo.
 
    ![Imagem da ID do aplicativo criado](../../media/app-and-tenant-ids.png)
 
@@ -140,7 +140,7 @@ As etapas a seguir guiam como criar um aplicativo Azure AD de vários locatário
    Você também precisará solicitar a ID de locatário ao seu usuário. A ID de locatário é um dos identificadores usados para adquirir tokens de acesso.
 
 - **Pronto!** Você registrou com êxito um aplicativo!
-- Veja os exemplos abaixo para aquisição e validação de token.
+- Veja exemplos abaixo para aquisição e validação de token.
 
 ## <a name="get-an-access-token"></a>Obter um token de acesso
 
@@ -185,7 +185,7 @@ return $token
 > O código a seguir foi testado com Nuget Microsoft.IdentityModel.Clients.ActiveDirectory 3.19.8.
 
 1. Crie um novo aplicativo de console.
-1. Instale o NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
+1. Instale o NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory.](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)
 1. Adicione a seguinte linha:
 
     ```C#
@@ -252,7 +252,7 @@ aadToken = jsonResponse["access_token"]
 curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
 ```
 
-Uma resposta bem-sucedida terá a aparência a seguir:
+Uma resposta bem-sucedida terá esta aparência:
 
 ```bash
 {"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}

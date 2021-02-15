@@ -31,9 +31,9 @@ ID | Categoria | ER | Endereços | Portas
 
 ID | Categoria | ER | Endereços | Portas
 -- | ------------------- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------
-11 | Permitir<BR>Obrigatório | Sim | `*.gov.online.office365.us`<BR>`52.127.37.0/24, 52.127.82.0/23` | **TCP:** 443
+11  | Permitir<BR>Obrigatório | Sim | `*.gov.online.office365.us`<BR>`52.127.37.0/24, 52.127.82.0/23` | **TCP:** 443
 12  | Padrão<BR>Obrigatório | Sim | `*.cdn.office365.us` | **TCP:** 443
-13 | Permitir<BR>Obrigatório | Sim | `*.gov.us.microsoftonline.com, graph.microsoft.us, graph.microsoftazure.us, login.microsoftonline.us`<BR>`20.140.232.0/23, 52.126.194.0/23` | **TCP:** 443
+13  | Permitir<BR>Obrigatório | Sim | `*.gov.us.microsoftonline.com, graph.microsoft.us, graph.microsoftazure.us, login.microsoftonline.us`<BR>`20.140.232.0/23, 52.126.194.0/23` | **TCP:** 443
 14  | Padrão<BR>Obrigatório | Não | `*.msauth.net, *.msauthimages.us, *.msftauth.net, *.msftauthimages.us, clientconfig.microsoftonline-p.net, graph.windows.net, login.microsoftonline.com, login.microsoftonline-p.com, login.windows.net, loginex.microsoftonline.com, login-us.microsoftonline.com, mscrl.microsoft.com, nexus.microsoftonline-p.com, secure.aadcdn.microsoftonline-p.com` | **TCP:** 443
 15  | Padrão<BR>Obrigatório | Não | `officehome.msocdn.us, prod.msocdn.us` | **TCP:** 443, 80
 16  | Permitir<BR>Obrigatório | Sim | `portal.office365.us, www.office365.us`<BR>`13.72.179.48/32, 52.227.167.206/32, 52.227.170.242/32` | **TCP:** 443, 80

@@ -57,7 +57,7 @@ Os clientes do Microsoft Teams verão "Restringir usuários anônimos de ingress
 
 ### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>Foi removida a capacidade de criar tíquetes do ServiceNow por meio do Secure Score 
 
-A capacidade de criar tíquetes do ServiceNow por meio da Classificação de Segurança indo **para Compartilhar > ServiceNow** não está mais disponível. Agradecemos por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
+A capacidade de criar tíquetes do ServiceNow por meio da Classificação de Segurança **indo para Compartilhar > ServiceNow** não está mais disponível. Agradecemos por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
 ### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Três ações de melhoria relacionadas a serviços adicionadas ao Microsoft Defender para Ponto de Extremidade (anteriormente Microsoft Defender ATP):
 
@@ -94,7 +94,7 @@ No tempo, a Identity Secure Score e a API do Graph adotarão o novo modelo de po
 
 * Todas as novas métricas e exibições de tendências para CISO e discussões em nível de liderança
 * Novas maneiras de acompanhar e fazer o comparativo de sua pontuação
-* Melhor controle e compreensão para regressões de pontuação
+* Melhor rastreamento e compreensão para regressões de pontuação
 * Filtrar, marcar, pesquisar e agrupar suas ações de melhoria
 * Gerencie suas metas futuras usando projeções de pontuação e ações planejadas
 * E muito mais!

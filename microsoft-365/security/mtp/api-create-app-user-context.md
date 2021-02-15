@@ -77,7 +77,7 @@ Este artigo explica como:
    - **Tipo de aplicativo:** Cliente público
    - **URI de redirecionamento:**https://portal.azure.com
 
-4. Na página do seu aplicativo, selecione Permissões de API Adicionar **APIs** de permissão que minha organização usa >, digite Proteção contra Ameaças da Microsoft e selecione  >    >   Proteção contra Ameaças **da Microsoft.**  Seu aplicativo agora pode acessar o Microsoft 365 Defender.
+4. Na página do seu aplicativo, selecione **Permissões** de API Adicionar APIs de permissão que minha organização usa >, digite Proteção contra Ameaças da Microsoft e selecione  >    >   Proteção **contra Ameaças da Microsoft.**  Seu aplicativo agora pode acessar o Microsoft 365 Defender.
 
    > [!TIP]
    > *A Proteção contra* Ameaças da Microsoft é um nome antigo do Microsoft 365 Defender e não aparecerá na lista original. Você precisa começar a escrever seu nome na caixa de texto para vê-lo aparecer.
@@ -156,6 +156,6 @@ O exemplo a seguir mostra como enviar uma solicitação para obter uma lista de 
 - [Criar um aplicativo "Hello world"](api-hello-world.md)
 - [Criar um aplicativo para acessar o Microsoft 365 Defender sem um usuário](api-create-app-web.md)
 - [Criar um aplicativo com acesso de parceiro multi-locatário às APIs do Microsoft 365 Defender](api-partner-access.md)
-- [Saiba mais sobre limites e licenciamento da API](api-terms.md)
+- [Saiba mais sobre limites e licenciamento de API](api-terms.md)
 - [Noções sobre códigos de erro](api-error-codes.md)
 - [Autorização do OAuth 2.0 para entrada do usuário e acesso à API](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

@@ -49,7 +49,7 @@ Na página de visão geral do Microsoft Secure Score, veja como os pontos são d
 
 ## <a name="check-your-current-score"></a>Verifique sua pontuação atual
 
-Para verificar sua pontuação atual, vá para a página de visão geral do Microsoft Secure Score e procure o pacote que diz Sua **pontuação segura.** Sua pontuação será mostrada como uma porcentagem, juntamente com o número de pontos que você atingiu do total de pontos possíveis.
+Para verificar sua pontuação atual, vá para a página de visão geral do Microsoft Secure Score e procure o pacote que diz Sua **pontuação segura.** Sua pontuação será mostrada como uma porcentagem, juntamente com o número de pontos que você atingiu fora do total de pontos possíveis.
 
 Além disso, se você selecionar o **botão Incluir** ao lado de sua pontuação, poderá escolher diferentes exibições da sua pontuação. Esses diferentes visualizações de pontuação serão exibidos no gráfico no gráfico de pontuação e no gráfico de divisão de pontos.
 
@@ -91,8 +91,8 @@ Escolha todos os status e grave anotações específicas para a ação de melhor
 
 - **Para tratar** - Você reconhece que a ação de melhoria é necessária e planeja a resolver em algum momento no futuro. Esse estado também se aplica a ações que são detectadas como parcialmente, mas não totalmente concluídas.
 - **Planejado -** Há planos concretos para concluir a ação de melhoria.
-- **Risco aceito** - A segurança sempre deve ser equilibrada com a usabilidade, e nem todas as recomendações funcionarão para seu ambiente. Nesse caso, você pode optar por aceitar o risco ou o risco restante e não aprovar a ação de melhoria. Você não receberá nenhum ponto, mas a ação não estará mais visível na lista de ações de melhoria. Você pode exibir essa ação no histórico ou desfazê-la a qualquer momento.
-- **Resolvido por meio de terceiros** e Resolvido por meio de **mitigação** alternativa - A ação de melhoria já foi abordada por um aplicativo ou software de terceiros ou por uma ferramenta interna. Você obterá os pontos que a ação vale, para que sua pontuação reflita melhor a postura de segurança geral. Se uma ferramenta interna ou de terceiros não abranger mais o controle, você poderá escolher outro status. Lembre-se de que a Microsoft não terá visibilidade da conclusão da implementação se a ação de melhoria estiver marcada como um desses status.
+- **Risco aceito** - A segurança sempre deve ser equilibrada com a usabilidade, e nem todas as recomendações funcionarão para seu ambiente. Nesse caso, você pode optar por aceitar o risco ou o risco restante e não acionar a ação de melhoria. Você não receberá pontos, mas a ação não estará mais visível na lista de ações de melhoria. Você pode exibir essa ação no histórico ou desfazê-la a qualquer momento.
+- **Resolvido por terceiros e** Resolvido por meio de **mitigação** alternativa - A ação de melhoria já foi abordada por um aplicativo ou software de terceiros ou uma ferramenta interna. Você obterá os pontos que a ação vale, para que sua pontuação reflita melhor a postura de segurança geral. Se uma ferramenta interna ou de terceiros não abranger mais o controle, você poderá escolher outro status. Lembre-se de que a Microsoft não terá visibilidade da conclusão da implementação se a ação de melhoria estiver marcada como um desses status.
 
 #### <a name="threat--vulnerability-management-improvement-actions"></a>Ações de & de gerenciamento de vulnerabilidades
 

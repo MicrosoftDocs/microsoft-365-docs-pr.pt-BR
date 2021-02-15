@@ -37,7 +37,7 @@ Este artigo faz parte de uma série maior de artigos sobre a Criptografia de Men
 
 O Exchange Online inclui a funcionalidade gerenciamento de direitos de informação (IRM) que fornece proteção online e offline de mensagens de email e anexos. Por padrão, o Exchange Online usa a Proteção de Informações do Azure. No entanto, sua organização pode ter configurado o IRM do Exchange Online para usar o Active Directory Rights Management Service (AD RMS) local. O suporte ao AD RMS no Exchange Online está se retirando. Em vez disso, a Proteção de Informações do Azure substituirá totalmente o AD RMS.
 
-Antes de começar, revise e avalie o impacto para sua organização. Se sua organização já estiver usando a Proteção de Informações do Azure para criptografar emails no Exchange Online, não há nada a fazer. Se você criptografar seu email usando regras de fluxo de emails do Exchange, por exemplo, usando a Criptografia de Mensagem do Office 365, não será preciso alterar seu email seguro. Caso contrário, você precisará se preparar para a preteridação do AD RMS alternando para a Proteção de Informações do Azure.
+Antes de começar, revise e avalie o impacto para sua organização. Se sua organização já estiver usando a Proteção de Informações do Azure para criptografar emails no Exchange Online, não há nada a fazer. Se você criptografar seu email usando regras de fluxo de emails do Exchange, por exemplo, usando a Criptografia de Mensagens do Office 365, não será preciso alterar seu email seguro. Caso contrário, você precisará se preparar para a preteridação do AD RMS alternando para a Proteção de Informações do Azure.
 
 ### <a name="prepare-for-ad-rms-deprecation"></a>Preparar-se para a preteração do AD RMS
 
@@ -56,10 +56,10 @@ Se sua organização ainda não tiver definido a Proteção de Informações do 
 |           **Situação**           | **OME Herdado**    | **IRM no AD RMS**        | **Novos recursos do OME** |
 |-----------------------------------|-------------------|-------------------|--------------------------|
 |*Enviar um email criptografado*        |Por meio de regras de fluxo de emails do Exchange|Usuário final iniciado a partir da área de trabalho do Outlook ou do Outlook na Web; ou por meio de regras de fluxo de emails do Exchange|Usuário final iniciado do Outlook para área de trabalho, Outlook para Mac ou Outlook na Web; por meio de regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) e Prevenção contra Perda de Dados (DLP)|
-|*Modelo de gerenciamento de direitos*       |   Não disponível      |Opção Não Encaminhar e modelos personalizados|Opção Não Encaminhar, Encrypt-Only e modelos personalizados|
+|*Modelo de gerenciamento de direitos*       |   N/D      |Opção Não Encaminhar e modelos personalizados|Opção Não Encaminhar, Encrypt-Only e modelos personalizados|
 |*Tipo de destinatário*                   |Destinatários internos e externos|Somente destinatários internos         |Destinatários internos e externos|
 |*Experiência para destinatário interno*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|Experiência em linha nativa em clientes do Outlook|Experiência em linha nativa para destinatários na mesma organização que usam clientes do Outlook.  Os destinatários podem ler mensagens do portal do OME usando clientes que não o Outlook (sem download ou aplicativo necessário).|
-|*Experiência para destinatário externo*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|Não disponível|Experiência em linha nativa para destinatários do Microsoft 365. Todos os outros destinatários podem ler a mensagem do portal do OME (sem download ou aplicativo necessário).|
+|*Experiência para destinatário externo*|Os destinatários recebem uma mensagem HTML, que eles baixam e abrem em um navegador da Web ou aplicativo móvel|N/D|Experiência em linha nativa para destinatários do Microsoft 365. Todos os outros destinatários podem ler a mensagem do portal do OME (sem download ou aplicativo necessário).|
 |*Permissões de anexo*           |Sem restrições sobre anexos|Anexos são protegidos|Os anexos são protegidos para a opção Não Encaminhar e modelos personalizados. Os administradores podem escolher se os anexos da Encrypt-Only estão protegidos ou não.|
 |*Suporte byOK (traga sua própria chave)*|Nenhum                |Nenhum               |BYOK com suporte          |
 ||
@@ -100,7 +100,7 @@ Os envios podem criptografar emails manualmente no Outlook para PC e Mac e no Ou
 
 Os destinatários dentro da GCC High recebem a mesma experiência de leitura em linha no Outlook para PC e Mac e no Outlook na Web como todos os outros usuários.
 
-### <a name="encrypted-email-between-gcc-high-and-non-gcc-high-recipients"></a>Email criptografado entre destinatários GCC Alto e Não GCC Alto
+### <a name="encrypted-email-between-gcc-high-and-non-gcc-high-recipients"></a>Email criptografado entre destinatários GCC Alto e Não-GCC Alto
 
 Os envios dentro da GCC High podem enviar emails criptografados fora do limite do GCC High e vice-versa.
 
@@ -126,4 +126,4 @@ Normalmente, os novos recursos do OME são habilitados automaticamente para sua 
 
 A versão herdada do OME será habilitada automaticamente para sua organização se você tiver habilitado a Proteção de Informações do Azure. No passado, o OME herdado funcionava mesmo se a Proteção de Informações do Azure não estivesse habilitada. Isso não acontece mais.
 
-Para começar a usar o OME herdado, se você tiver habilitado a Proteção de Informações do Azure, configure as regras de fluxo de emails que usam a ação de regra Aplique a versão **anterior do OME.** Para obter instruções, consulte [Definir regras de fluxo de emails para criptografar mensagens de email.](define-mail-flow-rules-to-encrypt-email.md)
+Para começar a usar o OME herdado, se você tiver habilitado a Proteção de Informações do Azure, configure regras de fluxo de emails que usam a ação de regra Aplique a versão **anterior do OME.** Para obter instruções, consulte [Definir regras de fluxo de emails para criptografar mensagens de email.](define-mail-flow-rules-to-encrypt-email.md)

@@ -36,7 +36,7 @@ Como as contas de administrador vêm com privilégios elevados, elas são alvos 
 - Como configurar uma conta de administrador adicional para emergências.
 - Como proteger essas contas.
 
-Ao se inscrever no Microsoft 365 e inserir suas informações, você se tornará automaticamente o administrador global. Um administrador global tem o controle final das contas de usuário e todas as outras configurações no centro de administração da Microsoft, mas há muitos tipos diferentes de contas de administrador com graus variáveis de acesso. Consulte [as funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para obter informações sobre os diferentes níveis de acesso para cada tipo de função de administrador.
+Ao se inscrever no Microsoft 365 e inserir suas informações, você se tornará automaticamente o administrador global. Um administrador global tem o controle total de contas de usuário e todas as outras configurações no centro de administração da Microsoft, mas há muitos tipos diferentes de contas de administrador com graus variáveis de acesso. Consulte [as funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para obter informações sobre os diferentes níveis de acesso para cada tipo de função de administrador.
 
 ## <a name="create-additional-admin-accounts"></a>Criar contas de administrador adicionais
 
@@ -83,5 +83,5 @@ Certifique-se de que essas contas estão usando [a autenticação multifator.](m
 ## <a name="additional-recommendations"></a>Recomendações adicionais
 
 - Certifique-se de que as contas de administrador também estão configuradas para autenticação multifa factor. Mostraremos como fazer isso em Configurar políticas de [acesso condicional.](m365-campaigns-conditional-access.md)
-- Antes de usar contas de administrador, feche todas as sessões de navegador e aplicativos não relacionados, incluindo contas de email pessoais. Você também pode usar em janelas de navegador privadas ou anônimas.
+- Antes de usar contas de administrador, feche todas as sessões de navegador e aplicativos não relacionados, incluindo contas de email pessoais. Você também pode usar em janelas privadas ou anônimas do navegador.
 - Depois de concluir as tarefas de administrador, saia da sessão do navegador.

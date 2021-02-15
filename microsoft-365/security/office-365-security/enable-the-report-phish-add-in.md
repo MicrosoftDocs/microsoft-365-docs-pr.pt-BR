@@ -67,7 +67,7 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
 
 1. Vá para o Microsoft AppSource em <https://appsource.microsoft.com/marketplace/apps> e pesquise o complemento Phishing de relatório.
 
-2. Clique **em OBTER AGORA.**
+2. Clique **EM OBTER AGORA.**
 
 3. Na caixa de diálogo exibida, revise os termos de uso e a política de privacidade e clique em **Continuar.**
 
@@ -83,14 +83,14 @@ Depois que o complemento for instalado e habilitado, você verá os seguintes í
 
   ![Ícone de complemento de phishing de relatório do Outlook na Web](../../media/OWA-ReportPhishing.png)
 
-## <a name="get-and-enable-the-report-phishing-add-in-for-your-organization"></a>Obter e habilitar o complemento De phishing de relatório para sua organização
+## <a name="get-and-enable-the-report-phishing-add-in-for-your-organization"></a>Obter e habilitar o add-in de Phishing de Relatório para sua organização
 
 > [!NOTE]
 > Pode levar até 12 horas para que o complemento apareça em sua organização.
 
 1. No Centro de administração do Microsoft 365, vá para a página Configurações de  \> **Add-ins** em , Se você não vir a Página de Complementos, vá para o link Configurações Integradas de <https://admin.microsoft.com/AdminPortal/Home#/Settings/AddIns>  Aplicativos, na parte superior da página **Aplicativos integrados.** \>  \>  
 
-2. Selecione **Implantar o Add-in** na parte superior da página e, em seguida, **selecione Next**.
+2. Selecione **Implantar o add-in** na parte superior da página e, em seguida, **selecione Próximo**.
 
    ![Página de serviços e complementos no centro de administração do Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
@@ -134,7 +134,7 @@ As pessoas que têm o complemento atribuído a elas verão os seguintes ícones:
 
 - No Outlook na Web, o ícone tem esta aparência:
 
-  ![Ícone do Aplicativo de Phishing do Outlook na Web](../../media/OWA-ReportPhishing.png)
+  ![Outlook na Web Report Phishing Add-in icon](../../media/OWA-ReportPhishing.png)
 
 ## <a name="review-or-edit-settings-for-the-report-phishing-add-in"></a>Revisar ou editar configurações para o add-in de Phishing de Relatório
 

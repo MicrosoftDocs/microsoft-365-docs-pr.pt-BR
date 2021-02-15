@@ -146,7 +146,7 @@ Defina tipos de informações confidenciais com base no padrão contido nas info
 
 Para obter orientações passo a passo para definir tipos personalizados de informações confidenciais, consulte Criar um tipo personalizado de informações confidenciais no Centro de Conformidade e Segurança & [Segurança.](https://docs.microsoft.com/microsoft-365/compliance/create-a-custom-sensitive-information-type)
 
-### <a name="prevent-data-loss"></a>Evitar a perda de dados
+### <a name="prevent-data-loss"></a>Evita a perda de dados
 
 As políticas de prevenção contra perda de dados [(DLP)](data-loss-prevention-policies.md) permitem identificar, monitorar e proteger automaticamente informações confidenciais em toda a organização do Microsoft 365. Use políticas DLP para identificar itens confidenciais nos serviços Microsoft, evitar o compartilhamento acidental de itens confidenciais e ajudar os usuários a aprender a manter a conformidade sem interromper o fluxo de trabalho.
 

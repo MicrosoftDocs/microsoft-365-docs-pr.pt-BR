@@ -30,7 +30,7 @@ ms.locfileid: "50094728"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Visão geral dos Grupos do Microsoft 365 para administradores
 
-Os Grupos do Microsoft 365 são o serviço de associação fundamental que orienta todo o trabalho em equipe no Microsoft 365. Com os Grupos do Microsoft 365, você pode dar a um grupo de pessoas acesso a uma coleção de recursos compartilhados. Esses recursos incluem:
+Os Grupos do Microsoft 365 são o serviço de associação fundamental que orienta todo o trabalho em equipe no Microsoft 365. Com os Grupos do Microsoft 365, você pode dar a um grupo de pessoas acesso a um conjunto de recursos compartilhados. Esses recursos incluem:
 
 - Uma caixa de entrada compartilhada do Outlook
 - Um calendário compartilhado
@@ -92,7 +92,7 @@ Você pode criar rótulos de sensibilidade que os usuários em sua organização
 
 - Privacidade (pública ou privada)
 - Acesso de usuários externos
-- Acesso nãomanagedo a dispositivos
+- Acesso nãomanageado a dispositivos
 
 Por exemplo, você pode criar um rótulo chamado *Altamente* Confidencial e especificar que qualquer grupo criado com esse rótulo será privado e não permitirá usuários externos. Quando os usuários em sua organização selecionam esse rótulo durante a criação do grupo, o grupo será definido como privado e os membros do grupo não poderão adicionar usuários externos ao grupo.
 
@@ -114,7 +114,7 @@ Os grupos do Microsoft 365 funcionam com o Azure Active Directory. Os recursos d
 
 > [!IMPORTANT]
 > Para todos os recursos de grupos, se você tiver uma assinatura do Azure AD Premium, os usuários poderão ingressar no grupo independentemente de eles ter ou não uma licença do AAD P1 atribuída a eles. O licenciamento não é imposto.
-> Periodicamente, geraremos relatórios de uso que informam quais usuários estão sem uma licença e precisam de uma atribuída para que sejam compatíveis com os requisitos de licenciamento. Por exemplo, digamos que um usuário não tenha uma licença e eles são adicionados a um grupo em que a política de nomen por nomeação é imposta. O relatório sinaliza para você que eles precisam de uma licença.
+> Periodicamente, geraremos relatórios de uso que informam quais usuários estão sem uma licença e precisam de uma atribuída para que sejam compatíveis com os requisitos de licenciamento. Por exemplo, digamos que um usuário não tem uma licença e eles são adicionados a um grupo em que a política de nomen por nomeação é imposta. O relatório sinaliza para você que eles precisam de uma licença.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

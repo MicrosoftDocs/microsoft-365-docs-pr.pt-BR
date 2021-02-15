@@ -46,7 +46,7 @@ Qualquer uma dessas licenças oferece acesso aos recursos do Microsoft 365 Defen
 - Enterprise Mobility + Security (EMS) E5 ou A5 
 - Office 365 E5 ou A5
 - Microsoft Defender para Ponto de Extremidade
-- Microsoft Defender para Identidade? 
+- O que é o Microsoft Defender para Identidade? 
 - Microsoft Cloud App Security
 - Defender para Office 365 (Plano 2)
 

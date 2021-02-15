@@ -19,7 +19,7 @@ ms.locfileid: "49939279"
 # <a name="install-intune-company-portal-on-devices"></a>Instalar o Portal da Empresa do Intune em dispositivos
 
 A Área de Trabalho Gerenciada da Microsoft exige que os administradores de IT instalem o Portal da Empresa do Intune para seus usuários com dispositivos da Área de Trabalho Gerenciada da Microsoft. Aqui estão alguns benefícios para sua organização:
-- Os usuários têm um local para navegar e instalar os aplicativos disponíveis. 
+- Os usuários têm um local para procurar e instalar aplicativos disponíveis. 
 - Os administradores de IT podem organizar aplicativos por categorias para seus usuários.  
 - Alguns aplicativos (como o Microsoft Project e o Microsoft Visio) exigem que o Portal da Empresa seja implantado com a Área de Trabalho Gerenciada da Microsoft.
 - Os administradores de IT podem personalizar o Portal da Empresa para sua organização. Isso inclui a imagem da marca, a adição de contatos de suporte local e muito mais. Para obter mais informações, consulte Como configurar o aplicativo portal da empresa [do Microsoft Intune.](https://docs.microsoft.com/intune/company-portal-app)   

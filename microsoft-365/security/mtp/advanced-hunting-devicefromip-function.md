@@ -59,7 +59,7 @@ invoke DeviceFromIP()
 
 Essa função é invocada como parte de uma consulta.
 
-- **x**— O primeiro parâmetro geralmente já é uma coluna na consulta. Nesse caso, é a coluna chamada , o endereço IP para o qual você deseja ver uma lista de dispositivos que foram `IP` atribuídos a ela. Deve ser um endereço IP local. Não há suporte para endereços IP externos.
+- **x**— O primeiro parâmetro geralmente já é uma coluna na consulta. Nesse caso, é a coluna chamada , o endereço IP para o qual você deseja ver uma lista de dispositivos que `IP` foram atribuídos a ela. Deve ser um endereço IP local. Não há suporte para endereços IP externos.
 - **y**— Um segundo parâmetro opcional é o , que instrui a função a obter os dispositivos atribuídos mais recentes `Timestamp` de um horário específico. Se não for especificada, a função retornará os registros disponíveis mais recentes.
 
 ## <a name="example"></a>Exemplo

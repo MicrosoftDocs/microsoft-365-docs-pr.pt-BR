@@ -85,7 +85,7 @@ Para criar uma regra de detecção personalizada, a consulta deve retornar as se
 >[!NOTE]
 >O suporte para entidades adicionais será adicionado à medida que novas tabelas são adicionadas ao [esquema de busca avançada.](advanced-hunting-schema-tables.md)
 
-Consultas simples, como aquelas que não usam o operador ou o operador para personalizar ou agregar resultados, normalmente `project` `summarize` retornam essas colunas comuns.
+Consultas simples, como aquelas que não usam o operador ou para personalizar ou agregar resultados, normalmente `project` `summarize` retornam essas colunas comuns.
 
 Há várias maneiras de garantir que consultas mais complexas retornem essas colunas. Por exemplo, se você preferir agregar e contar por entidade sob uma coluna, como , você ainda pode retornar e recebendo-o do evento mais recente envolvendo `DeviceId` `Timestamp` cada exclusivo `ReportId` `DeviceId` .
 
@@ -102,16 +102,16 @@ DeviceEvents
 > [!TIP]
 > Para melhorar o desempenho da consulta, de definir um filtro de tempo que corresponde à frequência de execução pretendido para a regra. Como a menor frequência de run é _a cada 24 horas,_ a filtragem do dia anterior abrangerá todos os novos dados.
 
-### <a name="2-create-new-rule-and-provide-alert-details"></a>2. Crie uma nova regra e forneça detalhes do alerta.
+### <a name="2-create-new-rule-and-provide-alert-details"></a>2. Crie uma nova regra e forneça detalhes de alerta.
 
 Com a consulta no editor de consulta, selecione **Criar regra de** detecção e especifique os seguintes detalhes de alerta:
 
 - **Nome da detecção**— nome da regra de detecção
-- **Frequência**— intervalo para executar a consulta e executar uma ação. [Veja as diretrizes adicionais abaixo](#rule-frequency)
+- **Frequência**— intervalo para executar a consulta e executar uma ação. [Consulte as diretrizes adicionais abaixo](#rule-frequency)
 - **Título do** alerta – título exibido com alertas disparados pela regra
 - **Gravidade —** risco potencial do componente ou da atividade identificado pela regra
 - **Categoria**— componente de ameaça ou atividade identificado pela regra
-- Técnicas de CK do **MITRE ATT&** uma ou mais técnicas de ataque identificadas pela regra, conforme documentado na estrutura [MITRE ATT&CK.](https://attack.mitre.org/) Esta seção está oculta para determinadas categorias de alerta, incluindo malware, ransomware, atividade suspeita e software indesejado
+- **TÉCNICAS CK mitRE ATT&** uma ou mais técnicas de ataque identificadas pela regra, conforme documentado na estrutura [MITRE ATT&CK](https://attack.mitre.org/). Esta seção está oculta para determinadas categorias de alerta, incluindo malware, ransomware, atividade suspeita e software indesejado
 - **Descrição**– mais informações sobre o componente ou a atividade identificada pela regra 
 - **Ações recomendadas**— ações adicionais que os respondentes podem tomar em resposta a um alerta
 
@@ -176,7 +176,7 @@ Para exibir todas as regras de detecção personalizadas existentes, navegue at�
 - **Última vez —** quando uma regra foi executado pela última vez para verificar se há consultas e gerar alertas
 - **Status da última vez**— se uma regra foi executado com êxito
 - **Próxima sequência —** a próxima sequência agendada
-- **Status**— se uma regra foi 10 ou não
+- **Status**— se uma regra foi 2013 ou não
 
 ### <a name="view-rule-details-modify-rule-and-run-rule"></a>Exibir detalhes da regra, modificar regra e executar regra
 
@@ -195,7 +195,7 @@ Você também pode tomar as seguintes ações na regra desta página:
 
 ### <a name="view-and-manage-triggered-alerts"></a>Exibir e gerenciar alertas disparados
 
-Na tela de detalhes da regra **(** Detecções personalizadas de busca [nome da regra] ), vá para  >    >   **alertas disparados,** que lista os alertas gerados por corresponde à regra. Selecione um alerta para exibir informações detalhadas sobre ele e tomar as seguintes ações:
+Na tela de detalhes da regra (**Detecções** personalizadas de busca [nome da regra] ), vá para  >    >   **alertas disparados,** que lista os alertas gerados por corresponde à regra. Selecione um alerta para exibir informações detalhadas sobre ele e tomar as seguintes ações:
 
 - Gerenciar o alerta definindo seu status e classificação (alerta verdadeiro ou falso)
 - Vincular o alerta a um incidente

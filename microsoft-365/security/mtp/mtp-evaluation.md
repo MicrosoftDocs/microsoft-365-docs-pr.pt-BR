@@ -78,14 +78,14 @@ Embora o Microsoft 365 Defender fornece muitos recursos, o objetivo principal de
 Funcionalidade | Descrição 
 :---|:---
 Obter o Microsoft Defender para Office 365 | Ajuda a proteger toda a sua empresa do Office 365 contra ameaças atuais
-Microsoft Defender para Identidade? | Identifica e detecta ameaças em identidades comprometidas e ações internas mal-intencionadas.
-Microsoft Cloud App Security | Fornece visibilidade rica, controle o deslocamento de dados e detecte ameaças cibernéticas em serviços de nuvem.
+O que é o Microsoft Defender para Identidade? | Identifica e detecta ameaças em identidades comprometidas e ações internas mal-intencionadas.
+Microsoft Cloud App Security | Fornece visibilidade rica, controla o deslocamento dos dados e detecta ameaças cibernéticas em serviços de nuvem.
 Microsoft Defender para Ponto de Extremidade | Impede, detecta e fornece recursos de resposta a ameaças avançadas com segurança abrangente do ponto de extremidade.
 
 
 ## <a name="in-scope"></a>No escopo
 
-As seguintes tarefas estão no escopo deste guia:
+As tarefas a seguir estão no escopo deste guia:
 -   Configurar o Azure Active Directory
 -   Configurar o Microsoft 365 Defender
     -   Inscreva-se na avaliação do Microsoft 365 E5 ou use sua licença completa se estiver executando um piloto
@@ -94,7 +94,7 @@ As seguintes tarefas estão no escopo deste guia:
     -   Concluindo o assistente de configuração no portal
 -   Configurar todos os pilares do Microsoft 365 Defender com base nas práticas recomendadas
     -   Obter o Microsoft Defender para Office 365
-    -   Microsoft Defender para Identidade?
+    -   O que é o Microsoft Defender para Identidade?
     -   Microsoft Cloud App Security
     -   Microsoft Defender para Ponto de Extremidade
 

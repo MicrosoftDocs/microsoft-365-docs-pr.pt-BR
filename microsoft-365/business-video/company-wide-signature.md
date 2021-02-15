@@ -44,7 +44,7 @@ Uma assinatura de email de toda a empresa aparece em todos os emails enviados po
 1. Na página **Nova regra:**
     1. Insira um nome para a regra.
     1. Na lista **drop-down** Aplicar esta regra, selecione **Aplicar a todas as mensagens.**
-    1. Na lista **drop-down** Do a seguir, verifique **se** anexar o aviso de isenção de responsabilidade é exibido.
+    1. Na lista **drop-down** Do a seguir, verifique se anexar o aviso de isenção **de** responsabilidade é exibido.
     1. No lado direito da página, selecione **Enter text** e insira o texto da sua assinatura de email na caixa de texto Especificar aviso **de** isenção de responsabilidade. Você pode melhorar a aparência da sua assinatura formatando o texto com HTML.
     1. Se quiser que uma imagem apareça em sua assinatura, você precisará usar uma URL publicamente disponível para essa imagem. Navegue até a imagem na Web, clique com o botão direito do mouse nele e selecione **Copiar endereço da imagem.** Colar o endereço na caixa **de texto Especificar aviso de** isenção de responsabilidade. Selecione **OK** e role para baixo.
     1. Para garantir que a assinatura funcione com emails criptografados, adicione uma opção de fallback. À direita da página, escolha **Selecionar um,** escolher **Quebrar** e, em seguida, selecione **OK**.

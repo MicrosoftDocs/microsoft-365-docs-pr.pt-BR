@@ -618,7 +618,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 ### <a name="format"></a>Formatar
 
-de oito a nove dígitos
+oito a nove dígitos
 
 ### <a name="pattern"></a>Padrão
 
@@ -822,7 +822,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - dl number
 
 
-#### <a name="keywords_austria_eu_drivers_license_number"></a>Keywords_austria_eu_driver's_license_number
+#### <a name="keywords_austria_eu_drivers_license_number"></a>Keywords_austria_eu_driver é s_license_number
 
 - ltdschein
 - führerschein
@@ -852,7 +852,7 @@ Uma combinação de 24 caracteres de letras, dígitos e caracteres especiais
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -1086,7 +1086,7 @@ Uma política de DLP tem baixa confiança de que ela detectou esse tipo de infor
 - tax no
 - tax number
 - tax registration number
-- planejador #
+- aaa #
 - adno #
 - adnumber #
 - taxno #
@@ -1835,7 +1835,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - Uma palavra-chave Keyword_belgium_national_number for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_belgium_national_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
@@ -3940,7 +3940,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 #### <a name="keyword_croatia_oib_number"></a>Keyword_croatia_oib_number
 
-- đstorski brojđana
+- hastorski brojđana
 - master citizen number
 - nacionalni identifikacijski broj
 - national identification number
@@ -4260,7 +4260,7 @@ Não
 Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_cyprus_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_cyprus_eu_passport_number` ou for encontrada. 
-- A expressão regular localiza a data no formato `Regex_cyprus_eu_passport_date` DD/MM/AAAA ou uma palavra-chave de `Keywords_cyprus_eu_passport_date` onde foi encontrada
+- A expressão regular `Regex_cyprus_eu_passport_date` localiza a data no formato DD/MM/AAAA ou uma palavra-chave de onde foi `Keywords_cyprus_eu_passport_date` encontrada
 
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_cyprus_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
@@ -4646,7 +4646,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de expiração
+- data de vencimento
 
 
 ## <a name="czech-personal-identity-number"></a>Número de identidade pessoal tcheco
@@ -5462,7 +5462,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
 
 11 dígitos:
   
-- um dígito que corresponde ao sexo e ao gênero de nascimento (número ímpar adulto, número par de mulheres; 1-2: décimo-nove; 3-4: séc. 20; 5-6: 21 do séc)
+- um dígito que corresponde ao sexo e ao gênero de nascimento (número ímpar do sexo, número par de mulheres; 1-2: décimo-nove; 3-4: 20º aniversário; 5-6: 21 do séc)
 - seis dígitos que correspondem à data de nascimento (AAMMDD)
 - três dígitos que correspondem a um número de série separando pessoas na mesma data
 - um dígito de verificação
@@ -5607,7 +5607,7 @@ eesti kodaniku passi number passinumbrid document number document no dokumendi n
 - data de vencimento
 
 
-## <a name="eu-debit-card-number"></a>Número do cartão de débito da UE
+## <a name="eu-debit-card-number"></a>Número de cartão de débito da UE
 
 ### <a name="format"></a>Formatar
 
@@ -5763,7 +5763,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 - kreditkarteninstitut 
 - kreditkartennummer 
 - kreditkartentyp 
-- que 
+- porque 
 - master card 
 - master cards 
 - mastercard 
@@ -6420,7 +6420,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - tax no
 - tax number
 - tax registration number
-- planejador #
+- aaa #
 - adno #
 - adnumber #
 - taxno #
@@ -6751,7 +6751,7 @@ Uma política de DLP tem baixa confiança de que ela detectou esse tipo de infor
 - carte nationale d'idenite no
 - cni #
 - cni
-- compte obraire
+- compte vousoire
 - national identification number
 - identidade nacional
 - nationalidno #
@@ -7090,7 +7090,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - lpscheinnummer
 - fuehrerscheinnummer
 - führerschein- 
-- chesschein- 
+- queschein- 
 - fuehrerschein- 
 - führerscheinnummernr
 - lpscheinnummernr
@@ -7871,7 +7871,7 @@ Nove dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -9124,7 +9124,7 @@ Formato antigo (até 31 de dezembro de 2012):
 
 Novo formato (1º de janeiro de 2013 e depois):
 - sete dígitos 
-- uma letra (não sensível a letras minúsculas) que é um dígito de verificação alfabético 
+- uma letra (não sensível a letras minúsculas), que é um dígito de verificação alfabético 
 - Uma letra opcional no intervalo A-I ou "W"
 
 ### <a name="checksum"></a>Soma de verificação
@@ -9595,7 +9595,7 @@ número da conta bancária:
 - sete ou oito dígitos
 - código de ramificação de conta bancária:
 - quatro dígitos 
-- um espaço ou um travessão (opcional) 
+- um espaço ou traço (opcional) 
 - três dígitos
 
 Soma de verificação
@@ -10374,7 +10374,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - tax no #
 - tax no
 - tax number
-- planejador #
+- aaa #
 - adno #
 - adnumber #
 - taxno #
@@ -10407,7 +10407,7 @@ Não
 Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_latvia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_latvia_eu_passport_number` ou for encontrada. 
-- A expressão regular localiza a data no formato `Regex_eu_passport_date1` DD.MM.AAAA ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
 
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_latvia_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
@@ -10791,7 +10791,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de expiração
+- data de vencimento
 
 
 ## <a name="luxemburg-drivers-license-number"></a>Número de carteira de motorista de Luxemburgo
@@ -11466,7 +11466,7 @@ sete dígitos seguidos por uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -11580,7 +11580,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de expiração
+- data de vencimento
 
 
 ## <a name="malta-tax-identification-number"></a>Número de identificação fiscal de Malta
@@ -11606,7 +11606,7 @@ Entidades nacionais e maltesas não maltesas: nove dígitos
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -11614,7 +11614,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - A regex  `Regex_malta_eu_tax_file_number`  ou localiza conteúdo que corresponde ao `Regex_malta_eu_tax_file_number_non_maltese_national` padrão. 
 - Uma palavra-chave  `Keywords_malta_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A regex  `Regex_malta_eu_tax_file_number` ou localiza conteúdo que corresponde ao `Regex_malta_eu_tax_file_number_non_maltese_national` padrão. 
     
 ```xml
@@ -11659,7 +11659,7 @@ Uma política de DLP tem baixa confiança de que detectou esse tipo de informaç
 - tax no
 - tax number
 - tax registration number
-- planejador #
+- aaa #
 - adno #
 - adnumber #
 - taxno #
@@ -12205,7 +12205,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 - A função Func_newzealand_driver_license_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_newzealand_driver_license_number for encontrada.
 
-Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_newzealand_driver_license_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -12359,7 +12359,7 @@ três letras, um espaço (opcional) e quatro dígitos
 
 ### <a name="pattern"></a>Padrão
 
-- três letras (não sensíveis a maiúsculas e minúsculas), exceto 'I' e 'O'
+- três letras (não sensíveis a maiúsculas e minúsculas), exceto "I" e "O"
 - um espaço (opcional) 
 - quatro dígitos
 
@@ -12904,7 +12904,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 - A função Func_polish_regon_number localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave Keywords_polish_regon_number for encontrada.
 
-Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_polish_regon_number localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -12991,7 +12991,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 - tax no
 - tax number
 - tax registration number
-- planejador #
+- aaa #
 - adno #
 - adnumber #
 - taxno #
@@ -13328,7 +13328,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de expiração
+- data de vencimento
 
 
 ## <a name="portugal-tax-identification-number"></a>Número de identificação fiscal de Portugal
@@ -13651,7 +13651,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - tax no
 - tax number
 - tax registration number
-- planejador #
+- aaa #
 - adno #
 - adnumber #
 - taxno #
@@ -14153,7 +14153,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 - A função  `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_slovakia_eu_national_id_card` de onde foi encontrada. 
     
-Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovakia_eu_national_id_card` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -14294,7 +14294,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de expiração
+- data de vencimento
 
 
 ## <a name="slovenia-drivers-license-number"></a>Número de carteira de motorista da Eslovênia
@@ -14619,7 +14619,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de expiração
+- data de vencimento
 
 
 ## <a name="slovenia-tax-identification-number"></a>Número de identificação fiscal da Eslovênia
@@ -14650,7 +14650,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 - A função  `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_slovenia_eu_tax_file_number` de onde foi encontrada. 
     
-Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função  `Func_slovenia_eu_tax_file_number` localiza conteúdo que corresponde ao padrão. 
     
 ```xml
@@ -14975,7 +14975,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - licencia circunsindocir
 - permisocir
 - permiso decir
-- permisos decir
+- permisos de todo o mundo
 - permisoscir
 - cirt propcir
 - quet decircir
@@ -14999,7 +14999,7 @@ oito dígitos seguidos por um caractere
 sete dígitos seguidos por um caractere
   
 - oito dígitos
-- Um espaço opcional ou hífen
+- Um espaço ou hífen opcional
 - uma letra de verificação (não sensitivo entre letras minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
@@ -15078,7 +15078,7 @@ uma combinação de oito ou nove caracteres de letras e números:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não aplicável
+Não se aplica
   
 ### <a name="definition"></a>Definição
 
@@ -15224,7 +15224,7 @@ Residentes com menos de 14 anos sem um Cartão de Identidade Nacional da Espanha
     
 Identificações com o número de identificação de um estrangeiro
   
-- uma letra maiúscula que seja "X", "Y" ou "Z" (sensível a maiúsculas) 
+- uma letra maiúscula que seja "X", "Y" ou "Z" (sensível a maiúsculas e minúsculas) 
 - sete dígitos
 - uma letra maiúscula (sensível a maiúsculas e minúsculas) 
     
@@ -15290,7 +15290,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - tax no
 - tax number
 - tax registration number
-- planejador #
+- aaa #
 - adno #
 - adnumber #
 - taxno #
@@ -15325,7 +15325,7 @@ Não
 
 Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular CEP_Regex_SQLServerConnectionString localiza conteúdo que corresponde ao padrão.
-- Uma palavra-CEP_GlobalFilter não foi encontrada.
+- Uma palavra-chave CEP_GlobalFilter não for encontrada.
 - A expressão regular CEP_PasswordPlaceHolder não encontra conteúdo que corresponde ao padrão.
 - A expressão regular CEP_CommonExampleKeywords não encontra conteúdo que corresponde ao padrão.
 
@@ -15541,7 +15541,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_sweden_eu_drivers_license_number"></a>Keywords_sweden_eu_driver's_license_number
 
 - ajokortti
-- permis de propcere
+- permis decere
 - ajokortin numero
 - kuljettajat lic.
 - drivere lic.
@@ -15768,7 +15768,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
 - um sinal de mais ou sinal de menos
 - três dígitos que fazem com que o número de identificação seja exclusivo em que: 
   - para números emitidos antes de 1990, o sétimo e o oitavo dígito identificam o país/região de nascimento ou pessoas que não têm filhos
-  - o dígito na nona posição indica sexo por ímpar para o sexo adulto ou até mesmo para a mulher
+  - o dígito na nona posição indica sexo por ímpar para o adulto ou até mesmo para a mulher
 - um dígito de verificação
     
 ### <a name="checksum"></a>Soma de verificação
@@ -15898,7 +15898,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - SWIFT コ ド
 - SWIFT 番号
 - BIC 番号
-- BIC コ ド
+- BIC コ BIC ド
 - 金融機関識別コード
 - 金融機関コード
 - 銀行コード
@@ -15969,7 +15969,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - uniqueidno #
 - identificação exclusiva não.
 - avs number
-- identidade pessoal no versicherungsnummer
+- personal identity no versicherungsnummer
 - identifikationsnummer
 - einzigartige identität nicht
 - sozialversicherungsnummer
@@ -16782,7 +16782,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - A função Func_unformatted_itin localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_itin for encontrada.
 
-Uma política de DLP tem baixa confiança de que detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_formatted_itin ou Func_unformatted_itin localiza conteúdo que corresponde ao padrão.
 
 ```xml
@@ -16904,7 +16904,7 @@ Uma política de DLP tem 55% de certeza de que ela detectou este tipo de informa
 - SSID
    
 ## <a name="us--uk-passport-number"></a>EUA/ Reino Unido passport number
-O Reino Unido a entidade de tipo de informação sensível ao número do passport está disponível no tipo de informação sensível ao Número de Passaporte da UE. Ele está disponível como uma entidade de tipo de informação sensível autônomo.
+O Reino Unido a entidade do tipo de informação sensível ao número do passport está disponível no tipo de informação sensível ao Número de Passaporte da UE. Ele está disponível como uma entidade de tipo de informação sensível autônomo.
 
 ### <a name="format"></a>Formatar
 
@@ -16956,7 +16956,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - PasseportNon 
 - Passeportn ° 
 
-## <a name="ukraine-passport-domestic"></a>Passaporte da Ucrânia doméstico
+## <a name="ukraine-passport-domestic"></a>Passaporte doméstico da Ucrânia
 Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação

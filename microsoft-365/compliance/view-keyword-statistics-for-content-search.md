@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
-description: Saiba como usar o recurso Estatísticas & de Pesquisa para exibir e comparar estatísticas de várias Pesquisas de Conteúdo no Centro de Conformidade e Segurança.
+description: Saiba como usar o recurso & Estatísticas de Pesquisa para exibir e comparar estatísticas de várias Pesquisas de Conteúdo no Centro de Conformidade e Segurança.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: f7faf956aaec5619655818036b969086e0af0c6a
 ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
@@ -46,7 +46,7 @@ Para exibir estatísticas para pesquisas de conteúdo:
     
     **Resumo**
     
-    Esta página exibe estatísticas semelhantes às exibidas no painel de detalhes na **página Pesquisa de** conteúdo. Estatísticas para todas as pesquisas selecionadas são exibidas. Observe que você também pode executar as pesquisas selecionadas nesta página para atualizar as estatísticas. 
+    Esta página exibe estatísticas semelhantes às exibidas no painel de detalhes na **página Pesquisa de** conteúdo. Estatísticas para todas as pesquisas selecionadas são exibidas. Observe que você também pode executar as pesquisas selecionadas desta página para atualizar as estatísticas. 
     
     ![Resumo das estatísticas das pesquisas selecionadas](../media/abb663eb-b3d6-4f4c-a99f-55d20b0848af.png)
   
@@ -70,11 +70,11 @@ Para exibir estatísticas para pesquisas de conteúdo:
     
     b. O tipo de local de conteúdo ao qual as estatísticas de consulta são aplicáveis.
     
-    c. Esta coluna indica a qual parte da consulta de pesquisa as estatísticas são aplicáveis. **O** primário indica toda a consulta de pesquisa. Se você usar uma lista de palavras-chave ao criar ou editar uma consulta de pesquisa, as estatísticas de cada componente da consulta serão incluídas nesta tabela. Consulte a [seção Obter estatísticas de palavra-chave para Pesquisas de](#get-keyword-statistics-for-content-searches) Conteúdo neste artigo para obter mais informações. 
+    c. Esta coluna indica a qual parte da consulta de pesquisa as estatísticas são aplicáveis. **O** primário indica toda a consulta de pesquisa. Se você usar uma lista de palavras-chave ao criar ou editar uma consulta de pesquisa, as estatísticas de cada componente da consulta serão incluídas nesta tabela. Consulte a [seção Obter estatísticas de palavra-chave para](#get-keyword-statistics-for-content-searches) Pesquisas de Conteúdo neste artigo para obter mais informações. 
     
     d. Essa coluna contém a consulta de pesquisa real que é executado pela ferramenta Pesquisa de Conteúdo. Observe que a ferramenta adiciona automaticamente alguns componentes adicionais à consulta que você cria. 
 
-    - Quando você pesquisa todo o conteúdo nas caixas de correio (sem especificar palavras-chave), a consulta real de palavras-chave é para que todos os  `size>=0` itens sejam retornados. 
+    - Quando você procura todo o conteúdo em caixas de correio (sem especificar palavras-chave), a consulta real de palavras-chave é para que todos os  `size>=0` itens sejam retornados. 
     
      - Quando você pesquisa sites do SharePoint Online e do OneDrive for Business, os dois componentes a seguir são adicionados:
     
@@ -136,4 +136,4 @@ Para criar uma lista de palavras-chave e exibir estatísticas de palavra-chave p
     - A consulta de pesquisa completa (identificada **como Primária** na coluna **Parte)** e as estatísticas para a consulta completa. Observe que estas são as mesmas estatísticas exibidas na página **Resumo.** 
 
 > [!NOTE]
-> Para ajudar a reduzir os problemas causados por listas de palavras-chave grandes, agora você está limitado a um máximo de 20 linhas na lista de palavras-chave de uma consulta de pesquisa.
+> Para ajudar a reduzir problemas causados por listas de palavras-chave grandes, agora você está limitado a um máximo de 20 linhas na lista de palavras-chave de uma consulta de pesquisa.

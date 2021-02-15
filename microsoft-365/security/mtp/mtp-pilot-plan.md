@@ -1,7 +1,7 @@
 ---
 title: Planejando seu projeto piloto do Microsoft 365 Defender
 description: Planeje seu projeto piloto do Microsoft 365 Defender com as partes interessadas para gerenciar as expectativas e garantir um resultado bem-sucedido.
-keywords: Piloto da Proteção contra Ameaças da Microsoft, planeje o projeto piloto da Proteção contra Ameaças da Microsoft, avalie a Proteção contra Ameaças da Microsoft em produção, projeto piloto da Proteção contra Ameaças da Microsoft, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
+keywords: Piloto da Proteção contra Ameaças da Microsoft, planeje o projeto piloto da Proteção contra Ameaças da Microsoft, avalie a Proteção contra Ameaças da Microsoft em produção, projeto piloto da Proteção contra Ameaças da Microsoft, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivo, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -44,7 +44,7 @@ Você está atualmente na fase de planejamento.
 
 Para garantir que seu projeto piloto seja um sucesso, é essencial planejar cuidadosamente e obter aprovações de seus stakeholders no início. Os elementos de planejamento incluem a identificação de escopo, casos de uso, requisitos e critérios de sucesso.
 
-Este guia o orienta sobre como planejar seu projeto piloto. 
+Este guia orienta você sobre como planejar seu projeto piloto. 
 
 >[!IMPORTANT]
 >Para obter os melhores resultados, siga as instruções do piloto o mais próximo possível.
@@ -76,11 +76,11 @@ Na lista de casos de uso, você pode começar a criar requisitos. Os requisitos 
 
 ## <a name="test-plan"></a>Plano de teste
 
-Dependendo dos requisitos, diferentes métodos de teste podem ser apropriados. Por exemplo, se o requisito for avaliar a eficácia da Correção Automatizada, o plano de teste precisará incluir etapas para gerar o(s) comportamento(s) que dispararia uma ação de correção automatizada no Microsoft 365 Defender. Se o requisito for detectar um determinado comportamento ou ataque, o teste pode envolver mais etapas. O objetivo é ter um plano para testar com precisão seus requisitos.
+Dependendo dos requisitos, diferentes métodos de teste podem ser apropriados. Por exemplo, se o requisito for avaliar a eficácia da Correção Automatizada, o plano de teste precisará incluir etapas para gerar o(s) comportamento(s) que dispararia uma ação de correção automatizada no Microsoft 365 Defender. Se o requisito for detectar um determinado comportamento ou ataque, o teste pode envolver mais etapas. O ponto é ter um plano em prática para testar com precisão seus requisitos.
 
 ## <a name="success-criteria"></a>Critérios de sucesso
 
-O critério de sucesso é, em última análise, o conjunto de barras para medir o que você está testando. Se você está testando o Microsoft 365 Defender (ou qualquer outra tecnologia nesse caso) em relação a outras ferramentas ou por si só, deve haver alguns critérios quantificáveis para determinar o valor que a ferramenta fornece. Com base no escopo, requisitos e plano de teste, os critérios de sucesso determinarão como pontuar o teste. Isso deve ser menos uma passagem ou uma falha e mais pontuação ponderada com base em suas necessidades. Por exemplo, para ser bem-sucedida, uma ferramenta pode precisar pontuar acima de 80% em determinadas áreas críticas identificadas.
+O critério de sucesso é, em última análise, o conjunto de barras para medir o que você está testando. Se você está testando o Microsoft 365 Defender (ou qualquer outra tecnologia nesse caso) em relação a outras ferramentas ou por si só, deve haver alguns critérios quantificáveis para determinar o valor que a ferramenta fornece. Com base no escopo, requisitos e plano de teste, os critérios de sucesso determinarão como pontuar o teste. Isso deve ser menos uma passagem ou falha e mais pontuação ponderada com base em suas necessidades. Por exemplo, para ser bem-sucedida, uma ferramenta pode precisar pontuar acima de 80% em determinadas áreas críticas identificadas.
 
 ## <a name="scorecard"></a>Scorecard
 

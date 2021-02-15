@@ -43,7 +43,7 @@ Há duas percepções de rede no nível do locatário que podem ser mostradas pa
 - [Conexões amostradas do SharePoint impactadas por problemas de conectividade](#sharepoint-sampled-connections-impacted-by-connectivity-issues)
 
 >[!IMPORTANT]
->Informações de rede, recomendações de desempenho e avaliações no Centro de administração do Microsoft 365 estão atualmente no status de visualização e só estão disponíveis para locatários do Microsoft 365 que foram inscritos no programa de visualização de recursos.
+>Insights de rede, recomendações de desempenho e avaliações no Centro de administração do Microsoft 365 estão atualmente no status de visualização e só estão disponíveis para locatários do Microsoft 365 que foram inscritos no programa de visualização de recursos.
 
 ## <a name="backhauled-network-egress"></a>Saída de rede em backhaul
 
@@ -63,7 +63,7 @@ Os detalhes desse insight incluem o local do escritório, a porcentagem estimada
 
 Para esse insight, recomendamos que a rede se aproxima do local do escritório para que a conectividade possa ser a melhor rota para a rede global da Microsoft e para a porta de entrada de serviço do Microsoft 365 mais próxima. Ter uma saída de rede próxima aos locais de escritório dos usuários também permite melhorar o desempenho no futuro, à medida que a Microsoft expande os pontos de presença da rede e as portas frontales do serviço do Microsoft 365 no futuro.
 
-Para saber mais sobre como resolver esse problema, confira conexões de rede de Saída [localmente](microsoft-365-network-connectivity-principles.md#egress-network-connections-locally) nos Princípios de Conectividade de Rede do [Office 365.](microsoft-365-network-connectivity-principles.md)
+Para saber mais sobre como resolver esse problema, confira [conexões](microsoft-365-network-connectivity-principles.md#egress-network-connections-locally) de rede de Saída localmente nos Princípios de Conectividade de Rede do [Office 365.](microsoft-365-network-connectivity-principles.md)
 
 ## <a name="network-intermediary-device"></a>Dispositivo intermediário de rede
 
@@ -95,7 +95,7 @@ Pode haver muitos motivos para essa condição, incluindo latência em sua rede 
 
 ## <a name="use-of-a-non-optimal-exchange-online-service-front-door"></a>Uso de uma porta frontal de serviço do Exchange Online não ideal
 
-Esse insight será exibido se o serviço de informações de rede detectar que os usuários em um local específico não estão se conectando a uma porta frontal de serviço ideal do Exchange Online.
+Esse insight será exibido se o serviço de informações de rede detectar que os usuários em um local específico não estão se conectando a uma porta frontal de serviço do Exchange Online ideal.
 
 Esse insight é abreviado como "Roteamento" em algumas exibições resumidas.
 
@@ -119,7 +119,7 @@ Esse insight é abreviado como "Afd" em alguns visualizações resumidas.
 
 ### <a name="what-does-this-mean"></a>Cenário
 
-Identificamos a porta de entrada do serviço do SharePoint Online ao qual o cliente de teste está se conectando. Em seguida, para a cidade de localização do escritório, comparamos isso com a porta de frente esperada do serviço do SharePoint Online para essa cidade. Se ele não corresponder, faremos essa recomendação.
+Identificamos a porta de entrada do serviço do SharePoint Online ao qual o cliente de teste está se conectando. Em seguida, para a cidade do local do escritório, comparamos isso com a porta de frente esperada do serviço do SharePoint Online para essa cidade. Se ele não corresponder, faremos essa recomendação.
 
 ### <a name="what-should-i-do"></a>O que devo fazer?
 
@@ -127,7 +127,7 @@ O uso de uma porta frontal de serviço do SharePoint Online que não seja ideal 
 
 ## <a name="low-download-speed-from-sharepoint-front-door"></a>Baixa velocidade de download da porta frontal do SharePoint
 
-Esse insight será exibido se o serviço de informações de rede detectar que a largura de banda entre o local específico do escritório e o SharePoint Online é inferior a 1 MBps.
+Essa informação será exibida se o serviço de informações de rede detectar que a largura de banda entre o local específico do escritório e o SharePoint Online é inferior a 1 MBps.
 
 Esse insight é abreviado como "Produtividade" em algumas exibições resumidas.
 
@@ -158,7 +158,7 @@ A saída da Internet mais longe dos usuários do que esses locais reduzirá o de
 
 ### <a name="what-should-i-do"></a>O que devo fazer?
 
-Para obter mais informações sobre como mitigar problemas de desempenho relacionados a esse insight, consulte a otimização de desempenho do locatário global do [Microsoft 365 para usuários da China.](microsoft-365-networking-china.md)
+Para obter mais informações sobre como mitigar problemas de desempenho relacionados a esse insight, confira a otimização de desempenho de locatário global do [Microsoft 365](microsoft-365-networking-china.md)para usuários da China.
 
 ## <a name="exchange-sampled-connections-impacted-by-connectivity-issues"></a>Conexões amostradas do Exchange impactadas por problemas de conectividade
 
@@ -186,7 +186,7 @@ Habilita a visibilidade da conectividade de rede de localização do escritório
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Conectividade de rede no Centro de Administração do Microsoft 365 (visualização)](office-365-network-mac-perf-overview.md)
+[Conectividade de rede no Centro de administração do Microsoft 365 (visualização)](office-365-network-mac-perf-overview.md)
 
 [Avaliação de rede do Microsoft 365 (visualização)](office-365-network-mac-perf-score.md)
 
