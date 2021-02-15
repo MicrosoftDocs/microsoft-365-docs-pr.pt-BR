@@ -27,19 +27,19 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49932833"
 ---
-# <a name="set-the-time-zone-for-microsoft-365-defender"></a><span data-ttu-id="f8f84-104">Definir o fuso horário do Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f8f84-104">Set the time zone for Microsoft 365 Defender</span></span>
+# <a name="set-the-time-zone-for-microsoft-365-defender"></a><span data-ttu-id="a845a-104">Definir o fuso horário do Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a845a-104">Set the time zone for Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="f8f84-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="f8f84-105">**Applies to:**</span></span>
-- <span data-ttu-id="f8f84-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f8f84-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="a845a-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="a845a-105">**Applies to:**</span></span>
+- <span data-ttu-id="a845a-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a845a-106">Microsoft 365 Defender</span></span>
 
 
 
-<span data-ttu-id="f8f84-107">O Microsoft 365 Defender pode exibir informações de data e hora usando seu fuso horário local ou UTC.</span><span class="sxs-lookup"><span data-stu-id="f8f84-107">Microsoft 365 Defender can display date and time information using either your local time zone or UTC.</span></span> <span data-ttu-id="f8f84-108">O fuso horário escolhido será aplicado a todas as informações de data e hora exibidas nos seguintes recursos no centro de segurança do Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="f8f84-108">The selected time zone will apply to all date and time information shown in the following features in the Microsoft 365 security center:</span></span>
-- <span data-ttu-id="f8f84-109">Incidentes</span><span class="sxs-lookup"><span data-stu-id="f8f84-109">Incidents</span></span>
-- <span data-ttu-id="f8f84-110">Investigação e correção automatizadas, incluindo a central de ação</span><span class="sxs-lookup"><span data-stu-id="f8f84-110">Automated investigation and remediation, including the action center</span></span>
-- <span data-ttu-id="f8f84-111">Busca avançada</span><span class="sxs-lookup"><span data-stu-id="f8f84-111">Advanced hunting</span></span>
+<span data-ttu-id="a845a-107">O Microsoft 365 Defender pode exibir informações de data e hora usando seu fuso horário local ou UTC.</span><span class="sxs-lookup"><span data-stu-id="a845a-107">Microsoft 365 Defender can display date and time information using either your local time zone or UTC.</span></span> <span data-ttu-id="a845a-108">O fuso horário escolhido será aplicado a todas as informações de data e hora exibidas nos seguintes recursos no centro de segurança do Microsoft 365:</span><span class="sxs-lookup"><span data-stu-id="a845a-108">The selected time zone will apply to all date and time information shown in the following features in the Microsoft 365 security center:</span></span>
+- <span data-ttu-id="a845a-109">Incidentes</span><span class="sxs-lookup"><span data-stu-id="a845a-109">Incidents</span></span>
+- <span data-ttu-id="a845a-110">Investigação e correção automatizadas, incluindo a central de ação</span><span class="sxs-lookup"><span data-stu-id="a845a-110">Automated investigation and remediation, including the action center</span></span>
+- <span data-ttu-id="a845a-111">Busca avançada</span><span class="sxs-lookup"><span data-stu-id="a845a-111">Advanced hunting</span></span>
 
-<span data-ttu-id="f8f84-112">Para definir o fuso horário desses recursos, vá para Configurações do  >  **Microsoft 365 Defender** Fuso  >  **horário.**</span><span class="sxs-lookup"><span data-stu-id="f8f84-112">To set the time zone for these features, go to **Settings** > **Microsoft 365 Defender** > **Time zone**.</span></span>
+<span data-ttu-id="a845a-112">Para definir o fuso horário desses recursos, vá para Configurações do  >  **Microsoft 365 Defender** Fuso  >  **horário.**</span><span class="sxs-lookup"><span data-stu-id="a845a-112">To set the time zone for these features, go to **Settings** > **Microsoft 365 Defender** > **Time zone**.</span></span>
