@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639366"
 ---
-# <a name="contact-support-for-swaziland"></a><span data-ttu-id="13b65-103">Contatar o suporte para Suazilândia</span><span class="sxs-lookup"><span data-stu-id="13b65-103">Contact support for Swaziland</span></span>
+# <a name="contact-support-for-swaziland"></a><span data-ttu-id="1869a-103">Contatar o suporte da Suazilândia</span><span class="sxs-lookup"><span data-stu-id="1869a-103">Contact support for Swaziland</span></span>
 
-<span data-ttu-id="13b65-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="13b65-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="1869a-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="1869a-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="13b65-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="13b65-105">Phone number</span></span>
-<span data-ttu-id="13b65-106">+ 1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="13b65-106">+1 312 843 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="1869a-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="1869a-105">Phone number</span></span>
+<span data-ttu-id="1869a-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="1869a-106">+1 312 843 5151</span></span>
 
-## <a name="hours"></a><span data-ttu-id="13b65-107">Horas</span><span class="sxs-lookup"><span data-stu-id="13b65-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="13b65-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="13b65-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="1869a-107">Horas</span><span class="sxs-lookup"><span data-stu-id="1869a-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="1869a-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="1869a-108">Billing Support:</span></span>
 
-<span data-ttu-id="13b65-109">Inglês: Mon-Fri 10 PM</span><span class="sxs-lookup"><span data-stu-id="13b65-109">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="1869a-109">Inglês: Mon-Fri das 10:00 às 18:00</span><span class="sxs-lookup"><span data-stu-id="1869a-109">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="13b65-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="13b65-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="1869a-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="1869a-110">Technical Support:</span></span>
 
-<span data-ttu-id="13b65-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="13b65-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="1869a-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="1869a-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="13b65-112">Tarifas de chamada internacional se aplicam</span><span class="sxs-lookup"><span data-stu-id="13b65-112">International call charges apply</span></span>
+<span data-ttu-id="1869a-112">Aplicam-se encargos de chamada internacional</span><span class="sxs-lookup"><span data-stu-id="1869a-112">International call charges apply</span></span>
