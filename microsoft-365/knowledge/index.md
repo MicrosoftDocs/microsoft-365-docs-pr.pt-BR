@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-topics
 localization_priority: None
 description: Saiba como encontrar recursos para tópicos do Microsoft Viva.
-ms.openlocfilehash: 3e75dfcfa17e5604e04b6f5e49be9019b1679110
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: d5c54bda3432fc9a1ff5ce4342cc523544eb6e78
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107165"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242861"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Introdução aos tópicos do Microsoft Viva
 
@@ -42,6 +42,9 @@ Os recursos desta seção ajudam você a saber mais sobre o que são tópicos do
 |Saiba mais sobre tópicos do Viva|[Visão geral dos tópicos do Microsoft Viva](topic-experiences-overview.md)|
 |Saiba como os tópicos são descobertos e sugeridos pela IA|[Descoberta de tópicos do Microsoft Viva](topic-experiences-discovery.md)|
 |Saiba mais sobre segurança de tópicos|[Segurança e privacidade do Microsoft Viva](topic-experiences-security-privacy.md)|
+|Saiba como obter tópicos do Viva|[Página do produto Microsoft Viva Topics](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
+|Veja os recursos na central de recursos da comunidade técnica da Microsoft|[Microsoft Viva Topics Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
+
 
 
 ## <a name="adoption"></a>Adoção

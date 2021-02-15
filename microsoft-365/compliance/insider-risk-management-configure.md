@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 13e5d1f160fe957748295749662a7042489887ca
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 108f086af014c4f634e321f2e84e112db2032f17
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150579"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233303"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -44,6 +44,7 @@ Antes de começar a trabalhar com o gerenciamento de riscos insider, você deve 
 - Assinatura do Microsoft 365 G5 (versão paga ou de avaliação)
 - Assinatura do Microsoft 365 G3 + o complemento de Conformidade do Microsoft 365 G5
 - Assinatura do Microsoft 365 G3 + o complemento Microsoft 365 G5 Insider Risk Management
+- Assinatura do Office 365 E3 + Enterprise Mobility and Security E3 + o complemento de Conformidade do Microsoft 365 E5
 
 Os usuários incluídos nas políticas de gerenciamento de riscos insider devem ter uma das licenças atribuídas acima.
 
@@ -170,8 +171,8 @@ Antes de configurar uma política, defina as seguintes configurações de risco 
 6. Na página **Exportar alertas,** habilita a exportação de informações de alerta de risco interno usando as APIs de Gerenciamento do Office 365, se necessário.
 7. Na página **Grupos de usuários de** prioridade, crie um grupo de usuários com prioridade e adicione usuários se não tiver criado na Etapa **3.**
 8. Na página **fluxos do Power Automate,** configure um fluxo de modelos de fluxo de riscos insider ou crie um novo fluxo. Consulte o [artigo Sobre como começar a trabalhar com configurações](insider-risk-management-settings.md#power-automate-flows-preview) de gerenciamento de riscos insider para obter orientações passo a passo.
-9. Na página **Ativos de** prioridade, configure os ativos de prioridade para usar dados do seu controle físico e da plataforma de acesso importados pelo conector de badging físico. Consulte o [artigo Guia de configurações de](insider-risk-management-settings.md#priority-physical-assets-preview) gerenciamento de riscos interno para obter orientações passo a passo.
-10. Na página **do Microsoft Teams,** habilita a integração do Microsoft Teams com o gerenciamento de riscos insider para criar automaticamente uma equipe para colaboração de casos ou usuários. Consulte o [artigo Guia de configurações de](insider-risk-management-settings.md#microsoft-teams-preview) gerenciamento de riscos interno para obter orientações passo a passo.
+9. Na página **Ativos de** prioridade, configure os ativos de prioridade para usar dados do seu controle físico e da plataforma de acesso importados pelo conector de badging físico. Consulte o [artigo Sobre como começar a trabalhar com configurações](insider-risk-management-settings.md#priority-physical-assets-preview) de gerenciamento de riscos insider para obter orientações passo a passo.
+10. Na página **do Microsoft Teams,** habilita a integração do Microsoft Teams com o gerenciamento de riscos insider para criar automaticamente uma equipe para colaboração de casos ou usuários. Consulte o [artigo Sobre como começar a trabalhar com configurações](insider-risk-management-settings.md#microsoft-teams-preview) de gerenciamento de riscos insider para obter orientações passo a passo.
 11. Selecione **Salvar** para habilitar essas configurações para suas políticas de risco interno.
 
 ## <a name="step-5-create-an-insider-risk-management-policy"></a>Etapa 5: Criar uma política de gerenciamento de riscos interno

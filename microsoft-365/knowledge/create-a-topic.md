@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 35d4615057deee81285ba950a157f28160b6eefa
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 2b543dbc8132f261814aec45e713874971b9b5d1
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107213"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242873"
 ---
 # <a name="create-a-new-topic"></a>Criar um novo tópico 
 
@@ -38,7 +38,19 @@ Para criar um novo tópico, você precisa:
 > [!Note] 
 > Os usuários que têm permissão para gerenciar tópicos no centro de tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.
 
-## <a name="to-create-a-new-topic"></a>Para criar um novo tópico:
+## <a name="to-create-a-topic"></a>Para criar um tópico
+
+Você pode criar um novo tópico a partir de dois locais:
+
+- Home page do centro de tópicos: qualquer usuário licenciado com a permissão Quem pode criar ou editar **tópicos** (colaboradores) pode criar um novo tópico na central de tópicos selecionando o <b>menu</b> Novo e selecionar a página <b>Tópico.</b></br> 
+
+    ![Novo tópico do centro de tópicos](../media/knowledge-management/new-topic.png) </br> 
+
+- Página Gerenciar tópicos: qualquer usuário licenciado que tenha a permissão Quem pode gerenciar **tópicos (gerentes** de conhecimento) pode criar um novo tópico na página Gerenciar tópicos na Central de Tópicos selecionando a página <b>Novo tópico.</b></br> 
+
+    ![Novo tópico de gerenciar tópicos](../media/knowledge-management/new-topic-topic-center.png) </br> 
+
+### <a name="to-create-a-new-topic"></a>Para criar um novo tópico:
 
 1. Na seção **Nome deste tópico,** digite o nome do novo tópico.
 
@@ -87,7 +99,7 @@ Para criar um novo tópico, você precisa:
    ![Tópicos relacionados conectados](../media/knowledge-management/related-topics-final.png)</br> 
 
 
-8. Você também pode adicionar itens estáticos à página (como texto, imagens ou links) selecionando o ícone de tela, que pode ser localizado abaixo da descrição curta. Se você selecioná-la, a caixa de ferramentas do SharePoint será aberta a partir da qual você poderá escolher o item que deseja adicionar à página.
+8. Você também pode adicionar itens estáticos à página (como texto, imagens ou links) selecionando o ícone de tela, que pode ser localizado abaixo da descrição curta. Se você selecioná-la, ela abrirá a caixa de ferramentas do SharePoint da qual você pode escolher o item que deseja adicionar à página.
 
    ![Ícone de tela](../media/knowledge-management/webpart-library.png)</br> 
 

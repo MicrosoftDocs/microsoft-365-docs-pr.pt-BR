@@ -1,5 +1,5 @@
 ---
-title: Aplicar um rótulo de retenção a um modelo de compreensão de documentos
+title: Aplicar um rótulo de retenção a um modelo
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -11,15 +11,15 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-description: Este artigo discute a aplicação de um rótulo de retenção a um modelo de compreensão de documentos
-ms.openlocfilehash: 6dcd81b580b7bf0801641bbd019e1b99ecfe7338
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+description: Este artigo descreve como aplicar um rótulo de retenção a um modelo no SharePoint Syntex
+ms.openlocfilehash: 48c0b983316cfe29019d09cb20546fa4b325b3b0
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976550"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242753"
 ---
-# <a name="apply-a-retention-label-to-a-document-understanding-model"></a>Aplicar um rótulo de retenção a um modelo de compreensão de documentos
+# <a name="apply-a-retention-label-to-a-model-in-sharepoint-syntex"></a>Aplicar um rótulo de retenção a um modelo no SharePoint Syntex
 
 </br>
 
@@ -28,14 +28,14 @@ ms.locfileid: "49976550"
 </br>
 
 
-Você pode aplicar facilmente um [rótulo de retenção](https://docs.microsoft.com/microsoft-365/compliance/retention) a um modelo de compreensão de documentos no Microsoft SharePoint Syntex.
+Você pode facilmente aplicar um [rótulo de retenção](https://docs.microsoft.com/microsoft-365/compliance/retention) a um modelo no Microsoft SharePoint Syntex. Você pode fazer isso para a compreensão de documentos e modelos de processamento de formulários.
 
-Os rótulos de retenção permitem aplicar as configurações de retenção aos documentos que o modelo de compreensão de documentos identifica.  Por exemplo, você deseja que o seu modelo não só identifique todos os documentos de *Aviso de seguro* que são carregados na biblioteca de documentos, mas também aplique uma marca de retenção de *Negócios* a eles para que esses documentos não possam ser excluídos da biblioteca de documentos no período de tempo especificado (os próximos cinco meses, por exemplo).
+Rótulos de retenção permitem que você aplique configurações de retenção aos documentos que seus modelos identificam.  Por exemplo, você deseja que o seu modelo não só identifique todos os documentos de *Aviso de seguro* que são carregados na biblioteca de documentos, mas também aplique uma marca de retenção de *Negócios* a eles para que esses documentos não possam ser excluídos da biblioteca de documentos no período de tempo especificado (os próximos cinco meses, por exemplo).
 
-Você pode aplicar um rótulo de retenção preexistente ao seu modelo de compreensão de documentos por meio das configurações de modelo na página inicial do seu modelo. 
+Você pode aplicar um rótulo de retenção pré-existente ao seu modelo por meio das configurações do modelo na página inicial do seu modelo. 
 
 > [!Important]
-> Para que os rótulos de retenção estejam disponíveis para se aplicar ao seu modelo de compreensão de conteúdo, eles precisam ser [criados e publicados no Centro de Conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels).
+> Para que os rótulos de retenção estejam disponíveis para serem aplicados aos seus modelos de compreensão de documentos, eles precisam ser [criados e publicados no Centro de Conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels).
 
 ## <a name="to-add-a-retention-label-to-a-document-understanding-model"></a>Para adicionar um rótulo de retenção a um modelo de compreensão de documentos
 
@@ -70,11 +70,67 @@ Na página de exibição do seu modelo na biblioteca de documentos, uma nova col
 
 Por exemplo, todos os documentos de *Aviso de seguro* identificados pelo seu modelo também têm o rótulo de retenção *Negócios* aplicado a eles, impedindo que eles sejam excluídos da biblioteca de documentos por cinco meses. Se você tentar excluir o arquivo da biblioteca de documentos, o programa exibirá um erro informando que isso não é permitido por causa do rótulo de retenção aplicado.
 
+## <a name="to-add-a-retention-label-to-a-form-processing-model"></a>Para adicionar um rótulo de retenção a um modelo de processamento de formulário
+
+> [!Important]
+> Para que os rótulos de retenção estejam disponíveis para serem aplicados ao seu modelo de processamento de formulário, eles precisam ser [criados e publicados no Centro de Conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/create-apply-retention-labels#how-to-create-and-publish-retention-labels).
+
+Você pode aplicar um rótulo de retenção a um modelo de processamento de formulário ao criar um modelo ou aplicá-lo a um modelo existente.
+
+### <a name="to-add-a-retention-label-when-you-create-a-form-processing-model"></a>Para adicionar um rótulo de retenção ao criar um modelo de processamento de formulário
+
+1. Quando você estiver [criando um novo modelo de processamento de formulário](https://docs.microsoft.com/microsoft-365/contentunderstanding/create-a-form-processing-model), selecione <b>Configurações avançadas.</b>
+2. Em <b>Configurações avançadas</b>, na seção <b>Rótulo de retenção</b>, selecione o menu e selecione o rótulo de retenção que deseja aplicar ao modelo.</b>
+
+ 
+     ![Adicionar a um novo modelo de processamento de formulário](../media/content-understanding/retention-label-forms.png)</br>
+
+3.  Depois de concluir as configurações restantes do modelo, selecione <b>Criar</b> para construir o seu modelo.
+
+### <a name="to-add-a-retention-label-to-an-existing-form-processing-model"></a>Para adicionar um rótulo de retenção a um modelo de processamento de formulário existente
+
+Você pode adicionar um rótulo de retenção a um modelo de processamento de formulário existente de diferentes maneiras:
+- Por meio do menu Automatizar na biblioteca de documentos
+- Por meio das configurações do modelo Ativo na biblioteca de documentos 
+
+
+#### <a name="to-add-a-retention-label-to-an-existing-form-processing-model-through-the-automate-menu"></a>Para adicionar um rótulo de retenção a um modelo de processamento de formulário existente através do menu Automatizar
+
+Você pode adicionar um rótulo de retenção a um modelo de processamento de formulário existente de sua propriedade por meio do menu Automatizar na biblioteca de documentos em que o modelo é aplicado.
+
+
+1. Em sua biblioteca de documentos à qual o modelo de processamento de formulário é aplicado, selecione o menu <b>Automatizar</b>, selecione <b>Construtor AI</b> e selecione <b>Exibir detalhes do modelo de processamento de formulário</b>.
+
+   ![Menu automatizar](../media/content-understanding/automate-menu.png)</br>
+
+2. Nos detalhes do modelo, na seção <b>Rótulo de Retenção</b>, selecione o rótulo de retenção que deseja aplicar.  Em seguida, selecione <b>Salvar</b>.
+
+     ![Adicionar a um modelo de processamento de formulário existente](../media/content-understanding/retention-label-model-details.png)</br> 
+
+#### <a name="to-add-a-retention-label-to-an-existing-form-processing-model-in-the-active-model-settings"></a>Para adicionar um rótulo de retenção a um modelo de processamento de formulário existente nas configurações do modelo ativo
+
+Você pode adicionar um rótulo de retenção a um modelo de processamento de formulário existente de sua propriedade por meio das configurações do modelo Ativo na biblioteca de documentos em que o modelo é aplicado.
+
+1. Na biblioteca de documentos do SharePoint em que o modelo é aplicado, selecione o ícone <b>Exibir modelos ativos</b> e selecione <b>Exibir modelos ativos</b> </b>
+
+   ![Ver modelos ativos](../media/content-understanding/info-du.png)</br> 
+
+2. Em <b>Modelos ativos</b>, selecione o modelo de processamento de formulário para o qual deseja aplicar o rótulo de retenção.
+
+     ![Detalhes do modelo](../media/content-understanding/retention-label-model-details.png)</br> 
+
+
+3. Nos detalhes do modelo, na seção <b>Rótulo de Retenção</b>, selecione o rótulo de retenção que deseja aplicar.  Em seguida, selecione <b>Salvar</b>.
+
+> [!NOTE]
+> Você deve ser o proprietário do modelo para que o painel de configurações do modelo seja editável. 
+
+
 ## <a name="see-also"></a>Confira também
 [Criar um classificador](create-a-classifier.md)
 
 [Criar um extrator](create-an-extractor.md)
 
-[Visão geral da Compreensão de Documentos](document-understanding-overview.md)
+[Visão geral sobre Compreensão de Documentos](document-understanding-overview.md).
 
 

@@ -1,5 +1,5 @@
 ---
-title: Usar rótulos de confidencialidade em aplicativos do Office
+title: Gerenciar rótulos de sensibilidade em aplicativos do Office
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -14,16 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Saiba mais sobre como os usuários trabalham com rótulos de sensibilidade em aplicativos do Office para área de trabalho, dispositivos móveis e a Web, e quais aplicativos são suportados por rótulos de sensibilidade.
+description: Informações para administradores de IT gerenciarem rótulos de sensibilidade em aplicativos do Office para área de trabalho, dispositivos móveis e a Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 95da9753d773e3bb9724a8d0ae2ab0e2f2618c27
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 3f2be9310e6230bf0530670796dea56f775f365d
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233713"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242661"
 ---
-# <a name="use-sensitivity-labels-in-office-apps"></a>Usar rótulos de confidencialidade em aplicativos do Office
+# <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de sensibilidade em aplicativos do Office
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
@@ -205,7 +205,9 @@ Isso significa que, se você compartilhar documentos com outra organização que
 
 ### <a name="sharing-encrypted-documents-with-external-users"></a>Compartilhar documentos criptografados com usuários externos
 
-Além de restringir o acesso a usuários em sua própria organização, você pode estender o acesso a qualquer outro usuário que tenha uma conta no Azure Active Directory. Todos os aplicativos do Office e [outros aplicativos com](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) autenticação rmS podem abrir documentos criptografados após a autenticação bem-sucedida do usuário.
+Além de restringir o acesso a usuários em sua própria organização, você pode estender o acesso a qualquer outro usuário que tenha uma conta no Azure Active Directory. No entanto, se sua organização usa políticas de Acesso Condicional, consulte a [próxima seção para](#conditional-access-policies) obter considerações adicionais.
+
+Todos os aplicativos do Office e [outros aplicativos com](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) autenticação rmS podem abrir documentos criptografados após a autenticação bem-sucedida do usuário. 
 
 Se os usuários externos não têm uma conta no Azure Active Directory, eles podem autenticar usando contas de convidado em seu locatário. Essas contas de convidado também podem ser usadas para acessar documentos compartilhados no SharePoint ou no OneDrive quando você habilitar os rótulos de sensibilidade para arquivos do Office no SharePoint e [no OneDrive:](sensitivity-labels-sharepoint-onedrive-files.md)
 
@@ -228,6 +230,16 @@ No entanto, a conta de convidado automática não é criada imediatamente nesse 
 
 > [!TIP]
 > Como você não pode ter certeza de que usuários externos usarão um aplicativo cliente do Office com suporte, compartilhar links do SharePoint e do OneDrive depois de criar contas de convidado (para usuários específicos) ou quando você usar a integração do SharePoint e do OneDrive com o [Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) (para qualquer usuário autenticado) é um método mais confiável para dar suporte à colaboração segura com usuários externos.
+
+### <a name="conditional-access-policies"></a>Políticas de Acesso Condicional
+
+Se sua organização implementou políticas de Acesso Condicional do [Azure Active Directory,](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)verifique a configuração dessas políticas. Se as políticas incluem a Proteção de Informações do Azure e a política se estende para usuários externos, esses usuários externos devem ter uma conta de convidado em seu locatário, mesmo que tenham uma conta do Azure AD em seu próprio locatário.
+
+Sem essa conta de convidado, eles não podem abrir o documento criptografado e ver uma mensagem de erro. O texto da mensagem pode informá-los de que sua conta precisa ser adicionada como um usuário externo no locatário, com a instrução incorreta Saia e entre novamente com uma conta de usuário diferente do **Azure Active Directory.**
+
+Se não for possível criar e configurar contas de convidado em seu locatário para usuários externos que precisam abrir documentos criptografados por seus rótulos, você deve remover a Proteção de Informações do Azure das políticas de Acesso Condicional ou excluir usuários externos das políticas.
+
+Para obter mais informações sobre o Acesso Condicional e a Proteção de Informações do Azure, o serviço de criptografia usado por rótulos de sensibilidade, consulte a pergunta frequente, vejo que a Proteção de Informações do [Azure](https://docs.microsoft.com/azure/information-protection/faqs#i-see-azure-information-protection-is-listed-as-an-available-cloud-app-for-conditional-accesshow-does-this-work) está listada como um aplicativo de nuvem disponível para acesso condicional— como isso funciona?
 
 ## <a name="when-office-apps-apply-content-marking-and-encryption"></a>Quando os aplicativos do Office aplicam marcação de conteúdo e criptografia
 
