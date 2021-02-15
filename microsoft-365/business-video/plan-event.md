@@ -66,4 +66,4 @@ Use  **o modo**  de  **exibição**  Gráficos e Quadros para monitorar o progre
 - Selecione  **Gráficos**, **em seguida, Agrupar** por e, finalmente, **Data de**  vencimento para ver qual tarefa deve ser a seguir.
 - Select  **Board**, then **Group by**, and finally **Progress**  to sort tasks by progress.
 
-**Observação:**  As tarefas são organizadas por Não  **iniciadas** **,** Em andamento e Concluídas para que você saiba quando estiver pronto para iniciar seu produto.
+**Observação:**  As tarefas são organizadas por Não  **iniciadas** **,** Em andamento e Concluídas, para que você saiba quando estiver pronto para iniciar seu produto.

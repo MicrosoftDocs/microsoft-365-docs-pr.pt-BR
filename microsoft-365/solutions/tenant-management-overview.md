@@ -32,7 +32,7 @@ Esta solução o leva até a configuração dessa base nestas etapas:
 1. Determinar seus locatários
 2. Otimizar sua rede
 3. Sincronizar suas identidades e impor logins seguros
-4. Migrar seus dispositivos Windows, clientes do Office e dados e servidores do Office locais
+4. Migrar seus dispositivos Windows, clientes do Office e servidores e dados locais do Office
 5. Implantar o gerenciamento de dispositivos e aplicativos
 
 Mas primeiro, vamos dar um tempo para entender o que é um locatário e a aparência de um locatário que fornece uma base sólida.
@@ -95,7 +95,7 @@ As seções e tabelas a seguir listam os principais recursos e licenciamento par
 | Vários locatários | Cada locatário do Microsoft 365 é distinto, exclusivo e separado de todos os outros locatários do Microsoft 365. Com vários locatários, há restrições e considerações adicionais ao gerenciar e fornecer serviços aos usuários. | Microsoft 365 E3 ou E5 | 
 | Migração de caixa de correio entre locatários | Os administradores de locatários podem mover caixas de correio entre locatários com dependências mínimas de infraestrutura em seus sistemas locais. Isso elimina a necessidade de remoção e integração de caixas de correio. | Microsoft 365 E3 ou E5 | 
 | Multi-Geo | Seu locatário pode armazenar dados em repouso em outras localizações geográficas do datacenter que você escolheu para atender aos requisitos de residência de dados. | Microsoft 365 E3 ou E5 | 
-| Mover os dados principais para uma nova área geográfica de datacenter | À medida que a Microsoft adiciona novas áreas geográficas de datacenter para capacidade adicional e recursos de computação, você pode solicitar uma movimentação geográfica de datacenter para residência de dados na área geográfica dos dados principais do cliente. | Microsoft 365 E3 ou E5 | 
+| Mover os dados principais para um novo datacenter geo | À medida que a Microsoft adiciona novas áreas geográficas de datacenter para capacidade adicional e recursos de computação, você pode solicitar uma movimentação geográfica de datacenter para residência de dados na área geográfica dos dados principais do cliente. | Microsoft 365 E3 ou E5 | 
 ||||
 
 ### <a name="networking"></a>Rede
@@ -126,7 +126,7 @@ As seções e tabelas a seguir listam os principais recursos e licenciamento par
 | Migrar dados e servidores locais para o Microsoft 365 | Migre suas caixas de correio do Exchange, sites do SharePoint e Skype for Business Online para os serviços de nuvem do Microsoft 365. | Microsoft 365 E3 ou E5 | 
 ||||
 
-### <a name="device-and-app-management"></a>Gerenciamento de dispositivos e aplicativos
+### <a name="device-and-app-management"></a>Gerenciamento de aplicativo e dispositivo
 
 | Capcidade ou recurso | Descrição | Licenças |
 |:-------|:-----|:-------|

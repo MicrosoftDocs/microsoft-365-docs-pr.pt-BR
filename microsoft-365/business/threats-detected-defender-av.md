@@ -33,8 +33,8 @@ O Microsoft Defender Antivírus protege seus dispositivos Windows contra ameaça
 Para fornecer proteção contra ameaças, o Microsoft Defender Antivírus usa vários métodos. Esses métodos incluem proteção entregue na nuvem, proteção em tempo real e atualizações de proteção dedicadas.
 
 - A proteção entregue na nuvem ajuda a fornecer detecção quase instantânea e bloqueio de ameaças novas e emergentes.
-- A verificação sempre on usa monitoramento de comportamento de arquivo e processo e outras técnicas (também conhecidas como *proteção em tempo real).*
-- As atualizações de proteção dedicadas são baseadas em aprendizado de máquina, análise de big data humana e automatizada e pesquisa de resistência profunda a ameaças. 
+- A verificação sempre on usa monitoramento de arquivo e comportamento de processo e outras técnicas (também conhecidas como *proteção em tempo real).*
+- As atualizações de proteção dedicadas são baseadas em aprendizado de máquina, análise de big data humana e automatizada e pesquisa aprofundada de resistência a ameaças. 
 
 Para saber mais sobre malware e o Microsoft Defender Antivírus, consulte os seguintes artigos: 
 
@@ -64,14 +64,14 @@ Quando as ameaças são detectadas pelo Microsoft Defender Antivírus, as seguin
 
 - Os usuários [recebem notificações no Windows.](https://support.microsoft.com/windows/8942c744-6198-fe56-4639-34320cf9444e) 
 - As detecções são listadas no aplicativo [segurança do Windows](/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) na página histórico **de** proteção.  
-- Se você tiver protegido seus dispositivos [Windows 10](secure-win-10-pcs.md) e os inscrito no [Intune,](/mem/intune/enrollment/windows-enrollment-methods)e sua organização tiver 800 ou menos dispositivos inscritos, você verá detecções e insights de ameaças no centro de administração do  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365</a> na página Ameaças e antivírus, que você pode acessar do cartão **Microsoft Defender Antivírus** na **home** page (ou no painel de navegação selecionando Ameaças de Saúde &   >  **antivírus).**
+- Se você tiver protegido seus dispositivos [Windows 10](secure-win-10-pcs.md) e os inscrito no [Intune,](/mem/intune/enrollment/windows-enrollment-methods)e sua organização tiver 800 ou menos dispositivos inscritos, você verá detecções e ideias de ameaças no centro de administração do  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365</a> na página Ameaças e antivírus, que você pode acessar do cartão **Microsoft Defender Antivírus** na **home** page (ou no painel de navegação selecionando Ameaças de Saúde  & antivírus).  >  
 
-    Se sua organização tiver mais de 800 dispositivos inscritos no Intune, você será solicitado a exibir  detecções e insights de ameaças do [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) em vez da página Ameaças e antivírus.
+    Se sua organização tiver mais de 800 dispositivos inscritos no Intune, você será solicitado a exibir  detecções de ameaças e insights do [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) em vez da página Ameaças e antivírus.
  
     > [!NOTE]
-    > O cartão e  a página Ameaças e Antivírus do **Microsoft Defender** estão sendo lançados em fases, portanto, talvez você não tenha acesso imediato a eles.
+    > O **cartão do Microsoft Defender Antivírus** e a página Ameaças e **Antivírus** estão sendo lançados em fases, portanto, talvez você não tenha acesso imediato a eles.
 
-Na maioria dos casos, os usuários não precisam fazer mais nada. Assim que um arquivo ou programa mal-intencionado é detectado em um dispositivo, o Microsoft Defender Antivírus bloqueia e impede sua execução. Além disso, as ameaças recém-detectadas são adicionadas ao mecanismo de antivírus e antimalware para que outros dispositivos e usuários também sejam protegidos.  
+Na maioria dos casos, os usuários não precisam fazer mais nada. Assim que um arquivo ou programa mal-intencionado é detectado em um dispositivo, o Microsoft Defender Antivírus o bloqueia e impede sua execução. Além disso, as ameaças recém-detectadas são adicionadas ao mecanismo de antivírus e antimalware para que outros dispositivos e usuários também sejam protegidos.  
 
 Se houver uma ação que um usuário precise tomar, como aprovar a remoção de um arquivo mal-intencionado, ele verá isso na notificação recebida. Para saber mais sobre as ações que o Microsoft Defender Antivírus toma em nome de um usuário ou ações que os usuários talvez precisem tomar, consulte [Histórico de Proteção.](https://support.microsoft.com/office/f1e5fd95-09b4-46d1-b8c7-1059a1e09708) Para saber como gerenciar detecções de ameaças como um profissional/administrador de IT, consulte Revisar ameaças detectadas [e tomar medidas.](review-threats-take-action.md)
 

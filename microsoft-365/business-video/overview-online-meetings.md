@@ -33,9 +33,9 @@ ms.locfileid: "49926121"
 
 Precisa se reunir com um cliente, cliente ou parceiro, mas não pode colocar todos em um só lugar? Não se preocupe, tenha uma reunião online. Se eles têm um smartphone, tablet ou laptop, eles podem ingressar no Microsoft Teams.
 
-Eles precisarão baixar a versão gratuita ou [ingressar](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) online em um [navegador para](https://support.microsoft.com/office/1613bb53-f3fa-431e-85a9-d6a91e3468c9) obter vídeo e compartilhamento de tela.
+Eles precisarão baixar a versão [gratuita](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) ou ingressar [online em um navegador para](https://support.microsoft.com/office/1613bb53-f3fa-431e-85a9-d6a91e3468c9) obter vídeo e compartilhamento de tela.
 
-Se você colabora frequentemente em projetos com um cliente, cliente [](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7) ou parceiro, considere a possibilidade de criar uma equipe para seus clientes, pode convidar facilmente para reuniões e também conversar, compartilhar arquivos e acompanhar todos os projetos no Microsoft Teams.
+Se você colabora frequentemente em projetos com um cliente, cliente [](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7) ou parceiro, considere a possibilidade de criar uma equipe para seus clientes, pode convide-os facilmente para reuniões e também conversar, compartilhar arquivos e acompanhar todos os projetos no Microsoft Teams.
 
 Baixe um infográfico para obter uma visão geral rápida de como ingressar ou hospedar uma reunião online com o Microsoft Teams.
 

@@ -42,9 +42,9 @@ Com o Microsoft 365 Business Voice, você pode fazer e receber chamadas, usar a 
 1. Role para baixo **e escolha Complementos.** 
 1. Selecione **Microsoft 365 Business Voice**.
 
-    Caso não o veja, primeiro você precisa comprar uma assinatura comercial que inclua o Microsoft Teams.
+    Se você não vê-lo, primeiro precisa comprar uma assinatura comercial que inclua o Microsoft Teams.
 1. Insira o número de usuários para os quais você deseja licenças e selecione **Check-out agora.**
-1. Selecione **Recarga automática para** comprar créditos de comunicação, se necessário, e evite interrupções de serviço.
+1. Selecione **Recarga automática para comprar** créditos de comunicação, se necessário, e evite interrupções de serviço.
 
     Os créditos de comunicação são usados para chamadas internacionais, números gratuitos e minutos de chamadas adicionais.
 1. Selecione **Avançar**.

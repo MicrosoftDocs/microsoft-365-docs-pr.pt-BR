@@ -1,5 +1,5 @@
 ---
-title: Desativar Mobilidade Básica e Segurança
+title: Desativar a Mobilidade e Segurança Básica
 f1.keywords: NOCSH
 ms.author: kwekua
 author: kwekua
@@ -21,7 +21,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/15/2021
 ms.locfileid: "49876835"
 ---
-# <a name="turn-off-basic-mobility-and-security"></a>Desativar Mobilidade Básica e Segurança
+# <a name="turn-off-basic-mobility-and-security"></a>Desativar a Mobilidade e Segurança Básica
 
 Para desativar efetivamente a Mobilidade Básica e a Segurança, remova grupos de pessoas definidos por grupos de segurança das políticas de gerenciamento de dispositivos ou remova as próprias políticas.
 
@@ -32,7 +32,7 @@ Para desativar efetivamente a Mobilidade Básica e a Segurança, remova grupos d
 Essas opções removem a imposição básica de mobilidade e segurança para dispositivos em sua organização. Infelizmente, você não pode simplesmente "desprovisionar" a Mobilidade e a Segurança Básica após a configuração. 
 
 >[!IMPORTANT]
->Esteja ciente do impacto nos dispositivos dos usuários ao remover grupos de segurança do usuário das políticas ou remover as próprias políticas. Por exemplo, perfis de email e emails armazenados em cache podem ser removidos, dependendo do dispositivo. Para saber mais, veja  [o que acontece quando você exclui uma política ou remove um usuário da política?](https://support.microsoft.com/office/create-device-security-policies-in-basic-mobility-and-security-d310f556-8bfb-497b-9bd7-fe3c36ea2fd6#bkmk_changeimpact)
+>Esteja ciente do impacto nos dispositivos dos usuários ao remover grupos de segurança de usuários das políticas ou remover as próprias políticas. Por exemplo, perfis de email e emails armazenados em cache podem ser removidos, dependendo do dispositivo. Para obter mais informações,  [consulte O que acontece quando você exclui uma política ou remove um usuário da política?](https://support.microsoft.com/office/create-device-security-policies-in-basic-mobility-and-security-d310f556-8bfb-497b-9bd7-fe3c36ea2fd6#bkmk_changeimpact)
 
 ## <a name="remove-user-security-groups-from-basic-mobility-and-security-device-policies"></a>Remover grupos de segurança do usuário das políticas básicas de dispositivos de mobilidade e segurança
 

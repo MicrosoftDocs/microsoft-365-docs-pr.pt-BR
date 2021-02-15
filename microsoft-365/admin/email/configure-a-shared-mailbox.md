@@ -121,7 +121,7 @@ Você não precisa atribuir uma licença à caixa de correio compartilhada para 
 
 Por padrão, as mensagens enviadas da caixa de correio compartilhada não são salvas na sua pasta Itens enviados. Em vez disso, elas são salvas na pasta Itens enviados da pessoa que enviou a mensagem.
 
-Se você quiser permitir que todos vejam o email enviado, no centro de administração, edite as configurações da caixa de correio compartilhada e selecione **Itens enviados** \> **Editar**.
+Se você quiser permitir que todos vejam o email Enviado, no centro de administração, edite as configurações da caixa de correio compartilhada e selecione **Itens enviados** \> **Editar.**
 
 
 ## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>Escolha os aplicativos que uma caixa de correio compartilhada pode usar para acessar o email da Microsoft
@@ -206,7 +206,7 @@ Para saber mais sobre a espera de litígio, consulte [Create a Litigation Hold](
 
 3. Siga um destes procedimentos:
    - Para adicionar membros, selecione **Adicionar membros,** pesquise ou selecione um membro para adicionar e, em seguida, **selecione Salvar**.
-   - Para remover membros, use a caixa De pesquisa para procurar o membro, se necessário, selecione **o X** ao lado do nome do membro e selecione **Salvar**. 
+   - Para remover membros, use a caixa pesquisar para o membro, se necessário, selecione **o X** ao lado do nome do membro e selecione **Salvar**. 
 
 4. Selecione **Salvar** novamente.
 

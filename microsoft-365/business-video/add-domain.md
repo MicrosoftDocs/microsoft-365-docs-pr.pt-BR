@@ -50,7 +50,7 @@ Sua empresa pode precisar de vários nomes de domínio para finalidades diferent
 
 Para receber emails em seu novo domínio, você precisará adicionar um novo alias de email para cada usuário:
 
-1. Selecione **Usuários**, **Usuários ativos** e, em seguida, selecione o usuário que receberá o novo alias.
+1. Selecione **Usuários,** **Usuários Ativos** e selecione o usuário ao novo alias.
 1. Escolha **Gerenciar aliases de email** e, em **seguida, adicione um alias.**
 1. Insira o nome de usuário e escolha o novo domínio na lista drop-down.
 1. Selecione **Salvar alterações** e feche a janela.

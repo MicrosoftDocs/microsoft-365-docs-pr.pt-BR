@@ -62,13 +62,13 @@ Para definir permissões e atribuir funções no Centro de Conformidade e Segura
 
 3. No painel de sublinhado para esse grupo, selecione **Editar** no **header** Membros.
 
-4. Selecione **Escolher membros.** Outra janela de sobrevoo será exibida.
+4. Selecione **Escolher membros.** Outra janela de flyout será exibida.
 
 5. Selecione **+ Adicionar** para escolher um ou mais usuários para adicionar ao grupo.
 
 6. Marque a caixa de seleção ao lado dos nomes que você deseja adicionar e selecione o **botão** Adicionar na parte inferior.
 
-7. Quando terminar de atribuir usuários, selecione **Done**, em **seguida, selecione Salvar** **e,** em seguida, Fechar .
+7. Quando terminar de atribuir usuários, selecione **Terminar**, em **seguida, selecione Salvar** **e,** em seguida, Fechar .
 
 ##### <a name="more-about-the-office-365-security--compliance-center"></a>Mais informações sobre o Centro de Conformidade e Segurança & Office 365
 
@@ -84,7 +84,7 @@ Os usuários com identidades do Azure AD que não têm assinaturas do Office 365
 
 ### <a name="role-types"></a>Tipos de função
 
-A tabela a seguir mostra as funções permitidas por cada função no Gerenciador de Conformidade. A tabela também mostra como cada função [do Azure AD é](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) mapeada para funções do Gerenciador de Conformidade. Os usuários precisarão pelo menos da função de leitor do Gerenciador de Conformidade ou da função de leitor global do Azure AD para acessar o Gerenciador de Conformidade.
+A tabela a seguir mostra as funções permitidas por cada função no Gerenciador de Conformidade. A tabela também mostra como cada [função do Azure AD é](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) mapeada para funções do Gerenciador de Conformidade. Os usuários precisarão pelo menos da função de leitor do Gerenciador de Conformidade ou da função de leitor global do Azure AD para acessar o Gerenciador de Conformidade.
 
 
 | O usuário pode: | Função do Gerenciador de Conformidade | Função do Azure AD | 
@@ -104,11 +104,11 @@ As configurações do Gerenciador de Conformidade no centro de conformidade do M
 
 ### <a name="set-up-automated-testing"></a>Configurar testes automatizados
 
-Algumas ações de melhoria no Gerenciador de Conformidade também são monitoradas pelo [Microsoft Secure Score.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) Você pode configurar testes automatizados de ações que são monitoradas em conjunto, o que significa que quando uma ação é testada e atualizada na Classificação de Segurança, esses resultados sincronizam com as mesmas ações no Gerenciador de Conformidade e contam para sua pontuação de conformidade.
+Algumas ações de melhoria no Gerenciador de Conformidade também são monitoradas pelo [Microsoft Secure Score.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) Você pode configurar testes automatizados de ações que são monitoradas em conjunto, o que significa que quando uma ação é testada e atualizada na Classificação de Segurança, esses resultados sincronizam com as mesmas ações no Gerenciador de Conformidade e contam para a pontuação de conformidade.
 
-O teste automático é ligado por padrão para organizações novas no Gerenciador de Conformidade. Quando você implanta pela primeira vez o Microsoft 365 ou o Office 365, leva aproximadamente sete dias para que o Secure Score colete totalmente os dados e os fatore em sua pontuação de conformidade.  Quando o teste automatizado é ligado, a data de teste da ação não será atualizada, mas seu status de teste será atualizado. Quando novas avaliações são criadas, as pontuações incluem automaticamente pontuações de controle da Microsoft e integração com o Secure Score.
+O teste automático é ligado por padrão para organizações novas no Gerenciador de Conformidade. Quando você implanta pela primeira vez o Microsoft 365 ou o Office 365, leva aproximadamente sete dias para que o Secure Score colete totalmente os dados e os fatore em sua pontuação de conformidade.  Quando o teste automatizado estiver ligado, a data de teste da ação não será atualizada, mas seu status de teste será atualizado. Quando novas avaliações são criadas, as pontuações incluem automaticamente pontuações de controle da Microsoft e integração com o Secure Score.
 
-O administrador global da sua organização pode alterar as configurações de testes automatizados a qualquer momento. Você pode desativar o teste automatizado para ações comuns de melhoria ou ativas para ações individuais. Siga as instruções abaixo para alterar suas configurações de teste automatizados.
+O administrador global da sua organização pode alterar as configurações de testes automatizados a qualquer momento. Você pode desativar o teste automatizado para ações comuns de melhoria ou a ativas para ações individuais. Siga as instruções abaixo para alterar suas configurações de teste automatizados.
 
 #### <a name="to-manage-your-automated-testing-settings"></a>Para gerenciar suas configurações de testes automatizados:
 
@@ -130,7 +130,7 @@ O administrador global da sua organização pode alterar as configurações de t
 
 As **configurações de gerenciar histórico** do usuário ajudam a identificar rapidamente quais usuários trabalharam com ações de melhoria no Gerenciador de Conformidade. Os dados de usuário identificáveis associados a ações de melhoria incluem qualquer implementação e teste de trabalho realizado, documentos que ele carregou e qualquer anotação inserida. Entender e recuperar esse tipo de dados pode ser necessário para as necessidades de conformidade da sua organização.
 
-As configurações de histórico do usuário também permitem reatribuir todas as ações de melhoria de um usuário para outro.
+As configurações de histórico do usuário também permitem que você reatribua todas as ações de melhoria de um usuário para outro.
 
 **Para encontrar as configurações do histórico do usuário:**
 
@@ -140,7 +140,7 @@ As configurações de histórico do usuário também permitem reatribuir todas a
 
 3. Selecione **Gerenciar histórico do usuário** na navegação à esquerda.
 
-A **página gerenciar histórico do** usuário mostra uma lista de todos os usuários por endereço de email que estão atribuídos a uma ação de melhoria. Use o **botão** Pesquisar para encontrar rapidamente um usuário específico digitando em seu endereço de email.
+A **página gerenciar histórico do** usuário mostra uma lista de todos os usuários por endereço de email atribuídos a uma ação de melhoria. Use o **botão Pesquisar** para encontrar rapidamente um usuário específico digitando em seu endereço de email.
 
 À direita do endereço de email  de cada usuário, o menu suspenso Selecionar fornece opções para exportar um relatório, reatribuir ações de melhoria ou excluir histórico. Confira cada seção abaixo para obter detalhes sobre cada opção.
 
@@ -182,7 +182,7 @@ Você pode reatribuir ações de melhoria de um usuário para outro. Quando voc�
 
 6. In the **Search users** field, enter the name or email address of the user you want assign the improvement actions *to*.
 
-7. Quando você vir o nome do usuário pretendido em **Ações** de aperfeiçoamento será atribuído a , selecione o usuário e selecione **Atribuir ações**.
+7. Quando você vir o nome do usuário pretendido em Ações de aperfeiçoamento **será** atribuído a , selecione o usuário e selecione **Atribuir ações**.
 
 8. Quando a reatribuição for concluída, você verá uma mensagem de confirmação no painel do flyout confirmando que todas as ações de melhoria do usuário anterior foram reatribuídas ao novo usuário. Se você receber um aviso de falha de reatribuição, feche a janela e tente novamente. Para fechar o painel do flyout, selecione **Done**.
 
@@ -211,7 +211,7 @@ Para excluir o histórico de um usuário, siga as etapas abaixo:
 
 7. Você chegará novamente à página Gerenciar histórico **do** usuário com uma mensagem de confirmação na parte superior de que o histórico do usuário foi excluído.
 
-## <a name="understand-the-compliance-manager-dashboard"></a>Entenda o painel do Gerenciador de Conformidade
+## <a name="understand-the-compliance-manager-dashboard"></a>Compreender o painel do Gerenciador de Conformidade
 
 O painel do Gerenciador de Conformidade foi projetado para fornecer uma visão rápida da postura de conformidade atual.
 
@@ -246,8 +246,8 @@ Você pode filtrar a exibição do painel para ver apenas os itens relacionados 
 
 Para aplicar filtros:
 
-1. Selecione **Filtro** no canto superior direito do painel.
-2. Selecione os critérios de filtro no painel **filtros** do painel desdoleto e, em seguida, selecione **Aplicar**.
+1. Selecione **Filtro** no lado superior direito do painel.
+2. Selecione os critérios de filtro no painel **filtros** do flyout e, em seguida, selecione **Aplicar**.
 
 Depois de aplicar um filtro, você verá sua pontuação ajustada em tempo real. A porcentagem de pontuação de conformidade e informações de divisão, bem como as ações e soluções de melhoria, agora pertencem apenas aos dados cobertos por seus critérios de filtro. Se você sair do Gerenciador de Conformidade, sua exibição filtrada permanecerá quando você entrar novamente.
 
@@ -262,9 +262,9 @@ Para remover filtros:
 
 ### <a name="view-your-improvement-actions"></a>Exibir suas ações de melhoria
 
-O painel do Gerenciador de Conformidade mostra suas **principais ações de melhoria.** Para exibir todas as suas ações de melhoria, selecione a guia Ações de melhoria no painel, que leva você para sua página de ações de melhoria. Você também pode selecionar Exibir todas as ações de melhoria abaixo da lista de principais ações de melhoria em seu painel para chegar à sua página de ações de melhoria.
+O painel do Gerenciador de Conformidade mostra suas **principais ações de melhoria.** Para exibir todas as suas ações de melhoria, selecione a guia Ações de melhoria no seu painel, que leva você para sua página de ações de melhoria. Você também pode selecionar Exibir todas as ações de melhoria abaixo da lista de principais ações de melhoria em seu painel para chegar à sua página de ações de melhoria.
 
-A página de ações de melhoria mostra todas as ações de melhoria gerenciadas pela sua organização. As ações gerenciadas pela Microsoft podem ser exibidas em cada avaliação (saiba mais sobre [as ações da Microsoft).](compliance-manager-assessments.md#microsoft-actions-tab)
+A página de ações de melhoria mostra todas as ações de melhoria gerenciadas por sua organização. As ações gerenciadas pela Microsoft podem ser exibidas em cada avaliação (saiba mais sobre [as ações da Microsoft).](compliance-manager-assessments.md#microsoft-actions-tab)
 
 Se você tiver uma longa lista de ações em sua página de ações de melhoria, pode ser útil filtrar sua exibição. Selecione **Filtro** no canto superior direito da lista de ações. Quando o **painel Filtros** for exibido, selecione seus critérios com base em regulamentos e padrões, solução e grupo. Você também pode personalizar sua exibição **selecionando Grupo** no canto superior direito. No menu suspenso, selecione para exibir por grupo, solução, categoria, tipo de ação ou status.
 
@@ -287,14 +287,14 @@ A página de ações de melhoria mostra os seguintes pontos de dados para cada a
     - **Falha de alto risco** - falha no teste, alto risco
     - **Fora do escopo** – a ação não está no escopo da avaliação e não afeta sua pontuação
     - **A ser detectado** - para teste manual, indica que uma ação foi implementada, mas não testada; para teste automatizado, indica que uma ação está aguardando o resultado da automação
-    - **Não foi possível detectar** - o status automatizado não pode ser determinado
+    - **Não foi possível detectar -** o status automatizado não pode ser determinado
     - **Parcialmente testado** – pontuação automatizada que concede pontos parciais
 
 **Saiba mais:** [Veja como atribuir e executar o trabalho em ações de melhoria.](compliance-manager-improvement-actions.md)
 
 ## <a name="solutions-page"></a>Página Soluções
 
-A página de soluções mostra o compartilhamento de pontos obtidos e em potencial conforme organizado pela solução. A exibição dos pontos restantes e das ações de melhoria deste ponto de vista ajuda você a entender quais soluções precisam de atenção mais imediata.
+A página de soluções mostra o compartilhamento de pontos obtidos e possíveis conforme organizado pela solução. A exibição dos pontos restantes e das ações de melhoria deste ponto de vista ajuda você a entender quais soluções precisam de atenção mais imediata.
 
 Encontre a página de soluções selecionando a **guia Soluções** no painel do Gerenciador de Conformidade. Você também pode selecionar Exibir **todas as soluções** sob Soluções que afetam **sua pontuação** na seção superior direita do painel.
 
@@ -303,7 +303,7 @@ Encontre a página de soluções selecionando a **guia Soluções** no painel do
 Para filtrar sua exibição de soluções:
 
 1. Selecione **Filtro** no canto superior esquerdo da sua lista de avaliações.
-2. No painel **do** flyout Filtros, marque ao lado dos critérios desejados (padrões e regulamentos, solução, tipo de ação, grupo Gerenciador de Conformidade, categoria).
+2. No painel **filtros** do painel, marque ao lado dos critérios desejados (padrões e regulamentos, solução, tipo de ação, grupo Gerenciador de Conformidade, categoria).
 3. Selecione o **botão** Aplicar. O painel de filtro será fechado e você verá o seu ponto de vista filtrado.
 
 Você também pode modificar sua exibição para ver avaliações por grupo, produto  ou regulamentação selecionando o tipo de grupo no menu suspenso grupo acima de sua lista de avaliações.
@@ -320,7 +320,7 @@ Há duas maneiras de você agir nesta tela:
 
 ## <a name="assessments-page"></a>Página avaliações
 
-A página de avaliações lista todas as [avaliações](compliance-manager-assessments.md) configuradas para sua organização. O denominador da pontuação de conformidade é determinado por todas as avaliações controladas. À medida que você adicionar mais avaliações, verá mais ações de melhoria listadas na página de ações de melhoria, e o denominador da pontuação de conformidade aumenta.
+A página de avaliações lista todas as [avaliações](compliance-manager-assessments.md) configuradas para sua organização. O denominador da pontuação de conformidade é determinado por todas as avaliações controladas. À medida que adicionar mais avaliações, você verá mais ações de melhoria listadas na página de ações de melhoria, e seu denominador de pontuação de conformidade aumenta.
 
 A página de avaliações resume as principais informações sobre cada avaliação:
 
@@ -332,12 +332,12 @@ A página de avaliações resume as principais informações sobre cada avaliaç
     - **Em andamento** - ações de melhoria têm qualquer outro status, incluindo "em andamento", "crédito parcial" ou "não detectado"
 - **Progresso da** avaliação : a porcentagem do trabalho concluído até a conclusão, medida pelo número de controles testados com êxito
 - **Suas ações de melhoria:** o número de ações concluídas para satisfazer a implementação de seus controles
-- **Ações da Microsoft**: o número de ações concluídas para satisfazer a implementação dos controles da Microsoft
+- **Ações da Microsoft**: o número de ações concluídas para satisfazer a implementação de controles da Microsoft
 - **Grupo**: nome do grupo ao que a avaliação pertence
 - **Produto**: serviço associado do Microsoft 365
 - **Regulamentação**: o padrão regulatório, a política ou a lei que se aplica à avaliação
 
-### <a name="filtering-your-assessments-view"></a>Filtrando a exibição de avaliações
+### <a name="filtering-your-assessments-view"></a>Filtrando sua exibição de avaliações
 
 Para filtrar a exibição das avaliações:
 

@@ -39,8 +39,8 @@ O Microsoft 365 Business requer que o Windows 10 Pro ajude a proteger seus dados
 
 1. Na área de trabalho,  **escolha**  o menu Iniciar, procure a  **Microsoft Store** e selecione-a.
 2. Na Microsoft Store, clique na barra de pesquisa, digite **Windows 10 Pro** e escolha **Atualizar para o Windows 10 Pro.**
-3. Em **Atualizar para o Windows 10 Pro,** escolha Saber **mais** e, em seguida, escolha **Comprar.**
+3. Em  **Atualizar para o Windows 10 Pro,** escolha Saber  **mais** e, em seguida, escolha  **Comprar**.
 4. Na caixa  **Segurança do Windows,**  digite seu PIN para verificar sua identidade.
-5. Revise a página de pagamento, leia os termos de venda, faça alterações em sua forma de pagamento, se quiser, e escolha  **Comprar**.
+5. Revise a página de pagamento, leia os termos de venda, faça alterações no método de pagamento, se quiser, e escolha  **Comprar**.
 6. Em **Atualizar para o Windows 10 Pro,** escolha **Instalar.**
 7. Salve todos os arquivos, se necessário, e escolha  **Sim,&#39;para começar**  a instalar o Windows.

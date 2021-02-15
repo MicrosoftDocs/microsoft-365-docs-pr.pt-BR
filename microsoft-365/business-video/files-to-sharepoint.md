@@ -47,4 +47,4 @@ Depois de se inscrever no Microsoft 365 Business Premium, você&#39;copiar os ar
 
 Além de trabalhar em seus arquivos diretamente do computador, você pode acessá-los em um navegador da Web em qualquer computador.
 
-Agora você pode acessar seus arquivos no site do SharePoint ou no Teams.
+Agora você pode acessar seus arquivos do seu site do SharePoint ou do Teams.

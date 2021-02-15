@@ -90,7 +90,7 @@ Get-PacFile -Type 2 -Instance Worldwide -TenantName Contoso -ClientRequestId b10
 
 Quando os arquivos PAC não são usados para tráfego de saída direto, você ainda deve ignorar o processamento no perímetro de rede configurando o servidor proxy. Alguns fornecedores de servidor proxy habilitaram a configuração automática deste, conforme descrito no [Programa de Parceiros de Redes do Office 365](microsoft-365-networking-partner-program.md).
 
-Se você estiver fazendo isso manualmente, precisará obter os dados de categoria Otimizar e Permitir do endereço IP do Office 365 e o serviço Web de URL e configurar seu servidor proxy para ignorar o processamento para eles. É importante evitar a Interrupção e Inspeção de SSL e autenticação de proxy para os pontos de extremidade da categoria Otimizar e Permitir.
+Se você estiver fazendo isso manualmente, precisará obter os dados de categoria otimizar e permitir o ponto de extremidade do endereço IP do Office 365 e o serviço Web de URL e configurar seu servidor proxy para ignorar o processamento para eles. É importante evitar a Interrupção e Inspeção de SSL e autenticação de proxy para os pontos de extremidade da categoria Otimizar e Permitir.
   
 <a name="bkmk_changes"> </a>
 ## <a name="change-management-for-office-365-ip-addresses-and-urls"></a>Alterar o gerenciamento de endereços IP e URLs do Office 365
@@ -161,7 +161,7 @@ Esses redirecionamentos CNAME são uma parte normal do DNS e são transparentes 
 
 Um servidor proxy valida a URL inicial, que no exemplo acima é serviceA.office.com, e essa URL seria incluída na publicação do Office 365. O servidor proxy solicita a resolução de DNS dessa URL para um endereço IP e receberá IP_1 novamente. Ela não valida os registros de redirecionamento de CNAME intermediário.
 
-Configurações codificadas ou lista branca com base em FQDNs indiretos do Office 365 não são recomendadas, não são suportadas pela Microsoft e são conhecidas por causar problemas de conectividade do cliente. As soluções DNS que bloqueiam o redirecionamento CNAME, ou que resolvem incorretamente as entradas DNS do Office 365, podem ser resolvidas por meio de encaminhadores DNS com recursão DNS habilitada ou usando dicas de raiz DNS. Muitos produtos de perímetro de rede de terceiros integram de forma nativa a lista de pontos de extremidade recomendadas do Office 365 em sua configuração usando o endereço IP do [Office 365](microsoft-365-ip-web-service.md)e o serviço Web de URL.
+Configurações codificadas ou lista branca com base em FQDNs indiretos do Office 365 não são recomendadas, não são suportadas pela Microsoft e são conhecidas por causar problemas de conectividade do cliente. As soluções DNS que bloqueiam o redirecionamento CNAME, ou que resolvem incorretamente as entradas DNS do Office 365, podem ser resolvidas por meio de encaminhadores DNS com recursão dns habilitada ou usando dicas de raiz DNS. Muitos produtos de perímetro de rede de terceiros integram de forma nativa a lista de pontos de extremidade recomendadas do Office 365 em sua configuração usando o endereço IP do [Office 365](microsoft-365-ip-web-service.md)e o serviço Web de URL.
 
 <a name="bkmk_akamai"> </a>
 ### <a name="why-do-i-see-names-such-as-nsatcnet-or-akadnsnet-in-the-microsoft-domain-names"></a>Por que vejo nomes como nsatc.net ou akadns.net em nomes de domínio da Microsoft?

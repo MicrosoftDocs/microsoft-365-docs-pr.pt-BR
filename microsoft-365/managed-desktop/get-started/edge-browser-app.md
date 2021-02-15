@@ -43,7 +43,7 @@ A Área de Trabalho Gerenciada da Microsoft criou um conjunto padrão de políti
 
 ### <a name="microsoft-edge-extensions"></a>Extensões do Microsoft Edge
 
-A linha de base de segurança do Microsoft Edge em dispositivos da Área de Trabalho Gerenciada da Microsoft define duas políticas para desabilitar todas as extensões do Chrome e proteger usuários. Para habilitar e implantar extensões em seu ambiente, consulte Configurações gerenciadas. 
+A linha de base de segurança do Microsoft Edge em dispositivos da Área de Trabalho Gerenciada da Microsoft define duas políticas para desabilitar todas as extensões do Chrome e os usuários seguros. Para habilitar e implantar extensões em seu ambiente, consulte Configurações gerenciadas. 
 
 #### <a name="extension-installation-blocklist"></a>Lista de bloqueios de instalação de extensão
 **Valor padrão:** Todos
@@ -62,7 +62,7 @@ Desabilitando essa política, o Microsoft Edge usará apenas hosts de mensagens 
 
 **Valor padrão:** Mínimo de TLS 1.2 com suporte
 
-Se você quiser usar o TLS 1.1 menos seguro, poderá registrar uma solicitação para fazê-lo.
+Se você quiser usar o TLS 1.1 menos seguro, poderá arquivar uma solicitação para fazer isso.
 
 #### <a name="allows-users-to-proceed-from-the-ssl-warning-page"></a>Permite que os usuários prossigam da página de aviso SSL
 
@@ -107,7 +107,7 @@ Não recomendamos o uso do Flash devido a riscos de segurança associados. Se vo
 Não recomendamos permitir que os usuários salvem senhas em seus dispositivos.
 
 ### <a name="internet-explorer-mode-in-microsoft-edge"></a>Modo Internet Explorer no Microsoft Edge
-O modo IE no Microsoft Edge facilita o uso de todos os sites de que sua organização precisa em um único navegador. Ele usa o mecanismo integrado do Chromium para sites que são compatíveis com o mecanismo de renderização Chromium e usa o mecanismo Trident MSHTML do Internet Explorer 11 (IE11) para sites que não são ou têm dependências na funcionalidade do IE. [Saiba mais] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 
+O modo IE no Microsoft Edge facilita o uso de todos os sites de que sua organização precisa em um único navegador. Ele usa o mecanismo integrado do Chromium para sites que são compatíveis com o mecanismo de renderização Chromium e usa o mecanismo Engine MSHTML Do Internet Explorer 11 (IE11) para sites que não são ou têm dependências na funcionalidade do IE. [Saiba mais] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 
 
 A Área de Trabalho Gerenciada da Microsoft habilita o modo Internet Explorer para seus dispositivos por padrão 
 
@@ -142,7 +142,7 @@ Com essa política aplicada, a Experiência de Primeira Executar ignorará a se�
 
 ## <a name="settings-you-manage"></a>Configurações gerenciadas
 
-Você pode implantar configurações do Microsoft Edge não descritas anteriormente usando o perfil Modelos Administrativos no Microsoft Intune. Para obter detalhes, consulte [Definir as configurações de política do Microsoft Edge com o Microsoft Intune.](https://docs.microsoft.com/deployedge/configure-edge-with-intune) Se você quiser avaliar uma política que não está incluída atualmente nos Modelos Administrativos do Microsoft Edge no Intune, você pode usar configurações personalizadas para dispositivos Windows 10 no Intune.
+Você pode implantar configurações do Microsoft Edge não descritas anteriormente usando o perfil Modelos Administrativos no Microsoft Intune. Para obter detalhes, consulte [Configurar as configurações de política do Microsoft Edge com o Microsoft Intune.](https://docs.microsoft.com/deployedge/configure-edge-with-intune) Se você quiser avaliar uma política que não está incluída atualmente nos Modelos Administrativos do Microsoft Edge no Intune, você pode usar configurações personalizadas para dispositivos Windows 10 no Intune.
 
 ### <a name="enabling-specific-chrome-extensions"></a>Habilitando extensões específicas do Chrome
 

@@ -55,7 +55,7 @@ Saiba mais sobre como compartilhar [arquivos fora da sua organização com links
 
 ## <a name="share-inside-your-business"></a>Compartilhar dentro de sua empresa
 
-Se você estiver trabalhando com arquivos que compartilha em sua empresa, também é uma boa ideia configurar uma equipe no Microsoft Teams. Compartilhe seus arquivos lá e todas as pessoas em sua empresa poderão encontrá-los e editá-los facilmente e você sabe que está trabalhando na mesma página.
+Se você estiver trabalhando com arquivos que compartilha dentro de sua empresa, também é uma boa ideia configurar uma equipe no Microsoft Teams. Compartilhe seus arquivos lá e todas as pessoas em sua empresa poderão encontrá-los e editá-los facilmente e você sabe que está trabalhando na mesma página.
 
 1. Crie a equipe e convide sua equipe para ela.
 1. Carregue seus arquivos.

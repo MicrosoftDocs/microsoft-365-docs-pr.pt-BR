@@ -59,7 +59,7 @@ Você também pode criar uma conta de administrador dedicada para uma pessoa de 
 1. Selecione **Admin** para ir para o Centro de administração do Microsoft 365.
 1. No painel de navegação esquerdo, selecione **Usuários** e, em seguida, **Usuários ativos.**
 1. Selecione **Adicionar um usuário.**
-1. Insira o nome e sobrenome **do** **usuário,** nome para exibição e **nome** de usuário e selecione **Next**. 
+1. Insira o nome e sobrenome **do** **usuário,** nome para exibição **e** **nome** de usuário e selecione **Next**.
 1. Escolha **Criar usuário sem licença de produto.** Isso adiciona um novo usuário, mas você não precisa pagar por uma assinatura mensal. Selecione **Avançar**.
 1. Funções **abertas.**
 1. Des marque a caixa de seleção e selecione uma das funções de administrador. Selecione **Avançar**.

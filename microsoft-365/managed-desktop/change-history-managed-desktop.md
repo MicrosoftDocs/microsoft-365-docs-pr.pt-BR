@@ -247,7 +247,7 @@ Artigo novo ou alterado | Descrição
 [Dispositivos arquivados da Área de Trabalho Gerenciada da Microsoft](service-description/archived-device-list.md) | Novo artigo
 [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo artigo
 [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](get-ready/certs-wifi-lan.md) | Novo artigo
-[Ordenar dispositivos da Área de Trabalho Gerenciada da Microsoft](get-started/devices.md) | Artigo atualizado
+[Solicitar dispositivos da Área de Trabalho Gerenciada da Microsoft](get-started/devices.md) | Artigo atualizado
 [Obter ajuda para usuários](working-with-managed-desktop/end-user-support.md) | Novo artigo
 
 ## <a name="april-2019"></a>Abril de 2019
@@ -294,5 +294,5 @@ Artigo novo ou alterado | Descrição
 [Suporte para Área de Trabalho Gerenciada da Microsoft](service-description/support.md)<br />e [suporte do usuário para a Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/end-user-support.md) | Atualizado para incluir a Austrália.
 
 ## <a name="october-30-2018"></a>30 de outubro de 2018
-Conteúdo reorganizado: seção adicionada para a descrição do [serviço da Área de Trabalho Gerenciada da Microsoft.](service-description/index.md) 
+Conteúdo reorganizado: seção adicionada para a [descrição do serviço da Área de Trabalho Gerenciada da Microsoft.](service-description/index.md) 
 

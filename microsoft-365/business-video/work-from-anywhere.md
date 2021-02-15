@@ -31,7 +31,7 @@ ms.locfileid: "49927773"
 ---
 # <a name="work-from-anywhere---overview"></a>Trabalhar em qualquer lugar - visão geral
 
-Longe da sua mesa? Não há mais bateria de laptop? Sem problemas! Trabalhe em qualquer lugar com o Office em seu telefone ou tablet.
+Longe da sua mesa? Não há mais bateria de laptop? Sem problemas! Trabalhe em qualquer lugar com o Office no telefone ou tablet.
 
 **Dica de pro:** Mantenha seu equilíbrio entre a vida profissional e a vida útil em verificação, desligando as notificações para seus aplicativos de trabalho em seus dispositivos pessoais.
 
@@ -49,7 +49,7 @@ Obter mais detalhes sobre como [instalar o Outlook em um telefone.](https://supp
 
 ## <a name="save-your-files-to-the-cloud"></a>salvar seus arquivos na nuvem
 
-Armazene seus arquivos de negócios no Microsoft Teams ou no SharePoint. Dessa forma, você e outras pessoas em sua empresa poderão acessá-las mesmo quando você não estiver no escritório.
+Armazene seus arquivos de negócios no Microsoft Teams ou no SharePoint. Dessa forma, você e as outras pessoas em sua empresa poderão acessá-las mesmo quando você não estiver no escritório.
 
 **Configurar os aplicativos móveis do SharePoint e do Microsoft Teams**
 
@@ -96,9 +96,9 @@ Você também pode criar e editar documentos a partir do navegador. Abra arquivo
 - [Começar a trabalhar com o Excel Online](https://support.microsoft.com/office/63b50461-38c4-4c93-a17e-36998be0e3d0)
 - [Começar a trabalhar com o PowerPoint para a Web](https://support.microsoft.com/office/21360025-7eef-4173-9d7c-08281d55f64a)
 
-### <a name="join-online-meetings-remotely"></a>Ingressar em reuniões online remotamente
+### <a name="join-online-meetings-remotely"></a>Participar remotamente de reuniões online
 
-No seu laptop:
+No laptop:
 
 - No Microsoft Teams, **clique** no botão Reuniões no lado esquerdo do aplicativo e você verá uma lista de todas as reuniões :::image type="icon" source="../media/meetings-icon.png" border="false"::: da semana. Encontre a reunião que você deseja e clique em Ingressar.
 

@@ -38,7 +38,7 @@ Se houver uma mensagem de erro quando você tentar resgatar uma chave do produto
   
  **Precisa de ajuda imediatamente?** [Contate o Suporte da Microsoft](../admin/contact-support-for-business-products.md). 
   
- **For help with a Microsoft 365 Family or Microsoft 365 Personal product key**, see [Using product keys with Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).
+ Para ajuda com uma chave do produto **microsoft 365 Family ou Microsoft 365 Personal**, consulte Usando chaves de [produto com o Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).
   
 ## <a name="product-key-error-help-with-microsoft-365-for-business"></a>Ajuda sobre o erro da chave do produto (Product Key) com o Microsoft 365 para empresas
 

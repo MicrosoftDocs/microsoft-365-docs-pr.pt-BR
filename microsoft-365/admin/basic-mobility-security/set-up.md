@@ -27,7 +27,7 @@ ms.locfileid: "49876859"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>Configurar a Mobilidade Básica e a Segurança
 
-O Basic Mobility and Security integrado para o Microsoft 365 ajuda você a proteger e gerenciar dispositivos móveis dos usuários, como iPhones, iPads, Androids e telefones Windows. Você pode criar e gerenciar políticas de segurança de dispositivo, apagar remotamente um dispositivo e exibir relatórios detalhados de dispositivos.
+A Mobilidade Básica e Segurança básica para o Microsoft 365 ajuda você a proteger e gerenciar dispositivos móveis dos usuários, como iPhones, iPads, Androids e telefones Windows. Você pode criar e gerenciar políticas de segurança de dispositivo, apagar remotamente um dispositivo e exibir relatórios detalhados de dispositivos.
 
 Have questions? Para perguntas frequentes para ajudar a resolver perguntas comuns, consulte Perguntas frequentes sobre mobilidade básica e [segurança.](frequently-asked-questions.md) Esteja ciente de que você não pode usar uma conta de administrador delegada para gerenciar a Mobilidade Básica e Segurança. Para obter mais informações, consulte [Parceiros: oferecer administração delegada.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
 
@@ -82,7 +82,7 @@ Para gerenciar dispositivos iOS como iPad e iPhones, você precisa criar um cert
      > [!TIP]
      > If you're having trouble downloading the certificate, refresh your browser.
 
-7. Volte para o Microsoft 365 e selecione **Next**.
+7. Volte para o Microsoft 365 e selecione **Próximo.**
 
 8.  Browse to the APN certificate you downloaded from the Apple Push Certificates Portal.
 
@@ -90,9 +90,9 @@ Para gerenciar dispositivos iOS como iPad e iPhones, você precisa criar um cert
 
 ### <a name="step-3-recommended-set-up-multi-factor-authentication"></a>Etapa 3: (Recomendado) Configurar a autenticação multifa factor
 
-A MFA ajuda a proteger a entrada no Microsoft 365 para registro de dispositivo móvel, exigindo uma segunda forma de autenticação. Os usuários são obrigados a confirmar uma chamada telefônica, uma mensagem de texto ou uma notificação de aplicativo em seu dispositivo móvel depois de inserir corretamente a senha da conta de trabalho. Eles só poderão registrar seu dispositivo depois que essa segunda forma de autenticação for concluída. Depois que os dispositivos do usuário são inscritos no Basic Mobility and Security, os usuários podem acessar os recursos do Microsoft 365 apenas com sua conta corporativa.
+A MFA ajuda a proteger a entrada no Microsoft 365 para registro de dispositivo móvel, exigindo uma segunda forma de autenticação. Os usuários são obrigados a confirmar uma chamada telefônica, mensagem de texto ou notificação de aplicativo em seus dispositivos móveis depois de inserir corretamente a senha da conta de trabalho. Eles só poderão registrar seu dispositivo depois que essa segunda forma de autenticação for concluída. Depois que os dispositivos do usuário são inscritos no Basic Mobility and Security, os usuários podem acessar os recursos do Microsoft 365 apenas com sua conta corporativa.
 
-Para saber como ativar a MFA no portal do Azure AD, confira Configurar a [autenticação multifacional.](https://go.microsoft.com/fwlink/p/?LinkId=519255)
+Para saber como ativar a MFA no portal do Azure AD, confira [Configurar a autenticação multifacional.](https://go.microsoft.com/fwlink/p/?LinkId=519255)
 
 Depois de configurar a MFA, volte para o Centro **** de Conformidade e Segurança & e navegue até Prevenção contra perda de dados Políticas de dispositivo de gerenciamento de dispositivos para concluir   >     >  ****   a próxima etapa.
 

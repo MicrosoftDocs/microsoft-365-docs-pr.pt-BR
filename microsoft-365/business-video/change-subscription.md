@@ -49,12 +49,12 @@ ms.locfileid: "49927413"
 ### <a name="change-the-license-assigned-to-a-user"></a>Alterar a licença atribuída a um usuário
 
 1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, selecione **Usuários** e, em seguida, **Usuários ativos.**
-1. Selecione o nome do usuário e, em seguida, selecione **Licenças e aplicativos.**
-1. Em **Licenças,** você verá sua nova assinatura. Marque a caixa de seleção ao lado da nova assinatura e des limpe a caixa de seleção ao lado da assinatura antiga.
+1. Selecione o nome do usuário e, em seguida, **selecione Licenças e aplicativos.**
+1. Em **Licenças,** você verá sua nova assinatura. Marque a caixa de seleção ao lado da nova assinatura e des marque a caixa de seleção ao lado da assinatura antiga.
 1. Selecione **Salvar alterações**. A licença da nova assinatura agora está atribuída a esse usuário.
 
 ### <a name="remove-an-unused-license"></a>Remover uma licença não-utilada
 
-1. No centro de administração do Microsoft 365, selecione **Cobrança** e, em seguida, **Produtos & serviços.**
+1. No Centro de administração do Microsoft 365, selecione **Cobrança** e, em seguida, **Produtos & serviços.**
 1. Selecione a assinatura que você deseja alterar e, em seguida, **selecione Adicionar/remover licenças.**
 1. Use a seta para baixo para reduzir o número de licenças para esta assinatura e selecione **Enviar alteração**. Agora você tem o número certo de licenças para seus usuários.

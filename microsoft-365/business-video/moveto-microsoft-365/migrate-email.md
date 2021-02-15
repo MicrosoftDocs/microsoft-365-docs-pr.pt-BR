@@ -33,7 +33,7 @@ ms.locfileid: "49928241"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LPt6?autoplay=false]
 
-Você pode usar uma migração gerenciada pelo administrador para o Exchange Online a partir do Google Workspace. Você pode migrar o email de uma só vez ou em estágios. As etapas a seguir mostram como migrar os dados de email de uma só vez. Para obter mais informações, consulte [Executar uma migração do G Suite.](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration)
+Você pode usar uma migração de administrador para o Exchange Online a partir do Google Workspace. Você pode migrar o email de uma só vez ou em estágios. As etapas a seguir mostram como migrar os dados de email de uma só vez. Para obter mais informações, consulte [Executar uma migração do G Suite.](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration)
 
 O processo de migração leva várias etapas e pode levar de várias horas a alguns dias, dependendo da quantidade de dados que você está migrando.
 
@@ -41,11 +41,11 @@ O processo de migração leva várias etapas e pode levar de várias horas a alg
 
 ### <a name="create-a-google-service-account"></a>Criar uma conta de serviço do Google
 
-1. Usando um navegador Chrome, entre no console de administração do Google Workspace [admin.google.com.](https://admin.google.com) 
+1. Usando um navegador Chrome, entre no console de administração do Google Workspace [admin.google.com](https://admin.google.com). 
 1. Em uma nova guia ou janela, navegue até a página [Contas de](https://console.developers.google.com/iam-admin/serviceaccounts) Serviço. 
 1. Selecione **Criar projeto**, nome do projeto e escolha **Criar**. 
 1. Selecione **Criar conta de serviço,** insira um nome, escolha **Criar** e, em **seguida, Feito.** 
-1. Abra **o** menu Ações, selecione **Editar** e anote a ID exclusiva. Você precisará dessa ID mais tarde no processo. 
+1. Abra o menu **Ações,** selecione **Editar** e anote a ID exclusiva. Você precisará dessa ID mais tarde no processo. 
 1. Abra a **seção Mostrar delegação em todo o** domínio. 
 1. Selecione **Habilitar Delegação em todo** o domínio do G Suite, insira um nome de produto para a tela de consentimento e escolha **Salvar.** 
 
@@ -72,15 +72,15 @@ O processo de migração leva várias etapas e pode levar de várias horas a alg
 1. Selecione **Segurança,** role para baixo e abra os controles **de API.** 
 1. Role para baixo e selecione **Gerenciar Delegação em todo o Domínio.**
 1. Selecione **Adicionar novo** e insira a ID do Cliente que você anotou anteriormente.
-1. Em seguida, insira os escopos OAuth das APIs do Google. Eles estão disponíveis no [aka.ms/GoogleWorkspaceMigration](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration#grant-access-to-the-service-account-for-your-google-tenant) etapa 5 e são:
+1. Em seguida, insira os escopos OAuth das APIs do Google. Eles estão disponíveis [no](https://docs.microsoft.com/exchange/mailbox-migration/perform-g-suite-migration#grant-access-to-the-service-account-for-your-google-tenant) aka.ms/GoogleWorkspaceMigration etapa 5 e são:
 
     `https://mail.google.com/,https://www.googleapis.com/auth/calendar,https://www.google.com/m8/feeds/,https://www.googleapis.com/auth/gmail.settings.sharing`
  
 1. Escolha **Autorizar**. 
 
-### <a name="create-a-sub-domain-for-mail-going-to-microsoft-365"></a>Criar um sub-domínio para emails que vão para o Microsoft 365
+### <a name="create-a-sub-domain-for-mail-going-to-microsoft-365"></a>Criar um sub-domínio para o email que vai para o Microsoft 365
 
-1. Retorne ao **Console de administração do Google Workspace.**
+1. Retorne ao **console de administração do Google Workspace.**
 1. Select **Domains**, **Manage domains**, then, **Add a domain alias**. 
 1. Insira um alias de domínio como `m365.contoso.com` .
 1. Em **seguida, selecione Continuar e verifique a propriedade do domínio.** 

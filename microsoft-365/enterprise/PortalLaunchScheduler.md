@@ -36,7 +36,7 @@ Há dois tipos de redirecionamento:
 
 O agendador de lançamento do portal só está disponível para iniciar portais modernos do SharePoint Online (ou seja, sites de comunicação). As iniciações devem ser agendadas com pelo menos sete dias de antecedência. O número de ondas necessárias é determinado pelo número esperado de usuários. Antes de agendar um lançamento do portal, a ferramenta Diagnóstico de Página para [SharePoint](https://aka.ms/perftool) deve ser executado para verificar se a home page no portal está confira. No final do lançamento do portal, todos os usuários com permissões para o site poderão acessar o novo site. 
 
-Para obter mais informações sobre como iniciar um portal bem-sucedido, siga os princípios básicos, práticas e recomendações detalhados na criação, lançamento e manutenção de [um portal saudável.](https://docs.microsoft.com/sharepoint/portal-health) 
+Para obter mais informações sobre como iniciar um portal bem-sucedido, siga os princípios básicos, práticas e recomendações detalhados na criação, lançamento e manutenção [de um portal saudável.](https://docs.microsoft.com/sharepoint/portal-health) 
 
 > [!NOTE]
 > Esse recurso não está disponível para planos do Office 365 Germany, Office 365 operado pela 21Vianet (China) ou Microsoft 365 US Government.
@@ -138,4 +138,4 @@ Exemplo:
 2. Valide que nenhum redirecionamento acontece para todos os usuários.
 
 ## <a name="learn-more"></a>Saiba mais
-[Planejamento do seu plano de lançamento de lançamento do portal no SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out)
+[Planejamento do seu plano de lançamento do portal no SharePoint Online](https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out)

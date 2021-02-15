@@ -45,7 +45,7 @@ Depois de se inscrever no Microsoft 365 Business Premium, você&#39;copiar seus 
 6. No Explorador de Arquivos, vá para os arquivos que você deseja copiar.
 7. Selecione os arquivos e arraste e solte-os em sua pasta do OneDrive. Setas circulares azuis ao lado de seus arquivos significam&#39;estão sincronizando com a nuvem. Quando terminarem&#39;sincronização, as marcas de seleção verdes serão exibidas.
 
-Além de trabalhar em seus arquivos do OneDrive localmente, você pode acessá-los no navegador da Web:
+Além de trabalhar nos arquivos do OneDrive localmente, você pode acessá-los no navegador da Web:
 
 1. No navegador da Web, entre no office.com seu email de trabalho.
 2. Escolha **o OneDrive.** Todos os seus arquivos estão listados e você pode trabalhar neles no navegador de qualquer computador.

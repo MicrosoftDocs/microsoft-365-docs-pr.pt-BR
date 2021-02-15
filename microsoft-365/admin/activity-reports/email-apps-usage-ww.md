@@ -18,7 +18,7 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
-description: Saiba como obter o relatório de uso de aplicativos de email para saber mais sobre aplicativos de email que se conectam ao Exchange Online e a versão do Outlook que os usuários estão usando.
+description: Saiba como obter o relatório de uso de aplicativos de email para saber mais sobre os aplicativos de email que se conectam ao Exchange Online e a versão que os usuários do Outlook estão usando.
 ms.openlocfilehash: f2a7b79a00b47896dac4427c532f85dccb931c60
 ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
 ms.translationtype: MT

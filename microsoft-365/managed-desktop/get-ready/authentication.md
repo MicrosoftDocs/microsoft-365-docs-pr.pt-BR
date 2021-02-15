@@ -25,7 +25,7 @@ Na Área de Trabalho Gerenciada da Microsoft, os dispositivos são automaticamen
 
 O Azure Active Directory permite que os usuários aproveitem o SSO (single Sign-On), o que significa que eles geralmente não terão que fornecer credenciais sempre que usarem recursos.
 
-Para obter informações sobre como ingressar no Azure Active Directory, consulte Como: planejar sua implementação de participação [no Azure AD.](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan) Para obter informações básicas sobre o SSO (single Sign-On) em dispositivos ingressados no Azure AD, consulte como o SSO para recursos locais funciona em [dispositivos ingressados no Azure AD.](https://docs.microsoft.com/azure/active-directory/devices/azuread-join-sso#how-it-works)
+Para obter informações sobre como ingressar no Azure Active Directory, consulte Como: planejar sua implementação de participação [no Azure AD.](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan) Para obter informações básicas sobre o SSO (single Sign-On) em dispositivos ingressados no Azure AD, confira como o SSO para recursos locais funciona em [dispositivos ingressados no Azure AD.](https://docs.microsoft.com/azure/active-directory/devices/azuread-join-sso#how-it-works)
 
 
 Este artigo explica o que você precisa verificar para garantir que os aplicativos e outros recursos que dependem da conectividade local do Active Directory funcionem perfeitamente com a Área de Trabalho Gerenciada da Microsoft.
@@ -33,7 +33,7 @@ Este artigo explica o que você precisa verificar para garantir que os aplicativ
 
 ## <a name="single-sign-on-for-on-premises-resources"></a>Single Sign-On for on-premises resources
 
-O Sign-On único (SSO) usando UPN e senha é habilitado por padrão em Dispositivos de Área de Trabalho Gerenciada da Microsoft. Mas os usuários também podem usar o Windows Hello para Empresas, o que requer algumas etapas adicionais de configuração. 
+O Sign-On único (SSO) usando UPN e senha é habilitado por padrão nos Dispositivos de Área de Trabalho Gerenciada da Microsoft. Mas os usuários também podem usar o Windows Hello para Empresas, o que requer algumas etapas adicionais de configuração. 
 
 ### <a name="single-sign-on-by-using-upn-and-password"></a>Single Sign-On by using UPN and password
 
@@ -56,7 +56,7 @@ Os dispositivos da Área de Trabalho Gerenciada da Microsoft também oferecem ao
 Consulte [Noções detalhadas sobre aplicativos](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan#understand-considerations-for-applications-and-resources) e recursos no conjunto de conteúdo do Azure para obter orientação completa sobre como configurar aplicativos para trabalhar com o Azure Active Directory. Em resumo:
 
 
-- Se você **usar** aplicativos baseados em nuvem, como aqueles adicionados à galeria de aplicativos do Azure AD, a maioria não exigirá mais preparação para trabalhar com a Área de Trabalho Gerenciada da Microsoft. No entanto, quaisquer aplicativos Win32 que não usam o Gerenciador de Contas da Web (WAM) ainda podem solicitar a autenticação dos usuários.
+- Se você **usar** aplicativos baseados em nuvem, como aqueles adicionados à galeria de aplicativos do Azure AD, a maioria não exigirá mais preparação para trabalhar com a Área de Trabalho Gerenciada da Microsoft. No entanto, qualquer aplicativo Win32 que não use o Gerenciador de Contas da Web (WAM) ainda pode solicitar autenticação aos usuários.
 
 - Para aplicativos hospedados no local, **certifique-se** de adicionar esses aplicativos à lista de sites confiáveis em seus navegadores. Esta etapa permitirá que a autenticação do Windows funcione perfeitamente, sem que os usuários seja solicitado a solicitar credenciais. Para adicionar aplicativos, consulte [sites confiáveis](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref#trusted-sites) na [referência de configurações configuráveis.](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/config-setting-ref)
 

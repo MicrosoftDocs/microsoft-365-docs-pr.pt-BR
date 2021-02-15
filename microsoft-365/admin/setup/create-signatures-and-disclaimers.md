@@ -1,5 +1,5 @@
 ---
-title: Criar assinaturas e avisos de isenção de isenção de isenção em toda a organização
+title: Criar assinaturas e avisos de isenção de isenção em toda a organização
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -32,7 +32,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49926913"
 ---
-# <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e avisos de isenção de isenção de isenção em toda a organização
+# <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e avisos de isenção de isenção em toda a organização
 
  Você pode gerenciar assinaturas de email adicionando uma assinatura de email, um aviso de isenção legal ou uma declaração de divulgação às mensagens de email que entram ou saem da sua organização. É possível configurar essa mensagem para que ela se aplique a todos os emails enviados e recebidos, conforme é mostrado abaixo. Também é possível aplicá-la a determinados emails, por exemplo, aqueles que contêm palavras ou padrões de texto específicos.
 

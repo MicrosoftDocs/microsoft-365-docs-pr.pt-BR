@@ -17,7 +17,7 @@ ms.locfileid: "49841194"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Ciclo de vida do produto da Área de Trabalho Gerenciada da Microsoft
 
-A Área de Trabalho Gerenciada da Microsoft beneficia os usuários, garantindo que eles sempre usem dispositivos que ofereçam os melhores recursos de desempenho, confiabilidade, design e segurança (como suporte para recursos como o Windows Hello). Para fazer isso, a Área de Trabalho Gerenciada da Microsoft mantém um pequeno catálogo de dispositivos aprovados [continuamente atualizados.](device-list.md) 
+A Área de Trabalho Gerenciada da Microsoft beneficia os usuários, garantindo que eles sempre usem dispositivos que ofereçam o melhor desempenho, confiabilidade, design e recursos de segurança (como suporte para recursos como o Windows Hello). Para fazer isso, a Área de Trabalho Gerenciada da Microsoft mantém um pequeno catálogo de dispositivos aprovados [continuamente atualizados.](device-list.md) 
  
 Este artigo detalha o ciclo de vida dos dispositivos à medida que eles são adicionados e removidos do catálogo aprovado. 
 
@@ -48,7 +48,7 @@ Esta tabela mostra datas de exemplo para um produto bruto:
 |Fabrikam Laptop    | 1/1/2017 | 6/1/2019 | 6/1/2022 |
 |Adatum Laptop   | 1/1/2018 | 6/1/2020 | 6/1/2023  |
 
-Esta tabela mostra datas de exemplo *para* dispositivos oficiais:
+Esta tabela mostra datas de exemplo para dispositivos *negativos:*
 
 
 |ID do dispositivo  |Data do registro  |Data da reforma  |
@@ -78,11 +78,11 @@ Esse período é o núcleo da disponibilidade do produto:
 
 Qualquer dispositivo inscrito durante esse período recebe os três anos completos de suporte da Área de Trabalho Gerenciada da Microsoft (conforme mostrado pela linha do tempo azul). Esse período dura até uma data de término definida como 24 meses a partir da data de disponibilidade geral.
 
-Você pode pensar nesse período como efetivamente "abrir registro", portanto, para maximizar o valor da Área de Trabalho Gerenciada da Microsoft, você deve direcionar seus modelos de compra e produtos selecionados para ficar dentro desse período. Como um pequeno exemplo, você deve evitar ficar em um período de distribuição de dois anos usando um produto que está em seu último [](#product-grace-period) mês de disponibilidade principal – a maioria desses dispositivos não receberá os três anos completos de gerenciamento da Área de Trabalho Gerenciada da Microsoft (veja o período de carência para obter mais informações).  
+Você pode pensar nesse período como efetivamente "registro aberto", portanto, para maximizar o valor da Área de Trabalho Gerenciada da Microsoft, você deve direcionar seus modelos de compra e produtos selecionados para dentro desse período. Como um pequeno exemplo, você deve evitar ficar em um período de distribuição de dois anos usando um produto que está em seu último [](#product-grace-period) mês de disponibilidade principal – a maioria desses dispositivos não receberá os três anos completos de gerenciamento da Área de Trabalho Gerenciada da Microsoft (veja o período de carência para obter mais informações).  
 
 ## <a name="product-grace-period"></a>Período de carência do produto
 
-O período de carência do produto é um período de três anos após a disponibilidade principal. Esta fase permite que você inscreva dispositivos que são de uma família de produtos com suporte, mas ainda mantém a segurança das promessas da Área de Trabalho Gerenciada da Microsoft em relação ao desempenho moderno do hardware e do dispositivo. Esta fase é ideal para clientes que tomaram decisões de compra antes de conhecer a Área de Trabalho Gerenciada da Microsoft. 
+O período de carência do produto é um período de três anos após a disponibilidade principal. Esta fase permite que você inscreva dispositivos que são de uma família de produtos com suporte, mas ainda mantém a segurança das promessas da Área de Trabalho Gerenciada da Microsoft em relação ao hardware moderno e ao desempenho do dispositivo. Esta fase é ideal para clientes que tomaram decisões de compra antes de conhecer a Área de Trabalho Gerenciada da Microsoft. 
 
 Se você comprou recentemente dispositivos aprovados antes de se inscrever na Área de Trabalho Gerenciada da Microsoft, ainda poderá inscreveu-os, mas não receberá um gerenciamento completo de três anos. Em vez disso, eles sairão da conformidade na data da baixa, independentemente de quando foram inscritos. Nos bastidores, a Área de Trabalho Gerenciada da Microsoft tratará esses dispositivos como se fossem inscritos no último dia de disponibilidade principal. Nesta ilustração, você pode ver esse cenário, notando que os dispositivos azul e verde terminam no mesmo dia, apesar da diferença de um ano no registro:
 
@@ -102,7 +102,7 @@ Por fim, durante essa fase, o dispositivo é removido da lista [de](device-list.
 
 ## <a name="product-retirement"></a>Baixa do produto
 
-A baixa do produto é a fase final do ciclo de vida. Nesta fase, nenhum dispositivo novo desse tipo de produto pode ser inscrito na Área de Trabalho Gerenciada da Microsoft e, por definição, todos os dispositivos existentes agora estão fora do período de três anos permitido. Durante esse tempo, a Área de Trabalho Gerenciada da Microsoft removerá totalmente o dispositivo da lista pública. Também é durante essa fase em que, se você ainda não tiver adquirido substituições, começará a ver os serviços reduzidos conforme a Área de Trabalho Gerenciada da Microsoft começa a aumentar os dispositivos que estão fora de conformidade. 
+A baixa do produto é a fase final do ciclo de vida. Nesta fase, nenhum dispositivo novo desse tipo de produto pode ser inscrito na Área de Trabalho Gerenciada da Microsoft e, por definição, todos os dispositivos existentes agora estão fora do período de três anos permitido. Durante esse tempo, a Área de Trabalho Gerenciada da Microsoft removerá totalmente o dispositivo da lista pública. Também durante essa fase, se você ainda não tiver adquirido substituições, começará a ver serviços reduzidos à medida que a Área de Trabalho Gerenciada da Microsoft começar a aumentar os dispositivos que estão fora de conformidade. 
 
 ## <a name="devices-that-are-out-of-compliance"></a>Dispositivos que estão fora de conformidade
 

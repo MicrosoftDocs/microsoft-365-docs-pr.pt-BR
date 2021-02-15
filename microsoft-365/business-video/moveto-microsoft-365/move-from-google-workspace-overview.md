@@ -1,5 +1,5 @@
 ---
-title: Mudar do Google Workspace para o Microsoft 365 for Business
+title: Mudar do Google Workspace para o Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -37,9 +37,9 @@ Conclua as etapas a seguir para mover seus dados, emails e usuários do Google W
 | Etapa  |Descrição  |
 |---------|---------|
 |Etapa 1 |  [Inscreva-se](../sign-up.md) no Microsoft 365 Business Premium       |
-|Etapa 2 |   [Configurar a migração do Microsoft 365 para o Google Workspace.](set-up-microsoft-365-forgoogle.md) </br> Nesta etapa, você validará se é o próprio domínio usado no Google Workspace, adicionará usuários e configurará a segurança básica para dispositivos. |
+|Etapa 2 |   [Configurar a migração do Microsoft 365 para o Google Workspace.](set-up-microsoft-365-forgoogle.md) </br> Nesta etapa, você validará que é o próprio domínio usado no Google Workspace, adicionará usuários e configurará a segurança básica para dispositivos. |
 |Etapa 3 | [Configurar políticas de segurança para dispositivos Windows.](../secure-win10-pcs.md)</br> A segurança do Windows é configurada separadamente na página configuração do Centro de administração do Microsoft 365. |
-|Etapa 4|[Adicionar seu domínio do Google Workspace ao Microsoft 365](add-google-domain.md) </br> Depois de verificar se você é o próprio domínio que está usando para email, você e todos os outros usuários podem começar a usar seu email antigo para entrar no Microsoft 365 Business premium. |
+|Etapa 4|[Adicionar seu domínio do Espaço de Trabalho do Google ao Microsoft 365](add-google-domain.md) </br> Depois de verificar se você é o próprio domínio que está usando para email, você e todos os outros usuários podem começar a usar seu email antigo para entrar no Microsoft 365 Business premium. |
 |Etapa 5 | [Instale os aplicativos do Office e o Microsoft Teams.](../install-office.md)</br> Todas as pessoas que têm licenças do Microsoft 365 devem instalar os aplicativos do Office em seus dispositivos de trabalho.|
 |Etapa 6 | [Migre os itens de email e calendário de todos.](migrate-email.md)</br> Nesta etapa, você executará uma migração do Exchange Online para mover o email, o calendário e os contatos de todos do Google Workspace.  |
 |Etapa 7 | [Conecte o domínio ao Microsoft 365.](connect-domain-tom365.md) </br> Depois de conectar o email de domínio, você começará a ir para o Microsoft 365 e todos os serviços do Microsoft 365 funcionarão.|

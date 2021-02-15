@@ -62,4 +62,4 @@ O Business Voice vai para qualquer lugar que você vai porque faz parte do Micro
 
 Para fazer uma chamada telefônica, abra o aplicativo Teams em seu computador, tablet ou telefone e escolha Chamadas. Você verá o número de telefone atribuído e o teclado de discagem que pode usar para ligar para qualquer número. Ou selecione qualquer um dos seus contatos no Outlook ou em seu telefone e ligue diretamente para eles.
 
-Se você receber uma chamada, você será solicitado a aceitar ou ignorar a chamada, semelhante à experiência em qualquer telefone normal. Se necessário, encaminhe chamadas ou toque em vários dispositivos para garantir que você não perca nenhuma chamada importante de seus clientes.
+Quando uma chamada chega, você será solicitado a aceitar ou ignorar a chamada, semelhante à experiência em qualquer telefone normal. Se necessário, encaminhe chamadas ou toque em vários dispositivos para garantir que você não perca nenhuma chamada importante de seus clientes.

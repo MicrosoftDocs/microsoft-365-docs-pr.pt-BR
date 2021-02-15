@@ -16,11 +16,11 @@ ms.locfileid: "49841382"
 ---
 # <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Idiomas e regiões suportados pela Área de Trabalho Gerenciada da Microsoft
 
-Este artigo fornece detalhes sobre regiões e idiomas suportados pela Área de Trabalho Gerenciada da Microsoft e as regiões onde você pode usá-lo.
+Este artigo fornece detalhes sobre regiões e idiomas suportados pela Área de Trabalho Gerenciada da Microsoft e as regiões onde você pode usá-la.
 
 ## <a name="supported-languages"></a>Idiomas compatíveis
 
-Inglês é o único idioma disponível para usuários da Área de Trabalho Gerenciada da Microsoft. Essa política inclui todas as interfaces de usuário para usuários e administradores e todas as interações com o suporte [do administrador](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) e o suporte [ao usuário.](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support)
+Inglês é o único idioma disponível para usuários da Área de Trabalho Gerenciada da Microsoft. Essa política inclui todas as interfaces do usuário para usuários e administradores e todas as interações com o suporte [do administrador](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) e o suporte [ao usuário.](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support)
 
 
 Você ainda pode usar dispositivos gerenciados fora das regiões de inglês sem uma interrupção no serviço de Área de Trabalho Gerenciada da Microsoft. Por exemplo, um funcionário baseado no Reino Unido pode trabalhar com segurança e receber atualizações em seu dispositivo gerenciado enquanto estiver viajando na Ásia, Europa ou Na América do Sul. 

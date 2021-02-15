@@ -35,13 +35,13 @@ Para começar, verifique o seguinte:
 
 - Alternar para uma rede WIFI ou celular diferente no dispositivo.
 
-- Para dispositivos Android ou iOS, desinstale e reinstale o aplicativo do Portal da Empresa do Intune no dispositivo. 
+- Para dispositivos Android ou iOS, desinstale e reinstale o aplicativo portal da empresa do Intune no dispositivo. 
 
 ## <a name="ios-phone-or-tablet"></a>Telefone ou tablet iOS
 
 - Certifique-se de que você tenha definido um certificado APNs. Para obter mais informações, [consulte Criar um certificado APNs para dispositivos iOS.](create-an-apns-certificate-for-ios-devices.md)
 
-- Em **Configurações**   >  **Perfil**   >  **Geral (ou Gerenciamento de Dispositivo),** certifique-se de que um Perfil de Gerenciamento ainda não está instalado. Se estiver, remova-o.
+- Em **Configurações** Perfil Geral (ou Gerenciamento   >  ****   >  **de Dispositivo),** certifique-se de que um Perfil de Gerenciamento ainda não está instalado. Se estiver, remova-o.
 
 - Se você vir a mensagem de erro "O dispositivo falhou ao se inscrever", entre no Microsoft 365 e certifique-se de que uma licença que inclua o Exchange Online tenha sido atribuída ao usuário conectado ao dispositivo.
 
@@ -57,7 +57,7 @@ Para começar, verifique o seguinte:
     
 - Certifique-se de que o usuário está escolhendo **Ativar em** vez de   escolher **Ingressar.**
 
-## <a name="windows-10-pc"></a>Computador Com Windows 10
+## <a name="windows-10-pc"></a>Computador Windows 10
 
 - Certifique-se de que seu domínio está definido no Microsoft 365 para trabalhar com Mobilidade e Segurança Básica. Para obter mais informações, [consulte Configurar Mobilidade Básica e Segurança.](set-up.md)
     
@@ -71,4 +71,4 @@ Para começar, verifique o seguinte:
 
 - Se você vir a mensagem de erro "Não foi possível registrar este dispositivo", entre no Microsoft 365 e certifique-se de que uma licença que inclua o Exchange Online tenha sido atribuída ao usuário conectado ao dispositivo.
 
-- Verifique a Área de Notificação no dispositivo para ver se alguma ação necessária do usuário final está pendente e, se estiver, concluir as ações.
+- Verifique a Área de Notificação no dispositivo para ver se alguma ação necessária do usuário final está pendente e, se estiver, conclua as ações.

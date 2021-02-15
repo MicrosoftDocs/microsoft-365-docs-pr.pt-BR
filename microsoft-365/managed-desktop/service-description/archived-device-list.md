@@ -41,7 +41,7 @@ Para ser registrado na Área de Trabalho Gerenciada da Microsoft, um dispositivo
 |Dell Precision 3530| 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | **22 de maio de 2023** |
 |Dell Latitude 5300 / 5300 2-in-1 / 5400 / 5500 | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | **1º de junho de 2024**  |
 |Dell Latitude 5490 | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | **9 de janeiro de 2023** |
-|Dell Latitude 7200 2 em 1 | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | **1º de maio de 2024** |
+|Dell Latitude 7200 2-in-1 | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | **1º de maio de 2024** |
 |Dell Latitude 7300 / 7400 / 7400 2-in-1 | 256 GB / Intel i5 / 8 GB RAM | Câmera DE IR necessária | **1º de maio de 2024**  |
 |Dell Latitude 7390 / 7390 2-in-1 / 7490 | 256 GB / Intel i5 / 8 GB RAM   | Câmera DE IR necessária | **9 de janeiro de 2023** |
 |Dell Optiplex 3070 | 128 GB / Intel i3 / 8 GB RAM | Nenhum | **1º de maio de 2025**  |
@@ -76,4 +76,4 @@ Esses recursos podem ajudar a responder perguntas que você pode ter sobre dispo
 
 - Para obter mais perguntas sobre dispositivos Dell, entre em [contato MMD_at_dell@dell.com](mailto:MMD_at_dell@dell.com).
 
-- Para obter mais perguntas sobre contatos de dispositivos HP: Américas ([mmd-americas@hp.com](mailto:mmd-americas@hp.com)); Europa/Oriente Médio/África ([mmd-emea@hp.com](mailto:mmd-emea@hp.com)); Pacífico Asiático/Japão ([mmd-apj@hp.com](mailto:mmd-apj@hp.com)); Global ([mmd@hp.com](mailto:mmd@hp.com))
+- Para obter mais perguntas sobre os dispositivos HP, entre em contato: Américas ([mmd-americas@hp.com](mailto:mmd-americas@hp.com)); Europa/Oriente Médio/África ([mmd-emea@hp.com](mailto:mmd-emea@hp.com)); Pacífico Asiático/Japão ([mmd-apj@hp.com](mailto:mmd-apj@hp.com)); Global ([mmd@hp.com](mailto:mmd@hp.com))

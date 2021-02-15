@@ -40,8 +40,8 @@ Você pode convidar pessoas de fora da sua organização para uma reunião sem p
 Com o Microsoft Teams, você pode criar novas equipes à medida que inicia novos projetos ou adiciona clientes.
 
 1. Na guia **Teams,** selecione **Ingressar ou criar uma equipe,** Criar equipe, Criar uma equipe do  **zero** e, em seguida, **Privado**.
-2. Insira um nome para sua equipe, uma descrição e selecione  **Criar**.
-3. Na página  **Adicionar membros,**  adicione membros internos pesquisando e selecionando-os, e adicione membros convidados inserindo seu endereço de email e selecione  **Adicionar**.
+2. Insira um nome para sua equipe, uma descrição e selecione **Criar.**
+3. Na página  **Adicionar membros,**  adicione membros internos pesquisando e selecionando-os e adicione membros convidados inserindo seu endereço de email e selecione  **Adicionar**.
 
     Se você vir  **que não encontramos nenhuma corresponde,** você deve habilitar o compartilhamento de convidados. Vá para o centro de administração do Microsoft 365, escolha  o centro de administração do Teams, escolha configurações de toda a **organização,** acesso de convidados e ativar Permitir acesso de convidados **no Teams.** Essa alteração pode levar até 24 horas.
 

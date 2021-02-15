@@ -29,11 +29,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49924997"
 ---
-# <a name="add-your-google-workspace-domain-to-microsoft-365"></a>Adicionar seu domínio do Espaço de Trabalho do Google ao Microsoft 365
+# <a name="add-your-google-workspace-domain-to-microsoft-365"></a>Adicionar seu domínio do Google Workspace ao Microsoft 365
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LWKT?autoplay=false]
 
-Adicione seu domínio do Espaço de Trabalho do Google ao Microsoft 365 para empresas para que você possa continuar usando seu endereço de email comercial.
+Adicione seu domínio do Google Workspace ao Microsoft 365 para empresas para que você possa continuar usando seu endereço de email comercial.
 
 ## <a name="try-it"></a>Experimente!
 

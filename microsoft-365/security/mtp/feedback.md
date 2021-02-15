@@ -35,7 +35,7 @@ ms.locfileid: "49926733"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Seus comentários nos ajudam a melhorar a proteção do seu ambiente contra ataques avançados. Compartilhe sua experiência, impressões e solicitações fornecendo comentários.
+Seus comentários nos ajudam a melhorar a proteção do ambiente contra ataques avançados. Compartilhe sua experiência, impressões e solicitações fornecendo comentários.
 
 1. Em qualquer parte do portal, selecione **Fazer comentários.** 
 

@@ -57,7 +57,7 @@ Ao escolher uma assinatura de nuvem para sua empresa, você tem opções sobre q
 
 - Escolha [o Office 365 Business Essentials](https://www.microsoft.com/en-us/p/office-365-business-essentials/cfq7ttc0k59v?rtc=1&amp;activetab=pivot:overviewtab) se quiser apenas aplicativos online (aplicativos que você pode acessar em um navegador da Web) para email, criação de documentos, colaboração e armazenamento em nuvem. Isso inclui o Word Online, o Excel Online, o PowerPoint Online e o SharePoint Online.
 - Escolha [o Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium) se quiser a versão com recursos de aplicativos do Office, como Word, Excel e Teams, que são executados diretamente em seus PCs e Macs. Isso é além dos aplicativos online.
-- Escolha [o Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business?rtc=1) se quiser todos os aplicativos do Office, além de segurança na nuvem e gerenciamento de dispositivos. Isso inclui proteção contra vírus, malware, ransomware e muito mais, bem como gerenciamento e criptografia de dispositivos. Você também tem uma atualização gratuita para o Windows 10 Pro de versões anteriores do Windows Professional.
+- Escolha [o Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business?rtc=1) se quiser todos os aplicativos do Office, além de segurança na nuvem e gerenciamento de dispositivos. Isso inclui proteção contra vírus, malware, ransomware e muito mais, bem como gerenciamento de dispositivos e criptografia. Você também tem uma atualização gratuita para o Windows 10 Pro de versões anteriores do Windows Professional.
 - Se você tiver uma empresa maior ou precisar de serviços e aplicativos de TI mais complexos, saiba mais sobre nossos [planos do Microsoft 365 Enterprise.](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
 
 
@@ -70,14 +70,14 @@ Ao escolher uma assinatura de nuvem para sua empresa, você tem opções sobre q
 
 ## <a name="3-add-users-with-licenses"></a>3. Adicionar usuários com licenças
 
-- Para todos os funcionários ou pessoas da sua empresa que precisem usar softwares e serviços de negócios, adicione-os como um usuário no Microsoft 365. Você pode atribuir a eles a mesma licença que atribui a si mesmo (por exemplo, Microsoft 365 Business Premium) ou pode atribuir planos diferentes com mais ou menos recursos (por exemplo, Microsoft 365 Business Basic).
+- Para cada funcionário ou pessoa da sua empresa que precise usar software e serviços de negócios, adicione-os como um usuário no Microsoft 365. Você pode atribuir a eles a mesma licença que atribui a si mesmo (por exemplo, Microsoft 365 Business Premium) ou pode atribuir a eles planos diferentes com mais ou menos recursos (por exemplo, Microsoft 365 Business Basic).
 - Ao criar um usuário, você&#39;nome, endereço de email de trabalho, senha e outras informações. Eles&#39;usarão essas informações para entrar no serviço e receber emails. Você pode alterar a senha, permissões ou outras configurações a qualquer momento.
 
 
 ## <a name="4-enable-threat-protection"></a>4. Habilitar a proteção contra ameaças
 
 - Você&#39;ativar a Proteção Avançada contra Ameaças durante a configuração do serviço. A Proteção Avançada contra Ameaças do Microsoft 365 inclui recursos de configuração, proteção e detecção, incluindo Anexos Seguros, Links Seguros, Proteções do SharePoint, OneDrive e Microsoft Teams, proteção anti-phishing e detecção de ameaças em tempo real.
-- Por padrão, você&#39;receberá ajuda com a proteção principal contra ameaças comuns online, mas poderá personalizar essas configurações posteriormente para se ajustar às suas necessidades de negócios.
+- Por padrão, você&#39;receberá ajuda com a proteção principal contra ameaças online comuns, mas poderá personalizar essas configurações posteriormente para se ajustar às suas necessidades de negócios.
 
 ## <a name="5-manage-and-secure-your-devices"></a>5. Gerencie e proteja seus dispositivos
 

@@ -34,7 +34,7 @@ ms.locfileid: "49927953"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3TGvL?autoplay=false]
 
-As políticas de prevenção contra perda de dados ajudam a identificar e proteger informações confidenciais da sua empresa, como números de SEGURO SOCIAL ou registros médicos. 
+As políticas de prevenção contra perda de dados ajudam a identificar e proteger informações confidenciais da sua empresa, como números de Seguro Social ou registros médicos. 
 
 ## <a name="try-it"></a>Experimente!
 

@@ -41,7 +41,7 @@ A autenticação multifa factor significa que você e seus funcionários devem f
 1. Vá para o centro de administração do[https://admin.microsoft.com](https://admin.microsoft.com).
 1. Selecione **Mostrar Tudo** e, em seguida, escolha o Centro de Administração do **Azure Active Directory.**
 1. Select **Azure Active Directory**, **Properties**, Manage **Security defaults**.
-1. Em **Habilitar Padrões de Segurança,** selecione **Sim** e **Salvar.**
+1. Under **Enable Security defaults**, select **Yes** and then **Save**.
 
 > [!NOTE]
 > Para novas assinaturas, os padrões seguros são ativados automaticamente.

@@ -42,7 +42,7 @@ O aplicativo de administração é um aplicativo com mais de 80 recursos para aj
 - Obter notificações de alteração e de saúde do serviço
 - Criar uma solicitação de serviço
 - Redefinir a senha de um usuário
-- Atribuir licenças
+- Atribua licenças
 - Adicionar ou remover associações de grupo
 - Adicionar usuários 
 
@@ -80,7 +80,7 @@ Sim, mas com funcionalidade reduzida. Você poderá entrar e exibir informaçõe
   
 ### <a name="what-languages-are-supported-by-the-app"></a>Quais são os idiomas com suporte do aplicativo?
 
-O aplicativo dá suporte a todos os 39 idiomas compatíveis com o centro de administração do Microsoft 365 baseado na Web. Para alterar o idioma, selecione o ícone de início do aplicativo na barra superior e escolha  >  **Configurações idioma**.
+O aplicativo dá suporte a todos os 39 idiomas compatíveis com o centro de administração do Microsoft 365 baseado na Web. Para alterar o idioma, selecione o ícone de início do aplicativo na barra superior e escolha **Idioma das**  >  **Configurações.**
   
 ### <a name="why-does-the-messages-tile-on-the-home-screen-show-numbers-even-after-ive-read-the-new-messages"></a>Por que o bloco Mensagens na Tela Inicial mostra números, mesmo depois de ler as mensagens novas?
 

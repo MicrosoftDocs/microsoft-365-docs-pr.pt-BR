@@ -52,4 +52,4 @@ O Microsoft Bookings é um aplicativo móvel e online para pequenas empresas que
 - A **página Serviços** permite que você adicione ou gerencie os serviços que os clientes escolhem ao agendar um compromisso.
 - Por fim, na página **do Bookings,** você encontrará muitas configurações, como sua política de agendamento, notificações por email, configurações de fuso horário e muito mais.
 
-Depois de salvar e publicar o calendário do Bookings, ele poderá ser inserido no site da sua empresa ou na página do Facebook.
+Depois de salvar e publicar o calendário do Bookings, ele poderá ser inserido no site da empresa ou na página do Facebook.

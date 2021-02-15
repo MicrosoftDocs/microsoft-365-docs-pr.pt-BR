@@ -36,15 +36,15 @@ Se você vir mensagens de erro ao criar ou usar uma caixa de correio compartilha
 ## <a name="error-when-creating-shared-mailboxes"></a>Erro ao criar caixas de correio compartilhadas
 <a name="bkmk_Fix"> </a>
 
-Se você vir a mensagem de erro, o endereço proxy "smtp:<shared mailbox name " já está sendo usado pelos endereços proxy ou **\> LegacyExchangeDN de " \<name> ". Escolha outro endereço proxy,** significando que você está tentando dar um nome à caixa de correio compartilhada que já está em uso. Por exemplo, digamos que você deseja nomear as caixas de correio compartilhadas como info@dominio1 e info@dominio2. Há duas maneiras de fazer isso:
+Se você vir a mensagem de erro, o endereço proxy "smtp:<shared mailbox name " já está sendo usado pelos endereços proxy ou **\> LegacyExchangeDN de " \<name> ". Escolha outro endereço proxy,** significa que você está tentando dar um nome à caixa de correio compartilhada que já está em uso. Por exemplo, digamos que você deseja nomear as caixas de correio compartilhadas como info@dominio1 e info@dominio2. Há duas maneiras de fazer isso:
 
-  - Use o Windows PowerShell. Confira esta postagem do blog para obter instruções: [Criar caixas de correio compartilhadas com o mesmo alias em domínios diferentes](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
+  - Use o Windows PowerShell. Confira esta postagem de blog para obter instruções: [Criar caixas de correio compartilhadas com o mesmo alias em domínios diferentes](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
     
-  - Nomee a segunda caixa de correio compartilhada de forma diferente do início para evitar o erro. Em seguida, no centro de administração, renomeie a caixa de correio compartilhada como você deseja que ela seja.
+  - Nomee a segunda caixa de correio compartilhada diferente do início para evitar o erro. Em seguida, no centro de administração, renomeie a caixa de correio compartilhada como você deseja que ela seja.
 
 ## <a name="error-about-not-having-send-permissions-when-using-a-shared-mailbox"></a>Erro sobre não ter permissões de envio ao usar uma caixa de correio compartilhada
 
-Se você criou uma caixa de correio compartilhada e tentou enviar uma mensagem dela, você pode obter isto:
+Se você criou uma caixa de correio compartilhada e tentou enviar uma mensagem dela, pode receber isto:
 
 **Não foi possível enviar essa mensagem. Você não tem permissão para enviar a mensagem em nome do usuário especificado.**
 

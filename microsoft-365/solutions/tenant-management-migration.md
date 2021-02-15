@@ -21,7 +21,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49908449"
 ---
-# <a name="step-4-migration-for-your-microsoft-365-for-enterprise-tenants"></a>Etapa 4. Migração para locatários do Microsoft 365 para empresas
+# <a name="step-4-migration-for-your-microsoft-365-for-enterprise-tenants"></a>Etapa 4. Migração para seus locatários do Microsoft 365 para empresas
 
 A maioria das organizações corporativas tem um ambiente heterogêneo que inclui várias versões de sistemas operacionais, software cliente e software de servidor. O Microsoft 365 para empresas inclui as versões mais seguras dos principais componentes da infraestrutura de TI. Ele também inclui recursos de produtividade projetados para tirar proveito das tecnologias de nuvem.
 
@@ -42,7 +42,7 @@ Para obter métodos adicionais de instalação do Windows 10 Enterprise além de
 
 ## <a name="migrating-to-microsoft-365-apps-for-enterprise"></a>Migrando para o Microsoft 365 Apps para empresas
 
-O Microsoft 365 para empresas inclui o Microsoft 365 Apps para empresas, uma versão dos produtos cliente do Office (Word, PowerPoint, Excel e Outlook) que é instalada e atualizada a partir da nuvem da Microsoft. Para obter mais informações, consulte [Sobre os Aplicativos do Microsoft 365 para empresas.](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)
+O Microsoft 365 para empresas inclui o Microsoft 365 Apps para empresas, uma versão dos produtos cliente do Office (Word, PowerPoint, Excel e Outlook) que é instalada e atualizada a partir da nuvem da Microsoft. Para obter mais informações, consulte [Sobre o Microsoft 365 Apps para empresas.](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)
 
 Em vez de manter seus computadores atualizados para o Office 2019 ou versões mais antigas, tome as seguintes etapas:
 
@@ -64,7 +64,7 @@ Use os seguintes recursos para obter informações sobre como migrar usuários e
 
 ## <a name="transition-your-entire-organization"></a>Transição para toda a organização
 
-Para ter uma ideia melhor de como mover toda a organização para os produtos e serviços no Microsoft 365 para empresas, baixe este cartaz de transição:
+Para ter uma ideia melhor de como mover toda a organização para os produtos e serviços do Microsoft 365 para empresas, baixe este cartaz de transição:
 
 [![Imagem mostrando o cartaz Transição para o Microsoft 365.](../media/microsoft-365-overview/transition-org-to-m365.png)](https://download.microsoft.com/download/2/c/7/2c7bcc04-aae3-4604-9707-1ffff66b9851/transition-org-to-m365.pdf)
 

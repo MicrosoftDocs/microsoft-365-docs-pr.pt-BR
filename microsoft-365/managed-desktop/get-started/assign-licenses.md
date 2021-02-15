@@ -1,5 +1,5 @@
 ---
-title: Atribuir licenças
+title: Atribua licenças
 description: Como parte do registro, você precisa atribuir licenças que já obteve aos seus usuários
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/13/2021
 ms.locfileid: "49841032"
 ---
-# <a name="assign-licenses"></a>Atribuir licenças
+# <a name="assign-licenses"></a>Atribua licenças
 
 Como parte da preparação para se inscrever na Área de Trabalho Gerenciada da Microsoft, você precisará ter certeza de que obteve as licenças necessárias. Se você ainda não obteve as licenças, consulte mais sobre [licenças](../get-ready/prerequisites.md#more-about-licenses) para obter detalhes sobre exatamente de quais licenças você precisa.
 

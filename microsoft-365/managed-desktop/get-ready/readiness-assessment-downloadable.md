@@ -1,5 +1,5 @@
 ---
-title: Verificação da avaliação de preparação para download
+title: Verificador de avaliação de prontidão para download
 description: Verifica as configurações de dispositivo e rede, incluindo pontos de extremidade necessários
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -16,7 +16,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/21/2021
 ms.locfileid: "49921925"
 ---
-# <a name="downloadable-readiness-assessment-checker"></a>Verificação da avaliação de preparação para download
+# <a name="downloadable-readiness-assessment-checker"></a>Verificador de avaliação de prontidão para download
 
 Para funcionar bem com a Área de Trabalho Gerenciada da Microsoft, os dispositivos devem atender a determinados requisitos de hardware e configurações. Além disso, cada dispositivo deve ser capaz de alcançar pontos de extremidade principais. Baixe e execute essa ferramenta para obter um relatório HTML, exibir resultados e executar uma ação. Você precisará baixar a ferramenta e os arquivos de suporte e, em seguida, execute-a manualmente em cada dispositivo que você deseja registrar na Área de Trabalho Gerenciada da Microsoft.
 
@@ -48,7 +48,7 @@ Você também pode baixar e extrair o arquivo  .zip para um local compartilhado,
 
 ## <a name="checks"></a>Verificações
 
-A ferramenta baixável verifica estes itens relacionados à rede e ao dispositivo:
+A ferramenta baixável verifica estes itens relacionados à rede e dispositivo:
 
 ### <a name="hardware"></a>Hardware
 
@@ -74,7 +74,7 @@ Um **resultado de Consultoria** significa que você tem LANs que precisam de cer
 
 #### <a name="vpn-profiles"></a>Perfis VPN
 
-Um **resultado de** consultoria significa que você está usando uma rede virtual privada (VPN). Crie um perfil VPN que implante certificados integrados ao Microsoft Intune. Para obter mais informações, consulte [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada da Microsoft.](certs-wifi-lan.md)
+Um **resultado de** consultoria significa que você está usando uma rede virtual privada (VPN). Crie um perfil vpn que implante certificados integrados ao Microsoft Intune. Para obter mais informações, consulte [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada da Microsoft.](certs-wifi-lan.md)
 
 #### <a name="mapped-drives"></a>Unidades mapeadas
 

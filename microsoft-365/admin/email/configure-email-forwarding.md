@@ -98,7 +98,7 @@ Você deve ser um administrador do Exchange ou um administrador global no Micros
 
 3. Expanda **as configurações de** email e, na seção **Encaminhamento de email,** selecione **Editar**.
 
-4. Na página de encaminhamento de email, de definida a alternância para **On,** insira o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença está atribuída à conta de usuário. Selecione **Salvar**.
+4. Na página de encaminhamento de email, de configurar a opção Para, digite o endereço de encaminhamento e escolha se deseja manter uma cópia dos emails encaminhados. Se você não vir essa opção, certifique-se de que uma licença está atribuída à conta de usuário. Selecione **Salvar**.
 
    **Para encaminhar para vários endereços de email,** você pode pedir ao usuário para configurar uma regra no Outlook para encaminhar para os endereços. Para saber mais, consulte [Usar regras para encaminhar mensagens automaticamente.](https://support.microsoft.com/office/45aa9664-4911-4f96-9663-ece42816d746)
 

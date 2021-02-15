@@ -18,7 +18,7 @@ ms.locfileid: "49841358"
 ---
 # <a name="getting-help-for-users"></a>Obter ajuda para usuários
 
-Há duas maneiras pelas quais os usuários em sua organização podem obter ajuda com seus dispositivos de Área de Trabalho Gerenciada da **Microsoft:** obter aplicativo de Ajuda ou suporte por telefone. Essas duas opções de suporte estão disponíveis para os usuários 24 horas por dia, 7 dias por semana.
+Há duas maneiras de os usuários em sua organização obterem ajuda com os dispositivos da Área de Trabalho Gerenciada da **Microsoft:** obter ajuda ou suporte por telefone. Essas duas opções de suporte estão disponíveis para os usuários 24 horas por dia, 7 dias por semana.
  
 >[!NOTE]
 >Essas opções de suporte não estão disponíveis para dispositivos no grupo teste.
@@ -35,7 +35,7 @@ Obter Ajuda é um aplicativo instalado em todos os dispositivos da Área de Trab
 - As solicitações que estão fora do escopo de suporte da Área de Trabalho Gerenciada da Microsoft são redirecionadas para o helpdesk de IT local por meio de chamada telefônica.
 
 > [!NOTE]
-> O idioma de exibição do aplicativo Obter Ajuda é somente inglês, mesmo se um usuário tiver selecionado um idioma diferente ao configurar o dispositivo ou nas configurações do dispositivo. 
+> O idioma de exibição do aplicativo Obter Ajuda é somente inglês, mesmo que um usuário tenha selecionado um idioma diferente ao configurar o dispositivo ou nas configurações do dispositivo. 
 
 ### <a name="prerequisites"></a>Pré-requisitos
 Para que os usuários sejam capazes de obter ajuda por meio do aplicativo, certifique-se de que esses pré-requisitos sejam atendidos:

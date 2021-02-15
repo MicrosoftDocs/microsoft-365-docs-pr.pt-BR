@@ -35,7 +35,7 @@ Como administrador da sua assinatura do Microsoft 365 para empresas, você pode 
 
 - Adicione o logotipo da sua empresa.
 - Altere as cores para corresponder ao restante da sua marca.
-- Adicione um link de destino que os usuários vão quando selecionam seu logotipo.
+- Adicione um link de destino para os usuários quando eles selecionarem o logotipo.
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>Personalizar seu tema no centro de administração
 
@@ -69,15 +69,15 @@ Como administrador da sua assinatura do Microsoft 365 para empresas, você pode 
 
 4. Selecione **Salvar alterações**.
 
-Você pode ver seu novo tema no centro de administração imediatamente. Após um pequeno atraso, você pode vê-lo em todo o Microsoft 365, incluindo em páginas no Outlook, [SharePoint,](https://support.microsoft.com/office/339402ce-16bb-4c97-9475-0c5375ccef7a)aplicativo móvel do SharePoint para iOS e aplicativo móvel do [SharePoint para Android](https://support.microsoft.com/office/d875654b-fb0a-4dbe-a17a-a676cf936284).
+Você pode ver seu novo tema no centro de administração imediatamente. Após um pequeno atraso, você poderá vê-lo em todo o Microsoft 365, incluindo em páginas do Outlook, [SharePoint,](https://support.microsoft.com/office/339402ce-16bb-4c97-9475-0c5375ccef7a)aplicativo móvel do SharePoint para iOS e aplicativo móvel do SharePoint para [Android.](https://support.microsoft.com/office/d875654b-fb0a-4dbe-a17a-a676cf936284)
 
 É possível remover as cores ou o ícone personalizado a qualquer momento. Basta retornar à página de tema e selecionar **Remover temas personalizados.**
   
 ## <a name="best-practices"></a>Práticas Recomendadas
 
-- **Imagem do** logotipo: Use um tipo de arquivo SVG para que o logotipo apareça em alta resolução em todas as telas e em todos os níveis de zoom.
+- **Imagem do** logotipo: use um tipo de arquivo SVG para que o logotipo apareça em alta resolução em todas as telas e em todos os níveis de zoom.
 
-- **Cores personalizadas:** escolha uma **cor de plano de** fundo da barra de desenvolvimento com uma taxa de alto contraste com a imagem de **logotipo** que você escolheu. Escolha uma **cor de texto e ícones** com uma taxa de alto contraste com a cor de plano de fundo da barra de **nav** para que todos os textos e ícones sejam claramente visíveis.
+- **Cores personalizadas:** escolha uma **cor de plano de** fundo da barra de desenvolvimento com uma taxa de alto contraste com a imagem de **logotipo** que você escolheu. Escolha uma **cor de texto e ícones** com uma taxa de alto contraste com a cor do plano de fundo da barra de **nav** para que todos os textos e ícones sejam claramente visíveis.
 
 - **Cor de** destaque: escolha uma que aparece bem em um plano de fundo branco ou claro. A cor de destaque é usada para colorir alguns links e botões que aparecem em um plano de fundo branco ou claro. Por exemplo, a cor de destaque é usada para elementos de cor na caixa de entrada de um usuário e em sua página Office.com portal.
   

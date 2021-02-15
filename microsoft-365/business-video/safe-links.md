@@ -38,7 +38,7 @@ O Microsoft Defender para Office 365 , anteriormente chamado de Microsoft 365 AT
 
 ## <a name="try-it"></a>Experimente!
 
-1. Vá para o [centro de administração](https://admin.microsoft.com)e selecione **Setup**.
+1. Vá para o [centro de administração](https://admin.microsoft.com)e selecione **Configuração.**
 1. Role para baixo **até aumentar a proteção contra ameaças avançadas.** Selecione **Exibir,** **Gerenciar** e Links **Seguros da ATP.**
 1. Em **Políticas que se aplicam a toda a organização,** escolha a **política** Padrão e selecione o **ícone Editar.**
 1. Insira uma URL que você deseja bloquear.

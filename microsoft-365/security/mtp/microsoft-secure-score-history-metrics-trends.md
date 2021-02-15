@@ -42,7 +42,7 @@ Abaixo do gráfico há uma lista de todas as ações realizadas no intervalo de 
 
 ![Histórico de atividades](../../media/secure-score/secure-score-history-activity.png)
 
-Se você selecionar a ação de melhoria associada a uma atividade, o flyout de ação de melhoria completa será exibido.
+Se você selecionar a ação de melhoria associada a uma atividade, o flyout de ação de melhoria total será exibido.
 
 Para exibir todo o histórico dessa ação de melhoria específica, selecione o link do histórico no flyout.
 
@@ -75,13 +75,13 @@ O gráfico de barras de comparação é a **guia Visão** geral. Passe o mouse s
     4. Os produtos usados pela Microsoft são 80% semelhantes
     5. Oportunidade (pontuação máxima que pode ser atingida pela licença atual) dentro de um intervalo de 20% do seu locatário
 
-- **Comparação personalizada**: precisa ser configurada selecionando **Gerenciar** Comparação com base nos seguintes critérios:
+- **Comparação personalizada**: precisa ser configurada selecionando **Gerenciar Comparação** com base nos seguintes critérios:
     1. Setor(s) selecionado(s)
     2. Tamanho(s) da organização selecionado(s)
     3. Região selecionada
     4. Licença(s) selecionada(s)
     5. Os produtos usados pela Microsoft são 80% semelhantes
-    6. Oportunidade (pontuação máxima que pode ser atingida pela licença atual) dentro de um intervalo de 20% do locatário
+    6. Oportunidade (pontuação máxima que pode ser atingida pela licença atual) dentro de um intervalo de 20% do seu locatário
 
 Se você tiver feito uma seleção personalizada, mas os resultados têm menos de cinco outros locatários que podemos comparar, você verá "Não disponível devido a dados limitados".
 

@@ -1,5 +1,5 @@
 ---
-title: Inscrever-se na assinatura do Microsoft 365 Business Premium
+title: Inscreva-se na assinatura do Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -29,7 +29,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49925893"
 ---
-# <a name="sign-up-for-microsoft-365-business-premium-subscription"></a>Inscrever-se na assinatura do Microsoft 365 Business Premium
+# <a name="sign-up-for-microsoft-365-business-premium-subscription"></a>Inscreva-se na assinatura do Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX?autoplay=false]
 
@@ -47,4 +47,4 @@ Siga estas etapas para se inscrever no Microsoft 365 Business Premium (anteriorm
 8. Insira o número de usuários, escolha um plano de cobrança e selecione **Próximo.**
 9.  Insira o endereço&#39;empresa e, em **seguida, Próximo.**
 10. Insira suas informações de cartão de crédito e, em seguida, **fazer pedido.** Após alguns instantes, sua conta será criada.
-11. Neste ponto, você pode selecionar  **Continuar para** configurar a conta ou entrar no centro de administração do Microsoft 365 e concluir a configuração mais tarde.
+11. Neste ponto, você pode selecionar  **Continuar para** configurar a conta ou entrar no centro de administração do Microsoft 365 e concluir a instalação mais tarde.

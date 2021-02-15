@@ -37,7 +37,7 @@ ms.locfileid: "49925713"
 
 Esta seção aborda os problemas que podem surgir à medida que você usa o serviço Do Microsoft 365 Defender.
 
-## <a name="i-dont-see-microsoft-365-defender-content"></a>Não vejo o conteúdo do Microsoft 365 Defender
+## <a name="i-dont-see-microsoft-365-defender-content"></a>Não vejo conteúdo do Microsoft 365 Defender
 
 Se você não vir recursos no painel de navegação, como Incidentes, Central de Ações ou Busca no portal, precisará verificar se o locatário tem as licenças apropriadas.
 

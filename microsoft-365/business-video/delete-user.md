@@ -48,7 +48,7 @@ Quando um funcionário sair da empresa, você precisará removê-lo do Microsoft
 1. Marque a caixa para dar a outro usuário acesso ao email do ex-funcionário e escolha Selecionar um usuário **e definir opções de email.**
 1. Escolha o usuário e selecione **Próximo.**
 1. Se quiser, você pode criar um novo nome para exibição que indica que a caixa de correio pertencia a um ex-funcionário e, em seguida, selecione **Next**.
-1. A opção Ativar respostas automáticas e alterar o texto da resposta, se quiser.
+1. A ligue as respostas automáticas e altere o texto de resposta, se quiser.
 1. Escolha para quem enviar respostas automáticas, pessoas dentro ou fora da sua empresa e se a mesma resposta vai para as pessoas de fora da sua empresa e, em seguida, selecione **Próximo**.
 1. Para remover aliases de email associados, selecione **X** ao lado de seus aliases.
 1. Revise as informações da caixa de correio compartilhada e selecione **Concluir.**

@@ -50,5 +50,5 @@ A autenticação multifatare oferece mais segurança para sua empresa. Siga esta
 1. Choose **Work or school account**, choose **Allow** when prompted for permission to take pictures and record video, and then follow the instructions to scan the QR code in the open window on your computer.
 1. Depois que a conta tiver sido adicionada, escolha **Got It**.
 1. Em seu computador, escolha **Próximo** e, em seguida, escolha **Próximo** novamente.
-1. Anote o código que aparece em seu dispositivo móvel, digite o código em seu computador na caixa em **Etapa 2** e escolha **Verificar**.
+1. Anote o código que aparece no seu dispositivo móvel, insira o código no computador na caixa abaixo da Etapa **2** e escolha **Verificar**.
 1. In the boxes under **Step 3**, enter a backup phone number, such as your office number, choose **Next**, and then choose **Done**.

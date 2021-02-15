@@ -26,9 +26,9 @@ ms.locfileid: "49908440"
 Uma de suas primeiras decisões de locatário é quantas ter. Cada locatário do Microsoft 365 é distinto, exclusivo e separado de todos os outros locatários do Microsoft 365. O locatário correspondente do Azure AD também é distinto, exclusivo e separado de todos os outros locatários do Microsoft 365.
 
 ## <a name="single-tenant"></a>Locatário único
-Ter um único locatário simplifica muitos aspectos do uso do Microsoft 365 pela sua organização. Um único locatário significa um único locatário do Azure AD com um único conjunto de contas, grupos e políticas. Permissões e compartilhamento de recursos em toda a organização podem ser feitas por meio deste provedor de identidade central.
+Ter um único locatário simplifica muitos aspectos do uso do Microsoft 365 pela sua organização. Um único locatário significa um único locatário do Azure AD com um único conjunto de contas, grupos e políticas. As permissões e o compartilhamento de recursos em toda a organização podem ser feitos por meio deste provedor de identidade central.
 
-Um único locatário oferece a melhor experiência de colaboração e produtividade de recursos e simplificada para seus usuários.
+Um único locatário fornece a melhor experiência de colaboração e produtividade de recursos e simplificada para seus usuários.
 
 Veja um exemplo mostrando o local padrão e o locatário do Azure AD de um locatário do Microsoft 365.
 
@@ -59,7 +59,7 @@ Para saber mais, confira a colaboração entre locatários do [Microsoft 365.](.
 
 ### <a name="cross-tenant-mailbox-migration-preview"></a>Migração de caixa de correio entre locatários (visualização)
 
-Antes da migração de caixa de correio entre locatários (na visualização), ao mover as caixas de correio do Exchange Online entre locatários, você precisa desemlocar completamente uma caixa de correio de usuário de seu locatário atual (o locatário de origem) para o local e, em seguida, abordá-las a um novo locatário (o locatário de destino). Com o novo recurso de migração de caixa de correio entre locatários, os administradores de locatários nos locatários de origem e de destino podem mover caixas de correio entre os locatários com dependências mínimas de infraestrutura em seus sistemas locais. Isso elimina a necessidade de remoção e integração de caixas de correio.
+Antes da migração de caixa de correio entre locatários (na visualização), ao mover caixas de correio do Exchange Online entre locatários, você precisa desemocarcar completamente uma caixa de correio de usuário de seu locatário atual (o locatário de origem) para o local e, em seguida, abordá-las a um novo locatário (o locatário de destino). Com o novo recurso de migração de caixa de correio entre locatários, os administradores de locatários nos locatários de origem e de destino podem mover caixas de correio entre os locatários com dependências mínimas de infraestrutura em seus sistemas locais. Isso elimina a necessidade de remoção e integração de caixas de correio.
 
 Aqui estão dois locatários de exemplo e suas caixas de correio antes da migração de caixa de correio entre locatários.
 
@@ -132,7 +132,7 @@ Aqui está um exemplo de um novo locatário.
 
 Nesta ilustração, o locatário tem:
 
-- Um local padrão correspondente a um datacenter do Microsoft 365.
+- Um local padrão correspondente a uma área geográfica de datacenter do Microsoft 365.
 - Um conjunto de produtos e licenças.
 - O conjunto de aplicativos de produtividade na nuvem, alguns dos quais são específicos de produtos.
 - Um locatário do Azure AD que contém contas de administrador global e um nome de domínio DNS inicial.

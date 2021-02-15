@@ -23,7 +23,7 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
-description: Saiba como rastrear quaisquer problemas que você encontrar durante a configuração de um domínio personalizado, certifique-se de que os registros DNS estão definidos corretamente.
+description: Saiba como rastrear quaisquer problemas que você encontrar ao configurar um domínio personalizado, se certificar de que os registros DNS estão definidos corretamente.
 ms.openlocfilehash: 786df75f3f8a514e9b3c2a7666d715c9abd082bd
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "49926385"
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
-Fazer seu domínio se configurar para trabalhar com o Microsoft 365 pode ser um desafio. É complicado trabalhar com o sistema DNS, e a configuração DNS do seu domínio afeta atividades comerciais importantes, como o email!
+Fazer com que seu domínio seja definido para trabalhar com o Microsoft 365 pode ser um desafio. É complicado trabalhar com o sistema DNS, e a configuração DNS do seu domínio afeta atividades comerciais importantes, como o email!
 
 > [!NOTE]
 > Você pode verificar se há problemas com seu domínio verificando seu status. Vá para  >  **Domínios da Instalação** e veja as notificações na coluna **Status.** Se você vir um problema, selecione Mais ações (três pontos) e escolha **Verificar a saúde.** O painel que é aberto descreverá todos os problemas que ocorrem com seu domínio.

@@ -54,5 +54,5 @@ Depois de se inscrever no Microsoft 365, você ainda pode ter um email indo para
 1. No Outlook, selecione **Arquivo,** **Abrir,** **Exportar** e **Importar/Exportar.**
 2. Selecione  **Importar de outro programa ou arquivo e,** em seguida, selecione  **Próximo**.
 3. Selecione **o arquivo de dados do Outlook** e selecione **Próximo.**
-4. Selecione  **Procurar** e vá para o arquivo que você acabou de exportar. Selecione-o e, em  **seguida, selecione Abrir** e, em **seguida, Próximo**.
+4. Selecione  **Procurar** e vá para o arquivo que você acabou de exportar. Selecione-a e, em  **seguida, selecione Abrir** e, em seguida, **Próximo**.
 5. Verifique se você está incluindo sub-pastas e se está importando itens para a mesma pasta em sua nova conta de email. Selecione **Concluir**.

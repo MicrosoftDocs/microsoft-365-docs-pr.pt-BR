@@ -1,6 +1,6 @@
 ---
 title: Controle de aplicativo
-description: Como usar o controle de aplicativo e a confiança com aplicativos
+description: Como usar o controle de aplicativo e confiar em aplicativos
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -19,7 +19,7 @@ ms.locfileid: "49841298"
 ---
 # <a name="app-control"></a>Controle de aplicativo
 
-O controle de aplicativo é uma prática de segurança opcional na Área de Trabalho Gerenciada da Microsoft que restringe a execução de código em dispositivos cliente. Esse controle reduz o risco de malware ou scripts mal-intencionados exigindo que somente o código assinado por uma lista de editores aprovada pelo cliente possa ser executado. Há muitos benefícios de segurança desse controle, mas ele visa principalmente proteger os dados e a identidade contra explorações baseadas no cliente.
+O controle de aplicativo é uma prática de segurança opcional na Área de Trabalho Gerenciada da Microsoft que restringe a execução de código em dispositivos cliente. Esse controle reduz o risco de malware ou scripts mal-intencionados, exigindo que somente o código assinado por uma lista de editores aprovada pelo cliente possa ser executado. Há muitos benefícios de segurança desse controle, mas ele visa principalmente proteger os dados e a identidade contra explorações baseadas no cliente.
 
 A Área de Trabalho Gerenciada da Microsoft simplifica o gerenciamento de políticas de controle de aplicativo criando uma política base que habilita os principais cenários de produtividade. Você pode estender a confiança para outros signatários específicos para os aplicativos e scripts em seu ambiente. 
 
@@ -43,11 +43,11 @@ Aplicativos ou scripts que não são confiáveis pela política de controle de a
 
 ## <a name="managing-trust-in-applications"></a>Gerenciando a confiança em aplicativos
 
-A Área de Trabalho Gerenciada da Microsoft reúne uma política base que confia nos principais componentes das tecnologias da Microsoft. Em *seguida, adicione* confiança para seus próprios aplicativos e scripts informando a Área de Trabalho Gerenciada da Microsoft em quais deles você já confia.
+A Área de Trabalho Gerenciada da Microsoft reúne uma política base que confia nos principais componentes das tecnologias da Microsoft. Em *seguida, você* adiciona confiança para seus próprios aplicativos e scripts informando a Área de Trabalho Gerenciada da Microsoft em quais deles você já confia.
 
 ### <a name="base-policy"></a>Política base
 
-A Área de Trabalho Gerenciada da Microsoft, em colaboração com especialistas em segurança cibernética da Microsoft, cria e mantém uma política padrão que habilita a maioria dos aplicativos implantados por meio do Microsoft Intune, bloqueando atividades perigosas, como compilação de código ou execução de arquivos não-confidenciais.
+A Área de Trabalho Gerenciada da Microsoft, em colaboração com especialistas em segurança cibernética da Microsoft, cria e mantém uma política padrão que habilita a maioria dos aplicativos implantados por meio do Microsoft Intune enquanto bloqueia atividades perigosas, como compilação de código ou execução de arquivos não confidenciais.
 
 A política base tem a seguinte abordagem para restringir a execução de software:
 
@@ -73,7 +73,7 @@ Essa política cria logs para registrar se um aplicativo ou script seria bloquea
 ### <a name="enforced-policy"></a>Política imposta
 Essa política impede a execução de scripts e aplicativos não-confiançados e cria logs sempre que um aplicativo ou script é bloqueado. As políticas impostas impedem que os usuários padrão executem aplicativos ou scripts armazenados em diretórios que podem ser gravados pelo usuário.
 
-Os dispositivos no grupo Teste têm uma política de auditoria aplicada para que você possa usá-los para validar se algum aplicativo causará problemas. Todos os outros grupos (Primeiro, Rápido e Amplo) usam uma política Imposta, para que os usuários nesses grupos não sejam capazes de executar scripts ou aplicativos não-não-confianças.
+Os dispositivos no grupo Teste têm uma política de auditoria aplicada para que você possa usá-los para validar se algum aplicativo causará problemas. Todos os outros grupos (Primeiro, Rápido e Amplo) usam uma política imposta, para que os usuários nesses grupos não sejam capazes de executar scripts ou aplicativos não-confiança.
 
 
 

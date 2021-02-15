@@ -47,5 +47,5 @@ Você pode atualizar facilmente a forma de pagamento da sua assinatura do Micros
     1. Quando terminar de fazer suas alterações, selecione **Salvar.**
 1. Para adicionar um novo cartão:
     1. Selecione **Adicionar um método de pagamento**.
-    1. Escolha a forma de pagamento que você deseja usar na lista de lista de lista lista de lista de lista lista de seleção **de forma** de pagamento.
+    1. Escolha a forma de pagamento que você deseja usar na lista de lista lista de seleção **de forma** de pagamento.
     1. Insira os detalhes do cartão e selecione **Adicionar**.

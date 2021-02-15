@@ -41,10 +41,10 @@ Para migrar emails, calendário e contatos do Google Workspace, você precisa co
 1. No Centro de administração do Microsoft 365, escolha **Ir para configuração orientada.** 
 1. Opcionalmente, instale os aplicativos do Office e selecione **Continuar.** 
 1. Como você está migrando do Google Workspace, escolha o domínio padrão e **selecione Usar este domínio.** 
-1. Insira os nomes do usuário e os nomes de usuário desejados, verifique seu endereço de email para que você possa receber as senhas do usuário e, em seguida, selecione Adicionar usuários e atribuir **licenças.** 
-1. Insira os endereços de email onde seus usuários receberão suas novas credenciais, selecione **Enviar email e continue.**
+1. Insira os nomes de usuário e os nomes de usuário desejados, verifique seu endereço de email para que você possa receber as senhas do usuário e, em seguida, selecione Adicionar usuários e atribuir **licenças.** 
+1. Insira os endereços de email em que seus usuários receberão suas novas credenciais, selecione **Enviar email e continue.**
 1. Em **seguida, continue** novamente para conectar seu domínio temporário. 
-1. Opcionalmente, opte por informar os usuários em sua organização sobre o Teams e, em seguida, selecione **Continuar**.
+1. Opcionalmente, opte por informar os usuários em sua organização sobre o Teams e, em seguida, selecione **Continuar.**
 1. Expanda e revise as **configurações do Android** e do iOS e, em seguida, selecione Criar política de gerenciamento de aplicativo **móvel.**
 1. Forneça comentários, se desejado, e escolha **Ir para o centro de administração.**
 

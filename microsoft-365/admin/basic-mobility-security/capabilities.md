@@ -64,7 +64,7 @@ Os aplicativos com suporte para os diferentes tipos de dispositivos móveis na t
 
 |**Product**|**iOS 10.0 ou posterior**|**Android 5.0 ou posterior**|
 |:-----|:-----|:-----|
-|**Exchange** O Exchange ActiveSync inclui emails e aplicativos de terceiros, como o TouchDown, que usam o Exchange ActiveSync versão 14.1 ou posterior. |Email |Email |
+|**Exchange** O Exchange ActiveSync inclui emails e aplicativos de terceiros, como o TouchDown, que usam o Exchange ActiveSync versão 14.1 ou posterior. |Correio |Email |
 |**Office**   e  **OneDrive for Business** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**Em telefones e tablets:**<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **Apenas para telefones:** <br/> Office Mobile |
 
 >[!NOTE]
@@ -242,6 +242,6 @@ Para obter mais informações, [consulte Apagar um dispositivo móvel em Basic
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Visão geral da Mobilidade Básica e Segurança do Microsoft 365](overview.md)
+[Visão geral do Basic Mobility and Security para o Microsoft 365](overview.md)
 
 [Criar políticas de segurança de dispositivos em Mobilidade Básica e Segurança](create-device-security-policies.md)

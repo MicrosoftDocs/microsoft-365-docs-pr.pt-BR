@@ -39,7 +39,7 @@ Primeiro, você precisará excluir registros DNS existentes do Google e, em segu
 
 ## <a name="try-it"></a>Experimente!
 
-1. Entre no console de administração do Espaço de Trabalho do Google [admin.google.com.](https://admin.google.com)
+1. Entre no console de administração do Google Workspace em [admin.google.com.](https://admin.google.com)
 1. Select **Domains**, **Manage domains**, **View details**, Manage **domain**, then **DNS** in the left nav.
 1. Role para baixo **até registros sintéticos,** abra **Google Workspace**, selecione **Excluir** e **Excluir** novamente.
 1. Role para baixo **até registros** de recursos personalizados e exclua quaisquer registros DNS existentes que apareçam, incluindo qualquer um que você possa ter criado anteriormente para o Microsoft 365.

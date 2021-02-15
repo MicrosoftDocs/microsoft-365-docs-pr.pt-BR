@@ -49,4 +49,4 @@ ms.locfileid: "49925941"
 12. Na página **Proteger dados** no Office para dispositivos móveis, deixe o gerenciamento de aplicativos móveis, expanda as configurações e revise-as e selecione Criar política de gerenciamento de aplicativo **móvel.**
 13. Depois que a configuração for concluída, retorne ao centro de administração da Microsoft. No centro de administração, você pode continuar a configurar recursos como políticas do Windows 10, DLP etc. na página **De instalação.**
 
-A configuração foi concluída.
+Sua configuração está concluída.

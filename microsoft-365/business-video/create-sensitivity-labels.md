@@ -40,7 +40,7 @@ Os rótulos de sensibilidade permitem classificar e proteger conteúdo que seja 
 
 1. No centro [de administração,](https://admin.microsoft.com)selecione o **Centro de administração** de Conformidade.
 1. Selecione **Classificação** e rótulos **de sensibilidade.**
-1. Selecione **Criar um rótulo** e, quando o aviso aparecer, selecione **Sim.**
+1. Selecione **Criar um rótulo** e, quando o aviso for exibido, selecione **Sim.**
 1. Insira um **nome de rótulo,** **dica de ferramenta** e **descrição.** Selecione **Avançar**.
 1. Ativar **Criptografia.** Escolha quando você deseja atribuir permissões, se deseja que o acesso dos usuários ao conteúdo expire e se deseja permitir o acesso offline.
 1. **Selecione Atribuir permissões e** adicione esses **endereços de email ou domínios.**
@@ -53,7 +53,7 @@ Os rótulos de sensibilidade permitem classificar e proteger conteúdo que seja 
 1. Opcionalmente, ligue **a rotulagem automática.** Adicione uma condição. Por exemplo, em **Detectar conteúdo que contém**, selecione Adicionar uma **condição**. Insira a condição; por exemplo, adicione uma condição de que, se o passport, o Seguro Social ou outras informações confidenciais for detectado, o rótulo será adicionado. Selecione **Avançar**.
 1. Revise suas configurações e selecione **Criar**. Seu rótulo foi criado. Repita esse processo para os rótulos adicionais que você deseja.
 1. Por padrão, os rótulos aparecem nos aplicativos do Office nesta ordem: **Confidencial,** **Interno** e **Público.** Para alterar a ordem, para cada rótulo, selecione **Mais** ações (as re elipses) e mova o rótulo para cima ou para baixo. Normalmente, as permissões são listadas do nível mais baixo para o mais alto de permissões.
-1. Para adicionar um sub-rótulo a um rótulo, selecione **Mais ações** e, em seguida, Adicione **o subconjunto.**
+1. Para adicionar um sub-rótulo a um rótulo, selecione **Mais ações** e, em seguida, adicione **o subconjunto.**
 1. Quando terminar, escolha **Publicar rótulos,** **escolher rótulos para publicar** e, em seguida, **Adicionar**. Selecione os rótulos que você deseja publicar e, em seguida, **selecione Adicionar**, **Feito** e, em **seguida, Próximo**.
 1. Por padrão, a nova política de rótulo é aplicada a todos. Se você deseja limitar a quem a política é aplicada, selecione **Escolher usuários ou grupos** e, em seguida, **Adicionar**. Selecione a quem você deseja que a política se aplique e, em seguida, selecione **Adicionar**, **Feito** e, em seguida, **Próximo**.
 1. Se você quiser um rótulo padrão para documentos e emails, selecione o rótulo que deseja na lista de lista. Revise as configurações restantes, ajuste conforme necessário e selecione **Next**.

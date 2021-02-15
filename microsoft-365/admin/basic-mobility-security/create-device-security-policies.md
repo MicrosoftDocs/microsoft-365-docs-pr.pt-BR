@@ -17,7 +17,7 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Use a Mobilidade Básica e a Segurança para criar políticas de dispositivo que protejam as informações da sua organização.
+description: Use a Mobilidade Básica e Segurança para criar políticas de dispositivo que protejam as informações da sua organização.
 ms.openlocfilehash: 077f1e7e0d763aaecfc38fd4b57d9e8912900a3c
 ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
@@ -32,12 +32,12 @@ Você pode usar Mobilidade Básica e Segurança para criar políticas de disposi
 ## <a name="before-you-begin"></a>Antes de começar
 
 > [!IMPORTANT]
-> Antes de criar uma política de dispositivo móvel, você deve ativar e configurar o Basic Mobility and Security. Para obter mais informações, consulte Visão geral do Basic Mobility and Security.
+> Antes de criar uma política de dispositivo móvel, você deve ativar e configurar o Basic Mobility and Security. Para obter mais informações, consulte Visão geral de Mobilidade Básica e Segurança.
 
 - Saiba mais sobre os dispositivos, aplicativos de dispositivo móvel e configurações de segurança compatíveis com a Mobilidade Básica e Segurança. Consulte [Recursos de Mobilidade Básica e Segurança.](capabilities.md)
-- Crie grupos de segurança que incluam usuários do Microsoft 365 para os usuários que você deseja implantar e para os usuários que talvez você queira excluir do bloqueio de acesso ao Microsoft 365. Recomendamos que antes de implantar uma nova política em sua organização, teste a política implantando-a em um pequeno número de usuários. Você pode criar e usar um grupo de segurança que inclua apenas você mesmo ou um pequeno número de usuários do Microsoft 365 que podem testar a política para você. Para saber mais sobre grupos de segurança, [consulte Criar, editar ou excluir um grupo de segurança.](https://go.microsoft.com/fwlink/p/?LinkId=518555)
+- Crie grupos de segurança que incluam usuários do Microsoft 365 para os que você deseja implantar políticas para e para usuários que talvez você queira excluir do bloqueio de acesso ao Microsoft 365. Recomendamos que antes de implantar uma nova política em sua organização, teste a política implantando-a em um pequeno número de usuários. Você pode criar e usar um grupo de segurança que inclua apenas você mesmo ou um pequeno número de usuários do Microsoft 365 que podem testar a política para você. Para saber mais sobre grupos de segurança, [consulte Criar, editar ou excluir um grupo de segurança.](https://go.microsoft.com/fwlink/p/?LinkId=518555)
 - Para criar e implantar políticas básicas de mobilidade e segurança no Microsoft 365, você precisa ser um administrador global do Microsoft 365. Para obter mais informações, [consulte Permissões no Centro de Conformidade e & Segurança.](https://support.microsoft.com/office/d10608af-7934-490a-818e-e68f17d0e9c1)
-- Antes de implantar políticas, deixe sua organização saber os possíveis impactos do registro de um dispositivo na Mobilidade Básica e Segurança. Dependendo de como você configurar as políticas, os dispositivos não compatíveis podem ser impedidos de acessar o Microsoft 365 e os dados, incluindo aplicativos instalados, fotos e informações pessoais em um dispositivo inscrito, e os dados podem ser excluídos.
+- Antes de implantar políticas, deixe sua organização saber os possíveis impactos do registro de um dispositivo no Basic Mobility and Security. Dependendo de como você configurar as políticas, os dispositivos não compatíveis podem ser impedidos de acessar o Microsoft 365 e os dados, incluindo aplicativos instalados, fotos e informações pessoais em um dispositivo inscrito, e os dados podem ser excluídos.
 
 >[!NOTE]
 >Políticas e regras de acesso criadas no Basic Mobility and Security para o Microsoft 365 Business Standard substituem as políticas de caixa de correio de dispositivo móvel do Exchange ActiveSync e as regras de acesso a dispositivo criadas no Centro de administração do Exchange. Depois que um dispositivo é inscrito no Basic Mobility and Security para o Microsoft 365 Business Standard, qualquer política de caixa de correio de dispositivo móvel do Exchange ActiveSync ou regra de acesso ao dispositivo aplicada ao dispositivo é ignorada. Para saber mais sobre o Exchange ActiveSync, consulte [Exchange ActiveSync no Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=524380).
@@ -60,7 +60,7 @@ Antes de começar, certifique-se de ter ativado e definido a Mobilidade Básica 
 
 6. Selecione **Criar esta política.**
 
-A política é aplicada ao dispositivo de cada usuário na próxima vez que ele entrar no Microsoft 365 usando seu dispositivo móvel. Se os usuários ainda não tinham uma política aplicada ao dispositivo móvel antes, depois de implantar a política, eles receberão uma notificação em seus dispositivos que inclui as etapas para registrar e ativar a Mobilidade Básica e Segurança. Para obter mais informações, consulte [Registrar seu dispositivo móvel usando Mobilidade Básica e Segurança.](enroll-your-mobile-device.md) Até que eles concluam o registro no Basic Mobility and Security hospedado pelo Serviço do Intune, o acesso ao email, OneDrive e outros serviços é restrito. Depois de concluir o registro usando o aplicativo Portal da Empresa do Intune, eles poderão usar os serviços e a política será aplicada ao dispositivo.
+A política é aplicada ao dispositivo de cada usuário na próxima vez que ele entrar no Microsoft 365 usando seu dispositivo móvel. Se os usuários ainda não tiveram uma política aplicada ao dispositivo móvel antes, depois de implantar a política, eles receberão uma notificação em seus dispositivos que inclui as etapas para registrar e ativar a Mobilidade Básica e Segurança. Para obter mais informações, consulte [Registrar seu dispositivo móvel usando Mobilidade Básica e Segurança.](enroll-your-mobile-device.md) Até que eles concluam o registro no Basic Mobility and Security hospedado pelo Serviço do Intune, o acesso ao email, OneDrive e outros serviços é restrito. Depois de concluir o registro usando o aplicativo Portal da Empresa do Intune, eles poderão usar os serviços e a política será aplicada ao dispositivo.
 
 ## <a name="step-2-verify-that-your-policy-works"></a>Etapa 2: Verificar se sua política funciona
 
@@ -105,7 +105,7 @@ Se quiser excluir algumas pessoas de verificações de acesso condicional em seu
 
    :::image type="content" source="../../media/basic-mobility-security/bms-4-policy.png" alt-text="Mobilidade Básica e Segurança criam uma opção de política":::
 
-3. Selecione **Adicionar** para adicionar o grupo de segurança que tem usuários que você deseja excluir de ter acesso bloqueado ao Microsoft 365. Quando um usuário tiver sido adicionado a essa lista, ele poderá acessar o email do Microsoft 365 quando estiver usando um dispositivo sem suporte.
+3. Selecione **Adicionar** para adicionar o grupo de segurança que tem usuários que você deseja excluir de ter acesso bloqueado ao Microsoft 365. Quando um usuário é adicionado a essa lista, ele pode acessar o email do Microsoft 365 quando estiver usando um dispositivo sem suporte.
 
 4. Selecione o grupo de segurança que você deseja usar no **painel Selecionar** grupo.
 
@@ -119,7 +119,7 @@ Se quiser excluir algumas pessoas de verificações de acesso condicional em seu
 
 Quando você aplica uma política a dispositivos do usuário, o impacto em cada dispositivo varia um pouco entre os tipos de dispositivo. Consulte a tabela a seguir para obter exemplos do impacto das políticas em dispositivos diferentes.
 
-|**Política de Segurança**|**Android 4 e posterior**|**Samsung KNOX**|**iOS 6 e posterior**|**Observações**|
+|**Política de Segurança**|**Android 4 e posterior**|**Samsung KNOX**|**iOS 6 e posterior**|**Anotações**|
 |:-----|:-----|:-----|:-----|:-----|
 |Exigir backup criptografado|Não|Sim|Sim|Backup criptografado do iOS necessário.|
 |Bloquear cópia de segurança na nuvem|Sim|Sim|Sim|Bloquear backup no Google no Android (esmaecido), backup na nuvem no iOS.|

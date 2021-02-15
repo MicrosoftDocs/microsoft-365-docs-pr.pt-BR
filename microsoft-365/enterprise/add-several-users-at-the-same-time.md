@@ -74,7 +74,7 @@ Cada pessoa em sua equipe precisa de uma conta de usuário para poder entrar e a
 
 - Agora que essas pessoas têm contas, elas precisam baixar e instalar ou reinstalar o [Microsoft 365 ou o Office 2016](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658)em um PC ou Mac. Cada pessoa em sua equipe pode instalar o Microsoft 365 em até 5 computadores ou Macs.
 
-- Cada pessoa também pode configurar aplicativos do Office e [emails](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f) em um dispositivo móvel em até 5 tablets e 5 telefones, como iPhones, iPads e telefones e tablets Android. Dessa forma, elas podem editar arquivos do Office em qualquer lugar.
+- Cada pessoa também pode configurar aplicativos do Office e [email](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f) em um dispositivo móvel em até 5 tablets e 5 telefones, como iPhones, iPads e telefones e tablets Android. Dessa forma, elas podem editar arquivos do Office em qualquer lugar.
 
     Confira [Configurar o Microsoft 365 para empresas](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa) para ver uma lista de ponta a ponta das etapas de configuração.
 

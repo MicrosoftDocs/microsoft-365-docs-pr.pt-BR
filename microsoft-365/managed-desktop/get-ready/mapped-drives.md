@@ -21,10 +21,10 @@ ms.locfileid: "49841054"
 Muitos ambientes corporativos têm requisitos herdados para unidades mapeadas para permitir que seus usuários ou equipes compartilhem e armazenem arquivos ou para aplicativos locais. A Microsoft não recomenda o uso de unidades mapeadas com a Área de Trabalho Gerenciada da Microsoft. Em vez disso, recomendamos modernizar suas soluções de acesso a arquivos da seguinte forma:
   
 - Migrar unidades mapeadas usadas por usuários individuais para o OneDrive for Business. 
-- Migrar unidades mapeadas usadas por equipes para compartilhar arquivos no SharePoint Online. 
+- Migrar unidades mapeadas usadas pelas equipes para compartilhar arquivos no SharePoint Online. 
 - Modernize ou substitua todos os aplicativos que usam compartilhamentos de arquivos locais para remover esse requisito.
   
-Modernizar esses serviços permitirá a melhor experiência do usuário com a Área de Trabalho Gerenciada da Microsoft. Os Serviços do Microsoft FastTrack podem ajudá-lo a modernizar seu ambiente usando o Microsoft Cloud Services. Você pode verificar se está qualificado para [](https://docs.microsoft.com/fasttrack/m365-eligible-services-and-plans) os serviços do FastTrack nos Serviços e Planos Qualificados e entrar em contato diretamente com eles para se preparar para a Área de Trabalho Gerenciada da Microsoft. Para saber mais sobre o FastTrack OneDrive for Business ou a Migração do SharePoint Online, confira [Migração de Dados.](https://docs.microsoft.com/fasttrack/o365-data-migration)
+Modernizar esses serviços permitirá a melhor experiência do usuário com a Área de Trabalho Gerenciada da Microsoft. Os Serviços do Microsoft FastTrack podem ajudá-lo a modernizar seu ambiente usando os Serviços de Nuvem da Microsoft. Você pode verificar se está qualificado para [](https://docs.microsoft.com/fasttrack/m365-eligible-services-and-plans) os serviços do FastTrack nos Serviços e Planos Qualificados e entrar em contato diretamente para se preparar para a Área de Trabalho Gerenciada da Microsoft. Para saber mais sobre o FastTrack OneDrive for Business ou a Migração do SharePoint Online, confira [Migração de Dados.](https://docs.microsoft.com/fasttrack/o365-data-migration)
 
 ## <a name="mapped-drives-on-microsoft-managed-desktop"></a>Unidades mapeadas na Área de Trabalho Gerenciada da Microsoft
  

@@ -39,9 +39,9 @@ Este artigo contém perguntas frequentes sobre Mobilidade Básica e Segurança, 
 
 Há quatro etapas para começar a trabalhar com Mobilidade Básica e Segurança: 
 
-1. Activate Basic Mobility and Security by going to the [Office 365 Security & Compliance](https://protection.office.com/).
+1. Ative a mobilidade básica e a segurança indo para a conformidade de segurança [do Office 365 &.](https://protection.office.com/)
 
-2. Vá para Prevenção contra perda de > gerenciamento de dispositivos > políticas de dispositivo.
+2. Vá para Prevenção contra perda de dados > gerenciamento de dispositivos > políticas de dispositivo.
     
 3. Crie políticas de gerenciamento de dispositivos e aplique-as a grupos de usuários que estão definidos em grupos de segurança. Recomendamos que você comece implantando as políticas em um pequeno grupo de teste. Para obter mais informações, [consulte Criar políticas de segurança de dispositivos em Mobilidade Básica e Segurança.](create-device-security-policies.md)
 

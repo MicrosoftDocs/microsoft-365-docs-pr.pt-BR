@@ -42,7 +42,7 @@ Na home page, você pode criar cartões para tarefas executadas com frequência.
 
 Para exibir mais tarefas de administração, expanda o menu de navegação. Você encontrará definições de configuração avançadas nos centros de administração adicionais na parte inferior.
 
-Uma tarefa comum que você pode executar no centro de administração é adicionar um usuário. Para fazer isso, selecione **Usuários**, Usuários **ativos** e, em seguida, **selecione Adicionar um usuário**. Insira o nome do usuário e outras informações e selecione **Next.** Siga as solicitações para concluir a adição do usuário. Quando terminar, selecione **Concluir a adição** e, em seguida, **selecione Fechar.**
+Uma tarefa comum que você pode executar no centro de administração é adicionar um usuário. Para fazer isso, selecione **Usuários**, Usuários **ativos** e, em seguida, **selecione Adicionar um usuário**. Insira o nome do usuário e outras informações e selecione **Next.** Siga os prompts para concluir a adição do usuário. Quando terminar, selecione **Concluir a adição** e, em seguida, **selecione Fechar.**
 
 Você pode classificar seus usuários ativos por colunas, como **Nome para exibição** ou **Licenças.** Para adicionar mais colunas, selecione **Escolher colunas,** selecione as colunas que deseja adicionar e, em seguida, **selecione Salvar**.
 

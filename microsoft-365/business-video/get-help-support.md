@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como obter ajuda ou suporte para administradores no Microsoft 365 Business Premium.
+description: Saiba como obter ajuda ou suporte do administrador no Microsoft 365 Business Premium.
 ms.openlocfilehash: bcfe140ec87b50048db570ad4efe4575135b3191
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
@@ -59,7 +59,7 @@ No Microsoft 365 Business Premium, há várias maneiras de obter ajuda ou assist
 1. Digite sua pergunta e selecione o ícone **Enviar mensagem.**
 1. Revise os resultados e escolha a opção que você deseja.
 1. Se precisar de mais ajuda, escolha o **ícone De** contato.
-1. Na página **Contatar suporte,** insira informações sobre sua pergunta e, em seguida, insira suas informações de contato. Escolha como você deseja ser contatado e, em seguida, selecione **Entrar em contato comigo.**
+1. Na página **Contatar suporte,** insira informações sobre sua pergunta e, em seguida, insira suas informações de contato. Choose how you want to be contacted, and then select **Contact me**.
 
     Sua solicitação de serviço foi enviada. Você verá um resumo de sua solicitação na página **solicitação de** serviço.
 

@@ -18,11 +18,11 @@ ms.locfileid: "49841394"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft
 
-À medida que você se preparar para se inscrever na Área de Trabalho Gerenciada da Microsoft, avalie seus requisitos de impressão e determine a abordagem correta para seu ambiente. Você tem três opções:
+À medida que você se prepara para se inscrever na Área de Trabalho Gerenciada da Microsoft, avalie seus requisitos de impressão e determine a abordagem correta para seu ambiente. Você tem três opções:
  
-- Implante a solução Microsoft Universal Print para facilitar a descoberta de impressoras por dispositivos da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [O que é Impressão Universal.](https://docs.microsoft.com/universal-print/fundamentals/universal-print-whatis)
+- Implante a solução Microsoft Universal Print para facilitar a descoberta de impressoras em dispositivos da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [O que é Impressão Universal.](https://docs.microsoft.com/universal-print/fundamentals/universal-print-whatis)
 - Implante impressoras diretamente usando um script personalizado do PowerShell. Siga as etapas na [seção Configurar impressoras](#set-up-local-printers) locais.
-- Use uma solução de impressão em nuvem que não seja da Microsoft compatível com dispositivos Windows 10 que fazem parte de um domínio do Azure Active Directory. A solução deve atender aos requisitos de software da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Requisitos de aplicativo da Área de Trabalho Gerenciada da Microsoft.](../service-description/mmd-app-requirements.md)
+- Use uma solução de impressão em nuvem que não seja da Microsoft compatível com dispositivos Windows 10 que fazem parte de um domínio do Azure Active Directory. A solução deve atender aos requisitos de software da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [requisitos do aplicativo da Área de Trabalho Gerenciada da Microsoft.](../service-description/mmd-app-requirements.md)
  
 Em todos os casos, se os drivers de impressora não estão disponíveis no Microsoft Update ou na Microsoft Store, você terá que obtém-los por conta própria e empacotá-los para implantação em seus dispositivos da Área de Trabalho Gerenciada da Microsoft com o Microsoft Intune. Para saber mais, confira [o Gerenciamento de aplicativos do Intune Autônomo - Win32](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management)
 

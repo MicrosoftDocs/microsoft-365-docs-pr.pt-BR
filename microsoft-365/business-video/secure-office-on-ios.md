@@ -41,7 +41,7 @@ Você pode configurar uma política de acesso de usuário que exija que os usuá
 1. Acesse o centro de administração do Microsoft 365.
 1. Em **Políticas,** escolha **Adicionar política.**
 1. In the **Add policy** pane, enter a name under **Policy name**, and choose the policy type that you want under Policy **type**.
-1. Ativos **Gerenciar como os usuários acessam** arquivos do Office em dispositivos móveis e, em seguida, certifique-se de que as três configurações a seguir estão tivas:
+1. **Adera Gerenciar como os usuários acessam** arquivos do Office em dispositivos móveis e, em seguida, certifique-se de que as três configurações a seguir estão ativas:
     - **Exigir um PIN ou uma impressão digital para acessar aplicativos do Office**
     - **Proteger arquivos de trabalho quando dispositivos são perdidos ou roubados**
     - **Criptografar arquivos de trabalho**

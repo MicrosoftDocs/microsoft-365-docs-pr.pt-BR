@@ -79,7 +79,7 @@ O grupo aparecerá no Outlook com membros atribuídos a ele.
 ::: moniker range="o365-germany"
 
 Os usuários [podem adicionar a si mesmos ou solicitar aprovação,](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d)ou você pode adicioná-los agora.
-1. No centro de administração, atualize a página  para que seu novo grupo seja exibido, selecione Grupos e selecione o grupo ao qual você deseja \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a>adicionar membros.
+1. No centro de administração, atualize a página  para que seu novo grupo seja exibido, selecione Grupos e selecione o grupo ao qual você deseja adicionar \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a>membros.
     
 2. Ao lado **de Membros,** selecione **Editar**.
 3. Escolha **Adicionar membros**.
@@ -95,7 +95,7 @@ O grupo aparecerá no Outlook com membros atribuídos a ele.
 ::: moniker range="o365-21vianet"
 
 Os usuários [podem adicionar a si mesmos ou solicitar aprovação,](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d)ou você pode adicioná-los agora.
-1. No centro de administração, atualize a página  para que seu novo grupo seja exibido, selecione Grupos e selecione o grupo ao qual você deseja \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a>adicionar membros.
+1. No centro de administração, atualize a página  para que seu novo grupo seja exibido, selecione Grupos e selecione o grupo ao qual você deseja adicionar \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a>membros.
     
 2. Ao lado **de Membros,** selecione **Editar**.
 3. Escolha **Adicionar membros**.
@@ -118,7 +118,7 @@ Quando um email é excluído da caixa de correio do grupo, ele não é excluído
 
 ## <a name="next-step-manage-your-group"></a>Próxima etapa: gerenciar seu grupo
 
-Depois de criar um novo grupo e adicionar membros, você pode configurar ainda mais o grupo, como editar o nome ou a descrição do grupo, alterar proprietários ou membros e especificar se os envios externos podem enviar emails para o grupo e se você deve enviar cópias de conversas do grupo para os membros. Confira [Gerenciar um grupo do Microsoft 365](manage-groups.md) para obter informações.
+Depois de criar um novo grupo e adicionar membros, você pode configurar ainda mais o grupo, como editar o nome ou a descrição do grupo, alterar proprietários ou membros e especificar se os envios externos podem enviar emails para o grupo e se enviar cópias de conversas do grupo para os membros. Confira [Gerenciar um grupo do Microsoft 365](manage-groups.md) para saber mais.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

@@ -36,7 +36,7 @@ As organizações escolhem Mobilidade e Segurança Básica para que os funcioná
 
 ## <a name="supported-devices"></a>Dispositivos suportados
 
-A Mobilidade Básica e Segurança do Microsoft 365 hospedada pelo serviço do Intune funciona com a maioria dos dispositivos móveis, mas não todos. Os seguintes são suportados com o Basic Mobility and Security:
+A Mobilidade Básica e Segurança do Microsoft 365 hospedada pelo serviço do Intune funciona com a maioria dos dispositivos móveis, mas não todos. Os seguintes são suportados com Mobilidade Básica e Segurança:
 
 - iOS 10.0 ou posterior
 

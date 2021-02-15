@@ -37,7 +37,7 @@ Se você for um administrador, poderá verificar quais assinaturas sua organiza�
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Na guia **Produtos,** você verá todas as suas assinaturas. Cada linha de assinatura inclui informações sobre licenças, status da assinatura e cobrança.
+2. Na guia **Produtos,** você vê todas as suas assinaturas. Cada linha de assinatura inclui informações sobre licenças, status da assinatura e cobrança.
 3. Se você quiser alterar as colunas que aparecem na lista, selecione **Escolher colunas**. Altere a seleção de colunas e selecione **Salvar.**
 4. Para ver mais detalhes de uma única assinatura, selecione essa assinatura.
 

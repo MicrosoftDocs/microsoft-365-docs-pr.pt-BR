@@ -34,7 +34,7 @@ ms.locfileid: "49925549"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
-Como administrador do Microsoft 365, você [](https://go.microsoft.com/fwlink/p/?LinkId=522677) pode permitir que as pessoas usem a ferramenta de redefinição de senha pessoal para que você não tenha que redefinir senhas para elas. Menos trabalho para você!
+Como administrador do Microsoft 365, você pode permitir que as pessoas usem a ferramenta de redefinição de senha [self-service](https://go.microsoft.com/fwlink/p/?LinkId=522677) para que você não tenha que redefinir senhas para elas. Menos trabalho para você!
   
 ## <a name="before-you-begin"></a>Antes de começar
   

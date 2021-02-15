@@ -30,7 +30,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49925881"
 ---
-# <a name="stop-email-auto-forward"></a>Parar o encaminhamento automático de email
+# <a name="stop-email-auto-forward"></a>Parar o encaminhamento automático de emails
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2W6kS?autoplay=false]
 

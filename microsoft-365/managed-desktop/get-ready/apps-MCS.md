@@ -18,7 +18,7 @@ ms.locfileid: "49841418"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Trabalhar com Serviços de consultoria da Microsoft
 
-Você pode se envolver com o Microsoft Consulting Services (MCS) para obter seus aplicativos empacotados para uso com a Área de Trabalho Gerenciada da Microsoft. Para obter detalhes exatos, trabalhe com seu representante de conta para entrar em contato com MCS e escopo do seu projeto de empacotamento de aplicativo específico.
+Você pode se envolver com os Serviços de Consultoria da Microsoft (MCS) para obter seus aplicativos empacotados para uso com a Área de Trabalho Gerenciada da Microsoft. Para obter detalhes exatos, trabalhe com seu representante de conta para entrar em contato com MCS e escopo do seu projeto de empacotamento de aplicativo específico.
 
 ## <a name="roles-and-responsibilities"></a>Funções e responsabilidades
 
@@ -36,7 +36,7 @@ Para trabalhar com o empacotamento de aplicativos MCS, **você deve fornecer est
 
 ## <a name="app-delivery-schedule"></a>Cronograma de entrega do aplicativo
 
-Inicie o processo de empacotamento carregando as informações do aplicativo para o portal da Área de Trabalho Gerenciada da Microsoft. A equipe de empacotamento revisa novos envios toda quinta-feira. Após a revisão e o empacotamento, os aplicativos empacotados serão entregues na sexta-feira seguinte. Até cinco aplicativos por semana podem ser empacotados para iniciar, mas o serviço pode ser dimensionado para atender às suas necessidades.
+Inicie o processo de empacotamento carregando as informações do aplicativo no portal da Área de Trabalho Gerenciada da Microsoft. A equipe de empacotamento revisa novos envios toda quinta-feira. Após a revisão e o empacotamento, os aplicativos empacotados serão entregues na sexta-feira seguinte. Até cinco aplicativos por semana podem ser empacotados para iniciar, mas o serviço pode ser dimensionado para atender às suas necessidades.
 
 ![calendário mostrando o fluxo de aplicativo em uma quinta-feira (dia 21 neste exemplo), validação de mídia no dia seguinte, empacotamento na segunda-feira seguinte (dia 25) e entrega de aplicativo na sexta-feira subsequente (dia 29)](../../media/MCS-cal.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Apagar um dispositivo móvel no Basic Mobility and Security
+title: Apagar um dispositivo móvel em Mobilidade e Segurança Básica
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -17,7 +17,7 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Use o Basic Mobility and Security integrado para remover informações de dispositivos inscritos.
+description: Use a Mobilidade Básica e a Segurança interna para remover informações de dispositivos inscritos.
 ms.openlocfilehash: 3bb9bfe55653b021ce5a86dd5d3dbc3de45ed19a
 ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/15/2021
 ms.locfileid: "49876823"
 ---
-# <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Apagar um dispositivo móvel no Basic Mobility and Security
+# <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Apagar um dispositivo móvel em Mobilidade e Segurança Básica
 
 Você pode usar o Basic Mobility and Security integrado para o Microsoft 365 para remover apenas informações organizacionais ou para executar uma redefinição de fábrica para excluir todas as informações de um dispositivo móvel e restaurá-la para as configurações de fábrica.
 

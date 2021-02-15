@@ -49,7 +49,7 @@ Quando você estiver pronto para executar o assistente de configuração e mover
 
 ## <a name="what-happens-when-you-run-the-microsoft-365-setup-wizard"></a>O que acontece quando você executar o assistente de configuração do Microsoft 365
 
-O assistente de configuração orienta você durante a instalação dos aplicativos do Microsoft 365 em seu computador, adicionando e verificando seu domínio, adicionando usuários e atribuindo licenças a eles e conectando seu domínio.
+O assistente de configuração o orienta durante a instalação dos aplicativos do Microsoft 365 em seu computador, adicionando e verificando seu domínio, adicionando usuários e atribuindo licenças a eles e conectando seu domínio.
 
 > [!NOTE]
 > Se você precisar atribuir funções de administrador no [Microsoft 365 para](../add-users/assign-admin-roles.md) empresas aos usuários que adicionar no assistente, poderá fazer isso mais tarde na **página Usuários.** 
@@ -123,7 +123,7 @@ O Microsoft 365 fornece armazenamento na nuvem para indivíduos, pequenas organi
   
 ## <a name="plan-for-teams"></a>Planejar o Teams
 
-Você pode usar o Microsoft Teams para fazer chamadas para outras pessoas em sua organização que estão em sua assinatura. Por exemplo, se a sua organização tiver 10 pessoas, você poderá ligar uma para a outra usando o Teams sem nenhuma configuração especial. Para saber mais, confira [Começar a trabalhar com o Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start)
+Você pode usar o Microsoft Teams para fazer chamadas para outras pessoas em sua organização que estão em sua assinatura. Por exemplo, se sua organização tiver 10 pessoas, você poderá ligar e IM umas para as outras usando o Teams sem nenhuma configuração especial. Para saber mais, confira [Começar a trabalhar com o Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start)
 
 Para organizações maiores ou se você estiver começando a partir do Skype for Business, implantações locais ou híbridas, confira Como fazer a implantação [do Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams)
   

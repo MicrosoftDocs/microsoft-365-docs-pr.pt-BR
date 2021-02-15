@@ -35,7 +35,7 @@ Para otimizar o acesso à rede para seu locatário, você precisa:
 
 ## <a name="enterprise-on-premises-workers"></a>Funcionários locais corporativos
 
-Para redes corporativas, você deve otimizar a experiência do usuário final habilitando o acesso de rede de melhor desempenho entre clientes e os pontos de extremidade mais próximos do Microsoft 365. A qualidade da experiência do usuário final está diretamente relacionada ao desempenho e à capacidade de resposta do aplicativo que o usuário está usando. Por exemplo, o Microsoft Teams depende de baixa latência para que as chamadas telefônicas, conferências e colaborações de tela compartilhadas do usuário não sejam falhas.
+Para redes corporativas, você deve otimizar a experiência do usuário final habilitando o acesso de rede de melhor desempenho entre clientes e os pontos de extremidade mais próximos do Microsoft 365. A qualidade da experiência do usuário final está diretamente relacionada ao desempenho e à capacidade de resposta do aplicativo que o usuário está usando. Por exemplo, o Microsoft Teams depende de baixa latência para que as chamadas telefônicas, conferências e colaborações de tela compartilhada do usuário não sejam falhas.
 
 O principal objetivo no design de rede deve ser minimizar a latência reduzindo o tempo de ida e volta (RTT) dos dispositivos cliente para a Rede Global da Microsoft, o backbone de rede pública da Microsoft que interconecta todos os datacenters da Microsoft com baixa latência, pontos de entrada de aplicativos em nuvem de alta disponibilidade, conhecidos como portas frontal, espalhados pelo mundo.
 
@@ -94,7 +94,7 @@ Para obter mais informações e orientações, confira [Otimizar a conectividade
 
 ## <a name="using-network-insights-preview"></a>Usando o Network Insights (visualização)
 
-As informações de rede são métricas de desempenho coletadas do locatário do Microsoft 365 que ajudam você a projetar perímetros de rede para seus locais de escritório. Cada insight fornece detalhes ao vivo sobre as características de desempenho de um problema específico para cada local geográfico onde os usuários locais estão acessando seu locatário.
+As informações de rede são métricas de desempenho coletadas do locatário do Microsoft 365 que ajudam você a projetar perímetros de rede para seus locais de escritório. Cada visão fornece detalhes ao vivo sobre as características de desempenho de um problema específico para cada local geográfico onde os usuários locais estão acessando seu locatário.
 
 Há duas percepções de rede no nível do locatário que podem ser mostradas para o locatário:
 
@@ -131,7 +131,7 @@ Para saber mais, confira [Usar a CDN do Office 365 com o SharePoint Online.](../
 
 Para que seus clientes locais, dispositivos de borda e serviços de análise de pacotes baseados em nuvem ignorem o processamento de tráfego confiável do Microsoft 365, você deve configurá-los com o conjunto de pontos de extremidade (intervalos de endereços IP e nomes DNS) correspondentes aos serviços do Microsoft 365. Esses pontos de extremidade podem ser configurados manualmente em firewalls e outros dispositivos de segurança de borda, arquivos PAC para computadores cliente para ignorar proxies ou dispositivos SD-WAN em filiais. No entanto, os pontos de extremidade mudam ao longo do tempo, exigindo manutenção manual contínua das listas de pontos de extremidade nesses locais.
 
-Para automatizar a listagem e o gerenciamento de alterações para pontos de extremidade do Microsoft 365 em seus arquivos PAC e dispositivos de rede do cliente, use o endereço IP do [Office 365](../enterprise/microsoft-365-ip-web-service.md)e o serviço Web baseado em REST de URL. Esse serviço ajuda a identificar e diferenciar melhor o tráfego de rede do Microsoft 365, facilitando a avaliação, a configuração e a se manter atualizado com as alterações mais recentes.
+Para automatizar a listagem e o gerenciamento de alterações para os pontos de extremidade do Microsoft 365 em seus arquivos PAC do cliente e dispositivos de rede, use o endereço IP do [Office 365](../enterprise/microsoft-365-ip-web-service.md)e o serviço Web baseado em REST de URL. Esse serviço ajuda a identificar e diferenciar melhor o tráfego de rede do Microsoft 365, facilitando a avaliação, a configuração e a se manter atualizado com as alterações mais recentes.
 
 Você pode usar o PowerShell, Python ou outras linguagens para determinar as alterações nos pontos de extremidade ao longo do tempo e configurar seus arquivos PAC e dispositivos de rede de borda.
 
@@ -169,7 +169,7 @@ Nesta ilustração, o locatário dessa organização corporativa tem:
 
 Em uma base contínua, talvez seja necessário:
 
-- Atualize seus dispositivos de borda e os arquivos PAC implantados para alterações nos pontos de extremidade ou verifique se o processo automatizado funciona corretamente.
+- Atualize seus dispositivos de borda e implantou arquivos PAC para alterações nos pontos de extremidade ou verifique se o processo automatizado funciona corretamente.
 - Gerencie seus ativos na CDN do Office 365.
 - Atualize a configuração de túnel dividido em seus clientes VPN para alterações nos pontos de extremidade.
 

@@ -24,9 +24,9 @@ A Área de Trabalho Gerenciada da Microsoft usa várias tecnologias da Microsoft
 Especificamente: 
 
 - [Segurança do dispositivo](#device-security) – segurança e proteção em dispositivos da Área de Trabalho Gerenciada da Microsoft
-- [Gerenciamento de Identidades e Acesso](#identity-and-access-management) – gerenciando o uso seguro de dispositivos por meio dos serviços de identidade do Azure Active Directory
+- [Gerenciamento de identidades e acesso](#identity-and-access-management) – gerenciando o uso seguro de dispositivos por meio dos serviços de identidade do Azure Active Directory
 - [Segurança de rede](#network-security) – informações de VPN e solução e configurações recomendadas da Área de Trabalho Gerenciada da Microsoft
-- [Segurança de informações](#information-security) – serviços opcionais disponíveis para proteger ainda mais as informações confidenciais 
+- [Segurança da informação](#information-security) – serviços opcionais disponíveis para proteger ainda mais as informações confidenciais 
 
 Para obter informações sobre as práticas de armazenamento, uso e segurança de dados usadas pela Área de Trabalho Gerenciada da Microsoft, consulte nosso whitepaper em [https://aka.ms/mmd-data](https://aka.ms/mmd-data) .
 
