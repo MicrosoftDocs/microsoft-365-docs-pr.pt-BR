@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 83e56fb079bdd2104c84de0e6d3efa519e138108
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -24,14 +24,14 @@ ms.locfileid: "48637458"
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pague no CNY e faça referência ao nome da empresa e ao número de faturas na remessa de pagamento.
+Please pay in CNY and reference your company name and invoice number(s) on the payment remittance.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank  
-**Ramificação:** Hong Kong  
-**Código Swift:** CITIHKHX  
+**Bank:** Citibank  
+**Branch:** Hong Kong  
+**Código SWIFT:** CITIHKHX  
 **Código CNAP:** 989584000600   
 **Número da conta:** 1199527009  
 **Nome da conta:** MICROSOFT REGIONAL SALES CORP  
-**Comentário: pague pelo RMB RTGS no Hong Kong.**  
+**Comentário: Pagar pelo canal RMB RTGS em HK.**  

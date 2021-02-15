@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639198"
 ---
-# <a name="contact-support-for-timor-leste"></a>Contatar o suporte para Timor-Leste
+# <a name="contact-support-for-timor-leste"></a>Contate o suporte para Timor-Leste
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5155
++1 312 843 5155
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Português: Mon-Fri 9 PM-5 AM
+Português: Mon-Fri das 21:00 às 17:00
 
-Inglês: Mon-Fri 9 PM-5 AM
+Inglês: Mon-Fri das 21:00 às 17:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Português: 24 horas por dia, entre seg e meio-dia
+Português: 24 horas por dia, entre o meio-dia de seg e o meio-dia de sáb.
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

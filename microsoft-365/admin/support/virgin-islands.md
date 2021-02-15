@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Ilhas Virgens, EUA
+title: Informações de suporte para Ilhas Virgens dos EUA
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48638682"
 ---
-# <a name="contact-support-for-virgin-islands-us"></a>Entre em contato com o suporte para Ilhas Virgens, nós
+# <a name="contact-support-for-virgin-islands-us"></a>Contatar o suporte para Ilhas Virgens dos EUA
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,7 +30,7 @@ ms.locfileid: "48638682"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

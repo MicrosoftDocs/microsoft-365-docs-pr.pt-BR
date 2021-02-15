@@ -90,7 +90,7 @@ Este conjunto de pontos de extremidade com um escopo apertado pode ser dividido 
 
 Elementos de segurança como DLP, proteção antivírus, autenticação e controle de acesso podem ser entregues de forma muito mais eficiente em relação a esses pontos de extremidades em diferentes camadas dentro do serviço. Como também desviamos a maior parte do volume de tráfego da solução VPN, isto libera a capacidade do VPN para o tráfego crítico do negócio que ainda depende dele. Isso também deve eliminar a necessidade, em muitos casos, de passar por um longo e dispendioso programa de atualização para lidar com essa nova maneira de operar.
 
-![Detalhes da configuração de VPN de túnel dividido](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
+![Detalhes de configuração de VPN de túnel dividido](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
 
 _Figura 3: uma solução VPN de túnel dividido com exceções definidas do Office 365, enviada diretamente para o serviço. Todo o restante tráfego é forçado a voltar para a rede corporativa, independentemente do destino._
 

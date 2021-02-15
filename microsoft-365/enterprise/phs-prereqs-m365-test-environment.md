@@ -24,9 +24,9 @@ ms.locfileid: "48399438"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Pré-requisitos de acesso a identidades e dispositivos para sincronização de hash de senha no seu ambiente de teste do Microsoft 365
 
-*Este guia de laboratório de teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
+*Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
 
-[As configurações de acesso de dispositivo e identidade](../security/office-365-security/microsoft-365-policies-configurations.md) são um conjunto de configurações e políticas de acesso condicional para proteger o acesso a todos os serviços no Microsoft 365 for Enterprise integrados ao Azure Active Directory (Azure AD).
+As configurações de acesso a identidades e dispositivos são um conjunto de configurações e políticas de acesso condicional para proteger o acesso a todos os serviços do Microsoft 365 para empresas [integrados](../security/office-365-security/microsoft-365-policies-configurations.md) ao Azure Active Directory (Azure AD).
 
 Este artigo descreve como configurar um ambiente de teste do Microsoft 365 que atenda aos requisitos do [Active Directory com a configuração de pré-requisito de sincronização de hash de senha](../security/office-365-security/identity-access-prerequisites.md#prerequisites) para acesso a identidades e dispositivos.
 
@@ -120,10 +120,10 @@ Use [Políticas comuns de acesso a identidades e dispositivos](identity-access-p
 
 [Guias adicionais de laboratório de teste de identidade](m365-enterprise-test-lab-guides.md#identity)
 
-[Roteiro de identidade](identity-roadmap-microsoft-365.md)
+[Mapa de identidade](identity-roadmap-microsoft-365.md)
 
 [Guias do Laboratório de Teste do Microsoft 365 para empresas](m365-enterprise-test-lab-guides.md)
 
 [Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
-[Documentação da Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentação do Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/)

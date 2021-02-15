@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Ucrânia
+title: Informações de suporte para Ucrânia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -30,12 +30,12 @@ ms.locfileid: "48638922"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Russo: Mon-Fri 10 de AM-7 PM Moscou
+Russo: Mon-Fri das 10:00 às 19h
 
-Inglês: Mon-Fri 9 AM-5 P.M. Londres
+Inglês: Mon-Fri das 9h às 17h de Londres
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Russo: Mon-Fri 7 de manhã-8 P.M. Moscou
+Russo: Mon-Fri das 7h às 20h00, Brasil
 
 Inglês: 24 horas por dia, 7 dias por semana

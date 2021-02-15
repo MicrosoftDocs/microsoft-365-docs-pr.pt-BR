@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639558"
 ---
-# <a name="contact-support-for-spain"></a>Contatar o suporte para a Espanha
+# <a name="contact-support-for-spain"></a>Contatar o suporte da Espanha
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,16 +30,16 @@ ms.locfileid: "48639558"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Espanhol: Mon-Fri 9 AM-5 PM
+Espanhol: Mon-Fri das 9h às 17h
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Espanhol: Mon-Fri 8 P.M.
+Espanhol: Mon-Fri das 8h às 21h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 912 718 160
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

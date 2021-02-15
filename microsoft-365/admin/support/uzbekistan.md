@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Uzbequistão
+title: Informações de suporte do Uzbequistão
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,28 +20,28 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48638838"
 ---
-# <a name="contact-support-for-uzbekistan"></a>Contatar o suporte para o Uzbequistão
+# <a name="contact-support-for-uzbekistan"></a>Contatar o suporte do Uzbequistão
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 8 641 744 0010
++8 641 744 0010
 
-Após discar, digite
+Depois de discar, insira
 
 877 867 5369
 
 ## <a name="hours"></a>Horas
-### <a name="billing-support"></a>Suporte para cobrança
+### <a name="billing-support"></a>Suporte à cobrança
 
-Russo: Mon-Fri 10 de AM-7 PM Moscou
+Russo: Mon-Fri 10:00 às 19h00, Brasil
 
-Inglês: Mon-Fri 9 AM-5 P.M. Londres
+Inglês: Mon-Fri das 9h às 17h de Londres
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Russo: Mon-Fri 7 de manhã-8 P.M. Moscou
+Russo: Mon-Fri das 7h às 20h00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

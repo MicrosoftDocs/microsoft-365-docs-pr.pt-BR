@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Somália
+title: Informações de suporte para a Etiópia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,30 +20,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639606"
 ---
-# <a name="contact-support-for-somalia"></a>Contatar o suporte para Somália
+# <a name="contact-support-for-somalia"></a>Contatar o suporte para a Etiópia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 974 44 119418
++974 44 119418
 
 Selecione a opção 2
 
 Selecione a opção 9
 
-Insira o código 7700
+Digite o código 7700
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: Sun-Thu 10 AM-6 PM
+Árabe: Sun-Thu das 10:00 às 18:00
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: Sun-Thu 10 AM-6 PM
+Árabe: Sun-Thu das 10:00 às 18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

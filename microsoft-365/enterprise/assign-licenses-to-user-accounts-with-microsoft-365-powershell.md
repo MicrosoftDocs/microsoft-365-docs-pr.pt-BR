@@ -30,25 +30,25 @@ ms.locfileid: "48580935"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>Atribuir licenças do Microsoft 365 a contas de usuário com o PowerShell
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Os usuários não podem usar serviços do Microsoft 365 até que a conta tenha sido atribuída a uma licença de um plano de licenciamento. Você pode usar o PowerShell para atribuir licenças rapidamente às contas não licenciadas. 
+Os usuários não podem usar nenhum serviço do Microsoft 365 até que sua conta tenha sido atribuída a uma licença de um plano de licenciamento. Você pode usar o PowerShell para atribuir rapidamente licenças a contas não licenciadas. 
 
-É necessário atribuir um local às contas de usuário primeiro. A especificação de um local é uma parte obrigatória da criação de uma nova conta de usuário no [centro de administração do Microsoft 365](../admin/add-users/add-users.md). 
+As contas de usuário devem primeiro ser atribuídas a um local. Especificar um local é uma parte necessária da criação de uma nova conta de usuário no centro [de administração do Microsoft 365.](../admin/add-users/add-users.md) 
 
-As contas sincronizadas de seus serviços de domínio do Active Directory local não possuem um local especificado. Você pode configurar um local para estas contas de:
+As contas sincronizadas de seus Serviços de Domínio Active Directory locais não têm um local especificado por padrão. Você pode configurar um local para essas contas a partir de:
 
 - O Centro de administração do Microsoft 365
  - [PowerShell](configure-user-account-properties-with-microsoft-365-powershell.md)
- - O [portal do Azure](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (usuários do**Active Directory**  >  **Users** > conta de usuário > **Profile**  >  **informações**  >  **de contato de perfil país ou região**).
+ - O [portal do Azure](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) (**Usuários do Active Directory >** conta de usuário > informações de Contato do Perfil  >   do País   >    >  **ou região).**
 
 >[!Note]
->[Saiba como atribuir licenças a contas de usuário](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) com o centro de administração do Microsoft 365. Para obter uma lista de recursos adicionais, consulte [Manage Users and Groups](https://docs.microsoft.com/microsoft-365/admin/add-users/).
+>[Saiba como atribuir licenças a contas de usuário](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) com o Centro de administração do Microsoft 365. Para obter uma lista de recursos adicionais, consulte [Gerenciar usuários e grupos.](https://docs.microsoft.com/microsoft-365/admin/add-users/)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
 
-Primeiro, [Conecte-se ao seu locatário do Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 
 Em seguida, liste os planos de licença para seu locatário com este comando.
@@ -57,7 +57,7 @@ Em seguida, liste os planos de licença para seu locatário com este comando.
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-Em seguida, obtenha o nome de entrada da conta para a qual você deseja adicionar uma licença, também conhecido como o nome de usuário principal (UPN).
+Em seguida, obter o nome de logon da conta à qual você deseja adicionar uma licença, também conhecida como nome UPN.
 
 Em seguida, verifique se a conta de usuário tem um local de uso atribuído.
 
@@ -65,7 +65,7 @@ Em seguida, verifique se a conta de usuário tem um local de uso atribuído.
 Get-AzureADUser -ObjectID <user sign-in name (UPN)> | Select DisplayName, UsageLocation
 ```
 
-Se não houver nenhum local de uso atribuído, você poderá atribuir um com estes comandos:
+Se não houver um local de uso atribuído, você poderá atribuir um com estes comandos:
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -73,7 +73,7 @@ $userLoc="<ISO 3166-1 alpha-2 country code>"
 Set-AzureADUser -ObjectID $userUPN -UsageLocation $userLoc
 ```
 
-Por fim, especifique o nome de entrada do usuário e o nome do plano de licença e execute esses comandos.
+Por fim, especifique o nome do usuário e o nome do plano de licença e execute estes comandos.
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -87,29 +87,29 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Use o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
-Primeiro, [Conecte-se ao seu locatário do Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-Execute o `Get-MsolAccountSku` comando para exibir os planos de licenciamento disponíveis e o número de licenças disponíveis em cada plano da sua organização. O número de licenças disponíveis em cada plano é **ActiveUnits**  -  **WarningUnits**  -  **ConsumedUnits**. Para obter mais informações sobre planos de licenciamento, licenças e serviços, consulte [Exibir licenças e serviços com o PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md).
+Execute o comando para exibir os planos de licenciamento disponíveis e o número de licenças disponíveis `Get-MsolAccountSku` em cada plano em sua organização. O número de licenças disponíveis em cada plano é **ActiveUnits**  -  **WarningUnits**  -  **ConsumedUnits**. Para obter mais informações sobre planos de licenciamento, licenças e serviços, consulte [Exibir licenças e serviços com o PowerShell.](view-licenses-and-services-with-microsoft-365-powershell.md)
 
 >[!Note]
 >O PowerShell Core não é compatível com o módulo do Microsoft Azure Active Directory para módulo e cmdlets do Windows PowerShell com **MSol** no nome. Para continuar usando esses cmdlets, você deve executá-los a partir do Windows PowerShell.
 >
 
-Para localizar as contas não licenciadas em sua organização, execute este comando.
+Para encontrar as contas não licençadas em sua organização, execute este comando.
 
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly
 ```
 
-Você só pode atribuir licenças a contas de usuário que tenham a propriedade **UsageLocation** definida para um código de país 3166-1 do país de 2 Alpha válido. Por exemplo, US para os Estados Unidos e FR para a França. Alguns serviços do Microsoft 365 não estão disponíveis em determinados países. Para obter mais informações, consulte [about License Restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).
+Você só pode atribuir licenças a contas de usuário que tenham a propriedade **UsageLocation** definida como um código de país ISO 3166-1 alpha-2 válido. Por exemplo, US para os Estados Unidos e FR para a França. Alguns serviços do Microsoft 365 não estão disponíveis em determinados países. Para obter mais informações, consulte [Sobre restrições de licença.](https://go.microsoft.com/fwlink/p/?LinkId=691730)
     
-Para localizar contas que não tenham um valor **UsageLocation** , execute este comando.
+Para encontrar contas que não tenham um valor **UsageLocation,** execute este comando.
 
 ```powershell
 Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 ```
 
-Para definir o valor **UsageLocation** em uma conta, execute este comando.
+Para definir o **valor UsageLocation** em uma conta, execute este comando.
 
 ```powershell
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
@@ -123,7 +123,7 @@ Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US
     
 Se você usar o cmdlet **Get-MsolUser** sem usar o parâmetro **-All**, somente as primeiras 500 contas serão retornadas.
 
-### <a name="assigning-licenses-to-user-accounts"></a>Atribuir licenças a contas de usuário
+### <a name="assigning-licenses-to-user-accounts"></a>Atribuindo licenças a contas de usuário
     
 Para atribuir uma licença a um usuário, use o seguinte comando no PowerShell.
   
@@ -131,13 +131,13 @@ Para atribuir uma licença a um usuário, use o seguinte comando no PowerShell.
 Set-MsolUserLicense -UserPrincipalName "<Account>" -AddLicenses "<AccountSkuId>"
 ```
 
-Este exemplo atribui uma licença do plano de licenciamento do **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) ao usuário não licenciado **Pomaria \@ litwareinc.com**:
+Este exemplo atribui uma licença do plano de licenciamento **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) ao usuário não licenciado **litwareinc.com: \@**
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
-Para atribuir uma licença a todos os usuários não licenciados, execute este comando.
+Para atribuir uma licença a todos os usuários não licençados, execute este comando.
   
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLicense -AddLicenses "<AccountSkuId>"
@@ -147,25 +147,25 @@ Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLi
 >Você não pode atribuir várias licenças a um usuário do mesmo plano de licenciamento. Se você não tiver licenças o suficiente disponíveis, as licenças serão atribuídas aos usuários na ordem em que eles forem retornados pelo cmdlet **Get-MsolUser** até que as licenças disponíveis esgotem.
 >
 
-Este exemplo atribui licenças do plano de licenciamento do **litwareinc: ENTERPRISEPACK** (Office 365 Enterprise E3) a todos os usuários não licenciados:
+Este exemplo atribui licenças do plano de **licenciamento litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) a todos os usuários não licenciados:
   
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
-Este exemplo atribui as mesmas licenças a usuários não licenciados no departamento de vendas nos Estados Unidos:
+Este exemplo atribui essas mesmas licenças a usuários não licenças no departamento de vendas nos Estados Unidos:
   
 ```powershell
 Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
   
-## <a name="move-a-user-to-a-different-subscription-license-plan-with-the-azure-active-directory-powershell-for-graph-module"></a>Mover um usuário para uma assinatura diferente (plano de licença) com o módulo PowerShell do Azure Active Directory para Graph
+## <a name="move-a-user-to-a-different-subscription-license-plan-with-the-azure-active-directory-powershell-for-graph-module"></a>Mover um usuário para uma assinatura diferente (plano de licença) com o Azure Active Directory PowerShell para módulo do Graph
 
-Primeiro, [Conecte-se ao seu locatário do Microsoft 365](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Primeiro, [conecte-se ao locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
-Em seguida, obtenha o nome de entrada da conta de usuário para a qual você deseja assinaturas de troca, também conhecido como nome de usuário principal (UPN).
+Em seguida, obter o nome de logon da conta de usuário para a qual você deseja mudar de assinatura, também conhecido como nome UPN.
 
-Em seguida, liste as assinaturas (planos de licença) para o seu locatário com este comando.
+Em seguida, liste as assinaturas (planos de licença) para seu locatário com este comando.
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
@@ -180,9 +180,9 @@ $userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty Assigned
 $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq $_.ObjectId.substring($_.ObjectId.length - 36, 36) ) { Write-Host $_.SkuPartNumber } } }
 ```
 
-Identifique a assinatura que o usuário tem atualmente (a assinatura de) e a assinatura à qual o usuário está se movendo (a assinatura para).
+Identifique a assinatura que o usuário tem atualmente (a assinatura FROM) e a assinatura para a qual o usuário está movendo (a assinatura TO).
 
-Por fim, especifique os nomes de assinatura para e de (números de peça SKU) e execute esses comandos.
+Por fim, especifique os nomes de assinatura TO e FROM (números de parte SKU) e execute estes comandos.
 
 ```powershell
 $subscriptionFrom="<SKU part number of the current subscription>"
@@ -203,7 +203,7 @@ $licenses.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
 ```
 
-Você pode verificar a alteração na assinatura da conta de usuário com esses comandos.
+Você pode verificar a alteração na assinatura da conta de usuário com estes comandos.
 
 ```powershell
 $licensePlanList = Get-AzureADSubscribedSku

@@ -25,25 +25,25 @@ ms.locfileid: "48638634"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 974 44 119418
++974 44 119418
 
 Selecione a opção 2
 
 Selecione a opção 9
 
-Insira o código 7700
+Digite o código 7700
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: Sun-Thu 10 AM-6 PM
+Árabe: Sun-Thu das 10:00 às 18:00
 
-Inglês: Mon-Fri 10 PM
+Inglês: Mon-Fri das 10:00 às 18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: Sun-Thu 10 AM-6 PM
+Árabe: Sun-Thu das 10:00 às 18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

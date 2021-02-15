@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Ilhas Wallis e Futuna
+title: Informações de suporte para Wallis e Futuna
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48638658"
 ---
-# <a name="contact-support-for-wallis-and-futuna"></a>Contatar o suporte para Ilhas Wallis e Futuna
+# <a name="contact-support-for-wallis-and-futuna"></a>Contatar o suporte para Wallis e Futuna
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Sun-Fri 8 PM-4 AM
+Francês: Sun-Fri das 20:00 às 16:00
 
-Inglês: Sun-Fri 8 PM-4 AM
+Inglês: Sun-Fri das 20:00 às 16:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 7 PM-8 AM
+Francês: Mon-Fri das 19:00 às 8:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

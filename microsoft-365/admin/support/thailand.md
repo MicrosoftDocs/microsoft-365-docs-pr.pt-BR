@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Tailândia
+title: Informações de suporte para Tailândia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639174"
 ---
-# <a name="contact-support-for-thailand"></a>Contatar o suporte para a Tailândia
+# <a name="contact-support-for-thailand"></a>Contatar o suporte da Tailândia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,12 +30,12 @@ ms.locfileid: "48639174"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Tailandês: Mon-Fri 9 AM-5 PM
+Tailandês: Mon-Fri das 9h às 17h
 
-Inglês: Mon-Fri 9 AM-6 PM
+Inglês: Mon-Fri das 9h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Tailandês: Mon-Fri 9 AM-5 PM
+Tailandês: Mon-Fri das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana

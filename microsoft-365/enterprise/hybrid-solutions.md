@@ -33,7 +33,7 @@ Para a infraestrutura de identidade do Microsoft 365 no Azure:
 
 - [Usar o Azure AD para a autenticação do SharePoint Server](using-azure-ad-for-sharepoint-server-authentication.md)
 
-- [Implantar a sincronização de diretórios do Microsoft 365 no Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+- [Implantar a Sincronização de Diretórios do Microsoft 365 no Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
 - [Conectar uma rede local a uma rede virtual do Microsoft Azure](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
     
@@ -50,7 +50,7 @@ Para cargas de trabalho do SharePoint Server 2013 no Azure:
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Centro de soluções e arquitetura da Microsoft 365](../solutions/solution-architecture-center.md)
+[Centro de soluções e arquitetura do Microsoft 365](../solutions/solution-architecture-center.md)
   
 [Microsoft cloud para ilustrações de arquitetos de empresas](../solutions/cloud-architecture-models.md)
   

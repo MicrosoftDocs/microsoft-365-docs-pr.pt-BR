@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639078"
 ---
-# <a name="contact-support-for-turkey"></a>Contatar o suporte para Turquia
+# <a name="contact-support-for-turkey"></a>Contatar o suporte da Turquia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,12 +30,12 @@ ms.locfileid: "48639078"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Turco: Mon-Fri 9 AM-6 PM
+Turco: Mon-Fri das 9h às 18h
 
-Inglês: Mon-Fri 9 AM-6 PM
+Inglês: Mon-Fri das 9h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Turco: Mon-Fri 8 AM-6 PM
+Turco: das Mon-Fri 8:00 às 18:00
 
 Inglês: 24 horas por dia, 7 dias por semana

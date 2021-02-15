@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639095"
 ---
-# <a name="contact-support-for-tunisia"></a>Contatar o suporte para a Tunísia
+# <a name="contact-support-for-tunisia"></a>Contatar o suporte da Tunísia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -31,23 +31,23 @@ Selecione a opção 1
 
 Selecione a opção 9
 
-Insira o código 7703
+Digite o código 7703
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: Sun-Thu 9 AM-5 P.M.
+Árabe: Sun-Thu das 9h às 17h
 
-Francês: Mon-Fri 9 PM
+Francês: Mon-Fri das 9h às 17h
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: Sun-Thu 9 AM-5 P.M.
+Árabe: Sun-Thu das 9h às 17h
 
-Francês: Mon-Fri 8 P.M.
+Francês: Mon-Fri das 8:00 às 21:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

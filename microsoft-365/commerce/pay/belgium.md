@@ -11,7 +11,7 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba onde enviar o pagamento da sua assinatura.
+description: Saiba para onde enviar o pagamento da sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 243f0ca61ece53f8029944e6ab8e9d88d96eb99c
 ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
@@ -24,13 +24,13 @@ ms.locfileid: "48637746"
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md). 
 
-Pague apenas EUR e faça referência ao (s) número (s) de fatura em sua remessa de fatura.
+Paga apenas em EUR e faça referência aos números da fatura na remessa da fatura.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Banco:** Citibank, Londres  
+**Bank:** Citibank, Londres  
 **Código Swift:** CITIGB2L  
-**Código de classificação:** 185008  
+**Código SORT:** 185008  
 **IBAN:** GB31CITI18500812207591  
 **Número da conta:** 12207591  
-**Número da conta:** O  
+**Número de contagem:** MICROSOFT  

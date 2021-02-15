@@ -33,46 +33,46 @@ ms.locfileid: "48445402"
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-As brechas de segurança de uma assinatura do Microsoft 365, incluindo a coleta de informações e os ataques de phishing, são normalmente realizadas comprometendo as credenciais de uma conta de administrador global do Microsoft 365. A segurança na nuvem é uma parceria entre você e a Microsoft:
+As violações de segurança de uma assinatura do Microsoft 365, incluindo a coleta de informações e os ataques de phishing, geralmente são feitas comprometendo as credenciais de uma conta de administrador global do Microsoft 365. A segurança na nuvem é uma parceria entre você e a Microsoft:
   
-- Os serviços de nuvem da Microsoft são criados em uma base de confiança e segurança. A Microsoft fornece recursos e controles de segurança para ajudá-lo a proteger seus dados e aplicativos.
+- Os serviços de nuvem da Microsoft são construídos em uma base de confiança e segurança. A Microsoft fornece controles e recursos de segurança para ajudá-lo a proteger seus dados e aplicativos.
     
-- Você tem seus próprios dados e identidades e a responsabilidade de protegê-los, a segurança de seus recursos locais e a segurança dos componentes de nuvem que você controla.
+- Você possui seus dados e identidades e a responsabilidade de protegê-los, a segurança de seus recursos locais e a segurança dos componentes de nuvem que você controla.
     
-A Microsoft fornece recursos para ajudar a proteger sua organização, mas elas só serão eficazes se você usá-las. Se você não usá-los, pode estar vulnerável a ataques. Para proteger suas contas de administrador global, a Microsoft está aqui para ajudá-lo com instruções detalhadas para:
+A Microsoft fornece recursos para ajudar a proteger sua organização, mas eles só serão eficazes se você usá-los. Se você não usá-los, poderá estar vulnerável a ataques. Para proteger suas contas de administrador global, a Microsoft está aqui para ajudá-lo com instruções detalhadas para:
   
-1. Crie contas de administrador global do Microsoft 365 dedicada e use-as somente quando necessário.
+1. Crie contas dedicadas de administrador global do Microsoft 365 e use-as somente quando necessário.
     
-2. Configure a autenticação multifator para suas contas de administrador global do Microsoft 365 dedicada e use a forma mais segura de autenticação secundária.
+2. Configure a autenticação multifato para suas contas dedicadas de administrador global do Microsoft 365 e use a forma mais forte de autenticação secundária.
     
 > [!Note]
-> Embora este artigo se concentre nas contas de administrador global, você deve considerar se as contas adicionais com permissões amplas para acessar os dados em sua assinatura, como administrador de descoberta eletrônica ou contas de administrador de segurança ou conformidade, devem ser protegidas da mesma maneira. <br > Uma conta de administrador global pode ser criada sem adicionar nenhuma licença.
+> Embora este artigo se concentre em contas de administradores globais, você deve considerar se contas adicionais com permissões abrangentes para acessar os dados em sua assinatura, como contas de administrador de descoberta e segurança ou conformidade, devem ser protegidas da mesma maneira. <br > Uma conta de administrador global pode ser criada sem adicionar nenhuma licença.
   
-## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>Etapa 1. Criar contas de administrador global do Microsoft 365 dedicada e usá-las somente quando necessário
+## <a name="step-1-create-dedicated-microsoft-365-global-administrator-accounts-and-use-them-only-when-necessary"></a>Etapa 1. Criar contas dedicadas de administrador global do Microsoft 365 e usá-las somente quando necessário
 
-Há relativamente poucas tarefas administrativas, como a atribuição de funções a contas de usuário, que exigem privilégios de administrador global. Portanto, em vez de usar contas de usuário diárias às quais a função de administrador global tenha sido atribuída, siga estas etapas:
+Há relativamente poucas tarefas administrativas, como a atribuição de funções a contas de usuário, que exigem privilégios de administrador global. Portanto, em vez de usar contas de usuário diárias que tenham sido atribuídas à função de administrador global, faça estas etapas:
   
-1. Determine o conjunto de contas de usuário que foram atribuídas à função de administrador global. Você pode fazer isso no centro de administração do Microsoft 365 ou no seguinte comando do PowerShell Active Directory (Azure AD) do Azure para Graph:
+1. Determine o conjunto de contas de usuário que foram atribuídas à função de administrador global. Você pode fazer isso no centro de administração do Microsoft 365 ou com o seguinte comando do PowerShell do Diretório do Azure Active (Azure AD) para Graph:
   
   ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 
-2. Entre em sua assinatura do Microsoft 365 com uma conta de usuário que tenha sido atribuída à função de administrador global.
+2. Entre em sua assinatura do Microsoft 365 com uma conta de usuário que recebeu a função de administrador global.
     
-3. Crie até um máximo de quatro contas de usuário de administrador global dedicadas. **Use senhas fortes pelo menos 12 caracteres.** Consulte [criar uma senha forte](https://support.microsoft.com/help/4026406/microsoft-account-create-a-strong-password) para obter mais informações. Armazene as senhas das novas contas em um local seguro. 
+3. Crie até um máximo de quatro contas de usuário de administrador global dedicadas. **Use senhas fortes com pelo menos 12 caracteres.** Consulte [Criar uma senha forte](https://support.microsoft.com/help/4026406/microsoft-account-create-a-strong-password) para obter mais informações. Armazene as senhas das novas contas em um local seguro. 
     
 4. Atribua a função de administrador global a cada uma das novas contas de usuário de administrador global dedicadas.
     
 5. Saia do Microsoft 365.
     
-6. Entre com uma das novas contas de usuário do administrador global dedicado.
+6. Entre com uma das novas contas de usuário de administrador global dedicadas.
     
-7. Para cada conta de usuário existente que tenha sido atribuída à função de administrador global da etapa 1:
+7. Para cada conta de usuário existente que tenha sido atribuída a função de administrador global da etapa 1:
     
   - Remova a função de administrador global.
     
-  - Atribuir funções de administrador à conta que são apropriadas para a função e responsabilidade do trabalho do usuário. Para obter mais informações sobre várias funções de administrador no Microsoft 365, consulte [about admin Roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
+  - Atribua funções de administrador à conta apropriada à função e responsabilidade de trabalho desse usuário. Para saber mais sobre várias funções de administrador no Microsoft 365, confira [Sobre funções de administrador.](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
     
 8. Saia do Microsoft 365.
     
@@ -86,14 +86,14 @@ Os resultados devem ser:
 
 - Todas as outras contas de usuários comuns que gerenciam sua assinatura têm funções de administrador atribuídas que estão associadas às responsabilidades de trabalho deles.
     
-Desse momento em diante, você entra com as contas de administrador global dedicadas apenas para tarefas que exigem privilégios de administrador global. Todas as outras administração do Microsoft 365 devem ser feitas por meio da atribuição de outras funções de administração às contas de usuário.
+A partir deste momento em diante, entre com as contas de administrador global dedicadas apenas para tarefas que exigem privilégios de administrador global. Todas as outras administração do Microsoft 365 devem ser feitas atribuindo outras funções de administração a contas de usuário.
   
 > [!NOTE]
-> Isso requer etapas adicionais para sair como sua conta de usuário diária e entrar com uma conta de administrador global dedicada. Mas isso só precisa ser feito ocasionalmente para operações de administrador global. Considere a recuperação de sua assinatura do Microsoft 365 após uma violação de conta de administrador global exigir muito mais etapas.
+> Isso exige etapas adicionais para sair como sua conta de usuário do dia a dia e entrar com uma conta de administrador global dedicada. Mas isso só precisa ser feito ocasionalmente para operações de administrador global. Considere que recuperar sua assinatura do Microsoft 365 após uma violação de conta de administrador global requer muito mais etapas.
   
-## <a name="step-2-configure-multi-factor-authentication-for-your-dedicated-microsoft-365-global-administrator-accounts"></a>Etapa 2. Configurar a autenticação multifator para suas contas de administrador global do Microsoft 365
+## <a name="step-2-configure-multi-factor-authentication-for-your-dedicated-microsoft-365-global-administrator-accounts"></a>Etapa 2. Configurar a autenticação multifaionária para suas contas dedicadas de administrador global do Microsoft 365
 
-A MFA (autenticação multifator) requer informações adicionais além do nome da conta e senha. O Microsoft 365 suporta estes métodos de verificação adicionais:
+A MFA (autenticação multifatória) exige informações adicionais além do nome e da senha da conta. O Microsoft 365 dá suporte a estes métodos de verificação adicionais:
   
 - O aplicativo Microsoft Authenticator
 
@@ -106,18 +106,18 @@ A MFA (autenticação multifator) requer informações adicionais além do nome 
 - Um dispositivo biométrico
     
 >[!Note]
->Para organizações que precisam cumprir os padrões do Instituto Nacional de padrões e tecnologia (NIST), o uso de um telefonema ou de métodos de verificação adicionais baseados em mensagem de texto é restrito. Clique [aqui](https://pages.nist.gov/800-63-FAQ/#q-b01) para obter os detalhes.
+>Para organizações que devem aderir aos padrões do Instituto Nacional de Padrões e Tecnologia (NIST), o uso de uma chamada telefônica ou métodos de verificação adicionais baseados em mensagem de texto são restritos. Clique [aqui](https://pages.nist.gov/800-63-FAQ/#q-b01) para obter os detalhes.
 >
 
-Se você é uma pequena empresa que está usando contas de usuário armazenadas apenas na nuvem (modelo de identidade somente na nuvem), [Configure o MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) para configurar o MFA usando uma chamada telefônica ou um código de verificação de mensagem de texto enviado a um telefone inteligente para cada conta de administrador global dedicada.
+Se você for uma pequena empresa que usa contas de usuário armazenadas somente na nuvem (o modelo de identidade somente na nuvem), configure a MFA para configurar a [MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) usando uma chamada telefônica ou um código de verificação de mensagem de texto enviado a um smartphone para cada conta de administrador global dedicada.
     
-Se você é uma organização maior que usa um modelo de identidade híbrida do Microsoft 365, você tem mais opções de verificação. Se você já tiver a infraestrutura de segurança em vigor para um método de autenticação secundário mais seguro, [Configure o MFA](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) e configure cada conta de administrador global dedicada para o método de verificação apropriado.
+Se você for uma organização maior que está usando um modelo de identidade híbrida do Microsoft 365, terá mais opções de verificação. Se você já tiver a infraestrutura de segurança para um método de autenticação secundário mais forte, configure a [MFA](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) e configure cada conta de administrador global dedicada para o método de verificação apropriado.
   
-Se a infraestrutura de segurança para o método de verificação mais forte desejado não estiver em vigor e estiver funcionando para o Microsoft 365 MFA, recomendamos enfaticamente que você configure contas de administrador global dedicadas com o MFA usando o aplicativo Microsoft Authenticator, uma chamada telefônica ou um código de verificação de mensagem de texto enviado a um telefone inteligente para suas contas de administrador global como uma medida de segurança provisória. Não deixe suas contas de administrador global dedicadas sem a proteção adicional fornecida pela MFA.
+Se a infraestrutura de segurança para o método de verificação mais forte desejado não estiver em funcionamento para o Microsoft 365 MFA, recomendamos que você configure contas de administrador global dedicadas com a MFA usando o aplicativo Microsoft Authenticator, uma chamada telefônica ou um código de verificação de mensagem de texto enviado a um smartphone para suas contas de administrador global como uma medida de segurança provisória. Não deixe suas contas dedicadas de administrador global sem a proteção adicional fornecida pela MFA.
   
-Para obter mais informações, consulte [MFA for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).
+Para obter mais informações, consulte [MFA para o Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
   
-Para se conectar aos serviços do Microsoft 365 com MFA e PowerShell, consulte estes artigos:
+Para se conectar aos serviços do Microsoft 365 com a MFA e o PowerShell, confira estes artigos:
 
 - [PowerShell para Microsoft 365 para contas de usuário, grupos e licenças](connect-to-microsoft-365-powershell.md)
 - [Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
@@ -127,13 +127,13 @@ Para se conectar aos serviços do Microsoft 365 com MFA e PowerShell, consulte e
 
 ## <a name="additional-protections-for-enterprise-organizations"></a>Proteções adicionais para organizações empresariais
 
-Use esses métodos adicionais para garantir que sua conta de administrador global, e a configuração que você executa usando ele, sejam o mais seguras possível.
+Use esses métodos adicionais para garantir que sua conta de administrador global e a configuração que você executa usando-a sejam o mais seguras possível.
   
 ### <a name="privileged-access-workstation"></a>Estação de trabalho de acesso privilegiado
 
-Para garantir que a execução de tarefas altamente privilegiadas seja o mais segura possível, use uma estação de trabalho privilegiada (pata). Um pata é um computador dedicado que é usado apenas para tarefas de configuração confidenciais, como a configuração do Microsoft 365 que requer uma conta de administrador global. Como este computador não é usado diariamente para navegação na Internet ou email, é melhor proteger contra ataques e ameaças da Internet.
+Para garantir que a execução de tarefas altamente privilegiadas seja o mais segura possível, use uma estação de trabalho de acesso privilegiado (PAW). A PAW é um computador dedicado que só é usado para tarefas de configuração confidenciais, como a configuração do Microsoft 365 que requer uma conta de administrador global. Como esse computador não é usado diariamente para navegação ou email na Internet, ele está melhor protegido contra ameaças e ataques à Internet.
   
-Para obter instruções sobre como configurar um pata, consulte [https://aka.ms/cyberpaw](https://aka.ms/cyberpaw) .
+Para obter instruções sobre como configurar uma PAW, consulte [https://aka.ms/cyberpaw](https://aka.ms/cyberpaw) .
 
 Para habilitar o Azure PIM para seu locatário do Azure AD e as contas de administrador global, confira as [etapas para configurar o PIM](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure).
 
@@ -141,15 +141,15 @@ Para desenvolver um roteiro abrangente para proteger o acesso privilegiado contr
 
 ### <a name="azure-ad-privileged-identity-management"></a>Azure AD Privileged Identity Management
 
-Em vez de ter suas contas de administrador global atribuídas permanentemente à função de administrador global, você pode usar o gerenciamento de identidade privilegiada do Azure AD para habilitar a atribuição sob demanda e Just-in-time da função de administrador global quando for necessário.
+Em vez de ter suas contas de administrador global atribuídas permanentemente à função de administrador global, você pode usar o Azure AD Privileged Identity Management (PIM) para habilitar a atribuição just-in-time sob demanda da função de administrador global quando necessário.
   
-Suas contas de administrador global vão de administradores permanentes para administradores qualificados. A função de administrador global está inativa até que alguém precise dela. Em seguida, conclua um processo de ativação para adicionar a função de administrador global à conta de administrador global para uma quantidade de tempo predeterminada. Quando o tempo expira, o PIM remove a função de administrador global da conta de administrador global.
+Suas contas de administrador global vão de administradores permanentes para administradores qualificados. A função de administrador global fica inativa até que alguém precise dela. Em seguida, conclua um processo de ativação para adicionar a função de administrador global à conta de administrador global por um período predeterminado. Quando o tempo expira, o PIM remove a função de administrador global da conta de administrador global.
   
-Usar o PIM e esse processo reduz significativamente a quantidade de tempo que suas contas de administrador global estão vulneráveis a ataques e uso por usuários mal-intencionados.
+Usar o PIM e esse processo reduz significativamente o tempo que suas contas de administrador global ficam vulneráveis a ataques e uso por usuários mal-intencionados.
 
 O PIM está disponível com o Azure Active Directory Premium P2, que vem incluso no Microsoft 365 Enterprise E5. Como alternativa, você pode adquirir licenças do Azure Active Directory Premium P2 individuais para suas contas de administrador.
   
-Para obter mais informações, consulte [Azure ad Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure).
+Para saber mais, confira [O Azure AD Privileged Identity Management.](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)
   
 
 ### <a name="privileged-access-management"></a>Gerenciamento de acesso privilegiado
@@ -162,24 +162,24 @@ Nesta etapa, você vai habilitar o gerenciamento do acesso privilegiado em seu l
 - Habilitar o acesso privilegiado
 - Criar políticas de aprovação
 
-O gerenciamento de acesso privilegiado permite que sua organização opere com nenhum privilégio de pé e forneça uma camada de defesa contra vulnerabilidades decorrentes por esse acesso administrativo em posição. O acesso privilegiado requer aprovações para executar qualquer tarefa com uma política de aprovação associada definida. Os usuários que precisam executar tarefas incluídas na política de aprovação devem solicitar e receber aprovação de acesso.
+O gerenciamento de acesso privilegiado permite que sua organização opere com zero privilégios permanentes e forneça uma camada de defesa contra vulnerabilidades decorrentes desse acesso administrativo permanente. O acesso privilegiado requer aprovações para executar qualquer tarefa que tenha uma política de aprovação associada definida. Os usuários que precisam executar tarefas incluídas na política de aprovação devem solicitar e ter a aprovação de acesso concedida.
 
-Para habilitar o gerenciamento de acesso privilegiado, consulte [Configurar o gerenciamento de acesso privilegiado](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration).
+Para habilitar o gerenciamento de acesso privilegiado, consulte [Configurar o gerenciamento de acesso privilegiado.](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration)
 
-Para obter mais informações, consulte [Gerenciamento de acesso privilegiado](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview).
+Para obter mais informações, consulte [Gerenciamento de acesso privilegiado.](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview)
 
-### <a name="security-information-and-event-management-siem-software-for-microsoft-365-logging"></a>Software de gerenciamento de eventos e informações de segurança (SIEM) para log do Microsoft 365
+### <a name="security-information-and-event-management-siem-software-for-microsoft-365-logging"></a>Software de gerenciamento de eventos e informações de segurança (SIEM) para registro em log do Microsoft 365
 
-O software SIEM executado em um servidor realiza análises em tempo real de alertas e eventos de segurança criados por aplicativos e hardware de rede. Para permitir que seu servidor SIEM inclua alertas e eventos de segurança da Microsoft 365 em suas funções de análise e relatórios, integre o Azure AD no SEIM. Confira [introdução à integração de logs do Azure](https://docs.microsoft.com/azure/security/security-azure-log-integration-overview).
+O software SIEM executado em um servidor executa a análise em tempo real de alertas e eventos de segurança criados por aplicativos e hardware de rede. Para permitir que seu servidor SIEM inclua alertas e eventos de segurança do Microsoft 365 em suas funções de análise e relatório, integre o Azure AD ao SEU SEIM. Confira [a introdução à integração de log do Azure.](https://docs.microsoft.com/azure/security/security-azure-log-integration-overview)
 
 ## <a name="next-step"></a>Próxima etapa
 
-Se estiver configurando a identidade para sua assinatura do Microsoft 365, confira:
+Se você estiver configurando a identidade para sua assinatura do Microsoft 365, confira:
 
 - [Identidades somente na nuvem](cloud-only-identities.md) se você estiver usando a identidade somente na nuvem
-- [Preparar a sincronização de diretórios](prepare-for-directory-synchronization.md) se você estiver usando a identidade híbrida
+- [Prepare-se para a sincronização de](prepare-for-directory-synchronization.md) diretório se estiver usando a identidade híbrida
 
   
 ## <a name="see-also"></a>Confira também
 
-[Mapa de segurança do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/security-roadmap)
+[Roteiro de segurança do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/security-roadmap)

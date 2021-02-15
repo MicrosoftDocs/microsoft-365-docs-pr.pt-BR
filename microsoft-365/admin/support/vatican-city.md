@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a cidade do Vaticano
+title: Informações de suporte para Cidade do México
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48638694"
 ---
-# <a name="contact-support-for-vatican-city"></a>Contatar o suporte para a cidade do Vaticano
+# <a name="contact-support-for-vatican-city"></a>Contatar o suporte da Cidade do México
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,16 +30,16 @@ ms.locfileid: "48638694"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Italiano: Mon-Fri 9 AM-5 PM
+Italiano: Mon-Fri das 9h às 17h
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Italiano: Mon-Fri 9 AM-6 PM
+Italiano: Mon-Fri das 9h às 18h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 02 6943 0746
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

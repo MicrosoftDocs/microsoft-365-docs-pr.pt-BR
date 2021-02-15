@@ -30,16 +30,16 @@ ms.locfileid: "48639330"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Chinês (mandarim): Mon-Fri 9 AM-6 PM
+Chinês (mandarim): Mon-Fri das 9h às 18h
 
-Inglês: Mon-Fri 9 AM-6 PM local
+Inglês: Mon-Fri das 9h às 18h local
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Chinês (mandarim): Mon-Fri 9 AM-6 PM
+Chinês (mandarim): Mon-Fri das 9h às 18h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 02 2656 7301
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

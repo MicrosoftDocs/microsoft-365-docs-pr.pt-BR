@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Tokelau
+title: Informações de suporte para Tokelau
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639143"
 ---
-# <a name="contact-support-for-tokelau"></a>Entrar em contato com o suporte do Tokelau
+# <a name="contact-support-for-tokelau"></a>Contatar o suporte para Tokelau
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5148
++1 312 843 5148
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 2 PM-10 PM
+Inglês: Mon-Fri das 14:00 às 22:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

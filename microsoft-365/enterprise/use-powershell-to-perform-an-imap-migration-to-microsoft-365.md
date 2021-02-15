@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
-description: Saiba como usar o PowerShell para executar uma migração IMAP (Internet Mail Access Protocol) para o Microsoft 365.
+description: Saiba como usar o PowerShell para executar uma migração IMAP para o Microsoft 365.
 ms.openlocfilehash: 67621ecfca7ec323a73b91a530f848dd7571f9b2
 ms.sourcegitcommit: bcb88a6171f9e7bdb5b2d8c03cd628d11c5e7bbf
 ms.translationtype: MT
@@ -27,14 +27,14 @@ ms.locfileid: "48464439"
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Como parte do processo de implantação do Microsoft 365, você pode optar por migrar o conteúdo das caixas de correio de usuário de um serviço de email IMAP (Internet Mail Access Protocol) para a Microsoft 365. Este artigo apresenta as tarefas para uma migração IMAP de email usando o PowerShell do Exchange Online. 
+Como parte do processo de implantação do Microsoft 365, você pode optar por migrar o conteúdo das caixas de correio do usuário de um serviço de email IMAP (Internet Mail Access Protocol) para o Microsoft 365. Este artigo apresenta as tarefas para uma migração IMAP de email usando o PowerShell do Exchange Online. 
   
 > [!NOTE]
-> Você também pode usar o Centro de administração do Exchange para executar a migração IMAP. Consulte [migrar suas caixas de correio IMAP](https://go.microsoft.com/fwlink/p/?LinkId=536685). 
+> Você também pode usar o Centro de administração do Exchange para executar a migração IMAP. Consulte [Migrar suas caixas de correio IMAP.](https://go.microsoft.com/fwlink/p/?LinkId=536685) 
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-Tempo estimado para a conclusão da tarefa: 2-5 minutos para criar um lote de migração. Depois que o lote de migração é iniciado, a duração da migração irá variar com base no número de caixas de correio no lote, no tamanho de cada caixa de correio e na sua capacidade de rede disponível. Para obter informações sobre outros fatores que afetam quanto tempo leva para migrar caixas de correio para a Microsoft 365, consulte [desempenho de migração](https://go.microsoft.com/fwlink/p/?LinkId=275079).
+Tempo estimado para a conclusão da tarefa: 2-5 minutos para criar um lote de migração. Depois que o lote de migração é iniciado, a duração da migração irá variar com base no número de caixas de correio no lote, no tamanho de cada caixa de correio e na sua capacidade de rede disponível. Para obter informações sobre outros fatores que afetam o tempo necessário para migrar caixas de correio para o Microsoft 365, consulte Desempenho da [Migração.](https://go.microsoft.com/fwlink/p/?LinkId=275079)
   
 Para executar esses procedimentos, você precisa receber permissões. Para saber quais permissões são necessárias, confira a entrada "Migração" em uma tabela no tópico [Permissões de destinatários](https://go.microsoft.com/fwlink/p/?LinkId=534105).
   
@@ -55,9 +55,9 @@ As seguintes restrições se aplicam às migrações IMAP:
 ### <a name="step-1-prepare-for-an-imap-migration"></a>Etapa 1: Preparar uma migração IMAP
 <a name="BK_Step1"> </a>
 
-- **Se você tiver um domínio para sua organização IMAP, adicione-o como um domínio aceito de sua organização do Microsoft 365.** Se você deseja usar o mesmo domínio que você já possui para suas caixas de correio do Microsoft 365, primeiro é necessário adicioná-lo como um domínio aceito para a Microsoft 365. Depois de adicioná-lo, você pode criar seus usuários no Microsoft 365. Para obter mais informações, consulte[Verify your domain](https://go.microsoft.com/fwlink/p/?LinkId=534110).
+- **Se você tiver um domínio para sua organização IMAP, adicione-o como um domínio aceito da sua organização do Microsoft 365.** Se você quiser usar o mesmo domínio que você já possui para suas caixas de correio do Microsoft 365, primeiro você precisa adicioná-lo como um domínio aceito ao Microsoft 365. Depois de ter adicionado, você pode criar seus usuários no Microsoft 365. Para obter mais informações, consulte[Verificar seu domínio.](https://go.microsoft.com/fwlink/p/?LinkId=534110)
     
-- **Adicione cada usuário ao Microsoft 365 para que eles tenham uma caixa de correio.** Para obter instruções, consulte[Adicionar usuários ao Microsoft 365 for Business](https://go.microsoft.com/fwlink/p/?LinkId=535065).
+- **Adicione cada usuário ao Microsoft 365 para que ele tenha uma caixa de correio.** Para obter instruções,[confira Adicionar usuários ao Microsoft 365 para empresas.](https://go.microsoft.com/fwlink/p/?LinkId=535065)
     
 - **Obter o FQDN do servidor IMAP**. Você precisa fornecer o FQDN (nome de domínio totalmente qualificado) (também chamado de nome completo do computador) do servidor IMAP do qual você migrará dados de caixa de correio ao criar um ponto de extremidade de migração IMAP. Use um cliente IMAP ou o comando PING para verificar se você pode usar o FQDN para se comunicar com o servidor IMAP pela Internet.
     
@@ -84,7 +84,7 @@ Identifique o grupo de usuários cujas caixas de correio você deseja migrar em 
   
 Veja a seguir os atributos necessários para cada usuário: 
   
-- **EmailAddress** especifica a ID de usuário da caixa de correio do Microsoft 365 do usuário.
+- **EmailAddress** especifica a ID de usuário para a caixa de correio do Microsoft 365 do usuário.
     
 - **UserName** especifica o nome de logon da conta a ser usada para acessar a caixa de correio no servidor IMAP.
     
@@ -114,7 +114,7 @@ paulc@contoso.edu,contoso-students/mailadmin/paul.cannon,P@ssw0rd
 
  **Dovecot:**
   
-Para servidores IMAP que dão suporte a SASL (Simple Authentication and Security Layer), como um servidor Dovecot IMAP, use o formato **User_UserName*Admin_UserName**, em que o asterisco (*) é um caractere separador configurável. Digamos que você esteja migrando os mesmos emails de usuários de um servidor IMAP Dovecot usando as credenciais de administrador **mailadmin** e **P \@ ssw0rd**. Esta seria a aparência do seu arquivo CSV:
+Para servidores IMAP que dão suporte a SASL (Simple Authentication and Security Layer), como um servidor Dovecot IMAP, use o formato **User_UserName*Admin_UserName**, em que o asterisco (*) é um caractere separador configurável. Digamos que você esteja migrando emails desses mesmos usuários de um servidor IMAP Dovecot usando as credenciais de administrador **mailadmin** e **P \@ ssw0rd.** Esta seria a aparência do seu arquivo CSV:
   
 ```powershell
 EmailAddress,UserName,Password
@@ -125,7 +125,7 @@ paulc@contoso.edu,paul.cannon*mailadmin,P@ssw0rd
 
  **Mirapoint:**
   
-Se você estiver migrando emails do servidor de mensagens do Mirapoint, use o formato **#user \@ domínio # Admin_UserName** para as credenciais de administrador. Para migrar emails do Mirapoint usando as credenciais de administrador **mailadmin** e **P \@ SSW0RD**, o arquivo CSV teria a seguinte aparência:
+Se você estiver migrando emails do Mirapoint Message Server, use o formato **#user \@ domínio #Admin_UserName#** para as credenciais de administrador. Para migrar emails do Mirapoint usando as credenciais de administrador **mailadmin** e **P \@ ssw0rd,** seu arquivo CSV teria esta aparência:
   
 ```powershell
 EmailAddress,UserName,Password
@@ -136,7 +136,7 @@ paulc@contoso.edu,#paul.cannon@contoso-students.edu#mailadmin#,P@ssw0rd
 
  **Courier IMAP:**
   
-Alguns sistemas de email de origem, como Courier IMAP, não oferecem suporte ao uso de credenciais de administrador de caixa de correio para migrar caixas de correio para o Microsoft 365. Em vez disso, você pode configurar seu sistema de email de origem para usar pastas compartilhadas virtuais. Usando pastas compartilhadas virtuais, você pode usar as credenciais de administrador de caixa de correio para acessar caixas de correio do usuário no sistema de email de origem. Para saber mais sobre como configurar as pastas virtuais compartilhadas do Courier IMAP, confira [Pastas Compartilhadas](https://go.microsoft.com/fwlink/p/?LinkId=398870).
+Alguns sistemas de email de origem, como Courier IMAP, não são suportados usando credenciais de administrador de caixa de correio para migrar caixas de correio para o Microsoft 365. Em vez disso, você pode configurar seu sistema de email de origem para usar pastas compartilhadas virtuais. Usando pastas compartilhadas virtuais, você pode usar as credenciais de administrador de caixa de correio para acessar caixas de correio do usuário no sistema de email de origem. Para saber mais sobre como configurar as pastas virtuais compartilhadas do Courier IMAP, confira [Pastas Compartilhadas](https://go.microsoft.com/fwlink/p/?LinkId=398870).
   
 Para migrar as caixas de correio depois de configurar as pastas compartilhadas virtuais em seu sistema de email de origem, você deve incluir o atributo **UserRoot** opcional no arquivo de migração. Esse atributo especifica o local da caixa de correio de cada usuário na estrutura de pastas compartilhadas virtuais do sistema de email de origem. Por exemplo, o caminho para a caixa de correio de Pedro é /users/pedro.goncalves.
   
@@ -152,7 +152,7 @@ paulc@contoso.edu,mailadmin,P@ssw0rd,/users/paul.cannon
 ### <a name="step-3-create-an-imap-migration-endpoint"></a>Etapa 3: Criar um ponto de extremidade de migração IMAP
 <a name="BK_Step3"> </a>
 
-Para migrar os emails com êxito, o Microsoft 365 precisa se conectar ao sistema de email de origem e se comunicar com ele. Para fazer isso, a Microsoft 365 usa um ponto de extremidade de migração. O ponto de extremidade de migração também define o número de caixas de correio para migração simultânea e o número de caixas de correio para sincronização simultânea durante a sincronização incremental, que ocorre uma vez a cada 24 horas. Para criar um ponto de extremidade de migração para a migração IMAP, primeiro [Conecte-se ao Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=534121). 
+Para migrar emails com êxito, o Microsoft 365 precisa se conectar e se comunicar com o sistema de email de origem. Para fazer isso, o Microsoft 365 usa um ponto de extremidade de migração. O ponto de extremidade de migração também define o número de caixas de correio para migração simultânea e o número de caixas de correio para sincronização simultânea durante a sincronização incremental, que ocorre uma vez a cada 24 horas. Para criar um ponto de extremidade de migração para a migração IMAP, [conecte-se primeiro ao Exchange Online.](https://go.microsoft.com/fwlink/p/?LinkId=534121) 
   
 Para obter uma lista completa dos comandos de migração, confira [Cmdlets de movimentação e migração](https://go.microsoft.com/fwlink/p/?LinkId=534750).
   
@@ -170,7 +170,7 @@ New-MigrationEndpoint -IMAP -Name IMAPEndpoint -RemoteServer imap.contoso.com -P
 50 -MaxConcurrentIncrementalSyncs 25
 ```
 
-Para saber mais sobre o cmdlet **New-MigrationEndpoint**, confira[New-MigrationEndpoint](https://go.microsoft.com/fwlink/p/?LinkId=536437).
+Para saber mais sobre o cmdlet **New-MigrationEndpoint**, confira [New-MigrationEndpoint](https://go.microsoft.com/fwlink/p/?LinkId=536437).
   
 #### <a name="verify-it-worked"></a>Verifique se funcionou
 
@@ -205,12 +205,12 @@ Você também pode verificar se o lote foi iniciado executando o seguinte comand
 Get-MigrationBatch -Identity IMAPBatch1 | Format-List Status
 ```
 
-### <a name="step-5-route-your-email-to-microsoft-365"></a>Etapa 5: encaminhar seu email para o Microsoft 365
+### <a name="step-5-route-your-email-to-microsoft-365"></a>Etapa 5: Rotear seu email para o Microsoft 365
 <a name="BK_Step5"> </a>
 
-Os sistemas de email usam um registro DNS chamado registro MX para descobrir onde entregar emails. Durante o processo de migração de email, seu registro MX estava apontando para o sistema de email de origem. Agora que a migração de email para o Microsoft 365 está concluída, é hora de apontar o seu registro MX no Microsoft 365. Isso ajuda a garantir que o email seja entregue às suas caixas de correio do Microsoft 365. Movendo o registro MX, você também poderá desativar seu sistema de email antigo quando estiver pronto. 
+Os sistemas de email usam um registro DNS chamado registro MX para descobrir onde entregar emails. Durante o processo de migração de email, seu registro MX estava apontando para o sistema de email de origem. Agora que a migração de email para o Microsoft 365 está concluída, é hora de apontar seu registro MX para o Microsoft 365. Isso ajuda a garantir que os emails são entregues às suas caixas de correio do Microsoft 365. Movendo o registro MX, você também poderá desativar seu sistema de email antigo quando estiver pronto. 
   
-Em muitos provedores DNS, existem instruções específicas para alterar o seu registro MX. Se o seu provedor de DNS não estiver incluído, ou se você quiser ter uma noção das orientações gerais, [as instruções gerais de registro MX ](https://go.microsoft.com/fwlink/?LinkId=397449) também são fornecidas.
+Em muitos provedores DNS, existem instruções específicas para alterar o seu registro MX. Se seu provedor DNS não estiver incluído ou se você quiser ter uma noção das instruções gerais, as instruções gerais do registro [MX ](https://go.microsoft.com/fwlink/?LinkId=397449) também serão fornecidas.
   
 Pode levar até 72 horas para que os sistemas de email de seus clientes e parceiros reconheçam o registro MX alterado. Aguarde pelo menos 72 horas antes de prosseguir para a próxima tarefa: Etapa 6: Excluir o lote de migração IMAP. 
   
@@ -219,9 +219,9 @@ Pode levar até 72 horas para que os sistemas de email de seus clientes e parcei
 
 Depois de alterar o registro MX e verificar se todos os emails estão sendo roteados para as caixas de correio do Microsoft 365, notifique os usuários de que seus emails estão indo para o Microsoft 365. Depois disso, você pode excluir o lote de migração IMAP. Antes de excluir o lote de migração, verifique os itens a seguir.
   
-- Todos os usuários estão usando caixas de correio do Microsoft 365. Depois que o lote é excluído, os emails enviados para caixas de correio no servidor Exchange local não são copiados para as caixas de correio do Microsoft 365 correspondentes.
+- Todos os usuários estão usando caixas de correio do Microsoft 365. Depois que o lote é excluído, os emails enviados às caixas de correio no Exchange Server local não são copiados para as caixas de correio correspondentes do Microsoft 365.
     
-- As caixas de correio do Microsoft 365 foram sincronizadas pelo menos uma vez depois que o email começou a ser enviado diretamente a eles. Para fazer isso, certifique-se de que o valor na caixa de hora da última sincronização do lote de migração seja mais recente do que quando o email começou a ser roteado diretamente para as caixas de correio do Microsoft 365.
+- As caixas de correio do Microsoft 365 foram sincronizadas pelo menos uma vez depois que os emails começaram a ser enviados diretamente a elas. Para fazer isso, certifique-se de que o valor na caixa Hora da Última Sincronização do lote de migração seja mais recente do que quando os emails começaram a ser roteados diretamente para as caixas de correio do Microsoft 365.
     
 Para excluir o lote de migração "IMAPBatch1" do PowerShell do Exchange Online, execute o seguinte comando:
   
@@ -229,7 +229,7 @@ Para excluir o lote de migração "IMAPBatch1" do PowerShell do Exchange Online,
 Remove-MigrationBatch -Identity IMAPBatch1
 ```
 
-Para saber mais sobre o cmdlet **Remove-MigrationBatch**, confira[Remove-MigrationBatch](https://go.microsoft.com/fwlink/p/?LinkId=536481).
+Para saber mais sobre o cmdlet **Remove-MigrationBatch**, confira [Remove-MigrationBatch](https://go.microsoft.com/fwlink/p/?LinkId=536481).
   
 #### <a name="verify-it-worked"></a>Verifique se funcionou
 
@@ -241,7 +241,7 @@ Get-MigrationBatch IMAPBatch1"
 
 O comando retornará o lote de migração com um status de **Removing** ou retornará um erro afirmando que o lote de migração não foi encontrado, confirmando que o lote foi excluído.
   
-Para saber mais sobre o cmdlet **Get-MigrationBatch**, confira[Get-MigrationBatch](https://go.microsoft.com/fwlink/p/?LinkId=536441).
+Para saber mais sobre o cmdlet **Get-MigrationBatch**, confira [Get-MigrationBatch](https://go.microsoft.com/fwlink/p/?LinkId=536441).
   
 ## <a name="see-also"></a>Confira também
 

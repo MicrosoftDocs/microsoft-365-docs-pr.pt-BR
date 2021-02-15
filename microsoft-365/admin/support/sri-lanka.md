@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Sri Lanka
+title: Informações de suporte do Sri Lanka
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639414"
 ---
-# <a name="contact-support-for-sri-lanka"></a>Contatar o suporte para Sri Lanka
+# <a name="contact-support-for-sri-lanka"></a>Contatar o suporte do Sri Lanka
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,10 +30,10 @@ ms.locfileid: "48639414"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-6 PM
+Inglês: Mon-Fri das 9h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local
