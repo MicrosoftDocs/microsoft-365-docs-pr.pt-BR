@@ -1,5 +1,5 @@
 ---
-title: Escolha o domínio a ser usado ao criar grupos do Microsoft 365
+title: Escolher o domínio a ser usado ao criar grupos do Microsoft 365
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
-description: Saiba como escolher o domínio a ser usado ao criar grupos do Microsoft 365 Configurando políticas de endereços de email usando o PowerShell.
+description: Saiba como escolher o domínio a ser usado ao criar grupos do Microsoft 365 configurando políticas de endereço de email usando o PowerShell.
 ms.openlocfilehash: 1e56268c3994b1ac822869d154be826326039bfc
 ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
 ms.translationtype: MT
@@ -24,104 +24,104 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/09/2020
 ms.locfileid: "49612935"
 ---
-# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a><span data-ttu-id="b7e91-103">Escolha o domínio a ser usado ao criar grupos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="b7e91-103">Choose the domain to use when creating Microsoft 365 groups</span></span>
+# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a><span data-ttu-id="e4a3a-103">Escolher o domínio a ser usado ao criar grupos do Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="e4a3a-103">Choose the domain to use when creating Microsoft 365 groups</span></span>
 
-<span data-ttu-id="b7e91-104">Algumas organizações usam domínios de email separados para segmentar diferentes partes do negócio.</span><span class="sxs-lookup"><span data-stu-id="b7e91-104">Some organizations use separate email domains to segment different parts of their businesses.</span></span> <span data-ttu-id="b7e91-105">Você pode especificar qual domínio deve ser usado quando os usuários criarem os grupos do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="b7e91-105">You can specify which domain should be used when your users create Microsoft 365 groups.</span></span>
+<span data-ttu-id="e4a3a-104">Algumas organizações usam domínios de email separados para segmentar diferentes partes do negócio.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-104">Some organizations use separate email domains to segment different parts of their businesses.</span></span> <span data-ttu-id="e4a3a-105">Você pode especificar qual domínio deve ser usado quando os usuários criarem grupos do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-105">You can specify which domain should be used when your users create Microsoft 365 groups.</span></span>
   
-<span data-ttu-id="b7e91-106">Se sua organização precisar que os usuários criem seus grupos em domínios diferentes do domínio aceito padrão de sua empresa, você poderá permitir isso Configurando políticas de endereço de email (EAPs) usando o PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b7e91-106">If your organization needs users to create their groups in domains other than the default accepted domain of your business, you can allow this by configuring email address policies (EAPs) using PowerShell.</span></span>
+<span data-ttu-id="e4a3a-106">Se sua organização precisa que os usuários criem seus grupos em domínios diferentes do domínio aceito padrão da sua empresa, você pode permitir isso configurando políticas de endereço de email (EAPs) usando o PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-106">If your organization needs users to create their groups in domains other than the default accepted domain of your business, you can allow this by configuring email address policies (EAPs) using PowerShell.</span></span>
 
-<span data-ttu-id="b7e91-107">Antes de poder executar os cmdlets do PowerShell, baixe e instale um módulo que permita que você converse com sua organização.</span><span class="sxs-lookup"><span data-stu-id="b7e91-107">Before you can run the PowerShell cmdlets, download and install a module that will let you talk to your organization.</span></span> <span data-ttu-id="b7e91-108">Confira [conectar-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=785881).</span><span class="sxs-lookup"><span data-stu-id="b7e91-108">Check out [Connect to Exchange Online using remote PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=785881).</span></span>
+<span data-ttu-id="e4a3a-107">Antes de executar os cmdlets do PowerShell, baixe e instale um módulo que permitirá que você converse com sua organização.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-107">Before you can run the PowerShell cmdlets, download and install a module that will let you talk to your organization.</span></span> <span data-ttu-id="e4a3a-108">Confira [Conectar-se ao Exchange Online usando o PowerShell remoto.](https://go.microsoft.com/fwlink/p/?LinkId=785881)</span><span class="sxs-lookup"><span data-stu-id="e4a3a-108">Check out [Connect to Exchange Online using remote PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=785881).</span></span>
 
-## <a name="example-scenarios"></a><span data-ttu-id="b7e91-109">Exemplos de cenários</span><span class="sxs-lookup"><span data-stu-id="b7e91-109">Example scenarios</span></span>
+## <a name="example-scenarios"></a><span data-ttu-id="e4a3a-109">Exemplos de cenários</span><span class="sxs-lookup"><span data-stu-id="e4a3a-109">Example scenarios</span></span>
 
-<span data-ttu-id="b7e91-110">Digamos que o domínio principal de sua empresa seja o Contoso.com.</span><span class="sxs-lookup"><span data-stu-id="b7e91-110">Let's say your business's main domain is Contoso.com.</span></span> <span data-ttu-id="b7e91-111">Mas o domínio aceito por padrão da sua organização é service.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="b7e91-111">But your organization's default accepted domain is service.contoso.com.</span></span> <span data-ttu-id="b7e91-112">Isso significa que os grupos serão criados no service.contoso.com (por exemplo, jimsteam@service.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="b7e91-112">This means groups will be created in service.contoso.com (for example, jimsteam@service.contoso.com).</span></span>
+<span data-ttu-id="e4a3a-110">Digamos que o domínio principal da sua empresa seja Contoso.com.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-110">Let's say your business's main domain is Contoso.com.</span></span> <span data-ttu-id="e4a3a-111">Mas o domínio aceito padrão da sua organização é service.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-111">But your organization's default accepted domain is service.contoso.com.</span></span> <span data-ttu-id="e4a3a-112">Isso significa que os grupos serão criados service.contoso.com (por exemplo, jimsteam@service.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="e4a3a-112">This means groups will be created in service.contoso.com (for example, jimsteam@service.contoso.com).</span></span>
   
-<span data-ttu-id="b7e91-113">Digamos que você também tenha subdomínios configurados em sua organização.</span><span class="sxs-lookup"><span data-stu-id="b7e91-113">Let's say you also have sub-domains configured in your organization.</span></span> <span data-ttu-id="b7e91-114">Você também deseja que os grupos sejam criados nesses domínios:</span><span class="sxs-lookup"><span data-stu-id="b7e91-114">You want groups to be created in these domains, too:</span></span>
+<span data-ttu-id="e4a3a-113">Digamos que você também tenha sub-domínios configurados em sua organização.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-113">Let's say you also have sub-domains configured in your organization.</span></span> <span data-ttu-id="e4a3a-114">Você também deseja que os grupos sejam criados nesses domínios:</span><span class="sxs-lookup"><span data-stu-id="e4a3a-114">You want groups to be created in these domains, too:</span></span>
   
-- <span data-ttu-id="b7e91-115">students.contoso.com para estudantes</span><span class="sxs-lookup"><span data-stu-id="b7e91-115">students.contoso.com for students</span></span>
+- <span data-ttu-id="e4a3a-115">students.contoso.com para alunos</span><span class="sxs-lookup"><span data-stu-id="e4a3a-115">students.contoso.com for students</span></span>
     
-- <span data-ttu-id="b7e91-116">faculty.contoso.com para membros docentes</span><span class="sxs-lookup"><span data-stu-id="b7e91-116">faculty.contoso.com for faculty members</span></span>
+- <span data-ttu-id="e4a3a-116">faculty.contoso.com para membros do corpo docente</span><span class="sxs-lookup"><span data-stu-id="e4a3a-116">faculty.contoso.com for faculty members</span></span>
     
-<span data-ttu-id="b7e91-117">Os dois cenários a seguir explicam como fazer isso.</span><span class="sxs-lookup"><span data-stu-id="b7e91-117">The following two scenarios explain how you would accomplish this.</span></span>
+<span data-ttu-id="e4a3a-117">Os dois cenários a seguir explicam como você faria isso.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-117">The following two scenarios explain how you would accomplish this.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b7e91-118">Quando você tem vários EAPs, eles são avaliados na ordem de prioridade.</span><span class="sxs-lookup"><span data-stu-id="b7e91-118">When you have mulitple EAPs, they are evaluated in the order of priority.</span></span> <span data-ttu-id="b7e91-119">O valor 1 significa a prioridade mais alta.</span><span class="sxs-lookup"><span data-stu-id="b7e91-119">A value of 1 means the highest priority.</span></span> <span data-ttu-id="b7e91-120">Após a correspondência de um EAP, nenhum EAP adicional é avaliado e os endereços que são marcados no grupo são de acordo com o EAP correspondente.</span><span class="sxs-lookup"><span data-stu-id="b7e91-120">Once an EAP matches, no further EAP is evaluated and addresses that gets stamped on the group are as per the matched EAP.</span></span> <span data-ttu-id="b7e91-121">> se nenhum EAPs corresponder aos critérios especificados, o grupo será provisionado no domínio padrão aceito da organização.</span><span class="sxs-lookup"><span data-stu-id="b7e91-121">> If no EAPs match the specified criteria, then the group gets provisioned in the organization's default accepted domain.</span></span> <span data-ttu-id="b7e91-122">Confira [gerenciar domínios aceitos no Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=785428) para obter detalhes sobre como adicionar um domínio aceito.</span><span class="sxs-lookup"><span data-stu-id="b7e91-122">Check out [Manage accepted domains in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=785428) for details on how to add an accepted domain.</span></span>
+> <span data-ttu-id="e4a3a-118">Quando você tem EAPs de exemplo, eles são avaliados na ordem de prioridade.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-118">When you have mulitple EAPs, they are evaluated in the order of priority.</span></span> <span data-ttu-id="e4a3a-119">Um valor 1 significa a prioridade mais alta.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-119">A value of 1 means the highest priority.</span></span> <span data-ttu-id="e4a3a-120">Depois que um EAP corresponde, nenhum EAP é avaliado e os endereços que são carimbados no grupo são de acordo com o EAP coincidente.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-120">Once an EAP matches, no further EAP is evaluated and addresses that gets stamped on the group are as per the matched EAP.</span></span> <span data-ttu-id="e4a3a-121">> Se nenhum EAPs corresponder aos critérios especificados, o grupo será provisionado no domínio aceito padrão da organização.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-121">> If no EAPs match the specified criteria, then the group gets provisioned in the organization's default accepted domain.</span></span> <span data-ttu-id="e4a3a-122">Confira Gerenciar [domínios aceitos no Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=785428) para obter detalhes sobre como adicionar um domínio aceito.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-122">Check out [Manage accepted domains in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=785428) for details on how to add an accepted domain.</span></span>
   
-### <a name="scenario-1"></a><span data-ttu-id="b7e91-123">Cenário 1</span><span class="sxs-lookup"><span data-stu-id="b7e91-123">Scenario 1</span></span>
+### <a name="scenario-1"></a><span data-ttu-id="e4a3a-123">Cenário 1</span><span class="sxs-lookup"><span data-stu-id="e4a3a-123">Scenario 1</span></span>
 
-<span data-ttu-id="b7e91-124">O exemplo a seguir mostra como provisionar todos os grupos da Microsoft 365 em sua organização no domínio groups.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="b7e91-124">The following example shows you how to provision all Microsoft 365 groups in your organization in the groups.contoso.com domain.</span></span>
+<span data-ttu-id="e4a3a-124">O exemplo a seguir mostra como provisionar todos os grupos do Microsoft 365 em sua organização no groups.contoso.com domínio.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-124">The following example shows you how to provision all Microsoft 365 groups in your organization in the groups.contoso.com domain.</span></span>
   
 ```
 New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@groups.contoso.com" -Priority 1
 ```
 
-### <a name="scenario-2"></a><span data-ttu-id="b7e91-125">Cenário 2</span><span class="sxs-lookup"><span data-stu-id="b7e91-125">Scenario 2</span></span>
+### <a name="scenario-2"></a><span data-ttu-id="e4a3a-125">Cenário 2</span><span class="sxs-lookup"><span data-stu-id="e4a3a-125">Scenario 2</span></span>
 
-<span data-ttu-id="b7e91-126">Digamos que você deseja controlar quais subdomínios os grupos da Microsoft 365 são criados.</span><span class="sxs-lookup"><span data-stu-id="b7e91-126">Let's say you want to control what sub-domains Microsoft 365 groups are created in.</span></span> <span data-ttu-id="b7e91-127">Você quer:</span><span class="sxs-lookup"><span data-stu-id="b7e91-127">You want:</span></span>
+<span data-ttu-id="e4a3a-126">Digamos que você queira controlar em quais sub-domínios os grupos do Microsoft 365 são criados.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-126">Let's say you want to control what sub-domains Microsoft 365 groups are created in.</span></span> <span data-ttu-id="e4a3a-127">Você deseja:</span><span class="sxs-lookup"><span data-stu-id="e4a3a-127">You want:</span></span>
   
-- <span data-ttu-id="b7e91-128">Grupos criados por alunos (usuários que tenham o **Departamento** configurado para **estudantes**) no domínio students.Groups.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="b7e91-128">Groups created by students (users which have **Department** set to **Students**) in the students.groups.contoso.com domain.</span></span> <span data-ttu-id="b7e91-129">Use este comando:</span><span class="sxs-lookup"><span data-stu-id="b7e91-129">Use this command:</span></span>
+- <span data-ttu-id="e4a3a-128">Grupos criados por alunos (usuários que têm **o Departamento** definido como **Alunos)** no students.groups.contoso.com domínio.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-128">Groups created by students (users which have **Department** set to **Students**) in the students.groups.contoso.com domain.</span></span> <span data-ttu-id="e4a3a-129">Use este comando:</span><span class="sxs-lookup"><span data-stu-id="e4a3a-129">Use this command:</span></span>
     
   ```
   New-EmailAddressPolicy -Name StudentsGroups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@students.groups.contoso.com","smtp:@groups.contoso.com" -ManagedByFilter {Department -eq 'Students'} -Priority 1
   ```
 
-- <span data-ttu-id="b7e91-130">Grupos criados por membros professores (usuários que têm o **Departamento** definido como **docente ou endereço de email contém Faculty.contoso.com)**) no domínio Faculty.Groups.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="b7e91-130">Groups created by faculty members (users which have **Department** set to **Faculty or email address contains faculty.contoso.com)**) in the faculty.groups.contoso.com domain.</span></span> <span data-ttu-id="b7e91-131">Use este comando:</span><span class="sxs-lookup"><span data-stu-id="b7e91-131">Use this command:</span></span>
+- <span data-ttu-id="e4a3a-130">Grupos criados por membros do  corpo docente (usuários que têm Departamento definido como Docente ou endereço de **email contém faculty.contoso.com)**) no faculty.groups.contoso.com domínio.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-130">Groups created by faculty members (users which have **Department** set to **Faculty or email address contains faculty.contoso.com)**) in the faculty.groups.contoso.com domain.</span></span> <span data-ttu-id="e4a3a-131">Use este comando:</span><span class="sxs-lookup"><span data-stu-id="e4a3a-131">Use this command:</span></span>
     
   ```
   New-EmailAddressPolicy -Name FacultyGroups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@faculty.groups.contoso.com","smtp:@groups.contoso.com" -ManagedByFilter {Department -eq 'Faculty' -or EmailAddresses -like "*faculty.contoso.com*"} -Priority 2
   ```
 
-- <span data-ttu-id="b7e91-132">Os grupos criados por qualquer pessoa são criados no domínio groups.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="b7e91-132">Groups created by anyone else are created in the groups.contoso.com domain.</span></span> <span data-ttu-id="b7e91-133">Use este comando:</span><span class="sxs-lookup"><span data-stu-id="b7e91-133">Use this command:</span></span>
+- <span data-ttu-id="e4a3a-132">Grupos criados por qualquer outra pessoa são criados no groups.contoso.com domínio.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-132">Groups created by anyone else are created in the groups.contoso.com domain.</span></span> <span data-ttu-id="e4a3a-133">Use este comando:</span><span class="sxs-lookup"><span data-stu-id="e4a3a-133">Use this command:</span></span>
     
   ```
   New-EmailAddressPolicy -Name OtherGroups -IncludeUnifiedGroupRecipients -EnabledPrimarySMTPAddressTemplate "SMTP:@groups.contoso.com" -Priority 3
   ```
 
-## <a name="change-email-address-policies"></a><span data-ttu-id="b7e91-134">Alterar políticas de endereço de email</span><span class="sxs-lookup"><span data-stu-id="b7e91-134">Change email address policies</span></span>
+## <a name="change-email-address-policies"></a><span data-ttu-id="e4a3a-134">Alterar políticas de endereço de email</span><span class="sxs-lookup"><span data-stu-id="e4a3a-134">Change email address policies</span></span>
 
-<span data-ttu-id="b7e91-135">Para alterar a prioridade ou os modelos de endereço de email para um EAP existente, use o cmdlet Set-EmailAddressPolicy.</span><span class="sxs-lookup"><span data-stu-id="b7e91-135">To change the priority or email address templates for an existing EAP, use the Set-EmailAddressPolicy cmdlet.</span></span>
+<span data-ttu-id="e4a3a-135">Para alterar a prioridade ou os modelos de endereço de email de um EAP existente, use o cmdlet Set-EmailAddressPolicy email.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-135">To change the priority or email address templates for an existing EAP, use the Set-EmailAddressPolicy cmdlet.</span></span>
   
 ```
 Set-EmailAddressPolicy -Name StudentsGroups -EnabledEmailAddressTemplates "SMTP:@students.groups.contoso.com","smtp:@groups.contoso.com", "smtp:@students.contoso.com" ManagedByFilter {Department -eq 'Students'} -Priority 2
 
 ```
 
-<span data-ttu-id="b7e91-136">Alterar um EAP não tem impacto nos grupos que já foram provisionados.</span><span class="sxs-lookup"><span data-stu-id="b7e91-136">Changing an EAP has no impact on the groups that have already been provisioned.</span></span>
+<span data-ttu-id="e4a3a-136">Alterar um EAP não afeta os grupos que já foram provisionados.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-136">Changing an EAP has no impact on the groups that have already been provisioned.</span></span>
   
-## <a name="delete-email-address-policies"></a><span data-ttu-id="b7e91-137">Excluir políticas de endereço de email</span><span class="sxs-lookup"><span data-stu-id="b7e91-137">Delete email address policies</span></span>
+## <a name="delete-email-address-policies"></a><span data-ttu-id="e4a3a-137">Excluir políticas de endereço de email</span><span class="sxs-lookup"><span data-stu-id="e4a3a-137">Delete email address policies</span></span>
 
-<span data-ttu-id="b7e91-138">Para excluir um EAP, use o cmdlet Remove-EmailAddressPolicy.</span><span class="sxs-lookup"><span data-stu-id="b7e91-138">To delete an EAP, use the Remove-EmailAddressPolicy cmdlet.</span></span>
+<span data-ttu-id="e4a3a-138">Para excluir um EAP, use o Remove-EmailAddressPolicy cmdlet.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-138">To delete an EAP, use the Remove-EmailAddressPolicy cmdlet.</span></span>
   
 ```
 Remove-EmailAddressPolicy -Identity StudentsGroups
 ```
 
-<span data-ttu-id="b7e91-139">Alterar um EAP não tem impacto nos grupos que já foram provisionados.</span><span class="sxs-lookup"><span data-stu-id="b7e91-139">Changing an EAP has no impact on the groups that have already been provisioned.</span></span>
+<span data-ttu-id="e4a3a-139">Alterar um EAP não afeta os grupos que já foram provisionados.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-139">Changing an EAP has no impact on the groups that have already been provisioned.</span></span>
   
-## <a name="hybrid-requirements"></a><span data-ttu-id="b7e91-140">Requisitos híbridos</span><span class="sxs-lookup"><span data-stu-id="b7e91-140">Hybrid requirements</span></span>
+## <a name="hybrid-requirements"></a><span data-ttu-id="e4a3a-140">Requisitos híbridos</span><span class="sxs-lookup"><span data-stu-id="e4a3a-140">Hybrid requirements</span></span>
 
-<span data-ttu-id="b7e91-141">Se sua organização estiver configurada em um cenário híbrido, confira [configurar os grupos do Microsoft 365 com o Exchange híbrido local](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups) para garantir que sua organização atenda aos requisitos para a criação de grupos do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="b7e91-141">If your organization is configured in a hybrid scenario, check out [Configure Microsoft 365 groups with on-premises Exchange hybrid](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups) to make sure your organization meets the requirements for creating Microsoft 365 groups.</span></span> 
+<span data-ttu-id="e4a3a-141">Se sua organização estiver configurada em um cenário híbrido, confira Configurar grupos do [Microsoft 365](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups) com o Exchange híbrido local para garantir que sua organização atenda aos requisitos para a criação de grupos do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-141">If your organization is configured in a hybrid scenario, check out [Configure Microsoft 365 groups with on-premises Exchange hybrid](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-microsoft-365-groups) to make sure your organization meets the requirements for creating Microsoft 365 groups.</span></span> 
   
-## <a name="additional-info-about-using-email-address-policies-groups"></a><span data-ttu-id="b7e91-142">Informações adicionais sobre como usar grupos de políticas de endereço de email:</span><span class="sxs-lookup"><span data-stu-id="b7e91-142">Additional info about using email address policies groups:</span></span>
+## <a name="additional-info-about-using-email-address-policies-groups"></a><span data-ttu-id="e4a3a-142">Informações adicionais sobre como usar grupos de políticas de endereço de email:</span><span class="sxs-lookup"><span data-stu-id="e4a3a-142">Additional info about using email address policies groups:</span></span>
 
-<span data-ttu-id="b7e91-143">Há mais algumas coisas que você precisa saber:</span><span class="sxs-lookup"><span data-stu-id="b7e91-143">There are a few more things to know:</span></span>
+<span data-ttu-id="e4a3a-143">Há mais algumas coisas a saber:</span><span class="sxs-lookup"><span data-stu-id="e4a3a-143">There are a few more things to know:</span></span>
   
-- <span data-ttu-id="b7e91-144">O modo como os grupos rápidos são criados depende do número de EAPs configurados em sua organização.</span><span class="sxs-lookup"><span data-stu-id="b7e91-144">How fast groups are created depends on the number of EAPs configured in your organization.</span></span>
+- <span data-ttu-id="e4a3a-144">A rapidez com que os grupos são criados depende do número de EAPs configurados em sua organização.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-144">How fast groups are created depends on the number of EAPs configured in your organization.</span></span>
     
-- <span data-ttu-id="b7e91-145">Administradores e usuários também podem modificar domínios quando criarem grupos.</span><span class="sxs-lookup"><span data-stu-id="b7e91-145">Admins and users can also modify domains when they create groups.</span></span>
+- <span data-ttu-id="e4a3a-145">Os administradores e usuários também podem modificar domínios ao criar grupos.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-145">Admins and users can also modify domains when they create groups.</span></span>
     
-- <span data-ttu-id="b7e91-146">O grupo de usuários é determinado usando as consultas padrão (Propriedades do usuário) que já estão disponíveis.</span><span class="sxs-lookup"><span data-stu-id="b7e91-146">Group of users is determined using the standard queries (User properties) that are already available.</span></span> <span data-ttu-id="b7e91-147">Confira [as propriedades filtráveis para o parâmetro-RecipientFilter](https://docs.microsoft.com/powershell/exchange/recipientfilter-properties) para obter as propriedades filtráveis suportadas.</span><span class="sxs-lookup"><span data-stu-id="b7e91-147">Check out [Filterable properties for the -RecipientFilter parameter](https://docs.microsoft.com/powershell/exchange/recipientfilter-properties) for supported filterable properties.</span></span> 
+- <span data-ttu-id="e4a3a-146">O grupo de usuários é determinado usando as consultas padrão (Propriedades do usuário) que já estão disponíveis.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-146">Group of users is determined using the standard queries (User properties) that are already available.</span></span> <span data-ttu-id="e4a3a-147">Confira as [propriedades filtáveis do parâmetro -RecipientFilter para](https://docs.microsoft.com/powershell/exchange/recipientfilter-properties) as propriedades filtáveis com suporte.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-147">Check out [Filterable properties for the -RecipientFilter parameter](https://docs.microsoft.com/powershell/exchange/recipientfilter-properties) for supported filterable properties.</span></span> 
     
-- <span data-ttu-id="b7e91-148">Se você não configurar nenhum EAPs para grupos, o domínio aceito padrão será selecionado para criação de grupo.</span><span class="sxs-lookup"><span data-stu-id="b7e91-148">If you don't configure any EAPs for groups, then the default accepted domain is selected for group creation.</span></span>
+- <span data-ttu-id="e4a3a-148">Se você não configurar nenhum EAPs para grupos, o domínio aceito padrão será selecionado para a criação do grupo.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-148">If you don't configure any EAPs for groups, then the default accepted domain is selected for group creation.</span></span>
     
-- <span data-ttu-id="b7e91-149">Se você remover um domínio aceito, deverá atualizar o EAPs primeiro, caso contrário, o provisionamento de grupo será afetado.</span><span class="sxs-lookup"><span data-stu-id="b7e91-149">If you remove an accepted domain, you should update the EAPs first, otherwise, group provisioning will be impacted.</span></span>
+- <span data-ttu-id="e4a3a-149">Se você remover um domínio aceito, deverá atualizar os EAPs primeiro, caso contrário, o provisionamento de grupo será afetado.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-149">If you remove an accepted domain, you should update the EAPs first, otherwise, group provisioning will be impacted.</span></span>
     
-- <span data-ttu-id="b7e91-150">É possível configurar um limite máximo de 100 políticas de endereço de email para uma organização.</span><span class="sxs-lookup"><span data-stu-id="b7e91-150">A maximum limit of 100 email address policies can be configured for an organization.</span></span>
+- <span data-ttu-id="e4a3a-150">Um limite máximo de 100 políticas de endereço de email pode ser configurado para uma organização.</span><span class="sxs-lookup"><span data-stu-id="e4a3a-150">A maximum limit of 100 email address policies can be configured for an organization.</span></span>
     
-## <a name="related-articles"></a><span data-ttu-id="b7e91-151">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="b7e91-151">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="e4a3a-151">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="e4a3a-151">Related articles</span></span>
 
-[<span data-ttu-id="b7e91-152">Passo a passo de planejamento de governança de colaboração</span><span class="sxs-lookup"><span data-stu-id="b7e91-152">Collaboration governance planning step-by-step</span></span>](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[<span data-ttu-id="e4a3a-152">Planejamento de governança de colaboração passo a passo</span><span class="sxs-lookup"><span data-stu-id="e4a3a-152">Collaboration governance planning step-by-step</span></span>](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
-[<span data-ttu-id="b7e91-153">Criar seu plano de governança de colaboração</span><span class="sxs-lookup"><span data-stu-id="b7e91-153">Create your collaboration governance plan</span></span>](collaboration-governance-first.md)
+[<span data-ttu-id="e4a3a-153">Criar seu plano de governança de colaboração</span><span class="sxs-lookup"><span data-stu-id="e4a3a-153">Create your collaboration governance plan</span></span>](collaboration-governance-first.md)
 
-[<span data-ttu-id="b7e91-154">Criar um grupo do Microsoft 365 no centro de administração</span><span class="sxs-lookup"><span data-stu-id="b7e91-154">Create an Microsoft 365 group in the admin center</span></span>](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)
+[<span data-ttu-id="e4a3a-154">Criar um grupo do Microsoft 365 no centro de administração</span><span class="sxs-lookup"><span data-stu-id="e4a3a-154">Create an Microsoft 365 group in the admin center</span></span>](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)
