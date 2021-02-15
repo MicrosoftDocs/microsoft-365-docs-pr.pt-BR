@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Obtenha uma visão geral da compreensão de documentos no Microsoft SharePoint Syntex.
-ms.openlocfilehash: c0396c8e702d3e32db93d26dba23ab038546bea0
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: d2bf581468eeee008d09a242876bed5ad07ae01f
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976514"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242405"
 ---
 # <a name="document-understanding-overview"></a>Visão geral da compreensão de documentos
 
@@ -46,10 +46,45 @@ Adicione se *Classificadores* e *Extratores* ao seu modelo de compreensão de do
 
 Você pode usar os arquivos de exemplo para treinar e testar seus separadores e extrações em seu modelo. Os arquivos de exemplo fornecem exemplos ao seu modelo sobre o que procurar ao tentar identificar e extrair dados de arquivos. Por exemplo, você treina os classificadores e os extratores da renovação de contrato com exemplos de documentos de renovação de contrato que a sua empresa usa. Você também pode usar arquivos de exemplo para testar a eficácia do seu modelo.
 
-> [!NOTE]
-> Se você usar tecnologia de reconhecimento óptico de caracteres (OCR) para escanear documentos, o Syntex tem um limite de 15 páginas para treinamento de modelo.
-
 Depois de publicar seu modelo, use o centro de conteúdo para aplicá-lo a qualquer biblioteca de documentos do SharePoint à qual você tenha acesso.  
+
+### <a name="file-limitations"></a>Limitações de arquivo
+
+Os modelos de compreensão de documentos usam a tecnologia reconhecimento óptico de caracteres (OCR) para digitalizar PDFs, imagens e arquivos TIFF, tanto quando você treina um modelo com arquivos de exemplo como quando executa o modelo em arquivos em uma biblioteca de documentos.
+
+Observe as seguintes diferenças em relação aos arquivos baseados em texto do Microsoft Office e arquivos digitalizados por OCR (PDF, imagem ou TIFF):
+
+- Arquivos do Office: truncamos em 64000 caracteres (no treinamento e quando executado em arquivos em uma biblioteca de documentos).
+- Arquivos digitalizados por OCR: há um limite de 20 páginas.  
+
+#### <a name="supported-file-types"></a>Tipos de arquivo compatíveis
+
+Os modelos de compreensão de documentos são compatíveis com os seguintes tipos de arquivo:
+
+- doc
+- docx
+- eml
+- HEIC
+- HEIF
+- htm
+- HTML
+- JPEG
+- jpg
+- Markdown
+- md
+- msg
+- pdf
+- PNG
+- ppt
+- pptx
+- rtf
+- tif
+- tiff
+- txt
+- xls
+- xlsx
+
+
 
 ## <a name="see-also"></a>Confira também
 [Criar um classificador](create-a-classifier.md)
@@ -65,3 +100,5 @@ Depois de publicar seu modelo, use o centro de conteúdo para aplicá-lo a qualq
 [Diferença entre um modelo de compreensão de documentos e um modelo de processamento de formulário](difference-between-document-understanding-and-form-processing-model.md)
   
 [Visão geral do processamento de formulário](form-processing-overview.md)
+
+[Modo de acessibilidade do SharePoint Syntex](accessibility-mode.md)

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 675a98656655521095096a535d4ee8352885e70c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2541519ad9082383c5381452722d023f23760798
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166456"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242707"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -43,21 +43,22 @@ Os seguintes itens de equipes podem ser retidos e excluídos usando políticas d
 > [!NOTE]
 > Incluir o conteúdo do cartão é uma adição recente e está sendo implementada atualmente para os locatários. Para obter mais informações, confira [Centro de conformidade do Microsoft 365 para conteúdo do Cartão Adaptável por meio de aplicativos no Teams agora disponíveis](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
-Mensagens de equipes em canais privados não são incluídas, trechos de código e reações de outras pessoas na forma de emoticons não são incluídos.
+No momento, as mensagens em canais privados do Teams não têm suporte das políticas de retenção. Trechos de código, memorandos de voz gravados do cliente móvel do Teams e reações de outras pessoas na forma de emoticons não são incluídos quando você usa políticas de retenção para Teams.
 
 Emails e arquivos que você usa com o Teams não são incluídos nas políticas de retenção para Teams. Esses itens têm suas próprias políticas de retenção.
-
-As seguintes caixas de correio por RecipientTypeDetails têm suporte para políticas de retenção do Teams:
-
-- MailUser
-- UserMailbox
-- GroupMailbox
-- ArbitrationMailbox
-- SharedMailbox
 
 ## <a name="how-retention-works-with-microsoft-teams"></a>Como retenção funciona com o Microsoft Teams
 
 Você pode usar uma política de retenção para reter e excluir dados de bate-papos e mensagens de canal no Teams. Nos bastidores, as caixas de correio do Exchange são usadas para armazenar essas mensagens. Os dados dos bate-papos do Teams são armazenados em uma pasta oculta na caixa de correio de cada usuário incluído no bate-papo, e uma pasta oculta semelhante em uma caixa de correio do grupo é usada para mensagens do canal do Teams.
+
+Estas caixas de correio são listadas pelo atributo RecipientTypeDetails:
+
+- **UserMailbox**: essas caixas de correio armazenam mensagens de usuários do Teams que têm uma caixa de correio do Exchange Online.
+- **MailUser**: essas caixas de correio armazenam mensagens de usuários do Teams que têm uma caixa de correio de um servidor do Exchange local e não do Exchange Online.
+- **Usuário**: essas caixas de correio armazenam mensagens de usuários do Teams que não têm uma caixa de correio de servidores do Exchange Online ou do Exchange local.
+- **GroupMailbox**: essas caixas de correio armazenam mensagens de canais do Teams.
+
+Outros tipos de caixa de correio, como RoomMailbox que é usado em salas de conferência do Teams, não têm suporte das políticas de retenção do Teams.
 
 No entanto, é importante compreender que o Teams usa um serviço de chat fornecido pelo Azure que também armazena esses dados e, por padrão, esse serviço armazena os dados para sempre. Por esse motivo, se você precisar excluir mensagens do Teams por motivos de conformidade, recomendamos que você use políticas de retenção para Teams que podem excluir permanentemente esses dados das caixas de correio do Exchange e do serviço de bate-papo baseado no Azure. Para obter mais informações sobre a arquitetura subjacente, confira [Segurança e conformidade no Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=871258) e, especificamente, a seção [Arquitetura de Proteção de Informações](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview#information-protection-architecture).
 

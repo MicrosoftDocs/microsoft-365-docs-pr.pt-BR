@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 04ac373250f13ece1a4e976891044a6584989f6d
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 03408a2f9e57421ea613bdb38e253401526f8f71
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142034"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242361"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -81,7 +81,7 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 
 |Eu quero...|Documentação|
 |----------------|---------------|
-|Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado conforme for criado—incluindo suporte para rotulagem manual em todas plataformas |[Usar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
+|Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado conforme for criado—incluindo suporte para rotulagem manual em todas plataformas |[Gerenciar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
 |Permitir que os usuários rotulem e protejam arquivos de computadores com Windows usando aplicativos do Office, Explorador de Arquivos e PowerShell|[Cliente de rotulagem unificada da Proteção de Informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
 |Criptografar documentos e emails com rótulos de confidencialidade e restringir quem pode acessá-los e como podem usar esse conteúdo |[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md)|
 |Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados — até mesmo quando os documentos são criptografados | [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
