@@ -33,7 +33,7 @@ Escolhendo aplicativos integrados no centro de administração do Microsoft 365,
 
 1. In the admin center, in the left nav, choose **Settings**, and then choose **Integrated apps**. 
 
-2. Escolha um aplicativo **com o Status** de Mais **aplicativos disponíveis.**
+2. Escolha um aplicativo com **o Status** de **Mais aplicativos disponíveis.**
 
 3. Selecione **Implantar** na parte superior da página ao lado da mensagem que se refere à espera de implantação.
 
@@ -86,7 +86,7 @@ Você pode encontrar, testar e implantar totalmente aplicativos publicados que a
 No Centro de administração do Microsoft 365, o **Status** de cada aplicativo implantado é **OK** com uma implantação de Tipo de Implantação de **Teste,** Implantação completa ou **Personalizado** e **a** data em que você implantou o aplicativo.
 
 > [!NOTE]
-> Se um aplicativo tiver sido implantado anteriormente em outro lugar que não seja o Portal de Aplicativos Integrados, o **Tipo de Implantação** será **Personalizado.**
+> Se um aplicativo tiver sido implantado anteriormente em outro lugar que não seja o portal Aplicativos Integrados, o **Tipo de Implantação** será **Personalizado.**
 
 ## <a name="unsupported-scenarios"></a>Cenários sem suporte
 

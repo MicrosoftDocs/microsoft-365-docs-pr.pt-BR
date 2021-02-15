@@ -76,7 +76,7 @@ additionalContent:
     - title: Saiba mais sobre o Office
       summary: Saiba como usar o Word, Excel, PowerPoint e outros aplicativos do Office.
       url: https://support.microsoft.com/training
-    - title: Mudar do Google Workspace
+    - title: Alterne a partir do Google Workspace
       summary: Descubra como mudar para o Microsoft 365 para empresas.
       url: moveto-microsoft-365/move-from-google-workspace-overview.md
     - title: Encontre mais recursos de administrador

@@ -55,7 +55,7 @@ Para definir configurações de colaboração externa
 
 Observe as configurações na seção **Restrições de** colaboração. Certifique-se de que os domínios dos convidados com os que você deseja colaborar não sejam bloqueados.
 
-Se você trabalha com convidados de várias organizações, talvez queira restringir sua capacidade de acessar dados de diretório. Isso impedirá que eles veja quem mais é um convidado no diretório. Para fazer isso, em restrições de acesso de usuário **convidado,** selecione **Usuários** convidados têm acesso limitado a propriedades e associação de configurações de objetos de diretório ou acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de **diretório.**
+Se você trabalha com convidados de várias organizações, talvez queira restringir sua capacidade de acessar dados de diretório. Isso impedirá que eles veja quem mais é um convidado no diretório. Para fazer isso, sob restrições de acesso de usuário **convidado,** selecione **Usuários** convidados têm acesso limitado a propriedades e associação de configurações de objetos de diretório ou acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de **diretório.**
 
 ## <a name="teams-guest-access-settings"></a>Configurações de acesso de convidados do Teams
 
@@ -74,7 +74,7 @@ Para definir as configurações de acesso de convidado do Teams
 5. Certifique-se de que **Permitir acesso de convidado no Teams** esteja definido como **Ativado**.
 6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **Salvar**.
 
-Depois que o acesso de convidados do Teams está ligado, você pode controlar opcionalmente o acesso de convidados a equipes individuais e seus sites do SharePoint associados usando rótulos de sensibilidade. Para mais informações, veja [Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Depois que o acesso de convidados do Teams está ligado, você pode controlar opcionalmente o acesso de convidados a equipes individuais e seus sites associados do SharePoint usando rótulos de sensibilidade. Para mais informações, veja [Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!NOTE]
 > Pode levar até 24 horas para que as configurações de convidado do Teams se tornem ativas depois que você a ativa.
@@ -146,16 +146,16 @@ Para criar uma equipe
 5. Digite um nome e uma descrição para a equipe e clique em **Criar.**
 6. Clique **em Ignorar**.
 
-Convidaremos os usuários mais tarde. Em seguida, é importante verificar as configurações de compartilhamento em nível de site para o site do SharePoint associado à equipe.
+Convidaremos os usuários mais tarde. Em seguida, é importante verificar as configurações de compartilhamento no nível do site do SharePoint que está associado à equipe.
 
 ## <a name="sharepoint-site-level-sharing-settings"></a>Configurações de compartilhamento no nível do site do SharePoint
 
-Verifique as configurações de compartilhamento no nível do site para garantir que elas permitam o tipo de acesso que você deseja para essa equipe. Por exemplo, se você definir as configurações no nível da organização como Qualquer **pessoa,** mas quiser que todos os convidados se autentiem para essa equipe, certifique-se de que as configurações de compartilhamento no nível do site estão definidas como convidados novos e existentes. 
+Verifique as configurações de compartilhamento no nível do site para garantir que elas permitam o tipo de acesso que você deseja para essa equipe. Por exemplo, se você definir as configurações no nível da organização como Qualquer **pessoa,** mas quiser que todos os convidados se autententem nessa equipe, certifique-se de que as configurações de compartilhamento no nível do site estão definidas como convidados novos e existentes. 
 
 ![Captura de tela das configurações de compartilhamento de site externo do SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
 Para definir configurações de compartilhamento no nível do site
-1. No centro de administração do SharePoint, no painel de navegação esquerdo, **expanda Sites** e clique **em Sites ativos.**
+1. No centro de administração do SharePoint, no painel de navegação esquerdo, **expanda Sites** e clique em **Sites ativos.**
 2. Selecione o site da equipe que você acabou de criar.
 3. Clique em ... e escolha **Compartilhamento**.
 4. Certifique-se de que o compartilhamento está definido **como Qualquer** pessoa ou convidados novos **e existentes.**
@@ -187,6 +187,6 @@ Para convidar convidados para uma equipe
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)
 
-[Integração do SharePoint e oneDrive com o Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+[Integração do SharePoint e OneDrive com o Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
 
 [As opções de compartilhamento ficam acinzentas ao compartilhar do SharePoint ou do OneDrive](https://docs.microsoft.com/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)

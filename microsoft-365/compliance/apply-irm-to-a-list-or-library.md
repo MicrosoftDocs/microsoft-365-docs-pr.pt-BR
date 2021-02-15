@@ -40,7 +40,7 @@ Você pode usar o Gerenciamento de Direitos de Informação (IRM) para ajudar a 
 
 - Para aplicar o IRM a uma lista ou biblioteca, você deve ter permissões de administrador para essa lista ou biblioteca.
 
-- Se você estiver usando o SharePoint Online, os usuários poderão passar por tempos finais ao baixar arquivos maiores protegidos por IRM. Para evitar tempos, use seus programas do Office para aplicar proteção de IRM e armazene arquivos maiores em uma biblioteca do SharePoint que não use IRM.
+- Se você estiver usando o SharePoint Online, os usuários poderão passar por tempos finais ao baixar arquivos maiores protegidos por IRM. Para evitar tempos tempos tempos, use seus programas do Office para aplicar proteção de IRM e armazene arquivos maiores em uma biblioteca do SharePoint que não use IRM.
 
 > [!NOTE]
 > Se você estiver usando o SharePoint Server 2013, um administrador de servidor deverá instalar protetores em todos os servidores Web front-end para cada tipo de arquivo que as pessoas em sua organização querem proteger usando o IRM.

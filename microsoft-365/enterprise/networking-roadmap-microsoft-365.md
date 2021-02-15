@@ -22,9 +22,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "49787746"
 ---
-# <a name="networking-roadmap-for-microsoft-365"></a>Roteiro de rede para o Microsoft 365
+# <a name="networking-roadmap-for-microsoft-365"></a>Roteiro de rede do Microsoft 365
 
-O Microsoft 365 para empresas inclui serviços de nuvem de colaboração e produtividade, o Microsoft Intune e muitos serviços de identidade e segurança do Microsoft Azure. Todos esses serviços baseados em nuvem dependem da segurança, desempenho e confiabilidade das conexões de dispositivos clientes pela Internet ou circuitos dedicados. Para hospedar esses serviços e disponibilizá-los para clientes em todo o mundo, a Microsoft desenvolveu uma infraestrutura de rede que enfatiza o desempenho e a integração. 
+O Microsoft 365 para empresas inclui serviços de nuvem de produtividade e colaboração, o Microsoft Intune e muitos serviços de identidade e segurança do Microsoft Azure. Todos esses serviços baseados em nuvem dependem da segurança, desempenho e confiabilidade das conexões de dispositivos clientes pela Internet ou circuitos dedicados. Para hospedar esses serviços e disponibilizá-los para clientes em todo o mundo, a Microsoft desenvolveu uma infraestrutura de rede que enfatiza o desempenho e a integração. 
 
 Uma parte essencial da integração do Microsoft 365 é garantir que suas conexões de rede e Internet sejam configuradas para acesso otimizado. Configurar sua rede local para acessar uma nuvem de Software como Serviço (SaaS) distribuída globalmente é diferente de uma rede tradicional otimizada para tráfego para datacenters locais e uma conexão central com a Internet. 
 
@@ -44,7 +44,7 @@ Na fase de planejamento da implementação da rede:
 
 Na fase de implantação da implementação da rede:
 
-- [Certifique-se de que sua rede corporativa seja otimizada para conectividade com o Microsoft 365](set-up-network-for-microsoft-365.md)
+- [Certifique-se de que sua rede corporativa seja otimizada para a conectividade do Microsoft 365](set-up-network-for-microsoft-365.md)
 - [Adicionar os domínios DNS para sua organização](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)
 - [Otimizar sua conectividade com os pontos de extremidade do Microsoft 365](microsoft-365-ip-web-service.md)
 - [Otimizar a conectividade para funcionários remotos](microsoft-365-vpn-split-tunnel.md)

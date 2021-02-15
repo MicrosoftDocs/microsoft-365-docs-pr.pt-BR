@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
-description: Saiba como permitir que os membros enviem email como um grupo do Microsoft 365 ou enviem email em nome de um grupo do Microsoft 365.
+description: Saiba como permitir que os membros enviem emails como um grupo do Microsoft 365 ou enviem emails em nome de um grupo do Microsoft 365.
 ms.openlocfilehash: 6dff559eceec1b719f31d577d7fff8f604636a47
 ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
 ms.translationtype: MT
@@ -26,57 +26,57 @@ ms.locfileid: "49663578"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Permitir que os membros enviem como ou enviem em nome de um grupo
 
-Um membro de um grupo do Microsoft 365 que tenha recebido as permissões **Enviar como** ou **enviar em nome** de pode enviar emails como o grupo ou em nome do grupo. Este artigo explica como um administrador global ou do Exchange pode definir essas permissões.
+Um membro de um grupo do Microsoft 365  que recebeu permissões Enviar como ou Enviar em nome de pode enviar emails como o grupo ou em nome do grupo.  Este artigo explica como um administrador global ou do Exchange pode definir essas permissões.
   
-Por exemplo, se Megan Bowen fizer parte do grupo **Training** Microsoft 365, e tiver permissões **Send** as no grupo, se ele enviar um email como o grupo, será parecido com o grupo de **treinamento** enviado por email. 
+Por exemplo, se Megan Bowen faz parte do grupo treinamento  do **Microsoft** 365 e tem permissões Enviar como no  grupo, se ela enviar um email como o grupo, parece que o grupo de treinamento enviou o email. 
   
-A permissão **enviar em nome** de permite que um usuário envie um email em nome de um grupo do Microsoft 365. Por exemplo, se Alex Wilber é parte do grupo **marketing** da Microsoft 365 e tem permissões **de enviar em nome** de e envia um email como grupo, o email parece que foi enviado por **Alex Wilber em nome de marketing**.
+A **permissão Enviar em nome** de permite que um usuário envie emails em nome de um grupo do Microsoft 365. Por exemplo, se Alex Wilber faz parte do grupo **Marketing**  do Microsoft 365 e tem permissões Enviar em nome de e envia um email como o grupo, o email parece ter sido enviado por **Alex Wilber** em nome de Marketing.
 
 > [!IMPORTANT]
-> Você pode configurar **Enviar como** ou **enviar em nome** de um determinado usuário, mas não ambos. Se você configurar ambos, o padrão será **Enviar como**.
+> Você pode configurar **Enviar como** ou Enviar **em nome** de um determinado usuário, mas não ambos. Se você configurar ambos, o padrão será **Enviar como**.
 
 > [!TIP]
-> Consulte [Enviar email de ou em nome de um grupo do Microsoft 365](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) para saber como usar o Outlook e o Outlook na Web para enviar emails de um grupo.
+> Confira Enviar emails de ou em nome de um grupo do [Microsoft 365](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) para saber como usar o Outlook e o Outlook na Web para enviar emails de um grupo.
     
-## <a name="allow-members-to-send-email-as-a-group"></a>Permitir que os membros enviem email como um grupo
+## <a name="allow-members-to-send-email-as-a-group"></a>Permitir que os membros enviem emails como um grupo
 
-Esta seção explica como permitir que os usuários enviem emails como um grupo no [centro de administração do Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104) (Eat) no Exchange Online.
+Esta seção explica como permitir que os usuários enviem emails como um grupo no Centro de administração do [Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104) (EAC) no Exchange Online.
   
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">centro de administração do Exchange</a>, vá para grupos de **destinatários** \> .
+1. No Centro <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">de administração do Exchange,</a>vá para **Grupos de Destinatários.** \> 
     
-2. Selecione **Editar** ![ ícone de grupo ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) no grupo para o qual você deseja permitir que os usuários enviem.   
+2. Selecione **Editar** ![ ícone do grupo Editar no grupo que você deseja permitir que os ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) usuários enviem como.   
     
-3. Selecione **delegação de grupo**.
+3. Selecione **delegação de grupo.**
     
-4. Na seção **Enviar como** , selecione o **+** sinal para adicionar os usuários que você deseja enviar como o grupo. 
+4. Na seção **Enviar como,** selecione o **+** sinal para adicionar os usuários que você deseja enviar como o Grupo. 
     
-    ![Captura de tela da caixa de diálogo Enviar como](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
+    ![Captura de tela da caixa de diálogo enviar como](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
-5. Digite para pesquisar ou selecionar um usuário da lista. Selecione **OK** e **salvar**.
+5. Digite para pesquisar ou escolher um usuário na lista. Selecione **OK** e **Salvar.**
     
-    ![Digite para pesquisar ou selecionar um usuário na lista](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    ![Digite para pesquisar ou escolher um usuário na lista](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
   
-## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>Permitir que os membros enviem email em nome de um grupo
+## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>Permitir que os membros enviem emails em nome de um grupo
 
-Esta seção explica como permitir que os usuários enviem emails em nome de um grupo no centro de administração do Exchange (Eat) no Exchange Online.
+Esta seção explica como permitir que os usuários enviem emails em nome de um grupo no Centro de administração do Exchange (EAC) no Exchange Online.
   
-1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">centro de administração do Exchange</a>, vá para grupos de **destinatários** \> .
+1. No Centro <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">de administração do Exchange,</a>vá para **Grupos de Destinatários.** \> 
     
-2. Selecione **Editar** ![ ícone de grupo ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) no grupo para o qual você deseja permitir que os usuários enviem. 
+2. Selecione **Editar** ![ ícone do grupo Editar no grupo que você deseja permitir que os ](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) usuários enviem como. 
     
-3. Selecione **delegação de grupo**.
+3. Selecione **delegação de grupo.**
     
-4. Na seção enviar em nome de, selecione o **+** sinal para adicionar os usuários que você deseja enviar como o grupo. 
+4. Na seção Enviar em Nome de, selecione o sinal para **+** adicionar os usuários que você deseja enviar como o Grupo. 
     
     ![Captura de tela da caixa de diálogo enviar em nome de](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
-5. Digite para pesquisar ou selecionar um usuário da lista. Selecione **OK** e **salvar**.
+5. Digite para pesquisar ou escolher um usuário na lista. Selecione **OK** e **Salvar.**
     
-    ![Digite para pesquisar ou selecionar um usuário na lista](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    ![Digite para pesquisar ou escolher um usuário na lista](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Passo a passo de planejamento de governança de colaboração](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Planejamento de governança de colaboração passo a passo](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 
 [Criar seu plano de governança de colaboração](collaboration-governance-first.md)
 
@@ -84,4 +84,4 @@ Esta seção explica como permitir que os usuários enviem emails em nome de um 
 
 [Add-RecipientPermission](https://go.microsoft.com/fwlink/p/?LinkId=723960)
 
-[Conjunto-unificado](https://go.microsoft.com/fwlink/p/?LinkId=616189)
+[Set-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616189)

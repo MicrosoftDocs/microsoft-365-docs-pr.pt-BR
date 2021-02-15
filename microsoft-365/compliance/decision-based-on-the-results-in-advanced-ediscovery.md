@@ -1,5 +1,5 @@
 ---
-title: Decisão com base nos resultados da descoberta eletrônica avançada
+title: Decisão com base nos resultados da Descoberta Avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,7 +14,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
-description: Saiba como a guia decidir em descoberta eletrônica avançada fornece dados que podem ajudá-lo a determinar o tamanho correto do conjunto de arquivos de caso.
+description: Saiba como a guia Decidir na Descoberta eDiscovery Avançada fornece dados que podem ajudá-lo a determinar o tamanho correto do conjunto de revisão de arquivos de ocorrência.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 7a4c2fe891a48451d9b8d852f603b225ab7b080d
@@ -24,30 +24,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/06/2021
 ms.locfileid: "49769146"
 ---
-# <a name="decisions-based-on-relevance-results-in-advanced-ediscovery"></a>Decisões com base nos resultados de relevância na descoberta eletrônica avançada
+# <a name="decisions-based-on-relevance-results-in-advanced-ediscovery"></a>Decisões baseadas em resultados de relevância na Descoberta Descoberta Avançada
   
-No módulo de relevância na descoberta eletrônica avançada, a guia decidir fornece informações adicionais para exibir e usar estatísticas de suporte à decisão para determinar o tamanho do conjunto de análise de arquivos de caso.
+No módulo Relevância na Descoberta eDiscovery Avançada, a guia Decidir fornece informações adicionais para exibir e usar estatísticas de suporte à decisão para determinar o tamanho do conjunto de revisão de arquivos de caso.
   
-## <a name="using-the-decide-tab"></a>Usando a guia decidir
+## <a name="using-the-decide-tab"></a>Usando a guia Decidir
 
 ![Decisão de Relevância](../media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
   
-Esta guia inclui os seguintes componentes:
+Essa guia inclui os seguintes componentes:
   
-- **Problema**: aqui, você pode selecionar o problema de interesse na lista.
+- **Problema:** a partir daqui, você pode selecionar o problema de interesse na lista.
 
-- **Taxa de recuperação de revisão**: comparações de análise de descoberta eletrônica avançada de acordo com as pontuações de relevância. O ponto de corte no gráfico representa a porcentagem de arquivos a serem revisados, mapeados para uma pontuação de relevância. Isso é usado na fase de teste de relevância e como um limite de exportação para a seleção. O ponto de corte padrão, para o número de arquivos a serem revisados, é o ponto no qual o equilíbrio entre recall e Precision é ideal. O ponto de corte real deve ser determinado pelo usuário dependendo dos objetivos e da troca de custo (% revisão) e risco (% recall). Usando o controle deslizante, você pode ajustar o ponto de corte e ver o efeito no gráfico e nos parâmetros, ao ajustar a porcentagem de arquivos relevantes a serem recuperados e antes de validar uma decisão.
+- **Taxa de reavaliação-recall:** comparações da revisão de Descobertas De acordo com as pontuações de relevância. O ponto de corte no gráfico representa a porcentagem de arquivos a analisar, mapeado para uma pontuação de Relevância. Isso é usado na fase teste de relevância e como um limite de exportação para o descarte. O ponto de corte padrão, para o número de arquivos a analisar, está no ponto em que o equilíbrio entre Recall e Precision é ideal. O ponto de corte real deve ser determinado pelo usuário, dependendo dos objetivos, da troca de custo (%review) e do risco (%recall). Usando o controle deslizante, você pode ajustar o ponto de corte e ver o efeito no gráfico e nos parâmetros, ao ajustar a porcentagem de arquivos relevantes a serem recuperados e antes de validar uma decisão.
 
-- **Parâmetros**: revisar, renovar, os parâmetros de custo total relevantes e totais são estatísticas calculadas cumulativas referentes ao conjunto de revisão em relação à coleção para o caso inteiro. As definições desses parâmetros são as seguintes:
+- **Parâmetros:** Review, Recall, Next relevant and Total cost parameters are cumulative calculated statistics pertaining to the review set in relation to the collection for the entire case. As definições para esses parâmetros são as seguinte:
 
-  - **Revisão**: porcentagem de arquivos a serem revisados com base nesse corte.
+  - **Revisão:** Porcentagem de arquivos a analisar com base nesse corte.
 
-  - **Recall**: porcentagem de arquivos relevantes no conjunto de revisão.
+  - **Recall:** porcentagem de arquivos relevantes no conjunto de revisão.
 
-  - **Próximo relevante**: o custo para revisar e identificar outro arquivo relevante que não esteja no conjunto de revisão.
+  - **Próximo relevante:** custo para revisar e identificar outro arquivo relevante que não está atualmente no conjunto de revisão.
 
-  - **Custo total**: custo para a revisão desse percentual dos arquivos de caso. As configurações de parâmetros de custo podem ser definidas pelo gerente de caso.
+  - **Custo total**: custo para analisar essa porcentagem dos arquivos de ocorrência. As configurações de parâmetro de custo podem ser definidas pelo Gerenciador de ocorrências.
 
-  - **Distribuição por Pontuação de relevância**: os arquivos na exibição cinza escuro à esquerda estão abaixo da Pontuação de corte. Uma dica de ferramenta exibe a pontuação de relevância e a porcentagem relacionada de arquivos no conjunto de arquivos de revisão em relação ao total de arquivos.
+  - **Distribuição por pontuação de relevância:** os arquivos na exibição cinza escuro à esquerda estão abaixo da pontuação de recorte. Uma dica de ferramenta exibe a pontuação de relevância e a porcentagem relacionada de arquivos no conjunto de arquivos de revisão em relação ao total de arquivos.
 
-O painel de **detalhes** expandido exibe mais detalhes. Os arquivos nas figuras de coleção não incluem arquivos vazios ou nebulous. Os números de arquivos da família representam arquivos que não são carregados em relevância, ainda que sejam contados como parte da família.
+O painel **Detalhes** expandido exibe mais detalhes. Arquivos em figuras de coleção não incluem arquivos vazios ou nebulous. Os arquivos de família representam arquivos que não são carregados em Relevância, mas ainda contabilizados como parte da família.

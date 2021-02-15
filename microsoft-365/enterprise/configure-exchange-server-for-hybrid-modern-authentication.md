@@ -91,7 +91,7 @@ Verifique se os clientes urLs aos que podem se conectar estão listados como nom
    Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 | select -ExpandProperty ServicePrincipalNames
    ```
 
-   Anote (e captura de tela para comparação posterior) a saída desse comando, que deve incluir uma URL de https://  *autodiscover.yourdomain.com*  e  *https:// mail.yourdomain.com,* mas que consista principalmente em SPNs que começam com 00000002-0000-0ff1-ce00-0000000000000/. Se houver https:// URLs de seu local ausentes, será necessário adicionar esses registros específicos a essa lista.
+   Anote (e captura de tela para comparação posterior) a saída desse comando, que deve incluir uma URL de https://  *autodiscover.yourdomain.com*  e  *https:// mail.yourdomain.com,* mas, principalmente, consiste em SPNs que começam com 00000002-0000-0ff1-ce00-0000000000000/. Se houver https:// URLs de seu local ausentes, será necessário adicionar esses registros específicos a essa lista.
 
 3. Se você não vir seus registros MAPI/HTTP, EWS, ActiveSync, OAB e Descoberta Automática internos e externos nesta lista, adicione-os usando o comando abaixo (as URLs de exemplo são ' e ' ', mas você substituiria as `mail.corp.contoso.com` `owa.contoso.com` **URLs** de exemplo por suas próprias ):
 
@@ -138,7 +138,7 @@ Retorne ao Shell de Gerenciamento do Exchange local para este último comando. A
 Get-AuthServer | where {$_.Name -eq "EvoSts"}
 ```
 
-A saída deve mostrar um AuthServer do nome EvoSts e o estado "Habilitado" deve ser True. Se você não vir isso, baixe e execute a versão mais recente do Assistente de Configuração Híbrida.
+Sua saída deve mostrar um AuthServer do nome EvoSts e o estado "Habilitado" deve ser True. Se você não vir isso, baixe e execute a versão mais recente do Assistente de Configuração Híbrida.
 
  **Importante** Se você estiver executando o Exchange 2010 em seu ambiente, o provedor de autenticação EvoSTS não será criado.
 

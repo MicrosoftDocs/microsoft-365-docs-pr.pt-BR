@@ -27,7 +27,7 @@ Recomendamos trabalhar com um de nossos parceiros de dispositivos aprovados. Voc
 3. Depois que eles chegarem, faça o seguinte:
     - [Registrar novos dispositivos sozinho](register-devices-self.md)
     - Trabalhar com um parceiro para registrar os dispositivos
-4. [Prepare seus usuários para usar](get-started-devices.md) dispositivos da Área de Trabalho Gerenciada da Microsoft
+4. [Preparar seus usuários para usar](get-started-devices.md) dispositivos da Área de Trabalho Gerenciada da Microsoft
 
 ## <a name="to-reuse-existing-devices"></a>Para reutilizar dispositivos existentes
 
@@ -35,7 +35,7 @@ Recomendamos trabalhar com um de nossos parceiros de dispositivos aprovados. Voc
 2. Faça o seguinte:
     - [Registrar dispositivos existentes sozinho](register-reused-devices-self.md)
     - Trabalhar com um parceiro para registrar os dispositivos
-3. [Prepare seus usuários para usar](get-started-devices.md) dispositivos da Área de Trabalho Gerenciada da Microsoft
+3. [Preparar seus usuários para usar](get-started-devices.md) dispositivos da Área de Trabalho Gerenciada da Microsoft
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Etapas para começar a trabalhar com a Área de Trabalho Gerenciada da Microsoft
 

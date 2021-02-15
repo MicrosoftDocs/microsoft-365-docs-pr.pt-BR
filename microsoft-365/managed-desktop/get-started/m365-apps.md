@@ -28,7 +28,7 @@ A Área de Trabalho Gerenciada da Microsoft garante que os Aplicativos do Micros
 - PowerPoint
 - Outlook
 - Publisher
-- Access
+- Acessar
 - Skype for Business
 - OneNote
 
@@ -49,14 +49,14 @@ A Área de Trabalho Gerenciada da Microsoft não dá suporte à implantação da
 
 Os Aplicativos do Microsoft 365 estão definidos para atualização no [Canal Empresarial Mensal.](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) Essa prática fornece aos usuários novos recursos do Office a cada mês, mas eles receberão apenas uma atualização por mês em um cronograma de lançamento previsível. As atualizações são lançadas na segunda terça-feira do mês; essas atualizações podem incluir atualizações de recursos, segurança e qualidade. Essas atualizações ocorrem automaticamente e são retiradas diretamente da CDN do Office para esse canal específico.
 
-A Área de Trabalho Gerenciada da Microsoft escalona cada versão para identificar possíveis problemas em seu ambiente. Completamos a versão de lançamento 28 dias após o lançamento do grupo de produtos do Aplicativo do Microsoft 365. A Área de Trabalho Gerenciada da Microsoft agenda versões de atualização para grupos diferentes para permitir tempo para validação e teste da seguinte maneira: 
+A Área de Trabalho Gerenciada da Microsoft escalona cada versão para identificar possíveis problemas em seu ambiente. Concluiremos a lançamento 28 dias após o lançamento do grupo de produtos do Aplicativo do Microsoft 365. A Área de Trabalho Gerenciada da Microsoft agenda versões de atualização para grupos diferentes para permitir tempo para validação e teste da seguinte maneira: 
 
 - Teste: zero dias
 - Primeiro: zero dias
 - Rápido: 7 dias
 - Ampla: 21 dias
 
-A Área de Trabalho Gerenciada da Microsoft define um prazo de atualização [de sete dias](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) para dispositivos. Depois que a atualização estiver disponível, ela deverá ser instalada dentro de sete dias. Os usuários são [notificados](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) de que as atualizações são necessárias em vários locais: o aplicativo, na bandeja do sistema 12 horas antes da data limite, e eles recebem um aviso de 15 minutos antes da data limite. Todos os Aplicativos do Microsoft 365 devem ser fechados para que a atualização seja concluída.
+A Área de Trabalho Gerenciada da Microsoft define um prazo de atualização [de sete dias](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) para dispositivos. Depois que a atualização estiver disponível, ela deverá ser instalada no prazo de sete dias. Os usuários são [notificados](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) de que as atualizações são necessárias em vários locais: o aplicativo, na bandeja do sistema 12 horas antes da data limite, e eles recebem um aviso de 15 minutos antes da data limite. Todos os Aplicativos do Microsoft 365 devem ser fechados para que a atualização seja concluída.
 
 ### <a name="pausing-or-rolling-back-an-update"></a>Pausar ou reverter uma atualização
 
@@ -136,7 +136,7 @@ Na primeira vez que um usuário abre um aplicativo do Microsoft 365, ele é soli
 
 **Valor padrão:** Desabilitado
 
-Na primeira vez que um usuário abre o Outlook, ele é solicitado a instalar o Outlook Mobile. Se você não quiser que os usuários vejam essa caixa de seleção, arquiva uma solicitação de serviço com a equipe de Operações da Área de Trabalho Gerenciada da Microsoft solicitando que essa configuração seja habilitada para seus dispositivos. 
+Na primeira vez que um usuário abre o Outlook, ele é solicitado a instalar o Outlook Mobile. Se você não quiser que os usuários vejam essa caixa de seleção, arquiva uma solicitação de serviço com a equipe de Operações de Área de Trabalho Gerenciada da Microsoft solicitando que essa configuração seja habilitada para seus dispositivos. 
 
 ## <a name="other-settings"></a>Outras configurações
 

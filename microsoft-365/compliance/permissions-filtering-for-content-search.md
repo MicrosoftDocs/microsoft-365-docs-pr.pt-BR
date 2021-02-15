@@ -77,7 +77,7 @@ Antes de poder executar com êxito o script nesta seção, você precisa baixar 
     .\ConnectEXO-SCC.ps1
     ```
 
-Como saber se funcionou? Depois de executar o script, os cmdlets do Exchange Online e do PowerShell de conformidade & segurança são importados para sua sessão local do Windows PowerShell. Se nenhum erro aparecer, a conexão terá sido estabelecida. Um teste rápido é executar um cmdlet do Centro de Conformidade e Segurança & Exchange Online. Por exemplo, você pode executar e **Get-Mailbox** e **Get-ComplianceSearch**.
+Como saber se funcionou? Depois de executar o script, os cmdlets do Exchange Online e do PowerShell de conformidade & segurança são importados para sua sessão local do Windows PowerShell. Se nenhum erro aparecer, você se conectou com êxito. Um teste rápido é executar um cmdlet do Centro de Conformidade e Segurança & Exchange Online. Por exemplo, você pode executar e **Get-Mailbox** e **Get-ComplianceSearch**.
 
 Para solucionar problemas de erros de conexão do PowerShell, confira:
 

@@ -30,7 +30,7 @@ ms.locfileid: "49794419"
 ---
 # <a name="setup-guides-for-microsoft-365-and-office-365-services"></a>Guias de configuração para os serviços Microsoft 365 e Office 365
 
-Os guias de instalação do Microsoft 365 e do Office 365 apresentam orientações e recursos personalizados para planejar e implantar seu locatário, aplicativos e serviços. Esses guias são criados usando as mesmas práticas recomendadas que os especialistas de integração do [Microsoft 365 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) compartilham em interações individuais e estão disponíveis para todos os administradores no Centro de administração do Microsoft 365. Eles fornecem informações sobre a configuração do produto, habilitando recursos de segurança, implantando ferramentas de colaboração e fornecem scripts para acelerar as implantações avançadas.
+Os guias de configuração do Microsoft 365 e do Office 365 apresentam orientações e recursos personalizados para planejar e implantar seu locatário, aplicativos e serviços. Esses guias são criados usando as mesmas práticas recomendadas que os especialistas de integração do [Microsoft 365 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) compartilham em interações individuais e estão disponíveis para todos os administradores no Centro de administração do Microsoft 365. Eles fornecem informações sobre a configuração do produto, habilitando recursos de segurança, implantando ferramentas de colaboração e fornecem scripts para acelerar as implantações avançadas.
 
 ## <a name="how-to-access-setup-guides-in-the-microsoft-365-admin-center"></a>Como acessar os guias de configuração no Centro de administração do Microsoft 365
 
@@ -49,7 +49,7 @@ Os guias de configuração podem ser acessados na página de orientação [de](h
 >[!NOTE]
 >As permissões de administrador de locatários são necessárias para acessar o Centro de administração do Microsoft 365.
 
-## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>Como os guias de instalação funcionam no Centro de administração do Microsoft 365?
+## <a name="how-do-setup-guides-work-in-the-microsoft-365-admin-center"></a>Como os guias de configuração funcionam no Centro de administração do Microsoft 365?
 
 Cada guia fornece instruções passo a passo, recursos, artigos e, quando necessário, scripts que você pode usar para fazer alterações na configuração. Esses guias fornecem opções que refletem as necessidades específicas de pequenas e grandes organizações. Além disso, as diretrizes incluem assistência para administradores novos e mais experientes.
 
@@ -67,7 +67,7 @@ O [guia Preparar seu ambiente](https://aka.ms/prepareyourenvironment) ajuda voc�
 
 O [consultor de configuração](https://aka.ms/office365setup) de email fornece as orientações passo a passo necessárias para configurar o Exchange Online para sua organização. Isso inclui configurar novas contas de email, migrar emails e configurar a proteção de email. Para uma configuração de email bem-sucedida, use este consultor e você receberá o método de migração recomendado com base no sistema de email atual da sua organização, no número de caixas de correio que estão sendo migradas e em como você deseja gerenciar usuários e seu acesso.
 
-### <a name="migrate-gmail-contacts-and-calendar-items"></a>Migrar itens de calendário e contatos do Gmail
+### <a name="migrate-gmail-contacts-and-calendar-items"></a>Migrar contatos e itens de calendário do Gmail
 
 Quando você migra a caixa de correio de um usuário do Gmail para o Microsoft 365, as mensagens de email são migradas, mas os contatos e itens de calendário não são. O consultor de calendário e contatos do [Gmail](https://aka.ms/gmailcontactscalendar) fornece etapas para importar contatos do Google e itens de calendário do Google para o Microsoft 365 usando métodos de importação e exportação com o Outlook.com, o cliente do Outlook ou o PowerShell.
 
@@ -80,15 +80,15 @@ Você receberá orientações e acesso a recursos para habilitar seus serviços 
 
 ### <a name="remote-work-setup-guide"></a>Guia de configuração de trabalho remoto
 
-O [guia de](https://aka.ms/remoteworksetup) configuração de trabalho remoto fornece às organizações as dicas e os recursos necessários para garantir que os usuários possam trabalhar remotamente, que seus dados sejam seguros e que as credenciais dos usuários sejam salvas. 
+O [guia de configuração](https://aka.ms/remoteworksetup) de trabalho remoto fornece às organizações as dicas e os recursos necessários para garantir que os usuários possam trabalhar remotamente, que seus dados sejam seguros e que as credenciais dos usuários sejam salvas. 
 
-Você receberá orientações para otimizar o tráfego de dispositivos dos funcionários remotos para os recursos do Microsoft 365 na nuvem e na rede da sua organização, o que reduzirá a diminuição da infraestrutura vpn de acesso remoto. 
+Você receberá orientações para otimizar o tráfego de dispositivos dos funcionários remotos para os recursos do Microsoft 365 na nuvem e na rede da sua organização, o que reduzirá a diminuição na infraestrutura vpn de acesso remoto. 
 
 ### <a name="windows-virtual-desktop-setup-guide"></a>Guia de configuração da Área de Trabalho Virtual do Windows
 
 A Área de Trabalho Virtual do Windows é um serviço abrangente de virtualização de aplicativos e área de trabalho em execução na nuvem. É a única infraestrutura de área de trabalho virtual (VDI) que oferece gerenciamento simplificado, Várias sessões do Windows 10, otimizações para Aplicativos do Microsoft 365 e suporte para ambientes RDS (Serviços de Área de Trabalho Remota). Implante e dimensione seus aplicativos e áreas de trabalho do Windows para o Azure em minutos e receba recursos de segurança e conformidade integrados. 
 
-O [guia de configuração da Área](https://aka.ms/wvdsetupguide) de Trabalho Virtual do Windows fornece aos administradores recursos de planejamento e os pré-requisitos para implantação, orientação de configuração e recursos adicionais. 
+O [guia de instalação da Área](https://aka.ms/wvdsetupguide) de Trabalho Virtual do Windows fornece aos administradores recursos de planejamento e os pré-requisitos para implantação, diretrizes de configuração e recursos adicionais. 
 
 ### <a name="microsoft-edge-setup-guide"></a>Guia de configuração do Microsoft Edge
 
@@ -104,7 +104,7 @@ O [guia de configuração da](https://aka.ms/MicrosoftSearchSetup) Pesquisa da M
 
 ### <a name="intune-configuration-manager-co-management-setup-guide"></a>Guia de configuração de co-gerenciamento do Intune Configuration Manager
 
-Use o guia de configuração de [co-gerenciamento do Intune Configuration Manager](https://aka.ms/comanagementsetup) para dispositivos cliente existentes do Configuration Manager e novos dispositivos baseados na Internet que sua organização deseja gerenciar em co-gerenciar com o Microsoft Intune e o Configuration Manager. Este guia de implantação de co-gerenciamento permite que você gerencie dispositivos Windows 10 e adiciona novas funcionalidades aos dispositivos da sua organização, enquanto recebe os benefícios de ambas as soluções.
+Use o guia de configuração de [co-gerenciamento do Intune Configuration Manager](https://aka.ms/comanagementsetup) para dispositivos cliente existentes do Configuration Manager e novos dispositivos baseados na Internet que sua organização deseja gerenciar em co-gerenciamento com o Microsoft Intune e o Configuration Manager. Este guia de implantação de co-gerenciamento permite que você gerencie dispositivos Windows 10 e adiciona novas funcionalidades aos dispositivos da sua organização, enquanto recebe os benefícios de ambas as soluções.
 
 ## <a name="guides-for-authentication-and-access"></a>Guias para autenticação e acesso
 
@@ -116,7 +116,7 @@ Ele também inclui informações essenciais sobre a habilitação de redefiniç�
 
 ### <a name="sync-users-from-your-orgs-directory"></a>Sincronizar usuários do diretório da sua organização
 
-Os [usuários de sincronização do assistente de diretório da](https://aka.ms/directorysyncsetup) sua organização orientam você durante adoção da sincronização de diretórios. Isso reúne suas identidades locais e de nuvem para facilitar o acesso e o gerenciamento simplificado. Desbloqueie novos recursos, como o single sign-on, opções de autoatendência, provisionamento automático de conta, controles de acesso condicional e políticas de conformidade. Isso garante que os usuários tenham acesso aos recursos necessários de qualquer lugar.
+Os [usuários de sincronização do assistente de diretório da](https://aka.ms/directorysyncsetup) sua organização orientam você durante ação da sincronização de diretórios. Isso reúne suas identidades locais e na nuvem para facilitar o acesso e o gerenciamento simplificado. Desbloqueie novos recursos, como o single sign-on, opções de autoatendência, provisionamento automático de conta, controles de acesso condicional e políticas de conformidade. Isso garante que os usuários tenham acesso aos recursos necessários de qualquer lugar.
 
 ### <a name="plan-your-passwordless-deployment"></a>Planejar sua implantação sem senha
 
@@ -175,7 +175,7 @@ O guia de configuração de governança de Informações da [Microsoft](https://
 
 ### <a name="microsoft-365-apps-deployment-advisor"></a>Consultor de implantação do Microsoft 365 Apps
 
-O consultor de implantação do [Microsoft 365 Apps](https://aka.ms/OPPquickstartguide) ajuda você a fazer com que os dispositivos dos usuários executam a versão mais recente dos produtos do Office, como Word, Excel, PowerPoint e OneNote. Você obterá orientações sobre os vários métodos de implantação que incluem opções de auto-instalação fáceis para implantações corporativas com ferramentas de gerenciamento. As instruções ajudarão você a avaliar seu ambiente, descobrir seus requisitos de implantação específicos e implementar as ferramentas de suporte necessárias para garantir uma instalação bem-sucedida. 
+O consultor de implantação do [Microsoft 365 Apps](https://aka.ms/OPPquickstartguide) ajuda você a obter os dispositivos dos usuários que executam a versão mais recente dos produtos do Office, como Word, Excel, PowerPoint e OneNote. Você obterá orientações sobre os vários métodos de implantação que incluem opções de auto-instalação fáceis para implantações corporativas com ferramentas de gerenciamento. As instruções ajudarão você a avaliar seu ambiente, descobrir seus requisitos de implantação específicos e implementar as ferramentas de suporte necessárias para garantir uma instalação bem-sucedida. 
 
 ### <a name="mobile-apps-setup-guide"></a>Guia de configuração de aplicativos móveis
 
@@ -183,7 +183,7 @@ O [guia de instalação de aplicativos](https://aka.ms/officeappguidance) móvei
 
 ### <a name="microsoft-teams-setup-guide"></a>Guia de configuração do Microsoft Teams
 
-O guia de configuração do [Microsoft Teams](https://aka.ms/teamsguidance) fornece à sua organização orientações para configurar espaços de trabalho de equipe que hospedam conversas em tempo real por meio de mensagens, chamadas e reuniões de áudio ou vídeo para a equipe e a comunicação privada. Você receberá as instruções para determinar os requisitos de rede da sua organização usando a ferramenta Planejador de Rede e o consultor do Teams no centro de administração do Teams. Uma vez concluída a implantação, o guia incluirá recursos úteis para começar a utilizar o Teams.
+O guia de configuração do [Microsoft Teams](https://aka.ms/teamsguidance) fornece à sua organização orientações para configurar espaços de trabalho de equipe que hospedam conversas em tempo real por meio de mensagens, chamadas e reuniões de áudio e vídeo para a equipe e a comunicação privada. Você receberá as instruções para determinar os requisitos de rede da sua organização usando a ferramenta Planejador de Rede e o consultor do Teams no centro de administração do Teams. Uma vez concluída a implantação, o guia incluirá recursos úteis para começar a utilizar o Teams.
 
 ### <a name="sharepoint-setup-guide"></a>Guia de configuração do SharePoint
 
@@ -191,7 +191,7 @@ O guia de configuração do [SharePoint](https://aka.ms/spoguidance) ajuda você
 
 ### <a name="onedrive-setup-guide"></a>Guia de configuração do OneDrive
 
-Use o [guia de configuração do OneDrive](https://aka.ms/ODfBquickstartguide) para começar a usar os recursos de armazenamento, compartilhamento, colaboração e sincronização de arquivos do OneDrive. O OneDrive fornece um local central onde os usuários podem sincronizar seus arquivos do Microsoft 365 Apps, configurar o compartilhamento externo, migrar dados do usuário e definir configurações avançadas de segurança e acesso ao dispositivo. O guia de configuração do OneDrive pode ser implantado usando uma assinatura do OneDrive ou um plano autônomo do OneDrive. 
+Use o guia [de configuração do OneDrive](https://aka.ms/ODfBquickstartguide) para começar a usar os recursos de armazenamento, compartilhamento, colaboração e sincronização de arquivos do OneDrive. O OneDrive fornece um local central onde os usuários podem sincronizar seus arquivos do Microsoft 365 Apps, configurar o compartilhamento externo, migrar dados do usuário e definir configurações avançadas de segurança e acesso ao dispositivo. O guia de configuração do OneDrive pode ser implantado usando uma assinatura do OneDrive ou um plano autônomo do OneDrive. 
 
 ### <a name="yammer-deployment-advisor"></a>Consultor de implantação do Yammer
 
@@ -199,9 +199,9 @@ Conecte-se e envolva-se em toda a organização com o Yammer. O [consultor de im
 
 ## <a name="advanced-wizards"></a>Assistentes avançados
 
-### <a name="in-place-upgrade-with-configuration-manager"></a>Atualização no local com o Configuration Manager
+### <a name="in-place-upgrade-with-configuration-manager"></a>Atualização local com o Configuration Manager
 
-Use a atualização local com o guia [do Configuration Manager](https://aka.ms/win10upgradedemo) ao atualizar dispositivos Windows 7 e Windows 8.1 para a versão mais recente do Windows 10. Você usará o script fornecido para verificar os pré-requisitos e configurar automaticamente uma atualização local.
+Use a atualização local com o guia [do Configuration Manager](https://aka.ms/win10upgradedemo) ao atualizar dispositivos Windows 7 e Windows 8.1 para a versão mais recente do Windows 10. Você usará o script fornecido para verificar os pré-requisitos e configurar automaticamente uma atualização no local.
 
 ### <a name="deploy-office-to-your-users"></a>Implantar o Office para seus usuários
 
@@ -213,6 +213,6 @@ Agora que trabalhar remotamente é a norma, os usuários precisam receber as con
 
 Use o [guia Implantar o Office](https://aka.ms/officeremoteinstall) para usuários remotos para criar uma instalação personalizada do Office e, em seguida, enviar aos usuários um script do PowerShell gerado que instalará perfeitamente o Office com sua configuração.
 
-### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Implantar e atualizar os Aplicativos do Microsoft 365 com o Configuration Manager
+### <a name="deploy-and-update-microsoft-365-apps-with-configuration-manager"></a>Implantar e atualizar o Microsoft 365 Apps com o Configuration Manager
 
-Para organizações que usam o Gerenciador de Configurações, você pode usar o assistente Implantar e atualizar os Aplicativos do [Microsoft 365](https://aka.ms/oppinstall) com o Configuration Manager para gerar um script que configurará automaticamente sua implantação do Microsoft 365 Apps usando as práticas recomendadas pelos engenheiros do FastTrack. Use este guia para criar seus grupos de implantação, personalizar seus aplicativos e recursos do Office, configurar instalações dinâmicas ou enxutos e, em seguida, executar o script para criar os aplicativos, regras de implantação automática e coleções de dispositivos que você precisa para direcionar sua implantação. 
+Para organizações que usam o Configuration Manager, você pode usar o assistente Implantar e atualizar os Aplicativos do [Microsoft 365](https://aka.ms/oppinstall) com o Configuration Manager para gerar um script que configurará automaticamente sua implantação do Microsoft 365 Apps usando as práticas recomendadas pelos engenheiros do FastTrack. Use este guia para criar seus grupos de implantação, personalizar seus aplicativos e recursos do Office, configurar instalações dinâmicas ou enxutos e, em seguida, executar o script para criar os aplicativos, regras de implantação automática e coleções de dispositivos que você precisa para direcionar sua implantação. 

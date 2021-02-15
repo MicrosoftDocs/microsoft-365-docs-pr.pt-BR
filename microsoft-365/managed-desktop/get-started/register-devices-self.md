@@ -89,13 +89,13 @@ Siga estas etapas:
 3. Selecione **Registrar dispositivos.** O sistema adicionará os dispositivos à sua lista de dispositivos **em** dispositivos , marcado como **Registro Pendente**. O registro geralmente leva menos de 10 minutos e, quando bem-sucedido, o dispositivo é a primeira vez que aparece como Pronto para o usuário, o que significa que ele está pronto e aguardando que um usuário comece a usá-lo. 
 
 
-Você pode monitorar o progresso do registro do dispositivo na página principal. Os possíveis estados relatados incluem:
+Você pode monitorar o progresso do registro do dispositivo na página principal. Os estados possíveis relatados incluem:
 
 | Estado | Descrição |
 |---------------|-------------|
 | Registro Pendente | O registro ainda não foi feito. Verifique novamente mais tarde. |
-| Falha no registro | Não foi possível concluir o registro. Consulte Solução [de problemas de registro de dispositivos](#troubleshooting-device-registration) para obter mais informações. |
-| Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A Área de Trabalho Gerenciada da Microsoft os orientará durante a configuração pela primeira vez, portanto, não é necessário fazer outras preparações. |
+| Falha no registro | Não foi possível concluir o registro. Consulte Solução [de problemas de registro de dispositivo](#troubleshooting-device-registration) para obter mais informações. |
+| Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A Área de Trabalho Gerenciada da Microsoft os orientará durante a configuração pela primeira vez, portanto, não há necessidade de você fazer outras preparações. |
 | Ativo | O dispositivo foi entregue ao usuário e ele se registrou em seu locatário. Esse estado também indica que eles estão usando regularmente o dispositivo. |
 | Inativo | O dispositivo foi entregue ao usuário e ele se registrou em seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
 

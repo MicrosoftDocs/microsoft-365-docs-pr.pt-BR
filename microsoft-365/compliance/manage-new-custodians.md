@@ -1,5 +1,5 @@
 ---
-title: Gerenciar os responsáveis em uma ocorrência de descoberta eletrônica avançada
+title: Gerenciar custodiantes em um caso de Descoberta Avançada
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Saiba como exibir detalhes, editar e em massa editar a lista de responsáveis em uma ocorrência de descoberta eletrônica avançada.
+description: Saiba como exibir detalhes, editar e editar em massa a lista de custodiantes em um caso de Descoberta Avançada.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: a1e9e9d481073c8bb2827d5d65537dbf2b63ef1f
 ms.sourcegitcommit: 555b200b618085706dabf8648d27fb6d6427cfce
@@ -24,94 +24,94 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/30/2020
 ms.locfileid: "49739864"
 ---
-# <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Gerenciar os responsáveis em uma ocorrência de descoberta eletrônica avançada
+# <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Gerenciar custodiantes em um caso de Descoberta Avançada
 
-A página responsáveis na guia **fontes** em uma ocorrência de descoberta eletrônica avançada contém uma lista de todos os responsáveis que foram adicionados ao caso. Depois de adicionar os responsáveis a um caso, os detalhes sobre cada um são coletados automaticamente do Azure Active Directory e são exibidos na descoberta eletrônica avançada.
+A página Custodians na guia **Fontes** em um caso de Descoberta Avançada contém uma lista de todos os custodiantes que foram adicionados à ocorrência. Depois de adicionar custodiantes a uma ocorrência, os detalhes sobre cada custodiante são coletados automaticamente do Azure Active Directory e podem ser visualizados na Descoberta Automática Avançada.
 
-![Gerenciar responsáveis](../media/CustodianDetails.PNG)
+![Gerenciar custodiantes](../media/CustodianDetails.PNG)
 
-## <a name="view-custodian-details"></a>Exibir detalhes do responsáveis
+## <a name="view-custodian-details"></a>Exibir detalhes custodiados
 
-Para exibir os detalhes sobre um responsáveis, clique no responsáveis da lista na guia **responsáveis** . Uma página de submenu é exibida e contém as seguintes informações sobre os responsáveis:
+Para exibir os detalhes sobre um custodiante, clique no custodiante na lista na **guia Custodiantes.** Uma página de flyout é exibida e contém as seguintes informações sobre o custodiatário:
 
 - Informações de contato
 
-  - **Nome para exibição** : o nome exibido no catálogo de endereços para os responsáveis. Isso geralmente é a combinação do nome do responsáveis, da inicial do meio e do sobrenome.
+  - **Nome para Exibição** - O nome exibido no livro de endereços do custodiatário. Geralmente, essa é a combinação do nome, da inicial do meio e do sobrenome do custodiante.
   
-   - **Mail/SMTP** -o endereço SMTP principal para os responsáveis, por exemplo, brianj@contoso.onmicrosoft.com. O nome principal do usuário (UPN) do responsáveis também está listado.
+   - **Email/SMTP** - O endereço SMTP principal do custodiante, por exemplo, brianj@contoso.onmicrosoft.com. O upN (nome upn) do usuário custodiante também está listado.
 
-  - **Título** -o cargo do profissional.
+  - **Cargo** - O cargo do custodiatário.
 
-  - **Departamento** -o nome do departamento no qual os responsáveis funciona.
+  - **Departamento** - O nome do departamento no qual o custodiatário trabalha.
 
-  - **Gerente** -gerente do responsáveis. O gerente designado receberá qualquer comunicação de escalonamento para este responsáveis.
+  - **Gerente** - O gerente do custodiante. O gerente designado receberá as comunicações de escalonamento desse custodiante.
   
-- Informações de local
+- Informações de localização
 
-  - **Cidade** -a cidade na qual o responsáveis está localizado.
+  - **Cidade** - A cidade em que o custodiatário está localizado.
 
-  - **State** -o estado ou província no endereço do responsáveis.
+  - **Estado** - O estado ou província no endereço do custodiatário.
 
-  - **País/região** -o país/região em que os responsáveis estão localizados.
+  - **País/região** - O país/região onde o custodiatário está localizado.
 
-  - **Office** – o local do escritório no local de trabalho do responsáveis.
+  - **Office** - O local do escritório no local de trabalho do custodiatário.
 
-- Informações sobre o caso
+- Informações sobre a ocorrência
 
-  - **Status de retenção** : indica se os responsáveis foram colocados em espera. 
+  - **Status de** espera - Indica se o custodiatário foi colocado em espera. 
 
-  - **Status de Comunicação**: indica se os responsáveis foram emitidos um aviso de espera. Se o objecttiver sido emitido um aviso, esse valor dessa propriedade será **publicado**. Se não tiver sido emitido um aviso aos responsáveis, o status será **cancelado**. 
+  - **Status de** comunicação: indica se o custodiatário recebeu um aviso de espera. Se o custodiante tiver sido emitido um aviso, esse valor dessa propriedade será **Publicado.** Se o custodiante não tiver sido emitido um aviso, o status será **Não Publicado.** 
 
-  - **Status** -o status dos responsáveis dentro do caso. Um status **ativo** indica que o responsáveis faz parte do caso. Se um responsáveis for liberado de um caso, o status será alterado para **liberado**. 
+  - **Status** - O status do custodiante dentro da ocorrência. Um status **ativo** indica que o custodiante faz parte do caso. Se um custodiante for liberado de uma ocorrência, o status será alterado para **Liberado.** 
 
 - Fontes de dados e informações de indexação
 
-    - **Fontes de dados** : mostra a contagem e o tipo de fontes de dados (caixas de correio, sites e equipes) que estão associados aos responsáveis e fazem parte do caso.
+    - **Fontes de** dados – mostra a contagem e o tipo de fontes de dados (caixas de correio, sites e Teams) que estão associadas ao custodiante e fazem parte do caso.
 
-    - **Tempo atualizado de índice** -indica a hora e a data de quando o trabalho de indexação avançada foi disparado pela última vez. Esta propriedade também indicará quando o processo de indexação avançada estiver em andamento.
+    - **Tempo de atualização do** índice - Indica a hora e a data de quando o trabalho de indexação avançada foi disparado pela última vez. Essa propriedade também indicará quando o processo avançado de indexação está em andamento.
 
 
-## <a name="edit-a-custodian"></a>Editar um responsáveis
+## <a name="edit-a-custodian"></a>Editar um custodiatário
 
-À medida que seu caso avança, você pode descobrir que pode haver fontes de dados adicionais relevantes para um determinado local & seu caso. Em outros cenários, talvez você queira remover determinadas fontes de dados que foram revisadas e consideradas não relevantes.
+À medida que seu caso progride, você pode descobrir que pode haver fontes de dados adicionais relevantes para um custodiante & seu caso. Em outros cenários, talvez você queira remover determinadas fontes de dados que foram revisadas e consideradas não relevantes.
 
-Para atualizar as fontes de dados associadas a um responsáveis:
+Para atualizar as fontes de dados associadas a um custodiante:
 
-1. Vá para  **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
+1. Vá para  **a Descoberta > eDiscovery Avançada** e abra a ocorrência.
   
-2. Clique na guia **fontes** .
+2. Clique na **guia** Fontes.
   
-3. Na página **responsáveis** , selecione um responsáveis na lista e clique em **Editar** na página do menu suspenso.
+3. Na página **Custodiantes,** selecione um custodiante na lista e clique em **Editar** na página do flyout.
 
-    ![Editar fontes de dados](../media/EditCustodianDataSource.PNG)
+    ![Editar Fontes de Dados](../media/EditCustodianDataSource.PNG)
   
-4. Clique em escolher a guia **fontes de dados** para alterar as configurações da caixa de correio do Exchange e da conta do onedrive do responsáveis, clique em **escolher fontes de dados**.
+4. Clique **na guia Escolher fontes** de dados para alterar as configurações da caixa de correio do Exchange do custodiante e da conta do OneDrive, clique em Escolher fontes de **dados.**
   
-5. Clique na guia **selecionar fontes de dados adicionais** para adicionar ou remover as caixas de correio do Teams, SharePoint ou Exchange associadas aos responsáveis. 
+5. Clique na **guia Selecionar fontes de dados adicionais** para adicionar ou remover caixas de correio do Teams, SharePoint ou Exchange associadas ao custodiante. 
 
-    Para obter mais informações sobre fontes de dados associadas a um responsáveis, confira [Adicionar responsáveis a um caso](add-custodians-to-case.md). 
+    Para obter mais informações sobre fontes de dados associadas a um custodiante, consulte [Adicionar custodiantes a uma ocorrência.](add-custodians-to-case.md) 
   
-6. Clique em **colocar custodial isenções** para habilitar ou desabilitar a retenção para os responsáveis.
+6. Clique **em Colocar reter custodiante** para habilitar ou desabilitar a espera do custodiante.
 
-## <a name="re-index-custodian-data"></a>Reindexar dados de responsáveis
+## <a name="re-index-custodian-data"></a>Re-indexar dados custodiante
 
-Na maioria dos fluxos de trabalho de descoberta eletrônica para investigações legais, um subconjunto dos dados de um dos responsáveis é pesquisado depois que os responsáveis são adicionados a um caso jurídico. Por causa de tamanhos de arquivo muito grandes ou possíveis corrupção de dados, alguns itens nas fontes de dados associados a um membro podem ser parcialmente indexados. Usando a capacidade de [indexação avançada](indexing-custodian-data.md) na descoberta eletrônica avançada, os itens parcialmente indexados podem ser corrigidos automaticamente pela reindexação desses itens sob demanda.
+Na maioria dos fluxos de trabalho de Descoberta Eletrônico para investigações legais, um subconjunto de dados de um custodiante é pesquisado depois que o custodiante é adicionado a um caso jurídico. Devido a tamanhos de arquivo muito grandes ou possível corrupção de dados, alguns itens nas fontes de dados associadas a um custodiante podem ser parcialmente indexados. Usando o recurso de [indexação](indexing-custodian-data.md) avançada na Descoberta Automática Avançada, os itens mais parcialmente indexados podem ser automaticamente remediados pela indexação desses itens sob demanda.
 
-Quando um Objecté adicionado a uma ocorrência, os dados localizados nas fontes de dados associadas ao responsáveis são automaticamente re-indexado (pelo processo de indexação avançado). Isso significa que você pode deixar os dados no local em vez de precisar baixar e corrigi-los e, em seguida, procurá-los offline). No entanto, durante o ciclo de vida de um caso jurídico, novas fontes de dados podem ser associadas a um. Nesse caso, você pode reindexar os dados dos responsáveis executando novamente o processo de indexação avançada para corrigir todos os itens parcialmente indexados e atualizar o índice para os dados do responsáveis.
+Quando um custodiante é adicionado a uma ocorrência, os dados localizados nas fontes de dados associadas ao custodiante são indexados automaticamente (pelo processo avançado de indexação). Isso significa que você pode deixar os dados no local em vez de ter que baixá-los e remedia-los e, em seguida, pesquisá-los offline). No entanto, durante o ciclo de vida de um caso jurídico, novas fontes de dados podem ser associadas a um custodiante. Nesse caso, você pode indexar os dados do custodiante executando o processo de indexação avançado para remediar todos os itens parcialmente indexados e atualizar o índice dos dados do custodiante.
 
-Para acionar o processo de reindexação para lidar com itens parcialmente indexados:
+Para disparar o processo de indexação para lidar com itens parcialmente indexados:
 
-1. Vá para  **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
+1. Vá para  **a Descoberta > eDiscovery Avançada** e abra a ocorrência.
 
-2. Clique na guia **fontes** .
+2. Clique na **guia** Fontes.
 
-3. Na página **responsáveis** , selecione os responsáveis cujos dados devem ser reindexados.
+3. Na página **Custodiantes,** selecione um custodiante cujos dados devem ser reindexados.
 
-4. Na página do menu suspenso, clique em **Atualizar índice**.
+4. Na página do flyout, clique em **Atualizar índice.**
 
-   Uma caixa de diálogo é exibida informando que o trabalho de índice foi criado.
+   Uma caixa de diálogo é exibida dizendo que o trabalho de índice foi criado.
 
-A reindexação dos dados dos responsáveis é um processo de execução demorada; o trabalho correspondente criado é chamado **de reindexação dos dados dos responsáveis**. Você pode acompanhar o progresso na guia **trabalhos** ou na guia **responsáveis** monitorando o status na coluna **status do trabalho de indexação** .
+A indexação de dados custodiante é um processo de longa execução; o trabalho correspondente criado é denominado **re-indexação de dados custodiante**. Você pode acompanhar o progresso na guia **Trabalhos** ou na guia **Custodiantes** monitorando o status na coluna Status do **trabalho de Indexação.**
 
 Para saber mais, confira:
 
@@ -119,33 +119,33 @@ Para saber mais, confira:
 
 - [Gerenciar tarefas](managing-jobs-ediscovery20.md)
 
-## <a name="release-a-custodian-from-a-case"></a>Liberar um dos casos
+## <a name="release-a-custodian-from-a-case"></a>Liberar um custodiante de uma ocorrência
 
-Um dos responsáveis é liberado em situações em que um caso é fechado, o desejo não está mais sob obrigação de preservar o conteúdo de um caso ou quando é considerado que não é mais relevante para o caso. 
+Um custodiante é liberado em situações em que um caso é fechado, o custodiante não está mais sob a obrigação de preservar o conteúdo de uma ocorrência ou quando o custodiante é considerado não mais relevante para o caso. 
 
-Se você liberar um dos responsáveis após um aviso de isenção ter sido publicado, um aviso de lançamento será enviado para o seu. Além disso, todas as isenções colocadas em fontes de dados que foram associadas com os responsáveis serão removidas. Se os responsáveis foram colocados em um *bloqueio silencioso*, onde não foram emitidos notificações de bloqueio legal, um aviso de lançamento não será enviado, mas todas as isenções feitas nas fontes de dados que foram associadas a esses responsáveis serão removidas.
+Se você liberar um custodiante após a publicação de um aviso de espera, uma notificação de liberação será enviada ao custodiante. Além disso, todas as reteres colocadas em fontes de dados que foram associadas ao custodiante serão removidas. Se o custodiante foi colocado em uma espera silenciosa *,* onde não foram emitidas notificações de responsabilidade legal, uma notificação de liberação não será enviada, mas todas as reteres colocadas em fontes de dados que foram associadas a esse custodiante serão removidas.
 
-Para liberar um responsáveis: 
+Para liberar um custodiatário: 
 
-1. Vá para  **descoberta eletrônica > descoberta eletrônica avançada** e abra o caso.
+1. Vá para  **a Descoberta > eDiscovery Avançada** e abra a ocorrência.
 
-2. Clique na guia **fontes** .
+2. Clique na **guia** Fontes.
 
-3. Na página **responsáveis** e selecione os responsáveis que estão sendo liberados do caso.
+3. Na página **Custodians** e selecione o custodiante que está sendo liberado da ocorrência.
 
-4. Na página do menu suspenso, clique em **liberar responsáveis**.
+4. Na página do flyout, clique em **Liberar custodiante.**
 
-   Uma página de aviso é exibida explicando que, se uma retenção for colocada em uma fonte de dados associada aos responsáveis, a retenção será removida e que qualquer outro bloqueio associado a um caso de descoberta eletrônica diferente ainda será aplicado. Isso inclui outros tipos de recursos de preservação e retenção (como uma política de retenção do Microsoft 365).
+   Uma página de aviso é exibida explicando que, se uma isenção for aplicada a uma fonte de dados associada ao custodiante, a isenção será removida e que qualquer outra isenção associada a um caso de Descoberta Avançada diferente ainda será aplicada. Isso inclui outros tipos de recursos de preservação e retenção (como uma política de retenção do Microsoft 365).
 
-5. Clique em **Sim** para confirmar que você deseja liberar os responsáveis. 
+5. Clique **em Sim** para confirmar que você deseja liberar o custodiatário. 
 
-    O status desse usuário na guia **responsáveis** é definido como **liberado** e o **status de retenção** na página do submenu é alterado para **false**. 
+    O status desse usuário na guia **Custodians** é definido como Liberado e o **status** de Espera na página do flyout é alterado para **False**.  
 
 > [!NOTE]
-> Os responsáveis podem estar simultaneamente envolvidos em vários casos jurídicos. Quando um dos responsáveis é liberado de uma ocorrência, as isenções e notificações em outras questões não serão afetadas.
+> Um custodiatário pode estar envolvido simultaneamente em vários casos legais. Quando um custodiante é liberado de uma ocorrência, as iseções e notificações em outras questões não serão impactadas.
 
-## <a name="bulk-edit-custodians"></a>Editar os responsáveis em massa
+## <a name="bulk-edit-custodians"></a>Custodiantes de edição em massa
 
-Você pode usar o editor em massa para editar vários responsáveis ao mesmo tempo. Para fazer isso, basta selecionar dois ou mais responsáveis na guia **responsáveis** para exibir o editor em massa e clicar em uma das tarefas.
+Você pode usar o editor em massa para editar vários custodiantes ao mesmo tempo. Para fazer isso, basta selecionar dois ou mais custodiantes na guia **Custodiantes** para exibir o editor em massa e clicar em uma das tarefas.
 
-![Página de submenu para editar as configurações de vários responsáveis](../media/AeDBulkEditCustodians.png)
+![Página de flyout para editar configurações de vários custodiantes](../media/AeDBulkEditCustodians.png)

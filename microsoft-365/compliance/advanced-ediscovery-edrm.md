@@ -54,6 +54,6 @@ Em um nível alto, veja como a Descoberta Avançada dá suporte ao fluxo de trab
 
 Para começar a usar a Descoberta Avançada, confira:
 
-- [Configurar a Descoberta Avançada](get-started-with-advanced-ediscovery.md)
+- [Configurar a Descoberta Eletrônica Avançada](get-started-with-advanced-ediscovery.md)
 
 - [Criar e gerenciar um caso de Descoberta Descoberta Avançada](create-and-manage-advanced-ediscoveryv2-case.md)

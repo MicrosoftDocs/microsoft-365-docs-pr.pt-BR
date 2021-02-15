@@ -82,7 +82,7 @@ Exceto pelo DNS, todos estes são opcionais para a maioria dos clientes, a menos
   
 [Intervalos de IP do Azure e Marcas de Serviço – Nuvem Pública](https://www.microsoft.com/download/details.aspx?id=56519)
 
-[Intervalos de IP do Azure e Marcas de Serviço – Nuvem do Governo dos Eua](https://www.microsoft.com/download/details.aspx?id=57063)
+[Intervalos de IP do Azure e Marcas de Serviço – Nuvem do Governo dos EUA](https://www.microsoft.com/download/details.aspx?id=57063)
 
 [Intervalos de IP do Azure e Marcas de Serviço – Nuvem da Alemanha](https://www.microsoft.com/download/details.aspx?id=57064)
 

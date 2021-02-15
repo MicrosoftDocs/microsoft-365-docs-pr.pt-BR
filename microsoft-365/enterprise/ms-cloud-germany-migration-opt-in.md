@@ -48,7 +48,7 @@ Uma nova seção aparece no lado direito da tela para aceitar a confirmação. S
  
 ![Aceitação do Opt-in](../media/ms-cloud-germany-migration-opt-in/tenant-migration-new-regions.png)
 
-Depois que você tiver optado por seu locatário, todos os administradores verão a confirmação em Migrar do **Microsoft Cloud Alemanha (Microsoft Cloud Deutschland)** para os serviços do Office 365 na nova seção de regiões de datacenter alemãs, incluindo a data de aceitação. Os administradores também receberão uma confirmação no Centro de Mensagens do Centro de administração do Microsoft 365. 
+Depois que você optar por entrar em nome de seu locatário, todos os administradores verão a confirmação em Migrar do **Microsoft Cloud Alemanha (Microsoft Cloud Deutschland)** para os serviços do Office 365 na nova seção de regiões de datacenter alemãs, incluindo a data de aceitação. Os administradores também receberão uma confirmação no Centro de Mensagens do Centro de administração do Microsoft 365. 
  
 ![Confirmação do Opt-in](../media/ms-cloud-germany-migration-opt-in/tenant-migration2.png)
 
@@ -82,7 +82,7 @@ Passando pela transição:
 - [Pré-trabalho adicional](ms-cloud-germany-transition-add-pre-work.md)
 - Informações adicionais para [o Azure AD](ms-cloud-germany-transition-azure-ad.md), [dispositivos,](ms-cloud-germany-transition-add-devices.md) [experiências](ms-cloud-germany-transition-add-experience.md)e [AD FS](ms-cloud-germany-transition-add-adfs.md).
 
-Aplicativos em nuvem:
+Aplicativos de nuvem:
 
 - [Informações do programa de migração do Dynamics 365](https://aka.ms/d365ceoptin)
 - [Informações do programa de migração do Power BI](https://aka.ms/pbioptin)

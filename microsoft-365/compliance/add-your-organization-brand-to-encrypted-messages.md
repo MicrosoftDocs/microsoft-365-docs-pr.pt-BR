@@ -1,5 +1,5 @@
 ---
-title: Adicionar a marca da sua organização às mensagens criptografadas
+title: Adicionar a marca da sua organização às suas mensagens criptografadas
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -28,76 +28,76 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/17/2020
 ms.locfileid: "49709493"
 ---
-# <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Adicionar a marca da sua organização às mensagens criptografadas de criptografia de mensagem do Microsoft 365 for Business
+# <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Adicionar a marca da sua organização às mensagens criptografadas da Criptografia de Mensagens do Microsoft 365 para empresas
 
-Você pode aplicar a identidade visual da empresa para personalizar a aparência das mensagens de email e do portal de criptografia da sua organização. Você precisará aplicar permissões de administrador global à sua conta corporativa ou de estudante antes de começar. Depois de ter essas permissões, use o Get-OMEConfiguration e Set-OMEConfiguration cmdlets do Windows PowerShell para personalizar essas partes de mensagens de email criptografadas:
+Você pode aplicar a identidade visual da sua empresa para personalizar a aparência das mensagens de email da sua organização e o portal de criptografia. Você precisará aplicar permissões de administrador global à sua conta de trabalho ou de estudante antes de começar. Quando você tiver essas permissões, use os cmdlets Get-OMEConfiguration e Set-OMEConfiguration Windows PowerShell para personalizar essas partes de mensagens de email criptografadas:
   
 - Texto introdutório
 
 - Disclaimer text
 
-- URL da declaração de privacidade da sua organização
+- URL da política de privacidade da sua organização
 
-- Texto no portal OME
+- Texto no portal do OME
 
-- Logotipo que aparece na mensagem de email e no portal do OME, ou se um logotipo deve ser usado
+- Logotipo que aparece na mensagem de email e no portal OME, ou se é para usar um logotipo
 
 - Cor de plano de fundo na mensagem de email e no portal OME
 
 Você também pode reverter para a aparência padrão a qualquer momento.
 
-Se você quiser mais controle, use a criptografia de mensagem avançada do Office 365 para criar vários modelos para emails criptografados provenientes da sua organização. Use esses modelos para controlar partes da experiência do usuário final. Por exemplo, especifique se os destinatários podem usar o Google, o Yahoo e contas da Microsoft para entrar no portal de criptografia. Use modelos para realizar vários casos de uso, como:
+Se você quiser mais controle, use a Criptografia de Mensagem Avançada do Office 365 para criar vários modelos para emails criptografados provenientes da sua organização. Use esses modelos para controlar partes da experiência do usuário final. Por exemplo, especifique se os destinatários podem usar o Google, o Yahoo e as Contas da Microsoft para entrar no portal de criptografia. Use modelos para atender a vários casos de uso, como:
 
-- Departamentos individuais, como finanças, vendas e assim por diante.
+- Departamentos individuais, como Finanças, Vendas e assim por diante.
 
 - Produtos diferentes
 
 - Diferentes regiões geográficas ou países
 
-- Se você deseja permitir que os emails sejam revogados
+- Se você deseja permitir que emails sejam revogados
 
-- Se você deseja que os emails enviados para destinatários externos expirem após um determinado número de dias.
+- Se você deseja que os emails enviados para destinatários externos expirem após um número especificado de dias.
 
-Depois de criar os modelos, você pode aplicá-los a emails criptografados usando regras de fluxo de email do Exchange. Se você tiver a criptografia de mensagem avançada do Office 365, poderá revogar qualquer email que tenha marcado usando esses modelos.
+Depois de criar os modelos, você pode aplicá-los a emails criptografados usando regras de fluxo de emails do Exchange. Se você tiver a Criptografia de Mensagem Avançada do Office 365, poderá revogar qualquer email que tenha identidade visual usando esses modelos.
 
-## <a name="work-with-ome-branding-templates"></a>Trabalhar com modelos de identidade visual do OME
+## <a name="work-with-ome-branding-templates"></a>Trabalhar com modelos de identidade visual OME
 
-Você pode modificar vários recursos dentro de um modelo de identidade visual. Você pode modificar, mas não remover, o modelo padrão. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez.
+Você pode modificar vários recursos em um modelo de identidade visual. Você pode modificar, mas não remover, o modelo padrão. Se você tiver a Criptografia Avançada de Mensagens, também poderá criar, modificar e remover modelos personalizados. Use o Windows PowerShell para trabalhar com um modelo de identidade visual por vez.
 
-- [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) -modifica o modelo de identidade visual padrão ou um modelo de identidade visual personalizado que você criou.
-- [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) -criar um novo modelo de identidade visual, somente criptografia de mensagem avançada.
-- [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) -remove um modelo de identidade visual personalizado, somente criptografia de mensagem avançada. Não é possível excluir o modelo de identidade visual padrão.
+- [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) - Modificar o modelo de identidade visual padrão ou um modelo de identidade visual personalizado que você criou.
+- [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) - Criar um novo modelo de identidade visual, criptografia de mensagem avançada apenas.
+- [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) - Remova um modelo de identidade visual personalizado, somente Criptografia de Mensagem Avançada. Não é possível excluir o modelo de identidade visual padrão.
   
-## <a name="modify-an-ome-branding-template"></a>Modificar um modelo de identidade visual do OME
+## <a name="modify-an-ome-branding-template"></a>Modificar um modelo de identidade visual OME
 
-Use o Windows PowerShell para modificar um modelo de identidade visual por vez. Se você tiver criptografia de mensagem avançada, também poderá criar, modificar e remover modelos personalizados.
+Use o Windows PowerShell para modificar um modelo de identidade visual por vez. Se você tiver a Criptografia Avançada de Mensagens, também poderá criar, modificar e remover modelos personalizados.
 
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta de trabalho ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Use o cmdlet Set-OMEConfiguration conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) ou use o gráfico e tabela a seguir para orientação.
+2. Use o Set-OMEConfiguration cmdlet conforme descrito em [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) ou use o gráfico e a tabela a seguir para obter orientação.
 
 ![Partes de email personalizáveis](../media/ome-template-breakout.png)
 
 |**Para personalizar este recurso da experiência com criptografia**|**Use estes comandos**|
 |:-----|:-----|
-|Cor da tela de fundo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> Para obter mais informações sobre cores de plano de fundo, consulte a seção [cores de plano de fundo](#background-color-reference) mais adiante neste artigo.|
-|Logotipo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Formatos de arquivo com suporte: .png, .jpg, .bmp ou .tiff  <br/> Tamanho ideal do arquivo de logotipo: menos que 40 KB  <br/> Tamanho ideal da imagem do logotipo: 170x70 pixels. Se a imagem exceder essas dimensões, o serviço redimensiona o logotipo para exibição no Portal. O serviço não modifica o próprio arquivo gráfico. Para obter melhores resultados, use o tamanho ideal.|
-|Texto ao lado do nome do remetente e endereço de email|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -IntroductionText "<String up to 1024 characters>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
-|Texto que aparece no botão "mensagem de leitura"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -ReadButtonText "<String up to 1024 characters>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
-|Texto que aparece abaixo do botão "ler mensagem"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<String up to 1024 characters>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
-|URL do link da política de privacidade|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PrivacyStatementURL "<URL>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
+|Cor da tela de fundo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> Para obter mais informações sobre cores de plano de fundo, consulte a seção [Cores](#background-color-reference) de plano de fundo mais adiante neste artigo.|
+|Logotipo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Formatos de arquivo com suporte: .png, .jpg, .bmp ou .tiff  <br/> Tamanho ideal do arquivo de logotipo: menos que 40 KB  <br/> Tamanho ideal da imagem do logotipo: 170 x 70 pixels. Se a imagem exceder essas dimensões, o serviço re dimensiona seu logotipo para exibição no portal. O serviço não modifica o próprio arquivo gráfico. Para obter melhores resultados, use o tamanho ideal.|
+|Texto ao lado do nome e endereço de email do remetente|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -IntroductionText "<String up to 1024 characters>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
+|Texto que aparece no botão "Ler Mensagem"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -ReadButtonText "<String up to 1024 characters>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
+|Texto que aparece abaixo do botão "Ler Mensagem"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<String up to 1024 characters>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
+|URL para o link política de privacidade|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PrivacyStatementURL "<URL>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
 |Declaração de isenção de responsabilidade nos emails que contêm a mensagem criptografada|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."`|
 |Texto que aparece na parte superior do portal de exibição do email criptografado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."`|
-|Para habilitar ou desabilitar a autenticação com um código de passagem única para este modelo personalizado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **Exemplos:** <br/>Para habilitar as senha de uso único para este modelo personalizado <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Para desabilitar as senha de uso único para este modelo personalizado <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
-|Para habilitar ou desabilitar a autenticação com identidades Microsoft, Google ou Yahoo para este modelo personalizado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **Exemplos:** <br/>Para habilitar as IDs sociais para este modelo personalizado <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> Para desabilitar as IDs sociais para este modelo personalizado <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
+|Para habilitar ou desabilitar a autenticação com um código de acesso único para este modelo personalizado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **Exemplos:** <br/>Para habilitar senhas de uso único para este modelo personalizado <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Para desabilitar senhas de uso único para este modelo personalizado <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
+|Para habilitar ou desabilitar a autenticação com as identidades microsoft, Google ou Yahoo para este modelo personalizado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **Exemplos:** <br/>Para habilitar IDs sociais para esse modelo personalizado <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> Para desabilitar IDs sociais para este modelo personalizado <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
 
-## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Criar um modelo de identidade visual do OME (criptografia de mensagem avançada)
+## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Criar um modelo de identidade visual OME (Criptografia Avançada de Mensagem)
 
-Se você tiver a criptografia de mensagem avançada do Office 365, poderá criar modelos de identidade visual personalizados para sua organização usando o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) . Depois de criar o modelo, modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em [Modify an ome branding template](#modify-an-ome-branding-template). Você pode criar vários modelos.
+Se você tiver a Criptografia Avançada de Mensagens do Office 365, poderá criar modelos de identidade visual personalizados para sua organização usando o cmdlet [New-OMEConfiguration.](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) Depois de criar o modelo, modifique o modelo usando o cmdlet Set-OMEConfiguration conforme descrito em Modificar um modelo de identidade visual [OME.](#modify-an-ome-branding-template) Você pode criar vários modelos.
 
 Para criar um novo modelo de identidade visual personalizado:
 
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta de trabalho ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
 2. Use o cmdlet [New-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) para criar um novo modelo.
 
@@ -113,32 +113,32 @@ Para criar um novo modelo de identidade visual personalizado:
 
 ## <a name="return-the-default-branding-template-to-its-original-values"></a>Retornar o modelo de identidade visual padrão para seus valores originais
 
-Para remover todas as modificações do modelo padrão, incluindo as personalizações de marca e assim por diante, conclua estas etapas:
+Para remover todas as modificações do modelo padrão, incluindo personalizações de marca e assim por diante, conclua estas etapas:
   
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta de trabalho ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Use o cmdlet **set-OMEConfiguration** conforme descrito em [set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration). Para remover as personalizações da marca da sua organização dos valores DisclaimerText, EmailText e PortalText, defina o valor como uma cadeia de caracteres vazia, `""` . Para todos os valores de imagem, como logotipo, defina o valor como  `"$null"` .
+2. Use o cmdlet **Set-OMEConfiguration** conforme descrito em [Set-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration). Para remover as personalizações de identidade visual da sua organização dos valores DisclaimerText, EmailText e PortalText, de definir o valor como uma cadeia de caracteres `""` vazia. Para todos os valores de imagem, como Logotipo, de definir o valor como  `"$null"` .
 
-   A tabela a seguir descreve os padrões de opção de personalização de criptografia.
+   A tabela a seguir descreve os padrões da opção de personalização de criptografia.
 
    **Para reverter esse recurso da experiência de criptografia para o texto e a imagem padrões**|**Use estes comandos**|
    |:-----|:-----|
    |Texto padrão que vem com mensagens de email criptografadas  <br/> O texto padrão é exibido acima das instruções para a exibição de mensagens criptografadas|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
    |Declaração de isenção de responsabilidade nos emails que contêm a mensagem criptografada|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
-   |Texto que aparece na parte superior do portal de exibição do email criptografado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **Exemplo reverter para o padrão:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
-   |Logotipo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **Exemplo reverter para o padrão:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
-   |Cor da tela de fundo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **Exemplo reverter para o padrão:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
+   |Texto que aparece na parte superior do portal de exibição do email criptografado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **Exemplo de como reverter para o padrão:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
+   |Logotipo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **Exemplo de como reverter para o padrão:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
+   |Cor da tela de fundo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **Exemplo de como reverter para o padrão:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
    |
 
-## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>Remover um modelo de identidade visual personalizado (criptografia de mensagem avançada)
+## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>Remover um modelo de identidade visual personalizado (Criptografia Avançada de Mensagens)
 
-Você só pode remover ou excluir modelos de identidade visual que você fez. Não é possível remover o modelo de identidade visual padrão.
+Você só pode remover ou excluir modelos de identidade visual que você tenha feito. Não é possível remover o modelo de identidade visual padrão.
 
 Para remover um modelo de identidade visual personalizado:
   
-1. Usando uma conta corporativa ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
+1. Usando uma conta de trabalho ou de estudante que tenha permissões de administrador global em sua organização, inicie uma sessão do Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell).
 
-2. Use o cmdlet **Remove-OMEConfiguration** da seguinte maneira:
+2. Use o cmdlet **Remove-OMEConfiguration** da seguinte forma:
 
    ```powershell
    Remove-OMEConfiguration -Identity ""<OMEConfigurationName>"
@@ -150,47 +150,47 @@ Para remover um modelo de identidade visual personalizado:
    Remove-OMEConfiguration -Identity "Branding template 1"
    ```
 
-   Para obter mais informações, consulte [Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration).
+   Para obter mais informações, [consulte Remove-OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration).
 
-## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>Criar uma regra de fluxo de email do Exchange que aplica sua identidade visual personalizada a emails criptografados
+## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>Criar uma regra de fluxo de emails do Exchange que aplique sua identidade visual personalizada a emails criptografados
 
-Depois de modificar o modelo padrão ou criar novos modelos de identidade visual, você pode criar regras de fluxo de email do Exchange para aplicar a identidade visual personalizada com base em determinadas condições. Tal regra aplicará a identidade visual personalizada nos seguintes cenários:
+Depois de modificar o modelo padrão ou criar novos modelos de identidade visual, você pode criar regras de fluxo de emails do Exchange para aplicar sua identidade visual personalizada com base em determinadas condições. Essa regra aplicará identidade visual personalizada nos seguintes cenários:
 
-- Se o email foi criptografado manualmente pelo usuário final usando o Outlook ou o Outlook na Web, anteriormente, o Outlook Web App
+- Se o email foi criptografado manualmente pelo usuário final usando o Outlook ou o Outlook na Web, anteriormente Outlook Web App
 
-- Se o email foi criptografado automaticamente por uma regra de fluxo de email do Exchange ou pela política de prevenção contra perda de dados
+- Se o email foi criptografado automaticamente por uma regra de fluxo de emails do Exchange ou uma política de Prevenção contra Perda de Dados
 
-Para obter informações sobre como criar uma regra de fluxo de email do Exchange que aplica criptografia, consulte [definir regras de fluxo de emails para criptografar mensagens de email no Office 365](define-mail-flow-rules-to-encrypt-email.md).
+Para saber mais sobre como criar uma regra de fluxo de emails do Exchange que aplica criptografia, confira Definir regras de fluxo de emails para criptografar mensagens de email no [Office 365.](define-mail-flow-rules-to-encrypt-email.md)
 
-1. Em um navegador da Web, usando uma conta corporativa ou de estudante que recebeu permissões de administrador global, [entre no Office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser).
+1. Em um navegador da Web, usando uma conta de trabalho ou de estudante que recebeu permissões de administrador global, entre no [Office 365.](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426#ID0EAABAAA=Web_browser)
 
-2. Escolha o bloco **administrador** .
+2. Escolha o **painel** Administrador.
 
-3. No centro de administração do Microsoft 365, escolha central de **Administração** do \> **Exchange**.
+3. No Centro de administração do Microsoft 365, escolha **Centros de administração do** \> **Exchange.**
 
-4. No Eat, vá para regras de **fluxo de email** \>  e selecione **novo** ![ novo ícone ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **criar uma nova regra**. Para obter mais informações sobre como usar o Eat, consulte [Exchange Admin Center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. No EAC, vá para Regras **de fluxo** \> **de** emails e selecione **Novo** ícone Criar uma ![ nova ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **regra.** Para saber mais sobre como usar o EAC, confira o Centro [de administração do Exchange no Exchange Online.](https://docs.microsoft.com/exchange/exchange-admin-center)
 
-5. Em **nome**, digite um nome para a regra, como identidade visual do departamento de vendas.
+5. In **Name**, type a name for the rule, such as Branding for sales department.
 
-6. Em **aplicar esta regra se**, selecione a condição que **o remetente está localizado dentro da organização** e outras condições que você deseja na lista de condições disponíveis. Por exemplo, talvez você queira aplicar um modelo de identidade visual específico a:
+6. In **Apply this rule if**, select the condition The **sender is located inside the organization** and other conditions you want from the list of available conditions. Por exemplo, talvez você queira aplicar um determinado modelo de identidade visual a:
 
    - Todos os emails criptografados enviados por membros do departamento financeiro
-   - Emails criptografados enviados com uma determinada palavra-chave, como "externo" ou "parceiro"
+   - Emails criptografados enviados com uma determinada palavra-chave, como "Externo" ou "Parceiro"
    - Emails criptografados enviados para um domínio específico
 
-7. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem** \> **aplicar a identidade visual personalizada às mensagens do ome**. Em seguida, na lista suspensa, selecione um modelo de identidade visual.
+7. From **Do the following**, select Modify the message **security** Apply \> **custom branding to OME messages**. Em seguida, na lista drop-down, selecione um modelo de identidade visual.
 
-8. Opcion Você pode configurar a regra de fluxo de emails para aplicar criptografia e identidade visual personalizada. Em **faça o seguinte**, selecione **Modificar a segurança da mensagem** e, em seguida, escolha **aplicar a criptografia de mensagem do Office 365 e proteção de direitos**. Selecione um modelo do RMS na lista, escolha **salvar** e, em seguida, escolha **OK**.
+8. (Opcional) Você pode configurar a regra de fluxo de emails para aplicar criptografia e identidade visual personalizada. Em **Do the following**, select Modify the message **security**, and then choose Apply **Office 365 Message Encryption and rights protection**. Selecione um modelo rmS na lista, escolha **Salvar** e, em seguida, escolha **OK**.
   
-   A lista de modelos inclui opções e modelos padrão e todos os modelos personalizados que você criar. Se a lista estiver vazia, verifique se você configurou a criptografia de mensagem do Office 365 com os novos recursos. Para obter instruções, consulte [configurar novos recursos de criptografia de mensagem do Office 365](set-up-new-message-encryption-capabilities.md). Para obter informações sobre os modelos padrão, consulte [Configurando e Gerenciando modelos para a proteção de informações do Azure](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). Para obter informações sobre a opção não **encaminhar** , confira a [opção não encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails). Para obter informações sobre a opção **somente criptografia** , confira a [opção criptografar somente para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
+   A lista de modelos inclui modelos e opções padrão e todos os modelos personalizados que você criar. Se a lista estiver vazia, verifique se você definiu a Criptografia de Mensagens do Office 365 com os novos recursos. Para obter instruções, confira Configurar novos recursos de Criptografia de Mensagem do [Office 365.](set-up-new-message-encryption-capabilities.md) Para obter informações sobre os modelos padrão, consulte Configurando e gerenciando modelos para a Proteção de [Informações do Azure.](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates) Para obter informações sobre a **opção Não Encaminhar,** consulte [a opção Não Encaminhar para emails.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails) Para obter informações sobre a **opção somente criptografar,** consulte a opção [Criptografar Somente para emails.](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)
 
-   Escolha **Adicionar ação** se você quiser especificar outra ação.
+   Escolha **adicionar ação** se quiser especificar outra ação.
 
-## <a name="background-color-reference"></a>Referência de cor de fundo
+## <a name="background-color-reference"></a>Referência de cor de plano de fundo
 
-Os nomes de cores que você pode usar para a cor de plano de fundo são limitados. Em vez de um nome de cor, você pode usar um valor de código HEX (#RRGGBB). Você pode usar um valor de código Hex que corresponde a um nome de cor ou pode usar um valor de código HEX personalizado. Certifique-se de colocar o valor do código hex entre aspas (por exemplo, `"#f0f8ff"` ).
+Os nomes de cores que você pode usar para a cor de plano de fundo são limitados. Em vez de um nome de cor, você pode usar um valor de código hexaxa (#RRGGBB). Você pode usar um valor de código hexaxa que corresponda a um nome de cor ou pode usar um valor de código hexaxa personalizado. Certifique-se de colocar o valor do código hexaxa entre aspas (por exemplo, `"#f0f8ff"` ).
 
-Os nomes de cor de plano de fundo disponíveis e seus valores de código hex correspondentes são descritos na tabela a seguir.
+Os nomes de cores de plano de fundo disponíveis e os valores de código hexaxa correspondentes são descritos na tabela a seguir.
 
 |**Nome da cor**|**Código de cor**|
 |---|---|

@@ -43,7 +43,7 @@ A Área de Trabalho Gerenciada da Microsoft identifica cada dispositivo exclusiv
 - Execute um script do Windows PowerShell usando o [Active Directory ou](#active-directory-powershell-script-method) [manualmente](#manual-powershell-script-method) em cada dispositivo e colete os resultados em um arquivo.
 - Inicie cada dispositivo, mas não conclua a experiência de instalação do Windows, e colete [os hashes em uma unidade flash removível.](#flash-drive-method)
 
-#### <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
+#### <a name="microsoft-endpoint-configuration-manager"></a>Gerenciador de Configuração do Microsoft Endpoint
 
 Você pode usar o Microsoft Endpoint Configuration Manager para coletar os hashes de hardware de dispositivos existentes que você deseja registrar na Área de Trabalho Gerenciada da Microsoft.
 
@@ -53,7 +53,7 @@ Você pode usar o Microsoft Endpoint Configuration Manager para coletar os hashe
 Se você atendeu a todos esses pré-requisitos, está pronto para coletar as informações seguindo estas etapas:
 
 1. No console do Configuration Manager, selecione **Monitoramento.** 
-2. No espaço de trabalho Monitoramento, expanda o **nó Relatórios,** expanda **Relatórios** e selecione o nó **Hardware -** Geral. 
+2. No espaço de trabalho Monitoramento, expanda o **nó Relatórios,** **expanda Relatórios** e selecione o **nó Hardware -** Geral. 
 3. Execute o relatório, informações **de dispositivo do Windows Autopilot** e veja os resultados.
 4. No visualizador de relatório, selecione o ícone Exportar e escolha a opção **CSV (delimitado por** vírgula). 
 5. Depois de salvar o arquivo, você precisará filtrar os resultados para apenas os dispositivos que planeja registrar na Área de Trabalho Gerenciada da Microsoft e carregar os dados na Área de Trabalho Gerenciada da Microsoft. Abra o Microsoft Endpoint Manager e navegue até **o** menu Dispositivos, procure a seção Área de Trabalho Gerenciada da Microsoft e selecione **Dispositivos.** Selecione **+ Registrar dispositivos**, que abre um sub-in para registrar novos dispositivos.
@@ -90,7 +90,7 @@ Em um ambiente do Active Directory, você pode usar o cmdlet do PowerShell para 
     Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
     ```
 
-3. Acesse todos os diretórios em que possam haver entradas para os dispositivos. Remova as entradas de cada dispositivo de todos *os* diretórios, incluindo os Serviços de Domínio do Active Directory do Windows Server e o Azure Active Directory. Esteja ciente de que a remoção pode levar algumas horas para ser completamente processda.
+3. Acesse todos os diretórios em que possam haver entradas para os dispositivos. Remova as entradas de cada dispositivo de todos *os* diretórios, incluindo o Windows Server Active Directory Domain Services e o Azure Active Directory. Esteja ciente de que a remoção pode levar algumas horas para ser completamente processda.
 
 4. Acessar serviços de gerenciamento onde pode haver entradas para os dispositivos. Remova as entradas de cada dispositivo de *todos* os serviços de gerenciamento, incluindo o Microsoft Endpoint Configuration Manager, o Microsoft Intune e o Windows Autopilot. Esteja ciente de que a remoção pode levar algumas horas para ser completamente processda.
 
@@ -108,7 +108,7 @@ Agora você pode continuar a registrar [dispositivos.](#register-devices-by-usin
 1. Em um dispositivo diferente do que você está registrando, insira uma unidade USB.
 2. Abra um prompt do PowerShell com direitos administrativos.
 3. Executar `Save-Script -Name Get-WindowsAutoPilotInfo -Path <pathToUsb>`
-4. Ligue o dispositivo que você está registrando, mas *não inicie a experiência de instalação.* Se você iniciar acidentalmente a experiência de instalação, terá que redefinir ou reimage o dispositivo.
+4. Ligue o dispositivo que você está registrando, mas *não inicie a experiência de configuração.* Se você iniciar acidentalmente a experiência de instalação, terá que redefinir ou reimage o dispositivo.
 5. Insira a unidade USB e pressione SHIFT + F10.
 6. Abra um prompt do PowerShell com direitos administrativos e `cd <pathToUsb>` execute.
 7. Executar `Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
@@ -155,8 +155,8 @@ Você pode monitorar o progresso do registro do dispositivo na página principal
 |---------------|-------------|
 | Registro Pendente | O registro ainda não foi feito. Verifique novamente mais tarde. |
 | Falha no registro | Não foi possível concluir o registro. Consulte Solução [de problemas de registro de dispositivos](#troubleshooting-device-registration) para obter mais informações. |
-| Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A Área de Trabalho Gerenciada da Microsoft os orientará durante a configuração pela primeira vez, portanto, não é necessário fazer outras preparações. |
-| Ativo | O dispositivo foi entregue ao usuário e ele se registrou em seu locatário. Isso também indica que eles estão usando regularmente o dispositivo. |
+| Pronto para o usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A Área de Trabalho Gerenciada da Microsoft os orientará durante a configuração pela primeira vez, portanto, não há necessidade de você fazer outras preparações. |
+| Ativo | O dispositivo foi entregue ao usuário e ele se registrou em seu locatário. Isso também indica que eles estão usando o dispositivo regularmente. |
 | Inativo | O dispositivo foi entregue ao usuário e ele se registrou em seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Solução de problemas de registro de dispositivos

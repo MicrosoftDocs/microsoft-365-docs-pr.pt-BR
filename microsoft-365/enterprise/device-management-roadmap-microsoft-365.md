@@ -1,6 +1,6 @@
 ---
-title: Roteiro de gerenciamento de dispositivo para o Microsoft 365
-keywords: Microsoft 365, Microsoft 365 para empresas, documentação do Microsoft 365, gerenciamento de dispositivos móveis, Intune
+title: Roteiro de gerenciamento de dispositivos para Microsoft 365
+keywords: Microsoft 365, Microsoft 365 para empresas, documentação do Microsoft 365, gerenciamento de dispositivo móvel, Intune
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
@@ -22,32 +22,32 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 01/04/2021
 ms.locfileid: "49749534"
 ---
-# <a name="device-management-roadmap-for-microsoft-365"></a>Roteiro de gerenciamento de dispositivo para o Microsoft 365
+# <a name="device-management-roadmap-for-microsoft-365"></a>Roteiro de gerenciamento de dispositivos para Microsoft 365
 
-O Microsoft 365 for Enterprise inclui recursos para ajudar a gerenciar dispositivos e seus aplicativos em sua organização. Gerenciar dispositivos móveis ajuda você a proteger e proteger os recursos da sua organização.
+O Microsoft 365 para empresas inclui recursos para ajudar a gerenciar dispositivos e seus aplicativos em sua organização. O gerenciamento de dispositivos móveis ajuda a proteger e proteger os recursos da sua organização.
 
-Há duas opções para o gerenciamento de dispositivos:
+Há duas opções de gerenciamento de dispositivos:
 
 - [Microsoft Intune](#microsoft-intune)
 - [Mobilidade e Segurança Básica](#basic-mobility-and-security)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
-Você pode usar o Microsoft Intune para gerenciar o acesso à sua organização usando o gerenciamento de dispositivos móveis ou o gerenciamento de aplicativos móveis. O gerenciamento de dispositivos móveis é quando os usuários "registram" seus dispositivos no Intune. Após um dispositivo ser inscrito, é um dispositivo gerenciado; Portanto, ele pode receber as políticas, as regras e as configurações da sua organização. Por exemplo, você pode instalar aplicativos específicos, criar uma política de senha, instalar uma conexão VPN e muito mais.
+Você pode usar o Microsoft Intune para gerenciar o acesso à sua organização usando o gerenciamento de dispositivo móvel ou o gerenciamento de aplicativos móveis. O gerenciamento de dispositivos móveis é quando os usuários "registram" seus dispositivos no Intune. Depois que um dispositivo é inscrito, ele é um dispositivo gerenciado; portanto, ele pode receber as políticas, regras e configurações da sua organização. Por exemplo, você pode instalar aplicativos específicos, criar uma política de senha, instalar uma conexão VPN e muito mais.
 
-Os usuários com seus próprios dispositivos pessoais podem não querer registrar seus dispositivos ou ser gerenciados pelo Intune e pelas políticas da sua organização. Mas você ainda precisa proteger os recursos e os dados da sua organização. Neste cenário, você pode proteger seus aplicativos usando o gerenciamento de aplicativo móvel. Por exemplo, você pode usar uma política de gerenciamento de aplicativo móvel que exige que um usuário insira um PIN ao acessar o SharePoint Online no dispositivo.
+Os usuários com seus próprios dispositivos pessoais podem não querer registrar seus dispositivos ou ser gerenciados pelo Intune e pelas políticas da sua organização. Mas você ainda precisa proteger os recursos e dados da sua organização. Nesse cenário, você pode proteger seus aplicativos usando o gerenciamento de aplicativos móveis. Por exemplo, você pode usar uma política de gerenciamento de aplicativo móvel que exija que um usuário insira um PIN ao acessar o SharePoint Online no dispositivo.
 
-Você também determinará como você vai gerenciar dispositivos pessoais e dispositivos de propriedade da organização. Você pode querer tratar os dispositivos de forma diferente, dependendo de seus usos.
+Você também determinará como gerenciará dispositivos pessoais e dispositivos de propriedade da organização. Talvez você queira tratar os dispositivos de maneira diferente, dependendo de seus usos.
 
 ## <a name="basic-mobility-and-security"></a>Mobilidade e Segurança Básica
 
-Isso é feito no Microsoft 365 e ajuda você a proteger e gerenciar os dispositivos móveis dos seus usuários, como iPhones, iPads, Androids e Windows phones. Você pode criar e gerenciar políticas de segurança de dispositivo, apagar remotamente um dispositivo e exibir relatórios detalhados de dispositivos.
+Isso foi criado no Microsoft 365 e ajuda você a proteger e gerenciar dispositivos móveis dos usuários, como iPhones, iPads, Androids e telefones Windows. Você pode criar e gerenciar políticas de segurança de dispositivo, apagar remotamente um dispositivo e exibir relatórios detalhados de dispositivos.
 
 ## <a name="choose-between-the-two-options"></a>Escolha entre as duas opções
 
-Para ajudá-lo a avaliar melhor qual opção de gerenciamento de dispositivos é melhor para você, consulte [escolher entre a segurança de mobilidade básica e o Intune](https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune).
+Para ajudá-lo a avaliar melhor qual opção de gerenciamento de dispositivo é melhor para você, consulte Escolher [entre o Basic Mobility Security e o Intune.](https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune)
 
-Com base em sua avaliação, comece a gerenciar seus dispositivos com:
+Com base em sua avaliação, começar a gerenciar seus dispositivos com:
 
 - [Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide)
 - [Mobilidade e Segurança Básica](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd)
@@ -59,6 +59,6 @@ A Microsoft fornece um conjunto de recomendações para [acesso de dispositivo e
 - [Pré-requisitos](../security/office-365-security/identity-access-prerequisites.md)
 - [Identidade comum e políticas de acesso ao dispositivo](../security/office-365-security/identity-access-policies.md)
 
-## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Como a contoso fazia o gerenciamento de dispositivos para o Microsoft 365
+## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Como a Contoso fez o gerenciamento de dispositivos para o Microsoft 365
 
-Para obter informações sobre como uma empresa multinacional fictícia, mas representativa, implantou sua infraestrutura de gerenciamento de dispositivo móvel com os serviços de nuvem da Microsoft 365, consulte [Mobile Device Management for contoso](contoso-mdm.md).
+Para obter informações sobre como uma empresa multinacional fictícia, mas representativa, implantou sua infraestrutura de gerenciamento de dispositivo móvel com os serviços de nuvem do Microsoft 365, consulte Gerenciamento de dispositivo [móvel para a Contoso.](contoso-mdm.md)

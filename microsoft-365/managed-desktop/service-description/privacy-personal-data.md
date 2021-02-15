@@ -19,13 +19,13 @@ ms.locfileid: "49840476"
 ---
 # <a name="privacy-and-personal-data"></a>Privacidade e dados pessoais
 
-Os usuários podem receber, transmitir e armazenar dados em dispositivos gerenciados pela Área de Trabalho Gerenciada da Microsoft. Eles confiam que a privacidade dos dados está protegida e usada somente de maneira consistente com suas expectativas. Este artigo explica como a Área de Trabalho Gerenciada da Microsoft coleta, armazena, retém, processa, segura, compartilha, audita e exporta dados pessoais. Você também aprenderá como um administrador pode exibir, corrigir e excluir dados pessoais.
+Os usuários podem receber, transmitir e armazenar dados em dispositivos gerenciados pela Área de Trabalho Gerenciada da Microsoft. Eles confiam que a privacidade dos dados está protegida e usada somente de uma maneira que seja consistente com suas expectativas. Este artigo explica como a Área de Trabalho Gerenciada da Microsoft coleta, armazena, retém, processa, segura, compartilha, audita e exporta dados pessoais. Você também aprenderá como um administrador pode exibir, corrigir e excluir dados pessoais.
 
 A Área de Trabalho Gerenciada da Microsoft não usa dados pessoais coletados como parte do fornecimento do serviço para fins de criação de perfil, publicidade ou marketing.
 
 ## <a name="data-collection-of-microsoft-managed-desktop"></a>Coleta de dados da Área de Trabalho Gerenciada da Microsoft
 
-Quando os usuários registram dispositivos corporativos na Área de Trabalho Gerenciada da Microsoft, a coleta de dados é manipulada – na camada técnica – usando o Windows e o Microsoft Intune. Essas fontes coletam dados pessoais sobre dispositivos dos usuários, como nomes de dispositivos da Área de Trabalho Gerenciada da Microsoft para identificar o dispositivo a ser gerenciado e fornecido com as experiências da Área de Trabalho Gerenciada da Microsoft.
+Quando os usuários registram dispositivos corporativos na Área de Trabalho Gerenciada da Microsoft, a coleta de dados é manipulada , na camada técnica, usando o Windows e o Microsoft Intune. Essas fontes coletam dados pessoais sobre dispositivos dos usuários, como nomes de dispositivos da Área de Trabalho Gerenciada da Microsoft para identificar o dispositivo a ser gerenciado e fornecido com as experiências da Área de Trabalho Gerenciada da Microsoft.
 
 A Área de Trabalho Gerenciada da Microsoft não coleta dados por si só para fornecer seu serviço (exceto para informações [de contato do administrador de IT.](#it-admin-contact-information) Em vez disso, a Área de Trabalho Gerenciada da Microsoft reutiliza dados que outras fontes, como o Windows e o Microsoft Intune, já coletaram. A Área de Trabalho Gerenciada da Microsoft usa dados que esses serviços coletam de dispositivos inscritos:
 
@@ -49,7 +49,7 @@ A Área de Trabalho Gerenciada da Microsoft armazena seus dados nos Estados Unid
 
 ### <a name="staff-location"></a>Local da equipe
 
-As equipes de Operações de MMD e operações de segurança MMD estão localizadas nos Estados Unidos e na Índia.
+As equipes de operações de segurança MMD e MMD estão localizadas nos Estados Unidos e na Índia.
 
 ## <a name="data-usage-of-microsoft-managed-desktop"></a>Uso de dados da Área de Trabalho Gerenciada da Microsoft
 
@@ -85,7 +85,7 @@ A Área de Trabalho Gerenciada da Microsoft processa essas entidades para fornec
 
 Os dados de identidade usados pela Área de Trabalho Gerenciada da Microsoft são armazenados pelo Azure Active Directory em uma localização geográfica com base no endereço fornecido pela organização ao se inscrever em um serviço online da Microsoft, como o Office 365 ou o Azure. Confira [o Microsoft Azure :](http://azuredatacentermap.azurewebsites.net/) Onde estão os dados do meu cliente? para ver um mapa mostrando os datacenters do Azure Active Directory.
 
-Para saber mais sobre as regiões que o Azure usa para armazenamento de dados, confira [Azure Active Directory–](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)Onde estão seus dados localizados.
+Para obter mais informações sobre as regiões que o Azure usa para armazenamento de dados, consulte [Azure Active Directory–](https://msit.powerbi.com/view?r=eyJrIjoiODdjOWViZDctMWRhZS00ODUzLWI4MmQtNWM5NjBkZTBkNjFlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)Onde estão seus dados localizados.
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 

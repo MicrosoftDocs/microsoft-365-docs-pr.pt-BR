@@ -24,14 +24,14 @@ ms.locfileid: "49840688"
  
 ## <a name="apps-generally"></a>Aplicativos geralmente
 
-A Microsoft inclui determinados aplicativos importantes junto com a licença do Microsoft 365 E3 ou E5 necessária para participar da Área de Trabalho Gerenciada da Microsoft. No entanto, embora forneçamos esses aplicativos, você ainda tem determinadas responsabilidades e ações a concluir.
+A Microsoft inclui determinados aplicativos importantes, juntamente com a licença do Microsoft 365 E3 ou E5 necessária para participar da Área de Trabalho Gerenciada da Microsoft. No entanto, embora forneçamos esses aplicativos, você ainda tem determinadas responsabilidades e ações a concluir.
 
 Você também pode implantar aplicativos adicionais que não são da Microsoft para seus usuários para autoatenDados por meio do Portal da Empresa ou uma instalação em segundo plano necessária, todos usando o pipeline de implantação do Microsoft Intune. Se você tiver a experiência, poderá migrar os aplicativos de que precisa. como alternativa, os Serviços de Consultoria da Microsoft (MCS) ou fornecedores que não são da Microsoft vão ficar satisfeitos em ajudá-lo com um projeto de empacotamento e migração. Para obter mais informações sobre como trabalhar com MCS, consulte [Trabalhando com serviços de consultoria da Microsoft.](apps-MCS.md)
 
 
 ## <a name="apps-provided-by-microsoft"></a>Aplicativos fornecidos pela Microsoft
 
-Estão incluídas na sua licença da Área de Trabalho Gerenciada da Microsoft versões de 64 bits dos aplicativos do Microsoft 365 Apps para Empresas Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business e OneNote.) As versões Clique para Executar do Microsoft  Project e do Visio não estão incluídas por padrão, mas você pode solicitar que elas sejam adicionadas. Para obter mais informações sobre esses aplicativos, consulte Instalar o [Microsoft Project ou o Microsoft Visio em dispositivos da Área de Trabalho Gerenciada da Microsoft.](../get-started/project-visio.md)
+Incluídas na sua licença da Área de Trabalho Gerenciada da Microsoft estão versões de 64 bits dos aplicativos no Microsoft 365 Apps para Empresas Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype for Business e OneNote.) As versões Clique para Executar do Microsoft  Project e do Visio não estão incluídas por padrão, mas você pode solicitar que elas sejam adicionadas. Para obter mais informações sobre esses aplicativos, consulte Instalar o [Microsoft Project ou o Microsoft Visio em dispositivos da Área de Trabalho Gerenciada da Microsoft.](../get-started/project-visio.md)
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>O que a Microsoft faz para dar suporte aos aplicativos que fornecemos
 
@@ -55,13 +55,13 @@ Se você atualmente implantar seus aplicativos usando o Microsoft Endpoint Confi
 ### <a name="preparing-your-own-apps-for-inclusion-in-microsoft-managed-desktop"></a>Preparando seus próprios aplicativos para inclusão na Área de Trabalho Gerenciada da Microsoft
 Revise seus aplicativos, verificando:
 
-- Nenhum dos aplicativos é proibido ou tem comportamento restrito, conforme descrito nos requisitos de aplicativo da Área de [Trabalho Gerenciada da Microsoft.](https://aka.ms/app-req)
+- Nenhum dos aplicativos é proibido ou tem comportamento restrito, conforme descrito nos requisitos de aplicativo da [Área de Trabalho Gerenciada da Microsoft.](https://aka.ms/app-req)
 - Os aplicativos devem estar prontos para gerenciamento pelo Microsoft Intune. Para obter mais informações sobre este tópico, consulte a implantação de aplicativos do Windows 10 usando o [Microsoft Intune](https://docs.microsoft.com/intune/apps-windows-10-app-deploy) e adicionar aplicativos [ao Microsoft Intune.](https://docs.microsoft.com/intune/apps-add)
 - Outros requisitos de pré-empacotamento, como fornecimento de chaves de licença, contrato com termos de licença e pré-configuração de conexões de servidor.
 
 ### <a name="decide-how-to-package-apps"></a>Decidir como empacotar aplicativos
 
-Alguns editores de software independentes podem exigir que seus aplicativos sejam empacotados antes da implantação centralizada. "Empacotamento" significa que o instalador do aplicativo está configurado com configurações como chaves de licença, locais do servidor remoto ou atalhos da área de trabalho para que o aplicativo possa ser instalado em segundo plano.
+Alguns editores de software independentes podem exigir que seus aplicativos sejam empacotados antes da implantação centralizada. "Empacotamento" significa que o instalador do aplicativo é configurado com configurações como chaves de licença, locais do servidor remoto ou atalhos da área de trabalho para que o aplicativo possa ser instalado em segundo plano.
 
 Há três opções para fazer com que seus aplicativos sejam empacotados: 
 
@@ -74,6 +74,6 @@ Há três opções para fazer com que seus aplicativos sejam empacotados:
 
 ## <a name="deploying-apps"></a>Implantando aplicativos
 
-Seja qual for o método usado para obter aplicativos empacotados, depois de concluído, você estará pronto para seguir as etapas em Implantar aplicativos em dispositivos da Área de Trabalho Gerenciada [da Microsoft.](../get-started/deploy-apps.md)
+Seja qual for o método usado para obter aplicativos empacotados, depois de concluído, você estará pronto para seguir as etapas em Implantar aplicativos em dispositivos da Área de Trabalho [Gerenciada da Microsoft.](../get-started/deploy-apps.md)
 
 

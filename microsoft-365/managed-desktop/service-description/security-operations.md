@@ -23,7 +23,7 @@ O Microsoft Managed Desktop Security Operations Center (SOC) faz parceria com su
 O SOC oferece cobertura 24/7/365 de funcionários em tempo integral da Microsoft com experiência no cenário de ameaças atual e emergente, incluindo métodos comuns de ataque por meio de software, rede ou adversários humanos.
 
 O SOC fornece estes serviços:
-- Resposta rápida e precisa a eventos detectados, com análise de dados para identificar o impacto e avaliar o risco geral para um dispositivo ou seu ambiente
+- Resposta rápida e precisa a eventos detectados, com análise de dados para identificar o impacto e avaliar o risco geral para um dispositivo ou ambiente
 - Ações de gerenciamento e isolamento de dispositivos para proteger seu ambiente contra comprometimentos conhecidos ou suspeitos, reduzindo o risco evitando a propagação
 - Conduzir o processo de resposta a incidentes de segurança, garantindo uma comunicação o tempo e precisa com sua equipe de segurança
 - Análise e recomendações baseadas em dados de ameaças e vulnerabilidades para identificar e solucionar riscos antes que eles são explorados
@@ -37,7 +37,7 @@ O SOC fornece estes serviços:
 - O processo permite a coleta adequada de informações e evidências, para análise e documentação e insights pós-recuperação sobre maneiras de defender melhor seu ambiente por meio dessas fases:
     - Preparação, detecção e análise
     - Contenção
-    - Eliminação
+    - Eradication
     - Recuperação
     - Atividade pós-incidente
 - Os clientes da Área de Trabalho Gerenciada da Microsoft estão qualificados para se inscrever no serviço Especialistas em Ameaças da Microsoft. O SOC está em contato com esse serviço para entender melhor as ameaças complexas que afetam sua organização, incluindo consultas de alertas, dispositivos potencialmente comprometidos, causa raiz de uma conexão de rede suspeita e outras inteligências de ameaças em relação às campanhas de ameaças persistentes em andamento. Para obter mais informações, consulte [Especialistas em Ameaças da Microsoft.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts)

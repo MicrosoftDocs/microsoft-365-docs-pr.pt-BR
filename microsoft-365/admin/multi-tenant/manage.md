@@ -1,5 +1,5 @@
 ---
-title: Gerenciar vários locatários
+title: Gerenciar múltiplos locatários
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -28,7 +28,7 @@ ms.locfileid: "49790133"
 ---
 # <a name="multi-tenant-management"></a>Gerenciamento de vários locatários
 
-O gerenciamento de vários locatários oferece uma forma unificada de gerenciamento que permite aos administradores administrar todos os locatários que eles gerenciam em um único local. Se você gerenciar vários locatários, poderá:
+O gerenciamento de vários locatários oferece uma forma unificada de gerenciamento que permite aos administradores administrar todos os locatários que eles gerenciam de um único local. Se você gerenciar vários locatários, poderá:
 
 - Mova-se rapidamente entre locatários que você gerencia.
 - Avaliar a saúde do serviço, produtos e cobrança em vários locatários.
@@ -52,7 +52,7 @@ O gerenciamento de vários locatários oferece uma forma unificada de gerenciame
   - Avaliar a saúde do serviço
   - Revisar o uso da licença
   - Pesquisar ou selecionar o locatário que você deseja gerenciar
-  - Você também pode fixar seu locatário visitado com mais frequência na parte superior da lista.
+  - Você também pode fixar seu locatário visitado com mais frequência no topo da lista.
 
 
 Se você marcou um locatário como favorito, ele será expandido automaticamente para que você possa exibir imediatamente os detalhes de status.
@@ -66,7 +66,7 @@ A exibição de saúde do serviço mostra se algum incidente ou aviso está afet
     
     - Você pode usar a opção de filtro para exibir problemas por tipo de problema ou por serviço
 
-    - Você pode revisar os problemas nas **guias Todos os serviços** ou Todos **os** Problemas.
+    - Você pode revisar os problemas nas **guias Todos os Serviços** **ou** Todos os Problemas.
 
     :::image type="content" source="../../media/multitenant-servicehealth.png" alt-text="Página de saúde do Serviço de vários locatários.":::
 1. Selecione um incidente na  guia **Todos os serviços** ou Todos os problemas para obter mais informações sobre qualquer incidente na guia **Visão** Geral. Selecione a **guia Locatários afetados** para obter uma lista dos locatários afetados.
@@ -75,7 +75,7 @@ A exibição de saúde do serviço mostra se algum incidente ou aviso está afet
 
 A lista de locatários afetados pode ser exportada para o formato CSV para que os administradores possam compartilhá-la com as equipes de suporte.
 
-## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Exibir um único locatário no Centro de administração do Microsoft 365
+## <a name="view-a-single-tenant-in-the-microsoft-365-admin-center"></a>Exibir um único locatário no centro de administração do Microsoft 365
 
 Você pode retornar ao centro de administração do Microsoft 365 para qualquer um dos locatários na **página Todos os locatários.**
 

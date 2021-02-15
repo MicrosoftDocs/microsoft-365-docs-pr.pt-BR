@@ -39,7 +39,7 @@ Se você usa atualmente um domínio ".local" para suas contas de usuário no AD 
 
 Você usa o Azure AD Connect para sincronizar seu AD DS com o locatário do Azure AD do locatário do Microsoft 365. Para obter mais informações, [consulte Integrando suas identidades locais com o Azure AD.](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/azure-ad)
   
-O Azure AD Connect sincroniza o UPN e a senha dos usuários para que eles possam entrar com as mesmas credenciais que usam no local. No entanto, o Azure AD Connect sincroniza apenas os usuários com domínios verificados pelo Microsoft 365. Isso significa que o domínio também é verificado pelo Azure AD porque as identidades do Microsoft 365 são gerenciadas pelo Azure AD. Em outras palavras, o domínio deve ser um domínio válido da Internet (como.com, .org, .net, .us). Se o AD DS interno usa apenas um domínio não-rouável (por exemplo, ".local"), isso possivelmente não pode corresponder ao domínio verificado que você tem para seu locatário do Microsoft 365. Você pode corrigir esse problema alterando seu domínio principal no AD DS local ou adicionando um ou mais sufixos UPN.
+O Azure AD Connect sincroniza o UPN e a senha dos usuários para que eles possam entrar com as mesmas credenciais que usam no local. No entanto, o Azure AD Connect sincroniza apenas os usuários com domínios verificados pelo Microsoft 365. Isso significa que o domínio também é verificado pelo Azure AD porque as identidades do Microsoft 365 são gerenciadas pelo Azure AD. Em outras palavras, o domínio deve ser um domínio válido da Internet (como .com, .org, .net, .us). Se o AD DS interno usa apenas um domínio não-rouável (por exemplo, ".local"), isso não pode corresponder ao domínio verificado que você tem para seu locatário do Microsoft 365. Você pode corrigir esse problema alterando seu domínio principal no AD DS local ou adicionando um ou mais sufixos UPN.
   
 ### <a name="change-your-primary-domain"></a>Alterar seu domínio principal
 
@@ -47,7 +47,7 @@ Altere seu domínio principal para um domínio que você verificou no Microsoft 
   
 ### <a name="add-upn-suffixes-and-update-your-users-to-them"></a>Adicionar sufixos UPN e atualizar seus usuários para eles
 
-Você pode resolver o problema ".local" registrando novos sufixos ou sufixos UPN no AD DS para corresponder ao domínio (ou domínios) verificado no Microsoft 365. Depois de registrar o novo sufixo, atualize os UPNs dos usuários para substituir ".local" pelo novo nome de domínio, por exemplo, para que uma conta de usuário se pareça com billa@contoso.com.
+Você pode resolver o problema ".local" registrando novos sufixos ou sufixos UPN no AD DS para corresponder ao domínio (ou domínios) verificado no Microsoft 365. Depois de registrar o novo sufixo, atualize os UPNs de usuário para substituir ".local" pelo novo nome de domínio, por exemplo, para que uma conta de usuário se pareça com billa@contoso.com.
   
 Depois de atualizar os UPNs para usar o domínio verificado, você estará pronto para sincronizar seu AD DS local com o Microsoft 365.
   
@@ -92,7 +92,7 @@ Depois de atualizar os UPNs para usar o domínio verificado, você estará pront
 
 Se você tiver muitas contas de usuário para atualizar, será mais fácil usar o PowerShell. O exemplo a seguir usa os cmdlets [Get-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624312) e [Set-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624313) para alterar todos os sufixos contoso.local para contoso.com no AD DS. 
 
-Por exemplo, você pode executar os seguintes comandos do PowerShell para atualizar todos os sufixos contoso.local contoso.com:
+Por exemplo, você pode executar os seguintes comandos do PowerShell para atualizar todos os sufixos contoso.local para contoso.com:
     
   ```powershell
   $LocalUsers = Get-ADUser -Filter "UserPrincipalName -like '*contoso.local'" -Properties userPrincipalName -ResultSetSize $null
