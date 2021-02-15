@@ -82,7 +82,7 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Resultado  |Significado  |
 |---------|---------|
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
-|Aviso    | Siga as etapas na ferramenta para a melhor experiência com o registro e para os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
+|Aviso    | Siga as etapas na ferramenta para ter a melhor experiência com o registro e os usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
 |Não está pronto | *O registro falhará* se você não corrigir esses problemas. Siga as etapas na ferramenta para resolvê-las.        |
 |Error | A função do Azure Active Director (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
 

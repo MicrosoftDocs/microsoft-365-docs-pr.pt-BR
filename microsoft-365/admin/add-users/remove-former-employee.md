@@ -54,7 +54,7 @@ Se você achou esse vídeo útil, consulte as [séries completas de treinamento 
 Para impedir que um funcionário entre:
 
 1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-2. Selecione a caixa ao lado do nome do usuário e selecione **Redefinir senha.**
+2. Selecione a caixa ao lado do nome do usuário e, em seguida, selecione **Redefinir senha.**
 3. Insira uma nova senha e selecione **Redefinir.** (Não o envie para eles.)
 4. Selecione o nome do usuário para ir para o  painel de propriedades e, na guia Conta, selecione **Iniciar saída.**
 
@@ -101,7 +101,7 @@ Para saber mais sobre quanto tempo é preciso para excluir alguém do email, con
 Uma pergunta que recebemos frequentemente é: o que posso fazer para proteger os dados quando um funcionário deixa a organização? Este artigo explica como bloquear o acesso ao Microsoft 365 e as etapas que você deve seguir para proteger seus dados.
   
 > [!NOTE]
-> Se você for um administrador global, poderá excluir o funcionário, encaminhar seus emails, escolher o que fazer com o conteúdo do OneDrive usando a nova experiência guiada. Para obter mais informações, consulte [Administrador global: Excluir um usuário.](remove-former-employee.md) No entanto, recomendamos concluir todas as etapas adicionais listadas aqui para garantir que o funcionário não tenha acesso aos dados da sua empresa. 
+> Se você for um administrador global, poderá excluir o funcionário, encaminhar seus emails, escolher o que fazer com o conteúdo do OneDrive usando a nova experiência guiada. Para obter mais informações, consulte [Administrador global: Excluir um usuário](remove-former-employee.md). No entanto, recomendamos concluir todas as etapas adicionais listadas aqui para garantir que o funcionário não tenha acesso aos dados da sua empresa. 
   
 A seguir está uma breve visão geral. Cada etapa é explicada em detalhes neste artigo.
   
@@ -189,12 +189,12 @@ Nesta etapa, você atribui o endereço de email do ex-funcionário para outro fu
 
 ## <a name="wipe-and-block-a-former-employees-mobile-device"></a>Apagar e bloquear o dispositivo móvel de um ex-funcionário
 
-Se o ex-funcionário tinha um telefone da organização, você pode usar o Centro de administração do Exchange para apagar e bloquear esse dispositivo para que todos os dados da organização são removidos do dispositivo e ele não possa mais se conectar ao Office 365.
+Se seu ex-funcionário tinha um telefone da organização, você pode usar o Centro de administração do Exchange para apagar e bloquear esse dispositivo para que todos os dados da organização são removidos do dispositivo e ele não possa mais se conectar ao Office 365.
 
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 2. No Centro de administração do Exchange, navegue até **Destinatários** \> **Caixas de Correio**.
 3. Selecione o usuário e, em **Dispositivos Móveis,** selecione **Exibir detalhes.**
-4. Na página **Detalhes do Dispositivo Móvel,** em **Dispositivos** Móveis, selecione o dispositivo móvel, selecione **Apagar** Dispositivo de Apagamento de Dados e, em seguida, ![ selecione ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) **Bloquear.**
+4. Na página **Detalhes do Dispositivo** Móvel, em **Dispositivos** Móveis, selecione o dispositivo móvel, selecione **Apagar** Dispositivo de Apagamento de Dados e ![ selecione ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) **Bloquear.**
 5. Selecione **Salvar**.
    > [!TIP]
    > Certifique-se de remover ou desabilitar o usuário do Blackberry Enterprise Service local. Você também deve desabilitar todos os dispositivos Blackberry desse usuário. Veja o Guia de Administração do Blackberry Business Cloud Services se precisar de etapas específicas para desabilitar o usuário.
@@ -202,7 +202,7 @@ Se o ex-funcionário tinha um telefone da organização, você pode usar o Centr
 ## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Bloquear o acesso de um ex-funcionário aos dados do Microsoft 365
 
  > [!IMPORTANT]
- > O bloqueio de uma conta pode levar até 24 horas para ter efeito. Se você precisar impedir imediatamente o acesso de logon de um usuário, redefina a senha e inicie um evento único que o desajuste das sessões do Microsoft 365 em todos os dispositivos. [](reset-passwords.md) Confira [Sair agora!](#sign-out-now)
+ > O bloqueio de uma conta pode levar até 24 horas para ter efeito. Se você precisar impedir imediatamente o acesso de um [](reset-passwords.md) usuário, redefina a senha e inicie um evento único que o desajuste das sessões do Microsoft 365 em todos os dispositivos. Confira [Sair agora!](#sign-out-now)
 
 ::: moniker range="o365-worldwide"
 
@@ -234,7 +234,7 @@ Se o ex-funcionário tinha um telefone da organização, você pode usar o Centr
 
 ## <a name="block-a-former-employees-access-to-email-exchange-online"></a>Bloquear o acesso de um ex-funcionário ao email (Exchange Online)
 
-Se você tiver um email como parte da sua assinatura do Microsoft 365, entre no Centro de administração do Exchange para seguir estas etapas para impedir que seu ex-funcionário acesse seus emails.
+Se você tiver um email como parte da sua assinatura do Microsoft 365, será necessário entrar no Centro de administração do Exchange para seguir estas etapas para impedir que seu ex-funcionário acesse seus emails.
   
 1. Vá até o <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Centro de administração do Exchange</a>.
 2. No Centro de administração do Exchange, navegue até **Destinatários** \> **Caixas de Correio**.

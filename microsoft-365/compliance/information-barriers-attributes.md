@@ -90,7 +90,7 @@ A tabela a seguir lista os atributos que você pode usar com barreiras de inform
 | TargetAddress | ExternalEmailAddress |
 | UsageLocation | UsageLocation |
 | UserPrincipalName | UserPrincipalName |
-| Email | WindowsEmailAddress |
+| Correio | WindowsEmailAddress |
 | Descrição | Descrição |
 | MemberOf | MemberOfGroup |
 

@@ -53,12 +53,12 @@ Ao usar a **guia** Atualização, você é levado pelo processo de compra de um 
 
 4. Encontre o plano para o qual você deseja atualizar e selecione o **botão** Atualizar.
 
-5. Insira o número de licenças de que você precisa, escolha se deve pagar a cada mês ou por todo o ano e, em seguida, selecione **Ir para check-out**.
+5. Insira o número de licenças de que você precisa, escolha se deve pagar a cada mês ou pelo ano inteiro e, em seguida, selecione **Ir para check-out.**
 
     > [!NOTE]
     > Certifique-se de comprar licenças suficientes para abranger todos os seus usuários.
 
-6. Na próxima página, verifique o **vendido para** endereço, o **cobrado para** informações e itens **nesta ordem**. Você pode alterar o método de pagamento padrão nesta etapa. Se você precisar fazer alterações, selecione **Alterar** ao lado da seção aplicável.
+6. Na próxima página, verifique o **vendido para** endereço, o **cobrado para** informações e itens **nesta ordem.** Você pode alterar o método de pagamento padrão nesta etapa. Se você precisar fazer alterações, selecione **Alterar** ao lado da seção aplicável.
 
 7. Quando terminar, selecione Fazer **pedido.**
 
@@ -86,17 +86,17 @@ Se você só quiser atualizar alguns usuários para um plano diferente, mas prec
 
 ## <a name="why-cant-i-upgrade-plans"></a>Por que não consigo atualizar os planos?
 
-Se você não vir planos  na guia Atualização, significa que seu plano não pode ser atualizado automaticamente. Em alguns casos, talvez seja possível resolver o problema para que você possa exibir os planos disponíveis para atualização ou pode atualizar ou alterar os planos manualmente.
+Se você não vir nenhum  plano na guia Atualização, isso significa que seu plano não pode ser atualizado automaticamente. Em alguns casos, você pode ser capaz de resolver o problema para que possa exibir planos disponíveis para atualização ou pode atualizar ou alterar os planos manualmente, em vez disso.
 
 ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Por que não há planos listados para atualização?
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>Não é possível atualizar assinaturas agora porque você tem mais usuários do que licenças.
 
-Para atualizar os planos automaticamente, todos os usuários precisam receber licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../admin/manage/resolve-license-conflicts.md). Depois de resolver qualquer conflito de licenciamento, você deverá ver os planos listados na **guia** Atualização. Caso não seja, você pode [alterar os planos manualmente](change-plans-manually.md)ou ligar [para o suporte.](../../admin/contact-support-for-business-products.md)
+Para atualizar os planos automaticamente, todos os usuários precisam receber licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../admin/manage/resolve-license-conflicts.md). Depois de resolver qualquer conflito de licenciamento, você deverá ver os planos listados na **guia** Atualização. Caso não seja, você [pode alterar os planos manualmente](change-plans-manually.md)ou ligar para o [suporte.](../../admin/contact-support-for-business-products.md)
 
 #### <a name="you-cant-upgrade-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>Você não pode atualizar assinaturas no momento porque essa assinatura não está totalmente configurada ou o serviço não está disponível.
 
-Por exemplo, se um dos serviços tiver um incidente, você não poderá atualizar até que todos os serviços sejam bem-estar. Para ver se há problemas de provisionamento ou de saúde do serviço, no centro de administração, vá para a **página** de saúde \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">do Serviço de</a> Saúde.
+Por exemplo, se um dos serviços tiver um incidente, você não poderá atualizar até que todos os serviços sejam healthy. Para ver se há problemas de provisionamento ou de saúde do serviço, no centro de administração, vá para a **página** de saúde \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">do Serviço de</a> Saúde.
 
 Se você acha que um serviço não está totalmente provisionado ou que está com um problema de integridade, aguarde algumas horas para que o serviço fique disponível e tente novamente. Se você ainda tiver um problema, ligue para [o suporte.](../../admin/contact-support-for-business-products.md)
 
@@ -116,11 +116,11 @@ Você pode [alterar os planos manualmente ou](change-plans-manually.md) ligar pa
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>Você tem dois ou mais planos para o mesmo produto
 
-Você só poderá usar a **guia Atualização** se todos os usuários se inscreverem no mesmo plano. Por exemplo, se você tiver dois planos do Microsoft 365 Business Standard, não poderá atualizar automaticamente um deles para outro plano.
+Você só poderá usar a **guia Atualizar** se todos os usuários se inscreverem no mesmo plano. Por exemplo, se você tiver dois planos do Microsoft 365 Business Standard, não poderá atualizar automaticamente um deles para outro plano.
 
 #### <a name="you-have-a-prepaid-plan"></a>Você tem um plano pré-pago
 
-Se você tiver pago a assinatura com antecedência, poderá alterar [os planos manualmente.](change-plans-manually.md) No entanto, você não receberá um crédito pelo tempo restante não em uso na sua assinatura atual se atualizar os planos antes que o plano atual expire.
+Se você tiver pago sua assinatura com antecedência, poderá alterar [os planos manualmente.](change-plans-manually.md) No entanto, você não receberá um crédito pelo tempo restante não em uso na sua assinatura atual se atualizar os planos antes que o plano atual expire.
 
 Você também pode [ligar para o suporte](../../admin/contact-support-for-business-products.md) para ajudar.
 
@@ -130,7 +130,7 @@ Se você tiver um plano governamental ou sem fins lucrativos, poderá alterar [o
 
 #### <a name="the-subscription-that-you-want-to-upgrade-from-has-a-temporary-issue"></a>A assinatura que você deseja atualizar tem um problema temporário
 
-Talvez você não veja  nenhum plano na guia Atualização porque o serviço está em processo de atualização de um alto volume de planos. Tente novamente depois de cerca de uma hora após sua primeira tentativa.
+Talvez você não veja  nenhum plano na guia Atualização porque o serviço está em processo de atualização de um grande volume de planos. Tente novamente depois de cerca de uma hora após sua primeira tentativa.
 
 #### <a name="the-plan-that-you-want-to-upgrade-to-isnt-a-supported-option"></a>O plano para o qual você deseja atualizar não é uma opção com suporte
 
@@ -148,7 +148,7 @@ Para resolver isso, encontre a assinatura na página <a href="https://go.microso
 
 ## <a name="what-does-upgrading-a-plan-do-to-my-service-and-billing"></a>O que a atualização de um plano faz com meu serviço e cobrança?
 
-Quando você atualiza os  planos automaticamente  usando o botão Mudar de planos (ou a guia Atualizar no novo centro de administração), seus serviços e cobrança são afetados.
+Quando você atualiza planos  automaticamente usando  o botão Mudar de planos (ou a guia Atualizar no novo centro de administração), seus serviços e cobrança são afetados.
 
 ### <a name="access-to-services"></a>Acesso aos serviços
 
@@ -168,7 +168,7 @@ Todos os dados do usuário serão mantidos durante a atualização, incluindo ca
   
 ### <a name="billing"></a>Cobrança
 
-No dia em que a atualização do seu plano for concluída, a cobrança da sua assinatura antiga será desligada e a cobrança da sua nova assinatura será 1. Você obterá um crédito rateado por qualquer serviço nãoutilizado na assinatura antiga. Você receberá uma nova fatura que inclui o crédito da sua assinatura antiga dentro de 30 dias após a atualização para a nova assinatura.
+No dia em que a atualização do seu plano for concluída, a cobrança da sua assinatura antiga será desligada e a cobrança em sua nova assinatura será 1. Você obterá um crédito rateado por qualquer serviço nãoutilizado na assinatura antiga. Você receberá uma nova fatura que inclui o crédito da sua assinatura antiga dentro de 30 dias após a atualização para a nova assinatura.
   
 > [!NOTE]
 > O período de tempo que levará para receber o crédito na conta de pagamento pode variar de acordo com a forma de pagamento usada na assinatura.

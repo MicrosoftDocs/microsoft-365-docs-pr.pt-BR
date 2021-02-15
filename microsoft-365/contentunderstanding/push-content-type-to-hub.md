@@ -12,12 +12,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-syntex
 localization_priority: Priority
-ms.openlocfilehash: 89c03a70da364bd4b945debc64de02255dec15e1
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 22d146b1d376bab134e82ad7d1313cb7881ca45b
+ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975710"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50144966"
 ---
 # <a name="push-content-types-to-a-hub"></a>Enviar os tipos de conteúdo a um hub
 
@@ -28,7 +28,7 @@ ms.locfileid: "49975710"
 </br>
 
 
-Para disponibilizar os tipos de conteúdo importantes com mais consistência nas listas e bibliotecas do SharePoint, você pode enviá-los para os hubs que você escolher. Enviar automaticamente os tipos de conteúdo os adiciona a quaisquer novas listas e bibliotecas criadas nos sites associados ao hub e a quaisquer novos sites adicionados ao hub.
+Para disponibilizar os tipos de conteúdo importantes com mais consistência nas listas e bibliotecas do SharePoint, você pode enviá-los para os hubs que você escolher. Enviar automaticamente os tipos de conteúdo os adiciona a quaisquer novas listas e bibliotecas criadas nos sites associados ao hub e a quaisquer novos sites adicionados ao hub. Este recurso requer uma licença [SharePoint Syntex](index.md).
 
 Para que esse recurso funcione, os tipos de conteúdo que estão sendo enviados já devem estar publicados.
 

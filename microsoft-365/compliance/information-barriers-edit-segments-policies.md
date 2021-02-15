@@ -21,7 +21,7 @@ ms.locfileid: "50126136"
 ---
 # <a name="manage-information-barrier-policies"></a>Gerenciar políticas de barreira de informações
 
-Depois de definir [políticas de](information-barriers-policies.md)barreira de informações, talvez seja necessário fazer alterações [](information-barriers-troubleshooting.md) nessas políticas ou em seus segmentos de usuário, como parte da solução de problemas ou como manutenção regular. Use este artigo como guia.
+Depois de definir [políticas de](information-barriers-policies.md)barreira de informações, talvez seja necessário fazer alterações nessas políticas ou em seus segmentos de usuário, como parte da solução de problemas [ou](information-barriers-troubleshooting.md) como manutenção regular. Use este artigo como guia.
 
 ## <a name="what-do-you-want-to-do"></a>O que você deseja fazer?
 
@@ -47,7 +47,7 @@ Use este procedimento para editar atributos usados para segmentar usuários. Por
 
     |**Sintaxe**|**Exemplo**|
     |:---------|:----------|
-    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> É possível usar qualquer valor que identifique cada usuário com exclusividade, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p> (Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` ) |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*. |
+    | `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> É possível usar qualquer valor que identifique com exclusividade cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p> (Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` ) |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*. |
 
 2. Determine qual atributo você deseja editar para seus perfis de conta de usuário. Para obter mais informações, consulte [Atributos para políticas de barreira de informações.](information-barriers-attributes.md) 
 
@@ -92,7 +92,7 @@ Quando terminar de editar segmentos para sua organização, você poderá [defin
 
     Suponha que queiramos alterá-la para que as pessoas no segmento *Pesquisa* só possam se comunicar com pessoas no *segmento de* RH. Para fazer essa alteração, usamos este cmdlet: `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
 
-    Neste exemplo, trocamos "SegmentsBlocked" para "SegmentsAllowed" e especificamos o *segmento RH.*
+    Neste exemplo, trocamos "SegmentsBlocked" para "SegmentsAllowed" e especificamos o *segmento rh.*
 
 3. Quando terminar de editar uma política, certifique-se de aplicar suas alterações. (Consulte [Aplicar políticas de barreira de informações.)](information-barriers-policies.md#part-3-apply-information-barrier-policies)
 

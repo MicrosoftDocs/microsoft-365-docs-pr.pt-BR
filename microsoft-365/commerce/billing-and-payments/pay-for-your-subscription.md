@@ -51,7 +51,7 @@ Você pode usar um cartão de crédito ou débito ou uma conta bancária para pa
 > [!IMPORTANT]
 > O pagamento por meio de conta bancária não está disponível em alguns países ou regiões.
 
-Você pode pagar sua assinatura com um cartão de crédito ou débito ou uma conta bancária. Quando você paga com uma dessas formas de pagamento, continuamos a cobrar esse método de pagamento até que a assinatura expire ou seja cancelada. Você pode [gerenciar os métodos de pagamento](manage-payment-methods.md) sempre que precisar. Você também pode optar por [receber uma cópia do seu demonstrativo por email](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email).
+Você pode pagar sua assinatura com um cartão de crédito ou débito, ou uma conta bancária. Quando você paga com um dessas formas de pagamento, continuamos a cobrar essa forma de pagamento até que a assinatura expire ou seja cancelada. Você pode [gerenciar os métodos de pagamento](manage-payment-methods.md) sempre que precisar. Você também pode optar por [receber uma cópia do seu demonstrativo por email](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email).
 
 ## <a name="paying-by-invoice"></a>Pagar por fatura
 
@@ -61,22 +61,22 @@ Em alguns casos, você pode pagar sua assinatura por fatura com um cheque ou EFT
 - Ter um custo de assinatura que exceda um determinado valor (esse valor varia de acordo com o local do serviço)
 - Passar uma verificação de crédito
 
-Se uma verificação de crédito for necessária, você será notificado quando comprar sua assinatura. Se concordar em ser contatado, você recebe um email que inclui mais informações sobre como solicitar a aprovação de crédito. Geralmente, as verificações de crédito são concluídas em dois dias úteis.
+Se for necessária uma verificação de crédito, você será notificado quando adquirir sua assinatura. Se concordar em ser contatado, você receberá um email que inclui mais informações sobre a aplicação da aprovação de crédito. Geralmente, as verificações de crédito são concluídas em dois dias úteis.
 
 > [!NOTE]
 > Os clientes que moram no Brasil podem pagar uma assinatura com um boleto bancário. Se você selecionou essa opção, o boleto de pagamento será enviado para o email fornecido durante a compra da assinatura dentro de 10 dias úteis após a data do pedido. A data de vencimento é de 30 dias após a data do pedido. Caso não receba o seu boleto por email, verifique sua caixa de spam ou entre em contato com o suporte.
 >
 > Se preferir, você pode pagar por transferência eletrônica entre contas. A agência e o número da conta ficam na parte inferior da sua fatura. Você deve inserir o número da fatura no campo de identificação da transferência.
 
-Se você pagar por fatura pela sua assinatura, você recebe um email quando seu extrato de cobrança estiver pronto para exibição. Esse email não contém uma cópia do seu extrato de cobrança. No entanto, você pode optar [por receber uma cópia do seu extrato de cobrança por email.](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email) Seu extrato de cobrança inclui detalhes sobre suas opções de pagamento e para onde enviá-lo. Se você inserir um número de OC (ordem de compra) ao adquirir uma assinatura, esse número aparecerá no seu demonstrativo de cobrança. Para obter informações sobre como acessar extratos de cobrança, consulte [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
+Se você paga sua assinatura por fatura, receberá um email quando o extrato da fatura estiver pronto para exibição. Esse email não apresentará uma cópia do extrato da sua fatura. No entanto, é possível optar por [receber uma cópia do extrato da sua fatura por email](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email). O extrato da sua fatura inclui detalhes sobre as opções de pagamento e para onde enviá-lo. Se você inserir um número de OC (ordem de compra) ao adquirir uma assinatura, esse número aparecerá no seu demonstrativo de cobrança. Para obter informações sobre como acessar extratos de cobrança, consulte [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
 ## <a name="what-if-i-have-an-outstanding-balance"></a>E se eu tiver um saldo pendente?
 
 Se não for possível cobrar o método de pagamento no arquivo, enviaremos um email que lhe permite saber que há um problema. O email informa brevemente qual é o problema e inclui um link onde você pode verificar o saldo pendente. Continuamos a repetir a transação a cada alguns dias por 30 dias, durante o qual a assinatura está em um período de carência. Sempre que uma transação falha, você recebe um alerta por email sobre a falha.
 
-Se você adicionou pessoalmente a forma de pagamento que tem um valor devido passado, você pode usar **Liquidar** saldo para fazer um pagamento. A forma de pagamento que você usa para pagar o valor vencido se torna a nova forma de pagamento para todas as assinaturas que usaram a forma de pagamento recusada.
+Se você adicionou pessoalmente a forma de pagamento que tem um valor devido passado, você pode usar Liquidar saldo **para** fazer um pagamento. A forma de pagamento usada para pagar o valor vencido se torna a nova forma de pagamento para todas as assinaturas que usaram a forma de pagamento recusada.
 
-1. No centro de administração, vá para a página **Cobrança &** pagamentos e selecione a  >   guia Métodos <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">de</a> pagamento.
+1. No centro de administração, vá para a página **Cobranças**& pagamentos e selecione a  >   guia <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Métodos de</a> pagamento.
 1. Uma mensagem de aviso diz qual método de pagamento foi recusado. Selecione **Liquidar saldo.**
 1. No painel direito, escolha uma forma de pagamento diferente ou selecione **Adicionar uma nova forma de pagamento.**
 1. Depois de atualizar as informações da forma de pagamento, selecione **Salvar.**
@@ -256,7 +256,7 @@ Você só pode mudar para pagar por fatura se a sua assinatura custa acima de um
 
 ## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>Posso mudar de pagar por fatura para usar uma forma de pagamento diferente?
 
-Você não pode mudar automaticamente de pagamento por fatura para pagamento com uma forma de pagamento diferente. Em vez disso, você deve comprar uma assinatura diferente paga com um cartão de crédito ou débito ou conta [bancária,](../subscriptions/move-users-different-subscription.md)mover todos os usuários para a nova assinatura e, em seguida, cancelar [a](../try-or-buy-microsoft-365.md#buy-a-different-subscription) [assinatura antiga.](../subscriptions/cancel-your-subscription.md)
+Não é possível alterar automaticamente de pagamento por fatura para um método de pagamento diferente. Em vez disso, você precisa [comprar uma assinatura diferente](../try-or-buy-microsoft-365.md#buy-a-different-subscription) paga com um cartão de crédito ou débito ou conta bancária, [mover todos os usuários para a nova assinatura](../subscriptions/move-users-different-subscription.md) e, em seguida, [cancelar a assinatura antiga](../subscriptions/cancel-your-subscription.md).
 
 ## <a name="related-articles"></a>Artigos relacionados
 

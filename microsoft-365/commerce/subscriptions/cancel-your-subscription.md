@@ -57,7 +57,7 @@ Se você adicionou seu próprio nome de domínio para usar com sua assinatura, d
 3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário.
 4. Selecione **Salvar**.
 
-Sua assinatura agora aparece em **um** estado desabilitado e tem funcionalidade reduzida até ser excluída. Para saber mais sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 para empresas é cancelada, confira O que acontece com meus dados e acesso quando minha assinatura do [Microsoft 365 para](what-if-my-subscription-expires.md) empresas termina?
+Sua assinatura agora aparece em **um estado desabilitado** e tem funcionalidade reduzida até ser excluída. Para saber mais sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 para empresas é cancelada, confira O que acontece com meus dados e acesso quando minha assinatura do [Microsoft 365](what-if-my-subscription-expires.md) para empresas termina?
 
 ::: moniker-end
 
@@ -108,7 +108,7 @@ Depois de 90, a assinatura passa para o estado excluído. Quaisquer dados que vo
 Para saber mais, veja [O que acontece com meus dados e acesso quando minha assinatura termina?](what-if-my-subscription-expires.md)
 
 > [!IMPORTANT]
-> Se você quiser que seus dados de assinatura sejam excluídos antes que o período típico de desabilitação seja final, você [pode fechar sua conta.](../close-your-account.md)
+> Se quiser que seus dados de assinatura sejam excluídos antes que o período desabilitado típico seja final, você [pode fechar sua conta.](../close-your-account.md)
 
 ## <a name="other-steps-you-might-have-to-take"></a>Outras etapas que talvez seja necessário seguir
 
@@ -120,7 +120,7 @@ Se você usar um domínio personalizado com sua assinatura, há algumas etapas a
 
 Se você configurar um domínio personalizado, adicionou registros DNS para que o domínio funcione com os serviços do Microsoft 365. Antes de remover seu domínio, atualize os registros DNS, como seu registro MX de domínio, no seu host DNS.
 
-Por exemplo, altere o registro MX no host DNS. Os emails enviados para o seu domínio param de chegar ao seu endereço da Microsoft e, em vez disso, vão para o novo provedor de email. Um registro MX determina o local para onde os emails do domínio são enviados.
+Por exemplo, altere o registro MX no host DNS. Os emails enviados para o seu domínio param de chegar ao seu endereço da Microsoft e, em vez disso, vão para seu novo provedor de email. Um registro MX determina o local para onde os emails do domínio são enviados.
 
 - Se os registros NS (nameserver) apontarem para os [nameservers do Microsoft 365,](../../admin/setup/add-domain.md)as alterações feitas no registro MX não entrarão em vigor até que você altere os registros NS para apontar para o novo host DNS (consulte a Etapa 2).
 

@@ -43,7 +43,7 @@ Se você não tiver certeza se sua conta tem um perfil de cobrança, consulte [E
 
 Por padrão, a cobrança recorrente é automaticamente ativado para todas as assinaturas pagas que usam cobranças recorrentes. A cada período de cobrança, cobramos automaticamente o método de pagamento associado ao perfil de cobrança para pagar todas as assinaturas que usam esse perfil de cobrança. Se sua forma de pagamento for  recusada, você poderá usar o botão Pagar agora em sua fatura para fazer um pagamento único para sua assinatura.
 
-Se a cobrança recorrente estiver desligada para um perfil  de cobrança, você poderá usar o botão Pagar agora em sua fatura para pagar por ela a cada período de cobrança, independentemente da forma de pagamento que está vinculada ao perfil de cobrança. Você também pode pagar por cheque ou transferência eletrônica de fundos (EFT). Instruções sobre como fazer isso estão incluídas na cópia em PDF da sua fatura.
+Se a cobrança recorrente estiver desligada para um perfil  de cobrança, você poderá usar o botão Pagar agora em sua fatura para pagar por ela a cada período de cobrança, independentemente da forma de pagamento que está vinculada ao perfil de cobrança. Você também pode pagar por cheque ou transferência eletrônica de fundos (EFT). Instruções sobre como fazer isso estão incluídas na cópia em PDF da fatura.
 
 ## <a name="paying-by-invoice"></a>Pagar por fatura
 
@@ -55,9 +55,9 @@ Para ser qualificado para pagar por fatura, você deve:
 - Ter um custo de assinatura que exceda um determinado valor (esse valor varia de acordo com o local do serviço)
 - Passar uma verificação de crédito
 
-Se uma verificação de crédito for necessária, você será notificado quando comprar sua assinatura. Se concordar em ser contatado, você recebe um email que inclui mais informações sobre como solicitar a aprovação de crédito. Geralmente, as verificações de crédito são concluídas em dois dias úteis.
+Se for necessária uma verificação de crédito, você será notificado quando adquirir sua assinatura. Se concordar em ser contatado, você receberá um email que inclui mais informações sobre a aplicação da aprovação de crédito. Geralmente, as verificações de crédito são concluídas em dois dias úteis.
 
-Se o seu perfil de cobrança for respaldado por uma fatura, você recebe um email quando seu extrato de cobrança estiver pronto para exibição. Esse email não contém uma cópia do seu extrato de cobrança. No entanto, você pode optar [por receber uma cópia do seu extrato de cobrança por email.](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email) Seu extrato de cobrança inclui detalhes sobre suas opções de pagamento e para onde enviá-lo. Se você inserir um número de ordem de compra (OO) em seu perfil de cobrança, o número aparecerá no seu extrato de cobrança. Para obter informações sobre como acessar extratos de cobrança, consulte [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
+Se o seu perfil de cobrança for respaldado por uma fatura, você recebe um email quando seu extrato de cobrança estiver pronto para exibição. Esse email não apresentará uma cópia do extrato da sua fatura. No entanto, é possível optar por [receber uma cópia do extrato da sua fatura por email](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email). O extrato da sua fatura inclui detalhes sobre as opções de pagamento e para onde enviá-lo. Se você inserir um número de ordem de compra (OO) em seu perfil de cobrança, o número aparecerá no seu extrato de cobrança. Para obter informações sobre como acessar extratos de cobrança, consulte [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
 ## <a name="where-do-i-send-my-check-or-eft-payment"></a>Para onde eu envio o boleto ou o pagamento por transferência bancária?
 
@@ -228,7 +228,7 @@ Se a cobrança recorrente estiver desligada para seu perfil de cobrança, você 
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Posso mudar da minha forma de pagamento atual para pagar por fatura?
 
-Se seu perfil de cobrança for respaldado por cartão de crédito ou débito, você só poderá alterar a forma de pagamento para outro cartão de crédito ou débito. Você não pode mudar para pagar por fatura.
+Se o seu perfil de cobrança for respaldado por cartão de crédito ou débito, você só poderá alterar a forma de pagamento para outro cartão de crédito ou débito. Você não pode mudar para pagar por fatura.
 
 ## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>Posso mudar de pagar por fatura para usar uma forma de pagamento diferente?
 

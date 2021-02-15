@@ -29,13 +29,13 @@ ms.locfileid: "50107165"
 </br>
 
 
-Viva Topics é um serviço do Office 365 que ajuda as organizações a transformar informações em conhecimento.
+O Viva Topics é um serviço do Office 365 que ajuda as organizações a transformar informações em conhecimento.
 
 Os recursos nesta página foram projetados para você começar a aprender sobre e usar tópicos do Viva em sua organização.
 
 ## <a name="get-started"></a>Introdução
 
-Os recursos desta seção ajudam você a saber mais sobre o que são Tópicos do Viva e como eles podem ajudá-lo.
+Os recursos desta seção ajudam você a saber mais sobre o que são tópicos do Viva e como eles podem ajudá-lo.
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
@@ -54,7 +54,7 @@ Saiba mais sobre como usar e implementar tópicos do Viva em sua organização p
 
 ## <a name="set-up-and-administration"></a>Configuração e administração
 
-Os recursos nesta seção ajudam o administrador da organização a configurar e configurar Tópicos do Viva no ambiente do Microsoft 365.
+Os recursos nesta seção ajudam o administrador da sua organização a configurar e configurar Tópicos do Viva no ambiente do Microsoft 365.
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|

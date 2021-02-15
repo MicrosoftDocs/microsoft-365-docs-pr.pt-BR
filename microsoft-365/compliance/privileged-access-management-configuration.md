@@ -38,7 +38,7 @@ Antes de começar a trabalhar com o gerenciamento de acesso privilegiado, você 
 
 - Assinatura do Microsoft 365 E5 (versão paga ou de avaliação)
 - Assinatura do Microsoft 365 E3 (ou assinatura do Office 365 E3 + assinatura do Enterprise Mobility and Security E3) + o complemento de Conformidade do Microsoft 365 E5
-- Qualquer assinatura do Microsoft 365, Office 365, Exchange, SharePoint ou OneDrive for Business + o complemento gerenciamento de riscos do Microsoft 365 E5 Insider  
+- Qualquer assinatura do Microsoft 365, Office 365, Exchange, SharePoint ou OneDrive for Business + o complemento Microsoft 365 E5 Insider Risk Management  
 - Assinatura do Microsoft 365 A5 (versão paga ou de avaliação)
 - Assinatura do Microsoft 365 A3 (ou assinatura do Office 365 A3 + assinatura do Enterprise Mobility and Security A3) + o complemento de Conformidade do Microsoft A5
 - Qualquer assinatura do Microsoft 365, Office 365, Exchange, SharePoint ou OneDrive for Education + o complemento Microsoft 365 A5 Insider Risk Management
@@ -75,7 +75,7 @@ Siga estas etapas para configurar e usar o acesso privilegiado em sua organizaç
 Depois que a aprovação for concedida, o usuário solicitante poderá executar a tarefa pretendida e o acesso privilegiado autorizará e executará a tarefa em nome do usuário. A aprovação permanece válida pela duração solicitada (a duração padrão é de 4 horas), durante a qual o solicitante pode executar a tarefa pretendida várias vezes. Todas essas execuções são registradas e disponibilizadas para auditoria de segurança e conformidade. 
 
 >[!NOTE]
->Se você quiser usar o PowerShell de Gerenciamento do Exchange para habilitar e configurar o acesso privilegiado, siga as etapas em Conectar-se ao PowerShell do Exchange Online usando a autenticação [multifatório](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) para se conectar ao PowerShell do Exchange Online com suas credenciais do Office 365. Você não precisa habilitar a autenticação multifabilitar para que sua organização use as etapas para habilitar o acesso privilegiado ao se conectar ao PowerShell do Exchange Online. A conexão com a autenticação multifatório cria um token OAuth que é usado pelo acesso privilegiado para assinar suas solicitações.
+>Se você quiser usar o PowerShell de Gerenciamento do Exchange para habilitar e configurar o acesso privilegiado, siga as etapas em Conectar-se ao PowerShell do Exchange Online usando a autenticação [multifatório](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-using-mfa) para se conectar ao PowerShell do Exchange Online com suas credenciais do Office 365. Você não precisa habilitar a autenticação multifabilitar para que sua organização use as etapas para habilitar o acesso privilegiado ao se conectar ao PowerShell do Exchange Online. Conectar-se com a autenticação multifatório cria um token OAuth que é usado pelo acesso privilegiado para assinar suas solicitações.
 
 <a name="step1"> </a>
 
@@ -101,7 +101,7 @@ Depois que a aprovação for concedida, o usuário solicitante poderá executar 
 
 1. Entre no Centro [de Administração do Microsoft 365](https://admin.microsoft.com) usando credenciais para uma conta de administrador em sua organização.
 
-2. No Centro de Administração, vá para **Configurações** de Segurança das Configurações da Organização  >    >  **& acesso privilegiado** de  >  **privacidade.**
+2. No Centro de Administração, vá para **Configurações** de Segurança das  >  **Configurações** da  >  **Organização & acesso privilegiado** de  >  **privacidade.**
 
 3. Habilita as **Aprovações necessárias para o controle de tarefas privilegiadas.**
 
@@ -136,11 +136,11 @@ Você pode criar e configurar até 30 políticas de acesso privilegiado para sua
 
 1. Entre no Centro [de Administração do Microsoft 365](https://admin.microsoft.com) usando credenciais para uma conta de administrador em sua organização.
 
-2. No Centro de Administração, vá para **Configurações** de Segurança das Configurações da Organização  >    >  **& acesso privilegiado** de  >  **privacidade.**
+2. No Centro de Administração, vá para **Configurações** de Segurança das  >  **Configurações** da  >  **Organização & acesso privilegiado** de  >  **privacidade.**
 
 3. Selecione **Gerenciar políticas e solicitações de acesso.**
 
-4. Selecione **Configurar políticas** e selecione Adicionar uma **política.**
+4. Selecione **Configurar políticas e** selecione Adicionar uma **política.**
 
 5. Nos campos da lista lista, selecione os valores apropriados para sua organização:
     
@@ -256,7 +256,7 @@ Quando uma solicitação de aprovação é criada, os membros do grupo aprovador
 
 4. Selecione uma solicitação listada para exibir os detalhes e agir sobre a solicitação.
 
-5. Selecione **Aprovar** para aprovar a solicitação ou **Negar** para negar a solicitação. Solicitações aprovadas anteriormente podem ter acesso revogado selecionando **Revogar**.
+5. Selecione **Aprovar** para aprovar a solicitação ou **selecione Negar** para negar a solicitação. Solicitações aprovadas anteriormente podem ter acesso revogado selecionando **Revogar**.
 
 #### <a name="in-exchange-management-powershell"></a>No PowerShell de Gerenciamento do Exchange
 

@@ -70,7 +70,7 @@ Ao tomar essas decisões de acesso, as políticas podem tomar ações diferentes
 - A política pode bloquear o acesso: essa configuração é a ação mais restritiva e impede que o usuário acesse o recurso.
 - A política pode conceder acesso: essa configuração é uma decisão menos restritiva e ainda pode exigir uma ou mais das seguintes opções:
 
-    - Autenticação multifator
+    - Multi-factor Authentication
     - O dispositivo a ser marcado como compatível
     - O dispositivo é híbrido ingressado no Azure AD
     - Um aplicativo cliente aprovado
@@ -82,7 +82,7 @@ Para obter mais informações sobre o Acesso Condicional para suporte a aplicati
 
 ### <a name="mobile-application-management"></a>Gerenciamento de aplicativos móveis
 
-Os usuários frequentemente acessam documentos, emails e dados pessoais da organização e pessoais do mesmo dispositivo móvel. Esses dispositivos geralmente são de propriedade pessoal e devem ser configurados para proteger os dados da organização e a privacidade pessoal do usuário.
+Os usuários frequentemente acessam documentos pessoais, emails e dados da organização e do mesmo dispositivo móvel. Esses dispositivos geralmente são de propriedade pessoal e devem ser configurados para proteger os dados da organização e a privacidade pessoal do usuário.
 
 Quando um usuário acessa os dados da organização, a organização deve ter certeza de que as políticas da organização, como políticas de configuração e políticas de proteção, são aplicadas para ajudar a proteger os dados da organização no dispositivo. Além disso, o conteúdo pessoal do usuário no dispositivo deve permanecer fora do controle da organização.
 
@@ -98,9 +98,9 @@ Para conteúdo gerenciado pela organização, você pode aplicar políticas de g
 - Entregar a configuração do aplicativo para gerenciar o comportamento e as configurações do aplicativo
 - Restringir o aplicativo gerenciado a uma identidade definida desabilitando recursos de várias identidades ou uso pessoal
 
-Para obter mais informações sobre o gerenciamento de aplicativos móveis com o Microsoft Intune, consulte O que é o gerenciamento de [aplicativos do Microsoft Intune?](/mem/intune/apps/app-management)
+Para obter mais informações sobre o gerenciamento de aplicativos móveis com o Microsoft Intune, consulte [O que é o gerenciamento de aplicativos do Microsoft Intune?](/mem/intune/apps/app-management)
 
-### <a name="multi-factor-authentication"></a>Autenticação multifator
+### <a name="multi-factor-authentication"></a>Multi-factor Authentication
 
 [A autenticação multifator (MFA) é um método de controle de acesso do computador no qual um usuário só tem acesso depois de apresentar várias evidências separadas para um mecanismo de autenticação. Esse método normalmente usa pelo menos duas das seguintes categorias:
 
@@ -112,7 +112,7 @@ Para obter mais informações sobre a autenticação multifa factor para suporte
 
 ### <a name="single-sign-on"></a>Logon único
 
-O SSO (single sign-on) adiciona segurança e conveniência quando os usuários se ins login em aplicativos no Azure Active Directory. Com o logor único, os usuários podem entrar uma vez com uma conta para acessar dispositivos ingressados no domínio dos Serviços de Domínio do Active Directory (AD DS), aplicativos de software como serviço (SaaS) e aplicativos Web em sua organização.
+O SSO (single sign-on) adiciona segurança e conveniência quando os usuários se ins login em aplicativos no Azure Active Directory. Com o single sign-on, os usuários se ingressam uma vez com uma conta para acessar dispositivos ingressados no domínio do Active Directory Domain Services (AD DS) local, aplicativos de software como serviço (SaaS) e aplicativos Web em sua organização.
 
 Para obter mais informações sobre o single sign-on para suporte a aplicativos de cliente e serviços, consulte Suporte ao aplicativo cliente [do Microsoft 365: single sign-on](microsoft-365-client-support-single-sign-on.md).
 
@@ -120,7 +120,7 @@ Para obter mais informações sobre o single sign-on para suporte a aplicativos 
 
 ### <a name="modern-authentication"></a>Autenticação moderna
 
-A autenticação moderna permite que novos cenários para que os clientes se autenthem no Office 365 e para os administradores de locatários imporem requisitos de autenticação específicos no locatário do Office 365, como:
+A autenticação moderna permite que novos cenários para que os clientes se autenthem no Office 365 e nos administradores de locatários imporem requisitos de autenticação específicos no locatário do Office 365, como:
 
 - Suporte à autenticação multifaionária para interação administrativa com a aplicação e serviços e interação do usuário final com aplicativos e seus dados
 - Acesso condicional
@@ -144,7 +144,7 @@ As regras de acesso condicional do Azure AD são aplicadas por aplicativo e est�
 - Permitir somente o acesso de dispositivos que são ingressados no domínio ou são compatíveis com domínio
 - Impor a autenticação multifa factor para todo o acesso aos serviços do Exchange Online
 
-Para obter mais informações sobre o Acesso Condicional do Azure Active Directory, consulte [O que é Acesso Condicional?](/azure/active-directory/conditional-access/overview)
+Para saber mais sobre o Acesso Condicional do Azure Active Directory, confira [O que é Acesso Condicional?](/azure/active-directory/conditional-access/overview)
 
 ### <a name="tls-12-support"></a>Suporte a TLS 1.2
 

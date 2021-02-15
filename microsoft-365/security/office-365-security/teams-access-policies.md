@@ -1,6 +1,6 @@
 ---
 title: Políticas recomendadas do Teams - Microsoft 365 para empresas | Microsoft Docs
-description: Descreve as políticas para as recomendações da Microsoft sobre como proteger a comunicação e o acesso a arquivos do Teams.
+description: Descreve as políticas para as recomendações da Microsoft sobre como proteger a comunicação do Teams e o acesso a arquivos.
 author: MicrosoftHeidi
 manager: serdars
 ms.prod: m365-security
@@ -28,7 +28,7 @@ ms.locfileid: "50097181"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Recomendações de política para proteger chats, grupos e arquivos do Teams
 
-Este artigo descreve como implementar as políticas de acesso a dispositivos e identidade recomendadas para proteger chats, grupos e conteúdos do Microsoft Teams, como arquivos e calendários. Essas diretrizes se baseam nas políticas [comuns](identity-access-policies.md)de acesso a dispositivos e identidade, com informações adicionais específicas do Teams. Como o Teams se integra a outros produtos, consulte também recomendações de política para proteger arquivos e sites do [SharePoint](sharepoint-file-access-policies.md) e recomendações de política para [proteger emails.](secure-email-recommended-policies.md)
+Este artigo descreve como implementar as políticas de acesso a dispositivos e identidade recomendadas para proteger chats, grupos e conteúdos do Microsoft Teams, como arquivos e calendários. Essas diretrizes se baseam nas políticas [comuns](identity-access-policies.md)de acesso a identidades e dispositivos, com informações adicionais específicas do Teams. Como o Teams se integra a outros produtos, consulte também recomendações de política para proteger arquivos e sites do [SharePoint](sharepoint-file-access-policies.md) e recomendações de política para [proteger emails.](secure-email-recommended-policies.md)
 
 Essas recomendações são baseadas em três camadas diferentes de segurança e proteção para o Teams que podem ser aplicadas com base na granularidade de suas necessidades: linha de base, sensível e altamente controlada. Você pode saber mais sobre essas camadas de segurança e as políticas recomendadas referenciadas por essas recomendações nas configurações de acesso de dispositivo e [identidade.](microsoft-365-policies-configurations.md)
 
@@ -46,7 +46,7 @@ Você não precisa habilitar serviços dependentes para começar a trabalhar com
 
 ## <a name="updating-common-policies-to-include-teams"></a>Atualizando políticas comuns para incluir o Teams
 
-Para proteger o chat, grupos e conteúdo no Teams, o diagrama a seguir ilustra quais políticas atualizar a partir das políticas comuns de acesso a dispositivos e identidades. Para que cada política seja atualizada, certifique-se de que o Teams e os serviços dependentes sejam incluídos na atribuição de aplicativos de nuvem.
+Para proteger o chat, grupos e conteúdo no Teams, o diagrama a seguir ilustra quais políticas atualizar a partir das políticas comuns de identidade e acesso a dispositivos. Para que cada política seja atualizada, certifique-se de que o Teams e os serviços dependentes sejam incluídos na atribuição de aplicativos de nuvem.
 
 [![Resumo das atualizações de política para proteger o acesso ao Teams e seus serviços dependentes](../../media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-ruleset-teams.png)
 
@@ -59,7 +59,7 @@ Esses serviços são os serviços dependentes a incluir na atribuição de aplic
 - Exchange Online
 - Skype for Business Online
 - Microsoft Stream (gravações de reunião)
-- Microsoft Planner (tarefas do Planner e dados de planejamento)
+- Microsoft Planner (tarefas do Planner e planejar dados)
 
 Esta tabela lista as políticas que precisam ser revisadas e links para cada política nas políticas comuns de identidade e acesso a [dispositivos,](identity-access-policies.md)que tem a política mais ampla definida para todos os aplicativos do Office.
 
@@ -78,7 +78,7 @@ Esta tabela lista as políticas que precisam ser revisadas e links para cada pol
 
 ## <a name="teams-dependent-services-architecture"></a>Arquitetura de serviços dependentes do Teams
 
-Como referência, o diagrama a seguir ilustra os serviços nos quais o Teams depende. Para obter mais informações e ilustrações, consulte o Microsoft Teams e os serviços de produtividade relacionados no [Microsoft 365 para arquitetos de IT.](../../solutions/productivity-illustrations.md)
+Como referência, o diagrama a seguir ilustra os serviços dos quais o Teams depende. Para obter mais informações e ilustrações, consulte o Microsoft Teams e os serviços de produtividade relacionados no [Microsoft 365 para arquitetos de IT.](../../solutions/productivity-illustrations.md)
 
 [![Diagrama mostrando as dependências do Teams no SharePoint, OneDrive for Business e Exchange](../../media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-access-logical-architecture-teams.png)
 
@@ -99,7 +99,7 @@ In Azure AD, guest and external users are the same. The user type for both of th
 
 -->
 
-Para políticas recomendadas para permitir acesso a usuários convidados e externos com uma conta B2B do Azure AD, consulte Políticas para permitir acesso a contas [B2B](identity-access-policies-guest-access.md)externas e de convidado.
+Para políticas recomendadas para permitir acesso a usuários convidados e externos com uma conta do Azure AD B2B, consulte Políticas para permitir acesso a contas [B2B](identity-access-policies-guest-access.md)externas e de convidado.
 
 ### <a name="guest-access-in-teams"></a>Acesso de convidado ao Teams
 
@@ -113,7 +113,7 @@ O acesso externo às vezes é confundido com o acesso de convidados, portanto, �
 
 O acesso externo é uma maneira dos usuários do Teams de um domínio externo inteiro encontrar, ligar, conversar e configurar reuniões com seus usuários no Teams. Os administradores do Teams configuram o acesso externo no nível da organização. Para saber mais, confira [Gerenciar o acesso externo no Microsoft Teams.](https://docs.microsoft.com/microsoftteams/manage-external-access)
 
-Os usuários de acesso externo têm menos acesso e funcionalidade do que uma pessoa que foi adicionada por meio do acesso de convidado. Por exemplo, os usuários de acesso externo podem conversar com seus usuários internos com o Teams, mas não podem acessar canais de equipe, arquivos ou outros recursos.
+Os usuários de acesso externo têm menos acesso e funcionalidade do que uma pessoa que foi adicionada por meio do acesso de convidado. Por exemplo, os usuários de acesso externo podem conversar com seus usuários internos com o Teams, mas não podem acessar canais, arquivos ou outros recursos da equipe.
 
 O acesso externo não usa contas de usuário B2B do Azure AD e, portanto, não usa políticas de Acesso Condicional.
 

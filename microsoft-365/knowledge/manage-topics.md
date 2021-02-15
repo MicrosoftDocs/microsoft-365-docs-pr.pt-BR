@@ -1,5 +1,5 @@
 ---
-title: Gerenciar tópicos no Centro de Tópicos nos Tópicos do Microsoft Viva
+title: Gerenciar tópicos no centro de tópicos nos tópicos do Microsoft Viva
 description: Como gerenciar tópicos na Central de Tópicos.
 author: efrene
 ms.author: efrene
@@ -29,13 +29,13 @@ ms.locfileid: "50107177"
 </br>
 
 
-No Centro de Tópicos do Viva, um gerente de conhecimento pode exibir a página Gerenciar tópicos para revisar os **tópicos** identificados nos locais de origem do SharePoint, conforme especificado pelo administrador de conhecimento.  
+No Centro de Tópicos do Viva, um gerente de conhecimento pode exibir a página Gerenciar tópicos para revisar os **tópicos** que foram identificados nos locais de origem do SharePoint, conforme especificado pelo administrador de conhecimento.  
 
    ![Central de Tópicos](../media/knowledge-management/topic-center.png) </br> 
 
 
 
-Os gerentes de conhecimento ajudam a orientar tópicos descobertos no ciclo de vida do tópico no qual os tópicos são:
+Os gerentes de conhecimento ajudam a orientar tópicos descobertos pelo ciclo de vida do tópico no qual os tópicos são:
 
 - Sugerido: um tópico foi identificado pela ia e tem recursos, conexões e propriedades de suporte suficientes.
 - Confirmado: Um tópico sugerido pela IA é validado. A validação é feita por confirmação de um gerente de conhecimento. Além disso, um tópico pode ser confirmado se pelo menos dois usuários daem feedback positivo por meio da pergunta de comentários no cartão de tópico.
@@ -89,7 +89,7 @@ Cada tópico que aparece na página Tópicos Sugeridos tem uma <b>pontuação</b
 
 A Pontuação de Qualidade pode ajudar a dar informações sobre os tópicos com mais informações e pode ser útil para encontrar tópicos que talvez precisem ser editados manualmente.  Por exemplo, um tópico com uma pontuação de qualidade inferior pode ser o resultado de alguns usuários não terem permissões do SharePoint para arquivos ou sites pertinentes que a IA incluiu no tópico. Em seguida, um colaborador pode editar o tópico para incluir as informações (quando apropriado), o que poderá ser visualizado para todos os usuários que podem exibir o tópico.
 
-A pontuação de Qualidade pode variar de 1 a 100. Um tópico recém-descoberto terá uma pontuação de qualidade de 0 até que dois ou mais usuários o tenham visualizado. A pontuação de qualidade de cada usuário é determinada por uma série de fatores, como a quantidade de conteúdo exibido para o usuário específico, que é controlada pelas permissões do usuário, pois cada página de tópico tem a aparação de segurança no lugar para conteúdo gerado por IA. A pontuação de Qualidade mostrada na guia Tópicos sugeridos é uma média de pontuação individual de cada usuário.
+A pontuação de Qualidade pode variar de 1 a 100. Um tópico recém-descoberto terá uma pontuação de qualidade de 0 até que dois ou mais usuários o tenham visualizado. A pontuação de qualidade de cada usuário é determinada por diversos fatores, como a quantidade de conteúdo exibido para o usuário específico, que é controlada pelas permissões do usuário, pois cada página de tópico tem a aparação de segurança no local para conteúdo gerado por IA. A pontuação de Qualidade mostrada na guia Tópicos sugeridos é uma média de pontuação individual de cada usuário.
 
 ### <a name="impressions"></a>Impressões
 

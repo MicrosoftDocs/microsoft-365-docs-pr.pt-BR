@@ -31,7 +31,7 @@ ms.locfileid: "50126600"
 
 O gerenciamento de acesso privilegiado permite o controle de acesso granular sobre tarefas de administração privilegiadas no Office 365. Ele pode ajudar a proteger sua organização contra violações que usam contas de administrador privilegiadas existentes com acesso permanente a dados confidenciais ou acesso a configurações críticas. O gerenciamento de acesso privilegiado requer que os usuários solicitem acesso just-in-time para concluir tarefas elevadas e privilegiadas por meio de um fluxo de trabalho de aprovação com escopo altamente delimitado e com limite de tempo. Essa configuração oferece aos usuários acesso suficiente para executar a tarefa em mãos, sem exposição desnecessária de dados confidenciais ou definições de configuração críticas. A habilitação do gerenciamento de acesso privilegiado no Microsoft 365 permite que sua organização opere com zero privilégios permanentes e forneça uma camada de defesa contra vulnerabilidades permanentes de acesso administrativo.
 
-Para uma rápida visão geral do Sistema de Bloqueio do Cliente integrado e do fluxo de trabalho de gerenciamento de acesso privilegiado, consulte este Vídeo de gerenciamento de acesso privilegiado e Sistema de Bloqueio de [Cliente.](https://go.microsoft.com/fwlink/?linkid=2066800)
+Para uma rápida visão geral do Sistema de Bloqueio de Cliente integrado e do fluxo de trabalho de gerenciamento de acesso privilegiado, consulte este Vídeo de gerenciamento de acesso privilegiado e Sistema de Bloqueio de [Cliente.](https://go.microsoft.com/fwlink/?linkid=2066800)
 
 ## <a name="layers-of-protection"></a>Camadas de proteção
 
@@ -63,7 +63,7 @@ No Centro [de administração do Microsoft 365](https://admin.microsoft.com) ou 
 
 ### <a name="step-3-access-approval"></a>Etapa 3: Aprovação de acesso
 
-Uma solicitação de aprovação é gerada e a notificação de solicitação pendente é enviada por email aos aprovadores. Se aprovado, a solicitação de acesso privilegiado é processada como uma aprovação e a tarefa está pronta para ser concluída. Se for negada, a tarefa será bloqueada e nenhum acesso será concedido ao solicitante. O solicitante é notificado sobre a aprovação ou negação de solicitação via mensagem de email.
+Uma solicitação de aprovação é gerada e a notificação de solicitação pendente é enviada por email aos aprovadores. Se for aprovada, a solicitação de acesso privilegiado será processada como uma aprovação e a tarefa estará pronta para ser concluída. Se for negada, a tarefa será bloqueada e nenhum acesso será concedido ao solicitante. O solicitante é notificado sobre a aprovação ou negação de solicitação via mensagem de email.
 
 ![Etapa 3: Aprovação de acesso](../media/pam-step3-access-approval.jpg)
 

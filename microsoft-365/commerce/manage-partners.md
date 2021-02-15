@@ -62,7 +62,7 @@ Há várias maneiras de um parceiro trabalhar com você. Com base nas suas neces
 3. Escolha um ou mais parceiros e, em seguida, selecione **Contato provedores selecionados.**
 4. Preencha o formulário para descrever suas necessidades comerciais e selecione **Enviar.**
 
-O parceiro contata você e oferece a oportunidade de saber mais sobre eles. Se você decidir trabalhar com eles, eles enviarão um convite por email para estabelecer uma relação de parceiro.
+O parceiro contata você e oferece a oportunidade de saber mais sobre eles. Se você decidir trabalhar com eles, ele enviará um convite por email para estabelecer uma relação de parceiro.
 
 ## <a name="review-and-accept-a-partner-relationship-and-microsoft-customer-agreement"></a>Analisar e aceitar um relacionamento de parceiro e o Contrato de Cliente Microsoft
 
@@ -76,7 +76,7 @@ Depois de encontrar um parceiro e decidir trabalhar com ele, ele envia um convit
 
 ## <a name="review-and-accept-a-microsoft-customer-agreement"></a>Analisar e aceitar um Contrato de Cliente microsoft
 
-Se você já tiver um parceiro, mas ainda não tiver assinado um Contrato de Cliente Microsoft, deverá aceitar o contrato antes que ele possa fazer compras ou gerenciar suas assinaturas em seu nome.
+Se você já tiver um parceiro, mas ainda não tiver assinado um Contrato de Cliente microsoft, deverá aceitar o contrato antes que ele possa fazer compras ou gerenciar suas assinaturas em seu nome.
 
 1. Se você receber um email do seu parceiro, selecione o link para ir para o centro de administração do Microsoft 365 ou vá para a página Aceitar <a href="https://go.microsoft.com/fwlink/?linkid=2116573" target="_blank">contrato.</a>
 2. Selecione o link para o **Contrato de Cliente Microsoft** e leia o documento.

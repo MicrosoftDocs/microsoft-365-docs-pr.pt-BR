@@ -45,13 +45,13 @@ Selecione o host de domínio abaixo para as etapas exatas. Se você não tiver c
 |[1&1 IONOS](../dns/change-nameservers-at-1-1-internet.md) |
 |[Amazon Web Services (AWS)](../dns/change-nameservers-at-aws.md) |
  [Bluehost](../dns/change-nameservers-at-bluehost.md)|
-|[Domínios do Google](../dns/change-nameservers-at-google-domains.md) |
+|[Google Domains](../dns/change-nameservers-at-google-domains.md) |
 |[Hostgator   ](../dns/change-nameservers-at-hostgator.md)  |  
 |[MyDomain](../dns/change-nameservers-at-mydomain.md) | 
 |[Namecheap](../dns/change-nameservers-at-namecheap.md)|
 |[Network Solutions](../dns/change-nameservers-at-network-solutions.md) |  
 
-Ou saiba como alterar [os nameservers para configurar o Microsoft 365 com qualquer registrador de domínios.](change-nameservers-at-any-domain-registrar.md)
+Ou aprenda a alterar [os nameservers para configurar o Microsoft 365 com qualquer registrador de domínios.](change-nameservers-at-any-domain-registrar.md)
 
 ## <a name="manage-your-own-dns-records"></a>Gerenciar seus próprios registros DNS
 

@@ -23,7 +23,7 @@ Você pode alterar o nome do centro de tópicos no centro [de administração do
 
 ## <a name="to-access-topics-management-settings"></a>Para acessar as configurações de gerenciamento de tópicos:
 
-1. No centro de administração do Microsoft 365, clique em **Configurações** e em **Configurações da Organização.**
+1. No centro de administração do Microsoft 365, clique em **Configurações** e, em seguida, **nas configurações da organização.**
 2. Na guia **Serviços,** clique em Experiências **de Tópico.**
 
     ![Conectar as pessoas ao conhecimento](../media/admin-org-knowledge-options-completed.png) 

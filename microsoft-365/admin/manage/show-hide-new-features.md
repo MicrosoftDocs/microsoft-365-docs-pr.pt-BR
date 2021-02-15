@@ -66,7 +66,7 @@ Novos recursos aparecem na página com base na seguinte agenda:
 |**Current** <br/> |15º do mês  <br/> |1 a 3 semanas antes do lançamento mensal <br/> |
 |**Empresarial Mensal** <br/> |Primeiro do mês  <br/> |Duas semanas antes do lançamento principal que traz novos recursos |
 |**Empresa semestais (visualização)** <br/> |1º de setembro e 1º de março <br/> | 2 semanas antes do lançamento principal que traz novos recursos|
-|**Empresa semes esterçada** <br/> |1º de janeiro e 1º de julho <br/> | 2 semanas antes do lançamento principal que traz novos recursos<br/> |
+|**Empresa semes esterçal** <br/> |1º de janeiro e 1º de julho <br/> | 2 semanas antes do lançamento principal que traz novos recursos<br/> |
 
 Para obter mais informações sobre quando novas versões são lançadas em cada canal de atualização, consulte o histórico de atualizações do [Microsoft 365 Apps (listado por data).](https://docs.microsoft.com/officeupdates/update-history-microsoft365-apps-by-date)
 
@@ -79,4 +79,4 @@ Para obter mais informações sobre quando novas versões são lançadas em cada
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[O gerenciamento do Office What's New agora está disponível para o público em geral](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-is-now-generally-available/ba-p/1179954)
+[O gerenciamento do Office What's New agora está geralmente disponível](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-is-now-generally-available/ba-p/1179954)

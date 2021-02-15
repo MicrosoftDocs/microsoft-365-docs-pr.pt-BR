@@ -38,13 +38,13 @@ Você também pode controlar se os usuários em sua organização podem fazer co
 ## <a name="view-self-service-subscriptions"></a>Exibir assinaturas self-service
 
 1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
-2. Na guia **Produtos,** selecione o ícone de filtro e selecione **Autoatendínio.**
+2. Na guia **Produtos,** selecione o ícone de filtro e, em seguida, **selecione Autoatendínio.**
 3. Para exibir mais detalhes sobre uma assinatura, escolha uma na lista.
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Exibir quem tem licenças para uma assinatura de compra self-service
 
 1. No centro de administração, vá para a página  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças de</a> Cobrança.
-2. Selecione o ícone de filtro e, em **seguida, escolha Autoatend site.**
+2. Selecione o ícone de filtro e escolha **Autoatendado.**
 3. Selecione um produto para ver as licenças atribuídas às pessoas.
     > [!NOTE]
     > Se houver várias compras para um produto, esse produto só será listado uma vez, e **a** coluna Quantidade disponível mostrará o total de todas as assinaturas compradas para esse produto.
@@ -89,7 +89,7 @@ Quando você move usuários para uma assinatura diferente, a assinatura antiga �
 > Você deve ter uma licença disponível para cada usuário que está movendo na assinatura para a sua mudança de usuário.
 
 1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
-2. Na guia **Produtos,** selecione o ícone de filtro e selecione **Autoatendínio.**
+2. Na guia **Produtos,** selecione o ícone de filtro e, em seguida, **selecione Autoatendínio.**
 3. Selecione a assinatura que você deseja assumir.
 4. Na página de detalhes da assinatura, na **seção Assinaturas** e configurações, selecione **Assumir o controle dessa assinatura.**
 5. No painel direito, selecione **Mover usuários.**
@@ -103,7 +103,7 @@ Quando você move usuários para uma assinatura diferente, a assinatura antiga �
 Quando você opta por cancelar uma assinatura de compra de autoatendado, os usuários com licenças perdem o acesso ao produto. O usuário que originalmente comprou a assinatura de compra de autoatendido recebe um email informando que a assinatura foi cancelada.
 
 1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
-2. Na guia **Produtos,** selecione o ícone de filtro e selecione **Autoatendínio.**
+2. Na guia **Produtos,** selecione o ícone de filtro e, em seguida, **selecione Autoatendínio.**
 3. Selecione a assinatura que você deseja cancelar.
 4. Na página de detalhes da assinatura, na **seção Assinaturas** e configurações, selecione **Assumir o controle dessa assinatura.**
 5. No painel direito, selecione **Cancelar assinatura.**

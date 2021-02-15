@@ -85,7 +85,7 @@ Há duas maneiras de se aplicar a um Fapiao:
 
 4. Selecione um método de envio e insira as informações de envio. Você pode escolher Yunda ou SF (coleta de frete). Você também pode ir para a ramificação de Xangai da 21Vianet para obter o Fapiao. selecione **Next**.
 
-    ![O formulário de solicitação Fapiao mostrando informações de correspondência.](../../media/bba500b4-a51d-477b-81a7-9113b08d39f1.png)
+    ![O formulário Fapiao solicita exibindo informações de correspondência.](../../media/bba500b4-a51d-477b-81a7-9113b08d39f1.png)
   
     **Endereço da empresa de filial de Xangai da 21Vianet:**
 
@@ -117,7 +117,7 @@ Quando Fapiao estiver fora de uso, o sistema exibirá um aviso e indicará a hor
 
 Você pode verificar o progresso da sua solicitação fapiao e descobrir por que você não recebeu o Fapiao.
   
-Se você quiser alterar o título fapiao, envie o Fapiao de volta para nós e emita novamente o Fapiao. Você pode enviar a solicitação por meio do <a href="https://portal.partner.microsoftonline.cn/Support/SupportOverview.aspx" target="_blank">centro de administração.</a>
+Se você quiser alterar o título fapiao, envie o Fapiao de volta para nós e nós vamos reemanar o Fapiao. Você pode enviar a solicitação por meio do <a href="https://portal.partner.microsoftonline.cn/Support/SupportOverview.aspx" target="_blank">centro de administração.</a>
   
 ![O formulário de suporte do centro de administração usado para enviar um Fapiao de volta para solicitar uma alteração de título.](../../media/2a413e9e-f30b-4f26-adbf-6287cc217a0f.png)
   
@@ -125,7 +125,7 @@ Se você quiser alterar o título fapiao, envie o Fapiao de volta para nós e em
 
 1. Entre no sistema de gerenciamento <a href="https://go.microsoft.com/fwlink/p/?linkid=837465" target="_blank">Fapiao e selecione</a> **Alterar endereço de email.**
 
-    ![O menu suspenso depois que um usuário faz logon no sistema de gerenciamento da 21Vianet Fapiao.](../../media/ee6de24b-6be2-41e6-8aec-e0c3cb0ea35e.png)
+    ![O menu suspenso após um usuário ter se conectado ao sistema de gerenciamento 21Vianet Fapiao.](../../media/ee6de24b-6be2-41e6-8aec-e0c3cb0ea35e.png)
   
 2. Se você esqueceu sua senha de logon, poderá usar seu endereço de email de logon para redefinir a senha. O sistema de gerenciamento Fapiao enviará uma nova senha para seu endereço de email. Você pode usar a nova senha para fazer logon.
 
@@ -135,7 +135,7 @@ Se você quiser alterar o título fapiao, envie o Fapiao de volta para nós e em
 
 ### <a name="how-do-i-find-my-order-id"></a>Como faço para encontrar minha ID de pedido?
 
-1. No centro [de administração, vá](https://go.microsoft.com/fwlink/p/?linkid=850627)para a página **Cobranças** & \> **pagamentos.**
+1. No centro [de administração, vá](https://go.microsoft.com/fwlink/p/?linkid=850627)para a página **Cobranças &** \> **pagamentos.**
 
 2. Encontre a fatura que você deseja, selecione para exibir ou opte por baixar o PDF.
 
@@ -145,7 +145,7 @@ Se você inserir o endereço de email errado ao se registrar, não receberá o e
   
 ### <a name="what-if-i-dont-receive-an-activation-email"></a>E se eu não receber um email de ativação?
 
-Se você não receber um email de ativação de conta dentro de 24 horas após o registro, vá para o sistema de gerenciamento de informações da <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao</a>, insira seu endereço de email e selecione **Reend the activation email**. O sistema resende o email de ativação da conta para seu endereço de email registrado.
+Se você não receber um email de ativação de conta dentro de 24 horas após o registro, vá para o sistema de gerenciamento de informações da <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">21Vianet Fapiao</a>, insira seu endereço de email e selecione **Reend the activation email**. O sistema resendá o email de ativação da conta para seu endereço de email registrado.
   
 ![A página de registro do sistema de gerenciamento da 21Vianet Fapioa.](../../media/60d39184-95b2-4ea4-a8a2-3e11763bec87.png)
   

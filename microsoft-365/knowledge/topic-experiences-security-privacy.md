@@ -25,7 +25,7 @@ A configuração de Tópicos não modifica os controles de acesso existentes no 
 
 Este artigo descreve como os tópicos funcionam de uma perspectiva de segurança e as opções que os administradores de conhecimento e gerentes de conhecimento têm para controlar a visibilidade do tópico. Leia este artigo como parte do [seu planejamento para tópicos.](plan-topic-experiences.md)
 
-Você deve estar familiarizado com o [](topic-center-overview.md)que é [Topics](topic-experiences-overview.md), o centro de tópicos e como trabalhar com tópicos no centro de [tópicos](manage-topics.md) antes de ler este artigo.
+Você deve estar familiarizado com o [](topic-center-overview.md)que [é Tópicos,](topic-experiences-overview.md)o centro de tópicos e como trabalhar com tópicos no centro de [tópicos](manage-topics.md) antes de ler este artigo.
 
 ## <a name="what-users-can-see-in-topics"></a>O que os usuários podem ver nos tópicos
 
@@ -40,7 +40,7 @@ Os colaboradores de tópicos também [têm permissões](topic-experiences-user-p
 
 Quando um tópico é descoberto pela primeira vez, os gerentes de conhecimento podem vê-lo no centro de tópicos. Dependendo da totalidade e relevância do tópico, os visitantes do tópico podem ou não ver o tópico apresentado nos cartões de tópico.
 
-Os tópicos podem conter informações geradas por IA e informações adicionadas ou editadas por colaboradores de tópicos ou gerentes de conhecimento.
+Os tópicos podem conter informações geradas pela IA e informações adicionadas ou editadas por colaboradores de tópicos ou gerentes de conhecimento.
 
 - As informações em um tópico que foi adicionado pela ia só são visíveis para as pessoas que têm acesso ao conteúdo de origem.
 - O texto adicionado ou editado manualmente por um colaborador de tópico ou gerente de conhecimento fica visível para todos que podem ver o tópico.
@@ -64,9 +64,9 @@ Os tópicos apresentam informações aos usuários com base em suas permissões 
 
 Recomendamos que você use essas ferramentas para garantir que suas permissões de conteúdo sejam definidas adequadamente dentro da sua organização. As experiências de tópico podem fornecer informações úteis e apropriadas aos seus usuários.
 
-Se houver tópicos que você deseja excluir inteiramente das experiências de tópico, você também pode:
+Se houver tópicos que você deseja excluir inteiramente das experiências de tópicos, você também pode:
 
-- [Exclua sites confidenciais do SharePoint da descoberta de tópico.](topic-experiences-discovery.md#select-sharepoint-topic-sources) O conteúdo desses sites não será exibido nas experiências de tópico.
+- [Exclua sites confidenciais do SharePoint da descoberta de tópico.](topic-experiences-discovery.md#select-sharepoint-topic-sources) O conteúdo desses sites não aparecerá nas experiências de tópico.
 
 - [Excluir tópicos por nome.](topic-experiences-discovery.md#exclude-topics-by-name) Os tópicos explicitamente excluídos não aparecerão nas experiências de tópico.
 

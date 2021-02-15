@@ -26,9 +26,9 @@ ms.locfileid: "50142426"
 ---
 # <a name="sharepoint-compatible-pdf-readers-that-support-microsoft-information-rights-management-services"></a>SharePoint-Compatible leitores de PDF que suportam serviços de Gerenciamento de Direitos de Informação da Microsoft
 
-O Microsoft SharePoint 2013 dá suporte à proteção de IRM (Gerenciamento de Direitos de Informação) de documentos PDF. Com esse suporte, os usuários podem carregar documentos PDF em bibliotecas protegidas por IRM e, ao baixar, os arquivos serão protegidos usando o IrM do Microsoft Office.
+O Microsoft SharePoint 2013 dá suporte à proteção de IRM (Gerenciamento de Direitos de Informação) de documentos PDF. Com esse suporte, os usuários podem carregar documentos PDF em bibliotecas protegidas por IRM e, ao baixar, os arquivos serão protegidos usando o Microsoft Office IRM.
   
-Para usar arquivos PDF em bibliotecas que o proprietário protegeu com IRM, o usuário precisará obter um dos seguintes leitores compatíveis com PDF:
+Para usar arquivos PDF em bibliotecas que o proprietário protegeu com o IRM, o usuário precisará obter um dos seguintes leitores compatíveis com PDF:
   
 | Sistema operacional | Leitores compatíveis | Download Link |
 |:-----|:-----|:-----|

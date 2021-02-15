@@ -63,7 +63,7 @@ Para criar um novo tópico, você precisa:
  
     Para adicionar um novo arquivo, selecione <b>Adicionar</b>, selecione o site do SharePoint em seus sites Frequentes ou Seguidos e selecione o arquivo na biblioteca de documentos do site.
 
-    Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou página fornecendo a URL. 
+    Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou uma página fornecendo a URL. 
 
 
 6.  A <b>seção Sites relacionados</b> mostra sites que têm informações sobre o tópico. 

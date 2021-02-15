@@ -55,7 +55,7 @@ Durante a instalação, a funcionalidade de resposta do MDO (encontrada no MDO P
 
 Como parte da configuração de avaliação, as licenças do Defender para Office 365 são aplicadas automaticamente à organização. As licenças são gratuitas pelos primeiros 90 dias.
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 Para iniciar ou finalizar a avaliação, você precisa  ser membro das funções de Administrador **Global** ou Administrador de Segurança no Azure Active Directory. Para obter detalhes, consulte [Sobre funções de administrador.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
 

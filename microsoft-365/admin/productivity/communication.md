@@ -18,7 +18,7 @@ monikerRange: o365-worldwide
 search.appverid:
 - MET150
 - MOE150
-description: Detalhes da Pontuação de Comunicação - As pessoas experimentam a Pontuação de Produtividade.
+description: Detalhes da Comunicação - As pessoas experimentam a Pontuação de Produtividade.
 ms.openlocfilehash: de59a57f1c856d94836b59eba6a4869831fe700a
 ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
@@ -42,7 +42,7 @@ Para obter mais informações, [consulte atribuir licenças aos usuários.](../m
 
 Depois que as pessoas estão ativas nos produtos acima pelo menos uma vez nos últimos 28 dias, você começará a ver as informações.
 
-## <a name="why-your-organizations-communication-score-matters"></a>Por que a pontuação de comunicação da sua organização é importante 
+## <a name="why-your-organizations-communication-score-matters"></a>Por que a pontuação de Comunicação da sua organização é importante 
 
 A Microsoft sabe que as pessoas têm necessidades de comunicação diferentes. Para obter uma resposta rápida para uma pergunta, você pode optar por enviar uma mensagem instantânea. Se você quiser enviar atualizações de status para sua liderança, você pode escolher uma mensagem de email. Para alcançar um público mais amplo, você pode optar por postar uma mensagem da comunidade. O Microsoft 365 permite essa flexibilidade nos modos de comunicação para se ajustar às necessidades de todos. A pesquisa mostra que o uso de ferramentas de comunicação em tempo real cria uma organização mais unificada e cria um grupo, independentemente do local. [Veja as evidências.](https://go.microsoft.com/fwlink/?linkid=2127669)
 
@@ -52,7 +52,7 @@ Para Comunicação, fornecemos um insight principal, que contém as principais m
 
 ### <a name="primary-insight"></a>Insight principal
 
-O Microsoft 365 oferece às pessoas a flexibilidade de ajustar o estilo de comunicação de todos oferecendo vários modos. O insight principal fornece uma medida das pessoas em sua organização que estão usando vários modos para se comunicar.
+O Microsoft 365 oferece às pessoas a flexibilidade de ajustar o estilo de comunicação de todos oferecendo vários modos. O insight principal fornece uma medida de pessoas em sua organização que estão usando vários modos para se comunicar.
 
 :::image type="content" source="../../media/primaryinsight.png" alt-text="Visão principal dos modos de comunicação.":::
 
@@ -117,7 +117,7 @@ Também fornecemos informações que ajudam você a obter visibilidade de como s
      - **Numerador:** Pessoas postando em comunidades do Yammer nos últimos 28 dias.
      - **Denominador:** Pessoas habilitadas para o Yammer nos últimos 28 dias.
           
-4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos collados e outros conteúdos de ajuda relacionados.
+4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos colados e outros conteúdos de ajuda relacionados.
 
 ### <a name="mentions-in-emails"></a>@mentions em emails
 
@@ -125,7 +125,7 @@ Também fornecemos informações que ajudam você a obter visibilidade de como s
 
 1. **Header:** Realça o aumento na taxa de resposta para novos threads de email iniciados nos últimos 28 dias quando eles contêm @mentions.
 
-2. **Corpo:** Fornece informações sobre o valor de uso de @mentions em emails. Além disso, as pessoas que usam @mentions são expressas como uma porcentagem de todos os usuários que enviaram um email nos últimos 28 dias.
+2. **Corpo:** Fornece informações sobre o valor de uso @mentions em emails. Além disso, as pessoas que usam @mentions são expressas como uma porcentagem de todos os usuários que enviaram um email nos últimos 28 dias.
 
 3. **Visualização:** Divide a taxa de resposta para novos threads de email com base no @mentions ou não:
 
@@ -139,14 +139,14 @@ Também fornecemos informações que ajudam você a obter visibilidade de como s
      - **Numerador:** Novos threads de email que não contêm @mentions, que foram iniciados e também receberam uma resposta nos últimos 28 dias.
      - **Denominador:** Novos threads de email não contêm @mentions que foram iniciados nos últimos 28 dias.
      
-4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos collados e outros conteúdos de ajuda relacionados.
+4. **Exibir conteúdo relacionado:** Selecione este link para exibir vídeos colados e outros conteúdos de ajuda relacionados.
 
 
 ### <a name="breakdown-of-messages-by-type-in-microsoft-teams"></a>Detalhamento de mensagens por tipo no Microsoft Teams
 
 :::image type="content" source="../../media/teamsmessages.png" alt-text="! [Tipos de mensagens do Teams.]":::
 
-1. **Header:** Realça as pessoas que enviaram mensagens do canal como uma porcentagem das pessoas que enviaram qualquer tipo de mensagem (incluindo mensagens de chat e de canal) nos últimos 28 dias.
+1. **Header:** Realça as pessoas que enviaram mensagens do canal como uma porcentagem de pessoas que enviaram qualquer tipo de mensagem (incluindo mensagens de chat e de canal) nos últimos 28 dias.
 
 2. **Corpo:** Fornece informações sobre o valor do uso de mensagens de canal no Microsoft Teams.
 

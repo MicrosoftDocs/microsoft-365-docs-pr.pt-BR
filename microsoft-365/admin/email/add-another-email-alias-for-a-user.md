@@ -79,7 +79,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     
 6. Aguarde 24 horas para que os novos aliases preencham todo o Microsoft 365.
     
-    O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal, Eliza@NodPublishers.com e seu alias, Sales@NodPublishers.com, serão enviados para a Caixa de Entrada da Filha.
+    O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal, Eliza@NodPublishers.com e seu alias, Sales@NodPublishers.com, serão enviados para a Caixa de Entrada da Dra.
     
   
 7. **Quando o usuário responder, o *endereço De*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com e ela chega na caixa de entrada da Clara. Quando Clara responder à mensagem, seu endereço de email principal aparecerá como o remetente, não Sales@NodPublishers.com. 
@@ -110,10 +110,10 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
 
 6. Aguarde 24 horas para que os novos aliases preencham todo o Microsoft 365. 
     
-    O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal, Eliza@NodPublishers.com e seu alias, Sales@NodPublishers.com, serão enviados para a Caixa de Entrada da Filha.
+    O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal, Eliza@NodPublishers.com e seu alias, Sales@NodPublishers.com, serão enviados para a Caixa de Entrada da Dra.
     
   
-7. **Quando o usuário responder, o *endereço De*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com e ela chega na caixa de entrada da Clara. Quando Clara responder à mensagem, seu endereço de email principal aparecerá como remetente, não Sales@NodPublishers.com. 
+7. **Quando o usuário responder, o endereço *De*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com e ela chega na caixa de entrada da Clara. Quando Clara responder à mensagem, seu endereço de email principal aparecerá como o remetente, não Sales@NodPublishers.com. 
 
 ::: moniker-end
 

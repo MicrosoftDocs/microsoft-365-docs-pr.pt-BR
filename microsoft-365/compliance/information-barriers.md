@@ -59,7 +59,7 @@ As barreiras de informações se aplica ao Microsoft Teams (chats e canais), Sha
 - Adicionar um membro a uma equipe
 - Iniciando uma sessão de chat com alguém
 - Iniciando um chat em grupo
-- Convidar alguém para participar de uma reunião
+- Convidar alguém para ingressar em uma reunião
 - Compartilhando uma tela
 - Fazendo uma chamada
 - Compartilhando um arquivo com outro usuário

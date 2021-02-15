@@ -164,7 +164,7 @@ Atualmente, há 39 serviços disponíveis como parte dos serviços do Office 365
 11. Proteção de Informações para o Office 365 
 12. Governança de Dados Avançada
 13. SharePoint Online
-14. Sistema de Bloqueio do Cliente para SharePoint Online
+14. Sistema de Bloqueio de Cliente para SharePoint Online
 15. OneDrive for Business
 16. Microsoft Stream
 17. Skype for Business (migrará para o Microsoft Teams durante a migração)
@@ -213,7 +213,7 @@ Sim. Os preços nas regiões de&#39;global da Microsoft (incluindo as novas regi
 
 ### <a name="during-the-subscription-migration-what-skus-and-licenses-will-be-applied-to-my-organization-and-users"></a>Durante a migração da assinatura, quais SKUs e licenças serão aplicadas à minha organização e aos usuários?
 
-Durante a migração do Microsoft Cloud Deutschland para os serviços do Office 365, as SKUs específicas do serviço da Alemanha são substituídas por versões globais da mesma SKU ou semelhante. Na maioria dos casos, a SKU nos serviços do Office 365 é a mesma, no entanto, há algumas substituições em que o SKU na Alemanha não está mais disponível nos serviços do Office 365. Se você quiser atualizar a SKU atribuída à sua organização após a conclusão da migração, entre em contato com o vendedor para adicionar ou modificar os serviços atribuídos.
+Durante a migração do Microsoft Cloud Deutschland para os serviços do Office 365, as SKUs específicas do serviço da Alemanha são substituídas por versões globais da mesma SKU ou semelhante. Na maioria dos casos, a SKU nos serviços do Office 365 é a mesma, no entanto, há algumas substituições em que a SKU na Alemanha não está mais disponível nos serviços do Office 365. Se você quiser atualizar a SKU atribuída à sua organização após a conclusão da migração, entre em contato com o vendedor para adicionar ou modificar os serviços atribuídos.
 
 | Microsoft Cloud Deutschland - Product SKU (DE) | Microsoft Cloud Global - SKU do Produto (WW) |
 | --- | --- |
@@ -269,7 +269,7 @@ Durante a migração do Microsoft Cloud Deutschland para os serviços do Office 
 | Skype for Business Plus CAL \_ DE (MCOPLUSCAL \_ DE) | Skype for Business Plus CAL (MCOPLUSCAL) |
 | Plano 1 do Visio Online para \_ docentes DE (VISIOONLINE \_ PLAN1 \_ DE) \_ | Plano 1 do Visio Online para docentes (VISIOONLINE \_ \_ PLAN1DA) |
 | Visio Online Plan 1 \_ DE (VISIOONLINE \_ PLAN1 \_ DE) | Visio Online Plano 1 (VISIOONLINE \_ PLANO1) |
-| Plano 2 do Visio Online para \_ docentes DE (VISIOCLIENT \_ FACULTY \_ DE) | Plano 2 do Visio Online para docentes (CORPO DOCENTE VISIOCLIENT) \_ |
+| Plano 2 do Visio Online para \_ docentes DE (VISIOCLIENT \_ FACULTY \_ DE) | Plano 2 do Visio Online para docentes (CORPO DOCENTE DO VISIOCLIENT) \_ |
 | Visio Online Plan 2 \_ DE (VISIOCLIENT \_ DE) | Visio Online Plano 2 (VISIOCLIENT) |
 | Visio Plan 1 \_ DE (VISIOONLINE \_ PLAN1 \_ DE) | Plano 1 do Visio (VISIOONLINE \_ PLANO1) |
 | Visio Plan 2 \_ DE (VISIOCLIENT \_ DE) | Visio Plano 2 (VISIOCLIENT) |
@@ -334,9 +334,9 @@ Sim. A recomendação da Microsoft é que todos os clientes executem as versões
 
 [Consentimento para migração](ms-cloud-germany-migration-opt-in.md)
 
-## <a name="more-information"></a>Mais Informações
+## <a name="more-information"></a>Mais informações
 
-Getting started:
+Iniciando:
 
 - [Assistência de Migração do Microsoft Cloud Deutschland](https://aka.ms/germanymigrateassist)
 - [Como aceitar a migração](ms-cloud-germany-migration-opt-in.md)

@@ -115,7 +115,7 @@ Se você estiver usando o Office 365 operado pela 21Vianet na China, confira Exi
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
 
-2. Selecione a assinatura que você deseja alterar e, em seguida, **selecione Alterar detalhes de pagamento.**
+2. Selecione a assinatura que você deseja alterar e, em seguida, selecione **Alterar detalhes de pagamento.**
 
     ![The Payment method section of a Subscription card for a subscription that pays by invoice.](../../media/51ab38aa-6e15-4e51-9f27-261c38c98fed.png)
   
@@ -166,7 +166,7 @@ Por padrão, as notificações de cobrança da sua organização são enviadas p
   
 1. Entre no Microsoft 365 com sua conta de trabalho ou de estudante como um administrador global. Saiba como [entrar.](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
 
-2. Selecione o **ícone de usuário** e, em seguida, selecione Minha **conta.**
+2. Selecione o **ícone de usuário,** em seguida, selecione **Minha conta**.
   
 3. Selecione **Informações pessoais.**
   
@@ -204,7 +204,7 @@ Você também pode alterar o endereço de email alternativo de outros administra
 
 [Exibir sua cobrança ou fatura](view-your-bill-or-invoice.md)
 
-[Entenda sua cobrança ou fatura](understand-your-invoice2.md)
+[Entenda sua conta ou fatura](understand-your-invoice2.md)
 
 [Pagar sua assinatura](pay-for-your-subscription.md)
 

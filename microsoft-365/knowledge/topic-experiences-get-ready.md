@@ -19,28 +19,28 @@ ms.locfileid: "50107691"
 ---
 # <a name="get-your-environment-ready-for-microsoft-viva-topics"></a>Prepare seu ambiente para os tópicos do Microsoft Viva
 
-Para usar ao máximo os tópicos do Viva, você deseja ter o máximo de conteúdo possível incluído para a descoberta de tópicos, para que possa ter um conjunto rico de tópicos para seus usuários. Mas qual conteúdo deve ser usado para descoberta de tópicos? Como maximizar o conteúdo indexado enquanto permanece no controle? Quanto mais conteúdo está no escopo, melhor as informações que a inteligência artificial pode descobrir. Este artigo orienta você pelas etapas de planejamento para garantir que você está incluindo o conteúdo apropriado e que você tenha as pessoas e recursos certos para fazer uma boa experiência para seus usuários.
+Para usar ao máximo os tópicos do Viva, você deseja ter o máximo de conteúdo possível incluído para a descoberta de tópicos, para que possa ter um conjunto rico de tópicos para seus usuários. Mas qual conteúdo deve ser usado para descoberta de tópicos? Como maximizar o conteúdo indexado enquanto permanece no controle? Quanto mais conteúdo está no escopo, melhor as ideias que a inteligência artificial pode descobrir. Este artigo orienta você pelas etapas de planejamento para garantir que você está incluindo o conteúdo apropriado e que você tem as pessoas e recursos certos para fazer uma boa experiência para seus usuários.
 
-Para planejar os Tópicos do Viva, você precisa:
+Para planejar tópicos do Viva, você precisa:
 
 ![Migrar, conectar, modernizar, proteger e identificar etapas para integração ao gerenciamento de conhecimento](../media/knowledge-management/km-adoption-onboarding-checklist.png)
 
 1. [Migrar conteúdo para o SharePoint](#1-migrate-content-to-microsoft-365)
     - A indexação de tópicos inclui apenas conteúdo em sites do SharePoint.
       - Sempre que possível, migre conteúdo valioso para o SharePoint Online de fontes externas.
-      - Priorizar fontes de conteúdo com alto potencial para conhecer melhor o conteúdo.
+      - Priorizar fontes de conteúdo com alto potencial para o conhecimento avançado.
       - Realça os benefícios do gerenciamento de conhecimento para incentivar os usuários a mover conteúdo do OneDrive para sites do SharePoint.
 
 2. [Conectar informações ao Microsoft Graph](#2-connect-information-to-microsoft-graph)
     - No futuro, o conteúdo externo pode ser trazido para o gráfico de conhecimento e ficar disponível.
-    - Para o conteúdo que não pode ser movido, considere usar os Conectores do Graph para aprimorar a pesquisa e preparar a inclusão futura.
+    - Para o conteúdo que não pode ser movido, considere usar os Conectores do Graph para aprimorar a pesquisa e preparar a futura inclusão.
 
 3. [Modernizar páginas do SharePoint](#3-modernize-sharepoint-pages)
     - Os cartões de tópico só podem ser divulgados em páginas modernas.
     - Identifique páginas clássicas de alto perfil que são candidatas à modernização.
 
 4. [Proteger o conteúdo adequadamente](#4-secure-content-appropriately)
-    - Os recursos de tópicos são cortados com base nas permissões de um usuário.
+    - Os recursos de tópicos são recortados com base nas permissões de um usuário.
     - Identifique qualquer conteúdo que possa ter permissões incorretamente amplas ou restritivas:
       - Incentivar os proprietários do site a usar os relatórios de compartilhamento para revisar as permissões
       - Fazer com que os administradores auditem conteúdo amplamente compartilhado usando a Pesquisa
@@ -71,7 +71,7 @@ Faça o máximo da sua migração:
 
 ## <a name="2-connect-information-to-microsoft-graph"></a>2. Conectar informações ao Microsoft Graph
 
-Se não for possível migrar algum conteúdo, conecte-o ao Microsoft Graph:
+Se você não puder migrar algum conteúdo, conecte-o ao Microsoft Graph:
 
 - Considere implementar [conectores de conteúdo do Graph.](https://docs.microsoft.com/microsoftsearch/connectors-overview) Usando conectores, o conteúdo externo pode ser indexado no Microsoft Graph, onde os usuários podem descobrir isso por meio da Pesquisa da Microsoft.
 - Desenvolvimentos futuros trazerão dados externos para tópicos do Viva.
@@ -125,12 +125,12 @@ Dependendo da sua organização, você pode ter algumas ou muitas pessoas atuand
 |:-------|:-------|:-------|:-------|
 | Função AAD | Função AAD | SME |
 | Tem acesso ao centro de administração | Tem acesso ao centro de administração | Sem acesso ao centro de administração |
-| Configura tópicos do Viva | Possui o gerenciamento e a qualidade dos tópicos | Contribui para tópicos com base em seus conhecimentos. |
-| Garante que os padrões de segurança e conformidade sejam aplicados e compreendam o contrato de licenciamento.| Executa tarefas de gerenciamento de tópicos, como criar, editar, excluir e rejeitar tópicos. Dá suporte a colaboradores de tópicos com suas tarefas. | Cura as informações e o conteúdo nas páginas de tópicos, incluindo quais pessoas e recursos são fixados nesse tópico. |
+| Configura tópicos do Viva | Gerenciamento e qualidade de tópicos proprietários | Contribui para tópicos com base em seus conhecimentos. |
+| Garante que os padrões de segurança e conformidade sejam aplicados e compreendam o contrato de licenciamento.| Executa tarefas de gerenciamento de tópicos, como criar, editar, excluir e rejeitar tópicos. Oferece suporte a colaboradores de tópicos com suas tarefas. | Redaia as informações e o conteúdo nas páginas de tópicos, incluindo quais pessoas e recursos são fixados nesse tópico. |
 
 Destaques e cartões aparecerão para os usuários no contexto de seu trabalho, por exemplo, à medida que navegarem por páginas modernas no SharePoint. Você controla a experiência do usuário final para tópicos.
 
-- Quem pode ver Tópicos? A visibilidade do tópico está configurada no Centro de Administração do Microsoft 365. Escolha quais grupos permitirão ver tópicos:
+- Quem pode ver Tópicos? A visibilidade do tópico está configurada no Centro de administração do Microsoft 365. Escolha quais grupos permitirão ver tópicos:
   - Todos na minha organização. "Todos" não inclui convidados, são todos os usuários internos em seu diretório
   - Somente pessoas selecionadas ou grupos de segurança (essa opção é boa enquanto você ainda está lançando tópicos do Viva, para que você possa testar com um subconjunto de usuários). Se quiser que os convidados consultem Tópicos, você precisará usar a opção "pessoas ou grupos de segurança selecionados" e conceder uma licença a eles.
   - Ninguém.

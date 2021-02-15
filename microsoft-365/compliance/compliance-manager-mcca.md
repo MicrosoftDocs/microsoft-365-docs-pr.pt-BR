@@ -66,7 +66,7 @@ Depois de instalar o MCCA, você pode executar o MCCA e gerar um relatório. Par
     ```
 3. Depois que o MCCA é executado, ele faz uma verificação de versão inicial e solicita credenciais. No prompt de entrada do nome de usuário, entre com seu endereço de email da conta do Microsoft 365 (veja as funções qualificadas[para criar relatórios).](#role-based-reporting) Em seguida, insira sua senha no prompt de senha.
 
-Seu relatório levará aproximadamente de 2 a 5 minutos para ser gerado. Quando terminar, uma janela do navegador será aberta e exibirá seu relatório HTML. Sempre que você executar a ferramenta, ela solicitará suas credenciais e gerará um novo relatório. Esse relatório é armazenado localmente no seguinte diretório:
+Seu relatório levará aproximadamente de 2 a 5 minutos para ser gerado. Quando terminar, uma janela do navegador abre e exibe seu relatório HTML. Sempre que você executar a ferramenta, ela solicitará suas credenciais e gerará um novo relatório. Esse relatório é armazenado localmente no seguinte diretório:
 
 C:\Users \<username> \AppData\Local\Microsoft\MCCA. 
 
@@ -80,7 +80,7 @@ Seu relatório reflete os dados com base na data e hora em que ele foi gerado. A
 
 A **seção** Observação mostra que seu relatório é personalizado com base na localização geográfica do seu locatário. As recomendações listadas na ferramenta serão específicas para seu país ou região.
 
-Sua seleção de geolocalização é usada para avaliar os sits (tipos de informações confidenciais) que são relevantes para essa localização geográfica e gerar um relatório que se alinhe ao seu país ou região. Escolha localizações geográficas com base nos dados que você tem em seu locatário.
+Sua seleção de geolocalização é usada para avaliar os sits (tipos de informações confidenciais) que são relevantes para essa localização geográfica e gerar um relatório que se alinha ao seu país ou região. Escolha localizações geográficas com base nos dados que você tem em seu locatário.
 
 Para alterar as informações de localização do seu relatório, você precisa fornecer um parâmetro de entrada de geolocalização (-Geo). Você pode escolher uma ou várias localizações geográficas aplicáveis ao seu locatário.
 

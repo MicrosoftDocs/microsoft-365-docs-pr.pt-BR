@@ -32,7 +32,7 @@ ms.locfileid: "50105180"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Autenticação multifator para Microsoft 365
 
-As senhas são o método mais comum de autenticação de uma login em um computador ou serviço online, mas também são as mais vulneráveis. As pessoas podem escolher senhas fáceis e usar as mesmas senhas para várias logins em computadores e serviços diferentes.
+As senhas são o método mais comum de autenticação de uma assinatura em um computador ou serviço online, mas também são as mais vulneráveis. As pessoas podem escolher senhas fáceis e usar as mesmas senhas para várias logins em computadores e serviços diferentes.
 
 Para fornecer um nível adicional de segurança para as logins, você deve usar a autenticação multifatofa (MFA), que usa uma senha, que deve ser forte, e um método de verificação adicional com base em:
 
@@ -43,7 +43,7 @@ O método de verificação adicional não é empregado até que a senha do usuá
 
 ## <a name="mfa-support-in-microsoft-365"></a>Suporte à MFA no Microsoft 365
 
-Por padrão, o Microsoft 365 e o Office 365 são suportados pela MFA para contas de usuário que usam:
+Por padrão, o Microsoft 365 e o Office 365 suportam MFA para contas de usuário usando:
 
 - Uma mensagem de texto enviada para um telefone que exige que o usuário digite um código de verificação.
 - Uma chamada telefônica.
@@ -57,10 +57,10 @@ Em ambos os casos, o sign-in da MFA está usando o método "algo que você tem c
 
 Essas maneiras são baseadas no seu plano do Microsoft 365.
 
-|Plano|Recomendação|Tipo de cliente|
+|Planejar|Recomendação|Tipo de cliente|
 |---|---|---|
 |Todos os planos do Microsoft 365|Use padrões de segurança, que exigem MFA para todas as contas de usuário. <p> Você também pode configurar a MFA por usuário em contas de usuário individuais, mas isso não é recomendado.|Pequena empresa|
-|Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Licenças premium P1 do Azure Active Directory (Azure AD)|Use políticas de Acesso Condicional para exigir MFA para contas de usuário com base na associação de grupo, aplicativos ou outros critérios.|Pequenas empresas para empresas|
+|Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Licenças do Azure Active Directory (Azure AD) Premium P1|Use políticas de Acesso Condicional para exigir MFA para contas de usuário com base na associação de grupo, aplicativos ou outros critérios.|Pequenas empresas para empresas|
 |Microsoft 365 E5 <p> Licenças do Azure AD Premium P2|Use o Azure AD Identity Protection para exigir a MFA com base nos critérios de risco de login.|Empresa|
 ||||
 
@@ -121,7 +121,7 @@ As empresas devem usar [políticas comuns de Acesso Condicional](https://docs.mi
 
 - [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
 - [Exigir MFA para todos os usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [Bloquear autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+- [Bloquear autenticação herdda](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
 
 Para mais informações, confira esta [visão geral do Acesso Condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
@@ -176,6 +176,6 @@ No Centro de administração do Microsoft 365, você pode definir as configuraç
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Vídeo: Ativar a autenticação multifatare](https://docs.microsoft.com/microsoft-365/business-video/turn-on-mfa)
+[Vídeo: Ativar a autenticação multifator](https://docs.microsoft.com/microsoft-365/business-video/turn-on-mfa)
 
-[Vídeo: Ativar a autenticação multifa factor para seu telefone](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)
+[Vídeo: Ativar a autenticação multifator para seu telefone](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)

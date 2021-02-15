@@ -45,7 +45,7 @@ Os administradores de TI e especialistas em conformidade da Contoso participaram
 
 - Os administradores de IT que precisam de acesso aos recursos de conformidade de comunicação.
 - Os especialistas em conformidade que precisam criar e gerenciar políticas de comunicação.
-- Os especialistas em conformidade e outros colegas de outros departamentos (recursos humanos, jurídicos etc.) que precisam investigar e remediar alertas de conformidade de comunicação.
+- Os especialistas em conformidade e outros colegas de outros departamentos (Recursos Humanos, Jurídico etc.) que precisam investigar e remediar alertas de conformidade de comunicação.
 - Os usuários que estarão no escopo da política de linguagem ofensiva de conformidade de comunicação.
 
 ### <a name="licensing"></a>Licenciamento
@@ -53,7 +53,7 @@ Os administradores de TI e especialistas em conformidade da Contoso participaram
 A primeira etapa é confirmar se o licenciamento do Microsoft 365 da Contoso inclui suporte para a solução de conformidade de comunicação. Para acessar e usar a conformidade de comunicação, os administradores de IT da Contoso precisam verificar se a Contoso tem um dos seguintes:
 
 - Assinatura do Microsoft 365 E5 (versão paga ou de avaliação)
-- Assinatura do Microsoft 365 E3 + complemento de Conformidade do Microsoft 365 E5
+- Assinatura do Microsoft 365 E3 + o complemento de Conformidade do Microsoft 365 E5
 - Assinatura do Microsoft 365 E3 + o complemento Microsoft 365 E5 Insider Risk Management
 - Assinatura do Microsoft 365 A5 (versão paga ou de avaliação)
 - Assinatura do Microsoft 365 A3 + complemento de Conformidade do Microsoft 365 A5
@@ -69,7 +69,7 @@ Eles também devem confirmar se os usuários incluídos nas políticas de confor
 >[!IMPORTANT]
 >A Conformidade Avançada do Office 365 não é mais vendida como uma assinatura autônoma. Quando as assinaturas atuais expirarem, os clientes devem fazer a transição para uma das assinaturas acima, que contêm os mesmos recursos de conformidade ou adicionais.
 
-Os administradores de IT da Contoso seguem as seguintes etapas para verificar o suporte de licenciamento para a Contoso:
+Os administradores de IT da Contoso seguem as seguintes etapas para verificar o suporte a licenciamento para a Contoso:
 
 1. Os administradores de IT entrarão no Centro de administração do **Microsoft 365** [( https://admin.microsoft.com)](https://admin.microsoft.com) e naveguem até Licenças de Cobrança do Centro de administração do Microsoft **365.**  >    >  
 
@@ -81,12 +81,12 @@ Os administradores de IT da Contoso seguem as seguintes etapas para verificar o 
 
 Há cinco grupos de função usados para configurar permissões para gerenciar recursos de conformidade de comunicação. Para **disponibilizar** a conformidade de comunicação como uma opção de menu no centro de conformidade do Microsoft 365 e continuar com essas etapas de configuração, os administradores da Contoso são atribuídos com a função de Administrador de Conformidade *de* Comunicação.
 
-A Contoso decide usar o grupo *de* função conformidade de comunicação para atribuir todos os administradores de conformidade de comunicação, analistas, investigadores e visualizadores ao grupo. Isso torna mais fácil para a Contoso começar de forma rápida e melhor atendendo aos seus requisitos de gerenciamento de conformidade.
+A Contoso decide usar o grupo *de* função conformidade de comunicação para atribuir todos os administradores de conformidade de comunicação, analistas, investigadores e visualizadores ao grupo. Isso torna mais fácil para a Contoso começar rapidamente e melhor se adequar aos seus requisitos de gerenciamento de conformidade.
 
 |**Função**|**Permissões de função**|
 |:-----|:-----|
-| **Conformidade de Comunicação** | Use esse grupo de função para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores designados, analistas, investigadores e visualizadores, você pode configurar permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente com a conformidade de comunicação e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos separados de usuários. |
-| **Administrador de Conformidade de Comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e posteriormente segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de função podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupo de função. Os usuários atribuídos a esse grupo de funções não podem exibir alertas de mensagem. |
+| **Conformidade de comunicação** | Use esse grupo de função para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores designados, analistas, investigadores e visualizadores, você pode configurar permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente com a conformidade de comunicação e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos separados de usuários. |
+| **Administrador de Conformidade de Comunicação** | Use esse grupo de função para configurar inicialmente a conformidade de comunicação e posteriormente segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de funções podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupo de função. Os usuários atribuídos a esse grupo de funções não podem exibir alertas de mensagem. |
 | **Analista de Conformidade de Comunicação** | Use esse grupo para atribuir permissões aos usuários que atuarão como analistas de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir políticas às quais são atribuídos como Revisadores, exibir metadados de mensagem (não conteúdo de mensagem), escalonar para revistores adicionais ou enviar notificações aos usuários. Os analistas não podem resolver alertas pendentes. |
 | **Investigador de conformidade de comunicação** | Use esse grupo para atribuir permissões aos usuários que atuarão como investigadores de conformidade de comunicação. Os usuários atribuídos a esse grupo de funções podem exibir metadados e conteúdo de mensagens, escalonar para revistores adicionais, escalonar para um caso de Descoberta Avançada, enviar notificações aos usuários e resolver o alerta. |
 | **Visualizador de Conformidade de Comunicação** | Use esse grupo para atribuir permissões a usuários que gerenciarão relatórios de comunicação. Os usuários atribuídos a esse grupo de função podem acessar todos os widgets de relatórios na home page de conformidade de comunicação e podem exibir todos os relatórios de conformidade de comunicação. |
@@ -106,11 +106,11 @@ Depois de configurar as permissões para conformidade de comunicação, os admin
 - Iniciando diretamente da solução de conformidade de comunicação
 - A partir do centro de conformidade do Microsoft 365
 - A partir do catálogo de soluções do Microsoft 365
-- A partir do Centro de administração do Microsoft 365
+- A partir do centro de administração do Microsoft 365
 
 ### <a name="starting-directly-from-the-communication-compliance-solution"></a>Iniciando diretamente da solução de conformidade de comunicação
 
-A maneira mais rápida de acessar a solução é entrar diretamente na solução de conformidade **() de** <https://compliance.microsoft.com/supervisoryreview> comunicação. Usando este link, os administradores de TI e especialistas em conformidade da Contoso serão direcionados para o painel visão geral de conformidade de comunicações, onde você pode analisar rapidamente o status de alertas e criar novas políticas a partir dos modelos predefinidas.
+A maneira mais rápida de acessar a solução é entrar diretamente na solução **de** conformidade <https://compliance.microsoft.com/supervisoryreview> () de comunicação. Usando este link, os administradores de TI e especialistas em conformidade da Contoso serão direcionados para o painel visão geral de conformidade de comunicações, onde você pode analisar rapidamente o status de alertas e criar novas políticas a partir dos modelos predefinidas.
 
 ![Visão geral da conformidade de comunicação](../media/communication-compliance-case-overview.png)
 
@@ -146,7 +146,7 @@ Depois de **selecionar Mostrar tudo,** os administradores de IT da Contoso podem
 
 ## <a name="step-3-configuring-prerequisites-and-creating-a-communication-compliance-policy"></a>Etapa 3: Configurar pré-requisitos e criar uma política de conformidade de comunicação
 
-Para começar a trabalhar com uma política de conformidade de comunicação, há vários pré-requisitos que os administradores de IT da Contoso precisam configurar antes de configurar a nova política para monitorar o idioma ofensivo. Depois que esses pré-requisitos são concluídos, os administradores de TI e especialistas em conformidade da Contoso podem configurar a nova política e os especialistas em conformidade podem iniciar a investigação e a correção de quaisquer alertas gerados.
+Para começar a trabalhar com uma política de conformidade de comunicação, há vários pré-requisitos que os administradores de IT da Contoso precisam configurar antes de configurar a nova política para monitorar o idioma ofensivo. Após a conclusão desses pré-requisitos, os administradores de TI e especialistas em conformidade da Contoso podem configurar a nova política e os especialistas em conformidade podem iniciar a investigação e a correção de todos os alertas gerados.
 
 ### <a name="enabling-auditing-in-microsoft-365"></a>Habilitando a auditoria no Microsoft 365
 
@@ -156,7 +156,7 @@ Os administradores de IT da Contoso revisam e concluem as instruções passo a [
 
 ### <a name="configuring-yammer-tenant-for-native-mode"></a>Configurando o locatário do Yammer para o Modo Nativo
 
-A conformidade de comunicação requer que o locatário do Yammer de uma organização está no modo Nativo para monitorar o idioma ofensivo em mensagens privadas e conversas públicas da comunidade.
+A conformidade de comunicação exige que o locatário do Yammer de uma organização está no modo Nativo para monitorar o idioma ofensivo em mensagens privadas e conversas públicas da comunidade.
 
 Os administradores de TI da Contoso garantem que revisem as informações no artigo Visão geral do Modo Nativo do Yammer no [Microsoft 365](/yammer/configure-your-yammer-network/overview-native-mode) e siga as etapas para executar a ferramenta de migração no artigo Configurar sua rede do Yammer para o Modo Nativo do [Microsoft 365.](/yammer/configure-your-yammer-network/native-mode)
 
@@ -171,7 +171,7 @@ Eles precisam criar um novo grupo para incluir todos os usuários da Contoso, po
 
     ![Grupos](../media/communication-compliance-case-all-employees.png)
 
-3. Depois que o novo grupo é criado, eles precisam adicionar todos os usuários da Contoso ao novo grupo. Eles abrem o **Centro de administração do Exchange** ( [e https://outlook.office365.com/ecp)](https://outlook.office365.com/ecp) navegam para grupos de destinatários do Centro de administração do   >    >  Exchange. Os administradores de IT da Contoso  selecionam a área  Associação e o novo grupo Todos os Funcionários que criaram e selecionam o controle Editar para adicionar todos os usuários da Contoso ao novo grupo no assistente.
+3. Depois que o novo grupo for criado, eles precisarão adicionar todos os usuários da Contoso ao novo grupo. Eles abrem o **Centro de administração do Exchange** ( [e https://outlook.office365.com/ecp)](https://outlook.office365.com/ecp) navegam para grupos de destinatários do Centro de administração do   >    >  Exchange. Os administradores de IT da Contoso  selecionam a área  Associação e o novo grupo Todos os Funcionários que criaram e selecionam o controle Editar para adicionar todos os usuários da Contoso ao novo grupo no assistente.
 
     ![Centro de administração do Exchange](../media/communication-compliance-case-eac.png)
 
@@ -179,7 +179,7 @@ Eles precisam criar um novo grupo para incluir todos os usuários da Contoso, po
 
 Com todos os pré-requisitos concluídos, os administradores de TI e os especialistas em conformidade da Contoso estão prontos para configurar a política de conformidade de comunicação para monitorar o idioma ofensivo. Usando o novo modelo de política de idioma ofensivo, a configuração dessa política é simples e rápida.
 
-1. Os administradores de TI e especialistas em conformidade da Contoso  se instalam no centro de conformidade do **Microsoft 365** e selecionam a conformidade de comunicação no painel de navegação esquerdo. Essa ação abre o painel **Visão geral** com links rápidos para modelos de política de conformidade de comunicação. Eles escolhem o **modelo De monitoramento de idioma** ofensivo **selecionando Começar** para o modelo.
+1. Os administradores de TI e especialistas em conformidade da Contoso  se ins login no centro de conformidade do **Microsoft 365** e selecionam a conformidade de comunicação no painel de navegação esquerdo. Essa ação abre o painel **Visão geral** com links rápidos para modelos de política de conformidade de comunicação. Eles escolhem o **modelo De monitoramento de idioma** ofensivo **selecionando Começar** para o modelo.
 
     ![Modelo de linguagem ofensiva de conformidade de comunicação](../media/communication-compliance-case-template.png)
 

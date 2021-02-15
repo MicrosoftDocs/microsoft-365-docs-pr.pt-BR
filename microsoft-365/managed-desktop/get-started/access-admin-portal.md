@@ -35,9 +35,9 @@ Sua conta administrativa precisará de permissões específicas para acessar os 
 
 |Função do Azure AD  |Permissões da Área de Trabalho Gerenciada da Microsoft  |
 |---------|---------|
-|Administrador Global     | Os administradores com essa função terão permissões de leitura e **gravação para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
+|Administrador Global     | Os administradores com essa função terão **permissões de leitura** e gravação para todos os recursos no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
 |Leitor global     | Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
-|Administrador de Serviços do Intune     |  Os administradores com essa função terão **permissões de leitura** e gravação para recursos não relacionados à segurança no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.       |
+|Administrador de Serviços do Intune     |  Os administradores com essa função terão permissões de **leitura** e gravação para recursos não relacionados à segurança no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.       |
 |Administrador de Suporte ao Serviço     | Os administradores com  essa função terão permissões somente leitura  para recursos não relacionados à segurança e permissões de gravação para gerenciar solicitações de suporte no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.         |
 |Administrador de Segurança | Os administradores com  essa função terão permissões somente  leitura para todos os recursos e permissões de gravação para recursos relacionados à segurança na Área de Trabalho Gerenciada da Microsoft no portal de administração. |
 |Leitor de segurança |Os administradores com essa função terão **permissões somente leitura para todos os recursos** no portal do Administrador da Área de Trabalho Gerenciada da Microsoft.|
@@ -65,8 +65,8 @@ Para facilitar o gerenciamento de funções internas, há um grupo de segurança
 1.  Acesse o portal do Microsoft Endpoint Manager.
 2.  Selecione **Grupos** no lado esquerdo.
 3.  Pesquise **funções** de local de trabalho modernas e selecione o grupo associado à função que você deseja atribuir. 
-4.  Selecione **Membros** no lado esquerdo e selecione **+ Adicionar membros** na barra de comandos.
-5.  Insira o email da pessoa que está sendo adicionada. Se eles são convidados, você deve convidá-los antes de atribuir o grupo.
+4.  Selecione **Membros** no lado esquerdo e, em seguida, **selecione + Adicionar membros** na barra de comandos.
+5.  Insira o email da pessoa que está sendo adicionada. Se ele for um convidado, você deve convidá-lo antes de atribuir o grupo.
 6.  Selecione **Selecionar** na parte inferior.
 
 > [!NOTE]
@@ -76,7 +76,7 @@ Para facilitar o gerenciamento de funções internas, há um grupo de segurança
 
 Se você precisar atribuir uma ou mais funções integrados a um grupo existente, siga estas etapas:
 1. Vá para [portal.azure.com](https://portal.azure.com/).
-2. Procure e abra **aplicativos Enterprise.**
+2. Pesquise e abra **aplicativos Enterprise.**
 3. Altere **o filtro de tipo** de aplicativo para Microsoft _Applications_ e, em seguida, selecione **Aplicar**.
 4. Pesquise e selecione _APIs modernas do cliente do local de trabalho._
 5. Selecione **Usuários e grupos** no painel à esquerda e, em seguida, selecione + Adicionar **usuário/grupo.**

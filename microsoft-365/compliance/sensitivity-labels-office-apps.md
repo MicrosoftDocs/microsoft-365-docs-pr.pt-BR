@@ -39,7 +39,7 @@ Para usar rótulos de sensibilidade com essas edições autônomas do Office em 
 
 ## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>Suporte para recursos de rótulo de sensibilidade em aplicativos
 
-Para cada recurso, as tabelas a seguir listam a versão mínima do Office que você precisa para dar suporte a rótulos de sensibilidade usando rotulagem integrado. Ou, se o recurso de rótulo estiver em visualização pública ou em revisão para uma versão futura. Use o [mapa do Microsoft 365](https://aka.ms/MIPC/Roadmap) para obter detalhes sobre versões futuras.
+Para cada recurso, as tabelas a seguir listam a versão mínima do Office que você precisa para dar suporte a rótulos de sensibilidade usando rotulagem. Ou, se o recurso de rótulo estiver em visualização pública ou em revisão para uma versão futura. Use o [mapa do Microsoft 365](https://aka.ms/MIPC/Roadmap) para obter detalhes sobre versões futuras.
 
 Novas versões de aplicativos do Office são disponibilizadas em momentos diferentes para diferentes canais de atualização. Para obter mais informações, incluindo como configurar seu canal de atualização para que você possa testar um novo recurso de rotulagem de seu interesse, consulte Visão geral dos canais de atualização para Aplicativos do [Microsoft 365.](https://docs.microsoft.com/DeployOffice/overview-update-channels) Novos recursos que estão na visualização privada não estão incluídos na tabela, mas você pode ser capaz de ingressar nessas visualizações ao nomear sua organização para o programa de visualização privada de Proteção de Informações da [Microsoft.](https://aka.ms/mip-preview)
 
@@ -66,7 +66,7 @@ Os números listados são a versão mínima do aplicativo do Office necessária 
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16,35+   | Sob revisão   | Sob revisão         | Sob revisão                                                        |
 |[Começar a trabalhar com a classificação de dados](data-classification-overview.md) e enviar dados para administradores                      | 2011+ | 16,43+ | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Sim <sup>\*</sup>                                                        |
 |[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Visualização: [Canal Atual (Visualização)](https://office.com/insider)             | Visualização: [Canal Atual (Visualização)](https://office.com/insider)         | Sob revisão   | Implantação: 16.0.13628+ | Sob revisão                                            
-|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Implantação: 16,44+ | Sob revisão | Sob revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Lançamento: 16,44+ | Sob revisão | Sob revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |Suporte [ao AutoSave](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) e [coautor](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) em documentos rotulados e criptografados | Sob revisão | Sob revisão | Sob revisão | Sob revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
@@ -122,7 +122,7 @@ Como alternativa, desabilite ou remova o Complemento do Office, a Proteção **d
 
 Quando você desabilita ou remove esse Complemento do Office, o cliente da Proteção de Informações do Azure permanece instalado para que você possa continuar rotular arquivos fora de seus aplicativos do Office. Por exemplo, usando o Explorador de Arquivos ou o PowerShell.
 
-Para saber mais sobre quais recursos são suportados pelos clientes da Proteção de Informações do Azure e o cliente de rotulagem integrado do Office, confira Escolher qual cliente de rotulagem usar para computadores [Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) na documentação da Proteção de Informações do Azure.
+Para saber mais sobre quais recursos são suportados pelos clientes da Proteção de Informações do Azure e pelo cliente de rotulagem integrado do Office, confira Escolher qual cliente de rotulagem usar para computadores [Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) na documentação da Proteção de Informações do Azure.
 
 ## <a name="office-file-types-supported"></a>Tipos de arquivo do Office com suporte
 
@@ -143,11 +143,11 @@ Se você precisar converter modelos de proteção existentes em rótulos, use o 
 Os rótulos de sensibilidade que você configura para aplicar criptografia removem a complexidade dos usuários para especificar suas próprias configurações de criptografia. Em muitos aplicativos do Office, essas configurações de criptografia individuais ainda podem ser configuradas manualmente pelos usuários usando opções de Gerenciamento de Direitos de Informação (IRM). Por exemplo, para aplicativos do Windows:
 
 - Para um documento: Informações **do arquivo**  >    >  **proteger o acesso** restrito do  >  **documento**
-- para um email: na guia **Opções,** > **Criptografar** 
+- para um email: na guia **Opções >** **Criptografar** 
   
-Quando os usuários rotulam inicialmente um documento ou email, eles sempre podem substituir as definições de configuração do rótulo por suas próprias configurações de criptografia. Por exemplo:
+Quando os usuários rotulam inicialmente um documento ou email, eles sempre podem substituir as definições de configuração do rótulo com suas próprias configurações de criptografia. Por exemplo:
 
-- Um usuário aplica o rótulo **Confidencial \ Todos** os Funcionários a um documento e esse rótulo é configurado para aplicar configurações de criptografia para todos os usuários na organização. Em seguida, esse usuário define manualmente as configurações do IRM para restringir o acesso a um usuário fora da sua organização. O resultado final é um documento rotulado como **Confidencial \** Todos os Funcionários e criptografado, mas os usuários em sua organização não podem abri-lo conforme o esperado.
+- Um usuário aplica o rótulo **Confidencial \** Todos os Funcionários a um documento e esse rótulo é configurado para aplicar configurações de criptografia para todos os usuários na organização. Em seguida, esse usuário define manualmente as configurações do IRM para restringir o acesso a um usuário fora da sua organização. O resultado final é um documento rotulado como **Confidencial \** Todos os Funcionários e criptografado, mas os usuários em sua organização não podem abri-lo conforme o esperado.
 
 - Um usuário aplica o rótulo **Confidencial \ Destinatários Somente** a um email e esse email é configurado para aplicar a configuração de criptografia de Não **Encaminhar.** Em seguida, esse usuário define manualmente as configurações do IRM para que o email seja irrestrito. O resultado final é que o email pode ser encaminhado por destinatários, apesar de ter o rótulo **Confidencial \ Somente Destinatários.**
 
@@ -159,7 +159,7 @@ Para obter uma experiência de rótulo mais consistente com relatórios signific
 
 - Para casos de exceção em que os usuários devem atribuir suas próprias permissões, forneça rótulos que permitem que os usuários [atribuam suas próprias permissões.](encryption-sensitivity-labels.md#let-users-assign-permissions) 
 
-- Em vez de os usuários removerem manualmente a criptografia após selecionar um rótulo que aplica criptografia, forneça um sub-rótulo alternativo quando os usuários precisam de um rótulo com a mesma classificação, mas sem criptografia. Como:
+- Em vez de remover a criptografia manualmente após selecionar um rótulo que aplica criptografia, forneça um sub-rótulo alternativo quando os usuários precisam de um rótulo com a mesma classificação, mas sem criptografia. Como:
     - **Confidencial \ Todos os Funcionários**
     - **Confidencial \ Qualquer Pessoa (sem criptografia)**
 
@@ -177,7 +177,7 @@ Um anexo não herda os rótulos da mensagem de email quando o rótulo aplicado �
 
 Exemplos de herança de rótulo, em que o rótulo **Confidencial** aplica criptografia e o rótulo **Geral** não aplica criptografia:
 
-- Um usuário cria uma nova mensagem de email e aplica o **rótulo Confidencial** a essa mensagem. Em seguida, eles adicionam um documento do Word que não está rotulado ou criptografado. Como resultado da herança, o documento é rotulado como **Confidencial** recentemente e agora tem criptografia aplicada a partir desse rótulo.
+- Um usuário cria uma nova mensagem de email e aplica o **rótulo Confidencial** a essa mensagem. Em seguida, eles adicionam um documento do Word que não está rotulado ou criptografado. Como resultado da herança, o documento é recentemente rotulado como **Confidencial** e agora tem criptografia aplicada a partir desse rótulo.
 
 - Um usuário cria uma nova mensagem de email e aplica o **rótulo Confidencial** a essa mensagem. Em seguida, eles adicionam um documento do Word rotulado como **Geral** e esse arquivo não é criptografado. Como resultado da herança, o documento é  rotulado como Confidencial e agora tem a criptografia aplicada a partir desse rótulo.
 
@@ -195,7 +195,7 @@ Para usar o cliente de rotulagem interna do Office com o Office na Web para docu
 
 ## <a name="support-for-external-users-and-labeled-content"></a>Suporte para usuários externos e conteúdo rotulado
 
-Quando você rotula um documento ou email, o rótulo é armazenado como metadados que incluem seu locatário e um GUID de rótulo. Quando um documento ou email rotulado é aberto por um aplicativo do Office que dá suporte a rótulos de sensibilidade, esse metadados são lidos e somente se o usuário pertence ao mesmo locatário, o rótulo é exibido em seu aplicativo. Por exemplo, para rotulagem integrado para Word, PowerPoint e Excel, o nome do rótulo é exibido na barra de status. 
+Quando você rotula um documento ou email, o rótulo é armazenado como metadados que incluem seu locatário e um GUID de rótulo. Quando um documento ou email rotulado é aberto por um aplicativo do Office que dá suporte a rótulos de sensibilidade, os metadados são lidos e somente se o usuário pertence ao mesmo locatário, o rótulo é exibido no aplicativo. Por exemplo, para rotulagem integrado para Word, PowerPoint e Excel, o nome do rótulo é exibido na barra de status. 
 
 Isso significa que, se você compartilhar documentos com outra organização que usa nomes de rótulos diferentes, cada organização poderá aplicar e ver seu próprio rótulo aplicado ao documento. No entanto, os seguintes elementos de um rótulo aplicado ficam visíveis para usuários de fora da sua organização:
 
@@ -205,7 +205,7 @@ Isso significa que, se você compartilhar documentos com outra organização que
 
 ### <a name="sharing-encrypted-documents-with-external-users"></a>Compartilhar documentos criptografados com usuários externos
 
-Além de restringir o acesso a usuários em sua própria organização, você pode estender o acesso a qualquer outro usuário que tenha uma conta no Azure Active Directory. Todos os aplicativos do Office e [outros aplicativos com](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) autenticação rmS podem abrir documentos criptografados após a autenticação bem-sucedida do usuário.
+Além de restringir o acesso a usuários em sua própria organização, você pode estender o acesso a qualquer outro usuário que tenha uma conta no Azure Active Directory. Todos os aplicativos do Office e [outros aplicativos com](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) autenticação RMS podem abrir documentos criptografados após a autenticação bem-sucedida do usuário.
 
 Se os usuários externos não têm uma conta no Azure Active Directory, eles podem autenticar usando contas de convidado em seu locatário. Essas contas de convidado também podem ser usadas para acessar documentos compartilhados no SharePoint ou no OneDrive quando você habilitar os rótulos de sensibilidade para arquivos do Office no SharePoint e [no OneDrive:](sensitivity-labels-sharepoint-onedrive-files.md)
 
@@ -252,14 +252,14 @@ Cenários que incluem a aplicação de um rótulo de sensibilidade fora dos apli
 
 - Dados rotulados e criptografados exportados do Power BI
 
-- Segurança no aplicativo na nuvem da Microsoft
+- Microsoft Cloud App Security
 
 Para esses cenários, usando seus aplicativos do Office, um usuário com rotulagem interna pode aplicar as marcações de conteúdo do rótulo removendo ou substituindo temporariamente o rótulo atual e, em seguida, aplicando o rótulo original.
 
 ### <a name="dynamic-markings-with-variables"></a>Marcações dinâmicas com variáveis
 
 > [!IMPORTANT]
-> Atualmente, nem todos os aplicativos em todas as plataformas suportam marcações de conteúdo dinâmico que você pode especificar para seus títulos, rodapés e marcas d'água. Para aplicativos que não suportam esse recurso, eles aplicam as marcações como o texto original especificado na configuração do rótulo, em vez de resolver as variáveis.
+> Atualmente, nem todos os aplicativos em todas as plataformas suportam marcações de conteúdo dinâmico que você pode especificar para seus títulos, rodapés e marcas d'água. Para aplicativos que não suportam essa funcionalidade, eles aplicam as marcações como o texto original especificado na configuração do rótulo, em vez de resolver as variáveis.
 > 
 > O cliente de rotulagem unificada da Proteção de Informações do Azure oferece suporte a marcações dinâmicas. Para rotular o Office, confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página.
 
@@ -282,7 +282,7 @@ Ao configurar um rótulo de sensibilidade para marcações de conteúdo, você p
 Como uma variável adicional, você pode configurar marcações visuais por tipo de aplicativo do Office usando uma instrução de variável "If.App" na cadeia de caracteres de texto e identificar o tipo de aplicativo usando os valores **Word**, **Excel**, **PowerPoint** ou **Outlook**. Você também pode abreviar esses valores, o que é necessário se você quiser especificar mais de um na mesma instrução If.App.
 
 > [!NOTE]
-> Para completar, as instruções para o Outlook estão incluídas, embora atualmente sejam suportadas apenas pelo cliente de rotulagem unificada da Proteção de Informações do Azure.
+> Para completar, as instruções para o Outlook estão incluídas, embora atualmente só tenham suporte do cliente de rotulagem unificada da Proteção de Informações do Azure.
 
 Use a seguinte sintaxe:
 
@@ -326,7 +326,7 @@ Quando essa configuração de política é selecionada, os usuários atribuídos
     - Para emails (Outlook): no momento em que os usuários enviam uma mensagem não rotulada.
 
 - Para rotular os aplicativos do Office integrados:
-    - Para documentos (Word, Excel, PowerPoint): quando um documento não rotulado é aberto ou salvo.
+    - Para documentos (Word, Excel, PowerPoint): quando um documento sem rótulo é aberto ou salvo.
     - Para emails (Outlook): no momento em que os usuários enviam uma mensagem de email não rotulada.
 
 Informações adicionais para rotulagem embutida:

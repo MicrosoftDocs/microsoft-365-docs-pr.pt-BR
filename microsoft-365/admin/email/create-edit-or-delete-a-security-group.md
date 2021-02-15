@@ -41,7 +41,7 @@ Na página grupos do  Microsoft 365, você pode criar grupos de contas de usuár
 Você também pode usar [Grupos do Exchange Online e do SharePoint Online](#groups-in-exchange-online-and-sharepoint-online) para enviar email ou atribuir permissões a um grupo de usuários e [Grupos do Exchange Online e do SharePoint Online](#groups-in-exchange-online-and-sharepoint-online) para conceder aos usuários direitos e acesso a sites e conjuntos de sites. 
   
 > [!IMPORTANT]
->  Planejando usar caixas de correio de sites? Todos os usuários adicionados a um site do SharePoint por meio de um grupo de segurança, em vez de individualmente, podem usar a caixa de correio do site no SharePoint. Esses usuários não poderão acessar a caixa de correio do site no Outlook. Para saber mais, confira [Usar Grupos do Microsoft 365 em vez de Caixas de Correio de Site.](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b) 
+>  Planejando usar caixas de correio de sites? Todos os usuários adicionados a um site do SharePoint por meio de um grupo de segurança, em vez de individualmente, podem usar a caixa de correio do site no SharePoint. Esses usuários não poderão acessar a caixa de correio do site no Outlook. Para saber mais, confira [Usar grupos do Microsoft 365 em vez de caixas de correio de site.](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b) 
   
 ## <a name="manage-security-groups-in-the-admin-center"></a>Gerenciar grupos de segurança no centro de administração
 
@@ -59,7 +59,7 @@ Você também pode usar [Grupos do Exchange Online e do SharePoint Online](#grou
 
 ::: moniker range="o365-worldwide"
     
-1. Selecione o nome do grupo de segurança  **na página Grupos** e, na guia Membros, selecione Exibir tudo e **gerenciar membros.** 
+1. Selecione o nome do grupo de segurança  na **página Grupos** e, na guia Membros, selecione Exibir tudo e **gerenciar membros.** 
     
 2. No painel de grupo, selecione Adicionar membros e escolha a pessoa na lista ou  digite o nome da pessoa que você deseja adicionar na caixa de pesquisa e, em seguida, selecione **Salvar**. 
     
@@ -71,7 +71,7 @@ Você também pode usar [Grupos do Exchange Online e do SharePoint Online](#grou
 
 1. Selecione o nome do grupo de segurança na **página Grupos** e, em seguida, **selecione Editar** ao lado de **Membros**. 
     
-2. No painel de grupo, selecione Adicionar membros e escolha a pessoa na lista ou  digite o nome da pessoa que você deseja adicionar na caixa de pesquisa e, em seguida, **selecione Salvar**. 
+2. No painel de grupo, selecione Adicionar membros e escolha a pessoa na lista ou  digite o nome da pessoa que você deseja adicionar na caixa de pesquisa e, em seguida, selecione **Salvar**. 
     
     Para remover membros, selecione o X ao lado do nome. 
   
@@ -118,7 +118,7 @@ Você também pode usar [Grupos do Exchange Online e do SharePoint Online](#grou
   
 2. Na página **Grupos,** selecione o nome do grupo. 
     
-3. No painel do grupo de segurança,  selecione  **Editar** ao lado da guia Nome ou Membros para editar os detalhes ou membros do grupo.
+3. No painel do grupo de segurança, selecione  **Editar** ao lado da guia **Nome** ou Membros para editar os detalhes ou membros do grupo.
     
 4. Depois de fazer alterações, selecione **Salvar** > **Fechar.**
 
@@ -137,7 +137,7 @@ Você também pode usar [Grupos do Exchange Online e do SharePoint Online](#grou
     
 ## <a name="groups-in-exchange-online-and-sharepoint-online"></a>Grupos do Exchange Online e do SharePoint Online
 
-Se você quiser criar grupos de usuários para que possa enviar emails para todos eles ao mesmo  tempo, você pode fazer isso no Centro de administração do Exchange, indo para Grupos de Destinatários do Exchange de \>  \>  \> **Administração.** Em seguida, **selecione Novo** ![ Adicionar e selecione o tipo de grupo que você ](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png) deseja criar: 
+Se você quiser criar grupos de usuários para que possa enviar emails para todos eles ao mesmo  tempo, você pode fazer isso no Centro de administração do Exchange, indo para Grupos de Destinatários do Exchange de \>  \>  \> Administração. Em seguida, **selecione Novo** ![ Adicionar e selecione o tipo de grupo que você ](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png) deseja criar: 
   
 - **Grupo de distribuição**: usado para distribuir mensagens para um grupo de usuários. Também é chamado de grupo de distribuição habilitado *para email* ou uma lista *de distribuição.* Para obter mais informações, consulte [Gerenciar grupos de distribuição](https://technet.microsoft.com/library/bb124513.aspx).
     

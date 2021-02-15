@@ -42,7 +42,7 @@ Você precisa de mais tempo para experimentar os recursos do Microsoft 365 para 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos,** selecione a assinatura de avaliação que você deseja estender. 
 3. Na página de detalhes da assinatura, na seção Assinaturas e **configurações de pagamento,** selecione **Estender data de término.**
-4. No painel **Estender data de** término, revise as informações do ramal e, se necessário, selecione uma forma de pagamento. Quando terminar, selecione Estender avaliação.
+4. No painel **Estender data de** término, revise as informações do ramal e, se necessário, selecione uma forma de pagamento. Quando terminar, selecione Estender **avaliação.**
 
 ::: moniker-end
 

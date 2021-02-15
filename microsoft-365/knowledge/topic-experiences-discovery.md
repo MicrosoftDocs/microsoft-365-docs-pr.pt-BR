@@ -42,7 +42,7 @@ Se você quiser incluir ou excluir uma lista específica de sites, poderá usar 
 Site name,URL
 ```
 
-Se você adicionar sites usando o se picker de sites, eles serão adicionados à lista de sites existente para incluir ou excluir. Se você carregar um arquivo .csv, ele substituirá qualquer lista existente. Se você incluiu ou excluiu sites específicos anteriormente, baixe a lista como um arquivo .csv, faça alterações e carregue a nova lista.
+Se você adicionar sites usando o selador de site, eles serão adicionados à lista de sites existente para incluir ou excluir. Se você carregar um arquivo .csv, ele substituirá qualquer lista existente. Se você incluiu ou excluiu sites específicos anteriormente, baixe a lista como um arquivo .csv, faça alterações e carregue a nova lista.
 
 Para escolher sites para descoberta de tópicos
 

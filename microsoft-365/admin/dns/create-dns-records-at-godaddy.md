@@ -239,7 +239,7 @@ Siga as etapas abaixo.
     ![GoDaddy-BP-Configure-5-1](../../media/a1b15ab1-eb6a-4672-90d1-7ac3e0beb223.png)
 
 
-6. Repita **a etapa 5** para criar o outro registro SRV.
+6. Repita **a Etapa 5** para criar o outro registro SRV.
 
 7. Selecione **Salvar**.
 

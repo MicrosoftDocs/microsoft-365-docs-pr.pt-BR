@@ -1,5 +1,5 @@
 ---
-title: Funções de tópicos do Microsoft Viva
+title: Funções de Tópicos do Microsoft Viva
 ms.author: efrene
 author: efrene
 manager: pamgreen
@@ -21,7 +21,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/04/2021
 ms.locfileid: "50107429"
 ---
-# <a name="microsoft-viva-topics-roles"></a>Funções de tópicos do Microsoft Viva 
+# <a name="microsoft-viva-topics-roles"></a>Funções de Tópicos do Microsoft Viva 
 
 Quando você usa Tópicos do Viva em seu ambiente do Microsoft 365, os usuários podem ter as seguintes funções:
 -   Visualizador de tópicos
@@ -35,7 +35,7 @@ Visualizadores de tópicos são usuários em sua organização que podem exibir 
 
 Para que os destaques de tópicos e suas páginas de tópicos sejam visíveis para um visualizador de tópicos, o usuário deve:
 -   [Ter uma licença de Tópicos do Viva atribuída pelo](https://docs.microsoft.com/microsoft-365/knowledge/set-up-topic-experiences#assign-licenses) administrador do Microsoft 365.
--   Ter permissão para ter visibilidade a tópicos. Essa tarefa é feita pelo administrador de conhecimento na página de configurações de Tópicos do Viva no centro de administração do Microsoft 365.
+-   Ter permissão para ter visibilidade aos tópicos. Essa tarefa é feita pelo administrador de conhecimento na página de configurações de Tópicos do Viva no centro de administração do Microsoft 365.
 
 
 ## <a name="topic-contributors"></a>Colaboradores de tópicos

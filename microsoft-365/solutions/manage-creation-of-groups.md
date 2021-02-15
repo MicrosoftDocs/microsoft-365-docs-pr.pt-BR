@@ -81,7 +81,7 @@ Os administradores nas funções listadas acima não precisam ser membros desse 
 
 4. Termine de configurar o grupo, adicionando pessoas ou outros grupos que você deseja que sejam capazes de criar grupos em sua organização.
 
-Para obter instruções detalhadas, confira Criar, editar ou excluir um grupo de segurança no centro de administração do [Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group)
+Para obter instruções detalhadas, confira Criar, editar ou excluir um grupo de [segurança no centro de administração do Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group)
 
 ## <a name="step-2-run-powershell-commands"></a>Etapa 2: Executar comandos do PowerShell
 
@@ -101,7 +101,7 @@ Substitua *\<GroupName\>* pelo nome do grupo que você criou. Por exemplo:
 
 Salve o arquivo como GroupCreators.ps1.
 
-Na janela do PowerShell, navegue até o local onde você salvou o arquivo (digite "CD <FileLocation> ").
+Na janela do PowerShell, navegue até o local onde você salvou o arquivo (digite <FileLocation> "CD").
 
 Execute o script digitando:
 
@@ -149,7 +149,7 @@ Se você quiser desativar a restrição de criação de grupo e novamente permit
 
 ## <a name="step-3-verify-that-it-works"></a>Etapa 3: Verifique se funciona
 
-As alterações podem levar trinta minutos ou mais para surcarem efeito. Você pode verificar as novas configurações fazendo o seguinte:
+As alterações podem levar trinta minutos ou mais para ter efeito. Você pode verificar as novas configurações fazendo o seguinte:
 
 1. Entre no Microsoft 365 com uma conta de usuário de alguém que NÃO deve ter a capacidade de criar grupos. Ou seja, eles não são membros do grupo que você criou ou são administradores.
 
@@ -176,4 +176,4 @@ Tente o mesmo procedimento novamente com um membro do grupo.
 
 [Set-ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)
 
-[Cmdlets do Azure Active Directory para definição de configurações de grupo](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+[Cmdlets Azure Active Directory para definição de configurações de grupo](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)

@@ -221,7 +221,7 @@ Se você tem centenas ou milhares de usuários, use o PowerShell para fazer uma 
 > [!NOTE]
 > Você não pode remover o domínio [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) da sua conta. Quando você remove um domínio, as contas de usuário são revertidas para o endereço ".onmicrosoft.com" como o SMTP principal/UserprincipalName.
   
-Ainda não está funcionando? Seu domínio pode precisar ser removido manualmente. [Ligue para nós](../contact-support-for-business-products.md) e ajudaremos você a cuidar disso!
+Ainda não está funcionando? Seu domínio pode precisar ser removido manualmente. [Ligue para nós](../contact-support-for-business-products.md) e nós ajudaremos você a cuidar disso!
   
 ::: moniker-end
 

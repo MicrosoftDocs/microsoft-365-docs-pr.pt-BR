@@ -40,7 +40,7 @@ Siga estas etapas para obter um código no Microsoft 365 e, em seguida, vá para
 
 ## <a name="transfer-a-domain"></a>Transferir um domínio
 
-1. No centro de administração, vá para   **Domínios**   >  **de Configurações.**
+1. No centro de administração, vá para   **Configurações**   >  **de Domínios.**
 
 2. Na página **Domínios,** selecione o domínio do Microsoft 365 que você deseja transferir para outro registrador de domínios e selecione **Verificar a saúde.**
 

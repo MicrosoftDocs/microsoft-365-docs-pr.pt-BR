@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 02/05/2021
 ms.locfileid: "50122521"
 ---
-# <a name="retirement-of-the-relevance-module-in-advanced-ediscovery"></a>Baixa do módulo Relevância na Descoberta Avançada
+# <a name="retirement-of-the-relevance-module-in-advanced-ediscovery"></a>Baixa do módulo Relevância na Descoberta Avançada do EDISCOVERy
 
 Em 10 de março de 2021, estamos retirando o módulo Relevância na Descoberta Avançada. Essa baixa significa que as organizações não terão mais acesso ao módulo Relevância (gerenciando a relevância do conjunto de revisão em um caso de Descoberta Eletrônico Avançada) ou poderão acessar quaisquer modelos de Relevância  >   existentes. O módulo de Relevância atual que está sendo retirado será substituído por uma nova solução de codificação preditiva no 2º trimestre de 2021. Essa nova funcionalidade permitirá que as organizações criem seus próprios modelos de codificação preditiva em um fluxo de trabalho mais fácil e intuitivo.
 
@@ -28,7 +28,7 @@ Para se preparar para essa futura desaportação, recomendamos que as organizaç
 
 ## <a name="complete-unfinished-models"></a>Concluir modelos não concluídos
 
-Para qualquer modelo de Relevância não concluído, conclua a avaliação, o treinamento e o cálculo em lotes para que você possa aplicar o modelo aos documentos em um conjunto de revisão. A conclusão do cálculo em lotes preservará as informações após a data de conclusão do módulo relevância.
+Para qualquer modelo de Relevância não concluído, conclua a avaliação, o treinamento e o cálculo em lotes para que você possa aplicar o modelo aos documentos em um conjunto de revisão. Concluir o cálculo em lotes preservará as informações após a data de ressalção do módulo relevância.
 
 Aqui estão as etapas para concluir todos os modelos não concluídos:
 
@@ -36,7 +36,7 @@ Aqui estão as etapas para concluir todos os modelos não concluídos:
 
    A captura de tela a seguir mostra um módulo que está pronto para um cálculo em lotes. Observe que a Avaliação e Treinamento está concluída, e a próxima etapa é executar o cálculo em lotes.
 
-   ![Captura de tela do modelo pronto para cálculo em lotes](../media/ReadyForBatchCalculation.png)
+   ![Captura de tela do modelo pronto para cálculo em lote](../media/ReadyForBatchCalculation.png)
 
 2. Execute o cálculo em lotes. Consulte [Executando o cálculo em lotes.](track-relevance-analysis-in-advanced-ediscovery.md#performing-batch-calculation)
 

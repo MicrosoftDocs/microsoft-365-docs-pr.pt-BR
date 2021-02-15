@@ -58,7 +58,7 @@ Adicionar uma forma de pagamento não associa nenhuma assinatura a ela. Para atr
 1. No centro de administração, acesse a página **Cobrança** > **Cobranças e pagamentos** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Formas de pagamento</a>.
 2. Selecione **Adicionar um método de pagamento**.
 3. Na página **Método de pagamento**, escolha um método de pagamento do menu suspenso.
-4. Insira as informações para o novo cartão ou conta bancária e selecione **Adicionar**.
+4. Insira as informações para o novo cartão ou conta bancária e, em seguida, selecione **Adicionar**.
 
 ## <a name="update-payment-method-details"></a>Atualizar detalhes de método de pagamento
 
@@ -70,7 +70,7 @@ Você pode alterar o nome no cartão de crédito ou débito, no endereço de cob
 
 ## <a name="replace-a-payment-method"></a>Substituir um método de pagamento
 
-Quando você substitui um método de pagamento, ele é substituído por todas as assinaturas e perfis de cobrança que usam a mesma forma de pagamento. Substituir um método de pagamento não exclui a forma de pagamento existente. Ele ainda está disponível para você selecionar e usar para outras assinaturas e perfis de cobrança.
+Ao substituir um método de pagamento, você o substitui para todas as assinaturas e perfis de cobrança que usam a mesma forma de pagamento. Substituir um método de pagamento não exclui a forma de pagamento existente. Ele ainda está disponível para você selecionar e usar para outras assinaturas e perfis de cobrança.
 
 Para alterar a forma de pagamento de uma única assinatura, consulte [Alterar um método de pagamento para uma única assinatura.](#change-a-payment-method-for-a-single-subscription)
 
@@ -127,8 +127,8 @@ Se um método de pagamento for anexado a assinaturas ou perfis de cobrança, sub
 | Problema | Etapas para a solução de problemas |
 |:----------|:-----|
 |**Uma mensagem de erro diz: "O navegador está atualmente definido para bloquear cookies".** |Configure seu navegador para permitir cookies de terceiros e tente novamente. |
-|**Meu cartão de crédito ou débito foi recusado.** |Se você pagar por cartão de crédito ou débito e seu cartão for recusado, você receberá um email informando que a Microsoft não pôde processar o pagamento. Verifique se o número do cartão de detalhes do cartão, a data de expiração, o nome no cartão e o endereço, incluindo cidade, estado e CEP aparecem exatamente como aparecem no cartão e no &mdash; &mdash; seu extrato. Você pode atualizar suas informações de cartão e enviar imediatamente o pagamento usando o **link** Liquidar saldo na seção **Cobrança** da página de detalhes da assinatura. Para obter mais informações, [consulte E se eu tiver um saldo pendente?](pay-for-your-subscription.md#what-if-i-have-an-outstanding-balance)  <br/><br/>  Se você continuar a ver a mensagem "recusada", entre em contato com o seu banco. É possível que seu cartão não está ativo. Se você recebeu recentemente o cartão no email com uma data de expiração atualizada, certifique-se de que ele está ativado. Seu banco também pode dizer se seu cartão não é aprovado para transações online, internacionais ou recorrentes. |
-|**Quero atualizar um número de cartão ou conta bancária.** |Não é possível alterar o número do cartão ou da conta em uma forma de pagamento existente. Se o número do cartão ou da conta tiver sido alterado, substitua-o por um método de pagamento diferente, que move todas as assinaturas ativas do método de pagamento para o novo e exclua [o](#replace-a-payment-method)método de [pagamento antigo.](#delete-a-payment-method-with-no-subscriptions-or-billing-profiles-attached) |
+|**Meu cartão de crédito ou débito foi recusado.** |Se você pagar por cartão de crédito ou débito e seu cartão for recusado, você receberá um email informando que a Microsoft não pôde processar o pagamento. Verifique se o número do cartão de detalhes do cartão, a data de expiração, o nome no cartão e o endereço, incluindo cidade, estado e CEP aparecem exatamente como aparecem no cartão e no &mdash; &mdash; seu extrato. Você pode atualizar suas informações de cartão e enviar imediatamente o pagamento usando o **link** Liquidar saldo na seção **Cobrança** da página de detalhes da assinatura. Para obter mais informações, confira [E se eu tiver um saldo pendente?](pay-for-your-subscription.md#what-if-i-have-an-outstanding-balance)  <br/><br/>  Se você continuar a ver a mensagem "recusada", entre em contato com o seu banco. É possível que seu cartão não está ativo. Se você recebeu recentemente o cartão no email com uma data de expiração atualizada, certifique-se de que ele está ativado. Seu banco também pode dizer se seu cartão não é aprovado para transações online, internacionais ou recorrentes. |
+|**Quero atualizar um número de cartão ou conta bancária.** |Não é possível alterar o número do cartão ou da conta em uma forma de pagamento existente. Se o número do cartão ou da conta tiver sido alterado, substitua-o por um método de pagamento diferente, que mova todas as assinaturas ativas do método de pagamento para o novo e exclua [o](#replace-a-payment-method)método de [pagamento antigo.](#delete-a-payment-method-with-no-subscriptions-or-billing-profiles-attached) |
 |**Só tenho um cartão ou uma conta bancária na minha conta e quero removê-lo.** |Se você tiver apenas um método de pagamento, deverá [substituí-lo](#replace-a-payment-method) por um novo método de pagamento antes de excluí-lo. |
 |**Não consigo adicionar meu cartão ou conta bancária.**  |Você deve usar um método de pagamento emitido do mesmo país do seu locatário. Se você tiver problemas para inserir suas informações de cartão ou conta bancária, entre em contato [com o suporte.](../../admin/contact-support-for-business-products.md) |
 

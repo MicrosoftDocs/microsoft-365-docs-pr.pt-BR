@@ -41,5 +41,5 @@ Ao comprar uma assinatura, você escolhe a cobrança mensal ou anual. Para alter
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">de seus</a> produtos.
 2. Na guia **Produtos**, encontre a assinatura que quer alterar.
-3. Na página de detalhes da assinatura, na seção Configurações de **assinatura e pagamento,** selecione **Editar frequência de cobrança.**
+3. Na página de detalhes da assinatura, na seção Configurações de **pagamento e assinatura,** selecione **Editar frequência de cobrança.**
 4. In the **Edit billing frequency** pane, choose the option for how often you want to be billed, then select **Change**.

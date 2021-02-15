@@ -101,7 +101,7 @@ Solicite a transferência ao registrador para onde você deseja mover seu domín
 
 Se você ainda não tem seu próprio domínio, é possível comprar um online facilmente em um registrador, um revendedor de domínios ou, até mesmo, com seu provedor de Internet atual. Você obtém um nome de domínio quando se inscreve no Office 365 operado pela 21Vianet, por exemplo, contoso.partner.onmschina.cn, mas talvez você queira usar um nome de domínio personalizado, como fourthcoffee.com.
   
-Para configurar um domínio no Microsoft 365, você deve ter um domínio e alterar alguns dos registros DNS do seu domínio.
+Para configurar um domínio no Microsoft 365, você deve possuir um domínio e alterar alguns dos registros DNS do seu domínio.
   
 > [!CAUTION]
 > Alguns registradores de domínio ou provedores de hospedagem DNS não permitem a criação de todos os registros DNS exigidos pelo Microsoft 365. Os registradores listados aqui oferecem suporte a todos os registros necessários. Se você está pensando em usar outro provedor de hospedagem, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 

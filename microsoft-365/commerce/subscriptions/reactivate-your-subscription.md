@@ -70,7 +70,7 @@ Você deve ser um administrador global ou de cobrança para reativar uma assinat
 
 3. Insira seus detalhes de pagamento. Você pode atualizar suas informações de pagamento existentes aqui.
 
-   Se sua assinatura tiver expirado, depois que você enviar os detalhes de  pagamento, ela retornará a um estado ativo e a próxima data de cobrança se estenderá por um mês ou um ano, dependendo do seu compromisso de assinatura atual. Se você pagar com cartão de crédito ou conta bancária, seu cartão de crédito ou conta será cobrado pelo ramal. Se pagar por fatura, você verá a extensão refletida em sua próxima fatura. Para garantir que sua assinatura não expire novamente, [a adição de cobrança recorrente.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
+   Se a sua assinatura tiver expirado, depois que você enviar os detalhes  de pagamento, ela retornará a um estado ativo e a próxima data de cobrança se estenderá por um mês ou um ano, dependendo do seu compromisso de assinatura atual. Se você pagar com cartão de crédito ou conta bancária, seu cartão de crédito ou conta será cobrado pelo ramal. Se pagar por fatura, você verá a extensão refletida em sua próxima fatura. Para garantir que sua assinatura não expire novamente, [a adição de cobrança recorrente.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
 
    > [!NOTE]
    > A capacidade de pagar por conta bancária não está disponível em alguns países ou regiões.
@@ -91,7 +91,7 @@ Você deve ser um administrador global ou de cobrança para reativar uma assinat
 
 3. Insira seus detalhes de pagamento. Você pode atualizar suas informações de pagamento existentes aqui.
 
-   Se sua assinatura tiver expirado, depois que você enviar os detalhes de  pagamento, ela retornará a um estado ativo e a próxima data de cobrança se estenderá por um mês ou um ano, dependendo do seu compromisso de assinatura atual. Se você pagar com cartão de crédito ou conta bancária, seu cartão de crédito ou conta será cobrado pelo ramal. Se pagar por fatura, você verá a extensão refletida em sua próxima fatura. Para garantir que sua assinatura não expire novamente, [a adição de cobrança recorrente.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
+   Se a sua assinatura tiver expirado, depois que você enviar os detalhes  de pagamento, ela retornará a um estado ativo e a próxima data de cobrança se estenderá por um mês ou um ano, dependendo do seu compromisso de assinatura atual. Se você pagar com cartão de crédito ou conta bancária, seu cartão de crédito ou conta será cobrado pelo ramal. Se pagar por fatura, você verá a extensão refletida em sua próxima fatura. Para garantir que sua assinatura não expire novamente, [a adição de cobrança recorrente.](renew-your-subscription.md#turn-recurring-billing-off-or-on)
 
    > [!NOTE]
    > A capacidade de pagar por conta bancária não está disponível em alguns países ou regiões.

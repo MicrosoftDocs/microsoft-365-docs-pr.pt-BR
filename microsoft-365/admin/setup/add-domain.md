@@ -79,12 +79,12 @@ ms.locfileid: "50114246"
 
 3. Selecione **Adicionar domínio.**
     
-4. Insira o nome do domínio que você deseja adicionar e selecione **Next**.
+4. Insira o nome do domínio que você deseja adicionar e selecione **Próximo.**
     
 5. Escolha como deseja verificar se você é o próprio domínio.
     
     1. Se o registrador de domínios usar [o Domain Connect,](#domain-connect-registrars-integrating-with-microsoft-365)a [Microsoft](../get-help-with-domains/domain-connect.md) configurará seus registros automaticamente fazendo com que você entre no seu registrador e confirme a conexão com o Microsoft 365. You'll be returned to the admin center and Microsoft will then automatically verify your domain.
-    2. Use um registro TXT para verificar seu domínio. Selecione isso e selecione **Next** para ver instruções sobre como adicionar esse registro DNS ao site do registrador. Isso pode levar até 30 minutos para verificar depois que você adicionou o registro. 
+    2. Use um registro TXT para verificar seu domínio. Selecione isso e selecione **Próximo** para ver instruções sobre como adicionar esse registro DNS ao site do registrador. Isso pode levar até 30 minutos para verificar depois que você adicionou o registro. 
     3. Você pode adicionar um arquivo de texto ao site do seu domínio. Selecione e baixe o arquivo .txt do assistente de configuração e carregue o arquivo na pasta de nível superior do seu site. O caminho para o arquivo deve ser semelhante a: `http://mydomain.com/ms39978200.txt` . Confirmaremos se você é o próprio domínio encontrando o arquivo em seu site.
     
 6. Escolha como você deseja fazer as alterações de DNS necessárias para que a Microsoft use seu domínio.
@@ -129,7 +129,7 @@ No assistente, vamos apenas confirmar se você é o próprio domínio e configur
 > [!NOTE]
 > Desative os bloqueadores de pop-up em seu navegador antes de iniciar o assistente de configuração.
   
-### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Registradores do Domain Connect integrando-se ao Microsoft 365
+### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Registradores do Domain Connect que se integram ao Microsoft 365
 
 - [1 &amp; 1 IONOS](https://www.1and1.com/)
 - [EuroDNS](https://www.eurodns.com/)

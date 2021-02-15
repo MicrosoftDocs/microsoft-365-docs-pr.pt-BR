@@ -49,7 +49,7 @@ Da mesma forma, os usuários que criaram e editaram permissões de tópico, cola
 
 ## <a name="ai-versus-manually-curated-topic-information"></a>Ia versus informações de tópicos manualmente abordados
 
-Os tópicos podem conter informações geradas por IA e informações adicionadas ou editadas por colaboradores de tópicos ou gerentes de conhecimento.
+Os tópicos podem conter informações geradas pela IA e informações adicionadas ou editadas por colaboradores de tópicos ou gerentes de conhecimento.
 
  - As informações em um tópico que foi adicionado pela ia só são visíveis para as pessoas que têm acesso ao conteúdo de origem.
  - As informações que foram adicionadas ou editadas manualmente por um colaborador de tópico ou gerente de conhecimento estão visíveis para todos que podem ver o tópico.
@@ -63,7 +63,7 @@ A tabela a seguir descreve o que os usuários ( visualizadores de tópicos, cola
 |Pessoas|As pessoas fixadas ficam visíveis para todos os usuários. As pessoas sugeridas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Arquivos|Os arquivos só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Páginas|As páginas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
-|Sites|Os sites só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
+|Sites|Os sites ficam visíveis apenas para os usuários que têm permissões para o conteúdo de origem.|
 
 
 

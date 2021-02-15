@@ -48,7 +48,7 @@ Se você começar a ficar sem armazenamento para seus conjuntos de sites do Shar
 
 Você deve ser um administrador global ou do SharePoint para realizar as tarefas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
-## <a name="view-available-storage"></a>Exibir armazenamento disponível
+## <a name="view-available-storage"></a>Exibir o armazenamento disponível
 
 ::: moniker range="o365-worldwide"
 

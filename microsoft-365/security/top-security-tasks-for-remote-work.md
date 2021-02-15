@@ -1,5 +1,5 @@
 ---
-title: 12 principais tarefas para as equipes de segurança suportarem o trabalho em casa
+title: 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa
 f1.keywords:
 - CSH
 ms.author: bcarter
@@ -24,7 +24,7 @@ ms.locfileid: "50097265"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa
 
-Se você for como a [Microsoft](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/) e, de repente, tiver suporte para uma força de trabalho baseada principalmente em residência, queremos ajudar você a garantir que sua organização está funcionando com a maior segurança possível. Este artigo prioriza tarefas para ajudar as equipes de segurança a implementar os recursos de segurança mais importantes o mais rápido possível.
+Se você for como a [Microsoft](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/) e, de repente, tiver suporte para uma força de trabalho baseada principalmente em residência, queremos ajudá-lo a garantir que sua organização está funcionando com a maior segurança possível. Este artigo prioriza tarefas para ajudar as equipes de segurança a implementar os recursos de segurança mais importantes o mais rápido possível.
 
 ![Execute estas principais tarefas para dar suporte ao trabalho em casa.](../media/security/security-support-remote-work.png)
 
@@ -56,7 +56,7 @@ Para clientes que usam nossos planos corporativos, a Microsoft recomenda que voc
 |12 |[Monitorar ameaças e tomar medidas](#12-monitor-for-threats-and-take-action)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
 
-Antes de começar, verifique a Classificação de Segurança [do Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) no centro de segurança do Microsoft 365. Em um painel centralizado, você pode monitorar e melhorar a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365. Você recebe pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou lidar com recomendações com um aplicativo ou software de terceiros. As tarefas recomendadas neste artigo aumentarão sua pontuação.
+Antes de começar, verifique a [Classificação de Segurança do Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) no centro de segurança do Microsoft 365. Em um painel centralizado, você pode monitorar e melhorar a segurança de suas identidades, dados, aplicativos, dispositivos e infraestrutura do Microsoft 365. Você recebe pontos para configurar os recursos de segurança recomendados, executar tarefas relacionadas à segurança (como exibir relatórios) ou lidar com recomendações com um aplicativo ou software de terceiros. As tarefas recomendadas neste artigo aumentarão sua pontuação.
 
 ![Captura de tela do Microsoft Secure Score](../media/secure-score.png)
 
@@ -86,7 +86,7 @@ Todos os planos do Microsoft 365 incluem uma variedade de recursos de proteção
 - Proteção anti-phishing
 - Proteção antispam
 
-Confira [Proteção contra ameaças no Office 365 para](office-365-security/protect-against-threats.md) obter orientações que você pode usar como ponto de partida.
+Confira [Proteção contra ameaças no Office 365](office-365-security/protect-against-threats.md) para obter orientações que você pode usar como ponto de partida.
 
 ## <a name="3-configure-microsoft-defender-for-office-365"></a>3: Configurar o Microsoft Defender para Office 365
 
@@ -124,7 +124,7 @@ Agora que você tem o Microsoft Defender para Office 365 e o Microsoft Defender 
 
 ![Ilustração do painel MTP](../media/top-ten-security-remote-work-mtp-dashboard.png)
 
-Depois de configurar um ou mais dos serviços do Defender para Office 365, a ligue o MTP. Novos recursos são adicionados continuamente ao MTP; considere optar por receber recursos de visualização.
+Depois de configurar um ou mais de seus serviços do Defender para Office 365, a ligue o MTP. Novos recursos são adicionados continuamente ao MTP; considere optar por receber recursos de visualização.
 
 - [Saiba mais sobre MTP](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
 - [Ativar MTP](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable)
@@ -139,16 +139,16 @@ O Microsoft Intune Mobile Application Management (MAM) permite que você gerenci
 
 As políticas de proteção de APLICATIVO incluem muitas configurações. Felizmente, você não precisa saber mais sobre cada configuração e avaliar as opções. A Microsoft facilita a aplicação de uma configuração de configurações recomendando pontos de partida. A [estrutura de proteção de dados usando](https://docs.microsoft.com/mem/intune/apps/app-protection-framework) políticas de proteção de aplicativo inclui três níveis que você pode escolher.
 
-Melhor ainda, a Microsoft coordena essa estrutura de proteção de aplicativo com um conjunto de acesso condicional e políticas relacionadas, recomendamos que todas as organizações usem como ponto de partida. Se você implementou a MFA usando as orientações deste artigo, você está no meio caminho!
+Melhor ainda, a Microsoft coordena essa estrutura de proteção de aplicativo com um conjunto de acesso condicional e políticas relacionadas, recomendamos que todas as organizações usem como ponto de partida. Se você implementou a MFA usando as orientações deste artigo, você está na metade do caminho!
 
 Para configurar a proteção de aplicativo móvel, use as diretrizes nas políticas comuns de [identidade e acesso a dispositivos:](./office-365-security/identity-access-policies.md)
 
  1. Use as [diretrizes aplicar políticas de proteção](./office-365-security/identity-access-policies.md#apply-app-data-protection-policies) de dados do APP para criar políticas para iOS e Android. O Nível 2 (proteção de dados aprimorada) é recomendado para proteção de linha de base.
- 2. Crie uma regra de acesso condicional para [exigir aplicativos aprovados e proteção de APP.](./office-365-security/identity-access-policies.md#require-approved-apps-and-app-protection)
+ 2. Crie uma regra de acesso condicional para [exigir aplicativos aprovados e proteção de APLICATIVO.](./office-365-security/identity-access-policies.md#require-approved-apps-and-app-protection)
 
 ## <a name="7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection"></a>7: Configurar a MFA e o acesso condicional para convidados, incluindo a proteção de aplicativo móvel do Intune
 
-Em seguida, vamos garantir que você possa continuar colaborando e trabalhando com convidados. Se você estiver usando o plano microsoft 365 E3 e implementou a MFA para todos os usuários, você está pronto.
+Em seguida, vamos garantir que você possa continuar colaborando e trabalhando com convidados. Se você estiver usando o plano Microsoft 365 E3 e implementou a MFA para todos os usuários, você está pronto.
 
 Se você estiver usando o plano do Microsoft 365 E5 e estiver aproveitando o Azure Identity Protection para MFA baseada em risco, precisará fazer alguns ajustes (porque o Azure AD Identity Protection não se estende aos convidados):
 
@@ -157,7 +157,7 @@ Se você estiver usando o plano do Microsoft 365 E5 e estiver aproveitando o Azu
 
 Use as diretrizes de Atualização das políticas comuns para permitir e proteger o acesso de convidados e externos para entender como o acesso de convidados funciona com o Azure AD e atualizar as políticas afetadas. [](./office-365-security/identity-access-policies-guest-access.md)
 
-As políticas de proteção de aplicativo móvel do Intune que você criou, juntamente com a regra de acesso condicional para exigir aplicativos aprovados e proteção de APLICATIVO, se aplicam a contas de convidados e ajudarão a proteger os dados da sua organização.
+As políticas de proteção de aplicativo móvel do Intune que você criou, juntamente com a regra de acesso condicional para exigir aplicativos e proteção de APLICATIVO aprovados, se aplicam a contas de convidados e ajudarão a proteger os dados da sua organização.
 
 > [!NOTE]
 > Se você já registrou PCs no gerenciamento de dispositivos para exigir PCs compatíveis, também precisará excluir contas de convidado da regra de acesso condicional que impõe a conformidade do dispositivo.
@@ -196,11 +196,11 @@ Consulte estes recursos no Docs para obter mais informações:
 Artigos recentes do blog sobre este tópico:
 
 - [Como otimizar rapidamente o tráfego para funcionários & reduzir a carga em sua infraestrutura](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571#)
-- [Maneiras alternativas para profissionais de segurança e TI alcançarem controles de segurança modernos nos cenários atuais de trabalho remoto](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+- [Maneiras alternativas para profissionais de segurança e TI alcançarem controles de segurança modernos nos cenários de trabalho remoto exclusivos de hoje](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
 ## <a name="10-train-users"></a>10: Treinar usuários
 
-Os usuários de treinamento podem economizar muito tempo e frustração na equipe de operações de segurança e usuários. Os usuários experientes têm menos probabilidade de abrir anexos ou clicar em links em mensagens de email questionáveis, e é mais provável que eles evitem sites suspeitos.
+Os usuários de treinamento podem economizar muito tempo e frustração com a equipe de operações de segurança e usuários. Os usuários experientes têm menos probabilidade de abrir anexos ou clicar em links em mensagens de email questionáveis, e é mais provável que eles evitem sites suspeitos.
 
 O Manual da Campanha de [Segurança](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) Cibernética da Escola Demão fornece excelentes orientações sobre como estabelecer uma cultura forte de reconhecimento de segurança em sua organização, incluindo treinamento dos usuários para identificar ataques de phishing.
 
@@ -212,7 +212,7 @@ O Microsoft 365 fornece os seguintes recursos para ajudar a informar os usuário
 |---|---|
 |Microsoft 365|[Caminhos de aprendizagem personalizáveis](https://docs.microsoft.com/office365/customlearning/) <p>Esses recursos podem ajudá-lo a reunir treinamento para usuários finais em sua organização|
 |Segurança do Microsoft 365|[Módulo de aprendizagem: proteja sua organização com segurança interna e inteligente do Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>Este módulo permite descrever como os recursos de segurança do Microsoft 365 funcionam juntos e articular os benefícios desses recursos de segurança.|
-|Autenticação multifator|[Verificação em duas etapas: Qual é a página de verificação adicional?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Este artigo ajuda os usuários finais a entender o que é a autenticação multifafa e por que ela está sendo usada em sua organização.|
+|Multi-factor Authentication|[Verificação em duas etapas: Qual é a página de verificação adicional?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Este artigo ajuda os usuários finais a entender o que é a autenticação multifatare e por que ela está sendo usada em sua organização.|
 |
 
 Além dessas diretrizes, a Microsoft recomenda que os usuários tomem as ações descritas neste artigo: proteger sua conta e dispositivos [contra hackers e malware.](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx) Essas ações incluem:
@@ -231,7 +231,7 @@ A Microsoft também recomenda que os usuários protejam suas contas de email pes
 
 [O Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security) fornece visibilidade avançada, controle sobre viagens de dados e análises sofisticadas para identificar e combater ameaças cibernéticas em todos os seus serviços de nuvem. Depois de começar a trabalhar com o Cloud App Security, as políticas de detecção de anomalias são habilitadas automaticamente, mas o Cloud App Security tem um período de aprendizagem inicial de sete dias durante o qual nem todos os alertas de detecção de anomalias são gerados.
 
-Começar a trabalhar com o Cloud App Security agora. Posteriormente, você pode configurar controles e monitoramento mais sofisticados.
+Começar a trabalhar com o Cloud App Security agora. Posteriormente, você poderá configurar controles e monitoramento mais sofisticados.
 
 - [Guia de início rápido: começar a trabalhar com o Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
 - [Obter análise comportamental instantânea e detecção de anomalias](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy)
@@ -241,7 +241,7 @@ Começar a trabalhar com o Cloud App Security agora. Posteriormente, você pode 
 
 ## <a name="12-monitor-for-threats-and-take-action"></a>12: Monitorar ameaças e tomar medidas
 
-O Microsoft 365 inclui várias maneiras de monitorar o status e tomar as medidas apropriadas. Seu melhor ponto de partida é a central de segurança do Microsoft 365 ( ), onde você pode exibir o Microsoft Secure Score da sua organização e quaisquer alertas ou entidades que exigem [https://security.microsoft.com](https://security.microsoft.com) sua atenção. [](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)
+O Microsoft 365 inclui várias maneiras de monitorar o status e tomar as medidas apropriadas. Seu melhor ponto de partida é o centro de segurança do Microsoft 365 ( ), onde você pode exibir o Microsoft Secure Score da sua organização e quaisquer alertas ou entidades que exigem [https://security.microsoft.com](https://security.microsoft.com) sua atenção. [](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score)
 
 - [Começar a trabalhar com a central de segurança do Microsoft 365](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
 - [Monitorar e exibir relatórios](https://docs.microsoft.com/microsoft-365/security/mtp/monitoring-and-reporting)

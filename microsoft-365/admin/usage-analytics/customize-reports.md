@@ -68,7 +68,7 @@ Este exemplo mostra como modificar a guia **Ativação** no relatório **de Ativ
 
 O exemplo a seguir mostra como criar um novo visual para rastrear novos usuários do Yammer mensalmente.
   
-1. Vá para o relatório **de Uso** do Produto usando a navegação à esquerda e selecione a **guia Yammer.**
+1. Vá para o relatório **uso do** produto usando a navegação à esquerda e selecione a guia **do Yammer.**
     
 2. Alternar para o modo de edição escolhendo ![ o botão Mais página no Power BI e ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) **Editar.** 
     

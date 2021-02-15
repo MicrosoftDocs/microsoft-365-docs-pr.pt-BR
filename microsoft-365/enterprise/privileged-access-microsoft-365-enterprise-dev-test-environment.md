@@ -14,7 +14,7 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 ms.custom: Ent_TLGs
-description: Use este Guia do Laboratório de Teste para habilitar o gerenciamento de acesso privilegiado no ambiente de teste do Microsoft 365 para empresas.
+description: Use este Guia de Laboratório de Teste para habilitar o gerenciamento de acesso privilegiado no ambiente de teste do Microsoft 365 para empresas.
 ms.openlocfilehash: e9684ebd2aa147049dadfbda9408257ff801aff0
 ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
@@ -160,7 +160,7 @@ Primeiro, conecte-se ao PowerShell de Gerenciamento do Exchange com as credencia
 
 ### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>Testar a criação de uma nova Regra de Diário com acesso privilegiado aprovado para a New-JournalRule tarefa
 
-1. No computador local, abra e entre no Módulo do PowerShell Remoto do Exchange Online na Microsoft **Corporation** Módulo powershell remoto do Microsoft Exchange Online usando a conta de Administrador Global para seu ambiente  >   de teste.
+1. No computador local, abra e entre no Módulo do PowerShell Remoto do Exchange Online na Microsoft **Corporation** Módulo do PowerShell Remoto do Microsoft Exchange Online usando a conta de Administrador Global para seu ambiente  >   de teste.
 
 1. No PowerShell de Gerenciamento do Exchange, crie uma nova regra de Diário para sua organização:
 

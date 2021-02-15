@@ -52,7 +52,7 @@ Um complemento pode estar no estado **On** ou **Off.**
 |**Desativado**  <br/> |O administrador desativou o suplemento.  <br/> |Os usuários e grupos atribuídos ao complemento não têm mais acesso a ele.  <br/> Se o estado do complemento for alterado para Ativo, os usuários e grupos terão acesso a ele novamente.  <br/> |
 |**Excluído**  <br/> |O administrador excluiu o suplemento.  <br/> |Os usuários e grupos atribuídos ao complemento não têm mais acesso a ele.  <br/> |
    
-Considere a exclusão de um complemento se ninguém mais o estiver usando. Por exemplo, a opção de desligar um complemento pode fazer sentido se um complemento for usado somente durante períodos específicos do ano.
+Considere a exclusão de um complemento se ninguém mais o estiver usando. Por exemplo, desligar um complemento pode fazer sentido se um complemento for usado somente durante períodos específicos do ano.
 
 ## <a name="delete-an-add-in"></a>Excluir um complemento
 
@@ -76,7 +76,7 @@ Após a implantação, os administradores também podem gerenciar o acesso do us
 1. No centro de administração, vá para a página **Serviços**&  >  **configurações.**
 
      > [!NOTE]
-    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para **Configurações**  >  **Integradas aplicativos**. Na parte superior da página **Aplicativos integrados,** escolha **Os Complementos.**
+    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para **Configurações**  >  **Integradas de aplicativos.** Na parte superior da página **Aplicativos integrados,** escolha **Os Complementos.**
 
 2. Selecione o complemento implantado.
 
@@ -96,7 +96,7 @@ Como organização, você pode querer impedir o download de novos complementos d
 1. No centro de administração, vá para a página **Configurações** \> [Serviços&amp; suplementos](https://go.microsoft.com/fwlink/p/?linkid=2053743).
 
      > [!NOTE]
-    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para **Configurações**  >  **Integradas aplicativos**. Na parte superior da página **Aplicativos integrados,** escolha **Os Complementos.**
+    > O centro de administração está sendo atualizado para a experiência de implantação com aplicativos integrados. Se você não vir as etapas acima, vá para a seção Implantação Centralizada indo para **Configurações**  >  **Integradas de aplicativos.** Na parte superior da página **Aplicativos integrados,** escolha **Os Complementos.**
     
 3. Selecione **aplicativos e serviços de propriedade do usuário.**
     
@@ -104,7 +104,7 @@ Como organização, você pode querer impedir o download de novos complementos d
 
 Isso impedirá que todos os usuários adquirem os seguintes complementos da loja.
   
-- Add-ins for Word, Excel, and PowerPoint 2016 from:
+- Os complementos para Word, Excel e PowerPoint 2016 são:
     
   - Windows
     
@@ -150,9 +150,9 @@ Se o complemento implantado não dá suporte a comandos de add-in ou se você qu
 
 1. Selecione **Inserir \> Meus Complementos.** 
     
-2. Selecione a **guia Administração** Gerenciada na janela Desem 
+2. Selecione a **guia Administração Gerenciada** na janela Desem 
     
-3. Clique duas vezes no complemento implantado anteriormente (neste exemplo, **Citações** ). <br/>![Guia Administração Gerenciada da página Desem que o Office Add-ins](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
+3. Clique duas vezes no complemento implantado anteriormente (neste exemplo, **Citações** ). <br/>![Guia Gerenciada pelo Administrador da página Desem que o Office Add-ins](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
   
 ### <a name="in-outlook"></a>No Outlook
 

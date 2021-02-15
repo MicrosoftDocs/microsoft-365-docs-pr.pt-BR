@@ -31,7 +31,7 @@ Os tópicos do Viva usam a tecnologia Microsoft AI, Microsoft 365, Microsoft Gra
 
 </br>
 
-Os Tópicos do Viva ajudam a resolver um problema comercial importante em muitas empresas, fornecendo as informações aos usuários quando necessário. Por exemplo, novos funcionários precisam aprender rapidamente muitas informações novas e encontrar termos sobre os quais não conhecem ao ler as informações da empresa. Para saber mais, o usuário pode precisar se afastar do que está fazendo e gastar muito tempo procurando detalhes, como informações sobre o termo, quem na organização é um especialista no assunto e talvez sites e documentos relacionados ao termo.
+Os Tópicos do Viva ajudam a resolver um problema comercial importante em muitas empresas, fornecendo as informações aos usuários quando necessário. Por exemplo, novos funcionários precisam aprender rapidamente muitas informações novas e encontrar termos sobre os quais não conhecem ao ler informações da empresa. Para saber mais, o usuário pode precisar se afastar do que está fazendo e gastar muito tempo procurando detalhes, como informações sobre o termo, quem na organização é um especialista no assunto e talvez sites e documentos relacionados ao termo.
 
 Os Tópicos do Viva usam a IA para procurar e identificar **automaticamente tópicos** em sua organização. Ele compila informações sobre eles, como uma breve descrição, pessoas que trabalham no tópico e sites, arquivos e páginas relacionadas a ele. Um gerente de conhecimento ou colaborador pode optar por atualizar as informações do tópico conforme necessário. Os tópicos estão disponíveis para seus usuários, o que significa que, para cada instância do tópico que aparece em um site moderno do SharePoint em notícias e páginas, o texto será realçado. Os usuários podem optar por selecionar o tópico para saber mais sobre ele por meio dos detalhes do tópico. Os tópicos também podem ser encontrados na Pesquisa do SharePoint.
 
@@ -76,7 +76,7 @@ Quando você usa Tópicos do Viva em seu ambiente do Microsoft 365, os usuários
 
 - Colaboradores: usuários que têm direitos para editar tópicos existentes ou criar novos. Os administradores de conhecimento atribuem permissões de colaborador aos usuários por meio das configurações de Tópicos do Viva no centro de administração do Microsoft 365. Observe que você também pode optar por dar a todos os visualizadores de tópicos a permissão para editar e criar tópicos para que todos possam contribuir com os tópicos que eles veem.
 
-- Gerentes de conhecimento: usuários que orientam tópicos no ciclo de vida do tópico. Gerentes de conhecimento usam a página Gerenciar **Tópicos** na Central de Tópicos para confirmar tópicos sugeridos por IA, remover tópicos que não são mais relevantes, bem como editar tópicos existentes ou criar novos e são os únicos usuários que têm acesso a ele. Os administradores de conhecimento atribuem permissões de gerente de conhecimento aos usuários por meio das configurações de administrador do Viva Topics no Centro de administração do Microsoft 365. 
+- Gerentes de conhecimento: usuários que orientam tópicos no ciclo de vida do tópico. Gerentes de conhecimento usam a página Gerenciar **Tópicos** na Central de Tópicos para confirmar tópicos sugeridos por IA, remover tópicos que não são mais relevantes, bem como editar tópicos existentes ou criar novos e são os únicos usuários que têm acesso a ele. Os administradores de conhecimento atribuem permissões de gerente de conhecimento aos usuários por meio das configurações de administração de Tópicos do Viva no Centro de administração do Microsoft 365. 
 
 - Administradores de conhecimento: administradores de conhecimento configuram tópicos do Viva e os gerenciam por meio dos controles de administrador no centro de administração do Microsoft 365. Atualmente, um administrador global do Microsoft 365 ou do SharePoint pode servir como administrador de conhecimento.
 
@@ -84,7 +84,7 @@ Confira [as funções de Tópicos do Viva](topic-experiences-roles.md) para obte
 
 ## <a name="topic-management"></a>Gerenciamento de tópicos
 
-O gerenciamento de tópicos é feito **na página Gerenciar tópicos** no Centro de **Tópicos da sua organização.** A Central de Tópicos é criada durante a instalação e serve como centro de conhecimento para sua organização. 
+O gerenciamento de tópicos é feito na **página Gerenciar tópicos** no Centro de **Tópicos da sua organização.** A Central de Tópicos é criada durante a instalação e serve como centro de conhecimento para sua organização. 
 
 Embora todos os usuários licenciados possam ver tópicos aos que estão conectados na Central de *Tópicos,* somente os usuários com permissões Gerenciar tópicos (gerentes de conhecimento) podem exibir e usar a página Gerenciar tópicos.
 
@@ -108,7 +108,7 @@ Os controles de administrador no Centro de administração do Microsoft 365 perm
 - Controlar quais usuários podem criar e editar tópicos.
 - Controlar qual usuário pode exibir tópicos.
 
-Consulte [atribuir permissões de usuário,](https://docs.microsoft.com/microsoft-365/knowledge/plan-topic-experiences#user-permissions)gerenciar [visibilidade do](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-knowledge-rules)tópico e gerenciar a descoberta de [tópicos](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery) para obter mais informações sobre controles de administrador.
+Consulte [atribuir permissões de usuário,](https://docs.microsoft.com/microsoft-365/knowledge/plan-topic-experiences#user-permissions)gerenciar [visibilidade do tópico](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-knowledge-rules)e gerenciar a descoberta de [tópicos](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery) para obter mais informações sobre controles de administrador.
 
 ## <a name="topic-curation--feedback"></a>Comentários sobre a & tópico
 
@@ -120,7 +120,7 @@ Os usuários que você permite o acesso para ver tópicos em seu trabalho diári
 
 Além disso, os usuários com permissões adequadas podem marcar itens como conversas do Yammer que são relevantes para um tópico e adicioná-los a um tópico específico. 
 
-Consulte [a descoberta e a cura de tópicos](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery-curation)
+Consulte [Descoberta e cura de tópicos](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery-curation)
 
 
 ## <a name="see-also"></a>Confira também

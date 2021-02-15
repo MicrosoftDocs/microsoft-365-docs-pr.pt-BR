@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
-description: Saiba como começar a coletar dados para seu locatário usando o aplicativo de modelo análise de uso do Microsoft 365 no Power BI.
+description: Saiba como começar a coletar dados para seu locatário usando o aplicativo de modelo de Análise de Uso do Microsoft 365 no Power BI.
 ms.openlocfilehash: 98ae107b6777ac97d0be3b37847117c6e20be63d
 ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
 ms.translationtype: MT

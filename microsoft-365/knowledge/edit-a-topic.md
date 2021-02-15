@@ -44,7 +44,7 @@ Para editar um tópico existente, você precisa:
 
 ## <a name="how-to-edit-a-topic-page"></a>Como editar uma página de tópico
 
-Os usuários que têm a permissão Quem pode criar ou **editar tópicos** podem editar um <b></b> tópico abrindo a página de tópico a partir de um destaque de tópico e, em seguida, selecionando o botão Editar no canto superior direito da página de tópicos. A página de tópicos também pode ser aberta na home page do centro de tópicos, onde você pode encontrar todos os tópicos aos quais tem uma conexão.
+Os usuários que têm a permissão Quem pode criar ou **editar tópicos** podem editar um <b></b> tópico abrindo a página de tópico a partir de um destaque de tópico e, em seguida, selecionando o botão Editar no canto superior direito da página de tópicos. A página de tópico também pode ser aberta na home page do centro de tópicos, onde você pode encontrar todos os tópicos aos quais tem uma conexão.
 
    ![Botão Editar](../media/knowledge-management/edit-button.png) </br> 
 
@@ -80,9 +80,9 @@ Os gerentes de conhecimento também podem editar tópicos diretamente da página
  
     Para adicionar um novo arquivo, selecione <b>Adicionar</b>, selecione o site do SharePoint em seus sites Frequentes ou Seguidos e selecione o arquivo na biblioteca de documentos do site.
 
-    Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou página fornecendo a URL. 
+    Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou uma página fornecendo a URL. 
 
-6. A <b>seção Arquivos e páginas Sugeridos</b> mostra arquivos e páginas que a IA sugere que sejam associadas ao tópico.
+6. A <b>seção Arquivos e páginas sugeridos</b> mostra arquivos e páginas que a IA sugere que sejam associadas ao tópico.
 
    ![Seção Arquivos e páginas sugeridos](../media/knowledge-management/suggested-files-and-pages.png)</br>
 
@@ -96,7 +96,7 @@ Os gerentes de conhecimento também podem editar tópicos diretamente da página
     
     ![Selecionar um Site](../media/knowledge-management/sites.png)</br>
 
-8. A <b>seção Tópicos Relacionados</b> mostra conexões existentes entre tópicos. Você pode adicionar uma conexão a um tópico diferente selecionando o botão Conectar <b>a</b> um tópico relacionado, digitando o nome do tópico relacionado e selecionando-o nos resultados da pesquisa. 
+8. A <b>seção tópicos relacionados</b> mostra conexões que existem entre tópicos. Você pode adicionar uma conexão a um tópico diferente selecionando o botão Conectar <b>a</b> um tópico relacionado, digitando o nome do tópico relacionado e selecionando-o nos resultados da pesquisa. 
 
    ![Seção de tópicos relacionados](../media/knowledge-management/related-topic.png)</br>  
 

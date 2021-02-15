@@ -25,7 +25,7 @@ ms.locfileid: "50105136"
 ---
 # <a name="revoke-email-encrypted-by-advanced-message-encryption"></a>Revogar emails criptografados pela Criptografia Avançada de Mensagens
 
-A revogação de email é oferecida como parte da Criptografia de Mensagens Avançada do Office 365. A Criptografia Avançada de Mensagens do Office 365 está incluída no [Microsoft 365 Enterprise E5,](https://www.microsoft.com/microsoft-365/enterprise/home)office 365 E5, Microsoft 365 E5 (preços de funcionários sem fins lucrativos), Office 365 Enterprise E5 (preços de funcionários sem fins lucrativos) e Office 365 Education A5. Se sua organização tiver uma assinatura que não inclua a Criptografia de Mensagem Avançada do Office 365, Você pode adéqua-lo com o complemento de SKU de Conformidade do Microsoft 365 E5 para Microsoft 365 E3, Microsoft 365 E3 (preços de funcionários sem fins lucrativos) ou o complemento SKU de Conformidade Avançada do Office 365 para Microsoft 365 E3, Microsoft 365 E3 (Preços de Funcionários sem Fins Lucrativos) ou SKUs do Office 365.
+A revogação de email é oferecida como parte da Criptografia de Mensagens Avançada do Office 365. A Criptografia Avançada de Mensagens do Office 365 está incluída no [Microsoft 365 Enterprise E5,](https://www.microsoft.com/microsoft-365/enterprise/home)no Office 365 E5, no Microsoft 365 E5 (preços de funcionários sem fins lucrativos), no Office 365 Enterprise E5 (preços da equipe sem fins lucrativos) e no Office 365 Education A5. Se sua organização tiver uma assinatura que não inclua a Criptografia de Mensagem Avançada do Office 365, Você pode adéqua-lo com o complemento de SKU de Conformidade do Microsoft 365 E5 para Microsoft 365 E3, Microsoft 365 E3 (preços de funcionários sem fins lucrativos) ou o complemento SKU de Conformidade Avançada do Office 365 para Microsoft 365 E3, Microsoft 365 E3 (Preços de Funcionários sem Fins Lucrativos) ou SKUs do Office 365.
 
 Este artigo faz parte de uma série maior de artigos sobre a Criptografia de Mensagens do [Office 365.](ome.md)
 
@@ -71,7 +71,7 @@ Para revogar uma mensagem criptografada que você enviou, conclua estas etapas
 
 Os administradores do Microsoft 365 seguem estas etapas gerais para revogar um email criptografado qualificado:
 
-- Obter a ID de mensagem do email.
+- Obter a ID da mensagem do email.
 - Verifique se você pode revogar a mensagem.
 - Revogar o email.
 
@@ -125,7 +125,7 @@ Depois de saber a ID de Mensagem do email que deseja revogar e verificar se a me
 
 Para revogar a mensagem usando o Centro de Conformidade &amp; de Segurança
 
-1. Usando uma conta comercial ou de estudante que tenha permissões de administrador global em sua organização, conecte-se ao Centro de Conformidade e Segurança & Segurança.
+1. Usando uma conta comercial ou de estudante que tenha permissões de administrador global em sua organização, conecte-se ao Centro de Conformidade e & Segurança.
 
 2. In the **Encryption report**, in the **Details** table for the message, choose **Revoke message**.
 

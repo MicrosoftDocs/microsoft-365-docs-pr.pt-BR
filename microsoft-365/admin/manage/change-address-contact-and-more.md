@@ -79,7 +79,7 @@ Como administrador, você pode alterar seu endereço de email alternativo para r
 
 4. Na seção Email, selecione **Alterar**
 
-5. Edite o endereço na **caixa de email** Alternativo e selecione **Próximo.**
+5. Edite o endereço na caixa **de email** Alternativo e selecione **Próximo.**
 
 6. Insira o código enviado para o endereço de email alternativo e selecione **OK** para verificar a alteração.
 Para saber mais sobre como alterar outras informações de perfil, consulte Alterar suas [preferências de contato](change-contact-preferences.md) ou [Alterar seu idioma de exibição.](https://support.microsoft.com/office/6f238bff-5252-441e-b32b-655d5d85d15b.aspx)

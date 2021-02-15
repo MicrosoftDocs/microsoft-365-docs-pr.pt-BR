@@ -29,14 +29,14 @@ Com barreiras de informações, você pode definir políticas projetadas para im
 Este artigo descreve como planejar, definir, implementar e gerenciar políticas de barreira de informações. Várias etapas estão envolvidas, e o fluxo de trabalho é dividido em várias partes. Leia os [pré-requisitos](#prerequisites) e todo o processo antes de começar a definir (ou editar) políticas de barreira de informações.
 
 > [!TIP]
-> Este artigo inclui um cenário [de exemplo e](#example-contosos-departments-segments-and-policies) uma planilha do Excel baixável para [ajudá-lo](https://github.com/MicrosoftDocs/OfficeDocs-O365SecComp/raw/public/SecurityCompliance/media/InfoBarriers-PowerShellGenerator.xlsx) a planejar e definir suas políticas de barreira de informações.
+> Este artigo inclui um cenário de [exemplo e](#example-contosos-departments-segments-and-policies) uma planilha do Excel baixável para [ajudá-lo](https://github.com/MicrosoftDocs/OfficeDocs-O365SecComp/raw/public/SecurityCompliance/media/InfoBarriers-PowerShellGenerator.xlsx) a planejar e definir suas políticas de barreira de informações.
 
 ## <a name="concepts-of-information-barrier-policies"></a>Conceitos de políticas de barreira de informações
 
 Ao definir políticas para barreiras de informações, você trabalhará com atributos de conta de usuário, segmentos, políticas de "bloqueio" e/ou "permitir" e aplicativo de política.
 
 - Os atributos da conta de usuário são definidos no Azure Active Directory (ou no Exchange Online). Esses atributos podem incluir departamento, cargo, local, nome da equipe e outros detalhes do perfil de trabalho. 
-- Segmentos são conjuntos de usuários definidos no Centro de Conformidade e Segurança & usando um atributo **de conta de usuário selecionado.** (Consulte a [lista de atributos com suporte.)](information-barriers-attributes.md)
+- Segmentos são conjuntos de usuários definidos no Centro de Conformidade e Segurança & usando um atributo de **conta de usuário selecionado.** (Consulte a [lista de atributos com suporte.)](information-barriers-attributes.md)
 - As políticas de barreira de informações determinam limites ou restrições de comunicação. Ao definir políticas de barreira de informações, você escolhe entre dois tipos de políticas:
     - As políticas "Bloquear" impedem que um segmento se comunique com outro segmento.
     - As políticas "Permitir" permitem que um segmento se comunique apenas com determinados outros segmentos.
@@ -46,7 +46,7 @@ Ao definir políticas para barreiras de informações, você trabalhará com atr
 
 |**Fase**|**O que está envolvido**|
 |:--------|:------------------|
-| [Certifique-se de que os pré-requisitos sejam atendidos](#prerequisites) | - Verifique se você tem [as licenças e permissões necessárias](information-barriers.md#required-licenses-and-permissions)<br/>- Verifique se o diretório inclui dados para segmentação de usuários<br/>- Habilitar a pesquisa de diretório com escopo para o Microsoft Teams<br/>- Certifique-se de que o log de auditoria está ligado<br/>- Certifique-se de que nenhuma política de agenda do Exchange está em operação<br/>- Usar o PowerShell (são fornecidos exemplos)<br/>– Fornecer consentimento de administrador para o Microsoft Teams (as etapas estão incluídas) |
+| [Certifique-se de que os pré-requisitos foram atendidos](#prerequisites) | - Verifique se você tem [as licenças e permissões necessárias](information-barriers.md#required-licenses-and-permissions)<br/>- Verifique se o diretório inclui dados para segmentação de usuários<br/>- Habilitar a pesquisa de diretório com escopo para o Microsoft Teams<br/>- Certifique-se de que o log de auditoria está ligado<br/>- Certifique-se de que nenhuma política de agenda do Exchange está em operação<br/>- Usar o PowerShell (são fornecidos exemplos)<br/>– Fornecer consentimento de administrador para o Microsoft Teams (as etapas estão incluídas) |
 | [Parte 1: Segmentar usuários em sua organização](#part-1-segment-users) | - Determinar quais políticas são necessárias<br/>- Fazer uma lista de segmentos a definir<br/>- Identificar quais atributos usar<br/>- Definir segmentos em termos de filtros de política |
 | [Parte 2: Definir políticas de barreira de informações](#part-2-define-information-barrier-policies) | - Definir suas políticas (não se aplicam ainda)<br/>- Escolher entre dois tipos (bloquear ou permitir) |
 | [Parte 3: Aplicar políticas de barreira de informações](#part-3-apply-information-barrier-policies) | - Definir políticas para o status ativo<br/>- Executar o aplicativo de política<br/>- Exibir o status da política |
@@ -57,7 +57,7 @@ Ao definir políticas para barreiras de informações, você trabalhará com atr
 
 Além das [licenças e permissões necessárias,](information-barriers.md#required-licenses-and-permissions)certifique-se de que os seguintes requisitos sejam atendidos:
 
-- Dados de diretório – certifique-se de que a estrutura da sua organização seja refletida nos dados de diretório. Para realizar essa ação, certifique-se de que os atributos da conta de usuário, como associação ao grupo, nome do departamento etc. sejam preenchidos corretamente no Azure Active Directory (ou no Exchange Online). Para saber mais, confira os seguintes recursos:
+- Dados de diretório – certifique-se de que a estrutura da sua organização seja refletida nos dados de diretório. Para realizar essa ação, certifique-se de que os atributos da conta de usuário, como a associação ao grupo, o nome do departamento etc. sejam preenchidos corretamente no Azure Active Directory (ou no Exchange Online). Para saber mais, confira os seguintes recursos:
   - [Atributos das políticas de barreira de informações](information-barriers-attributes.md)
   - [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
   - [Configurar propriedades da conta de usuário com o Office 365 PowerShell](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
@@ -68,7 +68,7 @@ Além das [licenças e permissões necessárias,](information-barriers.md#requir
 
 - Log de auditoria - Para procurar o status de um aplicativo de política, o log de auditoria deve estar ligado. Recomendamos que você habilita a auditoria antes de começar a definir segmentos ou políticas. Para saber mais, confira Ativar ou desativar a [pesquisa de log de auditoria.](turn-audit-log-search-on-or-off.md)
 
-- Sem políticas de lista de endereços - Antes de definir e aplicar políticas de barreira de informações, certifique-se de que nenhuma política de agenda do Exchange está em uso. As barreiras de informações são baseadas em políticas de agendamento de endereço, mas os dois tipos de políticas não são compatíveis. Se você tiver essas políticas, certifique-se de remover as políticas do seu address [book primeiro.](/exchange/address-books/address-book-policies/remove-an-address-book-policy) Depois que as políticas de barreira de informações são  habilitadas e você tem o [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) agendamento hierárquico habilitado, todos os usuários que não estão incluídos em um segmento de barreira de informações verão o livro de endereços hierárquico no Exchange online.
+- Sem políticas de lista de endereços - Antes de definir e aplicar políticas de barreira de informações, certifique-se de que nenhuma política de agenda do Exchange está em uso. As barreiras de informações são baseadas em políticas de agendamento de endereço, mas os dois tipos de políticas não são compatíveis. Se você tiver essas políticas, certifique-se de [remover suas políticas de agendas primeiro.](/exchange/address-books/address-book-policies/remove-an-address-book-policy) Depois que as políticas de barreira de informações são  habilitadas e você tem o [](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) agendamento hierárquico habilitado, todos os usuários que não estão incluídos em um segmento de barreira de informações verão o livro de endereços hierárquico no Exchange online.
 
 - PowerShell – Atualmente, as políticas de barreira de informações são definidas e gerenciadas no Centro de Conformidade e Segurança do Office 365 & usando cmdlets do PowerShell. Embora vários exemplos sejam fornecidos neste artigo, você precisará estar familiarizado com cmdlets e parâmetros do PowerShell. Você também precisará do módulo do Azure PowerShell.
     - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell)
@@ -118,11 +118,11 @@ Além da lista inicial de políticas, faça uma lista de segmentos para sua orga
 Determine quais atributos nos dados de diretório da sua organização você usará para definir segmentos. Você pode usar *Department*, *MemberOf* ou qualquer um dos atributos com suporte. Certifique-se de que você tenha valores no atributo selecionado para os usuários. [Consulte a lista de atributos com suporte para barreiras de informações.](information-barriers-attributes.md)
 
 > [!IMPORTANT]
-> **Antes de prosseguir para a próxima seção, certifique-se** de que seus dados de diretório têm valores para atributos que você pode usar para definir segmentos. Se os dados do diretório não têm valores para os atributos que você deseja usar, as contas de usuário devem ser atualizadas para incluir essas informações antes de prosseguir com as barreiras de informações. Para obter ajuda com isso, consulte os seguintes recursos:<br/>- [Configurar propriedades de conta de usuário com o Office 365 PowerShell](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> **Antes de prosseguir para a próxima seção, certifique-se** de que seus dados de diretório têm valores para atributos que você pode usar para definir segmentos. Se os dados de diretório não têm valores para os atributos que você deseja usar, as contas de usuário devem ser atualizadas para incluir essas informações antes de prosseguir com as barreiras de informações. Para obter ajuda com isso, consulte os seguintes recursos:<br/>- [Configurar propriedades de conta de usuário com o Office 365 PowerShell](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Adicionar ou atualizar as informações de perfil de um usuário usando o Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>Definir segmentos usando o PowerShell
 
-A definição de segmentos não afeta os usuários; ele apenas define o estágio das políticas de barreira de informações a serem definidas e aplicadas.
+A definição de segmentos não afeta os usuários; ele apenas define o estágio para que as políticas de barreira de informações sejam definidas e, em seguida, aplicadas.
 
 1. Use o cmdlet **New-OrganizationSegment** com o **parâmetro UserGroupFilter** que corresponde ao [atributo](information-barriers-attributes.md) que você deseja usar.
 
@@ -153,7 +153,7 @@ Você também pode definir segmentos usando um parâmetro "não é igual", indic
 |:---------|:----------|
 | `New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"` | Neste exemplo, definimos um segmento chamado *NotSales* que inclui todas as pessoas que não estão em *Vendas*. A **parte -ne** do cmdlet refere-se a "not equals". |
 
-Além de definir segmentos usando "igual a" ou "não igual a", você pode definir um segmento usando os parâmetros "equals" e "not equals". Você também pode definir filtros de grupo complexos usando *operadores E* *e OR* lógicos.
+Além de definir segmentos usando "igual a" ou "não igual a", você pode definir um segmento usando os parâmetros "equals" e "not equals". Você também pode definir filtros de grupo complexos usando *operadores AND* e *OR lógicos.*
 
 |**Sintaxe**|**Exemplo**|
 |:---------|:----------|
@@ -163,7 +163,7 @@ Além de definir segmentos usando "igual a" ou "não igual a", você pode defini
 | `New-OrganizationSegment -Name "Segment1and2" -UserGroupFilter "(MemberOf -eq 'group1@contoso.com' -or MemberOf -eq 'group2@contoso.com') -and MemberOf -ne 'group3@contoso.com'"`| Neste exemplo, definimos um segmento chamado *Segment1and2* que inclui membros de group1@contoso.com e group2@contoso.com e não membros group3@contoso.com. |
 
 > [!TIP]
-> Se possível, use definições de segmento que incluem "-eq" ou "-ne". Tente não definir definições complexas de segmento.
+> Se possível, use definições de segmento que incluem "-eq" ou "-ne". Tente não definir definições de segmento complexas.
 
 ## <a name="part-2-define-information-barrier-policies"></a>Parte 2: Definir políticas de barreira de informações
 
@@ -181,7 +181,7 @@ Com sua lista de segmentos de usuário e as políticas de barreira de informaç�
 
 ### <a name="scenario-1-block-communications-between-segments"></a>Cenário 1: Bloquear comunicações entre segmentos
 
-Quando você deseja impedir que segmentos se comunique uns com os outros, defina duas políticas: uma para cada direção. Cada política bloqueia a comunicação apenas de uma maneira.
+Quando você deseja impedir que segmentos se comunique uns com os outros, defina duas políticas: uma para cada direção. Cada política bloqueia a comunicação apenas de uma só maneira.
 
 Por exemplo, suponha que você queira bloquear as comunicações entre o Segmento A e o Segmento B. Nesse caso, defina uma política impedindo que o Segmento A se comunique com o Segmento B e defina uma segunda política para impedir que o Segmento B se comunique com o Segmento A.
 
@@ -197,7 +197,7 @@ Por exemplo, suponha que você queira bloquear as comunicações entre o Segment
 
 3. Prossiga para uma das seguintes ações:
 
-   - (Se necessário) [Definir uma política para permitir que um segmento se comunique apenas com um outro segmento](#scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment) 
+   - (Se necessário) [Definir uma política para permitir que um segmento se comunique somente com um outro segmento](#scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment) 
    - (Depois que todas as políticas são definidas) [Aplicar políticas de barreira de informações](#part-3-apply-information-barrier-policies)
 
 ### <a name="scenario-2-allow-a-segment-to-communicate-only-with-one-other-segment"></a>Cenário 2: Permitir que um segmento se comunique apenas com um outro segmento
@@ -212,7 +212,7 @@ Por exemplo, suponha que você queira bloquear as comunicações entre o Segment
 
     |**Sintaxe**|**Exemplo**|
     |:---------|:----------|
-    | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"` | `New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p> Neste exemplo, definimos uma política que permite que o segmento *Pesquisa* se comunique somente com *RH* e *Fabricação.* |
+    | `New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"` | `New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p> Neste exemplo, definimos uma política que permite que o segmento *Research* se comunique somente com *RH* e *Fabricação.* |
 
     Repita essa etapa para cada política que você deseja definir para permitir que segmentos específicos se comuniquem apenas com determinados outros segmentos específicos.
 
@@ -229,7 +229,7 @@ As políticas de barreira de informações não entrarão em vigor até que elas
 
     Sintaxe: `Get-InformationBarrierPolicy`
 
-2. Para definir uma política como status ativo, use o cmdlet **Set-InformationBarrierPolicy** com um parâmetro **Identity** e o parâmetro **State** definido como **Ativo**. 
+2. Para definir uma política como status ativo, use o cmdlet **Set-InformationBarrierPolicy** com um parâmetro **Identity** e o parâmetro **State** definido como **Active**. 
 
     |**Sintaxe**|**Exemplo**|
     |:---------|:----------|
@@ -249,7 +249,7 @@ Com o PowerShell, você pode exibir o status de contas de usuário, segmentos, p
 
 |**Para exibir essas informações**|**Tomar esta ação**|
 |:---------------|:----------|
-| Contas de usuário | Use o cmdlet **Get-InformationBarrierRecipientStatus** com parâmetros de Identidade. <p> Sintaxe: `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> É possível usar qualquer valor que identifique cada usuário com exclusividade, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p> Exemplo: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*. <p> (Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p> Este cmdlet retorna informações sobre usuários, como valores de atributos e quaisquer políticas de barreira de informações aplicadas.|
+| Contas de usuário | Use o cmdlet **Get-InformationBarrierRecipientStatus** com parâmetros de Identidade. <p> Sintaxe: `Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p> É possível usar qualquer valor que identifique com exclusividade cada usuário, como nome, alias, nome diferenciado, nome de domínio canônico, endereço de email ou GUID. <p> Exemplo: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p> Neste exemplo, nos referimos a duas contas de usuário no Office 365: *meganb* para *Megan* e *alexw* para *Alex*. <p> (Você também pode usar esse cmdlet para um único usuário: `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p> Este cmdlet retorna informações sobre usuários, como valores de atributos e quaisquer políticas de barreira de informações aplicadas.|
 | Segmentos | Use o cmdlet **Get-OrganizationSegment.**<p> Sintaxe: `Get-OrganizationSegment` <p> Este cmdlet exibirá uma lista de todos os segmentos definidos para sua organização. |
 | Políticas de barreira de informações | Use o cmdlet **Get-InformationBarrierPolicy.** <p> Sintaxe: `Get-InformationBarrierPolicy` <p> Este cmdlet exibirá uma lista de políticas de barreira de informações que foram definidas e seu status. |
 | O aplicativo de política de barreira de informações mais recente | Use o cmdlet **Get-InformationBarrierPoliciesApplicationStatus.** <p> Sintaxe: `Get-InformationBarrierPoliciesApplicationStatus`<p> Este cmdlet exibirá informações sobre se o aplicativo de política foi concluído, se falhou ou está em andamento. |
@@ -272,7 +272,7 @@ Para ver como uma organização pode abordar a definição de segmentos e polít
 
 ### <a name="contosos-departments-and-plan"></a>Departamentos e planos da Contoso
 
-A Contoso tem cinco departamentos: RH, Vendas, Marketing, Pesquisa e Fabricação. Para permanecer em conformidade com os regulamentos do setor, as pessoas em alguns departamentos não devem se comunicar com outros departamentos, conforme listado na tabela a seguir:
+A Contoso tem cinco departamentos: RH, Vendas, Marketing, Pesquisa e Fabricação. Para manter a conformidade com os regulamentos do setor, as pessoas em alguns departamentos não devem se comunicar com outros departamentos, conforme listado na tabela a seguir:
 
 |**Segmento**|**Pode falar com**|**Não é possível falar com**|
 |:----------|:--------------|:-----------------|

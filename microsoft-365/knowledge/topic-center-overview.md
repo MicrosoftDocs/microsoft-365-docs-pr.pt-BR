@@ -32,10 +32,10 @@ Embora todos os usuários licenciados que possam exibir tópicos tenham acesso a
 
 ## <a name="where-is-my-topic-center"></a>Onde está meu centro de tópicos
 
-O centro de tópicos é criado durante a configuração de Tópicos do Viva. Depois que a instalação é concluída, um administrador pode encontrar a URL na página de gerenciamento [do Centro de tópicos.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-administration#to-access-topics-management-settings)
+O centro de tópicos é criado durante a configuração de Tópicos do Viva. Depois que a instalação é concluída, um administrador pode encontrar a URL na página de [gerenciamento do Centro de tópicos.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-administration#to-access-topics-management-settings)
 
 
-1. No centro de administração do Microsoft 365, clique em **Configurações** e em **Configurações da Organização.**
+1. No centro de administração do Microsoft 365, clique em **Configurações** e, em seguida, **nas configurações da organização.**
 2. Na guia **Serviços,** clique em Experiências **de Tópico.**
 
     ![Conectar as pessoas ao conhecimento](../media/admin-org-knowledge-options-completed.png) </br>
@@ -70,12 +70,12 @@ Depois que um usuário confirma sua conexão com um tópico, ele pode fazer edi�
 
 ## <a name="manage-topics-page"></a>Página Gerenciar tópicos
 
-Para trabalhar na seção Gerenciar Tópicos da Central de **Tópicos,** você precisa ter as permissões necessárias para Gerenciar *tópicos* necessárias para a função de gerente de conhecimento. Seu administrador pode atribuir essas permissões aos usuários durante a configuração de gerenciamento de conhecimento [ou](set-up-topic-experiences.md)novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do centro de administração do Microsoft 365.
+Para trabalhar na seção Gerenciar Tópicos da Central de **Tópicos,** você precisa ter as permissões necessárias para Gerenciar *tópicos* necessárias para a função de gerente de conhecimento. O administrador pode atribuir essas [](set-up-topic-experiences.md)permissões aos usuários durante a configuração do gerenciamento de conhecimento ou novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do centro de administração do Microsoft 365.
 
-Na página Gerenciar Tópicos, o painel de tópicos mostra todos os tópicos aos que você tem acesso, que foram identificados a partir de seus locais de origem especificados. Cada tópico mostrará a data em que o tópico foi descoberto. Um usuário que foi atribuído com **permissões Gerenciar** tópicos pode revisar os tópicos não confirmados e optar por:
-- Confirme o tópico: realça o tópico para os usuários que têm acesso aos arquivos e páginas relacionados ao tópico e permite que eles vejam o cartão de tópico e a página de tópicos associada.
+Na página Gerenciar Tópicos, o painel de tópicos mostra todos os tópicos aos que você tem acesso, que foram identificados de seus locais de origem especificados. Cada tópico mostrará a data em que o tópico foi descoberto. Um usuário que foi atribuído com **permissões Gerenciar** tópicos pode revisar os tópicos não confirmados e optar por:
+- Confirme o tópico: realça o tópico para os usuários que têm acesso aos arquivos e páginas relacionados ao tópico e permite que eles vejam o cartão de tópico e a página de tópicos associados.
 - Publique o tópico: Edite as informações do tópico para melhorar a qualidade do tópico inicialmente identificado e realça o tópico para todos os usuários que têm acesso de exibição aos tópicos. 
-- Rejeitar o tópico: torna o tópico não disponível para os usuários. O tópico é movido para a **guia Rejeitado** e pode ser confirmado posteriormente, se necessário. 
+- Rejeitar o tópico: Torna o tópico não disponível para os usuários. O tópico é movido para a **guia Rejeitado** e pode ser confirmado posteriormente, se necessário. 
 
 > [!Note] 
 > Consulte [Gerenciar tópicos](manage-topics.md) para obter mais detalhes sobre como gerenciar tópicos na página Gerenciar tópicos.

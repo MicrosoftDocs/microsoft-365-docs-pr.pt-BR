@@ -29,7 +29,7 @@ O Centro de administração do Microsoft 365 agora inclui métricas de conectivi
 > [!div class="mx-imgBorder"]
 > ![Ferramenta de teste de conectividade de rede](../media/m365-mac-perf/m365-mac-perf-admin-center.png)
 
-**As avaliações de rede** **e as informações de** rede são exibidas no Centro de administração do Microsoft 365 em Health **| Conectividade**.
+**As avaliações de rede** **e as informações de** rede são exibidas no Centro de Administração do Microsoft 365 em Informações de **| Conectividade**.
 
 > [!div class="mx-imgBorder"]
 > ![Página de desempenho da rede](../media/m365-mac-perf/m365-mac-perf-page-nav.png)
@@ -69,7 +69,7 @@ Como você está adicionando os locais, pode ter vários escritórios definidos 
 
 Todas as medições de teste de máquinas cliente incluem as informações da sub-rede da LAN, que são correlacionadas com os detalhes de local do escritório inseridos. Amostras de medição e locais de escritório devem começar a aparecer 24 horas depois que esses pré-requisitos foram atendidos.
 
-### <a name="3-manually-gather-test-reports-with-the-microsoft-365-network-connectivity-test-tool"></a>3. Reúna manualmente os relatórios de teste com a ferramenta de teste de conectividade de rede do Microsoft 365
+### <a name="3-manually-gather-test-reports-with-the-microsoft-365-network-connectivity-test-tool"></a>3. Coletar manualmente relatórios de teste com a ferramenta de teste de conectividade de rede do Microsoft 365
 
 Para essa opção, você precisa identificar uma pessoa em cada local. Peça que eles naveguem até o teste de conectividade de rede do [Microsoft 365](https://connectivity.office.com) em um computador Windows no qual eles têm permissões administrativas. No site, eles precisam entrar na conta do Office 365 para a mesma organização que você deseja ver os resultados. Em seguida, eles devem clicar **em Executar teste.** Durante o teste, há um EXE de teste de conectividade baixado. Eles precisam abrir e executar isso também. Depois que os testes são concluídos, o resultado do teste é carregado para o Office 365.
 
@@ -86,14 +86,14 @@ Amostras de medição e locais de escritório devem começar a aparecer de 2 a 3
 As empresas complexas com vários locais de escritório e arquiteturas de perímetro de rede não triviais podem se beneficiar dessa informação durante a integração inicial ao Microsoft 365 ou para resolver problemas de desempenho de rede descobertos com o aumento do uso. Isso geralmente não é necessário para pequenas empresas que usam o Microsoft 365 ou para empresas que já têm conectividade de rede simples e direta. As empresas com mais de 500 usuários e vários locais de escritório devem se beneficiar mais.
 
 >[!IMPORTANT]
->Insights de rede, recomendações de desempenho e avaliações no Centro de administração do Microsoft 365 estão atualmente no status de visualização e só estão disponíveis para locatários do Microsoft 365 que foram inscritos no programa de visualização de recursos.
+>Informações de rede, recomendações de desempenho e avaliações no Centro de administração do Microsoft 365 estão atualmente no status de visualização e só estão disponíveis para locatários do Microsoft 365 que foram inscritos no programa de visualização de recursos.
 
 ## <a name="enterprise-network-connectivity-challenges"></a>Desafios de conectividade de rede corporativa
 
 > [!div class="mx-imgBorder"]
 > ![Rede do cliente para nuvem](../media/m365-mac-perf/m365-mac-perf-first-last-mile.png)
 
-Muitas empresas têm configurações de perímetro de rede que cresceram ao longo do tempo e foram projetadas principalmente para acomodar o acesso ao site da Internet dos funcionários, onde a maioria dos sites não é conhecida com antecedência e não é não é confiança. O foco em vigor e necessário é evitar ataques de malware e de ataque a esses sites desconhecidos. Essa estratégia de configuração de rede, embora útil para fins de segurança, pode levar à degradação do desempenho do usuário do Microsoft 365 e da experiência do usuário.
+Muitas empresas têm configurações de perímetro de rede que cresceram ao longo do tempo e foram projetadas principalmente para acomodar o acesso ao site da Internet dos funcionários, onde a maioria dos sites não é conhecida com antecedência e não é não é confiança. O foco em vigor e necessário é evitar ataques de malware e de ataque a esses sites desconhecidos. Essa estratégia de configuração de rede, embora útil para fins de segurança, pode levar à degradação do desempenho do usuário e da experiência do usuário do Microsoft 365.
 
 ## <a name="how-we-can-solve-these-challenges"></a>Como podemos resolver esses desafios
 
@@ -105,12 +105,12 @@ Algumas ideias de rede indicarão simplesmente um problema que precisa de mais i
 
 ## <a name="network-connectivity-overview-in-the-microsoft-365-admin-center"></a>Visão geral da conectividade de rede no Centro de Administração do Microsoft 365
 
-A Microsoft tem medições de rede existentes de vários clientes da Web e da área de trabalho do Office que suportam a operação do Microsoft 365. Essas medições agora estão sendo usadas para fornecer insights de  design de arquitetura de rede e uma avaliação de rede que são mostradas na página Conectividade de rede no Centro de Administração do Microsoft 365.
+A Microsoft tem medições de rede existentes de vários clientes da Web e da área de trabalho do Office que suportam a operação do Microsoft 365. Essas medições agora estão sendo usadas para fornecer informações de  design de arquitetura de rede e uma avaliação de rede que são mostradas na página Conectividade de rede no Centro de Administração do Microsoft 365.
 
 Por padrão, as informações aproximadas de localização associadas às medições de rede identificam a cidade onde os dispositivos cliente estão localizados. A avaliação de rede em cada local é mostrada com cor e o número relativo de usuários em cada local é representado pelo tamanho do círculo.
 
 > [!div class="mx-imgBorder"]
-> ![Mapa de visão geral do Network Insights](../media/m365-mac-perf/m365-mac-perf-overview-map.png)
+> ![Mapa de visão geral das informações da rede](../media/m365-mac-perf/m365-mac-perf-overview-map.png)
 
 A página de visão geral também mostra a avaliação de rede do cliente como uma média ponderada em todos os locais de escritório.
 
@@ -127,7 +127,7 @@ Você pode exibir um modo de exibição de tabela dos locais onde eles podem ser
 Selecionar um local de escritório abre uma página de resumo específica do local mostrando detalhes da saída de rede que foi identificada a partir de medições para esse local de escritório.
 
 > [!div class="mx-imgBorder"]
-> ![Detalhes de informações de rede por local](../media/m365-mac-perf/m365-mac-perf-locations-plan-overview.png)
+> ![Detalhes das informações da rede por local](../media/m365-mac-perf/m365-mac-perf-locations-plan-overview.png)
 
 Um mapa da rede de perímetro para os usuários da sua organização no local é mostrado com alguns ou todos esses elementos:
 
@@ -137,8 +137,8 @@ Um mapa da rede de perímetro para os usuários da sua organização no local é
 - **Porta frontal abaixo do ideal do Exchange** - Uma porta frontal do serviço do Exchange à que os usuários estão conectados, mas não é recomendada
 - **Porta frontal de serviço ideal do SharePoint** – uma das portas de frente recomendadas para o serviço do SharePoint à qual os usuários nesse local do escritório devem se conectar
 - **Porta frontal de serviço abaixo** do ideal do SharePoint - Uma porta frontal de serviço do SharePoint à que os usuários estão conectados, mas não é recomendável
-- **Servidor resolvedor recursivo** de DNS - A localização de um banco de dados de IP geo do resolvedor recursivo dns detectado usado para o Exchange Online (se disponível)
-- **Seu servidor proxy** - a localização de um banco de dados DE IP geo do servidor proxy detectado (se disponível) 
+- **Servidor resolvedor recursivo** dns - A localização de um banco de dados de IP geo do resolvedor recursivo dns detectado usado para o Exchange Online (se disponível)
+- **Seu servidor proxy** - A localização de um banco de dados DE IP geo do servidor proxy detectado (se disponível) 
 
 A página de resumo do local do escritório também mostra a avaliação de rede do local, o histórico de avaliação da rede, uma comparação da avaliação desse local com outros clientes na mesma cidade e uma lista de insights e recomendações específicas que você pode realizar para melhorar o desempenho e a confiabilidade da rede.
 
@@ -151,7 +151,7 @@ A guia detalhes na página local do escritório mostra os resultados de mediçã
 
 ## <a name="csv-import-for-lan-subnet-office-locations"></a>Importação CSV para locais de escritório da sub-rede da LAN
 
-Para a identificação do escritório da sub-rede da LAN, você precisa adicionar cada local com antecedência. Em vez de adicionar locais de escritório individuais na guia **Locais,** você pode importá-los de um arquivo CSV. Você poderá obter esses dados de outros locais onde os armazenou, como o Painel de Qualidade de Chamada ou Sites e Serviços do Active Directory
+Para a identificação do escritório da sub-rede da LAN, você precisa adicionar cada local com antecedência. Em vez de adicionar locais de escritório individuais na guia **Locais,** você pode importá-los de um arquivo CSV. Você poderá obter esses dados de outros locais onde os armazenou, como o Painel de Qualidade da Chamada ou Sites e Serviços do Active Directory
 
 No arquivo CSV, um local de cidade descoberto mostra a coluna userEntered como em branco, e um local de escritório adicionado manualmente é 1.
 
@@ -171,7 +171,7 @@ No arquivo CSV, um local de cidade descoberto mostra a coluna userEntered como e
    1. **Latitude** (opcional): preenchida a partir de mapas do Bing de procurar o endereço se estiver em branco
    1. **Longitude** (opcional): preenchida a partir de mapas do Bing de procurar o endereço se estiver em branco
    1. **Intervalos** de endereços IP de saída de 1 a 5 (opcional): para cada intervalo, insira o nome do circuito seguido por uma lista separada por espaços de endereços CIDR IPv4 ou IPv6 válidos. Esses valores são usados para diferenciar vários locais de escritório onde você usa os mesmos endereços IP da sub-rede da LAN. Todos os intervalos de endereços IP de saída devem ter /24 tamanho de rede e /24 não está incluído na entrada.
-   1. **LanIps** (obrigatório): listar os intervalos de sub-redes da LAN em uso neste local do escritório. As IDs de sub-rede da LAN precisam ter um tamanho de rede CIDR incluído, onde o tamanho da rede pode estar entre /8 e /29. Vários intervalos de sub-redes da LAN podem ser separados por vírgula ou ponto-e-vírgula.
+   1. **LanIps** (obrigatório): listar os intervalos de sub-redes da LAN em uso neste local de escritório. As IDs de sub-rede da LAN precisam ter um tamanho de rede CIDR incluído, onde o tamanho da rede pode estar entre /8 e /29. Vários intervalos de sub-redes da LAN podem ser separados por vírgula ou ponto-e-vírgula.
    
 1. Quando você tiver adicionado seus locais de  escritório e salvo  o arquivo, clique no botão Procurar ao lado do campo Carregar o campo concluído e selecione o arquivo CSV salvo.
 
@@ -180,7 +180,7 @@ No arquivo CSV, um local de cidade descoberto mostra a coluna userEntered como e
    > [!div class="mx-imgBorder"]
    > ![Mensagem de erro de importação CSV](../media/m365-mac-perf/m365-mac-perf-import-error.png)
 
-1. Se não houver erros no arquivo, você verá a mensagem _O relatório está pronto. Localizações x encontradas para adicionar e x locais a atualizar._ Clique no **botão Importar** para carregar o CSV.
+1. Se não houver erros no arquivo, você verá a mensagem _O relatório está pronto. Localizações x encontradas para adicionar e x locais a ser atualizados._ Clique no **botão Importar** para carregar o CSV.
 
    > [!div class="mx-imgBorder"]
    > ![Mensagem pronta para importação de CSV](../media/m365-mac-perf/m365-mac-perf-import-ready.png)
@@ -196,7 +196,7 @@ A porta de entrada do serviço microsoft 365 é um ponto de entrada na rede glob
 
 ### <a name="what-is-an-optimal-microsoft-365-service-front-door"></a>Qual é a porta de entrada de serviço ideal do Microsoft 365?
 
-Uma porta frontal de serviço ideal do Microsoft 365 é a mais próxima de sua saída de rede, geralmente em sua cidade ou área de metro. Use a ferramenta de teste de conectividade do [Microsoft 365 (visualização)](office-365-network-mac-perf-onboarding-tool.md) para determinar a localização da porta frontal de serviço do Microsoft 365 em uso e a porta de entrada de serviço ideal. Se a ferramenta determinar que sua porta frontal em uso é ideal, então você está se conectando de forma ideal à rede global da Microsoft.
+Uma porta frontal de serviço ideal do Microsoft 365 é a mais próxima à saída de rede, geralmente na sua cidade ou na área de metro. Use a ferramenta de teste de conectividade do [Microsoft 365 (visualização)](office-365-network-mac-perf-onboarding-tool.md) para determinar a localização da porta frontal de serviço do Microsoft 365 em uso e a porta de entrada de serviço ideal. Se a ferramenta determinar que sua porta frontal em uso é ideal, então você está se conectando de forma ideal à rede global da Microsoft.
 
 ### <a name="what-is-an-internet-egress-location"></a>O que é um local de saída da Internet?
 

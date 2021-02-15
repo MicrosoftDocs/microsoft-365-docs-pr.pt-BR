@@ -70,7 +70,7 @@ ms.locfileid: "50126366"
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração do Microsoft 365, vá para a **página** Configurar \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domínios.</a>
+1. No centro de administração do Microsoft 365, vá para a **página** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domínios da</a> Instalação.
 
 ::: moniker-end
     

@@ -29,7 +29,7 @@ ms.locfileid: "50099673"
 ---
 # <a name="azure-information-protection-support-for-office-365-operated-by-21vianet"></a>Suporte à Proteção de Informações do Azure para o Office 365 operado pela 21Vianet
 
-Este artigo aborda as diferenças entre o suporte à Proteção de Informações do Azure (AIP) para o Office 365 operado pela 21Vianet e ofertas comerciais, bem como instruções específicas para configurar o AIP para clientes na China, incluindo como instalar o scanner local do AIP e gerenciar trabalhos de verificação de &mdash; conteúdo.
+Este artigo aborda as diferenças entre o suporte à Proteção de Informações do Azure (AIP) para o Office 365 operado pela 21Vianet e as ofertas comerciais, bem como instruções específicas para configurar o AIP para clientes na China, incluindo como instalar o scanner local do AIP e gerenciar trabalhos de verificação de &mdash; conteúdo.
 
 ## <a name="differences-between-aip-for-office-365-operated-by-21vianet-and-commercial-offerings"></a>Diferenças entre o AIP para o Office 365 operado pela 21Vianet e ofertas comerciais
 
@@ -47,7 +47,7 @@ A lista a seguir inclui as lacunas existentes entre o AIP para o Office 365 oper
   
 - O IRM com o SharePoint (bibliotecas e sites protegidos por IRM) não está disponível no momento.
   
-- A extensão de dispositivo móvel para AD RMS não está disponível no momento.
+- A Extensão de Dispositivo Móvel para AD RMS não está disponível no momento.
 
 - O [Visualizador Móvel](/azure/information-protection/rms-client/mobile-app-faq) não é suportado pelo Azure China 21Vianet.
 
@@ -105,7 +105,7 @@ Além disso, a suposição é de que os usuários entrarão com um nome de usuá
 
 3. Associe o domínio personalizado ao locatário no [portal do Azure.](https://portal.azure.cn/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains) Isso adicionará uma entrada no DNS, que pode levar vários minutos para ser verificada depois que você adicionar o valor às configurações de DNS.
 
-4. Entre no centro de administração do Microsoft 365 com as credenciais de administrador global correspondentes e adicione o domínio (por exemplo, `contoso.cn` ) para criação do usuário. No processo de verificação, alterações de DNS adicionais podem ser necessárias. Depois que a verificação é feita, os usuários podem ser criados.
+4. Entre no centro de administração do Microsoft 365 com as credenciais de administrador global correspondentes e adicione o domínio (por exemplo, `contoso.cn` ) para criação do usuário. No processo de verificação, alterações de DNS adicionais podem ser necessárias. Quando a verificação for feita, os usuários poderão ser criados.
 
 #### <a name="configure-dns-encryption---mac-ios-android"></a>Configurar criptografia DNS - Mac, iOS, Android
 
@@ -144,7 +144,7 @@ Os aplicativos AIP no Windows precisam da seguinte chave do Registro para aponta
 > [!IMPORTANT]
 > Certifique-se de não excluir a chave do Registro após uma desinstalação. Se a chave estiver vazia, incorreta ou inexistente, a funcionalidade se comportará como o valor padrão (valor padrão = 0 para a nuvem comercial). Se a chave estiver vazia ou incorreta, um erro de impressão também será adicionado ao log.
 
-### <a name="step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs"></a>Etapa 5: Instalar o scanner local do AIP e gerenciar trabalhos de verificação de conteúdo
+### <a name="step-5-install-the-aip-on-premises-scanner-and-manage-content-scan-jobs"></a>Etapa 5: instalar o scanner local do AIP e gerenciar trabalhos de verificação de conteúdo
 
 Instale o scanner local do AIP para verificar se há dados confidenciais na rede e nos compartilhamentos de conteúdo e aplique rótulos de classificação e proteção conforme configurado na política da sua organização.
 
@@ -152,7 +152,7 @@ Ao instalar o scanner e gerenciar seus trabalhos de verificação de conteúdo, 
 
 | Cmdlet | Descrição |
 |--|--|
-| [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | Adiciona um novo repositório ao trabalho de verificação de conteúdo. |
+| [Add-AIPScannerRepository](/powershell/module/azureinformationprotection/add-aipscannerrepository) | Adiciona um novo repositório ao seu trabalho de verificação de conteúdo. |
 | [Get-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/get-aipscannercontentscanjob) | Obtém detalhes sobre seu trabalho de verificação de conteúdo. |
 | [Get-AIPScannerRepository](/powershell/module/azureinformationprotection/get-aipscannerrepository) | Obtém detalhes sobre repositórios definidos para seu trabalho de verificação de conteúdo. |
 | [Remove-AIPScannerContentScanJob](/powershell/module/azureinformationprotection/remove-aipscannercontentscanjob) | Exclui seu trabalho de verificação de conteúdo. |

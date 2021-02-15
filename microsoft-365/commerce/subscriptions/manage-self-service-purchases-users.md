@@ -40,13 +40,13 @@ O administrador tem uma exibição somente leitura em todas as assinaturas que v
 Você pode exibir uma lista de todas as assinaturas adquiridas por autoatend à sua compra.
 
 1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
-2. Na guia **Produtos,** selecione o ícone de filtro e, em seguida, **selecione Autoatendínio.**
+2. Na guia **Produtos,** selecione o ícone de filtro e selecione **Autoatendínio.**
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Como comprar mais ou reduzir licenças
 
 1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
 2. Na guia **Produtos,** selecione a assinatura para a que você deseja comprar mais ou reduzir licenças.
-3. Escolha **Comprar licenças** ou **Remover licenças.**
+3. Escolha **Comprar licenças ou** Remover **licenças.**
 4. No painel direito, na caixa Total de **licenças,** insira o número total de licenças que você deseja para esta assinatura e escolha **Salvar.** Por exemplo, se você tiver 100 licenças e quiser adicionar mais 5, digite 105.
 
 ## <a name="assign-or-unassign-licenses"></a>Atribuir ou desatribuição de licenças
@@ -73,7 +73,7 @@ Você pode exibir uma lista de todas as assinaturas adquiridas por autoatend à 
 
 1. No centro de administração, acesse a página **Cobrança de** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">seus produtos</a>.
 2. Na guia **Produtos**, encontre a assinatura que deseja cancelar. Selecione **Mais ações** (três pontos) e, em seguida, selecione **Cancelar assinatura**.
-3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário que você tiver.
+3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça os comentários que você tiver.
 4. Selecione **Salvar**.
 
 ## <a name="manage-your-payment-details"></a>Gerenciar seus detalhes de pagamento

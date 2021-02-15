@@ -38,9 +38,9 @@ ms.locfileid: "50114496"
 
 ::: moniker-end
 
-Os complementos do Office ajudam você a personalizar seus documentos e simplificar a maneira como você acessa informações na Web (confira Começar a usar o seu Complemento [do Office).](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862) Como administrador, você pode implantar os complementos do Office para os usuários em sua organização usando o recurso Implantação Centralizada no Centro de administração do Microsoft 365. A Implantação Centralizada é a maneira recomendada e mais rica em recursos para a maioria dos administradores implantarem complementos para usuários e grupos dentro de uma organização. 
+Os complementos do Office ajudam você a personalizar seus documentos e simplificar a maneira como você acessa informações na Web (confira Começar a usar o seu Complemento [do Office).](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862) Como administrador, você pode implantar os complementos do Office para os usuários em sua organização usando o recurso implantação centralizada no centro de administração do Microsoft 365. A Implantação Centralizada é a maneira recomendada e mais rica em recursos para a maioria dos administradores implantarem complementos para usuários e grupos dentro de uma organização. 
 
-Para obter mais informações sobre como determinar se sua organização pode suportar a Implantação Centralizada, consulte Determinar se a Implantação Centralizada de [complementos funciona para sua organização.](centralized-deployment-of-add-ins.md)
+Para obter mais informações sobre como determinar se sua organização pode dar suporte à Implantação Centralizada, consulte Determinar se a Implantação Centralizada de [complementos funciona para sua organização.](centralized-deployment-of-add-ins.md)
 
 Para saber mais sobre como gerenciar os complementos após a implantação, consulte [Gerenciar os complementos no centro de administração](manage-addins-in-the-admin-center.md)
   
@@ -63,7 +63,7 @@ Dependendo do tamanho do público-alvo, você pode adicionar ou remover etapas d
 
 Antes de começar, confira [Determinar se a Implantação Centralizada de complementos funciona para sua organização.](centralized-deployment-of-add-ins.md)
   
-1. No centro de administração, vá para a **página** \> **Configurações de Complementos.** Se você não vir a Página **de** Complemento, vá para a página Configurações **Integradas** de \>  \> **Aplicativos.**
+1. No centro de administração, vá para a **página** Configurações \> **de Complementos.** Se você não vir a Página **de** Complemento, vá para a página Configurações **Integradas** de \>  \> **Aplicativos.**
     
 2. Selecione **Implantar o add-in** na parte superior da página e, em seguida, **selecione Próximo**.
  
@@ -132,7 +132,7 @@ As atualizações para os complementos ocorrem da seguinte forma:
 - **Complemento de linha de negócios:** Nesse caso, em que um administrador carregou explicitamente um manifesto, o add-in exige que o administrador carregue um novo arquivo de manifesto para dar suporte a alterações de metadados. Na próxima vez que os aplicativos relevantes do Office iniciarem, o suplemento será atualizado. O aplicativo Web pode mudar a qualquer momento. 
 
     > [!NOTE]
-    > O administrador não precisa remover um add-in LOB para fazer uma atualização.   Na seção Add-ins, o administrador pode simplesmente clicar no  add-in LOB e escolher o botão Atualizar no canto inferior direito. A atualização só funcionará se a versão do novo add-in for maior do que a do complemento existente.   
+    > O administrador não precisa remover um Add-in LOB para fazer uma atualização.   Na seção Add-ins, o administrador pode simplesmente clicar no  add-in LOB e escolher o botão Atualizar no canto inferior direito. A atualização só funcionará se a versão do novo add-in for maior do que a do complemento existente.   
     
 - **Office Store add-in:** Quando um administrador seleciona um complemento da Office Store, se um complemento for atualizado na Office Store, ele será atualizado posteriormente na Implantação Centralizada. Na próxima vez que os aplicativos relevantes do Office iniciarem, o suplemento será atualizado. O aplicativo Web pode mudar a qualquer momento. 
   
@@ -144,6 +144,6 @@ As atualizações para os complementos ocorrem da seguinte forma:
 
 [Menores de idade e aquisição de complementos da loja](minors-and-acquiring-addins-from-the-store.md)
   
-[Usar cmdlets do PowerShell de Implantação Centralizada para gerenciar os complementos](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
+[Usar cmdlets do PowerShell de implantação centralizada para gerenciar os complementos](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
   
 [Solução de problemas: o usuário não está vendo os complementos](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)

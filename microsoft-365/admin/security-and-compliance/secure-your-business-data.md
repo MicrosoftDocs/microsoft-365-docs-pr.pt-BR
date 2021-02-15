@@ -44,9 +44,9 @@ A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir q
 
 ||Tarefas|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
-|1|[Configurar autenticação multifatorial](secure-your-business-data.md#setup)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|2|[Treinar os usuários](secure-your-business-data.md#train)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
-|3|[Usar contas de administrador dedicadas](secure-your-business-data.md#admin)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|1 |[Configurar autenticação multifatorial](secure-your-business-data.md#setup)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|2 |[Treinar os usuários](secure-your-business-data.md#train)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
+|3 |[Usar contas de administrador dedicadas](secure-your-business-data.md#admin)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |4 |[Aumentar o nível de proteção contra malware no email](secure-your-business-data.md#malware)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |5 |[Proteção contra ransomware](secure-your-business-data.md#ransomware)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |6 |[Parar o encaminhamento automático de email](secure-your-business-data.md#forwarding)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -128,7 +128,7 @@ Seu ambiente do Microsoft 365 inclui proteção contra malware, mas você pode a
 
 4. Selecione **Configurações**.
 
-5. Under **Common Attachment Types Filter**, select **On**. Os tipos de arquivo bloqueados são listados na janela diretamente abaixo desse controle. Você pode adicionar ou excluir tipos de arquivo posteriormente, se necessário.
+5. Under **Common Attachment Types Filter**, select **On**. Os tipos de arquivo bloqueados estão listados na janela diretamente abaixo desse controle. Você pode adicionar ou excluir tipos de arquivo posteriormente, se necessário.
 
 6. Selecione **Salvar.**
 
@@ -141,11 +141,11 @@ O ransomware restringe o acesso aos dados criptografando arquivos ou travando te
 
 Você pode se proteger contra ransomware criando uma ou mais regras de fluxo de emails para bloquear extensões de arquivo comumente usadas para ransomware ou para avisar os usuários que recebem esses anexos por email. Um bom ponto de partida é criar duas regras:
 
-- Avisar os usuários antes de abrir anexos de arquivo do Office que incluam macros. Ransomware pode ficar oculto em macros, portanto, avisaremos os usuários para não abrirem esses arquivos de pessoas que não conhecem.
+- Avisar os usuários antes de abrir anexos de arquivo do Office que incluam macros. Ransomware pode ficar oculto dentro de macros, portanto, avisaremos os usuários para não abrirem esses arquivos de pessoas que não conhecem.
 
 - Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado. Vamos começar com uma lista comum de executáveis (listada na tabela abaixo). Se sua organização usa qualquer um desses tipos executáveis e você espera que eles sejam enviados por email, adicione-os à regra anterior (avisar os usuários).
 
-Para criar uma regra de transporte de email, assista a um [breve vídeo de treinamento](https://support.microsoft.com/office/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)ou conclua as seguintes etapas:
+Para criar uma regra de transporte de email, veja um [breve vídeo de treinamento](https://support.microsoft.com/office/a9ecca03-42a6-4867-b9fd-38e3f6bb06ad)ou conclua as seguintes etapas:
 
 1. Vá até o [Centro de administração do Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104).
 

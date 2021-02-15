@@ -38,7 +38,7 @@ ms.locfileid: "50114472"
 
 ::: moniker range="o365-worldwide"
 
-Você pode desa designar licenças de usuários na página Usuários **ativos** ou **na página Licenças.** O método usado depende se você deseja desa designar licenças de produto de usuários específicos ou desa designar licenças de usuários de um produto específico.
+Você pode desa designar licenças de usuários na página Usuários **ativos** ou **na página Licenças.** O método usado depende se você deseja desa designar licenças de produto de usuários específicos ou se deseja rea designar licenças de usuários de um produto específico.
 
 ::: moniker-end
 
@@ -52,7 +52,7 @@ Você pode desa designar licenças de usuários na página Usuários **ativos** 
 
 ## <a name="use-the-licenses-page-to-unassign-licenses"></a>Usar a página Licenças para desa designar licenças
 
-Ao usar a **página Licenças** para desa designar licenças, você desafere licenças para um produto específico para até 20 usuários.
+Ao usar a página **Licenças** para desa designar licenças, você desafere licenças para um produto específico para até 20 usuários.
 
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
 2. Selecione o produto para o qual você deseja desaignar licenças.
@@ -143,7 +143,7 @@ Ao usar a página **Usuários ativos** para desa designar licenças, você desaf
 - Quando a licença é removida, a caixa de correio do usuário não é mais pesquisável usando uma ferramenta de Descoberta Eletrônico, como Pesquisa de Conteúdo ou Descoberta Avançada. Para obter mais informações, consulte "Pesquisar caixas de correio desconectadas ou sem licença" na Pesquisa de [Conteúdo no Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/content-search#searching-disconnected-or-de-licensed-mailboxes)
 - Se você tiver uma assinatura Enterprise, como o Office 365 Enterprise E3, o Exchange Online permite preservar os dados da caixa de correio de uma conta de usuário excluída usando caixas de correio [inativas.](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365) Para obter mais informações, consulte Criar e gerenciar caixas de correio [inativas no Exchange Online.](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes)
 - Para saber como bloquear o acesso de um usuário aos dados do Microsoft 365 após a remoção da licença e como obter acesso aos dados posteriormente, confira Remover um [ex-funcionário.](../add-users/remove-former-employee.md)
-- Se você remover a licença de um usuário e ele ainda tiver aplicativos do Office [instalados,](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) ele verá erros de ativação e produto não licenciamento no Office ao usar os aplicativos do Office.
+- Se você remover a licença de um usuário e ele ainda tiver aplicativos do Office instalados, ele verá erros de ativação e produto não licenciamento no Office ao usar os [aplicativos](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) do Office.
 
 ## <a name="next-steps"></a>Próximas etapas
 

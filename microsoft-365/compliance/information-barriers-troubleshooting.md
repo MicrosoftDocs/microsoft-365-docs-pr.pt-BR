@@ -22,7 +22,7 @@ ms.locfileid: "50126558"
 ---
 # <a name="troubleshooting-information-barriers"></a>Solução de problemas de barreiras de informações
 
-[As barreiras de informações](information-barriers.md) podem ajudar sua organização a permanecer em conformidade com os requisitos legais e os regulamentos do setor. Por exemplo, com barreiras de informações, você pode restringir a comunicação entre grupos de usuários específicos para evitar um conflito de interesses ou outros problemas. (Para saber mais sobre como configurar barreiras de informações, consulte [Definir políticas para barreiras de informações.)](information-barriers-policies.md)
+[As barreiras de informações](information-barriers.md) podem ajudar sua organização a permanecer em conformidade com os requisitos legais e os regulamentos do setor. Por exemplo, com barreiras de informações, você pode restringir a comunicação entre grupos específicos de usuários para evitar um conflito de interesses ou outros problemas. (Para saber mais sobre como configurar barreiras de informações, consulte [Definir políticas para barreiras de informações.)](information-barriers-policies.md)
 
 Caso as pessoas se deem com problemas inesperados depois que as barreiras de informações estão em vigor, há algumas etapas que você pode seguir para resolver esses problemas. Use este artigo como guia.
 
@@ -47,7 +47,7 @@ Determinar se os usuários são afetados por uma política de barreira de inform
     |:---------|:----------|
     | `Get-InformationBarrierRecipientStatus -Identity` <p> É possível usar qualquer valor de identidade que identifique cada destinatário com exclusividade, como Nome, Alias, Nome Diferenciado (DN), DN Canônico, Endereço de Email ou GUID. |`Get-InformationBarrierRecipientStatus -Identity meganb` <p> Neste exemplo, estamos usando um alias (*meganb*) para o parâmetro Identity. Este cmdlet retornará informações que indicam se o usuário é afetado por uma política de barreira de informações. (Procure *ExoPolicyId: \<GUID> .) |
 
-    **Se os usuários não estão incluídos nas políticas de barreira de informações, entre em contato com o suporte.** Caso contrário, prossiga para a próxima etapa.
+    **Se os usuários não estão incluídos nas políticas de barreira de informações, contate o suporte.** Caso contrário, prossiga para a próxima etapa.
 
 2. Descubra quais segmentos estão incluídos em uma política de barreira de informações. Para fazer isso, use o `Get-InformationBarrierPolicy` cmdlet com o parâmetro Identity. 
 
@@ -75,9 +75,9 @@ Determinar se os usuários são afetados por uma política de barreira de inform
     |:---------|:----------|
     | `Get-OrganizationSegment`<p> Use este cmdlet com um parâmetro Identity. | `Get-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd` <p> Neste exemplo, estamos recebendo informações sobre o segmento que tem GUID *c96e0837-c232-4a8a-841e-ef45787d8fcd.* |
 
-    Revise os detalhes do segmento. Se necessário, [edite um segmento](information-barriers-edit-segments-policies.md#edit-a-segment)e use o `Start-InformationBarrierPoliciesApplication` cmdlet.
+    Revise os detalhes do segmento. Se necessário, [edite um segmento](information-barriers-edit-segments-policies.md#edit-a-segment)e, em seguida, re-use o `Start-InformationBarrierPoliciesApplication` cmdlet.
 
-    **Se você ainda estiver tendo problemas com sua política de barreira de informações, entre em** contato com o suporte.
+    **Se você ainda estiver tendo problemas com sua política de barreira de informações, entre em contato com o suporte.**
 
 ## <a name="issue-communications-are-allowed-between-users-who-should-be-blocked-in-microsoft-teams"></a>Problema: as comunicações são permitidas entre usuários que devem ser bloqueados no Microsoft Teams
 
@@ -149,7 +149,7 @@ Lembre-se de que, ao executar o cmdlet de aplicativo de política, as políticas
     |:---------|:------------|
     | **Não iniciado** | Se tiver sido mais de 45 minutos desde que o cmdlet **Start-InformationBarrierPoliciesApplication** foi executado, revise seu log de auditoria para ver se há erros nas definições de política ou algum outro motivo pelo qual o aplicativo não foi iniciado. |
     | **Falhou** | Se o aplicativo tiver falhado, revise o log de auditoria. Revise também seus segmentos e políticas. Algum usuário está atribuído a mais de um segmento? Há segmentos atribuídos a mais de uma poliicia? Se necessário, [edite segmentos](information-barriers-edit-segments-policies.md#edit-a-segment) e/ou [edite](information-barriers-edit-segments-policies.md#edit-a-policy)políticas e execute o cmdlet **Start-InformationBarrierPoliciesApplication** novamente. |
-    | **Em andamento** | Se o aplicativo ainda estiver em andamento, deixe mais tempo para ser concluído. Se já tiver sido vários dias, reúna seus logs de auditoria e contate o suporte. |
+    | **Em andamento** | Se o aplicativo ainda estiver em andamento, deixe mais tempo para ser concluído. Se já faz vários dias, reúna seus logs de auditoria e contate o suporte. |
 
 ## <a name="issue-information-barrier-policies-are-not-being-applied-at-all"></a>Problema: as políticas de barreira de informações não estão sendo aplicadas
 
@@ -157,7 +157,7 @@ Nesse caso, você definiu segmentos, definiu políticas de barreira de informaç
 
 ### <a name="what-to-do"></a>O que fazer
 
-Certifique-se de que sua organização não tenha políticas de [agenda do Exchange](/exchange/address-books/address-book-policies/address-book-policies) em uso. Essas políticas impedirão a aplicação de políticas de barreira de informações.
+Certifique-se de que sua organização não tenha políticas [de agenda do Exchange](/exchange/address-books/address-book-policies/address-book-policies) em uso. Essas políticas impedirão a aplicação de políticas de barreira de informações.
 
 1. Conecte-se [ao PowerShell do Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell)
 

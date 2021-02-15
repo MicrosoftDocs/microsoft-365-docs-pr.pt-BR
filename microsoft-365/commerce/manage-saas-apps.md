@@ -113,7 +113,7 @@ Cada aplicativo de software como serviço tem um perfil de cobrança atribuído 
 - **Informações de contato** – Endereço de cobrança e um nome de contato
 - **Funções** – Funções que permitem alterar o perfil de cobrança, pagar faturas ou usar a forma de pagamento no perfil de cobrança para fazer a compra.
 
-Para obter mais informações sobre perfis de cobrança, consulte [Entender os perfis de cobrança.](https://docs.microsoft.com/microsoft-store/billing-profile)
+Para obter mais informações sobre perfis de cobrança, consulte [Entender perfis de cobrança.](https://docs.microsoft.com/microsoft-store/billing-profile)
 
 ### <a name="change-the-billing-profile-on-a-software-as-a-service-app-subscription"></a>Alterar o perfil de cobrança em uma assinatura de aplicativo de software como serviço
 
@@ -121,7 +121,7 @@ Para obter mais informações sobre perfis de cobrança, consulte [Entender os p
 2. Encontre e selecione o aplicativo que você deseja gerenciar.
 3. Ao lado **de Perfil de Cobrança,** selecione **Editar**.
 
-Para obter mais informações sobre faturas, consulte [Entender sua fatura ou fatura.](billing-and-payments/understand-your-invoice.md)
+Para obter mais informações sobre faturas, [consulte Entender sua fatura ou fatura.](billing-and-payments/understand-your-invoice.md)
 
 ## <a name="cancel-a-software-as-a-service-app-subscription"></a>Cancelar uma assinatura de aplicativo de software como serviço
 

@@ -22,7 +22,7 @@ ms.locfileid: "50107703"
 ---
 # <a name="microsoft-viva-topics-discovery-and-curation"></a>Descoberta e cura de tópicos do Microsoft Viva 
 
-Os Tópicos do Viva organizam informações de conhecimento em seu ambiente do Microsoft 365. Todos já vimos a leitura por meio de documentos e páginas de site em que encontramos termos com os quais não estamos familiarizados. Muitas vezes paramos o que estamos fazendo para gastar muito tempo procurando por mais informações.
+Os Tópicos do Viva organizam informações de conhecimento em seu ambiente do Microsoft 365. Todos já vimos a leitura por meio de documentos e páginas de site em que encontramos termos com os quais não estamos familiarizados. Muitas vezes paramos o que estamos fazendo para gastar pouco tempo procurando por mais informações.
 
 Os tópicos do Viva usam o Microsoft Graph e a IA para **identificar tópicos** em sua organização.  Um tópico é uma frase ou termo que tem um significado específico para a organização e tem recursos relacionados a ela que podem ajudar as pessoas a entender o que são e encontrar mais informações sobre ele. Há vários tipos diferentes de tópicos que serão importantes para sua organização. Inicialmente, os seguintes tipos de tópicos podem ser identificados:
 - Project
@@ -67,7 +67,7 @@ Os Tópicos do Viva são bem-vindos à contribuição humana para melhorar a qua
 
     4. Na home page da Central de Tópicos, você pode ver os tópicos em sua organização aos quais você tem uma conexão. Você pode optar por permanecer listado no tópico ou remover você mesmo. Esses comentários se refletem em todos os usuários que descobrirem esse tópico. Consulte [a visão geral da central de](https://docs.microsoft.com/microsoft-365/knowledge/topic-center-overview) tópicos para obter mais detalhes sobre a home page da central de tópicos.
 
-Mesmo com edições humanas, a IA procurará continuamente mais informações sobre tópicos e procurará verificação humana. Por exemplo, se a IA achar que você é uma pessoa que deve ser listada como um especialista em um tópico, ele solicitará que você confirme isso. 
+Mesmo com edições humanas, a IA procurará continuamente mais informações sobre tópicos e procurará por verificação humana. Por exemplo, se a IA achar que você é uma pessoa que deve ser listada como um especialista em um tópico, ele solicitará que você confirme isso. 
 
 
 ## <a name="see-also"></a>Confira também

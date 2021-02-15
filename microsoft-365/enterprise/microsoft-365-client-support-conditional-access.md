@@ -27,7 +27,7 @@ ms.locfileid: "50097241"
 
 No local de trabalho moderno, os usuários podem acessar os recursos da sua organização usando vários dispositivos e aplicativos de qualquer lugar. Como resultado, apenas focar em quem pode acessar um recurso não é mais suficiente. Sua organização também deve dar suporte a como e onde um recurso é acessado em sua infraestrutura de controle de acesso.
 
-Com o acesso condicional baseado em autenticação multifacional, local e dispositivo do Azure Active Directory, você pode atender a esse novo requisito. O Acesso Condicional é um recurso do Azure Active Directory que permite impor controles no acesso a aplicativos em seu ambiente, tudo com base em condições específicas e gerenciado de um local central.
+Com o acesso condicional baseado em autenticação multifacional, local e dispositivo do Azure Active Directory, você pode atender a esse novo requisito. O Acesso Condicional é um recurso do Azure Active Directory que permite impor controles no acesso a aplicativos em seu ambiente, tudo com base em condições específicas e gerenciados de um local central.
 
 Saiba mais sobre o Acesso Condicional do [Azure Active Directory.](/azure/active-directory/conditional-access/)
 
@@ -40,43 +40,43 @@ As versões mais recentes dos seguintes clientes e plataformas suportam acesso c
 
 | Clientes | Android | iOS | Mac| Windows 10 <br> Aplicativos modernos| Windows 10 <br> Desktop |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| Administrador do Azure Active Directory | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Access | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Administrador do Azure | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
+| Administrador do Azure Active Directory | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Acessar | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Administrador do Azure | N/D | N/D | N/D | N/D | N/D |
 | Portal da empresa | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
-| Cortana | Planejado | Planejado | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
-| Delve | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Borda | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
+| Cortana | Planejado | Planejado | N/D | ![Com suporte](../media/check-mark.png) | N/D |
+| Delve | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
+| Borda | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | ![Com suporte](../media/check-mark.png) |
 | Excel | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Administrador do Exchange Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Formulários | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
-| Administração do Office 365 | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |  |
-| Kaizala | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
+| Administrador do Exchange Online | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Forms | N/D | N/D | N/D | N/D | N/D |
+| Administração do Office 365 | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |  |
+| Kaizala | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
 | Office Lens| ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
-| Office Mobile | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Portal do Office | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
+| Office Mobile | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
+| Portal do Office | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | OneDrive | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | OneNote | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | Outlook | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Planner | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Aplicativos de energia | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | Planejado | Não disponível |
-| Power Automate | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
+| Planner | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
+| Power Apps | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | Planejado | N/D |
+| Power Automate | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
 | Power BI | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
 | PowerPoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Project | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Publisher | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Skype for Business | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível ||
-| SharePoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Administrador do SharePoint Online | Não disponível | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Observações Desaderentadas | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
-| Stream | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | Não disponível |
-| Sway | Não disponível | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) | N/D |
+| Project | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Publisher | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Skype for Business | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D ||
+| SharePoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
+| Administrador do SharePoint Online | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Observações Desaderentadas | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) | N/D |
+| Stream | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
+| Sway | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Teams | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) |
 | To Do | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D |
-| Visio | Não disponível | ![Com suporte](../media/check-mark.png) | Não disponível | Não disponível | ![Com suporte](../media/check-mark.png) |
-| Quadro de comunicações | Planejado | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
+| Visio | N/D | ![Com suporte](../media/check-mark.png) | N/D | N/D | ![Com suporte](../media/check-mark.png) |
+| Whiteboard | Planejado | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
 | Word | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Análise do local de trabalho | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
+| Análise do local de trabalho | N/D | N/D | N/D | N/D | N/D |
 | Yammer | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) |
 
 ## <a name="supported-powershell-modules"></a>Módulos do PowerShell com suporte

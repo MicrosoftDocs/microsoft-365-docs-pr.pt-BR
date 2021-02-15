@@ -60,7 +60,7 @@ Aqui estão alguns recursos para ajudá-lo a começar.
   
 - [Treinamento para administradores:](https://docs.microsoft.com/microsoft-365/admin)obter links para aulas online gratuitas para administradores.
     
-- [Ajuda do](https://docs.microsoft.com/microsoft-365/admin/admin-home)administrador: obter informações sobre as principais tarefas, começar a trabalhar com ferramentas de administração e solucionar problemas.
+- [Ajuda do administrador:](https://docs.microsoft.com/microsoft-365/admin/admin-home)obter informações sobre as principais tarefas, começar a trabalhar com ferramentas de administração e solucionar problemas.
     
 - [Contate o suporte - Ajuda do](../contact-support-for-business-products.md) Administrador: ligue para nós, abra uma solicitação online ou deixe a comunidade ajudar. 
     

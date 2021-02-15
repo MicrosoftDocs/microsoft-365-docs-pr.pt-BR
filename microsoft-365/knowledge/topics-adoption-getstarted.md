@@ -69,7 +69,7 @@ Para planejar a adoção de tópicos do Viva, você precisa:
     - Comece a pensar em como envolver alguns usuários inserdos para obter comentários críticos e antecipados para que você possa iterar para chegar à melhor solução.
     - Comece a criar a comunidade e pense em como os Tópicos do Viva podem ser usados em toda a organização por esses grupos diferentes.
 
-3. Treine sua organização: a maioria das pessoas compreenderá intuitivamente o conceito de tópicos e como os cartões de tópico compilam informações relevantes, entenderão e verão o valor. Mas talvez você queira criar um treinamento personalizado para sua própria cultura e organização, para mostrar como você deseja que os tópicos do Viva sejam usados. Alguns recursos de treinamento:
+3. Treine sua organização: a maioria das pessoas compreenderá intuitivamente o conceito de tópicos e como os cartões de tópico compilam informações relevantes, entenderão e verão o valor. Mas talvez você queira criar um treinamento personalizado para sua própria cultura e organização, para mostrar como você deseja que os Tópicos do Viva sejam usados. Alguns recursos de treinamento:
     - [Central de Recursos do Project Cortex.](https://aka.ms/projectcortex) Inclui visão geral e informações de recursos, vídeos e apresentações gravados no horário do escritório e informações sobre parceiros e suas ofertas.
     - Em breve, vídeos de treinamento e ajuda para usuários finais.
 
@@ -80,9 +80,9 @@ Para planejar a adoção de tópicos do Viva, você precisa:
 
 Você precisa determinar como deseja usar os Tópicos do Viva em sua organização para ter sucesso com os tópicos. Aqui estão alguns cenários em que tópicos e gerenciamento de conhecimento podem ajudar sua organização:
 
-- Integração de função & treinamento: compreender a terminologia, os principais projetos e a cultura de uma nova organização são etapas importantes na integração. A descoberta fácil de tópicos pode ajudar os novos funcionários a se aumentarem rapidamente em novos trabalhos, funções ou projetos.
+- Integração de função & treinamento: compreender a terminologia, os principais projetos e a cultura de uma nova organização são etapas importantes na integração. A descoberta fácil de tópicos pode ajudar os novos funcionários a aumentar a velocidade de novos trabalhos, funções ou projetos.
 - Descoberta de experiência e compartilhamento de informações: quando os tópicos são gerenciados e compartilhados, as pessoas em suas organizações podem encontrar informações e especialistas mais facilmente para ajudá-los no trabalho do dia a dia.
-- Tomada de decisões expandida e tempo aprimorado no mercado: quando informações e especialistas são fáceis de alcançar, você pode tomar decisões com mais facilidade e facilitar o tempo de folga dos projetos.
+- Tomada de decisões expandida e tempo aprimorado no mercado: quando as informações e os especialistas são fáceis de alcançar, você pode tomar decisões com mais facilidade e facilitar o tempo de folga dos projetos.
 
 Por exemplo, aqui está um cenário de integração de função:
 
@@ -104,7 +104,7 @@ Escolha alguns cenários principais para se concentrar inicialmente, trabalhe co
 
 Identifique os participantes do seu projeto. As principais funções são o patrocinador executivo, o proprietário do sucesso e os campeões.
 
-|Role |Responsabilidades |Department |
+|Função |Responsabilidades |Department |
 |:-------|:-------|:--------|
 | Patrocinadores executivos   | Comunicar visão de alto nível e valores à empresa   |  Liderança executiva   |
 | Líder(s) do projeto | Supervisionar todo o processo de execução e lançamento de lançamento | Gerenciamento de projeto |
@@ -112,7 +112,7 @@ Identifique os participantes do seu projeto. As principais funções são o patr
 | Gerentes de conhecimento | Gerenciar tópicos e supervisionar a taxonomia | Qualquer departamento |
 | Gerentes de taxonomia | Supervisionar a taxonomia | Qualquer departamento |
 | Especialistas no assunto e colaboradores do tópico | Gerar ou revisar tópicos e descrições | Qualquer departamento |
-| Campeões | Ajudar o evangelize e gerenciar a manipulação de objeção | Qualquer departamento (funcionário) |
+| Campeões | Ajudar o evangelize e gerenciar tratamento de objeção | Qualquer departamento (funcionário) |
 | Administrador de locatários | Definir configurações no nível do locatário | Departamento de IT |
 | Administrador da Plataforma Do Power| Configurar o ambiente de serviços de dados comuns | Departamento de IT |
 | Administrador ou gerente de pesquisa | Definir configurações de pesquisa | Departamento de IT |

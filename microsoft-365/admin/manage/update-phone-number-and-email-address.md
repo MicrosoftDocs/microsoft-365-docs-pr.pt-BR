@@ -43,7 +43,7 @@ Se você estiver procurando como alterar informações de perfil da sua empresa,
 
 Use a **página Informações de Segurança** para alterar seu número de celular e endereço de email alternativo. O endereço de email alternativo é usado para notificações importantes, como redefinir a senha de administrador (não a senha de administrador do computador). 
   
-1. Navegue até o centro de administração do Microsoft 365.
+1. Navegue até o Centro de administração do Microsoft 365.
 
 2. No título, selecione o ícone de perfil Minhas informações \> **de** \> **segurança da conta.**
 

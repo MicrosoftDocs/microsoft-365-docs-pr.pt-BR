@@ -158,7 +158,7 @@ Verifique e marque esses itens na sua lista de verificação antes de continuar:
   |Outlook para iOS e Android  <br/> | Tecnologia de sincronização da Microsoft <br/> |Confira o artigo [Como usar a autenticação moderna híbrida com o Outlook para iOS e Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) para obter mais informações.  <br/> |
   |Clientes do Exchange ActiveSync (por exemplo, Mail do iOS 11)  <br/> |Exchange ActiveSync  <br/> |Para os clientes do Exchange ActiveSync compatíveis com a autenticação moderna, é preciso recriar o perfil para migrar da autenticação básica para a autenticação moderna.  <br/> |
 
-    Os clientes e/ou protocolos que não estão listados (por exemplo, POP3) não suportam a autenticação moderna com o Exchange local e continuam a aproveitar os mecanismos de autenticação herdados, mesmo depois que a autenticação moderna é habilitada no ambiente.
+    Os clientes e/ou protocolos que não estão listados (por exemplo, POP3) não suportam a autenticação moderna com o Exchange local e continuam a aproveitar mecanismos de autenticação herdados, mesmo depois que a autenticação moderna é habilitada no ambiente.
 
 - **Pré-requisitos gerais**
   - Os cenários de floresta de recursos exigirão uma relação de confiança de duas vias com a floresta de conta para garantir que as lookups de SID adequadas sejam executadas durante solicitações de autenticação moderna híbrida. 
