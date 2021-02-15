@@ -1,7 +1,7 @@
 ---
-title: Configurações configuráveis para a área de trabalho gerenciada da Microsoft
-description: Informações sobre configurações configuráveis com a área de trabalho gerenciada da Microsoft
-keywords: Área de trabalho gerenciada da Microsoft, Microsoft 365, serviço, documentação, configurações, configurações configuráveis
+title: Configurações configuráveis para a Área de Trabalho Gerenciada da Microsoft
+description: Informações sobre configurações configuráveis com a Área de Trabalho Gerenciada da Microsoft
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação, configurações, configurações configuráveis
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
@@ -18,60 +18,60 @@ ms.locfileid: "49371485"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>Configurações que podem ser alteradas – Área de Trabalho Gerenciada da Microsoft
 
-O Microsoft Managed desktop implanta configurações e políticas que são aplicadas a todos os dispositivos gerenciados pela área de trabalho gerenciada da Microsoft. Para obter mais informações, consulte [Device Configuration](../service-description/device-policies.md).
+A Área de Trabalho Gerenciada da Microsoft implanta configurações e políticas aplicadas a todos os dispositivos gerenciados pela Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Configuração do dispositivo.](../service-description/device-policies.md)
 
-As configurações que podem ser configuradas no Microsoft Managed desktop concedem aos administradores de ti uma maneira de personalizar e implantar as configurações exclusivas de sua organização e necessidades de negócios. Essas configurações são adicionais às configurações e políticas de configuração de dispositivo gerenciadas pela área de trabalho gerenciada da Microsoft.  
+As configurações configuráveis na Área de Trabalho Gerenciada da Microsoft dão aos administradores de IT uma maneira de personalizar e implantar configurações exclusivas para suas necessidades de organização e negócios. Essas configurações são além das configurações de dispositivos e políticas gerenciadas pela Área de Trabalho Gerenciada da Microsoft.  
 
-Alterações de configuração configuráveis são feitas na nuvem e aplicadas a seus dispositivos de área de trabalho gerenciada da Microsoft em grupos de implantação definidos. Esse processo é semelhante à forma como o Microsoft Managed desktop gerencia alterações nas configurações de dispositivo e políticas definidas e gerenciadas pelo serviço. Usando o mesmo processo que o Microsoft Managed desktop usa para implantar alterações, você continua a mover sua organização para frente, usando práticas modernas de gerenciamento de ti.
+As alterações de configuração configuráveis são feitas na nuvem e aplicadas aos dispositivos da Área de Trabalho Gerenciada da Microsoft em grupos de implantação definidos. Esse processo é semelhante ao modo como a Área de Trabalho Gerenciada da Microsoft gerencia as alterações nas configurações de dispositivos e políticas definidas e gerenciadas pelo serviço. Usando o mesmo processo que a Área de Trabalho Gerenciada da Microsoft usa para implantar alterações, você continua a mover sua organização para frente, usando as práticas modernas de gerenciamento de TI.
 
-## <a name="when-to-use-configurable-settings"></a>Quando usar as configurações configuráveis?
+## <a name="when-to-use-configurable-settings"></a>Quando usar configurações configuráveis?
 
-Há algumas vezes para usar as configurações que podem ser definidas. 
+Há algumas vezes para usar configurações configuráveis. 
 
-**Processo de integração** : o Microsoft Managed desktop recomenda que você personalize as configurações configuráveis ao fazer a integração com o serviço de área de trabalho gerenciada da Microsoft ou quando você integrar um grande número de dispositivos (20 ou mais). A configuração de categorias é configurada no portal de administração do Microsoft Managed desktop. Depois de ter integrado e ter acesso ao portal de administração, você pode decidir quais categorias de configuração você deseja personalizar para sua organização, fazer as alterações, preparar uma implantação e implantar suas alterações.
+**Processo de** integração – a Área de Trabalho Gerenciada da Microsoft recomenda que você personalize as configurações configuráveis ao fazer a integração ao serviço de Área de Trabalho Gerenciada da Microsoft ou quando você integra um grande número de dispositivos (20 ou mais). As categorias de configuração são configuradas no portal de administração da Área de Trabalho Gerenciada da Microsoft. Depois de ter feito a integração e ter acesso ao portal de administração, você pode decidir quais categorias de configuração você deseja personalizar para sua organização, fazer as alterações, preparar uma implantação e implantar suas alterações.
 
-**Manter configurações** – revise suas configurações regularmente e faça as atualizações necessárias. Talvez seja necessário fazer alterações para dar suporte a uma alteração em sua empresa.   
+**Manter configurações** - Revise suas configurações regularmente e faça as atualizações necessárias. Talvez seja necessário fazer alterações para dar suporte a uma alteração em sua empresa.   
 
-## <a name="setting-categories"></a>Configurações de categorias
+## <a name="setting-categories"></a>Definindo categorias
 
 Estas são as categorias de configurações configuráveis que você pode personalizar:
-- [Imagem de plano de fundo da área de trabalho](config-setting-ref.md#desktop-background-picture) – personalizar a imagem de plano de fundo da área de trabalho para os dispositivos 
-- [Páginas iniciais do navegador](config-setting-ref.md#browser-start-pages) – adicione as páginas iniciais a serem usadas com o Microsoft Edge. Consulte a página inicial do navegador
-- [Lista de sites do modo empresarial](config-setting-ref.md#enterprise-mode-site-list-location) – adicione sites e o modo de compatibilidade. Os sites na lista serão iniciados no Internet Explorer. 
-- [Sites confiáveis](config-setting-ref.md#trusted-sites) – adicione sites confiáveis e defina zonas de segurança para cada site. 
-- [Exceções de site de proxy](config-setting-ref.md#proxy) – configure o número de endereço e o número de porta do servidor proxy e adicione exceções de site de proxy.
+- [Imagem de plano de fundo da](config-setting-ref.md#desktop-background-picture) área de trabalho – Personalize a imagem de plano de fundo da área de trabalho para dispositivos da Área de Trabalho Gerenciada da Microsoft. 
+- [Páginas inciais do](config-setting-ref.md#browser-start-pages) navegador – Adicione páginas inciais para usar com o Microsoft Edge. Consulte a página inicial do navegador
+- [Lista de sites do modo Empresarial](config-setting-ref.md#enterprise-mode-site-list-location) – Adicionar sites e seu modo de compatibilidade. Os sites na lista serão iniciar no Internet Explorer. 
+- [Sites confiáveis](config-setting-ref.md#trusted-sites) – Adicionar sites confiáveis e definir zonas de segurança para cada site. 
+- [Exceções de site de](config-setting-ref.md#proxy) proxy – Configurar o número de endereço do servidor proxy e o número da porta e adicionar exceções de site de proxy.
 
-Cada categoria de configuração pode ser personalizada e implantada por conta própria. Você pode implantar alterações em várias categorias de configurações ao mesmo tempo, no entanto, você só pode implantar uma alteração por vez em uma categoria de configuração.
+Cada categoria de configuração pode ser personalizada e implantada por conta própria. Você pode implantar alterações em várias categorias de configuração ao mesmo tempo, no entanto, só é possível implantar uma alteração de cada vez em uma categoria de configuração.
 
 Por exemplo:
-- Você pode implantar alterações na imagem de plano de fundo da área de trabalho e sites confiáveis, cada como sua própria implantação, ao mesmo tempo. 
-- Você não pode implantar duas implantações em páginas iniciais do navegador ao mesmo tempo. A implantação mais recente interromperá implantações anteriores que ainda estão em andamento.
+- Você pode implantar alterações na imagem de plano de fundo da área de trabalho e em sites confiáveis, cada um como sua própria implantação, ao mesmo tempo. 
+- Não é possível implantar duas implantações em páginas inciais do navegador ao mesmo tempo. A implantação mais recente interromperá implantações anteriores que ainda estão em andamento.
 
 ## <a name="configurable-setting-process"></a>Processo de configuração configurável
 
-O Microsoft Managed desktop recomenda seguir um processo semelhante ao seguinte ao usar as configurações configuráveis para sua organização:
+A Área de Trabalho Gerenciada da Microsoft recomenda seguir um processo semelhante ao seguinte ao utilizar configurações configuráveis para sua organização:
 
-**Etapa 1-plano** : Saiba mais sobre as configurações configuráveis e decida quais categorias de configuração você deseja configurar para sua organização. Criar uma linha do tempo para quando você espera implantar alterações em cada grupo. Planejar a comunicação com seus usuários que atendam aos processos internos de gerenciamento de alterações. Por exemplo, se você estiver adicionando páginas iniciais do navegador, informe seus usuários de que eles terão um novo conjunto de páginas iniciais em seus navegadores após a implantação.  
+**Etapa 1 - Planejar** - Saiba mais sobre configurações configuráveis e decida quais categorias de configuração você deseja configurar para sua organização. Crie uma linha do tempo para quando você espera implantar alterações em cada grupo. Planeje a comunicação com seus usuários que atenda aos seus processos internos de gerenciamento de alterações. Por exemplo, se você estiver adicionando páginas inciais do navegador, avise aos usuários que eles terão um novo conjunto de páginas in iniciar no navegador após a implantação.  
 
-**Etapa 2-configurar e testar a implantação** -faça alterações nas configurações configuráveis no portal de administração de área de trabalho gerenciada da Microsoft. Preparar as alterações para que estejam prontas para implantação. Lembre-se de permitir que os usuários saibam sobre as alterações e como as alterações mudarão sua experiência de dispositivo.   
+**Etapa 2 : Configurar e configurar a implantação em estágios** - Faça alterações nas configurações configuráveis no portal de administração da Área de Trabalho Gerenciada da Microsoft. Prepare as alterações para que elas estão prontas para implantação. Lembre-se de permitir que os usuários saibam sobre as alterações e como as alterações alterarão a experiência do dispositivo.   
 
-Você configura e testa alterações no portal de administração de área de trabalho gerenciada da Microsoft. Para obter mais informações, consulte [personalizar definições configuráveis](config-setting-ref.md). 
+Configure e configure as alterações no portal de administração da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, [consulte Personalizar configurações configuráveis.](config-setting-ref.md) 
 
-**Etapa 3: comunicar as alterações** Comunicar informações sobre as futuras alterações para seus usuários. Para cada implantação, conclua a comunicação que faz parte dos seus processos de gerenciamento de alterações. Você deve comunicar claramente qualquer alteração que afete o funcionamento de um usuário ou o que eles verão em seus dispositivos.
+**Etapa 3- Comunicar alterações** Comunique informações sobre alterações futuras para seus usuários. Para cada implantação, conclua a comunicação que faz parte dos seus processos de gerenciamento de alterações. Você deve comunicar claramente qualquer alteração que a impacte na forma como um usuário trabalha ou o que ele verá em seus dispositivos.
 
-**Etapa 4: implantar alterações** – implante suas alterações, começando com o grupo de teste. O grupo de teste permite que você valide e solucione problemas em um grupo com menos dispositivos, antes de implantar alterações em grupos maiores de dispositivos. Se você tiver problemas, poderá reverter a alteração, atualizar a configuração e testar uma nova implantação. O Microsoft Managed desktop recomenda que você siga a abordagem estruturada e implante em grupos nesta ordem: Test, First, Fast e, em seguida, ampla.   
+**Etapa 4 - Implantar alterações** – Implante suas alterações, começando com o grupo Teste. O grupo teste permite validar e solucionar problemas em um grupo com menos dispositivos, antes de implantar alterações em grupos maiores de dispositivos. Se você tiver algum problema, poderá reverter a alteração, atualizar a configuração e configurar uma nova implantação. A Área de Trabalho Gerenciada da Microsoft recomenda que você siga a abordagem estruturada e implante em grupos nesta ordem: Test, First, Fast e then Broad.   
 
-Todas as configurações configuráveis são gerenciadas usando o portal de administração do Microsoft Managed desktop. Para obter mais informações, consulte [implantar alterações](config-setting-deploy.md). 
+Todas as configurações configuráveis são gerenciadas usando o portal de administração da Área de Trabalho Gerenciada da Microsoft. Para obter mais informações, consulte [Implantar alterações.](config-setting-deploy.md) 
 
-**Etapa 5 – controlar alterações** – acompanhar o progresso de suas alterações no status de implantação. Para cada configuração, você pode:
-- **Acompanhar progresso** – rastreie o status após implantar a alteração. O status será alterado para **em andamento** e, em seguida, **concluído** ou **falha**. Se uma implantação falhar, uma solicitação de suporte será aberta automaticamente para operações de área de trabalho gerenciada da Microsoft para investigar o problema.  
-- **Confira a versão implantada** : cada alteração implantada tem um número de versão.
-- **Reverter alterações** – reverter uma alteração interrompe a implantação atual e reverte todos os grupos para as últimas alterações implantadas em todos os grupos. Você está retornando para o último valor de configuração em boas condições.
-- **Validar alterações** – após a conclusão da implantação, valide as alterações aplicadas conforme o esperado.  
+**Etapa 5 - Controlar alterações** – Controlar o progresso das alterações no status da implantação. Para cada configuração, você pode:
+- **Acompanhar o progresso** – Acompanhar o status depois de implantar a alteração. O status mudará para **Em andamento** e, em **seguida, concluirá** ou **falhou.** Se uma implantação falhar, uma solicitação de suporte será aberta automaticamente para que as Operações da Área de Trabalho Gerenciada da Microsoft investiguem o problema.  
+- **Veja a versão implantada** – cada alteração implantada tem um número de versão.
+- **Reverter alterações** – a reversão de uma alteração interrompe a implantação atual e reverte todos os grupos para as últimas alterações que foram implantadas em todos os grupos. Você está voltando para o último valor de configuração bem-conhecido.
+- **Validar** alterações - Após a conclusão da implantação, valide se as alterações foram aplicadas conforme o esperado.  
 
-Se uma implantação tiver falhado ou se você não puder reverter uma alteração, [abra uma solicitação de suporte](admin-support.md) com as operações de área de trabalho gerenciada da Microsoft. 
+Se uma implantação falhou ou não é possível reverter uma [alteração,](admin-support.md) abra uma solicitação de suporte com as Operações de Área de Trabalho Gerenciada da Microsoft. 
 
-Para obter mais informações, consulte [implantar e acompanhar definições configuráveis](config-setting-deploy.md).
+Para obter mais informações, [consulte Implantar e acompanhar configurações configuráveis.](config-setting-deploy.md)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Referência de configurações que podem ser alteradas](config-setting-ref.md) 

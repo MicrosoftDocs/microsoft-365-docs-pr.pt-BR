@@ -1,5 +1,5 @@
 ---
-title: Pontuação de produtividade da Microsoft-privacidade
+title: Pontuação de Produtividade da Microsoft - Privacidade
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,7 +18,7 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
-description: Como a privacidade é protegida com a pontuação de produtividade.
+description: Como a privacidade é protegida com a Pontuação de Produtividade.
 ms.openlocfilehash: ceb19fcb7bbf2f6a58e38684604ed3b0dac2a5d4
 ms.sourcegitcommit: d859ea36152c227699c1786ef08cda5805ecf7db
 ms.translationtype: MT
@@ -26,21 +26,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/09/2020
 ms.locfileid: "49604321"
 ---
-# <a name="privacy-controls-for-productivity-score"></a>Controles de privacidade para Pontuação de produtividade
+# <a name="privacy-controls-for-productivity-score"></a>Controles de privacidade para a Pontuação de Produtividade
 
-A pontuação de produtividade fornece informações sobre a jornada de transformação digital da sua organização por meio do uso do Microsoft 365 e das experiências tecnológicas que dão suporte a ela.  A pontuação da sua organização reflete medidas de experiência de pessoas e tecnologia e pode ser comparada a benchmarks de organizações similares às suas. Para obter mais detalhes, consulte [visão geral da Pontuação de produtividade](productivity-score.md).
+A Pontuação de Produtividade fornece informações sobre a jornada de transformação digital da sua organização por meio do uso do Microsoft 365 e das experiências de tecnologia que o suportam.  A pontuação da sua organização reflete as medições da experiência de pessoas e tecnologias e pode ser comparada com os parâmetros de comparação de organizações semelhantes às suas. Para obter mais detalhes, veja a [visão geral da Pontuação de Produtividade.](productivity-score.md)
 
-Sua privacidade é importante para a Microsoft. Para saber como protegemos sua privacidade, consulte a [declaração de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement). A pontuação de produtividade fornece a você, como administrador de ti da sua organização, acesso às configurações de privacidade para ajudar a garantir que qualquer informação de Pontuação de produtividade exibida seja acionável, sem comprometer a confiança que sua organização coloca no Microsoft.
+Sua privacidade é importante para a Microsoft. Para saber como protegemos sua privacidade, confira a [política de privacidade da Microsoft.](https://privacy.microsoft.com/privacystatement) A Pontuação de Produtividade oferece a você, como administrador de TI da sua organização, acesso às configurações de privacidade para ajudar a garantir que qualquer informação da Pontuação de Produtividade que você visualizar seja a ação, sem comprometer a confiança que sua organização coloca na Microsoft.
 
-Na área experiências de pessoas, as métricas estão disponíveis apenas no nível organizacional. Esta área analisa como as pessoas usam o Microsoft 365 examinando as categorias de colaboração de conteúdo, mobilidade, reuniões, trabalho em equipe e comunicação. Habilitamos vários níveis de controles para ajudá-lo a atender às suas necessidades de política de privacidade interna.
-Os controles fornecem:
+Na área de experiências de pessoas, as métricas estão disponíveis apenas no nível organizacional. Esta área analisa como as pessoas usam o Microsoft 365 analisando as categorias de colaboração de conteúdo, mobilidade, reuniões, trabalho em equipe e comunicação. Habilitamos você com vários níveis de controles para ajudá-lo a atender às suas necessidades de política de privacidade interna.
+Os controles lhe dão:
 
-- Funções de administrador flexíveis para controlar quem pode ver as informações na pontuação de produtividade.
-- A capacidade de recusar a área de experiências de pessoas.
+- Funções de administrador flexíveis para controlar quem pode ver as informações na Pontuação de Produtividade.
+- A capacidade de não participar da área de experiências de pessoas.
 
-## <a name="flexible-admin-roles-to-control-who-can-see-the-information-in-productivity-score"></a>Funções de administrador flexíveis para controlar quem pode ver as informações na pontuação de produtividade
+## <a name="flexible-admin-roles-to-control-who-can-see-the-information-in-productivity-score"></a>Funções de administrador flexíveis para controlar quem pode ver as informações na Pontuação de Produtividade
 
-Para exibir toda a pontuação de produtividade, você precisa ser uma das seguintes funções de administrador:
+Para exibir toda a Pontuação de Produtividade, você precisa ser uma das seguintes funções de administrador:
 
 - Administração global
 - Administradores do Exchange
@@ -49,13 +49,13 @@ Para exibir toda a pontuação de produtividade, você precisa ser uma das segui
 - Administrador do Teams
 - Leitor Global
 - Leitor de Relatórios
-- Leitor de relatórios de Resumo de uso
+- Leitor de relatórios de resumo do uso
 
-Atribua a função leitor de relatórios ou relatórios de Resumo de uso a qualquer pessoa responsável pelo gerenciamento de alterações e pela adoção, mas não necessariamente um administrador de ti. Essa função concede a eles acesso à experiência completa de Pontuação de produtividade no centro de administração do Microsoft 365.
+Atribua a função Leitor de Relatórios ou Leitor de Resumo de Uso a qualquer pessoa responsável pelo gerenciamento e adoção de alterações, mas não necessariamente um administrador de IT. Essa função dá a eles acesso à experiência completa da Pontuação de Produtividade no Centro de administração do Microsoft 365.
 
-A função leitor de relatórios de Resumo de uso precisará ser atribuída por meio dos cmdlets do PowerShell até que se torne atribuível do centro de administração do Microsoft 365 mais tarde no 2020.
+A função Leitor de Relatórios de Resumo de Uso terá que ser atribuída por meio dos cmdlets do PowerShell até que ela se torne atribuível do Centro de administração do Microsoft 365 posteriormente em 2020.
 
-Para atribuir a função leitor de relatórios de Resumo de uso com o PowerShell:
+Para atribuir a função leitor de relatórios de resumo de uso com o PowerShell:
 
 - Execute o seguinte PowerShell:
 
@@ -71,14 +71,14 @@ Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $u.ObjectId
 </br>
 
 
-## <a name="capability-to-opt-out-of-people-experiences"></a>Capacidade de recusar experiências de pessoas
+## <a name="capability-to-opt-out-of-people-experiences"></a>Capacidade de optar por não ter experiências de pessoas
 
-Você também pode recusar a área experiências de pessoas de Pontuação de produtividade. Se você recusar, ninguém da sua organização poderá exibir essas métricas, e sua organização será removida de qualquer cálculo que envolve comunicação, reuniões, trabalho em equipe, colaboração de conteúdo e mobilidade. Você precisa ser um administrador global para que sua organização saia dos relatórios de experiências de pessoas.
+Você também pode optar por não usar a área de experiências de pessoas da Pontuação de Produtividade. Se você optar por não participar, ninguém da sua organização poderá exibir essas métricas, e sua organização será removida de qualquer cálculo que envolva comunicação, reuniões, trabalho em equipe, colaboração de conteúdo e mobilidade. Você precisa ser um administrador global para que sua organização não tenha relatórios de experiências de pessoas.
 
-Para aceitar:
+Para optar por:
 
-1. No centro de administração, vá para as **Settings** configurações da   >   **organização** configurações e, na guia **Serviços** , selecione **relatórios**.
-2. Desmarque a caixa que diz permitir que os  **dados de uso do Microsoft 365 sejam usados para ideias de experiências de pessoas**. Para entender como modificar as configurações de compartilhamento de dados para o Endpoint Analytics no Intune Configuration Manager, selecione **saiba mais**.
-3. Selecione  **salvar**.
+1. No centro de administração, vá para As **Configurações** da Organização e, na   >   guia Serviços, selecione **Relatórios.** 
+2. Des marque a caixa que diz Permitir que os dados de uso do  **Microsoft 365 sejam** usados para insights de experiências de pessoas. Para entender como modificar as configurações de compartilhamento de dados para o Endpoint Analytics no gerenciador de configuração do Intune, selecione **Saiba mais.**
+3. Selecione  **Salvar**.
 
-:::image type="content" source="../../media/orgsettingspageoptout.png" alt-text="Página de configurações da organização onde você pode recusar as experiências de pessoas.":::
+:::image type="content" source="../../media/orgsettingspageoptout.png" alt-text="Página de configurações da organização onde você pode optar por não ter experiências de pessoas.":::

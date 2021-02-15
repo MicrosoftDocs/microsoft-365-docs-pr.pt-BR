@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no DNSMadeEasy para Microsoft
+title: Criar registros DNS na DNSMadeEasy para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em DNSMadeEasy para a Microsoft.
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços na DNSMadeEasy para Microsoft.
 ms.openlocfilehash: 719b416564447b3a6f4108b747ae921b4f6f6bb8
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
@@ -28,13 +28,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/11/2020
 ms.locfileid: "49657943"
 ---
-# <a name="create-dns-records-at-dnsmadeeasy-for-microsoft"></a>Criar registros DNS no DNSMadeEasy para Microsoft
+# <a name="create-dns-records-at-dnsmadeeasy-for-microsoft"></a>Criar registros DNS na DNSMadeEasy para a Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se você usa a DNSMadeEasy como provedor de hospedagem DNS, siga as etapas deste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
   
-Depois que você adicionar esses registros no DNSMadeEasy, o domínio será configurado para funcionar com os serviços da Microsoft.
+Depois que você adicionar esses registros à DNSMadeEasy, seu domínio será definido para funcionar com os serviços Microsoft.
   
 
   
@@ -50,13 +50,13 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
   
 > [!IMPORTANT]
-> Para contas do DNSMadeEasy, o domínio adicionado foi comprado de um registrador de domínio separado. O DNSMadeEasy não oferece serviços de registro de domínio. Sua capacidade de fazer logon em DNSMadeEasy e criar o registro DNS é uma prova de propriedade suficiente. 
+> Para contas DNSMadeEasy, o domínio adicionado foi adquirido de um registrador de domínios separado. A DNSMadeEasy não oferece serviços de registro de domínio. Sua capacidade de fazer logon na DNSMadeEasy e criar o registro DNS é prova suficiente de propriedade. 
   
 1. Para começar, vá para sua página de domínios no DNSMadeEasy usando [este link](https://cp.dnsmadeeasy.com/). Será solicitado que você faça logon primeiro.
     
-2. Na página **console de gerenciamento** , na área **domínios atualizados recentemente** , selecione o domínio que você deseja atualizar. 
+2. Na página **Console de Gerenciamento,** na **área Domínios Atualizados** Recentemente, selecione o domínio que você deseja atualizar. 
     
-3. Na página **DNS gerenciado** , na área **registros txt** , selecione o **+** controle () ( **Adicionar novo**).
+3. Na página **DNS Gerenciado,** na área Registros **TXT,** selecione o ( **+** ) controle ( Adicionar **novo**).
     
     (Pode ser necessário rolar para baixo.)
     
@@ -92,17 +92,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 
 1. Para começar, vá para sua página de domínios no DNSMadeEasy usando [este link](https://cp.dnsmadeeasy.com/). Será solicitado que você faça logon primeiro.
     
-2. Na página **console de gerenciamento** , na área **domínios atualizados recentemente** , selecione o domínio que você deseja atualizar. 
+2. Na página **Console de Gerenciamento,** na **área Domínios Atualizados** Recentemente, selecione o domínio que você deseja atualizar. 
     
-    Na página **console de gerenciamento** , na área **domínios atualizados recentemente** , selecione o domínio que você deseja atualizar. 
+    Na página **Console de Gerenciamento,** na **área Domínios Atualizados** Recentemente, selecione o domínio que você deseja atualizar. 
     
-    ![DNSMadeEasy-BP-configure-1-2](../../media/8d8f403e-d7cd-429e-913b-dacb1f4644a2.png)
+    ![DNSMadeEasy-BP-Configure-1-2](../../media/8d8f403e-d7cd-429e-913b-dacb1f4644a2.png)
   
-3. Na página **DNS gerenciado** , na área **registros MX** , selecione o controle **(+)** ( **Adicionar novo**).
+3. Na página **DNS Gerenciado,** na área Registros **MX,** selecione o **controle (+)** ( **Adicionar novo**).
     
     (Pode ser necessário rolar para baixo.)
     
-    ![DNSMadeEasy-BP-configure-2-1](../../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
+    ![DNSMadeEasy-BP-Configure-2-1](../../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
   
 4. Na área **Adicionar Registros MX**, nas caixas do novo registro, digite ou copie e cole os valores da tabela a seguir. 
     
@@ -112,36 +112,36 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |:-----|:-----|:-----|:-----|
     |(Deixe este campo vazio.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obtenha a sua \<*domain-key*\> através da sua conta Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |1800  <br/> |
    
-    ![DNSMadeEasy-BP-configure-2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
+    ![DNSMadeEasy-BP-Configure-2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   
 5. Selecione **Enviar**.
     
-    ![DNSMadeEasy-BP-configure-2-3](../../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
+    ![DNSMadeEasy-BP-Configure-2-3](../../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
   
 6. Se houver outros registros MX listados na seção **Registros MX**, exclua todos eles selecionando cada um deles. 
     
-    ![DNSMadeEasy-BP-configure-2-4-1](../../media/58a07769-0b30-4111-b555-bfc3b82a7d4c.png)
+    ![DNSMadeEasy-BP-Configure-2-4-1](../../media/58a07769-0b30-4111-b555-bfc3b82a7d4c.png)
   
-7. Quando todos os registros estiverem selecionados, selecione **excluir selecionado**.
+7. Quando todos os registros forem selecionados, selecione **Excluir selecionado.**
     
-    ![DNSMadeEasy-BP-configure-2-4-2](../../media/e9064c07-1ce7-4387-b47a-90d4193da374.png)
+    ![DNSMadeEasy-BP-Configure-2-4-2](../../media/e9064c07-1ce7-4387-b47a-90d4193da374.png)
   
-8. Na caixa de diálogo **excluir registros MX** , selecione **excluir** para confirmar suas alterações. 
+8. Na caixa **de diálogo Excluir Registros MX,** selecione **Excluir** para confirmar suas alterações. 
     
-    ![DNSMadeEasy-BP-configure-2-5](../../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
+    ![DNSMadeEasy-BP-Configure-2-5](../../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
   
 ## <a name="add-the-five-cname-records-that-are-required-for-microsoft"></a>Adicionar os cinco registros CNAME necessários para a Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
 1. Para começar, vá para sua página de domínios no DNSMadeEasy usando [este link](https://cp.dnsmadeeasy.com/). Será solicitado que você faça logon primeiro.
     
-2. Na página **console de gerenciamento** , na área **domínios atualizados recentemente** , selecione o domínio que você deseja atualizar. 
+2. Na página **Console de Gerenciamento,** na **área Domínios Atualizados** Recentemente, selecione o domínio que você deseja atualizar. 
     
-3. Na página **DNS gerenciado** , na área **registros CNAME** , selecione o controle **(+)** ( **Adicionar novo**).
+3. Na página **DNS Gerenciado,** na área Registros **CNAME,** selecione o **controle (+)** ( **Adicionar novo**).
     
     (Pode ser necessário rolar para baixo.)
     
-    ![DNSMadeEasy-BP-configure-3-1](../../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
+    ![DNSMadeEasy-BP-Configure-3-1](../../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
   
 4. Adicione o primeiro dos cinco registros CNAME.
     
@@ -155,15 +155,15 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
     |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
    
-    ![DNSMadeEasy-BP-configure-3-2](../../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
+    ![DNSMadeEasy-BP-Configure-3-2](../../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
   
 5. Selecione **Enviar**.
     
-    ![DNSMadeEasy-BP-configure-3-3](../../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
+    ![DNSMadeEasy-BP-Configure-3-3](../../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
   
 6. Adicione cada um dos outros quatro registros CNAME.
     
-    Na seção **registros CNAME** , selecione o controle **(+)** ( **Adicionar novo**), crie um registro usando os valores da próxima linha na tabela e, em seguida, selecione **Enviar** para concluir esse registro. 
+    Na seção **Registros CNAME,** selecione o controle **(+)** **(** Adicionar novo ), crie um registro usando  os valores da próxima linha na tabela e selecione Enviar novamente para concluir esse registro. 
     
     Repita esse processo até ter criado todos os cinco registros CNAME.
     
@@ -171,17 +171,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Para validar o registro SPF, você pode usar uma destas[ferramentas de validação de SPF](../setup/domains-faq.yml). 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro  *SPF*  que inclua ambos os conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records). Para validar seu registro SPF, você pode usar uma destas ferramentas de[validação de SPF.](../setup/domains-faq.yml) 
   
 1. Para começar, vá para sua página de domínios no DNSMadeEasy usando [este link](https://cp.dnsmadeeasy.com/). Será solicitado que você faça logon primeiro.
     
-2. Na página **console de gerenciamento** , na área **domínios atualizados recentemente** , selecione o domínio que você deseja atualizar. 
+2. Na página **Console de Gerenciamento,** na **área Domínios Atualizados** Recentemente, selecione o domínio que você deseja atualizar. 
     
-3. Na página **DNS gerenciado** , na área **registros txt** , selecione o controle **(+)** ( **Adicionar novo**).
+3. Na página **DNS Gerenciado,** na área Registros **TXT,** selecione o **controle (+)** ( **Adicionar novo**).
     
     (Pode ser necessário rolar para baixo.)
     
-    ![DNSMadeEasy-BP-configure-4-1](../../media/657b87a5-dcb4-4ae7-8f27-bd857f0f4189.png)
+    ![DNSMadeEasy-BP-Configure-4-1](../../media/657b87a5-dcb4-4ae7-8f27-bd857f0f4189.png)
   
 4. In the **Add TXT Records** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -189,24 +189,24 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |:-----|:-----|:-----|
     |(Deixe este campo vazio.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |1800  <br/> |
    
-    ![DNSMadeEasy-BP-configure-4-2](../../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
+    ![DNSMadeEasy-BP-Configure-4-2](../../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
   
 5. Selecione **Enviar**.
     
-    ![DNSMadeEasy-BP-configure-4-3](../../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
+    ![DNSMadeEasy-BP-Configure-4-3](../../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para a Microsoft
 <a name="BKMK_add_SRV"> </a>
 
 1. Para começar, vá para sua página de domínios no DNSMadeEasy usando [este link](https://cp.dnsmadeeasy.com/). Será solicitado que você faça logon primeiro.
     
-2. Na página **console de gerenciamento** , na área **domínios atualizados recentemente** , selecione o domínio que você deseja atualizar. 
+2. Na página **Console de Gerenciamento,** na **área Domínios Atualizados** Recentemente, selecione o domínio que você deseja atualizar. 
     
-3. Na página **DNS gerenciado** , na área **Registros SRV** , selecione o controle **(+)** ( **Adicionar novo**).
+3. Na página **DNS Gerenciado,** na área Registros **SRV,** selecione o **controle (+)** ( **Adicionar novo**).
     
     Pode ser necessário rolar para baixo.
     
-    ![DNSMadeEasy-BP-configure-5-1](../../media/5c9e8f50-adbd-4f23-8ce3-2844b2896f3f.png)
+    ![DNSMadeEasy-BP-Configure-5-1](../../media/5c9e8f50-adbd-4f23-8ce3-2844b2896f3f.png)
   
 4. Adicione o primeiro dos dois registros SRV.
     
@@ -217,15 +217,15 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
     |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |1800  <br/> |
    
-    ![DNSMadeEasy-BP-configure-5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
+    ![DNSMadeEasy-BP-Configure-5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
   
 5. Selecione **Enviar**.
     
-    ![DNSMadeEasy-BP-configure-5-3](../../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
+    ![DNSMadeEasy-BP-Configure-5-3](../../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
   
 6. Adicione o outro registro SRV.
     
-    Na seção **Registros SRV** , selecione o controle **(+)** ( **Adicionar novo**), crie um registro usando os valores da próxima linha na tabela e, em seguida, selecione **Enviar** para concluir esse registro. 
+    Na seção **Registros SRV,** selecione o controle **(+)** **(** Adicionar novo ), crie um registro usando  os valores da próxima linha na tabela e selecione Enviar novamente para concluir esse registro. 
     
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 

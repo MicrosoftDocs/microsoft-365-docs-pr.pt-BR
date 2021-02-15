@@ -1,5 +1,5 @@
 ---
-title: Alterar os nameservers para configurar o Microsoft com soluções de rede
+title: Alterar os nameservers para configurar a Microsoft com soluções de rede
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d4ba60f3-4e1c-4180-99bd-250b8955be2a
-description: 'Saiba como configurar seu domínio personalizado da Microsoft com soluções de rede se você quiser que a Microsoft gerencie seus registros DNS. '
+description: 'Saiba como configurar seu domínio personalizado da Microsoft com soluções de rede se quiser que a Microsoft gerencie seus registros DNS. '
 ms.openlocfilehash: 04817ca24b13b4c138986df3875b6d397100fffd
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
@@ -28,11 +28,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/11/2020
 ms.locfileid: "49658423"
 ---
-# <a name="change-nameservers-to-set-up-microsoft-with-network-solutions"></a>Alterar os nameservers para configurar o Microsoft com soluções de rede
+# <a name="change-nameservers-to-set-up-microsoft-with-network-solutions"></a>Alterar os nameservers para configurar a Microsoft com soluções de rede
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**.
   
-Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS para você. Se preferir, [gerencie todos os seus registros DNS da Microsoft em soluções de rede](create-dns-records-at-network-solutions.md).
+Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS para você. Se preferir, gerencie todos os registros DNS da Microsoft na [Network Solutions.](create-dns-records-at-network-solutions.md)
   
     
 ## <a name="add-a-txt-record-at-network-solutions-to-verify-that-you-own-the-domain"></a>Adicionar um registro TXT na Network Solutions para verificar o proprietário do domínio
@@ -47,7 +47,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.mi
 1. Para iniciar, vá até a página do seu domínio em Network Solutions, usando [este link](https://www.networksolutions.com/manage-it). Você será solicitado a fazer o logon.
     
     > [!IMPORTANT]
-    > Antes de selecionar o botão de **login** , primeiro escolha **gerenciar meus nomes de domínio** na lista suspensa **fazer logon em:** .
+    > Antes de selecionar o **botão Logon,** primeiro escolha Gerenciar Meus Nomes de **Domínio** na lista de logon **em:** lista drop-down.
   
     ![Escolha Gerenciar Meus Nomes de Domínio e entre no Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -57,34 +57,34 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.mi
   
 3. Selecione **Editar DNS**.
     
-    ![Selecione Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![Selecionar Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
-4. Selecione **gerenciar registros de DNS avançados**.
+4. Selecione **Gerenciar Registros DNS Avançados.**
     
     (Pode ser necessário rolar para baixo.)
     
-    ![Selecionar gerenciar registros DNS avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
+    ![Selecionar Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Role para baixo até a seção **texto (registros txt)** e selecione **editar registros txt**.
+5. Role para baixo até **a seção Texto (Registros TXT)** e selecione **Editar Registros TXT.**
     
-    ![Selecionar editar registros TXT](../../media/240a01d6-750a-4da6-8554-641b571e4b71.png)
+    ![Selecionar Editar Registros TXT](../../media/240a01d6-750a-4da6-8554-641b571e4b71.png)
   
 6. Nas caixas do novo registro, digite ou copie e cole os valores na tabela seguinte.
     
 |**Host**|**TTL**|**Texto**|
 |:-----|:-----|:-----|
-|@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: Este é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)
+|@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação:** este é um exemplo. Use seu valor específico de **Destino ou Pontos de Endereçamento** aqui, retirado da tabela no Microsoft 365.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)
    
     
-   ![Digitar ou colar valores nas caixas do novo registro](../../media/8a76daab-b6ff-4c82-ba68-192b24fbb934.png)
+   ![Digite ou colar valores nas caixas do novo registro](../../media/8a76daab-b6ff-4c82-ba68-192b24fbb934.png)
   
-7. Selecione **continuar**.
+7. Selecione **Continuar**.
     
-    ![Selecione continuar](../../media/89e7fb38-b4d9-4949-a1bb-d0dd10b361e0.png)
+    ![Selecionar Continuar](../../media/89e7fb38-b4d9-4949-a1bb-d0dd10b361e0.png)
   
-8. Selecione **salvar alterações**.
+8. Selecione **Salvar Alterações**.
     
-    ![Selecionar Salvar alterações](../../media/bd4d7cd0-c8a3-497a-b080-cfd5a5c60dc5.png)
+    ![Selecionar Salvar Alterações](../../media/bd4d7cd0-c8a3-497a-b080-cfd5a5c60dc5.png)
   
 9. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
@@ -112,20 +112,20 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>Alterar os registros de nameserver (NS) de seu domínio
 
-Para concluir a configuração do seu domínio com a Microsoft, altere os registros NS do seu domínio no seu registrador de domínios para apontar para os servidores de nomes primários e secundários da Microsoft. Isso configura a Microsoft para atualizar os registros DNS do domínio para você. Todos os registros são adicionados para que os seus emails, o Skype for Business Online e os sites públicos funcionem com o seu domínio e você fique com tudo pronto.
+Para concluir a configuração do domínio com a Microsoft, altere os registros NS do seu domínio no registrador de domínios para apontar para os servidores de nomes primários e secundários da Microsoft. Isso configura a Microsoft para atualizar os registros DNS do domínio para você. Todos os registros são adicionados para que os seus emails, o Skype for Business Online e os sites públicos funcionem com o seu domínio e você fique com tudo pronto.
   
 > [!CAUTION]
-> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nomes da Microsoft, todos os serviços associados atualmente ao seu domínio serão afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain*  . com) começarão a ser iniciados pela Microsoft depois que você fizer essa alteração.
+> Quando você altera os registros NS do seu domínio para apontar para os servidores de nomes da Microsoft, todos os serviços atualmente associados ao seu domínio são afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain*  .com) começarão a chegar na Microsoft depois que você fizer essa alteração.
   
-Pronto para alterar os registros NS para que a Microsoft possa configurar seu domínio? Siga as etapas abaixo ou [assista ao vídeo (inicia em 2:23)](https://support.microsoft.com/office/69b092e3-c026-4d19-a7d0-16cdb2d8b261).
+Pronto para alterar seus registros NS para que a Microsoft possa configurar seu domínio? Siga as etapas abaixo ou [assista ao vídeo (inicia em 2:23)](https://support.microsoft.com/office/69b092e3-c026-4d19-a7d0-16cdb2d8b261).
   
 > [!IMPORTANT]
->  Quando você tiver concluído as etapas nesta seção, os  *únicos*  nameservers que devem ser listados são estes quatro: **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com** e **NS4.bdm.microsoftonline.com**. O procedimento a seguir mostra como excluir outros nameservers indesejados da lista, além de adicionar os nameservers  *corretos*  se ainda não estiverem na lista. 
+>  Quando você tiver concluído as etapas  nesta seção, os únicos nameservers que devem estar listados são estes quatro: **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com** e **ns4.bdm.microsoftonline.com**. O procedimento a seguir mostra como excluir outros nameservers indesejados da lista, além de adicionar os nameservers  *corretos*  se ainda não estiverem na lista. 
   
 1. Para iniciar, vá até a página do seu domínio em Network Solutions, usando [este link](https://www.networksolutions.com/manage-it). Você será solicitado a fazer o logon.
     
     > [!IMPORTANT]
-    > Antes de selecionar o botão de **login** , primeiro escolha **gerenciar meus nomes de domínio** na lista suspensa **fazer logon em:** . 
+    > Antes de selecionar o **botão Logon,** primeiro escolha Gerenciar Meus Nomes de **Domínio** na lista de logon **em:** lista drop-down. 
   
     ![Escolha Gerenciar Meus Nomes de Domínio e entre no Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -135,11 +135,11 @@ Pronto para alterar os registros NS para que a Microsoft possa configurar seu do
   
 3. Selecione **Editar DNS**.
     
-    ![Selecione Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![Selecionar Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
-4. Selecione **mover DNS**.
+4. Selecione **Mover DNS**.
     
-    ![NetworkSolutionsBP-redelegar-1-1](../../media/e57a30f3-63d5-4bcb-84c6-c8be21c261a2.png)
+    ![NetworkSolutionsBP-Redelegate-1-1](../../media/e57a30f3-63d5-4bcb-84c6-c8be21c261a2.png)
   
 5. Dependendo se há ou não nameservers já listados na página exibida agora, continue para um destes dois procedimentos:
     
@@ -149,9 +149,9 @@ Pronto para alterar os registros NS para que a Microsoft possa configurar seu do
     
 ### <a name="if-there-are-no-nameservers-already-listed"></a>Se NÃO houver nameservers listados
 
-1. Na página **domínios** , na seção **especificar servidores de nomes de domínio** , selecione **adicionar mais servidores de nomes**.
+1. Na página **Domínios,** na seção Especificar Servidores **de** Nomes de Domínio, selecione **Adicionar Mais Servidores de Nomes.**
     
-    ![NetworkSolutionsBP-redelegar-1-2-1](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
+    ![NetworkSolutionsBP-Redelegate-1-2-1](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
   
 2. Na página **Nomes de Domínio**, digite ou copie e cole os valores de nameserver da tabela a seguir. 
     
@@ -163,18 +163,18 @@ Pronto para alterar os registros NS para que a Microsoft possa configurar seu do
 |**Servidor de nomes 2** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
     
-![NetworkSolutionsBP-redelegar-1-2-2](../../media/795e8c6b-4828-4de2-b624-82f067bb2eb1.png)
+![NetworkSolutionsBP-Redelegate-1-2-2](../../media/795e8c6b-4828-4de2-b624-82f067bb2eb1.png)
   
-3. Selecione **mover DNS**.
+3. Selecione **Mover DNS**.
     
-    ![NetworkSolutionsBP-redelegar-1-2-3](../../media/d4a0a7c2-6868-471f-bbf4-16ce2e2348de.png)
+    ![NetworkSolutionsBP-Redelegate-1-2-3](../../media/d4a0a7c2-6868-471f-bbf4-16ce2e2348de.png)
   
-4. Selecione **salvar alterações**.
+4. Selecione **Salvar Alterações**.
     
-    ![NetworkSolutionsBP-redelegar-1-2-4](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
+    ![NetworkSolutionsBP-Redelegate-1-2-4](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
   
 > [!NOTE]
-> As atualizações de registro do servidor de nomes poderão levar várias horas para entrarem em vigor no sistema DNS da Internet. Em seguida, seu email da Microsoft e outros serviços serão configurados para funcionar com seu domínio. 
+> As atualizações de registro do servidor de nomes poderão levar várias horas para entrarem em vigor no sistema DNS da Internet. Em seguida, seu email da Microsoft e outros serviços serão definidos para funcionar com seu domínio. 
   
 ### <a name="if-there-are-nameservers-already-listed"></a>Se HOUVER nameservers listados
 
@@ -183,11 +183,11 @@ Pronto para alterar os registros NS para que a Microsoft possa configurar seu do
   
 1. Se houver outros nameservers listados, exclua cada um deles, selecionando-os e pressionando a tecla **Delete** no teclado.
     
-    ![NetworkSolutions-BP-redelegar-1-5](../../media/eeb8ad22-bf4a-43a8-b97a-f09c3654d89b.png)
+    ![NetworkSolutions-BP-Redelegate-1-5](../../media/eeb8ad22-bf4a-43a8-b97a-f09c3654d89b.png)
   
-2. Selecione **adicionar mais servidores de nomes**.
+2. Selecione **Adicionar mais servidores de nomes.**
     
-    ![NetworkSolutionsBP-redelegar-1-2-1](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
+    ![NetworkSolutionsBP-Redelegate-1-2-1](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
   
 3. Na página **Nomes de Domínio**, digite ou copie e cole os valores de nameserver da tabela a seguir. 
     
@@ -199,15 +199,15 @@ Pronto para alterar os registros NS para que a Microsoft possa configurar seu do
 |**Servidor de Nomes 4** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
     
-![NetworkSolutionsBP-redelegar-1-2-2](../../media/795e8c6b-4828-4de2-b624-82f067bb2eb1.png)
+![NetworkSolutionsBP-Redelegate-1-2-2](../../media/795e8c6b-4828-4de2-b624-82f067bb2eb1.png)
   
-4. Selecione **mover DNS**.
+4. Selecione **Mover DNS**.
     
-    ![NetworkSolutionsBP-redelegar-1-2-3](../../media/d4a0a7c2-6868-471f-bbf4-16ce2e2348de.png)
+    ![NetworkSolutionsBP-Redelegate-1-2-3](../../media/d4a0a7c2-6868-471f-bbf4-16ce2e2348de.png)
   
-5. Selecione **salvar alterações.**
+5. Selecione **Salvar Alterações.**
     
-    ![NetworkSolutionsBP-redelegar-1-2-4](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
+    ![NetworkSolutionsBP-Redelegate-1-2-4](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
   
 > [!NOTE]
-> As atualizações de registro do servidor de nomes poderão levar várias horas para entrarem em vigor no sistema DNS da Internet. Em seguida, seu email da Microsoft e outros serviços serão configurados para funcionar com seu domínio.
+> As atualizações de registro do servidor de nomes poderão levar várias horas para entrarem em vigor no sistema DNS da Internet. Em seguida, seu email da Microsoft e outros serviços serão definidos para funcionar com seu domínio.

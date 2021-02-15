@@ -1,5 +1,5 @@
 ---
-title: Configurar um conector para arquivar o local de trabalho de dados do Facebook no Microsoft 365
+title: Configurar um conector para arquivar o Workplace a partir de dados do Facebook no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -11,7 +11,7 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar dados do local de trabalho do Facebook, que são arquivados no site do Merge1 do Globanet, no Microsoft 365. A configuração de um conector requer que você trabalhe com o Globanet esse conector permite que você arquive dados de fontes de dados de terceiros no Microsoft 365, de modo que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
+description: Os administradores podem configurar um conector para importar e arquivar dados do Workplace a partir do Facebook, que é arquivado no site Merge1 da Globalnet, para o Microsoft 365. A configuração de um conector requer que você trabalhe com a Globalnet. Esse conector permite arquivar dados de fontes de dados de terceiros no Microsoft 365 para que você possa usar recursos de conformidade como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros da sua organização.
 ms.openlocfilehash: 0bcea998e857365b512b2a6f773dca17a85c08f9
 ms.sourcegitcommit: 6fc6aaa2b7610e148f41018abd229e3c55b2f3d0
 ms.translationtype: MT
@@ -19,74 +19,74 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "49619847"
 ---
-# <a name="set-up-a-connector-to-archive-workplace-from-facebook-data"></a>Configurar um conector para arquivar o local de trabalho de dados do Facebook
+# <a name="set-up-a-connector-to-archive-workplace-from-facebook-data"></a>Configurar um conector para arquivar o Workplace a partir de dados do Facebook
 
-Use um conector Globanet no centro de conformidade da Microsoft 365 para importar e arquivar dados do local de trabalho do Facebook para caixas de correio do usuário na sua organização do Microsoft 365. O Globanet fornece um [local de trabalho do conector do Facebook](https://globanet.com/workplace/) que é configurado para capturar itens da fonte de dados de terceiros (regularmente) e importar esses itens para o Microsoft 365. O conector converte o conteúdo como chats, anexos, postagens e vídeos do local de trabalho em um formato de mensagem de email e importa esses itens para caixas de correio do usuário no Microsoft 365.
+Use um conector Globalnet no centro de conformidade do Microsoft 365 para importar e arquivar dados do Workplace do Facebook para as caixas de correio do usuário em sua organização do Microsoft 365. A Globalnet fornece um Workplace do conector do [Facebook](https://globanet.com/workplace/) configurado para capturar itens da fonte de dados de terceiros (regularmente) e importar esses itens para o Microsoft 365. O conector converte o conteúdo como chats, anexos, postagens e vídeos do Workplace para um formato de mensagem de email e importa esses itens para as caixas de correio do usuário no Microsoft 365.
 
-Após os dados de área de trabalho serem armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como retenção de litígio, descoberta eletrônica, políticas de retenção e rótulos de retenção e conformidade de comunicação. O uso do local de trabalho do conector do Facebook para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com as políticas governamentais e regulamentares.
+Depois que os dados do Local de Trabalho são armazenados nas caixas de correio do usuário, você pode aplicar recursos de conformidade do Microsoft 365, como Retenção de Litígio, Descoberta Eletrônico, políticas de retenção e rótulos de retenção e conformidade de comunicação. Usar o Workplace a partir do conector do Facebook para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a manter a conformidade com políticas governamentais e regulatórias.
 
-## <a name="overview-of-archiving-workplace-from-facebook-data"></a>Visão geral do arquivamento de local de dados de Facebook
+## <a name="overview-of-archiving-workplace-from-facebook-data"></a>Visão geral do arquivamento do Workplace a partir de dados do Facebook
 
-A visão geral a seguir explica o processo de usar um conector para arquivar dados do local de trabalho no Microsoft 365.
+A visão geral a seguir explica o processo de uso de um conector para arquivar dados do local de trabalho no Microsoft 365.
 
-![Fluxo de trabalho de arquivamento para área de trabalho de dados do Facebook](../media/WorkplaceConnectorWorkflow.png)
+![Fluxo de trabalho de arquivamento para o Workplace a partir de dados do Facebook](../media/WorkplaceConnectorWorkflow.png)
 
-1. Sua organização trabalha com o local de trabalho do Facebook para configurar e configurar um site de área de trabalho.
+1. Sua organização trabalha com o Workplace a partir do Facebook para configurar um site do Workplace.
 
-2. Uma vez a cada 24 horas, os itens do local de trabalho são copiados para o site do Globanet Merge1. O conector também converte o conteúdo desses itens em um formato de mensagem de email.
+2. Uma vez a cada 24 horas, os itens do Local de Trabalho são copiados para o site Globalnet Merge1. O conector também converte o conteúdo desses itens em um formato de mensagem de email.
 
-3. O local de trabalho do conector do Facebook que você cria no centro de conformidade da Microsoft 365, conecta-se ao Globanet de Merge1 todos os dias e transfere os itens de área de trabalho para um local seguro de armazenamento do Azure na nuvem da Microsoft.
+3. O workplace do conector do Facebook que você cria no centro de conformidade do Microsoft 365, conecta-se à Globalnet Merge1 todos os dias e transfere os itens do Local de Trabalho para um local seguro de Armazenamento do Azure na nuvem da Microsoft.
 
-4. O conector importa os itens convertidos para as caixas de correio de usuários específicos usando o valor da propriedade *email* do mapeamento de usuário automático, conforme descrito na etapa 3. Uma subpasta na pasta caixa de entrada chamada **local de trabalho do Facebook** é criada e os itens de área de trabalho são importados para essa pasta. O conector faz isso usando o valor da propriedade *email* . Cada item de área de trabalho contém essa propriedade, que é preenchida com o endereço de email de cada chat ou participante de postagem.
+4. O conector importa os itens convertidos para as caixas de correio de usuários específicos usando o valor da propriedade *Email* do mapeamento automático de usuário, conforme descrito na Etapa 3. Uma subpasta na pasta Caixa de Entrada chamada Workplace do **Facebook** é criada, e os itens do local de trabalho são importados para essa pasta. O conector faz isso usando o valor da *propriedade Email.* Cada item do Workplace contém essa propriedade, que é preenchida com o endereço de email de cada participante do chat ou postagem.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta do Merge1 do Globanet para conectores da Microsoft. Para criar essa conta, entre em contato com o [suporte ao cliente Globanet](https://globanet.com/ms-connectors-contact). Você entrará nesta conta quando criar o conector na etapa 1.
+- Crie uma conta Globalnet Merge1 para conectores da Microsoft. Para criar essa conta, entre em contato com o Suporte [ao Cliente Globalnet.](https://globanet.com/ms-connectors-contact) Você entrará nessa conta quando criar o conector na Etapa 1.
 
-- Criar uma integração personalizada em https://my.workplace.com/work/admin/apps/ para recuperar dados do local de trabalho via APIs para fins de conformidade e descoberta eletrônica.
+- Crie uma integração personalizada para recuperar dados do Workplace por meio de APIs para fins de conformidade https://my.workplace.com/work/admin/apps/ e Descoberta.
 
-   Ao criar a integração, a plataforma de área de trabalho gera um conjunto de credenciais exclusivas usadas para gerar tokens que são usados para autenticação. Esses tokens são usados no local de trabalho do assistente de configuração do conector do Facebook na etapa 2. Para obter instruções passo a passo sobre como criar os aplicativos, consulte [Merge1 do usuário de conectores de terceiros](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Workplace%20from%20Facebook%20User%20Guide%20.pdf).
+   Ao criar a integração, a plataforma Workplace gera um conjunto de credenciais exclusivas usadas para gerar tokens usados para autenticação. Esses tokens são usados no Assistente de configuração do conector do Workplace do Facebook na Etapa 2. Para obter instruções passo a passo sobre como criar os aplicativos, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Workplace%20from%20Facebook%20User%20Guide%20.pdf).
 
-- O usuário que cria o local de trabalho do conector do Facebook na etapa 1 (e conclui-lo na etapa 3) deve ser atribuído à função de exportação de importação de caixa de correio no Exchange Online. Essa função é necessária para adicionar conectores na página **conectores de dados** no centro de conformidade da Microsoft 365. Por padrão, essa função não é atribuída a um grupo de função no Exchange Online. Você pode adicionar a função de exportação de importação de caixa de correio ao grupo de funções Gerenciamento da organização no Exchange Online. Ou você pode criar um grupo de função, atribua a função de exportação de importação de caixa de correio e, em seguida, adicione os usuários apropriados como membros. Para obter mais informações, consulte as seções [criar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) ou [modificar grupos de função](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) no artigo "gerenciar grupos de função no Exchange Online".
+- O usuário que cria o Workplace a partir do conector do Facebook na Etapa 1 (e o conclui na Etapa 3) deve ser atribuído à função Importar Exportar Caixa de Correio no Exchange Online. Essa função é necessária para adicionar conectores na página Conectores **de dados** no centro de conformidade do Microsoft 365. Por padrão, essa função não é atribuída a um grupo de funções no Exchange Online. Você pode adicionar a função Importar Exportar Caixa de Correio ao grupo de função Gerenciamento da Organização no Exchange Online. Ou você pode criar um grupo de funções, atribuir a função Importar Exportar Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte [](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) as [seções](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) Criar grupos de função ou Modificar grupos de função no artigo "Gerenciar grupos de função no Exchange Online".
 
-## <a name="step-1-set-up-the-workplace-from-facebook-connector"></a>Etapa 1: configurar o local de trabalho do conector do Facebook
+## <a name="step-1-set-up-the-workplace-from-facebook-connector"></a>Etapa 1: Configurar o Workplace a partir do conector do Facebook
 
-A primeira etapa é acessar a página **conectores de dados** no centro de conformidade da Microsoft 365 e criar um conector para dados de área de trabalho.
+A primeira etapa é  acessar a página Conectores de Dados no centro de conformidade do Microsoft 365 e criar um conector para dados do Local de Trabalho.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em local do **Data Connectors**  >  **no Facebook**.
+1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **Conectores de dados Workplace** do  >  **Facebook.**
 
-2. Na página **local de descrição do produto do Facebook** , clique em **Adicionar conector**.
+2. Na página **Descrição do produto no Local** de Trabalho do Facebook, clique em Adicionar **conector.**
 
-3. Na página **termos de serviço** , clique em **aceitar**.
+3. Na página **Termos de serviço,** clique em **Aceitar**.
 
-4. Insira um nome exclusivo que identifique o conector e clique em **Avançar**.
+4. Insira um nome exclusivo que identifique o conector e clique em **Próximo.**
 
-5. Entre em sua conta do Merge1 para configurar o conector.
+5. Entre em sua conta Merge1 para configurar o conector.
 
-## <a name="step-2-configure-the-workplace-from-facebook-connector-on-the-globanet-merge1-site"></a>Etapa 2: configurar o local de trabalho do Facebook Connector no site do Globanet Merge1
+## <a name="step-2-configure-the-workplace-from-facebook-connector-on-the-globanet-merge1-site"></a>Etapa 2: Configurar o Workplace a partir do conector do Facebook no site Globalnet Merge1
 
-A segunda etapa é configurar o local de trabalho do conector do Facebook no site do Merge1. Para obter informações sobre como configurar o local de trabalho no Facebook Connector, consulte [Merge1 de terceiros](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Workplace%20from%20Facebook%20User%20Guide%20.pdf).
+A segunda etapa é configurar o Workplace a partir do conector do Facebook no site Merge1. Para obter informações sobre como configurar o Workplace a partir do conector do Facebook, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Workplace%20from%20Facebook%20User%20Guide%20.pdf).
 
-Depois de clicar em **salvar & concluir**, a página **mapeamento de usuário** no assistente de conector no centro de conformidade da Microsoft 365 é exibida.
+Depois que você clicar em Salvar  **& Concluir,** a página de mapeamento do usuário no assistente de conector no centro de conformidade do Microsoft 365 será exibida.
 
-## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: mapear usuários e concluir a configuração do conector
+## <a name="step-3-map-users-and-complete-the-connector-setup"></a>Etapa 3: Mapear usuários e concluir a configuração do conector
 
 Para mapear usuários e concluir a configuração do conector no centro de conformidade do Microsoft 365, siga estas etapas:
 
-1. Na página **mapear usuários externos para usuários do Microsoft 365** , habilite o mapeamento automático do usuário. Os itens de área de trabalho incluem uma propriedade chamada *email* que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
+1. Na página **Mapear usuários externos para usuários do Microsoft 365,** habilita o mapeamento automático de usuários. Os itens do local de trabalho incluem uma propriedade chamada *Email* que contém endereços de email para usuários em sua organização. Se o conector puder associar esse endereço a um usuário do Microsoft 365, os itens serão importados para a caixa de correio desse usuário.
 
-2. Clique em **Avançar**, revise suas configurações e vá para a página **conectores de dados** para ver o andamento do processo de importação para o novo conector.
+2. Clique **em Avançar,** revise suas configurações  e vá para a página Conectores de dados para ver o progresso do processo de importação do novo conector.
 
-## <a name="step-4-monitor-the-workplace-from-facebook-connector"></a>Etapa 4: monitorar o local de trabalho do conector do Facebook
+## <a name="step-4-monitor-the-workplace-from-facebook-connector"></a>Etapa 4: Monitorar o Local de Trabalho a partir do conector do Facebook
 
-Depois de criar o local de trabalho do conector do Facebook, você pode exibir o status do conector no centro de conformidade da Microsoft 365.
+Depois de criar o Workplace a partir do conector do Facebook, você pode exibir o status do conector no centro de conformidade do Microsoft 365.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **conectores de dados** no painel de navegação esquerdo.
+1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique **em Conectores de dados** na barra de entrada esquerda.
 
-2. Clique na guia **conectores** e, em seguida, selecione o **local de trabalho do Facebook** Connector para exibir a página do menu de atalho. Esta página contém as propriedades e as informações sobre o conector.
+2. Clique na **guia Conectores e** selecione Workplace no conector do **Facebook** para exibir a página do flyout. Esta página contém as propriedades e informações sobre o conector.
 
-3. Em **status do conector com origem**, clique no link **baixar log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre os dados que foram importados para a nuvem da Microsoft.
+3. Em **Status do Conector com origem,** clique no link Baixar **log** para abrir (ou salvar) o log de status do conector. Esse log contém informações sobre os dados que foram importados para a nuvem da Microsoft.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- No momento, não há suporte para importar anexos ou itens com mais de 10 MB. O suporte para itens maiores estará disponível em uma data posterior.
+- No momento, não há suporte para a importação de anexos ou itens maiores do que 10 MB. O suporte para itens maiores estará disponível posteriormente.

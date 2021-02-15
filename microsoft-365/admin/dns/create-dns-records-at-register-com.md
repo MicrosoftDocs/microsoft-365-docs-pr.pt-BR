@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no Register.com para Microsoft
+title: Criar registros DNS no Register.com para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 55bd8c38-3316-48ae-a368-4959b2c1684e
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Register.com para a Microsoft.
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Register.com para a Microsoft.
 ms.openlocfilehash: dd2f3d516b5309fee85dd572470fe610ff277a68
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
@@ -28,7 +28,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/11/2020
 ms.locfileid: "49657587"
 ---
-# <a name="create-dns-records-at-registercom-for-microsoft"></a>Criar registros DNS no Register.com para Microsoft
+# <a name="create-dns-records-at-registercom-for-microsoft"></a>Criar registros DNS no Register.com para a Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
@@ -46,7 +46,7 @@ Estes são os registros principais a adicionar. Siga as etapas abaixo ou [assist
 
 - [Adicionar os dois registros SRV necessários para a Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Depois que você adicionar esses registros no Register.com, o domínio será configurado para funcionar com os serviços da Microsoft.
+Depois que você adicionar esses registros Register.com, seu domínio será definido para funcionar com os serviços Microsoft.
   
 
   
@@ -67,11 +67,11 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:44)](https://support.mi
     
 2. Escolha **Domínios**.
     
-3. Selecione **gerenciar**.
+3. Selecione **Gerenciar**.
     
-4. Localize a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **gerenciar**.
+4. Encontre a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **Gerenciar**.
     
-5. Role para baixo até a seção **configurações técnicas avançadas** e selecione **editar registros txt (SPF)**.
+5. Role para baixo até **a seção Configurações Técnicas Avançadas** e selecione Editar Registros **TXT (SPF).**
     
 6. In the boxes for the new record, type or copy and paste the values from the following table.
     
@@ -80,9 +80,9 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:44)](https://support.mi
     |**Host Name** <br/> |**TXT Record** <br/> |
     |@  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
-7. Selecione **continuar**.
+7. Selecione **Continuar**.
     
-8. Na próxima página, selecione **continuar** novamente para confirmar suas alterações. 
+8. Na próxima página, selecione **Continuar novamente** para confirmar suas alterações. 
     
 9. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
@@ -110,17 +110,17 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:32)](https://support.mi
     
 2. Escolha **Domínios**.
     
-3. Selecione **gerenciar**.
+3. Selecione **Gerenciar**.
     
-4. Localize a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **gerenciar**.
+4. Encontre a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **Gerenciar**.
     
-5. Role até a seção **configurações técnicas avançadas** e, em seguida, selecione **editar registros de servidor de mensagens**.
+5. Role até a **seção Configurações Técnicas Avançadas** e selecione Editar Registros **do Mail Exchanger.**
     
-    ![Selecione Editar registros de servidor de mensagens](../../media/366b96a1-9147-4bbb-9f8f-50856466cc61.png)
+    ![Selecionar Editar Registros do Mail Exchanger](../../media/366b96a1-9147-4bbb-9f8f-50856466cc61.png)
   
 6. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
     
-    (Escolha o valor **prioridade** na lista suspensa.) 
+    (Escolha o **valor Prioridade** na lista drop-down.) 
     
     |****Nome do host****|****Prioridade****|****Servidor de Email****|
     |:-----|:-----|:-----|
@@ -132,13 +132,13 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:32)](https://support.mi
     
     ![Select each record to delete](../../media/0708d03e-346f-4ae7-8cc4-01589efc00ce.png)
   
-8. Selecione **continuar**.
+8. Selecione **Continuar**.
     
-    ![Selecione continuar](../../media/6ef6ce01-ce21-4e3c-8209-4aa9a3dd4b76.png)
+    ![Selecionar Continuar](../../media/6ef6ce01-ce21-4e3c-8209-4aa9a3dd4b76.png)
   
-9. Na próxima página, selecione **continuar** novamente para confirmar e salvar as alterações. 
+9. Na próxima página, selecione **Continuar** novamente para confirmar e salvar suas alterações. 
     
-    ![Selecione continuar](../../media/adba4a60-bf61-44fc-9ad9-360e66f8a2ee.png)
+    ![Selecionar Continuar](../../media/adba4a60-bf61-44fc-9ad9-360e66f8a2ee.png)
   
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>Adicionar os registros CNAME necessários para a Microsoft
 <a name="BKMK_add_CNAME"> </a>
@@ -149,17 +149,17 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:23)](https://support.mi
     
 2. Escolha **Domínios**.
     
-3. Selecione **gerenciar**.
+3. Selecione **Gerenciar**.
     
-4. Localize a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **gerenciar**.
+4. Encontre a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **Gerenciar**.
     
-5. Role até a seção **configurações técnicas avançadas** e, em seguida, selecione **editar registros de alias de domínio**.
+5. Role até a **seção Configurações Técnicas Avançadas** e selecione **Editar Registros de Aliases de Domínio.**
     
-    ![Selecione Editar registros de aliases de domínio](../../media/9fbc31ed-d67c-4828-8bd4-b51068f1e0ca.png)
+    ![Selecionar Editar Registros de Aliases de Domínio](../../media/9fbc31ed-d67c-4828-8bd4-b51068f1e0ca.png)
   
-6. Selecione **adicionar mais aliases de domínio**.
+6. Selecione **Adicionar mais aliases de domínio.**
     
-    ![Selecione Adicionar mais aliases de domínios](../../media/b787505f-5566-4879-8552-13f9e89cbf6b.png)
+    ![Selecionar Adicionar mais aliases de domínios](../../media/b787505f-5566-4879-8552-13f9e89cbf6b.png)
   
 7. Adicione os registros CNAME.
     
@@ -175,13 +175,13 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:23)](https://support.mi
    
      ![Copiar e colar os valores DNS da tabela](../../media/0e2b36b2-8a0b-4019-addf-301763f9a626.png)
   
-8. Depois de adicionar todos os registros CNAME necessários, selecione **continuar**.
+8. Quando você tiver adicionado todos os registros CNAME necessários, selecione **Continuar**.
     
-    ![Selecione continuar](../../media/1942612b-338a-48fa-a45d-2d5434516723.png)
+    ![Selecionar Continuar](../../media/1942612b-338a-48fa-a45d-2d5434516723.png)
   
-9. Na próxima página, selecione **continuar** novamente para confirmar e salvar as alterações. 
+9. Na próxima página, selecione **Continuar** novamente para confirmar e salvar suas alterações. 
     
-    ![Selecione continuar](../../media/3342b570-0633-49c5-9175-5cc8e4a67b53.png)
+    ![Selecionar Continuar](../../media/3342b570-0633-49c5-9175-5cc8e4a67b53.png)
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
@@ -195,13 +195,13 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:12)](https://support.mi
     
 2. Escolha **Domínios**.
     
-3. Selecione **gerenciar**.
+3. Selecione **Gerenciar**.
     
-4. Localize a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **gerenciar**.
+4. Encontre a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **Gerenciar**.
     
-5. Role até a seção **configurações técnicas avançadas** e selecione **editar registros txt (SPF)**.
+5. Role até a **seção Configurações Técnicas Avançadas** e selecione Editar Registros **TXT (SPF).**
     
-    ![Selecionar editar registros TXT (SPF)](../../media/c917577a-8b3a-4210-ab6e-776e84f926d0.png)
+    ![Selecionar Editar Registros TXT (SPF)](../../media/c917577a-8b3a-4210-ab6e-776e84f926d0.png)
   
 6. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
     
@@ -211,13 +211,13 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:12)](https://support.mi
    
      ![Copiar e colar os valores da tabela](../../media/b1dc5036-c13c-4306-b1e3-5a38a74643b7.png)
   
-7. Selecione **continuar**.
+7. Selecione **Continuar**.
     
-    ![Selecione continuar](../../media/08250c98-1a86-48a8-ad94-f96cf338126b.png)
+    ![Selecionar Continuar](../../media/08250c98-1a86-48a8-ad94-f96cf338126b.png)
   
-8. Na próxima página, selecione **continuar** novamente para confirmar e salvar as alterações. 
+8. Na próxima página, selecione **Continuar** novamente para confirmar e salvar suas alterações. 
     
-    ![Selecione continuar](../../media/56be3b0a-dc71-471c-9be3-6ab927296f67.png)
+    ![Selecionar Continuar](../../media/56be3b0a-dc71-471c-9be3-6ab927296f67.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para a Microsoft
 <a name="BKMK_add_SRV"> </a>
@@ -228,19 +228,19 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:55)](https://support.mi
     
 2. Escolha **Domínios**.
     
-3. Selecione **gerenciar**.
+3. Selecione **Gerenciar**.
     
-4. Localize a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **gerenciar**.
+4. Encontre a linha que contém o nome do domínio que você deseja modificar; e, em seguida, nessa linha, selecione **Gerenciar**.
     
-5. Role até a seção **configurações técnicas avançadas** e selecione **Editar Registros SRV**.
+5. Role até a **seção Configurações Técnicas Avançadas** e selecione **Editar Registros SRV.**
     
-    ![Selecione Editar Registros SRV](../../media/73c149ae-f0d6-460e-880a-7e04a995acc3.png)
+    ![Selecionar Editar Registros SRV](../../media/73c149ae-f0d6-460e-880a-7e04a995acc3.png)
   
 6. Adicione o primeiro dos dois registros SRV:
     
     Nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir.
     
-    (Escolha o valor **prioridade** na lista suspensa.) 
+    (Escolha o **valor Prioridade** na lista drop-down.) 
     
     |****Serviço****|****Proto****|****Nome****|****Prioridade****|****Peso****|****Porta****|****Destino****|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -249,7 +249,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:55)](https://support.mi
    
     ![Copiar e colar os valores da tabela](../../media/71304c81-5845-4a8f-b969-d9efc8721184.png)
   
-7. Selecione **adicionar mais registros SRV**.
+7. Selecione **Adicionar mais registros SRV.**
     
     ![Selecione Adicionar mais registros SRV](../../media/823c6bd2-4af7-4079-bf8c-8d35a5c6730f.png)
   
@@ -257,13 +257,13 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:55)](https://support.mi
     
     Digite ou copie e cole os valores da segunda linha da tabela acima nas caixas do segundo registro.
     
-9. Após adicionar ambos os registros SRV, selecione **continuar**.
+9. Quando você tiver adicionado ambos os registros SRV, selecione **Continuar**.
     
-    ![Selecione continuar](../../media/008b255a-42d3-442d-83ea-3ffcb7c8fc5d.png)
+    ![Selecionar Continuar](../../media/008b255a-42d3-442d-83ea-3ffcb7c8fc5d.png)
   
-10. Na próxima página, selecione **continuar** novamente para confirmar e salvar as alterações. 
+10. Na próxima página, selecione **Continuar** novamente para confirmar e salvar suas alterações. 
     
-    ![Selecione continuar](../../media/b4166e3d-7e4b-41ef-b616-747e95aefc37.png)
+    ![Selecionar Continuar](../../media/b4166e3d-7e4b-41ef-b616-747e95aefc37.png)
   
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 

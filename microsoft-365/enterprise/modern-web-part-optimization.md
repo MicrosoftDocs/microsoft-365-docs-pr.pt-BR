@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Saiba como usar o diagnóstico de página para otimizar o desempenho de Web Parts em páginas de site modernas do SharePoint Online.
+description: Saiba como usar o Diagnóstico de Página para otimizar o desempenho de Web Parts em páginas de site modernas do SharePoint Online.
 ms.openlocfilehash: f7b72aa8ed212147c06660585c4e58e548762c35
 ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
 ms.translationtype: MT
@@ -80,7 +80,7 @@ Há três categorias de possíveis causas do desempenho ruim de uma Web Part. Us
   - Reutilize estruturas como _importações do React_ e do _Fabric_, que vêm como parte da Estrutura do SharePoint (SPFx). Para saber mais, confira [Visão geral da Estrutura do SharePoint](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview).
   - Verifique se você está usando a versão mais recente da Estrutura do SharePoint e atualize para novas versões quando elas estiverem disponíveis.
 - Busca/cache de dados
-  - Se a Web Part depender de chamadas de servidor adicionais para buscar dados para exibição, verifique se essas APIs de servidor são rápidas e/ou implementam o cache no lado do cliente (como usar o _localStorage_ ou o _IndexedDB_ para conjuntos maiores).
+  - Se a Web Part depende de chamadas de servidor extras para buscar dados para exibição, certifique-se de que essas APIs de servidor sejam rápidas e/ou implementem o cache do lado do cliente (como usar _localStorage_ ou _IndexedDB_ para conjuntos maiores).
   - Se várias chamadas forem necessárias para renderizar dados críticos, considere o uso de envio em lote no servidor ou de outros métodos de consolidação de solicitações em uma única chamada.
   - Como alternativa, se alguns elementos de dados exigirem uma API mais lenta, mas não forem críticos para a renderização inicial, separe-os em outra chamada, executada após a renderização dos dados críticos.
   - Se várias partes usarem os mesmos dados, utilize uma camada de dados comum para evitar chamadas duplicadas.

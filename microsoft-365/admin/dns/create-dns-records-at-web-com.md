@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no web.com para Microsoft
+title: Criar registros DNS no web.com para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em web.com para a Microsoft.
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no web.com para a Microsoft.
 ms.openlocfilehash: 943070f3790f532a0cc686270e0ecdea08f802fd
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
@@ -28,13 +28,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/11/2020
 ms.locfileid: "49656886"
 ---
-# <a name="create-dns-records-at-webcom-for-microsoft"></a>Criar registros DNS no web.com para Microsoft
+# <a name="create-dns-records-at-webcom-for-microsoft"></a>Criar registros DNS no web.com para a Microsoft
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
-Se o web.com for seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para email, Skype for Business Online e assim por diante.
+Se web.com provedor de hospedagem DNS, siga as etapas deste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
   
-Depois que você adicionar esses registros no web.com, o domínio será configurado para funcionar com os serviços da Microsoft.
+Depois que você adicionar esses registros web.com, seu domínio será definido para funcionar com os serviços Microsoft.
 
   
 > [!NOTE]
@@ -46,15 +46,15 @@ Depois que você adicionar esses registros no web.com, o domínio será configur
 > [!IMPORTANT]
 > Você deve executar este procedimento no registrador de domínios onde você comprou e registrou seu domínio. 
   
-Quando você se inscreveu no web.com, adicionou um domínio usando o processo de **instalação** do Web.com. 
+Quando você se inscreveu no web.com, adicionou um domínio usando o processo de web.com **instalação.** 
   
-Para verificar e criar registros DNS para o seu domínio na Microsoft, primeiro você precisa alterar os nameservers no seu registrador de domínio para que eles usem os nameservers da Web.
+Para verificar e criar registros DNS para seu domínio na Microsoft, primeiro você precisa alterar os nameservers no registrador de domínios para que eles usem os nameservers web.com.
   
 Para mudar os servidores de nomes do seu domínio por conta própria no site do registrador de domínios, siga essas etapas.
   
 1. Localize a área no site do registrador de domínios na qual você pode editar os servidores de nomes do seu domínio.
     
-2. Crie dois registros de nameserver usando os valores na tabela a seguir ou edite os registros de nameserver existentes para que eles correspondam a esses valores.
+2. Crie dois registros de nameserver usando os valores da tabela a seguir ou edite os registros de nameserver existentes para que eles corresponderem a esses valores.
     
     |||
     |:-----|:-----|
@@ -67,7 +67,7 @@ Para mudar os servidores de nomes do seu domínio por conta própria no site do 
 3. Salve suas alterações.
     
 > [!NOTE]
-> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão configurados para funcionar com seu domínio. 
+> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão definidos para funcionar com seu domínio. 
   
 ## <a name="add-a-txt-record-for-verification"></a>Adicionar um registro TXT para verificação
 <a name="BKMK_verify"> </a>
@@ -77,24 +77,24 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
   
-1. Para começar, vá até a sua página de domínios no web.com usando [este link](https://checkout.web.com/manage-it/index.jsp). Faça o logon primeiro.
+1. To get started, go to your domains page at web.com by using [this link](https://checkout.web.com/manage-it/index.jsp). Faça logoff primeiro.
   
-2. Na página **Gerenciador de contas** , selecione **meus nomes de domínio**. 
+2. Na página **Gerenciador de Contas,** selecione **Meus Nomes de Domínio.** 
   
-3. Em * * gerenciar * meu domínio * * *, selecione **editar registros DNS avançados**.
+3. Em **Gerenciar *meu domínio***, selecione **Editar Registros DNS Avançados.**
 
   
-4. Na página **nomes de domínio** , em **texto (registros txt)**, clique em **editar registros txt** e selecione os valores na tabela a seguir. 
+4. Na página **Nomes de Domínio,** em **Texto (Registros TXT),** clique em Editar Registros **TXT** e selecione os valores da tabela a seguir. 
     
     |**Host**|**TTL**|**Texto**|
     |:-----|:-----|:----|
     |@  <br/> |3600  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)    |
   
     
-5. Selecione **continuar**.
+5. Selecione **Continuar**.
   
   
-6. Aguarde alguns minutos antes de verificar o novo registro TXT, para que o registro que você acabou de criar possa ser atualizado na Internet.
+6. Aguarde alguns minutos antes de verificar seu novo registro TXT, para que o registro que você acabou de criar possa ser atualizado pela Internet.
     
 Agora que você adicionou o registro no site do seu registrador de domínios, retorne à Microsoft e solicite o registro.
   
@@ -121,41 +121,41 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Adicione um registro MX para que o email do domínio vá para a Microsoft.
 <a name="BKMK_add_MX"> </a>
 
-1. Para começar, vá até a sua página de domínios no web.com usando [este link](https://checkout.web.com/manage-it/index.jsp). Faça o logon primeiro.
+1. To get started, go to your domains page at web.com by using [this link](https://checkout.web.com/manage-it/index.jsp). Faça logoff primeiro.
   
-2. Na página **Gerenciador de contas** , selecione **meus nomes de domínio**. 
+2. Na página **Gerenciador de Contas,** selecione **Meus Nomes de Domínio.** 
   
-3. Em * * gerenciar * meu domínio * * *, selecione **editar registros DNS avançados**.
+3. Em **Gerenciar *meu domínio***, selecione **Editar Registros DNS Avançados.**
 
-4. Em **servidores de email (registros MX)**, clique em **editar registros MX** e selecione os valores na tabela a seguir. 
+4. Em **Servidores de Email (Registros MX),** clique em Editar Registros **MX** e selecione os valores da tabela a seguir. 
     
     |**Prioridade**|**TTL**|**Servidor de email**|
     |:-----|:-----|:-----|
-    |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) |
+    |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md) |
    
 
 5. Selecione **Salvar**.
   
-6. Se houver outros registros MX listados na seção **registros MX** , marque a caixa de seleção ao lado do registro em **excluir** e selecione **salvar**. 
+6. Se houver outros registros MX listados na seção Registros **MX,** marque a caixa de seleção ao lado do registro em Excluir e **selecione Salvar.** 
   
-7. Na tela de confirmação, selecione **salvar alterações**. 
+7. Na tela de confirmação, selecione **Salvar alterações.** 
 
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Adicionar os seis registros CNAME necessários para o Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Adicionar os seis registros CNAME necessários para a Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
-1. Para começar, vá até a sua página de domínios no web.com usando [este link](https://checkout.web.com/manage-it/index.jsp). Será solicitado que você faça logon primeiro.
+1. To get started, go to your domains page at web.com by using [this link](https://checkout.web.com/manage-it/index.jsp). Será solicitado que você faça logon primeiro.
      
-2. Na página **Gerenciador de contas** , selecione **meus nomes de domínio**. 
+2. Na página **Gerenciador de Contas,** selecione **Meus Nomes de Domínio.** 
   
-3. Em * * gerenciar * meu domínio * * *, selecione **editar registros DNS avançados**.
+3. Em **Gerenciar *meu domínio***, selecione **Editar Registros DNS Avançados.**
 
 4. Adicione o primeiro dos seis registros CNAME.
     
-    Em **aliases de host (registros CNAME)**, clique em **editar registros CNAME** e selecione os valores da tabela a seguir.
+    Em **Aliases de Host (Registros CNAME),** clique em Editar Registros **CNAME** e selecione os valores da tabela a seguir.
     
     
-    |**Alias**|**TTL**|**Refere-se ao Nome do host**|**Outro host**|
+    |**Alias**|**TTL**|**Refere-se ao Nome do host**|**Outro Host**|
     |:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |3600  <br/> |@ (nenhum)  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |3600  <br/> |@ (nenhum)  <br/> |sipdir.online.lync.com  <br/> |
@@ -165,7 +165,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |msoid  <br/> |3600  <br/> |@ (nenhum)  <br/> |clientconfig.microsoftonline-p.net  <br/> |
     
   
-5. Selecione **continuar**.
+5. Selecione **Continuar**.
   
 6. Adicione cada um dos outros cinco registros CNAME.
 
@@ -174,24 +174,24 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro  *SPF*  que inclua ambos os conjuntos de valores. 
   
-1. Para começar, vá até a sua página de domínios no web.com usando [este link](https://checkout.web.com/manage-it/index.jsp). Faça o logon primeiro.
+1. To get started, go to your domains page at web.com by using [this link](https://checkout.web.com/manage-it/index.jsp). Faça logoff primeiro.
     
   
-2. Na página **Gerenciador de contas** , selecione **meus nomes de domínio**. 
+2. Na página **Gerenciador de Contas,** selecione **Meus Nomes de Domínio.** 
   
-3. Em * * gerenciar * meu domínio * * *, selecione **editar registros DNS avançados**.
+3. Em **Gerenciar *meu domínio***, selecione **Editar Registros DNS Avançados.**
 
   
-4. Na página **nomes de domínio** , em **texto (registros txt)**, clique em **editar registros txt** e selecione os valores na tabela a seguir.   
+4. Na página **Nomes de Domínio,** em **Texto (Registros TXT),** clique em Editar Registros **TXT** e selecione os valores da tabela a seguir.   
     
     |**Host**|**TTL**|**Texto**|
     |:-----|:-----|:-----|
     |@  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.   |
 
  
-5. Selecione **continuar**.
+5. Selecione **Continuar**.
 
 6. Selecione **Salvar alterações**.
     
@@ -201,17 +201,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_SRV"> </a>
 
 > [!IMPORTANT]
-> Tenha em mente que o web.com é responsável por tornar essa funcionalidade disponível. Caso você veja discrepâncias entre as etapas abaixo e a GUI atual do web.com (interface gráfica do usuário), aproveite a [comunidade do Web.com](https://community.web.com.com/). 
+> Lembre-se de que web.com é responsável por disponibilizar essa funcionalidade. Caso você veja discrepâncias entre as etapas abaixo e a GUI do web.com atual(Interface gráfica do usuário), aproveite a [web.com Comunidade.](https://community.web.com.com/) 
 
-1. Para começar, vá até a sua página de domínios no web.com usando [este link](https://checkout.web.com/manage-it/index.jsp). Faça o logon primeiro.
+1. To get started, go to your domains page at web.com by using [this link](https://checkout.web.com/manage-it/index.jsp). Faça logoff primeiro.
       
-2. Na página **Gerenciador de contas** , selecione **meus nomes de domínio**. 
+2. Na página **Gerenciador de Contas,** selecione **Meus Nomes de Domínio.** 
   
-3. Em * * gerenciar * meu domínio * * *, selecione **editar registros DNS avançados**.
+3. Em **Gerenciar *meu domínio***, selecione **Editar Registros DNS Avançados.**
   
 4. Adicione o primeiro dos dois registros SRV.
 
-    Em **serviço (Registros SRV)**, clique em **Editar Registros SRV** e selecione os valores na tabela a seguir. 
+    Em **Serviço (Registros SRV),** clique em Editar Registros **SRV** e selecione os valores da tabela a seguir. 
         
     |**Serviço**|**Protocolo**|**TTL**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -221,7 +221,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 5. Adicione o outro registro SRV escolhendo os valores da segunda linha da tabela. 
   
-6. Selecione **continuar**.
+6. Selecione **Continuar**.
 
 7. Selecione **Salvar alterações**.
 

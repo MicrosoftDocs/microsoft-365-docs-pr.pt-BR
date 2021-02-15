@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NOINDEX
-description: Saiba mais sobre o registro CNAME ' MSOID ' no Office 365 que o direciona para o melhor servidor para processos de autenticação, portanto, você terá um elemento de resposta mais rápido.
+description: Saiba mais sobre o registro CNAME 'MSOID' no Office 365 que direciona você para o melhor servidor para processos de autenticação, para que você receba uma resposta mais rápida.
 monikerRange: o365-21vianet
 ms.openlocfilehash: aea04391768993c40978d94b50817244cd77405c
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
@@ -31,7 +31,7 @@ ms.locfileid: "49655479"
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
 > [!NOTE]
-> Os itens a seguir aplicam-se apenas ao * * Office 365 operado pela 21Vianet.
+> O exemplo a seguir só se aplica ao **Office 365 operado pela 21Vianet.
   
 Você pode estar se perguntando por que precisa adicionar o registro CNAME "MSOID" no Office 365. Este é um registro que deve ser adicionado para todos os domínios personalizados, independentemente de qual assinatura você usa. Por que você precisa disso? É um pouco técnico, mas essencialmente isso ocorre para que você seja direcionado para o melhor servidor melhor para certos processos de autenticação, a fim de receber respostas mais rápidas.
   
@@ -39,10 +39,10 @@ Detalhes técnicos: ao executar um aplicativo cliente que funciona com o Office 
   
 Se o registro CNAME estiver faltando em seu domínio, esses aplicativos usarão um ponto final de autenticação padrão nos Estados Unidos, e a autenticação pode ficar mais lenta. Se este registro CNAME não estiver configurado adequadamente, estes aplicativos não poderão fazer a autenticação; por exemplo se houver um erro de digitação em **Pontos de endereçamento**.
   
- **Se o Office 365 gerencia os registros DNS do seu domínio,** O Office 365 configura esse registro CNAME para você. 
+ **Se o Office 365 gerenciar os registros DNS do seu domínio,** O Office 365 configura esse registro CNAME para você. 
   
- **Se você estiver Gerenciando registros DNS para seu domínio no seu host DNS,** crie este registro por conta própria [seguindo as instruções para o seu host DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+ **Se você estiver gerenciando registros DNS para** seu domínio em seu host DNS, crie esse registro por conta própria seguindo as instruções [para seu host DNS.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
   
-Se você estiver planejando uma implantação do Office 365 e quiser saber mais sobre todos os registros DNS que talvez precise adicionar ou atualizar, leia sobre eles em [referência: registros de sistema de nomes de domínio externo do Office 365](https://go.microsoft.com/fwlink/?LinkId=579013).
+Se você estiver planejando uma implantação do Office 365 e quiser saber mais sobre todos os registros DNS que talvez precise adicionar ou atualizar, leia sobre eles em Referência: registros do Sistema de Nomes de Domínio Externos para [o Office 365.](https://go.microsoft.com/fwlink/?LinkId=579013)
   
 

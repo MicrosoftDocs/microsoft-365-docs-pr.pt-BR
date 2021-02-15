@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no name.com para Microsoft
+title: Criar registros DNS no name.com para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em name.com para a Microsoft.
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no name.com para a Microsoft.
 ms.openlocfilehash: 2330755412abfe262ac79c4acbfc12e33af76fe2
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
@@ -28,13 +28,13 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/11/2020
 ms.locfileid: "49657822"
 ---
-# <a name="create-dns-records-at-namecom-for-microsoft"></a>Criar registros DNS no name.com para Microsoft
+# <a name="create-dns-records-at-namecom-for-microsoft"></a>Criar registros DNS no name.com para a Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se você usa a name.com como provedor de hospedagem DNS, realize os procedimentos deste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
   
-Depois que você adicionar esses registros no name.com, o domínio será configurado para funcionar com os serviços da Microsoft.
+Depois que você adicionar esses registros name.com, seu domínio será definido para funcionar com os serviços Microsoft.
 
   
 > [!NOTE]
@@ -52,11 +52,11 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Em **meus domínios**, selecione o nome do domínio que você deseja modificar.
+2. Em **Meus Domínios,** selecione o nome do domínio que você deseja modificar.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **detalhes** , selecione **registros DNS**. 
+3. Na coluna **Detalhes,** selecione Registros **DNS.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -69,9 +69,9 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     |**Tipo** <br/> |**Host** <br/> |**Atender** <br/> |**TTL** <br/> |
     |TXT  <br/> |(Leave this field empty.)  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Use o valor padrão (300).  <br/> |
    
-    ![Nome-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
+    ![Name-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
   
-5. Selecione **adicionar registro**.
+5. Selecione **Adicionar Registro.**
     
     ![Name-BP-Verify-1-2](../../media/816fc60b-17ab-4982-8849-6c3fcf3ca3d6.png)
   
@@ -105,11 +105,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Em **meus domínios**, selecione o nome do domínio que você deseja modificar.
+2. Em **Meus Domínios,** selecione o nome do domínio que você deseja modificar.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **detalhes** , selecione **registros DNS**. 
+3. Na coluna **Detalhes,** selecione Registros **DNS.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -119,21 +119,21 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Host**|**Atender**|**TTL**|**Prio**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(Deixe este campo vazio.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Acesse sua  *\<domain-key\>*  conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Use o valor padrão (300).  <br/> |,0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |MX  <br/> |(Deixe este campo vazio.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Use o valor padrão (300).  <br/> |0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
-   ![Name-BP-configure-2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
+   ![Name-BP-Configure-2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   
-5. Selecione **adicionar registro**.
+5. Selecione **Adicionar Registro.**
     
     ![Name-BP-Configure-2-2](../../media/fd09f161-7cc4-4723-aec2-5fa801bd19e9.png)
   
 6. Se houver outros registros MX, exclua cada um deles, usando o procedimento de duas etapas a seguir:
     
-    Para cada registro MX, selecione **excluir** na coluna **ações** . 
+    Para cada outro registro MX, selecione **Excluir** na **coluna** Ações. 
     
     ![Name-BP-Configure-2-3](../../media/16734a98-31c4-4023-a2a5-10b7c95bc58e.png)
   
-    Para confirmar cada exclusão, selecione **excluir** na coluna **ações** novamente. 
+    Para confirmar cada exclusão, selecione **Excluir** na **coluna** Ações novamente. 
     
     ![Name-BP-Configure-2-4](../../media/409c21c5-51f4-4244-bb84-5d32084224b2.png)
   
@@ -146,11 +146,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Em **meus domínios**, selecione o nome do domínio que você deseja modificar.
+2. Em **Meus Domínios,** selecione o nome do domínio que você deseja modificar.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **detalhes** , selecione **registros DNS**. 
+3. Na coluna **Detalhes,** selecione Registros **DNS.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -168,15 +168,15 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |CNAME  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |Use o valor padrão (300).  <br/> |
     |CNAME  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |Use o valor padrão (300).  <br/> |
    
-   ![Name-BP-configure-3-1](../../media/4e34caaf-b418-40ec-abfa-fe62175a87c2.png)
+   ![Name-BP-Configure-3-1](../../media/4e34caaf-b418-40ec-abfa-fe62175a87c2.png)
   
-5. Selecione **adicionar registro** para adicionar o primeiro registro. 
+5. Selecione **Adicionar Registro** para adicionar o primeiro registro. 
     
     ![Name-BP-Configure-3-2](../../media/1053c2a7-07c3-4c1b-b54a-1c02881fb0ec.png)
   
 6. Adicione o segundo registro CNAME.
     
-    Use os valores da segunda linha da tabela acima e, em seguida, selecione **adicionar registro** para adicionar o segundo registro. 
+    Use os valores da segunda linha da tabela acima e selecione **Adicionar Registro** para adicionar o segundo registro. 
     
     Adicione os registros restantes da mesma maneira, usando os valores da terceira, quarta, quinta e sexta linhas da tabela.
     
@@ -184,17 +184,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores. 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro  *SPF*  que inclua ambos os conjuntos de valores. 
   
 1. Para iniciar, vá para a sua página de domínios em name.com usando [este link](https://www.name.com/account/domain). Você será solicitado a fazer o logon primeiro.
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Em **meus domínios**, selecione o nome do domínio que você deseja modificar.
+2. Em **Meus Domínios,** selecione o nome do domínio que você deseja modificar.
 
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **detalhes** , selecione **registros DNS**. 
+3. Na coluna **Detalhes,** selecione Registros **DNS.** 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -206,9 +206,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |:-----|:-----|:-----|:-----|
     |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |Use the default value (300).  <br/> |
    
-   ![Name-BP-configure-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
+   ![Name-BP-Configure-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
   
-5. Selecione **adicionar registro**.
+5. Selecione **Adicionar Registro.**
     
     ![Name-BP-Configure-4-2](../../media/db1e0e09-2b95-4fc1-88bd-e86da536921f.png)
   
@@ -219,11 +219,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Name-BP-Configure-1-1](../../media/1869b416-1d3f-4fb1-99c6-62b74ca7a4c7.png)
   
-2. Em **meus domínios**, selecione o nome do domínio que você deseja modificar.
+2. Em **Meus Domínios,** selecione o nome do domínio que você deseja modificar.
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **detalhes** , selecione **registros DNS +**. 
+3. Na coluna **Detalhes,** selecione **Registros DNS+**. 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -238,15 +238,15 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |SRV|sip|1 |Use o valor padrão (300).|100|tls|443|sipdir.online.lync.com <br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
     |SRV|sipfederationtls|1 |Use o valor padrão (300).|100|tcp|5061|sipfed.online.lync.com <br>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
-   ![Name-BP-configure-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
+   ![Name-BP-Configure-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
   
-5. Selecione **adicionar registro**.
+5. Selecione **Adicionar Registro.**
 
     ![Name-BP-Configure-5-2](../../media/a804d51d-8f57-4b0b-8bd6-a52eb1c87a97.png)
   
 6. Adicione o segundo registro SRV:
 
-Use os valores da próxima linha da tabela acima e, em seguida, selecione **adicionar registro** para adicionar o segundo registro.
+Use os valores da próxima linha da tabela acima e selecione **Adicionar Registro** para adicionar o segundo registro.
 
 >[!NOTE]
 >Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md).

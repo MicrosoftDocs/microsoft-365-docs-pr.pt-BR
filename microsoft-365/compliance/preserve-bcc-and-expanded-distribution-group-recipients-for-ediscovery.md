@@ -11,7 +11,7 @@ ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
-description: In-Place bloqueio, retenção de litígio e políticas de retenção da Microsoft 365 permitem preservar o conteúdo da caixa de correio para atender aos requisitos de conformidade normativa e eDiscovery.
+description: In-Place retenção, retenção de litígio e políticas de retenção do Microsoft 365 permitem preservar o conteúdo da caixa de correio para atender aos requisitos regulatórios de conformidade e Descoberta Eletrônico.
 ms.openlocfilehash: c864a963bec7a7d342a8ad90b6edc57c88f5205b
 ms.sourcegitcommit: 490a65d32b6d656c661c36a2cc8dda03bf6cba77
 ms.translationtype: MT
@@ -21,87 +21,87 @@ ms.locfileid: "49588502"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>Preservar destinatários Cco e de grupos de distribuição expandidos para Descoberta Eletrônica
   
-In-Place bloqueio, retenção de litígio e [políticas de retenção do Microsoft 365](https://go.microsoft.com/fwlink/?LinkID=827811) (criadas no centro de conformidade & segurança) permitem que você preserve o conteúdo da caixa de correio para atender aos requisitos de conformidade normativa e eDiscovery. As informações sobre os destinatários endereçados diretamente nos campos para e CC de uma mensagem são incluídas em todas as mensagens por padrão. Mas sua organização pode exigir a capacidade de Pesquisar e reproduzir detalhes sobre todos os destinatários de uma mensagem. Isso inclui:
+In-Place Retenção de In-Place, Retenção de Litígio e políticas de retenção do [Microsoft 365](https://go.microsoft.com/fwlink/?LinkID=827811) & (criadas no Centro de Conformidade e Segurança) permitem que você preserve o conteúdo da caixa de correio para atender aos requisitos regulatórios de conformidade e Descoberta Eletrônico. Informações sobre destinatários diretamente endereçados nos campos Para e Cc de uma mensagem são incluídas em todas as mensagens por padrão. Mas sua organização pode exigir a capacidade de pesquisar e reproduzir detalhes sobre todos os destinatários de uma mensagem. Isso inclui:
   
-- **Destinatários endereçados usando o campo Cco de uma mensagem:** Os destinatários Cco são armazenados na mensagem da caixa de correio do remetente, mas não estão incluídos nos cabeçalhos da mensagem entregue aos destinatários. 
+- **Destinatários endereçados usando o campo Cc de uma mensagem:** Os destinatários Cc são armazenados na mensagem na caixa de correio do remetente, mas não incluídos nos títulos da mensagem entregue aos destinatários. 
     
-- **Destinatários de grupos de distribuição expandidos:** Destinatários que recebem a mensagem porque são membros de um grupo de distribuição para o qual a mensagem foi tratada, nos campos para, CC ou Cco. 
+- **Destinatários expandidos do grupo de distribuição:** Destinatários que recebem a mensagem porque são membros de um grupo de distribuição ao qual a mensagem foi endereçada, nos campos Para, Cc ou Cc. 
     
-Exchange Online e Exchange Server 2013 (atualização cumulativa 7 e versões posteriores) retêm informações sobre Cco e destinatários expandidos do grupo de distribuição. Você pode pesquisar essas informações usando uma pesquisa de descoberta eletrônica do In-Place no centro de administração do Exchange (Eat) ou uma pesquisa de conteúdo no centro de conformidade de & de segurança. 
+O Exchange Online e o Exchange Server 2013 (Atualização Cumulativa 7 e versões posteriores) retêm informações sobre destinatários do grupo de distribuição Cc e expandido. Você pode pesquisar essas informações usando uma pesquisa de Descoberta In-Place no Centro de administração do Exchange (EAC) ou uma Pesquisa de Conteúdo no Centro de Conformidade e & Segurança. 
   
-## <a name="how-bcc-recipients-and-expanded-distribution-group-recipients-are-preserved"></a>Como os destinatários Cco e os destinatários de grupos de distribuição expandidos são preservados
+## <a name="how-bcc-recipients-and-expanded-distribution-group-recipients-are-preserved"></a>Como os destinatários Cc e os destinatários do grupo de distribuição expandido são preservados
 
-Conforme mencionado anteriormente, as informações sobre os destinatários do estava são armazenadas com a mensagem na caixa de correio do remetente. Essas informações são indexadas e disponibilizadas para pesquisas e isenções de descoberta eletrônica. 
+Conforme indicado anteriormente, as informações sobre destinatários de Cc'ed são armazenadas com a mensagem na caixa de correio do remetente. Essas informações são indexadas e estão disponíveis para pesquisas e isenções de Descobertas e Descobertas. 
   
-As informações sobre destinatários expandidos do grupo de distribuição são armazenadas com a mensagem depois que você coloca uma caixa de correio em In-Place retenção ou retenção de litígio. No Office 365, essas informações também são armazenadas quando uma política de retenção da Microsoft 365 é aplicada a uma caixa de correio. A associação do grupo de distribuição é determinada no momento em que a mensagem é enviada. A lista de destinatários expandidos armazenada com a mensagem não é afetada por alterações na associação do grupo depois que a mensagem é enviada. 
+As informações sobre destinatários de grupos de distribuição expandidos são armazenadas com a mensagem depois que você coloca uma caixa de correio em In-Place de litígio ou de litígio. No Office 365, essas informações também são armazenadas quando uma política de retenção do Microsoft 365 é aplicada a uma caixa de correio. A associação do grupo de distribuição é determinada no momento em que a mensagem é enviada. A lista de destinatários expandida armazenada com a mensagem não é impactada pelas alterações na associação do grupo depois que a mensagem é enviada. 
   
-| Informações sobre... | É armazenado em... | É armazenado por padrão? | Está acessível para... |
+| Informações sobre... | É armazenado em... | É armazenado por padrão? | É acessível para... |
 |:-----|:-----|:-----|:-----|
-|Destinatários para e CC  <br/> |Propriedades da mensagem nas caixas de correio do remetente e dos destinatários.  <br/> |Sim  <br/> |Remetente, destinatários e gerentes de conformidade  <br/> |
-|Destinatários Cco  <br/> |Propriedade Message na caixa de correio do remetente.  <br/> |Sim  <br/> |Órgãos de remetente e conformidade  <br/> |
-|Destinatários de grupos de distribuição expandidos  <br/> |Propriedades da mensagem na caixa de correio do remetente.  <br/> |Não. As informações de destinatário do grupo de distribuição expandido são armazenadas depois que uma caixa de correio é colocada em In-Place bloqueio ou retenção de litígio, ou atribuída a uma política de retenção do Microsoft 365.  <br/> |Oficiais de conformidade  <br/> |
+|Destinatários Para e Cc  <br/> |Propriedades da mensagem nas caixas de correio do remetente e dos destinatários.  <br/> |Sim  <br/> |Remetente, destinatários e responsáveis pela conformidade  <br/> |
+|Destinatários Cc  <br/> |Propriedade da mensagem na caixa de correio do remetente.  <br/> |Sim  <br/> |Remetente e responsáveis pela conformidade  <br/> |
+|Destinatários expandidos do grupo de distribuição  <br/> |Propriedades da mensagem na caixa de correio do remetente.  <br/> |Não. As informações do destinatário do grupo de distribuição expandido são armazenadas depois que uma caixa de correio é colocada In-Place retenção ou retenção de litígio ou atribuída a uma política de retenção do Microsoft 365.  <br/> |Oficiais de conformidade  <br/> |
    
-## <a name="searching-for-messages-sent-to-bcc-and-expanded-distribution-group-recipients"></a>Pesquisando mensagens enviadas para destinatários Cco e de grupo de distribuição expandido
+## <a name="searching-for-messages-sent-to-bcc-and-expanded-distribution-group-recipients"></a>Pesquisar mensagens enviadas a destinatários do grupo de distribuição Cc e expandido
 
-Ao pesquisar mensagens enviadas a um destinatário, os resultados da pesquisa de descoberta eletrônica agora incluem mensagens enviadas a um grupo de distribuição do qual o destinatário é membro. A tabela a seguir mostra os cenários em que as mensagens enviadas para os destinatários de grupo de distribuição Cco e expandido são retornadas nas pesquisas de descoberta eletrônica.
+Ao pesquisar por mensagens enviadas a um destinatário, os resultados da pesquisa de Descoberta e agora incluem mensagens enviadas para um grupo de distribuição do que o destinatário é membro. A tabela a seguir mostra os cenários em que as mensagens enviadas para destinatários do grupo de distribuição Cc e expandido são retornadas nas pesquisas de Descobertas e Descobertas.
   
-Cenário 1: John é um membro do grupo de distribuição US-Sales. Esta tabela mostra os resultados da pesquisa de descoberta eletrônica quando Bob envia uma mensagem para John direta ou indiretamente por meio de um grupo de distribuição.
+Cenário 1: John é membro do grupo US-Sales distribuição. Esta tabela mostra os resultados da pesquisa de Descoberta eDiscovery quando Bob envia uma mensagem para John direta ou indiretamente por meio de um grupo de distribuição.
   
-| Quando você pesquisa a caixa de correio de Bob para mensagens enviadas... | E a mensagem é enviada com... | Os resultados incluem a mensagem? |
+| Quando você pesquisa na caixa de correio de Bob por mensagens enviadas... | E a mensagem é enviada com... | Os resultados incluem mensagem? |
 |:-----|:-----|:-----|
-|Para: João  <br/> |John no a  <br/> |Sim  <br/> |
-|Para: João  <br/> |US-Sales em para  <br/> |Sim  <br/> |
-|Para: US-vendas  <br/> |US-Sales em para  <br/> |Sim  <br/> |
-|CC: John  <br/> |John no CC  <br/> |Sim  <br/> |
-|CC: John  <br/> |US-Sales no CC  <br/> |Sim  <br/> |
-|CC: US-vendas  <br/> |US-Sales no CC  <br/> |Sim  <br/> |
+|To:John  <br/> |John on TO  <br/> |Sim  <br/> |
+|To:John  <br/> |US-Sales em TO  <br/> |Sim  <br/> |
+|To:US-Sales  <br/> |US-Sales em TO  <br/> |Sim  <br/> |
+|Cc:John  <br/> |John no CC  <br/> |Sim  <br/> |
+|Cc:John  <br/> |US-Sales no CC  <br/> |Sim  <br/> |
+|Cc:US-Sales  <br/> |US-Sales no CC  <br/> |Sim  <br/> |
    
-Cenário 2: Bob envia um email para John (para/CC) e Jack (Cco diretamente ou indiretamente por meio de um grupo de distribuição). A tabela abaixo mostra os resultados da pesquisa de descoberta eletrônica.
+Cenário 2: Bob envia um email para John (Para/Cc) e John (Cc direta ou indiretamente por meio de um grupo de distribuição). A tabela a seguir mostra os resultados da pesquisa de Descoberta eDiscovery.
   
-| Quando você pesquisa... | Para mensagens enviadas... | Os resultados incluem a mensagem? | Observações |
+| Quando você pesquisa... | Para mensagens enviadas... | Os resultados incluem mensagem? | Observações |
 |:-----|:-----|:-----|:-----|
-|Caixa de correio de Bob  <br/> |Para/CC: João  <br/> |Sim  <br/> |Apresenta uma indicação de que o Jack foi estava.  <br/> |
-|Caixa de correio de Bob  <br/> |CCO: Jack  <br/> |Sim  <br/> |Apresenta uma indicação de que o Jack foi estava.  <br/> |
-|Caixa de correio de Bob  <br/> |BCC: Jack (via grupo de distribuição)  <br/> |Sim  <br/> |Lista de membros do grupo de distribuição estava, expandida quando a mensagem foi enviada, está visível em visualização, exportação e logs da pesquisa de descoberta eletrônica.  <br/> |
-|Caixa de correio de John  <br/> |Para/CC: João  <br/> |Sim  <br/> |Nenhuma indicação de destinatários Cco.  <br/> |
-|Caixa de correio de John  <br/> |BCC: Jack (diretamente ou via grupo de distribuição)  <br/> |Não  <br/> |As informações de Cco não são armazenadas na mensagem entregue aos destinatários. Você deve pesquisar a caixa de correio do remetente.  <br/> |
-|Caixa de correio da tomada  <br/> |Para/CC: João (diretamente ou via grupo de distribuição)  <br/> |Sim  <br/> |As informações para/CC estão incluídas na mensagem entregue a todos os destinatários.  <br/> |
-|Caixa de correio da tomada  <br/> |BCC: Jack (diretamente ou via grupo de distribuição)  <br/> |Não  <br/> |As informações de Cco não são armazenadas na mensagem entregue aos destinatários. Você deve pesquisar a caixa de correio do remetente.  <br/> |
+|Caixa de correio de Bob  <br/> |To/Cc:John  <br/> |Sim  <br/> |Apresenta uma indicação de que o Tomada foi Cc'ed.  <br/> |
+|Caixa de correio de Bob  <br/> |Bcc:Jack  <br/> |Sim  <br/> |Apresenta uma indicação de que o Tomada foi Cc'ed.  <br/> |
+|Caixa de correio de Bob  <br/> |Bcc:Jack (via grupo de distribuição)  <br/> |Sim  <br/> |A lista de membros do grupo de distribuição Cc'ed, expandida quando a mensagem foi enviada, fica visível na visualização, exportação e logs de pesquisa de Descobertas e Descobertas.  <br/> |
+|Caixa de correio de John  <br/> |To/Cc:John  <br/> |Sim  <br/> |Nenhuma indicação de destinatários Cc.  <br/> |
+|Caixa de correio de John  <br/> |Bcc:Jack (diretamente ou por meio do grupo de distribuição)  <br/> |Não  <br/> |As informações de Cc não são armazenadas na mensagem entregue aos destinatários. Você deve pesquisar a caixa de correio do remetente.  <br/> |
+|Caixa de correio de Tomada  <br/> |Para/Cc:John (diretamente ou por meio do grupo de distribuição)  <br/> |Sim  <br/> |As informações para/Cc são incluídas na mensagem entregue a todos os destinatários.  <br/> |
+|Caixa de correio de Tomada  <br/> |Bcc:Jack (diretamente ou por meio do grupo de distribuição)  <br/> |Não  <br/> |As informações de Cc não são armazenadas na mensagem entregue aos destinatários. Você deve pesquisar a caixa de correio do remetente.  <br/> |
    
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
- **T. Quando e onde as informações de destinatário Cco são armazenadas?**
+ **P. Quando e onde as informações de destinatário Cc são armazenadas?**
   
-R. As informações de destinatário Cco são preservadas por padrão na mensagem original na caixa de correio do remetente. Se o destinatário Cco for um grupo de distribuição, a associação de grupo de distribuição só será expandida se a caixa de correio do remetente estiver em espera ou atribuída a uma política de retenção do Microsoft 365.
+R. As informações de destinatário Cc são preservadas por padrão na mensagem original na caixa de correio do remetente. Se o destinatário Cc for um grupo de distribuição, a associação do grupo de distribuição só será expandida se a caixa de correio do remetente estiver em espera ou atribuída a uma política de retenção do Microsoft 365.
   
- **T. Quando e onde a lista de destinatários de grupos de distribuição expandidos está armazenada?**
+ **P. Quando e onde a lista de destinatários do grupo de distribuição expandida é armazenada?**
   
-R. A associação de grupo é expandida no momento em que a mensagem é enviada. A lista de membros do grupo de distribuição expandida é armazenada na mensagem original na caixa de correio do remetente. A caixa de correio do remetente deve estar em In-Place bloqueio, retenção de litígio ou atribuído a uma política de retenção do Microsoft 365.
+R. A associação ao grupo é expandida no momento em que a mensagem é enviada. A lista de membros do grupo de distribuição expandido é armazenada na mensagem original na caixa de correio do remetente. A caixa de correio do remetente deve estar em In-Place retenção, retenção de litígio ou atribuída a uma política de retenção do Microsoft 365.
   
- **T. Os destinatários para/CC podem ver quais destinatários foram estava?**
+ **P. Os destinatários Para/Cc podem ver quais destinatários foram Cc'ed?**
   
-R. Não. Essas informações não estão incluídas em cabeçalhos de mensagem e não são visíveis para destinatários para/CC. O remetente pode ver o campo Cco armazenado na mensagem original armazenada na caixa de correio. Os gerentes de conformidade podem ver essas informações ao pesquisar a caixa de correio do remetente.
+R. Não. Essas informações não estão incluídas nos headers de mensagem e não estão visíveis para destinatários Para/Cc. O remetente pode ver o campo Cc armazenado na mensagem original armazenada em sua caixa de correio. Os agentes de conformidade podem ver essas informações ao pesquisar na caixa de correio do remetente.
   
- **T. Como posso garantir que os destinatários do grupo de distribuição expandida sejam sempre preservados?**
+ **P. Como posso garantir que os destinatários do grupo de distribuição expandido sejam sempre preservados?**
   
-R. Para garantir que os membros do grupo de distribuição expandido sejam sempre preservados com uma mensagem, [Coloque todas as caixas de correio em espera](https://technet.microsoft.com/library/4c141604-3210-44cc-b98e-f3e0f15613b8.aspx) ou crie uma política de retenção do Microsoft 365 em toda a organização. 
+R. Para garantir que os membros do grupo de distribuição expandido sejam sempre preservados com uma [mensagem,](https://technet.microsoft.com/library/4c141604-3210-44cc-b98e-f3e0f15613b8.aspx) coloque todas as caixas de correio em espera ou crie uma política de retenção do Microsoft 365 em toda a organização. 
   
- **T. Para quais tipos de grupos há suporte?**
+ **P. Quais tipos de grupos são suportados?**
   
-R. Há suporte para grupos de distribuição, grupos de segurança habilitados para email e grupos de distribuição dinâmicos. 
+R. Grupos de distribuição, grupos de segurança habilitados para email e grupos dinâmicos de distribuição são suportados. 
   
- **T. Há um limite no número de destinatários do grupo de distribuição que são expandidos e armazenados na mensagem?**
+ **P. Há um limite no número de destinatários do grupo de distribuição que são expandidos e armazenados na mensagem?**
   
-R. Até 10.000 membros de um grupo de distribuição é preservado.
+R. Até 10.000 membros de um grupo de distribuição são preservados.
   
- **T. Há suporte para grupos de distribuição aninhados?**
+ **P. Há suporte para grupos de distribuição aninhados?**
   
 R. Sim, 25 níveis de grupos de distribuição aninhados são expandidos.
   
- **T. Onde as informações de destinatário do grupo de distribuição Cco e expandidas estão visíveis?**
+ **P. Onde as informações do destinatário do grupo de distribuição Cc e expandido estão visíveis?**
   
-R. As informações de destinatários de grupos de distribuição Cco e expandidas são visíveis aos responsáveis pela conformidade ao realizar uma pesquisa de descoberta eletrônica. Os destinatários de grupos de distribuição Cco e expandidos são incluídos nos resultados de pesquisa copiados para uma caixa de correio de descoberta ou exportados para um arquivo PST e no log de descoberta eletrônica incluído nos resultados da pesquisa. As informações de destinatário Cco também estão disponíveis na visualização de pesquisa.
+R. As informações de destinatários do grupo de distribuição Cc e expandido são visíveis para os responsáveis pela conformidade ao realizar uma pesquisa de Descoberta eDiscovery. Os destinatários do grupo de distribuição Cc e expandido são incluídos nos resultados da pesquisa copiados para uma caixa de correio de Descoberta ou exportados para um arquivo PST e no log de Descoberta Eletrônico incluído nos resultados da pesquisa. As informações de destinatário Cc também estão disponíveis na visualização de pesquisa.
   
- **T. O que acontece se um membro de um grupo de distribuição estiver oculto da GAL (lista de endereços global) da organização?**
+ **P. O que acontece se um membro de um grupo de distribuição estiver oculto da GAL (lista de endereços global) da organização?**
   
-R. Não há impacto. Se os destinatários estiverem ocultos da GAL, eles ainda serão incluídos na lista de destinatários para o grupo de distribuição expandido.
+R. Não há impacto. Se os destinatários estão ocultos da GAL, eles ainda são incluídos na lista de destinatários do grupo de distribuição expandido.

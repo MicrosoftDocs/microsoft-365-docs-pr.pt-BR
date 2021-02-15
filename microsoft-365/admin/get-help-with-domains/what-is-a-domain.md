@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c33d1ba6-077c-4cea-be04-cfffbe3f3ed8
-description: Entenda o que é um domínio e como você pode comprar um domínio ou usar o domínio padrão de sua empresa.
+description: Entenda o que é um domínio e como você pode comprar um domínio ou usar o domínio padrão da sua empresa.
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
@@ -33,29 +33,29 @@ ms.locfileid: "49658070"
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
-O domínio é um nome exclusivo que é exibido após o sinal de **@** nos endereços de email e após **www.** nos endereços de site. Normalmente, ela assume a forma do nome da sua organização e um sufixo da Internet padrão, como *yourbusiness. <span> com* ou *StateUniversity. <span> edu*. 
+O domínio é um nome exclusivo que é exibido após o sinal de **@** nos endereços de email e após **www.** nos endereços de site. Normalmente, ele assume a forma do nome da sua organização e um sufixo padrão da Internet, como *seu negócio. <span> com* ou *stateuniversity. <span> edu*. 
   
-Usar um domínio personalizado como *Rob@contoso. <span> com o* Microsoft 365 pode ajudar a criar credibilidade e reconhecimento para a sua marca. 
+Usar um domínio personalizado como *rob@contoso. <span> com* com o Microsoft 365 pode ajudar a criar fidelidade e reconhecimento para sua marca. 
   
 ## <a name="choose-the-experience-thats-best-for-you"></a>Escolha a experiência que é melhor para você:
 
- **Comprar um novo domínio:**
+ **Compre um novo Domínio:**
   
-Use o Microsoft 365 para comprar um novo domínio – vamos configurar tudo. [Saiba Mais.](buy-a-domain-name.md)
+Use o Microsoft 365 para comprar um novo domínio. Vamos configurar tudo. [Saiba mais.](buy-a-domain-name.md)
   
  **Use um domínio que você já possui:**
   
-Se você já possui um domínio como  *you@yourcompany. <span> com*  você pode adicioná-lo e começar a usar o onedrive e aplicativos da Microsoft imediatamente. Você precisará de alguns minutos para configurar o email e o Skype for Business. 
+Se você já possui um domínio como  *you@yourcompany. <span> você*  pode adicioná-lo e começar a usar os aplicativos do OneDrive e da Microsoft imediatamente. Você precisará de alguns minutos para configurar o email e o Skype for Business. 
   
 > [!TIP]
 > Não sabe onde seu domínio está registrado? [Obtenha ajuda para localizar o registrador de domínios](find-your-domain-registrar.md).
   
  **Use um domínio padrão por enquanto:**
   
-Você pode usar um domínio padrão como  *yourcompany. onmicrosoft. <span> com*  para fazer logon por enquanto e adicionar um domínio personalizado mais tarde. Você não pode alterar ou renomear o seu domínio padrão, por isso, tenha certeza de que é isso que você deseja antes de continuar. 
+Você pode usar um domínio padrão como  *yourcompany.onmicrosoft. <span> para*  entrar por enquanto e adicionar um domínio personalizado mais tarde. Você não pode alterar ou renomear o seu domínio padrão, por isso, tenha certeza de que é isso que você deseja antes de continuar. 
   
 ## <a name="feeling-stuck"></a>Se sentindo travado?
 
-Ligar para o suporte da Microsoft- [obter ajuda para configurar um domínio](../contact-support-for-business-products.md)
+Ligar para o Suporte da Microsoft - [Obter ajuda para configurar um domínio](../contact-support-for-business-products.md)
   
 

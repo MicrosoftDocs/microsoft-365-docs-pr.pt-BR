@@ -1,5 +1,5 @@
 ---
-title: Alterar os nameservers para configurar a Microsoft com serviços Web da Amazon (AWS)
+title: Alterar os nameservers para configurar a Microsoft com o AWS (Amazon Web Services)
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0ddbe33c-81ea-4c02-8db9-e71d3810c0ec
-description: 'Saiba como você pode configurar a Microsoft para gerenciar seus registros DNS no Amazon Web Services (AWS). '
+description: 'Saiba como você pode configurar a Microsoft para gerenciar seus registros DNS no AWS (Amazon Web Services). '
 ms.openlocfilehash: 4700557c40973ab051cced81c129197a826964ab
 ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
 ms.translationtype: MT
@@ -28,11 +28,11 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 12/11/2020
 ms.locfileid: "49658447"
 ---
-# <a name="change-nameservers-to-set-up-microsoft-with-amazon-web-services-aws"></a>Alterar os nameservers para configurar a Microsoft com serviços Web da Amazon (AWS)
+# <a name="change-nameservers-to-set-up-microsoft-with-amazon-web-services-aws"></a>Alterar os nameservers para configurar a Microsoft com o AWS (Amazon Web Services)
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
-Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS para você. Se preferir, [gerencie todos os registros DNS da Microsoft em AWS](create-dns-records-at-aws.md).
+Siga estas instruções se quiser que a Microsoft gerencie seus registros DNS para você. Se preferir, [gerencie todos os registros DNS da Microsoft no AWS.](create-dns-records-at-aws.md)
   
     
 ## <a name="add-a-txt-record-for-verification"></a>Adicionar um registro TXT para verificação
@@ -44,11 +44,11 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
   
 1. Para começar, vá para sua página de domínios no AWS usando [este link](https://console.aws.amazon.com/route53/home). Você será solicitado a fazer logon primeiro.
     
-2. Na página **recursos** , selecione **zonas hospedadas**.
+2. Na página **Recursos,** selecione **Zonas Hospedadas.**
     
-3. Na página **zonas hospedadas** , na coluna **nome do domínio** , selecione o nome do domínio que você deseja editar. 
+3. Na página **Zonas Hospedadas,** na **coluna** Nome de Domínio, selecione o nome do domínio que você deseja editar. 
     
-4. Selecione **criar conjunto de registros**.
+4. Selecione **Criar Conjunto de Registros.**
     
 5. In the **Create Record Set** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -66,7 +66,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
 7. Aguarde alguns minutos antes de prosseguir para que o registro que você acabou de criar possa ser atualizado na Internet.
     
-Agora que você adicionou o registro no site do seu registrador de domínio, você voltará para a Microsoft e solicitará uma pesquisa para o registro.
+Agora que você adicionou o registro no site do registrador de domínios, volte para a Microsoft e solicite uma pesquisa para o registro.
   
 Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verificado.
   
@@ -84,19 +84,19 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>Alterar os registros de nameserver (NS) de seu domínio
 
-Para concluir a configuração do seu domínio com a Microsoft, altere os registros NS do seu domínio no seu registrador de domínios para apontar para os servidores de nomes primários e secundários da Microsoft. Isso configura a Microsoft para atualizar os registros DNS do domínio para você. Todos os registros são adicionados para que os seus emails, o Skype for Business Online e os sites públicos funcionem com o seu domínio e você fique com tudo pronto.
+Para concluir a configuração do domínio com a Microsoft, altere os registros NS do seu domínio no registrador de domínios para apontar para os servidores de nomes primários e secundários da Microsoft. Isso configura a Microsoft para atualizar os registros DNS do domínio para você. Todos os registros são adicionados para que os seus emails, o Skype for Business Online e os sites públicos funcionem com o seu domínio e você fique com tudo pronto.
   
 > [!CAUTION]
-> Quando você alterar os registros NS do seu domínio para apontar para os servidores de nomes da Microsoft, todos os serviços associados atualmente ao seu domínio serão afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain*  . com) começarão a ser iniciados pela Microsoft depois que você fizer essa alteração. 
+> Quando você altera os registros NS do seu domínio para apontar para os servidores de nomes da Microsoft, todos os serviços atualmente associados ao seu domínio são afetados. Por exemplo, todos os emails enviados para seu domínio (como rob@ *your_domain*  .com) começarão a chegar na Microsoft depois que você fizer essa alteração. 
   
 > [!IMPORTANT]
->  O procedimento a seguir mostrará como excluir outros nameservers indesejados da lista e também como adicionar os nameservers corretos se eles ainda não estiverem listados. > quando você tiver concluído as etapas nesta seção, os únicos nameservers que devem ser listados são estes quatro: > ns1.bdm.microsoftonline.com > ns2.bdm.microsoftonline.com > ns3.bdm.microsoftonline.com > ns4.bdm.microsoftonline.com 
+>  O procedimento a seguir mostrará como excluir quaisquer outros nameservers indesejados da lista e também como adicionar os nameservers corretos se eles ainda não estão listados. > Concluir as etapas desta seção, os únicos nameservers que devem estar listados são estes quatro: > ns1.bdm.microsoftonline.com > ns2.bdm.microsoftonline.com > ns3.bdm.microsoftonline.com > ns4.bdm.microsoftonline.com 
   
 1. Para começar, vá para sua página de domínios no AWS usando [este link](https://console.aws.amazon.com/route53/home). Você será solicitado a fazer logon primeiro.
     
-2. Na página **recursos** , selecione **zonas hospedadas**.
+2. Na página **Recursos,** selecione **Zonas Hospedadas.**
     
-3. Na página **zonas hospedadas** , na coluna **nome do domínio** , selecione o nome do domínio que você deseja editar. 
+3. Na página **Zonas Hospedadas,** na **coluna** Nome de Domínio, selecione o nome do domínio que você deseja editar. 
     
 4. Selecione o conjunto de registros **Nameserver**. 
     
@@ -105,13 +105,13 @@ Para concluir a configuração do seu domínio com a Microsoft, altere os regist
 5. No conjunto de registros **NS - Name server** na caixa **Valor**, exclua todos os nameservers selecionando todos eles e pressionando a tecla **Delete** no teclado. 
     
     > [!CAUTION]
-    > Follow these steps only if you have existing nameservers other than the four correct nameservers. (Ou seja, exclua somente os nameservers atuais que  *não*  sejam denominados **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **NS3.bdm.microsoftonline.com** ou **NS4.bdm.microsoftonline.com**.) 
+    > Follow these steps only if you have existing nameservers other than the four correct nameservers. (Ou seja, exclua apenas todos  os nameservers atuais que não são nomeados **ns1.bdm.microsoftonline.com,** **ns2.bdm.microsoftonline.com,** **ns3.bdm.microsoftonline.com** ou **ns4.bdm.microsoftonline.com**.) 
   
     ![Select and delete all of the nameservers in the Value box](../../media/ecf1e897-fa7d-4abc-b00b-bf55b8ed2139.png)
   
-6. Na área **TTL (segundos):** , selecione **1h** (1 hora). 
+6. Na área **TTL (Segundos),** selecione **1h** (1 Hora). 
     
-    ![Selecionar 1H por uma hora](../../media/c70070e1-4bde-41a7-b271-9d22c475edf6.png)
+    ![Selecionar 1H para uma hora](../../media/c70070e1-4bde-41a7-b271-9d22c475edf6.png)
   
 7. Ainda no conjunto de registros **NS - Nameserver**, na caixa **Valor**, digite ou copie e cole o valor **Primeira linha** da tabela a seguir, pressione a tecla **Enter** no teclado e digite ou copie e cole o valor da próxima **linha**. 
     
@@ -125,11 +125,11 @@ Para concluir a configuração do seu domínio com a Microsoft, altere os regist
 |**Terceira linha** <br/> |ns3.bdm.microsoftonline.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
 |**Quarta linha** <br/> |ns4.bdm.microsoftonline.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
    
-   ![Digite ou cole o valor da primeira linha na caixa de valor](../../media/b63f41e0-51ef-4ab2-a4b8-ee7380e5ab35.png)
+   ![Digite ou colar o valor da primeira linha na caixa Valor](../../media/b63f41e0-51ef-4ab2-a4b8-ee7380e5ab35.png)
   
-8. Selecione **Salvar conjunto de registros**.
+8. Selecione **Salvar Conjunto de Registros.**
     
-    ![Selecionar Salvar conjunto de registros](../../media/ab3c0558-bb7c-41e4-871e-ea82f1553476.png)
+    ![Selecionar Salvar Conjunto de Registros](../../media/ab3c0558-bb7c-41e4-871e-ea82f1553476.png)
   
 > [!NOTE]
-> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão configurados para funcionar com seu domínio. 
+> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. Em seguida, seu email da Microsoft e outros serviços serão definidos para funcionar com seu domínio. 

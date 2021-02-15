@@ -18,7 +18,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba como usar uma política de prevenção de perda de dados (DLP) para proteger documentos que têm propriedades de um sistema de terceiros.
+description: Saiba como usar uma política de prevenção contra perda de dados (DLP) para proteger documentos que têm propriedades de um sistema de terceiros.
 ms.openlocfilehash: a3dd82dae76336dc3d1293430e10ba505585e707
 ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
 ms.translationtype: MT
@@ -28,21 +28,21 @@ ms.locfileid: "49562972"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
 
-As políticas de prevenção de perda de dados (DLP) da Microsoft 365 podem usar propriedades de classificação ou propriedades de item para identificar itens confidenciais. Por exemplo, você pode usar:
+As políticas de prevenção contra perda de dados (DLP) do Microsoft 365 podem usar propriedades de classificação ou propriedades de item para identificar itens confidenciais. Por exemplo, você pode usar:
 
-- Propriedades da infraestrutura de classificação de arquivos (FCI) do Windows Server
+- Propriedades da FCI (Infraestrutura de Classificação de Arquivos) do Windows Server
 - Propriedades do documento do SharePoint
-- Propriedades do documento do sistema de terceiros
+- propriedades do documento do sistema de terceiros
 
 ![Diagrama mostrando o Office 365 e o sistema de classificação externa](../media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
 
-Por exemplo, sua organização pode usar o Windows Server FCI para identificar itens com dados pessoais, como números de seguridade social, e classificar o documento definindo a propriedade de **informações de identificação pessoal** como **alta**, **moderada**, **baixa**, **pública** ou **não PII** com base no tipo e no número de ocorrências de dados pessoais encontradas no documento.
+Por exemplo, sua organização pode usar a FCI do Windows Server para identificar itens com  dados pessoais, como números de previdência social, e classificar o documento definindo a propriedade de Informações de Identificação Pessoal como **Alta** **,** Moderada **,** Baixa **,** Pública ou Não **PII** com base no tipo e no número de ocorrências de dados pessoais encontrados no documento.
 
-No Microsoft 365, você pode criar uma política de DLP que identifica documentos que tenham essa propriedade definida como valores específicos, como **alto** e **médio**, e, em seguida, executa uma ação como bloquear o acesso a esses arquivos. A mesma política pode ter outra regra que executa uma ação diferente se a propriedade for definida como **Baixa**, como o envio de uma notificação por email. Dessa forma, a DLP se integra ao Windows Server FCI e pode ajudar a proteger os documentos do Office carregados ou compartilhados para o Microsoft 365 a partir de servidores de arquivos baseados no Windows Server.
+No Microsoft 365, você pode criar uma política de DLP que identifica  documentos que têm essa propriedade definida como valores específicos, como Alto e Médio, e, em seguida, toma uma ação como bloquear o acesso a esses arquivos. A mesma política pode ter outra regra que executa uma ação diferente se a propriedade for definida como **Baixa**, como o envio de uma notificação por email. Dessa forma, a DLP se integra à FCI do Windows Server e pode ajudar a proteger documentos do Office carregados ou compartilhados no Microsoft 365 a partir de servidores de arquivos baseados no Windows Server.
 
-Uma política de DLP simplesmente procura por um par de nome/valor de propriedade específico. Qualquer propriedade de documento pode ser usada, contanto que a propriedade tenha uma propriedade gerenciada correspondente para a pesquisa do SharePoint. Por exemplo, um conjunto de sites do SharePoint pode usar um tipo de conteúdo chamado **Relatório de viagem** com um campo obrigatório chamado **Cliente**. Sempre que uma pessoa criar um relatório de viagem, ela deve digitar o nome do cliente. Este par de nome/valor da propriedade também pode ser usado em uma política de DLP — por exemplo, se você deseja uma regra que bloqueia o acesso ao documento para convidados quando o campo **cliente** contém **contoso**.
+Uma política de DLP simplesmente procura por um par de nome/valor de propriedade específico. Qualquer propriedade de documento pode ser usada, contanto que a propriedade tenha uma propriedade gerenciada correspondente para a pesquisa do SharePoint. Por exemplo, um conjunto de sites do SharePoint pode usar um tipo de conteúdo chamado **Relatório de viagem** com um campo obrigatório chamado **Cliente**. Sempre que uma pessoa criar um relatório de viagem, ela deve digitar o nome do cliente. Esse par nome/valor de propriedade também pode ser usado em uma política de DLP — por  exemplo, se você quiser uma regra que bloqueia o acesso ao documento para convidados quando o campo Cliente contiver **Contoso**.
 
-Se você quiser aplicar sua política de DLP ao conteúdo com rótulos do Microsoft 365, você não deve seguir as etapas aqui. Em vez disso, saiba como [usar um rótulo de retenção como uma condição em uma política de DLP](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
+Se você quiser aplicar sua política de DLP ao conteúdo com rótulos específicos do Microsoft 365, não siga as etapas aqui. Em vez disso, saiba como [usar um rótulo de retenção como uma condição em uma política DLP.](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)
 
 ## <a name="before-you-create-the-dlp-policy"></a>Antes de criar a política de DLP
 
@@ -50,25 +50,25 @@ Antes de usar uma propriedade de FCI do Windows Server ou outra propriedade em u
 
 Exemplos
 
-Isso é importante porque o DLP usa o rastreador de pesquisa para identificar e classificar informações confidenciais em seus sites e, em seguida, armazenar essas informações confidenciais em uma parte segura do índice de pesquisa. Quando você carregar um documento no Office 365, o SharePoint cria automaticamente propriedades rastreadas com base nas propriedades do documento. Mas, para usar uma FCI ou outra propriedade em uma política de DLP, essa propriedade rastreada precisa ser mapeada para uma propriedade gerenciada para que o conteúdo com essa propriedade seja mantido no índice.
+Isso é importante porque a DLP usa o rastreador de pesquisa para identificar e classificar informações confidenciais em seus sites e, em seguida, armazenar essas informações confidenciais em uma parte segura do índice de pesquisa. Quando você carregar um documento no Office 365, o SharePoint cria automaticamente propriedades rastreadas com base nas propriedades do documento. Mas, para usar uma FCI ou outra propriedade em uma política de DLP, essa propriedade rastreada precisa ser mapeada para uma propriedade gerenciada para que o conteúdo com essa propriedade seja mantido no índice.
 
-Para obter mais informações sobre propriedades gerenciadas e pesquisa, consulte [gerenciar o esquema de pesquisa no SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=627454).
+Para saber mais sobre propriedades gerenciadas e de pesquisa, confira [Gerenciar o esquema de pesquisa no SharePoint Online.](https://go.microsoft.com/fwlink/p/?LinkID=627454)
 
 ### <a name="step-1-upload-a-document-with-the-needed-property-to-office-365"></a>Etapa 1: Carregar um documento com a propriedade necessária para o Office 365
 
-Primeiro você precisa carregar um documento com a propriedade à qual você deseja fazer referência em sua política de DLP. O Microsoft 365 detectará a propriedade e criará automaticamente uma propriedade rastreada a partir dela. Na próxima etapa, você criará uma propriedade gerenciada e, em seguida, mapeará a propriedade gerenciada para essa propriedade rastreada.
+Primeiro você precisa carregar um documento com a propriedade à qual você deseja fazer referência em sua política de DLP. O Microsoft 365 detectará a propriedade e criará automaticamente uma propriedade rastreada a partir dela. Na próxima etapa, você criará uma propriedade gerenciada e mapeará a propriedade gerenciada para essa propriedade rastreada.
 
 ### <a name="step-2-create-a-managed-property"></a>Etapa 2: Criar uma propriedade gerenciada
 
 1. Acesse o centro de administração do Microsoft 365.
 
-2. No painel de navegação à esquerda, escolha **central de administração** \> **do SharePoint**. Agora você está no centro de administração do SharePoint.
+2. Na navegação à esquerda, escolha **Centros de administração do** \> **SharePoint.** Agora você está no centro de administração do SharePoint.
 
-3. No painel de navegação à esquerda, escolha **Pesquisar** \> na página **Administração da pesquisa** \> **gerenciar esquema de pesquisa**.
+3. Na navegação à esquerda, escolha **pesquisar na** página de \> administração **de** pesquisa Gerenciar Esquema \> **de Pesquisa.**
 
    ![página de administração de pesquisa no centro de administração do SharePoint](../media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
 
-4. Na página **propriedades gerenciadas** \> **nova propriedade gerenciada**.
+4. Na página **Propriedades Gerenciadas** \> **Nova Propriedade Gerenciada.**
 
    ![Página de propriedades gerenciadas com o botão Nova Propriedade Gerenciada realçado](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
 
@@ -78,53 +78,53 @@ Primeiro você precisa carregar um documento com a propriedade à qual você des
 
 7. Em **Características principais**, selecione **Consultável** e **Recuperável**.
 
-8. Em **mapeamentos para propriedades rastreadas** , \> **adicione um mapeamento**.
+8. Em **Mapeamentos para propriedades rastreadas,** \> **adicione um mapeamento.**
 
-9. Na caixa de diálogo **seleção de propriedade rastreada** \> , localize e selecione a propriedade rastreada que corresponde à propriedade FCI do Windows Server, ou outra propriedade que você usará em sua política de DLP \> **OK**.
+9. In the **crawled property selection** dialog box \> find and select the crawled property that corresponds to the Windows Server FCI property or other property that you will use in your DLP policy \> **OK**.
 
    ![caixa de diálogo de seleção da propriedade rastreada](../media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
 
-10. Na parte inferior da página, \> **OK**.
+10. Na parte inferior da página \> **OK**.
 
 ## <a name="create-a-dlp-policy-that-uses-an-fci-property-or-other-property"></a>Criar uma política de DLP que usa uma propriedade FCI ou outra propriedade
 
-Neste exemplo, uma organização está usando o FCI em seus servidores de arquivos baseados em Windows Server; especificamente, eles estão usando a propriedade de classificação FCI chamada **informações de identificação pessoal** com possíveis valores de **alta**, **moderado**, **baixo**, **público** e **não PII**. Agora, eles desejam usar sua classificação existente do FCI em suas políticas de DLP no Office 365.
+Neste exemplo, uma organização está usando FCI em seus servidores de arquivos baseados no Windows Server; especificamente, eles estão usando a propriedade  de classificação de FCI chamada Informações de Identificação Pessoal com valores possíveis **de High**, **Moderate**, **Low**, **Public** e **Not PII**. Agora eles querem usar sua classificação de FCI existente em suas políticas de DLP no Office 365.
 
 Primeiro, ela segue as etapas acima para criar uma propriedade gerenciada no SharePoint Online, a qual mapeia para a propriedade rastreada criada automaticamente da propriedade FCI.
 
-Em seguida, ele cria uma política de DLP com duas regras que usam as **Propriedades de documento de condição conter qualquer um destes valores**:
+Em seguida, eles criam uma política de DLP com duas regras que usam a condição Propriedades do documento **contêm qualquer um destes valores:**
 
-- **Conteúdo PII FCI-alto, moderado** A primeira regra restringe o acesso ao documento se as **informações de identificação pessoal** da propriedade de classificação FCI são iguais a **alta** ou **moderada** e o documento é compartilhado com pessoas de fora da organização.
+- **Conteúdo de PII de FCI - Alto, Moderado** A primeira regra restringe o acesso ao documento  se a propriedade de classificação  de FCI Informações de Identificação Pessoal for igual a **Alta** ou Moderada e o documento for compartilhado com pessoas de fora da organização.
 
-- **Conteúdo de PII FCI-baixo** A segunda regra envia uma notificação ao proprietário do documento, se as informações de **identificação pessoal** da propriedade de classificação FCI forem **baixas** e o documento for compartilhado com pessoas de fora da organização.
+- **Conteúdo de PII de FCI - Baixo** A segunda regra envia uma notificação ao proprietário  do documento se a propriedade de classificação de FCI Informações De identificação pessoal for igual a **Baixa** e o documento for compartilhado com pessoas de fora da organização.
 
-### <a name="create-the-dlp-policy-by-using-powershell"></a>Criar a política de DLP usando o PowerShell
+### <a name="create-the-dlp-policy-by-using-powershell"></a>Criar a política DLP usando o PowerShell
 
-As **Propriedades de documento de condição contêm qualquer um desses valores** temporariamente não estão disponíveis na interface do usuário do centro de conformidade de segurança &amp; , mas você ainda pode usar essa condição usando o PowerShell. Você pode usar os  `New\Set\Get-DlpCompliancePolicy` cmdlets para trabalhar com uma política de DLP e usar os  `New\Set\Get-DlpComplianceRule` cmdlets com o  `ContentPropertyContainsWords` parâmetro para adicionar as propriedades de documento de condição que **contenham qualquer** um desses valores.
+A condição **Propriedades** do documento contêm qualquer um desses valores temporariamente não está disponível na interface do usuário do Centro de Conformidade de Segurança, mas você ainda pode usar essa condição usando &amp; o PowerShell. Você pode usar os cmdlets para trabalhar com uma política de DLP e usar os cmdlets com o parâmetro para adicionar a condição Propriedades do documento contêm qualquer `New\Set\Get-DlpCompliancePolicy` `New\Set\Get-DlpComplianceRule` um desses `ContentPropertyContainsWords` **valores.**
 
-Para obter mais informações sobre esses cmdlets, consulte [Security &amp; Compliance Center cmdlets](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409).
+Para obter mais informações sobre esses cmdlets, consulte [ &amp; cmdlets](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)do Centro de Conformidade de Segurança.
 
-1. [Conectar-se ao &amp; centro de conformidade de segurança usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [Conectar-se ao Centro &amp; de Conformidade de Segurança usando o PowerShell remoto](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
 
-2. Crie a política usando o  `New-DlpCompliancePolicy` .
+2. Crie a política usando  `New-DlpCompliancePolicy` .
 
-Este PowerShell cria uma política de DLP que se aplica a todos os locais.
+Esse PowerShell cria uma política de DLP que se aplica a todos os locais.
 
    ```powershell
    New-DlpCompliancePolicy -Name FCI_PII_policy -ExchangeLocation All -SharePointLocation All -OneDriveLocation All -Mode Enable
    ```
 
-3. Crie as duas regras descritas acima usando  `New-DlpComplianceRule` , onde uma regra é para o valor **baixo** e outra regra é para os valores **altos** e **moderados** .
+3. Crie as duas regras descritas acima usando , onde uma regra é para o valor Baixo e outra regra é para os valores `New-DlpComplianceRule` **Alto** **e** Moderado. 
 
-   Veja a seguir um exemplo do PowerShell que cria essas duas regras. Os pares nome/valor da propriedade são colocados entre aspas, e um nome de propriedade pode especificar vários valores separados por vírgulas sem espaços, como  `"<Property1>:<Value1>,<Value2>","<Property2>:<Value3>,<Value4>"....`
+   Aqui está um exemplo do PowerShell que cria essas duas regras. Os pares nome/valor da propriedade estão entre aspas, e um nome de propriedade pode especificar vários valores separados por vírgulas sem espaços, como  `"<Property1>:<Value1>,<Value2>","<Property2>:<Value3>,<Value4>"....`
 
    ```powershell
    New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $true -ContentPropertyContainsWords "Personally Identifiable Information:High,Moderate" -Disabled $falseNew-DlpComplianceRule -Name FCI_PII_content-Low -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $false -ContentPropertyContainsWords "Personally Identifiable Information:Low" -Disabled $false -NotifyUser Owner
    ```
 
-   O Windows Server FCI inclui muitas propriedades internas, incluindo **informações de identificação pessoal** usadas neste exemplo. Os valores possíveis para cada propriedade podem ser diferentes para cada organização. Os valores **alto**, **moderado** e **baixo** usados aqui são apenas um exemplo. Para sua organização, você pode exibir as propriedades de classificação do Windows Server FCI com seus valores possíveis no Gerenciador de recursos de servidor de arquivos no servidor de arquivos baseado no Windows Server. Para obter mais informações, consulte [criar uma propriedade de classificação](https://go.microsoft.com/fwlink/p/?LinkID=627456).
+   A FCI do Windows Server inclui muitas propriedades criadas, incluindo Informações de Identificação **Pessoal** usadas neste exemplo. Os valores possíveis para cada propriedade podem ser diferentes para cada organização. Os **valores Alto**, **Moderado** e **Baixo** usados aqui são apenas um exemplo. Para sua organização, você pode exibir as propriedades de classificação de FCI do Windows Server com seus valores possíveis no gerenciador de recursos do servidor de arquivos no servidor de arquivos baseado no Windows Server. Para obter mais informações, consulte [Criar uma propriedade de classificação.](https://go.microsoft.com/fwlink/p/?LinkID=627456)
 
-Quando você terminar, a política deverá ter duas novas regras que usem as **Propriedades do documento contendo qualquer uma dessas** condições. Essa condição não aparecerá na interface do usuário, embora as outras condições, ações e configurações apareçam.
+Quando você terminar, sua política deverá ter duas novas regras que usam as propriedades **Document que contenham qualquer uma dessas condições de** valores. Essa condição não aparecerá na interface do usuário, embora as outras condições, ações e configurações apareçam.
 
 Uma regra bloqueia o acesso ao conteúdo em que a propriedade **Informações de identificação pessoal** é igual a **Alta** ou **Moderada**. Uma segunda regra envia uma notificação sobre o conteúdo em que a propriedade **Informações de identificação pessoal** é igual a **Baixa**.
 
@@ -132,20 +132,20 @@ Uma regra bloqueia o acesso ao conteúdo em que a propriedade **Informações de
 
 ## <a name="after-you-create-the-dlp-policy"></a>Depois de criar a política de DLP
 
-Executar as etapas nas seções anteriores criará uma política de DLP que detectará rapidamente o conteúdo com essa propriedade, mas somente se o conteúdo for carregado recentemente (para que o conteúdo seja indexado) ou se esse conteúdo for antigo, mas apenas editado (para que o conteúdo seja indexado novamente).
+As etapas nas seções anteriores criarão uma política de DLP que detectará rapidamente o conteúdo com essa propriedade, mas somente se esse conteúdo for carregado recentemente (para que o conteúdo seja indexado) ou se esse conteúdo for antigo, mas apenas editado (para que o conteúdo seja indexado novamente).
 
 Para detectar o conteúdo com essa propriedade em todos os lugares, convém solicitar manualmente que sua biblioteca, site ou conjunto de sites seja reindexado, para que a política de DLP esteja ciente de todo o conteúdo com essa propriedade. No SharePoint Online, o conteúdo é rastreado automaticamente com base em um agendamento de rastreamento definido. O rastreador seleciona o conteúdo que foi alterado desde o último rastreamento e atualiza o índice. Se você precisar de sua política de DLP para proteger o conteúdo antes do próximo rastreamento agendado, você pode executar estas etapas.
 
 > [!CAUTION]
-> A reindexação de um site pode gerar uma grande carga no sistema de pesquisa. Não reindexe o site, a menos que o cenário o exija absolutamente.
+> A reindexação de um site pode gerar uma grande carga no sistema de pesquisa. Não indexe seu site de novo, a menos que seu cenário realmente exija isso.
 
 Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação de um site, uma biblioteca ou uma lista](https://go.microsoft.com/fwlink/p/?LinkID=627457).
 
 ### <a name="reindex-a-site-optional"></a>Reindexar um site (opcional)
 
-1. No site, escolha **configurações** (ícone de engrenagem no canto superior direito) \> **configurações do site**.
+1. No site, escolha **Configurações** (ícone de engrenagem no canto superior direito) \> **Configurações do Site.**
 
-2. Em **Pesquisar**, escolha o site de reindexação **de pesquisa e disponibilidade offline** \> **Reindex site**.
+2. Em **Pesquisa,** escolha **Pesquisar e disponibilidade offline** \> **Reindexar site.**
 
 ## <a name="more-information"></a>Mais informações
 
