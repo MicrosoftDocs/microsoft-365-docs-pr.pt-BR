@@ -20,22 +20,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640278"
 ---
-# <a name="contact-support-for-puerto-rico"></a><span data-ttu-id="f9f74-103">Contatar o suporte para Porto Rico</span><span class="sxs-lookup"><span data-stu-id="f9f74-103">Contact support for Puerto Rico</span></span>
+# <a name="contact-support-for-puerto-rico"></a><span data-ttu-id="351a8-103">Contatar o suporte para Porto Rico</span><span class="sxs-lookup"><span data-stu-id="351a8-103">Contact support for Puerto Rico</span></span>
 
-<span data-ttu-id="f9f74-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="f9f74-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="351a8-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="351a8-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="f9f74-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="f9f74-105">Phone number</span></span>
-<span data-ttu-id="f9f74-106">1 800 865 9408</span><span class="sxs-lookup"><span data-stu-id="f9f74-106">1 800 865 9408</span></span>
+## <a name="phone-number"></a><span data-ttu-id="351a8-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="351a8-105">Phone number</span></span>
+<span data-ttu-id="351a8-106">1 800 865 9408</span><span class="sxs-lookup"><span data-stu-id="351a8-106">1 800 865 9408</span></span>
 
-## <a name="hours"></a><span data-ttu-id="f9f74-107">Horas</span><span class="sxs-lookup"><span data-stu-id="f9f74-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="f9f74-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="f9f74-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="351a8-107">Horas</span><span class="sxs-lookup"><span data-stu-id="351a8-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="351a8-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="351a8-108">Billing Support:</span></span>
 
-<span data-ttu-id="f9f74-109">Espanhol: Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="f9f74-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="351a8-109">Espanhol: Mon-Fri das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="351a8-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="f9f74-110">Inglês: Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="f9f74-110">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="351a8-110">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="351a8-110">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="f9f74-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="f9f74-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="351a8-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="351a8-111">Technical Support:</span></span>
 
-<span data-ttu-id="f9f74-112">Espanhol: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="f9f74-112">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="351a8-112">Espanhol: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="351a8-112">Spanish: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="f9f74-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="f9f74-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="351a8-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="351a8-113">English: 24 hours a day, 7 days a week</span></span>

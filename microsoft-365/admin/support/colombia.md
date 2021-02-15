@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Colômbia
+title: Informações de suporte para Colômbia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,18 +20,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643350"
 ---
-# <a name="contact-support-for-colombia"></a><span data-ttu-id="74d75-103">Contatar o suporte para a Colômbia</span><span class="sxs-lookup"><span data-stu-id="74d75-103">Contact support for Colombia</span></span>
+# <a name="contact-support-for-colombia"></a><span data-ttu-id="78fba-103">Contatar o suporte da Colômbia</span><span class="sxs-lookup"><span data-stu-id="78fba-103">Contact support for Colombia</span></span>
 
-<span data-ttu-id="74d75-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="74d75-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="78fba-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="78fba-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="74d75-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="74d75-105">Phone number</span></span>
-<span data-ttu-id="74d75-106">01 800 518 1781</span><span class="sxs-lookup"><span data-stu-id="74d75-106">01 800 518 1781</span></span>
+## <a name="phone-number"></a><span data-ttu-id="78fba-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="78fba-105">Phone number</span></span>
+<span data-ttu-id="78fba-106">01 800 518 1781</span><span class="sxs-lookup"><span data-stu-id="78fba-106">01 800 518 1781</span></span>
 
-## <a name="hours"></a><span data-ttu-id="74d75-107">Horas</span><span class="sxs-lookup"><span data-stu-id="74d75-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="74d75-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="74d75-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="78fba-107">Horas</span><span class="sxs-lookup"><span data-stu-id="78fba-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="78fba-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="78fba-108">Billing Support:</span></span>
 
-<span data-ttu-id="74d75-109">Espanhol: Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="74d75-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="78fba-109">Espanhol: Mon-Fri das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="78fba-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="74d75-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="74d75-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="78fba-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="78fba-110">Technical Support:</span></span>
 
-<span data-ttu-id="74d75-111">Espanhol: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="74d75-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="78fba-111">Espanhol: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="78fba-111">Spanish: 24 hours a day, 7 days a week</span></span>

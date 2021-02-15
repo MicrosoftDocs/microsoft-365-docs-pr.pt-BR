@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642438"
 ---
-# <a name="contact-support-for-ghana"></a><span data-ttu-id="60cc7-103">Contatar o suporte para Gana</span><span class="sxs-lookup"><span data-stu-id="60cc7-103">Contact support for Ghana</span></span>
+# <a name="contact-support-for-ghana"></a><span data-ttu-id="5a6f5-103">Contatar o suporte para Gana</span><span class="sxs-lookup"><span data-stu-id="5a6f5-103">Contact support for Ghana</span></span>
 
-<span data-ttu-id="60cc7-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="60cc7-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="5a6f5-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="5a6f5-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="60cc7-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="60cc7-105">Phone number</span></span>
-<span data-ttu-id="60cc7-106">+ 234 1 271 0156</span><span class="sxs-lookup"><span data-stu-id="60cc7-106">+234 1 271 0156</span></span>
+## <a name="phone-number"></a><span data-ttu-id="5a6f5-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="5a6f5-105">Phone number</span></span>
+<span data-ttu-id="5a6f5-106">+234 1 271 0156</span><span class="sxs-lookup"><span data-stu-id="5a6f5-106">+234 1 271 0156</span></span>
 
-<span data-ttu-id="60cc7-107">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="60cc7-107">Select option 9</span></span>
+<span data-ttu-id="5a6f5-107">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="5a6f5-107">Select option 9</span></span>
 
-<span data-ttu-id="60cc7-108">Insira o código 7704</span><span class="sxs-lookup"><span data-stu-id="60cc7-108">Enter code 7704</span></span>
+<span data-ttu-id="5a6f5-108">Digite o código 7704</span><span class="sxs-lookup"><span data-stu-id="5a6f5-108">Enter code 7704</span></span>
 
-## <a name="hours"></a><span data-ttu-id="60cc7-109">Horas</span><span class="sxs-lookup"><span data-stu-id="60cc7-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="60cc7-110">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="60cc7-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="5a6f5-109">Horas</span><span class="sxs-lookup"><span data-stu-id="5a6f5-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="5a6f5-110">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="5a6f5-110">Billing Support:</span></span>
 
-<span data-ttu-id="60cc7-111">Inglês: Mon-Fri 8 AM-4 PM</span><span class="sxs-lookup"><span data-stu-id="60cc7-111">English: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="5a6f5-111">Inglês: Mon-Fri das 8h às 16h</span><span class="sxs-lookup"><span data-stu-id="5a6f5-111">English: Mon-Fri 8 AM-4 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="60cc7-112">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="60cc7-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="5a6f5-112">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="5a6f5-112">Technical Support:</span></span>
 
-<span data-ttu-id="60cc7-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="60cc7-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="5a6f5-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="5a6f5-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="60cc7-114">Tarifas de chamada internacional se aplicam</span><span class="sxs-lookup"><span data-stu-id="60cc7-114">International call charges apply</span></span>
+<span data-ttu-id="5a6f5-114">Aplicam-se encargos de chamada internacional</span><span class="sxs-lookup"><span data-stu-id="5a6f5-114">International call charges apply</span></span>

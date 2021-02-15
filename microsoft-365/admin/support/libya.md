@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Líbia
+title: Informações de suporte para Líbia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,30 +20,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641466"
 ---
-# <a name="contact-support-for-libya"></a><span data-ttu-id="79796-103">Contatar o suporte para a Líbia</span><span class="sxs-lookup"><span data-stu-id="79796-103">Contact support for Libya</span></span>
+# <a name="contact-support-for-libya"></a><span data-ttu-id="130d5-103">Contatar o suporte para Líbia</span><span class="sxs-lookup"><span data-stu-id="130d5-103">Contact support for Libya</span></span>
 
-<span data-ttu-id="79796-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="79796-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="130d5-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="130d5-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="79796-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="79796-105">Phone number</span></span>
-<span data-ttu-id="79796-106">+ 965 2243 1071</span><span class="sxs-lookup"><span data-stu-id="79796-106">+965 2243 1071</span></span>
+## <a name="phone-number"></a><span data-ttu-id="130d5-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="130d5-105">Phone number</span></span>
+<span data-ttu-id="130d5-106">+965 2243 1071</span><span class="sxs-lookup"><span data-stu-id="130d5-106">+965 2243 1071</span></span>
 
-<span data-ttu-id="79796-107">Selecione a opção 2</span><span class="sxs-lookup"><span data-stu-id="79796-107">Select option 2</span></span>
+<span data-ttu-id="130d5-107">Selecione a opção 2</span><span class="sxs-lookup"><span data-stu-id="130d5-107">Select option 2</span></span>
 
-<span data-ttu-id="79796-108">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="79796-108">Select option 9</span></span>
+<span data-ttu-id="130d5-108">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="130d5-108">Select option 9</span></span>
 
-<span data-ttu-id="79796-109">Insira o código 7701</span><span class="sxs-lookup"><span data-stu-id="79796-109">Enter code 7701</span></span>
+<span data-ttu-id="130d5-109">Digite o código 7701</span><span class="sxs-lookup"><span data-stu-id="130d5-109">Enter code 7701</span></span>
 
-## <a name="hours"></a><span data-ttu-id="79796-110">Horas</span><span class="sxs-lookup"><span data-stu-id="79796-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="79796-111">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="79796-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="130d5-110">Horas</span><span class="sxs-lookup"><span data-stu-id="130d5-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="130d5-111">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="130d5-111">Billing Support:</span></span>
 
-<span data-ttu-id="79796-112">Árabe: Sun-Thu 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="79796-112">Arabic: Sun-Thu 9 AM-5 PM</span></span>
+<span data-ttu-id="130d5-112">Árabe: Sun-Thu das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="130d5-112">Arabic: Sun-Thu 9 AM-5 PM</span></span>
 
-<span data-ttu-id="79796-113">Inglês: Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="79796-113">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="130d5-113">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="130d5-113">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="79796-114">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="79796-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="130d5-114">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="130d5-114">Technical Support:</span></span>
 
-<span data-ttu-id="79796-115">Árabe: Sun-Thu 9 AM-5 P.M.</span><span class="sxs-lookup"><span data-stu-id="79796-115">Arabic: Sun-Thu 9 AM-5 PM</span></span>
+<span data-ttu-id="130d5-115">Árabe: Sun-Thu das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="130d5-115">Arabic: Sun-Thu 9 AM-5 PM</span></span>
 
-<span data-ttu-id="79796-116">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="79796-116">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="130d5-116">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="130d5-116">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="79796-117">Tarifas de chamada internacional se aplicam</span><span class="sxs-lookup"><span data-stu-id="79796-117">International call charges apply</span></span>
+<span data-ttu-id="130d5-117">Aplicam-se encargos de chamada internacional</span><span class="sxs-lookup"><span data-stu-id="130d5-117">International call charges apply</span></span>

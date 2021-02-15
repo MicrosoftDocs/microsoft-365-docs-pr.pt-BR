@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para ilhas Comores
+title: Informações de suporte para Comores
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,22 +20,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643218"
 ---
-# <a name="contact-support-for-comoros"></a><span data-ttu-id="6a131-103">Contatar o suporte para ilhas Comores</span><span class="sxs-lookup"><span data-stu-id="6a131-103">Contact support for Comoros</span></span>
+# <a name="contact-support-for-comoros"></a><span data-ttu-id="f6ea2-103">Contatar o suporte para Comores</span><span class="sxs-lookup"><span data-stu-id="f6ea2-103">Contact support for Comoros</span></span>
 
-<span data-ttu-id="6a131-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="6a131-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="f6ea2-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="f6ea2-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="6a131-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="6a131-105">Phone number</span></span>
-<span data-ttu-id="6a131-106">+ 1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="6a131-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="f6ea2-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="f6ea2-105">Phone number</span></span>
+<span data-ttu-id="f6ea2-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="f6ea2-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="6a131-107">Horas</span><span class="sxs-lookup"><span data-stu-id="6a131-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="6a131-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="6a131-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="f6ea2-107">Horas</span><span class="sxs-lookup"><span data-stu-id="f6ea2-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="f6ea2-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="f6ea2-108">Billing Support:</span></span>
 
-<span data-ttu-id="6a131-109">Francês: Mon-Fri 11 AM-7 PM</span><span class="sxs-lookup"><span data-stu-id="6a131-109">French: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="f6ea2-109">Francês: Mon-Fri das 11h às 19h</span><span class="sxs-lookup"><span data-stu-id="f6ea2-109">French: Mon-Fri 11 AM-7 PM</span></span>
 
-<span data-ttu-id="6a131-110">Inglês: Mon-Fri 11 AM-7 PM</span><span class="sxs-lookup"><span data-stu-id="6a131-110">English: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="f6ea2-110">Inglês: Mon-Fri das 11h às 19h</span><span class="sxs-lookup"><span data-stu-id="f6ea2-110">English: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="6a131-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="6a131-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="f6ea2-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="f6ea2-111">Technical Support:</span></span>
 
-<span data-ttu-id="6a131-112">Francês: Mon-Fri 10 de AM-11 P.M.</span><span class="sxs-lookup"><span data-stu-id="6a131-112">French: Mon-Fri 10 AM-11 PM</span></span>
+<span data-ttu-id="f6ea2-112">Francês: Mon-Fri 22:00 às 23:00</span><span class="sxs-lookup"><span data-stu-id="f6ea2-112">French: Mon-Fri 10 AM-11 PM</span></span>
 
-<span data-ttu-id="6a131-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="6a131-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="f6ea2-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="f6ea2-113">English: 24 hours a day, 7 days a week</span></span>

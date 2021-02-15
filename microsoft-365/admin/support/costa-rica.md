@@ -20,18 +20,18 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643170"
 ---
-# <a name="contact-support-for-costa-rica"></a><span data-ttu-id="30b68-103">Contatar o suporte para Costa Rica</span><span class="sxs-lookup"><span data-stu-id="30b68-103">Contact support for Costa Rica</span></span>
+# <a name="contact-support-for-costa-rica"></a><span data-ttu-id="19b17-103">Contatar o suporte da Costa Rica</span><span class="sxs-lookup"><span data-stu-id="19b17-103">Contact support for Costa Rica</span></span>
 
-<span data-ttu-id="30b68-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="30b68-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="19b17-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="19b17-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="30b68-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="30b68-105">Phone number</span></span>
-<span data-ttu-id="30b68-106">0800 012 1447</span><span class="sxs-lookup"><span data-stu-id="30b68-106">0800 012 1447</span></span>
+## <a name="phone-number"></a><span data-ttu-id="19b17-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="19b17-105">Phone number</span></span>
+<span data-ttu-id="19b17-106">0800 012 1447</span><span class="sxs-lookup"><span data-stu-id="19b17-106">0800 012 1447</span></span>
 
-## <a name="hours"></a><span data-ttu-id="30b68-107">Horas</span><span class="sxs-lookup"><span data-stu-id="30b68-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="30b68-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="30b68-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="19b17-107">Horas</span><span class="sxs-lookup"><span data-stu-id="19b17-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="19b17-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="19b17-108">Billing Support:</span></span>
 
-<span data-ttu-id="30b68-109">Espanhol: Mon-Fri 9 AM-5 PM</span><span class="sxs-lookup"><span data-stu-id="30b68-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="19b17-109">Espanhol: Mon-Fri das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="19b17-109">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="30b68-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="30b68-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="19b17-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="19b17-110">Technical Support:</span></span>
 
-<span data-ttu-id="30b68-111">Espanhol: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="30b68-111">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="19b17-111">Espanhol: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="19b17-111">Spanish: 24 hours a day, 7 days a week</span></span>

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para República Tcheca
+title: Informações de suporte para a República Tcheca
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,26 +20,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643110"
 ---
-# <a name="contact-support-for-czech-republic"></a><span data-ttu-id="8cdef-103">Contatar o suporte para República Tcheca</span><span class="sxs-lookup"><span data-stu-id="8cdef-103">Contact support for Czech Republic</span></span>
+# <a name="contact-support-for-czech-republic"></a><span data-ttu-id="5b3a1-103">Contatar o suporte da República Tcheca</span><span class="sxs-lookup"><span data-stu-id="5b3a1-103">Contact support for Czech Republic</span></span>
 
-<span data-ttu-id="8cdef-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="8cdef-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="5b3a1-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="5b3a1-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="8cdef-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="8cdef-105">Phone number</span></span>
-<span data-ttu-id="8cdef-106">800 701 371</span><span class="sxs-lookup"><span data-stu-id="8cdef-106">800 701 371</span></span>
+## <a name="phone-number"></a><span data-ttu-id="5b3a1-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="5b3a1-105">Phone number</span></span>
+<span data-ttu-id="5b3a1-106">800 701 371</span><span class="sxs-lookup"><span data-stu-id="5b3a1-106">800 701 371</span></span>
 
-## <a name="hours"></a><span data-ttu-id="8cdef-107">Horas</span><span class="sxs-lookup"><span data-stu-id="8cdef-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="8cdef-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="8cdef-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="5b3a1-107">Horas</span><span class="sxs-lookup"><span data-stu-id="5b3a1-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="5b3a1-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="5b3a1-108">Billing Support:</span></span>
 
-<span data-ttu-id="8cdef-109">Tcheco: Mon-Fri 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="8cdef-109">Czech: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="5b3a1-109">Tcheco: Mon-Fri das 9h às 18h</span><span class="sxs-lookup"><span data-stu-id="5b3a1-109">Czech: Mon-Fri 9 AM-6 PM</span></span>
 
-<span data-ttu-id="8cdef-110">Inglês: Mon-Fri 9 AM-6 PM</span><span class="sxs-lookup"><span data-stu-id="8cdef-110">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="5b3a1-110">Inglês: Mon-Fri das 9h às 18h</span><span class="sxs-lookup"><span data-stu-id="5b3a1-110">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="8cdef-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="8cdef-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="5b3a1-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="5b3a1-111">Technical Support:</span></span>
 
-<span data-ttu-id="8cdef-112">Tcheco: Mon-Fri 8 PM</span><span class="sxs-lookup"><span data-stu-id="8cdef-112">Czech: Mon-Fri 8 AM-6 PM</span></span>
+<span data-ttu-id="5b3a1-112">Tcheco: Mon-Fri 8:00 às 18:00</span><span class="sxs-lookup"><span data-stu-id="5b3a1-112">Czech: Mon-Fri 8 AM-6 PM</span></span>
 
-<span data-ttu-id="8cdef-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="8cdef-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="5b3a1-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="5b3a1-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="8cdef-114">Número de telefone alternativo: 239 016 433</span><span class="sxs-lookup"><span data-stu-id="8cdef-114">Alternative Phone Number: 239 016 433</span></span>
+<span data-ttu-id="5b3a1-114">Número de telefone alternativo: 239 016 433</span><span class="sxs-lookup"><span data-stu-id="5b3a1-114">Alternative Phone Number: 239 016 433</span></span>
 
-<span data-ttu-id="8cdef-115">Tarifas de chamada local se aplicam</span><span class="sxs-lookup"><span data-stu-id="8cdef-115">Local call charges apply</span></span>
+<span data-ttu-id="5b3a1-115">Aplicam-se encargos de chamada local</span><span class="sxs-lookup"><span data-stu-id="5b3a1-115">Local call charges apply</span></span>

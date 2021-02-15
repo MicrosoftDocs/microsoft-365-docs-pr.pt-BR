@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Gibraltar
+title: Informações de suporte para Oltar
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642474"
 ---
-# <a name="contact-support-for-gibraltar"></a><span data-ttu-id="39b32-103">Entrar em contato com o suporte do Gibraltar</span><span class="sxs-lookup"><span data-stu-id="39b32-103">Contact support for Gibraltar</span></span>
+# <a name="contact-support-for-gibraltar"></a><span data-ttu-id="979df-103">Contatar o suporte para Oltar</span><span class="sxs-lookup"><span data-stu-id="979df-103">Contact support for Gibraltar</span></span>
 
-<span data-ttu-id="39b32-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="39b32-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="979df-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="979df-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="39b32-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="39b32-105">Phone number</span></span>
-<span data-ttu-id="39b32-106">+ 1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="39b32-106">+1 312 843 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="979df-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="979df-105">Phone number</span></span>
+<span data-ttu-id="979df-106">+1 312 843 5151</span><span class="sxs-lookup"><span data-stu-id="979df-106">+1 312 843 5151</span></span>
 
-## <a name="hours"></a><span data-ttu-id="39b32-107">Horas</span><span class="sxs-lookup"><span data-stu-id="39b32-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="39b32-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="39b32-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="979df-107">Horas</span><span class="sxs-lookup"><span data-stu-id="979df-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="979df-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="979df-108">Billing Support:</span></span>
 
-<span data-ttu-id="39b32-109">Inglês: Mon-Fri 11 AM-7 PM</span><span class="sxs-lookup"><span data-stu-id="39b32-109">English: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="979df-109">Inglês: Mon-Fri das 11h às 19h</span><span class="sxs-lookup"><span data-stu-id="979df-109">English: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="39b32-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="39b32-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="979df-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="979df-110">Technical Support:</span></span>
 
-<span data-ttu-id="39b32-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="39b32-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="979df-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="979df-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="39b32-112">Tarifas de chamada internacional se aplicam</span><span class="sxs-lookup"><span data-stu-id="39b32-112">International call charges apply</span></span>
+<span data-ttu-id="979df-112">Aplicam-se encargos de chamada internacional</span><span class="sxs-lookup"><span data-stu-id="979df-112">International call charges apply</span></span>

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Quênia
+title: Informações de suporte para Quênia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641718"
 ---
-# <a name="contact-support-for-kenya"></a><span data-ttu-id="89bb8-103">Contatar o suporte para o Quênia</span><span class="sxs-lookup"><span data-stu-id="89bb8-103">Contact support for Kenya</span></span>
+# <a name="contact-support-for-kenya"></a><span data-ttu-id="11b1b-103">Contatar o suporte para Quênia</span><span class="sxs-lookup"><span data-stu-id="11b1b-103">Contact support for Kenya</span></span>
 
-<span data-ttu-id="89bb8-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="89bb8-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="11b1b-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="11b1b-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="89bb8-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="89bb8-105">Phone number</span></span>
-<span data-ttu-id="89bb8-106">020 286 8800</span><span class="sxs-lookup"><span data-stu-id="89bb8-106">020 286 8800</span></span>
+## <a name="phone-number"></a><span data-ttu-id="11b1b-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="11b1b-105">Phone number</span></span>
+<span data-ttu-id="11b1b-106">020 286 8800</span><span class="sxs-lookup"><span data-stu-id="11b1b-106">020 286 8800</span></span>
 
-<span data-ttu-id="89bb8-107">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="89bb8-107">Select option 9</span></span>
+<span data-ttu-id="11b1b-107">Selecione a opção 9</span><span class="sxs-lookup"><span data-stu-id="11b1b-107">Select option 9</span></span>
 
-<span data-ttu-id="89bb8-108">Insira o código 7704</span><span class="sxs-lookup"><span data-stu-id="89bb8-108">Enter code 7704</span></span>
+<span data-ttu-id="11b1b-108">Digite o código 7704</span><span class="sxs-lookup"><span data-stu-id="11b1b-108">Enter code 7704</span></span>
 
-## <a name="hours"></a><span data-ttu-id="89bb8-109">Horas</span><span class="sxs-lookup"><span data-stu-id="89bb8-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="89bb8-110">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="89bb8-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="11b1b-109">Horas</span><span class="sxs-lookup"><span data-stu-id="11b1b-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="11b1b-110">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="11b1b-110">Billing Support:</span></span>
 
-<span data-ttu-id="89bb8-111">Inglês: Mon-Fri 10 PM</span><span class="sxs-lookup"><span data-stu-id="89bb8-111">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="11b1b-111">Inglês: Mon-Fri das 10:00 às 18:00</span><span class="sxs-lookup"><span data-stu-id="11b1b-111">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="89bb8-112">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="89bb8-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="11b1b-112">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="11b1b-112">Technical Support:</span></span>
 
-<span data-ttu-id="89bb8-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="89bb8-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="11b1b-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="11b1b-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="89bb8-114">Tarifas de chamada local se aplicam</span><span class="sxs-lookup"><span data-stu-id="89bb8-114">Local call charges apply</span></span>
+<span data-ttu-id="11b1b-114">Aplicam-se encargos de chamada local</span><span class="sxs-lookup"><span data-stu-id="11b1b-114">Local call charges apply</span></span>

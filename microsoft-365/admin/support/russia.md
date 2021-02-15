@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Rússia
+title: Informações de suporte para Rússia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,26 +20,26 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640122"
 ---
-# <a name="contact-support-for-russia"></a><span data-ttu-id="45a98-103">Contatar o suporte para a Rússia</span><span class="sxs-lookup"><span data-stu-id="45a98-103">Contact support for Russia</span></span>
+# <a name="contact-support-for-russia"></a><span data-ttu-id="eb522-103">Contatar o suporte da Rússia</span><span class="sxs-lookup"><span data-stu-id="eb522-103">Contact support for Russia</span></span>
 
-<span data-ttu-id="45a98-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="45a98-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="eb522-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="eb522-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="45a98-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="45a98-105">Phone number</span></span>
-<span data-ttu-id="45a98-106">8 10 800 2548 1044</span><span class="sxs-lookup"><span data-stu-id="45a98-106">8 10 800 2548 1044</span></span>
+## <a name="phone-number"></a><span data-ttu-id="eb522-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="eb522-105">Phone number</span></span>
+<span data-ttu-id="eb522-106">8 10 800 2548 1044</span><span class="sxs-lookup"><span data-stu-id="eb522-106">8 10 800 2548 1044</span></span>
 
-## <a name="hours"></a><span data-ttu-id="45a98-107">Horas</span><span class="sxs-lookup"><span data-stu-id="45a98-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="45a98-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="45a98-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="eb522-107">Horas</span><span class="sxs-lookup"><span data-stu-id="eb522-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="eb522-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="eb522-108">Billing Support:</span></span>
 
-<span data-ttu-id="45a98-109">Russo: Mon-Fri 10 de AM-7 PM Moscou</span><span class="sxs-lookup"><span data-stu-id="45a98-109">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
+<span data-ttu-id="eb522-109">Russo: Mon-Fri 10:00 às 19h00, Brasil</span><span class="sxs-lookup"><span data-stu-id="eb522-109">Russian: Mon-Fri 10 AM-7 PM Moscow</span></span>
 
-<span data-ttu-id="45a98-110">Inglês: Mon-Fri 9 AM-5 P.M. Londres</span><span class="sxs-lookup"><span data-stu-id="45a98-110">English: Mon-Fri 9 AM-5 PM London</span></span>
+<span data-ttu-id="eb522-110">Inglês: Mon-Fri das 9h às 17h de Londres</span><span class="sxs-lookup"><span data-stu-id="eb522-110">English: Mon-Fri 9 AM-5 PM London</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="45a98-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="45a98-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="eb522-111">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="eb522-111">Technical Support:</span></span>
 
-<span data-ttu-id="45a98-112">Russo: Mon-Fri 7 de manhã-8 P.M. Moscou</span><span class="sxs-lookup"><span data-stu-id="45a98-112">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
+<span data-ttu-id="eb522-112">Russo: Mon-Fri das 7h às 20h00</span><span class="sxs-lookup"><span data-stu-id="eb522-112">Russian: Mon-Fri 7 AM-8 PM Moscow</span></span>
 
-<span data-ttu-id="45a98-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="45a98-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="eb522-113">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="eb522-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="45a98-114">Número de telefone alternativo: 499 922 86 23</span><span class="sxs-lookup"><span data-stu-id="45a98-114">Alternative Phone Number: 499 922 86 23</span></span>
+<span data-ttu-id="eb522-114">Número de telefone alternativo: 499 922 86 23</span><span class="sxs-lookup"><span data-stu-id="eb522-114">Alternative Phone Number: 499 922 86 23</span></span>
 
-<span data-ttu-id="45a98-115">Tarifas de chamada local se aplicam</span><span class="sxs-lookup"><span data-stu-id="45a98-115">Local call charges apply</span></span>
+<span data-ttu-id="eb522-115">Aplicam-se encargos de chamada local</span><span class="sxs-lookup"><span data-stu-id="eb522-115">Local call charges apply</span></span>
