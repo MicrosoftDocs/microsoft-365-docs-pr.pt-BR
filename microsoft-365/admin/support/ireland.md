@@ -30,7 +30,7 @@ ms.locfileid: "48642006"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
@@ -38,4 +38,4 @@ Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 01 656 9837
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

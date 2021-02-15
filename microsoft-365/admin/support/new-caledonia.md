@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Nova Caledônia
+title: Informações de suporte para Nova Caledônia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640770"
 ---
-# <a name="contact-support-for-new-caledonia"></a>Contatar o suporte para a Nova Caledônia
+# <a name="contact-support-for-new-caledonia"></a>Contatar o suporte para Nova Caledônia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 7 PM-3 AM
+Francês: Mon-Fri das 19:00 às 15:00
 
-Inglês: Mon-Fri 7 PM-3 AM
+Inglês: Mon-Fri das 19h às 15h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 6 PM-7 AM
+Francês: Mon-Fri das 18:00 às 19:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

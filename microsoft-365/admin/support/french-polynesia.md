@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Polinésia francesa
+title: Informações de suporte para a Polinésia Francesa
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642666"
 ---
-# <a name="contact-support-for-french-polynesia"></a>Contatar o suporte para Polinésia francesa
+# <a name="contact-support-for-french-polynesia"></a>Contatar o suporte da Polinésia Francesa
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Sun-Fri 10 PM-6 AM
+Francês: Sun-Fri das 22h às 18h
 
-Inglês: Sun-Fri 10 PM-6 AM
+Inglês: Sun-Fri das 22h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 9 PM-10 AM
+Francês: Mon-Fri das 21:00 às 10:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

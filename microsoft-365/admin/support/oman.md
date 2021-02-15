@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640542"
 ---
-# <a name="contact-support-for-oman"></a>Contatar o suporte para Omã
+# <a name="contact-support-for-oman"></a>Contatar o suporte do Omã
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -31,17 +31,17 @@ Selecione a opção 9
 
 Selecione a opção 2
 
-Insira o código 7702
+Digite o código 7702
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: Sun-Thu 10 AM-6 PM
+Árabe: Sun-Thu das 10:00 às 18:00
 
-Inglês: Mon-Fri 10 PM
+Inglês: Mon-Fri das 10:00 às 18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: Sun-Thu 11 AM-8 P.M.
+Árabe: Sun-Thu 23:00 às 20:00
 
 Inglês: 24 horas por dia, 7 dias por semana

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Ruanda
+title: Informações de suporte para Ruanda
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -25,23 +25,23 @@ ms.locfileid: "48640098"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 225 20 24 24 90
++225 20 24 24 90
 
 Selecione a opção 9
 
-Insira o código 7703
+Digite o código 7703
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 10 PM
+Francês: Mon-Fri das 10:00 às 18:00
 
-Inglês: Mon-Fri 10 PM
+Inglês: Mon-Fri das 10:00 às 18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 9 AM-10 PM
+Francês: Mon-Fri das 9h às 22h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

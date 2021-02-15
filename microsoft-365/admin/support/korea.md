@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Coréia
+title: Informações de suporte para a Coreia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641687"
 ---
-# <a name="contact-support-for-korea"></a>Contatar o suporte para a Coréia
+# <a name="contact-support-for-korea"></a>Contatar o suporte para a Coreia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,16 +30,16 @@ ms.locfileid: "48641687"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Coreano: Mon-Fri 9 AM-6 PM
+Coreano: Mon-Fri das 9h às 18h
 
-Inglês: Mon-Fri 9 AM-6 PM
+Inglês: Mon-Fri das 9h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Coreano: Mon-Fri 9 AM-6 PM
+Coreano: Mon-Fri das 9h às 18h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 02 3483 1937
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Etiópia
+title: Informações de suporte para Etiópia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642738"
 ---
-# <a name="contact-support-for-ethiopia"></a>Contatar o suporte para Etiópia
+# <a name="contact-support-for-ethiopia"></a>Contatar o suporte para a Etiópia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 27 21 427 3315
++27 21 427 3315
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 10 PM
+Inglês: Mon-Fri das 10:00 às 18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

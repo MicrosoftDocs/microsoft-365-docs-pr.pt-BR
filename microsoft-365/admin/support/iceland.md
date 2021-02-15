@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte da Islândia
+title: Informações de suporte para Islândia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642018"
 ---
-# <a name="contact-support-for-iceland"></a>Contatar o suporte da Islândia
+# <a name="contact-support-for-iceland"></a>Contatar o suporte para Islândia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,7 +30,7 @@ ms.locfileid: "48642018"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 8 AM-4 PM
+Inglês: Mon-Fri das 8h às 16h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

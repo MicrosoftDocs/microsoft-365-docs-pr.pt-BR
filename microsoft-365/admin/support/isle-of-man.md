@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para ilha de Man
+title: Informações de suporte para Ilha de Man
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641958"
 ---
-# <a name="contact-support-for-isle-of-man"></a>Contatar o suporte para ilha de Man
+# <a name="contact-support-for-isle-of-man"></a>Contatar o suporte para Ilha de Man
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5151
++1 312 843 5151
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 10 PM
+Inglês: Mon-Fri das 10:00 às 18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

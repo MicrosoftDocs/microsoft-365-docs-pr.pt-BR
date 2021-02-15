@@ -27,12 +27,12 @@ ms.locfileid: "48640326"
 ## <a name="phone-number"></a>Número de telefone
 1800 1441 0625 (PLDT)
 
-1800 8908 6422 (Globo)
+1800 8908 6422 (Globe)
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Macedônia
+title: Informações de suporte para Macedônia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,21 +20,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641478"
 ---
-# <a name="contact-support-for-macedonia"></a>Contatar o suporte para a Macedônia
+# <a name="contact-support-for-macedonia"></a>Contatar o suporte da Macedônia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
 0800 94 288
 
-Após discar, digite
+Depois de discar, insira
 
 877 663 5075
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

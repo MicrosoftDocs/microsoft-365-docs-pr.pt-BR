@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para São Tomé e Príncipe
+title: Informações de suporte para São Tomé e Cidade
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,22 +20,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639858"
 ---
-# <a name="contact-support-for-sao-tome-and-principe"></a>Contatar o suporte de São Tomé e Príncipe
+# <a name="contact-support-for-sao-tome-and-principe"></a>Contatar o suporte para São Tomé e Cidade
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5153
++1 312 843 5153
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Português: Mon-Fri 8 de AM-9 P.M.
+Português: Mon-Fri das 8h às 21h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

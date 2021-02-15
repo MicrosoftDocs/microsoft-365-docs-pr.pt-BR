@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para República Tcheca
+title: Informações de suporte para a República Tcheca
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643110"
 ---
-# <a name="contact-support-for-czech-republic"></a>Contatar o suporte para República Tcheca
+# <a name="contact-support-for-czech-republic"></a>Contatar o suporte da República Tcheca
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,16 +30,16 @@ ms.locfileid: "48643110"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Tcheco: Mon-Fri 9 AM-6 PM
+Tcheco: Mon-Fri das 9h às 18h
 
-Inglês: Mon-Fri 9 AM-6 PM
+Inglês: Mon-Fri das 9h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Tcheco: Mon-Fri 8 PM
+Tcheco: Mon-Fri 8:00 às 18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 239 016 433
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

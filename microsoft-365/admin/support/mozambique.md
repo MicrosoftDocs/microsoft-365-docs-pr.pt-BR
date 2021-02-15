@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Moçambique
+title: Informações de suporte para Nova Ucrânia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,22 +20,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640866"
 ---
-# <a name="contact-support-for-mozambique"></a>Contatar o suporte para o Moçambique
+# <a name="contact-support-for-mozambique"></a>Contatar o suporte para Nova Ucrânia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5153
++1 312 843 5153
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 7 AM-6 PM
+Inglês: Mon-Fri das 19h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Português: Mon-Fri 9 AM-7 PM
+Português: Mon-Fri das 9h às 19h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

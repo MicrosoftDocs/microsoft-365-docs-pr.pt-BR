@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Dominica
+title: Informações de suporte para Dominica
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642954"
 ---
-# <a name="contact-support-for-dominica"></a>Entrar em contato com o suporte do Dominica
+# <a name="contact-support-for-dominica"></a>Contatar o suporte de Dominica
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5150
++1 312 843 5150
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Espanhol: Mon-Fri 11 AM-7 PM
+Espanhol: Mon-Fri das 11h às 19h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Espanhol: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

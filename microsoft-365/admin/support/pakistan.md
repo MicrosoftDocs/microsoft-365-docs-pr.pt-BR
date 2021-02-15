@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Paquistão
+title: Informações de suporte para Paquistão
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640530"
 ---
-# <a name="contact-support-for-pakistan"></a>Contatar o suporte para Paquistão
+# <a name="contact-support-for-pakistan"></a>Contatar o suporte do Paquistão
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -32,10 +32,10 @@ Selecione a opção 3
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 10 PM
+Inglês: Mon-Fri das 10:00 às 18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

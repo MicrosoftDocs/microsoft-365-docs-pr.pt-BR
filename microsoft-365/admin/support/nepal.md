@@ -25,7 +25,7 @@ ms.locfileid: "48640794"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-Suporte por telefone não disponível; somente suporte online.
+Suporte telefônico não disponível; somente suporte online.
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:

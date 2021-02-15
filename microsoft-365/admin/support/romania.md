@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Romênia
+title: Informações de suporte para Romênia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640110"
 ---
-# <a name="contact-support-for-romania"></a>Contatar o suporte para a Romênia
+# <a name="contact-support-for-romania"></a>Contatar o suporte para Romênia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,7 +30,7 @@ ms.locfileid: "48640110"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
@@ -38,4 +38,4 @@ Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 372 741 961
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Côte d' Ivoire
+title: Informações de suporte para o Côte d'Ivoire
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643182"
 ---
-# <a name="contact-support-for-cte-divoire"></a>Contatar o suporte para Côte d' Ivoire
+# <a name="contact-support-for-cte-divoire"></a>Contatar o suporte do Côte d'Ivoire
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -29,19 +29,19 @@ ms.locfileid: "48643182"
 
 Selecione a opção 9
 
-Insira o código 7703
+Digite o código 7703
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 8 P.M.
+Francês: Mon-Fri das 8h às 16h
 
-Inglês: Mon-Fri 8 AM-4 PM
+Inglês: Mon-Fri das 8h às 16h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 7 AM-8 P.M.
+Francês: Mon-Fri das 19:00 às 20:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Hungria
+title: Informações de suporte para Hungria
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642150"
 ---
-# <a name="contact-support-for-hungary"></a>Contatar o suporte para a Hungria
+# <a name="contact-support-for-hungary"></a>Contatar o suporte para Hungria
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 36 80 983 899
++36 80 983 899
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Húngaro: Mon-Fri 8 AM-6 PM
+Húngaro: Mon-Fri das 8h às 18h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: + 36 1 778 9292
+Número de telefone alternativo: +36 1 778 9292
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

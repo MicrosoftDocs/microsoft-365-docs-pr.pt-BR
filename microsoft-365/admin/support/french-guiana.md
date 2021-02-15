@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Guiana francesa
+title: Informações de suporte para a Guiana Francesa
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642654"
 ---
-# <a name="contact-support-for-french-guiana"></a>Contatar o suporte para Guiana francesa
+# <a name="contact-support-for-french-guiana"></a>Contatar o suporte da Guiana Francesa
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 5 AM-1 PM
+Francês: Mon-Fri das 17h às 13h
 
-Inglês: Mon-Fri 5 AM-1 PM
+Inglês: Mon-Fri 17h às 13h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 4 PM
+Francês: Mon-Fri das 16h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

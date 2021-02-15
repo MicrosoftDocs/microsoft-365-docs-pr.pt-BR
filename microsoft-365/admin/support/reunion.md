@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a reunião
+title: Informações de suporte para Reunião
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640146"
 ---
-# <a name="contact-support-for-reunion"></a>Contatar o suporte para reunião
+# <a name="contact-support-for-reunion"></a>Contatar o suporte para Reunião
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri meio-dia 8 P.M.
+Francês: Mon-Fri meio-dia-20:00
 
-Inglês: Mon-Fri meio-8 P.M.
+Inglês: Mon-Fri meio-dia-20:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 11 P.M.
+Francês: Mon-Fri das 23:00 às 23:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

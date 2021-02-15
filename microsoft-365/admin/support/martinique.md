@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Martinica
+title: Informações de suporte para a Martinica
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641106"
 ---
-# <a name="contact-support-for-martinique"></a>Contatar o suporte para Martinica
+# <a name="contact-support-for-martinique"></a>Contatar o suporte da Martinica
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês Mon-Fri 6 AM-Noon
+Francês Mon-Fri 06:00
 
-Inglês: Mon-Fri 6 AM-1 PM
+Inglês: Mon-Fri das 18:00 às 13:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 6 AM-1 PM
+Francês: Mon-Fri das 18:00 às 13:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

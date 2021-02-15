@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Ilha Norfolk
+title: Informações de suporte para a ilha Dem
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640578"
 ---
-# <a name="contact-support-for-norfolk-island"></a>Contatar o suporte para Ilha Norfolk
+# <a name="contact-support-for-norfolk-island"></a>Contatar o suporte para a ilha Dem
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5148
++1 312 843 5148
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 12 P.M.-8 P.M.
+Inglês: Mon-Fri das 22:00 às 20:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Marrocos
+title: Informações de suporte para Marrocos
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640854"
 ---
-# <a name="contact-support-for-morocco"></a>Contatar o suporte para o Marrocos
+# <a name="contact-support-for-morocco"></a>Contatar o suporte do Marrocos
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -29,23 +29,23 @@ ms.locfileid: "48640854"
 
 Selecione a opção 9
 
-Insira o código 7700
+Digite o código 7700
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: Sun-Thu 8 AM-4 PM
+Árabe: Sun-Thu 8:00 às 16:00
 
-Francês: Mon-Fri 8 P.M.
+Francês: Mon-Fri das 8h às 16h
 
-Inglês: Mon-Fri 8 AM-4 PM
+Inglês: Mon-Fri das 8h às 16h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: Sun-Thu 8 AM-4 PM
+Árabe: Sun-Thu 8:00 às 16:00
 
-Francês: Mon-Fri 7 AM-8 P.M.
+Francês: Mon-Fri das 19:00 às 20:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

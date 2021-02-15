@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Indonésia
+title: Informações de suporte para Indonésia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641982"
 ---
-# <a name="contact-support-for-indonesia"></a>Contatar o suporte para Indonésia
+# <a name="contact-support-for-indonesia"></a>Contatar o suporte da Indonésia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -32,12 +32,12 @@ ms.locfileid: "48641982"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Bahasa Indonésia: Mon-Fri 8 PM
+Bahasa Indonésia: Mon-Fri das 8h às 17h
 
-Inglês: Mon-Fri 9 AM-6 PM
+Inglês: Mon-Fri das 9h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Bahasa Indonésia: Mon-Fri 8 PM
+Bahasa Indonésia: Mon-Fri das 8h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana

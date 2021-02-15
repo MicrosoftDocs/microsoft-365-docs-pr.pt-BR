@@ -25,19 +25,19 @@ ms.locfileid: "48642438"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 234 1 271 0156
++234 1 271 0156
 
 Selecione a opção 9
 
-Insira o código 7704
+Digite o código 7704
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 8 AM-4 PM
+Inglês: Mon-Fri das 8h às 16h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

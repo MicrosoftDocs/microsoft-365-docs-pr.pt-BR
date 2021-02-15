@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Líbia
+title: Informações de suporte para Líbia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,30 +20,30 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641466"
 ---
-# <a name="contact-support-for-libya"></a>Contatar o suporte para a Líbia
+# <a name="contact-support-for-libya"></a>Contatar o suporte para Líbia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 965 2243 1071
++965 2243 1071
 
 Selecione a opção 2
 
 Selecione a opção 9
 
-Insira o código 7701
+Digite o código 7701
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: Sun-Thu 9 AM-5 P.M.
+Árabe: Sun-Thu das 9h às 17h
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: Sun-Thu 9 AM-5 P.M.
+Árabe: Sun-Thu das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

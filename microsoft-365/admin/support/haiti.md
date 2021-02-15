@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642215"
 ---
-# <a name="contact-support-for-haiti"></a>Contatar o suporte para o Haiti
+# <a name="contact-support-for-haiti"></a>Contatar o suporte do Haiti
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 3 am-11 AM
+Francês: Mon-Fri 3h-11h
 
-Inglês: Mon-Fri 3 AM-11 AM
+Inglês: Mon-Fri 3h-11h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 2 AM-3 P.M.
+Francês: Mon-Fri das 14:00 às 15:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

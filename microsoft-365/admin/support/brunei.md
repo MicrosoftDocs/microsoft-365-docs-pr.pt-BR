@@ -20,21 +20,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643650"
 ---
-# <a name="contact-support-for-brunei"></a>Contatar o suporte para Brunei
+# <a name="contact-support-for-brunei"></a>Contatar o suporte do Brunei
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
 800 1111 673
 
-Após discar, digite
+Depois de discar, insira
 
 877 413 1767
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o seichelense
+title: Informações de suporte para Seiles
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48639822"
 ---
-# <a name="contact-support-for-seychelles"></a>Entrar em contato com o suporte do seichelense
+# <a name="contact-support-for-seychelles"></a>Contatar o suporte para Seiles
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5151
++1 312 843 5151
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 1 PM-9 PM
+Inglês: Mon-Fri das 13:00 às 21:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

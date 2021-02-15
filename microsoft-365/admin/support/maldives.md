@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Maldivas
+title: Informações de suporte para maldivas
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -25,15 +25,15 @@ ms.locfileid: "48641286"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5148
++1 312 843 5148
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 10 PM
+Inglês: Mon-Fri das 10:00 às 18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

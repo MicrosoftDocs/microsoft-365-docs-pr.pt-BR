@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Equador
+title: Informações de suporte para Equador
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,21 +20,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642918"
 ---
-# <a name="contact-support-for-ecuador"></a>Contatar o suporte para o Equador
+# <a name="contact-support-for-ecuador"></a>Contatar o suporte do Equador
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
 1 800 225 528
 
-Após discar, digite
+Depois de discar, insira
 
 877 663 5075
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Espanhol: Mon-Fri 9 AM-5 PM
+Espanhol: Mon-Fri das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

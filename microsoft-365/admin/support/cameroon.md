@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para os camarões
+title: Informações de suporte para Camarões
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -25,23 +25,23 @@ ms.locfileid: "48643590"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 225 20 24 24 90
++225 20 24 24 90
 
 Selecione a opção 9
 
-Insira o código 7703
+Digite o código 7703
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 8 P.M.
+Francês: Mon-Fri das 8h às 16h
 
-Inglês: Mon-Fri 8 AM-4 PM
+Inglês: Mon-Fri das 8h às 16h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 8 P.M.
+Francês: Mon-Fri das 8:00 às 21:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

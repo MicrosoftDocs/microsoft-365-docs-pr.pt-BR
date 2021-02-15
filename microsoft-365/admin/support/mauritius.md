@@ -30,12 +30,12 @@ ms.locfileid: "48641082"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 11 AM-7 PM
+Francês: Mon-Fri das 11h às 19h
 
-Inglês: Mon-Fri 11 AM-7 PM
+Inglês: Mon-Fri das 11h às 19h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 11-meia-noite
+Francês: Mon-Fri 11:00 horas
 
 Inglês: 24 horas por dia, 7 dias por semana

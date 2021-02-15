@@ -30,7 +30,7 @@ ms.locfileid: "48639798"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-6 PM
+Inglês: Mon-Fri das 9h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
@@ -38,4 +38,4 @@ Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 6622 1855
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

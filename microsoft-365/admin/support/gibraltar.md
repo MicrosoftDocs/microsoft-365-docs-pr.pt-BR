@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Gibraltar
+title: Informações de suporte para Oltar
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,20 +20,20 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642474"
 ---
-# <a name="contact-support-for-gibraltar"></a>Entrar em contato com o suporte do Gibraltar
+# <a name="contact-support-for-gibraltar"></a>Contatar o suporte para Oltar
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5151
++1 312 843 5151
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 11 AM-7 PM
+Inglês: Mon-Fri das 11h às 19h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

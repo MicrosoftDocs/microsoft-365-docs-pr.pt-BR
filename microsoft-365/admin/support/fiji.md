@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Fiji
+title: Informações de suporte para Fiji
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,21 +20,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642678"
 ---
-# <a name="contact-support-for-fiji"></a>Contatar o suporte de Fiji
+# <a name="contact-support-for-fiji"></a>Contatar o suporte para Fiji
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
 004 890 1001
 
-Após discar, digite
+Depois de discar, insira
 
 877 860 4596
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

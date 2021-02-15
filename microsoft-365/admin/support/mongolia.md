@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48641010"
 ---
-# <a name="contact-support-for-mongolia"></a>Contatar o suporte para a Mongólia
+# <a name="contact-support-for-mongolia"></a>Contatar o suporte da Mongólia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 7 499 922 86 23
++7 499 922 86 23
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Russo: Mon-Fri 10 de AM-7 PM Moscou
+Russo: Mon-Fri 10:00 às 19h00, Brasil
 
-Inglês: Mon-Fri 9 AM-5 P.M. Londres
+Inglês: Mon-Fri das 9h às 17h de Londres
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Russo: Mon-Fri 7 de manhã-8 P.M. Moscou
+Russo: Mon-Fri das 7h às 20h00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

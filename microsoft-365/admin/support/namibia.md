@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Namíbia
+title: Informações de suporte para Namíbia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640818"
 ---
-# <a name="contact-support-for-namibia"></a>Contatar o suporte para a Namíbia
+# <a name="contact-support-for-namibia"></a>Contatar o suporte para Namíbia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -29,15 +29,15 @@ ms.locfileid: "48640818"
 
 Selecione a opção 9
 
-Insira o código 7705
+Digite o código 7705
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 9 AM-5 PM
+Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

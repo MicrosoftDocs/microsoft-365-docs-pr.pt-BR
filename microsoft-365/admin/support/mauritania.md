@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Mauritânia
+title: Informações de suporte para Mauritânia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -25,25 +25,25 @@ ms.locfileid: "48641094"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 974 44 119418
++974 44 119418
 
 Selecione a opção 2
 
 Selecione a opção 9
 
-Insira o código 7700
+Digite o código 7700
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Árabe: Sun-Thu 8 AM-4 PM
+Árabe: Sun-Thu 8:00 às 16:00
 
-Inglês: Mon-Fri 8 AM-4 PM
+Inglês: Mon-Fri 8:00 às 16:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Árabe: Sun-Thu 8 AM-4 PM
+Árabe: Sun-Thu 8:00 às 16:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

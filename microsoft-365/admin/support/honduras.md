@@ -27,14 +27,14 @@ ms.locfileid: "48642162"
 ## <a name="phone-number"></a>Número de telefone
 800 0123
 
-Após discar, digite
+Depois de discar, insira
 
 877 635 7034
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Espanhol: Mon-Fri 9 AM-5 PM
+Espanhol: Mon-Fri das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

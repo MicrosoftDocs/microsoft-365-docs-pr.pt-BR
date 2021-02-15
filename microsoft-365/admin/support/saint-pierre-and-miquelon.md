@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Saint Pierre e Miquelon
+title: Informações de suporte para São Pedro e Miquelon
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,24 +20,24 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640038"
 ---
-# <a name="contact-support-for-saint-pierre-and-miquelon"></a>Entrar em contato com o suporte para Saint Pierre e Miquelon
+# <a name="contact-support-for-saint-pierre-and-miquelon"></a>Contatar o suporte para São Pedro e Miquelon
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 6 AM-2 PM
+Francês: Mon-Fri das 18:00 às 14:00
 
-Inglês: Mon-Fri 6 AM-2 PM
+Inglês: Mon-Fri das 18:00 às 14:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 5 AM-6 PM
+Francês: Mon-Fri das 17h às 18h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para ilhas Comores
+title: Informações de suporte para Comores
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,22 +20,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643218"
 ---
-# <a name="contact-support-for-comoros"></a>Contatar o suporte para ilhas Comores
+# <a name="contact-support-for-comoros"></a>Contatar o suporte para Comores
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 11 AM-7 PM
+Francês: Mon-Fri das 11h às 19h
 
-Inglês: Mon-Fri 11 AM-7 PM
+Inglês: Mon-Fri das 11h às 19h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 10 de AM-11 P.M.
+Francês: Mon-Fri 22:00 às 23:00
 
 Inglês: 24 horas por dia, 7 dias por semana

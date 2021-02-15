@@ -20,21 +20,21 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640662"
 ---
-# <a name="contact-support-for-nicaragua"></a>Contatar o suporte para Nicarágua
+# <a name="contact-support-for-nicaragua"></a>Contatar o suporte da Nicarágua
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
 1800 0164
 
-Após discar, digite
+Depois de discar, insira
 
 877 635 7036
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Espanhol: Mon-Fri 9 AM-5 PM
+Espanhol: Mon-Fri das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

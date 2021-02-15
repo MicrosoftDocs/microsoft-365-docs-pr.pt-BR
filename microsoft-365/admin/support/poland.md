@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48640302"
 ---
-# <a name="contact-support-for-poland"></a>Contatar o suporte para a Polônia
+# <a name="contact-support-for-poland"></a>Contatar o suporte da Polônia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,16 +30,16 @@ ms.locfileid: "48640302"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Polonês: Mon-Fri 8 AM-6 PM
+Polonês: Mon-Fri das 8h às 18h
 
-Inglês: Mon-Fri 8 AM-6 PM
+Inglês: Mon-Fri das 8h às 18h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Polonês: Mon-Fri 8 AM-6 PM
+Polonês: Mon-Fri das 8h às 18h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 022 306 05 17
 
-Tarifas de chamada local se aplicam
+Aplicam-se encargos de chamada local

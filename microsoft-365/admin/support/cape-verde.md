@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para cabo verde (cabo verde)
+title: Informações de suporte para Cabo Verde (Cabo Verde)
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,22 +20,22 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643458"
 ---
-# <a name="contact-support-for-cape-verde-cabo-verde"></a>Contatar o suporte para cabo verde (cabo verde)
+# <a name="contact-support-for-cape-verde-cabo-verde"></a>Contatar o suporte para Cabo Verde (Cabo Verde)
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 351 21 366 5030
++351 21 366 5030
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 8 AM-4 PM
+Inglês: Mon-Fri das 8h às 16h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Português: Mon-Fri 7 AM-8 P.M.
+Português: Mon-Fri das 19:00 às 20:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional

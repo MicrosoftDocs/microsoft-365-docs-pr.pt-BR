@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Colômbia
+title: Informações de suporte para Colômbia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48643350"
 ---
-# <a name="contact-support-for-colombia"></a>Contatar o suporte para a Colômbia
+# <a name="contact-support-for-colombia"></a>Contatar o suporte da Colômbia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,7 +30,7 @@ ms.locfileid: "48643350"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Espanhol: Mon-Fri 9 AM-5 PM
+Espanhol: Mon-Fri das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 

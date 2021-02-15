@@ -20,7 +20,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48642930"
 ---
-# <a name="contact-support-for-dominican-republic"></a>Contatar o suporte para a República Dominicana
+# <a name="contact-support-for-dominican-republic"></a>Contatar o suporte da República Dominicana
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -29,12 +29,12 @@ ms.locfileid: "48642930"
 
 Selecione a opção 4
 
-Insira o código 7007
+Digite o código 7007
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Espanhol: Mon-Fri 9 AM-5 PM
+Espanhol: Mon-Fri das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
@@ -42,4 +42,4 @@ Espanhol: 24 horas por dia, 7 dias por semana
 
 Número de telefone alternativo: 1 809 200 8794
 
-(Celular de chamadas telefônicas)
+(Gratuita para celular)

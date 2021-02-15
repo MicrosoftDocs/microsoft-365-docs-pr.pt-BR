@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Mali
+title: Informações de suporte para Mali
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -25,19 +25,19 @@ ms.locfileid: "48641250"
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
-+ 1 312 843 5147
++1 312 843 5147
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri 8 P.M.
+Francês: Mon-Fri das 8h às 16h
 
-Inglês: Mon-Fri 8 AM-4 PM
+Inglês: Mon-Fri das 8h às 16h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 7:00-8 P.M.
+Francês: Mon-Fri das 19h às 20h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Tarifas de chamada internacional se aplicam
+Aplicam-se encargos de chamada internacional
