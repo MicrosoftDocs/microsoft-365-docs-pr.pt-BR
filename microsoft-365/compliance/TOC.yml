@@ -156,7 +156,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Usar rótulos de confidencialidade em aplicativos do Office
+        - name: Gerenciar rótulos de confidencialidade em aplicativos do Office
           href: sensitivity-labels-office-apps.md
     - name: Criptografia
       items:

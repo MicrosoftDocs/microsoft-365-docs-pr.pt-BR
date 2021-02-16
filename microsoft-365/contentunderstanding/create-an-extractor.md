@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Aprenda como criar um extrator no Microsoft SharePoint Syntex.
-ms.openlocfilehash: dd26b049f71688804cd5110a5a0bb7c87950be94
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: b0b03d0e8804097f34f9cd5b17504263097d8696
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080477"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242495"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Criar um extrator no Microsoft SharePoint Syntex
 
@@ -152,3 +152,5 @@ Se você receber uma compatibilidade em seus arquivos de amostra rotulados, agor
 [Visão geral sobre Compreensão de Documentos](document-understanding-overview.md).
 
 [Aplicar um modelo](apply-a-model.md) 
+
+[Modo de Acessibilidade do SharePoint Syntex](accessibility-mode.md)

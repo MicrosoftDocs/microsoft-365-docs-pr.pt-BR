@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Saiba como localizar recursos para o Microsoft SharePoint Syntex.
-ms.openlocfilehash: 02f3da4e03d13b0710590336e49292ac6df70560
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 21dc0e29e9322b4c009b0f1e63b7bfbc4b92da9a
+ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044751"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242695"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Introdução ao Microsoft SharePoint Syntex
 
@@ -45,8 +45,8 @@ Os recursos nessa seção ajudam você a saber mais sobre os dois métodos de ex
 |Saiba mais sobre compreensão de documentos|[Visão geral da compreensão de documentos](https://docs.microsoft.com/microsoft-365/contentunderstanding/document-understanding-overview)|
 |Saiba mais sobre o processamento de formulário|[Visão geral do processamento de formulário](https://docs.microsoft.com/microsoft-365/contentunderstanding/form-processing-overview)|
 |Compreender ss diferenças entre os dois métodos|[Diferença entre modelo de compreensão de documentos e modelo de processamento de formulário](https://docs.microsoft.com/microsoft-365/contentunderstanding/difference-between-document-understanding-and-form-processing-model)|
-|Veja os recursos na central de recursos da comunidade técnica da Microsoft|[SharePoint Syntex – serviços de conteúdo no Microsoft 365](https://resources.techcommunity.microsoft.com/sharepoint-syntex/)|
-|Perguntas frequentes sobre o SharePoint Syntex na central de recursos da comunidade técnica da Microsoft |[SharePoint Syntex - Perguntas frequentes](https://resources.techcommunity.microsoft.com/project-cortex-microsoft-365/faq/)|
+|Veja os recursos na central de recursos da comunidade técnica da Microsoft|[SharePoint Syntex – serviços de conteúdo no Microsoft 365](https://techcommunity.microsoft.com/t5/sharepoint-syntex/bg-p/SharePointSyntex)|
+|Perguntas frequentes sobre o SharePoint Syntex na central de recursos da comunidade técnica da Microsoft |[SharePoint Syntex - Perguntas frequentes](https://resources.techcommunity.microsoft.com/sharepoint-syntex/faq/)|
 |Como obter o SharePoint Syntex |[Página do produto SharePoint Syntex](https://www.microsoft.com/microsoft-365/enterprise/sharepoint-syntex)|
 
 ## <a name="adoption"></a>Adoção
@@ -76,6 +76,7 @@ Os recursos nessa seção ajudam os usuários a aprender a criar e configurar mo
 |Aplicar um rótulo de retenção ao seu modelo|[Aplicar um rótulo de retenção a um modelo de compreensão de documentos](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)|
 |Usar a taxonomia do repositório de termos ao criar um extrator|[Aproveitar a taxonomia do repositório de termos ao criar um extrator](https://docs.microsoft.com/microsoft-365/contentunderstanding/leverage-term-store-taxonomy)|
 |Saiba como exibir os dados dos seus modelos|[Análise de uso do modelo](https://docs.microsoft.com/microsoft-365/contentunderstanding/model-usage-analytics)|
+|Saiba como usar o modo de acessibilidade ao treinar um modelo|[Modo de acessibilidade do SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/accessibility-mode)|
 
 ## <a name="premium-services"></a>Serviços Premium
 
