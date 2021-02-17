@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como configurar tópicos do Microsoft Viva
-ms.openlocfilehash: 6bd0d3eca653ae44e46b410ef3ac55fe11629a6b
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: a90e75330527992f8519d625f94fe0d5ecb3de6b
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150495"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261464"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Configurar tópicos do Microsoft Viva
 
@@ -24,6 +24,8 @@ Você pode usar o Centro de administração do Microsoft 365 para configurar e c
 É importante planejar a melhor maneira de configurar e configurar tópicos em seu ambiente. Certifique-se de [ler Plan for Microsoft Viva Topics](plan-topic-experiences.md) antes de começar os procedimentos deste artigo.
 
 Você deve estar inscrito nos [Tópicos](https://www.microsoft.com/microsoft-viva/topics) do Viva e ser um administrador global ou administrador do SharePoint para acessar o centro de administração do Microsoft 365 e configurar Tópicos.
+
+Se você configurou o SharePoint para [exigir dispositivos gerenciados,](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)certifique-se de configurar tópicos de um dispositivo gerenciado.
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
@@ -82,7 +84,7 @@ Para configurar tópicos
     
     Selecione **Avançar**.
 
-6. Nos **tópicos Quem pode ver e onde eles** podem vê-los, você configurará a visibilidade do tópico. Na configuração Quem pode **ver tópicos,** escolha quem terá acesso aos detalhes do tópico, como tópicos destacados, cartões de tópicos, respostas de tópicos em pesquisa e páginas de tópicos. Você pode selecionar:
+6. Nos **tópicos Quem podem ver e onde eles** podem vê-los, você configurará a visibilidade do tópico. Na configuração Quem pode **ver tópicos,** escolha quem terá acesso aos detalhes do tópico, como tópicos destacados, cartões de tópicos, respostas de tópicos em pesquisa e páginas de tópicos. Você pode selecionar:
     - **Todos na minha organização**
     - **Somente pessoas ou grupos de segurança selecionados**
     - **Ninguém**
@@ -137,7 +139,7 @@ Atribuição de licenças:
 
 ## <a name="manage-topic-experiences"></a>Gerenciar experiências de tópico
 
-Depois de configurar tópicos, você pode alterar as configurações escolhidas durante a configuração no Centro de administração do [Microsoft 365.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) Consulte as seguintes referências:
+Depois de configurar tópicos, você pode alterar as configurações escolhidas durante a configuração no Centro de administração do [Microsoft 365.](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement) Confira as seguintes referências:
 
 - [Gerenciar a descoberta de tópicos nos tópicos do Microsoft Viva](topic-experiences-discovery.md)
 - [Gerenciar visibilidade de tópicos nos tópicos do Microsoft Viva](topic-experiences-knowledge-rules.md)

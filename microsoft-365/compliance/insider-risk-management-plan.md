@@ -12,16 +12,16 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: f2581c4756a57926ab4a4539be8c383b0479e567
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: abfe3da455191730c0675a09904c9fecf2c0e8ed
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126620"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261310"
 ---
 # <a name="plan-for-insider-risk-management"></a>Planejar o gerenciamento de riscos internos
 
-Antes de começar a trabalhar com o gerenciamento de riscos [insider](insider-risk-management.md) em sua organização, há importantes atividades de planejamento e considerações que devem ser analisadas por suas equipes de gerenciamento de conformidade e tecnologia da informação. A compreensão e o planejamento completos para implantação nas áreas a seguir ajudarão a garantir que sua implementação e o uso de recursos de gerenciamento de riscos insider vão bem e estão alinhados com as práticas recomendadas para a solução.
+Antes de começar a trabalhar com o gerenciamento de riscos [insider](insider-risk-management.md) em sua organização, há importantes atividades de planejamento e considerações que devem ser analisadas por suas equipes de gerenciamento de conformidade e tecnologia da informação. A compreensão e o planejamento completos da implantação nas áreas a seguir ajudarão a garantir que a implementação e o uso de recursos de gerenciamento de riscos insider vão bem e estão alinhados com as práticas recomendadas para a solução.
 
 ## <a name="work-with-stakeholders-in-your-organization"></a>Trabalhar com stakeholders em sua organização
 
@@ -36,7 +36,7 @@ Identifique os participantes apropriados em sua organização para colaborar par
 
 ## <a name="determine-any-regional-compliance-requirements"></a>Determinar os requisitos de conformidade regionais
 
-Áreas geográficas e organizacionais diferentes podem ter requisitos de conformidade e privacidade diferentes de outras áreas da sua organização. Trabalhe com os participantes nessas áreas para garantir que eles entendam os controles de conformidade e privacidade no gerenciamento de riscos internos e como eles devem ser usados em diferentes áreas da sua organização. Em alguns cenários, os requisitos de conformidade e privacidade podem exigir políticas que designem ou restrinjam algumas partes interessadas de investigações e casos com base no caso de um usuário ou requisitos regulatórios ou de política para a área.
+Áreas geográficas e organizacionais diferentes podem ter requisitos de conformidade e privacidade diferentes das outras áreas da sua organização. Trabalhe com os participantes nessas áreas para garantir que eles entendam os controles de conformidade e privacidade no gerenciamento de riscos internos e como eles devem ser usados em diferentes áreas da sua organização. Em alguns cenários, os requisitos de conformidade e privacidade podem exigir políticas que designem ou restrinjam algumas partes interessadas de investigações e casos com base no caso de um usuário ou requisitos regulatórios ou de política para a área.
 
 Se você tiver requisitos para que as partes interessadas específicas sejam envolvidas em investigações de caso que [](insider-risk-management-policies.md) envolvam usuários em determinadas regiões, funções ou divisões, talvez você queira implementar políticas de gerenciamento de riscos internas separadas (mesmo que idênticas) voltadas para as diferentes regiões e populações. Essa configuração facilitará a triagem e o gerenciamento de casos relevantes para suas funções e regiões para os participantes certos. Além disso, talvez você queira considerar a criação de processos e políticas para regiões onde investigadores e revisadores falam o mesmo idioma que os usuários para ajudar a simplificar o processo de escalonamento para alertas e casos de gerenciamento de riscos internos.
 
@@ -44,14 +44,14 @@ Se você tiver requisitos para que as partes interessadas específicas sejam env
 
 Selecione participantes dedicados para monitorar e analisar os alertas e ocorrências regularmente no centro de conformidade do [Microsoft 365.](https://compliance.microsoft.com/) Certifique-se de entender como você atribuirá diferentes participantes aos diferentes grupos de função disponíveis no gerenciamento de riscos insider.
 
-Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você tem opções para atribuir usuários a grupos de função específicos para gerenciar diferentes conjuntos de recursos de gerenciamento de riscos insider. Escolha entre essas opções de grupo de função ao configurar o gerenciamento de riscos insider:
+Dependendo da estrutura da sua equipe de gerenciamento de conformidade, você tem opções para atribuir usuários a grupos de função específicos para gerenciar diferentes conjuntos de recursos de gerenciamento de riscos insider. Para exibir a guia Permissões no Centro de Conformidade e Segurança do Office 365 &  e gerenciar grupos de funções,  você precisa ser atribuído ao grupo de funções Gerenciamento da Organização ou precisa ter a função gerenciamento de função atribuída.  Escolha entre essas opções de grupo de função ao configurar o gerenciamento de riscos insider:
 
 | **Default management role assignments for this role** | **Permissões de função** |
-| :---- | :---------------- |
+| :------------- | :------------------- |
 | **Gerenciamento de riscos do Insider** | Use esse grupo de função para gerenciar o gerenciamento de riscos insider para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores designados, analistas e investigadores, você pode configurar permissões de gerenciamento de riscos interno em um único grupo. Esse grupo de funções contém todas as funções de permissão de gerenciamento de risco interno. Essa configuração é a maneira mais fácil de começar rapidamente com o gerenciamento de riscos insider e é uma boa opção para organizações que não precisam de permissões separadas definidas para grupos separados de usuários.|
-| **Administrador de Gerenciamento de Riscos Insider** | Use esse grupo de função para configurar inicialmente o gerenciamento de riscos insider e posteriormente segregar os administradores de risco interno em um grupo definido.  Os usuários desse grupo de função podem criar, ler, atualizar e excluir políticas de gerenciamento de riscos insider, configurações globais e atribuições de grupo de função. |
-| **Analistas do Gerenciamento de Risco Interno** | Use esse grupo para atribuir permissões aos usuários que atuarão como analistas de caso de risco interno. Os usuários desse grupo de função podem acessar todos os alertas, ocorrências e modelos de avisos de gerenciamento de riscos insider. Eles não podem acessar o Explorador de Conteúdo de risco interno. |
-| **Investigadores do Gerenciamento de Risco Interno** | Use esse grupo para atribuir permissões aos usuários que atuarão como investigadores de dados de risco interno. Os usuários desse grupo de função podem acessar todos os alertas, casos, modelos de avisos e o Explorador de Conteúdo para todos os casos. |
+| **Administrador de Gerenciamento de Riscos Insider** | Use esse grupo de função para configurar inicialmente o gerenciamento de riscos insider e posteriormente segregar os administradores de risco interno em um grupo definido.  Os usuários desse grupo de função podem criar, ler, atualizar e excluir políticas de gerenciamento de riscos internas e configurações globais. |
+| **Analistas do Gerenciamento de Risco Interno** | Use esse grupo para atribuir permissões aos usuários que atuarão como analistas de caso de risco interno. Os usuários nesse grupo de função podem acessar todos os alertas, ocorrências e modelos de avisos de gerenciamento de riscos insider. Eles não podem acessar o Explorador de Conteúdo de risco interno. |
+| **Investigadores do Gerenciamento de Risco Interno** | Use esse grupo para atribuir permissões aos usuários que atuarão como investigadores de dados de risco interno. Os usuários nesse grupo de função podem acessar todos os alertas, casos, modelos de avisos e o Explorador de Conteúdo para todos os casos. |
 
 ## <a name="understand-requirements-and-dependencies"></a>Compreender os requisitos e dependências
 
@@ -74,7 +74,7 @@ Antes de ativar a solução amplamente em seu ambiente de produção, você pode
 
 Mantenha o recurso de anonimato nas configurações de política habilitadas para anonimizar nomes de exibição de usuários no console de gerenciamento de riscos internos durante esse teste para manter a privacidade dentro da ferramenta. Essa configuração ajuda a proteger a privacidade dos usuários que têm as políticas de acordo e pode ajudar a promover a o objectivity na investigação de dados e revisões de análise para alertas de risco interno.
 
-Se você não vir alertas imediatamente após a configuração de uma política de gerenciamento de riscos interno, isso pode significar que o limite mínimo de risco ainda não foi atendido. Uma boa maneira de verificar se a política está disparada e funcionando conforme o esperado é ver se o usuário está no escopo da política na **página Usuários.**
+Se você não vir alertas imediatamente após configurar uma política de gerenciamento de riscos interno, isso pode significar que o limite mínimo de risco ainda não foi atendido. Uma boa maneira de verificar se a política está disparada e funcionando conforme o esperado é ver se o usuário está no escopo da política na **página Usuários.**
 
 ## <a name="resources-for-stakeholders"></a>Recursos para stakeholders
 
@@ -90,5 +90,5 @@ Compartilhe a documentação de gerenciamento de riscos interno com os participa
 
 Pronto para configurar o gerenciamento de riscos insider para sua organização? Revise os seguintes artigos:
 
-- [Começar a trabalhar com as configurações de gerenciamento de risco interno](insider-risk-management-settings.md) para definir as configurações de política global.
+- [Começar a trabalhar com as configurações de gerenciamento de risco interno para](insider-risk-management-settings.md) definir as configurações de política global.
 - [Comece a trabalhar com o gerenciamento de riscos insider](insider-risk-management-configure.md) para configurar pré-requisitos, criar políticas e começar a receber alertas.

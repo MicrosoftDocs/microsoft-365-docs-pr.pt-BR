@@ -22,19 +22,19 @@ search.appverid:
 description: Obtenha suporte técnico e de cobrança usando números de telefone listados para seu país ou região ou enviando uma solicitação de serviço online.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 06f78d50901f279bf27f55f1b8f7ad867682d784
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 7679539e64588827b6dcc20f6f98bc67e613aae6
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925573"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261330"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Maneiras de contatar o suporte para produtos comerciais - Ajuda para Administradores
 
 ::: moniker range="o365-worldwide"
 
 > [!IMPORTANT]
-> Você deve ser um administrador de uma assinatura comercial para usar esses métodos de suporte. Se você não é um administrador de negócios, use [esta página de suporte](https://support.microsoft.com/help/contactus).
+> Você deve ser um administrador de uma assinatura comercial para usar esses métodos de suporte. Se você não é um administrador de negócios, use [esta página de suporte](https://support.microsoft.com/contactus).
 
 Comece [verificando a Integridade atual de seus serviços](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health). Você pode exibir informações detalhadas sobre problemas atuais e passados ​​no <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">painel de integridade do serviço</a>. Se você estiver enfrentando um problema que não está listado, poderá obter suporte de uma das seguintes maneiras:
 

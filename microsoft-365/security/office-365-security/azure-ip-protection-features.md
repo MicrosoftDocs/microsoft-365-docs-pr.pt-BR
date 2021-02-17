@@ -19,19 +19,19 @@ ms.custom:
 description: Este artigo explica as alterações que estão sendo feitas nos recursos de proteção na Proteção de Informações do Azure
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2cb78f9e13d8ae429f5f46f2b1051d07ee541a10
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 0769306c3aa2d1a357e1d5999d1a1406c02aa5f3
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165974"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261556"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Recursos de proteção na Proteção de Informações do Azure sendo implantadas para locatários existentes
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Para ajudar na etapa inicial de proteção de suas informações, a partir de julho de 2018, todos os locatários qualificados da Proteção de Informações do Azure terão os recursos de proteção na Proteção de Informações do Azure habilitados por padrão. Os recursos de proteção na Proteção de Informações do Azure eram conhecidos anteriormente no Office 365 como Rights Management ou Azure RMS. Se sua organização tiver um plano de serviço do Office E3 ou um plano de serviço superior, você começará a proteger as informações por meio da Proteção de Informações do Azure quando lançarmos esses recursos.
@@ -60,11 +60,12 @@ A Criptografia de Mensagens do Office 365 aproveita os recursos de proteção na
 
 Se sua organização comprou uma licença qualificada do Office 365, seu locatário será afetado por essa alteração.
 
- **IMPORTANTE!** Se você estiver usando o Active Directory Rights Management Services (AD RMS) em seu ambiente local, deverá optar por não fazer essa alteração imediatamente ou migrar para a Proteção de Informações do Azure antes de lançarmos essa alteração nos próximos 30 dias. Para obter informações sobre como optar por não participar, consulte "Uso o AD RMS, como faço para não participar?" mais adiante neste artigo. Se você preferir migrar, confira [Migrar do AD RMS para a Proteção de Informações do Azure.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+> [!IMPORTANT]
+> Se você estiver usando o Active Directory Rights Management Services (AD RMS) em seu ambiente local, deverá optar por não fazer essa alteração imediatamente ou migrar para a Proteção de Informações do Azure antes de lançarmos essa alteração nos próximos 30 dias. Para obter informações sobre como optar por não participar, consulte "Uso o AD RMS, como faço para não participar?" mais adiante neste artigo. Se você preferir migrar, confira [Migrar do AD RMS para a Proteção de Informações do Azure.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="can-i-use-azure-information-protection-with-active-directory-rights-management-services-ad-rms"></a>Posso usar a Proteção de Informações do Azure com o Active Directory Rights Management Services (AD RMS)?
 
-Não. Este não é um cenário de implantação com suporte. Sem seguir as etapas adicionais de aceitação, alguns computadores podem começar automaticamente a usar o serviço Azure Rights Management e também se conectar ao cluster do AD RMS. Esse cenário não é suportado e tem resultados não confiáveis, portanto, é importante que você re opte por essa alteração nos próximos 30 dias antes de lançarmos esses novos recursos. Para obter informações sobre como optar por não participar, consulte "Uso o AD RMS, como faço para não participar?" mais adiante neste artigo. Se você preferir migrar, confira [Migrar do AD RMS para a Proteção de Informações do Azure.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+Não. Este não é um cenário de implantação suportado. Sem seguir as etapas adicionais de aceitação, alguns computadores podem começar automaticamente a usar o serviço Azure Rights Management e também se conectar ao cluster do AD RMS. Esse cenário não é suportado e tem resultados não confiáveis, portanto, é importante que você re opte por essa alteração nos próximos 30 dias antes de lançarmos esses novos recursos. Para obter informações sobre como optar por não participar, consulte "Uso o AD RMS, como faço para não participar?" mais adiante neste artigo. Se você preferir migrar, confira [Migrar do AD RMS para a Proteção de Informações do Azure.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
 
 ## <a name="how-do-i-know-if-im-using-ad-rms"></a>Como saber se estou usando o AD RMS?
 
@@ -72,11 +73,11 @@ Use estas instruções para preparar o ambiente para o Azure Rights Management q
 
 1. Embora opcional, a maioria das implantações do AD RMS publica o SCP (ponto de conexão de serviço) no Active Directory para que os computadores de domínio possam descobrir o cluster do AD RMS.
 
-Use o AdsI Edit para ver se você tem um SCP publicado no Active Directory: CN=Configuration [nome do servidor], CN=Services, CN=RightsManagementServices, CN=SCP
+   Use o AdsI Edit para ver se você tem um SCP publicado no Active Directory: CN=Configuration [nome do servidor], CN=Services, CN=RightsManagementServices, CN=SCP
 
-2. Se você não estiver usando um SCP, os computadores Windows que se conectam a um cluster do AD RMS devem ser configurados para o redirecionamento de licenciamento ou descoberta de serviço do lado do cliente usando o Registro do Windows: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation ou HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation
+2. Se você não estiver usando um SCP, os computadores Windows que se conectam a um cluster do AD RMS devem ser configurados para descoberta de serviço do lado do cliente ou redirecionamento de licenciamento usando o Registro do Windows: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation or HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation` .
 
-Para obter mais informações sobre essas configurações do Registro, consulte Habilitando a descoberta de serviço do lado do cliente usando o Registro do [Windows](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) e redirecionando o tráfego [do servidor de licenciamento.](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic)
+Para obter mais informações sobre essas configurações do Registro, consulte Habilitando a descoberta de serviço do lado do cliente usando o Registro do [Windows](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) e redirecionando o tráfego do [servidor de licenciamento.](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic)
 
 ## <a name="i-use-ad-rms-how-do-i-opt-out"></a>Eu uso o AD RMS, como faço para não participar?
 
@@ -92,7 +93,7 @@ Para optar por não realizar as alterações futuras, conclua estas etapas:
 
 ## <a name="what-can-i-expect-after-this-change-has-been-made"></a>O que posso esperar depois que essa alteração tiver sido feita?
 
-Depois que isso for habilitado, desde que você não tenha optado por não usá-la, você poderá começar a usar a nova versão da Criptografia de Mensagens do Office 365 anunciada no [Microsoft Ignite 2017](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Email-Encryption-and-Rights-Protection/ba-p/110801) e aproveita os recursos de criptografia e proteção da Proteção de Informações do Azure.
+Depois que isso for habilitado, desde que você não tenha optado por não, você pode começar a usar a nova versão da Criptografia de Mensagens do Office 365 que foi anunciada no [Microsoft Ignite 2017](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Email-Encryption-and-Rights-Protection/ba-p/110801) e aproveita os recursos de criptografia e proteção da Proteção de Informações do Azure.
 
 ![Captura de tela que mostra uma mensagem protegida pelo OME no Outlook na Web.](../../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
 

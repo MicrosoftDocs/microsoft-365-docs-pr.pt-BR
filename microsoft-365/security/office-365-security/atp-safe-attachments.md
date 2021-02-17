@@ -20,19 +20,19 @@ ms.collection:
 description: Os administradores podem saber mais sobre o recurso Anexos Seguros no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5e85695a6d0fba221f3c614ec33b3552d37153e2
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 5d2d348856dbd51cabe2b320d315406076921fee
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175842"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261532"
 ---
 # <a name="safe-attachments-in-microsoft-defender-for-office-365"></a>Anexos seguros no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 Os Anexos Seguros no [Microsoft Defender para Office 365](office-365-atp.md) fornece uma camada adicional de proteção para anexos de email que já foram verificados pela proteção anti-malware no Exchange Online Protection [(EOP).](anti-malware-protection.md) Especificamente, os Anexos Seguros usam um ambiente virtual para verificar anexos em mensagens de email antes que eles são entregues aos destinatários (um processo conhecido como _detonação)._
@@ -45,7 +45,7 @@ A tabela a seguir descreve cenários para Anexos Seguros em organizações do Mi
 
 |Cenário|Resultado|
 |---|---|
-|A organização do Microsoft 365 E5 de Pat não tem políticas de Anexos seguros configuradas.|Pat não está protegido por Anexos Seguros. <p> Um administrador deve criar pelo menos uma política de Anexos Seguros para que a proteção de Anexos Seguros seja ativa. Além disso, as condições da política devem incluir Pat se Pat for ser protegido por Anexos seguros.|
+|A organização do Microsoft 365 E5 de Pat não tem políticas de Anexos seguros configuradas.|Pat não está protegido por Anexos Seguros. <p> Um administrador deve criar pelo menos uma política de Anexos Seguros para que a proteção de Anexos Seguros seja ativa. Além disso, as condições da política devem incluir Pat se Pat deve ser protegido por Anexos seguros.|
 |A organização de Lee tem uma política de Anexos seguros que se aplica somente a funcionários de finanças. Lee é membro do departamento de vendas.|Lee não está protegido por Anexos Seguros. <p> Os funcionários de finanças são protegidos por Anexos seguros, mas os funcionários de vendas (e outros funcionários) não.|
 |Ontem, um administrador na organização de Mila criou uma política de Anexos seguros que se aplica a todos os funcionários. No início de hoje, Clara recebeu uma mensagem de email que incluía um anexo.|Ela está protegida por Anexos Seguros. <p> Normalmente, leva cerca de 30 minutos para que uma nova política entre em vigor.|
 |A organização de Chris tem políticas de Anexos Seguros de longa duração para todos na organização. Chris recebe um email que tem um anexo e encaminha a mensagem para destinatários externos.|Chis é protegido por Anexos Seguros. <p> Se os destinatários externos também têm políticas de Anexos Seguros em sua organização, as mensagens encaminhadas estão sujeitas a essas políticas.|
@@ -54,15 +54,15 @@ A tabela a seguir descreve cenários para Anexos Seguros em organizações do Mi
 A verificação de Anexos Seguros ocorre na mesma região em que os dados do Microsoft 365 residem. Para obter mais informações sobre geografia do datacenter, consulte [Onde seus dados estão localizados?](https://products.office.com/where-is-your-data-located?geo=All)
 
 > [!NOTE]
-> Os seguintes recursos estão localizado & s nas configurações globais das políticas de Anexos Seguros no Centro de Conformidade e Segurança, mas essas configurações estão habilitadas ou desabilitadas globalmente e não exigem políticas de Anexos Seguros:
+> Os recursos a seguir estão localizados nas configurações globais das políticas de Anexos Seguros no Centro de Conformidade e & Segurança. Porém, essas configurações estão habilitadas ou desabilitadas globalmente e não exigem políticas de Anexos Seguros:
 >
-> - [Anexos seguros para SharePoint, OneDrive e Microsoft Teams.](atp-for-spo-odb-and-teams.md)
+> - [Anexos seguros para o SharePoint, OneDrive e Microsoft Teams.](atp-for-spo-odb-and-teams.md)
 >
 > - [Documentos Seguros no Microsoft 365 E5](safe-docs.md)
 
 ## <a name="safe-attachments-policy-settings"></a>Configurações de política de Anexos Seguros
 
-Esta seção descreve as configurações nas políticas de Anexos seguros:
+Esta seção descreve as configurações nas políticas de Anexos Seguros:
 
 - **Resposta de malware desconhecido de Anexos** Seguros: essa configuração controla a ação da verificação de malware de Anexos Seguros em mensagens de email. As opções disponíveis são descritas na tabela a seguir:
 
@@ -73,7 +73,7 @@ Esta seção descreve as configurações nas políticas de Anexos seguros:
   |**Desligado**|Os anexos não são verificados para malware por Anexos Seguros. As mensagens ainda são examinadas em busca de malware pela [proteção anti-malware no EOP.](anti-malware-protection.md)|Desativar a verificação para destinatários selecionados. <p> Evite atrasos desnecessários no roteamento de emails internos. <p> **Essa opção não é recomendada para a maioria dos usuários. Você só deve usar essa opção para desativar a verificação de Anexos Seguros para destinatários que recebem apenas mensagens de destinatários confiáveis.**|
   |**Monitorar**|Entrega mensagens com anexos e rastreia o que acontece com malware detectado. <p> A entrega de mensagens seguras pode atrasar devido à verificação de Anexos Seguros.|Veja para onde o malware detectado vai na sua organização.|
   |**Bloquear**|Impede que mensagens com anexos de malware detectados seja entregue. <p> As mensagens [são colocadas](manage-quarantined-messages-and-files.md) em quarentena, onde somente administradores (não usuários finais) podem revisar, liberar ou excluir as mensagens. <p> Bloqueia automaticamente instâncias futuras das mensagens e anexos. <p> A entrega de mensagens seguras pode atrasar devido à verificação de Anexos Seguros.|Protege sua organização contra ataques repetidos usando os mesmos anexos de malware. <p> Esse é o valor padrão e o valor recomendado nas políticas de segurança predefinidas Padrão [e Estrito.](preset-security-policies.md)|
-  |**Replace**|Remove anexos de malware detectados. <p> Notifica os destinatários de que os anexos foram removidos. <p>  As mensagens [são colocadas](manage-quarantined-messages-and-files.md) em quarentena, onde somente administradores (não usuários finais) podem revisar, liberar ou excluir as mensagens. <p> A entrega de mensagens seguras pode atrasar devido à verificação de Anexos Seguros.|Aumentar a visibilidade para os destinatários de que os anexos foram removidos por causa de malware detectado.|
+  |**Replace**|Remove anexos de malware detectados. <p> Notifica os destinatários de que os anexos foram removidos. <p>  As mensagens [são colocadas](manage-quarantined-messages-and-files.md) em quarentena, onde somente administradores (não usuários finais) podem revisar, liberar ou excluir as mensagens. <p> A entrega de mensagens seguras pode atrasar devido à verificação de Anexos Seguros.|Aumentar a visibilidade aos destinatários de que os anexos foram removidos por causa de malware detectado.|
   |**Entrega dinâmica**|Entrega mensagens imediatamente, mas substitui anexos por espaço reservado até que a verificação de Anexos Seguros seja concluída. <p> Para obter detalhes, consulte a seção Entrega Dinâmica em políticas de [Anexos](#dynamic-delivery-in-safe-attachments-policies) Seguros mais adiante neste artigo.|Evite atrasos de mensagens enquanto protege os destinatários contra arquivos mal-intencionados. <p> Permita que os destinatários visualizem anexos no modo de segurança durante a verificação.|
   |
 
@@ -81,7 +81,7 @@ Esta seção descreve as configurações nas políticas de Anexos seguros:
 
   A recomendação para as configurações de política Padrão e Estrito é habilitar o redirecionamento. Para obter mais informações, consulte [configurações de Anexos seguros.](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)
 
-- Aplique a seleção acima se a verificação de anexos de **malware esgoter** ou ocorrer um erro: a ação especificada pela resposta de malware desconhecido **anexos** seguros é tomada em mensagens mesmo quando a verificação de Anexos Seguros não puder ser concluída. Sempre selecione essa opção se você selecionar Habilitar **redirecionamento.** Caso contrário, as mensagens podem ser perdidas.
+- Aplique a seleção acima se a verificação de anexos de **malware esgoter** ou ocorrer um erro: a ação especificada pela resposta de malware desconhecido **anexos** seguros é tomada em mensagens, mesmo quando a verificação de Anexos seguros não puder ser concluída. Sempre selecione essa opção se você selecionar **Habilitar redirecionamento.** Caso contrário, as mensagens podem ser perdidas.
 
 - **Filtros de** destinatário: você precisa especificar as condições e exceções de destinatário que determinam a quem a política se aplica. Você pode usar essas propriedades para condições e exceções:
 
@@ -100,11 +100,11 @@ Esta seção descreve as configurações nas políticas de Anexos seguros:
 > [!NOTE]
 > A Entrega Dinâmica funciona apenas para caixas de correio do Exchange Online.
 
-A ação de Entrega Dinâmica nas políticas de Anexos Seguros procura eliminar quaisquer atrasos na entrega de email que possam ser causados pela verificação de Anexos Seguros. O corpo da mensagem de email é entregue ao destinatário com um espaço reservado para cada anexo. O espaço reservado permanece até que o anexo seja considerado seguro e, em seguida, o anexo se torne disponível para abrir ou baixar.
+A ação de Entrega Dinâmica nas políticas de Anexos Seguros procura eliminar quaisquer atrasos na entrega de email que possam ser causados pela verificação de Anexos Seguros. O corpo da mensagem de email é entregue ao destinatário com um espaço reservado para cada anexo. O espaço reservado permanece até que o anexo seja considerado seguro e, em seguida, o anexo fica disponível para abrir ou baixar.
 
 Se um anexo for considerado mal-intencionado, a mensagem será colocada em quarentena. Somente administradores (não usuários finais) podem revisar, liberar ou excluir mensagens que foram colocadas em quarentena pela verificação de Anexos Seguros. Para obter mais informações, consulte Gerenciar mensagens e arquivos em quarentena [como administrador.](manage-quarantined-messages-and-files.md)
 
-A maioria dos PDFs e documentos do Office pode ser visualizada no modo de segurança enquanto a verificação de Anexos seguros está em andamento. Se um anexo não for compatível com o visualizador de Entrega Dinâmica, os destinatários verão um espaço reservado para o anexo até que a verificação de Anexos Seguros seja concluída.
+A maioria dos PDFs e documentos do Office pode ser visualizada no modo de segurança enquanto a verificação de Anexos Seguros está em andamento. Se um anexo não for compatível com o visualizador de Entrega Dinâmica, os destinatários verão um espaço reservado para o anexo até que a verificação de Anexos Seguros seja concluída.
 
 Se você estiver usando um dispositivo móvel e pdFs não estão renderizar no visualizador de entrega dinâmica em seu dispositivo móvel, tente abrir a mensagem no Outlook na Web (anteriormente conhecido como Outlook Web App) usando seu navegador móvel.
 

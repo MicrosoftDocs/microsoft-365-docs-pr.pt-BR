@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como configurar aplicativos do Microsoft 365 como o Teams, o OneDrive e o SharePoint para colaboração com pessoas de fora da sua organização.
-ms.openlocfilehash: 374ad8f5ec37fc0900fb38cb4e0f4743a02c4da4
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+ms.openlocfilehash: 7b8e5e30d8222d055fc5f64472c4083db614d4bd
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613449"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261508"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Colaborar com pessoas de fora da sua organização
 
@@ -36,7 +36,7 @@ A colaboração com pessoas de fora da sua organização consiste em dois compon
 
 ## <a name="enable-sharing"></a>Habilitar o compartilhamento
 
-Por padrão, no Microsoft 365, o compartilhamento com pessoas de fora da sua organização está habilitado para o SharePoint e o OneDrive, mas desabilitado para o Teams. Muitos cenários de compartilhamento externo do SharePoint e do OneDrive funcionam sem mais configurações. Para confirmar as configurações de um cenário que você está usando ou habilitar um novo, escolha uma das seguintes opções:
+Por padrão, no Microsoft 365, o compartilhamento com pessoas de fora da sua organização está habilitado. Muitos cenários de compartilhamento externo funcionam sem mais configurações. Para confirmar as configurações de um cenário que você está usando ou habilitar um novo, escolha uma das seguintes opções:
 
 - [Colaborar em](collaborate-on-documents.md) documentos - Saiba como configurar o Microsoft 365 para permitir o compartilhamento e a colaboração com pessoas de fora da sua organização (convidados e usuários não autenticados) em arquivos e pastas.
 - [Colaborar em um site](collaborate-in-site.md) - Saiba como configurar o Microsoft 365 para habilitar o compartilhamento de sites do SharePoint com convidados.
@@ -49,12 +49,12 @@ Para uma análise abrangente das configurações de compartilhamento de convidad
 Depois de habilitar o cenário que você deseja usar para compartilhar com pessoas de fora da sua organização, considere proteções adicionais para ajudar a proteger seu conteúdo contra compartilhamento acidental ou intencional.
 
 - [Práticas recomendadas para compartilhar arquivos](best-practices-anonymous-sharing.md) e pastas com usuários não autenticados - Saiba mais sobre as práticas recomendadas para compartilhar com usuários não autenticados.
-- [Limitar a exposição acidental](share-limit-accidental-exposure.md) - Saiba como reduzir as chances de compartilhar acidentalmente conteúdo sensível com pessoas de fora da sua organização.
+- [Limitar a exposição acidental](share-limit-accidental-exposure.md) - Saiba como reduzir as chances de compartilhar acidentalmente conteúdos confidenciais com pessoas de fora da sua organização.
 - Crie um ambiente seguro de compartilhamento de convidados: saiba mais sobre as ferramentas fornecidas no Microsoft 365 para ajudar [a](create-secure-guest-sharing-environment.md) garantir que o compartilhamento com pessoas de fora da sua organização seja feito de maneira segura e atenda aos seus requisitos de governança.
 
 ## <a name="collaborate-with-partner-companies"></a>Colaborar com empresas parceiras
 
-Quando você estiver trabalhando em um projeto grande que envolva muitos convidados de outra organização ou se tiver um relacionamento contínuo com o fornecedor no qual os convidados estão frequentemente mudando, você pode usar o gerenciamento de direitos no Azure Active Directory para simplificar o gerenciamento de convidados e permitir que a empresa parceira compartilhe nessa responsabilidade. Consulte [Criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
+Quando estiver trabalhando em um projeto grande que envolva muitos convidados de outra organização ou se você tiver um relacionamento contínuo com o fornecedor no qual os convidados estão frequentemente mudando, você pode usar o gerenciamento de direitos no Azure Active Directory para simplificar o gerenciamento de convidados e permitir que a empresa parceira compartilhe nessa responsabilidade. Consulte [Criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
 
 ## <a name="limit-sharing"></a>Limitar o compartilhamento
 
