@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 2541519ad9082383c5381452722d023f23760798
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: b3b0451f2f1b0950f2b2ee723025a796f1814038
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242707"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261498"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -55,7 +55,6 @@ Estas caixas de correio são listadas pelo atributo RecipientTypeDetails:
 
 - **UserMailbox**: essas caixas de correio armazenam mensagens de usuários do Teams que têm uma caixa de correio do Exchange Online.
 - **MailUser**: essas caixas de correio armazenam mensagens de usuários do Teams que têm uma caixa de correio de um servidor do Exchange local e não do Exchange Online.
-- **Usuário**: essas caixas de correio armazenam mensagens de usuários do Teams que não têm uma caixa de correio de servidores do Exchange Online ou do Exchange local.
 - **GroupMailbox**: essas caixas de correio armazenam mensagens de canais do Teams.
 
 Outros tipos de caixa de correio, como RoomMailbox que é usado em salas de conferência do Teams, não têm suporte das políticas de retenção do Teams.
