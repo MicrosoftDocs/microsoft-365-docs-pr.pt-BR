@@ -15,21 +15,21 @@ ms.custom:
 description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para administradores do Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 86c9eb0ee050c4c1a40ef7f29ea3d01dc202be9a
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 783c7ea0aca47c805daf66592b401a98f739d071
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166670"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288074"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Rastreamento de mensagens e relatórios no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece muitos relatórios diferentes que podem ajudá-lo a determinar o status e a saúde gerais da sua organização. Existem também ferramentas que ajudam você a solucionar problemas com eventos específicos (tais como uma mensagem que não chega aos destinatários pretendidos), e relatórios de auditoria para ajudar nos requisitos de conformidade.
 
@@ -45,13 +45,13 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou 
 
 Veja os seguintes recursos para obter mais informações:
 
-- [Relatórios do Microsoft 365 no centro de administração - grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
+- [Relatórios do Microsoft 365 no centro de administração - grupos do Microsoft 365](../../admin/activity-reports/office-365-groups.md)
 
-- [Relatórios do Microsoft 365 no centro de administração - Atividade de email](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
+- [Relatórios do Microsoft 365 no centro de administração - Atividade de email](../../admin/activity-reports/email-activity.md)
 
-- [Relatórios do Microsoft 365 no centro de administração - Uso de aplicativos de email](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
+- [Relatórios do Microsoft 365 no centro de administração - Uso de aplicativos de email](../../admin/activity-reports/email-apps-usage.md)
 
-- [Relatórios do Microsoft 365 no centro de administração - Uso da caixa de correio](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
+- [Relatórios do Microsoft 365 no centro de administração - Uso da caixa de correio](../../admin/activity-reports/mailbox-usage.md)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios & conformidade de segurança no centro de administração do Microsoft 365
 

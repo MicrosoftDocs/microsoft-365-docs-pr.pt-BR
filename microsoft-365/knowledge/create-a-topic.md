@@ -14,19 +14,19 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 2b543dbc8132f261814aec45e713874971b9b5d1
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: fbdd0e9b75e92d8080d9aaf43a2d1eaa8baacbc3
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242873"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279371"
 ---
 # <a name="create-a-new-topic"></a>Criar um novo tópico 
 
 Em Tópicos do Viva, você pode criar um novo tópico se não for descoberto por meio da indexação ou se a tecnologia de IA não tiver encontrado evidências suficientes para estabeleça-o como um tópico.
 
 > [!Note] 
-> Embora as informações em um tópico coletados pela IA tenham sido cortadas com [segurança,](topic-experiences-security-trimming.md)observe que as informações em um tópico criado manualmente são visíveis para todos os usuários que têm permissões para exibir o tópico. 
+> Embora as informações em um tópico [](topic-experiences-security-trimming.md)coletados pela IA tenham sido cortadas com segurança, observe que a descrição do tópico e as informações das pessoas em um tópico criado manualmente são visíveis para todos os usuários que têm permissões para exibir o tópico. 
 
 
 ## <a name="requirements"></a>Requisitos
@@ -75,7 +75,10 @@ Você pode criar um novo tópico a partir de dois locais:
  
     Para adicionar um novo arquivo, selecione <b>Adicionar</b>, selecione o site do SharePoint em seus sites Frequentes ou Seguidos e selecione o arquivo na biblioteca de documentos do site.
 
-    Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou uma página fornecendo a URL. 
+    Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou página fornecendo a URL. 
+
+    > [!Note] 
+    > Os arquivos e páginas que você adiciona devem estar localizados no mesmo locatário do Microsoft 365. Se quiser adicionar um link a um recurso externo no tópico, você pode adicioná-lo por meio do ícone de tela na etapa 8.
 
 
 6.  A <b>seção Sites relacionados</b> mostra sites que têm informações sobre o tópico. 
@@ -97,6 +100,16 @@ Você pode criar um novo tópico a partir de dois locais:
    O tópico relacionado adicionado será exibido como um tópico conectado.
 
    ![Tópicos relacionados conectados](../media/knowledge-management/related-topics-final.png)</br> 
+
+   Para remover um tópico relacionado, selecione o tópico que você deseja remover e selecione o <b>ícone Remover</b> tópico.</br>
+ 
+   ![Remover tópico relacionado](../media/knowledge-management/remove-related.png)</br>  
+
+   Em seguida, <b>selecione Remover</b>.</br>
+
+   ![Confirmar remoção](../media/knowledge-management/remove-related-confirm.png)</br> 
+     
+ 
 
 
 8. Você também pode adicionar itens estáticos à página (como texto, imagens ou links) selecionando o ícone de tela, que pode ser localizado abaixo da descrição curta. Se você selecioná-la, ela abrirá a caixa de ferramentas do SharePoint da qual você pode escolher o item que deseja adicionar à página.

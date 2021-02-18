@@ -16,18 +16,18 @@ ms.collection:
 description: Segurança no Office 365, do EOP para o Defender para Planos 1 e 2 do Office 365, Configurações de segurança Padrão versus Estritas e muito mais. Entenda o que você tem e como proteger suas propriedades.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 68570cedd0696510f2181edcea7ef149ace606e3
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: cbe95946ab7214efded8feca39578c364b948df0
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166412"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287896"
 ---
 # <a name="office-365-security-overview"></a>Visão geral de segurança do Office 365
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 
 
 Este artigo apresentará as novas propriedades de segurança na nuvem. Seja você parte de um Centro de Operações de Segurança, você é um Administrador de Segurança novo no espaço ou quer uma atualização, vamos começar.
@@ -44,7 +44,7 @@ Cada assinatura do Office 365 vem com recursos de segurança. As metas e ações
 1. Microsoft Defender para Office 365 Plano 2 (Defender para Office P2)
 
 > [!NOTE]
-> Se você comprou sua assinatura e precisa lançar recursos de segurança *agora,* pule para as etapas no artigo Proteger [Contra Ameaças.](protect-against-threats.md) Se você é novo em sua assinatura e gostaria de saber sua licença antes de começar, navegue por Cobrança > Seus Produtos no centro de administração do [Microsoft 365.](https://admin.microsoft.com/AdminPortal/#/homepage)
+> Se você comprou sua assinatura e precisa lançar recursos de segurança *agora,* pule para as etapas no artigo Proteger [Contra Ameaças.](protect-against-threats.md) Se você for novo em sua assinatura e quiser saber sua licença antes de começar, navegue > Seus Produtos no centro de administração do [Microsoft 365.](https://admin.microsoft.com/AdminPortal/#/homepage)
 
 A segurança do Office 365 se baseia nas proteções principais oferecidas pelo EOP. O EOP está presente em qualquer assinatura onde as caixas de correio do Exchange Online podem ser encontradas (lembre-se de que todos os produtos de segurança discutidos aqui são baseados em nuvem).
 
@@ -61,7 +61,7 @@ Mas, em termos de arquitetura, vamos começar pensando em cada parte como camada
 
 :::image type="content" source="../../media/tp_GraphicEOPATPP1P2_2.png" alt-text="EOP e Microsoft Defender para Office 365 e suas relações entre si com ênfase no serviço, incluindo uma observação para autenticação de email.":::
 
-Embora cada um desses serviços enfatiza uma meta entre Proteger, Detectar, Investigar e Responder,***** todos os serviços podem realizar _ qualquer *_*_* dos objetivos de proteção, detecção, investigação e resposta.
+Embora cada um desses serviços enfatiza uma meta entre Proteger, Detectar, Investigar e Responder,***** todos _ os serviços podem cumprir _ qualquer *_*_* dos objetivos de proteção, detecção, investigação e resposta.
 
 O núcleo da segurança do Office 365 é a proteção do EOP. O Microsoft Defender para Office 365 P1 contém o EOP. O Defender para Office 365 P2 contém P1 e EOP. A estrutura é cumulativa. É por isso que, ao configurar este produto, você deve começar com o EOP e trabalhar com o Defender para Office 365.
 
@@ -74,10 +74,10 @@ Se você tiver um Office 365 E3 ou abaixo, terá o EOP, mas com a opção de com
 
 ## <a name="the-office-365-security-ladder-from-eop-to-microsoft-defender-for-office-365"></a>A segurança do Office 365 foi de EOP para o Microsoft Defender para Office 365
 
-![EOP e Microsoft Defender para Office 365 e sua ênfase em segurança, indo de Proteger e Detectar para Investigar e Responder. A configuração de Autenticação de Email (pelo menos DKIM e DMARC) deve ser configurada para e para o EOP.](../../media/tp_EOPATPP1P2Take6.gif#lightbox)
+![EOP e Microsoft Defender para Office 365 e sua ênfase em segurança, indo de Proteger e Detectar para Investigar e Responder. A configuração de Autenticação de Email (pelo menos DKIM e DMARC) deve ser configurada para EOP e para cima.](../../media/tp_EOPATPP1P2Take6.gif#lightbox)
 
 > [!IMPORTANT]
-> Saiba os detalhes nestas páginas: [Proteção do Exchange Online](exchange-online-protection-overview.md)e Defender para Office [365.](office-365-atp.md)
+> Saiba os detalhes nestas páginas: Proteção do [Exchange Online](exchange-online-protection-overview.md)e Defender para [Office 365.](office-365-atp.md)
 
 O que torna a adição de planos do Microsoft Defender para Office 365 uma vantagem do gerenciamento puro de ameaças do EOP pode ser difícil de saber rapidamente. Para ajudar a classificar se um caminho de atualização é o certo para sua organização, vamos ver os recursos de cada produto quando se trata de:
 
@@ -102,7 +102,7 @@ Ganhos **com o Defender para Office 365, Plano 1** (até o momento):
 
 |Impedir/Detectar|Investigar|Responder|
 |---|---|---|
-|As tecnologias incluem tudo no EOP, além de:<u1><li>Anexos seguros</li><li>Links seguros<li>Proteção do Microsoft Defender para Office 365 para cargas de trabalho (ex. SharePoint Online, Teams, OneDrive for Business)</li><li>Proteção de hora de clique em email, clientes do Office e Teams</li><li>anti-phishing no Defender para Office 365</li><li>Proteção contra representação de usuário e domínio</li><li>Alertas e API de integração SIEM para alertas</li>|<li>API de integração SIEM para detecções</li><li>**Ferramenta de detecções em tempo real**</li><li>Rastreamento de URL</li>|<li>Idem</li></u1>
+|As tecnologias incluem tudo no EOP, além de:<u1><li>Anexos seguros</li><li>Links seguros<li>Proteção do Microsoft Defender para Office 365 para cargas de trabalho (por exemplo, SharePoint Online, Teams, OneDrive for Business)</li><li>Proteção de hora de clique em email, clientes do Office e Teams</li><li>anti-phishing no Defender para Office 365</li><li>Proteção contra representação de usuário e domínio</li><li>Alertas e API de integração SIEM para alertas</li>|<li>API de integração SIEM para detecções</li><li>**Ferramenta de detecções em tempo real**</li><li>Rastreamento de URL</li>|<li>Idem</li></u1>
 
 Portanto, o Microsoft Defender para Office 365 P1 se expande no lado ***prevention** _ da casa e adiciona formas extras de _*_detecção_**.
 
@@ -113,18 +113,18 @@ Ganhos **com o Defender para Office 365, Plano 2** (até o momento):
 
 |Impedir/Detectar|Investigar|Responder|
 |---|---|---|
-|As tecnologias incluem tudo no EOP e no Microsoft Defender para Office 365 P1, além de:<u1><li>Idem</li>|<li>**Explorador de Ameaças**</li><li>Rastreadores de Ameaças</li><li>Exibições de campanha</li>|<li>Investigação e resposta automatizadas (AIR)</li><li>AIR do Explorador de Ameaças</li><li>AIR para usuários comprometidos</li><li>API de integração SIEM para investigações automatizadas</li>
+|As tecnologias incluem tudo no EOP e no Microsoft Defender para Office 365 P1, além de:<u1><li>Idem</li>|<li>**Explorador de Ameaças**</li><li>Rastreadores de Ameaças</li><li>Exibições de campanha</li>|<li>Investigação e Resposta Automatizadas (AIR)</li><li>AIR do Explorador de Ameaças</li><li>AIR para usuários comprometidos</li><li>API de integração SIEM para investigações automatizadas</li>
 
-Portanto, o Microsoft Defender para Office 365 P2 se expande no lado da investigação e da resposta interna e adiciona um novo poder de busca.  Automação.
+Portanto, o Microsoft Defender para Office 365 P2 expande a investigação e o lado da resposta em casa e adiciona um novo poder de busca.  Automação.
 
-No Microsoft Defender para Office 365 P2, a ferramenta de busca principal é chamada de **Explorador** de Ameaças em vez de detecções em tempo real. Se você vir o Explorador de Ameaças ao navegar para a Central de Segurança, você está no Microsoft Defender para Office 365 P2.
+No Microsoft Defender para Office 365 P2, a ferramenta de busca principal é chamada de **Explorador** de Ameaças, em vez de detecções em tempo real. Se você vir o Explorador de Ameaças ao navegar para a Central de Segurança, você está no Microsoft Defender para Office 365 P2.
 
 Para entrar em detalhes do Microsoft Defender para Office 365 P1 e P2, **[vá para este artigo.](office-365-atp.md)**
 
 > [!TIP]
-> O EOP e o Microsoft Defender para Office 365 também são diferentes quando se trata de usuários finais. No EOP e no Defender para Office 365 P1, o foco é o reconhecimento e, portanto, esses dois serviços incluem o complemento Relatório de mensagens do *Outlook* para que os usuários possam relatar emails que eles acham suspeitos para análise posterior.  <p> No Defender para Office 365 P2 (que contém tudo no EOP e no P1), o foco muda para  o treinamento para usuários finais e, portanto, o Centro de Operações de Segurança tem acesso a uma poderosa ferramenta simulador de ameaças e as métricas do usuário final que ele fornece. 
+> O EOP e o Microsoft Defender para Office 365 também são diferentes quando se trata de usuários finais. No EOP e no Defender para Office 365 P1, o foco é o reconhecimento e, portanto, esses dois serviços incluem o complemento Relatar mensagem do *Outlook* para que os usuários possam relatar emails que eles acham suspeitos para análise posterior.  <p> No Defender para Office 365 P2 (que contém tudo no EOP e no P1), o foco muda para  o treinamento para usuários finais e, portanto, o Centro de Operações de Segurança tem acesso a uma poderosa ferramenta simulador de ameaças e as métricas do usuário final que ele fornece. 
 
-## <a name="microsoft-defender-for-office-365-plan-1-vs-plan-2-cheat-sheet"></a>Microsoft Defender for Office 365 Plano 1 versus Planilha de fraude do Plano 2
+## <a name="microsoft-defender-for-office-365-plan-1-vs-plan-2-cheat-sheet"></a>Microsoft Defender para Office 365 Plano 1 versus Plano 2 planilha de fraude
 
 Essa referência rápida ajudará você a entender quais recursos vêm com cada assinatura do Microsoft Defender para Office 365. Quando combinado com seu conhecimento dos recursos do EOP, ele pode ajudar os tomadores de decisão de negócios a determinar qual o Microsoft Defender para Office 365 é melhor para suas necessidades.
 
@@ -141,14 +141,14 @@ Essa referência rápida ajudará você a entender quais recursos vêm com cada 
 
 - O recurso [Documentos Seguros](safe-docs.md) está disponível apenas para usuários com as licenças Microsoft 365 E5 ou Microsoft 365 E5 Security (não incluídas nos planos Microsoft Defender para Office 365).
 
-- Se [sua](https://go.microsoft.com/fwlink/p/?LinkId=518644)assinatura atual não incluir o Microsoft Defender para Office 365 e você quiser, entre em contato com as vendas para iniciar uma avaliação e descubra como o Microsoft Defender para Office 365 pode funcionar em sua organização.
+- Se [sua](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)assinatura atual não incluir o Microsoft Defender para Office 365 e você quiser, entre em contato com as vendas para iniciar uma avaliação e descubra como o Microsoft Defender para Office 365 pode funcionar em sua organização.
 
 > [!TIP]
-> ***Dica do Insider** _. Você pode usar o docs.microsoft.com de conteúdo para saber mais sobre o EOP e o Microsoft Defender para Office 365. Navegue de volta para esta página, visão geral de segurança do [Office 365,](https://docs.microsoft.com/microsoft-365/security/office-365-security)e você notará que a organização do índice na barra lateral. Ele começa com a implantação (incluindo a migração) e, em seguida, continua na prevenção, detecção, investigação e resposta. <p> Essa estrutura é dividida para que os tópicos _ *Administração* de Segurança * sejam seguidos **pelos tópicos operações** de segurança. Se você for um novo membro de qualquer uma das funções de trabalho, use o link nesta dica e seu conhecimento do índice para ajudar a aprender o espaço. Lembre-se de *usar links de comentários* e *ratear* artigos conforme você vai. Os comentários nos ajudam a melhorar o que oferecemos a você.
+> ***Dica do Insider** _. Você pode usar o docs.microsoft.com de conteúdo para saber mais sobre o EOP e o Microsoft Defender para Office 365. Navegue de volta para esta página, visão geral de segurança do [Office 365,](index.md)e você notará que a organização do índice na barra lateral. Ele começa com a implantação (incluindo a migração) e, em seguida, continua na prevenção, detecção, investigação e resposta. <p> Essa estrutura é dividida para que os tópicos _ *Administração* de Segurança * sejam seguidos **por tópicos operações** de segurança. Se você for um novo membro de qualquer função de trabalho, use o link nesta dica e seu conhecimento do índice para ajudar a aprender o espaço. Lembre-se de *usar links de comentários* e *ratear* artigos conforme você vai. Os comentários nos ajudam a melhorar o que oferecemos a você.
 
 ## <a name="where-to-go-next"></a>Para onde ir em seguida
 
-Se você for um Administrador de Segurança, talvez seja necessário configurar o DKIM ou o DMARC para seu email. Talvez você queira lançar predefinições de segurança "Estritas" para seus usuários prioritários ou procurar as novidades no produto. Ou, se você estiver com operações de segurança, talvez queira aproveitar as detecções em tempo real ou o Explorador de Ameaças para investigar e responder, ou treinar a detecção do usuário final com o Simulador de Ataque. De qualquer forma, aqui estão algumas recomendações adicionais sobre o que procurar em seguida.
+Se você for um Administrador de Segurança, talvez seja necessário configurar o DKIM ou o DMARC para seu email. Você pode querer lançar predefinições de segurança "Estritas" para seus usuários prioritários ou procurar as novidades no produto. Ou, se você estiver com operações de segurança, talvez queira aproveitar as detecções em tempo real ou o Explorador de Ameaças para investigar e responder, ou treinar a detecção do usuário final com o Simulador de Ataque. De qualquer forma, aqui estão algumas recomendações adicionais sobre o que procurar em seguida.
 
 [Autenticação de email, incluindo SPF, DKIM e DMARC (com links para a configuração de todos os três)](email-validation-and-authentication.md)
 

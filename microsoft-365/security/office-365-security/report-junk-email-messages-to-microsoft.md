@@ -17,21 +17,21 @@ ms.collection:
 description: Os administradores podem aprender sobre as diferentes maneiras de relatar mensagens e arquivos bons e ruins à Microsoft para análise.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b75b05f33ab6c6a5827101ad2f5b14c94b932135
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 21c733945256386ff9543b372badaa6f2302171b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166682"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288086"
 ---
 # <a name="report-messages-and-files-to-microsoft"></a>Relatar mensagens e arquivos à Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, os usuários e administradores têm vários métodos diferentes para relatar mensagens de email e arquivos à Microsoft.
 
@@ -46,7 +46,7 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou 
 |[Relatar lixo eletrônico e phishing no Outlook na Web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Use os recursos integrados no Outlook na Web para organizações com caixas de correio do Exchange Online (não disponíveis no EOP autônomo). <p> As mensagens que os usuários relatam estão disponíveis [no portal envios de administrador.](admin-submission.md) <p> Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [Políticas de envios de usuário.](user-submission.md)|
 |[Relatar lixo eletrônico e phishing no Outlook para iOS e Android](report-junk-email-and-phishing-scams-in-outlook-for-iOS-and-Android.md)|Use os recursos integrados no Outlook para iOS e Android para organizações com caixas de correio do Exchange Online (não disponíveis no EOP autônomo). <p> As mensagens que os usuários relatam estão disponíveis [no portal envios de administrador.](admin-submission.md) <p> Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [Políticas de envios de usuário.](user-submission.md)|
 |[Enviar mensagens manualmente à Microsoft para análise](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Enviar mensagens anexadas manualmente a endereços de email específicos da Microsoft para spam, não spam e phishing.|
-|[Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que notifica quando os usuários relatam mensagens à Microsoft para análise.|
+|[Usar regras de fluxo de emails para ver o que seus usuários estão relatando à Microsoft](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)|Saiba como criar uma regra de fluxo de emails (também conhecida como regra de transporte) que notifica você quando os usuários relatam mensagens à Microsoft para análise.|
 |[Enviar malware e não malware à Microsoft para análise](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Use o site de Inteligência de Segurança da Microsoft para enviar anexos e outros arquivos.|
 
 Se as mensagens de spam ou phishing foram colocadas em quarentena em vez de entregues, os usuários podem relatar as mensagens à Microsoft do portal quarentena no Centro de Conformidade e & Segurança. Para obter detalhes, [consulte Encontrar e liberar mensagens em quarentena como um usuário no Microsoft 365.](find-and-release-quarantined-messages-as-a-user.md)

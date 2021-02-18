@@ -19,20 +19,20 @@ ms.custom:
 description: Os administradores podem aprender a usar o portal de Envios no Centro de Conformidade e Segurança & para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e arquivos à Microsoft para verificação.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7a822909c318cb336c179b299aa64cd71dcca4d8
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 7b4e6dfcb5900ed41ad3ab0b44fada93599f0b4b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175866"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288784"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, os administradores podem usar o portal de Envios no Centro de Conformidade & e Segurança para enviar mensagens de email, URLs e anexos à Microsoft para verificação.
@@ -40,9 +40,9 @@ Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, os
 Ao enviar uma mensagem de email, você receberá:
 
 1. **Verificação de autenticação de** email: Detalhes sobre se a autenticação de email passou ou falhou quando foi entregue.
-2. **Visitas à** política: informações sobre quaisquer políticas que possam ter permitido ou bloqueado o email de entrada em seu locatário, substituindo nossos vereditos de filtro de serviço.
+2. **Visitas às** políticas: informações sobre quaisquer políticas que possam ter permitido ou bloqueado o email de entrada em seu locatário, substituindo nossos vereditos de filtro de serviço.
 3. **Reputação/detonação da** carga: exame de quaisquer URLs e anexos na mensagem.
-4. **Análise de nota:** revisão feita por alunos da área humana para confirmar se as mensagens são mal-intencionadas ou não.
+4. **Análise de nota:** revisão feita por notas humanas para confirmar se as mensagens são mal-intencionadas ou não.
 
 > [!IMPORTANT]
 > A reputação/a detonação da carga e a análise de classificação não são feitas em todos os locatários. As informações são impedidas de sair da organização quando os dados não deveriam sair do limite do locatário para fins de conformidade.
@@ -51,7 +51,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **de** Envio, use <https://protection.office.com/reportsubmission> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **de** Envio, use <https://protection.office.com/reportsubmission> .
 
 - Para enviar mensagens e arquivos à Microsoft, você precisa ser membro de um dos seguintes grupos de função:
 
@@ -75,12 +75,12 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
    - **ID** da mensagem de rede: este é um valor guid que está disponível no header **X-MS-Exchange-Organization-Network-Message-Id** na mensagem ou no header **X-MS-Office365-Filtering-Correlation-Id** em mensagens em quarentena.
 
-   - **Arquivo:** clique **em Escolher arquivo.** Na caixa de diálogo que é aberta, encontre e selecione o arquivo .eml ou .msg e clique em **Abrir**.
+   - **Arquivo:** clique **em Escolher arquivo.** Na caixa de diálogo que abre, encontre e selecione o arquivo .eml ou .msg e clique em **Abrir.**
 
    > [!NOTE]
    > Os administradores com o Defender para Office 365 Plano 1 ou Plano 2 podem enviar mensagens com até 30 dias. Outros administradores só poderão voltar 7 dias.
 
-2. Na seção **Destinatários,** especifique um ou mais destinatários para os quais você gostaria de executar uma verificação de política. A verificação de política determinará se o email burlou a verificação devido às políticas do usuário ou da organização.
+2. Na seção **Destinatários,** especifique um ou mais destinatários para os quais você gostaria de executar uma verificação de política. A verificação de política determinará se o email burlou a verificação devido a políticas de usuário ou organização.
 
 3. Na seção **Motivo do envio,** selecione uma das seguintes opções:
 
@@ -236,7 +236,7 @@ Para exportar os resultados, clique **em Exportar** próximo à parte superior d
 
 ## <a name="view-user-submissions-to-the-custom-mailbox"></a>Exibir envios de usuário para a caixa de correio personalizada
 
-**Se** você configurou [uma caixa de](user-submission.md) correio personalizada para receber mensagens relatadas pelo usuário, você pode exibir e também enviar mensagens que foram entregues à caixa de correio de relatório.
+**Se** você configurou [uma caixa](user-submission.md) de correio personalizada para receber mensagens relatadas pelo usuário, você pode exibir e também enviar mensagens que foram entregues à caixa de correio de relatório.
 
 1. No Centro de Conformidade & segurança, vá para Envios **de gerenciamento** \> **de ameaças.**
 
@@ -259,7 +259,7 @@ Para exportar os resultados, clique **em Exportar** próximo à parte superior d
 
 Depois que um usuário envia um email suspeito para a caixa de correio personalizada, o usuário e o administrador não têm a opção de desfazer o envio. Se o usuário quiser recuperar o email, ele estará disponível para recuperação nas pastas Itens Excluídos ou Lixo Eletrônico.
 
-### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>Enviar mensagens para a Microsoft da caixa de correio personalizada
+### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>Enviar mensagens para a Microsoft a partir da caixa de correio personalizada
 
 Se você configurou a caixa de correio personalizada para interceptar mensagens relatadas pelo usuário sem enviar as mensagens para a Microsoft, você pode encontrar e enviar mensagens específicas para a Microsoft para análise. Isso efetivamente move um envio de usuário para um envio de administrador.
 

@@ -15,28 +15,28 @@ ms.custom:
 description: .
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e578cadf6687e02c900299a75bdd00a9d6e5b2ee
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 77f666e5eeceee3f5b324e5b9b6fac721c10e410
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166142"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286856"
 ---
 # <a name="control-automatic-external-email-forwarding-in-microsoft-365"></a>Controlar o encaminhamento automático de email externo no Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Como administrador, você pode ter requisitos da empresa para restringir ou controlar mensagens encaminhadas automaticamente para destinatários externos (destinatários fora da sua organização). O encaminhamento de email pode ser útil, mas também pode representar um risco à segurança devido à divulgação potencial de informações. Os invasores podem usar essas informações para atacar sua organização ou parceiros.
 
 
 Os seguintes tipos de encaminhamento automático estão disponíveis no Microsoft 365:
 
-- Os usuários podem configurar [regras de Caixa de](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) Entrada para encaminhar mensagens automaticamente para os envios externos (deliberadamente ou como resultado de uma conta comprometida).
+- Os usuários podem configurar [regras de Caixa](https://support.microsoft.com/office/c24f5dea-9465-4df4-ad17-a50704d66c59) de Entrada para encaminhar mensagens automaticamente para os envios externos (deliberadamente ou como resultado de uma conta comprometida).
 
 - Os administradores podem configurar [o encaminhamento de](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding) caixa de correio (também conhecido como encaminhamento _SMTP)_ para encaminhar mensagens automaticamente para destinatários externos. O administrador pode optar por simplesmente encaminhar mensagens ou manter cópias das mensagens encaminhadas na caixa de correio.
 
@@ -72,8 +72,8 @@ As configurações de domínio remoto e as regras de fluxo de emails são indepe
 
 Essa independência de recursos permite que você (por exemplo) permita o encaminhamento automático em políticas de filtro de spam de saída, mas use domínios remotos para controlar os domínios externos para os que os usuários podem encaminhar mensagens.
 
-## <a name="the-blocked-email-forwarding-message"></a>A mensagem de encaminhamento de email bloqueada
+## <a name="blocked-email-forwarding-messages"></a>Mensagens de encaminhamento de email bloqueadas
 
-Quando uma mensagem é detectada como encaminhada  automaticamente e a política organizacional bloqueia essa atividade, a mensagem é retornada ao remetente em uma NDR que contém as seguintes informações:
+Quando uma mensagem é detectada como encaminhada automaticamente  e a política de filtro de [spam](configure-the-outbound-spam-policy.md) de saída bloqueia essa atividade, a mensagem é retornada ao remetente em uma NDR que contém as seguintes informações:
 
 `5.7.520 Access denied, Your organization does not allow external forwarding. Please contact your administrator for further assistance. AS(7555)`

@@ -15,24 +15,24 @@ ms.date: 02/25/2020
 description: Saiba como acelerar o processo de detecção e endereçamento de contas de usuário comprometidas com recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2159ab7ad7e13c4cd4c2c428317ee7d99f78158c
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 1dda8c9b4aec30fd35efa153aaf032eee23b5e8a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50176058"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288730"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Resolver contas de usuário comprometidas com investigação e resposta automatizadas
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 
-[O Microsoft Defender para Office 365 Plano 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) inclui poderosos recursos automatizados de investigação [e](office-365-air.md) resposta (AIR). Esses recursos podem economizar muito tempo e esforço para a equipe de operações de segurança lidando com ameaças. A Microsoft continua a melhorar os recursos de segurança. Recentemente, os recursos air foram aprimorados para incluir um playbook de segurança do usuário comprometido (atualmente em visualização). Leia este artigo para saber mais sobre o manual de segurança do usuário comprometido. E veja a postagem no blog Acelerar o tempo para detectar e responder ao comprometimento do usuário e limitar o escopo de violação com o [Microsoft Defender para Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) para obter detalhes adicionais.
+[O Microsoft Defender para Office 365 Plano 2](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2) inclui poderosos recursos de investigação [e resposta](office-365-air.md) automatizadas (AIR). Esses recursos podem economizar muito tempo e esforço para a equipe de operações de segurança lidando com ameaças. A Microsoft continua a melhorar os recursos de segurança. Recentemente, os recursos air foram aprimorados para incluir um playbook de segurança do usuário comprometido (atualmente em visualização). Leia este artigo para saber mais sobre o manual de segurança do usuário comprometido. E veja a postagem no blog Acelerar o tempo para detectar e responder ao comprometimento do usuário e limitar o escopo de violação com o [Microsoft Defender para Office 365](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) para obter detalhes adicionais.
 
 ![Investigação automatizada para um usuário comprometido](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -46,7 +46,7 @@ O manual de segurança do usuário comprometido permite que a equipe de seguran�
 
 ## <a name="compromised-user-alerts"></a>Alertas de usuário comprometidos
 
-Quando uma conta de usuário é comprometida, ocorrem comportamentos atípicos ou anômalos. Por exemplo, mensagens de phishing e spam podem ser enviadas internamente de uma conta de usuário confiável. O Defender para Office 365 pode detectar essas anomalias em padrões de email e atividade de colaboração no Office 365. Quando isso acontece, os alertas são disparados e o processo de mitigação de ameaças começa.
+Quando uma conta de usuário é comprometida, ocorrem comportamentos atípicos ou anômalos. Por exemplo, mensagens de phishing e spam podem ser enviadas internamente de uma conta de usuário confiável. O Defender para Office 365 pode detectar anomalias em padrões de email e atividades de colaboração no Office 365. Quando isso acontece, os alertas são disparados e o processo de mitigação de ameaças começa.
 
 Por exemplo, aqui está um alerta que foi disparado por causa de emails suspeitos:
 
@@ -65,11 +65,11 @@ Quando uma conta de usuário é comprometida, os alertas são disparados. E, em 
 - [Exibir detalhes sobre investigações automatizadas](#view-details-about-automated-investigations)
 
 > [!IMPORTANT]
-> Você deve ter as permissões apropriadas para executar as tarefas a seguir. Consulte [Permissões necessárias para usar os recursos air](office-365-air.md#required-permissions-to-use-air-capabilities).
+> Você deve ter permissões apropriadas para executar as tarefas a seguir. Consulte [Permissões necessárias para usar os recursos air](office-365-air.md#required-permissions-to-use-air-capabilities).
 
 ### <a name="view-and-investigate-restricted-users"></a>Exibir e investigar usuários restritos
 
-Você tem algumas opções para navegar até uma lista de usuários restritos. Por exemplo, no Centro de Conformidade e Segurança &, você pode ir para **a** Revisão de Gerenciamento \> **de** Ameaças \> **Usuários Restritos.** O procedimento a seguir descreve a navegação usando o painel **Alertas,** que é uma boa maneira de ver vários tipos de alertas que podem ter sido disparados.
+Você tem algumas opções para navegar até uma lista de usuários restritos. Por exemplo, no Centro de Conformidade e Segurança &, você pode ir para **a** Revisão de Gerenciamento de \>  \> **Ameaças Usuários Restritos.** O procedimento a seguir descreve a navegação usando o painel **Alertas,** que é uma boa maneira de ver vários tipos de alertas que podem ter sido disparados.
 
 1. Acesse <https://protection.office.com> e entre.
 
@@ -97,7 +97,7 @@ Para saber mais, consulte [Exibir detalhes de uma investigação.](air-view-inve
 
 - **A automação auxilia, mas não substitui sua equipe de operações de segurança.** Os recursos automatizados de investigação e resposta podem detectar um usuário comprometido logo no início, mas sua equipe de operações de segurança provavelmente precisará se envolver e fazer alguma investigação e correção. Precisa de ajuda com isso? Consulte [Revisar e aprovar ações.](air-review-approve-pending-completed-actions.md)
 
-- **Não confie em um alerta de logon suspeito como seu único indicador.** Quando uma conta de usuário é comprometida, ela pode ou não disparar um alerta de logon suspeito. Às vezes, é a série de atividades que ocorrem depois que uma conta é comprometida que dispara um alerta. Quer saber mais sobre alertas? Consulte [Políticas de alerta.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+- **Não confie em um alerta de logon suspeito como seu único indicador.** Quando uma conta de usuário é comprometida, ela pode ou não disparar um alerta de logon suspeito. Às vezes, é a série de atividades que ocorrem depois que uma conta é comprometida que dispara um alerta. Quer saber mais sobre alertas? Consulte [Políticas de alerta.](../../compliance/alert-policies.md)
 
 ## <a name="next-steps"></a>Próximas etapas
 

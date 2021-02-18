@@ -21,20 +21,20 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a66a89a13182570259bcb8be4134c21d13e22391
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 13782a8e0a8c691a66f214d3f9f03ef9cad4da1f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175806"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287132"
 ---
 # <a name="custom-or-third-party-reporting-solutions-for-microsoft-defender-for-office-365"></a>Soluções de relatórios personalizadas ou de terceiros para o Microsoft Defender para Office 365
 
 Com [o Microsoft Defender para Office 365,](office-365-atp.md)você recebe informações [detalhadas sobre investigações automatizadas.](air-view-investigation-results.md) No entanto, algumas organizações também usam uma solução de relatórios personalizada ou de terceiros. Se sua organização deseja integrar informações sobre [investigações automatizadas](office-365-air.md) com essa solução, você pode usar a API da Atividade de Gerenciamento do Office 365.
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Com [o Microsoft Defender para Office 365,](office-365-atp.md)você recebe informações [detalhadas sobre investigações automatizadas.](air-view-investigation-results.md) No entanto, algumas organizações também usam uma solução de relatórios personalizada ou de terceiros. Se sua organização deseja integrar informações sobre investigações automatizadas com essa solução, você pode usar a API da Atividade de Gerenciamento do Office 365.
 
@@ -48,5 +48,5 @@ Com [o Microsoft Defender para Office 365,](office-365-atp.md)você recebe infor
 
 ## <a name="see-also"></a>Confira também
 
-- [Microsoft Defender para Office 365](office-365-atp.md)
-- [Investigação e resposta automatizadas no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Obter o Microsoft Defender para Office 365](office-365-atp.md)
+- [Investigação e resposta automatizadas no Microsoft 365 Defender](../mtp/mtp-autoir.md)

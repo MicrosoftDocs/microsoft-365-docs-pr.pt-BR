@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: ''
 ms.collection:
@@ -15,17 +14,23 @@ ms.collection:
 - m365initiative-defender-office365
 - MET150
 description: Os administradores podem aprender a identificar os motivos por que e como uma mensagem de phishing foi obtida no Microsoft 365 e o que fazer para evitar mais mensagens de phishing no futuro.
-ms.openlocfilehash: 758945c64966763991bfdfba0d70a60ca1c2ddca
-ms.sourcegitcommit: cc354fd54400be0ff0401f60bbe68ed975b69cda
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: d3abbafce36c589f60eb164fb29c714c980f8b98
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865039"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286484"
 ---
 # <a name="tune-anti-phishing-protection"></a>Ajustar a proteção anti-phishing
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Embora o Microsoft 365 venha com uma variedade de recursos anti-phishing habilitados por padrão, é possível que algumas mensagens de phishing ainda poderiam chegar às suas caixas de correio. Este tópico descreve o que você pode fazer para descobrir o motivo pelo qual uma mensagem de phishing passou e o que você pode fazer para ajustar as configurações anti-phishing em sua organização do Microsoft 365 sem acidentalmente tornar as coisas ainda mais _ruins._
 
@@ -51,7 +56,7 @@ Relatar mensagens de phishing é útil para ajustar os filtros usados para prote
 
 Você pode examinar os headers da mensagem de phishing para ver se há algo que você mesmo possa fazer para impedir que mais mensagens de phishing possam ser recebidas. Em outras palavras, examinar os headers de mensagens pode ajudá-lo a identificar as configurações em sua organização que foram responsáveis por permitir a entrada das mensagens de phishing.
 
-Especificamente, você deve verificar o campo de header **X-Forefront-Antispam-Report** nos headers da mensagem em busca de indicações de filtragem ignorada para spam ou phishing no valor SFV (Veredito de Filtragem de Spam). As mensagens que ignorarem a filtragem terão uma entrada, o que significa que uma de suas configurações permitiu essa mensagem substituindo os vereditos de spam ou phishing que foram `SCL:-1` determinados pelo serviço. Para obter mais informações sobre como obter os headers de mensagens e a lista completa de todos os headers de mensagens anti-spam e anti-phishing disponíveis, consulte os headers de mensagens [anti-spam no Microsoft 365.](anti-spam-message-headers.md)
+Especificamente, você deve verificar o campo de header **X-Forefront-Antispam-Report** nos headers de mensagem para indicações de filtragem ignorada para spam ou phishing no valor do Veredito de Filtragem de Spam (SFV). As mensagens que ignorarem a filtragem terão uma entrada, o que significa que uma de suas configurações permitiu essa mensagem substituindo os vereditos de spam ou phishing que foram `SCL:-1` determinados pelo serviço. Para obter mais informações sobre como obter os headers de mensagens e a lista completa de todos os headers de mensagens anti-spam e anti-phishing disponíveis, consulte Os headers de mensagens [anti-spam no Microsoft 365.](anti-spam-message-headers.md)
 
 ## <a name="best-practices-to-stay-protected"></a>Práticas recomendadas para permanecer protegido
 
@@ -59,9 +64,9 @@ Especificamente, você deve verificar o campo de header **X-Forefront-Antispam-R
 
 - Para mensagens que terminam em quarentena por engano ou para mensagens [permitidas,](threat-explorer.md)recomendamos pesquisar essas mensagens no Explorador de Ameaças e detecções em tempo real. Você pode pesquisar por remetente, destinatário ou ID da mensagem. Depois de localizar a mensagem, vá para detalhes clicando no assunto. Para uma mensagem em quarentena, procure ver qual era a "tecnologia de detecção" para que você possa usar o método apropriado para substituir. Para uma mensagem permitida, veja qual política permitiu a mensagem.
 
-- Emails spoofed são marcados como phishing no Defender para Office 365. Às vezes, a spoof é benigna e, às vezes, os usuários não a querem em quarentena. Para minimizar o impacto para os usuários, revise periodicamente o [relatório de inteligência contra spoof.](learn-about-spoof-intelligence.md) Depois de analisar e fazer as substituições necessárias, você pode ter  certeza de configurar a inteligência contra [spoof](set-up-anti-phishing-policies.md#spoof-settings) para colocar mensagens suspeitas em quarentena em vez de entregá-las à pasta Lixo Eletrônico do usuário.
+- Os emails spoofed são marcados como phishing no Defender para Office 365. Às vezes, a spoof é benigna e, às vezes, os usuários não a querem em quarentena. Para minimizar o impacto para os usuários, revise periodicamente o [relatório de inteligência contra spoof.](learn-about-spoof-intelligence.md) Depois de revisar e fazer as substituições necessárias, você pode ter  certeza de configurar a inteligência contra [spoof](set-up-anti-phishing-policies.md#spoof-settings) para colocar mensagens suspeitas em quarentena em vez de entregá-las à pasta Lixo Eletrônico do usuário.
 
-- Você pode repetir a etapa acima para Representação (domínio ou usuário). O relatório de representação é encontrado em **Informações do Painel de Gerenciamento** \> **de** \> **Ameaças.**
+- Você pode repetir a etapa acima para Representação (domínio ou usuário). O relatório de Representação é encontrado em **Insights do Painel de Gerenciamento** \> **de** \> **Ameaças.**
 
 - Revise periodicamente o relatório [de Status da Proteção contra Ameaças.](view-reports-for-atp.md#threat-protection-status-report)
 
@@ -87,4 +92,4 @@ Especificamente, você deve verificar o campo de header **X-Forefront-Antispam-R
 
 - A MFA (autenticação multifatória) é uma boa maneira de evitar contas comprometidas. Você deve considerar fortemente a habilitação da MFA para todos os seus usuários. Para uma abordagem em fases, comece habilitando a MFA para seus usuários mais confidenciais (administradores, executivos etc.) antes de habilitar a MFA para todos. Para obter instruções, [consulte Configurar a autenticação multifa factor.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)
 
-- O encaminhamento de regras para destinatários externos geralmente é usado por invasores para extrair dados. Use a **revisão de informações de regras de** encaminhamento de caixa de correio no Microsoft Secure [Score](../mtp/microsoft-secure-score.md) para encontrar e até mesmo impedir o encaminhamento de regras para destinatários externos. Para obter mais informações, consulte [Mitigando regras de encaminhamento externo do cliente com a Classificação de Segurança.](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score)
+- As regras de encaminhamento para destinatários externos geralmente são usadas por invasores para extrair dados. Use a **revisão de informações de regras de** encaminhamento de caixa de correio no Microsoft Secure [Score](../mtp/microsoft-secure-score.md) para encontrar e até mesmo impedir o encaminhamento de regras para destinatários externos. Para obter mais informações, consulte [Mitigando regras de encaminhamento externo do cliente com a Classificação de Segurança.](https://docs.microsoft.com/archive/blogs/office365security/mitigating-client-external-forwarding-rules-with-secure-score)

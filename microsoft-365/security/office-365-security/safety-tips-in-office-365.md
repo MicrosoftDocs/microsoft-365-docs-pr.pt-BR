@@ -19,25 +19,25 @@ description: Saiba mais sobre como o EOP e o Office 365 protegem você contra sp
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c37eba07b306ff47e14640e494e468b63b358726
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2eae3f17d4ba9b72383bf1b8864a136cd9e7b2b8
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166610"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288556"
 ---
 # <a name="safety-tips-in-email-messages"></a>Dicas de segurança para mensagens de email
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 O Exchange Online Protection (EOP) e o Microsoft 365 protegem você com spam, phishing e prevenção contra malware. Hoje, alguns desses ataques são tão bem elaborados que parecem legítimos. Enviar mensagens para a pasta Lixo Eletrônico nem sempre é suficiente. Agora, quando você verifica seu email no Outlook ou no Outlook na Web ou em qualquer cliente de email, o EOP verifica automaticamente o remetente e adiciona uma dica de segurança na parte superior do email.
 
-As dicas de segurança no Outlook não dependem da versão do Outlook que você está usando porque a dica de segurança está quebrada e inserida diretamente no corpo da mensagem. Isso significa que a dica de segurança será aparecer em qualquer cliente de email que você estiver usando. Isso é feito no nível do filtro de email e não é renderizado no nível do cliente de email, portanto, ele não só aparece em qualquer versão do Outlook, como também aparece em qualquer cliente de email.
+As dicas de segurança no Outlook não dependem da versão do Outlook que você está usando porque a dica de segurança está aberta e inserida diretamente no corpo da mensagem. Isso significa que a dica de segurança será aparecer em qualquer cliente de email que você estiver usando. Isso é feito no nível do filtro de email e não é renderizado no nível do cliente de email, portanto, ele não só aparece em qualquer versão do Outlook, como também aparece em qualquer cliente de email.
 
 A dica de segurança ( uma mensagem codificada por cores ) avisará você sobre mensagens potencialmente prejudiciais. A maioria das mensagens em sua caixa de entrada não terá uma dica de segurança. Você só os verá quando o EOP e o Microsoft 365 têm informações necessárias para ajudar a evitar ataques de spam, phishing e malware. Se as dicas de segurança aparecerem na sua caixa de entrada, você poderá usar os exemplos a seguir para saber mais sobre cada tipo de dica de segurança.
 
@@ -51,7 +51,7 @@ A dica de segurança ( uma mensagem codificada por cores ) avisará você sobre 
 
     ![Captura de tela que mostra uma dica de segurança verde.](../../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
 
-    Além das mensagens não seguras, também contaremos a você sobre mensagens válidas dos envios que confiamos com uma dica de segurança verde. Uma dica de segurança verde em um email significa que verificamos o remetente da mensagem e verificamos se ela é segura. A Microsoft mantém essa lista de envios confiáveis, que inclui organizações financeiras e outras que são frequentemente falsas ou personificadas.
+    Além das mensagens não seguras, também vamos falar sobre mensagens válidas dos envios que confiamos com uma dica de segurança verde. Uma dica de segurança verde em um email significa que verificamos o remetente da mensagem e verificamos se ela é segura. A Microsoft mantém essa lista de envios confiáveis, que inclui organizações financeiras e outras que são frequentemente falsas ou personificadas.
 
 ## <a name="working-with-safety-tips"></a>Trabalhar com dicas de segurança
 

@@ -19,21 +19,21 @@ ms.custom:
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção anti-spam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8620ad3f99c45dae3442ec89d879124053c1a005
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 8abccdac73877c3f24114afaa78c13143e156868
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175974"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288964"
 ---
 # <a name="anti-spam-protection-faq"></a>Perguntas frequentes sobre a proteção antispam
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Este tópico fornece perguntas frequentes e respostas sobre a proteção anti-malware para organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online.
 
@@ -45,7 +45,7 @@ Para perguntas e respostas sobre a proteção anti-spoofing, consulte Perguntas 
 
 ## <a name="by-default-what-happens-to-a-spam-detected-message"></a>Por padrão, o que acontece com uma mensagem detectada por spam?
 
-**Para mensagens de entrada:** A maioria dos spams é excluída por meio da filtragem de conexão, que se baseia no endereço IP do servidor de email de origem. As políticas anti-spam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) inspecionam e classificam mensagens como spam, em massa ou phishing. Por padrão, as mensagens classificadas como spam ou em massa são entregues na pasta Lixo Eletrônico do destinatário, enquanto as mensagens classificadas como phishing são colocadas em quarentena. Você pode modificar a política anti-spam padrão (aplicada a todos os destinatários) ou pode criar políticas anti-spam personalizadas com configurações mais estritas para grupos específicos de usuários (por exemplo, você pode colocar em quarentena o spam enviado aos executivos). Para obter mais informações, [consulte Configurar políticas anti-spam](configure-your-spam-filter-policies.md) e configurações de política [anti-spam recomendadas.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
+**Para mensagens de entrada:** A maioria dos spams é excluída por meio da filtragem de conexão, que se baseia no endereço IP do servidor de email de origem. As políticas anti-spam (também conhecidas como políticas de filtro de spam ou políticas de filtro de conteúdo) inspecionam e classificam mensagens como spam, em massa ou phishing. Por padrão, as mensagens classificadas como spam ou em massa são entregues na pasta Lixo Eletrônico do destinatário, enquanto as mensagens classificadas como phishing são colocadas em quarentena. Você pode modificar a política anti-spam padrão (aplicada a todos os destinatários) ou pode criar políticas anti-spam personalizadas com configurações mais estritas para grupos específicos de usuários (por exemplo, você pode colocar em quarentena o spam enviado aos executivos). Para obter mais informações, [consulte Configurar políticas anti-spam](configure-your-spam-filter-policies.md) e [configurações de política anti-spam recomendadas.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
 
 > [!IMPORTANT]
 > Em implantações híbridas em que o EOP protege caixas de correio locais, você precisa configurar duas regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) em sua organização local do Exchange para detectar os headers de filtragem de spam do EOP que são adicionados às mensagens. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
@@ -98,7 +98,7 @@ Clientes autônomos do EOP: [Relatórios e rastreamento de mensagens no Exchange
 
 ## <a name="someone-sent-me-a-message-and-i-cant-find-it-i-suspect-that-it-may-have-been-detected-as-spam-is-there-a-tool-that-i-can-use-to-find-out"></a>Alguém me enviou uma mensagem e não consigo encontrá-la. Suspeito que ele possa ter sido detectado como spam. Há uma ferramenta que eu possa usar para descobrir?
 
-Sim, a ferramenta de rastreamento de mensagens permite que você siga as mensagens de email à medida que elas passam pelo serviço, a fim de descobrir o que aconteceu com elas. Para obter mais informações sobre como usar a ferramenta de rastreamento de mensagens para descobrir por que uma mensagem foi marcada como spam, consulte Uma mensagem foi [marcada como spam?](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/message-trace-faq#was-a-message-marked-as-spam)
+Sim, a ferramenta de rastreamento de mensagens permite que você siga as mensagens de email à medida que elas passam pelo serviço, a fim de descobrir o que aconteceu com elas. Para obter mais informações sobre como usar a ferramenta de rastreamento de mensagens para descobrir por que uma mensagem foi marcada como spam, consulte Uma [mensagem foi marcada como spam?](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/message-trace-faq#was-a-message-marked-as-spam)
 
 ## <a name="will-the-service-throttle-rate-limit-my-mail-if-my-users-send-outbound-spam"></a>O serviço limitará (limite de taxa) meu email se meus usuários enviarem spam de saída?
 
@@ -146,7 +146,7 @@ As diretrizes apresentadas abaixo são as práticas recomendas para o envio de m
 
   [Configurar o SPF para ajudar a prevenir falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  [Perguntas frequentes sobre domínios](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
+  [Perguntas frequentes sobre domínios](../../admin/setup/domains-faq.yml#how-can-i-validate-spf-records-for-my-domain)
 
 - **Assinatura de email com DKIM, assinar com canonização relaxada.**
 

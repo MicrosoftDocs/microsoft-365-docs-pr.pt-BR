@@ -21,20 +21,20 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 95c16ed9ad3db7c70202f3a054e3fa77ef24e00a
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: bef2fbd1e9e3d3525f9c274b5f9127acfb218396
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233571"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287120"
 ---
 # <a name="remediation-actions-in-microsoft-defender-for-office-365"></a>Ações de correção no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 ## <a name="remediation-actions"></a>Ações de correção
 
@@ -64,7 +64,7 @@ O Microsoft Defender para Office 365 inclui ações de correção para lidar com
 |Usuário|Um usuário está enviando malware/phishing|A investigação automatizada não resulta em uma ação pendente específica. <p> O usuário pode estar relatando malware/phishing ou alguém pode [estar spoofando o usuário](anti-spoofing-protection.md) como parte de um ataque. Use [o Explorador de Ameaças](threat-explorer.md) para exibir e manipular emails contendo [malware](threat-explorer-views.md#email--malware) ou [phishing.](threat-explorer-views.md#email--phish)|
 |Usuário|Encaminhamento de e-mail <br> (As regras de encaminhamento de caixa de correio estão configuradas, que podem ser usadas para exfiltração de dados.)|Remover regra de encaminhamento <p> Use [as informações de fluxo](mail-flow-insights-v2.md)de emails, incluindo o [relatório](mfi-auto-forwarded-messages-report.md)de mensagens com encaminhamento automático, para exibir detalhes mais específicos sobre emails encaminhados.|
 |Usuário|Regras de delegação de email <br> (A conta de um usuário tem a delegação configurada.)|Remover regra de delegação <p> Se sua organização estiver usando [o Microsoft Defender para o Ponto](https://docs.microsoft.com/windows/security/threat-protection/)de Extremidade, considere investigar o usuário que está recebendo a permissão de delegação. [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user)|
-|Usuário|Exfiltração dos dados <br> (Um usuário violou o email ou as políticas [DLP de](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)compartilhamento de arquivos.)|A investigação automatizada não resulta em uma ação pendente específica. <p> [Exibir relatórios DLP e tomar medidas.](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports)|
+|Usuário|Exfiltração dos dados <br> (Um usuário violou o email ou as políticas [DLP de](../../compliance/data-loss-prevention-policies.md)compartilhamento de arquivos.)|A investigação automatizada não resulta em uma ação pendente específica. <p> [Exibir relatórios DLP e tomar medidas.](../../compliance/view-the-dlp-reports.md)|
 |Usuário|Envio de emails anômalos <br> (Um usuário enviou recentemente mais emails do que durante os últimos 7 a 10 dias.)|A investigação automatizada não resulta em uma ação pendente específica. <p> Enviar um grande volume de email não é mal-intencionado por si só; o usuário pode ter enviado emails para um grande grupo de destinatários de um evento. Para investigar, use informações [de fluxo de emails,](mail-flow-insights-v2.md)incluindo o relatório de [mapa](mfi-mail-flow-map-report.md) de fluxo de emails para determinar o que está acontecendo e tomar medidas.|
 
 ## <a name="next-steps"></a>Próximas etapas
@@ -74,5 +74,5 @@ O Microsoft Defender para Office 365 inclui ações de correção para lidar com
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Saiba mais sobre investigação automatizada no Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
-- [Saiba mais sobre os recursos no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
+- [Saiba mais sobre a investigação automatizada no Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [Saiba mais sobre os recursos no Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)

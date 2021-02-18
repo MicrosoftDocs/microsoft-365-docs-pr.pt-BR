@@ -19,21 +19,21 @@ ms.custom:
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários no Exchange Online Protection (EOP). Os administradores em organizações com o Microsoft Defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a91f53f8efe4fa6944f0debff472da87b7f17e0c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 22bcf0cefb746e92ccadf8254f4076b47ee475c4
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167486"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287780"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena retém mensagens potencialmente perigosas ou indesejadas. Para obter mais informações, consulte [Mensagens de email em quarentena no EOP.](quarantine-email-messages.md)
 
@@ -41,7 +41,7 @@ Os administradores podem exibir, liberar e excluir todos os tipos de mensagens e
 
 Os administradores em organizações com o Microsoft Defender para Office 365 também podem exibir, baixar e excluir arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
 
-Você pode exibir e gerenciar mensagens em quarentena no Centro de Conformidade e Segurança ou no PowerShell (organizações do PowerShell do Exchange Online para Microsoft 365 com caixas de correio no Exchange Online; PowerShell do EOP autônomo para organizações sem caixas de correio do Exchange Online). &
+Você visualiza e gerencia mensagens em quarentena no Centro de Conformidade e Segurança ou no PowerShell (organizações do PowerShell do Exchange Online para Microsoft 365 com caixas de correio no Exchange Online; PowerShell do EOP autônomo para organizações sem caixas de correio do Exchange Online). &
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -57,7 +57,7 @@ Você pode exibir e gerenciar mensagens em quarentena no Centro de Conformidade 
 
   **Observações**:
 
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
   - <sup>\*</sup>Os membros do grupo **de** função Administrador  de Quarentena também precisam ser membros do grupo de funções Gerenciamento de Higienização no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) para realizar procedimentos de quarentena no PowerShell do Exchange Online.
 
@@ -118,7 +118,7 @@ Você pode exibir e gerenciar mensagens em quarentena no Centro de Conformidade 
      - **Política de filtro de conteúdo hospedado** (política antispam)
      - **Regra de transporte**
 
-   - **Destinatário de** email: todos os usuários ou apenas mensagens enviadas para você. Os usuários finais só podem gerenciar mensagens em quarentena enviadas a eles.
+   - **Destinatário de** email: Todos os usuários ou apenas mensagens enviadas para você. Os usuários finais só podem gerenciar mensagens em quarentena enviadas a eles.
 
    Para limpar o filtro, clique em **Limpar**. Para ocultar o submenu do filtro, clique novamente em **Filtro**.
 
@@ -172,19 +172,19 @@ Depois de selecionar uma mensagem, você tem várias opções sobre o que fazer 
 
 - **Mensagem de** liberação: no painel do menu desdolado exibido, escolha as seguintes opções:
 
-  - **Relatar mensagens à Microsoft para** análise: ela é selecionada por padrão e relata a mensagem erroneamente em quarentena à Microsoft como um falso positivo. Se a mensagem foi colocada em quarentena como spam, em massa, phishing ou malware, a mensagem também será relatada à Equipe de Análise de Spam da Microsoft. Dependendo da análise, as regras de filtro de spam de todo o serviço podem ser ajustadas para permitir a passagem da mensagem.
+  - **Relatar mensagens à Microsoft para** análise: ela é selecionada por padrão e relata a mensagem erroneamente em quarentena à Microsoft como um falso positivo. Se a mensagem foi colocada em quarentena como spam, em massa, phishing ou contendo malware, a mensagem também será relatada à Equipe de Análise de Spam da Microsoft. Dependendo da análise, as regras de filtro de spam de todo o serviço podem ser ajustadas para permitir a passagem da mensagem.
 
   - Escolha uma das seguintes opções:
     - **Liberar mensagens para todos os destinatários**
     - **Liberar mensagens para destinatários específicos**
-    - **Liberar mensagens para outras pessoas:** Observe que não há suporte para a liberação de mensagens de malware para pessoas que não são destinatários originais.
+    - **Liberar mensagens para outras pessoas:** Observe que não há suporte para liberar mensagens de malware para pessoas que não são destinatários originais.
 
   Quando terminar, clique em **Liberar mensagens**.
 
   Observações sobre a liberação de mensagens:
 
   - Você não pode liberar uma mensagem para o mesmo destinatário mais de uma vez.
-  - Somente os destinatários que não receberam a mensagem aparecerão na lista de possíveis destinatários.
+  - Somente os destinatários que não receberam a mensagem aparecerão na lista de destinatários potenciais.
 
 - **Exibir cabeçalho da mensagem**: escolha este link para visualizar o texto do cabeçalho da mensagem. Para analisar os valores e campos de cabeçalho em detalhes, copie o texto do cabeçalho da mensagem para a área de transferência e, em seguida, escolha **Analisador de Cabeçalhos de Mensagens da Microsoft** para acessar o Analisar de Conectividade Remota (clique com o botão direito e escolha **Abrir em uma nova guia** se não quiser deixar o Microsoft 365 para concluir essa tarefa). Cole o cabeçalho da mensagem na página na seção Analisador do cabeçalho da mensagem e escolha **Analisar cabeçalhos**:
 
@@ -235,7 +235,7 @@ Em organizações com o Defender para Office 365, os administradores podem geren
 
 1. No Centro de segurança e conformidade, vá para **Gerenciamento de ameaças** \> **Revisão** \> **Quarentena**.
 
-2. Alterar **o exibição em quarentena** para os arquivos de **valor.** Você pode classificar em um campo clicando em um header de coluna disponível.
+2. Change **View quarantined** to the value **files**. Você pode classificar em um campo clicando em um header de coluna disponível.
 
 3. Você pode classificar os resultados clicando em um cabeçalho de coluna disponível. Clique em **Modificar colunas** para exibir um máximo de sete colunas. As colunas padrão são marcadas com um asterisco ( <sup>\*</sup> ):
 
@@ -299,7 +299,7 @@ Quando você seleciona vários arquivos em quarentena na lista (até 100), o pai
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Usar o PowerShell do Exchange Online ou o EOP PowerShell autônomo para exibir e gerenciar arquivos e mensagens em quarentena
 
-Os cmdlets que você usa para exibir e gerencia mensagens e arquivos em quarentena são:
+Os cmdlets que você usa para exibir e gerenciar mensagens e arquivos em quarentena são:
 
 - [Delete-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/delete-quarantinemessage)
 
@@ -307,6 +307,6 @@ Os cmdlets que você usa para exibir e gerencia mensagens e arquivos em quarente
 
 - [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage:](https://docs.microsoft.com/powershell/module/exchange/preview-quarantinemessage)observe que esse cmdlet é destinado apenas a mensagens, não a arquivos de malware de Anexos Seguros para SharePoint, OneDrive e Microsoft Teams.
+- [Preview-QuarantineMessage:](https://docs.microsoft.com/powershell/module/exchange/preview-quarantinemessage)observe que esse cmdlet é destinado apenas a mensagens, não a arquivos de malware de Anexos Seguros do SharePoint, OneDrive e Microsoft Teams.
 
 - [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage)

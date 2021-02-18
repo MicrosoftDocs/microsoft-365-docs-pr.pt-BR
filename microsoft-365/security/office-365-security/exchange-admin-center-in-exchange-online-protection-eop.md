@@ -17,19 +17,19 @@ ms.collection:
 description: Saiba mais sobre a interface de gerenciamento da Web no Exchange Online Protection (EOP) autônomo.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 81af6c64d2ec3204d0c9d46888bbfe21335955bd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ec9dcbccbee734ea7c475b1ac0a5f9a92a0b401b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166214"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286952"
 ---
 # <a name="exchange-admin-center-in-standalone-eop"></a>Centro de administração do Exchange no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 O Centro de administração do Exchange (EAC) é um console de gerenciamento baseado na Web para o Exchange Online Protection (EOP) autônomo.
 
@@ -110,7 +110,7 @@ Quando você seleciona um objeto na exibição de lista, informações sobre ess
 
 ### <a name="me-tile-and-help"></a>Bloco Eu e Ajuda
 
-O bloco **Eu** permite sair do EAC e entrar como um usuário diferente. No  ![ menu suspenso ícone ](../../media/ITPro-EAC-HelpIcon.gif) ajuda, você pode fazer as seguintes ações:
+O bloco **Eu** permite sair do EAC e entrar como um usuário diferente. No  ![ menu suspenso Ícone de ](../../media/ITPro-EAC-HelpIcon.gif) Ajuda, você pode fazer as seguintes ações:
 
 - **Ajuda:** clique ![ no Ícone de Ajuda para exibir o conteúdo da ajuda ](../../media/ITPro-EAC-HelpIcon.gif) online.
 - **Comentários:** Deixe comentários.
@@ -120,7 +120,7 @@ O bloco **Eu** permite sair do EAC e entrar como um usuário diferente. No  ![ m
 
 ## <a name="supported-browsers"></a>Navegadores com suporte
 
-Para ter a melhor experiência ao usar o EAC, recomendamos que você sempre use os navegadores, clientes do Office e aplicativos mais recentes. Também recomendamos que você instale as atualizações de software quando elas estiverem disponíveis. Para obter mais informações sobre os navegadores suportados e os requisitos do sistema para o serviço, consulte [Requisitos do sistema para o Office](https://products.office.com/office-system-requirements).
+Para ter a melhor experiência ao usar o EAC, recomendamos que você sempre use os navegadores, clientes do Office e aplicativos mais recentes. Também recomendamos que você instale as atualizações de software quando elas estiverem disponíveis. Para obter mais informações sobre os navegadores suportados e os requisitos do sistema para o serviço, consulte [Requisitos do sistema para Office](https://products.office.com/office-system-requirements).
 
 ## <a name="supported-languages"></a>Idiomas compatíveis
 

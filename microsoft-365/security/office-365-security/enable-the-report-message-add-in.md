@@ -14,29 +14,29 @@ search.appverid:
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
-description: Saiba como habilitar o complemento Mensagem de Relatório para o Outlook e o Outlook na Web, para usuários individuais ou toda a organização.
+description: Saiba como habilitar o complemento Mensagem de Relatório para o Outlook e o Outlook na Web, para usuários individuais ou para toda a organização.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fe47bcb4db42514f3a5252a567421ad792967cd1
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 08ad2f61cc5dcd2e59af89ca788319c81e2f6bdb
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167570"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287360"
 ---
 # <a name="enable-the-report-message-add-in"></a>Habilitar o suplemento de Mensagem de Relatório
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
-> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos usar o portal Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador para [enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
+> Se você for um administrador em uma organização do Microsoft 365 com caixas de correio do Exchange Online, recomendamos usar o portal de Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador para [enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
 
-Os complementos De Relatório de Mensagens e Phishing do Outlook e do Outlook na Web (anteriormente conhecido como Outlook Web App) permitem que as pessoas reportem facilmente falsos positivos (emails válidos marcados como ruins) ou falsos negativos (emails ruins permitidos) para a Microsoft e suas afiliadas para análise.
+Os complementos De Relatório de Mensagens e Phishing do Outlook e do Outlook na Web (anteriormente conhecido como Outlook Web App) permitem que as pessoas reportem facilmente falsos positivos (emails bons marcados como ruins) ou falsos negativos (emails ruins permitidos) para a Microsoft e suas afiliadas para análise.
 
 A Microsoft usa esses envios para melhorar a eficácia das tecnologias de proteção de email. Por exemplo, se as pessoas estão relatando muitas mensagens que foram sinalizadas como lixo eletrônico como Não é Lixo Eletrônico usando o complemento Mensagem de Relatório, a equipe de segurança da sua organização pode precisar ajustar as políticas [anti-spam.](configure-your-spam-filter-policies.md)
 
@@ -46,7 +46,7 @@ O complemento Mensagem de Relatório oferece a opção de relatar mensagens de s
 
 Se você for um usuário individual, poderá habilitar o complemento [Mensagem de Relatório para si mesmo.](#get-the-report-message-add-in-for-yourself)
 
-Se você for um administrador global ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá habilitar o complemento Mensagem de Relatório para [sua organização.](#get-and-enable-the-report-message-add-in-for-your-organization) A mensagem de Add-In relatório agora está disponível por meio [da Implantação Centralizada.](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
+Se você for um administrador global ou um administrador do Exchange Online e o Exchange estiver configurado para usar a autenticação OAuth, você poderá habilitar o complemento Mensagem de Relatório para [sua organização.](#get-and-enable-the-report-message-add-in-for-your-organization) A mensagem de relatório Add-In agora está disponível por meio [da Implantação Centralizada.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
@@ -56,13 +56,13 @@ Se você for um administrador global ou um administrador do Exchange Online e o 
   - Outlook 2013 SP1 ou posterior
   - Outlook 2016 para Mac
   - Outlook incluído nos aplicativos do Microsoft 365 para Empresas
-  - Aplicativo outlook para iOS e Android
+  - Aplicativo Outlook para iOS e Android
 
 - O complemento Mensagem de Relatório não está disponível para caixas de correio em organizações locais do Exchange.
 
 - Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [Políticas de envios de usuário.](user-submission.md)
 
-- Seu navegador da Web existente deve funcionar com o complemento Mensagem de Relatório. Porém, se você perceber que o complemento não está disponível ou não está funcionando conforme o esperado, tente outro navegador.
+- Seu navegador da Web existente deve funcionar com o complemento Mensagem de Relatório. Porém, se você perceber que o complemento não está disponível ou não está funcionando conforme o esperado, tente um navegador diferente.
 
 - Para as instalações organizacionais, a organização precisa ser configurada para usar a autenticação OAuth. Para obter mais informações, [consulte Determinar se a Implantação Centralizada de complementos funciona para sua organização.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
@@ -90,7 +90,7 @@ Depois que o complemento for instalado e habilitado, você verá os seguintes í
 
   ![Ícone de add-in Mensagem de Relatório do Outlook na Web](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
 
-Para saber como usar o complemento, confira Usar o [complemento Mensagem de Relatório.](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+Para saber como usar o complemento, confira [Usar o complemento Mensagem de Relatório.](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
 ## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>Obter e habilitar o complemento Mensagem de Relatório para sua organização
 
@@ -107,7 +107,7 @@ Para saber como usar o complemento, confira Usar o [complemento Mensagem de Rela
 
 4. Na próxima página, clique **em Escolher na Loja.**
 
-   ![Implantar uma nova página de add-in](../../media/NewAddInScreen2.png)
+   ![Implantar uma nova página de complemento](../../media/NewAddInScreen2.png)
 
 5. Na página **Selecionar add-in** exibida,  clique na caixa Pesquisar, insira **Mensagem** de Relatório e clique no ícone  ![ ](../../media/search-icon.png) Pesquisar. Na lista de resultados, encontre a **Mensagem de Relatório** e clique em **Adicionar.**
 
@@ -151,9 +151,9 @@ As pessoas que têm o complemento atribuído a elas verão os seguintes ícones:
 
 - No Outlook na Web, o ícone tem esta aparência:
 
-  ![Ícone de Aplicativo de Mensagem de Relatório do Outlook na Web](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
+  ![Outlook on the Web Report Message Add-in icon](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
 
-Quando você notificar os usuários sobre o complemento Mensagem de Relatório, inclua um link para Usar o complemento [Mensagem de Relatório.](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+Quando você notificar os usuários sobre o complemento Mensagem de Relatório, inclua um link para [Usar o complemento Mensagem de Relatório.](https://support.microsoft.com/office/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
 ## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Revisar ou editar configurações para o complemento Mensagem de Relatório
 

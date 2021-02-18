@@ -15,21 +15,21 @@ ms.custom:
 description: Saiba como o Proteção do Exchange Online (EOP) pode ajudar a proteger sua organização de email local em ambientes autônomos e híbridos.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b84ac26333163caec6117cf042044b9bbfad0a4f
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e8e3d44cb39e3569179d4155e32a8c11e0a5be56
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165452"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286880"
 ---
 # <a name="exchange-online-protection-overview"></a>Visão geral do Exchange Online Protection
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
--    [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
--    [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 O Exchange Online Protection (EOP) é o serviço de filtragem baseado em nuvem que ajuda a proteger sua organização contra spam e malware. O EOP está incluído em todas as organizações do Microsoft 365 com caixas de correio do Exchange Online. No entanto, o EOP também está disponível nos seguintes cenários locais:
 
@@ -49,7 +49,7 @@ Para entender como o EOP funciona, ele o ajuda a ver como processa o email de en
 
 - Quando uma mensagem de entrada entra no EOP, ela passa inicialmente pela filtragem de conexão, que verifica a reputação do remetente. A maioria dos spams é interrompida neste ponto e rejeitada pelo EOP. Para obter mais informações, confira [Configurar a filtragem da conexão](configure-the-connection-filter-policy.md).
 
-- Em seguida, a mensagem é inspecionada em busca de sinais de malware. Se um malware for encontrado na mensagem ou nos anexos, a mensagem será roteada para um armazenamento de quarentena somente para administradores. Você pode saber mais sobre como configurar o anti-malware [aqui.](configure-anti-malware-policies.md)
+- Em seguida, a mensagem é inspecionada em busca de sinais de malware. Se um malware for encontrado na mensagem ou nos anexos, a mensagem será roteada para um armazenamento de quarentena apenas para administradores. Você pode saber mais sobre como configurar o anti-malware [aqui.](configure-anti-malware-policies.md)
 
 - As mensagens continuam pela filtragem de política, onde são avaliadas em relação às regras personalizadas de fluxo de emails (também conhecidas como regras de transporte) que você cria ou impõe a partir de um modelo. Por exemplo, você pode ter uma regra que envia uma notificação a um gerente quando o email chega de um remetente específico. As verificações de prevenção contra perda de dados (DLP) também ocorrem neste ponto (Exchange Enterprise CAL com Serviços).
 

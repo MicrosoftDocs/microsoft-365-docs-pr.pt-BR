@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Os administradores podem saber como o treinamento de simulação de ataque no centro de segurança do Microsoft 365 afeta os funcionários e pode obter informações sobre os resultados de simulação e treinamento.
 ms.technology: mdo
-ms.openlocfilehash: b7fd414cc355e768077198eb5215720c4d4a9444
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 43319089f604d32bf295392dd223cf65af8bd4be
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49933061"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288652"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Obter insights por meio do treinamento de simulação de Ataque
 
@@ -27,7 +27,7 @@ Estamos trabalhando continuamente para expandir as informações disponíveis pa
 
 ## <a name="behavior-impact-on-compromise-rate"></a>Impacto do comportamento na taxa de comprometimento
 
-Na guia **Visão geral** do treinamento de simulação de ataque, você encontrará o impacto do comportamento no cartão de **taxa de** comprometimento. Este cartão mostra como os funcionários lidam com as simulações que você fez em contraste com a **taxa de comprometimento prevista.** Você pode usar essas informações para controlar o progresso da prontidão contra ameaças dos funcionários executando várias simulações nos mesmos grupos de funcionários.
+Na guia **Visão geral do** treinamento de simulação de ataque, você encontrará o impacto do comportamento no cartão de taxa **de** comprometimento. Este cartão mostra como os funcionários lidam com as simulações que você fez em contraste com a **taxa de comprometimento prevista.** Você pode usar essas informações para controlar o progresso da prontidão contra ameaças dos funcionários executando várias simulações nos mesmos grupos de funcionários.
 
 No gráfico, você pode ver:
 
@@ -45,7 +45,7 @@ Para ver um relatório mais detalhado, clique em Exibir simulações **e relató
 
 Na guia [ **Simulações,**](https://security.microsoft.com/attacksimulator?viewid=simulations)selecionar uma simulação levará você aos detalhes da simulação, onde você encontrará a **seção Ações recomendadas.**
 
-A seção de ações recomendadas detalha as recomendações conforme disponíveis no [Microsoft Secure Score.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) Essas recomendações são baseadas na carga usada na simulação e ajudarão você a proteger seus funcionários e seu ambiente. Clicar em cada ação de melhoria levará você aos detalhes.
+A seção de ações recomendadas detalha as recomendações conforme disponíveis no [Microsoft Secure Score.](../mtp/microsoft-secure-score.md) Essas recomendações são baseadas na carga usada na simulação e ajudarão você a proteger seus funcionários e seu ambiente. Clicar em cada ação de melhoria levará você aos detalhes.
 
 > [!div class="mx-imgBorder"]
 > ![Seção de ações de recomendação sobre treinamento de simulação de ataque](../../media/attack-sim-preview-recommended-actions.png)

@@ -19,17 +19,21 @@ description: Os administradores podem saber mais sobre os relatórios de fluxo d
 ms.custom: ''
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e69085d1fad845ab519f2590b0527316463373a7
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: dbbec056203ad816d37f5451115d2c7d172eee92
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029793"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286712"
 ---
 # <a name="view-mail-flow-reports-in-the-reports-dashboard-in-security--compliance-center"></a>Exibir relatórios de fluxo de emails no painel Relatórios no Centro de Conformidade e & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Além dos relatórios de fluxo de emails [](mail-flow-insights-v2.md) que estão disponíveis no painel Fluxo de emails no Centro de Conformidade e Segurança, uma variedade de relatórios de fluxo de emails adicionais estão disponíveis no painel Relatórios para ajudá-lo & a monitorar sua organização do Microsoft 365.
 
@@ -45,7 +49,7 @@ Para exibir o relatório, abra o [Centro de Conformidade & Segurança,](https://
 
 ![Widget de relatório do conector no painel Relatórios](../../media/connector-report-widget.png)
 
-### <a name="report-view-for-the-connector-report"></a>Exibição de relatório para o relatório conector
+### <a name="report-view-for-the-connector-report"></a>Report view for the Connector report
 
 Os gráficos a seguir estão disponíveis no visualização de relatório:
 
@@ -60,7 +64,7 @@ Os gráficos a seguir estão disponíveis no visualização de relatório:
 
   ![Exibir dados por fluxo de emails no relatório do Conector](../../media/connector-report-view-data-by-mail-flow.png)
 
-- **Exibir dados por: uso de TLS:** este gráfico mostra a porcentagem de uso da versão TLS (Transport Layer Security) para fluxo de emails.
+- **Exibir dados por: uso de TLS:** este gráfico mostra a porcentagem de uso da versão TLS (Transport Layer Security) para o fluxo de emails.
 
   Para isolar os dados no gráfico, use Show **data for** control para selecionar uma das seguintes opções:
 
@@ -105,7 +109,7 @@ Os gráficos a seguir estão disponíveis no visualização de relatório:
 
 - **Exibir dados por: regras de transporte do** \> Exchange **Down by: Direction :** This chart shows the number of **Inbound** and **Outbound** messages that were affected by transport rules.
 
-- **Exibir dados por: Regras de transporte do** \> Exchange **Intervalo por: Gravidade:** Este gráfico mostra  o número de mensagens de gravidade alta e **média** e **de baixa** gravidade. Você pode definir o nível de severidade como uma ação na regra (**Auditar** esta regra com nível de severidade _ou SetAuditSeverity_). Para saber mais, confira [Ações de regra de fluxo de emails no Exchange Online.](https://docs.microsoft.com//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
+- **Exibir dados por: regras de transporte do** \> Exchange **Intervalo por: Gravidade:** Este gráfico mostra  o número de mensagens de gravidade alta e **média** e **de baixa** gravidade. Você pode definir o nível de severidade como uma ação na regra (**Auditar** esta regra com nível de severidade _ou SetAuditSeverity_). Para saber mais, confira [Ações de regra de fluxo de emails no Exchange Online.](https://docs.microsoft.com//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
 - **Exibir dados por: regras de transporte do Exchange** \> DLP **Intervalo por: Direção:** este gráfico  mostra o  número de mensagens de Entrada e Saída que foram afetadas pelas regras de transporte de prevenção contra perda de dados (DLP). Você pode refinar ainda mais o gráfico selecionando uma das seguintes opções:
 
@@ -119,7 +123,7 @@ Os gráficos a seguir estão disponíveis no visualização de relatório:
   - **Mostrar dados para: usuários comprometidos**
   - **Mostrar dados para: Baixo volume de conteúdo detectado na Lei Patriot Act dos EUA**
 
-Se você clicar **em Filtros** em uma exibição de relatório, poderá modificar os resultados com os seguintes filtros:
+Se você clicar **em Filtros** em uma exibição de relatório, poderá modificar os resultados com os seguintes filtros::
 
 - **Data de início** e **data de término**
 - Valores de direção
@@ -131,7 +135,7 @@ Se você clicar **em Filtros** em uma exibição de relatório, poderá modifica
 
 Se você clicar **em Exibir tabela de** detalhes, as informações mostradas dependerão do gráfico que você estava olhando:
 
-- **Exibir dados por: Regras de Transporte do Exchange:**
+- **Exibir dados por: regras de Transporte do Exchange:**
 
   - **Date**
   - **Regra de transporte**
@@ -162,11 +166,11 @@ Para voltar para a exibição de relatório, clique em **Exibir relatório**.
 
 ## <a name="forwarding-report"></a>Relatório de encaminhamento
 
-O **relatório de encaminhamento mostra** as mensagens encaminhadas automaticamente da sua organização para domínios externos das caixas de correio do Exchange Online. As mensagens encaminhadas podem representar um risco de segurança ou conformidade e podem indicar uma conta comprometida.
+O **relatório de encaminhamento** mostra as mensagens encaminhadas automaticamente da sua organização para domínios externos das caixas de correio do Exchange Online. As mensagens encaminhadas podem representar um risco de segurança ou conformidade e podem indicar uma conta comprometida.
 
 Para exibir o relatório, abra o [Centro de Conformidade &](https://protection.office.com)segurança, vá para o Painel de Relatórios e selecione o relatório de  \>  **encaminhamento.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=MailFlowForwarding> .
 
-![Forwarding report widget in the Reports dashboard](../../media/forwarding-report-widget.png)
+![Objeto de relatório de encaminhamento no painel Relatórios](../../media/forwarding-report-widget.png)
 
 ### <a name="report-view-for-the-forwarding-report"></a>Exibição de relatório para o relatório de encaminhamento
 
@@ -196,7 +200,7 @@ Se você clicar em **Filtros** em uma exibição de relatório, poderá especifi
 
 Se você clicar em **Exibir tabela de detalhes** em uma exibição de relatório, as seguintes informações serão mostradas:
 
-- **Encaminhadores**: a regra de **transporte de** valor ou a caixa de correio que contém a regra de caixa de entrada de encaminhamento.
+- **Encaminhadores**: a regra **de transporte de** valor ou a caixa de correio que contém a regra de caixa de entrada de encaminhamento.
 - **Tipo de encaminhamento: a** regra de **caixa de correio de** valor ou regra de **transporte**.
 - **Nome do destinatário**
 - **Domínio do destinatário**
@@ -211,7 +215,7 @@ Para voltar para a exibição de relatórios, clique em **Exibir relatório.**
 ## <a name="mailflow-status-report"></a>Relatório de status do fluxo de mensagens
 
 O **relatório de status do fluxo** de mensagens é semelhante ao relatório de emails enviados [e](#sent-and-received-email-report)recebidos, com informações adicionais sobre emails permitidos ou bloqueados na borda. Este é o único relatório que contém informações de proteção de borda e mostra quantos emails são bloqueados antes de serem permitidos no serviço para avaliação pelo Exchange Online Protection (EOP). É importante entender que, se uma mensagem for enviada a cinco destinatários, a contaremos como cinco mensagens diferentes e não como uma mensagem.
-Para exibir o relatório, abra o [Centro de Conformidade e &](https://protection.office.com)segurança, vá para o Painel de Relatórios e selecione o relatório de status do fluxo de  \>  **mensagens.** Para ir diretamente para o relatório **de status de fluxo de emails,** abra <https://protection.office.com/mailflowStatusReport> .
+Para exibir o relatório, abra o [Centro de Conformidade &](https://protection.office.com)Segurança, vá para o Painel de Relatórios e selecione o relatório de status do fluxo de  \>  **mensagens.** Para ir diretamente para o relatório **de status de fluxo de emails,** abra <https://protection.office.com/mailflowStatusReport> .
 
 ![Widget de relatório de status do fluxo de mensagens no painel Relatórios](../../media/mail-flow-status-report-widget.png)
 
@@ -219,7 +223,7 @@ Para exibir o relatório, abra o [Centro de Conformidade e &](https://protection
 
 Quando você abre o relatório, a **guia** Tipo é selecionada por padrão. Por padrão, esse modo de exibição contém um gráfico e uma tabela de dados configurados com os seguintes filtros:
 
-- **Data**: os últimos 7 dias.
+- **Data:** os últimos 7 dias.
 - **Direção:**
 
   - **Entrada**
@@ -324,11 +328,11 @@ A tabela de dados contém as seguintes informações, mostradas em ordem decresc
 - **Proteção de borda**
 - **Anti-malware, reputação do arquivo, bloco de tipo de arquivo:**
   - **Reputação do** arquivo: mensagens filtradas devido à identificação de um arquivo anexado por outros clientes da Microsoft.
-  - **Bloco de tipo de** arquivo: Mensagens filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.
+  - **Bloqueio de tipo de** arquivo: Mensagens filtradas devido ao tipo de arquivo mal-intencionado identificado na mensagem.
 - **Anti-phishing, reputação da URL, representação de marca, anti-spoof**:
   - **Reputação da URL:** mensagens filtradas devido à identificação da URL por outros clientes da Microsoft.
   - **Representação de marca:** mensagens filtradas devido à mensagem proveniente de uma marca conhecida que representa os senders.
-  - **Anti-spoof**: Mensagens filtradas devido à mensagem que está tentando fazer a spoof de um domínio que o destinatário pertence, ou a um domínio que o remetente da mensagem não possui.
+  - **Anti-spoof:** Mensagens filtradas devido à mensagem que está tentando fazer a spoof de um domínio que o destinatário pertence, ou a um domínio que o remetente da mensagem não possui.
 - **Anti-spam, filtragem de email em massa:**
   - **Filtragem de email em massa:** mensagens filtradas devido a uma tentativa de entregar emails em massa a seus destinatários.
 - **Representação de usuário e domínio (Defender para Office 365)**:
@@ -360,13 +364,13 @@ O **modo de exibição** Técnico é semelhante **ao** modo de exibição funil,
 
 Se você clicar na **guia Modo de** Exibição Técnico, por padrão, esse modo de exibição conterá um gráfico e uma tabela de dados configurada com os seguintes filtros:
 
-- **Data**: os últimos 7 dias.
+- **Data:** os últimos 7 dias.
 
 - **Direção:**
 
   - **Entrada**
   - **Saída**
-  - **Dentro da organização:** essa contagem é para mensagens em um locatário, ou seja, remetente abc@domain.com envia ao destinatário xyz@domain.com (contadas separadamente de Entrada e Saída)
+  - **Dentro da organização:** essa contagem é para mensagens em um locatário, ou seja, remetente abc@domain.com envia ao destinatário xyz@domain.com (contado separadamente de Entrada e Saída)
 
 A exibição agregada e a exibição da tabela de dados permitem 90 dias de filtragem.
 
@@ -377,7 +381,7 @@ Este gráfico mostra mensagens organizadas nas seguintes categorias:
 - **Total de emails**
 - **Permitir borda** e **borda filtrada**
 - **Not malware**, **Safe Attachments detection**, <sup>\*</sup> **Anti-malware engine detection,** and **Rule messages**
-- **Não phishing,** **falha do DMARC,** **detecção de representação,** detecção **de spoof** e detecção **de phishing**
+- **Não phishing,** **falha do DMARC,** detecção **de representação,** detecção **de spoof** e detecção **de phishing**
 - **Nenhuma detecção com a detonação de URL** e detecção **de detonação de URL**<sup>\*</sup>
 - **Não é spam** e  **spam**
 - **Email não mal-intencionado,** **detecção de Links seguros** e <sup>\*</sup> **ZAP**
@@ -417,11 +421,11 @@ Cada arquivo .csv exportado é limitado a 150.000 linhas. Se os dados contiverem
 
 ## <a name="sent-and-received-email-report"></a>Relatório de emails enviados e recebidos
 
-O **relatório de emails** enviados e recebidos é um relatório inteligente que mostra informações sobre emails de entrada e saída, incluindo detecções de spam, malware e email identificados como "bons". A diferença entre esse relatório e o relatório de [status do fluxo](#mailflow-status-report) de mensagens é: esse relatório não inclui dados sobre mensagens bloqueadas pela proteção de borda. É importante entender que, se uma mensagem for enviada a cinco destinatários, a contaremos como uma mensagem.
+O **relatório de emails** enviados e recebidos é um relatório inteligente que mostra informações sobre emails de entrada e saída, incluindo detecções de spam, malware e email identificados como "bons". A diferença entre esse relatório e o relatório de [status do Fluxo](#mailflow-status-report) de Mensagens é: esse relatório não inclui dados sobre mensagens bloqueadas pela proteção de borda. É importante entender que, se uma mensagem for enviada a cinco destinatários, a contaremos como uma mensagem.
 
 A exibição agregada e a exibição detalhada do relatório permitem 90 dias de filtragem.
 
-Para exibir o relatório, abra o [Centro de Conformidade e Segurança &,](https://protection.office.com)vá para o Painel de Relatórios e selecione Enviar e receber  \>  **emails.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SentAndReceivedMailATP> .
+Para exibir o relatório, abra o [Centro de Conformidade &](https://protection.office.com)segurança, vá para o Painel de Relatórios e selecione Enviar e receber  \>  **emails.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=SentAndReceivedMailATP> .
 
 ![Widget de email enviado e recebido no painel Relatórios](../../media/sent-and-received-email-report-widget.png)
 
@@ -448,7 +452,7 @@ Os gráficos a seguir estão disponíveis na exibição de relatório:
 
 - **Faça drill down por** \> **Malware (anti-malware)**: essa seleção leva você para as detecções [de malware no relatório de email.](view-email-security-reports.md#malware-detections-in-email-report)
 
-- **Faça drill down por** \> **Detecções de spam)**: essa seleção leva você para o relatório de [detecções de spam](view-email-security-reports.md#spam-detections-report).
+- **Faça drill down por** \> **Detecções de spam)**: essa seleção leva você ao relatório de [Detecções de Spam.](view-email-security-reports.md#spam-detections-report)
 
 Se você clicar **em Filtros** em uma exibição de relatório, poderá modificar os resultados com os seguintes filtros:
 
@@ -479,7 +483,7 @@ Para voltar para a exibição de relatório, clique em **Exibir relatório**.
 
 O **relatório de principais destinatários e destinatários** é um gráfico de pizza que mostra seus principais destinatários e destinatários de email.
 
-Para exibir o relatório, abra o Centro de  [Conformidade e Segurança &,](https://protection.office.com)vá para o Painel de Relatórios e selecione Os \>  **principais destinatários e os destinatários.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=TopSenderRecipientsATP> .
+Para exibir o relatório, abra o [Centro de Conformidade &](https://protection.office.com)Segurança, vá para o Painel de Relatórios e selecione Os principais  \>  **destinatários e os destinatários.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=TopSenderRecipientsATP> .
 
 ![Principal widget de destinatários e de envios no painel Relatórios](../../media/top-senders-and-recipients-widget.png)
 
@@ -540,13 +544,13 @@ Para exibir e usar os relatórios descritos neste artigo &, você precisa ser me
 
 - **Organization Management**
 - **Administrador de Segurança**
-- **Leitor de segurança**
-- **Leitor global**
+- **Leitor de Segurança**
+- **Leitor Global**
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
 > [!NOTE]
-> Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+> Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

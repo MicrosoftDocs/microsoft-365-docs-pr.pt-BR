@@ -13,25 +13,25 @@ ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Saiba mais sobre a permissão necessária para tarefas no Exchange Online Protection autônomo
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4f1f364e684f2d1d76f26f573e66fbd50bf5138b
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 9c24c6f57ea9a7c0e1b3332d2f4b518b232ec0c2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167390"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288294"
 ---
 # <a name="permissions-in-standalone-eop"></a>Permissões no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
-O EOP (Proteção do Exchange Online Autônomo) sem caixas de correio do Exchange Online usa o modelo de permissões RBAC (Controle de Acesso Baseado na Função) para conceder permissões facilmente aos administradores. Você pode usar os recursos de permissão no EOP autônomo para fazer sua nova organização funcionar rapidamente.
+O EOP (Proteção do Exchange Online Autônomo) sem caixas de correio do Exchange Online usa o modelo de permissões RBAC (Controle de Acesso Baseado na Função) para conceder permissões facilmente aos administradores. Você pode usar os recursos de permissão no EOP autônomo para deixar sua nova organização em funcionamento rapidamente.
 
 Para conceder permissões aos usuários, consulte [Gerenciar grupos de função de administrador no EOP](manage-admin-role-group-permissions-in-eop.md).
 
-Para saber mais sobre permissões no Microsoft 365, confira [Sobre funções de administrador.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+Para saber mais sobre permissões no Microsoft 365, confira [Sobre funções de administrador.](../../admin/add-users/about-admin-roles.md)
 
 ## <a name="role-based-permissions"></a>Permissões baseadas em função
 
@@ -41,7 +41,7 @@ No EOP autônomo, as funções administrativas são o único tipo de função de
 
 ## <a name="role-groups"></a>Grupos de função
 
-Para facilitar a atribuição de funções aos usuários, o EOP autônomo usa grupos de função. As funções de gerenciamento são atribuídas a grupos de funções, e os membros do grupo de função têm as permissões associadas às funções. Em outras palavras, as funções de gerenciamento não são atribuídas diretamente aos usuários; eles são atribuídos ao grupo de funções. Esse modelo permite que você atribua muitas funções a vários membros do grupo de funções ao mesmo tempo. Os membros do grupo de funções podem ser usuários de email, grupos de segurança habilitados para email, usuários do centro de administração do Microsoft 365 e outros grupos de função.
+Para facilitar a atribuição de funções aos usuários, o EOP autônomo usa grupos de função. As funções de gerenciamento são atribuídas a grupos de função, e os membros do grupo de função têm as permissões associadas às funções. Em outras palavras, as funções de gerenciamento não são atribuídas diretamente aos usuários; eles são atribuídos ao grupo de funções. Esse modelo permite que você atribua muitas funções a vários membros do grupo de função ao mesmo tempo. Os membros do grupo de função podem ser usuários de email, grupos de segurança habilitados para email, usuários do centro de administração do Microsoft 365 e outros grupos de função.
 
 A figura a seguir mostra a relação entre usuários, grupos de função e funções.
 
@@ -59,7 +59,7 @@ Os grupos de função disponíveis no EOP autônomo são descritos na tabela a s
 |HelpDesk|Exibir e gerenciar usuários de email.|Redefinir Senha <p> Opções do usuário <p> Destinatários Somente para Exibição|
 |HygieneManagement|Gerenciar recursos de proteção (anti-spam, anti-malware, etc.).|Higienização de Transporte <p> Configuração Somente para Exibição <p> Destinatários Somente para Exibição|
 |MailFlowAdministrator|Exibir e gerenciar domínios e conectores aceitos|Domínios Remotos e Aceitos <p> Destinatários Somente para Exibição|
-|OrganizationManagement|Acesso de administrador a toda a organização e a capacidade de executar quase todas as tarefas. <p> Os membros da [função administrador global](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) no Azure AD automaticamente obter as permissões desse grupo de função. <p> **Importante:** como o grupo de função OrganizationManagement é uma função poderosa, somente os usuários que executam tarefas administrativas de nível organizacional devem ser membros desse grupo de função.|AntiMalware <p> AntiSpam <p> Logs de auditoria <p> Administrador de Conformidade <p> Grupos dinâmicos de distribuição <p> Gerenciamento de Direitos de Informação <p> Criação de Destinatário de Email <p> Destinatários de Email <p> Controle de Mensagens <p> Migração <p> Acesso para Cliente da Organização <p> Configuração da Organização <p> Configurações de Transporte da Organização <p> Quarentena <p> Diretivas de Destinatário <p> Domínios Remotos e Aceitos <p> Redefinir Senha <p> Gerenciamento de retenção <p> Gerenciamento de Função <p> Administrador de Segurança <p> Criação e associação de grupos de segurança <p> Leitor de segurança <p> Administrador de Rótulos de Sensibilidade <p> Supervisão <p> Higienização de Transporte <p> Regras de Transporte <p> Opções do usuário <p> View-Only AntiMalware <p> View-Only AntiSpam <p> View-Only logs de auditoria <p> Configuração Somente para Exibição <p> View-Only quarentena <p> Destinatários Somente para Exibição <p> View-Only inteligência contra ameaças|
+|OrganizationManagement|Acesso de administrador a toda a organização e a capacidade de executar quase todas as tarefas. <p> Os membros da [função administrador global](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) no Azure AD automaticamente obter as permissões desse grupo de função. <p> **Importante:** como o grupo de função OrganizationManagement é uma função poderosa, somente os usuários que executam tarefas administrativas no nível organizacional devem ser membros desse grupo de função.|AntiMalware <p> AntiSpam <p> Logs de auditoria <p> Administrador de Conformidade <p> Grupos dinâmicos de distribuição <p> Gerenciamento de Direitos de Informação <p> Criação de Destinatário de Email <p> Destinatários de Email <p> Controle de Mensagens <p> Migração <p> Acesso para Cliente da Organização <p> Configuração da Organização <p> Configurações de Transporte da Organização <p> Quarentena <p> Diretivas de Destinatário <p> Domínios Remotos e Aceitos <p> Redefinir Senha <p> Gerenciamento de retenção <p> Gerenciamento de Função <p> Administrador de Segurança <p> Criação e associação de grupos de segurança <p> Leitor de segurança <p> Administrador de Rótulos de Sensibilidade <p> Supervisão <p> Higienização de Transporte <p> Regras de Transporte <p> Opções do usuário <p> View-Only AntiMalware <p> View-Only AntiSpam <p> View-Only logs de auditoria <p> Configuração Somente para Exibição <p> View-Only quarentena <p> Destinatários Somente para Exibição <p> View-Only inteligência contra ameaças|
 |QuarantineAdministrator|Gerenciar mensagens em quarentena para todos os destinatários.|Quarentena|
 |RecipientManagement|Criar, gerenciar e remover objetos de destinatário na organização.|Grupos dinâmicos de distribuição <p> Criação de Destinatário de Email <p> Destinatários de Email <p> Controle de Mensagens <p> Migração <p> Diretivas de Destinatário <p> Redefinir Senha|
 |RecordsManagement|Configurar recursos de conformidade, como marcas de política de retenção, classificações de mensagens e regras de fluxo de emails (também conhecidas como regras de transporte).|Rastreamento de Mensagem <p> Gerenciamento de retenção <p> Regras de Transporte|
@@ -129,7 +129,7 @@ Ao criar um usuário no centro de administração do Microsoft 365, você pode o
 > [!NOTE]
 > A conta usada para criar sua organização autônoma do EOP é atribuída automaticamente à função de administrador Global.
 
-A tabela a seguir lista as funções do Microsoft 365 e os grupos de função EOP autônomos aos quais correspondem. Para obter mais informações sobre essas funções, consulte [Sobre funções de administrador.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+A tabela a seguir lista as funções do Microsoft 365 e os grupos de funções do EOP autônomos aos quais correspondem. Para obter mais informações sobre essas funções, consulte [Sobre funções de administrador.](../../admin/add-users/about-admin-roles.md)
 
 ****
 
@@ -143,7 +143,7 @@ A tabela a seguir lista as funções do Microsoft 365 e os grupos de função EO
 |Leitor de segurança|SecurityReader|
 |
 
-Outras funções do Microsoft 365 não têm um grupo de funções do EOP correspondente e não concederão permissões administrativas no EOP. Para saber mais sobre como atribuir uma função do Microsoft 365 a um usuário, confira [Atribuir funções de administrador.](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+Outras funções do Microsoft 365 não têm um grupo de funções do EOP correspondente e não concederão permissões administrativas no EOP. Para saber mais sobre como atribuir uma função do Microsoft 365 a um usuário, confira [Atribuir funções de administrador.](../../admin/add-users/assign-admin-roles.md)
 
 Os usuários podem ter direitos administrativos no EOP sem adições às funções do Microsoft 365. Para fazer isso, adicione o usuário como membro de um grupo de funções do EOP. O usuário receberá permissões no EOP, mas não receberá permissões em outras cargas de trabalho do Microsoft 365.
 
@@ -153,7 +153,7 @@ Para verificar se você copiou com êxito um grupo de funções, faça uma das s
 
 - No EAC, vá para Funções **de** Administrador de Permissões e verifique se \> o grupo de funções está listado (ou não listado). Selecione o grupo de funções e verifique as configurações no painel Detalhes ou clique no ícone Editar  ![ para verificar as ](../../media/ITPro-EAC-EditIcon.png) configurações.
 
-- No PowerShell do Exchange Online, substitua pelo nome do grupo de função e execute o seguinte comando para verificar se o grupo de funções existe (ou não existe) e verificar as \<Role Group Name\> configurações:
+- No PowerShell do Exchange Online, substitua pelo nome do grupo de funções e execute o seguinte comando para verificar se o grupo de funções existe (ou não existe) e verificar as \<Role Group Name\> configurações:
 
   ```PowerShell
   Get-RoleGroup -Identity "<Role Group Name>" | Format-List

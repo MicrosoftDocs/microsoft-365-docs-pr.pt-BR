@@ -12,12 +12,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: None
 description: Visão geral de como a segurança é usada para exibir tópicos.
-ms.openlocfilehash: fc8e2a08fcf9af266aee49eee878738f7f17aa59
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 12a2ad34c55cd63468266abca1fa053048053dd2
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107513"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279327"
 ---
 # <a name="microsoft-viva-topics-security-trimming"></a>Microsoft Viva Topics security trimming 
 
@@ -35,7 +35,7 @@ No entanto, quando o Usuário 2 analisa a mesma página de tópicos do Brasil, s
 
 ![Tópico de Mila para o usuário 2](../media/knowledge-management/user1-topic-view.png) </br> 
 
-A diferença no que os usuários podem ver no mesmo tópico é que os usuários podem não ter as permissões do Office 365 para exibir um site ou arquivo relacionado.  Os tópicos do Viva respeitam as permissões definidas nos itens de um tópico e não podem alterar o acesso a elas. No nosso exemplo, o Usuário 1 não consegue exibir o arquivo de Visão Geral do Produto *DG-2000* na página de tópicos de Mila porque o Usuário 1 não tem permissões do Office 365 para exibir o arquivo.
+A diferença no que os usuários podem ver no mesmo tópico é que os usuários podem não ter as permissões do Office 365 para exibir um site ou arquivo relacionado.  Os Tópicos do Viva respeitam as permissões definidas nos itens de um tópico e não podem alterar o acesso a elas. No nosso exemplo, o Usuário 1 não consegue exibir o arquivo de Visão Geral do Produto *DG-2000* na página de tópicos de Mila porque o Usuário 1 não tem permissões do Office 365 para exibir o arquivo.
 
 Se um usuário não conseguir ver informações suficientes em um tópico para que ele seja útil, o tópico não estará disponível para o usuário. Quando isso acontece, o usuário não verá o tópico realçado. Um usuário diferente que tenha permissões para obter mais informações no tópico para que ele seja útil, poderá ver o tópico.
 
@@ -52,7 +52,8 @@ Da mesma forma, os usuários que criaram e editaram permissões de tópico, cola
 Os tópicos podem conter informações geradas pela IA e informações adicionadas ou editadas por colaboradores de tópicos ou gerentes de conhecimento.
 
  - As informações em um tópico que foi adicionado pela ia só são visíveis para as pessoas que têm acesso ao conteúdo de origem.
- - As informações que foram adicionadas ou editadas manualmente por um colaborador de tópico ou gerente de conhecimento estão visíveis para todos que podem ver o tópico.
+ - A descrição do tópico e as informações de pessoas que foram adicionadas ou editadas manualmente por um colaborador de tópico ou gerente de conhecimento estão visíveis para todos que podem ver o tópico.
+ - Arquivos, páginas e sites só ficam visíveis para os usuários que têm permissões para o conteúdo de origem, sejam adicionados manualmente ou adicionados pelo ia.
 
 A tabela a seguir descreve o que os usuários ( visualizadores de tópicos, colaboradores e gerentes de conhecimento ) podem ver em um determinado tópico com base em suas permissões.
 
@@ -63,7 +64,7 @@ A tabela a seguir descreve o que os usuários ( visualizadores de tópicos, cola
 |Pessoas|As pessoas fixadas ficam visíveis para todos os usuários. As pessoas sugeridas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Arquivos|Os arquivos só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Páginas|As páginas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
-|Sites|Os sites ficam visíveis apenas para os usuários que têm permissões para o conteúdo de origem.|
+|Sites|Os sites só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 
 
 

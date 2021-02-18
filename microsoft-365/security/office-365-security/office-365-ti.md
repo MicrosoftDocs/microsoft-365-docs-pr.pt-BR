@@ -21,19 +21,19 @@ ms.custom:
 description: Saiba mais sobre os recursos de investigação e resposta de ameaças no Plano do Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 32b23dca0d4cb70407ce91a652e458b729b3c12f
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 2a772ed3016bebc8f380cf384257e12497e9eb7c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150731"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287672"
 ---
 # <a name="threat-investigation-and-response"></a>Investigação e resposta a ameaças
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--    [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 
 
 Os recursos de investigação e resposta contra ameaças no [Microsoft Defender para Office 365](office-365-atp.md) ajudam analistas e administradores de segurança a proteger os usuários do Microsoft 365 para empresas de sua organização ao:
@@ -73,7 +73,7 @@ Para exibir e usar esse relatório, no Centro de Conformidade e Segurança &, v�
 
 ### <a name="incidents"></a>Incidentes
 
-Use a lista de incidentes (também chamada de Investigações) para ver uma lista de incidentes de segurança de voo. Os incidentes são usados para rastrear ameaças, como mensagens de email suspeitas, e para conduzir mais investigação e correção.
+Use a lista de incidentes (também chamada de Investigações) para ver uma lista de incidentes de segurança de voo. Os incidentes são usados para controlar ameaças, como mensagens de email suspeitas, e para conduzir mais investigação e correção.
 
 ![Lista de incidentes de ameaças atuais no Office 365](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
 
@@ -83,7 +83,7 @@ Para exibir a lista de incidentes atuais da sua organização, no  Centro de Con
 
 ### <a name="attack-simulator"></a>Simulador de Ataque
 
-Use o Simulador de Ataque para configurar e executar ataques cibernéticos realistas em sua organização e identificar pessoas vulneráveis antes que um ataque cibernético real afete sua empresa. Para saber mais, confira [Simulador de Ataque no Office 365.](attack-simulator.md)
+Use o Simulador de Ataque para configurar e executar ataques cibernéticos realistas em sua organização e identificar pessoas vulneráveis antes que um ataque cibernético real afete sua empresa. Para saber mais, confira [Simulador de Ataques no Office 365.](attack-simulator.md)
 
 ### <a name="automated-investigation-and-response"></a>Investigação e resposta automatizadas
 
@@ -91,13 +91,13 @@ Use recursos de investigação e resposta automatizadas (AIR) para economizar te
 
 ## <a name="threat-intelligence-widgets"></a>Widgets de inteligência contra ameaças
 
-Como parte da oferta do Microsoft Defender para Office 365 Plano 2, os analistas de segurança podem analisar detalhes sobre uma ameaça conhecida. Isso é útil para determinar se há medidas/etapas de prevenção adicionais que podem ser tomadas para manter os usuários seguros.
+Como parte da oferta do Microsoft Defender para Office 365 Plano 2, os analistas de segurança podem analisar detalhes sobre uma ameaça conhecida. Isso é útil para determinar se há medidas/etapas preventivas adicionais que podem ser tomadas para manter os usuários seguros.
 
 ![Tendências de segurança mostrando informações sobre ameaças recentes](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png)
 
 ## <a name="how-do-we-get-these-capabilities"></a>Como podemos obter esses recursos?
 
-Os recursos de investigação e resposta a ameaças do Microsoft 365 estão incluídos no Microsoft Defender para Office 365 Plano 2, incluído no Enterprise E5 ou como um complemento para determinadas assinaturas. Para saber mais, confira [o Defender para Office 365 Plano 1 e Plano 2.](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2)
+Os recursos de investigação e resposta contra ameaças do Microsoft 365 estão incluídos no Microsoft Defender para Office 365 Plano 2, que está incluído no Enterprise E5 ou como um complemento para determinadas assinaturas. Para saber mais, confira [o Defender para Office 365 Plano 1 e Plano 2.](office-365-atp.md#microsoft-defender-for-office-365-plan-1-and-plan-2)
 
 ## <a name="required-roles-and-permissions"></a>Funções e permissões necessárias
 
@@ -115,9 +115,9 @@ O Microsoft Defender para Office 365 usa controle de acesso baseado em função.
 |Atividade|Funções e permissões|
 |---|---|
 |Usar o painel Ameaças (ou o novo painel [de segurança)](security-dashboard.md) <p> Exibir informações sobre ameaças recentes ou atuais|Uma das seguintes opções: <ul><li>**Administrador Global**</li><li>**Administrador de Segurança**</li><li>**Leitor de segurança**</li></ul> <p> Essas funções podem ser atribuídas no Azure Active Directory ( ) ou no centro de administração <https://portal.azure.com> do Microsoft 365 ( <https://admin.microsoft.com> ).|
-|Usar [o Explorador de Ameaças (e detecções em tempo real)](threat-explorer.md) para analisar ameaças|Uma das seguintes opções: <ul><li>**Administrador Global**</li><li>**Administrador de Segurança**</li><li>**Leitor de Segurança**</li></ul> <p> Essas funções podem ser atribuídas no Azure Active Directory ( ) ou no centro de administração <https://portal.azure.com> do Microsoft 365 ( <https://admin.microsoft.com> ).|
+|Usar [o Explorador de Ameaças (e detecções em tempo real)](threat-explorer.md) para analisar ameaças|Uma das seguintes opções: <ul><li>**Administrador Global**</li><li>**Administrador de Segurança**</li><li>**Leitor de segurança**</li></ul> <p> Essas funções podem ser atribuídas no Azure Active Directory ( ) ou no centro de administração <https://portal.azure.com> do Microsoft 365 ( <https://admin.microsoft.com> ).|
 |Exibir incidentes (também chamados de investigações) <p> Adicionar mensagens de email a um incidente|Uma das seguintes opções: <ul><li>**Administrador Global**</li><li>**Administrador de Segurança**</li><li>**Leitor de segurança**</li></ul> <p> Essas funções podem ser atribuídas no Azure Active Directory ( ) ou no centro de administração <https://portal.azure.com> do Microsoft 365 ( <https://admin.microsoft.com> ).|
-|Disparar ações de email em um incidente <p> Encontrar e excluir mensagens de email suspeitas|Uma das seguintes opções: <ul><li>**Administrador Global**</li><li>**Administrador de Segurança** mais a **função Pesquisar e** Limpar</li></ul> <p> As **funções administrador global** e administrador de segurança podem ser atribuídas no Azure Active Directory ( ) ou no centro de administração do Microsoft  <https://portal.azure.com> 365 ( <https://admin.microsoft.com> ). <p> A **função Pesquisar e Limpar** deve ser atribuída no Centro de Conformidade & Segurança ( <https://protection.office.com> ).|
+|Disparar ações de email em um incidente <p> Encontrar e excluir mensagens de email suspeitas|Uma das seguintes opções: <ul><li>**Administrador Global**</li><li>**Administrador de Segurança** mais a **função Pesquisar e** Limpar</li></ul> <p> As funções  de Administrador **Global** e Administrador de Segurança podem ser atribuídas no Azure Active Directory ( ) ou no Centro de administração do Microsoft <https://portal.azure.com> 365 ( <https://admin.microsoft.com> ). <p> A **função Pesquisar e** Limpar deve ser atribuída no Centro de Conformidade & Segurança ( <https://protection.office.com> ).|
 |Integrar o Microsoft Defender para Office 365 Plano 2 com o Microsoft Defender para Ponto de Extremidade  <p> Integrar o Microsoft Defender para Office 365 Plano 2 com um servidor SIEM|A função **administrador global** ou **administrador** de segurança atribuída no Azure Active Directory ( ) ou no centro de administração do <https://portal.azure.com> Microsoft 365 ( <https://admin.microsoft.com> ). <p> --- **plus** --- <p> Uma função apropriada atribuída em aplicativos adicionais (como a Central de Segurança do [Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) ou seu servidor SIEM).|
 |
 

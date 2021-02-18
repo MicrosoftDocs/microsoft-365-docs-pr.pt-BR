@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 9156025990e8da61006ac1d3b81a71be5580e00c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1636b1deb5f35d8286b33238a8f4bbfff0b33521
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167378"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288120"
 ---
 # <a name="microsoft-365-defender-preview-features"></a>Recursos de visualização do Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
->[!IMPORTANT]
->As versões de visualização são fornecidas sem um contrato de nível de serviço e não são recomendadas para cargas de trabalho de produção. Certos recursos podem não ter suporte ou podem ter funcionalidades restritas.
+> [!IMPORTANT]
+> As versões de visualização são fornecidas sem um contrato de nível de serviço e não são recomendadas para cargas de trabalho de produção. Certos recursos podem não ter suporte ou podem ter funcionalidades restritas.
 
 **Aplica-se a:**
 - Microsoft 365 Defender
@@ -43,26 +43,33 @@ Saiba mais sobre os novos recursos na versão de visualização do Microsoft 365
 
 Para obter mais informações sobre os novos recursos que estão geralmente disponíveis, consulte [Novidades no Microsoft 365 Defender.](whats-new.md)
 
+## <a name="required-permissions"></a>Permissões obrigatórias
+
+As contas atribuídas às seguintes funções do Azure Active Directory (Azure AD) podem ativar os recursos do Microsoft 365 Defender Preview:
+
+- Administrador global
+- Administrador de segurança
+- Operador de segurança
+
 ## <a name="turn-on-preview-features"></a>Habilitar recursos de prévia
+
 Você terá acesso aos recursos futuros sobre os que poderá fornecer comentários para ajudar a melhorar a experiência geral antes que os recursos sejam disponibilizados em geral.
 
 Ative a configuração de experiência de visualização para ser uma das primeiras pessoas a experimentar os recursos futuros.
 
 1. No painel de navegação, selecione **Configurações**.
-
 2. Selecione **o Microsoft 365 Defender.**
-
 3. Selecione **Prévia dos recursos** > **Ativar prévia dos recursos**. 
-
 4. Selecione **Salvar**.
 
 Você saberá que tem prévia dos recursos ativados quando vir que a caixa de seleção **Ativar prévia dos recursos** está marcada. 
 
 ## <a name="preview-features"></a>Recursos em versão prévia
+
 Os recursos e aprimoramentos a seguir estão disponíveis em prévia:
 
 ### <a name="improved-microsoft-365-security-center"></a>Centro de segurança aprimorado do Microsoft 365
-A central de segurança aprimorada do [Microsoft 365](https://security.microsoft.com) agora está disponível na visualização pública. Essa nova experiência traz o Defender para o Ponto de Extremidade, o Defender para Office 365, o Microsoft 365 Defender e muito mais na central de segurança do Microsoft 365. Esta é a nova página de gerenciamento dos controles de segurança. [Saiba o que há de novo.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
+O aperfeiçoado[Centro de segurança do Microsoft 365](https://security.microsoft.com) está agora disponível em pré-visualização pública. Essa nova experiência traz o Defender para o Ponto de Extremidade, o Defender para Office 365, o Microsoft 365 Defender e muito mais para a central de segurança do Microsoft 365. Esta é a nova página de gerenciamento dos controles de segurança. [Conheça as novidades](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center).
 
 - Relatório de análise de ameaças do **[Microsoft 365 Defender](threat-analytics.md)** - A Análise de ameaças ajuda você a responder e minimizar o impacto de ataques ativos. Você também pode aprender sobre tentativas de ataque bloqueadas pelas soluções do Microsoft 365 Defender e tomar ações preventivas que reduzam o risco de mais exposição e aumentam a resiliência. Como parte da experiência de segurança unificada, a análise de ameaças agora está disponível para os titulares de licença do Microsoft Defender para Ponto de Extremidade e do Microsoft Defender para Office E5.
 - **[APIs do Microsoft 365 Defender](api-overview.md)** – as APIs de nível superior do Microsoft 365 Defender permitirão automatizar fluxos de trabalho com base no incidente compartilhado e tabelas de busca avançada. 

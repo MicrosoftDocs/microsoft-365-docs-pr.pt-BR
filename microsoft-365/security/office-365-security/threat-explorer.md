@@ -19,21 +19,21 @@ description: Use o Explorer e as detecções em tempo real no Centro de Conformi
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5cbb8bd57a2e9bde8d19c960a71066d3ea5531c1
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: daa7b4014d1302743578d79c2e1e0e1d2d5ac61f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233637"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288892"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Detecções do Explorador de Ameaças e em Tempo Real
 
 
 **Aplica-se a**
-- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Se sua organização tiver o Microsoft Defender para [Office 365](office-365-atp.md)e você tiver as permissões [necessárias,](#required-licenses-and-permissions)você terá detecções do **Explorer** ou em tempo **real** (anteriormente relatórios em tempo *real* [—](#new-features-in-threat-explorer-and-real-time-detections)veja as novidades !). No Centro de Conformidade & segurança, vá para o gerenciamento de ameaças **e** escolha **Explorer** _ou_ **detecções em tempo real.**
+Se sua organização tiver o Microsoft Defender para [Office 365](office-365-atp.md)e você tiver as permissões [necessárias,](#required-licenses-and-permissions)você terá detecções do **Explorer** ou em tempo **real** (anteriormente relatórios em tempo *real* [—](#new-features-in-threat-explorer-and-real-time-detections)veja as novidades !). No Centro de Conformidade & segurança, vá para o gerenciamento de ameaças e **escolha** **Explorer** _ou_ **detecções em tempo real.**
 
 
 |Com o Microsoft Defender para Office 365 Plano 2, você pode ver:|Com o Microsoft Defender para Office 365 Plano 1, você pode ver:|
@@ -49,7 +49,7 @@ Com esse relatório, você pode:
 
 - [Ver malware detectado pelos recursos de segurança do Microsoft 365](#see-malware-detected-in-email-by-technology)
 - [Exibir URL de phishing e clicar em dados de veredito](#view-phishing-url-and-click-verdict-data)
-- [Iniciar um processo automatizado de investigação e resposta a](#start-automated-investigation-and-response) partir de uma exibição no Explorer (somente o Defender para Office 365 Plano 2)
+- [Iniciar um processo automatizado de investigação e resposta a](#start-automated-investigation-and-response) partir de uma exibição no Explorer (apenas o Defender para Office 365 Plano 2)
 - [Investigar emails mal-intencionados e muito mais](#more-ways-to-use-explorer-and-real-time-detections)
 
 ## <a name="improvements-to-threat-explorer-and-real-time-detections"></a>Melhorias no Explorador de Ameaças e detecções em tempo real
@@ -179,7 +179,7 @@ As melhorias incluem:
 
 - Mostre a URL clicada completa (incluindo todos os parâmetros de consulta que fazem parte da URL) na seção **Cliques** do flyout da URL. Atualmente, o domínio e o caminho da URL aparecem na barra de título. Estamos estendendo essas informações para mostrar a URL completa.
 
-- Correções entre filtros de URL *(URL* versus domínio da *URL* versus domínio e caminho da *URL):* as atualizações afetam a pesquisa de mensagens que contêm um veredito de URL/clique. Habilitamos o suporte para pesquisas sem protocolo, para que você possa procurar uma URL sem `http` usar. Por padrão, a pesquisa de URL é mapeada para http, a menos que outro valor seja explicitamente especificado. Por exemplo:
+- Correções entre filtros de URL *(URL* versus domínio da *URL* versus domínio e caminho da *URL):* as atualizações afetam a pesquisa de mensagens que contêm um veredito de URL/clique. Habilitamos o suporte para pesquisas sem diagnóstico de protocolo, para que você possa procurar uma URL sem `http` usar. Por padrão, a pesquisa de URL é mapeada para http, a menos que outro valor seja explicitamente especificado. Por exemplo:
 
    -  Pesquise com e sem o prefixo nos campos de filtro `http://` **URL,** **DOMÍNIO da URL** e **Caminho.** As pesquisas devem mostrar os mesmos resultados.
 
@@ -199,7 +199,7 @@ O sinal da URL da ZAP normalmente é usado para cenários de alerta de phishing 
 
 Para melhorar o processo de busca, atualizamos o Explorador de Ameaças e as detecções em tempo real para tornar a experiência de busca mais consistente. As alterações são descritas aqui:
 
-- [Melhorias de timezone](#timezone-improvements)
+- [Melhorias de zona de tempo](#timezone-improvements)
 - [Atualização no processo de atualização](#update-in-the-refresh-process)
 - [Detalhamento do gráfico a ser acrescentado aos filtros](#chart-drilldown-to-add-to-filters)
 - [Em atualizações de informações do produto](#in-product-information-updates)
@@ -213,7 +213,7 @@ Agora você pode classificar e filtrar por marcas de usuário do sistema ou pers
 
 ![Coluna Tags no Explorer](../../media/threat-explorer-tags.png)
 
-### <a name="timezone-improvements"></a>Melhorias de timezone
+### <a name="timezone-improvements"></a>Melhorias de zona de tempo
 
 Você verá o fuso horário dos registros de email no Portal, bem como dos dados exportados. Ele ficará visível em experiências como Grade de Email, Detalhes, Linha do Tempo de Email e Emails Semelhantes, para que o fuso horário do conjunto de resultados seja claro.
 
@@ -256,7 +256,7 @@ Você poderá exportar a lista de usuários direcionados, até um limite de 3.00
 
 ### <a name="exchange-transport-rules"></a>Regras de transporte do Exchange
 
-Como parte do enriquecimento de dados, você poderá ver todas as diferentes regras de transporte do Exchange (ETR) que foram aplicadas a uma mensagem. Essas informações estarão disponíveis na exibição de grade Email. Para exibi-la, selecione **Opções de coluna** na grade e, em **seguida, adicione a Regra** de Transporte do Exchange nas opções de coluna. Ele também estará visível no flyout **Detalhes** no email.
+Como parte do enriquecimento de dados, você poderá ver todas as diferentes regras de transporte do Exchange (ETR) que foram aplicadas a uma mensagem. Essas informações estarão disponíveis na exibição de grade Email. Para exibi-lo, selecione **Opções de coluna** na grade e, em **seguida, adicione a Regra** de Transporte do Exchange nas opções de coluna. Ele também estará visível no flyout **Detalhes** no email.
 
 Você poderá ver o GUID e o nome das regras de transporte que foram aplicadas à mensagem. Você poderá pesquisar as mensagens usando o nome da regra de transporte. Esta é uma pesquisa "Contém", o que significa que você também pode fazer pesquisas parciais.
 
@@ -301,7 +301,7 @@ Agora você pode visualizar um header de email e baixar o corpo do email nos Adm
 
 As detecções do Explorer e em tempo real também receberão novos campos que fornecem uma imagem mais completa de onde suas mensagens de email chegarão. Essas alterações facilitam a busca por operações de segurança. Mas o principal resultado é que você pode saber rapidamente o local das mensagens de email com problemas.
 
-Como isso é feito? O status de entrega agora é dividido em duas colunas:
+Como isso é feito? O status de entrega agora está dividido em duas colunas:
 
 - **Ação de entrega** - Status do email.
 - **Local de entrega** - Para onde o email foi roteado.
@@ -416,7 +416,7 @@ Para revisar URLs de phishing em mensagens e cliques em URLs em mensagens de phi
 
 ### <a name="interpretation-of-click-verdicts"></a>Interpretação de vereditos de clique
 
-Nos flyouts email ou URL, cliques principais, bem como dentro de nossas experiências de filtragem, você verá valores de veredito de clique diferentes:
+Nos flyouts email ou URL, cliques principais, bem como em nossas experiências de filtragem, você verá diferentes valores de veredito de clique:
 
 - **Nenhuma:** Não é possível capturar o veredito da URL. O usuário pode ter clicado na URL.
 - **Permitido:** O usuário teve permissão para navegar até a URL.
@@ -454,7 +454,7 @@ O relatório é atualizado para mostrar dados sobre mensagens de email que as pe
 
 [A investigação e resposta automatizadas](automated-investigation-response-office.md) podem economizar tempo e esforço da equipe de operações de segurança investigando e mitigando ataques cibernéticos. Além de configurar alertas que podem disparar um manual de segurança, você pode iniciar um processo automatizado de investigação e resposta a partir de uma exibição no Explorer. Para obter detalhes, consulte [Exemplo: Um administrador de segurança dispara uma investigação do Explorer](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer).
 
-## <a name="more-ways-to-use-explorer-and-real-time-detections"></a>Mais maneiras de usar detecções do Explorer e em tempo real
+## <a name="more-ways-to-use-explorer-and-real-time-detections"></a>Mais maneiras de usar o Explorer e as detecções em tempo real
 
 Além dos cenários descritos neste artigo, você tem muito mais opções de relatório disponíveis com o Explorer (ou detecções em tempo real). Confira os seguintes artigos:
 
@@ -462,7 +462,7 @@ Além dos cenários descritos neste artigo, você tem muito mais opções de rel
 - [Exibir arquivos mal-intencionados detectados no SharePoint Online, OneDrive e Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 - [Obter uma visão geral das exibições no Explorador de Ameaças (e detecções em tempo real)](threat-explorer-views.md)
 - [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
-- [Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](../mtp/mtp-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 

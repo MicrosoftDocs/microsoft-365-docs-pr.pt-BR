@@ -18,27 +18,27 @@ ms.collection:
 description: Os administradores podem exibir perguntas frequentes e respostas sobre a proteção anti-spoofing no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d0805b5ca9e951234679ed8b3d03b6bdfced2be
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: d2d307d201af8ad09a4faf7a865a29da8942bdf8
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175883"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288904"
 ---
 # <a name="anti-spoofing-protection-faq"></a>Perguntas frequentes sobre a proteção antifalsificação
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Este artigo fornece perguntas frequentes e respostas sobre a proteção anti-spoofing para organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online.
 
 Para perguntas e respostas sobre a proteção anti-spam, consulte Perguntas frequentes sobre [a proteção anti-spam.](anti-spam-protection-faq.md)
 
-Para perguntas e respostas sobre a proteção anti-malware, consulte Perguntas frequentes sobre [a proteção anti-malware](anti-malware-protection-faq-eop.md)
+Para obter perguntas e respostas sobre a proteção anti-malware, consulte Perguntas frequentes sobre [a proteção anti-malware](anti-malware-protection-faq-eop.md)
 
 ## <a name="why-did-microsoft-choose-to-junk-unauthenticated-inbound-email"></a>Por que a Microsoft escolheu lixo eletrônico de entrada não autenticado?
 
@@ -64,13 +64,13 @@ Você [não conhece todas as fontes para seu email.](email-validation-and-authen
 
 ## <a name="what-happens-if-i-disable-anti-spoofing-protection-for-my-organization"></a>O que acontece se eu desabilitar a proteção anti-spoofing para minha organização?
 
-Não recomendamos desabilitar a proteção anti-spoofing. Desabilitar a proteção permitirá que mais mensagens de phishing e spam sejam entregues em sua organização. Nem todos os phishing são spoofing, e nem todas as mensagens falsas serão perdidas. No entanto, o risco será maior.
+Não recomendamos desabilitar a proteção anti-spoofing. Desabilitar a proteção permitirá que mais mensagens de phishing e spam sejam entregues em sua organização. Nem todos os phishing são spoofing, e nem todas as mensagens falsas serão perdidas. No entanto, seu risco será maior.
 
-Agora [que](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) a Filtragem Aprimorada para Conectores está disponível, não recomendamos mais desligar a proteção anti-spoofing quando seu email é roteado por outro serviço antes do EOP.
+Agora que [a](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) Filtragem Aprimorada para Conectores está disponível, não recomendamos mais desligar a proteção anti-spoofing quando seu email é roteado por outro serviço antes do EOP.
 
-## <a name="does-anti-spoofing-protection-mean-i-will-be-protected-from-all-phishing"></a>A proteção anti-spoofing significa que eu vou estar protegido contra todos os phishing?
+## <a name="does-anti-spoofing-protection-mean-i-will-be-protected-from-all-phishing"></a>A proteção anti-spoofing significa que eu vou ficar protegido contra todos os phishing?
 
-Infelizmente, não. Os invasores se adaptarão para usar outras técnicas (por exemplo, contas comprometidas ou contas em serviços de email gratuitos). No entanto, a proteção anti-phishing funciona muito melhor para detectar esses outros tipos de métodos de phishing. As camadas de proteção no EOP são projetadas para trabalhar juntas e se baseiem umas nas outras.
+Infelizmente, não. Os invasores se adaptarão para usar outras técnicas (por exemplo, contas comprometidas ou contas em serviços de email gratuitos). No entanto, a proteção anti-phishing funciona muito melhor para detectar esses outros tipos de métodos de phishing. As camadas de proteção no EOP são projetadas para trabalhar juntas e se baseam umas nas outras.
 
 ## <a name="do-other-large-email-services-block-unauthenticated-inbound-email"></a>Outros serviços de email grandes bloqueiam emails de entrada não autenticados?
 

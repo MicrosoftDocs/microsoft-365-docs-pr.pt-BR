@@ -14,21 +14,21 @@ search.appverid:
 description: Os administradores podem saber mais sobre as opções disponíveis e preferenciais para bloquear mensagens de entrada no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d77457567d4c3f9f4a8620021a7fb41615f0594d
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 5c95b49db811807a0cb46dce5363b8ae2dbe5602
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165650"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287276"
 ---
 # <a name="create-blocked-sender-lists-in-eop"></a>Criar listas de remetentes bloqueados no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de bloquear emails de destinatários indesejados. Essas opções incluem Remetentes Bloqueados do Outlook, listas de remetentes bloqueados ou listas de domínios bloqueados em políticas anti-spam, regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) e a Lista de Bloqueios de IP (filtragem de conexão). Coletivamente, você pode pensar nessas opções como listas _de remetentes bloqueados._
 
@@ -47,7 +47,7 @@ O melhor método para bloquear os envios varia no escopo do impacto. Para um ún
 
 Por outro lado, você também tem várias opções para sempre permitir emails de fontes específicas usando _listas de remetentes confiáveis._ Para obter mais informações, confira [Criar listas de remetentes seguros](create-safe-sender-lists-in-office-365.md).
 
-## <a name="email-message-basics"></a>Noções básicas de mensagens de email
+## <a name="email-message-basics"></a>Noções básicas sobre mensagens de email
 
 Uma mensagem de email SMTP padrão consiste em um *envelope de mensagem* e conteúdo de mensagem. O envelope da mensagem contém informações necessárias para transmitir e entregar a mensagem entre servidores SMTP. O conteúdo da mensagem contém campos de título da mensagem (coletivamente chamado de título da *mensagem)* e o corpo da mensagem. O envelope da mensagem é descrito na RFC 5321 e o header da mensagem é descrito na RFC 5322. Os destinatários nunca veem o envelope real da mensagem porque ele é gerado pelo processo de transmissão da mensagem e não faz parte realmente da mensagem.
 
@@ -76,7 +76,7 @@ O limite máximo para essas listas é de aproximadamente 1.000 entradas.
 
 ## <a name="use-mail-flow-rules"></a>Usar regras de fluxo de emails
 
-Se você precisar bloquear mensagens enviadas a usuários específicos ou por toda a organização, poderá usar regras de fluxo de emails. As regras de fluxo de emails são mais flexíveis do que bloquear listas de remetentes ou listas de domínios de remetentes bloqueados porque também podem procurar palavras-chave ou outras propriedades nas mensagens indesejadas.
+Se você precisar bloquear mensagens enviadas a usuários específicos ou por toda a organização, poderá usar regras de fluxo de emails. As regras de fluxo de emails são mais flexíveis do que bloquear listas de remetentes ou listas de domínios de remetentes bloqueados porque elas também podem procurar palavras-chave ou outras propriedades nas mensagens indesejadas.
 
 Independentemente das condições ou exceções que você usa para identificar as mensagens, configure a ação para definir o nível de confiança de spam (SCL) da mensagem como 9, o que marca a mensagem como **spam** de alta confiança. Para obter mais informações, [consulte Usar regras de fluxo de emails para definir o SCL em mensagens.](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 
@@ -85,6 +85,6 @@ Independentemente das condições ou exceções que você usa para identificar a
 
 ## <a name="use-the-ip-block-list"></a>Usar a Lista de Bloqueios de IP
 
-Quando não for possível usar uma das outras opções para bloquear um *remetente,* somente então você deverá usar a Lista de Bloqueios de IP na política de filtro de conexão. Para obter mais informações, consulte [Configurar a política de filtro de conexão](configure-the-connection-filter-policy.md). É importante manter o número mínimo de IPs bloqueados, portanto,  não é recomendável bloquear intervalos de endereços IP inteiros.
+Quando não for possível usar uma das outras opções para bloquear um *remetente,* só então você deverá usar a Lista de Bloqueios de IP na política de filtro de conexão. Para obter mais informações, consulte [Configurar a política de filtro de conexão](configure-the-connection-filter-policy.md). É importante manter o número mínimo de IPs bloqueados, portanto,  não é recomendável bloquear intervalos de endereços IP inteiros.
 
 Você  deve evitar especialmente adicionar intervalos de endereço IP que pertencem a serviços de consumidor (por exemplo, outlook.com) ou infraestruturas compartilhadas, e também garantir que revise a lista de endereços IP bloqueados como parte da manutenção regular.

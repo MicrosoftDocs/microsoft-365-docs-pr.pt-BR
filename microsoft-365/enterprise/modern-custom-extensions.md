@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Aprenda como otimizar o desempenho de extensões personalizadas nas páginas do site modernas do SharePoint Online.
-ms.openlocfilehash: 3f9474bcfa3266742d2e01af2f1df6eb5c0d017c
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 92d328c64c89a1a01bbcd50fb7ad04affdf69af8
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687312"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287192"
 ---
 # <a name="optimize-custom-extension-performance-in-sharepoint-online-modern-site-pages"></a>Otimizar o desempenho da extensão personalizada nas páginas do site modernas do SharePoint Online
 
@@ -45,16 +45,17 @@ Os resultados possíveis incluem:
 - **Oportunidades de melhoria** (amarelo) Se **cinco** ou mais extensões forem usadas, elas serão destacadas nesta seção como um aviso até que sete ou mais sejam usadas, e então serão destacadas como Atenção Necessária.
 - **Nenhuma ação é necessária** (verde): Nenhuma extensão está levando mais de um segundo para carregar.
 
-Se uma extensão estiver afetando o tempo de carregamento da página ou se houver muitas extensões na página, o resultado será exibido na seção **Atenção necessária** dos resultados. Clique no resultado para ver os detalhes sobre qual extensão está carregando lentamente ou se muitas extensões foram destacadas. Futuras atualizações da ferramenta Diagnóstico de Página para SharePoint podem incluir atualizações de regras de análise, portanto, garanta que você sempre tenha a versão mais recente da ferramenta.
+Se uma extensão estiver afetando o tempo de carregamento da página ou  houver muitas extensões na página, o resultado aparecerá na seção Atenção necessária dos resultados. Clique no resultado para ver os detalhes sobre qual extensão está carregando lentamente ou se muitas extensões foram destacadas. Futuras atualizações da ferramenta Diagnóstico de Página para SharePoint podem incluir atualizações de regras de análise, portanto, garanta que você sempre tenha a versão mais recente da ferramenta.
 
 ![Resultados do tempo de carregamento da página](../media/page-diagnostics-for-spo/pagediag-extensions-load-time.png)
 
 As informações disponíveis nos resultados incluem:
 
 - **Nome e ID** mostram informações de identificação que podem ajudá-lo a encontrar a extensão na página
-- **Total** mostra o tempo total para a extensão inicializar e carregar
-- **Carregamento do Módulo** mostra o tempo necessário para buscar e carregar a extensão
-- **Inicialização** mostra o tempo necessário para a extensão inicializar
+- **O total** mostra o tempo total para a extensão carregar e inicializar o módulo. É o tempo relativo total que a extensão levou para executar na página, do início ao fim.
+- **A Carga do** Módulo mostra o tempo de download, avaliação e carregamento das extensões javaScript e arquivos CSS. Em seguida, ele iniciará o processo de início.
+- **Init** mostra o tempo que a extensão levou para inicializar os dados.
+    Trata-se de uma chamada assíncrona e o tempo de emissão é o cálculo do tempo para a função onInit quando a promessa retornada é resolvida.
 
 Essas informações são fornecidas para ajudar designers e desenvolvedores a solucionar problemas. Elas devem ser encaminhadas à equipe de design e desenvolvimento.
 

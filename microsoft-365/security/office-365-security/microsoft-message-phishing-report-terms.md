@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
-ms.openlocfilehash: a6c28bad5b79bc7459a1a00fabb6713b1759201d
-ms.sourcegitcommit: b3bb5bf5efa197ef8b16a33401b0b4f5663d3aa0
+ms.openlocfilehash: 2b2b8a6215a653cee7ea67bafaadddc096abb911
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50032677"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288152"
 ---
 # <a name="microsoft-report-message-and-report-phishing-add-in-license-terms"></a>Microsoft Report Message and Report Phishing Add-In license terms
 
@@ -42,11 +42,11 @@ Se você estiver em conformidade com estes termos de licença, você tem os dire
 
     1. **General.** You may install and use any number of copies of the software.
     1. **Third Party Software.** O software pode incluir aplicativos de terceiros que a Microsoft, não a terceiros, licencia para você sob este contrato. Quaisquer avisos incluídos para aplicativos de terceiros são apenas para suas informações.
-    1. **Contrato de Serviços Microsoft.** Alguns recursos do software fornecem acesso ou dependem de serviços online. O uso desses serviços (mas não o software) é regido pelos termos separados e políticas de privacidade no Contrato de Serviços Microsoft em [https://go.microsoft.com/fwlink/?linkid=398923](https://go.microsoft.com/fwlink/?linkid=398923) . Leia-os. Os serviços podem não estar disponíveis em todas as regiões.
+    1. **Contrato de Serviços Microsoft.** Alguns recursos do software fornecem acesso ou dependem de serviços online. O uso desses serviços (mas não o software) é regido pelos termos separados e políticas de privacidade no Contrato de Serviços Microsoft em <https://www.microsoft.com/servicesagreement/> . Leia-os. Os serviços podem não estar disponíveis em todas as regiões.
 
-2. **DATA COLLECTION.** O software pode coletar informações sobre você e seu uso do software e enviá-los para a Microsoft. A Microsoft pode usar essas informações para fornecer serviços e melhorar os produtos e serviços da Microsoft. Seus direitos de aceitação, se necessário, estão descritos na documentação do produto. Alguns recursos do software podem habilitar a coleta de dados de usuários de seus aplicativos que acessam ou usam o software. 
+2. **DATA COLLECTION.** O software pode coletar informações sobre você e seu uso do software e enviá-los para a Microsoft. A Microsoft pode usar essas informações para fornecer serviços e melhorar os produtos e serviços da Microsoft. Seus direitos de aceitação, se necessário, estão descritos na documentação do produto. Alguns recursos do software podem habilitar a coleta de dados de usuários de seus aplicativos que acessam ou usam o software.
 
-    Se você usar esses recursos para habilitar a coleta de dados em seus aplicativos, deverá estar em conformidade com a lei aplicável, incluindo obter qualquer consentimento necessário do usuário e manter uma política de privacidade proeminente que informe com precisão os usuários sobre como você usa, coleta e compartilha seus dados. Você pode saber mais sobre a coleta e o uso de dados da Microsoft na documentação do produto e na Política de Privacidade da Microsoft em [https://go.microsoft.com/fwlink/?LinkId=512132](https://go.microsoft.com/fwlink/?LinkId=512132) . Você concorda em cumprir todas as disposições aplicáveis da Declaração de Privacidade da Microsoft.
+    Se você usar esses recursos para habilitar a coleta de dados em seus aplicativos, deverá estar em conformidade com a lei aplicável, incluindo obter qualquer consentimento necessário do usuário e manter uma política de privacidade proeminente que informe com precisão os usuários sobre como você usa, coleta e compartilha seus dados. Você pode saber mais sobre a coleta e o uso de dados da Microsoft na documentação do produto e na Política de Privacidade da Microsoft em <https://privacy.microsoft.com/privacystatement> . Você concorda em cumprir todas as disposições aplicáveis da Declaração de Privacidade da Microsoft.
 
 3. **SCOPE OF LICENSE.** The software is licensed, not sold. Microsoft reserves all other rights. Unless applicable law gives you more rights despite this limitation, you will not (and have no right to):
     1. work around any technical limitations in the software that only allow you to use it in certain ways;
@@ -62,7 +62,7 @@ Se você estiver em conformidade com estes termos de licença, você tem os dire
 
 6. **UPDATES.** The software may periodically check for updates, and download and install them for you. You may obtain updates only from Microsoft or authorized sources. Microsoft may need to update your system to provide you with updates. You agree to receive these automatic updates without any additional notice. Updates may not include or support all existing software features, services, or peripheral devices.
 
-7. **BINDING ARBITRATION AND CLASS ACTION WAIVER.** **Esta seção se aplica se você estiver nos Estados Unidos (ou, se for uma empresa, seu principal local de negócios).** If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. Se você e a Microsoft não puderem, você e a Microsoft concordarão em vincular a arbitragem individual antes da American **Arbitration Association** sob a FEDERAL Arbitration Act ("FAA"), e não processar em tribunal na frente de um júri ou de um **júri.** Instead, a neutral arbitrator will decide. **Ações judiciais de classe,** arbitragens em toda a classe, ações gerais de advogado particular e qualquer outro procedimento em que alguém age em uma capacidade representativa **não são permitidos;** nem está combinando procedimentos individuais sem o consentimento de todas as partes. O Contrato de Arbitragem completo contém mais termos e está em [https://aka.ms/arb-agreement-1](https://aka.ms/arb-agreement-1) . You and Microsoft agree to these terms.
+7. **BINDING ARBITRATION AND CLASS ACTION WAIVER.** **Esta seção se aplica se você estiver nos Estados Unidos (ou, se for uma empresa, seu principal local de negócios).** If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. Se você e a Microsoft não puderem, você e a Microsoft concordarão em vincular a arbitragem individual antes da American **Arbitration Association** sob a FEDERAL Arbitration Act ("FAA"), e não processar em tribunal na frente de um júri ou de um **júri.** Instead, a neutral arbitrator will decide. **Ações legais de** ação de classe, arbitragens em toda a classe, ações gerais de advogado particular e qualquer outro procedimento em que alguém age em uma capacidade representativa não são **permitidos;** nem está combinando procedimentos individuais sem o consentimento de todas as partes. O Contrato de Arbitragem completo contém mais termos e está em [https://aka.ms/arb-agreement-1](https://aka.ms/arb-agreement-1) . You and Microsoft agree to these terms.
 
 8. **ENTIRE AGREEMENT.** This agreement, and any other terms Microsoft may provide for supplements, updates, or third-party applications, is the entire agreement for the software.
 
@@ -72,7 +72,7 @@ Se você estiver em conformidade com estes termos de licença, você tem os dire
 
     *En Français:* **EFFET JURIDIQUE.** Le présent contrat décrit certains droits juridiques. Vous pourriez avoir d’autres droits prévus par les lois de votre pays. Le présent contrat ne modifie pas les droits que vous confèrent les lois de votre pays si celles-ci ne le permettent pas.
 
-    *Em inglês (nenhuma tradução em francês fornecida nesta seção):* Por exemplo, se você adquiriu o software em uma das regiões abaixo ou se a lei obrigatória do país se aplicar, as seguintes disposições se aplicarão a você:
+    *Em inglês (nenhuma tradução em francês fornecida nesta seção):* Por exemplo, se você adquiriu o software em uma das regiões abaixo, ou se a lei obrigatória do país se aplicar, as seguintes disposições se aplicarão a você:
 
     1. **Australia.** You have statutory guarantees under the Australian Consumer Law and nothing in this agreement is intended to affect those rights.
     1. **Canada.** If you acquired this software in Canada, you may stop receiving updates by turning off the automatic update feature, disconnecting your device from the Internet (if and when you re-connect to the Internet, however, the software will resume checking for and installing updates), or uninstalling the software. The product documentation, if any, may also specify how to turn off updates for your specific device or software.
@@ -82,11 +82,11 @@ Se você estiver em conformidade com estes termos de licença, você tem os dire
 
             Subject to the foregoing clause ii., Microsoft will only be liable for slight negligence if Microsoft is in breach of such material contractual obligations, the fulfillment of which facilitate the due performance of this agreement, the breach of which would endanger the purpose of this agreement and the compliance with which a party may constantly trust in (so-called "cardinal obligations"). In other cases of slight negligence, Microsoft will not be liable for slight negligence.
 
-11. *Em inglês:* **AVISO DE ISENÇÃO DE RESPONSABILIDADE DA GARANTIA.** O software é licenciado "como está". Você assume o risco ao utilizá-los. A Microsoft não oferece garantias expressas, garantias ou condições. Na extensão permitida de acordo com as leis aplicáveis, a Microsoft exclui todas as garantias implícitas, incluindo comercialização, adequação a uma finalidade específica e não violação.
+11. *Em inglês:* **AVISO DE ISENÇÃO DE RESPONSABILIDADE DA GARANTIA.** O software é licenciado "como está". Você assume o risco de usá-lo. A Microsoft não oferece garantias expressas, garantias ou condições. Na extensão permitida de acordo com as leis aplicáveis, a Microsoft exclui todas as garantias implícitas, incluindo comercialização, adequação a uma finalidade específica e não violação.
 
     *En Français*: **EXONÉRATION DE GARANTIE.** Le logiciel visé par une licence est offert « tel quel ». Toute utilisation de ce logiciel est à votre seule risque et péril. Microsoft n’accorde aucune autre garantie expresse. Vous pouvez bénéficier de droits additionnels en vertu du droit local sur la protection des consommateurs, que ce contrat ne peut modifier. La ou elles sont permises par le droit locale, les garanties implicites de qualité marchande, d’adéquation à un usage particulier et d’absence de contrefaçon sont exclues.
 
-12. *Em inglês:* **LIMITAÇÃO E EXCLUSÃO DE DANOS.** Se você tiver qualquer base para recuperar danos apesar do aviso de isenção de responsabilidade anterior da garantia, poderá recuperar da Microsoft e de seus fornecedores apenas danos diretos até US$ 5,00. Você não pode recuperar outros danos, incluindo conseqüenciais, lucros perdidos, danos especiais, indiretos ou incidentais.
+12. *Em inglês:* **LIMITAÇÃO E EXCLUSÃO DE DANOS.** Se você tiver qualquer base para recuperar danos apesar do aviso de isenção de responsabilidade anterior da garantia, poderá recuperar da Microsoft e de seus fornecedores apenas danos diretos até US$ 5,00. Você não pode recuperar quaisquer outros danos, incluindo conseqüenciais, lucros perdidos, danos especiais, indiretos ou incidentais.
 
     Essa limitação se aplica a (a) qualquer coisa relacionada ao software, serviços, conteúdo (incluindo código) em sites da Internet de terceiros ou aplicativos de terceiros; e (b) reivindicações por violação de contrato, garantia, garantia ou condição; responsabilidade estrita, negligência ou outra imresponsabilidade; ou qualquer outra declaração; em cada caso, na extensão permitida pela lei aplicável.
 

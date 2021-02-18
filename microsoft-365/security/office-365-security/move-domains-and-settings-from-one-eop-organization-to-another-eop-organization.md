@@ -15,19 +15,19 @@ ms.custom:
 description: Neste artigo, você aprenderá a mover domínios e configurações de uma organização do Microsoft Exchange Online Protection (EOP) (locatário) para outra.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4cfb5c31728174f7f7307e9492abc03a62f8bf9a
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 42a212c1826f63f9e7ed8395fe1d6b6564625b7b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150755"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287768"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Mover domínios e configurações de uma organização do EOP para outra
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 A alteração de requisitos comerciais, às vezes, pode exigir a divisão de uma organização (locatário) Microsoft Proteção do Exchange Online (EOP) em duas organizações separadas, mesclando duas organizações em uma ou movendo os domínios e as configurações de EOP de uma organização para outra. Mover de uma organização EOP para uma segunda organização EOP pode ser desafiador, mas com alguns scripts remotos básicos do Windows PowerShell e um pouco de preparação, isso pode ser obtido com uma janela de manutenção relativamente pequena.
 
@@ -179,7 +179,7 @@ Foreach ($domain in $Domains) {
 }
 ```
 
-Agora você pode revisar e coletar as informações do centro de administração do Microsoft 365 da sua organização de destino para poder verificar rapidamente seus domínios quando chegar a hora:
+Agora você pode revisar e coletar as informações do centro de administração do Microsoft 365 de sua organização de destino para poder verificar rapidamente seus domínios quando chegar a hora:
 
 1. Entre no Centro de administração do Microsoft 365 em <https://portal.office.com> .
 
@@ -193,7 +193,7 @@ Agora você pode revisar e coletar as informações do centro de administração
 
 5. Registre o registro MX ou TXT que você vai usar para verificar seu domínio e conclua o assistente de configuração.
 
-6. Adicione os registros TXT de verificação aos seus registros DNS. Isso permitirá que você verifique mais rapidamente os domínios na organização de destino depois que eles forem removidos da organização de origem. Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+6. Adicione os registros TXT de verificação aos seus registros DNS. Isso permitirá que você verifique mais rapidamente os domínios na organização de destino depois que eles forem removidos da organização de origem. Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
 
 ## <a name="step-3-force-senders-to-queue-mail"></a>Etapa 3: Forçar os remetentes a colocarem emails na fila 
 
@@ -203,7 +203,7 @@ Uma opção para forçar os remetentes a colocar emails na fila é atualizar os 
 
 Outra opção é colocar um registro MX inválido em cada domínio onde os registros DNS do seu domínio são mantidos (também conhecido como servidor de host DNS). Isso fará com que o remetente coloque o email na fila e tente novamente (normalmente as tentativas são repetidas por 48 horas, mas isso pode variar de provedor para provedor). Você pode usar invalid.outlook.com como um destino MX inválido. Diminuir o valor da vida útil (TTL) para cinco minutos no registro MX ajuda a alteração a se propagar para provedores de DNS mais rapidamente.
 
-Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
 
 > [!IMPORTANT]
 > Provedores diferentes colocam o email na fila por períodos de tempo diferentes. Você precisará configurar um novo locatário rapidamente e reverter suas configurações de DNS para evitar que a notificação de falha na entrega (NDRs) seja enviada ao remetente se o tempo na fila expirar.
@@ -933,4 +933,4 @@ if($HostedContentFilterPolicyCount -gt 0){
 
 ## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>Etapa 8: Reverter suas configurações de DNS para interromper o enfileiramento de mensagens de email
 
-Se você optar por definir seus registros MX com um endereço inválido para fazer com que os remetentes enfileiem emails durante a transição, será necessário defini-los de volta para o valor correto, conforme especificado no centro de [administração.](https://admin.microsoft.com) Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
+Se você optar por definir seus registros MX com um endereço inválido para fazer com que os remetentes enfileiem emails durante a transição, você precisará defini-los de volta para o valor correto conforme especificado no centro de [administração.](https://admin.microsoft.com) Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)

@@ -20,12 +20,12 @@ description: Saiba como usar os recursos de investigação e resposta de ameaça
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b1fd9af5267defd55025ca712b3e5f7c0cc3b56
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: b36e16f5351ab30ac8150fbc3e87feb9ca4a6453
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167354"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286628"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigar emails mal-intencionados que foram entregues no Office 365
 
@@ -33,8 +33,8 @@ ms.locfileid: "50167354"
 
 **Aplica-se a**
 
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [O Microsoft Defender para Office 365](office-365-atp.md) permite investigar atividades que colocam as pessoas em sua organização em risco e tomar medidas para proteger sua organização. Por exemplo, se você faz parte da equipe de segurança da sua organização, pode encontrar e investigar mensagens de email suspeitas que foram entregues. Você pode fazer isso usando o [Explorador de Ameaças (ou detecções em tempo real).](threat-explorer.md)
 
@@ -70,7 +70,7 @@ Para executar determinadas ações, como exibir os títulos das mensagens ou bai
 > *A* visualização é uma função e não um grupo de funções; a função De visualização deve ser adicionada a um grupo de função existente para o Office 365 (em [https://protection.office.com](https://protection.office.com) ). Vá para **Permissões e** edite um grupo de função existente ou adicione um novo grupo de funções com a função **Visualização** atribuída.
 > A função administrador global é atribuída ao centro de administração do Microsoft 365 ( ), e as funções administrador de segurança e leitor de segurança são atribuídas no Centro de conformidade de segurança <https://admin.microsoft.com> & ( <https://protection.office.com> ). Para saber mais sobre funções e permissões, consulte Permissões no Centro de Conformidade e [& Segurança.](permissions-in-the-security-and-compliance-center.md)
 
-Entendemos que a visualização e o download de emails são atividades confidenciais e, portanto, a auditoria está habilitada para isso. Depois que um administrador executa essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no Centro de Conformidade e Segurança do Office 36 & 5 ( [https://protection.office.com](https://protection.office.com) ). Vá **para** pesquisar  >  **o log de Auditoria de** Pesquisa e filtre o nome do administrador na seção Pesquisa. Os resultados filtrados mostrarão a atividade **AdminMailAccess**. Selecione uma linha para exibir detalhes na **seção Mais informações** sobre email visualizado ou baixado.
+Entendemos que a visualização e o download de emails são atividades confidenciais e, portanto, a auditoria está habilitada para isso. Depois que um administrador executa essas atividades em emails, os logs de auditoria são gerados para o mesmo e podem ser vistos no Centro de Conformidade e Segurança do Office 36 & 5 ( [https://protection.office.com](https://protection.office.com) ). Vá para a **pesquisa**  >  **de log de Auditoria de** Pesquisa e filtre o nome do administrador na seção Pesquisa. Os resultados filtrados mostrarão a atividade **AdminMailAccess**. Selecione uma linha para exibir detalhes na **seção Mais informações** sobre email visualizado ou baixado.
 
 ## <a name="find-suspicious-email-that-was-delivered"></a>Encontrar emails suspeitos que foram entregues
 
@@ -95,7 +95,7 @@ O Explorador de Ameaças é um relatório poderoso que pode atender a várias fi
 
     No entanto, *Todas as exibições* de email listam todos os emails recebidos pela organização, independentemente de as ameaças ter sido detectadas ou não. Como você pode imaginar, isso é uma grande quantidade de dados, e é por isso que essa exibição mostra um espaço reservado que solicita a aplicação de um filtro. (Essa exibição só está disponível para clientes do Defender para Office 365 P2.)
 
-    *A exibição* envios mostra todos os emails enviados pelo administrador ou usuário que foram relatados à Microsoft.
+    *A exibição* De envios mostra todos os emails enviados pelo administrador ou usuário que foram relatados à Microsoft.
 
 4. **Pesquisar e filtrar no Explorador de Ameaças:** os filtros aparecem na parte superior da página na barra de pesquisa para ajudar os administradores em suas investigações. Observe que vários filtros podem ser aplicados ao mesmo tempo e vários valores separados por vírgula adicionados a um filtro para restringir a pesquisa. Lembre-se:
 
@@ -107,11 +107,11 @@ O Explorador de Ameaças é um relatório poderoso que pode atender a várias fi
 
 5. **Filtros avançados:** com esses filtros, você pode criar consultas complexas e filtrar seu conjunto de dados. Clicar em *Filtros Avançados* abre um menu com opções.
 
-   A filtragem avançada é uma ótima adição aos recursos de pesquisa. Um filtro **BOOLEAN NOT** foi introduzido no *domínio Recipient*, *Sender* e *Sender* para permitir que os administradores investiguem excluindo valores. Esta opção aparece no parâmetro selection *Contains none of*. **NOT** permitirá que os administradores excluam caixas de correio de alerta, caixas de correio de resposta padrão de suas investigações e é útil para casos em que os administradores pesquisam por um assunto específico (subject="Attention") onde o Destinatário pode ser definido como nenhum dos contoso.com *. \@* Esta é uma pesquisa de valor exata.
+   A filtragem avançada é uma ótima adição aos recursos de pesquisa. Um filtro **BOOLEAN NOT** foi introduzido em *Recipient*, *Sender* e *Sender domain* para permitir que os administradores investiguem excluindo valores. Esta opção aparece no parâmetro selection *Contains none of*. **NOT** permitirá que os administradores excluam caixas de correio de alerta, caixas de correio de resposta padrão de suas investigações e é útil para casos em que os administradores pesquisam por um assunto específico (subject="Attention") onde o Destinatário pode ser definido como nenhum dos contoso.com *. \@* Esta é uma pesquisa de valor exato.
 
-   ![O filtro Avançado Recipients - 'Contém nenhum de'.](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
+   ![O filtro Avançado Recipients - "Contém nenhum de".](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
 
-   *A filtragem por horas* ajudará a equipe de segurança da sua organização a se detalhar rapidamente. A menor duração de tempo permitida é de 30 minutos. Se você puder restringir a ação suspeita por período de tempo (por exemplo, isso aconteceu há três horas), isso limitará o contexto e ajudará a identificar o problema.
+   *A filtragem por horas* ajudará a equipe de segurança da sua organização a se detalhar rapidamente. A menor duração de tempo permitida é de 30 minutos. Se você puder restringir a ação suspeita por período de tempo (por exemplo, ocorreu há três horas), isso limitará o contexto e ajudará a identificar o problema.
 
    ![A opção de filtragem por horas para restringir a quantidade de equipes de segurança de dados a processar e cuja duração mais curta é de 30 minutos.](../../media/tp-InvestigateMalEmail-FilterbyHours.png)
 
@@ -131,12 +131,12 @@ O Explorador de Ameaças é um relatório poderoso que pode atender a várias fi
     - **Pasta lixo** eletrônico – O email está na pasta Lixo Eletrônico do usuário.
     - **Pasta itens excluídos** – O email está na pasta Itens Excluídos de um usuário.
     - **Quarentena** – O email em quarentena, e não na caixa de correio de um usuário.
-    - **Falha** – O email não conseguiu chegar à caixa de correio.
+    - **Falha** – O email não conseguiu alcançar a caixa de correio.
     - **Descartado** – O email foi perdido em algum lugar no fluxo de emails.
 
     **Direcionalidade:** essa opção permite que sua equipe de operações de segurança filtre pela "direção" de onde um email vem ou está indo. Os valores de direcionalidade são Entrada *,* Saída e *Dentro da* organização (correspondentes aos emails que vêm para sua organização de fora, enviados para fora da sua organização ou enviados internamente para sua organização, respectivamente).  Essas informações podem ajudar as equipes de operações de segurança a identificar a falsa e a representação, porque uma incompatibilidade entre o valor de direcionalidade (por ex. *A entrada*), e o domínio do remetente *(que* parece ser um domínio interno) serão evidentes! O valor de direcionalidade é separado e pode ser diferente do Rastreamento de Mensagem. Os resultados podem ser exportados para planilha.
 
-    **Substituições:** esse filtro usa as informações que aparecem na guia de detalhes do email e as usa para expor onde as políticas organizacionais, ou de usuário, para permitir e bloquear emails foram *substituídos.* O mais importante sobre esse filtro é que ele ajuda a equipe de segurança da sua organização a ver quantos emails suspeitos foram entregues devido à configuração. Isso dá a eles a oportunidade de modificar as permites e os blocos conforme necessário. Esse conjunto de resultados desse filtro pode ser exportado para planilha.
+    **Substituições:** esse filtro usa as informações que aparecem na guia de detalhes do email e as usa para expor onde as políticas organizacionais, ou de usuário, para permitir e bloquear emails foram *substituídos.* O mais importante sobre esse filtro é que ele ajuda a equipe de segurança da sua organização a ver quantos emails suspeitos foram entregues devido à configuração. Isso lhes dá a oportunidade de modificar as permites e os blocos conforme necessário. Esse conjunto de resultados desse filtro pode ser exportado para planilha.
 
     ****
 
@@ -193,13 +193,13 @@ O local de entrega mostra os resultados de políticas e detecções que são exe
 
 - **Quarentena** – O email em quarentena, e não na caixa de correio de um usuário.
 
-- **Falha** – O email não conseguiu chegar à caixa de correio.
+- **Falha** – O email não conseguiu alcançar a caixa de correio.
 
 - **Descartado** – O email se perde em algum lugar no fluxo de emails.
 
 ### <a name="view-the-timeline-of-your-email"></a>Exibir a linha do tempo do seu email
 
-**Linha do tempo** do email é um campo no Explorador de Ameaças que facilita a busca por sua equipe de operações de segurança. Quando vários eventos ocorrem ao mesmo tempo ou quase ao mesmo tempo em um email, esses eventos aparecem em um modo de exibição de linha do tempo. Alguns eventos que ocorrem após a entrega de emails são capturados na **coluna Ações** especiais. Combinar informações da linha do tempo de uma mensagem de email com ações especiais que foram realizadas após a entrega oferece aos administradores informações sobre políticas e tratamento de ameaças (como onde o email foi roteado e, em alguns casos, qual foi a avaliação final).
+**Linha do tempo** do email é um campo no Explorador de Ameaças que facilita a busca para sua equipe de operações de segurança. Quando vários eventos ocorrem ao mesmo tempo ou quase ao mesmo tempo em um email, esses eventos aparecem em um modo de exibição de linha do tempo. Alguns eventos que ocorrem após a entrega de emails são capturados na **coluna Ações** especiais. Combinar informações da linha do tempo de uma mensagem de email com ações especiais que foram realizadas após a entrega oferece aos administradores informações sobre políticas e tratamento de ameaças (como onde o email foi roteado e, em alguns casos, qual foi a avaliação final).
 
 > [!IMPORTANT]
 > Ir para um tópico de correção [aqui](remediate-malicious-email-delivered-office-365.md).
@@ -208,7 +208,7 @@ O local de entrega mostra os resultados de políticas e detecções que são exe
 
 [Correção de emails mal-intencionados entregues no Office 365](remediate-malicious-email-delivered-office-365.md)
 
-[Microsoft Defender para Office 365](office-365-ti.md)
+[Obter o Microsoft Defender para Office 365](office-365-ti.md)
 
 [Proteger contra ameaças no Office 365](protect-against-threats.md)
 

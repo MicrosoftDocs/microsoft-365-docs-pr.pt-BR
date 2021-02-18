@@ -20,21 +20,21 @@ search.appverid:
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a34780b260a6e4bbc2d8b3f53af6b67de04fbdcd
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1bbd607386b49b45ebd7444c4a91d05e4cee475b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166658"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288604"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 **Resumo** Aprenda como reconhecer e responder a uma conta de email comprometida no Microsoft 365.
 
@@ -90,7 +90,7 @@ Você deve realizar todas as etapas a seguir para recuperar o acesso à sua cont
 
 ### <a name="step-1-reset-the-users-password"></a>Etapa 1 Redefina a senha do usuário
 
-Siga os procedimentos em [ Redefinir uma senha comercial para alguém ](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords#reset-my-admin-password).
+Siga os procedimentos em [ Redefinir uma senha comercial para alguém ](../../admin/add-users/reset-passwords.md#reset-my-admin-password).
 
 > [!IMPORTANT]
 >
@@ -104,7 +104,7 @@ Siga os procedimentos em [ Redefinir uma senha comercial para alguém ](https://
 >
 > - Certifique-se de atualizar as senhas do aplicativo. As senhas do aplicativo não são revogadas automaticamente quando a senha da conta do usuário é redefinida. O usuário deve excluir as senhas dos aplicativos existentes e criar novas. Para instruções, consulte [Criar e excluir senhas dos aplicativos na página Verificação adicional de segurança](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
 >
-> - É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos. Para saber mais sobre o MFA, acesse [Configurar autenticação multifator](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> - É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos. Para saber mais sobre o MFA, acesse [Configurar autenticação multifator](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Etapa 2 Remover endereços de encaminhamento de email suspeitos
 

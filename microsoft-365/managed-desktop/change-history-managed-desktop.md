@@ -1,6 +1,6 @@
 ---
 title: Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
-description: Este artigo lista artigos novos e atualizados da Área de Trabalho Gerenciada da Microsoft.
+description: Este artigo lista os artigos novos e atualizados da Área de Trabalho Gerenciada da Microsoft.
 keywords: histórico de alterações
 ms.service: m365-md
 ms.sitesec: library
@@ -13,16 +13,28 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 8f6826865f38dad6040f65ac083be76450127299
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: d2ce8ecc12c73969a6ad9b939dc02c6b9cb360f4
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877195"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288402"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
 
 Este artigo lista artigos novos e atualizados na [documentação da Área de Trabalho Gerenciada da Microsoft.](index.yml) Os artigos "atualizados" tiveram adições ou correções materiais – correções secundárias, como correção de erros de digitação, estilo ou problemas de formatação, não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de quaisquer alterações) visitando o repositório [no GitHub.](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)
+
+## <a name="january-2021"></a>Janeiro de 2021
+Artigo novo ou alterado | Descrição
+--- | ---
+[Corrigir problemas encontrados pela ferramenta de avaliação de prontidão](get-ready/readiness-assessment-fix.md) | Artigo atualizado
+[Ajustar as configurações após o registro](get-started/conditional-access.md) | Artigo atualizado
+[Trabalho com relatórios](working-with-managed-desktop/reports.md) | Artigo atualizado
+[Instalar o Portal da Empresa do Intune em dispositivos](get-started/company-portal.md) | Artigo atualizado
+[Requisitos do dispositivo](service-description/device-requirements.md) | Novo artigo
+[Conformidade](intro/compliance.md) | Artigo atualizado
+[Como as atualizações são tratadas na Área de Trabalho Gerenciada da Microsoft](service-description/updates.md) | Artigo atualizado
+[Acessar o portal de administração](get-started/access-admin-portal.md) | Artigo atualizado
 
 
 ## <a name="december-2020"></a>Dezembro de 2020
@@ -129,7 +141,7 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Conformidade](intro/compliance.md) | Novo artigo
-[Idiomas e regiões suportados pela Área de Trabalho Gerenciada da Microsoft](service-description/regions-languages.md) | Artigo atualizado
+[Idiomas e regiões com suporte da Área de Trabalho Gerenciada da Microsoft](service-description/regions-languages.md) | Artigo atualizado
 
 
 
@@ -148,7 +160,7 @@ Artigo novo ou alterado | Descrição
 [Trabalhar com insights](working-with-managed-desktop/insights.md) | Artigo atualizado
 [Percepções de atualização da segurança do Windows](working-with-managed-desktop/security-update-insights.md) | Novo artigo
 [Como as atualizações são tratadas na Área de Trabalho Gerenciada da Microsoft](service-description/updates.md) | Artigo atualizado
-[Serviços de dispositivo de Área de Trabalho Gerenciada da Microsoft](service-description/device-services.md) | Artigo atualizado
+[Serviços de dispositivo da Área de Trabalho Gerenciada da Microsoft](service-description/device-services.md) | Artigo atualizado
 
 
 
@@ -191,7 +203,7 @@ Artigo novo ou alterado | Descrição
 [Mudanças de serviço e comunicação](service-description/servicechanges.md) | Novo artigo
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
 [Registrar dispositivos existentes sozinho](get-started/register-reused-devices-self.md) | Artigo atualizado
-[Idiomas e regiões suportados pela Área de Trabalho Gerenciada da Microsoft](service-description/regions-languages.md) | Artigo atualizado
+[Idiomas e regiões com suporte da Área de Trabalho Gerenciada da Microsoft](service-description/regions-languages.md) | Artigo atualizado
 
 
 
@@ -242,7 +254,7 @@ Artigo novo ou alterado | Descrição
 ## <a name="may-2019"></a>Maio de 2019
 Artigo novo ou alterado | Descrição
 --- | ---
-[Idiomas e regiões suportados pela Área de Trabalho Gerenciada da Microsoft](service-description/regions-languages.md) | Artigo atualizado
+[Idiomas e regiões com suporte da Área de Trabalho Gerenciada da Microsoft](service-description/regions-languages.md) | Artigo atualizado
 [Dispositivos da Área de Trabalho Gerenciada da Microsoft](service-description/device-list.md) | Artigo atualizado
 [Dispositivos arquivados da Área de Trabalho Gerenciada da Microsoft](service-description/archived-device-list.md) | Novo artigo
 [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](get-ready/mapped-drives.md) | Novo artigo
@@ -270,7 +282,7 @@ Artigo novo ou alterado | Descrição
 Artigo novo ou alterado | Descrição
 --- | ---
 [Dispositivos do programa](service-description/device-list.md) | Atualizado com suporte para determinados dispositivos Dell e HP.
-[Visão geral das configurações configuráveis](working-with-managed-desktop/config-setting-overview.md) | Novo artigo
+[Visão geral de configurações configuráveis](working-with-managed-desktop/config-setting-overview.md) | Novo artigo
 [Referência de configurações que podem ser alteradas](working-with-managed-desktop/config-setting-ref.md) | Novo artigo
 [Controlar e implantar configurações configuráveis](working-with-managed-desktop/config-setting-deploy.md) | Novo artigo
 [Começar a trabalhar com dispositivos](get-started/get-started-devices.md) | Novo artigo
@@ -294,5 +306,5 @@ Artigo novo ou alterado | Descrição
 [Suporte para Área de Trabalho Gerenciada da Microsoft](service-description/support.md)<br />e [suporte do usuário para a Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/end-user-support.md) | Atualizado para incluir a Austrália.
 
 ## <a name="october-30-2018"></a>30 de outubro de 2018
-Conteúdo reorganizado: seção adicionada para a [descrição do serviço da Área de Trabalho Gerenciada da Microsoft.](service-description/index.md) 
+Conteúdo reorganizado: seção adicionada para a descrição do [serviço da Área de Trabalho Gerenciada da Microsoft.](service-description/index.md) 
 

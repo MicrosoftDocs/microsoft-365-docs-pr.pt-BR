@@ -15,19 +15,19 @@ ms.custom:
 description: Os administradores em organizações autônomas do Exchange Online Protection (EOP) podem aprender a criar, modificar e remover grupos de distribuição e grupos de segurança habilitados para email no Centro de administração do Exchange (EAC) e no PowerShell do Exchange Online Protection (EOP) autônomo.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01fe5c6ab1555749d38f9c092b05aca9befb67fe
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d03b8a5129eb3b070f30de46b9b9c7bcc8e9898d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166958"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286796"
 ---
 # <a name="manage-groups-in-eop"></a>Gerenciar grupos no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 Em organizações autônomas do Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode criar, modificar e remover os seguintes tipos de grupos:
 
@@ -51,12 +51,12 @@ Você pode gerenciar grupos no Centro de administração do Exchange (EAC) e no 
 
 - Ao gerenciar grupos no PowerShell do EOP autônomo, você pode encontrar a alteração. Os procedimentos do PowerShell neste artigo usam um método de processamento em lotes que resulta em um atraso de propagação de alguns minutos antes que os resultados dos comandos sejam visíveis.
 
-- Você precisa ter permissões no Exchange Online Protection antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa da função **Grupos de**  Distribuição,  que é atribuída aos grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários por padrão. Para obter mais informações, [consulte Permissões no EOP](feature-permissions-in-eop.md) autônomo e use o EAC modificar a lista de [membros em grupos de função.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+- Para fazer os procedimentos deste artigo, você precisa ter permissões no Exchange Online Protection. Especificamente, você precisa da função **Grupos de**  Distribuição,  que é atribuída aos grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários por padrão. Para obter mais informações, [consulte Permissões no EOP](feature-permissions-in-eop.md) autônomo e use o EAC modificar a lista de [membros em grupos de função.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - Para obter informações sobre atalhos de teclado que podem se aplicar aos procedimentos neste artigo, consulte [Atalhos](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)de teclado para o Centro de administração do Exchange no Exchange Online .
 
 > [!TIP]
-> Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
+> Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE).
 
 ## <a name="use-the-exchange-admin-center-to-manage-distribution-groups"></a>Usar o Centro de administração do Exchange para gerenciar grupos de distribuição
 
@@ -72,7 +72,7 @@ Você pode gerenciar grupos no Centro de administração do Exchange (EAC) e no 
 
 3. Na nova página de grupo que é aberta, de configure as configurações a seguir. As configurações marcadas com <sup>\*</sup> um são necessárias.
 
-   - <sup>\*</sup>**Nome para** exibição: esse nome aparece no livro de endereços da sua organização,  na linha Para: quando o email é enviado para esse grupo e na lista Grupos no EAC. O nome de exibição é necessário, deve ser exclusivo e deve ser amigável para que as pessoas reconheçam o que é.
+   - <sup>\*</sup>**Nome para** exibição: esse nome aparece no livro de endereços da sua organização,  na linha Para: quando o email é enviado para esse grupo e na lista Grupos no EAC. O nome de exibição é obrigatório, deve ser exclusivo e deve ser amigável para que as pessoas reconheçam o que é.
 
    - <sup>\*</sup>**Alias:** Use essa caixa para digitar o nome do alias do grupo. O alias não pode exceder 64 caracteres e deve ser exclusivo. Quando um usuário digita o alias na linha Para de uma mensagem de email, ele é resolvido para o nome de exibição do grupo.
 
@@ -106,7 +106,7 @@ Você pode gerenciar grupos no Centro de administração do Exchange (EAC) e no 
 
 #### <a name="general"></a>Geral
 
-Use essa guia para exibir ou alterar informações básicas sobre o grupo.
+Use esta guia para exibir ou alterar informações básicas sobre o grupo.
 
 - **Nome para** exibição: esse nome aparece no livro de endereços, na linha Para quando o email é enviado a esse grupo e na lista **Grupos.** O nome para exibição é necessário e deve ser amigável para que as pessoas o reconheçam. Ele também deve ser exclusivo em seu domínio.
 
@@ -128,7 +128,7 @@ Para remover um proprietário, selecione o  proprietário e clique no ícone ![ 
 
 #### <a name="membership"></a>Associação
 
-Use essa guia para adicionar ou remover membros do grupo. Os proprietários do grupo não precisam ser membros do grupo.
+Use esta guia para adicionar ou remover membros do grupo. Os proprietários do grupo não precisam ser membros do grupo.
 
 Para adicionar membros, clique **no ícone** ![ ](../../media/ITPro-EAC-AddIcon.png) Adicionar. Na caixa de diálogo exibida, encontre e selecione um destinatário ou grupo e clique em **add ->**. Repita essa etapa quantas vezes forem necessárias. Quando terminar, clique em **OK.**
 
@@ -138,7 +138,7 @@ Para remover um membro, selecione o  membro e clique no ícone ![ ](../../media/
 
 1. No EAC, vá para Grupos **de** \> **Destinatários.**
 
-2. Na lista de grupos, selecione o grupo de distribuição que você deseja remover e clique em **Remover** ![ ícone ](../../media/ITPro-EAC-RemoveIcon.gif) .
+2. Na lista de grupos, selecione o grupo de distribuição  que você deseja remover e clique no ícone ![ ](../../media/ITPro-EAC-RemoveIcon.gif) Remover.
 
 ## <a name="use-powershell-to-manage-groups"></a>Usar o PowerShell para gerenciar grupos
 

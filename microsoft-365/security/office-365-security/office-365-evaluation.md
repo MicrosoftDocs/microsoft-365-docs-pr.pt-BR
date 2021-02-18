@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c0bb1701cf030692bc98218b38be00cae57a2bd
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 1d16c0afc675ba759e392c9fe9a44c42b89dbad0
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080696"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287648"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft Defender para Office 365
 
@@ -36,7 +36,7 @@ A realização de uma avaliação abrangente do produto de segurança pode ajuda
 
 A experiência de avaliação do [Microsoft Defender para Office 365](office-365-atp.md) foi projetada para eliminar a complexidade da configuração de dispositivos e ambientes para que você possa se concentrar na avaliação dos recursos da solução de segurança. Isso só se aplica à proteção de email e não ao SharePoint, aos clientes do Office ou ao Teams.
 
-Se você ainda não tiver uma licença compatível com o Microsoft Defender para Office 365, poderá iniciar uma avaliação gratuita de [30](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) dias e testar os recursos no Centro de Conformidade e Segurança do Office 365 & ( https://protection.office.com/homepage) . Você aproveitará a configuração rápida e poderá desativar facilmente, se necessário.
+Se você ainda não tiver uma licença compatível com o Microsoft Defender para Office 365, poderá iniciar uma avaliação gratuita de [30](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) dias e testar os recursos no Centro de Conformidade e Segurança do Office 36 & 5 ( https://protection.office.com/homepage) . Você aproveitará a configuração rápida e poderá desativar facilmente, se necessário.
 
 ## <a name="how-the-evaluation-works"></a>Como funciona a avaliação
 
@@ -74,7 +74,7 @@ Se você não tiver uma dessas licenças, precisará obter uma licença de avali
 
 Para obter uma licença de avaliação do Microsoft Defender para  Office 365, você precisa ter a função de administrador de cobrança ou **a função de administrador global.** Solicitar permissão de alguém que tenha a função de administrador global. [Saiba mais sobre assinaturas e licenças](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
 
-Quando você tiver a função adequada, o caminho recomendado é obter uma licença de avaliação do Microsoft Defender para Office 365 (Plano 2) no Centro de administração do Microsoft 365, indo para Cobrança > Comprar serviços. A avaliação inclui uma avaliação gratuita de 30 dias para 25 licenças. [Obter uma avaliação do Microsoft Defender para Office 365 (Plano 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
+Quando você tiver a função adequada, o caminho recomendado é obter uma licença de avaliação do Microsoft Defender para Office 365 (Plano 2) no Centro de administração do Microsoft 365, indo para Cobrança > Serviços de Compra. A avaliação inclui uma avaliação gratuita de 30 dias para 25 licenças. [Obter uma avaliação do Microsoft Defender para Office 365 (Plano 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
 Você terá uma janela de 30 dias com a avaliação para monitorar e relatar ameaças avançadas. Você também terá a opção de comprar uma assinatura paga se quiser os recursos completos do Defender para Office 365.
 
@@ -83,16 +83,16 @@ Você terá uma janela de 30 dias com a avaliação para monitorar e relatar ame
 As funções do Exchange Online são necessárias para configurar o Defender para o Office 365 no modo de avaliação.
 
 - [Saiba mais sobre permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
-- [Saiba como atribuir funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+- [Saiba como atribuir funções de administrador](../../admin/add-users/assign-admin-roles.md)
 
 As seguintes funções são necessárias:
 
 |Tarefas|Função|
 |---|---|
 |Obter uma avaliação gratuita ou comprar o Microsoft Defender para Office 365 (Plano 2)|Função de administrador de cobrança OU função de administrador global|
-|Criar política de avaliação|Função domínios remotos e aceitos; Função de administrador de segurança|
-|Editar política de avaliação|Função domínios remotos e aceitos; Função de administrador de segurança|
-|Excluir política de avaliação|Função domínios remotos e aceitos; Função de administrador de segurança |
+|Criar política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança|
+|Editar política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança|
+|Excluir política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança |
 |Exibir relatório de avaliação|Função de administrador de segurança OU função de leitor de segurança|
 |
 
@@ -116,7 +116,7 @@ Prepare os detalhes correspondentes de que você precisará para configurar como
 Os cenários de roteamento de email com suporte incluem:
 
 - Parceiro de terceiros **e/ou** provedor de serviços local: o conector de entrada que você deseja avaliar usa um provedor de terceiros e/ou está usando uma solução para segurança de email no local.
-- **Microsoft Proteção do Exchange Online** somente: o locatário que você deseja avaliar usa o Office 365 para segurança de email e o registro MX (Mail Exchange) aponta para a Microsoft.
+- **Microsoft Proteção do Exchange Online** somente: o locatário que você deseja avaliar usa o Office 365 para segurança de email e o registro MX aponta para a Microsoft.
 
 ### <a name="email-security-gateway"></a>Gateway de segurança de email
 
@@ -138,7 +138,7 @@ Você poderá escopo da avaliação para um conector de entrada. Se não houver 
 
 ## <a name="get-started-with-the-evaluation"></a>Começar a avaliação
 
-Encontre o cartão de configuração de avaliação do Microsoft Defender for Office 365 no Centro de Conformidade e Segurança do Office 365 & (de três https://protection.office.com/homepage) pontos de acesso:
+Encontre o cartão de configuração de avaliação do Microsoft Defender for Office 365 no Centro de Conformidade e Segurança do Office 365 & (de https://protection.office.com/homepage) três pontos de acesso:
 
 - Painel de gerenciamento de > ameaças
 - Política de gerenciamento de > ameaças
@@ -164,7 +164,7 @@ Se você tiver um gateway existente, a habilitação do modo de avaliação ativ
 
 Depois que o relatório de avaliação tiver sido gerado, veja quantos links avançados de ameaças, anexos avançados de ameaças e possíveis personificações foram identificados nos espaços de trabalho de colaboração e emails em sua organização.
 
-Depois que a avaliação tiver expirado, você poderá continuar a acessar o relatório por 90 dias. No entanto, ele não coletará mais informações. Se você quiser continuar usando o Microsoft Defender para Office 365 após a expiração da avaliação, compre uma assinatura paga do [Microsoft Defender para Office 365 (Plano 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
+Depois que a avaliação expirar, você poderá continuar a acessar o relatório por 90 dias. No entanto, ele não coletará mais informações. Se você quiser continuar usando o Microsoft Defender para Office 365 após a expiração da avaliação, compre uma assinatura paga do [Microsoft Defender para Office 365 (Plano 2).](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA)
 
 Você pode ir para **Configurações para** atualizar seu roteamento ou desativar sua avaliação a qualquer momento. No entanto, você precisa passar pelo mesmo processo de configuração novamente caso decida continuar sua avaliação depois de ter desligado.
 

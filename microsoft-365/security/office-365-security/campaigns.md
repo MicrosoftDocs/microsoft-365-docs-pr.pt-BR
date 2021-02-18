@@ -19,19 +19,19 @@ ms.collection:
 description: Saiba mais sobre exibições de campanha no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e3b9c1a9a19e38ea83b13d9028af1a6ba042b900
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e7742b26eb901bc9dfe79d01a9f3414adf524dd9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165914"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286892"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Exibições de campanha no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 
 Exibições de Campanha é um recurso do Microsoft Defender para Office 365 Plano 2 (por exemplo, Microsoft 365 E5 ou organizações com um complemento do Defender para Office 365 Plano 2). Exibições de campanha no Centro de Conformidade & segurança identifica e categoriza ataques de phishing no serviço. Os Modos de Exibição de Campanhas podem ajudá-lo a:
 
@@ -56,7 +56,7 @@ Uma campanha pode ter curta duração ou pode abranger vários dias, semanas ou 
 
 ## <a name="campaign-views-in-the-security--compliance-center"></a>Exibições de Campanha no Centro de Conformidade & segurança
 
-Os Visualizações de Campanhas estão disponíveis no Centro [de Conformidade & segurança](https://protection.office.com) em  \> **campanhas** de gerenciamento de ameaças ou diretamente em <https://protection.office.com/campaigns> .
+Os Visualizações de Campanhas estão disponíveis  no Centro [de Conformidade & segurança](https://protection.office.com) em \> **campanhas** de gerenciamento de ameaças ou diretamente em <https://protection.office.com/campaigns> .
 
 ![Visão geral das campanhas no Centro de Conformidade e Segurança](../../media/campaigns-overview.png)
 
@@ -102,7 +102,7 @@ O restante da página de visão geral mostra as seguintes informações na **gui
 
 - **Taxa de** cliques : a porcentagem conforme calculado por "  /  **Clicked Inboxed**". Esse valor é um indicador da eficácia da campanha. Em outras palavras, se os destinatários foram capazes de identificar a mensagem como phishing e se eles não clicaram na URL de carga.
 
-  Observe que **a taxa de cliques** não é usada em campanhas de malware.
+  Observe que **a taxa de** cliques não é usada em campanhas de malware.
 
 - **Visitada:** quantos usuários realmente passaram pelo site de conteúdo. Se houver valores **clicados,** mas links seguros bloquearem o acesso ao site, esse valor será zero.
 
@@ -116,7 +116,7 @@ Na parte superior da página Exibições de Campanha, há várias configuraçõe
 
 A filtragem mais básica que você pode fazer é a data/hora de início e a data/hora de término.
 
-Para filtrar ainda mais a exibição, você pode fazer  uma única propriedade com vários valores filtrando clicando no botão tipo campanha, fazendo sua seleção e clicando em **Atualizar**.
+Para filtrar ainda mais a exibição, você pode fazer  uma única propriedade com vários valores filtrando clicando no botão Tipo de campanha, fazendo sua seleção e clicando em **Atualizar.**
 
 As propriedades de campanha filtáveis que estão disponíveis no botão **Tipo** de campanha são descritas na lista a seguir:
 
@@ -166,7 +166,7 @@ Quando terminar, clique no **botão Consulta.**
 
 Depois de criar um filtro básico ou avançado, você pode salvá-lo usando a consulta Salvar ou **Salvar como**.  Mais tarde, quando você retornar aos Exibições de Campanha, poderá carregar um filtro salvo clicando nas configurações de consulta **Salvas.**
 
-Para exportar o gráfico ou a lista de campanhas, clique em **Exportar** e selecionar Exportar dados **do gráfico** ou Exportar lista **de campanhas.**
+Para exportar o gráfico ou a lista de campanhas, clique em **Exportar** e selecionar Exportar dados **do gráfico** ou exportar lista **de campanhas.**
 
 Se você tiver uma assinatura do Microsoft Defender para Ponto de Extremidade, poderá clicar em Configurações **MDE** para conectar ou desconectar as informações de campanhas com o Microsoft Defender para o Ponto de Extremidade. Para obter mais informações, consulte [Integrar o Microsoft Defender para Office 365 com o Microsoft Defender para Ponto de Extremidade.](integrate-office-365-ti-with-wdatp.md)
 
@@ -184,13 +184,13 @@ Na parte superior da exibição de detalhes da campanha, as seguintes informaç�
 
 - **Impacto:** esta seção contém os seguintes dados para o filtro de intervalo de datas selecionado (ou selecionado na linha do tempo):
   - O número total de destinatários.
-  - O número de mensagens que foram "Caixas de Entrada" (ou seja, entregues na Caixa de Entrada, não na pasta Lixo Eletrônico).
+  - O número de mensagens que foram "Na Caixa de Entrada" (ou seja, entregues na Caixa de Entrada, não na pasta Lixo Eletrônico).
   - Quantos usuários clicaram na carga da URL na mensagem de phishing.
   - Como muitos usuários visitaram a URL.
 
 - **Direcionado**: a porcentagem conforme calculado por: (o número de destinatários da campanha em sua organização) / (o número total de destinatários na campanha em todas as organizações no serviço). Observe que esse valor é calculado durante todo o tempo de vida da campanha e não muda com base nos filtros de data.
 
-- Uma linha do tempo interativa da atividade da campanha: a linha do tempo mostra a atividade durante todo o tempo de vida da campanha. Por padrão, a área sombreada inclui o filtro de intervalo de datas selecionado na visão geral. Você pode clicar e arrastar para selecionar um ponto inicial e um ponto de extremidade específicos, o que alterará os dados exibidos na área de Impacto e no restante da página, conforme descrito nas <u>próximas seções.  </u>
+- Uma linha do tempo interativa da atividade da campanha: a linha do tempo mostra a atividade durante todo o tempo de vida da campanha. Por padrão, a área sombreada inclui o filtro de intervalo de datas selecionado na visão geral. Você pode clicar e arrastar para selecionar um ponto inicial e um ponto final específicos, o que alterará os dados exibidos na área de Impacto e no restante da página, conforme descrito nas <u>próximas seções.  </u>
 
 Na barra de título, você pode clicar no botão Baixar o **write-up** da campanha Baixar o ícone de gravação da campanha para baixar os detalhes da campanha em um documento do ![ ](../../media/download-campaign-write-up-button.png) Word (por padrão, chamado CampaignReport.docx). Observe que o download contém detalhes durante todo o tempo de vida da campanha (não apenas as datas de filtro que você selecionou).
 
@@ -226,7 +226,7 @@ O diagrama contém as seguintes informações:
   |**Bloqueio de Locatário**<sup>\*\*</sup>|`SFV:SKA`|A mensagem foi bloqueada pela filtragem de spam devido às configurações em uma política anti-spam. Por exemplo, o remetente estava na lista de remetentes permitidos ou na lista de domínios permitidos.|
   |**Permitir Usuário**<sup>\*</sup>|`SFV:SFE`|A mensagem ignorou a filtragem de spam porque o remetente estava na lista de Remetentes Seguros de um usuário.|
   |**Bloqueio de Usuário**<sup>\*\*</sup>|`SFV:BLK`|A mensagem foi bloqueada pela filtragem de spam porque o remetente estava na lista de Remetentes Bloqueados de um usuário.|
-  |**ZAP**|n/d|[A ZAP (Limpeza Automática Zero Hora)](zero-hour-auto-purge.md) moveu a mensagem entregue para a pasta Lixo Eletrônico ou quarentena. Você configura a ação em sua política anti-spam.|
+  |**ZAP**|n/d|[A ZAP (Limpeza Automática Zero Hora)](zero-hour-auto-purge.md) moveu a mensagem entregue para a pasta Lixo Eletrônico ou quarentena. Configure a ação em sua política anti-spam.|
   |
 
   <sup>\*</sup> Revise suas políticas anti-spam, pois a mensagem permitida provavelmente seria bloqueada pelo serviço.
@@ -247,7 +247,7 @@ O diagrama contém as seguintes informações:
 - **Cliques de URL:** esses valores são descritos na próxima seção.
 
 > [!NOTE]
-> Em todas as camadas que contêm mais de 10 itens, os 10 principais itens são mostrados, enquanto o restante é agrupado em **Outros**.
+> Em todas as camadas que contêm mais de 10 itens, os 10 principais itens são mostrados, enquanto os outros são agrupados em **Outros**.
 
 #### <a name="url-clicks"></a>Cliques na URL
 
@@ -259,7 +259,7 @@ Se um usuário clicou na URL de carga na mensagem de phishing, as ações serão
 - **BlockPage**: o destinatário clicou na URL do conteúdo, mas o acesso ao site mal-intencionado foi bloqueado por uma política de [Links](atp-safe-links.md) seguros em sua organização.
 - **BlockPageOverride**: o destinatário clicou na URL da carga na mensagem, Os Links Seguros tentaram interdulá-los, mas eles tiveram permissão para substituir o bloco. Inspecione [suas políticas de Links](set-up-atp-safe-links-policies.md) seguros para ver por que os usuários têm permissão para substituir o veredito de Links seguros e continuar para o site mal-intencionado.
 - **PendingDetonationPage**: Anexos seguros no Microsoft Defender para Office 365 está em processo de abertura e investigação da URL de carga em um ambiente de computador virtual.
-- **PendingDetonationPageOverride**: O destinatário teve permissão para substituir o processo de ativação de carga e abrir a URL sem esperar pelos resultados.
+- **PendingDetonationPageOverride**: O destinatário teve permissão para substituir o processo de ativação de carga e abrir a URL sem aguardar os resultados.
 
 ### <a name="tabs"></a>Guias
 

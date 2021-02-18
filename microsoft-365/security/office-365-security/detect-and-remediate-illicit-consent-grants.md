@@ -18,20 +18,20 @@ description: Saiba como reconhecer e remediar o ataque de concessão de autoriza
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1c724bb3b201e0ddf1edea4794606c7083605e8
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2a50ce58d91d2ff7b2e31e57830289c870364d9b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165434"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288282"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Detectar e remediar concessões de autorização ilícitas
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 **Resumo**  Saiba como reconhecer e remediar o ataque de concessão de autorização ilícita no Office 365.
 
@@ -39,7 +39,7 @@ ms.locfileid: "50165434"
 
 Em um ataque de concessão de consentimento ilícito, o invasor cria um aplicativo registrado no Azure que solicita acesso a dados como informações de contato, email ou documentos. Em seguida, o invasor faz com que um usuário final conceda ao aplicativo o consentimento para acessar seus dados por meio de um ataque de phishing ou injetando código ilícito em um site confiável. Após o consentimento do aplicativo ilícito, ele tem acesso em nível de conta aos dados sem a necessidade de uma conta organizacional. As etapas de correção normal, como redefinir senhas para contas violadas ou exigir A MFA (Autenticação Multifatória) em contas, não são eficazes contra esse tipo de ataque, pois são aplicativos de terceiros e são externos à organização.
 
-Esses ataques aproveitam um modelo de interação que presume que a entidade que está chamando as informações é automação e não uma humana.
+Esses ataques aproveitam um modelo de interação que presume que a entidade que está chamando as informações é automação e não uma pessoa.
 
 > [!IMPORTANT]
 > Você suspeita que está tendo problemas com concessões ilícitas de consentimento de um aplicativo, no momento? O Microsoft Cloud App Security (MCAS) tem ferramentas para detectar, investigar e remediar seus aplicativos OAuth. Este artigo do MCAS tem um tutorial que descreve como investigar aplicativos [OAuth arriscados.](https://docs.microsoft.com/cloud-app-security/investigate-risky-oauth) Você também pode definir políticas de aplicativo [OAuth](https://docs.microsoft.com/cloud-app-security/app-permission-policy) para investigar permissões solicitadas pelo aplicativo, quais usuários estão autorizando esses aplicativos e aprovar ou proibir amplamente essas solicitações de permissão.
@@ -104,7 +104,7 @@ Que seus usuários acessem https://myapps.microsoft.com e revisem seu próprio a
 
 ### <a name="steps-for-doing-this-with-powershell"></a>Etapas para fazer isso com o PowerShell
 
-A maneira mais simples de verificar o ataque de Concessão de Autorização Ilícita é executar o [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), que despeja todos os aplicativos OAuth e concessões de consentimento OAuth para todos os usuários em sua adoção em um arquivo .csv.
+A maneira mais simples de verificar o ataque de [ Concessão ](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09)de Autorização Ilícita é executar oGet-AzureADPSPermissions.ps1, que despeja todos os aplicativos OAuth e concessões de consentimento do OAuth para todos os usuários em sua adoção em um arquivo .csv.
 
 #### <a name="pre-requisites"></a>Pré-requisitos
 
@@ -143,10 +143,10 @@ O script produz um arquivo chamado Permissions.csv. Siga estas etapas para procu
 
 ## <a name="determine-the-scope-of-the-attack"></a>Determinar o escopo do ataque
 
-Depois de terminar de inventariá-lo, revise o **log de auditoria** para determinar o escopo completo da violação. Pesquise os usuários afetados, os períodos de tempo que o aplicativo ilícito tinha acesso à sua organização e as permissões que o aplicativo tinha. Você pode pesquisar o **log de auditoria** no Centro de Conformidade e Segurança do Microsoft [365.](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+Depois de terminar de inventariá-lo, revise o **log de auditoria** para determinar o escopo completo da violação. Pesquise os usuários afetados, os períodos de tempo que o aplicativo ilícito tinha acesso à sua organização e as permissões que o aplicativo tinha. Você pode pesquisar o **log de auditoria** no Centro de Conformidade e Segurança do Microsoft [365.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 > [!IMPORTANT]
-> [A auditoria de caixa](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing) [de](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off) correio e a auditoria de Atividades para administradores e usuários devem ter sido habilitadas antes do ataque para você obter essas informações.
+> [A auditoria de caixa](../../compliance/enable-mailbox-auditing.md) [de](../../compliance/turn-audit-log-search-on-or-off.md) correio e a auditoria de atividades para administradores e usuários devem ter sido habilitadas antes do ataque para você obter essas informações.
 
 ## <a name="how-to-stop-and-remediate-an-illicit-consent-grant-attack"></a>Como parar e remediar um ataque de concessão de autorização ilícita
 
@@ -166,9 +166,9 @@ Depois de identificar um aplicativo com permissões ilícitas, você terá vári
 
 - Você pode revogar a atribuição de função de aplicativo de serviço com o PowerShell seguindo as etapas em [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment).
 
-- Você também pode desabilitar completamente a entrada da conta afetada, o que, por sua vez, desabilitará o acesso do aplicativo aos dados dessa conta. Isso não é ideal para a produtividade do usuário final, é claro, mas se você estiver trabalhando para limitar o impacto rapidamente, pode ser uma correção viável a curto prazo.
+- Você também pode desabilitar a entrada para a conta afetada completamente, o que, por sua vez, desabilitará o acesso do aplicativo aos dados dessa conta. Isso não é ideal para a produtividade do usuário final, é claro, mas se você estiver trabalhando para limitar o impacto rapidamente, pode ser uma correção viável a curto prazo.
 
-- Você pode desativar os aplicativos integrados para sua gestão. Esta é uma etapa drástica que desabilita a capacidade dos usuários finais de conceder consentimento em todo o locatário. Isso impede que os usuários concedam inadvertidamente o acesso a um aplicativo mal-intencionado. Isso não é altamente recomendável, pois prejudica gravemente a capacidade dos usuários de serem produtivos com aplicativos de terceiros. Você pode fazer isso seguindo as etapas em Como ligar ou desligar aplicativos [integrados.](https://docs.microsoft.com/microsoft-365/admin/misc/integrated-apps)
+- Você pode desativar os aplicativos integrados para a sua aplicação. Esta é uma etapa drástica que desabilita a capacidade dos usuários finais de conceder consentimento em todo o locatário. Isso impede que os usuários concedam inadvertidamente o acesso a um aplicativo mal-intencionado. Isso não é altamente recomendável, pois prejudica gravemente a capacidade dos usuários de serem produtivos com aplicativos de terceiros. Você pode fazer isso seguindo as etapas em Como ligar ou desligar aplicativos [integrados.](../../admin/misc/user-consent.md)
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteja o Microsoft 365 como um profissional de segurança cibernética
 
@@ -182,7 +182,7 @@ Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segu
 
 ## <a name="see-also"></a>Confira também:
 
-- [O aplicativo inesperado em minha](https://docs.microsoft.com/azure/active-directory/application-access-unexpected-application) lista de aplicativos orienta os administradores por meio de várias ações que eles podem querer realizar depois de perceber que há aplicativos inesperados com acesso aos dados.
+- [Aplicativo inesperado em minha lista de aplicativos](https://docs.microsoft.com/azure/active-directory/application-access-unexpected-application) orienta os administradores por meio de várias ações que eles podem querer realizar depois de perceber que há aplicativos inesperados com acesso aos dados.
 
 - [A integração de aplicativos com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-apps-permissions-consent) é uma visão geral de alto nível de consentimento e permissões.
 

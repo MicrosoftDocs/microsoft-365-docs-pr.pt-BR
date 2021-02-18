@@ -15,19 +15,19 @@ appliesto:
 - Microsoft 365 Defender
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2f623957a79ccd76702482cd23b4d8ce219603f6
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1b32982298a368dc435dad8b6c09188321d099e2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166874"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289228"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Correção de emails mal-intencionados entregues no Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--    [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 
 Correção significa tomar uma ação prescrita contra uma ameaça. Emails mal-intencionados enviados para sua organização podem ser limpos pelo sistema, por meio da ZAP (Limpeza Automática Zero Hora) ou por equipes de segurança por meio de ações de correção, como mover para a caixa de *entrada,* ir para lixo *eletrônico,* mover para itens excluídos, exclusão automática ou *exclusão* permanente.  O Microsoft Defender para Office 365 P2/E5 permite que as equipes de segurança remediam ameaças na funcionalidade de colaboração e email por meio de investigação manual e automatizada.
 
@@ -53,7 +53,7 @@ As equipes de segurança podem usar o Explorador de Ameaças para selecionar ema
 
 - Seleção de consultas com exclusão: às vezes, as equipes de operações de segurança podem querer remediar emails selecionando uma consulta inteira e excluindo determinados emails da consulta manualmente. Para fazer isso, um administrador pode usar a caixa **de** seleção Selecionar tudo e rolar para baixo para excluir emails manualmente. A consulta pode conter no máximo 1.000 emails. O número máximo de exclusões é 100.
 
-Depois que os emails são selecionados por meio do Explorador de Ameaças, você pode iniciar a correção, tomando uma ação direta ou enmorando emails para uma ação:
+Depois que os emails são selecionados por meio do Explorador de Ameaças, você pode iniciar a correção tomando uma ação direta ou enmorando emails para uma ação:
 
 - Aprovação direta: quando ações como mover para a caixa de  *entrada,*  mover para lixo *eletrônico,* mover para itens excluídos *,* exclusão suave ou exclusão permanente são selecionadas pela equipe de segurança que tem as permissões apropriadas e as próximas etapas na correção são seguidas, o processo de correção começa a executar a ação selecionada. Um flyout temporário mostra correção em andamento.
 
@@ -64,7 +64,7 @@ Depois que os emails são selecionados por meio do Explorador de Ameaças, você
 > [!div class="mx-imgBorder"]
 > [![Email com malware na página "Com malware" mostrando o tempo de execução da Zap.](../../media/tp-RemediationArticle3.png)](../../media/tp-RemediationArticle3.png#lightbox)
 
-Todas as correções (aprovação direta ou aprovação em duas etapas) criadas no Explorador de Ameaças, bem como ações aprovadas provenientes de investigações automatizadas, são exibidas na Central de Ações. Acesse-os por meio do painel de navegação esquerdo em **Revisar** \> **Central de Ações.**
+Todas as correções (aprovação direta ou aprovação em duas etapas) que foram criadas no Explorador de Ameaças, bem como ações aprovadas provenientes de investigações automatizadas são exibidas na Central de Ações. Acesse-os por meio do painel de navegação esquerdo em **Revisar** \> **Central de Ações.**
 
 > [!div class="mx-imgBorder"]
 > [![A central de ações com uma lista de ameaças por data e gravidade.](../../media/tp-RemediationArticle4.png)](../../media/tp-RemediationArticle4.png#lightbox)
@@ -93,13 +93,13 @@ Abra qualquer item de correção para exibir detalhes sobre ele, incluindo seu n
     - Local/externo
     - Falhou/suou
 
-  Mensagens suspeitas são categorizadas como remediadas ou não corretivas. Na maioria dos casos, as mensagens corretivas e não corretivas combinam o total de mensagens enviadas. Mas, em casos raros, isso pode não ser verdadeiro. Isso pode acontecer devido a atrasos do sistema, tempos esgotados ou mensagens expiradas. As mensagens expiram com base no período de retenção do Explorador de Ameaças da sua organização.
+  Mensagens suspeitas são categorizadas como corretivas ou não corretivas. Na maioria dos casos, as mensagens corretivas e não corretivas combinam o total de mensagens enviadas. Mas, em casos raros, isso pode não ser verdadeiro. Isso pode acontecer devido a atrasos do sistema, tempos esgotados ou mensagens expiradas. As mensagens expiram com base no período de retenção do Explorador de Ameaças da sua organização.
 
   A menos que você esteja remediando mensagens antigas após o período de retenção do Explorador de Ameaças da sua organização, é aconselhável tentar remediar itens se você vir inconsistências de número. Para atrasos do sistema, as atualizações de correção são normalmente atualizadas dentro de algumas horas.
 
   Se o período de retenção de email da sua organização no Explorador de Ameaças for de 30 dias e você estiver remediando emails de 29 a 30 dias, as contagens de envio de email podem nem sempre aumentar. Os emails já podem ter começado a sair do período de retenção.
 
-  Se as correções estão travadas no estado "Em andamento" por um tempo, provavelmente devido a atrasos no sistema. Pode levar algumas horas para ser remediado. Você pode ver variações em contagens de envio de email, pois alguns dos emails podem não ter sido incluídos na consulta no início da correção devido a atrasos do sistema. É uma boa ideia tentar remediar nesses casos.
+  Se as correções estão travadas no estado "Em andamento" por um tempo, provavelmente devido a atrasos do sistema. Pode levar algumas horas para ser remediado. Você pode ver variações nas contagens de envio de email, pois alguns dos emails podem não ter sido incluídos na consulta no início da correção devido a atrasos do sistema. É uma boa ideia tentar remediar nesses casos.
 
   > [!NOTE]
   > Para melhores resultados, a correção deve ser feita em lotes de 50.000 ou menos.

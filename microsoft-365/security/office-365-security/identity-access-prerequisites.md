@@ -1,11 +1,12 @@
 ---
 title: Trabalho de pré-requisito para implementar políticas de acesso a identidades e dispositivos - Microsoft 365 para empresas | Microsoft Docs
-description: Este artigo descreve os pré-requisitos que você precisa atender para usar configurações e políticas de acesso a dispositivos e identidades.
+description: Este artigo descreve os pré-requisitos que você precisa atender para usar políticas e configurações de acesso a dispositivos e identidades.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: Laurawi
 ms.prod: m365-security
 ms.topic: article
+audience: Admin
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -18,18 +19,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 53d64d869b80c6fe5c6e0954a00af5b6f5359356
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: fa00427d9f950a996a52f88c1b12608707d7aa8d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233081"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288592"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Trabalho de pré-requisito para implementar políticas de acesso a identidades e dispositivos
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 - Azure
 
 Este artigo descreve os pré-requisitos que os administradores devem atender para usar políticas recomendadas de acesso a identidades e dispositivos e usar o Acesso Condicional. Ele também aborda os padrões recomendados para configurar plataformas de cliente para a melhor experiência de SSO (single sign-on).
@@ -54,7 +55,7 @@ A tabela a seguir detalha os recursos de pré-requisito e suas configurações q
 |[Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio.](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup) O Acesso Condicional garantirá que os dispositivos que se conectam a aplicativos sejam ingressados no domínio ou compatíveis. Para dar suporte a isso em computadores Windows, o dispositivo deve ser registrado com o Azure AD.  Este artigo discute como configurar o registro de dispositivo automático.|Apenas Nuvem|
 |**Preparar sua equipe de suporte**. Tenha um plano em vigor para os usuários que não podem concluir a MFA. Isso pode estar adicionando-os a um grupo de exclusão de política ou registrando novas informações de MFA para eles. Antes de fazer qualquer uma dessas alterações sensíveis à segurança, você precisa garantir que o usuário real está fazendo a solicitação. Exigir que os gerentes dos usuários ajudem na aprovação é uma etapa eficaz.||
 |[Configurar o write-back de senha para o AD local](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). O write-back de senha permite que o Azure AD exige que os usuários alterem suas senhas locais quando um comprometimento de conta de alto risco é detectado. Você pode habilitar esse recurso usando o Azure AD Connect de duas maneiras: habilitando o **Write-back** de Senha na tela de recursos opcionais do assistente de configuração do Azure AD Connect ou habilitando-o por meio do Windows PowerShell.|Apenas Nuvem|
-|Configure a proteção por senha [do Azure AD.](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) A Proteção por Senha do Microsoft Azure AD detecta e bloqueia senhas fracas conhecidas e suas variantes e também pode bloquear termos fracos adicionais específicos de sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes.||
+|[Configure a proteção por senha do Azure AD.](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) A Proteção por Senha do Microsoft Azure AD detecta e bloqueia senhas fracas conhecidas e suas variantes e também pode bloquear termos fracos adicionais específicos de sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes.||
 |[Habilita o Azure Active Directory Identity Protection.](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection) O Azure AD Identity Protection permite detectar possíveis vulnerabilidades que afetam as identidades da sua organização e configurar uma política de correção automatizada para baixo, médio e alto risco de login e risco do usuário.||
 |**Habilitar a** [autenticação moderna para o Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) e para o Skype for Business [Online.](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) A autenticação moderna é um pré-requisito para usar a MFA. A autenticação moderna é habilitada por padrão para clientes do Office 2016 e 2019, SharePoint e OneDrive for Business.||
 |
@@ -85,7 +86,7 @@ Os clientes de email a seguir suportam autenticação moderna e Acesso Condicion
 
 |Plataforma|Cliente|Versão/Notas|
 |---|---|---|
-|**Windows**|Outlook|2019, 2016, 2013 <p> [Habilitar a autenticação moderna](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication) <p> [Atualizações necessárias](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
+|**Windows**|Outlook|2019, 2016, 2013 <p> [Habilitar a autenticação moderna](../../admin/security-and-compliance/enable-modern-authentication.md) <p> [Atualizações necessárias](https://support.office.com/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|
 |**iOS**|Outlook para iOS|[Mais recente](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|
 |**Android**|Outlook para Android|[Mais recente](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|
 |**macOS**|Outlook|2019 e 2016|
@@ -123,11 +124,11 @@ Aqui estão algumas recomendações adicionais:
 
 - Use [o Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-getting-started) para reduzir o número de contas administrativas persistentes.
 - [Use o gerenciamento de acesso privilegiado](../../compliance/privileged-access-management-overview.md) para proteger sua organização contra violações que possam usar contas de administrador privilegiadas existentes com acesso permanente a dados confidenciais ou acesso a configurações críticas.
-- Crie e use contas separadas atribuídas a funções de administrador do [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) *somente para administração.* Os administradores devem ter sua própria conta de usuário para uso regular não administrativo e usar somente uma conta administrativa quando necessário para concluir uma tarefa associada à sua função ou função de trabalho.
+- Crie e use contas separadas atribuídas a funções de administrador do [Microsoft 365](../../admin/add-users/about-admin-roles.md) *somente para administração.* Os administradores devem ter sua própria conta de usuário para uso regular não administrativo e usar somente uma conta administrativa quando necessário para concluir uma tarefa associada à sua função ou função de trabalho.
 - Siga [as práticas recomendadas](https://docs.microsoft.com/azure/active-directory/admin-roles-best-practices) para proteger contas privilegiadas no Azure AD.
 
 ## <a name="next-step"></a>Próxima etapa
 
 [![Etapa 2: Configurar a identidade comum e as políticas de Acesso Condicional](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-2.png)](identity-access-policies.md)
 
-[Configurar as políticas comuns de identidade e acesso ao dispositivo](identity-access-policies.md)
+[Configurar as políticas comuns de identidade e acesso a dispositivos](identity-access-policies.md)

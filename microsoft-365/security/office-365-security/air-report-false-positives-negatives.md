@@ -22,20 +22,20 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 451a6b19139502a3765795694860e884a7a469bf
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 48d7e1a7497f9bc2a07a84b36fb07939d25609bf
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175746"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289144"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Como relatar falsos positivos/negativos em recursos automatizados de investigação e resposta
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Se os recursos de investigação e resposta [automatizadas (AIR) no Office 365](automated-investigation-response-office.md) perderam ou detectaram incorretamente algo, há etapas que sua equipe de operações de segurança pode seguir para corrigi-lo. Essas ações incluem:
 
@@ -47,7 +47,7 @@ Use este artigo como guia.
 
 ## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Relatar um falso positivo/negativo à Microsoft para análise
 
-Se o AIR no Microsoft Defender para Office 365 perdeu uma mensagem de email, um anexo de email, uma URL em uma mensagem de email ou uma URL em um arquivo do Office, você pode enviar [spam, phishing, URLs](admin-submission.md)e arquivos suspeitos para a verificação do Microsoft para Office 365.
+Se o AIR no Microsoft Defender para Office 365 perder uma mensagem de email, um anexo de email, uma URL em uma mensagem de email ou uma URL em um arquivo do Office, você poderá enviar [spam, phishing, URLs](admin-submission.md)e arquivos suspeitos para a verificação do Microsoft para Office 365.
 
 Você também pode [enviar um arquivo à Microsoft para análise de malware.](https://www.microsoft.com/wdsi/filesubmission)
 
@@ -55,7 +55,7 @@ Você também pode [enviar um arquivo à Microsoft para análise de malware.](ht
 
 Se um alerta for disparado por uso legítimo ou se o alerta for impreciso, você poderá gerenciar alertas no portal do [Cloud App Security.](https://docs.microsoft.com/cloud-app-security/managing-alerts)
 
-Se sua organização estiver usando o [Microsoft Defender para](https://docs.microsoft.com/windows/security/threat-protection) Ponto de Extremidade, além do Office 365, e um arquivo, endereço IP, URL ou domínio for tratado como malware em um dispositivo, mesmo que seja seguro, você pode criar um indicador personalizado com uma ação ["Permitir"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)para seu dispositivo.
+Se sua organização estiver usando o [Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection) para Ponto de Extremidade, além do Office 365, e um arquivo, endereço IP, URL ou domínio for tratado como malware em um dispositivo, mesmo que seja seguro, você pode criar um indicador personalizado com uma ação ["Permitir"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)para seu dispositivo.
 
 ## <a name="undo-a-remediation-action"></a>Desfazer uma ação de correção
 
@@ -86,5 +86,5 @@ Na Central de ações, você pode ver as ações de correção que foram tomadas
 
 ## <a name="see-also"></a>Confira também
 
-- [Microsoft Defender para Office 365](office-365-atp.md)
+- [Obter o Microsoft Defender para Office 365](office-365-atp.md)
 - [Investigações automatizadas no Microsoft Defender para Office 365](office-365-air.md)

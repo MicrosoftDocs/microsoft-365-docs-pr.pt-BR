@@ -21,12 +21,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Saiba como usar o Diagnóstico de Página para otimizar o desempenho de Web Parts em páginas de site modernas do SharePoint Online.
-ms.openlocfilehash: f7b72aa8ed212147c06660585c4e58e548762c35
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: ca1b9328ad71fdd4a3f3c6c6be47eaa3993d4fc7
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519746"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287144"
 ---
 # <a name="optimize-web-part-performance-in-sharepoint-online-modern-site-pages"></a>Otimizar o desempenho de Web Parts em páginas de site moderno do SharePoint Online
 
@@ -56,13 +56,16 @@ Se o resultado de **As Web Parts estão afetando o tempo de carregamento da pág
 
 As informações disponíveis nos resultados incluem:
 
-- **Feita por** mostra se a Web Part é personalizada ou OOTB da Microsoft
-- **Nome e ID** mostra informações de identificação que podem ajudar você a encontrar a Web Part na página
-- **Total** mostra o tempo total de carregamento de Web Part
-- **Carregamento do Módulo** mostra o tempo gasto para buscar e carregar os componentes de Web Part
-- **Carregamento Lento** mostra o tempo de carregamento adiado de Web Parts não exibido na seção principal da página
-- **Inicialização** mostra o tempo gasto para a inicialização da Web Part
-- **Renderização** mostra o tempo gasto para a Web Part buscar e renderizar resultados
+- **Feito por** mostra se a Web Part é personalizada ou Microsoft OOTB.
+- **O nome e a ID** mostram informações de identificação que podem ajudá-lo a encontrar a Web Part na página.
+- **O total** mostra o tempo total para que a Web Part carregue, inicialize e renderize o módulo. É o tempo relativo total gasto pela Web Part para renderizar na página, do início ao fim.
+- **A Carga do** Módulo mostra o tempo de download, avaliação e carregamento das extensões javaScript e arquivos CSS. Em seguida, ele iniciará o processo de início.
+- **Load Lento** mostra o tempo para o carregamento adiado de Web Parts não visto na seção principal da página. Há determinadas condições em que há muitas Web Parts para renderizar e elas estão na fila para renderizar para minimizar o tempo de carregamento da página.
+- **Init** mostra o tempo que a Web Part levou para inicializar os dados.
+    Trata-se de uma chamada assíncrona e o tempo de emissão é o cálculo do tempo para a função onInit quando a promessa retornada é resolvida.
+- **A renderização** mostra o tempo de renderização da interface do usuário (interface do usuário) depois que o carregamento do módulo e a renderização são concluídas.
+    É o tempo de execução do JavaScript para montar o DOM no documento (página).
+    A renderização de recursos assíncronos, por exemplo, imagens, pode levar mais tempo para ser concluída.
 
 Essas informações são fornecidas para ajudar designers e desenvolvedores a solucionar problemas. Elas devem ser encaminhadas à equipe de design e desenvolvimento.
 

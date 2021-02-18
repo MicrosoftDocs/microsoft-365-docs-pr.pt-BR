@@ -19,20 +19,20 @@ ms.custom:
 description: Este artigo explica as alterações que estão sendo feitas nos recursos de proteção na Proteção de Informações do Azure
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0769306c3aa2d1a357e1d5999d1a1406c02aa5f3
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: fe85a46e3f20cda62cd8a52bd5df92257f8fee57
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261556"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286664"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-tenants"></a>Recursos de proteção na Proteção de Informações do Azure sendo implantadas para locatários existentes
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Para ajudar na etapa inicial de proteção de suas informações, a partir de julho de 2018, todos os locatários qualificados da Proteção de Informações do Azure terão os recursos de proteção na Proteção de Informações do Azure habilitados por padrão. Os recursos de proteção na Proteção de Informações do Azure eram conhecidos anteriormente no Office 365 como Rights Management ou Azure RMS. Se sua organização tiver um plano de serviço do Office E3 ou um plano de serviço superior, você começará a proteger as informações por meio da Proteção de Informações do Azure quando lançarmos esses recursos.
 
@@ -75,7 +75,7 @@ Use estas instruções para preparar o ambiente para o Azure Rights Management q
 
    Use o AdsI Edit para ver se você tem um SCP publicado no Active Directory: CN=Configuration [nome do servidor], CN=Services, CN=RightsManagementServices, CN=SCP
 
-2. Se você não estiver usando um SCP, os computadores Windows que se conectam a um cluster do AD RMS devem ser configurados para descoberta de serviço do lado do cliente ou redirecionamento de licenciamento usando o Registro do Windows: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation or HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation` .
+2. Se você não estiver usando um SCP, os computadores Windows que se conectam a um cluster do AD RMS devem ser configurados para o redirecionamento de licenciamento ou descoberta de serviço do lado do cliente usando o Registro do Windows: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation or HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation` .
 
 Para obter mais informações sobre essas configurações do Registro, consulte Habilitando a descoberta de serviço do lado do cliente usando o Registro do [Windows](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) e redirecionando o tráfego do [servidor de licenciamento.](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic)
 

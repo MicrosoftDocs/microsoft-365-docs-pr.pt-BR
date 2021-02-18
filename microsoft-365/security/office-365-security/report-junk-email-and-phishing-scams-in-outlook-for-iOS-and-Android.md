@@ -17,63 +17,33 @@ ms.collection:
 description: Os administradores podem saber mais sobre as opções de relatório de lixo eletrônico, não lixo eletrônico e phishing no Outlook para iOS e Android.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 58027f7589280b1266cddc8cfbf44db9e4f0ece4
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e3e3a2d77c978649e7496d09f78301add397fb9d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166814"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289168"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Relatar lixo eletrônico e phishing no Outlook para iOS e Android no Exchange Online
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Nas organizações do Microsoft 365 com caixas de correio [](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview)no Exchange Online ou caixas de correio locais usando a autenticação moderna híbrida, você pode usar as opções internas de relatório no Outlook para iOS e Android para enviar falsos positivos (emails bons marcados como spam), falsos negativos (emails falsos permitidos) e mensagens de phishing para o Exchange Online Protection (EOP).
+Nas organizações do Microsoft 365 com caixas de correio [](../../enterprise/hybrid-modern-auth-overview.md)no Exchange Online ou caixas de correio locais usando a autenticação moderna híbrida, você pode usar as opções de relatório internas no Outlook para iOS e Android para enviar falsos positivos (emails bons marcados como spam), falsos negativos (emails falsos permitidos) e mensagens de phishing para o Exchange Online Protection (EOP).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar
 
+- Para a melhor experiência de envio de usuário, recomendamos usar a Mensagem de Relatório e os complementos de Phishing de Relatório. Consulte [Habilitar o complemento Mensagem de Relatório e](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in) [Habilitar o complemento Phishing de Relatório](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-phish-add-in) para obter mais informações.
+
 - Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos usar o portal de Envios no Centro de Conformidade e Segurança & Segurança. Para obter mais informações, consulte Usar o Envio de Administrador para [enviar spam, phishing, URLs e arquivos suspeitos para a Microsoft.](admin-submission.md)
 
-- Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [Políticas de Envios de Usuário.](user-submission.md)
+- Você pode configurar mensagens relatadas para serem copiadas ou redirecionadas para uma caixa de correio que você especificar. Para obter mais informações, consulte [políticas de Envios de Usuário.](user-submission.md)
 
 - Para obter mais informações sobre como relatar mensagens à Microsoft, consulte [Mensagens e arquivos de relatório para a Microsoft.](report-junk-email-messages-to-microsoft.md)
 
   > [!NOTE]
   > Se o relatório de lixo eletrônico estiver desabilitado para o Outlook na política de envio de usuário, as mensagens de lixo eletrônico ou phishing serão movidas para a pasta Lixo eletrônico e não relatadas ao administrador ou à Microsoft.
-
-## <a name="report-spam-and-phishing-messages-in-outlook-for-ios-and-android"></a>Relatar mensagens de spam e phishing no Outlook para iOS e Android
-
-Para mensagens na Caixa de Entrada ou em qualquer outra pasta de email, exceto Lixo Eletrônico, use as etapas a seguir para relatar mensagens de spam e phishing para iOS e Android:
-
-1. Selecione uma ou mais mensagens.
-2. No canto superior direito, toque nos três pontos verticais. O menu de ação é aberto.
-
-   ![Relatar lixo eletrônico ou email de phishing no menu de ações](../../media/Android-report-as-junk-dialog.png)
-
-3. Toque **em Relatar lixo** eletrônico e selecione Lixo **Eletrônico** ou **Phishing.**
-
-   ![Relatar lixo eletrônico ou email de phishing](../../media/Android-report-junk-or-phishing.png)
-
-4. Na caixa de diálogo exibida, você pode escolher **Relatório** ou **Não, Obrigado.** Ao selecionar **Não** Obrigado ,  se você tiver mapeado Lixo Eletrônico, a mensagem será deslocada para a pasta Lixo Eletrônico, se você tiver mapeado **Phishing,** a mensagem será deslocada para a pasta Itens Excluídos. Selecione **Relatório** para também enviar uma cópia da mensagem para a Microsoft.
-
-   ![Relatar opções de relatório de lixo eletrônico ou phishing](../../media/Android-junk-email-reporting-options.png)
-
-Se você mudar de ideia, selecione **Desfazer** na notificação do notificação do notificação do jogo que aparecer. A mensagem permanece na pasta Caixa de Entrada.
-
-## <a name="report-non-spam-messages-from-the-junk-folder-in-outlook-for-ios-and-android"></a>Relatar mensagens não spam da pasta Lixo eletrônico no Outlook para iOS e Android
-
-Na pasta Lixo eletrônico, use as etapas a seguir para relatar falsos positivos de spam:
-
-1. Selecione uma ou mais mensagens.
-2. No canto superior direito, toque nos três pontos verticais. O menu de ação é aberto.
-
-   ![Relatar que não é lixo eletrônico no menu de ação](../../media/Android-not-junk-email.png)
-
-3. Toque **em Não é lixo eletrônico.**
-
-Uma notificação do notificação do jogo é exibida de que o email foi movido para sua Caixa de Entrada. Se você mudar de ideia, selecione **Desfazer** na notificação do notificação do jogo. O email permanece na pasta Lixo eletrônico.

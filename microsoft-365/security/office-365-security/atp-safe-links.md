@@ -6,7 +6,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
 audience: Admin
-ms.article: overview
+ms.topic: overview
 f1_keywords:
 - "197503"
 localization_priority: Normal
@@ -27,20 +27,20 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem aprender sobre a proteção de Links seguros no Defender for Office 365 para proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 251b3e71be30f90ac828abc8bf34877d65615336
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 15168f2fff5ce1e4afbef5ff71a780de896f0bbf
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175770"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288688"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Links seguros no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
 > Este artigo se destina a clientes empresariais que possuem o [Microsoft Defender para Office 365](office-365-atp.md). Se você estiver usando o Outlook.com, o Microsoft 365 Family ou o Microsoft 365 Personal e estiver procurando informações sobre Safelinks no Outlook, confira Segurança avançada [Outlook.com.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
@@ -59,7 +59,7 @@ A Proteção de Links Seguros está disponível nos seguintes locais:
 
 - **Aplicativos do Office 365:** a proteção de Links Seguros para aplicativos do Office 365 está disponível em área de trabalho, dispositivos móveis e web com suporte. Você **configura a** proteção de Links seguros para aplicativos do Office 365 na configuração global que está **fora** das políticas de Links seguros. Para obter instruções, consulte [Definir configurações globais para configurações de Links seguros no Microsoft Defender para Office 365.](configure-global-settings-for-safe-links.md)
 
-  Porém, a proteção de Links seguros  para aplicativos do Office 365 só é aplicada aos usuários incluídos nas políticas ativas de Links seguros. Se um usuário não estiver incluído em uma política de Links seguros ativa, ele não obterá a proteção de Links seguros nos aplicativos do Office 365 com suporte.
+  No entanto, a proteção de Links seguros  para aplicativos do Office 365 só é aplicada aos usuários incluídos nas políticas de Links seguros ativos. Se um usuário não estiver incluído em uma política de Links seguros ativa, ele não obterá a proteção de Links seguros nos aplicativos do Office 365 com suporte.
 
   Para obter mais informações sobre a proteção de Links seguros em aplicativos do Office 365, consulte a seção Configurações de Links seguros para aplicativos do [Office 365](#safe-links-settings-for-office-365-apps) posteriormente neste artigo.
 
@@ -82,17 +82,17 @@ A tabela a seguir descreve cenários de Links Seguros em organizações do Micro
 
 |Cenário|Resultado|
 |---|---|
-|Ela é membro do departamento de marketing. A proteção de Links Seguros para aplicativos do Office 365 está conexões globais, e existe uma política de Links seguros que se aplica a membros do departamento de marketing. Clara abre uma apresentação do PowerPoint em uma mensagem de email e clica em uma URL da apresentação.|Ela está protegida por Links Seguros. <p> Ela está incluída em uma política de Links seguros, e a proteção de Links seguros para aplicativos do Office 365 está conexões. <p> Para obter mais informações sobre os requisitos para a proteção de Links seguros em aplicativos do Office 365, consulte a seção Configurações de Links seguros para aplicativos do [Office 365](#safe-links-settings-for-office-365-apps) posteriormente neste artigo.|
+|Ela é membro do departamento de marketing. A proteção de Links seguros para aplicativos do Office 365 está conexões globais para Links seguros, e existe uma política de Links seguros que se aplica a membros do departamento de marketing. Clara abre uma apresentação do PowerPoint em uma mensagem de email e clica em uma URL da apresentação.|A empresa está protegida por Links Seguros. <p> Ela está incluída em uma política de Links seguros, e a proteção de Links seguros para aplicativos do Office 365 está conexões. <p> Para obter mais informações sobre os requisitos para a proteção de Links seguros em aplicativos do Office 365, consulte a seção Configurações de Links Seguros para aplicativos do [Office 365](#safe-links-settings-for-office-365-apps) posteriormente neste artigo.|
 |A organização do Microsoft 365 E5 de Chris não tem políticas de Links seguros configuradas. Chris recebe um email de um remetente externo que contém uma URL para um site mal-intencionado em que, por fim, ele clica.|Chris não está protegido por Links seguros. <p> Um administrador deve criar pelo menos uma política de Links seguros para qualquer pessoa obter a proteção de Links seguros em mensagens de email de entrada. Chris deve ser incluído nas condições da política para obter a proteção de Links seguros.|
 |Na organização do Pat, nenhum administrador criou nenhuma política de Links seguros, mas a proteção de Links seguros para aplicativos do Office 365 está conexões. Pat abre um documento do Word e clica em uma URL no arquivo.|Pat não está protegido por Links Seguros. <p> Embora a proteção de Links Seguros para aplicativos do Office 365 seja ativado globalmente, Pat não está incluído em nenhuma política de Links seguros ativa, portanto, a proteção não pode ser aplicada.|
-|Na organização de Lee, é configurado na lista Bloquear as URLs a seguir nas configurações `https://tailspintoys.com` globais de Links Seguros.  Já existe uma política de Links seguros que inclui Lee. Lee recebe uma mensagem de email que contém a `https://tailspintoys.com/aboutus/trythispage` URL. Lee clica na URL.|A URL pode ser bloqueada automaticamente para Lee; depende da entrada da URL na lista e do cliente de email que Lee usou. Para obter mais informações, consulte [a lista "Bloquear as URLs a seguir"](#block-the-following-urls-list-for-safe-links) para a seção Links seguros posteriormente neste artigo.|
-|Ela e Julia trabalham para contoso.com. Há muito tempo, os administradores configuraram políticas de Links seguros que se aplicam a Ela e à Julia. Ela envia um email para Julia, sem saber que o email contém uma URL mal-intencionada.|Julia será protegida por **Links** seguros se a política de Links seguros que se aplica a ela estiver configurada para ser aplicada a mensagens entre destinatários internos. Para obter mais informações, consulte a [seção Configurações de Links seguros](#safe-links-settings-for-email-messages) para mensagens de email posteriormente neste artigo.|
+|Na organização de Lee, é configurado na lista Bloquear as URLs a seguir nas configurações `https://tailspintoys.com` globais de Links Seguros.  Já existe uma política de Links seguros que inclui Lee. Lee recebe uma mensagem de email que contém a URL `https://tailspintoys.com/aboutus/trythispage` . Lee clica na URL.|A URL pode ser bloqueada automaticamente para Lee; depende da entrada da URL na lista e do cliente de email que Lee usou. Para obter mais informações, consulte [a lista "Bloquear as URLs a seguir"](#block-the-following-urls-list-for-safe-links) para a seção Links seguros posteriormente neste artigo.|
+|Ela e Julia trabalham para contoso.com. Há muito tempo, os administradores configuraram políticas de Links seguros que se aplicam a Ela e à Julia. Ela envia um email para Julia, sem saber que o email contém uma URL mal-intencionada.|Julia será protegida por **Links** seguros se a política de Links seguros que se aplica a ela estiver configurada para ser aplicada a mensagens entre destinatários internos. Para obter mais informações, consulte a seção [Configurações de Links seguros](#safe-links-settings-for-email-messages) para mensagens de email posteriormente neste artigo.|
 
 ## <a name="safe-links-settings-for-email-messages"></a>Configurações de Links Seguros para mensagens de email
 
 Links seguros examina emails de entrada em busca de hiperlinks mal-intencionados conhecidos. As URLs digitalizados são reescritas usando o prefixo de URL padrão da Microsoft: `https://nam01.safelinks.protection.outlook.com` . Depois que o link é reescrito, ele é analisado para conteúdo potencialmente mal-intencionado.
 
-Depois que o link seguro regrava uma URL, a URL permanece reescrita, mesmo que a mensagem seja encaminhada ou respondida. Links adicionais que são adicionados à mensagem encaminhada ou respondida não são regravados.
+Depois que o link seguro regrava uma URL, a URL permanece reescrita mesmo se a mensagem for *encaminhada ou* respondida manualmente (a destinatários internos e externos). Links adicionais que são adicionados à mensagem encaminhada ou respondida não são regravados. No entanto, no  caso de encaminhamento automático por regras de Caixa de Entrada ou encaminhamento SMTP, a  URL não será regravada na mensagem destinada ao destinatário final, a menos que esse destinatário também esteja protegido por Links seguros ou a URL já tenha sido reescrita em uma comunicação anterior. 
 
 As configurações nas políticas de Links seguros que se aplicam a mensagens de email são descritas na lista a seguir:
 
@@ -103,7 +103,7 @@ As configurações nas políticas de Links seguros que se aplicam a mensagens de
   - Quando clicado, as URLs são verificadas em relação a uma lista de URLs mal-intencionadas conhecidas e à lista ["Bloquear as URLs a seguir".](#block-the-following-urls-list-for-safe-links)
   - As URLs que não têm uma reputação válida são acionada de forma assíncrona em segundo plano.
 
-- **Aplique verificação de URL** em tempo real para links suspeitos e links que apontem para arquivos: permite a verificação em tempo real de links, incluindo links em mensagens de email que apontam para conteúdo baixável. O valor recomendado está habilitado.
+- **Aplique a verificação** de URL em tempo real para links suspeitos e links que apontem para arquivos: permite a verificação em tempo real de links, incluindo links em mensagens de email que apontam para conteúdo baixável. O valor recomendado está habilitado.
 
   - **Aguarde a conclusão da verificação de URL antes de entregar a mensagem:**
 
@@ -112,7 +112,7 @@ As configurações nas políticas de Links seguros que se aplicam a mensagens de
 
 - **Aplicar Links** Seguros a mensagens de email enviadas dentro da organização: Habilita ou desabilita a verificação de Links Seguros em mensagens enviadas entre os destinatários internos e os destinatários internos dentro da mesma organização do Exchange Online. O valor recomendado está habilitado.
 
-- **Não rastrear cliques do usuário:** Habilita ou desabilita o armazenamento de dados de clique de Links seguros para URLs clicadas em mensagens de email. O valor recomendado é deixar essa configuração deseleção (para acompanhar os cliques do usuário).
+- **Não rastreia cliques do** usuário: Habilita ou desabilita o armazenamento de dados de clique de Links seguros para URLs clicadas em mensagens de email. O valor recomendado é deixar essa configuração deseleitada (para acompanhar cliques do usuário).
 
   Atualmente, não há suporte para o rastreamento de cliques de URL para links em mensagens de email enviadas entre os destinatários internos e os destinatários internos.
 
@@ -138,7 +138,7 @@ Para obter mais informações sobre os valores recomendados para as configuraç�
 
 Em um nível alto, veja como a proteção de Links seguros funciona em URLs em mensagens de email:
 
-1. Todos os emails passam pelo EOP, onde o protocolo IP (IP) e os filtros de envelope, proteção contra malware baseada em assinatura, filtros anti-spam e anti-malware antes da mensagem ser entregue à caixa de correio do destinatário.
+1. Todos os emails passam pelo EOP, onde os filtros de protocolo IP (IP) e envelope, proteção contra malware baseada em assinatura, filtros anti-spam e anti-malware antes da mensagem ser entregue à caixa de correio do destinatário.
 
 2. O usuário abre a mensagem em sua caixa de correio e clica em uma URL na mensagem.
 
@@ -155,11 +155,11 @@ Em um nível alto, veja como a proteção de Links seguros funciona em URLs em m
 ## <a name="safe-links-settings-for-microsoft-teams"></a>Configurações de Links Seguros para o Microsoft Teams
 
 > [!IMPORTANT]
-> A partir de março de 2020, esse recurso está na Visualização e está disponível somente para membros do Tap (Programa de Adoção de Tecnologia) do Microsoft Teams. Para obter informações sobre o cronograma de lançamento, confira o [mapa do Microsoft 365.](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams)
+> A partir de março de 2020, esse recurso está na visualização e está disponível somente para membros do Tap (Programa de Adoção de Tecnologia) do Microsoft Teams. Para obter informações sobre o cronograma de lançamento, confira o [mapa do Microsoft 365.](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=&searchterms=Safe%2CLinks%2CProtection%2Cfor%2CMicrosoft%2CTeams)
 
-Você habilita ou desabilita a proteção de Links seguros para o Microsoft Teams nas políticas de Links seguros. Especificamente, você usa a **ação Selecionar a ação para URLs desconhecidas ou potencialmente mal-intencionadas na configuração do Microsoft Teams.** O valor recomendado é **On**.
+Você habilita ou desabilita a proteção de Links seguros para o Microsoft Teams nas políticas de Links seguros. Especificamente, você usa a ação Selecionar a ação para **URLs desconhecidas ou potencialmente mal-intencionadas na configuração do Microsoft Teams.** O valor recomendado é **On**.
 
-As configurações a seguir nas políticas de Links seguros que se aplicam a links em mensagens de email também se aplicam a links no Teams:
+As seguintes configurações nas políticas de Links seguros que se aplicam a links em mensagens de email também se aplicam a links no Teams:
 
 - **Aplicar verificação de URL em tempo real para links suspeitos e links que apontam para arquivos**
 - **Não rastrear cliques do usuário**
@@ -193,7 +193,7 @@ Em um nível alto, veja como a proteção de Links seguros funciona para URLs no
 
 A Proteção de Links Seguros para aplicativos do Office 365 verifica links em documentos do Office, não links em mensagens de email (mas pode verificar links em documentos anexados do Office em mensagens de email após o documento ser aberto).
 
-A proteção de Links seguros para aplicativos do Office 365 tem os seguintes requisitos de cliente:
+A Proteção de Links Seguros para aplicativos do Office 365 tem os seguintes requisitos de cliente:
 
 - Microsoft 365 Apps ou Microsoft 365 Business Premium.
   - Versões atuais do Word, Excel e PowerPoint no Windows, Mac ou em um navegador da Web.
@@ -201,7 +201,7 @@ A proteção de Links seguros para aplicativos do Office 365 tem os seguintes re
   - Visio no Windows.
   - OneNote em um navegador da Web.
 
-- Os aplicativos do Office 365 estão configurados para usar a autenticação moderna. Para saber mais, confira como a autenticação moderna funciona para aplicativos cliente do [Office 2013, Office 2016 e Office 2019.](https://docs.microsoft.com/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016)
+- Os aplicativos do Office 365 estão configurados para usar a autenticação moderna. Para saber mais, confira Como funciona a autenticação moderna para aplicativos cliente do [Office 2013, Office 2016 e Office 2019.](../../enterprise/modern-auth-for-office-2013-and-2016.md)
 
 - Os usuários são assinados usando suas contas de trabalho ou de estudante. Para saber mais, confira [Entrar no Office.](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)
 
@@ -215,7 +215,7 @@ As seguintes configurações de Links seguros estão disponíveis para aplicativ
 
 - Não permita que os usuários cliquem em links seguros para a [](#warning-pages-from-safe-links) **URL original:** permite ou impede que os usuários cliquem na página de aviso para a URL original nas versões da área de trabalho Word, Excel, PowerPoint e Visio. O valor padrão e recomendado é **On**.
 
-Para definir as configurações de Links seguros para aplicativos do Office 365, confira Configurar a proteção de Links seguros para aplicativos do [Office 365.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center)
+Para definir as configurações de Links seguros para aplicativos do Office 365, confira Configurar a proteção de Links seguros para aplicativos [do Office 365.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center)
 
 Para obter mais informações sobre os valores recomendados para as configurações de política Padrão e Estrito, consulte [Configurações globais para Links seguros.](recommended-settings-for-eop-and-office365-atp.md#global-settings-for-safe-links)
 
@@ -285,7 +285,7 @@ Exemplos dos valores que você pode inserir e seus resultados são descritos na 
 |`https://toys.contoso.com*`|Bloqueia um subdomínio (neste exemplo), mas permite cliques em outras `toys` URLs de domínio (como `https://contoso.com` ou `https://home.contoso.com` ).|
 |
 
-## <a name="do-not-rewrite-the-following-urls-lists-in-safe-links-policies"></a>Listas de "Não reescrever as seguintes URLs" nas políticas de Links seguros
+## <a name="do-not-rewrite-the-following-urls-lists-in-safe-links-policies"></a>"Não reescrever as seguintes URLs" nas políticas de Links seguros
 
 > [!NOTE]
 > Se sua organização usa políticas de Links seguros, as listas de **URLs** a seguir não são o único método com suporte para testes de phishing de terceiros.
@@ -323,7 +323,7 @@ Exemplos dos valores que você pode inserir e seus resultados são descritos na 
 |`https://contoso.com/a/*`|Permite o acesso a `https://contoso.com/a` e subcaminhos como `https://contoso.com/a/b`|
 |
 
-## <a name="warning-pages-from-safe-links"></a>Páginas de aviso de Links Seguros
+## <a name="warning-pages-from-safe-links"></a>Páginas de aviso de Links seguros
 
 Esta seção contém exemplos das várias páginas de aviso que são acionadas pela proteção de Links seguros quando você clica em uma URL.
 

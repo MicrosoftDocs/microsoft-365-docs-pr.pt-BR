@@ -15,21 +15,21 @@ ms.collection:
 description: Saiba como instalar e usar o complemento Relatório de Lixo Eletrônico da Microsoft para relatar mensagens de spam, não spam e phishing para a Microsoft.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 171bdc43e565a0890cddcd1e48208b49774a5315
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e22a1364e8d7a1447bbcf518cc339a681c57a8af
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167342"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286616"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Instalar e usar o complemento Relatório de Lixo Eletrônico para o Microsoft Outlook
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
 > Se você não estiver usando o complemento Relatório de Lixo Eletrônico [](enable-the-report-message-add-in.md) no momento, recomendamos o complemento Mensagem de Relatório ou o complemento [De Phishing de](enable-the-report-phish-add-in.md) Relatório. Para mais informações, confira [Relatar mensagens e arquivos à Microsoft](report-junk-email-messages-to-microsoft.md).
@@ -45,7 +45,7 @@ Este tópico explica como instalar e usar o complemento Relatório de Lixo Eletr
 - O complemento Relatório de Lixo Eletrônico funciona com as seguintes versões do Outlook:
 
   - Outlook 2013 ou posterior
-  - Outlook incluído no Microsoft 365 Apps para empresas
+  - Outlook incluído no Microsoft 365 Apps para Empresas
 
 - Para obter mais informações sobre como relatar mensagens à Microsoft, consulte [Mensagens e arquivos de relatório para a Microsoft.](report-junk-email-messages-to-microsoft.md)
 
@@ -92,7 +92,7 @@ Este tópico explica como instalar e usar o complemento Relatório de Lixo Eletr
 
    - Selecione várias mensagens, clique com o botão direito do mouse e selecione **Relatar como** Não é Lixo Eletrônico ou Relatar **como Phishing.**
 
-     ![Relatar várias mensagens de email que não são de lixo eletrônico ou phishing clicando com o botão direito do mouse na pasta Lixo Eletrônico](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
+     ![Relatar várias mensagens de email que não são lixo eletrônico ou phishing clicando com o botão direito do mouse na pasta Lixo Eletrônico](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
 
 2. Na caixa de diálogo exibida, leia as informações e clique em **Relatório.** Se você mudar de ideia, clique **em Não Relatar.**
 
@@ -148,7 +148,7 @@ Selecione a seta para baixo ao lado de **Lixo Eletrônico** para obter mais opç
    DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
    ```
 
-3. Para instalar o add-in sem nenhuma interação do usuário, abra um Prompt de Comando e use a seguinte sintaxe:
+3. Para instalar o complemento sem nenhuma interação do usuário, abra um Prompt de Comando e use a seguinte sintaxe:
 
    ```dos
    msiexec /qn /i "<PathToMSIFile>\<MSIFile>" [MaxMessageSelection=<1-50>] [BccEmailAddress="<EmailAddress1>; <EmailAddress2>"...]
@@ -177,7 +177,7 @@ Selecione a seta para baixo ao lado de **Lixo Eletrônico** para obter mais opç
 
 Para verificar se você instalou com êxito o Complemento Relatório de Lixo Eletrônico, faça as seguintes etapas no Outlook:
 
-- Selecione a mensagem ou abra a mensagem. Na guia **Página** Home ou **Mensagem** na faixa de opções, clique em **Lixo** Eletrônico e verifique se as seguintes opções estão disponíveis:
+- Selecione a mensagem ou abra a mensagem. Na guia **Página Home** ou **Mensagem** na faixa de opções, clique em **Lixo** Eletrônico e verifique se as seguintes opções estão disponíveis:
 
   - **Relatar como Lixo Eletrônico**
   - **Relatar como Phishing**
@@ -208,7 +208,7 @@ Para verificar se você instalou com êxito o Complemento Relatório de Lixo Ele
 
   ![Relatar não lixo eletrônico ou email de phishing clicando com o botão direito do mouse na pasta Lixo Eletrônico](../../media/junk-email-reporting-junk-folder-right-click.png)
 
-  ![Relatar várias mensagens de email que não são de lixo eletrônico ou phishing clicando com o botão direito do mouse na pasta Lixo Eletrônico](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
+  ![Relatar várias mensagens de email que não são lixo eletrônico ou phishing clicando com o botão direito do mouse na pasta Lixo Eletrônico](../../media/junk-email-reporting-junk-folder-right-click-multiple.png)
 
 ## <a name="uninstall-the-junk-email-reporting-add-in"></a>Desinstalar o Suplemento Relatório de Lixo Eletrônico
 

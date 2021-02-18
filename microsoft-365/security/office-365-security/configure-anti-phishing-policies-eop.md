@@ -15,19 +15,19 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing disponíveis em organizações do Exchange Online Protection (EOP) com ou sem caixas de correio do Exchange Online.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 052e19d811f56fe633ff0fbde79f51860a04a669
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 5bab5e791cb58c4e681a802179583471bb6ab165
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165842"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287908"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Configurar políticas anti-phishing em EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, há uma política anti-phishing padrão que contém um número limitado de recursos antifalsagem habilitados por padrão. Para obter mais informações, consulte [Configurações de Spoof em políticas anti-phishing.](set-up-anti-phishing-policies.md#spoof-settings)
 
@@ -44,13 +44,13 @@ Os elementos básicos de uma política anti-phishing são:
 
 A diferença entre esses dois elementos não é óbvia quando você gerencia políticas anti-phishing no Centro de Conformidade & e Segurança:
 
-- Ao criar uma política anti-phishing, você está realmente criando uma regra anti-phishing e a política anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
+- Ao criar uma política anti-phishing, você está criando uma regra anti-phishing e a política anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
 - Quando você modifica uma política anti-phishing, as configurações relacionadas ao nome, prioridade, habilitada ou desabilitada e filtros de destinatário modificam a regra anti-phishing. Todas as outras configurações modificam a política anti-phishing associada.
 - Quando você remove uma política anti-phishing, a regra anti-phishing e a política anti-phishing associada são removidas.
 
 No PowerShell do Exchange Online, você gerencia a política e a regra separadamente. Para obter mais informações, consulte a seção Usar o PowerShell do Exchange Online para configurar políticas [anti-phishing](#use-exchange-online-powershell-to-configure-anti-phishing-policies) posteriormente neste artigo.
 
-Cada organização tem uma política antiphishing interna chamada Office365 AntiPhish Default que tem estas propriedades:
+Todas as organizações têm uma política antiphishing interna chamada Office365 AntiPhish Default com estas propriedades:
 
 - A política é aplicada a todos os destinatários na organização, mesmo que não haja nenhuma regra anti-phishing (filtros de destinatário) associada à política.
 - A política tem o valor de prioridade personalizado **Menor**, que não pode ser modificado (a política é sempre aplicada por último). As políticas personalizadas que você cria, sempre têm uma prioridade mais alta.
@@ -60,25 +60,25 @@ Para aumentar a eficácia da proteção anti-phishing, você pode criar polític
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a **página anti-phishing,** use <https://protection.office.com/antiphishing> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página anti-phishing,** use <https://protection.office.com/antiphishing> .
 
-- Para se conectar ao Windows PowerShell do Exchange Online, confira [Conectar ao Windows PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
   Você não pode gerenciar políticas anti-phishing no EOP PowerShell autônomo.
 
-- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos neste artigo:
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
   - Para adicionar, modificar e excluir políticas anti-phishing, você  precisa ser membro dos grupos de função Gerenciamento da Organização ou **Administrador de** Segurança.
-  - Para acesso somente leitura a políticas anti-phishing, você precisa ser membro dos grupos de funções Leitor **Global** ou **Leitor de** <sup>\*</sup> Segurança.
+  - Para acesso somente leitura a políticas anti-phishing, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** <sup>\*</sup> Segurança.
 
   Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
   **Observações**:
 
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O **grupo de função Gerenciamento da Organização Somente** Exibição no Exchange [Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também oferece acesso somente leitura ao <sup>\*</sup> recurso.
   - <sup>\*</sup> No Centro de Conformidade & segurança, o acesso somente leitura permite que os usuários vejam as configurações de políticas anti-phishing personalizadas. Os usuários somente leitura não podem ver as configurações na política anti-phishing padrão.
 
-- Para criar e modificar políticas anti-phishing no EOP autônomo, você precisa fazer algo que exija _moderação_ para seu locatário. Por exemplo, no Centro de administração do Exchange  (EAC), você pode ir para  a guia Permissões, selecionar um grupo de função existente, clicar em Editar ícone e remover uma função (que, por fim, você adicionará ![ ](../../media/ITPro-EAC-EditIcon.png) novamente). Se o seu locatário nunca tiver sido dratado, você obterá uma caixa de diálogo chamada Atualizar configurações da organização **com** uma barra de progresso que deve ser concluída com êxito. Para obter mais informações sobre a moderação, consulte o cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (que não está disponível no EOP PowerShell autônomo ou no Centro de Conformidade e & Segurança).
+- Para criar e modificar políticas anti-phishing no EOP autônomo, você precisa fazer algo que exija _moderação_ para seu locatário. Por exemplo, no Centro de administração do Exchange  (EAC), você pode ir para  a guia Permissões, selecionar um grupo de função existente, clicar em Editar ícone e remover uma função (que, por fim, você adicionará ![ ](../../media/ITPro-EAC-EditIcon.png) novamente). Se o seu locatário nunca tiver sido dratado, você obterá uma caixa de diálogo chamada Atualizar configurações da organização **com** uma barra de progresso que deve ser concluída com êxito. Para obter mais informações sobre a moderação, consulte o cmdlet [Enable-OrganizationCustomization](https://docs.microsoft.com/powershell/module/exchange/enable-organizationcustomization) (que não está disponível no EOP PowerShell autônomo ou no Centro de Conformidade & Segurança).
 
 - Para nossas configurações recomendadas para políticas anti-phishing, consulte as configurações de política [anti-phishing](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)padrão do EOP.
 
@@ -88,7 +88,7 @@ Para aumentar a eficácia da proteção anti-phishing, você pode criar polític
 
 ## <a name="use-the-security--compliance-center-to-create-anti-phishing-policies"></a>Usar o Centro de Conformidade & segurança para criar políticas anti-phishing
 
-Criar uma política anti-phishing personalizada no Centro de Conformidade e Segurança cria a regra anti-phishing e a política anti-phish & ing associada ao mesmo tempo usando o mesmo nome para ambos.
+Criar uma política anti-phishing personalizada no Centro de Conformidade e Segurança cria a regra anti-phish & ing e a política anti-phishing associada ao mesmo tempo usando o mesmo nome para ambos.
 
 Ao criar uma política anti-phishing, você só pode especificar o nome, a descrição e o filtro de destinatário que identifica a quem a política se aplica. Depois de criar a política, você pode modificar a política para alterar ou revisar as configurações anti-phishing padrão.
 
@@ -114,7 +114,7 @@ Ao criar uma política anti-phishing, você só pode especificar o nome, a descr
    - **O destinatário é membro de:** Especifica um ou mais grupos em sua organização.
    - **O domínio do destinatário é**: Especifica os destinatários em um ou mais domínios aceitos configurados na sua organização. 
 
-   Depois de selecionar a condição, um menu suspenso correspondente será exibido com **uma caixa Qualquer uma dessas.**
+   Depois de selecionar a condição, um menu suspenso correspondente será exibido **com uma caixa Qualquer uma dessas.**
 
    - Clique na caixa e role pela lista de valores a selecionar.
    - Clique na caixa e comece a digitar para filtrar a lista e selecionar um valor.
@@ -152,7 +152,7 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
 4. **Configuração de** política: **clique** em Editar para modificar as mesmas configurações que estavam disponíveis quando você [criou](#use-the-security--compliance-center-to-create-anti-phishing-policies) a política na seção anterior:
 
-   - **Nome**
+   - **Name**
    - **Descrição**
    - **Aplicado a**
    - **Revise suas configurações**
@@ -172,7 +172,7 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
    - **Ações:** especifique a ação a ser tomada em mensagens que não têm inteligência contra spoof:
 
-     **Se o email for enviado por alguém que não tem permissão para fazer a spoof do seu domínio:**
+     **Se o email for enviado por alguém que não tem permissão para fazer spoof do seu domínio:**
 
      - **Mover mensagem para as pastas de Lixo Eletrônico dos destinatários**
      - **Colocar a mensagem em quarentena**
@@ -197,7 +197,7 @@ A política antiphishing padrão é denominada Office365 AntiPhish Default e nã
 
 2. Na página **Anti-phishing,** clique em **Política padrão.**
 
-3. A **página Editar sua política Padrão AntiPhish do Office365 é** exibida. As seções a seguir estão disponíveis, que contêm configurações idênticas para quando você [modifica uma política personalizada.](#use-the-security--compliance-center-to-modify-anti-phishing-policies)
+3. The **Edit your policy Office365 AntiPhish Default** page appears. As seções a seguir estão disponíveis, que contêm configurações idênticas para quando você [modifica uma política personalizada.](#use-the-security--compliance-center-to-modify-anti-phishing-policies)
 
    - **Representação**
    - **Spoof**
@@ -205,7 +205,7 @@ A política antiphishing padrão é denominada Office365 AntiPhish Default e nã
 
    As configurações a seguir não estão disponíveis quando você modifica a política padrão:
 
-   - Você pode  ver a seção de configuração de política e os valores, mas não há **nenhum** link de edição, portanto, você não pode modificar as configurações (nome da política, descrição e a quem a política se aplica (aplica-se a todos os destinatários)).
+   - Você pode  ver a seção de configuração de política e os valores, mas não há **nenhum** link editar, portanto, você não pode modificar as configurações (nome da política, descrição e a quem a política se aplica (aplica-se a todos os destinatários)).
    - Não é possível excluir a política padrão.
    - Não é possível alterar a prioridade da política padrão (ela é sempre aplicada por último).
 
@@ -235,7 +235,7 @@ As políticas anti-phishing personalizadas são exibidas na ordem em que são pr
 
 Para alterar a prioridade de  uma política, clique em Aumentar prioridade ou Diminuir prioridade  nas propriedades da política (não é possível modificar diretamente o número prioridade no Centro de Conformidade e Segurança &).  Alterar a prioridade de uma política só faz sentido se você tiver várias políticas.
 
-1. No Centro de Conformidade & segurança,  vá para \>  \> **anti-phishing da Política de Gerenciamento** de Ameaças da ATP.
+1. No Centro de Conformidade & segurança, vá para **política** de gerenciamento de ameaças \>  \> **atp anti-phishing**.
 
 2. Selecione a política que você deseja modificar. Se ele já estiver selecionado, desmarque-o e selecione-o novamente.
 
@@ -265,7 +265,7 @@ Para alterar a prioridade de  uma política, clique em Aumentar prioridade ou Di
 
 ## <a name="use-the-security--compliance-center-to-remove-anti-phishing-policies"></a>Usar o Centro de Conformidade & segurança para remover políticas anti-phishing
 
-1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **Anti-phishing**.
+1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento \> **de Ameaças** \> **Anti-phishing**.
 
 2. Selecione a política que você deseja remover. Se ele já estiver selecionado, desmarque-o e selecione-o novamente.
 
@@ -417,7 +417,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AntiPh
 
 A única configuração que não está disponível quando você modifica uma regra anti-phishing no PowerShell é o parâmetro _Enabled_ que permite criar uma regra desabilitada. Para habilitar ou desabilitar regras anti-phishing existentes, consulte a próxima seção.
 
-Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma regra conforme descrito na Etapa 2: usar o PowerShell para criar uma seção de regra [anti-phishing](#step-2-use-powershell-to-create-an-anti-phish-rule) anteriormente neste artigo.
+Caso contrário, as mesmas configurações estarão disponíveis quando você criar uma regra conforme descrito na Etapa 2: Usar o PowerShell para criar uma seção de regra [anti-phishing](#step-2-use-powershell-to-create-an-anti-phish-rule) anteriormente neste artigo.
 
 Para modificar uma regra anti-phishing, use esta sintaxe:
 
@@ -513,7 +513,7 @@ Para informações detalhadas de sintaxes e de parâmetros, [consulte Remove-Ant
 
 Para verificar se você configurou com êxito as políticas anti-phishing no Microsoft Defender para Office 365, faça uma das seguintes etapas:
 
-- No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de \> **Ameaças** \> **Anti-phishing**. Verifique a lista de políticas, seus valores **de Status** e seus **valores de** Prioridade. Para exibir mais detalhes, faça uma das seguintes etapas:
+- No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento \> **de Ameaças** \> **Anti-phishing**. Verifique a lista de políticas, seus valores **de Status** e seus **valores de** Prioridade. Para exibir mais detalhes, faça uma das seguintes etapas:
 
   - Selecione a política na lista e veja os detalhes no flyout.
   - Clique **em Política** Padrão e veja os detalhes no flyout.

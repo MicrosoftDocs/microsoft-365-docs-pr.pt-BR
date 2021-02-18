@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 039ec1c3f9b0ba233f950d11b9d58be341b28121
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 520a5627d2cd280f28c4e2c3db0e565640a1eace
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930589"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289156"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Novidades no Microsoft Secure Score
 
@@ -35,10 +35,16 @@ ms.locfileid: "49930589"
 Para tornar o Microsoft Secure Score um representante melhor da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [O que está chegando no Microsoft Secure Score?](microsoft-secure-score-whats-coming.md)
 
 O Microsoft Secure Score pode ser encontrado https://security.microsoft.com/securescore no centro de segurança do Microsoft [365.](overview-security-center.md)
+    
+## <a name="february-2021"></a>Fevereiro de 2021
+
+### <a name="compatibility-with-graph-api"></a>Compatibilidade com a API do Graph
+
+As recomendações da Pontuação de Segurança da Microsoft fornecidas por meio da API do Graph terão o mesmo peso que as recomendações que você vê atualmente na central de segurança do Microsoft 365.
 
 ## <a name="january-2021"></a>Janeiro de 2021
 
-### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>Adicionada nossa primeira recomendação de segurança para o Microsoft Teams
+### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>Foi adicionada nossa primeira recomendação de segurança para o Microsoft Teams
 
 Os clientes do Microsoft Teams verão "Restringir usuários anônimos de ingressar em reuniões" como uma nova ação de melhoria no Secure Score.
 
@@ -47,7 +53,7 @@ Os clientes do Microsoft Teams verão "Restringir usuários anônimos de ingress
 ### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Seis ações de melhoria relacionadas a contas adicionadas ao Microsoft Defender para Ponto de Extremidade (anteriormente Microsoft Defender ATP):
 
 - Definir 'Tamanho mínimo da senha' como '14 ou mais caracteres'
-- Definir "Impor histórico de senhas" como '24 ou mais senhas)'
+- Definir 'Impor histórico de senhas' como '24 ou mais senhas)'
 - Definir 'Idade máxima da senha' como '60 ou menos dias, mas não 0'
 - Definir 'Idade mínima da senha' como '1 ou mais dias''
 - Desabilitar a conta de Administrador integrado
@@ -77,11 +83,11 @@ A capacidade de criar tíquetes do ServiceNow por meio da Classificação de Seg
 
 - Habilitar política para bloquear autenticação herdado
 
-## <a name="incompatibility-with-identity-secure-score-and-graph-api"></a>Incompatibilidade com a Pontuação Segura de Identidade e a API do Graph
+## <a name="incompatibility-with-identity-secure-score"></a>Incompatibilidade com a Pontuação de Segurança de Identidade
 
-Na versão recente do Microsoft Secure Score, um modelo de pontuação aprimorado foi lançado. Essas alterações permitem uma visão mais flexível e precisa da postura de segurança. No entanto, essas atualizações tornou o Microsoft Secure Score temporariamente incompatível com a Pontuação de Segurança de Identidade e a API do Graph.
+Na versão recente do Microsoft Secure Score, um modelo de pontuação aprimorado foi lançado. Essas alterações permitem uma visão mais flexível e precisa da postura de segurança. No entanto, essas atualizações tornou o Microsoft Secure Score temporariamente incompatível com o Identity Secure Score.
 
-No tempo, a Identity Secure Score e a API do Graph adotarão o novo modelo de pontuação. Até lá, os clientes verão diferenças nas pontuações relatadas pelo Microsoft Secure Score, Pela Identity Secure Score e pela API do Graph. Lamentamos qualquer inconveniente que isso cause e estamos trabalhando para garantir que essas experiências sejam mais compatíveis no futuro.
+No tempo, a Pontuação de Segurança de Identidade adotará o novo modelo de pontuação. Até lá, os clientes verão diferenças nas pontuações relatadas pelo Microsoft Secure Score e pela Identity Secure Score. Lamentamos qualquer inconveniente que isso cause e estamos trabalhando para garantir que essas experiências sejam mais compatíveis no futuro.
 
 ## <a name="updated-improvement-actions"></a>Ações de melhoria atualizadas
 

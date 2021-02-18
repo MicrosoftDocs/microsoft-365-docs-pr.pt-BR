@@ -20,23 +20,23 @@ ms.custom:
 description: Os administradores podem aprender sobre os controles de spam de saída no Exchange Online Protection (EOP) e o que fazer se você precisar enviar mensagens em massa.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6d5a82b4a2c7f94b3c5d0958abc8c4552cc04032
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: f9d434c858f7c66f82dd4f551bac99458b9e5c8c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150683"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287624"
 ---
 # <a name="outbound-spam-protection-in-eop"></a>Proteção contra spam de saída no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, levam a sério o gerenciamento de spam de saída. Um cliente que intencionalmente ou não envia spam de sua organização pode degradar a reputação de todo o serviço e pode afetar a entrega de emails para outros clientes.
+Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, levam a sério o gerenciamento de spam de saída. Um cliente que intencionalmente ou não envia spam de sua organização pode degradar a reputação de todo o serviço e pode afetar a entrega de email para outros clientes.
 
 Este tópico descreve os controles e notificações projetados para ajudar a evitar spam de saída e o que você pode fazer se precisar enviar mensagens em massa.
 
@@ -48,9 +48,9 @@ Este tópico descreve os controles e notificações projetados para ajudar a evi
 
 ## <a name="how-eop-controls-outbound-spam"></a>Como o EOP controla o spam de saída
 
-- **Segregação do tráfego de email de** saída: todas as mensagens de saída enviadas pelo serviço são examinadas em busca de spam. Se a mensagem for determinada como spam, ela será entregue de um pool de endereços IP secundário e menos confiável chamado pool de entrega de _alto risco._ Para saber mais, confira [Pool de entrega com maior risco em mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).
+- **Segregação do tráfego de email de** saída: cada mensagem de saída enviada pelo serviço é examinada em busca de spam. Se a mensagem for determinada como spam, ela será entregue de um pool de endereços IP secundário e menos confiável chamado pool de entrega de _alto risco._ Para saber mais, confira [Pool de entrega com maior risco em mensagens de saída](high-risk-delivery-pool-for-outbound-messages.md).
 
-- **Monitorando nossa reputação de endereço IP de** origem: o Microsoft 365 consulta várias listas de bloqueio de IP de terceiros. Um alerta é gerado se qualquer um dos endereços IP que usamos para emails de saída aparecer nessas listas. Isso nos permite reagir rapidamente quando o spam causou a degradação de nossa reputação. Quando um alerta é gerado, temos uma documentação interna que descreve como remover nossos endereços IP (deslistados) das listas de bloqueio.
+- **Monitorando nossa reputação de endereço IP de** origem: o Microsoft 365 consulta várias listas de bloqueio de IP de terceiros. Um alerta é gerado se qualquer um dos endereços IP que usamos para emails de saída aparecer nessas listas. Isso permite que reajamos rapidamente quando o spam fez com que nossa reputação degradasse. Quando um alerta é gerado, temos uma documentação interna que descreve como remover nossos endereços IP (deslistados) das listas de bloqueio.
 
 - Desabilite contas que enviam **muito spam:** embora segregamos o spam de saída no pool de entrega de alto risco, não podemos permitir que uma conta (frequentemente, uma conta comprometida) envie <sup>\*</sup> spam indefinidamente. Monitoramos contas que estão enviando spam e, quando elas excedem um limite não descoberta, a conta é impedida de enviar emails. Há limites diferentes para usuários individuais e o locatário inteiro.
 
@@ -60,7 +60,7 @@ Este tópico descreve os controles e notificações projetados para ajudar a evi
 
 ## <a name="recommendations-for-customers-who-want-to-send-mass-mailings-through-eop"></a>Recomendações para clientes que querem enviar mensagens em massa por meio do EOP
 
-É difícil encontrar um equilíbrio entre os clientes que querem enviar um grande volume de email em relação à proteção do serviço contra contas comprometidas e envios de email em massa com práticas de aquisição de destinatários ruins. O custo de uma fonte de email do Microsoft 365 chegar a uma lista de IIs bloqueados de terceiros é maior do que bloquear um usuário que está enviando muitos emails.
+É difícil encontrar um equilíbrio entre os clientes que querem enviar um grande volume de email em relação à proteção do serviço contra contas comprometidas e envios de email em massa com práticas ruins de aquisição de destinatários. O custo de uma fonte de email do Microsoft 365 chegar a uma lista de IIs bloqueados de terceiros é maior do que bloquear um usuário que está enviando muitos emails.
 
 Conforme descrito na Descrição do Serviço do [Exchange Online,](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)usar o EOP para enviar emails em massa não é um uso suportado do serviço e só é permitido com base no "melhor esforço". Para clientes que querem enviar emails em massa, recomendamos as seguintes soluções:
 

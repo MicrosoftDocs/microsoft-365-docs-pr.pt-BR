@@ -21,20 +21,20 @@ description: Saiba como usar os recursos de alertas no Centro de Conformidade e 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f4af23ac1fd3c7272fc60b2228bf808351cb4d2b
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: d4c92a0bccded461d272d84e0f5b4d06a3b44713
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50176022"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287084"
 ---
 # <a name="alerts-in-the-security--compliance-center"></a>Alertas no Centro de Conformidade & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 
 Use os recursos de alertas no Centro de Conformidade e Segurança & para exibir e gerenciar alertas para sua organização, incluindo o gerenciamento de alertas avançados como parte da visão geral do [Microsoft Cloud App Security.](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
 
@@ -62,7 +62,7 @@ Os alertas estão no Centro de Conformidade & segurança. Veja como chegar à p�
 
 ## <a name="alerts-features"></a>Recursos de alertas
 
-A tabela a seguir descreve as ferramentas disponíveis em **Alertas** no Centro de Conformidade e & Segurança.
+A tabela a seguir descreve as ferramentas disponíveis em **Alertas** no Centro de Conformidade & Segurança.
 
 ****
 

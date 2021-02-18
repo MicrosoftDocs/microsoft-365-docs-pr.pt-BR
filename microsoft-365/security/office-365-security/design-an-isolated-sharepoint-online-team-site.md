@@ -19,20 +19,20 @@ ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: Projete sites de equipe isolados do SharePoint Online, incluindo determinar níveis de permissão, atribuir permissões a usuários com grupos de acesso e grupos aninhados do Azure AD.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0f92a925948dbf6c8c5c1beb6b9c709f508c4b3
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 0d53f3b45e3f406dfb0b38bcc910bd34876acb08
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165506"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288330"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Projetar um site de equipe do SharePoint Online isolado
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 
  **Resumo:** Passo a passo do processo de design para sites de equipe isolados do SharePoint Online.
@@ -76,7 +76,7 @@ Usando os grupos padrão do SharePoint como exemplo:
 
 - Os membros do grupo **\<site name> Membros** do SharePoint, que podem incluir contas de usuário e grupos, são atribuídos ao **nível de** permissão Editar
 
-- Os membros do grupo **\<site name> Visitantes** do SharePoint, que podem incluir contas de usuário e grupos, são atribuídos ao **nível de permissão** De leitura
+- Os membros do grupo **\<site name> Visitantes** do SharePoint, que podem incluir contas de usuário e grupos, são atribuídos ao **nível de** permissão De leitura
 
 - Os membros do grupo **\<site name> Proprietários** do SharePoint, que podem incluir contas de usuário e grupos, são atribuídos ao **nível de** permissão Controle total
 

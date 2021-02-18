@@ -15,19 +15,19 @@ ms.custom:
 description: Os administradores podem aprender a executar um relatório de grupo de funções de administrador no Exchange Online Protection (EOP) autônomo. Esse relatório registra quando um administrador adiciona membros a ou remove membros de grupos de função de administrador.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 507fbe6fb6c99677cf91b6eb824bf110f1c826f3
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d778e807a087a5e29b31645457d4a81bd05c5649
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166622"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288014"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Executar um relatório de grupo de função de administrador no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 Em organizações autônomas do Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, quando um administrador adiciona membros ou remove membros de grupos de funções administrativas, o serviço registra cada ocorrência. Para obter mais informações sobre grupos de função no EOP autônomo, consulte Permissões no [EOP autônomo.](feature-permissions-in-eop.md)
 
@@ -37,12 +37,12 @@ Quando você executar um relatório de grupo de função de administrador no Cen
 
 - Para abrir o Centro de administração do Exchange, confira o Centro de administração [do Exchange no EOP autônomo.](exchange-admin-center-in-exchange-online-protection-eop.md)
 
-- Você precisa ter permissões no Exchange Online Protection antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa da  função **Logs** de Auditoria ou **Logs** de Auditoria Somente Exibição, que são atribuídas aos grupos de função Gerenciamento da **Organização,** Gerenciamento de Conformidade e Administrador de Segurança por padrão. Para obter mais informações, [consulte Permissões no EOP](feature-permissions-in-eop.md) autônomo e use o EAC modificar a lista de [membros em grupos de função.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+- Você precisa ter permissões no Exchange Online Protection antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa da  função **Logs** de Auditoria ou **Logs** de Auditoria Somente Exibição, que são atribuídas aos grupos de funções Gerenciamento da **Organização,** Gerenciamento de Conformidade e Administrador de Segurança por padrão. Para obter mais informações, [consulte Permissões no EOP](feature-permissions-in-eop.md) autônomo e use o EAC modificar a lista de [membros em grupos de função.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - Para obter informações sobre atalhos de teclado que podem se aplicar aos procedimentos neste artigo, consulte [Atalhos](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)de teclado para o Centro de administração do Exchange no Exchange Online .
 
 > [!TIP]
-> Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
+> Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE).
 
 ## <a name="use-the-eac-to-run-an-administrator-role-group-report"></a>Usar o EAC para executar o relatório de grupo de funções de administrador
 
@@ -52,7 +52,7 @@ Execute o relatório do grupo de funções de administrador para encontrar as al
 
 2. Na página **Pesquisar alterações nos grupos de função de administrador** que é aberta, de configure as seguintes configurações:
 
-   - **Data de início** **e data de término:** insira um intervalo de datas. Por padrão, o relatório procura alterações feitas nos grupos de funções do administrador nas duas últimas semanas.
+   - **Data de início** **e data de** término: insira um intervalo de datas. Por padrão, o relatório procura alterações feitas nos grupos de funções do administrador nas duas últimas semanas.
 
    - **Selecionar grupos de função:** Por padrão, todos os grupos de funções são pesquisados. Para filtrar os resultados por grupos de função específicos, clique **em Selecionar grupos de função.** Na caixa de diálogo exibida, selecione um grupo de funções e clique **em add ->**. Repita essa etapa quantas vezes for necessário e clique em **OK** quando terminar.
 

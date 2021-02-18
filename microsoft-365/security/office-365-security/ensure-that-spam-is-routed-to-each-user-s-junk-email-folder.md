@@ -18,19 +18,19 @@ description: Os administradores podem aprender a rotear spam para pastas de Lixo
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 926ac6dec33bf00fc8f0dcd292229e20ccc2b93f
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: b8fbc1b065e348f759806d80fd85421eb9d66098
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167114"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288868"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Configurar o EOP autônomo para entregar spam à pasta Lixo Eletrônico em ambientes híbridos
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 > [!IMPORTANT]
 > Este tópico é destinado apenas a clientes autônomos do EOP em ambientes híbridos. Este tópico não se aplica aos clientes do Microsoft 365 com caixas de correio do Exchange Online.

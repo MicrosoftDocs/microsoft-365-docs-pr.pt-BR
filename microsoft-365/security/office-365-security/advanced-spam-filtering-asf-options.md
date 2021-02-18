@@ -16,24 +16,24 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem saber mais sobre as configurações do Filtro de Spam Avançado (ASF) disponíveis nas políticas anti-spam no Exchange Online Protection (EOP).
+description: Os administradores podem saber mais sobre as configurações de Filtro de Spam Avançado (ASF) disponíveis nas políticas anti-spam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ec316c98befada7a793f525be909ba0b8fa5e3ae
-ms.sourcegitcommit: 3dc795ea862b180484f76b3eb5d046e74041252b
+ms.openlocfilehash: 0b6db02815f5b50d199e10685e2895a174997fd2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50176046"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288676"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Configurações avançadas de Filtro de Spam (ASF) no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!NOTE]
 > As configurações ASF atualmente disponíveis em políticas anti-spam estão em processo de preterido. Recomendamos que você não use essas configurações em políticas anti-spam. A funcionalidade dessas configurações ASF está sendo incorporada em outras partes da pilha de filtragem. Para obter mais informações, consulte [as configurações de política anti-spam do EOP.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)
@@ -41,7 +41,7 @@ ms.locfileid: "50176046"
 Em todas as organizações do Microsoft 365, as configurações de Filtro de Spam Avançado (ASF) nas políticas anti-spam no EOP permitem que os administradores marquem as mensagens como spam com base em propriedades de mensagens específicas. O ASF direciona especificamente essas propriedades porque elas são comumente encontradas em spam. Dependendo da propriedade, as detecções ASF marcarão a mensagem como **spam** ou **spam de alta confiança.**
 
 > [!NOTE]
-> A habilitação de uma ou mais configurações de ASF é uma abordagem agressiva para a filtragem de spam. Não é possível relatar mensagens filtradas por ASF como falsos positivos. Você pode identificar mensagens que foram filtradas pelo ASF por:
+> A habilitação de uma ou mais configurações de ASF é uma abordagem agressiva para a filtragem de spam. Não é possível relatar mensagens filtradas por ASF como falsos positivos. Você pode identificar mensagens que foram filtradas por ASF por:
 >
 > - Notificações periódicas de quarentena de spam do usuário final.
 >
@@ -57,7 +57,7 @@ Para cada configuração ASF, as seguintes opções estão disponíveis em polí
 
 - **On**: ASF adds the corresponding X-header field to the message, and either marks the message as **Spam** (SCL 5 or 6 for [Increase spam score settings](#increase-spam-score-settings)) or **High confidence spam** (SCL 9 for Mark as [spam settings](#mark-as-spam-settings)).
 
-- **Desativado:** a configuração ASF está desabilitada. Esse é o valor padrão, e recomendamos que você não o altere.
+- **Desativado**: a configuração ASF está desabilitada. Esse é o valor padrão, e recomendamos que você não o altere.
 
 - **Teste:** o ASF adiciona o campo X-header correspondente à mensagem. O que acontece com a mensagem é determinado pelo valor **de opções** do modo de teste (*TestModeAction).*
 
@@ -65,13 +65,13 @@ Para cada configuração ASF, as seguintes opções estão disponíveis em polí
 
   - **Adicione texto de X-header padrão (*AddXHeader*)**: o valor de X-header `X-CustomSpam: This message was filtered by the custom spam filter option` é adicionado à mensagem. Você pode usar esse valor em regras de Caixa de Entrada ou regras de fluxo de email (também conhecidas como regras de transporte) para afetar a entrega da mensagem.
 
-  - **Enviar mensagem Cc (*BccMessage*)**: os endereços de email especificados (o valor de parâmetro *TestModeBccToRecipients* no PowerShell) são adicionados ao campo Cc da mensagem, e a mensagem é entregue aos destinatários Cc adicionais. No Centro de Conformidade & segurança, separe vários endereços de email por ponto-e-vírgula (;). No PowerShell, você separa vários endereços de email por vírgulas.
+  - **Enviar mensagem Cc (*BccMessage*)**: Os endereços de email especificados (o valor de parâmetro *TestModeBccToRecipients* no PowerShell) são adicionados ao campo Cc da mensagem, e a mensagem é entregue aos destinatários Cc adicionais. No Centro de Conformidade & segurança, separe vários endereços de email por ponto-e-vírgula (;). No PowerShell, você separa vários endereços de email por vírgulas.
 
   **Observações**:
 
   - O modo de teste não está disponível para as seguintes configurações ASF:
 
-    - **Filtragem condicional de ID de Remetente: falha grave** (*MarkAsSpamFromAddressAuthFail*)
+    - **Filtragem de ID de Remetente Condicional: falha grave** (*MarkAsSpamFromAddressAuthFail*)
     - **Backscatter de NDR**(*MarkAsSpamNdrBackscatter*)
     - **Registro SPF: falha grave** (*MarkAsSpamSpfRecordHardFail*)
 
@@ -101,8 +101,8 @@ As configurações ASF a seguir configuram o SCL das mensagens detectadas como 9
 |---|---|---|
 |**Mensagens vazias** <p> *MarkAsSpamEmptyMessages*|Mensagens sem assunto, sem conteúdo no corpo da mensagem e sem anexos são marcadas como spam de alta confiança.|`X-CustomSpam: Empty Message`|
 |**JavaScript ou VBScript em HTML** <p> *MarkAsSpamJavaScriptInHtml*|Mensagens que usam JavaScript ou Visual Basic Script Edition em HTML são marcadas como spam de alta confiança. <p> Esses idiomas de script são usados em mensagens de email para fazer com que ações específicas ocorram automaticamente.|`X-CustomSpam: Javascript or VBscript tags in HTML`|
-|**Estrutura ou IMarcas da estrutura em HTML** <p> *MarkAsSpamFramesInHtml*|As mensagens que `<frame>` contêm ou `<iframe>` marcas HTML são marcadas como spam de alta confiança. <p> Essas marcas são usadas em mensagens de email para formatar a página para exibição de texto ou gráficos.|`X-CustomSpam: IFRAME or FRAME in HTML`|
-|**Marcas de objeto em HTML** <p> *MarkAsSpamObjectTagsInHtml*|As mensagens que `<object>` contêm marcas HTML são marcadas como spam de alta confiança. <p> Essa marca permite que plug-ins ou aplicativos executem em uma janela HTML.|`X-CustomSpam: Object tag in html`|
+|**Estrutura ou IMarcas da estrutura em HTML** <p> *MarkAsSpamFramesInHtml*|As mensagens que `<frame>` contêm `<iframe>` ou marcas HTML são marcadas como spam de alta confiança. <p> Essas marcas são usadas em mensagens de email para formatar a página para exibição de texto ou gráficos.|`X-CustomSpam: IFRAME or FRAME in HTML`|
+|**Marcas de objeto em HTML** <p> *MarkAsSpamObjectTagsInHtml*|As mensagens que contêm `<object>` marcas HTML são marcadas como spam de alta confiança. <p> Essa marca permite que plug-ins ou aplicativos executem em uma janela HTML.|`X-CustomSpam: Object tag in html`|
 |**Marcas de inserção em HTML** <p> *MarkAsSpamEmbedTagsInHtml*|As mensagens que contêm `<embed>` marcas HTML são marcadas como spam de alta confiança. <p> Essa marca permite a incorporação de diferentes tipos de documentos em um documento HTML (por exemplo, sons, vídeos ou imagens).|`X-CustomSpam: Embed tag in html`|
 |**Marca de Formulároo em HTML** <p> *MarkAsSpamFormTagsInHtml*|As mensagens que contêm `<form>` marcas HTML são marcadas como spam de alta confiança. <p> Essa marca é usada para criar formulários de site. Os anúncios de email geralmente incluem essa marca para solicitar informações do destinatário.|`X-CustomSpam: Form tag in html`|
 |**Erros da web em HTML** <p> *MarkAsSpamWebBugsInHtml*|Um bug da *Web* (também conhecido como *web beacon)* é um elemento gráfico (geralmente um pixel por pixel por pixel) usado em mensagens de email para determinar se a mensagem foi lida pelo destinatário. <p> As mensagens que contêm bugs da Web são marcadas como spam de alta confiança. <p> Boletins informativos legítimos podem usar bugs da Web, embora muitos considerem isso um erro de privacidade. |`X-CustomSpam: Web bug`|

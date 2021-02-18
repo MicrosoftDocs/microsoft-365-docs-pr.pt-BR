@@ -19,19 +19,19 @@ description: 'Resumo: Crie assinaturas de teste do Office 365 e Enterprise Mobil
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2d23539951e4d51fcd29417ab71ce599853d7537
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e600b3baf012d416a7b5de974b94111bb6cf90a2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165698"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287444"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Defina grupos e usuários para um ambiente de desenvolvimento/teste de uma campanha política
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 
  **Resumo:** Crie assinaturas de teste do Office 365 e Enterprise Mobility + Security (EMS) com usuários e grupos para um ambiente de desenvolvimento/teste de campanha política.
 
@@ -41,7 +41,7 @@ Use as instruções deste artigo para criar um ambiente de desenvolvimento/de te
 
 Nesta fase, você deve obter assinaturas de avaliação do Office 365 E5 e do Enterprise Mobility + Security (EMS) E5 para uma organização fictícia que representa uma campanha política.
 
-Primeiro, siga as instruções em **Fase 2** de [A configuração de base leve](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
+Primeiro, siga as instruções em **Fase 2** de [A configuração de base leve](../../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md).
 
 Em seguida, inscreva-se para a assinatura de avaliação do EMS E5 e adicione-o à mesma organização da assinatura de avaliação da sua empresa.
 
@@ -139,7 +139,7 @@ Em seguida, configure os grupos para que os membros tenham licenças do Office 3
 
 Nesta fase, adicione exemplos de contas de usuário para a sua campanha política.
 
-Primeiro, conecte-se ao módulo [PowerShell do Azure Active Directory para Graph](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+Primeiro, conecte-se ao módulo [PowerShell do Azure Active Directory para Graph](../../enterprise/connect-to-microsoft-365-powershell.md).
 
 Em seguida, preencha o nome de sua organização, o local e uma senha comum e, em seguida, execute esses comandos desde o prompt de comando do PowerShell ou Ambiente de Script Integrado (ISE):
 
@@ -212,6 +212,6 @@ Criar os quatro diferentes tipos de sites de equipe do SharePoint Online neste a
 
 [Criar sites de equipe em um ambiente de desenvolvimento/teste de campanha política](create-team-sites-in-a-political-campaign-dev-test-environment.md)
 
-[Guias do Laboratório de Teste (TLGs) para adoção de nuvem](https://docs.microsoft.com/microsoft-365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Guias do Laboratório de Teste (TLGs) para adoção de nuvem](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
 [Adoção da nuvem e de soluções híbridas](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

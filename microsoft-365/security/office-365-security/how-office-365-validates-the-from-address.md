@@ -19,23 +19,23 @@ description: Os administradores podem aprender sobre os tipos de endereços de e
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7c2cbec49082fbded857dde13f73516fd3e0fd5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: f8ced200c2e521533c1dec8a9d0917add7ca058f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167510"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287814"
 ---
 # <a name="how-eop-validates-the-from-address-to-prevent-phishing"></a>Como o EOP valida o endereço De para evitar phishing
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Os ataques de phishing são uma ameaça constante a qualquer organização de email. Além de usar endereços de [email](anti-spoofing-protection.md)de remetente falsificados (forjados), os invasores geralmente usam valores no endereço De que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, o Exchange Online Protection (EOP) e o Outlook.com agora exigem que as mensagens de entrada incluam um endereço From compatível com RFC, conforme descrito neste artigo. Essa imposição foi habilitada em novembro de 2017.
+Os ataques de phishing são uma ameaça constante a qualquer organização de email. Além de usar endereços de [email](anti-spoofing-protection.md)de remetente falsificados (forjados), os invasores geralmente usam valores no endereço De que violam os padrões da Internet. Para ajudar a evitar esse tipo de phishing, a Proteção do Exchange Online (EOP) e o Outlook.com agora exigem que as mensagens de entrada incluam um endereço From compatível com RFC, conforme descrito neste artigo. Essa imposição foi habilitada em novembro de 2017.
 
 **Observações**:
 
@@ -58,13 +58,13 @@ O endereço De é definido em detalhes em vários RFCs (por exemplo, RFC 5322 se
 - **Nome de** exibição : uma frase opcional que descreve o proprietário do endereço de email.
 
   - Recomendamos que você sempre coloque o nome de exibição entre aspas duplas (") conforme mostrado. Se o nome de exibição  contiver uma vírgula, você deverá colocar a cadeia de caracteres entre aspas duplas por RFC 5322.
-  - Se o endereço De incluir um nome de exibição, o valor EmailAddress deverá ser incluído entre colchetes angulares (< >) conforme mostrado.
+  - Se o endereço De incluir um nome de exibição, o valor EmailAddress deverá estar entre colchetes angulares (< >) conforme mostrado.
   - A Microsoft recomenda que você insira um espaço entre o nome de exibição e o endereço de email.
 
 - **EmailAddress**: um endereço de email usa o `local-part@domain` formato:
 
   - **local-part**: uma cadeia de caracteres que identifica a caixa de correio associada ao endereço. Esse valor é exclusivo dentro do domínio. Frequentemente, o nome de usuário ou GUID do proprietário da caixa de correio é usado.
-  - **domínio**: O FQDN (nome de domínio totalmente qualificado) do servidor de email que hospeda a caixa de correio identificada pela parte local do endereço de email.
+  - **domínio**: o FQDN (nome de domínio totalmente qualificado) do servidor de email que hospeda a caixa de correio identificada pela parte local do endereço de email.
 
   Estas são algumas considerações adicionais para o valor EmailAddress:
 
@@ -116,7 +116,7 @@ Não é possível usar o valor `From: <>` para suprimir respostas automáticas. 
 
 - Escolha um domínio de email que não possa receber emails. Por exemplo, se seu domínio principal for contoso.com, você poderá escolher noreply.contoso.com.
 
-- O registro MX nulo para esse domínio consiste em um único período.
+- O registro MX nulo para este domínio consiste em um único período.
 
 Por exemplo:
 
@@ -124,7 +124,7 @@ Por exemplo:
 noreply.contoso.com IN MX .
 ```
 
-Para obter mais informações sobre como configurar registros MX, consulte Criar registros DNS em qualquer provedor de [hospedagem dns para o Microsoft 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
+Para obter mais informações sobre como configurar registros MX, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
 
 Para obter mais informações sobre como publicar um MX nulo, consulte [RFC 7505](https://tools.ietf.org/html/rfc7505).
 
@@ -136,4 +136,4 @@ Não é possível substituir os requisitos de endereço De para emails de saída
 
 ## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Outras maneiras de evitar e proteger contra ataques cibernéticos no Microsoft 365
 
-Para obter mais informações sobre como você pode fortalecer sua organização contra phishing, spam, violações de dados e outras ameaças, confira as 10 principais maneiras de proteger o [Microsoft 365](../../admin/security-and-compliance/secure-your-business-data.md)para planos de negócios.
+Para obter mais informações sobre como você pode fortalecer sua organização contra phishing, spam, violações de dados e outras ameaças, confira as 10 principais maneiras de proteger os planos do [Microsoft 365](../../admin/security-and-compliance/secure-your-business-data.md)para empresas.

@@ -1,5 +1,5 @@
 ---
-title: Exibir relatórios do defender for Office 365 no painel relatórios
+title: Exibir relatórios do Defender para Office 365 no painel Relatórios
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -8,7 +8,6 @@ manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: conceptual
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -17,93 +16,98 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Encontre e use relatórios do Microsoft defender para Office 365 no centro de conformidade e segurança &.
+description: Encontre e use relatórios do Microsoft Defender para Office 365 no Centro de Conformidade & segurança.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82c003478538274be1dd1d2e04816de80d1eae6d
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: e3e5d48f6ac8f6246b65761f5728405c37333d71
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49659448"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50286592"
 ---
-# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Exibir relatórios do defender for Office 365 no painel relatórios no centro de conformidade & segurança
+# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Exibir relatórios do Defender para Office 365 no painel Relatórios no Centro de Conformidade & Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
+**Aplica-se a**
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-As organizações do Microsoft defender for Office 365 (por exemplo, assinaturas do Microsoft 365 E5 ou Microsoft defender para Office 365 plano 1 ou Microsoft defender para Office 365 plano 2) contêm uma variedade de relatórios relacionados à segurança. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports), poderá exibir esses relatórios no centro de conformidade & de segurança acessando  o \> **painel** relatórios. Para ir diretamente para o painel relatórios, abra <https://protection.office.com/insightdashboard> .
+As organizações do Microsoft Defender para Office 365 (por exemplo, assinaturas do Microsoft 365 E5 ou Microsoft Defender para Office 365 Plano 1 ou complementos do Microsoft Defender para Office 365 Plano 2) contêm uma variedade de relatórios relacionados à segurança. Se você tiver as [permissões necessárias](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)&, poderá exibir esses relatórios no Centro de Conformidade e Segurança indo para o Painel **de** \> **Relatórios.** Para ir diretamente para o painel Relatórios, abra <https://protection.office.com/insightdashboard> .
 
-![O painel de relatórios no centro de conformidade & segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![O painel Relatórios no Centro de Conformidade & Segurança](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
 ## <a name="defender-for-office-365-file-types-report"></a>Relatório de tipos de arquivo do Defender for Office 365
 
-O relatório de **relatórios de tipos de arquivo do defender for Office 365** mostra o tipo de arquivos detectados como mal-intencionados por [anexos seguros](atp-safe-attachments.md).
+O relatório de tipos de arquivo do Defender para **Office 365** mostra os tipos de arquivos detectados como mal-intencionados pelos [Anexos Seguros.](atp-safe-attachments.md)
 
- O modo de exibição de agregação do relatório permite 90 dias de filtragem, enquanto o modo de exibição de detalhes permite apenas 10 dias de filtragem.
+ A exibição agregada do relatório permite 90 dias de filtragem, enquanto a exibição de detalhes só permite 10 dias de filtragem.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **defender para tipos de arquivo do Office 365**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPFileReport> .
+Para exibir o relatório, abra o Centro de  [Conformidade e Segurança &,](https://protection.office.com)vá para o Painel de Relatórios e selecione tipos de arquivo do Defender para \>  **Office 365.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPFileReport> .
 
-![O widget tipos de arquivo do defender for Office 365 no painel relatórios](../../media/atp-file-types-report-widget.png)
+![Widget de tipos de arquivo do Defender para Office 365 no painel Relatórios](../../media/atp-file-types-report-widget.png)
 
 > [!NOTE]
-> As informações neste relatório também estão disponíveis no relatório de [disposição de mensagens do defender for Office 365](#defender-for-office-365-message-disposition-report).
+> As informações neste relatório também estão disponíveis no relatório de disposição de mensagens do [Defender para Office 365.](#defender-for-office-365-message-disposition-report)
 
-### <a name="report-view-for-the-defender-for-office-365-file-types-report"></a>Exibição de relatório para o relatório de tipos de arquivo do defender for Office 365
+### <a name="report-view-for-the-defender-for-office-365-file-types-report"></a>Report view for the Defender for Office 365 file types report
 
-Os seguintes modos de exibição estão disponíveis:
+Os seguintes exibições estão disponíveis:
 
-- **Exibir dados por: arquivo**: o gráfico contém as seguintes informações:
+- **Exibir dados por: Arquivo**: O gráfico contém as seguintes informações:
 
   - **Anexos mal-intencionados do Excel**
-  - **Anexos de flash mal-intencionados**
-  - **Anexos PDF mal-intencionados**
+  - **Anexos flash mal-intencionados**
+  - **Anexos de PDF mal-intencionados**
   - **Anexos mal-intencionados do PowerPoint**
   - **URLs mal-intencionadas**
-  - **Anexos de palavras maliciosas**
-  - **Anexos executáveis maliciosos**
+  - **Anexos do Word mal-intencionado**
+  - **Anexos executáveis mal-intencionados**
   - **Outros**
 
-  Ao passar o mouse sobre um determinado dia (ponto de dados), você pode ver a divisão de tipos de arquivos mal-intencionados que foram detectados por [anexos seguros](atp-safe-attachments.md) e [proteção Antimalware no EOP](anti-malware-protection.md).
+  Ao passar o mouse sobre um dia específico (ponto de dados), você pode ver a divisão de tipos de arquivos mal-intencionados que foram detectados por [Anexos](atp-safe-attachments.md) seguros e proteção [anti-malware no EOP.](anti-malware-protection.md)
 
-  ![Exibição de arquivo no relatório de tipos de arquivo do defender for Office 365](../../media/atp-file-types-report-file-view.png)
+  ![Exibição de arquivo no relatório de tipos de arquivo do Defender para Office 365](../../media/atp-file-types-report-file-view.png)
 
-  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - Os mesmos valores de tipo de arquivo que estão visíveis no gráfico.
+  - Os mesmos valores de tipo de arquivo visíveis no gráfico.
 
-- **Exibir dados por: Message**: o gráfico contém as seguintes informações:
+- **Exibir dados por: Mensagem**: O gráfico contém as seguintes informações:
 
   - **Bloquear acesso**
   - **Mensagens substituídas**
   - **Mensagens monitoradas**
-  - **Substituído por entrega de emails dinâmicas**: para obter mais informações, consulte [entrega dinâmica em políticas de anexos seguros](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies).
+  - **Substituído pela Entrega Dinâmica de Email:** Para obter mais informações, consulte [Entrega Dinâmica em políticas de Anexos Seguros.](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)
 
-  ![Exibição de mensagens no relatório de tipos de arquivo do defender for Office 365](../../media/atp-file-types-report-message-view.png)
+  ![Exibição de mensagem no relatório de tipos de arquivo do Defender para Office 365](../../media/atp-file-types-report-message-view.png)
 
-  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - Os mesmos valores de disposição de mensagem que estão disponíveis no gráfico e o valor de **mensagens adicionais passadas** .
+  - Os mesmos valores de disposição de mensagem que estão disponíveis no gráfico e as mensagens **adicionais passaram valor.**
 
-### <a name="details-table-view-for-the-defender-for-office-365-file-types-report"></a>Exibição da tabela de detalhes para o relatório de tipos de arquivo do defender for Office 365
+### <a name="details-table-view-for-the-defender-for-office-365-file-types-report"></a>Visão de tabela de detalhes do relatório de tipos de arquivo do Defender para Office 365
 
-Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma visão quase em tempo real de todos os cliques que acontecerem na organização pelos últimos 10 dias. As informações mostradas dependem do gráfico que você estava observando:
+Se você clicar **em Exibir tabela** de detalhes, o relatório fornece uma exibição quase em tempo real de todos os cliques que ocorrem dentro da organização nos últimos 10 dias. As informações mostradas dependem do gráfico que você estava olhando:
 
-- **Exibir dados por: arquivo**:
+- **Exibir dados por: Arquivo:**
 
   - **Date**
   - **Endereço do destinatário**
   - **Endereço do remetente**.
-  - **ID da mensagem**: disponível no campo de cabeçalho **Message-ID** no cabeçalho da mensagem e deve ser exclusivo. Um valor de exemplo é `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` (Observe os colchetes angulares).
+  - **ID da** mensagem: disponível no campo de header **Message-ID** no header da mensagem e deve ser exclusivo. Um valor de exemplo `<08f1e0f6806a47b4ac103961109ae6ef@server.domain>` é (observe os colchetes angulares).
   - **Arquivo**
 
-  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - Os mesmos valores de tipo de arquivo que estão visíveis no gráfico.
+  - Os mesmos valores de tipo de arquivo visíveis no gráfico.
 
-- **Exibir dados por: mensagem**:
+- **Exibir dados por: Mensagem:**
 
   - **Date**
   - **Endereço do destinatário**
@@ -112,67 +116,67 @@ Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma vi
   - **Arquivo**
   - **Assunto**
 
-  Se você clicar em **filtros**, poderá modificar os resultados com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar os resultados com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - Os mesmos valores de disposição de mensagem que estão disponíveis no gráfico e o valor de **mensagens adicionais passadas** .
+  - Os mesmos valores de disposição de mensagem que estão disponíveis no gráfico e as mensagens **adicionais passaram valor.**
 
-Para voltar para o modo de exibição relatórios, clique em **Exibir relatório**.
+Para voltar à exibição de relatórios, clique em **Exibir relatório.**
 
 ## <a name="defender-for-office-365-message-disposition-report"></a>Relatório de disposição de mensagens do Defender for Office 365
 
-O relatório de **disposição de mensagens ATP** mostra as ações que foram tomadas para mensagens de email que foram detectadas como tendo conteúdo mal-intencionado.
+O **relatório de Disposição de Mensagem ATP** mostra as ações que foram tomadas para mensagens de email detectadas como tendo conteúdo mal-intencionado.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione **defender para Office 365 disposição de mensagem**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPMessageReport> .
+Para exibir o relatório, abra o Centro de  [Conformidade &](https://protection.office.com)Segurança, vá para o Painel de Relatórios e selecione Disposição de mensagem do Defender para \>  **Office 365.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=ATPMessageReport> .
 
-![Widget disposição de mensagens do defender for Office 365 no painel relatórios](../../media/atp-message-disposition-report-widget.png)
+![Widget de disposição de mensagens do Defender for Office 365 no painel Relatórios](../../media/atp-message-disposition-report-widget.png)
 
 > [!NOTE]
-> As informações neste relatório também estão disponíveis no relatório de [tipos de arquivo do defender for Office 365](#defender-for-office-365-file-types-report).
+> As informações neste relatório também estão disponíveis no relatório de tipos de arquivo do [Defender para Office 365.](#defender-for-office-365-file-types-report)
 
-### <a name="report-view-for-the-defender-for-office-365-message-disposition-report"></a>Exibição de relatório para o relatório de disposição de mensagens do defender for Office 365
+### <a name="report-view-for-the-defender-for-office-365-message-disposition-report"></a>Report view for the Defender for Office 365 message disposition report
 
-Os seguintes modos de exibição estão disponíveis:
+Os seguintes exibições estão disponíveis:
 
-- **Exibir dados por: Message**: o gráfico contém as seguintes informações:
+- **Exibir dados por: Mensagem**: O gráfico contém as seguintes informações:
 
   - **Bloquear acesso**
   - **Mensagens substituídas**
   - **Mensagens monitoradas**
-  - **Substituído por entrega de emails dinâmicas**: para obter mais informações, consulte [entrega dinâmica em políticas de anexos seguros](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies).
+  - **Substituído pela Entrega Dinâmica de Email:** Para obter mais informações, consulte [Entrega Dinâmica em políticas de Anexos Seguros.](atp-safe-attachments.md#dynamic-delivery-in-safe-attachments-policies)
 
-  ![Exibição de mensagens no relatório de tipos de arquivo do defender for Office 365](../../media/atp-file-types-report-message-view.png)
+  ![Exibição de mensagem no relatório de tipos de arquivo do Defender para Office 365](../../media/atp-file-types-report-message-view.png)
 
-  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - Os mesmos valores de disposição de mensagem que estão disponíveis no gráfico e o valor de **mensagens adicionais passadas** .
+  - Os mesmos valores de disposição de mensagem que estão disponíveis no gráfico e as mensagens **adicionais passaram valor.**
 
-- **Exibir dados por: arquivo**: o gráfico contém as seguintes informações:
+- **Exibir dados por: Arquivo**: O gráfico contém as seguintes informações:
 
   - **Anexos mal-intencionados do Excel**
-  - **Anexos de flash mal-intencionados**
-  - **Anexos PDF mal-intencionados**
+  - **Anexos flash mal-intencionados**
+  - **Anexos de PDF mal-intencionados**
   - **Anexos mal-intencionados do PowerPoint**
   - **URLs mal-intencionadas**
-  - **Anexos de palavras maliciosas**
-  - **Anexos executáveis maliciosos**
+  - **Anexos do Word mal-intencionado**
+  - **Anexos executáveis mal-intencionados**
   - **Outros**
 
-  Ao passar o mouse sobre um determinado dia (ponto de dados), você pode ver a divisão de tipos de arquivos mal-intencionados que foram detectados por [anexos seguros](atp-safe-attachments.md) e [proteção Antimalware no EOP](anti-malware-protection.md).
+  Ao passar o mouse sobre um dia específico (ponto de dados), você pode ver a divisão de tipos de arquivos mal-intencionados que foram detectados por [Anexos](atp-safe-attachments.md) seguros e proteção [anti-malware no EOP.](anti-malware-protection.md)
 
-  ![Exibição de arquivo no relatório de tipos de arquivo do defender for Office 365](../../media/atp-file-types-report-file-view.png)
+  ![Exibição de arquivo no relatório de tipos de arquivo do Defender para Office 365](../../media/atp-file-types-report-file-view.png)
 
-  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - Os mesmos valores de tipo de arquivo que estão visíveis no gráfico.
+  - Os mesmos valores de tipo de arquivo visíveis no gráfico.
 
-### <a name="details-table-view-for-the-defender-for-office-365-message-disposition-report"></a>Exibição da tabela de detalhes do relatório de disposição de mensagens do defender for Office 365
+### <a name="details-table-view-for-the-defender-for-office-365-message-disposition-report"></a>Details table view for the Defender for Office 365 message disposition report
 
-Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma visão quase em tempo real de todos os cliques que acontecerem na organização pelos últimos 10 dias. As informações mostradas dependem do gráfico que você estava observando:
+Se você clicar **em Exibir tabela** de detalhes, o relatório fornece uma exibição quase em tempo real de todos os cliques que ocorrem dentro da organização nos últimos 10 dias. As informações mostradas dependem do gráfico que você estava olhando:
 
-- **Exibir dados por: mensagem**:
+- **Exibir dados por: Mensagem:**
 
   - **Date**
   - **Endereço do destinatário**
@@ -181,12 +185,12 @@ Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma vi
   - **Arquivo**
   - **Assunto**
 
-  Se você clicar em **filtros**, poderá modificar os resultados com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar os resultados com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - Os mesmos valores de disposição de mensagem que estão disponíveis no gráfico e o valor de **mensagens adicionais passadas** .
+  - Os mesmos valores de disposição de mensagem que estão disponíveis no gráfico e as mensagens **adicionais passaram valor.**
 
-- **Exibir dados por: arquivo**:
+- **Exibir dados por: Arquivo:**
 
   - **Date**
   - **Endereço do destinatário**
@@ -194,56 +198,56 @@ Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma vi
   - **ID da mensagem**
   - **Arquivo**
 
-  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - Os mesmos valores de tipo de arquivo que estão visíveis no gráfico.
+  - Os mesmos valores de tipo de arquivo visíveis no gráfico.
 
-Para voltar para o modo de exibição relatórios, clique em **Exibir relatório**.
+Para voltar à exibição de relatórios, clique em **Exibir relatório.**
 
 ## <a name="mail-latency-report"></a>Relatório de latência de email
 
-O **relatório de latência de email** mostra um modo de exibição de agregação da entrega de email e da latência de acionamento em sua organização. As horas de entrega de email no serviço são afetadas por vários fatores, e o tempo de entrega absoluto, em segundos, geralmente não é um bom indicador de sucesso ou de um problema. Um tempo de entrega lento em um dia pode ser considerado um tempo de entrega médio em outro dia ou vice-versa. O **relatório de latência de email** tenta qualificar a entrega de mensagens com base em dados estatísticos sobre as horas de entrega observadas de outras mensagens:
+O **relatório de latência de email** mostra uma visão agregada da entrega de email e da latência de detonação experimentadas em sua organização. Os tempos de entrega de email no serviço são afetados por vários fatores, e o tempo de entrega absoluto em segundos geralmente não é um bom indicador de sucesso ou problema. Um tempo de entrega lento em um dia pode ser considerado um tempo médio de entrega em outro dia ou vice-versa. O **relatório de latência de email** tenta qualificar a entrega de mensagens com base em dados estatísticos sobre os tempos de entrega observados de outras mensagens:
 
-- **50 º percentil**: Este é o meio para tempos de entrega de mensagens. Você pode considerar esse valor como um tempo médio de entrega.
-- **90th percentil**: indica uma alta latência para entrega de mensagens. Apenas 10% das mensagens demorou mais do que esse valor a ser entregue.
-- **99th percentil**: indica a maior latência para entrega de mensagens.
+- **Percentil 50:** este é o meio para tempos de entrega de mensagens. Você pode considerar esse valor como um tempo médio de entrega.
+- **90º percentil:** indica uma alta latência para entrega de mensagens. Apenas 10% das mensagens demoraram mais do que esse valor para entregar.
+- **99º percentil:** indica a latência mais alta para entrega de mensagens.
 
-A latência do lado do cliente e da rede não estão incluídas.
+O lado do cliente e a latência da rede não estão incluídos.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione relatório de **latência de email**. Para ir diretamente para o relatório, abra <https://protection.office.com/mailLatencyReport?viewid=P50> .
+Para exibir o relatório, abra o [Centro de Conformidade &](https://protection.office.com)Segurança, vá para o Painel de Relatórios e selecione Relatório de  \>  **latência de email.** Para ir diretamente para o relatório, abra <https://protection.office.com/mailLatencyReport?viewid=P50> .
 
-![Widget relatório de latência de email no painel relatórios](../../media/mail-latency-report-widget.png)
+![Widget de relatório de latência de email no painel Relatórios](../../media/mail-latency-report-widget.png)
 
 ### <a name="report-view-for-the-mail-latency-report"></a>Exibição de relatório para o relatório de latência de email
 
-Quando você abre o relatório, a guia **50 º percentils** é selecionada por padrão.
+Quando você abre o relatório, a **guia 50 percentis** é selecionada por padrão.
 
-Por padrão, este modo de exibição contém um gráfico que é configurado com os seguintes filtros:
+Por padrão, esse modo de exibição contém um gráfico configurado com os seguintes filtros:
 
 - **Data**: os últimos 7 dias
-- **Exibição de mensagem**:
-  - Mensagens do destruído
+- **Exibição de Mensagem:**
+  - Mensagens acionadas
 
-Este gráfico mostra as mensagens organizadas nas seguintes categorias:
+Este gráfico mostra mensagens organizadas nas seguintes categorias:
 
 - **Latência de entrega de email**
-- **Latência acionamento**
+- **Latência de detonação**
 
-Ao passar o mouse sobre uma categoria no gráfico, você pode ver uma divisão da latência em cada categoria.
+Ao passar o mouse sobre uma categoria no gráfico, você pode ver um detalhamento da latência em cada categoria.
 
 ![Relatório de latência de email](../../media/mail-latency-report.png)
 
-Se você clicar em **filtro** no modo de exibição relatório, poderá modificar os resultados com os seguintes filtros:
+Se você clicar **em Filtrar** na exibição de relatório, poderá modificar os resultados com os seguintes filtros:
 
 - Todas as mensagens
 - Mensagens que contêm anexos ou URLs
 
-Se você clicar na guia **90th percentils** ou na guia **99th percentil** , os mesmos filtros padrão do modo de exibição de **percentil do 50 º** são usados.
+Se você clicar na guia **90º percentil ou** na guia **de 99 percentis,** os mesmos filtros padrão do modo de exibição de **50** percentis serão usados.
 
-### <a name="details-table-view-for-the-mail-latency-report"></a>Exibição da tabela de detalhes para o relatório de latência de email
+### <a name="details-table-view-for-the-mail-latency-report"></a>Details table view for the Mail latency report
 
-As informações a seguir são mostradas no modo de exibição de tabela de detalhes:
+As informações a seguir são mostradas na exibição de tabela de detalhes:
 
 - **Date**
 - **Percentis**
@@ -252,45 +256,45 @@ As informações a seguir são mostradas no modo de exibição de tabela de deta
 
 ![Detalhes do relatório de latência de email](../../media/mail-latency-report-details.png)
 
-O acima mostra que, em 14 de novembro, a latência média de todas as mensagens entregues e destruído foi de **108, 33** segundos.
+O exemplo acima mostra que, em 14 de novembro, a latência média experimentada para todas as mensagens entregues e acionadas foi **de 108,033** segundos.
 
-A tabela detalhes contém as mesmas informações em cada guia.
+A tabela de detalhes contém as mesmas informações em cada guia.
 
 ## <a name="threat-protection-status-report"></a>Relatório de status de proteção contra ameaças
 
-O relatório de **status de proteção contra ameaças** é um modo de exibição único que reúne informações sobre conteúdo mal-intencionado e email mal-intencionado detectado e bloqueado pela [proteção do Exchange Online](exchange-online-protection-overview.md) (EOP) e pelo Microsoft defender para Office 365. Para obter mais informações, consulte [relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report).
+O relatório de **status** de proteção contra ameaças é uma exibição única que reúne informações sobre conteúdo mal-intencionado e emails mal-intencionados detectados e bloqueados pela Proteção do [Exchange Online](exchange-online-protection-overview.md) (EOP) e pelo Microsoft Defender para Office 365. Para obter mais informações, consulte [o relatório de status de proteção contra ameaças.](view-email-security-reports.md#threat-protection-status-report)
 
 ## <a name="url-threat-protection-report"></a>Relatório de proteção contra ameaças de URL
 
-O **relatório de proteção de ameaças de URL** fornece as exibições de resumo e tendência para ameaças detectadas e ações tomadas em cliques de URL como parte de [links seguros](atp-safe-links.md). Este relatório não terá clique em dados de usuários em que a política de links seguros aplicada tenha a opção **não rastrear os cliques do usuário** selecionada.
+O **relatório de proteção contra ameaças de URL** fornece exibições de resumo e tendências para ameaças detectadas e ações tomadas em cliques de URL como parte de Links [seguros.](atp-safe-links.md) Este relatório não terá dados de clique de usuários onde a política de Links seguros aplicada tem a opção Não rastrear **cliques do** usuário selecionada.
 
-Para exibir o relatório, abra o [centro de conformidade & segurança](https://protection.office.com), vá  para \> **painel** relatórios e selecione relatório de **proteção de URL**. Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
+Para exibir o relatório, abra o [Centro de Conformidade & segurança,](https://protection.office.com)vá para o Painel de Relatórios e selecione o relatório de proteção de  \>  **URL.** Para ir diretamente para o relatório, abra <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
 
-![Widget relatório de proteção de URL no painel relatórios](../../media/url-protection-report-widget.png)
+![Widget de relatório de proteção de URL no painel Relatórios](../../media/url-protection-report-widget.png)
 
 > [!NOTE]
-> Este é um *relatório de tendências de proteção*, o que significa que os dados representam tendências em um conjunto de dados maior. Como resultado, os dados no modo de exibição de agregação não estão disponíveis em tempo real aqui, mas os dados no modo de exibição de tabela detalhes são, portanto, você pode ver uma pequena discrepância entre as duas exibições.
+> Este é um relatório *de tendências de proteção,* o que significa que os dados representam tendências em um conjuntos de dados maior. Como resultado, os dados no modo de exibição agregado não estão disponíveis em tempo real aqui, mas os dados no modo de exibição de tabela de detalhes estão, portanto, você pode ver uma pequena discrepância entre os dois modo de exibição.
 
 ### <a name="report-view-for-the-url-threat-protection-report"></a>Exibição de relatório para o relatório de proteção contra ameaças de URL
 
-O relatório de **proteção contra ameaças de URL** tem duas exibições agregadas que são atualizadas uma vez a cada quatro horas que mostram dados dos últimos 90 dias:
+O **relatório de proteção contra** ameaças de URL tem duas exibições agregadas que são atualizadas uma vez a cada quatro horas que mostram dados dos últimos 90 dias:
 
-- **URL clique em ação de proteção**: mostra o número de cliques de URL por usuários na organização e os resultados do clique:
+- **Ação de proteção de** clique de URL: mostra o número de cliques de URL pelos usuários na organização e os resultados do clique:
 
   - **Bloqueado** (o usuário foi impedido de navegar para a URL)
   - **Bloqueado e clicado**
   - **Clicado durante a verificação**
 
-  Um clique indica que o usuário clicou através da página de bloqueio para o site mal-intencionado (os administradores podem desabilitar o clique em políticas de links seguros).
+  Um clique indica que o usuário clicou na página de bloqueio para o site mal-intencionado (os administradores podem desabilitar o clique nas políticas de Links seguros).
 
-  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
-  - O disponível clique em ações de proteção, mais o valor **permitido** (o usuário tem permissão para navegar até a URL).
+  - As ações de proteção de clique disponíveis, além do valor **Permitido** (o usuário teve permissão para navegar até a URL).
 
-  ![URL clique em ação de proteção exibir no relatório de proteção contra ameaças de URL](../../media/url-threat-protection-report-url-click-protection-action-view.png)
+  ![Exibição de ação de proteção por clique de URL no relatório de proteção contra ameaças de URL](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
-- **URL clique por aplicativo**: mostra o número de cliques de URL por aplicativos que dão suporte a links seguros:
+- **URL clicada por aplicativo:** mostra o número de cliques de URL por aplicativos que suportam Links Seguros:
 
   - **Cliente de email**
   - **PowerPoint**
@@ -301,26 +305,29 @@ O relatório de **proteção contra ameaças de URL** tem duas exibições agreg
   - **Teams**
   - **Outros**
 
-  Se você clicar em **filtros**, poderá modificar o relatório com os seguintes filtros:
+  Se você clicar **em Filtros,** poderá modificar o relatório com os seguintes filtros:
 
   - **Data de início** e **data de término**
   - Os aplicativos disponíveis.
 
-### <a name="details-table-view-for-the-url-threat-protection-report"></a>Exibição da tabela de detalhes para o relatório de proteção contra ameaças de URL
+### <a name="details-table-view-for-the-url-threat-protection-report"></a>Visão de tabela de detalhes para o relatório de proteção contra ameaças de URL
 
-Se você clicar em **Exibir tabela de detalhes**, o relatório fornecerá uma visão quase em tempo real de todos os cliques que acontecerem na organização pelos últimos 7 dias com os seguintes detalhes:
+Se você clicar **em Exibir** tabela de detalhes, o relatório fornece uma exibição quase em tempo real de todos os cliques que ocorrem na organização nos últimos 7 dias com os seguintes detalhes:
 
-- **Horário de clique**
+- **Hora do clique**
 - **Usuário**
 - **URL**
 - **Ação**
 - **App**
 
-Se você clicar em **filtros** no modo de exibição tabela de detalhes, poderá filtrar pelos mesmos critérios do modo de exibição relatório e também por **domínios** ou **destinatários** separados por vírgulas.
+Se você **clicar** em Filtros no modo de exibição de tabela de detalhes, poderá filtrar pelos mesmos critérios que o modo de exibição de relatório e também por **Domínios** ou **Destinatários separados** por vírgulas.
 
-Para voltar para o modo de exibição relatórios, clique em **Exibir relatório**.
+> [!NOTE]
+> O **filtro Domínios** refere-se ao domínio da URL listado nos resultados do relatório. 
 
-## <a name="additional-reports-to-view"></a>Relatórios adicionais para exibir
+Para voltar à exibição de relatórios, clique em **Exibir relatório.**
+
+## <a name="additional-reports-to-view"></a>Relatórios adicionais a exibir
 
 Além dos relatórios descritos neste artigo, vários outros relatórios estão disponíveis, conforme descrito na tabela a seguir:
 
@@ -328,30 +335,30 @@ Além dos relatórios descritos neste artigo, vários outros relatórios estão 
 
 |Relatório|Tópico|
 |---|---|
-|**Explorer** (Microsoft defender para Office 365 plano 2) ou **detecções em tempo real** (microsoft defender para Office 365 plano 1)|[Explorador de Ameaças (e detecções em tempo real)](threat-explorer.md)|
-|**Relatórios de segurança de email**, como os principais remetentes e destinatários, o relatório de email de spoof e o relatório de detecções de spam.|[Exibir relatórios de segurança de email no centro de conformidade & segurança](view-email-security-reports.md)|
-|**Relatórios de fluxo de email**, como o relatório de encaminhamento, o relatório de status do fluxo e o relatório de remetentes e destinatários principais.|[Exibir relatórios de fluxo de emails no centro de conformidade & segurança](view-mail-flow-reports.md)|
-|**Rastreamento de URL para links seguros** (somente PowerShell). A saída deste cmdlet mostra os resultados das ações de links seguros nos últimos sete dias.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
-|**Resultados de tráfego de email para EOP e Microsoft defender para Office 365** (somente PowerShell). A saída desse cmdlet contém informações sobre o domínio, a data, o tipo de evento, a direção, a ação e a contagem de mensagens.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
-|**Relatórios de detalhes de email para detecções do EOP e do defender para Office 365** (somente PowerShell). A saída desse cmdlet contém detalhes sobre arquivos mal-intencionados ou URLs, tentativas de phishing, representação e outras ameaças potenciais em emails ou arquivos.|[Get-MailDetailATPReport](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
+|**Explorer** (Microsoft Defender para Office 365 Plano 2) ou **detecções** em tempo real (Microsoft Defender para Office 365 Plano 1)|[Explorador de Ameaças (e detecções em tempo real)](threat-explorer.md)|
+|**Relatórios de segurança de** email, como o relatório de principais remetentes e destinatários, o relatório de email de Spoof e o relatório de detecções de spam.|[Exibir relatórios de segurança de email no Centro de Conformidade & segurança](view-email-security-reports.md)|
+|**Relatórios de fluxo de** emails, como o relatório de encaminhamento, o relatório de status de fluxo de mensagens e o relatório de principais destinatários e de envios.|[Exibir relatórios de fluxo de emails no Centro de Conformidade & segurança](view-mail-flow-reports.md)|
+|**Rastreamento de URL para Links Seguros** (somente PowerShell). A saída desse cmdlet mostra os resultados das ações de Links seguros nos últimos sete dias.|[Get-UrlTrace](https://docs.microsoft.com/powershell/module/exchange/get-urltrace)|
+|**Resultados do tráfego de email para o EOP e o Microsoft Defender para Office 365** (somente PowerShell). A saída desse cmdlet contém informações sobre Domínio, Data, Tipo de Evento, Direção, Ação e Contagem de Mensagens.|[Get-MailTrafficATPReport](https://docs.microsoft.com/powershell/module/exchange/get-mailtrafficatpreport)|
+|**Relatórios detalhados de email para detecções do EOP e do Defender para Office 365** (somente PowerShell). A saída desse cmdlet contém detalhes sobre arquivos mal-intencionados ou URLs, tentativas de phishing, representação e outras possíveis ameaças em emails ou arquivos.|[Get-MailDetailATPReport](https://docs.microsoft.com/powershell/module/exchange/get-maildetailatpreport)|
 |
 
-## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Quais permissões são necessárias para exibir os relatórios do defender for Office 365?
+## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Quais permissões são necessárias para exibir os relatórios do Defender para Office 365?
 
-Para exibir e usar os relatórios descritos neste artigo, você precisa ser membro de um dos seguintes grupos de função no centro de conformidade de & de segurança:
+Para exibir e usar os relatórios descritos neste artigo &, você precisa ser membro de um dos seguintes grupos de função no Centro de Conformidade e Segurança:
 
 - **Organization Management**
-- **Administrador de segurança**
-- **Leitor de segurança**
-- **Leitor global**
+- **Administrador de Segurança**
+- **Leitor de Segurança**
+- **Leitor Global**
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-**Observação**: a adição de usuários à função do Azure Active Directory correspondente no centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no centro de conformidade _e_ segurança & para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+**Observação:** a adição de usuários à função do Azure Active Directory correspondente no Centro de administração do  Microsoft 365 oferece aos usuários as permissões necessárias no Centro de Conformidade e Segurança & e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
-## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não estiverem mostrando dados?
+## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não mostrarem dados?
 
-Se você não estiver vendo dados nos seus relatórios do defender for Office 365, verifique se as políticas estão configuradas corretamente. Sua organização deve ter [políticas de links seguros](set-up-atp-safe-links-policies.md) e [políticas de anexos seguros](set-up-atp-safe-attachments-policies.md) definidas para que a proteção do defender para Office 365 seja estabelecida. Consulte também [anti-spam and Anti-Malware Protection](anti-spam-and-anti-malware-protection.md).
+Se você não estiver vendo dados nos relatórios do Defender para Office 365, verifique se suas políticas estão configuradas corretamente. Sua organização deve ter [políticas de Links](set-up-atp-safe-links-policies.md) seguros e políticas de Anexos seguros [definidas](set-up-atp-safe-attachments-policies.md) para que a proteção do Defender for Office 365 seja definida. Consulte também [Proteção anti-spam e anti-malware.](anti-spam-and-anti-malware-protection.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

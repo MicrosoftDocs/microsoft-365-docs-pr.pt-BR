@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f2fae1e41562d1ae743ecd964b42082b3d6486e8
-ms.sourcegitcommit: 05657b39eaafc0503b01c6adcc5d8a5e615dc02c
+ms.openlocfilehash: 423a65e60ccd11ab7e9fd78ef3b7983ba0c609c2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50031346"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288712"
 ---
 # <a name="compliance"></a>Conformidade
 
@@ -22,7 +22,7 @@ Quando você usa a Área de Trabalho Gerenciada da Microsoft, a Microsoft fornec
 
 ## <a name="compliance-coverage"></a>Cobertura de conformidade
 
-A Área de Trabalho Gerenciada da Microsoft atingiu as seguintes certificações:
+A Área de Trabalho Gerenciada da Microsoft obteve as seguintes certificações:
 
 - [Padrões de gerenciamento de segurança de informações (ISMS) ISO 27001](https://docs.microsoft.com/compliance/regulatory/offering-ISO-27001)
 - [PIMS (Sistema de Gerenciamento de Informações de Privacidade) ISO 27701](https://docs.microsoft.com/compliance/regulatory/offering-iso-27701)
@@ -34,9 +34,10 @@ A Área de Trabalho Gerenciada da Microsoft atingiu as seguintes certificações
 - [Atestado STAR do Cloud Security Alliance (CSA)](https://docs.microsoft.com/compliance/regulatory/offering-CSA-STAR-Attestation)
 - [Certificação STAR do Cloud Security Alliance (CSA)](https://docs.microsoft.com/compliance/regulatory/offering-CSA-Star-Certification)
 - [Service Organization Controls (SOC) 1, 2, 3](https://docs.microsoft.com/compliance/regulatory/offering-SOC)
+- [Programa Avaliador Registrado de Segurança da Informação (IRAP)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
 - [Padrão de Segurança de Dados (DSS) da Indústria de Cartões de Pagamento (PCI)](https://docs.microsoft.com/compliance/regulatory/offering-PCI-DSS)
 - [Health Insurance Portability and Accountability Act (HIPAA)](https://docs.microsoft.com/compliance/regulatory/offering-hipaa-hitech)
-- [Programa Avaliador Registrado de Segurança da Informação (IRAP)](https://docs.microsoft.com/compliance/regulatory/offering-ccsl-irap-australia)
+- [Estrutura de Segurança Comum (CSF) da HITRUST (Health Information Trust Alliance)](https://docs.microsoft.com/compliance/regulatory/offering-hitrust)
 
 
 ## <a name="auditor-reports-and-compliance-certificates"></a>Relatórios de auditoria e certificados de conformidade
