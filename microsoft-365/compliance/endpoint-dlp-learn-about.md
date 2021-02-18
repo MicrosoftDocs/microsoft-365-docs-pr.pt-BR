@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para os pontos de extremidade. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: 1dac32505144c3966ad2219cc69a33ba29f194dc
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: d5394499b5514e6e0a49f958a62e70cde61ebf44
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682622"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279305"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
 
@@ -34,8 +34,7 @@ Você pode usar a prevenção contra perda de dados (DLP) da Microsoft 365 para 
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>Atividades do ponto de extremidade que você pode monitorar e executar
 
-O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários têm em itens confidenciais em dispositivos com Windows 10.
-
+O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários têm em itens confidenciais em dispositivos com Windows 10. 
 
 |atividade |descrição  | auditável/restringivel|
 |---------|---------|---------|
@@ -47,6 +46,28 @@ O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tip
 |criar um Item|Detecta quando um usuário cria um item| auditável|
 |renomear um item|Detecta quando um usuário renomeia um item| auditável|
 
+ ## <a name="monitored-files"></a>Arquivos monitorados
+
+Endpoint DLP oferece suporte ao monitoramento destes tipos de arquivo:
+
+- Arquivos do Word
+- Arquivos do PowerPoint
+- Arquivos do Excel
+- Arquivos PDF
+- Arquivos .csv
+- Arquivos .tsv
+- Arquivos .txt
+- Arquivos .rtf
+- Arquivos .c
+- Arquivos .class
+- Arquivos .cpp
+- Arquivos .cs
+- Arquivos .h
+- Arquivos .java
+ 
+Por padrão, o DLP do endpoint audita as atividades para esses tipos de arquivo, mesmo se não houver uma correspondência de política. Se quiser apenas monitorar dados de correspondências de política, você pode desligar **Sempre auditar atividade de arquivo para dispositivos** nas configurações globais de DLP do endpoint. Não importa o que aconteça, as atividades em qualquer arquivo Word, PowerPoint, Excel, PDF e .csv são sempre auditadas.
+
+O DLP do ponto de extremidade monitora a atividade com base no tipo MIME, portanto, as atividades serão capturadas mesmo se a extensão do arquivo for alterada. 
 
 ## <a name="whats-different-in-endpoint-dlp"></a>O que é diferente no Endpoint DLP
 
@@ -79,25 +100,7 @@ Se você tiver dispositivos integrados por meio do [Microsoft Defender para Pont
 
 ### <a name="viewing-endpoint-dlp-data"></a>Exibir dados de DLP do Endpoint
 
- O DLP do ponto de extremidade monitora a atividade com base no tipo MIME, portanto, as atividades serão capturadas mesmo se a extensão do arquivo for alterada. Neste momento, os seguintes tipos de arquivos são compatíveis:
 
-- Arquivos do Word
-- Arquivos do PowerPoint
-- Arquivos do Excel
-- Arquivos PDF
-- Arquivos .csv
-- Arquivos .tsv
-- Arquivos .txt
-- Arquivos .rtf
-- Arquivos .c
-- Arquivos .class
-- Arquivos .cpp
-- Arquivos .cs
-- Arquivos .h
-- Arquivos .java
-
-> [!NOTE]
-> O DLP de ponto de extremidade avalia os arquivos de todos os tipos acima em relação à política de DLP e aplica as ações de proteção de acordo. Todos os arquivos que correspondem a uma política DLP são auditados para todas as ações com suporte, mesmo se não forem bloqueadas. Além disso, a atividade de arquivo realizada em qualquer arquivo de Word, PowerPoint, Excel, PDF e .csv é auditado por padrão, independentemente da existência de uma política DLP ou da correspondência desses arquivos.
 
 Visualize os alertas relacionados às políticas DLP aplicadas em dispositivos de ponto de extremidade no [Painel de Gerenciamento de Alertas DLP](dlp-configure-view-alerts-policies.md).
 
