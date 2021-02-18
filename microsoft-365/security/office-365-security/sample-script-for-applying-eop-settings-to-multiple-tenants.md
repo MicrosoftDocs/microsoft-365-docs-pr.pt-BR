@@ -15,32 +15,32 @@ ms.custom:
 description: Neste artigo, você aprenderá a usar o PowerShell para aplicar configurações aos seus locatários no Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b7d856a7cec3bddc32455ba3afadf0323ddce935
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 4823ed09cd8a9d72aef21df3d51213cb4512b4f9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166586"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288532"
 ---
-# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a><span data-ttu-id="0a6af-103">Amostra de script para aplicação de configurações de EOP a vários locatários</span><span class="sxs-lookup"><span data-stu-id="0a6af-103">Sample script for applying EOP settings to multiple tenants</span></span>
+# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a><span data-ttu-id="c233c-103">Amostra de script para aplicação de configurações de EOP a vários locatários</span><span class="sxs-lookup"><span data-stu-id="c233c-103">Sample script for applying EOP settings to multiple tenants</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-<span data-ttu-id="0a6af-104">**Aplica-se a**</span><span class="sxs-lookup"><span data-stu-id="0a6af-104">**Applies to**</span></span>
--  [<span data-ttu-id="0a6af-105">Proteção do Exchange Online autônoma</span><span class="sxs-lookup"><span data-stu-id="0a6af-105">Exchange Online Protection standalone</span></span>](https://go.microsoft.com/fwlink/?linkid=2148611)
+<span data-ttu-id="c233c-104">**Aplica-se a**</span><span class="sxs-lookup"><span data-stu-id="c233c-104">**Applies to**</span></span>
+-  [<span data-ttu-id="c233c-105">Proteção do Exchange Online autônoma</span><span class="sxs-lookup"><span data-stu-id="c233c-105">Exchange Online Protection standalone</span></span>](exchange-online-protection-overview.md)
 
-<span data-ttu-id="0a6af-106">O script de exemplo a seguir permite que os administradores do Microsoft Proteção do Exchange Online (EOP) que gerenciam vários locatários (empresas) usem o PowerShell do Exchange Online para exibir e/ou aplicar definições de configuração a seus locatários.</span><span class="sxs-lookup"><span data-stu-id="0a6af-106">The following sample script lets Microsoft Exchange Online Protection (EOP) admins who manage multiple tenants (companies) use Exchange Online PowerShell to view and/or apply configuration settings to their tenants.</span></span>
+<span data-ttu-id="c233c-106">O script de exemplo a seguir permite que os administradores do Microsoft Proteção do Exchange Online (EOP) que gerenciam vários locatários (empresas) usem o PowerShell do Exchange Online para exibir e/ou aplicar definições de configuração a seus locatários.</span><span class="sxs-lookup"><span data-stu-id="c233c-106">The following sample script lets Microsoft Exchange Online Protection (EOP) admins who manage multiple tenants (companies) use Exchange Online PowerShell to view and/or apply configuration settings to their tenants.</span></span>
 
-## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a><span data-ttu-id="0a6af-107">Para executar um script ou cmdlet em vários locatários</span><span class="sxs-lookup"><span data-stu-id="0a6af-107">To run a script or cmdlet on multiple tenants</span></span>
+## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a><span data-ttu-id="c233c-107">Para executar um script ou cmdlet em vários locatários</span><span class="sxs-lookup"><span data-stu-id="c233c-107">To run a script or cmdlet on multiple tenants</span></span>
 
-1. <span data-ttu-id="0a6af-108">Caso ainda não tenha feito isso, [instale o módulo V2 do Exchange Online.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)</span><span class="sxs-lookup"><span data-stu-id="0a6af-108">If you haven't already, [install the Exchange Online V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module).</span></span>
+1. <span data-ttu-id="c233c-108">Caso ainda não tenha feito isso, [instale o módulo V2 do Exchange Online.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module)</span><span class="sxs-lookup"><span data-stu-id="c233c-108">If you haven't already, [install the Exchange Online V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module).</span></span>
 
-2. <span data-ttu-id="0a6af-109">Usando um aplicativo de planilha (por exemplo, Excel), crie um arquivo .csv com os seguintes detalhes:</span><span class="sxs-lookup"><span data-stu-id="0a6af-109">Using an spreadsheet app (for example, Excel), create a .csv file with the following details:</span></span>
+2. <span data-ttu-id="c233c-109">Usando um aplicativo de planilha (por exemplo, Excel), crie um arquivo .csv com os seguintes detalhes:</span><span class="sxs-lookup"><span data-stu-id="c233c-109">Using an spreadsheet app (for example, Excel), create a .csv file with the following details:</span></span>
 
-   - <span data-ttu-id="0a6af-110">Coluna UserName: a conta que você usará para se conectar (por exemplo, `admin@contoso.onmicrosoft.com` ).</span><span class="sxs-lookup"><span data-stu-id="0a6af-110">UserName column: The account that you'll use to connect (for example, `admin@contoso.onmicrosoft.com`).</span></span>
-   - <span data-ttu-id="0a6af-111">Coluna do cmdlet: o cmdlet ou comando a ser executado (por exemplo, `Get-AcceptedDomain` ou `Get-AcceptedDomain | FT Name` ).</span><span class="sxs-lookup"><span data-stu-id="0a6af-111">Cmdlet column: The cmdlet or command to run (for example, `Get-AcceptedDomain` or `Get-AcceptedDomain | FT Name`).</span></span>
+   - <span data-ttu-id="c233c-110">Coluna UserName: a conta que você usará para se conectar (por exemplo, `admin@contoso.onmicrosoft.com` ).</span><span class="sxs-lookup"><span data-stu-id="c233c-110">UserName column: The account that you'll use to connect (for example, `admin@contoso.onmicrosoft.com`).</span></span>
+   - <span data-ttu-id="c233c-111">Coluna do cmdlet: o cmdlet ou comando a ser executado (por exemplo, `Get-AcceptedDomain` ou `Get-AcceptedDomain | FT Name` ).</span><span class="sxs-lookup"><span data-stu-id="c233c-111">Cmdlet column: The cmdlet or command to run (for example, `Get-AcceptedDomain` or `Get-AcceptedDomain | FT Name`).</span></span>
 
-   <span data-ttu-id="0a6af-112">O arquivo terá a aparência a seguir:</span><span class="sxs-lookup"><span data-stu-id="0a6af-112">The file will look like this:</span></span>
+   <span data-ttu-id="c233c-112">O arquivo terá a aparência a seguir:</span><span class="sxs-lookup"><span data-stu-id="c233c-112">The file will look like this:</span></span>
 
    ```text
    UserName,Cmdlet
@@ -48,28 +48,28 @@ ms.locfileid: "50166586"
    admin@fabrikam.onmicrosoft.com,Get-AcceptedDomain | FT Name
    ```
 
-3. <span data-ttu-id="0a6af-113">Salve o arquivo .csv em um local fácil de encontrar (por exemplo, c:\scripts\inputfile.csv).</span><span class="sxs-lookup"><span data-stu-id="0a6af-113">Save the .csv file in a location that's easy to find (for example, c:\scripts\inputfile.csv).</span></span>
+3. <span data-ttu-id="c233c-113">Salve o arquivo .csv em um local fácil de encontrar (por exemplo, c:\scripts\inputfile.csv).</span><span class="sxs-lookup"><span data-stu-id="c233c-113">Save the .csv file in a location that's easy to find (for example, c:\scripts\inputfile.csv).</span></span>
 
-4. <span data-ttu-id="0a6af-114">Copie o [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script no Bloco de Notas e salve o arquivo em um local fácil de encontrar (por exemplo, c:\scripts).</span><span class="sxs-lookup"><span data-stu-id="0a6af-114">Copy the [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script into Notepad, and then save the file to a location that's easy to find (for example, c:\scripts).</span></span>
+4. <span data-ttu-id="c233c-114">Copie o [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script no Bloco de Notas e salve o arquivo em um local fácil de encontrar (por exemplo, c:\scripts).</span><span class="sxs-lookup"><span data-stu-id="c233c-114">Copy the [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script into Notepad, and then save the file to a location that's easy to find (for example, c:\scripts).</span></span>
 
-5. <span data-ttu-id="0a6af-115">Execute o script usando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="0a6af-115">Run the script by using the following syntax:</span></span>
+5. <span data-ttu-id="c233c-115">Execute o script usando a seguinte sintaxe:</span><span class="sxs-lookup"><span data-stu-id="c233c-115">Run the script by using the following syntax:</span></span>
 
    ```powershell
    & "<file path>\RunCmdletOnMultipleTenants.ps1" "<file path>\inputfile.csv"
    ```
 
-   <span data-ttu-id="0a6af-116">Exemplo:</span><span class="sxs-lookup"><span data-stu-id="0a6af-116">Here's an example:</span></span>
+   <span data-ttu-id="c233c-116">Exemplo:</span><span class="sxs-lookup"><span data-stu-id="c233c-116">Here's an example:</span></span>
 
    ```powershell
    & "c:\scripts\RunCmdletOnMultipleTenants.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. <span data-ttu-id="0a6af-117">Cada locatário será conectado e o script será executado.</span><span class="sxs-lookup"><span data-stu-id="0a6af-117">Each tenant will be logged on to, and the script will be run.</span></span>
+6. <span data-ttu-id="c233c-117">Cada locatário será conectado e o script será executado.</span><span class="sxs-lookup"><span data-stu-id="c233c-117">Each tenant will be logged on to, and the script will be run.</span></span>
 
-## <a name="runcmdletonmultipletenantsps1"></a><span data-ttu-id="0a6af-118">RunCmdletOnMultipleTenants.ps1</span><span class="sxs-lookup"><span data-stu-id="0a6af-118">RunCmdletOnMultipleTenants.ps1</span></span>
+## <a name="runcmdletonmultipletenantsps1"></a><span data-ttu-id="c233c-118">RunCmdletOnMultipleTenants.ps1</span><span class="sxs-lookup"><span data-stu-id="c233c-118">RunCmdletOnMultipleTenants.ps1</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="0a6af-119">Talvez seja necessário modificar a `Connect-IPPSSession` linha no script para corresponder ao seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="0a6af-119">You might need to modify the `Connect-IPPSSession` line in the script to match your environment.</span></span> <span data-ttu-id="0a6af-120">Por exemplo, o Office 365 Germany requer um valor _ConnectionUri_ diferente do valor atual em um script.</span><span class="sxs-lookup"><span data-stu-id="0a6af-120">For example, Office 365 Germany requires a different _ConnectionUri_ value than the current value in a script.</span></span> <span data-ttu-id="0a6af-121">Para obter detalhes, consulte Conectar-se [ao Powershell do Exchange Online.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)</span><span class="sxs-lookup"><span data-stu-id="0a6af-121">For details, see Connect to [Exchange Online Powershell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
+> <span data-ttu-id="c233c-119">Talvez seja necessário modificar a `Connect-IPPSSession` linha no script para corresponder ao seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="c233c-119">You might need to modify the `Connect-IPPSSession` line in the script to match your environment.</span></span> <span data-ttu-id="c233c-120">Por exemplo, o Office 365 Germany requer um valor _ConnectionUri_ diferente do valor atual em um script.</span><span class="sxs-lookup"><span data-stu-id="c233c-120">For example, Office 365 Germany requires a different _ConnectionUri_ value than the current value in a script.</span></span> <span data-ttu-id="c233c-121">Para obter detalhes, consulte Conectar-se [ao Powershell do Exchange Online.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)</span><span class="sxs-lookup"><span data-stu-id="c233c-121">For details, see Connect to [Exchange Online Powershell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
 
 ```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.
