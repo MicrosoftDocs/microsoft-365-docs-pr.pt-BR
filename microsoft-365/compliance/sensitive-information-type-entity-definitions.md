@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 feedback_system: None
 description: A prevenção contra perda de dados (DLP) no Centro de Conformidade de Segurança inclui 80 tipos de informações confidenciais que estão prontos para uso em suas &amp; políticas de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo.
-ms.openlocfilehash: 431349ffdfc1a9aa05d071ec5ef10d76919f7465
-ms.sourcegitcommit: c0cfb9b354db56fdd329aec2a89a9b2cf160c4b0
+ms.openlocfilehash: d23c6900e9aeb9ad9b550bb069b7a9592faa9b10
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50094740"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288132"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
@@ -147,7 +147,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 - Número de Identidade Nacional da Argentina 
 - cedula 
-- que você pode 
+- que você pode fazer 
 - dni 
 - documento nacional de identidad 
 - documento número 
@@ -159,7 +159,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 ### <a name="format"></a>Formatar
 
-de seis a dez dígitos com ou sem um número de filial de estado bancário
+de seis a dez dígitos com ou sem um número de ramificação de estado do banco
 
 ### <a name="pattern"></a>Padrão
 
@@ -353,7 +353,7 @@ nove letras e dígitos:
 
 - dois dígitos ou letras (não sensíveis a maiúsculas e minúsculas) 
 - dois dígitos 
-- cinco dígitos ou letras (não são sensíveis a maiúsculas e minúsculas)
+- cinco dígitos ou letras (não sensíveis a maiúsculas e minúsculas)
 
 OU
 
@@ -501,10 +501,10 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 ### <a name="pattern"></a>Padrão
 
 10 a 11 dígitos:
-- O 1º dígito está no intervalo de 2 a 6
-- 9º dígito é um dígito de verificação
-- O 10º dígito é o dígito do problema
-- O 11º dígito (opcional) é o número individual
+- Primeiro dígito está no intervalo de 2 a 6
+- Nove dígitos é um dígito de verificação
+- O décimo dígito é o dígito do problema
+- O décimo primeiro dígito (opcional) é o número individual
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -846,13 +846,13 @@ Uma combinação de 24 caracteres de letras, dígitos e caracteres especiais
 
 24 caracteres:
   
--  22 letras (não sensíveis a maiúsculas e minúsculas), dígitos, barras in backslashes, barras ou sinais de mais 
+-  22 letras (não sensíveis a maiúsculas e minúsculas), dígitos, barras in backslashes, barras ou sinais de a mais 
     
 - duas letras (não sensíveis a maiúsculas e minúsculas), dígitos, barras in backslashes, barras para frente, sinais de mais ou sinais de igual
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -957,6 +957,10 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - Passnummer
 - reeepässe
 
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- data de emissão
+- data de expiração
 
 ## <a name="austria-social-security-number"></a>Número do seguro social da Áustria
 
@@ -1462,7 +1466,7 @@ A cadeia de caracteres "sig" seguida pelos caracteres e cadeias de caracteres de
 - zero a dois caracteres de espaço em branco
 - qualquer combinação entre 43 e 53 caracteres com letras minúsculas ou maiúsculas, dígitos ou o sinal de porcentagem (%)
 - a cadeia de caracteres "%3d"
-- qualquer caractere que não seja uma letra, um dígito ou um sinal de porcentagem (%)
+- qualquer caractere que não seja uma letra, dígito ou sinal de porcentagem (%) inferior ou maiúscula
 
 ### <a name="checksum"></a>Soma de verificação
 
@@ -1992,6 +1996,10 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - Passnummer
 - reisepass kein
 
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- data de emissão
+- data de expiração
 
 ## <a name="belgium-value-added-tax-number"></a>Número de imposto adicionado ao valor da Bélgica
 Esse tipo de informação confidenciais só está disponível para uso em:
@@ -2593,7 +2601,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 ## <a name="canada-bank-account-number"></a>Número da conta bancária do Canadá
 
@@ -2929,7 +2937,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - speciality services
 - automobile accident
 - patient hospital
-- ad
+- ad.
 - workers compensation
 - deficiência
 
@@ -3060,7 +3068,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - Nunavut
 - Quebec
 - Northwest Territories
-- São Paulo
+- Mamão
 - British Columbia
 - Alberta
 - Saskatchewan
@@ -3237,7 +3245,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - Número Nacional Exclusivo
 - Função nacional exclusiva
 - Função nacional exclusiva
-- Identidade não do Chile.
+- Identidade no Chile.
 - Número de identidade do Chile
 - Identidade chilena #
 
@@ -3505,7 +3513,7 @@ Uma política de DLP tem baixa confiança de que ela detectou esse tipo de infor
 - nº de la carte
 - nº de carte
 - kreditkarte
-- quee
+- aaa
 - karteninhaber
 - karteninhabers
 - kreditkarteninhaber
@@ -3797,7 +3805,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 #### <a name="keyword_croatia_id_card"></a>Keyword_croatia_id_card
 
-- hastorski brojđana
+- đstorski brojđana
 - master citizen number
 - nacionalni identifikacijski broj
 - national identification number
@@ -3940,7 +3948,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 #### <a name="keyword_croatia_oib_number"></a>Keyword_croatia_oib_number
 
-- hastorski brojđana
+- đstorski brojđana
 - master citizen number
 - nacionalni identifikacijski broj
 - national identification number
@@ -3970,7 +3978,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - tin #
 
 ## <a name="croatia-social-security-number-or-equivalent-identification"></a>Número de seguridade social da Croácia ou identificação equivalente
-Essa entidade de tipo de informação confidenciais só está disponível no número de seguro social da UE ou no tipo de informação confidenciais de ID equivalente.
+Essa entidade de tipo de informação sensível só está disponível no tipo de informação confidenciais do Número de Seguridade Social da UE ou ID Equivalente.
 
 ### <a name="format"></a>Formatar
 
@@ -4260,7 +4268,7 @@ Não
 Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_cyprus_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_cyprus_eu_passport_number` ou for encontrada. 
-- A expressão regular `Regex_cyprus_eu_passport_date` localiza a data no formato DD/MM/AAAA ou uma palavra-chave de onde foi `Keywords_cyprus_eu_passport_date` encontrada
+- A expressão regular localiza a data no formato `Regex_cyprus_eu_passport_date` DD/MM/AAAA ou uma palavra-chave de `Keywords_cyprus_eu_passport_date` onde foi encontrada
 
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_cyprus_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
@@ -4646,7 +4654,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="czech-personal-identity-number"></a>Número de identidade pessoal tcheco
@@ -4750,7 +4758,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 ## <a name="czech-social-security-number-or-equivalent-identification"></a>Número de seguridade social tcheco ou identificação equivalente
 
-Essa entidade de tipo de informação confidenciais só está disponível no número de seguro social da UE ou no tipo de informação confidenciais de ID equivalente.
+Essa entidade de tipo de informação sensível só está disponível no tipo de informação confidenciais do Número de Seguridade Social da UE ou ID Equivalente.
 
 ### <a name="format"></a>Formatar
 
@@ -5045,7 +5053,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="denmark-personal-identification-number"></a>Número de identificação pessoal da Dinamarca
@@ -5462,7 +5470,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
 
 11 dígitos:
   
-- um dígito que corresponde ao sexo e ao gênero de nascimento (número ímpar do sexo, número par de mulheres; 1-2: décimo-nove; 3-4: 20º aniversário; 5-6: 21 do séc)
+- um dígito que corresponde ao sexo e ao gênero de nascimento (número ímpar adulto, número par de mulheres; 1-2: décimo-nove; 3-4: séc. 20; 5-6: 21 do séc)
 - seis dígitos que correspondem à data de nascimento (AAMMDD)
 - três dígitos que correspondem a um número de série separando pessoas na mesma data
 - um dígito de verificação
@@ -5541,7 +5549,7 @@ uma letra seguida por sete dígitos sem espaços ou delimitadores
   
 ### <a name="pattern"></a>Padrão
 
-uma letra seguida por sete dígitos
+uma letra seguida de sete dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
@@ -5604,7 +5612,7 @@ eesti kodaniku passi number passinumbrid document number document no dokumendi n
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="eu-debit-card-number"></a>Número de cartão de débito da UE
@@ -5752,7 +5760,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 - kaartaantallen 
 - kaarthouder 
 - kaarthouders 
-- quee  
+- aaa  
 - karteninhaber 
 - karteninhabers
 - kartennr 
@@ -5763,7 +5771,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 - kreditkarteninstitut 
 - kreditkartennummer 
 - kreditkartentyp 
-- porque 
+- que 
 - master card 
 - master cards 
 - mastercard 
@@ -6336,7 +6344,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - cartão de saúde
 - cartão de seguro de saúde
 - health insurance number
-- hälstrucrt
+- hälskort
 - sairaanhoitokortin
 - sairausvakuutuskortti
 - sairausvakuutusnumero
@@ -6457,25 +6465,41 @@ Não
 
 ### <a name="definition"></a>Definição
 
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A expressão regular `Regex_finland_passport_number` localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave `Keywords_eu_passport_number` de `Keyword_finland_passport_number` ou for encontrada.
+- A expressão regular `Regex_eu_passport_date1` localiza a data no formato DD.MM.AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
+
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_finland_passport_number localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave Keywords_eu_passport_number_common ou Keyword_finland_passport_number for encontrada.
+- A expressão regular `Regex_finland_passport_number` localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave `Keywords_eu_passport_number` de `Keyword_finland_passport_number` ou for encontrada.
 
 ```xml
-<!-- Finland Passport Number -->
-<Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300">
+      <!-- Finland Passport Number -->
+      <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" patternsProximity="300" recommendedConfidence="75">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_finland_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_finland_passport_number" />
+          </Any>
+          <Any minMatches="1">
+            <Match idRef="Regex_eu_passport_date1" />
+            <Match idRef="Keywords_eu_passport_date" />
+          </Any>
+        </Pattern>
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Regex_finland_passport_number" />
           <Any minMatches="1">
-            <Match idRef="Keywords_eu_passport_number_common" />
+            <Match idRef="Keywords_eu_passport_number" />
             <Match idRef="Keyword_finland_passport_number" />
           </Any>
         </Pattern>
-</Entity>
+      </Entity>
 ```
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keywords_eu_passport_number_common"></a>Keywords_eu_passport_number_common
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
 - passport #
 - passport #
@@ -6498,6 +6522,10 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - passi #
 - passi number
 
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- data de emissão
+- data de expiração
 
 ## <a name="france-drivers-license-number"></a>Número de carteira de motorista da França
 
@@ -6755,7 +6783,7 @@ Uma política de DLP tem baixa confiança de que ela detectou esse tipo de infor
 - national identification number
 - identidade nacional
 - nationalidno #
-- numéro d'assurance malesco
+- numéro d'assurance malva
 - numéro de carte vitale
 
    
@@ -6779,46 +6807,79 @@ Não
 
 ### <a name="definition"></a>Definição
 
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A função `Func_fr_passport` localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave `Keywords_eu_passport_number` de `Keywords_france_eu_passport_number` ou for encontrada.
+- A expressão regular `Regex_eu_passport_date3` localiza a data no formato DD MM AAAA ou uma palavra-chave de onde foi `Keywords_eu_passport_date` encontrada
+
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
-- A função Func_fr_passport localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_passport for encontrada.
+- A função `Func_fr_passport` localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave `Keywords_eu_passport_number` de `Keywords_france_eu_passport_number` ou for encontrada.
+
 
 ```xml
-<!-- France Passport Number -->
-<Entity id="3008b884-8c8c-4cd8-a289-99f34fc7ff5d" patternsProximity="300" recommendedConfidence="75">
-  <Pattern confidenceLevel="75">
-        <IdMatch idRef="Func_fr_passport" />
-        <Match idRef="Keyword_passport" />
-  </Pattern>
-</Entity>
+    <!-- France Passport Number -->
+    <Entity id="3008b884-8c8c-4cd8-a289-99f34fc7ff5d" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_fr_passport" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keywords_france_eu_passport_number" />
+          </Any>
+          <Any minMatches="1">
+            <Match idRef="Regex_eu_passport_date3" />
+            <Match idRef="Keywords_eu_passport_date" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_fr_passport" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keywords_france_eu_passport_number" />
+          </Any>
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keyword_passport"></a>Keyword_passport
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passport Number
-- Passport No
-- Passport #
-- Passport #
-- PassportID
-- Passportno
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
 - passportnumber
-- パスポート
-- パスポート番号
-- パ ポトスNum
-- パスポート ＃ 
-- Numéro de passeport
-- Passeport n °
-- Passeport Non
-- Passeport #
-- Passeport #
-- PasseportNon
-- Passeportn °
+- passport number
+- passportnumbers
+- passport numbers
 
-      
+#### <a name="keywords_france_eu_passport_number"></a>Keywords_france_eu_passport_number
+
+- numéro de passeport
+- passeport n °
+- passeport non
+- passeport #
+- passeport #
+- passeportnon
+- passeportn °
+- passeport français
+- passeport livre
+- passeport carte
+- numéro passeport
+- passeport n°
+- n° du passeport
+- n° passeport
+
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- data de emissão
+- data de expiração
+
+
 ## <a name="france-social-security-number-insee-or-equivalent-identification"></a>Número de seguro social da França (INSEE) ou identificação equivalente
-Essa entidade de tipo de informação confidenciais está incluída no Número de Seguridade Social da UE e no tipo de informação confidenciais de ID equivalente. Ele está disponível como uma entidade de tipo de informação sensível autônomo.
 
 ### <a name="format"></a>Formatar
 
@@ -6837,61 +6898,62 @@ Sim
 
 ### <a name="definition"></a>Definição
 
-Uma política de DLP tem 95% de certeza de que ela detectou este tipo de informação confidencial se, dentro de uma proximidade de 300 caracteres:
-- A função Func_french_insee ou Func_fr_insee localiza conteúdo que corresponde ao padrão.
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A função `Func_french_insee` localiza conteúdo que corresponde ao padrão.
 - Uma palavra-chave de Keyword_fr_insee for encontrada.
 - A soma de verificação passa.
 
-Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_french_insee ou Func_fr_insee localiza conteúdo que corresponde ao padrão.
-- Nenhuma palavra-chave de Keyword_fr_insee for encontrada.
 - A soma de verificação passa.
 
 ```xml
-<!-- France INSEE -->
-<Entity id="71f62b97-efe0-4aa1-aa49-e14de253619d" patternsProximity="300" recommendedConfidence="85">
-  <Pattern confidenceLevel="95">
+    <!-- France INSEE -->
+    <Entity id="71f62b97-efe0-4aa1-aa49-e14de253619d" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_french_insee" />
-        <Match idRef="Func_fr_insee" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_fr_insee" />
-        </Any>
-  </Pattern>
-  <Pattern confidenceLevel="85">
-        <IdMatch idRef="Func_french_insee" />
-        <Match idRef="Func_fr_insee" />
         <Any minMatches="0" maxMatches="0">
           <Match idRef="Keyword_fr_insee" />
         </Any>
-  </Pattern>
-</Entity>
+      </Pattern>
+      <Pattern confidenceLevel="85">
+        <IdMatch idRef="Func_french_insee" />
+        <Match idRef="Keyword_fr_insee" />
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
 #### <a name="keyword_fr_insee"></a>Keyword_fr_insee
 
+- code sécu
+- d'identité nationale
 - insee
-- securité sociale
-- securite sociale
+- fssn #
+- le numéro d'identification nationale
+- le code de la sécurité sociale
 - national id
 - national identification
-- numéro d'identité
 - no d'identité
 - não. d'identité
+- numéro d'assurance
+- numéro d'identité
 - numero d'identite
+- numéro de sécu
+- numéro de sécurité sociale
 - no d'identite
 - não. d'identite
+- ssn
+- ssn #
+- sécurité sociale
+- securité sociale
+- securite sociale
+- socialsecuritynumber
 - social security number
 - social security code
 - social insurance number
-- le numéro d'identification nationale
-- d'identité nationale
-- numéro de sécurité sociale
-- le code de la sécurité sociale
-- numéro d'assurance sociale
-- numéro de sécu
-- code sécu 
+
 
 ## <a name="france-tax-identification-number"></a>Número de identificação de imposto da França
 
@@ -7090,7 +7152,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - lpscheinnummer
 - fuehrerscheinnummer
 - führerschein- 
-- queschein- 
+- chesschein- 
 - fuehrerschein- 
 - führerscheinnummernr
 - lpscheinnummernr
@@ -7871,7 +7933,7 @@ Nove dígitos
   
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -8308,6 +8370,11 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - Útlevelek száma
 - útlevél szám
 
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- data de emissão
+- data de expiração
+
 
 ## <a name="hungary-social-security-number-taj"></a>Número de seguridade social (TAD) da Hungria
 
@@ -8682,7 +8749,7 @@ O padrão deve incluir todos os seguintes itens:
 - 1 a 7 grupos de quatro letras ou dígitos (podem ser separados por espaços)
 - 1 a 3 letras ou dígitos
 
-O formato para cada país é ligeiramente diferente. O tipo de informação confidenciais do IBAN abrange esses 60 países:
+O formato para cada país é ligeiramente diferente. O tipo de informação sensível do IBAN abrange esses 60 países:
 
 ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg
 
@@ -8707,7 +8774,7 @@ Uma política de DLP tem alta confiança de que ela detectou esse tipo de inform
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+Nenhum(a)
 
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Classificação internacional de pacientes (ICD-10-CM)
@@ -8868,7 +8935,7 @@ Seis dígitos seguidos por quatro letras
 Seis dígitos e quatro letras:
   
 - Seis dígitos
-- Quatro letras (não sensíveis a maiúsculas e minúsculas)
+- Quatro letras (não são sensíveis a maiúsculas e minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
 
@@ -9045,7 +9112,7 @@ Não
 Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_ireland_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
 - Uma palavra-chave  `Keywords_eu_passport_number` de `Keywords_ireland_eu_passport_number` ou for encontrada. 
-- A expressão regular localiza a data no formato `Regex_ireland_eu_passport_date` DD MMM/MMM AAAY (Exemplo - 01 BEA/MAIO de 1988) ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
+- A expressão regular localiza a data no formato `Regex_ireland_eu_passport_date` DD MMM/MMM AAAA (Exemplo - 01 BEA/MAIO de 1988) ou uma palavra-chave de `Keywords_eu_passport_date` onde foi encontrada
 
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A expressão regular  `Regex_ireland_eu_passport_number` localiza conteúdo que corresponde ao padrão. 
@@ -9103,7 +9170,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="ireland-personal-public-service-pps-number"></a>Número de serviço público pessoal (PPS) da Irlanda
@@ -9124,7 +9191,7 @@ Formato antigo (até 31 de dezembro de 2012):
 
 Novo formato (1º de janeiro de 2013 e depois):
 - sete dígitos 
-- uma letra (não sensível a letras minúsculas), que é um dígito de verificação alfabético 
+- uma letra (não sensível a letras minúsculas) que é um dígito de verificação alfabético 
 - Uma letra opcional no intervalo A-I ou "W"
 
 ### <a name="checksum"></a>Soma de verificação
@@ -9330,22 +9397,144 @@ Não
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
-- A expressão regular Regex_italy_drivers_license_number localiza o conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_italy_drivers_license_number for encontrada.
+- A expressão regular `Regex_italy_drivers_license_number` localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave `Keywords_eu_driver's_license_number` de `Keyword_italy_drivers_license_number` ou for encontrada.
 
 ```xml
-<!-- Italy Driver's license Number -->
-<Entity id="97d6244f-9157-41bd-8e0c-9d669a5c4d71" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="75">
+    <!-- Italy Driver's license Number -->
+    <Entity id="97d6244f-9157-41bd-8e0c-9d669a5c4d71" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="75">
         <IdMatch idRef="Regex_italy_drivers_license_number" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_italy_drivers_license_number" />
-        </Any>
-    </Pattern>
-</Entity>
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_driver's_license_number" />
+            <Match idRef="Keyword_italy_drivers_license_number" />
+          </Any>
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
+
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
+
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
+- driver license
+- driver licenses
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
+- drivers license
+- drivers licenses
+- drivers licence
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- driver's lic
+- driver's lics
+- driver's license
+- driver's licenses
+- driver's licence
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
+- driving licence 
+- driving licence
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
+- driving licence
+- driving licences
+- driving permit
+- dl no
+- dlno
+- dl number
 
 #### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
@@ -9354,6 +9543,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - patente guida
 - patenti di guida
 - patenti guida
+
 
 ## <a name="italy-fiscal-code"></a>Código fiscal da Itália
 Esse tipo de informação confidenciais só está disponível para uso em:
@@ -9522,7 +9712,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="italy-value-added-tax-number"></a>Número de imposto adicionado ao valor italiano
@@ -9595,7 +9785,7 @@ número da conta bancária:
 - sete ou oito dígitos
 - código de ramificação de conta bancária:
 - quatro dígitos 
-- um espaço ou traço (opcional) 
+- um espaço ou um travessão (opcional) 
 - três dígitos
 
 Soma de verificação
@@ -10268,7 +10458,7 @@ Formato antigo
   
 - seis dígitos que correspondem à data de nascimento (DDMMYY) 
 - um hífen
-- um dígito que corresponde ao centenário de nascimento ("0" para o aniversário do 19o, "1" para o 20º ano e "2" para o 21º dia)
+- um dígito que corresponde ao centenário de nascimento ("0" para o 19º dia, "1" para o 20º e "2" para o 21º dia)
 - quatro dígitos, gerados aleatoriamente
 
 Novo formato
@@ -10464,7 +10654,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="lithuania-drivers-license-number"></a>Número de carteira de motorista da Lituânia
@@ -10791,7 +10981,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="luxemburg-drivers-license-number"></a>Número de carteira de motorista de Luxemburgo
@@ -10956,7 +11146,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - fahrerlaubnis
 - Führerschäin
 
-## <a name="luxemburg-national-identification-number-natural-persons"></a>Número de identificação nacional (pessoas físicas) de Luxemburgo
+## <a name="luxemburg-national-identification-number-natural-persons"></a>Número de identificação nacional de Luxemburgo (pessoas físicas)
 Esse tipo de informação confidenciais só está disponível para uso em:
 - políticas de prevenção contra perda de dados
 - políticas de conformidade de comunicação
@@ -11115,7 +11305,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="luxemburg-national-identification-number-non-natural-persons"></a>Número de identificação nacional (pessoas não naturais) de Luxemburgo
@@ -11220,9 +11410,9 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 12 dígitos:
 - seis dígitos no formato AAMMDD, que são a data de nascimento 
-- um travessão (opcional) 
+- um traço (opcional) 
 - código de local de nascimento de duas letras 
-- um travessão (opcional) 
+- um traço (opcional) 
 - três dígitos aleatórios 
 - código de gênero de um dígito
 
@@ -11466,7 +11656,7 @@ sete dígitos seguidos por uma letra:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -11580,7 +11770,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="malta-tax-identification-number"></a>Número de identificação fiscal de Malta
@@ -11606,7 +11796,7 @@ Entidades nacionais e maltesas não maltesas: nove dígitos
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -12109,7 +12299,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - número do iva
 - vat no
 - vat #
-- getal de imposto do wearde tafoege
+- getal imposto wearde tafoege
 - btw nūmer
 - btw-nummer
 
@@ -12569,11 +12759,11 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 ### <a name="format"></a>Formatar
 
-14 dígitos contendo 2 barras
+14 dígitos contendo duas barras
   
 ### <a name="pattern"></a>Padrão
 
-14 dígitos e 2 barras para frente:
+14 dígitos e duas barras à frente:
   
 - cinco dígitos 
 - uma barra
@@ -12850,28 +13040,75 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
-- A função Func_polish_passport_number localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_polish_national_id_passport_number for encontrada.
+- A função `Func_polish_passport_number_v2` localiza conteúdo que corresponde ao padrão.
+- A soma de verificação passa.
+- Uma palavra-chave `Keywords_eu_passport_number` de `Keyword_polish_national_passport_number` ou for encontrada.
+- Uma palavra-chave `Keywords_eu_passport_date` de onde foi encontrada.
+
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A função `Func_polish_passport_number_v2` localiza conteúdo que corresponde ao padrão.
+- A soma de verificação passa.
+- Uma palavra-chave `Keywords_eu_passport_number` de `Keyword_polish_national_passport_number` ou for encontrada.
+
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A função `Func_polish_passport_number_v2` localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
-<!-- Poland Passport Number -->
-<Entity id="03937FB5-D2B6-4487-B61F-0F8BFF7C3517" patternsProximity="300" recommendedConfidence="85">
-      <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_polish_passport_number" />
-          <Match idRef="Keyword_polish_national_id_passport_number" />
-      </Pattern>
-</Entity>
-</Version>
+      <!-- Poland Passport Number -->
+      <Entity id="03937FB5-D2B6-4487-B61F-0F8BFF7C3517" patternsProximity="300" recommendedConfidence="75">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_polish_passport_number_v2" />
+          <Match idRef="Keywords_eu_passport_date" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_polish_national_passport_number" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_polish_passport_number_v2" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_polish_national_passport_number" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Func_polish_passport_number_v2" />
+        </Pattern>
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keyword_poland_national_id_passport_number"></a>Keyword_poland_national_id_passport_number
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Numer paszportu
-- Nr. Paszportu
-- Paszport
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
+- passport number
+- passportnumbers
+- passport numbers
+
+#### <a name="keyword_polish_national_passport_number"></a>Keyword_polish_national_passport_number
+
+- numer paszportu
+- numery paszportów
+- numery paszportowe
+- nr paszportu
+- nr. paszportu
+- nr paszportów
+- n° passeport
+- passeport n°
+
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
+
+- data de emissão
+- data de expiração
+
 
 ## <a name="poland-regon-number"></a>Número REGON da Polônia
 Esse tipo de informação confidenciais só está disponível para uso em:
@@ -13328,7 +13565,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="portugal-tax-identification-number"></a>Número de identificação fiscal de Portugal
@@ -13560,7 +13797,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 #### <a name="keywords_romania_eu_drivers_license_number"></a>Keywords_romania_eu_driver é s_license_number
 
-- permis decere
+- permis de propcere
 - permisului decere
 - permisului conduzcere
 - permisele decere
@@ -13736,7 +13973,7 @@ numărul pașaportului numarul pasaportului numerele pașaportului Pașaport nr
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="russia-passport-number-domestic"></a>Número de passaporte russo doméstico
@@ -14294,7 +14531,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="slovenia-drivers-license-number"></a>Número de carteira de motorista da Eslovênia
@@ -14610,7 +14847,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_slovenia_eu_passport_number"></a>Keywords_slovenia_eu_passport_number
 
 - številka potnega lista
-- porquek veljavnosti
+- quek veljavnosti
 - lista potni #
 - datum rojstva
 - lista potni
@@ -14619,7 +14856,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
 ## <a name="slovenia-tax-identification-number"></a>Número de identificação fiscal da Eslovênia
@@ -14975,7 +15212,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - licencia circunsindocir
 - permisocir
 - permiso decir
-- permisos de todo o mundo
+- permisos decir
 - permisoscir
 - cirt propcir
 - quet decircir
@@ -14999,7 +15236,7 @@ oito dígitos seguidos por um caractere
 sete dígitos seguidos por um caractere
   
 - oito dígitos
-- Um espaço ou hífen opcional
+- Um espaço opcional ou hífen
 - uma letra de verificação (não sensitivo entre letras minúsculas)
     
 ### <a name="checksum"></a>Soma de verificação
@@ -15078,7 +15315,7 @@ uma combinação de oito ou nove caracteres de letras e números:
     
 ### <a name="checksum"></a>Soma de verificação
 
-Não se aplica
+Não aplicável
   
 ### <a name="definition"></a>Definição
 
@@ -15148,12 +15385,11 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
 - data de emissão
-- data de vencimento
+- data de expiração
 
 
-## <a name="spain-social-security-number-ssn"></a>Número de seguro social da Espanha (SSN)
+## <a name="spain-social-security-number-ssn"></a>Número de seguro social (SSN) da Espanha
 
-Essa entidade de tipo de informação confidenciais está incluída no Número de Seguridade Social da UE ou no tipo de informação confidenciais de ID Equivalente. Ele está disponível como uma entidade de tipo de informação sensível autônomo.
 
 ### <a name="format"></a>Formatar
 
@@ -15177,19 +15413,35 @@ Sim
 Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_spanish_social_security_number localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
+- - Uma palavra-chave  `Keywords_spain_eu_ssn_or_equivalent` de onde foi encontrada. 
+
+Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A função Func_spanish_social_security_number localiza conteúdo que corresponde ao padrão.
+- A soma de verificação passa.
 
 ```xml
-<!-- Spain SSN -->
-<Entity id="5df987c0-8eae-4bce-ace7-b316347f3070" patternsProximity="300" recommendedConfidence="85">
-    <Pattern confidenceLevel="85">
-        <IdMatch idRef="Func_spanish_social_security_number" />
-    </Pattern>
-</Entity>
+    <!-- Spain SSN -->
+    <Entity id="5df987c0-8eae-4bce-ace7-b316347f3070" patternsProximity="300" recommendedConfidence="85" relaxProximity="true" >
+      <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_spanish_social_security_number" />
+          <Match idRef="Keywords_spain_eu_ssn_or_equivalent" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_spanish_social_security_number" />
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
-Nenhum
+#### <a name="keywords_spain_eu_passport_number"></a>Keywords_spain_eu_passport_number
+
+- ssn
+- ssn #
+- socialsecurityno
+- social security no
+- social security number
+- número de la seguridad social
 
 ## <a name="spain-tax-identification-number"></a>Número de identificação de imposto da Espanha
 Esse tipo de informação confidenciais só está disponível para uso em:
@@ -15224,7 +15476,7 @@ Residentes com menos de 14 anos sem um Cartão de Identidade Nacional da Espanha
     
 Identificações com o número de identificação de um estrangeiro
   
-- uma letra maiúscula que seja "X", "Y" ou "Z" (sensível a maiúsculas e minúsculas) 
+- uma letra maiúscula que seja "X", "Y" ou "Z" (sensível a maiúsculas) 
 - sete dígitos
 - uma letra maiúscula (sensível a maiúsculas e minúsculas) 
     
@@ -15541,7 +15793,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 #### <a name="keywords_sweden_eu_drivers_license_number"></a>Keywords_sweden_eu_driver's_license_number
 
 - ajokortti
-- permis decere
+- permis de propcere
 - ajokortin numero
 - kuljettajat lic.
 - drivere lic.
@@ -15617,7 +15869,6 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - skatteidentifikationsnummer
    
 ## <a name="sweden-passport-number"></a>Número de passaporte sueco
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação sensível ao Número de Passaporte da UE e está disponível como uma entidade de tipo de informação confidenciais independente.
 
 ### <a name="format"></a>Formatar
 
@@ -15633,62 +15884,85 @@ Não
 
 ### <a name="definition"></a>Definição
 
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- a expressão regular Regex_sweden_passport_number localiza conteúdo que corresponde ao padrão.
+- uma palavra-chave `Keywords_eu_passport_number` de `Keyword_sweden_passport` ou for encontrada.
+- a expressão regular localiza uma data no formato `Regex_sweden_eu_passport_date` DD MMM/MMM AA (12 DE JAN/01 JAN) ou uma palavra-chave `Keywords_eu_passport_date` de onde foi encontrada.
+
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - a expressão regular Regex_sweden_passport_number localiza conteúdo que corresponde ao padrão.
-- um dos seguintes é verdadeiro:
-    - uma palavra-chave Keyword_passport for encontrada.
-    - uma palavra-chave Keyword_sweden_passport for encontrada.
+- uma palavra-chave `Keywords_eu_passport_number` de `Keyword_sweden_passport` ou for encontrada.
+
 
 ```xml
-<!-- Sweden Passport Number -->
-<Entity id="ba4e7456-55a9-4d89-9140-c33673553526" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="75">
-        <IdMatch idRef="Regex_sweden_passport_number" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_passport" />
-          <Match idRef="Keyword_sweden_passport" />
-        </Any>
-    </Pattern>
-</Entity>
+    <!-- Sweden Passport Number -->
+    <Entity id="ba4e7456-55a9-4d89-9140-c33673553526" patternsProximity="300" recommendedConfidence="75">
+      <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_sweden_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_sweden_passport" />
+          </Any>
+          <Any minMatches="1">
+            <Match idRef="Regex_sweden_eu_passport_date" />
+            <Match idRef="Keywords_eu_passport_date" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_sweden_passport_number" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keyword_sweden_passport" />
+          </Any>
+      </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
    
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
+
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
+- passport number
+- passportnumbers
+- passport numbers
+
 #### <a name="keyword_sweden_passport"></a>Keyword_sweden_passport
 
-- visa requirements 
-- Alien Registration Card 
-- Schengen visas 
-- Schengen visa 
-- Visa Processing 
-- Visa Type 
-- Single Entry 
-- Multiple Entry 
-- G3 Processing Fees 
+- cartão de registro alien
+- taxas de processamento g3
+- entrada múltipla
+- Numéro de passeport
+- passeport n °
+- passeport non
+- passeport #
+- passeport #
+- passeportnon
+- passeportn °
+- passnummer
+- pass nr
+- schengen visa
+- schengen visas
+- entrada única
+- sverige pass
+- visa requirements
+- processamento de visa
+- tipo de visa
 
-#### <a name="keyword_passport"></a>Keyword_passport
+#### <a name="keywords_eu_passport_date"></a>Keywords_eu_passport_date
 
-- Passport Number 
-- Passport No 
-- Passport # 
-- Passport # 
-- PassportID 
-- Passportno 
-- passportnumber 
-- パスポート 
-- パスポート番号 
-- パ ポトスNum 
-- パスポート＃ 
-- Numéro de passeport 
-- Passeport n ° 
-- Passeport Non 
-- Passeport # 
-- Passeport # 
-- PasseportNon 
-- Passeportn ° 
+- data de emissão
+- data de expiração
+
 
 ## <a name="sweden-social-security-number-or-equivalent-identification"></a>Número de seguridade social da Suécia ou identificação equivalente
-Essa entidade de tipo de informação confidenciais só está disponível no número de seguro social da UE ou no tipo de informação confidenciais de ID equivalente.
+Essa entidade de tipo de informação sensível só está disponível no tipo de informação confidenciais do Número de Seguridade Social da UE ou ID Equivalente.
 
 ### <a name="format"></a>Formatar
 
@@ -15767,7 +16041,7 @@ Esse tipo de informação confidenciais só está disponível para uso em:
 - seis dígitos que correspondem à data de nascimento (AAMMDD) 
 - um sinal de mais ou sinal de menos
 - três dígitos que fazem com que o número de identificação seja exclusivo em que: 
-  - para números emitidos antes de 1990, o sétimo e o oitavo dígito identificam o país/região de nascimento ou pessoas que não têm filhos
+  - para números emitidos antes de 1990, o sétimo e oitavo dígito identificam o país/região de nascimento ou pessoas que não têm filhos
   - o dígito na nona posição indica sexo por ímpar para o adulto ou até mesmo para a mulher
 - um dígito de verificação
     
@@ -15969,7 +16243,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - uniqueidno #
 - identificação exclusiva não.
 - avs number
-- personal identity no versicherungsnummer
+- identidade pessoal no versicherungsnummer
 - identifikationsnummer
 - einzigartige identität nicht
 - sozialversicherungsnummer
@@ -16085,7 +16359,7 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 - 中華民國護照 
 - Zhōnghuá Mínguó hùzhào
    
-## <a name="taiwan-resident-certificate-arctarc-number"></a>Número do certificado de residente de Taiwan (ARC/TARC)
+## <a name="taiwan-resident-certificate-arctarc-number"></a>Número do certificado residente em Taiwan (ARC/TARC)
 
 ### <a name="format"></a>Formatar
 
@@ -16225,11 +16499,10 @@ Uma política de DLP tem confiança média de que ela detectou esse tipo de info
 
 - TC Kimlik No
 - TC Kimlik numarası
-- Vatşlık numarası
+- Vatşşlık numarası
 - Vatşşlık no
 
 ## <a name="uk-drivers-license-number"></a>Reino Unido número de carteira de motorista
-Essa entidade de tipo de informação confidenciais está incluída no tipo de informação confidenciais do Número de Carteira de Motorista da UE. Ele está disponível como uma entidade de tipo de informação sensível autônomo.
 
 ### <a name="format"></a>Formatar
 
@@ -16251,39 +16524,150 @@ Sim
 ### <a name="definition"></a>Definição
 
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
-- A função Func_uk_drivers_license localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_uk_drivers_license for encontrada.
+- A função `Func_uk_drivers_license` localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave `Keywords_eu_driver's_license_number` de onde foi encontrada.
+- A soma de verificação passa.
+
+Uma política de DLP tem baixa confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A função `Func_uk_drivers_license` localiza conteúdo que corresponde ao padrão.
 - A soma de verificação passa.
 
 ```xml
-<!-- U.K. Driver's License Number -->
-<Entity id="f93de4be-d94c-40df-a8be-461738047551" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="75">
-        <IdMatch idRef="Func_uk_drivers_license" />
-        <Match idRef="Keyword_uk_drivers_license" />
-    </Pattern>
-</Entity>
+    <!-- U.K. Driver's License Number -->
+    <Entity id="f93de4be-d94c-40df-a8be-461738047551" patternsProximity="300" recommendedConfidence="75" relaxProximity="true" >
+      <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_uk_drivers_license" />
+          <Match idRef="Keywords_eu_driver's_license_number" />
+        </Pattern>
+        <Pattern confidenceLevel="65">
+          <IdMatch idRef="Func_uk_drivers_license" />
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keyword_uk_drivers_license"></a>Keyword_uk_drivers_license
+#### <a name="keywords_eu_drivers_license_number"></a>Keywords_eu_driver's_license_number
 
-- DVLA 
-- light vans 
-- quadbikes 
-- motor cars 
-- 125cc 
-- sidecar 
-- tricycles 
-- ads 
-- photocard licence 
-- learner drivers 
-- licence holder 
-- licence holders 
-- driving licences 
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
+- driverlicences
+- driver lic
+- driver lics
+- driver license
+- driver licenses
+- driver licence
+- driver licences
+- driverslic
+- driverslics
+- driverslicence
+- driverslicences
+- driverslicense
+- driverslicenses
+- drivers lic
+- drivers lics
+- drivers license
+- drivers licenses
+- drivers licence
+- drivers licences
+- driver'lic
+- driver'lics
+- driver'license
+- driver'licenses
+- driver'licence
+- driver'licences
+- driver' lic
+- driver' lics
+- driver' license
+- driver' licenses
+- driver' licence
+- driver' licences
+- driver'slic
+- driver'slics
+- driver'slicense
+- driver'slicenses
+- driver'slicence
+- driver'slicences
+- driver's lic
+- driver's lics
+- driver's license
+- driver's licenses
+- driver's licence
+- driver's licences
+- dl #
+- dls #
+- driverlic #
+- driverlics #
+- driverlicense #
+- driverlicenses #
+- driverlicence #
+- driverlicences #
+- driver lic #
+- driver lics #
+- driver license #
+- driver licenses #
+- driver licences #
+- driverslic #
+- driverslics #
+- driverslicense #
+- driverslicenses #
+- driverslicence #
+- driverslicences #
+- drivers lic #
+- drivers lics #
+- drivers license #
+- drivers licenses #
+- drivers licence #
+- drivers licences #
+- driver'lic #
+- driver'lics #
+- driver'license #
+- driver'licenses #
+- driver'licence #
+- driver'licences #
+- driver' lic #
+- driver' lics #
+- driver' license #
+- driver' licenses #
+- driver' licence #
+- driver' licences #
+- driver'slic #
+- driver'slics #
+- driver'slicense #
+- driver'slicenses #
+- driver'slicence #
+- driver'slicences #
+- driver's lic #
+- driver's lics #
+- driver's license #
+- driver's licenses #
+- driver's licence #
+- driver's licences #
 - driving licence 
-- dual control car 
+- driving licence
+- dlno #
+- driv lic
+- driv licen
+- driv license
+- driv licenses
+- driv licence
+- driv licences
+- driver licen
+- drivers licen
+- driver's licen
+- driving lic
+- driving licen
+- driving licenses
+- driving licence
+- driving licences
+- driving permit
+- dl no
+- dlno
+- dl number
+
    
 ## <a name="uk-electoral-roll-number"></a>Reino Unido número de rolagem de 1º
 
@@ -16904,7 +17288,6 @@ Uma política de DLP tem 55% de certeza de que ela detectou este tipo de informa
 - SSID
    
 ## <a name="us--uk-passport-number"></a>EUA/ Reino Unido passport number
-O Reino Unido a entidade do tipo de informação sensível ao número do passport está disponível no tipo de informação sensível ao Número de Passaporte da UE. Ele está disponível como uma entidade de tipo de informação sensível autônomo.
 
 ### <a name="format"></a>Formatar
 
@@ -16920,41 +17303,56 @@ Não
 
 ### <a name="definition"></a>Definição
 
+Uma política de DLP tem alta confiança de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
+- A função Func_usa_uk_passport localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave `Keywords_eu_passport_number` de `Keywords_uk_eu_passport_number` ou for encontrada.
+- Uma palavra-chave `Keywords_eu_passport_date` de onde foi encontrada
+
 Uma política de DLP tem confiança média de que ela detectou esse tipo de informação sensível se, dentro de uma proximidade de 300 caracteres:
 - A função Func_usa_uk_passport localiza conteúdo que corresponde ao padrão.
-- Uma palavra-chave de Keyword_passport for encontrada.
+- Uma palavra-chave `Keywords_eu_passport_number` de `Keywords_uk_eu_passport_number` ou for encontrada.
 
 ```xml
-<Entity id="178ec42a-18b4-47cc-85c7-d62c92fd67f8" patternsProximity="300" recommendedConfidence="75">
-    <Pattern confidenceLevel="75">
-        <IdMatch idRef="Func_usa_uk_passport" />
-        <Match idRef="Keyword_passport" />
-    </Pattern>
-</Entity>
+    <!-- U.S. / U.K. Passport Number -->
+    <Entity id="178ec42a-18b4-47cc-85c7-d62c92fd67f8" patternsProximity="300" recommendedConfidence="75">
+       <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_usa_uk_passport" />
+          <Match idRef="Keywords_eu_passport_date" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keywords_uk_eu_passport_number" />
+          </Any>
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_usa_uk_passport" />
+          <Any minMatches="1">
+            <Match idRef="Keywords_eu_passport_number" />
+            <Match idRef="Keywords_uk_eu_passport_number" />
+          </Any>
+        </Pattern>
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Palavras-chave
 
-#### <a name="keyword_passport"></a>Keyword_passport
+#### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
-- Passport Number 
-- Passport No 
-- Passport # 
-- Passport # 
-- PassportID 
-- Passportno 
-- passportnumber 
-- パスポート 
-- パスポート番号 
-- パ ポトスNum 
-- パスポート＃ 
-- Numéro de passeport 
-- Passeport n ° 
-- Passeport Non 
-- Passeport # 
-- Passeport # 
-- PasseportNon 
-- Passeportn ° 
+- passport #
+- passport #
+- passportid
+- passports
+- passportno
+- passport no
+- passportnumber
+- passport number
+- passportnumbers
+- passport numbers
+
+#### <a name="keywords_uk_eu_passport_number"></a>Keywords_uk_eu_passport_number
+
+- passport britânico 
+- uk passport 
+
 
 ## <a name="ukraine-passport-domestic"></a>Passaporte doméstico da Ucrânia
 Esse tipo de informação confidenciais só está disponível para uso em:

@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora você pode aplicar políticas DLP a canais e chats do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: a34a094a3c0440933a3d44e0125939a02b4ae202
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 13d5d73423cc6ad7db76076f6a53dde668b8fa5c
+ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840578"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279359"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção contra perda de dados e Microsoft Teams
 
@@ -36,13 +36,12 @@ Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Lic
 
 Recentemente, os [recursos de prevenção](data-loss-prevention-policies.md) contra perda de dados (DLP) foram estendidos para incluir mensagens de canal e chat do Microsoft Teams, **incluindo mensagens de canal privado.**
 
+Se sua organização tem DLP, agora você pode definir políticas que impedem que as pessoas compartilhem informações confidenciais em um canal ou sessão de chat do Microsoft Teams. Aqui estão alguns exemplos de como essa proteção funciona:
 
-Se sua organização tiver DLP, agora você pode definir políticas que impedem que as pessoas compartilhem informações confidenciais em um canal ou sessão de chat do Microsoft Teams. Aqui estão alguns exemplos de como essa proteção funciona:
-
-- **Exemplo 1: Proteger informações confidenciais em mensagens.** Suponha que alguém tenta compartilhar informações confidenciais em um chat ou canal do Teams com convidados (usuários externos). Se você tiver uma política DLP definida para evitar isso, as mensagens com informações confidenciais enviadas a usuários externos serão excluídas. Isso acontece automaticamente e em segundos, de acordo com a configuração da política de DLP.
+- **Exemplo 1: Proteger informações confidenciais em mensagens.** Suponha que alguém tenta compartilhar informações confidenciais em um chat ou canal do Teams com convidados (usuários externos). Se você tiver uma política de DLP definida para evitar isso, as mensagens com informações confidenciais enviadas a usuários externos serão excluídas. Isso acontece automaticamente e em segundos, de acordo com a configuração da política de DLP.
 
     > [!NOTE]
-    > A DLP do Microsoft Teams bloqueia o conteúdo sensível quando compartilhado com usuários do Microsoft Teams que têm:<br/>- [acesso de convidados](https://docs.microsoft.com/MicrosoftTeams/guest-access) em equipes e canais; ou<br/>- [acesso externo em](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) reuniões e sessões de chat. <p>A DLP para sessões de chat externas só funcionará se o remetente e o destinatário estão no modo Teams Only e usando a [federação nativa do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/manage-external-access) A DLP para o Teams não bloqueia mensagens na [interopção](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) com o Skype for Business ou sessões de chat federadas não nativas.
+    > A DLP do Microsoft Teams bloqueia o conteúdo sensível quando compartilhado com usuários do Microsoft Teams que têm:<br/>- [acesso de convidados](https://docs.microsoft.com/MicrosoftTeams/guest-access) em equipes e canais; ou<br/>- [acesso externo](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) em reuniões e sessões de chat. <p>A DLP para sessões de chat externas só funcionará se o remetente e o destinatário estão no modo Teams Only e usando a [federação nativa do Microsoft Teams.](https://docs.microsoft.com/microsoftteams/manage-external-access) A DLP do Teams não bloqueia mensagens na [interopção](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) com o Skype for Business ou sessões de chat federadas não nativas.
 
 - **Exemplo 2: Proteger informações confidenciais em documentos.** Suponha que alguém tenta compartilhar um documento com convidados em um canal ou chat do Microsoft Teams e o documento contém informações confidenciais. Se você tiver uma política DLP definida para evitar isso, o documento não será aberto para esses usuários. Observe que, nesse caso, sua política de DLP deve incluir o SharePoint e o OneDrive para que a proteção seja realizada. (Este é um exemplo de DLP para SharePoint que aparece no Microsoft Teams e, portanto, requer que os usuários sejam licenciados para a DLP do Office 365 (incluído no Office 365 E3), mas não exige que os usuários sejam licenciados para a Conformidade Avançada do Office 365.)
 
@@ -68,7 +67,7 @@ O **link What's this?** abre um [artigo sobre](data-loss-prevention-policies.md)
 
 Para executar essa tarefa, você deve ter uma função que tenha permissões para editar políticas DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o Centro de Conformidade & Segurança [https://protection.office.com](https://protection.office.com) () e entre.
+1. Vá para o Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) e entre.
 
 2. Escolha **Política de prevenção contra perda de**  >  **dados.**
 
@@ -87,9 +86,9 @@ Permita aproximadamente uma hora para que suas alterações funcionem no data ce
 
 ## <a name="add-microsoft-teams-as-a-location-to-existing-dlp-policies"></a>Adicionar o Microsoft Teams como um local para políticas de DLP existentes
 
-Para executar essa tarefa, você deve ter uma função que tenha permissões para editar políticas DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
+Para executar essa tarefa, você deve ter uma função que tenha permissões para editar políticas de DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o Centro de Conformidade & Segurança [https://protection.office.com](https://protection.office.com) () e entre.
+1. Vá para o Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) e entre.
 
 2. Escolha **Política de prevenção contra perda de**  >  **dados.**
 
@@ -97,7 +96,14 @@ Para executar essa tarefa, você deve ter uma função que tenha permissões par
 
 4. Na coluna **Status,** a ativar a política para mensagens de canal e **chat do Teams.**<br/>![DLP para chats e canais do Teams](../media/dlp-teams-addteamschatschannels.png)<br/>
 
-5. Na guia **Escolher locais,** mantenha a configuração padrão de todas as contas ou selecione **Permitir** que eu escolha locais específicos e especifique quais contas incluir ou excluir. Depois clique em **Próximo**.
+5. Na guia **Escolher locais,** mantenha a configuração padrão de todas as contas ou selecione **Deixe-me escolher locais específicos.** É possível especificar:
+    1. até 1.000 contas individuais para incluir ou excluir
+    1. listas de distribuição e grupos de segurança para incluir ou excluir. **Esse é um recurso de visualização pública.**
+    <!-- 1. the shared mailbox of a shared channel. **This is a public preview feature.**--> 
+    
+6. Depois clique em **Próximo**.
+
+
 
 6. Clique em **Salvar**.
 
@@ -108,7 +114,7 @@ Permita aproximadamente uma hora para que suas alterações funcionem no data ce
 
 Para executar essa tarefa, você deve ter uma função que tenha permissões para editar políticas DLP. Para saber mais, confira [permissões](data-loss-prevention-policies.md#permissions).
 
-1. Vá para o Centro de Conformidade & Segurança [https://protection.office.com](https://protection.office.com) () e entre.
+1. Vá para o Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) e entre.
 
 2. Choose **Data loss prevention**  >  **Policy**+ Create a  >  **policy**.
 
@@ -116,7 +122,10 @@ Para executar essa tarefa, você deve ter uma função que tenha permissões par
 
 4. Na guia **Nomear sua política,** especifique um nome e uma descrição para a política e escolha **Próximo.**
 
-5. Na guia **Escolher locais,** mantenha a configuração padrão de todas as contas ou selecione **Permitir** que eu escolha locais específicos e especifique quais contas incluir ou excluir. Depois clique em **Próximo**.
+5. Na guia **Escolher locais,** mantenha a configuração padrão de todas as contas ou selecione **Deixe-me escolher locais específicos.** É possível especificar:
+    1. até 1.000 contas individuais para incluir ou excluir
+    1. listas de distribuição e grupos de segurança para incluir ou excluir. **Esse é um recurso de visualização pública.**
+    <!-- 1. the shared mailbox of a shared channel. **This is a public preview feature.**-->  
 
 ![Locais de política de DLP](../media/dlp-teams-selectlocationsnewpolicy.png)
 

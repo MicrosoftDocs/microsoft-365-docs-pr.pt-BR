@@ -14,14 +14,14 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Informações para administradores de IT gerenciarem rótulos de sensibilidade em aplicativos do Office para área de trabalho, dispositivos móveis e a Web.
+description: Informações para os administradores de IT gerenciarem rótulos de sensibilidade em aplicativos do Office para área de trabalho, dispositivos móveis e a Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 959fb0371ab50d4132cacbae38d979a9a75d2aab
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: 8d7fd75aaa1b6f54222252c3e8379aaed2c4c223
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261352"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290806"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -39,7 +39,7 @@ Para usar rótulos de sensibilidade com essas edições autônomas do Office em 
 
 ## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>Suporte para recursos de rótulo de sensibilidade em aplicativos
 
-Para cada recurso, as tabelas a seguir listam a versão mínima do Office que você precisa para dar suporte a rótulos de sensibilidade usando rotulagem. Ou, se o recurso de rótulo estiver em visualização pública ou em revisão para uma versão futura. Use o [mapa do Microsoft 365](https://aka.ms/MIPC/Roadmap) para obter detalhes sobre versões futuras.
+Para cada recurso, as tabelas a seguir listam a versão mínima do Office que você precisa para dar suporte a rótulos de sensibilidade usando rotulagem integrado. Ou, se o recurso de rótulo estiver em visualização pública ou em revisão para uma versão futura. Use o [mapa do Microsoft 365](https://aka.ms/MIPC/Roadmap) para obter detalhes sobre versões futuras.
 
 Novas versões de aplicativos do Office são disponibilizadas em momentos diferentes para diferentes canais de atualização. Para obter mais informações, incluindo como configurar seu canal de atualização para que você possa testar um novo recurso de rotulagem de seu interesse, consulte Visão geral dos canais de atualização para Aplicativos do [Microsoft 365.](https://docs.microsoft.com/DeployOffice/overview-update-channels) Novos recursos que estão na visualização privada não estão incluídos na tabela, mas você pode ser capaz de ingressar nessas visualizações ao nomear sua organização para o programa de visualização privada de Proteção de Informações da [Microsoft.](https://aka.ms/mip-preview)
 
@@ -64,7 +64,7 @@ Os números listados são a versão mínima do aplicativo do Office necessária 
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 2010+           | 16,42+     | 2,42+ | 16.0.13328+ | Sob revisão |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16,21+     | 2.21+ | 16.0.11231+ | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16,35+   | Sob revisão   | Sob revisão         | Sob revisão                                                        |
-|[Começar a trabalhar com a classificação de dados](data-classification-overview.md) e enviar dados para administradores                      | 2011+ | 16,43+ | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Sim <sup>\*</sup>                                                        |
+|[Começar a trabalhar com a classificação de](data-classification-overview.md) dados e enviar dados para administradores                      | 2011+ | 16,43+ | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Sim <sup>\*</sup>                                                        |
 |[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Visualização: [Canal Atual (Visualização)](https://office.com/insider)             | Visualização: [Canal Atual (Visualização)](https://office.com/insider)         | Sob revisão   | Implantação: 16.0.13628+ | Sob revisão                                            
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Implantação: 16,44+ | Sob revisão | Sob revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |Suporte [ao AutoSave](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) e [coautor](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) em documentos rotulados e criptografados | Sob revisão | Sob revisão | Sob revisão | Sob revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -89,7 +89,7 @@ Os números listados são a versão mínima do aplicativo do Office necessária 
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16,21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16,21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Visualização: [Canal Atual (Visualização)](https://office.com/insider)                        | 16,43+                     | Sob revisão            | Sob revisão                | Sim                |
-|[Começar a trabalhar com a classificação de dados](data-classification-overview.md) e enviar dados para administradores                      | 2011+ | Sob revisão | Sob revisão           | Sob revisão               | Sob revisão |
+|[Começar a trabalhar com a classificação de](data-classification-overview.md) dados e enviar dados para administradores                      | 2011+ | Sob revisão | Sob revisão           | Sob revisão               | Sob revisão |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16,44+                    | Sob revisão           | Sob revisão               | Sim |
 |
 
@@ -126,9 +126,9 @@ Para saber mais sobre quais recursos são suportados pelos clientes da Proteçã
 
 ## <a name="office-file-types-supported"></a>Tipos de arquivo do Office com suporte
 
-Os aplicativos do Office que têm rótulos integrados para arquivos do Word, Excel e PowerPoint são suportados no formato Open XML (como .docx e .xlsx), mas não no formato Microsoft Office 97-2003 (como .doc e .xls). Quando um tipo de arquivo não tem suporte  para rotulagem integrado, o botão Confidencialidade não está disponível no aplicativo do Office.
+Os aplicativos do Office que têm rótulos integrados para arquivos do Word, Excel e PowerPoint suportam o formato Open XML (como .docx e .xlsx), mas não o formato Microsoft Office 97-2003 (como .doc e .xls), Open Document Format (como .odt e .ods) ou outros formatos. Quando um tipo de arquivo não tem suporte  para rotulagem integrado, o botão Confidencialidade não está disponível no aplicativo do Office.
 
-O cliente de rotulagem unificada da Proteção de Informações do Azure dá suporte aos formatos Open XML e Microsoft Office 97-2003. Para saber mais, confira Tipos de arquivo suportados pelo cliente de rotulagem unificada da Proteção de Informações do [Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-file-types) no guia de administração desse cliente.
+O cliente de rotulagem unificada da Proteção de Informações do Azure dá suporte ao formato Open XML e ao formato Microsoft Office 97-2003. Para saber mais, confira Tipos de arquivo suportados pelo cliente de rotulagem unificada da Proteção de Informações do [Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-file-types) no guia de administração desse cliente.
 
 Para outras soluções de rotulagem, verifique sua documentação para tipos de arquivo suportados.
 
@@ -177,7 +177,7 @@ Um anexo não herda os rótulos da mensagem de email quando o rótulo aplicado �
 
 Exemplos de herança de rótulo, em que o rótulo **Confidencial** aplica criptografia e o rótulo **Geral** não aplica criptografia:
 
-- Um usuário cria uma nova mensagem de email e aplica o **rótulo Confidencial** a essa mensagem. Em seguida, eles adicionam um documento do Word que não está rotulado ou criptografado. Como resultado da herança, o documento é recentemente rotulado como **Confidencial** e agora tem criptografia aplicada a partir desse rótulo.
+- Um usuário cria uma nova mensagem de email e aplica o **rótulo Confidencial** a essa mensagem. Em seguida, eles adicionam um documento do Word que não está rotulado ou criptografado. Como resultado da herança, o documento é rotulado como **Confidencial** recentemente e agora tem criptografia aplicada a partir desse rótulo.
 
 - Um usuário cria uma nova mensagem de email e aplica o **rótulo Confidencial** a essa mensagem. Em seguida, eles adicionam um documento do Word rotulado como **Geral** e esse arquivo não é criptografado. Como resultado da herança, o documento é  rotulado como Confidencial e agora tem a criptografia aplicada a partir desse rótulo.
 
@@ -195,7 +195,7 @@ Para usar o cliente de rotulagem interna do Office com o Office na Web para docu
 
 ## <a name="support-for-external-users-and-labeled-content"></a>Suporte para usuários externos e conteúdo rotulado
 
-Quando você rotula um documento ou email, o rótulo é armazenado como metadados que incluem seu locatário e um GUID de rótulo. Quando um documento ou email rotulado é aberto por um aplicativo do Office que dá suporte a rótulos de sensibilidade, esse metadados são lidos e somente se o usuário pertence ao mesmo locatário, o rótulo é exibido em seu aplicativo. Por exemplo, para rotulagem integrado para Word, PowerPoint e Excel, o nome do rótulo é exibido na barra de status. 
+Quando você rotula um documento ou email, o rótulo é armazenado como metadados que incluem seu locatário e um GUID de rótulo. Quando um documento ou email rotulado é aberto por um aplicativo do Office que dá suporte a rótulos de sensibilidade, os metadados são lidos e somente se o usuário pertence ao mesmo locatário, o rótulo é exibido no aplicativo. Por exemplo, para rotulagem integrado para Word, PowerPoint e Excel, o nome do rótulo é exibido na barra de status. 
 
 Isso significa que, se você compartilhar documentos com outra organização que usa nomes de rótulos diferentes, cada organização poderá aplicar e ver seu próprio rótulo aplicado ao documento. No entanto, os seguintes elementos de um rótulo aplicado são visíveis para usuários de fora da sua organização:
 
@@ -209,7 +209,7 @@ Além de restringir o acesso a usuários em sua própria organização, você po
 
 Todos os aplicativos do Office e [outros aplicativos com](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) autenticação rmS podem abrir documentos criptografados após a autenticação bem-sucedida do usuário. 
 
-Se os usuários externos não têm uma conta no Azure Active Directory, eles podem autenticar usando contas de convidado em seu locatário. Essas contas de convidado também podem ser usadas para acessar documentos compartilhados no SharePoint ou no OneDrive quando você habilitar rótulos de sensibilidade para arquivos do Office no SharePoint e [no OneDrive:](sensitivity-labels-sharepoint-onedrive-files.md)
+Se os usuários externos não têm uma conta no Azure Active Directory, eles podem autenticar usando contas de convidado em seu locatário. Essas contas de convidado também podem ser usadas para acessar documentos compartilhados no SharePoint ou no OneDrive quando você habilitar os rótulos de sensibilidade para arquivos do Office no SharePoint e [no OneDrive:](sensitivity-labels-sharepoint-onedrive-files.md)
 
 - Uma opção é criar essas contas de convidado por conta própria. Você pode especificar qualquer endereço de email que esses usuários já usam. Por exemplo, seu endereço do Gmail.
     
@@ -217,14 +217,14 @@ Se os usuários externos não têm uma conta no Azure Active Directory, eles pod
 
 - Outra opção é usar a integração do SharePoint e do OneDrive com o [Azure AD B2B (Visualização)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) para que as contas de convidado sejam criadas automaticamente quando os usuários compartilharem links.
     
-    A vantagem dessa opção é a sobrecarga administrativa mínima porque as contas são criadas automaticamente e a configuração de rótulo mais simples. Para esse cenário, você deve [](encryption-sensitivity-labels.md#requirements-and-limitations-for-add-any-authenticated-users) selecionar a opção de criptografia Adicionar qualquer usuário autenticado porque não conhecerá os endereços de email antecipadamente. A desvantagem é que essa configuração não permite que você restrinja os direitos de acesso e uso a usuários específicos.
+    A vantagem dessa opção é a sobrecarga administrativa mínima porque as contas são criadas automaticamente e a configuração de rótulo mais simples. Para esse cenário, você deve [](encryption-sensitivity-labels.md#requirements-and-limitations-for-add-any-authenticated-users) selecionar a opção de criptografia Adicionar qualquer usuário autenticado porque não conhecerá os endereços de email antecipadamente. A desvantagem é que essa configuração não permite restringir os direitos de acesso e uso a usuários específicos.
 
-Os usuários externos também podem usar uma conta da Microsoft para documentos criptografados quando usam o Microsoft 365 Apps (anteriormente aplicativos do[Office 365)](https://docs.microsoft.com/deployoffice/name-change)no Windows e com suporte recente no macOS (versão 16.42+), Android (versão 16.0.13029+) e iOS (versão 2.42+). Por exemplo, alguém compartilha um documento criptografado com ela e as configurações de criptografia especificam seu endereço de email do Gmail. Esse usuário pode criar sua própria conta da Microsoft que usa seu endereço de email do Gmail. Em seguida, depois de entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para esse usuário. Para ver um exemplo passo a passo desse cenário, consulte [Abrindo e editando o documento protegido.](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document)
+Os usuários externos também podem usar uma conta da Microsoft para abrir documentos criptografados quando usam o Windows e o Microsoft 365 Apps (anteriormente aplicativos do[Office 365)](https://docs.microsoft.com/deployoffice/name-change)ou a edição autônoma do Office 2019. Mais recentemente com suporte para outras plataformas, as contas da Microsoft também têm suporte para abrir documentos criptografados no macOS (Microsoft 365 Apps, versão 16.42+), Android (versão 16.0.13029+) e iOS (versão 2.42+). Por exemplo, um usuário em sua organização compartilha um documento criptografado com um usuário fora da sua organização e as configurações de criptografia especificam um endereço de email do Gmail para o usuário externo. Esse usuário externo pode criar sua própria conta da Microsoft que usa seu endereço de email do Gmail. Em seguida, depois de entrar com essa conta, eles poderão abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para elas. Para ver um exemplo passo a passo desse cenário, consulte [Abrindo e editando o documento protegido.](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document)
 
 > [!NOTE]
 > O endereço de email da conta da Microsoft deve corresponder ao endereço de email especificado para restringir o acesso às configurações de criptografia.
 
-Quando um usuário com uma conta da Microsoft abre um documento criptografado dessa forma, ele cria automaticamente uma conta de convidado para o locatário se uma conta de convidado com o mesmo nome ainda não existir. Quando a conta de convidado existe, ela pode ser usada para abrir documentos no SharePoint e no OneDrive usando um navegador (Office na Web), além de abrir documentos criptografados do aplicativo da área de trabalho do Windows. 
+Quando um usuário com uma conta da Microsoft abre um documento criptografado dessa forma, ele cria automaticamente uma conta de convidado para o locatário se uma conta de convidado com o mesmo nome ainda não existir. Quando a conta de convidado existe, ela pode ser usada para abrir documentos no SharePoint e no OneDrive usando o Office na Web, além de abrir documentos criptografados dos aplicativos do Office para área de trabalho e dispositivos móveis com suporte.
 
 No entanto, a conta de convidado automática não é criada imediatamente nesse cenário, devido à latência de replicação. Se você especificar endereços de email pessoais como parte das configurações de criptografia de rótulo, recomendamos criar contas de convidado correspondentes no Azure Active Directory. Em seguida, avise esses usuários que eles devem usar essa conta para abrir um documento criptografado da sua organização.
 
@@ -294,7 +294,7 @@ Ao configurar um rótulo de sensibilidade para marcações de conteúdo, você p
 Como uma variável adicional, você pode configurar marcações visuais por tipo de aplicativo do Office usando uma instrução de variável "If.App" na cadeia de caracteres de texto e identificar o tipo de aplicativo usando os valores **Word**, **Excel**, **PowerPoint** ou **Outlook**. Você também pode abreviar esses valores, o que é necessário se você quiser especificar mais de um na mesma instrução If.App.
 
 > [!NOTE]
-> Para completar, as instruções para o Outlook estão incluídas, embora atualmente só tenham suporte do cliente de rotulagem unificada da Proteção de Informações do Azure.
+> Para completar, as instruções para o Outlook estão incluídas, embora atualmente sejam suportadas apenas pelo cliente de rotulagem unificada da Proteção de Informações do Azure.
 
 Use a seguinte sintaxe:
 

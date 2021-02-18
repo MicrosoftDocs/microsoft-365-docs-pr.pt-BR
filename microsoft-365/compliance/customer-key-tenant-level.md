@@ -3,7 +3,7 @@ title: Chave do cliente para Microsoft 365 no nível do locatário (visualizaç�
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 12/17/2020
+ms.date: 2/17/2021
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Saiba como configurar a Chave do Cliente para todos os dados no locatário do Microsoft 365.
-ms.openlocfilehash: 682eed7eb2e80535af1acf68808c708e1a25d80f
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 60704f77e17222de790cb397653a2275144d770e
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242371"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288142"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Visão geral da Chave de Cliente do Microsoft 365 no nível do locatário (visualização pública)
 
@@ -32,7 +32,7 @@ Usando chaves fornecidas, você pode criar uma política de criptografia de dado
 - Notificações de chat do Teams
 - Sugestões de chat do Teams da Cortana
 - Mensagens de status do Teams
-- Informações de usuário e sinal do Exchange Online
+- Informações de usuário e sinal para o Exchange Online
 
 Para o Microsoft Teams, a Chave de Cliente no nível do locatário criptografa novos dados a partir do momento em que a DEP é atribuída ao locatário. A visualização pública não dá suporte à criptografia de dados anteriores. Para o Exchange Online, a Chave do Cliente criptografa todos os dados novos e existentes.
 
@@ -46,7 +46,7 @@ A política de criptografia no nível do locatário que você cria criptografa t
 
 Exemplos:
 
-Os arquivos do Microsoft Teams e algumas gravações de chamada e reunião do Teams salvas no OneDrive for Business e no SharePoint são criptografados por uma DEP do SharePoint Online. Uma única DEP do SharePoint Online criptografa conteúdo em uma única área geográfica.
+Os arquivos do Microsoft Teams e algumas gravações de chamada e reunião do Teams salvas no OneDrive for Business e no SharePoint são criptografados por uma DEP do SharePoint Online. Uma única DEP do SharePoint Online criptografa conteúdo dentro de uma única área geográfica.
 
 Para o Exchange Online, você pode criar uma DEP que criptografa uma ou mais caixas de correio de usuário com a Chave do Cliente. Quando você cria uma política no nível do locatário, essa política não criptografa as caixas de correio criptografadas. No entanto, a chave no nível do locatário criptografa as caixas de correio que ainda não são afetadas por uma DEP.
 
@@ -63,15 +63,15 @@ Antes de começar, certifique-se do seguinte:
 
 ### <a name="create-two-new-azure-subscriptions"></a>Criar duas novas assinaturas do Azure
 
-A Chave do Cliente exige duas chaves para cada DEP (política de criptografia de dados). Para conseguir isso, você deve criar duas assinaturas do Azure. Como prática recomendável, a Microsoft recomenda que você tenha membros separados da sua organização para configurar uma chave em cada assinatura. Use essas assinaturas do Azure somente para administrar chaves de criptografia do Microsoft 365. Isso protege sua organização caso um de seus operadores exclua acidentalmente, intencionalmente ou mal-intencionado ou, de outra forma, incorretamente as chaves pelas quais são responsáveis.
+A Chave do Cliente exige duas chaves para cada DEP (política de criptografia de dados). Para conseguir isso, você deve criar duas assinaturas do Azure. Como prática recomendável, a Microsoft recomenda que você tenha membros separados da sua organização para configurar uma chave em cada assinatura. Use essas assinaturas do Azure somente para administrar chaves de criptografia do Microsoft 365. Isso protege sua organização caso um de seus operadores exclua acidentalmente, intencionalmente ou mal-intencionado ou, de alguma forma, incorretamente as chaves pelas quais são responsáveis.
 
-Não há um limite prático para o número de assinaturas do Azure que você pode criar para sua organização. Seguir essa prática prática ajuda a minimizar o impacto de erros humanos enquanto ajuda a gerenciar os recursos usados pela Chave do Cliente.
+Não há um limite prático para o número de assinaturas do Azure que você pode criar para sua organização. Seguir essa prática prática ajuda a minimizar o impacto do erro humano enquanto ajuda a gerenciar os recursos usados pela Chave do Cliente.
 
 ### <a name="register-azure-subscriptions-to-use-a-mandatory-retention-period"></a>Registrar assinaturas do Azure para usar um período de retenção obrigatório
 
 A perda temporária ou permanente de chaves de criptografia raiz pode ser prejudicial ou até mesmo catastrófica para a operação de serviço e pode resultar em perda de dados. Por esse motivo, os recursos usados com a Chave do Cliente exigem proteção forte. Todos os recursos do Azure usados com a Chave do Cliente oferecem mecanismos de proteção além da configuração padrão. As assinaturas do Azure podem ser marcadas ou registradas de forma a impedir o cancelamento imediato e irrevogável. Isso é conhecido como registro para um período de retenção obrigatório. As etapas necessárias para registrar assinaturas do Azure para um período de retenção obrigatório exigem colaboração com a Microsoft. Esse processo pode levar até cinco dias úteis. Anteriormente, isso era conhecido como "Não Cancelar".
   
-Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as seguintes etapas para cada assinatura do Azure usada com a Chave do Cliente. Verifique se você tem o [módulo do Azure PowerShell Az](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) instalado antes de começar.
+Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as seguintes etapas para cada assinatura do Azure usada com a Chave do Cliente. Verifique se você tem o [módulo do Azure PowerShell Az](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) instalado antes de iniciar.
 
 1. Entre com o Azure PowerShell. Para obter instruções, [confira Entrar com o Azure PowerShell.](https://docs.microsoft.com/powershell/azure/authenticate-azureps)
 
@@ -211,7 +211,7 @@ Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-V
 
 ### <a name="check-the-recovery-level-of-your-keys"></a>Verificar o nível de recuperação de suas chaves
 
-O Microsoft 365 requer que a assinatura do Azure Key Vault seja definida como Não Cancelar e que as chaves usadas pela Chave do Cliente tenham a exclusão suave habilitada. Você pode confirmar isso analisando o nível de recuperação em suas chaves.
+O Microsoft 365 requer que a assinatura do Azure Key Vault seja definida como Não Cancelar e que as chaves usadas pela Chave do Cliente tenham a exclusão soft habilitada. Você pode confirmar isso analisando o nível de recuperação em suas chaves.
   
 Para verificar o nível de recuperação de uma chave, no Azure PowerShell, execute o cmdlet Get-AzKeyVaultKey seguinte:
   
@@ -302,7 +302,7 @@ Para executar esses cmdlets, você precisa ter permissões. Embora este artigo l
    New-M365DataAtRestEncryptionPolicy [-Name] <String> -AzureKeyIDs <MultiValuedProperty> [-Description <String>] [-Enabled <Boolean>]
 ```
 
-Descrição: Habilita o administrador de conformidade a criar uma nova política de criptografia de dados (DEP) usando duas chaves raiz AKV. Depois de criada, uma política pode ser atribuída usando Set-M365DataAtRestEncryptionPolicy cmdlet. Após a primeira atribuição de teclas ou depois de girar as teclas, pode levar até 24 horas para que as novas teclas entre em vigor. Se a nova DEP levar mais de 24 horas para entrar em vigor, entre em contato com a Microsoft.
+Descrição: permitir que o administrador de conformidade crie uma nova política de criptografia de dados (DEP) usando duas chaves raiz AKV. Depois de criada, uma política pode ser atribuída usando Set-M365DataAtRestEncryptionPolicy cmdlet. Após a primeira atribuição de teclas ou depois de girar as teclas, pode levar até 24 horas para que as novas teclas entre em vigor. Se a nova DEP levar mais de 24 horas para entrar em vigor, entre em contato com a Microsoft.
 
 Exemplo:
 
@@ -313,7 +313,7 @@ New-M365DataAtRestEncryptionPolicy -Name "Default_Policy" -AzureKeyIDs "https://
 Parâmetros:
 
 | Nome | Descrição | Opcional (S/N) |
-|--|--|--|
+|----------|----------|---------|
 |Nome|Nome amigável da política de criptografia de dados|N|
 |AzureKeyIDs|Especifica dois valores de URI das chaves do Azure Key Vault, separadas por vírgula, para associar à política de criptografia de dados|N|
 |Descrição|Descrição da política de criptografia de dados|N|
@@ -334,7 +334,7 @@ Set-M365DataAtRestEncryptionPolicyAssignment -Policy “Tenant default policy”
 
 Parâmetros:
 | Nome | Descrição | Opcional (S/N) |
-|--|--|--|
+|----------|----------|---------|
 -Policy|Especifica a política de criptografia de dados que precisa ser atribuída; especifique o Nome da Política ou a ID da Política.|N|
 
 ### <a name="modify-or-refresh-policy"></a>Modificar ou atualizar política
@@ -361,7 +361,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity “EUR Policy” -Refresh
 
 Parâmetros:
 | Nome | Descrição | Opcional (S/N) |
-|--|--|--|
+|----------|----------|---------|
 |-Identity|Especifica a política de criptografia de dados que você deseja modificar.|N|
 |-Refresh|Use a opção Atualizar para atualizar a política de criptografia de dados depois de girar qualquer uma das chaves associadas no Azure Key Vault. Não é preciso especificar um valor com essa opção.|S|
 |-Habilitado|O parâmetro Enabled habilita ou desabilita a política de criptografia de dados. Antes de desabilitar uma política, você deve reaigná-la do seu locatário. Os valores válidos são:</br > $true: a política está habilitada</br > $true: a política está habilitada. Esse é o valor padrão.
@@ -394,7 +394,7 @@ Get-M365DataAtRestEncryptionPolicy -Identity "NAM Policy"
 Parâmetros:
 
 | Nome | Descrição | Opcional (S/N) |
-|--|--|--|
+|----------|----------|---------|
 |-Identity|Especifica a política de criptografia de dados que você deseja listar os detalhes.|S|
 
 ### <a name="get-policy-assignment-info"></a>Obter informações de atribuição de política
@@ -407,9 +407,9 @@ Descrição: este cmdlet lista a política que está atribuída no momento ao lo
 
 ## <a name="offboarding-from-customer-key"></a>Offboarding from Customer Key
 
-Se você precisar reverter para as chaves gerenciadas pela Microsoft, poderá. Quando você desaloque, seus dados são criptografados de forma recriptada usando a criptografia padrão suportada por cada carga de trabalho individual. Por exemplo, o Exchange Online dá suporte à criptografia padrão usando chaves gerenciadas pela Microsoft.
+Se você precisar reverter para as chaves gerenciadas pela Microsoft, poderá. Quando você se desalografa, seus dados são criptografados de forma recriptada usando a criptografia padrão suportada por cada carga de trabalho individual. Por exemplo, o Exchange Online dá suporte à criptografia padrão usando chaves gerenciadas pela Microsoft.
 
-Se você decidiu excluir seu locatário da Chave do Cliente no nível do locatário, entre em contato com a Microsoft com uma solicitação por email para "desabilitar" o serviço para o locatário [em m365ck@microsoft.com](mailto:m365ck@microsoft.com).
+Se você decidiu excluir o locatário da Chave do Cliente no nível do locatário, entre em contato com a Microsoft com uma solicitação por email para "desabilitar" o serviço para o locatário [em m365ck@microsoft.com.](mailto:m365ck@microsoft.com)
 
 > [!IMPORTANT]
 > A reação não é igual à limpeza de dados. Uma limpeza de dados exclui permanentemente os dados da sua organização do Microsoft 365, a exclusão não faz. Não é possível executar uma limpeza de dados para uma política no nível do locatário. Para obter informações sobre o caminho de limpeza de dados, [consulte Revogar suas chaves e iniciar o processo de limpeza de dados.](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process)

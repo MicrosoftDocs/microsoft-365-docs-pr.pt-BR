@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar uma política de prevenção contra perda de dados (DLP) para proteger documentos que têm propriedades de um sistema de terceiros.
-ms.openlocfilehash: a3dd82dae76336dc3d1293430e10ba505585e707
-ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+ms.openlocfilehash: cf026e447ad1f0da3486a36dd5e36c52c09998cb
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49562972"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288224"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
 
@@ -42,13 +42,16 @@ No Microsoft 365, você pode criar uma política de DLP que identifica  document
 
 Uma política de DLP simplesmente procura por um par de nome/valor de propriedade específico. Qualquer propriedade de documento pode ser usada, contanto que a propriedade tenha uma propriedade gerenciada correspondente para a pesquisa do SharePoint. Por exemplo, um conjunto de sites do SharePoint pode usar um tipo de conteúdo chamado **Relatório de viagem** com um campo obrigatório chamado **Cliente**. Sempre que uma pessoa criar um relatório de viagem, ela deve digitar o nome do cliente. Esse par nome/valor de propriedade também pode ser usado em uma política de DLP — por  exemplo, se você quiser uma regra que bloqueia o acesso ao documento para convidados quando o campo Cliente contiver **Contoso**.
 
-Se você quiser aplicar sua política de DLP ao conteúdo com rótulos específicos do Microsoft 365, não siga as etapas aqui. Em vez disso, saiba como [usar um rótulo de retenção como uma condição em uma política DLP.](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)
+Se você quiser aplicar sua política de DLP ao conteúdo com rótulos específicos do Microsoft 365, não siga as etapas aqui. Em vez disso, saiba como [usar um rótulo de retenção como uma condição em uma política de DLP.](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)
 
 ## <a name="before-you-create-the-dlp-policy"></a>Antes de criar a política de DLP
 
 Antes de usar uma propriedade de FCI do Windows Server ou outra propriedade em uma política de DLP, você precisa criar uma propriedade gerenciada no centro de administração do SharePoint. Veja por quê.
 
 Exemplos
+
+> [!NOTE]
+> Certifique-se de usar um nome de propriedade gerenciada e não um nome de propriedade rastreada ao criar regras de DLP usando a `ContentPropertyContainsWords` condição.
 
 Isso é importante porque a DLP usa o rastreador de pesquisa para identificar e classificar informações confidenciais em seus sites e, em seguida, armazenar essas informações confidenciais em uma parte segura do índice de pesquisa. Quando você carregar um documento no Office 365, o SharePoint cria automaticamente propriedades rastreadas com base nas propriedades do documento. Mas, para usar uma FCI ou outra propriedade em uma política de DLP, essa propriedade rastreada precisa ser mapeada para uma propriedade gerenciada para que o conteúdo com essa propriedade seja mantido no índice.
 
