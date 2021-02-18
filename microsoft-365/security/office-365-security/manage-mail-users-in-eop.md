@@ -10,23 +10,23 @@ audience: ITPro
 ms.topic: how-to
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
-description: Saiba como gerenciar usuários de email no Exchange Online Protection (EOP), incluindo o uso da sincronização de diretórios, do EAC e do PowerShell para gerenciar usuários.
+description: Saiba mais sobre como gerenciar usuários de email no Exchange Online Protection (EOP), incluindo o uso da sincronização de diretórios, do EAC e do PowerShell para gerenciar usuários.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 34edafea7567da04094ea386d469d3d27937eee5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 6a0dc1c0c343be77c6d6f713ee6b68a08a4fe5be
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166388"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289908"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>Gerenciar usuários de email no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 Em organizações autônomas do Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, os usuários de email são o tipo fundamental de conta de usuário. Um usuário de email tem credenciais de conta em sua organização autônoma do EOP e pode acessar recursos (ter permissões atribuídas). O endereço de email de um usuário de email é externo (por exemplo, em seu ambiente de email local).
 
@@ -50,7 +50,7 @@ Para organizações autônomas do EOP com um pequeno número de usuários, você
 - Para obter informações sobre atalhos de teclado que podem se aplicar aos procedimentos neste artigo, consulte [Atalhos](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)de teclado para o Centro de administração do Exchange no Exchange Online .
 
 > [!TIP]
-> Está com problemas? Peça ajuda nos fóruns do Exchange. Visite o fórum [do Exchange Online Protection.](https://go.microsoft.com/fwlink/p/?linkId=285351)
+> Está com problemas? Peça ajuda nos fóruns do Exchange. Visite o fórum [do Exchange Online Protection.](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE)
 
 ## <a name="use-the-exchange-admin-center-to-manage-mail-users"></a>Usar o Centro de administração do Exchange para gerenciar usuários de email
 
@@ -155,7 +155,7 @@ Get-Recipient -Identity <MailUserIdentity> | Format-List
 Get-User -Identity <MailUserIdentity> | Format-List
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, [consulte Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/get-recipient) e [Get-User.](https://docs.microsoft.com/powershell/module/exchange/get-user)
+Para informações detalhadas de sintaxes e de parâmetros, [consulte Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/get-recipient) e [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user).
 
 ### <a name="use-standalone-eop-powershell-to-create-mail-users"></a>Usar o EOP PowerShell autônomo para criar usuários de email
 
@@ -265,9 +265,9 @@ No EOP autônomo, a sincronização de diretórios está disponível para client
 
   - Bloqueio de Borda Baseado em Diretório **(DBEB)**: Para obter mais informações sobre DBEB, consulte Usar Bloqueio de Borda Baseado em Diretório para rejeitar mensagens enviadas [a destinatários inválidos.](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)
 
-  - **Acesso do usuário final à quarentena:** para acessar suas mensagens em quarentena, os destinatários devem ter uma ID de usuário e senha válidas no serviço. Para obter mais informações sobre a quarentena, consulte Encontrar e [liberar mensagens em quarentena como um usuário.](find-and-release-quarantined-messages-as-a-user.md)
+  - **Acesso do usuário final à quarentena:** para acessar suas mensagens em quarentena, os destinatários devem ter uma ID de usuário e senha válidas no serviço. Para obter mais informações sobre a quarentena, [consulte Encontrar e liberar mensagens em quarentena como um usuário.](find-and-release-quarantined-messages-as-a-user.md)
 
-  - Regras de fluxo de emails (também conhecidas como regras de **transporte)**: quando você usa a sincronização de diretórios, seus usuários e grupos existentes do Active Directory são carregados automaticamente para a nuvem e, em seguida, você pode criar regras de fluxo de email que visam usuários e/ou grupos específicos sem precisar adicioná-los manualmente no serviço. Observe que os [grupos dinâmicos de distribuição](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) não podem ser sincronizados através da sincronização de diretório.
+  - Regras de fluxo de emails (também conhecidas como regras de **transporte)**: quando você usa a sincronização de diretórios, seus usuários e grupos existentes do Active Directory são carregados automaticamente para a nuvem e você pode criar regras de fluxo de email que segmentam usuários e/ou grupos específicos sem precisar adicioná-los manualmente no serviço. Observe que os [grupos dinâmicos de distribuição](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) não podem ser sincronizados através da sincronização de diretório.
 
 Obter as permissões necessárias e preparar a sincronização de diretórios, conforme descrito em O que é a identidade híbrida [com o Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity).
 
@@ -275,7 +275,7 @@ Obter as permissões necessárias e preparar a sincronização de diretórios, c
 
 1. Ative a sincronização de diretórios conforme descrito na sincronização do [Azure AD Connect: entender e personalizar a sincronização.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
-2. Instale e configure um computador local para executar o AAD Connect conforme descrito em Pré-requisitos do [Azure AD Connect.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)
+2. Instale e configure um computador local para executar o AAD Connect, conforme descrito em Pré-requisitos do [Azure AD Connect.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)
 
 3. [Selecione o tipo de instalação a ser usado para o Azure AD Connect:](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-select-installation)
 

@@ -17,21 +17,21 @@ ms.custom:
 description: Os administradores podem saber mais sobre as opções disponíveis e preferenciais para permitir mensagens de entrada no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 92229f0324eb9c05b233e5c4b0bc9f1bd7ab2e39
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ddcd6240cfc80350920999f9fc1e8ea188834553
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165554"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289706"
 ---
 # <a name="create-safe-sender-lists-in-eop"></a>Criar listas de remetentes seguros no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Se você for um cliente do Microsoft 365 com caixas de correio no Exchange Online ou um cliente autônomo do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece várias maneiras de garantir que os usuários receberão emails de destinatários confiáveis. Essas opções incluem regras de fluxo de emails do Exchange (também conhecidas como regras de transporte), Remetentes Seguros do Outlook, Lista de IIs Permitidos (filtragem de conexão) e listas de remetentes permitidos ou listas de domínios permitidos em políticas anti-spam. Coletivamente, você pode pensar nessas opções como listas _de remetentes seguros._
 
@@ -60,7 +60,7 @@ Por outro lado, você também tem várias opções para bloquear emails de fonte
 
 As regras de fluxo de emails no Exchange Online e no EOP autônomo usam condições e exceções para identificar mensagens e ações para especificar o que deve ser feito para essas mensagens. Para saber mais, confira [Regras de fluxo de emails (regras de transporte) no Exchange Online.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-O exemplo a seguir presume que você precisa de email contoso.com ignorar a filtragem de spam. Para fazer isso, de configure as seguintes configurações:
+O exemplo a seguir assume que você precisa de email contoso.com ignorar a filtragem de spam. Para fazer isso, de configure as seguintes configurações:
 
 1. **Condição:** **o domínio do** remetente \> **é** \> contoso.com.
 
@@ -70,9 +70,9 @@ O exemplo a seguir presume que você precisa de email contoso.com ignorar a filt
 
      Esta condição verifica o status de autenticação de email do domínio de email de envio para garantir que o domínio de envio não está sendo falsos. Para obter mais informações sobre autenticação de email, [consulte SPF,](set-up-spf-in-office-365-to-help-prevent-spoofing.md) [DKIM](use-dkim-to-validate-outbound-email.md)e [DMARC.](use-dmarc-to-validate-email.md)
 
-   - **Lista de Ip Allow:** especifique o endereço IP de origem ou o intervalo de endereços na política de filtro de conexão.
+   - **Lista de I Ip Allow:** especifique o endereço IP de origem ou o intervalo de endereços na política de filtro de conexão.
 
-     Use essa configuração se o domínio de envio não usar autenticação de email. Seja o mais restritivo possível quando se trata dos endereços IP de origem na Lista de I Ip Permitir. Recomendamos um intervalo de endereços IP de /24 ou menos (menos é melhor). Não use intervalos de endereços IP que pertencem a serviços de consumidor (por exemplo, outlook.com) ou infraestruturas compartilhadas.
+     Use essa configuração se o domínio de envio não usar autenticação de email. Seja o mais restritivo possível quando se trata dos endereços IP de origem na Lista de IIs. Recomendamos um intervalo de endereços IP de /24 ou menos (menos é melhor). Não use intervalos de endereços IP que pertencem a serviços de consumidor (por exemplo, outlook.com) ou infraestruturas compartilhadas.
 
    > [!IMPORTANT]
    >
@@ -80,17 +80,17 @@ O exemplo a seguir presume que você precisa de email contoso.com ignorar a filt
    >
    > - Não use domínios que você possui (também conhecidos como domínios aceitos) ou domínios populares (por exemplo, microsoft.com) como condições em regras de fluxo de emails. Isso é considerado alto risco porque cria oportunidades para os invasores enviarem emails que, de outra forma, seriam filtrados.
    >
-   > - Se você permitir um endereço IP que está atrás de um gateway NAT (conversão de endereços de rede), precisará conhecer os servidores envolvidos no pool NAT para saber o escopo da lista de IIs. Endereços IP e participantes NAT podem mudar. Você precisa verificar periodicamente suas entradas da Lista de IIs De IIs como parte dos seus procedimentos de manutenção padrão.
+   > - Se você permitir um endereço IP que está atrás de um gateway NAT (conversão de endereços de rede), precisará conhecer os servidores envolvidos no pool NAT para saber o escopo da lista de IIs. Endereços IP e participantes NAT podem mudar. Você precisa verificar periodicamente suas entradas da Lista de IIs Permitirem como parte dos seus procedimentos de manutenção padrão.
 
 3. **Condições opcionais:**
 
    - **O remetente** \> **é interno/externo** \> **Fora da organização:** essa condição é implícita, mas não há problema em usá-la para levar em conta servidores de email locais que podem não estar configurados corretamente.
 
-   - **O assunto ou corpo** \> **assunto ou corpo inclui qualquer uma destas palavras** \> : Se você puder restringir ainda mais as mensagens por palavras-chave ou frases na linha de assunto ou no corpo da mensagem, poderá usar essas palavras \<keywords\> como uma condição.
+   - **O assunto ou corpo** \> **assunto ou corpo inclui qualquer uma destas palavras** \> : Se você puder restringir ainda mais as mensagens por palavras-chave ou frases na linha de assunto ou no corpo da mensagem, poderá usar \<keywords\> essas palavras como uma condição.
 
 4. **Ação:** configure essas duas ações na regra:
 
-   a. **Modificar as propriedades da mensagem** \> **definir o nível de confiança de spam (SCL)** \> **Ignorar filtragem de spam.**
+   a. **Modificar as propriedades da mensagem** \> **definir o nível de confiança de spam (SCL)** \> **Ignorar a filtragem de spam.**
 
    b. **Modificar as propriedades da mensagem** \> **set a message header**: **Set the message header** \<CustomHeaderName\> **to the value** \<CustomHeaderValue\> .
 
@@ -111,7 +111,7 @@ Quando as mensagens ignoram a filtragem de spam devido à lista de Remetentes Se
 
 ## <a name="use-the-ip-allow-list"></a>Usar a Lista de I Ip Permitir
 
-Se você não puder usar regras de fluxo de emails conforme descrito anteriormente, a próxima melhor opção é adicionar o servidor de email de origem ou servidores à Lista de IIs De autorização de IP na política de filtro de conexão. Para obter detalhes, [consulte Configurar filtragem de conexão no EOP](configure-the-connection-filter-policy.md).
+Se você não puder usar regras de fluxo de emails conforme descrito anteriormente, a próxima melhor opção é adicionar o servidor de email de origem ou servidores à Lista de IIs De origem na política de filtro de conexão. Para obter detalhes, [consulte Configurar filtragem de conexão no EOP](configure-the-connection-filter-policy.md).
 
 **Observações**:
 
@@ -119,7 +119,7 @@ Se você não puder usar regras de fluxo de emails conforme descrito anteriormen
 
 - Não use intervalos de endereços IP que pertencem a serviços de consumidor (por exemplo, outlook.com) ou infraestruturas compartilhadas.
 
-- Revise regularmente as entradas na Lista de I Ip Permitir e remova as entradas de que você não precisa mais.
+- Revise regularmente as entradas na Lista de I Ip Allow e remova as entradas de que você não precisa mais.
 
 > [!CAUTION]
 > Sem verificação adicional, como regras de fluxo de emails, os emails de fontes na Lista de IPs Permitires ignoram as verificações de filtragem de spam e de autenticação de remetente (SPF, DKIM, DMARC). Isso cria um alto risco de invasores entregarem com êxito emails para a Caixa de Entrada que, de outra forma, seriam filtrados; No entanto, a Lista de I Ip Allow não impede que mensagens de phishing de malware ou alta confiança seja filtrada.

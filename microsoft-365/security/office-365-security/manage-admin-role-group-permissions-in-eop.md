@@ -13,19 +13,19 @@ ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Os administradores podem aprender a atribuir ou remover permissões no Centro de administração do Exchange (EAC) no Exchange Online Protection.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b53023521f477b5e864424ec648ccf7e5b749d0c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: ce272985f195f44c57848e6861cefb64431698b9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166982"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289920"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>Gerenciar grupos de funções no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 Em organizações autônomas do Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode usar o Centro de administração do Exchange (EAC) para adicionar usuários a grupos de funções. A adição de usuários a um grupo de funções concede ao usuário permissões para realizar tarefas administrativas específicas. Você também pode remover usuários de grupos de função.
 
@@ -37,14 +37,14 @@ Para obter mais informações sobre funções e grupos de funções, consulte [P
 
 - Para abrir o PowerShell do EOP autônomo, consulte [Conectar-se ao PowerShell da Proteção do Exchange Online.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell)
 
-- Para fazer os procedimentos deste artigo, você precisa ter permissões no Exchange Online Protection. Especificamente, você precisa da **função Gerenciamento de** Função, que é atribuída ao grupo **de** função Gerenciamento da Organização por padrão. Para obter mais informações, [consulte Permissões no EOP](feature-permissions-in-eop.md) autônomo e use o EAC modificar a lista de [membros em grupos de função.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
+- Para fazer os procedimentos deste artigo, você precisa ter permissões no Exchange Online Protection. Especificamente, você precisa da **função Gerenciamento de** Função, que é atribuída ao grupo de função **Gerenciamento** da Organização por padrão. Para obter mais informações, [consulte Permissões no EOP](feature-permissions-in-eop.md) autônomo e use o EAC modificar a lista de [membros em grupos de função.](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups)
 
 - Para obter informações sobre atalhos de teclado que podem se aplicar aos procedimentos neste artigo, consulte [Atalhos](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)de teclado para o Centro de administração do Exchange no Exchange Online .
 
 > [!TIP]
-> Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=285351).
+> Está com problemas? Peça ajuda no fórum [Proteção do Exchange Online](https://social.technet.microsoft.com/Forums/forefront/home?forum=FOPE).
 
-## <a name="use-the-eac-to-manage-role-groups"></a>Usar o EAC para gerenciar grupos de funções
+## <a name="use-the-eac-to-manage-role-groups"></a>Usar o EAC para gerenciar grupos de função
 
 ### <a name="use-the-eac-to-view-role-groups"></a>Usar o EAC para exibir grupos de função
 
@@ -54,7 +54,7 @@ Para obter mais informações sobre funções e grupos de funções, consulte [P
 
 ### <a name="use-the-eac-to-create-role-groups"></a>Usar o EAC para criar grupos de função
 
-Ao criar um novo grupo de funções, você pode definir todas as configurações por conta própria (durante a criação do grupo ou depois). Ou você pode copiar um grupo de função existente e modificá-lo.
+Ao criar um novo grupo de função, você pode definir todas as configurações por conta própria (durante a criação do grupo ou depois). Ou você pode copiar um grupo de função existente e modificá-lo.
 
 1. No EAC, vá para funções **de** Administrador de Permissões e, em \> seguida, faça uma das seguintes etapas:
 
@@ -72,7 +72,7 @@ Ao criar um novo grupo de funções, você pode definir todas as configurações
 
     - **Membros:** clique no **ícone Adicionar** adicionar ![ ou ](../../media/ITPro-EAC-AddIcon.png) **remover** ícone para modificar a associação do grupo ![ de ](../../media/ITPro-EAC-RemoveIcon.gif) função.
 
-3. Quando terminar, clique em **Salvar para** criar o grupo de funções.
+3. Quando terminar, clique em **Salvar para** criar o grupo de função.
 
 ### <a name="use-the-eac-to-modify-role-groups"></a>Usar o EAC para modificar grupos de função
 
@@ -92,9 +92,9 @@ As mesmas opções estão disponíveis quando você modifica grupos de função 
 
 1. No EAC, vá  para funções de Administrador de Permissões, selecione o grupo de funções que você deseja modificar e clique em \>  **Editar** ![ ](../../media/ITPro-EAC-EditIcon.png) ícone.
 
-2. Na página de propriedades do grupo de funções que é aberta, na seção **Membros,** faça uma das seguintes etapas:
+2. Na página de propriedades do grupo de função que é aberta, na seção **Membros,** faça uma das seguintes etapas:
 
-   - Clique **em Adicionar** Ícone ![ ](../../media/ITPro-EAC-AddIcon.png) Adicionar. Na página exibida, encontre o usuário que deseja adicionar e clique em **add ->**. Selecione usuários e clique **em adicionar ->** quantas vezes for necessário. Quando terminar, clique em **OK.**
+   - Clique **em Adicionar** Ícone ![ ](../../media/ITPro-EAC-AddIcon.png) Adicionar. Na página exibida, encontre o usuário que deseja adicionar e clique em **add ->.** Selecione usuários e clique **em adicionar ->** quantas vezes for necessário. Quando terminar, clique em **OK.**
 
    - Selecione os usuários que você deseja  remover e clique no ícone ![ ](../../media/ITPro-EAC-RemoveIcon.gif) Remover.
 
@@ -109,7 +109,7 @@ Não é possível remover grupos de função integrados, mas você pode remover 
 
 1. No EAC, vá para funções **de Administrador** \> **de Permissões.**
 
-2. Selecione o grupo de funções que você deseja remover e clique em **Excluir** ![ ](../../media/ITPro-EAC-DeleteIcon.png) ícone.
+2. Selecione o grupo de funções que você deseja remover e clique no ícone **Excluir** ![ ](../../media/ITPro-EAC-DeleteIcon.png) Exclusão.
 
 3. Clique **em Sim** na janela de confirmação exibida.
 
@@ -147,7 +147,7 @@ Para informações detalhadas de sintaxes e de parâmetros, [consulte Get-RoleGr
 
 Ao criar um novo grupo de função, você pode definir todas as configurações manualmente (durante a criação do grupo ou depois). Ou você pode copiar um grupo de função existente e modificá-lo.
 
-- Para criar manualmente um novo grupo de funções, use a seguinte sintaxe:
+- Para criar manualmente um novo grupo de função, use a seguinte sintaxe:
 
   ```PowerShell
   New-RoleGroup -Name "Unique Name" -Description "Descriptive text" -Roles <"Role1","Role2"...>
@@ -194,7 +194,7 @@ Para informações detalhadas de sintaxes e de parâmetros, [New-RoleGroup](http
 
 ### <a name="use-standalone-eop-powershell-modify-the-list-of-members-in-role-groups"></a>Usar o EOP PowerShell autônomo para modificar a lista de membros em grupos de função
 
-- Os cmdlets **Add-RoleGroupMember** e **Remove-RoleGroupMember** adicionam ou removem membros individuais, um de cada vez. O cmdlet **Update-RoleGroupMember** pode substituir ou modificar a lista de membros existente.
+- Os cmdlets **Add-RoleGroupMember** e **Remove-RoleGroupMember** adicionam ou removem membros individuais um de cada vez. O cmdlet **Update-RoleGroupMember** pode substituir ou modificar a lista de membros existente.
 
 - Os membros de um grupo de função podem ser usuários, grupos de segurança universal habilitados para email (USGs) ou outros grupos de função (entidades de segurança).
 
@@ -246,7 +246,7 @@ Para verificar se você copiou com êxito um grupo de funções, faça uma das s
 
 - No EAC, vá para funções **de** Administrador de Permissões e verifique se \> o grupo de funções está listado (ou não listado). Selecione o grupo de funções e verifique as configurações no painel Detalhes ou clique no ícone Editar  ![ para verificar as ](../../media/ITPro-EAC-EditIcon.png) configurações.
 
-- No PowerShell do Exchange Online, substitua pelo nome do grupo de funções e execute o seguinte comando para verificar se o grupo de funções existe (ou não existe) e verificar as \<Role Group Name\> configurações:
+- No PowerShell do Exchange Online, substitua pelo nome do grupo de função e execute o seguinte comando para verificar se o grupo de funções existe (ou não existe) e verificar as \<Role Group Name\> configurações:
 
     ```PowerShell
     Get-RoleGroup -Identity "<Role Group Name>" | Format-List

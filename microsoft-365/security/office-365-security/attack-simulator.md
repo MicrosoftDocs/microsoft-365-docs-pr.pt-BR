@@ -20,18 +20,18 @@ ms.custom:
 description: Os administradores podem aprender a usar o Simulador de Ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou Microsoft Defender for Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9d3d55c17e5d77ee18bd822899fea2f64136e1a3
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 1e877900698d033cb99154b31e32fa04ff7d1010
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233595"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289576"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
-**Aplica-se ao** [Microsoft Defender para Office 365 plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
+**Aplica-se ao** [Microsoft Defender para Office 365 plano 2](office-365-atp.md)
 
 Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataques no Centro de Conformidade e Segurança & para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real a impacte seu resultado final. Leia este artigo para saber mais.
 
@@ -41,13 +41,13 @@ Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inc
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no **Simulador de** \> **ataques de gerenciamento de ameaças.** Vá diretamente para o simulador de ataques, <https://protection.office.com/attacksimulator> abra.
+- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no Simulador **de ataques de gerenciamento** de \> **ameaças.** Vá diretamente para o simulador de ataques, <https://protection.office.com/attacksimulator> abra.
 
 - Para saber mais sobre a disponibilidade do Simulador de Ataque em diferentes assinaturas do Microsoft 365, confira a descrição do serviço do [Microsoft Defender para Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
 - Você precisa ser membro dos grupos de função Gerenciamento da Organização **ou** **Administrador de** Segurança. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Sua conta precisa ser configurada para autenticação multifatória (MFA) para criar e gerenciar campanhas no Simulador de Ataques. Para obter instruções, [consulte Configurar a autenticação multifa factor.](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)
+- Sua conta precisa ser configurada para autenticação multifatória (MFA) para criar e gerenciar campanhas no Simulador de Ataques. Para obter instruções, [consulte Configurar a autenticação multifa factor.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)
 
 - As campanhas de phishing coletarão e processarão eventos por 30 dias. Os dados históricos da campanha estarão disponíveis por até 90 dias após o lançamento da campanha.
 
@@ -57,7 +57,7 @@ Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inc
 
 ## <a name="spear-phishing-campaigns"></a>Campanhas de phishing em banda
 
-*Phishing* é um termo genérico para ataques de email que tentam roubar informações confidenciais em mensagens que parecem ser de envios legítimos ou confiáveis. *O phishing* em busca de phishing é um ataque de phishing direcionado que usa conteúdo focado e personalizado especificamente adaptado aos destinatários-alvo (normalmente, após a ida e volta aos destinatários pelo invasor).
+*Phishing* é um termo genérico para ataques de email que tentam roubar informações confidenciais em mensagens que parecem ser de senders legítimos ou confiáveis. *O phishing* em busca de phishing é um ataque de phishing direcionado que usa conteúdo focado e personalizado especificamente adaptado aos destinatários-alvo (normalmente, após a ida e volta aos destinatários pelo invasor).
 
 No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de phishing estão disponíveis:
 
@@ -76,7 +76,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de phish
 
 ### <a name="create-a-spear-phishing-campaign"></a>Criar uma campanha de phishing em forma de phishing
 
-Uma parte importante de qualquer campanha de phishing é a aparência da mensagem de email que é enviada aos destinatários de alvo. Para criar e configurar a mensagem de email, você tem estas opções:
+Uma parte importante de qualquer campanha de phishing de phishing é a aparência da mensagem de email que é enviada aos destinatários de alvo. Para criar e configurar a mensagem de email, você tem estas opções:
 
 - **Use um modelo de email integrado:** dois modelos integrados estão disponíveis: **Giveaway e Payroll** **Update.** Você pode personalizar ainda mais algumas, todas ou nenhuma das propriedades de email do modelo ao criar e iniciar a campanha.
 
@@ -240,7 +240,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
   Para o ataque de dicionário, você pode especificar uma ou várias senhas para tentar (inseridas manualmente ou em um arquivo carregado) e você pode especificar um ou vários usuários.
 
-- **Ataque de pulverização de** senha: um ataque de *pulverização* de senha usa a mesma senha cuidadosamente considerada em uma lista de contas de usuário (uma senha em várias contas). Os ataques de pulverização de senha são mais difíceis de detectar do que ataques de senha de força bruta (a probabilidade de sucesso aumenta quando um invasor tenta uma senha em dezenas ou centenas de contas sem o risco de bloquear a senha incorreta do usuário).
+- **Ataque de pulverização de** senha: um ataque de *pulverização* de senha usa a mesma senha cuidadosamente considerada em uma lista de contas de usuário (uma senha em várias contas). Ataques de pulverização de senha são mais difíceis de detectar do que ataques de senha de força bruta (a probabilidade de sucesso aumenta quando um invasor tenta uma senha em dezenas ou centenas de contas sem o risco de bloquear a senha incorreta do usuário).
 
   Para o ataque de pulverização de senha, você só pode especificar uma senha para tentar e você pode especificar um ou vários usuários.
 
@@ -257,7 +257,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
    - na seção **Ataque de pulverização de** senha, clique em Iniciar **Ataque** ou em Ataque **de Detalhes** \> **de Ataque.**
 
-3. O **Assistente para Configurar Ataque** de Senha é iniciado em um novo flyout. Na etapa **Iniciar,** insira um nome de exibição exclusivo para a campanha e clique em **Próximo.**
+3. O **assistente Configurar Ataque de** Senha é iniciado em um novo flyout. Na etapa **Iniciar,** insira um nome de exibição exclusivo para a campanha e clique em **Próximo.**
 
 4. Na etapa **Usuários de** destino, faça uma das seguintes etapas:
 
@@ -271,7 +271,7 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
    - **Senha de Força Bruta (Ataque de Dicionário)**: faça uma das seguintes etapas:
 
-     - **Insira senhas manualmente:** pressione **Enter para adicionar uma caixa** de senha, digite uma senha e pressione ENTER. Repita essa etapa quantas vezes forem necessárias.
+     - **Insira senhas manualmente:** pressione Enter **para adicionar uma caixa** de senha, digite uma senha e pressione ENTER. Repita essa etapa quantas vezes forem necessárias.
 
      - **Carregar senhas de um** arquivo  de dicionário: clique em Carregar para importar um arquivo de texto existente que contenha uma senha em cada linha e uma última linha em branco. O arquivo de texto deve ter 10 MB ou menos de tamanho e não pode conter mais de 30.000 senhas.
 

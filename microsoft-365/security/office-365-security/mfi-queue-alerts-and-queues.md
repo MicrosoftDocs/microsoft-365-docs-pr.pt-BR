@@ -9,24 +9,24 @@ audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
-description: Os administradores podem aprender a usar o & widget Filas no painel Fluxo de emails no Centro de Conformidade e Segurança para monitorar o fluxo de emails malsucedido para suas organizações locais ou parceiras em conectores de saída.
+description: Os administradores podem aprender a usar o & widget Filas no painel Fluxo de emails no Centro de Conformidade e Segurança para monitorar o fluxo de emails malsucedidos para suas organizações locais ou parceiras em conectores de saída.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 94e8a1f3b54c3738c21e94ba85ae4f1d3f953498
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: ca8ee5ea37fa5a63b8035572059e419c400d66f3
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150166"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289432"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Informações sobre filas no Centro de Conformidade & segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Quando as mensagens não puderem ser enviadas de sua organização para seus servidores de email locais ou parceiros usando conectores, as mensagens serão en filas no Microsoft 365. Exemplos comuns que causam essa condição são:
 
@@ -37,7 +37,7 @@ O Microsoft 365 continuará tentando fazer a entrega por 24 horas. Após 24 hora
 
 Se o volume de email na fila exceder o limite predefinido (o valor padrão é 200 mensagens), as informações estarão disponíveis nos seguintes locais:
 
-- O **insight de filas** no [painel de fluxo de](mail-flow-insights-v2.md) emails no Centro de conformidade & [segurança.](https://protection.office.com) Para obter mais informações, consulte o [insight filas na seção painel](#queues-insight-in-the-mail-flow-dashboard) de fluxo de email neste artigo.
+- O **insight filas** no painel [de fluxo de](mail-flow-insights-v2.md) emails no Centro de conformidade & [segurança.](https://protection.office.com) Para obter mais informações, consulte o [insight filas na seção painel](#queues-insight-in-the-mail-flow-dashboard) de fluxo de email neste artigo.
 
 - Um alerta é exibido em **Alertas** recentes do painel Alertas no Centro de Conformidade e Segurança [&](https://protection.office.com) ( Painel de **Alertas** \>  ou <https://protection.office.com/alertsdashboard> ).
 
@@ -57,7 +57,7 @@ Se o volume de email na fila exceder o limite predefinido (o valor padrão é 20
 
    ![As mensagens atrasaram detalhes da política de alerta no Centro de Conformidade e & Segurança](../../media/mfi-queued-messages-alert-policy.png)
 
-   - **Status:** você pode a adoção ou re alternância do alerta.
+   - **Status**: Você pode alternar ou desligar o alerta.
 
    - **Destinatários de email** e **limite de notificação diária:** clique **em Editar** para definir as seguintes configurações:
 
@@ -76,9 +76,9 @@ Se o volume de email na fila exceder o limite predefinido (o valor padrão é 20
 
 Mesmo que o volume de mensagens na fila não tenha excedido o limite e [](mail-flow-insights-v2.md) gerado um alerta, você ainda poderá usar o insight de **Filas** no painel fluxo de emails para ver as mensagens que foram enfileiradas por mais de uma hora e tomar medidas antes que o número de mensagens na fila se torne muito grande.
 
-![Widget Filas no painel fluxo de emails no Centro de Conformidade e Segurança &](../../media/mfi-queues-widget.png)
+![Widget Filas no painel Fluxo de emails no Centro de Conformidade e Segurança & Segurança](../../media/mfi-queues-widget.png)
 
-Se você clicar no número de mensagens no widget, um flyout Mensagens **em** fila aparecerá com as seguintes informações:
+Se você clicar no número de mensagens no widget, um flyout Mensagens **em fila** aparecerá com as seguintes informações:
 
 - **Número de mensagens na fila**
 - **Nome do** conector: clique no nome do conector para gerenciar o conector no Centro de administração do Exchange (EAC).
@@ -87,14 +87,14 @@ Se você clicar no número de mensagens no widget, um flyout Mensagens **em** fi
 - **Servidor de destino**
 - **Último endereço IP**
 - **Último erro**
-- **Como corrigir:** problemas comuns e soluções estão disponíveis. Se for um **link Corrigir agora** está disponível, clique nele para corrigir o problema. Caso contrário, clique em qualquer link disponível para obter mais informações sobre o erro e possíveis soluções.
+- **Como corrigir:** Problemas comuns e soluções estão disponíveis. Se for um **link Corrigir agora** está disponível, clique nele para corrigir o problema. Caso contrário, clique em qualquer link disponível para obter mais informações sobre o erro e possíveis soluções.
 
 ![Detalhes depois de clicar no insight Filas no painel Fluxo de emails](../../media/mfi-queues-details.png)
 
-O mesmo flyout é exibido depois que você clica **em** Exibir fila nos detalhes de um alerta de **atraso de** mensagens.
+O mesmo flyout é exibido depois que você **clica** em Exibir fila nos detalhes de um alerta de **atraso de** mensagens.
 
 ![Mensagens atrasaram detalhes de alerta no Centro de Conformidade e Segurança & segurança](../../media/mfi-queued-messages-alert-details.png)
 
 ## <a name="see-also"></a>Confira também
 
-Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações sobre o fluxo de emails no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)
+Para obter informações sobre outros insights no painel de fluxo de emails, consulte Informações de fluxo de email no Centro de [Conformidade e & Segurança.](mail-flow-insights-v2.md)

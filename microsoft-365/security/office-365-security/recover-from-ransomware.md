@@ -5,7 +5,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.article: how-to
+ms.topic: article
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,27 +15,27 @@ ms.collection:
 description: Os administradores do Microsoft 365 podem aprender a se recuperar de um ataque de ransomware.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b834adb3d9ba5f85984e09b4bb1e4b48673c32f2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 120dd9ae71f04d6921fae95965f56f0a08f1280c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166898"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289300"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Recuperar-se de um ataque de ransomware no Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Mesmo que você tome todas as precauções para proteger sua organização, ainda poderá ser vítima de um ataque [de ransomware.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) O ransomware é uma grande empresa e os ataques são muito sofisticados.
+Mesmo que você tome todas as precauções para proteger sua organização, ainda poderá ser vítima de um ataque [de ransomware.](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) Ransomware é uma grande empresa e os ataques são muito sofisticados.
 
 As etapas neste artigo lhe darão a melhor chance de recuperar dados e parar a propagação interna da infecção. Antes de começar, considere os seguintes itens:
 
-- Não há garantia de que pagar o resgate retornará o acesso aos seus arquivos. Na verdade, pagar o resgate pode fazer de você um alvo para mais ransomware.
+- Não há garantia de que pagar o resgate retornará o acesso aos seus arquivos. Na verdade, pagar o resgate pode fazer de você um destino para mais ransomware.
 
   Se você já tiver pago, mas se recuperou sem usar a solução do invasor, entre em contato com seu banco para ver se ele pode bloquear a transação.
 
@@ -43,7 +43,7 @@ As etapas neste artigo lhe darão a melhor chance de recuperar dados e parar a p
 
 - É importante que você responda rapidamente ao ataque e suas consequências. Quanto mais tempo você aguardar, menos provável será que você possa recuperar os dados afetados.
 
-## <a name="step-1-verify-your-backups"></a>Etapa 1: verificar seus backups
+## <a name="step-1-verify-your-backups"></a>Etapa 1: Verificar seus backups
 
 Se você tiver backups offline, provavelmente poderá  restaurar os dados criptografados depois de remover a carga de ransomware (malware) do seu ambiente.
 
@@ -111,7 +111,7 @@ Após a recuperação, você pode impedir que os clientes do OneDrive for Busine
 
 ### <a name="contact-law-enforcement"></a>Contatar a aplicação da lei
 
-Entre em contato com as agências locais ou federais. Por exemplo, se você estiver nos Estados Unidos, entre em contato com o escritório de campo [local do FEDERAL,](https://www.fbi.gov/contact-us/field) [IC3](http://www.ic3.gov/complaint/default.aspx) ou [Serviço Secreto.](http://www.secretservice.gov/)
+Entre em contato com as agências locais ou federais. Por exemplo, se você estiver nos Estados Unidos, entre em contato com o escritório do campo [local DOLS,](https://www.fbi.gov/contact-us/field) [IC3](http://www.ic3.gov/complaint/default.aspx) ou [Serviço Secreto.](http://www.secretservice.gov/)
 
 ### <a name="submit-a-report-to-your-countrys-scam-reporting-website"></a>Enviar um relatório para o site de relatórios de esquema do seu país
 
@@ -145,7 +145,7 @@ Você pode relatar mensagens de phishing que contêm ransomware usando um dos v�
 
 - [Resposta a ransomware : para pagar ou não pagar?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
 
-- [NorskSk Responds to ransomware attack with transparency](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+- [Norsk Ransomware responde a um ataque de ransomware com transparência](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
 - [Detecção de ransomware e recuperação de arquivos no OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 

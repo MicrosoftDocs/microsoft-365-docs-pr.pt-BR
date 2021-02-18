@@ -19,21 +19,21 @@ description: Os administradores podem exibir perguntas frequentes e respostas so
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 019f1c103ef1aaf7641072cd1259d22e83f0de4c
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 8496ae4f1702bb63328be0c494d8829c9ddd8cf2
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166922"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289396"
 ---
 # <a name="quarantined-messages-faq"></a>Perguntas frequentes sobre mensagens em quarentena
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Este tópico fornece perguntas frequentes e respostas sobre mensagens de email em quarentena para organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online.
 
@@ -45,7 +45,7 @@ Para perguntas e respostas sobre a proteção anti-spoofing, consulte Perguntas 
 
 ## <a name="how-do-i-manage-messages-that-were-quarantined-for-malware"></a>Como faço para gerenciar mensagens que foram colocadas em quarentena para malware?
 
-Somente administradores podem gerenciar mensagens que foram colocadas em quarentena para malware. Para obter mais informações, consulte Gerenciar mensagens e arquivos em quarentena [como administrador.](manage-quarantined-messages-and-files.md)
+Somente administradores podem gerenciar mensagens que foram colocadas em quarentena para malware. Para obter mais informações, [consulte Gerenciar mensagens e arquivos em quarentena como administrador.](manage-quarantined-messages-and-files.md)
 
 ## <a name="how-do-i-quarantine-spam"></a>Como colocar o spam em quarentena?
 
@@ -57,7 +57,7 @@ Um usuário deve ter uma conta válida para acessar suas próprias mensagens em 
 
 ## <a name="what-messages-can-end-users-access-in-quarantine"></a>Quais mensagens os usuários finais podem acessar em quarentena?
 
-Os usuários podem acessar spam, email em massa e (a partir de abril de 2020) mensagens de phishing em que são destinatários. Os usuários finais não podem acessar malware em quarentena, phishing de  alta confiança ou mensagens que foram colocadas em quarentena devido à ação Entregar a mensagem para a quarentena hospedada em regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações sobre os usuários que acessam mensagens em quarentena, consulte Encontrar e liberar mensagens em quarentena [como um usuário.](find-and-release-quarantined-messages-as-a-user.md)
+Os usuários podem acessar spam, email em massa e (a partir de abril de 2020) mensagens de phishing em que são destinatários. Os usuários finais não podem acessar malware em quarentena, phishing de  alta confiança ou mensagens que foram colocadas em quarentena devido à ação Entregar a mensagem para a quarentena hospedada em regras de fluxo de emails (também conhecidas como regras de transporte). Para obter mais informações sobre os usuários que acessam mensagens em quarentena, consulte Encontrar e liberar mensagens [em quarentena como um usuário.](find-and-release-quarantined-messages-as-a-user.md)
 
 ## <a name="how-long-are-messages-kept-in-the-quarantine"></a>Por quanto tempo as mensagens são mantidas em quarentena?
 
@@ -65,7 +65,7 @@ Você configura por quanto tempo as mensagens de spam, phishing e email em massa
 
 Para mensagens que foram colocadas em quarentena pela ação de regra de fluxo de emails Entregar a mensagem para a quarentena hospedada, as mensagens são mantidas em quarentena por 30 dias. Não é possível configurar essa duração.
 
-Após o período de tempo expirar, as mensagens serão excluídas e não serão recuperáveis.
+Depois que o período expirar, as mensagens serão excluídas e não serão recuperáveis.
 
 ## <a name="can-i-release-or-report-more-than-one-quarantined-message-at-a-time"></a>Posso liberar ou relatar mais de uma mensagem em quarentena por vez?
 

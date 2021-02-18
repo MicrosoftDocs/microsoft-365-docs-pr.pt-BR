@@ -17,25 +17,25 @@ ms.collection:
 description: Saiba como os pools de entrega são usados para proteger a reputação dos servidores de email nos datacenters do Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5480916f55fc180a6f08d3c420cb92c730e4065b
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 89aac1478d3e5840df4379b9f49832b79d0e133a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167534"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289800"
 ---
 # <a name="outbound-delivery-pools"></a>Pools de entrega de saída
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Os servidores de email nos datacenters do Microsoft 365 podem ficar temporariamente sem enviar spam. Por exemplo, um ataque de malware ou spam mal-intencionado em uma organização de email local que envia emails de saída por meio do Microsoft 365 ou contas comprometidas do Microsoft 365. Os invasores também tentam evitar a detecção retransmitindo mensagens por meio do encaminhamento do Microsoft 365.
 
-Esses cenários podem fazer com que o endereço IP dos servidores de datacenter afetados do Microsoft 365 apareça em listas de bloqueio de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
+Esses cenários podem fazer com que o endereço IP dos servidores de datacenter afetados do Microsoft 365 apareça nas listas de bloqueio de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
 
 ## <a name="high-risk-delivery-pool"></a>Pool de entrega de alto risco
 Para evitar isso, todas as mensagens de saída dos servidores de datacenter do Microsoft 365 que são determinadas como spam ou que excedem os limites de envio do serviço ou das políticas de [spam](configure-the-outbound-spam-policy.md) de saída são enviadas através do _pool_ de entrega de alto risco. [](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
@@ -60,7 +60,7 @@ As possíveis causas para um aumento nas NDRs incluem:
 - Um ataque de spam.
 - Um servidor de email não..
 
-Todos esses problemas podem resultar em um aumento súbito no número de NDRs sendo processadas pelo serviço. Muitas vezes, essas NDRs parecem ser spam para outros servidores e serviços de email (também conhecidos como _[backscatter).](backscatter-messages-and-eop.md)_
+Todos esses problemas podem resultar em um aumento súbito no número de NDRs sendo processadas pelo serviço. Muitas vezes, essas NDRs parecem ser spam para outros servidores de email e serviços (também conhecidos como _[backscatter).](backscatter-messages-and-eop.md)_
 
 ## <a name="relay-pool"></a>Pool de retransmissão
 

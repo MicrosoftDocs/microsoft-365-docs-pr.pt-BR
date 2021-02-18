@@ -15,21 +15,21 @@ ms.collection:
 description: Os administradores podem aprender a aplicar as configurações de política Padrão e Estrito nos recursos de proteção do Exchange Online Protection (EOP) e do Microsoft Defender para Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f57b388716eca02741ba48b3e6b47b7cf9f28884
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: e8f254f2a1ea2dcf1a4b51594a5c340e91cb3f15
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150071"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290770"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 As políticas de segurança predefinidas fornecem um local centralizado para a aplicação de todas as políticas de spam, malware e phishing recomendadas aos usuários de uma só vez. As configurações de política não são configuráveis. Em vez disso, eles são definidos por nós e são baseados em nossas observações e experiências nos datacenters para um equilíbrio entre manter o conteúdo prejudicial longe dos usuários sem interromper seu trabalho.
 
@@ -49,7 +49,7 @@ Além disso, a ordem de precedência será importante se várias políticas de s
 
 Um perfil determina o nível de proteção. Os seguintes perfis estão disponíveis:
 
-- **Proteção padrão**: um perfil de proteção de linha de base adequado para a maioria dos usuários.
+- **Proteção padrão:** um perfil de proteção de linha de base adequado para a maioria dos usuários.
 - **Proteção estrita:** um perfil de proteção mais agressivo para usuários selecionados (destinos de alto valor ou usuários prioritários).
 
 Você usa regras com condições e exceções que determinam a quem os perfis são ou não aplicados.
@@ -72,7 +72,7 @@ As políticas de segurança predefinidas usam as políticas correspondentes dos 
   - [Políticas anti-malware chamadas](configure-anti-malware-policies.md) **Política de Segurança Predefinida Padrão** e Política de Segurança **Predefinida Estrita.**
   - [Políticas anti-phishing](set-up-anti-phishing-policies.md#spoof-settings) do EOP chamadas **Política** de Segurança Predefinida Padrão e Política de Segurança Predefinida **Estrita** (configurações de spoof).
 
-- **Políticas do Microsoft Defender para Office 365:** isso inclui organizações com o Microsoft 365 E5 ou o Defender para assinaturas de complemento do Office 365:
+- **Políticas do Microsoft Defender para Office 365:** isso inclui organizações com o Microsoft 365 E5 ou o Defender para assinaturas de complementos do Office 365:
 
   - Políticas anti-phishing no Microsoft Defender para Office 365 denominadas **Política** de Segurança Predefinida Padrão e Política de Segurança Predefinida Estrita, que incluem:
 
@@ -105,7 +105,7 @@ Em outras palavras, as configurações da política de proteção **Estrito** su
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **políticas de segurança Predefinidas,** use <https://protection.office.com/presetSecurityPolicies> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **políticas de segurança Predefinidas,** use <https://protection.office.com/presetSecurityPolicies> .
 
 - Para se conectar ao Windows PowerShell do Exchange Online, confira [Conectar ao Windows PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -115,11 +115,11 @@ Em outras palavras, as configurações da política de proteção **Estrito** su
 
   Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-  **Observação:** a adição de usuários à função do Azure Active Directory correspondente no centro de administração do  Microsoft 365 oferece aos usuários as permissões necessárias no Centro de Conformidade e Segurança & e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  **Observação:** a adição de usuários à função do Azure Active Directory correspondente no Centro de administração do  Microsoft 365 oferece aos usuários as permissões necessárias no Centro de Conformidade e Segurança & e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ### <a name="use-the-security--compliance-center-to-assign-preset-security-policies-to-users"></a>Usar o Centro de Conformidade & segurança para atribuir políticas de segurança predefinidas aos usuários
 
-1. No Centro de Conformidade & segurança, vá para políticas **de** segurança Predefinidas de Política \>  \> **de Gerenciamento de Ameaças.**
+1. No Centro de Conformidade & segurança,  vá para políticas de segurança Predefinidas de Política de \>  \> **Gerenciamento de Ameaças.**
 
 2. Em **Proteção Padrão** ou Proteção **Estrita,** clique em **Editar**.
 
@@ -133,7 +133,7 @@ Em outras palavras, as configurações da política de proteção **Estrito** su
 
       Você só pode usar uma condição uma vez, mas pode especificar vários valores para a condição. Vários valores da mesma condição usam a lógica OR (por exemplo, _\<recipient1\>_ ou _\<recipient2\>_ ).
 
-   2. A condição selecionada aparece em uma seção sombreada. Nessa seção, clique na caixa Qualquer **um** desses. Se você aguardar um pouco, uma lista será exibida para que você possa selecionar um valor. Ou você pode começar a digitar um valor para filtrar a lista e selecionar um valor. Repita essa etapa quantas vezes forem necessárias. Para remover um valor individual, clique no ícone **Remover** ![ no ](../../media/scc-remove-icon.png) valor. Para remover toda a condição, clique **no** ícone ![ Remover na ](../../media/scc-remove-icon.png) condição.
+   2. A condição selecionada aparece em uma seção sombreada. Nessa seção, clique na **caixa Qualquer um** desses. Se você aguardar um pouco, uma lista será exibida para que você possa selecionar um valor. Ou você pode começar a digitar um valor para filtrar a lista e selecionar um valor. Repita essa etapa quantas vezes forem necessárias. Para remover um valor individual, clique no ícone **Remover** ![ no ](../../media/scc-remove-icon.png) valor. Para remover toda a condição, clique **no** ícone ![ Remover na ](../../media/scc-remove-icon.png) condição.
 
    3. Para adicionar outra condição, clique **em Adicionar uma condição** e selecione entre as condições restantes. Diferentes condições usam a lógica AND (por exemplo, _\<recipient1\>_ e _\<member of group 1\>_ ).
 
@@ -163,4 +163,4 @@ Para verificar se você atribuiu com êxito  a política de segurança Proteçã
 
 Por exemplo, para emails detectados como spam (não spam de alta confiança), verifique  se a mensagem é  entregue na pasta Lixo Eletrônico para usuários de proteção Padrão e colocada em quarentena para usuários de proteção Estrito.
 
-Ou, para emails em [massa,](bulk-complaint-level-values.md)verifique se o valor BCL 6  ou superior entrega a mensagem para a pasta Lixo  Eletrônico para usuários de proteção Padrão, e o valor bcl 4 ou superior coloca a mensagem em quarentena para usuários de proteção estrito.
+Ou, para emails em [massa,](bulk-complaint-level-values.md)verifique se o valor BCL 6  ou superior entrega a mensagem para a pasta Lixo  Eletrônico para usuários de proteção Padrão, e o valor de BCL 4 ou superior coloca a mensagem em quarentena para usuários de proteção Estrito.

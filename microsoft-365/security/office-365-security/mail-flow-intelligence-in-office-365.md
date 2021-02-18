@@ -14,23 +14,23 @@ ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Os administradores podem aprender sobre os códigos de erro associados à entrega de mensagens usando conectores (também conhecidos como inteligência de fluxo de emails).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 864b69bf650a4e460376ae988a9ce4abc4c61ad4
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 32a98459ce3d3494e576b10d5c5b097393ee2335
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167066"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289658"
 ---
 # <a name="mail-flow-intelligence-in-eop"></a>Inteligência de fluxo de emails no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você normalmente usa um conector para rotear mensagens de email do EOP para seu ambiente de email local. Você também pode usar um conector para encaminhar mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas estão na fila no Microsoft 365. O Microsoft 365 continuará tentando entregar cada mensagem por 24 horas. Após 24 horas, a mensagem na fila expirará e a mensagem será retornada ao remetente original em um relatório de não entrega (também conhecido como NDR ou mensagem de rejeição).
+Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, você normalmente usa um conector para rotear mensagens de email do EOP para seu ambiente de email local. Você também pode usar um conector para encaminhar mensagens do Microsoft 365 para uma organização parceira. Quando o Microsoft 365 não consegue entregar essas mensagens por meio do conector, elas estão na fila no Microsoft 365. O Microsoft 365 continuará tentando entregar cada mensagem por 24 horas. Após 24 horas, a mensagem em fila expirará e a mensagem será retornada ao remetente original em um relatório de não entrega (também conhecido como NDR ou mensagem de rejeição).
 
 O Microsoft 365 gera um erro quando uma mensagem não pode ser entregue usando um conector. Os erros mais comuns e suas soluções são descritos neste artigo. Coletivamente, erros de fila e notificação para mensagens não entregues enviadas por conectores é conhecido como _inteligência de fluxo de emails._
 
@@ -60,7 +60,7 @@ Normalmente, isso significa que o Microsoft 365 não pode se conectar ao servido
 
 ### <a name="how-do-i-fix-error-code-450-44315"></a>Como corrigir o código de erro 450 4.4.315?
 
-- Descubra qual cenário se aplica a você e faça as correções necessárias. Por exemplo, se o fluxo de emails está funcionando corretamente e você não alterou as configurações do conector, é necessário verificar seu ambiente de email local para ver se o servidor está ino mesmo ou se houve alguma alteração em sua infraestrutura de rede (por exemplo, você alterou provedores de serviços de Internet, então agora tem diferentes endereços IP).
+- Descubra qual cenário se aplica a você e faça as correções necessárias. Por exemplo, se o fluxo de emails está funcionando corretamente e você não alterou as configurações do conector, é necessário verificar seu ambiente de email local para ver se o servidor está inocível ou se houve alguma alteração em sua infraestrutura de rede (por exemplo, você alterou provedores de serviços de Internet, então agora tem diferentes endereços IP).
 
 - Se o erro for da sua organização parceira (por exemplo, um provedor de serviços de nuvem de terceiros), entre em contato com seu parceiro para corrigir o problema.
 
@@ -70,7 +70,7 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
 ### <a name="how-do-i-fix-error-code-450-44316"></a>Como corrigir o código de erro 450 4.4.316?
 
-- Se você tiver caixas de correio em seu ambiente local, precisará modificar suas configurações de firewall para permitir conexões de endereços IP do Microsoft 365 na porta TCP 25 para seus servidores de email locais. Para uma lista de endereços IP do Microsoft 365, confira URLs e intervalos de [endereços IP do Microsoft 365.](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
+- Se você tiver caixas de correio em seu ambiente local, precisará modificar suas configurações de firewall para permitir conexões de endereços IP do Microsoft 365 na porta TCP 25 para seus servidores de email locais. Para uma lista de endereços IP do Microsoft 365, confira URLs e intervalos de [endereços IP do Microsoft 365.](../../enterprise/urls-and-ip-address-ranges.md)
 
 - Se nenhuma outra mensagem tiver que ser entregue  ao seu ambiente local, clique em Corrigir agora no alerta para que o Microsoft 365 possa rejeitar imediatamente as mensagens com destinatários inválidos. Isso reduzirá o risco de exceder a cota da sua organização para destinatários inválidos, o que pode afetar a entrega normal de mensagens. Ou você pode usar as instruções a seguir para corrigir manualmente o problema:
 
@@ -82,9 +82,9 @@ Normalmente, esse erro significa que o Microsoft 365 encontrou um erro de conex�
 
        - Excluir o conector clicando no **ícone** Excluir ![ Remover](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - Desabilite o conector clicando no **ícone** ![ Editar e ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) desblicando **a a ligue.**
+       - Desabilite o conector clicando no **ícone** ![ Editar Editar e ](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) desblicando **Ativar.**
 
-  - Altere o domínio aceito no Microsoft 365 associado ao seu ambiente de email local de Retransmissão Interna **para** **Autoritativo.** Para obter instruções, [confira Gerenciar domínios aceitos no Exchange Online.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
+  - Altere o domínio aceito no Microsoft 365 associado ao seu ambiente  de email local de Retransmissão Interna para **Autoritativo.** Para obter instruções, [confira Gerenciar domínios aceitos no Exchange Online.](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
 
   **Observação:** normalmente, essas alterações levam entre 30 minutos e uma hora para ter efeito. Após uma hora, verifique se você não recebe mais o erro.
 

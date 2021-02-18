@@ -13,29 +13,29 @@ ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: Você pode usar regras de fluxo de emails (regras de transporte) para identificar e tomar medidas em mensagens que fluem pela sua organização.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3f873d4e46c9e3b7f085e03a9fbb19e5914317fa
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: d189a9f4b21828fa4e23f7d5a325b4e9c56259bc
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167030"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289932"
 ---
 # <a name="mail-flow-rules-transport-rules-in-standalone-eop"></a>Regras de fluxo de email (regras de transporte) no EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Em organizações autônomas do Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, você pode usar regras de fluxo de emails (também conhecidas como regras de transporte) para identificar e tomar medidas em mensagens que fluem pela sua organização.
 
 Este tópico explica os componentes das regras de fluxo de emails e como elas funcionam.
 
-Para ver as etapas para criar, copiar e gerenciar regras de fluxo de emails, confira Gerenciar regras de [fluxo de emails no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) Você pode impor e testar cada regra ou testar e notificar o remetente. Para saber mais sobre as opções de teste, confira Testar regras [de fluxo de emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) e Dicas de Política no Exchange [Online.](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)
+Para ver as etapas para criar, copiar e gerenciar regras de fluxo de emails, confira Gerenciar regras de [fluxo de emails no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) Você pode impor e testar cada regra ou testar e notificar o remetente. Para saber mais sobre as opções de teste, consulte Testar regras [de fluxo de emails](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) e Dicas de Política no Exchange [Online.](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips)
 
-Para relatórios resumidos e detalhados sobre mensagens que corresponderam às regras de fluxo de emails, consulte Usar relatórios de proteção de email para exibir dados sobre detecções de [malware, spam e regra.](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)
+Para relatórios resumidos e detalhados sobre mensagens que corresponderam a regras de fluxo de emails, consulte Usar relatórios de proteção de email para exibir dados sobre detecções de [malware, spam e regra.](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)
 
 Para implementar políticas de mensagens específicas usando regras do fluxo de emails, confira estes tópicos:
 
@@ -51,7 +51,7 @@ Para implementar políticas de mensagens específicas usando regras do fluxo de 
 
 - [Redução de ameaças de malware com o bloqueio de anexos de arquivo no Exchange Online Protection](reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md)
 
-- [Definir regras para criptografar ou descriptografar mensagens de email no Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)
+- [Definir regras para criptografar ou descriptografar mensagens de email no Office 365](../../compliance/define-mail-flow-rules-to-encrypt-email.md)
 
 O vídeo a seguir fornece uma demonstração da configuração de regras de fluxo de emails no EOP autônomo.
 
@@ -69,7 +69,7 @@ Para obter mais informações sobre condições de regra de fluxo de emails no E
 
 - **Ações:** especifique o que fazer com mensagens que corresponderem às condições da regra e não corresponderem a nenhuma das exceções. Há muitas ações disponíveis, como rejeitar, excluir ou redirecionar mensagens, incluir destinatários adicionais, incluir prefixos no assunto da mensagem ou inserir avisos de isenção legal no corpo da mensagem.
 
-Para obter mais informações sobre ações de regra de fluxo de emails disponíveis no EOP autônomo, consulte Ações de regra de fluxo de [emails no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
+Para obter mais informações sobre ações de regras de fluxo de emails disponíveis no EOP autônomo, consulte Ações de regra de fluxo de [email no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
 - **Propriedades:** especifique outras configurações de regras que não sejam condições, exceções ou ações. Por exemplo, quando a regra deve ser aplicada, se devemos impor ou testar a regra e o período em que a regra é ativa.
 
@@ -122,7 +122,7 @@ Existem vários tipos de mensagens que transitam por uma organização. A tabela
 |Existem vários tipos de mensagens que transitam por uma organização. A tabela a seguir mostra quais tipos de mensagens podem ser processados por regras de transporte.|Tipo de mensagem|
 |---|---|
 |**Mensagens regulares:** mensagens que contêm um único formato rich text (RTF), HTML ou corpo de mensagem de texto sem formatação ou um conjunto de corpos de mensagens com várias partes ou alternativas.|Sim|
-|Criptografia de Mensagem do **Office 365:** Mensagens criptografadas pela Criptografia de Mensagem do Office 365 no Office 365. Para saber mais informações, consulte [Criptografia no Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption).|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem criptografada, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou Opcional; o padrão é Opcional). Para saber mais, confira [Definir regras para criptografar ou descriptografar mensagens de email no Office 365.](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)|
+|Criptografia de Mensagem do **Office 365:** Mensagens criptografadas pela Criptografia de Mensagem do Office 365 no Office 365. Para saber mais informações, consulte [Criptografia no Office 365](../../compliance/encryption.md).|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem criptografada, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou Opcional; o padrão é Opcional). Para saber mais, confira [Definir regras para criptografar ou descriptografar mensagens de email no Office 365.](../../compliance/define-mail-flow-rules-to-encrypt-email.md)|
 |**Mensagens criptografadas em S/MIME**|As regras podem apenas acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> As regras com condições que exigem a inspeção do conteúdo da mensagem ou ações que modificam o conteúdo da mensagem não podem ser processadas.|
 |**Mensagens protegidas por RMS:** mensagens que tinham uma política do Active Directory Rights Management Services (AD RMS) ou do Azure Rights Management (RMS) aplicada.|As regras sempre podem acessar os cabeçalhos de envelope e processar as mensagens com base nas condições que inspecionam cabeçalhos. <p> Para uma regra inspecionar ou modificar o conteúdo de uma mensagem protegida por RMS, é preciso verificar se a descriptografia de transporte está habilitada (Obrigatória ou opcional; o padrão é opcional).|
 |**Mensagens não assinadas:** mensagens que foram assinadas, mas não criptografadas.|Sim|
@@ -133,7 +133,7 @@ Existem vários tipos de mensagens que transitam por uma organização. A tabela
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- O **valor da** propriedade Version ou **RuleVersion** de uma regra não é importante no Exchange Online Protection.
+- O **valor da** propriedade Version ou **RuleVersion** de uma regra não é importante na Proteção do Exchange Online.
 
 - Após criar ou alterar uma regra de fluxo de emails, pode levar até 30 minutos para a regra nova ou atualizada ser aplicada às mensagens.
 

@@ -15,19 +15,19 @@ ms.custom:
 description: Obter respostas para as perguntas gerais mais comuns sobre o serviço de filtragem de email hospedado na nuvem do Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d0a5712d2bfb110c3292dee06b456161599d40b1
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1a1ce845ef50d7485113c211b0a8d7770ea57815
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165482"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290016"
 ---
 # <a name="eop-general-faq"></a>Perguntas frequentes gerais sobre o EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 Aqui, respondemos às perguntas gerais mais comuns sobre o serviço de filtragem de email hospedado na nuvem do Exchange Online Protection (EOP). Para ver mais tópicos de perguntas frequentes, vá para os seguintes links:
 
@@ -95,4 +95,4 @@ Sim. Para obter mais informações sobre limites no EOP, consulte [Limites do Ex
 
 ## <a name="does-eop-support-powershell"></a>O EOP dá suporte ao PowerShell?
 
-Sim, a funcionalidade completa do EOP está disponível por meio do PowerShell: PowerShell do Exchange Online para organizações com caixas de correio do Exchange Online; PowerShell do EOP autônomo para organizações autônomas do EOP. Para saber mais, confira [o PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) e o [PowerShell da Proteção do Exchange Online.](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)
+Sim, a funcionalidade completa do EOP está disponível por meio do PowerShell: PowerShell do Exchange Online para organizações com caixas de correio do Exchange Online; EOP PowerShell autônomo para organizações EOP autônomas. Para saber mais, confira [o PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) e o [PowerShell da Proteção do Exchange Online.](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell)

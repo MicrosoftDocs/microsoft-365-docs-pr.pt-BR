@@ -18,19 +18,19 @@ ms.custom:
 description: Obter uma visão geral da integração do servidor SIEM (Gerenciamento de Eventos e Informações de Segurança) com seus aplicativos e serviços de nuvem do Microsoft 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f29da87aa6eab1852330092d93187a27b2d36eb2
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: b4490d52cbd403bf4ce2cc3f3fb3c5a91c5646b9
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167138"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290376"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Integração do servidor de Gerenciamento de Eventos e Informações de Segurança (SIEM) com aplicativos e serviços do Microsoft 365
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -57,7 +57,7 @@ Um servidor SIEM pode receber dados de uma ampla variedade de serviços e aplica
 
 |Serviço ou aplicativo do Microsoft 365|Entradas/métodos do servidor SIEM|Recursos para saber mais|
 |---|---|---|
-|[Microsoft Defender para Office 365](office-365-atp.md)|Logs de auditoria|[Integração siEM com o Microsoft Defender para Office 365](siem-integration-with-office-365-ti.md)|
+|[Obter o Microsoft Defender para Office 365](office-365-atp.md)|Logs de auditoria|[Integração siEM com o Microsoft Defender para Office 365](siem-integration-with-office-365-ti.md)|
 |[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <p> API REST|[Pull alerts to your SIEM tools](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Integração de log|[Integração do SIEM com o Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem)|
 |
@@ -71,7 +71,7 @@ Certifique-se de que o log de auditoria está ligado antes de configurar a integ
 
 - Para o SharePoint Online, o OneDrive for Business e o Azure Active Directory, o log de auditoria está ativado no Centro de Conformidade & [Segurança.](../../compliance/turn-audit-log-search-on-or-off.md)
 
-- Para o Exchange Online, confira [Gerenciar auditoria de caixa de correio.](../../compliance/enable-mailbox-auditing.md)
+- Para o Exchange Online, consulte [Gerenciar auditoria de caixa de correio.](../../compliance/enable-mailbox-auditing.md)
 
 ## <a name="more-resources"></a>Mais recursos
 

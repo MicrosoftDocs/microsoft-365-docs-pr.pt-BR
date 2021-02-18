@@ -20,21 +20,21 @@ ms.custom:
 description: Os administradores podem saber mais sobre a inteligência contra spoof no Exchange Online Protection (EOP), onde você pode permitir ou bloquear envios de spoofed específicos.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55a744cf2d226e72e8d84f6eb125f2baf9b9d3a0
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 2a65400d1b48abfc6ac0e4dd38a8245dd7b4f87b
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167258"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289682"
 ---
-# <a name="configure-spoof-intelligence-in-eop"></a>Configurar a inteligência contra spoof no EOP
+# <a name="configure-spoof-intelligence-in-eop"></a>Configurar inteligência contra spoof no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, as mensagens de email de entrada são automaticamente protegidas contra a spoofing pelo EOP a partir de outubro de 2018. O EOP usa a inteligência contra spoof como parte da defesa geral da sua organização contra phishing. Para obter mais informações, [consulte Proteção anti-spoofing no EOP](anti-spoofing-protection.md).
 
@@ -52,7 +52,7 @@ Quando um remetente spoofs um endereço de email, ele parece ser um usuário em 
   - O remetente está em uma lista de discussão (também conhecida como lista de discussão) e a lista de discussão retransmite emails do remetente original para todos os participantes na lista de discussão.
   - Uma empresa externa envia emails em nome de outra empresa (por exemplo, um relatório automatizado ou uma empresa de software como serviço).
 
-A inteligência contra spoof e, especificamente, a política de inteligência contra spoof (e somente) padrão, ajudam a garantir que os emails de spoofed enviados por remetentes legítimos não se aprecem nos filtros de spam do EOP ou sistemas de email externos, enquanto protege seus usuários contra ataques de spam ou phishing.
+A inteligência contra spoof e, especificamente, a política de inteligência contra spoof (e somente) padrão, ajuda a garantir que os emails spoofed enviados por remetentes legítimos não se aprecem nos filtros de spam do EOP ou sistemas de email externos, enquanto protege seus usuários contra ataques de spam ou phishing.
 
 Você pode gerenciar a inteligência contra spo & of no Centro de Conformidade e Segurança ou no PowerShell (organizações do PowerShell do Exchange Online para Microsoft 365 com caixas de correio no Exchange Online; PowerShell do EOP autônomo para organizações sem caixas de correio do Exchange Online).
 
@@ -63,14 +63,14 @@ Você pode gerenciar a inteligência contra spo & of no Centro de Conformidade e
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
-  - Para modificar a política de inteligência de spoof ou habilitar ou  desabilitar a inteligência contra spoof, você precisa ser membro dos grupos de função Gerenciamento da Organização ou **Administrador de** Segurança.
-  - Para acesso somente leitura à política de inteligência de spoof, você precisa ser membro dos grupos de funções Leitor **Global** ou **Leitor de** Segurança.
+  - Para modificar a política de inteligência contra spoof ou habilitar ou  desabilitar a inteligência contra spoof, você precisa ser membro dos grupos de função Gerenciamento da Organização ou **Administrador de** Segurança.
+  - Para acesso somente leitura à política de inteligência de spoof, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
   Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
   **Observações**:
 
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para nossas configurações recomendadas para inteligência contra spoof intelligence, consulte as configurações de política [anti-phishing](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)padrão do EOP.
@@ -82,7 +82,7 @@ Você pode gerenciar a inteligência contra spo & of no Centro de Conformidade e
 
 1. No Centro de Conformidade e Segurança, vá para **Gerenciamento de ameaças** \> **Política** \> **Antispam**.
 
-2. Na página **configurações anti-spam,** clique no ícone ![ Expandir para expandir a política de inteligência contra ](../../media/scc-expand-icon.png) **spoof.**
+2. Na página **Configurações anti-spam,** clique no ícone Expandir para expandir a ![ política de inteligência contra ](../../media/scc-expand-icon.png) **spoof.**
 
    ![Selecionar a política de inteligência contra spoof](../../media/anti-spam-settings-spoof-intelligence-policy.png)
 
@@ -96,13 +96,13 @@ Você pode gerenciar a inteligência contra spo & of no Centro de Conformidade e
    - **Seus Domínios**: Os usuários de envio de mensagens de spoofing em seus domínios internos.
    - **Domínios Externos:** Os usuários de envios de mensagens de spoofing em domínios externos.
 
-5. Click ![ Expand icon in the Allowed to ](../../media/scc-expand-icon.png) **spoof?** column. Escolha **Sim** para permitir o remetente spoofado ou **escolha** Não para marcar a mensagem como falsa. A ação é controlada pela política anti-phishing padrão ou pelas políticas anti-phishing personalizadas (o valor padrão é Mover mensagem para a pasta **Lixo Eletrônico).** Para obter mais informações, consulte [Configurações de Spoof em políticas anti-phishing.](set-up-anti-phishing-policies.md#spoof-settings)
+5. Click ![ Expand icon in the Allowed to ](../../media/scc-expand-icon.png) **spoof?** column. Escolha **Sim** para permitir o remetente spoofado ou **escolha** Não para marcar a mensagem como falsa. A ação é controlada pela política anti-phishing padrão ou pelas políticas anti-phishing personalizadas (o valor padrão é Mover mensagem para a pasta Lixo **Eletrônico).** Para obter mais informações, consulte [Configurações de Spoof em políticas anti-phishing.](set-up-anti-phishing-policies.md#spoof-settings)
 
    ![Screenshot showing the spoofed senders flyout, and whether the sender is allowed to spoof](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
    As colunas e os valores que você vê são explicados na lista a seguir:
 
-   - **Usuário spoofed**: a conta de usuário que está sendo spoofed. Esse é o remetente da mensagem no endereço De (também conhecido como `5322.From` endereço) que é mostrado nos clientes de email. A validade desse endereço não é verificada pelo SPF.
+   - **Usuário spoofed**: a conta de usuário que está sendo spoofed. Esse é o remetente da mensagem no endereço De (também conhecido como endereço) que `5322.From` é mostrado nos clientes de email. A validade desse endereço não é verificada pelo SPF.
 
      - Na guia **Seus Domínios,** o valor contém um único endereço de email ou, se o servidor de email de origem estiver spoofando várias contas de usuário, ele contém **mais de um**.
 
@@ -119,17 +119,17 @@ Você pode gerenciar a inteligência contra spo & of no Centro de Conformidade e
    - **Resultado da** autenticação: um dos seguintes valores:
       - **Passado:** o remetente passou nas verificações de autenticação de email do remetente (SPF ou DKIM).
       - **Falha:** o remetente falhou nas verificações de autenticação do remetente do EOP.
-      - **Desconhecido:** o resultado dessas verificações não é conhecido.
+      - **Desconhecido**: o resultado dessas verificações não é conhecido.
 
    - **Decisão definida por:** mostra quem determinou se a infraestrutura de envio tem permissão para fazer spoof do usuário:
        - **Política de inteligência contra spoof** (automática)
-       - **Administrador** (manual)
+       - **Admin** (manual)
 
-   - **Visto pela** última vez: a última data em que uma mensagem foi recebida da infraestrutura de envio que contém o usuário falsa.
+   - **Visto pela última** vez: a última data em que uma mensagem foi recebida da infraestrutura de envio que contém o usuário falsa.
 
-   - **Permitido para spoof?**: Os valores que você vê aqui são:
+   - **Permissão para fazer spoof?**: Os valores que você vê aqui são:
      - **Sim:** as mensagens da combinação de usuário falsa e da infraestrutura de envio são permitidas e não tratadas como emails falsas.
-     - **Não:** as mensagens da combinação de usuário falsa e da infraestrutura de envio são marcadas como falsas. A ação é controlada pela política anti-phishing padrão ou pelas políticas anti-phishing personalizadas (o valor padrão é Mover mensagem para a pasta **Lixo Eletrônico).** Consulte a próxima seção para obter mais informações.
+     - **Não:** as mensagens da combinação de usuário falsa e da infraestrutura de envio são marcadas como falsas. A ação é controlada pela política anti-phishing padrão ou pelas políticas anti-phishing personalizadas (o valor padrão é Mover mensagem para a pasta Lixo **Eletrônico).** Consulte a próxima seção para obter mais informações.
 
      - **Alguns usuários** (somente a guia **Domínios):** uma infraestrutura de envio está fazendo a spoofing de vários usuários, em que alguns usuários são permitidos e outros não. Use a **guia Detalhes** para ver os endereços específicos.
 
@@ -149,11 +149,11 @@ Este exemplo retorna informações detalhadas sobre todos os senders que têm pe
 Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 ```
 
-Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy).
+Para informações detalhadas de sintaxes e de parâmetros, [consulte Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy).
 
 Para configurar os envios permitidos e bloqueados em inteligência contra spoof intelligence, siga estas etapas:
 
-1. Capture a lista atual de envios com spoofed detectados escrevendo a saída do cmdlet **Get-PhishFilterPolicy** para um arquivo CSV:
+1. Capture a lista atual de enviadores com spoofed detectados escrevendo a saída do cmdlet **Get-PhishFilterPolicy** para um arquivo CSV:
 
    ```powershell
    Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
@@ -187,7 +187,7 @@ Você pode definir as configurações de inteligência contra spoof na política
 
 Para verificar se você configurou a inteligência contra spoof com os envios permitidos e não autorizados a fazer spoof e se você configurou as configurações de inteligência contra spoof, use uma das seguintes etapas:
 
-- No Centro de Conformidade de segurança  &, vá para Política de gerenciamento de ameaças Política anti-spam expanda a política de inteligência de \>  \>  \> **Spoof** \> selecione **Mostrar-me** remetentes Que já revisei selecione a guia Seus Domínios ou \> **Domínios** **Externos** e verifique o valor Permitido para **spoof?** para o remetente.
+- No Centro de Conformidade de Segurança  &, vá para Política de Gerenciamento de Ameaças Política anti-spam Expanda Política de Inteligência contra \>  \>  \> **Spoof** selecione Mostrar-me remetentes Já \>  \> **revisei**  selecione a guia Seus Domínios ou Domínios Externos e verifique o valor Permitido para **spoof?** para o remetente.
 
 - No PowerShell, execute os seguintes comandos para exibir os envios permitidos e não autorizados a spoof:
 
@@ -221,8 +221,8 @@ Seja atento à proteção contra phishing e spoofing. Aqui estão as maneiras re
 
 - Verifique o **Relatório de Email de Spoof.** Você pode usar esse relatório com frequência para exibir e ajudar a gerenciar os envios de spoofed. Para obter informações, consulte [Relatório de Detecções de Spoof](view-email-security-reports.md#spoof-detections-report).
 
-- Revise sua configuração do Sender Policy Framework (SPF). Para obter uma introdução rápida à SPF e para configurá-la rapidamente, confira [Configurar a SPF no Microsoft 365 para ajudar a evitar falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para compreender melhor como o Office 365 usa SPF, para solucionar problemas, ou para saber mais sobre implantações incomuns, como implantações híbridas, comece com [How Office 365 uses Sender Policy Framework (SPF) to prevent spoofing](how-office-365-uses-spf-to-prevent-spoofing.md).
+- Revise a configuração da Estrutura de Política do Remetente (SPF). Para obter uma introdução rápida à SPF e para configurá-la rapidamente, confira [Configurar a SPF no Microsoft 365 para ajudar a evitar falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md). Para compreender melhor como o Office 365 usa SPF, para solucionar problemas, ou para saber mais sobre implantações incomuns, como implantações híbridas, comece com [How Office 365 uses Sender Policy Framework (SPF) to prevent spoofing](how-office-365-uses-spf-to-prevent-spoofing.md).
 
-- Revise sua configuração de DomainKeys Identified Mail (DKIM). Você deve usar o DKIM, além do SPF e do DMARC, para ajudar a impedir que invasores enviem mensagens que pareçam estar vindo do seu domínio. O DKIM possibilita adicionar uma assinatura digital a mensagens de email no cabeçalho da mensagem. Para saber mais, confira Usar DKIM para validar emails de saída [enviados de seu domínio personalizado no Office 365.](use-dkim-to-validate-outbound-email.md)
+- Revise sua configuração de DomainKeys Identified Mail (DKIM). Você deve usar o DKIM, além do SPF e do DMARC, para ajudar a impedir que os invasores enviem mensagens que pareçam estar vindo do seu domínio. O DKIM possibilita adicionar uma assinatura digital a mensagens de email no cabeçalho da mensagem. Para saber mais, confira Usar DKIM para validar emails de saída [enviados de seu domínio personalizado no Office 365.](use-dkim-to-validate-outbound-email.md)
 
 - Revise sua configuração de Autenticação de Mensagens, Relatórios e Conformidade (DMARC) baseada em domínio. Implementar o DMARC com SPF e DKIM proporciona proporção adicional contra o spoofing e o phishing no email. O DMARC ajuda os sistemas de recepção de email a determinarem o que fazer com as mensagens enviadas a partir do seu domínio que falharem em verificações de SPF ou de DKIM. Para saber mais, [confira Usar o DMARC para validar emails no Office 365.](use-dmarc-to-validate-email.md)

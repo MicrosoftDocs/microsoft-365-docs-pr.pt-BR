@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Os administradores podem aprender a usar marcas de quarentena para controlar o que os usuários podem fazer com suas mensagens em quarentena.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6f18ad6ce1c8b12d38aef377ab663ca679a703e5
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 207f22c9acaa183e195f5a2ee33be65cdf4991dd
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928897"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289408"
 ---
 # <a name="quarantine-tags"></a>Marcas de quarentena
 
@@ -33,7 +33,7 @@ As marcas de quarentena no Proteção do Exchange Online (EOP) permitem que os a
 
 O EOP tem permitido ou impedido tradicionalmente determinados níveis de interatividade para mensagens em quarentena e em notificações de [spam para o usuário final.](use-spam-notifications-to-release-and-report-quarantined-messages.md) [](find-and-release-quarantined-messages-as-a-user.md) Por exemplo, os usuários finais podem exibir e liberar mensagens que foram colocadas em quarentena pela filtragem anti-spam como spam ou em massa, mas não podem exibir ou liberar mensagens que foram colocadas em quarentena como phishing de alta confiança.
 
-Para [recursos](#step-2-assign-a-quarantine-tag-to-supported-features)de proteção com suporte, as marcas de quarentena especificam o que os usuários têm permissão para fazer em mensagens de notificação de spam do usuário final e em suas mensagens em quarentena (mensagens em que o usuário é um destinatário). As marcas de quarentena padrão são atribuídas automaticamente para impor os recursos históricos para usuários finais em mensagens em quarentena. Ou você pode criar e atribuir marcas de quarentena personalizadas para permitir ou impedir que os usuários finais executam ações específicas em mensagens em quarentena.
+Para [recursos](#step-2-assign-a-quarantine-tag-to-supported-features)de proteção com suporte, as marcas de quarentena especificam o que os usuários têm permissão para fazer em mensagens de notificação de spam do usuário final e em suas mensagens em quarentena (mensagens em que o usuário é um destinatário). As marcas de quarentena padrão são atribuídas automaticamente para impor os recursos históricos para usuários finais em mensagens em quarentena. Ou você pode criar e atribuir marcas de quarentena personalizadas para permitir ou impedir que os usuários finais esão executar ações específicas em mensagens em quarentena.
 
 As permissões individuais são combinadas nos seguintes grupos de permissões predefinidos:
 
@@ -59,7 +59,7 @@ Você cria e atribui marcas de quarentena no Centro de Conformidade e Segurança
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a página **de marcas de** quarentena, abra <https://protection.office.com/quarantineTags> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **de marcas de** quarentena, abra <https://protection.office.com/quarantineTags> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -124,7 +124,7 @@ New-QuarantineTag -Name "<UniqueName>" -EndUserQuarantinePermissionsValue <0 to 
 
 O _parâmetro EndUserQuarantinePermissionsValue_ usa um valor decimal convertido de um valor binário. O valor binário corresponde às permissões de quarentena de usuário final disponíveis em uma ordem específica. Para cada permissão, o valor 1 é igual a True e o valor 0 é igual a False.
 
-A ordem e os valores necessários para cada permissão individual em grupos de permissões predefinidos são descritos na tabela a seguir:
+A ordem e os valores necessários para cada permissão individual em grupos de permissão predefinidos são descritos na tabela a seguir:
 
 ****
 
@@ -151,7 +151,7 @@ Este exemplo cria um novo nome de marca de quarentena NoAccess que atribui as pe
 New-QuarantineTag -Name NoAccess -EndUserQuarantinePermissionsValue 0
 ```
 
-Para permissões de acesso limitado, use o valor 106. Para permissões de acesso total, use o valor 236.
+Para permissões de acesso limitado, use o valor 106. Para permissões de acesso completo, use o valor 236.
 
 Para permissões personalizadas, use a tabela anterior para obter o valor binário que corresponde às permissões que você deseja. Converta o valor binário em um valor decimal e use o valor decimal para o parâmetro _EndUserQuarantinePermissionsValue._
 
@@ -238,13 +238,13 @@ Nos _recursos de proteção_ com suporte que coloca em quarentena mensagens ou a
 
 <sup>\*</sup> As configurações de proteção contra representação estão disponíveis apenas em políticas anti-phishing no Microsoft Defender para Office 365.
 
-Se você estiver satisfeito com as permissões de usuário final fornecidas pelas marcas de quarentena padrão, você não precisa fazer nada. Se você quiser personalizar os recursos do usuário final (botões disponíveis) nas notificações de spam do usuário final ou em detalhes da mensagem em quarentena, poderá atribuir uma marca de quarentena personalizada.
+Se você estiver satisfeito com as permissões de usuário final fornecidas pelas marcas de quarentena padrão, você não precisa fazer nada. Se você quiser personalizar os recursos do usuário final (botões disponíveis) nas notificações de spam do usuário final ou nos detalhes da mensagem em quarentena, poderá atribuir uma marca de quarentena personalizada.
 
 ### <a name="assign-quarantine-tags-in-anti-spam-policies-in-the-security--compliance-center"></a>Atribuir marcas de quarentena em políticas anti-spam no Centro de Conformidade & Segurança
 
 Instruções completas para criar e modificar políticas anti-spam são descritas em [Configurar políticas anti-spam no EOP.](configure-your-spam-filter-policies.md)
 
-1. No Centro de Conformidade & segurança, vá para **Política** de gerenciamento de ameaças e \>  \> selecione **Anti-spam.** Ou <https://protection.office.com/antispam> abra.
+1. No Centro de Conformidade & segurança,  vá para Política de gerenciamento de ameaças e \>  \> selecione **Anti-spam.** Ou <https://protection.office.com/antispam> abra.
 
 2. Encontre e selecione uma política anti-spam existente para editar ou crie uma nova política anti-spam.
 
@@ -311,9 +311,9 @@ As configurações globais para marcas de quarentena permitem que você personal
 
 3. No menu **desdopo de** configurações de notificação de quarentena que é aberto, de configure algumas ou todas as seguintes configurações:
 
-   - **Use o logotipo da minha** empresa: selecione essa opção para substituir o logotipo padrão da Microsoft que está sendo usado na parte superior das notificações de spam do usuário final. Antes de fazer isso, você precisa seguir as instruções em Personalizar o tema do [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/customize-your-organization-theme) da sua organização para carregar seu logotipo personalizado.
+   - **Use o logotipo da minha** empresa: selecione essa opção para substituir o logotipo padrão da Microsoft que está sendo usado na parte superior das notificações de spam do usuário final. Antes de fazer isso, você precisa seguir as instruções em Personalizar o tema do [Microsoft 365](../../admin/setup/customize-your-organization-theme.md) da sua organização para carregar seu logotipo personalizado.
 
-     A captura de tela a seguir mostra um logotipo personalizado em uma notificação de spam do usuário final:
+     A captura de tela a seguir mostra um logotipo personalizado em uma notificação de spam para o usuário final:
 
      ![Um logotipo personalizado em uma notificação de spam do usuário final](../../media/quarantine-tags-esn-customization-logo.png)
 
@@ -335,7 +335,7 @@ As configurações globais para marcas de quarentena permitem que você personal
 
      Para cada idioma que você adicionou, selecione o idioma na segunda caixa de idioma (não clique no X) e insira o valor de texto que você deseja na caixa de aviso **de** isenção de responsabilidade.
 
-     A captura de tela a seguir mostra o aviso de isenção de responsabilidade personalizado em uma notificação de spam para o usuário final:
+     A captura de tela a seguir mostra o aviso de isenção de responsabilidade personalizado em uma notificação de spam do usuário final:
 
      ![Um aviso de isenção de responsabilidade personalizado na parte inferior de uma notificação de spam para o usuário final](../../media/quarantine-tags-esn-customization-disclaimer.png)
 
@@ -456,7 +456,7 @@ Se a marca de quarentena atribuir as **permissões** de acesso completo (todas a
 
 - **Notificações de spam para o usuário final:** os seguintes botões estão disponíveis:
   - **Bloquear remetente**
-  - **Liberar**
+  - **Lançar**
   - **Examinar**
 
   ![Botões disponíveis na notificação de spam do usuário final se a marca de quarentena der ao usuário permissões de acesso total](../../media/quarantine-tags-esn-full-access.png)
@@ -474,7 +474,7 @@ A **permissão Permitir** remetente (_PermissionToAllowSender_) controla o acess
   - **Permitir permissão de** remetente habilitada: o **botão** Permitir remetente está disponível.
   - **Permitir permissão de** remetente desabilitada: o **botão** Permitir remetente não está disponível.
 
-- **Notificações de spam para o usuário final:** sem efeito.
+- **Notificações de spam para o usuário final:** Sem efeito.
 
 Para obter mais informações sobre a [](https://support.microsoft.com/office/274ae301-5db2-4aad-be21-25413cede077#__toc304379666) lista de Destinatários Confiáveis, consulte Impedir que os destinatários confiáveis são bloqueados e usar o PowerShell do Exchange Online para configurar o conjunto de listas seguras em [uma caixa de correio.](configure-junk-email-settings-on-exo-mailboxes.md#use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox)
 
@@ -498,9 +498,9 @@ A **permissão Delete** (_PermissionToDelete_) controla a capacidade dos usuári
 
 - **Detalhes da mensagem em quarentena:**
   - **Permissão** de exclusão habilitada: o **botão Remover** da quarentena está disponível.
-  - **Excluir** permissão desabilitada: **o botão Remover da** quarentena não está disponível.
+  - **Excluir** permissão desabilitada: o **botão Remover da** quarentena não está disponível.
 
-- **Notificações de spam para o usuário final:** Sem efeito.
+- **Notificações de spam para o usuário final:** sem efeito.
 
 #### <a name="preview-permission"></a>Permissão de visualização
 
@@ -510,14 +510,14 @@ A **permissão de** visualização (_PermissionToPreview_) controla a capacidade
   - **Permissão de** visualização habilitada: o **botão Visualizar** mensagem está disponível.
   - **Permissão de** visualização desabilitada: o **botão Visualizar** mensagem não está disponível.
 
-- **Notificações de spam para o usuário final:** sem efeito.
+- **Notificações de spam para o usuário final:** Sem efeito.
 
 #### <a name="allow-recipients-to-release-a-message-from-quarantine-permission"></a>Permitir que os destinatários liberem uma mensagem da permissão de quarentena
 
 Permitir **que os destinatários** liberem uma mensagem da permissão de quarentena (_PermissionToRelease_) controla a capacidade dos usuários liberarem suas mensagens em quarentena diretamente e sem a aprovação de um administrador.
 
 - **Detalhes da mensagem em quarentena:**
-  - Permissão habilitada: o **botão** Liberar mensagem está disponível.
+  - Permissão habilitada: o **botão Liberar** mensagem está disponível.
   - Permissão desabilitada: o **botão Liberar** mensagem não está disponível.
 
 - **Notificações de spam para o usuário final:**
@@ -530,6 +530,6 @@ Permitir que os **destinatários** solicitem que uma mensagem seja liberada da p
 
 - **Detalhes da mensagem em quarentena:**
   - Permissão habilitada: **o botão Solicitar** liberação está disponível.
-  - Permissão desabilitada: o **botão Liberar** Solicitação não está disponível.
+  - Permissão desabilitada: o **botão Solicitar** liberação não está disponível.
 
 - **Notificações de spam para o usuário final:** o **botão** Liberar não está disponível.

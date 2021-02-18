@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ROBOTS: NOINDEX
 description: Os administradores podem saber mais sobre o modo de avaliação do Microsoft Defender para Office 365
-ms.openlocfilehash: 6207ae117f06a0e5f10d4a7a47a251137c51df05
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 0f45379bec52b54059c743823e2c8eb366f9bd59
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233573"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289384"
 ---
 # <a name="about-the-microsoft-defender-for-office-365-trial"></a>Sobre a avaliação do Microsoft Defender para Office 365
 
@@ -57,7 +57,7 @@ Como parte da configuração de avaliação, as licenças do Defender para Offic
 
 ## <a name="permissions"></a>Permissões
 
-Para iniciar ou finalizar a avaliação, você precisa  ser membro das funções de Administrador **Global** ou Administrador de Segurança no Azure Active Directory. Para obter detalhes, consulte [Sobre funções de administrador.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+Para iniciar ou finalizar a avaliação, você precisa  ser membro das funções de Administrador **Global** ou Administrador de Segurança no Azure Active Directory. Para obter detalhes, consulte [Sobre funções de administrador.](../../admin/add-users/about-admin-roles.md)
 
 ## <a name="additional-information"></a>Informações adicionais
 
@@ -98,7 +98,7 @@ Experiências poderosas ajudam a identificar, priorizar e investigar ameaças, c
 - [Detecções do Explorador de Ameaças e em Tempo Real](threat-explorer.md)
 - [Relatórios em tempo real no Defender para Office 365](view-reports-for-atp.md)
 - [Rastreadores de Ameaças - Novo e Importante](threat-trackers.md)
-- Integração [com o Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)
+- Integração [com o Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 ### <a name="response-and-remediation"></a>Resposta e correção
 

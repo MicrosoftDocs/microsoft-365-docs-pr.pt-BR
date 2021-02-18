@@ -18,20 +18,20 @@ description: Saiba mais sobre como definir políticas de Anexos seguros para pro
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 314f7fd882986c22adddd0c4570b4aa9f49a40f3
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 012c591d620fdf5abe5aad697404bea8cea95d1a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166328"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290544"
 ---
 # <a name="set-up-safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas de Anexos Seguros no Microsoft Defender para Office 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 > [!IMPORTANT]
 > Este artigo se destina a clientes empresariais que possuem o [Microsoft Defender para Office 365](office-365-atp.md). Se você for um usuário de residência procurando informações sobre a verificação de anexos no Outlook, consulte [Advanced Outlook.com security.](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2)
@@ -60,7 +60,7 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a **página Anexos Seguros,** use <https://protection.office.com/safeattachmentv2> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Anexos Seguros,** use <https://protection.office.com/safeattachmentv2> .
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -72,7 +72,7 @@ No PowerShell do Exchange Online ou no PowerShell do EOP autônomo, a política 
 
   **Observações**:
 
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
   - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para nossas configurações recomendadas para políticas de Anexos Seguros, consulte [configurações de Anexos Seguros.](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)
@@ -111,7 +111,7 @@ Criar uma política de Anexo & s Seguros personalizada no Centro de Conformidade
 
      A recomendação para as configurações de política Padrão e Estrito é habilitar o redirecionamento. Para obter mais informações, consulte [configurações de Anexos seguros.](recommended-settings-for-eop-and-office365-atp.md#safe-attachments-settings)
 
-   - Aplique a seleção acima se a verificação de anexos de **malware esgoter** ou ocorrer um erro: a ação especificada pela resposta de malware desconhecido **anexos** seguros é tomada em mensagens mesmo quando a verificação de Anexos Seguros não puder ser concluída. Se você selecionou essa opção, sempre selecione **Redirecionamento habilitado.** Caso contrário, as mensagens podem ser perdidas.
+   - Aplique a seleção acima se a verificação de anexos de **malware esgoter** ou ocorrer um erro: a ação especificada pela resposta de malware desconhecido **anexos** seguros é tomada em mensagens, mesmo quando a verificação de Anexos seguros não puder ser concluída. Se você selecionou essa opção, sempre selecione **Redirecionamento habilitado.** Caso contrário, as mensagens podem ser perdidas.
 
    Quando terminar, clique em **Avançar**.
 
@@ -145,7 +145,7 @@ Criar uma política de Anexo & s Seguros personalizada no Centro de Conformidade
 
 ## <a name="use-the-security--compliance-center-to-view-safe-attachments-policies"></a>Usar o Centro de Conformidade & segurança para exibir políticas de Anexos seguros
 
-1. No Centro de Conformidade & Segurança, vá para **Anexos** Seguros da ATP da Política \>  \> **de Gerenciamento de Ameaças.**
+1. No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de Ameaças anexos seguros \>  \> **da ATP.**
 
 2. Na página **Anexos Seguros,** selecione uma política na lista e clique nele (não marque a caixa de seleção).
 
@@ -193,7 +193,7 @@ Para alterar a prioridade de uma política, mova a política para cima ou para b
 
    - A política de Anexos Seguros com o **valor** **prioridade 0** tem apenas o **botão** Diminuir prioridade disponível.
 
-   - A política anexos seguros com o menor valor **de** prioridade (por exemplo, **3**) tem apenas o **botão** Aumentar prioridade disponível.
+   - A política de Anexos Seguros com o menor valor **de** Prioridade (por exemplo, **3**) tem apenas o **botão** Aumentar prioridade disponível.
 
    - Se você tiver três ou mais políticas de Anexos Seguros,  as políticas  entre os valores de prioridade mais alta e mais baixa terão os botões Aumentar prioridade e Diminuir prioridade disponíveis.
 
@@ -248,7 +248,7 @@ Este exemplo cria uma política de anexo seguro chamada Contoso All com os segui
 
 - Bloquear mensagens que contêm malware pela verificação de Documentos Seguros (não estamos usando o parâmetro _Action_ e o valor padrão é `Block` ).
 - O redirecionamento está habilitado, e as mensagens que contêm malware são enviadas sec-ops@contoso.com análise e investigação.
-- Se a verificação de Anexos seguros não estiver disponível ou encontrar erros, não entregue a mensagem (não estamos usando o parâmetro _ActionOnError_ e o valor padrão é `$true` ).
+- Se a verificação de Anexos Seguros não estiver disponível ou encontrar erros, não entregue a mensagem (não estamos usando o parâmetro _ActionOnError_ e o valor padrão é `$true` ).
 
 ```PowerShell
 New-SafeAttachmentPolicy -Name "Contoso All" -Redirect $true -RedirectAddress sec-ops@contoso.com
@@ -279,7 +279,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [New-SafeAt
 
 ### <a name="use-powershell-to-view-safe-attachment-policies"></a>Usar o PowerShell para exibir políticas de anexo seguro
 
-Para exibir as políticas de anexos seguros existentes, use a seguinte sintaxe:
+Para exibir políticas de anexos seguros existentes, use a seguinte sintaxe:
 
 ```PowerShell
 Get-SafeAttachmentPolicy [-Identity "<PolicyIdentity>"] [| <Format-Table | Format-List> <Property1,Property2,...>]
@@ -369,7 +369,7 @@ Para habilitar ou desabilitar uma regra de anexo seguro no PowerShell, use esta 
 <Enable-SafeAttachmentRule | Disable-SafeAttachmentRule> -Identity "<RuleName>"
 ```
 
-Este exemplo desabilita a regra de anexo seguro chamada Marketing Department.
+Este exemplo desabilita a regra de anexo seguro chamada Departamento de Marketing.
 
 ```PowerShell
 Disable-SafeAttachmentRule -Identity "Marketing Department"
@@ -443,7 +443,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-Saf
 
 Para verificar se você criou, modificou ou removeu com êxito as políticas de Anexos Seguros, faça uma das seguintes etapas:
 
-- No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de Ameaças anexos seguros \>  \> **da ATP.** Verifique a lista de políticas, seus **valores de Status** e seus valores **de** Prioridade. Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly out.
+- No Centro de Conformidade & Segurança, vá para **Política** de Gerenciamento de Ameaças anexos seguros \>  \> **da ATP.** Verifique a lista de políticas, seus valores **de Status** e seus **valores de** Prioridade. Para exibir mais detalhes, selecione a política na lista e veja os detalhes no fly out.
 
 - No PowerShell do Exchange Online ou no PowerShell da Proteção do Exchange Online, substitua o nome da política ou regra, execute o seguinte comando e \<Name\> verifique as configurações:
 

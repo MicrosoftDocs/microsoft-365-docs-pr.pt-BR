@@ -12,19 +12,19 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas práticas práticas recomendações para o Exchange Online Protection (EOP) autônomo a fim de se configurar para obter sucesso e evitar erros comuns de configuração.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a38454ceaba7f95dff172335dc374530efca20a
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: c64a9592d93ef046ad1c023a49bf378ccf6cf503
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165926"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290828"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Práticas recomendadas para configurar o EOP autônomo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](https://go.microsoft.com/fwlink/?linkid=2148611)
+-  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
 
 Siga estas práticas práticas recomendações para o Exchange Online Protection (EOP) autônomo a fim de se configurar para obter sucesso e evitar erros comuns de configuração. Este tópico supõe que você já concluiu o processo de configuração. Se ainda não realizou a configuração da EOP, confira [Configurar seu serviço EOP](set-up-your-eop-service.md).
 
@@ -38,7 +38,7 @@ Se sua organização tiver contas de usuário existentes em um ambiente do Activ
 
 ## <a name="recommended-settings"></a>Configurações recomendadas
 
-Capacitamos os administradores de segurança a personalizar suas configurações de segurança para atender às necessidades de sua organização. Embora, como regra geral, haja dois níveis de segurança no EOP e no Microsoft Defender para Office 365 que recomendamos: Padrão e Estrito. Essas configurações estão listadas nas Configurações recomendadas para segurança do EOP e [do Microsoft Defender para Office 365.](recommended-settings-for-eop-and-office365-atp.md)
+Capacitamos os administradores de segurança a personalizar suas configurações de segurança para atender às necessidades de sua organização. Embora, como regra geral, haja dois níveis de segurança no EOP e no Microsoft Defender para Office 365 que recomendamos: Padrão e Estrito. Essas configurações estão listadas nas [Configurações recomendadas para o EOP e o Microsoft Defender para segurança do Office 365.](recommended-settings-for-eop-and-office365-atp.md)
 
 ### <a name="miscellaneousnon-policy-settings"></a>Configurações miscellaneous/non-policy
 
@@ -46,7 +46,7 @@ Essas configurações abrangem uma variedade de recursos que estão fora das pol
 
 ****
 
-|Nome do recurso de segurança|Padrão|Estrito|Comment|
+|Nome do recurso de segurança|Padrão|Estrito|Comentário|
 |---|---|---|---|
 |[Configurar o SPF para ajudar a prevenir falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
 |[Usar DKIM para validar emails enviados de seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md)|Sim|Sim||
@@ -62,7 +62,7 @@ Essas configurações abrangem uma variedade de recursos que estão fora das pol
 |[Conectividade do PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User).](https://docs.microsoft.com/powershell/module/exchange/get-user)|
 |Usar [a inteligência contra spoof](learn-about-spoof-intelligence.md) para adicionar os senders à sua lista de autorizações|Sim|Sim||
 |[Bloqueio de Borda Baseado em Diretório (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Habilitado|Habilitado|Tipo de Domínio = Autoritativo|
-|[Configurar a autenticação multifa factor para todas as contas de administrador](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Habilitado|Habilitado||
+|[Configurar a autenticação multifa factor para todas as contas de administrador](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)|Habilitado|Habilitado||
 |
 
 ## <a name="troubleshooting"></a>Solução de problemas

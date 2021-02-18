@@ -19,25 +19,25 @@ ms.custom:
 description: Os administradores podem aprender sobre o nível de confiança de spam (SCL) que se aplica a mensagens no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e4fc20b7d7db5b85b5bdde02ab720fa26af2a4b5
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 05faec8101bfb13265d3cca7c661f2e86ac21c8d
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167150"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290400"
 ---
 # <a name="spam-confidence-level-scl-in-eop"></a>Nível de confiança de spam (SCL) no EOP
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, as mensagens de entrada passam pela filtragem de spam no EOP e são atribuídas a uma pontuação de spam. Essa pontuação é mapeada para um SCL (nível de confiança de spam) individual que é adicionado à mensagem em um X-header. Um SCL mais alto indica que é mais provável que uma mensagem seja spam. O EOP toma medidas na mensagem com base no SCL.
 
-O que significa o SCL e as ações padrão que são realizadas nas mensagens são descritas na tabela a seguir. Para obter mais informações sobre ações que você pode tomar em mensagens com base no veredito de filtragem de spam, consulte Configurar políticas [anti-spam no EOP.](configure-your-spam-filter-policies.md)
+O que significa o SCL e as ações padrão que são tomadas nas mensagens são descritas na tabela a seguir. Para obter mais informações sobre ações que você pode tomar em mensagens com base no veredito de filtragem de spam, consulte Configurar políticas [anti-spam no EOP.](configure-your-spam-filter-policies.md)
 
 ****
 

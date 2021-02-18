@@ -17,21 +17,21 @@ ms.collection:
 description: Os administradores podem aprender a definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online. Muitas dessas configurações estão disponíveis para usuários no Outlook ou no Outlook na Web.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2aa75376a431ded5abf44ad17ddad4f0ac731fa8
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 31f247ec74f1780d05aaeb79753abd0075401d9a
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165686"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290112"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Em organizações do Microsoft 365 com caixas de correio no Exchange Online, as configurações anti-spam organizacionais são controladas pelo Exchange Online Protection (EOP). Para obter mais informações, consulte [Proteção anti-spam no EOP.](anti-spam-protection.md)
 
@@ -39,9 +39,9 @@ Porém, também há configurações anti-spam específicas que os administradore
 
 - **Habilitar** ou desabilitar a regra de lixo eletrônico: a regra de lixo eletrônico é uma regra de Caixa de Entrada oculta chamada Regra de Lixo Eletrônico habilitada por padrão em todas as caixas de correio. A regra de lixo eletrônico controla os seguintes recursos:
 
-  - Mover mensagens para a pasta Lixo Eletrônico com base em políticas **anti-spam:** quando uma política anti-spam é configurada com a ação **Mover** mensagem para a pasta Lixo Eletrônico para um veredito de filtragem de spam, a regra de filtro de lixo eletrônico move a mensagem para a pasta Lixo Eletrônico depois que a mensagem é entregue à caixa de correio. Para obter mais informações sobre vereditos de filtragem de spam em políticas anti-spam, consulte [Configurar políticas anti-spam no EOP.](configure-your-spam-filter-policies.md) Da mesma forma, se a ZAP (Limpeza Automática Zero Hora) determinar que uma mensagem entregue é spam ou phishing, a regra de filtro de lixo eletrônico moverá a mensagem para a pasta Lixo Eletrônico para Mover mensagem para ações de veredito de filtragem de **spam** da pasta Lixo Eletrônico. Para obter mais informações sobre a ZAP, consulte ZAP (Limpeza Automática [Zero Hora) no Exchange Online.](zero-hour-auto-purge.md)
+  - Mover mensagens para a pasta Lixo Eletrônico com base em políticas **anti-spam:** quando uma política anti-spam é configurada com a ação **Mover** mensagem para a pasta Lixo Eletrônico para um veredito de filtragem de spam, a regra de filtro de lixo eletrônico move a mensagem para a pasta Lixo Eletrônico depois que a mensagem é entregue à caixa de correio. Para obter mais informações sobre vereditos de filtragem de spam em políticas anti-spam, consulte [Configurar políticas anti-spam no EOP.](configure-your-spam-filter-policies.md) Da mesma forma, se a ZAP (Limpeza Automática Zero Hora) determinar que uma mensagem entregue é spam ou phishing, a regra de filtro de lixo eletrônico moverá a mensagem para a pasta Lixo Eletrônico para Mover mensagem para ações de veredito de filtragem de **spam** da pasta Lixo Eletrônico. Para obter mais informações sobre a ZAP, consulte [Zap (Limpeza Automática Zero Hora) no Exchange Online.](zero-hour-auto-purge.md)
 
-  - Configurações de lixo eletrônico que os usuários definem  para si mesmos no Outlook ou no Outlook na Web: o conjunto de listas seguras é a lista de Destinatários Seguros, a lista de **Destinatários** Seguros e a lista de Destinatários Bloqueados em cada caixa de correio. As entradas nessas listas determinam se a regra de lixo eletrônico move a mensagem para a Caixa de Entrada ou para a pasta Lixo Eletrônico. Os usuários podem configurar o conjunto de listas seguras para suas próprias caixas de correio no Outlook ou no Outlook na Web (anteriormente conhecido como Outlook Web App). Os administradores podem configurar o conjunto de listas seguras na caixa de correio de qualquer usuário.
+  - Configurações de lixo eletrônico que os usuários definem  para si mesmos no Outlook ou no Outlook na Web: o conjunto de listas seguras é a lista de Destinatários Seguros, a lista de **Destinatários** Seguros e a lista de Destinatários Bloqueados em cada caixa de correio. As entradas nessas listas determinam se a regra de lixo eletrônico move a mensagem para a Caixa de Entrada ou para a pasta Lixo Eletrônico. Os usuários podem configurar o conjunto de listas seguras para sua própria caixa de correio no Outlook ou no Outlook na Web (anteriormente conhecido como Outlook Web App). Os administradores podem configurar o conjunto de listas seguras na caixa de correio de qualquer usuário.
 
 Quando a regra de lixo eletrônico está habilitada na caixa de correio, o EOP  é capaz de mover mensagens para a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam Mover mensagem para a pasta Lixo Eletrônico ou a lista remetentes bloqueados na caixa de correio e impedir que as mensagens são entregues na pasta Lixo Eletrônico (com base na lista remetentes seguros na caixa de correio).
 
@@ -54,9 +54,9 @@ Os administradores podem usar o PowerShell do Exchange Online para desabilitar, 
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você só pode usar o PowerShell do Exchange Online para fazer os procedimentos neste artigo. Para se conectar ao Windows PowerShell do Exchange Online, confira [Conectar ao Windows PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Você só pode usar o PowerShell do Exchange Online para fazer os procedimentos neste artigo. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa ter permissões no Exchange Online para poder fazer os procedimentos neste artigo. Especificamente, você precisa da função **Destinatários** de Email (que é atribuída aos grupos de função Gerenciamento  da **Organização,** Gerenciamento de  Destinatários e Destinatários de Email **Personalizados** por padrão) ou a função Opções de Usuário (que é atribuída aos grupos de função Gerenciamento da Organização e Help **Desk** por padrão).  Para adicionar usuários a grupos de função no Exchange Online, consulte [Modificar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Observe que os usuários com permissões padrão podem fazer esses mesmos procedimentos em suas próprias caixas de correio, desde que eles tenham acesso ao [PowerShell do Exchange Online.](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)
+- Para fazer os procedimentos deste artigo, você precisa ter permissões no Exchange Online. Especificamente, você precisa da função **Destinatários** de Email (que é atribuída aos grupos de função Gerenciamento  da **Organização,** Gerenciamento de  Destinatários e Destinatários de Email **Personalizados** por padrão) ou a função Opções de Usuário (que é atribuída aos grupos de função Gerenciamento da Organização e Help **Desk** por padrão).  Para adicionar usuários a grupos de função no Exchange Online, consulte [Modificar grupos de função no Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Observe que os usuários com permissões padrão podem fazer esses mesmos procedimentos em suas próprias caixas de correio, desde que eles tenham acesso ao [PowerShell do Exchange Online.](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)
 
 - Em ambientes da EOP autônoma, em que a EOP protege as caixas de correio locais do Exchange, é preciso configurar regras de fluxo de email (também conhecidas como regras de transporte) no Exchange local para traduzir o veredito de filtragem de spam do EOP, de modo que a regra do lixo eletrônico possa mover as mensagens para a pasta de Lixo Eletrônico. Para obter detalhes, confira [Configurar a EOP autônoma para enviar spam à pasta Lixo Eletrônico em ambientes híbridos](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 
@@ -79,7 +79,7 @@ Este exemplo desabilita a regra de lixo eletrônico na caixa de correio de Ori L
 Set-MailboxJunkEmailConfiguration -Identity "Ori Epstein" -Enabled $false
 ```
 
-Este exemplo desabilita a regra de lixo eletrônico em todas as caixas de correio de usuário na organização.
+Este exemplo desabilita a regra de lixo eletrônico em todas as caixas de correio de usuários na organização.
 
 ```PowerShell
 $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All | foreach {Set-MailboxJunkEmailConfiguration $_.Name -Enabled $false}
@@ -113,13 +113,13 @@ O conjunto de listas seguras em uma caixa de correio inclui a lista de Destinat�
 |---|---|
 |_BlockedSendersAndDomains_|**Mover emails desses senders ou domínios para minha pasta Lixo Eletrônico**|
 |_ContactsTrusted_|**Confiar em emails de meus contatos**|
-|_TrustedListsOnly_|**Confiar apenas nos emails de endereços em minha lista de domínios e de envios seguros e listas de end mailing seguros**|
+|_TrustedListsOnly_|**Confiar apenas nos emails de endereços na minha lista de domínios e de envios seguros e listas de end mailing seguros**|
 |_TrustedSendersAndDomains_<sup>\*</sup>|**Não mova emails desses envios para minha pasta Lixo Eletrônico**|
 |
 
 <sup>\*</sup>**Observações:**
 
-- No Exchange **Online,** as entradas de domínio na lista de Envios Confiáveis ou no parâmetro _TrustedSendersAndDomains_ não são reconhecidas, portanto, use apenas endereços de email. No EOP autônomo com a sincronização de diretórios, as entradas de domínio não são sincronizadas por padrão, mas você pode habilitar a sincronização para domínios. Para obter mais informações, [consulte KB3019657](https://support.microsoft.com/help/3019657).
+- No Exchange Online, as entradas **de** domínio na lista de Envios Confiáveis ou no parâmetro _TrustedSendersAndDomains_ não são reconhecidas, portanto, use apenas endereços de email. No EOP autônomo com a sincronização de diretórios, as entradas de domínio não são sincronizadas por padrão, mas você pode habilitar a sincronização para domínios. Para obter mais informações, [consulte KB3019657](https://support.microsoft.com/help/3019657).
 
 - Não é possível modificar diretamente a lista de Destinatários Confiáveis usando o cmdlet **Set-MailboxJunkEmailConfiguration** (o parâmetro _TrustedRecipientsAndDomains_ não funciona). Você modifica a lista de Destinatários Seguros e essas alterações são sincronizadas com a lista de Destinatários Seguros.
 
@@ -163,7 +163,7 @@ Para informações detalhadas de sintaxes e de parâmetros, [consulte Set-Mailbo
 
 Para verificar se você configurou com êxito o conjunto de listas seguras em uma caixa de correio, use um dos seguintes procedimentos:
 
-- Substitua pelo nome, alias ou endereço de email da caixa de correio e execute o _\<MailboxIdentity\>_ seguinte comando para verificar os valores da propriedade:
+- Substitua pelo nome, alias ou endereço de email da caixa de correio e execute o seguinte comando _\<MailboxIdentity\>_ para verificar os valores da propriedade:
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List trusted*,contacts*,blocked*
@@ -177,7 +177,7 @@ Para verificar se você configurou com êxito o conjunto de listas seguras em um
 
 ## <a name="about-junk-email-settings-in-outlook"></a>Sobre as configurações de lixo eletrônico no Outlook
 
-Para habilitar, desabilitar e definir as configurações do Filtro de Lixo Eletrônico do lado do cliente que estão disponíveis no Outlook, use a Política de Grupo. Para obter mais informações, consulte Arquivos de Modelo Administrativo (ADMX/ADML) e a Ferramenta de Personalização do Office para [o Microsoft 365 Apps para Empresas, Office 2019 e Office 2016](https://www.microsoft.com/download/details.aspx?id=49030) e como implantar configurações de lixo eletrônico, como a lista de [Envios Seguros,](https://support.microsoft.com/help/2252421)usando a Política de Grupo.
+Para habilitar, desabilitar e definir as configurações de Filtro de Lixo Eletrônico do lado do cliente que estão disponíveis no Outlook, use a Política de Grupo. Para obter mais informações, consulte Arquivos de Modelo Administrativo (ADMX/ADML) e a Ferramenta de Personalização do Office para [o Microsoft 365 Apps para Empresas, Office 2019 e Office 2016](https://www.microsoft.com/download/details.aspx?id=49030) e como implantar configurações de lixo eletrônico, como a lista de [Envios Seguros,](https://support.microsoft.com/help/2252421)usando a Política de Grupo.
 
 Quando o Filtro de Lixo Eletrônico  do Outlook é  definido como o valor padrão Nenhuma filtragem automática nas Opções de Lixo Eletrônico Em Casa , o Outlook não tenta classificar os remetentes como spam, mas ainda usa o conjunto de listas seguras (a lista de Remetentes Seguros, a lista de Destinatários Seguros e a lista de \>  \>  \> Remetentes Bloqueados) para mover mensagens para a pasta Lixo Eletrônico após a entrega. Para obter mais informações sobre essas configurações, consulte [Visão geral do Filtro de Lixo Eletrônico.](https://support.microsoft.com/office/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)
 
@@ -196,13 +196,13 @@ O conjunto de listas seguras (a lista de Destinatários Seguros, a lista de Dest
 
 - O conjunto de listas seguras na caixa de correio do usuário tem um limite de 510 KB, que inclui todas as listas, além de configurações adicionais de filtro de lixo eletrônico. Se um usuário exceder esse limite, ele receberá um erro do Outlook parecido com este:
 
-  > Não é possível adicionar às listas de lixo eletrônico do servidor. Você está acima do tamanho permitido no servidor. O filtro de Lixo Eletrônico no servidor será desabilitado até que suas listas de Lixo Eletrônico sejam reduzidas ao tamanho permitido pelo servidor.
+  > Não é possível adicionar às listas de Lixo Eletrônico do servidor. Você está acima do tamanho permitido no servidor. O filtro de Lixo Eletrônico no servidor será desabilitado até que suas listas de Lixo Eletrônico sejam reduzidas ao tamanho permitido pelo servidor.
 
   Para obter mais informações sobre esse limite e como alterá-lo, consulte [KB2669081](https://support.microsoft.com/help/2669081).
 
 - O conjunto de listas seguras sincronizadas no EOP tem os seguintes limites de sincronização:
 
-  - Total de 1024 entradas na lista de **Destinatários** Seguros, na lista de Destinatários Seguros e em contatos externos se o email de confiança de meus contatos estiver habilitado.
+  - 1024 entradas totais na lista de **Destinatários** Seguros, na lista de Destinatários Seguros e em contatos externos se o email de confiança de meus contatos estiver habilitado.
   - 500 entradas totais na lista De envios bloqueados e na lista de Domínios Bloqueados.
 
   Quando o limite de entrada 1024 é atingido, ocorrem as seguintes coisas:

@@ -13,21 +13,21 @@ ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a2b8228d33648f7bd20bde9d9e7b852276231aa6
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 945f3c4e32a6c41193e3df4813cc4ed4fe9f7b1f
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50167102"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289788"
 ---
 # <a name="help-and-support-for-eop"></a>Ajuda e suporte para EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 Em organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Proteção do Exchange Online (EOP) sem caixas de correio do Exchange Online, os recursos de suporte técnico listados neste artigo ajudarão você a encontrar respostas se você estiver com dificuldades com o EOP. A Microsoft fornece ajudar para a EOP através de uma variedade de lugares e métodos incluindo auto-suporte e suporte assistido.
 
@@ -37,7 +37,7 @@ Ao entrar, o centro de administração do Microsoft 365 fornece informações so
 
 [Visão geral do produto para a Proteção do Exchange Online](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[Entre em contato com o suporte para produtos para empresas - Ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[Entre em contato com o suporte para produtos para empresas - Ajuda para administradores](../../admin/contact-support-for-business-products.md)
 
 [Comunidade do Microsoft 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
@@ -67,7 +67,7 @@ Para obter mais informações sobre como o Suporte Premier pode ajudar sua organ
 
 1. Entre no centro de administração do Microsoft 365.
 
-2. Para problemas gerais de  produtos, vá para Solicitar \> **suporte ao suporte técnico** da Chamada de Suporte ao \> **Cliente.**
+2. Para problemas gerais do produto, vá para **Solicitar suporte** ao \> **suporte técnico** da Chamada de Suporte ao \> **Cliente.**
 
    Para perguntas antes de comprar a sua EOP ou perguntas sobre cobrança e assinaturas, vá em **Suporte** \> **Solicitar Suporte ao Cliente** \> **Ligar para o suporte de cobrança e assinatura**.
 

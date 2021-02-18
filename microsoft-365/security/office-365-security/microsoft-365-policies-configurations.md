@@ -6,6 +6,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.prod: m365-security
 ms.topic: article
+audience: Admin
 f1.keywords:
 - NOCSH
 ms.reviewer: martincoetzer
@@ -18,18 +19,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 0f6e3d7bef0f09dc922a7c1878e6ea7ce0aad3d7
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: e4b85091366927596a2c8f52c579c369fc9697c3
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233147"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290712"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Plano 1 e plano 2 do Microsoft Defender para Office 365](https://go.microsoft.com/fwlink/?linkid=2148715)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 
 O perímetro de segurança moderno da sua organização agora se estende além de sua rede para incluir os usuários acessando aplicativos baseados em nuvem de qualquer local com uma variedade de dispositivos. Sua infraestrutura de segurança precisa determinar se uma determinada solicitação de acesso deve ser concedida e sob quais condições.
 
@@ -42,12 +43,12 @@ As configurações e políticas de acesso a identidades e dispositivos são reco
 Esses recursos e suas recomendações:
 
 - Têm suporte no Microsoft 365 E3 e no Microsoft 365 E5.
-- Estão alinhados com o [Microsoft Secure Score,](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) bem como com a pontuação de identidade no [Azure AD,](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)e aumentarão essas pontuações para sua organização.
+- Estão alinhados com o [Microsoft Secure Score,](../mtp/microsoft-secure-score.md) bem como com a pontuação de identidade no [Azure AD,](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)e aumentarão essas pontuações para sua organização.
 - Ajudará você a implementar essas [cinco etapas para proteger sua infraestrutura de identidade.](https://docs.microsoft.com/azure/security/azure-ad-secure-steps)
 
 Se sua organização tiver requisitos ou complexidades de ambiente exclusivos, use essas recomendações como ponto de partida. No entanto, a maioria das organizações pode implementar essas recomendações conforme prescrito.
 
-Assista a este vídeo para ter uma rápida visão geral das configurações de acesso a dispositivos e identidade do Microsoft 365 para empresas.
+Assista a este vídeo para ter uma visão geral rápida das configurações de identidade e acesso ao dispositivo do Microsoft 365 para empresas.
 <br>
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxEDQ]
@@ -97,7 +98,7 @@ Além disso, consulte a solução [Implantar proteção de informações para re
 
 ## <a name="security-and-productivity-trade-offs"></a>Vantagens e desvantagens de produtividade e segurança
 
-Implementar qualquer estratégia de segurança requer trocas entre segurança e produtividade. É útil avaliar como cada decisão afeta o equilíbrio de segurança, funcionalidade e facilidade de uso.
+Implementar qualquer estratégia de segurança exige trocas entre segurança e produtividade. É útil avaliar como cada decisão afeta o equilíbrio de segurança, funcionalidade e facilidade de uso.
 
 ![Segurança balanceando a segurança, a funcionalidade e a facilidade de uso.](../../media/microsoft-365-policies-configurations/security-triad.png)
 
@@ -118,7 +119,7 @@ O Azure AD fornece um pacote completo de recursos de gerenciamento de identidade
 
 |Capcidade ou recurso|Descrição|Licenças|
 |---|---|---|
-|[MFA (Autenticação Multifator)](/azure/active-directory/authentication/concept-mfa-howitworks)|A MFA exige que os usuários forneçam duas formas de verificação, como uma senha de usuário, além de uma notificação do aplicativo Microsoft Authenticator ou uma chamada telefônica. A MFA reduz significativamente o risco de que credenciais roubadas possam ser usadas para acessar seu ambiente. O Microsoft 365 usa o serviço de Autenticação Multifatória do Azure AD para logins baseados em MFA.|Microsoft 365 E3 ou E5|
+|[MFA (Autenticação Multifator)](/azure/active-directory/authentication/concept-mfa-howitworks)|A MFA exige que os usuários forneçam duas formas de verificação, como uma senha de usuário, além de uma notificação do aplicativo Microsoft Authenticator ou uma chamada telefônica. A MFA reduz significativamente o risco de que credenciais roubadas possam ser usadas para acessar seu ambiente. O Microsoft 365 usa o serviço autenticação multifatória do Azure AD para logins baseados em MFA.|Microsoft 365 E3 ou E5|
 |[Acesso condicional](/azure/active-directory/conditional-access/overview)|O Azure AD avalia as condições de entrada do usuário e usa políticas de Acesso Condicional para determinar o acesso permitido. Por exemplo, nesta orientação, mostramos como criar uma política de Acesso Condicional para exigir a conformidade do dispositivo para acessar dados confidenciais. Isso reduz significativamente o risco de um hacker com seu próprio dispositivo e credenciais roubadas acessar seus dados confidenciais. Ele também protege dados confidenciais nos dispositivos, porque os dispositivos devem atender a requisitos específicos de saúde e segurança.|Microsoft 365 E3 ou E5|
 |[Grupos do Azure AD](/azure/active-directory/fundamentals/active-directory-manage-groups)|As políticas de Acesso Condicional, o gerenciamento de dispositivos com o Intune e até mesmo as permissões para arquivos e sites em sua organização dependem da atribuição a contas de usuário ou grupos do Azure AD. Recomendamos que você crie grupos do Azure AD que correspondam aos níveis de proteção que você está implementando. Por exemplo, sua equipe executiva provavelmente é um alvo de valor mais alto para hackers. Portanto, faz sentido adicionar as contas de usuário desses funcionários a um grupo do Azure AD e atribuir esse grupo a políticas de Acesso Condicional e outras políticas que impõem um nível mais alto de proteção para acesso.|Microsoft 365 E3 ou E5|
 |[Registro de dispositivos](/azure/active-directory/devices/overview)|Você registra um dispositivo no Azure AD para criar uma identidade para o dispositivo. Essa identidade é usada para autenticar o dispositivo quando um usuário entra e aplicar políticas de Acesso Condicional que exigem PCs ingressados no domínio ou em conformidade. Para essa orientação, usamos o registro de dispositivos para registrar automaticamente computadores Windows ingressados no domínio. O registro de dispositivos é um pré-requisito para gerenciar dispositivos com o Intune.|Microsoft 365 E3 ou E5|

@@ -1,5 +1,5 @@
 ---
-title: Começar a usar o treinamento de simulação de ataque
+title: Começar a usar o Treinamento de simulação de ataque
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,7 +7,6 @@ author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: how-to
-ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -19,14 +18,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Os administradores podem aprender a usar o treinamento de simulação de ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou Microsoft Defender for Office 365 Plano 2.
-ms.openlocfilehash: 2c00fb27748887c6b8e2fa1458b10f0c3405eef7
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: 1ec5b8175db6eb03e59a31a4dc21d9649c5e7616
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49877159"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289884"
 ---
-# <a name="get-started-using-attack-simulation-training"></a>Começar a usar o treinamento de simulação de ataque
+# <a name="get-started-using-attack-simulation-training"></a>Começar a usar o Treinamento de simulação de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -45,7 +46,7 @@ Se sua organização tiver o Microsoft 365 E5 ou o Microsoft Defender for Office
   - **Administradores do Simulador de** Ataque: criar e gerencia todos os aspectos de campanhas de simulação de ataque.
   - **Autores de Carga do Simulador de Ataque:** Criar cargas de ataque que um administrador pode iniciar mais tarde.
 
-  Para obter mais informações, [consulte Permissões no Centro de Conformidade](permissions-in-the-security-and-compliance-center.md) & segurança ou sobre funções de [administrador.](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)
+  Para obter mais informações, [consulte Permissões no Centro de Conformidade](permissions-in-the-security-and-compliance-center.md) & segurança ou sobre funções de [administrador.](../../admin/add-users/about-admin-roles.md)
 
 - Não há cmdlets do PowerShell correspondentes para treinamento de simulação de ataque.
 
@@ -53,7 +54,7 @@ Se sua organização tiver o Microsoft 365 E5 ou o Microsoft Defender for Office
 
 ## <a name="simulations"></a>Simulações
 
-*Phishing* é um termo genérico para ataques de email que tentam roubar informações confidenciais em mensagens que parecem ser de senders legítimos ou confiáveis. *Phishing* é uma parte de um subconjunto de técnicas que classificamos como _engenharia social._
+*Phishing* é um termo genérico para ataques de email que tentam roubar informações confidenciais em mensagens que parecem ser de envios legítimos ou confiáveis. *Phishing* é uma parte de um subconjunto de técnicas que classificamos como _engenharia social._
 
 No treinamento de simulação de ataques, vários tipos de técnicas de engenharia social estão disponíveis:
 
@@ -63,9 +64,9 @@ No treinamento de simulação de ataques, vários tipos de técnicas de engenhar
 
 - **Link em anexo:** este é um híbrido de uma coleta de credenciais. Um invasor envia ao destinatário uma mensagem que contém uma URL dentro de um anexo. Quando o destinatário abre o anexo e clica na URL, ele é levado a um site que normalmente mostra uma caixa de diálogo que solicita ao usuário seu nome de usuário e senha. Normalmente, a página de destino tem como temas um site conhecido para criar confiança no usuário.
 
-- **Link para malware:** um invasor envia ao destinatário uma mensagem que contém um link para um anexo em um site de compartilhamento de arquivos conhecido (por exemplo, SharePoint Online ou Dropbox). Quando o destinatário clica na URL, o anexo é aberto e o código arbitrário (por exemplo, uma macro) é executado no dispositivo do usuário para ajudar o invasor a instalar código adicional ou a própria entrada.
+- **Link para malware:** um invasor envia ao destinatário uma mensagem que contém um link para um anexo em um site de compartilhamento de arquivos conhecido (por exemplo, SharePoint Online ou Dropbox). Quando o destinatário clica na URL, o anexo é aberto e o código arbitrário (por exemplo, uma macro) é executado no dispositivo do usuário para ajudar o invasor a instalar código adicional ou a entrar mais.
 
-- **Drive-by-url:** um invasor envia ao destinatário uma mensagem que contém uma URL. Quando o destinatário clica na URL, ele é levado para um site que tenta executar código em segundo plano. Esse código em segundo plano tenta coletar informações sobre o destinatário ou implantar código arbitrário em seu dispositivo. Normalmente, o site de destino é um site conhecido que foi comprometido ou um clone de um site conhecido. A familiaridade com o site ajuda a convencer o usuário de que o link é seguro clicar. Essa técnica também é conhecida como um ataque _de buraco de água._
+- **Drive-by-url:** um invasor envia ao destinatário uma mensagem que contém uma URL. Quando o destinatário clica na URL, ele é levado para um site que tenta executar código em segundo plano. Esse código em segundo plano tenta coletar informações sobre o destinatário ou implantar código arbitrário em seu dispositivo. Normalmente, o site de destino é um site conhecido que foi comprometido ou um clone de um site conhecido. A familiaridade com o site ajuda a convencer o usuário de que é seguro clicar no link. Essa técnica também é conhecida como um ataque _de buraco de água._
 
 > [!NOTE]
 > Verifique a disponibilidade da URL de phishing simulada em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing. Embora trabalhemos com muitos fornecedores de reputação de URL para sempre permitir essas URLs de simulação, nem sempre temos cobertura total (por exemplo, Navegação Segura do Google). A maioria dos fornecedores fornece orientações que permitem sempre permitir URLs específicas (por exemplo, <https://support.google.com/chrome/a/answer/7532419> ).

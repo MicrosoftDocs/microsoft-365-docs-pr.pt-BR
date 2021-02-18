@@ -14,21 +14,21 @@ ms.custom:
 description: Os administradores podem usar o rastreamento de mensagens no Centro de Conformidade & segurança para descobrir o que aconteceu com as mensagens.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b0c27d8e0f43557be537d6e7c9fa096441cc229
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
+ms.openlocfilehash: 1ce26f7a6cdad15019e2b40eb6f8746e5723d4f0
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150274"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290652"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 ## <a name="message-trace-features"></a>Recursos de rastreamento de mensagens
 
@@ -56,7 +56,7 @@ A partir daqui, você pode iniciar um novo rastreamento padrão clicando no **bo
 
 - **Consultas personalizadas:** consultas salvas por administradores em sua organização para uso futuro.
 
-- **Consultas autosaved:** as dez últimas consultas mais recentemente. Essa lista torna mais simples de reacarcar de onde você saiu.
+- **Consultas autosaved:** as dez últimas consultas mais recentemente. Essa lista torna mais fácil reacarcar de onde você saiu.
 
 Também nesta página  há uma seção de relatórios baixáveis para as solicitações que você enviou, bem como os relatórios em si quando há disponíveis para download.
 
@@ -72,9 +72,9 @@ Os valores padrão são **Todos os destinatários e** os **destinatários,** mas
 
 > [!NOTE]
 >
-> - Você também pode digitar os endereços de email de destinatários e destinatários externos. Há suporte para curingas (por exemplo), mas você não pode usar várias entradas curinga no mesmo campo `*@contoso.com` ao mesmo tempo.
+> - Você também pode digitar os endereços de email de destinatários e destinatários externos. Há suporte para curingas (por exemplo, ), mas você não pode usar várias entradas curinga no mesmo campo `*@contoso.com` ao mesmo tempo.
 >
-> - Você pode colar várias listas de destinatários ou de envios separadas por ponto-e-vírgula ( `;` ). espaços ( `\s` ), retornos de carro ( `\r` ) ou próximas linhas ( `\n` ).
+> - You can paste multiple senders or recipients lists separated by semicolons ( `;` ). espaços ( `\s` ), retornos de carro ( `\r` ) ou próximas linhas ( `\n` ).
 
 ### <a name="time-range"></a>Intervalo de tempo
 
@@ -86,7 +86,7 @@ O valor padrão é **2 dias,** mas você pode especificar intervalos de data/hor
 
   Porém, você também  pode alternar para o  exibição Personalizado, onde você pode especificar  os valores de data de início e de término (incluindo horas) e também pode selecionar o fuso horário para o intervalo de data/hora.  Observe que a **configuração fuso** horário se aplica às entradas de consulta e aos resultados da consulta.
 
-  ![Um intervalo de tempo personalizado em um novo rastreamento de mensagens no Centro de Conformidade & Segurança](../../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
+  ![Um intervalo de tempo personalizado em um novo rastreamento de mensagem no Centro de Conformidade & Segurança](../../media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
 
   Por 10 dias ou menos, os resultados ficam disponíveis instantaneamente como um relatório **de** Resumo. Se você especificar um intervalo de tempo que seja um pouco maior do que 10 dias, os resultados serão atrasados,  pois só estarão disponíveis como um arquivo CSV para download **(resumo** aprimorado ou relatórios estendidos).
 
@@ -122,7 +122,7 @@ Você pode deixar o valor padrão **Todos** selecionados ou pode selecionar um d
 
 #### <a name="message-id"></a>ID da mensagem
 
-Essa é a ID de mensagem da Internet (também conhecida como ID do Cliente) encontrada no campo De **mensagem-ID:** no header da mensagem. Os usuários podem lhe dar esse valor para investigar mensagens específicas.
+Essa é a ID de mensagem da Internet (também conhecida como ID do Cliente) encontrada no campo de header **Message-ID:** no header da mensagem. Os usuários podem lhe dar esse valor para investigar mensagens específicas.
 
 Esse valor é constante durante o tempo de vida da mensagem. Para mensagens criadas no Microsoft 365 ou Exchange, o valor está no formato `<GUID@ServerFQDN>` , incluindo os colchetes angulares ( \< \> ). Por exemplo, `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`. Outros sistemas de mensagens podem usar sintaxe ou valores diferentes. Esse valor deve ser exclusivo, mas nem todos os sistemas de email seguem estritamente esse requisito. Se o campo de cabeça **Message-ID:** não existir ou estiver em branco para mensagens de entrada de fontes externas, um valor arbitrário será atribuído.
 
@@ -145,11 +145,11 @@ Os tipos de relatório disponíveis são:
 
 - **Resumo:** Disponível se o intervalo de tempo for menor que 10 dias e não exigir opções de filtragem adicionais. Os resultados estão disponíveis quase imediatamente após você clicar em **Pesquisar.** O relatório retorna até 20.000 resultados.
 
--  Resumo aprimorado ou **Estendido:** esses relatórios estão disponíveis apenas como arquivos CSV baixáveis e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de **tempo:** Por essas **pessoas,** para essas pessoas ou **ID** da Mensagem. Você pode usar curingas para os destinatários ou os destinatários (por exemplo, \* @contoso.com). O relatório de resumo aprimorado retorna até 50.000 resultados. O relatório Estendido retorna até 1.000 resultados.
+-  Resumo aprimorado ou **Estendido:** esses relatórios estão disponíveis apenas como arquivos CSV baixáveis e exigem uma ou mais das seguintes opções de filtragem, independentemente do intervalo de **tempo:** Por essas **pessoas,** para essas pessoas ou **ID** da Mensagem. Você pode usar curingas para os destinatários ou os destinatários (por exemplo, \* @contoso.com). O relatório de resumo aprimorado retorna até 50.000 resultados. O relatório Estendido retorna até 1000 resultados.
 
 > [!NOTE]
 > 
-> - Os relatórios estendidos e de resumo aprimorados são preparados usando dados de rastreamento de mensagens arquivados e podem levar várias horas até que o relatório esteja disponível para download. Dependendo de quantos outros administradores também enviaram solicitações de relatório ao mesmo tempo, você também pode notar um atraso antes que sua solicitação na fila comece a ser processada.
+> - Os relatórios estendidos e de resumo aprimorados são preparados usando dados de rastreamento de mensagens arquivados e podem levar várias horas antes que o relatório esteja disponível para download. Dependendo de quantos outros administradores também enviaram solicitações de relatório ao mesmo tempo, você também pode notar um atraso antes que sua solicitação na fila comece a ser processada.
 > 
 > - Embora você possa selecionar um resumo aprimorado ou um relatório estendido para qualquer intervalo de data/hora, normalmente as últimas quatro horas de dados arquivados ainda não estarão disponíveis para esses dois tipos de relatórios.
 
@@ -163,9 +163,9 @@ Os diferentes tipos de relatório retornam diferentes níveis de informações. 
 
 ### <a name="summary-report-output"></a>Saída do relatório de resumo
 
-Depois de executar o rastreamento de mensagens, os resultados serão listados, organizados por data/hora decrescente (a primeira mais recente).
+Depois de executar o rastreamento de mensagem, os resultados serão listados, organizados por data/hora decrescente (a primeira mais recente).
 
-![Resultados de relatório resumido para rastreamento de mensagens no Centro de Conformidade & segurança](../../media/0664bafe-0b03-477b-b571-0b046ac8c977.png)
+![Resultados do relatório resumido para rastreamento de mensagens no Centro de Conformidade & segurança](../../media/0664bafe-0b03-477b-b571-0b046ac8c977.png)
 
 O relatório resumido contém as seguintes informações:
 
@@ -201,9 +201,9 @@ Na saída do relatório resumido, você pode exibir detalhes sobre uma mensagem 
 
 - Selecione a linha (clique em qualquer lugar da linha, exceto na caixa de seleção).
 
-- Marque a caixa de seleção da linha e clique em **Mais opções** Mais Exibir detalhes da ![ ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **mensagem.**
+- Marque a caixa de seleção da linha e clique em Mais opções **Mais Exibir** detalhes da ![ ](../../media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **mensagem.**
 
-   ![Detalhes depois de clicar duas vezes em uma linha no relatório resumido resultados de rastreamento de mensagem no Centro de Conformidade & segurança](../../media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
+   ![Detalhes após clicar duas vezes em uma linha no relatório de resumo resultados de rastreamento de mensagem no Centro de Conformidade & segurança](../../media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
 
 Os detalhes do rastreamento de mensagens contêm as seguintes informações adicionais que não estão presentes no relatório resumido:
 
@@ -215,13 +215,13 @@ Os detalhes do rastreamento de mensagens contêm as seguintes informações adic
 
   - **Falha:** A mensagem não foi entregue.
 
-  - **Entregar**: a mensagem foi entregue a uma caixa de correio.
+  - **Entrega:** a mensagem foi entregue a uma caixa de correio.
 
   - **Expanda**: a mensagem foi enviada para um grupo de distribuição que foi expandido.
 
   - **Transferência:** os destinatários foram movidos para uma mensagem bifurcada devido à conversão de conteúdo, limites de destinatário da mensagem ou agentes.
 
-  - **Adiamento**: a entrega da mensagem foi adiada e pode ser tentada novamente mais tarde.
+  - **Adiar**: a entrega da mensagem foi adiada e pode ser tentada novamente mais tarde.
 
   - **Resolvido:** a mensagem foi redirecionada para um novo endereço de destinatário com base em uma busca no Active Directory. Quando isso acontece, o endereço original de destinatário é listado em uma linha separada no rastreamento de mensagem junto com o status final de entrega da mensagem.
 
@@ -247,13 +247,13 @@ Relatórios de resumo aprimorados disponíveis (concluídos) estão disponíveis
 
 - **origin_timestamp**: a data e hora em que a mensagem foi inicialmente recebida pelo serviço, usando o <sup>*</sup> fuso horário UTC configurado.
 
-- **sender_address**: o endereço de email do remetente *(domínio do* @ alias).
+- **sender_address:** o endereço de email do remetente *(domínio de alias).* @ 
 
 - **Recipient_status**: o status da entrega da mensagem para o destinatário. Se a mensagem foi enviada para vários destinatários, ela mostrará todos os destinatários e o status correspondente para cada um, no formato: \<*email address*\> ## \<*status*\> . Por exemplo:
 
   - **##Receive, Send** significa que a mensagem foi recebida pelo serviço e enviada para o destino pretendido.
 
-  - **##Receive, Fail** significa que a mensagem foi recebida pelo serviço, mas a entrega ao destino pretendido falhou.
+  - **##Receive, Falha significa** que a mensagem foi recebida pelo serviço, mas a entrega ao destino pretendido falhou.
 
   - **##Receive, Entrega significa** que a mensagem foi recebida pelo serviço e entregue à caixa de correio do destinatário.
 
@@ -287,7 +287,7 @@ Relatórios estendidos disponíveis (concluídos) estão disponíveis na seção
 
 - **server_hostname:** o nome do host ou FQDN do servidor de destino.
 
-- **source_context:** informações extras associadas ao campo **de origem.** Por exemplo:
+- **source_context**: informações extras associadas ao campo **de origem.** Por exemplo:
 
   - `Protocol Filter Agent`
 
@@ -331,7 +331,7 @@ Relatórios estendidos disponíveis (concluídos) estão disponíveis na seção
 
 - **message_info:** informações adicionais sobre a mensagem. Por exemplo:
 
-  - A data e a hora de origem da mensagem em UTC `DELIVER` para `SEND` eventos. A data e a hora de origem é a hora em que a mensagem entrou pela primeira vez na organização do Exchange Online. A data e a hora UTC são representadas no formato de data e hora ISO 8601: , onde = ano, = mês, = dia, indica o início do componente de `yyyy-mm-ddThh:mm:ss.fffZ` `yyyy` `mm` `dd` `T` hora, `hh` = hora, `mm` = minuto, = segundo, `ss` `fff` = `Z` `Zulu` frações de um segundo e significa , que é outra maneira de indicar UTC.
+  - A data e a hora de origem da mensagem em UTC `DELIVER` para `SEND` eventos. A data e a hora de origem é a hora em que a mensagem entrou pela primeira vez na organização do Exchange Online. A data e a hora UTC são representadas no formato de data e hora ISO 8601: , onde = ano, = mês, = dia, indica o início do componente de hora, = hora, = minuto, = segundo, = frações de um segundo e significa , que é outra maneira `yyyy-mm-ddThh:mm:ss.fffZ` `yyyy` `mm` `dd` de `T` `hh` `mm` `ss` `fff` `Z` `Zulu` denotar UTC.
 
   - Erros de autenticação. Por exemplo, você pode ver o valor `11a` e o tipo de autenticação que foi usado quando o erro de autenticação ocorreu.
 
@@ -412,7 +412,7 @@ Um **custom_data** que começa com é do agente de Regra de Transporte para regr
 |`ETR|ruleId=<guid>`|A identificação da regra encontrou uma correspondência.|
 |`St=<datetime>`|A data e a hora em UTC em que a regra de match ocorreu.|
 |`Action=<ActionDefinition>`|A ação que foi aplicada. Para ver uma lista de ações disponíveis, confira [Ações de regra de fluxo de emails no Exchange Online.](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)|
-|`Mode=<Mode>`|O modo da regra. Os valores válidos são:<ul><li>**Impor:** todas as ações na regra serão impostas.</li><li>**Teste com Dicas de Política:**: Todas as ações de Dica de Política serão enviadas, mas outras ações impositivas não serão realizadas.</li><li>**Teste sem Dicas de Política:** as ações serão listadas em um arquivo de log, mas os envios não serão notificados de nenhuma maneira e as ações impositivas não serão realizadas.</li></ul>|
+|`Mode=<Mode>`|O modo da regra. Os valores válidos são:<ul><li>**Impor:** todas as ações na regra serão impostas.</li><li>**Teste com Dicas de Política:**: Todas as ações de Dica de Política serão enviadas, mas outras ações impositivas não serão realizadas.</li><li>**Teste sem Dicas de Política:** as ações serão listadas em um arquivo de log, mas os senders não serão notificados de nenhuma maneira e as ações impositivas não serão realizadas.</li></ul>|
 |
 
 Um exemplo **custom_data** valor de uma mensagem que corresponde às condições de uma regra de fluxo de emails tem esta aparência:

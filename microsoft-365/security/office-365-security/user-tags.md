@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Microsoft Defender para Office 365 Plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft Defender para Office 365 para identificar rapidamente os usuários marcados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ed91492e652773b3a48373df49b20d97887df6ee
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 62d858fe5962b94f536d4ccbd712e21bdd5caa57
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49931429"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290124"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft Defender para Office 365
 
@@ -30,7 +30,7 @@ ms.locfileid: "49931429"
 
 As marcas de usuário são identificadores para grupos específicos de usuários [no Microsoft Defender para Office 365.](office-365-atp.md) Há dois tipos de marcas de usuário:
 
-- **Marcas do** sistema: Atualmente, as contas [de prioridade](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts) são o único tipo de marca do sistema.
+- **Marcas do** sistema: Atualmente, as contas [de prioridade](../../admin/setup/priority-accounts.md) são o único tipo de marca do sistema.
 - **Marcas personalizadas:** você mesmo cria essas marcas de usuário.
 
 Se sua organização tiver o Defender para Office 365 Plano 2 (incluído em sua assinatura ou como um complemento), você pode criar marcas de usuário personalizadas além de usar a marca de contas de prioridade.
@@ -47,9 +47,9 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Você abrir o Centro de conformidade e segurança em <https://protection.office.com/>. Para ir diretamente para a **página De marcas de** usuário, abra <https://protection.office.com/userTags> .
+- Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página de marcas de** usuário, abra <https://protection.office.com/userTags> .
 
-- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos neste artigo:
+- Você precisa de permissões no Centro de Conformidade e Segurança antes de poder realizar os procedimentos deste artigo:
   - Para criar, modificar e excluir marcas de usuário,  você precisa ser membro dos grupos de função Gerenciamento da Organização ou **Administrador de** Segurança.
   - Para adicionar e remover membros de marcas de usuário existentes, você precisa ser membro dos grupos de função Gerenciamento da **Organização,** Administrador de Segurança ou **Operador** de Segurança
   - Para acesso somente leitura às marcas de usuário, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
@@ -58,10 +58,10 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
 
   **Observações**:
 
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
-  - O gerenciamento de marca de usuário é controlado pelas funções **Leitor de Marca,** **Colaborador de Marca** e Gerenciador de **Marca.**
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Segurança e Conformidade _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  - O gerenciamento de marca de usuário é controlado pelas funções Leitor **de Marca,** **Colaborador de Marca** e Gerenciador de **Marca.**
 
-- Você também pode gerenciar e monitorar contas prioritárias no Centro de administração do Microsoft 365. Para obter instruções, consulte [Gerenciar e monitorar contas de prioridade.](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)
+- Você também pode gerenciar e monitorar contas prioritárias no Centro de administração do Microsoft 365. Para obter instruções, consulte [Gerenciar e monitorar contas de prioridade.](../../admin/setup/priority-accounts.md)
 
 ## <a name="use-the-security-center-to-create-user-tags"></a>Usar a Central de Segurança para criar marcas de usuário
 
@@ -82,7 +82,7 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
      - Clique na caixa e comece a digitar para filtrar a lista e selecionar um usuário ou grupo.
      - Para adicionar valores adicionais, clique em uma área vazia na caixa.
      - Para remover entradas individuais da  caixa, clique no ícone Remover do ![ usuário ou grupo na ](../../media/scc-remove-icon.png) caixa.
-     - Para remover entradas existentes da lista abaixo da caixa, clique em **Remover** ![ ícone Remover a ](../../media/scc-remove-icon.png) entrada.
+     - Para remover as entradas existentes da lista abaixo da caixa, clique no ícone **Remover** ![ da ](../../media/scc-remove-icon.png) entrada.
 
      Quando terminar, clique em **Adicionar**.
 
@@ -110,7 +110,7 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
 
 2. Na página **Marcas de usuário** que é aberta, selecione a marca de usuário que você deseja exibir e clique em Editar **marca**.
 
-3. O assistente de política é aberto em um **fly out de marca** de edição. Clique **em Próximo** para revisar e modificar as configurações.
+3. O assistente de política é aberto em um **fly out de marca** de edição. Clique **em** Próximo para revisar e modificar as configurações.
 
    Quando terminar, clique em **Enviar.**
 

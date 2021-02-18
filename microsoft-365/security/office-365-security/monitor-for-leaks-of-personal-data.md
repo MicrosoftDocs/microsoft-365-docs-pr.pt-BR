@@ -19,12 +19,12 @@ search.appverid:
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b1425015843b2f444c6a410df449eeeaf4045ee5
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: a8fb8557d6cd2677aeb6dcda75d34e86ada8f68c
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261420"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290664"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -65,7 +65,7 @@ Além disso, você pode usar os relatórios de DLP para ajustar suas políticas 
 
 Os relatórios DLP estão no centro de segurança e o no centro de conformidade. Navegue até Relatórios \> Exibir relatórios. Em prevenção de perda de dados (DLP), vá para correspondências de políticas e regras DLP ou substituições e falsos positivos DLP.
 
-Para saber mais, confira o artigo [Exibir o relatório de prevenção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports).
+Para saber mais, confira o artigo [Exibir o relatório de prevenção contra perda de dados](../../compliance/view-the-dlp-reports.md).
 
 ![Relatório mostrando correspondências de política DLP](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -87,17 +87,17 @@ Existem soluções disponíveis, com as quais é possível inscrever-se nos logs
 
 Clique nos links abaixo para saber mais sobre as políticas de alerta e como pesquisar no log de auditoria.
 
-- [Políticas de alerta nos centros de conformidade e segurança do Microsoft Office 365](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+- [Políticas de alerta nos centros de conformidade e segurança do Microsoft Office 365](../../compliance/alert-policies.md)
 
-- [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log) (introdução)
+- [Pesquisar as atividades do administrador e dos usuários no log de auditoria do Office 365](../../compliance/search-the-audit-log-in-security-and-compliance.md) (introdução)
 
-- [Ativar ou desativar a pesquisa de log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+- [Ativar ou desativar a pesquisa de log de auditoria](../../compliance/turn-audit-log-search-on-or-off.md)
 
-- [Pesquisas o log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Pesquisas o log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
 - [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) (cmdlet)
 
-- [Propriedades detalhadas no log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
+- [Propriedades detalhadas no log de auditoria](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 

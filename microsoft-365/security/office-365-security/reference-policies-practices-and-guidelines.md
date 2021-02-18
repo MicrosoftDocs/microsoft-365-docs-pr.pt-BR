@@ -17,21 +17,21 @@ ms.collection:
 description: A Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger nossos usuários contra emails ofensivos, indesejados ou mal-intencionados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01df2e8c1cc8a8ca68688377c4cad6ade91b5623
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 1065fdef5f804214ca48f7ca54170e6e417490d7
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166850"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289192"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Referência: políticas, práticas e diretrizes
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
 A Microsoft se dedica a ajudar a fornecer a experiência de usuário mais confiável na Web. Portanto, a Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger nossos usuários contra emails ofensivos, indesejados ou mal-intencionados. Os envios que tentam enviar emails aos usuários devem garantir que eles entendam totalmente e estão seguindo as orientações neste artigo para ajudar nesse esforço e para ajudar a evitar possíveis problemas de entrega.
 
@@ -79,15 +79,15 @@ Além disso, os servidores de email que se conectam ao Microsoft 365 devem cumpr
 
 ## <a name="reputation-management"></a>Gerenciamento de reputação
 
-Os provedores de envios, ISP e outros provedores de serviços devem gerenciar ativamente a reputação de seus endereços IP de saída.
+Os fornecedores, ISP e outros provedores de serviços devem gerenciar ativamente a reputação de seus endereços IP de saída.
 
 ## <a name="microsoft-365-limits"></a>Limites do Microsoft 365
 
-Os envios devem cumprir os limites do Microsoft 365 listados nos Limites da Proteção [do Exchange Online.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
+Os envios devem cumprir os limites do Microsoft 365 listados nos Limites [da Proteção do Exchange Online.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
 
 ## <a name="email-delivery-resources-and-organizations"></a>Organizações e recursos de entrega de email
 
-A Microsoft trabalha ativamente com entidades do setor e provedores de serviços para melhorar o ecossistema de internet e email. Essas organizações publicaram documentos de práticas recomendas aos que damos suporte e recomendamos que os envios aderem. Isso melhora sua capacidade de entregar emails entre vários provedores de serviços de email em todo o mundo.
+A Microsoft trabalha ativamente com órgãos do setor e provedores de serviços para melhorar o ecossistema de internet e email. Essas organizações publicaram documentos de práticas recomendas aos que damos suporte e recomendamos que os envios aderem. Isso melhora sua capacidade de entregar emails entre vários provedores de serviços de email em todo o mundo.
 
 - [Grupo de trabalho anti-abuso móvel de malware de mensagens](https://www.m3aawg.org/)
 
@@ -97,8 +97,8 @@ A Microsoft trabalha ativamente com entidades do setor e provedores de serviços
 
 ## <a name="abuse-and-spam-reporting"></a>Relatórios de abusos e spam
 
-Para relatar emails ilegais, ofensivos, indesejados ou mal-intencionados, confira [As mensagens e arquivos de relatório para a Microsoft.](report-junk-email-messages-to-microsoft.md) O envio desses tipos de comunicações é uma violação da política da Microsoft, e a ação apropriada será tomada em relatórios confirmados.
+Para relatar emails ilegais, ofensivos, indesejados ou mal-intencionados, confira [As mensagens e arquivos de relatório para a Microsoft.](report-junk-email-messages-to-microsoft.md) O envio desses tipos de comunicações é uma violação da política da Microsoft e a ação apropriada será tomada em relatórios confirmados.
 
-## <a name="law-enforcement"></a>Imposição da lei
+## <a name="law-enforcement"></a>Aplicação da lei
 
 Se você for membro das autoridades legais e quiser atender à Microsoft Corporation com documentação legal sobre o Office 365 ou se tiver dúvidas sobre a documentação legal enviada à Microsoft, ligue para (1) (425) 722-1299.

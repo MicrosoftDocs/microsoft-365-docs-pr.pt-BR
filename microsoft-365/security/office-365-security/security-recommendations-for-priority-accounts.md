@@ -20,12 +20,12 @@ ms.collection:
 description: Os administradores podem aprender a elevar as configurações de segurança e usar relatórios, alertas e investigações para contas prioritárias em suas organizações do Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 814ca47ee48e844e313f7d75640643a0b659c527
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: 4038a9abc3357bb72a0c21db3e4ca4679c1aa745
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50166364"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290746"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Recomendações de segurança para contas prioritárias no Microsoft 365
 
@@ -52,7 +52,7 @@ O Microsoft 365 e o Microsoft Defender para Office 365 contêm vários recursos 
 
 As contas de prioridade exigem maior segurança de login. Você pode aumentar a segurança de login deles exigindo a autenticação multifatofa (MFA) e desabilitando protocolos de autenticação herdados.
 
-Para obter instruções, consulte [a Etapa 1. Aumente a segurança de login para funcionários remotos com MFA.](https://docs.microsoft.com/microsoft-365/solutions/empower-people-to-work-remotely-secure-sign-in) Embora este artigo seja sobre funcionários remotos, os mesmos conceitos se aplicam aos usuários prioritários.
+Para obter instruções, consulte [a Etapa 1. Aumente a segurança de login para funcionários remotos com MFA.](../../solutions/empower-people-to-work-remotely-secure-sign-in.md) Embora este artigo seja sobre funcionários remotos, os mesmos conceitos se aplicam aos usuários prioritários.
 
 **Observação:** recomendamos que você desabilite globalmente os protocolos de autenticação herdados para todos os usuários com prioridade, conforme descrito no artigo anterior. Se seus requisitos de negócios impedirem isso, o Exchange Online oferece os seguintes controles para ajudar a limitar o escopo de protocolos de autenticação herdados:
 
@@ -80,7 +80,7 @@ Para obter detalhes sobre como as configurações de política Estrito diferem d
 
 As marcas de usuário no Microsoft Defender para Office 365 Plano 2 (como parte do Microsoft 365 E5 ou uma assinatura de complemento) são uma maneira de identificar e classificar rapidamente usuários ou grupos de usuários específicos em relatórios e investigações de incidentes.
 
-**Contas de** prioridade é um tipo de marca de usuário interna (conhecida como marca do _sistema)_ que você pode usar para identificar incidentes e alertas que envolvem contas de prioridade. Para obter mais informações sobre **contas de prioridade,** [consulte Gerenciar e monitorar contas de prioridade.](https://docs.microsoft.com/microsoft-365/admin/setup/priority-accounts)
+**Contas de** prioridade é um tipo de marca de usuário interna (conhecida como marca do _sistema)_ que você pode usar para identificar incidentes e alertas que envolvem contas de prioridade. Para obter mais informações sobre **contas de prioridade,** [consulte Gerenciar e monitorar contas de prioridade.](../../admin/setup/priority-accounts.md)
 
 Você também pode criar marcas personalizadas para identificar e classificar ainda mais suas contas de prioridade. Para obter mais informações, consulte [Marcas de usuário.](user-tags.md) Observe que você pode gerenciar **contas de prioridade** (marcas do sistema) na mesma interface que as marcas de usuário personalizadas.
 
@@ -94,8 +94,8 @@ Depois de proteger e marcar os usuários com prioridade, você pode usar os rela
 
 |Recurso|Descrição|
 |---|---|
-|Alertas|As marcas de usuário dos usuários afetados estão visíveis e disponíveis como filtros na página Exibir **alertas** no Centro de Conformidade & Segurança. Para obter mais informações, consulte [Exibindo alertas.](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#viewing-alerts)|
-|Explorador de Ameaças <p> Detecções em tempo real|No **Explorador** de Ameaças (Microsoft Defender para Office 365 Plano 2) ou detecções em tempo **real** (Microsoft Defender para Office 365 Plano 1), as marcas de usuário ficam visíveis na exibição de grade Email e no submenu Detalhes do email. As marcas de usuário também estão disponíveis como uma propriedade filtável. Para obter mais informações, consulte [Marcas no Explorador de Ameaças.](threat-explorer.md#tags-in-threat-explorer)|
+|Alertas|As marcas de usuário dos usuários afetados estão visíveis e disponíveis como filtros na página Exibir **alertas** no Centro de Conformidade & Segurança. Para obter mais informações, consulte [Exibindo alertas.](../../compliance/alert-policies.md#viewing-alerts)|
+|Explorador de Ameaças <p> Detecções em tempo real|No **Explorador** de Ameaças (Microsoft Defender para Office 365 Plano 2) ou detecções em tempo **real** (Microsoft Defender para Office 365 Plano 1), as marcas de usuário são visíveis na exibição de grade Email e no submenu Detalhes do email. As marcas de usuário também estão disponíveis como uma propriedade filtável. Para obter mais informações, consulte [Marcas no Explorador de Ameaças.](threat-explorer.md#tags-in-threat-explorer)|
 |Modos de Exibição de Campanha|As marcas de usuário são uma das muitas propriedades filtáveis em Exibições de Campanha no Microsoft Defender para Office 365 Plano 2. Para obter mais informações, consulte [Exibições de Campanha.](campaigns.md)|
 |Relatório de status de proteção contra ameaças|Em praticamente todas as exibições e tabelas de detalhes no relatório de **status** de Proteção contra Ameaças, você pode filtrar os resultados por **contas de prioridade.** Para obter mais informações, consulte [o relatório de status de proteção contra ameaças.](view-email-security-reports.md#threat-protection-status-report)|
 |Email issues for priority accounts report|Os **problemas de email para** o relatório de contas de prioridade no Centro de administração do Exchange (EAC) contém informações sobre mensagens não entregues e atrasadas para contas de **prioridade.** Para obter mais informações, consulte [Email issues for priority accounts report](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report).|
@@ -117,7 +117,7 @@ O Microsoft 365 fornece os seguintes recursos para ajudar a informar os usuário
 |---|---|---|
 |Microsoft 365|[Caminhos de aprendizagem personalizáveis](https://docs.microsoft.com/office365/customlearning/)|Esses recursos podem ajudá-lo a reunir treinamentos para usuários em sua organização.|
 |Segurança do Microsoft 365|[Módulo de aprendizagem: proteja sua organização com segurança interna e inteligente do Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365)|Este módulo permite descrever como os recursos de segurança do Microsoft 365 funcionam juntos e articular os benefícios desses recursos de segurança.|
-|Multi-factor Authentication|[Verificação em duas etapas: Qual é a página de verificação adicional?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time)|Este artigo ajuda os usuários finais a entender o que é a autenticação multifatare e por que ela está sendo usada em sua organização.|
+|Multi-factor Authentication|[Verificação em duas etapas: Qual é a página de verificação adicional?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time)|Este artigo ajuda os usuários finais a entender o que é a autenticação multifafa e por que ela está sendo usada em sua organização.|
 |Treinamento de simulação de ataque|[Começar a usar o Treinamento de simulação de ataque](attack-simulation-training-get-started.md)|O treinamento de simulação de ataque no Microsoft Defender para Office 365 Plano 2 permite que o administrador configure, iniciar e rastrear ataques simulados de phishing contra grupos de usuários específicos.|
 
 Além disso, a Microsoft recomenda que os usuários tomem as ações descritas neste artigo: proteger sua conta e dispositivos [contra hackers e malware.](https://support.microsoft.com/office/066d6216-a56b-4f90-9af3-b3a1e9a327d6) Essas ações incluem:

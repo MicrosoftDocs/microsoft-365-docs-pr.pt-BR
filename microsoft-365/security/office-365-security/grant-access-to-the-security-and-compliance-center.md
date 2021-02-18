@@ -20,23 +20,23 @@ description: Os usuários precisam ter permissões no Centro de Conformidade e S
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9e19825ce0f8224b2aee8e1419ef5d1ad425aadb
-ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
+ms.openlocfilehash: e1a619b184c575e3750b2499adc661627b4d27d6
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50165410"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50289872"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Conceder aos usuários acesso ao Centro de Conformidade e Segurança
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
-- [Proteção do Exchange Online](https://go.microsoft.com/fwlink/?linkid=2148611)
-- [Microsoft Defender para Office 365 plano 1 e plano 2](https://go.microsoft.com/fwlink/?linkid=2148715)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+- [Proteção do Exchange Online](exchange-online-protection-overview.md)
+- [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
+- [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Os usuários precisam ter permissões no Centro de Conformidade e Segurança & para poder gerenciar qualquer um de seus recursos de segurança ou conformidade. Como administrador global ou membro do grupo de função OrganizationManage & ment no Centro de Conformidade e Segurança, você pode dar essas permissões aos usuários. Os usuários só podem gerenciar os recursos de segurança ou de conformidade para os quais você conceder acesso.
+Os usuários precisam ter permissões no Centro de Conformidade e Segurança & para poder gerenciar qualquer um dos seus recursos de segurança ou conformidade. Como administrador global ou membro do grupo de função OrganizationManage & ment no Centro de Conformidade e Segurança, você pode dar essas permissões aos usuários. Os usuários só podem gerenciar os recursos de segurança ou de conformidade para os quais você conceder acesso.
 
 Para obter mais informações sobre as diferentes permissões que você pode dar aos usuários no Centro de Conformidade e Segurança &, confira Permissões no Centro de Conformidade e & [Segurança.](permissions-in-the-security-and-compliance-center.md)
 
@@ -62,9 +62,9 @@ Para obter mais informações sobre as diferentes permissões que você pode dar
 
 5. Quando concluir, clique em **Salvar**.
 
-## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Use o & PowerShell do Centro de Conformidade e Segurança para dar a outro usuário acesso ao Centro de Conformidade e Segurança & Segurança
+## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Usar o & PowerShell do Centro de Conformidade e Segurança para dar a outro usuário acesso ao Centro de Conformidade & Segurança
 
-1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Conectar-se ao Windows PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Use a seguinte sintaxe:
 
