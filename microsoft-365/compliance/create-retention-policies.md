@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: d79a505731eea8b48e19507ff6ae9558cb9a78b2
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 1806000b47a19c07da11a6a732eeacf5d60a7da0
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840864"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261320"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
@@ -43,7 +43,7 @@ O administrador global da sua organização tem permissões completas para criar
 Embora uma política de retenção possa dar suporte a vários locais, você não pode criar uma única política de retenção que inclui todos os locais suportados:
 
 - Email do Exchange
-- Site do Microsoft Office SharePoint Online
+- Site do SharePoint
 - Contas do OneDrive
 - Grupos do Microsoft 365
 - Skype for Business
@@ -257,20 +257,7 @@ Por exemplo, se uma política incluir todos os emails do Exchange e sites do Sha
 
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>Uma política com inclusões ou exclusões específicas
 
-Apenas se você usar a configuração opcional para definir o escopo de suas configurações de retenção para usuários específicos, grupos específicos do Microsoft 365 ou sites específicos, existirão alguns limites por política a serem considerados: 
-
-- Números máximos da política de retenção:
-  - 1.000 caixas de correio (caixas de correio do usuário ou de grupos)
-  - 1.000 grupos do Microsoft 365
-  - 1.000 usuários para conversas privadas do Teams
-  - 100 sites (OneDrive ou SharePoint)
-
-Essas limitações são por política, portanto, se você precisar usar inclusões ou exclusões específicas que resultem em passar por esses números, poderá criar políticas de retenção adicionais que tenham as mesmas configurações de retenção. Confira a próxima seção de alguns [cenários de exemplo e soluções](#examples-of-using-inclusions-and-exclusions) que usam várias políticas de retenção por esse motivo. Várias políticas de retenção resultam em maiores sobrecargas administrativas, portanto, sempre se questione se realmente precisa de inclusões e exclusões. Lembre-se de que a configuração padrão que se aplica a todo o local não tem limitações, e essa escolha de configuração pode ser uma solução melhor do que a criação e a manutenção de várias políticas.
-
-> [!TIP]
-> Se você precisar criar e manter várias políticas de retenção para esse cenário, considere usar o [PowerShell](retention.md#powershell-cmdlets-for-retention-policies-and-retention-labels) para uma configuração mais eficaz.
-
-Há também um número máximo de políticas com suporte para um locatário: 10.000. No entanto, para o Exchange Online, o número máximo é 1.800. O número máximo inclui políticas de retenção, políticas de etiqueta de retenção e políticas de retenção de aplicação automática.
+Lembre-se de que se você usar a configuração opcional para estender suas configurações de retenção a usuários específicos, grupos específicos do Microsoft 365 ou sites específicos, haverá alguns limites por política a serem considerados. Para obter mais informações, confira [Limites para políticas e rótulos de retenção](retention-limits.md). 
 
 Para usar a configuração opcional para definir o escopo de suas configurações de retenção, certifique-se de que o **Status** desse local esteja **Ativado**, em seguida, use os links para incluir ou excluir usuários específicos, grupos do Microsoft 365 ou sites.
 
@@ -280,28 +267,6 @@ Para usar a configuração opcional para definir o escopo de suas configuraçõe
 > Por exemplo, se você especificar um site do SharePoint a ser incluído na sua política de retenção que está configurada para excluir dados e, em seguida, remover o site único, por padrão, todos os sites do SharePoint estarão sujeitos à política de retenção que exclui permanentemente os dados. O mesmo se aplica a inclusões para os destinatários do Exchange, contas do OneDrive, usuários de chat do Teams, etc.
 >
 > Neste cenário, desative o local se não quiser que a configuração **Todos** para o local estejam sujeitos à política de retenção. Como alternativa, especifique exclusões a serem isentas da política.
-
-#### <a name="examples-of-using-inclusions-and-exclusions"></a>Exemplos de como usar inclusões e exclusões
-
-Os exemplos a seguir fornecem algumas soluções de design para quando você não puder especificar o local de uma política de retenção e devem levar em consideração as limitações documentadas na seção anterior.
-
-Exemplo do Exchange:
-
-- **Requisito**: em uma organização que tenha mais de 40.000 caixas de correio de usuário, a maioria dos usuários deve ter o email mantido por sete anos, mas um subconjunto de usuários identificados (425) deve ter seus emails mantidos por apenas cinco anos.
-
-- **Solução**: crie uma política de retenção para o email do Exchange com um período de retenção de 7 anos e exclua o subconjunto de usuários. Em seguida, crie uma segunda política de retenção para o email do Exchange com um período de retenção de cinco anos e inclua o subconjunto de usuários. 
-    
-    Em ambos os casos, o número incluído e excluído fica abaixo do número máximo de caixas de correio especificadas para uma única política, e o subconjunto de usuários deve ser explicitamente excluído da primeira política, pois tem um período de retenção [maior](retention.md#the-principles-of-retention-or-what-takes-precedence) do que a segunda política. Se o subconjunto de usuários exigir uma política de retenção maior, não será necessário excluí-los da primeira política.
-     
-    Com essa solução, se alguém novo ingressar na organização, a caixa de correio será incluída automaticamente na primeira política por sete anos e não haverá impacto nos números máximos suportados. No entanto, novos usuários exigem que o período de retenção de 5 anos seja somado aos números de inclusão e exclusão, e esse limite seria atingido em 1.000.
-
-Exemplo do SharePoint:
-
-- **Requisito**: uma organização tem milhares de sites do SharePoint, mas somente 2.000 sites exigem um período de retenção de 10 anos e 8.000 os sites exigem um período de retenção de 4 anos.
-
-- **Solução**: criar 20 políticas de retenção para o SharePoint com um período de retenção de 10 anos que inclui 100 sites específicos e criar 80 políticas de retenção para o SharePoint com um período de retenção de 4 anos que inclui 100 sites específicos.
-    
-    Como não é necessário manter todos os sites do SharePoint, você deve criar políticas de retenção que especificam os sites específicos. Como uma política de retenção não dá suporte a mais de 100 sites especificados, você deve criar várias políticas para os dois períodos de retenção. Essas políticas de retenção têm o número máximo de sites incluídos, para que o próximo novo site que precise da retenção exija uma nova política, independentemente do período de retenção.
 
 ## <a name="updating-retention-policies"></a>Atualizar políticas de retenção
 

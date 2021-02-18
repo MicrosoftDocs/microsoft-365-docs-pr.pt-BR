@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 9276288bc05abebe864a4465f69284372fa0baab
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: 7eea07b91647af2b0b7121f9d9c1f018bc9fc630
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868019"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261454"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
@@ -271,6 +271,7 @@ Os seguintes aplicativos e serviços oferecem suporte as etiquetas de confidenci
 
   - Centro de administração do SharePoint
   - Portal do Azure Active Directory
+  - Centro de administração do Microsoft 365
   - Centro de conformidade do Microsoft 365, Centro de segurança do Microsoft 365, Centro de Conformidade e Segurança.
 
 - Aplicativos e serviços do usuário:
@@ -279,14 +280,13 @@ Os seguintes aplicativos e serviços oferecem suporte as etiquetas de confidenci
   - Teams
   - Outlook na Web e para Windows, macOS, iOS e Android
   - Formulários
-  - Fluxo
-  - Planner (em implementação) 
+  - Stream
+  - Planner 
 
 Os seguintes aplicativos e serviços não oferecem suporte as etiquetas de confidencialidade configuradas para configurações de sites e grupos:
 
 - Centros de administração:
 
-  - Centro de administração do Microsoft 365
   - Centro de administração do Teams
   - Centro de administração do Exchange
 

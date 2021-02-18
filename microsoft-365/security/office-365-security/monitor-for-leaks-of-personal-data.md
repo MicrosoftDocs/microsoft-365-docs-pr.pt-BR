@@ -13,17 +13,18 @@ ms.collection:
 - Ent_O365
 - GDPR
 - M365-security-compliance
-ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
-ms.openlocfilehash: 2a00d639be3b43fb56e26dca2725f2c3dac54b39
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.technology: mdo
+ms.prod: m365-security
+ms.openlocfilehash: b1425015843b2f444c6a410df449eeeaf4045ee5
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49760537"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261420"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -32,7 +33,7 @@ ms.locfileid: "49760537"
 
 Existem várias ferramentas disponíveis destinadas a monitorar o uso e o transporte de dados pessoais. Este tópico descreve três ferramentas muito úteis.
 
-![Ferramentas para monitorar o uso e o transporte de dados pessoais](../../media/Monitor-for-leaks-of-personal-data-image1.png)
+![Ferramentas para monitorar o uso e transporte de dados pessoais](../../media/Monitor-for-leaks-of-personal-data-image1.png)
 
 Na ilustração:
 

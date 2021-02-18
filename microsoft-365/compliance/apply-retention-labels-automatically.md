@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar rótulos de retenção e políticas de rotulação automáticas, para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: 2b06188a5990c7de81fca0afd21f05ef346807ba
-ms.sourcegitcommit: 222fb7fe2b26dde3d8591b61cc02113d6135012c
+ms.openlocfilehash: 69bada084aa3817b49b75d970a1a8d304f6853e6
+ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49759961"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50261342"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -128,6 +128,9 @@ Você pode aplicar os rótulos de retenção automaticamente ao conteúdo quando
 - [Uma correspondência de classificadores treináveis](#auto-apply-labels-to-content-by-using-trainable-classifiers)
 
 #### <a name="auto-apply-labels-to-content-with-specific-types-of-sensitive-information"></a>Aplicar automaticamente rótulos a conteúdo com tipos específicos de informações confidenciais
+
+> [!WARNING]
+> Atualmente, esta configuração tem uma limitação conhecida onde todos os emails sem rótulo sempre têm o rótulo de retenção selecionado aplicado quando há uma correspondência dos tipos de informações confidenciais escolhidos. Por exemplo, mesmo que você use sua política de aplicação automática a usuários específicos, ou selecione locais diferentes do Exchange para a política, o rótulo sempre é aplicado a emails sem rótulo quando há uma correspondência.
 
 Ao criar políticas de rótulo de retenção de aplicação automática para informações confidenciais, você vê a mesma lista de modelos de política de quando cria uma política de prevenção contra perda de dados (DLP). Cada modelo de política é pré-configurado para procurar tipos específicos de informações confidenciais. Por exemplo, o modelo mostrado aqui procura por U.S. ITIN, SSN e números de passaporte da categoria **Privacidade** e **modelo de Dados de Informações de Identificação do Usuário Final (PII) dos EUA**:
 
