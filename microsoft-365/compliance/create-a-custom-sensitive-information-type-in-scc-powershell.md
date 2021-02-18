@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Aprenda a criar e importar um tipo de informação confidencial personalizada para políticas no Centro de Conformidade.
-ms.openlocfilehash: 63ff32bda31446c25a523ff2064f7b750d102961
-ms.sourcegitcommit: 3e29926f51530afb0d75d8518a92b9ec7dc5e5bd
+ms.openlocfilehash: e3735458f3259478a7df36bb3c6ddbc4a5fed719
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50173118"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50288498"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Criar um tipo de informação confidencial personalizado usando o Windows PowerShell
 
@@ -433,9 +433,13 @@ Ao carregar seu arquivo XML do pacote de regras, o sistema validará o XML e ver
 
 - Cada tipo de informação confidencial personalizada pode ter no máximo 2.048 palavras-chave no total.
 
-- Ao usar o cmdlet do Windows PowerShell, há um tamanho máximo de retorno dos dados desserializados de aproximadamente 1 megabyte.   Isso afetará o tamanho do seu arquivo XML. Mantenha o arquivo carregado limitado a um máximo de 512 megabytes como um limite sugerido para resultados consistentes sem erros durante o processamento.
+- O tamanho máximo dos Dicionários de Palavras-chave em um único locatário é de 100 kilobytes compactados. Consulte o mesmo dicionário quantas vezes forem necessárias ao criar tipos de informações confidenciais personalizados. Inicie criando listas de palavras-chave personalizadas no tipo de informação confidencial e use dicionários de palavras-chave se você tiver mais de 2.048 palavras-chave em uma lista de palavras-chave ou se uma palavra-chave tiver mais de 50 caracteres.
 
-- A estrutura XML não requer caracteres de formatação, como espaços, guias ou entradas de retorno de carro / avanço de linha.  Observe isso ao otimizar o espaço em uploads.
+- Certifique-se de que cada elemento de Entidade contenha um atributo recommendedConfidence.
+
+- Ao usar o cmdlet do Windows PowerShell, há um tamanho máximo de retorno dos dados desserializados de aproximadamente 1 megabyte.   Isso afetará o tamanho do arquivo XML do pacote de regras. Mantenha o arquivo carregado limitado a um máximo de 770 kilobytes como um limite sugerido para resultados consistentes sem erros durante o processamento.
+
+- A estrutura XML não requer caracteres de formatação, como espaços, guias ou entradas de retorno de carro/avanço de linha.  Observe isso ao otimizar o espaço em uploads. Ferramentas como o Microsoft Visual Code fornecem recursos de linha de junção para compactar o arquivo XML.
     
 Se um tipo personalizado de informações confidenciais contiver um problema que pode afetar o desempenho, ele não será carregado e você poderá ver uma dessas mensagens de erro:
   
