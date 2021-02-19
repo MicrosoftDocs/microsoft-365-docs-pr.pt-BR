@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: d0bd5770f347766638af0f0e66b9f961b3721697
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: d71e33aa0a04bd52f707038ac31e98bef68f27b0
+ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926589"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50287228"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
@@ -81,6 +81,30 @@ Antes de criar uma caixa de correio compartilhada, não deixe de ler [Sobre caix
 7. Selecione **Fechar**.
 
 Você tem uma caixa de correio compartilhada e inclui um calendário compartilhado. Agora vá para a próxima etapa: bloqueie a entrada na conta da caixa de correio compartilhada.
+
+## <a name="which-permissions-should-you-use"></a>Quais permissões você deve usar?
+
+Você pode usar as seguintes permissões com uma caixa de correio compartilhada:
+
+- **Acesso Total**: A permissão Acesso Total permite que um usuário abra a caixa de correio compartilhada e atue como o proprietário dessa caixa de correio. Após acessar a caixa de correio compartilhada, um usuário pode criar itens de calendário, ler, exibir, excluir e alterar mensagens de email, e criar tarefas e contatos de calendário. No entanto, um usuário com a permissão Acesso Completo não pode enviar email da caixa de correio compartilhada, a menos que ele também tenha a permissão Enviar Como ou Enviar em Nome de.
+
+- **Enviar Como**: a permissão Enviar Como permite que um usuário represente a caixa de correio compartilhada ao enviar um email. Por exemplo, se Catarina faz logon na caixa de correio compartilhada do Departamento de Marketing e enviar um email, parecerá que o Departamento de Marketing enviou o email.
+
+- **Enviar em Nome de**: A permissão Enviar em Nome de permite que um usuário envie um email em nome da caixa de correio compartilhada. Por exemplo, se João faz logon na caixa de correio compartilhada da Recepção do Edifício 32 e enviar um email, parecerá que o email foi enviado por "João em nome da Recepção do Edifício 32". Você não pode usar o EAC para conceder permissões "Enviar em nome de". Você deve usar o cmdlet **Set-Mailbox** com o parâmetro _GrantSendonBehalf_.
+
+### <a name="use-the-eac-to-edit-shared-mailbox-delegation"></a>Use o EAC para editar a delegação da caixa de correio compartilhada
+
+1. No EAC, acesse **Destinatários** \> **Compartilhado**. Selecione a caixa de correio compartilhada e, em seguida, selecione **Editar** ![Ícone Editar](../../media/ITPro-EAC-EditIcon.png).
+
+2. Selecione **Delegação da caixa de correio**.
+
+3. Para conceder ou remover permissões de Acesso Total ou Enviar Como, selecione **Adicionar** ![Adicionar Ícone](../../media/ITPro-EAC-AddIcon.png) ou **Remover** ![Remover ícone](../../media/ITPro-EAC-RemoveIcon.gif) e, em seguida, selecione os usuários aos quais você deseja conceder permissões.
+
+   > [!NOTE]
+   > O acesso total permite aos usuários abrir a caixa de correio, além de criar e modificar os itens nela. A permissão "Enviar como" permite que todos os usuários, além do proprietário da caixa de correio, enviem emails pela caixa de correio compartilhada. Ambas as permissões são necessárias para o êxito da operação da caixa de correio compartilhada.
+
+4. Selecione **Salvar** para salvar suas alterações.
+
 
 ## <a name="block-sign-in-for-the-shared-mailbox-account"></a>Bloquear entrada para a conta de caixa de correio compartilhada
 
@@ -185,8 +209,5 @@ Ao criar a caixa de correio compartilhada, você cria automaticamente um calend�
 [Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md)
 
 [Solucionar problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md)
-
-
-
 
 

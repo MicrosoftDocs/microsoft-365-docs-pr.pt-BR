@@ -307,7 +307,7 @@
               href: retention-policies-yammer.md
             - name: Retenção do Exchange
               href: retention-policies-exchange.md
-            - name: Limites para a Retenção
+            - name: Limites para retenção
               href: retention-limits.md
         - name: Introdução à retenção
           href: get-started-with-retention.md
