@@ -1,8 +1,8 @@
 ---
 title: Informações de pagamento para a Alemanha
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
+author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 audience: Admin
@@ -11,26 +11,36 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 921f0075fe2f6ce1f27c24ecde5397c9d12a1f58
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a5ef9ea32262f323adc76163af54411514820570
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647478"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405779"
 ---
-# <a name="payment-information-for-germany"></a><span data-ttu-id="7d97c-103">Informações de pagamento para a Alemanha</span><span class="sxs-lookup"><span data-stu-id="7d97c-103">Payment information for Germany</span></span>
+# <a name="payment-information-for-germany"></a><span data-ttu-id="eab1e-103">Informações de pagamento para a Alemanha</span><span class="sxs-lookup"><span data-stu-id="eab1e-103">Payment information for Germany</span></span>
 
-<span data-ttu-id="7d97c-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="7d97c-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="eab1e-104">[Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="eab1e-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="7d97c-105">Pagar apenas em EUR e fazer referência a números de fatura em sua remessa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="7d97c-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="eab1e-105">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="eab1e-105">Electronic Funds Transfer</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="7d97c-106">Transferência Eletrônica de Fundos</span><span class="sxs-lookup"><span data-stu-id="7d97c-106">Electronic Funds Transfer</span></span>
+<span data-ttu-id="eab1e-106">**Por favor, pague em EUR e os números de fatura de referência em sua remessa de pagamento.**</span><span class="sxs-lookup"><span data-stu-id="eab1e-106">**Please pay in EUR and reference invoice number(s) on your payment remittance.**</span></span>
 
-<span data-ttu-id="7d97c-107">**Bank:** Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="7d97c-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="7d97c-108">**Código/BIC SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="7d97c-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="7d97c-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="7d97c-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="7d97c-110">**Código SORT:** 185008</span><span class="sxs-lookup"><span data-stu-id="7d97c-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="7d97c-111">**Número da conta:** 12207591</span><span class="sxs-lookup"><span data-stu-id="7d97c-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="7d97c-112">**Nome da conta:** MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="7d97c-112">**Account Name:** MICROSOFT</span></span> 
+<span data-ttu-id="eab1e-107">Se você tiver uma fatura cobrada pela **Microsoft Ireland Operations Limited,** use essas informações bancárias:</span><span class="sxs-lookup"><span data-stu-id="eab1e-107">If you have an invoice billed by **Microsoft Ireland Operations Limited**, use this bank information:</span></span>
+
+<span data-ttu-id="eab1e-108">Banco: Citibank, Londres</span><span class="sxs-lookup"><span data-stu-id="eab1e-108">Bank: Citibank, London</span></span>\
+<span data-ttu-id="eab1e-109">Código SWIFT: CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="eab1e-109">SWIFT Code: CITIGB2L</span></span>\
+<span data-ttu-id="eab1e-110">Código IBAN: GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="eab1e-110">IBAN Code: GB31CITI18500812207591</span></span>\
+<span data-ttu-id="eab1e-111">Código SORT: 185008</span><span class="sxs-lookup"><span data-stu-id="eab1e-111">SORT Code: 185008</span></span>\
+<span data-ttu-id="eab1e-112">Número da conta: 12207591</span><span class="sxs-lookup"><span data-stu-id="eab1e-112">Account Number: 12207591</span></span>\
+<span data-ttu-id="eab1e-113">Nome da conta: MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="eab1e-113">Account Name: MICROSOFT</span></span>
+
+<span data-ttu-id="eab1e-114">Se você tiver uma fatura cobrada pelo **Microsoft Deutschland GmbH** para pedidos e consumo a partir de 1º de março de 2021, use essas informações bancárias:</span><span class="sxs-lookup"><span data-stu-id="eab1e-114">If you have an invoice billed by **Microsoft Deutschland GmbH** for orders and consumption starting March 1, 2021, use this bank information:</span></span>
+
+<span data-ttu-id="eab1e-115">Banco: Citibank Europe plc</span><span class="sxs-lookup"><span data-stu-id="eab1e-115">Bank: Citibank Europe plc</span></span>\
+<span data-ttu-id="eab1e-116">Código SWIFT: CITIIE2X</span><span class="sxs-lookup"><span data-stu-id="eab1e-116">SWIFT Code: CITIIE2X</span></span>\
+<span data-ttu-id="eab1e-117">Código IBAN: IE38CITI99005170000122</span><span class="sxs-lookup"><span data-stu-id="eab1e-117">IBAN Code: IE38CITI99005170000122</span></span>\
+<span data-ttu-id="eab1e-118">Número da conta: 70000122</span><span class="sxs-lookup"><span data-stu-id="eab1e-118">Account Number: 70000122</span></span>\
+<span data-ttu-id="eab1e-119">Nome da conta: MICROSOFT</span><span class="sxs-lookup"><span data-stu-id="eab1e-119">Account Name: MICROSOFT</span></span>
