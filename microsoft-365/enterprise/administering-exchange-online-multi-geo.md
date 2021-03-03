@@ -12,18 +12,20 @@ f1.keywords:
 ms.custom: seo-marvel-mar2020
 localization_priority: normal
 description: Saiba como administrar as configurações multi-geográficas do Exchange Online em seu ambiente do Microsoft 365 com o PowerShell.
-ms.openlocfilehash: 63eb1957611fd57e216012435188a6ddd1b232d3
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 83889b4582d2e305b2cb9f07a64307e85d30be77
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49552002"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406037"
 ---
 # <a name="administering-exchange-online-mailboxes-in-a-multi-geo-environment"></a>Administrar caixas de correio do Exchange Online em um ambiente multigeográfico
 
-O PowerShell do Exchange Online é necessário para exibir e configurar as propriedades multipolíticas em seu ambiente do Microsoft 365. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+O PowerShell do Exchange Online é necessário para exibir e configurar várias propriedades geográficas em seu ambiente do Microsoft 365. Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 É necessário o [Módulo Microsoft Azure Active Directory PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx) v1.1.166.0 ou superior em v1. x para ver a propriedade **PreferredDataLocation** nos objetos do usuário. Objetos do usuário sincronizados por meio do AAD Connect no AAD não podem ter seu valore **PreferredDataLocation** modificado diretamente por meio do AAD PowerShell. Objetos Apenas Nuvem de usuário podem ser modificados pelo AAD PowerShell. Para se conectar ao PowerShell do Azure AD, consulte [Conectar-se ao PowerShell](connect-to-microsoft-365-powershell.md).
+
+Em ambientes multi-geo do Exchange Online, você não precisa fazer nenhuma etapa manual para adicionar geos ao seu locatário. Depois de receber a postagem da Central de Mensagens que diz que o multi-geo está pronto para o Exchange Online, todas as geos disponíveis estarão prontas e configuradas para uso.
 
 ## <a name="connect-directly-to-a-geo-location-using-exchange-online-powershell"></a>Conecte-se diretamente em uma localização geográfica usando o Exchange Online PowerShell
 
@@ -35,11 +37,11 @@ Para conectar o PowerShell do Exchange Online a uma localização geográfica es
 
 Especificamente, você precisa adicionar o `?email=<emailaddress>` valor ao final do valor _ConnectionUri._ `<emailaddress>` é o endereço de email de **qualquer caixa** de correio na localização geográfica de destino. Suas permissões para essa caixa de correio ou a relação com suas credenciais não são um fator; o endereço de email simplesmente informa ao PowerShell do Exchange Online onde se conectar.
 
-Os clientes do Microsoft 365 ou do Microsoft 365 GCC normalmente não precisam usar o parâmetro _ConnectionUri_ para se conectar ao PowerShell do Exchange Online. Porém, para se conectar a uma localização geográfica específica, você precisa usar o parâmetro _ConnectionUri_ para poder `?email=<emailaddress>` usar no valor.
+Os clientes do Microsoft 365 ou do Microsoft 365 GCC normalmente não precisam usar o parâmetro _ConnectionUri_ para se conectar ao PowerShell do Exchange Online. Mas, para se conectar a uma localização geográfica específica, você precisa usar o parâmetro _ConnectionUri_ para poder usar `?email=<emailaddress>` no valor.
 
 ### <a name="connect-to-a-geo-location-in-exchange-online-powershell"></a>Conectar-se a uma localização geográfica no PowerShell do Exchange Online
 
-As instruções de conexão a seguir funcionam para contas que estão ou não configuradas para a MFA (autenticação multifa factor).
+As instruções de conexão a seguir funcionam para contas que estão ou não configuradas para a autenticação multifafatória (MFA).
 
 1. Em uma janela do Windows PowerShell, carregue o módulo EXO V2 executando o seguinte comando:
 
@@ -47,13 +49,13 @@ As instruções de conexão a seguir funcionam para contas que estão ou não co
    Import-Module ExchangeOnlineManagement
    ```
 
-2. No exemplo a seguir, admin@contoso.onmicrosoft.com é a conta de administrador e a localização geográfica de destino é onde a caixa de olga@contoso.onmicrosoft.com reside.
+2. No exemplo a seguir, admin@contoso.onmicrosoft.com é a conta de administrador e a localização geográfica de destino é onde a caixa de correio olga@contoso.onmicrosoft.com reside.
 
    ```powershell
    Connect-ExchangeOnline -UserPrincipalName admin@contoso.onmicrosoft.com -ConnectionUri https://outlook.office365.com/powershell?email=olga@contoso.onmicrosoft.com
    ```
 
-3. Insira a senha do admin@contoso.onmicrosoft.com no prompt exibido. Se a conta estiver configurada para MFA, você também precisará inserir o código de segurança.
+3. Insira a senha do admin@contoso.onmicrosoft.com no prompt que aparece. Se a conta estiver configurada para MFA, você também precisará inserir o código de segurança.
 
 ## <a name="view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization"></a>Exibir as localizações geográficas disponíveis que estão configurados em sua organização do Exchange Online
 
@@ -102,7 +104,7 @@ MailboxRegionLastUpdateTime : 2/6/2018 8:21:01 PM
 ```
 
 > [!NOTE]
-> Se o código de localização geográfica no nome do banco de dados não corresponder ao valor **mailboxRegion,** a caixa de correio será automaticamente colocada em uma fila de realocação e movida para a localização geográfica especificada pelo valor **mailboxRegion** (o Exchange Online procura uma incompatibilidade entre esses valores de propriedade).
+> Se o código de localização geográfica no nome do banco de dados não corresponder ao valor **MailboxRegion,** a caixa de correio será automaticamente colocada em uma fila de realocação e movida para a localização geográfica especificada pelo valor **MailboxRegion** (o Exchange Online procura uma incompatibilidade entre esses valores de propriedade).
 
 ## <a name="move-an-existing-cloud-only-mailbox-to-a-specific-geo-location"></a>Mover uma caixa de correio apenas nuvem existente para uma localização geográfica específica
 
@@ -134,7 +136,7 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 
 > [!NOTE]
 >
-> - Conforme mencionado anteriormente, você não pode usar este procedimento para objetos de usuário sincronizados do Active Directory local. Você precisa alterar o valor **PreferredDataLocation** no Active Directory e sincronizá-lo usando o AAD Connect. Para obter mais informações, consulte [Sincronização do Azure Active Directory Connect: Configurar o local preferencial dos dados dos recursos do Microsoft 365](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
+> - Como mencionado anteriormente, você não pode usar esse procedimento para objetos de usuário sincronizados do Active Directory local. Você precisa alterar o valor **PreferredDataLocation** no Active Directory e sincronizá-lo usando o AAD Connect. Para obter mais informações, consulte [Sincronização do Azure Active Directory Connect: Configurar o local preferencial dos dados dos recursos do Microsoft 365](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
 >
 > - O tempo que leva para relocar uma caixa de correio para uma nova localização geográfica depende de vários fatores:
 >
@@ -142,39 +144,39 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
 >   - O número de caixas de correio sendo movidas.
 >   - Disponibilidade de recursos de movimentação.
 
-### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>Mover uma caixa de correio inativa para uma área geográfica específica
+### <a name="move-an-inactive-mailbox-to-a-specific-geo"></a>Mover uma caixa de correio inativa para um geo específico
 
-Não é possível mover caixas de correio inativas preservadas para fins de conformidade (por exemplo, caixas de correio em Litígio) alterando seu valor **PreferredDataLocation.** Para mover uma caixa de correio inativa para uma área geográfica diferente, faça o seguinte:
+Não é possível mover caixas de correio inativas que são preservadas para fins de conformidade (por exemplo, caixas de correio em Contencioso) alterando o valor **PreferredDataLocation.** Para mover uma caixa de correio inativa para um geo diferente, faça as seguintes etapas:
 
-1. Recupere a caixa de correio inativa. Para obter instruções, consulte [Recuperar uma caixa de correio inativa.](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox)
+1. Recupere a caixa de correio inativa. Para obter instruções, [consulte Recover an inactive mailbox](https://docs.microsoft.com/microsoft-365/compliance/recover-an-inactive-mailbox).
 
-2. Impedir que o Assistente de Pasta Gerenciada processe a caixa de correio recuperada substituindo o nome, alias, conta ou endereço de email da caixa de correio e executando o seguinte comando no PowerShell do \<MailboxIdentity\> [Exchange Online:](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+2. Impedir que o Assistente de Pasta Gerenciada processe a caixa de correio recuperada substituindo pelo nome, alias, conta ou endereço de email da caixa de correio e executando o seguinte comando no \<MailboxIdentity\> [PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)do Exchange Online :
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $true
     ```
 
-3. Atribua uma **licença do Plano 2** do Exchange Online à caixa de correio recuperada. Esta etapa é necessária para colocar a caixa de correio novamente em Litígio. Para obter instruções, [confira Atribuir licenças aos usuários.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+3. Atribua uma **licença do Plano 2** do Exchange Online à caixa de correio recuperada. Esta etapa é necessária para colocar a caixa de correio novamente em Contencioso. Para obter instruções, [consulte Atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 4. Configure o **valor PreferredDataLocation** na caixa de correio conforme descrito na seção anterior.
 
-5. Depois de confirmar que a caixa de correio foi movida para a nova localização geográfica, coloque a caixa de correio recuperada novamente em Litígio. Para obter instruções, consulte [Colocar uma caixa de correio em Litígio.](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold)
+5. Depois de confirmar que a caixa de correio foi movida para a nova localização geográfica, coloque a caixa de correio recuperada novamente em Contencioso. Para obter instruções, [consulte Place a mailbox on Litigation Hold](https://docs.microsoft.com/microsoft-365/compliance/create-a-litigation-hold#place-a-mailbox-on-litigation-hold).
 
-6. Depois de verificar se a Responsabilidade de Litígio está em funcionamento, permita que o Assistente de Pasta Gerenciada processe a caixa de correio novamente substituindo pelo nome, alias, conta ou endereço de email da caixa de correio e executando o seguinte comando no PowerShell do \<MailboxIdentity\> [Exchange Online:](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+6. Depois de verificar se a Responsabilidade de Litígio está em execução, permita que o Assistente de Pasta Gerenciada processe a caixa de correio novamente substituindo pelo nome, alias, conta ou endereço de email da caixa de correio e executando o seguinte comando no \<MailboxIdentity\> [PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)do Exchange Online :
 
     ```powershell
     Set-Mailbox <MailboxIdentity> -ElcProcessingDisabled $false
     ```
 
-7. Tornar a caixa de correio inativa novamente removendo a conta de usuário associada à caixa de correio. Para obter instruções, [confira Excluir um usuário da sua organização.](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user) Esta etapa também libera a licença do Plano 2 do Exchange Online para outros usos.
+7. Tornar a caixa de correio inativa novamente removendo a conta de usuário associada à caixa de correio. Para obter instruções, [consulte Excluir um usuário de sua organização](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user). Esta etapa também libera a licença do Plano 2 do Exchange Online para outros usos.
 
-**Observação:** ao mover uma caixa de correio inativa para uma localização geográfica diferente, você pode afetar os resultados da pesquisa de conteúdo ou a capacidade de pesquisar a caixa de correio a partir da localização geográfica anterior. Para obter mais informações, [consulte Pesquisando e exportando conteúdo em ambientes multi-geo.](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)
+**Observação:** quando você move uma caixa de correio inativa para uma localização geográfica diferente, pode afetar os resultados da pesquisa de conteúdo ou a capacidade de pesquisar a caixa de correio da localização geográfica anterior. Para obter mais informações, consulte [Pesquisar e exportar conteúdo em ambientes Multi-Geo.](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments)
 
 ## <a name="create-new-cloud-mailboxes-in-a-specific-geo-location"></a>Criar novas caixas de correio em nuvem em uma localização geográfica específica
 
 Para criar uma nova caixa de correio em uma localização geográfica específica, é preciso seguir uma destas etapas:
 
-- Configure o **valor PreferredDataLocation** conforme descrito na anterior Mover uma caixa de  correio existente somente na nuvem para uma seção de localização geográfica específica antes de criar [a](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) caixa de correio no Exchange Online. Por exemplo, configure o **valor PreferredDataLocation** em um usuário antes de atribuir uma licença.
+- Configure o **valor PreferredDataLocation** conforme descrito na anterior [Move an existing cloud-only mailbox to a specific geo location](#move-an-existing-cloud-only-mailbox-to-a-specific-geo-location) section *before* you create the mailbox in Exchange Online. Por exemplo, configure o **valor PreferredDataLocation** em um usuário antes de atribuir uma licença.
 
 - Atribuir uma licença e definir o valor **PreferredDataLocation** ao mesmo tempo.
 

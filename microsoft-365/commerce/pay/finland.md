@@ -1,8 +1,8 @@
 ---
 title: Informações de pagamento para a Finlândia
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
+author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 audience: Admin
@@ -11,26 +11,35 @@ ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce84cb49d0b120b50fba27980e9b061ac81f6290
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: cdcc7508ffb0974a5c6ef5105c09521af5f62116
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647634"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406951"
 ---
 # <a name="payment-information-for-finland"></a>Informações de pagamento para a Finlândia
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pagar apenas em EUR e fazer referência a números de fatura em sua remessa de pagamento.
-
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Londres  
-**Código/BIC SWIFT:** CITIGB2L  
-**IBAN:** GB31CITI18500812207591  
-**Código SORT:** 185008  
-**Número da conta:** 12207591  
-**Nome da conta:** MICROSOFT  
+**Por favor, pague em EUR e os números de fatura de referência em sua remessa de pagamento.**
+
+Se você tiver uma fatura cobrada pela **Microsoft Ireland Operations Limited,** use essas informações bancárias:
+
+Banco: Citibank, Londres\
+Código SWIFT: CITIGB2L\
+Código IBAN: GB31CITI18500812207591\
+Número da conta: 12207591\
+Nome da conta: MICROSOFT
+
+Se você tiver uma fatura cobrada pela **Microsoft Oy** para pedidos e consumo a partir de 1º de março de 2021, use essas informações bancárias:
+
+Banco: Citibank Europe plc\
+Código SWIFT: CITIIE2X\
+Código IBAN: IE97CITI99005170000127\
+Número da conta: 70000127\
+Nome da conta: MICROSOFT

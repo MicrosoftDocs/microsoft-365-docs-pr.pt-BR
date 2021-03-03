@@ -20,12 +20,12 @@ search.appverid:
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1bbd607386b49b45ebd7444c4a91d05e4cee475b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 5dfb40c195cb9df9c8f2ac5d1cfbacdda022d416
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288604"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406719"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
@@ -204,7 +204,7 @@ Sua assinatura do Microsoft 365 vem com um poderoso conjunto de recursos de segu
 
 - [Detectar e corrigir ataques de injeção a regras e formulários personalizados do Outlook no Microsoft 365](detect-and-remediate-outlook-rules-forms-attack.md)
 
-- [Centro de Reclamações contra Crimes pela Internet](https://www.ic3.gov/preventiontips.aspx)
+- [Centro de Reclamações contra Crimes pela Internet](https://www.ic3.gov/Home/Ransomware)
 
 - [Comissão de Valores Mobiliários - Fraude de "Phishing"](https://www.sec.gov/investor/pubs/phishing.htm)
 

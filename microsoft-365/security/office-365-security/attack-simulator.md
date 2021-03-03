@@ -17,15 +17,15 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem aprender a usar o Simulador de Ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou Microsoft Defender for Office 365 Plano 2.
+description: Os administradores podem aprender a usar o Simulador de Ataques para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1e877900698d033cb99154b31e32fa04ff7d1010
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 85b376701ffa0c567fd66aa629371e9f69b354e9
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289576"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407463"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
 
@@ -33,35 +33,37 @@ ms.locfileid: "50289576"
 
 **Aplica-se ao** [Microsoft Defender para Office 365 plano 2](office-365-atp.md)
 
-Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataques no Centro de Conformidade e Segurança & para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real a impacte seu resultado final. Leia este artigo para saber mais.
+Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataques no Centro de Conformidade & Segurança para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real impacte sua linha inferior. Leia este artigo para saber mais.
 
 > [!NOTE]
-> A experiência do Simulador de Ataque v1 foi alternada para o modo somente leitura e substituída pelo treinamento do simulador de ataques descrito em Começar a usar o treinamento de [simulação de ataque.](attack-simulation-training-get-started.md)
+> A experiência do Simulador de Ataque v1 foi alternada para o modo somente leitura e substituída pelo treinamento do simulador de ataque descrito em [Get started using Attack simulation training](attack-simulation-training-get-started.md).
 > A capacidade de iniciar novas simulações deste site foi desabilitada. No entanto, você ainda pode acessar relatórios de simulações executados por um período de 90 dias a partir de 24 de janeiro de 2021.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no Simulador **de ataques de gerenciamento** de \> **ameaças.** Vá diretamente para o simulador de ataques, <https://protection.office.com/attacksimulator> abra.
+- Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no simulador **de ataques de gerenciamento** de \> **ameaças.** Vá diretamente para o simulador de ataque, abra <https://protection.office.com/attacksimulator> .
 
-- Para saber mais sobre a disponibilidade do Simulador de Ataque em diferentes assinaturas do Microsoft 365, confira a descrição do serviço do [Microsoft Defender para Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+- Para obter mais informações sobre a disponibilidade do Simulador de Ataques em diferentes assinaturas do Microsoft 365, consulte [Microsoft Defender for Office 365 service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
-- Você precisa ser membro dos grupos de função Gerenciamento da Organização **ou** **Administrador de** Segurança. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
+- Você precisa ser membro dos grupos de função Gerenciamento da **Organização** ou **Administrador de** Segurança. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
-- Sua conta precisa ser configurada para autenticação multifatória (MFA) para criar e gerenciar campanhas no Simulador de Ataques. Para obter instruções, [consulte Configurar a autenticação multifa factor.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)
+- Sua conta precisa ser configurada para a autenticação multifato (MFA) para criar e gerenciar campanhas no Simulador de Ataques. Para obter instruções, consulte [Set up multi-factor authentication](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 
-- As campanhas de phishing coletarão e processarão eventos por 30 dias. Os dados históricos da campanha estarão disponíveis por até 90 dias após o lançamento da campanha.
+- O Simulador de Ataque só funciona em caixas de correio baseadas em nuvem.
 
-- Os dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para os serviços do Microsoft 365. Para saber mais, confira [locais de dados do Microsoft 365.](/microsoft-365/enterprise/o365-data-locations)
+- As campanhas de phishing coletarão e processarão eventos por 30 dias. Os dados históricos da campanha estarão disponíveis por até 90 dias após o início da campanha.
 
-- Não há cmdlets do PowerShell correspondentes para o Simulador de Ataque.
+- Dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para serviços do Microsoft 365. Para obter mais informações, consulte Locais de dados [do Microsoft 365](/microsoft-365/enterprise/o365-data-locations).
 
-## <a name="spear-phishing-campaigns"></a>Campanhas de phishing em banda
+- Não há cmdlets do PowerShell correspondentes para Simulador de Ataque.
 
-*Phishing* é um termo genérico para ataques de email que tentam roubar informações confidenciais em mensagens que parecem ser de senders legítimos ou confiáveis. *O phishing* em busca de phishing é um ataque de phishing direcionado que usa conteúdo focado e personalizado especificamente adaptado aos destinatários-alvo (normalmente, após a ida e volta aos destinatários pelo invasor).
+## <a name="spear-phishing-campaigns"></a>Campanhas de phishing de lança
 
-No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de phishing estão disponíveis:
+*Phishing* é um termo genérico para ataques de email que tentam roubar informações confidenciais em mensagens que parecem ser de senders legítimos ou confiáveis. *Phishing de* lança é um ataque de phishing direcionado que usa conteúdo focado e personalizado especificamente personalizado para os destinatários direcionados (normalmente, após o reconhecimento nos destinatários pelo invasor).
 
-- **Phishing de nome (coleta de credenciais)**: o ataque tenta convencer os destinatários a clicar em uma URL na mensagem. Se eles clicarem no link, serão solicitados a inserir suas credenciais. Se o fizerem, eles serão levados para um dos seguintes locais:
+No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de lança estão disponíveis:
+
+- **Phishing de lança (coleta de credenciais)**: o ataque tenta convencer os destinatários a clicar em uma URL na mensagem. Se eles clicarem no link, serão solicitados a inserir suas credenciais. Se fizerem isso, serão levados para um dos seguintes locais:
 
   - Uma página padrão que explica que isso foi apenas um teste e fornece dicas para reconhecer mensagens de phishing.
 
@@ -69,42 +71,42 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de phishing de phish
 
   - Uma página personalizada (URL) que você especificar.
 
-- **Phishing (anexo)**: o ataque tenta convencer os destinatários a abrir um anexo .docx ou .pdf na mensagem. O anexo contém o mesmo conteúdo do link de phishing padrão, mas a primeira frase começa com " \<Display Name\> , you are seeing this message as a recent email message you opened...".
+- **Phishing de lança (anexo)**: O ataque tenta convencer os destinatários a abrir um anexo .docx ou .pdf na mensagem. O anexo contém o mesmo conteúdo do link padrão de phishing, mas a primeira frase começa com " , você está vendo essa mensagem como uma mensagem de email recente que você \<Display Name\> abriu...".
 
 > [!NOTE]
-> Atualmente, as campanhas de phishing em phishing no Simulador de Ataques não expiram.
+> Atualmente, as campanhas de phishing de lança no Simulador de Ataques não expiram.
 
-### <a name="create-a-spear-phishing-campaign"></a>Criar uma campanha de phishing em forma de phishing
+### <a name="create-a-spear-phishing-campaign"></a>Criar uma campanha de phishing de lança
 
-Uma parte importante de qualquer campanha de phishing de phishing é a aparência da mensagem de email que é enviada aos destinatários de alvo. Para criar e configurar a mensagem de email, você tem estas opções:
+Uma parte importante de qualquer campanha de phishing de lança é a aparência da mensagem de email enviada aos destinatários direcionados. Para criar e configurar a mensagem de email, você tem estas opções:
 
-- **Use um modelo de email integrado:** dois modelos integrados estão disponíveis: **Giveaway e Payroll** **Update.** Você pode personalizar ainda mais algumas, todas ou nenhuma das propriedades de email do modelo ao criar e iniciar a campanha.
+- **Use um modelo de email integrado:** Dois modelos integrados estão disponíveis: **Oferta de** Prêmio e **Atualização de Folha de Pagamento.** Você pode personalizar ainda mais algumas, todas ou nenhuma das propriedades de email do modelo ao criar e iniciar a campanha.
 
-- **Crie um modelo de email** reutilizável: depois de criar e salvar o modelo de email, você poderá usá-lo novamente em futuras campanhas de phishing. Você pode personalizar ainda mais algumas, todas ou nenhuma das propriedades de email do modelo ao criar e iniciar a campanha.
+- **Criar um modelo de email** reutilizável : depois de criar e salvar o modelo de email, você pode usá-lo novamente em campanhas futuras de phishing de lança. Você pode personalizar ainda mais algumas, todas ou nenhuma das propriedades de email do modelo ao criar e iniciar a campanha.
 
-- **Crie a mensagem de email no assistente:** você pode criar a mensagem de email diretamente no assistente ao criar e iniciar a campanha de phishing.
+- **Crie a mensagem de email no assistente**: Você pode criar a mensagem de email diretamente no assistente ao criar e iniciar a campanha de phishing de lança.
 
-#### <a name="step-1-optional-create-a-custom-email-template"></a>Etapa 1 (opcional): criar um modelo de email personalizado
+#### <a name="step-1-optional-create-a-custom-email-template"></a>Etapa 1 (Opcional): Criar um modelo de email personalizado
 
-Se você for usar um dos modelos integrados ou criar a mensagem de email diretamente no assistente, ignore esta etapa.
+Se você vai usar um dos modelos integrados ou criar a mensagem de email diretamente no assistente, ignore esta etapa.
 
-1. No Centro de Conformidade & segurança, vá para o simulador de ataques **de gerenciamento** \> **de ameaças.**
+1. No Centro de Conformidade & segurança, vá para Simulador de ataque **de gerenciamento** \> **de ameaças.**
 
-2. Na página **Simular ataques,** nas seções Phishing de Phishing de Phishing (Credenciais **de Coleta)** ou Phishing de **Phishing (Anexo),** clique em **Detalhes do Ataque.**
+2. Na página **Simular ataques,** nas seções Phishing de Lança (Coleta de **Credenciais)** ou **Phishing** de Lança (Anexo), clique em **Detalhes de Ataque**.
 
-   Não importa onde você criar o modelo. As opções disponíveis no modelo são as mesmas para ambos os tipos de ataques de phishing.
+   Não importa onde você cria o modelo. As opções disponíveis no modelo são as mesmas para ambos os tipos de ataques de phishing.
 
-3. Na página Detalhes **do** ataque que é aberta, na  seção Modelos de **Phishing,** na área Criar Modelos, clique em **Novo Modelo.**
+3. Na página **Detalhes de** ataque que é aberta, na seção Modelos **de Phishing,** na área **Criar Modelos,** clique em **Novo Modelo**.
 
-4. O **assistente Configurar Modelo de Phishing** é iniciado em um novo flyout. Na etapa **Iniciar,** insira um nome de exibição exclusivo para o modelo e clique em **Próximo.**
+4. O **assistente Configurar Modelo de Phishing** começa em um novo flyout. Na etapa **Iniciar,** insira um nome de exibição exclusivo para o modelo e clique em **Próximo**.
 
-5. Na etapa **Configurar detalhes de email,** de configure as seguintes configurações:
+5. Na etapa **Configurar detalhes de email,** configure as seguintes configurações:
 
    - **De (Nome)**: o nome de exibição usado para o remetente da mensagem.
 
    - **De (Email)**: o endereço de email do remetente.
 
-   - **URL do Servidor de Logon de Phishing:** clique no drop down e selecione uma das URLs disponíveis na lista. Esta é a URL em que os usuários serão tentados a clicar. As opções são:
+   - **URL do Servidor de Logon de Phishing**: clique no drop-down e selecione uma das URLs disponíveis na lista. Esta é a URL em que os usuários serão tentados a clicar. As opções são:
 
      - <http://portal.docdeliveryapp.com>
      - <http://portal.docdeliveryapp.net>
@@ -121,66 +123,66 @@ Se você for usar um dos modelos integrados ou criar a mensagem de email diretam
 
      > [!NOTE]
      >
-     > Um serviço de reputação de URL pode identificar uma ou mais dessas URLs como não seguras. Verifique a disponibilidade da URL em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.
+     > Um serviço de reputação de URL pode identificar uma ou mais DESSAS URLs como não seguras. Verifique a disponibilidade da URL em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.
 
-   - **URL da Página de** Aterrissagem Personalizada: insira uma página inicial opcional onde os usuários serão levados se clicarem no link de phishing e inserirem suas credenciais. Esse link substitui a página de aterrissagem padrão. Por exemplo, se você tiver treinamento interno de reconhecimento, poderá especificar essa URL aqui.
+   - **URL da Página inicial personalizada**: insira uma página de aterrissagem opcional onde os usuários são levados se clicarem no link de phishing e inserirem suas credenciais. Este link substitui a página de aterrissagem padrão. Por exemplo, se você tiver treinamento de reconhecimento interno, poderá especificar essa URL aqui.
 
-   - **Categoria**: Atualmente, essa configuração não é usada (qualquer coisa que você inserir será ignorada).
+   - **Categoria**: Atualmente, essa configuração não é usada (tudo o que você inserir é ignorado).
 
-   - **Assunto**: o **campo Assunto** da mensagem de email.
+   - **Assunto**: O **campo Assunto** da mensagem de email.
 
    Quando terminar, clique em **Avançar**.
 
-6. Na etapa **Redigir email,** crie o corpo da mensagem de email. Você pode usar a **guia Email** (um editor de HTML rico) ou a guia **Fonte** (código HTML bruto).
+6. Na etapa **Escrever email,** crie o corpo da mensagem da mensagem de email. Você pode usar a guia **Email** (um editor HTML rico) ou a guia **Origem** (código HTML bruto).
 
    A formatação HTML pode ser tão simples ou complexa quanto você precisa. Você pode inserir imagens e texto para melhorar a capacidade de acreditar da mensagem no cliente de email do destinatário.
 
    - `${username}` insere o nome do destinatário.
 
-   - `${loginserverurl}` insere o valor da URL do Servidor de Logon de **Phishing** da etapa anterior.
+   - `${loginserverurl}` insere o valor de URL do Servidor de **Logon de Phishing** da etapa anterior.
 
    Quando terminar, clique em **Avançar**.
 
-7. Na etapa **Confirmar,** clique em **Concluir.**
+7. Na etapa **Confirmar,** clique em **Concluir**.
 
-#### <a name="step-2-create-and-launch-the-spear-phishing-campaign"></a>Etapa 2: criar e iniciar a campanha de phishing de phishing
+#### <a name="step-2-create-and-launch-the-spear-phishing-campaign"></a>Etapa 2: Criar e iniciar a campanha de phishing de lança
 
-1. No Centro de Conformidade & segurança, vá para o simulador de ataques **de gerenciamento** \> **de ameaças.**
+1. No Centro de Conformidade & segurança, vá para Simulador de ataque **de gerenciamento** \> **de ameaças.**
 
 2. Na página **Simular ataques,** faça uma das seguintes seleções com base no tipo de campanha que você deseja criar:
 
-   - Na seção **Phishing de Phishing (Coleta de Credenciais),** clique em **Iniciar** Ataque ou em **Ataque de Detalhes** de \> **Ataque.**
+   - Na seção **Phishing de Lança (Coleta de Credenciais),** clique em **Iniciar Ataque** ou clique em **Ataque de Detalhes de** \> **Ataque.**
 
-   - Na seção **Phishing de Phishing (Anexo),** clique em **Iniciar Ataque** ou em **Ataque de Detalhes** de \> **Ataque.**
+   - Na seção **Phishing de Lança (Anexo),** clique em **Iniciar Ataque** ou clique em **Ataque de Início de Detalhes de** \> **Ataque**.
 
-3. O **assistente Configurar Ataque de Phishing** é iniciado em um novo flyout. Na etapa **Iniciar,** faça uma das seguintes etapas:
+3. O **assistente Configurar Ataques de Phishing** começa em um novo flyout. Na etapa **Iniciar,** faça uma das seguintes etapas:
 
-   - Na caixa **Nome,** insira um nome de exibição exclusivo para a campanha. Não clique em **Usar Modelo,** pois você criará a mensagem de email posteriormente no assistente.
+   - Na caixa **Nome,** insira um nome de exibição exclusivo para a campanha. Não clique em **Usar Modelo**, pois você criará a mensagem de email posteriormente no assistente.
 
-   - Clique **em Usar** Modelo e selecione um modelo de email integrado ou personalizado. Depois de selecionar o modelo, a **caixa** Nome será preenchida automaticamente com base no modelo, mas você poderá alterar o nome.
+   - Clique **em Usar Modelo** e selecione um modelo de email integrado ou personalizado. Depois de selecionar o modelo, a caixa **Nome** é preenchida automaticamente com base no modelo, mas você pode alterar o nome.
 
    > [!div class="mx-imgBorder"]
-   > ![Página Inicial de Phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
+   > ![Página inicial de phishing](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
    Quando terminar, clique em **Avançar**.
 
-4. Na etapa **Destinatários de destino,** faça uma das seguintes etapas:
+4. Na etapa **Destinatários de** destino, faça uma das seguintes etapas:
 
-   - Clique **no Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário de alvo deve ter uma caixa de correio do Exchange Online. Se você clicar em **Filtrar** **e Aplicar** sem inserir critérios de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
+   - Clique **em Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário direcionado deve ter uma caixa de correio do Exchange Online. Se você clicar **em Filtrar** **e Aplicar** sem inserir um critério de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
 
    - Clique **em Importar** e **Importar** Arquivo para importar um valor separado por vírgula (CSV) ou arquivo separado por linha de endereços de email. Cada linha deve conter o endereço de email do destinatário.
 
    Quando terminar, clique em **Avançar**.
 
-5. Na etapa **Configurar detalhes de email,** de configure as seguintes configurações:
+5. Na etapa **Configurar detalhes de email,** configure as seguintes configurações:
 
    Se você selecionou um modelo **na** etapa Iniciar, a maioria desses valores já está configurada, mas você pode alterá-los.
 
    - **De (Nome)**: o nome de exibição usado para o remetente da mensagem.
 
-   - **De (Email)**: o endereço de email do remetente. Você pode inserir um endereço de email real ou falso do domínio de email da sua organização ou pode inserir um endereço de email externo real ou falso. Um endereço de email válido do remetente da sua organização será, na verdade, resolvido no cliente de email do destinatário.
+   - **De (Email)**: o endereço de email do remetente. Você pode inserir um endereço de email real ou falso do domínio de email da sua organização ou inserir um endereço de email externo real ou falso. Um endereço de email de remetente válido da sua organização será resolvido no cliente de email do destinatário.
 
-   - **URL do Servidor de Logon de Phishing:** clique no drop down e selecione uma das URLs disponíveis na lista. Esta é a URL em que os usuários serão tentados a clicar. As opções são:
+   - **URL do Servidor de Logon de Phishing**: clique no drop-down e selecione uma das URLs disponíveis na lista. Esta é a URL em que os usuários serão tentados a clicar. As opções são:
 
      - <http://portal.docdeliveryapp.com>
      - <http://portal.docdeliveryapp.net>
@@ -199,36 +201,36 @@ Se você for usar um dos modelos integrados ou criar a mensagem de email diretam
      >
      > - Todas as URLs são intencionalmente http, não https.
      >
-     > - Um serviço de reputação de URL pode identificar uma ou mais dessas URLs como não seguras. Verifique a disponibilidade da URL em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.
+     > - Um serviço de reputação de URL pode identificar uma ou mais DESSAS URLs como não seguras. Verifique a disponibilidade da URL em seus navegadores da Web com suporte antes de usar a URL em uma campanha de phishing.
      >
-     > - Você precisa selecionar uma URL. Para **campanhas** de Phishing de Phishing (Anexo), você pode remover o link do corpo da mensagem na próxima etapa (caso contrário, a mensagem conterá um **link** e um anexo).
+     > - Você deve selecionar uma URL. Para **campanhas de Phishing** de Lança (Anexo), você pode remover o link do corpo da mensagem na próxima etapa (caso contrário, a mensagem conterá um **link** e um anexo).
 
-   - **Tipo de anexo:** essa configuração só está disponível em campanhas **de Phishing (Anexo).** Clique no drop down e selecione **. DOCX** ou **. PDF** da lista.
+   - **Tipo de** anexo : essa configuração só está disponível em campanhas **de Phishing de Lança (Anexo).** Clique na lista listada e selecione **. DOCX** ou **. PDF** da lista.
 
-   - **Nome do** anexo: essa configuração só está disponível em campanhas **de Phishing de Phishing (Anexo).** Insira um nome de arquivo para o anexo .docx ou .pdf.
+   - **Nome do** anexo : essa configuração só está disponível em campanhas de Phishing de Lança **(Anexo).** Insira um nome de arquivo para o anexo .docx ou .pdf.
 
-   - **URL da Página de** Aterrissagem Personalizada: insira uma página inicial opcional onde os usuários serão levados se clicarem no link de phishing e inserirem suas credenciais. Esse link substitui a página de aterrissagem padrão. Por exemplo, se você tiver treinamento interno de reconhecimento, poderá especificar essa URL aqui.
+   - **URL da Página inicial personalizada**: insira uma página de aterrissagem opcional onde os usuários são levados se clicarem no link de phishing e inserirem suas credenciais. Este link substitui a página de aterrissagem padrão. Por exemplo, se você tiver treinamento de reconhecimento interno, poderá especificar essa URL aqui.
 
-   - **Assunto**: o **campo Assunto** da mensagem de email.
+   - **Assunto**: O **campo Assunto** da mensagem de email.
 
    Quando terminar, clique em **Avançar**.
 
-6. Na etapa **Redigir email,** crie o corpo da mensagem de email. Se você selecionou um modelo **na** etapa Iniciar, o corpo da mensagem já está configurado, mas você pode personalizá-lo. Você pode usar a **guia Email** (um editor de HTML rico) ou a guia **Fonte** (código HTML bruto).
+6. Na etapa **Escrever email,** crie o corpo da mensagem da mensagem de email. Se você selecionou um modelo na etapa **Iniciar,** o corpo da mensagem já está configurado, mas você pode personalizá-lo. Você pode usar a guia **Email** (um editor HTML rico) ou a guia **Origem** (código HTML bruto).
 
    A formatação HTML pode ser tão simples ou complexa quanto você precisa. Você pode inserir imagens e texto para melhorar a capacidade de acreditar da mensagem no cliente de email do destinatário.
 
    - `${username}` insere o nome do destinatário.
 
-   - `${loginserverurl}`insere o valor da URL do Servidor de **Logon de Phishing.**
+   - `${loginserverurl}`insere o **valor de URL do Servidor de Logon de Phishing.**
 
-   Para campanhas de **Phishing** de Phishing (Anexo), você deve remover o link do corpo da mensagem (caso contrário, a mensagem conterá um **link** e um anexo, e os cliques de link não são rastreados em uma campanha de anexo).
+   Para **campanhas de Phishing** de Lança (Anexo), você deve remover o link do corpo da mensagem (caso contrário, a mensagem conterá um **link** e um anexo e os cliques de link não serão rastreados em uma campanha de anexo).
 
    > [!div class="mx-imgBorder"]
-   > ![Corpo do email de composição](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
+   > ![Corpo do Email de Composição](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
 
    Quando terminar, clique em **Avançar**.
 
-7. Na etapa **Confirmar,** clique em **Concluir** para iniciar a campanha. A mensagem de phishing é entregue aos destinatários de alvo.
+7. Na etapa **Confirmar,** clique em **Concluir** para iniciar a campanha. A mensagem de phishing é entregue aos destinatários direcionados.
 
 ## <a name="password-attack-campaigns"></a>Campanhas de ataque de senha
 
@@ -236,46 +238,46 @@ Um *ataque de senha* tenta adivinhar senhas para contas de usuário em uma organ
 
 No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha estão disponíveis para você testar a complexidade das senhas dos usuários:
 
-- Senha de força bruta (ataque  de  **dicionário)**: um ataque de força bruta ou de dicionário usa um arquivo de dicionário grande de senhas em uma conta de usuário com a expectativa de que uma delas funcione (muitas senhas em uma conta). Bloqueios de senha incorretos ajudam a impedir ataques de senha de força bruta.
+- **Senha de força** bruta (ataque  de  dicionário) : Um ataque de força bruta ou dicionário usa um grande arquivo de dicionário de senhas em uma conta de usuário com a esperança de que uma delas funcione (muitas senhas em uma conta). Bloqueios de senha incorretos ajudam a impedir ataques de senha de força bruta.
 
-  Para o ataque de dicionário, você pode especificar uma ou várias senhas para tentar (inseridas manualmente ou em um arquivo carregado) e você pode especificar um ou vários usuários.
+  Para o ataque de dicionário, você pode especificar uma ou muitas senhas a tentar (inseridas manualmente ou em um arquivo carregado) e você pode especificar um ou muitos usuários.
 
-- **Ataque de pulverização de** senha: um ataque de *pulverização* de senha usa a mesma senha cuidadosamente considerada em uma lista de contas de usuário (uma senha em várias contas). Ataques de pulverização de senha são mais difíceis de detectar do que ataques de senha de força bruta (a probabilidade de sucesso aumenta quando um invasor tenta uma senha em dezenas ou centenas de contas sem o risco de bloquear a senha incorreta do usuário).
+- **Ataque de pulverização de** senha : Um ataque de *pulverização* de senha usa a mesma senha cuidadosamente considerada em uma lista de contas de usuário (uma senha em várias contas). Os ataques de pulverização de senha são mais difíceis de detectar do que ataques de senha de força bruta (a probabilidade de sucesso aumenta quando um invasor tenta uma senha entre dezenas ou centenas de contas sem o risco de bloquear a senha incorreta do usuário).
 
-  Para o ataque de pulverização de senha, você só pode especificar uma senha para tentar e você pode especificar um ou vários usuários.
+  Para o ataque de pulverização de senha, você só pode especificar uma senha a ser tentada e pode especificar um ou muitos usuários.
 
 > [!NOTE]
-> Os ataques de senha no Simulador de Ataque passam o nome de usuário e a senha Solicitações de autenticação básicas para um ponto de extremidade, para que também funcionem com outros métodos de autenticação (AD FS, sincronização de hash de senha, passagem, PingFederate, etc.). Para usuários que têm a MFA habilitada, mesmo se o ataque de senha tentar sua senha real,  a tentativa sempre será registrar como uma falha (em outras palavras, os usuários de MFA nunca aparecerão na contagem de tentativas bem-sucedidas da campanha). Esse é o resultado esperado. A MFA é um método principal para ajudar a proteger contra ataques de senha.
+> Os ataques de senha no Simulador de Ataque passam o nome de usuário e a senha Solicitações básicas de autenticação para um ponto de extremidade, para que eles também funcionem com outros métodos de autenticação (AD FS, sincronização de hash de senha, passagem, PingFederate, etc.). Para usuários que têm a MFA habilitada, mesmo que o ataque de senha tente sua senha real,  a tentativa sempre se registrará como uma falha (em outras palavras, os usuários MFA nunca aparecerão na contagem de tentativas bem-sucedidas da campanha). Esse é o resultado esperado. O MFA é um método principal para ajudar a proteger contra ataques de senha.
 
 ### <a name="create-and-launch-a-password-attack-campaign"></a>Criar e iniciar uma campanha de ataque de senha
 
-1. No Centro de Conformidade & segurança, vá para o simulador de ataques **de gerenciamento** \> **de ameaças.**
+1. No Centro de Conformidade & segurança, vá para Simulador de ataque **de gerenciamento** \> **de ameaças.**
 
 2. Na página **Simular ataques,** faça uma das seguintes seleções com base no tipo de campanha que você deseja criar:
 
-   - Na seção **Senha de Força Bruta (Ataque de** Dicionário), clique em **Iniciar** Ataque ou em Ataque **de Detalhes** \> **de Ataque.**
+   - Na seção **Senha de Força Bruta (Ataque de Dicionário),** clique em Iniciar **Ataque** ou em Ataque De Início **de Detalhes** de \> **Ataque.**
 
-   - na seção **Ataque de pulverização de** senha, clique em Iniciar **Ataque** ou em Ataque **de Detalhes** \> **de Ataque.**
+   - na seção **Ataque de pulverização de senha,** clique em **Iniciar Ataque ou** em Ataque De Início de **Detalhes** de \> **Ataque**.
 
-3. O **assistente Configurar Ataque de** Senha é iniciado em um novo flyout. Na etapa **Iniciar,** insira um nome de exibição exclusivo para a campanha e clique em **Próximo.**
+3. O **assistente Configurar Ataque de Senha** é iniciado em um novo sobrevoo. Na etapa **Iniciar,** insira um nome de exibição exclusivo para a campanha e clique em **Próximo**.
 
-4. Na etapa **Usuários de** destino, faça uma das seguintes etapas:
+4. Na etapa **Usuários de destino,** faça uma das seguintes etapas:
 
-   - Clique **no Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário de alvo deve ter uma caixa de correio do Exchange Online. Se você clicar em **Filtrar** **e Aplicar** sem inserir critérios de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
+   - Clique **em Livro de** Endereços para selecionar os destinatários (usuários ou grupos) da campanha. Cada destinatário direcionado deve ter uma caixa de correio do Exchange Online. Se você clicar **em Filtrar** **e Aplicar** sem inserir um critério de pesquisa, todos os destinatários serão retornados e adicionados à campanha.
 
    - Clique **em Importar** e **Importar** Arquivo para importar um valor separado por vírgula (CSV) ou arquivo separado por linha de endereços de email. Cada linha deve conter o endereço de email do destinatário.
 
    Quando terminar, clique em **Avançar**.
 
-5. Na etapa **Escolher configurações de ataque,** escolha o que fazer com base no tipo de campanha:
+5. Na etapa **Escolher configurações de** ataque, escolha o que fazer com base no tipo de campanha:
 
-   - **Senha de Força Bruta (Ataque de Dicionário)**: faça uma das seguintes etapas:
+   - **Senha de Força Bruta (Ataque de Dicionário)**: Faça uma das seguintes etapas:
 
-     - **Insira senhas manualmente:** pressione Enter **para adicionar uma caixa** de senha, digite uma senha e pressione ENTER. Repita essa etapa quantas vezes forem necessárias.
+     - **Insira senhas manualmente**: Na caixa Pressionar **digite** para adicionar uma senha, digite uma senha e pressione ENTER. Repita essa etapa quantas vezes forem necessárias.
 
-     - **Carregar senhas de um** arquivo  de dicionário: clique em Carregar para importar um arquivo de texto existente que contenha uma senha em cada linha e uma última linha em branco. O arquivo de texto deve ter 10 MB ou menos de tamanho e não pode conter mais de 30.000 senhas.
+     - **Carregar senhas de um arquivo de** dicionário : clique em **Carregar** para importar um arquivo de texto existente que contém uma senha em cada linha e uma última linha em branco. O arquivo de texto deve ter 10 MB ou menos de tamanho e não pode conter mais de 30.000 senhas.
 
-   - **Ataque de pulverização** de senha: **nas senhas a usar na caixa de** ataque, insira uma senha.
+   - **Ataque de pulverização de** senha : Em As senhas a ser **usadas na caixa de** ataque, insira uma senha.
 
    Quando terminar, clique em **Avançar**.
 
@@ -285,45 +287,45 @@ No Simulador de Ataques, dois tipos diferentes de campanhas de ataque de senha e
 
 Depois de iniciar uma campanha, você pode verificar o progresso e os resultados na página principal **simular ataques.**
 
-As campanhas ativas mostrarão uma barra de status, um valor percentual concluído e a contagem "(usuários concluídos) de (usuários totais)". Clicar no botão **Atualizar** atualizará o progresso de quaisquer campanhas ativas. Você também pode clicar **em Encerrar** para interromper uma campanha ativa.
+As campanhas ativas mostrarão uma barra de status, um valor percentual concluído e a contagem "(usuários concluídos) de (total de usuários)". Clicar no botão **Atualizar** atualizará o progresso de todas as campanhas ativas. Você também pode clicar **em Encerrar** para interromper uma campanha ativa.
 
-Quando a campanha é concluída, o status muda para **Ataque concluído.** Você pode exibir os resultados da campanha fazendo uma das seguintes ações:
+Quando a campanha é concluída, o status muda para **Ataque concluído**. Você pode exibir os resultados da campanha fazendo uma das seguintes ações:
 
-- Na página principal **Simular ataques,** clique **em Exibir Relatório** com o nome da campanha.
+- Na página principal **Simular ataques,** clique em **Exibir Relatório** com o nome da campanha.
 
-- Na página principal **Simular ataques,** clique em **Detalhes** do Ataque na seção para o tipo de ataque. Na página **Detalhes do ataque** que é aberta, selecione a campanha na seção Histórico **de** Ataques.
+- Na página principal **Simular ataques,** clique em **Detalhes de** Ataque na seção para o tipo de ataque. Na página **Detalhes de** ataque aberta, selecione a campanha na seção **Histórico de** Ataques.
 
-Qualquer uma das ações anteriores levará você a uma página chamada **Detalhes do ataque.** As informações disponíveis nesta página para cada tipo de campanha são descritas nas seções a seguir.
+Qualquer uma das ações anteriores levará você a uma página chamada **Detalhes de ataque.** As informações disponíveis nesta página para cada tipo de campanha são descritas nas seções a seguir.
 
-### <a name="spear-phishing-credentials-harvest-campaign-results"></a>Resultados da campanha de Phishing de Phishing (Coleta de Credenciais)
+### <a name="spear-phishing-credentials-harvest-campaign-results"></a>Resultados da campanha Phishing de Lança (Coleta de Credenciais)
 
-As informações a seguir estão disponíveis na página **Detalhes do** ataque para cada campanha:
+As informações a seguir estão disponíveis na página **Detalhes de** ataque para cada campanha:
 
 - A duração (data/hora de início e data/hora de término) da campanha.
 
 - **Total de usuários direcionados**
 
-- **Tentativas** bem-sucedidas: o número de usuários que clicaram no **link** e forneceram suas credenciais (qualquer valor *de* nome de usuário e senha).
+- **Tentativas** bem-sucedidas : o número de usuários que clicaram no **link** e entraram em suas credenciais (*qualquer nome de* usuário e valor de senha).
 
-- **Taxa de Sucesso Geral**: Uma porcentagem calculada pelas tentativas bem-sucedidas total de  /  **usuários direcionados.**
+- **Taxa de Sucesso Geral**: Uma porcentagem calculada por tentativas bem-sucedidas   /  **Total de usuários direcionados**.
 
 - **Clique mais** rápido: quanto tempo o primeiro usuário levou para clicar no link depois de iniciar a campanha.
 
-- **Clique médio**: a soma de quanto tempo todos demoraram para clicar no link dividido pelo número de usuários que clicaram no link.
+- **Clique em** Média : a soma de quanto tempo todos demoraram para clicar no link dividido pelo número de usuários que clicaram no link.
 
-- **Click Success Rate**: A percentage that's calculated by (number of users who clicked the link) / **Total users targeted**.
+- **Clique em Taxa de** Sucesso : Uma porcentagem calculada por (número de usuários que clicaram no link) / **Total de usuários direcionados**.
 
 - **Credenciais mais rápidas:** quanto tempo o primeiro usuário levou para inserir suas credenciais depois de iniciar a campanha.
 
-- **Credenciais médias:** a soma do tempo que todos demoraram para inserir suas credenciais divididas pelo número de usuários que inseriram suas credenciais.
+- **Credenciais médias**: a soma de quanto tempo todos demoraram para inserir suas credenciais divididas pelo número de usuários que inseriram suas credenciais.
 
-- **Taxa de Sucesso da** Credencial: Uma porcentagem calculada por (número de usuários que ins inseridas em suas credenciais) / **Total de usuários direcionados.**
+- **Taxa de Sucesso de** Credenciais : Uma porcentagem calculada por (número de usuários que entraram em suas credenciais) / **Total de usuários direcionados**.
 
-- Um gráfico de barras que mostra **o link clicado** e os **números fornecidos de credencial** por dia.
+- Um gráfico de barras que mostra **o Link clicado e** os números **fornecidos por** dia por credencial.
 
-- Um gráfico em círculo que mostra **as porcentagens Link clicado**, **Credencial** fornecida e Nenhuma para a campanha. 
+- Um gráfico de círculo que mostra **as porcentagens Link clicou**, **Credencial fornecida** e **Nenhuma** para a campanha.
 
-- A **seção Usuários** Comprometidos lista os detalhes dos usuários que clicaram no link:
+- A **seção Usuários Comprometidos** lista os detalhes dos usuários que clicaram no link:
 
   - O endereço de email do usuário
 
@@ -335,46 +337,46 @@ As informações a seguir estão disponíveis na página **Detalhes do** ataque 
 
   Você pode clicar **em Exportar** para exportar os resultados para um arquivo CSV.
 
-### <a name="spear-phishing-attachment-campaign-results"></a>Resultados da campanha de Phishing de Phishing (Anexo)
+### <a name="spear-phishing-attachment-campaign-results"></a>Resultados da campanha Phishing de Lança (Anexo)
 
-As informações a seguir estão disponíveis na página **Detalhes do** ataque para cada campanha:
-
-- A duração (data/hora de início e data/hora de término) da campanha.
-
-- **Total de usuários direcionados**
-
-- **Tentativas** bem-sucedidas: o número de usuários que abriram ou baixaram e abriram o anexo (a visualização não conta).
-
-- **Taxa de Sucesso Geral**: Uma porcentagem calculada pelas tentativas bem-sucedidas total de  /  **usuários direcionados.**
-
-- **Tempo de abertura do anexo mais** rápido: quanto tempo o primeiro usuário levou para abrir o anexo depois que você iniciou a campanha.
-
-- **Tempo médio de abertura do anexo:** a soma do tempo que todos demoraram para abrir o anexo dividido pelo número de usuários que abriram o anexo.
-
-- **Taxa de sucesso de abertura de** anexos: Uma porcentagem calculada por (número de usuários que abriram o anexo) / Total de usuários **direcionados.**
-
-### <a name="brute-force-password-dictionary-attack-campaign-results"></a>Resultados da campanha senha de força bruta (ataque de dicionário)
-
-As informações a seguir estão disponíveis na página **Detalhes do** ataque para cada campanha:
+As informações a seguir estão disponíveis na página **Detalhes de** ataque para cada campanha:
 
 - A duração (data/hora de início e data/hora de término) da campanha.
 
 - **Total de usuários direcionados**
 
-- **Tentativas** bem-sucedidas: o número de usuários que foram encontrados usando uma das senhas especificadas.
+- **Tentativas** bem-sucedidas : o número de usuários que abriram ou baixaram e abriram o anexo (a visualização não conta).
 
-- **Taxa de Sucesso Geral**: Uma porcentagem calculada pelas tentativas bem-sucedidas total de  /  **usuários direcionados.**
+- **Taxa de Sucesso Geral**: Uma porcentagem calculada por tentativas bem-sucedidas   /  **Total de usuários direcionados**.
+
+- **Tempo de abertura de anexo mais** rápido: quanto tempo o primeiro usuário levou para abrir o anexo depois de iniciar a campanha.
+
+- **Tempo médio de** abertura de anexo : a soma de quanto tempo todos demoraram para abrir o anexo dividido pelo número de usuários que abriram o anexo.
+
+- **Taxa de sucesso de** abertura de anexo: uma porcentagem calculada por (número de usuários que abriram o anexo) / Total de usuários **direcionados**.
+
+### <a name="brute-force-password-dictionary-attack-campaign-results"></a>Resultados da campanha Senha de Força Bruta (Ataque de Dicionário)
+
+As informações a seguir estão disponíveis na página **Detalhes de** ataque para cada campanha:
+
+- A duração (data/hora de início e data/hora de término) da campanha.
+
+- **Total de usuários direcionados**
+
+- **Tentativas** bem-sucedidas : o número de usuários que foram encontrados usando uma das senhas especificadas.
+
+- **Taxa de Sucesso Geral**: Uma porcentagem calculada por tentativas bem-sucedidas   /  **Total de usuários direcionados**.
 
 - A **seção Usuários Comprometidos** lista os endereços de email dos usuários afetados. Você pode clicar **em Exportar** para exportar os resultados para um arquivo CSV.
 
 ### <a name="password-spray-attack-campaign-results"></a>Resultados da campanha de ataque de pulverização de senha
 
-As informações a seguir estão disponíveis na página **Detalhes do** ataque para cada campanha:
+As informações a seguir estão disponíveis na página **Detalhes de** ataque para cada campanha:
 
 - A duração (data/hora de início e data/hora de término) da campanha.
 
 - **Total de usuários direcionados**
 
-- **Tentativas** bem-sucedidas: o número de usuários que foram encontrados usando a senha especificada.
+- **Tentativas** bem-sucedidas : o número de usuários que foram encontrados usando a senha especificada.
 
-- **Taxa de Sucesso Geral**: Uma porcentagem calculada pelas tentativas bem-sucedidas total de  /  **usuários direcionados.**
+- **Taxa de Sucesso Geral**: Uma porcentagem calculada por tentativas bem-sucedidas   /  **Total de usuários direcionados**.

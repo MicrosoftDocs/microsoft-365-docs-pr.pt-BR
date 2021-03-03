@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
-description: A Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger nossos usuários contra emails ofensivos, indesejados ou mal-intencionados.
+description: A Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger nossos usuários contra emails abusivos, indesejados ou mal-intencionados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1065fdef5f804214ca48f7ca54170e6e417490d7
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: f53b1c36417b15e366b527dd1c12e4f23c06f632
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289192"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406591"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Referência: políticas, práticas e diretrizes
 
@@ -33,25 +33,25 @@ ms.locfileid: "50289192"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-A Microsoft se dedica a ajudar a fornecer a experiência de usuário mais confiável na Web. Portanto, a Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger nossos usuários contra emails ofensivos, indesejados ou mal-intencionados. Os envios que tentam enviar emails aos usuários devem garantir que eles entendam totalmente e estão seguindo as orientações neste artigo para ajudar nesse esforço e para ajudar a evitar possíveis problemas de entrega.
+A Microsoft se dedica a ajudar a fornecer a experiência de usuário mais confiável na Web. Portanto, a Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger nossos usuários contra emails abusivos, indesejados ou mal-intencionados. Os envios que tentam enviar emails aos usuários devem garantir que eles compreendam totalmente e estão seguindo as diretrizes neste artigo para ajudar nesse esforço e para ajudar a evitar possíveis problemas de entrega.
 
-Se você não estiver em conformidade com essas políticas e diretrizes, talvez não seja possível que nossa equipe de suporte ajude você. Se você estiver aderindo às diretrizes, práticas e políticas apresentadas neste artigo e ainda estiver enfrentando problemas de entrega com base no seu endereço IP de envio, siga as etapas para enviar uma solicitação de relistagem. Para obter instruções, [confira Usar o portal de remoção da lista para se remover da lista de envios bloqueados.](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
+Se você não estiver em conformidade com essas políticas e diretrizes, talvez não seja possível que nossa equipe de suporte o ajude. Se você estiver aderindo às diretrizes, práticas e políticas apresentadas neste artigo e ainda estiver enfrentando problemas de entrega com base no seu endereço IP de envio, siga as etapas para enviar uma solicitação de deslistagem. Para obter instruções, [consulte Use the delist portal to remove yourself from the blocked senders list](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md).
 
 ## <a name="general-microsoft-policies"></a>Políticas gerais da Microsoft
 
-Os emails enviados aos usuários do Microsoft 365 devem estar em conformidade com todas as políticas da Microsoft que regem a transmissão de emails e o uso do Microsoft 365.
+Os emails enviados aos usuários do Microsoft 365 devem estar em conformidade com todas as políticas da Microsoft que regem a transmissão de email e o uso do Microsoft 365.
 
-- Termos de Serviços aplicáveis ao Microsoft 365; em particular, a proibição de usar o serviço para spam ou distribuir malware.
+- Termos de Serviços aplicáveis ao Microsoft 365; em particular, a proibição de usar o serviço para spam ou distribuição de malware.
 
-- [Contrato de Serviços Microsoft](https://www.microsoft.com/servicesagreement/)
+- [Contrato do Microsoft Services](https://www.microsoft.com/servicesagreement/)
 
 ## <a name="governmental-regulations"></a>Regulamentações governamentais
 
-Os emails enviados aos usuários do Microsoft 365 devem cumprir todas as leis e regulamentos aplicáveis que regem as comunicações por email na jurisdição aplicável.
+Os emails enviados aos usuários do Microsoft 365 devem aderir a todas as leis e regulamentos aplicáveis que regem as comunicações de email na jurisdição aplicável.
 
-- [CAN-SPAM Act: Um Guia de Conformidade para Empresas](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
+- [Can-SPAM Act: Um Guia de Conformidade para Empresas](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
 
-- [Respostas e responsabilidades "Remover-me" : os mercados de email devem honrar as declarações "Cancelar assinatura"](https://www.lawpublish.com/ftc-emai-marketers-unsubscribe-claims.html)
+- [Respostas e responsabilidades "Remove Me": os mercadores de email devem honrar as declarações "Cancelar assinatura"](https://www.lawpublish.com/ftc-emai-marketers-unsubscribe-claims.html)
 
 ## <a name="technical-guidelines"></a>Diretrizes técnicas
 
@@ -59,46 +59,46 @@ Os emails enviados para o Microsoft 365 devem estar em conformidade com as recom
 
 - [RFC 2505: Recomendações anti-spam para MTAs SMTP](https://www.ietf.org/rfc/rfc2505.txt)
 
-- [RFC 2920: Extensão de serviço SMTP para pipelining de comando](https://www.ietf.org/rfc/rfc2920.txt)
+- [RFC 2920: Extensão de Serviço SMTP para Pipelining de Comando](https://www.ietf.org/rfc/rfc2920.txt)
 
-Além disso, os servidores de email que se conectam ao Microsoft 365 devem cumprir os seguintes requisitos:
+Além disso, os servidores de email que se conectam ao Microsoft 365 devem seguir os seguintes requisitos:
 
-- Espera-se que o remetente cumpra todos os padrões técnicos para a transmissão de emails da Internet, conforme publicado pela IETF (Internet Engineering Task Force) da Internet, incluindo RFC 5321, RFC 5322 e outros.
+- Espera-se que o remetente cumpra todos os padrões técnicos para a transmissão de emails da Internet, conforme publicado pela Força de Tarefa de Engenharia da Internet (IETF), incluindo RFC 5321, RFC 5322 e outros.
 
 - Depois de receber um código de resposta de erro SMTP numérico entre 500 e 599 (também conhecido como uma resposta permanente de falha na entrega ou NDR), o remetente não deve tentar retransmitir essa mensagem para esse destinatário.
 
-- Após várias respostas de não entrega, o remetente deve parar de tentar enviar emails para esse destinatário.
+- Depois de várias respostas que não são de entrega, o remetente deve interromper outras tentativas de enviar emails para esse destinatário.
 
-- As mensagens não devem ser transmitidas por meio de retransmissão de email insegura ou servidores proxy.
+- As mensagens não devem ser transmitidas por meio de servidores proxy ou retransmissão de email inseguros.
 
-- O mecanismo para cancelar a inscrição, seja de listas individuais ou de todas as listas hospedadas pelo remetente, deve ser claramente documentado e fácil para os destinatários encontrar e usar.
+- O mecanismo para cancelar a assinatura, seja de listas individuais ou de todas as listas hospedadas pelo remetente, deve ser claramente documentado e fácil para os destinatários encontrar e usar.
 
-- Conexões de espaço IP dinâmico podem não ser aceitas.
+- As conexões do espaço IP dinâmico podem não ser aceitas.
 
 - Os servidores de email devem ter registros DNS reverso válidos.
 
 ## <a name="reputation-management"></a>Gerenciamento de reputação
 
-Os fornecedores, ISP e outros provedores de serviços devem gerenciar ativamente a reputação de seus endereços IP de saída.
+Os envios, ISP e outros provedores de serviços devem gerenciar ativamente a reputação de seus endereços IP de saída.
 
 ## <a name="microsoft-365-limits"></a>Limites do Microsoft 365
 
-Os envios devem cumprir os limites do Microsoft 365 listados nos Limites [da Proteção do Exchange Online.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
+Os envios devem seguir os limites do Microsoft 365 listados em Limites de Proteção [do Exchange Online.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
 
-## <a name="email-delivery-resources-and-organizations"></a>Organizações e recursos de entrega de email
+## <a name="email-delivery-resources-and-organizations"></a>Recursos e organizações de entrega de email
 
-A Microsoft trabalha ativamente com órgãos do setor e provedores de serviços para melhorar o ecossistema de internet e email. Essas organizações publicaram documentos de práticas recomendas aos que damos suporte e recomendamos que os envios aderem. Isso melhora sua capacidade de entregar emails entre vários provedores de serviços de email em todo o mundo.
+A Microsoft trabalha ativamente com entidades do setor e provedores de serviços para melhorar o ecossistema de internet e email. Essas organizações publicaram documentos de práticas práticas que nós suportamos e recomendamos que os envios aderam. Isso melhora sua capacidade de entregar emails entre vários provedores de serviços de email em todo o mundo.
 
-- [Grupo de trabalho anti-abuso móvel de malware de mensagens](https://www.m3aawg.org/)
+- [Grupo de trabalho antiabuso de malware móvel de mensagens](https://www.m3aawg.org/)
 
-- [Online Trust Alliance](https://www.otalliance.org/resources)
+- [Online Trust Alliance](https://www.internetsociety.org/ota/)
 
-- [Remetente de email & provedor de internet](https://www.espcoalition.org/)
+- [Coligação de Provedor de & de Email](https://www.espcoalition.org/)
 
-## <a name="abuse-and-spam-reporting"></a>Relatórios de abusos e spam
+## <a name="abuse-and-spam-reporting"></a>Relatórios de spam e abuso
 
-Para relatar emails ilegais, ofensivos, indesejados ou mal-intencionados, confira [As mensagens e arquivos de relatório para a Microsoft.](report-junk-email-messages-to-microsoft.md) O envio desses tipos de comunicações é uma violação da política da Microsoft e a ação apropriada será tomada em relatórios confirmados.
+Para relatar emails ilegais, abusivas, indesejados ou mal-intencionados, consulte [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md). O envio desses tipos de comunicações é uma violação da política da Microsoft e as ações apropriadas serão tomadas em relatórios confirmados.
 
 ## <a name="law-enforcement"></a>Aplicação da lei
 
-Se você for membro das autoridades legais e quiser atender à Microsoft Corporation com documentação legal sobre o Office 365 ou se tiver dúvidas sobre a documentação legal enviada à Microsoft, ligue para (1) (425) 722-1299.
+Se você é membro da aplicação da lei e deseja atender a Microsoft Corporation com documentação legal sobre o Office 365 ou se tiver dúvidas sobre a documentação legal enviada à Microsoft, chame (1) (425) 722-1299.

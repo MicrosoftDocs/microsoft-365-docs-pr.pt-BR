@@ -22,12 +22,12 @@ ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: 'Resumo: Diretrizes de planejamento e implementação para organizações ágeis que têm um perfil de ameaça maior.'
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f8ed01d2c41529782c5c714bfe66096b97300712
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 76680ef5b21ae80525a7158ca0473cf82bd154d7
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287396"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406323"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>Diretrizes de segurança da Microsoft para campanhas políticas, instituições sem fins lucrativos e outras organizações Agile
 
@@ -65,10 +65,8 @@ Para criar um ambiente de desenvolvimento/teste para esta solução, siga a orie
 
   Crie quatro sites de equipe do SharePoint Online com os níveis de segurança Interno, Particular, Confidencial e Altamente Confidencial.
 
-Confira outros recursos de segurança para demonstração ou prova de conceito em [Guias de laboratório de teste do Office 365](https://aka.ms/o365tlgs).
+Confira outros recursos de segurança para demonstração ou prova de conceito em [Guias de laboratório de teste do Office 365](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md).
 
 ## <a name="see-also"></a>Confira também
-
-[Guias do Laboratório de Teste (TLGs) para adoção de nuvem](../../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
 
 [Recursos de arquitetura de TI do Microsoft Cloud](../../solutions/cloud-architecture-models.md)
