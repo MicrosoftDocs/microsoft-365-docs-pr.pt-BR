@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para os administradores de IT gerenciarem rótulos de sensibilidade em aplicativos do Office para área de trabalho, celular e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1834e1071c56e03ef20ae0e87b63fc4c03a6921b
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: b7d3c436030c0db3faa7834ed0153396048c0ec6
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407301"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423682"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -64,8 +64,8 @@ Os números listados são a versão mínima do aplicativo do Office necessária 
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 2010+           | 16,42+     | 2,42+ | 16.0.13328+ | Em revisão |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16,21+     | 2.21+ | 16.0.11231+ | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16,35+   | Em revisão   | Em revisão         | Em revisão                                                        |
-|[Começar a classificar dados e](data-classification-overview.md) enviar dados para administradores                      | 2011+ | 16,43+ | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Sim <sup>\*</sup>                                                        |
-|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Visualização: [Canal Atual (Visualização)](https://office.com/insider)             | Visualização: [Canal Atual (Visualização)](https://office.com/insider)         | Em revisão   | Lançamento: 16.0.13628+ | Em revisão                                            
+|[Começar a classificar dados e](data-classification-overview.md) enviar dados para administradores                      | 2011+ | 16,43+ | Lançamento: 2,46+ | Lançamento: 16.0.13628+ | Sim <sup>\*</sup>                                                        |
+|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Lançamento: 2101+             | Lançamento: 16,45+         | Implantando na visualização: [Canal Beta](https://office.com/insider) | Lançamento: 16.0.13628+ | Em revisão                                            
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Lançamento: 16,44+ | Em revisão | Em revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Suporte a coautor e o AutoSave](sensitivity-labels-coauthoring.md) para documentos rotulados e criptografados | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Visualização: [Canal Beta](https://office.com/insider) | Em revisão | Em revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
@@ -88,7 +88,7 @@ Os números listados são a versão mínima do aplicativo do Office necessária 
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | Em revisão                     | Em revisão                 | Em revisão         | Em revisão           | Em revisão               |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16,21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16,21+                 | 4.7.1+         | 4.0.39+           | Sim               |
-|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Visualização: [Canal Atual (Visualização)](https://office.com/insider))                        | 16,43+ <sup>\*</sup>                    | Em revisão            | Em revisão                | Sim                |
+|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Lançamento: 2101+                        | 16,43+ <sup>\*</sup>                    | Em revisão            | Em revisão                | Sim                |
 |[Começar a classificar dados e](data-classification-overview.md) enviar dados para administradores                      | 2011+ | Em revisão | Em revisão           | Em revisão               | Em revisão |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16,44+ <sup>\*</sup>                    | Em revisão           | Em revisão               | Sim |
 |
