@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar políticas e rótulos de retenção para administrar os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: 26568d2a603e447156aead751178555fa400db5e
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: bb73f0871bfc2ad707d31ef6d4d57e18218842a5
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682526"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50406511"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Introdução à políticas de retenção e rótulos de retenção
 
@@ -82,9 +82,11 @@ Use a tabela a seguir para ajudá-lo a mapear seus requisitos de negócios para 
 
 Se você usa rótulos de retenção para o gerenciamento de registros, há outros cenários exclusivos de rótulos de retenção que marcam o conteúdo como um registro. Confira [Cenários comuns para de gerenciamento de registros](get-started-with-records-management.md#common-scenarios-for-records-management).
 
-## <a name="end-user-documentation-for-retention-labels"></a>Documentação do usuário final para rótulos de retenção
+## <a name="end-user-documentation-for-retention"></a>Documentação do usuário final para retenção
 
-Os rótulos de retenção, diferentemente das políticas de retenção, têm uma presença da interface de usuário em aplicativos do Microsoft 365. Certifique-se de fornecer orientações para os usuários finais e para o suporte técnico antes de implantar os rótulos de retenção à sua rede de produção.
+A maioria das políticas de retenção funciona discretamente em segundo plano, sem interação do usuário e, portanto, precisa de pouca documentação para os usuários. As políticas de retenção para equipes informam os usuários quando suas mensagens foram excluídas com um link para [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
+
+Como os rótulos de retenção têm uma presença de interface do usuário em aplicativos do Microsoft 365, certifique-se de fornecer orientação para os usuários finais e seu help desk antes de implantar esses rótulos em sua rede de produção.
 
 A documentação mais eficaz do usuário final será orientação e instruções personalizadas que você fornecerá para os nomes dos rótulos de retenção e às configurações que você escolher. Confira a postagem de blog a seguir para um pacote de download que você pode usar para treinar os usuários e impulsionar a adoção: [Treinamento do Usuário Final para Etiquetas de Retenção no M365 – Como Acelerar a Sua Adoção](https://techcommunity.microsoft.com/t5/microsoft-security-and/end-user-training-for-retention-labels-in-m365-how-to-accelerate/ba-p/1750861).
 
