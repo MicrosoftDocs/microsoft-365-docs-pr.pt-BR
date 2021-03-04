@@ -9,26 +9,24 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como configurar a proteção anti-phishing.
-ms.openlocfilehash: bcb6b8bac316b4b74c505656cb9a93e7a87e0830
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 8cef8f916a8a3e2b27dd7f76ddecd921d59ca0c4
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927869"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421998"
 ---
 # <a name="set-up-anti-phishing"></a>Configurar anti-phishing
 
@@ -38,16 +36,16 @@ Phishing é um ataque mal-intencionado em que um email parece ter sido enviado d
 
 ## <a name="try-it"></a>Experimente!
 
-1. No centro de administração em , selecione Segurança , Gerenciamento de [https://admin.microsoft.com](https://admin.microsoft.com) **Ameaças**, **Política**, depois **ATP Anti-phishing**. 
+1. No centro de administração em [https://admin.microsoft.com](https://admin.microsoft.com) , selecione **Segurança,** **Gerenciamento de Ameaças**, **Política**, em **seguida, ATP Anti-phishing**.
 1. Selecione **Política Padrão** para refiná-la.
 1. Na seção **Representação,** selecione **Editar**.
 1. Vá para **Adicionar domínios para proteger** e selecione a alternância para incluir automaticamente os domínios que você possui.
-1. Vá para **Ações**, abra o drop-down **Se o email** for enviado por um usuário personificado e escolha a ação que você deseja.
+1. Vá para **Ações**, abra o drop-down **Se o email** for enviado por um usuário personificado, escolha a ação que você deseja.
 
-    Abra o drop-down se o email for enviado por um domínio **personificado** e escolha a ação que você deseja.
+    Abra o drop-down Se o email for enviado por um domínio **personificado** e escolher a ação que você deseja.
 1. Selecione **Ativar dicas de segurança de representação.** Escolha se as dicas devem ser fornecidas aos usuários quando o sistema detectar usuários, domínios ou caracteres incomuns. Selecione **Salvar**.
-1. Selecione **a inteligência de** caixa de correio e verifique se ela está 1. Isso permite que seu email seja mais eficiente por meio de padrões de uso de aprendizagem.
-1. Escolha **Adicionar domínios e senders confiáveis.** Aqui você pode adicionar endereços de email ou domínios que não devem ser classificados como uma representação.
-1. Choose **Review your settings**, make sure everything is correct, select **Save**, then **Close**.
+1. Selecione **Inteligência de Caixa** de Correio e verifique se ele está ligado. Isso permite que seu email seja mais eficiente aprendendo padrões de uso.
+1. Escolha **Adicionar senders e domínios confiáveis.** Aqui você pode adicionar endereços de email ou domínios que não devem ser classificados como uma representação.
+1. Escolha **Revisar suas configurações,** certifique-se de que tudo está correto, selecione **Salvar**, em **seguida, Feche**.
 
     Sua organização agora tem melhor proteção contra ameaças de phishing.

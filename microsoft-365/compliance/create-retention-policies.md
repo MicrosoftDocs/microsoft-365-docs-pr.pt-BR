@@ -16,23 +16,26 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Use uma política de retenção para manter o controle do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
-ms.openlocfilehash: 1806000b47a19c07da11a6a732eeacf5d60a7da0
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+description: Use uma política de retenção para manter o controle eficiente do conteúdo que os usuários geram com email, documentos e conversas. Mantenha o que você deseja e descarte o que não.
+ms.openlocfilehash: 02d3fd17e4aac34546e545ec10621bc99b945b31
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261320"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405709"
 ---
 # <a name="create-and-configure-retention-policies"></a>Criar e configurar políticas de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
 
-Use uma política de retenção para decidir proativamente se deseja reter o conteúdo, excluí-lo ou ambos; reter e depois excluir o conteúdo.
+Use uma política de retenção para gerenciar os dados de sua organização, decidindo de forma proativa se retém, exclui ou retém e exclui o conteúdo.
 
-Uma política de retenção permite que você faça isso com muita eficiência, atribuindo as mesmas configurações de retenção para o conteúdo por local, no nível do site ou da caixa de correio. Se você não tiver certeza se deseja usar uma política ou um rótulo de retenção, confira [Políticas de retenção e os rótulos de retenção](retention.md#retention-policies-and-retention-labels).
+Uma política de retenção permite que você faça isso de forma muito eficiente, atribuindo as mesmas configurações de retenção no nível do contêiner para serem herdadas automaticamente pelo conteúdo desse contêiner. Por exemplo, todos os itens em sites do Windows SharePoint, todas as mensagens de email nas caixas de correio do Exchange dos usuários, todas as mensagens do canal para equipes usadas com o Microsoft Teams. Se você não tiver certeza se deve usar uma política de retenção no nível do contêiner ou um rótulo de retenção no nível do item, consulte [Políticas de retenção e rótulos de retenção](retention.md#retention-policies-and-retention-labels).
 
-Para saber mais sobre o funcionamento das políticas de retenção, confira [Saiba mais sobre políticas e rótulos de retenção](retention.md).
+Para mais informações sobre políticas de retenção e como funciona a retenção no Microsoft 365, consulte [Saiba mais sobre políticas de retenção e rótulos de retenção](retention.md).
+
+> [!NOTE]
+> As informações nesta página são para administradores de conformidade. Se você não é um administrador e deseja entender como as políticas de retenção foram configuradas para os aplicativos que você usa, entre em contato com o suporte técnico, departamento de TI ou administrador. Se estiver vendo mensagens sobre políticas de retenção em chats do Teams e mensagens do canal, pode ser útil revisar [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -40,7 +43,7 @@ O administrador global da sua organização tem permissões completas para criar
 
 ## <a name="create-and-configure-a-retention-policy"></a>Criar e configurar uma política de retenção
 
-Embora uma política de retenção possa dar suporte a vários locais, você não pode criar uma única política de retenção que inclui todos os locais suportados:
+Embora uma política de retenção possa oferecer suporte a vários serviços identificados como "locais" na política de retenção, você não pode criar uma única política de retenção que inclua todos os locais com suporte:
 
 - Email do Exchange
 - Site do SharePoint
@@ -53,7 +56,7 @@ Embora uma política de retenção possa dar suporte a vários locais, você nã
 - Mensagens da comunidade do Yammer
 - Mensagens privadas do Yammer
 
-Quando você seleciona um dos locais do Teams ou Yammer quando cria uma política de retenção, os outros locais são excluídos automaticamente. Portanto, as instruções a seguir dependem se você precisa incluir os locais do Teams ou Yammer:
+Quando você seleciona um dos locais do Teams ou Yammer quando cria uma política de retenção, os outros locais são excluídos automaticamente. Isso significa que as instruções a seguir dependem de você precisar incluir os locais Teams ou do Yammer:
 
 - [Instruções para uma política de retenção para locais do Teams](#retention-policy-for-teams-locations)
 - [Instruções para uma política de retenção para locais do Yammer](#retention-policy-for-yammer-locations)

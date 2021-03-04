@@ -15,30 +15,31 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 1461a63cc57a5d93e06b1df89dfa0f3f7e8bc559
-ms.sourcegitcommit: a0cddd1f888edb940717e434cda2dbe62e5e9475
+- m365solution-scenario
+ms.openlocfilehash: cb029ddcaf63accfd0b49c6b317976ad1a00ab40
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49613721"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423219"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Conformidade de comunicação no Microsoft 365
 
-Proteger informações confidenciais e detectar e agir sobre incidentes de abuso no local de trabalho é uma parte importante da conformidade com políticas e padrões internos. A conformidade de comunicação no Microsoft 365 ajuda a minimizar esses riscos, ajudando você a detectar, capturar e tomar ações de correção rapidamente para comunicações de email e do Microsoft Teams. Isso inclui comunicações inadequadas que contêm profanação, ameaças e abuso e comunicações que compartilham informações confidenciais dentro e fora da sua organização.
+Proteger informações confidenciais e detectar e agir em incidentes de assédio no local de trabalho é uma parte importante da conformidade com as políticas e padrões internos. A conformidade de comunicação no Microsoft 365 ajuda a minimizar esses riscos, ajudando você a detectar, capturar e realizar ações de correção rapidamente para emails e comunicações do Microsoft Teams. Eles incluem comunicações inadequadas que contêm profanidade, ameaças e assédio e comunicações que compartilham informações confidenciais dentro e fora da sua organização.
 
 ## <a name="configure-communication-compliance-for-microsoft-365"></a>Configurar a conformidade de comunicação para o Microsoft 365
 
 Use as etapas a seguir para configurar a conformidade de comunicação para sua organização:
 
-![Etapas de conformidade de comunicação da solução de risco interno](../media/ir-solution-cc-steps.png)
+![Etapas de conformidade de comunicação da solução de risco insider](../media/ir-solution-cc-steps.png)
 
 1. Saiba mais [sobre a conformidade de](communication-compliance.md) comunicação no Microsoft 365
-2. Planejar a conformidade [de comunicação e](communication-compliance-plan.md) verificar o [licenciamento](communication-compliance-configure.md#subscriptions-and-licensing)
-3. Revisar [a referência de recursos e os recursos da solução](communication-compliance-feature-reference.md)
-4. Configurar [pré-requisitos](communication-compliance-configure.md#step-2-required-enable-the-audit-log) [e permissões](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance)
+2. Planejar a [conformidade de comunicação e](communication-compliance-plan.md) verificar o [licenciamento](communication-compliance-configure.md#subscriptions-and-licensing)
+3. Revisar [recursos de referência e recursos de solução](communication-compliance-feature-reference.md)
+4. Configurar [pré-requisitos](communication-compliance-configure.md#step-2-required-enable-the-audit-log) e [permissões](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance)
 5. Criar e configurar políticas [de conformidade de comunicação](communication-compliance-configure.md#step-5-required-create-a-communication-compliance-policy)
 
-## <a name="more-information-about-communication-compliance"></a>Mais informações sobre conformidade de comunicação
+## <a name="more-information-about-communication-compliance"></a>Mais informações sobre conformidade com a comunicação
 
-- [Investigar e remediar alertas](communication-compliance-investigate-remediate.md)
-- [Estudo de caso – a Contoso configura rapidamente uma política de linguagem ofensiva para comunicações do Microsoft Teams, Exchange e Yammer](communication-compliance-case-study.md)
+- [Investigar e correção de alertas](communication-compliance-investigate-remediate.md)
+- [Estudo de caso - a Contoso configura rapidamente uma política de linguagem ofensiva para comunicações do Microsoft Teams, Exchange e Yammer](communication-compliance-case-study.md)

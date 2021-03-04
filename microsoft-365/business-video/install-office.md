@@ -9,25 +9,23 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como instalar aplicativos do Microsoft Office.
-ms.openlocfilehash: abbeb8fdaa36956014ef955f853616cdb7d4e83c
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Saiba como instalar Microsoft Office aplicativos.
+ms.openlocfilehash: c4df808f366095c5e0d21d177bb40bcff56488cd
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925009"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422502"
 ---
 # <a name="install-office-apps"></a>Instalar os aplicativos do Office 
 
@@ -35,12 +33,12 @@ ms.locfileid: "49925009"
 
 ## <a name="try-it"></a>Experimente!
 
-Os aplicativos do Microsoft Office podem ser encontrados  **no** menu Iniciar. Se você não&#39;vê-los, você pode instalá-los por conta própria.
+Microsoft Office aplicativos podem ser encontrados no  **menu** Iniciar. Se você não&#39;vê-los, pode instalá-los por conta própria.
 
 1. Vá para office.com. Talvez seja necessário entrar com sua conta de trabalho.
-2. Selecione **Instalar Aplicativos**   >   **do Office Microsoft 365**   >   **Executar** e, em seguida, selecione **Sim.**
-3. Os aplicativos do Office serão instalados. O processo pode levar vários minutos. Quando terminar, selecione  **Fechar**.
-4. Para instalar o Microsoft Teams, vá para a office.com e escolha **Teams.**
-5. Obter o aplicativo do Windows e, em seguida, selecione  **Executar**. O Teams exibe um aviso quando a instalação é concluída.
+2. Selecione **Instalar aplicativos**   >   **do Office Microsoft 365**   >   **Run** e selecione **Sim**.
+3. Os aplicativos do Office serão instalados. O processo pode levar vários minutos. Quando ele for concluído, selecione  **Fechar**.
+4. Para instalar o Microsoft Teams, vá para a página office.com e escolha  **Teams**.
+5. Obter o aplicativo windows e, em seguida, selecione  **Executar**. O Teams exibe um prompt quando a instalação é concluída.
 
-Os aplicativos do Office instalados agora aparecem no  **menu** Iniciar.
+Os aplicativos do Office que você instalou agora aparecem no  **menu** Iniciar.

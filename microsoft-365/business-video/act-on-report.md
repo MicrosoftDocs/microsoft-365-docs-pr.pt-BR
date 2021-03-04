@@ -9,40 +9,38 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como usar as informações de relatórios de uso.
-ms.openlocfilehash: e69362a9190eda71cd7ab42fb404b6e715a5c48e
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Saiba como usar as informações dos relatórios de uso.
+ms.openlocfilehash: 579d47515f57dfc3211a6e76a6d791999f6b5efc
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927677"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423184"
 ---
-# <a name="review-usage-reports-in-microsoft-365"></a>Analisar relatórios de uso no Microsoft 365
+# <a name="review-usage-reports-in-microsoft-365"></a>Revisar relatórios de uso no Microsoft 365
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SOFC?autoplay=false]
 
-Descubra como os funcionários estão usando os serviços do Microsoft 365, como email ou OneDrive, e tome medidas.
+Descubra como os funcionários estão usando serviços do Microsoft 365, como email ou OneDrive, e tome medidas.
 
 No centro [de administração,](https://admin.microsoft.com)você pode ver todos os relatórios disponíveis.
 
 ## <a name="try-it"></a>Experimente!
 
-1. Vá para **Relatórios** e, em seguida, **Uso.** Encontre detalhes de qualquer relatório selecionando um. O relatório de usuários ativos mostra quais serviços são mais usados pelas pessoas em sua empresa.
-1. Por exemplo, vamos continuar e ver o relatório do OneDrive. Aqui, podemos ver quantas pessoas têm uma conta, você também pode exibir o número de arquivos totais e ativos, bem como o armazenamento usado. Para ver todos os outros relatórios, vá para o menu suspenso.
-1. Aqui, podemos dar uma olhada no relatório de uso do aplicativo de email e ver quais métodos seus funcionários usam mais para acessar seus emails. Você também pode exibir informações específicas de uma pessoa, mas os detalhes estão ocultos por padrão. Para mostrar os detalhes **individuais** do usuário, vá para Configurações e, em seguida, **serviços & os complementos.**
-1. No painel de relatório, podemos ativar o identificador anônimo. Agora vamos fechar o painel e voltar para **relatórios,** **uso** e atividade **de email.** Aqui, podemos ver informações específicas de um indivíduo.
+1. Vá para **Relatórios** e, em seguida, **Uso**. Encontre detalhes de qualquer relatório selecionando um. O relatório usuários ativos mostra quais serviços são mais usados pelas pessoas em sua empresa.
+1. Como exemplo, vamos em frente e ver o relatório do OneDrive. Aqui podemos ver quantas pessoas têm uma conta, você também pode exibir o número de arquivos totais e ativos, bem como o armazenamento usado. Para ver todos os outros relatórios, vá para o menu suspenso.
+1. Aqui podemos dar uma olhada no relatório de uso do aplicativo de email e ver quais métodos seus funcionários usam mais para acessar seus emails. Você também pode exibir informações específicas de um indivíduo, mas os detalhes são ocultos por padrão. Para mostrar os detalhes **individuais** do usuário, vá até Configurações e, em seguida, **serviços & de complementos**.
+1. No painel de relatório, podemos ativar o identificador anônimo. Agora vamos fechar o painel e voltar para **Relatórios,** **Uso** e **Atividade de Email.** Aqui podemos ver informações específicas de um indivíduo.
 
-    Lembre-se de que, se você ficar preso, sempre poderá voltar para a Ajuda, que fornece informações sobre o relatório específico que está exibindo.
+    Lembre-se de que, se você ficar preso, sempre poderá voltar para a Ajuda, que fornece informações sobre o relatório específico que você está exibindo.
