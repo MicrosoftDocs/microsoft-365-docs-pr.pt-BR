@@ -237,6 +237,8 @@
               href: data-loss-prevention-policies.md
             - name: Saiba mais sobre a prevenção contra perda de dados do Ponto de extremidade
               href: endpoint-dlp-learn-about.md
+            - name: Saiba mais sobre verificação local de prevenção contra perda de dados do Microsoft 365 (pré-visualização)
+              href: dlp-on-premises-scanner-learn.md
         - name: Introdução à prevenção contra perda de dados
           items:
             - name: Introdução à política DLP padrão
@@ -245,6 +247,8 @@
               href: create-a-dlp-policy-from-a-template.md
             - name: 'Criar, testar e ajustar uma política DLP'
               href: create-test-tune-dlp-policy.md
+            - name: Comece a usar o scanner local de prevenção contra perda de dados do Microsoft 365 (pré-visualização)
+              href: dlp-on-premises-scanner-get-started.md
             - name: Introdução à Prevenção contra perda de dados do ponto de extremidade
               href: endpoint-dlp-getting-started.md
             - name: Configurar as configurações de proxy e conexão com a Internet do dispositivo para DLP do ponto de extremidade
@@ -269,6 +273,8 @@
               href: dlp-microsoft-teams.md
             - name: Usando a prevenção contra perda de dados do Ponto de extremidade
               href: endpoint-dlp-using.md
+            - name: Use o scanner local de prevenção contra perda de dados do Microsoft 365 (pré-visualização)
+              href: dlp-on-premises-scanner-use.md
             - name: Usar notificações e dicas de política em políticas DLP
               href: use-notifications-and-policy-tips.md
             - name: O que os modelos de política de DLP incluem

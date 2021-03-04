@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: 03408a2f9e57421ea613bdb38e253401526f8f71
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 31c0ae4cdbeabb10fd44aaffaa24a8597e644941
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242361"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50407155"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
@@ -85,6 +85,7 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 |Permitir que os usuários rotulem e protejam arquivos de computadores com Windows usando aplicativos do Office, Explorador de Arquivos e PowerShell|[Cliente de rotulagem unificada da Proteção de Informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
 |Criptografar documentos e emails com rótulos de confidencialidade e restringir quem pode acessá-los e como podem usar esse conteúdo |[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md)|
 |Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados — até mesmo quando os documentos são criptografados | [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
+|Use a coautoria e o Salvamento Automático em aplicativos de desktop do Office quando os documentos forem criptografados | [Habilitar a coautoria para arquivos criptografados com rótulos de confidencialidade](sensitivity-labels-coauthoring.md)
 |Aplicar rótulos de confidencialidade automaticamente a documentos e emails | [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)|
 |Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use etiquetas de sensibilidade com o Microsoft Teams, o Microsoft 365 Groups e sites do SharePoint](sensitivity-labels-teams-groups-sites.md)|
 |Impedir ou alertar os usuários sobre o compartilhamento de arquivos ou emails com um rótulo de confidencialidade |[Utilize rótulos de confidencialidade como condição nas políticas de DLP (visualização)](dlp-sensitivity-label-as-condition.md) |
