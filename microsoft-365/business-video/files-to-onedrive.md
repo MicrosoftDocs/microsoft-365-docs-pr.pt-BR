@@ -9,43 +9,41 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
-- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Saiba como mover seus arquivos para o OneDrive.
-ms.openlocfilehash: 5a708ba797dbb735c71f181fc287fb831004112b
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f5795ba907e2ac88136887410b5b713bd7d56d81
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49927209"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50422718"
 ---
-# <a name="move-files-to-onedrive"></a><span data-ttu-id="67e43-103">Mover arquivos para o OneDrive</span><span class="sxs-lookup"><span data-stu-id="67e43-103">Move files to OneDrive</span></span>
+# <a name="move-files-to-onedrive"></a><span data-ttu-id="4d906-103">Mover arquivos para o OneDrive</span><span class="sxs-lookup"><span data-stu-id="4d906-103">Move files to OneDrive</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341?autoplay=false]
 
-<span data-ttu-id="67e43-104">Depois de se inscrever no Microsoft 365 Business Premium, você&#39;copiar seus arquivos de trabalho existentes para o OneDrive for Business.</span><span class="sxs-lookup"><span data-stu-id="67e43-104">After you sign up for Microsoft 365 Business Premium, you&#39;ll want to copy your existing work files to OneDrive for Business.</span></span> <span data-ttu-id="67e43-105">O OneDrive é um bom lugar para armazenar arquivos de trabalho pessoais ou arquivos de negócios confidenciais aos qual você deseja controlar o acesso.</span><span class="sxs-lookup"><span data-stu-id="67e43-105">OneDrive is a good place to store personal work files or sensitive business files that you want to control access to.</span></span>
+<span data-ttu-id="4d906-104">Depois de se inscrever no Microsoft 365 Business Premium, você&#39;copiar seus arquivos de trabalho existentes para o OneDrive for Business.</span><span class="sxs-lookup"><span data-stu-id="4d906-104">After you sign up for Microsoft 365 Business Premium, you&#39;ll want to copy your existing work files to OneDrive for Business.</span></span> <span data-ttu-id="4d906-105">O OneDrive é um bom local para armazenar arquivos de trabalho pessoais ou arquivos comerciais confidenciais aos qual você deseja controlar o acesso.</span><span class="sxs-lookup"><span data-stu-id="4d906-105">OneDrive is a good place to store personal work files or sensitive business files that you want to control access to.</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="67e43-106">Experimente!</span><span class="sxs-lookup"><span data-stu-id="67e43-106">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="4d906-106">Experimente!</span><span class="sxs-lookup"><span data-stu-id="4d906-106">Try it!</span></span>
 
-1. <span data-ttu-id="67e43-107">No Windows, selecione o  **botão** Iniciar.</span><span class="sxs-lookup"><span data-stu-id="67e43-107">From Windows, select the  **Start** button.</span></span>
-2. <span data-ttu-id="67e43-108">Pesquise o OneDrive e selecione-o.</span><span class="sxs-lookup"><span data-stu-id="67e43-108">Search for OneDrive, and select it.</span></span>
-3. <span data-ttu-id="67e43-109">Insira seu endereço de email de trabalho.</span><span class="sxs-lookup"><span data-stu-id="67e43-109">Enter your work email address.</span></span>
-4. <span data-ttu-id="67e43-110">Selecione **Entrar** e, em seguida, **selecione Próximo.**</span><span class="sxs-lookup"><span data-stu-id="67e43-110">Select  **Sign in** , and then select  **Next**.</span></span>
-5. <span data-ttu-id="67e43-111">Vá para o tutorial curto e selecione **Abrir minha pasta do OneDrive.**</span><span class="sxs-lookup"><span data-stu-id="67e43-111">Go through the short tutorial, and then select  **Open my OneDrive folder**.</span></span> <span data-ttu-id="67e43-112">Se você também usar a versão pessoal do OneDrive,&#39;você a verá aqui.</span><span class="sxs-lookup"><span data-stu-id="67e43-112">If you also use the personal version of OneDrive, you&#39;ll see it here.</span></span>
-6. <span data-ttu-id="67e43-113">No Explorador de Arquivos, vá para os arquivos que você deseja copiar.</span><span class="sxs-lookup"><span data-stu-id="67e43-113">In File Explorer, go to the files you want to copy.</span></span>
-7. <span data-ttu-id="67e43-114">Selecione os arquivos e arraste e solte-os em sua pasta do OneDrive.</span><span class="sxs-lookup"><span data-stu-id="67e43-114">Select the files, and then drag and drop them into your OneDrive folder.</span></span> <span data-ttu-id="67e43-115">Setas circulares azuis ao lado de seus arquivos significam&#39;estão sincronizando com a nuvem.</span><span class="sxs-lookup"><span data-stu-id="67e43-115">Blue circular arrows beside your files mean that they&#39;re syncing to the cloud.</span></span> <span data-ttu-id="67e43-116">Quando terminarem&#39;sincronização, as marcas de seleção verdes serão exibidas.</span><span class="sxs-lookup"><span data-stu-id="67e43-116">When they&#39;re done syncing, green check marks are displayed.</span></span>
+1. <span data-ttu-id="4d906-107">No Windows, selecione o  **botão** Iniciar.</span><span class="sxs-lookup"><span data-stu-id="4d906-107">From Windows, select the  **Start** button.</span></span>
+2. <span data-ttu-id="4d906-108">Pesquise o OneDrive e selecione-o.</span><span class="sxs-lookup"><span data-stu-id="4d906-108">Search for OneDrive, and select it.</span></span>
+3. <span data-ttu-id="4d906-109">Insira seu endereço de email de trabalho.</span><span class="sxs-lookup"><span data-stu-id="4d906-109">Enter your work email address.</span></span>
+4. <span data-ttu-id="4d906-110">Selecione  **Entrar** e, em seguida, selecione  **Próximo**.</span><span class="sxs-lookup"><span data-stu-id="4d906-110">Select  **Sign in** , and then select  **Next**.</span></span>
+5. <span data-ttu-id="4d906-111">Vá até o tutorial curto e selecione **Abrir minha pasta do OneDrive.**</span><span class="sxs-lookup"><span data-stu-id="4d906-111">Go through the short tutorial, and then select  **Open my OneDrive folder**.</span></span> <span data-ttu-id="4d906-112">Se você também usar a versão pessoal do OneDrive,&#39;a verá aqui.</span><span class="sxs-lookup"><span data-stu-id="4d906-112">If you also use the personal version of OneDrive, you&#39;ll see it here.</span></span>
+6. <span data-ttu-id="4d906-113">No Explorador de Arquivos, vá para os arquivos que você deseja copiar.</span><span class="sxs-lookup"><span data-stu-id="4d906-113">In File Explorer, go to the files you want to copy.</span></span>
+7. <span data-ttu-id="4d906-114">Selecione os arquivos e arraste e solte-os em sua pasta do OneDrive.</span><span class="sxs-lookup"><span data-stu-id="4d906-114">Select the files, and then drag and drop them into your OneDrive folder.</span></span> <span data-ttu-id="4d906-115">Setas circulares azuis ao lado de seus arquivos significam que&#39;estão sincronizando com a nuvem.</span><span class="sxs-lookup"><span data-stu-id="4d906-115">Blue circular arrows beside your files mean that they&#39;re syncing to the cloud.</span></span> <span data-ttu-id="4d906-116">Quando eles&#39;de sincronização, as marcas de verificação verdes são exibidas.</span><span class="sxs-lookup"><span data-stu-id="4d906-116">When they&#39;re done syncing, green check marks are displayed.</span></span>
 
-<span data-ttu-id="67e43-117">Além de trabalhar nos arquivos do OneDrive localmente, você pode acessá-los no navegador da Web:</span><span class="sxs-lookup"><span data-stu-id="67e43-117">In addition to working on your OneDrive files locally, you can access them from your web browser:</span></span>
+<span data-ttu-id="4d906-117">Além de trabalhar nos arquivos do OneDrive localmente, você pode acessá-los no navegador da Web:</span><span class="sxs-lookup"><span data-stu-id="4d906-117">In addition to working on your OneDrive files locally, you can access them from your web browser:</span></span>
 
-1. <span data-ttu-id="67e43-118">No navegador da Web, entre no office.com seu email de trabalho.</span><span class="sxs-lookup"><span data-stu-id="67e43-118">In your web browser, sign in to office.com with your work email.</span></span>
-2. <span data-ttu-id="67e43-119">Escolha **o OneDrive.**</span><span class="sxs-lookup"><span data-stu-id="67e43-119">Choose  **OneDrive**.</span></span> <span data-ttu-id="67e43-120">Todos os seus arquivos estão listados e você pode trabalhar neles no navegador de qualquer computador.</span><span class="sxs-lookup"><span data-stu-id="67e43-120">All of your files are listed, and you can work on them in the browser from any computer.</span></span>
+1. <span data-ttu-id="4d906-118">No navegador da Web, entre office.com seu email de trabalho.</span><span class="sxs-lookup"><span data-stu-id="4d906-118">In your web browser, sign in to office.com with your work email.</span></span>
+2. <span data-ttu-id="4d906-119">Escolha  **OneDrive**.</span><span class="sxs-lookup"><span data-stu-id="4d906-119">Choose  **OneDrive**.</span></span> <span data-ttu-id="4d906-120">Todos os arquivos estão listados e você pode trabalhar neles no navegador de qualquer computador.</span><span class="sxs-lookup"><span data-stu-id="4d906-120">All of your files are listed, and you can work on them in the browser from any computer.</span></span>
