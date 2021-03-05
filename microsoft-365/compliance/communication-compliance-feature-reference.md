@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4cd6e62fd236bf9fd3683425b1e98315fc26dd71
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: e2d0f4f4abbe538d11d61869f52285f19c23a253
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421688"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461802"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -131,16 +131,6 @@ Você deve registrar uma solicitação com o suporte da Microsoft para permitir 
 - Fontes de terceiros **:** Você pode verificar comunicações de dados importados para caixas de correio em sua organização do Microsoft 365 de fontes de terceiros, como [Instant Bloomberg,](archive-instant-bloomberg-data.md) [Slack,](archive-slack-data.md) [Zoom,](archive-zoommeetings-data.md)SMS e muitas outras. Para uma lista completa de conectores com suporte na conformidade de comunicação, consulte [Arquivar dados de terceiros](archiving-third-party-data.md).
 
     Você deve configurar um conector de terceiros para sua organização do Microsoft 365 antes de poder atribuir o conector a uma política de conformidade de comunicação. A **seção Fontes de terceiros** do assistente de política de conformidade de comunicação exibe apenas conectores de terceiros configurados no momento.
-
-## <a name="transitioning-from-supervision-in-office-365"></a>Transição da Supervisão no Office 365
-
-As organizações que usam políticas de supervisão no Office 365 e planejam fazer a transição para políticas de conformidade de comunicação no Microsoft 365 precisam entender esses pontos importantes:
-
-- Ambas as soluções podem ser usadas lado a lado em sua organização, mas as políticas usadas em cada solução devem ter nomes de política exclusivos. Grupos e dicionários de palavras-chave personalizados podem ser compartilhados entre soluções durante um período de transição.
-- As mensagens salvas em supervisão nas combinações de política do Office 365 não podem ser movidas ou compartilhadas em conformidade com a comunicação no Microsoft 365.
-- A solução de supervisão no Office 365 será totalmente substituída pela solução de conformidade de comunicação no Microsoft 365. Recomendamos a criação de novas políticas em conformidade com a comunicação que tenham as mesmas configurações que as políticas de supervisão existentes para usar as novas melhorias de investigação e correção. Ao fazer a transição para a conformidade de comunicação no Microsoft 365, você deve planejar exportar dados de relatórios da supervisão no Office 365 se tiver requisitos de política de retenção de conformidade interna.
-
-Para obter informações de aposentadoria para supervisão no Office 365, consulte o Roteiro do [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para obter detalhes.
 
 ## <a name="policy-settings"></a>Configurações de política
 
@@ -530,6 +520,16 @@ Este exemplo retorna as atividades de atualização para suas políticas de conf
 ```PowerShell
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Discovery -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeleted
 ```
+
+## <a name="transitioning-from-supervision-in-office-365"></a>Transição da Supervisão no Office 365
+
+As organizações que usam políticas de supervisão no Office 365 devem planejar imediatamente a transição para políticas de conformidade de comunicação no Microsoft 365 e precisam entender esses pontos importantes:
+
+- A solução de supervisão no Office 365 foi totalmente substituída pela solução de conformidade de comunicação no Microsoft 365. Recomendamos a criação de novas políticas em conformidade com a comunicação que tenham as mesmas configurações que as políticas de supervisão existentes para usar as novas melhorias de investigação e correção. Ao fazer a transição para a conformidade de comunicação no Microsoft 365, você deve planejar exportar dados de relatórios da supervisão no Office 365 se tiver requisitos de política de retenção de conformidade interna.
+- As mensagens salvas em supervisão nas combinações de política do Office 365 não podem ser movidas ou compartilhadas em conformidade com a comunicação no Microsoft 365.
+- Para organizações com ambas as soluções usadas lado a lado durante o processo de transição, as políticas usadas em cada solução devem ter nomes de política exclusivos. Grupos e dicionários de palavras-chave personalizados podem ser compartilhados entre soluções durante um período de transição.
+
+Para obter informações de aposentadoria para supervisão no Office 365, consulte o Roteiro do [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para obter detalhes.
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 

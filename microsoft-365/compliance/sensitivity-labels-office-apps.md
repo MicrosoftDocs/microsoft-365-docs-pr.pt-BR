@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para os administradores de IT gerenciarem rótulos de sensibilidade em aplicativos do Office para área de trabalho, celular e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7d3c436030c0db3faa7834ed0153396048c0ec6
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 2e0fc96c1bb7b077df50f4f1c3c52ffa0dd49bef
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423682"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461856"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -64,7 +64,7 @@ Os números listados são a versão mínima do aplicativo do Office necessária 
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 2010+           | 16,42+     | 2,42+ | 16.0.13328+ | Em revisão |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16,21+     | 2.21+ | 16.0.11231+ | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16,35+   | Em revisão   | Em revisão         | Em revisão                                                        |
-|[Começar a classificar dados e](data-classification-overview.md) enviar dados para administradores                      | 2011+ | 16,43+ | Lançamento: 2,46+ | Lançamento: 16.0.13628+ | Sim <sup>\*</sup>                                                        |
+|[Auditar atividades de usuário relacionadas a rótulos](data-classification-activity-explorer.md)                      | 2011+ | 16,43+ | Lançamento: 2,46+ | Lançamento: 16.0.13628+ | Sim <sup>\*</sup>                                                        |
 |[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Lançamento: 2101+             | Lançamento: 16,45+         | Implantando na visualização: [Canal Beta](https://office.com/insider) | Lançamento: 16.0.13628+ | Em revisão                                            
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Lançamento: 16,44+ | Em revisão | Em revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Suporte a coautor e o AutoSave](sensitivity-labels-coauthoring.md) para documentos rotulados e criptografados | Visualização: [Canal Atual (Visualização)](https://office.com/insider) | Visualização: [Canal Beta](https://office.com/insider) | Em revisão | Em revisão | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -89,7 +89,7 @@ Os números listados são a versão mínima do aplicativo do Office necessária 
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16,21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16,21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Lançamento: 2101+                        | 16,43+ <sup>\*</sup>                    | Em revisão            | Em revisão                | Sim                |
-|[Começar a classificar dados e](data-classification-overview.md) enviar dados para administradores                      | 2011+ | Em revisão | Em revisão           | Em revisão               | Em revisão |
+|[Auditar atividades de usuário relacionadas a rótulos](data-classification-activity-explorer.md) | 2011+ | Em revisão | Em revisão           | Em revisão               | Em revisão |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16,44+ <sup>\*</sup>                    | Em revisão           | Em revisão               | Sim |
 |
 
@@ -237,7 +237,7 @@ No entanto, a conta de convidado automática não é criada imediatamente nesse 
 
 ### <a name="conditional-access-policies"></a>Políticas de Acesso Condicional
 
-Se sua organização implementou políticas de Acesso Condicional do [Azure Active Directory,](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)verifique a configuração dessas políticas. Se as políticas incluirem a Proteção de Informações do Azure e a política se estender a usuários externos, esses usuários externos devem ter uma conta de convidado em seu locatário, mesmo que tenham uma conta do Azure AD em seu próprio locatário.
+Se sua organização implementou políticas de Acesso Condicional do [Azure Active Directory,](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)verifique a configuração dessas políticas. Se as políticas incluirem a Proteção de Informações do **Microsoft Azure** e a política se estender a usuários externos, esses usuários externos devem ter uma conta de convidado em seu locatário, mesmo que tenham uma conta do Azure AD em seu próprio locatário.
 
 Sem essa conta de convidado, eles não podem abrir o documento criptografado e ver uma mensagem de erro. O texto da mensagem pode informá-los de que sua conta precisa ser adicionada como um usuário externo no locatário, com a instrução incorreta para este cenário de Sair e entrar novamente com uma conta de usuário do **Azure Active Directory** diferente.
 

@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: a5c3e84e4ca8874f99a07294dccfd2e4ad7ed81f
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 3946fa5a08011cc98e8dfad921a08ca0fa77af7a
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417338"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423858"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
@@ -89,9 +89,9 @@ Tenha certeza de que entende os seguintes pré-requisitos antes de ativar esse r
         - Android: ainda sem suportado
     
     - **Cliente e scanner de rotulagem unificada da Proteção de Informações do Azure:** 
-        - Uma versão preliminar pública (versão mínima de 2.10.45.0) que você pode instalar a partir do [Centro de Download da Microsoft](https://aka.ms/aip-coauth-pp) e uma das versões do Microsoft 365 Apps para Grandes Empresas para Windows listadas no item anterior.
+        - Uma versão de visualização pública (nome de instalação do AzInfoProtection_2.10.46_CoAuthoring_PublicPreview.exe) que você pode instalar a partir do [Centro de Download da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53018) e uma das versões para Windows do Microsoft 365 Apps para Grandes Empresas listadas no item anterior.
     
-    - **Aplicativo de sincronização do OneDrive para Windows ou macOS:**
+    - **Aplicativo de Sincronização do Microsoft OneDrive para Windows ou macOS:**
         - Versão mínima de 19.002.0121.0008
     
     - **Prevenção contra Perda de Dados de Ponto de Extremidade (DLP do ponto de extremidade):**
@@ -122,6 +122,8 @@ Antes de habilitar a configuração do locatário para coautoria de arquivos cri
     - **Criptografia de Chave Dupla** é selecionada.
     
     Para rótulos com qualquer uma dessas configurações de criptografia, os rótulos são exibidos nos aplicativos do Office. No entanto, quando os usuários selecionam esses rótulos e ninguém mais está editando o documento, eles são avisados de que a coautoria e o Salvamento Automático não estarão disponíveis. Se outra pessoa estiver editando o documento, os usuários verão uma mensagem informando que os rótulos não podem ser aplicados.
+
+- Se você usa o cliente de rotulagem unificada da Proteção de Informações do Azure: Verifique a documentação desse cliente de rotulagem para [mais requisitos ou limitações](https://docs.microsoft.com/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview).
 
 ## <a name="known-issues-for-this-preview"></a>Problemas conhecidos para esta versão prévia
 
