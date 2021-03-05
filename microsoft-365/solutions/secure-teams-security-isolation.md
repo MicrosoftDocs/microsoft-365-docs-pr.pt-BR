@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: 439dee40d1501801fc09d570614a591259c6f09c
-ms.sourcegitcommit: 31be333178b934c519f419656f4c3a53e1beffdc
+ms.openlocfilehash: 5ddd42f9e2f2779ca6bf864554140a3f18d2cdea
+ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49881700"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "50405697"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -44,6 +44,7 @@ Os elementos de configuração para uma equipe com isolamento de segurança são
 
 Assista a esse vídeo para obter uma visão geral do processo de implementação.
 <br>
+<br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
 <a name="poster"></a> Para obter um resumo de 1 página desse cenário, confira o [pôster do Microsoft Teams com isolamento de segurança](../downloads/team-security-isolation-poster.pdf).
@@ -51,6 +52,10 @@ Assista a esse vídeo para obter uma visão geral do processo de implementação
 [![Pôster do Microsoft Teams com isolamento de segurança](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
 Também é possível descarregar este pôster nos formatos [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) ou [PowerPoint](https://download.microsoft.com/download/8/0/5/8057fc16-c044-40b6-a652-7ed555ba2895/team-security-isolation-poster.pptx) e imprimi-lo em papel tamanho carta, legal, ou tabloide (11 x 17).
+
+Tente esta configuração em seu próprio ambiente de laboratório de teste com [estas instruções](team-security-isolation-dev-test.md).
+
+Veja como a Contoso Corporation usou uma equipe isolada para um projeto ultrassecreto [neste estudo de caso](contoso-team-for-top-secret-project.md).
 
 ## <a name="initial-protections"></a>Proteções iniciais
 
@@ -75,7 +80,7 @@ Para permitir ou bloquear o compartilhamento de convidados, usamos uma combinaç
 Como estamos criando um rótulo de confidencialidade especificamente para essa equipe, o próximo passo é criar a equipe. Se você já possui uma equipe, pode usá-la.
 
 Para criar uma equipe para informações confidenciais
-1. Nas equipes, clique em **Equipes** no lado esquerdo do aplicativo e clique em **Ingressar ou criar uma equipe** na parte inferior da lista de equipes.
+1. No Teams, clique em **Equipes** no lado esquerdo do aplicativo e clique em **Criar equipe ou ingressar em uma** na parte inferior da lista de equipes.
 2. Clique em **Criar equipe** (primeiro cartão, canto superior esquerdo).
 3. Escolha **Criar uma equipe do zero**.
 4. Na lista **Confidencialidade**, mantenha o padrão.
@@ -183,7 +188,7 @@ Para atualizar as configurações do site
 2. Em **Sites**, clique em **Sites ativos**.
 3. Clique no site associado à equipe.
 4. Na guia **Políticas**, em **Compartilhamento externo**, clique em **Editar**.
-5. Se você permitiu o compartilhamento de convidados ao criar o rótulo confidencial, certifique-se de que **Convidados novos e existentes** esteja selecionados. Se você não permitiu o compartilhamento ao criar o rótulo, escolha **Somente pessoas da sua organização**.
+5. Se você permitiu o compartilhamento de convidados ao criar o rótulo confidencial, certifique-se de que **Convidados novos e existentes** esteja selecionados. Se você não permitiu o compartilhamento quando criou o rótulo, escolha **Somente pessoas da sua organização**.
 6. Em Tipo de link de compartilhamento padrão, limpe a caixa de seleção **O mesmo que a configuração de nível de organização** e selecione **Pessoas com acesso existente**.
 7. Clique em **Salvar**.
 
