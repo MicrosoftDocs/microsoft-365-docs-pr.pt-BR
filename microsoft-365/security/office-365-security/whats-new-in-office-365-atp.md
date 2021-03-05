@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2fd999c27598db6f17073cfe82e4c4f91ffb1667
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7b6175f507f54adf357e40ea44c39f5e495a1b14
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407199"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454484"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades no Microsoft Defender para Office 365
 
@@ -46,6 +46,7 @@ Este artigo lista os novos recursos na versão mais recente do Microsoft Defende
 - Integração de ID de alerta (pesquisa usando a ID de alerta e Alert-Explorer navegação) em [experiências de busca](threat-explorer.md)
 - Aumentando os limites de Exportação de registros de 9990 para 200.000 em experiências [de busca](threat-explorer.md)
 - Estendendo a retenção de dados do Explorer (e detecções em tempo real) e o limite de pesquisa para locatários de 7 (limite anterior) para 30 dias em experiências [de busca](threat-explorer.md)
+- Novos pivôs de busca  chamados **domínio** personificado e usuário personificado dentro do Explorer (e detecções em tempo real) para pesquisar ataques de representação contra usuários ou domínios protegidos. Para obter mais informações, consulte [detalhes](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains). (Microsoft Defender para Office 365 Plano 1 ou Plano 2)
 
 ## <a name="december-2020"></a>Dezembro de 2020
 

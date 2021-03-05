@@ -10,15 +10,15 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection:
 - enabler-strategic
-- m365initiative-topics
+- m365initiative-viva-topics
 localization_priority: None
-description: Saiba como encontrar recursos para tópicos do Microsoft Viva.
-ms.openlocfilehash: d5c54bda3432fc9a1ff5ce4342cc523544eb6e78
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+description: Saiba como encontrar recursos para Tópicos do Microsoft Viva.
+ms.openlocfilehash: 31031697b7825b725c020952a6217b278aa09f02
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242861"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454118"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Introdução aos tópicos do Microsoft Viva
 
@@ -31,16 +31,16 @@ ms.locfileid: "50242861"
 
 O Viva Topics é um serviço do Office 365 que ajuda as organizações a transformar informações em conhecimento.
 
-Os recursos nesta página foram projetados para você começar a aprender sobre e usar tópicos do Viva em sua organização.
+Os recursos nesta página foram projetados para você começar a aprender sobre e usar Tópicos do Viva em sua organização.
 
 ## <a name="get-started"></a>Introdução
 
-Os recursos desta seção ajudam você a saber mais sobre o que são tópicos do Viva e como eles podem ajudá-lo.
+Os recursos nesta seção ajudam você a saber mais sobre o que é o Viva Topics e como ele pode ajudá-lo.
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
-|Saiba mais sobre tópicos do Viva|[Visão geral dos tópicos do Microsoft Viva](topic-experiences-overview.md)|
-|Saiba como os tópicos são descobertos e sugeridos pela IA|[Descoberta de tópicos do Microsoft Viva](topic-experiences-discovery.md)|
+|Saiba mais sobre tópicos do Viva|[Visão geral de Tópicos do Microsoft Viva](topic-experiences-overview.md)|
+|Saiba como os tópicos são descobertos e sugeridos pela AI|[Descoberta de tópicos do Microsoft Viva](topic-experiences-discovery.md)|
 |Saiba mais sobre segurança de tópicos|[Segurança e privacidade do Microsoft Viva](topic-experiences-security-privacy.md)|
 |Saiba como obter tópicos do Viva|[Página do produto Microsoft Viva Topics](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
 |Veja os recursos na central de recursos da comunidade técnica da Microsoft|[Microsoft Viva Topics Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
@@ -49,19 +49,19 @@ Os recursos desta seção ajudam você a saber mais sobre o que são tópicos do
 
 ## <a name="adoption"></a>Adoção
 
-Saiba mais sobre como usar e implementar tópicos do Viva em sua organização para ajudá-lo a resolver seus problemas de negócios: 
+Saiba mais sobre como usar e implementar Tópicos do Viva em sua organização para ajudá-lo a resolver seus problemas de negócios: 
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
 |Saiba como começar a planejar o uso do Microsoft Viva. |[Introdução](topics-adoption-getstarted.md)<br><br>|  
 
-## <a name="set-up-and-administration"></a>Configuração e administração
+## <a name="set-up-and-administration"></a>Configurar e administração
 
-Os recursos nesta seção ajudam o administrador da sua organização a configurar e configurar Tópicos do Viva no ambiente do Microsoft 365.
+Os recursos nesta seção ajudam o administrador em sua organização a configurar e configurar tópicos do Viva em seu ambiente do Microsoft 365.
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
-|Saiba como configurar o Microsoft Viva|[Configurar o Microsoft Viva](set-up-topic-experiences.md)|
+|Saiba como configurar e configurar o Microsoft Viva|[Configurar o Microsoft Viva](set-up-topic-experiences.md)|
 |Saiba como configurar permissões de usuário|[Gerenciar permissões de tópico](topic-experiences-user-permissions.md)|
 |Saiba como gerenciar quem pode exibir tópicos|[Gerenciar a visibilidade de tópicos](topic-experiences-knowledge-rules.md)|
 |Saiba como gerenciar as configurações de descoberta de tópicos|[Gerenciar descoberta de tópicos](topic-experiences-discovery.md)|
@@ -73,8 +73,8 @@ Os recursos nesta seção ajudam os usuários a aprender a usar e gerenciar tóp
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
 |Saiba como trabalhar com tópicos|[Visão geral do centro de tópicos](topic-center-overview.md)<br><br>[Gerenciar tópicos](manage-topics.md)<br><br>[Criar um novo tópico](create-a-topic.md)<br><br>[Editar um tópico existente](edit-a-topic.md)<br><br>[Encontrar tópicos com a Pesquisa da Microsoft](search.md)<br><br>|
-|Compreender as funções de usuário|[Funções de Tópicos do Viva](topic-experiences-roles.md)|
-|Entender por que os tópicos podem ser diferentes para usuários diferentes|[Corte de segurança de Tópicos do Viva](topic-experiences-security-trimming.md)|
+|Compreender funções do usuário|[Funções do Viva Topics](topic-experiences-roles.md)|
+|Entender por que os tópicos podem diferir para usuários diferentes|[Corte de segurança de Tópicos do Viva](topic-experiences-security-trimming.md)|
 |Saiba como impedir que tópicos específicos sejam identificados e exibidos|[Restringir o acesso a tópicos](restrict-access-to-topics.md)|
 
 

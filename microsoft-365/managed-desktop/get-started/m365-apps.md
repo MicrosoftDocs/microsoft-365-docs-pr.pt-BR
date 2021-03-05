@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 98995084fb7de9ecb434b70b5d38793a20675f19
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 26e62d6e59f1f90e35d9e18e6eed917a66876645
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840330"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453916"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para empresas
 
@@ -28,7 +28,7 @@ A Área de Trabalho Gerenciada da Microsoft garante que os Aplicativos do Micros
 - PowerPoint
 - Outlook
 - Publisher
-- Acessar
+- Access
 - Skype for Business
 - OneNote
 
@@ -39,88 +39,88 @@ Essa abordagem minimiza o impacto na rede e garante que os usuários possam ser 
 
 ### <a name="available-deployment-to-users"></a>Implantação disponível para usuários
 
-Se um usuário não tiver os Aplicativos do Microsoft 365 em seu dispositivo por qualquer motivo, você poderá usar um pacote para retornar o dispositivo ao estado esperado. Adicione o usuário ao grupo **Modern Workplace-Office-Office365_Install** e os aplicativos serão disponibilizados no Portal da Empresa.
+Se um usuário não tiver o Microsoft 365 Apps em seu dispositivo por qualquer motivo, você poderá usar um pacote para retornar o dispositivo ao seu estado esperado. Adicione o usuário ao grupo Local de **Trabalho Moderno-Office-Office365_Install** e os aplicativos estarão disponíveis para eles no Portal da Empresa.
 
 ### <a name="microsoft-365-apps-for-enterprise-32-bit"></a>Aplicativos do Microsoft 365 para empresas (32 bits)
 
 A Área de Trabalho Gerenciada da Microsoft não dá suporte à implantação da versão de 32 bits do M365 Apps para empresas.
 
-## <a name="updates-to-microsoft-365-apps"></a>Atualizações do Microsoft 365 Apps
+## <a name="updates-to-microsoft-365-apps"></a>Atualizações para Aplicativos do Microsoft 365
 
-Os Aplicativos do Microsoft 365 estão definidos para atualização no [Canal Empresarial Mensal.](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) Essa prática fornece aos usuários novos recursos do Office a cada mês, mas eles receberão apenas uma atualização por mês em um cronograma de lançamento previsível. As atualizações são lançadas na segunda terça-feira do mês; essas atualizações podem incluir atualizações de recursos, segurança e qualidade. Essas atualizações ocorrem automaticamente e são retiradas diretamente da CDN do Office para esse canal específico.
+Os Aplicativos do Microsoft 365 estão definidos para atualização no [Canal Corporativo Mensal](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview). Essa prática fornece aos usuários novos recursos do Office a cada mês, mas eles receberão apenas uma atualização por mês em um cronograma de lançamento previsível. As atualizações são lançadas na segunda terça-feira do mês; essas atualizações podem incluir atualizações de recursos, segurança e qualidade. Essas atualizações ocorrem automaticamente e são retiradas diretamente da CDN do Office para esse canal específico.
 
-A Área de Trabalho Gerenciada da Microsoft escalona cada versão para identificar possíveis problemas em seu ambiente. Concluiremos a lançamento 28 dias após o lançamento do grupo de produtos do Aplicativo do Microsoft 365. A Área de Trabalho Gerenciada da Microsoft agenda versões de atualização para grupos diferentes para permitir tempo para validação e teste da seguinte maneira: 
+A Área de Trabalho Gerenciada da Microsoft escalona cada versão para identificar possíveis problemas em seu ambiente. Concluimos a versão 28 dias após o lançamento do grupo de produtos do Microsoft 365 App. A Área de Trabalho Gerenciada da Microsoft agenda as versões de atualização para grupos diferentes para permitir tempo para validação e teste da seguinte maneira: 
 
 - Teste: zero dias
 - Primeiro: zero dias
-- Rápido: 7 dias
-- Ampla: 21 dias
+- Rápido: 3 dias
+- Broad: 7 dias
 
-A Área de Trabalho Gerenciada da Microsoft define um prazo de atualização [de sete dias](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) para dispositivos. Depois que a atualização estiver disponível, ela deverá ser instalada no prazo de sete dias. Os usuários são [notificados](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) de que as atualizações são necessárias em vários locais: o aplicativo, na bandeja do sistema 12 horas antes da data limite, e eles recebem um aviso de 15 minutos antes da data limite. Todos os Aplicativos do Microsoft 365 devem ser fechados para que a atualização seja concluída.
+A Área de Trabalho Gerenciada da Microsoft define um prazo de atualização de sete [dias](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) para dispositivos. Depois que a atualização estiver disponível, ela deverá ser instalada dentro de sete dias. Os usuários são [notificados](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) de que as atualizações são necessárias em vários locais: o aplicativo, na bandeja do sistema 12 horas antes do prazo, e eles recebem um aviso de 15 minutos antes do prazo. Todos os Aplicativos do Microsoft 365 devem ser fechados para que a atualização seja concluída.
 
 ### <a name="pausing-or-rolling-back-an-update"></a>Pausar ou reverter uma atualização
 
-Se você precisar pausar ou reverter a atualização do aplicativo [](../working-with-managed-desktop/admin-support.md) Microsoft 365 por qualquer motivo, protocole uma solicitação de suporte do administrador por meio do portal da Área de Trabalho Gerenciada da Microsoft.
+Se você precisar pausar ou reverter [a](../working-with-managed-desktop/admin-support.md) atualização do Aplicativo do Microsoft 365 por qualquer motivo, arquivar uma solicitação de suporte de administrador por meio do portal da Área de Trabalho Gerenciada da Microsoft.
 
-Durante uma versão, a Área de Trabalho Gerenciada da Microsoft monitora as taxas de erro de todos os Aplicativos do Microsoft 365. Se observarmos uma diferença significativa na qualidade entre a nova versão e seu predecessor, podemos entrar em contato com você por meio do portal do Administrador da Área de Trabalho Gerenciada da Microsoft. Dependendo da gravidade, perguntaremos se você deseja pausar a versão ou informá-lo de que a ação foi tomada para atenuar um problema. 
+Durante uma versão, a Área de Trabalho Gerenciada da Microsoft monitora as taxas de erro de todos os Aplicativos do Microsoft 365. Se observarmos uma diferença significativa na qualidade entre a nova versão e seu predecessor, podemos entrar em contato com você por meio do portal de Administração da Área de Trabalho Gerenciada da Microsoft. Dependendo da gravidade, perguntaremos se você deseja pausar a versão ou informar que fizemos uma ação para atenuar um problema. 
 
 ### <a name="delivery-optimization"></a>Otimização de entrega
 
-A Otimização de Entrega é uma tecnologia de distribuição ponto a ponto disponível no Windows 10. Ele permite que os dispositivos compartilhem conteúdo, como atualizações, que os dispositivos baixaram da Microsoft pela Internet. Usá-lo pode ajudar a reduzir a largura de banda da rede porque um dispositivo pode obter partes da atualização de outro dispositivo em sua rede local, em vez de precisar baixar a atualização completamente da Microsoft.
+A Otimização de Entrega é uma tecnologia de distribuição ponto a ponto disponível no Windows 10. Ele permite que os dispositivos compartilhem conteúdo, como atualizações, que os dispositivos baixaram da Microsoft pela Internet. Usá-lo pode ajudar a reduzir a largura de banda de rede porque um dispositivo pode obter partes da atualização de outro dispositivo em sua rede local, em vez de ter que baixar a atualização completamente da Microsoft.
 
-[A Otimização](https://docs.microsoft.com/deployoffice/delivery-optimization) de Entrega é habilitada por padrão em dispositivos que executam as edições Windows 10 Enterprise ou Windows 10 Education. 
+[A Otimização](https://docs.microsoft.com/deployoffice/delivery-optimization) de Entrega é habilitada por padrão em dispositivos que executam as edições windows 10 Enterprise ou Windows 10 Education. 
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Configurações gerenciadas pela Área de Trabalho Gerenciada da Microsoft
 
-A Microsoft gerencia algumas configurações como parte do serviço. A Área de Trabalho Gerenciada da Microsoft não gerencia uma linha de base de Segurança do Office, mas você pode definir uma por conta própria seguindo as orientações na seção [Configurações gerenciadas.](#settings-you-manage)
+A Microsoft gerencia algumas configurações como parte do serviço. A Área de Trabalho Gerenciada da Microsoft não gerencia uma linha de base do Office Security, mas você pode definir uma por conta própria seguindo as diretrizes na seção [Configurações gerenciadas.](#settings-you-manage)
 
 ### <a name="update-settings"></a>Atualizar configurações
 
 A Área de Trabalho Gerenciada da Microsoft mantém todas as configurações de atualização para [dispositivos gerenciados](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) e você deve modificar essas configurações.
 
-### <a name="set-updates-to-occur-automatically"></a>Definir que as atualizações ocorram automaticamente
+### <a name="set-updates-to-occur-automatically"></a>Definir atualizações para ocorrer automaticamente
 
-**Valor padrão:** Habilitado
+**Valor padrão**: Habilitado
 
-Essa política é configurada para garantir que todos os dispositivos do Office possam ser mantidos atualizados a partir da nuvem. 
+Essa política é configurada para garantir que todos os dispositivos do Office possam ser mantidos atualizados da nuvem. 
 
-### <a name="set-a-deadline-when-updates-have-to-be-applied"></a>Definir uma data limite quando as atualizações devem ser aplicadas
+### <a name="set-a-deadline-when-updates-have-to-be-applied"></a>Definir um prazo quando as atualizações devem ser aplicadas
 
-**Valor padrão:** 7 dias
+**Valor padrão**: 7 dias
 
-A **política UpdateDeadline** é usada para configurar o período de carência que os usuários têm antes que uma atualização seja imposta no dispositivo. Essa política de data limite também dispara [notificações](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) ao usuário para informá-lo sobre as alterações necessárias em seu dispositivo.  
+A **política UpdateDeadline** é usada para configurar o período de carência que os usuários têm antes que uma atualização seja imposta no dispositivo. Essa política de prazo também dispara [notificações](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) ao usuário para informá-lo sobre as alterações necessárias em seu dispositivo.  
 
 ### <a name="defer-updates-on-a-device-for-a-period"></a>Adiar atualizações em um dispositivo por um período
 
-Essa política é configurada de forma diferente para cada grupo de dispositivos de gerenciamento de atualização e é necessária para que a Área de Trabalho Gerenciada da Microsoft conheça seus destinos de atualização:  
+Essa política é configurada de forma diferente para cada grupo de dispositivos de gerenciamento de atualizações e é necessária para que a Área de Trabalho Gerenciada da Microsoft atender aos seus destinos de atualização:  
 
 - Teste: zero dias
 - Primeiro: zero dias
 - 7 dias rápidos
-- Ampla: 21 dias
+- Broad: 21 dias
 
 ### <a name="update-notifications-settings"></a>Atualizar configurações de notificações
 
-**Valor padrão:** False
+**Valor padrão**: False
 
-A configuração "ocultar notificações de atualização" é definida como **False** em dispositivos da Área de Trabalho Gerenciada da Microsoft para fornecer a melhor experiência de atualização para os usuários, notificando-os quando as atualizações são necessárias. [](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps)
+A configuração "ocultar notificações de atualização" é definida como **False** em dispositivos da Área de Trabalho Gerenciada da Microsoft para fornecer a melhor experiência de atualização para os usuários notificando-os quando as atualizações são necessárias. [](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps)
 
 ### <a name="specify-a-location-to-look-for-updates"></a>Especificar um local para procurar atualizações
 
-**Valor padrão:** Canal Empresarial Mensal
+**Valor padrão**: Canal Empresarial Mensal
 
-Uma combinação das **políticas UpdatePath** e **UpdateChannel** é usada conforme necessário para atingir o cronograma de atualização. Essas políticas são definidas para garantir que todos os dispositivos do Office recebam atualizações diretamente da CDN para o Canal Empresarial Mensal.
+Uma combinação das políticas **UpdatePath** e **UpdateChannel** é usada conforme necessário para atingir o cronograma de atualização. Essas políticas são definidas para garantir que todos os dispositivos do Office recebam atualizações diretamente da CDN para o Canal Corporativo Mensal.
 
-### <a name="specify-the-target-version-of-microsoft-365-apps"></a>Especificar a versão de destino do Microsoft 365 Apps
+### <a name="specify-the-target-version-of-microsoft-365-apps"></a>Especificar a versão de destino dos aplicativos do Microsoft 365
 
-Às vezes, a política de Versão de Destino é usada pela Área de Trabalho Gerenciada da Microsoft para reverter ou fixar uma versão específica do Office. 
+A política de Versão de Destino às vezes é usada pela Área de Trabalho Gerenciada da Microsoft para reverter ou fixar uma versão específica do Office. 
 
 
-### <a name="hide-the-option-to-enable-or-disable-office-automatic-updates"></a>Ocultar a opção para habilitar ou desabilitar as atualizações automáticas do Office
+### <a name="hide-the-option-to-enable-or-disable-office-automatic-updates"></a>Ocultar a opção para habilitar ou desabilitar atualizações automáticas do Office
 
-**Valor padrão:** Habilitado
+**Valor padrão**: Habilitado
 
-Essa configuração é necessária para a Área de Trabalho Gerenciada da Microsoft cumprir seus destinos de atualização para aplicativos do Microsoft 365. 
+Essa configuração é necessária para que a Área de Trabalho Gerenciada da Microsoft atender às suas metas de atualização para aplicativos do Microsoft 365. 
 
 ### <a name="first-run-settings"></a>Configurações de primeira executar 
 
@@ -128,39 +128,39 @@ Há várias configurações que afetam o comportamento na primeira vez que o Off
 
 ### <a name="accept-the-license-terms-on-behalf-of-the-end-user"></a>Aceitar os termos de licença em nome do usuário final
 
-**Valor padrão:** Desabilitado
+**Valor padrão**: Desabilitado
 
-Na primeira vez que um usuário abre um aplicativo do Microsoft 365, ele é solicitado a aceitar os termos de licença. Se você quiser aceitar os termos de licença em nome de seus usuários, protocole uma solicitação de serviço com a equipe de Operações de Área de Trabalho Gerenciada da Microsoft solicitando que essa configuração seja habilitada. 
+Na primeira vez que um usuário abre um Aplicativo do Microsoft 365, ele é solicitado a aceitar os termos de licença. Se você quiser aceitar os termos de licença em nome de seus usuários, arquivar uma solicitação de serviço com a equipe de Operações de Área de Trabalho Gerenciada da Microsoft solicitando que essa configuração seja habilitada. 
 
-### <a name="suppress-outlook-mobile-check-box"></a>Suprimir caixa de seleção do Outlook Mobile
+### <a name="suppress-outlook-mobile-check-box"></a>Caixa de seleção Suprimir dispositivos móveis do Outlook
 
-**Valor padrão:** Desabilitado
+**Valor padrão**: Desabilitado
 
-Na primeira vez que um usuário abre o Outlook, ele é solicitado a instalar o Outlook Mobile. Se você não quiser que os usuários vejam essa caixa de seleção, arquiva uma solicitação de serviço com a equipe de Operações de Área de Trabalho Gerenciada da Microsoft solicitando que essa configuração seja habilitada para seus dispositivos. 
+Na primeira vez que um usuário abre o Outlook, ele é solicitado a instalar o Outlook Mobile. Se você não quiser que os usuários vejam essa caixa de seleção, arquivar uma solicitação de serviço com a equipe de Operações de Área de Trabalho Gerenciada da Microsoft solicitando que essa configuração seja habilitada para seus dispositivos. 
 
 ## <a name="other-settings"></a>Outras configurações
 
-Há outras configurações de aplicativo do Microsoft 365 que a Área de Trabalho Gerenciada da Microsoft pode, opcionalmente, definir em seu nome. 
+Há outras configurações do Aplicativo do Microsoft 365 que a Área de Trabalho Gerenciada da Microsoft pode, opcionalmente, configurar em seu nome. 
 
 ### <a name="disable-personal-onedrive"></a>Desabilitar o OneDrive Pessoal
 
-**Valor padrão:** Desabilitado
+**Valor padrão**: Desabilitado
 
-Algumas organizações estão interessadas em que os usuários tenham acesso a arquivos corporativos e pessoais em seus dispositivos. Você pode registrar uma solicitação de serviço com a equipe de Operações da Área de Trabalho Gerenciada da Microsoft solicitando que essa configuração seja habilitada. 
+Algumas organizações estão preocupados com os usuários que têm acesso a arquivos corporativos e pessoais em seus dispositivos. Você pode arquivar uma solicitação de serviço com a equipe de Operações de Área de Trabalho Gerenciada da Microsoft solicitando que essa configuração seja habilitada. 
 
 ## <a name="settings-you-manage"></a>Configurações gerenciadas
 
 Há muitas outras políticas que a Área de Trabalho Gerenciada da Microsoft ainda não definiu como parte do nosso serviço. Você pode configurar essas políticas usando o Microsoft Intune, que usa o serviço de Política de [Nuvem do Office.](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) Para definir essas políticas, siga estas etapas:
 
-1.  Entre no centro de administração do Microsoft Endpoint Manager.
-2.  Selecionar **Políticas > Aplicativos para Aplicativos do Office > Criar**
+1.  Entre no Centro de administração do Microsoft Endpoint Manager.
+2.  Selecione **Aplicativos > políticas para aplicativos do Office > Criar**
 3.  Na página **Criar configuração** de política, faça o seguinte:
     - Insira um nome.
     - Forneça uma descrição (opcional).
     - Nas **atribuições,** escolha se essa política se aplica a todos os usuários do Microsoft 365 Apps para empresas ou apenas aos usuários que acessam documentos anonimamente usando o Office para a Web.
-    - Selecione o grupo de segurança baseado em AAD atribuído à configuração de política. Cada configuração de política só pode ser atribuída a um grupo, e cada grupo só pode ser atribuído a uma configuração de política.
-    - Definir as configurações de política a serem incluídas na configuração de política. Você pode pesquisar o nome da configuração de política para encontrar a configuração de política que deseja definir. Você também pode filtrar o aplicativo, se a política é uma linha de base de segurança recomendada e se a política foi configurada. A coluna da plataforma indica se a política é aplicada ao Microsoft 365 Apps para empresas para dispositivos Windows, Office para a Web ou todos.
+    - Selecione o grupo de segurança baseado em AAD atribuído à configuração da política. Cada configuração de política só pode ser atribuída a um grupo, e cada grupo só pode ser atribuído a uma configuração de política.
+    - Configure as configurações de política a serem incluídas na configuração da política. Você pode pesquisar o nome da configuração de política para encontrar a configuração de política que deseja configurar. Você também pode filtrar no aplicativo se a política é uma linha de base de segurança recomendada e se a política foi configurada. A coluna da plataforma indica se a política é aplicada aos Aplicativos do Microsoft 365 para empresas para dispositivos Windows, Office para a Web ou tudo.
 4.  Depois de fazer suas seleções, escolha **Criar**.
 
 > [!NOTE]
-> As Políticas de Configuração do Office suportam apenas a implantação baseada no usuário
+> As Políticas de Configuração do Office só suportam a implantação baseada no usuário

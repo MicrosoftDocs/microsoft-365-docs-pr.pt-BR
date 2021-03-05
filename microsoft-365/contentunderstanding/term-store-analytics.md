@@ -10,14 +10,14 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 ms.collection:
 - enabler-strategic
-- m365initiative-topics
+- m365initiative-viva-topics
 localization_priority: Priority
-ms.openlocfilehash: 5ac0513b100c120366138b1f2a7b4a35f4435cfb
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: a017a61c42a6e5e43db2be2e448ade7dbd620b5e
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145086"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50454450"
 ---
 # <a name="term-store-reports"></a>Relatórios do repositório de termos
 

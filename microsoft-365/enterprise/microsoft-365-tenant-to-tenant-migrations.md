@@ -19,30 +19,30 @@ f1.keywords:
 - NOCSH
 description: Saiba como migrar locatários do Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17aabbd945c6dec699384eb9f203029255ae62f6
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: 09b2bc77333afaf1991064369846241328db85ff
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48447138"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461638"
 ---
 # <a name="microsoft-365-tenant-to-tenant-migrations"></a>Migrações de locatário para locatário do Microsoft 365
 
-Há várias abordagens de arquitetura para fusões, aquisições, desa instituções e outros cenários que podem levar você a migrar um locatário existente do Microsoft 365 para um novo locatário. A maioria dos clientes trabalha com os Serviços de Consultoria da Microsoft ou com um parceiro da Microsoft para migrar locatários, incluindo o uso de ferramentas de terceiros para migrar conteúdo. 
+Há várias abordagens de arquitetura para fusões, aquisições, desinvestres e outros cenários que podem levar você a migrar um locatário existente do Microsoft 365 para um novo locatário. A maioria dos clientes trabalha com o Microsoft Consulting Services ou com um parceiro da Microsoft para migrar locatários, incluindo o uso de ferramentas de terceiros para migrar conteúdo. 
 
-Use o [modelo de arquitetura](../downloads/Microsoft-365-tenant-to-tenant-migration.pdf) de migração de locatário para locatário para entender como planejar migrações de locatário para locatário do Microsoft 365 e as etapas de uma migração.
+Use o [modelo de](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) arquitetura de migração de locatário para entender como planejar migrações de locatário para locatário do Microsoft 365 e as etapas de uma migração.
 
-[![Modelo de migração de locatário para locatário](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](../downloads/Microsoft-365-tenant-to-tenant-migration.pdf) 
+[![Modelo de migração de locatário para locatário](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) 
 
-Você também pode baixar esse modelo em [formatos PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) ou [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) e imprimi-lo em papel de carta, jurídico ou tabloide (11 x 17).
+Baixe esse modelo no [formato PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.pdf) e imprima-o em papel de carta, legal ou tabloide (11 x 17).
 
-Esse modelo fornece orientações e um ponto de partida para o planejamento com seções sobre:
+Este modelo fornece orientações e um ponto de partida para planejamento com seções em:
 
 - Mapeamento de cenários de negócios para abordagens de arquitetura
 - Considerações de design
 
-Esse modelo também contém exemplos detalhados de:
+Este modelo também contém exemplos detalhados de:
 
 - Um único fluxo de migração de eventos
 - Um fluxo de migração em fases
-- Um fluxo de movimentação ou divisão de locatários
+- Uma movimentação de locatário ou fluxo dividido

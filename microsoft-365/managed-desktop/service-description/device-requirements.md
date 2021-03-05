@@ -1,6 +1,6 @@
 ---
 title: Requisitos do dispositivo
-description: Resumo dos requisitos mínimos de hardware e software para dispositivos funcionarem com a Área de Trabalho Gerenciada da Microsoft
+description: Resumo dos requisitos mínimos de hardware e software para dispositivos trabalharem com a Área de Trabalho Gerenciada da Microsoft
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -9,31 +9,31 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: a6b5cbbcb2f48797130b080d9d1dd1e6427d4fb8
-ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
+ms.openlocfilehash: 90dee316ee5bdc99b6a2386260a3be38728e7282
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110046"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50453712"
 ---
 # <a name="device-requirements"></a>Requisitos do dispositivo
 
-A Área de Trabalho Gerenciada da Microsoft avalia regularmente os requisitos de dispositivo para serem incluídos no serviço. Este artigo descreve os requisitos de hardware e software que um dispositivo deve atender para funcionar com a Área de Trabalho Gerenciada da Microsoft. Você pode revisar uma lista de dispositivos [específicos já aprovados](device-list.md) para uso com o serviço com base nesses requisitos.
+A Área de Trabalho Gerenciada da Microsoft avalia regularmente os requisitos de dispositivo a serem incluídos no serviço. Este artigo descreve os requisitos de hardware e software que um dispositivo deve atender para trabalhar com a Área de Trabalho Gerenciada da Microsoft. Você pode revisar uma lista de dispositivos específicos já [aprovados](device-list.md) para uso com o serviço com base nesses requisitos.
 
 > [!NOTE]
-> Esses requisitos podem mudar a qualquer momento, mas forneceremos um aviso de 30 dias sobre quaisquer alterações de requisitos de hardware. Os requisitos alterados mais recentemente são marcados com **\*** . 
+> Esses requisitos podem mudar a qualquer momento, mas forneceremos aviso de 30 dias sobre quaisquer alterações de requisitos de hardware. Os requisitos alterados mais recentemente são marcados com **\*** . 
 
 ## <a name="check-hardware-requirements"></a>Verificar requisitos de hardware
 
-Além de analisar as especificações do dispositivo, você também pode usar o verificador de avaliação de preparação para download para verificar se um determinado dispositivo atende aos requisitos necessários. [](../get-ready/readiness-assessment-downloadable.md) Essa ferramenta também verifica as configurações de rede e os pontos de extremidade que também são necessários para o serviço funcionar.
+Além de revisar as especificações do dispositivo, você também pode usar o verificador de avaliação de preparação para download para verificar se um determinado dispositivo atende aos requisitos necessários. [](../get-ready/readiness-assessment-downloadable.md) Esta ferramenta também verifica configurações de rede e pontos de extremidade que também são necessários para que o serviço funcione.
 
 ## <a name="minimum-requirements"></a>Requisitos mínimos
 
-Para ser inscrito na Área de Trabalho Gerenciada da Microsoft, um dispositivo deve atender ou exceder todos esses requisitos.
+Para estar inscrito na Área de Trabalho Gerenciada da Microsoft, um dispositivo deve atender ou exceder todos esses requisitos.
 
 ### <a name="manufacturer"></a>Fabricante
 
-O dispositivo deve ter sido feito por um destes fabricantes:
+O dispositivo deve ter sido feito por um desses fabricantes:
 
 - Dell
 - HP
@@ -45,38 +45,39 @@ O dispositivo deve ter sido feito por um destes fabricantes:
 
 O dispositivo deve ter esse software pré-instalado:
 
-- Edição Windows 10 Enterprise, Pro ou Pro Workstation
-- a versão de 64 bits do Clique para Executar do Microsoft Office 
+- Windows 10 Enterprise, Pro ou Pro Workstation edition
+- a versão de 64 bits do Microsoft Office clique para executar 
 - Todos os drivers de dispositivo aplicáveis
 
 
 ### <a name="physical-features"></a>Recursos físicos
 
-Os dispositivos devem ter estes recursos:
+Os dispositivos devem ter esses recursos:
 
 - Habilitado para inicialização segura UEFI 
 - Trusted Platform Module 2.0 
 - Capaz de segurança baseada em virtualização 
-- Dá suporte à integridade de código protegida pelo hipervisor 
+- Oferece suporte à integridade de código protegido por hipervisor 
 
-Para saber mais sobre esses recursos e as tecnologias relacionadas a eles que o serviço usa, consulte Tecnologias da Área de [Trabalho Gerenciada da Microsoft.](../intro/technologies.md)
+Para saber mais sobre esses recursos e as tecnologias relacionadas a eles que o serviço usa, consulte [Tecnologias da Área de Trabalho Gerenciada da Microsoft.](../intro/technologies.md)
 
 > [!NOTE]
-> Não há suporte para processadores ARM.
+> ARM processadores não são suportados.
 
-Os dispositivos devem cumprir ou exceder os seguintes limites de armazenamento e memória:
+Os dispositivos devem atender ou exceder os seguintes limites para armazenamento e memória:
 
-- A unidade de inicialização deve ser de qualquer tipo que não seja um disco rígido. Por exemplo, as unidades SSD, NVMe e eMMC são opções válidas.
-- A unidade de inicialização deve ter pelo menos 128 GB.
+- A unidade de inicialização deve ser qualquer tipo diferente de um disco rígido. Por exemplo, unidades SSD, NVMe e eMMC são opções válidas.
+- A unidade de inicialização deve ter uma capacidade de pelo menos 128 GB.
+- A memória interna do dispositivo (RAM) deve ser igual ou superior a 8 GB.
 
-Se o dispositivo tiver sido feito após 1º de julho de 2020, ele também deverá ter uma câmera DE IR, um leitor de impressão digital ou ambos, para dar suporte ao [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
+Se o dispositivo foi feito após 1º de julho de 2020, ele também deve ter uma câmera DE IR, um leitor de impressão digital ou ambos, para dar suporte ao [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 
 ## <a name="recommended-requirements"></a>Requisitos recomendados
 
-Embora eles não sejam requisitos absolutos, os usuários terão uma experiência muito melhor se você escolher dispositivos com estes recursos:
+Embora eles não sejam requisitos absolutos, seus usuários terão uma experiência muito melhor se você escolher dispositivos que tenham esses recursos:
 
-- Um processador Intel vPro-platform ou um processador AMD Ryzen Pro
+- Um processador intel vPro-platform ou um processador AMD Ryzen Pro
 - Unidade de inicialização do tipo SSD com uma capacidade de pelo menos 256 GB
-- Suporte para modo de espera moderno
-- O dispositivo é do tipo de computador de núcleo protegido
-- Dá suporte à proteção DMA de kernel
+- Suporte para Espera Moderna
+- O dispositivo é do tipo de computador protegido
+- Oferece suporte à Proteção de DMA kernel

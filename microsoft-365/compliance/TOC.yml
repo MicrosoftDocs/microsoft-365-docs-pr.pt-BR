@@ -36,10 +36,6 @@
           href: communication-compliance-feature-reference.md
         - name: Estudo de caso - A Contoso configura rapidamente uma política de idiomas ofensiva
           href: communication-compliance-case-study.md
-        - name: Políticas de supervisão no Office 365
-          href: supervision-policies.md
-        - name: Configurar políticas de supervisão no Office 365
-          href: configure-supervision-policies.md
     - name: Gerenciamento de risco interno
       items:
         - name: Visão Geral
