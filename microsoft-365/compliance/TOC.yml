@@ -158,6 +158,8 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Gerenciar rótulos de confidencialidade em aplicativos do Office
           href: sensitivity-labels-office-apps.md
+        - name: Habilitar a coautoria para documentos criptografados por rótulos de confidencialidade (Visualização)
+          href: sensitivity-labels-coauthoring.md
     - name: Criptografia
       items:
         - name: Noções básicas de encriptação
