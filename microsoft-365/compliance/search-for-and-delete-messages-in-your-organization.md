@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Você pode usar o recurso pesquisar e limpar do Centro de Segurança e Conformidade para pesquisar e excluir uma mensagem de e-mail de todas as caixas de correio da sua organização.
-ms.openlocfilehash: f4bcd012708c0b7e9fa37b06288cda18ad4766cf
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 52871fc85a4d5aec1754c1957f2087552b442daf
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546529"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423692"
 ---
 # <a name="search-for-and-delete-email-messages"></a>Pesquisar e excluir mensagens de email
 
@@ -41,13 +41,13 @@ Você pode usar o recurso Pesquisa de Conteúdo para pesquisar e excluir uma men
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica**ou então ter sido designado para a função de gerenciador de**Pesquisa de Conformidade**. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de gerenciamento **Pesquisar e Limpar**. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](assign-ediscovery-permissions.md).
+- Para criar e executar uma pesquisa de conteúdo, você precisa ser membro do grupo de funções **Gerente de Descoberta Eletrônica** ou então ter sido designado para a função de gerenciador de **Pesquisa de Conformidade**. Para excluir mensagens, você tem de ser membro do grupo de funções **Gerenciamento da Organização** ou ter sido designado para a função de gerenciamento **Pesquisar e Limpar**. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Segurança e Conformidade](assign-ediscovery-permissions.md).
 
 - Você tem que usar o Centro de Segurança e Conformidade do PowerShell para excluir mensagens. Consulte a[Etapa 2](#step-2-connect-to-security--compliance-center-powershell) para obter instruções sobre como se conectar.
 
 - Só é possível remover no máximo dez itens de cada vez por caixa de correio. Como o recurso de pesquisa e remoção de mensagens tem como objetivo ser uma ferramenta de resposta a incidentes, esse limite ajuda a garantir que as mensagens sejam rapidamente removidas das caixas de correio. Este recurso não tem como objetivo limpar as caixas de correio do usuário.
 
-- O número máximo de caixas de correio em uma pesquisa de conteúdo na qual você pode excluir itens executando uma ação de pesquisar e limpar é de 50.000. Se a pesquisa de conteúdo (que você cria na [ Etapa 1](#step-1-create-a-content-search-to-find-the-message-to-delete)) tiver mais de 50.000 caixas de correio de origem, a ação limpar (que você vai criar na etapa 3) falhará. Confira a seção[Mais informações](#more-information) para obter uma dica de como executar uma operação Pesquisar e limpar em mais de 50.000 caixas de correio.
+- O número máximo de caixas de correio em uma pesquisa de conteúdo na qual você pode usar para excluir itens executando uma ação de pesquisa e limpeza é 50.000. Se a pesquisa (criada na [Etapa 1](#step-1-create-a-content-search-to-find-the-message-to-delete)) busca mais de 50.000 caixas de correio, a ação de limpeza (criada na Etapa 3) irá falhar. Pesquisar mais de 50.000 caixas de correio em uma única pesquisa pode normalmente acontecer quando você configura a pesquisa para incluir todas as caixas de correio em sua organização. Essa restrição ainda se aplica mesmo quando menos de 50.000 caixas de correio contiverem itens que correspondam à consulta de pesquisa. Confira a seção [Mais informações](#more-information) para obter orientação sobre o uso de filtros de permissões de pesquisa para procurar e limpar itens de mais de 50.000 caixas de correio.
 
 - O procedimento neste artigo só pode ser usado para excluir itens nas caixas de correio e pastas públicas do Exchange Online. Não é possível usá-lo para excluir o conteúdo dos sites do SharePoint ou do OneDrive for Business.
 
@@ -111,7 +111,7 @@ Depois de se conectar ao PowerShell do Centro de Conformidade e Segurança, exec
 
 ## <a name="step-3-delete-the-message"></a>Etapa 3: Excluir a mensagem
 
-Após a criação e detalhamento de uma pesquisa de conteúdo com o objetivo de retornar a mensagem que você deseja remover e está conectada ao Centro de Segurança e Conformidade no PowerShell, a etapa final será executar o cmdlet**New-ComplianceSearchAction** para excluir a mensagem.  Você pode excluir a mensagem temporária ou permanentemente. Uma mensagem excluída temporariamente (soft- deleted) é movida para a pasta Itens Recuperáveis de um usuário e mantida até que o período de retenção de itens excluídos expire. As mensagens excluídas permanentemente (hard-deleted) serão definitivamente removidas da próxima vez que a caixa de correio for processada pelo assistente de pastas gerenciadas. Se a recuperação de um único item estiver habilitada para a caixa de correio, os itens excluídos permanentemente serão removidos definitivamente após o término do período de retenção de itens excluídos. Se uma caixa de correio for colocada em espera, as mensagens excluídas serão preservadas até que a duração de retenção do item expire ou até que o período de espera seja interrompido na caixa de correio.
+Após a criação e detalhamento de uma pesquisa de conteúdo com o objetivo de retornar a mensagem que você deseja remover e está conectada ao Centro de Segurança e Conformidade no PowerShell, a etapa final será executar o cmdlet **New-ComplianceSearchAction** para excluir a mensagem.  Você pode excluir a mensagem temporária ou permanentemente. Uma mensagem excluída temporariamente (soft- deleted) é movida para a pasta Itens Recuperáveis de um usuário e mantida até que o período de retenção de itens excluídos expire. As mensagens excluídas permanentemente (hard-deleted) serão definitivamente removidas da próxima vez que a caixa de correio for processada pelo assistente de pastas gerenciadas. Se a recuperação de um único item estiver habilitada para a caixa de correio, os itens excluídos permanentemente serão removidos definitivamente após o término do período de retenção de itens excluídos. Se uma caixa de correio for colocada em espera, as mensagens excluídas serão preservadas até que a duração de retenção do item expire ou até que o período de espera seja interrompido na caixa de correio.
 
 No exemplo a seguir, o comando exclui temporariamente os resultados da pesquisa retornados por uma Pesquisa de conteúdo chamada “Remover mensagens de phishing”.
 
@@ -143,7 +143,7 @@ Para obter mais informações, consulte [New-ComplianceSearchAction](https://doc
 
 - **E se você tiver que excluir uma mensagem de mais de 50.000 caixas de correio?**
 
-  Conforme mencionado anteriormente, você pode executar uma operação de pesquisa e limpeza em um máximo de 50.000 caixas de correio. Se você precisar executar uma operação pesquisar e limpar em mais de 50.000 caixas de correio, considere a possibilidade de criar filtros de permissões de pesquisa temporários que reduziriam o número de caixas de correio a ser pesquisadas para menos de 50.000 caixas de correio. Por exemplo, se a sua organização tiver caixas de correio em departamentos, estados ou países diferentes, você poderá criar um filtro de permissões de pesquisa de caixa de correio com base em uma dessas propriedades de caixa de correio para pesquisar um subconjunto de caixas de correio em sua organização. Depois de criar o filtro de permissões de pesquisa, você criaria a pesquisa (descrita na etapa 1) e, em seguida, excluirá a mensagem (descrita na etapa 3). Em seguida, você pode editar o filtro para pesquisar e limpar mensagens em um conjunto diferente de caixas de correio. Para obter mais informações sobre como criar filtros de permissões, confira [Configurar a filtragem de permissões para Pesquisa de Conteúdo](permissions-filtering-for-content-search.md).
+  Conforme declarado anteriormente, você pode executar uma operação de pesquisa e limpeza em no máximo 50.000 caixas de correio (mesmo que menos de 50.000 contenham itens que correspondam à consulta de pesquisa). Se você tiver que fazer uma operação de pesquisa e limpeza em mais de 50.000 caixas de correio, considere a criação de filtros de permissões de pesquisa temporários que reduzem o número de caixas de correio que seriam pesquisadas para menos de 50.000 caixas de correio. Por exemplo, se a sua organização tiver caixas de correio em departamentos, estados ou países diferentes, você poderá criar um filtro de permissões de pesquisa de caixa de correio com base em uma dessas propriedades de caixa de correio para pesquisar um subconjunto de caixas de correio em sua organização. Depois de criar o filtro de permissões de pesquisa, você criaria a pesquisa (descrita na etapa 1) e, em seguida, excluirá a mensagem (descrita na etapa 3). Em seguida, você pode editar o filtro para pesquisar e limpar mensagens em um conjunto diferente de caixas de correio. Para obter mais informações sobre como criar filtros de permissões, confira [Configurar a filtragem de permissões para Pesquisa de Conteúdo](permissions-filtering-for-content-search.md).
 
 - **Os itens não indexados incluídos nos resultados da pesquisa serão excluídos?**
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Instruções para criar e publicar rótulos de retenção para que você possa aplicá-los em aplicativos para manter o que precisa e excluir o que não
-ms.openlocfilehash: dfe507283304f1b1a7ded1740df043174987a398
-ms.sourcegitcommit: d3ca8021f7da00a474ac14aac5f1358204a848f2
+ms.openlocfilehash: 67285862756a262233fef934efb377b949fc9d65
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49519852"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423492"
 ---
 # <a name="create-retention-labels-and-apply-them-in-apps"></a>Criar rótulos de retenção e aplicá-los em aplicativos
 
@@ -33,7 +33,7 @@ ms.locfileid: "49519852"
 
 Use as informações a seguir para ajudá-lo a criar e publicar [rótulos de retenção](retention.md)e, em seguida, aplicá-los a documentos e emails.
 
-Os rótulos de retenção ajudam você a manter o que é necessário e a excluir o que não há no nível de item (documento ou email). Eles também são usados para declarar um item como registro como parte de um [gerenciamento de registros](records-management.md) solução para seus dados do Microsoft 365.
+Os rótulos de retenção ajudam você a manter o que é necessário e a excluir o que não o é no nível de item (documento ou email). Eles também são usados para declarar um item como um registro como parte de uma solução de [gerenciamento de registros](records-management.md) para seus dados do Microsoft 365.
 
 Disponibilizar os rótulos de retenção para as pessoas em sua organização para que eles possam classificar o conteúdo é um processo de duas etapas: 
 
@@ -47,11 +47,11 @@ Use as instruções a seguir para as duas etapas de administrador.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-O administrador global da sua organização tem permissões completas para criar e editar rótulos de retenção e suas políticas. Se você não estiver entrando como um administrador global, consulte [Permissões necessárias para criar e gerenciar as políticas e rótulos de retenção](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).
+O administrador global da sua organização tem permissões completas para criar e editar os rótulos de retenção e suas políticas. Se você não estiver entrando como um administrador global, confira [Permissões necessárias para criar e gerenciar políticas e rótulos de retenção](get-started-with-retention.md#permissions-required-to-create-and-manage-retention-policies-and-retention-labels).
 
 ## <a name="how-to-create-and-publish-retention-labels"></a>Como criar e publicar rótulos de retenção
 
-Primeiro, crie seus rótulos de retenção. Em seguida, crie uma política de rótulo para tornar os rótulos disponíveis para aplicar nos aplicativos.
+Primeiro, crie seu rótulo de retenção. Em seguida, crie uma política de rótulo para tornar os rótulos disponíveis para aplicar nos aplicativos.
 
 Onde você cria e configura seus rótulos de retenção depende se você está usando o gerenciamento de registros ou não. São fornecidas instruções para ambos os cenários.
 
@@ -63,17 +63,17 @@ Onde você cria e configura seus rótulos de retenção depende se você está u
         - **Soluções** > **Gerenciamento de Registros** >  guia **Plano de Arquivos** > **+ Criar um Rótulo** > **Rótulo de Retenção**
         
     - Se você não estiver usando o gerenciamento de registros:
-       - **Soluções** > **Governança de informações** > **Rótulos** guia > + **Criar um rótulo**
+       - **Soluções** > **Governança de Informações** >  guia **Rótulos** > + **Criar um Rótulo**
     
-    Não vê essa opção imediatamente? Primeiro, selecione **Mostrar tudo**. 
+    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo**. 
 
 2. Siga as instruções do assistente. Se você estiver usando o gerenciamento de registros:
     
-    - Para saber mais sobre os descritores de plano de arquivo, consulte [Usar o plano de arquivo para gerenciar os rótulos de retenção](file-plan-manager.md).
+    - Para obter informações sobre os descritores do plano de arquivo, confira [Usar plano de arquivo para gerenciar rótulos de retenção](file-plan-manager.md).
     
-    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**. Para saber mais, consulte [Configurar rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
+    - Para usar o rótulo de retenção para declarar registros, selecione **Marcar itens como registros** ou **Marcar itens como registros regulatórios**. Para saber mais, confira [Configuração de rótulos de retenção para declarar registros](declare-records.md#configuring-retention-labels-to-declare-records).
 
-3. Depois de criar o rótulo, você verá as opções para publicar o rótulo, aplicar o rótulo automaticamente ou apenas salvar o rótulo: selecione **Basta salvar o rótulo por agora** e, em seguida, selecione **Concluído**.
+3. Depois de criar o rótulo, você verá as opções para publicar a etiqueta, aplicar o rótulo automaticamente ou salvar o rótulo: selecione **Basta salvar o rótulo para agora** e, em seguida, selecione **Concluído**.
 
 4. Repita essas etapas para criar mais rótulos.
 
@@ -89,29 +89,29 @@ Publique os rótulos de retenção para que eles possam ser aplicados pelos usu�
         - **Soluções** > **Gerenciamento de Registros** > > guia **Políticas de Rótulo** > **Publicar Rótulos**
     
     - Se você não estiver usando o gerenciamento de registros:
-        - **Soluções** > **Governança de informações** > **Políticas de rótulo** guia > **Publicar rótulos**
+        - **Soluções** > **Governança de Informações** >  guia **Políticas de Rótulo** > **Publicar Rótulos**
     
-    Não vê essa opção imediatamente? Primeiro, selecione **Mostrar tudo**. 
+    Não vê a opção imediatamente? Primeiro, selecione **Mostrar Tudo**. 
 
 2. Siga as instruções do assistente.
     
-    Para obter informações sobre os locais com suporte de rótulos de retenção, consulte [Rótulos e locais de retenção](retention.md#retention-label-policies-and-locations). 
+    Para obter informações sobre os locais com suporte de rótulos de retenção, confira [Rótulos e locais de retenção](retention.md#retention-label-policies-and-locations). 
 
-Para editar uma política de rótulo de retenção existente, (o tipo de política é **Publicar**), selecione-a e, em seguida, selecione a opção **Editar** para iniciar a política de retenção. Esse assistente permite alterar as descrições da política e quaisquer [configurações elegíveis](#updating-retention-labels-and-their-policies) na etapa 2.
+Para editar uma política de rótulo de retenção existente (o tipo de política é **Publicar**), selecione-a e, em seguida, selecione a opção **Editar** para iniciar a política de retenção de edição. Esse assistente permite alterar a descrição da política e as [configurações elegíveis](#updating-retention-labels-and-their-policies) na etapa 2.
 
 
 ## <a name="when-retention-labels-become-available-to-apply"></a>Quando os rótulos de retenção se tornam disponíveis para aplicar
 
-Se você publicar os rótulos de retenção no SharePoint ou no OneDrive, esses rótulos geralmente serão exibidos para os usuários finais para selecionarem dentro de um dia. No entanto, espere até sete dias. 
+Se você publicar os rótulos de retenção no SharePoint ou no OneDrive, os rótulos geralmente serão exibidos para os usuários finais selecionarem dentro de um dia. No entanto, espere até sete dias. 
 
 Se você publicar rótulos de retenção no Exchange, pode levar até sete dias para que esses rótulos de retenção apareçam para os usuários finais, e a caixa de correio deve conter pelo menos 10 MB de dados.
 
 Por exemplo:
   
-![Diagrama de quando os rótulos manuais entrarão em vigor](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
+![Diagrama de quando os rótulos manuais entram em vigor](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 
-Se os rótulos não aparecerem após sete dias, verifique o **Status** da política de risco selecionando-a na página **Políticas de rótulo** no centro de conformidade. Se você vir o status de **Desligado (Erro)** e nos detalhes dos locais ver uma mensagem que está levando mais tempo que o esperado para implantar a política (para o SharePoint) ou tentar reimplantar a política (para OneDrive), tente executar [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy), um comando do PowerShell, para repetir a distribuição de política:
+Se os rótulos não aparecerem após sete dias, verifique o **Status** da política de rótulo selecionando-o na página **Políticas de rótulo** no centro de conformidade. Se você ver o status **Desativado (Erro)** e nos detalhes dos locais vir uma mensagem de que está demorando mais do que o esperado para implantar a política (para SharePoint) ou para tentar reimplantar a política (para OneDrive), tente executar [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy), um comando do PowerShell, para repetir a distribuição da política:
 
 1. [Conectar-se ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
 
@@ -123,7 +123,7 @@ Se os rótulos não aparecerem após sete dias, verifique o **Status** da polít
 
 ### <a name="how-to-check-on-the-status-of-retention-labels-published-to-exchange"></a>Como verificar o status dos rótulos de retenção publicados no Exchange
 
-No Exchange Online, os rótulos de retenção são disponibilizados para os usuários finais por um processo executado a cada sete dias. Usando o Powershell, você pode ver quando esse processo foi executado pela última vez e, assim, identificar quando ele será executado novamente.
+No Exchange Online, os rótulos são disponibilizados para os usuários finais por um processo que é executado a cada sete dias. Usando o PowerShell, você pode ver quando esse processo foi executado pela última vez e, portanto, identificar quando ele será executado novamente.
   
 1. [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=799773).
     
@@ -291,6 +291,14 @@ When you edit a retention label or retention label policy, and the retention lab
 Some settings can't be changed after the label or policy is created and saved, which include:
 - The retention label and policy name, and the retention settings except the retention period. However, you can't change the retention period when the retention period is based on when items were labeled.
 - The option to mark items as a record.
+
+### Deleting retention labels
+
+You can delete retention labels that aren't currently included in any retention label policies, that aren't configured for event-based retention, or mark items as regulatory records. The ability to delete retention labels that mark items as records is currently rolling out in preview.
+
+For retention labels that you can delete, if they have been applied to items, the deletion fails and you see a link to content explorer to identify the labeled items.
+
+However, it can take up to two days for content explorer to show the items that are labeled. In this scenario, the retention label might be deleted without showing you the link to content explorer.
 
 ## Locking the policy to prevent changes
 

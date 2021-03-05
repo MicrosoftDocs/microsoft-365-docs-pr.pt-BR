@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: Use o Centro de Segurança e Conformidade do Office 365 ou o centro de conformidade da Microsoft 365 para pesquisar o log de auditoria unificado para ver as atividades do usuário e do administrador em sua organização.
+description: Use o Centro de conformidade do Microsoft 365 para pesquisar o log de auditoria unificado para visualizar a atividade do usuário e administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e95c2f3627a6bb0c28b736437012a92107b3533
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: a751ffea9fa184faf90bfe7c43b44c5d4e53bfbf
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976242"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461812"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -61,6 +61,8 @@ Precisa descobrir se um usuário visualizou um documento específico ou apagou u
 - Atividade de usuários e administradores do Microsoft Forms
 
 - Atividade de usuários e administradores dos rótulos de sensibilidade de sites que usam o SharePoint Online ou o Microsoft Teams
+
+- Atividade administrativa em email de Resumo e MyAnalytics
 
 ## <a name="requirements-to-search-the-audit-log"></a>Requisitos para pesquisar o log de auditoria
 
@@ -178,7 +180,7 @@ A seguir, veja o processo para pesquisar o log de auditoria do Office 365.
 
       Mais de 100 atividades de usuários e administradores são registradas no log de auditoria. Clique na guia **Atividades auditadas**, no tópico deste artigo, para ver as descrições de cada atividade em cada um dos diferentes serviços.
 
-   1. **Data de início** e **Data de término**: Os últimos sete dias são selecionados por padrão. Selecione um intervalo de datas e horas para exibir os eventos ocorridos durante esse período. A data e a hora são apresentadas no formato UTC (Tempo Universal Coordenado). O intervalo de datas máximo que você pode especificar é de 90 dias. Um erro será exibido se o período selecionado for superior a 90 dias.
+   1. **Data de início** e **Data de término**: Os últimos sete dias são selecionados por padrão. Selecione um intervalo de datas e horas para exibir os eventos ocorridos durante esse período. A data e hora são apresentadas na horário local. O intervalo de datas máximo que você pode especificar é de 90 dias. Um erro será exibido se o período selecionado for superior a 90 dias.
 
       > [!TIP]
       > Se você estiver usando o intervalo máximo de datas de 90 dias, selecione a hora atual para a **Data de início**. Caso contrário, você receberá um erro afirmando que a data de início é anterior à data de término. Se você tiver ativado a auditoria nos últimos 90 dias, o intervalo máximo de datas não poderá começar antes da data em que a auditoria foi ativada.
@@ -221,7 +223,7 @@ Os resultados de uma pesquisa de log de auditoria são exibidos em **Resultados*
 
 Os resultados contêm as seguintes informações sobre cada evento retornado pela pesquisa:
 
-- **Data:**: A data e a hora (no formato UTC) de ocorrência do evento.
+- **Data:**: A data e a hora (no seu horário local) de ocorrência do evento.
 
 - **Endereço IP**: O endereço IP do dispositivo que foi usado quando a atividade foi registrada. O endereço IP é exibido em um formato de endereço IPv4 ou IPv6.
 
@@ -368,7 +370,7 @@ Clique em um dos links a seguir para ir até uma tabela específica.
         [Atividades do Power BI](#power-bi-activities)
     :::column-end:::
     :::column:::
-        [Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)
+        [Microsoft Workplace Analytics](#workplace-analytics-activities)
     :::column-end:::
     :::column:::
         [Atividades do Microsoft Teams](#microsoft-teams-activities)
@@ -417,6 +419,18 @@ Clique em um dos links a seguir para ir até uma tabela específica.
     :::column-end:::
     :::column:::
         [Política de retenção e rótulo de retenção de atividades](#retention-policy-and-retention-label-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades do email de resumo](#briefing-email-activities)
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        [Atividades do MyAnalytics](#myanalytics-activities)
+    :::column-end:::
+    :::column:::
+        [Atividades das barreiras de informação](#information-barriers-activities)
     :::column-end:::
     :::column:::
         [Atividades de administradores do Exchange](#exchange-admin-audit-log)
@@ -790,7 +804,7 @@ Você pode pesquisar o log de auditoria das atividades do Power BI. Para saber m
 
 O log de auditoria do Power BI não está habilitado por padrão. Para pesquisar as atividades do Power BI no log de auditoria, habilite o recurso de auditoria no Portal de Administração do Power BI. Para obter instruções, confira a seção "logs de auditoria" no [portal de administração do Power bi](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs).
 
-### <a name="microsoft-workplace-analytics-activities"></a>Atividades do Microsoft Workplace Analytics
+### <a name="workplace-analytics-activities"></a>Atividades do Workplace Analytics
 
 O Workplace Analytics fornece informação de como os grupos colaboram em sua organização. A tabela a seguir lista as atividades executadas pelos usuários que recebem a função de Administrador ou as funções de Analista no Workplace Analytics. Os usuários que receberam a função de Analista têm acesso total a todos os recursos de serviço e usam o produto para fazer análise. Os usuários que receberam a função de Administrador podem definir as configurações de privacidade e os padrões do sistema, além de poder preparar, carregar e verificar dados organizacionais no Workplace Analytics. Para saber mais, confira [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/index-orig).
 
@@ -969,6 +983,42 @@ A tabela abaixo lista os eventos que resultam das atividades de rotulamento dos 
 | Configurações atualizadas para uma política de retenção | SetRetentionComplianceRule | As configurações de retenção para uma política de retenção existente foram alteradas pelo administrador. As configurações de retenção incluem por quanto tempo os itens são retidos e o que acontece com os itens quando o período de retenção expira (como excluir itens, reter itens ou retê-los e excluí-los). Essa atividade também corresponde à execução do cmdlet [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule). |
 | Rótulo de retenção atualizado |SetComplianceTag  | Um rótulo de retenção existente foi atualizado pelo administrador.|
 | Política de retenção atualizada |SetRetentionCompliancePolicy |Uma política de retenção existente foi atualizada pelo administrador. As atualizações que acionam este evento incluem adicionar ou excluir locais de conteúdo aos quais a política de retenção é aplicada.|
+||||
+
+### <a name="briefing-email-activities"></a>Atividades do email de resumo
+
+A tabela a seguir lista as atividades no email de Resumo registradas no log de auditoria do Office 365. Para saber mais sobre o email de Resumo. confira:
+
+- [Visão geral do email de Resumo](https://docs.microsoft.com/Briefing/be-overview)
+
+- [Configurar email de Resumo](https://docs.microsoft.com/Briefing/be-admin)
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:-----|:-----|:-----|
+|Configurações de privacidade da organização atualizadas|UpdatedOrganizationBriefingSettings|O administrador atualiza as configurações de privacidade da organização para email de Resumo. |
+|Configurações de privacidade do usuário atualizadas|UpdatedUserBriefingSettings|O administrador atualiza as configurações de privacidade do usuário para email de Resumo.
+||||
+
+### <a name="myanalytics-activities"></a>Atividades do MyAnalytics
+
+A tabela a seguir lista as atividades no MyAnalytics registradas no log de auditoria do Office 365. Para obter mais informações sobre o MyAnalytics, consulte [MyAnalytics para administradores](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/mya-for-admins).
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:-----|:-----|:-----|
+|Configurações atualizadas do MyAnalytics da organização|UpdatedOrganizationMyAnalyticsSettings|O administrador atualiza as configurações no nível da organização para o MyAnalytics. |
+|Configurações atualizadas do usuário do MyAnalytics|UpdatedUserMyAnalyticsSettings|O administrador atualiza as configurações do usuário para o MyAnalytics.|
+||||
+
+### <a name="information-barriers-activities"></a>Atividades das barreiras de informação
+
+A tabela a seguir lista as atividades das barreiras de informação registradas no log de auditoria do Office 365. Para obter mais informações sobre as barreiras de informação, consulte [Saiba mais sobre as barreiras de informação no Microsoft 365](information-barriers.md).
+
+|**Nome amigável**|**Operação**|**Descrição**|
+|:----------------|:------------|:--------------|
+| Adicionados segmentos a um site | SegmentsAdded | Um administrador global, do SharePoint ou proprietário de site adicionou um ou mais segmentos de barreiras de informação a um site. |
+| Segmentos alterados de um site | SegmentsChanged | Um administrador global ou do SharePoint alterou um ou mais segmentos de barreiras de informação para um site. |
+| Segmentos removidos de um site | SegmentsRemoved | Um administrador global ou do SharePoint removeu um ou mais segmentos de barreiras de informação de um site. |
+||||
 
 ### <a name="exchange-admin-audit-log"></a>Log de auditoria de administradores do Exchange
 

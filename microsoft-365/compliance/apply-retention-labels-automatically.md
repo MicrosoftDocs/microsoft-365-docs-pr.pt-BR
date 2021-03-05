@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Criar rótulos de retenção e políticas de rotulação automáticas, para que você possa aplicar automaticamente os rótulos para reter o que precisa e excluir o que não
-ms.openlocfilehash: 69bada084aa3817b49b75d970a1a8d304f6853e6
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: 34b6fb53095a2c3f52598b84e82cae3083b98f21
+ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261342"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50423300"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Aplicar automaticamente um rótulo de retenção para reter ou excluir conteúdo
 
@@ -282,6 +282,14 @@ Se você editar um rótulo de retenção ou política de aplicação automática
 Algumas configurações não podem ser alteradas depois que o rótulo ou política é criado e salvo, que incluem:
 - O rótulo de retenção e o nome da política, além das configurações de retenção, exceto o período de retenção. No entanto, você não pode alterar o período de retenção quando o período de retenção se baseia em quando os itens eram rotulados.
 - A opção para marcar os itens como um registro.
+
+### <a name="deleting-retention-labels"></a>Excluindo rótulos de retenção
+
+Você pode excluir rótulos de retenção que não estão incluídos atualmente em nenhuma política de rótulo de retenção, que não estão configurados para retenção baseada em eventos, ou marcar itens como registros regulatórios. A capacidade de excluir rótulos de retenção que marcam itens como registros está sendo implementada na versão prévia.
+
+Quanto aos rótulos de retenção que podem ser excluídos, se eles foram aplicados a itens, a exclusão falhará e você verá um link para o explorador de conteúdos para identificar os itens rotulados.
+
+No entanto, pode levar até dois dias para que o explorador de conteúdos mostre os itens rotulados. Nesse cenário, o rótulo de retenção pode ser excluído sem mostrar o link para o explorador de conteúdos.
 
 ## <a name="locking-the-policy-to-prevent-changes"></a>Bloquear a política para evitar alterações
 
