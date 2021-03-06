@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 4bbea7810c20d72ef75bbb5602b1daddfce45576
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: 4eeedca64d1b2244355bb3e0e233969bdd02810c
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084672"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461886"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
@@ -60,7 +60,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     
     Específico para rotulagem automática para o SharePoint e OneDrive:
     - Os arquivos do Office para Word, PowerPoint e Excel são suportados. Há suporte para o formato Open XML (como .docx e .xlsx), mas não para o formato Microsoft Office 97-2003 (como .doc e .xls).
-        - Esses arquivos podem ser rotulados automaticamente quando não fazem parte de uma sessão aberta e se eles foram criados, carregados ou alterados desde que você criou políticas de rotulação automática, ou se os arquivos que não foram alterados já você criou suas políticas de rotulação automática.
+        - Esses arquivos podem ser rotulados automaticamente em repouso, antes ou depois da criação das políticas de rotulagem automática. Note que os arquivos não podem ser rotulados automaticamente se fizerem parte de uma sessão aberta (o arquivo está aberto).
     - Máximo de 25.000 arquivos rotulados automaticamente no seu locatário por dia.
     - Máximo de 10 políticas de rotulagem automática por locatário, cada uma visando até 10 sites (SharePoint ou OneDrive).
     - Os valores existentes para modificado, modificado por e a data não são alterados como resultado das políticas de rotulagem automática - tanto para o modo de simulação e quanto quando os rótulos são aplicados.

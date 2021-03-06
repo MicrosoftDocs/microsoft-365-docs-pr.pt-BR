@@ -19,16 +19,21 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 3d317a0a26d69eb46b8bb84253571b7d14f9836b
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: a716e3dd8138d5f7f9b5f8d8abbdb401211db9ae
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242485"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461866"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
 >*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+
+> [!NOTE]
+> Se você estiver vendo mensagens sobre políticas de retenção em seus aplicativos, entre em contato com o departamento de TI para obter informações sobre como elas foram configuradas para você. Se essas mensagens forem sobre o chat do Teams ou mensagens de canal, confira [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
+>
+> As informações desta página são para administradores de TI que podem criar políticas de retenção e rótulos de retenção por motivos de conformidade.
 
 Para a maioria das organizações, o volume e a complexidade dos dados aumentam diariamente, como emails, documentos, mensagens instantâneas e muito mais. O gerenciamento ou controle efetivo dessas informações é importante porque você precisa:
   
@@ -99,7 +104,7 @@ Diferentemente das políticas de retenção, as configurações de retenção de
 
 As políticas de retenção podem ser aplicadas aos seguintes locais:
 - Email do Exchange
-- Site do Microsoft Office SharePoint Online
+- Site do SharePoint
 - Contas do OneDrive
 - Grupos do Microsoft 365
 - Skype for Business

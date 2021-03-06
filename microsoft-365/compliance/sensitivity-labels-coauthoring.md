@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: 3946fa5a08011cc98e8dfad921a08ca0fa77af7a
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: d26696530ed86e6608b6473fead0775fb07a060b
+ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423858"
+ms.locfileid: "50454632"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
@@ -37,12 +37,14 @@ Sem essa configuração habilitada no seu locatário, os usuários deverão faze
 
 Além disso, a habilitação desse recurso resulta no suporte da funcionalidade [Salvamento Automático](https://support.office.com/article/what-is-autosave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) para estes arquivos rotulados e criptografados.
 
+Para ler o comunicado de lançamento, veja a postagem no blog [Anunciando a coautoria nas atualizações de rótulos e em documentos criptografados da Proteção de Informações da Microsoft.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-co-authoring-on-microsoft-information-protection/ba-p/2164162)
+
 ## <a name="metadata-changes-for-sensitivity-labels"></a>Alterações de metadados para rótulos de confidencialidade
 
 > [!IMPORTANT]
 > Depois que você habilitar a configuração para coautoria, as informações de rotulagem de arquivos não criptografados não são mais salvas nas propriedades personalizadas.
 > 
-> Não habilite essa configuração se você tiver aplicativos, serviços, scripts ou ferramentas em sua organização que leem ou gravem metadados de rotulagem no local antigo.
+> Não habilite essa configuração se você tiver aplicativos, serviços, scripts ou ferramentas que leem ou gravem metadados de rotulagem no local antigo.
 
 Antes de habilitar a configuração para suportar a coautoria para aplicativos da área de trabalho do Office, é importante compreender que essa ação faz alterações nos metadados de rotulagem salvos e lidos dos arquivos do Office.
 
@@ -80,18 +82,18 @@ Tenha certeza de que entende os seguintes pré-requisitos antes de ativar esse r
 
 - Os rótulos de confidencialidade devem ser [habilitados para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) para o locatário. Se esse recurso ainda não estiver habilitado, ele será automaticamente habilitado quando você selecionar a configuração para ativar a coautoria de arquivos com rótulos de confidencialidade.
 
-- Todos os aplicativos, serviços e ferramentas operacionais em seu locatário devem suportar os novos [metadados de rotulagem](#metadata-changes-for-sensitivity-labels):
+- Microsoft 365 Apps para Grandes Empresas:
+    - **Windows**: [Canal Atual (Versão Prévia)](https://office.com/insider) com build mínimo 16.0.13801.20182 ou [Canal Beta](https://office.com/insider) com build mínimo 16.0.13819.20006
+    - **macOS**: [Canal Beta](https://office.com/insider) com build mínimo 16.47.218.0
+    - **iOS**: ainda sem suporte
+    - **Android**: ainda sem suporte
+
+- Todos os aplicativos, serviços e ferramentas operacionais em seu locatário devem ser compatíveis com os novos [metadados de rotulagem](#metadata-changes-for-sensitivity-labels). Se você usar qualquer um dos seguintes recursos, verifique as versões mínimas necessárias:
     
-    - **Microsoft 365 Apps para Grandes Empresas:**
-        - Windows: [Canal Atual (Pré-visualização)](https://office.com/insider) com build mínimo 16.0.13801.20182 ou [Canal Beta](https://office.com/insider) com build mínimo 16.0.13819.20006
-        - macOS: [Canal Beta](https://office.com/insider) com build mínimo 16.47.218.0
-        - iOS: ainda sem suporte
-        - Android: ainda sem suportado
+    - **Cliente e scanner de rotulagem unificada da Proteção de Informações do Azure:**
+        - Uma versão prévia pública (nome de instalação do AzInfoProtection_2.10.46_CoAuthoring_PublicPreview.exe) que você pode instalar a partir do [Centro de Download da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53018)
     
-    - **Cliente e scanner de rotulagem unificada da Proteção de Informações do Azure:** 
-        - Uma versão de visualização pública (nome de instalação do AzInfoProtection_2.10.46_CoAuthoring_PublicPreview.exe) que você pode instalar a partir do [Centro de Download da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=53018) e uma das versões para Windows do Microsoft 365 Apps para Grandes Empresas listadas no item anterior.
-    
-    - **Aplicativo de Sincronização do Microsoft OneDrive para Windows ou macOS:**
+    - **Aplicativo de sincronização do OneDrive para Windows ou macOS:**
         - Versão mínima de 19.002.0121.0008
     
     - **Prevenção contra Perda de Dados de Ponto de Extremidade (DLP do ponto de extremidade):**
@@ -144,9 +146,9 @@ Durante a versão preliminar, você deve usar uma URL específica para acessar e
 
 1. Entre no Centro de conformidade do Microsoft 365 como um administrador global para seu locatário de teste, usando link a seguir:
     
-    ````
+    ```http
     https://compliance.microsoft.com/co-authoring_for_files_with_sensitivity_labels
-    ````
+    ```
     Esse link leva você diretamente para a configuração do locatário, **Coautoria para arquivos com rótulos de confidencialidade**.
 
     > [!IMPORTANT]
