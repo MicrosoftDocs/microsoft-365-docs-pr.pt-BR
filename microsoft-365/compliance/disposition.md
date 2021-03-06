@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo, se você usa uma revisão de disposição ou o conteúdo é excluído automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: 9c2e9055d0468270df4e46fe39115708762052f3
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 092067e676c1cbae3fae6e9d6a5ff77099ce4631
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682664"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461876"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -52,15 +52,13 @@ Verifique se a auditoria está habilitada pelo menos um dia antes da primeira a�
 
 ## <a name="disposition-reviews"></a>Revisões de disposição
 
-Quando o conteúdo atinge o fim do período de retenção, existem vários motivos pelos quais você pode querer revisar o conteúdo para decidir se ele pode ser excluído com segurança ("descartado"). Por exemplo, talvez você precise:
+Quando o conteúdo atinge o fim do período de retenção, existem vários motivos pelos quais você pode querer revisar o conteúdo e confirmar se ele pode ser excluído com segurança ("descartado"). Por exemplo, em vez de excluir o conteúdo, você pode precisar:
   
 - Suspender a exclusão de conteúdo relevante no caso de litígio ou auditoria.
-    
-- Remover conteúdo da lista de disposição para armazenar em um arquivo morto, se esse conteúdo tiver um valor de pesquisa ou histórico.
-    
+
 - Atribuir um período de retenção diferente ao conteúdo, talvez porque as configurações originais de retenção fossem uma solução temporária ou provisória.
-    
-- Retornar o conteúdo aos clientes ou transferi-lo para outra organização.
+
+- Mova o conteúdo de seu local existente para um local de arquivamento, por exemplo, se esse conteúdo tiver valor de pesquisa ou histórico.
 
 Quando uma revisão de disposição é disparada no final do período de retenção:
   

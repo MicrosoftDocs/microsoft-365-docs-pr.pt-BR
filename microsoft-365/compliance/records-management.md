@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: 1f6ab392abbf55851e1f084507d3f1658c3cf264
-ms.sourcegitcommit: 64262f6f42dcce6a4608b2e3c7ca6190b7009093
+ms.openlocfilehash: 857f8118bb2cc0f94065a8b8696c92bd3ae05cc4
+ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49905230"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461846"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
@@ -98,7 +98,7 @@ Mensagem que um usuário vê se tentar excluir um documento rotulado no SharePoi
 
 ![Mensagem informando que o item não foi excluído do SharePoint](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
-<sup>2</sup> Os contêineres incluem bibliotecas de documentos do SharePoint e caixas de correio do Exchange.
+<sup>2</sup> Os contêineres incluem bibliotecas de documentos do SharePoint, contas do OneDrive e caixas de correio do Exchange.
 
 >[!IMPORTANT] 
 > A diferença mais importante para um registro regulatório é que depois que ele é aplicado ao conteúdo, ninguém, nem mesmo um administrador global, pode remover o rótulo. 
