@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar as permites e os bloqueios na Lista de Locatários de Permitir/Bloquear no portal de Segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 960fbf26b610485fb46c935b04aedcc593b85752
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 20e460f4e93f7b87faaead8b87ba561224e38938
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407245"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515203"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Gerenciar a lista de Permissões/Bloqueios do Locatário
 
@@ -44,13 +44,13 @@ A Lista de Permitir/Bloquear Locatários no Centro de Conformidade & segurança 
 
 Este artigo descreve como configurar entradas na Lista de Locatários Permitir/Bloquear no Centro de Conformidade de Segurança & ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Lista de Locatários Permitir/Bloquear,** use <https://protection.office.com/tenantAllowBlockList> .
 
 - Você especifica arquivos usando o valor de hash SHA256 do arquivo. Para encontrar o valor de hash SHA256 de um arquivo no Windows, execute o seguinte comando em um Prompt de Comando:
 
-  ```dos
+  ```console
   certutil.exe -hashfile "<Path>\<Filename>" SHA256
   ```
 
@@ -60,22 +60,26 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
 - A Lista de Permitir/Bloquear Locatários permite no máximo 500 entradas para URLs e 500 entradas para hashes de arquivo.
 
-- Uma entrada deve estar ativa dentro de 15 minutos.
+- O número máximo de caracteres para cada entrada é:
+  - Hashes de arquivo = 64
+  - URL = 250
+
+- Uma entrada deve estar ativa dentro de 30 minutos.
 
 - Por padrão, as entradas na Lista de Locatários Permitir/Bloquear expiram após 30 dias. Você pode especificar uma data ou defini-la para nunca expirar.
 
 - Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa ter permissões atribuídas no **Exchange Online** antes de poder fazer os procedimentos neste artigo:
+- Você precisa de permissões em **Exchange Online** antes de poder realizar os procedimentos neste artigo:
   - Para adicionar e remover valores da Lista de Permitir/Bloquear Locatários, você precisa ser membro dos grupos de função Gerenciamento da Organização ou Administrador **de** Segurança. 
   - Para acesso somente leitura à Lista de Locatários Permitir/Bloquear, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
   Para obter mais informações, confira [Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
 
-  **Observações**:
-
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração  do Microsoft 365 fornece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  > [!NOTE]
+  > 
+  > - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  > - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para criar entradas de URL na Lista de Locatários Permitir/Bloquear
 
@@ -93,7 +97,7 @@ Para obter detalhes sobre a sintaxe para entradas de [URL,](#url-syntax-for-the-
 
      - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
 
-     ou
+       or
 
      - Mova a alternância para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
 
@@ -115,7 +119,7 @@ Para obter detalhes sobre a sintaxe para entradas de [URL,](#url-syntax-for-the-
 
      - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
 
-     ou
+     or
 
      - Mova a alternância para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
 
@@ -166,7 +170,7 @@ Não é possível modificar a URL ou os valores de arquivo bloqueados existentes
 
      - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data ![ ](../../media/scc-toggle-off.png) de expiração da entrada. 
 
-     ou
+       or
 
      - Mova a alternância para a direita para configurar a entrada para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
 
@@ -197,13 +201,13 @@ New-TenantAllowBlockListItems -ListType <Url | FileHash> -Block -Entries <String
 Este exemplo adiciona uma entrada de URL de bloco para contoso.com e todos os subdomas (por exemplo, contoso.com, www.contoso.com e xyz.abc.contoso.com). Como não usamos os parâmetros ExpirationDate ou NoExpiration, a entrada expira após 30 dias.
 
 ```powershell
-New-TenantAllowBlockListItem -ListType Url -Block -Entries ~contoso.com
+New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 ```
 
 Este exemplo adiciona uma entrada de arquivo de bloqueio para os arquivos especificados que nunca expiram.
 
 ```powershell
-New-TenantAllowBlockListItem -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
+New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/new-tenantallowblocklistitems).

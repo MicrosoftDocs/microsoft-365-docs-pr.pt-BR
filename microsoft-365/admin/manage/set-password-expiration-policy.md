@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365.
-ms.openlocfilehash: 471a881bd9808861b9fa2c67d007f1ebe1c10885
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 9470a73926327777055a321eb3a592ea3ddcf41e
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926169"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515035"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -70,8 +70,6 @@ Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem 
 5. Digite a frequência com que as senhas devem expirar. Escolha um número de dias entre 14 e 730.
   
 6. Na segunda caixa, insira quando os usuários são notificados de que a senha expirará e, em seguida, selecione **Salvar**. Escolha um número de dias de 1 a 30.
-
-7. Quando a senha do usuário expirar, ele receberá uma notificação que aparecerá no canto inferior direito da tela.
   
 ## <a name="important-things-you-need-to-know-about-the-password-expiration-feature"></a>Pontos importantes que você precisa saber sobre o recurso de expiração de senha
   

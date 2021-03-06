@@ -1,5 +1,5 @@
 ---
-title: Atribuir políticas por usuário do Skype for Business Online com o PowerShell para Microsoft 365
+title: Atribuir políticas do Skype for Business Online por usuário com o PowerShell para o Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,52 +13,53 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
-description: 'Resumo: Use o PowerShell para o Microsoft 365 para atribuir configurações de comunicação por usuário com as políticas do Skype for Business Online.'
-ms.openlocfilehash: 6ff9fce3e0287313f6725b370b6ba89cb939eb3a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 'Resumo: use o PowerShell para o Microsoft 365 para atribuir configurações de comunicação por usuário com políticas do Skype for Business Online.'
+ms.openlocfilehash: 6ee237e5d2ee0c9f472f372a6aa66c9612336265
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687163"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514975"
 ---
-# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Atribuir políticas por usuário do Skype for Business Online com o PowerShell para Microsoft 365
+# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Atribuir políticas do Skype for Business Online por usuário com o PowerShell para o Microsoft 365
 
 *Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
-Usar o PowerShell para o Microsoft 365 é uma maneira eficiente de atribuir configurações de comunicação por usuário com as políticas do Skype for Business Online.
+Usar o PowerShell para o Microsoft 365 é uma maneira eficiente de atribuir configurações de comunicação por usuário com políticas do Skype for Business Online.
   
-## <a name="prepare-to-run-the-powershell-commands"></a>Prepare-se para executar os comandos do PowerShell
+## <a name="prepare-to-run-the-powershell-commands"></a>Preparar para executar os comandos do PowerShell
 
-Use estas instruções para se configurar para executar os comandos (ignore as etapas que você já concluiu):
+Use estas instruções para configurar para executar os comandos (pule as etapas que você já concluiu):
   
-1. Baixe e instale o [módulo conector do Skype for Business Online.](https://www.microsoft.com/download/details.aspx?id=39366)
+  > [!Note]
+   > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando o último lançamento público do PowerShell Teams, você não precisa instalar o Conector do Skype for Business Online.
+
+1. Instale o [módulo do Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
     
 2. Abra um prompt de comando do Windows PowerShell e execute os seguintes comandos: 
     
-```powershell
-Import-Module LyncOnlineConnector
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
-```
+   ```powershell
+   Import-Module MicrosoftTeams
+   Connect-MicrosoftTeams
+   ```
 
-Quando solicitado, insira o nome e a senha da sua conta de administrador do Skype for Business Online.
+   Quando solicitado, insira o nome e a senha da conta de administrador do Skype for Business Online.
     
-## <a name="updating-external-communication-settings-for-a-user-account"></a>Atualizando configurações de comunicação externa para uma conta de usuário
+## <a name="updating-external-communication-settings-for-a-user-account"></a>Atualizando as configurações de comunicação externa para uma conta de usuário
 
-Suponha que você queira alterar as configurações de comunicação externa em uma conta de usuário. Por exemplo, você deseja permitir que Alex se comunique com usuários federados (EnableFederationAccess é igual a True), mas não com usuários do Windows Live (EnablePublicCloudAccess é igual a False). Para fazer isso, você precisa fazer duas coisas:
+Suponha que você queira alterar as configurações de comunicação externa em uma conta de usuário. Por exemplo, você deseja permitir que Alex se comunique com usuários federados (EnableFederationAccess é igual a True), mas não com usuários Windows Live (EnablePublicCloudAccess é igual a False). Para fazer isso, você precisa fazer duas coisas:
   
 1. Localizar uma política de acesso externo que atenda aos nossos critérios.
     
 2. Atribuir essa política de acesso externo a Antônio.
     
-Como determinar qual política de acesso externo atribuir a Alex? O comando a seguir retorna todas as políticas de acesso externo em que EnableFederationAccess é definido como True e EnablePublicCloudAccess como False:
+Como determinar qual política de acesso externo atribuirá a Alex? O comando a seguir retorna todas as políticas de acesso externo em que EnableFederationAccess é definido como True e EnablePublicCloudAccess como False:
   
 ```powershell
 Get-CsExternalAccessPolicy -Include All| Where-Object {$_.EnableFederationAccess -eq $True -and $_.EnablePublicCloudAccess -eq $False}
 ```
 
-A menos que você tenha criado instâncias personalizadas de ExternalAccessPolicy, esse comando retornará uma política que atenda aos nossos critérios (FederationOnly). Veja um exemplo:
+A menos que você tenha criado quaisquer instâncias personalizadas de ExternalAccessPolicy, esse comando retornará uma política que atenda aos nossos critérios (FederationOnly). Veja um exemplo:
   
 ```powershell
 Identity                          : Tag:FederationOnly
@@ -76,17 +77,17 @@ Agora que você sabe qual política atribuir a Alex, podemos atribuir essa polí
 Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName "FederationOnly"
 ```
 
-A atribuição de uma política é bastante simples: basta especificar a Identidade do usuário e o nome da política a ser atribuída. 
+Atribuir uma política é muito simples: basta especificar a Identidade do usuário e o nome da política a ser atribuída. 
   
-E quando se trata de políticas e atribuições de política, você não está limitado a trabalhar com contas de usuário uma por vez. Por exemplo, suponha que você precise de uma lista de todos os usuários que têm permissão para se comunicar com parceiros federados e com usuários do Windows Live. Já sabemos que esses usuários foram atribuídos à política de acesso de usuário externo FederationAndPICDefault. Como sabemos disso, você pode exibir uma lista de todos esses usuários executando um comando simples. Este é o comando:
+E quando se trata de políticas e atribuições de política, você não está limitado a trabalhar com contas de usuário uma vez por vez. Por exemplo, suponha que você precise de uma lista de todos os usuários que têm permissão para se comunicar com parceiros federados e com usuários do Windows Live. Já sabemos que esses usuários foram atribuídos à política de acesso de usuário externo FederationAndPICDefault. Como sabemos disso, você pode exibir uma lista de todos esses usuários executando um comando simples. Este é o comando:
   
 ```powershell
 Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "FederationAndPICDefault"} | Select-Object DisplayName
 ```
 
-Em outras palavras, isso nos mostra todos os usuários cuja propriedade ExternalAccessPolicy está definida como FederationAndPICDefault. (E, para limitar a quantidade de informações que aparecem na tela, use o cmdlet Select-Object para exibir apenas o nome de exibição de cada usuário.) 
+Em outras palavras, isso nos mostra todos os usuários cuja propriedade ExternalAccessPolicy está definida como FederationAndPICDefault. (E, para limitar a quantidade de informações exibidas na tela, use o cmdlet Select-Object para exibir apenas o nome de exibição de cada usuário.) 
   
-Para configurar todas as nossas contas de usuário para usar a mesma política, use este comando:
+Para configurar todas as nossas contas de usuário para usar essa mesma política, use este comando:
   
 ```powershell
 Get-CsOnlineUser | Grant-CsExternalAccessPolicy "FederationAndPICDefault"
@@ -94,22 +95,20 @@ Get-CsOnlineUser | Grant-CsExternalAccessPolicy "FederationAndPICDefault"
 
 Este comando usa Get-CsOnlineUser para retornar uma coleção de todos os usuários que foram habilitados para o Lync e envia todas essas informações para Grant-CsExternalAccessPolicy, que atribui a política FederationAndPICDefault a cada usuário na coleção.
   
-Como exemplo adicional, suponha que você já atribuiu a Política FederationAndPICDefault a Alex e agora você mudou de ideia e gostaria que ele fosse gerenciado pela política de acesso externo global. Não é possível atribuir explicitamente a política global a ninguém. Em vez disso, a política global será usada para um determinado usuário se nenhuma política por usuário for atribuída a esse usuário. Portanto, se quisermos que Alex seja gerenciado pela política global, você precisa  *desa*  designar qualquer política por usuário atribuída anteriormente a ele. Este é um exemplo de comando:
+Como exemplo adicional, suponha que você tenha atribuído anteriormente a Alex a política FederationAndPICDefault e agora você mudou de ideia e gostaria que ele fosse gerenciado pela política de acesso externo global. Não é possível atribuir explicitamente a política global a ninguém. Em vez disso, a política global será usada para um determinado usuário se nenhuma política por usuário for atribuída a esse usuário. Portanto, se quisermos que Alex seja gerenciado pela política global, você precisa  *desaignar*  qualquer política por usuário atribuída anteriormente a ele. Este é um exemplo de comando:
   
 ```powershell
 Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 ```
 
-Esse comando define o nome da política de acesso externo atribuída a Alex como um valor nulo ($Null). Nulo significa "nada". Em outras palavras, nenhuma política de acesso externo é atribuída a Alex. Quando nenhuma política de acesso externo é atribuída a um usuário, esse usuário é gerenciado pela política global.
+Este comando define o nome da política de acesso externo atribuída a Alex como um valor nulo ($Null). Null significa "nothing". Em outras palavras, nenhuma política de acesso externo é atribuída a Alex. Quando nenhuma política de acesso externo é atribuída a um usuário, esse usuário é gerenciado pela política global.
   
 
 ## <a name="managing-large-numbers-of-users"></a>Gerenciando um grande número de usuários
 
-Para gerenciar um grande número de usuários (1000 ou mais), você precisa fazer o lote dos comandos por meio de um bloco de script usando o cmdlet [Invoke-Command.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7)  Em exemplos anteriores, cada vez que um cmdlet é executado, ele deve configurar a chamada e, em seguida, aguardar o resultado antes de enviá-lo de volta.  Ao usar um bloco de scripts, isso permite que os cmdlets sejam executados remotamente e, depois de concluídos, enviem os dados de volta. 
+Para gerenciar um grande número de usuários (1.000 ou mais), você precisa lotar os comandos por meio de um bloco de script usando o cmdlet [Invoke-Command.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7)  Em exemplos anteriores, sempre que um cmdlet é executado, ele deve configurar a chamada e aguardar o resultado antes de enviá-la de volta.  Ao usar um bloco de scripts, isso permite que os cmdlets sejam executados remotamente e, depois de concluídos, enviem os dados de volta. 
 
 ```powershell
-Import-Module LyncOnlineConnector
-$sfbSession = New-CsOnlineSession
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500
 
 $batch = 50
@@ -134,7 +133,7 @@ $count = 0
 }
 ```
 
-Isso encontrará 500 usuários por vez que não têm uma política de cliente. Ele concederá a eles a política de cliente "ClientPolicyNoI LTDL" e a política de acesso externo "FederationAndPicDefault". Os resultados são enviados em lote em grupos de 50 e cada lote de 50 é enviado para a máquina remota.
+Isso encontrará 500 usuários por vez que não têm uma política de cliente. Ele concederá a eles a política de cliente "ClientPolicyNoIMURL" e a política de acesso externo "FederationAndPicDefault". Os resultados são em lotes em grupos de 50 e cada lote de 50 é enviado para a máquina remota.
   
 ## <a name="see-also"></a>Confira também
 

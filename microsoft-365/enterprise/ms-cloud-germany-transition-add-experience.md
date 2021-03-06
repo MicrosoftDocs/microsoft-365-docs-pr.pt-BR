@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: Informações adicionais sobre a experiência do cliente ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 26db69583bac68723d5d57b07abb856c8190d9b1
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 152e9e8d8f4550b9095a7b22e1bcd4cf30fa620f
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454462"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515191"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland (avançado) 
 
@@ -62,27 +62,6 @@ Se você estiver usando uma implantação híbrida local:
 |Pare ou exclua qualquer movimentação de integração ou de offboard de caixas de correio.  | Isso garante que as solicitações de movimentação não falhem com um erro. | Clientes do Exchange Online com implantações híbridas (locais) | Ação necessária. A falha ao fazer isso pode resultar em falha do serviço ou de clientes de software. |
 |||||
 
-### <a name="dynamics-phase-8-of-9"></a>Dynamics (Fase 8 de 9)
-
-| Step(s) | Descrição | Aplicável a | Impacto |
-|:-------|:-----|:-------|:-------|
-| Recursos do Microsoft Dynamics | Os clientes com o Microsoft Dynamics serão contratados pela Engenharia ou pelo FastTrack para fazer a transição do Dynamics para a instância de serviços do Office 365.* | Clientes do Microsoft Dynamics 365 | - Após a migração, o administrador valida a organização. <br><br> - O administrador modifica fluxos de trabalho, conforme necessário. <br><br> - O administrador limpa o modo AdminOnly conforme apropriado. <br><br> - O administrador altera o tipo de organização de _Área Desamediada,_ conforme apropriado <br><br> - Notifique os usuários finais da nova URL para acessar a instância (org). <br><br> - Atualize quaisquer conexões de entrada para a nova URL do ponto de extremidade. <br><br> - O serviço dynamics ficará indisponível para os usuários durante a transição. <br><br> - Os usuários são obrigados a validar a saúde e os recursos da organização após a migração de cada organização.  |
-|||||
-
-\* (i) Os clientes com o Microsoft Dynamics 365 devem tomar medidas nesse cenário de migração conforme definido pelo processo de migração fornecido. (ii) A falha da ação do cliente significa que a Microsoft não poderá concluir a migração. (iii) Quando a Microsoft não conseguir concluir a migração devido à inação do cliente, a assinatura do cliente expirará em 29 de outubro de 2021. 
-
-
-### <a name="power-bi-phase-8-of-9"></a>Power BI (Fase 8 de 9)
-
-| Step(s) | Descrição | Aplicável a | Impacto |
-|:-------|:-----|:-------|:-------|
-| Migração de recursos do Power BI | Os clientes com o Microsoft Power BI serão contratados pela Engenharia ou pelo FastTrack depois de disparar manualmente uma ferramenta de migração PBI existente para fazer a transição do Power BI para a instância de serviços do Office 365.\*\* | Clientes do Microsoft Power BI | - Os seguintes itens do Power BI não _serão_ transitivos e precisarão ser re-criados: <br><br> - Conjuntos de dados em tempo real (por exemplo, conjuntos de dados de streaming ou push). <br> - Configuração e fonte de dados do gateway de dados local do Power BI. <br> - Os relatórios construídos sobre os conjuntos de dados em tempo real não estarão disponíveis após a migração e serão necessários para serem recriados. <br><br> - Os serviços do Power BI não estarão disponíveis para os usuários durante a transição. A indisponibilidade do serviço não deve ser superior a 24 horas. <br><br> - Os usuários serão obrigados a reconfigurar fontes de dados e seus gateways de dados locais com o serviço Power BI após a migração.  Até que isso seja feito, os usuários não poderão usar essas fontes de dados para executar consultas agendadas de atualização e/ou diretas em relação a essas fontes de dados. <br><br> - Capacidades e espaços de trabalho premium não podem ser migrados. Os clientes precisam excluir todas as capacidades antes da migração e re-criar após a migração. Mova os espaços de trabalho de volta para as capacidades conforme desejado.  |
-|||||
-
-\*\* (i) Os clientes com o Microsoft Power BI devem tomar medidas nesse cenário de migração conforme definido pelo processo de migração fornecido. (ii) A falha da ação do cliente significa que a Microsoft não poderá concluir a migração. (iii) Quando a Microsoft não conseguir concluir a migração devido à inação do cliente, a assinatura do cliente expirará em 29 de outubro de 2021. 
-
-
-
 ## <a name="during-migration"></a>Durante a migração
 
 ### <a name="sharepoint-online-phase-4-of-9"></a>SharePoint Online (Fase 4 de 9)
@@ -115,14 +94,14 @@ Para Descoberta eDiscovery:
 
 ### <a name="azure-ad-phase-9-of-9"></a>Azure AD (Fase 9 de 9)
 
-Para híbrido:
+Para clientes híbridos do Azure:
 
 | Step(s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
 | Atualizar o Azure AD Connect. | Após a conclusão do corte no Azure AD, a organização está usando totalmente os serviços do Office 365 e não está mais conectada ao Microsoft Cloud Deutschland. Neste ponto, o cliente precisa garantir que o processo de sincronização delta tenha sido finalizado e, depois disso, altere o valor da cadeia de caracteres de `AzureInstance` 3 (Microsoft Cloud Deutschland) para 0 no caminho do `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` Registro. | Organizações conectadas híbridas do Azure AD | Altere o valor `AzureInstance` de , a chave do Registro. Se não fizer isso, os objetos não serão sincronizados depois que os pontos de extremidade do Microsoft Cloud Deutschland não estiverem mais disponíveis. |
 |||||
 
-Para autenticação federada:
+Para clientes que utilizam autenticação federada:
 
 | Step(s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
@@ -136,7 +115,7 @@ Para o Azure AD:
 | As solicitações para ingressar em um grupo do Azure AD nos últimos 30 dias antes da migração precisarão ser solicitadas novamente se a solicitação original não tiver sido aprovada. | Os clientes do usuário final precisarão usar o painel do Access para enviar solicitação para ingressar em um grupo do Azure AD novamente se essas solicitações não foram aprovadas nos últimos 30 dias antes da migração. | Usuários finais cujas solicitações de aprovação de grupo do Azure AD não foram aprovadas nos últimos 30 dias antes da migração |  Como usuário final: <ol><li>Navegue até [o painel do Access](https://account.activedirectory.windowsazure.com/r#/joinGroups).</li><li>Encontre um grupo do Azure AD para o qual a aprovação de associação estava pendente em 30 dias antes da migração.</li><li>Solicitação para ingressar no grupo do Azure AD novamente.</li></ol> As solicitações para ingressar em um grupo que estão ativos menos de 30 dias antes da migração não podem ser aprovadas, a menos que sejam re-solicitadas após a migração. |
 |||||
 
-Para DNS:
+Para zonas DNS gerenciadas pelo cliente:
 
 | Step(s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
