@@ -231,6 +231,8 @@
               href: productivity/meetings.md
             - name: Integridade do Microsoft 365 Apps
               href: productivity/apps-health.md
+            - name: Análise de ponto final
+              href: 'https://docs.microsoft.com/mem/analytics/productivity-score'
         - name: Alterar as informações de contato da sua organização
           href: manage/change-address-contact-and-more.md
         - name: Atualizar suas informações de contato de administrador
