@@ -19,12 +19,12 @@ localization_priority: Priority
 description: Os administradores podem saber como o EOP usa autenticação de email (SPF, DKIM e DMARC) para ajudar a evitar falsificações, phishing e spam.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d1e0fbe8a00b17e871adf65f86a337a0a94493ed
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 87677608431446a4bdfe6e16ae1204163a4f582a
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50286508"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509189"
 ---
 # <a name="email-authentication-in-eop"></a>Autenticação de e-mail no EOP
 
@@ -60,7 +60,7 @@ Em março de 2018, apenas 9% dos domínios de empresas da lista Fortune 500 publ
 
 A quantidade de pequenas e médias empresas que publicam políticas fortes de autenticação de email é menor. E o número é ainda menor para domínios de email fora da América do Norte e da Europa Ocidental.
 
-A falta de políticas fortes de autenticação de email é um grande problema. Enquanto as organizações talvez não entendam como funciona a autenticação de email, os invasores entendem perfeitamente e tiram proveito disso. Devido às preocupações com phishing e à adoção limitada de políticas fortes de autenticação de email, a Microsoft usa *autenticação implícita de email* para verificar os emails recebidos.
+A falta de políticas fortes de autenticação de email é um grande problema. Embora as organizações possam não entender como funciona a autenticação de email, os invasores entendem perfeitamente e tiram vantagem. Devido às preocupações com phishing e à adoção limitada de políticas fortes de autenticação de email, a Microsoft usa *autenticação implícita de email* para verificar os emails recebidos.
 
 A autenticação implícita de email é uma extensão das políticas comuns de autenticação de email. Essas extensões incluem: reputação do remetente, histórico do remetente, histórico do destinatário, análise comportamental e outras técnicas avançadas. Na ausência de outros sinais dessas extensões, as mensagens enviadas de domínios que não usam políticas de autenticação de email serão marcadas como falsas.
 

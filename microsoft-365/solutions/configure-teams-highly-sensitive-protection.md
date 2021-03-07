@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 2679a8a0bd8cf5cc3d35d517e8a44921fc4fdbc1
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 7e746ebc81d1ccd9aea2953fd42004715f8d7819
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921129"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509261"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -45,7 +45,7 @@ Dependendo da natureza da sua empresa, você pode ou não querer ativar o compar
 Para obter detalhes sobre como compartilhar com convidados com segurança, confira os seguintes recursos:
 
 - [Limite a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [Criar um ambiente seguro de compartilhamento de convidados](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [Criar um ambiente de compartilhamento de convidados seguro](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
 Para permitir ou bloquear o compartilhamento de convidados, usamos uma combinação de um rótulo de confidencialidade para a equipe e controles de compartilhamento no nível do site para o Microsoft Office SharePoint Online associado, ambos discutidos mais adiante.
 
@@ -79,7 +79,7 @@ Para criar um rótulo de confidencialidade
 17. Clique em **Avançar**.
 18. Na página **Definir compartilhamento externo e configurações de acesso ao dispositivo**, selecione **Controlar compartilhamento externo de sites rotulados do Microsoft Office SharePoint Online**.
 19. Em **O conteúdo pode ser compartilhado com**, escolha **Convidados novos e existentes** se estiver permitindo o acesso de convidado ou **Somente as pessoas em sua organização** se não.
-20. Em **Acesso de dispositivos não gerenciados**, escolha **Bloquear acesso**.
+20. Em **Acesso de dispositivos não gerenciados**, escolha **Bloquear acesso**. (Se você está permitindo convidados e eles não têm dispositivos gerenciados, você pode querer escolher **Permitir acesso limitado apenas pela web**.)
 21. Clique em **Avançar**.
 22. Na página **Rotulagem automática para colunas do banco de dados**, clique em **Avançar**.
 23. Clique em **Criar rótulo** e, a seguir, clique em **Concluído**.

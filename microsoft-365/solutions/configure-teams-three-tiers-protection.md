@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Saiba como configurar o Teams para melhorar a segurança de compartilhamento de arquivos usando três camadas de proteção, equilibrando a segurança com a facilidade de colaboração.
-ms.openlocfilehash: cb49c35cc1c485d45656b1716d385cf626322ce8
-ms.sourcegitcommit: 1beaf89d2faa32f11fe1613be2fa2b31c4bc4a91
+ms.openlocfilehash: d41effb6db9f8995c3c878523babf200ab9af762
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49602002"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509237"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Configurar equipes com três camadas de proteção
 
@@ -114,6 +114,8 @@ Confira as seguintes referências para criar um ambiente de compartilhamento de 
 ## <a name="access-from-unmanaged-devices"></a>Acesso de dispositivos não gerenciados
 
 Para as camadas confidencial e altamente confidencial, restringimos o acesso ao conteúdo do Microsoft Office SharePoint Online com rótulos de confidencialidade. O acesso condicional do Azure AD oferece muitas opções para determinar como as pessoas acessam o Microsoft 365, incluindo limitações com base em localização, risco, conformidade do dispositivo e outros fatores. Recomendamos que você leia [O que é o Acesso Condicional?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) e considere quais políticas adicionais podem ser apropriadas para sua organização.
+
+Observe que os convidados geralmente não têm dispositivos gerenciados pela sua organização. Se você permitir convidados em qualquer uma das camadas, considere que tipos de dispositivos eles usarão para acessar equipes e sites e defina suas políticas de dispositivos não gerenciados de acordo.
 
 ## <a name="next-step"></a>Próxima etapa
 

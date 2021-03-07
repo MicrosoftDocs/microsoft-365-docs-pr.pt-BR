@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para a sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 5ea367e64108e80ee7429ec700cf2ac0551aeab2
-ms.sourcegitcommit: b88ffaf3409e02a9847f030f8468f96d36efa398
+ms.openlocfilehash: d08ef54c545809bbb2277f8d0a8471245400a3ac
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50105146"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50514963"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
 
@@ -81,10 +81,11 @@ Para obter mais informações sobre o Azure Active Directory P1 e P2, confira [P
 
 ### <a name="turn-on-modern-authentication-for-your-organization"></a>Habilitar a autenticação moderna para a sua organização
 
-Para a maioria das assinaturas, a autenticação moderna é ativada automaticamente mas, se você comprou a sua assinatura há muito tempo, ela pode não ser. Isso deve ser habilitado antes da MFA funcionar de forma adequada com os aplicativos do Office.
+Para a maioria das assinaturas, a autenticação moderna é ativada automaticamente, mas se você adquiriu sua assinatura antes de agosto de 2017, é provável que precise ativar a Autenticação Moderna para que recursos como a Autenticação Multifator funcionem em clientes Windows como o Outlook.
 
-1. No Centro de administração do Microsoft 365, na barra de navegação esquerda, escolha **Configurações** \> **Configurações da organização**.
-1. Na guia **Serviços**, escolha **Autenticação moderna** e no painel **Autenticação moderna**, certifique-se de que a opção **Habilitar a Autenticação moderna** esteja selecionada. Escolha **Salvar alterações**.
+
+1. No centro de administração do Microsoft 365, no painel de navegação esquerdo, escolha **Configurações** \> **Configurações da organização**.
+2. Debaixo de **Serviços** guia, escolher **Autenticação Moderna**, e no **Autenticação Moderna** painel, certifique-se **Habilitar Autenticação Moderna** é selecionado. Escolha **Salvar alterações**.
 
 ### <a name="turn-off-legacy-per-user-mfa"></a>Desabilitar a MFA herdada por usuário
 

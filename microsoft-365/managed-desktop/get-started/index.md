@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 02f12174ef3b8a55f9642bba41c845952b1c1c48
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: 141eb16ae77c44c51358c07a74f5050eb07dc26f
+ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950539"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50509273"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Introdução à Área de Trabalho Gerenciada da Microsoft
 
@@ -21,7 +21,7 @@ Agora que você já inscreveu no serviço, siga estas etapas para confirmar os c
 > Esta é a ordem recomendada a seguir, mas você tem alguma flexibilidade na sequência.
 
 1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
-2. [Ajustar o acesso condicional](conditional-access.md)
+2. [Ajustar as configurações após a inscrição](conditional-access.md)
 3. [Atribuir licenças](assign-licenses.md)
 4. [Implantar o Portal da Empresa do Intune](company-portal.md)
 5. [Habilitar Roaming de Estado da Empresa](enterprise-state-roaming.md)

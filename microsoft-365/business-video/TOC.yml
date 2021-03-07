@@ -87,6 +87,8 @@
       items:
         - name: Visão geral do Bookings
           href: overview-bookings.md
+        - name: Rastreie as informações comerciais com as listas da Microsoft
+          href: track-info-lists.md
         - name: Planejar um evento
           href: plan-event.md
     - name: Gerenciar serviços

@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Saiba mais sobre o processamento de formulário no SharePoint Syntex
-ms.openlocfilehash: 4a6ecc9e6eaca6f0b61f8c04b67eabb29674f6bd
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 1dba8828a158a5163017ee5f37735f44e974274c
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242441"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515155"
 ---
 # <a name="form-processing-overview"></a>Visão geral do processamento de formulário
 
@@ -45,6 +45,13 @@ Um administrador do Office 365 precisa [habilitar o processamento de formulário
 ### <a name="file-limitations"></a>Limitações do arquivo
 
 Ao utilizar modelos de processamento de formulários, certifique-se de observar os [requisitos e limitações para o uso de arquivos](https://docs.microsoft.com/ai-builder/form-processing-model-requirements).
+
+### <a name="multi-geo-environments"></a>Ambientes Multi-Geo
+
+Ao configurar o SharePoint Syntex em um [Ambiente Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo), você só pode configurá-lo para usar o processamento de formulário no local central. Se você deseja usar o processamento de formulário em um local satélite, entre em contato com o suporte da Microsoft.
+
+
+
 
 
 

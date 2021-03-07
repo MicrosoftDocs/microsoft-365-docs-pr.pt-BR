@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Priority
 description: Configure a compreensão de conteúdo no Projeto Cortex
-ms.openlocfilehash: 58496041004218b48b864fa725084cba8edd518b
-ms.sourcegitcommit: 005028af7c5a6b2e95f17a0037958131484d9e73
+ms.openlocfilehash: a275b2ec14403e16651acb293f8598b453fd3739
+ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145470"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "50515011"
 ---
 # <a name="set-up-sharepoint-syntex"></a>Configuração do SharePoint Syntex
 
@@ -42,6 +42,16 @@ Antes da configuração, certifique-se de planejar a melhor maneira de estabelec
 > Você precisa ter permissões administrativas globais ou de administrador do SharePoint para poder acessar o Centro de administração do Microsoft 365 e configurar o SharePoint Syntex.
 
 Como administrador, também é possível fazer alterações nas configurações selecionadas a qualquer momento após a configuração e ao longo das configurações de gerenciamento de compreensão de conteúdo no Centro de Administração do Microsoft 365.
+
+### <a name="licensing"></a>Licenciamento
+
+Para usar o SharePoint Syntex, sua organização deve ter uma assinatura do SharePoint Syntex e cada usuário deve ter as seguintes licenças atribuídas:
+
+- SharePoint Syntex
+- SharePoint Syntex - tipo SPO
+- Serviço de dados comum para SharePoint Syntex
+
+Se você cancelar sua assinatura do SharePoint Syntex em uma data futura (ou se sua avaliação expirar), os usuários não poderão mais criar ou executar modelos de processamento de formulários ou compreensão de documentos, e o modelo do centro de conteúdo não estará mais disponível. Além disso, relatórios de armazenamento de termos, importação de taxonomia SKOS e push de tipo de conteúdo não estarão mais disponíveis. Nenhum conteúdo será excluído e as permissões do site não serão alteradas.
 
 ## <a name="to-set-up-sharepoint-syntex"></a>Para configurar o SharePoint Syntex
 
