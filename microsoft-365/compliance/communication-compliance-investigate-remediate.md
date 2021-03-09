@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: ea02f5ff95baea42bf57c01c939afe4d3e4c13a2
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 4f0be1b416bb80bc5cd2b43f5e4c95f0dbc24142
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423472"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542319"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
@@ -102,7 +102,7 @@ Não importa onde você comece a revisar alertas ou a filtragem que você config
 Depois de revisar as noções básicas da mensagem, é hora de abrir uma mensagem para examinar os detalhes e determinar outras ações de correção. Selecione uma mensagem para exibir as informações completas do corpo e do header da mensagem. Várias exibições diferentes estão disponíveis para ajudá-lo a decidir o curso adequado da ação:
 
 - **Exibição de** origem : esse é o exibição de mensagem padrão comumente visto na maioria das plataformas de mensagens baseadas na Web. As informações do header são formatadas no estilo normal e o corpo da mensagem dá suporte a arquivos gráficos imbedded e texto empacotado por palavras. Se [o OCR (reconhecimento](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) de caractere óptico) estiver habilitado para a política, as imagens que contêm texto impresso ou manuscrito que corresponderem à política condicional serão exibidas como um item filho para a mensagem associada neste modo de exibição.
-- **Exibição de** texto : O exibição de texto exibe uma exibição somente de texto numerada em linha da mensagem e inclui o realçamento de palavra-chave em mensagens e anexos para termos que são associados na política de conformidade de comunicação associada. O realçamento de palavra-chave pode ajudá-lo a examinar rapidamente mensagens longas e anexos para a área de interesse. Em alguns casos, o texto realçado pode estar apenas em anexos para mensagens que coincidem com as condições da política. Os arquivos incorporados não são exibidos, e a numeração de linha desse visor é útil para fazer referência a detalhes pertinentes entre vários revisores.
+- **Exibição** de texto : O exibição de texto exibe uma exibição somente de texto numerada em linha da mensagem e inclui o realçamento de palavra-chave em mensagens e anexos para termos de tipo de informação confidenciais ou palavras-chave corresponderem na política de conformidade de comunicação associada. O realçamento de palavra-chave pode ajudá-lo a examinar rapidamente mensagens longas e anexos para a área de interesse. Em alguns casos, o texto realçado pode estar apenas em anexos para mensagens que coincidem com as condições da política. Não há suporte para realçamento de palavra-chave para termos identificados por classificadores integrados atribuídos a uma política. Os arquivos incorporados não são exibidos, e a numeração de linha desse visor é útil para fazer referência a detalhes pertinentes entre vários revisores.
 - **Exibição de anotações**: Essa exibição permite que os revisadores adicionem anotações diretamente na mensagem salva na exibição da mensagem. Se [o OCR](communication-compliance-feature-reference.md#optical-character-recognition-ocr-preview) estiver habilitado para a política, as imagens que contêm texto impresso ou manuscrito que corresponderem à política condicional serão exibidas como um item filho para a mensagem associada neste modo de exibição e podem ser anotadas.
 - **Histórico do** usuário : a exibição de histórico do usuário exibe todos os outros alertas gerados por qualquer política de conformidade de comunicação para o usuário que está enviando a mensagem.
 - **Exibição de detalhes da mensagem**: exibição avançada de metadados de mensagens e informações de configuração.

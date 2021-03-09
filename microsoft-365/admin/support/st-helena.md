@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para St. Helena
+title: Informações de suporte para St Helena
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 09e07437b029de928360d410c2301c1a33f3b5ed
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: daddff831f88916ec40e058cb83a2e8b1593b73c
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639438"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544223"
 ---
-# <a name="contact-support-for-st-helena"></a>Contatar o suporte para St. Helena
+# <a name="contact-support-for-st-helena"></a>Entrar em contato com o suporte para St Helena
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -36,4 +35,4 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

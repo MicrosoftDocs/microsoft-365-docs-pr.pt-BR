@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f298e84091af9acf56f78950cc26c59226e5cede
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 397357f7a66ed9e8cb405088c9b61f3387f0d839
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640290"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544979"
 ---
-# <a name="contact-support-for-portugal"></a>Contatar o suporte de Portugal
+# <a name="contact-support-for-portugal"></a>Contatar o suporte para Portugal
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -34,10 +33,10 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Português: Mon-Fri 8:00 às 18:00
+Português: Mon-Fri 8:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: 21 366 5030
+Número de Telefone Alternativo: 21 366 5030
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

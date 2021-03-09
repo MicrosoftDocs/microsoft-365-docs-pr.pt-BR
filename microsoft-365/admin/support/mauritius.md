@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8dd058697f7a7c696a4020fb25e74ef51fb94415
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 8f8ff0536e991c7481ba19b62235e0f400734284
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641082"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545879"
 ---
 # <a name="contact-support-for-mauritius"></a>Contatar o suporte para Maurício
 
@@ -30,12 +29,12 @@ ms.locfileid: "48641082"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri das 11h às 19h
+Francês: Mon-Fri 11:00-19:00
 
-Inglês: Mon-Fri das 11h às 19h
+Inglês: Mon-Fri 11:00-19:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri 11:00 horas
+Francês: Mon-Fri 11:00 à meia-noite
 
 Inglês: 24 horas por dia, 7 dias por semana

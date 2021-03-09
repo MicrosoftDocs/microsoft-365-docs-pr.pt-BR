@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a Martinica
+title: Informações de suporte para Martinique
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fc057a9bd493b2edf9081871136b88299a5169dd
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 5247948cd365c7946eb89ed7aa67924ced00a7e4
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641106"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545915"
 ---
-# <a name="contact-support-for-martinique"></a>Contatar o suporte da Martinica
+# <a name="contact-support-for-martinique"></a>Contatar o suporte para Martinique
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,14 +29,14 @@ ms.locfileid: "48641106"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês Mon-Fri 06:00
+Francês Mon-Fri 6 da manhã
 
-Inglês: Mon-Fri das 18:00 às 13:00
+Inglês: Mon-Fri 06:1 PM
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri das 18:00 às 13:00
+Francês: Mon-Fri 06:1 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas
