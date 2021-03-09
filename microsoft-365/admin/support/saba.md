@@ -9,31 +9,30 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: eefc06c409b8015b815839141fcfd33aa32856a5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 89c79d7f0c902d9244a4d1bdc9f22f5a79a86788
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640086"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544787"
 ---
-# <a name="contact-support-for-saba"></a><span data-ttu-id="e7c42-103">Contatar o suporte da Saba</span><span class="sxs-lookup"><span data-stu-id="e7c42-103">Contact support for Saba</span></span>
+# <a name="contact-support-for-saba"></a><span data-ttu-id="6c199-103">Contatar o suporte para Saba</span><span class="sxs-lookup"><span data-stu-id="6c199-103">Contact support for Saba</span></span>
 
-<span data-ttu-id="e7c42-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="e7c42-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="6c199-104">[Encontre outro país ou região](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="6c199-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="e7c42-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="e7c42-105">Phone number</span></span>
-<span data-ttu-id="e7c42-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="e7c42-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="6c199-105">Número de telefone</span><span class="sxs-lookup"><span data-stu-id="6c199-105">Phone number</span></span>
+<span data-ttu-id="6c199-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="6c199-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="e7c42-107">Horas</span><span class="sxs-lookup"><span data-stu-id="e7c42-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="e7c42-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="e7c42-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="6c199-107">Horas</span><span class="sxs-lookup"><span data-stu-id="6c199-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="6c199-108">Suporte à Cobrança:</span><span class="sxs-lookup"><span data-stu-id="6c199-108">Billing Support:</span></span>
 
-<span data-ttu-id="e7c42-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="e7c42-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="6c199-109">Inglês: Segunda a sexta, das 9h às 17h</span><span class="sxs-lookup"><span data-stu-id="6c199-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="e7c42-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="e7c42-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="6c199-110">Suporte Técnico:</span><span class="sxs-lookup"><span data-stu-id="6c199-110">Technical Support:</span></span>
 
-<span data-ttu-id="e7c42-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="e7c42-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="6c199-111">Inglês: 24 horas por dia, 7 dias por semana</span><span class="sxs-lookup"><span data-stu-id="6c199-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="e7c42-112">Aplicam-se encargos de chamada internacional</span><span class="sxs-lookup"><span data-stu-id="e7c42-112">International call charges apply</span></span>
+<span data-ttu-id="6c199-112">Cobranças de chamada internacionais são aplicadas</span><span class="sxs-lookup"><span data-stu-id="6c199-112">International call charges apply</span></span>
