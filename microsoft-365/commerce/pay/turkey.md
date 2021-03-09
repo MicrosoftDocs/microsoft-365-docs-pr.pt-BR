@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ded6bbd9603f1faab9c1ca6339e9cbeea50e6ed1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 09c2817f24aff751b214266d24929a9c1182cf4b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648270"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550067"
 ---
 # <a name="payment-information-for-turkey"></a>Informações de pagamento para a Turquia
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Please pay in TRY only and reference invoice number(s) on your payment remittance.
+Por favor, pague em TRY somente e faça referência aos números da fatura na remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank A.S., Turquia  
+**Banco:** Citibank A.S., Istambul  
 **Código SWIFT:** CITITRIX  
-**IBAN:** TR42000920000000092407039  
+**IBAN:** TR420009200000000092407039  
 **Número da conta:** 92407039  
 **Nome da conta:** Pagamentos da Microsoft  

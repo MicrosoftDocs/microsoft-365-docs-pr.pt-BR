@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9d0b6cb118005ae7e3ae8e110a436faa9829e4b5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: dcab44878f1627f17a20859f92eec2964ee0b4a8
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647250"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550955"
 ---
 # <a name="payment-information-for-hong-kong"></a>Informações de pagamento para Hong Kong
 
@@ -28,9 +27,9 @@ Siga as instruções de pagamento em sua fatura e os números de fatura de refer
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** HSBC, Hong Kong  
-**Bank Code:** 004  
-**Código de ramificação:** 848  
+**Banco:** HSBC, Hong Kong  
+**Código do Banco:** 004  
+**Código de Filial:** 848  
 **Código SWIFT:** HSBCHKHH  
 **Número da conta:** 848342259001    
-**Nome da conta:** Fatura do PTE Ltd-Payco Pagamentos da Microsoft
+**Nome da conta:** Microsoft Payments Pte Ltd-Payco Invoice

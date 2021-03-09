@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6320b31929fb0d02abe0c3929cc2adc49c0e8d15
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c18dd07c883d91e37fc253d0614f36146316d3bd
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647214"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550883"
 ---
 # <a name="payment-information-for-hungary"></a>Informações de pagamento para a Hungria
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pagar apenas em EUR e fazer referência ao(s) número(s) da fatura na remessa de pagamento.
+Por favor, pague somente em EUR e faça referência aos seus números de fatura na remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Londres  
-**Código/BIC SWIFT:** CITIGB2L  
+**Banco:** Citibank, Londres  
+**Código SWIFT/BIC:** CITIGB2L  
 **IBAN:** GB31CITI18500812207591  
 **Código SORT:** 185008  
 **Número da conta:** 12207591    

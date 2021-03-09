@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para Colômbia
+title: Informações de pagamento para a Colômbia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,28 +9,27 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: eea4dfce0bf0bb7d6dafc629c28d702f3f2a7586
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: bdbce6512833c0ab9f17fde115d6ada0e42dd8c7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637446"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551711"
 ---
-# <a name="payment-information-for-colombia"></a>Informações de pagamento para Colômbia
+# <a name="payment-information-for-colombia"></a>Informações de pagamento para a Colômbia
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Só pagar em Pesos de Pesos. Para que o pagamento seja processado, o(s) nome(s) da empresa e o(s) número(s) da fatura(s) devem ser fornecidos por meio de avisos de remessa.
+Por favor, pague somente em Pesos Da Colômbia. Para que o pagamento seja processado, o nome da sua empresa e os números da fatura devem ser fornecidos por meio de um conselho de remessa.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Capital;  
-**Bank Code:** 09  
+**Banco:** Citibank, Bogotá;  
+**Código do Banco:** 09  
 **Código SWIFT:** CITICOBB  
 **NIT:** 800.198.591-3  
 **Número da conta:** 0060534055  
-**Nome da conta:** Branch da Microsoft Colômbia Inc.   
+**Nome da conta:** Filial da Microsoft Colômbia Inc.   

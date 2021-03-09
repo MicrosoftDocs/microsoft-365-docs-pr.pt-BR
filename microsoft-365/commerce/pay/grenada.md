@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para Grenada
+title: Informações de pagamento para a Granada
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 05fe4f8b7710fb297049153b968ab61b90dd2b0a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 63a7a700b6f3122c266dedbd229d05efe70b4e1d
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647410"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50551063"
 ---
-# <a name="payment-information-for-grenada"></a>Informações de pagamento para Grenada
+# <a name="payment-information-for-grenada"></a>Informações de pagamento para a Granada
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Paga apenas em USD e faça referência aos números da fatura na remessa da fatura.
+Por favor, pague apenas em USD e faça referência aos seus números de fatura na remessa da fatura.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Bank of America  
+**Banco:** Bank of America  
 **Branch** Dallas  
 **Código SWIFT:** BOFAUS3N  
 **Número da conta:** 4426587954  

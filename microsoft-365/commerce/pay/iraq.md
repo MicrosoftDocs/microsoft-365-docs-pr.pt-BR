@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para iraque
+title: Informações de pagamento para o Iraque
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5d491c6b9a3cce3a2506645672e1cfc405cfa989
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3eb51fc5149af18109af066ac601b076f21ca6be
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647166"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550823"
 ---
-# <a name="payment-information-for-iraq"></a>Informações de pagamento para iraque
+# <a name="payment-information-for-iraq"></a>Informações de pagamento para o Iraque
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Pagar apenas em USD e fazer referência aos números de fatura em sua remessa de pagamento.
+Por favor, pague somente em USD e faça referência aos números da fatura em sua remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Londres  
+**Banco:** Citibank, Londres  
 **Código SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Número da conta:** 12510049  

@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para Indonésia
+title: Informações de pagamento para a Indonésia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a17accaebc4dd64ad6baf0542382d70f67ff5ab2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2e62646e72394d37914ceacf95cc868111a6c85e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647202"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50550835"
 ---
-# <a name="payment-information-for-indonesia"></a>Informações de pagamento para Indonésia
+# <a name="payment-information-for-indonesia"></a>Informações de pagamento para a Indonésia
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md). 
 
-Pagar somente IDR e os números de fatura de referência em sua remessa de pagamento.
+Por favor, pague somente em IDR e faça referência aos números da fatura em sua remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Indonésia  
+**Banco:** Citibank, Indonésia  
 **Branch:** Jakarta  
 **Código SWIFT:** CITIIDJX  
 **Número da conta:** 104468055  
-**Nome da conta:** PT Microsoft Indonésia  
+**Nome da conta:** PT Microsoft Indonesia  
