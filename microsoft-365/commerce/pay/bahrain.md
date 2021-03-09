@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 43713eb06ee46c44801a5148ac263b88fbb98242
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f13fc95c62c6f5afcd0d5941f433a9ea8140b235
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637914"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549551"
 ---
 # <a name="payment-information-for-bahrain"></a>Informações de pagamento para Bahrein
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Paga apenas em USD e faça referência ao(s) número(s) da fatura na remessa da fatura.
+Por favor, pague apenas em USD e faça referência aos seus números de fatura na remessa da fatura.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Londres  
+**Banco:** Citibank, Londres  
 **Código SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Número da conta:** 12510049  

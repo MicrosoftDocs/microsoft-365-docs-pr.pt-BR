@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e9dfbc7e223d74db8f3f6ab458d19e33b2af603e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 6c1c34c080db213497fff674ae982449d089eefc
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48637758"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549419"
 ---
 # <a name="payment-information-for-belize"></a>Informações de pagamento para Belize
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Paga apenas em USD e faça referência aos números da fatura na remessa da fatura.
+Por favor, pague apenas em USD e faça referência aos seus números de fatura na remessa da fatura.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Bank of America  
+**Banco:** Bank of America  
 **Branch:** Dallas  
 **Código SWIFT:** BOFAUS3N  
 **Número da conta:** 4426587954  
