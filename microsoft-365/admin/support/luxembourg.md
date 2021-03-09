@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 63e5861384f30515fdeef9b63bf4040213e23b34
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 1d7f6d3dd7b57aa8cf878460a0ea8c31ee76a5d7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641483"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546155"
 ---
 # <a name="contact-support-for-luxembourg"></a>Contatar o suporte para Luxemburgo
 
@@ -30,20 +29,20 @@ ms.locfileid: "48641483"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Francês: Mon-Fri das 9h às 17h
+Francês: Mon-Fri 9:00-17:00
 
-Alemão: Mon-Fri das 9h às 17h
+Alemão: Mon-Fri 9:00-17:00
 
 Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri das 8:00 às 21:00
+Francês: Mon-Fri 8:9 PM
 
-Alemão: Mon-Fri das 8h às 21h
+Alemão: Mon-Fri 8:9 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: 24 87 15 10
+Número de Telefone Alternativo: 24 87 15 10
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

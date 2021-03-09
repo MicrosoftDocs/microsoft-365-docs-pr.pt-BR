@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 880108ad28a6230102e3e65f87372595e66b7f24
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: babdfd3ed314e4fa0317d8e8afef3963685e6ab2
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641010"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545699"
 ---
-# <a name="contact-support-for-mongolia"></a>Contatar o suporte da Mongólia
+# <a name="contact-support-for-mongolia"></a>Contatar o suporte para a Mongólia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,14 +29,14 @@ ms.locfileid: "48641010"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Russo: Mon-Fri 10:00 às 19h00, Brasil
+Russo: Mon-Fri 10:7 PM De Moscou
 
-Inglês: Mon-Fri das 9h às 17h de Londres
+Inglês: Mon-Fri 9:05 PM londres
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Russo: Mon-Fri das 7h às 20h00
+Russo: Mon-Fri 7:8 PM de Moscou
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

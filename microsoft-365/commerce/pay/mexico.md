@@ -9,27 +9,26 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ee59c03eedcbe214be96457d18b96a53819818d6
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 9c936312fae817e08f947b20693079072c4d942b
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649259"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543155"
 ---
 # <a name="payment-information-for-mexico"></a>Informações de pagamento para o México
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Por favor, paga somente em Pesos de Pesos Desem pesos. Para que o pagamento seja processado, o nome da empresa e o número da fatura devem ser fornecidos no pagamento de remessa.
+Por favor, pague apenas em Pesos mexicanos. Para que o pagamento seja processado, o nome da empresa e o número da fatura devem ser fornecidos no pagamento de remessa.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank/Banamex  
-**Branch:** Act. Roberto Megostoin 800, P.B. Sur,Col. Santa Fe, Cidade do México C.P. 01210, México  
+**Banco:** Citibank/Banamex  
+**Branch:** Ato. Roberto Medellin 800, P.B. Sur,Col. Santa Fe, Cidade do México C.P. 01210, México  
 **Código SWIFT:** BNMXMM  
 **CLABE** 002180002337160225  
 **Número da conta:** 0233716022  

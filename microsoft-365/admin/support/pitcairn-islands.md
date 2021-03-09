@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Ilhas Pitcairn
+title: Informações de suporte para As Ilhas Pitcairn
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b410b4452b462133e1217eb4c11c571964ab9ff4
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b13e310d08cc158ff70861c18c7ea47ac82fcfa7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640314"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545015"
 ---
 # <a name="contact-support-for-pitcairn-islands"></a>Contatar o suporte para As Ilhas Pitcairn
 
@@ -36,4 +35,4 @@ Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

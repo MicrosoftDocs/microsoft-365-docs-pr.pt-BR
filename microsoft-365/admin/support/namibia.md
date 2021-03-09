@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d87f85e8ccc826f7e87352fcb236a1d82ad6be09
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: cfcc66e15a21971a8baa3546fb45fd013da94ce4
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640818"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545519"
 ---
 # <a name="contact-support-for-namibia"></a>Contatar o suporte para Namíbia
 
@@ -27,9 +26,9 @@ ms.locfileid: "48640818"
 ## <a name="phone-number"></a>Número de telefone
 061 292 5016
 
-Selecione a opção 9
+Selecionar opção 9
 
-Digite o código 7705
+Insira o código 7705
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
@@ -40,4 +39,4 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

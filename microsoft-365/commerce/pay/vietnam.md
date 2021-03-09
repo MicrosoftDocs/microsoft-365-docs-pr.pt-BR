@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para Vietnã
+title: Informações de pagamento para o Vietnã
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 98212cf98051023ff6afb5612850414fd251d084
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: e4f5bd599f534f44984d3c1105abac7271fd5090
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648030"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542497"
 ---
-# <a name="payment-information-for-vietnam"></a>Informações de pagamento para Vietnã
+# <a name="payment-information-for-vietnam"></a>Informações de pagamento para o Vietnã
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Paga apenas em USD e faça referência aos números da fatura na remessa da fatura.
+Por favor, pague apenas em USD e faça referência aos seus números de fatura na remessa da fatura.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Cingapura  
-**CÓDIGO SWIFT:** CSITEGSG  
+**Banco:** Citibank, Cingapura  
+**CÓDIGO SWIFT:** CITISGSG  
 **Número da conta:** 0-817543-138  
 **Nome da conta:** MICROSOFT REGIONAL SALES CORP  

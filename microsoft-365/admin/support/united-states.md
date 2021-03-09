@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para os Estados Unidos
+title: Informações de suporte para Estados Unidos
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: be77cbad5a1980419fa7277d213a8ef9e36d895b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 52a123695ca72be50815a4e347f74c8f0e6613cd
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638862"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543574"
 ---
-# <a name="contact-support-for-united-states"></a>Contatar o suporte para Os Estados Unidos
+# <a name="contact-support-for-united-states"></a>Entrar em contato com o suporte para Estados Unidos
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 

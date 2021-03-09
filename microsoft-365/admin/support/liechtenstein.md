@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad7439a8bb1fdfdfa96357f64fe0e0c476aad68a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: b0d9b58db7ac8e71ad4c71fdd951418413679dd2
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641430"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546179"
 ---
 # <a name="contact-support-for-liechtenstein"></a>Contatar o suporte para Liechtenstein
 
@@ -30,16 +29,16 @@ ms.locfileid: "48641430"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Alemão: Mon-Fri das 9h às 17h
+Alemão: Mon-Fri 9:00-17:00
 
 Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Alemão: Mon-Fri das 8h às 21h
+Alemão: Mon-Fri 8:9 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: +41 22 76 141 14
+Número de Telefone Alternativo: +41 22 76 141 14
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

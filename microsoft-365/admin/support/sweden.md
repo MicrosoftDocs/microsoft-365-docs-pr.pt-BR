@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 93e8fa090d1905489eaa43b12eae835dd6f1b657
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 9737e8db50d71149f49ac1c06b6897c8375eb830
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639354"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544043"
 ---
-# <a name="contact-support-for-sweden"></a>Contatar o suporte da Suécia
+# <a name="contact-support-for-sweden"></a>Contatar o suporte para a Suécia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -36,6 +35,6 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: 08 5176 1966
+Número de Telefone Alternativo: 08 5176 1966
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

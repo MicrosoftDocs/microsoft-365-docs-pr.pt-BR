@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Lituânia
+title: Informações de suporte para a Lituânia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c4d8e56abe21f121ac67c4ee47991f986ce546cb
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 2183b85f2a5c051d86a18e88f5c6eaafd7d97c46
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641454"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546167"
 ---
-# <a name="contact-support-for-lithuania"></a>Contatar o suporte da Lituânia
+# <a name="contact-support-for-lithuania"></a>Contatar o suporte para a Lituânia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 

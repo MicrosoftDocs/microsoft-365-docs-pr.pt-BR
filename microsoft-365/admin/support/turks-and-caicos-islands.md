@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 924f097cbc07a1b1289cb1cf5efeb5ea41080683
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 0c23823b76a6cdf262b43aef1a581f59d2c69b4e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48638946"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543743"
 ---
-# <a name="contact-support-for-turks-and-caicos-islands"></a>Contatar o suporte para turcos e ilhas Caicos
+# <a name="contact-support-for-turks-and-caicos-islands"></a>Contate o suporte para turcos e ilhas Caicos
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -36,4 +35,4 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

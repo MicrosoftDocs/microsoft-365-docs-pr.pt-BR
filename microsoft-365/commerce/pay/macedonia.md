@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para Macedônia, Antiga República Iugoslava da
+title: Informações de pagamento para a Macedônia, Antiga República Da Iugoslávia de
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bb80c69c985e12c8467f5c91bbe30b1005d10f12
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 595ade468c8445123cc08808bbf8c33f215e27a7
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649326"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543299"
 ---
-# <a name="payment-information-for-macedonia-former-yugoslav-republic-of"></a>Informações de pagamento para Macedônia, Antiga República Iugoslava da
+# <a name="payment-information-for-macedonia-former-yugoslav-republic-of"></a>Informações de pagamento para a Macedônia, Antiga República Da Iugoslávia de
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md). 
 
-Paga apenas em USD e faça referência aos números da fatura na remessa da fatura.
+Por favor, pague apenas em USD e faça referência aos seus números de fatura na remessa da fatura.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Londres  
+**Banco:** Citibank, Londres  
 **Código SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Número da conta:** 12510049  

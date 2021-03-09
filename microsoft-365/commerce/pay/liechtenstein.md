@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f286e19870a265a0036523c020e4d1891da1d9a2
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f4f9e5844264c6c002c07fa9cb3902b9a46f0d02
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48649410"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50543347"
 ---
 # <a name="payment-information-for-liechtenstein"></a>Informações de pagamento para Liechtenstein
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Please pay in CHF only and reference invoice number(s) on your payment remittance.
+Por favor, pague somente em CHF e faça referência aos números da fatura na remessa de pagamento.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Londres  
+**Banco:** Citibank, Londres  
 **Código SWIFT:** CITIGB2L  
 **IBAN:** GB44CITI18500812207648  
 **Número da conta:** 12207648  

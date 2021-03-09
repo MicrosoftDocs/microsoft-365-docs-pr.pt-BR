@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Noruega
+title: Informações de suporte para a Noruega
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d69c277418c8944d2020eedf0e5e18230c12a25b
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d3eb7b9d6c08dbe7b671f8d185b4e9a0e852b1e1
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640554"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50545255"
 ---
-# <a name="contact-support-for-norway"></a>Contatar o suporte da Noruega
+# <a name="contact-support-for-norway"></a>Contatar o suporte para a Noruega
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -36,6 +35,6 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: 22 31 07 48
+Número de Telefone Alternativo: 22 31 07 48
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

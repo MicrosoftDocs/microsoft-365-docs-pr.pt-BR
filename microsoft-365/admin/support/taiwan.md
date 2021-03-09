@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c1bdebfbcf8968cac27464a426568541f560463c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 921370ad3806fbd281248479898f7aee538703da
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639330"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544019"
 ---
 # <a name="contact-support-for-taiwan"></a>Contatar o suporte para Taiwan
 
@@ -30,16 +29,16 @@ ms.locfileid: "48639330"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Chinês (mandarim): Mon-Fri das 9h às 18h
+Chinês (Mandarim): Mon-Fri 9:00-18:00
 
-Inglês: Mon-Fri das 9h às 18h local
+Inglês: Mon-Fri 9:00-18:00 Local
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Chinês (mandarim): Mon-Fri das 9h às 18h
+Chinês (Mandarim): Mon-Fri 9:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: 02 2656 7301
+Número de Telefone Alternativo: 02 2656 7301
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas
