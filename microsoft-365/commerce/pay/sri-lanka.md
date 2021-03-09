@@ -1,5 +1,5 @@
 ---
-title: Informações de pagamento para o Sri Lanka
+title: Informações de pagamento do Sri Lanka
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,26 +9,25 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-description: Saiba para onde enviar o pagamento da sua assinatura.
+description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 426973165a4884c5304d4e8b5ac734366277614e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 545b977d8942706073c10b0365f66d9ec0b110a6
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48648510"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50542591"
 ---
-# <a name="payment-information-for-sri-lanka"></a>Informações de pagamento para o Sri Lanka
+# <a name="payment-information-for-sri-lanka"></a>Informações de pagamento do Sri Lanka
 
 [Encontre outro país ou região](../billing-and-payments/pay-for-your-subscription.md).
 
-Paga apenas em USD e faça referência aos números da fatura na remessa da fatura.
+Por favor, pague apenas em USD e faça referência aos seus números de fatura na remessa da fatura.
 
 ## <a name="electronic-funds-transfer"></a>Transferência Eletrônica de Fundos
 
-**Bank:** Citibank, Cingapura  
-**Código SWIFT:** CSITEGSG  
+**Banco:** Citibank, Cingapura  
+**Código SWIFT:** CITISGSG  
 **Número da conta:** 0-817543-138  
 **Nome da conta:** MICROSOFT REGIONAL SALES CORP  

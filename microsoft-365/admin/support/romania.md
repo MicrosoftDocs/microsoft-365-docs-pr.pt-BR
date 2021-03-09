@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Romênia
+title: Informações de suporte para a Romênia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ede6e4dfcf3bffd3a2404c4e14b53cc76dbfccc1
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c970f535f7282ff79d9b69f8d711e990d21587d6
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640110"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544931"
 ---
-# <a name="contact-support-for-romania"></a>Contatar o suporte para Romênia
+# <a name="contact-support-for-romania"></a>Contatar o suporte para a Romênia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -36,6 +35,6 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: 372 741 961
+Número de Telefone Alternativo: 372 741 961
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

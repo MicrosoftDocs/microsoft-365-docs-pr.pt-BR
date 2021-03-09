@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para São Tomé e Cidade
+title: Informações de suporte para São Tomé e Principe
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 10ce19845201f40f25728867ea2768c37d40f84d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f8bd77592506892213c97105db34c6c53c19e601
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48639858"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544571"
 ---
-# <a name="contact-support-for-sao-tome-and-principe"></a>Contatar o suporte para São Tomé e Cidade
+# <a name="contact-support-for-sao-tome-and-principe"></a>Contate o suporte para São Tomé e Principe
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -34,8 +33,8 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Português: Mon-Fri das 8h às 21h
+Português: Mon-Fri 8:00-21:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

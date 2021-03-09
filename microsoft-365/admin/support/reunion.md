@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d4c24aafe01beb17bc8368453d32b4ec4b8e9611
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 22f7b55ab2fa2e9c13a0b3fd7cfbba37570dfcaf
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48640146"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50544943"
 ---
 # <a name="contact-support-for-reunion"></a>Contatar o suporte para Reunião
 
@@ -36,8 +35,8 @@ Inglês: Mon-Fri meio-dia-20:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Francês: Mon-Fri das 23:00 às 23:00
+Francês: Mon-Fri 11:00-11 PM
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas
