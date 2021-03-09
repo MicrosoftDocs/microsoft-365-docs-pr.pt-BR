@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e5ccab8ccc202b9ee9b6fabb3736689db5932666
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: d32a4ac66bba63ea4b4fc29106e61ea1b6d75acf
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642210"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546947"
 ---
 # <a name="contact-support-for-guinea"></a>Contatar o suporte para Guiné
 
@@ -30,10 +29,10 @@ ms.locfileid: "48642210"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri das 10:00 às 18:00
+Inglês: Mon-Fri 10:00-18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

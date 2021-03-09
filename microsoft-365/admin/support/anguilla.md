@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Anguila
+title: Informações de suporte para Anguilla
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b032fd264e8c2bfaa85f7ea2010ac9406a6a0b71
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 0b3f35ca3231e04326cc7b30f9421e299c038b13
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644322"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50549035"
 ---
-# <a name="contact-support-for-anguilla"></a>Contatar o suporte para Anguila
+# <a name="contact-support-for-anguilla"></a>Contatar o suporte para Anguilla
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -36,4 +35,4 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: ''
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 316bb320a82bfeee2aaac177ae6f07346725608c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: ec6924ed5603424320528c44aa83d2d9389703b1
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48643938"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548712"
 ---
 # <a name="contact-support-for-barbados"></a>Contatar o suporte para Barbados
 

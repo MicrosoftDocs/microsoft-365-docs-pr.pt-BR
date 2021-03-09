@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Itália
+title: Informações de suporte para a Itália
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 742d4f6e885f21053a70cc0d6f4c8bfe8f25a928
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 570e79b6ff27e514782687d03c645c0cdea331f6
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641922"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546660"
 ---
-# <a name="contact-support-for-italy"></a>Contatar o suporte da Itália
+# <a name="contact-support-for-italy"></a>Entrar em contato com o suporte para a Itália
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,16 +29,16 @@ ms.locfileid: "48641922"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Italiano: Mon-Fri das 9h às 17h
+Italiano: Mon-Fri 9:00-17:00
 
 Inglês: Segunda a sexta, das 9h às 17h
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Italiano: Mon-Fri das 8h às 21h
+Italiano: Mon-Fri das 8:00 às 21:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Número de telefone alternativo: 02 6943 0746
+Número de Telefone Alternativo: 02 6943 0746
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

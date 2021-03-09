@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 70e6c1b69c0a5575ea171906e450fd8c8d2e629e
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 0f7cd59079edd6e578c4e209f8d2e75cfd9f9eb9
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642174"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546875"
 ---
 # <a name="contact-support-for-hong-kong-sar"></a>Contatar o suporte para a SAR de Hong Kong
 
@@ -30,18 +29,18 @@ ms.locfileid: "48642174"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Cantonês: Mon-Fri das 9h às 18h
+Cantonês: Mon-Fri 9:00-18:00
 
-Mandarim: Mon-Fri das 9h às 18h
+Mandarim: Mon-Fri 9:00-18:00
 
-Inglês: Mon-Fri das 9h às 18h
+Inglês: Mon-Fri 9:00-18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Cantonês: Mon-Fri das 9h às 18h
+Cantonês: Mon-Fri 9:00-18:00
 
-Mandarim: Mon-Fri das 9h às 18h
+Mandarim: Mon-Fri 9:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

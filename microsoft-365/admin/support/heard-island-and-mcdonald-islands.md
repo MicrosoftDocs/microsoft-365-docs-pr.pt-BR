@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para a ilha Heard e as Ilhas McDonald
+title: Informações de suporte para a Ilha Heard e As Ilhas McDonald
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 365d92d4ae21913860e1ba95b7948ce4a2d1776c
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: cc497cd7452a0502af40d1466ae1480c8b6f8cc0
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642246"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546899"
 ---
-# <a name="contact-support-for-heard-island-and-mcdonald-islands"></a>Contatar o suporte para a Ilha Heard e as Ilhas McDonald
+# <a name="contact-support-for-heard-island-and-mcdonald-islands"></a>Contact support for Heard Island and McDonald Islands
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -36,4 +35,4 @@ Inglês: Segunda a sexta, das 9h às 17h
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

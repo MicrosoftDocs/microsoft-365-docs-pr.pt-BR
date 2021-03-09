@@ -9,16 +9,15 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 620785d6c749feb1336b17f1e980c04e48cc5302
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 4bcf2799ce227ae8eabd787a0f9733bfd728be02
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642438"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547187"
 ---
 # <a name="contact-support-for-ghana"></a>Contatar o suporte para Gana
 
@@ -27,17 +26,17 @@ ms.locfileid: "48642438"
 ## <a name="phone-number"></a>Número de telefone
 +234 1 271 0156
 
-Selecione a opção 9
+Selecionar opção 9
 
-Digite o código 7704
+Insira o código 7704
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri das 8h às 16h
+Inglês: Mon-Fri 8:00-16:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

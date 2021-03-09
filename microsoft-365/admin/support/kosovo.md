@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para o Afeganistão
+title: Informações de suporte para o Kosovo
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1a294fb38e0617dfc7ec5052d2a91359ec53d975
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 3a07a0ad62b3553476ac682aac225b3c4a13d2a9
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641682"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546395"
 ---
-# <a name="contact-support-for-kosovo"></a>Contatar o suporte para Olm
+# <a name="contact-support-for-kosovo"></a>Contatar o suporte para o Kosovo
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,10 +29,10 @@ ms.locfileid: "48641682"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri das 11h às 19h
+Inglês: Mon-Fri 11:00-19:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

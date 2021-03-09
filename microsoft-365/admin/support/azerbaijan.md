@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Azerbaijão
+title: Informações de suporte para o Azerbaijão
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,39 +9,38 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 948cd5c0258532325d631e502a11c4f8f741c82a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 35a2e561e8d7e72088484fc902d4e4ca36b5f41e
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644106"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50548831"
 ---
-# <a name="contact-support-for-azerbaijan"></a>Contatar o suporte do Azerbaijão
+# <a name="contact-support-for-azerbaijan"></a>Contatar o suporte para o Azerbaijão
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
 ## <a name="phone-number"></a>Número de telefone
 01 24 37 35 55
 
-Selecione a opção 9
+Selecionar opção 9
 
-Digite o código 7706
+Insira o código 7706
 
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Russo: Mon-Fri 10:00 às 19h00, Brasil
+Russo: Mon-Fri 10:7 PM De Moscou
 
-Inglês: Mon-Fri das 9h às 17h de Londres
+Inglês: Mon-Fri 9:05 PM londres
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Russo: Mon-Fri das 7h às 20h00
+Russo: Mon-Fri 7:8 PM de Moscou
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada local
+Cobranças de chamada locais são aplicadas

@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 12b098e7eb3344620a2ff02856e83db3014ce98a
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c90f5db2716de68d68ef9d07ca5eb47eb7429c14
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642426"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547151"
 ---
-# <a name="contact-support-for-greenland"></a>Contatar o suporte da Groenlândia
+# <a name="contact-support-for-greenland"></a>Contatar o suporte para a Groenlândia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,10 +29,10 @@ ms.locfileid: "48642426"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri 19h às 15h
+Inglês: Mon-Fri 19:00 às 15:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 03101d45c22a592756c83dc9d45c623fba39e48d
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: a1b25b1565a025f7815eede30ada87d1e0f18aff
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48641946"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50546659"
 ---
-# <a name="contact-support-for-israel"></a>Contatar o suporte de Israel
+# <a name="contact-support-for-israel"></a>Contatar o suporte para Israel
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,12 +29,12 @@ ms.locfileid: "48641946"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Hebraico: Sun-Thu das 9h às 18h
+Hebraico: Sun-Thu 9:00-18:00
 
-Inglês: Mon-Fri das 9h às 18h
+Inglês: Mon-Fri 9:00-18:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
-Hebraico: Sun-Thu das 9h às 18h
+Hebraico: Sun-Thu 9:00-18:00
 
 Inglês: 24 horas por dia, 7 dias por semana

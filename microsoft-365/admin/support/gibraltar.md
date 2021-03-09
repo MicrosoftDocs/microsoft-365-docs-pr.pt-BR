@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Oltar
+title: Informações de suporte para Gibraltar
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -8,19 +8,18 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: AdminSurgePortfolio
 ms.collection: Adm_Support
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b5b5f2822501d51925f245bda7858e6292a6a1eb
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 564974f40d7093f9685a16a390a73eb5900f16c4
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642474"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547175"
 ---
-# <a name="contact-support-for-gibraltar"></a>Contatar o suporte para Oltar
+# <a name="contact-support-for-gibraltar"></a>Contatar o suporte para Gibraltar
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
@@ -30,10 +29,10 @@ ms.locfileid: "48642474"
 ## <a name="hours"></a>Horas
 ### <a name="billing-support"></a>Suporte à Cobrança:
 
-Inglês: Mon-Fri das 11h às 19h
+Inglês: Mon-Fri 11:00-19:00
 
 ### <a name="technical-support"></a>Suporte Técnico:
 
 Inglês: 24 horas por dia, 7 dias por semana
 
-Aplicam-se encargos de chamada internacional
+Cobranças de chamada internacionais são aplicadas

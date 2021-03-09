@@ -1,5 +1,5 @@
 ---
-title: Informações de suporte para Estônia
+title: Informações de suporte para a Estônia
 author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
@@ -9,18 +9,17 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
-ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Saiba como entrar em contato com o suporte do seu país ou região.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ec51a31e5370e837f78ff74c84313014a8ebc0e9
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: f1877a09e345ba6c1c7c19c07846aaa08bbdb4f3
+ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48642870"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50547583"
 ---
-# <a name="contact-support-for-estonia"></a>Contatar o suporte da Estônia
+# <a name="contact-support-for-estonia"></a>Contatar o suporte para a Estônia
 
 [Encontre outro país ou região](../contact-support-for-business-products.md).
 
