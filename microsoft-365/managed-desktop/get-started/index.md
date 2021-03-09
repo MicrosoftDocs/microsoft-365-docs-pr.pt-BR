@@ -6,19 +6,21 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 141eb16ae77c44c51358c07a74f5050eb07dc26f
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 49cf658c7d146f75d54d1f74f0034db64c3cc5dc
+ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509273"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50572547"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Introdução à Área de Trabalho Gerenciada da Microsoft
 
-Agora que você já inscreveu no serviço, siga estas etapas para confirmar os contatos do administrador, ajustar as configurações de acesso condicional, atribuir licenças a usuários, habilitar o Enterprise State Roaming, obter e configurar os dispositivos, preparar os usuários e implantar aplicativos para dispositivos.
+Agora que você está pronto para o registro, abra o [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) e navegue até **Administração de Locatário**. Selecione **Registro de locatário** na subseção da **Área de Trabalho Gerenciada da Microsoft** e siga o assistente para registrar seu locatário com a Área de Trabalho Gerenciada da Microsoft.
 
 > [!NOTE]
-> Esta é a ordem recomendada a seguir, mas você tem alguma flexibilidade na sequência.
+> Você deve estar conectado como um Administrador Global para completar o registro. Para saber mais, consulte [acessar o portal de administração](access-admin-portal.md) para obter mais detalhes.
+
+Depois de concluir o registro, siga as etapas abaixo para configurar o serviço. Esta é a ordem recomendada a seguir, mas você tem alguma flexibilidade na sequência. 
 
 1. [Adicionar e verificar contatos do administrador no portal de Administração](add-admin-contacts.md)
 2. [Ajustar as configurações após a inscrição](conditional-access.md)
