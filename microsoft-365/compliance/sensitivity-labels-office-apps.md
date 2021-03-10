@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para os administradores de IT gerenciarem rótulos de sensibilidade em aplicativos do Office para área de trabalho, celular e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e0fc96c1bb7b077df50f4f1c3c52ffa0dd49bef
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 1aa710939a805453a73db38eb93e4ceb90bc25d7
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461856"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50597161"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -54,7 +54,7 @@ Recursos adicionais estão disponíveis quando você instala o cliente de rotula
 
 Os números listados são a versão mínima do aplicativo do Office necessária para cada recurso.
 
-|Funcionalidade                                                                                                        |Windows |Mac |iOS    |Android      |Web                                                         |
+|Recursos                                                                                                        |Windows |Mac |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
 |[Aplicar, alterar ou remover rótulo manualmente](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16,21+     | 2.21+ | 16.0.11231+ | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Aplicar um rótulo padrão](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16,21+     | 2.21+ | 16.0.11231+ | [Sim - aceitação](sensitivity-labels-sharepoint-onedrive-files.md)                                                        |
@@ -78,7 +78,7 @@ Os números listados são a versão mínima do aplicativo do Office necessária 
 
 Os números listados são a versão mínima do aplicativo do Office necessária para cada recurso.
 
-|Funcionalidade                                                                                                        |Outlook para Windows |Outlook para Mac |Outlook no iOS |Outlook no Android |Outlook na Web |
+|Recursos                                                                                                        |Outlook para Windows |Outlook para Mac |Outlook no iOS |Outlook no Android |Outlook na Web |
 |------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
 |[Aplicar, alterar ou remover rótulo manualmente](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+                     | 16,21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Aplicar um rótulo padrão](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+                     | 16,21+                 | 4.7.1+         | 4.0.39+           | Sim               |
@@ -126,7 +126,7 @@ Como alternativa, desabilite ou remova o Office Add-in, **Proteção de Informa�
 
 Quando você desabilita ou remove esse Complemento do Office, o cliente de Proteção de Informações do Azure permanece instalado para que você possa continuar rotular arquivos fora de seus aplicativos do Office. Por exemplo, usando o Explorador de Arquivos ou o PowerShell.
 
-Para obter informações sobre quais recursos são suportados pelos clientes da Proteção de Informações do Azure e pelo cliente de rotulagem integrado do Office, consulte [Choose which labeling client](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) to use for Windows computers from the Azure Information Protection documentation.
+Para obter informações sobre quais recursos são suportados pelos clientes da Proteção de Informações do Azure e o cliente de rotulagem integrado do Office, consulte Choose your [Windows labeling solution](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution) from the Azure Information Protection documentation.
 
 ## <a name="office-file-types-supported"></a>Tipos de arquivo do Office com suporte
 

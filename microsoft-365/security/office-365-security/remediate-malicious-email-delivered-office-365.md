@@ -15,12 +15,12 @@ appliesto:
 - Microsoft 365 Defender
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6c5c94ce3994424a6d4b6f4a4ac587f5cc5e33ca
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0c52b80ffe30da259672e5862d0fa73a8445aa59
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454692"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50604037"
 ---
 # <a name="remediate-malicious-email-delivered-in-office-365"></a>Correção de emails mal-intencionados entregues no Office 365
 
@@ -136,5 +136,7 @@ Abra qualquer item de correção para exibir detalhes sobre ele, incluindo seu n
   Selecione qualquer item no log de ações para exibir detalhes de correção. Se os detalhes dizem "bem-sucedido" ou "não encontrado na caixa de correio", esse item já foi removido da caixa de correio. Às vezes, há um erro sistêmico durante a correção. Nesses casos, é uma boa ideia tentar a correção novamente.
 
   No caso de correção de lotes grandes, você também pode exportar as mensagens enviadas para correção por meio de Envio de Email e mensagens que foram remediadas por meio de Logs de Ações. O limite de exportação é aumentado para 100 mil registros.
+
+A equipe de segurança pode levar até 50 correções manuais simultâneas; no entanto, não há um limite definido para ações automatizadas de investigação e resposta.
 
   A correção é uma ferramenta poderosa para mitigar ameaças e resolver emails suspeitos. Ele ajuda a manter uma organização segura.

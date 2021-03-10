@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Obtenha um relatório periódico de como as pessoas da sua organização estão usando os serviços do Microsoft 365. O painel Visão geral do uso permite detalhar cada gráfico para obter mais informações.
-ms.openlocfilehash: 4ec7690e5300b2ac08a98fbec3f4c253e970738c
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: a71ced2dd0aa71179c1b26cec571f3025af1ce05
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921165"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50603847"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Relatórios do Microsoft 365 no centro de administração
 
@@ -85,6 +85,8 @@ Para saber mais, confira [Sobre as funções de administrador](../add-users/abou
 ## <a name="which-activity-reports-are-available-in-the-admin-center"></a>Quais relatórios de atividades estão disponíveis no Centro de administração
 
 De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
+
+- [Microsoft browser usage](browser-usage-report.md) 
   
 - [Atividade de email](email-activity-ww.md)
 
@@ -125,8 +127,6 @@ De acordo com a sua assinatura, aqui estão os relatórios disponíveis.
 - [Utilização do OneDrive for Business pelo Governo dos EUA](onedrive-for-business-usage.md)
 
 - [Uso do Microsoft 365 Apps](microsoft365-apps-usage-ww.md)
-
-- [Uso do Microsoft 365 Apps para o Governo dos EUA](microsoft365-apps-usage.md)
   
 - [Uso do site do Microsoft Office SharePoint Online](sharepoint-site-usage-ww.md)
 

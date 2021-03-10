@@ -11,12 +11,12 @@ ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: 28dc86bbc2d844110610cd8a884af5313b7d8cfa
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: e8d7ca4786893fb5eb39090d9a271ace1c62d321
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453976"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50596963"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-viva-topics"></a>Começar a impulsionar a adoção de tópicos do Microsoft Viva
 
@@ -73,17 +73,21 @@ Para planejar a adoção de Tópicos do Viva, você precisa:
     - Em breve, vídeos de treinamento e ajuda para usuários finais.
 
 4. [Criar uma rede de campeões](#build-a-champion-network):
-    - Você pode ter comunidades de práticas ou redes de campeões já no local. Essas são ótimas maneiras de socializar e evangelizar e envolver os colegas na ajuda uns aos outros. E eles podem compartilhar histórias de sucesso que podem ser realmente valiosas. Eles podem oferecer conselhos e gerar emoção.
+    - Você pode ter comunidades de práticas ou redes de campeões já no local. Essas são ótimas maneiras de socializar e evangelizar e envolver os colegas na ajuda uns aos outros. E eles podem compartilhar histórias de sucesso que podem ser valiosas. Eles podem oferecer conselhos e gerar emoção.
 
 ### <a name="target-scenarios"></a>Cenários de destino
 
-Você precisa determinar como deseja usar os Tópicos do Viva em sua organização antes de ter êxito com os tópicos. Aqui estão alguns cenários em que o gerenciamento de conhecimento e tópicos podem ajudar sua organização:
+Determine como você deseja usar Tópicos do Viva em sua organização para usá-los com êxito. Aqui estão alguns cenários em que o gerenciamento de conhecimento e tópicos podem ajudar sua organização:
 
 - Integração de função & treinamento: Compreender a terminologia, os principais projetos e a cultura de uma nova organização são etapas importantes na integração. A descoberta fácil de tópicos pode ajudar os novos funcionários a se incrementar em novos trabalhos, funções ou projetos rapidamente.
 - Descoberta de experiência e compartilhamento de informações: quando os tópicos são gerenciados e compartilhados, as pessoas em suas organizações podem encontrar mais facilmente informações e especialistas para ajudá-los no dia a dia do trabalho.
 - Tomada de decisões expandida e tempo aprimorado para o mercado: quando informações e especialistas são fáceis de alcançar, você pode tomar decisões com mais facilidade e diminuir o tempo de folga dos projetos.
 
-Por exemplo, aqui está um cenário para integração de função:
+#### <a name="example-scenario-for-role-onboarding"></a>Cenário de exemplo para integração de função
+
+Um gerente de RH precisa fornecer informações aos novos funcionários que os ajudarão a se integrar rapidamente à empresa e às suas equipes. Eles querem apontar para os recursos corretos, documentos e membros da equipe que eles precisarão para integração de forma rápida e eficiente. Eles estão procurando uma solução que permita que o novo funcionário encontre rapidamente as informações necessárias sem precisar pesquisar em vários repositórios ou deixar os aplicativos que já estão usando.
+
+Por exemplo:
 
 - Um funcionário (Jordan) está assumindo uma nova função ou foi recém-contratado e está apenas começando com uma função. A Jordânia quer se envolver e ser produtiva o mais rápido possível. Mas a Jordânia também precisa de ajuda para encontrar um ponto de partida.
 - Um colega (Kim) que estava na função antes de a Jordânia criar páginas de tópicos que podem ajudar novos funcionários e qualquer pessoa que procura essas informações.
@@ -91,13 +95,35 @@ Por exemplo, aqui está um cenário para integração de função:
 - Conforme o Jordan lê uma nova postagem no SharePoint, eles veem um destaque de tópico e passam o mouse sobre ele para obter rapidamente uma definição do termo e quem contatar com mais perguntas. Antes, a Jordânia poderia ter que procurar essas informações e entrar em contato com colegas para ver quem perguntar sobre algo.
 - Expor essas informações por meio de tópicos pode ser poderoso, porque embora essas informações possam ter sido disponibilizadas antes, pode ter sido em silo e difícil de encontrar. Trazê-lo para os aplicativos que a Jordânia está usando e ajudá-los a encontrar esses especialistas também pode impulsionar uma sensação de envolvimento e comunidade. Também pode ajudá-los a se sentirem mais capacitados ao lidar com a nova função.
 
+Ao automatizar esse cenário, você pode garantir que:
+
+- Os novos funcionários podem se conectar rapidamente com as pessoas certas nos projetos certos.
+- Os novos funcionários têm acesso instantâneo às informações mais recentes do projeto no fluxo de trabalho.
+- Os tempos de pesquisa são muito reduzidos.
+- Os tempos de integração são muito reduzidos.
+
+#### <a name="example-scenario-for-customer-call-center"></a>Cenário de exemplo para o call center do cliente
+
+Você pode permitir que o serviço de atendimento ao cliente encontre rapidamente arquivos e especialistas para ajudar com perguntas fiscais incomuns e documente rapidamente a resposta para que outras pessoas acessem facilmente com Tópicos do Viva.
+
+Por exemplo, um representante de suporte precisa encontrar rapidamente artigos, documentos e políticas da base de conhecimento para que eles possam dar suporte aos clientes. Eles querem encontrar as informações corretas no momento certo, sem precisar passar manualmente por várias bases de dados, repositórios ou aplicativos ou expedir uma chamada. E eles estão procurando uma solução que permita que eles permaneçam no prompt de chamada principal e acessem políticas, regulamentos e diretrizes no fluxo de suas conversas, para que possam responder rapidamente às perguntas e atualizar o caso.
+
+Ao automatizar esse cenário com Tópicos do Viva, você pode garantir que:
+
+- Os tempos de chamada de suporte são reduzidos.
+- As escalonamentos para o suporte ao 2nd e à 3ª camada são reduzidas.
+- O número de retornos de chamada em um determinado caso é reduzido.
+- A satisfação do cliente aumenta.
+
+#### <a name="prioritize-your-scenarios"></a>Priorizar seus cenários
+
 Depois de identificar seus cenários, você pode priorizar os cenários:
 
 Uma maneira de priorizá-los é plotar seus cenários em uma grade mostrando impacto versus facilidade de implementação. Procure cenários que tenham alto impacto e sejam fáceis de implementar e tornar esses cenários sua prioridade máxima. Cenários de baixo impacto e difíceis de implementar são sua prioridade mais baixa. Quando você tem uma vitória rápida com um cenário de alto impacto e fácil de implementar, ele ajuda as pessoas a se animarem e ver as possibilidades de uso de tópicos.
 
 ![Cenários de alto impacto e fácil de implementar são de alta prioridade](../media/knowledge-management/topics-prioritize-scenarios.png)
 
-Escolha alguns cenários principais para se concentrar inicialmente, trabalhe com seus usuários iniciais para obter alguns comentários e, em seguida, rolar em estágios. Dessa forma, você pode iterar, fazer melhorias e obter comentários para que você possa aumentar a adoção com o tempo. 
+Escolha alguns cenários principais para se concentrar inicialmente, trabalhe com seus usuários iniciais para obter alguns comentários e, em seguida, rolar em estágios. Dessa forma, você pode iterar, fazer melhorias e obter comentários para que você possa aumentar a adoção com o tempo.
 
 ### <a name="identify-stakeholders"></a>Identificar participantes
 

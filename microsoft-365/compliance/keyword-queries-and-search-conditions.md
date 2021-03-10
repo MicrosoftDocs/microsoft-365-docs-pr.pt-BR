@@ -22,12 +22,12 @@ ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre propriedades de arquivo e email que você pode pesquisar usando as ferramentas de pesquisa e Descoberta Eletrônico no Microsoft 365.
-ms.openlocfilehash: 9ad280678cac2d266b6e4c68ac66fb2e5afe0bf1
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: d5b558df15cde6be6f87663dcb999efc6ec66f7e
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423914"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50604027"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search-and-ediscovery"></a>Consultas de palavra-chave e condições de pesquisa para Pesquisa e Descoberta De Conteúdo
 
@@ -58,7 +58,7 @@ A tabela a seguir lista as propriedades de mensagem de email que podem ser pesqu
 |Categoria| As categorias a serem pesquisadas. As categorias podem ser definidas pelos usuários usando o Outlook ou o Outlook na Web (anteriormente conhecido como Outlook Web App). Os valores possíveis são:  <br/><br/>  blue  <br/>  verde  <br/>  laranja  <br/>  roxo  <br/>  vermelho  <br/>  amarelo|`category:"Red Category"`|Mensagens que foram atribuídas à categoria vermelho nas caixas de correio de origem. |
 |Cc|O campo Cc de uma mensagem de email. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|Em ambos os exemplos, as mensagens com Pilar Pinilla especificadas no campo Cc.|
 |Folderid|A ID da pasta (GUID) de uma pasta de caixa de correio específica. Se você usar essa propriedade, certifique-se de pesquisar a caixa de correio em que a pasta especificada está localizada. Somente a pasta especificada será pesquisada. As subpastas na pasta não serão pesquisadas. Para pesquisar subpastas, você precisa usar a propriedade Folderid para a subpasta que você deseja pesquisar.  <br/> Para obter mais informações sobre como pesquisar a propriedade Folderid e usar um script para obter as IDs de pasta para uma caixa de correio específica, consulte [Use Content Search for targeted collections](use-content-search-for-targeted-collections.md).|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|O primeiro exemplo retorna todos os itens na pasta de caixa de correio especificada. O segundo exemplo retorna todos os itens na pasta de caixa de correio especificada que foram enviados ou recebidos por garthf@contoso.com.|
-|De|O remetente de uma mensagem de email. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|Mensagens enviadas pelo usuário especificado ou enviadas de um domínio especificado.|
+|From|O remetente de uma mensagem de email. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|Mensagens enviadas pelo usuário especificado ou enviadas de um domínio especificado.|
 |HasAttachment|Indica se uma mensagem tem um anexo. Use os valores **true** ou **false**.|`from:pilar@contoso.com AND hasattachment:true`|Mensagens enviadas pelo usuário especificado que têm anexos.|
 |Importance|A prioridade de uma mensagem de email, que um remetente pode especificar ao enviar uma mensagem. Por padrão, as mensagens são enviadas com prioridade normal, a menos que o remetente defina a prioridade como **alta** ou **baixa**.|`importance:high`  <br/> `importance:medium`  <br/> `importance:low`|Mensagens marcadas como alta prioridade, prioridade média ou baixa prioridade.|
 |IsRead|Indica se as mensagens foram lidas. Use os valores **true** ou **false**.|`isread:true`  <br/> `isread:false`|O primeiro exemplo retorna mensagens com a propriedade IsRead definida como **True**. O segundo exemplo retorna mensagens com a propriedade IsRead definida como **False**.|
@@ -161,7 +161,7 @@ Para obter mais informações sobre como criar consultas usando `SensitiveType` 
 
   Em seguida, você pode usar a ID na propriedade de pesquisa para retornar documentos `SensitiveType` que contenham o tipo de dados confidenciais personalizado; por exemplo, `SensitiveType:7e13277e-6b04-3b68-94ed-1aeb9d47de37`
   
-- Você não pode usar tipos de informações confidenciais e a propriedade de pesquisa para pesquisar dados confidenciais em repouso `SensitiveType` nas caixas de correio do Exchange Online. No entanto, você pode usar políticas de prevenção contra perda de dados (DLP) para proteger dados de email confidenciais em trânsito. Para obter mais informações, consulte [Overview of data loss prevention policies](data-loss-prevention-policies.md) and Search for and find personal [data](search-for-and-find-personal-data.md).
+- Você não pode usar tipos de informações confidenciais e a propriedade de pesquisa para pesquisar dados confidenciais em repouso `SensitiveType` nas caixas de correio do Exchange Online. Isso inclui mensagens de chat 1:1, mensagens de chat de grupo 1:N e conversas de canal de equipe nas equipes da Microsoft porque todo esse conteúdo é armazenado em caixas de correio. No entanto, você pode usar políticas de prevenção contra perda de dados (DLP) para proteger dados de email confidenciais em trânsito. Para obter mais informações, consulte [Overview of data loss prevention policies](data-loss-prevention-policies.md) and Search for and find personal [data](search-for-and-find-personal-data.md).
   
 ## <a name="search-operators"></a>Operadores de pesquisa
 
