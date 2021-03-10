@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de conformidade do Microsoft 365 para pesquisar o log de auditoria unificado para visualizar a atividade do usuário e administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a751ffea9fa184faf90bfe7c43b44c5d4e53bfbf
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 6f158461bfecf0ab26f440203d079da0c7c0d238
+ms.sourcegitcommit: d3c1b08b3a8af29ef19ffe77da063920f28fe290
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461812"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50572635"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -143,9 +143,6 @@ Leia os seguintes itens antes de começar a pesquisar o log de auditoria.
 
 ## <a name="search-the-audit-log"></a>Pesquisar o log de auditoria
 
-> [!NOTE]
-> Houve um problema com as atividades do Azure Active Directory indisponíveis na ferramenta de pesquisa de log de auditoria de 22 de outubro de 2020 a 6 de novembro de 2020. Essas atividades incluem atividades de administração de usuário do Azure Active Directory, atividades de administração de grupo, atividades de administração de aplicativo, atividades de administração de função e atividades de administração de diretório. Os eventos ausentes para o período de impacto estarão disponíveis nos próximos dias e deve levar até 20 de novembro de 2020 para serem concluídos. Em alguns casos, os clientes podem notar a duplicata dos dados de eventos para eventos gerados entre 26 de outubro de 2020 e 05 de novembro de 2020.
-    
 A seguir, veja o processo para pesquisar o log de auditoria do Office 365. 
 
 [Etapa 1: Executar uma pesquisa de log de auditoria](#step-1-run-an-audit-log-search)
@@ -704,75 +701,90 @@ A tabela a seguir lista as atividades que podem ser registradas pelo log de audi
 
 A tabela a seguir lista as atividades de administração de usuários que são registradas quando um administrador adiciona ou altera uma conta de usuário usando o Microsoft 365 ou o portal de gerenciamento do Azure.
 
+> [!NOTE]
+> Os nomes de operação listados na coluna **Operação** na tabela a seguir contêm um ponto ( `.` ). Você deve incluir o período no nome da operação se especificar a operação em um comando do Windows PowerShell ao pesquisar o log de auditoria, criar políticas de retenção de auditoria, criar políticas de alerta ou criar alertas de atividade. Além disso, certifique-se de usar aspas duplas (`" "`) para conter o nome da operação.
+
 |Atividade|Operação|Descrição|
 |:-----|:-----|:-----|
-|Usuário adicionado|Adicionar usuário|Uma conta de usuário foi criada.|
-|Licença de usuário alterada|Alterar licença de usuário|A licença atribuída a um usuário foi alterada. Para ver quais licenças foram alteradas, veja a atividade **Usuário atualizado** correspondente.|
-|Senha do usuário alterada|Alterar senha do usuário|Um usuário altera sua senha. A redefinição de senha de autoatendimento deve estar ativada (para todos ou usuários selecionados) na sua organização para permitir que os usuários redefinam suas senhas. Você também pode acompanhar a atividade de redefinição de senha de autoatendimento no Azure Active Directory. Para obter mais informações, consulte [Opções de relatório do gerenciamento de senhas do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-reporting).
-|Usuário excluído|Excluir usuário|Uma conta de usuário foi excluída.|
-|Redefinir senha do usuário|Redefinir senha do usuário|O administrador redefine a senha de um usuário.|
-|Propriedade definida que força o usuário a alterar a senha|Definir alteração forçada de senha do usuário|O administrador definiu a propriedade que força o usuário a redefinir a senha da próxima vez que esse usuário entrar no Office 365.|
-|Definir propriedades de licenças|Definir propriedades de licenças|O administrador modifica as propriedades de uma licença atribuída a um usuário.|
-|Usuário atualizado|Atualizar usuário|O administrador altera uma ou mais propriedades de uma conta de usuário. Para obter uma lista de propriedades do usuário que podem ser atualizadas, veja a seção "Atualizar atributos do usuário" em [Eventos de relatório de auditoria do Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=616549).|
+|Usuário adicionado|Adicionar usuário.|Uma conta de usuário foi criada.|
+|Licença de usuário alterada|Altere a licença do usuário.|A licença atribuída a um usuário foi alterada. Para ver quais licenças foram alteradas, veja a atividade **Usuário atualizado** correspondente.|
+|Senha do usuário alterada|Altere a senha de usuário.|Um usuário altera sua senha. A redefinição de senha de autoatendimento deve estar ativada (para todos ou usuários selecionados) na sua organização para permitir que os usuários redefinam suas senhas. Você também pode acompanhar a atividade de redefinição de senha de autoatendimento no Azure Active Directory. Para obter mais informações, consulte [Opções de relatório do gerenciamento de senhas do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-reporting).
+|Usuário excluído|Excluir usuário.|Uma conta de usuário foi excluída.|
+|Redefinir senha do usuário|Redefina a senha do usuário.|O administrador redefine a senha de um usuário.|
+|Propriedade definida que força o usuário a alterar a senha|Defina forçar a alteração da senha do usuário.|O administrador definiu a propriedade que força o usuário a redefinir a senha da próxima vez que esse usuário entrar no Office 365.|
+|Definir propriedades de licenças|Defina as propriedades de licenças.|O administrador modifica as propriedades de uma licença atribuída a um usuário.|
+|Usuário atualizado|Atualize o usuário.|O administrador altera uma ou mais propriedades de uma conta de usuário. Para obter uma lista de propriedades do usuário que podem ser atualizadas, veja a seção "Atualizar atributos do usuário" em [Eventos de relatório de auditoria do Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=616549).|
 ||||
 
 ### <a name="azure-ad-group-administration-activities"></a>Atividades de administração de grupos do Azure AD
 
 A tabela a seguir lista as atividades de administração de grupos que são registradas quando um administrador ou um usuário cria ou altera um grupo do Microsoft 365 ou quando um administrador cria um grupo de segurança usando o Centro de Administração do Microsoft 365 ou o portal de gerenciamento do Azure. Para saber mais sobre grupos no Office 365, confira [Exibir, criar e excluir Grupos no centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups).
 
+> [!NOTE]
+> Os nomes de operação listados na coluna **Operação** na tabela a seguir contêm um ponto ( `.` ). Você deve incluir o período no nome da operação se especificar a operação em um comando do Windows PowerShell ao pesquisar o log de auditoria, criar políticas de retenção de auditoria, criar políticas de alerta ou criar alertas de atividade. Além disso, certifique-se de usar aspas duplas (`" "`) para conter o nome da operação.
+
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
-|Grupo adicionado|Adicionar grupo|Um grupo foi criado.|
-|Membro adicionado ao grupo|Adicionar membro ao grupo|Um membro foi adicionado a um grupo.|
-|Grupo excluído|Excluir grupo|Um grupo foi excluído.|
-|Membro removido do grupo|Remover membro do grupo|Um membro foi removido de um grupo.|
-|Grupo atualizado|Atualizar grupo|Uma propriedade de um grupo foi alterada.|
+|Grupo adicionado|Adicione grupo.|Um grupo foi criado.|
+|Membro adicionado ao grupo|Adicione membro ao grupo.|Um membro foi adicionado a um grupo.|
+|Grupo excluído|Exclua o grupo.|Um grupo foi excluído.|
+|Membro removido do grupo|Remova membro do grupo.|Um membro foi removido de um grupo.|
+|Grupo atualizado|Atualize o grupo.|Uma propriedade de um grupo foi alterada.|
 ||||
 
 ### <a name="application-administration-activities"></a>Atividades de administração de aplicativos
 
 A tabela a seguir lista atividades de administração de aplicativos que são registradas quando um administrador adiciona ou altera um aplicativo que está registrado no Azure AD. Qualquer aplicativo que depende do Azure AD para autenticação deve ser registrado no diretório.
 
+> [!NOTE]
+> Os nomes de operação listados na coluna **Operação** na tabela a seguir contêm um ponto ( `.` ). Você deve incluir o período no nome da operação se especificar a operação em um comando do Windows PowerShell ao pesquisar o log de auditoria, criar políticas de retenção de auditoria, criar políticas de alerta ou criar alertas de atividade. Além disso, certifique-se de usar aspas duplas (`" "`) para conter o nome da operação.
+
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
-|Entrada da delegação adicionada|Adicionar entrada de delegação|Uma permissão de autenticação foi criada/concedida a um aplicativo no Azure AD.|
-|Entidade de serviço adicionada|Adicionar entidade de serviço|Um aplicativo foi registrado no Azure AD. Um aplicativo é representado por uma entidade de serviço no diretório.|
-|Credenciais adicionadas a uma entidade de serviço |Adicionar credenciais de entidade de serviço|Credenciais foram adicionadas a uma entidade de serviço no Azure AD. Uma entidade de serviço representa um aplicativo no diretório.|
-|Entrada de delegação removida|Remover entrada de delegação|Uma permissão de autenticação foi removida de um aplicativo no Azure AD.|
-|Entidade de serviço removida do diretório|Remover entidade de serviço|Um aplicativo foi excluído/teve o registro cancelado do Azure AD. Um aplicativo é representado por uma entidade de serviço no diretório.|
-|Credenciais removidas de uma entidade de serviço |Remover credenciais da entidade de serviço|Credenciais foram removidas de uma entidade de serviço no Azure AD. Uma entidade de serviço representa um aplicativo no diretório.|
-|Definir entrada de delegação|Definir entrada de delegação|Uma permissão de autenticação foi atualizada para um aplicativo no Azure AD.|
+|Entrada da delegação adicionada|Adicione entrada de delegação.|Uma permissão de autenticação foi criada/concedida a um aplicativo no Azure AD.|
+|Entidade de serviço adicionada|Adicione entidade de serviço.|Um aplicativo foi registrado no Azure AD. Um aplicativo é representado por uma entidade de serviço no diretório.|
+|Credenciais adicionadas a uma entidade de serviço |Adicione credenciais da entidade de serviço.|Credenciais foram adicionadas a uma entidade de serviço no Azure AD. Uma entidade de serviço representa um aplicativo no diretório.|
+|Entrada de delegação removida|Remova a entrada de delegação.|Uma permissão de autenticação foi removida de um aplicativo no Azure AD.|
+|Entidade de serviço removida do diretório|Remova a entidade de serviço.|Um aplicativo foi excluído/teve o registro cancelado do Azure AD. Um aplicativo é representado por uma entidade de serviço no diretório.|
+|Credenciais removidas de uma entidade de serviço |Remova as credenciais da entidade de serviço.|Credenciais foram removidas de uma entidade de serviço no Azure AD. Uma entidade de serviço representa um aplicativo no diretório.|
+|Definir entrada de delegação|Defina a entrada de delegação.|Uma permissão de autenticação foi atualizada para um aplicativo no Azure AD.|
 ||||
 
 ### <a name="role-administration-activities"></a>Atividades de administração de funções
 
 A tabela a seguir lista as atividades de administração de funções do Azure AD registradas quando um administrador gerencia funções de administração no Microsoft 365 ou no portal de gerenciamento do Azure.
 
+> [!NOTE]
+> Os nomes de operação listados na coluna **Operação** na tabela a seguir contêm um ponto ( `.` ). Você deve incluir o período no nome da operação se especificar a operação em um comando do Windows PowerShell ao pesquisar o log de auditoria, criar políticas de retenção de auditoria, criar políticas de alerta ou criar alertas de atividade. Além disso, certifique-se de usar aspas duplas (`" "`) para conter o nome da operação.
+
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
-|Adicionar membro à função|Adicionar membro de função à função|Usuário adicionado a uma função de administração no Microsoft 365.|
-|Usuário removido de uma função de diretório|Remover membro de função da função|Usuário removido de uma função de administração no Microsoft 365.|
-|Definir informações de contato da empresa|Definir informações de contato da empresa|Preferências de contato no nível da empresa atualizadas para a sua organização. Isso inclui endereços de email para emails relacionados a assinaturas enviados pelo Microsoft 365 e notificações técnicas sobre serviços.|
+|Adicionar membro à função|Adicione o membro à função.|Usuário adicionado a uma função de administração no Microsoft 365.|
+|Usuário removido de uma função de diretório|Remova membro da função.|Usuário removido de uma função de administração no Microsoft 365.|
+|Definir informações de contato da empresa|Defina as informações de contato da empresa.|Preferências de contato no nível da empresa atualizadas para a sua organização. Isso inclui endereços de email para emails relacionados a assinaturas enviados pelo Microsoft 365 e notificações técnicas sobre serviços.|
 ||||
 
 ### <a name="directory-administration-activities"></a>Atividades de administração de diretórios
 
 A tabela a seguir lista as atividades relacionadas a diretórios e domínios do Azure AD que são registradas quando um administrador gerencia sua organização no Centro de administração do Microsoft 365 ou no portal de gerenciamento do Azure.
 
+> [!NOTE]
+> Os nomes de operação listados na coluna **Operação** na tabela a seguir contêm um ponto ( `.` ). Você deve incluir o período no nome da operação se especificar a operação em um comando do Windows PowerShell ao pesquisar o log de auditoria, criar políticas de retenção de auditoria, criar políticas de alerta ou criar alertas de atividade. Além disso, certifique-se de usar aspas duplas (`" "`) para conter o nome da operação.
+
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
-|Domínio adicionado à empresa|Adicionar domínio à empresa|Domínio adicionado à sua organização.|
-|Parceiro adicionado ao diretório|Parceiro adicionado à empresa|Parceiro (administrador delegado) adicionado à sua organização.|
-|Domínio removido da empresa|Remover domínio da empresa|Domínio removido da sua organização.|
-|Parceiro removido do diretório|Remover parceiro da empresa|Parceiro (administrador delegado) removido da sua organização.|
-|Definir informações da empresa|Definir informações da empresa|Informações da empresa atualizadas para a sua organização. Isso inclui endereços de email para emails relacionados a assinaturas enviados pelo Office 365 e notificações técnicas sobre os serviços do Microsoft 365.|
-|Definir autenticação de domínio|Definir autenticação de domínio|Configuração de autenticação de domínio alterada para a sua organização.|
-|Configurações de federação atualizadas para um domínio|Definir configurações de federação no domínio|Configurações de federação (compartilhamento externo) alteradas para a sua organização.|
-|Definir política de senha|Definir política de senha|Restrições de comprimento e caracteres alteradas para senhas de usuário na sua organização.|
-|Sincronização do Azure AD ativada|Definir sinalizador DirSyncEnabled ativado na empresa|Definir a propriedade que habilita um diretório para sincronização do Azure AD.|
-|Domínio atualizado|Atualizar domínio|Configurações de um domínio atualizadas na sua organização.|
-|Domínio verificado|Verificar domínio|Foi verificado que a sua organização é a proprietária de um domínio.|
-|Domínio confirmado de email verificado|Verificar domínio confirmado de email|Verificação de email usada para confirmar que a sua organização é proprietária de um domínio.|
+|Domínio adicionado à empresa|Adicione o domínio à empresa.|Domínio adicionado à sua organização.|
+|Parceiro adicionado ao diretório|Adicione parceiro à empresa.|Parceiro (administrador delegado) adicionado à sua organização.|
+|Domínio removido da empresa|Remova o domínio da empresa.|Domínio removido da sua organização.|
+|Parceiro removido do diretório|Remova o parceiro da empresa.|Parceiro (administrador delegado) removido da sua organização.|
+|Definir informações da empresa|Defina a informações da empresa.|Informações da empresa atualizadas para a sua organização. Isso inclui endereços de email para emails relacionados a assinaturas enviados pelo Office 365 e notificações técnicas sobre os serviços do Microsoft 365.|
+|Definir autenticação de domínio|Defina a autenticação de domínio.|Configuração de autenticação de domínio alterada para a sua organização.|
+|Configurações de federação atualizadas para um domínio|Defina a configurações de federação no domínio.|Configurações de federação (compartilhamento externo) alteradas para a sua organização.|
+|Definir política de senha|Defina a política de senha.|Restrições de comprimento e caracteres alteradas para senhas de usuário na sua organização.|
+|Sincronização do Azure AD ativada|Defina o sinalizador DirSyncEnabled.|Definir a propriedade que habilita um diretório para sincronização do Azure AD.|
+|Domínio atualizado|Atualize o domínio.|Configurações de um domínio atualizadas na sua organização.|
+|Domínio verificado|Verifique o domínio.|Foi verificado que a sua organização é a proprietária de um domínio.|
+|Domínio confirmado de email verificado|Verifique o domínio confirmado de email.|Verificação de email usada para confirmar que a sua organização é proprietária de um domínio.|
 ||||
 
 ### <a name="ediscovery-activities"></a>Atividades de Descoberta Eletrônica
