@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o Simulador de Ataques para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 85b376701ffa0c567fd66aa629371e9f69b354e9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7c88a5df6fae61e1ffe70214ad4a73deef4b380e
+ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407463"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50717618"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
 
@@ -36,8 +36,10 @@ ms.locfileid: "50407463"
 Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inclui recursos de Investigação e Resposta contra [Ameaças,](office-365-ti.md)você poderá usar o Simulador de Ataques no Centro de Conformidade & Segurança para executar cenários de ataque realistas em sua organização. Esses ataques simulados podem ajudá-lo a identificar e encontrar usuários vulneráveis antes que um ataque real impacte sua linha inferior. Leia este artigo para saber mais.
 
 > [!NOTE]
-> A experiência do Simulador de Ataque v1 foi alternada para o modo somente leitura e substituída pelo treinamento do simulador de ataque descrito em [Get started using Attack simulation training](attack-simulation-training-get-started.md).
-> A capacidade de iniciar novas simulações deste site foi desabilitada. No entanto, você ainda pode acessar relatórios de simulações executados por um período de 90 dias a partir de 24 de janeiro de 2021.
+>
+> O Simulador de Ataque, conforme descrito neste artigo,  agora é somente leitura e foi substituído pelo treinamento de simulação de ataque no nó de colaboração **email &** no centro de segurança do [Microsoft 365.](https://security.microsoft.com) Para obter mais informações, consulte [Começar a usar o treinamento de simulação de ataque](attack-simulation-training-get-started.md).
+>
+> A capacidade de iniciar novas simulações dessa versão do Simulador de Ataque foi desabilitada. No entanto, você ainda pode acessar relatórios por até 90 dias a partir de 24 de janeiro de 2021.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 

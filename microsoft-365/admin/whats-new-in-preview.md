@@ -21,12 +21,12 @@ description: O Centro de administração do Microsoft 365 - saiba mais sobre os 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: e8e743c0f3de0d7ac2eb8ebb9995596783d2d31a
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 2ecf9ddbd1257e7273da36371abb9f9e38df3f4a
+ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461822"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50717631"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de administração do Microsoft 365
 
@@ -62,6 +62,12 @@ Renovamos o Centro de Mensagens para ajudá-lo a descobrir mensagens relevantes 
 :::image type="content" source="../media/message-center.png" alt-text="Captura de tela: home page do centro de mensagens mostrando caixa de entrada e mensagens":::
 
 Para saber mais sobre os novos recursos, confira [Gerenciar mensagens no Centro de Mensagens](manage/manage-messages.md).
+
+### <a name="whats-new-features"></a>Quais são os novos recursos
+
+Fizemos melhorias na forma como você visualiza os recursos "Novidades" para os usuários nos aplicativos do Office. Agora você pode ver o conteúdo rico no novo painel Whats que seus usuários podem ver. Você também pode saber mais sobre o recurso antes de decidir deixar seus usuários saberem sobre o recurso. For more info, check out [Manage which Office‎ features appear in What's New](manage/show-hide-new-features.md).
+
+:::image type="content" source="../media/power-bi-whats-new2.png" alt-text="Captura de tela: Aplicativos do Office novidades mostrando melhorias no Power BI":::
 
 ## <a name="ignite-2020-august--september"></a>Ignite 2020 (agosto & setembro)
 
@@ -356,7 +362,7 @@ Os novos nomes de produto entrarão em vigor em 21 de abril de 2020. Isso é uma
 |Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
 |Office 365 Business Premium     |    Microsoft 365 Business Standard     |
 |Microsoft 365 Business     |    Microsoft 365 Business Premium     |
-|Office 365 Business     |    Microsoft 365 Apps para Pequenos e Médios negócios       |
+|Office 365 Business     |    Aplicativos do Microsoft 365 para empresas       |
 |Office 365 ProPlus    |   Aplicativos do Microsoft 365 para empresas      |
 
 ### <a name="videos-training-and-docs"></a>Vídeos, treinamentos e documentos

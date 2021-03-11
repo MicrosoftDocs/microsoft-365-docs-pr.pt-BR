@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: A Auditoria Avançada no Microsoft 365 fornece novos recursos de auditoria para ajudar sua organização com investigações forenses e de conformidade.
-ms.openlocfilehash: 0ae67497829e69da92e9735cb68a84e75c517814
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: 012361e8ebbf1961d5ca21cef97357d5150523d5
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242453"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712051"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Auditoria Avançada no Microsoft 365
 
@@ -199,11 +199,11 @@ Para clientes qualificados e usuários atribuídos à licença apropriada, não 
 
 **Quando a nova licença do complemento de retenção do log de auditoria de dez anos estará disponível?**
 
-O novo complemento de retenção de log de auditoria de dez anos estará disponível para compra pelos clientes com assinaturas E5 no início de 2021.
+O novo add-on de retenção de log de auditoria de 10 anos agora está disponível para compra por clientes com assinaturas E5.
 
-**O que acontecerá com os dados do log de auditoria da minha organização se eu criar uma política de retenção de log de auditoria de dez anos, o recurso for lançado para disponibilidade geral, mas antes da licença complementar necessária estar disponível no início de 2021?**
+**O que acontecerá com os dados do log de auditoria da minha organização se eu criar uma política de retenção de log de auditoria de 10 anos quando o recurso for lançado para disponibilidade geral, mas antes que a licença complementar necessária seja disponibilizada em fevereiro de 2021?**
 
-Todos os dados de log de auditoria abrangidos por uma política de retenção de log de auditoria de dez anos que você cria depois da disponibilidade geral serão mantidos por dez anos. Quando a licença complementar de retenção do log de auditoria de dez anos estiver disponível no início de 2021, você precisará comprar licenças de complemento para os usuários os quais os dados de auditoria estão sendo retidos por uma política de retenção existente de dez anos. Além disso, após a licença complementar estar disponível no início de 2021, o licenciamento apropriado será aplicado quando você criar novas políticas de retenção de log de auditoria de dez anos.
+Quaisquer dados de log de auditoria cobertos por uma política de retenção de log de auditoria de 10 anos que você criou após a disponibilidade geral serão retidos por 10 anos. Quando a licença complementar de retenção do log de auditoria de dez anos estiver disponível no início de 2021, você precisará comprar licenças de complemento para os usuários os quais os dados de auditoria estão sendo retidos por uma política de retenção existente de dez anos.
 
 **Os novos eventos da Auditoria Avançada estão disponíveis na API da Atividade de Gerenciamento do Office 365?**
 

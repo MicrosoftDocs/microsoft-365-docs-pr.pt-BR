@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações das fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 045e29cba293dd74d3a77beae80d78380eaa4147
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: 98a547a9af772e880465f75d9a3b01b1795639e1
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/10/2021
-ms.locfileid: "50604003"
+ms.locfileid: "50711947"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland (geral)
 
@@ -33,7 +33,7 @@ As migrações de locatários do Microsoft Cloud Deutschland (MCD) para a regiã
 
 O processo de migração será concluído ao longo de muitas semanas, dependendo do tamanho geral e da complexidade da organização. Enquanto a migração está em andamento, os usuários e administradores podem continuar utilizando os serviços com alterações notáveis detalhadas nesta documentação. O gráfico e a tabela definem fases e etapas durante a migração.
 
-|Etapa|Duração|Responsável|Descrição|
+|Etapa|Duration|Responsável|Descrição|
 |:--------|:--------|:--------|:--------|
 |Opt-In|Horas|Cliente|Opte pela sua organização na migração.|
 |Pré-trabalho|Dias|Cliente|Conclua o trabalho necessário para preparar usuários, estações de trabalho e rede para migração.|
@@ -55,9 +55,10 @@ As seções a seguir contêm ações e efeitos para cargas de trabalho à medida
 ## <a name="opt-in"></a>Opt-In
 
 **Aplica-se a**: Todos os clientes com um locatário do Office 365 hospedado no Microsoft Cloud Deutschland (MCD)
+
 | Step(s) | Descrição | Impacto |
 |:-------|:-----|:-------|
-| Não é possível migrar locatários do Office 365 hospedados no MCD sem consentimento. | A Microsoft obtém o direito de migrar de duas maneiras, o que permite à Microsoft orquestrar a transição de dados e serviços para a instância de serviços Globais do Office 365. <ol><li>O administrador de locatários do Office 365 opta pela migração orientada pela Microsoft. </li><li> Os clientes renovam qualquer assinatura em seu locatário do MCD Office 365 após 1º de maio de 2020. Notificaremos esses clientes sobre o direito de migração todos os meses, aguardaremos 30 dias para dar aos clientes a chance de cancelar e, em seguida, optar diretamente.</li></ol> | <ul><li>O locatário é marcado como consentido para migração, e o Centro de Administração exibe a confirmação. </li><li>O reconhecimento é postado no Centro de Mensagens do locatário do Office 365. A configuração do serviço continua dos pontos de extremidade do Microsoft Cloud Deutschland. </li><li>O administrador de locatários deve monitorar o Centro de Mensagens do Office 365 para atualizações sobre o status da fase de igração. </li></ul>|
+| Não é possível migrar locatários do Office 365 hospedados no MCD sem consentimento. | A Microsoft obtém o direito de migrar de duas maneiras, o que permite à Microsoft orquestrar a transição de dados e serviços para a instância de serviços Globais do Office 365. <ol><li>O administrador de locatários do Office 365 opta pela migração orientada pela Microsoft. </li><li> Os clientes renovam qualquer assinatura em seu locatário do MCD Office 365 após 1º de maio de 2020. Notificaremos esses clientes sobre o direito de migração todos os meses, aguardaremos 30 dias para dar aos clientes a chance de cancelar e, em seguida, optar diretamente.</li></ol> | <ul><li>O locatário é marcado como consentido para migração, e o Centro de Administração exibe a confirmação. </li><li>O reconhecimento é postado no Centro de Mensagens do locatário do Office 365. A configuração do serviço continua dos pontos de extremidade do Microsoft Cloud Deutschland. </li><li>O administrador de locatários deve monitorar o Centro de Mensagens do Office 365 para atualizações sobre o status da fase de migração. </li></ul>|
 
 ## <a name="subscription-phase-3"></a>Assinatura (Fase 3)
 
@@ -89,9 +90,9 @@ Considerações adicionais:
 
 **Aplica-se a:** Todos os clientes que usam o Exchange Online
 
-Se você estiver usando o Exchange Online híbrido: os administradores híbridos do Exchange Online devem executar o assistente de Configuração Híbrida  **(HCW)** várias vezes como parte dessa transição. Consulte as etapas [de migração avançadas de pré-trabalho para o Exchange](ms-cloud-germany-transition-add-experience.md#Exchange-Online-before-phase-5)
+Se você estiver usando o Exchange Online híbrido: os administradores híbridos do Exchange Online devem executar o assistente de Configuração Híbrida  **(HCW)** várias vezes como parte dessa transição. Consulte as etapas [de migração avançadas de pré-trabalho para o Exchange](ms-cloud-germany-transition-add-experience.md#exchange-online-before-phase-5)
 
-Conforme descrito no pré-trabalho de migração [,](ms-cloud-germany-transition-add-pre-work.md#exchange-online)antes do início da etapa de migração **5,** os clientes híbridos do Exchange Online precisam executar a versão mais recente do Assistente de Configruência Híbrida do Exchange (HCW) no modo "Office 365 Germany" para preparar a configuração local para a migração para serviços globais do Office 365.
+Conforme descrito no pré-trabalho de migração [,](ms-cloud-germany-transition-add-pre-work.md#exchange-online)antes do início da etapa de migração **5,** os clientes híbridos do Exchange Online precisam executar a versão mais recente do Assistente de Configuração Híbrida do Exchange (HCW) no modo "Office 365 Germany" para preparar a configuração local para a migração para os serviços globais do Office 365.
 
 Após a conclusão da fase de migração **5** (quando o aviso do Centro de Mensagens é publicado), você precisa executar o HCW novamente usando as configurações do Office 365 Worldwide para apontar seus sistemas locais para os serviços Globais do Office 365. Atualizações de DNS adicionais podem ser necessárias se você usar domínios personalizados.
 
@@ -177,7 +178,7 @@ Os clientes com o Dynamics 365 exigem envolvimento adicional para migrar as orga
 
 **Aplica-se a:** Todos os clientes que usam aplicativos da área de trabalho do Office (Word, Excel, PowerPoint, Outlook, ...)
 
-Os locatários do Office 365 que fazem a transição para a região "Alemanha" exigem que todos os usuários fechem, saiam do Office 365 e voltem para todos os aplicativos de área de trabalho do Office (Word, Excel, PowerPoint, Outlook etc.) e cliente do OneDrive for Business depois que a migração do locatário atingir a fase 9 . Entrar e entrar, permite que os serviços do Office obtenham novos tokens de autenticação do serviço global do Azure AD.
+Os locatários do Office 365 que fazem a transição para a região "Alemanha" exigem que todos os usuários fechem, saia do Office 365 e volte para todos os aplicativos de área de trabalho do Office (Word, Excel, PowerPoint, Outlook etc.) e cliente do OneDrive for Business depois que a migração do locatário atingir a fase 9. Entrar e entrar, permite que os serviços do Office obtenham novos tokens de autenticação do serviço global do Azure AD.
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
