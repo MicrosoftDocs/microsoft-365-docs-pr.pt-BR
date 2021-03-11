@@ -48,12 +48,14 @@
       href: billing-and-payments/view-your-bill-or-invoice.md
     - name: Entenda sua conta ou fatura
       href: billing-and-payments/understand-your-invoice.md
-    - name: Gerenciar métodos de pagamento
-      href: billing-and-payments/manage-payment-methods.md
     - name: Pagar por sua assinatura
       href: billing-and-payments/pay-for-your-subscription.md
+    - name: Gerenciar métodos de pagamento
+      href: billing-and-payments/manage-payment-methods.md
     - name: Alterar a frequência de cobrança
       href: billing-and-payments/change-payment-frequency.md
+    - name: Gerenciar notificações de faturamento e anexos de fatura
+      href: billing-and-payments/manage-billing-notifications.md
     - name: Compreender os perfis de cobrança
       href: billing-and-payments/manage-billing-profiles.md
     - name: Alterar os endereços para cobrança
