@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: 253b4f2c09468b45b8e6102f585a8e4b7bbe4e4e
-ms.sourcegitcommit: ddbc6f8ebadf2f8149dff910b743535cbc3fa3c8
+ms.openlocfilehash: ff4b4f517daccbce908411f3b5a62c0a1f11ba57
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49992497"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50597171"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -66,7 +66,7 @@ Os itens no SharePoint que têm um rótulo de retenção padrão (não declara o
 
 Para reter este conteúdo quando um usuário tenta alterá-lo ou excluí-lo, é feita uma verificação se o conteúdo foi alterado desde que as configurações de retenção foram aplicadas. Se essa for a primeira alteração desde que as configurações de retenção foram aplicadas, o conteúdo é copiado para a Biblioteca de Retenção para Preservação, permitindo que a pessoa altere ou exclua o conteúdo original. Todo o conteúdo em um conjunto de sites pode ser copiado para a Biblioteca de Retenção para Preservação, independentemente das configurações de retenção.
   
-Um trabalho do temporizador limpa periodicamente a Biblioteca de Retenção para Preservação. Esta tarefa compara todo o conteúdo da Biblioteca de Retenção para Preservação com todas as configurações de retenção para aquele conteúdo. O conteúdo anterior ao período de retenção configurado é excluído da Biblioteca de Retenção para Preservação e do local original, se ainda estiver lá. Este trabalho temporizado é executado a cada sete dias, o que significa que pode levar até sete dias para que o conteúdo seja apagado.
+Um trabalho do temporizador limpa periodicamente a Biblioteca de Retenção para Preservação. Para o conteúdo que estiver na biblioteca de Retenção para Preservação por mais de 30 dias, esse trabalho compara o conteúdo a todas as consultas usadas pelas configurações de retenção para aquele conteúdo. O conteúdo anterior ao período de retenção configurado é excluído da biblioteca de Retenção para Preservação e do local original, se ainda estiver lá. Esse trabalho de temporizador é executado a cada sete dias, o que significa que, juntamente com o mínimo de 30 dias, pode levar até 37 dias para que o conteúdo seja excluído da biblioteca de Retenção para Preservação.
   
 Esse comportamento se aplica ao conteúdo que existe quando as configurações de retenção foram aplicadas. Além disso, para políticas de retenção, qualquer conteúdo novo criado ou adicionado ao conjunto de sites depois que ele tiver sido incluído na política será retido após a exclusão. Entretanto, o novo conteúdo não será copiado para a Biblioteca de Retenção para Preservação na primeira vez em que for editado, somente quando for excluído. Para manter todas as versões de um arquivo, você deve ativar o [controle de versão](#how-retention-works-with-document-versions).
   

@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365.
-ms.openlocfilehash: 9470a73926327777055a321eb3a592ea3ddcf41e
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 4a7b544b6eded6f0cd6441ad7f6b02de790e5e44
+ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515035"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50603979"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -43,7 +43,7 @@ ms.locfileid: "50515035"
 
 Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md).
 
-Você deve ser um [administrador de senha ou administrador global](../add-users/about-admin-roles.md) para realizar essas etapas. 
+Você deve ser um administrador [global](../add-users/about-admin-roles.md) para executar essas etapas.
 
 Se é um usuário, você não tem as permissões para definir a senha para nunca expirar. Peça ao suporte técnico do seu trabalho ou da sua escola que faça isso para você. 
 
@@ -55,9 +55,7 @@ Como administrador, você pode fazer as senhas de usuário expirarem após um de
 > Por padrão, as senhas estão definidas para expirar em 90 dias. A pesquisa atual indica que as alterações de senha obrigatórias são mais prejudicadas do que o recomendado. Eles direcionam os usuários a escolher senhas mais fracas, reutilizar senhas ou atualizar senhas antigas de maneiras que são facilmente adivinhadas pelos hackers. Se a senha for configurada para nunca expirar, recomendamos habilitar a [autenticação multifator](../security-and-compliance/set-up-multi-factor-authentication.md).
 
 Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem após um período de tempo específico.
-> [!IMPORTANT]
-> Apenas os [administradores globais ](../add-users/about-admin-roles.md) podem executar essas etapas.
-  
+
 1. No centro de administração do, vá para **Configurações** \> **Configurações da Organização**.
 
 2. Vá para a página <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Segurança e privacidade</a>.

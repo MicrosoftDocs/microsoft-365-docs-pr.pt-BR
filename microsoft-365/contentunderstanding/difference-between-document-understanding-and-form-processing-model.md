@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Descreve as principais diferenças entre o modelo de compreensão de documentos e o modelo de processamento de formulário
-ms.openlocfilehash: f57d220eb77a783de5ac352f3cf684364252a163
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: 555dfa7d76335a3b943e860e5f41ed64c9d3e874
+ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49975872"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50596975"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Diferença entre modelo de compreensão de documentos e modelo de processamento de formulário 
 
@@ -66,7 +66,25 @@ Você pode aplicar os modelos de compreensão de documentos nas bibliotecas de d
 
 No momento, os modelos de processamento de formulário só podem ser aplicados à biblioteca de documentos do SharePoint a partir da qual eles foram criados. Isso permite que usuários licenciados com acesso ao site criem um modelo de processamento de formulário. Observe que um administrador precisa habilitar o processamento de formulários em uma biblioteca de documentos do Microsoft Office SharePoint Online para que esteja disponível para usuários licenciados.
 
- ## <a name="see-also"></a>Confira também
+## <a name="comparison-of-forms-processing-and-document-understanding"></a>Comparação de processamento de formulários e compreensão de documentos
+
+Use a tabela a seguir para entender quando usar o processamento de formulários e quando usar a compreensão de documentos:
+
+| Recurso | Processamento de formulários | Compreensão de documentos |
+| ------- | ------- | ------- |
+| Tipo de modelo - quando usar cada um | Usado para formatos de arquivo semiestruturados - por exemplo, documentos do Office onde há diferenças no layout, mas ainda assim informações semelhantes a serem extraídas. | Usado para formatos de arquivo não estruturados, por exemplo PDFs para conteúdo de formulários, como faturas ou pedidos de compra, onde o layout e a formatação são semelhantes. |
+| Criação de modelo | Modelo criado no construtor de AI com acesso direto da biblioteca de documentos do Microsoft Office SharePoint Online.| Modelo criado em interface nativa embutida no Centro de Conteúdo do Microsoft Office SharePoint Online.|
+| Tipo de classificação| Classificador configurável onde o ensino por máquina é usado para dar pistas ao sistema sobre quais dados extrair.| Classificador treinável com extratores opcionais usando ensino de máquina para atribuir a localização do documento em quais dados extrair.|
+| Localizações | Restrito a uma única Biblioteca de Documentos, a menos que você use o Power Platform para recuperar do CDS.| Pode ser aplicado a várias bibliotecas.|
+| Tipos de arquivo compatíveis| Treine em PDF, JPG, formato PNG, total de 50 MB e 500 páginas.| Treine em 5-10 arquivos PDF, Office ou e-mail, incluindo exemplos negativos.<br>Os arquivos do Office são truncados em 64k caracteres. Os arquivos digitalizados por OCR são limitados a 20 páginas.|
+| Integrar com metadados gerenciados | Não | Sim, por meio da configuração nas colunas da Biblioteca de Documentos antes do modelo de treinamento.|
+| Integração de recursos de conformidade quando a Proteção de Informações da Microsoft está habilitada | Defina rótulos de retenção.<br>Definir rótulos de sensibilidade está chegando. | Defina rótulos de retenção.<br>Definir rótulos de sensibilidade está chegando. |
+| Regiões com suporte| O processamento de formulários depende do Power Platform. Para obter informações sobre a disponibilidade global para Power Platform e AI Builder, consulte [Disponibilidade da Power Platform ](https://dynamics.microsoft.com/geographic-availability/). | Disponível em todas as regiões.|
+| Custo de transação | Usa créditos do AI Builder.<br>Os créditos podem ser adquiridos em lotes de 1M.<br>1M de créditos são incluídos quando 300+ licenças do Microsoft Office SharePoint Online Syntex são adquiridas.<br>1M de créditos permitirá o processamento de 2.000 páginas de arquivo.| N/A |
+| Capacidade | Provisionado no ambiente de serviço de dados comum padrão.| Sem restrições de capacidade.|
+| Idiomas compatíveis| English <br>Chegando no final de 2021: Espanhol, Alemão, Francês, Italiano| Os modelos funcionam em todas as línguas do alfabeto latino. Além do Inglês: Alemão, Sueco, Francês, Espanhol, Italiano e Português.|
+
+## <a name="see-also"></a>Confira também
 [Treinamento: melhore o desempenho de negócios com o Construtor AI](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
 
 
