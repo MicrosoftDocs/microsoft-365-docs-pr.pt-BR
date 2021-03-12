@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: eeddf4c963284acaa908e07ddfdae77ec0bb080c
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: fd7e5dc37daad220257b4203679c6bb765140385
+ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114926"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50712041"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -47,7 +47,7 @@ A Auditoria Avançada no Microsoft 365 fornece uma política de retenção de lo
 
 - Você pode ter até 50 políticas de retenção de log de auditoria em sua organização.
 
-- Para manter um log de auditoria por mais de 90 dias, o usuário que gerou o log de auditoria deve ter uma licença do Office 365 E5 ou do Microsoft 365 E5, ou ter uma licença complementar do Microsoft 365 E5 Compliance ou do E5 eDiscovery.
+- Para reter um log de auditoria por mais de 90 dias (e até 1 ano), o usuário que gera o log de auditoria (realizando uma atividade auditada) deve ser atribuído uma licença Office 365 E5 ou Microsoft 365 E5 ou ter um Microsoft 365 E5 Compliance ou E5 eDiscovery e complemento de licença de Auditoria. Para reter logs de auditoria por 10 anos, o usuário que gera o log de auditoria também deve receber uma licença complementar de retenção de log de auditoria de 10 anos, além de uma licença E5.
 
 - Todas as políticas de retenção de log de auditoria personalizadas (criadas por sua organização) têm prioridade sobre a política de retenção padrão. Por exemplo, se você criar uma política de retenção de log de auditoria para a atividade de caixa de correio do Exchange que tenha um período de retenção menor que um ano, os registros de auditoria para as atividades de caixa de correio serão mantidos por um período menor especificado pela política personalizada.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Obter uma visão geral do Centro de Mensagens do Microsoft 365 e sua função no gerenciamento de alterações.
-ms.openlocfilehash: 6a7c547a0423a7e2bda2d3ced45d285ee55075ca
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 905aa411e931f802735c913922a6431e7466cdb5
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405907"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727218"
 ---
 # <a name="message-center"></a>Centro de mensagens
 
@@ -72,7 +72,7 @@ Você também pode usar o aplicativo administrador do [Microsoft 365](https://go
 
 ### <a name="messages"></a>Mensagens
 
-O centro de mensagens apresenta uma exibição de todas as mensagens ativas em um formato de tabela. Por padrão, ela mostra a mensagem mais recente na parte superior da lista. Você pode selecionar **Serviço para** ver mensagens para vários serviços, como Aplicativos do Microsoft 365, SharePoint Online, etc.   Em **Marca,** você pode selecionar **Impacto de administrador,** privacidade de dados, atualização **de** recursos, **atualização principal,** **novo** recurso ou **mensagens de impacto do** usuário.  Em **Estado de mensagem,** você pode selecionar **Favoritos,** Mensagens **Não Lidas** ou **Atualizadas.**
+O centro de mensagens apresenta uma exibição de todas as mensagens ativas em um formato de tabela. Por padrão, ela mostra a mensagem mais recente na parte superior da lista. Você pode selecionar **Serviço para** ver mensagens para vários serviços, como Aplicativos do Microsoft 365, SharePoint Online, etc.   Em **Marca,** você pode selecionar **Impacto do administrador,** privacidade de dados, atualização de recursos, atualização **principal,** **novo** **recurso,** aposentadoria ou **mensagens de impacto do** usuário.   Em **Estado de mensagem,** você pode selecionar **Favoritos,** Mensagens **Não Lidas** ou **Atualizadas.**
 
 A guia Arquivo morto mostra as mensagens arquivadas. Para arquivar uma mensagem, no painel de mensagens, selecione **Arquivar**.
 
@@ -90,7 +90,7 @@ Aqui está uma visão geral rápida das informações que você verá em cada co
 |Título da mensagem  <br/> |Os títulos da mensagem são breves descrições das alterações futuras. Se o título completo não for exibido, passe o cursor sobre ele e o título inteiro aparecerá em uma caixa pop-up.  <br/> |
 |Serviço <br/> |Os ícones indicam o aplicativo ao qual a mensagem se aplica.<br/> |
 |Mais opções <br/> |Mais opções permitem descartar uma mensagem, marcá-la como lida ou não lida ou compartilhá-la com outro administrador. Para restaurar uma mensagem arquivada, selecione a guia Arquivo morto, marque a marca de seleção ao lado da mensagem e selecione **Restaurar**.  <br/> |
-|Etiquetas <br/> |Você pode escolher marcas no drop-down **Tag** para filtrar mensagens. As marcas disponíveis são: Impacto do **administrador,** **atualização** **principal,** Privacidade de Dados, **Atualização** de recursos, **Novo recurso** e Impacto **do usuário.** <br/> |
+|Marcas <br/> |Você pode escolher marcas no drop-down **Tag** para filtrar mensagens. As marcas disponíveis são: Impacto do **administrador,** **Atualização** **principal,** Privacidade de Dados, **Atualização** de Recursos, **Novo** recurso, **Aposentadoria** e Impacto **do usuário.** <br/> |
 |Categoria  <br/> | Isso não é mostrado por padrão, mas pode ser especificado no painel **Escolher colunas.** As mensagens são identificadas por uma das três categorias a seguir: <br/><br/> **Evitar ou corrigir problemas**: informa sobre problemas conhecidos que afetam sua organização e pode exigir que você tome medidas para evitar interrupções no serviço. Os problemas de prevenção ou correção são diferentes das mensagens de saúde do serviço porque elas solicitam que você seja proativo para evitar problemas. <br/> <br/> **Plano de alteração**: Informa as alterações no Microsoft 365 que podem exigir que você aja para evitar interrupções no serviço. Por exemplo, vamos permitir que você saiba sobre alterações nos requisitos do sistema ou sobre os recursos que estão sendo removidos. Tentamos fornecer pelo menos 30 dias de aviso de qualquer alteração que exija que um administrador aja para manter o serviço funcionando normalmente. <br/> <br/> **Mantenha-se** informado : informa sobre recursos novos ou atualizados que estamos a ligar em sua organização. Os recursos geralmente são anunciados primeiro no Mapa do [Microsoft 365.](https://go.microsoft.com/fwlink/?linkid=2070821) <br/><br/>Também pode permitir que você saiba sobre a manutenção planejada de acordo com nosso Contrato de Nível de Serviço. A manutenção planejada pode resultar em tempo de in atividade, em que você ou seus usuários não podem acessar o Microsoft 365, um recurso específico ou um serviço como email ou OneDrive for Business.  <br/> |
 |Agir por  <br/> |Só teremos datas aqui se estamos fazendo uma alteração que exija que você tome uma ação por um determinado prazo. Como raramente usamos **o Ato por** coluna, se você vir algo aqui, você deve prestar atenção extra a ele.  <br/> |
 |Última atualização  <br/> |Data em que a mensagem foi publicada ou atualizada pela última vez.  <br/> |

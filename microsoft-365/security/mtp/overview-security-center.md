@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 87149ab9c99168d62f5114555a46b8bfaee83ab2
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 7db9b9762830384370a4bedf220d7a52112ab1ea
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712097"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727206"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Visão geral da central de segurança unificada do Microsoft 365
 
@@ -107,6 +107,9 @@ Controles comuns e conteúdo aparecem no mesmo local ou são condensados em um f
 
 - Saiba mais sobre como gerenciar [o acesso ao Microsoft 365 Defender](mtp-permissions.md)
 - Saiba mais sobre como criar [funções personalizadas](custom-roles.md) no Centro de segurança do Microsoft 365
+
+> [!NOTE]
+> O Microsoft Defender for Endpoint no centro de segurança do Microsoft 365 dá suporte à concessão de acesso a [MSSPs (provedores](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) de serviços de segurança gerenciados) da mesma forma que o acesso é concedido no centro de segurança do [Microsoft Defender.](https://docs.microsoft.com/microsoft-365/security/mtp/mssp-access)
 
 ### <a name="integrated-reports"></a>Relatórios integrados
 
