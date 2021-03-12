@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para os pontos de extremidade. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: d5394499b5514e6e0a49f958a62e70cde61ebf44
-ms.sourcegitcommit: 88820cd2536a7da868e472d10b4d265c52e5692b
+ms.openlocfilehash: c4f0d10808d564fc0ee19510c25d33caba0471ff
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50279305"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741582"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
 
@@ -43,6 +43,8 @@ O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tip
 |copiar para mídia removível USB |Detecta quando um usuário tenta copiar um item ou informação para uma mídia removível ou dispositivo USB.         | auditável e restringível|
 |Copiar para um compartilhamento de rede    |Detecta quando um usuário tenta copiar um item para um compartilhamento de rede ou unidade de rede mapeada         |auditável e restringível|
 |imprimir um documento    |Detecta quando um usuário tenta imprimir um item protegido em uma impressora local ou de rede.| auditável e restringível         |
+|copiar para uma sessão remota|Detecta quando um usuário tenta copiar um item para uma sessão remota da área de trabalho |  auditável e restringível|
+|copiar para um dispositivo Bluetooth|Detecta quando um usuário tenta copiar um item para um aplicativo Bluetooth não conectado (conforme definido na lista de aplicativos Bluetooth não relacionados nas configurações de DLP do ponto de extremidade).| auditável e restringível|
 |criar um Item|Detecta quando um usuário cria um item| auditável|
 |renomear um item|Detecta quando um usuário renomeia um item| auditável|
 

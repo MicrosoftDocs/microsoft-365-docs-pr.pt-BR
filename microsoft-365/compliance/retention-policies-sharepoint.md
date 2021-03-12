@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: ff4b4f517daccbce908411f3b5a62c0a1f11ba57
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: dd1260df23579ad2e6605805bafe9e36d2274a8e
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597171"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727396"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
@@ -67,8 +67,10 @@ Os itens no SharePoint que têm um rótulo de retenção padrão (não declara o
 Para reter este conteúdo quando um usuário tenta alterá-lo ou excluí-lo, é feita uma verificação se o conteúdo foi alterado desde que as configurações de retenção foram aplicadas. Se essa for a primeira alteração desde que as configurações de retenção foram aplicadas, o conteúdo é copiado para a Biblioteca de Retenção para Preservação, permitindo que a pessoa altere ou exclua o conteúdo original. Todo o conteúdo em um conjunto de sites pode ser copiado para a Biblioteca de Retenção para Preservação, independentemente das configurações de retenção.
   
 Um trabalho do temporizador limpa periodicamente a Biblioteca de Retenção para Preservação. Para o conteúdo que estiver na biblioteca de Retenção para Preservação por mais de 30 dias, esse trabalho compara o conteúdo a todas as consultas usadas pelas configurações de retenção para aquele conteúdo. O conteúdo anterior ao período de retenção configurado é excluído da biblioteca de Retenção para Preservação e do local original, se ainda estiver lá. Esse trabalho de temporizador é executado a cada sete dias, o que significa que, juntamente com o mínimo de 30 dias, pode levar até 37 dias para que o conteúdo seja excluído da biblioteca de Retenção para Preservação.
-  
-Esse comportamento se aplica ao conteúdo que existe quando as configurações de retenção foram aplicadas. Além disso, para políticas de retenção, qualquer conteúdo novo criado ou adicionado ao conjunto de sites depois que ele tiver sido incluído na política será retido após a exclusão. Entretanto, o novo conteúdo não será copiado para a Biblioteca de Retenção para Preservação na primeira vez em que for editado, somente quando for excluído. Para manter todas as versões de um arquivo, você deve ativar o [controle de versão](#how-retention-works-with-document-versions).
+
+Embora os arquivos sejam mantidos na biblioteca de Retenção para preservação, os administradores não poderão excluir o site do SharePoint ou a conta do OneDrive do conteúdo.
+
+Esse comportamento de copiar arquivos para a biblioteca de Retenção para preservação aplica-se ao conteúdo existente quando as configurações de retenção forem aplicadas. Além disso, para políticas de retenção, qualquer novo conteúdo criado ou adicionado ao site depois que ele foi incluído na política será mantido na biblioteca de Retenção para Preservação. Entretanto, o novo conteúdo não será copiado para a Biblioteca de Retenção para Preservação na primeira vez em que for editado, somente quando for excluído. Para manter todas as versões de um arquivo, você deve ativar o [controle de versão](#how-retention-works-with-document-versions).
   
 Os usuários verão uma mensagem de erro se tentarem excluir uma biblioteca, lista, pasta ou site sujeito à retenção. Eles podem excluir uma pasta se primeiro moverem ou excluirem quaisquer arquivos da pasta que estejam sujeitos à retenção.
 
