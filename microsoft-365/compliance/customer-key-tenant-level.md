@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Saiba como configurar a Chave do Cliente para todos os dados no locatário do Microsoft 365.
-ms.openlocfilehash: 7bc5403f73e2d61f47e92ab5c94509f3fe9f3e33
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 7ffa9a8148a8ae699711b62da48cd2c856d48cac
+ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454642"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50727474"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Visão geral da Chave do Cliente do Microsoft 365 no nível do locatário (visualização pública)
 
@@ -33,6 +33,7 @@ Usando chaves fornecidas, você pode criar uma POLÍTICA de criptografia de dado
 - Sugestões de chat do Teams pela Cortana
 - Mensagens de status do Teams
 - Informações de usuário e sinal para o Exchange Online
+- Caixas de correio do Exchange Online que ainda não estão criptografadas DEPs de Chave do Cliente no nível do aplicativo
 
 Para o Microsoft Teams, a Chave do Cliente no nível do locatário criptografa novos dados a partir do momento em que o DEP é atribuído ao locatário. A visualização pública não dá suporte à criptografia de dados passados. Para o Exchange Online, a Chave do Cliente criptografa todos os dados existentes e novos.
 
@@ -42,13 +43,9 @@ Você pode criar vários DEPs por locatário, mas só pode atribuir um DEP a qua
 
 Se você já tiver a Chave do Cliente configurada para o Exchange Online e o Sharepoint Online, veja como a nova visualização pública no nível do locatário se encaixa.
 
-A política de criptografia no nível de locatário que você cria criptografa todos os dados para as cargas de trabalho do Microsoft Teams e do Exchange Online no Microsoft 365. Essa política não interfere em DEPs afinados que você já criou na Chave do Cliente.
+A política de criptografia no nível de locatário que você cria criptografa todos os dados para as cargas de trabalho do Microsoft Teams e do Exchange Online no Microsoft 365. No entanto, para o Exchange Online, se você já tiver atribuído DEPs de Chave de Cliente a caixas de correio individuais, a política de nível de locatário não substituirá esses DEPs. A política de nível de locatário só criptografa caixas de correio que ainda não foram atribuídas a um DEP de Chave de Cliente de nível de caixa de correio.
 
-Exemplos:
-
-Os arquivos do Microsoft Teams e algumas gravações de chamada e reunião do Teams salvas no OneDrive for Business e no SharePoint são criptografados por um DEP do SharePoint Online. Uma única DEP do SharePoint Online criptografa conteúdo em um único geo.
-
-Para o Exchange Online, você pode criar um DEP que criptografa uma ou mais caixas de correio de usuário com a Chave do Cliente. Quando você cria uma política no nível de locatário, essa política não criptografa as caixas de correio criptografadas. No entanto, a chave de nível de locatário criptografará as caixas de correio que já não são afetadas por um DEP.
+Por exemplo, arquivos do Microsoft Teams e algumas gravações de chamada e reunião do Teams salvas no OneDrive for Business e no SharePoint são criptografadas por uma DEP do SharePoint Online. Uma única DEP do SharePoint Online criptografa conteúdo em um único geo.
 
 ## <a name="set-up-customer-key-at-the-tenant-level-public-preview"></a>Configurar a Chave do Cliente no nível do locatário (visualização pública)
 
@@ -274,7 +271,7 @@ Para verificar se uma data de expiração não está definida para suas chaves, 
 Get-AzKeyVaultKey -VaultName <vault name>
 ```
 
-Uma chave expirada não pode ser usada pela Chave do Cliente e as operações tentadas com uma chave expirada falharão e possivelmente resultarão em uma paralisação de serviço. É recomendável que as chaves usadas com a Chave do Cliente não tenham uma data de expiração. Uma data de expiração, uma vez definida, não pode ser removida, mas pode ser alterada para uma data diferente. Se uma chave tiver que ser usada com um conjunto de datas de expiração, altere o valor de expiração para 31/12/9999. Chaves com uma data de expiração definida como uma data diferente de 31/12/9999 não passarão na validação do Microsoft 365.
+Uma chave expirada não pode ser usada pela Chave do Cliente e as operações tentadas com uma chave expirada falharão e possivelmente resultarão em uma paralisação de serviço. É recomendável que as chaves usadas com a Chave do Cliente não tenham uma data de expiração. Uma data de expiração, uma vez definida, não pode ser removida, mas pode ser alterada para uma data diferente. Se uma chave tiver que ser usada com um conjunto de datas de expiração, altere o valor de expiração para 31/12/9999. Chaves com uma data de expiração definida para uma data diferente de 31/12/9999 não passarão na validação do Microsoft 365.
   
 Para alterar uma data de expiração definida para qualquer valor diferente de 31/12/9999, execute o cmdlet [Update-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/update-azkeyvaultkey) da seguinte forma:
   
@@ -299,10 +296,10 @@ Para executar esses cmdlets, você precisa ter permissões atribuídas. Embora e
 ### <a name="create-policy"></a>Criar uma política
 
 ```powershell
-   New-M365DataAtRestEncryptionPolicy [-Name] <String> -AzureKeyIDs <MultiValuedProperty> [-Description <String>] [-Enabled <Boolean>]
+   New-M365DataAtRestEncryptionPolicy [-Name] <String> -AzureKeyIDs <MultiValuedProperty> [-Description <String>]
 ```
 
-Descrição: Habilita o administrador de conformidade a criar uma nova política de criptografia de dados (DEP) usando duas chaves raiz AKV. Depois de criado, uma política pode ser atribuída usando Set-M365DataAtRestEncryptionPolicy cmdlet. Após a primeira atribuição de chaves ou depois de girar as teclas, pode levar até 24 horas para que as novas chaves entre em vigor. Se o novo DEP levar mais de 24 horas para entrar em vigor, contate a Microsoft.
+Descrição: Habilita o administrador de conformidade a criar uma nova política de criptografia de dados (DEP) usando duas chaves raiz AKV. Depois de criado, uma política pode ser atribuída usando Set-M365DataAtRestEncryptionPolicyAssignment cmdlet. Após a primeira atribuição de chaves ou depois de girar as teclas, pode levar até 24 horas para que as novas chaves entre em vigor. Se o novo DEP levar mais de 24 horas para entrar em vigor, contate a Microsoft.
 
 Exemplo:
 
@@ -321,7 +318,7 @@ Parâmetros:
 ### <a name="assign-policy"></a>Atribuir política
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -Policy “<Default_PolicyName or Default_PolicyID>”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “<Default_PolicyName or Default_PolicyID>”
 ```
 
 Descrição: esse cmdlet é usado para configurar a Política de Criptografia de Dados padrão. Essa política será usada para criptografar dados em todas as cargas de trabalho de suporte. 
@@ -329,18 +326,19 @@ Descrição: esse cmdlet é usado para configurar a Política de Criptografia de
 Exemplo:
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -Policy “Tenant default policy”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “Default_PolicyName”
 ```
 
 Parâmetros:
+
 | Nome | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
--Policy|Especifica a política de criptografia de dados que precisa ser atribuída; especifique o Nome da Política ou a ID da Política.|N|
+-DataEncryptionPolicy|Especifica a política de criptografia de dados que precisa ser atribuída; especifique o Nome da Política ou a ID da Política.|N|
 
 ### <a name="modify-or-refresh-policy"></a>Modificar ou atualizar política
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicy [-Identity] < M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter> -Refresh [-Enabled <Boolean>] [-Name <String>] [-Description <String>]
+Set-M365DataAtRestEncryptionPolicy [-Identity] <M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter> -Refresh [-Enabled <Boolean>] [-Name <String>] [-Description <String>]
 ```
 
 Descrição: o cmdlet pode ser usado para modificar ou atualizar uma política existente. Ele também pode ser usado para habilitar ou desabilitar uma política. Após a primeira atribuição de chaves ou depois de girar as teclas, pode levar até 24 horas para que as novas chaves entre em vigor. Se o novo DEP levar mais de 24 horas para entrar em vigor, contate a Microsoft.
@@ -360,19 +358,20 @@ Set-M365DataAtRestEncryptionPolicy -Identity “EUR Policy” -Refresh
 ```
 
 Parâmetros:
+
 | Nome | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
 |-Identity|Especifica a política de criptografia de dados que você deseja modificar.|N|
 |-Refresh|Use a opção Atualizar para atualizar a política de criptografia de dados depois de girar qualquer uma das chaves associadas no Cofre de Chaves do Azure. Não é preciso especificar um valor com essa opção.|S|
 |-Habilitado|O parâmetro Enabled habilita ou desabilita a política de criptografia de dados. Antes de desabilitar uma política, você deve desaigná-la do locatário. Os valores válidos são:</br > $true: a política está habilitada</br > $true: a política está habilitada. Esse é o valor padrão.
 |S|
-|-Name|O parâmetro Name especifica o nome exclusivo da política de criptografia de dados.|S
+|-Name|O parâmetro Name especifica o nome exclusivo da política de criptografia de dados.|S|
 |-Description|O parâmetro Description especifica uma descrição opcional para a política de criptografia de dados.|S|
 
 ### <a name="get-policy-details"></a>Obter detalhes da política
 
 ```powershell
-Get-M365DataAtRestEncryptionPolicy [-Identity] < M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter>
+Get-M365DataAtRestEncryptionPolicy [-Identity] <M365DataAtRestEncryptionPolicy DataEncryptionPolicyIdParameter>
 ```
 
 Descrição: este cmdlet lista todas as políticas de criptografia M365DataAtRest criadas para o locatário ou detalhes sobre uma política específica.

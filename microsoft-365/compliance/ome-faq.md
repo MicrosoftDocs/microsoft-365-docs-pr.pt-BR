@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1bb5e93b08b74f5691c76e9a59bf9fa970e08f36
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 09d9293cfb1b574b4c179a0b486d436dab99edf2
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597191"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741342"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -145,8 +145,7 @@ Quando os anexos são protegidos com um email protegido, os clientes do Outlook 
 
 ## <a name="what-email-clients-support-revocation-of-protected-emails"></a>Quais clientes de email suportam revogação de emails protegidos?
 
-O Outlook na Web dá suporte à revogação de emails protegidos.  Consulte [Como revogar uma mensagem criptografada que você enviou para](https://docs.microsoft.com/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide#how-to-revoke-an-encrypted-message-that-you-sent) obter detalhes.
-
+O Outlook na Web dá suporte à revogação de emails protegidos.  Consulte [Como revogar uma mensagem criptografada que você enviou para](revoke-ome-encrypted-mail.md#how-to-revoke-an-encrypted-message-that-you-sent) obter detalhes.
 
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>Posso criptografar automaticamente mensagens configurando políticas?
 
@@ -218,8 +217,8 @@ Atualmente, há duas limitações conhecidas:
    ```powershell
    Add-MailboxPermission -Identity support@contoso.onmicrosoft.com -User ayla@contoso.com -AccessRights FullAccess -AutoMapping $true
    ```
-   
- ## <a name="can-i-open-encrypted-messages-sent-to-another-users-mailbox-with-fullaccess"></a>Posso abrir mensagens criptografadas enviadas para a caixa de correio de outro usuário com Fullaccess?
+
+## <a name="can-i-open-encrypted-messages-sent-to-another-users-mailbox-with-fullaccess"></a>Posso abrir mensagens criptografadas enviadas para a caixa de correio de outro usuário com Fullaccess?
 
 Os usuários podem abrir mensagens criptografadas desde que tenham acesso direto e a automação seja ativas. O acesso não será permitido se o acesso for concedido por meio de um grupo de segurança habilitado para email.
 

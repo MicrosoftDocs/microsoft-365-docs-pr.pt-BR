@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Os administradores podem aprender a criar regras de fluxo de emails (regras de transporte) para criptografar e descriptografar mensagens usando a Criptografia de Mensagens do Office 365.
-ms.openlocfilehash: 8060309f350b50c2aadc9a703e7a57a4caf8808c
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 58b5e592ee8da92a2dbfd10f533aad3240b7a484
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597223"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741550"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages"></a>Definir regras de fluxo de emails para criptografar mensagens de email
 
@@ -86,7 +86,7 @@ Você pode definir regras de fluxo de emails para disparar a criptografia de men
 
 6. Para habilitar a criptografia usando os novos  recursos OME, em **Fazer** o seguinte, escolha Modificar a segurança da mensagem e, em seguida, escolha Aplicar a Criptografia de Mensagens do **Office 365** e a proteção de direitos. Selecione um modelo RMS na lista, escolha **Salvar** e escolha **OK**.
 
-   A lista de modelos inclui todos os modelos e opções padrão, bem como todos os modelos personalizados que você criou para uso pelo Office 365. Se a lista estiver vazia, verifique se você definiu a Criptografia de Mensagens do Office 365 com os novos recursos, conforme descrito em Configurar novos recursos de Criptografia de Mensagens do Office 365 com base na Proteção de Informações [do Azure.](set-up-new-message-encryption-capabilities.md) Para obter informações sobre os modelos padrão, consulte [Configuring and managing templates for Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). Para obter informações sobre a **opção Não Encaminhar,** consulte [a opção Não Encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails). Para obter informações sobre a **opção criptografar somente,** consulte [Encrypt Only option for emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
+   A lista de modelos inclui todos os modelos e opções padrão, bem como todos os modelos personalizados que você criou para uso pelo Office 365. Se a lista estiver vazia, verifique se você definiu a Criptografia de Mensagens do Office 365 com os novos recursos, conforme descrito em Configurar novos recursos de Criptografia de Mensagens do Office 365 com base na Proteção de Informações [do Azure.](set-up-new-message-encryption-capabilities.md) Para obter informações sobre os modelos padrão, consulte [Configuring and managing templates for Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). Para obter informações sobre a opção Não Encaminhar, consulte [a opção Não Encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails). Para obter informações sobre a opção somente criptografar, consulte [Encrypt Only option for emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
 
    Você pode escolher **adicionar ação** se quiser especificar outra ação.
 

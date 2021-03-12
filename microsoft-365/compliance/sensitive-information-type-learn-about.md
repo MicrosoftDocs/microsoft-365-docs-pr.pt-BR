@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: e125a6dfb35b7018b5f85100184c842da9231327
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 90b545f60c68ac6b76509e14daf1258df66e1c63
+ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407321"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741528"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Aprenda sobre os tipos de informações confidenciais
 
@@ -103,7 +103,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Número de Identidade Nacional da Argentina 
-- Identidade 
+- Identity 
 - Identificação do Cartão de Identidade Nacional 
 - DNI 
 - Registro Nacional de Pessoas da NIC 
@@ -124,6 +124,11 @@ Um nível de confiança alto retorna o menor número de falsos positivos, mas po
 
 Você deve usar padrões de alto nível de confiança com contagens baixas, digamos cinco a dez e padrões de baixa confiança com contagens mais altas, digamos 20 ou mais.
 
+> [!NOTE]
+> Se você tiver políticas existentes ou SITs (tipos de informações confidenciais personalizados) definidos usando níveis de confiança baseados em número (também sabem como precisão), eles serão automaticamente mapeados para os três níveis de confiança discretos; baixa confiança, confiança média e alta confiança na interface do usuário do Centro de Conformidade e Segurança.
+> - Todas as políticas com precisão mínima ou padrões SIT personalizados com níveis de confiança entre 76 e 100 serão mapeadas para alta confiança. 
+> - Todas as políticas com precisão mínima ou padrões SIT personalizados com níveis de confiança entre 66 e 75 serão mapeadas para confiança média.
+> - Todas as políticas com precisão mínima ou padrões SIT personalizados com níveis de confiança menores ou iguais a 65 serão mapeadas para baixa confiança. 
 ## <a name="creating-custom-sensitive-information-types"></a>Criando tipos de informações confidenciais personalizadas
 
 Para criar tipos de informações confidenciais personalizadas no Centro de Conformidade e Segurança, você pode escolher entre várias opções:
