@@ -106,6 +106,8 @@
           href: sit-edm-wizard.md
         - name: Modificar o esquema de Correspondência de Dados Exato para usar a correspondência configurável
           href: sit-modify-edm-schema-configurable-match.md
+        - name: Crie notificações para atividades de correspondência de dados exata (pré-visualização)
+          href: sit-edm-notifications-activities.md
         - name: Criar um tipo de informação confidencial personalizada - Centro de Conformidade e Segurança
           href: create-a-custom-sensitive-information-type.md
         - name: Criar um tipo de informação confidencial personalizada - PowerShell
