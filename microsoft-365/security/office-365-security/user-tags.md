@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Microsoft Defender para Office 365 Plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft Defender para Office 365 para identificar rapidamente os usuários marcados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6e5ddffad6405f48a9af55b5123729eb256064a7
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 80bd360888be3aeea42da6f9b58a119a9752d382
+ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453640"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50758887"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft Defender para Office 365
 
@@ -45,6 +45,8 @@ Depois de aplicar marcas de sistema ou marcas personalizadas aos usuários, voc�
 
 Este artigo explica como configurar marcas de usuário no Centro de Conformidade & Segurança. Não há cmdlets no Centro de Conformidade & segurança para gerenciar marcas de usuário.
 
+Para ver como as marcas de usuário fazem parte da estratégia para ajudar a proteger contas de usuário de alto impacto, consulte Recomendações de segurança para contas de prioridade [no Microsoft 365](security-recommendations-for-priority-accounts.md).
+
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Marcas de** usuário, abra <https://protection.office.com/userTags> .
@@ -63,9 +65,9 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
 
 - Você também pode gerenciar e monitorar contas de prioridade no Centro de administração do Microsoft 365. Para obter instruções, consulte [Manage and monitor priority accounts](../../admin/setup/priority-accounts.md).
 
-## <a name="use-the-security-center-to-create-user-tags"></a>Usar o Centro de Segurança para criar marcas de usuário
+## <a name="use-the-security--compliance-center-to-create-user-tags"></a>Use o Centro de Conformidade & segurança para criar marcas de usuário
 
-1. No Centro de Segurança, acesse Marcas **de usuário** de gerenciamento \> **de ameaças.**
+1. No Centro de Conformidade & segurança, acesse Marcas **de** usuário de gerenciamento \> **de ameaças.**
 
 2. Na página **Marcas de usuário** abertas, clique em Criar **marca**.
 
@@ -94,9 +96,9 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
 
    Quando terminar, clique em **Enviar**.
 
-## <a name="use-the-security-center-to-view-user-tags"></a>Usar o Centro de Segurança para exibir marcas de usuário
+## <a name="use-the-security--compliance-center-to-view-user-tags"></a>Use o Centro de Conformidade & segurança para exibir marcas de usuário
 
-1. No Centro de Segurança, acesse Marcas **de usuário** de gerenciamento \> **de ameaças.**
+1. No Centro de Conformidade & segurança, acesse Marcas **de** usuário de gerenciamento \> **de ameaças.**
 
 2. Na página **Marcas de** usuário abertas, selecione a marca de usuário que você deseja exibir (não clique na caixa de seleção).
 
@@ -104,9 +106,9 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
 
    Quando terminar, clique em **Fechar**.
 
-## <a name="use-the-security-center-to-modify-user-tags"></a>Usar o Centro de Segurança para modificar marcas de usuário
+## <a name="use-the-security--compliance-center-to-modify-user-tags"></a>Use o Centro de Conformidade & segurança para modificar marcas de usuário
 
-1. No Centro de Segurança, acesse Marcas **de usuário** de gerenciamento \> **de ameaças.**
+1. No Centro de Conformidade & segurança, acesse Marcas **de** usuário de gerenciamento \> **de ameaças.**
 
 2. Na página **Marcas de usuário** abertas, selecione a marca de usuário que você deseja exibir e clique em Editar **marca**.
 
@@ -114,10 +116,10 @@ Este artigo explica como configurar marcas de usuário no Centro de Conformidade
 
    Quando terminar, clique em **Enviar**.
 
-## <a name="use-the-security-center-to-remove-user-tags"></a>Usar o Centro de Segurança para remover marcas de usuário
+## <a name="use-the-security--compliance-center-to-remove-user-tags"></a>Use o Centro de Conformidade & segurança para remover marcas de usuário
 
 **Observação**: não é possível remover a marca de conta **De prioridade.**
 
-1. No Centro de Segurança, acesse Marcas **de usuário** de gerenciamento \> **de ameaças.**
+1. No Centro de Conformidade & segurança, acesse Marcas **de** usuário de gerenciamento \> **de ameaças.**
 
 2. Na página **Marcas de** usuário abertas, selecione a marca de usuário que você deseja remover, clique em Excluir **marca** e selecione **Sim, remova** no aviso exibido.

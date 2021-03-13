@@ -6,7 +6,7 @@ ms.author: kwekua
 author: kwekua
 manager: scotv
 audience: Admin
-ms.topic: article
+ms.topic: landing-page
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Aprenda a configurar sua assinatura do Microsoft Business Premium, Microsoft 365 Business Standard, Microsoft 365 Business Basic, Microsoft 365 Apps for business ou Office 365 Education.
-ms.openlocfilehash: b0e4e67fe07d65ef09c0f5856dfafbdf13d13b35
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 01701dc5d4c8fcdc379f70efd2f94e54c7c1725b
+ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454212"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50766338"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>Configurar o Microsoft 365 para empresas
 
