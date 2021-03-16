@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: pré-trabalho ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: e922cf3b5599e81905499db60000c5b5f34b69ad
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 5110c6bd86d5df35a7ceccb4abfedf059cb826d0
+ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712265"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "50826171"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Pré-trabalho para a migração do Microsoft Cloud Deutschland
 
@@ -49,6 +49,7 @@ Use esses links para chegar às etapas de pré-trabalho relevantes para sua orga
 | Cancele assinaturas de avaliação. | As assinaturas de avaliação não serão migradas e bloquearão a transferência de assinaturas pagas. | Os serviços de avaliação expiram e não funcionam se acessados pelos usuários após o cancelamento. |
 | Analise as diferenças nos recursos de licença entre o Microsoft Cloud Deutschland e o Office 365 Services. | Os serviços do Office 365 incluem recursos e serviços adicionais não disponíveis no Microsoft Cloud Deutschland atual. Durante a transferência de assinatura, novos recursos estarão disponíveis para os usuários. | <ul><li> Analise os diferentes recursos fornecidos pelas licenças do Microsoft Cloud Deutschland e do Office 365 Services. Comece com a descrição do [serviço da plataforma do Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> Determine se os novos recursos dos serviços do Office 365 devem ser desabilitados inicialmente para limitar os efeitos nos usuários ou no gerenciamento de alterações do usuário e alterar as atribuições de licença do usuário conforme necessário. </li><li>Preparar usuários e equipe de help desk para novos serviços e recursos fornecidos pelos serviços do Office 365. |
 | Crie políticas de [retenção em](https://docs.microsoft.com/microsoft-365/compliance/retention) toda a organização para proteger contra exclusão inadvertida de conteúdo durante a migração.  |<ul><li>Para garantir que o conteúdo não seja excluído inadvertidamente pelos usuários finais durante a migração, os clientes podem optar por habilitar uma política de retenção em toda a organização. </li><li>Embora a retenção não seja necessária, já que as retenções colocadas a qualquer momento durante a migração devem funcionar conforme o esperado, ter uma política de retenção é um mecanismo de segurança de back-up. Ao mesmo tempo, uma política de retenção pode não ser usada por todos os clientes, especialmente aqueles que estão preocupados com a preservação.</li></ul>| Aplicar política de retenção conforme descrito em [Saiba mais sobre políticas de retenção e rótulos de retenção.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) Falhas do serviço ou do software cliente podem ocorrer se isso não for feito antes da Fase 4 de 9. </li></ul>|
+| Excessos de licença corretos | Em determinadas circunstâncias, os clientes podem ser capazes de consumir mais serviços do que são comprados. Essa condição é conhecida como excesso de licença. A Microsoft não pode migrar clientes em uma condição de excesso de licença do Microsoft Cloud Deutschland para as regiões do datacenter alemão. Para garantir o acesso contínuo ao serviço e aos dados, todos os usuários atribuídos exigem uma licença. | Todos os clientes | Os clientes devem avaliar e resolver a condição de excesso de licença por meio da compra de licenças adicionais ou desaignando licenças de usuários. |
 |||||
 
 ## <a name="active-directory-federation-services-ad-fs"></a>Serviços de Federação do Active Directory (AD FS)
@@ -180,7 +181,7 @@ Office 365 Germany customers who have Azure subscriptions under the same identit
 - A Message center notification will signal the point at which customer-led migration can begin.
 -->
 
-## <a name="more-information"></a>Mais informações
+## <a name="more-information"></a>Mais Informações
 
 Como começar:
 

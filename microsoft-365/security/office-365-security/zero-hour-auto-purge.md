@@ -22,12 +22,12 @@ ms.custom:
 description: Os administradores podem aprender sobre como a limpeza automática zero hora (ZAP) pode mover retroativamente mensagens entregues em uma caixa de correio do Exchange Online para a pasta Lixo Eletrônico ou quarentena que são encontradas retroativamente como spam ou phishing.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0f6cd7522581db1fbc594e9350c8712359498e3b
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: be47d8dfda68bfb6819b6423542970c7768c6ffb
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509285"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50820253"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Limpeza automática zero hora (ZAP) no Exchange Online
 
@@ -63,11 +63,11 @@ O MALWARE ZAP é habilitado por padrão em políticas anti-malware. Para obter m
 
 Para **mensagens** de leitura ou não lidas identificadas como phishing após a entrega, o resultado do ZAP depende da ação configurada para um veredito de filtragem de email de **Phishing** na política anti-spam aplicável. As ações de veredito de filtragem disponíveis para phishing e seus possíveis resultados zap são descritas na lista a seguir:
 
-- **Adicionar X-Header**, **Prepend subject line with text**: ZAP não toma nenhuma ação na mensagem.
+- **Adicionar X-Header,** **Preparar** linha de assunto com texto, Redirecionar mensagem para endereço de **email,** **Excluir** mensagem : ZAP não toma nenhuma ação na mensagem.
 
 - **Mover mensagem para Lixo** Eletrônico : o ZAP move a mensagem para a pasta Lixo Eletrônico, desde que a regra de lixo eletrônico seja habilitada na caixa de correio (ela está habilitada por padrão). Para obter mais informações, consulte [Configure junk email settings on Exchange Online mailboxes in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-- **Redirecionar mensagem para endereço de email,** **Excluir mensagem**, **Mensagem de quarentena**: ZAP coloca a mensagem em quarentena.
+- **Mensagem de quarentena**: ZAP coloca a mensagem em quarentena.
 
 Por padrão, o ZAP de phishing está habilitado em políticas anti-spam e a ação padrão para o veredito de filtragem de email de **phishing** é **a** mensagem quarentena , o que significa que phish ZAP coloca a mensagem em quarentena por padrão.
 
@@ -77,11 +77,11 @@ Para obter mais informações sobre como configurar vereditos de filtragem de sp
 
 Para **mensagens não** lidas identificadas como spam após a entrega, o resultado do ZAP depende da ação configurada para o veredito de filtragem de **spam** na política anti-spam aplicável. As ações de veredito de filtragem disponíveis para spam e seus possíveis resultados ZAP são descritas na lista a seguir:
 
-- **Adicionar X-Header**, **Prepend subject line with text**: ZAP não toma nenhuma ação na mensagem.
+- **Adicionar X-Header,** **Preparar** linha de assunto com texto, Redirecionar mensagem para endereço de **email,** **Excluir** mensagem : ZAP não toma nenhuma ação na mensagem.
 
 - **Mover mensagem para Lixo** Eletrônico : o ZAP move a mensagem para a pasta Lixo Eletrônico, desde que a regra de lixo eletrônico seja habilitada na caixa de correio (ela está habilitada por padrão). Para obter mais informações, consulte [Configure junk email settings on Exchange Online mailboxes in Microsoft 365](configure-junk-email-settings-on-exo-mailboxes.md).
 
-- **Redirecionar mensagem para endereço de email,** **Excluir mensagem**, **Mensagem de quarentena**: ZAP coloca a mensagem em quarentena. Os usuários finais podem exibir e gerenciar suas próprias mensagens em quarentena de spam.
+- **Mensagem de quarentena**: ZAP coloca a mensagem em quarentena. Os usuários finais podem exibir e gerenciar suas próprias mensagens em quarentena de spam.
 
 Por padrão, o ZAP de spam está habilitado em políticas  anti-spam e a ação padrão para o  veredito de filtragem de spam é Mover mensagem para a pasta Lixo Eletrônico **,** o que significa que o SPAM ZAP move mensagens não lidas para a pasta Lixo Eletrônico por padrão.
 

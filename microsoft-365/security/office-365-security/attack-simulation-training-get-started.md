@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o treinamento de simulação de ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a33c212f7d0fd6b0617a8059b03ac90de03fba16
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 38e16ecd8185b9e8542f58613790585b5aab73ee
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407465"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50820229"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Começar a usar o Treinamento de simulação de ataque
 
@@ -36,7 +36,7 @@ Se sua organização tiver o Microsoft 365 E5 ou o Microsoft Defender para Offic
 > [!NOTE]
 > O treinamento de simulação de ataque substitui a experiência antiga do Simulador de Ataque v1 descrita no Simulador de Ataques no [Microsoft Defender para Office 365](attack-simulator.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
 
 - Para abrir o Centro de Segurança da Microsoft, vá para <https://security.microsoft.com/> . Treinamento de simulação de ataque está disponível em Treinamento de **simulação** de ataque e email \> **e colaboração.** Para ir diretamente ao treinamento de simulação de ataque, abra <https://security.microsoft.com/attacksimulator> .
 
@@ -109,3 +109,6 @@ Para obter instruções passo a passo sobre como criar uma carga para uso em uma
 ### <a name="gaining-insights"></a>Obter informações
 
 Para obter instruções passo a passo sobre como obter informações com relatórios, consulte Obter informações por meio [do treinamento de simulação de ataque.](attack-simulation-training-insights.md)
+
+> [!NOTE]
+> O Simulador de Ataques usa Links Seguros no Defender para Office 365 para rastrear com segurança os dados de clique para a URL na mensagem de carga que é enviada a destinatários direcionados de uma campanha de phishing, mesmo que a configuração Não rastrear **cliques** do usuário nas políticas de Links Seguros está conexões.
