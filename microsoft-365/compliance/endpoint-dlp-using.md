@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar os locais de prevenção contra perda de dados do Ponto de extremidade (EPDLP) do Microsoft 365.
-ms.openlocfilehash: 6723f3f0903ba6a0e1833bfae1f3dea2362e2c30
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 1bb4013069b8f4890ba420f13a0203eb63973121
+ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406205"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50820183"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Usando a prevenção contra perda de dados do Endpoint
 
@@ -81,6 +81,9 @@ Restringir arquivos confidenciais que correspondam a suas políticas contra dom�
 Se o modo de lista estiver definido como **Bloquear**, o usuário não poderá carregar itens confidenciais para esses domínios. Quando uma ação de carregamento é bloqueada porque um item corresponde a uma política DLP, a DLP gera um aviso ou bloqueia o carregamento do item confidenciais.
 
 Se o modo de lista estiver definido como **Permitir**, os usuários poderão fazer upload de itens confidenciais **_apenas_** para esses domínios, e o acesso de upload a todos os outros domínios não é permitido.
+
+> [!IMPORTANT]
+> Quando o modo de restrição de serviço é definido como "Permitir", você deve ter pelo menos um domínio de serviço configurado antes que as restrições sejam aplicadas.
 
 #### <a name="unallowed-browsers"></a>Navegadores não permitidos
 
