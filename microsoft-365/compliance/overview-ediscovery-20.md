@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Saiba mais sobre a solução de Descoberta Avançada de EDiscovery no Microsoft 365. Este artigo fornece uma visão geral da Descoberta Externa Avançada no Microsoft 365, uma ferramenta para ajudá-lo a gerenciar investigações internas e externas. Ele também enquadra os motivos de negócios para usar a Descoberta Avançada para gerenciar suas investigações legais.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6623682dedd0342f1e88478127d23bbbd4ab9dbb
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 80a1505bf19beb954c0746efb7fb29f99d6a916b
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727582"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838216"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Visão geral da Descoberta Avançada do Microsoft 365
 
@@ -103,7 +103,7 @@ Quando você adiciona um custodiante e as fontes de dados custodiais corresponde
 
 ### <a name="collecting-case-data"></a>Coletar dados de ocorrência
 
-Use a **guia Pesquisas para** criar pesquisas para pesquisar as fontes de dados locais de custodia e não custodiante para conteúdo relevante para o caso. Você pode criar e executar pesquisas baseadas em consulta (usando palavras-chave e condições) para identificar um conjunto de mensagens de email e documentos que são relevantes para o caso e que você deseja revisar e analisar mais adiante nas etapas subsequentes no fluxo de trabalho de Descoberta Eletrônico. Você pode criar uma ou mais pesquisas associadas ao caso. Você também pode usar a ferramenta de pesquisa para visualizar documentos de exemplo e exibir estatísticas de pesquisa para ajudá-lo a refinar e melhorar os resultados da pesquisa. Depois de satisfeito, os resultados da pesquisa contêm todos os dados relevantes para o caso, você adiciona os resultados da pesquisa a um conjunto de revisão para revisão, análise e avaliação adicionais. Para obter mais informações, consulte [Coletar dados para um caso](collecting-data-for-ediscovery.md).
+Use a **guia Coleções** para criar pesquisas de Descoberta Online para pesquisar as fontes de dados local e não custodiante em busca de conteúdo relevante para o caso. Você pode criar e executar coleções baseadas em consulta (usando palavras-chave e condições) para identificar um conjunto de mensagens de email e documentos relevantes para o caso e que você deseja revisar e analisar mais adiante nas etapas subsequentes no fluxo de trabalho de Descoberta Eletrônico. Você pode criar uma ou mais coleções associadas ao caso. Você também pode usar a ferramenta de coleção para visualizar documentos de exemplo e exibir estatísticas de pesquisa para ajudá-lo a refinar e melhorar os resultados da pesquisa. Depois de satisfeito, os resultados da coleção contêm os dados relevantes para o caso, você pode comprometer a coleção em um conjunto de revisão para revisão, análise e recolhimento. Para obter mais informações, consulte [Coletar dados para um caso](collecting-data-for-ediscovery.md).
 
 ### <a name="reviewing-and-analyzing-case-data"></a>Analisar e analisar dados de caso
 

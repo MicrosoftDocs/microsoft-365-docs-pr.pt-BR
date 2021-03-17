@@ -16,12 +16,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba mais sobre como governar recursos relacionados em grupos do Microsoft 365, Teams, SharePoint e Yammer.
-ms.openlocfilehash: a9b4767c450ffc775fb84711e48b9f6c775419e5
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 01dea57504bf5d68c0bb13376379379f29044191
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741592"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838462"
 ---
 # <a name="what-is-collaboration-governance"></a>O que é governança de colaboração?
 
@@ -41,6 +41,10 @@ Esta série de artigos ajudará você a entender como grupos, equipes e configur
 
 Há muitas opções para a implantação de Grupos e Equipes do Microsoft 365 para colaboração segura em sua organização. Recomendamos que você use esse conteúdo de governança juntamente com Configurar a colaboração segura com o [Microsoft 365](setup-secure-collaboration-with-teams.md) e seus artigos associados para criar a melhor solução de colaboração para sua organização.
 
+### <a name="data-residency"></a>Residência de dados
+
+Se sua organização for multi-nacional e você tiver requisitos de residência de dados para diferentes regiões geográficas, inclua [o Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo) como parte do seu plano de governança de colaboração.
+
 ## <a name="why-microsoft-365-groups-are-important"></a>Por que os grupos do Microsoft 365 são importantes
 
 Os grupos do Microsoft 365 permitem que você escolha um conjunto de pessoas com as quais você deseja colaborar e facilmente configurar uma coleção de recursos para essas pessoas compartilharem. A adição de membros ao grupo concede automaticamente as permissões necessárias a todos os ativos fornecidos pelo grupo. Tanto o Teams quanto o Yammer usam grupos do Microsoft 365 para gerenciar sua associação.
@@ -54,7 +58,7 @@ Os grupos do Microsoft 365 incluem um pacote de recursos vinculados que os usuá
 |[Calendar](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a)|Para agendar eventos relacionados ao grupo|
 |[Caixa de Entrada](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22)|Para conversas por email entre membros do grupo. Essa caixa de entrada tem um endereço de email e pode ser definida para aceitar mensagens de pessoas de fora do grupo e até fora da sua organização, bem como uma lista de distribuição tradicional.|
 |[Bloco de anotações do OneNote](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97)|Para reunir ideias, pesquisas e informações|
-|[Planner](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc)|Para atribuir e gerenciar tarefas de projeto entre os membros do grupo|
+|[Planejador](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc)|Para atribuir e gerenciar tarefas de projeto entre os membros do grupo|
 |[Espaço de Trabalho do Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-new-workspaces)|Um espaço de colaboração de dados com painéis e relatórios|
 |[Project and Roadmap](https://support.microsoft.com/project)|Ferramentas de gerenciamento de projetos baseadas na Web|
 |[Site de equipe do SharePoint](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e)|Um repositório central para informações, links e conteúdo relacionado ao seu grupo|
@@ -109,6 +113,8 @@ Ao iniciar seu processo de planejamento de governança, tenha estas práticas re
 - **Alinhar-se às prioridades** de negócios - as metas de negócios ajudarão você a definir quanto tempo e energia você precisa para investir em governança.
 
 - **Incorporar decisões de governança diretamente** nas soluções que você cria - muitas decisões de governança podem ser implementadas ao ligar ou desligar recursos no Microsoft 365.
+
+- **Use uma abordagem em fases** - Role os recursos de colaboração para um pequeno grupo de usuários primeiro. Receba comentários deles, assista a tíquetes de help desk e atualize as configurações ou processos necessários antes de prosseguir para um grupo maior.
 
 - **Reforçar com treinamento** - adapte soluções como os caminhos de aprendizado do [Microsoft 365](https://docs.microsoft.com/office365/customlearning) para garantir que as expectativas específicas da sua organização sejam reforçadas com o treinamento fornecido pela Microsoft.
 

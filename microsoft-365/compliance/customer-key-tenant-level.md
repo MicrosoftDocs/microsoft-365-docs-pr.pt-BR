@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Saiba como configurar a Chave do Cliente para todos os dados no locatário do Microsoft 365.
-ms.openlocfilehash: 7ffa9a8148a8ae699711b62da48cd2c856d48cac
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 2fed4730e79f6e2ace827eab338bf9da8fe55260
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727474"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838236"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Visão geral da Chave do Cliente do Microsoft 365 no nível do locatário (visualização pública)
 
@@ -49,7 +49,7 @@ Por exemplo, arquivos do Microsoft Teams e algumas gravações de chamada e reun
 
 ## <a name="set-up-customer-key-at-the-tenant-level-public-preview"></a>Configurar a Chave do Cliente no nível do locatário (visualização pública)
 
-Essas etapas são semelhantes, mas não idênticas às etapas para configurar a Chave do Cliente no nível do aplicativo. Você só deve usar essa visualização pública com dados de teste em locatários de teste. Não use essa versão com dados de produção ou em seu ambiente de produção. Se você já tiver uma implantação de produção da Chave do Cliente, use estas etapas para configurar a Chave do Cliente no nível do locatário em um ambiente de teste.
+Essas etapas são semelhantes, mas não idênticas às etapas para configurar a Chave do Cliente no nível do aplicativo. Você só deve usar essa visualização pública com dados de teste em locatários de teste. Não use essa versão com dados de produção ou em seu ambiente de produção. Se você já tiver uma implantação de produção da Chave do Cliente, use estas etapas para configurar a Chave do Cliente no nível do locatário em um ambiente de teste. Depois de ter atribuído um DEP de nível de locatário ao seu locatário, você pode iniciar o processo de validação e falar com m365ck@microsoft.com com quaisquer dúvidas ou preocupações. Você também pode encontrar etapas de validação documentadas na visualização pública das Instruções de Validação para Criptografia de Dados em Repouso [para o Microsoft 365](https://aka.ms/CustomerKey/PublicPreviewValidation).
 
 Você concluirá a maioria dessas tarefas conectando-se remotamente ao Azure PowerShell. Para melhores resultados, use a versão 4.4.0 ou posterior do Azure PowerShell.
 
@@ -309,16 +309,16 @@ New-M365DataAtRestEncryptionPolicy -Name "Default_Policy" -AzureKeyIDs "https://
 
 Parâmetros:
 
-| Nome | Descrição | Opcional (Y/N) |
+| Name | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
-|Nome|Nome amigável da política de criptografia de dados|N|
+|Name|Nome amigável da política de criptografia de dados|N|
 |AzureKeyIDs|Especifica dois valores de URI das chaves do Azure Key Vault, separadas por uma vírgula, para associar à política de criptografia de dados|N|
 |Descrição|Descrição da política de criptografia de dados|N|
 
 ### <a name="assign-policy"></a>Atribuir política
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “<Default_PolicyName or Default_PolicyID>”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "<Default_PolicyName or Default_PolicyID>"
 ```
 
 Descrição: esse cmdlet é usado para configurar a Política de Criptografia de Dados padrão. Essa política será usada para criptografar dados em todas as cargas de trabalho de suporte. 
@@ -326,12 +326,12 @@ Descrição: esse cmdlet é usado para configurar a Política de Criptografia de
 Exemplo:
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy “Default_PolicyName”
+Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "Default_PolicyName"
 ```
 
 Parâmetros:
 
-| Nome | Descrição | Opcional (Y/N) |
+| Name | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
 -DataEncryptionPolicy|Especifica a política de criptografia de dados que precisa ser atribuída; especifique o Nome da Política ou a ID da Política.|N|
 
@@ -354,12 +354,12 @@ Set-M365DataAtRestEncryptionPolicy -Identity "NAM Policy" -Enabled $false
 Atualize uma política de criptografia de dados.
 
 ```powershell
-Set-M365DataAtRestEncryptionPolicy -Identity “EUR Policy” -Refresh
+Set-M365DataAtRestEncryptionPolicy -Identity "EUR Policy" -Refresh
 ```
 
 Parâmetros:
 
-| Nome | Descrição | Opcional (Y/N) |
+| Name | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
 |-Identity|Especifica a política de criptografia de dados que você deseja modificar.|N|
 |-Refresh|Use a opção Atualizar para atualizar a política de criptografia de dados depois de girar qualquer uma das chaves associadas no Cofre de Chaves do Azure. Não é preciso especificar um valor com essa opção.|S|
@@ -392,7 +392,7 @@ Get-M365DataAtRestEncryptionPolicy -Identity "NAM Policy"
 
 Parâmetros:
 
-| Nome | Descrição | Opcional (Y/N) |
+| Name | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
 |-Identity|Especifica a política de criptografia de dados para a que você deseja listar os detalhes.|S|
 

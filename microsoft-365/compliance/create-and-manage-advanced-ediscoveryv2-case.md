@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como criar e gerenciar casos de Descoberta Avançada. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades de Descoberta Avançada.
-ms.openlocfilehash: 80cfe31a86060cb3603a101b314273cc67750bd8
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 0301213cf6d7e3c30b98ad5125468c6c75ed95b1
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727538"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838247"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>Criar e gerenciar um caso de Descoberta Avançada
 
@@ -82,15 +82,15 @@ Para começar a usar a Descoberta Avançada, aqui está um fluxo de trabalho bá
 
    - Você pode usar o fluxo [de trabalho](managing-custodian-communications.md) de comunicações na Descoberta Eletrônica Avançada para enviar uma notificação de responsabilidade legal aos custodiantes.
 
-2. **[Pesquisar fontes de dados para dados relevantes para o caso](collecting-data-for-ediscovery.md)**. Depois de adicionar os custodiantes e fontes de dados não custodiais a um caso, use a ferramenta de pesquisa integrado para pesquisar essas fontes de dados em busca de dados que possam ser relevantes para o caso. Você usa palavras-chave, propriedades [](building-search-queries.md) e condições para criar consultas de pesquisa que retornam resultados de pesquisa com os dados que provavelmente são relevantes para o caso. Você também pode:
+2. **[Coletar dados relevantes de fontes de dados](create-draft-collection.md)**. Depois de adicionar os custodiantes e as fontes de dados não custodiais a uma ocorrência, use a ferramenta de coletas integrados para pesquisar essas fontes de dados em busca de conteúdo que possa ser relevante para o caso. Você usa palavras-chave, propriedades [](building-search-queries.md) e condições para criar consultas de pesquisa que retornam resultados de pesquisa com os dados que provavelmente são relevantes para o caso. Você também pode:
 
-   - Exibir [estatísticas de pesquisa](search-statistics-in-advanced-ediscovery.md) que podem ajudá-lo a refinar uma consulta de pesquisa para restringir os resultados.
+   - Exibir [estatísticas de coleção que](collection-statistics-reports.md) podem ajudá-lo a refinar uma coleção para restringir os resultados.
 
-   - Visualize os resultados da pesquisa para verificar rapidamente se os dados relevantes estão sendo encontrados.
+   - Visualize um exemplo da coleção para verificar rapidamente se os dados relevantes estão sendo encontrados.
 
-   - Revise uma consulta e reprise a pesquisa.
+   - Revise uma consulta e reprise a coleção.
 
-3. **[Adicionar dados a um conjunto de revisão](add-data-to-review-set.md)**. Depois de configurar e verificar se uma pesquisa retorna os dados desejados, a próxima etapa é adicionar os resultados da pesquisa a um conjunto de revisão. Quando você adiciona dados a um conjunto de revisão, os itens são copiados de seu local original para um local de Armazenamento seguro do Azure. Os dados são reindexados novamente para otimisá-los para pesquisas completas e rápidas ao analisar e analisar itens no conjunto de revisão. Além disso, você também pode adicionar dados que não são [do Office 365 a um conjunto de revisão.](load-non-office-365-data-into-a-review-set.md)
+3. **[Commit collection to a review set](commit-draft-collection.md)**. Depois de configurar e verificar se uma pesquisa retorna os dados desejados, a próxima etapa é adicionar os resultados da pesquisa a um conjunto de revisão. Quando você adiciona dados a um conjunto de revisão, os itens são copiados de seu local original para um local de Armazenamento seguro do Azure. Os dados são reindexados novamente para otimisá-los para pesquisas completas e rápidas ao analisar e analisar itens no conjunto de revisão. Além disso, você também pode adicionar dados que não são [do Office 365 a um conjunto de revisão.](load-non-office-365-data-into-a-review-set.md)
 
    Também há um tipo especial de conjunto de revisão ao qual você pode adicionar dados, chamado de conjunto de revisão *de conversa.* Esses tipos de conjuntos de análises fornecem recursos de reconstrução de conversa para reconstruir, revisar e exportar conversas encadeadas como aquelas no Microsoft Teams. Para obter mais informações, [consulte Review conversations in Advanced eDiscovery](conversation-review-sets.md).
 

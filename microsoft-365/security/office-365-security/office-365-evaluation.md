@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1a9bf9461e8cf6d62e4283c9112b801371242f2e
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: ce17f413b23ef9ef6abf79a2710a5cec9b05206c
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453700"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838526"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft Defender para Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "50453700"
 
 A realização de uma avaliação abrangente do produto de segurança pode ajudar você a tomar decisões informadas sobre atualizações e compras. Ele ajuda a experimentar os recursos do produto de segurança para avaliar como ele pode ajudar sua equipe de operações de segurança em suas tarefas diárias.
 
-A experiência de avaliação do [Microsoft Defender para Office 365](office-365-atp.md) foi projetada para eliminar as complexidades da configuração de dispositivo e ambiente para que você possa se concentrar na avaliação dos recursos da solução de segurança. Ela só se aplica à proteção de email e não ao SharePoint, clientes do Office, como o Word ou o Teams.
+A experiência de avaliação do [Microsoft Defender para Office 365](office-365-atp.md) foi projetada para eliminar as complexidades da configuração de dispositivo e ambiente para que você possa se concentrar na avaliação dos recursos do Microsoft Defender para Office 365. Com o modo de avaliação, todas as mensagens enviadas para caixas de correio do Exchange Online podem ser avaliadas sem apontar registros MX para a Microsoft. O recurso só se aplica à proteção de email e não a clientes do Office, como Word, SharePoint ou Teams.
 
 Se você ainda não tiver uma licença compatível com o Microsoft Defender para Office 365, poderá iniciar uma avaliação gratuita de [30](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA) dias e testar os recursos no Centro de Conformidade e Segurança do Office 36 & 5 ( https://protection.office.com/homepage) . Você aproveitará a configuração rápida e poderá desativar facilmente, se necessário.
 
@@ -87,7 +87,7 @@ As funções do Exchange Online são necessárias para configurar o Defender par
 
 As seguintes funções são necessárias:
 
-|Tarefas|Função|
+|Tarefa|Role|
 |---|---|
 |Obter uma avaliação gratuita ou comprar o Microsoft Defender para Office 365 (Plano 2)|Função de administrador de cobrança OU função de administrador global|
 |Criar política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança|

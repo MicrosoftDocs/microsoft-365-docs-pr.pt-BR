@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 82dfab193277744c9a7888e7f9ac1d7b7293d843
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 30ad9bf968fa91218d15a6f71785d5299e664ddc
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542533"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838494"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -310,7 +310,7 @@ Os filtros de conformidade de comunicação permitem filtrar e classificar mensa
 | **Tem anexo** | A presença de anexo na mensagem. |
 | **Classe Item** | A origem da mensagem com base no tipo de mensagem, email, chat da Equipe da Microsoft, Bloomberg, etc. Para obter mais informações sobre tipos de item comuns e classes de mensagem, consulte [Tipos de Item e Classes de Mensagem.](/office/vba/outlook/concepts/forms/item-types-and-message-classes) |
 | **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Esse domínio normalmente é seu domínio de assinatura do Microsoft 365 por padrão. |
-| **Recipiente** | O usuário para o qual a mensagem foi enviada. |
+| **Recipient** | O usuário para o qual a mensagem foi enviada. |
 | **Sender** | A pessoa que enviou a mensagem. |
 | **Domínio do remetente** | O domínio que enviou a mensagem. |
 | **Tamanho** | O tamanho da mensagem em KB. |
@@ -507,7 +507,7 @@ Para exibir atividades de revisão de conformidade de comunicação para uma pol
 | **Operations** | As operações de revisão realizadas na política. |
 | **AuditData** | Este campo é a principal fonte de dados para todas as atividades de revisão de política. Todas as atividades de revisão são gravadas e separadas por delimitadores de vírgulas. |
 
-Você também pode exibir atividades de auditoria no log de auditoria unificado ou com o cmdlet [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell.
+Você também pode exibir atividades de auditoria no log de auditoria unificado ou com o cmdlet [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) PowerShell. Para saber mais sobre políticas de retenção de log de auditoria, consulte [Gerenciar políticas de retenção de log de auditoria.](audit-log-retention-policies.md)
 
 Por exemplo, o exemplo a seguir retorna as atividades de todas as atividades de revisão de supervisão (políticas e regras):
 
@@ -519,6 +519,12 @@ Este exemplo retorna as atividades de atualização para suas políticas de conf
 
 ```PowerShell
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Discovery -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeleted
+```
+
+Este exemplo retorna atividades que corresponderem às políticas atuais de conformidade de comunicação:
+
+```PowerShell
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch 
 ```
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Transição da Supervisão no Office 365

@@ -18,89 +18,114 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: Etapas de migração dos Serviços de Federação do Active Directory (AD FS) para a migração do Microsoft Cloud Deutschland.'
-ms.openlocfilehash: 030515227f3abdae82736807a01d1691d2d45552
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 852fc8f93158d7b6080f1add5a05e7367539f889
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727462"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838408"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>Etapas de migração do AD FS para a migração do Microsoft Cloud Deutschland
 
-Essa alteração de configuração pode ser aplicada a qualquer momento antes do início da fase 4.
-Depois que a fase 2 for concluída, a alteração de configuração funcionará e você poderá entrar nos pontos de extremidade globais do Office 365, como `https://portal.office.com` . Se você estiver implementando a alteração de configuração antes da fase  2, os pontos de extremidade globais do Office 365 ainda não funcionarão, mas a nova confiança de parte confiável ainda faz parte da configuração dos Serviços de Federação do Active Directory (AD FS).
+Essa alteração de configuração precisa ser aplicada a qualquer momento antes do início da fase 2.
+Depois que a fase 2 for concluída, a alteração de configuração funcionará e você poderá entrar por meio de pontos de extremidade globais do Office 365, como `https://portal.office.com` . Se você estiver implementando a alteração de configuração antes da fase  2, os pontos de extremidade globais do Office 365 ainda não funcionarão, mas a nova confiança de parte confiável ainda faz parte da configuração dos Serviços de Federação do Active Directory (AD FS).
 
-Para migrar seu farm do AD FS do Microsoft Cloud Deutschland:
+Os clientes que usam autenticação federada com os Serviços de Federação do Active Directory (AD FS) não devem fazer alterações nas URIs do emissor que são usadas para todas as autenticações com os Serviços de Domínio do Active Directory (AD DS) locais durante a migração. Alterar URIs do emissor levará a falhas de autenticação para usuários no domínio. URIs do emissor podem ser alteradas diretamente no AD  FS ou quando um domínio é convertido de gerenciado para _federado_ e vice-versa. Recomendamos que você não adicione, remova ou converta um domínio federado no locatário do Azure AD que foi migrado. As URIs do emissor podem ser alteradas depois que a migração estiver completa.
 
-1. Fazer o back up your AD FS settings including FF trust info with [these steps](#backup). Nomeia o backup **do Microsoft Cloud Deutschland_Only** para indicar que ele tem apenas as informações de locatário do Microsoft Cloud Deutschland.
-2. Teste a restauração usando o backup do Microsoft Cloud Deutschland_Only, o farm do AD FS deve continuar a operar como Microsoft Cloud Deutschland somente.
+Para preparar seu farm do AD FS para a migração do Microsoft Cloud Deutschland, execute as seguintes etapas:
+
+1. Fazer o back up your AD FS settings, including the existing Microsoft Cloud Deutschland Relying Party trust, with [these steps](#backup). Nomeia o backup **do MicrosoftCloudDeutschlandOnly** para indicar que ele tem apenas as informações de locatário do Microsoft Cloud Deutschland.
+
+   > [!NOTE]
+   > O backup conterá não apenas a Confiança de Parte Confiável do Office 365 existente para o Microsoft Cloud Deutschland, mas também todas as outras Confianças de Parte Confiável presentes no respectivo farm do AD FS.
+
+2. Teste a restauração usando o backup do MicrosoftCloudDeutschlandOnly, o farm do AD FS deve continuar a operar como Microsoft Cloud Deutschland somente.
 
 Depois de concluir e testar o backup do AD FS, execute as etapas a seguir para adicionar uma nova confiança de terceiros confiável à configuração do ADFS:
 
-1. Abra o console de gerenciamento do AD FS
-2. No painel esquerdo do console de gerenciamento do ADFS, expanda **a ADFS**, depois **relações** de confiança, e, em seguida, **confianças de terceiros confiável**
+1. Abra o console de gerenciamento do AD FS.
+
+2. No painel esquerdo do console de gerenciamento do ADFS, navegue até o menu **Confianças da Parte Confiável.**
+
 3. No painel direito, selecione **Adicionar Confiança de Parte Confiável...**
-4. Selecione **Próximo** na página **Bem-vindo** do assistente Adicionar Confiança de Parte Confiável.
-5. Na página **Selecionar Fonte de** Dados, selecione Importar dados sobre a parte confiável publicada online ou em uma rede **local.** O **valor do endereço de metadados de** federação (nome do host ou URL) deve ser definido como `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Em seguida, clique em **Avançar**.
-6. Na página **Selecionar Fonte de** Dados, digite o nome de exibição como Microsoft Office **365 Identity Platform WorldWide**. Em seguida, clique em **Avançar**.
-7. Na página do assistente **Configure Multifator Authentication Now?**, selecione a escolha apropriada de acordo com seus requisitos de autenticação. Se você permanecer com o padrão, selecione Não quero configurar configurações de autenticação multifator para essa confiança de parte confiável **neste momento**. Você pode alterar essa configuração mais tarde, se quiser.
-8. Na opção **Escolher Regras** de Autorização de Emissão , mantenha Permitir que todos os usuários acessem essa parte **de** confiança selecionada clique em **Próximo**
+
+4. Selecione **Iniciar** na página **De boas-vindas** do assistente Adicionar Confiança de Parte Confiável.
+
+5. Na página **Selecionar Fonte de** Dados, selecione Importar dados sobre a parte confiável publicada online ou em uma rede **local.** O **valor do endereço de metadados de** federação (nome do host ou URL) deve ser definido como `https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml` . Clique em **Avançar**.
+
+6. Na página **Especificar Nome de Exibição,** digite o nome de exibição como **Microsoft Office 365 Identity Platform WorldWide**. Clique em **Avançar**.
+
+7. Se você estiver usando o ADFS no Windows Server 2012, na página assistente Configurar Autenticação **Multifator Agora?**, selecione a escolha apropriada de acordo com seus requisitos de autenticação. Se você permanecer com o padrão, selecione Não quero configurar configurações de autenticação multifator para essa confiança de parte confiável **neste momento**. Você pode alterar essa configuração mais tarde, se quiser.
+
+8. Para o AD FS 2012: na opção Escolher  Regras de Autorização de Emissão, mantenha Permitir que todos os usuários acessem essa parte de confiança selecionada e clique em **Próximo**.
+
+8. Para o AD FS 2016 e o AD  FS 2019: na página Escolher Política de Controle de Acesso, selecione a política de controle de acesso apropriada e clique em **Próximo**. Se nenhuma for escolhida, a Confiança da Parte Confiável **NÃO funcionará.**
+
 9. Clique **em Próximo** na página Pronto para Adicionar **Confiança** para concluir o assistente.
+
 10. Clique **em Fechar** na página Concluir. 
 
-Ao fechar o assistente, a Confiança de Parte Confiável com os serviços Globais do Office 365 é estabelecida. No entanto, nenhuma regra de Transformação de Emissão ainda está configurada.
+Ao fechar o assistente, a Confiança de Parte Confiável com o serviço Global do Office 365 é estabelecida. No entanto, nenhuma regra de Transformação de Emissão ainda está configurada.
 
 Você pode usar [a Ajuda do AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) para gerar as regras corretas de Transformação de Emissão. As regras de declaração geradas criadas com a Ajuda do AD FS podem ser adicionadas manualmente por meio do console de gerenciamento do AD FS ou com o PowerShell. A Ajuda do AD FS gerará os scripts necessários do PowerShell que precisam ser executados.  
 
-<!--
-    Question from ckinder
-    is step #3 true?
-    how to verify step 5? Need more information!
--->
-1. Execute **Gerar Declarações no** AD FS ajuda e copie o script de transformação de declarações do PowerShell usando a opção **Copiar** no canto superior direito do script.
-2. Abra seu editor de texto preferencial e colar o script do PowerShell em uma nova janela de texto.
-3. Adicione as seguintes linhas do PowerShell ao final do script pastado da etapa 2
-    ```powershell
-    $authzRules = "=>issue(Type = `"http://schemas.microsoft.com/authorization/claims/permit`", Value = `"true`"); "
-    $RuleSet = New-AdfsClaimRuleSet -ClaimRule "<AD FS Help generated PSH>"
-    Set-AdfsRelyingPartyTrust -TargetName “Microsoft Office 365 Identity Platform WorldWide” -IssuanceTransformRules $RuleSet.ClaimRulesString -IssuanceAuthorizationRules $authzRules
-    ```
-4. Safe e execute o script do PowerShell.
-5. Verifique se duas confianças de Parte Confiável estão presentes; um para o Microsoft Cloud Deutschland e outro para o serviço Global do Office 365.
-6. Faça backup de suas confiações usando [estas etapas.](#backup) Salve-o com o nome **FFAndWorldwide**.
-7. Conclua a migração de back-end e verifique se o AD FS ainda funciona durante o processo de migração.
+> [!NOTE]
+> [A Ajuda do AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) gerará as regras padrão de transformação de emissão que são fornecidas com o produto. No entanto, se as regras de transformação de emissão personalizadas estão em vigor na Microsoft Cloud Deutschland Relying Party Trust (por exemplo, URIs de emissor personalizado, IDs imutáveis não padrão ou qualquer outra personalização), as regras geradas pela ajuda do AD FS devem ser modificadas de forma que elas se ajustem à lógica personalizada atualmente em vigor para a confiança da parte confiável do Microsoft Cloud Deutschland. Se essas personalizações não são integradas às regras geradas por meio da Ajuda do [AD FS,](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator)a autenticação para Microsoft Office **365 Identity Platform WorldWide** provavelmente não funcionará para suas identidades federadas. 
+
+1. Execute **Gerar Declarações** na Ajuda [do AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) e copie o script do PowerShell usando a opção Copiar no canto superior direito do script. 
+
+2. Siga as etapas descritas na Ajuda do [AD FS](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator) sobre como executar o script do PowerShell em seu farm do AD FS para gerar a Confiança de Parte Confiável global.
+
+3. Verifique se duas PartyTtrusts De base estão presentes; um para o Microsoft Cloud Deutschland e outro para o serviço Global do Office 365. O comando a seguir pode ser aproveitado para a verificação. Ele deve retornar duas linhas e os respectivos nomes e identificadores.
+
+   ```powershell
+   Get-AdfsRelyingPartyTrust | Where-Object {$_.Identifier -like 'urn:federation:MicrosoftOnline*'} | Select-Object Name, Identifier
+   ```
+
+4. Faça backup de sua configuração de migração completa, incluindo ambas as confianças de Parte Confiável, usando [estas etapas.](#backup) Salve-o com o nome **MicrosoftCloudDeutschlandAndWorldwide**.
+
+5. Enquanto seu locatário estiver em migração, verifique regularmente se a autenticação do AD FS está funcionando com o Microsoft Cloud Deutschland e a nuvem global da Microsoft nas várias etapas de migração com suporte.
+
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>Recuperação de Desastre do AD FS (Banco de Dados WID)
 
-Para restaurar o farm do AD FS em um desastre, a Ferramenta de Restauração Rápida do [AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) precisa ser aproveitada. Portanto, a ferramenta deve ser baixada e, antes do início da migração, um backup deve ser criado e armazenado com segurança. Neste exemplo (ambientes DOAA) os seguintes comandos foram executados para fazer o back up do farm:
+Para restaurar o farm do AD FS em um desastre, a Ferramenta de Restauração Rápida do [AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) precisa ser aproveitada. Portanto, a ferramenta deve ser baixada e, antes do início da migração, um backup deve ser criado e armazenado com segurança. Neste exemplo, os seguintes comandos foram executados para fazer o back up de um farm em execução em um banco de dados WID:
 
 <h2 id="backup"></h2>
 
 ### <a name="back-up-an-ad-fs-farm"></a>Back up an AD FS Farm
 
 1. Instale a Ferramenta de Restauração Rápida do AD FS no servidor principal do AD FS.
+
 2. Importe o módulo em uma sessão do PowerShell com este comando.
-    ```powershell
-    Import-Module "C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecreationTool.dll"
-    ```
+
+   ```powershell
+   Import-Module "C:\Program Files (x86)\ADFS Rapid Recreation Tool\ADFSRapidRecreationTool.dll"
+   ```
+
 3. Execute o comando de backup:
-    ```powershell
-    Backup-ADFS -StorageType "FileSystem" -storagePath "<Storage path of backup>" -EncryptionPassword "<password>" -BackupComment "Restore Doku" -BackupDKM
-    ```
+
+   ```powershell
+   Backup-ADFS -StorageType "FileSystem" -storagePath "<Storage path of backup>" -EncryptionPassword "<password>" -BackupComment "Restore Doku" -BackupDKM
+   ```
+
 4. Armazene o backup com segurança em um destino desejado.
+
 
 ### <a name="restore-an-ad-fs-farm"></a>Restaurar um farm do AD FS
 
 Se o farm falhou completamente e não há como retornar ao farm antigo, faça o seguinte. 
 
 1. Mova o backup gerado e armazenado anteriormente para o novo servidor AD FS principal.
+
 2. Execute o seguinte `Restore-ADFS` comando do PowerShell. Se necessário, importe o certificado SSL do AD FS antecipadamente.
 
-    ```powershell
-    Restore-ADFS -StorageType "FileSystem" -StoragePath "<Path to Backup>" -DecryptionPassword "<password>" -GroupServiceAccountIdentifier "<gMSA>" -DBConnectionString "WID" -RestoreDKM
-    ```
+   ```powershell
+   Restore-ADFS -StorageType "FileSystem" -StoragePath "<Path to Backup>" -DecryptionPassword "<password>" -GroupServiceAccountIdentifier "<gMSA>" -DBConnectionString "WID" -RestoreDKM
+   ```
 
 3. Aponte seus novos registros DNS ou balanceador de carga para os novos servidores do AD FS.
+
 
 ## <a name="more-information"></a>Mais Informações
 
