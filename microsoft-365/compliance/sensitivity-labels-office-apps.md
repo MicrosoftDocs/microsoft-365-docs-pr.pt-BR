@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7dcd0ce9b439d78b79d95b3eca39d80ca440726c
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 782c4fdda7e515d921063937f59b199510beaf08
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826183"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838605"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -352,6 +352,11 @@ Informações adicionais sobre a rotulagem interna:
 - Quando o rótulo obrigatório estiver em vigor, os usuários não poderão remover rótulos de confidencialidade dos documentos, mas poderão alterar um rótulo existente.
 
 Para obter diretrizes sobre quando usar essa configuração, confira as informações sobre [configurações de política](sensitivity-labels.md#what-label-policies-can-do).
+
+> [!NOTE]
+> Se você usar a configuração de política de rótulo padrão para documentos e emails, além da rotulagem obrigatória: 
+>
+> O rótulo padrão sempre tem prioridade sobre a rotulagem obrigatória. No entanto, para documentos, o cliente de rotulagem unificada da Proteção de Informações do Azure aplica o rótulo padrão a todos os documentos não rotulados, enquanto que a rotulagem interna aplica o rótulo padrão aos novos documentos e não aos existentes que não estejam rotulados. Essa diferença de comportamento significa que ao usar a rotulagem obrigatória com a configuração padrão de rotulagem, os usuários serão solicitados a aplicar um rótulo de confidencialidade com mais frequência ao usar a rotulagem interna do que quando se usa o cliente de rotulagem unificada da Proteção de Informações do Azure.
 
 ## <a name="end-user-documentation"></a>Documentação do usuário final
 
