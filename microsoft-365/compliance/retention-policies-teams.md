@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 4296924684e13e163f28e0f952b2cd380cdcc047
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: ec4ca9a79ee3b5674e1837d14cea4ee504cb57d5
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712007"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838206"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -46,7 +46,7 @@ Para outras cargas de trabalho, confira:
 Os seguintes itens de equipes podem ser retidos e excluídos usando políticas de retenção para equipes: Mensagens de bate-papo e mensagens de canal, incluindo imagens incorporadas, tabelas, links de hipertexto e links para outras mensagens e arquivos de equipes e [conteúdo de cartão](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards). As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
 
 > [!NOTE]
-> Incluir o conteúdo do cartão é uma adição recente e está sendo implementada atualmente para os locatários. Para obter mais informações, confira [Centro de conformidade do Microsoft 365 para conteúdo do Cartão Adaptável por meio de aplicativos no Teams agora disponíveis](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
+> Incluir o conteúdo do cartão é uma adição recente e agora totalmente implementada para os locatários. Para obter mais informações, confira [Centro de conformidade do Microsoft 365 para conteúdo do Cartão Adaptável por meio de aplicativos no Teams agora disponíveis](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
 No momento, as mensagens em canais privados do Teams não têm suporte das políticas de retenção. Trechos de código, memorandos de voz gravados do cliente móvel do Teams, miniaturas, imagens de anúncio e reações de outras pessoas na forma de emoticons não estão incluídos quando você usa políticas de retenção para Teams.
 

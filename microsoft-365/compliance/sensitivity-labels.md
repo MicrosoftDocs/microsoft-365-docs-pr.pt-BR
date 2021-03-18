@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: f5c5901da44424d949062c6a2e9eecf69c48be3f
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 6cdf7a6b9e75b575abda2c93f7531c45d93a9a51
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597181"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838624"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -180,7 +180,7 @@ Ao configurar uma política de rótulo, você pode:
 
 - **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados para qualquer usuário específico ou grupo de segurança habilitado para email, grupo de distribuição ou grupo do Microsoft 365 (que podem ter [associação dinâmica](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)) no Azure AD.
 
-- **Aplicar um rótulo padrão** a todos os novos documentos e e-mails criados pelos usuários e grupos incluídos na política de rótulo, e o mesmo ou diferente rótulo padrão para recipientes (se você tiver [habilitou rótulos de sensibilidade para Microsoft Teams, grupos Microsoft 365 e sites do SharePoint](sensitivity-labels-teams-groups-sites.md)) Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail. 
+- **Aplique um rótulo padrão** a todos os novos documentos e emails sem rótulo criados pelos usuários e grupos incluídos na política de rótulo, e o mesmo ou diferente rótulo padrão para contêineres (se você [habilitou rótulos de sensibilidade para Microsoft Teams, Grupos do Microsoft 365 e sites do Microsoft Office SharePoint Online](sensitivity-labels-teams-groups-sites.md)). Com essa configuração, o cliente de rotulagem unificada do Proteção de Informações do Azure também aplica o rótulo padrão a documentos existentes que não estão rotulados. Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail.
     
     Considere usar um rótulo padrão para definir um nível de base de configurações de proteção que você deseja aplicar a todo o seu conteúdo. No entanto, sem o treinamento do usuário e outros controles, essa configuração também pode resultar em rotulagem inexata. Geralmente, não é uma boa ideia selecionar um rótulo que aplica a criptografia como um rótulo padrão para documentos. Por exemplo, muitas organizações precisam enviar e compartilhar emails com usuários externos que podem não ter aplicativos compatíveis com a criptografia ou talvez não usem uma conta que possa ser autorizada. Para obter mais informações sobre esse cenário, consulte [Compartilhar documentos criptografados com usuários externos](sensitivity-labels-office-apps.md#sharing-encrypted-documents-with-external-users).
 
