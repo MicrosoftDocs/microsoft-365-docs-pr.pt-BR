@@ -2,8 +2,8 @@
 title: Pontuação de produtividade da Microsoft
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: pebaum
+author: pebaum
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da pontuação de produtividade da Microsoft.
-ms.openlocfilehash: 0ce25175b3307e986c079c1614e38e8d87828e04
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 72f9bcfb273912629744ec25ad9c0be720e76081
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509081"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838420"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productivity Score 
 
-A pontuação de produtividade é compatível com a jornada para a transformação digital com ideias sobre como sua organização usa o Microsoft 365 e as experiências de tecnologia que oferecem suporte a ele. A pontuação da sua organização reflete as medidas das pessoas e das experiências de tecnologia e pode ser comparada com os benchmarks de organizações com tamanho semelhante ao seu.
+A pontuação de produtividade é compatível com a jornada para a transformação digital com ideias sobre como sua organização usa o Microsoft 365 e as experiências de tecnologia que oferecem suporte a ele. A pontuação da sua organização reflete as medidas de experiência de pessoas e tecnologia e pode ser comparada a benchmarks de organizações semelhantes em tamanho ao seu.
 
 Ela fornece:
 
@@ -72,9 +72,9 @@ A Pontuação de Produtividade inclui os dados do Exchange, Microsoft Office Sha
 A pontuação da sua organização é atualizada diariamente e reflete as ações do usuário concluídas nos últimos 28 (incluindo o dia atual).
 
 
-## <a name="pre-requisites"></a>Pré-requisitos 
+## <a name="prerequisites"></a>Pré-requisitos 
 
-Para pessoas com dados de experiência, você precisa de uma assinatura do Microsoft 365 para negócios ou Office 365 corporativo. Para dados de análise de ponto de extremidade do seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização gerenciando dispositivos e aplicativos. Uma vez que você tenha o Intune, você pode ativar a análise do ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o [Microsoft Intune](https://docs.microsoft.com/mem/intune/). 
+Para pessoas com dados de experiência, você precisa de uma assinatura do Microsoft 365 para negócios ou Office 365 corporativo. Para dados de análise de ponto de extremidade do seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda a proteger os dados da sua organização gerenciando dispositivos e aplicativos. Uma vez que você tenha o Intune, você pode ativar a análise do ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o [Microsoft Intune](https://docs.microsoft.com/mem/intune/). 
 > [!NOTE]
 > Uma licença para Microsoft Workplace Analytics não é necessária para obter os recursos de Pontuação de Produtividade..
 
@@ -92,9 +92,9 @@ A Pontuação de Produtividade só está disponível no Centro de Administraçã
 > [!NOTE]
 > Apenas um profissional de TI com a função de administrador global pode se inscrever ou optar por um locatário para o Índice de Produtividade.
 
-Observe que as informações devem ser usadas apenas para promover a transformação digital usando o Microsoft 365 e, portanto, devem ser compartilhadas com discrição. 
+O modelo de controle de acesso baseado em função para Microsoft Productivity Score ajuda as organizações a promover esforços de transformação digital com o Microsoft 365, fornecendo a flexibilidade para atribuir funções a profissionais de TI dentro de uma organização.
 
-A Microsoft tem o compromisso de proteger a privacidade individual. Este [documento de privacidade](privacy.md) explica os controles que fornecemos a você, como administrador de TI da sua organização, para garantir que as informações sejam acionáveis, sem comprometer a relação de confiança que você deposita na Microsoft.
+A Microsoft tem o compromisso de proteger a privacidade individual. Este [documento de privacidade](privacy.md) explica os controles que fornecemos a você, como administrador de TI da sua organização, para garantir que as informações sejam acionáveis sem comprometer a confiança que você deposita na Microsoft.
 
 Você pode acessar a experiência na página inicial da Administração Microsoft 365 em **Relatórios** > **Pontuação de Produtividade**.
 

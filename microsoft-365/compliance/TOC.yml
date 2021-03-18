@@ -540,6 +540,8 @@
               href: de-duplication-in-ediscovery-search-results.md
             - name: Diferenças entre os resultados estimados e reais da pesquisa
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
+            - name: Conteúdo armazenado em caixas de correio para descoberta eletrônica
+              href: what-is-stored-in-exo-mailbox.md
             - name: Descriptografia em ferramentas de Descoberta Eletrônica
               href: ediscovery-decryption.md
         - name: Scripts do PowerShell de pesquisa de conteúdo
@@ -570,6 +572,8 @@
               href: assign-ediscovery-permissions.md
             - name: Consultas de palavra-chave e condições da pesquisa
               href: keyword-queries-and-search-conditions.md
+            - name: Conteúdo armazenado em caixas de correio para descoberta eletrônica
+              href: what-is-stored-in-exo-mailbox.md
             - name: Configurar a filtragem de permissões da pesquisa
               href: permissions-filtering-for-content-search.md
             - name: Configurar limites de conformidade
@@ -635,14 +639,27 @@
         - name: Gerenciar erros de processamento
           href: processing-data-for-case.md
           items:
-            - name: Indexação de dados custodiante avançados
+            - name: Indexação avançada de conteúdo de custódia
               href: indexing-custodian-data.md
-            - name: Correção de erros durante o processamento de dados
+            - name: Correção de erro ao processar conteúdo
               href: error-remediation-when-processing-data-in-advanced-ediscovery.md
             - name: Correção de erros de item único
               href: single-item-error-remediation.md
+        - name: Colete conteúdo para um caso (prévia)
+          items:
+            - name: Saiba mais sobre as coleções (prévia)
+              href: collections-overview.md
+            - name: Criar um rascunho de coleção (prévia)
+              href: create-draft-collection.md
+            - name: Enviar uma coleção de rascunho para um conjunto de revisão (prévia)
+              href: commit-draft-collection.md
+            - name: Estatísticas e relatórios de coleta (prévia)
+              href: collection-statistics-reports.md
+            - name: Construir consultas de pesquisa para coleções
+              href: building-search-queries.md
+            - name: Consultas de palavra-chave e condições da pesquisa
+              href: keyword-queries-and-search-conditions.md
         - name: Coletar dados para uma ocorrência
-          href: collecting-data-for-ediscovery.md
           items:
             - name: Criar uma pesquisa
               href: create-search-to-collect-data.md
@@ -661,7 +678,7 @@
               href: load-non-Office-365-data-into-a-review-set.md
             - name: Adicionar dados a outro conjunto de revisão
               href: add-data-to-review-set-from-another-review-set.md
-        - name: Revisar dados de ocorrência
+        - name: Análise o conteúdo do caso
           items:
             - name: Use o painel de conjunto de revisões
               href: advanced-ediscovery-dashboard.md
@@ -671,7 +688,7 @@
               href: review-set-search.md
             - name: Marcar documentos em um conjunto de revisão
               href: tagging-documents.md
-        - name: Analisar dados de ocorrências
+        - name: Analisar o conteúdo do caso
           href: analyzing-data-in-review-set.md
           items:
             - name: Detecção de duplicata próxima
@@ -680,11 +697,11 @@
               href: email-threading-in-advanced-ediscovery.md
             - name: Temas
               href: themes-in-advanced-ediscovery.md
-            - name: Usar o módulo Relevância para analisar dados
+            - name: Usar o módulo Relevância para analisar o conteúdo
               href: using-relevance.md
             - name: Aposentadoria do módulo de Relevância
               href: relevance-module-retirement.md
-        - name: Exportar dados de ocorrência
+        - name: Exportar o conteúdo de casos
           href: exporting-data-ediscover20.md
           items:
             - name: Baixar documentos de um conjunto de revisão
@@ -725,6 +742,8 @@
               href: permissions-filtering-for-content-search.md
             - name: Configurar limites de conformidade
               href: set-up-compliance-boundaries.md
+            - name: Conteúdo armazenado em caixas de correio para descoberta eletrônica
+              href: what-is-stored-in-exo-mailbox.md
             - name: Descriptografia em ferramentas de descoberta eletrônica
               href: ediscovery-decryption.md
             - name: Coletar informações de diagnóstico de descoberta eletrônica

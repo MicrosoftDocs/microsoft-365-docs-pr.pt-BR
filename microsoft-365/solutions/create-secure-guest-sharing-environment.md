@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Saiba mais sobre as opções disponíveis para criar um ambiente seguro de compartilhamento para convidados no Microsoft 365, fornecendo acesso de convidado para uma colaboração aperfeiçoada.
-ms.openlocfilehash: c52feeb8e5c85d38dfa1623ecdd7c2ee2a381fbd
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 28b2efba9f0c4ba17811a9871b05ab9f5a7a4839
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667700"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838663"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Criar um ambiente de compartilhamento de convidados seguro
 
@@ -45,7 +45,7 @@ Observe que não vamos discutir a habilitação das configurações de compartil
 
 ## <a name="set-up-multi-factor-authentication-for-guests"></a>Configurar a autenticação multifator para convidados
 
-A autenticação multifator reduz significativamente as chances de uma conta ser comprometida. Como os usuários convidados podem estar usando contas de email pessoal que não seguem políticas de governança ou práticas recomendadas, é especialmente importante exigir a autenticação multifator para convidados. Se um nome e senha de um usuário convidado forem roubados, exigir um segundo fator de autenticação reduz significativamente as chances de que partes desconhecidas obtenham acesso aos seus sites e arquivos.
+A autenticação multifator reduz significativamente as chances de uma conta ser comprometida. Como os convidados podem usar contas de email pessoais que não aderem a nenhuma política de governança ou práticas recomendadas, é especialmente importante exigir autenticação multifator para convidados. Se o nome de usuário e a senha de um convidado forem roubados, exigir um segundo fator de autenticação reduz muito as chances de partes desconhecidas obterem acesso aos seus sites e arquivos.
 
 Neste exemplo, configuraremos a autenticação multifator para convidados usando uma política de acesso condicional do Azure Active Directory.
 
@@ -70,7 +70,7 @@ Agora, o convidado será solicitado a se inscrever na autenticação multifator 
 
 ## <a name="set-up-a-terms-of-use-for-guests"></a>Definir os termos de uso para os convidados
 
-Em algumas situações, os usuários convidados podem não ter assinado acordos de não divulgação ou outros acordos legais com sua organização. Você pode exigir que os convidados concordem com os termos de uso antes de acessar os arquivos que são compartilhados com eles. Os termos de uso podem ser exibidos na primeira vez que tentam acessar um site ou arquivo compartilhado.
+Em algumas situações, os convidados podem não ter assinado acordos de não divulgação ou outros acordos legais com sua organização. Você pode exigir que os convidados concordem com os termos de uso antes de acessar os arquivos que são compartilhados com eles. Os termos de uso podem ser exibidos na primeira vez que tentam acessar um site ou arquivo compartilhado.
 
 Para criar os termos de uso, primeiro é necessário criar um documento no Word ou em outro programa de criação e, em seguida, salvá-lo como um arquivo .pdf. Esse arquivo pode ser carregado no Azure AD.
 
@@ -89,7 +89,7 @@ Para criar os termos de uso do Azure AD
 9. Em **Acesso Condicional**, na lista **Impor com o modelo de política de Acesso Condicional**, escolha **Criar política de acesso condicional mais tarde**.
 10. Clique em **Criar**.
 
-Depois de criar os termos de uso, a próxima etapa é criar uma política de acesso condicional que exibe os termos de uso para os usuários convidados.
+Depois de criar os termos de uso, a próxima etapa é criar uma política de acesso condicional que exibe os termos de uso aos convidados.
 
 Para criar uma política de acesso condicional:
 
@@ -105,7 +105,7 @@ Para criar uma política de acesso condicional:
 10. Na folha **Conceder**, selecione **Temos de uso de convidado** e, em seguida, clique em **Selecionar**.
 11. Na folha **Novo**, em **Habilitar política**, clique em **Ativar** e, em seguida, clique em **Criar**.
 
-Agora, na primeira vez que um usuário convidado tentar acessar o conteúdo ou uma equipe ou um site em sua organização, será necessário aceitar os termos de uso.
+Agora, na primeira vez que um convidado tentar acessar um conteúdo ou uma equipe ou site em sua organização, ele deverá aceitar os termos de uso.
 
 > [!NOTE]
 > Usar o acesso condicional exige uma licença do Azure AD Premium P1. Para mais informações, confira [O que é acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
@@ -116,39 +116,32 @@ Agora, na primeira vez que um usuário convidado tentar acessar o conteúdo ou u
 
 ## <a name="set-up-guest-access-reviews"></a>Acesso de convidado com revisões de acesso
 
-Com as revisões de acesso no Azure AD, você pode automatizar uma revisão periódica do acesso do usuário a várias equipes e grupos. Requerer uma revisão do acesso dos convidados, pode ajudar a garantir que os usuários convidados não mantenham o acesso às informações confidenciais de sua organização por mais tempo do que o necessário.
+Com as revisões de acesso no Azure AD, você pode automatizar uma revisão periódica do acesso do usuário a várias equipes e grupos. Ao exigir uma análise de acesso para convidados especificamente, você pode ajudar a garantir que os convidados não retenham o acesso às informações confidenciais da sua organização por mais tempo do que o necessário.
 
-As revisões de acesso podem ser organizadas em programas. Um programa é um agrupamento de revisões similares de acesso, que podem ser usadas para organizar revisões de acesso para fins de auditoria e relatórios.
-
-Para criar um programa
-
-1. Entre no portal do Azure e abra a página [Governança de Identidade](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade).
-2. No menu à esquerda, clique em **Programas**.
-3. Clique em **Novo Programa**.
-4. Digite um  **Nome** e uma **Descrição**.
-5. Clique em **Criar**.
-
-Depois de criar o programa, pode-se criar uma revisão de acesso de convidado e associá-la com o programa.
-
-Configurar uma revisão de acesso de usuário convidado
+Para configurar uma revisão de acesso de convidado
 
 1. Na página [Governança de Identidade](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade), no menu à esquerda, clique em **Revisões de acesso**.
 2. Clique em **Novas revisões de acesso**.
+3. Escolha a opção **Teams + Grupos**.
+4. Escolha a opção **Todos os grupos do Microsoft 365** com usuários convidados. Clique em **Selecionar grupo(s) a excluir** se quiser excluir algum grupo.
+5. Escolha a opção **Somente usuários convidados** e clique em **Avançar: Comentários**.
+6. Em **Selecionar revisores**, escolha **Proprietário(s) do grupo**.
+7. Clique em **Selecionar revisores substitutos**, escolha quem deve ser os revisores substitutos e clique em **Selecionar**.
+8. Em **Especificar recorrência de revisão**, escolha **Trimestralmente**.
+9. Selecione uma data de início e duração.
+10. Para **Fim**, escolha **Nunca** e clique em **Avançar: Configurações**.
 
-   ![Captura de tela das configurações de revisão de acesso do Azure Active Directory](../media/azure-ad-create-access-review.png)
+    ![Captura de tela da guia de revisão de acesso do Azure Active Directory](../media/azure-ad-create-access-review.png)
 
-3. Na caixa **Nome**, digite um nome.
-4. Por **Frequência**, escolha **Trimestral**.
-5. Para **Fim**, escolha **Nunca.**
-6. Em **Escopo**, escolha **Somente usuários convidados**.
-7. Clique em **Grupo**, selecione os grupos que você deseja incluir na revisão de acesso e, em seguida, clique em **Selecionar**.
-8. Em **Programas**, clique em **Vincular ao programa**.
-9. Na folha **Selecionar um programa**, escolha **Programa de revisão de acesso de convidado**
-10. Clique em **Iniciar**.
+11. Na guia **Configurações**, revise as configurações para conformidade com suas regras de negócios.
 
-Uma revisão de acesso separada é criada para cada grupo que você especificar. Os proprietários de cada grupo receberão um email trimestral para aprovar ou negar o acesso de convidados aos seus grupos.
+    ![Captura de tela da guia de configurações de revisão de acesso do Azure Active Directory](../media/azure-ad-create-access-review-settings.png)
 
-É importante observar que os convidados podem ter acesso a equipes ou grupos, ou a arquivos e pastas individuais. Quando o acesso a arquivos e pastas é fornecido, os convidados não podem ser adicionados a qualquer grupo específico. Se você quiser fazer revisões de acesso em usuários convidados que não pertencem a uma equipe ou grupo, é possível criar um grupo dinâmico no Azure AD que contenha todos os convidados e, em seguida, criar uma revisão de acesso para esse grupo. Os proprietários do site também podem gerenciar a [expiração de convidado para o site](https://support.microsoft.com/office/25bee24f-42ad-4ee8-8402-4186eed74dea)
+12. Clique em **Avançar: Analisar + Criar**.
+13. Digite um **Nome de análise** e análise as configurações.
+14. Clique em **Criar**.
+
+É importante observar que os convidados podem ter acesso a equipes ou grupos, ou a arquivos e pastas individuais. Quando o acesso a arquivos e pastas é fornecido, os convidados não podem ser adicionados a qualquer grupo específico. Se desejar fazer revisões de acesso em convidados que não pertencem a uma equipe ou grupo, você pode criar um grupo dinâmico no Azure Active Directory para conter todos os convidados e, em seguida, criar uma análise de acesso para esse grupo. Os proprietários do site também podem gerenciar a [expiração de convidado para o site](https://support.microsoft.com/office/25bee24f-42ad-4ee8-8402-4186eed74dea)
 
 ### <a name="more-information"></a>Mais informações
 
@@ -156,9 +149,9 @@ Uma revisão de acesso separada é criada para cada grupo que você especificar.
 
 [Criar uma revisão de acesso de grupos ou aplicativos nas revisões de acesso do Azure AD](https://docs.microsoft.com/azure/active-directory/governance/create-access-review)
 
-## <a name="set-up-web-only-access-for-guest-users"></a>Configurar o acesso somente da Web para usuários convidados
+## <a name="set-up-web-only-access-for-guests"></a>Configurar o acesso apenas à Web para convidados
 
-É possível reduzir sua superfície de ataque e facilitar a administração exigindo que os usuários convidados acessem suas equipes, sites e arquivos usando apenas um navegador da Web.
+Você pode reduzir a superfície de ataque e facilitar a administração, exigindo que os convidados acessem suas equipes, sites e arquivos usando apenas um navegador da web.
 
 Para grupos e equipes do Microsoft 365, isso é feito com uma política de acesso condicional do Azure Active Directory. Para o Microsoft Office SharePoint Online, isso é configurado no Centro de Administração do SharePoint Online. (Você também pode [usar rótulos de confidencialidade para restringir o acesso dos convidados apenas à web](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).)
 
@@ -192,9 +185,9 @@ Para restringir os convidados ao acesso online para o Microsoft Office SharePoin
 
 Observe que essa configuração no Centro de administração do SharePoint Online cria uma política de acesso condicional de suporte no Microsoft Azure Active Directory.
 
-## <a name="configure-a-session-timeout-for-guest-users"></a>Configurar o tempo limite de uma sessão para usuários convidados
+## <a name="configure-a-session-timeout-for-guests"></a>Configurar um tempo limite de sessão para convidados
 
-Exigir que os convidados autentiquem de forma regular pode reduzir a possibilidade de usuários desconhecidos acessar o conteúdo da sua organização se o dispositivo de um usuário convidado não for seguro. Você pode configurar uma política de acesso condicional de tempo limite de sessão para usuários convidados no Azure AD.
+Exigir que os convidados se autentiquem regularmente pode reduzir a possibilidade de usuários desconhecidos acessarem o conteúdo da sua organização se o dispositivo de um convidado não for mantido seguro. Você pode configurar uma política de acesso condicional de tempo limite de sessão para convidados no Azure Active Directory.
 
 Para configurar uma política de tempo limite de sessão de convidado
 
