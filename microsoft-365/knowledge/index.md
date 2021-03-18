@@ -29,27 +29,27 @@ ms.locfileid: "50454118"
 </br>
 
 
-O Viva Topics é um serviço do Office 365 que ajuda as organizações a transformar informações em conhecimento.
+Os Tópicos do Viva é um serviço do Office 365 que ajuda as organizações a transformar informações em conhecimento.
 
-Os recursos nessa página foram elaborados para você começar a aprender sobre e como usar o Viva Topics na sua organização.
+Os recursos nessa página foram elaborados para você começar a aprender sobre e como usar os Tópicos do Viva na sua organização.
 
 ## <a name="get-started"></a>Introdução
 
-Os recursos nesta seção ajudam você a aprender mais sobre o que é o Viva Topics e como ele pode ajudá-lo.
+Os recursos nesta seção ajudam você a aprender mais sobre o que é os Tópicos do Viva e como eles podem ajudá-lo.
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
-|Saiba mais sobre o Viva Topics|[Visão geral de Tópicos do Microsoft Viva](topic-experiences-overview.md)|
-|Aprenda como os tópicos são descobertos e sugeridos pela IA|[Descoberta de Tópicos do Microsoft Viva](topic-experiences-discovery.md)|
+|Saiba mais sobre os Tópicos do Viva|[Visão geral dos Tópicos do Microsoft Viva](topic-experiences-overview.md)|
+|Aprenda como os tópicos são descobertos e sugeridos pela IA|[Descoberta dos Tópicos do Microsoft Viva](topic-experiences-discovery.md)|
 |Saiba mais sobre a segurança de tópicos|[Segurança e privacidade do Microsoft Viva](topic-experiences-security-privacy.md)|
-|Saiba como obter o Viva Topics|[Página de produto dos Tópicos do Microsoft Viva](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
+|Saiba como obter os Tópicos do Viva|[Página de produto dos Tópicos do Microsoft Viva](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
 |Veja os recursos na central de recursos da comunidade técnica da Microsoft|[Comunidade Técnica dos Tópicos do Microsoft Viva](https://resources.techcommunity.microsoft.com/viva-topics/)|
 
 
 
 ## <a name="adoption"></a>Adoção
 
-Saiba mais sobre como usar e implementar o Viva Topics em sua organização para ajudá-lo a solucionar problemas de negócios: 
+Saiba mais sobre como usar e implementar os Tópicos do Viva em sua organização para ajudá-lo a solucionar problemas de negócios: 
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
@@ -57,7 +57,7 @@ Saiba mais sobre como usar e implementar o Viva Topics em sua organização para
 
 ## <a name="set-up-and-administration"></a>Configuração e administração
 
-Os recursos nessa seção ajudam o administrador da sua organização a instalar e configurar o Viva Topics em seu ambiente Microsoft 365.
+Os recursos nessa seção ajudam o administrador da sua organização a instalar e configurar os Tópicos do Viva em seu ambiente Microsoft 365.
 
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
@@ -73,8 +73,8 @@ Os recursos nesta seção ajudam os seus usuários a aprender como usar e gerenc
 | Se você estiver procurando essas informações: | Ir para este recurso: |
 |:-----|:-----|
 |Saiba como trabalhar com os tópicos|[Visão geral do centro de tópicos](topic-center-overview.md)<br><br>[Gerenciar tópicos](manage-topics.md)<br><br>[Criar um novo tópico](create-a-topic.md)<br><br>[Editar um tópico existente](edit-a-topic.md)<br><br>[Encontre tópicos com a Pesquisa da Microsoft](search.md)<br><br>|
-|Entenda as funções do usuário|[Funções do Viva Topics](topic-experiences-roles.md)|
-|Entenda por que os tópicos podem ser diferentes para usuários diferentes|[Filtragem de segurança do Viva Topics](topic-experiences-security-trimming.md)|
+|Entenda as funções do usuário|[Funções dos Tópicos do Viva](topic-experiences-roles.md)|
+|Entenda por que os tópicos podem ser diferentes para usuários diferentes|[Filtragem de segurança dos Tópicos do Viva](topic-experiences-security-trimming.md)|
 |Saiba como evitar que tópicos específicos sejam identificados e exibidos|[Restringir o acesso aos tópicos](restrict-access-to-topics.md)|
 
 
