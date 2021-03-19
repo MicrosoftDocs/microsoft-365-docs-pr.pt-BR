@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Prepare-se e implante a Extensão de Conformidade da Microsoft.
-ms.openlocfilehash: d71c04433ec369856a510e9fb6382709ecb092f9
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: c6f56c65de6428374d912545db38337d34720c94
+ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826220"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50838344"
 ---
 # <a name="get-started-with-microsoft-compliance-extension-preview"></a>Começar a usar a Extensão de Conformidade da Microsoft (prévia)
 
@@ -74,10 +74,6 @@ Os dados do Ponto de extremidade DLP podem ser exibidos no [Explorador de ativid
 - Leitor de segurança
 - Leitor de relatórios
 
-### <a name="chrome-dependency"></a>Dependência do Chrome
-
-A extensão de conformidade da Microsoft é compatível com a versão atual do Chrome e com as três versões anteriores.
-
 ### <a name="overall-installation-workflow"></a>Fluxo de trabalho geral de instalação
 
 Implantar a Extensão de Conformidade da Microsoft é um processo de várias fases. Você pode escolher instalar em uma máquina por vez ou usar o Microsoft Endpoint Manager ou a Política de Grupo para implantações em toda a organização.
@@ -92,7 +88,7 @@ Implantar a Extensão de Conformidade da Microsoft é um processo de várias fas
 
 ### <a name="prepare-infrastructure"></a>Preparar a infraestrutura
 
-Se você estiver implementando a Extensão de Conformidade da Microsoft para todos os seus dispositivos monitorados com Windows 10, deverá remover o Google Chrome da lista de aplicativos não permitidos. Para obter mais informações, confira [Navegadores não permitidos](endpoint-dlp-using.md#unallowed-browsers). Se você estiver implementando apenas para alguns dispositivos, pode deixar o Chrome na lista de navegadores não permitidos. A Extensão de Conformidade da Microsoft contornará as restrições da lista de aplicativos não permitidos para os computadores onde está instalada.  
+Se você estiver implementando a extensão de conformidade da Microsoft para todos os dispositivos Windows 10 monitorados, deverá remover o Google Chrome das listas de aplicativos e navegadores não permitidos. Para obter mais informações, confira [Navegadores não permitidos](endpoint-dlp-using.md#unallowed-browsers). Se você estiver implementando apenas para alguns dispositivos, poderá deixar o Chrome no navegador não permitido ou nas listas de aplicativos não permitidos. A extensão de conformidade da Microsoft contornará as restrições de ambas as listas dos computadores onde está instalada.  
 
 ### <a name="prepare-your-devices"></a>Preparar os dispositivos.
 
@@ -105,32 +101,40 @@ Se você estiver implementando a Extensão de Conformidade da Microsoft para tod
 
 Este e o método recomendado. 
 
-1. Entre no computador com Windows 10 em que você deseja instalar a Extensão de Conformidade da Microsoft e execute esse script do Windows PowerShell como administrador. 
+1. Entre no computador Windows 10 no qual deseja instalar a extensão de conformidade da Microsoft e execute este script do PowerShell como administrador. 
 
-```powershell
-Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
-``` 
+   ```powershell
+   Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
+   ``` 
 
 2.  Navegue até a [Extensão de Conformidade da Microsoft - Chrome Web Store (google.com)](https://chrome.google.com/webstore/detail/microsoft-compliance-exte/echcggldkblhodogklpincgchnpgcdco).
+
 3.  Instale a extensão usando as instruções na página da Chrome Web Store.
 
 ### <a name="deploy-using-microsoft-endpoint-manager"></a>Implantar usando o Microsoft Endpoint Manager
 
-Usar este método de configuração para implantações em toda a organização 
+Use este método de configuração para implantações em toda a organização.
+
 
 ##### <a name="enabling-required-registry-key-via-microsoft-endpoint-manager"></a>Habilitando a Chave de Registro Exigida por meio do Microsoft Endpoint Manager
 
 1.  Crie um script Windows PowerShell com o seguinte conteúdo:
-```powershell
-Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
-```
+
+    ```powershell
+    Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
+    ```
+
 2.  Entre no [Centro de Administração do Microsoft Endpoint Manager](https://endpoint.microsoft.com).
+
 3.  Navegue até **Dispositivos** > **Scripts** e selecione **Adicionar**.
+
 4.  Navegue até o local do script criado quando solicitado.
+
 5.  Selecione as seguintes configurações:
     1. Execute este script usando as credenciais de logon: SIM
     1. Aplicar verificação de assinatura de script: NÃO
     1. Execute o script em Windows PowerShell Host de 64 bits: SIM
+
 6.  Selecione os grupos de dispositivos adequados e aplique a política.
 
 #### <a name="microsoft-endpoint-manager-force-install-steps"></a>Etapas de instalação forçada do Microsoft Endpoint Manager
@@ -139,15 +143,25 @@ Antes de adicionar a extensão de Conformidade da Microsoft à lista de Extensõ
 
  Depois de ingerir o ADMX, as etapas abaixo podem ser seguidas para criar um perfil de configuração para esta extensão.
 
-1.  Entre no Centro de Administração do Microsoft Endpoint Manager (https://endpoint.microsoft.com)
+1.  Entre no Centro de Administração do Microsoft Endpoint Manager (https://endpoint.microsoft.com).
+
 2.  Navegue até Perfis de Configuração.
+
 3.  Selecione **Criar Perfil**.
+
 4.  Selecione **Windows 10** como plataforma.
+
 5.  Selecione **Personalizar** como tipo de perfil.
+
 6.  Selecione a guia **Configurações**.
+
 7.  Selecione **Adicionar**.
+
 8.  Insira as seguintes informações de política.
-OMA-URI: ./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist Data type: String Value: <enabled/><data id=”ExtensionInstallForcelistDesc” value=”1&#xF000; echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx″/>
+    
+    OMA-URI: `./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extensions/ExtensionInstallForcelist`<br/>
+    Tipo de dados: `String`<br/>
+    Valor: `<enabled/><data id="ExtensionInstallForcelistDesc" value="1&#xF000; echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx"/>`
 
 9.  Clique em criar.
 
@@ -156,34 +170,53 @@ OMA-URI: ./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Extension
 Se não quiser usar o Microsoft Endpoint Manager, você pode usar políticas de grupo para implantar a Extensão de Conformidade da Microsoft em sua organização
 
 1. Seus dispositivos devem ser gerenciáveis por meio da Política de Grupo e você precisa importar todos os ADMXs do Chrome para o Armazenamento Central de Política de Grupo. Para obter mais informações, confira [Como criar e gerenciar o Repositório Central para Modelos Administrativos de Política de Grupo no Windows](https://docs.microsoft.com/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
-2.  Crie um script Windows PowerShell usando este:
 
-```powershell
-et-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
-```
+2.  Crie um script do PowerShell usando este comando do PowerShell:
+
+    ```powershell
+    Get-Item -path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Miscellaneous Configuration" | New-ItemProperty -Name DlpDisableBrowserCache -Value 0 -Force
+    ```
 
 3.  Abra o **Console de Gerenciamento de Política de Grupo** e navegue até sua unidade organizacional (UO).
+
 4.  Clique com o botão direito e selecione **Criar um GPO neste domínio e Vinculá-lo aqui**. Quando solicitado, atribua um nome descritivo a este objeto de política de grupo (GPO) e termine de criá-lo.
+
 5.  Clique com o botão direito no GPO e selecione **Editar**.
+
 6.  Vá para **Configuração do Computador** > **Preferências** > **Configurações do Painel de Controle** > **Tarefas Agendadas**.
+
 7.  Criar uma nova tarefa imediata clicando com o botão direito e selecionando **Nova** > **Tarefa Imediata (pelo menos Windows 7)**.
+
 8.  Dê um nome e uma descrição à tarefa.
+
 9.  Escolha a conta correspondente para executar a tarefa imediata, por exemplo NT Authority
+
 10. Selecione **Executar com privilégios mais altos**.
+
 11. Configure a política para Windows 10.
+
 12. Na guia **Ações**, selecione a ação **Iniciar um programa**.
+
 13. Insira o caminho para o Programa/Script criado na Etapa 1.
+
 14. Selecione **Aplicar**.
 
 #### <a name="adding-the-chrome-extension-to-the-forceinstall-list"></a>Adicionando a Extensão do Chrome à Lista ForceInstall
 
 1.  No Editor de Gerenciamento de Política de Grupo, navegue até sua UO.
+
 2.  Expanda o seguinte caminho **Configuração de Computador/Usuário** > **Políticas** > **Modelos Administrativos** > **Modelos Administrativos Clássicos** > **Google** > **Google Chrome** > **Extensões**. Este caminho pode variar dependendo da sua configuração.
+
 3.  Selecione **Configurar a lista de extensões instaladas por força**.
+
 4.  Clique com o botão direito do mouse e selecione **Editar**.
+
 5.  Selecione **Habilitado**.
+
 6.  Selecione **Mostrar**.
+
 7.  Em **valor**, adicione a seguinte entrada: `echcggldkblhodogklpincgchnpgcdco;https://clients2.google.com/service/update2/crx`
+
 8.  Selecione **OK** e, em seguida, **Aplicar**.
 
 ### <a name="test-the-extension"></a>Teste a Extensão
@@ -225,6 +258,12 @@ Agora que você removeu o Chrome da lista de navegadores/aplicativos não permit
 
    > [!div class="mx-imgBorder"]
    > ![filtro do explorador de atividades para dispositivos de ponto de extremidade](../media/endpoint-dlp-4-getting-started-activity-explorer.png)
+
+### <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
+
+1. A imposição Arrastar e soltar para carregamento de pasta não é compatível.
+2. A imposição de substituição de bloqueio para saída da nuvem não é compatível.
+3. O modo anônimo não é compatível e deve ser desabilitado.
 
 ## <a name="next-steps"></a>Próximas etapas
 Agora que você tem dispositivos integrados e pode exibir os dados de atividade no Explorador de atividades, você está pronto para prosseguir para a próxima etapa na qual você cria políticas DLP que protegem seus itens confidenciais.
