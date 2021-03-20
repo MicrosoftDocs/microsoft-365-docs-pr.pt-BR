@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: Saiba mais sobre os limites em vigor para o recurso de pesquisa de conteúdo no centro de conformidade do Microsoft 365, como o número máximo de pesquisas simultâneas. Esses limites de pesquisa também se aplicam às pesquisas associadas aos principais casos de Descoberta eDiscovery.
-ms.openlocfilehash: 7212175dece6956ac825cef273b06603230736ee
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: fd77b12fe8cfc8a53876a3e95ba8f48434ae77b8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717597"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905873"
 ---
 # <a name="limits-for-content-search"></a>Limites para pesquisa de conteúdo 
 Vários limites são aplicados à ferramenta de pesquisa de conteúdo no centro de conformidade do Microsoft 365. Isso inclui pesquisas executados  na página De pesquisa de conteúdo e pesquisas associadas a um caso de Descoberta De eDiscovery na página **Descoberta Principal.** Esses limites ajudam a manter a saúde e a qualidade dos serviços fornecidos às organizações. Há também limites relacionados à indexação de mensagens de email no Exchange Online para pesquisa. Você não pode modificar os limites da Pesquisa de Conteúdo ou indexação de email, mas deve estar ciente deles para que possa levar esses limites em consideração ao planejar, executar e solucionar problemas de pesquisas de conteúdo.
@@ -35,7 +35,7 @@ A tabela a seguir lista os limites de pesquisa ao usar a ferramenta de pesquisa 
 |:-----|:-----|
 |O número máximo de caixas de correio ou sites que podem ser pesquisados em uma única pesquisa  <br/> |Sem limite <sup>1</sup> <br/> |
 |O número máximo de pesquisas que podem ser executados ao mesmo tempo em sua organização.  <br/> |30  <br/> |
-|O número máximo de pesquisas em toda a organização que podem ser executados ao mesmo tempo. <br/> |3   <br/> |
+|O número máximo de pesquisas em toda a organização que podem ser executados ao mesmo tempo. <br/> |3  <br/> |
 |O número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo. Esse limite é provavelmente atingido quando o usuário tenta iniciar várias pesquisas usando o comando **Get-ComplianceSearch \| Start-ComplianceSearch** no Centro de Conformidade e Segurança & do PowerShell.  <br/> |10   <br/> |
 |O número máximo de itens por caixa de correio de usuário que são exibidos na página de visualização ao visualizar os resultados da Pesquisa de Conteúdo.  <br/> |100  <br/> |
 |O número máximo de itens encontrados em todas as caixas de correio de usuário exibidas na página de visualização ao visualizar os resultados da pesquisa. Os itens mais novos são exibidos.  <br/> |1.000  <br/> |
@@ -47,7 +47,7 @@ A tabela a seguir lista os limites de pesquisa ao usar a ferramenta de pesquisa 
 |O número máximo de caixas de correio públicas que podem ser visualizadas para resultados de pesquisa. Se houver mais de 500 caixas de correio de pasta pública que contêm conteúdo que corresponde à consulta de pesquisa, somente as 500 caixas de correio de pasta pública mais importantes com a maioria dos resultados da pesquisa estarão disponíveis para visualização.  <br/> |500  <br/> |
 |O número máximo de caracteres para a consulta de pesquisa (incluindo operadores e condições) para uma pesquisa.  <br/><br/> **Observação:** Esse limite entra em vigor depois que a consulta é expandida, o que significa que a consulta será expandida em relação a cada uma das palavras-chave. Por exemplo, se uma consulta de pesquisa tiver 15 palavras-chave e parâmetros e condições adicionais, a consulta será expandida 15 vezes, cada uma com os outros parâmetros e condições na consulta. Portanto, mesmo que o número de caracteres na consulta de pesquisa possa estar abaixo do limite, é a consulta expandida que pode contribuir para exceder esse limite.  <br/> |**Caixas de correio:** 10.000  <br/> **Sites:** 4.000 ao pesquisar todos os sites ou 2.000 ao pesquisar até 20 sites <sup>2</sup> <br/> |
 |Número máximo de variantes retornadas ao usar um caractere curinga de prefixo para pesquisar uma frase exata em uma consulta de pesquisa ou ao usar um caractere curinga de prefixo e o **operador booleano NEAR.**  <br/> |10.000 <sup>3</sup> <br/> |
-|O número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo,  `time*`  `one*` , ou  `set*` .  <br/> |3   <br/> |
+|O número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo,  `time*`  `one*` , ou  `set*` .  <br/> |3  <br/> |
 |O número máximo de caixas de correio em uma pesquisa em que você pode excluir itens fazendo uma ação de "pesquisa e limpeza" (usando o comando **New-ComplianceSearchAction -Purge).** Se a pesquisa que você está fazendo uma ação de limpeza tiver mais caixas de correio de origem do que esse limite, a ação de limpeza falhará. Para obter mais informações sobre pesquisa e limpeza, consulte Pesquisar e excluir mensagens [de email em sua organização](search-for-and-delete-messages-in-your-organization.md).  <br/> |50.000  <br/> |
 |O número máximo de locais em uma pesquisa de onde você pode exportar itens. Se a pesquisa que você está exportando tiver mais locais do que esse limite, a exportação falhará. Para obter mais informações, consulte [Exportar resultados da pesquisa de conteúdo](export-search-results.md).  <br/> |100.000  <br/> |
 |||
@@ -76,7 +76,7 @@ A tabela a seguir lista os limites ao exportar os resultados de uma pesquisa de 
 |Quantidade máxima de dados exportáveis de uma única pesquisa  <br/><br/> **Observação:** Se os resultados da pesquisa são maiores que 2 TB, considere usar intervalos de datas ou outros tipos de filtros para diminuir o tamanho total dos resultados da pesquisa. <br/>  |2 TB  <br/> | 
 |Máximo que uma organização pode exportar em um único dia <br/><br/> **Observação:** Esse limite é redefinido diariamente às 12:00 UTC <br/> |2 TB <br/> |
 |Máximo de exportações simultâneas que podem ser usadas ao mesmo tempo em sua organização <br/><br/> **Observação:** Executar um **Relatório Somente exportação** contagens em relação ao total de exportações simultâneas para sua organização. Se três usuários estão executando 3 exportações cada, apenas um outro export pode ser executado. Se ele está exportando um relatório ou resultados de pesquisa, nenhuma outra exportação pode ser executada até que um seja concluído.   <br/> |10  <br/> |
-|Exportações máximas que um único usuário pode executar a qualquer momento <br/> |3  <br/> |
+|Exportações máximas que um único usuário pode executar a qualquer momento <br/> |3 <br/> |
 |Número máximo de caixas de correio para resultados de pesquisa que podem ser baixadas usando a Ferramenta de Exportação de Descoberta Eletrônico <br/><br/> **Observação:** Para baixar os resultados da pesquisa de mais de 100.000 caixas de correio, você precisa usar o Centro de Conformidade e Segurança & PowerShell. Para obter instruções, [consulte Exportar resultados de mais de 100.000 caixas de correio](export-search-results.md#exporting-results-from-more-than-100000-mailboxes). <br/> | 100.000 <br/>|
 |Tamanho máximo do arquivo PST que pode ser exportado <br/><br/> **Observação:** Se os resultados da pesquisa da caixa de correio de um usuário são maiores do que 10 GB, os resultados da pesquisa para a caixa de correio serão exportados em dois (ou mais) arquivos PST separados. Se você optar por exportar todos os resultados da pesquisa em um único arquivo PST, o arquivo PST será spiltado em arquivos PST adicionais se o tamanho total dos resultados da pesquisa for maior que 10 GB. Se quiser alterar esse tamanho padrão, edite o Registro do Windows no computador usado para exportar os resultados da pesquisa. Consulte [Alterar o tamanho dos arquivos PST ao exportar](change-the-size-of-pst-files-when-exporting-results.md)resultados da pesquisa de Descoberta e. Os resultados da pesquisa de uma caixa de correio específica não serão divididos entre vários arquivos PST, a menos que o conteúdo de uma única caixa de correio seja maior que 10 GB. Se você optou por exportar os resultados da pesquisa em um arquivo PST para o qual contém todas as mensagens em uma única pasta e os resultados da pesquisa são maiores que 10 GB, os itens ainda são organizados em ordem cronológica, para que eles sejam lançados em arquivos PST adicionais com base na data enviada.<br/> | 10 GB <br/> |
 |Taxa na qual os resultados da pesquisa de caixas de correio e sites são carregados em um local de Armazenamento do Azure fornecido pela Microsoft. |Máximo de 2 GB por hora|
@@ -107,7 +107,7 @@ Há limites adicionais relacionados a diferentes aspectos da pesquisa de conteú
 
 - [Investigando itens parcialmente indexados na Descoberta eDiscovery](investigating-partially-indexed-items-in-ediscovery.md)
 
-- [Limites de pesquisa do SharePoint Online](https://docs.microsoft.com/sharepoint/search-limits)
+- [Limites de pesquisa do SharePoint Online](/sharepoint/search-limits)
 
 Para obter informações sobre pesquisas de conteúdo, consulte:
   

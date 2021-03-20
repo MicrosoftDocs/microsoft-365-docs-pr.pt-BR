@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Use a ação de auditoria da caixa de correio MailItemsAccessed para executar investigações de perícia das contas de usuários comprometidas.
-ms.openlocfilehash: 15379a5c24ee222cf097e94d46dc46de0e385820
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: e9dda101b330f6632e66c226156df3497ac38453
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49867999"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903477"
 ---
 # <a name="use-advanced-audit-to-investigate-compromised-accounts"></a>Usar a Auditoria Avançada para investigar contas comprometidas
 
@@ -31,7 +31,7 @@ Para ajudá-lo a investigar contas de email comprometidas, agora vamos auditar o
 
 ## <a name="the-mailitemsaccessed-mailbox-auditing-action"></a>A ação de auditoria da caixa de correio MailItemsAccessed
 
-A nova ação MailItemsAccessed faz parte da nova funcionalidade [Auditoria Avançada](advanced-audit.md). Faz parte da [auditoria de caixa de email do Exchange](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions) e é habilitada por padrão para os usuários que recebem uma licença do Office 365 ou Microsoft 365 E5 ou para organizações com uma assinatura complementar da Conformidade do Microsoft 365 E5.
+A nova ação MailItemsAccessed faz parte da nova funcionalidade [Auditoria Avançada](advanced-audit.md). Faz parte da [auditoria de caixa de email do Exchange](/office365/securitycompliance/enable-mailbox-auditing#mailbox-auditing-actions) e é habilitada por padrão para os usuários que recebem uma licença do Office 365 ou Microsoft 365 E5 ou para organizações com uma assinatura complementar da Conformidade do Microsoft 365 E5.
 
 A ação de auditoria da caixa de correio MailItemsAccessed abrange todos os protocolos de email: POP, IMAP, MAPI, EWS, Exchange ActiveSync e REST. Ela também aborda os dois tipos de acesso a email: *sincronização* e *vinculação*.
 
@@ -67,7 +67,7 @@ Confira a etapa 1 na seção [Usar registros de auditoria MailItemsAccessed para
 
 A auditoria de caixa de correio gera registros de auditoria para acesso a mensagens de email para que você tenha certeza de que as mensagens de email não foram comprometidas. Por esse motivo, em situações em que não sabemos que alguns dados foram acessados, supomos que foram acessados gravando todas as atividades de acesso ao email.
 
-Geralmente usa-se os registros de auditoria MailItemsAccessed para fins de perícia após uma violação de dados ser resolvida e o invasor ser removido. Para iniciar a investigação, identifique o conjunto de caixas de correio que foram comprometidas e determine o período de tempo em que o invasor teve acesso às caixas de correio em sua organização. Em seguida, você pode usar os cmdlets **Search-UnifiedAuditLog** ou **Search-MailboxAuditLog** no [PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) para pesquisar registros de auditoria que correspondem à violação de dados. 
+Geralmente usa-se os registros de auditoria MailItemsAccessed para fins de perícia após uma violação de dados ser resolvida e o invasor ser removido. Para iniciar a investigação, identifique o conjunto de caixas de correio que foram comprometidas e determine o período de tempo em que o invasor teve acesso às caixas de correio em sua organização. Em seguida, você pode usar os cmdlets **Search-UnifiedAuditLog** ou **Search-MailboxAuditLog** no [PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell) para pesquisar registros de auditoria que correspondem à violação de dados. 
 
 Você pode executar um dos seguintes comandos para pesquisar registros de auditoria MailItemsAccessed:
 
@@ -192,4 +192,4 @@ Esta é a sintaxe do comando mostrado na captura de tela anterior:
 
 ```powershell
 Search-MailboxAuditLog -Identity admin -ShowDetails -Operations MailItemsAccessed -ResultSize 2000 | Select LastAccessed,Operation,AuditOperationsCountInAggregatedRecord,ClientInfoString
-``` 
+```

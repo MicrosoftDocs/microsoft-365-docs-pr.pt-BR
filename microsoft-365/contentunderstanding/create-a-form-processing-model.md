@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Crie um modelo de processamento de formulário no Microsoft SharePoint Syntex.
-ms.openlocfilehash: c025317a5eb88199b849f90b51fac9779e1c97a2
-ms.sourcegitcommit: 162c01dfaa2fdb3225ce4c24964c1065ce22ed5d
+ms.openlocfilehash: d71273e416bf7922627e44d9423eaa8903411689
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49976004"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905841"
 ---
 # <a name="create-a-form-processing-model-in-microsoft-sharepoint-syntex"></a>Criar um modelo de processamento de formulário no Microsoft SharePoint Syntex
 
@@ -27,7 +27,7 @@ ms.locfileid: "49976004"
 
 </br>
 
-Usando o [AI Builder](https://docs.microsoft.com/ai-builder/overview), um recurso no Microsoft PowerApps, os usuários do SharePoint Syntex podem criar um [modelo de processamento de formulário](form-processing-overview.md) diretamente de uma biblioteca de documentos do SharePoint. 
+Usando o [AI Builder](/ai-builder/overview), um recurso no Microsoft PowerApps, os usuários do SharePoint Syntex podem criar um [modelo de processamento de formulário](form-processing-overview.md) diretamente de uma biblioteca de documentos do SharePoint. 
 
 A criação de um modelo de processamento de formulário envolve o seguinte:
  - Etapa 1: criar a partir do modelo de processamento para criar o tipo de conteúdo
@@ -68,7 +68,7 @@ A primeira etapa na criação de um modelo de processamento de formulário é no
 Depois de criar seu novo modelo de processamento de formulário, seu navegador abre uma nova página de modelo de processamento de formulários do AI Builder do PowerApps. Nesta página, você pode adicionar e analisar seus documentos de exemplo. </br>
 
 > [!NOTE]
-> Ao procurar os arquivos de exemplo que serão usados, confira as[informações sobre o modelo de processamento de formulário e dicas de otimização](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
+> Ao procurar os arquivos de exemplo que serão usados, confira as[informações sobre o modelo de processamento de formulário e dicas de otimização](/ai-builder/form-processing-model-requirements). 
 
    ![AI Builder do Power Apps](../media/content-understanding/powerapps.png)</br> 
  
@@ -148,6 +148,6 @@ Depois de publicar seu modelo e criar seu fluxo PowerAutomate, você pode usar o
 
 ## <a name="see-also"></a>Confira também
   
-[Documentação do Power Automate](https://docs.microsoft.com/power-automate/)
+[Documentação do Power Automate](/power-automate/)
 
-[Treinamento: Melhore o desempenho de negócios com o AI Builder](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
+[Treinamento: Melhore o desempenho de negócios com o AI Builder](/learn/paths/improve-business-performance-ai-builder/?source=learn)

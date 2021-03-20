@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: c3ba9ce6675e81a99309243db251b34a21a4b43f
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: d6e953c86939d732632e87573fc2aa5392f09aa2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454154"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904931"
 ---
 # <a name="create-a-new-topic"></a>Criar um novo tópico 
 
@@ -33,7 +33,7 @@ Em Tópicos do Viva, você pode criar um novo tópico se um não for descoberto 
 
 Para criar um novo tópico, você precisa:
 - Tenha uma licença de Tópicos do Viva.
-- Ter permissões para [**Quem pode criar ou editar tópicos**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions). Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva. 
+- Ter permissões para [**Quem pode criar ou editar tópicos**](./topic-experiences-user-permissions.md). Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva. 
 
 > [!Note] 
 > Os usuários que têm permissão para gerenciar tópicos no centro de tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.
@@ -126,13 +126,6 @@ Depois de publicar a página, o nome do tópico, o nome alternativo, a descriç�
 
 
 ## <a name="see-also"></a>Confira também
-
-
-
-  
-
-
-
 
 
 

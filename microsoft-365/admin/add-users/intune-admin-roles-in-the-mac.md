@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador do serviço abre tíquetes de suporte da Microsoft.
-ms.openlocfilehash: 48bb0f3d1a3a239025017fda261945094a3eda79
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 7f733dab02ab3ff33131be96a96451d7d1c14f55
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126076"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904403"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Funções de administrador Intune no Centro de administração do Microsoft 365
 
 Sua assinatura do Microsoft 365 ou do Office 365 acompanha um conjunto de funções de administrador que você pode atribuir aos usuários em sua organização usando o Centro de administração do Microsoft 365. Cada função de administrador é mapeada para uma função de negócios comum da empresa e concede permissões para a realização de tarefas específicas nos centros de administração.
 
-O Centro de administração do Microsoft 365 permite gerenciar as funções do Microsoft Intune. No entanto, essas funções são um subconjunto das funções disponíveis no centro de administração do Intune. Procurando as descrições de função detalhadas do Microsoft Intune? Confira [Controle de acesso baseado em função (RBAC) com o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
+O Centro de administração do Microsoft 365 permite gerenciar as funções do Microsoft Intune. No entanto, essas funções são um subconjunto das funções disponíveis no centro de administração do Intune. Procurando as descrições de função detalhadas do Microsoft Intune? Confira [Controle de acesso baseado em função (RBAC) com o Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 Para obter mais informações sobre como atribuir funções no Centro de administração do Microsoft 365, confira [Atribuir funções de administrador](assign-admin-roles.md).
 
@@ -58,7 +58,7 @@ Um parceiro pode atribuir estas funções:
 
 - Administração limitada, que tem privilégios equivalentes à administração de help desk.
 
-Antes que o parceiro possa atribuir funções aos usuários, é preciso adicioná-lo como administrador delegado à sua conta. Esse processo é iniciado por um parceiro autorizado.O parceiro envia um email perguntando se você deseja conceder permissão a ele para atuar como administrador delegado. Para obter instruções, confira [Autorizar ou remover relações de parceiro](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner).
+Antes que o parceiro possa atribuir funções aos usuários, é preciso adicioná-lo como administrador delegado à sua conta. Esse processo é iniciado por um parceiro autorizado.O parceiro envia um email perguntando se você deseja conceder permissão a ele para atuar como administrador delegado. Para obter instruções, confira [Autorizar ou remover relações de parceiro](../misc/add-partner.md).
   
 ## <a name="related-articles"></a>Artigos relacionados
 

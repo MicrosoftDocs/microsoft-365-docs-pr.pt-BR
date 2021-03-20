@@ -10,12 +10,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 26e62d6e59f1f90e35d9e18e6eed917a66876645
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: f8dd666c41863192d866693c6860a64064f846e6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453916"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904847"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps para empresas
 
@@ -47,7 +47,7 @@ A Área de Trabalho Gerenciada da Microsoft não dá suporte à implantação da
 
 ## <a name="updates-to-microsoft-365-apps"></a>Atualizações para Aplicativos do Microsoft 365
 
-Os Aplicativos do Microsoft 365 estão definidos para atualização no [Canal Corporativo Mensal](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview). Essa prática fornece aos usuários novos recursos do Office a cada mês, mas eles receberão apenas uma atualização por mês em um cronograma de lançamento previsível. As atualizações são lançadas na segunda terça-feira do mês; essas atualizações podem incluir atualizações de recursos, segurança e qualidade. Essas atualizações ocorrem automaticamente e são retiradas diretamente da CDN do Office para esse canal específico.
+Os Aplicativos do Microsoft 365 estão definidos para atualização no [Canal Corporativo Mensal](/deployoffice/overview-update-channels#monthly-enterprise-channel-overview). Essa prática fornece aos usuários novos recursos do Office a cada mês, mas eles receberão apenas uma atualização por mês em um cronograma de lançamento previsível. As atualizações são lançadas na segunda terça-feira do mês; essas atualizações podem incluir atualizações de recursos, segurança e qualidade. Essas atualizações ocorrem automaticamente e são retiradas diretamente da CDN do Office para esse canal específico.
 
 A Área de Trabalho Gerenciada da Microsoft escalona cada versão para identificar possíveis problemas em seu ambiente. Concluimos a versão 28 dias após o lançamento do grupo de produtos do Microsoft 365 App. A Área de Trabalho Gerenciada da Microsoft agenda as versões de atualização para grupos diferentes para permitir tempo para validação e teste da seguinte maneira: 
 
@@ -56,7 +56,7 @@ A Área de Trabalho Gerenciada da Microsoft escalona cada versão para identific
 - Rápido: 3 dias
 - Broad: 7 dias
 
-A Área de Trabalho Gerenciada da Microsoft define um prazo de atualização de sete [dias](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) para dispositivos. Depois que a atualização estiver disponível, ela deverá ser instalada dentro de sete dias. Os usuários são [notificados](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) de que as atualizações são necessárias em vários locais: o aplicativo, na bandeja do sistema 12 horas antes do prazo, e eles recebem um aviso de 15 minutos antes do prazo. Todos os Aplicativos do Microsoft 365 devem ser fechados para que a atualização seja concluída.
+A Área de Trabalho Gerenciada da Microsoft define um prazo de atualização de sete [dias](/deployoffice/configure-update-settings-microsoft-365-apps) para dispositivos. Depois que a atualização estiver disponível, ela deverá ser instalada dentro de sete dias. Os usuários são [notificados](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) de que as atualizações são necessárias em vários locais: o aplicativo, na bandeja do sistema 12 horas antes do prazo, e eles recebem um aviso de 15 minutos antes do prazo. Todos os Aplicativos do Microsoft 365 devem ser fechados para que a atualização seja concluída.
 
 ### <a name="pausing-or-rolling-back-an-update"></a>Pausar ou reverter uma atualização
 
@@ -68,7 +68,7 @@ Durante uma versão, a Área de Trabalho Gerenciada da Microsoft monitora as tax
 
 A Otimização de Entrega é uma tecnologia de distribuição ponto a ponto disponível no Windows 10. Ele permite que os dispositivos compartilhem conteúdo, como atualizações, que os dispositivos baixaram da Microsoft pela Internet. Usá-lo pode ajudar a reduzir a largura de banda de rede porque um dispositivo pode obter partes da atualização de outro dispositivo em sua rede local, em vez de ter que baixar a atualização completamente da Microsoft.
 
-[A Otimização](https://docs.microsoft.com/deployoffice/delivery-optimization) de Entrega é habilitada por padrão em dispositivos que executam as edições windows 10 Enterprise ou Windows 10 Education. 
+[A Otimização](/deployoffice/delivery-optimization) de Entrega é habilitada por padrão em dispositivos que executam as edições windows 10 Enterprise ou Windows 10 Education. 
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Configurações gerenciadas pela Área de Trabalho Gerenciada da Microsoft
 
@@ -76,7 +76,7 @@ A Microsoft gerencia algumas configurações como parte do serviço. A Área de 
 
 ### <a name="update-settings"></a>Atualizar configurações
 
-A Área de Trabalho Gerenciada da Microsoft mantém todas as configurações de atualização para [dispositivos gerenciados](https://docs.microsoft.com/deployoffice/configure-update-settings-microsoft-365-apps) e você deve modificar essas configurações.
+A Área de Trabalho Gerenciada da Microsoft mantém todas as configurações de atualização para [dispositivos gerenciados](/deployoffice/configure-update-settings-microsoft-365-apps) e você deve modificar essas configurações.
 
 ### <a name="set-updates-to-occur-automatically"></a>Definir atualizações para ocorrer automaticamente
 
@@ -88,7 +88,7 @@ Essa política é configurada para garantir que todos os dispositivos do Office 
 
 **Valor padrão**: 7 dias
 
-A **política UpdateDeadline** é usada para configurar o período de carência que os usuários têm antes que uma atualização seja imposta no dispositivo. Essa política de prazo também dispara [notificações](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) ao usuário para informá-lo sobre as alterações necessárias em seu dispositivo.  
+A **política UpdateDeadline** é usada para configurar o período de carência que os usuários têm antes que uma atualização seja imposta no dispositivo. Essa política de prazo também dispara [notificações](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps) ao usuário para informá-lo sobre as alterações necessárias em seu dispositivo.  
 
 ### <a name="defer-updates-on-a-device-for-a-period"></a>Adiar atualizações em um dispositivo por um período
 
@@ -103,7 +103,7 @@ Essa política é configurada de forma diferente para cada grupo de dispositivos
 
 **Valor padrão**: False
 
-A configuração "ocultar notificações de atualização" é definida como **False** em dispositivos da Área de Trabalho Gerenciada da Microsoft para fornecer a melhor experiência de atualização para os usuários notificando-os quando as atualizações são necessárias. [](https://docs.microsoft.com/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps)
+A configuração "ocultar notificações de atualização" é definida como **False** em dispositivos da Área de Trabalho Gerenciada da Microsoft para fornecer a melhor experiência de atualização para os usuários notificando-os quando as atualizações são necessárias. [](/deployoffice/end-user-update-notifications-microsoft-365-apps#notifications-your-users-see-when-you-set-an-update-deadline-for-microsoft-365-apps)
 
 ### <a name="specify-a-location-to-look-for-updates"></a>Especificar um local para procurar atualizações
 
@@ -150,7 +150,7 @@ Algumas organizações estão preocupados com os usuários que têm acesso a arq
 
 ## <a name="settings-you-manage"></a>Configurações gerenciadas
 
-Há muitas outras políticas que a Área de Trabalho Gerenciada da Microsoft ainda não definiu como parte do nosso serviço. Você pode configurar essas políticas usando o Microsoft Intune, que usa o serviço de Política de [Nuvem do Office.](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) Para definir essas políticas, siga estas etapas:
+Há muitas outras políticas que a Área de Trabalho Gerenciada da Microsoft ainda não definiu como parte do nosso serviço. Você pode configurar essas políticas usando o Microsoft Intune, que usa o serviço de Política de [Nuvem do Office.](/DeployOffice/overview-office-cloud-policy-service#how-the-policy-configuration-is-applied) Para definir essas políticas, siga estas etapas:
 
 1.  Entre no Centro de administração do Microsoft Endpoint Manager.
 2.  Selecione **Aplicativos > políticas para aplicativos do Office > Criar**

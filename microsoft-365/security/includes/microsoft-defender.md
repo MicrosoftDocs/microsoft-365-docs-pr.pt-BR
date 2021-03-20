@@ -4,13 +4,12 @@ ms.author: dansimp
 author: dansimp
 ms.prod: m365-security
 ms.topic: include
-ms.openlocfilehash: 7924a91f8ee9cc004d196a4d17bf4dae015464c6
-ms.sourcegitcommit: e920e68c8d0eac8b152039b52cfc139d478a67b3
-ms.translationtype: MT
+ms.openlocfilehash: 822a841294e263edc1f961b7c00dfc97f55c176e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50151307"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903876"
 ---
 > [!IMPORTANT]
-> O aperfeiçoado[Centro de segurança do Microsoft 365](https://security.microsoft.com) está agora disponível em pré-visualização pública. Essa nova experiência traz o Defender para o Ponto de Extremidade, o Defender para Office 365, o Microsoft 365 Defender e muito mais na central de segurança do Microsoft 365. As equipes de segurança agora podem gerenciar todos os pontos de extremidade, email e investigações de produto, configuração e correção sem a necessidade de navegar para portais de produtos separados. [Saiba mais sobre o que mudou.](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
-
+> O aperfeiçoado[Centro de segurança do Microsoft 365](https://security.microsoft.com) está agora disponível em pré-visualização pública. Esta nova experiência traz Defender para Endpoint, Defender para Office 365, Microsoft 365 Defender e muito mais para o Centro de segurança do Microsoft 365. As equipes de segurança agora podem gerenciar todas as investigações de endpoint, email e produtos cruzados, configuração e remediação sem a necessidade de navegar para portais de produtos separados. [Saiba mais sobre o que mudou](../mtp/overview-security-center.md).

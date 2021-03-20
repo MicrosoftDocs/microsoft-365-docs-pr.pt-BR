@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Implante a opção correta para gerenciamento de dispositivos e aplicativos para seus locatários do Microsoft 365.
-ms.openlocfilehash: 96412cb52540e87341fa67e20382951db7becfbe
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 994ab7d21ae70307fa78e1f7249d39ac314a7358
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406367"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904607"
 ---
 # <a name="step-5-device-and-app-management-for-your-microsoft-365-for-enterprise-tenants"></a>Etapa 5. Gerenciamento de dispositivos e aplicativos para seus locatários do Microsoft 365 para empresas
 
@@ -34,13 +34,13 @@ Aqui está um exemplo de validação e gerenciamento de usuários, seus disposit
 Para ajudá-lo a proteger e proteger os recursos da sua organização, o Microsoft 365 para empresas inclui recursos para ajudar a gerenciar dispositivos e seu acesso a aplicativos. Há duas opções para gerenciamento de dispositivos:
 
 - Microsoft Intune, que é uma solução abrangente de gerenciamento de aplicativos e dispositivos para empresas.
-- Basic Mobility and Security, que é um subconjunto de serviços do Intune incluídos em todos os produtos do Microsoft 365 para gerenciar dispositivos em sua organização. Para obter mais informações, [consulte Capabilities of Basic Mobility and Security](https://docs.microsoft.com/microsoft-365/admin/basic-mobility-security/capabilities).
+- Basic Mobility and Security, que é um subconjunto de serviços do Intune incluídos em todos os produtos do Microsoft 365 para gerenciar dispositivos em sua organização. Para obter mais informações, [consulte Capabilities of Basic Mobility and Security](../admin/basic-mobility-security/capabilities.md).
 
 Se você tiver o Microsoft 365 E3 ou E5, deverá usar o Intune.
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 
-Você usa [o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/planning-guide) para gerenciar o acesso à sua organização usando MDM ou MAM. MDM é quando os usuários "registram" seus dispositivos no Intune. Depois que um dispositivo é inscrito, ele é um dispositivo gerenciado e pode receber as políticas, regras e configurações da sua organização. Por exemplo, você pode instalar aplicativos específicos, criar uma política de senha, instalar uma conexão VPN e muito mais.
+Você usa [o Microsoft Intune](/mem/intune/fundamentals/planning-guide) para gerenciar o acesso à sua organização usando MDM ou MAM. MDM é quando os usuários "registram" seus dispositivos no Intune. Depois que um dispositivo é inscrito, ele é um dispositivo gerenciado e pode receber as políticas, regras e configurações da sua organização. Por exemplo, você pode instalar aplicativos específicos, criar uma política de senha, instalar uma conexão VPN e muito mais.
 
 Os usuários com seus próprios dispositivos pessoais podem não querer registrar seus dispositivos ou ser gerenciados pelo Intune e pelas políticas da sua organização. Mas você ainda precisa proteger os recursos e os dados da sua organização. Nesse cenário, você pode proteger seus aplicativos usando o MAM. Por exemplo, você pode usar uma política de MAM que exija que um usuário insira um PIN ao acessar o SharePoint no dispositivo.
 

@@ -19,39 +19,39 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
-description: Neste artigo, saiba com que rapidez e facilidade use o PowerShell para Microsoft 365 para atribuir funções de administrador a contas de usuário.
-ms.openlocfilehash: 7e3292ab26924384beb8d0c7450b7665dccd48fa
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+description: Neste artigo, saiba com que rapidez e facilidade usar o PowerShell para o Microsoft 365 para atribuir funções de administrador a contas de usuário.
+ms.openlocfilehash: 84e785052c970ca15487540c3904eacdd0e9ca28
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754193"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905375"
 ---
 # <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>Atribuir funções de administrador a contas de usuário do Microsoft 365 com o PowerShell
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Você pode facilmente atribuir funções a contas de usuário usando o PowerShell para o Microsoft 365.
 
 >[!Note]
->Saiba como atribuir  [funções de administrador a](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) contas de usuário com o Centro de administração do Microsoft 365.
+>Saiba como atribuir  [funções de administrador](../admin/add-users/assign-admin-roles.md) a contas de usuário com o Centro de administração do Microsoft 365.
 >
->Para obter uma lista de recursos adicionais, consulte [Gerenciar usuários e grupos.](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+>Para obter uma lista de recursos adicionais, consulte [Gerenciar usuários e grupos.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
 
-Primeiro, use uma conta de administrador global para [se conectar ao seu locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Primeiro, use uma conta de administrador global para se conectar ao locatário do [Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
-Em seguida, identifique o nome de entrada da conta de usuário que você deseja adicionar a uma função (exemplo: fredsm \@ contoso.com). Isso também é conhecido como nome UPN.
+Em seguida, identifique o nome de entrada da conta de usuário que você deseja adicionar a uma função (exemplo: fredsm \@ contoso.com). Isso também é conhecido como o nome principal do usuário (UPN).
 
-Em seguida, determine o nome da função. Confira [as permissões de função de administrador no Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+Em seguida, determine o nome da função. Consulte [permissões de função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
 
 >[!Note]
->Preste atenção às observações neste artigo. Alguns nomes de função são diferentes para o Azure Active Directory (Azure AD) PowerShell. Por exemplo, a função de Administrador do *SharePoint* no centro de administração do Microsoft 365 é Administrador de Serviços do *SharePoint* no Azure AD PowerShell.
+>Preste atenção às anotações neste artigo. Alguns nomes de função são diferentes para o PowerShell do Azure Active Directory (Azure AD). Por exemplo, a função de Administrador do *SharePoint* no centro de administração do Microsoft 365 é Administrador de Serviço do *SharePoint* no Azure AD PowerShell.
 >
 
-Em seguida, preencha os nomes de login e função e execute estes comandos:
+Em seguida, preencha os nomes de sign-in e role e execute estes comandos:
   
 ```powershell
 $userName="<sign-in name of the account>"
@@ -65,7 +65,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-Aqui está um exemplo de um conjunto de comandos concluído que atribui a função de Administrador de Serviços do SharePoint à conta contoso.com *usuário: \@*
+Veja um exemplo de um conjunto de comandos concluído que atribui a função administrador de serviços do SharePoint à *conta contoso.com \@ belindan:*
   
 ```powershell
 $userName="belindan@contoso.com"
@@ -79,7 +79,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-Para exibir a lista de nomes de usuário para uma função de administrador específica, use estes comandos.
+Para exibir a lista de nomes de usuário para uma função de administrador específica, use esses comandos.
 
 ```powershell
 $roleName="<role name>"
@@ -88,11 +88,11 @@ Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADD
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Use o Módulo Microsoft Azure Active Directory para Windows PowerShell.
 
-Primeiro, use uma conta de administrador global para [se conectar ao seu locatário do Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Primeiro, use uma conta de administrador global para se conectar ao locatário do [Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
   
 ### <a name="for-a-single-role-change"></a>Para uma única alteração de função
 
-As maneiras mais comuns de especificar a conta de usuário são usando seu nome de exibição ou seu nome de email, também conhecido como nome de logon ou nome UPN.
+As maneiras mais comuns de especificar a conta de usuário é usando seu nome de exibição ou seu nome de email, que também conhecido como seu nome de logon ou nome de entidade de usuário (UPN).
 
 #### <a name="display-names-of-user-accounts"></a>Exibir nomes de contas de usuário
 
@@ -106,7 +106,7 @@ Se você estiver acostumado a trabalhar com os nomes de exibição de contas de 
   Get-MsolUser -All | Sort DisplayName | Select DisplayName | More
   ```
 
-    Esse comando lista o Nome de Exibição de suas contas de usuário, organizado pelo Nome de Exibição, uma tela por vez. Você pode filtrar a lista para um conjunto menor usando o cmdlet **Where.** Confira o seguinte exemplo:
+    Este comando lista o Nome de Exibição de suas contas de usuário, classificação pelo Nome de Exibição, uma tela de cada vez. Você pode filtrar a lista para um conjunto menor usando o cmdlet **Where.** Confira o seguinte exemplo:
 
    >[!Note]
    >O PowerShell Core não oferece suporte ao Módulo Microsoft Azure Active Directory para Windows PowerShell para o módulo do Windows PowerShell e cmdlets com *Msol* em seus nomes. Execute esses cmdlets do Windows PowerShell.
@@ -116,7 +116,7 @@ Se você estiver acostumado a trabalhar com os nomes de exibição de contas de 
   Get-MsolUser -All | Where DisplayName -like "John*" | Sort DisplayName | Select DisplayName | More
   ```
 
-    Esse comando lista apenas as contas de usuário para as quais o Nome de Exibição começa com "John".
+    Este comando lista apenas as contas de usuário para as quais o Nome de Exibição começa com "John".
     
 - A função que você deseja atribuir
     
@@ -126,7 +126,7 @@ Se você estiver acostumado a trabalhar com os nomes de exibição de contas de 
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-Depois de determinar o Nome de Exibição da conta e o nome da função, use estes comandos para atribuir a função à conta:
+Depois de determinar o Nome de Exibição da conta e o nome da função, use esses comandos para atribuir a função à conta:
   
 ```powershell
 $dispName="<The Display Name of the account>"
@@ -134,9 +134,9 @@ $roleName="<The admin role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-Colar os comandos no Bloco de Notas. Para as *variáveis $dispName* *e $roleName,* substitua o texto de descrição por seus valores. Remova os \< and > caracteres, mas mantenha as aspas. Colar as linhas modificadas no Módulo Microsoft Azure Active Directory para janela do Windows PowerShell para executar as linhas. Como alternativa, você pode usar o Ambiente de Script Integrado (ISE) do Windows PowerShell.
+Colar os comandos no Bloco de Notas. Para as *$dispName* e *$roleName,* substitua o texto de descrição por seus valores. Remova os \< and > caracteres, mas mantenha as aspas. Colar as linhas modificadas no Módulo do Microsoft Azure Active Directory para que Windows PowerShell as execute. Como alternativa, você pode usar o Windows PowerShell de script integrado (ISE).
   
-Aqui está um exemplo de um conjunto de comandos concluído:
+Veja um exemplo de um conjunto de comandos concluído:
   
 ```powershell
 $dispName="Scott Wallace"
@@ -156,13 +156,13 @@ Se você estiver acostumado a trabalhar com os nomes de logon ou UPNs de contas 
   Get-MsolUser -All | Sort UserPrincipalName | Select UserPrincipalName | More
   ```
 
-    Esse comando lista o UPN de suas contas de usuário, organizado por UPN, uma tela por vez. Você pode usar o cmdlet **Where** para filtrar a lista. Exemplo:
+    Este comando lista o UPN de suas contas de usuário, classificação por UPN, uma tela por vez. Você pode usar o cmdlet **Where** para filtrar a lista. Exemplo:
     
   ```powershell
   Get-MsolUser -All | Where DisplayName -like "John*" | Sort UserPrincipalName | Select UserPrincipalName | More
   ```
 
-    Esse comando lista apenas as contas de usuário para as quais o Nome de Exibição começa com "John".
+    Este comando lista apenas as contas de usuário para as quais o Nome de Exibição começa com "John".
     
 - A função que você deseja atribuir
     
@@ -172,7 +172,7 @@ Se você estiver acostumado a trabalhar com os nomes de logon ou UPNs de contas 
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-Depois de ter o UPN da conta e o nome da função, use estes comandos para atribuir a função à conta:
+Depois de ter o UPN da conta e o nome da função, use esses comandos para atribuir a função à conta:
   
 ```powershell
 $upnName="<The UPN of the account>"
@@ -180,9 +180,9 @@ $roleName="<The role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 ```
 
-Copie os comandos e os colar no Bloco de Notas. Para as **$upnName** e **$roleName** variáveis. Substitua o texto de descrição por seus valores. Remova os \< and > caracteres, mas mantenha as aspas. Colar as linhas modificadas no Módulo Microsoft Azure Active Directory para janela do Windows PowerShell para executar. Como alternativa, você pode usar o ISE do Windows PowerShell.
+Copie os comandos e os colar no Bloco de Notas. Para as **$upnName** e **$roleName** variáveis. Substitua o texto de descrição por seus valores. Remova os \< and > caracteres, mas mantenha as aspas. Colar as linhas modificadas no Módulo do Microsoft Azure Active Directory para Windows PowerShell janela para execute-las. Como alternativa, você pode usar o Windows PowerShell ISE.
   
-Aqui está um exemplo de um conjunto de comandos concluído:
+Veja um exemplo de um conjunto de comandos concluído:
   
 ```powershell
 $upnName="scottw@contoso.com"
@@ -202,9 +202,9 @@ Para várias alterações de função, determine as seguintes informações:
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-Em seguida, crie um arquivo de texto de valores separados por vírgula (CSV) que tenha o nome de exibição ou UPN e campos de nome de função. Você pode fazer isso facilmente no Microsoft Excel.
+Em seguida, crie um arquivo de texto CSV (valor separado por vírgula) que tenha o nome de exibição ou os campos UPN e nome da função. Você pode fazer isso facilmente no Microsoft Excel.
 
-Veja um exemplo de nomes para exibição:
+Veja um exemplo para nomes de exibição:
   
 ```powershell
 DisplayName,RoleName
@@ -220,7 +220,7 @@ $roleChanges=Import-Csv $fileName | ForEach {Add-MsolRoleMember -RoleMemberEmail
 
 ```
 
-Veja um exemplo de UPNs:
+Veja um exemplo para UPNs:
   
 ```powershell
 UserPrincipalName,RoleName

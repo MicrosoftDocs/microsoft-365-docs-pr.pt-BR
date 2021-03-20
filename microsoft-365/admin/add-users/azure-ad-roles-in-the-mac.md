@@ -16,16 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Gerencie essas funções de administrador do Azure no Centro de administração do Microsoft 365.
-ms.openlocfilehash: 7a4e28667bc16d6619fe87451cd48ea77d89c81d
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: b07174763384150a7ae8cda6709f5d0ec5cb40ec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126100"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904487"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Funções do Azure Active Directory no Centro de administração do Microsoft 365
 
-O centro de administração do Microsoft 365 permite gerenciar mais de 30 funções do Azure AD. No entanto, essas funções são um subconjunto das funções disponíveis no portal do Azure. Se você tiver uma empresa de grande porte, pode haver funções no portal do Azure que atendem às suas necessidades organizacionais. Procurando as descrições de função detalhadas do Azure AD? Confira [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+O centro de administração do Microsoft 365 permite gerenciar mais de 30 funções do Azure AD. No entanto, essas funções são um subconjunto das funções disponíveis no portal do Azure. Se você tiver uma empresa de grande porte, pode haver funções no portal do Azure que atendem às suas necessidades organizacionais. Procurando as descrições de função detalhadas do Azure AD? Confira [Permissões da função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
 Um usuário que recebe uma função de administrador terá as mesmas permissões em todos os serviços na nuvem para os quais a sua organização se inscreveu, independentemente de você atribuir a função no centro de administração do Office 365 ou no portal clássico do Azure ou usando o módulo do Azure AD para Windows PowerShell.
 
@@ -37,7 +37,7 @@ No Centro de administração do Microsoft 365, você pode acessar **Funções** 
 
 ## <a name="all-azure-ad-roles"></a>Todas as funções do Azure AD
 
-Esta é uma lista de todas as funções disponíveis no centro de administração do Microsoft 365. Procurando as descrições detalhadas das funções de administrador do Microsoft 365? Veja [Sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+Esta é uma lista de todas as funções disponíveis no centro de administração do Microsoft 365. Procurando as descrições detalhadas das funções de administrador do Microsoft 365? Veja [Sobre funções de administrador](./about-admin-roles.md?view=o365-worldwide).
 
 |Função do administrador     |Descrição  |
 |---------|---------|
@@ -57,7 +57,7 @@ Esta é uma lista de todas as funções disponíveis no centro de administraçã
 |Administrador do Exchange     |  Acesso total ao Exchange Online, cria e gerencia grupos, gerencia solicitações de serviço e monitora a integridade do serviço.    |
 |Administrador de provedor de identidade externa    |     Configure provedores de identidade para usar na federação direta.    |
 |Administrador global     |    Tem acesso ilimitado a todos os recursos de gerenciamento e à maioria dos dados em todos os centros de administração.     |
-|Leitor global     |    Tem acesso somente leitura a todos os recursos de gerenciamento e à maioria dos dados em centros de administração. Para obter uma descrição detalhada dos direitos e limitações de acesso dessa função, confira [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader).    |
+|Leitor global     |    Tem acesso somente leitura a todos os recursos de gerenciamento e à maioria dos dados em centros de administração. Para obter uma descrição detalhada dos direitos e limitações de acesso dessa função, confira [Permissões da função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader).    |
 |Administrador de grupos   |Cria grupos e gerencia todas as configurações de grupos em todos os centros de administração.|
 |Emissor de convite     |    Gerencia os convites de usuário do Microsoft Azure Active Directory B2B.     |
 |Administrador de help desk     | Redefine senhas e autentica novamente para todas as funções de não administradores e algumas funções de administrador, gerencia solicitações de serviço e monitora a integridade do serviço.      |
@@ -99,7 +99,7 @@ Um parceiro pode atribuir estas funções:
 
 - Administração limitada, que tem privilégios equivalentes à administração de help desk.
 
-Antes que o parceiro possa atribuir funções aos usuários, é preciso adicioná-lo como administrador delegado à sua conta. Esse processo é iniciado por um parceiro autorizado.O parceiro envia um email perguntando se você deseja conceder permissão a ele para atuar como administrador delegado. Para obter instruções, confira [Autorizar ou remover relações de parceiro](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner).
+Antes que o parceiro possa atribuir funções aos usuários, é preciso adicioná-lo como administrador delegado à sua conta. Esse processo é iniciado por um parceiro autorizado.O parceiro envia um email perguntando se você deseja conceder permissão a ele para atuar como administrador delegado. Para obter instruções, confira [Autorizar ou remover relações de parceiro](../misc/add-partner.md).
   
 ## <a name="related-articles"></a>Artigos relacionados
 

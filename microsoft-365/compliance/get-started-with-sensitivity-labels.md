@@ -19,22 +19,22 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar rótulos de confidencialidade para ajudar a proteger os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para ajudá-lo em sua jornada de rotulagem.
-ms.openlocfilehash: ef89cadc09dea7c2186fbf4a0d76d2c690aa8acc
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: b88e32ccfc0f82749ede2b0919001e9c29f7f7be
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597213"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906013"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Introdução ao rótulos de confidencialidade
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Para saber mais sobre quais são os rótulos de confidencialidade e como eles podem ajudá-lo a proteger os dados da sua organização, confira [Saiba mais sobre rótulos de confidencialidade](sensitivity-labels.md).
 
-Se você tiver a [Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/what-is-information-protection), determine se é preciso migrar os rótulos para a plataforma de rotulagem unificada e qual cliente de rotulagem usar:
-- [Como posso determinar se meu locatário está na plataforma de rotulagem unificada?](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
-- [Escolha sua solução de rotulagem do Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
+Se você tiver a [Proteção de Informações do Azure](/azure/information-protection/what-is-information-protection), determine se é preciso migrar os rótulos para a plataforma de rotulagem unificada e qual cliente de rotulagem usar:
+- [Como posso determinar se meu locatário está na plataforma de rotulagem unificada?](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)
+- [Escolha sua solução de rotulagem do Windows](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution)
 
 Quando estiver pronto para começar a proteger os dados da sua organização usando os rótulos de confidencialidade:
 
@@ -54,7 +54,7 @@ O fluxo básico para a implantação e a aplicação de rótulos de sensibilidad
 
 Várias assinaturas diferentes oferecem suporte aos rótulos de sensibilidade e aos requisitos de licenciamento dos usuários que dependem dos recursos que você usa.
 
-Para visualizar as opções de licenciamento dos seus usuários para se beneficiar dos recursos de conformidade do Microsoft 365, consulte as [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD). Para rótulos de confidencialidade, confira a seção [Proteção de informações](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) e o download relacionado em PDF ou Excel.
+Para visualizar as opções de licenciamento dos seus usuários para se beneficiar dos recursos de conformidade do Microsoft 365, consulte as [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance). Para rótulos de confidencialidade, confira a seção [Proteção de informações](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) e o download relacionado em PDF ou Excel.
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>Permissões necessárias para criar e gerenciar rótulos dec confidencialidade
 
@@ -64,7 +64,7 @@ Por padrão, os administradores globais de locatários têm acesso a esses centr
 
 Como alternativa às funções padrão, você pode criar um novo grupo de funções e adicionar as funções **Administrador de Rótulo de Confidencialidade** ou **Configuração da Organização** a esse grupo. Para uma função somente leitura, use **Leitor de rótulos de sensibilidade**. 
 
-Para obter instruções sobre como adicionar usuários às funções padrão ou criar seus próprios grupos de funções, confira [Conceder aos usuários acesso ao Centro de Segurança e Conformidade do Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Para obter instruções sobre como adicionar usuários às funções padrão ou criar seus próprios grupos de funções, confira [Conceder aos usuários acesso ao Centro de Segurança e Conformidade do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Essas permissões são necessárias somente para criar e configurar os rótulos de confidencialidade e suas políticas de rótulos. Eles não são necessários para aplicar os rótulos em aplicativos ou serviços. Se forem necessárias permissões adicionais para as configurações específicas relacionadas aos rótulos de sensibilidade, essas permissões serão listadas nas suas respectivas instruções de documentação.
 
@@ -82,19 +82,19 @@ Todos os cenários requerem que você [crie e configure rótulos de confidencial
 |Eu quero...|Documentação|
 |----------------|---------------|
 |Gerenciar rótulos de confidencialidade para aplicativos do Office para que o conteúdo seja rotulado conforme for criado—incluindo suporte para rotulagem manual em todas plataformas |[Gerenciar rótulos de confidencialidade em aplicativos do Office](sensitivity-labels-office-apps.md)|
-|Permitir que os usuários rotulem e protejam arquivos de computadores com Windows usando aplicativos do Office, Explorador de Arquivos e PowerShell|[Cliente de rotulagem unificada da Proteção de Informações do Azure para Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
+|Permitir que os usuários rotulem e protejam arquivos de computadores com Windows usando aplicativos do Office, Explorador de Arquivos e PowerShell|[Cliente de rotulagem unificada da Proteção de Informações do Azure para Windows](/azure/information-protection/rms-client/aip-clientv2)|
 |Criptografar documentos e emails com rótulos de confidencialidade e restringir quem pode acessá-los e como podem usar esse conteúdo |[Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia](encryption-sensitivity-labels.md)|
 |Habilite os rótulos de sensibilidade do Office na web, com suporte para coautoria, descoberta eletrônica, prevenção contra perda de dados — até mesmo quando os documentos são criptografados | [Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 |Use a coautoria e o salvamento automático em aplicativos de desktop do Office quando os documentos forem criptografados | [Ativar a coautoria para arquivos criptografados com rótulos de sensibilidade](sensitivity-labels-coauthoring.md)
 |Aplicar rótulos de confidencialidade automaticamente a documentos e emails | [Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)|
 |Usar os rótulos de confidencialidade para proteger o conteúdo do Teams e do SharePoint |[Use etiquetas de sensibilidade com o Microsoft Teams, o Microsoft 365 Groups e sites do SharePoint](sensitivity-labels-teams-groups-sites.md)|
 |Impedir ou alertar os usuários sobre o compartilhamento de arquivos ou emails com um rótulo de confidencialidade |[Utilize rótulos de confidencialidade como condição nas políticas de DLP (visualização)](dlp-sensitivity-label-as-condition.md) |
-|Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
-|Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Aplique e visualize rótulos no Power BI e proteja os dados quando eles forem salvos fora do serviço|[Rótulos de confidencialidade no Power BI](https://docs.microsoft.com/power-bi/admin/service-security-sensitivity-label-overview)|
+|Descobrir, rotular e proteger arquivos armazenados no repositório de dados locais |[Implantação do scanner da Proteção de Informações do Azure para classificar e proteger arquivos automaticamente](/azure/information-protection/deploy-aip-scanner)|
+|Descobrir, rotular e proteger arquivos armazenados no repositório da nuvem|[Descobrir, classificar, rotular e proteger dados regulamentados e confidenciais armazenados na nuvem](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
+|Aplique e visualize rótulos no Power BI e proteja os dados quando eles forem salvos fora do serviço|[Rótulos de confidencialidade no Power BI](/power-bi/admin/service-security-sensitivity-label-overview)|
 |Monitorar e entender como os rótulos de sensibilidade estão sendo usados na minha organização|[Conhecer seus dados - visão geral da classificação de dados](data-classification-overview.md) <br /><br /> [Introdução à classificação de dados](data-classification-overview.md)|
-|Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros|[SDK de Proteção de Informações da Microsoft](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
-|Estenda os rótulos de confidencialidade em todo o conteúdo no Armazenamento de Blobs do Azure, arquivos do Azure, Azure Data Lake Storage Gen1 e Azure Data Lake Storage Gen12|[Rotular automaticamente o conteúdo no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label) |
+|Estender os rótulos de confidencialidade a aplicativos e serviços de terceiros|[SDK de Proteção de Informações da Microsoft](/information-protection/develop/overview#microsoft-information-protection-sdk)|
+|Estenda os rótulos de confidencialidade em todo o conteúdo no Armazenamento de Blobs do Azure, arquivos do Azure, Azure Data Lake Storage Gen1 e Azure Data Lake Storage Gen12|[Rotular automaticamente o conteúdo no Azure Purview](/azure/purview/create-sensitivity-label) |
 
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Documentação do usuário final para rótulos de confidencialidade
@@ -111,6 +111,6 @@ Você também pode usar os seguintes recursos para obter instruções básicas:
 - [Aplicar ou recomendar rótulos de confidencialidade automaticamente aos seus arquivos e emails no Office](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [Problemas conhecidos com a aplicação ou recomendação de rótulos de confidencialidade automática](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)
 
-- [Guia do usuário da proteção de informações do Azure rotulagem unificada](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-user-guide)
+- [Guia do usuário da proteção de informações do Azure rotulagem unificada](/azure/information-protection/rms-client/clientv2-user-guide)
 
-Se seus rótulos de sensibilidade aplicarem criptografia para documentos PDF, esses documentos podem ser abertos com o Microsoft Edge no Windows ou Mac. Para mais informações e leituras alternativas, confira [Quais leitores de PDF são suportados para PDFs protegidos?](https://docs.microsoft.com/azure/information-protection/rms-client/protected-pdf-readers#viewing-protected-pdfs-in-microsoft-edge-on-windows-or-mac)
+Se seus rótulos de sensibilidade aplicarem criptografia para documentos PDF, esses documentos podem ser abertos com o Microsoft Edge no Windows ou Mac. Para mais informações e leituras alternativas, confira [Quais leitores de PDF são suportados para PDFs protegidos?](/azure/information-protection/rms-client/protected-pdf-readers#viewing-protected-pdfs-in-microsoft-edge-on-windows-or-mac)

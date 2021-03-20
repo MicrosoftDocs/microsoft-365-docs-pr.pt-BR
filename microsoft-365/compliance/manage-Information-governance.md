@@ -14,16 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Implementar recursos de Governança de Informações da Microsoft para controlar seus dados para conformidade ou requisitos regulatórios.
-ms.openlocfilehash: 6b06de54f18ce4081c3b13d108a5c0ceae6d24a7
-ms.sourcegitcommit: e7bf23df4852b78912229d1d38ec475223597f34
+ms.openlocfilehash: 8a104775cd9bfc75af5b5af9840274f5f84509f0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49087110"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903487"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Governança de Informações da Microsoft no Microsoft 365
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Use os recursos da Governança de Informações da Microsoft (às vezes, abreviado como MIG) para controlar seus dados e atender aos requisitos normativos ou de conformidade.
 
@@ -49,4 +49,3 @@ Para gerenciar o conteúdo de alto valor para obrigações legais, comerciais ou
 |Recursos|Que problemas ela resolve?|Introdução|
 |:------|:------------|---------------------|:----------------------------|
 |[Gerenciamento de registros](records-management.md)| Uma solução única para emails e documentos que incorpora cronogramas e requisitos de retenção em um plano de arquivo que oferece suporte a todo o ciclo de vida do conteúdo com declaração, retenção e descarte de registros <br /><br />Cenário de exemplo: [descarte de registros](disposition.md#disposition-of-records)|[Introdução ao gerenciamento de registros](get-started-with-records-management.md) |
-

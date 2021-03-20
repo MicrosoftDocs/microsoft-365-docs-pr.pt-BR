@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como usar o Analisador de Configuração de Conformidade da Microsoft para começar a funcionar rapidamente com o Microsoft Compliance Manager.
-ms.openlocfilehash: 272477251efed7ebf13bd2e644869eaf2aad1bc2
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: a77f38dcc0c0215e539c868e47135f5d7194f4b6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454682"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906033"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>Analisador de Configuração de Conformidade da Microsoft para Gerenciador de Conformidade (visualização)
 
@@ -101,9 +101,9 @@ Siga estas instruções para executar um relatório com base em um local especí
     ```
   | Input |  País ou Região | 
   | :------------- | :------------: |
-  | 1  | Ásia – Pacífico |
-  | 2  | Austrália |
-  | 3  | Canadá |
+  | 1 | Ásia – Pacífico |
+  | 2 | Austrália |
+  | 3 | Canadá |
   | 4  | Europa (excluindo a França) / Oriente Médio / África |
   | 5  | França |
   | 6  | Índia |
@@ -167,4 +167,4 @@ Selecione o menu suspenso ao lado do rótulo **Recomendação** à direita da a�
 
 Para obter informações mais detalhadas sobre como instalar, configurar e usar o MCCA, consulte as instruções README no [GitHub](https://github.com/OfficeDev/MCCA#overview) (nenhuma conta do GitHub necessária).
 
-Para obter mais informações Windows PowerShell, comece em [Como usar a documentação do PowerShell.](https://docs.microsoft.com/powershell/scripting/how-to-use-docs?view=powershell-7) Consulte também [Starting Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7).
+Para obter mais informações Windows PowerShell, comece em [Como usar a documentação do PowerShell.](/powershell/scripting/how-to-use-docs?view=powershell-7) Consulte também [Starting Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7).

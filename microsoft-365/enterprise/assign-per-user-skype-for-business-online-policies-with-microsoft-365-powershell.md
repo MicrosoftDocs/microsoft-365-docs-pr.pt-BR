@@ -14,16 +14,16 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: 'Resumo: use o PowerShell para o Microsoft 365 para atribuir configurações de comunicação por usuário com políticas do Skype for Business Online.'
-ms.openlocfilehash: 6ee237e5d2ee0c9f472f372a6aa66c9612336265
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50514975"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905399"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Atribuir políticas do Skype for Business Online por usuário com o PowerShell para o Microsoft 365
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Usar o PowerShell para o Microsoft 365 é uma maneira eficiente de atribuir configurações de comunicação por usuário com políticas do Skype for Business Online.
   
@@ -34,7 +34,7 @@ Use estas instruções para configurar para executar os comandos (pule as etapas
   > [!Note]
    > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando o último lançamento público do PowerShell Teams, você não precisa instalar o Conector do Skype for Business Online.
 
-1. Instale o [módulo do Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Instale o [módulo PowerShell do Teams](/microsoftteams/teams-powershell-install).
     
 2. Abra um prompt de comando do Windows PowerShell e execute os seguintes comandos: 
     
@@ -71,7 +71,7 @@ EnablePublicCloudAudioVideoAccess : False
 EnableOutsideAccess               : True
 ```
 
-Agora que você sabe qual política atribuir a Alex, podemos atribuir essa política usando o cmdlet [Grant-CsExternalAccessPolicy.](https://go.microsoft.com/fwlink/?LinkId=523974) Veja um exemplo:
+Agora que você sabe qual política atribuir a Alex, podemos atribuir essa política usando o cmdlet [Grant-CsExternalAccessPolicy.](/powershell/module/skype/Get-CsExternalAccessPolicy) Veja um exemplo:
   
 ```powershell
 Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName "FederationOnly"
@@ -106,7 +106,7 @@ Este comando define o nome da política de acesso externo atribuída a Alex como
 
 ## <a name="managing-large-numbers-of-users"></a>Gerenciando um grande número de usuários
 
-Para gerenciar um grande número de usuários (1.000 ou mais), você precisa lotar os comandos por meio de um bloco de script usando o cmdlet [Invoke-Command.](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7)  Em exemplos anteriores, sempre que um cmdlet é executado, ele deve configurar a chamada e aguardar o resultado antes de enviá-la de volta.  Ao usar um bloco de scripts, isso permite que os cmdlets sejam executados remotamente e, depois de concluídos, enviem os dados de volta. 
+Para gerenciar um grande número de usuários (1.000 ou mais), você precisa lotar os comandos por meio de um bloco de script usando o cmdlet [Invoke-Command.](/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7)  Em exemplos anteriores, sempre que um cmdlet é executado, ele deve configurar a chamada e aguardar o resultado antes de enviá-la de volta.  Ao usar um bloco de scripts, isso permite que os cmdlets sejam executados remotamente e, depois de concluídos, enviem os dados de volta. 
 
 ```powershell
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500

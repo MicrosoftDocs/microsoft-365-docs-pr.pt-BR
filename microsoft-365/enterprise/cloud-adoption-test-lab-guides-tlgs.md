@@ -19,13 +19,13 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: 'Resumo: use estes Guias de Laboratório de Teste (TLGs) para configurar ambientes de demonstração, prova de conceito ou dev/teste para o Microsoft 365.'
-ms.openlocfilehash: 9a8c13cfc89eff0852cc0589448e7745220e47b9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 'Resumo: use esses Guias de Laboratório de Teste (TLGs) para configurar ambientes de demonstração, prova de conceito ou dev/test para o Microsoft 365.'
+ms.openlocfilehash: 6d6beccf450f3c03e4503bdcb18a189658a1af13
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687066"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905171"
 ---
 # <a name="test-microsoft-365-with-test-lab-guides-tlgs"></a>Testar o Microsoft 365 com guias de laboratório de teste (TLGs)
 
@@ -35,9 +35,9 @@ Os TLGs também criam ambientes representativos de desenvolvimento/teste de apli
   
 ![Guias do Laboratório de Teste da Microsoft Cloud](../media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
-## <a name="microsoft-365-devtest-environment"></a>Ambiente de teste/desv do Microsoft 365
+## <a name="microsoft-365-devtest-environment"></a>Ambiente de dev/test do Microsoft 365
 
-Use estes artigos para criar seu ambiente de teste/dev do Microsoft 365:
+Use estes artigos para criar seu ambiente de dev/test do Microsoft 365:
   
 - [A configuração de base leve](lightweight-base-configuration-microsoft-365-enterprise.md)
     
@@ -49,10 +49,10 @@ Use estes artigos para criar seu ambiente de teste/dev do Microsoft 365:
 
     Isso é opcional e necessário se você quiser criar uma configuração empresarial simulada para identidade híbrida.
     
-Para obter TLGs adicionais que se aplicam ao Office 365 e ao Microsoft 365, acesse Guias [de Laboratório de Teste.](m365-enterprise-test-lab-guides.md)  
+Para TLGs adicionais que se aplicam ao Office 365 e ao Microsoft 365, acesse [Guias de Laboratório de Teste.](m365-enterprise-test-lab-guides.md)  
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Centro de soluções e arquitetura do Microsoft 365](../solutions/solution-architecture-center.md)
+[Centro de soluções e arquitetura do Microsoft 365](../solutions/index.yml)
   
 [Soluções híbridas](hybrid-solutions.md)

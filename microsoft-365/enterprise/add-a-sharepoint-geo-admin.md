@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 description: Precisa configurar administradores separados para cada localização geográfica? Saiba como adicionar ou remover um administrador geográfico no Microsoft 365 Multi-Geo.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9a3d916bfec2c53850f923fb5322298e9ff440ca
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 32fe5e934e6a3d6f18c802c3c427974e67c1b454
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687495"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905595"
 ---
 # <a name="add-or-remove-a-geo-administrator-in-microsoft-365-multi-geo"></a>Adicionar ou remover um administrador geográfico no Microsoft 365 Multi-Geo.
 
@@ -32,7 +32,7 @@ Os administradores globais e administradores do SharePoint Online continuam a te
 
 Configurar os administradores geográficos exige o módulo PowerShell do SharePoint Online.
 
-Use [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/Connect-SPOService) para se conectar ao centro de administração da localização geográfica onde você deseja adicionar o administrador geográfico. (Por exemplo, Connect-SPOService  https://ContosoEUR-admin.sharepoint.com.)
+Use [Connect-SPOService](/powershell/module/sharepoint-online/Connect-SPOService) para se conectar ao centro de administração da localização geográfica onde você deseja adicionar o administrador geográfico. (Por exemplo, Connect-SPOService  https://ContosoEUR-admin.sharepoint.com.)
 
 Para exibir os administradores geográficos existentes de um local, execute `Get-SPOGeoAdministrator`
 
@@ -50,7 +50,7 @@ Para adicionar um grupo como um administrador geográfico, execute `Add-SPOGeoAd
 
 Para remover um grupo como um administrador geográfico, execute `Remove-SPOGeoAdministrator -GroupAlias <alias>`
 
-Observe que nem todos os grupos de segurança têm um alias de grupo. Se você quiser adicionar um grupo de segurança que tenha um alias, execute [Get-MsolGroup](https://docs.microsoft.com/powershell/module/msonline/get-msolgroup) para recuperar uma lista de grupos, localizar o ObjectID do grupo de segurança e, em seguida, execute:
+Observe que nem todos os grupos de segurança têm um alias de grupo. Se você quiser adicionar um grupo de segurança que tenha um alias, execute [Get-MsolGroup](/powershell/module/msonline/get-msolgroup) para recuperar uma lista de grupos, localizar o ObjectID do grupo de segurança e, em seguida, execute:
 
 `Add-SPOGeoAdministrator -ObjectID <ObjectID>`
 
@@ -58,10 +58,10 @@ Para remover um grupo usando o ObjectID, execute `Remove-SPOGeoAdministrator -Ob
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Adicionar-SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/add-spogeoadministrator)
+[Adicionar-SPOGeoAdministrator](/powershell/module/sharepoint-online/add-spogeoadministrator)
 
-[Obter SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spogeoadministrator)
+[Obter SPOGeoAdministrator](/powershell/module/sharepoint-online/get-spogeoadministrator)
 
-[Remover SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-spogeoadministrator)
+[Remover SPOGeoAdministrator](/powershell/module/sharepoint-online/remove-spogeoadministrator)
 
-[Configurar um alias (MailNickName) para um grupo de segurança](https://docs.microsoft.com/powershell/module/azuread/set-azureadgroup)
+[Configurar um alias (MailNickName) para um grupo de segurança](/powershell/module/azuread/set-azureadgroup)

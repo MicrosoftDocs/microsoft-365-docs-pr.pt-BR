@@ -1,5 +1,5 @@
 ---
-title: 'Suporte a aplicativos clientes do Microsoft 365: Sign-On'
+title: 'Suporte a aplicativo cliente do Microsoft 365: aplicativo único Sign-On'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,62 +14,30 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam o single sign-on para o Microsoft 365.
+description: Neste artigo, saiba quais plataformas, clientes e módulos do PowerShell suportam o login único para o Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a685f04ed64a89cda026ff9380aac7c6c2b3ea4
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+ms.openlocfilehash: 63090e1284bda39fe2d79c80b829891e867d2365
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097193"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904895"
 ---
-# <a name="microsoft-365-client-app-support-single-sign-on"></a>Suporte a aplicativos clientes do Microsoft 365: Sign-On
+# <a name="microsoft-365-client-app-support-single-sign-on"></a>Suporte a aplicativo cliente do Microsoft 365: aplicativo único Sign-On
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
-O SSO (single sign-on) adiciona segurança e conveniência quando os usuários se ins login em aplicativos no Azure Active Directory. Com o logor único, os usuários se ingressam uma vez com uma conta para acessar dispositivos ingressados no domínio do Active Directory Domain Services (AD DS) local, aplicativos saaS (software como serviço) e aplicativos Web.
+O SSO (sign-on único) adiciona segurança e conveniência quando os usuários se inssoam em aplicativos no Azure Active Directory. Com o logor único, os usuários se ingressam uma vez com uma conta para acessar dispositivos ingressados no domínio do Active Directory (AD DS) locais, aplicativos saaS (serviço) e aplicativos Web.
 
-Saiba mais sobre [o single sign-on.](/azure/active-directory/manage-apps/what-is-single-sign-on)
+Saiba mais sobre [o login único](/azure/active-directory/manage-apps/what-is-single-sign-on).
 
 ## <a name="supported-clients--platforms"></a>Clientes com suporte & plataformas
 
-As versões mais recentes dos seguintes clientes e plataformas suportam o logon único. Para saber mais sobre o suporte à plataforma no Microsoft 365, confira [Os requisitos do sistema para o Microsoft 365.](/microsoft-365/microsoft-365-and-office-resources)
+As versões mais recentes dos seguintes clientes e plataformas suportam logon único. Para obter mais informações sobre o suporte à plataforma no Microsoft 365, consulte [System requirements for Microsoft 365](/microsoft-365/microsoft-365-and-office-resources).
 <br>
 <br>
 
-| Clientes | Android | iOS | Mac| Windows 10 <br> Aplicativos modernos| Windows 10 <br> Desktop |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| Acessar | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Portal da empresa | N/D | ![Com suporte](../media/check-mark.png) | Planejado | ![Com suporte](../media/check-mark.png) | N/D |
-| Cortana | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) | N/D |
-| Delve | Planejado | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
-| Borda | ![Com suporte](../media/check-mark.png) | Planejado | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Excel | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Kaizala | ![Com suporte](../media/check-mark.png) | Planejado | N/D | N/D | N/D |
-| Office Lens| ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
-| Office Mobile | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
-| Portal do Office | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) | N/D |
-| OneDrive | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Planejado | ![Com suporte](../media/check-mark.png) | Planejado |
-| OneNote | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Planejado |
-| Outlook | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Planejado | ![Com suporte](../media/check-mark.png) |
-| Planner | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
-| Power Apps | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | Planejado | N/D |
-| Power Automate | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
-| Power BI | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | Planejado |
-| PowerPoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Project | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Publisher | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Skype for Business | Planejado | Planejado | N/D | N/D | N/D |
-| SharePoint | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | N/D |
-| Observações Desaderentadas | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Stream | Planejado | Planejado | N/D | N/D | N/D |
-| Sway | N/D | N/D | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Teams | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | Planejado | N/D | Planejado |
-| To Do | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
-| Visio | N/D | ![Com suporte](../media/check-mark.png) | N/D | N/D | ![Com suporte](../media/check-mark.png) |
-| Whiteboard | N/D | ![Com suporte](../media/check-mark.png) | N/D | ![Com suporte](../media/check-mark.png) | N/D |
-| Word | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) |
-| Yammer | ![Com suporte](../media/check-mark.png) | ![Com suporte](../media/check-mark.png) | N/D | N/D | Planejado |
+[!INCLUDE [Single sign-on services support table](../includes/microsoft-365-client-support-single-sign-on-include.md)]
 
 ## <a name="supported-powershell-modules"></a>Módulos do PowerShell com suporte
 

@@ -25,31 +25,31 @@ search.appverid:
 - MOE150
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
-description: Descreve como atribuir licenças do Microsoft 365 a contas de usuário, individualmente ou com base na associação de grupo.
-ms.openlocfilehash: a2eed7b3597dcc2531834456a9b05f5aa1b07a23
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+description: Descreve como atribuir licenças do Microsoft 365 a contas de usuário, individualmente ou com base na associação ao grupo.
+ms.openlocfilehash: 6bba3cd767787f450840c5cae6c30f2be21bed1b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48326502"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905435"
 ---
 # <a name="assign-microsoft-365-licenses-to-user-accounts"></a>Atribuir licenças do Microsoft 365 a contas de usuário
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
-Para o modelo de identidade somente na nuvem, você pode atribuir licenças do Microsoft 365 a contas de usuário à medida que elas são criadas, dependendo de como você as cria.
+Para o modelo de identidade somente na nuvem, você pode atribuir licenças do Microsoft 365 às contas de usuário à medida que elas são criadas, dependendo de como você as cria.
 
-Para o modelo de identidade híbrida, quando as contas de usuário dos Serviços de Domínio Active Directory (AD DS) são sincronizadas pela primeira vez, elas não são atribuídas automaticamente a um local ou uma licença do Microsoft 365. **Você deve configurar cada conta de usuário com um local de usuário antes ou junto com a atribuição de uma licença.**
+Para o modelo de identidade híbrida, quando as contas de usuário do Active Directory Domain Services (AD DS) são sincronizadas pela primeira vez, elas não são atribuídas automaticamente a um local ou uma licença do Microsoft 365. **Você deve configurar cada conta de usuário com um local de usuário antes ou com a atribuição de uma licença.**
 
-Em ambos os casos, você deve atribuir uma licença a contas de usuário para que os usuários possam acessar os serviços do Microsoft 365, como email e Microsoft Teams.
+Em ambos os casos, você deve atribuir uma licença a contas de usuário para que seus usuários possam acessar serviços do Microsoft 365, como email e Microsoft Teams.
 
-Você pode atribuir licenças a contas de usuário individualmente ou automaticamente por meio da associação de grupo.
+Você pode atribuir licenças a contas de usuário individualmente ou automaticamente por meio da associação ao grupo.
 
 Para atribuir licenças do Microsoft 365 a contas de usuário individuais, você pode usar:
 
-- [O Centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+- [O Centro de administração do Microsoft 365](../admin/manage/assign-licenses-to-users.md)
 - [PowerShell](assign-licenses-to-user-accounts-with-microsoft-365-powershell.md)
-- O centro de administração do Azure AD
+- Centro de administração do Azure AD
 
 ## <a name="group-based-licensing"></a>Licenciamento com base em grupo
 
@@ -61,13 +61,13 @@ Verifique se você tem licenças suficientes para todos os membros do grupo. Se 
 >Você não deve configurar o licenciamento baseado em grupo para grupos que contenham contas do Azure para empresas (B2B).
 >
 
-Para obter mais informações, consulte [licenciamento baseado em grupo no Azure AD.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal)
+Para obter mais informações, consulte [licenciamento baseado em grupo no Azure AD](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).
 
 ## <a name="next-steps"></a>Próximas etapas
 
 Com o conjunto apropriado de contas de usuário que foram atribuídas licenças, agora você está pronto para:
 
-- [Implementar segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
-- [Implantar software cliente, como o Microsoft 365 Apps](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
+- [Implementar segurança](../security/office-365-security/security-roadmap.md)
+- [Implantar software cliente, como o Microsoft 365 Apps](/DeployOffice/deployment-guide-microsoft-365-apps)
 - [Configurar o gerenciamento de dispositivos](device-management-roadmap-microsoft-365.md)
 - [Configurar serviços e aplicativos](configure-services-and-applications.md)

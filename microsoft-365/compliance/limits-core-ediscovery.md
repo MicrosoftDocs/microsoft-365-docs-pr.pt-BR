@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve os limites no caso principal de Descoberta eDiscovery no Microsoft 365.
-ms.openlocfilehash: 2699e9b2511c742bb295f69611a976f6a3955980
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: e18e1e6c1d9d7ecd78deaf267be72ccdc9d1ba5d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423442"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905883"
 ---
 # <a name="limits-in-core-ediscovery"></a>Limites na Descoberta Principal da Descoberta
 
-A tabela a seguir lista os limites para os principais casos de Descoberta e Retém associados a um caso de Descoberta eDiscovery principal. Para obter mais informações sobre a Descoberta Básica, consulte [Overview of Core eDiscovery](ediscovery-cases.md).
+A tabela a seguir lista os limites para os principais casos de Descoberta e Retém associados a um caso de Descoberta eDiscovery principal. Para obter mais informações sobre a Descoberta Básica, consulte [Overview of Core eDiscovery](./get-started-core-ediscovery.md).
     
   | Descrição do limite | Limite |
   |:-----|:-----|
@@ -40,9 +40,9 @@ A tabela a seguir lista os limites para os principais casos de Descoberta e Ret�
    > [!NOTE]
    > <sup>1</sup> Para exibir uma lista de mais de 1.000 casos, regiões, pesquisas ou exportações, você pode usar os cmdlets correspondentes do Office 365 Security & Compliance PowerShell:
    > 
-   > - [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase)
-   > - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
-   > - [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)
-   > - [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)
+   > - [Get-ComplianceCase](/powershell/module/exchange/get-compliancecase)
+   > - [Get-CaseHoldPolicy](/powershell/module/exchange/get-caseholdpolicy)
+   > - [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)
+   > - [Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)
 
 Para obter mais informações sobre limites relacionados a pesquisas de conteúdo e exportações associadas a um caso de Descoberta Principal de Descoberta e Descoberta, consulte [Limits for Content Search and Core eDiscovery](limits-for-content-search.md).

@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Descreve as principais diferenças entre o modelo de compreensão de documentos e o modelo de processamento de formulário
-ms.openlocfilehash: a50941ec117480be586ba828e7b49c4a88a310ab
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 9640b028e4b5a9cbd914b183e61de9b8a7ba00bc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712289"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905785"
 ---
 # <a name="difference-between-document-understanding-and-form-processing-models"></a>Diferença entre modelo de compreensão de documentos e modelo de processamento de formulário 
 
@@ -34,7 +34,7 @@ Há dois tipos de modelo que você pode usar:
 Embora os dois modelos sejam usados para a mesma finalidade, as principais diferenças listadas abaixo afetam quais podem ser usadas.
 
 > [!NOTE]
-> Confira [Adoção do SharePoint Syntex: guia de introdução](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted#form-processing-scenario-example) para saber mais sobre os exemplos de cenários de processamento de formulário e compreensão de documentos.
+> Confira [Adoção do SharePoint Syntex: guia de introdução](./adoption-getstarted.md#form-processing-scenario-example) para saber mais sobre os exemplos de cenários de processamento de formulário e compreensão de documentos.
 
 
 ## <a name="structured-versus-unstructured-and-semi-structured-content"></a>Conteúdo estruturado versus conteúdo não estruturado e semiestruturado
@@ -52,9 +52,9 @@ Use modelos de processamento de formulário para identificar arquivos e extrair 
 Os modelos de compreensão de documentos são criados e gerenciados em um site do centro de conteúdo do SharePoint. 
 
 > [!NOTE]
-> Para obter mais informações sobre documentos de entrada, confira [Requisitos e limitações do modelo de processamento de formulário](https://docs.microsoft.com/ai-builder/form-processing-model-requirements). 
+> Para obter mais informações sobre documentos de entrada, confira [Requisitos e limitações do modelo de processamento de formulário](/ai-builder/form-processing-model-requirements). 
 
-Os modelos de processamento de formulário são criados no PowerApps [Construtor AI](https://docs.microsoft.com/ai-builder/overview), mas a criação começa diretamente a partir de uma biblioteca de documentos do Microsoft Office SharePoint Online. Uma biblioteca de documentos deve ter a criação do modelo de processamento de formulário habilitada antes que um usuário possa criar um modelo de processamento de formulário para ela. Os administradores podem ativar a criação do modelo de processamento de formulário nas configurações de administração de compreensão de conteúdo. Os modelos de processamento de formulário usam fluxos do PowerAutomate para processar arquivos quando eles são carregados na biblioteca de documentos.
+Os modelos de processamento de formulário são criados no PowerApps [Construtor AI](/ai-builder/overview), mas a criação começa diretamente a partir de uma biblioteca de documentos do Microsoft Office SharePoint Online. Uma biblioteca de documentos deve ter a criação do modelo de processamento de formulário habilitada antes que um usuário possa criar um modelo de processamento de formulário para ela. Os administradores podem ativar a criação do modelo de processamento de formulário nas configurações de administração de compreensão de conteúdo. Os modelos de processamento de formulário usam fluxos do PowerAutomate para processar arquivos quando eles são carregados na biblioteca de documentos.
 
 Ao criar um modelo de compreensão de documentos, você cria um novo [tipo de conteúdo do SharePoint](https://support.microsoft.com/office/use-content-types-to-manage-content-consistently-on-a-site-48512bcb-6527-480b-b096-c03b7ec1d978) que é salvo na galeria Tipos de Conteúdo do SharePoint. Ou você pode usar modelos de conteúdo existentes para definir seu modelo, se necessário.
 
@@ -85,7 +85,7 @@ Use a tabela a seguir para entender quando usar o processamento de formulários 
 | Idiomas compatíveis| English <br>Em breve, em 2021: idiomas do alfabeto latino | Os modelos funcionam em todas as línguas do alfabeto latino. Além do Inglês: Alemão, Sueco, Francês, Espanhol, Italiano e Português.|
 
 ## <a name="see-also"></a>Confira também
-[Treinamento: melhore o desempenho de negócios com o Construtor AI](https://docs.microsoft.com/learn/paths/improve-business-performance-ai-builder/?source=learn)
+[Treinamento: melhore o desempenho de negócios com o Construtor AI](/learn/paths/improve-business-performance-ai-builder/?source=learn)
 
 
 

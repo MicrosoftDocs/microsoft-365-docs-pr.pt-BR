@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 4d29f4f3df3d65ad72a19f059763523d7f7cba31
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 5f356c5861586d4435a619a056a6fa1a0afc53f0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50596988"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904133"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de Extremidade
 
@@ -39,7 +39,7 @@ Mova seus fluxos de trabalho de busca avançados do Microsoft Defender para o Po
 
 - Microsoft Defender para Ponto de Extremidade
 - Obter o Microsoft Defender para Office 365
-- Segurança no aplicativo na nuvem da Microsoft
+- Microsoft Cloud App Security
 - O que é o Microsoft Defender para Identidade?
 
 >[!NOTE]
@@ -73,7 +73,7 @@ As `AlertInfo` `AlertEvidence` tabelas e substituem `DeviceAlertEvents` a tabela
 Use a tabela a seguir para verificar como `DeviceAlertEvents` as colunas são mapeadas para colunas `AlertInfo` nas `AlertEvidence` tabelas e.
 
 >[!TIP]
->Além das colunas da tabela a seguir, a tabela inclui muitas outras colunas que fornecem uma imagem mais holística de `AlertEvidence` alertas de várias fontes. [Consulte todas as colunas AlertEvidence](advanced-hunting-alertevidence-table.md) 
+>Além das colunas na tabela a seguir, a tabela inclui muitas outras colunas que fornecem uma imagem mais holística de `AlertEvidence` alertas de várias fontes. [Consulte todas as colunas AlertEvidence](advanced-hunting-alertevidence-table.md) 
 
 | Coluna DeviceAlertEvents | Onde encontrar os mesmos dados no Microsoft 365 Defender |
 |-------------|-----------|-------------|-------------|
@@ -182,4 +182,4 @@ AlertInfo
 - [Ativar o Microsoft 365 Defender](advanced-hunting-query-language.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Compreender o esquema](advanced-hunting-schema-tables.md)
-- [Busca avançada no Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
+- [Busca avançada no Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)

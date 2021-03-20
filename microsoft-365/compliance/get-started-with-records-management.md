@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Precisa de uma solução de gerenciamento de registros para o Microsoft 365 que gerencie o conteúdo de alto valor para obrigações legais, comerciais ou normativas, mas não sabe onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: 0dc0258ed53aa07df778f5d0883b02b7635f50d8
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: a757cabf13e85731bd16ccd84f1eea3dbe7e432a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682718"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906003"
 ---
 # <a name="get-started-with-records-management"></a>Começar a usar o gerenciamento de registros
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Pronto para começar a gerenciar o conteúdo de alto valor da sua organização para obrigações legais, comerciais ou normativas usando uma solução de gerenciamento de registros no Microsoft 365? Use as seguintes diretrizes de alto nível para começar:
 
@@ -45,7 +45,7 @@ Pronto para começar a gerenciar o conteúdo de alto valor da sua organização 
 
 Várias assinaturas diferentes permitem o gerenciamento de registros e os requisitos de licenciamento para os usuários dependem dos recursos que você usa.
 
-Para visualizar as opções de licenciamento dos seus usuários para se beneficiar dos recursos de conformidade do Microsoft 365, consulte as [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD). Para o gerenciamento de registros, confira a seção [Gerenciamento de Registros](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management) e o PDF relacionado ou o download do Excel para atender aos requisitos de licenciamento no nível de recurso.
+Para visualizar as opções de licenciamento dos seus usuários para se beneficiar dos recursos de conformidade do Microsoft 365, consulte as [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance). Para o gerenciamento de registros, confira a seção [Gerenciamento de Registros](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management) e o PDF relacionado ou o download do Excel para atender aos requisitos de licenciamento no nível de recurso.
 
 ## <a name="permissions-required-for-records-management"></a>Permissões necessárias para o gerenciamento de registros
 
@@ -53,9 +53,9 @@ Os membros da sua equipe de conformidade que são responsáveis pelo gerenciamen
 
 Como alternativa para usar essa função padrão, você pode criar um novo grupo de função e adicionar a função **Gerenciamento de Registro Somente Exibição** a esse grupo. 
 
-Para obter mais informações sobre esses grupos e funções, confira [Permissões no Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center).
+Para obter mais informações sobre esses grupos e funções, confira [Permissões no Centro de Conformidade e Segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
 
-Para obter instruções sobre como adicionar usuários aos grupos e atribuir funções, confira [Conceder aos usuários acesso ao Centro de Segurança e Conformidade](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Para obter instruções sobre como adicionar usuários aos grupos e atribuir funções, confira [Conceder aos usuários acesso ao Centro de Segurança e Conformidade](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Essas permissões são necessárias somente para criar, configurar e aplicar rótulos de retenção que declarem registros, e gerenciar disposição. A pessoa que configura esses rótulos não exige acesso ao conteúdo.
 

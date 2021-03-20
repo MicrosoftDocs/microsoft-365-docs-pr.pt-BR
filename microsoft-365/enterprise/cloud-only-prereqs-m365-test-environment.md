@@ -14,18 +14,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um ambiente do Microsoft 365 para testar o acesso de dispositivo e identidade com os pré-requisitos para autenticação somente nuvem.
-ms.openlocfilehash: 1e659304eee330960937b641c9a39b03920f52e7
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 3e5a9ef1f610bf3dc6d23c9e584e179fb8ab9ca9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233125"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50905135"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Pré-requisitos de acesso ao dispositivo e identidade somente nuvem no seu ambiente de teste do Microsoft 365.
 
 *Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
 
-[As configurações de](../security/office-365-security/microsoft-365-policies-configurations.md) acesso a identidades e dispositivos são um conjunto de configurações recomendadas e políticas de acesso condicional para proteger o acesso a todos os serviços integrados ao Azure Active Directory (Azure AD).
+[Configurações de identidade](../security/office-365-security/microsoft-365-policies-configurations.md) e acesso a dispositivos são um conjunto de configurações recomendadas e políticas de acesso condicional para proteger o acesso a todos os serviços integrados ao Azure Active Directory (Azure AD).
 
 Este artigo descreve como configurar um ambiente de teste do Microsoft 365 que atenda aos requisitos das [ configurações com pré-requisitos somente nuvem ](../security/office-365-security/identity-access-prerequisites.md#prerequisites) para acesso ao dispositivo e identidade.
 
@@ -36,7 +36,7 @@ Existem oito fases para configurar este ambiente de teste:
 3. Configurar a redefinição de senha de autoatendimento
 4. Configurar autenticação multifatorial
 5. Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio
-6. Configurar a proteção por senha do Azure AD 
+6. Configurar a proteção de senha do Azure AD 
 7. Habilitar o Azure AD Identity Protection
 8. Habilitar a autenticação moderna do Exchange Online e Skype for Business Online
 
@@ -51,9 +51,9 @@ Esta é a configuração resultante.
 
 Primeiro, determine os endereços IP públicos ou intervalos de endereços usados pela sua organização.
 
-Em seguida, siga as instruções em [Configurar locais nomeados no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) para adicionar os endereços ou intervalos de endereços como locais nomeados. 
+Em seguida, siga as instruções em [Configurar locais nomeados no Azure Active Directory](/azure/active-directory/reports-monitoring/quickstart-configure-named-locations) para adicionar os endereços ou intervalos de endereços como locais nomeados. 
 
-## <a name="phase-3-configure-self-service-password-reset"></a>Fase 3: Configurar a redefinição de senha de autoatendado
+## <a name="phase-3-configure-self-service-password-reset"></a>Fase 3: Configurar redefinição de senha de autoatendados
 
 Siga as instruções em [Fase 3 da redefinição de senha do Guia do Laboratório de Teste](password-reset-m365-ent-test-environment.md#phase-3-configure-and-test-password-reset). 
 
@@ -77,13 +77,13 @@ Siga as instruções na [Fase 2 de autenticação multifator do Guia de Laborat�
 
 Teste a autenticação multifator apenas para a conta de Usuário 2.
 
-## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 5: Habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio 
+## <a name="phase-5-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Fase 5: Habilitar o registro automático de dispositivos de computadores Windows ingressados no domínio 
 
-Siga [estas instruções para](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-plan) habilitar o registro automático de dispositivo de computadores Windows ingressados no domínio.
+Siga [estas instruções para](/azure/active-directory/devices/hybrid-azuread-join-plan) habilitar o registro automático de dispositivos de computadores Windows ingressados no domínio.
 
-## <a name="phase-6-configure-azure-ad-password-protection"></a>Fase 6: Configurar a proteção por senha do Azure AD 
+## <a name="phase-6-configure-azure-ad-password-protection"></a>Fase 6: Configurar a proteção de senha do Azure AD 
 
-Siga [estas instruções](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) para bloquear senhas fracas conhecidas e suas variantes.
+Siga [estas instruções para](/azure/active-directory/authentication/concept-password-ban-bad) bloquear senhas fracas conhecidas e suas variantes.
 
 ## <a name="phase-7-enable-azure-ad-identity-protection"></a>Fase 7: ativar a proteção de identidade do Azure AD
 
@@ -91,11 +91,11 @@ Siga as instruções na [Fase 2 do Guia do Laboratório de Teste do Azure AD Ide
 
 ## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>Fase 8: habilite a autenticação moderna para o Exchange Online e o Skype for Business Online
 
-Para o Exchange Online, siga [estas instruções](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
+Para o Exchange Online, siga [estas instruções](/Exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online#enable-or-disable-modern-authentication-in-exchange-online-for-client-connections-in-outlook-2013-or-later). 
 
 Para o Skype for Business Online:
 
-1. Conecte-se ao [Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. Conecte-se ao [Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 2. Execute este comando.
 
@@ -109,20 +109,20 @@ Para o Skype for Business Online:
   Get-CsOAuthConfiguration
   ```
 
-O resultado é um ambiente de teste que atende aos requisitos da configuração de [pré-requisitos](../security/office-365-security/identity-access-prerequisites.md#prerequisites) somente na nuvem para acesso a identidades e dispositivos. 
+O resultado é um ambiente de teste que atende aos requisitos da configuração de [pré-requisito](../security/office-365-security/identity-access-prerequisites.md#prerequisites) somente na nuvem para acesso à identidade e ao dispositivo. 
 
 ## <a name="next-step"></a>Próxima etapa
 
-Use [Políticas comuns de acesso a identidades e dispositivos](identity-access-policies.md) para configurar as políticas criadas com base nos pré-requisitos e proteger identidades e dispositivos.
+Use [Políticas comuns de acesso a identidades e dispositivos](../security/office-365-security/identity-access-policies.md) para configurar as políticas criadas com base nos pré-requisitos e proteger identidades e dispositivos.
 
 ## <a name="see-also"></a>Confira também
 
 [Guias adicionais de laboratório de teste de identidade](m365-enterprise-test-lab-guides.md#identity)
 
-[Mapa de identidade](identity-roadmap-microsoft-365.md)
+[Roteiro de identidade](identity-roadmap-microsoft-365.md)
 
 [Guias do Laboratório de Teste do Microsoft 365 para empresas](m365-enterprise-test-lab-guides.md)
 
 [Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
-[Documentação do Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentação do Microsoft 365 para empresas](/microsoft-365-enterprise/)

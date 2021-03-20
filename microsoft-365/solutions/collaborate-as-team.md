@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Saiba mais sobre as etapas de configuração do Microsoft 365 necessárias para configurar uma equipe para tarefas, conversas e colaboração de documentação com convidados no Teams.
-ms.openlocfilehash: 986f9c1f343c8ccc3d76557291938d170923c89b
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 4e734af198563d0bc4599b4476b3823384989212
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712313"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904655"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Colaborar com convidados em uma equipe
 
@@ -38,7 +38,7 @@ Este vídeo mostra as etapas de configuração descritas neste documento.</br>
 
 ## <a name="azure-external-collaboration-settings"></a>Configurações de colaboração externa do Azure
 
-Compartilhamento no Microsoft 365 é regido em seu nível mais alto pelas [Configurações de colaboração externa B2B no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, essa configuração substituirá todas as configurações de compartilhamento que você definir no Microsoft 365.
+Compartilhamento no Microsoft 365 é regido em seu nível mais alto pelas [Configurações de colaboração externa B2B no Azure Active Directory](/azure/active-directory/external-identities/delegate-invitations). Se o compartilhamento de convidados estiver desabilitado ou restrito no Azure AD, essa configuração substituirá todas as configurações de compartilhamento que você definir no Microsoft 365.
 
 Verifique as configurações de colaboração externa B2B para garantir que o compartilhamento com convidados não seja bloqueado.
 
@@ -74,7 +74,7 @@ Para definir as configurações de acesso de convidado do Teams
 5. Certifique-se de que **Permitir acesso de convidado no Teams** esteja definido como **Ativado**.
 6. Faça as alterações desejadas nas configurações de convidado adicionais e clique em **Salvar**.
 
-Depois que o acesso de convidado do Teams está ativado, você pode opcionalmente controlar o acesso de convidado a equipes individuais e seus sites do Microsoft Office SharePoint Online associados usando rótulos de sensibilidade. Para mais informações, veja [Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Depois que o acesso de convidado do Teams está ativado, você pode opcionalmente controlar o acesso de convidado a equipes individuais e seus sites do Microsoft Office SharePoint Online associados usando rótulos de sensibilidade. Para mais informações, veja [Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](../compliance/sensitivity-labels-teams-groups-sites.md).
 
 > [!NOTE]
 > Pode levar até vinte e quatro horas para que as configurações de convidados do Teams se tornem ativas depois de ativadas.
@@ -187,6 +187,6 @@ Para convidar pessoas para uma equipe
 
 [Crie uma extranet B2B com convidados gerenciados](b2b-extranet.md)
 
-[Integração do Microsoft Office SharePoint Online e OneDrive com Microsoft Azure Active Directory B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)
+[Integração do Microsoft Office SharePoint Online e OneDrive com Microsoft Azure Active Directory B2B](/sharepoint/sharepoint-azureb2b-integration-preview)
 
-[Opções de compartilhamento ficam esmaecidas ao compartilhar do Microsoft Office SharePoint Online ou OneDrive](https://docs.microsoft.com/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)
+[Opções de compartilhamento ficam esmaecidas ao compartilhar do Microsoft Office SharePoint Online ou OneDrive](/sharepoint/troubleshoot/administration/sharing-options-grayed-out-when-sharing-from-sharepoint-online-or-onedrive)

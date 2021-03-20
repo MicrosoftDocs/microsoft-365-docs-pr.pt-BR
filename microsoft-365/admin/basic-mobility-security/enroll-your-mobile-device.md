@@ -18,18 +18,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: Antes de poder usar os serviços do Microsoft 365 com seu dispositivo, talvez seja necessário inscredá-lo primeiro no Basic Mobility and Security para o Microsoft 365.
-ms.openlocfilehash: 2a9c0bd9faf670d7dca340d3bc4e9f6586bd6b66
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 119039f86f1c7f81ffb535b4a159c935823f2f07
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423196"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904223"
 ---
 # <a name="enroll-your-mobile-device-using-basic-mobility-and-security"></a>Registrar seu dispositivo móvel usando o Basic Mobility and Security
 
 Usar seu telefone, tablet e outros dispositivos móveis para trabalhar é uma ótima maneira de se manter informado e trabalhar em projetos de negócios enquanto você está longe do escritório. Antes de poder usar os serviços do Microsoft 365 com seu dispositivo, talvez seja necessário inscredá-lo primeiro no Basic Mobility and Security para o Microsoft 365 usando o Microsoft Intune Company Portal.
 
-As organizações escolhem Mobilidade Básica e Segurança para que os funcionários possam usar seus dispositivos móveis para acessar com segurança emails, calendários e documentos de trabalho, enquanto a empresa garante dados importantes e atende aos requisitos de conformidade.Para saber mais, consulte [Overview of Basic Mobility and Security for Microsoft 365](overview.md). Para obter mais informações, consulte Quais informações minha organização pode [ver ao registrar meu dispositivo?](https://docs.microsoft.com/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune).
+As organizações escolhem Mobilidade Básica e Segurança para que os funcionários possam usar seus dispositivos móveis para acessar com segurança emails, calendários e documentos de trabalho, enquanto a empresa garante dados importantes e atende aos requisitos de conformidade.Para saber mais, consulte [Overview of Basic Mobility and Security for Microsoft 365](overview.md). Para obter mais informações, consulte Quais informações minha organização pode [ver ao registrar meu dispositivo?](/intune-user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune).
 
 >[!IMPORTANT] 
 >Ao registrar seu dispositivo no Basic Mobility and Security para o Microsoft 365, talvez seja necessário configurar uma senha, além de permitir que a sua organização de trabalho limpe o dispositivo. Uma limpeza de dispositivo pode ser executada do Centro de administração do Microsoft 365, por exemplo, para remover todos os dados do dispositivo se a senha for inserida incorretamente muitas vezes ou se os termos de uso estão quebrados.
@@ -60,7 +60,7 @@ O Portal da Empresa do Intune permite que um dispositivo seja gerenciado pelo Mi
 
 Vá para a Apple App Store e baixe e instale o Portal da Empresa do Intune.
 
-Para conectar e configurar seu telefone ou tablet iOS com o portal da empresa para o Office 365, consulte Configurar o acesso de dispositivo iOS aos recursos [da sua empresa.](https://go.microsoft.com/fwlink/?linkid=875316)
+Para conectar e configurar seu telefone ou tablet iOS com o portal da empresa para o Office 365, consulte Configurar o acesso de dispositivo iOS aos recursos [da sua empresa.](/mem/intune/user-help/enroll-your-device-in-intune-ios)
 
 ### <a name="android-phone-or-tablet"></a>Telefone ou tablet Android
 
@@ -69,13 +69,13 @@ Para conectar e configurar seu telefone ou tablet iOS com o portal da empresa pa
 
 Acesse a Google Play Store e baixe e instale o Portal da Empresa do Intune.
 
-Para conectar e configurar seu telefone ou tablet Android com o portal da Empresa para o Microsoft 365, consulte Registrar seu dispositivo [com o Portal da Empresa.](https://go.microsoft.com/fwlink/?linkid=875317)
+Para conectar e configurar seu telefone ou tablet Android com o portal da Empresa para o Microsoft 365, consulte Registrar seu dispositivo [com o Portal da Empresa.](/mem/intune/user-help/enroll-device-android-company-portal)
 
 ### <a name="windows-81-and-windows-10"></a>Windows 8.1 e Windows 10
 
 Vá para a Microsoft Store e baixe e instale o Portal da Empresa do Intune
 
-Para conectar e configurar seu telefone ou computador Windows com o portal da Empresa para o Microsoft 365, consulte Registro de dispositivos Windows no Portal da Empresa do [Intune](https://docs.microsoft.com/intune-user-help/windows-enrollment-company-portal).
+Para conectar e configurar seu telefone ou computador Windows com o portal da Empresa para o Microsoft 365, consulte Registro de dispositivos Windows no Portal da Empresa do [Intune](/intune-user-help/windows-enrollment-company-portal).
 
 ## <a name="whats-next"></a>O que vem a seguir?
 

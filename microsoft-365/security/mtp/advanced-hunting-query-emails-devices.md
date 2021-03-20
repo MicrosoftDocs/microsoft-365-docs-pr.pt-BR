@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a12b2dcf2de472f43e782e2064944ec774bdb9e1
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 1149d8fa614854bdbbd2c154f0e92f6a9c28ce00
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727254"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50904062"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Procurar ameaças em dispositivos, emails, aplicativos e identidades
 
@@ -50,7 +50,7 @@ Use essas consultas para saber como obter informações rapidamente sobre contas
 ### <a name="obtain-user-accounts-from-email-addresses"></a>Adicionar contas de usuário a partir de endereços de email
 Ao criar consultas em [tabelas que abrangem dispositivos e emails](advanced-hunting-schema-tables.md), provavelmente será necessário obter nomes de contas de usuário dos endereços de email de remetentes ou destinatários. Geralmente, você pode fazer isso para destinatário ou endereço de remetente usando *o host local* do endereço de email.
 
-No trecho abaixo, usamos a função [kusto tostring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) para extrair o host local logo antes dos endereços de email do destinatário `@` na coluna `RecipientEmailAddress` .
+No trecho abaixo, usamos a função [kusto tostring()](/azure/data-explorer/kusto/query/tostringfunction) para extrair o host local logo antes dos endereços de email do destinatário `@` na coluna `RecipientEmailAddress` .
 
 ```kusto
 //Query snippet showing how to extract the account name from an email address
@@ -86,7 +86,7 @@ Department, City, Country
 O [esquema de busca avançado fornece](advanced-hunting-schema-tables.md) informações abrangentes do dispositivo em várias tabelas. Por exemplo, a tabela [DeviceInfo fornece](advanced-hunting-deviceinfo-table.md) informações abrangentes do dispositivo com base nos dados de evento agregados regularmente. Essa consulta usa a tabela para verificar se um usuário potencialmente comprometido ( ) fez logon em qualquer dispositivo e lista os alertas que foram `DeviceInfo` `<account-name>` disparados nesses dispositivos.
 
 >[!Tip]
-> Essa consulta usa para especificar uma junção interna , o que impede `kind=inner` a deduplicação de [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)valores do lado esquerdo para `DeviceId` .
+> Essa consulta usa para especificar uma junção interna , o que impede `kind=inner` a deduplicação de [](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor)valores do lado esquerdo para `DeviceId` .
 
 ```kusto
 DeviceInfo

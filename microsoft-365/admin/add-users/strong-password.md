@@ -1,5 +1,5 @@
 ---
-title: Desativar requisitos de senha forte para usuários
+title: Desativar requisitos fortes de senha para usuários
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -20,29 +20,29 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como definir requisitos de senha forte para seus usuários usando o Windows PowerShell.
-ms.openlocfilehash: f9a0b76d024cc18552657144e4ccf8de8a72f0d9
-ms.sourcegitcommit: 3b1bd8aa1430bc9565743a446bbc27b199f30f73
+description: Saiba como definir requisitos de senha fortes para seus usuários usando Windows PowerShell.
+ms.openlocfilehash: e2300e3c94de53cd04d0c1726538fdb8a86a1ccf
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655730"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50903531"
 ---
-# <a name="turn-off-strong-password-requirements-for-users"></a>Desativar requisitos de senha forte para usuários
+# <a name="turn-off-strong-password-requirements-for-users"></a>Desativar requisitos fortes de senha para usuários
 
-Este artigo explica como desativar os requisitos de senha forte para seus usuários. Por padrão, os requisitos de senha forte estão ligado em sua organização do Microsoft 365 para empresas. Sua organização pode ter requisitos para desabilitar senhas fortes. Siga as etapas abaixo para desativar os requisitos de senha forte. Você precisa concluir essas etapas usando o PowerShell.
+Este artigo explica como desativar os requisitos fortes de senha para seus usuários. Por padrão, os requisitos de senha fortes são aados em sua organização do Microsoft 365 para empresas. Sua organização pode ter requisitos para desabilitar senhas fortes. Siga as etapas abaixo para desativar os requisitos fortes de senha. Você precisa concluir essas etapas usando o PowerShell.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Este artigo é destinado às pessoas que gerenciam a política de senha para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md) Você deve ser um [administrador global ou administrador de senhas](about-admin-roles.md) para executar estas etapas.
+Este artigo é para pessoas que gerenciam a política de senha para empresas, escolas ou entidades sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](../admin-overview/admin-overview.md) Você deve ser um [administrador global ou administrador de senha](about-admin-roles.md) para executar essas etapas.
 
 Você também deve se conectar ao Microsoft 365 com o PowerShell.
 
 ## <a name="set-strong-passwords"></a>Definir senhas fortes
 
-1. [Conecte-se ao Microsoft 365 com o PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+1. [Conecte-se ao Microsoft 365 com o PowerShell.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-2. Usando o PowerShell, você pode desativar os requisitos de senha forte para todos os usuários com o seguinte comando:
+2. Usando o PowerShell, você pode desativar requisitos fortes de senha para todos os usuários com o seguinte comando:
 
     ```powershell
     Get-MsolUser | Set-MsolUser -StrongPasswordRequired $false
@@ -54,12 +54,12 @@ Você também deve se conectar ao Microsoft 365 com o PowerShell.
     ```
 
 > [!NOTE]
-> The userPrincipalName must be in the Internet-style sign-in format where the user name is followed by the at sign (@) and a domain name. Por exemplo: user@contoso.com.
+> O userPrincipalName deve estar no formato de logon no estilo Internet, onde o nome do usuário é seguido pelo sinal de at (@) e um nome de domínio. Por exemplo: user@contoso.com.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Como se conectar ao Microsoft 365 com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Como se conectar ao Microsoft 365 com o PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-[Mais informações sobre os comandos MsolUser do PowerShell](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0)
+[Mais informações sobre comandos do PowerShell MsolUser](/powershell/module/msonline/set-msoluser?view=azureadps-1.0)
 
-[Mais informações sobre a política de senha](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts)
+[Mais informações sobre a política de senha](/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts)
