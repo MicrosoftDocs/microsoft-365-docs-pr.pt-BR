@@ -13,22 +13,22 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 6b0eff4c-2c5e-4581-8393-a36f7b36a72f
-description: 'Resumo: configure os controladores de domínio e o servidor de sincronização de diretórios para sua autenticação federada de alta disponibilidade para o Microsoft 365 no Microsoft Azure.'
-ms.openlocfilehash: 1c3fd686ee553a57d66dcfd51a6045167a12de8a
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: 'Resumo: Configure os controladores de domínio e o servidor de sincronização de diretórios para sua autenticação federada de alta disponibilidade para o Microsoft 365 no Microsoft Azure.'
+ms.openlocfilehash: 751d332ce5f5606fe5f833182f002a1f4b6f29ad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687307"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909805"
 ---
 # <a name="high-availability-federated-authentication-phase-2-configure-domain-controllers"></a>Autenticação federada de alta disponibilidade Fase 2: configurar controladores de domínio
 
-Nesta fase de implantação da alta disponibilidade da autenticação federada do Microsoft 365 nos serviços de infraestrutura do Azure, você configura dois controladores de domínio e o servidor de sincronização de diretórios na rede virtual do Azure. Solicitações da Web de clientes para autenticação podem então ser autenticadas na rede virtual do Azure, em vez de o tráfego de autenticação ser enviado na conexão de VPN site a site à sua rede local.
+Nesta fase de implantação de alta disponibilidade para autenticação federada do Microsoft 365 nos serviços de infraestrutura do Azure, você configura dois controladores de domínio e o servidor de sincronização de diretórios na rede virtual do Azure. Solicitações da Web de clientes para autenticação podem então ser autenticadas na rede virtual do Azure, em vez de o tráfego de autenticação ser enviado na conexão de VPN site a site à sua rede local.
   
 > [!NOTE]
 > Os Serviços de Federação do Active Directory (AD FS) não podem usar o Azure Active Directory (Azure AD) como um substituto para controladores de domínio do Active Directory Domain Services (AD DS). 
   
-Você deve concluir essa fase antes de passar para a [Fase 3: Configurar servidores do AD FS.](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) Confira [Implantar a autenticação federada de alta disponibilidade para o Microsoft 365 no Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) para todas as fases.
+Você deve concluir essa fase antes de passar para a [Fase 3: Configurar servidores do AD FS](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md). Consulte [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) for all of the phases.
   
 ## <a name="create-the-domain-controller-virtual-machines-in-azure"></a>Criar máquinas virtuais de controlador de domínio no Azure
 
@@ -44,11 +44,11 @@ Em primeiro lugar, você precisa preencher a coluna **Nome da máquina virtual**
 |6.  <br/> |![linha](../media/Common-Images/TableLine.png) (primeiro servidor proxy de aplicativo Web, exemplo WEB1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
 |7.  <br/> |![linha](../media/Common-Images/TableLine.png) (segundo servidor proxy de aplicativo Web, exemplo WEB2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
    
- **Tabela M - Máquinas virtuais para a autenticação federada de alta disponibilidade do Microsoft 365 no Azure**
+ **Tabela M - Máquinas virtuais para a autenticação federada de alta disponibilidade para o Microsoft 365 no Azure**
   
-Para obter a lista completa de tamanhos de máquinas virtuais, confira [Tamanhos das máquinas virtuais](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes).
+Para obter a lista completa de tamanhos de máquinas virtuais, confira [Tamanhos das máquinas virtuais](/azure/virtual-machines/virtual-machines-windows-sizes).
   
-O seguinte bloco de comandos do Azure PowerShell cria as máquinas virtuais para os dois controladores de domínio. Especifique os valores para as variáveis, removendo os \< and > caracteres. Observe que este bloco de comandos do Azure PowerShell usa valores para as tabelas a seguir:
+O seguinte bloco de comandos do Azure PowerShell cria as máquinas virtuais para os dois controladores de domínio. Especifique os valores das variáveis, removendo os \< and > caracteres. Observe que este bloco de comandos do Azure PowerShell usa valores para as tabelas a seguir:
   
 - Tabela M, para suas máquinas virtuais
     
@@ -62,15 +62,15 @@ O seguinte bloco de comandos do Azure PowerShell cria as máquinas virtuais para
     
 - Tabela A, para seus conjuntos de disponibilidade
     
-Lembre-se de que você definiu as Tabelas R, V, S, I e A na [Fase 1: Configurar o Azure.](high-availability-federated-authentication-phase-1-configure-azure.md)
+Lembre-se de que você definiu as Tabelas R, V, S, I e A na [Fase 1: Configurar o Azure](high-availability-federated-authentication-phase-1-configure-azure.md).
   
 > [!NOTE]
-> [!OBSERVAçãO] O comando a seguir define o uso da versão mais recente do Azure PowerShell. Confira [Começar a trabalhar com o Azure PowerShell.](https://docs.microsoft.com/powershell/azure/get-started-azureps) 
+> [!OBSERVAçãO] O comando a seguir define o uso da versão mais recente do Azure PowerShell. Consulte [Começar com o Azure PowerShell](/powershell/azure/get-started-azureps). 
   
 Quando tiver fornecido todos os valores corretos, execute o bloco resultante no prompt do Azure PowerShell ou no Ambiente de Script Integrado (ISE) do PowerShell no computador local.
   
 > [!TIP]
-> Para gerar blocos de comandos prontos para execução do PowerShell com base em suas configurações personalizadas, use esta planilha [de configuração do Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> Para gerar blocos de comando prontos para execução do PowerShell com base em suas configurações personalizadas, use esta planilha de configuração [do Microsoft Excel](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
 
 ```powershell
 # Set up variables common to both virtual machines
@@ -150,7 +150,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 Use o cliente de área de trabalho remota de sua preferência e crie uma conexão de área de trabalho remota com a primeira máquina virtual de controlador de domínio. Use seu nome de computador ou DNS de intranet e as credenciais da conta de administrador local.
   
-Em seguida, adicione o disco de dados extra ao primeiro controlador de domínio com este comando a partir de um prompt de comando do Windows PowerShell na primeira máquina virtual do controlador **de domínio:**
+Em seguida, adicione o disco de dados extra ao primeiro controlador de domínio com este comando Windows PowerShell prompt de comando na primeira máquina virtual do controlador de **domínio:**
   
 ```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
@@ -175,7 +175,7 @@ Você será solicitado a fornecer as credenciais de uma conta de administrador d
 
 Use o cliente de área de trabalho remota de sua preferência e crie uma conexão de área de trabalho remota com a segunda máquina virtual de controlador de domínio. Use seu nome de computador ou DNS de intranet e as credenciais da conta de administrador local.
   
-Em seguida, você precisa adicionar o disco de dados extra ao segundo controlador de domínio com este comando de um prompt de comando do Windows PowerShell na segunda máquina virtual do controlador de **domínio:**
+Em seguida, você precisa adicionar o disco de dados extra ao segundo controlador de domínio com este comando Windows PowerShell prompt de comando na segunda máquina **virtual do** controlador de domínio :
   
 ```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
@@ -193,7 +193,7 @@ Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:
 
 Você será solicitado a fornecer as credenciais de uma conta de administrador de domínio. O computador será reiniciado.
   
-Em seguida, você precisará atualizar os servidores DNS da sua rede virtual, para que o Azure atribua máquinas virtuais aos endereços IP dos dois novos controladores de domínio para uso como seus servidores DNS. Preencha as variáveis e execute estes comandos em um prompt de comando do Windows PowerShell no computador local:
+Em seguida, você precisará atualizar os servidores DNS da sua rede virtual, para que o Azure atribua máquinas virtuais aos endereços IP dos dois novos controladores de domínio para uso como seus servidores DNS. Preencha as variáveis e execute esses comandos de um prompt de Windows PowerShell no computador local:
   
 ```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
@@ -230,9 +230,9 @@ New-ADReplicationSubnet -Name $vnetSpace -Site $vnet
 
 ## <a name="configure-the-directory-synchronization-server"></a>Configurar o servidor de sincronização de diretórios
 
-Use o cliente de área de trabalho remota de sua preferência e crie uma conexão de área de trabalho remota com a máquina virtual do servidor de sincronização de diretórios. Use seu nome de computador ou DNS de intranet e as credenciais da conta de administrador local.
+Use o cliente de área de trabalho remota de sua escolha e crie uma conexão de área de trabalho remota com a máquina virtual do servidor de sincronização de diretórios. Use seu nome de computador ou DNS de intranet e as credenciais da conta de administrador local.
   
-Em seguida, a join it to the appropriate AD DS domain with these commands at the Windows PowerShell prompt.
+Em seguida, junte-o ao domínio apropriado do AD DS com esses comandos no prompt Windows PowerShell.
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -249,14 +249,12 @@ Veja a seguir a configuração resultante da conclusão bem-sucedida dessa fase,
   
 ## <a name="next-step"></a>Próxima etapa
 
-Use [a Fase 3: Configurar servidores do AD FS para](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) continuar configurando essa carga de trabalho.
+Use [a Fase 3: Configurar servidores do AD FS](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) para continuar configurando essa carga de trabalho.
   
 ## <a name="see-also"></a>Confira também
 
 [Implantar a autenticação federada de alta disponibilidade para o Microsoft 365 no Azure](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md)
   
-[Identidade federada para seu ambiente de dev/teste do Microsoft 365](federated-identity-for-your-microsoft-365-dev-test-environment.md)
+[Identidade federada para seu ambiente de dev/test do Microsoft 365](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
-[Centro de soluções e arquitetura do Microsoft 365](../solutions/solution-architecture-center.md)
-
-
+[Centro de soluções e arquitetura do Microsoft 365](../solutions/index.yml)

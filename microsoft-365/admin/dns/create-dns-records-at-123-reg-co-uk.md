@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços 123-reg.co.uk para a Microsoft.
-ms.openlocfilehash: 3c9af6909f37082a63170adac94ac3d92b717ad1
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: d1e4d3d01a5e6b4f72c98fe09cf57374dd2417a0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758899"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910421"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-microsoft"></a>Criar registros DNS no 123-reg.co.uk para a Microsoft
 
@@ -102,11 +102,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome do host**|**Tipo**|**Prioridade**|**MX de destino**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obtenha a sua \<domain-key\> através da sua conta Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obtenha a sua \<domain-key\> através da sua conta Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Copiar e colar valores da tabela](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
   
-6. Clique em **Adicionar**.
+6. Selecione **Adicionar**.
     
     ![Captura de tela da caixa de diálogo com o botão Adicionar sendo selecionado](../../media/a8ae6c0c-4365-4137-af8a-6e003996e3d0.png)
   
@@ -141,7 +141,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![Captura de tela com CNAME de destino para copiar e colar](../../media/24bf388c-5f7f-4fc0-b4ec-4b17226b6246.png)
   
-6. Clique em **Adicionar**.
+6. Selecione **Adicionar**.
     
     ![Captura de tela para adicionar CNAME de destino](../../media/825a9854-559d-4a22-90ac-5e7a0a54269a.png)
   
@@ -155,7 +155,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já tiver um registro SPF para seu domínio, não crie um novo para Microsfot. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro  *SPF*  que inclua ambos os conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-spf). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro  *SPF*  que inclua ambos os conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](../../enterprise/external-domain-name-system-records.md#external-dns-records-required-for-spf). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
   
 1. Para começar, vá para sua página de domínios em 123-reg.co.uk usando [este link](https://www.123-reg.co.uk/secure/cpanel/domain/overview). Será solicitado que você faça logon primeiro.
     
@@ -175,7 +175,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![123Reg-BP-Configure-4-1](../../media/4697701c-eba0-4b03-8d75-4f7fc3bef94a.png)
   
-6. Clique em **Adicionar**.
+6. Selecione **Adicionar**.
     
     ![Captura de tela com destino TXT/SPF](../../media/7906dd91-fd23-44c3-bb37-ef185655c6eb.png)
   
@@ -204,7 +204,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![Captura de tela com valores DNS da tabela](../../media/c1786b86-52ef-4dca-8b99-b479554fa531.png)
   
-6. Clique em **Adicionar**.
+6. Selecione **Adicionar**.
     
     ![Captura de tela para adicionar SRV de destino](../../media/5fd9d3a2-a8bb-466b-829f-b3a6e54b5104.png)
   
@@ -214,4 +214,3 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

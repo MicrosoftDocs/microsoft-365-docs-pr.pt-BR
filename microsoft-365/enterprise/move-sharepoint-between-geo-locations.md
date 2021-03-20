@@ -13,14 +13,14 @@ ms.collection:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Saiba como mover um site do SharePoint para uma localização geográfica diferente em seu ambiente multi-geo e comunicar as expectativas das alterações para seus usuários.
+description: Saiba como mover um site do SharePoint para uma localização geográfica diferente em seu ambiente multi-geo e comunicar as expectativas das alterações aos seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 819496b9f7612afa1db902e6fc5a0844e99d7a8e
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47545631"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910925"
 ---
 # <a name="move-a-sharepoint-site-to-a-different-geo-location"></a>Mover um site do SharePoint para uma localização geográfica diferente
 
@@ -74,7 +74,7 @@ A hora deve ser especificada no Tempo Universal Coordenado (UTC) para ambos os p
 
 A movimentação geográfica do site do SharePoint requer que você se conecte e realize a movimentação da URL de Administrador do SharePoint na localização geográfica onde está o site.
 
-Por exemplo, se a URL do site <https://contosohealthcare.sharepoint.com/sites/Turbines> for , conecte-se à URL de Administração do SharePoint em <https://contosohealthcare-admin.sharepoint.com> :
+Por exemplo, se a URL do site for , conecte-se à URL do Administrador do <https://contosohealthcare.sharepoint.com/sites/Turbines> SharePoint em <https://contosohealthcare-admin.sharepoint.com> :
 
 ```powershell
 Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
@@ -145,8 +145,8 @@ Você pode parar a movimentação geográfica do site do SharePoint, desde que a
 
 Você pode determinar o status da movimentação de um site fora da área geográfica conectada usando os seguintes cmdlets:
 
-- [Get-SPOSiteContentMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositecontentmovestate) (sites não conectado a um Grupo)
-- [Get-SPOUnifiedGroupMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) (sites conectados ao grupo)
+- [Get-SPOSiteContentMoveState](/powershell/module/sharepoint-online/get-spositecontentmovestate) (sites não conectado a um Grupo)
+- [Get-SPOUnifiedGroupMoveState](/powershell/module/sharepoint-online/get-spounifiedgroupmovestate) (sites conectados a grupos)
 
 Use o `-SourceSiteUrl` parâmetro para especificar o site que você deseja ver o status de movimentação.
 

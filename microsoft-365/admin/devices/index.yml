@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Proteger e gerenciar dispositivos e dados de aplicativo
-summary: Confira esses recursos para ajudar os administradores a escolher entre os métodos de gerenciamento de dados de dispositivos e aplicativos.
+title: Proteger e gerenciar dispositivos e dados de aplicativos
+summary: Confira esses recursos para ajudar os administradores a escolher entre métodos de gerenciamento de dados de dispositivos e aplicativos.
 metadata:
-  title: Proteger e gerenciar dispositivos e dados de aplicativo
-  description: Gerenciar e proteger dispositivos e dados de aplicativo
+  title: Proteger e gerenciar dispositivos e dados de aplicativos
+  description: Gerenciar e proteger dispositivos e dados de aplicativos
   ms.service: O365-administration
   ms.topic: landing-page
   author: Sirkkuw
@@ -11,33 +11,33 @@ metadata:
   ms.date: 09/09/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: a70d8471d8344f7bf479e050c59d6c6b3d97f5fe
-  ms.sourcegitcommit: 5a355bde865369f64ea1788a378da23c65b1d249
+  ms.openlocfilehash: 2b15d19025f42db0b4f79adb6f4156f7a115f227
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/06/2020
-  ms.locfileid: "48930244"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50910433"
 landingContent:
 - title: Métodos MDM e MAM diferentes
   linkLists:
   - linkListType: overview
     links:
-    - text: Analisar opções de proteção de dados de dispositivos e aplicativos
+    - text: Revisar opções de proteção de dados de dispositivos e aplicativos
       url: choose-device-security.md
 - title: Gerenciar dispositivos e dados de aplicativo com o Microsoft Intune
   linkLists:
   - linkListType: overview
     links:
-    - text: Visão geral do registro de dispositivos
-      url: https://docs.microsoft.com/mem/intune/enrollment/device-enrollment
+    - text: Visão geral do registro do dispositivo
+      url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
     - text: Configurar o registro automático para dispositivos Windows 10
-      url: https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment
-    - text: Configurar o registro no Android
-      url: https://docs.microsoft.com/mem/intune/enrollment/android-enroll
+      url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
+    - text: Configurar registro no Android
+      url: /mem/intune/enrollment/android-enroll
     - text: Configurar o registro do iOS/iPadOS
-      url: https://docs.microsoft.com/mem/intune/enrollment/ios-enroll
+      url: /mem/intune/enrollment/ios-enroll
 - title: Gerenciar dispositivos e dados de aplicativo com o Microsoft 365 Business Premium
   linkLists:
   - linkListType: how-to-guide
@@ -48,21 +48,21 @@ landingContent:
       url: ../../business/remove-company-data.md
     - text: Redefinir dispositivos Windows para configurações de fábrica
       url: ../../business/reset-devices-to-factory-settings.md
-- title: Gerenciar dispositivos e dados de aplicativos com o Microsoft 365 para empresas
+- title: Gerenciar dispositivos e dados de aplicativo com o Microsoft 365 para empresas
   linkLists:
   - linkListType: overview
     links:
     - text: Visão geral do Microsoft 365 para empresas
       url: ../../enterprise/microsoft-365-overview.md
-    - text: Mapa de gerenciamento de dispositivos do Microsoft 365 para empresas
+    - text: Mapa de gerenciamento de dispositivos para o Microsoft 365 para empresas
       url: ../../enterprise/device-management-roadmap-microsoft-365.md
-- title: Gerenciar dispositivos e dados de aplicativos com mobilidade e segurança básicas
+- title: Gerenciar dispositivos e dados de aplicativos com mobilidade básica e segurança
   linkLists:
   - linkListType: overview
     links:
     - text: Visão geral da Mobilidade e Segurança Básicas
       url: ../basic-mobility-security/overview.md
-    - text: Configurar mobilidade básica e segurança
+    - text: Configurar a mobilidade básica e a segurança
       url: ../basic-mobility-security/set-up.md
-    - text: Recursos básicos de mobilidade e segurança
+    - text: Recursos de mobilidade básica e segurança
       url: ../basic-mobility-security/capabilities.md

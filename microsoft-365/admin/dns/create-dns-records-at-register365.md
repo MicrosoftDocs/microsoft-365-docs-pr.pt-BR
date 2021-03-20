@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no site Register365 para a Microsoft
+title: Criar registros DNS no Register365 para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 004030b4-10ad-4026-96e7-011b6afc7e73
-description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Register365 para Microsoft.
-ms.openlocfilehash: 6cefdeff3da1256911d80066b55b00f5bef24055
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Register365 para Microsoft.
+ms.openlocfilehash: a0bf077a6e034add48e9745711fb37d59e2c8203
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656910"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910001"
 ---
-# <a name="create-dns-records-at-register365-for-microsoft"></a>Criar registros DNS no site Register365 para a Microsoft
+# <a name="create-dns-records-at-register365-for-microsoft"></a>Criar registros DNS no Register365 para a Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
@@ -46,7 +46,7 @@ Esses são os principais registros a adicionar.
     
 - [Adicionar os dois registros SRV necessários para a Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Depois que você adicionar esses registros à Microsoft, seu domínio será definido para funcionar com os serviços Microsoft.
+Depois de adicionar esses registros na Microsoft, seu domínio será definido para trabalhar com os serviços da Microsoft.
   
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
@@ -73,7 +73,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     (Selecione o valor **Tipo** na lista suspensa.) 
     
-    (Se você precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
+    (Se precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
     
     (Pode ser necessário rolar para baixo.)
     
@@ -131,7 +131,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome do host**|**Prioridade**|**Resultado**|
     |:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     |
+    |(Deixe este campo vazio.)  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu de sua conta da Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)     |
    
     ![Inserindo valores na página Adicionar/Modificar Zona DNS](../../media/2d3645a8-9cb8-435e-b895-5535b6b1fffd.png)
   
@@ -168,7 +168,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     (Selecione o valor **Tipo** na lista suspensa.) 
     
-    (Se você precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
+    (Se precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
     
     (Pode ser necessário rolar para baixo.)
     
@@ -206,7 +206,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     (Selecione o valor **Tipo** na lista suspensa.) 
     
-    (Se você precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
+    (Se precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
     
     (Pode ser necessário rolar para baixo.)
     
@@ -241,8 +241,8 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Prioridade**|**Espessura**|**Porta**|**Resultado**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![Inserindo valores na seção Registros de serviço](../../media/56bb1813-90e2-40c8-98bf-750e2dc3f8b6.png)
   
@@ -254,4 +254,3 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

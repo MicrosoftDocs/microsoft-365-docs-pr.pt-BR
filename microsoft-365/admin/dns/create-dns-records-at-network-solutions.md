@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS na Network Solutions para a Microsoft
+title: Criar registros DNS em Soluções de Rede para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,15 +20,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1dc55f9f-5309-450f-acc3-b2b4119c8be3
-description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços na Network Solutions para Microsoft.
-ms.openlocfilehash: 9cb403bb8b469f2d7f4e6138ba5833120ea53585
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Soluções de Rede para Microsoft.
+ms.openlocfilehash: f25e21037695c99489adc9038bf70629a103ec7a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657786"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910133"
 ---
-# <a name="create-dns-records-at-network-solutions-for-microsoft"></a>Criar registros DNS na Network Solutions para a Microsoft
+# <a name="create-dns-records-at-network-solutions-for-microsoft"></a>Criar registros DNS em Soluções de Rede para a Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
@@ -46,7 +46,7 @@ Estes são os registros principais a adicionar. Siga as etapas abaixo ou [assist
     
 - [Adicionar os dois registros SRV necessários para a Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Depois que você adicionar esses registros na Network Solutions, seu domínio será definido para funcionar com os serviços Microsoft.
+Depois de adicionar esses registros em Soluções de Rede, seu domínio será definido para funcionar com os serviços da Microsoft.
   
 
   
@@ -66,7 +66,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.mi
 1. Para iniciar, vá até a página do seu domínio em Network Solutions, usando [este link](https://www.networksolutions.com/manage-it). Você será solicitado a fazer o logon.
     
     > [!IMPORTANT]
-    > Antes de selecionar o **botão Logon,** primeiro escolha Gerenciar Meus Nomes de **Domínio** na lista de logon **em:** lista drop-down. 
+    > Antes de selecionar o **botão Logon,** primeiro escolha **Gerenciar Meus** Nomes de Domínio na lista de entrada **para:** lista lista listada. 
   
     ![Escolha Gerenciar Meus Nomes de Domínio e entre no Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -76,17 +76,17 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.mi
   
 3. Selecione **Editar DNS**.
     
-    ![Selecionar Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![Selecione Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
-4. Selecione **Gerenciar Registros DNS Avançados.**
+4. Selecione **Gerenciar Registros DNS Avançados**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![Selecionar Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
+    ![Selecione Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Role para baixo até **a seção Texto (Registros TXT)** e selecione **Editar Registros TXT.**
+5. Role para baixo até a seção **Texto (Registros TXT)** e selecione **Editar Registros TXT**.
     
-    ![Selecionar Editar Registros TXT](../../media/240a01d6-750a-4da6-8554-641b571e4b71.png)
+    ![Selecione Editar Registros TXT](../../media/240a01d6-750a-4da6-8554-641b571e4b71.png)
   
 6. Nas caixas do novo registro, digite ou copie e cole os valores na tabela seguinte.
     
@@ -98,9 +98,9 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:47)](https://support.mi
   
 7. Selecione **Continuar**.
     
-    ![Selecionar Continuar](../../media/89e7fb38-b4d9-4949-a1bb-d0dd10b361e0.png)
+    ![Selecione Continuar](../../media/89e7fb38-b4d9-4949-a1bb-d0dd10b361e0.png)
   
-8. Selecione **Salvar Alterações.**
+8. Selecione **Salvar Alterações**.
     
     ![Selecionar Salvar Alterações](../../media/bd4d7cd0-c8a3-497a-b080-cfd5a5c60dc5.png)
   
@@ -135,7 +135,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:51)](https://support.mi
 1. Para iniciar, vá até a página do seu domínio em Network Solutions, usando [este link](https://www.networksolutions.com/manage-it). Você será solicitado a fazer o logon.
     
     > [!IMPORTANT]
-    > Antes de selecionar o **botão Logon,** primeiro escolha Gerenciar Meus Nomes de **Domínio** na lista de logon **em:** lista drop-down. 
+    > Antes de selecionar o **botão Logon,** primeiro escolha **Gerenciar Meus** Nomes de Domínio na lista de entrada **para:** lista lista listada. 
   
     ![Escolha Gerenciar Meus Nomes de Domínio e entre no Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -145,31 +145,31 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:51)](https://support.mi
   
 3. Selecione **Editar DNS**.
     
-    ![Selecionar Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![Selecione Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
-4. Selecione **Gerenciar Registros DNS Avançados.**
+4. Selecione **Gerenciar Registros DNS Avançados**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![Selecionar Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
+    ![Selecione Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Role para baixo até a seção Servidores de Email **(Registros MX)** e selecione **Editar Registros MX.**
+5. Role para baixo até a seção **Servidores de Email (Registros MX)** e selecione **Editar Registros MX.**
     
-    ![Selecionar Editar Registros MX](../../media/74b4e412-9073-4d2d-8710-fe340b223798.png)
+    ![Selecione Editar Registros MX](../../media/74b4e412-9073-4d2d-8710-fe340b223798.png)
   
 6. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
     
     |**Prioridade**|**TTL**|**Servidor de Email**|
     |:-----|:-----|:-----|
-    |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |3600  <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> |3600  <br/> | *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obter o  *\<domain-key\>*  seu de sua conta da Microsoft. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![Digite ou colar valores nas caixas do novo registro](../../media/0bb96872-cc6e-4dfa-a649-fb7efbbf0012.png)
   
 7. Selecione **Continuar**.
     
-    ![Selecionar Continuar](../../media/963f758b-e79d-4452-8340-7eba8a3972c9.png)
+    ![Selecione Continuar](../../media/963f758b-e79d-4452-8340-7eba8a3972c9.png)
   
-8. Selecione **Salvar Alterações.**
+8. Selecione **Salvar Alterações**.
     
     ![Selecionar Salvar Alterações](../../media/7c2f784a-6dee-4364-866c-ad7202ef1fc2.png)
   
@@ -179,9 +179,9 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:51)](https://support.mi
   
 10. Quando todos eles forem selecionados, selecione **Continuar**.
     
-    ![Selecionar Continuar](../../media/4710f988-0bbc-4ba7-bf31-ca2392b2900e.png)
+    ![Selecione Continuar](../../media/4710f988-0bbc-4ba7-bf31-ca2392b2900e.png)
   
-11. Selecione **Salvar Alterações.**
+11. Selecione **Salvar Alterações**.
     
     ![Selecionar Salvar Alterações](../../media/24432ec6-666b-4612-9488-37c06437959b.png)
   
@@ -193,7 +193,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:43)](https://support.mi
 1. Para iniciar, vá até a página do seu domínio em Network Solutions, usando [este link](https://www.networksolutions.com/manage-it). Você será solicitado a fazer o logon.
     
     > [!IMPORTANT]
-    > Antes de selecionar o **botão Logon,** primeiro escolha Gerenciar Meus Nomes de **Domínio** na lista de logon **em:** lista drop-down. 
+    > Antes de selecionar o **botão Logon,** primeiro escolha **Gerenciar Meus** Nomes de Domínio na lista de entrada **para:** lista lista listada. 
   
     ![Escolha Gerenciar Meus Nomes de Domínio e entre no Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -203,17 +203,17 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:43)](https://support.mi
   
 3. Selecione **Editar DNS**.
     
-    ![Selecionar Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![Selecione Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
-4. Selecione **Gerenciar Registros DNS Avançados.**
+4. Selecione **Gerenciar Registros DNS Avançados**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![Selecionar Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
+    ![Selecione Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Role para baixo até a **seção Aliases de Host (Registros CNAME)** e selecione **Editar Registros CNAME.**
+5. Role para baixo até a seção Aliases de Host **(Registros CNAME)** e selecione **Editar Registros CNAME**.
     
-    ![Selecionar Editar Registros CNAME em Aliases de Host](../../media/2d0a4666-8d40-48f4-886c-64a5157baaf5.png)
+    ![Selecione Editar Registros CNAME em Aliases de Host](../../media/2d0a4666-8d40-48f4-886c-64a5157baaf5.png)
   
 6. Nas caixas dos quatro novos registros, digite ou copie e cole os valores da seguinte tabela.
     
@@ -229,9 +229,9 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:43)](https://support.mi
   
 7. Quando você tiver adicionado todos os registros CNAME necessários, selecione **Continuar**.
     
-    ![Selecionar Continuar](../../media/4978bd8b-f6a6-458d-9522-ad612b301c4a.png)
+    ![Selecione Continuar](../../media/4978bd8b-f6a6-458d-9522-ad612b301c4a.png)
   
-8. Selecione **Salvar Alterações.**
+8. Selecione **Salvar Alterações**.
     
     ![Selecionar Salvar Alterações](../../media/f005c38a-0d8d-4c61-bec6-15e60c89aa5a.png)
   
@@ -246,7 +246,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:35)](https://support.mi
 1. Para iniciar, vá até a página do seu domínio em Network Solutions, usando [este link](https://www.networksolutions.com/manage-it). Você será solicitado a fazer o logon.
     
     > [!IMPORTANT]
-    > Antes de selecionar o **botão Logon,** primeiro escolha Gerenciar Meus Nomes de **Domínio** na lista de logon **em:** lista drop-down. 
+    > Antes de selecionar o **botão Logon,** primeiro escolha **Gerenciar Meus** Nomes de Domínio na lista de entrada **para:** lista lista listada. 
   
     ![Escolha Gerenciar Meus Nomes de Domínio e entre no Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -256,17 +256,17 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:35)](https://support.mi
   
 3. Selecione **Editar DNS**.
     
-    ![Selecionar Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![Selecione Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
-4. Selecione **Gerenciar Registros DNS Avançados.**
+4. Selecione **Gerenciar Registros DNS Avançados**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![Selecionar Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
+    ![Selecione Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Role para baixo até **a seção Texto (Registros TXT)** e selecione **Editar Registros TXT.**
+5. Role para baixo até a seção **Texto (Registros TXT)** e selecione **Editar Registros TXT**.
     
-    ![Selecionar Editar Registros TXT em Texto](../../media/a69a2631-6da2-4e81-99ab-9a9ab9b30b07.png)
+    ![Selecione Editar Registros TXT em Texto](../../media/a69a2631-6da2-4e81-99ab-9a9ab9b30b07.png)
   
 6. Nas caixas do novo registro, digite ou copie e cole os seguintes valores.
     
@@ -278,9 +278,9 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:35)](https://support.mi
   
 7. Selecione **Continuar**.
     
-    ![Selecionar Continuar](../../media/482a8dae-0c79-47c4-8bd8-87965683de24.png)
+    ![Selecione Continuar](../../media/482a8dae-0c79-47c4-8bd8-87965683de24.png)
   
-8. Selecione **Salvar Alterações.**
+8. Selecione **Salvar Alterações**.
     
     ![Selecionar Salvar Alterações](../../media/600b8c6d-184f-4213-a50e-8f119ebf3ff0.png)
   
@@ -292,7 +292,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 6:18)](https://support.mi
 1. Para iniciar, vá até a página do seu domínio em Network Solutions, usando [este link](https://www.networksolutions.com/manage-it). Você será solicitado a fazer o logon.
     
     > [!IMPORTANT]
-    > Antes de selecionar o **botão Logon,** primeiro escolha Gerenciar Meus Nomes de **Domínio** na lista de logon **em:** lista drop-down. 
+    > Antes de selecionar o **botão Logon,** primeiro escolha **Gerenciar Meus** Nomes de Domínio na lista de entrada **para:** lista lista listada. 
   
     ![Escolha Gerenciar Meus Nomes de Domínio e entre no Network Solutions](../../media/fda7d4a1-9445-4086-be9c-87c6983ef2aa.png)
   
@@ -302,17 +302,17 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 6:18)](https://support.mi
   
 3. Selecione **Editar DNS**.
     
-    ![Selecionar Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
+    ![Selecione Editar DNS](../../media/9d7c269f-48d1-442c-9d7b-63bd384a36a9.png)
   
-4. Selecione **Gerenciar Registros DNS Avançados.**
+4. Selecione **Gerenciar Registros DNS Avançados**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![Selecionar Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
+    ![Selecione Gerenciar Registros DNS Avançados](../../media/fd2956d6-eec3-47ea-b60a-266bab14f51f.png)
   
-5. Role para baixo até **a seção Serviço (Registros SRV)** e selecione **Editar Registros SRV.**
+5. Role até a seção **Serviço (Registros SRV)** e selecione **Editar Registros SRV**.
     
-    ![Selecionar Editar Registros SRV em Serviço](../../media/9a9248ea-5de5-4e16-9364-f7600fa371f5.png)
+    ![Selecione Editar Registros SRV em Serviço](../../media/9a9248ea-5de5-4e16-9364-f7600fa371f5.png)
   
 6. Nas caixas dos dois novos registros, digite ou copie e cole os valores da seguinte tabela.
     
@@ -320,19 +320,18 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 6:18)](https://support.mi
     
     |**Serviço**|**Protocolo**|**TTL**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
+    |_sip  <br/> |_tls  <br/> |3600  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |3600  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> |
        
     ![Digite ou colar valores para os novos registros](../../media/86968d1c-8e43-4e61-aeaa-37fc7d7ef7a7.png)
   
 7. Selecione **Continuar**.
     
-    ![Selecionar Continuar](../../media/bfe2c778-5d2b-4bb6-a79d-c3ff9caf9e1e.png)
+    ![Selecione Continuar](../../media/bfe2c778-5d2b-4bb6-a79d-c3ff9caf9e1e.png)
   
-8. Selecione **Salvar Alterações.**
+8. Selecione **Salvar Alterações**.
     
     ![Selecionar Salvar Alterações](../../media/6d323126-0ebe-45ab-8567-c234711d84c7.png)
   
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

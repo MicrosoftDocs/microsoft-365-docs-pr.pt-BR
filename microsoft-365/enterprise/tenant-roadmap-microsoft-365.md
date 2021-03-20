@@ -1,5 +1,5 @@
 ---
-title: Mapa de locatários do Microsoft 365
+title: Roteiro de locatários do Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,24 +14,24 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: O roteiro para configurar seus locatários para o Microsoft 365.
-ms.openlocfilehash: d2640a036eedda0b0962a15a03dcf0211ea0209b
-ms.sourcegitcommit: c84cceb07e748969723a31b350e37f3ec79255ab
+ms.openlocfilehash: fb3b6eecd893a5ab9b71bfa7bdfaea53af43470d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "48948392"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909449"
 ---
-# <a name="tenant-roadmap-for-microsoft-365"></a>Mapa de locatários do Microsoft 365
+# <a name="tenant-roadmap-for-microsoft-365"></a>Roteiro de locatários do Microsoft 365
 
-Seu locatário do Microsoft 365 é o conjunto de serviços atribuídos à sua organização. Normalmente, esse locatário é associado a um ou mais dos seus nomes de domínio DNS públicos e atua como um contêiner central e isolado para assinaturas diferentes e as licenças dentro deles que você atribui a contas de usuário. Para saber mais, confira [Assinaturas, licenças, contas e locatários para ofertas de nuvem da Microsoft.](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
+Seu locatário do Microsoft 365 é o conjunto de serviços atribuídos à sua organização. Normalmente, esse locatário está associado a um ou mais nomes de domínio DNS públicos e age como um contêiner central e isolado para assinaturas diferentes e as licenças dentro delas que você atribui a contas de usuário. Para obter mais informações, consulte [Assinaturas, licenças, contas e locatários para ofertas de nuvem da Microsoft.](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 
-Ao criar um locatário do Microsoft 365, você o atribui a uma localização geográfica específica. Você também pode ter um locatário com várias localizações geográficas e mover seu locatário de um local para outro.
+Ao criar um locatário do Microsoft 365, atribua-o a um local geográfico específico. Você também pode ter um locatário com várias localizações geográficas e mover seu locatário de um local para outro.
 
 Para preparar seu locatário para usuários, grupos, licenças e aplicativos de nuvem, é fundamental planejar e executar cuidadosamente a configuração do locatário.
 
-## <a name="set-up-your-microsoft-365-tenant"></a>Configurar seu locatário do Microsoft 365
+## <a name="set-up-your-microsoft-365-tenant"></a>Configure o locatário do Microsoft 365.
 
-Depois de garantir que sua rede seja otimizada para acessar o Microsoft 365 para funcionários locais e remotos, suas próximas grandes tarefas estão planejando e configurando seu locatário do Microsoft 365 para nomes de domínio DNS, serviços comuns e para essa infraestrutura de identidade que dá suporte à entrada segura do usuário.
+Depois de garantir que sua rede seja otimizada para acesso ao Microsoft 365 para funcionários locais e remotos, suas próximas grandes tarefas estão planejando e configurando seu locatário do Microsoft 365 para nomes de domínio DNS, serviços comuns e para essa infraestrutura de identidade que dá suporte à entrada segura do usuário.
 
 ### <a name="plan"></a>Planejar
 
@@ -43,21 +43,21 @@ Para planejar a implementação do locatário:
 - [Planejar o suporte ao aplicativo cliente](microsoft-365-client-support-certificate-based-authentication.md)
 - [Determinar como usar a autenticação moderna híbrida](hybrid-modern-auth-overview.md)
 - [Planejar atualizações do Office 2007 e do Office 2010](plan-upgrade-previous-versions-office.md)
-- [Compreender o isolamento do locatário](microsoft-365-tenant-isolation-overview.md)
+- [Compreender o isolamento de locatários](microsoft-365-tenant-isolation-overview.md)
 
 ### <a name="deploy"></a>Implantar
 
 Para implantar seu locatário: 
 
-- Adicione os [domínios DNS](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) para sua organização.
-- Use os [guias de configuração no centro de administração do Microsoft 365.](setup-guides-for-microsoft-365.md)
-- Crie sua [infraestrutura de identidade e](identity-roadmap-microsoft-365.md) proteja suas [ins loções de usuário.](microsoft-365-secure-sign-in.md)
+- Adicione os [domínios DNS](../admin/setup/add-domain.md) para sua organização.
+- Use as guias de instalação no Centro de administração [do Microsoft 365.](setup-guides-for-microsoft-365.md)
+- Crie sua infraestrutura [de identidade e](identity-roadmap-microsoft-365.md) proteja suas [insuportações do usuário.](microsoft-365-secure-sign-in.md)
 
-### <a name="move-a-tenants-geographic-locations"></a>Mover as localizações geográficas de um locatário
+### <a name="move-a-tenants-geographic-locations"></a>Mover locais geográficos de um locatário
 
-A Microsoft continua a abrir novas localizações geográficas do datacenter (geos) para os serviços do Microsoft 365. Essas novas áreas geográficas de datacenter adicionam capacidade e recursos de computação para dar suporte à demanda do cliente e ao crescimento do uso. Além disso, as novas áreas geográficas do datacenter oferecem residência de dados na área geográfica para dados principais do cliente.
+A Microsoft continua a abrir novas localizações geográficas do datacenter (geos) para os serviços do Microsoft 365. Esses novos geos do datacenter adicionam capacidade e recursos de computação para dar suporte à demanda do cliente e ao crescimento do uso. Além disso, os novos geos do datacenter oferecem residência de dados no geo para dados principais do cliente.
 
-Para saber mais, confira Movendo os dados principais para a nova área geográfica do [datacenter do Microsoft 365.](moving-data-to-new-datacenter-geos.md)
+Para obter mais informações, consulte Movendo dados principais para novas geos do [datacenter do Microsoft 365.](moving-data-to-new-datacenter-geos.md)
 
 
 ## <a name="deploy-microsoft-365-multi-geo"></a>Implantar o Microsoft 365 Multi-Geo
@@ -68,7 +68,7 @@ Para mais informações, consulte [Microsoft 365 Multi-Geo](microsoft-365-multi-
 
 ## <a name="manage-multiple-microsoft-365-tenants"></a>Gerenciar vários locatários do Microsoft 365 
 
-Embora ter um único locatário para sua organização seja ideal, você pode ser uma das muitas organizações que têm vários locatários. Os motivos podem incluir fusões e aquisições, você quer isolamento administrativo ou tem uma TI descentralizada.
+Embora ter um único locatário para sua oganização seja ideal, você pode ser uma das muitas organizações que têm vários locatários. Os motivos podem incluir fusões e aquisições, você deseja isolamento administrativo ou ter uma TI descentralizada.
 
 Se você tiver vários locatários do Microsoft 365, confira estes artigos para obter mais informações sobre:
 
@@ -78,4 +78,4 @@ Se você tiver vários locatários do Microsoft 365, confira estes artigos para 
 
 ## <a name="next-step"></a>Próxima etapa
 
-Inicie o planejamento de [locatários com assinaturas, licenças, contas e locatários.](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
+Inicie o planejamento de [locatários com Assinaturas, licenças, contas e locatários.](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)

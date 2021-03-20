@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Crie avaliações no Microsoft Compliance Manager para ajudá-lo a atender aos requisitos de regulamentos e certificações importantes para sua organização.
-ms.openlocfilehash: 06b644293c014dafbe46c115b498c2ad2390e99d
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: ff2aa41b91f3cb019dbed542c422d61c79c4ecb5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406753"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908591"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>Criar e gerenciar avaliações no Gerenciador de Conformidade
 
 **Neste artigo:** Saiba como personalizar o Gerenciador de Conformidade para sua organização criando e gerenciando **avaliações.** Este artigo orienta você sobre como criar avaliações, como organizá-las em **grupos,** trabalhar com **controles,** aceitar atualizações e exportar relatórios de **avaliação.**
 
 > [!IMPORTANT]
-> As avaliações disponíveis para sua organização dependem do contrato de licenciamento. [Revise os detalhes](https://go.microsoft.com/fwlink/?linkid=2132371).
+> As avaliações disponíveis para sua organização dependem do contrato de licenciamento. [Revise os detalhes](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="introduction-to-assessments"></a>Introdução às avaliações
 

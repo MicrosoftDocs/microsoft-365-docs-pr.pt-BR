@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 250fba7bdf89425bce601112c7863eb9d1c952be
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 3ba9dd3dac97456479b2191ee7f0eb7d97f79fed
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407439"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909041"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Investigação e resposta automatizadas (AIR) no Microsoft Defender para Office 365
 
@@ -108,10 +108,10 @@ O Microsoft 365 fornece muitas políticas de alerta internas que ajudam a identi
 
 As permissões são concedidas por meio de determinadas funções, como as descritas na tabela a seguir:
 
-|Tarefas|Função(s) obrigatório|
+|Tarefa|Função(s) obrigatório|
 |---|---|
-|Configurar recursos AIR|Uma das seguintes funções: <ul><li>Administrador Global</li><li>Administrador de Segurança</li></ul> <p> Essas funções podem ser atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança.](permissions-in-the-security-and-compliance-center.md)|
-|Iniciar uma investigação automatizada <p> ---ou--- <p> Aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança](permissions-in-the-security-and-compliance-center.md): <ul><li>Administrador Global</li><li>Administrador de Segurança</li><li>Operador de segurança</li><li>Leitor de segurança <br> ---e--- </li><li>Pesquisa e limpeza (essa função é atribuída somente no Centro de Conformidade e [Segurança & Segurança.](permissions-in-the-security-and-compliance-center.md) Talvez seja preciso criar um novo grupo de funções e adicionar a função Pesquisar e Limpar a esse novo grupo de funções.</li></ul>|
+|Configurar recursos AIR|Uma das seguintes funções: <ul><li>Administrador Global</li><li>Administrador de Segurança</li></ul> <p> Essas funções podem ser atribuídas no [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança.](permissions-in-the-security-and-compliance-center.md)|
+|Iniciar uma investigação automatizada <p> ---ou--- <p> Aprovar ou rejeitar ações recomendadas|Uma das seguintes funções, atribuídas no [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) ou no Centro de Conformidade & [Segurança](permissions-in-the-security-and-compliance-center.md): <ul><li>Administrador Global</li><li>Administrador de Segurança</li><li>Operador de segurança</li><li>Leitor de segurança <br> ---e--- </li><li>Pesquisa e limpeza (essa função é atribuída somente no Centro de Conformidade e [Segurança & Segurança.](permissions-in-the-security-and-compliance-center.md) Talvez seja preciso criar um novo grupo de funções e adicionar a função Pesquisar e Limpar a esse novo grupo de funções.</li></ul>|
 
 ## <a name="required-licenses"></a>Licenças necessárias
 
@@ -128,7 +128,7 @@ Se você já estiver usando recursos AIR no Microsoft Defender para Office 365, 
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Centro de Ações Unificadas":::
 
-O novo e aprimorado centro de segurança reúne recursos AIR no [Microsoft Defender para Office 365](office-365-atp.md) e no Microsoft Defender para Ponto de [Extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) Com essas atualizações e melhorias, sua equipe de operações de segurança poderá exibir detalhes sobre investigações automatizadas e ações de correção em seus emails, conteúdo de colaboração, contas de usuário e dispositivos, tudo em um só lugar.
+O novo e aprimorado centro de segurança reúne recursos AIR no [Microsoft Defender para Office 365](office-365-atp.md) e no Microsoft Defender para Ponto de [Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) Com essas atualizações e melhorias, sua equipe de operações de segurança poderá exibir detalhes sobre investigações automatizadas e ações de correção em seus emails, conteúdo de colaboração, contas de usuário e dispositivos, tudo em um só lugar.
 
 > [!TIP]
 > O novo centro de segurança do Microsoft 365 ( <https://security.microsoft.com> ) substitui os seguintes centros:
@@ -144,10 +144,10 @@ A tabela a seguir lista as alterações e melhorias que estão chegando ao AIR n
 
 |Item|O que está mudando?|
 |---|---|
-|**Página Investigações**|A página **de Investigações atualizada** é mais consistente com o que você vê no [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations). Você verá algumas alterações gerais de formato e estilo que se alinham ao novo modo de exibição **investigações unificadas.** Por exemplo, o gráfico de investigação tem um formato mais unificado.|
+|**Página Investigações**|A página **de Investigações atualizada** é mais consistente com o que você vê no [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/automated-investigations). Você verá algumas alterações gerais de formato e estilo que se alinham ao novo modo de exibição **investigações unificadas.** Por exemplo, o gráfico de investigação tem um formato mais unificado.|
 |**Guia Usuários**|A **guia Usuários** agora é a guia Caixas **de** Correio. Os detalhes sobre os usuários estão listados na guia **Caixa de** Correio.|
 |**Guia Email**|A **guia Email** foi removida; visite a **guia Entidades** para ver uma lista de itens de cluster de email e email.|
-|**Guia Entidades**|A **guia Entidades** tem um estilo tab-in-tab que inclui um exibição de resumo completo e a capacidade de filtrar por tipo de entidade. A **guia Entidades** agora inclui uma **opção Ir** para busca, além da opção Abrir no **Explorer.** Agora você pode usar o [Explorador de Ameaças](threat-explorer.md) ou a busca [avançada](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) para encontrar entidades e ameaças e filtrar os resultados.|
+|**Guia Entidades**|A **guia Entidades** tem um estilo tab-in-tab que inclui um exibição de resumo completo e a capacidade de filtrar por tipo de entidade. A **guia Entidades** agora inclui uma **opção Ir** para busca, além da opção Abrir no **Explorer.** Agora você pode usar o [Explorador de Ameaças](threat-explorer.md) ou a busca [avançada](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) para encontrar entidades e ameaças e filtrar os resultados.|
 |**Guia Ações**|A guia **Ações atualizada** agora inclui uma guia **Ações Pendentes** e uma guia **Histórico de** Ações. As ações podem ser aprovadas (ou rejeitadas) em um painel lateral que é aberto quando você seleciona uma ação pendente.|
 |**Guia Evidências**|Uma nova **guia Evidências** mostra as principais descobertas da entidade relacionadas às ações. As ações relacionadas a cada prova podem ser aprovadas (ou rejeitadas) em um painel lateral que é aberto quando você seleciona uma ação pendente.|
 |**Centro de ações**|O Centro **de Ações** atualizado ( ) reúne ações pendentes e concluídas em <https://security.microsoft.com/action-center> email, dispositivos e identidades. Para saber mais, confira Centro de ações. (Para saber mais, consulte [O Centro de Ações](../mtp/mtp-action-center.md).)|

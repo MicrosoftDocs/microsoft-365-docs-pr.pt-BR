@@ -18,41 +18,41 @@ ms.custom:
 search.appverid:
 - MET150
 description: Escolha entre diferentes métodos MDM e MAM.
-ms.openlocfilehash: 2866aa8cf172361b2b5f5055932717154cd6ddd1
-ms.sourcegitcommit: 36795a6735cd3fc678c7d5db71ddc97fac3f6f8a
+ms.openlocfilehash: c4928f272c0bdd8a7b6883f506cebf9a153e9c49
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48941292"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910529"
 ---
-# <a name="options-for-protecting-your-devices-and-app-data"></a>Opções para proteger seus dispositivos e dados de aplicativo
+# <a name="options-for-protecting-your-devices-and-app-data"></a>Opções para proteger seus dispositivos e dados do aplicativo
 
 Você tem várias maneiras de proteger seus dispositivos e dados de organizações com o Microsoft 365 para empresas e empresas. Você pode usar os seguintes planos autônomos:
 
-- Intune (uma parte do Gerenciamento de Pontos de Extremidade da Microsoft)
-- Planos do Azure Active Directory Premium.
-- Mobilidade Básica e Segurança (incluído na maioria dos planos do Microsoft 365 para empresas e empresas) ou use as assinaturas que incluem alguns ou todos os planos autônomos anteriores.
+- Intune (parte do Microsoft Endpoint Management)
+- Planos premium do Azure Active Directory.
+- Basic Mobility and Security (incluído na maioria dos planos corporativos e corporativos do Microsoft 365) Ou use as assinaturas que incluem alguns ou todos os planos autônomos anteriores.
 
 - Uma assinatura do Microsoft 365 Business Premium, que inclui proteção contra ameaças e segurança para pequenas empresas com menos de 300 usuários.
-- Planos do Microsoft 365 Enterprise que incluem segurança avançada e proteção contra ameaças.
+- Planos do Microsoft 365 Enterprise que incluem proteção avançada contra ameaças e segurança.
 
 ## <a name="device-management-options"></a>Opções de gerenciamento de dispositivos
 
-- A **Mobilidade Básica** e Segurança é oferecida com a maioria dos planos do Microsoft 365 e é a única opção interna oferecida para o Microsoft 365 Business Standard e o Microsoft 365 Business Basic. Para obter mais informações, [consulte a disponibilidade de Mobilidade Básica e Segurança.](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune) 
+- **O Basic Mobility and Security** é oferecido com a maioria dos planos do Microsoft 365 e é a única opção interna oferecida para o Microsoft 365 Business Standard e o Microsoft 365 Business Basic. Para obter mais informações, [consulte disponibilidade de Basic Mobility and Security](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune). 
 
     Se você tiver o Microsoft 365 Business Basic ou o Microsoft 365 Business Standard, também poderá comprar o Intune se sua organização tiver necessidades de segurança mais complexas.
  
-- **O Microsoft Intune** é um plano autônomo que também está incluído em alguns planos do Microsoft 365 para empresas ou corporativos. Se você tiver o Intune como autônomo ou parte de sua assinatura, ele fornece a capacidade de ajustar o gerenciamento de dados de aplicativo e dispositivo. Para saber mais sobre a disponibilidade com o Microsoft 365, [confira a disponibilidade do Intune.](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune)
+- **O Microsoft Intune** é um plano autônomo que também está incluído em alguns planos do Microsoft 365 para empresas ou empresas. Se você tiver o Intune como autônomo ou parte de sua assinatura, ele oferece capacidade de ajustar o gerenciamento de dados do dispositivo e do aplicativo. Para obter mais informações sobre disponibilidade com o Microsoft 365, consulte [availability of Intune](../basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md#availability-of-basic-mobility-and-security-and-intune).
 
-    O Microsoft Intune é um serviço baseado em nuvem que se concentra no gerenciamento de dispositivo móvel (MDM) e no gerenciamento de aplicativos móveis (MAM). Você controla como os dispositivos da sua organização são usados, incluindo celulares, tablets e laptops. Você também pode configurar políticas específicas para controlar aplicativos. Para obter mais informações, consulte a [documentação do Microsoft Intune.](https://docs.microsoft.com/mem/intune/)
+    O Microsoft Intune é um serviço baseado em nuvem que se concentra no gerenciamento de dispositivo móvel (MDM) e no gerenciamento de aplicativos móveis (MAM). Você controla como os dispositivos da sua organização são usados, incluindo telefones celulares, tablets e laptops. Você também pode configurar políticas específicas para controlar aplicativos. Para obter mais informações, consulte [Documentação do Microsoft Intune](/mem/intune/).
 
-- Os planos do **Azure Active Directory (AD) Premium** são planos autônomos que também vêm com alguns dos planos do Microsoft 365 para empresas e empresas. Para saber mais, confira [os preços do Azure AD.](https://azure.microsoft.com/pricing/details/active-directory/)
+- Os planos Premium do **Azure Active Directory (AD)** são planos autônomos que também vêm com alguns dos planos do Microsoft 365 para empresas e empresas. Para obter mais informações, consulte [Preços do Azure AD](https://azure.microsoft.com/pricing/details/active-directory/).
 
-     O Azure AD Premium P1 e o Azure AD Premium P2 permitem que você defina recursos de acesso condicional, redefinição de senha pessoal etc. Para saber mais sobre os recursos dos planos Premium, confira a página de preços [do Azure AD.](https://azure.microsoft.com/pricing/details/active-directory/)
-- **O Microsoft 365 Business Premium** inclui o Intune, o Azure Active Directory Premium P1 e a Proteção Avançada contra Ameaças do Office 365. 
+     O Azure AD Premium P1 e o Azure AD Premium P2 permitem definir recursos de acesso condicional, redefinição de senha de autoatendados, etc. Para obter mais informações sobre os recursos dos planos Premium, consulte a página preços do [Azure AD.](https://azure.microsoft.com/pricing/details/active-directory/)
+- **O Microsoft 365 Business Premium** inclui o Intune e o Azure Active Directory Premium P1 e a Proteção Avançada contra Ameaças do Office 365. 
  
-    O Microsoft 365 Business Premium oferece um conjunto de modelos de política para proteger seus dispositivos e dados de aplicativo. Ele oferece um bom nível de segurança e proteção contra ameaças para a maioria das empresas com menos de 300 usuários. Para saber mais, confira configurar o [Microsoft 365 Business Premium](../../business/set-up.md)no assistente de configuração, em computadores Windows [10](../../business/secure-win-10-pcs.md)seguros e nos recursos de segurança e conformidade do [Microsoft 365 Business Premium.](../../business/security-features.md)
+    O Microsoft 365 Business Premium oferece um conjunto de modelos de política para proteger seus dispositivos e dados do aplicativo. Ele oferece um bom nível de proteção contra ameaças e segurança para a maioria das empresas com menos de 300 usuários. Para obter mais informações, consulte configurar o [Microsoft 365 Business Premium](../../business/set-up.md)no assistente de configuração, proteger computadores windows [10](../../business/secure-win-10-pcs.md)e recursos de segurança e conformidade do [Microsoft 365 Business Premium.](../../business/security-features.md)
 
-- **As assinaturas do Microsoft 365** para empresas incluem o Microsoft Intune e o E5 também incluem os planos premium 1 e 2 do Azure AD.
+- **O Microsoft 365 para** assinaturas corporativas inclui o Microsoft Intune e o E5 também inclui os planos premium do Azure AD 1 e 2.
 
-    O Microsoft 365 E5 oferece o mais alto nível de segurança e proteção contra ameaças de todas as assinaturas do Microsoft 365. Para saber mais, confira [a visão geral do Microsoft 365 para empresas.](../../enterprise/microsoft-365-overview.md)
+    O Microsoft 365 E5 oferece o mais alto nível de proteção contra ameaças e segurança de todas as assinaturas do Microsoft 365. Para obter mais informações, consulte [Microsoft 365 for enterprise overview](../../enterprise/microsoft-365-overview.md).

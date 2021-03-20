@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no Site Crazy Domains para a Microsoft
+title: Criar registros DNS em Domínios Doidas para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6386d63e-b78f-4736-90e7-b99a2c116a9f
-description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Crazy Domains da Microsoft.
-ms.openlocfilehash: 4b39a51f96299879207b96d1e15d039905440b0a
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Crazy Domains para a Microsoft.
+ms.openlocfilehash: 425ecfa6f8b6c4085bdffb3d2701008ecb895b84
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658490"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910448"
 ---
-# <a name="create-dns-records-at-crazy-domains-for-microsoft"></a>Criar registros DNS no Site Crazy Domains para a Microsoft
+# <a name="create-dns-records-at-crazy-domains-for-microsoft"></a>Criar registros DNS em Domínios Doidas para a Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se você usa a Crazy Domains como provedor de hospedagem DNS, realize os procedimentos deste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
   
-Depois que você adicionar esses registros na Crazy Domains, seu domínio será definido para funcionar com os serviços Microsoft.
+Depois de adicionar esses registros em Domínios Doidas, seu domínio será definido para funcionar com os serviços da Microsoft.
   
 
   
@@ -53,7 +53,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     ![CrazyDomains-BP-Configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Na seção **Minha Conta,** selecione **Domínios.**
+2. Na seção **Minha Conta,** selecione **Domínios**.
     
     ![CrazyDomains-BP-Configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
@@ -61,11 +61,11 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     ![CrazyDomains-BP-Configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. Na seção Configurações de **DNS,** selecione o ícone da lista drop-down. 
+4. Na seção **Configurações de DNS,** selecione o ícone de lista lista listada. 
     
     ![CrazyDomains-BP-Configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
     
     ![CrazyDomains-BP-Configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
@@ -73,7 +73,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     ![CrazyDomains-BP-Verify-1-1](../../media/f0ffdefb-d7a5-47df-bb5e-bf8a3bcc9b01.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-Verify-1-2](../../media/b0cd623a-67f7-4bae-a5b5-507f5a106123.png)
   
@@ -120,7 +120,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Na seção **Minha Conta,** selecione **Domínios.**
+2. Na seção **Minha Conta,** selecione **Domínios**.
     
     ![CrazyDomains-BP-Configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
@@ -128,11 +128,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. Na seção Configurações de **DNS,** selecione o ícone da lista drop-down. 
+4. Na seção **Configurações de DNS,** selecione o ícone de lista lista listada. 
     
     ![CrazyDomains-BP-Configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
     
     ![CrazyDomains-BP-Configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
@@ -140,17 +140,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-2-1](../../media/63f7ab77-e686-4e7b-a3a2-1ac28a02d5f3.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-Configure-2-2](../../media/a60680a1-2513-498c-b42f-8ffa575ee48e.png)
   
 8. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
     
-    (Escolha o **valor Prioridade** na lista drop-down.) 
+    (Escolha o **valor Priority** na listada.) 
     
     |**Email para a zona**|**Prioridade**|**Atribuído a um servidor**|
     |:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Deixe este campo vazio.)  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu de sua conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
        
    ![CrazyDomains-BP-Configure-2-3](../../media/e27df6a6-19a6-4e58-9716-a74be1c3f8da.png)
   
@@ -179,7 +179,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Na seção **Minha Conta,** selecione **Domínios.**
+2. Na seção **Minha Conta,** selecione **Domínios**.
     
     ![CrazyDomains-BP-Configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
@@ -187,11 +187,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. Na seção Configurações de **DNS,** selecione o ícone da lista drop-down. 
+4. Na seção **Configurações de DNS,** selecione o ícone de lista lista listada. 
     
     ![CrazyDomains-BP-Configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
     
     ![CrazyDomains-BP-Configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
@@ -199,7 +199,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-3-1](../../media/2f02538b-fc79-46d2-a2b7-1022eaf0fb08.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-Configure-3-2](../../media/4c5929cf-1c21-4af9-899b-e36091f0f14d.png)
   
@@ -217,13 +217,13 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![CrazyDomains-BP-Configure-3-3](../../media/81a7b837-3f4d-4565-89a9-380e4d318acf.png)
   
-9. Selecione **Adicionar Registro CNAME.**
+9. Selecione **Adicionar Registro CNAME**.
     
     ![CrazyDomains-BP-Configure-3-4](../../media/9bcba729-7085-4ebc-8183-ecde82f5c364.png)
   
 10. Adicione o segundo registro CNAME.
     
-    In the boxes for the new record, use the values from the next row in the table, and then again select **Add CNAME Record**.
+    Nas caixas do novo registro, use os valores da próxima linha na tabela e selecione Adicionar **Registro CNAME novamente.**
     
     Repita esse processo até ter criado todos os seis registros CNAME.
     
@@ -241,7 +241,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Na seção **Minha Conta,** selecione **Domínios.**
+2. Na seção **Minha Conta,** selecione **Domínios**.
     
     ![CrazyDomains-BP-Configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
@@ -249,11 +249,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. Na seção Configurações de **DNS,** selecione o ícone da lista drop-down. 
+4. Na seção **Configurações de DNS,** selecione o ícone de lista lista listada. 
     
     ![CrazyDomains-BP-Configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
     
     ![CrazyDomains-BP-Configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
@@ -261,7 +261,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-4-1](../../media/7f2461e2-0468-49bd-9eb0-981e9b2f72d6.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-Configure-4-2](../../media/64ef9e1f-676d-46e2-9253-a83d9bcd1c4e.png)
   
@@ -284,7 +284,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-1-1](../../media/40c5117c-acad-4fe5-bf0d-d3c362b08a16.png)
   
-2. Na seção **Minha Conta,** selecione **Domínios.**
+2. Na seção **Minha Conta,** selecione **Domínios**.
     
     ![CrazyDomains-BP-Configure-1-2](../../media/778576c3-560e-4ffb-b3b4-bd92fc6a6bd4.png)
   
@@ -292,11 +292,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-1-3](../../media/4dd7bb74-c8ed-4b4a-b4c1-d9538fc6bd9a.png)
   
-4. Na seção Configurações de **DNS,** selecione o ícone da lista drop-down. 
+4. Na seção **Configurações de DNS,** selecione o ícone de lista lista listada. 
     
     ![CrazyDomains-BP-Configure-1-4-1](../../media/c7573fbf-467d-49c1-abb6-8c7b9b4af83d.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
     
     ![CrazyDomains-BP-Configure-1-4-2](../../media/7bef31f5-f180-4b61-a462-9326789e770f.png)
   
@@ -304,7 +304,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![CrazyDomains-BP-Configure-5-1](../../media/156acebc-7f6d-4b5e-8493-6bc62ca0ee27.png)
   
-7. Clique em **Adicionar**.
+7. Selecione **Adicionar**.
     
     ![CrazyDomains-BP-Configure-5-2](../../media/6a711df7-4215-49b2-b58f-1cf1a242b383.png)
   
@@ -314,12 +314,12 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo de Registro**|**Subdomínio**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |Registro SRV  <br/> |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |Registro SRV  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |Registro SRV  <br/> |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |Registro SRV  <br/> |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![CrazyDomains-BP-Configure-5-3](../../media/cc0ea6eb-7358-434e-bd1a-2737725c6d41.png)
   
-9. Selecione **Adicionar Registro SRV.**
+9. Selecione **Adicionar Registro SRV**.
     
     ![CrazyDomains-BP-Configure-5-4](../../media/de4ec312-6833-469a-b23a-f376140a35ca.png)
   
@@ -333,4 +333,3 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 > [!NOTE]
 > Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

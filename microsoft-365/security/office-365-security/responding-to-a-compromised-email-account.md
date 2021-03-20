@@ -20,12 +20,12 @@ search.appverid:
 description: Aprenda como reconhecer e responder a uma conta de e-mail comprometida no Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5dfb40c195cb9df9c8f2ac5d1cfbacdda022d416
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 774d96fb22bb13d4b4edcfab45f27ca9e52c5e88
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406719"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908825"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Responder a uma conta de email comprometida
 
@@ -102,7 +102,7 @@ Siga os procedimentos em [ Redefinir uma senha comercial para alguém ](../../ad
 >
 > - Se a sua identidade local for federada com o Microsoft 365, será necessário alterar sua senha no local e, em seguida, notificar o administrador sobre o comprometimento.
 >
-> - Certifique-se de atualizar as senhas do aplicativo. As senhas do aplicativo não são revogadas automaticamente quando a senha da conta do usuário é redefinida. O usuário deve excluir as senhas dos aplicativos existentes e criar novas. Para instruções, consulte [Criar e excluir senhas dos aplicativos na página Verificação adicional de segurança](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
+> - Certifique-se de atualizar as senhas do aplicativo. As senhas do aplicativo não são revogadas automaticamente quando a senha da conta do usuário é redefinida. O usuário deve excluir as senhas dos aplicativos existentes e criar novas. Para instruções, consulte [Criar e excluir senhas dos aplicativos na página Verificação adicional de segurança](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords#create-and-delete-app-passwords-from-the-additional-security-verification-page).
 >
 > - É altamente recomendável que você ative a Autenticação Multifator (MFA) para evitar comprometimentos, especialmente para contas com privilégios administrativos. Para saber mais sobre o MFA, acesse [Configurar autenticação multifator](../../admin/security-and-compliance/set-up-multi-factor-authentication.md).
 

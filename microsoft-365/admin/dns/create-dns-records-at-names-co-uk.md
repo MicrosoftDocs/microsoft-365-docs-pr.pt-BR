@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no Names.co.uk para Microsoft
+title: Criar registros DNS no Names.co.uk para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b6c15128-b456-49b4-8b5e-5b823c700f26
-description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em Names.co.uk para a Microsoft.
-ms.openlocfilehash: 51dc9b3271468d42e82f98a1b85de5104416b015
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços Names.co.uk para a Microsoft.
+ms.openlocfilehash: ddd7286d983a0f180c9aefdbf5218eb9765c8669
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657810"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910037"
 ---
-# <a name="create-dns-records-at-namescouk-for-microsoft"></a>Criar registros DNS no Names.co.uk para Microsoft
+# <a name="create-dns-records-at-namescouk-for-microsoft"></a>Criar registros DNS no Names.co.uk para a Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
 Se você usa a Names.co.uk como provedor de hospedagem DNS, siga as etapas deste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
     
-Depois que você adicionar esses registros no Names.co.uk, o domínio será configurado para funcionar com os serviços da Microsoft.
+Depois de adicionar esses registros Names.co.uk, seu domínio será definido para funcionar com os serviços da Microsoft.
   
 
   
@@ -51,19 +51,19 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
   
 1. Para começar, vá para a página de domínios em Names.co.uk usando [este link](https://account.names.co.uk/dashboard#/). Será solicitado que você faça logon primeiro.
     
-    ![NamesUK-BP-configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. On the **Dashboard** page, find the name of the domain that you are updating, and then choose **DNS Settings** from the drop-down list. 
     
     (You may have to scroll down.)
     
-    ![NamesUK-BP-configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
 3. On the **Add/Modify DNS Zone** page, in the **A, CNAME, AAAA, TXT and NS records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
     (Selecione o valor **Tipo** na lista suspensa.) 
     
-    (Se você precisar adicionar uma linha, selecione **adicionar registros a/CNAME (+)**.)
+    (Se precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
     
     (Pode ser necessário rolar para baixo.)
         
@@ -107,13 +107,13 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 
 1. Para começar, vá para a página de domínios em Names.co.uk usando [este link](https://account.names.co.uk/dashboard#/). Será solicitado que você faça logon primeiro.
     
-    ![NamesUK-BP-configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. On the **Dashboard** page, find the name of the domain that you are updating, and then choose **DNS Settings** from the drop-down list. 
     
     (You may have to scroll down.)
     
-    ![NamesUK-BP-configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
 3. Na página **Adicionar/Modificar Zona DNS**, na seção **Registros mail exchange**, digite ou copie e cole os valores nas caixas do novo registro, a partir da tabela a seguir. 
     
@@ -121,44 +121,44 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome do host**|**Prioridade**|**Resultado**|
     |:-----|:-----|:-----|
-    |(Deixe este campo vazio.)  <br/> |1   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]> acessar sua  *\<domain-key\>*  conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Deixe este campo vazio.)  <br/> |1  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]> Obter sua  *\<domain-key\>*  conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
        
-    ![NamesUK-BP-configure-2-1](../../media/e211d73d-864f-4114-864b-8e636c69f595.png)
+    ![NamesUK-BP-Configure-2-1](../../media/e211d73d-864f-4114-864b-8e636c69f595.png)
   
 4. Selecione **Salvar**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![NamesUK-BP-configure-2-2](../../media/01e6c801-daa2-40ca-84f9-dcac6422257c.png)
+    ![NamesUK-BP-Configure-2-2](../../media/01e6c801-daa2-40ca-84f9-dcac6422257c.png)
   
 5. Se houver outros registros MX listados na seção **Registros mail exchange**, selecione cada um deles e pressione a tecla **Delete** no teclado para excluí-los. 
     
-    ![NamesUK-BP-configure-2-3](../../media/f8e43926-b724-4690-94e7-ec4b8d7a8da5.png)
+    ![NamesUK-BP-Configure-2-3](../../media/f8e43926-b724-4690-94e7-ec4b8d7a8da5.png)
   
 6. Selecione **Salvar**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![NamesUK-BP-configure-2-4](../../media/cd705919-d0bd-408f-82be-b54e732cb05c.png)
+    ![NamesUK-BP-Configure-2-4](../../media/cd705919-d0bd-408f-82be-b54e732cb05c.png)
   
-## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Adicionar os seis registros CNAME necessários para o Microsoft
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Adicionar os seis registros CNAME necessários para a Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
 1. Para começar, vá para a página de domínios em Names.co.uk usando [este link](https://account.names.co.uk/dashboard#/). Será solicitado que você faça logon primeiro.
     
-    ![NamesUK-BP-configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. On the **Dashboard** page, find the name of the domain that you are updating, and then choose **DNS Settings** from the drop-down list. 
     
     (You may have to scroll down.)
     
-    ![NamesUK-BP-configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
 3. On the **Add/Modify DNS Zone** page, in the **A, CNAME, AAAA, TXT and NS records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
     (Selecione o valor **Tipo** na lista suspensa.) 
     
-    (Se você precisar adicionar uma linha, selecione **adicionar registros a/CNAME (+)**.)
+    (Se precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
     
     (Pode ser necessário rolar para baixo.)
     
@@ -170,37 +170,37 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |enterpriseregistration  <br/> |CNAME  <br/> |enterpriseregistration.windows.net  <br/> |
     |enterpriseenrollment  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
        
-    ![NamesUK-BP-configure-3-1](../../media/392772bf-2ed3-4959-9a9a-bb1611905e86.png)
+    ![NamesUK-BP-Configure-3-1](../../media/392772bf-2ed3-4959-9a9a-bb1611905e86.png)
   
 4. Selecione **Salvar**.
     
-    ![NamesUK-BP-configure-3-2](../../media/c009795e-7eef-4804-bf23-556f498306cc.png)
+    ![NamesUK-BP-Configure-3-2](../../media/c009795e-7eef-4804-bf23-556f498306cc.png)
   
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um  *único*  registro SPF que inclua os dois conjuntos de valores.
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro  *SPF*  que inclua ambos os conjuntos de valores.
   
 1. Para começar, vá para a página de domínios em Names.co.uk usando [este link](https://account.names.co.uk/dashboard#/). Será solicitado que você faça logon primeiro.
     
-    ![NamesUK-BP-configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. On the **Dashboard** page, find the name of the domain that you are updating, and then choose **DNS Settings** from the drop-down list. 
     
     (You may have to scroll down.)
     
-    ![NamesUK-BP-configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
-3. Na página **zonas DNS na conta** , na coluna **nome do domínio** , selecione o nome do domínio que você está atualizando. 
+3. Na página **Zonas DNS na Conta,** na coluna **Nome de** domínio, selecione o nome do domínio que você está atualizando. 
     
-    ![NamesUK-BP-configure-1-2-1](../../media/20254eec-6952-47ba-b12b-da32860ee7ef.png)
+    ![NamesUK-BP-Configure-1-2-1](../../media/20254eec-6952-47ba-b12b-da32860ee7ef.png)
   
 4. On the **Add/Modify DNS Zone** page, in the **A, CNAME, AAAA, TXT and NS records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
     (Selecione o valor **Tipo** na lista suspensa.) 
     
-    (Se você precisar adicionar uma linha, selecione **adicionar registros a/CNAME (+)**.)
+    (Se precisar adicionar uma linha, selecione **ADICIONAR REGISTROS A/CNAME (+)**.)
     
     (Pode ser necessário rolar para baixo.)
     
@@ -208,26 +208,26 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     |:-----|:-----|:-----|
     |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
        
-    ![NamesUK-BP-configure-4-1](../../media/cfc61387-630e-4aa0-8762-ef36eaeda44a.png)
+    ![NamesUK-BP-Configure-4-1](../../media/cfc61387-630e-4aa0-8762-ef36eaeda44a.png)
   
 5. Selecione **Salvar**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![NamesUK-BP-configure-4-2](../../media/b4d445a1-09c0-46c3-8141-672cc2831a9b.png)
+    ![NamesUK-BP-Configure-4-2](../../media/b4d445a1-09c0-46c3-8141-672cc2831a9b.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para a Microsoft
 <a name="BKMK_add_SRV"> </a>
 
 1. Para começar, vá para a página de domínios em Names.co.uk usando [este link](https://account.names.co.uk/dashboard#/). Será solicitado que você faça logon primeiro.
     
-    ![NamesUK-BP-configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
+    ![NamesUK-BP-Configure-1-1](../../media/e5cd0e0c-57f9-4b3d-b1c2-0d6b260f5524.png)
   
 2. On the **Dashboard** page, find the name of the domain that you are updating, and then choose **DNS Settings** from the drop-down list. 
     
     (You may have to scroll down.)
     
-    ![NamesUK-BP-configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
+    ![NamesUK-BP-Configure-1-2](../../media/b618f8e5-404e-466a-9e71-acd7479f3994.png)
   
 3. Na página **Adicionar/Modificar Zona DNS**, na seção **Registros de serviço**, digite ou copie e cole os valores da tabela a seguir nas caixas do novo registro. 
     
@@ -235,17 +235,16 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Nome**|**Prioridade**|**Espessura**|**Porta**|**Resultado**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip._tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls._tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip._tls  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
-    ![NamesUK-BP-configure-5-1](../../media/97a96523-005a-4058-9e12-19f6c3bf9b3b.png)
+    ![NamesUK-BP-Configure-5-1](../../media/97a96523-005a-4058-9e12-19f6c3bf9b3b.png)
   
 4. Selecione **Salvar**.
     
     (Pode ser necessário rolar para baixo.)
     
-    ![NamesUK-BP-configure-5-2](../../media/bb617a5f-14f9-44b7-9256-bdef34d22d6b.png)
+    ![NamesUK-BP-Configure-5-2](../../media/bb617a5f-14f9-44b7-9256-bdef34d22d6b.png)
   
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

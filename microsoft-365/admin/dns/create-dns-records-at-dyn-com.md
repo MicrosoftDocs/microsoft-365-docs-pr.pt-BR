@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 34e57a00-2a7d-469c-beec-089423f18369
-description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no Dyn.com para a Microsoft.
-ms.openlocfilehash: d1b77d6b4f38dd3e0979f448a77b293564841f45
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços Dyn.com para a Microsoft.
+ms.openlocfilehash: 432dc630d49cc3494d17b3f007f813d66dc6b1c3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657931"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910325"
 ---
 # <a name="create-dns-records-at-dyncom-for-microsoft"></a>Criar registros DNS no Dyn.com para a Microsoft
 
@@ -48,9 +48,9 @@ Se você usa a Dyn.com como provedor de hospedagem DNS, siga as etapas deste art
   
 2. Na página **Serviços de Nível de Zona,** selecione **Dyn Standard DNS Service** para o domínio que você deseja editar. 
     
-3. Na página **DNS** do seu domínio, selecione **Preferências.**
+3. Na página **DNS** do seu domínio, selecione **Preferências**.
     
-4. Selecione **Habilitar Interface especializada.**
+4. Selecione **Habilitar Interface de Especialista**.
     
 5. In the **Add DNS Record** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -62,7 +62,7 @@ Se você usa a Dyn.com como provedor de hospedagem DNS, siga as etapas deste art
        
    ![Dyn-BP-Verify-1-1](../../media/b3730b15-a313-4b4c-b91e-646eebb649e8.png)
   
-6. Selecione **Criar Registro.**
+6. Selecione **Criar Registro**.
     
     ![Dyn-BP-Verify-1-2](../../media/8b63b4ee-dbd7-44a7-b1e6-c6892b02f13e.png)
   
@@ -99,9 +99,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 2. Na página **Serviços de Nível de Zona,** selecione **Dyn Standard DNS Service** para o domínio que você deseja editar. 
     
-3. Na página DNS do seu domínio, selecione **Preferências.**
+3. Na página DNS do seu domínio, selecione **Preferências**.
     
-4. Selecione **Habilitar Interface especializada.**
+4. Selecione **Habilitar Interface de Especialista**.
     
 5. In the **Add DNS Record** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -109,11 +109,11 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Host**|**TTL**|**Tipo**|**Dados**|
     |:-----|:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |600  <br/> |MX  <br/> |10  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> O **10** é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)      <br>    Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |(Leave this field empty.)  <br/> |600  <br/> |MX  <br/> |10  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> O **10** é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Observação:** Obter o  *\<domain-key\>*  seu de sua conta da Microsoft.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)      <br>    Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> |
    
     ![Dyn-BP-Configure-2-1](../../media/62ac77b7-c84d-426d-9ec4-a28d6479ad04.png)
   
-6. Selecione **Criar Registro.**
+6. Selecione **Criar Registro**.
     
     ![Dyn-BP-Configure-2-2](../../media/e84e2cca-75e3-4584-8a98-f2f89cb71bd3.png)
   
@@ -121,7 +121,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![flores e texto](../../media/f24f02cc-c0b7-42cf-a2ff-4d0fc203e4de.png)
   
-8. Selecione **Aplicar Alterações.**
+8. Selecione **Aplicar Alterações**.
     
     ![Dyn-BP-Configure-2-4](../../media/0cc23c2b-b6f2-4f58-af20-4c6506de7b43.png)
   
@@ -134,9 +134,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 2. Na página **Serviços de Nível de Zona,** selecione **Dyn Standard DNS Service** para o domínio que você deseja editar. 
     
-3. Na página **DNS** do seu domínio, selecione **Preferências.**
+3. Na página **DNS** do seu domínio, selecione **Preferências**.
     
-4. Selecione **Habilitar Interface especializada.**
+4. Selecione **Habilitar Interface de Especialista**.
     
 5. Adicione o primeiro dos seis registros CNAME.
     
@@ -154,13 +154,13 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![Dyn-BP-Configure-3-1](../../media/1fd80695-d3d7-4298-9ebe-97a69f46f1b2.png)
   
-6. Selecione **Criar Registro.**
+6. Selecione **Criar Registro**.
     
     ![Dyn-BP-Configure-3-2](../../media/89551495-3fa5-44ab-96b2-855f70be0880.png)
   
 7. Adicione os cinco registros CNAME restantes.
     
-    Na seção **Adicionar Registro DNS,** crie um registro usando os valores da próxima  linha na tabela e selecione Criar Registro novamente para concluir esse registro. 
+    Na seção **Adicionar Registro DNS,** crie um registro usando os valores da próxima linha da tabela e selecione Criar **Registro** novamente para concluir esse registro. 
     
     Repita esse processo até ter criado todos os seis registros CNAME.
     
@@ -176,9 +176,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 2. Na página **Serviços de Nível de Zona,** selecione **Dyn Standard DNS Service** para o domínio que você deseja editar. 
     
-3. Na página **DNS** do seu domínio, selecione **Preferências.**
+3. Na página **DNS** do seu domínio, selecione **Preferências**.
     
-4. Selecione **Habilitar Interface especializada.**
+4. Selecione **Habilitar Interface de Especialista**.
     
 5. In the **Add DNS Record** section, in the boxes for the new record, type or copy and paste the values from the following table. 
     
@@ -190,7 +190,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![Dyn-BP-Configure-4-1](../../media/f8511349-3ea2-40c3-9853-98e1a58a91b5.png)
   
-6. Selecione **Criar Registro.**
+6. Selecione **Criar Registro**.
     
     ![Campo de vários valores](../../media/bbe04835-d3c0-4146-8123-9781bb9eca51.png)
   
@@ -203,9 +203,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 2. Na página **Serviços de Nível de Zona,** selecione **Dyn Standard DNS Service** para o domínio que você deseja editar. 
     
-3. Na página **DNS** do seu domínio, selecione **Preferências.**
+3. Na página **DNS** do seu domínio, selecione **Preferências**.
     
-4. Selecione **Habilitar Interface especializada.**
+4. Selecione **Habilitar Interface de Especialista**.
     
 5. Adicione o primeiro dos dois registros SRV.
     
@@ -220,14 +220,13 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
     ![Dyn-BP-Configure-5-1](../../media/a6873411-f4ce-4327-9145-02d435930976.png)
   
-6. Selecione **Criar Registro.**
+6. Selecione **Criar Registro**.
     
     ![configurar opções de vídeo](../../media/e6f33452-e527-473b-a645-b31ed70b0d43.png)
   
 7. Adicione o outro registro SRV.
     
-    Na seção **Adicionar Registro DNS,** crie um registro usando os valores da segunda  linha na tabela e selecione Criar Registro novamente para concluir esse registro. 
+    Na seção **Adicionar Registro DNS,** crie um registro usando os valores da segunda linha da tabela e selecione Criar **Registro** novamente para concluir esse registro. 
     
 > [!NOTE]
 >  Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

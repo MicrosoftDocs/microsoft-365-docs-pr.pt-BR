@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0db29490-2612-48bc-9b77-1862e7a41a8c
 description: Aprenda a verificar seu domínio e a configurar registros DNS para emails, Lync e outros serviços no Google Domains para a Microsoft.
-ms.openlocfilehash: a20b08d92814865cee5b169cb435b898a6b068ac
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: 9a1d0a8513f6071a3c9c686c10f6fd282f1a0e96
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657858"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910217"
 ---
 # <a name="create-dns-records-at-google-domains-for-microsoft"></a>Criar registros DNS no site Google Domains para a Microsoft
 
@@ -120,7 +120,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Name**|**Tipo**|**TTL**|**Dados**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1H  <br/> |0  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> O **0** é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Observação:** Obtenha a sua \<*domain-key*\> através da sua conta Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |@  <br/> |MX  <br/> |1H  <br/> |0  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> O **0** é o valor de prioridade de MX. Adicione-o ao início do valor de MX, separado do restante do valor por um espaço.  <br/> **Observação:** Obtenha a sua \<*domain-key*\> através da sua conta Microsoft.  [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> |
    
     ![Digite ou cole os valores na seção de registros de recurso personalizado](../../media/b660ca9e-984d-449f-ae59-a65fe4e2c6bd.png)
   
@@ -181,7 +181,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar registro TXT à SPF para ajudar a evitar spam de email
 
 > [!IMPORTANT]
-> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
+> Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro SPF que inclua os dois conjuntos de valores. Precisa de exemplos? Confira os [Registros do Sistema de Nomes de Domínios externos para a Microsoft](../../enterprise/external-domain-name-system-records.md#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.yml). 
   
 1. Para iniciar, vá até a página do seu domínio no Google Domains usando [este link](https://domains.google.com/registrar). Você será solicitado a entrar. Para fazer isso:
     
@@ -257,4 +257,3 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     > [!NOTE]
     > Typically it takes about 15 minutes for DNS changes to take effect. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de e-mails ou de outro tipo após adicionar os registros DNS, consulte [Localizar e corrigir problemas ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

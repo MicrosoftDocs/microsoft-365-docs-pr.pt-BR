@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender sobre as opções de relatório de lixo eletrônico, não lixo eletrônico e phishing no Outlook para iOS e Android.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e6e63f534a9f9516c6e1a87ff82d5b0916d25778
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: eda0d8d43244834236a70374df6b7d6ccf0b69ab
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509321"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908806"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a>Relatar lixo eletrônico e email de phishing no Outlook para iOS e Android no Exchange Online
 
@@ -37,7 +37,7 @@ Nas organizações do Microsoft 365 com caixas de correio [](../../enterprise/hy
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar
 
-- Para a melhor experiência de envio de usuário, recomendamos usar a Mensagem de Relatório e os complementos de Phishing de Relatório. Consulte [Habilitar](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in) o complemento Mensagem de Relatório e [Habilitar o add-in de Phishing de Relatório](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-phish-add-in) para obter mais informações.
+- Para a melhor experiência de envio de usuário, recomendamos usar a Mensagem de Relatório e os complementos de Phishing de Relatório. Consulte [Habilitar](./enable-the-report-message-add-in.md) o complemento Mensagem de Relatório e [Habilitar o add-in de Phishing de Relatório](./enable-the-report-phish-add-in.md) para obter mais informações.
 
 - Se você for um administrador em uma organização com caixas de correio do Exchange Online, recomendamos que você use o portal Envios no Centro de Conformidade & Segurança. Para obter mais informações, [consulte Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).
 

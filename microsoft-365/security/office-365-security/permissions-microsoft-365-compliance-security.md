@@ -19,12 +19,12 @@ description: Usando a central de segurança do Microsoft 365 ou o centro de conf
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 55030813ecddedd5661602fddea59f6bf3a8b03a
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 986b6e296304470993a37c17a115182bb5e1d77f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290782"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908873"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Permissões novo centro de segurança do Microsoft 365 e no centro de conformidade do Microsoft 365
 
@@ -47,20 +47,20 @@ As funções que aparecem no centro de conformidade do Microsoft 365 e no centro
 
 |Função|Descrição|
 |---|---|
-|**Administrador global**|Acesso a todos os recursos administrativos em todos os serviços do Microsoft 365. Somente os administradores globais podem atribuir outras funções de administrador. Para saber mais, confira [administrador global/administrador da empresa](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#global-administrator--company-administrator).|
-|**Administrador de dados de conformidade**|Acompanhe os dados da sua organização no Microsoft 365, certifique-se de que estejam protegidos e obtenha insights sobre quaisquer problemas para ajudar a atenuar os riscos. Para obter mais informações, confira o [Administrador de Dados de Conformidade](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#compliance-data-administrator).|
-|**Administrador de conformidade**|Ajude sua organização a se manter em conformidade com quaisquer requisitos regulatórios, gerenciar casos de descoberta eletrônica e manter políticas de governança de dados em locais, identidades e aplicativos do Microsoft 365. Para saber mais, confira o [Administrador de Conformidade](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#compliance-administrator).|
-|**Operador de segurança**|Exibir, investigar e responder a ameaças ativas a seus usuários, dispositivos e conteúdo da Microsoft 365. Para obter mais informações, confira [Operador de Segurança](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#security-operator).|
-|**Leitor de segurança**|Exibir e investigar ameaças ativas a seus usuários, dispositivos e conteúdo da Microsoft 365, mas (diferentemente do Operador de segurança) não têm permissões para responder executando uma ação. Para obter mais informações, confira o [Leitor de Segurança](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#security-reader).|
-|**Administrador de segurança**|Controle a segurança global da sua organização, gerenciando políticas de segurança, analisando análises e relatórios de segurança em produtos da Microsoft 365 e ficando sempre atualizado sobre o panorama das ameaças. Para obter mais informações, confira a[Segurança do Administrador](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#security-administrator).|
-|**Leitor global**|A versão somente leitura do **Administrador Global**. Exibir todas as configurações e informações administrativas no Microsoft 365. Para saber mais, confira [Leitor Global](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#global-reader)..|
+|**Administrador global**|Acesso a todos os recursos administrativos em todos os serviços do Microsoft 365. Somente os administradores globais podem atribuir outras funções de administrador. Para saber mais, confira [administrador global/administrador da empresa](/azure/active-directory/roles/permissions-reference#global-administrator--company-administrator).|
+|**Administrador de dados de conformidade**|Acompanhe os dados da sua organização no Microsoft 365, certifique-se de que estejam protegidos e obtenha insights sobre quaisquer problemas para ajudar a atenuar os riscos. Para obter mais informações, confira o [Administrador de Dados de Conformidade](/azure/active-directory/roles/permissions-reference#compliance-data-administrator).|
+|**Administrador de conformidade**|Ajude sua organização a se manter em conformidade com quaisquer requisitos regulatórios, gerenciar casos de descoberta eletrônica e manter políticas de governança de dados em locais, identidades e aplicativos do Microsoft 365. Para saber mais, confira o [Administrador de Conformidade](/azure/active-directory/roles/permissions-reference#compliance-administrator).|
+|**Operador de segurança**|Exibir, investigar e responder a ameaças ativas a seus usuários, dispositivos e conteúdo da Microsoft 365. Para obter mais informações, confira [Operador de Segurança](/azure/active-directory/roles/permissions-reference#security-operator).|
+|**Leitor de segurança**|Exibir e investigar ameaças ativas a seus usuários, dispositivos e conteúdo da Microsoft 365, mas (diferentemente do Operador de segurança) não têm permissões para responder executando uma ação. Para obter mais informações, confira o [Leitor de Segurança](/azure/active-directory/roles/permissions-reference#security-reader).|
+|**Administrador de segurança**|Controle a segurança global da sua organização, gerenciando políticas de segurança, analisando análises e relatórios de segurança em produtos da Microsoft 365 e ficando sempre atualizado sobre o panorama das ameaças. Para obter mais informações, confira a[Segurança do Administrador](/azure/active-directory/roles/permissions-reference#security-administrator).|
+|**Leitor global**|A versão somente leitura do **Administrador Global**. Exibir todas as configurações e informações administrativas no Microsoft 365. Para saber mais, confira [Leitor Global](/azure/active-directory/roles/permissions-reference#global-reader)..|
 |
 
 ## <a name="global-administrators-can-manage-roles-in-azure-active-directory"></a>Os administradores globais podem gerenciar as funções no Azure Active Directory
 
 No centro de conformidade do Microsoft 365 e no centro de segurança do Microsoft 365, ao selecionar uma função, você pode exibir suas tarefas. No entanto, para gerenciar essas tarefas, você precisa ir para o Azure Active Directory.
 
-Para saber mais informações, consulte [Exibir e atribuir funções de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
+Para saber mais informações, consulte [Exibir e atribuir funções de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ![Vincular permissões no Azure Active Directory](../../media/permissions-manage-in-azure-ad-link.png)
 
@@ -87,20 +87,20 @@ Ao atribuir um usuário a uma das funções de administrador de conformidade ou 
 |Serviço Microsoft 365|Informações sobre a função|
 |---|---|
 |Funções de administrador no Office 365 e Microsoft 365 para planos de negócios|[Funções de administrador do Microsoft 365](../../admin/add-users/about-admin-roles.md)|
-|Azure AD (Azure Active Directory) e Azure AD Identity Protection|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|O que é o Microsoft Defender para Identidade?|[grupos de funções do Microsoft Defender para Identidade](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
-|Proteção de Informações do Azure|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Azure AD (Azure Active Directory) e Azure AD Identity Protection|[Funções de administrador do Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|O que é o Microsoft Defender para Identidade?|[grupos de funções do Microsoft Defender para Identidade](/azure-advanced-threat-protection/atp-role-groups)|
+|Proteção de Informações do Azure|[Funções de administrador do Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Gerente de Conformidade|[Gerenciador de Conformidade](../../compliance/compliance-manager-setup.md#set-user-permissions-and-assign-roles)|
-|Exchange Online|[Controle de acesso baseado em função do Exchange](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)|
-|Intune|[Controle de acesso baseado em função do Intune](https://docs.microsoft.com/intune/role-based-access-control)|
-|Área de trabalho gerenciada|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Microsoft Cloud App Security|[Controle de acesso baseado em função](https://docs.microsoft.com/cloud-app-security/manage-admins)|
+|Exchange Online|[Controle de acesso baseado em função do Exchange](/exchange/permissions-exo/permissions-exo)|
+|Intune|[Controle de acesso baseado em função do Intune](/intune/role-based-access-control)|
+|Área de trabalho gerenciada|[Funções de administrador do Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Microsoft Cloud App Security|[Controle de acesso baseado em função](/cloud-app-security/manage-admins)|
 |Centro de conformidade e segurança|[Funções de administrador do Microsoft 365](permissions-in-the-security-and-compliance-center.md)|
-|Privileged Identity Management|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Classificação de Segurança|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|SharePoint Online|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Sobre a função de administrador do SharePoint no Office 365](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)|
-|Equipes/Skype for Business|[Funções de administrador do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Microsoft Defender para Ponto de Extremidade|[Controle de acesso baseado na função do Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)|
+|Privileged Identity Management|[Funções de administrador do Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Classificação de Segurança|[Funções de administrador do Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|SharePoint Online|[Funções de administrador do Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <p> [Sobre a função de administrador do SharePoint no Office 365](/sharepoint/sharepoint-admin-role)|
+|Equipes/Skype for Business|[Funções de administrador do Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Microsoft Defender para Ponto de Extremidade|[Controle de acesso baseado na função do Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)|
 |
 
 ## <a name="coming-soon"></a>Em breve

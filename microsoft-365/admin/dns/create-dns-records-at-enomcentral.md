@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS na eNomCentral para a Microsoft
+title: Criar registros DNS no eNomCentral para a Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a6626053-a9c8-445b-81ee-eeb6672fae77
-description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços na eNomCentral para Microsoft.
-ms.openlocfilehash: e6e05b987a893da582ea7fb062eafe421861b970
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no eNomCentral para Microsoft.
+ms.openlocfilehash: 528659667ee062c8cf767bed0989558020032924
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49658106"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910361"
 ---
-# <a name="create-dns-records-at-enomcentral-for-microsoft"></a>Criar registros DNS na eNomCentral para a Microsoft
+# <a name="create-dns-records-at-enomcentral-for-microsoft"></a>Criar registros DNS no eNomCentral para a Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**.
 
 Se você usa a eNomCentral como provedor de hospedagem DNS, siga as etapas neste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
 
-Depois que você adicionar esses registros na eNomCentral, seu domínio será definido para funcionar com os serviços Microsoft.
+Depois de adicionar esses registros no eNomCentral, seu domínio será definido para funcionar com os serviços da Microsoft.
 
 > [!NOTE]
 > Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md).
@@ -63,7 +63,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 0:46)](https://support.mi
 
 4. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
 
-   Escolha o **valor de Tipo** de Registro na lista drop-down.
+   Escolha o **valor Tipo** de Registro na lista lista listada.
 
    |Nome de Host|Record Type|Endereço|
    |---|---|---|
@@ -117,7 +117,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:40)](https://support.mi
 
    |Nome de Host|Endereço|Pref|
    |---|---|---|
-   |@| *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)|10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)|
+   |@| *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)** <br/> **Observação:** Obter o  *\<domain-key\>*  seu de sua conta da Microsoft. [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)|10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml)|
 
    ![eNom-BP-Configure-2-1](../../media/c32e8954-8209-4f77-a3a8-4b7aeea325d5.png)
 
@@ -129,7 +129,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 3:40)](https://support.mi
 
    ![eNom-BP-Configure-2-3](../../media/5017ed03-ca76-4c5c-93a7-84ffe24125dc.png)
 
-8. Selecione **excluir marcada.**
+8. Selecione **excluir verificado**.
 
    ![eNom-BP-Configure-2-4](../../media/072dc039-bddb-4c1f-bb44-5660e77f14b0.png)
 
@@ -150,13 +150,13 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 4:24)](https://support.mi
 
    ![eNom-BP-Configure-1-5](../../media/c92c514c-8166-4cba-97e3-ee1d9847d255.png)
 
-4. Selecione **nova linha.**
+4. Selecione **nova linha**.
 
    ![eNom-BP-Configure-3-1](../../media/a30f0a88-7b09-411e-9133-e7965bcf1de0.png)
 
 5. Nas caixas dos seis novos registros, digite ou copie e cole os seguintes valores.
 
-   Escolha o **valor de Tipo** de Registro na lista drop-down.
+   Escolha o **valor Tipo** de Registro na lista lista listada.
 
    |Nome de Host|Record Type|Endereço|
    |---|---|---|
@@ -194,7 +194,7 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:12)](https://support.mi
 
 4. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
 
-   Escolha o **valor de Tipo** de Registro na lista drop-down.
+   Escolha o **valor Tipo** de Registro na lista lista listada.
 
    |Nome de Host|Record Type|Endereço|
    |---|---|---|
@@ -223,16 +223,16 @@ Siga as etapas abaixo ou [assista ao vídeo (inicia em 5:50)](https://support.mi
 
    ![eNom-BP-Configure-1-5](../../media/c92c514c-8166-4cba-97e3-ee1d9847d255.png)
 
-4. À direita da nova **linha, selecione** **adicionar registro SRV ou SPF.**
+4. À direita da nova **linha,** selecione **adicionar registro SRV ou SPF**.
 
    ![eNom-BP-Configure-5-1](../../media/c73c154d-5aa0-41ef-be25-f43129eb178c.png)
 
 5. Nas caixas dos dois novos registros, digite ou copie e cole os valores da seguinte tabela.
 
-   |Serviço|Protocolo|Priority|Peso|Porta|Destino (Nome do host)|
+   |Serviço|Protocolo|Priority|Peso|Porta|Destino (Nomedo Host)|
    |---|---|---|---|---|---|
-   |_sip|_tls|100|1 |443|sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)**|
-   |_sipfederationtls|_tcp|100|1 |5061|sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)**|
+   |_sip|_tls|100|1|443|sipdir.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)**|
+   |_sipfederationtls|_tcp|100|1|5061|sipfed.online.lync.com.  <br/> **Este valor deve OBRIGATORIAMENTE terminar com um ponto (.)**|
 
    ![eNom-BP-Configure-5-2](../../media/4d478f40-780f-43b9-940b-712b09da8c63.png)
 

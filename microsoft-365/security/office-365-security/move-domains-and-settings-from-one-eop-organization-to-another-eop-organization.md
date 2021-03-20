@@ -12,28 +12,28 @@ localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá a mover domínios e configurações de uma organização do Microsoft Exchange Online Protection (EOP) (locatário) para outra.
+description: Neste artigo, você aprenderá a mover domínios e configurações de uma organização Microsoft Exchange Online Protection (EOP) (locatário) para outra.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 42a212c1826f63f9e7ed8395fe1d6b6564625b7b
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 4a9209f71905a858bb631a3c2901b7bfa62551d7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287768"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909053"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Mover domínios e configurações de uma organização do EOP para outra
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Aplica-se a**
--  [Proteção do Exchange Online autônoma](exchange-online-protection-overview.md)
+-  [Proteção autônoma do Exchange Online](exchange-online-protection-overview.md)
 
 A alteração de requisitos comerciais, às vezes, pode exigir a divisão de uma organização (locatário) Microsoft Proteção do Exchange Online (EOP) em duas organizações separadas, mesclando duas organizações em uma ou movendo os domínios e as configurações de EOP de uma organização para outra. Mover de uma organização EOP para uma segunda organização EOP pode ser desafiador, mas com alguns scripts remotos básicos do Windows PowerShell e um pouco de preparação, isso pode ser obtido com uma janela de manutenção relativamente pequena.
 
 > [!NOTE]
 >
-> - As configurações podem ser movidas com segurança somente a partir de uma organização EOP independente (padrão) para outra EOP Padrão ou um Exchange Enterprise CAL com a organização de serviços (EOP Premium), ou de uma organização EOP Premium a outra organização EOP Premium. Como alguns recursos premium não são suportados em organizações EOP Standard, a movimentação de uma organização EOP Premium para uma organização EOP Standard pode não ser bem-sucedida.
+> - As configurações podem ser movidas com segurança somente a partir de uma organização EOP independente (padrão) para outra EOP Padrão ou um Exchange Enterprise CAL com a organização de serviços (EOP Premium), ou de uma organização EOP Premium a outra organização EOP Premium. Como alguns recursos premium não são suportados em organizações EOP Standard, as movimentações de uma organização do EOP Premium para uma organização padrão do EOP podem não ser bem-sucedidas.
 >
 > - Estas instruções se aplicam a organizações  somente filtragem de EOP. Há considerações adicionais ao mudar de uma organização do Exchange Online para outra organização do Exchange Online. As organizações do Exchange Online estão fora do escopo destas instruções.
 
@@ -59,13 +59,13 @@ Para recriar a organização de origem na organização de destino, verifique se
 - Regras de fluxo de emails (também conhecidas como regras de transporte)
 
   > [!NOTE]
-  > No momento, o suporte a cmdlets para exportação e importação da coleção de regras de fluxo de emails só tem suporte para planos de assinatura EOP Premium.
+  > Atualmente, o suporte a cmdlets para exportação e importação da coleção de regras de fluxo de emails só é suportado para planos de assinatura do EOP Premium.
 
-A maneira mais fácil de coletar todas as suas configurações é usar o PowerShell. Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+A maneira mais fácil de coletar todas as configurações é usar o PowerShell. Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 Você pode coletar todas as suas configurações e exportá-las para um arquivo .xml que será importado para o locatário de destino. Em geral, você pode redirecionar a saída do cmdlet **Get** de cada configuração do cmdlet **Export-Clixml**, salvando as configurações em arquivos .xml, conforme mostrado no exemplo de código seguinte.
 
-No EOP PowerShell autônomo, crie um diretório chamado Exportar em um local que seja fácil de localizar e alterar para esse diretório. Por exemplo:
+No EOP PowerShell autônomo, crie um diretório chamado Exportar em um local fácil de localizar e alterar para esse diretório. Por exemplo:
 
 ```PowerShell
 mkdir C:\EOP\Export
@@ -75,7 +75,7 @@ mkdir C:\EOP\Export
 cd C:\EOP\Export
 ```
 
-O script a seguir pode ser usado para coletar todos os usuários de email, grupos, configurações anti-spam, configurações anti-malware, conectores e regras de fluxo de email na organização de origem. Copie e cole o texto a seguir em um editor de texto como o Bloco de Notas, salve o arquivo como Source_EOP_Settings.ps1 no diretório Exportar, que você acabou de criar, e execute o comando a seguir:
+O script a seguir pode ser usado para coletar todos os usuários de email, grupos, configurações anti-spam, configurações anti-malware, conectores e regras de fluxo de emails na organização de origem. Copie e cole o texto a seguir em um editor de texto como o Bloco de Notas, salve o arquivo como Source_EOP_Settings.ps1 no diretório Exportar, que você acabou de criar, e execute o comando a seguir:
 
 ```PowerShell
 & "C:\EOP\Export\Source_EOP_Settings.ps1"
@@ -179,13 +179,13 @@ Foreach ($domain in $Domains) {
 }
 ```
 
-Agora você pode revisar e coletar as informações do centro de administração do Microsoft 365 de sua organização de destino para poder verificar rapidamente seus domínios quando chegar a hora:
+Agora você pode revisar e coletar as informações do centro de administração do Microsoft 365 da sua organização de destino para poder verificar rapidamente seus domínios quando chegar a hora:
 
 1. Entre no Centro de administração do Microsoft 365 em <https://portal.office.com> .
 
 2. Clique em **Domínios**.
 
-   Se você não vir domínios, clique em Personalizar **navegação,** selecione **Instalação** e clique em **Salvar.**
+   Se você não vir domínios, clique em Personalizar **navegação,** selecione **Configurar** e clique em **Salvar**.
 
 3. Clique em cada link **Iniciar a configuração** e, em seguida, prossiga no Assistente de configuração.
 
@@ -193,7 +193,7 @@ Agora você pode revisar e coletar as informações do centro de administração
 
 5. Registre o registro MX ou TXT que você vai usar para verificar seu domínio e conclua o assistente de configuração.
 
-6. Adicione os registros TXT de verificação aos seus registros DNS. Isso permitirá que você verifique mais rapidamente os domínios na organização de destino depois que eles forem removidos da organização de origem. Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
+6. Adicione os registros TXT de verificação aos seus registros DNS. Isso permitirá que você verifique mais rapidamente os domínios na organização de destino depois que eles forem removidos da organização de origem. Para obter mais informações sobre como configurar o DNS, consulte [Create DNS records at any DNS hosting provider for Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
 
 ## <a name="step-3-force-senders-to-queue-mail"></a>Etapa 3: Forçar os remetentes a colocarem emails na fila 
 
@@ -203,7 +203,7 @@ Uma opção para forçar os remetentes a colocar emails na fila é atualizar os 
 
 Outra opção é colocar um registro MX inválido em cada domínio onde os registros DNS do seu domínio são mantidos (também conhecido como servidor de host DNS). Isso fará com que o remetente coloque o email na fila e tente novamente (normalmente as tentativas são repetidas por 48 horas, mas isso pode variar de provedor para provedor). Você pode usar invalid.outlook.com como um destino MX inválido. Diminuir o valor da vida útil (TTL) para cinco minutos no registro MX ajuda a alteração a se propagar para provedores de DNS mais rapidamente.
 
-Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
+Para obter mais informações sobre como configurar o DNS, consulte [Create DNS records at any DNS hosting provider for Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
 
 > [!IMPORTANT]
 > Provedores diferentes colocam o email na fila por períodos de tempo diferentes. Você precisará configurar um novo locatário rapidamente e reverter suas configurações de DNS para evitar que a notificação de falha na entrega (NDRs) seja enviada ao remetente se o tempo na fila expirar.
@@ -933,4 +933,4 @@ if($HostedContentFilterPolicyCount -gt 0){
 
 ## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>Etapa 8: Reverter suas configurações de DNS para interromper o enfileiramento de mensagens de email
 
-Se você optar por definir seus registros MX com um endereço inválido para fazer com que os remetentes enfileiem emails durante a transição, você precisará defini-los de volta para o valor correto conforme especificado no centro de [administração.](https://admin.microsoft.com) Para obter mais informações sobre como configurar o DNS, consulte Criar registros DNS em qualquer provedor de [hospedagem de DNS para o Microsoft 365.](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)
+Se você optou por definir seus registros MX para um endereço inválido para fazer com que os remetentes enfileiem emails durante a transição, você precisará defini-los de volta para o valor correto, conforme especificado no centro de [administração](https://admin.microsoft.com). Para obter mais informações sobre como configurar o DNS, consulte [Create DNS records at any DNS hosting provider for Microsoft 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).

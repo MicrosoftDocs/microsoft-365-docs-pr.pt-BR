@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
-description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no name.com para a Microsoft.
-ms.openlocfilehash: 2330755412abfe262ac79c4acbfc12e33af76fe2
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços name.com para a Microsoft.
+ms.openlocfilehash: 97cc83fe060f8fbfe78decff584bded3102b09b5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49657822"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910169"
 ---
 # <a name="create-dns-records-at-namecom-for-microsoft"></a>Criar registros DNS no name.com para a Microsoft
 
@@ -34,7 +34,7 @@ ms.locfileid: "49657822"
   
 Se você usa a name.com como provedor de hospedagem DNS, realize os procedimentos deste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
   
-Depois que você adicionar esses registros name.com, seu domínio será definido para funcionar com os serviços Microsoft.
+Depois de adicionar esses registros name.com, seu domínio será definido para funcionar com os serviços da Microsoft.
 
   
 > [!NOTE]
@@ -56,7 +56,7 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **Detalhes,** selecione Registros **DNS.** 
+3. Na coluna **Detalhes,** selecione **Registros DNS**. 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -69,9 +69,9 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
     |**Tipo** <br/> |**Host** <br/> |**Atender** <br/> |**TTL** <br/> |
     |TXT  <br/> |(Leave this field empty.)  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |Use o valor padrão (300).  <br/> |
    
-    ![Name-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
+    ![Nome-BP-Verify-1-1](../../media/0c352fd3-cf84-439f-a481-0705e225cc54.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
     
     ![Name-BP-Verify-1-2](../../media/816fc60b-17ab-4982-8849-6c3fcf3ca3d6.png)
   
@@ -109,7 +109,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **Detalhes,** selecione Registros **DNS.** 
+3. Na coluna **Detalhes,** selecione **Registros DNS**. 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -119,21 +119,21 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Host**|**Atender**|**TTL**|**Prio**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(Deixe este campo vazio.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Use o valor padrão (300).  <br/> |0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
+    |MX  <br/> |(Deixe este campo vazio.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu de sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |Use o valor padrão (300).  <br/> |0  <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> |
    
    ![Name-BP-Configure-2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
     
     ![Name-BP-Configure-2-2](../../media/fd09f161-7cc4-4723-aec2-5fa801bd19e9.png)
   
 6. Se houver outros registros MX, exclua cada um deles, usando o procedimento de duas etapas a seguir:
     
-    Para cada outro registro MX, selecione **Excluir** na **coluna** Ações. 
+    Para um registro MX, selecione **Excluir** na **coluna Ações.** 
     
     ![Name-BP-Configure-2-3](../../media/16734a98-31c4-4023-a2a5-10b7c95bc58e.png)
   
-    Para confirmar cada exclusão, selecione **Excluir** na **coluna** Ações novamente. 
+    Para confirmar cada exclusão, selecione **Excluir** na **coluna Ações** novamente. 
     
     ![Name-BP-Configure-2-4](../../media/409c21c5-51f4-4244-bb84-5d32084224b2.png)
   
@@ -150,7 +150,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **Detalhes,** selecione Registros **DNS.** 
+3. Na coluna **Detalhes,** selecione **Registros DNS**. 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -194,7 +194,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 
     ![Name-BP-Configure-1-2](../../media/c8b96e1e-aa35-4fb1-8209-450f587fec4d.png)
   
-3. Na coluna **Detalhes,** selecione Registros **DNS.** 
+3. Na coluna **Detalhes,** selecione **Registros DNS**. 
     
     ![Name-BP-Configure-1-3](../../media/c5da31e2-2f77-4d0c-b31d-189e6fb7b205.png)
   
@@ -208,7 +208,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
    
    ![Name-BP-Configure-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
     
     ![Name-BP-Configure-4-2](../../media/db1e0e09-2b95-4fc1-88bd-e86da536921f.png)
   
@@ -235,12 +235,12 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     |**Tipo**|**Serviço**|**Peso**|**TTL**|**Prio**|**Protocolo**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|sip|1 |Use o valor padrão (300).|100|tls|443|sipdir.online.lync.com <br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
-    |SRV|sipfederationtls|1 |Use o valor padrão (300).|100|tcp|5061|sipfed.online.lync.com <br>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |SRV|sip|1|Use o valor padrão (300).|100|tls|443|sipdir.online.lync.com <br> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
+    |SRV|sipfederationtls|1|Use o valor padrão (300).|100|tcp|5061|sipfed.online.lync.com <br>**Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           |
    
    ![Name-BP-Configure-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
   
-5. Selecione **Adicionar Registro.**
+5. Selecione **Adicionar Registro**.
 
     ![Name-BP-Configure-5-2](../../media/a804d51d-8f57-4b0b-8bd6-a52eb1c87a97.png)
   

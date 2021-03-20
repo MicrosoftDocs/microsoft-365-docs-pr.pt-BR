@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS no GoDaddy para a Microsoft
+title: Criar registros DNS no GoDaddy para Microsoft
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,21 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
-description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no GoDaddy para Microsoft.
-ms.openlocfilehash: 2b53985dc17f3d124ec2b37dbf0047bce229385c
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+description: Saiba como verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços no GoDaddy para Microsoft.
+ms.openlocfilehash: d0163447abdc7b9fe5afd4f471f24ee09de40d50
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126444"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50910241"
 ---
-# <a name="create-dns-records-at-godaddy-for-microsoft"></a>Criar registros DNS no GoDaddy para a Microsoft
+# <a name="create-dns-records-at-godaddy-for-microsoft"></a>Criar registros DNS no GoDaddy para Microsoft
 
  **Caso não encontre o conteúdo que está procurando, [verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**.
 
 Se você usa a GoDaddy como provedor de hospedagem DNS, realize os procedimentos deste artigo para verificar o domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
 
-Depois que você adicionar esses registros na GoDaddy, seu domínio será definido para funcionar com os serviços Microsoft.
+Depois de adicionar esses registros no GoDaddy, seu domínio será definido para funcionar com os serviços da Microsoft.
 
 > [!NOTE]
 > Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md).
@@ -58,7 +58,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-Configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -66,7 +66,7 @@ Siga as etapas abaixo.
 
     |**Tipo de registro** |**Host**|**Valor TXT**|**TTL** |
     |:-----|:-----|:-----|:-----|
-    |TXT (Texto)|@|MS = ms *XXXXXXXX*<br>**Observação:** este é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)|1 hora  <br>(Selecione um valor na lista drop-down.)|
+    |TXT (Texto)|@|MS = ms *XXXXXXXX*<br>**Observação**: este é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela. [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)|1 hora  <br>(Selecione um valor na listada.)|
 
       ![GoDaddy-BP-Verify-1-0](../../media/dns/56526870-d6465780-651a-11e9-9cf0-d6fff71e2f62.png)
 
@@ -109,7 +109,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-Configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -119,11 +119,11 @@ Siga as etapas abaixo.
 
 5. Nas caixas do novo registro, digite ou copie e cole os valores da seguinte tabela.
 
-    (Escolha o **valor de TTL** na lista drop-down.)
+    (Escolha o **valor TTL** na listada.)
 
     |**Tipo de registro**|**Host**|**Pontos de**|**Prioridade**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |Servidor de mensagens (MX)  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |1 hora  <br/> |
+    |Servidor de mensagens (MX)  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu de sua conta da Microsoft.           [Como faço para encontrar isso?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> |1 hora  <br/> |
 
 6. Selecione **Salvar**.
 
@@ -140,7 +140,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-Configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -153,7 +153,7 @@ Siga as etapas abaixo.
 
     Nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir.
 
-    (Escolha o **valor de TTL** na lista drop-down.)
+    (Escolha o **valor TTL** na listada.)
 
     |**Tipo de registro**|**Host**|**Pontos de**|**TTL**|
     |:-----|:-----|:-----|:-----|
@@ -165,7 +165,7 @@ Siga as etapas abaixo.
 
 
 
-6. Repita essas etapas para adicionar o próximo registro CNAME até ter criado todos os seis registros CNAME.
+6. Repita estas etapas para adicionar o próximo registro CNAME até que você tenha criado todos os seis registros CNAME.
 
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
@@ -183,7 +183,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-Configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -193,7 +193,7 @@ Siga as etapas abaixo.
 
 5. Nas caixas do novo registro, digite ou copie e cole os seguintes valores.
 
-    (Escolha o **valor de TTL** nas listas drop-down.)
+    (Escolha o **valor TTL** nas listas listadas.)
 
     |**Tipo de registro**|**Host**|**Valor TXT**|**TTL**|
     |:-----|:-----|:-----|:-----|
@@ -217,7 +217,7 @@ Siga as etapas abaixo.
 
     ![GoDaddy-BP-Configure-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
     ![GoDaddy-BP-Configure-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -229,17 +229,17 @@ Siga as etapas abaixo.
 
     Nas caixas do novo registro, digite ou copie e cole os valores da primeira linha da tabela a seguir.
 
-    (Escolha o **tipo de Registro** e os valores **TTL** nas listas listadas.)
+    (Escolha o **tipo de registro** e os valores **TTL** nas listas listadas.)
 
     |**Tipo de registro**|**Nome**|**Destino**|**Protocolo**|**Serviço**|**Prioridade**|**Espessura**|**Porta**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Serviço)  <br/> |@  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1   <br/> |443  <br/> |1 hora  <br/> |
-    |SRV (Serviço)  <br/> |@  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1   <br/> |5061  <br/> |1 hora  <br/> |
+    |SRV (Serviço)  <br/> |@  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1  <br/> |443  <br/> |1 hora  <br/> |
+    |SRV (Serviço)  <br/> |@  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1  <br/> |5061  <br/> |1 hora  <br/> |
 
     ![GoDaddy-BP-Configure-5-1](../../media/a1b15ab1-eb6a-4672-90d1-7ac3e0beb223.png)
 
 
-6. Repita **a Etapa 5** para criar o outro registro SRV.
+6. Repita **a Etapa 5** para Criar o outro registro SRV.
 
 7. Selecione **Salvar**.
 

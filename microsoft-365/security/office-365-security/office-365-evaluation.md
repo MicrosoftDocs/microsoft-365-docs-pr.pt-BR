@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ce17f413b23ef9ef6abf79a2710a5cec9b05206c
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 1151cddbad2f5b8633b0e0f19a24c470f85d7614
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838526"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908973"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft Defender para Office 365
 
@@ -44,7 +44,7 @@ O Defender for Office 365 no modo de avaliação cria políticas de email do Def
 
 Com o modo de avaliação, [](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)  [Anexos Seguros,](atp-safe-attachments.md) [Links Seguros](atp-safe-links.md)e políticas de representação baseadas em inteligência de caixa de correio são configuradas em seu nome. Todas as políticas do Defender para Office 365 são criadas no modo de não imposição em segundo plano e não ficam visíveis para você.
 
-Como parte da instalação, o modo de avaliação também configura [a Filtragem Aprimorada para Conectores.](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) Ele melhora a precisão de filtragem preservando o endereço IP e as informações do remetente, que são perdidas quando o email passa por um gateway de segurança de email (ESG) em frente ao Defender para Office 365. A filtragem aprimorada para conectores também melhora a precisão de filtragem para suas políticas anti-spam e anti-phishing existentes do Exchange Online Protection (EOP).
+Como parte da instalação, o modo de avaliação também configura [a Filtragem Aprimorada para Conectores.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) Ele melhora a precisão de filtragem preservando o endereço IP e as informações do remetente, que são perdidas quando o email passa por um gateway de segurança de email (ESG) em frente ao Defender para Office 365. A filtragem aprimorada para conectores também melhora a precisão de filtragem para suas políticas anti-spam e anti-phishing existentes do Exchange Online Protection (EOP).
 
 A Filtragem Aprimorada Habilitada para Conectores melhora a precisão de filtragem, mas pode alterar a entrega de determinadas mensagens se você tiver um ESG em frente ao Defender para Office 365 e atualmente não ignorar a filtragem do EOP. O impacto é limitado às políticas do EOP; As políticas MDO configuradas como parte da avaliação são criadas no modo não impositivo. Para minimizar o impacto potencial de produção, você pode ignorar toda a filtragem do EOP criando uma regra de transporte para definir o Nível de Confiança de Spam (SCL) como -1. Consulte [Usar o EAC para criar uma regra de fluxo](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md#use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message)de emails que define a SCL de uma mensagem para obter   detalhes.
 
@@ -72,7 +72,7 @@ Se você não tiver uma dessas licenças, precisará obter uma licença de avali
 
 #### <a name="trial"></a>Teste
 
-Para obter uma licença de avaliação para o Microsoft Defender para o Office 365, você precisa ter a função de administrador de Cobrança **ou** a função de **administrador global.** Solicite permissão de alguém que tenha a função de administrador global. [Saiba mais sobre assinaturas e licenças](https://docs.microsoft.com/microsoft-365/commerce/licenses/subscriptions-and-licenses)
+Para obter uma licença de avaliação para o Microsoft Defender para o Office 365, você precisa ter a função de administrador de Cobrança **ou** a função de **administrador global.** Solicite permissão de alguém que tenha a função de administrador global. [Saiba mais sobre assinaturas e licenças](../../commerce/licenses/subscriptions-and-licenses.md)
 
 Depois de ter a função adequada, o caminho recomendado é obter uma licença de avaliação para o Microsoft Defender para o Office 365 (Plano 2) no Centro de administração do Microsoft 365, indo para Cobrança > Serviços de Compra. A avaliação inclui uma avaliação gratuita de 30 dias para 25 licenças. [Obter uma avaliação para o Microsoft Defender para Office 365 (Plano 2)](https://admin.microsoft.com/AdminPortal/Home#/catalog/offer-details/microsoft-defender-for-office-365-plan-2-/223860DC-15D6-42D9-A861-AE05473069FA).
 
@@ -80,14 +80,14 @@ Você terá uma janela de 30 dias com a avaliação para monitorar e relatar ame
 
 ### <a name="roles"></a>Funções
 
-As funções do Exchange Online são necessárias para configurar o Defender para o Office 365 no modo de avaliação.
+**As funções do Exchange Online são necessárias para** configurar o Defender para o Office 365 no modo de avaliação. Atribuir uma função de administrador de conformidade ou segurança do Microsoft 365 não funcionará.
 
-- [Saiba mais sobre permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)
+- [Saiba mais sobre permissões no Exchange Online](/exchange/permissions-exo/permissions-exo)
 - [Saiba mais sobre a atribuição de funções de administrador](../../admin/add-users/assign-admin-roles.md)
 
 As seguintes funções são necessárias:
 
-|Tarefa|Role|
+|Tarefa|Função (no Exchange Online)|
 |---|---|
 |Obter uma avaliação gratuita ou comprar o Microsoft Defender para Office 365 (Plano 2)|Função de administrador de cobrança OU função de administrador global|
 |Criar política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança|
@@ -95,7 +95,6 @@ As seguintes funções são necessárias:
 |Excluir política de avaliação|Função Domínios Remotos e Aceitos; Função de administrador de segurança |
 |Exibir relatório de avaliação|Função de administrador de segurança OU Função de leitor de segurança|
 |
-
 
 ### <a name="enhanced-filtering"></a>Filtragem aprimorada
 
@@ -111,7 +110,7 @@ Links de URL nos corpos de mensagens de email não quebram, para diminuir o impa
 
 ### <a name="email-routing"></a>Roteamento de email
 
-Prepare os detalhes correspondentes que você precisará configurar como seu email está roteado no momento, incluindo o nome do conector de entrada que roteia seu email. Se você estiver apenas usando a Proteção do Exchange Online, não terá um conector.  [Saiba mais sobre o fluxo de emails e o roteamento de email](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/mail-flow)
+Prepare os detalhes correspondentes que você precisará configurar como seu email está roteado no momento, incluindo o nome do conector de entrada que roteia seu email. Se você estiver apenas usando a Proteção do Exchange Online, não terá um conector.  [Saiba mais sobre o fluxo de emails e o roteamento de email](/office365/servicedescriptions/exchange-online-service-description/mail-flow)
 
 Cenários de roteamento de email com suporte incluem:
 
