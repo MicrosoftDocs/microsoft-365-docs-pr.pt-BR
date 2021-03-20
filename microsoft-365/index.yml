@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: a41abb409af039fabbf44e0eb3324c96bdeccf92
-  ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
+  ms.openlocfilehash: 34aa9566e1f643286b755c214dae432e903bcff5
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/04/2021
-  ms.locfileid: "50099719"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50916627"
 highlightedContent:
   items:
   - title: Capacitar trabalhadores remotos
@@ -113,7 +113,7 @@ productDirectory:
       text: Implantar os aplicativos do Microsoft 365.
     - url: /windows/deployment/
       text: Implantar o Windows 10
-    - url: /microsoft-365/managed-desktop/
+    - url: ./managed-desktop/index.yml
       text: Área de Trabalho Gerenciada da Microsoft
     - url: /mem/intune/fundamentals/what-is-intune
       text: Gerenciamento de dispositivos com o Microsoft Intune
@@ -228,7 +228,7 @@ additionalContent:
       - text: Microsoft Stream
         url: /stream/
       - text: MileIQ
-        url: https://docs.microsoft.com/office365/mileiq/
+        url: /office365/mileiq/
       - text: Yammer
         url: /yammer/yammer-landing-page
     - title: Skype for Business

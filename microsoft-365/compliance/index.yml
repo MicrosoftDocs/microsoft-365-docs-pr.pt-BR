@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: a474347a193c7ba630fd9696a478e50f73af14f1
-  ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+  ms.openlocfilehash: 79c9bf21fe480faffac90b6b5f5f134e72eff119
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "49751076"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50916835"
 landingContent:
 - title: Gerenciar proteção de informação e governança
   linkLists:
@@ -55,7 +55,7 @@ landingContent:
     - text: Descoberta Eletrônica Avançada
       url: overview-ediscovery-20.md
     - text: Descoberta Eletrônica Central
-      url: ediscovery-cases.md
+      url: ./get-started-core-ediscovery.md
     - text: Pesquisa de conteúdo
       url: search-for-content.md
     - text: Auditoria
@@ -67,11 +67,11 @@ landingContent:
     - text: Gerente de Conformidade
       url: compliance-manager.md
     - text: Plano de ação de conformidade GDPR
-      url: https://docs.microsoft.com/compliance/regulatory/gdpr-action-plan
+      url: /compliance/regulatory/gdpr-action-plan
     - text: Plano de ação de conformidade ISO
-      url: https://docs.microsoft.com/compliance/regulatory/iso-action-plan
+      url: /compliance/regulatory/iso-action-plan
     - text: Plano de ação de conformidade NIST
-      url: https://docs.microsoft.com/compliance/regulatory/nist-action-plan
+      url: /compliance/regulatory/nist-action-plan
 - title: Implantar soluções de conformidade
   linkLists:
   - linkListType: how-to-guide
