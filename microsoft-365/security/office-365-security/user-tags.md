@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Microsoft Defender para Office 365 Plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft Defender para Office 365 para identificar rapidamente os usuários marcados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 80bd360888be3aeea42da6f9b58a119a9752d382
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: e9bb6a233f21268df860974549ecffbfd7154045
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758887"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916401"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft Defender para Office 365
 
@@ -41,13 +41,13 @@ Depois de aplicar marcas de sistema ou marcas personalizadas aos usuários, voc�
 - [Explorador de Ameaças e detecções em tempo real](threat-explorer.md)
 - [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
 - [Modos de Exibição de Campanha](campaigns.md)
-- Para contas prioritárias, você pode usar o [relatório Problemas de email](https://docs.microsoft.com/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) para contas de prioridade no Centro de administração do Exchange (EAC).
+- Para contas prioritárias, você pode usar o [relatório Problemas de email](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) para contas de prioridade no Centro de administração do Exchange (EAC).
 
 Este artigo explica como configurar marcas de usuário no Centro de Conformidade & Segurança. Não há cmdlets no Centro de Conformidade & segurança para gerenciar marcas de usuário.
 
 Para ver como as marcas de usuário fazem parte da estratégia para ajudar a proteger contas de usuário de alto impacto, consulte Recomendações de segurança para contas de prioridade [no Microsoft 365](security-recommendations-for-priority-accounts.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Marcas de** usuário, abra <https://protection.office.com/userTags> .
 

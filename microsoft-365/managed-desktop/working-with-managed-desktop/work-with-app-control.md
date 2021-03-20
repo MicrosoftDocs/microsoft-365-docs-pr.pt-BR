@@ -10,34 +10,34 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 0b76a14a30caeb75cfdcb8acc5715fe6710e0625
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+ms.openlocfilehash: 31cc897fe28f557a65cba9c99e5dcecbf7c2b0e5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289454"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917635"
 ---
 # <a name="work-with-app-control"></a>Trabalhar com o controle de aplicativo
 
-Depois que o controle de aplicativo tiver sido implantado em seu ambiente, você e as Operações de Área de Trabalho Gerenciada da Microsoft terão responsabilidades contínuas. Por exemplo, talvez você queira adicionar um novo aplicativo no ambiente ou adicionar (ou remover) um signante confiável. Para melhorar a segurança, todos os aplicativos devem ser assinados por código antes de liberá-los aos usuários. Os detalhes do editor de um aplicativo incluem informações sobre o signante.
+Depois que o controle do aplicativo é implantado em seu ambiente, você e As Operações de Área de Trabalho Gerenciadas da Microsoft têm responsabilidades contínuas. Por exemplo, talvez você queira adicionar um novo aplicativo ao ambiente ou adicionar (ou remover) um signante confiável. Para melhorar a segurança, todos os aplicativos devem ser assinados com código antes de liberá-los para os usuários. Os detalhes do editor de um aplicativo incluem informações sobre o signante.
 
 
 ## <a name="add-a-new-app"></a>Adicionar um novo aplicativo
 
 Para adicionar um novo aplicativo, siga estas etapas:
 
-1. Adicione o aplicativo ao [Microsoft Intune.](https://docs.microsoft.com/mem/intune/apps/apps-win32-app-management)
+1. Adicione o aplicativo ao [Microsoft Intune](/mem/intune/apps/apps-win32-app-management).
 2. Implante o aplicativo em qualquer dispositivo no anel de teste. 
-3. Teste seu aplicativo de acordo com seus processos empresariais padrão. 
-4. Verifique o Visualizador de Eventos em Logs de Aplicativos e **Serviços\Microsoft\Windows\AppLocker**, procurando eventos **8003** ou **8006.** Esses eventos indicam que o aplicativo seria bloqueado. Para obter mais informações sobre todos os eventos do App Locker e seus significados, consulte Usando o Visualizador de [Eventos com o AppLocker.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker)
-5. Se você encontrar qualquer um desses eventos, abra uma solicitação de signante com as Operações da Área de Trabalho Gerenciada da Microsoft.
+3. Teste seu aplicativo de acordo com seus processos comerciais padrão. 
+4. Verifique o Visualizador de Eventos em Logs de Aplicativos e **Serviços\Microsoft\Windows\AppLocker**, procurando eventos **8003** ou **8006.** Esses eventos indicam que o aplicativo seria bloqueado. Para obter mais informações sobre todos os eventos do App Locker e seus significados, consulte [Using Event Viewer with AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/using-event-viewer-with-applocker).
+5. Se você encontrar qualquer um desses eventos, abra uma solicitação de signante com Operações de Área de Trabalho Gerenciada da Microsoft.
 
 ## <a name="add-or-remove-a-trusted-signer"></a>Adicionar (ou remover) um signante confiável
 
-Ao abrir uma solicitação de signante, você precisará primeiro fornecer alguns detalhes importantes do editor. Em seguida, siga estas etapas:
+Ao abrir uma solicitação de signante, você precisará fornecer alguns detalhes importantes do editor primeiro. Em seguida, siga estas etapas:
 
-1. [Coletar detalhes do editor.](#gather-publisher-details)
-2. Abra um tíquete com as Operações da Área de Trabalho Gerenciada da Microsoft para solicitar a regra signante e inclua os seguintes detalhes:  
+1. [Reunir detalhes do editor](#gather-publisher-details).
+2. Abra um tíquete com Operações de Área de Trabalho Gerenciada da Microsoft para solicitar a regra do signante e inclua os seguintes detalhes:  
     - Nome do aplicativo 
     - Versão do aplicativo 
     - Descrição 
@@ -45,7 +45,7 @@ Ao abrir uma solicitação de signante, você precisará primeiro fornecer algun
     - Detalhes do editor (por exemplo: "O= <publisher name> ,L= <location> ,S=State,C=Country") 
 
 > [!NOTE]
-> Para remover a confiança de um aplicativo, siga as mesmas etapas, mas de acordo **com o tipo de alteração** a ser *removido.*
+> Para remover a confiança de um aplicativo, siga as mesmas etapas, mas de definir **o tipo de alteração** para *remover*.
 
 As operações implantarão progressivamente políticas em grupos de implantação seguindo este cronograma:
 
@@ -58,21 +58,21 @@ As operações implantarão progressivamente políticas em grupos de implantaç�
 |Amplas     | Enforced        |  3º dia       |
 
 
-Você pode pausar ou reverter a implantação a qualquer momento durante a distribuição. Para fazer isso, abra outra solicitação de serviço com o Operations.
+Você pode pausar ou reverter a implantação a qualquer momento durante a distribuição. Para fazer isso, abra outra solicitação de serviço com Operações.
 
 > [!NOTE]
-> Se você pausar o lançamento de uma regra signante, essa regra deverá ser retordenada ou concluída antes que outra liberação possa começar.
+> Se você pausar o lançamento de uma regra de signante, essa regra deverá ser retorda ou concluída antes que outra versão possa ser iniciada.
 
-## <a name="gather-publisher-details"></a>Coletar detalhes do editor
+## <a name="gather-publisher-details"></a>Reunir detalhes do editor
 
 Para acessar os dados do editor de um aplicativo, siga estas etapas:
 
-1. Encontre um dispositivo de Área de Trabalho Gerenciada da Microsoft no anel teste que tenha uma política de Modo de Auditoria aplicada. 
+1. Encontre um dispositivo da Área de Trabalho Gerenciada da Microsoft no anel de teste que tenha uma política de Modo de Auditoria aplicada. 
 2. Tente instalar o aplicativo no dispositivo.
 3. Abra o Visualizador de Eventos nesse dispositivo. 
 4. No Visualizador de Eventos, navegue até Logs de Aplicativos e **Serviços\Microsoft\Windows** e selecione **AppLocker**. 
-5. Encontre qualquer **evento 8003** ou **8006** e copie as informações do evento: 
+5. Encontre qualquer **evento 8003** ou **8006** e copie informações do evento: 
     - Nome do aplicativo 
     - Versão do aplicativo 
     - Descrição 
-    - Detalhes do editor (por exemplo: "O= <publisher name> , L= <location> , S=State, C=Country") 
+    - Detalhes do editor (por exemplo: "O= <publisher name> , L= <location> , S=State, C=Country")

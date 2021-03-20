@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: A verificação local de prevenção contra perda de dados do Microsoft 365 estende o monitoramento de atividades de arquivos e ações de proteção para esses arquivos para compartilhamentos local de arquivos e pastas e bibliotecas de documentos do SharePoint. Os arquivos são verificados e protegidos pelo verificador de Proteção de Informações do Microsoft Azure (AIP)
-ms.openlocfilehash: 996de5ea640a16ef2a250830d7167aa316b54a21
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: fa1c14520c8ad0afa4856fdd8a1c59a0f71f400d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417328"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917807"
 ---
 # <a name="learn-about-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Saiba mais sobre a verificação local de prevenção contra perda de dados do Microsoft 365 (visualização)
 
@@ -36,12 +36,12 @@ A **verificação local DLP** rastreia os dados em repouso no local em compartil
 
 A verificação DLP local conta com uma implementação completa do verificador de Proteção de Informações do Microsoft Azure (AIP) para monitorar, rotular e proteger itens confidenciais. Se não estiver familiarizado com o verificador AIP, recomendamos fortemente que você se familiarize com ele. Veja estes artigos:
 
-- [O que é a Proteção de Informações do Microsoft Azure](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
-- [O que é a verificação de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)
-- [Requisitos para instalar e implementar a verificação de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-prereqs)
-- [Tutorial: Instalando a verificação de rotulagem unificada da Proteção de Informações do Azure (AIP)](https://docs.microsoft.com/azure/information-protection/tutorial-install-scanner)
-- [Configurando e Instalando a verificação de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install)
-- [Cliente de rotulagem unificada da Proteção de Informações do Azure - Versão do histórico de lançamento e política de suporte](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
+- [O que é a Proteção de Informações do Microsoft Azure](/azure/information-protection/what-is-information-protection)
+- [O que é a verificação de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/deploy-aip-scanner)
+- [Requisitos para instalar e implementar a verificação de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/deploy-aip-scanner-prereqs)
+- [Tutorial: Instalando a verificação de rotulagem unificada da Proteção de Informações do Azure (AIP)](/azure/information-protection/tutorial-install-scanner)
+- [Configurando e Instalando a verificação de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/deploy-aip-scanner-configure-install)
+- [Cliente de rotulagem unificada da Proteção de Informações do Azure - Versão do histórico de lançamento e política de suporte](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
 
 ## <a name="dlp-on-premises-scanner-actions"></a>Ações da verificação DLP local
 
@@ -56,7 +56,7 @@ Quando um arquivo detectado representa um risco potencial se vazou ou violou uma
 
 |Ação |Descrição  |
 |---------|---------|
-|**Bloquear o acesso destas pessoas aos arquivo armazenado na  verificação local - Todos** | Quando aplicada, essa ação bloqueia o acesso para todas as contas, exceto para o proprietário do conteúdo, para a última conta que modificou o item e para o administrador. Ele faz isso removendo todas as contas a partir das permissões NTFS/SharePoint no nível do arquivo, exceto a do proprietário do arquivo, proprietário do repositório (estabelecido em [Definir proprietário do repositório](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install#use-a-data-loss-prevention-dlp-policy-public-preview) configurado no trabalho de verificação de conteúdo), do último modificador (pode ser identificado apenas no Microsoft Office SharePoint Online) e do administrador. A conta do verificador também recebe os direitos FC no arquivo.|
+|**Bloquear o acesso destas pessoas aos arquivo armazenado na  verificação local - Todos** | Quando aplicada, essa ação bloqueia o acesso para todas as contas, exceto para o proprietário do conteúdo, para a última conta que modificou o item e para o administrador. Ele faz isso removendo todas as contas a partir das permissões NTFS/SharePoint no nível do arquivo, exceto a do proprietário do arquivo, proprietário do repositório (estabelecido em [Definir proprietário do repositório](/azure/information-protection/deploy-aip-scanner-configure-install#use-a-data-loss-prevention-dlp-policy-public-preview) configurado no trabalho de verificação de conteúdo), do último modificador (pode ser identificado apenas no Microsoft Office SharePoint Online) e do administrador. A conta do verificador também recebe os direitos FC no arquivo.|
 |**Bloquear o acesso destas pessoas aos arquivo armazenado na  verificação local - bloquear todo o acesso (público) da organização**    |Quando imposta, esta ação remove a **_Todos_*_, _*_NT AUTHORITY\authenticated users_*_, e _*_Usuários de Domínio_** SIDs a partir da lista de controle de acesso de arquivos (ACL). Somente usuários e grupos que foram explicitamente direitos concedidos para o arquivo ou pasta pai poderão acessar o arquivo.|
 |**Definir as permissões no arquivo**|Quando imposta, esta ação força o arquivo a herdar as permissões da sua pasta pai. Seja o padrão, essa ação só será aplicada se as permissões na pasta pai forem mais restritivas do que as permissões que já estão no arquivo. Por exemplo, se a LCA no arquivo estiver definida para permitir apenas **_usuários específicos_*_ e a pasta pai estiver configurada para permitir um grupo de _*_Usuários do Domínio_*_, as permissões da pasta pai não serão herdadas pelo arquivo. Você pode ignorar este comportamento selecionando a opção _* Herdar mesmo que as permissões dos pais sejam menos restritivas**.|
 |**Remover o arquivo de uma localização inadequada**|Quando imposta, esta ação substitui o arquivo original por um arquivo stub com extensão .txt e coloca uma cópia do arquivo original em uma pasta de quarentena. 

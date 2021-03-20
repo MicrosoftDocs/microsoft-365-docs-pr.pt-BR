@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Saiba mais sobre as opções disponíveis para criar um ambiente seguro de compartilhamento para convidados no Microsoft 365, fornecendo acesso de convidado para uma colaboração aperfeiçoada.
-ms.openlocfilehash: 28b2efba9f0c4ba17811a9871b05ab9f5a7a4839
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 0eb999d48bc0976d7c2bb32ff1bdba8d63409d81
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838663"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918461"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Criar um ambiente de compartilhamento de convidados seguro
 
@@ -39,7 +39,7 @@ Este artigo inclui:
 - Atribuição automática de um rótulo de confidencialidade a documentos que contêm um tipo de informação confidencial.
 - Removendo automaticamente o acesso de convidados de arquivos com um rótulo de confidencialidade.
 
-Algumas das opções discutidas neste artigo exigem que os convidados tenham uma conta do Azure Active Directory. Para garantir que os convidados sejam incluídos no diretório ao compartilhar arquivos e pastas com eles, use a [integração do SharePoint e do OneDrive com a Visualização B2B do Azure AD](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
+Algumas das opções discutidas neste artigo exigem que os convidados tenham uma conta do Azure Active Directory. Para garantir que os convidados sejam incluídos no diretório ao compartilhar arquivos e pastas com eles, use a [integração do SharePoint e do OneDrive com a Visualização B2B do Azure AD](/sharepoint/sharepoint-azureb2b-integration-preview).
 
 Observe que não vamos discutir a habilitação das configurações de compartilhamento de convidados neste artigo. Confira [Colaborar com pessoas de fora da sua organização](collaborate-with-people-outside-your-organization.md) para obter detalhes sobre como habilitar o compartilhamento de convidados para diferentes cenários.
 
@@ -66,7 +66,7 @@ Agora, o convidado será solicitado a se inscrever na autenticação multifator 
 
 ### <a name="more-information"></a>Mais informações
 
-[Planejando uma Implantação de Autenticação Multifator do Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+[Planejando uma Implantação de Autenticação Multifator do Microsoft Azure Active Directory](/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## <a name="set-up-a-terms-of-use-for-guests"></a>Definir os termos de uso para os convidados
 
@@ -108,11 +108,11 @@ Para criar uma política de acesso condicional:
 Agora, na primeira vez que um convidado tentar acessar um conteúdo ou uma equipe ou site em sua organização, ele deverá aceitar os termos de uso.
 
 > [!NOTE]
-> Usar o acesso condicional exige uma licença do Azure AD Premium P1. Para mais informações, confira [O que é acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
+> Usar o acesso condicional exige uma licença do Azure AD Premium P1. Para mais informações, confira [O que é acesso condicional](/azure/active-directory/conditional-access/overview).
 
 ### <a name="more-information"></a>Mais informações
 
-[Termos de uso do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)
+[Termos de uso do Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use)
 
 ## <a name="set-up-guest-access-reviews"></a>Acesso de convidado com revisões de acesso
 
@@ -145,15 +145,15 @@ Para configurar uma revisão de acesso de convidado
 
 ### <a name="more-information"></a>Mais informações
 
-[Gerenciar o acesso de convidado com revisões de acesso do Azure AD](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)
+[Gerenciar o acesso de convidado com revisões de acesso do Azure AD](/azure/active-directory/governance/manage-guest-access-with-access-reviews)
 
-[Criar uma revisão de acesso de grupos ou aplicativos nas revisões de acesso do Azure AD](https://docs.microsoft.com/azure/active-directory/governance/create-access-review)
+[Criar uma revisão de acesso de grupos ou aplicativos nas revisões de acesso do Azure AD](/azure/active-directory/governance/create-access-review)
 
 ## <a name="set-up-web-only-access-for-guests"></a>Configurar o acesso apenas à Web para convidados
 
 Você pode reduzir a superfície de ataque e facilitar a administração, exigindo que os convidados acessem suas equipes, sites e arquivos usando apenas um navegador da web.
 
-Para grupos e equipes do Microsoft 365, isso é feito com uma política de acesso condicional do Azure Active Directory. Para o Microsoft Office SharePoint Online, isso é configurado no Centro de Administração do SharePoint Online. (Você também pode [usar rótulos de confidencialidade para restringir o acesso dos convidados apenas à web](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).)
+Para grupos e equipes do Microsoft 365, isso é feito com uma política de acesso condicional do Azure Active Directory. Para o Microsoft Office SharePoint Online, isso é configurado no Centro de Administração do SharePoint Online. (Você também pode [usar rótulos de confidencialidade para restringir o acesso dos convidados apenas à web](../compliance/sensitivity-labels-teams-groups-sites.md).)
 
 Para restringir os convidados ao acesso apenas pela web para Grupos e Teams:
 
@@ -222,7 +222,7 @@ Criar um tipo de informação confidencial
 
 ### <a name="more-information"></a>Mais informações
 
-[Personalizar tipos de informação confidencial](https://docs.microsoft.com/Office365/SecurityCompliance/custom-sensitive-info-types)
+[Personalizar tipos de informação confidencial](/Office365/SecurityCompliance/custom-sensitive-info-types)
 
 ## <a name="create-an-auto-labeling-policy-to-assign-a-sensitivity-label-based-on-a-sensitive-information-type"></a>Criar uma política de rotulagem automática para atribuir um rótulo de confidencialidade com base em um tipo de informação confidencial
 
@@ -252,11 +252,11 @@ Com a política em vigor, quando um usuário digita "Projeto Saturno" em um docu
 
 ### <a name="more-information"></a>Mais informações
 
-[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically)
+[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](../compliance/apply-sensitivity-label-automatically.md)
 
 ## <a name="create-a-dlp-policy-to-remove-guest-access-to-highly-sensitive-files"></a>Crie uma política DLP para remover o acesso de convidados a arquivos altamente confidenciais
 
-Você pode usar a [prevenção contra perda de dados (DLP)](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) para evitar o compartilhamento indesejado de conteúdo confidencial por convidados. A prevenção contra perda de dados pode agir com base no rótulo de confidencialidade de um arquivo e remover o acesso de convidado.
+Você pode usar a [prevenção contra perda de dados (DLP)](../compliance/data-loss-prevention-policies.md) para evitar o compartilhamento indesejado de conteúdo confidencial por convidados. A prevenção contra perda de dados pode agir com base no rótulo de confidencialidade de um arquivo e remover o acesso de convidado.
 
 Para criar uma regra DLP
 
@@ -287,9 +287,9 @@ Para criar uma regra DLP
 
 Há algumas opções adicionais no Microsoft 365 e no Azure Active Directory que podem ajudar a proteger seu ambiente de compartilhamento de convidado.
 
-- Você pode criar uma lista de domínios de compartilhamento permitidos ou negados para limitar com quem os usuários podem compartilhar. Confira [restringir o compartilhamento de conteúdo do SharePoint e do OneDrive por domínio](https://docs.microsoft.com/sharepoint/restricted-domains-sharing) e [Permitir ou bloquear convites para usuários B2B de organizações específicas](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list) para obter mais informações.
-- Você pode limitar os locatários do Azure Active Directory aos quais seus usuários podem se conectar. Confira [Usar restrições de locatário para gerenciar o acesso aos aplicativos de nuvem SaaS](https://docs.microsoft.com/azure/active-directory/manage-apps/tenant-restrictions) para mais informações. 
-- Você pode criar um ambiente gerenciado em que os parceiros podem ajudar a gerenciar contas de convidado. Confira [Criar uma extranet B2B com convidados gerenciados](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet) para obter mais informações.
+- Você pode criar uma lista de domínios de compartilhamento permitidos ou negados para limitar com quem os usuários podem compartilhar. Confira [restringir o compartilhamento de conteúdo do SharePoint e do OneDrive por domínio](/sharepoint/restricted-domains-sharing) e [Permitir ou bloquear convites para usuários B2B de organizações específicas](/azure/active-directory/b2b/allow-deny-list) para obter mais informações.
+- Você pode limitar os locatários do Azure Active Directory aos quais seus usuários podem se conectar. Confira [Usar restrições de locatário para gerenciar o acesso aos aplicativos de nuvem SaaS](/azure/active-directory/manage-apps/tenant-restrictions) para mais informações. 
+- Você pode criar um ambiente gerenciado em que os parceiros podem ajudar a gerenciar contas de convidado. Confira [Criar uma extranet B2B com convidados gerenciados](/Office365/Enterprise/b2b-extranet) para obter mais informações.
 
 ## <a name="see-also"></a>Confira também
 

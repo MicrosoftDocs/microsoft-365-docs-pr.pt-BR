@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 17ac5506b6445854b1d9fe8ba6b5f5356f6a3827
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 96d265a7b909b439f960c951b10c84f4bc7a63b0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819815"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916825"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de riscos insider
 
@@ -278,7 +278,7 @@ Conclua as etapas a seguir para criar uma nova política:
 
 11. Se você selecionou Quero especificar sites do SharePoint, rótulos de sensibilidade **e/ou** tipos de informações confidenciais como conteúdo de prioridade na etapa anterior, você verá as páginas de detalhes para sites do *SharePoint,* tipos de informações confidenciais *e* rótulos de *sensibilidade.* Use essas páginas de detalhes para definir o SharePoint, tipos de informações confidenciais e rótulos de sensibilidade para priorizar na política.
 
-    - **Sites do SharePoint**: Selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint às que você tem acesso e deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - **Sites do SharePoint**: Selecione **Adicionar site do SharePoint** e selecione os sites do SharePoint aos que você tem acesso e deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
     - **Tipo de informação confidenciais**: Selecione **Adicionar tipo de informação confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"Número da* Conta Bancária dos EUA" e *"Número do Cartão de Crédito"*.
     - **Rótulos de sensibilidade**: **Selecione Adicionar rótulo de** sensibilidade e selecione os rótulos que você deseja priorizar. Por exemplo, *"Confidencial"* e *"Segredo"*.
 
@@ -323,7 +323,7 @@ Conclua as etapas a seguir para gerenciar uma política existente:
 
 11. Se você selecionou Quero especificar sites do SharePoint, rótulos de sensibilidade **e/ou** tipos de informações confidenciais como conteúdo de prioridade na etapa anterior, você verá as páginas de detalhes para sites do *SharePoint,* tipos de informações confidenciais *e* rótulos de *sensibilidade.* Use essas páginas de detalhes para definir o SharePoint, tipos de informações confidenciais e rótulos de sensibilidade para priorizar na política.
 
-    - **Sites do SharePoint**: Selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint às que você tem acesso e deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - **Sites do SharePoint**: Selecione **Adicionar site do SharePoint** e selecione os sites do SharePoint aos que você tem acesso e deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
     - **Tipo de informação confidenciais**: Selecione **Adicionar tipo de informação confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"Número da* Conta Bancária dos EUA" e *"Número do Cartão de Crédito"*.
     - **Rótulos de sensibilidade**: **Selecione Adicionar rótulo de** sensibilidade e selecione os rótulos que você deseja priorizar. Por exemplo, *"Confidencial"* e *"Segredo"*.
 
@@ -354,14 +354,20 @@ Conclua as etapas a seguir para copiar uma política existente:
 3. Na página detalhes da política, selecione Copiar.
 4. No assistente de política, nomee a nova política e atualize a configuração da política conforme necessário.
 
-## <a name="add-users-to-a-policy"></a>Adicionar usuários a uma política
+## <a name="immediately-start-scoring-user-activity"></a>Iniciar imediatamente a pontuação da atividade do usuário
 
-Pode haver cenários em que você precisa adicionar temporariamente usuários às políticas de risco internas depois que um evento incomum é relatado fora do fluxo de trabalho de gerenciamento de riscos insider. Use a atividade iniciar a pontuação para usuários na guia Políticas para adicionar manualmente um usuário (ou usuários) a uma ou mais políticas de risco insider por um período específico de tempo, para começar imediatamente a atribuir pontuações de risco à sua atividade e ignorar o requisito para que um usuário tenha um indicador de disparo (como uma combinação de política de DLP). Você também pode adicionar um motivo para adicionar o usuário à política. Os usuários adicionados manualmente às políticas são exibidos no painel Usuários.
+Pode haver cenários em que você precisa começar imediatamente a atribuir pontuações de risco aos usuários com políticas de risco internas fora do gerenciamento de risco interno que dispara o fluxo de trabalho de eventos. Use  a atividade iniciar a  pontuação para usuários na guia Políticas para adicionar manualmente um usuário (ou usuários) a uma ou mais políticas de risco insider por um período específico de tempo, para começar imediatamente a atribuir pontuações de risco à sua atividade e ignorar o requisito para que um usuário tenha um indicador de disparo (como uma combinação de política de DLP). Você também pode adicionar um motivo para adicionar o usuário à política, que aparecerá na linha do tempo de atividade dos usuários. Os usuários adicionados manualmente às políticas são exibidos no painel **Usuários** e alertas são criados se a atividade atender aos limites de alerta de política.
+
+Alguns cenários em que você pode querer começar imediatamente a pontuar atividades do usuário:
+
+- Quando os usuários são identificados com preocupações de risco e você deseja começar imediatamente a atribuir pontuações de risco a suas atividades para uma ou mais de suas políticas
+- Quando há um incidente que pode exigir que você comece imediatamente a atribuir pontuações de risco à atividade dos usuários envolvidos para uma ou mais de suas políticas
+- Quando você ainda não configurou seu conector de RH, mas deseja começar a atribuir pontuações de risco às atividades do usuário para eventos de RH carregando um arquivo .csv para os usuários
 
 >[!NOTE]
->Pode levar várias horas para que novos usuários adicionados manualmente apareçam no painel Usuários. As atividades dos 90 dias anteriores para esses usuários podem levar até 24 horas para exibição. Para exibir atividades para usuários adicionados manualmente, navegue até a guia Usuários e selecione o usuário no painel Usuários e abra a guia Atividade do usuário no painel de detalhes.
+>Pode levar várias horas para que novos usuários adicionados manualmente apareçam no **painel Usuários.** As atividades dos 90 dias anteriores para esses usuários podem levar até 24 horas para exibição. Para exibir atividades para usuários adicionados manualmente, navegue  até a guia  Usuários e selecione o usuário no painel Usuários e abra a guia Atividade do usuário no painel de detalhes. 
 
-Para adicionar manualmente um(s) usuário(s) a uma ou mais políticas de gerenciamento de riscos insider, conclua as seguintes etapas:
+Para iniciar manualmente a atividade de pontuação para usuários em uma ou mais políticas de gerenciamento de riscos internas, conclua as seguintes etapas:
 
 1. No Centro de conformidade do [Microsoft 365,](https://compliance.microsoft.com)acesse Gerenciamento de riscos **do Insider** e selecione **a guia** Políticas.
 2. No painel de política, selecione a política ou as políticas às que você deseja adicionar usuários.

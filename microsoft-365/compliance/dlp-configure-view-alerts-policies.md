@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como definir e gerenciar alertas para políticas DLP.
-ms.openlocfilehash: 7bc9d9b59c0424792f995be42591548b758c99ec
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 0594cee5208049aef16dee6fa03954faae2a1cdd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766416"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917857"
 ---
 # <a name="configure-and-view-alerts-for-dlp-polices-preview"></a>Configurar e exibir alertas para políticas DLP (visualização)
 
@@ -54,9 +54,9 @@ Antes de começar, certifique-se de ter os pré-requisitos necessários:
 
 ### <a name="licensing-for-the-dlp-alert-management-dashboard"></a>Licenciamento para o painel de gerenciamento de alertas DLP
 
-Todos os locatários qualificados para a DLP do Office 365 podem acessar o novo painel de gerenciamento de alertas de DLP. Para começar, você deve estar qualificado para o Office 365 DLP para Exchange Online, SharePoint Online e OneDrive for Business. Para obter mais informações sobre os requisitos de licenciamento para a DLP do Office 365, consulte Quais licenças fornecem os direitos para um usuário se [beneficiar do serviço?](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
+Todos os locatários qualificados para a DLP do Office 365 podem acessar o novo painel de gerenciamento de alertas de DLP. Para começar, você deve estar qualificado para o Office 365 DLP para Exchange Online, SharePoint Online e OneDrive for Business. Para obter mais informações sobre os requisitos de licenciamento para a DLP do Office 365, consulte Quais licenças fornecem os direitos para um usuário se [beneficiar do serviço?](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
 
-Os clientes que participam da visualização pública [de DLP](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about?view=o365-worldwide) do Ponto de Extremidade ou que estão qualificados para a DLP do Teams verão seus alertas de política de [DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide) de ponto de extremidade e alertas de política de DLP do Teams no painel de gerenciamento de alertas DLP.
+Os clientes que participam da visualização pública [de DLP](./endpoint-dlp-learn-about.md?view=o365-worldwide) do Ponto de Extremidade ou que estão qualificados para a DLP do Teams verão seus alertas de política de [DLP](./dlp-microsoft-teams.md?view=o365-worldwide) de ponto de extremidade e alertas de política de DLP do Teams no painel de gerenciamento de alertas DLP.
 
 ### <a name="licensing-for-alert-configuration-options"></a>Licenciamento para opções de configuração de alerta
 

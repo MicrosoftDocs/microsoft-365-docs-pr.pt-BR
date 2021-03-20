@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Use a ferramenta Pesquisa de conteúdo no Centro de conformidade e segurança para procurar e exportar dados de bate-papo do Teams para usuários locais em uma implantação híbrida do Exchange.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bdcba3a14b2ee6d14210d3525e20ec507166a5d
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: 39951ce125f86748beab12cf1998075e26ad734b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029711"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917183"
 ---
 # <a name="search-for-teams-chat-data-for-on-premises-users"></a>Pesquisar dados de chat do Teams para usuários locais
 
@@ -97,7 +97,7 @@ Após habilitar o recurso, você poderá usar a pesquisa de conteúdo no Centro 
 
 Você pode usar os cmdlets **New-ComplianceSearch** e **Set-ComplianceSearch** no PowerShell do Centro de Conformidade e Segurança para pesquisar dados de chat do Teams para usuários locais. Como foi explicado anteriormente, você não precisa enviar uma solicitação de suporte para usar o PowerShell para pesquisar os dados de chat do Teams para usuários locais.
   
-1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Conectar ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 2. Execute o seguinte comando do PowerShell para criar uma pesquisa de conteúdo que pesquise os dados de chat do Teams para usuários locais.
 
@@ -117,11 +117,11 @@ Você pode usar os cmdlets **New-ComplianceSearch** e **Set-ComplianceSearch** n
   
 Para mais informações sobre esses cmdlets, confira:
   
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
+- [New-ComplianceSearch](/powershell/module/exchange/new-compliancesearch)
 
-- [Set-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/set-compliancesearch)
+- [Set-ComplianceSearch](/powershell/module/exchange/set-compliancesearch)
 
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/start-compliancesearch)
+- [Start-ComplianceSearch](/powershell/module/exchange/start-compliancesearch)
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
@@ -131,7 +131,7 @@ Para mais informações sobre esses cmdlets, confira:
 
 **Onde está localizado o armazenamento baseado em nuvem para usuários locais?**
   
-Os dados do bate-papo das equipes são armazenados no local de dados preferencial (PDL) para um usuário local. O PDL é homenageado em ambientes Single Geo e Multi Geo. Para mais informações, consulte [Microsoft 365 Multi-Geo](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo).
+Os dados do bate-papo das equipes são armazenados no local de dados preferencial (PDL) para um usuário local. O PDL é homenageado em ambientes Single Geo e Multi Geo. Para mais informações, consulte [Microsoft 365 Multi-Geo](../enterprise/microsoft-365-multi-geo.md).
   
  **Há outros requisitos além de enviar uma solicitação de suporte?**
   

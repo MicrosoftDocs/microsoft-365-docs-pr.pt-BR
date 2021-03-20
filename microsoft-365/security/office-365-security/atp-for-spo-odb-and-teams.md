@@ -20,15 +20,15 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Saiba mais sobre o Microsoft Defender para Office 365 para arquivos no SharePoint Online, OneDrive for Business e Microsoft Teams.
+description: Saiba mais sobre o Microsoft Defender para Office 365 para arquivos no SharePoint Online, No OneDrive for Business e no Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ce73e1fd5c8ecb63bee1db2e9e64aade305b37e9
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 9b69d2b6f075539f411da971a314c127843b945a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287048"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917565"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Anexos seguros para SharePoint, OneDrive e Microsoft Teams
 
@@ -38,40 +38,40 @@ ms.locfileid: "50287048"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Os Anexos Seguros do SharePoint, do OneDrive e do Microsoft Teams no [Microsoft Defender para Office 365](office-365-atp.md) fornece uma camada adicional de proteção para arquivos que já foram verificados no momento do carregamento pelo mecanismo de detecção de vírus comum no Microsoft [365.](virus-detection-in-spo.md) Os Anexos Seguros do SharePoint, oneDrive e Microsoft Teams ajudam a detectar e bloquear arquivos existentes identificados como mal-intencionados em sites de equipe e bibliotecas de documentos.
+Anexos seguros para SharePoint, OneDrive e Microsoft Teams no [Microsoft Defender para Office 365](office-365-atp.md) fornece uma camada adicional de proteção para arquivos que já foram verificados no momento do carregamento pelo mecanismo de detecção de vírus comum no Microsoft [365](virus-detection-in-spo.md). Os Anexos Seguros para SharePoint, OneDrive e Microsoft Teams ajudam a detectar e bloquear arquivos existentes identificados como mal-intencionados em sites de equipe e bibliotecas de documentos.
 
-Os Anexos Seguros do SharePoint, oneDrive e Microsoft Teams não estão habilitados por padrão. Para aproxá-lo, [confira Ativar Anexos Seguros para SharePoint, OneDrive e Microsoft Teams.](turn-on-atp-for-spo-odb-and-teams.md)
+Anexos seguros para SharePoint, OneDrive e Microsoft Teams não estão habilitados por padrão. Para a ativar, consulte Ativar Anexos Seguros [para SharePoint, OneDrive e Microsoft Teams.](turn-on-atp-for-spo-odb-and-teams.md)
 
-## <a name="how-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-works"></a>Como funcionam os Anexos Seguros para o SharePoint, o OneDrive e o Microsoft Teams
+## <a name="how-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-works"></a>Como funcionam os anexos seguros do SharePoint, do OneDrive e do Microsoft Teams
 
-Quando o recurso Anexos Seguros para SharePoint, OneDrive e Microsoft Teams está habilitado e identifica um arquivo como mal-intencionado, o arquivo é bloqueado usando a integração direta com os armazenamentos de arquivos. A imagem a seguir mostra um exemplo de um arquivo mal-intencionado detectado em uma biblioteca.
+Quando anexos seguros para SharePoint, OneDrive e Microsoft Teams estão habilitados e identificam um arquivo como mal-intencionado, o arquivo é bloqueado usando a integração direta com os armazenamentos de arquivos. A imagem a seguir mostra um exemplo de um arquivo mal-intencionado detectado em uma biblioteca.
 
 ![Arquivos no OneDrive for Business com um detectado como mal-intencionado](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
 
-Embora o arquivo bloqueado ainda esteja listado na biblioteca de documentos e em aplicativos web, móveis ou da área de trabalho, as pessoas não podem abrir, copiar, mover ou compartilhar o arquivo. Mas eles podem excluir o arquivo bloqueado.
+Embora o arquivo bloqueado ainda esteja listado na biblioteca de documentos e em aplicativos web, móveis ou desktop, as pessoas não podem abrir, copiar, mover ou compartilhar o arquivo. Mas eles podem excluir o arquivo bloqueado.
 
 Veja um exemplo da aparência de um arquivo bloqueado em um dispositivo móvel:
 
 ![Excluir um arquivo bloqueado do OneDrive for Business do aplicativo móvel do OneDrive](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
-Por padrão, as pessoas podem baixar um arquivo bloqueado. Veja a aparência de download de um arquivo bloqueado em um dispositivo móvel:
+Por padrão, as pessoas podem baixar um arquivo bloqueado. Veja a aparência de baixar um arquivo bloqueado em um dispositivo móvel:
 
-![Baixando um arquivo bloqueado no OneDrive for Business](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
+![Baixar um arquivo bloqueado no OneDrive for Business](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
-Os administradores do SharePoint Online podem impedir que as pessoas baixem arquivos mal-intencionados. Para obter instruções, confira Usar o PowerShell do [SharePoint Online para impedir que os usuários baixem arquivos mal-intencionados.](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)
+Os administradores do SharePoint Online podem impedir que as pessoas baixem arquivos mal-intencionados. Para obter instruções, consulte Usar o PowerShell do [SharePoint Online para impedir que os usuários baixem arquivos mal-intencionados.](turn-on-atp-for-spo-odb-and-teams.md#step-2-recommended-use-sharepoint-online-powershell-to-prevent-users-from-downloading-malicious-files)
 
-Para saber mais sobre a experiência do usuário quando um arquivo foi detectado como mal-intencionado, confira O que fazer quando um arquivo mal-intencionado for encontrado no [SharePoint Online, no OneDrive](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)ou no Microsoft Teams.
+Para saber mais sobre a experiência do usuário quando um arquivo foi detectado como mal-intencionado, consulte O que fazer quando um arquivo mal-intencionado é encontrado no [SharePoint Online, no OneDrive ou no Microsoft Teams.](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
 
-## <a name="view-information-about-malicious-files-detected-by-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Exibir informações sobre arquivos mal-intencionados detectados pelos Anexos Seguros do SharePoint, OneDrive e Microsoft Teams
+## <a name="view-information-about-malicious-files-detected-by-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Exibir informações sobre arquivos mal-intencionados detectados por Anexos Seguros para SharePoint, OneDrive e Microsoft Teams
 
-Os arquivos identificados como mal-intencionados pelo Microsoft Defender para Office 365 aparecerão nos relatórios do [Microsoft Defender para Office 365](view-reports-for-atp.md) e no Explorer [(e detecções](threat-explorer.md)em tempo real).
+Arquivos identificados como mal-intencionados pelo Microsoft Defender para Office 365 aparecerão em relatórios para [o Microsoft Defender para Office 365](view-reports-for-atp.md) e no Explorer (e detecções em tempo [real)](threat-explorer.md).
 
-A partir de maio de 2018, quando um arquivo é identificado como mal-intencionado pelo Microsoft Defender para Office 365, o arquivo também está disponível em quarentena. Para obter mais informações, [consulte Usar o Centro de Conformidade & segurança para gerenciar arquivos em quarentena.](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files)
+A partir de maio de 2018, quando um arquivo é identificado como mal-intencionado pelo Microsoft Defender para Office 365, o arquivo também está disponível em quarentena. Para obter mais informações, [consulte Use the Security & Compliance Center to manage quarantined files](manage-quarantined-messages-and-files.md#microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files).
 
-## <a name="keep-these-points-in-mind"></a>Tenha esses pontos em mente
+## <a name="keep-these-points-in-mind"></a>Lembre-se desses pontos
 
-- O Defender para Office 365 não verificará todos os arquivos no SharePoint Online, no OneDrive for Business ou no Microsoft Teams. Este é o comportamento padrão do produto. Os arquivos são verificados de forma assíncrona. O processo usa eventos de compartilhamento e atividades de convidados, juntamente com heurística inteligente e sinais de ameaça para identificar arquivos mal-intencionados.
+- O Defender para Office 365 não examinará todos os arquivos no SharePoint Online, no OneDrive for Business ou no Microsoft Teams. Este é o comportamento padrão do produto. Os arquivos são verificados de forma assíncrona. O processo usa eventos de compartilhamento e atividades de convidados, juntamente com heurísticas inteligentes e sinais de ameaça para identificar arquivos mal-intencionados.
 
-- Certifique-se de que seus sites do SharePoint estão configurados para usar a [experiência moderna.](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience) A proteção do Defender para Office 365 se aplica se a experiência moderna ou a exibição clássica é usada; No entanto, indicadores visuais de que um arquivo está bloqueado estão disponíveis somente na experiência moderna.
+- Certifique-se de que seus sites do SharePoint estão configurados para usar a [experiência moderna](/sharepoint/guide-to-sharepoint-modern-experience). A proteção do Defender para o Office 365 se aplica se a experiência moderna ou a exibição clássica é usada; no entanto, os indicadores visuais de que um arquivo está bloqueado estão disponíveis apenas na experiência moderna.
 
-- Os Anexos Seguros para o SharePoint, o OneDrive e o Microsoft Teams fazem parte da estratégia geral de proteção contra ameaças da sua organização, que inclui proteção anti-spam e anti-malware no Exchange Online Protection (EOP), bem como links seguros e anexos seguros no Microsoft Defender para Office 365. Para saber mais, confira [Proteger contra ameaças no Office 365.](protect-against-threats.md)
+- Os Anexos Seguros para SharePoint, OneDrive e Microsoft Teams fazem parte da estratégia geral de proteção contra ameaças da sua organização, que inclui proteção anti-spam e anti-malware no Exchange Online Protection (EOP), bem como Links Seguros e Anexos Seguros no Microsoft Defender para Office 365. Para saber mais, confira [Proteger contra ameaças no Office 365](protect-against-threats.md).

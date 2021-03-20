@@ -13,68 +13,68 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Implante o pacote de configuração no dispositivo VDI (virtual desktop infrastructure) para que eles sejam integrados ao serviço de prevenção contra perda de dados do ponto de extremidade do Microsoft 365.
-ms.openlocfilehash: ce5ad0ba6af3e18a6f6c53e1860fc47a77c38770
-ms.sourcegitcommit: 6647055154002c7d3b8f7ce25ad53c9636bc8066
+description: Implante o pacote de configuração no dispositivo VDI (infraestrutura de área de trabalho virtual) para que eles sejam integrados ao serviço de prevenção contra perda de dados do Microsoft 365 Endpoint.
+ms.openlocfilehash: 2a62de6c238c1f681bde8a9bf25ecd596a10d390
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48769385"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917947"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)
 
 **Aplica-se a:**
-- [Prevenção contra perda de dados de ponto de extremidade (DLP) do Microsoft 365](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Prevenção contra perda de dados do Microsoft 365 Endpoint (DLP)](./endpoint-dlp-learn-about.md)
 
-- Dispositivos VDI (virtual desktop infrastructure)
+- Dispositivos VDI (infraestrutura de área de trabalho virtual)
 
 >[!WARNING]
-> Microsoft 365 Endpoint data loss prevention support for Windows Virtual Desktop supports single session scenarios. Cenários de várias sessões na Área de Trabalho Virtual do Windows não são suportados no momento.
+> O suporte para prevenção contra perda de dados do Microsoft 365 Endpoint para a Área de Trabalho Virtual do Windows oferece suporte a cenários de sessão única. Cenários de várias sessões na Área de Trabalho Virtual do Windows não são suportados no momento.
 
-## <a name="onboard-vdi-devices"></a>Dispositivos VDI onboard
+## <a name="onboard-vdi-devices"></a>Dispositivos VDI de integração
 
-A prevenção contra perda de dados do ponto de extremidade do Microsoft 365 dá suporte à integração de sessão VDI não persistente. 
+A prevenção contra perda de dados do Microsoft 365 Endpoint dá suporte à integração de sessão VDI não persistente. 
 
 >[!Note]
 >Para fazer a integração de sessões VDI não persistentes, os dispositivos VDI devem estar no Windows 10 1809 ou superior.
 
 Pode haver desafios associados ao integração de VDIs. Veja a seguir os desafios típicos para este cenário:
 
-- Integração antecipada instantânea de sessões de curta duração, que devem ser integradas à prevenção contra perda de dados do ponto de extremidade do Microsoft 365 antes do provisionamento real.
+- Integração instantânea inicial de uma sessão de curta duração, que deve ser integrada à prevenção contra perda de dados do Ponto de Extremidade do Microsoft 365 antes do provisionamento real.
 - O nome do dispositivo normalmente é reutilizável para novas sessões.
 
-Os dispositivos VDI podem aparecer no Centro de Conformidade do Microsoft 365 como:
+Dispositivos VDI podem aparecer no Centro de Conformidade do Microsoft 365 como:
 
 - Entrada única para cada dispositivo.  
-Observe que, nesse  caso, o mesmo nome de dispositivo deve ser configurado quando a sessão é criada, por exemplo, usando um arquivo de resposta autônomo.
-- Várias entradas para cada dispositivo, uma para cada sessão.
+Observe que, nesse caso, *o* mesmo nome de dispositivo deve ser configurado quando a sessão é criada, por exemplo, usando um arquivo de resposta autônoma.
+- Várias entradas para cada dispositivo - uma para cada sessão.
 
-As etapas a seguir orientarão você durante a integração de dispositivos VDI e destacarão as etapas para entradas individuais e múltiplas.
+As etapas a seguir orientarão você através da integração de dispositivos VDI e destacarão etapas para entradas simples e múltiplas.
 
 >[!WARNING]
-> Para ambientes em que há configurações de baixo recurso, o procedimento de inicialização VDI pode retardar a integração da prevenção contra perda de dados do Ponto de Extremidade do Microsoft 365. 
+> Para ambientes em que há configurações de baixo recurso, o procedimento de inicialização VDI pode atrasar a integração da prevenção contra perda de dados do Microsoft 365 Endpoint. 
 
-1.  Abra o arquivo .zip do pacote de configuração *VDI (DeviceCompliancePackage.zip)* que você baixou do assistente de integração de serviço.
+1.  Abra o arquivo .zip do pacote de configuração da VDI *(DeviceCompliancePackage.zip*) que você baixou do assistente de integração do serviço.
 
-2.  No painel de navegação, selecione **Configurações**  >  **integração do dispositivo à**  >  **integração.**
+2.  No painel de navegação, selecione **Configurações**  >  **Integração do dispositivo** de  >  **integração**.
 
-3. No campo **do método de** implantação, selecione scripts de integração VDI para pontos de extremidade não **persistentes.**
+3. No campo **Método de implantação,** selecione scripts de **integração VDI para pontos de extremidade** não persistentes .
 
 5. Clique **em Baixar pacote** e salve o arquivo .zip.
 
-6. Copie os arquivos da pasta DeviceCompliancePackage extraída do arquivo .zip para a `golden/master` imagem no `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` caminho. 
+6. Copie os arquivos da pasta DeviceCompliancePackage extraída do arquivo .zip para a `golden/master` imagem sob o caminho `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` . 
 
 7. Se você não estiver implementando uma única entrada para cada dispositivo, copie DeviceComplianceOnboardingScript.cmd.
 
-8. Se você estiver implementando uma única entrada para cada dispositivo, copie Onboard-NonPersistentMachine.ps1 e DeviceComplianceOnboardingScript.cmd.
+8. Se você estiver implementando uma única entrada para cada dispositivo, copie o Onboard-NonPersistentMachine.ps1 e DeviceComplianceOnboardingScript.cmd.
     
     > [!NOTE]
-    > Se você não vir a `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` pasta, ela pode estar oculta. Você precisará escolher a opção Mostrar arquivos **e pastas ocultos** no Explorador de Arquivos.
+    > Se você não vir a `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` pasta, ela poderá estar oculta. Você precisará escolher a opção Mostrar arquivos **e pastas ocultos** no Explorador de Arquivos.
 
-9. Abra uma janela do Editor de Política de Grupo Local e navegue **até** a Inicialização de Scripts de Configurações do  >  **Windows**  >  **de Configuração do**  >  **Computador.**
+9. Abra uma janela Editor de Política de Grupo Local e navegue até **Configuração** do  >  **Computador Configuração** do Windows  >  **Scripts**  >  **Inicialização**.
 
    > [!NOTE]
-   > A Política de Grupo de Domínio também pode ser usada para integração de dispositivos VDI não persistentes.
+   > A Política de Grupo de Domínio também pode ser usada para a integração de dispositivos VDI não persistentes.
 
 4. Dependendo do método que você gostaria de implementar, siga as etapas apropriadas:
 
@@ -82,7 +82,7 @@ As etapas a seguir orientarão você durante a integração de dispositivos VDI 
    
    Selecione a **guia Scripts** do PowerShell e clique em **Adicionar** (o Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script do PowerShell de `Onboard-NonPersistentMachine.ps1` integração.
    
-   **Para várias entradas para cada dispositivo:**
+   **Para várias entradas para cada dispositivo**:
    
    Selecione a **guia Scripts** e clique em **Adicionar** (o Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script bash de `DeviceComplianceOnboardingScript.cmd` integração.
 
@@ -92,19 +92,19 @@ As etapas a seguir orientarão você durante a integração de dispositivos VDI 
       
    1. Logon no dispositivo.
       
-   1. Fazer logoff do dispositivo.
+   1. Logoff do dispositivo.
 
    1. Fazer logon no dispositivo com outro usuário.
       
-   1. **Para uma entrada única para cada dispositivo:** verifique apenas uma entrada na Central de Segurança do Microsoft Defender.<br>
-      **Para várias entradas para cada dispositivo:** verifique várias entradas na Central de Segurança do Microsoft Defender.
+   1. **Para entrada única para cada dispositivo**: Verifique apenas uma entrada no Centro de Segurança do Microsoft Defender.<br>
+      **Para várias entradas para cada dispositivo**: Verifique várias entradas no Centro de Segurança do Microsoft Defender.
 
-6. Clique **na lista Dispositivos** no painel de navegação.
+6. Clique **na lista Dispositivos** no painel De navegação.
 
-7. Use a função de pesquisa inserindo o nome do dispositivo e selecione **Dispositivo** como tipo de pesquisa.
+7. Use a função de pesquisa inserindo o nome do dispositivo e selecione **Dispositivo como** tipo de pesquisa.
 
-## <a name="updating-non-persistent-virtual-desktop-infrastructure-vdi-images"></a>Atualizando imagens de VDI (infraestrutura de área de trabalho virtual) não persistente
-Como prática recomendável, recomendamos usar ferramentas de manutenção offline para corrigir imagens de ouro/mestre.<br>
+## <a name="updating-non-persistent-virtual-desktop-infrastructure-vdi-images"></a>Atualizando imagens VDI (infraestrutura de área de trabalho virtual não persistente)
+Como prática prática, recomendamos usar ferramentas de manutenção offline para corrigir imagens douradas/mestras.<br>
 Por exemplo, você pode usar os comandos abaixo para instalar uma atualização enquanto a imagem permanece offline:
 
 ```console
@@ -114,23 +114,23 @@ DISM /Unmount-Image /MountDir:"C:\Temp\OfflineServicing" /commit
 ```
 
 Para obter mais informações sobre comandos DISM e manutenção offline, consulte os artigos abaixo:
-- [Modificar uma imagem do Windows usando o DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
-- [Opções de gerenciamento de imagens Command-Line DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
-- [Reduzir o tamanho do armazenamento de componentes em uma imagem offline do Windows](https://docs.microsoft.com/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
+- [Modificar uma imagem do Windows usando o DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
+- [Opções de gerenciamento de imagens Command-Line DISM](/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
+- [Reduzir o tamanho do Armazenamento de Componentes em uma imagem offline do Windows](/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
 
 Se a manutenção offline não for uma opção viável para seu ambiente VDI não persistente, as etapas a seguir devem ser tomadas para garantir a consistência e a saúde do sensor:
 
-1. Depois de inicializar a imagem mestra para manutenção online ou correção, execute um script de redução de memória para desativar o sensor de prevenção contra perda de dados do ponto de extremidade do Microsoft 365. Para obter mais informações, consulte [Dispositivos offboard usando um script local.](dlp-configure-endpoints-script.md#offboard-devices-using-a-local-script)
+1. Depois de inicializar a imagem mestra para manutenção ou correção online, execute um script de offboard para desativar o sensor de prevenção contra perda de dados do Microsoft 365 Endpoint. Para obter mais informações, consulte [Offboard devices using a local script](dlp-configure-endpoints-script.md#offboard-devices-using-a-local-script).
 
-2. Verifique se o sensor está parado executando o comando abaixo em uma janela CMD:
+2. Verifique se o sensor é interrompido executando o comando abaixo em uma janela CMD:
 
    ```console
    sc query sense
    ```
 
-3. Manutenção da imagem conforme necessário.
+3. Service the image as needed.
 
-4. Execute os comandos a seguir usando PsExec.exe (que podem ser baixados para limpar o conteúdo da pasta cibernética que o sensor pode ter acumulado desde https://download.sysinternals.com/files/PSTools.zip) a inicialização:
+4. Execute os comandos abaixo usando PsExec.exe (que podem ser baixados para limpar o conteúdo da pasta cibernética que o sensor pode ter acumulado desde https://download.sysinternals.com/files/PSTools.zip) a inicialização:
 
     ```console
     PsExec.exe -s cmd.exe
@@ -140,11 +140,11 @@ Se a manutenção offline não for uma opção viável para seu ambiente VDI nã
     exit
     ```
 
-5. Sele a imagem "ouro/mestre" como faria normalmente.
+5. Sele a imagem dourada/mestra como normalmente faria.
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10 usando Política de Grupo](dlp-configure-endpoints-gp.md)
+- [Integração de dispositivos Windows 10 usando a Política de Grupo](dlp-configure-endpoints-gp.md)
 - [Integração de dispositivos Windows 10 usando o Microsoft Endpoint Configuration Manager](dlp-configure-endpoints-sccm.md)
 - [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](dlp-configure-endpoints-mdm.md)
 - [Integrar dispositivos Windows 10 usando um script local](dlp-configure-endpoints-script.md)
-- [Solucionar problemas de integração da Proteção Avançada contra Ameaças do Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Solucionar problemas de integração da Proteção Avançada contra Ameaças do Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

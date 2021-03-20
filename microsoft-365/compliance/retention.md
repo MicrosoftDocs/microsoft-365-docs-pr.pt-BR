@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 67697124df7908dca2ace74dc5de921d18d817c6
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 0eaf89b3f49d8b69cb7b36e4e25df90946c19e32
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727320"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917203"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Se você estiver vendo mensagens sobre políticas de retenção em seus aplicativos, entre em contato com o departamento de TI para obter informações sobre como elas foram configuradas para você. Se essas mensagens forem sobre o chat do Teams ou mensagens de canal, confira [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
@@ -96,7 +96,7 @@ Diferentemente das políticas de retenção, as configurações de retenção de
 
 - Aplicar um rótulo padrão para documentos do Microsoft Office SharePoint Online.
 
-- Suporte [revisão de disposição](disposition-reviews.md) para revisar o conteúdo antes de ser permanentemente excluído.
+- Suporte [revisão de disposição](./disposition.md) para revisar o conteúdo antes de ser permanentemente excluído.
 
 - Marque o conteúdo como um [registro](records-management.md#records) como parte das configurações de rótulo e sempre tenha  [prova de disposição](disposition.md#disposition-of-records) quando o conteúdo é excluído ao fim do período de retenção.
 
@@ -200,7 +200,7 @@ As pastas públicas do Exchange, Skype, Teams e as mensagens do Yammer não ofer
 Um email ou um documento pode ter apenas um único rótulo de retenção atribuído a ele por vez. Um rótulo de retenção pode ser aplicado [manualmente](create-apply-retention-labels.md#manually-apply-retention-labels) por um usuário final ou administrador ou automaticamente usando um dos seguintes métodos:
 
 - [Aplicar política de rótulo automaticamente](apply-retention-labels-automatically.md)
-- [Documento entendendo o modelo do SharePoint Syntex](https://docs.microsoft.com/microsoft-365/contentunderstanding/apply-a-retention-label-to-a-model)
+- [Documento entendendo o modelo do SharePoint Syntex](../contentunderstanding/apply-a-retention-label-to-a-model.md)
 - [Rótulo padrão para SharePoint](create-apply-retention-labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set) ou [Outlook](create-apply-retention-labels.md#applying-a-default-retention-label-to-an-outlook-folder)
 - [Regras do Outlook](create-apply-retention-labels.md#automatically-applying-a-retention-label-to-email-by-using-rules)
 
@@ -376,35 +376,35 @@ As ações de administrador para as políticas de retenção e os rótulos de re
 
 ## <a name="powershell-cmdlets-for-retention-policies-and-retention-labels"></a>Cmdlets do Windows PowerShell para políticas de retenção e rótulos de retenção
 
-Para usar os cmdlets de retenção, primeiro você deve [se conectar ao PowerShell do Centro de Segurança e Conformidade do Office 365](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell). Em seguida, use um dos seguintes cmdlets:
+Para usar os cmdlets de retenção, primeiro você deve [se conectar ao PowerShell do Centro de Segurança e Conformidade do Office 365](/powershell/exchange/connect-to-scc-powershell). Em seguida, use um dos seguintes cmdlets:
 
-- [Get-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/get-compliancetag)
+- [Get-ComplianceTag](/powershell/module/exchange/get-compliancetag)
 
-- [New-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/new-compliancetag)
+- [New-ComplianceTag](/powershell/module/exchange/new-compliancetag)
 
-- [Remove-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/remove-compliancetag)
+- [Remove-ComplianceTag](/powershell/module/exchange/remove-compliancetag)
 
-- [Set-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/set-compliancetag)
+- [Set-ComplianceTag](/powershell/module/exchange/set-compliancetag)
 
-- [Enable-ComplianceTagStorage](https://docs.microsoft.com/powershell/module/exchange/enable-compliancetagstorage)
+- [Enable-ComplianceTagStorage](/powershell/module/exchange/enable-compliancetagstorage)
 
-- [Get-ComplianceTagStorage](https://docs.microsoft.com/powershell/module/exchange/get-compliancetagstorage)
+- [Get-ComplianceTagStorage](/powershell/module/exchange/get-compliancetagstorage)
 
-- [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancepolicy)
+- [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)
 
-- [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy)
+- [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy)
 
-- [Remove-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/remove-retentioncompliancepolicy)
+- [Remove-RetentionCompliancePolicy](/powershell/module/exchange/remove-retentioncompliancepolicy)
 
-- [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy)
+- [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy)
 
-- [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancerule)
+- [Get-RetentionComplianceRule](/powershell/module/exchange/get-retentioncompliancerule)
 
-- [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule)
+- [New-RetentionComplianceRule](/powershell/module/exchange/new-retentioncompliancerule)
 
-- [Remove-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/remove-retentioncompliancerule)
+- [Remove-RetentionComplianceRule](/powershell/module/exchange/remove-retentioncompliancerule)
 
-- [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule)
+- [Set-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule)
 
 ## <a name="when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds"></a>Quando usar políticas de retenção e rótulos de retenção, ou bloqueios de Descoberta Eletrônica
 
@@ -430,11 +430,11 @@ Se o conteúdo estiver sujeito às configurações de retenção e ao bloqueio d
 Se você estiver usando ferramentas de Descoberta Eletrônica mais antigas para preservar dados, consulte os seguintes recursos:
 
 - Exchange: 
-    - [Bloqueio In-loco e Retenção de Litígio](https://go.microsoft.com/fwlink/?linkid=846124)
-    - [Como identificar o tipo de retenção de uma caixa de correio do Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/identify-a-hold-on-an-exchange-online-mailbox)
+    - [Bloqueio In-loco e Retenção de Litígio](/exchange/security-and-compliance/in-place-and-litigation-holds)
+    - [Como identificar o tipo de retenção de uma caixa de correio do Exchange Online](./identify-a-hold-on-an-exchange-online-mailbox.md)
 
 - SharePoint e OneDrive: 
-    - [Adicionar conteúdo a uma ocorrência e colocar fontes em retenção na Descoberta Eletrônica](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
+    - [Adicionar conteúdo a uma ocorrência e colocar fontes em retenção na Descoberta Eletrônica](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
 
 - [Baixa das ferramentas de Descoberta Eletrônica herdadas](legacy-ediscovery-retirement.md)
 
@@ -446,7 +446,7 @@ Se você usa esses recursos mais antigos, eles continuarão a funcionar lado a l
 
 **Recursos mais antigos do Exchange Online:**
 
-- [Marcas de retenção e políticas de retenção](https://go.microsoft.com/fwlink/?linkid=846125), também conhecidas como [gerenciamento de registros de mensagens (MRM)](https://go.microsoft.com/fwlink/?linkid=846126) (apenas exclusão)
+- [Marcas de retenção e políticas de retenção](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies), também conhecidas como [gerenciamento de registros de mensagens (MRM)](/exchange/security-and-compliance/messaging-records-management/messaging-records-management) (apenas exclusão)
 
 **Recursos mais antigos do SharePoint e do OneDrive:**
 
@@ -462,8 +462,8 @@ Se você configurou sites do SharePoint para políticas de tipo de conteúdo ou 
 
 ## <a name="related-information"></a>Informações relacionadas
 
-- [Limites do SharePoint Online](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
-- [Limites e especificações para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
+- [Limites do SharePoint Online](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
+- [Limites e especificações para o Microsoft Teams](/microsoftteams/limits-specifications-teams) 
 - [Recursos para ajudá-lo a atender aos requisitos normativos para o controle de informações e o gerenciamento de registros](retention-regulatory-requirements.md)
 
 ## <a name="configuration-guidance"></a>Instruções de configuração
@@ -473,4 +473,3 @@ Se você estiver pronto para criar políticas de retenção, consulte [Criar e c
 Para criar e aplicar rótulos de retenção:
 - [Criar rótulos de retenção e aplicá-los em aplicativos](create-apply-retention-labels.md)
 - [Aplicar um rótulo de retenção automaticamente ao conteúdo](apply-retention-labels-automatically.md)
-

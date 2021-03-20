@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: Saiba mais sobre itens não indexados no Exchange e no SharePoint que você pode incluir em uma pesquisa de Descoberta Desdiscovery que você executar no centro de conformidade do Microsoft 365.
-ms.openlocfilehash: 308e0755f1966b8e4559cf6f08b3133a00ea1b5a
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 39f78c9a6e937fc7152b86a67e56cc95c132ad6a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711901"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916803"
 ---
 # <a name="partially-indexed-items-in-ediscovery"></a>Itens parcialmente indexados na Descoberta eDiscovery
 
@@ -57,11 +57,11 @@ Determinados tipos de arquivos, como arquivos Bitmap ou MP3, não têm conteúdo
   
 Para obter uma lista de formatos de arquivo com suporte ou desabilitados, confira os tópicos a seguir:
   
-- **Exchange**  -  [Formatos de arquivo indexados pela Pesquisa do Exchange](https://go.microsoft.com/fwlink/p/?LinkID=386618)
+- **Exchange**  -  [Formatos de arquivo indexados pela Pesquisa do Exchange](/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
 
-- **Exchange**  -  [Get-SearchDocumentFormat](https://go.microsoft.com/fwlink/p/?LinkID=724037)
+- **Exchange**  -  [Get-SearchDocumentFormat](/powershell/module/exchange/get-searchdocumentformat)
 
-- **SharePoint**  -  [Extensões de nome de arquivo rastreado padrão e tipos de arquivo analisados no SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=404033)
+- **SharePoint**  -  [Extensões de nome de arquivo rastreado padrão e tipos de arquivo analisados no SharePoint](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
   
 ## <a name="messages-and-documents-with-partially-indexed-file-types-can-be-returned-in-search-results"></a>Mensagens e documentos com tipos de arquivo parcialmente indexados podem ser retornados nos resultados da pesquisa
 
@@ -110,7 +110,7 @@ Uma exceção a essa regra é quando você cria uma isenção baseada em consult
 
 A tabela a seguir descreve os limites de indexação que podem resultar em uma mensagem de email sendo retornada como um item parcialmente indexado em uma pesquisa de Descoberta Eletrônico no Microsoft 365.
   
-Para ver uma lista de limites de indexação para documentos do SharePoint, consulte [Limites de pesquisa para SharePoint Online](https://docs.microsoft.com/sharepoint/search-limits).
+Para ver uma lista de limites de indexação para documentos do SharePoint, consulte [Limites de pesquisa para SharePoint Online](/sharepoint/search-limits).
   
 |**Limite de indexação**|**Observações**|**Descrição**|
 |:-----|:-----|:-----|

@@ -20,12 +20,12 @@ ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 ms.custom:
 - seo-marvel-apr2020
 description: Depois que uma caixa de correio do Office 365 for inativa, altere a duração da retenção ou da política de retenção do Office 365 atribuída à caixa de correio inativa.
-ms.openlocfilehash: ec8a4cac7d2ee8e40bd791bd531556d1151c1ad1
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 49d133c64763cee12cb26e27d372a16ba4ad7e94
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421630"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918197"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>Alterar a duração do bloqueio para uma caixa de correio inativa
 
@@ -40,9 +40,9 @@ Uma caixa de correio inativa é usada para reter o email de um ex-funcionário d
     
 - Para se conectar ao PowerShell do Exchange Online ou ao Centro de Conformidade & e Segurança do PowerShell, consulte um dos seguintes tópicos:
     
-  - [Conectar-se ao PowerShell do Exchange Online ](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+  - [Conectar-se ao PowerShell do Exchange Online ](/powershell/exchange/connect-to-exchange-online-powershell)
     
-  - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+  - [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell)
     
 - Os ressamentos associados a casos de Descoberta e São retém infinitos, o que significa que não há nenhuma duração de espera que pode ser alterada. Os itens são mantidos para sempre ou até que a espera seja removida e a caixa de correio inativa seja excluída.
     

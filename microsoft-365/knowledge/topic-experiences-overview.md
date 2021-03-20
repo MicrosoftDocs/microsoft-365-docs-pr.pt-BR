@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Visão geral dos Tópicos do Viva.
-ms.openlocfilehash: 91442ba12b3d5df1d9934022751f4bc381cd40e8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
-ms.translationtype: HT
+ms.openlocfilehash: 68a88e74a674a7bbc290ae0e8f88bfbe0277d910
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453964"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917375"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Visão geral dos Tópicos do Microsoft Viva 
 
@@ -66,7 +66,7 @@ Quando um tópico é identificado e a IA determina que há informações suficie
 
 Os administradores de conhecimento podem optar por rastrear todos os sites do SharePoint em seu locatário para tópicos ou apenas selecionar tópicos determinados.
 
-Consulte [Descoberta e curadoria de tópicos](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery-curation)
+Consulte [Descoberta e curadoria de tópicos](./topic-experiences-discovery-curation.md)
 
 ## <a name="roles"></a>Funções
 
@@ -108,7 +108,7 @@ Os controles de administrador no Centro de administração do Microsoft 365 perm
 - Controle quais usuários podem criar e editar tópicos.
 - Controle qual usuário pode exibir tópicos.
 
-Confira [atribuir permissões de usuário](https://docs.microsoft.com/microsoft-365/knowledge/plan-topic-experiences#user-permissions), [gerenciar visibilidade de tópicos](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-knowledge-rules) e [gerenciar descoberta de tópicos](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery) para obter mais informações sobre os controles de administrador.
+Confira [atribuir permissões de usuário](./plan-topic-experiences.md#user-permissions), [gerenciar visibilidade de tópicos](./topic-experiences-knowledge-rules.md) e [gerenciar descoberta de tópicos](./topic-experiences-discovery.md) para obter mais informações sobre os controles de administrador.
 
 ## <a name="topic-curation--feedback"></a>Curadoria de tópicos e comentários
 
@@ -120,8 +120,7 @@ Os usuários aos quais você permitir o acesso aos tópicos no trabalho diário 
 
 Além disso, os usuários com permissões adequadas podem marcar itens como uma conversa do Yammer relevante para um tópico e adicioná-los a um tópico específico. 
 
-Consulte [Descoberta e curadoria de tópicos](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery-curation)
+Consulte [Descoberta e curadoria de tópicos](./topic-experiences-discovery-curation.md)
 
 
 ## <a name="see-also"></a>Confira também
-

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Configurar o scanner local de prevenção contra perda de dados do Microsoft 365
-ms.openlocfilehash: e0d7bc9eeae7d701c14aaaeeed7a01cab33829ea
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7e190a1d6e902af3406f7e8f317efe80e825e7f2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417331"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917827"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Obter o scanner local de prevenção contra perda de dados (visualização)
 
@@ -41,7 +41,7 @@ Antes de obter o scanner DLP local, você deve confirmar sua [assinatura do Micr
 - Microsoft 365 E5 Proteção da Informação & Governança 
 
 
-Para obter os detalhes completos do licenciamento, consulte: [Orientação de licenciamento do Microsoft 365 para segurança & conformidade](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+Para obter os detalhes completos do licenciamento, consulte: [Orientação de licenciamento do Microsoft 365 para segurança & conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ### <a name="permissions"></a>Permissões
 
@@ -56,13 +56,13 @@ Os dados do scanner DLP local podem ser visualizados no [Explorador de atividade
 ### <a name="dlp-on-premises-scanner-prerequisites"></a>Pré-requisitos do scanner DLP local
 
 - O scanner de Proteção de Informações do Azure (AIP) implementa a correspondência e a aplicação de políticas de DLP. O scanner é instalado como parte do cliente AIP, portanto, sua instalação deve atender a todos os pré-requisitos para AIP, o cliente AIP e o scanner de etiquetagem unificado AIP.
-- Implantar o cliente e scanner AIP. Para mais informações [Instalar o cliente de rotulagem unificada AIP](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app) e [], consulte [Configurando e instalando o scanner de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install).
+- Implantar o cliente e scanner AIP. Para mais informações [Instalar o cliente de rotulagem unificada AIP](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) e [], consulte [Configurando e instalando o scanner de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/deploy-aip-scanner-configure-install).
 - Deve haver pelo menos um rótulo e uma política publicados no locatário, mesmo se todas as suas regras de detecção forem baseadas apenas em tipos de informações confidenciais.
 
 ## <a name="deploy-the-dlp-on-premises-scanner"></a>Implantar o scanner DLP local
 
-1. Seguir os procedimentos em [Instalar o cliente de rotulagem unificada AIP](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app). 
-2. Segui os procedimentos em [Configurando e instalando o scanner de rotulagem unificada do Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner-configure-install) para concluir a instalação do scanner.
+1. Seguir os procedimentos em [Instalar o cliente de rotulagem unificada AIP](/azure/information-protection/rms-client/install-unifiedlabelingclient-app). 
+2. Segui os procedimentos em [Configurando e instalando o scanner de rotulagem unificada do Proteção de Informações do Azure](/azure/information-protection/deploy-aip-scanner-configure-install) para concluir a instalação do scanner.
     1. Configuração dos trabalhos de descoberta de rede é uma etapa opcional. Você pode ignorá-lo e definir repositórios específicos a serem verificados em seu trabalho de exame de conteúdo.
     2. Você deve criar um trabalho de exame de conteúdo e especificar os repositórios que hospedam arquivos que precisam ser avaliados pelo mecanismo DLP.
     3. Habilitar as regras de DLP no trabalho de exame de conteúdo criado e defina a opção **Aplicar** como **Desligado**, a menos que você queira prosseguir diretamente para o estágio de aplicação de DLP.
@@ -115,7 +115,7 @@ Os dados do scanner DLP local podem ser visualizados no [Explorador de atividade
 
 2. Consulte os procedimentos em [Introdução ao explorador de Atividades](data-classification-activity-explorer.md) para acessar e filtrar todos os dados para os locais do scanner local.
 
-3. Abra o [Registro de Auditoria no centro de Conformidade](https://security.microsoft.com/auditlogsearch). Durante a visualização pública, as correspondências de regras de DLP estão disponíveis na IU do log de Auditoria ou acessíveis por [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) Windows PowerShell 
+3. Abra o [Registro de Auditoria no centro de Conformidade](https://security.microsoft.com/auditlogsearch). Durante a visualização pública, as correspondências de regras de DLP estão disponíveis na IU do log de Auditoria ou acessíveis por [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) Windows PowerShell 
 
 
 ## <a name="next-steps"></a>Próximas etapas

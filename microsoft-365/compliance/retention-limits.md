@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda o número máximo de políticas e itens por política para políticas de retenção e políticas de rótulos de retenção
-ms.openlocfilehash: 547c6396fa9bfcba6dbd271f09a7ea59f9acf170
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: 53539df4d36fab02171e1ac06ba944ed3bea34e8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261579"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917237"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>Limites para políticas de retenção e políticas de rótulo de retenção
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Haverá números máximos a serem considerados ao usar [políticas de retenção e políticas de rótulos de retenção](retention.md#retention-policies-and-retention-labels) para reter ou excluir dados automaticamente da organização.
 
@@ -79,4 +79,3 @@ Exemplo do SharePoint:
 - **Solução**: criar 20 políticas de retenção para o SharePoint com um período de retenção de 10 anos que inclui 100 sites específicos e criar 80 políticas de retenção para o SharePoint com um período de retenção de 4 anos que inclui 100 sites específicos.
     
     Como não é necessário manter todos os sites do SharePoint, você deve criar políticas de retenção que especificam os sites específicos. Como uma política de retenção não dá suporte a mais de 100 sites especificados, você deve criar várias políticas para os dois períodos de retenção. Essas políticas de retenção têm o número máximo de sites incluídos, para que o próximo novo site que precise da retenção exija uma nova política, independentemente do período de retenção.
-

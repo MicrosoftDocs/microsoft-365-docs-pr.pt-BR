@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Use o Microsoft Endpoint Manager para gerenciar seus dispositivos, PCs e outros pontos de extremidade.
-ms.openlocfilehash: bca3e8e79264a2218dd1036e50be1c9ab29d2b8a
-ms.sourcegitcommit: ae646779d84e993cf80b1207e76b856a21be5790
+ms.openlocfilehash: db06c7d65da1939ffbb04db64ea901e211b074f6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49749594"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918333"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Etapa 4. Implantar o gerenciamento de pontos de extremidade em seus dispositivos, PCs e outros pontos de extremidade
 
 Com funcionários remotos, é necessário oferecer suporte a um número crescente de dispositivos pessoais. O gerenciamento de pontos de extremidade é uma abordagem de segurança baseada em políticas que exige que os dispositivos obedeçam a critérios específicos antes de receberem acesso aos recursos. O Microsoft Endpoint Manager oferece um ambiente de trabalho e recursos de gerenciamento modernos para manter seus dados seguros na nuvem e no local. 
 
-O [Microsoft Endpoint Manager](https://docs.microsoft.com/mem/endpoint-manager-overview) fornece serviços e ferramentas para gerenciar dispositivos móveis, computadores desktop, máquinas virtuais, dispositivos incorporados e servidores, combinando os seguintes serviços que você já conhece e utiliza.
+O [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) fornece serviços e ferramentas para gerenciar dispositivos móveis, computadores desktop, máquinas virtuais, dispositivos incorporados e servidores, combinando os seguintes serviços que você já conhece e utiliza.
 
 ![Os componentes de gerenciamento de terminal para o Microsoft 365](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
@@ -40,13 +40,13 @@ O Microsoft Intune é um serviço baseado em nuvem com foco no gerenciamento de 
 
 - **MAM:** As pessoas que trabalham remotamente podem não querer que você tenha um controle total de seus dispositivos pessoais, também conhecidos como dispositivos “BYOD”, do inglês “traga seu próprio dispositivo”. Você pode oferecer opções aos seus funcionários remotos e ainda assim proteger a sua organização. Por exemplo, os funcionários remotos podem matricular seus dispositivos se desejarem ter acesso total aos recursos da sua organização. Alternativamente, se esses usuários desejarem acesso somente ao email ou ao Microsoft Teams,poderão optar por aplicar políticas de proteção de aplicativos que exigem uma autenticação multifator (MFA) para o uso desses aplicativos.
 
-Para obter mais informações, confira a [visão geral do Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune).
+Para obter mais informações, confira a [visão geral do Microsoft Intune](/intune/fundamentals/what-is-intune).
 
 ## <a name="configuration-manager"></a>Gerenciador de Configurações
 
 O Gerenciador de Configurações é uma solução de gerenciamento local para gerenciar desktops, servidores e laptops que estão na sua rede ou baseada na Internet. Use o Gerenciador de Configurações para implantar aplicativos, atualizações de software e sistemas operacionais. Você também pode monitorar a conformidade, consultar e agir sobre os clientes em tempo real e muito mais. Você pode habilitá-lo para a nuvem para ele se integrar com o Intune, Azure Active Directory, Microsoft Defender para Ponto de Extremidade e outros serviços em nuvem. 
 
-Para obter mais informações, confira a [visão geral do Gerenciador de Configurações](https://docs.microsoft.com/mem/configmgr/core/understand/introduction).
+Para obter mais informações, confira a [visão geral do Gerenciador de Configurações](/mem/configmgr/core/understand/introduction).
 
 ## <a name="co-management"></a>Co-gerenciamento
 
@@ -54,7 +54,7 @@ O co-gerenciamento combina seu investimento existente no Gerenciador de Configur
 
 O gerenciamento compartilhado utiliza recursos na nuvem baseados no Intune, entre eles o acesso condicional e a aplicação da conformidade de dispositivos.  Algumas tarefas são mantidas no local e outras são executadas na nuvem.
 
-Para mais informações, confira esta [visão geral do co-gerenciamento](https://docs.microsoft.com/mem/configmgr/comanage/overview).
+Para mais informações, confira esta [visão geral do co-gerenciamento](/mem/configmgr/comanage/overview).
 
 ## <a name="desktop-analytics"></a>Análise de Área de Trabalho
 
@@ -68,7 +68,7 @@ Com a Análise de Área de Trabalho, você pode:
 - Criar grupos piloto que representem todo o aplicativo e o estado do driver em um conjunto mínimo de dispositivos.
 - Implantar o Windows 10 em dispositivos piloto e gerenciados em ambiente de produção.
 
-Para obter mais informações, confira a [visão geral da Análise de Área de Trabalho](https://docs.microsoft.com/mem/configmgr/desktop-analytics/overview).
+Para obter mais informações, confira a [visão geral da Análise de Área de Trabalho](/mem/configmgr/desktop-analytics/overview).
 
 ## <a name="windows-autopilot"></a>Windows Autopilot
 
@@ -79,13 +79,13 @@ O Windows Autopilot permite que o departamento de Ti pré-configure dispositivos
 - Da perspectiva do usuário, são necessárias apenas algumas operações simples para deixar seu dispositivo pronto para uso. 
 - Da perspectiva do profissional de TI, a única interação necessária do usuário final é conectar-se a uma rede e verificar suas credenciais.
 
-Para obter mais informações, confira a [visão geral do Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot).
+Para obter mais informações, confira a [visão geral do Windows Autopilot](/windows/deployment/windows-autopilot/windows-autopilot).
 
 ## <a name="admin-technical-resources-for-endpoint-management"></a>Recursos técnicos de administração para o gerenciamento de pontos de extremidade
 
 - [Roteiro de gerenciamento de dispositivos para Microsoft 365](../enterprise/device-management-roadmap-microsoft-365.md)
-- [Como registrar diferentes tipos de dispositivos para gerenciamento de dispositivos móveis (MDM)](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment)
-- [Como educar seus usuários finais sobre o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/end-user-educate)
+- [Como registrar diferentes tipos de dispositivos para gerenciamento de dispositivos móveis (MDM)](/mem/intune/enrollment/device-enrollment)
+- [Como educar seus usuários finais sobre o Microsoft Intune](/mem/intune/fundamentals/end-user-educate)
  
 ## <a name="results-of-step-4"></a>Resultados da Etapa 4
 

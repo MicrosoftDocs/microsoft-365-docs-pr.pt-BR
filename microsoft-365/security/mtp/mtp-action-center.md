@@ -17,17 +17,16 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 12/09/2020
-ms.technology: m365d
-ms.openlocfilehash: 45e02e4ce7d5d813cc8215a1f27ed9c415707cb1
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.date: 02/01/2021
+ms.openlocfilehash: c1eba9d78d45068788789825c3513a0fa70255b9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930421"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917124"
 ---
 # <a name="the-action-center"></a>A Central de Ações
 
@@ -37,10 +36,6 @@ ms.locfileid: "49930421"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Use a Central de ações ( ) para ver os resultados de investigações atuais e passadas nos dispositivos e caixas de [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) correio da sua organização. Dependendo do tipo de ameaça e veredito [resultante,](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) as ações de correção podem ocorrer automaticamente ou mediante aprovação da equipe de operações de segurança da sua organização. Todas as ações de correção, se estão aguardando aprovação ou que já foram aprovadas, estão consolidadas na Central de ações. 
-
-![Central de Ações](../../media/air-actioncenter.png)
-
 ## <a name="a-single-pane-of-glass-experience"></a>Uma experiência de "painel único"
 
 A Central de ações fornece uma experiência de "painel único" para tarefas, como:
@@ -48,79 +43,96 @@ A Central de ações fornece uma experiência de "painel único" para tarefas, c
 - Exibir um log de auditoria de ações de correção já aprovadas; e
 - Revendo as ações de correção concluídas.
 
-Sua equipe de operações de segurança pode operar de forma mais eficaz e eficiente, porque a Central de Ações fornece uma visão abrangente do Microsoft 365 Defender no trabalho.
+Sua equipe de operações de segurança pode operar de forma mais eficaz e eficiente, pois o Centro de Ações fornece uma visão abrangente do Microsoft 365 Defender no trabalho.
 
-## <a name="go-to-the-action-center"></a>Ir para a Central de ações
+## <a name="a-new-unified-action-center"></a>Um novo centro de ações unificado
 
-1. Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre. 
+Temos o prazer de anunciar um novo Centro de Ações unificado ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) )! 
 
-2. No painel de navegação, escolha **Central de ações**. 
+:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Centro de Ações Unificadas no Microsoft 365 Defender":::
 
-3. Na Central de ações, você verá duas **guias:** Pendente e **Histórico.**
+O Centro de Ações aprimorado lista ações de correção pendentes e concluídas para seus dispositivos, email & conteúdo de colaboração e identidades em um único local.
+- Se você estava usando anteriormente o Centro de Conformidade e Segurança do Office 365 & ( ), experimente o novo centro de ações unificado no centro de segurança do [https://protection.office.com](https://protection.office.com) Microsoft 365 ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Se você estava usando a Central de Ações no Centro de Segurança do Microsoft Defender ( ), experimente o novo centro de ações unificado no centro de segurança do [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) Microsoft 365 ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Se você já estava usando o centro de segurança do Microsoft 365 ( ), você verá várias melhorias no [https://security.microsoft.com](https://security.microsoft.com) Centro de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
 
-    - A guia **Pendente** lista as investigações que exigem revisão e aprovação de alguém na sua equipe de operações de segurança para continuar. Certifique-se de revisar e executar ações em itens pendentes que você vê aqui.
+O centro de ações unificado reúne ações de correção no Defender para Ponto de Extremidade e no Defender para Office 365. Ele define um idioma comum para todas as ações de correção e fornece uma experiência de investigação unificada. O Centro de Ações fornece à sua equipe de operações de segurança uma experiência de "painel único de vidro" para exibir e gerenciar ações de correção.  
 
-    - A guia **Histórico** lista investigações anteriores e ações de correção que foram executadas automaticamente. Você pode exibir dados do dia, semana, mês ou seis meses anteriores.
+Você pode usar o Centro de Ações unificado se tiver permissões apropriadas e uma ou mais das seguintes assinaturas:
 
-4. Para mostrar somente as colunas que você deseja ver, selecione **Personalizar colunas**.<br/>![Central de Ações no Microsoft 365 Defender](../../media/mtp-action-center.png)
-
-5. Selecione um item na lista para exibir mais detalhes sobre uma investigação. A visualização de detalhes da investigação abrirá.<br/>![Detalhes da investigação](../../media/mtp-air-investdetails.png)
-
-    - Se a investigação pertencer ao conteúdo do email (como, por exemplo, a entidade é uma caixa de correio), os detalhes da investigação serão abertos no Centro de Conformidade & Segurança ( [https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation) ). 
-
-    - Se a investigação envolve um dispositivo, detalhes de investigação abrirão na central de segurança ([https://security.microsoft.com](https://security.microsoft.com)). 
+- [Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [O que é o Defender para Office 365?](../office-365-security/office-365-atp.md)
+- [Microsoft 365 Defender](./microsoft-threat-protection.md)
 
 > [!TIP]
-> Se você acha que algo foi perdido ou detectado incorretamente pelos recursos de investigação e resposta automatizadas no Microsoft 365 Defender, nos avise! Veja como relatar falsos positivos/negativos em recursos automatizados de investigação e resposta [(AIR) no Microsoft 365 Defender.](mtp-autoir-report-false-positives-negatives.md)
+> Para saber mais, confira [Requisitos](./prerequisites.md).
 
-## <a name="available-actions"></a>Ações disponíveis
+## <a name="using-the-action-center"></a>Usando o Centro de Ações
 
-À medida que as ações de correção são tomadas, elas são listadas na guia **Histórico** da Central de Ações. Essas ações incluem o seguinte:
+1. Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre. 
+2. No painel de navegação, escolha **Central de ações**. 
+
+Ao visitar a Central de Ações, você verá duas guias: Ações pendentes e Histórico. A tabela a seguir resume o que você verá em cada guia:
+
+|Guia  |Descrição  |
+|---------|---------|
+|**Pending**     | Exibe uma lista de ações que exigem atenção. Você pode aprovar ou rejeitar ações uma por vez ou selecionar várias ações se elas têm o mesmo tipo de ação (como arquivo de Quarentena). <p>**DICA**: Certifique-se de revisar e aprovar (ou rejeitar) ações pendentes assim que possível para que suas investigações automatizadas possam ser concluídas em tempo hábil.       |
+|**Histórico**     | Serve como um log de auditoria para ações que foram realizadas, como: <br/>- Ações de correção que foram tomadas como resultado de investigações automatizadas <br/>- Ações de correção que foram tomadas em mensagens de email suspeitas ou mal-intencionadas, arquivos ou URLs<br/>- Ações de correção aprovadas pela sua equipe de operações de segurança <br/>- Comandos executados e ações de correção que foram aplicadas durante as sessões de Resposta ao Vivo<br/>- Ações de correção que foram tomadas pela proteção antivírus <p>Fornece uma maneira de desfazer determinadas ações (consulte [Desfazer ações concluídas](mtp-autoir-actions.md#undo-completed-actions)).        |
+
+Você pode personalizar, classificar, filtrar e exportar dados no Centro de Ações.
+
+:::image type="content" source="../../media/m3d-action-center-columnsfilters.png" alt-text="O Centro de Ações permite classificar, filtrar e personalizar sua lista de ações":::
+
+- Selecione um título de coluna para classificar itens em ordem crescente ou decrescente.
+- Use o filtro de período de tempo para exibir dados do último dia, semana, 30 dias ou 6 meses.
+- Escolha as colunas que você deseja exibir.
+- Especifique quantos itens devem ser incluídos em cada página de dados.
+- Use filtros para exibir apenas os itens que você deseja ver.
+- Selecione **Exportar** para exportar resultados para um arquivo .csv.
+
+## <a name="actions-tracked-in-the-action-center"></a>Ações controladas no Centro de Ações
+
+Todas as ações, sejam elas pendentes de aprovação ou já foram realizadas, são controladas no Centro de Ações. As ações disponíveis incluem o seguinte:
 
 - Coletar pacote de investigação 
 - Isolar dispositivo (essa ação pode ser desfeita) 
-- Computador de redação 
-- Liberar execução de código 
+- Máquina de offboard 
+- Execução de código de versão 
 - Liberar da quarentena 
 - Exemplo de solicitação 
 - Restringir a execução de código (essa ação pode ser desfeita) 
-- Executar a verificação antivírus 
+- Executar verificação antivírus 
 - Parar e colocar em quarentena 
 
-> [!NOTE]
-> Além das ações de correção que são realizadas automaticamente, sua equipe de operações de segurança pode realizar ações manuais para lidar com ameaças detectadas. Para obter mais informações sobre ações de correção automáticas e manuais, consulte [Ações de correção.](mtp-remediation-actions.md)
+Além das ações de correção que são tomadas automaticamente como resultado de [investigações automatizadas,](mtp-autoir.md)o Centro de Ações também rastreia ações que sua equipe de segurança tem feito para resolver ameaças detectadas e ações que foram tomadas como resultado de recursos de proteção contra ameaças no Microsoft 365 Defender. Para obter mais informações sobre ações de correção automáticas e manuais, consulte [Ações de correção](mtp-remediation-actions.md).
 
-## <a name="action-source"></a>Origem da ação
+## <a name="viewing-action-source-details"></a>Exibindo detalhes da origem da ação
 
-(**NOVO!**) Como você sabe, o Microsoft 365 Defender reúne recursos automatizados de investigação e resposta em vários serviços, como [o Microsoft Defender para](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) Ponto de Extremidade e o Microsoft Defender para Office [365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) A central de ações nova e  aprimorada agora inclui uma coluna de origem de ação que informa de onde cada ação de correção veio. 
-
-A tabela a seguir descreve os valores **de origem de ação possíveis:**
+(**NOVO!**) O Centro de Ações aprimorado agora inclui uma coluna **de origem** action que informa de onde cada ação veio. A tabela a seguir descreve os possíveis **valores de origem action:**
 
 | Valor de origem da ação | Descrição |
 |:-----|:---|
-| **Ação manual do dispositivo** | Uma ação manual realizada em um dispositivo. Exemplos incluem [isolamento de dispositivo ou](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network) quarentena de [arquivo.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts#stop-and-quarantine-files) |
-| **Ação manual de email** | Uma ação manual realizada no email. Um exemplo inclui a exclusão suave de mensagens de email ou [a correção de uma mensagem de email.](https://docs.microsoft.com/microsoft-365/security/office-365-security/remediate-malicious-email-delivered-office-365) |
-| **Ação automatizada do dispositivo** | Uma ação automatizada realizada em uma entidade, como um arquivo ou processo. Exemplos de ações automatizadas incluem o envio de um arquivo para a quarentena, a interrupção de um processo e a remoção de uma chave do Registro. (Consulte [Ações de correção no Microsoft Defender para o ponto de extremidade.)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-auto-investigation#remediation-actions) |
-| **Ação de email automatizada** | Uma ação automatizada realizada no conteúdo do email, como uma mensagem de email, anexo ou URL. Exemplos de ações automatizadas incluem a exclusão suave de mensagens de email, o bloqueio de URLs e a exclusão do encaminhamento de emails externos. (Consulte [Ações de correção no Microsoft Defender para Office 365.)](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions) |
-| **Ação de busca avançada** | Ações tomadas em dispositivos ou emails com [busca avançada.](https://docs.microsoft.com/microsoft-365/security/mtp/advanced-hunting-overview) |
-| **Ação do Explorer** | Ações tomadas no conteúdo de email com o [Explorer.](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) |
-| **Ação manual de resposta ao vivo** | Ações tomadas em um dispositivo com [resposta ao vivo.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) Exemplos incluem a exclusão de um arquivo, a interrupção de um processo e a remoção de uma tarefa agendada. |
-| **Ação de resposta ao vivo** | Ações tomadas em um dispositivo com [o Microsoft Defender para APIs de ponto de extremidade.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis) Exemplos de ações incluem isolar um dispositivo, executar uma verificação antivírus e obter informações sobre um arquivo. |
+| **Ação manual do dispositivo** | Uma ação manual realizada em um dispositivo. Exemplos [incluem isolamento de dispositivo ou](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network) quarentena de [arquivo](/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts#stop-and-quarantine-files). |
+| **Ação de email manual** | Uma ação manual realizada no email. Um exemplo inclui a exclusão suave de mensagens de email ou [a correção de uma mensagem de email](../office-365-security/remediate-malicious-email-delivered-office-365.md). |
+| **Ação de dispositivo automatizada** | Uma ação automatizada realizada em uma entidade, como um arquivo ou processo. Exemplos de ações automatizadas incluem o envio de um arquivo para quarentena, a interrupção de um processo e a remoção de uma chave do Registro. (Consulte [Ações de correção no Microsoft Defender para Ponto de](/windows/security/threat-protection/microsoft-defender-atp/manage-auto-investigation#remediation-actions)Extremidade .) |
+| **Ação de email automatizada** | Uma ação automatizada realizada no conteúdo de email, como uma mensagem de email, anexo ou URL. Exemplos de ações automatizadas incluem a exclusão automática de mensagens de email, o bloqueio de URLs e a exclusão do encaminhamento de emails externos. (Consulte [Ações de correção no Microsoft Defender para Office 365](../office-365-security/air-remediation-actions.md).) |
+| **Ação de busca avançada** | Ações realizadas em dispositivos ou emails com [busca avançada.](./advanced-hunting-overview.md) |
+| **Ação do Explorer** | Ações realizadas no conteúdo de email com [o Explorer](../office-365-security/threat-explorer.md). |
+| **Ação manual de resposta ao vivo** | Ações realizadas em um dispositivo com [resposta ao vivo](/windows/security/threat-protection/microsoft-defender-atp/live-response). Exemplos incluem a exclusão de um arquivo, a interrupção de um processo e a remoção de uma tarefa agendada. |
+| **Ação de resposta ao vivo** | Ações realizadas em um dispositivo com [o Microsoft Defender para APIs do Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/management-apis#microsoft-defender-for-endpoint-apis) Exemplos de ações incluem isolar um dispositivo, executar uma verificação antivírus e obter informações sobre um arquivo. |
 
 ## <a name="required-permissions-for-action-center-tasks"></a>Permissões necessárias para tarefas da Central de ações
 
-Para aprovar ou rejeitar ações pendentes na Central de ações, você deve ter permissões atribuídas conforme listado na tabela a seguir:
+Para executar tarefas, como aprovar ou rejeitar ações pendentes no Centro de Ações, você deve ter permissões atribuídas conforme listado na tabela a seguir:
 
 |Ação de correção |Funções e permissões necessárias |
 |--|----|
-|Correção do Microsoft Defender para Pontos de Extremidade (dispositivos) |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---ou---<br/>Função de ações de correção ativas atribuídas no Microsoft Defender para Ponto de Extremidade <br/> <br/> Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Criar e gerenciar funções para controle de acesso baseado em função (Microsoft Defender para Ponto de Extremidade)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
-|Correção do Microsoft Defender para Office 365 (conteúdo do Office e email)  |Função Administrador de Segurança atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>Função pesquisar e limpar atribuída ao Centro de Conformidade & Segurança ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**IMPORTANTE:**& se você tiver a função Administrador de Segurança atribuída apenas no Centro de Conformidade e Segurança, não poderá acessar a Central de Ações ou os recursos do Microsoft 365 Defender. Você deve ter a função Administrador de Segurança atribuída no Azure Active Directory ou no centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no Centro de Conformidade & segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Microsoft Defender para Correção de Ponto de Extremidade (dispositivos) |Função **Administrador de Segurança** atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---ou---<br/>**Função de ações de correção** ativa atribuídas ao Microsoft Defender para Ponto de Extremidade <br/> <br/> Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Criar e gerenciar funções para controle de acesso baseado em função (Microsoft Defender para Ponto de Extremidade)](/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
+|Correção do Microsoft Defender para Office 365 (conteúdo do Office e email)  |Função **Administrador de Segurança** atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>**Função de pesquisa e** limpeza atribuída ao Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**IMPORTANTE**: Se  você tiver a função de Administrador de Segurança atribuída apenas no Centro de Conformidade e Segurança do Office 365 & ( ), você não poderá acessar o Centro de Ações ou os recursos do [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. Você deve ter a função **administrador de segurança** atribuída no Azure Active Directory ou no Centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no Centro de Conformidade & Segurança](../office-365-security/permissions-in-the-security-and-compliance-center.md) |
 
-> [!NOTE]
-> Os usuários que têm a função Administrador Global atribuída no Azure Active Directory podem aprovar ou rejeitar qualquer ação pendente na Central de ações. No entanto, como uma prática recomendada, sua organização deve limitar o número de pessoas que têm a função de Administrador Global atribuída. É recomendável usar o Administrador de Segurança, Ações de correção ativa e as funções Pesquisar e Limpar, listadas acima, para permissões da Central de ações.
+> [!TIP]
+> Os usuários que têm a função **Administrador Global** atribuída no Azure Active Directory podem aprovar ou rejeitar qualquer ação pendente na Central de ações. No entanto, como prática prática, sua organização deve limitar o número de pessoas que têm a função de **Administrador Global** atribuída. Recomendamos usar as funções Administrador de **Segurança,** Correção Ativa **e** Pesquisa e Limpeza listadas na tabela anterior para permissões do Centro de Ações. 
 
-## <a name="next-steps"></a>Próximas etapas 
+## <a name="next-step"></a>Próxima etapa 
 
-- [Aprovar ou rejeitar ações pendentes após uma investigação automatizada](mtp-autoir-actions.md)
-- [Exibir os resultados de uma investigação automatizada](mtp-autoir-results.md)
-
+- [Revisar e gerenciar ações de correção](mtp-autoir-actions.md)

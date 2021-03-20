@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Aprenda a usar o verificador local de prevenção contra perda de dados do  Microsoft 365 para examinar dados inativos e implementar ações de proteção para compartilhamentos de arquivos locais e pastas e bibliotecas de documentos locais do SharePoint.
-ms.openlocfilehash: 34be93f5c9980a7f8ea8ad31b708af14a8725f73
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: c46b67ca392732616329bad138166c892cd06640
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50417329"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917817"
 ---
 # <a name="use-the-microsoft-365-data-loss-prevention-on-premises-scanner-preview"></a>Use o verificador local de prevenção contra perda de dados do Microsoft 365 (pré-visualização)
 
@@ -47,7 +47,7 @@ Dados de superfícies de verificação local DLP em várias áreas
  
 #### <a name="microsoft-365-audit-log"></a>Log de auditoria do Microsoft 365
 
-Durante a visualização pública, as correspondências de regras de DLP estão disponíveis na UI, consulte [Pesquisar o log de auditoria no centro de conformidade](search-the-audit-log-in-security-and-compliance.md)  ou acessíveis por [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) Windows PowerShell.
+Durante a visualização pública, as correspondências de regras de DLP estão disponíveis na UI, consulte [Pesquisar o log de auditoria no centro de conformidade](search-the-audit-log-in-security-and-compliance.md)  ou acessíveis por [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) Windows PowerShell.
 
 #### <a name="aip"></a>AIP
 

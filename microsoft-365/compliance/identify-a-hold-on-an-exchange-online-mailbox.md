@@ -17,12 +17,12 @@ ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como identificar os diferentes tipos de espera que podem ser colocados em uma caixa de correio do Exchange Online no Microsoft 365.
-ms.openlocfilehash: a5bea8cd279bb980ba2f8a57950c8a66857ba502
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 0fdfbd4503a4ddffd2ce2dd97c6af42684aea293
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423622"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917531"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Como identificar o tipo de retenção de uma caixa de correio do Exchange Online
 
@@ -34,7 +34,7 @@ O Microsoft 365 oferece várias maneiras de sua organização impedir que o cont
 
 - **[Ressução de Descoberta e](create-ediscovery-holds.md):** Retém que estão associados a um caso core de Descoberta eDiscovery no centro de segurança e conformidade. Os ressarceções de Descoberta Eletrônico podem ser aplicados às caixas de correio de usuário e à caixa de correio correspondente para grupos do Microsoft 365 e microsoft teams.
 
-- **[Espera in-locar:](https://docs.microsoft.com/Exchange/security-and-compliance/create-or-remove-in-place-holds)** Retém que são aplicados às caixas de correio de usuário usando In-Place ferramenta de & de & no centro de administração do Exchange no Exchange Online. 
+- **[Espera in-locar:](/Exchange/security-and-compliance/create-or-remove-in-place-holds)** Retém que são aplicados às caixas de correio de usuário usando In-Place ferramenta de & de & no centro de administração do Exchange no Exchange Online. 
 
    > [!NOTE]
    > In-Place os respossos foram retirados e você não pode mais criar In-Place ou aplicá-los a caixas de correio. No entanto, In-Place os Holds ainda podem ser aplicados a caixas de correio em sua organização, razão pela qual elas estão incluídas neste artigo. Para obter mais informações, [consulte Retirement of legacy eDiscovery tools](legacy-ediscovery-retirement.md#in-place-ediscovery-and-in-place-holds-in-the-exchange-admin-center).
@@ -59,7 +59,7 @@ Você pode executar os dois cmdlets a seguir no PowerShell do Exchange Online pa
 
 - **Get-OrganizationConfig:** Use este cmdlet para obter os GUIDs para políticas de retenção em toda a organização.
 
-Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 
@@ -129,7 +129,7 @@ Depois de obter o GUID para uma ressarção aplicada a uma caixa de correio, a p
 
 Execute os seguintes comandos no Centro de Conformidade & e Segurança do PowerShell para identificar uma ressarção de Descoberta Eletrônico aplicada à caixa de correio. Use o GUID (sem incluir o prefixo UniH) para a isenção de Descoberta e que você identificou na Etapa 1. 
 
-Para se conectar ao Centro de Conformidade & Segurança do PowerShell, consulte  [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Para se conectar ao Centro de Conformidade & Segurança do PowerShell, consulte  [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 O primeiro comando cria uma variável que contém informações sobre a espera. Essa variável é usada nos outros comandos. O segundo comando exibe o nome da ocorrência de Descoberta e à que a responsabilidade está associada. O terceiro comando exibe o nome da ressarção e uma lista das caixas de correio às que a espera se aplica.
 
@@ -227,7 +227,7 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 > [!TIP]
 > A melhor maneira de especificar uma caixa de correio inativa no comando anterior é usar seu valor de Nome Diferenciado ou GUID do Exchange. Usar um desses valores ajuda a evitar a especificação acidental da caixa de correio errada. 
 
-Para obter mais informações sobre como usar esses parâmetros para gerenciar restituições de atraso, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
+Para obter mais informações sobre como usar esses parâmetros para gerenciar restituições de atraso, consulte [Set-Mailbox](/powershell/module/exchange/set-mailbox).
 
 Lembre-se das seguintes coisas ao gerenciar uma caixa de correio em espera:
 
@@ -239,7 +239,7 @@ Lembre-se das seguintes coisas ao gerenciar uma caixa de correio em espera:
 
 Depois de identificar os retenções aplicados a uma caixa de correio, você pode executar tarefas como alterar a duração da retenção, remover temporaria ou permanentemente a retenção ou excluir uma caixa de correio inativa de uma política de retenção do Microsoft 365. Para obter mais informações sobre a execução de tarefas relacionadas a retém, consulte um dos seguintes tópicos:
 
-- Execute o [comando Set-RetentionCompliancePolicy \<Policy Name> -Identity -AddExchangeLocationEx & ception \<user mailbox> ](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy) no Centro de Conformidade e Segurança do PowerShell para excluir uma caixa de correio de uma política de retenção do Microsoft 365 em toda a organização. Esse comando só pode ser usado para políticas de retenção em que o valor da *propriedade ExchangeLocation* é igual `All` a .
+- Execute o [comando Set-RetentionCompliancePolicy \<Policy Name> -Identity -AddExchangeLocationEx & ception \<user mailbox> ](/powershell/module/exchange/set-retentioncompliancepolicy) no Centro de Conformidade e Segurança do PowerShell para excluir uma caixa de correio de uma política de retenção do Microsoft 365 em toda a organização. Esse comando só pode ser usado para políticas de retenção em que o valor da *propriedade ExchangeLocation* é igual `All` a .
 
 - [Alterar a duração de retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md)
 

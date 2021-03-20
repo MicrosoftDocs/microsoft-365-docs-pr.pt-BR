@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Um classificador do Microsoft 365 é uma ferramenta que você pode treinar para reconhecer vários tipos de conteúdo, dando a ele exemplos para ver. Este artigo mostra como criar e treinar um classificador personalizado e como retreiná-los para aumentar a precisão.
-ms.openlocfilehash: a73acd7665cd23f13329bb5db4e890b0f3b0d861
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 90e47ec94528bbadeb98dc9eb590929e25ae6ff1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423290"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918175"
 ---
 # <a name="get-started-with-trainable-classifiers"></a>Comece com classificadores treináveis
 
@@ -95,7 +95,7 @@ Depois que o classificador treinável tiver processado amostras positivas sufici
 
 ## <a name="how-to-create-a-trainable-classifier"></a>Como criar um classificador treinável
 
-1. Coletar entre 50 e 500 itens de conteúdo de semente. Esses devem ser apenas exemplos que representam fortemente o tipo de conteúdo que você deseja que o classificador treinável identifique positivamente como estando na categoria de classificação. Consulte [Extensões de nome de arquivo](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) rastreado padrão e tipos de arquivo analisados no SharePoint Server para os tipos de arquivo com suporte.
+1. Coletar entre 50 e 500 itens de conteúdo de semente. Esses devem ser apenas exemplos que representam fortemente o tipo de conteúdo que você deseja que o classificador treinável identifique positivamente como estando na categoria de classificação. Consulte [Extensões de nome de arquivo](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) rastreado padrão e tipos de arquivo analisados no SharePoint Server para os tipos de arquivo com suporte.
 
    > [!IMPORTANT]
    > Os itens de amostra de semente e teste não devem ser criptografados e devem estar em inglês.
@@ -127,7 +127,7 @@ Depois que o classificador treinável tiver processado amostras positivas sufici
     > [!div class="mx-imgBorder"]
     > ![classificador treinável pronto para teste](../media/classifier-trainable-ready-to-test-detail.png)
 
-11. Colete pelo menos 200 itens de conteúdo de teste (10.000 no máximo) para melhores resultados. Eles devem ser uma mistura de itens que são positivos fortes, negativos fortes e alguns que são um pouco menos óbvios em sua natureza. Consulte [Extensões de nome de arquivo](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) rastreado padrão e tipos de arquivo analisados no SharePoint Server para os tipos de arquivo com suporte.
+11. Colete pelo menos 200 itens de conteúdo de teste (10.000 no máximo) para melhores resultados. Eles devem ser uma mistura de itens que são positivos fortes, negativos fortes e alguns que são um pouco menos óbvios em sua natureza. Consulte [Extensões de nome de arquivo](/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) rastreado padrão e tipos de arquivo analisados no SharePoint Server para os tipos de arquivo com suporte.
 
     > [!IMPORTANT]
     > Os itens de exemplo não devem ser criptografados e devem estar em inglês.

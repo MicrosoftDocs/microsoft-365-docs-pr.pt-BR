@@ -18,12 +18,12 @@ description: Saiba como reconhecer e remediar as regras do Outlook e ataques de 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 30ddd5f57dee2156504211e76304d346a63e192d
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 0846051b65b34ec26358f87bb4ca49302573e6e7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406695"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917041"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Detectar e remediar as regras do Outlook e ataques de injeções de formulários personalizados
 
@@ -110,7 +110,7 @@ Você pode usar um dos seguintes métodos para confirmar o ataque:
 
 4. Procure na descrição da regra ações de regra que iniciam e solicitam ou se referem a um . EXE, . Arquivo ZIP ou para iniciar uma URL.
 
-5. Procure por novos processos que comecem a usar a ID do processo do Outlook. Consulte [Find the Process ID](https://docs.microsoft.com/windows-hardware/drivers/debugger/finding-the-process-id).
+5. Procure por novos processos que comecem a usar a ID do processo do Outlook. Consulte [Find the Process ID](/windows-hardware/drivers/debugger/finding-the-process-id).
 
 ### <a name="steps-to-confirm-the-forms-attack-using-the-outlook-client"></a>Etapas para confirmar o ataque forms usando o cliente do Outlook
 
@@ -176,19 +176,19 @@ Há dois cmdlets remotos do PowerShell que você pode usar para remover ou desab
 
 #### <a name="steps-for-mailboxes-that-are-on-an-exchange-server"></a>Etapas para caixas de correio que estão em um servidor Exchange
 
-1. Conecte-se ao servidor Exchange usando o PowerShell remoto. Siga as etapas em [Conectar-se a servidores Exchange usando o PowerShell remoto.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-servers-using-remote-powershell)
+1. Conecte-se ao servidor Exchange usando o PowerShell remoto. Siga as etapas em [Conectar-se a servidores Exchange usando o PowerShell remoto.](/powershell/exchange/connect-to-exchange-servers-using-remote-powershell)
 
-2. Se você quiser remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o cmdlet [Remove-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
+2. Se você quiser remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o cmdlet [Remove-InboxRule.](/powershell/module/exchange/Remove-InboxRule)
 
-3. Se você quiser manter a regra e seu conteúdo para investigação posterior, use o cmdlet [Disable-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule)
+3. Se você quiser manter a regra e seu conteúdo para investigação posterior, use o cmdlet [Disable-InboxRule.](/powershell/module/exchange/disable-inboxrule)
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Etapas para caixas de correio no Exchange Online
 
-1. Siga as etapas em [Conectar-se ao Exchange Online usando o PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. Siga as etapas em [Conectar-se ao Exchange Online usando o PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Se você quiser remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o cmdlet [Remove-Inbox Rule.](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule)
+2. Se você quiser remover completamente uma única regra, várias regras ou todas as regras de uma caixa de correio, use o cmdlet [Remove-Inbox Rule.](/powershell/module/exchange/Remove-InboxRule)
 
-3. Se você quiser manter a regra e seu conteúdo para investigação posterior, use o cmdlet [Disable-InboxRule.](https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule)
+3. Se você quiser manter a regra e seu conteúdo para investigação posterior, use o cmdlet [Disable-InboxRule.](/powershell/module/exchange/disable-inboxrule)
 
 ## <a name="how-to-minimize-future-attacks"></a>Como minimizar ataques futuros
 
@@ -198,7 +198,7 @@ As explorações de Regras e Formulários só são usadas por um invasor depois 
 
 A melhor maneira de proteger suas contas de usuário e, especialmente, suas contas de administrador, é configurar a [autenticação multifa factor para os usuários.](../../admin/security-and-compliance/set-up-multi-factor-authentication.md) Você também deve:
 
-- Monitore como suas contas de usuário são [acessadas e usadas.](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) Você pode não impedir a violação inicial, mas reduzirá a duração e o impacto da violação detectando-a mais cedo. Você pode usar essas políticas de Segurança de Aplicativos na Nuvem do [Office 365](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) para monitorar suas contas e alertar sobre atividades incomuns:
+- Monitore como suas contas de usuário são [acessadas e usadas.](/azure/active-directory/active-directory-view-access-usage-reports) Você pode não impedir a violação inicial, mas reduzirá a duração e o impacto da violação detectando-a mais cedo. Você pode usar essas políticas de Segurança de Aplicativos na Nuvem do [Office 365](/cloud-app-security/what-is-cloud-app-security) para monitorar suas contas e alertar sobre atividades incomuns:
 
   - **Várias tentativas de logon** com falha: essa política faz perfis de seu ambiente e dispara alertas quando os usuários executam várias atividades de logon com falha em uma única sessão em relação à linha de base aprendida, o que pode indicar uma tentativa de violação.
 
@@ -226,7 +226,7 @@ Para obter mais informações sobre os patches de segurança individuais, consul
 
 ### <a name="third-monitor-your-outlook-clients"></a>Terceiro: Monitorar seus clientes do Outlook
 
-Observe que, mesmo com os patches e atualizações instalados, é possível que um invasor altere a configuração do computador local para habilitar o comportamento "Iniciar Aplicativo". Você pode usar o [Gerenciamento Avançado de Política de Grupo](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) para monitorar e impor políticas de máquina local em seus clientes.
+Observe que, mesmo com os patches e atualizações instalados, é possível que um invasor altere a configuração do computador local para habilitar o comportamento "Iniciar Aplicativo". Você pode usar o [Gerenciamento Avançado de Política de Grupo](/microsoft-desktop-optimization-pack/agpm/) para monitorar e impor políticas de máquina local em seus clientes.
 
 Você pode ver se "Iniciar Aplicativo" foi reabilitar por meio de uma substituição no Registro usando as informações em Como exibir o registro do sistema usando versões de [64 bits](https://support.microsoft.com/help/305097)do Windows . Verifique estas sub-chaves:
 
@@ -236,7 +236,7 @@ Você pode ver se "Iniciar Aplicativo" foi reabilitar por meio de uma substitui�
 
 Procure a chave EnableUnsafeClientMailRules. Se ele estiver lá e estiver definido como 1, o patch de segurança do Outlook foi substituído e o computador está vulnerável ao ataque Form/Rules. Se o valor for 0, a ação "Iniciar Aplicativo" será desabilitada. Se a versão atualizada e corrigida do Outlook estiver instalada e essa chave do Registro não estiver presente, um sistema não estará vulnerável a esses ataques.
 
-Os clientes com instalações locais do Exchange devem considerar o bloqueio de versões mais antigas do Outlook que não têm patches disponíveis. Detalhes sobre esse processo podem ser encontrados no artigo [Configure Outlook client blocking](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help).
+Os clientes com instalações locais do Exchange devem considerar o bloqueio de versões mais antigas do Outlook que não têm patches disponíveis. Detalhes sobre esse processo podem ser encontrados no artigo [Configure Outlook client blocking](/exchange/configure-outlook-client-blocking-exchange-2013-help).
 
 ## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Proteja o Microsoft 365 como um profissional de segurança cibernética
 

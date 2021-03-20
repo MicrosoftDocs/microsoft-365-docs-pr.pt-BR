@@ -16,45 +16,45 @@ ms.custom:
 - M365solutions
 - seo-marvel-jun2020
 f1.keywords: NOCSH
-description: Saiba como escolher e implantar a solução de voz correta do Teams para sua organização.
-ms.openlocfilehash: b5dda0ed3d9310c3c43052b9bac4996802e0ed2f
-ms.sourcegitcommit: e53234b1f64ebca00e121da1706c02b3337c35f0
+description: Saiba como escolher e implantar a solução de voz do Teams correta para sua organização.
+ms.openlocfilehash: ede8075767e9d0a80123ac742403f8a4d171392e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49580884"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918377"
 ---
 # <a name="plan-and-deploy-a-teams-voice-solution"></a>Planejar e implantar uma solução de voz para o Teams
 
-Uma solução de voz do Teams permite que as pessoas em sua organização façam chamadas dentro e fora da sua organização. Uma solução de voz completa consiste no Teams, no Sistema de Telefonia Microsoft e em uma opção de opções para se conectar à Rede Telefônica Pública Comutado (PSTN).
+Uma solução de voz do Teams permite que as pessoas em sua organização façam chamadas dentro e fora da sua organização. Uma solução de voz completa consiste em Teams, Microsoft Phone System e uma opção de opções para se conectar à PSTN (Rede Telefônica Pública Comugada).
 
 ![Visão geral das soluções de voz do Teams](..\media\solutions-architecture-center\voice-concepts.png)
 
-O Sistema de Telefonia fornece recursos completos de PBX (Central Privada de Comutamento) para sua organização. As chamadas entre usuários em sua organização , independentemente de sua localização geográfica, são tratadas internamente no Sistema de Telefonia, removendo assim os custos de longa distância nessas chamadas internas.  
+O Sistema de Telefonia fornece recursos completos do Exchange de Filial Privada (PBX) para sua organização. As chamadas entre usuários em sua organização, independentemente da localização geográfica, são tratadas internamente no Sistema de Telefonia, removendo assim os custos de longa distância nessas chamadas internas.  
 
-Ao conectar o Sistema de Telefonia à Rede Telefônica Pública Comuada (PSTN), os usuários do Teams também podem fazer chamadas fora da sua organização.
+Ao conectar o Sistema de Telefonia à PSTN (Rede Telefônica Pública Comucionada), os usuários do Teams também podem fazer chamadas fora da sua organização.
 
-Este guia de solução ajuda você a:
+Essa orientação de solução ajuda você a:
 
-- Escolha a solução de voz adequada para sua organização
+- Escolha a solução de voz ideal para sua organização
 - Implantar a solução de voz selecionada
 
 Siga estas etapas para escolher, planejar e configurar sua solução de voz:
 
 ![Escolher a solução de voz](..\media\solutions-architecture-center\voice-solutions-overview-1.png)
 
-1. [Escolher a solução de voz](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
+1. [Escolher a solução de voz](/MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json)
 
-2. [Configurar o Sistema de Telefonia](https://docs.microsoft.com/microsoftteams/setting-up-your-phone-system?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
+2. [Configurar o Sistema de Telefonia](/microsoftteams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json)
 
-3. Para configurar a conectividade PSTN, escolha uma das seguintes combinações:
-   - [Plano de](https://docs.microsoft.com/microsoftteams/set-up-calling-plans?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json) Chamada - solução tudo na nuvem da Microsoft com a Microsoft como sua operadora PSTN
-   - [Roteamento Direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json) - Usar o Roteamento Direto para conectar sua própria operadora PSTN ao Teams 
+3. Configurar a conectividade PSTN escolhendo um, ou uma combinação, do seguinte:
+   - [Plano de Chamada](/microsoftteams/set-up-calling-plans?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json) - a solução all-in-the-cloud da Microsoft com a Microsoft como sua operadora PSTN
+   - [Roteamento Direto](/microsoftteams/direct-routing-configure?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json) - Use Roteamento Direto para conectar sua própria operadora PSTN ao Teams 
 
-Além disso, talvez você queira ler sobre como uma grande corporação multinacional migrou para uma solução de voz do Teams no estudo de caso [contoso.](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
+Além disso, talvez você queira ler sobre como uma grande empresa multi-nacional migrou para uma solução de voz do Teams no estudo de caso [contoso.](/MicrosoftTeams/voice-case-study-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json)
 
 Para obter informações sobre licenças necessárias, consulte o seguinte:
 
-- [Licenças de complemento do Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=enterprise#what-voice-features-are-available-with-my-plan/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
+- [Licenças de complemento do Teams](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&tabs=enterprise#what-voice-features-are-available-with-my-plan/toc.json)
 
-- [Requisitos de licenciamento de Roteamento Direto](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json)
+- [Requisitos de licenciamento de Roteamento Direto](/microsoftteams/direct-routing-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json#licensing-and-other-requirements/toc.json)

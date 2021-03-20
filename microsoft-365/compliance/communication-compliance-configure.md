@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 77d9a12f6a3620ecba8142cee331a55dfb671c3c
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 18ab0065a4a6c90f61730a313eb8c54f538fafab
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423238"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918046"
 ---
 # <a name="get-started-with-communication-compliance"></a>Introdução à conformidade de comunicação
 
@@ -66,7 +66,7 @@ Dependendo de como você deseja gerenciar políticas de comunicação e alertas,
 
 Escolha entre essas opções de grupo de função ao configurar a conformidade de comunicação:
 
-| Função | Permissões de função |
+| Role | Permissões de função |
 |:-----|:-----|
 | **Conformidade de comunicação** | Use esse grupo de funções para gerenciar a conformidade de comunicação para sua organização em um único grupo. Ao adicionar todas as contas de usuário para administradores designados, analistas, investigadores e visualizadores, você pode configurar permissões de conformidade de comunicação em um único grupo. Esse grupo de função contém todas as funções de permissão de conformidade de comunicação. Essa configuração é a maneira mais fácil de começar rapidamente com a conformidade de comunicação e é um bom ajuste para organizações que não precisam de permissões separadas definidas para grupos separados de usuários. |
 | **Administrador de Conformidade de Comunicação** | Use esse grupo de funções para configurar inicialmente a conformidade de comunicação e posteriormente para segregar os administradores de conformidade de comunicação em um grupo definido. Os usuários atribuídos a esse grupo de funções podem criar, ler, atualizar e excluir políticas de conformidade de comunicação, configurações globais e atribuições de grupo de função. Os usuários atribuídos a esse grupo de funções não podem exibir alertas de mensagens. |
@@ -128,8 +128,8 @@ Use o gráfico a seguir para ajudá-lo a configurar grupos em sua organização 
 
 | **Membro da Política** | **Grupos com suporte** | **Grupos sem suporte** |
 |:-----|:-----|:-----|
-|Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
-| Revisores | Nenhum(a) | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
+|Usuários supervisionados <br> Usuários não supervisionados | Grupos de distribuição <br> Grupos do Microsoft 365 | Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email <br> Grupos do Microsoft 365 com associação dinâmica |
+| Revisores | Nenhum | Grupos de distribuição <br> Grupos dinâmicos de distribuição <br> Grupos de distribuição aninhados <br> Grupos de segurança habilitados para email |
   
 Quando você atribui um grupo de distribuição à política, a política monitora todos os emails e chats do Teams de cada usuário no grupo de distribuição. Quando você atribui um grupo do Microsoft 365 na política, a política monitora todos os emails e chats do Teams enviados a esse grupo, não os emails e chats individuais recebidos por cada membro do grupo.
 

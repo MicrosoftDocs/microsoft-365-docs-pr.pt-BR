@@ -1,5 +1,5 @@
 ---
-title: Edição em massa de pesquisas de conteúdo
+title: Pesquisas de conteúdo de edição em massa
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,90 +16,88 @@ search.appverid:
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 ms.custom:
 - seo-marvel-apr2020
-description: Use o editor de pesquisa em massa no centro de segurança e conformidade para alterar rapidamente os locais de consulta e conteúdo para uma ou mais pesquisas de conteúdo.
-ms.openlocfilehash: 2bbe8248a82356a217557469b6639e28607be13e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Use o Editor de Pesquisa em Massa no centro de segurança e conformidade para alterar rapidamente os locais de consulta e conteúdo para uma ou mais Pesquisas de Conteúdo.
+ms.openlocfilehash: 9f4d84a2f9c99f544bbb402fc24ac2dcbf0864f8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035519"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918227"
 ---
-# <a name="bulk-edit-content-searches"></a>Edição em massa de pesquisas de conteúdo
+# <a name="bulk-edit-content-searches"></a>Pesquisas de conteúdo de edição em massa
 
-Você pode usar o editor de pesquisa em massa na ferramenta de pesquisa de conteúdo para editar várias pesquisas ao mesmo tempo. O uso dessa ferramenta permite que você altere rapidamente os locais de consulta e conteúdo para uma ou mais pesquisas. Em seguida, você pode executar novamente as pesquisas e obter os novos resultados de pesquisa estimados para as pesquisas revisadas. O editor também permite copiar e colar as consultas e os locais de conteúdo de um arquivo do Microsoft Excel ou arquivo de texto. Isso significa que você pode usar a ferramenta de estatísticas de pesquisa para exibir as estatísticas de uma ou mais pesquisas, exportar as estatísticas para um arquivo CSV, onde é possível editar as consultas e os locais de conteúdo no Excel. Em seguida, use o editor de pesquisa em massa para adicionar as consultas revisadas e os locais de conteúdo às pesquisas. Após revisar uma ou mais pesquisas, você pode reiniciá-las e obter novos resultados de pesquisa estimados.
+Você pode usar o Editor de Pesquisa em Massa na ferramenta Pesquisa de Conteúdo para editar várias pesquisas ao mesmo tempo. Usar essa ferramenta permite alterar rapidamente os locais de consulta e conteúdo para uma ou mais pesquisas. Em seguida, você pode reprisar as pesquisas e obter novos resultados de pesquisa estimados para as pesquisas revisadas. O editor também permite copiar e colar consultas e locais de conteúdo de um arquivo ou arquivo de texto do Microsoft Excel. Isso significa que você pode usar a ferramenta Estatísticas de Pesquisa para exibir as estatísticas de uma ou mais pesquisas, exportar as estatísticas para um arquivo CSV, onde você pode editar as consultas e locais de conteúdo no Excel. Em seguida, use o Editor de Pesquisa em Massa para adicionar as consultas revisadas e os locais de conteúdo às pesquisas. Depois de revisar uma ou mais pesquisas, você pode reiniciá-las e obter novos resultados estimados de pesquisa.
   
-Para obter mais informações sobre como usar a ferramenta de estatísticas de pesquisa, consulte [exibir estatísticas de palavra-chave para resultados de pesquisa de conteúdo](view-keyword-statistics-for-content-search.md).
+Para obter mais informações sobre como usar a ferramenta Estatísticas de Pesquisa, consulte Exibir estatísticas [de palavra-chave para resultados da Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
   
-## <a name="use-the-bulk-search-editor-to-change-queries"></a>Usar o editor de pesquisa em massa para alterar consultas
+## <a name="use-the-bulk-search-editor-to-change-queries"></a>Usar o Editor de Pesquisa em Massa para alterar consultas
 
-1. Vá para [https://protection.office.com](https://protection.office.com)e selecione pesquisa de **Search** \> **conteúdo**de pesquisa.
+1. Vá para [https://protection.office.com](https://protection.office.com) e, em seguida, selecione **Pesquisar** \> **Conteúdo de pesquisa**.
     
-2. Na lista de pesquisas, selecione uma ou mais pesquisas e, em seguida, selecione o botão ![](../media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png)editor de pesquisa em massa do **Editor de pesquisa em massa** .
+2. Na lista de pesquisas, selecione uma ou mais pesquisas e selecione Editor de Pesquisa em Massa **Editor** de Pesquisa em ![ ](../media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png) Massa.
     
-    ![Selecionar uma ou mais pesquisas e selecionar editor de pesquisa em massa](../media/600c9716-89a2-4451-b111-fa7cfaad2006.png)
+    ![Selecione uma ou mais pesquisas e selecione Editor de pesquisa em massa](../media/600c9716-89a2-4451-b111-fa7cfaad2006.png)
   
-    As informações a seguir são exibidas na página **consultas** do editor de pesquisa em massa. 
+    As informações a seguir são exibidas na página **Consultas** do Editor de Pesquisa em Massa. 
     
-    ![A página do editor de pesquisa em massa exibe as consultas para as pesquisas selecionadas](../media/189659af-cc78-4479-b0bc-a93decad2f6c.png)
+    ![A página editor de pesquisa em massa exibe as consultas das pesquisas selecionadas](../media/189659af-cc78-4479-b0bc-a93decad2f6c.png)
   
-    a. A coluna de **pesquisa** exibe o nome da pesquisa de conteúdo. Conforme mencionado anteriormente, você pode editar a consulta para várias pesquisas. 
+    a. A **coluna** Pesquisa exibe o nome da Pesquisa de Conteúdo. Como mencionado anteriormente, você pode editar a consulta para várias pesquisas. 
     
-    b. A coluna **consulta** exibe a consulta para a pesquisa de conteúdo listada na coluna **pesquisa** . Se a consulta foi criada usando o recurso de lista de palavras-chave, as palavras-chave são separadas pelo `(c:s)`texto * * **. Isso indica que as palavras-chave estão conectadas pelo operador **or** . Além disso, se a consulta incluir condições, as palavras-chave e as condições serão separadas pelo texto * * `(c:c)` **. Isso indica que as palavras-chave (ou fases da palavra-chave) estão conectadas às condições pelo operador **and** . Por exemplo, na captura de tela anterior da ContosoSearch1 de pesquisa, a consulta KQL que é equivalente `customer (c:s) pricing(c:c)(date=2000-01-01..2016-09-30)` a seria `(customer OR pricing) AND (date=2002-01-01..2016-09-30)`.
+    b. A **coluna Consulta** exibe a consulta para a Pesquisa de Conteúdo listada na coluna **Pesquisa.** Se a consulta foi criada usando o recurso de lista de palavras-chave, as palavras-chave serão separadas pelo texto ** `(c:s)` **. Isso indica que as palavras-chave estão conectadas pelo **operador OR.** Além disso, se `(c:c)` a consulta incluir condições, as palavras-chave** e as condições serão separadas pelo texto ** . Isso indica que as palavras-chave (ou fases de palavra-chave) estão conectadas às condições do **operador AND.** Por exemplo, na captura de tela anterior da pesquisa ContosoSearch1, a consulta KQL equivalente a  `customer (c:s) pricing(c:c)(date=2000-01-01..2016-09-30)`  `(customer OR pricing) AND (date=2002-01-01..2016-09-30)` seria .
     
-3. Para editar uma consulta, selecione na célula da consulta que você deseja alterar e siga um destes procedimentos. A célula é borda por uma caixa azul quando você a seleciona.
+3. Para editar uma consulta, selecione na célula da consulta que você deseja alterar e fazer uma das seguintes coisas. A célula é bordada por uma caixa azul quando você a seleciona.
     
    - Digite a nova consulta na célula. Não é possível editar uma parte da consulta. Você precisa digitar a consulta inteira.
     
       Ou
     
-    - Colar uma nova consulta na célula. Isso pressupõe que você tenha copiado o texto da consulta de um arquivo, como um arquivo de texto ou um arquivo do Excel.
+    - Colar uma nova consulta na célula. Isso supõe que você copiou o texto de consulta de um arquivo, como um arquivo de texto ou um arquivo do Excel.
     
-4. Após editar uma ou mais consultas na página **consultas** , selecione **salvar**.
+4. Depois de editar uma ou mais consultas na página **Consultas,** selecione **Salvar**.
     
-    A consulta revisada é exibida na coluna de **consulta** para a pesquisa selecionada. 
+    A consulta revisada é exibida na coluna **Consulta** da pesquisa selecionada. 
     
-5. Selecione **fechar** para fechar o editor de pesquisa em massa. 
+5. Selecione **Fechar** para fechar o Editor de Pesquisa em Massa. 
     
-6. Na página **pesquisa de conteúdo** , selecione a pesquisa que você editou e selecione **Iniciar** pesquisa para reiniciar a pesquisa usando a consulta revisada. 
+6. Na página **Pesquisa de** conteúdo, selecione a pesquisa editada e selecione **Iniciar** pesquisa para reiniciar a pesquisa usando a consulta revisada. 
     
-Veja algumas dicas para editar consultas usando o editor de pesquisa em massa:
+Aqui estão algumas dicas para editar consultas usando o Editor de Pesquisa em Massa:
   
-- Copie a consulta existente (usando **Ctrl C** ) para um arquivo de texto. Edite a consulta no arquivo de texto e, em seguida, copie a consulta revisada e Cole (usando **Ctrl V** ) novamente na célula da página **consultas** . 
+- Copie a consulta existente (usando **Ctrl C** ) para um arquivo de texto. Edite a consulta no arquivo de texto e copie a consulta revisada e a colar (usando **Ctrl V** ) de volta para a célula na página **Consultas.** 
     
-- Você também pode copiar consultas de outros aplicativos (como o Microsoft Word ou o Microsoft Excel). No entanto, você pode adicionar inadvertidamente caracteres não suportados a uma consulta usando o editor de pesquisa em massa. A melhor maneira de evitar que os caracteres não suportados seja apenas digitar a consulta em uma célula na página **consultas** . Ou você pode copiar uma consulta do Word ou Excel e colá-la no arquivo em um editor de texto sem formatação, como o bloco de notas da Microsoft. Em seguida, salve o arquivo de texto e selecione **ANSI** na lista suspensa **codificação** . Isso remove qualquer formatação e caracteres sem suporte. Em seguida, você pode copiar e colar a consulta do arquivo de texto para a página **consultas** . 
+- Você também pode copiar consultas de outros aplicativos (como o Microsoft Word ou o Microsoft Excel). No entanto, você pode adicionar inadvertidamente caracteres sem suporte a uma consulta usando o Editor de Pesquisa em Massa. A melhor maneira de evitar caracteres sem suporte é apenas digitar a consulta em uma célula na página **Consultas.** Ou você pode copiar uma consulta do Word ou excel e, em seguida, colar em um arquivo em um editor de texto simples, como o Bloco de Notas da Microsoft. Em seguida, salve o arquivo de  texto e selecione **ANSI** na lista drop-down de Codificação. Isso remove qualquer formatação e caracteres sem suporte. Em seguida, você pode copiar e colar a consulta do arquivo de texto para **a página Consultas.** 
     
   
-## <a name="use-the-bulk-search-editor-to-change-content-locations"></a>Usar o editor de pesquisa em massa para alterar locais de conteúdo
+## <a name="use-the-bulk-search-editor-to-change-content-locations"></a>Usar o Editor de Pesquisa em Massa para alterar locais de conteúdo
 
-1. No editor de pesquisa em massa para uma ou mais pesquisas selecionadas, selecione **habilitar editor de local em massa**e, em seguida, selecione o link **locais** que é exibido na página. 
+1. No Editor de Pesquisa em Massa para uma ou mais pesquisas selecionadas, selecione Habilitar editor de localização em massa **e** selecione o link **Locais** exibido na página. 
     
-    As informações a seguir são exibidas na página **locais** do editor de pesquisa em massa. 
+    As informações a seguir são exibidas na página **Locais** do Editor de Pesquisa em Massa. 
     
-    ![Selecione habilitar editor de local em massa e, em seguida, selecione locais para adicionar ou remover locais de conteúdo](../media/a5a468ce-bd63-4c53-bc37-ff64cf769e59.png)
+    ![Selecione Habilitar editor de localização em massa e selecione Locais para adicionar ou remover locais de conteúdo](../media/a5a468ce-bd63-4c53-bc37-ff64cf769e59.png)
   
-    a. **Caixas de correio para pesquisa** Esta seção exibe uma coluna para cada pesquisa de conteúdo selecionada e uma linha para cada caixa de correio incluída na pesquisa. Uma marca de seleção indica que a caixa de correio está incluída na pesquisa. Você pode adicionar caixas de correio a uma pesquisa digitando o endereço de email da caixa de correio em uma linha em branco e, em seguida, marcando a caixa de seleção para a pesquisa de conteúdo à qual deseja adicioná-lo. Ou você pode remover uma caixa de correio de uma pesquisa desmarcando a caixa de seleção.
+    a. **Caixas de correio para pesquisa** Esta seção exibe uma coluna para cada Pesquisa de Conteúdo selecionada e uma linha para cada caixa de correio incluída na pesquisa. Uma marca de seleção indica que a caixa de correio está incluída na pesquisa. Você pode adicionar caixas de correio a uma pesquisa digitando o endereço de email da caixa de correio em uma linha em branco e selecionando a caixa de seleção para a Pesquisa de Conteúdo à que você deseja adicioná-la. Ou você pode remover uma caixa de correio de uma pesquisa limpando a caixa de seleção.
     
-    b. **Sites do SharePoint para pesquisa** Esta seção exibe uma linha para cada site do SharePoint e do OneDrive que está incluído em cada pesquisa de conteúdo selecionada. Uma marca de seleção indica que o site está incluído na pesquisa. Você pode adicionar sites a uma pesquisa digitando a URL do site em uma linha em branco e, em seguida, marcando a caixa de seleção para a pesquisa de conteúdo à qual deseja adicioná-lo. Ou você pode remover um site de uma pesquisa desmarcando a caixa de seleção.
+    b. **Sites do SharePoint para pesquisa** Esta seção exibe uma linha para cada site do SharePoint e do OneDrive incluído em cada Pesquisa de Conteúdo selecionada. Uma marca de verificação indica que o site está incluído na pesquisa. Você pode adicionar sites a uma pesquisa digitando a URL do site em uma linha em branco e selecionando a caixa de seleção para a Pesquisa de Conteúdo à que você deseja adicioná-la. Ou você pode remover um site de uma pesquisa limpando a caixa de seleção.
     
-    c. **Outras opções de pesquisa** Esta seção indica se itens não indexados e pastas públicas estão incluídos na pesquisa. Para incluí-los, certifique-se de que a caixa de seleção está marcada. Para removê-los, desmarque a caixa de seleção.
+    c. **Outras opções de pesquisa** Esta seção indica se itens não indexados e pastas públicas estão incluídos na pesquisa. Para incluí-los, verifique se a caixa de seleção está selecionada. Para removê-los, desempure a caixa de seleção.
     
-2. Após editar uma ou mais seções na página **locais** , selecione **salvar**.
+2. Depois de editar uma ou mais seções na página **Locais,** selecione **Salvar**.
     
     Os locais de conteúdo revisados são exibidos na seção apropriada para as pesquisas selecionadas.
     
-3. Selecione **fechar** para fechar o editor de pesquisa em massa. 
+3. Selecione **Fechar** para fechar o Editor de Pesquisa em Massa. 
     
-4. Na página **pesquisa de conteúdo** , selecione a pesquisa que você editou e selecione **Iniciar** pesquisa para reiniciar a pesquisa usando os locais de conteúdo revisado. 
+4. Na página **Pesquisa de** conteúdo, selecione a pesquisa editada e selecione **Iniciar** pesquisa para reiniciar a pesquisa usando os locais de conteúdo revisados. 
     
-Veja algumas dicas para editar locais de conteúdo usando o editor de pesquisa em massa:
+Aqui estão algumas dicas para editar locais de conteúdo usando o Editor de Pesquisa em Massa:
   
-- Você pode editar pesquisas de conteúdo para pesquisar todas as caixas de correio ou sites na organização digitando **todos** em uma linha em branco na seção **caixas de correio para pesquisar** ou **sites do SharePoint para pesquisar** e, em seguida, marcando a caixa de seleção. 
+- Você pode editar Pesquisas de Conteúdo para pesquisar todas as caixas de correio  ou sites na organização digitando **Tudo** em branco nas Caixas de Correio para pesquisar ou sites do **SharePoint** na seção de pesquisa e, em seguida, selecionando a caixa de seleção. 
     
-- Você pode adicionar vários locais de conteúdo a uma ou mais pesquisas copiando várias linhas de um arquivo de texto ou de um arquivo do Excel e, em seguida, colando-as em uma seção na página **locais** . Após adicionar novos locais, certifique-se de marcar a caixa de seleção para cada pesquisa à qual deseja adicionar o local. 
+- Você pode adicionar vários locais de conteúdo a uma ou mais pesquisas copiando várias linhas de um arquivo de texto ou de um arquivo do Excel e, em seguida, colar em uma seção na página **Locais.** Depois de adicionar novos locais, marque a caixa de seleção para cada pesquisa à que deseja adicionar o local. 
     
     > [!TIP]
-    > Para gerar uma lista de endereços de email para todos os usuários em sua organização, execute o comando PowerShell na etapa 2 na [etapa 2: gerar uma lista de usuários](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md#step-2-generate-a-list-of-users). Ou siga as etapas em [obter uma lista de todas as URLs do onedrive de usuários em sua organização](https://docs.microsoft.com/onedrive/list-onedrive-urls) para gerar uma lista de todos os sites do onedrive for Business em sua organização. Observe que você terá que acrescentar a URL para o domínio meusite da sua organização (por exemplo, https://contoso-my.sharepoint.com) para os sites do onedrive for Business criados pelo script. Depois de ter uma lista de endereços de email ou sites do OneDrive for Business, você pode copiá-los e colá-los na página **locais** no editor de pesquisa em massa. 
+    > Para gerar uma lista de endereços de email para todos os usuários em sua organização, execute o comando do PowerShell na Etapa 2 na Etapa [2: Gerar](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md#step-2-generate-a-list-of-users)uma lista de usuários . Ou siga as etapas em Obter uma lista de todas as [URLs](/onedrive/list-onedrive-urls) do OneDrive de usuário em sua organização para gerar uma lista de todos os sites do OneDrive for Business em sua organização. Observe que você terá que anexar a URL para o domínio MySite da sua organização (por exemplo, para os sites do OneDrive for Business criados https://contoso-my.sharepoint.com) pelo script. Depois de ter uma lista de endereços de email ou sites do OneDrive for Business, você pode copiá-los e colar na página **Locais** no Editor de Pesquisa em Massa. 
   
-- Depois de selecionar **salvar** para salvar as alterações no editor de pesquisa em massa, o endereço de email para caixas de correio adicionadas a uma pesquisa será validado. Se o endereço de email não existir, será exibida uma mensagem de erro dizendo que a caixa de correio não pode ser localizada. As URLs para sites não são validadas. 
-  
-
+- Depois de selecionar **Salvar para** salvar alterações no Editor de Pesquisa em Massa, o endereço de email das caixas de correio que você adicionou a uma pesquisa será validado. Se o endereço de email não existir, uma mensagem de erro será exibida dizendo que a caixa de correio não pode ser localizada. URLs para sites não são validadas. 

@@ -14,16 +14,16 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
 description: 'Resumo: use o PowerShell para gerenciar suas propriedades de conta de usuário do Skype for Business Online com políticas.'
-ms.openlocfilehash: ca945bc05e76525b4b2df6fb0b982a8468d87810
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: a10929bbdce499ad26f9714127f675beeef58765
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515047"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916697"
 ---
 # <a name="manage-skype-for-business-online-policies-with-powershell"></a>Gerenciar as políticas do Skype for Business Online com o Windows PowerShell
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Para gerenciar muitas propriedades da conta de usuário do Skype for Business Online, você deve especificá-las como propriedades de políticas com o PowerShell para o Microsoft 365.
   
@@ -34,7 +34,7 @@ Use estas instruções para configurar para executar os comandos (pule as etapas
   > [!Note]
   > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams. Se você estiver usando o último lançamento público do PowerShell Teams, você não precisa instalar o Conector do Skype for Business Online.
 
-1. Instale o [módulo do Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Instale o [módulo PowerShell do Teams](/microsoftteams/teams-powershell-install).
     
 2. Abra um prompt de comando do Windows PowerShell e execute os seguintes comandos: 
 
@@ -90,11 +90,11 @@ Esse comando localiza a política atribuída ao usuário e localiza os recursos 
   
 Para gerenciar políticas do Skype for Business Online com o PowerShell, consulte os cmdlets para:
 
-- [Política de cliente](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets)
-- [Política de conferência](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets)
-- [Política móvel](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#mobile-policy-cmdlets)
-- [Política de Caixa Postal Online](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#online-voicemail-policy-cmdlets)
-- [Política de Roteamento de Voz](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#voice-routing-policy-cmdlets)
+- [Política de cliente](/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets)
+- [Política de conferência](/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets)
+- [Política móvel](/previous-versions//mt228132(v=technet.10)#mobile-policy-cmdlets)
+- [Política de Caixa Postal Online](/previous-versions//mt228132(v=technet.10)#online-voicemail-policy-cmdlets)
+- [Política de Roteamento de Voz](/previous-versions//mt228132(v=technet.10)#voice-routing-policy-cmdlets)
 
 
 > [!NOTE]
@@ -107,7 +107,7 @@ Get-CsVoicePolicy
 ```
 
 > [!NOTE]
-> Isso retorna uma lista de todas as políticas de voz disponíveis para você. No entanto, lembre-se de que nem todas as políticas podem ser atribuídas a todos os usuários. Isso ocorre devido a várias restrições envolvendo licenciamento e localização geográfica. (O chamado " local[de uso](https://msdn.microsoft.com/library/azure/dn194136.aspx).") Se você quiser saber as políticas de acesso externo e as políticas de conferência que podem ser atribuídas a um usuário específico, use comandos semelhantes a estes: 
+> Isso retorna uma lista de todas as políticas de voz disponíveis para você. No entanto, lembre-se de que nem todas as políticas podem ser atribuídas a todos os usuários. Isso ocorre devido a várias restrições envolvendo licenciamento e localização geográfica. (O chamado " local[de uso](/previous-versions/azure/dn194136(v=azure.100)).") Se você quiser saber as políticas de acesso externo e as políticas de conferência que podem ser atribuídas a um usuário específico, use comandos semelhantes a estes: 
 
 ```powershell
 Get-CsConferencingPolicy -ApplicableTo "Alex Darrow"
@@ -131,4 +131,3 @@ Get-CsClientPolicy -Identity "Global"
 [Gerenciar o Microsoft 365 com o PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Introdução ao PowerShell para o Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

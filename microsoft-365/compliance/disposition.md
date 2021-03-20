@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo, se você usa uma revisão de disposição ou o conteúdo é excluído automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: 092067e676c1cbae3fae6e9d6a5ff77099ce4631
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: d2c2e4e469efe16277f34a902f6720dc2b39e908
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461876"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918037"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Use a guia **Disposição** do **Gerenciamento de Registros** no Centro de conformidade do Microsoft 365 para gerenciar análises de disposição e exibir [registros](records-management.md#records) que foram excluídos automaticamente no final do período de retenção. 
 
@@ -128,7 +128,7 @@ Use a guia **Disposição** da página **Gerenciamento de registros** para ident
 
 ![Itens que foram descartados sem uma revisão de disposição](../media/records-disposed2.png)
 
-Os itens mostrados na guia **Itens descartados** de rótulos de registro serão mantidos por até sete anos após o item ter sido descartado, com um limite de 1 milhão itens por registro para esse período. Se você vir que o número de **Contagem** se aproxima desse limite de 1 milhão e precisar de prova de disposição para seus registros, contate o [Suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Os itens mostrados na guia **Itens descartados** de rótulos de registro serão mantidos por até sete anos após o item ter sido descartado, com um limite de 1 milhão itens por registro para esse período. Se você vir que o número de **Contagem** se aproxima desse limite de 1 milhão e precisar de prova de disposição para seus registros, contate o [Suporte da Microsoft](/office365/admin/contact-support-for-business-products).
 
 > [!NOTE]
 > Esta funcionalidade baseia-se em informações do[Log de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) e, portanto, exige que a auditoria seja [habilitada e pesquisável](turn-audit-log-search-on-or-off.md), para que os eventos correspondentes sejam capturados.
@@ -144,4 +144,3 @@ Para as disposições pendentes, o intervalo de tempo se baseia na data de venci
 Você pode exportar informações sobre os itens no modo de exibição como um arquivo .csv, que pode ser classificado e gerenciado usando o Excel:
 
 ![Opção de exportação para disposição](../media/retention-export-option.png)
-

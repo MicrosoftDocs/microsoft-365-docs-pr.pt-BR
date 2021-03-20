@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 036dbc4029cc7e8308ad295ccd8b45dc3879a6f8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 2f4c726849d438738f3c0d432daab53ee27b19ea
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453952"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917423"
 ---
 # <a name="microsoft-viva-topics-discovery-and-curation"></a>Descoberta e seleção de Tópicos do Microsoft Viva 
 
@@ -26,9 +26,9 @@ Os Tópicos do Viva organizam informações para conhecimento em seu ambiente do
 
 Os Tópicos do Viva usam o Microsoft Graph e a AI para identificar **tópicos** em sua organização.  Um tópico é uma frase ou termo que tem um significado específico para a organização e tem recursos relacionados a ele que podem ajudar as pessoas a entender o que é e encontrar mais informações sobre ela. Há vários tipos diferentes de tópicos que serão importantes para sua organização. Inicialmente, os seguintes tipos de tópicos podem ser identificados:
 - Project
-- Evento
+- Event
 - Organização
-- Localização
+- Local
 - Produto
 - Trabalho criativo
 - Campo de estudo
@@ -55,7 +55,7 @@ Os Tópicos do Viva recebem a contribuição humana para melhorar a qualidade de
 
 - Os tópicos podem ser revisados pelos **gerentes de conhecimento** em sua organização. O gerente de conhecimento pode revisar tópicos que eles têm permissões para ver. Na página Gerenciar Tópicos na Central de Tópicos, eles podem optar por confirmar tópicos gerados por AI ("tópicos sugeridos") como válidos, rejeitar tópicos para impedir que o conteúdo seja exibido como um tópico, criar tópicos que não foram descobertos pela AI ou identificar tópicos que podem se beneficiar de algumas edições por especialistas em assuntos para serem mais úteis ou precisos. Para obter mais informações, [consulte Manage topics in the Topic center](manage-topics.md).
 
-- Você pode atribuir permissões Criar e *editar tópicos* a qualquer um dos usuários licenciados para que eles possam fazer alterações nos tópicos existentes ou criar novos tópicos. Isso permite que os usuários que têm conhecimento sobre o tópico atualizem a página do tópico diretamente para fazer correções ou adicionar informações adicionais. Eles também podem adicionar novos tópicos que a AI não foi capaz de identificar. Se houver informações suficientes sobre esses tópicos adicionados manualmente e a AI for capaz de identificar esse tipo de tópico, sugestões adicionais da AI podem aprimorar esses tópicos adicionados manualmente. Juntos, os humanos e a IA podem manter o conhecimento preciso ao longo do tempo e não ter esse repouso em uma única pessoa. Para obter mais informações, [consulte Create a new topic and](https://docs.microsoft.com/microsoft-365/knowledge/create-a-topic) Edit a [topic](https://docs.microsoft.com/microsoft-365/knowledge/edit-a-topic).
+- Você pode atribuir permissões Criar e *editar tópicos* a qualquer um dos usuários licenciados para que eles possam fazer alterações nos tópicos existentes ou criar novos tópicos. Isso permite que os usuários que têm conhecimento sobre o tópico atualizem a página do tópico diretamente para fazer correções ou adicionar informações adicionais. Eles também podem adicionar novos tópicos que a IA não pôde identificar. Se houver informações suficientes sobre esses tópicos adicionados manualmente e a AI for capaz de identificar esse tipo de tópico, sugestões adicionais da AI podem aprimorar esses tópicos adicionados manualmente. Juntos, os humanos e a IA podem manter o conhecimento preciso ao longo do tempo e não ter esse repouso em uma única pessoa. Para obter mais informações, [consulte Create a new topic and](./create-a-topic.md) Edit a [topic](./edit-a-topic.md).
 
 - Mesmo os usuários que só têm acesso de leitura ao tópico (visualizadores de tópicos) serão solicitados a verificar a utilidade de tópicos específicos. Perguntas de comentários são feitas no **cartão de** resumo tópico para melhorar o valor do tópico e suas informações. Perguntas sobre a qualidade e a utilidade das sugestões de IA são apresentadas aos usuários uma de cada vez. As perguntas incluem:</br>
 
@@ -65,7 +65,7 @@ Os Tópicos do Viva recebem a contribuição humana para melhorar a qualidade de
 
     3. Se as sugestões de pessoas e recursos são úteis.
 
-    4. Na home page da Central de Tópicos, você pode ver os tópicos em sua organização aos quais você tem uma conexão. Você pode optar por permanecer listado no tópico ou remover a si mesmo. Esse feedback é refletido para todos os que descobrirem este tópico. Consulte [Visão geral da central de](https://docs.microsoft.com/microsoft-365/knowledge/topic-center-overview) tópicos para obter mais detalhes sobre a home page da central de tópicos.
+    4. Na home page da Central de Tópicos, você pode ver os tópicos em sua organização aos quais você tem uma conexão. Você pode optar por permanecer listado no tópico ou remover a si mesmo. Esse feedback é refletido para todos os que descobrirem este tópico. Consulte [Visão geral da central de](./topic-center-overview.md) tópicos para obter mais detalhes sobre a home page da central de tópicos.
 
 Mesmo com edições humanas, a IA procurará continuamente mais informações sobre tópicos e procurará verificação humana. Por exemplo, se a AI achar que você é uma pessoa que deve ser listada como especialista em um tópico, ela solicitará que você confirme isso. 
 

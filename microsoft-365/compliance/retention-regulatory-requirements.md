@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Recursos para ajudá-lo a atender aos requisitos normativos para o controle de informações e o gerenciamento de registros.
-ms.openlocfilehash: e46abc4efec356cfd058414063d3e76ffe8ff224
-ms.sourcegitcommit: fa5659cb66d84dcfeebc03b47bd9d38017d8934d
+ms.openlocfilehash: a2629dbd9df4b582b2aeb7726de87d81eb726a76
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50109930"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50917777"
 ---
 # <a name="regulatory-requirements-for-information-governance-and-records-management"></a>Requisitos regulatórios para o controle de informações e o gerenciamento de registros
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Use os recursos desta página para ajudar a atender a requisitos reguladores específicos para o controle de informações e o gerenciamento de registros no Microsoft 365. As seções deste documento concentram-se em uma ou mais normas relacionadas e inclui qualquer orientação existente ou análise de terceiros sobre como configurar o Microsoft 365 para ajudá-lo com os requisitos descritos.
 

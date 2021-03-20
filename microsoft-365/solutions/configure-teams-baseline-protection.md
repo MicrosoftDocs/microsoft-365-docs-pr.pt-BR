@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com um nível de linha de base de proteção.
-ms.openlocfilehash: 11554dbd7e33a77c9f6397ae9c5e91669f537081
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 4f38bf286b8ebd3edf6f7705299008566d2b7c8f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921865"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916329"
 ---
 # <a name="configure-teams-with-baseline-protection"></a>Configurar equipes com proteção de linha de base
 
@@ -37,9 +37,9 @@ Também recomendamos ativar os recursos básicos do Defender para Office 365 par
 
 |Opção|Informações|
 |:------|:-----------|
-|Anexos seguros para SPO, Microsoft OneDrive e Microsoft Teams|[Anexos Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br>[Defender para Office 365 - Microsoft Office SharePoint Online, Microsoft OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)|
-|Documentos Seguros|[Documentos Seguros no Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-|Links Seguros para o Microsoft Teams|[Links seguros do Office 365 no Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams)<br>[Links Seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)|
+|Anexos seguros para SPO, Microsoft OneDrive e Microsoft Teams|[Anexos Seguros](../security/office-365-security/atp-safe-attachments.md)<br>[Defender para Office 365 - Microsoft Office SharePoint Online, Microsoft OneDrive e Microsoft Teams](../security/office-365-security/atp-for-spo-odb-and-teams.md)|
+|Documentos Seguros|[Documentos Seguros no Microsoft Defender para Office 365](../security/office-365-security/safe-docs.md)|
+|Links Seguros para o Microsoft Teams|[Links seguros do Office 365 no Teams](../security/office-365-security/atp-safe-links.md#safe-links-settings-for-microsoft-teamssafe-links-settings-for-microsoft-teams)<br>[Links Seguros](../security/office-365-security/atp-safe-links.md)|
 
 ## <a name="teams-guest-sharing"></a>Compartilhamento de convidados no Teams
 
@@ -59,7 +59,7 @@ Para definir as configurações de acesso de convidado do Teams
 > [!NOTE]
 > Depois de habilitá-la, pode levar até 24 horas para que a configuração de convidado do Teams se torne ativa.
 
-O compartilhamento de convidados é habilitado por padrão para grupos do Office 365 e SharePoint, no entanto, se você alterou anteriormente qualquer uma das configurações de compartilhamento de convidados da sua organização, recomendamos que examine [Colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) para garantir que o compartilhamento de convidados esteja disponível no Teams.
+O compartilhamento de convidados é habilitado por padrão para grupos do Office 365 e SharePoint, no entanto, se você alterou anteriormente qualquer uma das configurações de compartilhamento de convidados da sua organização, recomendamos que examine [Colaborar com convidados em uma equipe](./collaborate-as-team.md) para garantir que o compartilhamento de convidados esteja disponível no Teams.
 
 ## <a name="site-and-file-sharing"></a>Compartilhamento de sites e arquivos
 
@@ -71,7 +71,7 @@ Para alterar o link de compartilhamento padrão
 3. Em **Links de arquivos e pastas**, selecione **Somente as pessoas da sua organização**.
 4. Clique em **Salvar**.
 
-Para obter a melhor experiência de compartilhamento de convidados, recomendamos também que você habilite a [Integração do SharePoint e do OneDrive com o B2B do Azure AD](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
+Para obter a melhor experiência de compartilhamento de convidados, recomendamos também que você habilite a [Integração do SharePoint e do OneDrive com o B2B do Azure AD](/sharepoint/sharepoint-azureb2b-integration-preview).
 
 ## <a name="create-a-team"></a>Criar uma equipe
 
@@ -94,12 +94,12 @@ Para atualizar as configurações de compartilhamento de site
 
 O Microsoft 365 oferece métodos adicionais para proteger seu conteúdo. Considere se as seguintes opções ajudariam a melhorar a segurança da sua organização.
 
-- Faça com que os convidados concordem com os [termos de uso](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use).
-- Configurar uma [política de tempo limite de sessão](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) para convidados.
-- Criar [tipos de informações confidenciais](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types) e usar a [proteção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) para definir políticas de acesso a informações confidenciais.
+- Faça com que os convidados concordem com os [termos de uso](/azure/active-directory/conditional-access/terms-of-use).
+- Configurar uma [política de tempo limite de sessão](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) para convidados.
+- Criar [tipos de informações confidenciais](../compliance/sensitive-information-type-learn-about.md) e usar a [proteção contra perda de dados](../compliance/data-loss-prevention-policies.md) para definir políticas de acesso a informações confidenciais.
 
 ## <a name="see-also"></a>Confira também
 
-[Gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
+[Gerenciar políticas de reunião no Teams](/microsoftteams/meeting-policies-in-teams)
 
-[Introdução ao gerenciamento de riscos internos](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure)
+[Introdução ao gerenciamento de riscos internos](../compliance/insider-risk-management-configure.md)

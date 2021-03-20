@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Garanta que seus funcionários remotos possam acessar recursos locais ao otimizar o acesso aos serviços em nuvem do Microsoft 365.
-ms.openlocfilehash: 43000ce27fc24dbc6c2db3782b0ed40aa66b7fd2
-ms.sourcegitcommit: 1ac884d8470b2f2a58b6f79e324fd91e4d11dceb
+ms.openlocfilehash: ae86013ea1235c6dfd9929fd329cb0b2dba0fb93
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055526"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918345"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Etapa 2. Fornecer acesso remoto a aplicativos e serviços locais
 
@@ -55,7 +55,7 @@ O tráfego do Microsoft 365 deve seguir uma rota indireta através da sua organi
 
 Com o túnel dividido, você pode configurar seu cliente VPN para impedir que tipos específicos de tráfego sejam enviados à rede da organização pela conexão VPN.
 
-Para otimizar o acesso aos recursos de nuvem do Microsoft 365, configure seus clientes VPN de túnel dividido para excluir o tráfego nos pontos de extremidade do Microsoft 365 da categoria **Otimizar** pela conexão VPN. Para obter mais informações, confira [Categorias de ponto de extremidade do Office 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#new-office-365-endpoint-categories). Consulte [esta lista](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) de terminais da categoria Otimizar.
+Para otimizar o acesso aos recursos de nuvem do Microsoft 365, configure seus clientes VPN de túnel dividido para excluir o tráfego nos pontos de extremidade do Microsoft 365 da categoria **Otimizar** pela conexão VPN. Para obter mais informações, confira [Categorias de ponto de extremidade do Office 365](../enterprise/microsoft-365-network-connectivity-principles.md#new-office-365-endpoint-categories). Consulte [esta lista](../enterprise/urls-and-ip-address-ranges.md) de terminais da categoria Otimizar.
 
 Aqui está o fluxo de tráfego resultante, no qual a maior parte do tráfego para aplicativos em nuvem do Microsoft 365 ignora a conexão VPN.
 
@@ -63,7 +63,7 @@ Aqui está o fluxo de tráfego resultante, no qual a maior parte do tráfego par
 
 Isso permite que o cliente VPN envie e receba o tráfego crucial do serviço em nuvem do Microsoft 365 diretamente pela Internet e para o ponto de entrada mais próximo da rede Microsoft.
 
-Para obter mais informações e orientações, confira [Otimizar a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel??).
+Para obter mais informações e orientações, confira [Otimizar a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](../enterprise/microsoft-365-vpn-split-tunnel.md).
 
 ## <a name="deploy-remote-access-when-all-your-apps-are-web-apps-and-you-have-hybrid-identity"></a>Implantar o acesso remoto quando todos os seus aplicativos são aplicativos Web e você tem identidade híbrida
 
@@ -73,7 +73,7 @@ Estes são os componentes do Proxy de Aplicativo do Microsoft Azure Active Direc
 
 ![Componentes do Proxy de Aplicativo do Microsoft Azure Active Directory](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-Para obter mais informações, confira esta [visão geral do Proxy de Aplicativo do Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+Para obter mais informações, confira esta [visão geral do Proxy de Aplicativo do Microsoft Azure Active Directory](/azure/active-directory/manage-apps/application-proxy).
 
 >[!Note]
 >O Proxy do aplicativo Azure Active Directory não está incluído na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
@@ -87,7 +87,7 @@ Uma conexão VPN P2S cria uma conexão segura do dispositivo de um trabalhador r
 
 ![Componentes da VPN P2S do Azure](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-p2s-vpn.png)
 
-Para mais informações, confira esta [visão geral da VPN P2S](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about).
+Para mais informações, confira esta [visão geral da VPN P2S](/azure/vpn-gateway/point-to-site-about).
 
 >[!Note]
 >O Azure P2P VPN não está incluído na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
@@ -99,7 +99,7 @@ Para oferecer suporte a trabalhadores remotos que podem usar somente dispositivo
 
 ![Componentes da Área de Trabalho Virtual do Windows do Azure](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-Para obter mais informações, consulte esta [visão geral da Área de Trabalho Virtual do Windows](https://docs.microsoft.com/azure/virtual-desktop/overview). 
+Para obter mais informações, consulte esta [visão geral da Área de Trabalho Virtual do Windows](/azure/virtual-desktop/overview). 
 
 >[!Note]
 >A Área de Trabalho Virtual do Windows não está incluída na assinatura do Microsoft 365. Você deve pagar por uso com uma assinatura separada do Azure.
@@ -116,7 +116,7 @@ Confira [este artigo](https://www.microsoft.com/security/blog/2020/04/16/securit
 ## <a name="admin-technical-resources-for-remote-access"></a>Recursos técnicos do administrador para acesso remoto
 
 - [Como otimizar rapidamente o tráfego do Office 365 para funcionários remotos e reduzir a carga em sua infraestrutura](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [Otimize a conectividade do Office 365 dos usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel?)
+- [Otimize a conectividade do Office 365 dos usuários remotos usando o túnel dividido da VPN](../enterprise/microsoft-365-vpn-split-tunnel.md)
 
 ## <a name="results-of-step-2"></a>Resultados da Etapa 2
 
@@ -136,4 +136,3 @@ Após a implantação de uma solução de acesso remoto para seus trabalhadores 
 [![Passo 3: Implementar o Centro de Segurança do Microsoft 365 e serviços de conformidade](../media/empower-people-to-work-remotely/remote-workers-step-grid-3.png)](empower-people-to-work-remotely-security-compliance.md)
 
 Prossiga com a [etapa 3](empower-people-to-work-remotely-security-compliance.md) para implantar o Centro de segurança do Microsoft 365 e serviços de conformidade para proteger seus aplicativos, dados e dispositivos.
-

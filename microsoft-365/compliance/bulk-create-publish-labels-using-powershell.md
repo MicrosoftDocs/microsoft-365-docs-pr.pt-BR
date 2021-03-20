@@ -18,16 +18,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a usar o Windows PowerShell para criar e publicar os rótulos de retenção a partir da linha de comando, independentemente do Centro de conformidade do Microsoft 365.
-ms.openlocfilehash: 5b8bb7a08c9794139e840d59f9238d858e15dd4e
-ms.sourcegitcommit: 2b8c3fc39a7cbd4ca35e98dca430d2470cd2c925
+ms.openlocfilehash: 1c3a1e1b9e363659b276d2f11a929308f43737b3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47426978"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918217"
 ---
 # <a name="create-and-publish-retention-labels-by-using-powershell"></a>Criar e publicar rótulos de retenção usando o Windows PowerShell
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Depois de decidir usar [rótulos de retenção](retention.md) para ajudá-lo a manter ou excluir documentos e emails no Microsoft 365, você pode ter percebido que tem muitos e, possivelmente, centenas de rótulos de retenção para criar e publicar. O método recomendado para criar rótulos de retenção em escala é usar [plano de arquivo](file-plan-manager.md) no Centro de conformidade do Microsoft 365. No entanto, você também pode usar o [Windows PowerShell](retention.md#powershell-cmdlets-for-retention-policies-and-retention-labels).
   
@@ -51,7 +51,7 @@ Os scripts de exemplo fornecidos neste artigo não são compatíveis com nenhum 
 
 2. Converter o texto em colunas: guia de **Dados** \> **Texto em colunas** \> **Delimitado** \> **Vírgula** \> **Geral**
 
-2. Substitua os exemplos por entradas para seus próprios rótulos de retenção e configurações. Para saber mais sobre os valores de parâmetro, confira [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511).
+2. Substitua os exemplos por entradas para seus próprios rótulos de retenção e configurações. Para saber mais sobre os valores de parâmetro, confira [New-ComplianceTag](/powershell/module/exchange/new-compliancetag).
 
 3. Salve a planilha como um arquivo. csv em um local que seja fácil de encontrar em uma etapa posterior. Por exemplo: C:\>Scripts\Labels.csv
 
@@ -78,7 +78,7 @@ LabelName_t_4,Record label tag - financial,$true,Keep,730,CreationAgeInDays,
 
 2. Converter o texto em colunas: guia de **Dados** \> **Texto em colunas** \> **Delimitado** \> **Vírgula** \> **Geral**
 
-2. Substitua os exemplos por entradas para seus próprias políticas de rótulos de retenção e suas configurações. Para saber mais sobre os valores de parâmetro para este cmdlet, confira [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy).
+2. Substitua os exemplos por entradas para seus próprias políticas de rótulos de retenção e suas configurações. Para saber mais sobre os valores de parâmetro para este cmdlet, confira [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy).
 
 3. Salve a planilha como um arquivo. csv em um local que seja fácil de encontrar em uma etapa posterior. Por exemplo: `<path>Policies.csv`
 
@@ -736,7 +736,7 @@ if ($ResultCSV)
 
 ## <a name="step-4-run-the-powershell-script"></a>Etapa 4: Executar o script do Windows PowerShell
 
-Primeiro, [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Primeiro, [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell).
 
 Em seguida, execute o script que cria e publica os rótulos de retenção:
   
@@ -761,5 +761,3 @@ Você pode encontrar o arquivo de log nesse local, embora os dígitos do nome de
 ```
 <path>.\Log_Publish_Compliance_Tag_01112018_151239.txt
 ```
-
-

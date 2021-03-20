@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: saiba mais sobre as condições e exceções da política dlp
-ms.openlocfilehash: 93311ec369f8dd240b1e76c9e29ef8cc0a144cc2
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 02880a89bf580d94bad4a5dbdce5027b0a194487
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741364"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918007"
 ---
 # <a name="dlp-policy-conditions-exceptions-and-actions-preview"></a>Condições de política de DLP, exceções e ações (visualização)
 
@@ -105,7 +105,7 @@ As tabelas nas seções a seguir descrevem as condições e exceções disponív
 |Tamanho da mensagem sobre|condição: *MessageSizeOver* <br/> exception: *ExceptIfMessageSizeOver*| Size    |Mensagens em que o tamanho total (mensagem mais anexos) é maior ou igual ao valor especificado. <br/>**Observação:** os limites de tamanho da mensagem em caixas de correio são avaliados antes das regras de fluxo de emails. Uma mensagem muito grande para uma caixa de correio será rejeitada antes que uma regra com essa condição seja capaz de agir na mensagem.|
 | Com importância    | condição: *WithImportance* <br/> exception: *ExceptIfWithImportance*    | Importance    | Mensagens marcadas com o nível de importância especificado.    |
 | Conjunto de caracteres de conteúdo contém palavras    | condição: *ContentCharacterSetContainsWords* <br/> *ExceptIfContentCharacterSetContainsWords*    | CharacterSets    | Mensagens que têm qualquer um dos nomes de conjunto de caracteres especificados.    |
-| Tem substituição de remetente    | condição: *HasSenderOverride* <br/> exception: *ExceptIfHasSenderOverride*    | n/d    | Mensagens em que o remetente optou por substituir uma política de prevenção contra perda de dados (DLP). Para obter mais informações sobre políticas de DLP, consulte [Prevenção contra perda de dados](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies).   |
+| Tem substituição de remetente    | condição: *HasSenderOverride* <br/> exception: *ExceptIfHasSenderOverride*    | n/d    | Mensagens em que o remetente optou por substituir uma política de prevenção contra perda de dados (DLP). Para obter mais informações sobre políticas de DLP, consulte [Prevenção contra perda de dados](./data-loss-prevention-policies.md).   |
 | Tipo de mensagem corresponde    | condição: *MessageTypeMatches* <br/> exception: *ExceptIfMessageTypeMatches*    | MessageType    | Mensagens do tipo especificado.    |
 
 ## <a name="actions-for-dlp-policies"></a>Ações para políticas DLP
@@ -124,7 +124,3 @@ Esta tabela descreve as ações que estão disponíveis na DLP.
 |Adicionar o gerente do remetente como destinatário|AddRecipients | Primeira propriedade: *AddedManagerAction*</br>Segunda propriedade: *Field* | Adiciona o gerente do remetente à mensagem como o tipo de destinatário especificado ( Para, Cc, Cc ) ou redireciona a mensagem para o gerente do remetente sem notificar o remetente ou o destinatário. Essa ação só funcionará se o atributo Manager do remetente for definido no Active Directory. Este parâmetro usa a sintaxe: @{AddManagerAsRecipientType = "<To \| Cc \| Bcc>"}|    
 Assunto prepend    |PrependSubject    |Cadeia de caracteres    |Adiciona o texto especificado ao início do campo Assunto da mensagem. Considere usar um espaço ou dois pontos (:) como o último caractere do texto especificado para diferenciá-lo do texto de assunto original.</br>Para impedir que a mesma cadeia de caracteres seja adicionada a mensagens que já contenham o texto no assunto (por exemplo, respostas), adicione a exceção "O assunto contém palavras" (ExceptIfSubjectContainsWords) à regra.    |
 Aplicar aviso de isenção de responsabilidade HTML    |AplicarHtmlDisclaimer    |Primeira propriedade: *Text*</br>Segunda propriedade: *Location*</br>Terceira propriedade: *ação fallback*    |Aplica o aviso de isenção de responsabilidade HTML especificado ao local necessário da mensagem.</br>Este parâmetro usa a sintaxe: @{ Text = " " ; Location = <Append \| Prepend>; FallbackAction = <Wrap \| Ignore \| Reject> }
-
-
-
-
