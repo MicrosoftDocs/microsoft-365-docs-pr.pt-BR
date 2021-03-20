@@ -16,158 +16,158 @@ ms.collection:
 - commerce
 search.appverid:
 - MET150
-description: 'Descubra quanto imposto você será cobrado pela sua assinatura do Microsoft 365 for Business em diferentes regiões. '
+description: 'Descubra quanto imposto será cobrado pela assinatura do Microsoft 365 para empresas em diferentes regiões. '
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: d3654dd307e15e58acdd06277cf7338da537e5c6
-ms.sourcegitcommit: 04a43a146cb62a10b1a4555ec3bed49eb08fbb99
+ms.openlocfilehash: 11a7aa1e1825e41f463de17eebd676d8168a56d8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48806595"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911705"
 ---
-# <a name="tax-information"></a><span data-ttu-id="557ff-103">Informação de imposto</span><span class="sxs-lookup"><span data-stu-id="557ff-103">Tax information</span></span>
+# <a name="tax-information"></a><span data-ttu-id="e8137-103">Informação de imposto</span><span class="sxs-lookup"><span data-stu-id="e8137-103">Tax information</span></span>
 
-<span data-ttu-id="557ff-104">Quando você compra produtos e serviços do Microsoft 365, os impostos pagos são determinados por uma das duas coisas: seu endereço comercial ou seu endereço de envio, se for diferente.</span><span class="sxs-lookup"><span data-stu-id="557ff-104">When you buy Microsoft 365 products and services, the taxes that you pay are determined by one of two things: your business address, or your shipping address, if it's different.</span></span> <span data-ttu-id="557ff-105">Se sua organização estiver nos Estados Unidos, você deverá fornecer um FEIN (Número de Identificação do Empregador Federal).</span><span class="sxs-lookup"><span data-stu-id="557ff-105">If your organization is in the United States, you must provide a Federal Employer Identification Number (FEIN).</span></span>
+<span data-ttu-id="e8137-104">Quando você compra produtos e serviços do Microsoft 365, os impostos que você paga são determinados por uma das duas coisas: seu endereço comercial ou seu endereço de envio, se for diferente.</span><span class="sxs-lookup"><span data-stu-id="e8137-104">When you buy Microsoft 365 products and services, the taxes that you pay are determined by one of two things: your business address, or your shipping address, if it's different.</span></span> <span data-ttu-id="e8137-105">Se sua organização estiver nos Estados Unidos, você deverá fornecer um FEIN (Número de Identificação do Empregador Federal).</span><span class="sxs-lookup"><span data-stu-id="e8137-105">If your organization is in the United States, you must provide a Federal Employer Identification Number (FEIN).</span></span>
 
-<span data-ttu-id="557ff-106">As empresas nos seguintes países podem fornecer seu número de IVA ou equivalente local:</span><span class="sxs-lookup"><span data-stu-id="557ff-106">Businesses in the following countries can provide their VAT number or local equivalent:</span></span>
+<span data-ttu-id="e8137-106">As empresas nos seguintes países podem fornecer seu número de IVA ou equivalente local:</span><span class="sxs-lookup"><span data-stu-id="e8137-106">Businesses in the following countries can provide their VAT number or local equivalent:</span></span>
 
 :::row:::
     :::column:::
-- <span data-ttu-id="557ff-107">Armênia</span><span class="sxs-lookup"><span data-stu-id="557ff-107">Armenia</span></span>
-- <span data-ttu-id="557ff-108">Austrália</span><span class="sxs-lookup"><span data-stu-id="557ff-108">Australia</span></span>
-- <span data-ttu-id="557ff-109">Áustria</span><span class="sxs-lookup"><span data-stu-id="557ff-109">Austria</span></span>
-- <span data-ttu-id="557ff-110">Bahamas</span><span class="sxs-lookup"><span data-stu-id="557ff-110">Bahamas</span></span>
-- <span data-ttu-id="557ff-111">Bangladesh</span><span class="sxs-lookup"><span data-stu-id="557ff-111">Bangladesh</span></span>
-- <span data-ttu-id="557ff-112">Bielorrússia</span><span class="sxs-lookup"><span data-stu-id="557ff-112">Belarus</span></span>
-- <span data-ttu-id="557ff-113">Bélgica</span><span class="sxs-lookup"><span data-stu-id="557ff-113">Belgium</span></span>
-- <span data-ttu-id="557ff-114">Brasil\*</span><span class="sxs-lookup"><span data-stu-id="557ff-114">Brazil\*</span></span>
-- <span data-ttu-id="557ff-115">Bulgária</span><span class="sxs-lookup"><span data-stu-id="557ff-115">Bulgaria</span></span>
-- <span data-ttu-id="557ff-116">Chile </span><span class="sxs-lookup"><span data-stu-id="557ff-116">Chile</span></span>
-- <span data-ttu-id="557ff-117">Colômbia</span><span class="sxs-lookup"><span data-stu-id="557ff-117">Colombia</span></span>
-- <span data-ttu-id="557ff-118">Croácia</span><span class="sxs-lookup"><span data-stu-id="557ff-118">Croatia</span></span>
-- <span data-ttu-id="557ff-119">Chipre</span><span class="sxs-lookup"><span data-stu-id="557ff-119">Cyprus</span></span>
-- <span data-ttu-id="557ff-120">República Tcheca</span><span class="sxs-lookup"><span data-stu-id="557ff-120">Czech Republic</span></span>
-- <span data-ttu-id="557ff-121">Dinamarca</span><span class="sxs-lookup"><span data-stu-id="557ff-121">Denmark</span></span>
-- <span data-ttu-id="557ff-122">Estônia</span><span class="sxs-lookup"><span data-stu-id="557ff-122">Estonia</span></span>
-- <span data-ttu-id="557ff-123">Finlândia</span><span class="sxs-lookup"><span data-stu-id="557ff-123">Finland</span></span>
-- <span data-ttu-id="557ff-124">França</span><span class="sxs-lookup"><span data-stu-id="557ff-124">France</span></span>
-- <span data-ttu-id="557ff-125">Alemanha</span><span class="sxs-lookup"><span data-stu-id="557ff-125">Germany</span></span>
-- <span data-ttu-id="557ff-126">Grécia</span><span class="sxs-lookup"><span data-stu-id="557ff-126">Greece</span></span>
-- <span data-ttu-id="557ff-127">Hungria </span><span class="sxs-lookup"><span data-stu-id="557ff-127">Hungary</span></span>
-- <span data-ttu-id="557ff-128">Índia\*</span><span class="sxs-lookup"><span data-stu-id="557ff-128">India\*</span></span>
-- <span data-ttu-id="557ff-129">Indonésia</span><span class="sxs-lookup"><span data-stu-id="557ff-129">Indonesia</span></span>
-- <span data-ttu-id="557ff-130">Irlanda</span><span class="sxs-lookup"><span data-stu-id="557ff-130">Ireland</span></span>
-- <span data-ttu-id="557ff-131">Ilha de Man</span><span class="sxs-lookup"><span data-stu-id="557ff-131">Isle of Man</span></span>
-- <span data-ttu-id="557ff-132">Itália</span><span class="sxs-lookup"><span data-stu-id="557ff-132">Italy</span></span>
+- <span data-ttu-id="e8137-107">Armênia</span><span class="sxs-lookup"><span data-stu-id="e8137-107">Armenia</span></span>
+- <span data-ttu-id="e8137-108">Austrália</span><span class="sxs-lookup"><span data-stu-id="e8137-108">Australia</span></span>
+- <span data-ttu-id="e8137-109">Áustria</span><span class="sxs-lookup"><span data-stu-id="e8137-109">Austria</span></span>
+- <span data-ttu-id="e8137-110">Bahamas</span><span class="sxs-lookup"><span data-stu-id="e8137-110">Bahamas</span></span>
+- <span data-ttu-id="e8137-111">Bangladesh</span><span class="sxs-lookup"><span data-stu-id="e8137-111">Bangladesh</span></span>
+- <span data-ttu-id="e8137-112">Bielorrússia</span><span class="sxs-lookup"><span data-stu-id="e8137-112">Belarus</span></span>
+- <span data-ttu-id="e8137-113">Bélgica</span><span class="sxs-lookup"><span data-stu-id="e8137-113">Belgium</span></span>
+- <span data-ttu-id="e8137-114">Brasil\*</span><span class="sxs-lookup"><span data-stu-id="e8137-114">Brazil\*</span></span>
+- <span data-ttu-id="e8137-115">Bulgária</span><span class="sxs-lookup"><span data-stu-id="e8137-115">Bulgaria</span></span>
+- <span data-ttu-id="e8137-116">Chile </span><span class="sxs-lookup"><span data-stu-id="e8137-116">Chile</span></span>
+- <span data-ttu-id="e8137-117">Colômbia</span><span class="sxs-lookup"><span data-stu-id="e8137-117">Colombia</span></span>
+- <span data-ttu-id="e8137-118">Croácia</span><span class="sxs-lookup"><span data-stu-id="e8137-118">Croatia</span></span>
+- <span data-ttu-id="e8137-119">Chipre</span><span class="sxs-lookup"><span data-stu-id="e8137-119">Cyprus</span></span>
+- <span data-ttu-id="e8137-120">República Tcheca</span><span class="sxs-lookup"><span data-stu-id="e8137-120">Czech Republic</span></span>
+- <span data-ttu-id="e8137-121">Dinamarca</span><span class="sxs-lookup"><span data-stu-id="e8137-121">Denmark</span></span>
+- <span data-ttu-id="e8137-122">Estônia</span><span class="sxs-lookup"><span data-stu-id="e8137-122">Estonia</span></span>
+- <span data-ttu-id="e8137-123">Finlândia</span><span class="sxs-lookup"><span data-stu-id="e8137-123">Finland</span></span>
+- <span data-ttu-id="e8137-124">França</span><span class="sxs-lookup"><span data-stu-id="e8137-124">France</span></span>
+- <span data-ttu-id="e8137-125">Alemanha</span><span class="sxs-lookup"><span data-stu-id="e8137-125">Germany</span></span>
+- <span data-ttu-id="e8137-126">Grécia</span><span class="sxs-lookup"><span data-stu-id="e8137-126">Greece</span></span>
+- <span data-ttu-id="e8137-127">Hungria </span><span class="sxs-lookup"><span data-stu-id="e8137-127">Hungary</span></span>
+- <span data-ttu-id="e8137-128">Índia\*</span><span class="sxs-lookup"><span data-stu-id="e8137-128">India\*</span></span>
+- <span data-ttu-id="e8137-129">Indonésia</span><span class="sxs-lookup"><span data-stu-id="e8137-129">Indonesia</span></span>
+- <span data-ttu-id="e8137-130">Irlanda</span><span class="sxs-lookup"><span data-stu-id="e8137-130">Ireland</span></span>
+- <span data-ttu-id="e8137-131">Ilha de Man</span><span class="sxs-lookup"><span data-stu-id="e8137-131">Isle of Man</span></span>
+- <span data-ttu-id="e8137-132">Itália</span><span class="sxs-lookup"><span data-stu-id="e8137-132">Italy</span></span>
     :::column-end:::
     :::column:::
-- <span data-ttu-id="557ff-133">Coreia</span><span class="sxs-lookup"><span data-stu-id="557ff-133">Korea</span></span>
-- <span data-ttu-id="557ff-134">Letônia</span><span class="sxs-lookup"><span data-stu-id="557ff-134">Latvia</span></span>
-- <span data-ttu-id="557ff-135">Liechtenstein</span><span class="sxs-lookup"><span data-stu-id="557ff-135">Liechtenstein</span></span>
-- <span data-ttu-id="557ff-136">Lituânia</span><span class="sxs-lookup"><span data-stu-id="557ff-136">Lithuania</span></span>
-- <span data-ttu-id="557ff-137">Luxemburgo</span><span class="sxs-lookup"><span data-stu-id="557ff-137">Luxembourg</span></span>
-- <span data-ttu-id="557ff-138">Malásia</span><span class="sxs-lookup"><span data-stu-id="557ff-138">Malaysia</span></span>
-- <span data-ttu-id="557ff-139">Malta</span><span class="sxs-lookup"><span data-stu-id="557ff-139">Malta</span></span>
-- <span data-ttu-id="557ff-140">México</span><span class="sxs-lookup"><span data-stu-id="557ff-140">Mexico</span></span>
-- <span data-ttu-id="557ff-141">Mônaco</span><span class="sxs-lookup"><span data-stu-id="557ff-141">Monaco</span></span>
-- <span data-ttu-id="557ff-142">Países Baixos</span><span class="sxs-lookup"><span data-stu-id="557ff-142">Netherlands</span></span>
-- <span data-ttu-id="557ff-143">Nova Zelândia</span><span class="sxs-lookup"><span data-stu-id="557ff-143">New Zealand</span></span>
-- <span data-ttu-id="557ff-144">Noruega</span><span class="sxs-lookup"><span data-stu-id="557ff-144">Norway</span></span>
-- <span data-ttu-id="557ff-145">Polônia</span><span class="sxs-lookup"><span data-stu-id="557ff-145">Poland</span></span>
-- <span data-ttu-id="557ff-146">Portugal</span><span class="sxs-lookup"><span data-stu-id="557ff-146">Portugal</span></span>
-- <span data-ttu-id="557ff-147">Romênia</span><span class="sxs-lookup"><span data-stu-id="557ff-147">Romania</span></span>
-- <span data-ttu-id="557ff-148">Arábia Saudita</span><span class="sxs-lookup"><span data-stu-id="557ff-148">Saudi Arabia</span></span>
-- <span data-ttu-id="557ff-149">Eslováquia</span><span class="sxs-lookup"><span data-stu-id="557ff-149">Slovakia</span></span>
-- <span data-ttu-id="557ff-150">Eslovênia</span><span class="sxs-lookup"><span data-stu-id="557ff-150">Slovenia</span></span>
-- <span data-ttu-id="557ff-151">África do Sul</span><span class="sxs-lookup"><span data-stu-id="557ff-151">South Africa</span></span>
-- <span data-ttu-id="557ff-152">Espanha</span><span class="sxs-lookup"><span data-stu-id="557ff-152">Spain</span></span>
-- <span data-ttu-id="557ff-153">Suécia</span><span class="sxs-lookup"><span data-stu-id="557ff-153">Sweden</span></span>
-- <span data-ttu-id="557ff-154">Suíça</span><span class="sxs-lookup"><span data-stu-id="557ff-154">Switzerland</span></span>
-- <span data-ttu-id="557ff-155">Taiwan</span><span class="sxs-lookup"><span data-stu-id="557ff-155">Taiwan</span></span>
-- <span data-ttu-id="557ff-156">Turquia</span><span class="sxs-lookup"><span data-stu-id="557ff-156">Turkey</span></span>
-- <span data-ttu-id="557ff-157">Emirados Árabes Unidos</span><span class="sxs-lookup"><span data-stu-id="557ff-157">United Arab Emirates</span></span>
-- <span data-ttu-id="557ff-158">Reino Unido</span><span class="sxs-lookup"><span data-stu-id="557ff-158">United Kingdom</span></span>
+- <span data-ttu-id="e8137-133">Coreia</span><span class="sxs-lookup"><span data-stu-id="e8137-133">Korea</span></span>
+- <span data-ttu-id="e8137-134">Letônia</span><span class="sxs-lookup"><span data-stu-id="e8137-134">Latvia</span></span>
+- <span data-ttu-id="e8137-135">Liechtenstein</span><span class="sxs-lookup"><span data-stu-id="e8137-135">Liechtenstein</span></span>
+- <span data-ttu-id="e8137-136">Lituânia</span><span class="sxs-lookup"><span data-stu-id="e8137-136">Lithuania</span></span>
+- <span data-ttu-id="e8137-137">Luxemburgo</span><span class="sxs-lookup"><span data-stu-id="e8137-137">Luxembourg</span></span>
+- <span data-ttu-id="e8137-138">Malásia</span><span class="sxs-lookup"><span data-stu-id="e8137-138">Malaysia</span></span>
+- <span data-ttu-id="e8137-139">Malta</span><span class="sxs-lookup"><span data-stu-id="e8137-139">Malta</span></span>
+- <span data-ttu-id="e8137-140">México</span><span class="sxs-lookup"><span data-stu-id="e8137-140">Mexico</span></span>
+- <span data-ttu-id="e8137-141">Mônaco</span><span class="sxs-lookup"><span data-stu-id="e8137-141">Monaco</span></span>
+- <span data-ttu-id="e8137-142">Países Baixos</span><span class="sxs-lookup"><span data-stu-id="e8137-142">Netherlands</span></span>
+- <span data-ttu-id="e8137-143">Nova Zelândia</span><span class="sxs-lookup"><span data-stu-id="e8137-143">New Zealand</span></span>
+- <span data-ttu-id="e8137-144">Noruega</span><span class="sxs-lookup"><span data-stu-id="e8137-144">Norway</span></span>
+- <span data-ttu-id="e8137-145">Polônia</span><span class="sxs-lookup"><span data-stu-id="e8137-145">Poland</span></span>
+- <span data-ttu-id="e8137-146">Portugal</span><span class="sxs-lookup"><span data-stu-id="e8137-146">Portugal</span></span>
+- <span data-ttu-id="e8137-147">Romênia</span><span class="sxs-lookup"><span data-stu-id="e8137-147">Romania</span></span>
+- <span data-ttu-id="e8137-148">Arábia Saudita</span><span class="sxs-lookup"><span data-stu-id="e8137-148">Saudi Arabia</span></span>
+- <span data-ttu-id="e8137-149">Eslováquia</span><span class="sxs-lookup"><span data-stu-id="e8137-149">Slovakia</span></span>
+- <span data-ttu-id="e8137-150">Eslovênia</span><span class="sxs-lookup"><span data-stu-id="e8137-150">Slovenia</span></span>
+- <span data-ttu-id="e8137-151">África do Sul</span><span class="sxs-lookup"><span data-stu-id="e8137-151">South Africa</span></span>
+- <span data-ttu-id="e8137-152">Espanha</span><span class="sxs-lookup"><span data-stu-id="e8137-152">Spain</span></span>
+- <span data-ttu-id="e8137-153">Suécia</span><span class="sxs-lookup"><span data-stu-id="e8137-153">Sweden</span></span>
+- <span data-ttu-id="e8137-154">Suíça</span><span class="sxs-lookup"><span data-stu-id="e8137-154">Switzerland</span></span>
+- <span data-ttu-id="e8137-155">Taiwan</span><span class="sxs-lookup"><span data-stu-id="e8137-155">Taiwan</span></span>
+- <span data-ttu-id="e8137-156">Turquia</span><span class="sxs-lookup"><span data-stu-id="e8137-156">Turkey</span></span>
+- <span data-ttu-id="e8137-157">Emirados Árabes Unidos</span><span class="sxs-lookup"><span data-stu-id="e8137-157">United Arab Emirates</span></span>
+- <span data-ttu-id="e8137-158">Reino Unido</span><span class="sxs-lookup"><span data-stu-id="e8137-158">United Kingdom</span></span>
     :::column-end:::
 :::row-end:::
 
-<span data-ttu-id="557ff-159">\*Para a maioria dos países listados, fornecer um número de IVA ou equivalente local é opcional.</span><span class="sxs-lookup"><span data-stu-id="557ff-159">\*For most of the countries listed, providing a VAT number or local equivalent is optional.</span></span> <span data-ttu-id="557ff-160">Para o Brasil e a Índia, o número do identificador de imposto é obrigatório.</span><span class="sxs-lookup"><span data-stu-id="557ff-160">For Brazil and India, the tax identifier number is required.</span></span>
+<span data-ttu-id="e8137-159">\*Para a maioria dos países listados, fornecer um número de IVA ou equivalente local é opcional.</span><span class="sxs-lookup"><span data-stu-id="e8137-159">\*For most of the countries listed, providing a VAT number or local equivalent is optional.</span></span> <span data-ttu-id="e8137-160">Para o Brasil e a Índia, o número do identificador de imposto é necessário.</span><span class="sxs-lookup"><span data-stu-id="e8137-160">For Brazil and India, the tax identifier number is required.</span></span>
 
 > [!Note]
-> <span data-ttu-id="557ff-161">Se você precisar entrar em contato com o suporte, tenha seu FEIN, número do IVA ou equivalente local pronto para dar ao agente de suporte.</span><span class="sxs-lookup"><span data-stu-id="557ff-161">If you need to contact support, have your FEIN, VAT number, or local equivalent ready to give to the support agent.</span></span>
+> <span data-ttu-id="e8137-161">Se você precisar entrar em contato com o suporte, tenha seu FEIN, número de IVA ou equivalente local pronto para dar ao agente de suporte.</span><span class="sxs-lookup"><span data-stu-id="e8137-161">If you need to contact support, have your FEIN, VAT number, or local equivalent ready to give to the support agent.</span></span>
 
-## <a name="europe-the-middle-east-and-africa-emea"></a><span data-ttu-id="557ff-162">Europa, Oriente Médio e África (EMEA)</span><span class="sxs-lookup"><span data-stu-id="557ff-162">Europe, the Middle East, and Africa (EMEA)</span></span>
+## <a name="europe-the-middle-east-and-africa-emea"></a><span data-ttu-id="e8137-162">Europa, Oriente Médio e África (EMEA)</span><span class="sxs-lookup"><span data-stu-id="e8137-162">Europe, the Middle East, and Africa (EMEA)</span></span>
 
-<span data-ttu-id="557ff-163">Quando você compra serviços do Microsoft 365 na região emEA, essa compra pode estar sujeita ao imposto Value-Added (IVA).</span><span class="sxs-lookup"><span data-stu-id="557ff-163">When you buy Microsoft 365 services in the EMEA region, this purchase could be subject to Value-Added Tax (VAT).</span></span>
+<span data-ttu-id="e8137-163">Quando você compra serviços do Microsoft 365 na região do EMEA, essa compra pode estar sujeita Value-Added Tax (IVA).</span><span class="sxs-lookup"><span data-stu-id="e8137-163">When you buy Microsoft 365 services in the EMEA region, this purchase could be subject to Value-Added Tax (VAT).</span></span>
   
-- <span data-ttu-id="557ff-164">Se você estiver localizado em um Estado Membro da União Europeia, Armônia, Belarus, Noruega, Turquia ou Emirados Árabes Unidos, e não fornecer sua ID de IVA local válida, a Microsoft Ireland Operations Ltd. aplicará a taxa de IVA local atual, com base no país de cobrança para o que sua conta está definida.</span><span class="sxs-lookup"><span data-stu-id="557ff-164">If you're located in a European Union Member State, Armenia, Belarus, Norway, Turkey, or United Arab Emirates, and you don't provide your valid local VAT ID, Microsoft Ireland Operations Ltd. will apply the current local VAT rate, based on the billing country your account is set to.</span></span>
+- <span data-ttu-id="e8137-164">Se você estiver localizado em um Estado Membro da União Europeia, Armenia, Bielorrússia, Noruega, Turquia ou Emirados Árabes Unidos e não fornecer sua ID de IVA local válida, a Microsoft Ireland Operations Ltd. aplicará a taxa de IVA local atual, com base no país de cobrança em que sua conta está definida.</span><span class="sxs-lookup"><span data-stu-id="e8137-164">If you're located in a European Union Member State, Armenia, Belarus, Norway, Turkey, or United Arab Emirates, and you don't provide your valid local VAT ID, Microsoft Ireland Operations Ltd. will apply the current local VAT rate, based on the billing country your account is set to.</span></span>
 
-- <span data-ttu-id="557ff-165">Se você estiver localizado em Liechtenstein, Rússia, Sérvia, África do Sul ou Suíça, o IVA será aplicado, independentemente de você fornecer seu ID de IVA ou não.</span><span class="sxs-lookup"><span data-stu-id="557ff-165">If you're located in Liechtenstein, Russia, Serbia, South Africa, or Switzerland, the VAT is applied, whether you provide your VAT ID or not.</span></span>
+- <span data-ttu-id="e8137-165">Se você estiver localizado em Liechtenstein, Rússia, Sérvia, África do Sul ou Suíça, o IVA será aplicado, independentemente de você fornecer sua ID do IVA ou não.</span><span class="sxs-lookup"><span data-stu-id="e8137-165">If you're located in Liechtenstein, Russia, Serbia, South Africa, or Switzerland, the VAT is applied, whether you provide your VAT ID or not.</span></span>
 
-- <span data-ttu-id="557ff-166">Para clientes da UE, antes de validarmos seu ID de IVA, ele deve estar disponível para verificação no VIES (Sistema de Troca de Informações do IVA).</span><span class="sxs-lookup"><span data-stu-id="557ff-166">For EU customers, before we can validate your VAT ID, it must be available for verification in the VAT Information Exchange System (VIES).</span></span> <span data-ttu-id="557ff-167">Se seu ID de IVA não puder ser verificado, entre em contato com a autoridade fiscal local.</span><span class="sxs-lookup"><span data-stu-id="557ff-167">If your VAT ID can't be verified, contact your local tax authority.</span></span>
+- <span data-ttu-id="e8137-166">Para clientes da UE, antes de validarmos a ID do IVA, ela deve estar disponível para verificação no VIES (Sistema de Troca de Informações do IVA).</span><span class="sxs-lookup"><span data-stu-id="e8137-166">For EU customers, before we can validate your VAT ID, it must be available for verification in the VAT Information Exchange System (VIES).</span></span> <span data-ttu-id="e8137-167">Se a ID do IVA não puder ser verificada, contate sua autoridade fiscal local.</span><span class="sxs-lookup"><span data-stu-id="e8137-167">If your VAT ID can't be verified, contact your local tax authority.</span></span>
 
-<span data-ttu-id="557ff-168">Você pode se qualificar para a classificação zero do IVA se:</span><span class="sxs-lookup"><span data-stu-id="557ff-168">You might qualify for VAT zero-rating if:</span></span>
+<span data-ttu-id="e8137-168">Você pode se qualificar para a classificação zero do IVA se:</span><span class="sxs-lookup"><span data-stu-id="e8137-168">You might qualify for VAT zero-rating if:</span></span>
   
-- <span data-ttu-id="557ff-169">**Você está em um Estado Membro da União** Europeia fora da Irlanda: Você pode fornecer sua ID de IVA local válida.</span><span class="sxs-lookup"><span data-stu-id="557ff-169">**You're in a European Union Member State outside Ireland:** You can provide your valid local VAT ID.</span></span> <span data-ttu-id="557ff-170">Isso permite que a Microsoft Ireland Operations Ltd. faça a taxa zero do IVA da transação.</span><span class="sxs-lookup"><span data-stu-id="557ff-170">This lets Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="557ff-171">No entanto, você pode ter uma obrigação de contabilidade de IVA local.</span><span class="sxs-lookup"><span data-stu-id="557ff-171">However, you might have a local VAT accounting obligation.</span></span> <span data-ttu-id="557ff-172">Se você tiver alguma dúvida, consulte seus consultores fiscais.</span><span class="sxs-lookup"><span data-stu-id="557ff-172">If you have any concerns, check with your tax advisers.</span></span> <span data-ttu-id="557ff-173">Para obter instruções, [consulte Adicionar sua ID de IVA.](#add-your-vat-id)</span><span class="sxs-lookup"><span data-stu-id="557ff-173">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
+- <span data-ttu-id="e8137-169">**Você está em um Estado membro da União Europeia fora da Irlanda:** Você pode fornecer sua ID de IVA local válida.</span><span class="sxs-lookup"><span data-stu-id="e8137-169">**You're in a European Union Member State outside Ireland:** You can provide your valid local VAT ID.</span></span> <span data-ttu-id="e8137-170">Isso permite que o Microsoft Ireland Operations Ltd. a taxa zero do IVA da transação.</span><span class="sxs-lookup"><span data-stu-id="e8137-170">This lets Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="e8137-171">No entanto, você pode ter uma obrigação de contabilidade de IVA local.</span><span class="sxs-lookup"><span data-stu-id="e8137-171">However, you might have a local VAT accounting obligation.</span></span> <span data-ttu-id="e8137-172">Se você tiver alguma preocupação, verifique com seus consultores fiscais.</span><span class="sxs-lookup"><span data-stu-id="e8137-172">If you have any concerns, check with your tax advisers.</span></span> <span data-ttu-id="e8137-173">Para obter instruções, [consulte Add your VAT ID](#add-your-vat-id).</span><span class="sxs-lookup"><span data-stu-id="e8137-173">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
 
-- <span data-ttu-id="557ff-174">**Você está na Irlanda e tem a certificação de isenção de IVA válida relevante:** A Microsoft Ireland Operations Ltd. pode estar autorizada a isentar a transação do IVA.</span><span class="sxs-lookup"><span data-stu-id="557ff-174">**You're in Ireland and have the relevant valid VAT exemption certification:** Microsoft Ireland Operations Ltd. may be entitled to exempt the transaction from VAT.</span></span> <span data-ttu-id="557ff-175">Se você não fornecer, a Microsoft Ireland Operations Ltd. aplicará a taxa de IVA atual do irlandês, independentemente de você fornecer uma ID de IVA ou não.</span><span class="sxs-lookup"><span data-stu-id="557ff-175">If you don't, Microsoft Ireland Operations Ltd. applies the current Irish VAT rate, whether you provide a VAT ID or not.</span></span>
+- <span data-ttu-id="e8137-174">Você está na Irlanda e tem a certificação **de isenção** de IVA válida relevante: As Operações da Microsoft Ireland Ltd. podem ter o direito de isentar a transação do IVA.</span><span class="sxs-lookup"><span data-stu-id="e8137-174">**You're in Ireland and have the relevant valid VAT exemption certification:** Microsoft Ireland Operations Ltd. may be entitled to exempt the transaction from VAT.</span></span> <span data-ttu-id="e8137-175">Se você não o faz, a Microsoft Ireland Operations Ltd. aplica a taxa de IVA atual da Irlanda, independentemente de você fornecer uma ID de IVA ou não.</span><span class="sxs-lookup"><span data-stu-id="e8137-175">If you don't, Microsoft Ireland Operations Ltd. applies the current Irish VAT rate, whether you provide a VAT ID or not.</span></span>
 
-- <span data-ttu-id="557ff-176">**Você está na Armônia, Belarus, Noruega, Turquia ou Emirados Árabes Unidos:** Você pode fornecer sua ID de IVA local.</span><span class="sxs-lookup"><span data-stu-id="557ff-176">**You're in Armenia, Belarus, Norway, Turkey, or United Arab Emirates:** You can provide your local VAT ID.</span></span> <span data-ttu-id="557ff-177">Isso dá à Microsoft Ireland Operations Ltd. a taxa zero do IVA da transação.</span><span class="sxs-lookup"><span data-stu-id="557ff-177">This entitles Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="557ff-178">No entanto, você pode ter uma obrigação de contabilidade de IVA local, portanto, verifique com seus consultores fiscais se você tiver alguma preocupação.</span><span class="sxs-lookup"><span data-stu-id="557ff-178">However, you may have a local VAT accounting obligation, so please check with your tax advisers if you have any concerns.</span></span> <span data-ttu-id="557ff-179">Para obter instruções, [consulte Adicionar sua ID de IVA.](#add-your-vat-id)</span><span class="sxs-lookup"><span data-stu-id="557ff-179">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
+- <span data-ttu-id="e8137-176">**Você está na Armenia, Bielorrússia, Noruega, Turquia ou Emirados Árabes Unidos:** Você pode fornecer sua ID de IVA local.</span><span class="sxs-lookup"><span data-stu-id="e8137-176">**You're in Armenia, Belarus, Norway, Turkey, or United Arab Emirates:** You can provide your local VAT ID.</span></span> <span data-ttu-id="e8137-177">Isso dá direito à Microsoft Ireland Operations Ltd. ao IVA de taxa zero da transação.</span><span class="sxs-lookup"><span data-stu-id="e8137-177">This entitles Microsoft Ireland Operations Ltd. to VAT zero-rate the transaction.</span></span> <span data-ttu-id="e8137-178">No entanto, você pode ter uma obrigação de contabilidade de IVA local, portanto, verifique com seus consultores fiscais se tiver alguma preocupação.</span><span class="sxs-lookup"><span data-stu-id="e8137-178">However, you may have a local VAT accounting obligation, so please check with your tax advisers if you have any concerns.</span></span> <span data-ttu-id="e8137-179">Para obter instruções, [consulte Add your VAT ID](#add-your-vat-id).</span><span class="sxs-lookup"><span data-stu-id="e8137-179">For instructions, see [Add your VAT ID](#add-your-vat-id).</span></span>
 
-## <a name="asia-pacific-countries-apac"></a><span data-ttu-id="557ff-180">Países do Pacífico Asiático (APAC)</span><span class="sxs-lookup"><span data-stu-id="557ff-180">Asia Pacific countries (APAC)</span></span>
+## <a name="asia-pacific-countries-apac"></a><span data-ttu-id="e8137-180">Países do Pacífico Asiático (APAC)</span><span class="sxs-lookup"><span data-stu-id="e8137-180">Asia Pacific countries (APAC)</span></span>
 
-<span data-ttu-id="557ff-181">Se você for cobrado pelo escritório de Vendas Regionais da Microsoft, "Microsoft Regional Sales Pte.</span><span class="sxs-lookup"><span data-stu-id="557ff-181">If you're billed by the Microsoft Regional Sales office, "Microsoft Regional Sales Pte.</span></span> <span data-ttu-id="557ff-182">Ltd."</span><span class="sxs-lookup"><span data-stu-id="557ff-182">Ltd."</span></span> <span data-ttu-id="557ff-183">aparece em sua fatura e você pode ser cobrado por qualquer valor agregado, vendas ou impostos semelhantes aplicáveis.</span><span class="sxs-lookup"><span data-stu-id="557ff-183">appears on your invoice, and you might be charged for any applicable value-added, sales, or similar taxes.</span></span>
+<span data-ttu-id="e8137-181">Se você for cobrado pelo escritório de Vendas Regionais da Microsoft, "Microsoft Regional Sales Pte.</span><span class="sxs-lookup"><span data-stu-id="e8137-181">If you're billed by the Microsoft Regional Sales office, "Microsoft Regional Sales Pte.</span></span> <span data-ttu-id="e8137-182">Ltd."</span><span class="sxs-lookup"><span data-stu-id="e8137-182">Ltd."</span></span> <span data-ttu-id="e8137-183">aparece em sua fatura e você pode ser cobrado por qualquer valor adicionado, vendas ou impostos semelhantes aplicáveis.</span><span class="sxs-lookup"><span data-stu-id="e8137-183">appears on your invoice, and you might be charged for any applicable value-added, sales, or similar taxes.</span></span>
   
-<span data-ttu-id="557ff-184">Se você for cobrado de um dos seguintes locais, o imposto local atual será aplicado.</span><span class="sxs-lookup"><span data-stu-id="557ff-184">If you're billed from one of the following locations, the current local tax is applied.</span></span> <span data-ttu-id="557ff-185">O local está incluído [em sua fatura:](view-your-bill-or-invoice.md)</span><span class="sxs-lookup"><span data-stu-id="557ff-185">The location is included [on your invoice](view-your-bill-or-invoice.md):</span></span>
+<span data-ttu-id="e8137-184">Se você for cobrado de um dos seguintes locais, o imposto local atual será aplicado.</span><span class="sxs-lookup"><span data-stu-id="e8137-184">If you're billed from one of the following locations, the current local tax is applied.</span></span> <span data-ttu-id="e8137-185">O local está incluído [em sua fatura](view-your-bill-or-invoice.md):</span><span class="sxs-lookup"><span data-stu-id="e8137-185">The location is included [on your invoice](view-your-bill-or-invoice.md):</span></span>
   
-- <span data-ttu-id="557ff-186">Índia</span><span class="sxs-lookup"><span data-stu-id="557ff-186">India</span></span>
-- <span data-ttu-id="557ff-187">Japão</span><span class="sxs-lookup"><span data-stu-id="557ff-187">Japan</span></span>
-- <span data-ttu-id="557ff-188">Coreia</span><span class="sxs-lookup"><span data-stu-id="557ff-188">Korea</span></span>
-- <span data-ttu-id="557ff-189">Cingapura</span><span class="sxs-lookup"><span data-stu-id="557ff-189">Singapore</span></span>
-- <span data-ttu-id="557ff-190">Taiwan</span><span class="sxs-lookup"><span data-stu-id="557ff-190">Taiwan</span></span>
+- <span data-ttu-id="e8137-186">Índia</span><span class="sxs-lookup"><span data-stu-id="e8137-186">India</span></span>
+- <span data-ttu-id="e8137-187">Japão</span><span class="sxs-lookup"><span data-stu-id="e8137-187">Japan</span></span>
+- <span data-ttu-id="e8137-188">Coreia</span><span class="sxs-lookup"><span data-stu-id="e8137-188">Korea</span></span>
+- <span data-ttu-id="e8137-189">Cingapura</span><span class="sxs-lookup"><span data-stu-id="e8137-189">Singapore</span></span>
+- <span data-ttu-id="e8137-190">Taiwan</span><span class="sxs-lookup"><span data-stu-id="e8137-190">Taiwan</span></span>
 
-## <a name="north-central-and-south-america"></a><span data-ttu-id="557ff-191">América do Norte, Central e do Sul</span><span class="sxs-lookup"><span data-stu-id="557ff-191">North, Central, and South America</span></span>
+## <a name="north-central-and-south-america"></a><span data-ttu-id="e8137-191">América do Norte, Central e do Sul</span><span class="sxs-lookup"><span data-stu-id="e8137-191">North, Central, and South America</span></span>
 
-<span data-ttu-id="557ff-192">Nos Estados Unidos, Canadá, México, Chile e Colômbia, várias taxas de imposto se aplicam dependendo da natureza do produto e de sua localização.</span><span class="sxs-lookup"><span data-stu-id="557ff-192">In the United States, Canada, Mexico, Chile, and Colombia, various tax rates apply depending on the product nature and your location.</span></span>
+<span data-ttu-id="e8137-192">Nos Estados Unidos, Canadá, México, Chile e Colômbia, várias taxas de imposto se aplicam dependendo da natureza do produto e da sua localização.</span><span class="sxs-lookup"><span data-stu-id="e8137-192">In the United States, Canada, Mexico, Chile, and Colombia, various tax rates apply depending on the product nature and your location.</span></span>
   
-<span data-ttu-id="557ff-193">Se a cobrança for feita pela Microsoft Corporation[(veja](view-your-bill-or-invoice.md)sua fatura) e você se inscreveu no Microsoft 365 fora dos Estados Unidos, Canadá, Porto Rico, Chile e Colômbia, o imposto geralmente não será cobrado.</span><span class="sxs-lookup"><span data-stu-id="557ff-193">If your billing is done by Microsoft Corporation ([see your invoice](view-your-bill-or-invoice.md)), and you signed up for Microsoft 365 outside of the United States, Canada, Puerto Rico, Chile, and Colombia, then tax is generally not charged.</span></span>
+<span data-ttu-id="e8137-193">Se sua cobrança for feita pela Microsoft Corporation[(](view-your-bill-or-invoice.md)consulte sua fatura ) e você se inscreveu no Microsoft 365 fora dos Estados Unidos, Canadá, Porto Rico, Chile e Colômbia, o imposto geralmente não é cobrado.</span><span class="sxs-lookup"><span data-stu-id="e8137-193">If your billing is done by Microsoft Corporation ([see your invoice](view-your-bill-or-invoice.md)), and you signed up for Microsoft 365 outside of the United States, Canada, Puerto Rico, Chile, and Colombia, then tax is generally not charged.</span></span>
 
-## <a name="add-your-vat-id"></a><span data-ttu-id="557ff-194">Adicionar seu ID de IVA</span><span class="sxs-lookup"><span data-stu-id="557ff-194">Add your VAT ID</span></span>
+## <a name="add-your-vat-id"></a><span data-ttu-id="e8137-194">Adicionar sua ID do IVA</span><span class="sxs-lookup"><span data-stu-id="e8137-194">Add your VAT ID</span></span>
 
-1. <span data-ttu-id="557ff-195">No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.</span><span class="sxs-lookup"><span data-stu-id="557ff-195">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
-2. <span data-ttu-id="557ff-196">Na guia **Produtos,** selecione a assinatura que você deseja atualizar.</span><span class="sxs-lookup"><span data-stu-id="557ff-196">On the **Products** tab, select the subscription that you want to update.</span></span>
-3. <span data-ttu-id="557ff-197">Na página de detalhes da assinatura, na seção Endereço de **uso do** serviço, selecione Editar endereço de uso **do serviço.**</span><span class="sxs-lookup"><span data-stu-id="557ff-197">On the subscription details page, in the **Service usage address** section, select **Edit service usage address**.</span></span>
-4. <span data-ttu-id="557ff-198">No painel Editar endereço de uso  **do** serviço, na caixa número do IVA, insira sua ID do IVA, incluindo o prefixo e sem espaços.</span><span class="sxs-lookup"><span data-stu-id="557ff-198">On the **Edit service usage address** pane, in the **VAT number** box, enter your VAT ID, including the prefix, and without any spaces.</span></span>
-5. <span data-ttu-id="557ff-199">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="557ff-199">Select **Save**.</span></span>
+1. <span data-ttu-id="e8137-195">No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.</span><span class="sxs-lookup"><span data-stu-id="e8137-195">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+2. <span data-ttu-id="e8137-196">Na guia **Produtos**, escolha a assinatura que deseja atualizar.</span><span class="sxs-lookup"><span data-stu-id="e8137-196">On the **Products** tab, select the subscription that you want to update.</span></span>
+3. <span data-ttu-id="e8137-197">Na página detalhes da assinatura, na seção Endereço de uso **do** serviço, selecione **Editar endereço de uso do serviço**.</span><span class="sxs-lookup"><span data-stu-id="e8137-197">On the subscription details page, in the **Service usage address** section, select **Edit service usage address**.</span></span>
+4. <span data-ttu-id="e8137-198">No painel Editar endereço de uso  **do** serviço, na caixa Número do IVA, insira sua ID do IVA, incluindo o prefixo, e sem espaços.</span><span class="sxs-lookup"><span data-stu-id="e8137-198">On the **Edit service usage address** pane, in the **VAT number** box, enter your VAT ID, including the prefix, and without any spaces.</span></span>
+5. <span data-ttu-id="e8137-199">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="e8137-199">Select **Save**.</span></span>
 
-## <a name="how-taxes-are-calculated"></a><span data-ttu-id="557ff-200">Como os impostos são calculados</span><span class="sxs-lookup"><span data-stu-id="557ff-200">How taxes are calculated</span></span>
+## <a name="how-taxes-are-calculated"></a><span data-ttu-id="e8137-200">Como os impostos são calculados</span><span class="sxs-lookup"><span data-stu-id="e8137-200">How taxes are calculated</span></span>
 
-<span data-ttu-id="557ff-201">Os impostos sobre vendas são calculados com base no preço unitado e agregados.</span><span class="sxs-lookup"><span data-stu-id="557ff-201">Sales taxes are calculated against the unit price, and then aggregated.</span></span>
+<span data-ttu-id="e8137-201">Os impostos de vendas são calculados em relação ao preço unit, e, em seguida, agregados.</span><span class="sxs-lookup"><span data-stu-id="e8137-201">Sales taxes are calculated against the unit price, and then aggregated.</span></span>
 
-<span data-ttu-id="557ff-202">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="557ff-202">For example:</span></span>
+<span data-ttu-id="e8137-202">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="e8137-202">For example:</span></span>
 
-><span data-ttu-id="557ff-203">*(preço unit rio X taxa de imposto) Quantidade X = total de imposto sobre vendas*</span><span class="sxs-lookup"><span data-stu-id="557ff-203">*(unit price X tax rate) X quantity = total sales tax*</span></span>
+><span data-ttu-id="e8137-203">*(preço unitial X taxa de imposto) Quantidade X = imposto total de vendas*</span><span class="sxs-lookup"><span data-stu-id="e8137-203">*(unit price X tax rate) X quantity = total sales tax*</span></span>
 
-<span data-ttu-id="557ff-204">- ou -</span><span class="sxs-lookup"><span data-stu-id="557ff-204">-or-</span></span>
+<span data-ttu-id="e8137-204">- ou -</span><span class="sxs-lookup"><span data-stu-id="e8137-204">-or-</span></span>
 
-><span data-ttu-id="557ff-205">($1,29 X 0,095) X 100 = US$ 12,25</span><span class="sxs-lookup"><span data-stu-id="557ff-205">($1.29 X 0.095) X 100 = $12.25</span></span>
+><span data-ttu-id="e8137-205">($1,29 X 0,095) X 100 = $12,25</span><span class="sxs-lookup"><span data-stu-id="e8137-205">($1.29 X 0.095) X 100 = $12.25</span></span>
 
-## <a name="apply-for-tax-exempt-status"></a><span data-ttu-id="557ff-206">Solicitar status de isenção de imposto</span><span class="sxs-lookup"><span data-stu-id="557ff-206">Apply for tax-exempt status</span></span>
+## <a name="apply-for-tax-exempt-status"></a><span data-ttu-id="e8137-206">Aplicar-se ao status de isenção de impostos</span><span class="sxs-lookup"><span data-stu-id="e8137-206">Apply for tax-exempt status</span></span>
 
-<span data-ttu-id="557ff-207">Se você estiver qualificado para o status de isenção de impostos em seu mercado, [inicie](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) uma solicitação de serviço para estabelecer o status de isenção de impostos para sua organização.</span><span class="sxs-lookup"><span data-stu-id="557ff-207">If you qualify for tax-exempt status in your market, [start a service request](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) to establish tax exempt status for your organization.</span></span>
+<span data-ttu-id="e8137-207">Se você se qualificar para o status de isenção de impostos no mercado, [inicie uma](/office365/admin/contact-support-for-business-products) solicitação de serviço para estabelecer o status de isenção fiscal para sua organização.</span><span class="sxs-lookup"><span data-stu-id="e8137-207">If you qualify for tax-exempt status in your market, [start a service request](/office365/admin/contact-support-for-business-products) to establish tax exempt status for your organization.</span></span>
 
-|<span data-ttu-id="557ff-208">País ou localidade</span><span class="sxs-lookup"><span data-stu-id="557ff-208">Country or locale</span></span> | <span data-ttu-id="557ff-209">Documentação</span><span class="sxs-lookup"><span data-stu-id="557ff-209">Documentation</span></span> |
+|<span data-ttu-id="e8137-208">País ou localidade</span><span class="sxs-lookup"><span data-stu-id="e8137-208">Country or locale</span></span> | <span data-ttu-id="e8137-209">Documentação</span><span class="sxs-lookup"><span data-stu-id="e8137-209">Documentation</span></span> |
 |------------------|----------------|
-| <span data-ttu-id="557ff-210">Canadá</span><span class="sxs-lookup"><span data-stu-id="557ff-210">Canada</span></span> | <span data-ttu-id="557ff-211">Certificado de isenção (ou uma carta de autorização equivalente)</span><span class="sxs-lookup"><span data-stu-id="557ff-211">Certificate of Exemption (or equivalent letter of authorization)</span></span> |
-| <span data-ttu-id="557ff-212">Chile </span><span class="sxs-lookup"><span data-stu-id="557ff-212">Chile</span></span> | <span data-ttu-id="557ff-213">Status IVA/UNICO (Registro Unico Unico Unicorio)</span><span class="sxs-lookup"><span data-stu-id="557ff-213">IVA status/RUT (Registro Unico Tributario)</span></span> |
-| <span data-ttu-id="557ff-214">Colômbia</span><span class="sxs-lookup"><span data-stu-id="557ff-214">Colombia</span></span> | <span data-ttu-id="557ff-215">Status IVA/UNICO (Registro Unico Unico Unicorio)</span><span class="sxs-lookup"><span data-stu-id="557ff-215">IVA status/RUT (Registro Unico Tributario)</span></span> |
-| <span data-ttu-id="557ff-216">Organizações internacionais que têm isenção de imposto</span><span class="sxs-lookup"><span data-stu-id="557ff-216">International organizations that hold tax exemption</span></span> | <span data-ttu-id="557ff-217">Certificação/carta de confirmação de autoridades fiscais locais</span><span class="sxs-lookup"><span data-stu-id="557ff-217">Certification / letter confirmation from local tax authorities</span></span> |
-| <span data-ttu-id="557ff-218">Irlanda</span><span class="sxs-lookup"><span data-stu-id="557ff-218">Ireland</span></span> | <span data-ttu-id="557ff-219">Certificado de isenção de imposto 13B/56A</span><span class="sxs-lookup"><span data-stu-id="557ff-219">13B/56A Tax Exemption Certificate</span></span>|
-| <span data-ttu-id="557ff-220">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="557ff-220">United States</span></span> | <span data-ttu-id="557ff-221">Certificado de isenção de imposto sobre vendas</span><span class="sxs-lookup"><span data-stu-id="557ff-221">Sales Tax Exemption Certificate</span></span> |
-| <span data-ttu-id="557ff-222">Porto Rico</span><span class="sxs-lookup"><span data-stu-id="557ff-222">Puerto Rico</span></span> | <span data-ttu-id="557ff-223">Certificado de Compras Exentas</span><span class="sxs-lookup"><span data-stu-id="557ff-223">Certificado de Compras Exentas</span></span> |
+| <span data-ttu-id="e8137-210">Canadá</span><span class="sxs-lookup"><span data-stu-id="e8137-210">Canada</span></span> | <span data-ttu-id="e8137-211">Certificado de Isenção (ou carta de autorização equivalente)</span><span class="sxs-lookup"><span data-stu-id="e8137-211">Certificate of Exemption (or equivalent letter of authorization)</span></span> |
+| <span data-ttu-id="e8137-212">Chile </span><span class="sxs-lookup"><span data-stu-id="e8137-212">Chile</span></span> | <span data-ttu-id="e8137-213">Status do IVA/ROTINA (Registro Unico Tributario)</span><span class="sxs-lookup"><span data-stu-id="e8137-213">IVA status/RUT (Registro Unico Tributario)</span></span> |
+| <span data-ttu-id="e8137-214">Colômbia</span><span class="sxs-lookup"><span data-stu-id="e8137-214">Colombia</span></span> | <span data-ttu-id="e8137-215">Status do IVA/ROTINA (Registro Unico Tributario)</span><span class="sxs-lookup"><span data-stu-id="e8137-215">IVA status/RUT (Registro Unico Tributario)</span></span> |
+| <span data-ttu-id="e8137-216">Organizações internacionais que têm isenção fiscal</span><span class="sxs-lookup"><span data-stu-id="e8137-216">International organizations that hold tax exemption</span></span> | <span data-ttu-id="e8137-217">Certificação/confirmação de carta das autoridades fiscais locais</span><span class="sxs-lookup"><span data-stu-id="e8137-217">Certification / letter confirmation from local tax authorities</span></span> |
+| <span data-ttu-id="e8137-218">Irlanda</span><span class="sxs-lookup"><span data-stu-id="e8137-218">Ireland</span></span> | <span data-ttu-id="e8137-219">Certificado de isenção de imposto 13B/56A</span><span class="sxs-lookup"><span data-stu-id="e8137-219">13B/56A Tax Exemption Certificate</span></span>|
+| <span data-ttu-id="e8137-220">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="e8137-220">United States</span></span> | <span data-ttu-id="e8137-221">Certificado de Isenção de Imposto de Vendas</span><span class="sxs-lookup"><span data-stu-id="e8137-221">Sales Tax Exemption Certificate</span></span> |
+| <span data-ttu-id="e8137-222">Porto Rico</span><span class="sxs-lookup"><span data-stu-id="e8137-222">Puerto Rico</span></span> | <span data-ttu-id="e8137-223">Certificado de Compras Exentas</span><span class="sxs-lookup"><span data-stu-id="e8137-223">Certificado de Compras Exentas</span></span> |
   
-## <a name="related-content"></a><span data-ttu-id="557ff-224">Conteúdo relacionado</span><span class="sxs-lookup"><span data-stu-id="557ff-224">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="e8137-224">Conteúdo relacionado</span><span class="sxs-lookup"><span data-stu-id="e8137-224">Related content</span></span>
   
-<span data-ttu-id="557ff-225">[Exibir sua fatura ou fatura](view-your-bill-or-invoice.md) (artigo)</span><span class="sxs-lookup"><span data-stu-id="557ff-225">[View your bill or invoice](view-your-bill-or-invoice.md) (article)</span></span>\
-<span data-ttu-id="557ff-226">[Entenda sua fatura ou fatura](understand-your-invoice.md) (artigo)</span><span class="sxs-lookup"><span data-stu-id="557ff-226">[Understand your bill or invoice](understand-your-invoice.md) (article)</span></span>
+<span data-ttu-id="e8137-225">[Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)</span><span class="sxs-lookup"><span data-stu-id="e8137-225">[View your bill or invoice](view-your-bill-or-invoice.md) (article)</span></span>\
+<span data-ttu-id="e8137-226">[Entenda sua conta ou fatura](understand-your-invoice.md) (artigo)</span><span class="sxs-lookup"><span data-stu-id="e8137-226">[Understand your bill or invoice](understand-your-invoice.md) (article)</span></span>
