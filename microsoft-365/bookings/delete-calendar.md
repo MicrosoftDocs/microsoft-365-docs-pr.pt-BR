@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: Use o Centro de administração do Microsoft 365 ou Windows PowerShell excluir calendários do Bookings.
-ms.openlocfilehash: 7407298adb402de79a1010b51544deee4b94cf5a
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: 7b79628327797d2e315d31e1b1a2671f0b24e447
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50604015"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913773"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Excluir um calendário de reserva no Bookings
 
@@ -46,7 +46,7 @@ O calendário de reserva é onde todas as informações relevantes sobre esse ca
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Excluir um calendário de reserva usando o PowerShell do Exchange Online
 
-Consulte [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) for prerequisites and guidance for connecting to Exchange Online PowerShell.
+Consulte [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) for prerequisites and guidance for connecting to Exchange Online PowerShell.
 
 Para executar essas etapas, você deve estar usando uma janela de comando ativa do Microsoft PowerShell que você executava escolhendo a opção "Executar como administrador".
 
@@ -57,7 +57,7 @@ Para executar essas etapas, você deve estar usando uma janela de comando ativa 
    ```
 
    > [!NOTE]
-   > Se você já tiver [instalado o módulo EXO v2](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module), o comando anterior funcionará como escrito.
+   > Se você já tiver [instalado o módulo EXO v2](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module), o comando anterior funcionará como escrito.
    
 2. O comando que você precisa executar usa a seguinte sintaxe:
 

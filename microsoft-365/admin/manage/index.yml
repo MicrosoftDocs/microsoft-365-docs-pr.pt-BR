@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: f9bb89aa0f42f487abcd0d44785c257184024941
-  ms.sourcegitcommit: a566ef236c85edfd566c8c3f859b80f9e5ce0473
+  ms.openlocfilehash: 07f3d268da44f92ea665e5a1751cad9acf70dfc1
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 12/03/2020
-  ms.locfileid: "49562916"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50915405"
 landingContent:
 - title: Monitorar o status do nosso serviço
   linkLists:
@@ -69,7 +69,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: Documentação de administração do Microsoft Teams
-      url: https://docs.microsoft.com/en-us/microsoftteams/
+      url: /microsoftteams/
     - text: Usar o Outlook e o Teams juntos
       url: https://support.microsoft.com/office/9bc459c4-ce13-479b-b88b-b8ae49092732
   - linkListType: learn
@@ -81,12 +81,12 @@ landingContent:
   - linkListType: overview
     links:
     - text: Documentação do SharePoint para profissionais de TI e administradores
-      url: https://docs.microsoft.com/sharepoint/
+      url: /sharepoint/
     - text: Documentação do OneDrive para profissionais de TI e administradores
-      url: https://docs.microsoft.com/onedrive/
+      url: /onedrive/
   - linkListType: how-to-guide
     links:
     - text: Gerenciar o compartilhamento no OneDrive e no SharePoint
-      url: https://docs.microsoft.com/onedrive/manage-sharing
+      url: /onedrive/manage-sharing
     - text: Criar e gerenciar sites
       url: https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center

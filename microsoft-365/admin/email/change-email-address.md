@@ -25,19 +25,19 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 'Altere seu endereço de email inicial para um endereço de email amigável como tom@fourthcoffee.com. Para fazer isso, você precisa comprar um nome de domínio e adicioná-lo ao Microsoft 365. '
-ms.openlocfilehash: 445b78f759cee79a794f9656afd5b26051534e26
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: 10dff4e0523062ae763c08a972563dc8b5582038
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114016"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915921"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Mudar seu endereço de email para usar seu domínio personalizado
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -51,21 +51,21 @@ Seu endereço de email inicial no Microsoft 365 inclui .onmicrosoft.com, como to
 
 ::: moniker range="o365-germany"
 
-Seu endereço de email inicial no Office 365 Germany inclui .onmicrosoft.de, como tom@fourthcoffee.onmicrosoft.de. Você pode alterá-lo para um endereço amigável como tom@fourthcoffee.de. Você precisará de seu próprio nome de domínio, como fourthcoffee.de primeiro. Se você já possui um, excelente! Caso contrário, você pode aprender como [comprar um de um registrador de domínios](../get-help-with-domains/buy-a-domain-name.md).
+Seu endereço de email inicial no Office 365 Germany inclui .onmicrosoft.de, como tom@fourthcoffee.onmicrosoft.de. Você pode alterá-lo para um endereço mais amigável como tom@fourthcoffee.de. Você precisará de seu próprio nome de domínio, como fourthcoffee.de primeiro. Se você já possui um, excelente! Caso contrário, você pode aprender como [comprar um de um registrador de domínios](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Seu endereço de email inicial no Office 365 operado pela 21Vianet inclui partner.onmschina.cn, como tom@fourthcoffee.partner.onmschina.cn. Você pode alterá-lo para um endereço amigável como tom@fourthcoffee.cn. Você precisará de seu próprio nome de domínio, como fourthcoffee.cn primeiro. Se você já possui um, excelente! Caso contrário, você pode aprender como [comprar um de um registrador de domínios](../get-help-with-domains/buy-a-domain-name.md).
+Seu endereço de email inicial no Office 365 operado pela 21Vianet inclui partner.onmschina.cn, como tom@fourthcoffee.partner.onmschina.cn. Você pode alterá-lo para um endereço mais amigável como tom@fourthcoffee.cn. Você precisará de seu próprio nome de domínio, como fourthcoffee.cn primeiro. Se você já possui um, excelente! Caso contrário, você pode aprender como [comprar um de um registrador de domínios](../get-help-with-domains/buy-a-domain-name.md).
 
 ::: moniker-end
 
-Quando você alterar o email do seu domínio para chegar ao Microsoft 365, atualizando o registro MX do seu domínio durante a configuração, TODOS os emails enviados para esse domínio começarão a chegar no Microsoft 365. Certifique-se de ter adicionado usuários e criado caixas de correio no Microsoft 365 para todos que têm email em seu domínio ANTES de alterar o registro MX. Não deseja mover emails de todos em seu domínio para o Microsoft 365? Você pode seguir etapas para [fazer o piloto do Microsoft 365 com apenas alguns endereços de email.](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain?view=o365-worldwide)
+Quando você altera o email do seu domínio para vir para o Microsoft 365, atualizando o registro MX do seu domínio durante a instalação, TODOS os emails enviados para esse domínio começarão a chegar ao Microsoft 365. Certifique-se de que você adicionou usuários e criou caixas de correio no Microsoft 365 para todos que têm email em seu domínio ANTES de alterar o registro MX. Não deseja mover emails para todos em seu domínio para o Microsoft 365? Você pode tomar medidas para [pilotar o Microsoft 365 com apenas alguns endereços de email.](../misc/pilot-microsoft-365-from-my-custom-domain.md?view=o365-worldwide)
   
-## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Altere seu endereço de email para usar seu domínio personalizado usando o Centro de administração do Microsoft 365
+## <a name="change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center"></a>Alterar seu endereço de email para usar seu domínio personalizado usando o Centro de administração do Microsoft 365
 
-Você deve ter uma conta de administrador global para executar estas etapas. 
+Você deve ter uma conta de administrador global para executar essas etapas. 
 
 ::: moniker range="o365-worldwide"
 
@@ -85,7 +85,7 @@ Você deve ter uma conta de administrador global para executar estas etapas.
 
 ::: moniker-end 
 
-2. Vá para a **página**  >  **Domínios da Instalação.** 
+2. Vá para a **página**  >  **Domínios de** Instalação. 
 
 3. Na página **Domínios**, selecione **Adicionar domínio**.
     
@@ -99,4 +99,3 @@ Você será orientado a configurar tudo corretamente com seu domínio no Microso
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Comprar um domínio personalizado usando o Microsoft 365](../get-help-with-domains/buy-a-domain-name.md)
- 

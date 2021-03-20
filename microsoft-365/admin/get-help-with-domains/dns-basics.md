@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Aprenda sobre domínios e seus registros DNS associados para ajudá-lo a gerenciar seus domínios.
-ms.openlocfilehash: 093641a5c80c70264c1d64ee27cb7621e5f7b2cb
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f8d8171e306a0206facec1621bf2b1a9f8085757
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926409"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915657"
 ---
 # <a name="dns-basics"></a>Noções básicas do DNS
 
@@ -69,7 +69,7 @@ Os nomes de domínio são usados nas URLs e endereços de email e possuem nívei
     
 Por que usar um domínio de terceiro nível? Talvez você queira ter nomes de domínio diferentes para marketing ou um blog. Por exemplo, blog.contoso.com. Normalmente, você adicionar um domínio de segundo nível, como contoso.com, para usar com a Microsoft, mas também pode usar domínios de terceiro nível se desejar.
   
-Saiba mais sobre o que você pode fazer com domínios para cada tipo de oferta na [descrição do serviço da plataforma Microsoft 365 e Office 365](https://go.microsoft.com/fwlink/?LinkId=402693).
+Saiba mais sobre o que você pode fazer com domínios para cada tipo de oferta na [descrição do serviço da plataforma Microsoft 365 e Office 365](/office365/servicedescriptions/office-365-platform-service-description/domains).
   
 ## <a name="understand-dns-record-types"></a>Noções básicas sobre tipos de registro DNS
 
@@ -150,14 +150,14 @@ Por que o arquivo de zona do seu domínio pode estar em outro lugar além do seu
 ## <a name="why-add-a-domain-in-microsoft-365"></a>Por que adicionar um domínio no Microsoft 365?
 
 
-Adicionar um domínio personalizado, como fourthcoffee.com ao Microsoft 365 permite que você use um endereço de email e uma ID de usuário mais curtos e familiares no serviço.  Você [receberá um domínio para usar](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) ao se inscrever em uma conta do Microsoft 365, mas ele inclui “onmicrosoft.com.” Muitas pessoas preferem adicionar o domínios de suas organizações ou empresas quando planejam usar o Microsoft 365 para emails. 
+Adicionar um domínio personalizado, como fourthcoffee.com ao Microsoft 365 permite que você use um endereço de email e uma ID de usuário mais curtos e familiares no serviço.  Você [receberá um domínio para usar](../setup/domains-faq.yml) ao se inscrever em uma conta do Microsoft 365, mas ele inclui “onmicrosoft.com.” Muitas pessoas preferem adicionar o domínios de suas organizações ou empresas quando planejam usar o Microsoft 365 para emails. 
   
 > [!NOTE]
 > Se você quer apenas baixar e usar aplicativos da Microsoft, como Outlook ou Word, não precisa adicionar um domínio: [Instalar o Office no seu computador ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
 É possível utilizar seu nome de domínio no Microsoft 365 com seu email, site público e endereço do sistema de mensagens instantâneas.
   
-- **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Microsoft 365) poderia ser paulo@contoso.com. 
+- **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](../setup/domains-faq.yml) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Microsoft 365) poderia ser paulo@contoso.com. 
     
 - **Website:** Se você possui uma assinatura do Microsoft 365 que inclui um site público do SharePoint Online (não está mais disponível para compra), seu site público é fornecido com um endereço inicial como este: contoso-public.sharepoint.com. Se você configurar seu site para sua empresa, poderá usar um nome de domínio personalizado para renomear o endereço do site para algo como www.contoso.com. 
     
@@ -169,14 +169,14 @@ Adicionar um domínio personalizado, como fourthcoffee.com ao Microsoft 365 perm
 ## <a name="why-add-a-domain-in-microsoft-365"></a>Por que adicionar um domínio no Microsoft 365?
 
 
-Adicionar um domínio personalizado, como fourthcoffee.com ao Microsoft 365 permite que você use um endereço de email e uma ID de usuário mais curtos e familiares no serviço.  Você [receberá um domínio para usar](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) ao se inscrever em uma conta do Microsoft 365, mas ele inclui “onmicrosoft.com.” Muitas pessoas preferem adicionar o domínios de suas organizações ou empresas quando planejam usar o Microsoft 365 para emails. 
+Adicionar um domínio personalizado, como fourthcoffee.com ao Microsoft 365 permite que você use um endereço de email e uma ID de usuário mais curtos e familiares no serviço.  Você [receberá um domínio para usar](../setup/domains-faq.yml) ao se inscrever em uma conta do Microsoft 365, mas ele inclui “onmicrosoft.com.” Muitas pessoas preferem adicionar o domínios de suas organizações ou empresas quando planejam usar o Microsoft 365 para emails. 
   
 > [!NOTE]
 > Você não precisa adicionar um domínio se deseja apenas baixar e usar os aplicativos do Microsoft 365, como o Outlook ou o Word: [Instalar o Office no seu computador ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658). 
   
 É possível utilizar seu nome de domínio no Microsoft 365 com seu email, site público e endereço do sistema de mensagens instantâneas.
   
-- **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Microsoft 365) poderia ser paulo@contoso.com. 
+- **Email:** seu nome de domínio permite que você personalize seu email para que seja possível utilizar um endereço mais curto e mais fácil de lembrar que [o endereço de email inicial onmicrosoft.com](../setup/domains-faq.yml) que acompanha sua conta.  Portanto, em vez de paulo@contoso.onmicrosoft.com, o endereço de email (que também é a conta corporativa que você utiliza para entrar no Microsoft 365) poderia ser paulo@contoso.com. 
     
 - **Website:** Se você tiver uma assinatura que inclua um site público do SharePoint Online (não está mais disponível para compra), seu site público será exibido com um endereço inicial como o seguinte: contoso-public.sharepoint.com. Se você configurar seu site para sua empresa, poderá usar um nome de domínio personalizado para renomear o endereço do site para algo como www.contoso.com. 
     
@@ -190,7 +190,7 @@ Há diversos registros DNS necessários para que o Microsoft 365 funcione no seu
   
 Você pode [encontrar uma lista de valores](information-for-dns-records.md) para configurar seu domínio. Eles estão incluídos diretamente no centro de administração do Microsoft 365. 
   
-Ou, se estiver planejando uma implantação, convém analisar uma lista de todos os registros DNS necessários para o Microsoft 365, a função deles e os valores de exemplo. Confira os [Registros do Sistema de Nomes de Domínio Externo do Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records).
+Ou, se estiver planejando uma implantação, convém analisar uma lista de todos os registros DNS necessários para o Microsoft 365, a função deles e os valores de exemplo. Confira os [Registros do Sistema de Nomes de Domínio Externo do Microsoft 365](../../enterprise/external-domain-name-system-records.md).
   
 ## <a name="how-can-i-learn-more"></a>Como posso saber mais?
 

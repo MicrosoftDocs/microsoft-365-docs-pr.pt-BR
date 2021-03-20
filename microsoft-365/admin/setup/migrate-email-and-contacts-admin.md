@@ -28,22 +28,22 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: Aprenda a importar contatos, calendários e emails do Gmail ou de outro provedor de email e migrá-los para o Microsoft 365.
-ms.openlocfilehash: eb82711bc8fb431c6e29272b601b898566446f02
-ms.sourcegitcommit: 7355cc8871cde5fac6d7d6dcecc3e41e35601623
+ms.openlocfilehash: 91c8177322e8ebc1e1530675d92d60e96cc73adb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48906376"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914097"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Migrar email e contatos para o Microsoft 365
 
 Importar ou migrar emails do Gmail ou de outro provedor de email para o Microsoft 365.
   
- **Deseja ajuda com isso?**  [Entre em contato com o suporte do Microsoft 365 para empresas.](../contact-support-for-business-products.md) 
+ **Quer ajuda com isso?**  [Entre em contato com o Suporte do Microsoft 365 para empresas.](../contact-support-for-business-products.md) 
   
-Você precisa usar uma versão do Outlook que está instalada em sua área de trabalho para essa tarefa. O Outlook está incluído na [](https://go.microsoft.com/fwlink/p/?LinkId=723731)maioria dos planos do Microsoft 365.
+Você precisa usar uma versão do Outlook instalada em sua área de trabalho para essa tarefa. O Outlook está incluído na [](https://go.microsoft.com/fwlink/p/?LinkId=723731)maioria dos planos do Microsoft 365.
   
-### <a name="migrate-gmail-to-microsoft-365"></a>Migrar do Gmail para o Microsoft 365
+### <a name="migrate-gmail-to-microsoft-365"></a>Migrar o Gmail para o Microsoft 365
 
 Siga estas etapas para importar ou migrar emails, contatos e calendário do Gmail para o Outlook com o Microsoft 365:
   
@@ -57,36 +57,36 @@ Siga estas etapas para importar ou migrar emails, contatos e calendário do Gmai
   
 ### <a name="import-outlook-pst-files-to-microsoft-365-desktop"></a>Importar arquivos pst do Outlook para o Microsoft 365 (área de trabalho)
 
-Siga estas etapas para exportar emails, contatos e calendários do Outlook para um arquivo .pst e, em seguida, importe esse arquivo para o Outlook com o Microsoft 365:
+Siga estas etapas para exportar emails, contatos e calendários do Outlook para um arquivo .pst e importe esse arquivo para o Outlook com o Microsoft 365:
   
-1. [Exportar email, contatos e calendário](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91)
+1. [Exportar emails, contatos e calendário](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91)
     
 2. [Importar email, contatos e calendário](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)
     
-Se você quiser apenas contatos, siga estas etapas:
+Se você deseja apenas contatos, siga estas etapas:
   
 1. [Exportar contatos do Outlook](https://support.microsoft.com/office/10f09abd-643c-4495-bb80-543714eca73f)
     
 2. [Importar contatos para o Outlook](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
-Para iniciar o processo,  abra o Outlook e escolha \> **&amp;** \> **Importar/Exportar** Arquivo Aberto.
+Para iniciar o processo, abra o Outlook e escolha **Abrir Arquivo** \> **Abrir &amp; Exportação** \> **Importação/Exportação.**
   
-![Menu Arquivo no Outlook 2016](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Comando &amp; Abrir Exportação no Outlook 2016](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Botão Importar/Exportar no Outlook 2016](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
+![Menu Arquivo no Outlook 2016](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Abrir &amp; o comando Exportar no Outlook 2016](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Botão Importar/Exportar no Outlook 2016](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
-## <a name="see-other-email-accounts-in-outlook"></a>Ver outras contas de email no Outlook
+## <a name="see-other-email-accounts-in-outlook"></a>Consulte outras contas de email no Outlook
 
-Quer apenas ver seu email de outro provedor (como Gmail, Yahoo ou Live.com) no Outlook? Não é necessário importar ou migrar. Você pode configurar o Outlook ou o Outlook Web App para poder acessar suas outras contas no mesmo lugar que sua caixa de correio do Microsoft 365 e enviar, receber e ler emails enviados a essas contas.
+Só deseja ver seu email de outro provedor (como Gmail, Yahoo ou Live.com) no Outlook? Não é necessário importar ou migrar. Você pode configurar o Outlook ou o Outlook Web App para poder acessar suas outras contas no mesmo local que sua caixa de correio do Microsoft 365 e enviar, receber e ler emails enviados a essas contas.
   
 ### <a name="outlook-desktop"></a>Outlook (área de trabalho)
 
 Adicione uma conta, como sua conta privada do Gmail, ao Outlook.
   
-- Abra o Outlook e vá para a **conta** \> **Adicionar Arquivo.**
+- Abra o Outlook e, em seguida, vá para **a conta Adicionar** \> **arquivo**.
     
-Precisa de etapas mais detalhadas? Consulte [Adicionar uma conta.](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)
+Precisa de etapas mais detalhadas? Consulte [Adicionar uma conta](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b).
   
-[![Screenshot showing Outlook account information page in the backstage view.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)
+[![Captura de tela mostrando a página de informações da conta do Outlook no visualização de bastidores.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>Várias caixas de correio: os administradores podem importar emails, contatos e calendários em massa para o Microsoft 365
 
-Dependendo do sistema de email de origem, você pode escolher entre vários métodos de migração em massa. Leia maneiras de migrar várias contas de email para o [Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration) para decidir qual método funciona para você.
+Dependendo do sistema de email de origem, você pode escolher entre vários métodos de migração em massa. Leia [Maneiras de migrar várias contas de email para o Microsoft 365](/Exchange/mailbox-migration/mailbox-migration) para decidir qual método funciona para você.

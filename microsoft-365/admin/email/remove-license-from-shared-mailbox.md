@@ -22,29 +22,29 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Remova a licença de uma caixa de correio compartilhada para atribuí-la a outro usuário. '
-ms.openlocfilehash: 11d5185cc3f79899a737ddccc0a93160acb380bc
-ms.sourcegitcommit: 884ac262443c50362d0c3ded961d36d6b15d8b73
+ms.openlocfilehash: 1acd549936212db7f722355ed1f2518ff6bbac18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698298"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915681"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Remover uma licença de uma caixa de correio compartilhada
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
-As caixas de correio compartilhadas geralmente não exigem uma licença. Siga estas instruções para remover uma licença de uma caixa de correio compartilhada para que você possa atribuí-la a um usuário ou retornar a licença para que você não está pagando por uma licença de que não precisa.
+As caixas de correio compartilhadas geralmente não exigem uma licença. Siga estas instruções para remover uma licença de uma caixa de correio compartilhada para que você possa atribuí-la a um usuário ou retornar a licença para que você não está pagando por uma licença que não precisa.
 
 > [!NOTE]
 > Uma licença é necessária nos seguintes cenários:
 > 1. A caixa de correio compartilhada tem mais de 50 GB de armazenamento em uso.
-> 2. A caixa de correio compartilhada usa o arquivamento no local.
-> 3. A caixa de correio compartilhada é colocada em espera de litígio.
+> 2. A caixa de correio compartilhada usa o arquivamento local.
+> 3. A caixa de correio compartilhada é colocada em contencioso.
 > 4. A caixa de correio compartilhada tem uma licença do Microsoft Defender atribuída.
 
   
@@ -52,58 +52,58 @@ As caixas de correio compartilhadas geralmente não exigem uma licença. Siga es
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
    > [!NOTE]
-   > Você precisa remover a licença da página Usuários ativos. Não é possível remover a licença da página De caixa de correio compartilhada porque as licenças são configurações do usuário. 
+   > Você precisa remover a licença da página Usuários ativos. Você não pode remover a licença da página Caixa de Correio Compartilhada porque as licenças são configurações do usuário. 
   
 2. Selecione a caixa de correio compartilhada.
 
-3. Uma das **guias Licenças e** **Aplicativos, expanda Licenças** e desmarque a caixa da licença que você deseja remover.
+3. Uma guia **Licenças e Aplicativos,** **expanda Licenças** e desmarque a caixa para a licença que você deseja remover.
 
 4. Selecione **Salvar alterações**.
 
-5. Quando você voltar para a **página Usuários ativos,** o status da caixa de correio compartilhada não **será licençada.**
+5. Quando você retornar à página **Usuários ativos,** o status da caixa de correio compartilhada será **Não-licença**.
 
-6. Você ainda está pagando pela licença. Para parar de pagar por ela, [remova a licença da sua assinatura.](../../commerce/licenses/remove-licenses-from-subscription.md)
+6. Você ainda está pagando pela licença. Para parar de pagar por ela, [remova a licença de sua assinatura](../../commerce/licenses/buy-licenses.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- 1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
 
     > [!NOTE]
-    > Você precisa remover a licença da página Usuários ativos. Não é possível remover a licença da página De caixa de correio compartilhada porque as licenças são configurações do usuário.
+    > Você precisa remover a licença da página Usuários ativos. Você não pode remover a licença da página Caixa de Correio Compartilhada porque as licenças são configurações do usuário.
 
-2. Selecione a caixa de correio compartilhada e, em seguida, **selecione Editar** ao lado **de licenças de produto.**
+2. Selecione a caixa de correio compartilhada e selecione **Editar** ao lado de **Licenças de produto**.
 
-3. Uma página **de licenças de** produto, de definir a alternância para **Desligado** para a licença que você deseja remover.
+3. Uma página **Licenças de** produto, de definir a alternância como **Desligado** para a licença que você deseja remover.
 
 4. Selecione **Salvar**.
 
-5. Quando você voltar para a **página Usuários ativos,** o status da caixa de correio compartilhada não **será licençada.**
+5. Quando você retornar à página **Usuários ativos,** o status da caixa de correio compartilhada será **Não-licença**.
 
-6. Você ainda está pagando pela licença. Para parar de pagar por ela, [remova a licença da sua assinatura.](../../commerce/licenses/remove-licenses-from-subscription.md)
+6. Você ainda está pagando pela licença. Para parar de pagar por ela, [remova a licença de sua assinatura](../../commerce/licenses/buy-licenses.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
 
     > [!NOTE]
-    > Você precisa remover a licença da página Usuários ativos. Não é possível remover a licença da página De caixa de correio compartilhada porque as licenças são configurações do usuário.
+    > Você precisa remover a licença da página Usuários ativos. Você não pode remover a licença da página Caixa de Correio Compartilhada porque as licenças são configurações do usuário.
 
-2. Selecione a caixa de correio compartilhada e, em seguida, **selecione Editar** ao lado **de licenças de produto.**
+2. Selecione a caixa de correio compartilhada e selecione **Editar** ao lado de **Licenças de produto**.
 
-3. Uma página **de licenças de** produto, de definir a alternância para **Desligado** para a licença que você deseja remover.
+3. Uma página **Licenças de** produto, de definir a alternância como **Desligado** para a licença que você deseja remover.
 
 4. Selecione **Salvar**.
 
-5. Quando você voltar para a **página Usuários ativos,** o status da caixa de correio compartilhada não **será licençada.**
+5. Quando você retornar à página **Usuários ativos,** o status da caixa de correio compartilhada será **Não-licença**.
 
-6. Você ainda está pagando pela licença. Para parar de pagar por ela, [remova a licença da sua assinatura.](../../commerce/licenses/remove-licenses-from-subscription.md)
+6. Você ainda está pagando pela licença. Para parar de pagar por ela, [remova a licença de sua assinatura](../../commerce/licenses/buy-licenses.md).
 
 ::: moniker-end 
 

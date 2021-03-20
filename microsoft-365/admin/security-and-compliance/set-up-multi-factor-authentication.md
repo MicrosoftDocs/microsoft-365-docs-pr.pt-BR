@@ -23,30 +23,30 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para a sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: d08ef54c545809bbb2277f8d0a8471245400a3ac
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 54c862d8f7c25472d84557e177a9107d2c14d846
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50514963"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914457"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
 
 Com base no seu conhecimento de [MFA (autenticação multifator) e seu suporte no Microsoft 365](multi-factor-authentication-microsoft-365.md), é hora de configurá-la e distribuí-la para a organização.
 
 > [!IMPORTANT]
-> Se você comprou a sua assinatura ou a versão de avaliação após 21 de outubro de 2019 e for solicitado a executar a MFA ao entrar, [os padrões de segurança](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) foram automaticamente habilitados para a sua assinatura.
+> Se você comprou a sua assinatura ou a versão de avaliação após 21 de outubro de 2019 e for solicitado a executar a MFA ao entrar, [os padrões de segurança](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) foram automaticamente habilitados para a sua assinatura.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
 - Você deve ser um administrador Global para gerenciar a MFA. Para obter mais informações, confira o artigo [Sobre funções de administrador](../add-users/about-admin-roles.md).
 - Se você tiver a MFA herdada por usuário, [Desative a MFA herdada por usuário](#turn-off-legacy-per-user-mfa).
-- Se você tem clientes do Office 2013 em dispositivos Windows, [ative a Autenticação moderna para clientes do Office 2013](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/enable-modern-authentication).
-- Avançado: se você tiver serviços de diretório de terceiros com o AD FS (Serviços de Federação do Active Directory), configure o Servidor do Azure MFA. Confira [cenários avançados com a Autenticação Multifator do Microsoft Azure Active Directory e soluções VPN de terceiros](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) para obter mais informações.
+- Se você tem clientes do Office 2013 em dispositivos Windows, [ative a Autenticação moderna para clientes do Office 2013](./enable-modern-authentication.md).
+- Avançado: se você tiver serviços de diretório de terceiros com o AD FS (Serviços de Federação do Active Directory), configure o Servidor do Azure MFA. Confira [cenários avançados com a Autenticação Multifator do Microsoft Azure Active Directory e soluções VPN de terceiros](/azure/active-directory/authentication/howto-mfaserver-nps-vpn) para obter mais informações.
 
 ## <a name="turn-security-defaults-on-or-off"></a>Ativar ou desativar o padrão de Segurança
 
-Para a maioria das organizações, os padrões de segurança oferecem um bom nível de segurança adicional de entrada. Para saber mais, confira [Quais são os padrões de segurança?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+Para a maioria das organizações, os padrões de segurança oferecem um bom nível de segurança adicional de entrada. Para saber mais, confira [Quais são os padrões de segurança?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
 Se a sua assinatura for nova, os padrões de Segurança já poderão estar habilitados para você automaticamente.
 
@@ -58,7 +58,7 @@ Habilite ou desabilite as opções de segurança no painel de **Propriedades** p
 4. Na parte inferior da página, clique em **Gerenciar Padrões de segurança**.
 5. Clique em **Sim** para habilitar os padrões de segurança ou **Não** para desabilitar o padrão de segurança e, em seguida, escolha **Salvar**.
 
-Se você estiver usando [políticas de Acesso Condicional da linha de base](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection), você será instruído a desativá-las antes de mover para usar os padrões de segurança.
+Se você estiver usando [políticas de Acesso Condicional da linha de base](/azure/active-directory/conditional-access/concept-baseline-protection), você será instruído a desativá-las antes de mover para usar os padrões de segurança.
 
 1. Vá para a página [Acesso Condicional - página Políticas](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies).
 2. Escolha cada política de linha de base que esteja **Ativada** e defina **Permitir que a política** seja **Desativada**.
@@ -73,9 +73,9 @@ Se a sua organização tiver necessidades de segurança de entrada mais granular
 > [!IMPORTANT]
 > Desabilite tanto a MFA por usuário quanto os padrões de Segurança antes de habilitar as políticas de Acesso Condicional.
 
-O Acesso Condicional está disponível para clientes que compraram o Azure Active Directory Premium P1 ou licenças que incluem isso, como o Microsoft 365 Business Premium e o Microsoft 365 E3. Para obter mais informações, confira [criar uma política de Acesso Condicional](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa).
+O Acesso Condicional está disponível para clientes que compraram o Azure Active Directory Premium P1 ou licenças que incluem isso, como o Microsoft 365 Business Premium e o Microsoft 365 E3. Para obter mais informações, confira [criar uma política de Acesso Condicional](/azure/active-directory/authentication/tutorial-enable-azure-mfa).
 
-O acesso condicional baseado em risco está disponível por meio da licença do Azure AD Premium P2 ou de licenças que incluem isso, como o Microsoft 365 E5. Para mais informações, confira [Acesso Condicional baseado em risco](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk).
+O acesso condicional baseado em risco está disponível por meio da licença do Azure AD Premium P2 ou de licenças que incluem isso, como o Microsoft 365 E5. Para mais informações, confira [Acesso Condicional baseado em risco](/azure/active-directory/conditional-access/howto-conditional-access-policy-risk).
 
 Para obter mais informações sobre o Azure Active Directory P1 e P2, confira [Preços do Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
 
@@ -104,6 +104,6 @@ Se você já habilitou a MFA por usuário, é necessário desabilitá-lo antes d
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Vídeo: Ativar a autenticação multifator](https://docs.microsoft.com/microsoft-365/business-video/turn-on-mfa)
+[Vídeo: Ativar a autenticação multifator](../../business-video/turn-on-mfa.md)
 
-[Vídeo: Ativar a autenticação multifator para seu telefone](https://docs.microsoft.com/microsoft-365/business-video/set-up-mfa)
+[Vídeo: Ativar a autenticação multifator para seu telefone](../../business-video/set-up-mfa.md)

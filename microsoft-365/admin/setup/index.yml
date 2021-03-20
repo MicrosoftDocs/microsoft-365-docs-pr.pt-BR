@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 844307c6874a6b4e48cd13b599ca4e25dd59945e
-  ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
+  ms.openlocfilehash: 18dc99e4646d36510a23dfe3338b3518cee5d471
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/03/2020
-  ms.locfileid: "48841394"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50914085"
 landingContent:
 - title: Inscreva-se
   linkLists:
@@ -53,7 +53,7 @@ landingContent:
     - text: Instalar aplicativos
       url: install-applications.md
     - text: Implantar o Teams
-      url: https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams
+      url: /microsoftteams/how-to-roll-out-teams
   - linkListType: video
     links:
     - text: Instalar aplicativos no Android

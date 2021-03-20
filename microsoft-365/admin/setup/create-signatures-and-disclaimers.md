@@ -1,5 +1,5 @@
 ---
-title: Criar assinaturas e avisos de isenção de isenção em toda a organização
+title: Criar assinaturas e avisos de isenção de ônus em toda a organização
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -24,19 +24,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
-description: Aprenda a gerenciar assinaturas de email, incluindo avisos de isenção legal ou declarações de divulgação para todas as mensagens de email que entram ou saem da sua organização.
-ms.openlocfilehash: c8d63a11a75b9b53de9cabdf1f4baabc61cc3e42
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Aprenda a gerenciar assinaturas de email, incluindo avisos de isenção de responsabilidade legal ou instruções de divulgação para todas as mensagens de email que entram ou saem da sua organização.
+ms.openlocfilehash: b599ef8b6d0bb236b6111bae86c92409601e00d0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926913"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914229"
 ---
-# <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e avisos de isenção de isenção em toda a organização
+# <a name="create-organization-wide-signatures-and-disclaimers"></a>Criar assinaturas e avisos de isenção de ônus em toda a organização
 
- Você pode gerenciar assinaturas de email adicionando uma assinatura de email, um aviso de isenção legal ou uma declaração de divulgação às mensagens de email que entram ou saem da sua organização. É possível configurar essa mensagem para que ela se aplique a todos os emails enviados e recebidos, conforme é mostrado abaixo. Também é possível aplicá-la a determinados emails, por exemplo, aqueles que contêm palavras ou padrões de texto específicos.
+ Você pode gerenciar assinaturas de email adicionando uma assinatura de email, aviso de isenção de responsabilidade legal ou declaração de divulgação às mensagens de email que entram ou saem da sua organização. É possível configurar essa mensagem para que ela se aplique a todos os emails enviados e recebidos, conforme é mostrado abaixo. Também é possível aplicá-la a determinados emails, por exemplo, aqueles que contêm palavras ou padrões de texto específicos.
 
- Assista a um vídeo curto sobre como criar uma assinatura de email de toda a empresa. <br><br>
+ Assista a um breve vídeo sobre como criar uma assinatura de email em toda a empresa. <br><br>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
@@ -45,7 +45,7 @@ Se você achou esse vídeo útil, consulte as [séries completas de treinamento 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Criar uma assinatura que se aplica a todas as mensagens
 
 > [!TIP]
-> As assinaturas de toda a organização são chamadas de "avisos de isenção", independentemente do que incluem. Por exemplo, eles podem ser apenas uma assinatura ou também incluir seu endereço, aviso de isenção legal ou outras informações que você deseja.
+> As assinaturas em toda a organização são chamadas de "avisos de isenção de ônus", independentemente do que incluem. Por exemplo, eles podem ser apenas uma assinatura ou também incluir seu endereço, aviso de isenção de responsabilidade legal ou outras informações que você deseja.
     
 ::: moniker range="o365-worldwide"
 
@@ -65,31 +65,31 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
 
 ::: moniker-end
 
-1. Selecione o iniciador de aplicativos O ícone do iniciador de ![ ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) aplicativos e, em seguida, selecione **Admin**.
+1. Selecione o launcher do aplicativo O ícone do iniciador de ![ aplicativo e selecione ](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) **Admin**.
    
-    Não consegue encontrar o aplicativo que está procurando? No iniciador de aplicativos, selecione **Todos** os aplicativos para ver uma lista em ordem alfabética dos aplicativos disponíveis para você. Nesse local, você pode pesquisar um aplicativo específico. 
+    Não consegue encontrar o aplicativo que está procurando? No início do aplicativo, selecione **Todos os aplicativos** para ver uma lista alfabética dos aplicativos disponíveis para você. Nesse local, você pode pesquisar um aplicativo específico. 
     
 2. Selecione **Centros de administração** e escolha **Exchange**.
     
-3. Em Fluxo de emails, selecione **Regras**.
+3. Em Fluxo de email, selecione **Regras**.
     
-4. Selecione o **+** ícone (Adicionar) e escolha **Aplicar avisos de isenção.**
+4. Selecione o **+** ícone (Adicionar) e escolha **Aplicar avisos de isenção de índole.**
     
 5. Dê um nome à regra.
     
-6. Em **Aplicar esta regra,** selecione **[Aplicar a todas as mensagens]**.
+6. Em **Aplicar essa regra,** selecione **[Aplicar a todas as mensagens]**.
     
     > [!TIP]
-    > [Saiba mais](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) sobre como aplicar condições se não quiser que a isenção de responsabilidade seja aplicada a todas as mensagens. (Este artigo de definição de responsabilidade é para o Exchange Server, mas também se aplica ao Microsoft 365.) 
+    > [Saiba mais](/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) sobre como aplicar condições se não quiser que a isenção de responsabilidade seja aplicada a todas as mensagens. (Este artigo de scoping é para Exchange Server, mas também se aplica ao Microsoft 365.) 
   
 7. Em Faça o seguinte, deixe **Adicionar o aviso de isenção de responsabilidade** selecionado. 
     
-8.  Selecione **Enter text** e digite seu aviso de isenção de responsabilidade. 
+8.  Selecione **Inserir texto** e digite seu aviso de isenção de responsabilidade. 
     
     > [!TIP]
-    > [Saiba mais](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) sobre a formatação de avisos de isenção de responsabilidade. (Este artigo de formatação é para o Exchange Server, mas também se aplica ao Microsoft 365.) 
+    > [Saiba mais](/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) sobre a formatação de avisos de isenção de responsabilidade. (Este artigo de formatação é Exchange Server, mas também se aplica ao Microsoft 365.) 
 
-9. Selecione **Selecionar um e** escolha Quebrar **como** uma opção de fallback. Em seguida, clique em **OK**. Isso significa que, se não for possível adicionar a isenção de responsabilidade devido a criptografia ou outra configuração de email, ela será quebrada automaticamente em um envelope de mensagem.
+9. Selecione **Selecionar um** e escolha **Wrap** como uma opção de fallback. Em seguida, clique em **OK**. Isso significa que, se não for possível adicionar a isenção de responsabilidade devido a criptografia ou outra configuração de email, ela será quebrada automaticamente em um envelope de mensagem.
     
 10. Deixe **Auditar esta regra com o nível de severidade** selecionado. Em seguida, escolha **Baixo**, **Médio** ou **Alto** para uso no registro de mensagens. 
     
@@ -99,20 +99,20 @@ Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/
     
 13. Escolha **Salvar** quando terminar. 
     
-## <a name="limitations-of-organization-wide-signatures"></a>Limitações de assinaturas em toda a organização
+## <a name="limitations-of-organization-wide-signatures"></a>Limitações de assinaturas de toda a organização
 
 Não é possível fazer o seguinte ao gerenciar assinaturas de email no Microsoft 365:
   
-- Inserir a assinatura diretamente na resposta ou encaminhamento de email mais recente
+- Inserir a assinatura diretamente na resposta de email mais recente ou encaminhar
     
 - Exibir assinaturas de email do lado do servidor nas pastas Itens Enviados dos usuários
     
-- Incorporar imagens em assinaturas de email
+- Inserir imagens em assinaturas de email
     
 - Ignorar linhas que contêm variáveis que não puderam ser atualizadas (por exemplo, porque o valor não foi fornecido para um usuário)
     
-Para obter esses e outros recursos para gerenciar assinaturas de email, use uma ferramenta de terceiros. Faça uma pesquisa na Internet para o **software de assinatura de email.** Vários desses provedores são Parceiros Gold da Microsoft e seu software fornece esses recursos. 
+Para obter esses e outros recursos para gerenciar assinaturas de email, use uma ferramenta de terceiros. Faça uma pesquisa na Internet para software **de assinatura de email.** Vários desses provedores são Parceiros De Ouro da Microsoft e seu software fornece esses recursos. 
   
 ## <a name="more-resources"></a>Mais recursos
 
-- Consulte Avisos de isenção [de responsabilidade, assinaturas, rodapés](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) ou títulos em toda a organização no Exchange Online para obter informações sobre como usar o PowerShell.
+- Consulte Avisos de isenção de responsabilidade de mensagens em toda a [organização, assinaturas, rodapés](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) ou headers no Exchange Online para obter informações sobre como usar o PowerShell.

@@ -23,17 +23,17 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Crie uma caixa de correio compartilhada para permitir que vários usuários da sua empresa compartilhem a responsabilidade de ler e responder a emails enviados para um endereço.
-ms.openlocfilehash: d71e33aa0a04bd52f707038ac31e98bef68f27b0
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 004473b329b14be9287f249b1d640c3b0803412a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287228"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915873"
 ---
 # <a name="create-a-shared-mailbox"></a>Criar uma caixa de correio compartilhada 
 
 > [!NOTE]
-> Se a sua organização usa um ambiente híbrido do Exchange, você deverá usar o centro de administração do Exchange (EAC) no local para criar e gerenciar caixas de correio compartilhadas. Ver [Criar caixas de correio compartilhadas no centro de administração do Exchange](https://docs.microsoft.com/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?view=exchserver-2019&preserve-view=true.)<br><br>
+> Se a sua organização usa um ambiente híbrido do Exchange, você deverá usar o centro de administração do Exchange (EAC) no local para criar e gerenciar caixas de correio compartilhadas. Ver [Criar caixas de correio compartilhadas no centro de administração do Exchange](/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?preserve-view=true.&view=exchserver-2019)<br><br>
 > Se você não tiver certeza se deve criar uma caixa de correio compartilhada ou um grupo do Microsoft 365 para o Outlook, consulte [Comparar grupos](../create-groups/compare-groups.md) para orientação. Observe que, no momento, não é possível migrar uma caixa de correio compartilhada para um grupo do Microsoft 365. Se isso é algo que você deseja, informe-nos [votando aqui](https://go.microsoft.com/fwlink/?linkid=871518).
 
 É muito fácil criar caixas de correio compartilhadas para que um grupo de pessoas possa monitorar e enviar emails de endereços de email comuns, como info@contoso.com. Quando um membro do grupo responde a uma mensagem enviada para a caixa de correio compartilhada, o email é exibido como sendo da caixa de correio compartilhada, e não do usuário individual.
@@ -153,13 +153,13 @@ Mas e se um administrador simplesmente redefinir a senha da conta de usuário da
 4. No submenu **Editar o status de entrada**, verifique se a opção Bloquear a entrada do usuário está marcada, selecione **Salvar** e, em seguida, **Fechar**.
 ::: moniker-end
 
-Para obter instruções sobre como bloquear a entrada de contas usando o Azure AD PowerShell (incluindo várias contas ao mesmo tempo), confira [Bloquear contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/block-user-accounts-with-microsoft-365-powershell).
+Para obter instruções sobre como bloquear a entrada de contas usando o Azure AD PowerShell (incluindo várias contas ao mesmo tempo), confira [Bloquear contas de usuário com o Office 365 PowerShell](../../enterprise/block-user-accounts-with-microsoft-365-powershell.md).
 
 ## <a name="add-the-shared-mailbox-to-outlook"></a>Adicionar a caixa de correio compartilhada ao Outlook
 
 Se habilitar o mapeamento automático em sua empresa (por padrão, a maioria das pessoas faz isso), a caixa de correio compartilhada será exibida automaticamente no aplicativo Outlook dos usuários, depois que eles fecharem e reiniciarem o Outlook. 
 
-O mapeamento automático é definido na caixa de correio do usuário, não na caixa de correio compartilhada.   Isso significa que se você tentar usar o grupo de segurança para gerenciar quem tem acesso à caixa de correio compartilhada, o mapeamento automático não funcionará. Portanto, se quiser habilitar o mapeamento automático, atribua permissões. O mapeamento automático está ativado por padrão. Para saber como desativá-lo, confira [Remover o mapeamento automático de uma caixa de correio compartilhada](https://docs.microsoft.com/office365/troubleshoot/administration/remove-automapping-for-shared-mailbox).
+O mapeamento automático é definido na caixa de correio do usuário, não na caixa de correio compartilhada.   Isso significa que se você tentar usar o grupo de segurança para gerenciar quem tem acesso à caixa de correio compartilhada, o mapeamento automático não funcionará. Portanto, se quiser habilitar o mapeamento automático, atribua permissões. O mapeamento automático está ativado por padrão. Para saber como desativá-lo, confira [Remover o mapeamento automático de uma caixa de correio compartilhada](/office365/troubleshoot/administration/remove-automapping-for-shared-mailbox).
 
 Para saber mais sobre caixas de correio compartilhadas no Outlook, confira:
 
@@ -209,5 +209,3 @@ Ao criar a caixa de correio compartilhada, você cria automaticamente um calend�
 [Remover uma licença de uma caixa de correio compartilhada](remove-license-from-shared-mailbox.md)
 
 [Solucionar problemas com caixas de correio compartilhadas](resolve-issues-with-shared-mailboxes.md)
-
-

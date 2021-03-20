@@ -23,19 +23,19 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365.
-ms.openlocfilehash: 4a7b544b6eded6f0cd6441ad7f6b02de790e5e44
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: ffe3ca74ce901eef359e1bcb80c4044ce4bf9ad7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50603979"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915069"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-worldwide).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?view=o365-worldwide).
 
 ::: moniker-end
 
@@ -75,25 +75,25 @@ Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem 
 
 ## <a name="prevent-last-password-from-being-used-again"></a>Impedir que a última senha seja utilizada novamente
 
-Se quiser impedir que seus usuários reciclem senhas antigas, você pode fazê-lo aplicando essa regra no histórico de senhas do Active Directory (AD) local. Confira [Criar uma política de senha personalizada](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
+Se quiser impedir que seus usuários reciclem senhas antigas, você pode fazê-lo aplicando essa regra no histórico de senhas do Active Directory (AD) local. Confira [Criar uma política de senha personalizada](/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
 
-No Azure AD, a última senha não pode ser usada novamente quando o usuário altera uma senha. A política de senha é aplicada a todas as contas de usuário que são criadas e gerenciadas diretamente no Azure AD. Essa política de senhas não pode ser modificada. Confira [Políticas de senha do Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
+No Azure AD, a última senha não pode ser usada novamente quando o usuário altera uma senha. A política de senha é aplicada a todas as contas de usuário que são criadas e gerenciadas diretamente no Azure AD. Essa política de senhas não pode ser modificada. Confira [Políticas de senha do Azure AD](/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts).
 
 ## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>Sincronizar os hashes de senhas do usuário de um Active Directory local para o Azure AD (Microsoft 365)
 
 Este artigo é para configurar a política de expiração para usuários somente na nuvem (Azure AD). Isto não se aplica a usuários de identidade híbrida que usam sincronização hash de senha, autenticação de passagem ou federação local como o ADFS.
   
-Para saber como sincronizar hashes de senha de usuário do AD local para o Azure AD, confira [implementar a sincronização de hash de senha com a sincronização de Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).
+Para saber como sincronizar hashes de senha de usuário do AD local para o Azure AD, confira [implementar a sincronização de hash de senha com a sincronização de Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).
 
 ## <a name="password-policies-and-account-restrictions-in-azure-active-directory"></a>Confira as restrições de conta e políticas de senha no Azure Active Directory.
 
-Você pode definir mais restrições e políticas de senha no Azure Active Directory. Confira as [restrições de conta e políticas de senha no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy) para mais informações.
+Você pode definir mais restrições e políticas de senha no Azure Active Directory. Confira as [restrições de conta e políticas de senha no Azure Active Directory](/azure/active-directory/authentication/concept-sspr-policy) para mais informações.
 
 ## <a name="update-password-policy"></a>Atualizar a Política de senhas
 
 O cmdlet Set-MsolPasswordPolicy atualiza a política de senhas de um determinado domínio ou locatário. Duas configurações são necessárias. a primeira é para indicar o período de tempo que uma senha permanece válida antes de ser alterada e a segunda é indicar o número de dias antes da data de vencimento da senha que será disparada quando os usuários receberem suas primeiras notificações de que a senha irá expirar em breve.
 
-Para saber como atualizar a política de senha de um específico domínio ou locatário, confira [Set-MsolPasswordPolicy](https://docs.microsoft.com/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).
+Para saber como atualizar a política de senha de um específico domínio ou locatário, confira [Set-MsolPasswordPolicy](/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Aprenda a implantar equipes com proteção para dados altamente confidenciais.
-ms.openlocfilehash: 0f3f12867314fdd91dfb563f0377995807c0f63d
-ms.sourcegitcommit: 7ecd10b302b3b3dfa4ba3be3a6986dd3c189fbff
+ms.openlocfilehash: 03f10c91461d440413ace418a3b6fdd84da1660a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49921105"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916221"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Configurar equipes com proteção para dados altamente confidenciais
 
@@ -39,8 +39,8 @@ Dependendo da natureza da sua empresa, você pode ou não querer ativar o compar
 
 Para obter detalhes sobre como compartilhar com convidados com segurança, confira os seguintes recursos:
 
-- [Limite a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
-- [Criar um ambiente seguro de compartilhamento de convidados](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [Limitar a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](./share-limit-accidental-exposure.md)
+- [Criar um ambiente de compartilhamento de convidados seguro](./create-secure-guest-sharing-environment.md)
 
 Para permitir ou bloquear o compartilhamento de convidados, usamos uma combinação de um rótulo de confidencialidade para a equipe e controles de compartilhamento no nível do site para o Microsoft Office SharePoint Online associado, ambos discutidos mais adiante.
 
@@ -48,7 +48,7 @@ Para permitir ou bloquear o compartilhamento de convidados, usamos uma combinaç
 
 Para o nível de proteção altamente confidencial, usaremos um rótulo de confidencialidade para classificar a equipe. Este rótulo também pode ser usado para classificar e criptografar arquivos individuais nesta ou em outras equipes ou em outros locais de arquivos, como o Microsoft Office SharePoint Online ou o OneDrive. 
 
-Como primeira etapa, você deve habilitar os rótulos de confidencialidade para o Teams. Confira [Usar rótulos de confidencialidade para proteger o conteúdo no Microsoft Teams, grupos do Office 365 e sites do Microsoft Office SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) para obter detalhes.
+Como primeira etapa, você deve habilitar os rótulos de confidencialidade para o Teams. Confira [Usar rótulos de confidencialidade para proteger o conteúdo no Microsoft Teams, grupos do Office 365 e sites do Microsoft Office SharePoint Online](../compliance/sensitivity-labels-teams-groups-sites.md) para obter detalhes.
 
 Se você já possui rótulos de confidencialidade implantados em sua organização, considere como este rótulo se ajusta à sua estratégia geral de rotulação. Você pode alterar o nome ou as configurações, se necessário, para atender às necessidades da sua organização.
 
@@ -74,14 +74,14 @@ Para criar um rótulo de confidencialidade
 17. Na página **Rotulagem automática para colunas do banco de dados**, clique em **Avançar**.
 18. Clique em **Criar rótulo** e, a seguir, clique em **Concluído**.
 
-Depois de criar o rótulo, você precisará publicá-lo para os usuários que o usarão. Para proteção confidencial, disponibilizaremos o rótulo para todos os usuários. Publique o rótulo no Centro de conformidade do Microsoft 365, na guia **Políticas de rótulo** da página **Proteção de informações**. Se você possuir uma política que se aplique a todos os usuários, adicione este rótulo a essa política. Se você precisar criar uma nova política, confira [Publicar rótulos de confidencialidade por meio da criação de uma política de rótulos](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
+Depois de criar o rótulo, você precisará publicá-lo para os usuários que o usarão. Para proteção confidencial, disponibilizaremos o rótulo para todos os usuários. Publique o rótulo no Centro de conformidade do Microsoft 365, na guia **Políticas de rótulo** da página **Proteção de informações**. Se você possuir uma política que se aplique a todos os usuários, adicione este rótulo a essa política. Se você precisar criar uma nova política, confira [Publicar rótulos de confidencialidade por meio da criação de uma política de rótulos](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
 
 ## <a name="create-a-team"></a>Criar uma equipe
 
 A configuração adicional do cenário altamente confidencial é feita no site do Microsoft Office SharePoint Online associado à equipe; portanto, a próxima etapa é criar uma equipe.
 
 Para criar uma equipe para informações altamente confidenciais
-1. Nas equipes, clique em **Equipes** no lado esquerdo do aplicativo e clique em **Ingressar ou criar uma equipe** na parte inferior da lista de equipes.
+1. No Teams, clique em **Equipes** no lado esquerdo do aplicativo e clique em **Criar equipe ou ingressar em uma** na parte inferior da lista de equipes.
 2. Clique em **Criar equipe** (primeiro cartão, canto superior esquerdo).
 3. Escolha **Criar uma equipe do zero**.
 4. Na lista **Confidencialidade**, escolha o rótulo **Altamente confidencial** que você acabou de criar.
@@ -98,7 +98,7 @@ Para restringir a criação de canais privados
 2. Na guia **Configurações**, expanda **Permissões de membro**.
 3. Desmarque a caixa de seleção **Permitir que os membros criem canais privados**.
 
-Você também pode usar [políticas de equipes](https://docs.microsoft.com/MicrosoftTeams/teams-policies) para controlar quem pode criar canais privados.
+Você também pode usar [políticas de equipes](/MicrosoftTeams/teams-policies) para controlar quem pode criar canais privados.
 
 ## <a name="sharepoint-settings"></a>Configurações do SharePoint
 
@@ -125,7 +125,7 @@ Para atualizar as configurações do site
 6. Em tipo de link de compartilhamento padrão, desmarque a caixa de seleção **igual ao nível da organização** e selecione **pessoas específicas (somente as pessoas que o usuário especificar)**.
 7. Clique em **Salvar**.
 
-Se você deseja criar um script como parte do processo de criação da equipe, use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) com os seguintes parâmetros:
+Se você deseja criar um script como parte do processo de criação da equipe, use [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) com os seguintes parâmetros:
 
 - `-SharingCapability Disabled` para desativar o compartilhamento de convidados (ativado por padrão)
 - `-DefaultSharingLinkType Internal` para alterar o link de compartilhamento padrão para *Pessoas específicas*
@@ -149,6 +149,4 @@ Para configurar o compartilhamento de site somente para proprietários
 
 ## <a name="see-also"></a>Confira também
 
-[Criar e configurar rótulos de confidencialidade e suas políticas](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels)
-
-
+[Criar e configurar rótulos de confidencialidade e suas políticas](../compliance/create-sensitivity-labels.md)

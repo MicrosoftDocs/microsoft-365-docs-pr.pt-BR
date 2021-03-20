@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: 'Aprenda a configurar a Caixa de Entrada Destaques para todos ou usuários específicos da sua organização. '
-ms.openlocfilehash: e6c77bdff00e7cd98f5034267699e19d8582db27
-ms.sourcegitcommit: 38d828ae8d4350ae774a939c8decf30cb36c3bea
+ms.openlocfilehash: 7059fbb886669af99c1471789cbbc623dc9719b8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49551896"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914277"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>Configurar a Caixa de Entrada Destaques para todos na sua organização
 
@@ -41,9 +41,9 @@ Usar o PowerShell para ativar ou desativar a Caixa de Entrada Destaques para tod
   
 O exemplo a seguir do PowerShell **desativa** a Caixa de Entrada Destaques na organização. No entanto, ele não bloqueia a disponibilidade do recurso para os usuários; ou seja, eles ainda poderão reativar a Caixa de Entrada Destaques em cada um dos respectivos clientes. 
   
-1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Conecte-se ao Exchange Online usando o PowerShell remoto](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Você deve ter permissões para poder realizar esses procedimentos. Para ver quais são as permissões necessárias, confira a entrada "Regras de transporte" no artigo [Permissões de política e conformidade de mensagens](https://go.microsoft.com/fwlink/p/?LinkId=829796).
+2. Você deve ter permissões para poder realizar esses procedimentos. Para ver quais são as permissões necessárias, confira a entrada "Regras de transporte" no artigo [Permissões de política e conformidade de mensagens](/exchange/messaging-policy-and-compliance-permissions-exchange-2013-help).
 
 3. Execute o cmdlet **Get-OrganizationConfig**. 
 
@@ -87,7 +87,7 @@ Quando um usuário decide começar a usar a Caixa de Entrada Destaques, o Email 
 
 Este exemplo **desativa** a Caixa de Entrada Destaques para Henrique Cunha na organização Contoso. No entanto, ele não bloqueia a disponibilidade do recurso para ele. Se ele quiser, ainda poderá reativar a Caixa de Entrada Destaques em cada um dos próprios clientes. 
   
-1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Conecte-se ao Exchange Online usando o PowerShell remoto](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Você precisa ter permissões antes de executar estes procedimentos. Para ver quais permissões são necessárias, confira a entrada "Regras de transporte" no tópico Permissões de política e conformidade de mensagens.
 
@@ -128,11 +128,11 @@ Este exemplo **desativa** a Caixa de Entrada Destaques para Henrique Cunha na or
 > [!NOTE]
 > Neste exemplo, o texto do valor de cabeçalho da mensagem é **X-MS-Exchange-Organization-BypassFocusedInbox**.
   
-## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Use o PowerShell para criar uma regra de transporte para direcionar mensagens de email ao modo de exibição Destaques para todos os usuários
+## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>Use o PowerShell para criar uma regra de transporte para direcionar mensagens de e-mail ao modo de exibição Destaques para todos os usuários
 
-1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+1. [Conecte-se ao Exchange Online usando o PowerShell remoto](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Você deve ter permissões para poder realizar esses procedimentos. Para ver quais são as permissões necessárias, confira a entrada "Regras de transporte" no artigo [Permissões de política e conformidade de mensagens](https://go.microsoft.com/fwlink/p/?LinkId=829796).
+2. Você deve ter permissões para poder realizar esses procedimentos. Para ver quais são as permissões necessárias, confira a entrada "Regras de transporte" no artigo [Permissões de política e conformidade de mensagens](/exchange/messaging-policy-and-compliance-permissions-exchange-2013-help).
 
 3. Execute o comando a seguir para permitir que todas as mensagens do "Departamento da Folha de Pagamento", por exemplo, sejam entregues na Caixa de Entrada Destaques.
 
@@ -142,7 +142,7 @@ Este exemplo **desativa** a Caixa de Entrada Destaques para Henrique Cunha na or
 
 > [!IMPORTANT]
 > Neste exemplo, tanto "X-MS-Exchange-Organization-BypassFocusedInbox" quanto "true" diferenciam maiúsculas de minúsculas.
-> Além disso, a Caixa de Entrada Destaques respeitará o cabeçalho X que ignora o Clutter, portanto, se você usar essa configuração no Clutter, ela será usada na Caixa de Entrada Destaques. Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](https://go.microsoft.com/fwlink/p/?LinkId=830194).
+> Além disso, a Caixa de Entrada Destaques respeitará o cabeçalho X que ignora o Clutter, portanto, se você usar essa configuração no Clutter, ela será usada na Caixa de Entrada Destaques. Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-TransportRule](/powershell/module/exchange/new-transportrule).
 
 ### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 

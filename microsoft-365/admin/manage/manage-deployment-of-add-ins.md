@@ -22,19 +22,19 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar os complementos para usuários e grupos em sua organização usando a Implantação Centralizada no centro de administração.
-ms.openlocfilehash: d4d21678be0d8e6a845c8909d2dc818f02f79b24
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 9ded0294912a3c3c99e62913bcdc349de7bae1b5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509105"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915381"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Implantar suplementos no centro de administração
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -82,7 +82,7 @@ Antes de começar, consulte [Determine if Centralized Deployment of add-ins work
 5. Na próxima página, selecione **Todos**, **Usuários/grupos específicos** ou **Apenas** eu para especificar para quem o complemento é implantado. Use a caixa Pesquisar para encontrar usuários ou grupos específicos. <br/>
 
     > [!NOTE]
-    > Para saber mais sobre outros estados que se aplicam a um add-in, consulte [Estados de complemento](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center.md).
+    > Para saber mais sobre outros estados que se aplicam a um add-in, consulte [Estados de complemento](./manage-addins-in-the-admin-center.md).
   
 6. Selecione **Implantar**.
   
@@ -121,9 +121,9 @@ Os complementos do Office combinam um arquivo de manifesto XML que contém algun
 
 - Ler e gravar dados de e para o documento de um usuário para fornecer valor a esse usuário.
 
-Para obter mais informações sobre os tipos e recursos dos complementos do Office, consulte Visão geral da plataforma de [complementos](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)do Office , especialmente a seção "Anatomia de um Add-in do Office".
+Para obter mais informações sobre os tipos e recursos dos complementos do Office, consulte Visão geral da plataforma de [complementos](/office/dev/add-ins/overview/office-add-ins)do Office , especialmente a seção "Anatomia de um Add-in do Office".
   
-Para interagir com o documento do usuário, o complemento precisa declarar de que permissão ele precisa no manifesto. Um modelo de permissões de acesso para API JavaScript de cinco níveis fornece a base para privacidade e segurança para usuários de complementos do painel de tarefas. A maioria dos complementos na Office Store é de nível ReadWriteDocument com quase todos os complementos que suportam pelo menos o nível ReadDocument. Para obter mais informações sobre os níveis de permissão, consulte Solicitando permissões para uso da API em conteúdo e complementos do painel [de tarefas.](https://docs.microsoft.com/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins)
+Para interagir com o documento do usuário, o complemento precisa declarar de que permissão ele precisa no manifesto. Um modelo de permissões de acesso para API JavaScript de cinco níveis fornece a base para privacidade e segurança para usuários de complementos do painel de tarefas. A maioria dos complementos na Office Store é de nível ReadWriteDocument com quase todos os complementos que suportam pelo menos o nível ReadDocument. Para obter mais informações sobre os níveis de permissão, consulte Solicitando permissões para uso da API em conteúdo e complementos do painel [de tarefas.](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins)
   
 Ao atualizar um manifesto, as alterações típicas são para o ícone e o texto de um complemento. Ocasionalmente, os comandos de complemento mudam. No entanto, as permissões do complemento não mudam. O aplicativo Web onde todo o código e a lógica para as executações do complemento podem mudar a qualquer momento, que é a natureza dos aplicativos Web.
   
@@ -140,10 +140,10 @@ As atualizações para os complementos ocorrem da seguinte forma:
 
 [Gerenciar suplementos no centro de administração](manage-addins-in-the-admin-center.md)
 
-[Crie seu primeiro complemento do painel de tarefas do Word.](https://docs.microsoft.com/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)
+[Crie seu primeiro complemento do painel de tarefas do Word.](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator)
 
 [Secundárias e aquisição de complementos da loja](minors-and-acquiring-addins-from-the-store.md)
   
-[Usar cmdlets do PowerShell de implantação centralizada para gerenciar os complementos](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
+[Usar cmdlets do PowerShell de implantação centralizada para gerenciar os complementos](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)
   
-[Solução de problemas: o usuário não está vendo os complementos](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+[Solução de problemas: o usuário não está vendo os complementos](/office365/troubleshoot/access-management/user-not-seeing-add-ins)

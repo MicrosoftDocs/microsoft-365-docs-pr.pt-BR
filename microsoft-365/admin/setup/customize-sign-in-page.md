@@ -1,5 +1,5 @@
 ---
-title: Adicionar a identidade visual da empresa à página de login
+title: Adicionar a identidade visual da sua empresa à página Entrar
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,20 +22,20 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Personalize a página de login do Microsoft 365 usando o Azure Active Directory. Você pode adicionar uma ilustração, um logotipo e um texto à página de login.
-ms.openlocfilehash: 9a4e18aeb050fe128ded1ea83756256a386a0fb4
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 1bd9a60c9c3bbe839652785deb2eb52d5b385673
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926901"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914157"
 ---
-# <a name="add-your-company-branding-to-the-sign-in-page"></a>Adicionar a identidade visual da empresa à página de login
+# <a name="add-your-company-branding-to-the-sign-in-page"></a>Adicionar a identidade visual da sua empresa à página Entrar
 
- Agora você pode usar a assinatura do Azure Active Directory (AD) incluída na assinatura do Microsoft 365 para personalizar a página de login que seus usuários veem. 
+ Agora você pode usar a assinatura do Azure Active Directory (AD) incluída na sua assinatura do Microsoft 365 para personalizar a página de login que os usuários veem. 
   
 ## <a name="add-company-branding-to-your-sign-in-page-and-access-panel-pages"></a>Adicionar a identidade visual da empresa nas páginas de entrada e Painel de Acesso
 
-Se você tiver uma assinatura paga do Microsoft 365 para empresas, do Microsoft Dynamics CRM Online, do Enterprise Mobility Suite ou de outros serviços da Microsoft, terá uma assinatura gratuita do Azure Active Directory. Você pode usar o Azure Active Directory para criar e gerenciar contas de usuários e grupos, e adicionar a identidade visual de sua empresa às suas páginas. Para ativar esta assinatura e acessar o Portal de Gerenciamento do Microsoft Azure, é preciso concluir um processo de registro uma única vez. Depois disso, você pode acessar o Azure Active Directory de seu serviço da Microsoft que o utiliza. Para obter instruções sobre como registrar sua assinatura do Microsoft 365, confira Registrar sua assinatura gratuita do [Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966)e confira Gerenciar o diretório para sua assinatura do [Microsoft 365 no Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076) para obter instruções gerais de gerenciamento. 
+Se você tiver uma assinatura paga do Microsoft 365 para empresas, Microsoft Dynamics CRM Online, Enterprise Mobility Suite ou outros serviços da Microsoft, você terá uma assinatura gratuita do Azure Active Directory. Você pode usar o Azure Active Directory para criar e gerenciar contas de usuários e grupos, e adicionar a identidade visual de sua empresa às suas páginas. Para ativar esta assinatura e acessar o Portal de Gerenciamento do Microsoft Azure, é preciso concluir um processo de registro uma única vez. Depois disso, você pode acessar o Azure Active Directory de seu serviço da Microsoft que o utiliza. Para obter instruções sobre como registrar sua assinatura do Microsoft 365, consulte Register your [free Azure Active Directory subscription](../../compliance/use-your-free-azure-ad-subscription-in-office-365.md), and see Manage the directory for your Microsoft [365 subscription in Azure](/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) for general management instructions. 
   
 A figura a seguir mostra quais partes da página de entrada podem ser alteradas no Azure.
   
@@ -49,4 +49,4 @@ A figura a seguir mostra quais partes da página de entrada podem ser alteradas 
     
 Além da página de entrada, você pode personalizar a página Painel de Acesso no Azure.
   
-Se você estiver pronto para adicionar a identidade visual, explore as opções de personalização do conjunto de conteúdo do Azure: [Adicionar a identidade visual da empresa nas páginas de entrada e Painel de Acesso](https://go.microsoft.com/fwlink/p/?LinkId=620077)
+Se você estiver pronto para adicionar a identidade visual, explore as opções de personalização do conjunto de conteúdo do Azure: [Adicionar a identidade visual da empresa nas páginas de entrada e Painel de Acesso](/azure/active-directory/fundamentals/customize-branding)

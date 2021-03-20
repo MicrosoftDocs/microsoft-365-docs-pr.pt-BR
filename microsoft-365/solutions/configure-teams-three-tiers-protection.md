@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Saiba como configurar o Teams para melhorar a segurança de compartilhamento de arquivos usando três camadas de proteção, equilibrando a segurança com a facilidade de colaboração.
-ms.openlocfilehash: d41effb6db9f8995c3c878523babf200ab9af762
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 37d59d968d3a8e83a5b42fcce4c0400940314a41
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509237"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916209"
 ---
 # <a name="configure-teams-with-three-tiers-of-protection"></a>Configurar equipes com três camadas de proteção
 
@@ -42,7 +42,7 @@ As configurações nesse artigo se alinham às recomendações da Microsoft para
 
 - Proteção altamente confidencial
 
-Para obter mais informações sobre os níveis e as capacidades recomendadas para cada nível, consulte [Ilustrações do Microsoft Cloud for Enterprise Architects](https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models)
+Para obter mais informações sobre os níveis e as capacidades recomendadas para cada nível, consulte [Ilustrações do Microsoft Cloud for Enterprise Architects](./cloud-architecture-models.md)
 
 
 ## <a name="three-tiers-at-a-glance"></a>Visão rápida de três camadas
@@ -68,11 +68,11 @@ As equipes de proteção confidencial e altamente confidencial são equipes priv
 
 ## <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
-As camadas confidencial e altamente confidencial usam rótulos de confidencialidade para ajudar a proteger a equipe e seus arquivos. Para implementar estas camadas, você deve habilitar os [rótulos de confidencialidade para proteger o conteúdo no Microsoft Teams, grupos do Office 365 e sites do Microsoft Office SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+As camadas confidencial e altamente confidencial usam rótulos de confidencialidade para ajudar a proteger a equipe e seus arquivos. Para implementar estas camadas, você deve habilitar os [rótulos de confidencialidade para proteger o conteúdo no Microsoft Teams, grupos do Office 365 e sites do Microsoft Office SharePoint Online](../compliance/sensitivity-labels-teams-groups-sites.md).
 
 Embora a camada de linha de base não exija rótulos de confidencialidade, considere criar um rótulo "geral" e exigir que todas as equipes sejam rotuladas. Isso ajudará a garantir que os usuários façam uma escolha consciente em relação à confidencialidade ao criar uma equipe. Se você planeja implantar as camadas confidencial ou altamente confidencial, recomendamos a criação de um rótulo "geral" que você pode usar para equipes de linha de base e para arquivos que não são confidenciais.
 
-Se você não conhece os rótulos de confidencialidade, recomendamos a leitura do artigo [Introdução aos rótulos de confidencialidade](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels). 
+Se você não conhece os rótulos de confidencialidade, recomendamos a leitura do artigo [Introdução aos rótulos de confidencialidade](../compliance/get-started-with-sensitivity-labels.md). 
 
 Se você já implementou rótulos de confidencialidade em sua organização, considere como os rótulos usados nas camadas confidencial e altamente confidencial se ajustam à sua estratégia geral de rotulação. 
 
@@ -95,7 +95,7 @@ Por padrão, proprietários e membros da equipe podem compartilhar arquivos e pa
 
 ## <a name="guest-sharing"></a>Compartilhamento de convidados
 
-Se você precisar colaborar com pessoas de fora da sua organização, recomendamos configurar a [integração do Microsoft Office SharePoint Online e OneDrive com o Microsoft Azure Active Directory B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) para obter a melhor experiência de compartilhamento e administração.
+Se você precisar colaborar com pessoas de fora da sua organização, recomendamos configurar a [integração do Microsoft Office SharePoint Online e OneDrive com o Microsoft Azure Active Directory B2B](/sharepoint/sharepoint-azureb2b-integration-preview) para obter a melhor experiência de compartilhamento e administração.
 
 O compartilhamento de convidados de Equipes está desativado por padrão, embora o compartilhamento para grupos do Office 365 (onde a associação da equipe é armazenada) e o Microsoft Office SharePoint Online estejam ativados. Ativamos o compartilhamento de Equipes na camada de linha de base e você pode desativá-lo, se necessário, nas camadas confidencial e altamente confidencial, usando um rótulo de confidencialidade.
 
@@ -113,7 +113,7 @@ Confira as seguintes referências para criar um ambiente de compartilhamento de 
 
 ## <a name="access-from-unmanaged-devices"></a>Acesso de dispositivos não gerenciados
 
-Para as camadas confidencial e altamente confidencial, restringimos o acesso ao conteúdo do Microsoft Office SharePoint Online com rótulos de confidencialidade. O acesso condicional do Azure AD oferece muitas opções para determinar como as pessoas acessam o Microsoft 365, incluindo limitações com base em localização, risco, conformidade do dispositivo e outros fatores. Recomendamos que você leia [O que é o Acesso Condicional?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) e considere quais políticas adicionais podem ser apropriadas para sua organização.
+Para as camadas confidencial e altamente confidencial, restringimos o acesso ao conteúdo do Microsoft Office SharePoint Online com rótulos de confidencialidade. O acesso condicional do Azure AD oferece muitas opções para determinar como as pessoas acessam o Microsoft 365, incluindo limitações com base em localização, risco, conformidade do dispositivo e outros fatores. Recomendamos que você leia [O que é o Acesso Condicional?](/azure/active-directory/conditional-access/overview) e considere quais políticas adicionais podem ser apropriadas para sua organização.
 
 Observe que os convidados geralmente não têm dispositivos gerenciados pela sua organização. Se você permitir convidados em qualquer uma das camadas, considere que tipos de dispositivos eles usarão para acessar equipes e sites e defina suas políticas de dispositivos não gerenciados de acordo.
 
@@ -123,6 +123,6 @@ Comece [configurando o nível de linha de base de proteção](configure-teams-ba
 
 ## <a name="see-also"></a>Confira também
 
-[Segurança e conformidade no Microsoft Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
+[Segurança e conformidade no Microsoft Teams](/microsoftteams/security-compliance-overview)
 
-[Políticas de alerta no centro de conformidade e segurança](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
+[Políticas de alerta no centro de conformidade e segurança](../compliance/alert-policies.md)

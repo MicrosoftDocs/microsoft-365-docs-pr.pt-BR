@@ -20,19 +20,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fbcef2d7-ebaf-40d0-ba1f-cdaeff9f50ef
-description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços nas zonas DNS do Azure para a Microsoft.
-ms.openlocfilehash: c276570ec1d5ff079348bd8202ea597ef61e88f6
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+description: Aprenda a verificar seu domínio e configurar registros DNS para email, Skype for Business Online e outros serviços em zonas DNS do Azure para a Microsoft.
+ms.openlocfilehash: be4baa80d0f96e92dc9dd9004054f29f12f6415b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656862"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50916137"
 ---
 # <a name="create-dns-records-for-azure-dns-zones"></a>Criar registros DNS para zonas DNS do Azure
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   
-Se o Azure for seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para o Skype for Business Online, email e outros serviços.
+Se o Azure for seu provedor de hospedagem DNS, siga as etapas deste artigo para verificar seu domínio e configurar registros DNS para email, Skype for Business Online e assim por diante.
   
 Esses são os principais registros a adicionar. 
   
@@ -48,7 +48,7 @@ Esses são os principais registros a adicionar.
     
 - [Adicionar os dois registros SRV necessários para a Microsoft](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Depois que você adicionar esses registros no Azure, seu domínio será definido para funcionar com os serviços Microsoft.
+Depois de adicionar esses registros no Azure, seu domínio será definido para funcionar com os serviços da Microsoft.
   
 > [!NOTE]
 > Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
@@ -59,15 +59,15 @@ Depois que você adicionar esses registros no Azure, seu domínio será definido
 > [!IMPORTANT]
 > Você deve executar este procedimento no registrador de domínios onde você comprou e registrou seu domínio. 
   
-Quando você se inscreveu no Azure, criou um grupo de recursos em uma zona DNS e atribuiu seu nome de domínio a esse grupo de recursos. Esse nome de domínio está registrado em um registrador de domínio externo; O Azure não oferece serviços de registro de domínio.
+Quando você se inscreveu no Azure, criou um grupo de recursos dentro de uma zona DNS e atribuiu seu nome de domínio a esse grupo de recursos. Esse nome de domínio está registrado em um registrador de domínio externo; O Azure não oferece serviços de registro de domínio.
   
-Para verificar e criar registros DNS para seu domínio na Microsoft, primeiro você precisa alterar os nameservers no registrador de domínios para que eles usem os nameservers do Azure atribuídos ao seu grupo de recursos.
+Para verificar e criar registros DNS para seu domínio na Microsoft, primeiro você precisa alterar os nameservers em seu registrador de domínio para que eles usem os nameservers do Azure atribuídos ao seu grupo de recursos.
   
 Para mudar os servidores de nomes do seu domínio por conta própria no site do registrador de domínios, siga essas etapas.
   
 1. Localize a área no site do registrador de domínios na qual você pode editar os servidores de nomes do seu domínio.
     
-2. Crie dois registros de nameserver usando os valores da tabela a seguir ou edite os registros de nameserver existentes para que eles corresponderem a esses valores. Um exemplo de nameservers atribuídos ao Azure é mostrado abaixo.
+2. Crie dois registros nameserver usando os valores na tabela a seguir ou edite os registros de nameserver existentes para que eles corresponderem a esses valores. Um exemplo de servidores de nomes atribuídos ao Azure é mostrado abaixo.
     
 
 
@@ -92,25 +92,25 @@ Antes de usar o seu domínio com a Microsoft, precisamos verificar se você é o
 > [!NOTE]
 > Esse registro é usado exclusivamente para confirmar se você é o proprietário do domínio; ele não afeta mais nada. É possível excluí-lo mais tarde, se desejar. 
   
-1. To get started, go to your domains page at Azure by using [this link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
+1. Para começar, vá para sua página de domínios no Azure usando [este link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
     
     ![Azure-BP-Configure-1-1](../../media/ed377cad-0c47-4f9f-b322-c3e06b309b1f.png)
   
-2. Usando a **barra de pesquisa** na página **Painel,** digite **zonas DNS.** Na exibição de resultados, selecione **zonas DNS** na parte **Serviços.** Depois que você foi redirecionado, selecione o domínio que deseja atualizar.
+2. Usando a **barra de pesquisa** na página **Painel,** digite **zonas DNS**. Na exibição de resultados, selecione **zonas DNS** na **parte Serviços.** Depois de ser redirecionado, selecione o domínio que deseja atualizar.
     
     ![Azure-BP-Configure-1-2](../../media/eb4baad2-92d7-49c9-95e5-1dd8510d5ec9.png)
   
-3. Na página **Configurações** do seu domínio, na área de **zona DNS,** selecione **+ Conjunto de registros.**
+3. Na página **Configurações** do seu domínio, na área **de zona DNS,** selecione **+ Conjunto de registros**.
     
     ![Azure-BP-Configure-1-3](../../media/b04db89a-3dbc-4cd2-aaca-af17fda53a60.png)
   
 4. Na área **Adicionar conjunto de registros,** nas caixas do novo conjunto de registros, selecione os valores da tabela a seguir. 
     
-    (Escolha os **valores de unidade** de Tipo e **TTL** nas listas listadas.) 
+    (Escolha os **valores de unidade Type** e **TTL** nas listas listadas.) 
     
     |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Valor**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |1   <br/> |Horas  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |TXT  <br/> |1  <br/> |Horas  <br/> |MS = ms *XXXXXXXX*  <br/> **Observação**: esse é um exemplo. Use aqui seu valor específico de **Destino ou Pontos de Endereçamento**, retirado da tabela.           [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Azure-BP-Verify-1-1](../../media/7d5a253c-e88f-4565-a00a-79bba52f9970.png)
   
@@ -142,7 +142,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Adicione um registro MX para que o email do domínio vá para a Microsoft.
 <a name="BKMK_add_MX"> </a>
 
-1. To get started, go to your domains page at Azure by using [this link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
+1. Para começar, vá para sua página de domínios no Azure usando [este link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
     
     ![Azure-BP-Configure-1-1](../../media/ed377cad-0c47-4f9f-b322-c3e06b309b1f.png)
   
@@ -150,17 +150,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Azure-BP-Configure-1-2](../../media/eb4baad2-92d7-49c9-95e5-1dd8510d5ec9.png)
   
-3. Na página **Configurações** do seu domínio, na área de **zona DNS,** selecione **+ Conjunto de registros.**
+3. Na página **Configurações** do seu domínio, na área **de zona DNS,** selecione **+ Conjunto de registros**.
     
     ![Azure-BP-Configure-1-3](../../media/b04db89a-3dbc-4cd2-aaca-af17fda53a60.png)
   
 4. Na área **Adicionar conjunto de registros,** nas caixas do novo conjunto de registros, selecione os valores da tabela a seguir. 
     
-    (Escolha os **valores de** unidade de Tipo **e TTL** nas listas listadas.) 
+    (Escolha os **valores de unidade Type** e **TTL** nas listas listadas.) 
     
-    |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Preferência**|**Mail Exchange**|
+    |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Preferência**|**Exchange de email**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1   <br/> |Horas  <br/> |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu da sua conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  
+    |@  <br/> |MX  <br/> |1  <br/> |Horas  <br/> |10   <br/> Para saber mais sobre prioridade, confira [O que é prioridade MX?](../setup/domains-faq.yml) <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Observação:** Obter o  *\<domain-key\>*  seu de sua conta da Microsoft.   [Como localizo isto?](../get-help-with-domains/information-for-dns-records.md)  
    
     ![Azure-BP-Configure-2-1](../../media/712c23ae-9d38-4af2-94e0-0704e70744fe.png)
   
@@ -168,9 +168,9 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Azure-BP-Configure-2-2](../../media/2f24225f-69ac-41dc-91c5-93d327360f74.png)
   
-6. Se houver outros registros MX listados na seção **Registros MX,** você deverá excluí-los. 
+6. Se houver outros registros MX listados na seção **Registros MX,** exclua-os. 
     
-    Primeiro, na área **de zona DNS,** selecione o conjunto **de Registros MX.**
+    Primeiro, na área **de zona DNS,** selecione o **conjunto de Registros MX**.
     
     ![Azure-BP-Configure-2-3](../../media/9890da61-6fcd-4c61-888e-ccbb84f80cd0.png)
   
@@ -178,7 +178,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Azure-BP-Configure-2-4](../../media/afe54f12-66d2-4ff3-80e9-427448e4c32c.png)
   
-7. Selecione o **menu contexto (...)** e, em seguida, escolha **Remover**.
+7. Selecione o **menu Contexto (...)** e escolha **Remover**.
     
     ![Azure-BP-Configure-2-5](../../media/25219e25-bc14-4bc7-84ed-ee65eb28a8ed.png)
   
@@ -189,7 +189,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 ## <a name="add-the-four-cname-records-that-are-required-for-microsoft"></a>Adicionar os quatro registros CNAME necessários para a Microsoft
 <a name="BKMK_add_CNAME"> </a>
 
-1. To get started, go to your domains page at Azure by using [this link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
+1. Para começar, vá para sua página de domínios no Azure usando [este link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
     
     ![Azure-BP-Configure-1-1](../../media/ed377cad-0c47-4f9f-b322-c3e06b309b1f.png)
   
@@ -197,21 +197,21 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Azure-BP-Configure-1-2](../../media/eb4baad2-92d7-49c9-95e5-1dd8510d5ec9.png)
   
-3. Na página **Configurações** do seu domínio, na área de **zona DNS,** selecione **+ Conjunto de registros.**
+3. Na página **Configurações** do seu domínio, na área **de zona DNS,** selecione **+ Conjunto de registros**.
     
     ![Azure-BP-Configure-1-3](../../media/b04db89a-3dbc-4cd2-aaca-af17fda53a60.png)
   
 4. Adicione o primeiro dos quatro registros CNAME.
     
-    In the **Add record set** area, in the boxes for the new record set, type or copy and paste the values from the first row in the following table. 
+    Na área **Adicionar conjunto de registros,** nas caixas do novo conjunto de registros, digite ou copie e copie e colar os valores da primeira linha da tabela a seguir. 
     
-    (Escolha os **valores de unidade** de Tipo e **TTL** nas listas listadas.) 
+    (Escolha os **valores de unidade Type** e **TTL** nas listas listadas.) 
     
     |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Alias**|
     |:-----|:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |CNAME  <br/> |1   <br/> |Horas  <br/> |autodiscover.outlook.com  <br/> |
-    |sip  <br/> |CNAME  <br/> |1   <br/> |Horas  <br/> |sipdir.online.lync.com  <br/> |
-    |lyncdiscover  <br/> |CNAME  <br/> |1   <br/> |Horas  <br/> |webdir.online.lync.com  <br/> |
+    |autodiscover  <br/> |CNAME  <br/> |1  <br/> |Horas  <br/> |autodiscover.outlook.com  <br/> |
+    |sip  <br/> |CNAME  <br/> |1  <br/> |Horas  <br/> |sipdir.online.lync.com  <br/> |
+    |lyncdiscover  <br/> |CNAME  <br/> |1  <br/> |Horas  <br/> |webdir.online.lync.com  <br/> |
     
    
     ![Azure-BP-Configure-3-1](../../media/a1c4d869-da97-43b3-952c-d513a20231dc.png)
@@ -222,19 +222,19 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 6. Adicione cada um dos outros três registros CNAME.
     
-    Na área **de zona DNS,** selecione **+ Conjunto de registros.** Em seguida, no conjunto de registros vazio, crie um registro usando os valores da próxima linha na tabela e selecione **NOVAMENTE OK** para concluir esse registro. 
+    Na área **de zona DNS,** selecione **+ Conjunto de registros**. Em seguida, no conjunto de registros vazio, crie um registro usando os valores da próxima linha na tabela e selecione **NOVAMENTE OK** para concluir esse registro. 
     
-    Repita esse processo até ter criado todos os quatro registros CNAME.
+    Repita esse processo até que você tenha criado todos os quatro registros CNAME.
     
 7.  (Opcional) Adicione 2 registros CNAME para MDM.
 
 > [!IMPORTANT]
-> Se você tiver o Gerenciamento de Dispositivo Móvel (MDM) para a Microsoft, deverá criar dois registros CNAME adicionais. Siga o procedimento que você usou para os outros quatro registros CNAME, mas forneça os valores da tabela a seguir. (Se você não tiver o MDM, ignore esta etapa.) 
+> Se você tiver o Gerenciamento de Dispositivo Móvel (MDM) para a Microsoft, deverá criar dois registros CNAME adicionais. Siga o procedimento que você usou para os outros quatro registros CNAME, mas forneça os valores da tabela a seguir. (Se você não tiver MDM, poderá ignorar esta etapa.) 
   
 |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Alias**|
 |:-----|:-----|:-----|:-----|:-----|
-|enterpriseregistration  <br/> |CNAME  <br/> |1   <br/> |Horas  <br/> |enterpriseregistration.windows.net  <br/> |
-|enterpriseenrollment  <br/> |CNAME  <br/> |1   <br/> |Horas  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
+|enterpriseregistration  <br/> |CNAME  <br/> |1  <br/> |Horas  <br/> |enterpriseregistration.windows.net  <br/> |
+|enterpriseenrollment  <br/> |CNAME  <br/> |1  <br/> |Horas  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
    
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Adicionar o registro TXT à SPF para ajudar a evitar spam de e-mail
 <a name="BKMK_add_TXT"> </a>
@@ -242,7 +242,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 > [!IMPORTANT]
 > Não é possível ter mais de um registro TXT para SPF para um domínio. Se o seu domínio possuir mais de um registro SPF, ocorrerão erros de email, bem como problemas na entrega e na classificação de spam. Se você já possui um registro SPF para seu domínio, não crie um novo para a Microsoft. Em vez disso, adicione os valores necessários da Microsoft ao registro atual para que você tenha um único registro  *SPF*  que inclua ambos os conjuntos de valores. 
   
-1. To get started, go to your domains page at Azure by using [this link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
+1. Para começar, vá para sua página de domínios no Azure usando [este link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
     
     ![Azure-BP-Configure-1-1](../../media/ed377cad-0c47-4f9f-b322-c3e06b309b1f.png)
   
@@ -250,17 +250,17 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Azure-BP-Configure-1-2](../../media/eb4baad2-92d7-49c9-95e5-1dd8510d5ec9.png)
   
-3. Na área **de zona DNS,** selecione o **conjunto de registros TXT.**
+3. Na área **de zona DNS,** selecione o **conjunto de registros TXT**.
     
     ![Azure-BP-Configure-4-1](../../media/03095196-5010-4072-8503-79b812084dbf.png)
   
-4. Na área **Propriedades do conjunto de** registros, nas caixas do novo conjunto de registros, selecione os valores da tabela a seguir. 
+4. Na área **Definir propriedades do conjunto de** registros, nas caixas do novo conjunto de registros, selecione os valores da tabela a seguir. 
     
-    (Escolha os **valores de unidade** de Tipo e **TTL** nas listas listadas.) 
+    (Escolha os **valores de unidade Type** e **TTL** nas listas listadas.) 
     
     |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Valor**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |1   <br/> |Horas  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           
+    |@  <br/> |TXT  <br/> |1  <br/> |Horas  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Observação:** é recomendável copiar e colar essa entrada para que o espaçamento permaneça correto.           
 
     ![Azure-BP-Configure-4-2](../../media/78e84c43-e0ce-433f-8e74-9157fb093cca.png)
   
@@ -271,7 +271,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Adicionar os dois registros SRV necessários para a Microsoft
 <a name="BKMK_add_SRV"> </a>
 
-1. To get started, go to your domains page at Azure by using [this link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
+1. Para começar, vá para sua página de domínios no Azure usando [este link](https://portal.azure.com ). Será solicitado que você faça logon primeiro.
     
     ![Azure-BP-Configure-1-1](../../media/ed377cad-0c47-4f9f-b322-c3e06b309b1f.png)
   
@@ -279,20 +279,20 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
     
     ![Azure-BP-Configure-1-2](../../media/eb4baad2-92d7-49c9-95e5-1dd8510d5ec9.png)
   
-3. Na página **Configurações** do seu domínio, na área de **zona DNS,** selecione **+ Conjunto de registros.**
+3. Na página **Configurações** do seu domínio, na área **de zona DNS,** selecione **+ Conjunto de registros**.
     
     ![Azure-BP-Configure-1-3](../../media/b04db89a-3dbc-4cd2-aaca-af17fda53a60.png)
   
 4. Adicione o primeiro dos dois registros SRV.
     
-    Na área **Adicionar conjunto de** registros, nas caixas do novo conjunto de registros, selecione os valores da primeira linha da tabela a seguir. 
+    Na área **Adicionar conjunto de registros,** nas caixas do novo conjunto de registros, selecione os valores da primeira linha da tabela a seguir. 
     
-    (Escolha os **valores de unidade** de Tipo e **TTL** nas listas listadas.) 
+    (Escolha os **valores de unidade Type** e **TTL** nas listas listadas.) 
     
     |**Nome**|**Tipo**|**TTL**|**Unidade TTL**|**Prioridade**|**Espessura**|**Porta**|**Destino**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip._tls  <br/> |SRV  <br/> |1   <br/> |Horas  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls._tcp  <br/> |SRV  <br/> |1   <br/> |Horas  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> 
+    |_sip._tls  <br/> |SRV  <br/> |1  <br/> |Horas  <br/> |100  <br/> |1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls._tcp  <br/> |SRV  <br/> |1  <br/> |Horas  <br/> |100  <br/> |1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> 
 
     ![Azure-BP-Configure-5-1](../../media/a436e0b4-8bb8-4a66-9c22-4e3b2dcf54ff.png)
   
@@ -302,8 +302,7 @@ Quando a Microsoft encontrar o registro TXT correto, seu domínio estará verifi
   
 6. Adicione o outro registro SRV.
     
-    Nas caixas do novo registro, digite ou copie e copie e copie os valores da segunda linha da tabela.
+    Nas caixas do novo registro, digite ou copie e copie os valores da segunda linha da tabela.
     
 > [!NOTE]
 > Normalmente, são necessários cerca de 15 minutos para que as alterações de DNS entrem em vigor. Mas, às vezes, pode ser necessário mais tempo para atualizar uma alteração feita no sistema DNS da Internet. Se você tiver problemas com o fluxo de emails ou de outro tipo após adicionar os registros DNS, consulte [Solucionar problemas após alterar o nome de domínio ou registros DNS](../get-help-with-domains/find-and-fix-issues.md). 
-  

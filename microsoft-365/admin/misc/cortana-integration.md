@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: Quando entrar com contas corporativas ou de estudante válidas, os usuários podem obter serviços de assistência baseados em nuvem com a Cortana nas experiências do Microsoft 365 que atendem às promessas de privacidade, segurança e conformidade no nível empresarial do Office 365.
-ms.openlocfilehash: 72d7eb2e4195e3941c382d96c7e7319b94202707
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 00702724a44cd75bc68e9f7adac7170d81c080fb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454356"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914793"
 ---
 # <a name="cortana-in-microsoft-365"></a>Cortana no Microsoft 365
 
@@ -37,7 +37,7 @@ Seguindo em frente, estamos concentrando a Cortana na produtividade corporativa.
 
 - Consistente com outros serviços do Office 365, os serviços corporativos da Cortana atendem às mesmas promessas de privacidade, segurança e conformidade no nível empresarial, conforme refletido nos Termos de Serviços [Online (OST).](https://www.microsoft.com/licensing/product-licensing/products)
 
-- As novas experiências do Microsoft 365, como o email de Instruções e o Play My Emails, serão habilitadas usando os serviços corporativos da Cortana e estarão em conformidade com essas promessas. Esses recursos estão atualmente disponíveis em todo o mundo (padrão multi locatário). Para obter mais informações sobre como localizar o local de uso, visite [Exibir valores de propriedade adicionais para contas](https://docs.microsoft.com/microsoft-365/enterprise/view-user-accounts-with-microsoft-365-powershell?view=o365-worldwide#view-additional-property-values-for-accounts).
+- As novas experiências do Microsoft 365, como o email de Instruções e o Play My Emails, serão habilitadas usando os serviços corporativos da Cortana e estarão em conformidade com essas promessas. Esses recursos estão atualmente disponíveis em todo o mundo (padrão multi locatário). Para obter mais informações sobre como localizar o local de uso, visite [Exibir valores de propriedade adicionais para contas](../../enterprise/view-user-accounts-with-microsoft-365-powershell.md?view=o365-worldwide#view-additional-property-values-for-accounts).
 
 - Os usuários podem se conectar aos serviços corporativos da Cortana descritos aqui por meio da Cortana no Windows 10 (versão 2004 e posterior), bem como aplicativos cliente, como Outlook para iOS e Android, sujeitos a termos de licenciamento separados. 
 
@@ -77,9 +77,9 @@ A Cortana no Windows 10, versão 2004 e posterior, atende às mesmas promessas d
 
 Os administradores podem configurar a Cortana no Windows 10 para sua organização usando a política MDM Experience\AllowCortana ou por meio da Política de Grupo: Configuração do Computador\Modelos Administrativos\Componentes do Windows\Pesquisa\Permitir Cortana.
 
-A partir do Windows 10, versão 2004, a Cortana é um aplicativo UWP (Plataforma Universal do Windows) pré-instalado com o Windows e é atualizado regularmente por meio da Microsoft Store. Para receber as atualizações mais recentes da Cortana, você precisará habilitar atualizações [por meio da Microsoft Store](https://docs.microsoft.com/windows/configuration/stop-employees-from-using-microsoft-store).
+A partir do Windows 10, versão 2004, a Cortana é um aplicativo UWP (Plataforma Universal do Windows) pré-instalado com o Windows e é atualizado regularmente por meio da Microsoft Store. Para receber as atualizações mais recentes da Cortana, você precisará habilitar atualizações [por meio da Microsoft Store](/windows/configuration/stop-employees-from-using-microsoft-store).
 
-[Saiba mais sobre a Cortana no Windows 10](https://docs.microsoft.com/windows/configuration/cortana-at-work/cortana-at-work-overview)
+[Saiba mais sobre a Cortana no Windows 10](/windows/configuration/cortana-at-work/cortana-at-work-overview)
 
 ### <a name="cortana-voice-assistance-in-teams"></a>Assistência de voz da Cortana no Teams
 
@@ -101,7 +101,7 @@ Usuários individuais podem experimentar a assistência de voz da Cortana no apl
 
 4. Mova a alternância **para On** ou **Off,** dependendo se você deseja assistência de voz da Cortana no dispositivo.
 
-[Saiba mais sobre a assistência de voz da Cortana no Teams](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
+[Saiba mais sobre a assistência de voz da Cortana no Teams](/microsoftteams/cortana-in-teams)
 
 ### <a name="conversational-ai-in-outlook-for-ios-with-cortana"></a>IA de conversa no Outlook para iOS com a Cortana
 
@@ -144,13 +144,13 @@ A Cortana envia um email de reunião personalizado com tarefas e  compromissos q
 
 ### <a name="how-to-opt-out-of-briefing-email"></a>Como optar por não enviar emails de reunião
 
-Os administradores podem configurar o Briefing para sua organização usando [o PowerShell](https://docs.microsoft.com/briefing/be-admin) no Exchange Online. Os indivíduos podem cancelar o email de Reunião da Cortana selecionando **Cancelar** assinatura no rodapé da mensagem.
+Os administradores podem configurar o Briefing para sua organização usando [o PowerShell](/briefing/be-admin) no Exchange Online. Os indivíduos podem cancelar o email de Reunião da Cortana selecionando **Cancelar** assinatura no rodapé da mensagem.
 
 [Saiba mais sobre o email de reunião](https://support.microsoft.com/help/4558259)
 
 Continuaremos a introduzir mais experiências como as acima para ajudar a aumentar a produtividade da sua organização.
 
-[Saiba mais sobre ofertas de Conformidade da Microsoft](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
+[Saiba mais sobre ofertas de Conformidade da Microsoft](/compliance/regulatory/offering-home)
 
 ## <a name="how-is-the-delivery-of-cortana-enterprise-services-different-from-the-delivery-of-other-cortana-features-i-may-have-previously-experienced"></a>Como a entrega dos serviços corporativos da Cortana é diferente da entrega de outros recursos da Cortana que eu possa ter experimentado anteriormente?
 

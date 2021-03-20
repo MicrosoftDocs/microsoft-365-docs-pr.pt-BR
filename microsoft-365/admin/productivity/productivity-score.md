@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da pontuação de produtividade da Microsoft.
-ms.openlocfilehash: 72f9bcfb273912629744ec25ad9c0be720e76081
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: d818bd766f76f3df6c67a740d6ad1994a2be66de
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838420"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914577"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productivity Score 
 
@@ -44,7 +44,7 @@ Fornecemos métricas, insights e recomendações em duas áreas:
 
 - **Experiências de tecnologia:** sua organização depende de uma tecnologia confiável e de bom desempenho, bem como do uso eficiente do Microsoft 365. A [Análise de ponto de extremidade](https://aka.ms/endpointanalytics) ajuda a entender como sua organização pode ser afetada por problemas de desempenho e integridade com seu hardware e software. A integridade dos aplicativos do Microsoft 365 ajuda a entender se os dispositivos em sua organização estão executando o Microsoft 365 Apps nos canais recomendados.
 
-Confira [O que é a Análise de Ponto de Extremidade](https://docs.microsoft.com/mem/analytics/overview) para uma visão geral e detalhes pré-requisitos. Para saber mais sobre os insights de conectividade de rede do Microsoft 365, leia [a visão geral de conectividade de rede](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview).
+Confira [O que é a Análise de Ponto de Extremidade](/mem/analytics/overview) para uma visão geral e detalhes pré-requisitos. Para saber mais sobre os insights de conectividade de rede do Microsoft 365, leia [a visão geral de conectividade de rede](../../enterprise/microsoft-365-networking-overview.md).
   
 
 ## <a name="how-the-score-is-calculated"></a>Como a pontuação é calculada
@@ -74,7 +74,8 @@ A pontuação da sua organização é atualizada diariamente e reflete as açõe
 
 ## <a name="prerequisites"></a>Pré-requisitos 
 
-Para pessoas com dados de experiência, você precisa de uma assinatura do Microsoft 365 para negócios ou Office 365 corporativo. Para dados de análise de ponto de extremidade do seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda a proteger os dados da sua organização gerenciando dispositivos e aplicativos. Uma vez que você tenha o Intune, você pode ativar a análise do ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o [Microsoft Intune](https://docs.microsoft.com/mem/intune/). 
+Para pessoas com dados de experiência, você precisa de uma assinatura do Microsoft 365 para negócios ou Office 365 corporativo. Para dados de análise de ponto de extremidade do seu locatário, você precisa adicionar o Microsoft Intune à sua assinatura. O Intune ajuda você a proteger os dados da sua organização gerenciando dispositivos e aplicativos. Uma vez que você tenha o Intune, você pode ativar a análise do ponto de extremidade dentro da experiência do Intune. Saiba mais sobre o [Microsoft Intune](/mem/intune/). 
+
 > [!NOTE]
 > Uma licença para Microsoft Workplace Analytics não é necessária para obter os recursos de Pontuação de Produtividade..
 
@@ -129,7 +130,7 @@ As páginas de detalhes são:
 - [Mobilidade - experiências pessoais](mobility.md)
 - [Trabalho em equipe – experiências pessoais](teamwork.md)
 - [Integridade do Microsoft 365 Apps - experiências tecnológicas](apps-health.md)
-- [Análise de Ponto de Extremidade](https://docs.microsoft.com/mem/analytics/productivity-score)
+- [Análise de Ponto de Extremidade](/mem/analytics/productivity-score)
 
 ## <a name="business-continuity-special-report"></a>Relatório especial de continuidade dos negócios
 
@@ -143,12 +144,12 @@ Este relatório ajuda as organizações a entender:
 
 - Se as reuniões remotas suportarem uma tomada de decisão eficaz.
 
-[Saiba mais sobre o relatório de continuidade dos Negócios](https://aka.ms/bcrps)
+[Saiba mais sobre o relatório de continuidade dos Negócios](/Workplace-Analytics/tutorials/bcrps)
 
-[Saiba mais sobre o Microsoft Graph](https://docs.microsoft.com/graph/)
+[Saiba mais sobre o Microsoft Graph](/graph/)
 
 > [!NOTE]
-> Os usuários também têm a opção de obter informações de produtividade no [Painel do MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2).
+> Os usuários também têm a opção de obter informações de produtividade no [Painel do MyAnalytics](/workplace-analytics/myanalytics/use/dashboard-2).
 
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir de você

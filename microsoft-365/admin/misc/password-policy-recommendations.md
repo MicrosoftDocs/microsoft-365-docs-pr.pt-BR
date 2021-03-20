@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Aprenda a tornar a sua organização mais segura contra ataques de senha e por que você deve bloquear senhas comuns e habilitar a autenticação multifator baseada em risco.
-ms.openlocfilehash: 66a4048ac1add3a0d47f256dc29519a91ae6cb11
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: ca9a88b0bb154416837254d785cf9cfee8876ae6
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49926709"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914721"
 ---
 # <a name="password-policy-recommendations"></a>Recomendações de política de senha
 
@@ -136,10 +136,10 @@ A autenticação multifatorial baseada em risco garante que, quando o sistema de
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Redefinir senhas](https://docs.microsoft.com/microsoft-365/admin/add-users/reset-passwords)
+[Redefinir senhas](../add-users/reset-passwords.md)
 
-[Definir senha de um usuário individual para nunca expirar](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire)
+[Definir senha de um usuário individual para nunca expirar](../add-users/set-password-to-never-expire.md)
 
-[Permitir que os usuários redefinam as próprias senhas](https://docs.microsoft.com/microsoft-365/admin/add-users/let-users-reset-passwords)
+[Permitir que os usuários redefinam as próprias senhas](../add-users/let-users-reset-passwords.md)
 
-[Reenviar a senha de um usuário – ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/add-users/resend-user-password)
+[Reenviar a senha de um usuário – ajuda para administradores](../add-users/resend-user-password.md)

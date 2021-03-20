@@ -20,12 +20,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Aprenda a verificar seu domínio e criar registros DNS com o Microsoft 365.
 ms.custom:
 - AdminSurgePortfolio
-ms.openlocfilehash: c5c33af8a5635d1092aec2f1bffdfc942f2e4851
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 506ee887edbc59956aee11059a7085bc4b22624e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126330"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914589"
 ---
 # <a name="connect-your-domain-to-microsoft-365"></a>Conectar seu domínio ao Microsoft 365
 
@@ -72,10 +72,10 @@ Verifique se os campos estão definidos para os seguintes valores:
 
 Salve o registro.
 
-Valide seu registro SPF usando uma destas [ferramentas de validação de SPF](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain).
+Valide seu registro SPF usando uma destas [ferramentas de validação de SPF](/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain).
 
 O SPF foi projetado para ajudar a evitar a falsificação, mas há técnicas de falsificação contra as quais o SPF não pode protegê-lo. Para se proteger contra isso, depois de configurar o SPF, você também deve configurar o DKIM e o DMARC para o Microsoft 365.
 
-Para começar, consulte [Usar DKIM para validar emails de saída enviados do seu domínio no Microsoft 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx) e [Usar DMARC para validar emails no Microsoft 365](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx).
+Para começar, consulte [Usar DKIM para validar emails de saída enviados do seu domínio no Microsoft 365](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) e [Usar DMARC para validar emails no Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
 
 Por fim, volte para o assistente de configuração de domínio do centro de administração para concluir a configuração.

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Saiba como a análise de uso se conecta a uma API e fornece tendência mensal de uso de vários serviços do Microsoft 365.  '
-ms.openlocfilehash: 7d1e797fc388934f66ddc45d2e7f51566e89ad23
-ms.sourcegitcommit: bf9e0091e5bdc78d9b23be64583eb816bb059eb2
+ms.openlocfilehash: 1975fc0bdba279b281fb45c8aec22255579ef414
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50758935"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913845"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Modelo de dados de análise de uso do Microsoft 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "50758935"
 A análise de uso do Microsoft 365 se conecta a uma API que expõe um modelo de dados multidimensional. As APIs que a análise de uso do Microsoft 365 usa para gerar seus dados são de várias APIs do Graph, geralmente disponíveis. A função da API de análise de uso do Microsoft 365 por si só não está geralmente disponível.
   
 > [!NOTE]
-> Para obter mais informações, consulte Trabalhando com relatórios de [uso do Microsoft 365 no Microsoft Graph](https://go.microsoft.com/fwlink/p/?linkid=864336). 
+> Para obter mais informações, consulte Trabalhando com relatórios de [uso do Microsoft 365 no Microsoft Graph](/graph/api/resources/report). 
   
 Esta API fornece informações sobre a tendência mensal de uso dos vários serviços do Microsoft 365. Para saber exatamente quais são os dados retornados pela API, confira a tabela na seção a seguir.
   
@@ -295,5 +295,3 @@ A tabela fornece dados sobre o número de ativações de assinatura do Office no
 |WinRtCount  <br/> |Número de ativações por plano de serviço para dispositivo Windows Mobile até o fim do prazo.  <br/> |
 |Período de tempo  <br/> |Esta coluna tem o valor de data. Usada como relação Muitos para um para a tabela Calendário.  <br/> |
 |Data do Conteúdo  <br/> |Se o prazo mostrar o mês atual, esse valor representará a última data do mês atual para o qual os dados estão disponíveis.  <br/> Se o prazo mostrar o mês anterior, esse valor representará a última data do mês do prazo.  <br/> |
-   
-

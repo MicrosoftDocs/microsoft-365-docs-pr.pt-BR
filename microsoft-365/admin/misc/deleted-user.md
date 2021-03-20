@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
 description: Saiba como excluir ou restaurar a conta do Microsoft 365 de um usuário.
-ms.openlocfilehash: 13908a83ffa39369b2aea71e7212fd0d41488c44
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 3b078b782246229d1ddfb1f1fa51282140e71eb0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432178"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50914781"
 ---
 # <a name="quick-help-deleted-user"></a>Ajuda rápida: Usuário excluído
 
@@ -36,9 +36,9 @@ Talvez você precise excluir um [usuário](../add-users/add-users.md) em sua org
 
 ::: moniker range="o365-worldwide"
   
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
-2. Selecione um usuário e, em seguida, acima da lista de usuários selecione **Mais** opções (**...**) e, em seguida, escolha **Excluir usuário**.
+2. Selecione um usuário e, em seguida, acima da lista de usuários selecione **Mais** opções (**...**) e escolha **Excluir usuário**.
   
 3. No painel de confirmação de exclusão, selecione **Excluir usuário**. <br/>[Leia o artigo completo.](../add-users/delete-a-user.md)
   
@@ -46,7 +46,7 @@ Talvez você precise excluir um [usuário](../add-users/add-users.md) em sua org
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
 
 2. Selecione um usuário e, em seguida, acima da lista de usuários escolha **Mais** > **Excluir um usuário**.
   
@@ -56,7 +56,7 @@ Talvez você precise excluir um [usuário](../add-users/add-users.md) em sua org
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
 
 2. Selecione um usuário e, em seguida, acima da lista de usuários escolha **Mais** > **Excluir um usuário**.
   
@@ -67,7 +67,7 @@ Talvez você precise excluir um [usuário](../add-users/add-users.md) em sua org
   
 ## <a name="restore-a-user"></a>Restaurar um usuário
 
-Você pode restaurar usuários pesquisando por excluídos  na home page e escolhendo Usuários  Excluídos nos resultados ou indo para a página Usuários Excluídos da navegação à esquerda e escolhendo o usuário que você deseja restaurar.  [Leia o artigo completo](../add-users/delete-a-user.md).
+Você pode restaurar os  usuários pesquisando por excluídos na home page e escolhendo usuários excluídos nos resultados ou indo para a página **Usuários** excluídos da navegação à esquerda e escolhendo o usuário que você deseja restaurar.  [Leia o artigo completo](../add-users/delete-a-user.md).
   
 ## <a name="what-are-deleted-users"></a>Quais são os usuários excluídos?
 
@@ -75,7 +75,7 @@ Um [usuário](../add-users/add-users.md) excluído é uma conta corporativa ou d
   
 ## <a name="does-deleting-a-user-free-up-their-microsoft-365-license"></a>A exclusão de um usuário libera a licença do Microsoft 365?
 
-Sim, excluir o usuário libera a licença do Microsoft 365 atribuída a esse usuário. Você pode atribuir essa licença a outro usuário. [Ler artigo completo](../../commerce/licenses/remove-licenses-from-subscription.md).
+Sim, excluir o usuário libera a licença do Microsoft 365 atribuída a esse usuário. Você pode atribuir essa licença a outro usuário. [Ler artigo completo](../../commerce/licenses/buy-licenses.md).
   
 ## <a name="i-had-a-deleted-user-listed-in-deleted-users-and-then-it-disappeared-what-happened"></a>Eu tinha um usuário excluído listado em Usuários excluídos, e depois ele desapareceu. O que está acontecendo?
 
@@ -91,6 +91,4 @@ Quando você exclui um usuário, os dados dele não são perdidos. Os dados do u
   
 ## <a name="how-do-i-restore-a-user"></a>Como restaurar um usuário?
 
-Você pode restaurar usuários pesquisando por excluídos  na home page e escolhendo Usuários  Excluídos nos resultados ou indo para a página Usuários Excluídos da navegação à esquerda e escolhendo o usuário que você deseja restaurar.  [Ler artigo completo](../add-users/delete-a-user.md).
-  
-
+Você pode restaurar os  usuários pesquisando por excluídos na home page e escolhendo usuários excluídos nos resultados ou indo para a página **Usuários** excluídos da navegação à esquerda e escolhendo o usuário que você deseja restaurar.  [Ler artigo completo](../add-users/delete-a-user.md).

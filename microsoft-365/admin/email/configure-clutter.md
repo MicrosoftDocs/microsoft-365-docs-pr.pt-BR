@@ -19,26 +19,26 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
-description: 'Saiba como habilitar ou desabilitar o recurso Desorganização para todos ou usuários específicos em sua organização usando o Exchange PowerShell. '
-ms.openlocfilehash: 67267b0865dfcfd6c0ba66d59ce1d0d111d59325
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: 'Aprenda a habilitar ou desabilitar o recurso Clutter para todos ou usuários específicos em sua organização, usando o Exchange PowerShell. '
+ms.openlocfilehash: ac68893bc0aeea5ab214698c54524921e2b1921d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780272"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915897"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Configurar o Clutter para sua organização
 
 > [!TIP]
-> [A Caixa de Entrada](../setup/configure-focused-inbox.md) Focada substituirá o Clutter. Saiba mais: [atualização na Caixa de Entrada Focada e nossos planos para o Clutter](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
+> [A Caixa de Entrada Focada](../setup/configure-focused-inbox.md) substituirá o Clutter. Saiba mais: [Atualizar a Caixa de Entrada Focada e nossos planos para o Clutter](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
   
-Como administrador, você pode ter que gerenciar o recurso Desorganização no Microsoft 365. Para ativar/desativar o recurso Desorganização para usuários em sua organização, você deve usar o Exchange PowerShell. (Os indivíduos podem a ativar/desativar usando estas instruções: [Desativar/ativar o Clutter no Outlook.](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
+Como administrador, talvez seja preciso gerenciar o recurso Clutter no Microsoft 365. Para ativar/desativar o recurso Clutter para usuários em sua organização, você deve usar o Exchange PowerShell. (Os indivíduos podem a turn-lo/off usando estas instruções: [Desativar/ativar o Clutter no Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c).
   
-Confira o [uso do PowerShell com o Exchange Online](https://go.microsoft.com/fwlink/?LinkID=402831) e [conecte-se ao PowerShell](https://go.microsoft.com/fwlink/?LinkID=722415) do Exchange Online para obter detalhes sobre como usar o Exchange PowerShell. Você precisa ter uma conta que tenha pelo menos a função de administrador do Serviço do Exchange e a capacidade de se conectar ao Exchange Online com o PowerShell. 
+Confira Usando [o PowerShell com o Exchange Online e](/powershell/exchange/exchange-online-powershell) [Conecte-se ao PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online para obter detalhes sobre como usar o Exchange PowerShell. Você precisa ter uma conta que tenha pelo menos a função de administrador do Exchange Service e a capacidade de se conectar ao Exchange Online com o PowerShell. 
   
 ## <a name="turn-clutter-on-using-exchange-powershell"></a>Ativar o Clutter usando o Exchange PowerShell
 
-Você pode habilitar o Email Desorganizou manualmente para uma caixa de correio executando o cmdlet [Set-Clutter.](https://go.microsoft.com/fwlink/?LinkID=834446) Você também pode exibir as configurações de Email de Email de sua organização executando o cmdlet [Get-Clutter.](https://go.microsoft.com/fwlink/?LinkID=834759) 
+Você pode habilitar o Clutter manualmente para uma caixa de correio executando o cmdlet [Set-Clutter.](/powershell/module/exchange/set-clutter) Você também pode exibir as configurações do Clutter para caixas de correio em sua organização executando o cmdlet [Get-Clutter.](/powershell/module/exchange/get-clutter) 
   
 Ativar o Clutter para um único usuário chamado Allie Bellew
     
@@ -47,54 +47,54 @@ Ativar o Clutter para um único usuário chamado Allie Bellew
 
 ## <a name="turn-clutter-off-using-exchange-powershell"></a>Desativar o Clutter usando o Exchange PowerShell
 
-Você pode desabilitar o Email Desorganizar manualmente para uma caixa de correio executando o cmdlet [Set-Clutter.](https://go.microsoft.com/fwlink/?LinkID=834446) Você também pode exibir as **configurações** de Email de Email de sua organização executando o cmdlet [Get-Clutter.](https://go.microsoft.com/fwlink/?LinkID=834759) 
+Você pode desabilitar o Clutter manualmente para uma caixa de correio executando o cmdlet [Set-Clutter.](/powershell/module/exchange/set-clutter) Você também pode exibir **as configurações do Clutter** para caixas de correio em sua organização executando o cmdlet [Get-Clutter.](/powershell/module/exchange/get-clutter) 
   
-Desativar o Clutter para uma única usuária chamada Allie Bellew:
+Desativar o Clutter para um único usuário chamado Allie Bellew:
     
 `Set-Clutter -Identity "Allie Bellew" -Enable $false`
 
-Se você usar o PowerShell para criar seus usuários em massa, precisará executar [o Set-Clutter](https://go.microsoft.com/fwlink/?LinkID=834446) na caixa de correio de cada usuário para gerenciar o Clutter. 
+Se você usar o PowerShell para criar seus usuários em massa, precisará executar [Set-Clutter](/powershell/module/exchange/set-clutter) na caixa de correio de cada usuário para gerenciar o Clutter. 
   
-## <a name="when-does-the-clutter-onoff-switch-appear-to-users-in-outlook-on-the-web"></a>Quando a opção Desorganização é exibida para os usuários no Outlook na Web?
+## <a name="when-does-the-clutter-onoff-switch-appear-to-users-in-outlook-on-the-web"></a>Quando a opção Clutter on/off aparece para os usuários no Outlook na Web?
 <a name="bkmk_onoff"> </a>
 
-Como administrador, você pode reabilitar o Clutter usando o Exchange PowerShell. Quando isso for feito, a Caixa de Entrada Focada será desligada e o Clutter estará ativo novamente. 
+Como administrador, você pode habilitar o Clutter usando o Exchange PowerShell. Depois que isso for feito, a Caixa de Entrada Focalizada será desligada e o Clutter estará ativo novamente. 
   
  **Se você estiver usando o Outlook na Web com uma assinatura do Microsoft 365 Business Premium:**
   
-- Se o usuário atualmente tiver o Clutter habilitado: 
+- Se o usuário tiver Atualmente o Clutter habilitado: 
     
-  - As configurações de desorganização são exibidas
+  - As configurações de clutter são exibidas
     
 - Se o usuário atualmente tiver a Caixa de Entrada Focada habilitada: 
     
-  - As configurações de desorganização não serão exibidas
+  - As configurações de clutter não serão exibidas
     
-- Se nem o Clutter ou a Caixa de Entrada Focada estiver habilitada: 
+- Se o Clutter ou a Caixa de Entrada Focalizada não estiver habilitada: 
     
-  - O Email e a Caixa de Entrada Focada aparecem como opções nas Configurações de Email do usuário
+  - Tanto o Clutter quanto a Caixa de Entrada Focalizada aparecem como opções nas Configurações de Email do usuário
     
  **Se você estiver usando Outlook.com:**
   
-- Se o usuário atualmente tiver o Clutter habilitado: 
+- Se o usuário tiver Atualmente o Clutter habilitado: 
     
-  - As configurações de desorganização são exibidas
+  - As configurações de clutter são exibidas
     
 - Se o usuário atualmente tiver a Caixa de Entrada Focada habilitada: 
     
-  - As configurações de desorganização não serão exibidas
+  - As configurações de clutter não serão exibidas
     
-- Se nem o Clutter ou a Caixa de Entrada Focada estiver habilitada: 
+- Se o Clutter ou a Caixa de Entrada Focalizada não estiver habilitada: 
     
-  - O Email e a Caixa de Entrada Focada aparecem como opções nas Configurações de Email do usuário
+  - Tanto o Clutter quanto a Caixa de Entrada Focalizada aparecem como opções nas Configurações de Email do usuário
     
-- Se o usuário tiver habilitado a Caixa de Entrada Focada em algum momento no passado:
+- Se o usuário habilitar a Caixa de Entrada Focada em algum ponto do passado:
     
-  - As configurações de desorganização nunca serão exibidas
+  - As configurações de clutter nunca serão exibidas
     
     Caso contrário, 
     
-  - As configurações de desorganização serão exibidas
+  - As configurações de clutter serão exibidas
     
 ## <a name="related-articles"></a>Artigos relacionados
 <a name="bkmk_onoff"> </a>
@@ -104,5 +104,3 @@ Como administrador, você pode reabilitar o Clutter usando o Exchange PowerShell
 [Usar o Clutter para classificar mensagens de baixa prioridade no OWA](https://support.microsoft.com/office/fe4d64ca-bf73-48f1-91b4-9a659e008bce)
     
 [Desativar o Clutter no Outlook](https://support.microsoft.com/office/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c)
-    
-

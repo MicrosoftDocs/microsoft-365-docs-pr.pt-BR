@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba mais sobre como usar os complementos centralizados para implantar os complementos para usuários e grupos em sua organização.
-ms.openlocfilehash: b888c0f329e3f1f36f5aa566df7efbab07cd1f5f
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: 0750b6c9b91bc5cbd67d227fadb304bfc6cf7537
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509129"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50915393"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -40,7 +40,7 @@ Os complementos do Office ajudam você a personalizar seus documentos e simplifi
 
 Depois que um administrador implanta os complementos para usuários em uma organização, o administrador pode desativar ou ativar os complementos, editar, excluir e gerenciar o acesso aos complementos.
 
-Para obter mais informações sobre como instalar os complementos do centro de administração, consulte [Deploy add-ins in the admin center](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins).
+Para obter mais informações sobre como instalar os complementos do centro de administração, consulte [Deploy add-ins in the admin center](./manage-deployment-of-add-ins.md).
   
 ## <a name="add-in-states"></a>Estados de suplementos
 
@@ -87,7 +87,7 @@ Após a implantação, os administradores também podem gerenciar o acesso do us
 ## <a name="prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook"></a>Impedir downloads de complementos ao desligar a Office Store em todos os clientes (exceto o Outlook)
 
 > [!NOTE]
-> A instalação do add-in do Outlook é gerenciada por um [processo diferente.](https://technet.microsoft.com/library/jj943754%28v=exchg.150%29.aspx)
+> A instalação do add-in do Outlook é gerenciada por um [processo diferente.](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins)
 
 Como uma organização, você pode querer impedir o download de novos complementos do Office na Office Store. Isso pode ser usado em conjunto com a Implantação Centralizada para garantir que apenas os complementos aprovados pela organização sejam implantados para usuários em sua organização.
   
@@ -131,10 +131,10 @@ O suporte para desligar a Office Store está disponível nas seguintes versões:
     
 Isso não impede que um administrador use a Implantação Centralizada para atribuir um complemento da Office Store.
   
-Para impedir que um usuário entre com uma conta da Microsoft, você pode restringir o logon para usar apenas a conta organizacional. Para obter mais informações, [consulte Identidade, autenticação e autorização no Office 2016](https://technet.microsoft.com/library/jj683102%28v=office.16%29.aspx).  
+Para impedir que um usuário entre com uma conta da Microsoft, você pode restringir o logon para usar apenas a conta organizacional. Para obter mais informações, [consulte Identidade, autenticação e autorização no Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).  
 
 > [!NOTE]
-> Impedir que os usuários acessem o office store também os impedirá de [fazer sideload de complementos](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)do Office para teste.
+> Impedir que os usuários acessem o office store também os impedirá de [fazer sideload de complementos](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)do Office para teste.
 
 ## <a name="more-about-the-end-user-experience-with-add-ins"></a>Mais sobre a experiência do usuário final com os complementos
 
@@ -162,12 +162,12 @@ Se o complemento implantado não dá suporte a comandos de add-in ou se você qu
 
 ## <a name="learn-more"></a>Saiba mais
 
-[Implantar suplementos no centro de administração](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins)
+[Implantar suplementos no centro de administração](./manage-deployment-of-add-ins.md)
 
-Saiba mais sobre a criação e a criação [de Complementos do Office.](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+Saiba mais sobre a criação e a criação [de Complementos do Office.](/office/dev/add-ins/overview/office-add-ins)
   
-[Use cmdlets do PowerShell de](https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)Implantação Centralizada para gerenciar os complementos .
+[Use cmdlets do PowerShell de](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)Implantação Centralizada para gerenciar os complementos .
   
-[Solução de problemas: o usuário não está vendo os complementos](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)
+[Solução de problemas: o usuário não está vendo os complementos](/office365/troubleshoot/access-management/user-not-seeing-add-ins)
 
-[Secundárias e aquisição de complementos da Microsoft Store](https://docs.microsoft.com/microsoft-365/admin/manage/minors-and-acquiring-addins-from-the-store)
+[Secundárias e aquisição de complementos da Microsoft Store](./minors-and-acquiring-addins-from-the-store.md)
