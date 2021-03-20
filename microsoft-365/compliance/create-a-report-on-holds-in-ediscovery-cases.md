@@ -19,37 +19,37 @@ search.appverid:
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba como gerar um relatório que contenha informações sobre todas as retém associadas a ocorrências de Descobertas e Descobertas.
-ms.openlocfilehash: 35e432104e7c1358887eb89ae96b9bb0d1d12a0f
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+description: Saiba como gerar um relatório que contém informações sobre todas as ressarcições associadas a casos de Descoberta e.
+ms.openlocfilehash: 04282f6f2481d892fa16d685936efeec55feae77
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546973"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908405"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases"></a>Criar um relatório sobre retenções em ocorrências de Descoberta eletrônica
 
-O script neste artigo permite que os administradores de Descobertas e Gerentes de Descobertas De eDiscovery gerem um relatório que contém informações sobre todas as reações associadas a ocorrências de Descoberta e No centro de conformidade no Office 365 ou no Microsoft 365. O relatório contém informações como o nome da ocorrência à que uma isenção está associada, os locais de conteúdo que são colocados em espera e se a isenção é baseada em consulta. Se houver casos que não tenham retém, o script criará um relatório adicional com uma lista de casos sem retém.
+O script neste artigo permite que os administradores de Descobertas e Descobertas Públicas gerenciem um relatório que contém informações sobre todas as resvasões associadas a casos de Descoberta eDiscovery no centro de conformidade no Office 365 ou no Microsoft 365. O relatório contém informações como o nome do caso ao que uma hold está associada, os locais de conteúdo que são colocados em espera e se a espera é baseada em consulta. Se houver casos que não tenham qualquer ressução, o script criará um relatório adicional com uma lista de casos sem ressál.
 
-Consulte a [seção Mais](#more-information) informações para obter uma descrição detalhada das informações incluídas no relatório.
+Consulte a [seção Mais informações](#more-information) para obter uma descrição detalhada das informações incluídas no relatório.
 
 ## <a name="admin-requirements-and-script-information"></a>Requisitos de administrador e informações de script
 
-- Para gerar um relatório sobre todas as ocorrências de Descobertas Na sua organização, você precisa ser Um Administrador de Descobertas Na sua organização. Se você for um Gerente de Descoberta eDiscovery, o relatório incluirá apenas informações sobre os casos que você pode acessar. Para obter mais informações sobre permissões de Descoberta eDiscovery, consulte [Assign eDiscovery permissions](assign-ediscovery-permissions.md).
+- Para gerar um relatório sobre todos os casos de Descoberta e Descoberta Na sua organização, você precisa ser um Administrador de Descoberta De eDiscovery em sua organização. Se você for um Gerente de Descoberta De eDiscovery, o relatório incluirá apenas informações sobre os casos que você pode acessar. Para obter mais informações sobre permissões de Descoberta e, consulte [Assign eDiscovery permissions](assign-ediscovery-permissions.md).
 
-- O script neste artigo tem tratamento mínimo de erros. O objetivo principal é criar rapidamente um relatório sobre as isenções que estão associadas aos casos de Descoberta eDiscovery em sua organização.
+- O script deste artigo tem tratamento mínimo de erros. O objetivo principal é criar rapidamente um relatório sobre os ressarcições associados aos casos de Descoberta e Na organização.
 
 - Os scripts de exemplo fornecidos neste tópico não são compatíveis com nenhum serviço ou programa de suporte padrão da Microsoft. Os scripts de exemplo são fornecidos COMO ESTÃO sem qualquer tipo de garantia. A Microsoft também se isenta de todas as garantias implícitas, incluindo sem limitações quaisquer garantias aplicáveis de padrões de comercialização ou de adequação a uma finalidade específica. Todos os riscos decorrentes do uso ou da execução da documentação ou scripts de exemplo serão de sua responsabilidade. De modo algum a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou veiculação dos scripts serão considerados responsáveis por quaisquer danos (incluindo sem limitações danos por perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas pecuniárias) resultantes do uso ou da incapacidade de uso da documentação ou scripts de exemplo, mesmo que a Microsoft tenha sido alertada sobre a possibilidade de tais danos.
 
-## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>Etapa 1: Conectar-se ao PowerShell do Centro de Conformidade & segurança
+## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>Etapa 1: Conectar-se ao Centro de Conformidade & Segurança do PowerShell
 
-A primeira etapa é conectar-se ao PowerShell do Centro de & Conformidade e Segurança da sua organização. Para obter instruções passo a passo, confira [Conectar-se ao Centro de Segurança e Conformidade no PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+A primeira etapa é conectar-se ao Centro de Conformidade & Segurança do PowerShell para sua organização. Para obter instruções passo a passo, confira [Conectar-se ao Centro de Segurança e Conformidade no PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
-## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>Etapa 2: Executar o script para relatar resções associadas a casos de Descoberta
+## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>Etapa 2: executar o script para relatar sobre ressarcições associadas a casos de Descoberta e
 
-Depois de & se conectar ao PowerShell do Centro de Conformidade e Segurança, a próxima etapa é criar e executar o script que coleta informações sobre os casos de Descoberta eDiscovery em sua organização.
+Depois de se conectar ao Centro de Conformidade & Segurança do PowerShell, a próxima etapa é criar e executar o script que coleta informações sobre os casos de Descoberta Digital em sua organização.
 
-1. Salve o texto a seguir em um arquivo de script do Windows PowerShell usando um sufixo de nome de arquivo .ps1; por exemplo, CaseHoldsReport.ps1.
+1. Salve o texto a seguir em um arquivo Windows PowerShell script usando um sufixo de nome de arquivo de .ps1; por exemplo, CaseHoldsReport.ps1.
 
    ```powershell
    #script begin
@@ -139,7 +139,7 @@ Depois de & se conectar ao PowerShell do Centro de Conformidade e Segurança, a 
    #script end
    ```
 
-2. Na sessão do Windows PowerShell aberta na Etapa 1, vá para a pasta onde você salvou o script.
+2. Na sessão Windows PowerShell aberta na Etapa 1, vá para a pasta onde você salvou o script.
 
 3. Execute o script; por exemplo:
 
@@ -147,41 +147,41 @@ Depois de & se conectar ao PowerShell do Centro de Conformidade e Segurança, a 
    .\CaseHoldsReport.ps1
    ```
 
-   O script solicitará uma pasta de destino para salvar o relatório.
+   O script solicitará que uma pasta de destino salve o relatório.
 
-4. Digite o nome do caminho completo da pasta para salvar o relatório e pressione **Enter**.
+4. Digite o nome completo do caminho da pasta para salvar o relatório e pressione **Enter**.
 
    > [!TIP]
    > Para salvar o relatório na mesma pasta em que o script está localizado, digite um ponto (".") quando solicitado a uma pasta de destino. Para salvar o relatório em uma subpasta na pasta onde o script está localizado, basta digitar o nome da subpasta.
 
-   O script começa a coletar informações sobre todos os casos de Descoberta eDiscovery em sua organização. Não acesse o arquivo de relatório enquanto o script estiver em execução. Depois que o script for concluído, uma mensagem de confirmação será exibida na sessão do Windows PowerShell. Depois que essa mensagem for exibida, você poderá acessar o relatório na pasta especificada na Etapa 4. O nome do arquivo para o relatório é `CaseHoldsReport<DateTimeStamp>.csv` .
+   O script começa a coletar informações sobre todos os casos de Descoberta eDiscovery em sua organização. Não acesse o arquivo de relatório enquanto o script estiver em execução. Depois que o script for concluído, uma mensagem de confirmação será exibida na sessão Windows PowerShell de confirmação. Depois que essa mensagem for exibida, você poderá acessar o relatório na pasta especificada na Etapa 4. O nome do arquivo do relatório é `CaseHoldsReport<DateTimeStamp>.csv` .
 
-   Além disso, o script também cria um relatório com uma lista de casos que não têm retém. O nome do arquivo para este relatório é `CaseswithNoHolds<DateTimeStamp>.csv` .
+   Em termos adicionais, o script também cria um relatório com uma lista de casos que não têm nenhuma ressalção. O nome do arquivo para este relatório é `CaseswithNoHolds<DateTimeStamp>.csv` .
 
-   Aqui está um exemplo de execução do script CaseHoldsReport.ps1 script.
+   Aqui está um exemplo de execução do CaseHoldsReport.ps1 script.
 
    ![A saída após a execução do CaseHoldsReport.ps1 script](../media/7d312ed5-505e-4ec5-8f06-3571e3524a1a.png)
 
 ## <a name="more-information"></a>Mais informações
 
-O relatório de ocorrências criado quando você executar o script neste artigo contém as seguintes informações sobre cada espera. Conforme explicado anteriormente, você precisa ser um Administrador de Descobertas e Para retornar informações sobre todas as retém em sua organização. Para obter mais informações sobre retém de caso, consulte [ocorrências de Descoberta eDiscovery](ediscovery-cases.md).
+O relatório de caso contém o relatório criado quando você executar o script neste artigo contém as seguintes informações sobre cada ressução. Como explicado anteriormente, você precisa ser um Administrador de Descoberta De e Para retornar informações para todos os ressarce em sua organização. Para obter mais informações sobre os casos de segurança, consulte [eDiscovery cases](./get-started-core-ediscovery.md).
 
-- O nome da isenção e o nome da ocorrência de Descoberta e à que a isenção está associada.
+- O nome da isenção e o nome do caso de Descoberta E que a responsabilidade está associada.
 
 - Se o caso de Descoberta eDiscovery está ativo ou fechado.
 
-- Se a espera está habilitada ou desabilitada ou não.
+- Se a espera está habilitada ou desabilitada.
 
-- Os membros da ocorrência de Descoberta e à que a isenção está associada. Os membros da ocorrência podem exibir ou gerenciar uma ocorrência, dependendo das permissões de Descoberta eDiscovery que eles foram atribuídos.
+- Os membros do caso de Descoberta e que a responsabilidade está associada. Os membros do caso podem exibir ou gerenciar um caso, dependendo das permissões de Descoberta De eDiscover que foram atribuídas.
 
 - A hora e a data em que o caso foi criado.
 
-- Se um caso for fechado, a pessoa que o fechou e a hora e a data em que foi fechado.
+- Se um caso for fechado, a pessoa que o fechou e a hora e a data foram fechadas.
 
 - As caixas de correio do Exchange e locais de sites do SharePoint que estão em espera.
 
-- Se a isenção for baseada em consulta, a sintaxe da consulta.
+- Se a espera for baseada em consulta, a sintaxe de consulta.
 
 - A hora e a data em que a espera foi criada e a pessoa que a criou.
 
-- A hora e a data em que a espera foi alterada pela última vez e a pessoa que o alterou.
+- A hora e a data em que a espera foi alterada pela última vez e a pessoa que a alterou.

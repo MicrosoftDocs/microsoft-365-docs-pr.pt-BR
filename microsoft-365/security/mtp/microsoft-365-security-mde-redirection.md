@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 626bc9950512438bfa43e6500adf72940ddcbfec
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: bdad55a98dba868d45ecea383ba379108ee5305a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727560"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906753"
 ---
 # <a name="redirecting-accounts-from-microsoft-defender-for-endpoint-to-the-microsoft-365-security-center"></a>Redirecionando contas do Microsoft Defender para o Ponto de Extremidade para o centro de segurança do Microsoft 365
 
@@ -42,7 +42,7 @@ Em alinhamento com a abordagem entre domínios da Microsoft para proteção cont
 Este guia explica como rotear contas para o centro de segurança do Microsoft 365 habilitando o redirecionamento automático do antigo portal do Microsoft Defender para Ponto de Extremidade (securitycenter.windows.com ou securitycenter.microsoft.com), para o portal do Centro de Segurança do Microsoft 365 (security.microsoft.com).
 
 > [!NOTE]
-> O Microsoft Defender for Endpoint no centro de segurança do Microsoft 365 dá suporte à concessão de acesso a [MSSPs (provedores](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) de serviços de segurança gerenciados) da mesma forma que o acesso é concedido no centro de segurança do [Microsoft Defender.](https://docs.microsoft.com/microsoft-365/security/mtp/mssp-access)
+> O Microsoft Defender for Endpoint no centro de segurança do Microsoft 365 dá suporte à concessão de acesso a [MSSPs (provedores](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) de serviços de segurança gerenciados) da mesma forma que o acesso é concedido no centro de segurança do [Microsoft Defender.](./mssp-access.md)
 
 ## <a name="what-to-expect"></a>O que esperar
 Depois que o redirecionamento automático for habilitado, as contas que acessam o antigo portal do Microsoft Defender para Ponto de Extremidade no securitycenter.windows.com ou securitycenter.microsoft.com, serão roteados automaticamente para o portal do Centro de Segurança do Microsoft 365 em security.microsoft.com.

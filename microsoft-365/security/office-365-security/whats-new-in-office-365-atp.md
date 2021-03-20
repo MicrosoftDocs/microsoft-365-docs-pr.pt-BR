@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7b6175f507f54adf357e40ea44c39f5e495a1b14
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0e2885f4db67f1508f4e7a3f354e11fb361265a3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454484"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907947"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades no Microsoft Defender para Office 365
 
@@ -100,7 +100,7 @@ Este artigo lista os novos recursos na versão mais recente do Microsoft Defende
 
 - [Empregar recursos automatizados de investigação e resposta](automated-investigation-response-office.md) (Microsoft Defender para Office 365 Plano 2)
 
-- [Integrar-se ao Microsoft Defender para Eventos](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) automatizados de investigação e resposta do Office 365 usando a API de Atividade de Gerenciamento do Office 365 (Defender para Office 365 Plano 2)
+- [Integrar-se ao Microsoft Defender para Eventos](/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) automatizados de investigação e resposta do Office 365 usando a API de Atividade de Gerenciamento do Office 365 (Defender para Office 365 Plano 2)
 
 - [Exibir os headers de email e baixar o corpo do email](investigate-malicious-email-that-was-delivered.md) (Microsoft Defender para Office 365 Plano 1 ou Plano 2)
 
@@ -124,4 +124,4 @@ Você sabia que o Microsoft Defender para Office 365 está disponível em dois p
 
 [Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
-[Descrição do serviço do Microsoft Defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+[Descrição do serviço do Microsoft Defender para Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)

@@ -1,6 +1,6 @@
 ---
-title: Novidades no Microsoft Secure Score
-description: Descreve as novas alterações que aconteceram com o Microsoft Secure Score no centro de segurança do Microsoft 365.
+title: Novidades na Pontuação Segura da Microsoft
+description: Descreve quais novas alterações aconteceram com a Pontuação Segura da Microsoft no centro de segurança do Microsoft 365.
 keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, microsoft 365 security center
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -21,96 +21,96 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 520a5627d2cd280f28c4e2c3db0e565640a1eace
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 7d24d010f7c16d6db0fd4f9e4817768529ed29d1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289156"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906741"
 ---
-# <a name="whats-new-in-microsoft-secure-score"></a>Novidades no Microsoft Secure Score
+# <a name="whats-new-in-microsoft-secure-score"></a>Novidades na Pontuação Segura da Microsoft
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Para tornar o Microsoft Secure Score um representante melhor da postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, confira [O que está chegando no Microsoft Secure Score?](microsoft-secure-score-whats-coming.md)
+Para tornar a Pontuação Segura da Microsoft um representante melhor da sua postura de segurança, fizemos algumas alterações. Para saber mais sobre as alterações planejadas, consulte [O que está por vir na Pontuação Segura da Microsoft?](microsoft-secure-score-whats-coming.md)
 
-O Microsoft Secure Score pode ser encontrado https://security.microsoft.com/securescore no centro de segurança do Microsoft [365.](overview-security-center.md)
+A Pontuação Segura da Microsoft pode ser encontrada no centro de segurança https://security.microsoft.com/securescore [do Microsoft 365.](overview-security-center.md)
     
 ## <a name="february-2021"></a>Fevereiro de 2021
 
 ### <a name="compatibility-with-graph-api"></a>Compatibilidade com a API do Graph
 
-As recomendações da Pontuação de Segurança da Microsoft fornecidas por meio da API do Graph terão o mesmo peso que as recomendações que você vê atualmente na central de segurança do Microsoft 365.
+As recomendações de Pontuação Segura da Microsoft entregues por meio da API do Graph serão ponderadas da mesma forma que as recomendações que você vê no centro de segurança do Microsoft 365.
 
 ## <a name="january-2021"></a>Janeiro de 2021
 
-### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>Foi adicionada nossa primeira recomendação de segurança para o Microsoft Teams
+### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>Adicionada nossa primeira recomendação de segurança para o Microsoft Teams
 
-Os clientes do Microsoft Teams verão "Restringir usuários anônimos de ingressar em reuniões" como uma nova ação de melhoria no Secure Score.
+Os clientes do Microsoft Teams verão "Restringir usuários anônimos de participar de reuniões" como uma nova ação de melhoria na Pontuação Segura.
 
 ## <a name="december-2020"></a>Dezembro de 2020
 
-### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Seis ações de melhoria relacionadas a contas adicionadas ao Microsoft Defender para Ponto de Extremidade (anteriormente Microsoft Defender ATP):
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas seis ações de melhoria relacionadas a contas para o Microsoft Defender para Ponto de Extremidade (anteriormente Microsoft Defender ATP):
 
 - Definir 'Tamanho mínimo da senha' como '14 ou mais caracteres'
 - Definir 'Impor histórico de senhas' como '24 ou mais senhas)'
 - Definir 'Idade máxima da senha' como '60 ou menos dias, mas não 0'
 - Definir 'Idade mínima da senha' como '1 ou mais dias''
 - Desabilitar a conta de Administrador integrado
-- Desabilitar a conta de convidado integrado
+- Desabilitar a conta de convidado criada
 
 ## <a name="november-2020"></a>Novembro de 2020
 
-### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>Foi removida a capacidade de criar tíquetes do ServiceNow por meio do Secure Score 
+### <a name="removed-the-ability-to-create-servicenow-tickets-through-secure-score"></a>Removida a capacidade de criar tíquetes serviceNow por meio da Pontuação Segura 
 
-A capacidade de criar tíquetes do ServiceNow por meio da Classificação de Segurança **indo para Compartilhar > ServiceNow** não está mais disponível. Agradecemos por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
+A capacidade de criar tíquetes serviceNow por meio da Pontuação Segura indo **para o Share > ServiceNow** não está mais disponível. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
-### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Três ações de melhoria relacionadas a serviços adicionadas ao Microsoft Defender para Ponto de Extremidade (anteriormente Microsoft Defender ATP):
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Adicionadas três ações de melhoria relacionadas a serviços para o Microsoft Defender para Ponto de Extremidade (anteriormente Microsoft Defender ATP):
 
-- Corrigir caminho de serviço sem aspas para serviços do Windows
+- Corrigir o caminho de serviço não citado para serviços do Windows
 - Alterar o caminho executável do serviço para um local protegido comum
 - Alterar a conta de serviço para evitar senha armazenada em cache no Registro do Windows
 
 ## <a name="october-2020"></a>Outubro de 2020
 
-### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Remover ação de melhoria relacionada ao Microsoft Defender para Ponto de Extremidade
+### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Remover a ação de melhoria relacionada ao Microsoft Defender para Ponto de Extremidade
 
-- Definir a verificação de conteúdo da Web de aplicativos da Windows Store do Microsoft Defender SmartScreen para avisar
+- Definir a verificação de conteúdo do aplicativo Web do Microsoft Defender SmartScreen da Windows Store para avisar
 
 ## <a name="august-2020"></a>Agosto de 2020
 
-### <a name="updated-improvement-action-for-azure-active-directory"></a>Ação de melhoria atualizada para o Azure Active Directory
+### <a name="updated-improvement-action-for-azure-active-directory"></a>Ação de aperfeiçoamento atualizada para o Azure Active Directory
 
-- Habilitar política para bloquear autenticação herdado
+- Habilitar a política para bloquear a autenticação herdado
 
-## <a name="incompatibility-with-identity-secure-score"></a>Incompatibilidade com a Pontuação de Segurança de Identidade
+## <a name="incompatibility-with-identity-secure-score"></a>Incompatibilidade com a Pontuação Segura de Identidade
 
-Na versão recente do Microsoft Secure Score, um modelo de pontuação aprimorado foi lançado. Essas alterações permitem uma visão mais flexível e precisa da postura de segurança. No entanto, essas atualizações tornou o Microsoft Secure Score temporariamente incompatível com o Identity Secure Score.
+Na versão recente do Microsoft Secure Score, um modelo de pontuação aprimorado foi lançado. Essas alterações permitem uma visão mais flexível e precisa de sua postura de segurança. No entanto, essas atualizações fizeram a Pontuação Segura da Microsoft temporariamente incompatível com a Pontuação Segura de Identidade.
 
-No tempo, a Pontuação de Segurança de Identidade adotará o novo modelo de pontuação. Até lá, os clientes verão diferenças nas pontuações relatadas pelo Microsoft Secure Score e pela Identity Secure Score. Lamentamos qualquer inconveniente que isso cause e estamos trabalhando para garantir que essas experiências sejam mais compatíveis no futuro.
+Com o tempo, a Pontuação Segura de Identidade adotará o novo modelo de pontuação. Até lá, os clientes verão diferenças nas pontuações relatadas pela Pontuação Segura da Microsoft e na Pontuação de Segurança de Identidade. Pedimos desculpas por qualquer inconveniente que isso causa e estamos trabalhando para garantir que essas experiências sejam mais compatíveis no futuro.
 
 ## <a name="updated-improvement-actions"></a>Ações de melhoria atualizadas
 
-- Adicionadas ações de aperfeiçoamento do Azure Active Directory
+- Adicionadas ações de melhoria do Azure Active Directory
 - Adicionadas ações de melhoria de identidade do Microsoft Defender
-- Suporte para o Microsoft Defender para Endpoint Threat & de segurança de Gerenciamento de [Vulnerabilidades](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
-    - Todas as recomendações de segurança lançadas fornecidas pelo TVM agora estão disponíveis
+- Suporte para o Microsoft Defender para Ameaças [de Ponto de Extremidade & recomendações](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) de segurança do Gerenciamento de Vulnerabilidades
+    - Todas as recomendações de segurança lançadas fornecidas pela TVM agora estão disponíveis
 
 ## <a name="updated-interface-and-functionality"></a>Interface e funcionalidade atualizadas
 
-* Todas as novas métricas e exibições de tendências para CISO e discussões em nível de liderança
-* Novas maneiras de acompanhar e fazer o comparativo de sua pontuação
-* Melhor rastreamento e compreensão para regressões de pontuação
+* Todas as novas métricas e exibições de tendências para discussões de nível de líder e CISO
+* Novas maneiras de rastrear e fazer um benchmark de sua pontuação
+* Melhor controle e compreensão para regressões de pontuação
 * Filtrar, marcar, pesquisar e agrupar suas ações de melhoria
-* Gerencie suas metas futuras usando projeções de pontuação e ações planejadas
-* E muito mais!
+* Gerenciar para suas metas futuras usando projeções de pontuação e ações planejadas
+* E mais!
 
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir de você
 
-Se você tiver algum problema, deixe-nos saber postando na comunidade segurança, privacidade [& conformidade.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) Estamos monitorando a comunidade e forneceremos ajuda.
+Se você tiver algum problema, nos avise postando na comunidade [Segurança, Privacidade & Conformidade.](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) Estamos monitorando a comunidade e forneceremos ajuda.
 
 ## <a name="related-resources"></a>Recursos relacionados
 
 - [Avaliar sua postura de segurança](microsoft-secure-score-improvement-actions.md)
-- [Acompanhar o histórico do Microsoft Secure Score e cumprir as metas](microsoft-secure-score-history-metrics-trends.md)
+- [Rastrear seu histórico de Pontuação Segura da Microsoft e cumprir metas](microsoft-secure-score-history-metrics-trends.md)
 - [O que estar por vir.](microsoft-secure-score-whats-coming.md)

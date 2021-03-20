@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Saiba como configurar a colaboração de conteúdo seguro no Teams para proteger seus dados com base em sua sensibilidade.
-ms.openlocfilehash: c7881328da2ef78d043b12db29f50b961d79b2cb
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 88cb3557f1c150a9c9fd68ba362fcc9c424aa73a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423982"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906463"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configure a colaboração segura com o Microsoft 365
 
@@ -67,7 +67,7 @@ Para configurar a colaboração segura, use esses recursos e recursos do Microso
 | Produto ou componente | Capcidade ou recurso | Licenciamento |
 |:-------|:-----|:-------|
 | Microsoft Defender para Office 365 | Anexos seguros para SPO, OneDrive e Teams; Documentos seguros; Links seguros para o Teams    | Microsoft 365 E1, E3 e E5 |
-| Microsoft Office SharePoint Online    | Políticas de compartilhamento de arquivos e sites, permissões de compartilhamento de sites, links de compartilhamento, solicitações do Access, configurações de compartilhamento de convidados do site | Microsoft 365 E1, E3 e E5 |
+| SharePoint    | Políticas de compartilhamento de arquivos e sites, permissões de compartilhamento de sites, links de compartilhamento, solicitações do Access, configurações de compartilhamento de convidados do site | Microsoft 365 E1, E3 e E5 |
 | Microsoft Teams   | Acesso de convidados, equipes privadas, canais privados | Microsoft 365 E1, E3 e E5 |
 | Conformidade com o Microsoft 365  | Rótulos de confidencialidade    | Microsoft 365 E3 e E5 |
 
@@ -123,7 +123,7 @@ Dependendo da sensibilidade das informações que estão sendo compartilhadas, v
 
 - [Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados](best-practices-anonymous-sharing.md)
 - [Limitar a exposição acidental a arquivos ao compartilhar arquivos com pessoas de fora da sua organização](share-limit-accidental-exposure.md)
-- [Criar um ambiente seguro de compartilhamento de convidados](create-secure-guest-sharing-environment.md)
+- [Criar um ambiente de compartilhamento de convidados seguro](create-secure-guest-sharing-environment.md)
 
 Se você tiver um projeto importante com uma organização parceira, poderá usar o Azure Entitlement Management para gerenciar os convidados dessa organização em uma equipe que você definiu para o projeto. Confira [Criar uma extranet B2B com convidados gerenciados](b2b-extranet.md) para obter detalhes.
 
@@ -140,16 +140,16 @@ Esses módulos de treinamento do Microsoft Learn podem ajudá-lo a aprender os r
 |![Ícone de treinamento de colaboração do Teams](../media/manage-team-collaboration-with-microsoft-teams.svg)|Gerenciar a colaboração em equipe com o Microsoft Teams apresenta os recursos e funções do Microsoft Teams, o ponto central para colaboração em equipe no Microsoft 365. Você aprenderá como usar o Teams para facilitar o trabalho em equipe e a comunicação em sua organização, tanto localmente quanto remoto, em uma ampla variedade de dispositivos — de desktops a tablets e telefones, aproveitando as vantagens de todas as funcionalidades avançadas dos aplicativos do Office 365. Você compreenderá como o Teams oferece um ambiente abrangente e flexível para colaboração entre aplicativos e dispositivos. Este caminho de aprendizagem ajuda você a se preparar para a certificação  Microsoft 365 Certified: Administrador Associado do Teams.<br><br>2 hr 17 min - Caminho de Aprendizagem - 5 Módulos|
 
 > [!div class="nextstepaction"]
-> [Iniciar >](https://docs.microsoft.com/learn/modules/m365-teams-collab-prepare-deployment/introduction/)
+> [Iniciar >](/learn/modules/m365-teams-collab-prepare-deployment/introduction/)
 
-#### <a name="sharepoint"></a>Microsoft Office SharePoint Online
+#### <a name="sharepoint"></a>SharePoint
 
 |Treinamento:|Colaborar com o SharePoint no Microsoft 365|
 |:---|:---|
 |![Ícone de treinamento do SharePoint](../media/collaborate-with-sharepoint-in-microsoft-365.svg)|O gerenciamento de conteúdo compartilhado com o Microsoft SharePoint apresenta os recursos e funcionalidades do SharePoint e como ele funciona com o Microsoft 365. Você aprenderá sobre os diferentes tipos de sites do SharePoint, inclusive sites agrupadores, além de proteção de informações, relatórios e monitoramento. Você também aprenderá a usar o compartilhamento de pastas e arquivos do SharePoint para otimizar a colaboração, como compartilhar arquivos externamente e como gerenciar sites do SharePoint no centro de administração do SharePoint. Este caminho de aprendizagem pode ajudar você a se preparar para a certificação Microsoft 365 Certified: Administrador de Trabalho em Equipe.<br><br>1 hr 14 min - Caminho de Aprendizagem - 4 Módulos|
 
 > [!div class="nextstepaction"]
-> [Iniciar >](https://docs.microsoft.com/learn/modules/m365-teams-sharepoint-plan-sharepoint/introduction/)
+> [Iniciar >](/learn/modules/m365-teams-sharepoint-plan-sharepoint/introduction/)
 
 #### <a name="information-protection"></a>Proteção de informações
 
@@ -158,7 +158,7 @@ Esses módulos de treinamento do Microsoft Learn podem ajudá-lo a aprender os r
 |![Ícone de treinamento de proteção de informações do Teams](../media/protect-enterprise-information-microsoft-365.svg)|Garantir a proteção e a segurança das informações da sua organização está mais difícil que nunca. O caminho de aprendizagem Proteger informações corporativas com o Microsoft 365 descreve como proteger as informações confidenciais contra compartilhamento excessivo acidental ou uso impróprio, como descobrir e classificar dados, como protegê-los com rótulos de confidencialidade e como monitorar e analisar suas informações confidenciais para proteger contra a perda. Esse caminho de aprendizado pode ajudá-lo a se preparar para o Microsoft 365 Certified: Security Administrator Associate e o Microsoft 365 Certified: Enterprise Administration Expert certifications..<br><br>1 hr - Caminho de Aprendizagem - 5 Módulos|
 
 > [!div class="nextstepaction"]
-> [Iniciar >](https://docs.microsoft.com/learn/modules/m365-security-info-overview/introduction/)
+> [Iniciar >](/learn/modules/m365-security-info-overview/introduction/)
 
 #### <a name="identity-and-access"></a>Identidade e acesso
 
@@ -167,13 +167,13 @@ Esses módulos de treinamento do Microsoft Learn podem ajudá-lo a aprender os r
 |![Ícone de treinamento de identidade e acesso](../media/protect-identity-and-access-with-microsoft-365.svg)|O caminho de aprendizagem de Identidade e Acesso abrange as últimas tecnologias de identidade e acesso, ferramentas para reforçar a autenticação e diretrizes de proteção de identidade dentro da sua organização. As tecnologias de identidade e acesso da Microsoft permitem proteger a identidade da sua organização, seja no local ou na nuvem, e capacita os usuários a trabalhar com segurança em qualquer local. Este caminho de aprendizagem pode ajudar você a se preparar para a certificação Microsoft 365 Certified: Administrador de Segurança Associado e Microsoft 365 Certified: Especialista em Administração Corporativa.<br><br>2 hr 52 min - Caminho de Aprendizagem - 6 Módulos|
 
 > [!div class="nextstepaction"]
-> [Iniciar >](https://docs.microsoft.com/learn/modules/m365-identity-overview/introduction/)
+> [Iniciar >](/learn/modules/m365-identity-overview/introduction/)
 
 ## <a name="training-for-end-users"></a>Treinamento para usuários finais
 
 Esses módulos de treinamento podem ajudar os usuários a usar o Teams, grupos e o SharePoint para colaboração no Microsoft 365.
 
-|Teams|Microsoft Office SharePoint Online|
+|Teams|SharePoint|
 |:---|:---|
 |![Configurar e personalizar o ícone de treinamento de equipe](../media/set-up-customize-team-training.png)<br>**[Configurar e personalizar sua equipe](https://support.microsoft.com/office/702a2977-e662-4038-bef5-bdf8ee47b17b)**|![Ícone de treinamento de compartilhamento e sincronização do SharePoint](../media/sharepoint-share-sync-training.png)<br>**[Compartilhar e sincronizar](https://support.microsoft.com/office/98cb2ff2-c27e-42ea-b055-c2d895f8a5de)**|
 |![Ícone de treinamento do Teams para carregar e encontrar arquivos](../media/smc-teams-upload-find-files-training.png)<br>**[Carregar e encontrar arquivos](https://support.microsoft.com/office/57b669db-678e-424e-b0a0-15d19215cb12)**||
@@ -205,8 +205,8 @@ Quando você estiver pronto para implantar essa solução, continue com estas et
 
 ## <a name="see-also"></a>Confira também
 
-[Documentação do Centro de segurança do Microsoft 365](https://docs.microsoft.com/microsoft-365/security)
+[Documentação do Centro de segurança do Microsoft 365](../security/index.yml)
 
-[Documentação de conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance)
+[Documentação de conformidade do Microsoft 365](../compliance/index.yml)
 
-[Bem-vindo ao Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
+[Bem-vindo ao Microsoft Teams](/MicrosoftTeams/Teams-overview)

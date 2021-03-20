@@ -22,12 +22,12 @@ ms.custom:
 description: Os administradores podem aprender sobre como a limpeza automática zero hora (ZAP) pode mover retroativamente mensagens entregues em uma caixa de correio do Exchange Online para a pasta Lixo Eletrônico ou quarentena que são encontradas retroativamente como spam ou phishing.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: be47d8dfda68bfb6819b6423542970c7768c6ffb
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b5744fdd4ce371f62fcb4b07a4cbcd003405c3db
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820253"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907960"
 ---
 # <a name="zero-hour-auto-purge-zap-in-exchange-online"></a>Limpeza automática zero hora (ZAP) no Exchange Online
 
@@ -121,4 +121,4 @@ O ZAP ainda funciona desde que a mensagem não tenha sido excluída, ou desde qu
 
 O ZAP não colocará em quarentena mensagens de caixas de correio em espera. O ZAP pode mover mensagens para a pasta Lixo Eletrônico com base na ação configurada para um veredito de spam ou phishing em políticas anti-spam.
 
-Para obter mais informações sobre as resdações no Exchange Online, consulte [In-Place Hold and Litigation Hold in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/in-place-and-litigation-holds).
+Para obter mais informações sobre as resdações no Exchange Online, consulte [In-Place Hold and Litigation Hold in Exchange Online](/Exchange/security-and-compliance/in-place-and-litigation-holds).

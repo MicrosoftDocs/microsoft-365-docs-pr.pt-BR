@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: O plano de arquivos oferece recursos avançados de gerenciamento dos rótulos de retenção.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: c56f71032ccf154e5d9f416b42df1345da03d9a4
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 422a76db5705e80c67803b798275e1faedd1d7aa
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48199012"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906865"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>Usar o plano de arquivos para gerenciar os rótulos de retenção
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Embora você possa criar e gerenciar os rótulos de retenção da **Governança de informações** no Centro de Conformidade do Microsoft 365, o plano de arquivos do **Gerenciamento de registros** possui recursos de gerenciamento adicionais:
 
@@ -143,8 +143,13 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
 
    ![Modelo de plano de arquivos em branco abre no Excel](../media/file-plan-blank-template.png)
 
-3. Preencha o modelo usando as seguintes informações que descrevem as propriedades e os valores válidos para cada propriedade. Para importação, cada valor tem um comprimento máximo de 64 caracteres. <br/>
-
+3. Preencha o modelo usando as seguintes informações que descrevem as propriedades e os valores válidos para cada propriedade. Para importação, alguns valores têm comprimento máximo:
+    
+    - **LabelName**: Comprimento máximo de 64 caracteres
+    - **Comentário** e **Notas**: comprimento máximo de 1024 caracteres
+    - Todos os outros valores: comprimento ilimitado
+    <br/>
+    
    |Propriedade|Tipo|Valores válidos|
    |:-----|:-----|:-----|
    |LabelName|String|Esta propriedade especifica o nome do rótulo de retenção.|
@@ -152,7 +157,7 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
    |Observações|String|Use esta propriedade para adicionar uma descrição sobre o rótulo de retenção aos usuários. Esta descrição é exibida quando os usuários passam o mouse sobre o rótulo em aplicativos como Outlook, SharePoint e OneDrive. Se você deixar esta propriedade em branco, uma descrição padrão será exibida, o que explica as configurações de retenção do rótulo. |
    |IsRecordLabel|Cadeia de caracteres|Esta propriedade especifica se o rótulo marca o conteúdo como um registro. Os valores válidos são: </br>**TRUE**: o rótulo marca o item como um registro e resultado. O item não pode ser excluído. </br>**FALSE**: o rótulo não marca o conteúdo como um registro. Esse é o valor padrão.|
    |RetentionAction|String|Essa propriedade especifica qual ação executar após o valor especificado pela propriedade RetentionDuration expirar. Os valores válidos são: </br>**Excluir**: os itens anteriores ao valor especificado pela propriedade RetentionDuration são excluídos.</br>**Manter**: manter os itens da duração especificada pela propriedade RetentionDuration e, em seguida, não faça nada quando o período de duração expirar. </br>**Manter**: manter os itens da duração especificada pela propriedade RetentionDuration e os exclua quando o período de duração expirar.   |
-   |RetentionDuration|String|Esta propriedade especifica o número de dias para reter o conteúdo. Os valores válidos são: </br>**Ilimitado**: os itens serão retidos indefinidamente. </br>***n***: um número inteiro positivo; por exemplo, **365**. 
+   |RetentionDuration|String|Esta propriedade especifica o número de dias para reter o conteúdo. Os valores válidos são: </br>**Ilimitado**: os itens serão retidos indefinidamente. </br>**_n_*_: Um número inteiro positivo; por exemplo, _* 365**. 
    |RetentionType|Cadeia de caracteres|Esta propriedade especifica se a duração da retenção é calculada a partir da data de criação do conteúdo, data do evento, data rotulada ou data da última modificação. Os valores válidos são: </br>**CreationAgeInDays**</br>**EventAgeInDays**</br>**TaggedAgeInDays**</br>**ModificationAgeInDays** |
    |ReviewerEmail|SmtpAddress|Quando esta propriedade é preenchida, uma revisão de disposição será acionada quando a duração da retenção expirar. Essa propriedade especifica o endereço de e-mail de um revisor para as ações de retenção **KeepAndDelete**. Você pode incluir o endereço de email de usuários individuais, grupos de distribuição ou de segurança. Você pode especificar vários endereços de email separados por ponto e vírgula.|
    |ReferenceId|Cadeia de caracteres|Esta propriedade especifica o valor que é exibido no descritor de plano de arquivos do **ID de referência**, que pode ser usado como um valor único da sua organização.| 
@@ -164,7 +169,7 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
    |CitationUrl|String|Esta propriedade especifica o valor que é exibido no descritor de planos de arquivo **Tipo de autoria**.|
    |CitationJurisdiction|Cadeia de caracteres|Esta propriedade especifica a jurisdição ou agência exibida no descritor de planos de arquivos **Provisão/citação**. Por exemplo, “Comissão de Títulos e Câmbio dos Estados Unidos (SEC)”.|
    |Regulatório|String|Deixar em branco. Esta propriedade não é usada nesse momento.|
-   |EventType|String|Esta propriedade especifica a regra de retenção associada ao rótulo. É possível usar qualquer valor que identifique a regra com exclusividade. Por exemplo:</br>**Nome**</br>**Nome diferenciado (DN)**</br>**GUID** </br>Você pode usar o cmdlet [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/get-retentioncompliancerule) para exibir as regras de retenção disponíveis. Observe que, como os valores EventType são únicos de uma organização, se você exportar rótulos de uma organização, não poderá usar os valores da propriedade EventType dessa organização ao importar rótulos para uma organização diferente.|
+   |EventType|String|Esta propriedade especifica a regra de retenção associada ao rótulo. É possível usar qualquer valor que identifique a regra com exclusividade. Por exemplo:</br>**Nome**</br>**Nome diferenciado (DN)**</br>**GUID** </br>Você pode usar o cmdlet [Get-RetentionComplianceRule](/powershell/module/exchange/get-retentioncompliancerule) para exibir as regras de retenção disponíveis. Observe que, como os valores EventType são únicos de uma organização, se você exportar rótulos de uma organização, não poderá usar os valores da propriedade EventType dessa organização ao importar rótulos para uma organização diferente.|
    |||
 
    Veja um exemplo do modelo que contém as informações sobre rótulos de retenção.
@@ -179,7 +184,7 @@ Para importar novos rótulos de retenção e modificar os rótulos de retenção
 
    Se houver um erro de validação, a importação do plano de arquivos continuará a validar todas as entradas no arquivo de importação e exibirá todos os erros que fazem referência aos números de linha e fileira no arquivo de importação. Copie os resultados de erros exibidos para poder corrigi-los quando retornar ao arquivo de importação.
 
-Quando a importação estiver concluída, é possível adicionar os rótulos de retenção a uma nova política de rótulo de retenção ou aplicá-los automaticamente. Você pode fazer isso diretamente na página **Plano de arquivos** selecionando a lista suspensa **+ Criar um rótulo** e, em seguida, clicar em **Política para publicar os rótulos**ou em **Política para aplicar automaticamente um rótulo**.
+Quando a importação estiver concluída, é possível adicionar os rótulos de retenção a uma nova política de rótulo de retenção ou aplicá-los automaticamente. Você pode fazer isso diretamente na página **Plano de arquivos** selecionando a lista suspensa **+ Criar um rótulo** e, em seguida, clicar em **Política para publicar os rótulos** ou em **Política para aplicar automaticamente um rótulo**.
 
 ## <a name="next-steps"></a>Próximas etapas
 

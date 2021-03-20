@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma ressarcição associada a um caso core de Descoberta eDiscovery para preservar conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: 377a9e7a31864f177f0ccbdc4cf2789fdc1cf373
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ca87b1b2ad35949de01622771b1ae78c5b3038e9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423462"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908335"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -134,11 +134,11 @@ Como alternativa, as conversas que fazem parte da lista chat no Teams (chamadas 
 > [!IMPORTANT]
 > Em uma organização baseada em nuvem, os usuários que participam de conversas que fazem parte da lista de chat no Teams devem ter uma caixa de correio do Exchange Online para manter conversas de chat quando a caixa de correio é colocada em uma retenção de Descoberta Eletrônico. Isso porque as conversas que fazem parte da lista de chat são armazenadas nas caixas de correio baseadas em nuvem dos participantes do chat. Se um participante de chat não tiver uma caixa de correio do Exchange Online, você não poderá preservar essas conversas de chat. Por exemplo, em uma implantação híbrida do Exchange, os usuários com uma caixa de correio local podem participar de conversas que fazem parte da lista de chat no Teams. Mas, nesse caso, o conteúdo dessa conversa não pode ser preservado porque esses usuários não têm caixas de correio baseadas em nuvem que podem ser colocadas em espera.
 
-Para obter mais informações sobre como preservar o conteúdo do Teams, consulte Colocar um usuário ou equipe do [Microsoft Teams em espera legal](https://docs.microsoft.com/MicrosoftTeams/legal-hold).
+Para obter mais informações sobre como preservar o conteúdo do Teams, consulte Colocar um usuário ou equipe do [Microsoft Teams em espera legal](/MicrosoftTeams/legal-hold).
 
 ### <a name="preserve-card-content"></a>Preservar o conteúdo do cartão
 
-Da mesma forma, o conteúdo de cartão gerado por aplicativos em canais do Teams, chats 1:1 e chats de grupo 1:N é armazenado em caixas de correio e é preservado quando uma caixa de correio é colocada em uma espera de Descoberta Eletrônico. Um *cartão* é um contêiner de interface de usuário para pequenos pedaços de conteúdo. Os cartões podem ter várias propriedades e anexos e podem incluir botões que disparam ações de cartão. Para obter mais informações, consulte [Cartões](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards). Como outros conteúdos de equipes, onde o conteúdo do cartão é armazenado é baseado em onde o cartão foi usado. O conteúdo dos cartões usados em um canal Teams é armazenado na caixa de correio do grupo Teams. O conteúdo do cartão para bate-papos individuais e 1xN é armazenado nas caixas de correio dos participantes do bate-papo.
+Da mesma forma, o conteúdo de cartão gerado por aplicativos em canais do Teams, chats 1:1 e chats de grupo 1:N é armazenado em caixas de correio e é preservado quando uma caixa de correio é colocada em uma espera de Descoberta Eletrônico. Um *cartão* é um contêiner de interface de usuário para pequenos pedaços de conteúdo. Os cartões podem ter várias propriedades e anexos e podem incluir botões que disparam ações de cartão. Para obter mais informações, consulte [Cartões](/microsoftteams/platform/task-modules-and-cards/what-are-cards). Como outros conteúdos de equipes, onde o conteúdo do cartão é armazenado é baseado em onde o cartão foi usado. O conteúdo dos cartões usados em um canal Teams é armazenado na caixa de correio do grupo Teams. O conteúdo do cartão para bate-papos individuais e 1xN é armazenado nas caixas de correio dos participantes do bate-papo.
 
 ### <a name="preserve-meeting-and-call-information"></a>Preservar informações de reunião e chamada
 
@@ -163,7 +163,7 @@ Lembre-se das seguintes coisas ao colocar os Grupos do Teams e do Office 365 em 
 
 - Como explicado anteriormente, para colocar o conteúdo localizado no Teams e nos Grupos do Office 365 em espera, você precisa especificar a caixa de correio e o site do SharePoint associados a um grupo ou equipe.
 
-- Execute o cmdlet **Get-UnifiedGroup** no [PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online para exibir propriedades do Teams e grupos do Office 365. Essa é uma boa maneira de obter a URL do site associado a uma equipe ou grupo do Office 365. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior:
+- Execute o cmdlet **Get-UnifiedGroup** no [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online para exibir propriedades do Teams e grupos do Office 365. Essa é uma boa maneira de obter a URL do site associado a uma equipe ou grupo do Office 365. Por exemplo, o comando abaixo exibe as propriedades selecionadas para um grupo do Office365 chamado de Equipe de Liderança Sênior:
 
     ```text
     Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
@@ -190,10 +190,10 @@ Lembre-se das seguintes coisas ao colocar os Grupos do Teams e do Office 365 em 
 
 ## <a name="preserve-content-in-onedrive-accounts"></a>Preservar conteúdo em contas do OneDrive
 
-Para coletar uma lista das URLs para os sites do OneDrive for Business em sua organização para que você possa adicioná-las a uma responsabilidade ou pesquisa associada a um caso de Descoberta eDiscovery, consulte Create a list of all [OneDrive locations in](https://docs.microsoft.com/onedrive/list-onedrive-urls)your organization . O script neste artigo cria um arquivo de texto que contém uma lista de todos os sites do OneDrive em sua organização. Para executar esse script, é necessário instalar e usar o Shell de Gerenciamento Online do SharePoint. Não se esqueça de acrescentar a URL do domínio MySite da organização para cada site do OneDrive que você deseja pesquisar. Este é o domínio que contém todos os seus OneDrive; por exemplo, `https://contoso-my.sharepoint.com`. Veja um exemplo de URL para o site do OneDrive de um usuário: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
+Para coletar uma lista das URLs para os sites do OneDrive for Business em sua organização para que você possa adicioná-las a uma responsabilidade ou pesquisa associada a um caso de Descoberta eDiscovery, consulte Create a list of all [OneDrive locations in](/onedrive/list-onedrive-urls)your organization . O script neste artigo cria um arquivo de texto que contém uma lista de todos os sites do OneDrive em sua organização. Para executar esse script, é necessário instalar e usar o Shell de Gerenciamento Online do SharePoint. Não se esqueça de acrescentar a URL do domínio MySite da organização para cada site do OneDrive que você deseja pesquisar. Este é o domínio que contém todos os seus OneDrive; por exemplo, `https://contoso-my.sharepoint.com`. Veja um exemplo de URL para o site do OneDrive de um usuário: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
 
 > [!IMPORTANT]
-> A URL da conta do OneDrive de um usuário inclui o nome principal do usuário (UPN) (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro de a UPN de uma pessoa ser alterada, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário faz parte de uma remoção de Descoberta Automática, antigo e seu UPN é alterado, você precisa atualizar a responsabilidade e você terá que atualizar a responsabilidade e adicionar a nova URL do OneDrive do usuário e remover a antiga. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
+> A URL da conta do OneDrive de um usuário inclui o nome principal do usuário (UPN) (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro de a UPN de uma pessoa ser alterada, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário faz parte de uma remoção de Descoberta Automática, antigo e seu UPN é alterado, você precisa atualizar a responsabilidade e você terá que atualizar a responsabilidade e adicionar a nova URL do OneDrive do usuário e remover a antiga. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](/onedrive/upn-changes).
 
 ## <a name="removing-content-locations-from-an-ediscovery-hold"></a>Removendo locais de conteúdo de uma remoção de descoberta de ediscovery
 
@@ -231,7 +231,7 @@ A tabela a seguir lista os limites para os casos de Descoberta e de ocorrências
    > [!NOTE]
    > <sup>1</sup> Para exibir uma lista de mais de 1.000 casos, regiões, pesquisas ou exportações, você pode usar o cmdlet do Office 365 Security & Compliance PowerShell:
    >
-   > - [Get-ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase)
-   > - [Get-CaseHoldPolicy](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
-   > - [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)
-   > - [Get-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)
+   > - [Get-ComplianceCase](/powershell/module/exchange/get-compliancecase)
+   > - [Get-CaseHoldPolicy](/powershell/module/exchange/get-caseholdpolicy)
+   > - [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)
+   > - [Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)

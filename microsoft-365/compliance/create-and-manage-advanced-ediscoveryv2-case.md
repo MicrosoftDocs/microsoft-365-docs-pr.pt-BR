@@ -12,31 +12,31 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-- m365solution-ediscovery
+- m365solution-aed
 - m365initiative-compliance
-- m365initiative-scenario
+- m365solution-scenario
 search.appverid:
 - MOE150
 - MET150
 description: Este artigo descreve como criar e gerenciar casos de Descoberta Avançada. A primeira etapa é criar uma ocorrência e começar a usar recursos e funcionalidades de Descoberta Avançada.
-ms.openlocfilehash: 0301213cf6d7e3c30b98ad5125468c6c75ed95b1
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: d0f63bca90945c3dfe13b08fa0f1d139da8a9189
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838247"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908355"
 ---
 # <a name="create-and-manage-an-advanced-ediscovery-case"></a>Criar e gerenciar um caso de Descoberta Avançada
 
 Depois de configurar a Descoberta Secreta Avançada e atribuir permissões aos gerentes de [Descoberta eDiscovery](get-started-with-advanced-ediscovery.md#step-2-assign-ediscovery-permissions) em sua organização que gerenciarão casos, a próxima etapa é criar e gerenciar um caso.
 
-Este artigo também fornece uma visão geral de alto nível do uso de casos para gerenciar o fluxo de trabalho de Descoberta Eletrônico Avançada para uma investigação legal.
+Este artigo também fornece uma visão geral de alto nível do uso de casos para gerenciar o fluxo de trabalho de Descoberta Avançada para um caso legal ou outros tipos de investigações.
 
 ## <a name="create-a-case"></a>Criar um caso
 
-Conclua as etapas a seguir para criar uma ocorrência e adicionar membros. O usuário que cria a ocorrência é adicionado automaticamente como membro.
+Conclua as etapas a seguir para criar uma ocorrência e adicionar membros. O usuário que cria a ocorrência é adicionado automaticamente como membro. Os membros do caso podem acessar o caso no centro de conformidade do Microsoft 365 e executar tarefas avançadas de Descoberta e Descoberta.
 
-1. Acesse e entre usando as credenciais da conta de usuário que foram atribuídas permissões [https://compliance.microsoft.com](https://compliance.microsoft.com) de Descoberta e. Membros do grupo de função Gerenciamento da Organização também podem criar casos de Descoberta Avançada.
+1. Acesse e entre usando as credenciais da conta de usuário que foram atribuídas permissões <https://compliance.microsoft.com> de Descoberta e. Membros do grupo de função Gerenciamento da Organização também podem criar casos de Descoberta Avançada.
 
 2. No painel de navegação esquerdo do centro de conformidade do Microsoft 365, clique em **Mostrar** tudo e clique em **Descoberta > Avançado**.
 
@@ -82,7 +82,7 @@ Para começar a usar a Descoberta Avançada, aqui está um fluxo de trabalho bá
 
    - Você pode usar o fluxo [de trabalho](managing-custodian-communications.md) de comunicações na Descoberta Eletrônica Avançada para enviar uma notificação de responsabilidade legal aos custodiantes.
 
-2. **[Coletar dados relevantes de fontes de dados](create-draft-collection.md)**. Depois de adicionar os custodiantes e as fontes de dados não custodiais a uma ocorrência, use a ferramenta de coletas integrados para pesquisar essas fontes de dados em busca de conteúdo que possa ser relevante para o caso. Você usa palavras-chave, propriedades [](building-search-queries.md) e condições para criar consultas de pesquisa que retornam resultados de pesquisa com os dados que provavelmente são relevantes para o caso. Você também pode:
+2. **[Coletar conteúdo relevante de fontes de dados](create-draft-collection.md)**. Depois de adicionar os custodiantes e as fontes de dados não custodiais a uma ocorrência, use a ferramenta de coletas integrados para pesquisar essas fontes de dados em busca de conteúdo que possa ser relevante para o caso. Você usa palavras-chave, propriedades [](building-search-queries.md) e condições para criar consultas de pesquisa que retornam resultados de pesquisa com os dados que provavelmente são relevantes para o caso. Você também pode:
 
    - Exibir [estatísticas de coleção que](collection-statistics-reports.md) podem ajudá-lo a refinar uma coleção para restringir os resultados.
 
@@ -107,3 +107,15 @@ Para começar a usar a Descoberta Avançada, aqui está um fluxo de trabalho bá
    - [Analisar dados de caso](analyzing-data-in-review-set.md). A funcionalidade de análise na Descoberta Avançada é poderosa. Depois de executar análises nos dados no conjunto de revisão, realizamos análises como detecção quase duplicada, threading de email e temas que podem ajudar a reduzir o volume de documentos que você precisa revisar. Também geramos relatórios do Analytics que resumem o resultado da execução da análise. Como explicado anteriormente, a execução da análise também executa o modelo de detecção de privilégio [advogado-cliente.](attorney-privilege-detection.md#use-the-attorney-client-privilege-detection-model)
 
 5. **Exportar e baixar dados de caso.** Uma etapa final após a coleta, revisão e análise de dados de caso é exportá-los para fora da Descoberta Externa avançada para revisão externa ou para revisão por pessoas fora da equipe de investigação. Exportar dados é um processo de duas etapas. A primeira etapa é [exportar](export-documents-from-review-set.md) dados do conjunto de revisão e copiá-lo para um local de Armazenamento do Azure diferente (um fornecido pela Microsoft ou um gerenciado pela sua organização). Em seguida, use o Explorador de Armazenamento do Azure [para baixar](download-export-jobs.md) os dados em um computador local. Além dos arquivos de dados exportados, o contém do pacote de exportação também contém um relatório de exportação, um relatório de resumo e um relatório de erro.
+
+## <a name="advanced-ediscovery-architecture"></a>Arquitetura avançada de Descoberta Desdiscovery
+
+Aqui está um diagrama de arquitetura que mostra o fluxo de trabalho avançado de descoberta eletrônica de ponta a ponta em um ambiente de uma única geo e em um ambiente multi-geo, e o fluxo de dados de ponta a ponta alinhado com o Modelo de Referência de Descoberta Eletrônica [.](overview-ediscovery-20.md#advanced-ediscovery-alignment-with-the-electronic-discovery-reference-model)
+
+[![Cartaz de modelo: Arquitetura avançada de Descoberta E no Microsoft 365](../media/solutions-architecture-center/ediscovery-poster-thumb.png)](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+
+[Exibir como uma imagem](../media/solutions-architecture-center/m365-advanced-ediscovery-architecture.png)
+
+[Baixar como um arquivo PDF](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.pdf)
+
+[Baixar como um arquivo do Visio](https://download.microsoft.com/download/d/1/c/d1ce536d-9bcf-4d31-b75b-fcf0dc560665/m365-advanced-ediscovery-architecture.vsdx)

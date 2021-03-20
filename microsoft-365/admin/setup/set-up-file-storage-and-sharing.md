@@ -28,176 +28,176 @@ search.appverid:
 - ODB150
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
-description: Saiba como usar o OneDrive e um site de equipe para armazenamento do Microsoft 365 e compartilhamento de arquivos do Microsoft 365.
+description: Saiba como usar o OneDrive e um site de equipe para armazenamento no Microsoft 365 e compartilhamento de arquivos no Microsoft 365.
 ms.openlocfilehash: aa85789b950965a33c07214b5eaebf827ed8cc92
 ms.sourcegitcommit: 4a9e1b6851b988bcd31e87b184fc185be949840d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/01/2020
 ms.locfileid: "49525564"
 ---
-# <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Configurar o armazenamento e o compartilhamento de arquivos no Microsoft 365
+# <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Configurar o compartilhamento e o armazenamento de arquivos no Microsoft 365
 
-Uma das melhores maneiras de configurar o armazenamento e o compartilhamento de arquivos para sua empresa é usar o OneDrive e um site de equipe juntos. Isso é ideal se você tem uma empresa pequena com poucos funcionários.
+Uma das melhores maneiras de configurar o compartilhamento e armazenamento de arquivos para sua empresa é usar o OneDrive e um site de equipe em conjunto. Isso é ideal se você tem uma pequena empresa com poucos funcionários.
 
-Assista a um vídeo curto sobre como armazenar arquivos na nuvem do Microsoft 365.<br><br>
+Assista a um vídeo curto sobre o armazenamento de arquivos na nuvem do Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="microsoft-365-document-storage-and-management"></a>"Gerenciamento e armazenamento de documentos do Microsoft 365"
+## <a name="microsoft-365-document-storage-and-management"></a>"Gerenciamento e armazenamento de documentos no Microsoft 365"
 
-- O OneDrive foi projetado para uso individual, com o compartilhamento ocasional de arquivos.
+- O OneDrive foi projetado para uso individual, com compartilhamento ocasional de arquivos.
 
-- Um site de equipe é projetado para compartilhar e colaborar em arquivos regularmente. Um site de equipe é ideal para armazenar arquivos que tenham propriedade compartilhada, onde várias pessoas possuem os arquivos e podem colaborar neles. Crie um Microsoft Team para adicionar um site de equipe. [Saiba mais em Criar uma equipe no Teams.](https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b)
+- Um site de equipe é projetado para compartilhar e colaborar em arquivos regularmente. Um site de equipe é ideal para armazenar arquivos que têm propriedades compartilhadas várias pessoas possuem os arquivos e podem colaborar neles. Criar uma equipe Microsoft para adicionar um site de equipe. [Saiba mais em Criar uma equipe no Teams](https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b).
 
-O OneDrive e os sites de equipe fornecem acesso a qualquer lugar para você e seus funcionários.
+Tanto o OneDrive quanto os sites da equipe oferecem acesso em qualquer lugar para você e seus funcionários.
   
-![Um diagrama que mostra como os produtos do Microsoft 365 podem usar o OneDrive ou sites de equipe](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
+![Um diagrama que mostra como os produtos Microsoft 365 podem usar o OneDrive ou Sites de equipe](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
-Aqui estão as recomendações sobre o que armazenar em cada local ao usar o OneDrive e os sites de equipe juntos:
+Aqui estão as recomendações sobre o que armazenar em cada local quando você usa o OneDrive e os sites de equipe juntos:
   
 ||||
 |:-----|:-----|:-----|
 |**Local de armazenamento** <br/> |**Para que serve** <br/> |**O que armazenar aqui** <br/> |
-|**OneDrive** <br/> |Armazenar conteúdo no OneDrive é como armazenar arquivos em seu computador; ninguém mais pode acessá-los facilmente.  <br/> Para saber mais, confira [O que é o OneDrive for Business?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) <br/> |Arquivos de negócios nos quais outros membros da equipe não precisarão colaborar ou acessar regularmente.  <br/> |
-|**Sites de equipe do SharePoint** <br/> |Colaboração. Quando você cria um grupo do Microsoft 365 (por exemplo, no centro de administração do Microsoft 365, no Outlook ou criando uma equipe no Microsoft Teams), um site de equipe do SharePoint é criado para esse grupo. Da mesma forma, quando você cria um novo site de equipe do SharePoint a partir da home page do SharePoint ou do novo centro de administração do SharePoint, ele também cria um grupo do Microsoft 365. Para saber mais, confira [O que é um site de equipe do SharePoint?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) e Crie um site de equipe no [SharePoint Online.](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d)  <br/> |Arquivos que têm propriedade compartilhada. Recomendamos sites de equipe separados para cada unidade de trabalho em sua organização. Por exemplo, para manter os documentos pessoais e financeiros privados para uma pequena equipe, crie um site de equipe separado.  <br/> |
+|**OneDrive** <br/> |Armazenar conteúdo no OneDrive é como armazenar arquivos em seu computador; ninguém mais pode acessá-los facilmente.  <br/> Para mais informações, confira [O que é o OneDrive for Business?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) <br/> |Arquivos empresariais que outros membros da equipe não precisarão colaborar ou acessar regularmente.  <br/> |
+|**Sites de equipe do SharePoint** <br/> |Colaboração. Quando você cria um grupo do Microsoft 365 (por exemplo, no Centro de administração do Microsoft 365, no Outlook, ou criando uma equipe no Microsoft Teams), é criado um site de equipe do SharePoint para esse grupo. Da mesma forma, quando você cria um novo site de equipe do SharePoint a partir do home page do SharePoint ou do novo Centro de administração do SharePoint, também cria um grupo do Microsoft 365. Para mais informações, confira [O que é um site de equipe do SharePoint?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) e [Criar um site de equipe no SharePoint Online](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d).  <br/> |Arquivos que têm propriedade compartilhada. Recomendamos sites de equipe separados para cada unidade de trabalho em sua organização. Por exemplo, para manter documentos financeiros e pessoais privados para uma pequena equipe, crie um site de equipe separado.  <br/> |
 
 > [!NOTE]
-> O SharePoint também tem outros tipos de sites que você pode usar para sua empresa. Você pode usar [sites de comunicação](https://support.microsoft.com/office/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) em sua intranet para publicar informações para um público amplo. E você pode usar [sites de hub](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f) para conectar sites em sua intranet.
+> SharePoint também tem outros tipos de sites que você pode usar para sua empresa. Você pode usar [sites de comunicação](https://support.microsoft.com/office/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) em sua intranet para publicar informações para uma ampla audiência. E você pode usar [sites de hubs](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f) para conectar sites em sua intranet.
   
 ## <a name="start-using-onedrive-and-your-team-site"></a>Comece a usar o OneDrive e seu site de equipe
 
 ### <a name="team-members-can-store-their-own-files-in-onedrive"></a>Os membros da equipe podem armazenar seus próprios arquivos no OneDrive
 
-Cada pessoa em sua empresa que tem uma licença do Microsoft 365 atribuída (e o SharePoint Online selecionado) obtém armazenamento em nuvem do OneDrive. Eles podem armazenar arquivos relacionados a negócios aqui para acesso de qualquer dispositivo e estão disponíveis apenas para esse usuário. Por exemplo, é possível armazenar um rascunho de proposta, suas anotações de reunião ou uma demonstração que será apresentada.
+Cada pessoa em sua empresa que tem uma licença Microsoft 365 atribuída (e SharePoint Online selecionado) recebe o armazenamento em nuvem do OneDrive. Eles podem armazenar aqui arquivos relacionados a negócios para acesso a partir de qualquer dispositivo, e eles estão disponíveis apenas para esse usuário. Por exemplo, é possível armazenar um rascunho de proposta, suas anotações de reunião ou um script para uma demonstração que será apresentada.
   
-Os funcionários também podem compartilhar arquivos e pastas do OneDrive. Se um funcionário estiver fora ou sair da empresa, outros usuários poderão acessar arquivos compartilhados armazenados no OneDrive (compartilhamento de pastas de equipe do OneDrive).
+Os funcionários também podem compartilhar arquivos e pastas do OneDrive. Se um funcionário está ausente ou deixa a empresa, outros podem acessar arquivos compartilhados armazenados no OneDrive (compartilhamento de pastas de equipe do OneDrive).
   
-Veja como cada pessoa em sua equipe pode configurar o OneDrive e compartilhar arquivos.
+Veja como cada pessoa de sua equipe pode configurar o OneDrive e compartilhar arquivos.
 
-1. Acesse o <a href="https://portal.office.com/ " target="_blank">Portal do Microsoft 365</a>e entre com seu nome de usuário e senha.
+1. Vá para o <a href="https://portal.office.com/ " target="_blank">Portal Microsoft 365</a>, e entre com o seu nome de usuário e senha.
 
-2. No iniciador de aplicativos, selecione **OneDrive**.
+2. A partir do Inicializador de aplicativos, selecione **OneDrive**.
 
-3. No OneDrive, os membros da equipe podem armazenar seus próprios arquivos relacionados a negócios. Você pode compartilhar arquivos individuais ou uma pasta inteira. Escolha um arquivo ou pasta, clique com o botão direito do mouse e escolha **Compartilhar.**
+3. No OneDrive, os membros da equipe podem armazenar seus próprios arquivos relacionados aos negócios. Você pode compartilhar arquivos individuais, ou uma pasta inteira. Escolha um arquivo ou pasta, clique com o botão direito do mouse e, em seguida, escolha **Compartilhar**.
 
-    ![Compartilhando uma pasta](../../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
+    ![Compartilhamento de uma pasta](../../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
   
-4. Na página **Enviar Link,** deixe a seleção padrão Qualquer pessoa com **o link pode exibir e editar.**
+4. Na página **Enviar Link**, deixe a seleção padrão **Qualquer pessoa com o link poderá exibir e editar**.
 
-    Digite nomes ou endereços de email de membros da equipe que você deseja que tenham acesso à pasta e adicione uma mensagem opcional.
+    Digite os nomes ou endereços de email dos membros da equipe que você deseja que tenham acesso à pasta, e adicionar uma mensagem opcional.
 
     Se você quiser sua própria cópia do email que será enviado, adicione seu endereço de email à lista.
 
     ![Compartilhe uma caixa de diálogo de link mostrando a digitação e a seleção de um nome.](../../media/877e6587-db9d-4903-a87b-11e570eee926.png)
   
-5. Quando terminar de inserir com quem você deseja compartilhar, selecione **Enviar**. O email é imediatamente enviado para as pessoas que você convidar.
+5. Quando você terminar de inserir com quem deseja compartilhar, selecione **Enviar**. O email é imediatamente enviado para as pessoas que você convidar.
 
-    ![Compartilhar um link, mostrando a lista de nomes](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
+    ![Compartilhe um link, mostrando a lista de nomes](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
   
-6. Esta é a aparência do email. 
+6. Veja a aparência do email. 
 
     ![Email com link para compartilhar a pasta do OneDrive](../../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
   
 ### <a name="upload-files-to-a-team-site-for-online-collaboration"></a>Carregar arquivos em um site de equipe para colaboração online
 
-Os sites de equipe vêm com um local para armazenar arquivos, chamado de biblioteca de documentos.  
+Os sites da equipe vêm com um local para armazenar arquivos, chamado de biblioteca de documentos.  
   
 Aqui estão as etapas para adicionar arquivos:
   
-1. Na home page do seu site de equipe, escolha **Documentos** no menu de navegação à esquerda. Isso levará você à sua **Biblioteca de documentos**.
+1. Na home page do site de sua equipe, escolha **Documentos** no menu de navegação à esquerda. Isto levará você à sua **Biblioteca de documentos**.
   
-2. Enquanto você ainda estiver no Microsoft 365, abra o **Explorador** de Arquivos do Windows na barra de tarefas ou em outro local. Acesse os arquivos que você deseja carregar para seu site de equipe.
+2. Enquanto você ainda estiver conectado ao Microsoft 365, abra o **Explorador de Arquivos** do Windows a partir de sua barra de tarefas ou outro local. Acesse os arquivos que você deseja carregar para seu site de equipe.
 
-3. Selecione os arquivos que você deseja carregar no seu site de equipe e arraste-os para a **biblioteca de documentos.**
+3. Selecione os arquivos que você deseja carregar para seu site de equipe, e depois arraste-os para a **Biblioteca de documentos**.
   
-4. Quando terminar, os arquivos serão armazenados em seu site de equipe e em seu computador.
+4. Quando você terminar, os arquivos serão armazenados tanto no site de sua equipe quanto em seu computador.
   
-5. Você pode excluir os arquivos de seu computador. Na próxima etapa, sincronize arquivos online com seu PC ou [Mac,](#sync-online-files-with-your-pc-or-mac)você criará um novo local para esses arquivos em seu computador.
+5. Você pode excluir os arquivos de seu computador. Na próxima etapa, [Sincronizar arquivos online com seu PC ou Mac](#sync-online-files-with-your-pc-or-mac), você criará um novo local para esses arquivos em seu computador.
 
-    Se você tiver vários arquivos ou arquivos grandes para carregar em seu site de equipe, leia estas dicas sobre como carregar arquivos grandes ou muitos [em uma biblioteca.](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242)
+    Se você tem vários arquivos ou arquivos grandes para carregar no seu site de equipe, leia estas dicas sobre [Carregar arquivos grandes ou muitos arquivos para uma biblioteca](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242).
 
     Se precisar de mais espaço de armazenamento, confira [Alterar o espaço de armazenamento de sua assinatura](../../commerce/add-storage-space.md).
 
 ### <a name="sync-online-files-with-your-pc-or-mac"></a>Sincronizar arquivos online com seu PC ou Mac
 
-Agora que você já tem arquivos no site de equipe, é possível configurá-los para sincronizar com seu PC ou Mac. Dessa forma, você pode trabalhar em seus arquivos do seu PC ou Mac em vez de trabalhar no Microsoft Edge, Chrome ou em outro navegador. Também é útil ter uma versão dos arquivos sincronizados no seu computador para situações em que você precisa de um arquivo e não tem acesso à Internet.
+Agora que você já tem arquivos no site de equipe, é possível configurá-los para sincronizar com seu PC ou Mac. Dessa forma, você pode trabalhar neles no PC ou Mac, em vez de trabalhar no Microsoft Edge, Chrome ou outro navegador. Também é útil ter uma versão dos arquivos sincronizados no seu computador para situações em que você precisa de um arquivo e não tem acesso à Internet.
   
-Depois de configurar arquivos para sincronizar com o computador, quando você estiver conectado à Internet, eles serão sincronizados automaticamente.
+Após configurar os arquivos para sincronizar com seu computador, quando você estiver conectado à Internet, eles serão sincronizados automaticamente.
   
 Veja aqui como sincronizar os arquivos que estão no site de equipe com sua área de trabalho:
   
-1. Na home page do seu site de equipe, escolha **Documentos** no menu de navegação à esquerda. Isso leva você para sua biblioteca de documentos.
+1. Na home page do site de sua equipe, escolha **Documentos** no menu de navegação à esquerda. Isto o leva à sua Biblioteca de documentos.
 
     > [!TIP]
-    > Ao sincronizar arquivos no site de equipe, você está sincronizando cada biblioteca de arquivos no site, não em todo o site.
+    > Ao sincronizar os arquivos em seu site de equipe, você está sincronizando cada biblioteca de arquivos no site, não no site inteiro.
   
 2. Escolha **Sincronizar** para sincronizar todos os arquivos. Ou navegue até a pasta específica que você deseja sincronizar.
 
-3. Se for solicitado a alternar entre aplicativos, escolha **Sim.** O OneDrive é o processo que faz a sincronização.
+3. Se for solicitado a alternar os aplicativos, escolha **Sim**. O OneDrive é o processo que realiza a sincronização.
   
-4. Se você receber um prompt **de Configuração do OneDrive,** entre com sua conta de trabalho ou de estudante.
+4. Se depois você obter uma solicitação para **Configurar o OneDrive**, entre com sua conta corporativa ou de estudante.
 
-    ![Tela de configuração do OneDrive](../../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
+    ![Tela da configuração do OneDrive](../../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
   
-5. Se ainda não tiver sincronizado o OneDrive, você poderá ver uma tela de pasta do **OneDrive.** Verifique se o caminho em **sua pasta do OneDrive está aqui.** Choose **Change Location** if you want to use a different path, and then select **Next**.
+5. Se você ainda não sincronizou seu OneDrive, você pode ver uma tela **Esta é sua pasta do OneDrive**. Verifique o caminho sob **Sua pasta do OneDrive está aqui**. Escolha **Alterar Local** se você quiser usar um caminho diferente, e então selecione **Avançar**.
 
-    ![Alterar sua pasta local nesta tela](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
+    ![Altere sua pasta local nesta tela](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
   
-6. Os arquivos nos sites de equipe serão exibidos no painel esquerdo do Explorador de Arquivos sob o nome da sua organização. Os arquivos no OneDrive aparecerão em "OneDrive - \<Name of Organization\> "
+6. Os arquivos nos seus sites de equipe aparecerão no painel esquerdo do Explorador de Arquivos sob o nome de sua organização. Os arquivos no OneDrive aparecerão sob "OneDrive - \<Name of Organization\>"
 
-    ![Veja o que foi sincronizado em sua pasta local](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
+    ![Veja o que tem sido sincronizado em sua pasta local](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
   
-7. Teste a sincronização abrindo um arquivo na pasta da equipe no computador. Faça uma alteração e, em seguida, escolha **Salvar**.
+7. Teste a sincronização abrindo um arquivo na pasta da equipe em seu computador. Faça uma alteração e, em seguida, escolha **Salvar**.
 
-## <a name="best-practices-for-file-storage-and-sharing"></a>Práticas recomendadas para compartilhamento e armazenamento de arquivos
+## <a name="best-practices-for-file-storage-and-sharing"></a>Melhores Práticas para compartilhamento e armazenamento de arquivos
 
 Aqui estão algumas dicas para obter o máximo do OneDrive ou do seu site de equipe do SharePoint.
   
 ### <a name="file-storage-and-collaboration-recommendations-for-other-types-of-small-businesses"></a>Recomendações para colaboração e armazenamento de arquivos para outros tipos de pequenas empresas
 
-- **Propriedade exclusiva:** use o OneDrive para armazenar seus próprios arquivos e compartilhá-los com os clientes caso a caso.
+- **Empresas individuais**: Use o OneDrive para armazenar seus próprios arquivos e compartilhá-los com os clientes, caso a caso.
 
-- **Co-propriedade: ambos** os proprietários usam o OneDrive e compartilham arquivos de vez em quando.
+- **Empresas em sociedade**: Ambos os proprietários usam o OneDrive e compartilham arquivos de um para o outro.
 
-- **Empresas com clientes externos ou parceiros que** precisam de acesso a arquivos: crie um novo site de equipe para armazenar e compartilhar documentos destinados a um cliente específico. Configurar o site para permitir acesso somente a esse cliente. Em seguida, você não precisa se preocupar que um cliente acidentalmente obterá acesso às informações destinadas a outro cliente.
+- **Empresas com clientes ou parceiros externos que precisam de acesso a arquivos**: Criar um novo site de equipe para armazenar e compartilhar documentos destinados a um cliente específico. Configurar o site para permitir o acesso somente a esse cliente. Você então não precisa se preocupar que um cliente acidentalmente terá acesso a informações destinadas a outro cliente.
 
-### <a name="keep-private-files-private"></a>Manter a privacidade de arquivos particulares
+### <a name="keep-private-files-private"></a>Manter arquivos privados
 
-Quando você armazena um arquivo no OneDrive, ele só pode ser acessado por você, a menos que você o compartilhe com outras pessoas. Ao compartilhar arquivos, você pode optar por criar um link que pode ser encaminhado ou compartilhar apenas com pessoas específicas. Você também pode criar pastas separadas no OneDrive para finalidades diferentes, como projetos públicos, pessoais ou individuais. Cada pasta pode ser compartilhada com pessoas ou grupos diferentes, ou não.
+Ao armazenar um arquivo no OneDrive, ele só é acessível por você, a menos que você o compartilhe com outras pessoas. Quando você compartilha arquivos, você pode optar por criar um link que pode ser encaminhado, ou compartilhar apenas com pessoas específicas. Você também pode criar pastas separadas no OneDrive para finalidades diferentes, como projetos públicos, pessoais ou individuais. Cada pasta pode ser compartilhada com pessoas ou grupos diferentes, ou não.
   
-Para obter mais informações sobre compartilhamento, consulte [também Compartilhar arquivos e pastas com o Microsoft 365.](https://support.microsoft.com/office/72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
+Para mais informações sobre compartilhamento, confira também [Compartilhar arquivos e pastas com o Microsoft 365](https://support.microsoft.com/office/72f26d6c-bf9e-432c-8b96-e3c2437f5b65).
   
-### <a name="track-how-much-space-you-have-left"></a>Controlar a quantidade de espaço livre
+### <a name="track-how-much-space-you-have-left"></a>Acompanhar quanto espaço você ainda tem
 
-Para ver quanto espaço de armazenamento você tem no OneDrive, confira [Gerenciar o armazenamento do OneDrive for Business.](https://support.microsoft.com/office/31519161-059C-4764-B6F8-F5CD29F7FE68)
+Para ver quanto espaço de armazenamento você ainda tem no OneDrive, confira [Gerenciar seu armazenamento do OneDrive for Business](https://support.microsoft.com/office/31519161-059C-4764-B6F8-F5CD29F7FE68).
   
 ### <a name="what-files-can-be-stored-in-onedrive-and-a-team-site"></a>Quais arquivos podem ser armazenados no OneDrive e em um site de equipe?
 
-Embora você possa carregar quase todos os tipos de arquivos, alguns nomes de arquivo e caracteres em nomes de arquivo não são permitidos. Para saber mais, confira Caracteres de arquivo e [tipos de arquivo inválidos no OneDrive for Business.](https://support.microsoft.com/office/64883A5D-228E-48F5-B3D2-EB39E07630FA)
+Embora você possa carregar quase todos os tipos de arquivos, alguns nomes de arquivos e caracteres em nomes de arquivos não são permitidos. Para mais informações, confira [Caracteres de arquivo inválidos e tipos de arquivos do OneDrive for Business](https://support.microsoft.com/office/64883A5D-228E-48F5-B3D2-EB39E07630FA).
   
 ### <a name="enable-or-disable-third-party-storage-services"></a>Habilitar ou desabilitar serviços de armazenamento de terceiros
 
-Você pode habilitar o armazenamento de terceiros para seus usuários no Microsoft 365 para que eles possam armazenar e compartilhar documentos usando serviços como o Dropbox, além do OneDrive e sites de equipe. Pode ser uma ótima maneira de oferecer serviços que eles já conhecem ou preferem usar para projetos comerciais. Se você não quiser que as pessoas em sua organização que usam o Office abram arquivos em um serviço de terceiros, siga estas etapas para desativar.
+Você pode habilite um serviço de armazenamento de terceiros para seus usuários no Microsoft 365 para que eles possam armazenar e compartilhar documentos usando serviços como o Dropbox, além do OneDrive e sites de equipe. Esta pode ser uma ótima maneira de oferecer serviços que seus usuários já podem estar usando ou preferem usar para projetos comerciais. Se preferir que os usuários da organização não usem o Office para abrir arquivos em serviços de terceiros, faça o seguinte para desabilitá-lo.
   
 > [!IMPORTANT]
-> O armazenamento de terceiros é habilitado por padrão, portanto, você precisa executar essas etapas imediatamente se não quiser que ele seja disponibilizado para seus usuários.
+> O armazenamento de terceiros é habilitado por padrão, portanto você precisa executar essas etapas imediatamente se não quiser que esteja disponível para seus usuários.
   
-1. Entre no centro <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">de administração.</a>
+1. Entre no <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>.
 
-2. Vá para a **página configurações** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**da Organização de Configurações.**</a>
+2. Vá para a página **Configurações** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">**Configurações da organização**</a>.
 
-3. Na guia **Serviços,** selecione **Office na Web.**
+3. Na guia **Serviços**, selecione **Office na Web**.
 
-4. Marque ou desmarque a caixa de seleção para ativar ou desativar o armazenamento de terceiros e, em seguida, **selecione Salvar alterações.**
+4. Selecione ou anule a seleção da caixa de seleção para ativar ou desativar o armazenamento de terceiros e, em seguida, selecione **Salvar alterações**.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Personalize seu site de equipe para armazenamento e compartilhamento de arquivos.](customize-team-site.md) Este tutorial passo a passo mostra como você pode aproveitar recursos de colaboração e mais armazenamento.
+- [Personalizar seu site de equipe para armazenamento e compartilhamento de arquivos](customize-team-site.md). Este tutorial passo a passo mostra como você pode aproveitar recursos de colaboração e mais armazenamento.
 
-- **Configurar aplicativos do Office em tablets e telefone**. Você precisa fazer isso para poder **editar** arquivos armazenados no OneDrive e em sites de equipe do seu tablet ou telefone. Se você não instalar os aplicativos do Office para seu tablet ou telefone, poderá exibir os arquivos, mas não editá-los.
+- **Configurar aplicativos do Office em tablets e telefone**. Você precisa fazer isso para poder **editar** arquivos armazenados no OneDrive e em sites de equipe a partir de seu tablet ou telefone. Se você não instalar os aplicativos do Office para seu tablet ou telefone, você poderá exibir os arquivos, mas não editá-los.
 
   - [Instalar e configurar o Office em um Android com o Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
 

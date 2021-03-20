@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: 9b558ad20a84bc902dd9a4a78ebafdbcecd8a9bb
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: dd066339ccfefdc58eb241bb9fdb69cdd5a458d8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288258"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907451"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows e do Office
 
-O kit de laboratório de implantação do Windows e do Office foi projetado para ajudá-lo a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho que executam o Windows 10 Enterprise e o Microsoft 365 Apps para empresas. Os laboratórios no kit abrangem usando o Microsoft Endpoint Configuration Manager, a Análise de Área de Trabalho, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
+O kit de laboratório de implantação do Windows e do Office foi projetado para ajudá-lo a planejar, testar e validar sua implantação e gerenciamento de áreas de trabalho que executam o Windows 10 Enterprise e o Microsoft 365 Apps para empresas. Os laboratórios na capa do kit usando o Microsoft Endpoint Configuration Manager, o Desktop Analytics, a Ferramenta de Personalização do Office, o OneDrive, o Windows Autopilot e muito mais.
 
-Esse kit é altamente recomendado para organizações que se preparam para atualizações do Windows 8.1 para o Windows 10. Ela também se aplica se você estiver usando o Windows 10, o Microsoft 365 Apps para empresas (antigo Office 365 ProPlus) ou o Office 2019. Como um ambiente isolado, o laboratório resultante é ideal para explorar as atualizações da ferramenta de implantação e testar sua automação relacionada à implantação.
+Esse kit é altamente recomendado para organizações que se preparam para atualizações do Windows 8.1 para o Windows 10. Também se aplica se você estiver usando o Windows 10, o Microsoft 365 Apps para empresas (anteriormente o Office 365 ProPlus) ou o Office 2019. Como um ambiente isolado, o laboratório resultante é ideal para explorar atualizações de ferramentas de implantação e testar sua automação relacionada à implantação.
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
@@ -34,9 +34,9 @@ Esse kit é altamente recomendado para organizações que se preparam para atual
 
 O kit fornece um ambiente de laboratório virtual provisionado automaticamente, incluindo clientes de área de trabalho ingressados no domínio, um controlador de domínio, um gateway da Internet e uma instância do Configuration Manager totalmente configurada. O kit contém as versões de avaliação mais recentes dos seguintes produtos:
 
-  - NOVO! Windows 10 Enterprise, versão 20H2
+  - NOVO! Windows 10 Enterprise, Versão 20H2
   - Windows 7 Enterprise
-  - Microsoft Endpoint Configuration Manager, versão 2010*
+  - Microsoft Endpoint Configuration Manager, Versão 2010*
   - Kit de Avaliação e Implantação do Windows para Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -44,7 +44,7 @@ O kit fornece um ambiente de laboratório virtual provisionado automaticamente, 
   - Windows Server 
   - Microsoft SQL Server 
 
-O laboratório resultante foi projetado para ser conectado a tentativas para: 
+O laboratório resultante foi projetado para ser conectado a avaliação para: 
 
   - Microsoft 365 E5
   - Office 365 E5 com Enterprise Mobility + Security (EMS)
@@ -53,26 +53,26 @@ O laboratório resultante foi projetado para ser conectado a tentativas para:
 
 Detalhados guias de laboratório o conduzem por vários cenários de implantação e gerenciamento. Os laboratórios foram atualizados para as versões mais recentes do Intune e do Configuration Manager. 
 
-### <a name="plan-and-prepare-infrastructure"></a>Planejar e preparar a infraestrutura 
+### <a name="plan-and-prepare-infrastructure"></a>Planejar e preparar infraestrutura 
 - Análise de Área de Trabalho 
-- Cloud Management Gateway & Cloud Distribution Point 
-- Anexar locatário, co-gerenciamento e alternar cargas de trabalho 
+- Gateway de Gerenciamento de Nuvem & Ponto de Distribuição de Nuvem 
+- Cargas de trabalho de anexação, co-gerenciamento e alternamento de locatários 
 - Acesso remoto (VPN) 
 
 ### <a name="prepare-configuration"></a>Preparar configuração   
 
 - Otimizar a entrega de atualizações do Windows 10   
-- Manutenção do Windows 10 usando Política de Grupo
+- Manutenção do Windows 10 usando a Política de Grupo
 - Manutenção do Windows 10 usando o Microsoft Intune   
 - Manutenção do Windows 10 com o Configuration Manager   
-- Manutenção do Microsoft 365 Apps para empresas usando o Configuration Manager   
-- Manutenção do Microsoft 365 Apps para empresas usando o Intune  
+- Manutenção de aplicativos do Microsoft 365 para empresas usando o Configuration Manager   
+- Manutenção de aplicativos do Microsoft 365 para empresas usando o Intune  
 - Segurança e conformidade   
 
 ### <a name="prepare-applications"></a>Preparar aplicativos    
 
-- Readiness Toolkit for Office  
-- Empacotamento e conversão MSIX de aplicativos Win32   
+- Preparação Toolkit office  
+- Empacotamento MSIX e conversão de aplicativos Win32   
 
 ### <a name="deploy-windows-10"></a>Implantar o Windows 10   
 
@@ -85,8 +85,8 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 - Implantação gerenciada na nuvem  
 - Implantação gerenciada localmente    
-- Implantação do Microsoft 365 Apps para Empresas em dispositivos não ingressados no AD 
-- Implantação gerenciada pela empresa usando o Configuration Manager
+- Microsoft 365 Apps for enterprise Deployment on Non-AD Joined Devices 
+- Implantação gerenciada empresarial usando o Configuration Manager
 - Implantação gerenciada corporativa usando o Microsoft Intune  
 - Implantação e gerenciamento lob com o Microsoft Intune
 - Implantar o Microsoft Teams
@@ -95,23 +95,23 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 - Preparar, implantar, otimizar
  
-## <a name="where-to-find-the-windows-and-office-deployment-lab-kit"></a>Onde encontrar o Kit de Laboratório de Implantação do Office e do Windows
+## <a name="where-to-find-the-windows-and-office-deployment-lab-kit"></a>Onde encontrar o Kit de Laboratório de Implantação do Windows e do Office
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* A versão de linha de base instalada 2002 pode ser atualizada para a Versão 2010 usando-se e a atualização no console. Use uma conexão de Internet de largura de banda larga para baixar esse conteúdo e aguarde de 30 a 45 minutos para provisionamento automático. O ambiente de laboratório requer um mínimo de 16 GB de memória disponível e 150 GB de espaço livre em disco. Para obter o desempenho ideal, recomenda-se 32 GB de memória disponível e 300 GB de espaço livre. O kit expira em 2 de maio de 2021. Uma nova versão será publicada antes da expiração.
+* A linha de base instalada versão 2002 pode ser atualizada para a versão 2010 usando e no console atualização. Use uma conexão de Internet de largura de banda larga para baixar esse conteúdo e permitir de 30 a 45 minutos para provisionamento automático. O ambiente de laboratório exige no mínimo 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, recomenda-se 32 GB de memória disponível e 300 GB de espaço livre. O kit expira em 2 de maio de 2021. Uma nova versão será publicada antes da expiração.
 
 ## <a name="additional-guidance"></a>Orientações adicionais
 
   - [Vídeos da série Implantação do Computador do Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
 
-  - [Implantação de Sistema Operacional usando o Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
+  - [Implantação de Sistema Operacional usando o Microsoft Endpoint Configuration Manager](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
-  - [Plano de implantação do Windows 10](https://docs.microsoft.com/windows/deployment/planning/index)
+  - [Plano de implantação do Windows 10](/windows/deployment/planning/index)
 
-  - [Guia de implantação dos Aplicativos do Microsoft 365](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
+  - [Guia de implantação dos Aplicativos do Microsoft 365](/deployoffice/deployment-guide-microsoft-365-apps)
 
-  - [Introdução ao Intune](https://docs.microsoft.com/intune/get-started-evaluation)
+  - [Introdução ao Intune](/intune/get-started-evaluation)
 
 ## <a name="related-resources"></a>Recursos relacionados
 

@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para os pontos de extremidade. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: c4f0d10808d564fc0ee19510c25d33caba0471ff
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: d4a3fef03322912bf169cd195984a17d8dfe3b17
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741582"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907045"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
 
@@ -95,7 +95,7 @@ A integração e a remoção são manipuladas por meio de scripts que você baix
 
  Use os procedimentos no [Introdução ao Microsoft 365 Endpoint DLP](endpoint-dlp-getting-started.md) a dispositivos integrados.
 
-Se você tiver dispositivos integrados por meio do [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/), esses dispositivos aparecerão automaticamente na lista de dispositivos.
+Se você tiver dispositivos integrados por meio do [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/), esses dispositivos aparecerão automaticamente na lista de dispositivos.
 
 > [!div class="mx-imgBorder"]
 > ![lista de dispositivos gerenciados](../media/endpoint-dlp-learn-about-2-device-list.png)
@@ -163,5 +163,5 @@ Agora que você aprendeu sobre o Endpoint DLP, as próximas etapas são:
 - [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
-- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/)
 - [Gerenciamento de risco interno](insider-risk-management.md)

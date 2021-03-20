@@ -12,12 +12,12 @@ ms.author: jaimeo
 ms.topic: article
 audience: Admin, ITPro
 ms.localizationpriority: normal
-ms.openlocfilehash: e98d42e79ac270e6ccce46e88e3b8ff00f8bfc0a
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 3f1a251d98be5b3a9fefa5c1f6d5d5562516d5d5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712301"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908169"
 ---
 # <a name="privacy-and-personal-data"></a>Privacidade e dados pessoais
 
@@ -32,7 +32,7 @@ Quando os usuários registram dispositivos corporativos na Área de Trabalho Ger
 A Área de Trabalho Gerenciada da Microsoft não coleta dados por si só para fornecer seu serviço (exceto para informações de contato [do Administrador de IT.](#it-admin-contact-information) Em vez disso, a Área de Trabalho Gerenciada da Microsoft reutiliza dados que outras fontes, como o Windows e o Microsoft Intune, já coletaram. A Área de Trabalho Gerenciada da Microsoft usa dados que esses serviços coletam de dispositivos inscritos:
 
 - Os dados de diagnóstico do Windows de dispositivos gerenciados pela Área de Trabalho Gerenciada da Microsoft são enviados para os armazenamentos de dados de diagnóstico do Windows da Microsoft.
-- A Área de Trabalho Gerenciada da Microsoft usa [o gerenciamento moderno](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/) para gerenciar os dispositivos inscritos. Como parte do "gerenciamento moderno", os dispositivos devem estar inscritos no Azure Active Directory do locatário.
+- A Área de Trabalho Gerenciada da Microsoft usa [o gerenciamento moderno](/learn/modules/introduction-to-modern-management-in-microsoft-365/) para gerenciar os dispositivos inscritos. Como parte do "gerenciamento moderno", os dispositivos devem estar inscritos no Azure Active Directory do locatário.
 - Para distribuir sua configuração altamente otimizada e segura para dispositivos inscritos, a Área de Trabalho Gerenciada da Microsoft usa o Microsoft Intune.
 - A Área de Trabalho Gerenciada da Microsoft usa dados de inteligência de segurança do Microsoft Defender Advanced Thread Protection para os clientes que usam esse serviço.
 
@@ -92,11 +92,11 @@ Para obter mais informações sobre as regiões que o Azure usa para armazenamen
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 
-Os dados do Intune podem ser armazenados em algumas regiões diferentes, como Europa Norte (Irlanda) e Europa Ocidental (Países Baixos). O administrador de IT cria uma conta de locatário e escolhe o país onde os dados serão armazenados quando eles se registrarem inicialmente nos serviços do Intune. Para ver uma lista de locais de datacenter usados pelo Intune, consulte [Microsoft Intune— Onde estão meus dados do cliente?](http://intunedatacentermap.azurewebsites.net/). Para obter mais informações sobre armazenamento de dados e uso pelo Intune, consulte [Coleta de dados no Intune](https://docs.microsoft.com/intune/privacy-data-collect).
+Os dados do Intune podem ser armazenados em algumas regiões diferentes, como Europa Norte (Irlanda) e Europa Ocidental (Países Baixos). O administrador de IT cria uma conta de locatário e escolhe o país onde os dados serão armazenados quando eles se registrarem inicialmente nos serviços do Intune. Para ver uma lista de locais de datacenter usados pelo Intune, consulte [Microsoft Intune— Onde estão meus dados do cliente?](http://intunedatacentermap.azurewebsites.net/). Para obter mais informações sobre armazenamento de dados e uso pelo Intune, consulte [Coleta de dados no Intune](/intune/privacy-data-collect).
 
 ### <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade
 
-Os dados do Microsoft Defender para Ponto de Extremidade podem ser armazenados em algumas regiões diferentes. Por esse motivo, o Defender for Endpoint opera nos datacenters do Microsoft Azure na União Europeia, no Reino Unido e nos Estados Unidos, conforme indicado no [Microsoft Defender for Endpoint—](http://intunedatacentermap.azurewebsites.net/)Data storage locations . Para obter mais informações sobre armazenamento de dados e uso pelo Defender para Ponto de Extremidade, consulte Quais dados [o Microsoft Defender for Endpoint coleta?](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect)
+Os dados do Microsoft Defender para Ponto de Extremidade podem ser armazenados em algumas regiões diferentes. Por esse motivo, o Defender for Endpoint opera nos datacenters do Microsoft Azure na União Europeia, no Reino Unido e nos Estados Unidos, conforme indicado no [Microsoft Defender for Endpoint—](http://intunedatacentermap.azurewebsites.net/)Data storage locations . Para obter mais informações sobre armazenamento de dados e uso pelo Defender para Ponto de Extremidade, consulte Quais dados [o Microsoft Defender for Endpoint coleta?](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy#what-data-does-microsoft-defender-atp-collect)
 
 ### <a name="windows-10"></a>Windows 10
 
@@ -126,7 +126,7 @@ A Área de Trabalho Gerenciada da Microsoft não usa dados pessoais coletados co
 
 O [RGPD (Regulamento](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) Geral de Proteção de Dados) da União Europeia concede direitos às pessoas (conhecidas na regulamentação como titulares de dados) para gerenciar os dados pessoais coletados por um empregador ou outro tipo de agência ou organização (conhecido como controlador de dados ou controlador just). Os dados pessoais são definidos em linhas gerais no GDPR como todos os dados relacionados a uma pessoa física identificada ou identificável. O GDPR fornece às entidades de dados direitos específicos a seus dados pessoais. Esses direitos incluem obter cópias, solicitar alterações, restringir o processamento, excluir ou receber os dados em um formato eletrônico para que eles possam ser passados para outro controlador. Uma solicitação formal feita por uma entidade de dados a um controlador para executar uma ação em seus dados pessoais é chamada neste documento de Solicitação de Direitos da Entidade de Dados  ou DSR.
 
-Da mesma forma, o CCPA fornece direitos de privacidade e obrigações para os consumidores da Califórnia, incluindo direitos semelhantes aos Direitos de Dados do RGPD, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais. O CCPA também fornece determinadas divulgações, proteções contra discriminação ao optar por direitos de exercício e requisitos de "aceitação/aceitação" para determinadas transferências de dados classificadas como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa?view=o365-worldwide) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?view=o365-worldwide).
+Da mesma forma, o CCPA fornece direitos de privacidade e obrigações para os consumidores da Califórnia, incluindo direitos semelhantes aos Direitos de Dados do RGPD, como o direito de excluir, acessar e receber (portabilidade) suas informações pessoais. O CCPA também fornece determinadas divulgações, proteções contra discriminação ao optar por direitos de exercício e requisitos de "aceitação/aceitação" para determinadas transferências de dados classificadas como "vendas". As vendas são amplamente definidas para incluir o compartilhamento de dados para uma consideração valiosa. Para obter mais informações sobre o CCPA, confira a [Lei de Privacidade do Consumidor da Califórnia](/compliance/regulatory/offering-ccpa?view=o365-worldwide) e as [Perguntas Frequentes Sobre a Lei de Privacidade do Consumidor da Califórnia](/compliance/regulatory/ccpa-faq?view=o365-worldwide).
 
 A seção a seguir discute como a Área de Trabalho Gerenciada da Microsoft ajuda os controladores a encontrar, acessar e agir em dados pessoais ou informações pessoais usadas pela Área de Trabalho Gerenciada da Microsoft.
 
@@ -143,11 +143,11 @@ Os administradores de segurança podem solicitar uma extração ou exclusão de 
 
 ### <a name="user-related-personal-data"></a>Dados pessoais relacionados ao usuário
 
-Além disso, a Área de Trabalho Gerenciada da Microsoft não coleta dados pessoais por conta própria. Em vez disso, ele depende e usa dados pessoais coletados por outros Serviços Do Microsoft Enterprise Online. Os administradores de IT que procuram responder às suas solicitações de usuário para exibir, corrigir e excluir seus dados pessoais podem usar a respectiva funcionalidade dos serviços subjacentes dos quais a Área de Trabalho Gerenciada da Microsoft depende. Se você estiver interessado em exibir ou excluir dados pessoais usados por esses serviços, consulte primeiro o artigo Solicitações de Assunto de Dados do [Azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure) para o artigo RGPD.
+Além disso, a Área de Trabalho Gerenciada da Microsoft não coleta dados pessoais por conta própria. Em vez disso, ele depende e usa dados pessoais coletados por outros Serviços Do Microsoft Enterprise Online. Os administradores de IT que procuram responder às suas solicitações de usuário para exibir, corrigir e excluir seus dados pessoais podem usar a respectiva funcionalidade dos serviços subjacentes dos quais a Área de Trabalho Gerenciada da Microsoft depende. Se você estiver interessado em exibir ou excluir dados pessoais usados por esses serviços, consulte primeiro o artigo Solicitações de Assunto de Dados do [Azure](/compliance/regulatory/gdpr-dsr-Azure) para o artigo RGPD.
 
 Além disso, use as seguintes diretrizes para exercer DSRs para os serviços que a Área de Trabalho Gerenciada da Microsoft depende para a coleta de dados pessoais:
 
-- [Azure Active Directory](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure?view=o365-worldwide)
-- [Microsoft Intune](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-intune?view=o365-worldwide)
-- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
-- [Windows 10](https://docs.microsoft.com/windows/privacy/windows-10-and-privacy-compliance)
+- [Azure Active Directory](/compliance/regulatory/gdpr-dsr-Azure?view=o365-worldwide)
+- [Microsoft Intune](/compliance/regulatory/gdpr-dsr-Intune?view=o365-worldwide)
+- [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [Windows 10](/windows/privacy/windows-10-and-privacy-compliance)

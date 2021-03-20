@@ -1,5 +1,5 @@
 ---
-title: Alterar os planos do Microsoft 365 para empresas manualmente
+title: Alterar o Microsoft 365 para planos de negócios manualmente
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -22,97 +22,97 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: Altere as assinaturas manualmente comprando uma nova assinatura e garantindo que ambas as assinaturas sejam listadas e ativas.
-ms.openlocfilehash: 1127a48ff23c528e3218bae4ccfd063df5e3c26d
-ms.sourcegitcommit: 537e513a4a232a01e44ecbc76d86a8bcaf142482
+ms.openlocfilehash: d6b0c822f9d3ceeb6c50a6ec872682d1db5decb0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50029381"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907899"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
-## <a name="step-1-decide-how-to-change-plans"></a>Etapa 1: Decidir como alterar os planos
+## <a name="step-1-decide-how-to-change-plans"></a>Etapa 1: Decidir como alterar planos
 
-A melhor maneira de alterar todos os usuários de um plano para outro é [usar a guia Atualização.](upgrade-to-different-plan.md) Às vezes, isso não é possível. Altere os planos manualmente em vez disso:
+A melhor maneira de alterar todos os usuários de um plano para outro é [usar a guia Atualização.](upgrade-to-different-plan.md) Às vezes, isso não é possível. Em vez disso, altere os planos manualmente:
 
 - Se a **guia** Atualização indicar que você não pode atualizar o plano atual.
 
-- Se, ao selecionar a **guia Atualizar,** o plano que você deseja não estiver listado.
+- Se, ao selecionar a guia **Atualização,** o plano que você deseja não estiver listado.
 
-- Se você não quiser atualizar todos os usuários da mesma maneira. Algumas empresas precisam de diferentes usuários inscritos em planos diferentes. Use uma alteração manual para isso.
+- Se você não quiser atualizar todos os usuários da mesma maneira. Algumas empresas precisam de usuários diferentes inscritos em planos diferentes. Use uma alteração manual para isso.
 
-Para continuar com uma alteração manual, leia [a Etapa 2: Comprar uma nova assinatura](#step-2-buy-a-new-subscription) neste tópico.
+Para continuar com uma alteração manual, leia [Etapa 2: Comprar](#step-2-buy-a-new-subscription) uma nova assinatura neste tópico.
 
 > [!IMPORTANT]
-> Se estiver mudando para um plano com menos serviços relacionados a dados do que o plano atual (downgrade), você precisará fazer o back up manualmente dos dados que deseja manter. Para obter mais informações, consulte [Fazer o back up de dados antes de alterar os planos.](back-up-data-before-switching-plans.md)
+> Se você estiver mudando para um plano com menos serviços relacionados a dados do que seu plano atual (downgrading), você precisará fazer o back-up manualmente de todos os dados que deseja manter. Para obter mais informações, consulte [Back up data before changing plans](back-up-data-before-switching-plans.md).
 
-## <a name="step-2-buy-a-new-subscription"></a>Etapa 2: comprar uma nova assinatura
+## <a name="step-2-buy-a-new-subscription"></a>Etapa 2: Comprar uma nova assinatura
 
-**Já comprou?** Se você já tiver uma assinatura para a quais deseja mover os usuários, pule esta etapa e vá para a Etapa [3:](#step-3-check-your-new-subscription-and-licenses) Verificar sua nova assinatura e licenças neste tópico.
+**Já comprou?** Se você já tem uma assinatura para a que deseja mover os usuários, ignore esta etapa e vá para a Etapa [3:](#step-3-check-your-new-subscription-and-licenses) Verifique sua nova assinatura e licenças neste tópico.
 
 OU
 
-**Compre uma nova assinatura e licenças:** Siga as etapas em [Comprar outra assinatura do Microsoft 365 para empresas](../buy-another-subscription.md) para comprar uma nova assinatura.
+**Comprar uma nova assinatura e licenças:** Siga as etapas em Comprar outra assinatura do [Microsoft 365 para](../try-or-buy-microsoft-365.md) empresas para comprar uma nova assinatura.
 
-Certifique-se de comprar uma assinatura para a mesma organização em que os usuários estão agora. Por exemplo, verifique os endereços de email dos usuários que você deseja mover. Se os endereços de email \@ contoso.com, você deve comprar uma nova assinatura para contoso.com.
+Certifique-se de comprar uma assinatura para a mesma organização em que os usuários estão agora. Por exemplo, verifique os endereços de email dos usuários que você deseja mover. Se os endereços de email contoso.com, você \@ deve comprar uma nova assinatura para contoso.com.
 Inclua uma licença para cada usuário que você deseja mover.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Etapa 3: Verificar sua nova assinatura e licenças
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 
-2. **Verifique se ambas as assinaturas estão listadas e ativas** A assinatura de onde você está movendo usuários e a assinatura para a que você está movendo os usuários devem estar listadas juntas. Se a nova assinatura não estiver lá quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão ativas. [A nova assinatura não está listada ou não está ativa.](#the-new-subscription-isnt-listed-or-isnt-active)
+2. **Verifique se ambas as assinaturas estão listadas e ativas** A assinatura de onde você está movendo os usuários e a assinatura para a que você está movendo os usuários devem estar listadas juntas. Se a nova assinatura não estiver lá quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão ativas. [A nova assinatura não está listada ou não está ativa](#the-new-subscription-isnt-listed-or-isnt-active).
 
-3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponde à sua assinatura. Portanto, se quiser mover dez usuários para o Microsoft 365 Business Premium, você precisará garantir que dez licenças estão disponíveis.
+3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponde à assinatura. Portanto, se você quiser mover dez usuários para o Microsoft 365 Business Premium, você precisará garantir que dez licenças estão disponíveis.
 
 4. **Precisa de mais licenças para a nova assinatura?**
-   Vá para a **página Seus produtos** e compre mais [licenças.](../licenses/buy-licenses.md)
+   Vá até a **página Seus produtos** e compre mais [licenças.](../licenses/buy-licenses.md)
 
 > [E as licenças antigas?](#what-about-the-old-licenses)
 
 ### <a name="the-new-subscription-isnt-listed-or-isnt-active"></a>A nova assinatura não está listada ou não está ativa
 
-- **Se você comprou duas assinaturas e elas** não estão listadas aqui, elas podem ter sido adquiridas para organizações diferentes (para domínios diferentes). As assinaturas não podem cruzar os limites da organização.
+- **Se você comprou duas assinaturas** e elas não estão listadas aqui , elas podem ter sido compradas para organizações diferentes (para domínios diferentes). As assinaturas não podem cruzar os limites da organização.
 
-- **Se você sabe que tem uma assinatura** adicional e não está listada aqui ou não está ativa, ligue para o suporte da [Microsoft.](../../admin/contact-support-for-business-products.md)
+- **Se você sabe que tem uma assinatura** adicional e ela não está listada aqui ou não está ativa, chame o suporte da [Microsoft.](../../admin/contact-support-for-business-products.md)
 
 ### <a name="what-about-the-old-licenses"></a>E as licenças antigas?
 
-As licenças da assinatura atual serão removidas posteriormente; você só pagará pelas novas licenças de usuário a partir de então.
+As licenças da assinatura atual serão removidas posteriormente; você só pagará pelas novas licenças de usuário a partir daí.
 
 ## <a name="step-4-reassign-licenses"></a>Etapa 4: Reatribuir licenças
 
 ### <a name="reassign-a-license-for-one-user"></a>Reatribuir uma licença para um usuário
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
-2. Na página **Usuários ativos,** selecione o usuário a quem você deseja atribuir uma licença.
+2. Na página **Usuários ativos,** selecione o usuário ao qual você deseja atribuir uma licença.
 
-3. Na guia **Licenças e** **Aplicativos,** expanda Licenças, marque as caixas das licenças que você deseja atribuir e selecione **Salvar alterações.**
+3. Na guia **Licenças e** **Aplicativos,** expanda Licenças, selecione as caixas para as licenças que você deseja atribuir e selecione **Salvar alterações**.
 
-### <a name="reassign-licenses-for-multiple-users-at-once"></a>Reatribuir licenças para vários usuários ao mesmo tempo
+### <a name="reassign-licenses-for-multiple-users-at-once"></a>Reatribuir licenças para vários usuários de uma só vez
 
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
 2. Selecione os círculos ao lado dos nomes dos usuários para os quais você deseja substituir as licenças existentes.
 
-3. At the top, select **More options** (**...**), and then choose Manage **product licenses**.
+3. Na parte superior, selecione **Mais opções** (**...**) e escolha **Gerenciar licenças de produto**.
 
 4. Selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.
 
-5. Alterne o botão para **a posição** Ligar para os produtos que você deseja atribuir a esses usuários.
+5. Alterne a alternância **para a posição On** para os produtos que você deseja atribuir a esses usuários.
 
     > [!TIP]
-    > - Para limitar quais serviços estão disponíveis para o usuário,  alterne para a posição Desligado para os serviços que você deseja remover para esse usuário. Por exemplo, se quiser que o usuário tenha acesso a todos os serviços disponíveis, exceto o Skype for Business Online, você pode alternar a alternância do serviço Skype for Business Online para a posição **Desligado.**
+    > - Para limitar quais serviços estão disponíveis para o usuário,  alterne para alternar para a posição Off para os serviços que você deseja remover para esse usuário. Por exemplo, se você quiser que o usuário tenha acesso a todos os serviços disponíveis, exceto o Skype for Business Online, você pode alternar a alternância para o serviço Skype for Business Online para a posição **Off.**
     > - Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas.
 
 6. Na parte inferior do painel **Substituir produtos existentes**, selecione **Substituir** \> **Fechar**.
 
-## <a name="step-5-cancel-subscriptions-or-remove-licenses-that-you-no-longer-need-optional"></a>Etapa 5: Cancelar assinaturas ou remover licenças de que você não precisa mais (Opcional)
+## <a name="step-5-cancel-subscriptions-or-remove-licenses-that-you-no-longer-need-optional"></a>Etapa 5: Cancelar assinaturas ou remover licenças que você não precisa mais (Opcional)
 
-Se você moveu todos os usuários de uma assinatura para outra e não precisa mais da assinatura original, poderá [cancelar a assinatura.](cancel-your-subscription.md)
+Se você tiver movido todos os usuários de uma assinatura para outra e não precisar mais da assinatura original, poderá [cancelar a assinatura](cancel-your-subscription.md).
 
-Se você moveu apenas alguns usuários para uma assinatura diferente, [remova as licenças](../licenses/remove-licenses-from-subscription.md) de que não precisa mais.
+Se você moveu apenas alguns usuários para uma assinatura diferente, [remova as licenças](../licenses/buy-licenses.md) que você não precisa mais.
 
-## <a name="call-support-to-help-you-change-plans"></a>Ligue para o suporte para ajudá-lo a mudar de plano
-[Ligar para o suporte da Microsoft](../../admin/contact-support-for-business-products.md)
+## <a name="call-support-to-help-you-change-plans"></a>Chamar suporte para ajudá-lo a mudar de planos
+[Chamar o suporte da Microsoft](../../admin/contact-support-for-business-products.md)

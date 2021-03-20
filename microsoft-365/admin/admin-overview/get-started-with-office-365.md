@@ -1,5 +1,5 @@
 ---
-title: Começar a trabalhar com o Microsoft 365 para empresas
+title: Começar com o Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: Saiba como configurar e usar o Microsoft 365 em seu computador, telefone e tablet.
-ms.openlocfilehash: 437e644190017a0031d7c91d239f5b4f0a8d3773
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 8df5170190a464c71030c938be61df591032c45c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50142068"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906283"
 ---
 # <a name="get-started"></a>Introdução
 
@@ -52,19 +52,18 @@ Sua organização recebeu recentemente o Microsoft 365 e agora você precisa us�
     
 - [Instalar o Office em seu PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
     
-- [Configuração móvel](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
+- [Instalação móvel](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
     
 ## <a name="training-resources-for-you-the-admin"></a>Recursos de treinamento para o administrador
 
 Aqui estão alguns recursos para ajudá-lo a começar.
   
-- [Treinamento para administradores:](https://docs.microsoft.com/microsoft-365/admin)obter links para aulas online gratuitas para administradores.
+- [Treinamento para administradores](../index.yml): Obter links para classes online gratuitas para administradores.
     
-- [Ajuda do administrador:](https://docs.microsoft.com/microsoft-365/admin/admin-home)obter informações sobre as principais tarefas, começar a trabalhar com ferramentas de administração e solucionar problemas.
+- [Ajuda do administrador](./admin-overview.md): obter informações sobre as principais tarefas, começar com ferramentas de administração e solucionar problemas.
     
-- [Contate o suporte - Ajuda do](../contact-support-for-business-products.md) Administrador: ligue para nós, abra uma solicitação online ou deixe a comunidade ajudar. 
+- [Suporte para contatos - Ajuda do administrador](../contact-support-for-business-products.md) : chame-nos, abra uma solicitação online ou deixe a comunidade ajudar. 
     
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Configurar o Microsoft 365 para empresas - Ajuda para Administradores](../setup/setup.md)
-
+[Configurar o Microsoft 365 para empresas - Ajuda do administrador](../setup/setup.md)

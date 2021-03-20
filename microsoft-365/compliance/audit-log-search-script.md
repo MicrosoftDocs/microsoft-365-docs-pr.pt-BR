@@ -17,22 +17,22 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Use um script Windows PowerShell que execute o cmdlet Search-UnifiedAuditLog no Exchange Online para pesquisar o log de auditoria. Este script é otimizado para retornar um grande conjunto (até 50.000) de registros de auditoria. O script exporta esses registros para um arquivo CSV que você pode exibir ou transformar usando o Power Query no Excel.
-ms.openlocfilehash: 3d44054d8d1111fe86e06460f5ca4d442d0d1625
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 7ac3903abffc0bedb28363159c81b1f67a199f32
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233325"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907759"
 ---
 # <a name="use-a-powershell-script-to-search-the-audit-log"></a>Usar um script Windows PowerShell para pesquisar o log de auditoria
 
 Segurança, conformidade e auditoria se tornaram as principais prioridades dos administradores de TI no mundo de hoje. O Microsoft 365 tem vários recursos integrados para ajudar as organizações a gerenciar a segurança, conformidade e auditoria. Em particular, o registro de auditoria unificado pode ajudá-lo a investigar incidentes de segurança e problemas de conformidade. Você pode recuperar registros de auditoria usando os seguintes métodos:
 
-- [API da Atividade de Gestão do Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)
+- [API da Atividade de Gestão do Office 365](/office/office-365-management-api/office-365-management-activity-api-reference)
 
 - A [ferramenta de pesquisa de registro de auditoria](search-the-audit-log-in-security-and-compliance.md) no Centro de conformidade do Microsoft 365
 
-- O cmdlet [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) no Exchange Online Windows PowerShell
+- O cmdlet [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) no Exchange Online Windows PowerShell
 
 Se você precisa recuperar logs de auditoria regularmente, deve considerar uma solução que usa a API da Atividade de Gestão do Office 365 porque pode fornecer a grandes organizações a escalabilidade e o desempenho para recuperar milhões de registros de auditoria em uma base contínua. Usar a ferramenta de pesquisa de log de auditoria no Centro de conformidade do Microsoft 365 é uma boa maneira de encontrar rapidamente registros de auditoria para operações específicas que ocorrem em um intervalo de tempo mais curto. O uso de intervalos de tempo mais longos na ferramenta de pesquisa de log de auditoria, especialmente para grandes organizações, pode retornar muitos registros para gerenciar ou exportar facilmente.
 
@@ -56,7 +56,7 @@ Quando há situações em que você precisa recuperar manualmente os dados de au
 
 ## <a name="step-1-connect-to-exchange-online-powershell"></a>Etapa 1: Conecte-se ao Exchange Online Windows PowerShell
 
-A primeira etapa é conectar-se ao Exchange Online Windows PowerShell. Você pode se conectar usando autenticação moderna ou com autenticação multifator (MFA). Para obter instruções passo a passo, confira [Conectar-se ao Exchange Online Windows PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+A primeira etapa é conectar-se ao Exchange Online Windows PowerShell. Você pode se conectar usando autenticação moderna ou com autenticação multifator (MFA). Para obter instruções passo a passo, confira [Conectar-se ao Exchange Online Windows PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 ## <a name="step-2-modify-and-run-the-script-to-retrieve-audit-records"></a>Etapa 2: modificar e executar o script para recuperar os registros de auditoria
 
@@ -146,12 +146,12 @@ Write-Host "Script complete! Finished retrieving audit records for the date rang
    |`$logFile`|"d:\temp\AuditSearchLog.txt"|Especifica o nome e a localização do arquivo de log que contém informações sobre o andamento da pesquisa de log de auditoria executada pelo script. O script grava carimbos de data/hora UTC no arquivo de log.|
    |`$outputFile`|"d:\temp\AuditRecords.csv"|Especifica o nome e a localização do arquivo CSV que contém os registros de auditoria retornados pelo script.|
    |`[DateTime]$start` e `[DateTime]$end`|[DateTime]::UtcNow.AddDays(-1) <br/>[DateTime]::UtcNow|Especifica o intervalo de datas para a pesquisa do log de auditoria. O script retornará registros de atividades de auditoria que ocorreram dentro do intervalo de datas especificado. Por exemplo, para retornar atividades realizadas em janeiro de 2021, você pode usar uma data de início de `"2021-01-01"`e uma data de término de`"2021-01-31"` (certifique-se de colocar os valores entre aspas duplas). O valor de amostra no script retorna registros para atividades realizadas nas 24 horas anteriores. Se você não incluir um carimbo de data/hora no valor, o carimbo de data/hora padrão será 0h (meia-noite) na data especificada.|
-   |`$record`|AzureActiveDirectory|Especifica o tipo de registro das atividades de auditoria (também chamadas de *operações*) a serem pesquisadas. Esta propriedade indica o serviço ou recurso em que uma atividade foi acionada. Para obter uma lista dos tipos de registro que você pode usar para esta variável, confira [Tipo de registro do log de Auditoria](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype). Você pode usar o nome do tipo de registro ou valor ENUM. <br/><br/>**Dica:** para retornar registros de auditoria para todos os tipos de registro, use o valor `$null` (sem aspas duplas).|
+   |`$record`|AzureActiveDirectory|Especifica o tipo de registro das atividades de auditoria (também chamadas de *operações*) a serem pesquisadas. Esta propriedade indica o serviço ou recurso em que uma atividade foi acionada. Para obter uma lista dos tipos de registro que você pode usar para esta variável, confira [Tipo de registro do log de Auditoria](/office/office-365-management-api/office-365-management-activity-api-schema#auditlogrecordtype). Você pode usar o nome do tipo de registro ou valor ENUM. <br/><br/>**Dica:** para retornar registros de auditoria para todos os tipos de registro, use o valor `$null` (sem aspas duplas).|
    |`$resultSize`|5000|Especifica o número de resultados retornados sempre que o cmdlet **Search-UnifiedAuditLog** é chamado pelo script (chamado de *conjunto de resultados*). O valor de 5.000 é o valor máximo compatível com o cmdlet. Deixe este valor como está.|
    |`$intervalMinutes`|60|Para ajudar a superar o limite de 5.000 registros retornados, essa variável pega o intervalo de dados especificado e o divide em intervalos de tempo menores. Agora, cada intervalo, não todo o intervalo de datas, está sujeito ao limite de saída de 5.000 registros do comando. O valor padrão de 5.000 registros por intervalo de 60 minutos dentro do intervalo de datas deve ser suficiente para a maioria das organizações. Mas, se o script retornar um erro que diz, `maximum results limitation reached`, diminua o intervalo de tempo (por exemplo, para 30 minutos ou mesmo 15 minutos) e execute o script novamente.|
    ||||
 
-   A maioria das variáveis ​​listadas na tabela anterior correspondem aos parâmetros do cmdlet **Search-UnifiedAuditLog**. Para obter mais informações sobre esses parâmetros, confira[Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog).
+   A maioria das variáveis ​​listadas na tabela anterior correspondem aos parâmetros do cmdlet **Search-UnifiedAuditLog**. Para obter mais informações sobre esses parâmetros, confira[Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog).
 
 3. No seu computador local, abra o Windows PowerShell e vá para a pasta onde você salvou o script modificado.
 

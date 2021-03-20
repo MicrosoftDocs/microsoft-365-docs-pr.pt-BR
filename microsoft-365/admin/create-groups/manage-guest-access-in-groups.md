@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Saiba como adicionar convidados a um grupo do Microsoft 365, exibir usuários convidados e usar o PowerShell para controlar o acesso de convidados.
-ms.openlocfilehash: 9a713684bb9a2401316dbb3289115be19b220cff
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 114fc1b5262f1632c7e7a8d1aa339c2470223288
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453652"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908601"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Gerenciar o acesso de convidados em grupos do Microsoft 365
 
@@ -35,8 +35,8 @@ Quando ele está ligado, os membros do grupo podem convidar usuários convidados
 Depois de aprovado, o usuário convidado é adicionado ao diretório e ao grupo.
 
 > [!Note]
-> As redes do Yammer Enterprise que estão no Modo Nativo ou na [UE Geo](https://go.microsoft.com/fwlink/?linkid=2107357) não suportam convidados de rede.
-> Os grupos do Microsoft 365 Connected Yammer atualmente não suportam o acesso de convidados, mas você pode criar grupos externos não conectados em sua rede do Yammer. Consulte [Criar e gerenciar grupos externos no Yammer para](https://docs.microsoft.com/yammer/work-with-external-users/create-and-manage-external-groups) obter instruções.
+> As redes do Yammer Enterprise que estão no Modo Nativo ou na [UE Geo](/yammer/manage-security-and-compliance/manage-data-compliance) não suportam convidados de rede.
+> Os grupos do Microsoft 365 Connected Yammer atualmente não suportam o acesso de convidados, mas você pode criar grupos externos não conectados em sua rede do Yammer. Consulte [Criar e gerenciar grupos externos no Yammer para](/yammer/work-with-external-users/create-and-manage-external-groups) obter instruções.
 
 O acesso de convidados em grupos geralmente é usado como parte de um cenário mais amplo que inclui o SharePoint ou o Teams. Esses serviços têm suas próprias configurações de compartilhamento de convidados. Para obter instruções completas sobre como configurar o compartilhamento de convidados entre grupos, SharePoint e Teams, consulte:
 
@@ -53,7 +53,7 @@ Se quiser habilitar ou desabilitar o acesso de convidados em grupos, você pode 
 
 ## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>Adicionar convidados a um grupo do Microsoft 365 do centro de administração
 
-Se o convidado já existir em seu diretório, você poderá adicioná-los aos seus grupos do Centro de administração do Microsoft 365. (Grupos com associação dinâmica devem ser [gerenciados no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-create-rule).)
+Se o convidado já existir em seu diretório, você poderá adicioná-los aos seus grupos do Centro de administração do Microsoft 365. (Grupos com associação dinâmica devem ser [gerenciados no Azure Active Directory](/azure/active-directory/enterprise-users/groups-create-rule).)
   
 1. No centro de administração, vá para a página **Grupos**  >  **grupos.**
   
@@ -63,16 +63,16 @@ Se o convidado já existir em seu diretório, você poderá adicioná-los aos se
     
 5. Selecione **Salvar**.
 
-Se quiser adicionar um convidado ao diretório diretamente, você pode adicionar usuários de colaboração [B2B do Azure Active Directory no portal do Azure.](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)
+Se quiser adicionar um convidado ao diretório diretamente, você pode adicionar usuários de colaboração [B2B do Azure Active Directory no portal do Azure.](/azure/active-directory/b2b/add-users-administrator)
 
-Se você quiser editar qualquer uma das informações de um convidado, poderá adicionar ou atualizar as informações de perfil de um usuário usando o [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
+Se você quiser editar qualquer uma das informações de um convidado, poderá adicionar ou atualizar as informações de perfil de um usuário usando o [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
 ## <a name="see-also"></a>Confira também
 
-[Bloquear usuários convidados de um grupo específico](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Bloquear usuários convidados de um grupo específico](../../solutions/per-group-guest-access.md)
 
 [Gerenciar associação de grupo no centro de administração do Microsoft 365](add-or-remove-members-from-groups.md)
   
-[Avaliações de acesso do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
+[Avaliações de acesso do Azure Active Directory](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 
-[Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser)
+[Set-AzureADUser](/powershell/module/azuread/set-azureaduser)

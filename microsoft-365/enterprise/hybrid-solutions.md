@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
 description: Fornece uma lista de links para informações úteis para implantar cargas de trabalho do Office Server no Microsoft Azure.
-ms.openlocfilehash: ba294b437d815c81c7747f60b2a82ca0bef05e7a
-ms.sourcegitcommit: 04c4252457d9b976d31f53e0ba404e8f5b80d527
+ms.openlocfilehash: 47e885d3db7d9211b917414d03efdc5b716dcd1e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48327910"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907487"
 ---
 # <a name="hybrid-solutions"></a>Soluções híbridas
 
@@ -31,7 +31,7 @@ Com o Microsoft Azure, você pode implantar algumas cargas de trabalho do Office
   
 Para a infraestrutura de identidade do Microsoft 365 no Azure:
 
-- [Usar o Azure AD para a autenticação do SharePoint Server](using-azure-ad-for-sharepoint-server-authentication.md)
+- [Usar o Azure AD para a autenticação do SharePoint Server](/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial)
 
 - [Implantar a Sincronização de Diretórios do Microsoft 365 no Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
@@ -50,7 +50,7 @@ Para cargas de trabalho do SharePoint Server 2013 no Azure:
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Centro de soluções e arquitetura do Microsoft 365](../solutions/solution-architecture-center.md)
+[Centro de soluções e arquitetura do Microsoft 365](../solutions/index.yml)
   
 [Microsoft cloud para ilustrações de arquitetos de empresas](../solutions/cloud-architecture-models.md)
   

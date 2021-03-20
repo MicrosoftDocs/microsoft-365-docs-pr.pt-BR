@@ -16,12 +16,12 @@ ms.collection:
 description: Segurança no Office 365, do EOP aos planos 1 e 2 do Defender para Office 365, Configurações de segurança padrão versus estritas e muito mais. Entenda o que você tem e como proteger suas propriedades.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e1c6e768098cd59892c2572fb52497c873aef1a3
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
-ms.translationtype: HT
+ms.openlocfilehash: f8e929fde2908ba0d436c71c2caeb1be94b1338f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711935"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907175"
 ---
 # <a name="office-365-security-overview"></a>Visão geral da Segurança do Office 365
 
@@ -137,7 +137,7 @@ Esta referência rápida ajudará você a entender quais recursos vêm com cada 
 
 - O Microsoft Defender para Office 365 Plano 1 está incluído no Microsoft 365 Business Premium.
 
-- O Microsoft Defender para Office 365 Plano 1 e o Microsoft Defender para Office 365 Plano 2 estão disponíveis como complemento para certas assinaturas. Para saber mais, aqui vai mais um link [Disponibilidade de recursos nos planos do Microsoft Defender para Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- O Microsoft Defender para Office 365 Plano 1 e o Microsoft Defender para Office 365 Plano 2 estão disponíveis como complemento para certas assinaturas. Para saber mais, aqui vai mais um link [Disponibilidade de recursos nos planos do Microsoft Defender para Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - O recurso [Documentos Seguros](safe-docs.md) está disponível apenas para usuários com as licenças Microsoft 365 E5 ou Microsoft 365 E5 Security (não incluídas nos planos Microsoft Defender para Office 365).
 

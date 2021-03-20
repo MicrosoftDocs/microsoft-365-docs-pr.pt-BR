@@ -19,12 +19,12 @@ description: Os administradores podem aprender como funciona o insight de inteli
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8ca40e2cde08e5ea213d4c19366f038f1da19fa7
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: cc53d49401afe3a0d7871bf5f294126315aacfec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407211"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908089"
 ---
 # <a name="walkthrough---spoof-intelligence-insight-in-microsoft-defender-for-office-365"></a>Passo a passo - Visão de inteligência de spoof no Microsoft Defender para Office 365
 
@@ -43,7 +43,7 @@ Para obter mais informações sobre relatórios e insights, consulte Relatórios
 Este passo a passo é um dos vários para o Centro de Conformidade & Segurança. Para saber mais sobre como navegar relatórios e insights, consulte os passo a passo na seção [Tópicos relacionados.](#related-topics)
 
 > [!NOTE]
-> O insight de inteligência de spoof mostra dados dos últimos 7 dias. A política de inteligência de [spoof](learn-about-spoof-intelligence.md) e o cmdlet [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy) correspondente no PowerShell do Exchange Online mostram dados dos últimos 30 dias. O [Get-SpoofMailReport](https://docs.microsoft.com/powershell/module/exchange/get-spoofmailreport) mostra dados por até 90 dias.
+> O insight de inteligência de spoof mostra dados dos últimos 7 dias. A política de inteligência de [spoof](learn-about-spoof-intelligence.md) e o cmdlet [Get-PhishFilterPolicy](/powershell/module/exchange/get-phishfilterpolicy) correspondente no PowerShell do Exchange Online mostram dados dos últimos 30 dias. O [Get-SpoofMailReport](/powershell/module/exchange/get-spoofmailreport) mostra dados por até 90 dias.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 

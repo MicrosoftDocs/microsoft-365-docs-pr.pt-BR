@@ -15,13 +15,13 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-description: Neste artigo, você aprenderá sobre a Autenticação Moderna Híbrida e os pré-requisitos para uso com os servidores locais do Skype for Business e do Exchange.
-ms.openlocfilehash: b9b48f591f74bd508b20a851ec48a0d7132d6a84
-ms.sourcegitcommit: 8e696c084d097520209c864140af11aa055b979e
+description: Neste artigo, você aprenderá sobre a Autenticação Moderna Híbrida e os pré-requisitos para uso com servidores locais do Skype for Business e do Exchange.
+ms.openlocfilehash: 33bcf9bde2cda0388160337d3ffe6b81ab94eb12
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50097099"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907523"
 ---
 # <a name="hybrid-modern-authentication-overview-and-prerequisites-for-using-it-with-on-premises-skype-for-business-and-exchange-servers"></a>Visão geral da Autenticação Moderna Híbrida e pré-requisitos para usá-la com servidores locais do Skype for Business e do Exchange
 
@@ -48,7 +48,7 @@ O gerenciamento das identidades de usuário com a autenticação moderna proporc
 
 Esteja ciente de que, devido ao fato de que o Skype for Business funciona em proximidade com o Exchange, o comportamento de login visto pelos usuários do cliente Skype for Business será afetado pelo status da autenticação moderna do Exchange. Isso também ocorrerá se você tiver uma arquitetura híbrida do Skype for Business com _domínio dividido_, na qual você tenha tanto o Skype for Business Online quanto o Skype for Business no local, com os usuários abrigados em ambos os locais.
 
-Para saber mais sobre a autenticação moderna no Office 365, confira o Suporte ao Aplicativo cliente do [Office 365 – autenticação multifatório.](microsoft-365-client-support-multi-factor-authentication.md)
+Para obter mais informações sobre autenticação moderna no Office 365, consulte Suporte a aplicativos cliente do [Office 365 - Autenticação multifatório.](microsoft-365-client-support-multi-factor-authentication.md)
 
 > [!IMPORTANT]
 > A partir de agosto de 2017, todos os locatários do novo Office 365 que incluíam o Skype for Business online e o Exchange online passaram a ter a autenticação moderna habilitada por padrão. Os locatários pré-existentes não tiveram uma alteração no seu estado de AM padrão, mas todos os novos locatários são compatíveis automaticamente com o conjunto de recursos de identidade ampliados que você pode ver listado acima. Para verificar seu status de AM, confira a seção [Verificar o status da autenticação moderna do seu ambiente no local](hybrid-modern-auth-overview.md#BKMK_CheckStatus).
@@ -67,7 +67,7 @@ Isso também significa que, embora seus ambientes do Exchange Server e do Skype 
 O que não muda? Não importa se você está em um híbrido de domínio dividido ou usando o Skype for Business e o Exchange Server no local: todos os usuários devem em primeiro lugar autenticar *no local*. Em uma implementação híbrida da autenticação moderna, tanto a _Lyncdiscovery_ quanto a _Autodiscovery_ apontam para um servidor no local.
 
 > [!IMPORTANT]
-> Se você precisar saber quais são as topologias específicas do Skype for Business compatíveis com a AM, essa informação está [documentada aqui](https://technet.microsoft.com/library/mt803262.aspx).
+> Se você precisar saber quais são as topologias específicas do Skype for Business compatíveis com a AM, essa informação está [documentada aqui](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported).
 
 ## <a name="check-the-modern-authentication-status-of-your-on-premises-environment"></a>Verificar o status da autenticação moderna do seu ambiente no local
 <a name="BKMK_CheckStatus"> </a>
@@ -80,7 +80,7 @@ Get-OrganizationConfig | ft OAuth*
 
 Se o valor da propriedade _OAuth2ClientProfileEnabled_ for **False**, isso significa que a autenticação moderna está desabilitada.
 
-Para obter mais informações sobre o cmdlet Get-OrganizationConfig, confira [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/get-organizationconfig).
+Para obter mais informações sobre o cmdlet Get-OrganizationConfig, confira [Get-OrganizationConfig](/powershell/module/exchange/get-organizationconfig).
 
 Você pode fazer uma verificação dos seus servidores do Skype for Business executando o seguinte comando do PowerShell:
 
@@ -90,7 +90,7 @@ Get-CSOAuthConfiguration
 
 Se o comando retornar uma propriedade _OAuthServers_ vazia ou se o valor da propriedade _ClientADALAuthOverride_ não for **Allowed**, isso significa que a autenticação moderna está desabilitada.
 
-Para obter mais informações sobre o cmdlet Get-CsOAuthConfiguration, veja [Get-CsOAuthConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csoauthconfiguration).
+Para obter mais informações sobre o cmdlet Get-CsOAuthConfiguration, veja [Get-CsOAuthConfiguration](/powershell/module/skype/get-csoauthconfiguration).
 
 ## <a name="do-you-meet-modern-authentication-prerequisites"></a>Você cumpre os pré-requisitos da autenticação moderna?
 
@@ -108,7 +108,7 @@ Verifique e marque esses itens na sua lista de verificação antes de continuar:
   - Uma implantação com um máximo de duas versões de servidor diferentes conforme listado abaixo:
     - Skype for Business Server 2015
     - Skype for Business Server 2019
-  - Todos os servidores do Skype for Business devem ter as atualizações cumulativas mais recentes instaladas. Consulte as [atualizações de servidor do Skype for Business](https://docs.microsoft.com/skypeforbusiness/sfb-server-updates) para localizar e gerenciar todas as atualizações disponíveis.
+  - Todos os servidores do Skype for Business devem ter as atualizações cumulativas mais recentes instaladas. Consulte as [atualizações de servidor do Skype for Business](/skypeforbusiness/sfb-server-updates) para localizar e gerenciar todas as atualizações disponíveis.
   - Não existe nenhum Lync Server 2010 ou 2013 no ambiente híbrido.
 
 >[!NOTE]
@@ -136,38 +136,38 @@ Verifique e marque esses itens na sua lista de verificação antes de continuar:
   - Você deve estar usando o Exchange Server 2013 CU19 e acima, o Exchange Server 2016 CU8 e acima ou o Exchange Server 2019 CU1 e acima.
   - Não existe nenhum Exchange Server 2010 no ambiente.
   - O SSL Offloading não está configurado. A terminação SSL e a recriptografia são suportadas.
-  - Caso o seu ambiente utilize uma infraestrutura de servidor proxy para permitir que os servidores se conectem à internet, certifique-se de que todos os servidores do Exchange tenham um servidor proxy definido na propriedade [InternetWebProxy](https://technet.microsoft.com/library/bb123716%28v=exchg.160%29.aspx).
+  - Caso o seu ambiente utilize uma infraestrutura de servidor proxy para permitir que os servidores se conectem à internet, certifique-se de que todos os servidores do Exchange tenham um servidor proxy definido na propriedade [InternetWebProxy](/powershell/module/exchange/set-exchangeserver).
 
 - **Exchange Server no local em um ambiente híbrido do Office 365**
 
   - Se você está usando o Exchange Server 2013, pelo menos um dos servidores deve ter as funções de servidor de Caixa de Correio e de Acesso para Cliente instaladas. Embora seja possível instalar as funções de Caixa de Correio e Acesso para Cliente em servidores separados, recomendamos fortemente que você instale ambas as funções no mesmo servidor para proporcionar maior confiabilidade e um desempenho aprimorado.
   - Se você está usando a versão do Exchange Server 2016 ou posterior, pelo menos um dos servidores deve ter a função de servidor de Caixa de Correio instalada.
   - Não existe nenhum Exchange Server 2007 ou 2010 no ambiente híbrido.
-  - Todos os servidores do Exchange devem ter as atualizações cumulativas mais recentes instaladas. Consulte o artigo [Atualizar o Exchange com as atualizações cumulativas mais recentes](https://docs.microsoft.com/exchange/plan-and-deploy/install-cumulative-updates) para localizar e gerenciar todas as atualizações disponíveis.
+  - Todos os servidores do Exchange devem ter as atualizações cumulativas mais recentes instaladas. Consulte o artigo [Atualizar o Exchange com as atualizações cumulativas mais recentes](/exchange/plan-and-deploy/install-cumulative-updates) para localizar e gerenciar todas as atualizações disponíveis.
 
 - **Requisitos de cliente e de protocolo do Exchange**
 
-    A disponibilidade da autenticação moderna é determinada pela combinação do cliente, protocolo e configuração. Se a autenticação moderna não for suportada pelo cliente, protocolo e/ou configuração, o cliente continuará a aproveitar a autenticação herdada.
+    A disponibilidade da autenticação moderna é determinada pela combinação do cliente, protocolo e configuração. Se a autenticação moderna não for suportada pelo cliente, protocolo e/ou configuração, o cliente continuará a utilizar a autenticação herdada.
   
-    Os seguintes clientes e protocolos suportam a autenticação moderna com o Exchange local quando a autenticação moderna está habilitada no ambiente:
+    Os seguintes clientes e protocolos suportam autenticação moderna com o Exchange local quando a autenticação moderna está habilitada no ambiente:
 
   |**Clientes**|**Protocolo principal**|**Observações**|
   |:-----|:-----|:-----|
-  |Outlook 2013 e posterior  <br/> |MAPI sobre HTTP  <br/> |O MAPI sobre HTTP deve estar habilitado no Exchange para ser possível aproveitar a autenticação moderna com esses clientes (geralmente habilitado ou True para as novas instalações do Exchange 2013 Service Pack 1 e acima). Para obter mais informações, confira o artigo [Como a autenticação moderna funciona para o Office 2013 e para os aplicativos clientes do Office 2016](modern-auth-for-office-2013-and-2016.md).  <br/> Certifique-se de estar rodando o build mínimo obrigatório do Outlook; confira as [Atualizações mais recentes das versões do Outlook que utilizam o Windows Installer (MSI)](https://docs.microsoft.com/officeupdates/outlook-updates-msi).  <br/> |
+  |Outlook 2013 e posterior  <br/> |MAPI sobre HTTP  <br/> |O MAPI sobre HTTP deve estar habilitado no Exchange para ser possível aproveitar a autenticação moderna com esses clientes (geralmente habilitado ou True para as novas instalações do Exchange 2013 Service Pack 1 e acima). Para obter mais informações, confira o artigo [Como a autenticação moderna funciona para o Office 2013 e para os aplicativos clientes do Office 2016](modern-auth-for-office-2013-and-2016.md).  <br/> Certifique-se de estar rodando o build mínimo obrigatório do Outlook; confira as [Atualizações mais recentes das versões do Outlook que utilizam o Windows Installer (MSI)](/officeupdates/outlook-updates-msi).  <br/> |
   |Outlook 2016 para Mac e posterior  <br/> |Serviços de Web do Exchange  <br/> |  <br/> |
-  |Outlook para iOS e Android  <br/> | Tecnologia de sincronização da Microsoft <br/> |Confira o artigo [Como usar a autenticação moderna híbrida com o Outlook para iOS e Android](https://docs.microsoft.com/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) para obter mais informações.  <br/> |
+  |Outlook para iOS e Android  <br/> | Tecnologia de sincronização da Microsoft <br/> |Confira o artigo [Como usar a autenticação moderna híbrida com o Outlook para iOS e Android](/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) para obter mais informações.  <br/> |
   |Clientes do Exchange ActiveSync (por exemplo, Mail do iOS 11)  <br/> |Exchange ActiveSync  <br/> |Para os clientes do Exchange ActiveSync compatíveis com a autenticação moderna, é preciso recriar o perfil para migrar da autenticação básica para a autenticação moderna.  <br/> |
 
-    Os clientes e/ou protocolos que não estão listados (por exemplo, POP3) não suportam a autenticação moderna com o Exchange local e continuam a aproveitar mecanismos de autenticação herdados, mesmo depois que a autenticação moderna é habilitada no ambiente.
+    Os clientes e/ou protocolos que não estão listados (por exemplo, POP3) não suportam autenticação moderna com o Exchange local e continuam a utilizar mecanismos de autenticação herdados mesmo depois que a autenticação moderna é habilitada no ambiente.
 
 - **Pré-requisitos gerais**
-  - Os cenários de floresta de recursos exigirão uma relação de confiança de duas vias com a floresta de conta para garantir que as lookups de SID adequadas sejam executadas durante solicitações de autenticação moderna híbrida. 
+  - Os cenários de floresta de recursos exigirão uma confiança de duas vias com a floresta de conta para garantir que as procurar adequadas SID sejam executadas durante solicitações de autenticação moderna híbrida. 
   - Se você usa o AD FS, é preciso ter o Windows 2012 R2 AD FS 3.0 e acima para os serviços de federação.
   - Suas configurações de identidade devem ser de um dos tipos suportados pelo Azure AD Connect, como a sincronização de criptografia de senha, a autenticação pass-through e um STS no local suportado pelo Office 365.
   - Você deve ter o Azure AD Connect configurado e funcionando para a replicação e sincronização de usuários.
   - Você deve ter verificado que o híbrido foi configurado usando o modo de Topologia Híbrida Clássica do Exchange entre os seus ambientes no local e o Office 365. Uma declaração oficial de suporte do híbrido do Exchange afirma que você deve ter a CU atual ou a CU -1 atual.
     > [!NOTE]
-    > A autenticação moderna híbrida não é compatível com o [Agente Híbrido](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent).
+    > A autenticação moderna híbrida não é compatível com o [Agente Híbrido](/exchange/hybrid-deployment/hybrid-agent).
 
   - Certifique-se de que tanto um usuário de teste no local quanto um usuário de teste híbrido abrigado no Office 365 podem entrar no cliente de desktop do Skype for Business (se você quiser usar a autenticação moderna com o Skype) e no Microsoft Outlook (se você quiser usar a autenticação moderna com o Exchange).
 
@@ -181,6 +181,6 @@ Verifique e marque esses itens na sua lista de verificação antes de continuar:
 <a name="BKMK_URLListforMA"> </a>
 
 - [Como configurar o Exchange Server no local para usar a Autenticação Moderna](configure-exchange-server-for-hybrid-modern-authentication.md)
-- [Topologias do Skype for Business compatíveis com a Autenticação Moderna](https://technet.microsoft.com/library/mt803262.aspx)
+- [Topologias do Skype for Business compatíveis com a Autenticação Moderna](/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
 - [Como configurar o Skype for Business no local para usar a Autenticação Moderna](configure-skype-for-business-for-hybrid-modern-authentication.md)
 - [Como remover ou desabilitar a Autenticação Moderna Híbrida do Skype for Business e do Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)

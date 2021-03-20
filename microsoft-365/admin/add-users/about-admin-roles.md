@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador de serviço pode abrir tíquetes de suporte por meio do centro de administração.
-ms.openlocfilehash: ddea8a06af2b529a369ea045913b639b84c6f9d4
-ms.sourcegitcommit: c1f9a1b2a34146c51c9e33c4119a388b249ce7a9
+ms.openlocfilehash: cf628ffd05cb7f5d94c932d48bd4e8ae35a47db9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49867977"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50906367"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
@@ -37,9 +37,9 @@ O Centro de administração do Microsoft 365 permite gerenciar as funções do A
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Procurando a lista completa de descrições detalhadas da função do Azure Active Directory que você pode gerenciar no Centro de administração do Microsoft 365? Confira as permissões da função de administrador no Azure Active Directory. [Permissões da função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
+Procurando a lista completa de descrições detalhadas da função do Azure Active Directory que você pode gerenciar no Centro de administração do Microsoft 365? Confira as permissões da função de administrador no Azure Active Directory. [Permissões da função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 
-Procurando a lista completa de descrições detalhadas da função do Intune que você pode gerenciar no Centro de administração do Microsoft 365?  Confira [Controle de acesso baseado em função (RBAC) com o Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
+Procurando a lista completa de descrições detalhadas da função do Intune que você pode gerenciar no Centro de administração do Microsoft 365?  Confira [Controle de acesso baseado em função (RBAC) com o Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 Para obter mais informações sobre como atribuir funções no Centro de administração do Microsoft 365, confira [Atribuir funções de administrador](assign-admin-roles.md).
 
@@ -67,7 +67,7 @@ No Centro de administração do Microsoft 365, você pode acessar **Funções** 
 
 ::: moniker-end
 
-Provavelmente, você só precisará atribuir as funções a seguir em sua organização. Por padrão, vamos primeiro mostrar as funções que a maioria das organizações usa. Se você não conseguir encontrar uma função, vá para a parte inferior da lista e selecione **Mostrar tudo por categoria**. "(Para obter informações detalhadas, incluindo os cmdlets associados a uma função, confira [Permissões de função de administrador no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
+Provavelmente, você só precisará atribuir as funções a seguir em sua organização. Por padrão, vamos primeiro mostrar as funções que a maioria das organizações usa. Se você não conseguir encontrar uma função, vá para a parte inferior da lista e selecione **Mostrar tudo por categoria**. "(Para obter informações detalhadas, incluindo os cmdlets associados a uma função, confira [Permissões de função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
 
 |Função do administrador     |Quem deve ser atribuído com esta função?  |
 |---------|---------|
@@ -92,7 +92,7 @@ Um parceiro pode atribuir estas funções:
 
 - Privilégios de **Operador de Central de ajuda** equivalentes a um administrador de central de ajuda.
 
-Antes que o parceiro possa atribuir funções aos usuários, é preciso adicioná-lo como administrador delegado à sua conta. Esse processo é iniciado por um parceiro autorizado.O parceiro envia um email perguntando se você deseja conceder permissão a ele para atuar como administrador delegado. Para obter instruções, confira [Autorizar ou remover relações de parceiro](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner).
+Antes que o parceiro possa atribuir funções aos usuários, é preciso adicioná-lo como administrador delegado à sua conta. Esse processo é iniciado por um parceiro autorizado.O parceiro envia um email perguntando se você deseja conceder permissão a ele para atuar como administrador delegado. Para obter instruções, confira [Autorizar ou remover relações de parceiro](../misc/add-partner.md).
   
 ## <a name="related-articles"></a>Artigos relacionados
 

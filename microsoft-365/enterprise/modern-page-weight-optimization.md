@@ -20,13 +20,13 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Saiba como usar a ferramenta Diagnóstico de Página para otimizar o peso da página nas páginas do site moderno do SharePoint Online.
-ms.openlocfilehash: 64fb3c90db78a23c7f1c3fcfe604c8ef58703be0
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Saiba como usar a ferramenta Diagnóstico de Página para otimizar o peso da página em páginas de site modernas do SharePoint Online.
+ms.openlocfilehash: 780d8ca0debbc5efb834f8f3543b9a5a8d168108
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686969"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50907439"
 ---
 # <a name="optimize-page-weight-in-sharepoint-online-modern-site-pages"></a>Otimizar o peso da página nas páginas do site moderno do SharePoint Online.
 
@@ -35,7 +35,7 @@ As páginas do site moderno do SharePoint Online contêm o código serializado n
 Este artigo vai ajudá-lo a entender como reduzir o peso da página em suas páginas de site modernos.
 
 >[!NOTE]
->Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).
+>Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-weight"></a>Usar a ferramenta Diagnóstico de Página do SharePoint para analisar o peso da página
 
@@ -68,7 +68,7 @@ As diretrizes gerais para reduzir o peso da página incluem:
 
 Para saber mais, confira o artigo a seguir sobre como limitar o peso da página no seguinte artigo:
 
-- [Otimizar o desempenho de página no SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
+- [Otimizar o desempenho de página no SharePoint](/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
 
 Antes de criar revisões de página para corrigir problemas de desempenho, anote o tempo de carregamento da página nos resultados da análise. Execute a ferramenta novamente após a revisão para ver se o novo resultado está dentro do padrão da linha de base e verifique o tempo de carregamento da nova página para ver se melhorou.
 
@@ -83,7 +83,7 @@ Antes de criar revisões de página para corrigir problemas de desempenho, anote
 
 [Ajustar o desempenho do Office 365](tune-microsoft-365-performance.md)
 
-[Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance)
 
 [Redes de distribuição de conteúdo](content-delivery-networks.md)
 

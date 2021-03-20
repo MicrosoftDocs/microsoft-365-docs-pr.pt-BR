@@ -12,34 +12,34 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
-description: Saiba como colocar uma caixa de correio em Retenção de Litígio, retendo todo o conteúdo da caixa de correio durante uma investigação.
+description: Saiba como colocar uma caixa de correio em Retenção de Litígio, mantendo todo o conteúdo da caixa de correio durante uma investigação.
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 4bcb857095a63c06caa6e9762496ca74afeead04
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 046ee6fdc7c42026b1a69805883175982e3100b7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47546983"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50908395"
 ---
 # <a name="create-a-litigation-hold"></a>Criar uma Retenção de Litígio
 
-Você pode colocar uma caixa de correio em Retenção de Litígio para reter todo o conteúdo da caixa de correio, incluindo itens excluídos e as versões originais de itens modificados. Quando você coloca uma caixa de correio de usuário em Litígio, o conteúdo na caixa de correio de arquivo morto do usuário (se estiver habilitado) também é retido. Ao criar uma espera, você pode especificar uma duração de espera (também chamada de espera baseada em *tempo)* para que os itens excluídos e modificados sejam mantidos por um período especificado e, em seguida, excluídos permanentemente da caixa de correio. Ou você pode simplesmente reter o conteúdo indefinidamente (chamado de retenção *infinita)* ou até que a Retenção de Litígio seja removida. Se você especificar um período de duração de espera, ele é calculado a partir da data em que uma mensagem é recebida ou um item de caixa de correio é criado. 
+Você pode colocar uma caixa de correio em Retenção de Litígio para reter todo o conteúdo da caixa de correio, incluindo itens excluídos e as versões originais de itens modificados. Quando você coloca uma caixa de correio de usuário em Contencioso, o conteúdo na caixa de correio de arquivo morto do usuário (se estiver habilitada) também será mantido. Ao criar uma espera, você pode especificar uma duração de espera (também chamada de espera baseada em *tempo)* para que os itens excluídos e modificados sejam mantidos por um período especificado e excluídos permanentemente da caixa de correio. Ou você pode manter o conteúdo indefinidamente (chamado de retenção infinita *)* ou até que a Retenção de Litígio seja removida. Se você especificar um período de duração de espera, ele será calculado a partir da data em que uma mensagem é recebida ou um item de caixa de correio é criado. 
   
-Veja o que acontece quando você cria uma Responsabilidade de Litígio.
+Veja o que acontece quando você cria um Litígio.
   
-- Os itens excluídos permanentemente pelo usuário são mantidos na pasta Itens Recuperáveis na caixa de correio do usuário pela duração da espera.
+- Os itens excluídos permanentemente pelo usuário são mantidos na pasta Itens Recuperáveis na caixa de correio do usuário durante a espera.
     
-- Os itens que são limpos da pasta Itens Recuperáveis pelo usuário são mantidos pela duração da espera.
+- Os itens que são limpos da pasta Itens Recuperáveis pelo usuário são mantidos durante a espera.
     
-- A cota de armazenamento da pasta Itens Recuperáveis aumentou de 30 GB para 110 GB.
+- A cota de armazenamento para a pasta Itens Recuperáveis é aumentada de 30 GB para 110 GB.
     
-- Itens nas caixas de correio principal e de arquivo morto do usuário são mantidos
+- Os itens nas caixas de correio primárias e de arquivo morto do usuário são mantidos
     
 ## <a name="assign-an-exchange-online-plan-2-license"></a>Atribuir uma licença do Plano 2 do Exchange Online
 
-- Para colocar uma caixa de correio do Exchange Online em Litígio, ela deve receber uma licença do Plano 2 do Exchange Online. Se uma caixa de correio receber uma licença do Exchange Online Plano 1, você terá que atribuir uma licença separada do Arquivamento do Exchange Online para coloca-la em espera.
+- Para colocar uma caixa de correio do Exchange Online em Contencioso, ela deve receber uma licença do Plano 2 do Exchange Online. Se uma caixa de correio for atribuída a uma licença do Plano 1 do Exchange Online, você terá que atribuí-la uma licença de Arquivamento do Exchange Online separada para mantê-la em espera.
     
 
 ## <a name="place-a-mailbox-on-litigation-hold"></a>Colocar uma caixa de correio em Retenção de Litígio
@@ -50,37 +50,37 @@ Aqui estão as etapas para colocar uma caixa de correio em Responsabilidade de L
 
 2. Clique **em Destinatários > Caixas de** Correio no painel de navegação esquerdo.
 
-3. Selecione a caixa de correio que você deseja colocar em Litígio e clique em **Editar**.
+3. Selecione a caixa de correio que você deseja colocar em Contencioso e clique em **Editar**.
 
 4. Na página de propriedades da caixa de correio, clique em **Recursos da Caixa de Correio**.
     
 5. Em **Retenção de Litígio: Desativado**, clique em **Habilitar** para colocar a caixa de correio em Retenção de Litígio.
     
-6. Na página **Litígio, insira** as seguintes informações opcionais: 
+6. Na página **De espera de** litígio, insira as seguintes informações opcionais: 
     
-    - **Duração da espera de litígio (dias)** - Use essa caixa para criar uma espera baseada em tempo e especificar por quanto tempo os itens da caixa de correio serão mantidos quando a caixa de correio for colocada em Litígio. A duração é calculada a partir da data em que um item de caixa de correio é recebido ou criado. Quando a duração da espera expirar para um item específico, esse item não será mais preservado. Se você deixar essa caixa em branco, os itens serão preservados indefinidamente ou até que a espera seja removida. Use dias para especificar a duração.
+    - **Duração de espera de litígio (dias)** - Use essa caixa para criar uma hold baseada em tempo e especificar por quanto tempo os itens de caixa de correio são mantidos quando a caixa de correio é colocada em Contencioso. A duração é calculada a partir da data em que um item de caixa de correio é recebido ou criado. Quando a duração da espera expirar para um item específico, esse item não será mais preservado. Se você deixar essa caixa em branco, os itens serão preservados indefinidamente ou até que a espera seja removida. Use dias para especificar a duração.
     
-    - **Observação:** use esta caixa para informar ao usuário que sua caixa de correio está em Espera de Litígio. A observação aparecerá na página Informações da Conta na caixa de correio do usuário se ele estiver usando o Outlook 2010 ou posterior. Para acessar esta página, os usuários podem clicar **em Arquivo** no Outlook.
+    - **Observação** - Use esta caixa para informar ao usuário que sua caixa de correio está em Contencioso. A observação aparecerá na página Informações da Conta na caixa de correio do usuário se estiver usando o Outlook 2010 ou posterior. Para acessar esta página, os usuários podem clicar **em Arquivo** no Outlook.
     
-    - **URL** - Use essa caixa para direcionar o usuário a um site para obter mais informações sobre a Responsabilidade de Litígio. Essa URL aparece na página Informações da Conta na caixa de correio do usuário se ele estiver usando o Outlook 2010 ou posterior. Para acessar esta página, os usuários podem clicar **em Arquivo** no Outlook.
+    - **URL** - Use essa caixa para direcionar o usuário para um site para obter mais informações sobre a responsabilidade por litígio. Essa URL será exibida na página Informações da Conta na caixa de correio do usuário se estiver usando o Outlook 2010 ou posterior. Para acessar esta página, os usuários podem clicar **em Arquivo** no Outlook..
 
-7. Clique **em Salvar** na página De espera **de** litígio e, em seguida, clique em **Salvar** na página de propriedades da caixa de correio.
+7. Clique **em Salvar** na página De espera **de** litígio e clique em **Salvar** na página propriedades da caixa de correio.
 
-### <a name="create-a-litigation-hold-using-powershell"></a>Criar uma Espera de Litígio usando o PowerShell
+### <a name="create-a-litigation-hold-using-powershell"></a>Criar uma hold de litígio usando o PowerShell
 
-Você também pode criar uma Espera de Litígio executando o seguinte comando no [PowerShell do Exchange Online:](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+Você também pode criar uma Hold de Litígio executando o seguinte comando no [PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell):
 
 ```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $true
 ```
 
-O comando anterior preserva itens indefinidamente porque a duração da espera não é especificada. Para criar uma espera baseada em tempo, usando o seguinte comando:
+O comando anterior preserva os itens indefinidamente porque a duração da espera não é especificada. Para criar uma espera baseada em tempo, usando o seguinte comando:
 
 ```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <number of days>
 ```
 
-Para obter mais informações, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
+Para obter mais informações, consulte [Set-Mailbox](/powershell/module/exchange/set-mailbox).
 
 ## <a name="how-does-litigation-hold-work"></a>Como funciona a retenção de litígio?
 
@@ -90,8 +90,7 @@ Quando uma caixa de correio é colocada em retenção de litígio, os itens na s
 
 A imagem a seguir mostra as subpastas nas pastas Itens Recuperáveis e o processo de fluxo de trabalho de retenção.
 
-![Ciclo de vida de Espera de Litígio](../media/LitigationHoldLifeCycle.png)
+![Ciclo de vida de hold de litígio](../media/LitigationHoldLifeCycle.png)
 
 > [!NOTE]
-> Se uma isenção associada a uma ocorrência de Descoberta Eletrônico for colocada em uma caixa de correio, os itens excluídos serão movidos da subpasta Exclusões para a subpasta DiscoveryHolds e serão preservados até que a caixa de correio seja liberada da isenção de Descoberta Eletrônico.
-  
+> Se uma isenção associada a uma ocorrência de Descoberta Eletrônico for colocada em uma caixa de correio, os itens limpos serão movidos da subpasta Deletions para a subpasta DiscoveryHolds e serão preservados até que a caixa de correio seja liberada da espera de Descoberta Eletrônico.
