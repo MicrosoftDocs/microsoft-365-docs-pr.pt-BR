@@ -20,19 +20,19 @@ ms.custom:
 search.appverid:
 - MET150
 description: Saiba como os perfis de cobrança suportam faturas.
-ms.openlocfilehash: 708096b624caa9c23a40df4842ccfce856db048d
-ms.sourcegitcommit: 1a9f0f878c045e1ddd59088ca2a94397605a242a
+ms.openlocfilehash: 2f56b9a3edbbbe14927df64bed8b699a68826c9e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49667769"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911861"
 ---
 # <a name="understand-billing-profiles"></a>Compreender os perfis de cobrança
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -41,25 +41,25 @@ Para clientes comerciais que compram produtos e serviços da Microsoft, os perfi
 Os perfis de cobrança incluem as seguintes informações:
 
 - **Conta de cobrança** &ndash; Nome da conta de cobrança à que o perfil está relacionado
-- **Formas de pagamento** &ndash; Cartões de crédito ou débito, contas bancárias, cheques ou transferência eletrônica
+- **Métodos de pagamento** &ndash; Cartões de crédito ou débito, contas bancárias, verificação ou transferência bancária
 - **Informações de contato** &ndash; Endereço de cobrança e um nome de contato
-- **Configurações de fatura** &ndash; Moeda com base no país/região da conta de cobrança, um número de OL opcional e a opção para receber faturas como anexos de email
-- **Permissões** &ndash; Permissões que permitem alterar o perfil de cobrança, pagar faturas ou usar a forma de pagamento no perfil de cobrança para fazer compras
+- **Configurações de fatura** &ndash; Moeda com base no país da conta de cobrança, um número DE opcional e a opção de receber faturas como anexos de email
+- **Permissões** &ndash; Permissões que permitem alterar o perfil de cobrança, pagar contas ou usar o método de pagamento no perfil de cobrança para fazer compras
 
 Use perfis de cobrança para controlar suas compras e personalizar sua fatura. Uma fatura mensal é gerada para os produtos comprados com o perfil de cobrança. Você pode personalizar a fatura, como atualizar o número do pedido de compra e a preferência da fatura de email.
 
-Um perfil de cobrança é criado automaticamente para sua conta de cobrança durante a primeira compra. Você pode criar perfis de cobrança na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Perfis de</a> cobrança para configurar mais faturas. Por exemplo, você pode usar perfis de cobrança diferentes ao fazer compras para cada departamento em sua organização. Na próxima data de cobrança, você receberá uma fatura para cada perfil de cobrança.
+Um perfil de cobrança é criado automaticamente para sua conta de cobrança durante sua primeira compra. Você pode criar perfis de cobrança na página <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Perfis de</a> Cobrança para configurar mais faturas. Por exemplo, você pode usar perfis de cobrança diferentes ao fazer compras para cada departamento em sua organização. Na próxima data de cobrança, você receberá uma fatura para cada perfil de cobrança.
 
 ## <a name="billing-profile-roles"></a>Funções de perfil de cobrança
 
-As funções nos perfis de cobrança têm permissões para controlar compras e exibir e gerenciar faturas. Atribua essas funções a usuários que rastreiem, organizem e pagarão faturas, como membros da equipe de compras em sua organização.
+Funções nos perfis de cobrança têm permissões para controlar compras e exibir e gerenciar faturas. Atribua essas funções aos usuários que rastreiam, organizam e pagam faturas, como membros da equipe de compras em sua organização.
 
-| Função                          | Descrição                                                                       |
+| Role                          | Descrição                                                                       |
 |-----------------------------  |---------------------------------------------------------------------------------  |
 | Proprietário do perfil de cobrança         | Gerenciar tudo para um perfil de cobrança                                           |
 | Colaborador de perfil de cobrança   | Gerenciar tudo, exceto permissões em um perfil de cobrança                         |
 | Leitor de perfil de cobrança        | Exibição somente leitura de tudo em um perfil de cobrança                                 |
-| Gerenciador de notas fiscais               | Exibir e pagar faturas e ter uma exibição somente leitura de tudo em um perfil de cobrança   |
+| Gerenciador de faturas               | Exibir e pagar contas e tem uma exibição somente leitura de tudo em um perfil de cobrança   |
 
 ## <a name="view-billing-profiles"></a>Exibir perfis de cobrança
 
@@ -67,19 +67,19 @@ As funções nos perfis de cobrança têm permissões para controlar compras e e
 
 2. Escolha **Perfis de** cobrança e escolha um perfil de cobrança na lista.
 
-    - Na guia **Visão geral,** você pode editar detalhes do perfil de cobrança e ativar ou desativar o envio de uma fatura por email.
+    - Na guia **Visão** geral, você pode editar detalhes do perfil de cobrança e ativar ou desativar o envio de uma fatura por email.
 
     - Na guia **Permissões,** você pode atribuir funções aos usuários para pagar faturas.
 
-    - Na guia saldo de crédito do **Azure,** os clientes do Azure podem ver o histórico de saldos de transações dos créditos do Azure usados por esse perfil de cobrança.
+    - Na guia saldo de crédito do **Azure,** os clientes do Azure podem ver o histórico do saldo de transações dos créditos do Azure usados por esse perfil de cobrança.
 
-    - Na guia créditos do **Azure,** os clientes do Azure podem ver uma lista de créditos do Azure associados a esse perfil de cobrança e suas datas de vencimento.
+    - Na guia Créditos do **Azure,** os clientes do Azure podem ver uma lista de créditos do Azure associados a esse perfil de cobrança e suas datas de expiração.
 
     > [!NOTE]
     > Se você não tiver créditos do Azure, não verá o saldo de crédito do **Azure** ou as guias de créditos do **Azure.**
 
 ## <a name="need-help-contact-support"></a>Precisa de ajuda? Fale com o suporte.
 
-Se você tiver dúvidas ou precisar de ajuda com seus encargos do Azure, crie uma solicitação de suporte com o suporte <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">do Azure.</a>
+Se você tiver dúvidas ou precisar de ajuda com suas cobranças do Azure, crie uma solicitação de suporte <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">com o suporte do Azure.</a>
 
-Se você tiver dúvidas ou precisar de ajuda com seu perfil de cobrança no Centro de administração do Microsoft 365, entre em contato com [o suporte para produtos comerciais.](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
+Se você tiver dúvidas ou precisar de ajuda com seu perfil de cobrança no Centro de administração do Microsoft 365, [contate o suporte para produtos comerciais.](/office365/admin/contact-support-for-business-products)

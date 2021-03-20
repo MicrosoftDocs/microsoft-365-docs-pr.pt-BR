@@ -20,12 +20,12 @@ ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como reter o conteúdo da caixa de correio para ex-funcionários transformando a caixa de correio em uma caixa de correio inativa.
-ms.openlocfilehash: 7a10b3327dda148c3328f53826a81464b86a7a0a
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 6aeb10f1557a991523b60b8e8e85a99fc61f4b87
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423612"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911247"
 ---
 # <a name="overview-of-inactive-mailboxes"></a>Visão geral de caixas de correio inativas
 
@@ -71,7 +71,7 @@ Você pode considerar a criação de uma política de retenção do Microsoft 36
 
 Se uma responsabilidade associada & a um caso de Descoberta Eletrônico no Centro de Conformidade e Segurança for colocada em uma caixa de correio e, em seguida, a caixa de correio ou a conta do usuário for excluída, a caixa de correio se tornará uma caixa de correio inativa. However, we don't recommend using eDiscovery case holds to make a mailbox inactive. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. At some point, a legal case will probably end and the holds associated with the case will be removed and the eDiscovery case will be closed. In fact, if a hold that's placed on an inactive mailbox is associated with an eDiscovery case, and then the hold is released or the eDiscovery case is closed (or deleted), the inactive mailbox will be permanently deleted. Além disso, você não pode criar uma espera de Descoberta eDiscovery baseada em tempo. Isso significa que o conteúdo em uma caixa de correio inativa será mantido para sempre ou até que a moção seja removida e a caixa de correio inativa seja excluída. Portanto, recomendamos usar uma Retenção de Litígio ou uma política de retenção para caixas de correio inativas.
 
-Para obter mais informações sobre os casos de Descoberta e Resções, consulte [eDiscovery cases](ediscovery-cases.md).
+Para obter mais informações sobre os casos de Descoberta e Resções, consulte [eDiscovery cases](./get-started-core-ediscovery.md).
 
 ## <a name="inactive-mailboxes-and-labels"></a>Caixas de correio e rótulos inativos
 

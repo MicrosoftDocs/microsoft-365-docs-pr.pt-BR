@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
 ms.date: 07/31/2020
-ms.openlocfilehash: 5bf257847ec880855841035792c7714fd24d9b68
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 395c9773d4bc67ed466d7b3f8d568cecedddfd36
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928527"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911634"
 ---
 # <a name="view-your-bill-or-invoice"></a>Exibir sua conta ou fatura
 
@@ -80,4 +80,4 @@ Se você tem um saldo e deseja pagar, é possível fazer isso online. Para saber
 
 [Pagar por fatura, cartão de crédito ou débito em conta](pay-for-your-subscription.md) (artigo) \
 [Gerenciar métodos de pagamento](manage-payment-methods.md) (artigo) \
-[Minecraft: Education Edition, opções de pagamento](https://go.microsoft.com/fwlink/p/?linkid=838761) (artigo) \
+[Minecraft: Education Edition, opções de pagamento](/education/windows/school-get-minecraft) (artigo) \

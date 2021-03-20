@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Obtenha uma visão geral da compreensão de documentos no Microsoft SharePoint Syntex.
-ms.openlocfilehash: d2bf581468eeee008d09a242876bed5ad07ae01f
-ms.sourcegitcommit: 78f48304f990e969a052fe6536b2e8d6856e1086
+ms.openlocfilehash: e3b239260953837f70663bb6f7e2dba1676c49eb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50242405"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911193"
 ---
 # <a name="document-understanding-overview"></a>Visão geral da compreensão de documentos
 
@@ -31,7 +31,7 @@ ms.locfileid: "50242405"
 A compreensão de documentos usa modelos de inteligência artificial (IA) para automatizar a classificação de arquivos e a extração de informações. Ele funciona melhor com documentos não estruturados, como cartas ou contratos. Esses documentos devem ter texto que pode ser identificado com base em frases ou padrões. O texto identificado designa o tipo de arquivo (sua classificação) e o que você deseja extrair (suas extrações).
 
 > [!NOTE]
-> Confira [Adoção do SharePoint Syntex: guia de introdução](https://docs.microsoft.com/microsoft-365/contentunderstanding/adoption-getstarted#document-understanding-scenario-example) para saber mais sobre os exemplos de cenários da compreensão de documentos.
+> Confira [Adoção do SharePoint Syntex: guia de introdução](./adoption-getstarted.md#document-understanding-scenario-example) para saber mais sobre os exemplos de cenários da compreensão de documentos.
 
 Os modelos de compreensão de documentos são criados e gerenciados em um tipo de site do SharePoint chamado *centro de conteúdo*. Quando aplicada a uma biblioteca de documentos do SharePoint, o modelo é associado a um tipo de conteúdo que possui colunas para armazenar as informações que estão sendo extraídas. O tipo de conteúdo que você cria é armazenado na galeria de tipos de conteúdo do SharePoint. Você também pode optar por usar os tipos de conteúdo existentes para usar o esquema.
 

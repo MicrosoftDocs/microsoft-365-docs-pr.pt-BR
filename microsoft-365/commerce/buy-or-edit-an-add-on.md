@@ -19,19 +19,19 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - Commerce
-ms.openlocfilehash: 22868021fec978f8f55c47adca82438f1ae51029
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: ea9cdb6edf3aaac1575b1d2b14790bd28876ee26
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405859"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911633"
 ---
 # <a name="buy-or-manage-add-ons"></a>Comprar ou gerenciar complementos
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -44,13 +44,13 @@ Há dois tipos de complementos:
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador Global ou de Cobrança para realizar as etapas descritas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador Global ou de Cobrança para realizar as etapas descritas neste artigo. Para mais informações, consulte [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="buy-an-add-on"></a>Comprar um complemento
 
 Use as etapas a seguir para encontrar e comprar complementos. A lista inclui apenas complementos que estão disponíveis para você. Essa lista é baseada em suas assinaturas ativas no momento e em quaisquer outros complementos existentes que você já tenha. Se um complemento não estiver na lista, ele não estará disponível para compra.
 
-Para saber mais sobre complementos do Skype for Business, veja [Licenciamento do complemento do Skype for Business e do Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Para saber mais sobre complementos do Skype for Business, veja [Licenciamento do complemento do Skype for Business e do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 1. No centro de administração, vá para a página **Serviços de** Compra \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">de</a> Cobrança.
 2. Na parte inferior da página **Serviços de** Compra, na seção **Complementos,** encontre o complemento que você deseja comprar e selecione **Detalhes**.

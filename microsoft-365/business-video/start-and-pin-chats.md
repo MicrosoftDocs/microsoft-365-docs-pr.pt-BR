@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como iniciar e fixar chats no Microsoft Teams.
-ms.openlocfilehash: 02e7336a5de51526e7c1535eb62724823753d8a0
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 8026c71ebda6c6d65c953fa4983180d80a5df536
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421878"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913593"
 ---
 # <a name="chat-with-employees-and-customers"></a>Converse com funcionários e clientes
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWedV6?autoplay=false]
 
-Você pode conversar internamente com seus colegas de trabalho ou conversar com um usuário convidado, como um cliente ou um parceiro. Se [o acesso de convidado estiver ligado](https://docs.microsoft.com/microsoftteams/set-up-guests) para sua empresa, basta digitar um endereço de email para adicionar um convidado a um chat.
+Você pode conversar internamente com seus colegas de trabalho ou conversar com um usuário convidado, como um cliente ou um parceiro. Se [o acesso de convidado estiver ligado](/microsoftteams/set-up-guests) para sua empresa, basta digitar um endereço de email para adicionar um convidado a um chat.
 
 ## <a name="try-it"></a>Experimente!
 

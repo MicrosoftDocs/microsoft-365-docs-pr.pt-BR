@@ -20,12 +20,12 @@ search.appverid:
 description: Saiba mais sobre os recursos do Microsoft 365 Business Premium.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 2183c3c865b618d71e15b366f7eaed091101bbc7
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: b92e3790e83c5da62d65e6c98bf448d33862df54
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421618"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913533"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
@@ -46,4 +46,4 @@ Quando você se inscreve no Microsoft 365 Business Premium, obtém todas as mesm
 | Proteja seus dispositivos | Você pode proteger seus arquivos de trabalho em dispositivos restringindo o acesso móvel, como copiar e colar. Você também pode limpar seletivamente os dados corporativos dos dispositivos móveis registrados, caso eles sejam perdidos ou roubados. |
 | Recursos de segurança adicionais | Recursos avançados do Microsoft 365 Business Premium estão disponíveis para ajudá-lo a proteger sua empresa contra ameaças cibernéticas e proteger informações confidenciais. Os recursos incluem proteção avançada contra ameaças do Office 365, políticas de prevenção de perda de dados (DLP), arquivamento do Exchange Online, Proteção de Informações do Microsoft Azure e Intune. |
 
-Para mais detalhes, confira [Conteúdo do Microsoft 365 Business](https://docs.microsoft.com/microsoft-365/business/).
+Para mais detalhes, confira [Conteúdo do Microsoft 365 Business](../business/index.yml).

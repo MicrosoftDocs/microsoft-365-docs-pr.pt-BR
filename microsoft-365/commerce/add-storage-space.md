@@ -23,19 +23,19 @@ search.appverid:
 - MET150
 description: Aprenda a adicionar e reduzir o armazenamento de arquivos em sua assinatura do Microsoft 365. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e no OneDrive.
 ms.date: ''
-ms.openlocfilehash: 626cc81faea43ebdcf618a4f26c33069bae6a206
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: b170924f40d517cb6bbdf8635ad3e163eadc8643
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405883"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911921"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Adicionar espaço de armazenamento para sua assinatura
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
@@ -50,18 +50,18 @@ Você deve ser um administrador global ou do SharePoint para realizar as tarefas
 
 ## <a name="view-available-storage"></a>Exibir armazenamento disponível
 
-1. No Centro de administração do SharePoint, vá para a página <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">Sites</a> ativos e entre com uma conta que tenha permissões de administrador [para](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) sua organização.
+1. No Centro de administração do SharePoint, vá para a página <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">Sites</a> ativos e entre com uma conta que tenha permissões de administrador [para](/sharepoint/sharepoint-admin-role) sua organização.
 
 2. No canto superior direito da página, veja a quantidade de armazenamento usada em todos os sites e o armazenamento total para sua assinatura. Se sua organização configurou o Multi-Geo no Office 365, a barra também mostra a quantidade de armazenamento usada em todas as localizações geográficas.
 
-   ![Barra de armazenamento na página de sites ativos](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
+   ![Barra de armazenamento na página de sites ativos](/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
 
    > [!NOTE]
    > O armazenamento usado não inclui alterações feitas nas últimas 24 a 48 horas.
 
 Depois de determinar quanto armazenamento você está usando, você pode adicionar ou remover o espaço de armazenamento para sua assinatura. Para descobrir quanto custará para adicionar espaço de armazenamento, siga as etapas deste artigo e revise as informações de preços antes de comprar mais.
   
-Para obter informações sobre como definir limites de armazenamento do conjunto de sites, consulte [Manage site collection storage limits](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits).
+Para obter informações sobre como definir limites de armazenamento do conjunto de sites, consulte [Manage site collection storage limits](/sharepoint/manage-site-collection-storage-limits).
   
 ## <a name="add-storage-to-your-subscription"></a>Adicionar armazenamento à sua assinatura
 
@@ -112,4 +112,4 @@ O Office 365 com Espaço de Armazenamento Adicional está disponível para as se
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Gerenciar limites de armazenamento de site](ttps://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) (artigo)\
-[Definir o espaço de armazenamento padrão para usuários do OneDrive](https://docs.microsoft.com/onedrive/set-default-storage-space)(artigo)
+[Definir o espaço de armazenamento padrão para usuários do OneDrive](/onedrive/set-default-storage-space)(artigo)

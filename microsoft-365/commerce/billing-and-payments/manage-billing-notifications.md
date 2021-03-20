@@ -1,5 +1,5 @@
 ---
-title: Gerenciar notificações de cobrança e anexos de fatura
+title: Gerenciar notificações de faturamento e anexos de fatura
 f1.keywords:
 - CSH
 ms.author: cmcatee
@@ -19,14 +19,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Saiba como gerenciar quem recebe emails de notificação de cobrança e anexos de fatura.
-ms.openlocfilehash: f0811c5d027d042b5114c9e05c698dab1e08763b
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 8997a4d3ca575c60214adbedccc018e6768850cd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515215"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911849"
 ---
-# <a name="manage-billing-notifications-and-invoice-attachments"></a>Gerenciar notificações de cobrança e anexos de fatura
+# <a name="manage-billing-notifications-and-invoice-attachments"></a>Gerenciar notificações de faturamento e anexos de fatura
 
 A **página Notificações de** cobrança permite gerenciar quem recebe emails de notificação de cobrança para sua organização. A página também oferece a opção de receber as faturas da sua organização [como anexos de email.](#receive-your-organizations-invoices-as-email-attachments)
 
@@ -109,7 +109,7 @@ Os emails de notificação de cobrança são enviados para os endereços de emai
 - Colaborador de perfil de cobrança
 - Gerenciador de faturas
 
-Para saber mais sobre funções de perfil de cobrança e como gerenciá-las, consulte Compreender funções administrativas do Contrato de Cliente da [Microsoft no Azure](https://docs.microsoft.com/azure/cost-management-billing/manage/understand-mca-roles).
+Para saber mais sobre funções de perfil de cobrança e como gerenciá-las, consulte Compreender funções administrativas do Contrato de Cliente da [Microsoft no Azure](/azure/cost-management-billing/manage/understand-mca-roles).
 
 Para alterar quem recebe as notificações de cobrança da sua organização, use as etapas a seguir para alterar as funções atribuídas aos usuários.
 
@@ -127,6 +127,6 @@ Para receber suas faturas como anexos às notificações de fatura, use as etapa
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Exibir sua fatura ou fatura](view-your-bill-or-invoice.md) (artigo)\
+[Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)\
 [Entenda sua fatura ou fatura do Microsoft 365 for business](understand-your-invoice2.md) (artigo)\
 [Adicionar usuários e atribuir licenças ao mesmo tempo](../../admin/add-users/add-users.md) (artigo)

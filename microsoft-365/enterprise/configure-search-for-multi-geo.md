@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Saiba como configurar a pesquisa em um ambiente multi-geo. Somente alguns clientes, como o OneDrive for Business, podem retornar resultados em um ambiente multi-geo.
-ms.openlocfilehash: e213e93cfbc967a723b4d27f4b36a83fe6687da9
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: b3a96b1d0652cb954c58ae410583befa078460d9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547147"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911157"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Configurar a Pesquisa do Microsoft 365 Multi-Geo
 
@@ -84,12 +84,12 @@ Alguns recursos de pesquisa que talvez você conheça funcionam diferente em um 
 <tr class="odd">
 <td align="left"></td>
 <td align="left">A pesquisa multigeográfica não dá suporte a bucketing dinâmico para refinadores numéricos.</td>
-<td align="left">Use o <a href="https://docs.microsoft.com/sharepoint/dev/general-development/query-refinement-in-sharepoint">parâmetro "Discretize"</a> para refinadores numéricos.</td>
+<td align="left">Use o <a href="/sharepoint/dev/general-development/query-refinement-in-sharepoint">parâmetro "Discretize"</a> para refinadores numéricos.</td>
 </tr>
 <tr class="even">
 <td align="left">IDs do documento</td>
 <td align="left">Se você estiver desenvolvendo um aplicativo orientado por pesquisa que depende de IDs de documento, observe que as IDs de documento em um ambiente multigeográfico não são exclusivas entre localizações geográficas, elas são exclusivas por localização geográfica.</td>
-<td align="left">Adicionar uma coluna que identifique a localização geográfica. Use essa coluna para ter exclusividade. Essa coluna é chamada de "GeoLocationSource".</td>
+<td align="left">Adicionar uma coluna que identifique a localização geográfica. Use essa coluna para ter exclusividade. Esta coluna é chamada "GeoLocationSource".</td>
 </tr>
 <tr class="odd">
 <td align="left">Número de resultados</td>
@@ -98,7 +98,7 @@ Alguns recursos de pesquisa que talvez você conheça funcionam diferente em um 
 </tr>
 <tr class="even">
 <td align="left">Pesquisa híbrida</td>
-<td align="left">Em um ambiente do SharePoint híbrido com <a href="https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">pesquisa híbrida de nuvem</a>, o conteúdo local é adicionado ao índice do Microsoft 365 da localização central.</td>
+<td align="left">Em um ambiente do SharePoint híbrido com <a href="/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">pesquisa híbrida de nuvem</a>, o conteúdo local é adicionado ao índice do Microsoft 365 da localização central.</td>
 <td align="left"></td>
 </tr>
 </tbody>
@@ -168,7 +168,7 @@ Cada centro de pesquisa tem vários verticais e você precisará configurar cada
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
 ## <a name="get-custom-search-applications-to-show-results-from-all-or-some-geo-locations"></a>Obter aplicativos de pesquisa personalizada para mostrar resultados de todas ou algumas localizações geográficas
 
-Os aplicativos de pesquisa personalizada obtêm resultados de todas ou algumas localizações geográficas, especificando-se os parâmetros de consulta com a solicitação para a API REST de pesquisa do SharePoint. Dependendo dos parâmetros de consulta, realiza-se fan-out da consulta para todas ou algumas localizações geográficas. Por exemplo, se você apenas precisar consultar um subconjunto de localizações geográficas para encontrar informações relevantes, você pode controlar o fan-out apenas de acordo com elas. Se a solicitação for concluída, a API REST de pesquisa do SharePoint retorna dados de resposta.
+Os aplicativos de pesquisa personalizados têm resultados de todas as localizações geográficas, especificando parâmetros de consulta com a solicitação para a API REST de Pesquisa do SharePoint. Dependendo dos parâmetros de consulta, a consulta é ampliada para todas as localizações geográficas ou para algumas localizações geográficas. Por exemplo, se você precisar consultar apenas um subconjunto de localizações geográficas para encontrar informações relevantes, poderá controlar o fan para apenas estes. Se a solicitação for bem-sucedida, a API REST de Pesquisa do SharePoint retornará dados de resposta.
 
 ### <a name="requirement"></a>Requisito
 
@@ -205,7 +205,7 @@ MultiGeoSearchConfiguration - Isso é uma lista opcional de localizações geogr
 </tbody>
 </table>
 
-Se você omitir DataLocation ou EndPoint ou se um DataLocation estiver duplicado, a solicitação falhará. [Você pode obter informações sobre o ponto de extremidade das localizações geográficas de um locatário usando o Microsoft Graph](https://docs.microsoft.com/sharepoint/dev/solution-guidance/multigeo-discovery).
+Se você omitir DataLocation ou EndPoint ou se um DataLocation estiver duplicado, a solicitação falhará. [Você pode obter informações sobre o ponto de extremidade das localizações geográficas de um locatário usando o Microsoft Graph](/sharepoint/dev/solution-guidance/multigeo-discovery).
 
 ### <a name="response-data"></a>Dado de resposta
 
@@ -253,7 +253,7 @@ Com uma solicitação GET, você especifica os parâmetros da consulta na URL. C
 
 #### <a name="sample-get-request-thats-fanned-out-to-all-geo-locations"></a>Exemplo de solicitação GET da qual se realiza fan-out para **todas** as localizações geográficas
 
-https:// \<tenant\> / \_ api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my \_ client \_ id'
+https:// \<tenant\> / \_ api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my \_ \_ client id'
 
 #### <a name="sample-get-request-to-fan-out-to-some-geo-locations"></a>Exemplo de solicitação GET da qual realizar fan-out para **algumas** localizações geográficas
 

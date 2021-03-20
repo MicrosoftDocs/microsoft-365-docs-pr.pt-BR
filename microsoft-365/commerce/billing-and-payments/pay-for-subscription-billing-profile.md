@@ -19,52 +19,52 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 15feb1b806b46d147d427256ce2416ea75b48bbe
-ms.sourcegitcommit: d739f48b991793c08522a3d5323beba27f0111b2
+ms.openlocfilehash: 750420b6fac8fff16130710ef96a9ceb6345a87a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50143061"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911825"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>Como pagar sua assinatura com um perfil de cobrança
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
-Ao comprar uma assinatura, você paga por ela com um perfil de cobrança. O perfil de cobrança é vinculado a uma forma de pagamento específica e pode ser um cartão de crédito ou débito, ou uma fatura, mas não uma conta bancária.
+Ao comprar uma assinatura, você paga por ela com um perfil de cobrança. O perfil de cobrança está vinculado a um método de pagamento específico e pode ser um cartão de crédito ou débito, ou uma fatura, mas não uma conta bancária.
 
-Se você não tiver certeza se sua conta tem um perfil de cobrança, consulte [Entender os perfis de cobrança.](manage-billing-profiles.md) Se você não tiver um perfil de cobrança, confira [Como pagar sua assinatura.](pay-for-your-subscription.md)
+Se você não tiver certeza se sua conta tem um perfil de faturamento, consulte [Entenda os perfis de faturamento](manage-billing-profiles.md). Se você não tiver um perfil de cobrança, consulte [How to pay for your subscription](pay-for-your-subscription.md).
 
 ## <a name="paying-with-recurring-billing-turned-on-or-off"></a>Pagar com cobrança recorrente ligado ou desligado
 
-Por padrão, a cobrança recorrente é automaticamente ativado para todas as assinaturas pagas que usam cobranças recorrentes. A cada período de cobrança, cobramos automaticamente o método de pagamento associado ao perfil de cobrança para pagar todas as assinaturas que usam esse perfil de cobrança. Se sua forma de pagamento for  recusada, você poderá usar o botão Pagar agora em sua fatura para fazer um pagamento único para sua assinatura.
+Por padrão, a cobrança recorrente é automaticamente ativado para todas as assinaturas pagas que usam cobrança recorrente. A cada período de cobrança, cobramos automaticamente o método de pagamento associado ao perfil de cobrança para pagar quaisquer assinaturas que usem esse perfil de cobrança. Se sua forma de pagamento for recusada, você poderá usar o botão **Pagar** agora em sua fatura para fazer um pagamento único para sua assinatura.
 
-Se a cobrança recorrente estiver desligada para um perfil  de cobrança, você poderá usar o botão Pagar agora em sua fatura para pagar por ela a cada período de cobrança, independentemente da forma de pagamento que está vinculada ao perfil de cobrança. Você também pode pagar por cheque ou transferência eletrônica de fundos (EFT). Instruções sobre como fazer isso estão incluídas na cópia em PDF da fatura.
+Se a cobrança recorrente estiver desligada para um perfil  de cobrança, você poderá usar o botão Pagar agora em sua fatura para pagar por ela a cada período de cobrança, independentemente do método de pagamento vinculado ao perfil de cobrança. Você também pode pagar por verificação ou transferência de fundos eletrônicos (EFT). Instruções sobre como fazer isso estão incluídas na cópia PDF da fatura.
 
 ## <a name="paying-by-invoice"></a>Pagar por fatura
 
-Se você tiver um perfil de cobrança que está definido para ser pago por fatura, poderá pagar sua assinatura com um cheque ou EFT. Você também pode usar um cartão de crédito para fazer um pagamento online usando o **botão Pagar agora** em sua fatura.
+Se você tiver um perfil de cobrança definido para ser pago por fatura, poderá pagar sua assinatura com uma verificação ou EFT. Você também pode usar um cartão de crédito para fazer um pagamento online usando o **botão Pagar agora** em sua fatura.
 
-Para ser qualificado para pagar por fatura, você deve:
+Para ser elegível para pagar por fatura, você deve:
 
-- Ser um cliente estabelecido
-- Ter um custo de assinatura que exceda um determinado valor (esse valor varia de acordo com o local do serviço)
+- Seja um cliente estabelecido
+- Têm um custo de assinatura que excede um determinado valor (este valor varia de acordo com a localização do serviço)
 - Passar uma verificação de crédito
 
 Se for necessária uma verificação de crédito, você será notificado quando adquirir sua assinatura. Se concordar em ser contatado, você receberá um email que inclui mais informações sobre a aplicação da aprovação de crédito. Geralmente, as verificações de crédito são concluídas em dois dias úteis.
 
-Se o seu perfil de cobrança for respaldado por uma fatura, você recebe um email quando seu extrato de cobrança estiver pronto para exibição. Esse email não apresentará uma cópia do extrato da sua fatura. No entanto, é possível optar por [receber uma cópia do extrato da sua fatura por email](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email). O extrato da sua fatura inclui detalhes sobre as opções de pagamento e para onde enviá-lo. Se você inserir um número de ordem de compra (OO) em seu perfil de cobrança, o número aparecerá no seu extrato de cobrança. Para obter informações sobre como acessar extratos de cobrança, consulte [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
+Se seu perfil de cobrança tiver o suporte de uma fatura, você recebe um email quando sua instrução de cobrança estiver pronta para exibição. Esse email não apresentará uma cópia do extrato da sua fatura. No entanto, é possível optar por [receber uma cópia do extrato da sua fatura por email](view-your-bill-or-invoice.md#receive-a-copy-of-your-billing-statement-in-email). O extrato da sua fatura inclui detalhes sobre as opções de pagamento e para onde enviá-lo. Se você inserir um número de ordem de compra (PO) em seu perfil de cobrança, o número aparecerá em sua instrução de cobrança. Para obter informações sobre como acessar extratos de cobrança, consulte [Visualizar sua cobrança ou fatura](view-your-bill-or-invoice.md).
 
-## <a name="where-do-i-send-my-check-or-eft-payment"></a>Para onde eu envio o boleto ou o pagamento por transferência bancária?
+## <a name="where-do-i-send-my-check-or-eft-payment"></a>Para onde envio meu cheque ou pagamento por TEF?
 
-[Verifique sua fatura para obter](view-your-bill-or-invoice.md) instruções de pagamento. Você também pode usar o drop-down abaixo para encontrar instruções de pagamento para seu país. Se você não tiver certeza de quanto deve, poderá verificar sua fatura e o histórico de cobrança online na guia **Faturas** da página Faturas <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& pagamentos.</a>
+[Verifique sua fatura](view-your-bill-or-invoice.md) para obter instruções de pagamento. Você também pode usar o drop-down abaixo para encontrar instruções de pagamento para seu país. Se você não tiver certeza de quanto deve, pode verificar sua fatura e histórico de cobrança online no **Invoices** guia do <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Contas e pagamentos</a> página.
 
 > [!NOTE]
-> Pagar por cheque só está disponível em alguns países.
+> O pagamento em cheque está disponível apenas em alguns países.
 
  **Selecione o país ou a região de fatura no menu suspenso abaixo.**
 
@@ -224,18 +224,18 @@ Se o seu perfil de cobrança for respaldado por uma fatura, você recebe um emai
 
 ## <a name="can-i-pay-my-invoice-online"></a>Posso pagar minha fatura online?
 
-Se a cobrança recorrente estiver desligada para seu perfil de cobrança, você poderá usar um cartão de crédito para pagar sua fatura online. Para fazer um pagamento, use o **botão Pagar agora** em sua fatura no Centro de administração do Microsoft 365. Para encontrar sua fatura, consulte [Exibir sua fatura ou fatura.](view-your-bill-or-invoice.md)
+Se a cobrança recorrente estiver desligada para seu perfil de cobrança, você poderá usar um cartão de crédito para pagar sua fatura online. Para fazer um pagamento, use o **botão Pagar agora** em sua fatura no Centro de administração do Microsoft 365. Para encontrar sua fatura, consulte [Exibir sua fatura ou fatura](view-your-bill-or-invoice.md).
 
-## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Posso mudar da minha forma de pagamento atual para pagar por fatura?
+## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Posso mudar do meu método de pagamento atual para o pagamento por fatura?
 
-Se o seu perfil de cobrança for respaldado por cartão de crédito ou débito, você só poderá alterar a forma de pagamento para outro cartão de crédito ou débito. Você não pode mudar para pagar por fatura.
+Se seu perfil de cobrança tiver o suporte de cartão de crédito ou débito, você só poderá alterar o método de pagamento para outro cartão de crédito ou débito. Você não pode mudar para pagar por fatura.
 
-## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>Posso mudar de pagar por fatura para usar uma forma de pagamento diferente?
+## <a name="can-i-change-from-paying-by-invoice-to-using-a-different-payment-method"></a>Posso mudar de pagamento por fatura para um método de pagamento diferente?
 
-Se o seu perfil de cobrança for respaldado por pagamentos por fatura, você não poderá alterar a forma de pagamento. Você pode usar o **botão Pagar agora** em sua fatura para pagar com um cartão de crédito ou débito, ou por cheque ou EFT.
+Se seu perfil de cobrança for respaldado por pagamentos de fatura, você não poderá alterar o método de pagamento. Você pode usar o **botão Pagar agora** em sua fatura para pagar com um cartão de crédito ou débito, ou por verificação ou EFT.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Gerenciar formas de pagamento](manage-payment-methods.md) (artigo)\
-[Exibir sua fatura ou fatura](view-your-bill-or-invoice.md) (artigo)\
-[Entenda sua fatura ou fatura](understand-your-invoice.md) (artigo)
+[Gerenciar métodos de pagamento](manage-payment-methods.md) (artigo)\
+[Ver sua conta ou fatura](view-your-bill-or-invoice.md) (artigo)\
+[Entenda sua conta ou fatura](understand-your-invoice.md) (artigo)

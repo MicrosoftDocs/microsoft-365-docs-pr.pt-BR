@@ -14,41 +14,41 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Saiba como ativar e gerenciar aplicativos de terceiros no Centro de administração do Microsoft 365.
-ms.openlocfilehash: 071f95c838620fb11350a829cbfed249e7c34f6e
-ms.sourcegitcommit: 0d709e9ab0d8d56c5fc11a921298f82e40e122c5
+ms.openlocfilehash: f560b23871fc6d6ecb319a5704453f2400cb9982
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50114712"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911405"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
 
-Você pode gerenciar licenças e cobranças para aplicativos de terceiros no novo centro de administração do Microsoft 365. Os recursos atualizados incluem gerenciamento de assinatura aprimorado, acesso aprimorado às informações de cobrança e maior flexibilidade para gerenciar contas. O gerenciamento de assinaturas baseia-se na plataforma de comércio atualizada da Microsoft. Isso se aplica aos aplicativos de software como serviço que os clientes compram diretamente ou de um provedor de terceiros.
+Você pode gerenciar licenças e cobranças para aplicativos de terceiros no novo centro de administração do Microsoft 365. Os recursos atualizados incluem gerenciamento aprimorado de assinatura, acesso aprimorado às informações de cobrança e flexibilidade aprimorada para gerenciar contas. O gerenciamento de assinatura se baseia na plataforma de comércio atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes compram diretamente ou de um provedor de terceiros.
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet&preserve-view=true).
+> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 ::: moniker-end
 
-Você pode gerenciar licenças e cobranças para aplicativos de terceiros no Centro de administração do Microsoft 365 com o modo de visualização ligado. Os recursos atualizados incluem gerenciamento de assinatura aprimorado, acesso aprimorado às informações de cobrança e maior flexibilidade para gerenciar contas. O gerenciamento de assinaturas baseia-se na plataforma de comércio atualizada da Microsoft. Isso se aplica aos aplicativos de software como serviço que os clientes compram diretamente ou de um provedor de terceiros.
+Você pode gerenciar licenças e cobranças para aplicativos de terceiros no Centro de administração do Microsoft 365 com o modo de visualização ligado. Os recursos atualizados incluem gerenciamento aprimorado de assinatura, acesso aprimorado às informações de cobrança e flexibilidade aprimorada para gerenciar contas. O gerenciamento de assinatura se baseia na plataforma de comércio atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes compram diretamente ou de provedores de terceiros.
 
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Como obter aplicativos de software como serviço
 
 Há algumas maneiras de comprar aplicativos de terceiros.
 
-- **Compra direta** – os clientes podem comprar assinaturas diretamente do [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)ou [do AppSource.](https://www.appsource.com/)
-- **Compra de parceiro** – Trabalhe com um parceiro por meio do Partner Center para comprar assinaturas.
-- **Proposta da Microsoft** – Responda a uma proposta da Microsoft Sales que inclui aplicativos de terceiros.
+- **Compra direta** – os clientes podem comprar diretamente assinaturas do [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)ou [appSource](https://www.appsource.com/).
+- **Compra de parceiros** – trabalhe com um parceiro por meio do Partner Center para comprar assinaturas.
+- **Proposta da Microsoft** – Responda a uma proposta do Microsoft Sales que inclui aplicativos de terceiros.
 
-Depois que os clientes compram os aplicativos e aceitam o Contrato do Cliente Microsoft, eles podem gerenciá-los no Centro de administração do Microsoft 365 ou na Microsoft Store para Empresas.
+Depois que os clientes compram os aplicativos e aceitam o Contrato de Cliente da Microsoft, eles podem gerenciá-los no Centro de administração do Microsoft 365 ou na Microsoft Store para Empresas.
 
-Os provedores de aplicativos vendem seus aplicativos a uma taxa fixa ou comprando licenças para os usuários.
+Os provedores de aplicativos vendem seus aplicativos a uma taxa simples ou comprando licenças para usuários.
 
-- **Taxa fixa** – Também chamada de preço baseado no site, os aplicativos têm preço mensal ou anual. Na página do aplicativo, a quantidade de licenças é listada em Unlimited.
-- **Licenças** – Os aplicativos têm o preço pela licença. Os clientes atribuem licenças a cada usuário em sua organização
+- **Taxa simples** – Também chamado de preço baseado em site, os aplicativos têm preço mensal ou anual. Na página do aplicativo, a quantidade de licença é listada em Unlimited.
+- **Licenças** – Os aplicativos têm preço por licença. Os clientes atribuem licenças a cada usuário em sua organização
 
 ## <a name="supported-regions"></a>Regiões com suporte
 
@@ -71,7 +71,7 @@ O suporte para aplicativos de terceiros está disponível nessas regiões:
 
 Os administradores devem ativar aplicativos de terceiros antes de atribuí-los aos usuários. Esses aplicativos são ativados no portal do editor de terceiros.
 
-1. No centro de administração, vá para a página **Aplicativos de** Cobrança  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de Seus</a> Produtos.
+1. No centro de administração, vá para a página **Cobrança**  >  **aplicativos**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de</a> produtos.
 2. Encontre e selecione o aplicativo que você deseja gerenciar.
 3. Em **Configurações & ações,** selecione **Gerenciar no portal do editor.**
 
@@ -85,48 +85,48 @@ Veja o que você pode fazer em cada portal.
 
 | Centro de administração do Microsoft 365 | Portal do editor de aplicativos |
 | --- | --- |
-| Alterar a quantidade de licenças <br> Gerenciar como você paga sua fatura <br> Gerenciar como você paga sua fatura <br> Alterar a forma de pagamento (cartão de crédito) <br> Exibir fatura <br> Cancelar assinatura de aplicativo | Configurar aplicativo (uma vez para cada aplicativo) <br> Atribuir licenças aos usuários <br> Suporte técnico |
+| Alterar quantidade de licença <br> Gerenciar como você paga sua conta <br> Gerenciar como você paga sua conta <br> Alterar a forma de pagamento (cartão de crédito) <br> Exibir fatura <br> Cancelar assinatura de aplicativo | Configurar aplicativo (uma vez para cada aplicativo) <br> Atribuir licenças aos usuários <br> Suporte técnico |
 
-Depois que o aplicativo é ativado, ele permanece ativo, a menos que seja cancelado, expire ou se o pagamento não for mantido atualizado. Esses eventos alteram o status do aplicativo para desabilitado. Depois que um aplicativo é desabilitado, ele não pode ser reativado. Para continuar usando o aplicativo, compre outra cópia dela.
+Depois que o aplicativo é ativado, ele permanece ativo, a menos que seja cancelado, expire ou se o pagamento não for mantido atual. Esses eventos alteram o status do aplicativo para desabilitado. Depois que um aplicativo é desabilitado, ele não pode ser reativado. Para continuar usando o aplicativo, compre outra cópia dele.
 
 ## <a name="assign-licenses"></a>Atribua licenças
 
-Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Eles são ativados no portal do editor de terceiros. Na página do aplicativo, em **Configurações &** ações, selecione o link para atribuir licenças.
+Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Eles são ativados no portal do editor de terceiros. Na página do aplicativo, em **Configurações & ações,** selecione o link para atribuir licenças.
 
-1. No centro de administração, vá para a página **Aplicativos de** Cobrança  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de Seus</a> Produtos.
+1. No centro de administração, vá para a página **Cobrança**  >  **aplicativos**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de</a> produtos.
 2. Encontre e selecione o aplicativo que você deseja gerenciar.
-3. Em **Configurações & ações,** selecione o link para **Gerenciar no portal do editor.**
+3. Em **Configurações & ações**, selecione o link para Gerenciar no portal do **editor.**
 
-## <a name="change-license-quantity"></a>Alterar a quantidade de licenças
+## <a name="change-license-quantity"></a>Alterar quantidade de licença
 
-Os administradores podem alterar o número de licenças pertencentes à organização. Isso só se aplica a aplicativos comprados com preços baseados em assentos.
+Os administradores podem alterar o número de licenças pertencentes a sua organização. Isso só se aplica a aplicativos comprados com preços baseados em assento.
 
-1. No centro de administração, vá para a página **Aplicativos de** Cobrança  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de Seus</a> Produtos.
+1. No centro de administração, vá para a página **Cobrança**  >  **aplicativos**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de</a> produtos.
 2. Encontre e selecione o aplicativo que você deseja gerenciar.
-3. Selecione **Alterar quantidade de licenças.**
+3. Selecione **Alterar quantidade de licença**.
 
-## <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
+## <a name="manage-payment-methods"></a>Gerenciar formas de pagamento
 
-Cada aplicativo de software como serviço tem um perfil de cobrança atribuído a eles. Os perfis de cobrança permitem personalizar quais produtos estão incluídos em sua fatura e como você paga suas faturas. Elas incluem:
+Cada aplicativos de software como serviço têm um perfil de cobrança atribuído a eles. Os perfis de cobrança permitem personalizar quais produtos estão incluídos em sua fatura e como você paga suas faturas. Elas incluem:
 
-- **Formas de pagamento** – cartões de crédito ou transferência bancária/transferência eletrônica
+- **Métodos de pagamento** – Cartões de crédito ou check/transferência bancária
 - **Informações de contato** – Endereço de cobrança e um nome de contato
-- **Funções** – Funções que permitem alterar o perfil de cobrança, pagar faturas ou usar a forma de pagamento no perfil de cobrança para fazer a compra.
+- **Funções** – Funções que permitem alterar o perfil de cobrança, pagar contas ou usar o método de pagamento no perfil de cobrança para fazer a compra.
 
-Para obter mais informações sobre perfis de cobrança, consulte [Entender perfis de cobrança.](https://docs.microsoft.com/microsoft-store/billing-profile)
+Para obter mais informações sobre perfis de cobrança, consulte [Understand billing profiles](/microsoft-store/billing-profile).
 
 ### <a name="change-the-billing-profile-on-a-software-as-a-service-app-subscription"></a>Alterar o perfil de cobrança em uma assinatura de aplicativo de software como serviço
 
-1. No centro de administração, vá para a página **Aplicativos de** Cobrança  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de Seus</a> Produtos.
+1. No centro de administração, vá para a página **Cobrança**  >  **aplicativos**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de</a> produtos.
 2. Encontre e selecione o aplicativo que você deseja gerenciar.
 3. Ao lado **de Perfil de Cobrança,** selecione **Editar**.
 
-Para obter mais informações sobre faturas, [consulte Entender sua fatura ou fatura.](billing-and-payments/understand-your-invoice.md)
+Para obter mais informações sobre faturas, consulte [Understand your bill or invoice](billing-and-payments/understand-your-invoice.md).
 
 ## <a name="cancel-a-software-as-a-service-app-subscription"></a>Cancelar uma assinatura de aplicativo de software como serviço
 
 Você pode cancelar um aplicativo de software como serviço na página do aplicativo.
 
-1. No centro de administração, vá para a página **Aplicativos de** Cobrança  >    >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de Seus</a> Produtos.
+1. No centro de administração, vá para a página **Cobrança**  >  **aplicativos**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">de</a> produtos.
 2. Encontre e selecione o aplicativo que você deseja gerenciar.
-3. Em **Configurações & ações,** selecione **Cancelar assinatura.**
+3. Em **Configurações & ações,** selecione **Cancelar assinatura**.

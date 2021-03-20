@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como criar regras de email para evitar ransomware.
-ms.openlocfilehash: 0d8b4a9de881f47752ac0bfbf778453d6ee73046
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 34590945b13408cf3521f000d703bd37e04ba73f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422248"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913545"
 ---
 # <a name="create-email-rules-to-prevent-ransomware"></a>Criar regras de email para evitar ransomware
 
@@ -43,7 +43,7 @@ O Microsoft 365 ajuda a proteger sua empresa contra ransomware, impedindo que ar
 1. Em **Aplicar esta regra se**, selecione Qualquer **anexo** e selecione extensão de arquivo inclui **essas palavras**.
 1. Na caixa em especificar palavras ou **frases,** insira as extensões de arquivo às quais você deseja que a regra seja aplicada, como extensões de arquivo que podem conter macros. Use o símbolo plus (+) para adicioná-los um por vez.
 
-    Saiba mais sobre tipos de arquivo lendo [Proteger contra ransomware](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data#ransomware).
+    Saiba mais sobre tipos de arquivo lendo [Proteger contra ransomware](../admin/security-and-compliance/secure-your-business-data.md#ransomware).
 
 1. Role para baixo para revisar sua lista e escolha **OK**.
 1. Na nova **página de** regra, escolha **adicionar condição** e escolha uma condição em Fazer **o seguinte.**

@@ -23,25 +23,25 @@ search.appverid:
 - BCS160
 - MET150
 description: Entre no Microsoft 365. Proteja sua empresa, prática ou campanha contra ameaças de segurança cibernética a emails, dados e comunicação.
-ms.openlocfilehash: d2bc0ddbfbc839f1b389b844544f33c444012fb4
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: e115ec9fab8270f1b9dddcc33b2d20a5554e4f2e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044199"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912145"
 ---
 # <a name="sign-in-to-microsoft-365"></a>Entrar no Microsoft 365
 
-## <a name="for-business-or-campaign-admins"></a>Para administradores de campanha ou de negócios
+## <a name="for-business-or-campaign-admins"></a>Para administradores de empresas ou campanhas
 
-Se você se inscreveu no Microsoft 365, você é o administrador do Microsoft 365. Veja como entrar:
+Se você se inscreveu no Microsoft 365, será o administrador do Microsoft 365. Veja como entrar:
 
-1. Encontre o nome de usuário e a senha que enviamos para o endereço de email que você nos deu na etapa 2 das etapas [para se inscrever.](m365-campaigns-sign-up.md#steps-to-sign-up)
+1. Encontre o nome de usuário e a senha que enviamos para o endereço de email que você nos deu na etapa 2 de [Etapas para se inscrever](m365-campaigns-sign-up.md#steps-to-sign-up).
 2. No navegador, vá para o Centro de administração do Microsoft 365 em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 3. Digite seu nome de usuário e senha. Selecione **Entrar**. 
-4. No canto superior direito da página, encontre a **Visualização no** controle. Selecione **Visualizar para que** você possa usar todos os controles descritos em Proteção contra rea on da sua [campanha.](m365-campaigns-security-overview.md)
+4. Na parte superior direita da página, encontre o **controle Visualizar no** controle. Selecione **Visualizar em** para que você possa usar todos os controles descritos em Bump up protection for your [campaign](m365-campaigns-security-overview.md).
 
-## <a name="for-staff"></a>Para a equipe
+## <a name="for-staff"></a>Para funcionários
 
-Configurar a equipe conforme descrito em [Adicionar usuários](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) Você também pode redefinir e resendir senhas na **página** Adicionar usuários.
-Toda a equipe pode entrar <a href="https://office.com" target="_blank">https://Office.com</a> em.
+Configurar a equipe conforme descrito em [Adicionar usuários](../admin/add-users/add-users.md?toc=%2fmicrosoft-365%2fcampaigns%2ftoc.json) Você também pode redefinir e reendir senhas na página **Adicionar usuários.**
+Todos os funcionários podem entrar em <a href="https://office.com" target="_blank">https://Office.com</a> .

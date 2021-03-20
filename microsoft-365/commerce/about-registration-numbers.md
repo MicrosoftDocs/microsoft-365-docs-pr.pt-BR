@@ -18,13 +18,13 @@ description: Saiba mais sobre números de registro e notificações sob revisão
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-- Commerce
-ms.openlocfilehash: 342813fa103cb260c036de5dd2cdfd13bea12d33
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+- commerce
+ms.openlocfilehash: a9625b391260d27610bb304b0ae3788b541b7709
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717710"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50911973"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>Sobre números de registro e notificações de revisão
 
@@ -36,13 +36,15 @@ Usamos o número de registro para revisar os detalhes da sua conta. Isso nos per
 
 Para países onde o número de registro é obrigatório, o rótulo acima da caixa de texto indica qual tipo de número é necessário.
 
-<!-- For example, in the following screenshot, the label indicates that a CNPJ registration number is needed.
- add screenshot-->
+Por exemplo, na captura de tela a seguir, o rótulo indica que um número de registro CNPJ é necessário.
+
+:::image type="content" source="../media/macregnum-cnpj-screenshot-400.png" alt-text="Captura de tela do campo número de registro do número C N P J.":::
 
 Para países onde o número de registro é opcional, você pode optar por fornecer um número de registro legal da empresa. Não insira uma ID pessoal neste campo.
 
-<!-- The following screenshot shows an example of when the registration number is optional.
-add screenshot -->
+A captura de tela a seguir mostra um exemplo de quando o número de registro é opcional.
+
+:::image type="content" source="../media/macregnum-reg-screenshot_400.png" alt-text="Captura de tela do campo número de registro opcional.":::
 
 Se você não tiver um número de registro válido, consulte [Números de registro por país](#registration-numbers-by-country) para obter detalhes.
 
@@ -52,13 +54,15 @@ Ao concluir uma compra, você pode receber uma notificação de que sua conta es
 
 O processo de revisão normalmente leva cerca de um dia para ser concluído, mas pode levar mais tempo.
 
-<!-- The following screenshot shows the review notification displayed during checkout.
-add screenshot -->
+A captura de tela a seguir mostra a notificação de revisão exibida durante o check-out.
+
+:::image type="content" source="../media/macregnum_statuscheckout_screenshot_400.png" alt-text="Captura de tela do aviso de revisão de conta na página de check-out.":::
 
 Uma notificação de email também é enviada a todos os administradores Globais e de Cobrança em sua conta. Em alguns casos, a notificação é enviada aos usuários que têm a função De conta de cobrança proprietários ou colaboradores de contas de cobrança na conta. A notificação diz que uma revisão está em processo. Uma notificação de email de confirmação é enviada após a conclusão do processo de revisão.
 
-<!-- The following screenshot shows the notification displayed on the billing account details page.
-add screenshot -->
+A captura de tela a seguir mostra a notificação exibida na página de detalhes da conta de cobrança.
+
+:::image type="content" source="../media/macregnum-statusbillacct-screenshot_700.png" alt-text="Captura de tela da notificação em revisão na página contas de cobrança.":::
 
 ## <a name="registration-numbers-by-country"></a>Números de registro por país
 

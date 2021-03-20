@@ -19,7 +19,7 @@
     - name: Personalizar a página de entrada
       href: m365-customize-sign-in.md
     - name: Adicionar usuários
-      href: ../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json&bc=/microsoft-365/campaigns/breadcrumb/toc.json
+      href: ../admin/add-users/add-users.md?bc=%2fmicrosoft-365%2fcampaigns%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fcampaigns%2ftoc.json
 - name: Aumentar a capacidade de proteção
   items:
     - name: Visão geral
