@@ -11,8 +11,9 @@
         - name: Recomendações de segurança para contas de prioridade
           href: ./office-365-security/security-recommendations-for-priority-accounts.md
     - name: Identidade e configurações de acesso ao dispositivo
-      href: ./office-365-security/microsoft-365-policies-configurations.md
       items:
+        - name: Visão Geral
+          href: ./office-365-security/microsoft-365-policies-configurations.md
         - name: Trabalho de pré-requisito
           href: ./office-365-security/identity-access-prerequisites.md
         - name: Identidade comum e políticas de acesso ao dispositivo
@@ -360,6 +361,8 @@
               href: ./mtp/overview-security-center.md
             - name: Explorador de Ameaças (e detecções em tempo real)
               href: ./office-365-security/threat-explorer.md
+            - name: A página de entidade de email
+              href: ./office-365-security/mdo-email-entity-page.md
             - name: Visão geral do AIR
               href: ./office-365-security/office-365-air.md
             - name: Como funciona a investigação e resposta automatizadas
@@ -702,8 +705,8 @@
                 - name: Gerenciar grupos de funções no EOP autônomo
                   href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
     - name: Microsoft 365 for Enterprise
-      href: 'https://docs.microsoft.com/microsoft-365/enterprise'
+      href: ../enterprise/index.yml
     - name: Microsoft 365 for Business
-      href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
+      href: ./index.yml
     - name: Conformidade com o Microsoft 365
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/'
+      href: ../compliance/index.yml
