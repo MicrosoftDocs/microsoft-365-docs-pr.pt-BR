@@ -17,12 +17,12 @@ ms.collection:
 description: A Microsoft desenvolveu várias políticas, procedimentos e adotou várias práticas recomendadas do setor para ajudar a proteger nossos usuários contra emails abusivos, indesejados ou mal-intencionados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f53b1c36417b15e366b527dd1c12e4f23c06f632
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 8ed78e4a0f233e8d04fbcfb7d7fa7b3859bc0e17
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406591"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925226"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Referência: políticas, práticas e diretrizes
 
@@ -83,7 +83,7 @@ Os envios, ISP e outros provedores de serviços devem gerenciar ativamente a rep
 
 ## <a name="microsoft-365-limits"></a>Limites do Microsoft 365
 
-Os envios devem seguir os limites do Microsoft 365 listados em Limites de Proteção [do Exchange Online.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
+Os envios devem seguir os limites do Microsoft 365 listados em Limites de Proteção [do Exchange Online.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)
 
 ## <a name="email-delivery-resources-and-organizations"></a>Recursos e organizações de entrega de email
 

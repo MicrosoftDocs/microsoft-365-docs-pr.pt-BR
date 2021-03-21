@@ -14,54 +14,54 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: b468cb4b-a35c-43d3-85bf-65446998af40
-description: Saiba como usar o PowerShell para mover o conteúdo de um sistema de email de origem de uma só vez executando uma migração de recortar para o Microsoft 365.
-ms.openlocfilehash: 74e7791c4292598e4717e56af25e39b3c8208108
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+description: Saiba como usar o PowerShell para mover o conteúdo de um sistema de email de origem de uma só vez executando uma migração de recortamento para o Microsoft 365.
+ms.openlocfilehash: 60bd3cb246e04aba37be06f7a951abbf25708412
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948191"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924799"
 ---
 # <a name="use-powershell-to-perform-a-cutover-migration-to-microsoft-365"></a>Usar o PowerShell para realizar uma migração de substituição para o Microsoft 365
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 Você pode migrar o conteúdo das caixas de correio de usuário de um sistema de email de origem para o Microsoft 365 de uma só vez usando uma migração de transferência. Este artigo apresenta as tarefas para uma migração de substituição de email usando o PowerShell do Exchange Online.
 
-Ao analisar o tópico, o que você precisa saber sobre uma migração de migração de e-mail de recorte para o [Microsoft 365,](https://go.microsoft.com/fwlink/p/?LinkId=536688)você pode obter uma visão geral do processo de migração. Quando você estiver familiarizado com os conteúdos do artigo, use o seguinte para começar a migrar caixas de correio de um sistema de email para outro.
+Ao analisar o tópico, o que você precisa saber sobre uma migração de email de recortamento para o [Microsoft 365](/Exchange/mailbox-migration/what-to-know-about-a-cutover-migration), você pode obter uma visão geral do processo de migração. Quando você estiver familiarizado com os conteúdos do artigo, use o seguinte para começar a migrar caixas de correio de um sistema de email para outro.
 
 > [!NOTE]
-> Você também pode usar o Centro de administração do Exchange para realizar uma migração de recortar. Confira [Executar uma migração de recortar emails para o Microsoft 365.](https://go.microsoft.com/fwlink/p/?LinkId=536689)
+> Você também pode usar o Centro de administração do Exchange para executar uma migração de recortamento. Consulte [Perform a cutover migration of email to Microsoft 365](/Exchange/mailbox-migration/cutover-migration-to-office-365).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
-Tempo estimado para a conclusão da tarefa: 2-5 minutos para criar um lote de migração. Depois que o lote de migração é iniciado, a duração da migração irá variar com base no número de caixas de correio no lote, no tamanho de cada caixa de correio e na sua capacidade de rede disponível. Para obter informações sobre outros fatores que afetam o tempo necessário para migrar caixas de correio para o Microsoft 365, consulte Desempenho da [Migração.](https://go.microsoft.com/fwlink/p/?LinkId=275079)
+Tempo estimado para a conclusão da tarefa: 2-5 minutos para criar um lote de migração. Depois que o lote de migração é iniciado, a duração da migração irá variar com base no número de caixas de correio no lote, no tamanho de cada caixa de correio e na sua capacidade de rede disponível. Para obter informações sobre outros fatores que afetam quanto tempo leva para migrar caixas de correio para o Microsoft 365, consulte [Migration Performance](/Exchange/mailbox-migration/office-365-migration-best-practices).
 
-Para executar esses procedimentos, você precisa receber permissões. Para saber quais permissões são necessárias, confira a entrada "Migração" em uma tabela no tópico [Permissões de destinatários](https://go.microsoft.com/fwlink/p/?LinkId=534105).
+Para executar esses procedimentos, você precisa receber permissões. Para saber quais permissões são necessárias, confira a entrada "Migração" em uma tabela no tópico [Permissões de destinatários](/exchange/recipients-permissions-exchange-2013-help).
 
-Para usar os cmdlets do PowerShell do Exchange Online, você precisa entrar e importar os cmdlets para sua sessão local do Windows PowerShell. Confira [Conectar-se ao Exchange Online usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?LinkId=534121) para obter instruções.
+Para usar os cmdlets do PowerShell do Exchange Online, você precisa entrar e importar os cmdlets para sua sessão local do Windows PowerShell. Confira [Conectar-se ao Exchange Online usando o PowerShell remoto](/powershell/exchange/connect-to-exchange-online-powershell) para obter instruções.
 
-Para obter uma lista completa dos comandos de migração, confira [Cmdlets de movimentação e migração](https://go.microsoft.com/fwlink/p/?LinkId=534750).
+Para obter uma lista completa dos comandos de migração, confira [Cmdlets de movimentação e migração](/powershell/exchange/).
 
 ## <a name="migration-steps"></a>Etapas da migração
 
 ### <a name="step-1-prepare-for-a-cutover-migration"></a>Etapa 1: preparar para uma migração de transferência
 <a name="BK_Step1"> </a>
 
-- **Adicione sua organização do Exchange local como um domínio aceito da sua organização do Microsoft 365.** O serviço de migração usa o endereço SMTP de suas caixas de correio locais para criar a ID de usuário e o endereço de email do Microsoft Online Services para as novas caixas de correio do Microsoft 365. A migração falhará se o domínio do Exchange não for um domínio aceito ou o domínio principal da sua organização do Microsoft 365. Para obter mais informações, consulte [Verificar seu domínio.](https://go.microsoft.com/fwlink/p/?LinkId=534110)
+- **Adicione sua organização local do Exchange como um domínio aceito da sua organização do Microsoft 365.** O serviço de migração usa o endereço SMTP de suas caixas de correio locais para criar Microsoft Online Services ID de usuário e endereço de email para as novas caixas de correio do Microsoft 365. A migração falhará se o domínio do Exchange não for um domínio aceito ou o domínio principal da sua organização do Microsoft 365. Para obter mais informações, consulte [Verify your domain](../admin/setup/add-domain.md).
 
 - **Configure o Outlook em Qualquer Lugar no servidor Exchange no local** O serviço de migração de email usa o RPC sobre HTTP ou o Outlook em Qualquer Lugar para se conectar ao servidor do Exchange no local. Para saber mais sobre como configurar o Outlook em Qualquer Lugar para Exchange 2010, Exchange 2007 e Exchange 2003, confira o seguinte:
 
-  - [Exchange 2010: Habilitar o Outlook em Qualquer Lugar](https://go.microsoft.com/fwlink/?LinkID=187249)
+  - [Exchange 2010: Habilitar o Outlook em Qualquer Lugar](/previous-versions/office/exchange-server-2010/bb123542(v=exchg.141))
 
-  - [Exchange 2007: Como Habilitar o Outlook em Qualquer Lugar](https://go.microsoft.com/fwlink/?LinkID=167210)
+  - [Exchange 2007: Como Habilitar o Outlook em Qualquer Lugar](/previous-versions/office/exchange-server-2007/bb123889(v=exchg.80))
 
-  - [Exchange 2003: Cenários de implantação para RPC sobre HTTP](https://go.microsoft.com/fwlink/?LinkID=73657)
+  - [Exchange 2003: Cenários de implantação para RPC sobre HTTP](/previous-versions/tn-archive/bb124876(v=exchg.65))
 
-  - [Como Configurar o Outlook em Qualquer Lugar com o Exchange 2003](https://go.microsoft.com/fwlink/?LinkID=167209)
+  - [Como Configurar o Outlook em Qualquer Lugar com o Exchange 2003](/previous-versions/office/exchange-server-2007/aa996922(v=exchg.80))
 
     > [!IMPORTANT]
-    > Sua configuração do Outlook em Qualquer Lugar deve ser configurada com um certificado emitido por uma autoridade de certificação (AC) confiável. Ele não pode ser configurado com um certificado autoassinado. Para saber mais, confira [Como configurar o SSL para o Outlook em Qualquer Lugar](https://go.microsoft.com/fwlink/?LinkID=80875).
+    > Sua configuração do Outlook em Qualquer Lugar deve ser configurada com um certificado emitido por uma autoridade de certificação (AC) confiável. Ele não pode ser configurado com um certificado autoassinado. Para saber mais, confira [Como configurar o SSL para o Outlook em Qualquer Lugar](/previous-versions/office/exchange-server-2007/aa995982(v=exchg.80)).
 
 - **Verifique se você pode se conectar à organização do Exchange usando o Outlook em Qualquer Lugar** Experimente um destes métodos para testar suas configurações de conexão:
 
@@ -95,14 +95,14 @@ Para obter uma lista completa dos comandos de migração, confira [Cmdlets de mo
 
 - **Desabilite a Unificação de Mensagens.** Se as caixas de correio locais que você está migrando estiverem habilitadas para a UM (Unificação de Mensagens), será necessário desabilitar a UM nas caixas de correio antes de migrá-las. Em seguida, você poderá habilitar a UM nas caixas de correio depois que a migração for concluída.
 
-- **Grupos de segurança e representantes** O serviço de migração de email não pode detectar se os grupos locais do Active Directory são grupos de segurança ou não, portanto, ele não pode provisioná-los como grupos de segurança no Microsoft 365. Se você quiser ter grupos de segurança em seu locatário do Microsoft 365, primeiro você deve provisionar um grupo de segurança habilitado para email vazio em seu locatário do Microsoft 365 antes de iniciar a migração de cutover. Além disso, esse método de migração só move caixas de correio, usuários de email, contatos de email e grupos habilitados para email. Se qualquer outro objeto do Active Directory, como um usuário que não foi migrado para o Microsoft 365, for atribuído como um gerente ou representante para um objeto que está sendo migrado, ele deverá ser removido do objeto antes de migrar.
+- **Grupos de segurança e representantes** O serviço de migração de email não pode detectar se os grupos locais do Active Directory são grupos de segurança ou não, portanto, ele não pode provisioná-los como grupos de segurança no Microsoft 365. Se você quiser ter grupos de segurança em seu locatário do Microsoft 365, primeiro provisione um grupo de segurança habilitado para email vazio em seu locatário do Microsoft 365 antes de iniciar a migração de recortamento. Além disso, esse método de migração só move caixas de correio, usuários de email, contatos de email e grupos habilitados para email. Se qualquer outro objeto do Active Directory, como o usuário que não foi migrado para o Microsoft 365, for atribuído como gerente ou representante para um objeto que está sendo migrado, ele deverá ser removido do objeto antes de migrar.
 
 ### <a name="step-2-create-a-migration-endpoint"></a>Etapa 2: criar um ponto de extremidade de migração
 <a name="BK_Step2"> </a>
 
-Para migrar emails com êxito, o Microsoft 365 precisa se conectar e se comunicar com o sistema de email de origem. Para fazer isso, o Microsoft 365 usa um ponto de extremidade de migração. Para criar um ponto de extremidade de migração do Outlook em Qualquer Lugar para migração de recorte, [conecte-se primeiro ao Exchange Online.](https://go.microsoft.com/fwlink/p/?LinkId=534121)
+Para migrar emails com êxito, o Microsoft 365 precisa se conectar e se comunicar com o sistema de email de origem. Para fazer isso, o Microsoft 365 usa um ponto de extremidade de migração. Para criar um ponto de extremidade de migração de migração do Outlook Em Qualquer Lugar para migração de redução, [conecte-se](/powershell/exchange/connect-to-exchange-online-powershell)primeiro ao Exchange Online .
 
-Para obter uma lista completa dos comandos de migração, confira [Cmdlets de movimentação e migração](https://go.microsoft.com/fwlink/p/?LinkId=534750).
+Para obter uma lista completa dos comandos de migração, confira [Cmdlets de movimentação e migração](/powershell/exchange/).
 
 Execute os seguintes comandos no PowerShell do Exchange Online:
 
@@ -110,7 +110,7 @@ Execute os seguintes comandos no PowerShell do Exchange Online:
 $Credentials = Get-Credential
 ```
 
-O exemplo usa o cmdlet [Test-MigrationServerAvailability](https://go.microsoft.com/fwlink/p/?LinkId=534752) para obter e testar as configurações de conexão ao servidor do Exchange local e usa essas configurações de conexão para criar o ponto de extremidade de migração chamado "CutoverEndpoint".
+O exemplo usa o cmdlet [Test-MigrationServerAvailability](/powershell/module/exchange/test-migrationserveravailability) para obter e testar as configurações de conexão ao servidor do Exchange local e usa essas configurações de conexão para criar o ponto de extremidade de migração chamado "CutoverEndpoint".
 
 ```powershell
 $TSMA = Test-MigrationServerAvailability -ExchangeOutlookAnywhere -Autodiscover -EmailAddress administrator@contoso.com -Credentials $credentials
@@ -175,7 +175,7 @@ Get-MigrationBatch -Identity CutoverBatch |  Format-List Status
 ### <a name="step-5-route-your-email-to-microsoft-365"></a>Etapa 5: Rotear seu email para o Microsoft 365
 <a name="BK_Step5"> </a>
 
-Os sistemas de email usam um registro DNS chamado registro MX para descobrir onde entregar emails. Durante o processo de migração de email, seu registro MX estava apontando para o sistema de email de origem. Agora que a migração de email para o Microsoft 365 está concluída, é hora de apontar seu registro MX para o Microsoft 365. Isso ajuda a garantir que os emails são entregues às suas caixas de correio do Microsoft 365. Movendo o registro MX, você também poderá desativar seu sistema de email antigo quando estiver pronto.
+Os sistemas de email usam um registro DNS chamado registro MX para descobrir onde entregar emails. Durante o processo de migração de email, seu registro MX estava apontando para o sistema de email de origem. Agora que a migração de email para o Microsoft 365 está concluída, é hora de apontar seu registro MX para o Microsoft 365. Isso ajuda a garantir que o email seja entregue às caixas de correio do Microsoft 365. Movendo o registro MX, você também poderá desativar seu sistema de email antigo quando estiver pronto.
 
 Em muitos provedores DNS, existem instruções específicas para alterar o seu registro MX. Se o seu provedor DNS não for incluído, ou se você quiser ver diretrizes gerais, também são fornecidas [instruções gerais de registro MX](https://support.office.microsoft.com/article/7b7b075d-79f9-4e37-8a9e-fb60c1d95166#bkmk_add_mx).
 
@@ -184,11 +184,11 @@ Pode levar até 72 horas para que os sistemas de email de seus clientes e parcei
 ### <a name="step-6-delete-the-cutover-migration-batch"></a>Etapa 6: excluir o lote de migração de transferência
 <a name="Bk_step6"> </a>
 
-Depois de alterar o registro MX e verificar se todos os emails estão sendo roteados para as caixas de correio do Microsoft 365, notifique os usuários de que seus emails estão indo para o Microsoft 365. Depois disso, você pode excluir o lote de migração de substituição. Antes de excluir o lote de migração, verifique os itens a seguir.
+Depois de alterar o registro MX e verificar se todos os emails estão sendo roteados para caixas de correio do Microsoft 365, notifique os usuários de que seus emails estão indo para o Microsoft 365. Depois disso, você pode excluir o lote de migração de substituição. Antes de excluir o lote de migração, verifique os itens a seguir.
 
-- Todos os usuários estão usando caixas de correio do Microsoft 365. Depois que o lote é excluído, os emails enviados às caixas de correio no Exchange Server local não são copiados para as caixas de correio correspondentes do Microsoft 365.
+- Todos os usuários estão usando caixas de correio do Microsoft 365. Depois que o lote é excluído, os emails enviados às caixas de correio no local Exchange Server não são copiados para as caixas de correio correspondentes do Microsoft 365.
 
-- As caixas de correio do Microsoft 365 foram sincronizadas pelo menos uma vez depois que os emails começaram a ser enviados diretamente a elas. Para fazer isso, certifique-se de que o valor na caixa Hora da Última Sincronização do lote de migração seja mais recente do que quando os emails começaram a ser roteados diretamente para as caixas de correio do Microsoft 365.
+- As caixas de correio do Microsoft 365 foram sincronizadas pelo menos uma vez depois que os emails começaram a ser enviados diretamente a elas. Para fazer isso, certifique-se de que o valor na caixa Última Hora Sincronizada para o lote de migração seja mais recente do que quando os emails começaram a ser roteados diretamente para caixas de correio do Microsoft 365.
 
 Para excluir o lote de migração "CutoverBatch" no PowerShell do Exchange Online, execute o seguinte comando:
 
@@ -199,34 +199,32 @@ Remove-MigrationBatch -Identity CutoverBatch
 ### <a name="section-7-assign-user-licenses"></a>Seção 7: atribuir licenças de usuários
 <a name="BK_Step7"> </a>
 
- **Ative as contas de usuário do Microsoft 365 para as contas migradas atribuindo licenças.** Se você não atribuir uma licença, a caixa de correio será desabilitada quando terminar o período de carência (30 dias). Para atribuir uma licença no centro de administração do Microsoft 365, confira Atribuir ou [desatribuição de licenças.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+ **Ative as contas de usuário do Microsoft 365 para as contas migradas atribuindo licenças.** Se você não atribuir uma licença, a caixa de correio será desabilitada quando terminar o período de carência (30 dias). Para atribuir uma licença no Centro de administração do Microsoft 365, consulte [Assign or unassign licenses](../admin/manage/assign-licenses-to-users.md).
 
 ### <a name="step-8-complete-post-migration-tasks"></a>Etapa 8: concluir tarefas pós-migração
 <a name="BK_Step8"> </a>
 
-- **Crie um registro DNS de Descoberta Automática para que os usuários possam acessar facilmente suas caixas de correio.** Depois que todas as caixas de correio locais são migradas para o Microsoft 365, você pode configurar um registro DNS de Descoberta Automática para sua organização do Microsoft 365 para permitir que os usuários se conectem facilmente às suas novas caixas de correio do Microsoft 365 com o Outlook e clientes móveis. Esse novo registro DNS de Descoberta Automática deve usar o mesmo namespace que você está usando para sua organização do Microsoft 365. Por exemplo, se seu namespace baseado na nuvem for cloud.contoso.com, o registro DNS de Descoberta Automática que você precisa criar será autodiscover.cloud.contoso.com.
+- **Crie um registro DNS de Descoberta Automática para que os usuários possam acessar facilmente suas caixas de correio.** Depois que todas as caixas de correio locais são migradas para o Microsoft 365, você pode configurar um registro DNS de Descoberta Automática para sua organização do Microsoft 365 para permitir que os usuários se conectem facilmente às suas novas caixas de correio do Microsoft 365 com o Outlook e clientes móveis. Esse novo registro DNS de Descoberta Automática precisa usar o mesmo namespace que você está usando para sua organização do Microsoft 365. Por exemplo, se seu namespace baseado na nuvem for cloud.contoso.com, o registro DNS de Descoberta Automática que você precisa criar será autodiscover.cloud.contoso.com.
 
-    Se você manter seu Exchange Server, você também deve certificar-se de que o registro dns CNAME de Descoberta Automática deve apontar para o Microsoft 365 no DNS interno e externo após a migração para que o cliente do Outlook se conecte à caixa de correio correta.
+    Se você manter seu Exchange Server, certifique-se de que o registro CNAME DNS de Descoberta Automática tenha que apontar para o Microsoft 365 no DNS interno e externo após a migração para que o cliente do Outlook se conecte à caixa de correio correta.
 
     > [!NOTE]
     >  No Exchange 2007, Exchange 2010 e no Exchange 2013, você também deve definir o  `Set-ClientAccessServer AutodiscoverInternalConnectionURI` como `Null`.
 
-    O Microsoft 365 usa um registro CNAME para implementar o serviço descoberta automática para o Outlook e clientes móveis. O registro CNAME de Descoberta Automática deve conter as seguintes informações:
+    O Microsoft 365 usa um registro CNAME para implementar o serviço de Descoberta Automática para o Outlook e clientes móveis. O registro CNAME de Descoberta Automática deve conter as seguintes informações:
 
   - **Alias:** descoberta automática
 
   - **Destino:** autodiscover.outlook.com
 
-    Para obter mais informações, [consulte Adicionar registros DNS para conectar seu domínio.](https://go.microsoft.com/fwlink/p/?LinkId=535028)
+    Para obter mais informações, [consulte Adicionar registros DNS para conectar seu domínio](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
 
-- **Encerrar servidores locais do Exchange.** Depois de verificar se todos os emails estão sendo roteados diretamente para as caixas de correio do Microsoft 365 e não precisar mais manter sua organização de email local ou não planejar a implementação de uma solução SSO (logo único), você poderá desinstalar o Exchange de seus servidores e remover sua organização local do Exchange.
+- **Encerrar servidores locais do Exchange.** Depois de verificar se todos os emails estão sendo roteados diretamente para as caixas de correio do Microsoft 365 e não precisar mais manter sua organização de email local ou não planejar a implementação de uma solução de logom único (SSO), você pode desinstalar o Exchange de seus servidores e remover sua organização local do Exchange.
 
     Para obter mais informações, confira o seguinte:
 
-  - [Modificar ou remover o Exchange 2010](https://go.microsoft.com/fwlink/?LinkId=217936)
+  - [Modificar ou remover o Exchange 2010](/previous-versions/office/exchange-server-2010/ee332361(v=exchg.141))
 
-  - [Como remover uma Organização do Exchange 2007](https://go.microsoft.com/fwlink/?LinkID=100485)
+  - [Como remover uma Organização do Exchange 2007](/previous-versions/office/exchange-server-2007/aa998313(v=exchg.80))
 
-  - [Como desinstalar o Exchange Server 2003](https://go.microsoft.com/fwlink/?LinkID=56561)
-
-
+  - [Como desinstalar o Exchange Server 2003](/previous-versions/tn-archive/bb125110(v=exchg.65))

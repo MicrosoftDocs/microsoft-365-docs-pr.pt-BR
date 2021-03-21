@@ -14,12 +14,12 @@ ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como criar um In-Place para uma caixa de correio excluída de forma suave para torná-la inativa e preservar seu conteúdo.
-ms.openlocfilehash: 638cc0554f216a0cb552c1f8eacef3d692d9f792
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 4cca34ab2ca3a946245f34a9b0d898a07537a722
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423762"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925517"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Colocar uma In-Place em uma caixa de correio excluída de forma suave no Exchange Online
 
@@ -37,7 +37,7 @@ Você pode ter uma situação em que uma pessoa tenha deixado sua organização 
 
 - Você precisa usar o cmdlet **New-MailboxSearch** no Windows PowerShell para colocar um In-Place em uma caixa de correio excluída de forma suave. Não é possível usar o Centro de administração do Exchange (EAC) ou o Centro de Descoberta Virtual no SharePoint Online. 
 
-- Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Execute o seguinte comando para obter informações de identidade sobre as caixas de correio excluídas de forma suave em sua organização. 
 
@@ -49,7 +49,7 @@ Você pode ter uma situação em que uma pessoa tenha deixado sua organização 
 
 ## <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-to-make-it-an-inactive-mailbox"></a>Colocar uma In-Place em uma caixa de correio excluída de forma suave para torná-la uma caixa de correio inativa
 
-Use o cmdlet **New-MailboxSearch** para tornar uma caixa de correio excluída de forma suave uma caixa de correio inativa. Para obter mais informações, consulte [New-MailboxSearch](https://technet.microsoft.com/library/74303b47-bb49-407c-a43b-590356eae35c.aspx).
+Use o cmdlet **New-MailboxSearch** para tornar uma caixa de correio excluída de forma suave uma caixa de correio inativa. Para obter mais informações, consulte [New-MailboxSearch](/powershell/module/exchange/new-mailboxsearch).
   
 1. Crie uma variável que contenha as propriedades da caixa de correio excluída de forma suave.
 
@@ -86,7 +86,7 @@ Use o cmdlet **New-MailboxSearch** para tornar uma caixa de correio excluída de
 
 ## <a name="more-information"></a>Mais informações
 
-Depois de tornar uma caixa de correio excluída de forma suave uma caixa de correio inativa, há várias maneiras de gerenciar a caixa de correio. Para saber mais, confira:
+Depois de tornar uma caixa de correio excluída de forma suave uma caixa de correio inativa, há várias maneiras de gerenciar a caixa de correio. Para mais informações, confira:
   
 - [Alterar a duração de retenção de uma caixa de correio inativa](change-the-hold-duration-for-an-inactive-mailbox.md)
 

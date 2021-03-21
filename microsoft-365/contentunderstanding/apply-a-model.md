@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Saiba como aplicar um modelo publicado a uma biblioteca de documentos do SharePoint
-ms.openlocfilehash: 17da1e37f72504ac5e0e26c0dd190efced08d285
-ms.sourcegitcommit: d354727303d9574991b5a0fd298d2c9414e19f6c
+ms.openlocfilehash: 42168537c8d449a075b5e29ef9905b6b98b8d714
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50080755"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925395"
 ---
 # <a name="apply-a-document-understanding-model-in-microsoft-sharepoint-syntex"></a>Aplicar um modelo de compreensão de documento no Microsoft SharePoint Syntex
 
@@ -94,7 +94,7 @@ Quando a compreensão de um documento do SharePoint Syntex ou um modelo de proce
 
    ![Coluna Data de Classificação](../media/content-understanding/class-date-column.png)</br> 
 
-O campo Data de classificação é usado pelo [<b>Quando um arquivo é classificado por um modelo de compreensão de conteúdo</b> aciona o ](https://docs.microsoft.com/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model) para executar um fluxo do Power Automate depois que um modelo de compreensão de conteúdo Syntex terminar de processar um arquivo e atualizar o campo "Data de classificação".
+O campo Data de classificação é usado pelo [<b>Quando um arquivo é classificado por um modelo de compreensão de conteúdo</b> aciona o ](/connectors/sharepointonline/#when-a-file-is-classified-by-a-content-understanding-model) para executar um fluxo do Power Automate depois que um modelo de compreensão de conteúdo Syntex terminar de processar um arquivo e atualizar o campo "Data de classificação".
 
    ![Gatilho de fluxo](../media/content-understanding/trigger.png)</br>
 
@@ -108,5 +108,3 @@ O <b>Quando um arquivo é classificado por um modelo de compreensão de conteúd
 [Criar um extrator](create-an-extractor.md)
 
 [Visão geral sobre Compreensão de Documentos](document-understanding-overview.md).
-
-

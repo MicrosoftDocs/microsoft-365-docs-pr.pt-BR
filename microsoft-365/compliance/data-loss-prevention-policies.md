@@ -22,18 +22,18 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a identificar, monitorar e proteger automaticamente as informações confidenciais da sua organização no Office 365.
-ms.openlocfilehash: 75c2f4d81b3378d031adc394a9c8f7615d51079c
-ms.sourcegitcommit: 29eb89b8ba0628fbef350e8995d2c38369a4ffa2
+ms.openlocfilehash: 7d526d5eeb74f0d31f375974824e7a76344bcd76
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682794"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925805"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
 > [!NOTE]
-> Os recursos de prevenção contra perda de dados foram recentemente adicionados às mensagens de chat e de canal do Microsoft Teams para usuários licenciados para a Conformidade Avançada do Office 365, disponível como uma opção independente e está incluso na Conformidade do Office 365 E5 e no Microsoft 365 E5. Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
+> Os recursos de prevenção contra perda de dados foram recentemente adicionados às mensagens de chat e de canal do Microsoft Teams para usuários licenciados para a Conformidade Avançada do Office 365, disponível como uma opção independente e está incluso na Conformidade do Office 365 E5 e no Microsoft 365 E5. Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Licenciamento de Serviços no Nível de Locatário do Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance).
 
 Para estar em conformidade com padrões de negócios e regulamentações do setor, as organizações precisam proteger as informações confidenciais e evitar sua divulgação acidental. Informação confidencial inclui dados financeiros ou informações de identificação pessoal (PII), como números de cartão de crédito, números de CPF ou registros de saúde. Com uma política DLP no Centro de Conformidade &amp; Segurança do Office 365, você pode identificar, monitorar e proteger automaticamente as informações confidenciais no Office 365.
   
@@ -204,7 +204,7 @@ Além disso, também pode ser enviado um relatório de incidentes com detalhes d
   
 ![Página para configurar relatórios de incidente](../media/Alerts-and-incident-report.png)
 
-O DLP verifica os e-mails de forma diferente da dos itens do SharePoint Online ou do OneDrive for Business. No Microsoft Office SharePoint Online e no Microsoft OneDrive for Business, a DLP verifica os itens existentes e também os novos e gera um alerta e relatório de incidentes sempre que uma correspondência é encontrada. No Exchange Online, a DLP verifica apenas novas mensagens de email e gera um relatório se houver uma correspondência de política. A DLP **_não_* _ examina ou corresponde a itens de email existentes armazenados em uma caixa de correio ou arquivo.
+O DLP verifica os e-mails de forma diferente da dos itens do SharePoint Online ou do OneDrive for Business. No Microsoft Office SharePoint Online e no Microsoft OneDrive for Business, a DLP verifica os itens existentes e também os novos e gera um alerta e relatório de incidentes sempre que uma correspondência é encontrada. No Exchange Online, a DLP verifica apenas novas mensagens de email e gera um relatório se houver uma correspondência de política. O DLP ***não*** verifica ou combina os itens de e-mail existentes anteriormente que são armazenados em uma caixa de correio ou arquivo morto.
   
 ## <a name="grouping-and-logical-operators"></a>Agrupamento e operadores lógicos
 
@@ -240,7 +240,7 @@ Você pode adicionar rapidamente um grupo, que pode ter suas próprias condiçõ
 
 Entre grupos, você pode escolher se as condições em apenas um grupo ou todos os grupos devem ser atendidas para que o conteúdo corresponda à regra.
   
-Por exemplo, o _ *U.S. A política HIPAA** tem uma regra que usa um operador **AND** entre os grupos para identificar o conteúdo que contém: 
+Por exemplo, a política interna **HIPAA (Lei de Seguro de Saúde) dos EUA** tem uma regra que usa um operador **E** entre os grupos para que identifique o conteúdo que apresente: 
   
 - do grupo **Identificadores PII** (pelo menos um número de CPF **OU** número da Agência de Combate às Drogas) 
     
@@ -354,20 +354,20 @@ Ao usar um [rótulo de retenção](retention.md#retention-labels) criado e publi
 
 - O rótulo de retenção deve ser criado e publicado antes de tentar usá-lo como condição em uma política DLP.
 - Os rótulos de retenção publicados podem levar de um a sete dias para sincronização. Para obter mais informações, confira [Quando os rótulos de retenção se tornam disponíveis para aplicar](create-apply-retention-labels.md#when-retention-labels-become-available-to-apply) para rótulos de retenção publicados em uma política de retenção e [Quanto tempo leva para os rótulos de retenção entrarem em vigor](apply-retention-labels-automatically.md#how-long-it-takes-for-retention-labels-to-take-effect) para os rótulos de retenção que são publicados automaticamente.
-- O uso de um rótulo de retenção em uma política **só é compatível com itens no Microsoft Office SharePoint Online e OneDrive** _.
+- O uso de um rótulo de retenção em uma política **só tem suporte para itens do Microsoft Office SharePoint Online e OneDrive***.
 
   ![Rótulos como uma condição](../media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
 
   Talvez você queira usar um rótulo de retenção em uma política DLP se tiver itens que estão sob retenção e descarte, e também aplicar outros controles a eles, por exemplo:
 
-  - Você publicou um rótulo de retenção denominado _*ano fiscal de 2018** que quando aplicado a documentos fiscais de 2018 armazenados no Microsoft Office SharePoint Online, os retém por 10 anos e depois os descarta. Use também uma política DLP para impedir que itens sejam compartilhados fora da organização.
+  - Você publicou um rótulo de retenção denominado **ano fiscal 2018**, que quando aplicado aos documentos fiscais de 2018 armazenados no SharePoint, os retém por dez anos e só após esse prazo os descarta. Use também uma política DLP para impedir que itens sejam compartilhados fora da organização.
 
   > [!IMPORTANT]
   > Você receberá a seguinte mensagem de erro se especificar um rótulo de retenção como uma condição em uma política DLP e também incluir o Exchange e/ou Teams como um local: **"não há suporte para a proteção de conteúdo rotulado em mensagens de email e equipes. Remova a etiqueta a seguir ou desative o Exchange e o Teams como um local."** Isso ocorre porque o transporte do Exchange não avalia os metadados do rótulo durante o envio e a entrega da mensagem. 
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>Usar um rótulo de confidencialidade como condição em uma política DLP
 
-Rótulos de confidencialidade como condição nas políticas de DLP está atualmente na versão prévia. [Saiba mais](https://docs.microsoft.com/microsoft-365/compliance/dlp-sensitivity-label-as-condition).
+Rótulos de confidencialidade como condição nas políticas de DLP está atualmente na versão prévia. [Saiba mais](./dlp-sensitivity-label-as-condition.md).
   
 ### <a name="how-this-feature-relates-to-other-features"></a>Como esse recurso se relaciona a outros recursos
 
@@ -497,10 +497,10 @@ Por esse motivo, as políticas de DLP verificam documentos em busca de correspon
   
 <!-- conflict with a DLP policy is bad wording --> Por fim, os documentos podem conflitar uma política de DLP, mas eles também podem ficar em conformidade com ela. Por exemplo, se uma pessoa adicionar números de cartão de crédito a um documento, isso poderá fazer com que uma política de DLP bloqueie o acesso ao documento automaticamente. Mas, se a pessoa remover, mais tarde, as informações confidenciais, a ação (neste caso, bloqueio) será desfeita na próxima vez que se avaliar se o documento está de acordo com a política.
   
-A DLP avalia qualquer conteúdo que pode ser indexado. Para saber mais sobre os tipos de arquivo que são rastreados por padrão, confira [Extensões de nomes de arquivos rastreados e tipos de arquivos padrão analisados no SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
+A DLP avalia qualquer conteúdo que pode ser indexado. Para saber mais sobre os tipos de arquivo que são rastreados por padrão, confira [Extensões de nomes de arquivos rastreados e tipos de arquivos padrão analisados no SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
 
 > [!NOTE]
-> O compartilhamento externo de novos arquivos no SharePoint pode ser bloqueado por padrão até que pelo menos uma política DLP verifique o novo item. Confira [Marcar novos arquivos como confidenciais por padrão](https://docs.microsoft.com/sharepoint/sensitive-by-default) para obter informações detalhadas. 
+> O compartilhamento externo de novos arquivos no SharePoint pode ser bloqueado por padrão até que pelo menos uma política DLP verifique o novo item. Confira [Marcar novos arquivos como confidenciais por padrão](/sharepoint/sensitive-by-default) para obter informações detalhadas. 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Avaliação de políticas no Exchange Online, Outlook e Outlook na Web
 
@@ -542,19 +542,19 @@ Essas permissões são necessárias somente para criar e aplicar uma política d
 
 Para usar a maioria dos cmdlets do Centro de Conformidade &amp; Segurança, você precisa:
   
-1. [Conectar-se ao Centro de Conformidade &amp; e Segurança do Office 365 usando o PowerShell Remoto](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Conectar-se ao Centro de Conformidade &amp; e Segurança do Office 365 usando o PowerShell Remoto](/powershell/exchange/connect-to-scc-powershell).
     
-2. Usar qualquer um destes [policy-and-compliance-dlp cmdlets](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection).
+2. Usar qualquer um destes [policy-and-compliance-dlp cmdlets](/powershell/module/exchange/export-dlppolicycollection).
     
 No entanto, os relatórios DLP precisam extrair dados do Microsoft 365, incluindo o Exchange Online. Por esse motivo, **os cmdlets para os relatórios DLP estão disponíveis no Exchange Online Powershell, e não no Centro de Conformidade &amp; Segurança do Powershell**. Portanto, para usar os cmdlets para os relatórios DLP, você precisa:
   
-1. [Conecte-se ao Exchange Online usando o PowerShell remoto](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+1. [Conecte-se ao Exchange Online usando o PowerShell remoto](/powershell/exchange/connect-to-exchange-online-powershell).
     
 2. Usar qualquer um destes cmdlets para os relatórios DLP:
     
-    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetectionsReport)
+    - [Get-DlpDetectionsReport](/powershell/module/exchange/Get-DlpDetectionsReport)
 
-    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetailReport)
+    - [Get-DlpDetailReport](/powershell/module/exchange/Get-DlpDetailReport)
     
 ## <a name="more-information"></a>Mais informações
 

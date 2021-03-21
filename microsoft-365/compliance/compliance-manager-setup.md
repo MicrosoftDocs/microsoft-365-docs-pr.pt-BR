@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: De definir permissões e funções de usuário do Microsoft Compliance Manager e configurar testes automatizados de ações. Gerencie o histórico do usuário e filtre o seu painel de exibição.
-ms.openlocfilehash: 3c8f3f30741d4b0fac5c940bc6ec3fb56ea4f79e
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: d8eb1d7d8245aa31cb5429452128cedc0adf4684
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405791"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925699"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
@@ -30,7 +30,7 @@ ms.locfileid: "50405791"
 
 ## <a name="who-can-access-compliance-manager"></a>Quem pode acessar o Gerenciador de Conformidade
 
-O Gerenciador de Conformidade está disponível para organizações com licenças do Office 365 e do Microsoft 365 e para clientes moderados E GCC (Nuvem da Comunidade Governamental) dos EUA e alto GCC. Os recursos de disponibilidade e gerenciamento de avaliação dependem do contrato de licenciamento.  [Exibir detalhes de descrição do serviço](https://go.microsoft.com/fwlink/?linkid=2132371).
+O Gerenciador de Conformidade está disponível para organizações com licenças do Office 365 e do Microsoft 365 e para clientes moderados E GCC (Nuvem da Comunidade Governamental) dos EUA e alto GCC. Os recursos de disponibilidade e gerenciamento de avaliação dependem do contrato de licenciamento.  [Exibir detalhes de descrição do serviço](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -72,19 +72,19 @@ Para definir permissões e atribuir funções no Centro de Conformidade e Segura
 
 ##### <a name="more-about-the-office-365-security--compliance-center"></a>Mais sobre o Centro de Conformidade e Segurança & do Office 365
 
-Saiba mais sobre permissões no Centro de Conformidade e Segurança [& do Office 365.](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)
+Saiba mais sobre permissões no Centro de Conformidade e Segurança [& do Office 365.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 Se você não tiver acesso ao Centro de Conformidade e Segurança do Office 365 ou se precisar acessar a versão clássica do Gerenciador de Conformidade no Portal de Confiança do Serviço Microsoft, as configurações do Administrador no Portal de Confiança de Serviço fornece outra maneira de atribuir funções ([instruções](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users)de exibição ). Esteja ciente de que essas funções são mais limitadas em sua funcionalidade.
 
 ##### <a name="more-about-azure-ad"></a>Mais sobre o Azure AD
 
-Para atribuir funções e definir permissões no Azure AD, consulte [Assign administrator and non-administrator roles to users with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+Para atribuir funções e definir permissões no Azure AD, consulte [Assign administrator and non-administrator roles to users with Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 Os usuários com identidades do Azure AD que não têm assinaturas do Office 365 ou do Microsoft 365 não poderão acessar o Gerenciador de Conformidade no centro de conformidade do Microsoft 365. Para buscar ajuda para acessar o Gerenciador de Conformidade, entre [em contato cmresearch@microsoft.com](mailto:cmresearch@microsoft.com).
 
 ### <a name="role-types"></a>Tipos de função
 
-A tabela a seguir mostra as funções permitidas por cada função no Gerenciador de Conformidade. A tabela também mostra como cada [função do Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) é mapeada para funções do Gerenciador de Conformidade. Os usuários precisarão pelo menos da função de leitor do Gerenciador de Conformidade ou da função de leitor global do Azure AD para acessar o Gerenciador de Conformidade.
+A tabela a seguir mostra as funções permitidas por cada função no Gerenciador de Conformidade. A tabela também mostra como cada [função do Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) é mapeada para funções do Gerenciador de Conformidade. Os usuários precisarão pelo menos da função de leitor do Gerenciador de Conformidade ou da função de leitor global do Azure AD para acessar o Gerenciador de Conformidade.
 
 
 | O usuário pode: | Função de Gerenciador de Conformidade | Função do Azure AD | 
@@ -104,7 +104,7 @@ As configurações do Gerenciador de Conformidade no centro de conformidade do M
 
 ### <a name="set-up-automated-testing"></a>Configurar testes automatizados
 
-Algumas ações de melhoria no Gerenciador de Conformidade também são monitoradas pela [Pontuação Segura da Microsoft.](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) Você pode configurar testes automatizados de ações que são monitoradas em conjunto, o que significa que, quando uma ação é testada e atualizada na Pontuação Segura, esses resultados sincronizam com as mesmas ações no Gerenciador de Conformidade e contam para sua pontuação de conformidade.
+Algumas ações de melhoria no Gerenciador de Conformidade também são monitoradas pela [Pontuação Segura da Microsoft.](../security/mtp/microsoft-secure-score.md) Você pode configurar testes automatizados de ações que são monitoradas em conjunto, o que significa que, quando uma ação é testada e atualizada na Pontuação Segura, esses resultados sincronizam com as mesmas ações no Gerenciador de Conformidade e contam para sua pontuação de conformidade.
 
 O teste automático é ligado por padrão para organizações novas para o Gerenciador de Conformidade. Quando você implanta o Microsoft 365 ou o Office 365 pela primeira vez, leva aproximadamente sete dias para a Pontuação Segura coletar totalmente os dados e fatorá-los em sua pontuação de conformidade.  Quando o teste automatizado estiver ligado, a data de teste da ação não será atualizada, mas seu status de teste será atualizado. Quando novas avaliações são criadas, as pontuações incluem automaticamente pontuações de controle da Microsoft e integração com a Pontuação Segura.
 

@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar uma política de prevenção contra perda de dados (DLP) para proteger documentos que tenham propriedades de um sistema de terceiros.
-ms.openlocfilehash: 971d2a1dd4f69f7bbd2598e31fc99c9c5cfe1eda
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 2d66a0a863b2076044a5c1d1cb9c3d4e8c29a186
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423794"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925557"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Criar uma política de DLP para proteger documentos com FCI ou outras propriedades
 
@@ -55,7 +55,7 @@ Exemplos
 
 Isso é importante porque a DLP usa o rastreador de pesquisa para identificar e classificar informações confidenciais em seus sites e, em seguida, armazenar essas informações confidenciais em uma parte segura do índice de pesquisa. Quando você carregar um documento no Office 365, o SharePoint cria automaticamente propriedades rastreadas com base nas propriedades do documento. Mas, para usar uma FCI ou outra propriedade em uma política de DLP, essa propriedade rastreada precisa ser mapeada para uma propriedade gerenciada para que o conteúdo com essa propriedade seja mantido no índice.
 
-Para obter mais informações sobre propriedades gerenciadas e de pesquisa, consulte Gerenciar o esquema de pesquisa [no SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=627454).
+Para obter mais informações sobre propriedades gerenciadas e de pesquisa, consulte Gerenciar o esquema de pesquisa [no SharePoint Online](/sharepoint/manage-search-schema).
 
 ### <a name="step-1-upload-a-document-with-the-needed-property-to-office-365"></a>Etapa 1: Carregar um documento com a propriedade necessária para o Office 365
 
@@ -105,9 +105,9 @@ Em seguida, eles criam uma política DLP com duas regras que usam a condição *
 
 A condição As propriedades **do** documento contêm qualquer um desses valores temporariamente não está disponível na interface do usuário do Centro de Conformidade de Segurança, mas você ainda pode usar essa condição usando &amp; o PowerShell. Você pode usar os cmdlets para trabalhar com uma política DLP e usar os  `New\Set\Get-DlpCompliancePolicy`  `New\Set\Get-DlpComplianceRule` cmdlets com o parâmetro para adicionar a condição Propriedades do documento contêm qualquer  `ContentPropertyContainsWords` **um desses valores**.
 
-Para obter mais informações sobre esses cmdlets, consulte [ &amp; Cmdlets](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)do Centro de Conformidade de Segurança.
+Para obter mais informações sobre esses cmdlets, consulte [ &amp; Cmdlets](/powershell/exchange/exchange-online-powershell)do Centro de Conformidade de Segurança.
 
-1. [Conectar-se ao Centro &amp; de Conformidade de Segurança usando o PowerShell remoto](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [Conectar-se ao Centro &amp; de Conformidade de Segurança usando o PowerShell remoto](/powershell/exchange/connect-to-scc-powershell)
 
 2. Crie a política usando  `New-DlpCompliancePolicy` .
 
@@ -125,7 +125,7 @@ Este PowerShell cria uma política DLP que se aplica a todos os locais.
    New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $true -ContentPropertyContainsWords "Personally Identifiable Information:High,Moderate" -Disabled $falseNew-DlpComplianceRule -Name FCI_PII_content-Low -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $false -ContentPropertyContainsWords "Personally Identifiable Information:Low" -Disabled $false -NotifyUser Owner
    ```
 
-   O FCI do Windows Server inclui muitas propriedades in-in, incluindo **Informações de Identificação** Pessoal usadas neste exemplo. Os valores possíveis para cada propriedade podem ser diferentes para cada organização. Os **valores Alto,** **Moderado** e **Baixo** usados aqui são apenas um exemplo. Para sua organização, você pode exibir as propriedades de classificação FCI do Windows Server com seus valores possíveis no Gerenciador de Recursos do Servidor de Arquivos no servidor de arquivos baseado no Windows Server. Para obter mais informações, consulte [Create a classification property](https://go.microsoft.com/fwlink/p/?LinkID=627456).
+   O FCI do Windows Server inclui muitas propriedades in-in, incluindo **Informações de Identificação** Pessoal usadas neste exemplo. Os valores possíveis para cada propriedade podem ser diferentes para cada organização. Os **valores Alto,** **Moderado** e **Baixo** usados aqui são apenas um exemplo. Para sua organização, você pode exibir as propriedades de classificação FCI do Windows Server com seus valores possíveis no Gerenciador de Recursos do Servidor de Arquivos no servidor de arquivos baseado no Windows Server. Para obter mais informações, consulte [Create a classification property](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759215(v=ws.11)).
 
 Quando terminar, sua política deverá ter duas novas regras que usam as propriedades **Document contendo qualquer uma dessas condições de** valores. Essa condição não aparecerá na interface do usuário, embora as outras condições, ações e configurações apareçam.
 
@@ -142,7 +142,7 @@ Para detectar o conteúdo com essa propriedade em todos os lugares, convém soli
 > [!CAUTION]
 > A reindexação de um site pode gerar uma grande carga no sistema de pesquisa. Não re indexe seu site, a menos que seu cenário o exija.
 
-Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação de um site, uma biblioteca ou uma lista](https://go.microsoft.com/fwlink/p/?LinkID=627457).
+Para saber mais, confira [Solicitar manualmente o rastreamento e a reindexação de um site, uma biblioteca ou uma lista](/sharepoint/crawl-site-content).
 
 ### <a name="reindex-a-site-optional"></a>Reindexar um site (opcional)
 

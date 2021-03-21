@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.custom: seo-marvel-apr2020
 description: Saiba como adicionar uma dica de política a uma política de prevenção contra perda de dados (DLP) para notificar um usuário de que ele está trabalhando com conteúdo que entra em conflito com uma política de DLP.
-ms.openlocfilehash: 79435343df2d2cb3bc027a92acce44eb74b4d91c
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 63909be2f88ef5f9c42dcd07e127309b4b5b17e9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454526"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925467"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>Enviar notificações por email e mostrar dicas para políticas de DLP
 
@@ -286,7 +286,7 @@ Você pode personalizar o texto para dicas de política separadamente da notific
 - [Visão geral das políticas de prevenção contra perda de dados](data-loss-prevention-policies.md)
     
 - [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)
-- [Condições de política de DLP, exceções e ações (visualização)](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide)
+- [Condições de política de DLP, exceções e ações (visualização)](./dlp-microsoft-teams.md?view=o365-worldwide)
     
 - [Criar uma política DLP para proteger documentos com FCI ou outras propriedades](protect-documents-that-have-fci-or-other-properties.md)
     

@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Declarar registros usando rótulos de retenção. '
-ms.openlocfilehash: 34b5272a8bed9be01c3965dae258c88facec0145
-ms.sourcegitcommit: 9d1351ea6d9942550b52132817f9f9693ddef2fd
+ms.openlocfilehash: fd88858c8d5cd1870f594050607b784a9dc5b78c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48830600"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925657"
 ---
 # <a name="declare-records-by-using-retention-labels"></a>Declarar registros usando rótulos de retenção
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Para declarar documentos e emails como [registros](records-management.md#records), use [rótulos de retenção](retention.md#retention-labels) que marquem o conteúdo como um **registro** ou um **registro regulatório**.
 
@@ -41,7 +41,7 @@ Em seguida, você pode publicar esses rótulos em uma política de rótulo de re
 
 Por padrão, a opção de rótulo de retenção para marcar o conteúdo como um registro regulatório não é exibida no assistente de etiqueta de retenção. Para exibir essa opção, você deve primeiro executar um comando do Windows PowerShell:
 
-1. [Conecte-se ao Centro de Segurança e Conformidade do Office 365 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Conecte-se ao Centro de Segurança e Conformidade do Office 365 PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 2. Execute o seguinte cmdlet:
     

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e838ce873a1c3ecc0f437f96e75cc2a40d3af79d
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 3e198f4a5800475b0c8efcd24e05ea00b8a17186
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727266"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925781"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727266"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Aplique essas recomendações para obter resultados mais rápidos e evitar tempo de execução de consultas complexas. Para obter mais informações sobre como melhorar o desempenho da consulta, leia [ práticas recomendadas de consulta no Kusto](https://docs.microsoft.com/azure/kusto/query/best-practices).
+Aplique essas recomendações para obter resultados mais rápidos e evitar tempo de execução de consultas complexas. Para obter mais informações sobre como melhorar o desempenho da consulta, leia [ práticas recomendadas de consulta no Kusto](/azure/kusto/query/best-practices).
 
 ## <a name="understand-cpu-resource-quotas"></a>Compreender cotas de recursos da CPU
 Dependendo de seu tamanho, cada locatário tem acesso a uma quantidade definida de recursos de CPU alocados para executar consultas de busca avançadas. Para obter informações detalhadas sobre vários limites de serviço, [leia sobre cotas de busca avançadas e parâmetros de uso.](advanced-hunting-limits.md)
@@ -44,8 +44,8 @@ Os clientes que executarem várias consultas regularmente devem controlar o cons
 
 ## <a name="general-optimization-tips"></a>Dicas gerais de otimização
 
-- **Tamanho de novas consultas**— Se você suspeitar que uma consulta retornará um conjunto de resultados grandes, avalie-a primeiro usando o operador [de contagem](https://docs.microsoft.com/azure/data-explorer/kusto/query/countoperator). Use [limite](https://docs.microsoft.com/azure/data-explorer/kusto/query/limitoperator) ou seu sinônimo `take` para evitar grandes conjuntos de resultados.
-- **Aplicar filtros** mais cedo — aplique filtros de tempo e outros filtros para reduzir o conjunto de dados, especialmente antes de usar funções de transformação e análise, como [substring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/substringfunction), [replace()](https://docs.microsoft.com/azure/data-explorer/kusto/query/replacefunction), [trim()](https://docs.microsoft.com/azure/data-explorer/kusto/query/trimfunction), [toupper()](https://docs.microsoft.com/azure/data-explorer/kusto/query/toupperfunction)ou [parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). No exemplo abaixo, a função de análise [extractjson()](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractjsonfunction) é usada após os operadores de filtragem reduzirem o número de registros.
+- **Tamanho de novas consultas**— Se você suspeitar que uma consulta retornará um conjunto de resultados grandes, avalie-a primeiro usando o operador [de contagem](/azure/data-explorer/kusto/query/countoperator). Use [limite](/azure/data-explorer/kusto/query/limitoperator) ou seu sinônimo `take` para evitar grandes conjuntos de resultados.
+- **Aplicar filtros** mais cedo — aplique filtros de tempo e outros filtros para reduzir o conjunto de dados, especialmente antes de usar funções de transformação e análise, como [substring()](/azure/data-explorer/kusto/query/substringfunction), [replace()](/azure/data-explorer/kusto/query/replacefunction), [trim()](/azure/data-explorer/kusto/query/trimfunction), [toupper()](/azure/data-explorer/kusto/query/toupperfunction)ou [parse_json()](/azure/data-explorer/kusto/query/parsejsonfunction). No exemplo abaixo, a função de análise [extractjson()](/azure/data-explorer/kusto/query/extractjsonfunction) é usada após os operadores de filtragem reduzirem o número de registros.
 
     ```kusto
     DeviceEvents
@@ -55,16 +55,16 @@ Os clientes que executarem várias consultas regularmente devem controlar o cons
     | extend DriveLetter = extractjson("$.DriveLetter", AdditionalFields)
      ```
 
-- **Tem batidas que contêm**— Para evitar pesquisar subdstrings em palavras desnecessariamente, use o `has` operador em vez de `contains` . [Saiba mais sobre operadores de cadeia de caracteres](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
+- **Tem batidas que contêm**— Para evitar pesquisar subdstrings em palavras desnecessariamente, use o `has` operador em vez de `contains` . [Saiba mais sobre operadores de cadeia de caracteres](/azure/data-explorer/kusto/query/datatypes-string-operators)
 - **Procure em colunas específicas**— procure em uma coluna específica em vez de executar pesquisas de texto completo em todas as colunas. Não use para `*` verificar todas as colunas.
-- **Case-sensitive para velocidade —** pesquisas sensíveis a caso são mais específicas e geralmente mais performant. Nomes de operadores de cadeia de caracteres sensíveis a [caso,](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators) `has_cs` como e , geralmente `contains_cs` terminam com `_cs` . Você também pode usar o operador igual a minúsculas em `==` vez de `=~` .
-- **Analisar, não extraia**— sempre que [](https://docs.microsoft.com/azure/data-explorer/kusto/query/parseoperator) possível, use o operador de análise ou uma função de [análise como parse_json()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsejsonfunction). Evite o `matches regex` operador de cadeia de caracteres ou a função [extract(),](https://docs.microsoft.com/azure/data-explorer/kusto/query/extractfunction)ambos usam expressão regular. Reserve o uso da expressão regular para cenários mais complexos. [Leia mais sobre funções de análise](#parse-strings)
+- **Case-sensitive para velocidade —** pesquisas sensíveis a caso são mais específicas e geralmente mais performant. Nomes de operadores de cadeia de caracteres sensíveis a [caso,](/azure/data-explorer/kusto/query/datatypes-string-operators) `has_cs` como e , geralmente `contains_cs` terminam com `_cs` . Você também pode usar o operador igual a minúsculas em `==` vez de `=~` .
+- **Analisar, não extraia**— sempre que [](/azure/data-explorer/kusto/query/parseoperator) possível, use o operador de análise ou uma função de [análise como parse_json()](/azure/data-explorer/kusto/query/parsejsonfunction). Evite o `matches regex` operador de cadeia de caracteres ou a função [extract(),](/azure/data-explorer/kusto/query/extractfunction)ambos usam expressão regular. Reserve o uso da expressão regular para cenários mais complexos. [Leia mais sobre funções de análise](#parse-strings)
 - **Filtrar tabelas não expressões**— Não filtre em uma coluna calculada se você puder filtrar em uma coluna de tabela.
 - **Sem termos de três caracteres**— Evite comparar ou filtrar usando termos com três caracteres ou menos. Esses termos não são indexados e a correspondência deles exigirá mais recursos.
-- **Project seletivamente**— facilmente entenda seus resultados projetando apenas as colunas de que você precisa. Projetar colunas específicas antes de executar a [junção](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) ou operações semelhantes também ajuda a melhorar o desempenho.
+- **Project seletivamente**— facilmente entenda seus resultados projetando apenas as colunas de que você precisa. Projetar colunas específicas antes de executar a [junção](/azure/data-explorer/kusto/query/joinoperator) ou operações semelhantes também ajuda a melhorar o desempenho.
 
 ## <a name="optimize-the-join-operator"></a>Otimizar o `join` operador
-O [operador de junção](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator) mescla linhas de duas tabelas combinando valores em colunas especificadas. Aplique essas dicas para otimizar consultas que usam esse operador.
+O [operador de junção](/azure/data-explorer/kusto/query/joinoperator) mescla linhas de duas tabelas combinando valores em colunas especificadas. Aplique essas dicas para otimizar consultas que usam esse operador.
 
 - **Tabela menor à esquerda**— o operador corresponde a registros na tabela no lado esquerdo da instrução join aos `join` registros à direita. Ao ter a tabela menor à esquerda, menos registros precisarão ser corresponder, acelerando a consulta. 
 
@@ -81,7 +81,7 @@ O [operador de junção](https://docs.microsoft.com/azure/data-explorer/kusto/qu
     on AccountSid
     ```
 
-- **Use** o sabor de junção interna — O sabor de junção padrão ou as linhas deduplicações de junção interna na tabela esquerda pela tecla de junção antes de retornar uma linha para cada partida à tabela direita. [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-flavors) [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) Se a tabela esquerda tiver várias linhas com o mesmo valor da chave, essas linhas serão deduplicadas para deixar uma única linha aleatória para `join` cada valor exclusivo.
+- **Use** o sabor de junção interna — O sabor de junção padrão ou as linhas deduplicações de junção interna na tabela esquerda pela tecla de junção antes de retornar uma linha para cada partida à tabela direita. [](/azure/data-explorer/kusto/query/joinoperator#join-flavors) [](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#innerunique-join-flavor) Se a tabela esquerda tiver várias linhas com o mesmo valor da chave, essas linhas serão deduplicadas para deixar uma única linha aleatória para `join` cada valor exclusivo.
 
     Esse comportamento padrão pode deixar de fora informações importantes da tabela esquerda que podem fornecer informações úteis. Por exemplo, a consulta abaixo mostrará apenas um email contendo um anexo específico, mesmo que esse mesmo anexo foi enviado usando várias mensagens de email:
 
@@ -92,7 +92,7 @@ O [operador de junção](https://docs.microsoft.com/azure/data-explorer/kusto/qu
     | join (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```
 
-    Para resolver essa limitação, aplicamos o sabor de junção interna especificando para mostrar todas as linhas na tabela esquerda com valores [](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) `kind=inner` correspondentes à direita:
+    Para resolver essa limitação, aplicamos o sabor de junção interna especificando para mostrar todas as linhas na tabela esquerda com valores [](/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor) `kind=inner` correspondentes à direita:
     
     ```kusto
     EmailAttachmentInfo
@@ -125,9 +125,9 @@ O [operador de junção](https://docs.microsoft.com/azure/data-explorer/kusto/qu
     | join kind=inner (DeviceFileEvents | where Timestamp > ago(1h)) on SHA256 
     ```  
 
-- **Use dicas para desempenho**— Use dicas com o operador para instruir o back-end a distribuir carga ao executar operações de uso `join` intensivo de recursos. [Saiba mais sobre dicas de junção](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator#join-hints)
+- **Use dicas para desempenho**— Use dicas com o operador para instruir o back-end a distribuir carga ao executar operações de uso `join` intensivo de recursos. [Saiba mais sobre dicas de junção](/azure/data-explorer/kusto/query/joinoperator#join-hints)
 
-    Por exemplo, **[](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery)** a dica de embaralhar ajuda a melhorar o desempenho da consulta ao ingressar em tabelas usando uma chave com alta cardinalidade , uma chave com muitos valores exclusivos, como a consulta `AccountObjectId` abaixo:
+    Por exemplo, **[](/azure/data-explorer/kusto/query/shufflequery)** a dica de embaralhar ajuda a melhorar o desempenho da consulta ao ingressar em tabelas usando uma chave com alta cardinalidade , uma chave com muitos valores exclusivos, como a consulta `AccountObjectId` abaixo:
 
     ```kusto
     IdentityInfo
@@ -139,7 +139,7 @@ O [operador de junção](https://docs.microsoft.com/azure/data-explorer/kusto/qu
     on AccountObjectId 
     ```
     
-    A **[dica de](https://docs.microsoft.com/azure/data-explorer/kusto/query/broadcastjoin)** transmissão ajuda quando a tabela esquerda é pequena (até 100.000 registros) e a tabela direita é extremamente grande. Por exemplo, a consulta a seguir está tentando ingressar  alguns emails que têm assuntos específicos com todas as mensagens que contêm links na `EmailUrlInfo` tabela:
+    A **[dica de](/azure/data-explorer/kusto/query/broadcastjoin)** transmissão ajuda quando a tabela esquerda é pequena (até 100.000 registros) e a tabela direita é extremamente grande. Por exemplo, a consulta a seguir está tentando ingressar  alguns emails que têm assuntos específicos com todas as mensagens que contêm links na `EmailUrlInfo` tabela:
 
     ```kusto
     EmailEvents 
@@ -148,7 +148,7 @@ O [operador de junção](https://docs.microsoft.com/azure/data-explorer/kusto/qu
     ```
 
 ## <a name="optimize-the-summarize-operator"></a>Otimizar o `summarize` operador
-O [operador resumir](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator) agrega o conteúdo de uma tabela. Aplique essas dicas para otimizar consultas que usam esse operador.
+O [operador resumir](/azure/data-explorer/kusto/query/summarizeoperator) agrega o conteúdo de uma tabela. Aplique essas dicas para otimizar consultas que usam esse operador.
 
 - **Encontre valores distintos**— em geral, use `summarize` para encontrar valores distintos que podem ser repetitivos. Pode ser desnecessário usá-lo para agregar colunas que não têm valores repetitivos.
 
@@ -174,7 +174,7 @@ O [operador resumir](https://docs.microsoft.com/azure/data-explorer/kusto/query/
     | summarize by SenderFromAddress, RecipientEmailAddress   
     ```
 
-- **Embaralhar** a consulta — embora seja melhor usado em colunas com valores repetitivos, as mesmas colunas também podem ter alta cardinalidade ou um grande número `summarize` de valores  exclusivos. Assim como o operador, você também pode aplicar a dica de embaralhar para distribuir a carga de processamento e potencialmente melhorar o desempenho ao operar em colunas com `join` alta [](https://docs.microsoft.com/azure/data-explorer/kusto/query/shufflequery) `summarize` cardinalidade.
+- **Embaralhar** a consulta — embora seja melhor usado em colunas com valores repetitivos, as mesmas colunas também podem ter alta cardinalidade ou um grande número `summarize` de valores  exclusivos. Assim como o operador, você também pode aplicar a dica de embaralhar para distribuir a carga de processamento e potencialmente melhorar o desempenho ao operar em colunas com `join` alta [](/azure/data-explorer/kusto/query/shufflequery) `summarize` cardinalidade.
 
     A consulta a seguir usa para contar endereço de email de destinatário distinto, que pode ser executado em centenas `summarize` de milhares em grandes organizações. Para melhorar o desempenho, ele incorpora `hint.shufflekey` :
 
@@ -210,7 +210,7 @@ Há várias maneiras de criar uma linha de comando para executar uma tarefa. Por
 Para criar consultas mais duráveis ao redor das linhas de comando, aplique as seguintes práticas:
 
 - Identifique os processos conhecidos (comonet.exe *ou* *psexec.exe*) correspondendo aos campos de nome do arquivo, em vez de filtrar na própria linha de comando.
-- Analisar seções de linha de comando usando a [função parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) 
+- Analisar seções de linha de comando usando a [função parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) 
 - Ao consultar argumentos de linha de comando, não procure uma correspondência exata com vários argumentos não relacionados em uma determinada ordem. Em vez disso, use expressões regulares ou use vários operadores Contém separados.
 - Correspondências que não diferenciam letras maiúsculas de minúsculas. Por exemplo, use `=~` `in~` , e, em vez de `contains` , e `==` `in` `contains_cs` .
 - Para atenuar técnicas de ofuscação de linha de comando, considere remover aspas, substituir vírgulas por espaços e substituir vários espaços consecutivos por um único espaço. Há técnicas de ofuscação mais complexas que exigem outras abordagens, mas esses ajustes podem ajudar a resolver as comuns.
@@ -235,7 +235,7 @@ DeviceProcessEvents
 ```
 
 ### <a name="ingest-data-from-external-sources"></a>Ingerir dados de fontes externas
-Para incorporar listas longas ou tabelas grandes à sua consulta, use o operador [externaldata](https://docs.microsoft.com/azure/data-explorer/kusto/query/externaldata-operator) para ingerir dados de um URI especificado. Você pode obter dados de arquivos em TXT, CSV, JSON ou [outros formatos.](https://docs.microsoft.com/azure/data-explorer/ingestion-supported-formats) O exemplo a seguir mostra como você pode utilizar a extensa lista de hashes sha-256 de malware fornecidos pelo MalwareBazaar (abuse.ch) para verificar anexos em emails:
+Para incorporar listas longas ou tabelas grandes à sua consulta, use o operador [externaldata](/azure/data-explorer/kusto/query/externaldata-operator) para ingerir dados de um URI especificado. Você pode obter dados de arquivos em TXT, CSV, JSON ou [outros formatos.](/azure/data-explorer/ingestion-supported-formats) O exemplo a seguir mostra como você pode utilizar a extensa lista de hashes sha-256 de malware fornecidos pelo MalwareBazaar (abuse.ch) para verificar anexos em emails:
 
 ```kusto
 let abuse_sha256 = (externaldata(sha256_hash: string )
@@ -256,16 +256,16 @@ Há várias funções que você pode usar para lidar com cadeias de caracteres c
 
 | Cadeia de caracteres | Função | Exemplo de uso |
 |--|--|--|
-| Linhas de comando | [parse_command_line()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-command-line) | Extraia o comando e todos os argumentos. | 
-| Caminhos | [parse_path()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parsepathfunction) | Extraia as seções de um arquivo ou caminho de pasta. |
-| Números de versão | [parse_version()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-versionfunction) | Desconstrua um número de versão com até quatro seções e até oito caracteres por seção. Use os dados analisados para comparar a idade da versão. |
-| Endereços IPv4 | [parse_ipv4()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv4function) | Converta um endereço IPv4 em um inteiro longo. Para comparar endereços IPv4 sem convertê-los, use [ipv4_compare()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv4-comparefunction). |
-| Endereços IPv6 | [parse_ipv6()](https://docs.microsoft.com/azure/data-explorer/kusto/query/parse-ipv6function)  | Converta um endereço IPv4 ou IPv6 para a notação IPv6 canônica. Para comparar endereços IPv6, use [ipv6_compare()](https://docs.microsoft.com/azure/data-explorer/kusto/query/ipv6-comparefunction). |
+| Linhas de comando | [parse_command_line()](/azure/data-explorer/kusto/query/parse-command-line) | Extraia o comando e todos os argumentos. | 
+| Caminhos | [parse_path()](/azure/data-explorer/kusto/query/parsepathfunction) | Extraia as seções de um arquivo ou caminho de pasta. |
+| Números de versão | [parse_version()](/azure/data-explorer/kusto/query/parse-versionfunction) | Desconstrua um número de versão com até quatro seções e até oito caracteres por seção. Use os dados analisados para comparar a idade da versão. |
+| Endereços IPv4 | [parse_ipv4()](/azure/data-explorer/kusto/query/parse-ipv4function) | Converta um endereço IPv4 em um inteiro longo. Para comparar endereços IPv4 sem convertê-los, use [ipv4_compare()](/azure/data-explorer/kusto/query/ipv4-comparefunction). |
+| Endereços IPv6 | [parse_ipv6()](/azure/data-explorer/kusto/query/parse-ipv6function)  | Converta um endereço IPv4 ou IPv6 para a notação IPv6 canônica. Para comparar endereços IPv6, use [ipv6_compare()](/azure/data-explorer/kusto/query/ipv6-comparefunction). |
 
-Para saber mais sobre todas as funções de análise com suporte, [leia sobre as funções de cadeia de caracteres kusto](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalarfunctions#string-functions). 
+Para saber mais sobre todas as funções de análise com suporte, [leia sobre as funções de cadeia de caracteres kusto](/azure/data-explorer/kusto/query/scalarfunctions#string-functions). 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Documentação de idioma de consulta kusto](https://docs.microsoft.com/azure/data-explorer/kusto/query/)
+- [Documentação de idioma de consulta kusto](/azure/data-explorer/kusto/query/)
 - [Cotas e parâmetros de uso](advanced-hunting-limits.md)
 - [Manipular erros avançados de busca](advanced-hunting-errors.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

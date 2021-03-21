@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
-description: Saiba mais sobre as funcionalidades multi-geográficas no Exchange Online, como limitações de recursos e posicionamento da caixa de correio.
-ms.openlocfilehash: ca7203c72f23fd03512bf23eaa5a4687e4bac1b5
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+description: Saiba mais sobre recursos multi-geo no Exchange Online, como limitações de recursos e posicionamento de caixa de correio.
+ms.openlocfilehash: bf1c3c8f510c57f47cbfc7b2609d97f5932e05d3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687236"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923727"
 ---
 # <a name="multi-geo-capabilities-in-exchange-online"></a>Recursos multigeográficos no Exchange Online
 
@@ -59,4 +59,4 @@ O Exchange Online sincroniza a propriedade **PreferredDataLocation** do Azure ad
 
 - As pastas públicas têm suporte nas organizações multigeográficas. No entanto, as pastas públicas devem permanecer na localização multigeográfica central. Você não pode mover pastas públicas para locais geográficos de satélite.
 
-- Em um ambiente de várias regiões, não há suporte para a auditoria de caixas de correio de várias regiões. Por exemplo, se um usuário receber permissões para acessar uma caixa de correio compartilhada em um local geográfico diferente, as ações de caixa de correio executadas por esse usuário não serão registradas no log de auditoria da caixa de correio da caixa de correio compartilhada. Para saber mais, consulte [Gerenciar a auditoria da caixa de correio](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing?view=o365-worldwide).
+- Em um ambiente de várias regiões, não há suporte para a auditoria de caixas de correio de várias regiões. Por exemplo, se um usuário receber permissões para acessar uma caixa de correio compartilhada em um local geográfico diferente, as ações de caixa de correio executadas por esse usuário não serão registradas no log de auditoria da caixa de correio da caixa de correio compartilhada. Para saber mais, consulte [Gerenciar a auditoria da caixa de correio](../compliance/enable-mailbox-auditing.md?view=o365-worldwide).

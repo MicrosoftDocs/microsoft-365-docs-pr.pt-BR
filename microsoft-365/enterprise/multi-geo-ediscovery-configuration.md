@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 ms.collection: Strat_SP_gtc
-description: Saiba como usar o parâmetro Region para configurar a Descoberta e para uso em localizações satélites no Microsoft 365 Multi-Geo.
-ms.openlocfilehash: d1d66a9e7953b540e318c8364bdcb8d72654b482
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Saiba como usar o parâmetro Region para configurar a Descoberta e Para uso em locais de satélite no Microsoft 365 Multi-Geo.
+ms.openlocfilehash: 4d3481fe8b72bb970893ce065293a7a2cc717331
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48636800"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923715"
 ---
 # <a name="microsoft-365-multi-geo-ediscovery-configuration"></a>Configuração do Microsoft 365 Multi-Geo eDiscovery
 
-[As funcionalidades avançadas](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) de Descoberta e Permitem que um administrador de Descobertas Geográficas multi-geográfica pesquise todas as áreas geográficas sem precisar utilizar um filtro de segurança "Região". Os dados são exportados para a instância do Azure da localização central do locatário multi-geo. 
+[Os recursos avançados de](../compliance/overview-ediscovery-20.md) Descoberta Digital permitem que um administrador de Descoberta eDiscoveria multi-geográfica pesquise todos os geos sem precisar utilizar um filtro de segurança "Região". Os dados são exportados para a instância do Azure da localização central do locatário multi-geo. 
 
-Sem as funcionalidades avançadas de Descoberta eDiscovery, um gerente ou administrador de um locatário multi-geo será capaz de conduzir a descoberta de eDiscovery somente na localização central desse locatário. Para dar suporte à capacidade de conduzir a Descoberta e para localizações via satélite, um novo parâmetro de filtro de segurança de conformidade chamado "Região" está disponível por meio do PowerShell. Esse parâmetro pode ser usado por locatários cuja localização central está na América do Norte, Europa ou Pacífico Asiático. A Descoberta Avançada é recomendada para locatários cuja localização central não está na América do Norte, Europa ou Pacífico Asiático e que precisam realizar a Descoberta eDiscovery em localizações geográficas por satélite. 
+Sem recursos avançados de Descoberta e, um gerente de Descoberta e/ou administrador de um locatário multi-geo será capaz de conduzir a Descoberta eDiscovery somente no local central desse locatário. Para dar suporte à capacidade de conduzir a Descoberta Digital para locais satélite, um novo parâmetro de filtro de segurança de conformidade chamado "Região" está disponível por meio do PowerShell. Esse parâmetro pode ser usado por locatários cuja localização central está na América do Norte, Europa ou Pacífico Asiático. A Descoberta eDiscoveria Avançada é recomendada para locatários cuja localização central não está na América do Norte, Europa ou Pacífico Asiático e que precisam executar a Descoberta eDiscovery em localizações geográficas de satélite. 
 
 O administrador global do Microsoft 365 deve atribuir permissões ao eDiscovery Manager para permitir que outras pessoas executem o eDiscovery e atribuam o parâmetro "Região" no seu Filtro de segurança de conformidade aplicável para especificar a região de execução do eDiscovery como localização do satélite; caso contrário, nenhum eDiscovery será executado na localização por satélite.
 
@@ -37,7 +37,7 @@ Quando a função de gerente ou administrador de Descoberta Eletrônica é defin
 
 Para configurar o Filtro de Segurança de Conformidade para uma região:
 
-1. [Conecte-se ao Centro de conformidade e segurança do Microsoft 365 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+1. [Conecte-se ao Centro de conformidade e segurança do Microsoft 365 PowerShell](/powershell/exchange/connect-to-scc-powershell)
 
 2. Use a seguinte sintaxe:
 
@@ -51,4 +51,4 @@ Para configurar o Filtro de Segurança de Conformidade para uma região:
    New-ComplianceSecurityFilter -Action All -FilterName "NAM eDiscovery Managers" -Region NAM -Users adwood@contoso.onmicrosoft.com
    ```
 
-Confira o artigo sobre o cmdlet [New-ComplianceSecurityFilter](https://docs.microsoft.com/powershell/module/exchange/new-compliancesecurityfilter) para ver os sintaxe e parâmetros adicionais.
+Confira o artigo sobre o cmdlet [New-ComplianceSecurityFilter](/powershell/module/exchange/new-compliancesecurityfilter) para ver os sintaxe e parâmetros adicionais.

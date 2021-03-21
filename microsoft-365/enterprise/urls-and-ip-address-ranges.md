@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
 description: 'Resumo: o Office 365 requer conectividade com a Internet. Os pontos de extremidade abaixo devem estar acessíveis para os clientes que usam os planos do Office 365, incluindo a Government Community Cloud (GCC).'
 hideEdit: true
-ms.openlocfilehash: 826da75ea4f6991a3291e8b1e36d644fb19a7704
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 1c0a2a486bf6964edc9b94fd670c96ade161cacd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50596951"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925263"
 ---
 # <a name="office-365-urls-and-ip-address-ranges"></a>Intervalos de endereços IP e URLs do Office 365
 
@@ -69,9 +69,9 @@ As colunas de dados exibidas são:
 
 [Gerenciar pontos de extremidade do Office 365](managing-office-365-endpoints.md)
 
-[Pontos de extremidade gerais do Microsoft Stream](https://docs.microsoft.com/stream/network-overview#general-microsoft-stream-endpoints)
+[Pontos de extremidade gerais do Microsoft Stream](/stream/network-overview#general-microsoft-stream-endpoints)
   
-[Monitorar a conectividade do Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity)
+[Monitorar a conectividade do Microsoft 365](./monitor-connectivity.md)
 
 [CA raiz e o pacote da autoridade de certificação intermediária no sistema de aplicativos de terceiros](../compliance/encryption-office-365-certificate-chains.md)
   

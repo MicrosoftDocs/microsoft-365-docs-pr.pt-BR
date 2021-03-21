@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Saiba como acessar o Azure Active Directory, que vem incluído na assinatura paga da sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c968d4ae8cc5f0798b6ba7d5bcb52ca6fe7d6116
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: 5bc1c57c0c40df03d27471aafd222908ba9d5887
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528147"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925447"
 ---
 # <a name="use-your-free-azure-active-directory-subscription"></a>Usar assinatura gratuita do Azure Active Directory
 
@@ -48,8 +48,8 @@ Use uma sessão de navegação privada (não uma sessão normal) para acessar o 
 
 ## <a name="more-information"></a>Mais informações
 
-- Uma assinatura gratuita do Azure Active Directory não inclui o relatório de atividade de entrada. Para registrar a atividade de entrada (que pode ser útil no caso de um vazamento de dados), você precisa de uma assinatura do Azure Active Directory Premium. Para saber mais, consulte [Por quanto tempo o Azure AD armazena os dados?](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-data-retention#how-long-does-azure-ad-store-the-data).
+- Uma assinatura gratuita do Azure Active Directory não inclui o relatório de atividade de entrada. Para registrar a atividade de entrada (que pode ser útil no caso de um vazamento de dados), você precisa de uma assinatura do Azure Active Directory Premium. Para saber mais, consulte [Por quanto tempo o Azure AD armazena os dados?](/azure/active-directory/reports-monitoring/reference-reports-data-retention#how-long-does-azure-ad-store-the-data).
 
 - Você também pode acessar o centro de administração do **Azure Active Directory** do centro de administração do Microsoft 365. No painel de navegação à esquerda do centro de administração do Microsoft 365, clique em **Centros de administração do** \> **Azure Active Directory**.
 
-- Confira informações sobre como gerenciar usuários e grupos e realizar outras tarefas de gerenciamento do diretório em [Gerenciar seu diretório do Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-administer).
+- Confira informações sobre como gerenciar usuários e grupos e realizar outras tarefas de gerenciamento do diretório em [Gerenciar seu diretório do Azure AD](/azure/active-directory/active-directory-administer).

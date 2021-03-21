@@ -18,12 +18,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Diretrizes para o uso de túnel dividido de VPN com o Office 365 para otimizar a conectividade do Office 365 para usuários remotos.
-ms.openlocfilehash: 103a5cc36c9e981ccef5717971e32330078ed721
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+ms.openlocfilehash: 9f54d8836105896d8d00afc4a622975c007bda85
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456382"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924183"
 ---
 # <a name="optimize-office-365-connectivity-for-remote-users-using-vpn-split-tunneling"></a>Otimizar a conectividade do Office 365 dos usuários remotos usando o túnel dividido da VPN
 <!---
@@ -43,7 +43,7 @@ A essência dessa abordagem é fornecer um método simples para as empresas dimi
 
 - Ameniza imediatamente a causa raiz da maioria dos problemas de capacidade de rede e de desempenho relatados pelos clientes nas arquiteturas VPN corporativas que impactam a experiência do usuário do Office 365
   
-  A solução recomendada visa especificamente os pontos de extremidade de serviço do Office 365 categorizados como **Otimizar** no tópico [URLs e intervalos de endereço IP do Office 365](https://aka.ms/o365ips). O tráfego para esses pontos de extremidade é altamente sensível à latência e limitação da largura de banda, e permitir que ele contorne o túnel VPN pode melhorar significativamente a experiência do usuário final, bem como reduzir a carga da rede corporativa. As conexões do Office 365 que não constituem a maior parte da largura de banda ou da área de cobertura da experiência do usuário podem continuar a ser roteadas através do túnel VPN juntamente com o resto do tráfego de Internet. Para obter mais informações, confira [A estratégia de túnel dividido de VPN](#the-vpn-split-tunnel-strategy).
+  A solução recomendada visa especificamente os pontos de extremidade de serviço do Office 365 categorizados como **Otimizar** no tópico [URLs e intervalos de endereço IP do Office 365](./urls-and-ip-address-ranges.md). O tráfego para esses pontos de extremidade é altamente sensível à latência e limitação da largura de banda, e permitir que ele contorne o túnel VPN pode melhorar significativamente a experiência do usuário final, bem como reduzir a carga da rede corporativa. As conexões do Office 365 que não constituem a maior parte da largura de banda ou da área de cobertura da experiência do usuário podem continuar a ser roteadas através do túnel VPN juntamente com o resto do tráfego de Internet. Para obter mais informações, confira [A estratégia de túnel dividido de VPN](#the-vpn-split-tunnel-strategy).
 
 - Pode ser configurado, testado e implementado rapidamente pelos clientes, sem requisitos adicionais de infraestrutura ou aplicativos
 
@@ -90,7 +90,7 @@ Este conjunto de pontos de extremidade com um escopo apertado pode ser dividido 
 
 Elementos de segurança como DLP, proteção antivírus, autenticação e controle de acesso podem ser entregues de forma muito mais eficiente em relação a esses pontos de extremidades em diferentes camadas dentro do serviço. Como também desviamos a maior parte do volume de tráfego da solução VPN, isto libera a capacidade do VPN para o tráfego crítico do negócio que ainda depende dele. Isso também deve eliminar a necessidade, em muitos casos, de passar por um longo e dispendioso programa de atualização para lidar com essa nova maneira de operar.
 
-![Detalhes de configuração de VPN de túnel dividido](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
+![Detalhes da configuração vpn de túnel dividido](../media/vpn-split-tunneling/vpn-split-tunnel-example.png)
 
 _Figura 3: uma solução VPN de túnel dividido com exceções definidas do Office 365, enviada diretamente para o serviço. Todo o restante tráfego é forçado a voltar para a rede corporativa, independentemente do destino._
 

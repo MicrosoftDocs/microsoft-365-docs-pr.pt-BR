@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: Informações adicionais sobre a experiência do cliente ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 8dcb8b8ab2ec5c3dea105380858d26cfd5537d9c
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 84705eaf78da4d1e8d35f743599f6a4e9e46208f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712277"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924417"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-advanced"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland (avançado) 
 
@@ -42,7 +42,7 @@ Entre a Fase 2 de 9 e a Fase 3 de 9, o Partner Portal pode não estar acessível
 | Step(s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
 | Locatário do Azure AD no Microsoft Cloud Deutschland copiado para o Office 365 Services. | O Azure AD copia o locatário para os serviços do Office 365. Os identificadores de locatário e usuário são preservados. As chamadas de serviço do Azure AD são redirecionadas do Microsoft Cloud Deutschland para os serviços do Office 365 e são transparentes para os serviços. | Todos os clientes do Office | - As DSRs (General Data Protection Regulation) do RGPD (Regulamento Geral de Proteção de Dados) são executadas a partir do portal de administração do Azure para solicitações futuras. Quaisquer dados de diagnóstico herdados ou não do cliente residentes no Microsoft Cloud Deutschland são excluídos em ou antes de 30 dias. <br><br> - Os clientes que usam autenticações federadas com os Serviços de Federação do Active Directory (AD FS) não devem fazer alterações nas URIs do emissor que são usadas para todas as autenticações com o Active Directory local durante a migração. Alterar URIs do emissor levará a falhas de autenticação para usuários no domínio. URIs do emissor podem ser alteradas diretamente no AD  FS ou quando um domínio é convertido de gerenciado para _federado_ e vice-versa. Recomendamos que os clientes não adicionem, removam ou convertam um domínio federado no locatário do Azure AD que foi migrado. As URIs do emissor podem ser alteradas depois que a migração estiver completa. <br><br> - Solicitações de autenticação multifatória (MFA) que usam a exibição do Microsoft Authenticator como objectID do usuário (um GUID) enquanto o locatário é copiado para serviços do Office 365. As solicitações de MFA terão o desempenho esperado apesar desse comportamento de exibição.  As contas do Microsoft Authenticator que foram ativadas usando pontos de extremidade dos serviços do Office 365 exibirão o nome principal do usuário (UPN).  Contas adicionadas usando pontos de extremidade do Microsoft Cloud Deutschland exibirão o ObjectID do usuário, mas funcionarão com pontos de extremidade do Microsoft Cloud Deutschland e do Office 365.  |
-| Migração de recursos do Azure. | Os clientes que usam recursos do Office 365 e do Azure (por exemplo, rede, computação e armazenamento) realizarão a migração de recursos para a instância de serviços do Office 365. Essa migração é uma responsabilidade para os clientes. As postagens da Central de Mensagens sinalizam o início. A migração deve ser concluída antes da finalização da organização do Azure AD no ambiente de serviços do Office 365. | Clientes do Azure | Para migrações do Azure, consulte o manual de migração do Azure, Visão geral das diretrizes de migração [para o Azure Germany](https://docs.microsoft.com/azure/germany/germany-migration-main). |
+| Migração de recursos do Azure. | Os clientes que usam recursos do Office 365 e do Azure (por exemplo, rede, computação e armazenamento) realizarão a migração de recursos para a instância de serviços do Office 365. Essa migração é uma responsabilidade para os clientes. As postagens da Central de Mensagens sinalizam o início. A migração deve ser concluída antes da finalização da organização do Azure AD no ambiente de serviços do Office 365. | Clientes do Azure | Para migrações do Azure, consulte o manual de migração do Azure, Visão geral das diretrizes de migração [para o Azure Germany](/azure/germany/germany-migration-main). |
 |||||
 
 ### <a name="exchange-online-before-phase-5"></a>Exchange Online antes da fase 5
@@ -84,7 +84,7 @@ Entre a Fase 2 de 9 e a Fase 3 de 9, o Partner Portal pode não estar acessível
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
-| Desde o início da fase 4 até a conclusão da fase 9, as pesquisas de Descoberta Virtual falharão ou retornarão 0 resultados para os locais do SharePoint Online, do OneDrive for Business e do Exchange Online que foram migrados. | Durante [a](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)migração, os clientes podem continuar a criar casos, regiões, pesquisas e exportações no Centro de Conformidade & Segurança, incluindo [Pesquisa de Conteúdo.](https://docs.microsoft.com/microsoft-365/compliance/search-for-content)  No entanto, as pesquisas em locais do SharePoint Online, do OneDrive for Business e do Exchange Online migrados retornarão 0 resultados ou produzirão um erro. Para correção, consulte a _coluna Impacto._ | Caso uma pesquisa retorne zero resultados ou um erro durante a migração, faça a seguinte ação para o SharePoint Online: <ul><li>Baixe sites diretamente do site do SharePoint Online/OneDrive for Business seguindo as instruções em Baixar arquivos e [pastas do OneDrive ou do SharePoint](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05). Este método exigirá permissões de administrador do SharePoint Online ou permissões somente leitura no site.</li><li>Se os limites são excedido, conforme explicado em Baixar arquivos e pastas do OneDrive ou [do SharePoint](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05), os clientes poderão usar o cliente de sincronização do OneDrive for Business seguindo as diretrizes em Sincronizar arquivos do [SharePoint](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88)e do Teams com seu computador.</li><li>Para obter mais informações,  [consulte In-Place eDiscovery in-Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/ediscovery/ediscovery) |
+| Desde o início da fase 4 até a conclusão da fase 9, as pesquisas de Descoberta Virtual falharão ou retornarão 0 resultados para os locais do SharePoint Online, do OneDrive for Business e do Exchange Online que foram migrados. | Durante [a](../compliance/manage-legal-investigations.md)migração, os clientes podem continuar a criar casos, regiões, pesquisas e exportações no Centro de Conformidade & Segurança, incluindo [Pesquisa de Conteúdo.](../compliance/search-for-content.md)  No entanto, as pesquisas em locais do SharePoint Online, do OneDrive for Business e do Exchange Online migrados retornarão 0 resultados ou produzirão um erro. Para correção, consulte a _coluna Impacto._ | Caso uma pesquisa retorne zero resultados ou um erro durante a migração, faça a seguinte ação para o SharePoint Online: <ul><li>Baixe sites diretamente do site do SharePoint Online/OneDrive for Business seguindo as instruções em Baixar arquivos e [pastas do OneDrive ou do SharePoint](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05). Este método exigirá permissões de administrador do SharePoint Online ou permissões somente leitura no site.</li><li>Se os limites são excedido, conforme explicado em Baixar arquivos e pastas do OneDrive ou [do SharePoint](https://support.office.com/article/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e8fa5df05), os clientes poderão usar o cliente de sincronização do OneDrive for Business seguindo as diretrizes em Sincronizar arquivos do [SharePoint](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88)e do Teams com seu computador.</li><li>Para obter mais informações,  [consulte In-Place eDiscovery in-Exchange Server](/Exchange/policy-and-compliance/ediscovery/ediscovery) |
 ||||
 
 ## <a name="post-migration"></a>Pós-migração
@@ -102,7 +102,7 @@ Entre a Fase 2 de 9 e a Fase 3 de 9, o Partner Portal pode não estar acessível
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
-| Remova as confianças de terceiros confiável do Microsoft Cloud Deutschland AD FS. | Após a conclusão do corte no Azure AD, a organização está usando totalmente os serviços do Office 365 e não está mais conectada ao Microsoft Cloud Deutschland. Neste ponto, o cliente precisa remover a confiança da parte confiável para os pontos de extremidade do Microsoft Cloud Deutschland. Isso só pode ser feito quando nenhum aplicativo do cliente aponta para os pontos de extremidade do Microsoft Cloud Deutschland quando o Azure AD é aproveitado como um Provedor de Identidade (IdP). | Organizações de Autenticação Federada | Nenhum. |
+| Remova as confianças de terceiros confiável do Microsoft Cloud Deutschland AD FS. | Após a conclusão do corte no Azure AD, a organização está usando totalmente os serviços do Office 365 e não está mais conectada ao Microsoft Cloud Deutschland. Neste ponto, o cliente precisa remover a confiança da parte confiável para os pontos de extremidade do Microsoft Cloud Deutschland. Isso só pode ser feito quando nenhum aplicativo do cliente aponta para os pontos de extremidade do Microsoft Cloud Deutschland quando o Azure AD é aproveitado como um Provedor de Identidade (IdP). | Organizações de Autenticação Federada | Nenhum |
 |||||
 
 <!--
@@ -154,8 +154,8 @@ Se você estiver usando uma configuração híbrida do Exchange:
 
 | Step(s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
-|  Todos os locais do SharePoint Online, do OneDrive for Business e do Exchange Online foram migrados juntamente com o Centro de Segurança e Conformidade (SCC). | Todas as atividades de Descoberta Externa devem ser executados do locatário em todo o mundo. As pesquisas agora terão 100% de êxito.  Quaisquer falhas ou erros devem seguir os canais de suporte normais. | Todos os clientes que usam a Descoberta E | Nenhum. |
-| Remover políticas de retenção em toda a organização que foram criadas durante etapas de pré-migração | Os clientes podem remover as políticas de retenção em toda a organização que foram criadas durante o trabalho de pré-migração dos clientes. | Todos os clientes que aplicaram uma política de retenção como parte das etapas de pré-migração. | Nenhum. |
+|  Todos os locais do SharePoint Online, do OneDrive for Business e do Exchange Online foram migrados juntamente com o Centro de Segurança e Conformidade (SCC). | Todas as atividades de Descoberta Externa devem ser executados do locatário em todo o mundo. As pesquisas agora terão 100% de êxito.  Quaisquer falhas ou erros devem seguir os canais de suporte normais. | Todos os clientes que usam a Descoberta E | Nenhum |
+| Remover políticas de retenção em toda a organização que foram criadas durante etapas de pré-migração | Os clientes podem remover as políticas de retenção em toda a organização que foram criadas durante o trabalho de pré-migração dos clientes. | Todos os clientes que aplicaram uma política de retenção como parte das etapas de pré-migração. | Nenhum |
 |||||
 
 ## <a name="next-step"></a>Próxima etapa
@@ -179,6 +179,6 @@ Movendo-se pela transição:
 
 Aplicativos de nuvem:
 
-- [Informações do programa de migração do Dynamics 365](https://aka.ms/d365ceoptin)
-- [Informações do programa de migração do Power BI](https://aka.ms/pbioptin)
-- [Introdução à atualização do Microsoft Teams](https://aka.ms/SkypeToTeams-Home)
+- [Informações do programa de migração do Dynamics 365](/dynamics365/get-started/migrate-data-german-region)
+- [Informações do programa de migração do Power BI](/power-bi/admin/service-admin-migrate-data-germany)
+- [Introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here)

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 08dd78c7648126717113066e3c87b05e624f57d0
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 7426e22fd617e93fbf63748ba38fc705e4c995a9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712349"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50924405"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -41,7 +41,7 @@ A tabela no esquema de busca avançado contém informações sobre atividades de
 > Para obter informações detalhadas sobre os tipos de eventos ( valores) suportados por uma tabela, use a referência de `ActionType` esquema interna disponível no centro de segurança.
 
 >[!NOTE]
->Esta tabela aborda as atividades de logon do Azure Active Directory (AD) controladas pelo Cloud App Security, especificamente atividades de autenticação e logon interativos usando ActiveSync e outros protocolos herdados. Os logons não interativos que não estão disponíveis nesta tabela podem ser exibidos no log de auditoria do Azure AD. [Saiba mais sobre como conectar o Cloud App Security ao Microsoft 365](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
+>Esta tabela aborda as atividades de logon do Azure Active Directory (AD) controladas pelo Cloud App Security, especificamente atividades de autenticação e logon interativos usando ActiveSync e outros protocolos herdados. Os logons não interativos que não estão disponíveis nesta tabela podem ser exibidos no log de auditoria do Azure AD. [Saiba mais sobre como conectar o Cloud App Security ao Microsoft 365](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
 
 Para obter informações sobre outras tabelas no esquema de busca avançada, [confira a referência de busca avançada](advanced-hunting-schema-tables.md).
 

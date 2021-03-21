@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: 3d083537f3a9337d88d63861e0bf66867f558aba
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 2443319d254130b38bb1047a633c85c160eadd8c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454000"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925995"
 ---
 # <a name="manage-topics-in-the-topic-center"></a>Gerenciar tópicos na central de tópicos 
 
@@ -52,7 +52,7 @@ Os gerentes de conhecimento ajudam a orientar tópicos descobertos por meio do c
 Para gerenciar tópicos na central de tópicos, você precisa:
 - Tenha uma licença de Tópicos do Viva.
 
-- Tenha a [**permissão Quem pode gerenciar tópicos.**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions) Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva. 
+- Tenha a [**permissão Quem pode gerenciar tópicos.**](./topic-experiences-user-permissions.md) Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva. 
 
 Você não poderá exibir a página Gerenciar Tópicos na Central de Tópicos, a menos que tenha a permissão **Quem pode gerenciar tópicos.**
 
@@ -111,8 +111,4 @@ Observe que você ainda pode optar por rejeitar um tópico confirmado.  Para faz
 ## <a name="published-topics"></a>Tópicos publicados
 Os tópicos publicados foram editados para que informações específicas sempre apareçam para quem encontrar a página. Os tópicos criados manualmente também estão listados aqui.
 
-   ![Gerenciar tópicos](../media/knowledge-management/manage-topics-new.png) </br> 
-
-
-
-
+   ![Gerenciar tópicos](../media/knowledge-management/manage-topics-new.png) </br>

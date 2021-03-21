@@ -22,12 +22,12 @@ f1.keywords:
 description: O Office 365 requer conectividade com a Internet. Os pontos de extremidade abaixo devem ser acessíveis apenas para clientes que usam planos do DoD do Office 365.
 hideEdit: true
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e7001ac258b0c866c6b41a580394c771d192beae
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 925ec5940bd6c2ead7f94e162311f65e67afc502
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50596939"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923973"
 ---
 # <a name="office-365-us-government-dod-endpoints"></a>Pontos de extremidade do DoD do Governo dos EUA do Office 365
 
@@ -41,7 +41,7 @@ ms.locfileid: "50596939"
 |:-----|:-----|
 |**Última atualização:** 28/01/2021 - Assinatura do Log de Alterações ![ ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [do](https://endpoints.office.com/version/USGOVDoD?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) RSS <br/> |**Baixar:** a lista completa no [formato JSON](https://endpoints.office.com/endpoints/USGOVDoD?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
 
- Comece com o Gerenciamento de pontos de extremidade do [Office 365](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando esses dados. Os dados de pontos de extremidade são atualizados conforme necessário no início de cada mês com novos Endereços IP e URLs publicadas 30 dias antes de estarem ativos. Isso permite que os clientes que ainda não tenham atualizações automatizadas concluam seus processos antes que a nova conectividade seja necessária. Os pontos de extremidade também podem ser atualizados durante o mês, se necessário para lidar com escalonamentos de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Os dados mostrados nesta página abaixo são todos gerados a partir dos serviços Web baseados em REST. Se você estiver usando um script ou um dispositivo de rede para acessar esses dados, acesse o [serviço Web diretamente.](microsoft-365-ip-web-service.md)
+ Comece com [Gerenciando pontos de extremidade do Office 365 ](managing-office-365-endpoints.md) para entender nossas recomendações para gerenciar a conectividade de rede usando esses dados. Os dados dos terminais são atualizados conforme necessário no início de cada mês com novos endereços IP e URLs publicados 30 dias antes de serem ativados. Isso permite que os clientes que ainda não tenham atualizações automatizadas concluam seus processos antes que a nova conectividade seja necessária. Os endpoints também podem ser atualizados durante o mês, se necessário, para lidar com escalações de suporte, incidentes de segurança ou outros requisitos operacionais imediatos. Os dados mostrados nesta página a seguir são todos gerados a partir dos serviços da web baseados em REST. Se estiver usando um script ou um dispositivo de rede para acessar esses dados, você deve ir para o [serviço da Web ](microsoft-365-ip-web-service.md) diretamente.
 
 Os dados do ponto de extremidade abaixo listam os requisitos de conectividade do computador de um usuário para o Office 365. Ele não inclui conexões de rede da Microsoft em uma rede do cliente, às vezes chamadas de conexões de rede híbridas ou de entrada. Para obter mais informações, consulte [Pontos de extremidade adicionais não incluídos no serviço Web](additional-office365-ip-addresses-and-urls.md). 
 
@@ -51,9 +51,9 @@ As colunas de dados exibidas são:
 
 - **ID**: O número de ID da linha, também conhecido como um conjunto de pontos de extremidade. Esse ID é o mesmo que é retornado pelo serviço web ao conjunto de pontos de extremidade.
 
-- **Categoria**: Mostra se o conjunto de terminais está classificado como "Otimizar", "Permitir" ou "Padrão". Você pode ler sobre essas categorias e orientações para o gerenciamento delas em [https://aka.ms/pnc](https://aka.ms/pnc). Esta coluna também lista quais conjuntos de terminais são necessários para se ter conectividade de rede. Quanto aos conjuntos de terminais que não precisam ter conectividade de rede, fornecemos notas neste campo para indicar qual funcionalidade faltaria se o conjunto de terminais estivesse bloqueado. Se você excluir uma área de serviço inteira, os conjuntos de terminais listados conforme necessário não exigirão conectividade.
+- **Categoria**: Mostra se o conjunto de terminais está classificado como "Otimizar", "Permitir" ou "Padrão". Você pode ler sobre essas categorias e orientações para o gerenciamento delas em [https://aka.ms/pnc](./microsoft-365-network-connectivity-principles.md). Esta coluna também lista quais conjuntos de terminais são necessários para se ter conectividade de rede. Quanto aos conjuntos de terminais que não precisam ter conectividade de rede, fornecemos notas neste campo para indicar qual funcionalidade faltaria se o conjunto de terminais estivesse bloqueado. Se você excluir uma área de serviço inteira, os conjuntos de terminais listados conforme necessário não exigirão conectividade.
 
-- **ER**: Isso é **Sim se** o conjunto de pontos de extremidade for suportado sobre o Azure ExpressRoute com prefixos de rota do Office 365. A comunidade BGP que inclui os prefixos de rota mostrados se alinha à área de serviço listada. Quando ER é **Não**, isso significa que o ExpressRoute não tem suporte para esse conjunto de pontos de extremidade. No entanto, não deve ser presumido que nenhuma rota seja anunciada para um conjunto de pontos de extremidade onde ER é **Não**. Se você planeja usar o Azure AD Connect, leia a seção considerações [especiais](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-instances#microsoft-azure-government) para garantir que você tenha a configuração apropriada do Azure AD Connect.
+- **ER**: Isso é **Sim se** o conjunto de pontos de extremidade for suportado sobre o Azure ExpressRoute com prefixos de rota do Office 365. A comunidade BGP que inclui os prefixos de rota mostrados se alinha à área de serviço listada. Quando ER é **Não**, isso significa que o ExpressRoute não tem suporte para esse conjunto de pontos de extremidade. No entanto, não deve ser presumido que nenhuma rota seja anunciada para um conjunto de pontos de extremidade onde ER é **Não**. Se você planeja usar o Azure AD Connect, leia a seção considerações [especiais](/azure/active-directory/hybrid/reference-connect-instances#microsoft-azure-government) para garantir que você tenha a configuração apropriada do Azure AD Connect.
 
 - **Endereços**: lista os FQDNs ou nomes de domínio curinga e intervalos de endereços IP para o conjunto de pontos de extremidade. Observe que o intervalo de endereços IP está no formato CIDR e pode incluir vários endereços IP individuais na rede especificada.
  

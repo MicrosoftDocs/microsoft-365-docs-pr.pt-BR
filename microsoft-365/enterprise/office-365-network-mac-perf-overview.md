@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Visão geral da conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
-ms.openlocfilehash: 159edf6f95910625c3f924d02c8307d681164df7
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0bfcebff4ebbefdb77049119fef2402af1ca8f90
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454236"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926091"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
 
@@ -97,7 +97,7 @@ Muitas empresas têm configurações de perímetro de rede que cresceram com o t
 
 ## <a name="how-we-can-solve-these-challenges"></a>Como resolver esses desafios
 
-As empresas podem melhorar a experiência geral do usuário e proteger seu ambiente seguindo os princípios de conectividade do [Office 365](https://aka.ms/pnc) e usando o recurso de conectividade de rede do Centro de Administração do Microsoft 365. Na maioria dos casos, seguir esses princípios gerais terá um impacto positivo significativo na latência do usuário final, na confiabilidade do serviço e no desempenho geral do Microsoft 365.
+As empresas podem melhorar a experiência geral do usuário e proteger seu ambiente seguindo os princípios de conectividade do [Office 365](./microsoft-365-network-connectivity-principles.md) e usando o recurso de conectividade de rede do Centro de Administração do Microsoft 365. Na maioria dos casos, seguir esses princípios gerais terá um impacto positivo significativo na latência do usuário final, na confiabilidade do serviço e no desempenho geral do Microsoft 365.
 
 Às vezes, a Microsoft é solicitado a investigar problemas de desempenho de rede com o Microsoft 365 para clientes de grandes empresas, e eles frequentemente têm uma causa raiz relacionada à infraestrutura de perímetro de rede dos clientes. Quando uma causa raiz comum de um problema de perímetro de rede do cliente é encontrada, buscamos identificar medições de teste simples que o identificam. Um teste com um limite de medida que identifica um problema específico é valioso porque podemos testar a mesma medida em qualquer local, dizer se essa causa raiz está presente lá e compartilhá-la como um insight de rede com o administrador.
 

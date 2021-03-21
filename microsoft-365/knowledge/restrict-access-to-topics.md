@@ -13,12 +13,12 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-topics
 localization_priority: None
-ms.openlocfilehash: b8c49c96ace14ac1ba03411b5670d8e77268109a
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: dc344e0263bab287133ddb01ecab262440eb9e10
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453903"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50925947"
 ---
 # <a name="restrict-access-to-topics-in-microsoft-viva-topics"></a>Restringir o acesso a tópicos em Tópicos do Microsoft Viva
 
@@ -33,28 +33,21 @@ Embora os administradores de conhecimento controlem as configurações de rede d
 
 O administrador de conhecimento pode restringir o acesso a tópicos específicos impedindo-os de serem encontrados na indexação inicial. Há duas maneiras de fazer essa tarefa nas configurações de administrador da Rede de Conhecimento no Centro de administração do Microsoft 365.
  
-- [Selecione sites do SharePoint a serem excluídos da](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery#select-sharepoint-topic-sources)descoberta de tópicos : você pode usar essa configuração para impedir que sites específicos do SharePoint seja rastreado para tópicos.
-- [Excluir tópicos pelo nome:](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery#exclude-topics-by-name)os administradores podem usar essa configuração para impedir que tópicos específicos sejam descobertos pelo nome. Nas configurações de administrador da Rede de Conhecimento, um administrador pode carregar uma lista de tópicos a serem excluídos em um arquivo CSV. Você pode excluir tópicos que tenham combinações exatas ou parciais de um nome de tópico.
+- [Selecione sites do SharePoint a serem excluídos da](./topic-experiences-discovery.md#select-sharepoint-topic-sources)descoberta de tópicos : você pode usar essa configuração para impedir que sites específicos do SharePoint seja rastreado para tópicos.
+- [Excluir tópicos pelo nome:](./topic-experiences-discovery.md#exclude-topics-by-name)os administradores podem usar essa configuração para impedir que tópicos específicos sejam descobertos pelo nome. Nas configurações de administrador da Rede de Conhecimento, um administrador pode carregar uma lista de tópicos a serem excluídos em um arquivo CSV. Você pode excluir tópicos que tenham combinações exatas ou parciais de um nome de tópico.
 
 ## <a name="prevent-topics-from-being-viewed-by-specific-users"></a>Impedir que os tópicos são exibidos por usuários específicos
 
-Os administradores de conhecimento também podem [selecionar quem pode exibir tópicos em sua organização.](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-knowledge-rules) Essa configuração permite selecionar quais usuários licenciados podem exibir todos os tópicos. Por exemplo, em um ambiente piloto, talvez você queira permitir que um pequeno grupo de usuários possa exibir tópicos.
+Os administradores de conhecimento também podem [selecionar quem pode exibir tópicos em sua organização.](./topic-experiences-knowledge-rules.md) Essa configuração permite selecionar quais usuários licenciados podem exibir todos os tópicos. Por exemplo, em um ambiente piloto, talvez você queira permitir que um pequeno grupo de usuários possa exibir tópicos.
 
 ## <a name="remove-topics-from-being-viewed"></a>Remover tópicos de serem exibidos
 
-Os gerentes de conhecimento podem [optar por remover tópicos](https://docs.microsoft.com/microsoft-365/knowledge/manage-topics) para que os usuários não possam mais vê-los. Na página **Gerenciar tópicos** na Central de Tópicos, os gerentes de conhecimento podem optar por rejeitar tópicos específicos para impedir que eles são exibidos. Os tópicos podem ser removidos independentemente se eles estão em um estado sugerido ou confirmado.
+Os gerentes de conhecimento podem [optar por remover tópicos](./manage-topics.md) para que os usuários não possam mais vê-los. Na página **Gerenciar tópicos** na Central de Tópicos, os gerentes de conhecimento podem optar por rejeitar tópicos específicos para impedir que eles são exibidos. Os tópicos podem ser removidos independentemente se eles estão em um estado sugerido ou confirmado.
 
 Os tópicos removidos podem ser adicionados posteriormente como tópicos exibiveis, se necessário. 
 
 
 ## <a name="see-also"></a>Confira também
-
-
-
-  
-
-
-
 
 
 
