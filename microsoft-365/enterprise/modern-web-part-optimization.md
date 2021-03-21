@@ -20,20 +20,20 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Saiba como usar o Diagnóstico de Página para otimizar o desempenho de Web Parts em páginas de site modernas do SharePoint Online.
-ms.openlocfilehash: ca1b9328ad71fdd4a3f3c6c6be47eaa3993d4fc7
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+description: Saiba como usar o Diagnóstico de Página para otimizar o desempenho das Web Parts nas páginas de site modernas do SharePoint Online.
+ms.openlocfilehash: 2a72ecd8bc1f6dee4166809f72ce5f9bce422dc9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287144"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929055"
 ---
 # <a name="optimize-web-part-performance-in-sharepoint-online-modern-site-pages"></a>Otimizar o desempenho de Web Parts em páginas de site moderno do SharePoint Online
 
 As páginas de site moderno do SharePoint Online contêm Web Parts que podem contribuir para os tempos totais de carregamento de página. Este artigo ajudará você a entender como determinar de que modo as Web Parts em suas páginas afetam a latência percebida pelo usuário e como corrigir problemas comuns.
 
 >[!NOTE]
->Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).
+>Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts"></a>Usar a ferramenta Diagnóstico de Página para SharePoint para analisar Web Parts
 
@@ -56,15 +56,15 @@ Se o resultado de **As Web Parts estão afetando o tempo de carregamento da pág
 
 As informações disponíveis nos resultados incluem:
 
-- **Feito por** mostra se a Web Part é personalizada ou Microsoft OOTB.
-- **O nome e a ID** mostram informações de identificação que podem ajudá-lo a encontrar a Web Part na página.
-- **O total** mostra o tempo total para que a Web Part carregue, inicialize e renderize o módulo. É o tempo relativo total gasto pela Web Part para renderizar na página, do início ao fim.
-- **A Carga do** Módulo mostra o tempo de download, avaliação e carregamento das extensões javaScript e arquivos CSS. Em seguida, ele iniciará o processo de início.
-- **Load Lento** mostra o tempo para o carregamento adiado de Web Parts não visto na seção principal da página. Há determinadas condições em que há muitas Web Parts para renderizar e elas estão na fila para renderizar para minimizar o tempo de carregamento da página.
+- **Feita por** mostra se a Web Part é personalizada ou Microsoft OOTB.
+- **Nome e ID** mostram informações de identificação que podem ajudá-lo a encontrar a Web Part na página.
+- **O total** mostra o tempo total para que a Web Part carregue, inicialize e renderize. É o tempo relativo total gasto pela Web Part para renderizar na página, do início ao fim.
+- **A carga do** módulo mostra o tempo de download, avaliação e carregamento das extensões arquivos JavaScript e CSS. Em seguida, ele iniciará o processo Deit.
+- **Lazy Load** mostra o tempo de carregamento adiado de web parts não vistas na seção principal da página. Há certas condições em que há web parts demais para renderizar e elas são en filas para renderizar para minimizar o tempo de carregamento da página.
 - **Init** mostra o tempo que a Web Part levou para inicializar os dados.
-    Trata-se de uma chamada assíncrona e o tempo de emissão é o cálculo do tempo para a função onInit quando a promessa retornada é resolvida.
-- **A renderização** mostra o tempo de renderização da interface do usuário (interface do usuário) depois que o carregamento do módulo e a renderização são concluídas.
-    É o tempo de execução do JavaScript para montar o DOM no documento (página).
+    É uma chamada assíncrona e o tempo de emissão é o cálculo de tempo para a função onInit quando a promessa retornada é resolvida.
+- **A** renderização mostra o tempo de renderização da interface do usuário (interface do usuário) depois que a carga do módulo e a init são concluídas.
+    É a hora de execução do JavaScript para montar o DOM no documento (página).
     A renderização de recursos assíncronos, por exemplo, imagens, pode levar mais tempo para ser concluída.
 
 Essas informações são fornecidas para ajudar designers e desenvolvedores a solucionar problemas. Elas devem ser encaminhadas à equipe de design e desenvolvimento.
@@ -80,10 +80,10 @@ Há três categorias de possíveis causas do desempenho ruim de uma Web Part. Us
   - Mova os cenários menos frequentes e o código do modo de edição (como o painel de propriedades) para partes separadas usando a instrução _import()_.
   - Examine as dependências do arquivo _package.json_ para remover completamente qualquer código morto. Mova todas as dependência apenas de teste/build para devDependencies.
   - É necessário usar a CDN do Office 365 para baixar o recurso estático ideal. As origens da CDN pública são preferíveis para arquivos _js/css_. Para saber mais sobre como usar a CDN do Office 365, confira [Usar a CDN (Rede de Distribuição de Conteúdo) do Office 365 com o SharePoint Online](use-microsoft-365-cdn-with-spo.md).
-  - Reutilize estruturas como _importações do React_ e do _Fabric_, que vêm como parte da Estrutura do SharePoint (SPFx). Para saber mais, confira [Visão geral da Estrutura do SharePoint](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview).
+  - Reutilize estruturas como _importações do React_ e do _Fabric_, que vêm como parte da Estrutura do SharePoint (SPFx). Para saber mais, confira [Visão geral da Estrutura do SharePoint](/sharepoint/dev/spfx/sharepoint-framework-overview).
   - Verifique se você está usando a versão mais recente da Estrutura do SharePoint e atualize para novas versões quando elas estiverem disponíveis.
 - Busca/cache de dados
-  - Se a Web Part depende de chamadas de servidor extras para buscar dados para exibição, certifique-se de que essas APIs de servidor sejam rápidas e/ou implementem o cache do lado do cliente (como usar _localStorage_ ou _IndexedDB_ para conjuntos maiores).
+  - Se a Web Part se basear em chamadas de servidor extras para buscar dados para exibição, verifique se essas APIs de servidor são rápidas e/ou implementam o cache do lado do cliente (como usar _localStorage_ ou _IndexedDB_ para conjuntos maiores).
   - Se várias chamadas forem necessárias para renderizar dados críticos, considere o uso de envio em lote no servidor ou de outros métodos de consolidação de solicitações em uma única chamada.
   - Como alternativa, se alguns elementos de dados exigirem uma API mais lenta, mas não forem críticos para a renderização inicial, separe-os em outra chamada, executada após a renderização dos dados críticos.
   - Se várias partes usarem os mesmos dados, utilize uma camada de dados comum para evitar chamadas duplicadas.
@@ -107,7 +107,7 @@ Antes de fazer as revisões das páginas para corrigir problemas de desempenho, 
 
 [Ajustar o desempenho do Office 365](tune-microsoft-365-performance.md)
 
-[Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance)
 
 [Redes de distribuição de conteúdo](content-delivery-networks.md)
 

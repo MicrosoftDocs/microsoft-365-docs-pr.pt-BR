@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fe7d986c537cbc5da31811e0b49cf6224815d32c
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: eeb15040f0e47f7d51852dadf68c4b0c37de0975
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509309"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929223"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -103,7 +103,7 @@ As seguintes configurações de spoof estão disponíveis em políticas anti-phi
   >
   > - A proteção antifalsagem está habilitada por padrão na política anti-phishing padrão e em todas as novas políticas anti-phishing personalizadas que você criar.
   >
-  > - Você não precisa desabilitar a proteção anti-spoofing se seu registro MX não apontar para o Microsoft 365; em vez disso, você habilita a Filtragem Aprimorada para Conectores. Para obter instruções, consulte [Enhanced Filtering for Connectors in Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
+  > - Você não precisa desabilitar a proteção anti-spoofing se seu registro MX não apontar para o Microsoft 365; em vez disso, você habilita a Filtragem Aprimorada para Conectores. Para obter instruções, consulte [Enhanced Filtering for Connectors in Exchange Online](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
   >
   > - Desabilitar a proteção anti-spoofing desabilita apenas a proteção implícita de spoofing contra [verificações de autenticação composta.](email-validation-and-authentication.md#composite-authentication) Se o remetente falhar no [DMARC](use-dmarc-to-validate-email.md) explícito verifica onde a política está definida como quarentena ou rejeição, a mensagem ainda está em quarentena ou rejeitada.
 
@@ -173,7 +173,7 @@ As seguintes configurações de representação só estão disponíveis em polí
 
   Quando você adiciona endereços de  email internos ou externos à lista Usuários para proteger, as mensagens desses **senders** estão sujeitas a verificações de proteção de representação. A mensagem é verificada  para representação se a mensagem é enviada a um **destinatário** ao que a política se aplica (todos os destinatários da política padrão; **Aplicado a destinatários** em políticas personalizadas). Se a representação for detectada no endereço de email do remetente, as ações de proteção de representação para os usuários serão aplicadas à mensagem (o que fazer com a mensagem, se você deve mostrar dicas de segurança dos usuários personificados, etc.).
 
-- **Domínios a serem protegidos**: impede que os domínios especificados sejam personificados no domínio do remetente **da mensagem.** Por exemplo, todos os domínios que você possui ([domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios parceiros). Esta lista de domínios de remetente **protegidos** contra representação é diferente da lista de **destinatários** aos quais a política se aplica  (todos os destinatários da política padrão; destinatários específicos conforme configurado na configuração Aplicado à na seção Configurações de Política). [](#policy-settings)
+- **Domínios a serem protegidos**: impede que os domínios especificados sejam personificados no domínio do remetente **da mensagem.** Por exemplo, todos os domínios que você possui ([domínios aceitos](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)) ou domínios específicos (domínios que você possui ou domínios parceiros). Esta lista de domínios de remetente **protegidos** contra representação é diferente da lista de **destinatários** aos quais a política se aplica  (todos os destinatários da política padrão; destinatários específicos conforme configurado na configuração Aplicado à na seção Configurações de Política). [](#policy-settings)
 
   > [!NOTE]
   > O número máximo de domínios protegidos que você pode definir em todas as políticas anti-phishing é 50.

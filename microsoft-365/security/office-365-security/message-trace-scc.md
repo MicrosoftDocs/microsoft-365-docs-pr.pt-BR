@@ -14,12 +14,12 @@ ms.custom:
 description: Os administradores podem usar o rastreamento de mensagens no Centro de Conformidade & segurança para descobrir o que aconteceu com as mensagens.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9c3f7e4bc9624b9fae48074203da525d7a504a12
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 587e111a71b321c131d0e63a0510ec7e1afa289a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741570"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929391"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Rastreamento de mensagens no Centro de Conformidade e Segurança
 
@@ -40,7 +40,7 @@ O rastreamento de mensagens no Centro de Conformidade & segurança melhora o ras
 >
 > - Para fazer um rastreamento de mensagens, você precisa ser membro dos grupos de função Gerenciamento de Organização, Gerenciamento de Conformidade ou Help Desk. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 >
-> - O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção Escolher tipo [de](#choose-report-type) relatório para obter detalhes). O cmdlet [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/get-historicalsearch) no PowerShell do Exchange Online ou no EOP PowerShell autônomo retorna todas as mensagens nos resultados.
+> - O número máximo de mensagens exibidas nos resultados depende do tipo de relatório selecionado (consulte a seção Escolher tipo [de](#choose-report-type) relatório para obter detalhes). O cmdlet [Get-HistoricalSearch](/powershell/module/exchange/get-historicalsearch) no PowerShell do Exchange Online ou no EOP PowerShell autônomo retorna todas as mensagens nos resultados.
 
 ## <a name="open-message-trace"></a>Abrir rastreamento de mensagens
 
@@ -231,7 +231,7 @@ Os detalhes do rastreamento de mensagens contêm as seguintes informações adic
   > 
   > - Uma mensagem desigual entregue com êxito gerará várias entradas **event** no rastreamento da mensagem.
   > 
-  > - Essa lista não deve ser exaustiva. Para obter descrições de mais eventos, consulte [Tipos de evento no log de controle de mensagens](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log). Observe que este link é um tópico Exchange Server (Local do Exchange).
+  > - Essa lista não deve ser exaustiva. Para obter descrições de mais eventos, consulte [Tipos de evento no log de controle de mensagens](/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log). Observe que este link é um tópico Exchange Server (Local do Exchange).
 
 - **Mais informações**: Esta seção contém os seguintes detalhes:
 
@@ -271,7 +271,7 @@ Relatórios de resumo aprimorados disponíveis (concluídos) estão disponíveis
 
 - **direcionalidade**: Indica se a mensagem foi enviada de entrada (1) para sua organização ou se ela foi enviada de saída (2) de sua organização.
 
-- **connector_id:** o nome do conector de origem ou destino. Para obter mais informações sobre conectores no Exchange Online, consulte [Configure mail flow using connectors in Office 365](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
+- **connector_id:** o nome do conector de origem ou destino. Para obter mais informações sobre conectores no Exchange Online, consulte [Configure mail flow using connectors in Office 365](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
 - **delivery_priority:** se a mensagem foi enviada com prioridade <sup>*</sup> **Alta,** Baixa ou **Normal.** 
 
@@ -413,7 +413,7 @@ Um **custom_data** valor que começa com é do agente de Regra de Transporte par
 |---|---|
 |`ETR|ruleId=<guid>`|A identificação da regra encontrou uma correspondência.|
 |`St=<datetime>`|A data e a hora em UTC quando a combinação de regra ocorreu.|
-|`Action=<ActionDefinition>`|A ação que foi aplicada. Para ver uma lista de ações disponíveis, consulte Ações de regra de fluxo de email [no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).|
+|`Action=<ActionDefinition>`|A ação que foi aplicada. Para ver uma lista de ações disponíveis, consulte Ações de regra de fluxo de email [no Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).|
 |`Mode=<Mode>`|O modo da regra. Os valores válidos são:<ul><li>**Impor**: Todas as ações na regra serão impostas.</li><li>**Teste com Dicas de Política:**: Todas as ações de Dica de Política serão enviadas, mas outras ações de imposição não serão realizadas.</li><li>**Teste sem Dicas de Política**: As ações serão listadas em um arquivo de log, mas os envios não serão notificados de nenhuma maneira e as ações de imposição não serão agidas.</li></ul>|
 |
 

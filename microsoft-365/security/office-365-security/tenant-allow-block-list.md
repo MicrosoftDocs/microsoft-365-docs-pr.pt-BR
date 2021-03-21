@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar as permites e os bloqueios na Lista de Locatários de Permitir/Bloquear no portal de Segurança.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 20e460f4e93f7b87faaead8b87ba561224e38938
-ms.sourcegitcommit: babbba2b5bf69fd3facde2905ec024b753dcd1b3
+ms.openlocfilehash: 2f97308bfc3600e4e85f5ac92d951b12d9a50f24
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "50515203"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928527"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Gerenciar a lista de Permissões/Bloqueios do Locatário
 
@@ -44,7 +44,7 @@ A Lista de Permitir/Bloquear Locatários no Centro de Conformidade & segurança 
 
 Este artigo descreve como configurar entradas na Lista de Locatários Permitir/Bloquear no Centro de Conformidade de Segurança & ou no PowerShell (Exchange Online PowerShell para organizações do Microsoft 365 com caixas de correio no Exchange Online; EOP PowerShell autônomo para organizações sem caixas de correio do Exchange Online).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Lista de Locatários Permitir/Bloquear,** use <https://protection.office.com/tenantAllowBlockList> .
 
@@ -68,18 +68,18 @@ Este artigo descreve como configurar entradas na Lista de Locatários Permitir/B
 
 - Por padrão, as entradas na Lista de Locatários Permitir/Bloquear expiram após 30 dias. Você pode especificar uma data ou defini-la para nunca expirar.
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Você precisa de permissões em **Exchange Online** antes de poder realizar os procedimentos neste artigo:
   - Para adicionar e remover valores da Lista de Permitir/Bloquear Locatários, você precisa ser membro dos grupos de função Gerenciamento da Organização ou Administrador **de** Segurança. 
   - Para acesso somente leitura à Lista de Locatários Permitir/Bloquear, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
-  Para obter mais informações, confira [Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   > [!NOTE]
   > 
   > - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-  > - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  > - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Use o Centro de Conformidade & segurança para criar entradas de URL na Lista de Locatários Permitir/Bloquear
 
@@ -97,7 +97,7 @@ Para obter detalhes sobre a sintaxe para entradas de [URL,](#url-syntax-for-the-
 
      - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
 
-       or
+       ou
 
      - Mova a alternância para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
 
@@ -119,7 +119,7 @@ Para obter detalhes sobre a sintaxe para entradas de [URL,](#url-syntax-for-the-
 
      - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data de ![ ](../../media/scc-toggle-off.png) expiração para as entradas. 
 
-     or
+     ou
 
      - Mova a alternância para a direita para configurar as entradas para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
 
@@ -170,7 +170,7 @@ Não é possível modificar a URL ou os valores de arquivo bloqueados existentes
 
      - Verifique se a configuração está desligada ( Alternar ) e use a caixa Expira na caixa para especificar a data ![ ](../../media/scc-toggle-off.png) de expiração da entrada. 
 
-       or
+       ou
 
      - Mova a alternância para a direita para configurar a entrada para nunca expirar: ![Ativar](../../media/scc-toggle-on.png).
 
@@ -210,7 +210,7 @@ Este exemplo adiciona uma entrada de arquivo de bloqueio para os arquivos especi
 New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
 ```
 
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/new-tenantallowblocklistitems).
+Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [New-TenantAllowBlockListItems](/powershell/module/exchange/new-tenantallowblocklistitems).
 
 ### <a name="use-powershell-to-view-entries-in-the-tenant-allowblock-list"></a>Usar o PowerShell para exibir entradas na Lista de Locatários Permitir/Bloquear
 
@@ -232,7 +232,7 @@ Este exemplo retorna informações para o valor de hash de arquivo especificado.
 Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
 ```
 
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/get-tenantallowblocklistitems).
+Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-TenantAllowBlockListItems](/powershell/module/exchange/get-tenantallowblocklistitems).
 
 ### <a name="use-powershell-to-modify-block-entries-in-the-tenant-allowblock-list"></a>Usar o PowerShell para modificar entradas de bloco na Lista de Locatários Permitir/Bloquear
 
@@ -250,7 +250,7 @@ Este exemplo altera a data de expiração da entrada de bloco especificada.
 Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -ExpirationDate (Get-Date "5/30/2020 9:30 AM").ToUniversalTime()
 ```
 
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/set-tenantallowblocklistitems).
+Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-TenantAllowBlockListItems](/powershell/module/exchange/set-tenantallowblocklistitems).
 
 ### <a name="use-powershell-to-remove-block-entries-from-the-tenant-allowblock-list"></a>Usar o PowerShell para remover entradas de bloco da lista De locatários permitir/bloquear
 
@@ -266,7 +266,7 @@ Este exemplo remove a entrada de URL de bloco especificada da Lista de Locatári
 Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSPAAAA0"
 ```
 
-Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remove-TenantAllowBlockListItems](https://docs.microsoft.com/powershell/module/exchange/remove-tenantallowblocklistitems).
+Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remove-TenantAllowBlockListItems](/powershell/module/exchange/remove-tenantallowblocklistitems).
 
 ## <a name="url-syntax-for-the-tenant-allowblock-list"></a>Sintaxe de URL para a Lista de Locatários de Permitir/Bloquear
 

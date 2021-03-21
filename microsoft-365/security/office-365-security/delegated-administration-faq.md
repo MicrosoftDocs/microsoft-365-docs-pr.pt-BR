@@ -15,12 +15,12 @@ ms.custom:
 description: Os administradores podem exibir perguntas frequentes e respostas sobre tarefas de administração delegadas no Microsoft 365 para parceiros e revendedores da Microsoft.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 304fbba16d6c8e81e965462e3405824bd22982c9
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 82fa70a8025f67610032ba59368bc74789b60f84
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405931"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929367"
 ---
 # <a name="delegated-administration-faq"></a>Perguntas frequentes sobre administração delegada
 
@@ -53,4 +53,4 @@ Não. No momento, o Microsoft 365 não tem esse recurso.
 
 ## <a name="can-i-get-consolidated-reporting-across-all-of-my-subtenants"></a>Posso obter relatórios consolidados em todos os meus subtenantes?
 
-Relatórios consolidados entre as empresas gerenciadas não estão disponíveis nos relatórios do Centro de administração do Microsoft 365. No entanto, você pode obter relatórios usando o [Microsoft Graph](https://docs.microsoft.com/graph/overview).
+Relatórios consolidados entre as empresas gerenciadas não estão disponíveis nos relatórios do Centro de administração do Microsoft 365. No entanto, você pode obter relatórios usando o [Microsoft Graph](/graph/overview).
