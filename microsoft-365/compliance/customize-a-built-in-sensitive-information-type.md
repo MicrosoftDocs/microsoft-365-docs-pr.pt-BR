@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a criar um tipo de informação sensível personalizado que permitirá que você use regras que atendam às necessidades da sua organização.
-ms.openlocfilehash: 40584b430af6e822b115e014c20481c027222aae
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 79d79a220e0cd8de0755f6cdac99cf7cceb2997f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423400"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922655"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Personalizar um tipo de informação confidencial interno
 
@@ -33,7 +33,7 @@ Você pode pegar este exemplo e aplicá-lo a outros tipos internos de informaç�
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>Exportar o arquivo XML das regras atuais
 
-Para exportar o XML, é necessário [conectar-se ao Centro de Conformidade e Segurança por meio do PowerShell Remoto.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Para exportar o XML, é necessário [conectar-se ao Centro de Conformidade e Segurança por meio do PowerShell Remoto.](/powershell/exchange/connect-to-scc-powershell).
   
 1. No PowerShell, digite o seguinte para exibir as regras da sua organização na tela. Se você ainda não criou uma, verá apenas o padrão, as regras internas, rotuladas como "Pacote de Regras da Microsoft".
 
@@ -201,7 +201,7 @@ Para carregar a regra, é necessário fazer o seguinte.
   
 1. Salve como um arquivo .xml com codificação Unicode. Isso é importante porque a regra não funcionará se o arquivo for salvo com uma codificação diferente.
     
-2. [Conecte-se ao Centro de Conformidade e Segurança usando o PowerShell Remoto.](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)
+2. [Conecte-se ao Centro de Conformidade e Segurança usando o PowerShell Remoto.](/powershell/exchange/connect-to-scc-powershell)
     
 3. No PowerShell, digite o seguinte.
 

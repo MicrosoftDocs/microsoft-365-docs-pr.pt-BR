@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba como a retenção funciona para o Exchange.
-ms.openlocfilehash: 4e8a536aaa81b0117f40b0ce330491fa8430f97c
-ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
+ms.openlocfilehash: 0763b8bdab75ac76197b8c89f187bb573a3e4bb1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48754431"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922505"
 ---
 # <a name="learn-about-retention-for-exchange"></a>Saiba mais sobre a retenção para o Exchange
 
 As informações contidas neste artigo complementam [Saiba mais sobre retenção](retention.md) porque são informações específicas para o Exchange.  Para outras cargas de trabalho, confira:
 
-- [Saiba mais sobre retenção para o Microsoft Office SharePoint Online e o OneDrive](retention-policies-sharepoint.md)
+- [Saiba mais sobre retenção para o Microsoft Office SharePoint Online e o Microsoft OneDrive](retention-policies-sharepoint.md)
 - [Saiba mais sobre retenção para o Microsoft Teams](retention-policies-teams.md)
 - [Saiba mais sobre retenção no Yammer](retention-policies-yammer.md)
 
@@ -44,7 +44,7 @@ Outros itens armazenados em uma caixa de correio, como mensagens do Skype e Team
 
 ## <a name="how-retention-works-for-exchange"></a>Saiba como a retenção funciona para o Exchange.
 
-Tanto uma caixa de correio quanto uma pasta pública usam a [pasta Itens Recuperáveis](https://docs.microsoft.com/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder) para reter itens. Somente as pessoas às quais foram atribuídas permissões de Descoberta Eletrônica podem exibir itens na pasta Itens Recuperáveis de outro usuário.
+Tanto uma caixa de correio quanto uma pasta pública usam a [pasta Itens Recuperáveis](/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder) para reter itens. Somente as pessoas às quais foram atribuídas permissões de Descoberta Eletrônica podem exibir itens na pasta Itens Recuperáveis de outro usuário.
   
 Quando alguém exclui uma mensagem em uma pasta diferente da pasta Itens Excluídos, por padrão, a mensagem é movida para a pasta Itens Excluídos. Quando alguém exclui um item na pasta Itens Excluídos, a mensagem é movida para a pasta Itens Recuperáveis. Entretanto, um usuário pode excluir um item de forma reversível (Shift+Delete) em qualquer pasta, o que evita que ele vá pasta Itens Excluídos e o move diretamente para a pasta Itens Recuperáveis.
   

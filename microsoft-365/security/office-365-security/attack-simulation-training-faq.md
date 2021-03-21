@@ -1,5 +1,5 @@
 ---
-title: Considerações de implantação e perguntas frequentes sobre a implantação de treinamento de simulação de ataque
+title: Considerações de implantação de treinamento de simulação de ataque e perguntas frequentes
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -20,14 +20,14 @@ ms.custom:
 description: Os administradores podem aprender sobre considerações de implantação e perguntas frequentes sobre simulação de ataque e treinamento nas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b57252252d8a22ade4b8e1a18f42d7fdce91324e
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: f404e2a47756a611135fc70026bf0cce3eec62c4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454704"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921367"
 ---
-# <a name="attack-simulation-training-deployment-considerations-and-faq"></a>Considerações de implantação e perguntas frequentes sobre a implantação de treinamento de simulação de ataque
+# <a name="attack-simulation-training-deployment-considerations-and-faq"></a>Considerações de implantação de treinamento de simulação de ataque e perguntas frequentes
 
 O treinamento de simulação de ataque [agora está geralmente disponível](https://techcommunity.microsoft.com/t5/microsoft-security-and/attack-simulation-training-in-microsoft-defender-for-office-365/ba-p/2037291). O treinamento de simulação de ataque permite que as organizações do Microsoft 365 E5 ou do Microsoft Defender for Office 365 Plan 2 medam e gerenciem o risco de engenharia social, permitindo a criação e o gerenciamento de simulações de phishing que são movidas por cargas de phishing desarmadas no mundo real. O treinamento hiper-direcionado, fornecido em parceria com a segurança do Terranova, ajuda a melhorar o conhecimento e alterar o comportamento dos funcionários.
 
@@ -72,7 +72,7 @@ Embora vimos poucos clientes sendo bloqueados nessa camada, isso acontece. Se vo
 - Usuários convidados.
 - Usuários que não estão mais ativos no Azure Active Directory (Azure AD).
 
-Somente usuários não convidados válidos com uma caixa de correio válida serão incluídos em simulações. Se você usar grupos de distribuição ou grupos de segurança habilitados para email para direcionar usuários, poderá usar o cmdlet [Get-DistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/get-distributiongroupmember) no [PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online para exibir e validar membros do grupo de distribuição.
+Somente usuários não convidados válidos com uma caixa de correio válida serão incluídos em simulações. Se você usar grupos de distribuição ou grupos de segurança habilitados para email para direcionar usuários, poderá usar o cmdlet [Get-DistributionGroupMember](/powershell/module/exchange/get-distributiongroupmember) no [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online para exibir e validar membros do grupo de distribuição.
 
 ## <a name="issues-with-attack-simulation-training-reporting"></a>Problemas com relatórios de treinamento de simulação de ataque
 

@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 description: Neste artigo, aprenda como adicionar localização por satélite e configurar seu locatário para o Microsoft 365 Multi-Geo.
-ms.openlocfilehash: fb907c02a4714c5a2d8e47245321252e7186a8a7
-ms.sourcegitcommit: f3059a0065496623e36e5a084cd2291e6b844597
+ms.openlocfilehash: 9176c66e8d0aa7e893ef137131147f8e0c85d3ac
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040563"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923643"
 ---
 # <a name="microsoft-365-multi-geo-tenant-configuration"></a>Configuração do locatário do Microsoft 365 Multi-Geo
 
@@ -93,7 +93,7 @@ Os procedimentos nessa seção exigem o [Módulo Microsoft Azure Active Director
 
 1.  [Conecte-se e entre](/powershell/connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) com um conjunto de credenciais de administrador global para o seu locatário.
 
-2.  Use o cmdlet [Set-MsolUser](https://docs.microsoft.com/powershell/msonline/v1/set-msoluser) para definir o local preferencial de dados para cada um dos usuários. Por exemplo:
+2.  Use o cmdlet [Set-MsolUser](/powershell/msonline/v1/set-msoluser) para definir o local preferencial de dados para cada um dos usuários. Por exemplo:
 
     `Set-MsolUser -userprincipalName Robyn.Buckley@Contoso.com -PreferredDatalocation EUR`
 
@@ -110,10 +110,10 @@ Recomendamos que você inclua o Local de Dados Preferencial do usuário na confi
 
 ## <a name="onedrive-provisioning-and-the-effect-of-pdl"></a>Provisionamento do OneNote e efeito de PDL
 
-Se o usuário já tiver um site do OneDrive criado no locatário, configurar o PDL não moverá automaticamente o OneDrive existente. Para mover o OneDrive de um usuário, confira [a Movimentação Geográfica do OneDrive for Business.](move-onedrive-between-geo-locations.md)
+Se o usuário já tiver um site do OneDrive criado no locatário, configurar o PDL não moverá automaticamente o OneDrive existente. Para mover o OneDrive de um usuário, consulte [OneDrive for Business Geo Move](move-onedrive-between-geo-locations.md).
 
 > [!NOTE]
-> O Exchange Online realoca automaticamente a caixa de correio do usuário se o PLD mudar e o MailboxRegion não mais corresponde ao código de Localização Geográfica do Banco de Dados de Caixa de Correio. Para obter mais informações, consulte [Administrando caixas de correio do Exchange Online em um ambiente multi-geo.](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo)
+> O Exchange Online realoca automaticamente a caixa de correio do usuário se o PLD mudar e MailboxRegion não corresponde mais ao código de Localização Geográfica do Banco de Dados de Caixa de Correio. Para obter mais informações, consulte [Administering Exchange Online mailboxes in a multi-geo environment](./administering-exchange-online-multi-geo.md).
 
 Se o usuário não tiver um site do OneDrive no locatário, o OneDrive será provisionado para ele de acordo com o valor do PDL, supondo que o PDL do usuário corresponda a um dos locais de satélites da empresa.
 

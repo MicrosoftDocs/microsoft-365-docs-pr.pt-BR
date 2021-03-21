@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o Simulador de Ataques para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c88a5df6fae61e1ffe70214ad4a73deef4b380e
-ms.sourcegitcommit: 6e4ddf35aaf747599f476f9988bcef02cacce1b6
+ms.openlocfilehash: 105ca66cdfacaab3b73d8bf89c3a05207b673a3c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50717618"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921355"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Simulador de Ataque no Microsoft Defender para Office 365
 
@@ -45,7 +45,7 @@ Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inc
 
 - Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com/>. Simulador de ataque está disponível no simulador **de ataques de gerenciamento** de \> **ameaças.** Vá diretamente para o simulador de ataque, abra <https://protection.office.com/attacksimulator> .
 
-- Para obter mais informações sobre a disponibilidade do Simulador de Ataques em diferentes assinaturas do Microsoft 365, consulte [Microsoft Defender for Office 365 service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+- Para obter mais informações sobre a disponibilidade do Simulador de Ataques em diferentes assinaturas do Microsoft 365, consulte [Microsoft Defender for Office 365 service description](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
 - Você precisa ser membro dos grupos de função Gerenciamento da **Organização** ou **Administrador de** Segurança. Para obter mais informações sobre grupos de funções no Centro de Conformidade e Segurança, confira [Permissões no Centro de Conformidade e Segurança](permissions-in-the-security-and-compliance-center.md).
 
@@ -55,7 +55,7 @@ Se sua organização tiver o Microsoft Defender para Office 365 Plano 2, que inc
 
 - As campanhas de phishing coletarão e processarão eventos por 30 dias. Os dados históricos da campanha estarão disponíveis por até 90 dias após o início da campanha.
 
-- Dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para serviços do Microsoft 365. Para obter mais informações, consulte Locais de dados [do Microsoft 365](/microsoft-365/enterprise/o365-data-locations).
+- Dados relacionados à simulação de ataque e treinamento são armazenados com outros dados do cliente para serviços do Microsoft 365. Para obter mais informações, consulte Locais de dados [do Microsoft 365](../../enterprise/o365-data-locations.md).
 
 - Não há cmdlets do PowerShell correspondentes para Simulador de Ataque.
 

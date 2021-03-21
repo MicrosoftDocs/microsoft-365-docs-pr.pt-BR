@@ -21,12 +21,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Saiba como usar as ferramentas incluídas no SharePoint Online para otimizar imagens em páginas de site modernas do SharePoint Online.
-ms.openlocfilehash: 09122dfd0bc832cf9a09cfb05bf0540e323797d9
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a4f2def86e1378a9fb76ae9ecbe6a55da75ecffc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687410"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923011"
 ---
 # <a name="optimize-images-in-sharepoint-online-modern-site-pages"></a>Otimizar imagens nas páginas de site moderno do SharePoint Online
 
@@ -35,7 +35,7 @@ Este artigo vai ajudá-lo a entender como otimizar imagens nas páginas de site 
 Para saber mais sobre como otimizar imagens em sites de publicação clássicos, confira [Otimização de imagem do SharePoint Online](image-optimization-for-sharepoint-online.md)..
 
 >[!NOTE]
->Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).
+>Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-image-optimization"></a>Usar a ferramenta Diagnóstico de página do SharePoint para analisar a otimização de imagens
 
@@ -72,7 +72,7 @@ Antes de fazer as revisões das páginas para corrigir problemas de desempenho, 
 
 [Ajustar o desempenho do Office 365](tune-microsoft-365-performance.md)
 
-[Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance)
 
 [Redes de distribuição de conteúdo](content-delivery-networks.md)
 

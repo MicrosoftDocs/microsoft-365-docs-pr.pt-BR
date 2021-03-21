@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: As políticas de retenção de log de auditoria fazem parte dos novos recursos Avançados de Auditoria no Microsoft 365. Uma política de retenção de log de auditoria permite especificar por quanto tempo reter os logs de auditoria em sua organização.
-ms.openlocfilehash: fd7e5dc37daad220257b4203679c6bb765140385
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 53449b6b83373eb2f749a4547845866dbea4a2af
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712041"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922847"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Gerenciar políticas de retenção de log de auditoria
 
@@ -104,7 +104,7 @@ Para editar uma política, selecione-a para exibir a página de submenu. Você p
 
 
 > [!IMPORTANT]
-> Se você usar o cmdlet **New-UnifiedAuditLogRetentionPolicy**, é possível criar uma política de retenção de log de auditoria para tipos de registro ou atividades que não estão disponíveis na ferramenta **Criar política de retenção de auditoria** no painel. Nesse caso, você não poderá editar a política (por exemplo, alterar a duração da retenção ou adicionar e remover atividades) no painel **Políticas de retenção de Auditoria**. Você só poderá exibir e excluir a política na central de conformidade. Para editar a política, você terá que usar o cmdlet [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell.<br/><br/>**Dica:** Uma mensagem é exibida na parte superior da página de submenu para políticas que devem ser editadas usando o Windows PowerShell.
+> Se você usar o cmdlet **New-UnifiedAuditLogRetentionPolicy**, é possível criar uma política de retenção de log de auditoria para tipos de registro ou atividades que não estão disponíveis na ferramenta **Criar política de retenção de auditoria** no painel. Nesse caso, você não poderá editar a política (por exemplo, alterar a duração da retenção ou adicionar e remover atividades) no painel **Políticas de retenção de Auditoria**. Você só poderá exibir e excluir a política na central de conformidade. Para editar a política, você terá que usar o cmdlet [Set-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/set-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell.<br/><br/>**Dica:** Uma mensagem é exibida na parte superior da página de submenu para políticas que devem ser editadas usando o Windows PowerShell.
 
 ### <a name="delete-policies-in-the-dashboard"></a>Excluir políticas no painel
 
@@ -118,7 +118,7 @@ Você também pode usar o Centro de Conformidade e Segurança do Windows PowerSh
 
 Siga estas etapas para criar uma política de retenção de log de auditoria no Windows PowerShell:
 
-1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+1. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/connect-to-scc-powershell).
 
 2. Execute o seguinte comando para criar uma política de retenção de log de auditoria.
 
@@ -142,11 +142,11 @@ Veja outro exemplo de como criar uma política de retenção de log de auditoria
 New-UnifiedAuditLogRetentionPolicy -Name "SixMonth retention for admin logons" -RecordTypes AzureActiveDirectoryStsLogon -Operations UserLoggedIn -UserIds admin@contoso.onmicrosoft.com -RetentionDuration SixMonths -Priority 25
 ```
 
-Para saber mais, confira [New-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/new-unifiedauditlogretentionpolicy).
+Para saber mais, confira [New-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/new-unifiedauditlogretentionpolicy).
 
 ### <a name="view-policies-in-powershell"></a>Exibir políticas no Windows PowerShell
 
-Use o cmdlet [Get-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para exibir as políticas de retenção de log de auditoria.
+Use o cmdlet [Get-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/get-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para exibir as políticas de retenção de log de auditoria.
 
 Este é um exemplo de comando para exibir as configurações de todas as políticas de retenção de log de auditoria em sua organização. Este comando classifica as políticas da prioridade mais alta para a mais baixa.
 
@@ -159,11 +159,11 @@ Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending 
 
 ### <a name="edit-policies-in-powershell"></a>Editar políticas no Windows PowerShell
 
-Use o cmdlet [Set-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para editar uma política de retenção de log de auditoria existente.
+Use o cmdlet [Set-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/set-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para editar uma política de retenção de log de auditoria existente.
 
 ### <a name="delete-policies-in-powershell"></a>Excluir políticas no Windows PowerShell
 
-Use o cmdlet [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para excluir uma política de retenção de log de auditoria. Pode levar até 30 minutos para que a política seja removida de sua organização.
+Use o cmdlet [Remove-UnifiedAuditLogRetentionPolicy](/powershell/module/exchange/remove-unifiedauditlogretentionpolicy) no Centro de Conformidade e Segurança do Windows PowerShell para excluir uma política de retenção de log de auditoria. Pode levar até 30 minutos para que a política seja removida de sua organização.
 
 ## <a name="more-information"></a>Mais Informações
 

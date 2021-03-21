@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: ''
 description: Exija que seus usuários se conectem com segurança usando a autenticação multifator (MFA) e outros recursos.
-ms.openlocfilehash: 8426d902ff8be8541b5d770af6d34cdf71868047
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+ms.openlocfilehash: c470a8bb1e67925ced929225796ac30191db247e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558521"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923131"
 ---
 # <a name="secure-user-sign-ins-to-your-microsoft-365-tenant"></a>Proteger as entradas do usuário ao locatário do seu Microsoft 365
 
@@ -37,14 +37,14 @@ Para aumentar a segurança das entradas do usuário:
 
 O Windows Hello para Empresas no Windows 10 Enterprise substitui senhas com autenticação forte de dois fatores ao entrar em um dispositivo Windows. O recurso de dois fatores é um novo tipo de credencial de usuário vinculado a um dispositivo e a uma leitura biométrica ou a um PIN.
 
-Para obter mais informações, consulte [Visão geral do Windows Hello para Empresas](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview).
+Para obter mais informações, consulte [Visão geral do Windows Hello para Empresas](/windows/security/identity-protection/hello-for-business/hello-overview).
 
 
 ## <a name="azure-ad-password-protection"></a>Proteção por senha do Microsoft Azure AD
 
 A proteção por senha do Microsoft Azure AD detecta e bloqueia senhas fracas conhecidas e suas variantes e também pode bloquear termos fracos adicionais específicos de sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes.
 
-Para obter mais informações, confira [Configurar a proteção por senha do Microsoft Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad).
+Para obter mais informações, confira [Configurar a proteção por senha do Microsoft Azure AD](/azure/active-directory/authentication/concept-password-ban-bad).
 
 ## <a name="mfa"></a>MFA
 
@@ -52,7 +52,7 @@ A MFA exige que as entradas do usuário estejam sujeitas a uma verificação adi
 
 ![A senha correta, mais uma verificação adicional, resulta em uma entrada bem-sucedida](../media/empower-people-to-work-remotely/remote-workers-mfa.png)
 
-A primeira etapa para usar a MFA é **exigi-lo para todas as contas de administrador**, também conhecidas como contas privilegiadas.
+A primeira etapa para usar a MFA é ***exigi-lo para todas as contas de administrador***, também conhecidas como contas privilegiadas.
 
 Além dessa primeira etapa, a Microsoft recomenda a MFA para todos os usuários.
 
@@ -60,20 +60,20 @@ Há três maneiras de exigir que seus administradores ou usuários usem a MFA co
 
 | Planejar | Recomendação |
 |---------|---------|
-|Planos do Microsoft 365 (sem licenças do Microsoft Azure AD Premium P1 ou P2)     |[Habilitar os padrões de segurança no Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Os padrões de segurança no Microsoft Azure Active Directory incluem a MFA para usuários e administradores.   |
-|Microsoft 365 E3 (inclui licenças do Azure AD Premium P1)     | Use [políticas de Acesso Condicional Comuns](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) para configurar as seguintes políticas: <br>- [Exigir MFA para administradores](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Exigir MFA para todos os usuários](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Bloquear autenticação herdada](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
+|Planos do Microsoft 365 (sem licenças do Microsoft Azure AD Premium P1 ou P2)     |[Habilitar os padrões de segurança no Microsoft Azure Active Directory](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Os padrões de segurança no Microsoft Azure Active Directory incluem a MFA para usuários e administradores.   |
+|Microsoft 365 E3 (inclui licenças do Azure AD Premium P1)     | Use [políticas de Acesso Condicional Comuns](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) para configurar as seguintes políticas: <br>- [Exigir MFA para administradores](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Exigir MFA para todos os usuários](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Bloquear autenticação herdada](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
 |Microsoft 365 E5 (inclui licenças do Azure AD Premium P2)     | Aproveitando a Azure Active Directory Identity Protection, comece a implementar o [conjunto recomendado de acesso condicional e políticas relacionadas](../security/office-365-security/identity-access-policies.md) da Microsoft, criando estas duas políticas:<br> - [Exigir MFA quando o risco de entrada for médio ou alto](../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Usuários de alto risco devem alterar a senha](../security/office-365-security/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ### <a name="security-defaults"></a>Padrões de segurança
 
-Os padrões de segurança são um novo recurso para assinaturas pagas ou de avaliação do Microsoft 365 e Office 365 criadas após 21 de outubro de 2019. Essas assinaturas têm padrões de segurança ativados, o que _*_exige que todos os seus usuários usem a MFA com o aplicativo Microsoft Authenticator_*_.
+Os padrões de segurança são um novo recurso para assinaturas pagas ou de avaliação do Microsoft 365 e Office 365 criadas após 21 de outubro de 2019. Essas assinaturas têm padrões de segurança ativados, o que ***exige que todos os seus usuários usem a MFA com o aplicativo Microsoft Authenticator***.
  
 Os usuários têm 14 dias para se registrar na MFA com o aplicativo Microsoft Authenticator em seus smartphones, que começa na primeira vez em que eles entram depois de os padrões de segurança terem sido habilitados. Após 14 dias, o usuário não poderá entrar até que o registro da MFA seja concluído.
 
 Os padrões de segurança garantem que todas as organizações tenham um nível básico de segurança para a entrada do usuário, que é habilitado por padrão. Você pode desativar os padrões de segurança em favor da MFA com políticas de Acesso Condicional ou para contas individuais.
 
-Para obter mais informações, confira a [visão geral dos padrões de segurança](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
+Para obter mais informações, confira a [visão geral dos padrões de segurança](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 ### <a name="conditional-access-policies"></a>Políticas de Acesso Condicional
 
@@ -87,7 +87,7 @@ Você também pode usar políticas de Acesso Condicional para recursos mais avan
 
 O Acesso Condicional requer as licenças do Microsoft Azure AD Premium P1, incluídas no Microsoft 365 E3 e E5.
 
-Para mais informações, confira a [visão geral do acesso condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
+Para mais informações, confira a [visão geral do acesso condicional](/azure/active-directory/conditional-access/overview).
 
 ### <a name="using-these-methods-together"></a>Usando esses métodos juntos
 
@@ -102,7 +102,7 @@ Esta tabela mostra os resultados da habilitação da MFA com padrões de seguran
 
 | Método | Habilitado | Desabilitado | Método de autenticação adicional |
 |:-------|:-----|:-------|:-------|
-| _ *Padrões de segurança**  | Não é possível usar políticas de Acesso Condicional | Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
+| **Padrões de segurança**  | Não é possível usar políticas de Acesso Condicional | Pode usar políticas de Acesso Condicional | Aplicativo Microsoft Authenticator |
 | **Políticas de Acesso Condicional** | Se alguma delas estiver habilitada, você não poderá habilitar os padrões de segurança | Se todas estiverem desabilitadas, você poderá habilitar os padrões de segurança  | Especificado pelo usuário durante o registro da MFA  |
 ||||
 
@@ -137,16 +137,16 @@ Com a Azure AD Identity Protection, você pode:
 | Investigar incidentes suspeitos e resolvê-los com medidas administrativas | Você pode investigar eventos de risco usando informações sobre o incidente de segurança. Fluxos básicos de trabalho estão disponíveis para controlar investigações e iniciar ações de correção, como a redefinição de senhas. |
 |||
 
-Consulte mais [informações sobre a Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection).
+Consulte mais [informações sobre a Azure AD Identity Protection](/azure/active-directory/active-directory-identityprotection).
 
-Consulte as [etapas para habilitar a Azure AD Identity Protection](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).
+Consulte as [etapas para habilitar a Azure AD Identity Protection](/azure/active-directory/active-directory-identityprotection-enable).
 
 ## <a name="admin-technical-resources-for-mfa-and-secure-sign-ins"></a>Recursos técnicos de administração para MFA e entradas seguras
 
 - [MFA do Microsoft 365](../admin/security-and-compliance/multi-factor-authentication-microsoft-365.md)
 - [Roteiro da identidade do Microsoft 365](identity-roadmap-microsoft-365.md)
 - [Vídeos de treinamento do Microsoft Azure Active Directory da Azure Academy](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
-- [Configurar a política de registro da Autenticação Multifator do Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+- [Configurar a política de registro da Autenticação Multifator do Microsoft Azure Active Directory](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
 - [Configurações de identidade e acesso a dispositivos](../security/office-365-security/microsoft-365-policies-configurations.md)
 
 ## <a name="next-step"></a>Próxima etapa

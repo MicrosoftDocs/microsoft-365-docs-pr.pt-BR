@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Aprenda como otimizar o desempenho de extensões personalizadas nas páginas do site modernas do SharePoint Online.
-ms.openlocfilehash: 92d328c64c89a1a01bbcd50fb7ad04affdf69af8
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 05d9b9cd9ad70630169595dc42080c718b39dbc8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287192"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923048"
 ---
 # <a name="optimize-custom-extension-performance-in-sharepoint-online-modern-site-pages"></a>Otimizar o desempenho da extensão personalizada nas páginas do site modernas do SharePoint Online
 
@@ -52,10 +52,10 @@ Se uma extensão estiver afetando o tempo de carregamento da página ou  houver 
 As informações disponíveis nos resultados incluem:
 
 - **Nome e ID** mostram informações de identificação que podem ajudá-lo a encontrar a extensão na página
-- **O total** mostra o tempo total para a extensão carregar e inicializar o módulo. É o tempo relativo total que a extensão levou para executar na página, do início ao fim.
-- **A Carga do** Módulo mostra o tempo de download, avaliação e carregamento das extensões javaScript e arquivos CSS. Em seguida, ele iniciará o processo de início.
+- **O total** mostra o tempo total da extensão para a carga e inicialização do módulo. É o tempo relativo total levado pela extensão a ser executada na página, do início ao fim.
+- **A carga do** módulo mostra o tempo de download, avaliação e carregamento das extensões arquivos JavaScript e CSS. Em seguida, ele iniciará o processo Deit.
 - **Init** mostra o tempo que a extensão levou para inicializar os dados.
-    Trata-se de uma chamada assíncrona e o tempo de emissão é o cálculo do tempo para a função onInit quando a promessa retornada é resolvida.
+    É uma chamada assíncrona e o tempo de emissão é o cálculo de tempo para a função onInit quando a promessa retornada é resolvida.
 
 Essas informações são fornecidas para ajudar designers e desenvolvedores a solucionar problemas. Elas devem ser encaminhadas à equipe de design e desenvolvimento.
 
@@ -88,7 +88,7 @@ Os autores da página também podem usar o resultado da auditoria para verificar
 
 - **Tamanho da extensão e dependências**
   - É necessário usar a CDN do Office 365 para baixar o recurso estático ideal. As origens da CDN pública são preferíveis para arquivos _js/css_. Para saber mais sobre como usar a CDN do Office 365, confira [Usar a CDN (Rede de Distribuição de Conteúdo) do Office 365 com o SharePoint Online](use-microsoft-365-cdn-with-spo.md).
-  - Reutilize estruturas como _importações do React_ e do _Fabric_, que vêm como parte da Estrutura do SharePoint (SPFx). Para saber mais, confira [Visão geral da Estrutura do SharePoint](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview).
+  - Reutilize estruturas como _importações do React_ e do _Fabric_, que vêm como parte da Estrutura do SharePoint (SPFx). Para saber mais, confira [Visão geral da Estrutura do SharePoint](/sharepoint/dev/spfx/sharepoint-framework-overview).
   - Verifique se você está usando a versão mais recente da Estrutura do SharePoint e atualize para novas versões quando elas estiverem disponíveis.
 - **Busca/cache de dados**
   - Se a extensão contar com chamadas adicionais do servidor para buscar dados para exibição, verifique se as APIs do servidor são rápidas e/ou implemente cache do lado do cliente (por exemplo, use _localStorage_ ou _IndexDB_ para conjuntos maiores).
@@ -115,7 +115,7 @@ Antes de fazer as revisões das páginas para corrigir problemas de desempenho, 
 
 [Ajustar o desempenho do Office 365](tune-microsoft-365-performance.md)
 
-[Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance)
 
 [Redes de distribuição de conteúdo](content-delivery-networks.md)
 

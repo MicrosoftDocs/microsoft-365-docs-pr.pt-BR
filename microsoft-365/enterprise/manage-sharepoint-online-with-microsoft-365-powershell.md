@@ -20,20 +20,20 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: Saiba como usar o PowerShell para o Microsoft 365 para gerenciar usuários, grupos e grupos de sites.
-ms.openlocfilehash: dd3ae1ee27d0a3e7c46eb4b62b42165279656aeb
-ms.sourcegitcommit: aeb94601a81db3ead8610c2f36cff30eb9fe10e7
+ms.openlocfilehash: bb7c48a5a44bc82aa0a16e0d38c7ea5036358ee7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429801"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923262"
 ---
 # <a name="manage-sharepoint-with-powershell"></a>Gerenciar o SharePoint com o PowerShell
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
-Os administradores do SharePoint têm que gerenciar sites, grupos de sites e usuários. Embora você possa fazer algumas dessas tarefas no centro de administração do Microsoft 365, outras são mais fáceis no PowerShell. Para saber mais, confira os seguintes artigos:
+Os administradores do SharePoint têm que gerenciar sites, grupos de sites e usuários. Embora você possa realizar algumas dessas tarefas no Centro de administração do Microsoft 365, outras são mais fáceis no PowerShell. Para saber mais, confira os seguintes artigos:
 
-- [Introdução ao Shell de Gerenciamento do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+- [Introdução ao Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
   
 - [Criar sites online do SharePoint e adicionar usuários com o PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
     

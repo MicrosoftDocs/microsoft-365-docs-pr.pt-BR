@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2b20ae766ee308e9c59ed0d495df7c5a97c79b00
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1d048a65b34bc97a619855216945d1cc988bf9e2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287060"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921379"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -94,7 +94,7 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
   - O remetente e o destinatário estão em subdomínios do mesmo domínio:
     > De: laura@marketing.fabrikam.com <br> Para: julia@engineering.fabrikam.com
 
-  - O remetente e o destinatário estão em domínios diferentes que pertencem à mesma organização (ou seja, os dois domínios estão configurados como [domínios aceitos](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) na mesma organização):
+  - O remetente e o destinatário estão em domínios diferentes que pertencem à mesma organização (ou seja, os dois domínios estão configurados como [domínios aceitos](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) na mesma organização):
     > De: remetente @ microsoft.com <br> Para: destinatário @ bing.com
 
     Os espaços são usados nos endereços de email para impedir a coleta de spambots.
@@ -150,7 +150,7 @@ Para ajudar as mensagens da lista de endereçamento a passarem nas verificaçõe
 
   - Verifique as Perguntas Frequentes em DMARC.org: [Opero uma lista de endereçamento e quero interoperar com o DMARC, o que devo fazer?](https://dmarc.org/wiki/FAQ#I_operate_a_mailing_list_and_I_want_to_interoperate_with_DMARC.2C_what_should_I_do.3F).
 
-  - Leia as instruções nesta postagem do blog: [Uma dica para os operadores de listas de endereçamento interoperarem com o DMARC para evitar falhas](https://blogs.msdn.microsoft.com/tzink/2017/03/22/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures/).
+  - Leia as instruções nesta postagem do blog: [Uma dica para os operadores de listas de endereçamento interoperarem com o DMARC para evitar falhas](/archive/blogs/tzink/a-tip-for-mailing-list-operators-to-interoperate-with-dmarc-to-avoid-failures).
 
   - Considere a instalação de atualizações em seu servidor de lista de endereçamento para dar suporte ao ARC, veja <http://arc-spec.org>.
 

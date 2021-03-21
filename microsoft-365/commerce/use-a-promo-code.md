@@ -24,32 +24,32 @@ search.appverid:
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
 description: Saiba como aplicar um código promocional à sua assinatura do Microsoft 365 para reduzir o preço e como solucionar problemas de código promocional em caso de erro.
-ms.openlocfilehash: 09f39b6f82153c6b23525ab41cfb94e77437d062
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: c526d5fd44db5e653f79c4987a35c72cdd6fdcad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48646734"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921751"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>Usar seu código promocional para reduzir o preço
 
-Ao comprar uma assinatura, você pode usar um código promocional para reduzir o preço. Leia este artigo para saber como aplicar um código promocional à sua assinatura, para saber mais sobre os termos do código [promocional](#promo-code-terms)e solucionar problemas [de códigos promocionais.](#troubleshooting-promo-codes)
+Ao comprar uma assinatura, você pode usar um código promocional para reduzir o preço. Leia este artigo para saber como aplicar um código promocional à sua assinatura, para saber mais sobre os termos de código [promocional](#promo-code-terms)e para [Solucionar problemas de códigos promocionais.](#troubleshooting-promo-codes)
   
 ## <a name="apply-a-promo-code-to-your-subscription"></a>Aplicar um código promocional à sua assinatura
 
-1. Comece a compra comprando uma nova assinatura ou adicionando serviços a uma assinatura existente.
+1. Comece sua compra comprando uma nova assinatura ou adicionando serviços a uma assinatura existente.
     
-2. When you check out, choose **Have a promo or discount code?, and then enter your code in the box. 
+2. Ao fazer o check-out, escolha **Ter um código promocional ou de desconto?, e insira seu código na caixa. 
   
-3. Selecione **Aplicar código promocional**. Você deverá ver a confirmação de que ela foi aplicada com êxito. Se você vir uma mensagem diferente, confira a página [Solução de problemas dos códigos promocionais](#troubleshooting-promo-codes) para descobrir a razão. 
+3. Selecione **Aplicar código promocional**. Você deve ver a confirmação de que ela foi aplicada com êxito. Se você vir uma mensagem diferente, confira a página [Solução de problemas dos códigos promocionais](#troubleshooting-promo-codes) para descobrir a razão. 
     
 4. Continue fazendo check-out. Na página de confirmação do pedido, você verá seu código de desconto incluído no valor. 
     
-A qualquer momento depois de concluir a compra, você poderá ver o desconto criado pelo seu código promocional na fatura. Para saber mais, consulte [Exibir seu](billing-and-payments/view-your-bill-or-invoice.md).
+A qualquer momento depois de concluir a compra, você poderá ver o desconto criado pelo seu código promocional na fatura. Para saber mais, confira [Exibir seu](billing-and-payments/view-your-bill-or-invoice.md).
   
 ## <a name="promo-code-terms"></a>Termos de código promocional
 
-As diretrizes a seguir se aplicam aos códigos promocionais para assinaturas do Microsoft 365 para empresas.
+As diretrizes a seguir se aplicam aos códigos promocionais do Microsoft 365 para assinaturas comerciais.
   
 - **Número de códigos promocionais por assinatura** Você pode usar um código promocional para várias assinaturas no mesmo pedido, mas não pode usar vários códigos promocionais para a mesma assinatura. 
     
@@ -73,8 +73,8 @@ Vários motivos podem estar por trás do recebimento de uma mensagem de erro ap�
   
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Comprar uma assinatura da sua avaliação gratuita](buy-a-subscription-from-your-free-trial.md)
+[Comprar uma assinatura da sua avaliação gratuita](./try-or-buy-microsoft-365.md)
   
-[Comprar outra assinatura](buy-another-subscription.md)
+[Comprar outra assinatura](./try-or-buy-microsoft-365.md)
   
 [Comprar ou editar um suplemento](buy-or-edit-an-add-on.md)

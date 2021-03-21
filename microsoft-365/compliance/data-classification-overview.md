@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O painel de classificação de dados permite visualizar a quantidade de dados confidenciais encontrados e classificados em sua organização.
-ms.openlocfilehash: 7bf9a7151f8df45716ab032dd3c62a33f4f5adc8
-ms.sourcegitcommit: da34ac08c7d029c2c42d4428d0bb03fd57c448be
+ms.openlocfilehash: 8f3bb2da1e7011fef334ec345a02d7facedc25fc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999391"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922675"
 ---
 # <a name="know-your-data---data-classification-overview"></a>Conheça seus dados - visão geral da classificação de dados
 
@@ -37,7 +37,7 @@ Como administrador de conformidade ou administrador do Microsoft 365, você pode
 
 Você também gerencia esses recursos na página de classificação de dados:
 - [classificadores treináveis](classifier-learn-about.md)
-- [tipos de informações confidenciais](what-the-sensitive-information-types-look-for.md)
+- [tipos de informações confidenciais](./sensitive-information-type-entity-definitions.md)
 
 Você pode encontrar a classificação de dados no **Centro de conformidade do Microsoft 365** ou no **Centro de segurança do Microsoft 365** > **Classificação**  >  **Classificação de Dados**.
 
@@ -49,7 +49,7 @@ A classificação de dados verificará seu conteúdo confidencial e conteúdo ro
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Várias assinaturas diferentes oferecem suporte ao Ponto de extremidade da DLP. Para ver as opções de licenciamento para o Ponto de extremidade da DLP, confira [Licenciamento de Proteção de Informações para orientação](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection). 
+Várias assinaturas diferentes oferecem suporte ao Ponto de extremidade da DLP. Para ver as opções de licenciamento para o Ponto de extremidade da DLP, confira [Licenciamento de Proteção de Informações para orientação](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection). 
 
 ### <a name="permissions"></a>Permissões
 
@@ -97,7 +97,7 @@ O cartão de identificação de confidencialidade mostra o número de itens (ema
 
 > [!NOTE]
 > Se você ainda não criou ou publicou qualquer rótulo de confidencialidade ou se nenhum conteúdo tiver um rótulo de confidencialidade aplicado, esse cartão exibirá a mensagem "nenhum rótulo de confidencialidade detectado". Para começar a usar os rótulos de confidencialidade, confira:
->- [Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) ou para AIP [Configurar a política de proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy)
+>- [Introdução aos rótulos de confidencialidade](get-started-with-sensitivity-labels.md) ou para AIP [Configurar a política de proteção de informações do Azure](/azure/information-protection/configure-policy)
 
 ## <a name="top-retention-labels-applied-to-content"></a>Principais rótulos de retenção aplicados ao conteúdo
 

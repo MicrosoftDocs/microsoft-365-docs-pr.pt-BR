@@ -19,19 +19,19 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Saiba como otimizar o desempenho de iFrames em páginas do site de publicação clássico e moderno do SharePoint Online.
-ms.openlocfilehash: 8985eb1038bbdfc53dc3c6a8ea9350fa6df33556
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: d6e9aefa23972589c752540959b17f5d20ed0889
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687527"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923047"
 ---
 # <a name="optimize-iframes-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>Otimizar os iFrames em páginas do site de publicação clássico e moderno do SharePoint Online
 
 Os iFrames podem ser útil para a visualização de conteúdo avançado, como vídeos ou outras mídias. No entanto, como os iFrames carregam uma página separada na página do site do SharePoint, o conteúdo carregado no iFrame pode conter imagens grandes, vídeos ou outros elementos que podem contribuir para o tempo total de carregamento da página e que você não pode controlar na página. Este artigo ajudará você a entender como determinar de que modo os iFrames nas suas páginas afetam a latência percebida pelo usuário e como corrigir problemas comuns.
 
 >[!NOTE]
->Para obter mais informações sobre o desempenho dos sites modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).
+>Para obter mais informações sobre o desempenho dos sites modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-web-parts-using-iframes"></a>Usar a ferramenta Diagnóstico de Página para SharePoint para analisar Web Parts usando os iFrames
 
@@ -80,4 +80,4 @@ Antes de fazer as revisões das páginas para corrigir problemas de desempenho, 
 
 [Ajustar o desempenho do Office 365](tune-microsoft-365-performance.md)
 
-[Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance)

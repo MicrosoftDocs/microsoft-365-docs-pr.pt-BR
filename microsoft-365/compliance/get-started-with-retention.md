@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Pronto para começar a implementar políticas e rótulos de retenção para administrar os dados da sua organização, mas não sabe por onde começar? Leia algumas orientações práticas para começar.
-ms.openlocfilehash: bb73f0871bfc2ad707d31ef6d4d57e18218842a5
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 27f361ba98cdaecb5b7788283c8d4244583ee82c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406511"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922615"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Introdução à políticas de retenção e rótulos de retenção
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Pronto para começar a administrar os dados da sua organização, retendo o conteúdo que precisa ser mantido e excluindo o conteúdo que não precisa? Use as seguintes diretrizes de alto nível para começar:
 
@@ -48,7 +48,7 @@ Pronto para começar a administrar os dados da sua organização, retendo o cont
 
 Várias assinaturas diferentes oferecem suporte à políticas e rótulos de retenção e os requisitos de licenciamento dos usuários dependem dos recursos que você usa.
 
-Para visualizar as opções de licenciamento dos seus usuários para se beneficiar dos recursos de conformidade do Microsoft 365, consulte as [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD). Para retenção, confira a seção [Gestão de informações](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) e o PDF ou o download do Excel relacionado para obter os requisitos de licenciamento no nível de recurso.
+Para visualizar as opções de licenciamento dos seus usuários para se beneficiar dos recursos de conformidade do Microsoft 365, consulte as [Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance). Para retenção, confira a seção [Gestão de informações](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) e o PDF ou o download do Excel relacionado para obter os requisitos de licenciamento no nível de recurso.
 
 ## <a name="permissions-required-to-create-and-manage-retention-policies-and-retention-labels"></a>Permissões necessárias para criar e gerenciar políticas e rótulos de retenção
 
@@ -56,9 +56,9 @@ Os membros de sua equipe de conformidade que criarão e gerenciarão políticas 
 
 Como alternativa para usar essa função padrão, você pode criar um novo grupo de função e adicionar a função **Gerenciamento de Retenção** a esse grupo. Para uma função somente leitura, use **Gerenciamento de Retenção Somente Para Exibição**. 
 
-Para obter mais informações sobre esses grupos e funções, confira [Permissões no Centro de Conformidade e Segurança](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center#roles-in-the-security--compliance-center).
+Para obter mais informações sobre esses grupos e funções, confira [Permissões no Centro de Conformidade e Segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md#roles-in-the-security--compliance-center).
 
-Para obter instruções sobre como adicionar usuários aos grupos e atribuir funções, confira [Conceder aos usuários acesso ao Centro de Segurança e Conformidade](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+Para obter instruções sobre como adicionar usuários aos grupos e atribuir funções, confira [Conceder aos usuários acesso ao Centro de Segurança e Conformidade](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 Essas permissões são necessárias somente para criar, configurar e aplicar políticas de retenção e rótulos de retenção. A pessoa que configura essas políticas não necessita acesso ao conteúdo.
 

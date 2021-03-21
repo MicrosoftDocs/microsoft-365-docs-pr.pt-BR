@@ -15,12 +15,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Saiba como configurar a Chave do Cliente para todos os dados no locatário do Microsoft 365.
-ms.openlocfilehash: 2fed4730e79f6e2ace827eab338bf9da8fe55260
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: f50986b4e72808d4a1cd4dc8ee0182eb9c0a2455
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838236"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922685"
 ---
 # <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Visão geral da Chave do Cliente do Microsoft 365 no nível do locatário (visualização pública)
 
@@ -68,9 +68,9 @@ Não há limite prático para o número de assinaturas do Azure que você pode c
 
 A perda temporária ou permanente de chaves de criptografia raiz pode ser prejudicial ou até catastrófica para a operação de serviço e pode resultar em perda de dados. Por esse motivo, os recursos usados com a Chave do Cliente exigem uma proteção forte. Todos os recursos do Azure usados com a Chave do Cliente oferecem mecanismos de proteção além da configuração padrão. As assinaturas do Azure podem ser marcadas ou registradas de forma que impeçam o cancelamento imediato e irrevogável. Isso é chamado de registro para um período de retenção obrigatório. As etapas necessárias para registrar assinaturas do Azure para um período de retenção obrigatório exigem colaboração com a Microsoft. Esse processo pode levar até cinco dias úteis. Anteriormente, isso às vezes era chamado de "Não Cancelar".
   
-Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as etapas a seguir para cada assinatura do Azure que você usa com a Chave do Cliente. Verifique se você tem o [módulo do Azure PowerShell Az](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) instalado antes de iniciar.
+Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as etapas a seguir para cada assinatura do Azure que você usa com a Chave do Cliente. Verifique se você tem o [módulo do Azure PowerShell Az](/powershell/azure/new-azureps-module-az) instalado antes de iniciar.
 
-1. Entre com o Azure PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](https://docs.microsoft.com/powershell/azure/authenticate-azureps).
+1. Entre com o Azure PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](/powershell/azure/authenticate-azureps).
 
 2. Execute o cmdlet Register-AzProviderFeature para registrar suas assinaturas para usar um período de retenção obrigatório. Execute essa ação para cada assinatura.
 
@@ -104,7 +104,7 @@ Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as
 
 ### <a name="create-a-premium-azure-key-vault-in-each-subscription"></a>Criar um Cofre de Chaves premium do Azure em cada assinatura
 
-As etapas para criar um cofre de chaves são documentadas em [Getting Started with Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-get-started/), que orienta você a instalar e iniciar o Azure PowerShell, conectar-se à sua assinatura do Azure, criar um grupo de recursos e criar um cofre de chaves nesse grupo de recursos.
+As etapas para criar um cofre de chaves são documentadas em [Getting Started with Azure Key Vault](/azure/key-vault/general/overview), que orienta você a instalar e iniciar o Azure PowerShell, conectar-se à sua assinatura do Azure, criar um grupo de recursos e criar um cofre de chaves nesse grupo de recursos.
   
 Ao criar um cofre de chaves, você deve escolher um SKU: Standard ou Premium. A SKU padrão permite que as chaves do Azure Key Vault sejam protegidas com software - não há proteção de chave HSM (Módulo de Segurança de Hardware) - e a SKU Premium permite o uso de HSMs para proteção de chaves do Cofre de Chaves. A Chave do Cliente aceita cofres-chave que usam SKU, embora a Microsoft recomenda que você use apenas o SKU Premium. O custo das operações com chaves de qualquer tipo é o mesmo, portanto, a única diferença de custo é o custo por mês para cada chave protegida por HSM. Consulte [Key Vault pricing for](https://azure.microsoft.com/pricing/details/key-vault/) details.
   
@@ -113,7 +113,7 @@ Ao criar um cofre de chaves, você deve escolher um SKU: Standard ou Premium. A 
 
 Use um prefixo comum para cofres de chaves e inclua uma abreviação do uso e escopo do cofre de chaves e chaves. Por exemplo, para o serviço Contoso onde os cofres estarão localizados na América do Norte, um possível par de nomes é Contoso-O365-NA-VaultA1 e Contoso-O365-NA-VaultA2. Os nomes de cofre são cadeias de caracteres globalmente exclusivas no Azure, portanto, talvez seja necessário experimentar variações dos nomes desejados caso os nomes desejados já sejam reivindicados por outros clientes do Azure. Depois de configurado, os nomes do cofre não podem ser alterados, portanto, a prática ideal é ter um plano escrito para instalação e usar uma segunda pessoa para verificar se o plano foi executado corretamente.
 
-Se possível, crie seus cofres em regiões não emparelhadas. Regiões emparelhadas do Azure fornecem alta disponibilidade em domínios de falha de serviço. Portanto, os pares regionais podem ser pensados como a região de backup uns dos outros. Isso significa que um recurso do Azure colocado em uma região está ganhando automaticamente tolerância a falhas por meio da região emparelhada. Por esse motivo, escolher regiões para dois cofres usados em uma política de criptografia de dados em que as regiões estão emparelhadas significa que apenas um total de duas regiões de disponibilidade estão em uso. A maioria das regiões tem apenas duas regiões, portanto, ainda não é possível selecionar regiões não emparelhadas. Se possível, escolha duas regiões não emparelhadas para os dois cofres usados com uma política de criptografia de dados. Isso beneficia um total de quatro regiões de disponibilidade. Para obter mais informações, consulte Continuidade de negócios e recuperação de desastres [(BCDR): Regiões emparelhadas do Azure](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) para obter uma lista atual de pares regionais.
+Se possível, crie seus cofres em regiões não emparelhadas. Regiões emparelhadas do Azure fornecem alta disponibilidade em domínios de falha de serviço. Portanto, os pares regionais podem ser pensados como a região de backup uns dos outros. Isso significa que um recurso do Azure colocado em uma região está ganhando automaticamente tolerância a falhas por meio da região emparelhada. Por esse motivo, escolher regiões para dois cofres usados em uma política de criptografia de dados em que as regiões estão emparelhadas significa que apenas um total de duas regiões de disponibilidade estão em uso. A maioria das regiões tem apenas duas regiões, portanto, ainda não é possível selecionar regiões não emparelhadas. Se possível, escolha duas regiões não emparelhadas para os dois cofres usados com uma política de criptografia de dados. Isso beneficia um total de quatro regiões de disponibilidade. Para obter mais informações, consulte Continuidade de negócios e recuperação de desastres [(BCDR): Regiões emparelhadas do Azure](/azure/best-practices-availability-paired-regions) para obter uma lista atual de pares regionais.
 
 ### <a name="assign-permissions-to-each-key-vault"></a>Atribuir permissões a cada cofre de chaves
 
@@ -124,7 +124,7 @@ Para cada cofre de chaves, você precisará definir três conjuntos separados de
   > [!IMPORTANT]
   > O conjunto de permissões atribuídas aos administradores do cofre de chaves não inclui a permissão para excluir chaves. Isso é intencional e uma prática importante. A exclusão de chaves de criptografia normalmente não é feita, pois isso destrói permanentemente os dados. Como prática prática, não conceda essa permissão aos administradores do cofre de chaves por padrão. Em vez disso, reserve-o para colaboradores chave do cofre e atribua-o apenas a um administrador em curto prazo, uma vez que uma compreensão clara das consequências seja compreendida.
   
-  Para atribuir essas permissões a um usuário em sua organização, faça logoff na assinatura do Azure com o Azure PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](https://docs.microsoft.com/powershell/azure/authenticate-azureps).
+  Para atribuir essas permissões a um usuário em sua organização, faça logoff na assinatura do Azure com o Azure PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](/powershell/azure/authenticate-azureps).
 
    Execute o cmdlet Set-AzKeyVaultAccessPolicy para atribuir as permissões necessárias.
 
@@ -138,7 +138,7 @@ Para cada cofre de chaves, você precisará definir três conjuntos separados de
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-- **Colaboradores do cofre de chaves** que podem alterar permissões no próprio Azure Key Vault. Você precisará alterar essas permissões à medida que os funcionários sairem ou ingressarem em sua equipe, ou na rara situação em que os administradores do cofre de chaves precisam de permissão para excluir ou restaurar uma chave. Esse conjunto de colaboradores do cofre de chaves precisa ser concedido à função Colaborador no seu cofre de chaves. Você pode atribuir essa função usando o Gerenciador de Recursos do Azure. Para etapas detalhadas, [consulte Use Role-Based Access Control](https://docs.microsoft.com/azure/active-directory/role-based-access-control-configure) para gerenciar o acesso aos recursos de assinatura do Azure. O administrador que cria uma assinatura tem esse acesso por padrão e a capacidade de atribuir outros administradores à função Colaborador.
+- **Colaboradores do cofre de chaves** que podem alterar permissões no próprio Azure Key Vault. Você precisará alterar essas permissões à medida que os funcionários sairem ou ingressarem em sua equipe, ou na rara situação em que os administradores do cofre de chaves precisam de permissão para excluir ou restaurar uma chave. Esse conjunto de colaboradores do cofre de chaves precisa ser concedido à função Colaborador no seu cofre de chaves. Você pode atribuir essa função usando o Gerenciador de Recursos do Azure. Para etapas detalhadas, [consulte Use Role-Based Access Control](/azure/active-directory/role-based-access-control-configure) para gerenciar o acesso aos recursos de assinatura do Azure. O administrador que cria uma assinatura tem esse acesso por padrão e a capacidade de atribuir outros administradores à função Colaborador.
 
 - **Dados do Microsoft 365 no serviço de** criptografia de repouso que faz o trabalho da Chave do Cliente no nível do locatário. Para dar permissão ao Microsoft 365, execute o cmdlet **Set-AzKeyVaultAccessPolicy** usando a seguinte sintaxe:
 
@@ -162,9 +162,9 @@ Quando você pode recuperar rapidamente suas chaves, é menos provável que voc�
   
 Para habilitar a Exclusão Suave em seus cofres de chaves, conclua estas etapas:
   
-1. Entre em sua assinatura do Azure com Windows PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](https://docs.microsoft.com/powershell/azure/authenticate-azureps).
+1. Entre em sua assinatura do Azure com Windows PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](/powershell/azure/authenticate-azureps).
 
-2. Execute o cmdlet [Get-AzKeyVault.](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) Neste exemplo, *o nome do cofre* é o nome do cofre de chaves para o qual você está habilitando a exclusão suave:
+2. Execute o cmdlet [Get-AzKeyVault.](/powershell/module/az.keyvault/get-azkeyvault) Neste exemplo, *o nome do cofre* é o nome do cofre de chaves para o qual você está habilitando a exclusão suave:
 
    ```powershell
    $v = Get-AzKeyVault -VaultName <vault name>
@@ -183,7 +183,7 @@ Para habilitar a Exclusão Suave em seus cofres de chaves, conclua estas etapas:
 
 Há duas maneiras de adicionar chaves a um Cofre de Chaves do Azure; você pode criar uma chave diretamente no Cofre de Chaves ou pode importar uma chave. A criação de uma chave diretamente no Key Vault é o método menos complicado, enquanto a importação de uma chave fornece controle total sobre como a chave é gerada. Use as teclas RSA. O Azure Key Vault não dá suporte a quebras e quebras com chaves de curva elípticas.
   
-Para criar uma chave diretamente no cofre de chaves, execute o cmdlet [Add-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/add-azkeyvaultkey) da seguinte forma:
+Para criar uma chave diretamente no cofre de chaves, execute o cmdlet [Add-AzKeyVaultKey](/powershell/module/az.keyvault/add-azkeyvaultkey) da seguinte forma:
   
 ```powershell
 Add-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Destination <HSM|Software> -KeyOps wrapKey,unwrapKey
@@ -222,7 +222,7 @@ Se a propriedade _Nível_ de Recuperação retornar algo diferente de um valor *
 
 Imediatamente após a criação ou qualquer alteração em uma chave, execute um backup e armazene cópias do backup, online e offline. Não conecte cópias offline a nenhuma rede. Em vez disso, armazene-os em um local de armazenamento físico seguro ou comercial. Pelo menos uma cópia do backup deve ser armazenada em um local que será acessível se ocorrer um desastre. Os blobs de backup são o único meio de restaurar o material de chave caso uma chave do Cofre de Chaves seja permanentemente destruída ou renderizada inoperável. Chaves que são externas ao Azure Key Vault e foram importadas para o Azure Key Vault não se qualificam como backup porque os metadados necessários para a Chave do Cliente usar a chave não existem com a chave externa. Somente um backup feito do Azure Key Vault pode ser usado para restaurar operações com a Chave do Cliente. Portanto, é essencial que você faça um backup do Azure Key Vault depois que uma chave é carregada ou criada.
   
-Para criar um backup de uma chave do Azure Key Vault, execute o cmdlet [Backup-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/backup-azkeyvaultkey) da seguinte forma:
+Para criar um backup de uma chave do Azure Key Vault, execute o cmdlet [Backup-AzKeyVaultKey](/powershell/module/az.keyvault/backup-azkeyvaultkey) da seguinte forma:
 
 ```powershell
 Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
@@ -245,7 +245,7 @@ Executar a validação antes de usar chaves em um DEP é opcional, mas altamente
   
 Para verificar se suas chaves têm operações get, wrapKey e unwrapKey habilitadas:
   
-Execute o cmdlet [Get-AzKeyVault](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) da seguinte forma:
+Execute o cmdlet [Get-AzKeyVault](/powershell/module/az.keyvault/get-azkeyvault) da seguinte forma:
   
 ```powershell
 Get-AzKeyVault -VaultName <vault name>
@@ -265,7 +265,7 @@ Exemplo: para o serviço dados do Microsoft 365 em Criptografia rest, substitua 
   Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName c066d759-24ae-40e7-a56f-027002b5d3e4
   ```
 
-Para verificar se uma data de expiração não está definida para suas chaves, execute o cmdlet [Get-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) da seguinte forma:
+Para verificar se uma data de expiração não está definida para suas chaves, execute o cmdlet [Get-AzKeyVaultKey](/powershell/module/az.keyvault/get-azkeyvault) da seguinte forma:
   
 ```powershell
 Get-AzKeyVaultKey -VaultName <vault name>
@@ -273,7 +273,7 @@ Get-AzKeyVaultKey -VaultName <vault name>
 
 Uma chave expirada não pode ser usada pela Chave do Cliente e as operações tentadas com uma chave expirada falharão e possivelmente resultarão em uma paralisação de serviço. É recomendável que as chaves usadas com a Chave do Cliente não tenham uma data de expiração. Uma data de expiração, uma vez definida, não pode ser removida, mas pode ser alterada para uma data diferente. Se uma chave tiver que ser usada com um conjunto de datas de expiração, altere o valor de expiração para 31/12/9999. Chaves com uma data de expiração definida para uma data diferente de 31/12/9999 não passarão na validação do Microsoft 365.
   
-Para alterar uma data de expiração definida para qualquer valor diferente de 31/12/9999, execute o cmdlet [Update-AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/update-azkeyvaultkey) da seguinte forma:
+Para alterar uma data de expiração definida para qualquer valor diferente de 31/12/9999, execute o cmdlet [Update-AzKeyVaultKey](/powershell/module/az.keyvault/update-azkeyvaultkey) da seguinte forma:
   
 ```powershell
 Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date -Date "12/31/9999")
@@ -291,7 +291,7 @@ No Azure PowerShell:
 
 ## <a name="set-up-the-customer-key-encryption-policy-for-your-tenant"></a>Configurar a política de criptografia chave do cliente para seu locatário
 
-Para executar esses cmdlets, você precisa ter permissões atribuídas. Embora este artigo lista todos os parâmetros para os cmdlets, talvez você não tenha acesso a alguns parâmetros se eles não estão incluídos nas permissões atribuídas a você. Para localizar as permissões necessárias para executar qualquer cmdlet ou parâmetro em sua organização, confira [Find the permissions required to run any Exchange cmdlet](https://docs.microsoft.com/powershell/exchange/exchange-server/find-exchange-cmdlet-permissions).
+Para executar esses cmdlets, você precisa ter permissões atribuídas. Embora este artigo lista todos os parâmetros para os cmdlets, talvez você não tenha acesso a alguns parâmetros se eles não estão incluídos nas permissões atribuídas a você. Para localizar as permissões necessárias para executar qualquer cmdlet ou parâmetro em sua organização, confira [Find the permissions required to run any Exchange cmdlet](/powershell/exchange/exchange-server/find-exchange-cmdlet-permissions).
 
 ### <a name="create-policy"></a>Criar uma política
 
@@ -309,9 +309,9 @@ New-M365DataAtRestEncryptionPolicy -Name "Default_Policy" -AzureKeyIDs "https://
 
 Parâmetros:
 
-| Name | Descrição | Opcional (Y/N) |
+| Nome | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
-|Name|Nome amigável da política de criptografia de dados|N|
+|Nome|Nome amigável da política de criptografia de dados|N|
 |AzureKeyIDs|Especifica dois valores de URI das chaves do Azure Key Vault, separadas por uma vírgula, para associar à política de criptografia de dados|N|
 |Descrição|Descrição da política de criptografia de dados|N|
 
@@ -331,7 +331,7 @@ Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "Default_Poli
 
 Parâmetros:
 
-| Name | Descrição | Opcional (Y/N) |
+| Nome | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
 -DataEncryptionPolicy|Especifica a política de criptografia de dados que precisa ser atribuída; especifique o Nome da Política ou a ID da Política.|N|
 
@@ -359,7 +359,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity "EUR Policy" -Refresh
 
 Parâmetros:
 
-| Name | Descrição | Opcional (Y/N) |
+| Nome | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
 |-Identity|Especifica a política de criptografia de dados que você deseja modificar.|N|
 |-Refresh|Use a opção Atualizar para atualizar a política de criptografia de dados depois de girar qualquer uma das chaves associadas no Cofre de Chaves do Azure. Não é preciso especificar um valor com essa opção.|S|
@@ -392,7 +392,7 @@ Get-M365DataAtRestEncryptionPolicy -Identity "NAM Policy"
 
 Parâmetros:
 
-| Name | Descrição | Opcional (Y/N) |
+| Nome | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
 |-Identity|Especifica a política de criptografia de dados para a que você deseja listar os detalhes.|S|
 

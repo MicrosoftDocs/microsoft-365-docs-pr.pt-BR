@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o treinamento de simulação de ataque para executar ataques simulados de phishing e senha em suas organizações do Microsoft 365 E5 ou do Microsoft Defender para Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 38e16ecd8185b9e8542f58613790585b5aab73ee
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 6e344153ef433bc13b16136e584ec4da73fcef6a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820229"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921343"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Começar a usar o Treinamento de simulação de ataque
 
@@ -36,11 +36,11 @@ Se sua organização tiver o Microsoft 365 E5 ou o Microsoft Defender para Offic
 > [!NOTE]
 > O treinamento de simulação de ataque substitui a experiência antiga do Simulador de Ataque v1 descrita no Simulador de Ataques no [Microsoft Defender para Office 365](attack-simulator.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Para abrir o Centro de Segurança da Microsoft, vá para <https://security.microsoft.com/> . Treinamento de simulação de ataque está disponível em Treinamento de **simulação** de ataque e email \> **e colaboração.** Para ir diretamente ao treinamento de simulação de ataque, abra <https://security.microsoft.com/attacksimulator> .
 
-- Para obter mais informações sobre a disponibilidade do treinamento de simulação de ataque em diferentes assinaturas do Microsoft 365, consulte [Microsoft Defender for Office 365 service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
+- Para obter mais informações sobre a disponibilidade do treinamento de simulação de ataque em diferentes assinaturas do Microsoft 365, consulte [Microsoft Defender for Office 365 service description](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description).
 
 - Você precisa ter permissões atribuídas no Centro de Conformidade & segurança ou no Azure Active Directory antes de poder fazer os procedimentos neste artigo. Especificamente, você precisa ser membro do **Gerenciamento** da **Organização,** Administrador de Segurança ou uma das seguintes funções:
   - **Administradores do Simulador de Ataques**: Crie e gere todos os aspectos de campanhas de simulação de ataque.

@@ -19,12 +19,12 @@ ms.reviewer: sstewart
 search.appverid:
 - MET150
 description: Saiba como otimizar as páginas do site de publicação clássico e moderno no SharePoint Online, limitando o número de chamadas para pontos de extremidade de serviço do SharePoint Online.
-ms.openlocfilehash: b3c41dfe308f1546887f28cf0e8fbe9ab4dc2761
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: cab0f6a020bd1148a0e852b5a393a6ad907f9771
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46687507"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921613"
 ---
 # <a name="optimize-page-calls-in-sharepoint-online-modern-and-classic-publishing-site-pages"></a>Otimizar chamadas de página em páginas do site de publicação clássico e moderno do SharePoint Online
 
@@ -33,7 +33,7 @@ Os sites de publicação clássico e moderno do SharePoint Online contêm links 
 Este artigo vai ajudá-lo a entender como determinar o número e o impacto das chamadas para pontos de extremidade externos nas páginas do site de publicação clássico e moderno e como limitar o efeito na latência percebida pelo usuário final.
 
 >[!NOTE]
->Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance).
+>Para obter mais informações sobre o desempenho dos portais modernos do SharePoint Online, confira [Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance).
 
 ## <a name="use-the-page-diagnostics-for-sharepoint-tool-to-analyze-page-calls"></a>Usar a ferramenta Diagnóstico de Página do SharePoint para analisar as chamadas da página
 
@@ -60,7 +60,7 @@ Se o resultado das **Solicitações para o SharePoint** aparecer na seção **At
 
 Se uma página contiver muitas chamadas, você poderá usar a lista de URLs no resultado das **Solicitações do SharePoint** para determinar se há chamadas repetidas, chamadas que devem ser em lotes ou chamadas que retornam dados que devem ser armazenados em cache.
 
-As **chamadas de REST em lote** podem ajudar a reduzir a sobrecarga de desempenho. Para obter mais informações sobre a chamada da API em lote, confira [Fazer solicitações em lote com as APIs REST](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis).
+As **chamadas de REST em lote** podem ajudar a reduzir a sobrecarga de desempenho. Para obter mais informações sobre a chamada da API em lote, confira [Fazer solicitações em lote com as APIs REST](/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis).
 
 **Usar um cache** para armazenar os resultados de uma chamada de API pode melhorar o desempenho de uma solicitação ativa, permitindo que o cliente use os dados armazenados em cache, em vez de fazer uma chamada adicional para cada carregamento de página subsequente. Há várias maneiras de abordar essa solução dependendo da necessidade comercial. Geralmente, se os dados forem os mesmos para todos os usuários, o uso de um serviço de armazenamento hierárquico, como o [cache do _Azure Redis_](https://azure.microsoft.com/services/cache/), é uma ótima opção para reduzir significativamente o tráfego da API em um site, pois os usuários podem solicite os dados do serviço de cache, em vez de diretamente do SPO. As únicas chamadas SPO necessárias seriam para atualizar o cache da camada intermediária. Se os dados flutuarem com base no usuário individual, talvez seja melhor implementar um cache no lado do cliente, como LocalStorage ou até mesmo um cookie. Isso ainda reduzirá os volumes de chamadas, eliminando as solicitações subsequentes feitas pelo mesmo usuário na duração do cache, mas será menos eficiente do que um serviço de cache dedicado. O PnP permite que você use o LocalStorage com um pequeno desenvolvimento adicional necessário.
 
@@ -77,7 +77,7 @@ Antes de fazer as revisões das páginas para corrigir problemas de desempenho, 
 
 [Ajustar o desempenho do Office 365](tune-microsoft-365-performance.md)
 
-[Desempenho na experiência moderna do SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+[Desempenho na experiência moderna do SharePoint](/sharepoint/modern-experience-performance)
 
 [Redes de distribuição de conteúdo](content-delivery-networks.md)
 

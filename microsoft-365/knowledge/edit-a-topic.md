@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: ac8e4b8cdcdfd4d2de0c48a22500338c7a8480a8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 34c6551dd3a40852368b40d960bf921c52f46372
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454166"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921511"
 ---
 # <a name="edit-an-existing-topic"></a>Editar um tópico existente 
 
@@ -38,7 +38,7 @@ Em Tópicos do Viva, você pode editar um tópico existente. Talvez seja necess�
 
 Para editar um tópico existente, você precisa:
 - Tenha uma licença de Tópicos do Viva.
-- Ter permissões para [**Quem pode criar ou editar tópicos**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions). Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva. 
+- Ter permissões para [**Quem pode criar ou editar tópicos**](./topic-experiences-user-permissions.md). Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva. 
 
 > [!Note] 
 > Os usuários que têm permissão para gerenciar tópicos no Centro de Tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.
@@ -130,13 +130,6 @@ Os gerentes de conhecimento também podem editar tópicos diretamente da página
 
 
 ## <a name="see-also"></a>Confira também
-
-
-
-  
-
-
-
 
 
 

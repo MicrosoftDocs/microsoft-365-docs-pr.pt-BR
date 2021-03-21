@@ -19,12 +19,12 @@ ms.collection:
 - SPO_Content
 description: Entenda os elementos básicos de segurança da criptografia de dados no OneDrive for Business e no SharePoint Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f0c78a9ca6e6bad1e4aea707f8be5dec818b7a27
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: ca93d04fa21487ad054cd9cb924dff1fc15abfbd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817920"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922625"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>Criptografia de dados no OneDrive for Business e no SharePoint Online
 
@@ -32,7 +32,7 @@ Entenda os elementos básicos de segurança da criptografia de dados no OneDrive
   
 ## <a name="security-and-data-encryption-in-office-365"></a>Segurança e criptografia de dados no Office 365
 
-O Microsoft 365 é um ambiente altamente seguro que oferece proteção ampla em várias camadas: segurança física do data center, segurança de rede, segurança de acesso, segurança de aplicativo e segurança de dados. Este artigo aborda especificamente o lado da criptografia em repouso e em trânsito da segurança de dados para OneDrive for Business e SharePoint Online.
+O Microsoft 365 é um ambiente altamente seguro que oferece ampla proteção em várias camadas: segurança física do data center, segurança de rede, segurança de acesso, segurança de aplicativos e segurança de dados. Este artigo aborda especificamente o lado da criptografia em repouso e em trânsito da segurança de dados para OneDrive for Business e SharePoint Online.
   
 Assista ao vídeo a seguir para ver como funciona a criptografia de dados.
   
@@ -50,11 +50,11 @@ No OneDrive for Business e no SharePoint Online, há dois cenários em que os da
 
 A criptografia em repouso inclui dois componentes: Criptografia BitLocker no nível do disco e criptografia por arquivo de conteúdo do cliente.
   
-A criptografia BitLocker está implantada para o serviço do OneDrive for Business e do SharePoint Online. A criptografia por arquivo também está no OneDrive for Business e no SharePoint Online no Microsoft 365 multi-locatário e em novos ambientes dedicados que são construídos com base na tecnologia multi-inquilino.
+A criptografia BitLocker está implantada para o serviço do OneDrive for Business e do SharePoint Online. A criptografia por arquivo também está no OneDrive for Business e no SharePoint Online no Microsoft 365 com vários locatários e novos ambientes dedicados que são construídos com base na tecnologia de vários locatários.
   
 Enquanto o BitLocker criptografa todos os dados no disco, a criptografia por arquivo vai ainda mais longe e inclui uma chave de criptografia exclusiva para cada arquivo. Além disso, as atualizações de cada arquivo são criptografadas com uma chave de criptografia própria. Antes de armazená-las, as chaves do conteúdo criptografado são armazenadas em um local físico separado do conteúdo. Todas as etapas dessa criptografia usam a criptografia AES com chaves de 256 bits e estão em conformidade com o padrão FIPS 140-2. O conteúdo criptografado é distribuído para vários contêineres no data center, e cada contêiner tem credenciais exclusivas. Essas credenciais são armazenadas em um local físico separado do conteúdo e das chaves de conteúdo.
   
-Para obter informações adicionais sobre a conformidade FIPS 140-2, consulte [Conformidade FIPS 140-2.](https://go.microsoft.com/fwlink/?LinkId=517625)
+Para obter informações adicionais sobre a conformidade fips 140-2, consulte [FIPS 140-2 Compliance](/previous-versions/sql/sql-server-2008-r2/bb326611(v=sql.105)).
   
 A criptografia em repouso no nível do arquivo aproveita o armazenamento de blobs para proporcionar o crescimento do armazenamento praticamente ilimitado e viabilizar uma proteção sem precedentes. Todo o conteúdo do cliente no OneDrive for Business e no SharePoint Online será migrado para o armazenamento de blobs. Veja como esses dados são protegidos:
   

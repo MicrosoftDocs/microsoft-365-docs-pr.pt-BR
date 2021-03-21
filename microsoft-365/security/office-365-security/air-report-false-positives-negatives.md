@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 8a91a55d9598b5e780474315ddf1f7019e593fed
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 755be1dde256bc612ba85e1b1af485cfaacf7da9
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406157"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921859"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Como relatar falsos positivos/negativos em recursos automatizados de investigação e resposta
 
@@ -53,9 +53,9 @@ Você também pode [enviar um arquivo para a Microsoft para análise de malware]
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Ajustar um alerta para evitar que falsos positivos se repitam
 
-Se um alerta for disparado por uso legítimo ou o alerta estiver impreciso, você poderá Gerenciar alertas no portal segurança do aplicativo [na nuvem.](https://docs.microsoft.com/cloud-app-security/managing-alerts)
+Se um alerta for disparado por uso legítimo ou o alerta estiver impreciso, você poderá Gerenciar alertas no portal segurança do aplicativo [na nuvem.](/cloud-app-security/managing-alerts)
 
-Se sua organização estiver usando o [Microsoft Defender para Ponto](https://docs.microsoft.com/windows/security/threat-protection) de Extremidade, além do Office 365, e um arquivo, endereço IP, URL ou domínio for tratado como malware em um dispositivo, mesmo que seja seguro, você poderá criar um indicador personalizado com uma ação ["Permitir"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)para seu dispositivo.
+Se sua organização estiver usando o [Microsoft Defender para Ponto](/windows/security/threat-protection) de Extremidade, além do Office 365, e um arquivo, endereço IP, URL ou domínio for tratado como malware em um dispositivo, mesmo que seja seguro, você poderá criar um indicador personalizado com uma ação ["Permitir"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)para seu dispositivo.
 
 ## <a name="undo-a-remediation-action"></a>Desfazer uma ação de correção
 

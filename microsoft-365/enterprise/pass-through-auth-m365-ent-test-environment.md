@@ -18,16 +18,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Resumo: configure a autenticação de passagem para seu ambiente de teste do Microsoft 365.'
-ms.openlocfilehash: d83de4ece4d1eaeddac882cf46a4fe85b8ba7cd4
-ms.sourcegitcommit: 53ff1fe6d6143b0bf011031eea9b85dc01ae4f74
+ms.openlocfilehash: cdbb6927fb8ca0001e3089c7169ce9046208e8f8
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48487441"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921523"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Autenticação de passagem para seu ambiente de teste do Microsoft 365
 
-*Este Guia de Laboratório de Teste pode ser usado para ambientes de teste do Microsoft 365 para empresas e do Office 365 Enterprise.*
+*Este Guia de Laboratório de Teste pode ser usado para ambientes de teste do Microsoft 365 para empresas e office 365 Enterprise.*
 
 As organizações que desejem usar diretamente a própria infraestrutura do Active Directory Domain Services (AD DS) local para a autenticação em serviços e aplicativos baseados na nuvem da Microsoft podem usar a autenticação de passagem. Este artigo descreve como configurar seu ambiente de teste do Microsoft 365 para autenticação de passagem, resultando na seguinte configuração:
   
@@ -51,7 +51,7 @@ Siga as instruções em [sincronização de hash de senha para o Microsoft 365](
   
 Esta configuração consiste em: 
   
-- Assinatura paga ou de avaliação do Microsoft 365 E5.
+- Avaliação ou assinatura paga do Microsoft 365 E5.
 - Uma intranet de organização simplificada conectado à Internet, que consiste em máquinas virtuais do DC1 APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. O Azure AD Connect é executado no APP1 para sincronizar o domínio TESTLAB AD DS com o locatário do Azure AD das suas assinaturas do Microsoft 365 periodicamente.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-pass-through-authentication"></a>Fase 2: configurar o Azure AD Connect no APP1 para autenticação de passagem
@@ -94,7 +94,7 @@ Esta é a configuração resultante:
  
 Esta configuração consiste em:
 
-- Uma assinatura paga ou de avaliação do Microsoft 365 E5 com o testlab do domínio DNS.\<your domain name> registrado.
+- Uma avaliação do Microsoft 365 E5 ou assinaturas pagas com o testlab de domínio DNS.\<your domain name> registrado.
 - Uma intranet simplificada da organização conectada à Internet, consistindo nas máquinas virtuais DC1, APP1 e CLIENT1 em uma sub-rede de uma rede virtual do Azure. Um Agente de autenticação é executado no APP1 para lidar com solicitações de autenticação de passagem do locatário do Azure AD da sua assinatura do Microsoft 365.
 
 ## <a name="next-step"></a>Próxima etapa
@@ -107,4 +107,4 @@ Explorar recursos e funcionalidades adicionais de [identidade](m365-enterprise-t
 
 [Visão geral do Microsoft 365 para empresas](microsoft-365-overview.md)
 
-[Documentação do Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Documentação do Microsoft 365 para empresas](/microsoft-365-enterprise/)

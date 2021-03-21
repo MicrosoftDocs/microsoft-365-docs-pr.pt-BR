@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Centro de segurança e o centro de conformidade do Microsoft 365 oferecem recomendações para governança de dados com base na configuração atual da sua organização e permite configurar com apenas alguns cliques. Algumas dessas recomendações detectam conteúdo específico em sua organização e, em seguida, fornecem etapas recomendadas para gerenciar esse conteúdo. Por exemplo, uma recomendação pode detectar itens que contenham conteúdo essencial para os negócios (como privilégio advogado-cliente ou informações do NDA) e permitir que você aplique automaticamente um rótulo de retenção a esses itens para garantir que eles sejam classificados e retidos conforme necessário. Este tópico lista as recomendações de controle de dados que você pode ver e descreve qual conteúdo é detectado para acionar cada um deles.
-ms.openlocfilehash: 805919aa4cfceca5f3409b0f218a3b6018fc38cd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9a022369fb783a498971c91664fa6532472d8589
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637763"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922605"
 ---
 # <a name="how-content-is-identified-for-data-governance-recommendations"></a>Como o conteúdo é identificado para recomendações de governança de dados
 
@@ -32,7 +32,7 @@ Este tópico lista as recomendações de controle de dados que você pode ver e 
 
 ## <a name="clean-up-voicemail"></a>Limpar a caixa postal
 
-Essa recomendação é exibida quando as mensagens de e-mail identificadas como o tipo de mensagem "correio de voz" são detectadas nas caixas de correio dos usuários. Saiba mais sobre em [propriedades de mensagem do Exchange](https://docs.microsoft.com/exchange/policy-and-compliance/ediscovery/message-properties-and-search-operators?view=exchserver-2019#searchable-properties-in-exchange).
+Essa recomendação é exibida quando as mensagens de e-mail identificadas como o tipo de mensagem "correio de voz" são detectadas nas caixas de correio dos usuários. Saiba mais sobre em [propriedades de mensagem do Exchange](/exchange/policy-and-compliance/ediscovery/message-properties-and-search-operators?view=exchserver-2019#searchable-properties-in-exchange).
 
 ## <a name="label-attorney-client-privilege-content"></a>Etiquetar conteúdo de privilégio advogado-cliente 
 

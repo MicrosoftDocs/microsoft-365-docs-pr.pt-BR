@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 37b473e2cfffff3984ff81245f09e98ee18685ea
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 0ac1028ca3485f75518ccca298a1fd85a7bf40ec
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826193"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922385"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -68,14 +68,14 @@ Use os seguintes artigos para configurar os pré-requisitos necessários para qu
 
 Depois de verificar se sua caixa de correio atende a todos os pré-requisitos aplicáveis, & use o Centro de Conformidade e Segurança para configurar a caixa de correio de [envios](#use-the-security--compliance-center-to-configure-the-user-submissions-mailbox) do usuário (neste artigo).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Do que você precisa saber para começar?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>O que você precisa saber antes de começar?
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a **página Envios de** usuário, use <https://protection.office.com/userSubmissionsReportMessage> .
 
 - Para modificar a configuração para envios do usuário, você precisa ser membro de um dos seguintes grupos de função:
 
   - **Gerenciamento de organizações** ou **Administrador de segurança** no [Centro de segurança e conformidade](permissions-in-the-security-and-compliance-center.md).
-  - **Gerenciamento de organização** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Gerenciamento de organização** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Você precisa acessar o PowerShell do Exchange Online. Se a conta que você está tentando usar não tiver acesso ao PowerShell do Exchange Online, você receberá um erro com esta aparência ao especificar a caixa de correio de envios:
 
@@ -83,8 +83,8 @@ Depois de verificar se sua caixa de correio atende a todos os pré-requisitos ap
 
   Para obter mais informações sobre a habilitação ou desabilitação do acesso ao PowerShell do Exchange Online, consulte os seguintes tópicos:
 
-  - [Habilitar ou desabilitar o acesso ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell) 
-  - [Regras de Acesso para Cliente no Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
+  - [Habilitar ou desabilitar o acesso ao PowerShell do Exchange Online](/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Regras de Acesso para Cliente no Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-security--compliance-center-to-configure-the-user-submissions-mailbox"></a>Use o Centro de Conformidade & segurança para configurar a caixa de correio de envios do usuário
 
@@ -155,4 +155,3 @@ No exemplo a seguir:
 `3|49871234-6dc6-43e8-abcd-08d797f20abe|167.220.232.101|test@contoso.com|(test phishing submission)`
 
 As mensagens que não seguem esse formato não serão exibidas corretamente no portal Envios.
-

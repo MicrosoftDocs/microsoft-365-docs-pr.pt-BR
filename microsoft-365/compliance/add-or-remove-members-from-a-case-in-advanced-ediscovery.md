@@ -17,16 +17,16 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como adicionar ou remover os membros que podem acessar uma ocorrência ao gerenciar um caso de Descoberta Avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53119bfa61e259eb7a22dea37ee99b0d7b533da6
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 06199ebfc9bdf24f1e4fb245f3b373c4129ebc9e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423380"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50923491"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>Adicionar ou remover membros de uma ocorrência
 
-Você pode adicionar ou remover membros para gerenciar quem pode acessar o caso. No entanto, antes que um membro possa acessar um caso de Descoberta Avançada (e executar tarefas no caso),  você deve adicionar o usuário ao grupo de funções do Gerenciador de Descobertas E na página Permissões no centro de conformidade e segurança. Para obter mais informações, [consulte Assign eDiscovery permissions in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions).
+Você pode adicionar ou remover membros para gerenciar quem pode acessar o caso. No entanto, antes que um membro possa acessar um caso de Descoberta Avançada (e executar tarefas no caso),  você deve adicionar o usuário ao grupo de funções do Gerenciador de Descobertas E na página Permissões no centro de conformidade e segurança. Para saber mais sobre como adicionar usuários a um grupo de função, confira [Atribuir permissões de Descoberta Eletrônica no Centro de Conformidade e Segurança](./assign-ediscovery-permissions.md).
 
 1. Na página **Descoberta Avançada,** vá para o caso ao que você deseja adicionar um membro.
 

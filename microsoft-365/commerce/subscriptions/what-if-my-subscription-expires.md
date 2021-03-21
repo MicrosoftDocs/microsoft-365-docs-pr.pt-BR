@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 para empresas expira, é desabilitada ou cancelada.
-ms.openlocfilehash: a9e2e68c0eee119126af93552a50f1859f708c1f
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 7560e715a9b1951915866f96c8df3bd1f884a475
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741352"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921811"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontecerá com meus dados e o acesso ao Microsoft 365 para empresas quando a assinatura terminar?
 
 Se a sua assinatura terminar, porque expirou ou porque você decidiu cancelá-la, o seu acesso aos serviços, aplicativos e dados de cliente do Microsoft 365 passam por vários estados antes de a assinatura ser totalmente desativada ou *excluída*. Se você estiver ciente dessa progressão, estará melhor preparado para retornar a sua assinatura para um estado ativo antes que seja tarde demais ou, se estiver saindo do Microsoft 365, para fazer backup de seus dados antes que eles sejam completamente excluídos.
 
-Leia essas informações importantes antes de entrar em contato com [suporte do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
+Leia essas informações importantes antes de entrar em contato com [suporte do Microsoft 365](../../admin/contact-support-for-business-products.md).
   
 ## <a name="what-happens-to-data-when-a-subscription-expires"></a>O que acontece com os dados quando uma assinatura expira?
 
@@ -51,7 +51,7 @@ A tabela a seguir mostra o que você pode esperar quando uma assinatura paga do 
 *Para a maioria das ofertas, na maioria dos países e regiões.
   
 > [!NOTE]
-> **O que são “dados do cliente”?** Os dados do cliente, como definido nos [Termos de Serviço Online da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613649), referem-se a todos os dados, inclusive todos os arquivos de texto, de som e de imagem fornecidos à Microsoft pelo cliente, ou em nome dele, por meio do uso dos serviços do Microsoft 365. Para saber mais sobre a proteção dos dados do cliente, confira [Introdução ao Portal de Confiabilidade do Serviço da Microsoft](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal).
+> **O que são “dados do cliente”?** Os dados do cliente, como definido nos [Termos de Serviço Online da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=613649), referem-se a todos os dados, inclusive todos os arquivos de texto, de som e de imagem fornecidos à Microsoft pelo cliente, ou em nome dele, por meio do uso dos serviços do Microsoft 365. Para saber mais sobre a proteção dos dados do cliente, confira [Introdução ao Portal de Confiabilidade do Serviço da Microsoft](../../compliance/get-started-with-service-trust-portal.md).
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>O que acontece se eu cancelar uma assinatura?
 
@@ -210,13 +210,13 @@ Quando sua avaliação termina, você não poderá continuar usando o Microsoft 
 
 ::: moniker range="o365-worldwide"
 
-- **Comprar o Microsoft 365.** Quando a avaliação expirar, ela entrará em um período de cortesia, dando a você mais 30 dias (para a maioria das avaliações, na maioria dos países e regiões) para comprar o Microsoft 365. Para saber como converter a sua avaliação em uma assinatura paga, confira [Comprar a versão de avaliação do Microsoft 365 para empresas](../buy-a-subscription-from-your-free-trial.md).
+- **Comprar o Microsoft 365.** Quando a avaliação expirar, ela entrará em um período de cortesia, dando a você mais 30 dias (para a maioria das avaliações, na maioria dos países e regiões) para comprar o Microsoft 365. Para saber como converter a sua avaliação em uma assinatura paga, confira [Comprar a versão de avaliação do Microsoft 365 para empresas](../try-or-buy-microsoft-365.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-- **Comprar o Microsoft 365.** Quando a avaliação expirar, ela entrará em um período de cortesia, dando a você mais 30 dias (para a maioria das avaliações, na maioria dos países e regiões) para comprar o Microsoft 365. Para saber como converter a sua avaliação em uma assinatura paga, confira [Comprar a versão de avaliação do Microsoft 365 para empresas](../buy-a-subscription-from-your-free-trial.md).
+- **Comprar o Microsoft 365.** Quando a avaliação expirar, ela entrará em um período de cortesia, dando a você mais 30 dias (para a maioria das avaliações, na maioria dos países e regiões) para comprar o Microsoft 365. Para saber como converter a sua avaliação em uma assinatura paga, confira [Comprar a versão de avaliação do Microsoft 365 para empresas](../try-or-buy-microsoft-365.md).
 
 ::: moniker-end
 
@@ -235,7 +235,6 @@ Quando sua avaliação termina, você não poderá continuar usando o Microsoft 
 
 ## <a name="related-content"></a>Conteúdo relacionado 
 
-[Cancelar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription) (artigo)\
-[Renovar o Microsoft 365 para empresas](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/renew-your-subscription) (artigo)\
-[Reativar sua assinatura](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/reactivate-your-subscription) (artigo)
-
+[Cancelar sua assinatura](./cancel-your-subscription.md) (artigo)\
+[Renovar o Microsoft 365 para empresas](./renew-your-subscription.md) (artigo)\
+[Reativar sua assinatura](./reactivate-your-subscription.md) (artigo)

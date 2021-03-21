@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no Centro de Conform
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 614cd7c256fe8af5fd7474a2101f937b1ecfd0d3
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 3f8f8dfc5cf1066b4ebcf166487bfcdb0a8b2db7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406391"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50922493"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -507,7 +507,7 @@ O relatório é atualizado para mostrar dados sobre mensagens de email relatadas
 Além dos cenários descritos neste artigo, você tem muito mais opções de relatórios disponíveis com o Explorer (ou detecções em tempo real). Confira os seguintes artigos:
 
 - [Localizar e investigar emails mal-intencionados entregues](investigate-malicious-email-that-was-delivered.md)
-- [Exibir arquivos mal-intencionados detectados no SharePoint Online, OneDrive e Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
+- [Exibir arquivos mal-intencionados detectados no SharePoint Online, OneDrive e Microsoft Teams](./atp-for-spo-odb-and-teams.md)
 - [Obter uma visão geral dos exibições no Explorador de Ameaças (e detecções em tempo real)](threat-explorer-views.md)
 - [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
 - [Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](../mtp/mtp-autoir.md)
@@ -528,7 +528,7 @@ Para exibir e usar detecções do Explorer ou em tempo real, você deve ter perm
   - Administrador de Segurança (isso pode ser atribuído no centro de administração do Azure Active Directory ( <https://aad.portal.azure.com> )
   - Leitor de segurança
 
-- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no Centro de administração do Exchange ( <https://admin.protection.outlook.com/ecp/> ) ou [no PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell):
+- Para o Exchange Online, você deve ter uma das seguintes funções atribuídas no Centro de administração do Exchange ( <https://admin.protection.outlook.com/ecp/> ) ou [no PowerShell do Exchange Online](/powershell/exchange/exchange-online-powershell):
 
   - Gerenciamento de Organização
   - Gerenciamento de Organização Somente Exibição
@@ -538,14 +538,14 @@ Para exibir e usar detecções do Explorer ou em tempo real, você deve ter perm
 Para saber mais sobre funções e permissões, consulte os seguintes recursos:
 
 - [Permissões no Centro de Segurança e Conformidade](permissions-in-the-security-and-compliance-center.md)
-- [Permissões de recursos no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+- [Permissões de recursos no Exchange Online](/exchange/permissions-exo/feature-permissions)
 
 ## <a name="differences-between-threat-explorer-and-real-time-detections"></a>Diferenças entre o Explorador de Ameaças e detecções em tempo real
 
 - O *relatório de detecções* em tempo real está disponível no Defender for Office 365 Plano 1. *O Explorador* de Ameaças está disponível no Defender para Office 365 Plano 2.
 - O relatório de detecções em tempo real permite que você veja detecções em tempo real. O Explorador de Ameaças também faz isso, mas também fornece detalhes adicionais para um determinado ataque.
 - Uma *exibição todos os* emails está disponível no Explorador de Ameaças, mas não no relatório de detecções em tempo real.
-- Mais recursos de filtragem e ações disponíveis estão incluídos no Explorador de Ameaças. Para obter mais informações, consulte [Microsoft Defender for Office 365 Service Description: Feature availability across Defender for Office 365 plans](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- Mais recursos de filtragem e ações disponíveis estão incluídos no Explorador de Ameaças. Para obter mais informações, consulte [Microsoft Defender for Office 365 Service Description: Feature availability across Defender for Office 365 plans](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 ## <a name="other-articles"></a>Outros artigos
 
