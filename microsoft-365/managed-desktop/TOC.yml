@@ -108,6 +108,8 @@
           href: get-started/get-started-devices.md
         - name: Experiência da primeira execução com o piloto automático e a página de status do registro
           href: get-started/esp-first-run.md
+        - name: Serviço de localização do Windows 10
+          href: get-started/device-location.md
         - name: Introdução ao controle de aplicativos
           href: get-started/get-started-app-control.md
         - name: Implante os aplicativos

@@ -3,7 +3,6 @@ title: Assinaturas, licenças, contas e locatários para ofertas de nuvem da Mic
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/25/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Entenda as relações das organizações, assinaturas, licenças, contas de usuário e locatários nas ofertas de nuvem da Microsoft.
-ms.openlocfilehash: c48e2ecc321f4b6e06ced13f029e344faf12650b
-ms.sourcegitcommit: 9a764c2aed7338c37f6e92f5fb487f02b3c4dfa1
+ms.openlocfilehash: eaf1c2399b5d44ea8d6000042b3258d0e8b5a7de
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48446026"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50909509"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Assinaturas, licenças, contas e locatários para ofertas de nuvem da Microsoft
 
@@ -66,7 +65,11 @@ Para as ofertas de nuvem SaaS da Microsoft, uma licença permite que uma conta d
 **Figura 2: Licenças em assinaturas SaaS para uma organização**
 
 ![Um exemplo de várias licenças em assinaturas para ofertas em nuvem baseadas em SaaS da Microsoft.](../media/Subscriptions/Subscriptions-Fig2.png)
-  
+
+>[!Note]
+>Uma prática recomendada de segurança é usar contas de usuário separadas às quais são atribuídas funções específicas para funções administrativas. Essas contas de administrador dedicadas não precisam ser atribuídas a uma licença para os serviços em nuvem que administram. Por exemplo, uma conta de Administrador do SharePoint não precisa ser atribuída a uma licença do Microsoft 365.
+>
+
 Para serviços de nuvem baseados em PaaS do Azure, as licenças de software são integradas ao preço do serviço.
   
 Para máquinas virtuais baseadas em IaaS do Azure, talvez seja necessário ter licenças adicionais para usar o software ou aplicativo instalados em uma imagem de máquina virtual. Algumas imagens de máquinas virtuais têm versões licenciadas do software instalado e o custo é incluído na taxa por minuto para o servidor. Os exemplos são as imagens de máquinas virtuais do SQL Server 2014 e do SQL Server 2016. 
@@ -139,7 +142,7 @@ Uma maneira fácil de adicionar assinaturas de serviços baseados em SaaS da Mic
   
 1. Entre no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)) com sua conta de administrador global.
     
-2. Na navegação à esquerda da página inicial do **centro de administração **, clique em **Cobrança**e depois em **Serviços de compra**.
+2. Na navegação à esquerda da página inicial do **centro de administração**, clique em **Cobrança** e depois em **Serviços de compra**.
     
 3. Na página **Serviços de compra**, compre as novas assinaturas.
     
@@ -153,7 +156,7 @@ Para adicionar uma assinatura do Azure com a mesma organização e locatário do
     
 3. Na página **Adicionar assinatura**, selecione uma oferta e complete as informações de pagamento e o contrato.
     
-Se você tiver comprado separadamente as assinaturas do Azure e do Microsoft 365 e deseja acessar o locatário Azure AD do Microsoft 365 a partir da sua assinatura do Azure, confira as instruções em [Adicionar uma assinatura do Azure ao seu locatário do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
+Se você tiver comprado separadamente as assinaturas do Azure e do Microsoft 365 e deseja acessar o locatário Azure AD do Microsoft 365 a partir da sua assinatura do Azure, confira as instruções em [Adicionar uma assinatura do Azure ao seu locatário do Azure Active Directory](/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
  
 ## <a name="see-also"></a>Confira também
 
@@ -166,4 +169,3 @@ Se você tiver comprado separadamente as assinaturas do Azure e do Microsoft 365
 ## <a name="next-step"></a>Próxima etapa
 
 [Avaliando a conectividade de rede do Microsoft 365](assessing-network-connectivity.md)
-  
