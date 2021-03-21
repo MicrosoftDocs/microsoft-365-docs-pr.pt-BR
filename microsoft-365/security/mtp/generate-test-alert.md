@@ -1,7 +1,7 @@
 ---
-title: Gerar um alerta de teste do Microsoft 365 Defender
-description: Gerar um alerta de teste para testar como funciona seu ambiente de laboratório do Microsoft 365 Defender
-keywords: Simulação da Proteção contra Ameaças da Microsoft, experimente a Proteção contra Ameaças da Microsoft, gere alerta de teste na Proteção contra Ameaças da Microsoft, teste o alerta no laboratório de avaliação da Proteção contra Ameaças da Microsoft
+title: Gerar um alerta do Microsoft 365 Defender de teste
+description: Gerar um alerta de teste para tentar como seu ambiente de laboratório do Microsoft 365 Defender funciona
+keywords: Simulação da Proteção contra Ameaças da Microsoft, experimente a Proteção contra Ameaças da Microsoft, gere alerta de teste na Proteção contra Ameaças da Microsoft, alerta de teste no laboratório de avaliação da Proteção contra Ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,28 +20,27 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 10d4a0af9c3ae766e95b34187d2ba3c9958db28f
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: 258a210fe875d0399d1a97ba77cdf340dcc1670e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49929475"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928815"
 ---
-# <a name="generate-a-test-alert-in-your-microsoft-365-defender-evaluation-lab"></a><span data-ttu-id="e2185-104">Gerar um alerta de teste no laboratório de avaliação do Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="e2185-104">Generate a test alert in your Microsoft 365 Defender evaluation lab</span></span>  
+# <a name="generate-a-test-alert-in-your-microsoft-365-defender-evaluation-lab"></a><span data-ttu-id="03f9d-104">Gerar um alerta de teste no laboratório de avaliação do Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="03f9d-104">Generate a test alert in your Microsoft 365 Defender evaluation lab</span></span>  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="e2185-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="e2185-105">**Applies to:**</span></span>
-- <span data-ttu-id="e2185-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="e2185-106">Microsoft 365 Defender</span></span>
+<span data-ttu-id="03f9d-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="03f9d-105">**Applies to:**</span></span>
+- <span data-ttu-id="03f9d-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="03f9d-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="e2185-107">Agora que você concluiu a configuração e a configuração do laboratório de avaliação do Microsoft 365 Defender, pode executar uma simulação de ataque de ameaças para experimentar a detecção, a correlação de alertas e os recursos de correção de auto-avaliação da solução de segurança integrada.</span><span class="sxs-lookup"><span data-stu-id="e2185-107">Now that you've completed your Microsoft 365 Defender evaluation lab setup and configuration, you can run a threat attack simulation to experience the detection, alert correlation, and self-healing remediation capabilities of the integrated security solution.</span></span>  
+<span data-ttu-id="03f9d-107">Agora que você concluiu a configuração e configuração do laboratório de avaliação do Microsoft 365 Defender, você pode executar uma simulação de ataque contra ameaças para experimentar os recursos de detecção, correlação de alerta e correção de auto-recuperação da solução de segurança integrada.</span><span class="sxs-lookup"><span data-stu-id="03f9d-107">Now that you've completed your Microsoft 365 Defender evaluation lab setup and configuration, you can run a threat attack simulation to experience the detection, alert correlation, and self-healing remediation capabilities of the integrated security solution.</span></span>  
 
-1. <span data-ttu-id="e2185-108">Faça logoff no https://security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="e2185-108">Log on to https://security.microsoft.com</span></span>
-2. <span data-ttu-id="e2185-109">Na home page, procure um tile intitulado **Simulação.**</span><span class="sxs-lookup"><span data-stu-id="e2185-109">On the Home page, look for a tile titled **Simulation**.</span></span>  <span data-ttu-id="e2185-110">Revise o guia passo a passo para ver as etapas para criar um incidente de teste no Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="e2185-110">Review the walkthrough guide for steps to create a test incident in Microsoft 365 Defender.</span></span>
-<br><span data-ttu-id="e2185-111">![Imagem do cartão de simulação no painel segurança do Microsoft 365](../../media/mtp-eval-73.png)</span><span class="sxs-lookup"><span data-stu-id="e2185-111">![Image of simulation card in the Microsoft 365 Security dashboard](../../media/mtp-eval-73.png)</span></span> <br>
+1. <span data-ttu-id="03f9d-108">Faça logoff no https://security.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="03f9d-108">Log on to https://security.microsoft.com</span></span>
+2. <span data-ttu-id="03f9d-109">Na home page, procure um telha intitulado **Simulação**.</span><span class="sxs-lookup"><span data-stu-id="03f9d-109">On the Home page, look for a tile titled **Simulation**.</span></span>  <span data-ttu-id="03f9d-110">Consulte o guia passo a passo para ver as etapas para criar um incidente de teste no Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="03f9d-110">Review the walkthrough guide for steps to create a test incident in Microsoft 365 Defender.</span></span>
+<br><span data-ttu-id="03f9d-111">![Imagem do cartão de simulação no painel segurança do Microsoft 365](../../media/mtp-eval-73.png)</span><span class="sxs-lookup"><span data-stu-id="03f9d-111">![Image of simulation card in the Microsoft 365 Security dashboard](../../media/mtp-eval-73.png)</span></span> <br>
 
-## <a name="next-steps"></a><span data-ttu-id="e2185-112">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="e2185-112">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="03f9d-112">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="03f9d-112">Next steps</span></span>
 
-<span data-ttu-id="e2185-113">Navegue pelo centro de arquitetura e solução do [Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) para entender como projetar a solução e a arquitetura adequadas para sua organização.</span><span class="sxs-lookup"><span data-stu-id="e2185-113">Browse through the [Microsoft 365 solution and architecture center](https://docs.microsoft.com/microsoft-365/solutions/solution-architecture-center) to understand how to design the solution and architecture that is right for your organization.</span></span>
-
+<span data-ttu-id="03f9d-113">Navegue pelo centro de arquitetura e solução do [Microsoft 365](../../solutions/index.yml) para entender como projetar a solução e a arquitetura adequadas para sua organização.</span><span class="sxs-lookup"><span data-stu-id="03f9d-113">Browse through the [Microsoft 365 solution and architecture center](../../solutions/index.yml) to understand how to design the solution and architecture that is right for your organization.</span></span>
