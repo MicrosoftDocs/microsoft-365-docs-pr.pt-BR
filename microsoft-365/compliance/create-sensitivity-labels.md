@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Um requisito para todas as soluções de proteção de informações da Microsoft: criar, configurar e publicar rótulos de confidencialidade para classificar e proteger os documentos e emails da sua organização.'
-ms.openlocfilehash: b7943259d3a20cbf4fd6d8b0b57ca7c027e74d3f
-ms.sourcegitcommit: 4f40f5be140a23bacff6fd7b85536de14fc7d499
+ms.openlocfilehash: 34cbea7199ed50de8e65a48f8087e6475fb41a50
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084652"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926639"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Criar e configurar rótulos de confidencialidade e suas políticas
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Todas as soluções de proteção de informações da Microsoft (às vezes abreviadas para MIP) são implementadas usando [rótulos de sensibilidade](sensitivity-labels.md). Para criar e publicar seus rótulos de confidencialidade, vá para o centro de administração de rótulo, como o [centro de conformidade do Microsoft 365](https://compliance.microsoft.com/). Você também pode usar o centro de segurança do Microsoft 365 ou o Centro de Conformidade e Segurança.
 
@@ -60,7 +60,7 @@ O administrador global da sua organização tem permissões completas para criar
     ![Criar um rótulo de confidencialidade](../media/create-sensitivity-label-full.png)
     
     > [!NOTE]
-    > Por padrão, os locatários não têm rótulos e você deve criá-los. Os rótulos na imagem de exemplo mostram rótulos padrão que foram [migrados do sistema de Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
+    > Por padrão, os locatários não têm rótulos e você deve criá-los. Os rótulos na imagem de exemplo mostram rótulos padrão que foram [migrados do sistema de Proteção de Informações do Azure](/azure/information-protection/configure-policy-migrate-labels).
 
 3. Na página **Definir o escopo deste rótulo**, as opções selecionadas determinam o escopo do rótulo para as configurações que você pode definir e onde eles estarão visíveis quando forem publicados:
     
@@ -70,7 +70,7 @@ O administrador global da sua organização tem permissões completas para criar
     
     - Se **Grupos e sites** for selecionado, você pode definir as configurações neste assistente que se aplicam a grupos do Microsoft 365 e sites do Microsoft Teams e Microsoft Office SharePoint Online. Se essa opção não for selecionada, o assistente exibirá a primeira página dessas configurações, mas você não pode configurá-las e os rótulos não estarão disponíveis para os usuários selecionarem para grupos e site.
     
-    Para obter informações sobre o escopo de ativos do **Azure Purview (pré-visualização)**, confira [Rotular automaticamente o conteúdo no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
+    Para obter informações sobre o escopo de ativos do **Azure Purview (pré-visualização)**, confira [Rotular automaticamente o conteúdo no Azure Purview](/azure/purview/create-sensitivity-label).
 
 4. Siga as solicitações do assistente para as configurações do rótulo.
     
@@ -98,13 +98,13 @@ Até que você publique seus rótulos, eles não estarão disponíveis para sele
 
 ### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de rótulo com o PowerShell do Centro de Conformidade e Segurança
 
-As configurações adicionais de rótulo estão disponíveis com o cmdlet [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label) do [PowerShell do Centro de Conformidade e Segurança](https://docs.microsoft.com/powershell/exchange/scc-powershell).
+As configurações adicionais de rótulo estão disponíveis com o cmdlet [Set-Label](/powershell/module/exchange/set-label) do [PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/scc-powershell).
 
 Por exemplo:
 
 - Use o parâmetro *LocaleSettings* para implantações multinacionais, assim os usuários podem ver o nome do rótulo e a dica de ferramenta no idioma local. A[seguinte seção](#example-configuration-to-configure-a-sensitivity-label-for-different-languages) tem um exemplo de configuração que especifica o nome do rótulo e o texto da dica de ferramenta em francês, italiano e alemão.
 
-- Apenas para o cliente de rotulagem unificada do Proteção de Informações do Azure, especifique [configurações avançadas](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem definir uma cor de rótulo e aplicar uma propriedade personalizada quando um rótulo é aplicado. Para obter a lista completa, confira [Configurações avançadas disponíveis para rótulos](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels) da guia de administração deste cliente.
+- Apenas para o cliente de rotulagem unificada do Proteção de Informações do Azure, especifique [configurações avançadas](/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem definir uma cor de rótulo e aplicar uma propriedade personalizada quando um rótulo é aplicado. Para obter a lista completa, confira [Configurações avançadas disponíveis para rótulos](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels) da guia de administração deste cliente.
 
 #### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>Configuração de exemplo para configurar um rótulo de configurar em idiomas diferentes
 
@@ -112,9 +112,9 @@ O exemplo a seguir mostra a configuração do PowerShell para um rótulo chamado
 
 Como resultado dessa configuração, os usuários com aplicativos do Office que usam tais idiomas de exibição verão seus nomes de etiqueta e as dicas de ferramentas no mesmo idioma. Da mesma forma, se você tiver o cliente de rotulagem unificado da Proteção de Informações do Azure instalado para rotular arquivos do Explorador de Arquivos, os usuários que tiverem essas versões de idioma do Windows verão os nomes de etiqueta e as dicas de ferramenta no idioma local deles quando usarem o clique com o botão direito do mouse para rotular.
 
-Para os idiomas para os quais você precisa oferecer suporte, use os [identificadores de idiomas](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers) do Office (também conhecidos como marcas de idioma) e especifique a sua própria tradução para o rótulo e para a dica de ferramenta.
+Para os idiomas para os quais você precisa oferecer suporte, use os [identificadores de idiomas](/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers) do Office (também conhecidos como marcas de idioma) e especifique a sua própria tradução para o rótulo e para a dica de ferramenta.
 
-Antes de executar os comandos no PowerShell, você dever primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Antes de executar os comandos no PowerShell, você dever primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 
 ```powershell
@@ -186,26 +186,26 @@ Para editar uma política de rótulo existente, selecione-a e, em seguida, selec
 
 Esse botão dá início ao assistente **Criar política**, que permite editar quais rótulos estão incluídos e as configurações de rótulo. Quando você concluir o assistente, todas as alterações serão replicadas automaticamente para os usuários e serviços selecionados.
 
-Quando você usa rótulos integrados para aplicativos do Office no Windows, macOS, iOS e Android, os usuários veem os novos rótulos em quatro horas e em uma hora para o Office na web. No entanto, aguarde até 24 horas para que as alterações sejam replicadas em todos os aplicativos e serviços.
+Quando você usa rótulos integrados para aplicativos do Office no Windows, macOS, iOS e Android, os usuários veem os novos rótulos em quatro horas e em uma hora para Word, Excel e PowerPoint na web quando você atualiza o navegador. No entanto, aguarde até 24 horas para que as alterações sejam replicadas em todos os aplicativos e serviços.
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Configurações adicionais de políticas de rótulo com o PowerShell do Centro de Conformidade e Segurança
 
-As configurações adicionais de políticas de rótulo estão disponíveis com o cmdlet [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy) do [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell).
+As configurações adicionais de políticas de rótulo estão disponíveis com o cmdlet [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy) do [Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/scc-powershell).
 
-Somente para o cliente com rótulo unificado de Proteção de Informações do Microsoft Azure, você pode especificar [configurações avançadas](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem a configuração de um rótulo padrão diferente para o Outlook, e implementar mensagens pop-up no Outlook que avisam, justificam ou bloqueiam os emails a serem enviados. Para obter a lista completa, confira [Configurações avançadas disponíveis para políticas de rótulos](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) da guia de administração deste cliente.
+Somente para o cliente com rótulo unificado de Proteção de Informações do Microsoft Azure, você pode especificar [configurações avançadas](/azure/information-protection/rms-client/clientv2-admin-guide-customizations) que incluem a configuração de um rótulo padrão diferente para o Outlook, e implementar mensagens pop-up no Outlook que avisam, justificam ou bloqueiam os emails a serem enviados. Para obter a lista completa, confira [Configurações avançadas disponíveis para políticas de rótulos](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) da guia de administração deste cliente.
 
 ## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>Usar o PowerShell para rótulos de confidencialidade e suas políticas
 
-Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell) para criar e configurar todas as configurações que você vê no seu centro de administração de rótulos. Isso significa que, além de usar o PowerShell para configurações que não estão disponíveis nos centros de administração de rótulos, agora você pode criar scripts para a criação e a manutenção de rótulos de confidencialidade e políticas de rótulo de confidencialidade. 
+Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/scc-powershell) para criar e configurar todas as configurações que você vê no seu centro de administração de rótulos. Isso significa que, além de usar o PowerShell para configurações que não estão disponíveis nos centros de administração de rótulos, agora você pode criar scripts para a criação e a manutenção de rótulos de confidencialidade e políticas de rótulo de confidencialidade. 
 
 Confira a seguinte documentação para os parâmetros e valores com suporte:
 
-- [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label)
-- [New-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-labelpolicy)
-- [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label)
-- [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy)
+- [New-Label](/powershell/module/exchange/new-label)
+- [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy)
+- [Set-Label](/powershell/module/exchange/set-label)
+- [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy)
 
-Você também pode usar [Remove-Label](https://docs.microsoft.com/powershell/module/exchange/remove-label) e [Remove-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-labelpolicy) se precisar criar scripts para a exclusão de rótulos de rótulos de confidencialidade ou políticas de rótulo de confidencialidade. No entanto, antes de você excluir os rótulos de confidencialidade, certifique-se de ler a seguinte.
+Você também pode usar [Remove-Label](/powershell/module/exchange/remove-label) e [Remove-LabelPolicy](/powershell/module/exchange/remove-labelpolicy) se precisar criar scripts para a exclusão de rótulos de rótulos de confidencialidade ou políticas de rótulo de confidencialidade. No entanto, antes de você excluir os rótulos de confidencialidade, certifique-se de ler a seguinte.
 
 ## <a name="removing-and-deleting-labels"></a>Remover e excluir rótulos
 
@@ -219,7 +219,7 @@ Em um ambiente de produção, é improvável que você precise remover ou exclui
 
 Em comparação, ao excluir um rótulo:
 
-- Se uma criptografia foi aplicada pelo rótulo, o modelo de proteção subjacente é arquivado para que o conteúdo previamente protegido ainda possa ser aberto. Devido a esse modelo de proteção arquivado, não será possível criar uma novo rótulo com o mesmo nome. Embora seja possível excluir um modelo de proteção usando o [PowerShell](https://docs.microsoft.com/powershell/module/aipservice/remove-aipservicetemplate), não faça isso, a menos que tenha certeza de que não precisará abrir conteúdos criptografados com o modelo arquivado.
+- Se uma criptografia foi aplicada pelo rótulo, o modelo de proteção subjacente é arquivado para que o conteúdo previamente protegido ainda possa ser aberto. Devido a esse modelo de proteção arquivado, não será possível criar uma novo rótulo com o mesmo nome. Embora seja possível excluir um modelo de proteção usando o [PowerShell](/powershell/module/aipservice/remove-aipservicetemplate), não faça isso, a menos que tenha certeza de que não precisará abrir conteúdos criptografados com o modelo arquivado.
 
 - Para aplicativos da área de trabalho: as informações do rótulo nos metadados permanecem, mas como não será mais possível usar uma ID de rótulo para mapeamento de nomes, os usuários não verão o nome do rótulo aplicado (por exemplo, na barra de status), então os usuários assumirão que o conteúdo não foi rotulado. Se uma criptografia foi aplicada pelo rótulo, a criptografia permanecerá e quando o conteúdo for aberto, os usuários ainda verão o nome e a descrição do modelo de proteção agora arquivado.
 

@@ -16,12 +16,12 @@ ms.custom: ''
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Saiba como limitar a exposição acidental de informações ao compartilhar arquivos com pessoas de fora da sua organização.
-ms.openlocfilehash: 430c00d46fa3801d0869b05a651fadd3bf5dea28
-ms.sourcegitcommit: 8a726ed7ec19a8728c079780fa4d343a5f759fbb
+ms.openlocfilehash: 952337790ce2f0418dd5ab637435f1523b27b562
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49029964"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928407"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>Limitar a exposição acidental de arquivos ao compartilhar com pessoas de fora da sua organização
 
@@ -37,7 +37,7 @@ Recomenda-se deixar os links para *Qualquer pessoa* habilitados para o conteúdo
 
 Caso você queira que as pessoas de fora da sua organização sempre façam a autenticação ao acessar o conteúdo no SharePoint, Grupos ou no Teams, você pode desativar o compartilhamento a *Qualquer pessoa*. Isso impedirá usuários de compartilharem conteúdo não autenticado.
 
-Mesmo desabilitando os links para *Qualquer pessoa* , os usuários continuarão podendo fazer compartilhamentos facilmente com convidados usando links para *Pessoas específicas*. Nesse caso, todas as pessoas de fora da sua organização precisarão se autenticar para poder acessar o conteúdo compartilhado.
+Mesmo desabilitando os links para *Qualquer pessoa*, os usuários continuarão podendo fazer compartilhamentos facilmente com convidados usando links para *Pessoas específicas*. Nesse caso, todas as pessoas de fora da sua organização precisarão se autenticar para poder acessar o conteúdo compartilhado.
 
 Dependendo das suas necessidades, você pode desabilitar links para *Qualquer pessoa* para sites específicos ou para toda a organização.
 
@@ -71,7 +71,7 @@ As listas de permissão e negação afetam apenas o compartilhamento com convida
 
 Para configurar uma lista de permissão ou negação de domínio
 1. No centro de administração do SharePoint, na navegação à esquerda, clique em **Compartilhamento**.
-2. Em **Configurações avançadas para compartilhamento externo** , marque a caixa de seleção **Limitar compartilhamento externo por domínio**.
+2. Em **Configurações avançadas para compartilhamento externo**, marque a caixa de seleção **Limitar compartilhamento externo por domínio**.
 3. Clique em **Adicionar domínios**.
 4. Selecione se deseja bloquear domínios, digite os domínios e clique em **OK.**
 
@@ -79,7 +79,7 @@ Para configurar uma lista de permissão ou negação de domínio
 
 5. Clique em **Salvar**.
 
-Caso deseje limitar o compartilhamento por domínio em um nível superior ao SharePoint e ao OneDrive, você pode [permitir ou bloquear convites para usuários B2B de organizações específicas](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list) no Azure Active Directory. (Você deve configurar a [integração do SharePoint e do OneDrive com a versão prévia do B2B do Azure AD](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) para que essas configurações se apliquem ao SharePoint e ao OneDrive).
+Caso deseje limitar o compartilhamento por domínio em um nível superior ao SharePoint e ao OneDrive, você pode [permitir ou bloquear convites para usuários B2B de organizações específicas](/azure/active-directory/b2b/allow-deny-list) no Azure Active Directory. (Você deve configurar a [integração do SharePoint e do OneDrive com a versão prévia do B2B do Azure AD](/sharepoint/sharepoint-azureb2b-integration-preview) para que essas configurações se apliquem ao SharePoint e ao OneDrive).
 
 ## <a name="limit-sharing-of-files-folders-and-sites-with-people-outside-your-organization-to-specified-security-groups"></a>Limitar o compartilhamento de arquivos, pastas e sites com pessoas de fora da sua organização com grupos de segurança especificados
 
@@ -87,15 +87,15 @@ Você pode restringir o compartilhamento de arquivos, pastas e sites com pessoas
 
 Limitar o compartilhamento externo com membros de um grupo de segurança
 1. No [centro de administração do SharePoint](https://admin.microsoft.com/sharepoint), na navegação à esquerda, em **Políticas** clique em **Compartilhamento**.
-2. Em **Compartilhamento externo** , expanda **Mais configurações de compartilhamento externo**.
+2. Em **Compartilhamento externo**, expanda **Mais configurações de compartilhamento externo**.
 
 3. Selecione **Permitir que somente os usuários em grupos de segurança específicos compartilhem externamente** e, em seguida, selecione **Gerenciar grupos de segurança**.
 
-    ![Captura de tela do Painel gerenciar grupos de segurança](https://docs.microsoft.com/sharepoint/sharepointonline/media/manage-security-groups.png)
+    ![Captura de tela do Painel gerenciar grupos de segurança](/sharepoint/sharepointonline/media/manage-security-groups.png)
 
-4. Na caixa **Adicionar um grupo de segurança** , digite um nome para o grupo de segurança. A caixa de grupo de segurança é exibida.
+4. Na caixa **Adicionar um grupo de segurança**, digite um nome para o grupo de segurança. A caixa de grupo de segurança é exibida.
 
-5. Ao lado do nome do grupo de segurança, na lista suspensa **Pode compartilhar com** , escolha:
+5. Ao lado do nome do grupo de segurança, na lista suspensa **Pode compartilhar com**, escolha:
 
     - **Somente convidados autenticados** (padrão)
     - **Qualquer pessoa**

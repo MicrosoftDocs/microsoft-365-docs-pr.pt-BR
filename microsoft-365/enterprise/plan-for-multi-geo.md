@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Saiba mais sobre o Microsoft 365 Multi-Geo, como a funcionalidade multigeográfica funciona e quais localizações geográficas estão disponíveis para armazenar dados.
-ms.openlocfilehash: ce8b752cc6a335249f9d8e03289fd16b04756ce9
-ms.sourcegitcommit: 88ab08c0fa1acbc9e066009e131b9f2b0d506c64
+ms.openlocfilehash: 9625d55015cc0f18801d59e82fc8ca7090b3b721
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50712337"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927527"
 ---
 # <a name="plan-for-microsoft-365-multi-geo"></a>Plano do Microsoft 365 Multi-Geo
 
@@ -69,13 +69,13 @@ Cada usuário deve ter um *local de dados preferido* (PDL) definido para que o M
 
 Crie uma lista dos seus usuários e inclua o nome UPN e o código de local para o local de dados preferencial adequado. Inclua o seu usuário de teste e o seu grupo piloto inicial para começar. Você precisará dessa lista para os procedimentos de configuração.
 
-Se os usuários serão sincronizados com um sistema do Active Directory local ao Azure Active Directory, você deve definir o local de dados preferencial como um atributo Active Directory e sincronizá-lo usando o Azure Active Directory Connect. Você não pode configurar o local de dados preferencial diretamente para os usuários sincronizados usando o Azure AD PowerShell. As etapas para configurar a PDL no Active Directory e sincronizá-lo são abordadas na sincronização do [Azure Active Directory Connect: Configurar o local de dados preferido dos recursos do Microsoft 365](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
+Se os usuários serão sincronizados com um sistema do Active Directory local ao Azure Active Directory, você deve definir o local de dados preferencial como um atributo Active Directory e sincronizá-lo usando o Azure Active Directory Connect. Você não pode configurar o local de dados preferencial diretamente para os usuários sincronizados usando o Azure AD PowerShell. As etapas para configurar a PDL no Active Directory e sincronizá-lo são abordadas na sincronização do [Azure Active Directory Connect: Configurar o local de dados preferido dos recursos do Microsoft 365](/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
 
 A administração de um locatário multigeográfico pode variar de um locatário que não seja de multigeografia, pois muitos dos serviços e configurações do SharePoint e do OneDrive detectam a multigeografia. Recomendamos que leia [Administrar um ambiente multigeográfico](administering-a-multi-geo-environment.md) antes de prosseguir com a configuração.
 
 Leia [Experiência do usuário em um ambiente multi-geo](multi-geo-user-experience.md) para obter detalhes sobre a experiência dos usuários finais em um ambiente multi-geo.
 
-Para obter mais detalhes sobre a experiência do Teams em um locatário do Microsoft 365 Multi-Geo, consulte [Experiência do Teams em um local multigeográfico habilitado do Microsoft 365 OneDrive e do SharePoint Online](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo).
+Para obter mais detalhes sobre a experiência do Teams em um locatário do Microsoft 365 Multi-Geo, consulte [Experiência do Teams em um local multigeográfico habilitado do Microsoft 365 OneDrive e do SharePoint Online](/microsoftteams/teams-experience-o365odb-spo-multi-geo).
 
 Para começar a configurar o Microsoft 365 Multi-Geo, consulte [Configurar o Microsoft 365 Multi-Geo](multi-geo-tenant-configuration.md).
 
@@ -83,4 +83,4 @@ Depois de concluir a configuração, lembre-se de [migrar as bibliotecas do OneD
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configuração do Microsoft 365 Multi-Geo eDiscovery](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-ediscovery-configuration)
+[Configuração do Microsoft 365 Multi-Geo eDiscovery](./multi-geo-ediscovery-configuration.md)

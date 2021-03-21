@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as políticas de prevenção contra perda de dados (DLP) para usar os locais de prevenção contra perda de dados do Ponto de extremidade (EPDLP) do Microsoft 365.
-ms.openlocfilehash: 1bb4013069b8f4890ba420f13a0203eb63973121
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 91e8a25c2a15e82cd7f286d1110b1c87bedf31d5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820183"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926429"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Usando a prevenção contra perda de dados do Endpoint
 
@@ -219,10 +219,10 @@ Esses cenários exigem que você já tenha dispositivos integrados e relatados n
 - [Visão geral da prevenção contra perda de dados](data-loss-prevention-policies.md)
 - [Criar, testar e ajustar uma política DLP](create-test-tune-dlp-policy.md)
 - [Começar a usar o Explorador de atividades](data-classification-activity-explorer.md)
-- [Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Ferramentas e métodos de integração para computadores Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/)
+- [Ferramentas e métodos de integração para computadores Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Assinatura do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Associados a Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Associados a Azure Active Directory (AAD)](/azure/active-directory/devices/concept-azure-ad-join)
 - [Baixar o novo Microsoft Edge baseado em Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)
 - [Introdução à política DLP padrão](get-started-with-the-default-dlp-policy.md)
 - [Criar uma política DLP a partir de um modelo](create-a-dlp-policy-from-a-template.md)

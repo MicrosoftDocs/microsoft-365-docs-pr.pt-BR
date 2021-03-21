@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Implante os recursos de segurança e conformidade do Microsoft 365 e proteja suas informações pessoais.
-ms.openlocfilehash: a5bba79f8ab382707b6fd5e448003a0271d690c6
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: 657b3c9c6416c8a38629a0d26253e1222aa6d242
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597233"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928467"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Proteger informações sujeitas à regulamentação de privacidade de dados
 
@@ -38,7 +38,7 @@ Esses controles estão nas seguintes áreas de solução:
 ![Principais serviços para proteger informações pessoais sujeitas à regulamentação de privacidade de dados](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
 >[!Note]
->Esta solução descreve recursos de segurança e conformidade para proteger informações sujeitas a regulamentos de privacidade de dados. Para ver uma lista completa de recursos de segurança no Microsoft 365, consulte [a documentação de segurança do Microsoft 365.](https://docs.microsoft.com/microsoft-365/security/) Para ver uma lista completa de recursos de conformidade no Microsoft 365, consulte a documentação [de conformidade do Microsoft 365.](https://docs.microsoft.com/microsoft-365/compliance/)
+>Esta solução descreve recursos de segurança e conformidade para proteger informações sujeitas a regulamentos de privacidade de dados. Para ver uma lista completa de recursos de segurança no Microsoft 365, consulte [a documentação de segurança do Microsoft 365.](../security/index.yml) Para ver uma lista completa de recursos de conformidade no Microsoft 365, consulte a documentação [de conformidade do Microsoft 365.](../compliance/index.yml)
 >
 
 ## <a name="data-privacy-regulations-that-impact-information-protection-controls"></a>Regulamentos de privacidade de dados que impactam controles de proteção de informações
@@ -68,7 +68,7 @@ Para ajudá-lo a começar com um esquema de proteção de informações no Micro
 As [soluções de proteção](../compliance/information-protection.md) de informações da Microsoft incluem vários recursos integrados no Microsoft 365, Microsoft Azure e Microsoft Windows. No Microsoft 365, as soluções de proteção de informações incluem:
 
 - [Criptografia do serviço com a Chave de Cliente](../compliance/customer-key-overview.md)
-- [Tipos de informações confidenciais](../compliance/what-the-sensitive-information-types-look-for.md) (descritos no artigo avaliar riscos de privacidade [de dados e identificar itens confidenciais](information-protection-deploy-assess.md))
+- [Tipos de informações confidenciais](../compliance/sensitive-information-type-entity-definitions.md) (descritos no artigo avaliar riscos de privacidade [de dados e identificar itens confidenciais](information-protection-deploy-assess.md))
 - [Rótulos de confidencialidade](../compliance/sensitivity-labels.md) 
   - Nível de serviço/contêiner
   - Lado do cliente/nível de conteúdo
@@ -81,10 +81,10 @@ Além disso, a proteção de nível de site e biblioteca são mecanismos importa
 
 Para obter informações sobre outros recursos de proteção de informações fora do Microsoft 365, consulte:
 
-- [Microsoft Cloud Application Security (MCAS)](https://docs.microsoft.com/cloud-app-security/)
-- [Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)
+- [Microsoft Cloud Application Security (MCAS)](/cloud-app-security/)
+- [Proteção de Informações do Azure](/azure/information-protection/what-is-information-protection)
 - [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager)
-- [Proteção de Informações do Windows](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
+- [Proteção de Informações do Windows](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 
 ## <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 

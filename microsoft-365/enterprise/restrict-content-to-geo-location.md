@@ -13,18 +13,18 @@ ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
 description: Neste artigo, saiba como restringir sites do SharePoint a uma localização geográfica especificada em um ambiente multi-geo.
-ms.openlocfilehash: f2a09f177c68d30121c207287e053b2b25405fbc
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 74255db19b2ecf9b333d33208c63da260b2bd747
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686984"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927259"
 ---
 # <a name="restrict-sharepoint-site-content-to-a-geo-location"></a>Restringir o conteúdo do site do SharePoint a um local geográfico
 
 Em algumas circunstâncias você pode optar por impor que um site e o conteúdo do arquivo permaneça na localização geográfica onde o site foi criado, impedindo que o site movido ou impedindo o cache de conteúdo do arquivo do site em outro local geográfico.
 
-Você pode fazer isso usando o cmdlet [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) com o parâmetro **RestrictedToGeo**. Esse parâmetro possui um valor padrão de NULO, mas você pode alterá-lo para um destes procedimentos:
+Você pode fazer isso usando o cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) com o parâmetro **RestrictedToGeo**. Esse parâmetro possui um valor padrão de NULO, mas você pode alterá-lo para um destes procedimentos:
 
 |Restrição|Descrição|
 |:----------|:----------|

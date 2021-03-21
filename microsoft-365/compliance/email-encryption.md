@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Compare as opções de criptografia do Microsoft 365, incluindo o Criptografia de Mensagem do Office 365 (OME), S/MIME, Gerenciamento de Direitos de Informação (Gerenciamento de Direitos de Informação) e aprenda sobre Protocolo TLS (TLS).
-ms.openlocfilehash: e1f222595479ce525b38ab97971c998f77c78581
-ms.sourcegitcommit: c0495e224f12c448bfc162ef2e4b33b82f064ac8
+ms.openlocfilehash: e5357384ebfe481e464ea8950c3f753b38a53b0c
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709575"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926531"
 ---
 # <a name="email-encryption"></a>Criptografia de email
 
@@ -64,13 +64,13 @@ Assista a este vídeo para obter uma [introdução à criptografia no Office 365
 |:-----|:-----|:-----|:-----|
 |O que é isso?|Criptografia de Mensagens do Office 365 (OME) é um serviço integrado ao Azure Rights Management (Azure RMS) que permite o envio de emails criptografados para pessoas dentro ou fora da sua organização, independente do endereço de email de destino (Gmail, Yahoo! Email, Outlook.com, etc.). <br/> Como administrador, você pode configurar regras de transporte que definam as condições da criptografia. Quando um usuário envia uma mensagem que corresponde a uma regra, a criptografia é aplicada automaticamente. <br/> Para exibir mensagens criptografadas, os destinatários podem obter uma senha avulsa, entrar com uma conta da Microsoft ou com uma conta corporativa ou de estudante associada ao Office 365. Os destinatários também podem enviar respostas criptografadas. Não é necessário ter uma assinatura do Microsoft 365 para exibir mensagens criptografadas ou enviar respostas criptografadas.|O IRM é uma solução de criptografia que também aplica restrições de uso a mensagens de email. Isso ajuda a evitar que informações confidenciais sejam impressas, encaminhadas ou copiadas por pessoas não autorizadas. <br/> Os recursos IRM no Microsoft 365 usam o Azure Rights Management (Azure RMS).|S/MIME é uma solução de criptografia baseada em certificados que permite criptografar e assinar digitalmente uma mensagem. A criptografia de mensagem ajuda a garantir que somente o destinatário pretendido poderá abrir e ler a mensagem. Uma assinatura digital ajuda o destinatário a validar a identidade do remetente. <br/> As assinaturas digitais e a criptografia de mensagem são disponibilizadas por meio do uso de certificados digitais exclusivos que contêm as chaves para verificar assinaturas digitais e criptografar ou descriptografar mensagens. <br/> Para usar S/MIME, você deve ter as chaves públicas no arquivo para cada destinatário. Os destinatários precisam manter suas próprias chaves privadas, que devem permanecer seguras. Se as chaves particulares de um destinatário estiverem comprometidas, o destinatário precisará obter uma nova chave privada e redistribuir chaves públicas para todos os possíveis remetentes.|
 |E o que isso faz?|OME: <br/> Criptografa as mensagens enviadas a destinatários internos ou externos. <br/>  Permite que os usuários enviem mensagens criptografadas para qualquer endereço de email, incluindo Outlook.com, Yahoo! Mail e Gmail. <br/>  Permite que você, como administrador, personalize o portal de exibição do email para refletir a marca da sua organização. <br/> A Microsoft gerencia e armazena as chaves de maneira segura, para que você não precise fazer isso. <br/> Nenhum software especial do lado do cliente é necessário, desde que a mensagem criptografada (enviada como um anexo HTML) possa ser aberta em um navegador.|IRM: <br/> Usa a criptografia e as restrições de uso para fornecer proteção online e offline para mensagens de email e anexos. <br/> Fornece a você, como administrador, a capacidade de configurar as regras de transporte ou as regras de proteção do Outlook para aplicar o IRM automaticamente às mensagens selecionadas. <br/> Permite que os usuários apliquem modelos manualmente no Outlook ou no Outlook na Web (conhecida anteriormente com Outlook Web App).|Autenticação de endereços de remetente de S/MIME com assinaturas digitais e confidencialidade de mensagem com criptografia.|
-|E o que isso não faz?|A OME não permite que você aplique restrições de uso às mensagens. Por exemplo, você não pode usá-la para impedir que um destinatário encaminhe ou imprima uma mensagem criptografada.|Alguns aplicativos podem não suportar emails IRM em todos os dispositivos. Para saber mais sobre esses e outros produtos que oferecem suporte a emails IRM, confira [ recursos de dispositivos cliente](https://technet.microsoft.com/library/dn655136.aspx#BKMK_ClientCapabilities).|O S/MIME não permite que mensagens criptografadas sejam verificadas para malware, spam ou políticas.|
+|E o que isso não faz?|A OME não permite que você aplique restrições de uso às mensagens. Por exemplo, você não pode usá-la para impedir que um destinatário encaminhe ou imprima uma mensagem criptografada.|Alguns aplicativos podem não suportar emails IRM em todos os dispositivos. Para saber mais sobre esses e outros produtos que oferecem suporte a emails IRM, confira [ recursos de dispositivos cliente](/azure/information-protection/requirements#BKMK_ClientCapabilities).|O S/MIME não permite que mensagens criptografadas sejam verificadas para malware, spam ou políticas.|
 |Cenários de exemplo e recomendações|É recomendável usar a OME para enviar informações comerciais confidenciais para pessoas fora da sua organização, sejam consumidores ou outras empresas. Por exemplo:  <br/>  O funcionário de um banco enviando extratos de cartão de crédito aos clientes  <br/>  Um consultório enviando prontuários médicos para um paciente  <br/>  Um advogado enviando informações legais confidenciais para outro advogado|É recomendável usar o IRM para aplicar restrições de uso, bem como a criptografia. Por exemplo:  <br/>  Um gerente enviando detalhes confidenciais para sua equipe sobre um novo produto aplica a opção "Não Encaminhar".  <br/>  Um executivo que precisa compartilhar uma proposta de lance com outra empresa, que inclui um anexo de um parceiro que está usando o Office 365, e necessita que o email e o anexo sejam protegidos.|É recomendável usar o S/MIME quando sua organização ou a empresa do destinatário exigirem criptografia de ponto a ponto verdadeira.  <br/>  O S/MIME é mais usado nos seguintes cenários:  <br/>  Agências governamentais se comunicando com outras agências governamentais  <br/>  Uma empresa se comunicando com uma agência governamental|
 ||
 
 ## <a name="what-encryption-options-are-available-for-my-microsoft-365-subscription"></a>Quais opções de criptografia estão disponíveis para minha assinatura do Microsoft 365?
 
-Para saber mais sobre as opções de criptografia de email da sua assinatura [do Microsoft 365,](https://technet.microsoft.com/library/exchange-online-service-description.aspx)Confira a descrição do serviço do Exchange Online. Aqui você pode encontra informações sobre os seguintes recursos de criptografia:
+Para saber mais sobre as opções de criptografia de email da sua assinatura [do Microsoft 365,](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)Confira a descrição do serviço do Exchange Online. Aqui você pode encontra informações sobre os seguintes recursos de criptografia:
   
 - Azure RMS, incluindo recursos IRM e OME
 
@@ -84,7 +84,7 @@ Você também pode usar ferramentas de criptografia de terceiros com o Microsoft
 
 ## <a name="what-about-encryption-for-data-at-rest"></a>E a criptografia de dados inativos?
 
-"Dados inativos" se refere aos dados que não estão ativamente em trânsito. No Microsoft 365, os dados inativos do email são criptografados usando a Criptografia de Unidade de Disco BitLocker. O BitLocker criptografa os discos rígidos em datacenters do Microsoft para fornecer proteção avançada contra acesso não autorizado. Saiba mais em [Visão geral do BitLocker](https://go.microsoft.com/fwlink/p/?LinkId=394737).
+"Dados inativos" se refere aos dados que não estão ativamente em trânsito. No Microsoft 365, os dados inativos do email são criptografados usando a Criptografia de Unidade de Disco BitLocker. O BitLocker criptografa os discos rígidos em datacenters do Microsoft para fornecer proteção avançada contra acesso não autorizado. Saiba mais em [Visão geral do BitLocker](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831713(v=ws.11)).
   
 ## <a name="more-information-about-email-encryption-options"></a>Para saber mais sobre as opções de criptografia de email
 
@@ -96,18 +96,18 @@ Para saber mais sobre as opções de criptografia de email neste artigo, bem sob
   
 **IRM**
   
-[Gerenciamento de Direitos de Informação no Exchange Online](https://technet.microsoft.com/library/jj983436%28v=exchg.150%29.aspx)
+[Gerenciamento de Direitos de Informação no Exchange Online](./information-rights-management-in-exchange-online.md)
   
-[ O que é o Azure Rights Management? ](https://technet.microsoft.com/library/jj585026)
+[ O que é o Azure Rights Management? ](/azure/information-protection/what-is-azure-rms)
   
 **S/MIME**
   
-[S/MIME para assinatura e criptografia de mensagens](https://technet.microsoft.com/library/dn626158)
+[S/MIME para assinatura e criptografia de mensagens](/Exchange/policy-and-compliance/smime/smime)
   
-[Noções básicas sobre S/MIME](https://technet.microsoft.com/library/aa995740%28v=exchg.65%29.aspx)
+[Noções básicas sobre S/MIME](/previous-versions/tn-archive/aa995740(v=exchg.65))
   
-[Noções básicas sobre criptografia de chave pública](https://technet.microsoft.com/library/aa998077%28v=exchg.65%29.aspx)
+[Noções básicas sobre criptografia de chave pública](/previous-versions/tn-archive/aa998077(v=exchg.65))
   
 **TLS**
   
-[Configurar o fluxo de emails usando conectores](https://technet.microsoft.com/library/jj723138%28v=exchg.150%29.aspx)
+[Configurar o fluxo de emails usando conectores](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)

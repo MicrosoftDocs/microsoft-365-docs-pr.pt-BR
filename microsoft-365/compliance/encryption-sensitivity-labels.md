@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 602b4b3abd2b07386ad130e4b2cd21bb593eee7e
-ms.sourcegitcommit: a9ac702c9efc9defded3bfa65618b94bac00c237
+ms.openlocfilehash: 6f906e2a3ddd8a0847174a61e9f2b28238e5dc19
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50261568"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928069"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Quando você cria um rótulo de confidencialidade, pode restringir o acesso ao conteúdo ao qual o rótulo será aplicado. Por exemplo, com as configurações de criptografia para um rótulo de confidencialidade, você pode proteger conteúdos de modo que:
 
@@ -49,9 +49,9 @@ As configurações de criptografia estão disponíveis quando você [cria um ró
 
 ## <a name="understand-how-the-encryption-works"></a>Entenda como funciona a criptografia
 
-A criptografia usa o serviço Azure Rights Management (Azure RMS) da Proteção de Informações do Azure. Esta solução de proteção usa política de criptografia, identidade e autorização. Para saber mais, confira [O que é o Azure Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) na documentação da Proteção de Informações do Azure. 
+A criptografia usa o serviço Azure Rights Management (Azure RMS) da Proteção de Informações do Azure. Esta solução de proteção usa política de criptografia, identidade e autorização. Para saber mais, confira [O que é o Azure Rights Management?](/azure/information-protection/what-is-azure-rms) na documentação da Proteção de Informações do Azure. 
 
-Quando você usa essa solução de criptografia, o **recurso de superusuário** garante que as pessoas e os serviços autorizados possam sempre ler e inspecionar os dados criptografados para a sua organização. Se necessário, a criptografia poderá ser removida ou alterada. Para saber mais, confira [Configurar os superusuários para a Proteção de Informações do Azure, serviços de descoberta ou recuperação de dados](https://docs.microsoft.com/azure/information-protection/configure-super-users).
+Quando você usa essa solução de criptografia, o **recurso de superusuário** garante que as pessoas e os serviços autorizados possam sempre ler e inspecionar os dados criptografados para a sua organização. Se necessário, a criptografia poderá ser removida ou alterada. Para saber mais, confira [Configurar os superusuários para a Proteção de Informações do Azure, serviços de descoberta ou recuperação de dados](/azure/information-protection/configure-super-users).
 
 ## <a name="how-to-configure-a-label-for-encryption"></a>Como configurar um rótulo para criptografia
 
@@ -93,8 +93,8 @@ A tabela a seguir identifica o que acontece com uma criptografia existente quand
 
 Observe que, em casos em que a nova criptografia de rótulo é aplicada ou a criptografia original é removida, isso só acontece se o usuário que está aplicando o rótulo tiver um direito de uso ou função que dê suporte a essa ação:
 
-- O [direito de uso](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exportar ou Controle Total.
-- A função do [emissor de Gerenciamento de Direitos ou do proprietário de Gerenciamento de Direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) ou [superusuário](https://docs.microsoft.com/azure/information-protection/configure-super-users).
+- O [direito de uso](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exportar ou Controle Total.
+- A função do [emissor de Gerenciamento de Direitos ou do proprietário de Gerenciamento de Direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) ou [superusuário](/azure/information-protection/configure-super-users).
 
 Se o usuário não tiver uma destes direitos ou funções, não será possível aplicar o rótulo, e a criptografia original é preservada. O usuário verá a seguinte mensagem: **Você não tem permissão para fazer essa alteração no rótulo de confidencialidade. Entre em contato com o proprietário do conteúdo.**
 
@@ -141,7 +141,7 @@ Se nenhuma data de vencimento tiver sido definida, o período de validade da lic
 
 Além da nova autenticação, as configurações de criptografia e a associação do grupo de usuários são reavaliados. Isso significa que os usuários podem experimentar diferentes resultados de acesso no mesmo documento ou email se houver alterações nas configurações de criptografia ou na associação de grupo em relação à última vez em que acessaram o conteúdo.
 
-Para saber como alterar a configuração padrão de 30 dias, confira [Licença de uso de Gerenciamento de Direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-use-license)..
+Para saber como alterar a configuração padrão de 30 dias, confira [Licença de uso de Gerenciamento de Direitos](/azure/information-protection/configure-usage-rights#rights-management-use-license)..
 
 ### <a name="assign-permissions-to-specific-users-or-groups"></a>Atribuir permissões a usuários ou grupos específicos
 
@@ -163,7 +163,7 @@ Quando você atribui permissões, pode escolher:
 
 - Todos os usuários autenticados. Verifique se você entendeu os [requisitos e limitações](#requirements-and-limitations-for-add-any-authenticated-users) dessa configurações antes de selecioná-la.
 
-- Qualquer usuário específico ou grupo de segurança habilitado para e-mail, grupo de distribuição ou grupo do Microsoft 365 ([anteriormente grupo do Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) no Azure AD. O grupo do Microsoft 365 pode ter uma [associação estática ou dinâmica](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Observe que você não pode usar um [grupo de distribuição dinâmico do Exchange](https://docs.microsoft.com/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups) porque esse tipo de grupo não está sincronizado com o Microsoft Azure Active Directory e não pode usar um grupo de segurança que não esteja habilitado para email.
+- Qualquer usuário específico ou grupo de segurança habilitado para e-mail, grupo de distribuição ou grupo do Microsoft 365 ([anteriormente grupo do Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) no Azure AD. O grupo do Microsoft 365 pode ter uma [associação estática ou dinâmica](/azure/active-directory/users-groups-roles/groups-create-rule). Observe que você não pode usar um [grupo de distribuição dinâmico do Exchange](/Exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups) porque esse tipo de grupo não está sincronizado com o Microsoft Azure Active Directory e não pode usar um grupo de segurança que não esteja habilitado para email.
 
 - Qualquer endereço de email ou domínio. Use esta opção para especificar todos os usuários em outra organização que usa o Azure AD, inserindo qualquer nome de domínio dessa organização. Você também pode usar essa opção para provedores sociais, inserindo o nome de domínio, como **gmail.com**, **hotmail.com** ou **outlook.com**.
 
@@ -179,7 +179,7 @@ Como prática recomendada, use grupos em vez de usuários. Essa estratégia mant
 Essa configuração não restringe as pessoas que podem acessar o conteúdo que o rótulo criptografa, ainda criptografando o conteúdo e fornecendo opções para restringir a maneira como o conteúdo pode ser usado (permissões) e acessado (expiração e acesso offline). No entanto, o aplicativo que está abrindo o conteúdo criptografado deve ser capaz de oferecer suporte à autenticação que está sendo usada. Por esse motivo, os provedores sociais federados, como o Google, e a autenticação de senha única funcionam apenas para email e somente quando você usa o Exchange Online. As contas da Microsoft podem ser usadas com aplicativos do Office 365 e com o [visualizador da Proteção de Informações do Azure](https://portal.azurerms.com/#/download).
 
 > [!NOTE]
-> Considere usar essa configuração com a [integração do SharePoint e do OneDrive com o Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) quando os rótulos de confidencialidade estão [habilitados para arquivos do Office no SharePoint e OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
+> Considere usar essa configuração com a [integração do SharePoint e do OneDrive com o Azure AD B2B](/sharepoint/sharepoint-azureb2b-integration-preview) quando os rótulos de confidencialidade estão [habilitados para arquivos do Office no SharePoint e OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
 
 Alguns cenários típicos para qualquer configuração de usuários autenticados:
 
@@ -191,10 +191,10 @@ Alguns cenários típicos para qualquer configuração de usuários autenticados
 
 Quando você escolhe quais permissões atribuir para os usuários ou grupos, você pode selecionar:
 
-- Um [nível de permissões predefinidas](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-included-in-permissions-levels) com um grupo predefinido de direitos, como co-autor ou revisor.
+- Um [nível de permissões predefinidas](/azure/information-protection/configure-usage-rights#rights-included-in-permissions-levels) com um grupo predefinido de direitos, como co-autor ou revisor.
 - Permissões personalizadas, em que você escolhe um ou mais direitos de uso.
 
-Para obter mais informações sobre como selecionar as permissões apropriadas, confira [Descrições e os direitos de uso](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions).  
+Para obter mais informações sobre como selecionar as permissões apropriadas, confira [Descrições e os direitos de uso](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions).  
 
 ![Opções para escolher permissões predefinidas ou personalizadas](../media/Sensitivity-Choose-permissions-settings.png)
 
@@ -214,7 +214,7 @@ O emissor do Gerenciamento de Direitos sempre recebe as permissões de Controle 
 - O emissor do Gerenciamento de Direitos sempre pode acessar o documento ou email offline.
 - O emissor do Gerenciamento de Direitos ainda consegue abrir um documento após sua revogação.
 
-Para saber mais, confira [Emissor do Gerenciamento de Direitos e Proprietário do Gerenciamento de Direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner).
+Para saber mais, confira [Emissor do Gerenciamento de Direitos e Proprietário do Gerenciamento de Direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner).
 
 ### <a name="double-key-encryption"></a>Criptografia de Chave Dupla
 
@@ -229,7 +229,7 @@ Para obter mais informações, pré-requisitos e instruções de configuração,
 
 Você pode usar essas opções para permitir que os usuários atribuam permissões quando os mesmos aplicarem manualmente um rótulo de sensibilidade ao conteúdo:
 
-- No Outlook, um usuário pode aplicar restrições equivalentes à opção [Não Encaminhar](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) para os destinatários escolhidos.
+- No Outlook, um usuário pode aplicar restrições equivalentes à opção [Não Encaminhar](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) para os destinatários escolhidos.
 
 - No Word, no PowerPoint e no Excel, um usuário deve selecionar suas próprias permissões para usuários, grupos ou organizações específicos.
 
@@ -406,7 +406,7 @@ Antes de usar a criptografia, talvez seja necessário realizar algumas tarefas d
 
 - Ativar a proteção da Proteção de Informações do Azure
     
-    Para que os rótulos de confidencialidade apliquem a criptografia, o serviço de proteção (Azure Rights Management) da Proteção de Informações do Aure devem ser ativado para seu locatário. Em locatários mais recentes, essa é a configuração padrão, mas talvez seja necessário ativar o serviço manualmente. Para saber mais, confira [Ativar o serviço de proteção da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/activate-service).
+    Para que os rótulos de confidencialidade apliquem a criptografia, o serviço de proteção (Azure Rights Management) da Proteção de Informações do Aure devem ser ativado para seu locatário. Em locatários mais recentes, essa é a configuração padrão, mas talvez seja necessário ativar o serviço manualmente. Para saber mais, confira [Ativar o serviço de proteção da Proteção de Informações do Azure](/azure/information-protection/activate-service).
 
 - Configurar o Exchange para a Proteção de Informações do Azure
     
@@ -416,8 +416,8 @@ Antes de usar a criptografia, talvez seja necessário realizar algumas tarefas d
     
     Para garantir que Exchange possa dar suporte a esses cenários adicionais, confira o seguinte:
     
-    - Para o Exchange Online, confira as instruções de [Exchange Online: configuração do IRM](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration).
-    - Para o Exchange local, é necessário implantar o [conector RMS e configurar seus servidores Exchange](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector). 
+    - Para o Exchange Online, confira as instruções de [Exchange Online: configuração do IRM](/azure/information-protection/configure-office365#exchangeonline-irm-configuration).
+    - Para o Exchange local, é necessário implantar o [conector RMS e configurar seus servidores Exchange](/azure/information-protection/deploy-rms-connector). 
 
 ## <a name="next-steps"></a>Próximas etapas
 

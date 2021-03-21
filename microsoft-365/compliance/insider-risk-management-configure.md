@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: d1ac0bd289185f47fc5eb0bbe34c16fbe28bba84
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: a995b6fdbbff36c6466f5e55cda9d7e196fa2c02
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819887"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927025"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Introdução ao gerenciamento de riscos internos
 
@@ -227,7 +227,7 @@ As políticas de gerenciamento de riscos internas incluem usuários atribuídos 
 
 11. Se você selecionou Quero especificar sites do SharePoint, rótulos de sensibilidade **e/ou** tipos de informações confidenciais como conteúdo de prioridade na etapa anterior, você verá as páginas de detalhes para sites do *SharePoint,* tipos de informações confidenciais *e* rótulos de *sensibilidade.* Use essas páginas de detalhes para definir o SharePoint, tipos de informações confidenciais e rótulos de sensibilidade para priorizar na política.
 
-    - **Sites do SharePoint**: Selecione **Adicionar site do SharePoint** e selecione as organizações do SharePoint às que você tem acesso e deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
+    - **Sites do SharePoint**: Selecione **Adicionar site do SharePoint** e selecione os sites do SharePoint aos que você tem acesso e deseja priorizar. Por exemplo, *"group1@contoso.sharepoint.com/sites/group1"*.
     - **Tipo de informação confidenciais**: Selecione **Adicionar tipo de informação confidenciais** e selecione os tipos de sensibilidade que você deseja priorizar. Por exemplo, *"Número da* Conta Bancária dos EUA" e *"Número do Cartão de Crédito"*.
     - **Rótulos de sensibilidade**: **Selecione Adicionar rótulo de** sensibilidade e selecione os rótulos que você deseja priorizar. Por exemplo, *"Confidencial"* e *"Segredo"*.
 

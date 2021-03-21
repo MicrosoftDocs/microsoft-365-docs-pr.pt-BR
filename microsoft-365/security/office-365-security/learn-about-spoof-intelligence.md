@@ -20,12 +20,12 @@ ms.custom:
 description: Os administradores podem aprender sobre a inteligência de spoof no Exchange Online Protection (EOP), onde você pode permitir ou bloquear envios de spoofed específicos.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 482978e93325344d897fcf907b026743fc393d47
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: bdc68f5a7e1f21969f5cd787cfdb0b58bc26cd83
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50406635"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926907"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Configurar a inteligência de spoof no EOP
 
@@ -60,18 +60,18 @@ Você pode gerenciar a inteligência de spoof no Centro de Conformidade & Segura
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente à página de **Configurações antispam**, use <https://protection.office.com/antispam>. Para ir diretamente para a página **Anti-phishing,** use <https://protection.office.com/antiphishing> .
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa ter permissões atribuídas no **Exchange Online** antes de poder fazer os procedimentos neste artigo:
+- Você precisa de permissões em **Exchange Online** antes de poder realizar os procedimentos neste artigo:
   - Para modificar a política de inteligência de spoof ou habilitar ou  desabilitar a inteligência de spoof, você precisa ser membro dos grupos de função Gerenciamento da Organização ou Administrador **de** Segurança.
   - Para acesso somente leitura à política de inteligência de spoof, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
-  Para obter mais informações, confira [Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   **Observações**:
 
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração  do Microsoft 365 fornece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
 
 - Para nossas configurações recomendadas para a inteligência de spoof, consulte Configurações de política [anti-phishing](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings)padrão do EOP.
 
@@ -149,7 +149,7 @@ Este exemplo retorna informações detalhadas sobre todos os senders que têm pe
 Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 ```
 
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-phishfilterpolicy).
+Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Get-PhishFilterPolicy](/powershell/module/exchange/get-phishfilterpolicy).
 
 Para configurar os envios permitidos e bloqueados na inteligência de spoof, siga estas etapas:
 
@@ -171,7 +171,7 @@ Para configurar os envios permitidos e bloqueados na inteligência de spoof, sig
    Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSenders
    ```
 
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-phishfilterpolicy).
+Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-PhishFilterPolicy](/powershell/module/exchange/set-phishfilterpolicy).
 
 ## <a name="use-the-security--compliance-center-to-configure-spoof-intelligence"></a>Usar o Centro de Conformidade & segurança para configurar a inteligência de spoof
 

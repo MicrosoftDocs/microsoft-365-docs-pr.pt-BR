@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Saiba como criar uma política de tipo de informação confidenciais para sua organização usando a Criptografia de Mensagens do Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22aec87b149c58b2537f6921fb7c37552ef72f98
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: ad570f64122aecd245b912b1b6545a5950e838cc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741374"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927739"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>Criar uma política de tipo de informação confidenciais para sua organização usando a Criptografia de Mensagens
 
@@ -35,7 +35,7 @@ Entre no Centro de administração do Exchange (EAC) e acesse **Regras de fluxo 
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>Para criar a política usando regras de fluxo de emails no PowerShell
 
-Use uma conta de estudante ou de trabalho que tenha permissões globais de administrador em sua organização, inicie uma sessão de Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://aka.ms/exopowershell). Use os cmdlets Set-IRMConfiguration e New-TransportRule para criar a política.
+Use uma conta de estudante ou de trabalho que tenha permissões globais de administrador em sua organização, inicie uma sessão de Windows PowerShell e conecte-se ao Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Use os cmdlets Set-IRMConfiguration e New-TransportRule para criar a política.
 
 ## <a name="example-mail-flow-rule-created-with-powershell"></a>Regra de fluxo de emails de exemplo criada com o PowerShell
 
@@ -54,7 +54,7 @@ Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
 New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -SentToScope  NotInOrganization  -ApplyRightsProtectionTemplate "Encrypt" -MessageContainsDataClassifications @(@{Name="ABA Routing Number"; minCount="1"},@{Name="Credit Card Number"; minCount="1"},@{Name="Drug Enforcement Agency (DEA) Number"; minCount="1"},@{Name="U.S. / U.K. Passport Number"; minCount="1"},@{Name="U.S. Bank Account Number"; minCount="1"},@{Name="U.S. Individual Taxpayer Identification Number (ITIN)"; minCount="1"},@{Name="U.S. Social Security Number (SSN)"; minCount="1"}) -SenderNotificationType "NotifyOnly"
 ```
 
-Para obter mais informações, [consulte Set-IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-irmconfiguration) e [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/new-transportrule).
+Para obter mais informações, [consulte Set-IRMConfiguration](/powershell/module/exchange/set-irmconfiguration) e [New-TransportRule](/powershell/module/exchange/new-transportrule).
 
 ## <a name="how-recipients-access-attachments"></a>Como os destinatários acessam anexos
 
@@ -77,4 +77,4 @@ O Microsoft 365 audita essa atividade e a disponibiliza aos administradores. A o
 
 ## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>Para desabilitar ou personalizar a política de tipos de informações confidenciais
 
-Depois de criar a regra de fluxo [](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) de emails do Exchange, você pode desabilitar ou editar a regra indo para Regras de fluxo de email no Centro de administração do Exchange (EAC) e desabilitar a regra " Criptografar emails confidenciais de saída (regra de caixa de   >   *correio)*".
+Depois de criar a regra de fluxo [](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) de emails do Exchange, você pode desabilitar ou editar a regra indo para Regras de fluxo de email no Centro de administração do Exchange (EAC) e desabilitar a regra " Criptografar emails confidenciais de saída (regra de caixa de   >   *correio)*".

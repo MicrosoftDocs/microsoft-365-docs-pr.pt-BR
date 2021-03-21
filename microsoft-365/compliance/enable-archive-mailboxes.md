@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 ms.custom: seo-marvel-apr2020
 description: Aprenda a usar o centro de conformidade para habilitar o arquivamento de caixas de correio para dar suporte aos requisitos de retenção de mensagens, descoberta eletrônica e retenção de sua organização.
-ms.openlocfilehash: d7506b92cc16120f1d40a6d5a1744ab38d446a76
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 2bc80d347d1324a317cc2cc2712d475781adc492
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233811"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926511"
 ---
 # <a name="enable-archive-mailboxes-in-the-compliance-center"></a>Habilitar o arquivamento de caixas de correio no centro de conformidade
 
@@ -102,7 +102,7 @@ Para desabilitar uma caixa de correio de arquivo morto:
 
 Você também pode usar o PowerShell do Exchange Online para habilitar caixas de correio de arquivo morto. O principal motivo para usar o PowerShell é que você pode habilitar rapidamente a caixa de correio de arquivo morto para todos os usuários da sua organização.
 
-A primeira etapa é se conectar ao PowerShell do Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+A primeira etapa é se conectar ao PowerShell do Exchange Online. Para obter instruções, confira [Conectar-se ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
 Depois de se conectar ao Exchange Online, você pode executar os comandos nas seções a seguir para habilitar ou desabilitar as caixas de correio de arquivo morto.
 
@@ -150,8 +150,8 @@ Get-Mailbox -Filter {ArchiveGuid -Ne "00000000-0000-0000-0000-000000000000" -AND
 
 - Para obter mais informações sobre caixas de correio de arquivo morto e políticas de retenção do Exchange, consulte:
 
-  - [Marcas e políticas de retenção no Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
+  - [Marcas e políticas de retenção no Exchange Online](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
-  - [Política de Retenção Padrão no Exchange Online ](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/default-retention-policy)
+  - [Política de Retenção Padrão no Exchange Online ](/exchange/security-and-compliance/messaging-records-management/default-retention-policy)
 
   - [Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização](set-up-an-archive-and-deletion-policy-for-mailboxes.md)

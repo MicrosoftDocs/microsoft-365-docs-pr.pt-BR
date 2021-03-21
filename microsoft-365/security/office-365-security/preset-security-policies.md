@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a aplicar configurações de política padrão e estrita nos recursos de proteção do Exchange Online Protection (EOP) e do Microsoft Defender para Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b49b980d217d60865029c8e64ad02ed722f6b86e
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: b57c13517d9fd41bcafea5c9d672da0e6b581ad7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407451"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926755"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Políticas de segurança predefinidas no EOP e no Microsoft Defender para Office 365
 
@@ -107,13 +107,13 @@ Em outras palavras, as  configurações da política de  proteção estrita subs
 
 - Abra o Centro de Conformidade e Segurança em <https://protection.office.com/>. Para ir diretamente para a página **Políticas de segurança** predefinidas, use <https://protection.office.com/presetSecurityPolicies> .
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Você precisa ter permissões atribuídas no **Exchange Online** antes de poder fazer os procedimentos neste artigo:
+- Você precisa ter permissões em **Exchange Online** antes de fazer os procedimentos deste artigo:
   - Para configurar políticas de segurança predefinidas, você precisa ser membro dos grupos de função Gerenciamento da Organização **ou** **Administrador de** Segurança.
   - Para acesso somente leitura a políticas de segurança predefinidas, você precisa ser membro do grupo de função **Leitor Global.**
 
-  Para obter mais informações, confira [Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   **Observação**: Adicionar usuários à função correspondente do Azure Active Directory no Centro de  administração do Microsoft 365 fornece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 

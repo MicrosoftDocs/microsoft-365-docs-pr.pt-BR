@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 65fa24d0a69e43cbdb2deeed8362b83d6b097413
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: b245a0f7ca0845024fec0c498aca4c7d447f14ad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838354"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50928011"
 ---
 # <a name="define-information-barrier-policies"></a>Definir políticas de barreira de informações
 
@@ -60,7 +60,7 @@ Além das [licenças e](information-barriers.md#required-licenses-and-permission
 - Dados de diretório - Certifique-se de que a estrutura da sua organização se reflete nos dados de diretório. Para realizar essa ação, certifique-se de que os atributos da conta de usuário, como associação ao grupo, nome do departamento, etc. sejam preenchidos corretamente no Azure Active Directory (ou Exchange Online). Para saber mais, confira os seguintes recursos:
   - [Atributos das políticas de barreira de informações](information-barriers-attributes.md)
   - [Adicionar ou atualizar informações de perfil de um usuário usando o Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
-  - [Configurar propriedades da conta de usuário com o Office 365 PowerShell](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
+  - [Configurar propriedades da conta de usuário com o Office 365 PowerShell](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)
 
 - Pesquisa de diretório com escopo - Antes de definir a primeira política de barreira de informações da sua organização, você deve habilitar a pesquisa de diretório com escopo [no Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search). Aguarde pelo menos 24 horas após habilenciar a pesquisa de diretório com escopo antes de configurar ou definir políticas de barreira de informações.
 
@@ -124,7 +124,7 @@ Além da lista inicial de políticas, faça uma lista de segmentos para sua orga
 Determine quais atributos nos dados de diretório da sua organização você usará para definir segmentos. Você pode usar *Department*, *MemberOf* ou qualquer um dos atributos suportados. Certifique-se de que você tenha valores no atributo selecionado para usuários. [Consulte a lista de atributos com suporte para barreiras de informações.](information-barriers-attributes.md)
 
 > [!IMPORTANT]
-> **Antes de prosseguir para a próxima seção, certifique-se** de que seus dados de diretório têm valores para atributos que você pode usar para definir segmentos . Se os dados do diretório não têm valores para os atributos que você deseja usar, as contas de usuário devem ser atualizadas para incluir essas informações antes de prosseguir com as barreiras de informações. Para obter ajuda com isso, consulte os seguintes recursos:<br/>- [Configurar propriedades de conta de usuário com o Office 365 PowerShell](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)<br/>- [Adicionar ou atualizar informações de perfil de um usuário usando o Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> **Antes de prosseguir para a próxima seção, certifique-se** de que seus dados de diretório têm valores para atributos que você pode usar para definir segmentos . Se os dados do diretório não têm valores para os atributos que você deseja usar, as contas de usuário devem ser atualizadas para incluir essas informações antes de prosseguir com as barreiras de informações. Para obter ajuda com isso, consulte os seguintes recursos:<br/>- [Configurar propriedades de conta de usuário com o Office 365 PowerShell](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)<br/>- [Adicionar ou atualizar informações de perfil de um usuário usando o Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>Definir segmentos usando o PowerShell
 

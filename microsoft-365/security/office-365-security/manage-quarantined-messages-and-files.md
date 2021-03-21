@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários no Exchange Online Protection (EOP). Os administradores em organizações com o Microsoft Defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b0515d610b38986c2b5339c1cb967a7b150914a2
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 7fef752e8a02f7ed0dd4ed51854810a0d36d718b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50405813"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926791"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -47,19 +47,19 @@ Você visualiza e gerencia mensagens em quarentena no Centro de Conformidade & S
 
 - Para abrir o Centro de Conformidade e Segurança, acesse <https://protection.office.com>. Para abrir a página Quarentena imediatamente, vá para <https://protection.office.com/quarantine>.
 
-- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+- Para se conectar ao PowerShell do Exchange Online, confira [Conectar ao PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell). Para se conectar ao EOP PowerShell autônomo, consulte [Conectar-se ao PowerShell do Exchange Online Protection.](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Você precisa ter permissões atribuídas no **Exchange Online** antes de poder fazer os procedimentos neste artigo:
+- Você precisa de permissões em **Exchange Online** antes de poder realizar os procedimentos neste artigo:
   - Para tomar medidas em mensagens em quarentena para todos os usuários, você precisa ser membro dos grupos de função Gerenciamento da **Organização,** Administrador de Segurança **ou** Administrador **de** <sup>\*</sup> Quarentena.
   - Para acesso somente leitura a mensagens em quarentena para todos os usuários, você precisa ser membro dos grupos de função Leitor **Global** ou **Leitor de** Segurança.
 
-  Para obter mais informações, confira [Permissões no Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo).
+  Para obter mais informações, confira [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo).
 
   **Observações**:
 
-  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração  do Microsoft 365 fornece aos usuários as permissões e permissões necessárias para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
-  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
-  - <sup>\*</sup> Membros do grupo de função **Administrador** de Quarentena também precisam ser membros do grupo de função **Gerenciamento** de Higienização no [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups) para realizar procedimentos de quarentena no PowerShell do Exchange Online.
+  - Adicionar usuários à função correspondente do Azure Active Directory no Centro de administração do Microsoft 365 fornece aos usuários as permissões necessárias _e_ para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+  - O grupo de função **Gerenciamento de Organização Somente para Exibição** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) também fornece acesso somente leitura ao recurso.
+  - <sup>\*</sup> Membros do grupo de função **Administrador** de Quarentena também precisam ser membros do grupo de função **Gerenciamento** de Higienização no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) para realizar procedimentos de quarentena no PowerShell do Exchange Online.
 
 - As mensagens em quarentena são mantidas por um período de tempo padrão antes que sejam excluídas automaticamente:
   - 30 dias para mensagens em quarentena por políticas anti-spam (spam, phishing e email em massa). Esse é o valor padrão e máximo. Para configurar (mais baixo) esse valor, consulte [Configure anti-spam policies](configure-your-spam-filter-policies.md).
@@ -301,12 +301,12 @@ Quando você seleciona vários arquivos em quarentena na lista (até 100), o pai
 
 Os cmdlets que você usa para exibir e gerencia mensagens e arquivos em quarentena são:
 
-- [Delete-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/delete-quarantinemessage)
+- [Delete-QuarantineMessage](/powershell/module/exchange/delete-quarantinemessage)
 
-- [Export-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/export-quarantinemessage)
+- [Export-QuarantineMessage](/powershell/module/exchange/export-quarantinemessage)
 
-- [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage)
+- [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/preview-quarantinemessage): observe que esse cmdlet é apenas para mensagens, não arquivos de malware de Anexos Seguros para SharePoint, OneDrive e Microsoft Teams.
+- [Preview-QuarantineMessage](/powershell/module/exchange/preview-quarantinemessage): observe que esse cmdlet é apenas para mensagens, não arquivos de malware de Anexos Seguros para SharePoint, OneDrive e Microsoft Teams.
 
-- [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage)
+- [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)

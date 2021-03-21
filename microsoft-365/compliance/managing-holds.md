@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como colocar retém os custodiantes e suas fontes de dados para preservar conteúdo relevante para seu caso de Descoberta Avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fbad81e93635f823fab1c4f44867760d00fc59ed
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 07edcb2707d1dffecfa5a2aac6c4340ac6cbe53f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838582"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926369"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Gerenciar rescuções na Descoberta Avançada de EDiscovery
 
@@ -80,7 +80,7 @@ Para criar uma responsabilidade não custodial para um caso de Descoberta Avanç
       Consulte a **seção Perguntas frequentes** para saber mais sobre como colocar o Microsoft 365 Groups e o Microsoft Teams em espera.
 
       > [!NOTE]
-      > A URL da conta do OneDrive de um usuário inclui o nome principal do usuário (UPN) (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro de a UPN de uma pessoa ser alterada, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário faz parte de uma responsabilidade não custodiada e seu UPN é alterado, você precisa atualizar a responsabilidade e apontar para a nova URL do OneDrive. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
+      > A URL da conta do OneDrive de um usuário inclui o nome principal do usuário (UPN) (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro de a UPN de uma pessoa ser alterada, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário faz parte de uma responsabilidade não custodiada e seu UPN é alterado, você precisa atualizar a responsabilidade e apontar para a nova URL do OneDrive. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](/onedrive/upn-changes).
 
    1. **Pastas públicas do Exchange** - Mova a opção de alternância para a posição Todos para colocar todas as pastas públicas em sua organização do Exchange Online em espera. Observe que você não pode escolher pastas públicas específicas para colocar em espera. Deixe a opção de alternância definida como **Nenhuma** se você não quiser colocar uma espera em pastas públicas.
 
@@ -92,7 +92,7 @@ Para criar uma responsabilidade não custodial para um caso de Descoberta Avanç
 
     - Clique  **em Adicionar** condições para adicionar uma ou mais condições para restringir a consulta de pesquisa para a espera. Cada condição adiciona uma cláusula à consulta de pesquisa KQL criada e executado quando você cria a isenção. Por exemplo, você pode especificar um intervalo de datas para que os documentos de email ou site criados dentro do intervalo de datas sejam colocados em espera. Uma condição está logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) pelo operador AND. Isso significa que os itens devem atender à consulta de palavra-chave e à condição a ser colocada em espera.
 
-     Para obter mais informações sobre como criar uma consulta de pesquisa e usar condições, consulte [Keyword queries and search conditions for Content Search](https://docs.microsoft.com/office365/SecurityCompliance/keyword-queries-and-search-conditions).
+     Para obter mais informações sobre como criar uma consulta de pesquisa e usar condições, consulte [Keyword queries and search conditions for Content Search](/office365/SecurityCompliance/keyword-queries-and-search-conditions).
 
 11. Depois de configurar uma espera baseada em consulta, clique em **Próximo**.
 

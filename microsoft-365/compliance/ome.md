@@ -19,12 +19,12 @@ ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização.
-ms.openlocfilehash: 8d1803442428f3061c686afa0b790d3f468abde8
-ms.sourcegitcommit: 06d9e056eabfbac8fafe66cc32907b33d4ae8253
+ms.openlocfilehash: 504fa9918636cd596cde0d242083ccb7b9817e69
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741322"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50927709"
 ---
 # <a name="message-encryption"></a>Criptografia de Mensagens
 
@@ -36,7 +36,7 @@ Com a Criptografia de Mensagens do Office 365, sua organização pode enviar e r
 
 O restante deste artigo se aplica aos novos recursos OME.
 
-A Criptografia de Mensagens do Office 365 é um serviço online criado com base no Microsoft Azure Rights Management (Azure RMS), que faz parte da Proteção de Informações do Azure. Esse serviço inclui políticas de criptografia, identidade e autorização para ajudar a proteger seu email. Você pode criptografar mensagens usando modelos de gerenciamento de direitos, a [opção Não](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)Encaminhar e a opção [somente criptografar](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
+A Criptografia de Mensagens do Office 365 é um serviço online criado com base no Microsoft Azure Rights Management (Azure RMS), que faz parte da Proteção de Informações do Azure. Esse serviço inclui políticas de criptografia, identidade e autorização para ajudar a proteger seu email. Você pode criptografar mensagens usando modelos de gerenciamento de direitos, a [opção Não](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)Encaminhar e a opção [somente criptografar](/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
 
 Os usuários podem criptografar mensagens de email e vários anexos usando essas opções. Para uma lista completa de tipos de anexos com suporte, consulte "Tipos de arquivo cobertos por políticas de IRM quando estão anexados a [mensagens" em Introdução](https://support.office.com/article/bb643d33-4a3f-4ac7-9770-fd50d95f58dc#FileTypesforIRM)ao IRM para mensagens de email .
 
@@ -54,7 +54,7 @@ Os usuários finais que leem emails criptografados ou protegidos por direitos em
 
 Se o remetente do email protegido estiver no GCC High e o destinatário estiver fora do GCC High, incluindo usuários comerciais, Outlook.com usuários e usuários de outros provedores de email, como o Gmail, o destinatário receberá um email de wrapper. O email do wrapper direciona o destinatário para o Portal OME onde o destinatário é capaz de ler e responder à mensagem. Caso contrário, se o remetente e o destinatário estão no ambiente GCC High, mesmo que não esteja na mesma organização, os destinatários que usam clientes do Outlook para ler emails recebem experiências nativas de leitura de primeira classe para emails criptografados e protegidos por direitos. Para obter mais informações sobre a experiência diferente no GCC High, consulte [Comparar versões do OME](ome-version-comparison.md).
 
-Para obter mais informações sobre limites de tamanho para mensagens e anexos que você pode criptografar usando o OME, consulte [Limites do Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
+Para obter mais informações sobre limites de tamanho para mensagens e anexos que você pode criptografar usando o OME, consulte [Limites do Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 ## <a name="how-office-365-advanced-message-encryption-works-on-top-of-ome"></a>Como funciona a Criptografia Avançada de Mensagens do Office 365 em cima do OME
 
