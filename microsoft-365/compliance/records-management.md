@@ -21,16 +21,16 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Com o gerenciamento de registros no Microsoft 365, você pode aplicar seus agendamentos de retenção em um plano de arquivo que gerencia a retenção, a declaração e a disposição dos registros.
-ms.openlocfilehash: 857f8118bb2cc0f94065a8b8696c92bd3ae05cc4
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: 4f07732e403d711e2fa89bfb7c61c9eadfb2bd0b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461846"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50926179"
 ---
 # <a name="learn-about-records-management-in-microsoft-365"></a>Saiba mais sobre gerenciamento de registros no Microsoft 365
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Organizações de todos os tipos exigem uma solução de gerenciamento de registros para gerenciar registros reguladores, jurídicos e corporativos em seus dados corporativos. O gerenciamento de registros no Microsoft 365 ajuda a sua organização a gerenciar suas obrigações legais, oferecer a capacidade de demonstrar a conformidade com as regulamentações e aumentar a eficiência com o descarte regular de itens que não precisam mais ser mantidos, não são mais importantes ou obrigatórios para fins comerciais.
 
@@ -94,9 +94,7 @@ Notas de rodapé:
 
 <sup>1</sup> Com suporte do OneDrive e Exchange, mantendo uma cópia em um local seguro, mas bloqueado pelo SharePoint.
 
-Mensagem que um usuário vê se tentar excluir um documento rotulado no SharePoint:
-
-![Mensagem informando que o item não foi excluído do SharePoint](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
+Quando você aplica um rótulo de retenção a um item de lista que tem um anexo de documento, esse documento não herda as configurações de retenção e pode ser excluído do item da lista. Em comparação, se esse item da lista fosse declarado um registro com um rótulo de retenção, o anexo do documento herdaria as configurações de retenção e não poderia ser excluído. 
 
 <sup>2</sup> Os contêineres incluem bibliotecas de documentos do SharePoint, contas do OneDrive e caixas de correio do Exchange.
 
