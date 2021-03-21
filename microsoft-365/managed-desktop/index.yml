@@ -10,21 +10,21 @@ metadata:
   author: jaimeo
   ms.author: jaimeo
   ms.date: 12/04/2020
-  ms.openlocfilehash: 59d8d4ae0986af58c086ea08f486feca5cb23f71
-  ms.sourcegitcommit: 9d5ddfc856926ce6919498c9c42a7421fef78328
+  ms.openlocfilehash: b2feb587c93d9bc6f0bc208ad48f3bfff8266d5a
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 12/04/2020
-  ms.locfileid: "49576770"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50920627"
 landingContent:
 - title: Sobre a Área de Trabalho Gerenciada da Microsoft
   linkLists:
   - linkListType: overview
     links:
     - text: O que é a Área de Trabalho Gerenciada da Microsoft?
-      url: /microsoft-365/managed-desktop/intro/
+      url: ./intro/index.md
     - text: Descrição do serviço
-      url: /microsoft-365/managed-desktop/service-description
+      url: ./service-description/index.md
   - linkListType: get-started
     links:
     - text: Prepare-se
@@ -32,7 +32,7 @@ landingContent:
     - text: Comece
       url: get-started/index.md
     - text: Trabalhar com a Área de Trabalho Gerenciada da Microsoft
-      url: /microsoft-365/managed-desktop/working-with-managed-desktop/
+      url: ./working-with-managed-desktop/index.md
 - title: Artigos e postagens de blog
   linkLists:
   - linkListType: learn
