@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Use rótulos de confidencialidade para proteger o conteúdo nos sites do SharePoint, Microsoft Teams e grupos do Microsoft 365.
-ms.openlocfilehash: 3565b47e21d81b4b3d560d72a29f2deae9587709
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: 501df9b167e917d79957d8b156597af67e6240af
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407311"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919577"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Além de usar [rótulos de confidencialidade](sensitivity-labels.md) para classificar e proteger documentos e emails, você também pode usar rótulos de confidencialidade para proteger o conteúdo nos seguintes contêineres: sites de Microsoft Teams, grupos de Microsoft 365 groups ([antigos grupos do Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) e sites do SharePoint. Para a classificação e a proteção de nível de contêiner, use as seguintes configurações de etiqueta:
 
@@ -57,7 +57,7 @@ Depois de habilitar e configurar os rótulos de confidencialidade para os contê
 
 ## <a name="how-to-enable-sensitivity-labels-for-containers-and-synchronize-labels"></a>Como habilitar rótulos de confidencialidade para contêineres e sincronizar rótulos
 
-1. Como esse recurso usa a funcionalidade do Azure Active Directory, siga as instruções na documentação do Azure Active Directory para habilitar o suporte de rótulos de confidencialidade: [Atribuir rótulos de confidencialidade aos grupos do Microsoft 365 no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
+1. Como esse recurso usa a funcionalidade do Azure Active Directory, siga as instruções na documentação do Azure Active Directory para habilitar o suporte de rótulos de confidencialidade: [Atribuir rótulos de confidencialidade aos grupos do Microsoft 365 no Azure Active Directory](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
 2. Agora, você precisa sincronizar seus rótulos de sensibilidade com o Azure Active Directory. Primeiro, [conecte-se ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
@@ -100,9 +100,9 @@ Ativar rótulos de confidencialidade para contêineres significa que agora você
 
 4. Se você selecionou **Acesso ao dispositivo e configuração de compartilhamento externo**, agora defina as seguintes configurações:
     
-    - **Controle o compartilhamento externo de sites rotulados do Microsoft Office SharePoint Online**: Selecione esta opção para selecionar o compartilhamento externo para qualquer pessoa, convidados novos e existentes, convidados existentes ou apenas pessoas em sua organização. pessoas em sua organização. Para obter mais informações sobre essa configuração e definições, confira a documentação do Microsoft Office SharePoint Online, [Ativar ou desativar o compartilhamento externo para um site](https://docs.microsoft.com/sharepoint/change-external-sharing-site).
+    - **Controle o compartilhamento externo de sites rotulados do Microsoft Office SharePoint Online**: Selecione esta opção para selecionar o compartilhamento externo para qualquer pessoa, convidados novos e existentes, convidados existentes ou apenas pessoas em sua organização. pessoas em sua organização. Para obter mais informações sobre essa configuração e definições, confira a documentação do Microsoft Office SharePoint Online, [Ativar ou desativar o compartilhamento externo para um site](/sharepoint/change-external-sharing-site).
     
-    - **Acesso de dispositivos não gerenciados**: esta opção usa o recurso do Microsoft Office SharePoint Online que usa o acesso condicional do Microsoft Azure Active Directory para bloquear ou limitar o acesso ao conteúdo do Microsoft Office SharePoint Online e OneDrive de dispositivos não gerenciados. Para obter mais informações, consulte [Controle de acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices) na documentação do Microsoft Office SharePoint Online. A opção que você especifica para esta configuração de rótulo é o equivalente a executar um comando Windows PowerShell para um site, conforme descrito nas etapas 3 a 5 de [Bloquear ou limitar o acesso a um site específico do Microsoft Office SharePoint Online ou seção OneDrive](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) das instruções do Microsoft Office SharePoint Online.
+    - **Acesso de dispositivos não gerenciados**: esta opção usa o recurso do Microsoft Office SharePoint Online que usa o acesso condicional do Microsoft Azure Active Directory para bloquear ou limitar o acesso ao conteúdo do Microsoft Office SharePoint Online e OneDrive de dispositivos não gerenciados. Para obter mais informações, consulte [Controle de acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices) na documentação do Microsoft Office SharePoint Online. A opção que você especifica para esta configuração de rótulo é o equivalente a executar um comando Windows PowerShell para um site, conforme descrito nas etapas 3 a 5 de [Bloquear ou limitar o acesso a um site específico do Microsoft Office SharePoint Online ou seção OneDrive](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive) das instruções do Microsoft Office SharePoint Online.
         
         Para obter informações adicionais, consulte [Mais informações sobre as dependências da opção de dispositivos não gerenciados](#more-information-about-the-dependencies-for-the-unmanaged-devices-option) no final desta seção.
 
@@ -113,7 +113,7 @@ Se o seu rótulo de confidencialidade ainda não estiver publicado, publique-o a
 
 ##### <a name="more-information-about-the-dependencies-for-the-unmanaged-devices-option"></a>Mais informações sobre as dependências da opção de dispositivos não gerenciados
 
-Se você não configurar a política de acesso condicional dependente conforme documentado em [Usar restrições impostas do aplicativo](https://docs.microsoft.com/sharepoint/app-enforced-restrictions), a opção que você especificar aqui não terá efeito. Além disso, não terá efeito se for menos restritivo do que a configuração definida ao nível do locatário. Se você definiu uma configuração em toda a organização para dispositivos não gerenciados, escolha uma configuração de rótulo que seja igual ou mais restritiva
+Se você não configurar a política de acesso condicional dependente conforme documentado em [Usar restrições impostas do aplicativo](/sharepoint/app-enforced-restrictions), a opção que você especificar aqui não terá efeito. Além disso, não terá efeito se for menos restritivo do que a configuração definida ao nível do locatário. Se você definiu uma configuração em toda a organização para dispositivos não gerenciados, escolha uma configuração de rótulo que seja igual ou mais restritiva
 
 Por exemplo, se seu locatário estiver configurado para **Permitir acesso limitado apenas à Web**, a configuração de rótulo que permite acesso total não terá efeito porque é menos restritiva. Para esta configuração de nível de locatário, escolha a configuração de rótulo para bloquear o acesso (mais restritiva) ou a configuração de rótulo para acesso limitado (a mesma que a configuração do locatário).
 
@@ -175,17 +175,17 @@ Você pode usar o Windows PowerShell se precisar [aplicar um rótulo de confiden
 
 Agora você está pronto para aplicar os rótulos ou rótulos de confidencialidade aos grupos do Microsoft 365. Retorne à documentação do Azure AD para obter instruções:
 
-- [Atribuir um rótulo a um novo grupo no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-a-new-group-in-azure-portal)
+- [Atribuir um rótulo a um novo grupo no portal do Azure](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-a-new-group-in-azure-portal)
 
-- [Atribuir um rótulo a um grupo existente no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal)
+- [Atribuir um rótulo a um grupo existente no portal do Azure](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal)
 
-- [Remover um rótulo de um grupo existente no portal do Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#remove-a-label-from-an-existing-group-in-azure-portal).
+- [Remover um rótulo de um grupo existente no portal do Azure](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#remove-a-label-from-an-existing-group-in-azure-portal).
 
 ### <a name="apply-a-sensitivity-label-to-a-new-team"></a>Aplicar um rótulo de confidencialidade a uma nova equipe
 
 Os usuários podem selecionar os rótulos de confidencialidade ao criar novas equipes no Microsoft Teams. Quando eles selecionam o rótulo na lista suspensa **Confidencialidade**, a configuração de privacidade pode mudar para refletir a configuração de rótulo. Dependendo da configuração de acesso de usuários externos que você selecionou para o rótulo, os usuários podem ou não adicionar pessoas de fora da organização à equipe.
 
-[Saiba mais sobre Rótulos de confidencialidade](https://docs.microsoft.com/microsoftteams/sensitivity-labels)
+[Saiba mais sobre Rótulos de confidencialidade](/microsoftteams/sensitivity-labels)
 
 ![A configuração de privacidade ao criar uma nova equipe](../media/privacy-setting-new-team.png)
 
@@ -215,19 +215,19 @@ Quando o rótulo é aplicado e os usuários navegam no site, eles veem o nome do
 
 ### <a name="use-powershell-to-apply-a-sensitivity-label-to-multiple-sites"></a>Usar o Windows PowerShell para aplicar um rótulo de confidencialidade a vários sites
 
-Você pode usar o cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) e [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) com o parâmetro *SensitivityLabel* do atual [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) para aplicar um rótulo de confidencialidade a vários sites. Os sites podem ser um conjunto de sites do Microsoft Office SharePoint Online ou um site do OneDrive.
+Você pode usar o cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) e [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) com o parâmetro *SensitivityLabel* do atual [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) para aplicar um rótulo de confidencialidade a vários sites. Os sites podem ser um conjunto de sites do Microsoft Office SharePoint Online ou um site do OneDrive.
 
 Verifique se você tem a versão 16.0.19418.12000 ou posterior do Shell de gerenciamento do SharePoint Online.
 
 1. Abra uma sessão do Windows PowerShell com a opção **Executar como administrador**.
 
-2. Se você não souber o GUID de seu rótulo: [Conectar ao Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) e obter a lista de rótulos de confidencialidade e seus GUIDs.
+2. Se você não souber o GUID de seu rótulo: [Conectar ao Centro de Segurança e Conformidade do PowerShell](/powershell/exchange/connect-to-scc-powershell) e obter a lista de rótulos de confidencialidade e seus GUIDs.
 
    ```powershell
    Get-Label |ft Name, Guid
    ```
 
-3. Agora [conectar-se ao SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) e armazenar o GUID de seu rótulo como uma variável. Por exemplo:
+3. Agora [conectar-se ao SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) e armazenar o GUID de seu rótulo como uma variável. Por exemplo:
 
    ```powershell
    $Id = [GUID]("e48058ea-98e8-4940-8db0-ba1310fd955e")
@@ -301,7 +301,7 @@ Os seguintes aplicativos e serviços não oferecem suporte as etiquetas de confi
 
 O Microsoft 365 não oferece mais suporte às classificações antigas para novos grupos do Microsoft 365 e sites do SharePoint quando você habilita os rótulos de confidencialidade para contêineres. No entanto, os grupos e sites existentes que oferecem suporte a rótulos de confidencialidade ainda exibem os valores de classificação antigos, até que você os converta para usar rótulos de confidencialidade.
 
-Como um exemplo de como você pode ter usado a classificação de grupo antiga do SharePoint, confira [Classificação de sites “moderna”](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
+Como um exemplo de como você pode ter usado a classificação de grupo antiga do SharePoint, confira [Classificação de sites “moderna”](/sharepoint/dev/solution-guidance/modern-experience-site-classification).
 
 Essas classificações foram configuradas usando o Azure AD PowerShell ou a biblioteca Principal do PnP e definindo valores para a configuração do `ClassificationList`. Se seu locatário tiver valores de classificação definidos, eles serão mostrados quando você executar o seguinte comando no [módulo AzureADPreview PowerShell](https://www.powershellgallery.com/packages/AzureADPreview):
 
@@ -331,7 +331,7 @@ Para ajudar você a gerenciar a coexistência de rótulos de sensibilidade e cla
 
    Por exemplo, em uma sessão do PowerShell que você executa como administrador, entre com uma conta de administrador global:
 
-2. Obtenha a lista de rótulos de confidencialidade e suas GUIDs usando o cmdlet [Get-Label](https://docs.microsoft.com/powershell/module/exchange/get-label):
+2. Obtenha a lista de rótulos de confidencialidade e suas GUIDs usando o cmdlet [Get-Label](/powershell/module/exchange/get-label):
 
    ```powershell
    Get-Label |ft Name, Guid
@@ -339,7 +339,7 @@ Para ajudar você a gerenciar a coexistência de rótulos de sensibilidade e cla
 
 3. Anote o GUIDe dos rótulos de confidencialidade que você deseja aplicar a seus grupos do Microsoft 365.
 
-4. Agora [conecte-se ao Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) em uma janela separada do Windows PowerShell.
+4. Agora [conecte-se ao Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) em uma janela separada do Windows PowerShell.
 
 5. Use o seguinte comando como exemplo para obter a lista de grupos que atualmente têm a classificação "Geral":
 
@@ -377,13 +377,13 @@ Todos esses eventos podem ser encontrados na categoria [Atividades de rótulo de
 
 ## <a name="how-to-disable-sensitivity-labels-for-containers"></a>Como desabilitar os rótulos de confidencialidade para contêineres
 
-Você pode desativar os rótulos de confidencialidade do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint usando as mesmas instruções de [Habilitar o suporte a rótulo de confidencialidade no PowerShell](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). No entanto, para desabilitar o recurso, na etapa 5, especifique `$setting["EnableMIPLabels"] = "False"`.
+Você pode desativar os rótulos de confidencialidade do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint usando as mesmas instruções de [Habilitar o suporte a rótulo de confidencialidade no PowerShell](/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). No entanto, para desabilitar o recurso, na etapa 5, especifique `$setting["EnableMIPLabels"] = "False"`.
 
 Além de tornar todas as configurações não disponíveis para grupos e sites ao criar ou editar rótulos de confidencialidade, esta ação reverte a propriedade que os contêineres usam para sua configuração. Habilitar rótulos de confidencialidade para o Microsoft Teams, o Microsoft 365 Groups, e os sites do SharePoint altera a propriedade usada de **Classificação** (usada para [classificação de grupo do Azure Active Direcroty](#classic-azure-ad-group-classification)) para **Confidencialidade**. Quando você desabilita os rótulos de confidencialidade para contêineres, os contêineres ignoram a propriedade Confidencialidade e usam novamente a propriedade de Classificação.
 
 Isso significa que todas as configurações de rótulo de sites e grupos aplicados anteriormente aos contêineres não serão forçadas e os contêineres não exibirão mais os rótulos.
 
-Se esses contêineres tiverem valores de classificação do Azure Active Directory aplicados, eles voltarão a usar as classificações novamente. Lembre-se de que todos os novos sites ou grupos criados depois de habilitar o recurso não exibirão um rótulo ou terão uma classificação. Para esses contêineres e todos os novos contêineres, você pode aplicar valores de classificação. Para saber mais, confira [Classificação de sites modernos do Microsoft Office SharePoint Online](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification) e [Criar classificações para grupos do Office em sua organização](https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell).
+Se esses contêineres tiverem valores de classificação do Azure Active Directory aplicados, eles voltarão a usar as classificações novamente. Lembre-se de que todos os novos sites ou grupos criados depois de habilitar o recurso não exibirão um rótulo ou terão uma classificação. Para esses contêineres e todos os novos contêineres, você pode aplicar valores de classificação. Para saber mais, confira [Classificação de sites modernos do Microsoft Office SharePoint Online](/sharepoint/dev/solution-guidance/modern-experience-site-classification) e [Criar classificações para grupos do Office em sua organização](../enterprise/manage-microsoft-365-groups-with-powershell.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

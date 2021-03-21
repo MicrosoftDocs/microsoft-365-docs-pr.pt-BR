@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre funciona a retenção para o SharePoint e o OneDrive.
-ms.openlocfilehash: dd1260df23579ad2e6605805bafe9e36d2274a8e
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 448f3e8e2ab827527b02263fea2b07de4b345dc1
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727396"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919767"
 ---
 # <a name="learn-about-retention-for-sharepoint-and-onedrive"></a>Saiba mais sobre retenção para o SharePoint e o OneDrive
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 As informações contidas neste artigo complementam [Saiba mais sobre retenção](retention.md) porque são informações específicas para o SharePoint e o OneDrive.
 
@@ -49,7 +49,11 @@ Os seguintes arquivos podem ser excluídos:
 > [!TIP]
 > Ao usar uma [consulta com uma política de aplicação automática para um rótulo de retenção](apply-retention-labels-automatically.md#auto-apply-labels-to-content-with-keywords-or-searchable-properties), você pode excluir bibliotecas de documentos usando a seguinte entrada: `NOT(DocumentLink:"<URL to document library>")`
 
-Os itens da lista não são compatíveis com as políticas de retenção, mas são compatíveis com os rótulos de retenção, com exceção dos itens nas listas do sistema. Essas são listas ocultas usadas pelo Microsoft Office SharePoint Online para gerenciar o sistema e incluem o catálogo da página mestra, o catálogo de soluções e as fontes de dados.
+Os itens da lista não são compatíveis com as políticas de retenção, mas são compatíveis com os rótulos de retenção, com exceção dos itens nas listas do sistema. Essas são listas ocultas usadas pelo Microsoft Office SharePoint Online para gerenciar o sistema e incluem o catálogo da página mestra, o catálogo de soluções e as fontes de dados. Quando você aplica um rótulo de retenção a um item de lista compatível que tem um anexo de documento:
+- Para uma etiqueta de retenção padrão (não declara o item como um registro):
+    - O anexo do documento não herda automaticamente as configurações de retenção do rótulo, mas pode ser rotulado de forma independente.
+- Para uma etiqueta de retenção que declara o item um registro: 
+    - O anexo do documento herda automaticamente as configurações de retenção da etiqueta se o documento ainda não estiver etiquetado.
 
 As configurações de retenção de políticas de retenção e rótulos de retenção não se aplicam a estruturas de organização que incluem bibliotecas, listas e pastas.
 

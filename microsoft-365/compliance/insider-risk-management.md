@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: b98d2385ee0ae130df115c85010366a5100ab78d
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 30363b544d9016b10dd9aad463d33c40065da0f3
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838442"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919807"
 ---
 # <a name="learn-about-insider-risk-management-in-microsoft-365"></a>Saiba mais sobre o gerenciamento de riscos insider no Microsoft 365
 
@@ -125,7 +125,6 @@ Depois que os casos são investigados, os revisadores podem agir rapidamente par
 Nas situações mais sérias, talvez seja necessário compartilhar as informações de caso de gerenciamento de riscos insider com outros revisadores ou serviços em sua organização. O gerenciamento de riscos do Insider está fortemente integrado a outras soluções de conformidade do Microsoft 365 para ajudá-lo com a resolução de risco de ponta a ponta.
 
 - **Descoberta Eletrônica Avançada**: a escalada de um caso para investigação permite transferir dados e gerenciamento do caso para a Descoberta Eletrônica Avançada no Microsoft 365. A Descoberta Externa Avançada fornece um fluxo de trabalho de ponta a ponta para preservar, coletar, revisar, analisar e exportar conteúdo que responde às investigações internas e externas da sua organização. Ele permite que as equipes legais gerenciem todo o fluxo de trabalho de notificação de espera legal. Para saber mais sobre os casos de Descoberta Avançada de Descoberta e, consulte [Overview of Advanced eDiscovery in Microsoft 365](overview-ediscovery-20.md).
-- **ServiceNow (visualização)**: ServiceNow é uma plataforma de computação em nuvem popular que ajuda as organizações a gerenciar fluxos de trabalho digitais para operações corporativas. O gerenciamento de riscos insider dá suporte ao compartilhamento de alertas de caso com seu serviço ServiceNow e permite que você crie incidentes e altere solicitações relacionadas a casos de risco interno individuais. Para saber mais sobre como compartilhar informações de alerta com ServiceNow, consulte [Compartilhar uma ocorrência com ServiceNow](insider-risk-management-cases.md#share-the-case).
 - Integração de APIs de Gerenciamento do **Office 365 (visualização)**: O gerenciamento de riscos do Insider dá suporte à exportação de informações de alerta para serviços de gerenciamento de informações de segurança e de eventos (SIEM) por meio das APIs de Gerenciamento do Office 365. Ter acesso às informações de alerta na plataforma é o melhor para os processos de risco da sua organização, dando mais flexibilidade em como agir em atividades de risco. Para saber mais sobre como exportar informações de alerta com APIs de Gerenciamento do Office 365, consulte [Exportar alertas](insider-risk-management-settings.md#export-alerts-preview).
 
 >[!NOTE]

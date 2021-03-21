@@ -12,17 +12,17 @@ localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para administradores do Microsoft Exchange Online Protection (EOP).
+description: Neste artigo, você aprenderá sobre relatórios e ferramentas de solução de problemas disponíveis para administradores Microsoft Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 783c7ea0aca47c805daf66592b401a98f739d071
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 1307fa1431a4fdd46c9ab070a2986a015891568f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50288074"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918673"
 ---
-# <a name="reporting-and-message-trace-in-eop"></a>Rastreamento de mensagens e relatórios no EOP
+# <a name="reporting-and-message-trace-in-eop"></a>Rastreamento de relatórios e mensagens no EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -31,17 +31,17 @@ ms.locfileid: "50288074"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece muitos relatórios diferentes que podem ajudá-lo a determinar o status e a saúde gerais da sua organização. Existem também ferramentas que ajudam você a solucionar problemas com eventos específicos (tais como uma mensagem que não chega aos destinatários pretendidos), e relatórios de auditoria para ajudar nos requisitos de conformidade.
+Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, o EOP oferece muitos relatórios diferentes que podem ajudá-lo a determinar o status geral e a saúde da sua organização. Existem também ferramentas que ajudam você a solucionar problemas com eventos específicos (tais como uma mensagem que não chega aos destinatários pretendidos), e relatórios de auditoria para ajudar nos requisitos de conformidade.
 
 ## <a name="usage-reports"></a>Relatórios de uso
 
-**Atividade de grupos do Microsoft 365:** exibir informações sobre o número de grupos do Microsoft 365 criados e usados.
+**Atividade de grupos do Microsoft 365**: Exibir informações sobre o número de grupos do Microsoft 365 criados e usados.
 
-**Atividade de** email: exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda a organização e por usuários específicos.
+**Atividade de email**: Exibir informações sobre o número de mensagens enviadas, recebidas e lidas em toda a organização e por usuários específicos.
 
-**Uso do aplicativo de** email: exibir informações sobre os aplicativos de email usados. Isso inclui o número total de conexões para cada aplicativo, e as versões do Outlook que estão se conectando.
+**Uso do aplicativo de** email : Exibir informações sobre os aplicativos de email usados. Isso inclui o número total de conexões para cada aplicativo, e as versões do Outlook que estão se conectando.
 
-**Uso da caixa** de correio: Exibir informações sobre armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio.
+**Uso da** caixa de correio : Exibir informações sobre armazenamento usado, consumo de cota, contagem de itens e última atividade (atividade de envio ou leitura) para caixas de correio.
 
 Veja os seguintes recursos para obter mais informações:
 
@@ -55,17 +55,17 @@ Veja os seguintes recursos para obter mais informações:
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Relatórios & conformidade de segurança no centro de administração do Microsoft 365
 
-Esses relatórios aprimorados fornecem uma experiência interativa de relatório para administradores do EOP, que inclui informações resumidas e a capacidade de fazer buscas mais detalhes.
+Esses relatórios aprimorados fornecem uma experiência interativa de relatórios para os administradores do EOP, que inclui informações resumidas e a capacidade de detalhar para obter mais detalhes.
 
-**Defender para Office 365:** exibir informações sobre Links seguros e anexos seguros que fazem parte do Microsoft Defender para Office 365.
+**Defender for Office 365**: Exibir informações sobre Links Seguros e Anexos Seguros que fazem parte do Microsoft Defender para Office 365.
 
-**EOP**: exibir informações sobre detecções de malware, emails falsas, detecções de spam e fluxo de emails de e para sua organização.
+**EOP**: Exibir informações sobre detecções de malware, emails empoados, detecções de spam e fluxo de emails de e para sua organização.
 
 [Exibir relatórios do Defender para Office 365](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Relatórios personalizados usando o Microsoft Graph
 
-Crie programaticamente relatórios que estão disponíveis no centro de administração usando o Microsoft Graph. Para saber mais, confira [Visão geral do Microsoft Graph](https://docs.microsoft.com/graph/overview) e como trabalhar com relatórios de uso do Office [365 no Microsoft Graph.](https://docs.microsoft.com/graph/api/resources/report)
+Crie relatórios programaticamente disponíveis no centro de administração usando o Microsoft Graph. Para obter mais informações, consulte [Overview of Microsoft Graph](/graph/overview) and Working with Office [365 usage reports in Microsoft Graph](/graph/api/resources/report).
 
 ## <a name="message-trace"></a>Rastreamento de mensagens
 
@@ -93,4 +93,4 @@ A tabela a seguir descreve quando dados de relatórios e rastreamento de mensage
 |
 
 > [!NOTE]
-> A disponibilidade e a latência de dados são as mesmas, sejam solicitadas por meio do centro de administração ou do PowerShell remoto.
+> A disponibilidade e a latência de dados são as mesmas solicitadas por meio do centro de administração ou do PowerShell remoto.

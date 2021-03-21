@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como modificar um esquema EDM para usar a correspondência configurável.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2211e4d99d97fcce241a5f4c3ea7c9d8122ca9d7
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: e00466e4648ebe93f0658383515d1543f858e1b0
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49656794"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919367"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>Modificar o esquema de Correspondência de Dados Exato para usar a correspondência configurável
 
@@ -101,7 +101,7 @@ O sinalizador `ignoredDelimiters` não tem suporte para:
 - \"
 - \,
 
-6. Conectar ao centro de Conformidade e Segurança usando os procedimentos em [Conectar ao Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+6. Conectar ao centro de Conformidade e Segurança usando os procedimentos em [Conectar ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 7. Atualize o esquema executando estes cmdlets um de cada vez:
 
@@ -129,7 +129,7 @@ O sinalizador `ignoredDelimiters` não tem suporte para:
 
 - Confira [Criar um tipo de informações confidenciais personalizadas com classificação baseada em Correspondência de Dados Exata](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 - [Definições da entidade do tipo de informações confidenciais](sensitive-information-type-entity-definitions.md)
-- [Tipos personalizados de informações confidenciais](custom-sensitive-info-types.md)
+- [Tipos personalizados de informações confidenciais](./sensitive-information-type-learn-about.md)
 - [Visão geral das políticas DLP](data-loss-prevention-policies.md)
-- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
-- [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema)
+- [Microsoft Cloud App Security](/cloud-app-security)
+- [New-DlpEdmSchema](/powershell/module/exchange/new-dlpedmschema)

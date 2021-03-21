@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: Etapas de migração dos Serviços de Federação do Active Directory (AD FS) para a migração do Microsoft Cloud Deutschland.'
-ms.openlocfilehash: 852fc8f93158d7b6080f1add5a05e7367539f889
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 146f476a43e46925d87763a800467bf52adc73e5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838408"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918901"
 ---
 # <a name="ad-fs-migration-steps-for-the-migration-from-microsoft-cloud-deutschland"></a>Etapas de migração do AD FS para a migração do Microsoft Cloud Deutschland
 
@@ -89,7 +89,8 @@ Você pode usar [a Ajuda do AD FS](https://adfshelp.microsoft.com/AadTrustClaims
 
 ## <a name="ad-fs-disaster-recovery-wid-database"></a>Recuperação de Desastre do AD FS (Banco de Dados WID)
 
-Para restaurar o farm do AD FS em um desastre, a Ferramenta de Restauração Rápida do [AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) precisa ser aproveitada. Portanto, a ferramenta deve ser baixada e, antes do início da migração, um backup deve ser criado e armazenado com segurança. Neste exemplo, os seguintes comandos foram executados para fazer o back up de um farm em execução em um banco de dados WID:
+
+Para restaurar o farm do AD FS em um desastre, a Ferramenta de Restauração Rápida do [AD FS](/windows-server/identity/ad-fs/operations/ad-fs-rapid-restore-tool) precisa ser aproveitada. Portanto, a ferramenta deve ser baixada e, antes do início da migração, um backup deve ser criado e armazenado com segurança. Neste exemplo, os seguintes comandos foram executados para fazer o back up de um farm em execução em um banco de dados WID:
 
 <h2 id="backup"></h2>
 
@@ -127,7 +128,7 @@ Se o farm falhou completamente e não há como retornar ao farm antigo, faça o 
 3. Aponte seus novos registros DNS ou balanceador de carga para os novos servidores do AD FS.
 
 
-## <a name="more-information"></a>Mais Informações
+## <a name="more-information"></a>Mais informações
 
 Como começar:
 
@@ -144,6 +145,6 @@ Movendo-se pela transição:
 
 Aplicativos de nuvem:
 
-- [Informações do programa de migração do Dynamics 365](https://aka.ms/d365ceoptin)
-- [Informações do programa de migração do Power BI](https://aka.ms/pbioptin)
-- [Introdução à atualização do Microsoft Teams](https://aka.ms/SkypeToTeams-Home)
+- [Informações do programa de migração do Dynamics 365](/dynamics365/get-started/migrate-data-german-region)
+- [Informações do programa de migração do Power BI](/power-bi/admin/service-admin-migrate-data-germany)
+- [Introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here)

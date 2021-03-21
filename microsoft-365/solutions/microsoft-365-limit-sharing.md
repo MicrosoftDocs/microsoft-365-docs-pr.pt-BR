@@ -19,12 +19,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Saiba mais sobre as opções para limitar ou desabilitar o compartilhamento no Microsoft 365.
-ms.openlocfilehash: 388d354886805f593b1c7815f16d1e0156e12fe0
-ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
+ms.openlocfilehash: 46cef1aac6d3387366a5e8ce9f9c1129f6c83e61
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50233525"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920199"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Limitar o compartilhamento no Microsoft 365
 
@@ -35,7 +35,7 @@ Os métodos de compartilhamento de arquivos são listados na tabela a seguir. Cl
 |Método de compartilhamento|Descrição|Limitando opções|
 |:-------------|:----------|:-------------|
 |[Grupo ou equipe do Microsoft 365](#microsoft-365-group-or-team)|As pessoas com acesso a uma equipe do Microsoft Teams ou ao grupo do Microsoft 365 têm acesso à edição de arquivos no site associado do SharePoint.|Se o grupo ou a equipe for privada, o compartilhamento de convites para se juntar à equipe vai para o proprietário para aprovação. Os administradores podem desabilitar o acesso de convidados ou usar rótulos de confidencialidade para impedir o acesso de pessoas de fora da organização.|
-|[Site do SharePoint](#sharepoint-site)|Os usuários podem ter acesso de proprietário, membro ou visitante em um site do SharePoint e terão esse nível de acesso a arquivos no site.|As permissões de site podem ser restringidas para que somente proprietários de site possam compartilhar o site. Os administradores podem configurar um site para somente leitura ou bloquear o acesso inteiramente.|
+|[Site do Microsoft Office SharePoint Online](#sharepoint-site)|Os usuários podem ter acesso de proprietário, membro ou visitante em um site do SharePoint e terão esse nível de acesso a arquivos no site.|As permissões de site podem ser restringidas para que somente proprietários de site possam compartilhar o site. Os administradores podem configurar um site para somente leitura ou bloquear o acesso inteiramente.|
 |[Compartilhar com pessoas específicas](#sharing-with-specific-people)|Os membros do site e as pessoas com permissões de edição podem conceder permissões diretas a arquivos e pastas ou compartilhá-los usando links de *pessoas específicas*.|As permissões de site podem ser restringidas para que somente proprietários de sites possam compartilhar arquivos e pastas. Nesse caso, o acesso direto e o compartilhamento de link *pessoas específicas* por membros do site vai para o proprietário do site para aprovação.|
 |[Compartilhamento de convidados do Microsoft Office SharePoint Online e OneDrive](#sharepoint-guest-sharing)|Os proprietários e membros do site do Microsoft Office SharePoint Online e os proprietários do Microsoft OneDrive podem compartilhar arquivos e pastas com pessoas fora da organização.|O compartilhamento de convidados pode ser desabilitado para toda a organização ou para sites individuais.|
 |[*Pessoas na sua organização* links de compartilhamento](#people-in-your-organization-sharing-links)|Os proprietários e membros do site do SharePoint podem compartilhar arquivos usando links *pessoas em sua organização*, que funcionam para todos dentro da organização.|Os links *Pessoas da sua organização* podem ser desabilitados no nível do site.|
@@ -45,9 +45,9 @@ Os métodos de compartilhamento de arquivos são listados na tabela a seguir. Cl
 
 Você também pode restringir as condições em que as pessoas acessam o conteúdo compartilhado. Confira [acesso condicional](#conditional-access) mais adiante neste artigo para saber mais.
 
-Embora você possa usar os controles de administração descritos neste artigo para limitar o compartilhamento em sua organização, é altamente recomendável que você considere o uso dos recursos de segurança e conformidade disponíveis no Microsoft 365 para criar um ambiente de compartilhamento seguro. Confira [Colaboração de arquivos no SharePoint com o Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration) e [Configurar uma equipe com isolamento de segurança](secure-teams-security-isolation.md) para obter informações.
+Embora você possa usar os controles de administração descritos neste artigo para limitar o compartilhamento em sua organização, é altamente recomendável que você considere o uso dos recursos de segurança e conformidade disponíveis no Microsoft 365 para criar um ambiente de compartilhamento seguro. Confira [Colaboração de arquivos no SharePoint com o Microsoft 365](/sharepoint/deploy-file-collaboration) e [Configurar uma equipe com isolamento de segurança](secure-teams-security-isolation.md) para obter informações.
 
-Para entender como o compartilhamento está sendo usado em sua organização, [execute um relatório de compartilhamento de arquivos e pastas](https://docs.microsoft.com/sharepoint/sharing-reports).
+Para entender como o compartilhamento está sendo usado em sua organização, [execute um relatório de compartilhamento de arquivos e pastas](/sharepoint/sharing-reports).
 
 ## <a name="microsoft-365-group-or-team"></a>Grupo ou equipe do Microsoft 365
 
@@ -73,9 +73,9 @@ Para desativar o compartilhamento de convidados no Microsoft 365 Groups
     ![A captura de tela do compartilhamento de configurações do Microsoft 365 Groups no Centro de administração do Microsoft 365](../media/office-365-groups-guest-settings-off.png)
 
 > [!NOTE]
-> Se você quiser impedir o compartilhamento de convidados para um determinado grupo ou equipe, poderá fazê-lo usando o [Microsoft PowerShell](per-group-guest-access.md) ou[rótulos de confidencialidade](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+> Se você quiser impedir o compartilhamento de convidados para um determinado grupo ou equipe, poderá fazê-lo usando o [Microsoft PowerShell](per-group-guest-access.md) ou[rótulos de confidencialidade](../compliance/sensitivity-labels-teams-groups-sites.md).
 
-Você pode limitar o compartilhamento de convidados a usuários de domínios específicos permitindo ou bloqueando domínios no Azure Active Directory. Isso também afetará o compartilhamento de convidados no SharePoint se você tiver habilitado a [integração do SharePoint e do OneDrive com o B2B do Azure AD](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
+Você pode limitar o compartilhamento de convidados a usuários de domínios específicos permitindo ou bloqueando domínios no Azure Active Directory. Isso também afetará o compartilhamento de convidados no SharePoint se você tiver habilitado a [integração do SharePoint e do OneDrive com o B2B do Azure AD](/sharepoint/sharepoint-azureb2b-integration-preview).
 
 Para permitir o compartilhamento de convites apenas de domínios especificados
 1. Na página Visão geral do Azure Active Directory, clique em **relações organizacionais**.
@@ -118,11 +118,11 @@ Para limitar o compartilhamento do site por domínio
 
 ### <a name="block-access-to-a-site"></a>Bloquear o acesso a um site
 
-Você pode bloquear o acesso a um site ou torná-lo somente leitura, alterando o estado de bloqueio do site. Para obter detalhes, confira [Bloquear e desbloquear sites](https://docs.microsoft.com/sharepoint/manage-lock-status).
+Você pode bloquear o acesso a um site ou torná-lo somente leitura, alterando o estado de bloqueio do site. Para obter detalhes, confira [Bloquear e desbloquear sites](/sharepoint/manage-lock-status).
 
 ### <a name="permissions-inheritance"></a>Herança de permissões
 
-Embora não seja recomendável, você pode usar a [herança de permissões do SharePoint](https://docs.microsoft.com/sharepoint/what-is-permissions-inheritance) para personalizar os níveis de acesso aos sites e subsites.
+Embora não seja recomendável, você pode usar a [herança de permissões do SharePoint](/sharepoint/what-is-permissions-inheritance) para personalizar os níveis de acesso aos sites e subsites.
 
 ## <a name="sharing-with-specific-people"></a>Compartilhar com pessoas específicas
 
@@ -193,15 +193,15 @@ Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingL
 
 Por padrão, os usuários podem criar novos sites, grupos e equipes a partir dos quais podem compartilhar conteúdo (dependendo das suas configurações de compartilhamento). Você pode restringir as pessoas que podem criar sites, grupos e equipes. Confira as seguintes referências:
 
-- [Gerenciar a criação de sites no SharePoint](https://docs.microsoft.com/sharepoint/manage-site-creation)
-- [Gerenciar quem pode criar grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/manage-creation-of-groups)
+- [Gerenciar a criação de sites no SharePoint](/sharepoint/manage-site-creation)
+- [Gerenciar quem pode criar grupos do Microsoft 365](./manage-creation-of-groups.md)
 
 > [!NOTE]
 > Restringir a criação do grupo restringe a criação da equipe.
 
 ## <a name="email"></a>Email
 
-Você pode impedir o compartilhamento indesejado de e-mails usando criptografia. Isso impede que os e-mails sejam enviados ou compartilhados com usuários não autorizados. A criptografia de e-mail pode ser habilitada usando rótulos de confidencialidade. Confira [Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) para obter detalhes.
+Você pode impedir o compartilhamento indesejado de e-mails usando criptografia. Isso impede que os e-mails sejam enviados ou compartilhados com usuários não autorizados. A criptografia de e-mail pode ser habilitada usando rótulos de confidencialidade. Confira [Restringir o acesso ao conteúdo usando criptografia nos rótulos de confidencialidade](../compliance/encryption-sensitivity-labels.md) para obter detalhes.
 
 ## <a name="download-or-file-copy"></a>Baixar ou copiar arquivo
 
@@ -209,12 +209,12 @@ Os usuários que têm acesso a arquivos e pastas no Microsoft 365 podem baixar e
 
 ## <a name="conditional-access"></a>Acesso condicional
 
-O acesso condicional do Azure Active Directory fornece opções para limitar ou impedir o compartilhamento com pessoas com base no local de rede, integridade do dispositivo, riscos de entrada e outros fatores. [O que é o Acesso Condicional?](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
+O acesso condicional do Azure Active Directory fornece opções para limitar ou impedir o compartilhamento com pessoas com base no local de rede, integridade do dispositivo, riscos de entrada e outros fatores. [O que é o Acesso Condicional?](/azure/active-directory/conditional-access/overview)
 
 O SharePoint fornece integração direta com o acesso condicional do Azure AD para o local de rede e os dispositivos não gerenciados. Confira os detalhes a seguir:
 
-- [Controlar o acesso de dispositivos não gerenciados](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
-- [Controlar o acesso aos dados do SharePoint Online e do OneDrive com base no local de rede](https://docs.microsoft.com/sharepoint/control-access-based-on-network-location)
+- [Controlar o acesso de dispositivos não gerenciados](/sharepoint/control-access-from-unmanaged-devices)
+- [Controlar o acesso aos dados do SharePoint Online e do OneDrive com base no local de rede](/sharepoint/control-access-based-on-network-location)
 
 ## <a name="see-also"></a>Confira também
 

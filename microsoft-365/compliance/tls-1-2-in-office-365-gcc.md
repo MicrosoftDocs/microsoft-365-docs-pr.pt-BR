@@ -14,12 +14,12 @@ ms.reviewer: krowley
 ms.author: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: d4da76268791e36bd01b5d6f6140fd52c70b3b4a
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 16a02985107c5f578d6d6c21bf2efc6e80297951
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454190"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919337"
 ---
 # <a name="disabling-tls-10-and-11-in-microsoft-365-gcc-high-and-dod"></a>Desabilitando o TLS 1.0 e 1.1 no Microsoft 365 GCC High e DoD
 
@@ -39,11 +39,11 @@ A partir de 15 de janeiro de 2020, o Microsoft 365 nos ambientes GCC High e DoD 
 
 Até 15 de janeiro de 2020, todas as combinações de servidores cliente e servidores de navegador devem usar o TLS versão 1.2 (ou uma versão posterior) para garantir que todas as conexões possam ser feitas sem problemas com o Microsoft 365. Isso pode exigir atualizações para determinadas combinações de servidores cliente e servidores de navegador.
 
-Para o SharePoint e o OneDrive, você precisará atualizar e configurar o .NET para dar suporte ao TLS 1.2. Para obter informações, [consulte Como habilitar o TLS 1.2 em clientes](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client).
+Para o SharePoint e o OneDrive, você precisará atualizar e configurar o .NET para dar suporte ao TLS 1.2. Para obter informações, [consulte Como habilitar o TLS 1.2 em clientes](/mem/configmgr/core/plan-design/security/enable-tls-1-2-client).
 
 Você deve atualizar seus computadores clientes para garantir que você mantenha o acesso ininterrupto ao Office 365 GCC High e DoD.
 
-Você precisará atualizar aplicativos que chamam APIs do Microsoft 365 por TLS 1.0 ou TLS 1.1 para usar o TLS 1.2. O .NET 4.5 é padrão para TLS 1.1. Para atualizar sua configuração .NET, consulte [How to enable Transport Layer Security (TLS) 1.2 on clients](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client). Para obter mais informações, consulte Preparando-se para o uso obrigatório [do TLS 1.2 no Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
+Você precisará atualizar aplicativos que chamam APIs do Microsoft 365 por TLS 1.0 ou TLS 1.1 para usar o TLS 1.2. O .NET 4.5 é padrão para TLS 1.1. Para atualizar sua configuração .NET, consulte [How to enable Transport Layer Security (TLS) 1.2 on clients](/mem/configmgr/core/plan-design/security/enable-tls-1-2-client). Para obter mais informações, consulte Preparando-se para o uso obrigatório [do TLS 1.2 no Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
 
 Sabemos que os seguintes aplicativos cliente não podem usar o TLS 1.2:
 

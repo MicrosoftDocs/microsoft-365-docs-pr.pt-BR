@@ -9,17 +9,17 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 8e95eb0fd0e03dc718affa7e7cf044beb654bb56
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 07d3d50f012b2d93e9f7a75f47b0c35514b51350
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49840930"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920615"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>O que é a Área de trabalho gerenciada da Microsoft?
 
 
-A Área de Trabalho Gerenciada da Microsoft é um serviço baseado em nuvem que reúne [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) (incluindo [Windows 10](https://docs.microsoft.com/windows/windows-10/) Enterprise e [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) e adiciona estes recursos:
+A Área de Trabalho Gerenciada da Microsoft é um serviço baseado em nuvem que reúne [Microsoft 365 Enterprise](../../enterprise/microsoft-365-overview.md) (incluindo [Windows 10](/windows/windows-10/) Enterprise e [Office 365 Enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)) e adiciona estes recursos:
 
 - Implantação de dispositivos do usuário
 - Gerenciamento e operações de serviços de TI
@@ -44,7 +44,7 @@ Nossas políticas e linha de base de segurança oferecem aos seus usuários esse
 - Tempo de inicialização 75% menor para dispositivos de Área de Trabalho Gerenciada da Microsoft.
 - Pelo menos o dobro de vida útil da bateria
 - Cerca de um terço das falhas de dispositivos por ano
-- Mobilidade de dispositivos por meio do [Enterprise State Roaming](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview), permitindo que os usuários tenham a mesma experiência, não importa em qual dispositivo entrem
+- Mobilidade de dispositivos por meio do [Enterprise State Roaming](/azure/active-directory/devices/enterprise-state-roaming-overview), permitindo que os usuários tenham a mesma experiência, não importa em qual dispositivo entrem
 
 Os administradores de TI se beneficiam dos seguintes recursos:
 
@@ -58,7 +58,7 @@ A Área de Trabalho Gerenciada da Microsoft assume o trabalho de gerenciar dispo
 
 - **Hardware:** Ao invés de seu departamento de TI ter que pesquisar e testar dispositivos (e seus drivers), dispositivos específicos são cuidadosamente testados pela Área de Trabalho Gerenciada da Microsoft, o que resulta em uma [lista de dispositivos](../service-description/device-list.md) organizada que atende aos requisitos de desempenho de nível empresarial e tem a garantia de que eles funcionem com o serviço. Você pode obter os dispositivos por conta própria (ou trabalhar com um parceiro) ou reutilizar dispositivos já existentes, desde que eles estejam na lista aprovada. O registro de dispositivos é fácil e rápido e, antes que eles sejam implantados, você também pode [personalizar](../working-with-managed-desktop/config-setting-overview.md) determinados aspectos da experiência de dispositivos para os usuários.
 - **Atualizações:** A Área de Trabalho Gerenciada da Microsoft configura e gerencia todos os aspectos de [grupos de implantação](../service-description/updates.md) para as atualizações de recursos e qualidade do Windows 10, drivers, firmware, definições de antivírus e atualizações do Microsoft 365 Apps para Grandes Empresas. Isso inclui os testes abrangentes e a verificação de todas as atualizações, o que garante que os dispositivos registrados estejam sempre atualizados e minimize as interrupções, liberando o seu departamento de TI por toda a tarefa.
-- **Aplicativos:** Como parte do Microsoft 365 Enterprise, a Microsoft fornece (e gerencia) vários aplicativos essenciais da Microsoft para você. Mas você provavelmente também tem outros aplicativos necessários para a sua empresa. Em vez de seu departamento de TI precisar testar, criar e implantar esses aplicativos, a Microsoft ajuda você a implementá-los e pode ajudar a [Garantia de Aplicativo da Área de Trabalho](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure), se necessário. Saiba mais em [Aplicativos da Área de Trabalho Gerenciada da Microsoft](../get-ready/apps.md).
+- **Aplicativos:** Como parte do Microsoft 365 Enterprise, a Microsoft fornece (e gerencia) vários aplicativos essenciais da Microsoft para você. Mas você provavelmente também tem outros aplicativos necessários para a sua empresa. Em vez de seu departamento de TI precisar testar, criar e implantar esses aplicativos, a Microsoft ajuda você a implementá-los e pode ajudar a [Garantia de Aplicativo da Área de Trabalho](/fasttrack/win-10-desktop-app-assure), se necessário. Saiba mais em [Aplicativos da Área de Trabalho Gerenciada da Microsoft](../get-ready/apps.md).
 
 
 ## <a name="device-monitoring"></a>Monitoramento de dispositivo
@@ -79,7 +79,7 @@ Se a Área de Trabalho Gerenciada da Microsoft parecer ideal para sua organizaç
 - [Tecnologias de Área de Trabalho Gerenciada da Microsoft](technologies.md)
 - [ITIL e Área de Trabalho Gerenciada da Microsoft](../MMD-and-ITSM.md)
 - [Conformidade](compliance.md)
-- [Descrição do serviço da Área de Trabalho Gerenciada da Microsoft](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
+- [Descrição do serviço da Área de Trabalho Gerenciada da Microsoft](../service-description/index.md)
 
 **Prepare-se para o registro** estes tópicos descrevem as etapas necessárias para a sua organização se preparar para o registro, incluindo a verificação de que seu ambiente atende aos principais pré-requisitos, configuração de redes, configuração de certificados e preparação de aplicativos.
 
@@ -114,4 +114,3 @@ Se a Área de Trabalho Gerenciada da Microsoft parecer ideal para sua organizaç
 <!--When you enroll in Microsoft Managed Desktop, Microsoft provides you with devices that are configured to join your Azure Active Directory tenant. Windows 10, Office 365, and some apps and features associated with [Microsoft 365 Enterprise E5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) are installed (by Microsoft) on your devices. When your employees who are using these devices need help, they contact Microsoft Managed Desktop support (provided by Microsoft) through a custom chat app.--> 
 
 <!--With Microsoft Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more).--> 
- 

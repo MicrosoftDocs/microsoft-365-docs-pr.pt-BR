@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Os administradores podem habilitar o suporte a rótulos de sensibilidade para arquivos do Word, Excel e PowerPoint no SharePoint e no OneDrive.
-ms.openlocfilehash: 91322ff3a1dbe2e6b5506e1e3d8a49156b005d7b
-ms.sourcegitcommit: 070724118be25cd83418d2a56863da95582dae65
+ms.openlocfilehash: b4c6a0e3bbe9bae60bc3ccc7fceea04c65382373
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50407279"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919537"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Habilitar rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Habilita rótulos de sensibilidade para arquivos do Office [](sensitivity-labels.md) no SharePoint e no OneDrive para que os usuários possam aplicar seus rótulos de sensibilidade no Office na Web. Quando esse recurso estiver habilitado, os usuários verão o botão **Sensibilidade** na faixa de opções para que possam aplicar rótulos e ver qualquer nome de rótulo aplicado na barra de status.
 
@@ -66,7 +66,7 @@ Se você estiver protegendo documentos no SharePoint usando o IRM (Gerenciamento
 
 ## <a name="requirements"></a>Requisitos
 
-Esses novos recursos funcionam apenas [com rótulos de sensibilidade.](sensitivity-labels.md) Se você atualmente tiver rótulos da Proteção de Informações do Azure, primeiro migre-os para rótulos de sensibilidade para que você possa habilitar esses recursos para novos arquivos carregados. Para obter instruções, [consulte How to migrate Azure Information Protection labels to unified sensitivity labels](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
+Esses novos recursos funcionam apenas [com rótulos de sensibilidade.](sensitivity-labels.md) Se você atualmente tiver rótulos da Proteção de Informações do Azure, primeiro migre-os para rótulos de sensibilidade para que você possa habilitar esses recursos para novos arquivos carregados. Para obter instruções, [consulte How to migrate Azure Information Protection labels to unified sensitivity labels](/azure/information-protection/configure-policy-migrate-labels).
 
 Use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou posterior no Windows e versão 19.002.0107.0008 ou posterior no Mac. Ambas as versões foram lançadas em 28 de janeiro de 2019 e atualmente são lançadas para todos os anéis. Para obter mais informações, consulte as notas de versão [do OneDrive](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0). Depois de habilitar rótulos de sensibilidade para arquivos do Office no SharePoint e no OneDrive, os usuários que executarem uma versão mais antiga do aplicativo de sincronização serão solicitados a atualizá-lo.
 
@@ -77,14 +77,14 @@ Use o aplicativo de sincronização do OneDrive versão 19.002.0121.0008 ou post
 
 - O SharePoint e o OneDrive não aplicam automaticamente rótulos de sensibilidade a arquivos existentes que você já criptografou usando rótulos da Proteção de Informações do Azure. Em vez disso, para que os recursos funcionem depois que você habilitar rótulos de sensibilidade para arquivos do Office no SharePoint e no OneDrive, conclua estas tarefas:
     
-    1. Certifique-se de migrar os rótulos da Proteção [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) de Informações do [Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) para rótulos de sensibilidade e publicá-los do centro de conformidade do Microsoft 365 ou do centro de administração de rotulagem equivalente.
+    1. Certifique-se de migrar os rótulos da Proteção [](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) de Informações do [Azure](/azure/information-protection/configure-policy-migrate-labels) para rótulos de sensibilidade e publicá-los do centro de conformidade do Microsoft 365 ou do centro de administração de rotulagem equivalente.
     
     2. Baixe os arquivos e carregue-os no SharePoint.
 
 - O SharePoint e o OneDrive não podem processar arquivos criptografados quando o rótulo que aplicou a criptografia tem qualquer uma das seguintes [configurações para criptografia:](encryption-sensitivity-labels.md#configure-encryption-settings)
-    - **Permitir que os usuários** atribuam permissões quando aplicarem o rótulo e a caixa de seleção No Word, PowerPoint e Excel, solicitar que os usuários **especifiquem permissões estão selecionados.** Essa configuração às vezes é conhecida como "permissões definidas pelo usuário".
+    - **Permitir que os usuários atribuam permissões quando aplicarem o rótulo** e a caixa de seleção **no Word, PowerPoint e Excel, solicitar que os usuários especifiquem as permissões** está selecionada. Essa configuração às vezes é conhecida como "permissões definidas pelo usuário".
     - **O acesso do usuário ao conteúdo expira** é definido como um valor diferente de **Nunca**.
-    - **A Criptografia de Chave Dupla** está selecionada.
+    - **Criptografia de Chave Dupla** é selecionada.
     
     Para rótulos com qualquer uma dessas configurações de criptografia, os rótulos não são exibidos para usuários no Office na Web. Além disso, os novos recursos não podem ser usados com documentos rotulados que já têm essas configurações de criptografia. Por exemplo, esses documentos não serão retornados nos resultados da pesquisa, mesmo que sejam atualizados.
 
@@ -139,7 +139,7 @@ Essa opção é a maneira mais fácil de habilitar rótulos de sensibilidade par
 
 ### <a name="use-powershell-to-enable-support-for-sensitivity-labels"></a>Usar o PowerShell para habilitar o suporte a rótulos de sensibilidade
 
-Como alternativa ao uso do centro de conformidade, você pode habilitar o suporte a rótulos de sensibilidade usando o cmdlet [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) do PowerShell do SharePoint Online. 
+Como alternativa ao uso do centro de conformidade, você pode habilitar o suporte a rótulos de sensibilidade usando o cmdlet [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) do PowerShell do SharePoint Online. 
 
 Se você tiver o Microsoft 365 Multi-Geo, deverá usar o PowerShell para habilitar esse suporte para todas as localizações geográficas.
 
@@ -165,11 +165,11 @@ Antes de executar o comando do PowerShell para habilitar rótulos de sensibilida
 
 #### <a name="run-the-powershell-command-to-enable-support-for-sensitivity-labels"></a>Execute o comando do PowerShell para habilitar o suporte a rótulos de sensibilidade
 
-Para habilitar os novos recursos, use o cmdlet [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) com o *parâmetro EnableAIPIntegration:*
+Para habilitar os novos recursos, use o cmdlet [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant) com o *parâmetro EnableAIPIntegration:*
 
-1. Usando uma conta de trabalho ou de estudante que tenha privilégios de administrador global ou administrador do SharePoint no Microsoft 365, conecte-se ao SharePoint. Para saber como, consulte [Introdução ao Shell de Gerenciamento do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+1. Usando uma conta de trabalho ou de estudante que tenha privilégios de administrador global ou administrador do SharePoint no Microsoft 365, conecte-se ao SharePoint. Para saber como, consulte [Introdução ao Shell de Gerenciamento do SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-    Observação: se você tiver o Microsoft 365 Multi-Geo, use o parâmetro -Url com [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice)e especifique a URL do site do Centro de Administração do SharePoint Online para uma de suas localizações geográficas.
+    Observação: se você tiver o Microsoft 365 Multi-Geo, use o parâmetro -Url com [Connect-SPOService](/powershell/module/sharepoint-online/connect-sposervice)e especifique a URL do site do Centro de Administração do SharePoint Online para uma de suas localizações geográficas.
 
 2. Execute o seguinte comando e pressione **Y** para confirmar:
 
@@ -194,7 +194,7 @@ Como o atraso de replicação é de apenas uma hora para novos rótulos de sensi
 
 [O IRM (Gerenciamento](set-up-irm-in-sp-admin-center.md) de Direitos de Informação) do SharePoint é uma tecnologia mais antiga para proteger arquivos no nível de lista e biblioteca aplicando criptografia e restrições quando os arquivos são baixados. Essa tecnologia de proteção mais antiga foi projetada para impedir que usuários não autorizados abriam o arquivo enquanto ele está fora do SharePoint.
 
-Em comparação, os rótulos de sensibilidade fornecem as configurações de proteção de marcações visuais (headers, rodapés, marcas d'água) além da criptografia. As configurações de criptografia [](https://docs.microsoft.com/azure/information-protection/configure-usage-rights) suportam a gama completa de direitos de uso para restringir o que os usuários podem fazer com o conteúdo e os mesmos rótulos de sensibilidade são suportados para [muitos cenários.](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels) Usar o mesmo método de proteção com configurações consistentes entre cargas de trabalho e aplicativos resulta em uma estratégia de proteção consistente.
+Em comparação, os rótulos de sensibilidade fornecem as configurações de proteção de marcações visuais (headers, rodapés, marcas d'água) além da criptografia. As configurações de criptografia [](/azure/information-protection/configure-usage-rights) suportam a gama completa de direitos de uso para restringir o que os usuários podem fazer com o conteúdo e os mesmos rótulos de sensibilidade são suportados para [muitos cenários.](get-started-with-sensitivity-labels.md#common-scenarios-for-sensitivity-labels) Usar o mesmo método de proteção com configurações consistentes entre cargas de trabalho e aplicativos resulta em uma estratégia de proteção consistente.
 
 No entanto, você pode usar soluções de proteção em conjunto e o comportamento é o seguinte: 
 
@@ -219,7 +219,7 @@ Por exemplo, para pesquisar todos os documentos que foram rotulados como "Confid
 
 `InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`    
 
-Para obter os GUIDs para seus rótulos de sensibilidade, use o cmdlet [Get-Label:](https://docs.microsoft.com/powershell/module/exchange/get-label)  
+Para obter os GUIDs para seus rótulos de sensibilidade, use o cmdlet [Get-Label:](/powershell/module/exchange/get-label)    
 
 1. Primeiro, [conecte-se ao PowerShell do Centro de Conformidade e Segurança do Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
    
@@ -231,13 +231,13 @@ Para obter os GUIDs para seus rótulos de sensibilidade, use o cmdlet [Get-Label
     Get-Label |ft Name, Guid    
     ``` 
 
-Para obter mais informações sobre como usar propriedades gerenciadas, consulte [Manage the search schema in SharePoint](https://docs.microsoft.com/sharepoint/manage-search-schema).
+Para obter mais informações sobre como usar propriedades gerenciadas, consulte [Manage the search schema in SharePoint](/sharepoint/manage-search-schema).
 
 ## <a name="remove-encryption-for-a-labeled-document"></a>Remover criptografia para um documento rotulado
 
-Pode haver raras ocasiões em que um administrador do SharePoint precise remover a criptografia de um documento armazenado no SharePoint. Qualquer usuário que [](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) tenha o direito de uso gerenciamento de direitos de Exportação ou Controle Total atribuído a eles para esse documento pode remover a criptografia que foi aplicada pelo serviço de Gerenciamento de Direitos do Azure da Proteção de Informações do Azure. Por exemplo, os usuários com qualquer um desses direitos de uso podem substituir um rótulo que aplica criptografia por um rótulo sem criptografia. Como alternativa, um [super usuário poderia](https://docs.microsoft.com/azure/information-protection/configure-super-users) baixar o arquivo e salvar uma cópia local sem a criptografia.
+Pode haver raras ocasiões em que um administrador do SharePoint precise remover a criptografia de um documento armazenado no SharePoint. Qualquer usuário que [](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) tenha o direito de uso gerenciamento de direitos de Exportação ou Controle Total atribuído a eles para esse documento pode remover a criptografia que foi aplicada pelo serviço de Gerenciamento de Direitos do Azure da Proteção de Informações do Azure. Por exemplo, os usuários com qualquer um desses direitos de uso podem substituir um rótulo que aplica criptografia por um rótulo sem criptografia. Como alternativa, um [super usuário poderia](/azure/information-protection/configure-super-users) baixar o arquivo e salvar uma cópia local sem a criptografia.
 
-Como alternativa, um administrador global ou administrador do [SharePoint](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) pode executar o cmdlet [Unlock-SPOSensitivityLabelEncryptedFile,](https://docs.microsoft.com/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) que remove o rótulo de sensibilidade e a criptografia. Esse cmdlet é executado mesmo se o administrador não tiver permissões de acesso ao site ou arquivo ou se o serviço de Gerenciamento de Direitos do Azure estiver indisponível. 
+Como alternativa, um administrador global ou administrador do [SharePoint](/sharepoint/sharepoint-admin-role) pode executar o cmdlet [Unlock-SPOSensitivityLabelEncryptedFile,](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) que remove o rótulo de sensibilidade e a criptografia. Esse cmdlet é executado mesmo se o administrador não tiver permissões de acesso ao site ou arquivo ou se o serviço de Gerenciamento de Direitos do Azure estiver indisponível. 
 
 Por exemplo:
 
@@ -251,13 +251,13 @@ Requisitos:
 
 - A criptografia foi aplicada por um rótulo de sensibilidade com configurações de criptografia definidas pelo administrador (as configurações [atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now) rotulam). [Não há](encryption-sensitivity-labels.md#double-key-encryption) suporte para Criptografia de Chave Dupla para este cmdlet.
 
-O texto de justificativa [](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) é adicionado ao evento de auditoria do rótulo de confidencialidade removido do arquivo **,** e a ação de descriptografia também é registrada no log de uso de proteção para a Proteção de Informações do [Azure](https://docs.microsoft.com/azure/information-protection/log-analyze-usage).
+O texto de justificativa [](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) é adicionado ao evento de auditoria do rótulo de confidencialidade removido do arquivo **,** e a ação de descriptografia também é registrada no log de uso de proteção para a Proteção de Informações do [Azure](/azure/information-protection/log-analyze-usage).
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>Como desabilitar rótulos de sensibilidade para SharePoint e OneDrive (desativação)
 
 Se você desabilitar esses novos recursos, os arquivos carregados depois de habilitar rótulos de sensibilidade para o SharePoint e o OneDrive continuarão a ser protegidos pelo rótulo porque as configurações de rótulo continuam a ser impostas. Quando você aplica rótulos de sensibilidade a novos arquivos depois de desabilitar esses novos recursos, a pesquisa de texto completo, a Descoberta e a Coautoria não funcionarão mais.
 
-Para desabilitar esses novos recursos, você deve usar o PowerShell. Usando o Shell de Gerenciamento do SharePoint Online e o cmdlet [Set-SPOTenant,](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant) especifique o mesmo parâmetro *EnableAIPIntegration* conforme descrito na seção [Usar o PowerShell](#use-powershell-to-enable-support-for-sensitivity-labels) para habilitar o suporte para rótulos de sensibilidade. Mas, desta vez, de definir o valor do parâmetro como false e pressione **Y** para confirmar:
+Para desabilitar esses novos recursos, você deve usar o PowerShell. Usando o Shell de Gerenciamento do SharePoint Online e o cmdlet [Set-SPOTenant,](/powershell/module/sharepoint-online/set-spotenant) especifique o mesmo parâmetro *EnableAIPIntegration* conforme descrito na seção [Usar o PowerShell](#use-powershell-to-enable-support-for-sensitivity-labels) para habilitar o suporte para rótulos de sensibilidade. Mas, desta vez, de definir o valor do parâmetro como false e pressione **Y** para confirmar:
 
 ```PowerShell
 Set-SPOTenant -EnableAIPIntegration $false

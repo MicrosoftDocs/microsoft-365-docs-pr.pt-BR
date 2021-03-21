@@ -22,16 +22,16 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6cdf7a6b9e75b575abda2c93f7531c45d93a9a51
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 6c1f8b404ddcda45d782a6517880955a6199025d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838624"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919587"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Se você estiver procurando informações sobre o rótulos de confidencialidade que está vendo nos seus aplicativos do Office, consulte [Aplicar rótulos de sensibilidade em seus arquivos e email no Office](https://support.microsoft.com/topic/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9).
@@ -49,9 +49,9 @@ Exemplo mostrando os rótulos de confidencialidade disponíveis no Excel, na gui
 Para aplicar rótulos de confidencialidade, os usuários devem ter entrado com sua conta Microsoft 365 do trabalho ou da escola.
 
 > [!NOTE]
-> Rótulos de confidencialidade são recentemente suportados para locatários do governo dos EUA (GCC e GCC-H). Para obter mais informações, confira as notas de lançamento do Microsoft 365 Apps para Grandes Empresas, [Versão 2101: 26 de janeiro](https://docs.microsoft.com/officeupdates/current-channel#version-2101-january-26).
+> Rótulos de confidencialidade são recentemente suportados para locatários do governo dos EUA (GCC e GCC-H). Para obter mais informações, confira as notas de lançamento do Microsoft 365 Apps para Grandes Empresas, [Versão 2101: 26 de janeiro](/officeupdates/current-channel#version-2101-january-26).
 >
-> Para o cliente e scanner de rotulagem unificada da Proteção de Informações do Azure, confira [Descrição do serviço governamental premium da Proteção de Informações do Azure](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description).
+> Para o cliente e scanner de rotulagem unificada da Proteção de Informações do Azure, confira [Descrição do serviço governamental premium da Proteção de Informações do Azure](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description).
 
 Você pode usar rótulos de confidencialidade para:
   
@@ -118,7 +118,7 @@ Depois que um rótulo de confidencialidade é aplicado a um email ou documento, 
     
     ![Solicitar confirmação antes de atribuir a um rótulo necessário](../media/Sensitivity-label-Prompt-for-required-label.png)
     
-    Para obter mais informações sobre o **rotulamento automático de arquivos e emails configurações do** quando você cria ou edita um rótulo de sensibilidade, confira [aplicar um rótulo de sensibilidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md) para os aplicativos do Office e [rotular os dados automaticamente no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
+    Para obter mais informações sobre o **rotulamento automático de arquivos e emails configurações do** quando você cria ou edita um rótulo de sensibilidade, confira [aplicar um rótulo de sensibilidade ao conteúdo automaticamente](apply-sensitivity-label-automatically.md) para os aplicativos do Office e [rotular os dados automaticamente no Azure Purview](/azure/purview/create-sensitivity-label).
 
 ### <a name="label-scopes"></a>Escopos de rótulo
 
@@ -134,7 +134,7 @@ Por padrão, o escopo **Arquivos e emails** sempre é selecionado. Os outros esc
 
 - **Grupos e sites**: [habilite rótulos de sensibilidade para contêineres e sincronize rótulos](sensitivity-labels-teams-groups-sites.md#how-to-enable-sensitivity-labels-for-containers-and-synchronize-labels)
 
-- **Ativos do Azure Purview (pré-visualização)**: [rotule automaticamente o conteúdo no Azure Purview](https://go.microsoft.com/fwlink/?linkid=2148989)
+- **Ativos do Azure Purview (pré-visualização)**: [rotule automaticamente o conteúdo no Azure Purview](/azure/purview/create-sensitivity-label)
 
 Se você alterar os padrões para que nem todos os escopos sejam selecionados, você verá a primeira página das definições de configuração dos escopos que não selecionou, mas não poderá definir as configurações. Por exemplo, se o escopo para arquivos e emails não for selecionado, você não pode selecionar as opções na próxima página:
 
@@ -178,7 +178,7 @@ Diferentemente de rótulos de retenção, que são publicados em locais como tod
 
 Ao configurar uma política de rótulo, você pode:
 
-- **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados para qualquer usuário específico ou grupo de segurança habilitado para email, grupo de distribuição ou grupo do Microsoft 365 (que podem ter [associação dinâmica](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)) no Azure AD.
+- **Escolha quais usuários e grupos verão os rótulos.** Os rótulos podem ser publicados para qualquer usuário específico ou grupo de segurança habilitado para email, grupo de distribuição ou grupo do Microsoft 365 (que podem ter [associação dinâmica](/azure/active-directory/users-groups-roles/groups-create-rule)) no Azure AD.
 
 - **Aplique um rótulo padrão** a todos os novos documentos e emails sem rótulo criados pelos usuários e grupos incluídos na política de rótulo, e o mesmo ou diferente rótulo padrão para contêineres (se você [habilitou rótulos de sensibilidade para Microsoft Teams, Grupos do Microsoft 365 e sites do Microsoft Office SharePoint Online](sensitivity-labels-teams-groups-sites.md)). Com essa configuração, o cliente de rotulagem unificada do Proteção de Informações do Azure também aplica o rótulo padrão a documentos existentes que não estão rotulados. Os usuários sempre poderão alterar o rótulo padrão se ele não for o rótulo certo para o documento ou o e-mail.
     
@@ -236,7 +236,7 @@ Se você tiver implantado rótulos com a Proteção de Informações do Azure, u
 > [!NOTE]
 > O gerenciamento de rótulos para os rótulos da Proteção de Informações do Azure no portal do Azure será substituído em **31 de março de 2021**. Saiba mais no [aviso de substituição](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179) oficial.
 
-Se você estiver usando os rótulos da Proteção de Informações do Azure porque o locatário ainda não está na [plataforma de rotulagem unificada](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform), recomendamos que você evite criar novos rótulos de confidencialidade até ativar a rotulagem unificada. Neste cenário, os rótulos que você vê no portal do Azure são rótulos da Proteção de Informações do Azure, em vez de rótulos de confidencialidade. Esses rótulos podem ser usados pelo cliente da Proteção de Informações do Azure (clássico) em computadores com Windows, mas não podem ser usados por dispositivos que executam o macOS, iOS ou Android. Para resolver esse problema, [migre esses rótulos](/azure/information-protection/configure-policy-migrate-labels) para rótulos de confidencialidade. 
+Se você estiver usando os rótulos da Proteção de Informações do Azure porque o locatário ainda não está na [plataforma de rotulagem unificada](/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform), recomendamos que você evite criar novos rótulos de confidencialidade até ativar a rotulagem unificada. Neste cenário, os rótulos que você vê no portal do Azure são rótulos da Proteção de Informações do Azure, em vez de rótulos de confidencialidade. Esses rótulos podem ser usados pelo cliente da Proteção de Informações do Azure (clássico) em computadores com Windows, mas não podem ser usados por dispositivos que executam o macOS, iOS ou Android. Para resolver esse problema, [migre esses rótulos](/azure/information-protection/configure-policy-migrate-labels) para rótulos de confidencialidade. 
 
 Os metadados aplicados por ambos os conjuntos de rótulos são compatíveis, então não é necessário rotular novamente os documentos e os emails quando a migração estiver concluída.
 
@@ -256,7 +256,7 @@ Mesmo quando você usa rótulos internos nos aplicativos do Office, também pode
 
 - Um módulo do PowerShell para descobrir informações confidenciais em arquivos no local, e aplicar ou remover rótulos e criptografia desses arquivos.
 
-Se você é novo na Proteção de Informações do Azure ou se já é um cliente da Proteção de Informações do Azure que acabou de migrar seus rótulos, consulte [Escolher a solução de rotulagem do Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution) na documentação da Proteção de Informações do Azure.
+Se você é novo na Proteção de Informações do Azure ou se já é um cliente da Proteção de Informações do Azure que acabou de migrar seus rótulos, consulte [Escolher a solução de rotulagem do Windows](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution) na documentação da Proteção de Informações do Azure.
 
 ## <a name="sensitivity-labels-and-microsoft-cloud-app-security"></a>Rótulos de confidencialidade e Microsoft Cloud App Security
 
@@ -268,11 +268,11 @@ O Cloud App Security funciona com os rótulos de confidencialidade e rótulos da
 
 - Se os centros de administração de etiquetagem não tiverem rótulos de confidencialidade publicados, os rótulos de proteção de informações do Azure serão usados.
 
-Para obter instruções sobre como usar o Cloud App Security com esses rótulos, confira [Integração da proteção de informações do Azure](https://docs.microsoft.com/cloud-app-security/azip-integration).
+Para obter instruções sobre como usar o Cloud App Security com esses rótulos, confira [Integração da proteção de informações do Azure](/cloud-app-security/azip-integration).
 
 ## <a name="sensitivity-labels-and-the-microsoft-information-protection-sdk"></a>Rótulos de confidencialidade e SDK da Proteção de informações da Microsoft
 
-Como um rótulo de confidencialidade é armazenado como texto não criptografado nos metadados de um documento, aplicativos e serviços de terceiros podem ler e gravar nos metadados de rotulagem para complementar sua implantação de rotulagem. Além disso, os desenvolvedores de software podem usar o [SDK da Proteção de Informações da Microsoft](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk) para oferecer suporte total aos recursos de rotulagem e criptografia em várias plataformas. Para saber mais, confira o [Comunicado de Disponibilidade Geral no Blog da Comunidade Técnica](https://techcommunity.microsoft.com/t5/Microsoft-Information-Protection/Microsoft-Information-Protection-SDK-Now-Generally-Available/ba-p/263144). 
+Como um rótulo de confidencialidade é armazenado como texto não criptografado nos metadados de um documento, aplicativos e serviços de terceiros podem ler e gravar nos metadados de rotulagem para complementar sua implantação de rotulagem. Além disso, os desenvolvedores de software podem usar o [SDK da Proteção de Informações da Microsoft](/information-protection/develop/overview#microsoft-information-protection-sdk) para oferecer suporte total aos recursos de rotulagem e criptografia em várias plataformas. Para saber mais, confira o [Comunicado de Disponibilidade Geral no Blog da Comunidade Técnica](https://techcommunity.microsoft.com/t5/Microsoft-Information-Protection/Microsoft-Information-Protection-SDK-Now-Generally-Available/ba-p/263144). 
 
 Você também pode saber mais sobre [soluções de parceiro que estão integradas à Proteção de Informações da Microsoft](https://techcommunity.microsoft.com/t5/Azure-Information-Protection/Microsoft-Information-Protection-showcases-integrated-partner/ba-p/262657).
 

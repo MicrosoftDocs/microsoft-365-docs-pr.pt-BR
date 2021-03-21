@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: ec4ca9a79ee3b5674e1837d14cea4ee504cb57d5
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 985131900a5e07188c0af641fb86f794d558f80b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838206"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919777"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Se você estiver vendo uma mensagem no Teams informando que os seus chats ou mensagens foram excluídos por uma política de retenção, consulte [Mensagens do Teams sobre políticas de retenção](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
@@ -43,7 +43,7 @@ Para outras cargas de trabalho, confira:
 
 ## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
 
-Os seguintes itens de equipes podem ser retidos e excluídos usando políticas de retenção para equipes: Mensagens de bate-papo e mensagens de canal, incluindo imagens incorporadas, tabelas, links de hipertexto e links para outras mensagens e arquivos de equipes e [conteúdo de cartão](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards). As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
+Os seguintes itens de equipes podem ser retidos e excluídos usando políticas de retenção para equipes: Mensagens de bate-papo e mensagens de canal, incluindo imagens incorporadas, tabelas, links de hipertexto e links para outras mensagens e arquivos de equipes e [conteúdo de cartão](/microsoftteams/platform/task-modules-and-cards/what-are-cards). As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
 
 > [!NOTE]
 > Incluir o conteúdo do cartão é uma adição recente e agora totalmente implementada para os locatários. Para obter mais informações, confira [Centro de conformidade do Microsoft 365 para conteúdo do Cartão Adaptável por meio de aplicativos no Teams agora disponíveis](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
@@ -64,7 +64,7 @@ Estas caixas de correio são listadas pelo atributo RecipientTypeDetails:
 
 Outros tipos de caixa de correio, como RoomMailbox que é usado em salas de conferência do Teams, não têm suporte das políticas de retenção do Teams.
 
-No entanto, é importante compreender que o Teams usa um serviço de chat fornecido pelo Azure que também armazena esses dados e, por padrão, esse serviço armazena os dados para sempre. Por esse motivo, se você precisar excluir mensagens do Teams por motivos de conformidade, recomendamos que você use políticas de retenção para Teams que podem excluir permanentemente esses dados das caixas de correio do Exchange e do serviço de bate-papo baseado no Azure. Para obter mais informações sobre a arquitetura subjacente, confira [Segurança e conformidade no Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=871258) e, especificamente, a seção [Arquitetura de Proteção de Informações](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview#information-protection-architecture).
+No entanto, é importante compreender que o Teams usa um serviço de chat fornecido pelo Azure que também armazena esses dados e, por padrão, esse serviço armazena os dados para sempre. Por esse motivo, se você precisar excluir mensagens do Teams por motivos de conformidade, recomendamos que você use políticas de retenção para Teams que podem excluir permanentemente esses dados das caixas de correio do Exchange e do serviço de bate-papo baseado no Azure. Para obter mais informações sobre a arquitetura subjacente, confira [Segurança e conformidade no Microsoft Teams](/MicrosoftTeams/security-compliance-overview) e, especificamente, a seção [Arquitetura de Proteção de Informações](/MicrosoftTeams/security-compliance-overview#information-protection-architecture).
 
 Embora os chats do Teams e as mensagens do canal sejam armazenados em caixas de correio, esses dados do Teams são incluídos apenas por uma política de retenção configurada para as **mensagens do canal do Teams** e os **locais dos chats do Teams**. Os chats do Teams e as mensagens do canal não são afetados pelas políticas de retenção configuradas para caixas de correio de usuário ou grupo do Exchange.
 

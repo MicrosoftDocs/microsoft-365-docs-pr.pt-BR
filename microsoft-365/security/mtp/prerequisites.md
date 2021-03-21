@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: afa5cd42545eddafb1d0ec1a6d88eb0903e07820
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 0184b2c05121e1ea3bf365263df880548f1b9232
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454546"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918865"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Pré-requisitos do Microsoft 365 Defender
 
@@ -47,18 +47,18 @@ Qualquer uma dessas licenças oferece acesso aos recursos do Microsoft 365 Defen
 - Office 365 E5 ou A5
 - Microsoft Defender para Ponto de Extremidade
 - O que é o Microsoft Defender para Identidade? 
-- Segurança no aplicativo na nuvem da Microsoft
+- Microsoft Cloud App Security
 - Defender para Office 365 (Plano 2)
 
 Para obter mais informações, consulte os planos de serviço do [Microsoft 365 Enterprise.](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)
 
-> Ainda não tem licença? [Experimentar ou comprar uma assinatura do Microsoft 365](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
+> Ainda não tem licença? [Experimentar ou comprar uma assinatura do Microsoft 365](../../commerce/try-or-buy-microsoft-365.md?view=o365-worldwide)
 
 ### <a name="check-your-existing--licenses"></a>Verificar suas licenças existentes
 Vá para o Centro de administração do Microsoft 365 ([admin.microsoft.com](https://admin.microsoft.com/)) para exibir suas licenças existentes. No Centro de administração, acesse **Cobrança** > **Licenças**.
 
 >[!NOTE]
-> Você precisa ser atribuído ao administrador de **Cobrança** ou à função de leitor **global** no [Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) para poder ver as informações de licença. Se tiver problemas de acesso, entre em contato com um administrador global.
+> Você precisa ser atribuído ao administrador de **Cobrança** ou à função de leitor **global** no [Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) para poder ver as informações de licença. Se tiver problemas de acesso, entre em contato com um administrador global.
 
 ## <a name="required-permissions"></a>Permissões obrigatórias
 Você deve ser um **administrador global** ou um administrador **de** segurança no Azure Active Directory para ativar o Microsoft 365 Defender. Para obter a lista de funções necessárias para usar o Microsoft 365 Defender e informações sobre como o acesso aos dados é regulado, leia sobre como gerenciar o acesso ao [Microsoft 365 Defender](mtp-permissions.md).

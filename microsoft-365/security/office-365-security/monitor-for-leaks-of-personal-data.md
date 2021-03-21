@@ -19,12 +19,12 @@ search.appverid:
 description: Conheça três ferramentas disponíveis para monitorar o vazamento de dados pessoais.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a8fb8557d6cd2677aeb6dcda75d34e86ada8f68c
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: b51bc5d5d3cbfa8951392f88edc6e178778206df
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50290664"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921247"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Monitorar o vazamento de dados pessoais
 
@@ -83,7 +83,7 @@ As equipes de segurança e conformidade das informações podem usar essas ferra
 
 As equipes de segurança de informações podem também pesquisar o log de auditoria para investigar suspeitas de violação de dados, bem como determinar a causa raiz e a abrangência da violação. Esta funcionalidade interna facilita o cumprimento dos artigos 33 e 34 do GDPR, que exige o envio de notificações sobre violação de dados à autoridade supervisora do GDPR e aos detentores dos dados, em um período específico. As entradas do log de auditoria são mantidas apenas por 90 dias no serviço. Recomendamos e a maioria das organizações exige que esses logs sejam mantidos por mais tempo.
 
-Existem soluções disponíveis, com as quais é possível inscrever-se nos logs de auditoria unificados por meio da API da Atividade de Gestão da Microsoft, que podem armazenar as entradas do log conforme necessário, além de fornecer alertas e painéis avançados. Por exemplo, o [OMS (Microsoft Operations Management Suite)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365).
+Existem soluções disponíveis, com as quais é possível inscrever-se nos logs de auditoria unificados por meio da API da Atividade de Gestão da Microsoft, que podem armazenar as entradas do log conforme necessário, além de fornecer alertas e painéis avançados. Por exemplo, o [OMS (Microsoft Operations Management Suite)](/azure/operations-management-suite/oms-solution-office-365).
 
 Clique nos links abaixo para saber mais sobre as políticas de alerta e como pesquisar no log de auditoria.
 
@@ -95,7 +95,7 @@ Clique nos links abaixo para saber mais sobre as políticas de alerta e como pes
 
 - [Pesquisas o log de auditoria](../../compliance/search-the-audit-log-in-security-and-compliance.md)
 
-- [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) (cmdlet)
+- [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) (cmdlet)
 
 - [Propriedades detalhadas no log de auditoria](../../compliance/detailed-properties-in-the-office-365-audit-log.md)
 
@@ -130,11 +130,11 @@ Observação: não deixe de habilitar a opção "Examinar automaticamente os arq
 
 Mais informações:
 
-- [Implantar o Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
+- [Implantar o Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security)
 
 - [Mais informações sobre o Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
-- [Bloqueando downloads de informações confidenciais usando o proxy do Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
+- [Bloqueando downloads de informações confidenciais usando o proxy do Microsoft Cloud App Security](/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Políticas de atividade e arquivo de exemplo para detectar o compartilhamento de dados pessoais
 

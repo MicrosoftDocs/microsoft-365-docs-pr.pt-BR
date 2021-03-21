@@ -19,20 +19,20 @@ ms.custom:
 - LIL_Placement
 - O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
-description: Explica como usar o PowerShell para remover licenças do Microsoft 365 que foram atribuídas anteriormente aos usuários.
-ms.openlocfilehash: 8ae7ca1013e26a60f16177f2dab7ced4cc8b97a8
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+description: Explica como usar o PowerShell para remover licenças do Microsoft 365 atribuídas anteriormente aos usuários.
+ms.openlocfilehash: 9944d1ab056d109b6bf71a44fe01acef78ce1f14
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50289588"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920663"
 ---
 # <a name="remove-microsoft-365-licenses-from-user-accounts-with-powershell"></a>Remover licenças do Microsoft 365 de contas de usuário com o PowerShell
 
-*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
+*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
 
 >[!Note]
->[Saiba como remover licenças de contas de usuário](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) com o Centro de administração do Microsoft 365. Para obter uma lista de recursos adicionais, consulte [Gerenciar usuários e grupos.](https://docs.microsoft.com/microsoft-365/admin/add-users/)
+>[Saiba como remover licenças de contas de usuário](../admin/manage/remove-licenses-from-users.md) com o Centro de administração do Microsoft 365. Para obter uma lista de recursos adicionais, consulte [Gerenciar usuários e grupos.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Use o PowerShell do Azure Active Directory para o módulo do gráfico
@@ -45,9 +45,9 @@ Em seguida, liste os planos de licença para seu locatário com este comando.
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-Em seguida, obter o nome de logon da conta para a qual você deseja remover uma licença, também conhecida como o nome UPN.
+Em seguida, obter o nome de logon da conta para a qual você deseja remover uma licença, também conhecida como o nome principal do usuário (UPN).
 
-Por fim, especifique os nomes dos planos de licença e de login do usuário, remova os caracteres "<" e ">" e execute estes comandos.
+Por fim, especifique os nomes do plano de licença e de login do usuário, remova os caracteres "<" e ">" e execute esses comandos.
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -57,7 +57,7 @@ $License.RemoveLicenses = (Get-AzureADSubscribedSku | Where-Object -Property Sku
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $license
 ```
 
-Para remover todas as licenças de uma conta de usuário específica, especifique o nome de login do usuário, remova os caracteres "<" e ">" e execute estes comandos.
+Para remover todas as licenças de uma conta de usuário específica, especifique o nome de login do usuário, remova os caracteres "<" e ">" e execute esses comandos.
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -110,7 +110,7 @@ Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "
 ```
 
 >[!Note]
->Não é possível usar `Set-MsolUserLicense` o cmdlet para cancelar a asignção de usuários de *licenças canceladas.* Você deve fazer isso individualmente para cada conta de usuário no Centro de administração do Microsoft 365.
+>Não é possível usar `Set-MsolUserLicense` o cmdlet para cancelar a asignidade de usuários de *licenças canceladas.* Você deve fazer isso individualmente para cada conta de usuário no Centro de administração do Microsoft 365.
 >
 
 Para remover todas as licenças de um grupo de usuários licenciados existentes, use um dos seguintes métodos:
@@ -125,7 +125,7 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-Este exemplo remove todas as licenças de todas as contas de usuário no departamento de vendas nos Estados Unidos.
+Este exemplo remove todas as licenças de todas as contas de usuário no departamento de Vendas nos Estados Unidos.
     
 ```powershell
 $userArray = Get-MsolUser -All -Department "Sales" -UsageLocation "US" | where {$_.isLicensed -eq $true}
@@ -174,7 +174,7 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-Outra maneira de liberar uma licença é excluir a conta de usuário. Para obter mais informações, [consulte Excluir e restaurar contas de usuário com o PowerShell.](delete-and-restore-user-accounts-with-microsoft-365-powershell.md)
+Outra maneira de liberar uma licença é excluir a conta de usuário. Para obter mais informações, consulte [Excluir e restaurar contas de usuário com o PowerShell](delete-and-restore-user-accounts-with-microsoft-365-powershell.md).
   
 ## <a name="see-also"></a>Confira também
 
@@ -183,4 +183,3 @@ Outra maneira de liberar uma licença é excluir a conta de usuário. Para obter
 [Gerenciar o Microsoft 365 com o PowerShell](manage-microsoft-365-with-microsoft-365-powershell.md)
   
 [Introdução ao PowerShell para o Microsoft 365](getting-started-with-microsoft-365-powershell.md)
-

@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 774f03ebbf12a8bfbf4e2409735352b83e6963aa
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: a5eab2aaecd3d0c339fdc2e58af17dcfd9feb199
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421538"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919877"
 ---
 # <a name="learn-about-communication-compliance-in-microsoft-365"></a>Saiba mais sobre a conformidade de comunicação no Microsoft 365
 
@@ -38,6 +38,13 @@ As políticas de conformidade de comunicação no Microsoft 365 ajudam você a s
 - Imposição regulatória e risco de multas
 
 Além disso, pode haver uma separação de funções entre seus administradores de IT e sua equipe de gerenciamento de conformidade. A conformidade de comunicação dá suporte à separação entre a configuração de políticas e a investigação e a revisão de mensagens. Por exemplo, o grupo de IT da sua organização pode ser responsável por configurar permissões de função de conformidade de comunicação, grupos e políticas e investigadores e revisadores podem ser responsáveis por ações de triagem, revisão e mitigação de mensagens.
+
+Para as apresentações mais recentes do Ignite para conformidade de comunicação, consulte os seguintes vídeos:
+
+- [Promover uma cultura de segurança e inclusão com conformidade de comunicação](https://www.youtube.com/watch?v=oLVzxcaef3w)
+- [Saiba como reduzir os riscos de comunicação em sua organização](https://www.youtube.com/watch?v=vzARb1YaxGo)
+- [Atender aos requisitos de conformidade regulamentar com a conformidade de comunicação](https://www.youtube.com/watch?v=gagOhtCBfgU)
+- [Melhor com o Microsoft Teams - Saiba mais sobre os recursos nativos mais recentes integrados do Teams na conformidade de comunicação](https://www.youtube.com/watch?v=m4jukD5Fh-o)
 
 Para uma visão geral rápida da conformidade de [comunicação,](https://www.youtube.com/user/OfficeGarageSeries)consulte o vídeo Detectar assédio no local de trabalho e responder com Conformidade de Comunicação no [Microsoft 365](https://youtu.be/z33ji7a7Zho) no canal Microsoft Mechanics .
 

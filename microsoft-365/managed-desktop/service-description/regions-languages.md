@@ -1,38 +1,38 @@
 ---
 title: Regiões e idiomas com suporte
-description: Regiões e idiomas suportados pela Área de Trabalho Gerenciada da Microsoft
+description: Regiões e idiomas com suporte da Área de Trabalho Gerenciada da Microsoft
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d2aed005f0f1497cc9b545f48a8cb1dae3c90fb2
-ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
+ms.openlocfilehash: 36766b162c703c87967a017eac84945dd936ca2b
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841382"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920403"
 ---
-# <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Idiomas e regiões suportados pela Área de Trabalho Gerenciada da Microsoft
+# <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Regiões e idiomas com suporte da Área de Trabalho Gerenciada da Microsoft
 
-Este artigo fornece detalhes sobre regiões e idiomas suportados pela Área de Trabalho Gerenciada da Microsoft e as regiões onde você pode usá-la.
+Este artigo fornece detalhes sobre regiões e idiomas com suporte da Área de Trabalho Gerenciada da Microsoft e das regiões onde você pode usá-lo.
 
 ## <a name="supported-languages"></a>Idiomas compatíveis
 
-Inglês é o único idioma disponível para usuários da Área de Trabalho Gerenciada da Microsoft. Essa política inclui todas as interfaces do usuário para usuários e administradores e todas as interações com o suporte [do administrador](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) e o suporte [ao usuário.](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support)
+O inglês é o único idioma disponível para usuários da Área de Trabalho Gerenciada da Microsoft. Essa política inclui todas as interfaces de usuário para usuários e administradores e todas as interações com suporte [ao administrador](../working-with-managed-desktop/admin-support.md) e suporte [ao usuário.](../working-with-managed-desktop/end-user-support.md)
 
 
-Você ainda pode usar dispositivos gerenciados fora das regiões de inglês sem uma interrupção no serviço de Área de Trabalho Gerenciada da Microsoft. Por exemplo, um funcionário baseado no Reino Unido pode trabalhar com segurança e receber atualizações em seu dispositivo gerenciado enquanto estiver viajando na Ásia, Europa ou Na América do Sul. 
+Você ainda pode usar dispositivos gerenciados fora de regiões de fala inglesa sem uma interrupção no serviço de Área de Trabalho Gerenciada da Microsoft. Por exemplo, um funcionário baseado no Reino Unido pode trabalhar com segurança e receber atualizações em seu dispositivo gerenciado durante a viagem para Ásia, Europa ou América do Sul. 
 
-Para obter mais informações sobre o suporte do usuário com a Área de Trabalho Gerenciada da Microsoft, consulte [Suporte para Área de Trabalho Gerenciada da Microsoft.](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support)
+Para obter mais informações sobre o suporte do usuário com a Área de Trabalho Gerenciada da Microsoft, consulte [Support for Microsoft Managed Desktop](./support.md).
 
 ## <a name="availability-of-the-service"></a>Disponibilidade do serviço
 
-As organizações dos seguintes países podem se inscrever na Área de Trabalho Gerenciada da Microsoft:
+As organizações nos seguintes países podem se inscrever na Área de Trabalho Gerenciada da Microsoft:
 
 - Estados Unidos
-- Canadá (excluindo o Canadá)
+- Canadá (excluindo Quebec)
 - Reino Unido
 - Irlanda
 - Bélgica
@@ -46,4 +46,4 @@ As organizações dos seguintes países podem se inscrever na Área de Trabalho 
 - Austrália
 - Nova Zelândia
 
-Os usuários e administradores nessas regiões devem usar o inglês para seus dispositivos e ferramentas de gerenciamento. 
+Os usuários e administradores nessas regiões devem usar o inglês para seus dispositivos e ferramentas de gerenciamento.

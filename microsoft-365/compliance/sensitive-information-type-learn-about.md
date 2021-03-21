@@ -16,16 +16,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 13dee9d5744639149960a16adcf36b7ebe5718f7
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+ms.openlocfilehash: 12a4e8873cb7212bfa7dde12bba9e98528cd859a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766396"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919667"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Aprenda sobre os tipos de informações confidenciais
 
-Identificar e classificar itens confidenciais que estão sob o controle de suas organizações é a primeira etapa da disciplina [proteção de informações.](protect-information.md)  O Microsoft 365 fornece três maneiras de identificar itens para que possam ser classificados:
+Identificar e classificar itens confidenciais que estão sob o controle de suas organizações é a primeira etapa da disciplina [proteção de informações.](./information-protection.md)  O Microsoft 365 fornece três maneiras de identificar itens para que possam ser classificados:
 
 - manualmente pelos usuários
 - reconhecimento de padrão automatizado, como tipos de informações confidenciais

@@ -40,6 +40,8 @@
       href: ../admin/manage/remove-licenses-from-users.md
     - name: Migrar usuários para uma assinatura diferente
       href: subscriptions/move-users-different-subscription.md
+    - name: Gerenciar políticas de declaração automática
+      href: licenses/manage-auto-claim-policies.md
     - name: Entenda as assinaturas e licenças
       href: licenses/subscriptions-and-licenses.md
 - name: Contas e pagamentos
@@ -67,7 +69,7 @@
     - name: Gerenciar contas de cobrança
       href: manage-billing-accounts.md
     - name: Associar um locatário à minha conta de cobrança
-      href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
+      href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business
 - name: Gerencie relacionamentos com seus parceiros
   href: manage-partners.md
 - name: Fechar sua conta

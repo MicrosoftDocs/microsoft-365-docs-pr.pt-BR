@@ -16,19 +16,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente um rótulo a arquivos e emails, ou você pode solicitar aos usuários que selecionem o rótulo que você recomenda.
-ms.openlocfilehash: 4eeedca64d1b2244355bb3e0e233969bdd02810c
-ms.sourcegitcommit: a7d1b29a024b942c7d0d8f5fb9b5bb98a0036b68
+ms.openlocfilehash: d645d185524d111af4eafed4b5fba06483525a85
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461886"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920071"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Aplicar um rótulo de confidencialidade automaticamente ao conteúdo
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Para informações sobre a aplicação automática de uma etiqueta de confidencialidade no Azure Purview (visualização), veja [Automaticamente rotular seu conteúdo no Azure Purview](https://docs.microsoft.com/azure/purview/create-sensitivity-label).
+> Para informações sobre a aplicação automática de uma etiqueta de confidencialidade no Azure Purview (visualização), veja [Automaticamente rotular seu conteúdo no Azure Purview](/azure/purview/create-sensitivity-label).
 
 Quando você cria um rótulo de confidencialidade, é possível atribuir automaticamente esse rótulo a arquivos e emails quando ele corresponder às condições que você especificar.
 
@@ -64,7 +64,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     - Máximo de 25.000 arquivos rotulados automaticamente no seu locatário por dia.
     - Máximo de 10 políticas de rotulagem automática por locatário, cada uma visando até 10 sites (SharePoint ou OneDrive).
     - Os valores existentes para modificado, modificado por e a data não são alterados como resultado das políticas de rotulagem automática - tanto para o modo de simulação e quanto quando os rótulos são aplicados.
-    - Quando o rótulo aplica criptografia, o [emissor de Gerenciamento de Direitos e proprietário de Gerenciamento de Direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a conta que modificou o arquivo pela última vez.
+    - Quando o rótulo aplica criptografia, o [emissor de Gerenciamento de Direitos e proprietário de Gerenciamento de Direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a conta que modificou o arquivo pela última vez.
 
     Específico para rotulagem automática do Exchange:
     - Diferentemente da rotulagem manual ou rotulagem automática com aplicativos do Office, os anexos do Office (arquivos do Word, Excel e PowerPoint) e os PDFs também são verificados quanto às condições especificadas na política de rotulagem automática. Quando há uma correspondência, o email é rotulado, mas não o anexo.
@@ -72,7 +72,7 @@ Há dois métodos diferentes para aplicar automaticamente um rótulo de confiden
     - Se você possui regras de fluxo de correio do Exchange ou políticas de prevenção contra perda de dados (DLP) que aplicam a criptografia de IRM: Quando o conteúdo é identificado por essas regras ou políticas e por uma política de rotulagem automática, o rótulo é aplicado. Se esse rótulo aplicar a criptografia, as configurações de IRM das regras de fluxo de email do Exchange ou políticas DLP serão ignoradas. No entanto, se esse rótulo não aplicar criptografia, as configurações de IRM das regras de fluxo de email ou políticas DLP serão aplicadas além do rótulo.
     - Um email com criptografia de IRM sem rótulo será substituído por um rótulo com todas as configurações de criptografia quando houver uma correspondência usando rotulagem automática.
     - Os emails de entrada são rotulados quando houver uma correspondência com as condições de rotulagem automática. No entanto, se o rótulo estiver configurado para criptografia, essa criptografia não será aplicada.
-    - Quando o rótulo aplica criptografia, o [emissor do Gerenciamento de direitos e proprietário do Gerenciamento de direitos](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a pessoa que envia o e-mail.
+    - Quando o rótulo aplica criptografia, o [emissor do Gerenciamento de direitos e proprietário do Gerenciamento de direitos](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) é a pessoa que envia o e-mail.
     
 
 ## <a name="compare-auto-labeling-for-office-apps-with-auto-labeling-policies"></a>Comparar rotulagem automática para aplicativos do Office com políticas de rotulagem automática
@@ -151,7 +151,7 @@ Para saber mais sobre esses classificadores, confira [Saiba mais sobre classific
 
 Durante o período de visualização desta opção, os seguintes aplicativos são compatíveis com classificadores treináveis de rótulos de confidencialidade:
 
-- Microsoft 365 Apps para empresas ([antes Office 365 ProPlus](https://docs.microsoft.com/deployoffice/name-change)) para Windows, agora sendo distribuído no [Canal Atual](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) na versão 2006 e posterior:
+- Microsoft 365 Apps para empresas ([antes Office 365 ProPlus](/deployoffice/name-change)) para Windows, agora sendo distribuído no [Canal Atual](/deployoffice/overview-update-channels#current-channel-overview) na versão 2006 e posterior:
     - Word
     - Excel
     - PowerPoint
@@ -192,7 +192,7 @@ Específico para o cliente de rotulagem unificada da Proteção de Informações
 
 -  A rotulagem automática e recomendada se aplica ao Word, Excel e PowerPoint quando você salva um documento e ao Outlook ao enviar um email.
 
-- Para que o Outlook dê suporte a rótulos recomendados, você deve configurar primeiro uma [configuração de política avançada](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#enable-recommended-classification-in-outlook).
+- Para que o Outlook dê suporte a rótulos recomendados, você deve configurar primeiro uma [configuração de política avançada](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#enable-recommended-classification-in-outlook).
 
 - As informações confidenciais podem ser detectadas no corpo de texto, em documentos e emails, além de cabeçalhos e rodapés - mas não na linha de assunto ou nos anexos do email.
 
@@ -272,7 +272,7 @@ Por fim, você pode usar o modo de simulação para fornecer uma aproximação d
     
     Por exemplo, para um usuário no locatário contoso que tenha um nome de usuário "rsimone": `https://contoso-my.sharepoint.com/personal/rsimone_contoso_onmicrosoft_com`
     
-    Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, confira [Obter uma lista de todas as URLs de usuário do OneDrive em sua organização](https://docs.microsoft.com/onedrive/list-onedrive-urls).
+    Para verificar a sintaxe do seu locatário e identificar URLs dos usuários, confira [Obter uma lista de todas as URLs de usuário do OneDrive em sua organização](/onedrive/list-onedrive-urls).
 
 7. Para a página **Configurar regras comuns ou avançadas**: Mantenha o padrão das **Regras comuns** para definir regras que identificam o conteúdo a ser rotulado em todos os locais selecionados. Se você precisar de regras diferentes por local, selecione **Configurações avançadas**. Em seguida, selecione **Avançar**.
     
@@ -326,9 +326,9 @@ Você também pode ver os resultados da política de rotulagem automática usand
 
 ### <a name="use-powershell-for-auto-labeling-policies"></a>Usar o PowerShell para políticas de rotulamento automático
 
-Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](https://docs.microsoft.com/powershell/exchange/scc-powershell) para criar e configurar políticas de rotulamento automático. Isso significa que agora você pode criar um script completo da criação e da manutenção das políticas de rotulamento automático, que também fornece um método mais eficiente para especificar várias URLs para os locais do OneDrive e do SharePoint.
+Agora você pode usar o [Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/scc-powershell) para criar e configurar políticas de rotulamento automático. Isso significa que agora você pode criar um script completo da criação e da manutenção das políticas de rotulamento automático, que também fornece um método mais eficiente para especificar várias URLs para os locais do OneDrive e do SharePoint.
 
-Antes de executar os comandos no PowerShell, você deve primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
+Antes de executar os comandos no PowerShell, você deve primeiro [conectar-se com o Centro de Segurança e Conformidade do PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 Para criar uma nova política de rotulamento automático: 
 
@@ -356,10 +356,10 @@ Para uma política de rotulamento automático existente, esse comando cria uma n
 
 Para mais informações sobre os cmdlets do PowerShell que oferecem suporte a políticas de rotulação automática, seus parâmetros disponíveis e alguns exemplos, confira a ajuda do cmdlet a seguir:
 
-- [Get-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/get-autosensitivitylabelpolicy)
-- [New-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelpolicy)
-- [New-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/new-autosensitivitylabelrule)
-- [Remove-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelpolicy)
-- [Remove-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/remove-autosensitivitylabelrule)
-- [Set-AutoSensitivityLabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelpolicy)
-- [Set-AutoSensitivityLabelRule](https://docs.microsoft.com/powershell/module/exchange/set-autosensitivitylabelrule)
+- [Get-AutoSensitivityLabelPolicy](/powershell/module/exchange/get-autosensitivitylabelpolicy)
+- [New-AutoSensitivityLabelPolicy](/powershell/module/exchange/new-autosensitivitylabelpolicy)
+- [New-AutoSensitivityLabelRule](/powershell/module/exchange/new-autosensitivitylabelrule)
+- [Remove-AutoSensitivityLabelPolicy](/powershell/module/exchange/remove-autosensitivitylabelpolicy)
+- [Remove-AutoSensitivityLabelRule](/powershell/module/exchange/remove-autosensitivitylabelrule)
+- [Set-AutoSensitivityLabelPolicy](/powershell/module/exchange/set-autosensitivitylabelpolicy)
+- [Set-AutoSensitivityLabelRule](/powershell/module/exchange/set-autosensitivitylabelrule)

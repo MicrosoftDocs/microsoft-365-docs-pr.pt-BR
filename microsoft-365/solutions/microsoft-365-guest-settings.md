@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
-ms.openlocfilehash: 997ce1375660f1a0e87d0babe647caada09e9e93
-ms.sourcegitcommit: 47de4402174c263ae8d70c910ca068a7581d04ae
+ms.openlocfilehash: c87f1d0ea8a35d7685f91c1b20a709c58ec4d040
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49663650"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920211"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 
@@ -35,7 +35,7 @@ Este artigo é uma referência para as diversas configurações que podem afetar
 O Azure Active Directory é o serviço de diretório usado pelo Microsoft 365. As configurações de relações organizacionais do Azure Active Directory afetam diretamente o compartilhamento no Teams, Grupos do Microsoft 365, SharePoint e OneDrive.
 
 > [!NOTE]
-> Essas configurações afetam apenas o SharePoint quando a [integração do SharePoint e OneDrive com o Azure AD B2B (versão prévia)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) tiver sido configurada. A tabela a seguir supõe que ela tenha sido configurada.
+> Essas configurações afetam apenas o SharePoint quando a [integração do SharePoint e OneDrive com o Azure AD B2B (versão prévia)](/sharepoint/sharepoint-azureb2b-integration-preview) tiver sido configurada. A tabela a seguir supõe que ela tenha sido configurada.
 
 ### <a name="organizational-relationships-settings"></a>Configurações das relações organizacionais
 
@@ -49,7 +49,7 @@ O Azure Active Directory é o serviço de diretório usado pelo Microsoft 365. A
 |Somente administradores e usuários na função emissor do convite convidado podem convidar|Sim|Quando definido como **Sim**, os administradores podem convidar convidados por meio do Azure AD e por experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint. Quando definido como **Não**, não podem.|
 |Membros podem convidar|Sim|Quando definido como **Sim**, os membros do Azure AD podem convidar convidados por meio do Azure AD. Quando definido como **Não**, não podem. Quando definido como **Sim**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário. Quando definido como **Não**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário, mas os proprietários devem ser administradores globais para aprovar. <br><br>Observe que a frase **Membros podem convidar** se refere aos membros no Azure AD (em vez de convidados) e não aos membros do site ou do grupo no Microsoft 365. <br><br>Isso é idêntico à configuração **Permitir que usuários adicionem novos convidados à organização** na Segurança e Privacidade no Microsoft 365.|
 |Os convidados podem convidar|Sim|Quando definido como **Sim**, os convidados no diretório podem convidar outros convidados para colaborar em recursos do Azure AD e em arquivos e pastas no SharePoint e no OneDrive. Quando definido como **Não**, não podem. <br><br>Observe que **Permitir que usuários externos encontrem contas de usuários no diretório digitando o endereço de email em correspondência exata** deve ser habilitada no centro de administração do SharePoint para convidados compartilharem arquivos e pastas com outros convidados.|
-|Habilitar senha de uso único por email para convidados (versão prévia)|Não|Quando definido como **Sim**, os convidados sem um MSA ou uma conta corporativa ou de estudante podem [autenticar com o Azure ad usando uma senha de uso único](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode). Quando definido como **Não**, os usuários precisam criar uma Conta Microsoft para autenticação. Essa configuração deve ser definida como **Sim** na [integração do SharePoint e OneDrive com o Azure AD B2B (versão prévia)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) para funcionar.|
+|Habilitar senha de uso único por email para convidados (versão prévia)|Não|Quando definido como **Sim**, os convidados sem um MSA ou uma conta corporativa ou de estudante podem [autenticar com o Azure ad usando uma senha de uso único](/azure/active-directory/b2b/one-time-passcode). Quando definido como **Não**, os usuários precisam criar uma Conta Microsoft para autenticação. Essa configuração deve ser definida como **Sim** na [integração do SharePoint e OneDrive com o Azure AD B2B (versão prévia)](/sharepoint/sharepoint-azureb2b-integration-preview) para funcionar.|
 |Restrições de colaboração|Permitir o envio de convites para qualquer domínio|Essa configuração permite especificar uma lista de domínios permitidos ou bloqueados para compartilhamento. Quando domínios permitidos são especificados, convites de compartilhamento só poderão ser enviados para esses domínios. Quando domínios negados são especificados, convites de compartilhamento não poderão ser enviados para esses domínios.<br><br> Essa configuração afeta as experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint. Você pode permitir ou bloquear domínios em um nível mais granular usando a filtragem de domínios no SharePoint ou Teams.|
 
 Essas configurações afetam como os usuários são convidados ao diretório. Elas não afetam o compartilhamento com convidados que já estão no diretório.
@@ -81,7 +81,7 @@ O Centro de administração do Microsoft 365 tem configurações no nível da or
 |Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo|Habilitado|Quando definida como **Habilitado**, convidados podem acessar o conteúdo de grupos. Quando definido como **Desabilitado**, eles não podem. Essa configuração deve estar **Habilitada** para qualquer cenário em que os convidados estejam interagindo com o Teams ou Grupos do Microsoft 365.|
 |Permitir que os proprietários do grupo adicionem pessoas fora da organização aos grupos|Ativado|Quando está **Habilitado**, proprietários dos grupos do Microsoft 365 ou do Teams podem convidar novos convidados ao grupo. Quando está **Desabilitado**, os proprietários só poderão convidar convidados que já estejam no diretório.|
 
-Essas configurações estão no nível da organização. Confira o artigo [Criar configurações de um grupo específico](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#create-settings-for-a-specific-group) para obter informações sobre como alterar essas configurações no nível de grupo usando o PowerShell.
+Essas configurações estão no nível da organização. Confira o artigo [Criar configurações de um grupo específico](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#create-settings-for-a-specific-group) para obter informações sobre como alterar essas configurações no nível de grupo usando o PowerShell.
 
 ## <a name="teams"></a>Teams
 
@@ -166,7 +166,7 @@ Como o OneDrive é uma hierarquia de sites no SharePoint, as configurações de 
 |**Configuração**|**Padrão**|**Descrição**|
 |:-----|:-----|:-----|
 |Limitar o compartilhamento externo por domínio|Desabilitado|Essa configuração permite especificar uma lista de domínios permitidos ou bloqueados para compartilhamento. Quando domínios permitidos são especificados, convites de compartilhamento só poderão ser enviados para esses domínios. Quando domínios negados são especificados, convites de compartilhamento não poderão ser enviados para esses domínios.<br><br> Essa configuração afeta todos os sites do SharePoint e do OneDrive na organização.|
-|Convidados devem entrar com a mesma conta que receberam os convites de compartilhamento.|Desabilitado|Impede que os convidados resgatem os convites de compartilhamento de sites usando um endereço de email diferente do envio do convite.<br><br>[A integração do SharePoint e do OneDrive com o Azure AD B2B (versão prévia)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) não usa essa configuração porque todos os convidados são adicionados ao diretório com base no endereço de email do envio do convite. Endereços de email alternativos não podem ser usados para acessar o site.|
+|Convidados devem entrar com a mesma conta que receberam os convites de compartilhamento.|Desabilitado|Impede que os convidados resgatem os convites de compartilhamento de sites usando um endereço de email diferente do envio do convite.<br><br>[A integração do SharePoint e do OneDrive com o Azure AD B2B (versão prévia)](/sharepoint/sharepoint-azureb2b-integration-preview) não usa essa configuração porque todos os convidados são adicionados ao diretório com base no endereço de email do envio do convite. Endereços de email alternativos não podem ser usados para acessar o site.|
 |Permitir que convidados compartilhem itens que não pertencem a eles|Habilitado|Quando está **Habilitado**, os convidados podem compartilhar itens que eles não possuem com outros usuários ou convidados. Quando está **Desabilitado**, não podem. Os convidados sempre poderão compartilhar itens que têm controle completo.|
 
 ### <a name="sharepoint-and-onedrive-file-and-folder-link-settings"></a>Configurações de link para o arquivo e pasta do SharePoint e do OneDrive
@@ -209,7 +209,7 @@ Como essas configurações estão sujeitas às configurações de toda a organiz
 
 Você pode definir as permissões de compartilhamento de convidado para cada site do SharePoint. Essa configuração se aplica ao compartilhamento do site e ao compartilhamento de arquivo e pasta. (O compartilhamento de *Qualquer pessoa* não está disponível no compartilhamento do site. Se escolher **Qualquer pessoa**, os usuários poderão compartilhar arquivos e pastas usando os links para *Qualquer pessoa* e o site em si com convidados novos e existentes.
 
-Se o site tiver um rótulo de sensibilidade aplicado, esse rótulo poderá controlar as configurações de compartilhamento externo. Para mais informações, veja [Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Se o site tiver um rótulo de sensibilidade aplicado, esse rótulo poderá controlar as configurações de compartilhamento externo. Para mais informações, veja [Use rótulos de confidencialidade para proteger o conteúdo do Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](../compliance/sensitivity-labels-teams-groups-sites.md).
 
 **Navegação:** Centro de administração do SharePoint > sites ativos > selecione site > guia políticas > Editar compartilhamento externo
 
@@ -251,8 +251,8 @@ A tabela a seguir exibe a configuração de compartilhamento padrão para cada t
 
 ## <a name="see-also"></a>Confira também
 
-[Visão geral de compartilhamento externo do SharePoint e do OneDrive](https://docs.microsoft.com/sharepoint/external-sharing-overview)
+[Visão geral de compartilhamento externo do SharePoint e do OneDrive](/sharepoint/external-sharing-overview)
 
-[Acesso para convidado no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/guest-access)
+[Acesso para convidado no Microsoft Teams](/MicrosoftTeams/guest-access)
 
 [Adicionar convidados a grupos do Microsoft 365](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)

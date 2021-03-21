@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 ms.custom: seo-marvel-apr2020
 description: Como ativar ou desativar o recurso de pesquisa de log de auditoria no Centro de Conformidade & segurança para habilitar ou desabilitar a capacidade dos administradores de pesquisar o log de auditoria.
-ms.openlocfilehash: 3f3e1b913dd163e74f9e5359de772dfcbf3bd786
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: aecd1d47592b9a5e2f134b1d9db9ff203b815b18
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423672"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919277"
 ---
 # <a name="turn-audit-log-search-on-or-off"></a>Ativar ou desativar a pesquisa de log de auditoria
 
@@ -41,7 +41,7 @@ O log de Auditoria é ativado por padrão para organizações empresariais Micro
     > [!NOTE]
     > Os usuários devem ter permissões atribuídas no Exchange Online para ativar ou desativar a pesquisa de log de auditoria. Se você atribuir aos usuários  a função & Logs de Auditoria na página Permissões no Centro de Conformidade e Segurança, eles não poderão ativar ou desativar a pesquisa de log de auditoria. Isso porque o cmdlet subjacente é um cmdlet do PowerShell do Exchange Online. 
     
-- Para obter instruções passo a passo sobre como pesquisar o log de auditoria, consulte Pesquisar o log de auditoria no Centro de Conformidade & [Segurança.](search-the-audit-log-in-security-and-compliance.md) Para obter mais informações sobre a API de Atividade de Gerenciamento do Microsoft 365, consulte [Get started with Microsoft 365 Management APIs](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis).
+- Para obter instruções passo a passo sobre como pesquisar o log de auditoria, consulte Pesquisar o log de auditoria no Centro de Conformidade & [Segurança.](search-the-audit-log-in-security-and-compliance.md) Para obter mais informações sobre a API de Atividade de Gerenciamento do Microsoft 365, consulte [Get started with Microsoft 365 Management APIs](/office/office-365-management-api/get-started-with-office-365-management-apis).
 
 - Para verificar se a pesquisa de log de auditoria está ativada, você pode executar o seguinte comando em Exchange Online PowerShell:
 
@@ -71,7 +71,7 @@ Se a pesquisa de log de auditoria não estiver 100% 100% 100% 2016, você poder�
 
 ### <a name="use-powershell-to-turn-on-audit-log-search"></a>Usar o PowerShell para ativar a pesquisa de log de auditoria
 
-1. [Conectar-se ao PowerShell do Exchange Online ](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Conectar-se ao PowerShell do Exchange Online ](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Execute o seguinte comando do PowerShell para ativar a pesquisa de log de auditoria no Office 365.
 
@@ -85,7 +85,7 @@ Se a pesquisa de log de auditoria não estiver 100% 100% 100% 2016, você poder�
 
 Você precisa usar o PowerShell do Exchange Online para desativar a pesquisa de log de auditoria.
   
-1. [Conectar-se ao PowerShell do Exchange Online ](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
+1. [Conectar-se ao PowerShell do Exchange Online ](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. Execute o seguinte comando do PowerShell para desativar a pesquisa de log de auditoria.
 

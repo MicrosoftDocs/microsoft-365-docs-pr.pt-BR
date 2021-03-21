@@ -1,5 +1,5 @@
 ---
-title: Notificações de spam para o usuário final no Microsoft 365
+title: Notificações de spam do usuário final no Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,15 +18,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Os administradores podem saber mais sobre as notificações de spam do usuário final para mensagens em quarentena no Exchange Online Protection (EOP).
+description: Os administradores podem aprender sobre notificações de spam do usuário final para mensagens em quarentena no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bb347f7fd3d3793b563714e8116316b30165ef9a
-ms.sourcegitcommit: 786f90a163d34c02b8451d09aa1efb1e1d5f543c
+ms.openlocfilehash: 617ff9b6325ac2d5d95d8bc591b9e4ebb7f5434d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50287540"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921115"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Usar notificações de spam do usuário para liberar e relatar mensagens em quarentena
 
@@ -37,13 +37,13 @@ ms.locfileid: "50287540"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](office-365-atp.md)
 - [Microsoft 365 Defender](../mtp/microsoft-threat-protection.md)
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena retém mensagens potencialmente perigosas ou indesejadas. Para obter mais informações, consulte [Mensagens em quarentena no EOP.](quarantine-email-messages.md)
+Nas organizações do Microsoft 365 com caixas de correio no Exchange Online ou em organizações autônomas do Exchange Online Protection (EOP) sem caixas de correio do Exchange Online, a quarentena retém mensagens potencialmente perigosas ou indesejadas. Para obter mais informações, consulte [Mensagens em quarentena no EOP](quarantine-email-messages.md).
 
-Por padrão, as notificações de spam do usuário final são desabilitadas nas políticas anti-spam. Quando um administrador habilita as notificações de spam para o usuário final, os [destinatários](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)(incluindo caixas de correio compartilhadas com o autopping habilitado) receberão notificações periódicas sobre suas mensagens que foram colocadas em quarentena como spam, email em massa ou (a partir de abril de 2020) phishing.
+Por padrão, as notificações de spam do usuário final são desabilitadas em políticas anti-spam. Quando um administrador habilita notificações de spam do usuário final, os [destinatários](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)(incluindo caixas de correio compartilhadas com automação habilitada) receberão notificações periódicas sobre suas mensagens que foram colocadas em quarentena como spam, email em massa ou phishing (a partir de abril de 2020).
 
-Para caixas de correio compartilhadas, as notificações de spam do usuário final só são suportadas para usuários que têm permissão FullAccess para a caixa de correio compartilhada. Para obter mais informações, [consulte Usar o EAC para editar a delegação de caixa de correio compartilhada.](https://docs.microsoft.com/Exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation)
+Para caixas de correio compartilhadas, as notificações de spam do usuário final só são suportadas para usuários que têm permissão FullAccess para a caixa de correio compartilhada. Para obter mais informações, [consulte Usar o EAC para editar a delegação de caixa de correio compartilhada.](/Exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation)
 
-A notificação de spam do usuário final não é suportada para grupos.
+A notificação de Spam do Usuário Final não é suportada para grupos.
 
 > [!NOTE]
 > As mensagens que foram colocadas em quarentena como phishing de alta confiança, malware ou por regras de fluxo de emails (também conhecidas como regras de transporte) estão disponíveis apenas para administradores. Para obter mais informações, consulte [Gerenciar mensagens e arquivos em quarentena como administrador no EOP](manage-quarantined-messages-and-files.md).
@@ -52,17 +52,17 @@ Uma notificação de spam do usuário final contém as seguintes informações p
 
 - **Remetente**: o nome de envio e o endereço de email da mensagem em quarentena.
 
-- **Assunto**: o texto da linha de assunto da mensagem em quarentena.
+- **Assunto**: O texto da linha de assunto da mensagem em quarentena.
 
-- **Data:** a data e a hora (em UTC) em que a mensagem foi colocada em quarentena.
+- **Data**: a data e a hora (em UTC) em que a mensagem foi colocada em quarentena.
 
-- **Bloquear Remetente:** clique neste link para adicionar o remetente à sua lista de Remetentes Bloqueados. Para obter mais informações, [consulte Bloquear um remetente de email.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
+- **Bloquear Remetente**: clique neste link para adicionar o remetente à sua lista de Remetentes Bloqueados. Para obter mais informações, consulte [Bloquear um remetente de email](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
 
-- **Versão:** para mensagens de spam (não phishing), você pode liberar a mensagem aqui sem entrar em quarentena no Centro de Conformidade e & Segurança.
+- **Versão**: para mensagens de spam (não phishing), você pode liberar a mensagem aqui sem ir para Quarentena do Centro de Conformidade & Segurança.
 
-- **Review**: Click this link to go to Quarantine in the Security & Compliance Center, where you can (depending on why the message was quarantined) view, release, delete or report your quarantined messages. Para obter mais informações, [consulte Encontrar e liberar mensagens em quarentena como um usuário no EOP](find-and-release-quarantined-messages-as-a-user.md).
+- **Revisão**: clique neste link para ir para Quarentena no Centro de Conformidade de Segurança &, onde você pode (dependendo do motivo pelo qual a mensagem foi colocada em quarentena), liberar, excluir ou relatar suas mensagens em quarentena. Para obter mais informações, [consulte Find and release quarantined messages as a user in EOP](find-and-release-quarantined-messages-as-a-user.md).
 
-![Exemplo de notificação de spam para o usuário final](../../media/end-user-spam-notification.png)
+![Exemplo de notificação de spam do usuário final](../../media/end-user-spam-notification.png)
 
 > [!NOTE]
-> Um remetente bloqueado ainda pode enviar emails para você. Todas as mensagens desse remetente que a fizerem para sua caixa de correio serão movidas imediatamente para a pasta Lixo Eletrônico. As mensagens futuras desse remetente irão para sua pasta Lixo Eletrônico ou para a quarentena do usuário final. Se você quiser excluir essas mensagens na chegada, em vez de deixar em quarentena, [use](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) as Regras de fluxo de emails (também conhecidas como regras de transporte) para excluir as mensagens na chegada.
+> Um remetente bloqueado ainda pode enviar emails. Todas as mensagens desse remetente que o fizerem para sua caixa de correio serão movidas imediatamente para a pasta Lixo Eletrônico. Mensagens futuras desse remetente irão para sua pasta Lixo Eletrônico ou para a quarentena do usuário final. Se você quiser excluir essas mensagens na chegada, em vez de quarantir-las, [use](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) As Regras de fluxo de emails (também conhecidas como regras de transporte) para excluir as mensagens na chegada.

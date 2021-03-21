@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como os exemplos de organizações implantam e atualizam usando canais.
-ms.openlocfilehash: 88567fedd92f01885c4971acc273a676c3e82de8
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: a91ee948ca2051ceccb3883b2dd0198c1070bc03
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686149"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919057"
 ---
 # <a name="deployment-and-update-channel-example-configurations"></a>Exemplo de configurações de canal de implantação e atualização
 
@@ -41,9 +41,9 @@ Clique no link no **Exemplo** coluna para percorrer os estágios e os grupos de 
 
 | Oferta de cliente/canal | Windows 10 | Aplicativos do Microsoft 365 para Empresas (Windows 10) | Exemplo |
 |:-------|:-------|:-----|:-------|
-| Ideal para as pessoas que desejam acesso antecipado assim que tiverem prontas. | Canal Semestral | [Canal Atual](https://docs.microsoft.com/deployoffice/overview-update-channels#current-channel-overview) | [Versões mais recentes](deploy-update-channels-examples-rapid-deploy.md) |
-| Ideal para empresas que desejam acesso antecipado com mais previsibilidade. | Canal Semestral | [Canal Empresarial Mensal](https://docs.microsoft.com/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) |  |
-| Ideal para empresas que precisam de grandes testes de TI antes de cada atualização. | Canal Semestral | [Canal Empresarial Semestral](https://docs.microsoft.com/deployoffice/overview-update-channels#semi-annual-enterprise-channel-overview) |  |
+| Ideal para as pessoas que desejam acesso antecipado assim que tiverem prontas. | Canal Semestral | [Canal Atual](/deployoffice/overview-update-channels#current-channel-overview) | [Versões mais recentes](deploy-update-channels-examples-rapid-deploy.md) |
+| Ideal para empresas que desejam acesso antecipado com mais previsibilidade. | Canal Semestral | [Canal Empresarial Mensal](/deployoffice/overview-update-channels#monthly-enterprise-channel-overview) |  |
+| Ideal para empresas que precisam de grandes testes de TI antes de cada atualização. | Canal Semestral | [Canal Empresarial Semestral](/deployoffice/overview-update-channels#semi-annual-enterprise-channel-overview) |  |
 |||||
 
 

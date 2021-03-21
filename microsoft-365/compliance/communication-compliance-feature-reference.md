@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 30ad9bf968fa91218d15a6f71785d5299e664ddc
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 48cc75276e4e3791fa16520df5a4c392c23a0cd5
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838494"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919907"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -88,7 +88,7 @@ Para atualizar as funções desses usuários para a nova estrutura de grupo de f
 
 ## <a name="supervised-users"></a>Usuários supervisionados
 
-Antes de começar a usar a conformidade de comunicação, você deve determinar quem precisa de suas comunicações revisadas. Na política, os endereços de email do usuário identificam indivíduos ou grupos de pessoas a supervisionar. Alguns exemplos desses grupos são Grupos do Microsoft 365, listas de distribuição baseadas no Exchange, comunidades do Yammer e canais do Microsoft Teams. Você também pode excluir usuários ou grupos específicos da verificação com um grupo de exclusão específico ou uma lista de grupos.
+Antes de começar a usar a conformidade de comunicação, você deve determinar quem precisa de suas comunicações revisadas. Na política, os endereços de email do usuário identificam indivíduos ou grupos de pessoas a supervisionar. Alguns exemplos desses grupos são Grupos do Microsoft 365, listas de distribuição baseadas no Exchange, comunidades do Yammer e canais do Microsoft Teams. Você também pode excluir usuários ou grupos específicos da verificação com um grupo de exclusão específico ou uma lista de grupos. Para obter mais informações sobre tipos de grupos com suporte em políticas de conformidade de comunicação, consulte [Get started with communication compliance](communication-compliance-configure.md#step-3-optional-set-up-groups-for-communication-compliance).
 
 >[!IMPORTANT]
 >Os usuários cobertos por políticas de conformidade de comunicação devem ter uma licença de Conformidade do Microsoft 365 E5, uma licença do Office 365 Enterprise E3 com o complemento conformidade avançada ou serem incluídos em uma assinatura do Office 365 Enterprise E5. Se você não tiver um plano Enterprise E5 existente e quiser tentar a conformidade de comunicação, inscreva-se para uma avaliação do [Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).
@@ -112,7 +112,7 @@ Com as políticas de conformidade de comunicação, você pode optar por examina
 - **Microsoft Teams**: Comunicações de chat em canais públicos e privados do Microsoft Teams e chats individuais podem ser verificados. Quando os usuários são atribuídos a uma política de conformidade de comunicação com a cobertura do Microsoft Teams selecionada, as comunicações de chat para os usuários são monitoradas automaticamente em todos os Microsoft Teams onde os usuários são membros. A cobertura do Microsoft Teams é incluída automaticamente para modelos de política pré-definidos e é selecionada por padrão no modelo de política personalizada. Os chats do Teams que coincidem com as condições da política de conformidade de comunicação podem levar até 48 horas para ser processado. Use as seguintes configurações de gerenciamento de grupo para supervisionar chats individuais de usuários e comunicações de canal no Teams:
 
     - **Para comunicações de chat do Teams:** Atribua usuários individuais ou atribua um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um para um ou um para muitos.
-    - **Para comunicações do Teams Channel:** Atribua cada canal do Microsoft Teams ou grupo do Microsoft 365 que você deseja verificar que contém um usuário específico para a política de conformidade de comunicação. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou grupos do Microsoft 365, adicione esses novos canais e grupos à política de conformidade de comunicação.
+    - **Para comunicações do Teams Channel:** Atribua cada canal do Microsoft Teams ou grupo do Microsoft 365 que você deseja verificar que contém um usuário específico para a política de conformidade de comunicação. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou grupos do Microsoft 365, adicione esses novos canais e grupos à política de conformidade de comunicação. Se qualquer membro do canal for um usuário  supervisionado dentro de uma política e a direção de entrada estiver configurada em uma política, todas as mensagens enviadas dentro do canal estão sujeitas a análises e possíveis combinações de política (mesmo para usuários no canal que não são explicitamente supervisionados). Por exemplo, o Usuário A é o proprietário ou membro de um canal. Os usuários B e User C são membros do mesmo canal e usam idioma que é corresponde à política de idioma ofensivo que supervisiona apenas o Usuário A. O usuário B e o usuário C criam jogos de política para conversas dentro do canal, mesmo que não sejam supervisionados diretamente na política de idioma ofensivo. As conversas do Teams entre o Usuário B e o Usuário C que estão fora do canal que inclui o Usuário A não estariam sujeitas à política de idioma ofensivo que inclui o Usuário A. Para excluir membros do canal da supervisão quando outros membros do  canal são explicitamente supervisionados, desligue a configuração de direção de comunicação de entrada na política de conformidade de comunicação aplicável.
     - Para comunicações de chat do Teams com ambientes de **email híbridos:** a conformidade de comunicação pode monitorar mensagens de chat para usuários para organizações com uma implantação local do Exchange ou um provedor de email externo que tenha habilitado o Microsoft Teams. Você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas para monitorar. Ao criar uma política de conformidade de comunicação,  você atribuirá esse grupo de distribuição como a seleção usuários supervisionados e grupos no assistente de política.
 
     >[!IMPORTANT]
@@ -428,7 +428,7 @@ Conclua as etapas a seguir para excluir um fluxo do Power Automate:
 4. Na página **Fluxos do Power Automate,** selecione fluxo a ser excluído. Selecione **Excluir** no menu de controle de fluxo.
 5. Na caixa de diálogo de confirmação de exclusão, selecione **Excluir** para remover o fluxo ou selecione **Cancelar** para sair da ação de exclusão.
 
-## <a name="reports-preview"></a>Relatórios (visualização)
+## <a name="reports"></a>Relatórios
 
 O novo **painel relatórios** é o local central para exibir todos os relatórios de conformidade de comunicação. Os widgets de relatório fornecem uma visão rápida dos insights mais comumente necessários para uma avaliação geral do status das atividades de conformidade de comunicação. As informações contidas nos widgets de relatório não são exportáveis. Relatórios detalhados fornecem informações detalhadas relacionadas a áreas de conformidade de comunicação específicas e oferecem a capacidade de filtrar, agrupar, classificar e exportar informações durante a revisão.
 

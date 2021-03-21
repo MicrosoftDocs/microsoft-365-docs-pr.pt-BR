@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 782c4fdda7e515d921063937f59b199510beaf08
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 41716fecd0c70c99fd61b090421cb3dc0277cb48
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838605"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919547"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 Ao [publicar](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) rótulos de confidencialidade do Centro de conformidade do Microsoft 365 ou de um centro de rotulagem equivalente, eles começarão a aparecer nos aplicativos do Office para que os usuários classifiquem e protejam os dados conforme eles são criados ou editados.
 
@@ -35,20 +35,20 @@ Use as informações neste artigo para ajudar você a gerenciar os rótulos de c
 
 Para usar rótulos de confidencialidade integrados aos aplicativos da área de trabalho do Office para Windows e Mac, use uma edição de assinatura do Office. Esse cliente de rotulagem não dá suporte a edições autônomas do Office, como o Office 2016 ou o Office 2019.
 
-Para usar rótulos de confidencialidade com essas edições autônomas do Office em computadores Windows, instale o cliente de rotulagem unificada da [Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2).
+Para usar rótulos de confidencialidade com essas edições autônomas do Office em computadores Windows, instale o cliente de rotulagem unificada da [Proteção de Informações do Azure](/azure/information-protection/rms-client/aip-clientv2).
 
 ## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>Suporte para recursos de rótulo de confidencialidade em aplicativos
 
 Para cada recurso, as tabelas a seguir listam a versão mínima do Office necessária para dar suporte aos rótulos de confidencialidade usando a rotulagem interna. Ou, se o recurso de rótulo estiver em visualização pública ou em revisão para uma versão futura. Use o [roteiro do Microsoft 365](https://aka.ms/MIPC/Roadmap) para obter detalhes sobre as versões futuras.
 
-As novas versões dos aplicativos do Office são disponibilizadas em diferentes momentos para diferentes canais de atualização. Para saber mais, incluindo como configurar seu canal de atualização para poder testar um novo recurso de rótulo no qual esteja interessado, confira[Visão geral dos canais de atualização para o Microsoft 365 Apps](https://docs.microsoft.com/DeployOffice/overview-update-channels). Os novos recursos que estão em visualização privada não estão incluídos na tabela, mas você poderá experimentar essas visualizações nomeando sua organização ao [Programa de visualização privada da Proteção de Informações da Microsoft](https://aka.ms/mip-preview).
+As novas versões dos aplicativos do Office são disponibilizadas em diferentes momentos para diferentes canais de atualização. Para saber mais, incluindo como configurar seu canal de atualização para poder testar um novo recurso de rótulo no qual esteja interessado, confira[Visão geral dos canais de atualização para o Microsoft 365 Apps](/DeployOffice/overview-update-channels). Os novos recursos que estão em visualização privada não estão incluídos na tabela, mas você poderá experimentar essas visualizações nomeando sua organização ao [Programa de visualização privada da Proteção de Informações da Microsoft](https://aka.ms/mip-preview).
 
 > [!NOTE]
-> Os nomes dos canais de atualização para aplicativos do Office foram alterados recentemente. Por exemplo, o Canal Mensal agora é o Canal Atual, e o Office Insider agora é o Canal Beta. Para saber mais, confira [Mudanças em canais de atualização para o Microsoft 365 Apps](https://docs.microsoft.com/deployoffice/update-channels-changes).
+> Os nomes dos canais de atualização para aplicativos do Office foram alterados recentemente. Por exemplo, o Canal Mensal agora é o Canal Atual, e o Office Insider agora é o Canal Beta. Para saber mais, confira [Mudanças em canais de atualização para o Microsoft 365 Apps](/deployoffice/update-channels-changes).
 
 Office para iOS e Office para Android: os rótulos de confidencialidade estão integrados ao [Aplicativo do Office](https://www.microsoft.com/pt-BR/microsoft-365/blog/2020/02/19/new-office-app-android-ios-available/).
 
-Os recursos adicionais estão disponíveis ao instalar o cliente de rotulagem unificada da Proteção de Informações do Azure, que é executado somente em computadores com Windows. Para mais informações, confira [Comparar os clientes de rotulamento para computadores com Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers).
+Os recursos adicionais estão disponíveis ao instalar o cliente de rotulagem unificada da Proteção de Informações do Azure, que é executado somente em computadores com Windows. Para mais informações, confira [Comparar os clientes de rotulamento para computadores com Windows](/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers).
 
 ### <a name="sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Recursos de rótulo de confidencialidade no Word, Excel e PowerPoint
 
@@ -114,33 +114,48 @@ Se essas duas condições forem atendidas, mas você precisa desativar o cliente
 
 2. Defina **Usar o recurso Confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** para **0**. 
  
-Implemente este cenário usando a Política de Grupo ou usando o [Serviço de política de nuvem do Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service). A configuração entra em vigor quando os aplicativos do Office forem reiniciados.
+Implemente este cenário usando a Política de Grupo ou usando o [Serviço de política de nuvem do Office](/DeployOffice/overview-office-cloud-policy-service). A configuração entra em vigor quando os aplicativos do Office forem reiniciados.
 
 ### <a name="office-built-in-labeling-client-and-the-azure-information-protection-client"></a>Cliente da rotulagem interna do Office e cliente da Proteção de Informações do Azure.
 
-Se os usuários tiverem um dos clientes da Proteção de Informações do Azure instalado ([cliente de rotulagem unificada](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) ou [cliente clássico](https://docs.microsoft.com/azure/information-protection/rms-client/aip-client)), por padrão, o cliente de rotulagem interna é desativado dos aplicativos do Office. 
+Se os usuários tiverem um dos clientes da Proteção de Informações do Azure instalado ([cliente de rotulagem unificada](/azure/information-protection/rms-client/aip-clientv2) ou [cliente clássico](/azure/information-protection/rms-client/aip-client)), por padrão, o cliente de rotulagem interna é desativado dos aplicativos do Office. 
 
-Para usar a rotulagem interna em vez do cliente da Proteção de Informações do Azure para aplicativos do Office, use as instruções da seção anterior, mas defina a configuração da Política de Grupo **Usar o recurso Confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** para **1**. 
+Para usar a rotulação interna em vez do cliente de Proteção de Informações do Azure para aplicativos do Office, recomendamos usar a configuração de Política de Grupo **Lista de suplementos gerenciados** como documentado em [Nenhum Suplemento carregado devido a configurações de política de grupo para os programas do Office 2013 e do Office 2016](https://support.microsoft.com/help/2733070/no-add-ins-loaded-due-to-group-policy-settings-for-office-2013-and-off).
 
-Como alternativa, desabilite ou remova o Suplemento do Office, **Proteção de Informações do Azure**. Esse método é adequado para um único computador e para testes ad hoc. Para obter instruções, confira [Visualizar, gerenciar e instalar suplementos em programas do Office](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d). 
+Para Microsoft Word 2016, Excel 2016, PowerPoint 2016 e Outlook 2016, especifique os seguintes identificadores de programação (ProgID) para o cliente de Proteção de Informações do Azure e demarque a opção para **0: O suplemento sempre será desabilitado (bloqueado)**
 
-Ao desabilitar ou remover esse Suplemento do Office, o cliente da Proteção de Informações do Azure permanece instalado para que você possa continuar rotulando arquivos fora dos aplicativos do Office. Por exemplo, usando o Explorador de Arquivos ou o PowerShell.
+|Aplicativo  |ProgID  |
+|---------|---------|
+|Word     |     `MSIP.WordAddin`    |
+|Excel     |  `MSIP.ExcelAddin`       |
+|PowerPoint     |   `MSIP.PowerPointAddin`      |
+|Outlook | `MSIP.OutlookAddin` |
+| | | 
 
-Para obter informações sobre quais recursos são compatíveis com os clientes da Proteção de Informações do Azure e pelo cliente de rotulagem interna do Office, confira [Escolher solução de rotulagem do Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution) na documentação da Proteção de Informações do Azure.
+Implemente este cenário usando a Política de Grupo ou usando o [Serviço de política de nuvem do Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
+
+> [!NOTE]
+> Se você usar a configuração de Política de Grupo, **Usar o recurso Confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** e defini-la como **1**, há algumas situações em que o cliente da Proteção de Informações do Azure ainda pode carregar nos aplicativos do Office. Bloquear o carregamento do suplemento em cada aplicativo impede que isso aconteça.
+
+Como alternativa, você pode desabilitar ou remover interativamente o suplemento do Office **Proteção de Informações do Microsoft Azure** do Word, Excel, PowerPoint e Outlook. Esse método é adequado para um único computador e para testes ad hoc. Para obter instruções, confira [Visualizar, gerenciar e instalar suplementos em programas do Office](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d). 
+
+Seja qual for o método escolhido, as alterações são efetivadas quando os aplicativos do Office são reiniciados. Ao desabilitar ou remover esse Suplemento do Office, o cliente da Proteção de Informações do Azure permanece instalado para que você possa continuar rotulando arquivos fora dos aplicativos do Office. Por exemplo, usando o Explorador de Arquivos ou o PowerShell.
+
+Para obter informações sobre quais recursos são compatíveis com os clientes da Proteção de Informações do Azure e pelo cliente de rotulagem interna do Office, confira [Escolher solução de rotulagem do Windows](/azure/information-protection/rms-client/use-client#choose-your-windows-labeling-solution) na documentação da Proteção de Informações do Azure.
 
 ## <a name="office-file-types-supported"></a>Tipos de arquivos do Office compatíveis
 
 Os aplicativos do Office que têm rotulagem interna para arquivos do Word, do Excel e do PowerPoint são compatíveis com o formato Open XML (como .docx e .xlsx), mas não com o formato do Microsoft Office 97-2003 (como .doc e .xls), do Open Document Format (como .odt e .ods) ou outros formatos. Quando um tipo de arquivo não for compatível com a rotulagem interna, o botão **Confidencialidade** não estará disponível no Aplicativo do Office.
 
-O cliente de rotulagem unificada da Proteção de Informações do Azure dá suporte ao formato Open XML e ao formato do Microsoft Office 97-2003. Para saber mais, confira [Tipos de arquivo com suporte no cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-file-types) do guia administrativo do cliente.
+O cliente de rotulagem unificada da Proteção de Informações do Azure dá suporte ao formato Open XML e ao formato do Microsoft Office 97-2003. Para saber mais, confira [Tipos de arquivo com suporte no cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/clientv2-admin-guide-file-types) do guia administrativo do cliente.
 
 Para ver outras soluções de rotulagem, verifique a documentação deles em busca dos tipos de arquivos com suporte.
 
 ## <a name="protection-templates-and-sensitivity-labels"></a>Modelos de proteção e rótulos de confidencialidade
 
-Os [modelos de proteção](https://docs.microsoft.com/azure/information-protection/configure-policy-templates) definidos pelo administrador, como os definidos para a Criptografia de Mensagens do Office 365, não estarão visíveis nos aplicativos do Office ao usar a rotulagem interna. Essa experiência simplificada reflete que não há necessidade de selecionar um modelo de proteção, pois as mesmas configurações estão incluídas com rótulos de confidencialidade que têm criptografia habilitada.
+Os [modelos de proteção](/azure/information-protection/configure-policy-templates) definidos pelo administrador, como os definidos para a Criptografia de Mensagens do Office 365, não estarão visíveis nos aplicativos do Office ao usar a rotulagem interna. Essa experiência simplificada reflete que não há necessidade de selecionar um modelo de proteção, pois as mesmas configurações estão incluídas com rótulos de confidencialidade que têm criptografia habilitada.
 
-Se você precisar converter os modelos de proteção existentes nos rótulos, use o portal do Azure e as seguintes instruções: [Converter modelos em rótulos](https://docs.microsoft.com/azure/information-protection/configure-policy-templates#to-convert-templates-to-labels).
+Se você precisar converter os modelos de proteção existentes nos rótulos, use o portal do Azure e as seguintes instruções: [Converter modelos em rótulos](/azure/information-protection/configure-policy-templates#to-convert-templates-to-labels).
 
 ## <a name="information-rights-management-irm-options-and-sensitivity-labels"></a>Opções de IRM (Gerenciamento de Direitos de Informação) e de rótulos de confidencialidade
 
@@ -157,7 +172,7 @@ Quando os usuários inicialmente rotulam um documento ou email, eles sempre pode
 
 - Um usuário aplica o rótulo **Geral** a um documento, e esse rótulo não está configurado para aplicar criptografia. Em seguida, o usuário define manualmente as configurações do IRM para restringir o acesso ao documento. O resultado final é um documento rotulado como **Geral**, mas que também aplica criptografia para que alguns usuários não possam abri-lo como esperado.
 
-Se o documento ou email já estiver identificado, um usuário poderá fazer qualquer uma dessas ações se o conteúdo ainda não estiver criptografado, ou se eles tiverem o [direito de uso](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exportar ou Controle Total. 
+Se o documento ou email já estiver identificado, um usuário poderá fazer qualquer uma dessas ações se o conteúdo ainda não estiver criptografado, ou se eles tiverem o [direito de uso](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) Exportar ou Controle Total. 
 
 Para uma experiência de rótulos mais consistente com relatórios significativos, forneça rótulos apropriados e diretrizes para que os usuários apliquem somente rótulos para proteger documentos. Por exemplo:
 
@@ -187,7 +202,7 @@ Exemplos de herança de rótulos, onde o rótulo **Confidencial** aplica criptog
 
 ## <a name="sensitivity-label-compatibility"></a>Compatibilidade de rótulos de confidencialidade
 
-**Com aplicativos habilitados para RMS** : se você abrir um documento ou email rotulado e criptografado em um [aplicativo habilitado para RMS](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) não compatível com rótulos de confidencialidade, o aplicativo ainda aplicará criptografia e gerenciamento de direitos.
+**Com aplicativos habilitados para RMS** : se você abrir um documento ou email rotulado e criptografado em um [aplicativo habilitado para RMS](/azure/information-protection/requirements-applications#rms-enlightened-applications) não compatível com rótulos de confidencialidade, o aplicativo ainda aplicará criptografia e gerenciamento de direitos.
 
 **Com o cliente de Proteção de Informações do Azure**: você pode exibir e alterar os rótulos de confidencialidade que aplica a documentos e emails com o cliente de rotulagem interna do Office usando o cliente da Proteção de Informações do Azure, e vice-versa.
 
@@ -211,7 +226,7 @@ Isso significa que, se você compartilhar documentos com outra organização que
 
 Além de restringir o acesso aos usuários da própria organização, você poderá estender o acesso a qualquer outro usuário que tenha uma conta no Azure Active Directory. No entanto, se sua organização usa políticas de Acesso Condicional, confira a [próxima seção](#conditional-access-policies) para considerações adicionais.
 
-Todos os aplicativos do Office e outros [aplicativos habilitados para RMS](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) podem abrir documentos criptografados após o usuário ter se autenticado com êxito. 
+Todos os aplicativos do Office e outros [aplicativos habilitados para RMS](/azure/information-protection/requirements-applications#rms-enlightened-applications) podem abrir documentos criptografados após o usuário ter se autenticado com êxito. 
 
 Se os usuários externos não tiverem uma conta no Azure Active Directory, eles poderão se autenticar usando contas de convidado no locatário. Essas contas de convidado também podem ser usadas para acessar documentos compartilhados no SharePoint ou no OneDrive quando você tiver [habilitado rótulos de confidencialidade para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md):
 
@@ -219,11 +234,11 @@ Se os usuários externos não tiverem uma conta no Azure Active Directory, eles 
     
     A vantagem dessa opção é que você pode restringir o acesso e os direitos a usuários específicos, definindo o endereço de email nas configurações de criptografia. A desvantagem é a sobrecarga administrativa na criação da conta e na coordenação com a configuração do rótulo.
 
-- Outra opção é usar a [integração do SharePoint e do OneDrive com o B2B do Azure AD (Visualização)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) para que as contas de convidado sejam criadas automaticamente quando seus usuários compartilharem links.
+- Outra opção é usar a [integração do SharePoint e do OneDrive com o B2B do Azure AD (Visualização)](/sharepoint/sharepoint-azureb2b-integration-preview) para que as contas de convidado sejam criadas automaticamente quando seus usuários compartilharem links.
     
     A vantagem dessa opção é a sobrecarga administrativa mínima, pois as contas são criadas automaticamente e a configuração do rótulo é mais simples. Nesse cenário, selecione a opção de criptografia [Adicionar qualquer usuário autenticado](encryption-sensitivity-labels.md#requirements-and-limitations-for-add-any-authenticated-users), pois você não saberá os endereços de email com antecedência. O lado negativo é que essa configuração não permite restringir o acesso e os direitos de uso a usuários específicos.
 
-Os usuários externos também podem usar uma conta Microsoft para abrir documentos criptografados ao usar o Windows e o Microsoft 365 Apps [(anteriormente, aplicativos do Office 365](https://docs.microsoft.com/deployoffice/name-change)) ou a edição autônoma do Office 2019. Mais recentemente com suporte para outras plataformas, as contas Microsoft também têm suporte para a abertura de documentos criptografados no macOS (Microsoft 365 Apps, versão 16.42+), no Android (versão 16.0.13029+) e no iOS (versão 2.42+). Por exemplo, um usuário na organização compartilha um documento criptografado com um usuário de fora da organização, e as configurações de criptografia especificam um endereço de email do Gmail para o usuário externo. Esse usuário externo pode criar sua própria conta Microsoft que usa seu endereço de email do Gmail. Em seguida, após entrar com essa conta, será possível abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para eles. Para um exemplo passo a passo desse cenário, confira [Abrir e editar o documento protegido](https://docs.microsoft.com/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
+Os usuários externos também podem usar uma conta Microsoft para abrir documentos criptografados ao usar o Windows e o Microsoft 365 Apps [(anteriormente, aplicativos do Office 365](/deployoffice/name-change)) ou a edição autônoma do Office 2019. Mais recentemente com suporte para outras plataformas, as contas Microsoft também têm suporte para a abertura de documentos criptografados no macOS (Microsoft 365 Apps, versão 16.42+), no Android (versão 16.0.13029+) e no iOS (versão 2.42+). Por exemplo, um usuário na organização compartilha um documento criptografado com um usuário de fora da organização, e as configurações de criptografia especificam um endereço de email do Gmail para o usuário externo. Esse usuário externo pode criar sua própria conta Microsoft que usa seu endereço de email do Gmail. Em seguida, após entrar com essa conta, será possível abrir o documento e editá-lo, de acordo com as restrições de uso especificadas para eles. Para um exemplo passo a passo desse cenário, confira [Abrir e editar o documento protegido](/azure/information-protection/secure-collaboration-documents#opening-and-editing-the-protected-document).
 
 > [!NOTE]
 > O endereço de email da conta Microsoft deve corresponder ao endereço de email especificado para restringir o acesso às configurações de criptografia.
@@ -233,17 +248,17 @@ Quando um usuário com uma conta Microsoft abre um documento criptografado dessa
 No entanto, a conta de convidado automática não é criada imediatamente nesse cenário, devido à latência de replicação. Se você especificar endereços de email pessoais como parte das configurações de criptografia dos rótulos, recomendamos que você crie contas de convidado correspondentes no Azure Active Directory. Em seguida, informe a esses usuários que eles devem usar essa conta para abrir um documento criptografado da organização.
 
 > [!TIP]
-> Como não é possível ter certeza de que usuários externos estarão usando um aplicativo cliente do Office com suporte, compartilhar links do SharePoint e do OneDrive depois de criar contas de convidado (para usuários específicos) ou usar a [integração do SharePoint e do OneDrive com o B2B do Azure AD ](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)(para qualquer usuário autenticado) é um método mais confiável para dar suporte à colaboração segura com usuários externos.
+> Como não é possível ter certeza de que usuários externos estarão usando um aplicativo cliente do Office com suporte, compartilhar links do SharePoint e do OneDrive depois de criar contas de convidado (para usuários específicos) ou usar a [integração do SharePoint e do OneDrive com o B2B do Azure AD ](/sharepoint/sharepoint-azureb2b-integration-preview)(para qualquer usuário autenticado) é um método mais confiável para dar suporte à colaboração segura com usuários externos.
 
 ### <a name="conditional-access-policies"></a>Políticas de Acesso Condicional
 
-Se sua organização tiver implementado [Políticas de Acesso Condicional do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview), verifique a configuração dessas políticas. Se a política inclui a **Proteção de Informações do Microsoft Azure** e ela se estender a usuários externos, esses usuários externos deverão ter uma conta de convidado no locatário, mesmo que tenham uma conta do Azure AD em seu próprio locatário.
+Se sua organização tiver implementado [Políticas de Acesso Condicional do Azure Active Directory](/azure/active-directory/conditional-access/overview), verifique a configuração dessas políticas. Se a política inclui a **Proteção de Informações do Microsoft Azure** e ela se estender a usuários externos, esses usuários externos deverão ter uma conta de convidado no locatário, mesmo que tenham uma conta do Azure AD em seu próprio locatário.
 
 Sem essa conta de convidado, não será possível abrir o documento criptografado e uma mensagem de erro será exibida. O texto da mensagem poderá informá-los de que sua conta precisa ser adicionada como usuário externo no locatário, com a instrução incorreta nesse cenário para **Sair e entrar novamente com uma conta de usuário diferente do Azure Active Directory**.
 
 Se você não puder criar e configurar contas de convidado no locatário para usuários externos que precisam abrir documentos criptografados por rótulos, remova a Proteção de Informações do Azure das políticas de Acesso Condicional, ou exclua os usuários externos das políticas.
 
-Para saber mais sobre o Access Condicional e a Proteção de Informações do Azure, o serviço de criptografia usado por rótulos de sensibilidade, confira a pergunta frequente, [Vejo a Proteção de Informações do Azure listada como um aplicativo de nuvem disponível para acesso condicional. Como isso funciona?](https://docs.microsoft.com/azure/information-protection/faqs#i-see-azure-information-protection-is-listed-as-an-available-cloud-app-for-conditional-accesshow-does-this-work)
+Para saber mais sobre o Access Condicional e a Proteção de Informações do Azure, o serviço de criptografia usado por rótulos de sensibilidade, confira a pergunta frequente, [Vejo a Proteção de Informações do Azure listada como um aplicativo de nuvem disponível para acesso condicional. Como isso funciona?](/azure/information-protection/faqs#i-see-azure-information-protection-is-listed-as-an-available-cloud-app-for-conditional-accesshow-does-this-work)
 
 ## <a name="when-office-apps-apply-content-marking-and-encryption"></a>Quando os aplicativos do Office aplicam marcação e criptografia de conteúdo
 
@@ -333,7 +348,7 @@ Exemplos:
 > [!IMPORTANT]
 > Também conhecido como rotulagem obrigatória, nem todos os aplicativos, em todas as plataformas, dão suporte à política de **Exigir que os usuários apliquem um rótulo a seus emails e documentos**.
 > 
-> O [cliente de rotulagem unificada da Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app) dá suporte para rotulagem obrigatória e rotulagem interna aos aplicativos Office, confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página.
+> O [cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) dá suporte para rotulagem obrigatória e rotulagem interna aos aplicativos Office, confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página.
 
 Quando essa configuração de política estiver selecionada, os usuários atribuídos à política deverão selecionar e aplicar um rótulo de confidencialidade nos seguintes cenários:
 

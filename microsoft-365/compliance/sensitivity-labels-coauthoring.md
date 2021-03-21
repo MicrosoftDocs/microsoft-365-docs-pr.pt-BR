@@ -13,16 +13,16 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: d26696530ed86e6608b6473fead0775fb07a060b
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 90c00eb448d6d8f02170a37062af05cb0c0db59d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454632"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919567"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
->*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](https://aka.ms/ComplianceSD).*
+>*[Diretrizes de licenciamento do Microsoft 365 para segurança e conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
 > Este recurso está em versão prévia e sujeito a alterações. 
@@ -58,7 +58,7 @@ Você pode ler mais sobre essa alteração de metadados nos seguintes recursos:
 
 - Postagem no blog: [Futuras alterações no armazenamento de metadados da Proteção de Informações da Microsoft](https://techcommunity.microsoft.com/t5/microsoft-security-and/upcoming-changes-to-microsoft-information-protection-metadata/ba-p/1904418)
 
-- Open Specifications: [2.6.3 LabelInfo versus Propriedades personalizadas do documento](https://docs.microsoft.com/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
+- Open Specifications: [2.6.3 LabelInfo versus Propriedades personalizadas do documento](/openspecs/office_file_formats/ms-offcrypto/13939de6-c833-44ab-b213-e0088bf02341)
 
 Por causa dessas mudanças, não habilite essa configuração se você tiver aplicativos, serviços, scripts ou ferramentas em sua organização que leem ou gravem metadados de rotulagem no local antigo. Se você fizer isso, aqui estão alguns exemplos de consequências:
 
@@ -68,7 +68,7 @@ Por causa dessas mudanças, não habilite essa configuração se você tiver apl
 
 - A coautoria e o Salvamento Automático não funcionarão em um documento rotulado e criptografado se outro usuário o tiver aberto em um aplicativo da área de trabalho do Office que não suporta os novos metadados de rotulagem
 
-- Uma regra de fluxo de emails do Exchange Online que [identifica rótulos como propriedades personalizadas em anexos do Office](https://docs.microsoft.com/azure/information-protection/configure-exo-rules#example-2-rule-that-applies-the-encrypt-only-option-to-emails-when-they-have-attachments-that-are-labeled-confidential--partners-and-these-emails-are-sent-outside-the-organization) falha ao criptografar o email e o anexo ou os criptografa da forma incorreta
+- Uma regra de fluxo de emails do Exchange Online que [identifica rótulos como propriedades personalizadas em anexos do Office](/azure/information-protection/configure-exo-rules#example-2-rule-that-applies-the-encrypt-only-option-to-emails-when-they-have-attachments-that-are-labeled-confidential--partners-and-these-emails-are-sent-outside-the-organization) falha ao criptografar o email e o anexo ou os criptografa da forma incorreta
 
 Verifique na seção seguinte uma lista de aplicativos e serviços que suportam essa configuração e as alterações nos metadados de rotulagem.
 
@@ -108,7 +108,7 @@ Os serviços do Microsoft 365 suportam automaticamente os novos metadados de rot
 
 - [Políticas de rotulagem automática](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)
 - [Políticas DLP que usam rótulos de confidencialidade como condições](dlp-sensitivity-label-as-condition.md)
-- [Microsoft Cloud App Security configurado para aplicar rótulos de confidencialidade](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
+- [Microsoft Cloud App Security configurado para aplicar rótulos de confidencialidade](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
 
 ## <a name="limitations"></a>Limitações
 
@@ -125,7 +125,7 @@ Antes de habilitar a configuração do locatário para coautoria de arquivos cri
     
     Para rótulos com qualquer uma dessas configurações de criptografia, os rótulos são exibidos nos aplicativos do Office. No entanto, quando os usuários selecionam esses rótulos e ninguém mais está editando o documento, eles são avisados de que a coautoria e o Salvamento Automático não estarão disponíveis. Se outra pessoa estiver editando o documento, os usuários verão uma mensagem informando que os rótulos não podem ser aplicados.
 
-- Se você usa o cliente de rotulagem unificada da Proteção de Informações do Azure: Verifique a documentação desse cliente de rotulagem para [mais requisitos ou limitações](https://docs.microsoft.com/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview).
+- Se você usa o cliente de rotulagem unificada da Proteção de Informações do Azure: Verifique a documentação desse cliente de rotulagem para [mais requisitos ou limitações](/azure/information-protection/known-issues#known-issues-for-co-authoring-public-preview).
 
 ## <a name="known-issues-for-this-preview"></a>Problemas conhecidos para esta versão prévia
 
@@ -171,7 +171,7 @@ Depois de habilitar a coautoria para arquivos com rótulos de confidencialidade 
 
 ![Opção que mostra a coautoria ativada para rótulos de confidencialidade](../media/co-authoring-tenant-option-set-for-sensitivity-labels.png)
 
-Como você pode ver na captura de tela, quando esta configuração tiver sido ativada, você pode entrar em contato com o [Suporte da Microsoft](https://docs.microsoft.com/office365/admin/contact-support-for-business-products) e solicitar a desativação dessa configuração. Essa solicitação pode levar alguns dias e você precisará provar que você é um administrador global do seu locatário. Espere que taxas de suporte habituais sejam aplicadas. 
+Como você pode ver na captura de tela, quando esta configuração tiver sido ativada, você pode entrar em contato com o [Suporte da Microsoft](/office365/admin/contact-support-for-business-products) e solicitar a desativação dessa configuração. Essa solicitação pode levar alguns dias e você precisará provar que você é um administrador global do seu locatário. Espere que taxas de suporte habituais sejam aplicadas. 
 
 Se um engenheiro de suporte desabilitar essa configuração no seu locatário:
 

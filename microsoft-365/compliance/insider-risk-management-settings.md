@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: eea8454a02667a42020f9ac1d54402e7b8a06b9b
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 1e6642113ddba9c9110a65e9032ec59db435ac7f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820017"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919857"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Começar com as configurações de gerenciamento de riscos insider
 
@@ -257,7 +257,7 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 - Id
 - RecordType
 - CreationTime
-- Operation
+- Operação
 - OrganizationId
 - UserType
 - UserKey
@@ -483,7 +483,7 @@ Habilenciar o suporte do Microsoft Teams para casos é rápido e fácil de confi
 
 Se você habilitar o suporte do Microsoft Teams para o gerenciamento de riscos insider depois de ter casos existentes, será necessário criar manualmente uma equipe para cada caso, conforme necessário. Depois de habilear o suporte do Microsoft Teams em configurações de gerenciamento de riscos insider, novos casos criarão automaticamente uma nova equipe do Microsoft Teams.
 
-Os usuários precisam de permissão para criar grupos do Microsoft 365 em sua organização para criar uma equipe do Microsoft Teams a partir de uma ocorrência. Para obter mais informações sobre como gerenciar permissões para grupos do Microsoft 365, consulte Gerenciar quem pode criar grupos do [Microsoft 365](/microsoft-365/solutions/manage-creation-of-groups).
+Os usuários precisam de permissão para criar grupos do Microsoft 365 em sua organização para criar uma equipe do Microsoft Teams a partir de uma ocorrência. Para obter mais informações sobre como gerenciar permissões para grupos do Microsoft 365, consulte Gerenciar quem pode criar grupos do [Microsoft 365](../solutions/manage-creation-of-groups.md).
 
 Para criar uma equipe para um caso, você usará o controle Criar Equipe da Microsoft ao trabalhar diretamente em um caso existente. Conclua as etapas a seguir para criar uma nova equipe:
 

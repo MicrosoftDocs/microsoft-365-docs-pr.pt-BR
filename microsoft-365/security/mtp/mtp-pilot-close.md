@@ -1,7 +1,7 @@
 ---
 title: Resumindo os resultados do projeto piloto do Microsoft 365 Defender
-description: Conclua seu projeto piloto do Microsoft 365 Defender concluindo seu scorecard, analisando suas descobertas de relatório e decidindo como avançar.
-keywords: Piloto da Proteção contra Ameaças da Microsoft, decida o que fazer depois do projeto piloto da Proteção contra Ameaças da Microsoft, o que fazer depois de avaliar a Proteção contra Ameaças da Microsoft em produção, transição do piloto da Proteção contra Ameaças da Microsoft para a implantação, segurança cibernética, ameaças persistentes avançadas, segurança corporativa, dispositivos, dispositivo, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
+description: Conclua seu projeto piloto do Microsoft 365 Defender concluindo seu scorecard, analisando suas descobertas do relatório e decidindo como seguir em frente.
+keywords: Piloto da Proteção contra Ameaças da Microsoft, decida o que fazer depois do projeto piloto da Proteção contra Ameaças da Microsoft, o que fazer depois de avaliar a Proteção contra Ameaças da Microsoft em produção, a transição do piloto da Proteção contra Ameaças da Microsoft para a implantação, a segurança cibernética, a ameaça persistente avançada, a segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: c8608568301f11a20c940a5ff9f1c205ce6e48f1
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+ms.openlocfilehash: f646fe7061fb0793fd9922068c9037be21a236cb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49930157"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920391"
 ---
-# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Fechar e resumir o piloto do Microsoft 365 Defender  
+# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Fechar e resumir seu piloto do Microsoft 365 Defender  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -43,25 +43,25 @@ ms.locfileid: "49930157"
 || | |*Você está aqui!*|
 
 
-Você está atualmente na fase de fechamento e resumo.
+No momento, você está na fase de fechamento e resumo.
 
-Você acabou de executar uma simulação avançada de ataque somente de memória que executou código remotamente em um controlador de domínio. Você viu como o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Identidade detectam e criam alertas sobre atividades maliciosas maliciosas. Você também viu como os alertas de diferentes fontes são entregues juntamente com outras informações contextuais em um único incidente no portal da Central de Segurança do Microsoft 365. Experimentar essa integração permite que analistas de SOC investiguem e tomem as medidas necessárias. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
+Você acabou de executar uma simulação de ataque avançada somente de memória que executou o código remotamente em um controlador de domínio. Você viu como o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Identidade detectam e criam alertas sobre atividades mal-intencionadas furtivas. Você também viu como alertas de fontes diferentes são entregues juntamente com outras informações contextuais em um único incidente no portal do Centro de Segurança do Microsoft 365. Experimentar essa integração permite que os analistas soc investiguem e tomem as medidas necessárias. Você também criou uma consulta de busca avançada que identificará emails de entrada onde o usuário abriu ou salvou o anexo e criou a detecção com base nessa consulta.
 
-Você chegou ao final do processo após a conclusão de todos os testes.
+Você chegou ao final do processo depois que todos os testes foram concluídos.
 
 A saída final deve ser:
 
 - Um scorecard concluído
 - Um relatório detalhado das descobertas do piloto
-- Uma decisão sobre como avançar
+- Uma decisão sobre como seguir em frente
 
-Apresente os relatórios de sua saída final aos participantes internos [](https://docs.microsoft.com/microsoft-365/security/mtp/prepare-mtpeval) (que você identificou durante a fase de preparação) e aos contatos da Microsoft. Esse esforço garante que qualquer comentário possa ser usado para melhorar os produtos e a documentação.
+Apresente os relatórios de sua saída final para as partes [](./prepare-mtpeval.md) interessadas internas (que você identificou durante a fase de preparação) e contatos da Microsoft. Esse esforço garante que qualquer comentário possa ser usado para melhorar produtos e documentação.
 
-Esperamos que você adoeçou essa simulação. Comece a implementar o que você aprendeu em grande escala em sua organização para tirar o máximo da solução de segurança integrada.
+Esperamos que você tenha curtido essa simulação. Comece a implementar o que você aprendeu em uma escala maior em sua organização para obter o máximo da solução de segurança integrada.
 
 ## <a name="next-step"></a>Próxima etapa
 Saiba mais sobre os pilares do Microsoft 365 Defender por meio dos seguintes guias interativos:
-- [Proteja sua organização com o Microsoft Defender para Office 365](https://aka.ms/O365ATP-Interactive-Guide)
+- [Proteger sua organização com o Microsoft Defender para Office 365](https://aka.ms/O365ATP-Interactive-Guide)
 - [Detecção de atividades suspeitas e possíveis ataques com o Microsoft Defender para Identidade](https://aka.ms/AATP-Interactive-Guide)
 - [Detectar ameaças e gerenciar alertas com o Microsoft Cloud App Security](https://aka.ms/DetectThreatsAndAlertsMCAS-InteractiveGuide)
 - [Investigar e remediar ameaças com o Microsoft Defender para Ponto de Extremidade](https://aka.ms/MDATP-IR-Interactive-Guide)

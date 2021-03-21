@@ -15,12 +15,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Como uma organização que implanta a versão mais recente usa canais para aplicativos do Windows 10 e do Microsoft 365.
-ms.openlocfilehash: fd1d8ddd342b2781470378c879ef70d2ba304316
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 29bda1651a83f0e043cf8a0d2a102c6c2e461bfd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46686161"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919069"
 ---
 # <a name="example-of-broad-deployment-for-the-latest-releases"></a>Exemplo de implantação abrangente das versões mais recentes
 
@@ -61,7 +61,7 @@ Com base nas metas de implantação rápida da versão mais recente, este exempl
 
 O objetivo final é executar a implantação geral da atualização mais recente no Canal Semestral após a validação das modificações do lançamento do canal de visualização por um grupo de representantes e dispositivos. 
 
-Confira [Implantação do Windows 10](https://docs.microsoft.com/windows/deployment/)para maiores informações sobre a implantação dos métodos e estratégias do Windows 10.
+Confira [Implantação do Windows 10](/windows/deployment/)para maiores informações sobre a implantação dos métodos e estratégias do Windows 10.
 
 | Etapa | Canal | Grupo de implantação |
 |:-------|:-------|:-----|
@@ -85,7 +85,7 @@ Processo de atualização contínua:
 
 A meta geral é executar uma implantação abrangente da versão mais recente do canal atual após a validação das mudanças do canal atual (visualização) por um grupo de usuários representativos.
 
-Confira [implantação dos aplicativos da Microsoft 365](https://docs.microsoft.com/deployoffice/plan-office-365-proplus) para obter mais informações sobre os métodos e estratégias de implantação dos aplicativos da Microsoft 365.
+Confira [implantação dos aplicativos da Microsoft 365](/deployoffice/plan-office-365-proplus) para obter mais informações sobre os métodos e estratégias de implantação dos aplicativos da Microsoft 365.
 
 | Etapa | Canal | Grupo de implantação |
 |:-------|:-------|:-----|

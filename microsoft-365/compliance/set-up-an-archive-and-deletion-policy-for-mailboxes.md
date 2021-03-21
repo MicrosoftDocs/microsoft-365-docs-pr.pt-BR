@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 ms.custom: seo-marvel-apr2020
 description: Saiba como criar uma política de arquivamento e exclusão no Microsoft 365 que move automaticamente itens para a caixa de correio de arquivo morto de um usuário.
-ms.openlocfilehash: cfe14b0821230831517e78ca6a56175a94d81eec
-ms.sourcegitcommit: 8950d3cb0f3087be7105e370ed02c7a575d00ec2
+ms.openlocfilehash: ae48335203968b25a00fda61bfe65ffde85649ad
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597139"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919527"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Configurar uma política de arquivamento e exclusão para caixas de correio em sua organização
 
@@ -54,7 +54,7 @@ Você pode seguir algumas ou todas as etapas deste artigo para configurar uma po
 
 - Quando você cria uma nova conta de usuário e atribui ao usuário uma licença do Exchange Online, uma caixa de correio é criada automaticamente para o usuário. Quando a caixa de correio é criada, ela é atribuída automaticamente a uma política de retenção padrão, chamada Política mrm padrão. Neste artigo, você criará uma nova política de retenção e a atribuirá às caixas de correio de usuário, substituindo a política mrm padrão. Uma caixa de correio pode ter apenas uma política de retenção atribuída a ela a qualquer momento.
 
-- Para saber mais sobre marcas de retenção e políticas de retenção no Exchange Online, consulte [Marcas de retenção e políticas de retenção.](https://go.microsoft.com/fwlink/p/?LinkId=404424)
+- Para saber mais sobre marcas de retenção e políticas de retenção no Exchange Online, consulte [Marcas de retenção e políticas de retenção.](/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
 ## <a name="step-1-enable-archive-mailboxes-for-users"></a>Etapa 1: Habilitar caixas de correio de arquivo morto para usuários
 
@@ -237,7 +237,7 @@ Depois de aplicar a nova política de retenção às caixas de correio na Etapa 
   
 Aqui estão as etapas para se conectar ao PowerShell do Exchange Online e, em seguida, executar o Assistente de Pasta Gerenciada em todas as caixas de correio da sua organização.
 
-1. [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=517283).
+1. [Conectar-se ao Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
   
 2. Execute os dois comandos a seguir para iniciar o Assistente de Pasta Gerenciada para todas as caixas de correio de usuário em sua organização.
 
@@ -258,7 +258,7 @@ Isso é tudo. Você definiu uma política de arquivamento e exclusão para a org
 
 Na Etapa 4, você precisa atribuir a nova política de retenção a caixas de correio existentes. Mas você pode configurar o Exchange Online para que a nova política de retenção seja atribuída a novas caixas de correio criadas no futuro. Você faz isso usando o PowerShell do Exchange Online para atualizar o plano de caixa de correio padrão da sua organização. Um *plano de caixa de* correio é um modelo que configura automaticamente as propriedades em novas caixas de correio.  Nesta etapa opcional, você pode substituir a política de retenção atual atribuída ao plano de caixa de correio (por padrão, a Política mrm padrão) pela política de retenção que você criou na Etapa 3. Depois de atualizar o plano de caixa de correio, a nova política de retenção será atribuída a novas caixas de correio.
 
-1. [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=517283).
+1. [Conectar-se ao Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Execute o seguinte comando para exibir informações sobre os planos de caixa de correio em sua organização.
 
@@ -296,4 +296,4 @@ Na Etapa 4, você precisa atribuir a nova política de retenção a caixas de co
 
     > <sup>\*</sup> Os usuários podem usar a ferramenta Recuperar Itens Excluídos no Outlook e no Outlook na Web (anteriormente conhecido como Outlook Web App) para recuperar um item excluído dentro do período de retenção de item excluído, que por padrão é de 14 dias no Exchange Online. Um administrador pode usar Windows PowerShell para aumentar o período de retenção de item excluído para um máximo de 30 dias. Para obter mais informações, consulte: [Recuperar itens excluídos](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) no Outlook para Windows e Alterar o período de retenção de item excluído para uma caixa de correio [no Exchange Online](https://www.microsoft.com/?ref=go)
   
-- Usar a marca de retenção **Itens Recuperáveis 14** dias Move to Archive ajuda a liberar espaço de armazenamento na pasta Itens Recuperáveis na caixa de correio principal do usuário. Isso é útil quando a caixa de correio de um usuário é colocada em espera, o que significa que nada é excluído permanentemente da caixa de correio do usuário. Sem mover itens para a caixa de correio de arquivo morto, é possível que a cota de armazenamento da pasta Itens Recuperáveis na caixa de correio principal seja atingida. Para obter mais informações sobre isso e como evitá-lo, consulte [Increase the Recoverable Items quota for mailboxes on hold](https://go.microsoft.com/fwlink/p/?LinkId=786479).
+- Usar a marca de retenção **Itens Recuperáveis 14** dias Move to Archive ajuda a liberar espaço de armazenamento na pasta Itens Recuperáveis na caixa de correio principal do usuário. Isso é útil quando a caixa de correio de um usuário é colocada em espera, o que significa que nada é excluído permanentemente da caixa de correio do usuário. Sem mover itens para a caixa de correio de arquivo morto, é possível que a cota de armazenamento da pasta Itens Recuperáveis na caixa de correio principal seja atingida. Para obter mais informações sobre isso e como evitá-lo, consulte [Increase the Recoverable Items quota for mailboxes on hold](./increase-the-recoverable-quota-for-mailboxes-on-hold.md).

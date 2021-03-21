@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Aprenda sobre os novos recursos de criptografia das mensagens do Office 365 que permitem a comunicação protegida por e-mail com pessoas dentro e fora da organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4102611d3be43a5bedffc83fba5c83c0b648ca42
-ms.sourcegitcommit: 27daadad9ca0f02a833ff3cff8a574551b9581da
+ms.openlocfilehash: 1519748c4bd535e0a3ea1cc3ee653e2c81e807bd
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "47547613"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919387"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Configurar recursos de criptografia de nova mensagem
 
@@ -33,14 +33,14 @@ Siga as etapas abaixo para garantir que os novos recursos do OME estejam dispon�
 
 ## <a name="verify-that-azure-rights-management-is-active"></a>Verifique se o Azure Rights Management está ativo
 
-Os novos recursos da OME aproveitam os recursos de proteção no[Azure RMS (Azure Rights Management Services)](https://docs.microsoft.com/azure/information-protection/what-is-information-protection), e a tecnologia usada pela[Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) para proteger emails e documentos por meio de controles de criptografia e acesso.
+Os novos recursos da OME aproveitam os recursos de proteção no[Azure RMS (Azure Rights Management Services)](/azure/information-protection/what-is-information-protection), e a tecnologia usada pela[Proteção de Informações do Azure](/azure/information-protection/what-is-azure-rms) para proteger emails e documentos por meio de controles de criptografia e acesso.
 
-O único pré-requisito para usar os novos recursos de OME que o [Azure Rights Management](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) deve ser ativado no locatário da sua organização. Caso esteja, o Microsoft 365 ativa automaticamente os novos recursos de OME e você não precisa fazer nada.
+O único pré-requisito para usar os novos recursos de OME que o [Azure Rights Management](/azure/information-protection/what-is-azure-rms) deve ser ativado no locatário da sua organização. Caso esteja, o Microsoft 365 ativa automaticamente os novos recursos de OME e você não precisa fazer nada.
 
-O Azure RMS também é ativado automaticamente para a maioria dos planos qualificados, portanto, provavelmente você não precise fazer nada. Para saber mais confira [Ativar o Gerenciamento de Direitos do Azure](https://docs.microsoft.com/azure/information-protection/activate-service).
+O Azure RMS também é ativado automaticamente para a maioria dos planos qualificados, portanto, provavelmente você não precise fazer nada. Para saber mais confira [Ativar o Gerenciamento de Direitos do Azure](/azure/information-protection/activate-service).
 
 >[!IMPORTANT]
->Se você usa o AD RMS (Active Directory Rights Management Services) com o Exchange Online, [é preciso migrar para a Proteção de Informações do Azure](https://docs.microsoft.com/azure/information-protection/migrate-from-ad-rms-to-azure-rms) antes de poder usar os novos recursos do OME. OME não é compatível com AD RMS.  
+>Se você usa o AD RMS (Active Directory Rights Management Services) com o Exchange Online, [é preciso migrar para a Proteção de Informações do Azure](/azure/information-protection/migrate-from-ad-rms-to-azure-rms) antes de poder usar os novos recursos do OME. OME não é compatível com AD RMS.  
 
 Para saber mais, veja:
 
@@ -51,20 +51,20 @@ Para saber mais, veja:
 
 Se você tiver desabilitado o Azure RMS, ou se ele não tiver sido ativado automaticamente por algum motivo, você poderá ativá-lo manualmente no:
 
-- **Centro de administração do Microsoft 365** Confira [: Como ativar o Azure Rights Management no centro de administração](https://docs.microsoft.com/azure/information-protection/activate-office365) para obter instruções.
-- **Portal do Azure**: [Confira como ativar o Azure Rights Management no portal do Azure](https://docs.microsoft.com/azure/information-protection/activate-azure) para obter instruções.
+- **Centro de administração do Microsoft 365** Confira [: Como ativar o Azure Rights Management no centro de administração](/azure/information-protection/activate-office365) para obter instruções.
+- **Portal do Azure**: [Confira como ativar o Azure Rights Management no portal do Azure](/azure/information-protection/activate-azure) para obter instruções.
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Configurar o gerenciamento de sua chave do locatário de proteção de informações do Azure
 
 Esta etapa é opcional. Permitir que a Microsoft gerencie a chave raiz da proteção de informações do Azure é a configuração padrão e a melhor prática recomendada para a maioria das organizações. Se esse for o caso, você não precisa fazer nada.
 
-Há muitos motivos, por exemplo, os requisitos de conformidade, que podem exigir a geração e o gerenciamento de sua própria chave raiz (também conhecida como (BYOK)). Se esse for o caso, recomendamos que você conclua as etapas necessárias antes de configurar os novos recursos do OME. Confira o artigo [Como planejar e implementar a chave locatário de proteção de informações do Azure](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key) para saber mais.
+Há muitos motivos, por exemplo, os requisitos de conformidade, que podem exigir a geração e o gerenciamento de sua própria chave raiz (também conhecida como (BYOK)). Se esse for o caso, recomendamos que você conclua as etapas necessárias antes de configurar os novos recursos do OME. Confira o artigo [Como planejar e implementar a chave locatário de proteção de informações do Azure](/information-protection/plan-design/plan-implement-tenant-key) para saber mais.
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Verificar a nova configuração do OME no PowerShell do Exchange Online
 
-Você pode verificar se o locatário do Microsoft 365 está configurado corretamente para usar os novos recursos do OME no[Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell).
+Você pode verificar se o locatário do Microsoft 365 está configurado corretamente para usar os novos recursos do OME no[Exchange Online do PowerShell](/powershell/exchange/exchange-online-powershell).
   
-1. [Conecte-se ao Exchange Online do PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell) usando uma conta com permissões de administrador global em seu locatário do Microsoft 365.
+1. [Conecte-se ao Exchange Online do PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) usando uma conta com permissões de administrador global em seu locatário do Microsoft 365.
 
 2. Execute o cmdlet Get-IRMConfiguration.
 
@@ -102,7 +102,7 @@ Você pode verificar se o locatário do Microsoft 365 está configurado corretam
 
    - O nome da sua organização substituirá *Contoso*.
 
-   - Os nomes dos modelos padrão podem ser diferentes daqueles exibidos acima. Confira [Configurando e Gerenciando modelos para a proteção de informações do Azure](https://docs.microsoft.com/azure/information-protection/configure-policy-templates) para saber mais.
+   - Os nomes dos modelos padrão podem ser diferentes daqueles exibidos acima. Confira [Configurando e Gerenciando modelos para a proteção de informações do Azure](/azure/information-protection/configure-policy-templates) para saber mais.
 
 4. Execute o cmdlet Remove-PSSession para se desconectar do serviço de gerenciamento de direitos.
 
@@ -125,7 +125,7 @@ Para atualizar regras existentes para usar os novos recursos do OME:
 
 1. No Centro de administração do Microsoft 365, selecione **Centros de administração > Exchange**.
 2. No Centro de administração do Exchange, acesse **Fluxo de email > Regras**.
-3. Para cada regra, no ** siga este procedimento**:
+3. Para cada regra, no **siga este procedimento**:
     - Selecione **Modificar a segurança de mensagem**.
     - Selecione **Aplicar a Criptografia e os Direitos de Mensagem do Office 365**.
     - Selecione um modelo RMS na lista.

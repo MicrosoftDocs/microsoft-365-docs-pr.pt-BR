@@ -8,18 +8,18 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 729e9dc9ab512a7e93bc291a9a52222c15a42b79
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: b0aa619f09f2d6b32289e037283a0dc6578d0150
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727416"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920499"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Dispositivos da Área de Trabalho Gerenciada da Microsoft 
 
 A Área de Trabalho Gerenciada da Microsoft avalia regularmente os dispositivos a serem incluídos no serviço. Este artigo lista os dispositivos específicos com suporte no momento. Para obter uma instrução mais geral dos requisitos de dispositivo, consulte [Requisitos de dispositivo](device-requirements.md).
 
-Para obter mais informações sobre a Área de Trabalho Gerenciada da [Microsoft,](https://docs.microsoft.com/microsoft-365/managed-desktop/)consulte Microsoft Managed Desktop documentation and resources . 
+Para obter mais informações sobre a Área de Trabalho Gerenciada da [Microsoft,](../index.yml)consulte Microsoft Managed Desktop documentation and resources . 
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
@@ -78,11 +78,11 @@ Além disso, o dispositivo também deve atender a esses critérios:
 
 - Se uma SKU específica estiver listada nos requisitos do dispositivo, certifique-se de usá-la ao solicitar. Isso garante que os dispositivos cumpram os requisitos de software da Área de Trabalho Gerenciada da Microsoft. 
 - Não concluiu a experiência de primeira executar do Windows.
-- Ser registrado na Área de Trabalho Gerenciada da Microsoft usando o recurso [Registro de](https://aka.ms/mmddrhelp) Dispositivo
+- Ser registrado na Área de Trabalho Gerenciada da Microsoft usando o recurso [Registro de](../get-started/register-devices-self.md) Dispositivo
 
 >[!NOTE]
 >Dispositivos com um processador de 2,0 GHz ou mais rápido fornecerão uma experiência muito melhor para os usuários envolvidos nessas atividades:
->- Usando videoconferência com o Teams. Consulte [Requisitos de hardware do Microsoft Teams](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) para obter detalhes.
+>- Usando videoconferência com o Teams. Consulte [Requisitos de hardware do Microsoft Teams](/microsoftteams/hardware-requirements-for-the-teams-app) para obter detalhes.
 >-  Usando um dispositivo para várias cargas de trabalho diferentes.
 >- Usando vários monitores.
 
@@ -93,8 +93,3 @@ Esses recursos podem ajudar a responder a perguntas que você pode ter sobre dis
 - Para obter mais perguntas sobre dispositivos Dell, entre <a href="mailto:MMD_at_dell@dell.com">em contato MMD_at_dell@dell.com</a>.
 
 - Para obter mais perguntas sobre os dispositivos HP e instruções de ordenação de dispositivos, entre em contato: Américas (<a href="mailto:mmd-americas@hp.com">mmd-americas@hp.com</a>); Europa/Oriente<a href="mailto:mmd-emea@hp.com">Médio/África</a>( mmd-emea@hp.com ); Pacífico Asiático/Japão (<a href="mailto:mmd-apj@hp.com">mmd-apj@hp.com</a>); Global (<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
-
-
-
-
-

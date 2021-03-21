@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e27659517f8c7b5cbc7936b825ac867a2888e251
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 288be30aa9592ba7feed92b9ad49955406f59f10
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727110"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918793"
 ---
 # <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>Rastrear e responder a ameaças emergentes com análise de ameaças 
 
@@ -35,7 +35,7 @@ ms.locfileid: "50727110"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-> Deseja experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](https://aka.ms/mtp-trial-lab) ou executar seu projeto piloto em [produção](https://aka.ms/m365d-pilotplaybook).
+> Deseja experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](./mtp-evaluation.md?ocid=cx-docs-MTPtriallab) ou executar seu projeto piloto em [produção](./mtp-pilot.md?ocid=cx-evalpilot).
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -155,7 +155,7 @@ Na seção **Mitigações,** revise a lista de recomendações ativas específic
   - Proteção de aplicativo potencialmente indesejado (PUA)
   - Proteção em tempo real
  
-As informações de mitigação nesta seção incorporam dados do gerenciamento de ameaças e vulnerabilidades [,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)que também fornece informações detalhadas de detalhamento de vários links no relatório.
+As informações de mitigação nesta seção incorporam dados do gerenciamento de ameaças e vulnerabilidades [,](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)que também fornece informações detalhadas de detalhamento de vários links no relatório.
 
 ![Imagem da seção mitigações de um relatório de análise de ameaças mostrando detalhes de configuração segura Imagem da seção mitigações de um relatório de análise de ameaças mostrando ](../../media/threat-analytics/ta_mitigations_mtp.png)
  ![ detalhes de vulnerabilidade](../../media/threat-analytics/ta_mitigations_mtp2.png)
@@ -181,4 +181,4 @@ Ao ver os dados de análise de ameaças, lembre-se dos seguintes fatores:
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Encontrar proativamente ameaças com busca avançada](advanced-hunting-overview.md) 
 - [Compreender a seção relatório de analistas](threat-analytics-analyst-reports.md)
-- [Avaliar e resolver deficiências e exposições de segurança](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)
+- [Avaliar e resolver deficiências e exposições de segurança](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

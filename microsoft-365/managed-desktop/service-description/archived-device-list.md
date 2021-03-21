@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: bbb3814a973bec53a877bc70d0299ce7b2eb87b5
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: f3e4b434f1ca267d5bbfbc7e67cb20c7e2b9dbbb
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727548"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920559"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados da Área de Trabalho Gerenciada da Microsoft
 
@@ -75,7 +75,7 @@ Além disso, o dispositivo também deve:
 
 - Ter uma imagem aprovada pela Área de Trabalho Gerenciada da Microsoft. Ao solicitar dispositivos, especifique se eles estão sendo usados com a Área de Trabalho Gerenciada da Microsoft.
 - Não concluiu a experiência de primeira executar do Windows.
-- Ser registrado na Área de Trabalho Gerenciada da Microsoft usando o recurso [Registro de](https://aka.ms/mmddrhelp) Dispositivo
+- Ser registrado na Área de Trabalho Gerenciada da Microsoft usando o recurso [Registro de](../get-started/register-devices-self.md) Dispositivo
 
 #### <a name="more-help"></a>Mais ajuda
 

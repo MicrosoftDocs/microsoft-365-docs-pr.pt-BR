@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Determine onde os dados de cliente do Microsoft 365 estão armazenados em todo o mundo
-ms.openlocfilehash: dc74393eadbd5f1abc62efe7411434d0b919e5fe
-ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+ms.openlocfilehash: a93f83e7efafa06aa65675342471c26f1b197864
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49988099"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50920783"
 ---
 <!--
 Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
@@ -58,11 +58,11 @@ A Microsoft não divulga os endereços exatos de seus data centers. Estabelecemo
 
 ### <a name="does-the-location-of-your-customer-data-have-a-direct-impact-on-your-end-users-experience"></a>O local dos dados de seus clientes afeta diretamente a experiência dos usuários finais?
 
-O desempenho do Microsoft 365 não é simplesmente proporcional entre a distância de um usuário e a localização do data center. Os investimentos contínuos da Microsoft em sua rede global de nuvem, infraestrutura global de nuvem e arquitetura de serviços do Microsoft 365 ajudam a fornecer aos usuários uma experiência única e consistente, independentemente de onde os dados do cliente estão armazenados em repouso. Se seus usuários estiverem com problemas de desempenho, você deve solucionar esses problemas detalhadamente. A Microsoft publicou diretrizes para clientes do Microsoft 365 com o intuito de delinear e otimizar o desempenho do usuário final no [Site de Suporte do Office](https://go.microsoft.com/fwlink/p/?linkid=862645).
+O desempenho do Microsoft 365 não é simplesmente proporcional entre a distância de um usuário e a localização do data center. Os investimentos contínuos da Microsoft em sua rede global de nuvem, infraestrutura global de nuvem e arquitetura de serviços do Microsoft 365 ajudam a fornecer aos usuários uma experiência única e consistente, independentemente de onde os dados do cliente estão armazenados em repouso. Se seus usuários estiverem com problemas de desempenho, você deve solucionar esses problemas detalhadamente. A Microsoft publicou diretrizes para clientes do Microsoft 365 com o intuito de delinear e otimizar o desempenho do usuário final no [Site de Suporte do Office](./network-planning-and-performance.md).
 
 ### <a name="how-does-microsoft-help-me-comply-with-my-national-regional-and-industry-specific-regulations"></a>Como a Microsoft me ajuda a estar em conformidade com os regulamentos nacionais, regionais e específicos do meu setor?
 
-Para ajudá-lo a cumprir os requisitos nacionais, regionais e específicos do setor que regem a coleta e o uso de dados dos indivíduos, o Microsoft 365 oferece o conjunto mais completo de ofertas de conformidade comparado à qualquer provedor de produtividade global de nuvem. Analise [nossas ofertas de conformidade](https://go.microsoft.com/fwlink/p/?linkid=864391) e mais detalhes na seção [Conformidade do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=862317) na Central de Confiabilidade da Microsoft. Além disso, certos planos da Microsoft 365 oferecem soluções adicionais de conformidade para ajudá-lo a gerenciar seus dados, obedecer aos requisitos legais e regulatórios, além de monitorar ações tomadas em seus dados.
+Para ajudá-lo a cumprir os requisitos nacionais, regionais e específicos do setor que regem a coleta e o uso de dados dos indivíduos, o Microsoft 365 oferece o conjunto mais completo de ofertas de conformidade comparado à qualquer provedor de produtividade global de nuvem. Analise [nossas ofertas de conformidade](/compliance/regulatory/offering-home) e mais detalhes na seção [Conformidade do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=862317) na Central de Confiabilidade da Microsoft. Além disso, certos planos da Microsoft 365 oferecem soluções adicionais de conformidade para ajudá-lo a gerenciar seus dados, obedecer aos requisitos legais e regulatórios, além de monitorar ações tomadas em seus dados.
 
 ### <a name="who-can-access-your-data-and-according-to-what-rules"></a>Quem pode acessar seus dados e de acordo com quais regras?
 
@@ -148,7 +148,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="afghanistan"></a>Afeganistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -159,7 +159,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -172,7 +172,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="aland-islands"></a>Ilhas Aland
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -196,7 +196,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="albania"></a>Albânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -220,7 +220,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="algeria"></a>Argélia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -244,7 +244,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="american-samoa"></a>Samoa Americana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -255,7 +255,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -268,7 +268,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="andorra"></a>Andorra
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -292,7 +292,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="angola"></a>Angola
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -316,7 +316,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="anguilla"></a>Anguila
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -340,7 +340,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="antarctica"></a>Antártica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -364,7 +364,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="antigua-and-barbuda"></a>Antígua e Barbuda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -388,7 +388,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="argentina"></a>Argentina
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -412,14 +412,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="armenia"></a>Armênia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -436,7 +436,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="aruba"></a>Aruba
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -460,7 +460,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="australia"></a>Austrália
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Austrália |
 | OneDrive for Business | Austrália |
@@ -484,7 +484,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="austria"></a>Áustria
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -499,8 +499,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -508,14 +508,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="azerbaijan"></a>Azerbaijão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -532,7 +532,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bahamas"></a>Bahamas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -556,7 +556,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bahrain"></a>Bahrein
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -580,7 +580,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bangladesh"></a>Bangladesh
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -591,7 +591,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -604,7 +604,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="barbados"></a>Barbados
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -628,7 +628,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="belarus"></a>Belarus
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -652,7 +652,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="belgium"></a>Bélgica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -667,8 +667,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -676,7 +676,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="belize"></a>Belize
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -700,7 +700,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="benin"></a>Benin
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -724,7 +724,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bermuda"></a>Bermuda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -748,7 +748,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bhutan"></a>Butão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -759,7 +759,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -772,7 +772,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bolivia"></a>Bolívia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -796,7 +796,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bonaire"></a>Bonaire
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -820,7 +820,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bosnia"></a>Bósnia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -844,7 +844,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="botswana"></a>Botsuana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -868,7 +868,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bouvet-island"></a>Ilha Bouvet
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -892,7 +892,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="brazil"></a>Brasil
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Brasil |
 | OneDrive for Business | Brasil |
@@ -916,7 +916,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="british-indian-ocean-territory"></a>Território Britânico do Oceano Índico
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -927,7 +927,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -940,7 +940,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="british-virgin-islands"></a>Ilhas Virgens Britânicas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -964,7 +964,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="brunei"></a>Brunei
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -975,7 +975,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -988,7 +988,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="bulgaria"></a>Bulgária
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1003,8 +1003,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -1012,14 +1012,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="burkina-faso"></a>Burquina Faso
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Dispositivo Móvel | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -1036,7 +1036,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="burundi"></a>Burundi
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1060,7 +1060,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="cambodia"></a>Camboja
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1071,7 +1071,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1084,7 +1084,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="cameroon"></a>Camarões
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1108,7 +1108,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="canada"></a>Canadá
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Canadá |
 | OneDrive for Business | Canadá |
@@ -1132,7 +1132,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="cape-verde"></a>Cabo Verde
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1156,7 +1156,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="cayman-islands"></a>Ilhas Cayman
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1180,7 +1180,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="central-african-republic"></a>República Centro-Africana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1204,7 +1204,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="chad"></a>Chade
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1228,7 +1228,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="chile"></a>Chile
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1252,7 +1252,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="china"></a>China
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1263,7 +1263,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1276,7 +1276,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="christmas-island"></a>Ilhas Christmas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1287,7 +1287,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1300,7 +1300,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="cocos-keeling-islands"></a>Ilhas Cocos (Keeling)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1311,7 +1311,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1324,7 +1324,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="colombia"></a>Colômbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1348,7 +1348,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="comoros"></a>Comores
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1372,7 +1372,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="congo-brazzaville"></a>Congo (Brazzaville)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1396,7 +1396,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="congo-kinshasa"></a>Congo, (Kinshasa)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1420,7 +1420,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="cook-islands"></a>Ilhas Cook
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1431,7 +1431,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1444,7 +1444,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="costa-rica"></a>Costa Rica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1468,7 +1468,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="cote-divoire"></a>Costa do Marfim
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1492,7 +1492,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="croatia"></a>Croácia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1507,8 +1507,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -1516,7 +1516,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="curacao"></a>Curaçao
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1540,7 +1540,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="cyprus"></a>Chipre
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1555,8 +1555,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -1564,7 +1564,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="czech-republic"></a>República Tcheca
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1579,8 +1579,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -1588,7 +1588,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="denmark"></a>Dinamarca
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1603,8 +1603,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -1612,7 +1612,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="djibouti"></a>Djibuti
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1636,7 +1636,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="dominica"></a>Dominica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1660,7 +1660,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="dominican-republic"></a>República Dominicana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1684,7 +1684,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="ecuador"></a>Equador
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1708,7 +1708,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="egypt"></a>Egito
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1732,7 +1732,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="el-salvador"></a>El Salvador
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -1756,7 +1756,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="equatorial-guinea"></a>Guiné Equatorial
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1780,7 +1780,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="eritrea"></a>Eritreia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1804,7 +1804,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="estonia"></a>Estônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1819,8 +1819,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -1828,7 +1828,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="ethiopia"></a>Etiópia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1852,7 +1852,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="falkland-islands-malvinas"></a>Ilhas Malvinas (Falkland)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -1876,7 +1876,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="faroe-islands"></a>Ilhas Faroés
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -1900,7 +1900,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="federated-states-of-micronesia"></a>Estados Federados da Micronésia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -1911,7 +1911,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -1924,7 +1924,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="fiji"></a>Fiji
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Austrália |
 | OneDrive for Business | Austrália |
@@ -1948,7 +1948,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="finland"></a>Finlândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -1963,8 +1963,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -1972,7 +1972,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="france"></a>França
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | França |
 | OneDrive for Business | França |
@@ -1988,7 +1988,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Yammer | União Europeia |
 | Serviços do OneNote | França |
 | Stream | União Europeia |
-| Quadro branco | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -1996,7 +1996,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="french-guiana"></a>Guiana Francesa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -2020,7 +2020,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="french-polynesia"></a>Polinésia Francesa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2031,7 +2031,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2044,7 +2044,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="french-southern-territories"></a>Territórios Franceses do Sul
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2068,7 +2068,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="gabon"></a>Gabão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2092,7 +2092,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="gambia"></a>Gâmbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2116,14 +2116,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="georgia"></a>Geórgia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -2140,7 +2140,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="germany"></a>Alemanha
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Alemanha |
 | OneDrive for Business | Alemanha |
@@ -2156,7 +2156,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Yammer | União Europeia |
 | Serviços do OneNote | Alemanha |
 | Stream | União Europeia |
-| Quadro branco | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -2164,7 +2164,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="ghana"></a>Gana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2188,7 +2188,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="gibraltar"></a>Gibraltar
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2212,7 +2212,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="greece"></a>Grécia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -2227,8 +2227,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -2236,7 +2236,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="greenland"></a>Groenlândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2260,7 +2260,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="grenada"></a>Granada
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2284,7 +2284,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="guadeloupe"></a>Guadalupe
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2308,7 +2308,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="guam"></a>Guam
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2319,7 +2319,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2332,7 +2332,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="guatemala"></a>Guatemala
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2356,7 +2356,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="guernsey"></a>Guernsey
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2380,7 +2380,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="guinea"></a>Guiné
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2404,7 +2404,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="guinea-bissau"></a>Guiné-Bissau
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2428,7 +2428,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="guyana"></a>Guiana
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -2452,7 +2452,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="haiti"></a>Haiti
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2476,7 +2476,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="heard-and-mcdonald-islands"></a>Ilhas Heard e McDonald
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2500,7 +2500,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="herzegovina"></a>Bósnia e Herzegovina
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2524,7 +2524,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="holy-see-vatican-city-state"></a>Santa Sé (Cidade do Vaticano)
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2548,7 +2548,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="honduras"></a>Honduras
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2572,7 +2572,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="hong-kong-sar"></a>RAE de Hong Kong
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2583,7 +2583,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2596,7 +2596,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="hungary"></a>Hungria
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -2611,8 +2611,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -2620,7 +2620,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="iceland"></a>Islândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2644,7 +2644,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="india"></a>Índia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Índia |
 | OneDrive for Business | Índia |
@@ -2668,7 +2668,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="indonesia"></a>Indonésia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2679,7 +2679,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2692,7 +2692,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="iraq"></a>Iraque
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2716,7 +2716,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="ireland"></a>Irlanda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -2731,8 +2731,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -2740,7 +2740,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="isle-of-man"></a>Ilha de Man
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2764,7 +2764,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="israel"></a>Israel
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2788,7 +2788,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="italy"></a>Itália
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -2803,8 +2803,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -2812,7 +2812,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="jamaica"></a>Jamaica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -2836,7 +2836,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="japan"></a>Japão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Japão |
 | OneDrive for Business | Japão |
@@ -2860,7 +2860,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="jersey"></a>Jersey
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2884,7 +2884,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="jordan"></a>Jordão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2908,14 +2908,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="kazakhstan"></a>Cazaquistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -2932,7 +2932,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="kenya"></a>Quênia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -2956,7 +2956,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="kiribati"></a>Kiribati
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -2967,7 +2967,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -2980,7 +2980,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="south-korea"></a>Coreia do Sul
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Coreia do Sul |
 | OneDrive for Business | Coreia do Sul |
@@ -3004,7 +3004,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="kosovo"></a>Kosovo
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3028,7 +3028,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="kuwait"></a>Kuwait
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3052,14 +3052,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="kyrgyzstan"></a>Quirguistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -3076,7 +3076,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="laos"></a>Laos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3087,7 +3087,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3100,7 +3100,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="latvia"></a>Letônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3115,8 +3115,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -3124,7 +3124,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="lebanon"></a>Líbano
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3148,7 +3148,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="lesotho"></a>Lesoto
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3172,7 +3172,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="liberia"></a>Libéria
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3196,7 +3196,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="libya"></a>Líbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3220,7 +3220,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="liechtenstein"></a>Liechtenstein
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Suíça |
 | OneDrive for Business | Suíça |
@@ -3244,7 +3244,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="lithuania"></a>Lituânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3259,8 +3259,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -3268,7 +3268,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="luxembourg"></a>Luxemburgo
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3283,8 +3283,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -3292,7 +3292,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="madagascar"></a>Madagascar
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3316,7 +3316,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="malawi"></a>Malaui
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3340,7 +3340,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="malaysia"></a>Malásia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3351,7 +3351,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3364,7 +3364,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="maldives"></a>Maldivas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3375,7 +3375,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3388,7 +3388,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="mali"></a>Mali
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3412,7 +3412,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="malta"></a>Malta
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3427,8 +3427,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -3436,7 +3436,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="marshall-islands"></a>Ilhas Marshall
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3447,7 +3447,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3460,7 +3460,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="martinique"></a>Martinica
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3484,7 +3484,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="mauritania"></a>Mauritânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3508,7 +3508,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="mauritius"></a>Ilhas Maurício
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3532,7 +3532,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="mayotte"></a>Maiote
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3556,7 +3556,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="mexico"></a>México
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3580,7 +3580,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="moldova"></a>Moldova
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3604,7 +3604,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="monaco"></a>Mônaco
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3628,7 +3628,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="mongolia"></a>Mongólia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3639,7 +3639,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3652,7 +3652,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="montenegro"></a>Montenegro
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3676,7 +3676,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="montserrat"></a>Montserrat
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3700,7 +3700,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="morocco"></a>Marrocos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3724,7 +3724,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="mozambique"></a>Moçambique
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3748,7 +3748,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="myanmar"></a>Myanmar
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3759,7 +3759,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3772,7 +3772,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="namibia"></a>Namíbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3796,7 +3796,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="nauru"></a>Nauru
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3807,7 +3807,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3820,7 +3820,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="nepal"></a>Nepal
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3831,7 +3831,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3844,7 +3844,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="netherlands"></a>Países Baixos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -3859,8 +3859,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Fluxo | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -3868,7 +3868,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="netherlands-antilles"></a>Bonaire, Curaçao, Saba, Santo Eustáquio e São Martinho
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3892,7 +3892,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="new-caledonia"></a>Nova Caledônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -3903,7 +3903,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -3916,7 +3916,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="new-zealand"></a>Nova Zelândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Austrália |
 | OneDrive for Business | Austrália |
@@ -3940,7 +3940,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="nicaragua"></a>Nicarágua
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -3964,7 +3964,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="niger"></a>Níger
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -3988,7 +3988,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="nigeria"></a>Nigéria
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4012,7 +4012,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="niue"></a>Niue
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4023,7 +4023,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4036,7 +4036,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="norfolk-island"></a>Ilha Norfolk
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4047,7 +4047,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4060,7 +4060,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="northern-mariana-islands"></a>Ilhas Marianas do Norte
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4071,7 +4071,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4084,7 +4084,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="norway"></a>Noruega
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Noruega |
 | OneDrive for Business | Noruega |
@@ -4108,7 +4108,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="oman"></a>Omã
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4132,7 +4132,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="pakistan"></a>Paquistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4156,7 +4156,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="palau"></a>Palau
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4167,7 +4167,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4180,7 +4180,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="palestinian-authority"></a>Autoridade Palestina
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4191,7 +4191,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4204,7 +4204,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="panama"></a>Panamá
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4228,7 +4228,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="papua-new-guinea"></a>Papua Nova Guiné
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4239,7 +4239,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4252,7 +4252,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="paraguay"></a>Paraguai
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -4276,7 +4276,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="peru"></a>Peru
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -4300,7 +4300,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="philippines"></a>Filipinas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4311,7 +4311,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4324,7 +4324,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="pitcairn"></a>Ilhas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4335,7 +4335,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4348,7 +4348,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="poland"></a>Polônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -4363,8 +4363,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -4372,7 +4372,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="portugal"></a>Portugal
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -4387,8 +4387,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -4396,7 +4396,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="puerto-rico"></a>Porto Rico
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4420,7 +4420,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="qatar"></a>Catar
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4444,14 +4444,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="republic-of-macedonia"></a>República da Macedônia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -4468,7 +4468,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="runion"></a>Réunion
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4492,7 +4492,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="romania"></a>Romênia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -4507,8 +4507,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -4516,7 +4516,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="russian-federation"></a>Federação Russa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4540,7 +4540,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="rwanda"></a>Ruanda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4564,7 +4564,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="saint-helena"></a>Santa Helena, Ascensão e Tristão da Cunha
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4588,7 +4588,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="saint-kitts-and-nevis"></a>São Cristóvão e Névis
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4612,7 +4612,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="saint-lucia"></a>Santa Lúcia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4636,7 +4636,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="saint-martin"></a>Saint Martin
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4660,7 +4660,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="saint-pierre-and-miquelon"></a>São Pedro e Miquelão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4684,7 +4684,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="saint-vincent-and-the-grenadines"></a>São Vincente e Granadinas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4708,7 +4708,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="saint-barthlemy"></a>São Bartolomeu
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4732,7 +4732,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="samoa"></a>Samoa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4743,7 +4743,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4756,7 +4756,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="san-marino"></a>São Marinho
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4780,7 +4780,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="sao-tome-and-principe"></a>São Tomé e Príncipe
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4804,7 +4804,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="saudi-arabia"></a>Arábia Saudita
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4828,7 +4828,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="senegal"></a>Senegal
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4852,7 +4852,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="serbia"></a>Sérvia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4876,7 +4876,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="seychelles"></a>Seicheles
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4900,7 +4900,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="sierra-leone"></a>Serra Leoa
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -4924,7 +4924,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="singapore"></a>Cingapura
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -4935,7 +4935,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -4948,7 +4948,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="sint-maarten"></a>São Martinho
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -4972,7 +4972,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="slovakia"></a>Eslováquia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -4987,8 +4987,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -4996,7 +4996,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="slovenia"></a>Eslovênia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -5011,8 +5011,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -5020,7 +5020,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="solomon-islands"></a>Ilhas Salomão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5031,7 +5031,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5044,7 +5044,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="somalia"></a>Somália
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5068,7 +5068,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="south-africa"></a>África do Sul
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | África do Sul |
 | OneDrive for Business | África do Sul |
@@ -5092,7 +5092,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="south-georgia-and-the-south-sandwich-islands"></a>Ilhas Geórgia do Sul e Sandwich do Sul
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5116,7 +5116,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="spain"></a>Espanha
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -5131,8 +5131,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -5140,7 +5140,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="sri-lanka"></a>Sri Lanka
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5151,7 +5151,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5164,7 +5164,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="suriname"></a>Suriname
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5188,7 +5188,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="svalbard-and-jan-mayen-islands"></a>Ilhas de Svalbard e Jan Mayen
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5212,7 +5212,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="swaziland"></a>Suazilândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5236,7 +5236,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="sweden"></a>Suécia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | União Europeia |
 | OneDrive for Business | União Europeia |
@@ -5251,8 +5251,8 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Sway | Estados Unidos |
 | Yammer | União Europeia  |
 | Serviços do OneNote | União Europeia |
-| Corrente | União Europeia |
-| Quadro branco | União Europeia |
+| Stream | União Europeia |
+| Quadro de comunicações | União Europeia |
 | Formulários | União Europeia |
 | Workplace Analytics | Estados Unidos |
 </p></details>
@@ -5260,7 +5260,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="switzerland"></a>Suíça
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Suíça |
 | OneDrive for Business | Suíça |
@@ -5269,7 +5269,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | Microsoft Teams | Suíça |
 | Office Online &amp; Mobile | Suíça |
 | EOP | Suíça |
-| Em sintonia | Geografia Global 1 – EMEA |
+| Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Suíça |
 | Planner | Geografia Global 1 – EMEA |
 | Sway | Estados Unidos |
@@ -5284,7 +5284,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="taiwan"></a>Taiwan
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5295,7 +5295,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5308,14 +5308,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="tajikistan"></a>Tadjiquistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -5332,7 +5332,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="united-republic-of-tanzania"></a>República Unida da Tanzânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5356,7 +5356,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="thailand"></a>Tailândia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5367,7 +5367,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5380,7 +5380,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="timor-leste"></a>Timor-Leste
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5391,7 +5391,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5404,7 +5404,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="togo"></a>Togo
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5428,7 +5428,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="tokelau"></a>Tokelau
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5452,7 +5452,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="tonga"></a>Tonga
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5463,7 +5463,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5476,7 +5476,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="trinidad-and-tobago"></a>Trinidad e Tobago
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5500,7 +5500,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="tunisia"></a>Tunísia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5524,7 +5524,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="turkey"></a>Turquia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5548,14 +5548,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="turkmenistan"></a>Turcomenistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -5572,7 +5572,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="turks-and-caicos-islands"></a>Ilhas Turcos e Caicos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5596,7 +5596,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="tuvalu"></a>Tuvalu
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5607,7 +5607,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5620,7 +5620,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="us-virgin-islands"></a>Ilhas Virgens Americanas
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5644,7 +5644,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="uganda"></a>Uganda
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5668,7 +5668,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="ukraine"></a>Ucrânia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5692,7 +5692,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="united-arab-emirates"></a>Emirados Árabes Unidos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Emirados Árabes Unidos |
 | OneDrive for Business | Emirados Árabes Unidos |
@@ -5716,7 +5716,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="united-kingdom"></a>Reino Unido
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Reino Unido |
 | OneDrive for Business | Reino Unido |
@@ -5740,7 +5740,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="united-states"></a>Estados Unidos
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5764,7 +5764,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="uruguay"></a>Uruguai
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 3 – Américas |
 | OneDrive for Business | Geografia Global 3 – Américas |
@@ -5788,7 +5788,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="us-minor-outlying-islands"></a>Territórios Insulares dos EUA
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5799,7 +5799,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5812,14 +5812,14 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="uzbekistan"></a>Uzbequistão
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
 | SharePoint Online | Geografia Global 1 – EMEA |
 | Skype for Business | Geografia Global 1 – EMEA |
 | Microsoft Teams | Geografia Global 1 – EMEA |
-| Office Online &amp; Mobile | Geografia Global 1 – EMEA |
+| Office Online &amp;Móvel | Geografia Global 1 – EMEA |
 | EOP | Geografia Global 1 – EMEA |
 | Intune | Geografia Global 1 – EMEA |
 | MyAnalytics | Geografia Global 1 – EMEA |
@@ -5836,7 +5836,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="vanuatu"></a>Vanuatu
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5847,7 +5847,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5860,7 +5860,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="venezuela"></a>Venezuela
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Estados Unidos |
 | OneDrive for Business | Estados Unidos |
@@ -5884,7 +5884,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="vietnam"></a>Vietnã
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5895,7 +5895,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5908,7 +5908,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="wallis-and-futuna-islands"></a>Ilhas Wallis e Futuna
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 2 – Pacífico Asiático |
 | OneDrive for Business | Geografia Global 2 – Pacífico Asiático |
@@ -5919,7 +5919,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 | EOP | Geografia Global 2 – Pacífico Asiático |
 | Intune | Geografia Global 2 – Pacífico Asiático |
 | MyAnalytics | Geografia Global 2 – Pacífico Asiático |
-| Planejadora | Geografia Global 2 – Pacífico Asiático |
+| Planner | Geografia Global 2 – Pacífico Asiático |
 | Sway | Estados Unidos |
 | Yammer | Estados Unidos |
 | Serviços do OneNote | Geografia Global 2 – Pacífico Asiático |
@@ -5932,7 +5932,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="western-sahara"></a>Sahara Ocidental
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5956,7 +5956,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="yemen"></a>Iêmen
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -5980,7 +5980,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="zambia"></a>Zâmbia
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |
@@ -6004,7 +6004,7 @@ Os novos locatários do Microsoft 365 são padronizados para Geo com base no pa�
 ## <a name="zimbabwe"></a>Zimbábue
 <details><summary>Clique para expandir</summary><p>
 
-| Serviço | Localização |
+| Serviço | Local |
 | --- | --- |
 | Exchange Online | Geografia Global 1 – EMEA |
 | OneDrive for Business | Geografia Global 1 – EMEA |

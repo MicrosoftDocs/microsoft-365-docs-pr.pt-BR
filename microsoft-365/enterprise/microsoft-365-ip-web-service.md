@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Aprenda como usar o endereço IP e o serviço URL da Web do Office 365 para ajudá-lo a identificar e diferenciar melhor o tráfego de rede do Office 365.
-ms.openlocfilehash: 03e6eac86e66db6f9e94c3f98e6d7b565ffa0f14
-ms.sourcegitcommit: d76a4c07f0be2938372bdfae50e0e4d523bd8e9f
+ms.openlocfilehash: 1948491e1d3db724e7b7b6a5275234acab4be08a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456454"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50918949"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>URL do serviço Web e endereço IP do Office 365
 
@@ -64,9 +64,9 @@ Para saber mais, veja:
 Estes parâmetros são comuns a todos os métodos de serviço Web:
 
 - **format=<JSON | CSV>** — Por padrão, o formato de dados retornado é JSON. Use este parâmetro opcional para retornar os dados no formato de valores separados por vírgula (CSV).
-- **ClientRequestId=\<guid>** — Um GUID necessário que você gera para associação de clientes. Gerar um GUID exclusivo para cada computador que chama um serviço Web (os scripts incluídos na página geram um GUID para você). Não use os GUIDs mostrados nos exemplos a seguir porque eles podem ser bloqueados pelo serviço da Web no futuro. O formato GUID é_ xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, em que x representa um número hexadecimal.
+- **ClientRequestId=\<guid>** — Um GUID necessário que você gera para associação de clientes. Gerar um GUID exclusivo para cada computador que chama um serviço Web (os scripts incluídos na página geram um GUID para você). Não use os GUIDs mostrados nos exemplos a seguir porque eles podem ser bloqueados pelo serviço da Web no futuro. O formato GUID é _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, em que x representa um número hexadecimal.
 
-  Para gerar um GUID, você pode usar o comando [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) do PowerShell ou usar um serviço online como [Gerador de GUIDs Online](https://www.guidgenerator.com/).
+  Para gerar um GUID, você pode usar o comando [New-Guid](/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) do PowerShell ou usar um serviço online como [Gerador de GUIDs Online](https://www.guidgenerator.com/).
 
 ## <a name="version-web-method"></a>Método da web de versão
 
@@ -607,7 +607,7 @@ Você pode usar alguns métodos diferentes para obter notificações por email q
 
 - Para usar uma solução Microsoft Flow, consulte [Usar o Microsoft Flow para receber um email de alterações com em endereços IP e URLs do Office 365](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651).
 - Para implantar um Aplicativo Lógico do Azure usando um modelo ARM, confira [Notificação de atualização do Office 365 (v1.1)](https://aka.ms/ipurlws-updates-template).
-- Para escrever um script usando o PowerShell, confira [Send-MailMessage](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage).
+- Para escrever um script usando o PowerShell, confira [Send-MailMessage](/powershell/module/microsoft.powershell.utility/send-mailmessage).
 
 ## <a name="exporting-a-proxy-pac-file"></a>Exportando um arquivo Proxy PAC
 

@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Saiba como usar limites de conformidade para criar limites lógicos que controlam os locais de conteúdo do usuário que um gerente de Descoberta e Descoberta Pode pesquisar no Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df582d46472bc7ca6d6e99e823ab94c0884d60a0
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 80f1c6705550d21ac54a0fb4dda2b605b497adbc
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423892"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919497"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>Configurar limites de conformidade para investigações de Descobertas EDiscovery
 
@@ -68,7 +68,7 @@ Você precisa atender aos seguintes pré-requisitos antes que o atributo do Azur
 
 - As caixas de correio de usuário devem ter pelo menos 10 MB de tamanho. Se a caixa de correio de um usuário for menor que 10 MB, o atributo usado para definir suas agências não será sincronizado com a conta do OneDrive do usuário.
 
-- Os limites de conformidade e os atributos usados para criar filtros de permissões de pesquisa exigem que os atributos do Azure Active Directory (Azure AD) sejam sincronizados com caixas de correio de usuário. Para verificar se os atributos que você deseja usar foram sincronizados, execute o cmdlet [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) no PowerShell do Exchange Online. A saída deste cmdlet exibe os atributos do Azure AD sincronizados com o Exchange Online.
+- Os limites de conformidade e os atributos usados para criar filtros de permissões de pesquisa exigem que os atributos do Azure Active Directory (Azure AD) sejam sincronizados com caixas de correio de usuário. Para verificar se os atributos que você deseja usar foram sincronizados, execute o cmdlet [Get-User](/powershell/module/exchange/get-user) no PowerShell do Exchange Online. A saída deste cmdlet exibe os atributos do Azure AD sincronizados com o Exchange Online.
 
 ## <a name="step-1-identify-a-user-attribute-to-define-your-agencies"></a>Etapa 1: identificar um atributo de usuário para definir suas agências
 
@@ -87,7 +87,7 @@ Aqui está uma lista de atributos de usuário do Azure AD que você pode usar pa
 - C (Código de país de duas letras) <sup>*</sup>
 
   > [!NOTE]
-  > <sup>*</sup> Esse atributo é mapeado para a propriedade CountryOrRegion retornada executando o cmdlet **Get-User** no PowerShell do Exchange Online. O cmdlet retorna o nome de país localizado, que é traduzido do código de país de duas letras. Para obter mais informações, consulte a descrição do parâmetro CountryOrRegion no artigo de referência do cmdlet [Set-User.](https://docs.microsoft.com/powershell/module/exchange/set-user)
+  > <sup>*</sup> Esse atributo é mapeado para a propriedade CountryOrRegion retornada executando o cmdlet **Get-User** no PowerShell do Exchange Online. O cmdlet retorna o nome de país localizado, que é traduzido do código de país de duas letras. Para obter mais informações, consulte a descrição do parâmetro CountryOrRegion no artigo de referência do cmdlet [Set-User.](/powershell/module/exchange/set-user)
 
 Embora mais atributos de usuário estão disponíveis, especialmente para caixas de correio do Exchange, os atributos listados acima são os únicos atualmente suportados pelo OneDrive.
   
@@ -198,7 +198,7 @@ Para criar uma ocorrência e atribuir membros:
 
 ## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>Pesquisar e exportar conteúdo em ambientes multi-geo
 
-Os filtros de permissões de pesquisa também permitem controlar onde o conteúdo é roteado para exportação e qual datacenter pode ser pesquisado ao pesquisar locais de conteúdo em um ambiente [Multi-Geo do SharePoint.](https://go.microsoft.com/fwlink/?linkid=860840)
+Os filtros de permissões de pesquisa também permitem controlar onde o conteúdo é roteado para exportação e qual datacenter pode ser pesquisado ao pesquisar locais de conteúdo em um ambiente [Multi-Geo do SharePoint.](../enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md)
   
 - **Exportar resultados da pesquisa:** Você pode exportar os resultados da pesquisa de caixas de correio do Exchange, sites do SharePoint e contas do OneDrive de um datacenter específico. Isso significa que você pode especificar o local do datacenter do qual os resultados da pesquisa serão exportados.
 
@@ -267,7 +267,7 @@ Lembre-se das seguintes coisas ao pesquisar e exportar conteúdo em ambientes mu
 
 ## <a name="using-compliance-boundaries-for-sharepoint-hub-sites"></a>Usando limites de conformidade para sites de hub do SharePoint
 
-[Os sites de hub](https://docs.microsoft.com/sharepoint/dev/features/hub-site/hub-site-overview) do SharePoint geralmente se alinham com os mesmos limites geográficos ou de agência que os limites de conformidade da Descoberta Online seguem. Isso significa que você pode usar a propriedade ID do site do hub para criar um limite de conformidade. Para fazer isso, use o cmdlet [Get-SPOHubSite](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spohubsite#examples) no PowerShell do SharePoint Online para obter o SiteId para o site do hub e, em seguida, use esse valor para a propriedade ID do departamento para criar um filtro de permissões de pesquisa.
+[Os sites de hub](/sharepoint/dev/features/hub-site/hub-site-overview) do SharePoint geralmente se alinham com os mesmos limites geográficos ou de agência que os limites de conformidade da Descoberta Online seguem. Isso significa que você pode usar a propriedade ID do site do hub para criar um limite de conformidade. Para fazer isso, use o cmdlet [Get-SPOHubSite](/powershell/module/sharepoint-online/get-spohubsite#examples) no PowerShell do SharePoint Online para obter o SiteId para o site do hub e, em seguida, use esse valor para a propriedade ID do departamento para criar um filtro de permissões de pesquisa.
 
 Use a sintaxe a seguir para criar um filtro de permissões de pesquisa para um site de hub do SharePoint:
 

@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: d81e272cfe50aa8379135406cbe538fbc8a18cb5
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 7c3b4f82d94888cfa6c63b25f20130a38f8b4c9f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454224"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919195"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migração de caixa de correio entre locatários (visualização)
 
@@ -45,7 +45,7 @@ Esta seção não inclui as etapas específicas necessárias para preparar os ob
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-O recurso de movimentação de caixa de correio entre locatários exige que o [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts) estabeleça um aplicativo do Azure específico do par de locatários para armazenar e acessar com segurança o certificado/segredo usado para autenticar e autorizar a migração de caixa de correio de um locatário para o outro, removendo todos os requisitos para compartilhar certificados/segredos entre locatários. 
+O recurso de movimentação de caixa de correio entre locatários exige que o [Azure Key Vault](/azure/key-vault/basic-concepts) estabeleça um aplicativo do Azure específico do par de locatários para armazenar e acessar com segurança o certificado/segredo usado para autenticar e autorizar a migração de caixa de correio de um locatário para o outro, removendo todos os requisitos para compartilhar certificados/segredos entre locatários. 
 
 Antes de começar, certifique-se de que você tem as permissões necessárias para executar os scripts de implantação para configurar o Azure Key Vault, o aplicativo Mover Caixa de Correio, o Ponto de Extremidade de Migração do EXO e o Relacionamento da Organização do EXO. Normalmente, o Administrador Global tem permissão para executar todas as etapas de configuração.
 
@@ -116,7 +116,7 @@ Preparar o locatário de origem:
     ||||
 
     >[!Note]
-    > Verifique se você instalou o módulo do PowerShell do Azure AD antes de executar os scripts. Consulte aqui ![ para etapas de ](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-5.1.0) instalação
+    > Verifique se você instalou o módulo do PowerShell do Azure AD antes de executar os scripts. Consulte aqui ![ para etapas de ](/powershell/azure/install-az-ps?view=azps-5.1.0) instalação
 
 6. O script pausa e solicita que você aceite ou consenta com o aplicativo de migração de caixa de correio do Exchange criado durante esse processo. Veja um exemplo.
 
@@ -590,7 +590,7 @@ Não. Os nomes de domínio de locatário de origem e destino devem ser exclusivo
 
 Sim, no entanto, só manteremos as permissões da loja conforme descrito nestes artigos:
 
-- [Microsoft Docs | Gerenciar permissões para destinatários no Exchange Online](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients)
+- [Microsoft Docs | Gerenciar permissões para destinatários no Exchange Online](/exchange/recipients-in-exchange-online/manage-permissions-for-recipients)
 
 - [Suporte da Microsoft | Como conceder permissões de caixa de correio do Exchange e do Outlook no Office 365 dedicado](https://support.microsoft.com/topic/how-to-grant-exchange-and-outlook-mailbox-permissions-in-office-365-dedicated-bac01b2c-08ff-2eac-e1c8-6dd01cf77287)
 
@@ -604,11 +604,11 @@ Não exceda 2.000 caixas de correio por lote. Recomendamos o envio de lotes duas
 
 **E se eu usar a criptografia de serviço com a Chave do Cliente?**
 
-A caixa de correio será descriptografada antes de se mover. Verifique se a Chave do Cliente está configurada no locatário de destino, se ela ainda for necessária. Consulte [aqui](https://docs.microsoft.com/microsoft-365/compliance/customer-key-overview) para obter mais informações.  
+A caixa de correio será descriptografada antes de se mover. Verifique se a Chave do Cliente está configurada no locatário de destino, se ela ainda for necessária. Consulte [aqui](../compliance/customer-key-overview.md) para obter mais informações.  
 
 **Qual é o tempo estimado de migração?**
 
-Para ajudá-lo a planejar [](https://docs.microsoft.com/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) sua migração, a tabela presente aqui mostra as diretrizes sobre quando esperar que as migrações de caixa de correio em massa ou migrações individuais seja concluídas. Essas estimativas se baseiam em uma análise de dados de migrações anteriores do cliente. Como cada ambiente é exclusivo, a velocidade exata de migração pode variar.  
+Para ajudá-lo a planejar [](/exchange/mailbox-migration/office-365-migration-best-practices#estimated-migration-times) sua migração, a tabela presente aqui mostra as diretrizes sobre quando esperar que as migrações de caixa de correio em massa ou migrações individuais seja concluídas. Essas estimativas se baseiam em uma análise de dados de migrações anteriores do cliente. Como cada ambiente é exclusivo, a velocidade exata de migração pode variar.  
 
 Lembre-se de que esse recurso está atualmente em visualização e o SLA e quaisquer Níveis de Serviço aplicáveis não se aplicam a qualquer problema de desempenho ou disponibilidade durante o status de visualização desse recurso.
 
@@ -733,4 +733,3 @@ Lembre-se de que esse recurso está atualmente em visualização e o SLA e quais
    | Microsoft Defender para Office 365 (Plano 2)    |
    | Privileged Access Management para Office 365           |
    | Criptografia Premium no Office 365                  |
-    

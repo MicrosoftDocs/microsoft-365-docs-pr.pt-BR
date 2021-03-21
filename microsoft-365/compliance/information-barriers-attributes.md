@@ -13,18 +13,18 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c45a2733c1fa7cf6d05cff747a9cfcdba1b124cc
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: ee410bf455e770087da7999ad2019c17419a8e00
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126158"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50919727"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Atributos das políticas de barreira de informações
 
-Determinados atributos no Azure Active Directory podem ser usados para segmentar usuários. Depois que os segmentos são definidos, esses segmentos podem ser usados como filtros para políticas de barreira de informações. Por exemplo, você pode usar **Departamento** para definir segmentos de usuários por departamento dentro de sua organização (supondo que nenhum único funcionário trabalhe para dois departamentos ao mesmo tempo).
+Determinados atributos no Azure Active Directory podem ser usados para segmentar usuários. Depois que os segmentos são definidos, esses segmentos podem ser usados como filtros para políticas de barreira de informações. Por exemplo, você pode usar **o Department** para definir segmentos de usuários por departamento em sua organização (supondo que nenhum único funcionário funcione para dois departamentos ao mesmo tempo).
 
-Este artigo descreve como usar atributos com barreiras de informações e fornece uma lista de atributos que podem ser usados. Para saber mais sobre barreiras de informações, consulte os seguintes recursos:
+Este artigo descreve como usar atributos com barreiras de informações e fornece uma lista de atributos que podem ser usados. Para saber mais sobre as barreiras de informações, consulte os seguintes recursos:
 
 - [Barreiras de informações](information-barriers.md)
 - [Definir políticas para barreiras de informações no Microsoft Teams](information-barriers-policies.md)
@@ -32,32 +32,32 @@ Este artigo descreve como usar atributos com barreiras de informações e fornec
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>Como usar atributos em políticas de barreira de informações
 
-Os atributos listados neste artigo podem ser usados para definir ou editar segmentos de usuários. Seus segmentos definidos servem como parâmetros (chamados de *valores UserGroupFilter)* em políticas de barreira [de informações.](information-barriers-policies.md)
+Os atributos listados neste artigo podem ser usados para definir ou editar segmentos de usuários. Seus segmentos definidos servem como parâmetros (chamados *valores UserGroupFilter)* em políticas de barreira [de informações.](information-barriers-policies.md)
 
-1. Determine qual atributo você deseja usar para definir segmentos. (Consulte [a seção](#reference) Reference neste artigo.)
+1. Determine qual atributo você deseja usar para definir segmentos. (Consulte a [seção Referência](#reference) neste artigo.)
 
-2. Certifique-se de que as contas de usuário tenham valores preenchidos para os atributos selecionados na Etapa 1. Exibir detalhes da conta de usuário e, se necessário, editar contas de usuário para incluir valores de atributos. 
+2. Certifique-se de que as contas de usuário tenham valores preenchidos para os atributos selecionados na Etapa 1. Exibir detalhes da conta de usuário e, se necessário, editar contas de usuário para incluir valores de atributo. 
 
-    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), confira Configurar propriedades de conta de usuário com o [Office 365 PowerShell.](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell)
+    - Para editar várias contas (ou usar o PowerShell para editar uma única conta), consulte [Configure user account properties with Office 365 PowerShell](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md).
 
-    - Para editar uma única conta, confira Adicionar ou atualizar as informações de perfil de um [usuário usando o Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+    - Para editar uma única conta, consulte [Add or update a user's profile information using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
-3. [Defina segmentos usando o PowerShell,](information-barriers-policies.md#define-segments-using-powershell)semelhante aos exemplos a seguir:
+3. [Definir segmentos usando o PowerShell](information-barriers-policies.md#define-segments-using-powershell), semelhante aos seguintes exemplos:
 
     |**Exemplo**|**Cmdlet**|
     |:----------|:---------|
     | Definir um segmento chamado Segment1 usando o atributo Department | `New-OrganizationSegment -Name "Segment1" -UserGroupFilter "Department -eq 'Department1'"` |
-    | Definir um segmento chamado SegmentA usando o atributo MemberOf (suponha que esse atributo contenha nomes de grupo, como "BlueGroup") | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"` |
-    | Definir um segmento chamado DayTraders usando ExtensionAttribute1 (suponha que esse atributo contenha títulos de trabalho, como "DayTrader") | `New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
+    | Definir um segmento chamado SegmentA usando o atributo MemberOf (suponha que este atributo contenha nomes de grupo, como "BlueGroup") | `New-OrganizationSegment -Name "SegmentA" -UserGroupFilter "MemberOf -eq 'BlueGroup'"` |
+    | Definir um segmento chamado DayTraders usando ExtensionAttribute1 (suponha que este atributo contenha títulos de trabalho, como "DayTrader") | `New-OrganizationSegment -Name "DayTraders" -UserGroupFilter "ExtensionAttribute1 -eq 'DayTrader'"` |
 
     > [!TIP]
-    > Ao definir segmentos, use o mesmo atributo para todos os segmentos. Por exemplo, se você definir alguns segmentos usando *Departamento*, defina todos os segmentos *usando* Departamento . Não defina alguns segmentos usando *Departamento* e outros usando *MemberOf*. Certifique-se de que seus segmentos não se sobreponham; cada usuário deve ser atribuído a exatamente um segmento.
+    > Ao definir segmentos, use o mesmo atributo para todos os segmentos. Por exemplo, se você definir alguns segmentos usando *Department*, defina todos os segmentos usando *Department*. Não defina alguns segmentos usando *Departamento* e outros usando *MemberOf*. Certifique-se de que seus segmentos não se sobreponham; cada usuário deve ser atribuído a exatamente um segmento.
 
 ## <a name="reference"></a>Referência
 
 A tabela a seguir lista os atributos que você pode usar com barreiras de informações.
 
-|**Nome da propriedade do Azure Active Directory <br/> (nome de exibição LDAP)**|**Nome da propriedade do Exchange**|
+|**Nome da propriedade Azure Active Directory (nome de exibição <br/> LDAP)**|**Nome da propriedade Exchange**|
 |:---------------------------------------------------------------|:-------------------------|
 | Co | Co |
 | Empresa | Empresa |
@@ -90,7 +90,7 @@ A tabela a seguir lista os atributos que você pode usar com barreiras de inform
 | TargetAddress | ExternalEmailAddress |
 | UsageLocation | UsageLocation |
 | UserPrincipalName | UserPrincipalName |
-| Correio | WindowsEmailAddress |
+| Email | WindowsEmailAddress |
 | Descrição | Descrição |
 | MemberOf | MemberOfGroup |
 
