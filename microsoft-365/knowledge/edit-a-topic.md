@@ -14,14 +14,14 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: ac8e4b8cdcdfd4d2de0c48a22500338c7a8480a8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+ms.openlocfilehash: 34c6551dd3a40852368b40d960bf921c52f46372
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454166"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50921511"
 ---
-# <a name="edit-an-existing-topic"></a><span data-ttu-id="3e769-103">Editar um tópico existente</span><span class="sxs-lookup"><span data-stu-id="3e769-103">Edit an existing topic</span></span> 
+# <a name="edit-an-existing-topic"></a><span data-ttu-id="d9dc4-103">Editar um tópico existente</span><span class="sxs-lookup"><span data-stu-id="d9dc4-103">Edit an existing topic</span></span> 
 
 </br>
 
@@ -29,114 +29,107 @@ ms.locfileid: "50454166"
 
 </br>
 
-<span data-ttu-id="3e769-104">Em Tópicos do Viva, você pode editar um tópico existente.</span><span class="sxs-lookup"><span data-stu-id="3e769-104">In Viva Topics, you can edit an existing topic.</span></span> <span data-ttu-id="3e769-105">Talvez seja necessário fazer isso se quiser corrigir ou adicionar informações adicionais a uma página de tópico existente.</span><span class="sxs-lookup"><span data-stu-id="3e769-105">You may need to do this if you want to correct or add additional information to an existing topic page.</span></span> 
+<span data-ttu-id="d9dc4-104">Em Tópicos do Viva, você pode editar um tópico existente.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-104">In Viva Topics, you can edit an existing topic.</span></span> <span data-ttu-id="d9dc4-105">Talvez seja necessário fazer isso se quiser corrigir ou adicionar informações adicionais a uma página de tópico existente.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-105">You may need to do this if you want to correct or add additional information to an existing topic page.</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="3e769-106">Embora as informações em um tópico coletado pela AI são cortadas pela [segurança,](topic-experiences-security-trimming.md)observe que a descrição do tópico e as informações de pessoas que você adiciona manualmente ao editar um tópico existente são visíveis para todos os usuários que têm permissões para exibir tópicos.</span><span class="sxs-lookup"><span data-stu-id="3e769-106">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.</span></span> 
+> <span data-ttu-id="d9dc4-106">Embora as informações em um tópico coletado pela AI são cortadas pela [segurança,](topic-experiences-security-trimming.md)observe que a descrição do tópico e as informações de pessoas que você adiciona manualmente ao editar um tópico existente são visíveis para todos os usuários que têm permissões para exibir tópicos.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-106">While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), note that topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.</span></span> 
 
-## <a name="requirements"></a><span data-ttu-id="3e769-107">Requisitos</span><span class="sxs-lookup"><span data-stu-id="3e769-107">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d9dc4-107">Requisitos</span><span class="sxs-lookup"><span data-stu-id="d9dc4-107">Requirements</span></span>
 
-<span data-ttu-id="3e769-108">Para editar um tópico existente, você precisa:</span><span class="sxs-lookup"><span data-stu-id="3e769-108">To edit an existing topic, you need to:</span></span>
-- <span data-ttu-id="3e769-109">Tenha uma licença de Tópicos do Viva.</span><span class="sxs-lookup"><span data-stu-id="3e769-109">Have a Viva Topics license.</span></span>
-- <span data-ttu-id="3e769-110">Ter permissões para [**Quem pode criar ou editar tópicos**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span><span class="sxs-lookup"><span data-stu-id="3e769-110">Have permissions to [**Who can create or edit topics**](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-user-permissions).</span></span> <span data-ttu-id="3e769-111">Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva.</span><span class="sxs-lookup"><span data-stu-id="3e769-111">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
+<span data-ttu-id="d9dc4-108">Para editar um tópico existente, você precisa:</span><span class="sxs-lookup"><span data-stu-id="d9dc4-108">To edit an existing topic, you need to:</span></span>
+- <span data-ttu-id="d9dc4-109">Tenha uma licença de Tópicos do Viva.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-109">Have a Viva Topics license.</span></span>
+- <span data-ttu-id="d9dc4-110">Ter permissões para [**Quem pode criar ou editar tópicos**](./topic-experiences-user-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="d9dc4-110">Have permissions to [**Who can create or edit topics**](./topic-experiences-user-permissions.md).</span></span> <span data-ttu-id="d9dc4-111">Os administradores de conhecimento podem dar aos usuários essa permissão nas configurações de permissões do tópico Tópicos do Viva.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-111">Knowledge admins can give users this permission in the Viva Topics topic permissions settings.</span></span> 
 
 > [!Note] 
-> <span data-ttu-id="3e769-112">Os usuários que têm permissão para gerenciar tópicos no Centro de Tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.</span><span class="sxs-lookup"><span data-stu-id="3e769-112">Users who have permission to manage topics in the Topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
+> <span data-ttu-id="d9dc4-112">Os usuários que têm permissão para gerenciar tópicos no Centro de Tópicos (gerentes de conhecimento) já têm permissões para criar e editar tópicos.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-112">Users who have permission to manage topics in the Topic center (knowledge managers) already have permissions to create and edit topics.</span></span>
 
-## <a name="how-to-edit-a-topic-page"></a><span data-ttu-id="3e769-113">Como editar uma página de tópico</span><span class="sxs-lookup"><span data-stu-id="3e769-113">How to edit a topic page</span></span>
+## <a name="how-to-edit-a-topic-page"></a><span data-ttu-id="d9dc4-113">Como editar uma página de tópico</span><span class="sxs-lookup"><span data-stu-id="d9dc4-113">How to edit a topic page</span></span>
 
-<span data-ttu-id="3e769-114">Os usuários que têm a permissão Quem pode criar ou editar **tópicos** podem editar um <b></b> tópico abrindo a página de tópico de um destaque de tópico e selecionando o botão Editar na parte superior direita da página de tópicos.</span><span class="sxs-lookup"><span data-stu-id="3e769-114">Users who have the **Who can create or edit topics** permission can edit a topic by opening the topic page from a topic highlight, and then selecting the <b>Edit</b> button on the top right of the topic page.</span></span> <span data-ttu-id="3e769-115">A página de tópicos também pode ser aberta na home page da central de tópicos, onde você pode encontrar todos os tópicos aos quais você tem uma conexão.</span><span class="sxs-lookup"><span data-stu-id="3e769-115">The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.</span></span>
+<span data-ttu-id="d9dc4-114">Os usuários que têm a permissão Quem pode criar ou editar **tópicos** podem editar um <b></b> tópico abrindo a página de tópico de um destaque de tópico e selecionando o botão Editar na parte superior direita da página de tópicos.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-114">Users who have the **Who can create or edit topics** permission can edit a topic by opening the topic page from a topic highlight, and then selecting the <b>Edit</b> button on the top right of the topic page.</span></span> <span data-ttu-id="d9dc4-115">A página de tópicos também pode ser aberta na home page da central de tópicos, onde você pode encontrar todos os tópicos aos quais você tem uma conexão.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-115">The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.</span></span>
 
    ![Botão Editar](../media/knowledge-management/edit-button.png) </br> 
 
-<span data-ttu-id="3e769-117">Os gerentes de conhecimento também podem editar tópicos diretamente da página Gerenciar Tópicos selecionando o tópico e selecionando <b>Editar</b> na barra de ferramentas.</span><span class="sxs-lookup"><span data-stu-id="3e769-117">Knowledge managers can also edit topics directly from the Manage Topics page by selecting the topic, and then selecting <b>Edit</b> in the toolbar.</span></span>
+<span data-ttu-id="d9dc4-117">Os gerentes de conhecimento também podem editar tópicos diretamente da página Gerenciar Tópicos selecionando o tópico e selecionando <b>Editar</b> na barra de ferramentas.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-117">Knowledge managers can also edit topics directly from the Manage Topics page by selecting the topic, and then selecting <b>Edit</b> in the toolbar.</span></span>
 
    ![Editar tópico em Gerenciar Tópicos](../media/knowledge-management/manage-topics-edit.png) </br> 
 
-### <a name="to-edit-a-topic-page"></a><span data-ttu-id="3e769-119">Para editar uma página de tópico</span><span class="sxs-lookup"><span data-stu-id="3e769-119">To edit a topic page</span></span>
+### <a name="to-edit-a-topic-page"></a><span data-ttu-id="d9dc4-119">Para editar uma página de tópico</span><span class="sxs-lookup"><span data-stu-id="d9dc4-119">To edit a topic page</span></span>
 
-1. <span data-ttu-id="3e769-120">Na página de tópicos, selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="3e769-120">On the topic page, select **Edit**.</span></span> <span data-ttu-id="3e769-121">Isso permite que você faça alterações conforme necessário na página de tópicos.</span><span class="sxs-lookup"><span data-stu-id="3e769-121">This lets you make changes as needed to the topic page.</span></span>
+1. <span data-ttu-id="d9dc4-120">Na página de tópicos, selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-120">On the topic page, select **Edit**.</span></span> <span data-ttu-id="d9dc4-121">Isso permite que você faça alterações conforme necessário na página de tópicos.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-121">This lets you make changes as needed to the topic page.</span></span>
 
    ![Editar controle](../media/knowledge-management/topic-page-edit.png) </br>  
 
 
-2. <span data-ttu-id="3e769-123">Na seção <b>Nomes Alternativos,</b> digite quaisquer outros nomes aos qual o tópico possa ser referido.</span><span class="sxs-lookup"><span data-stu-id="3e769-123">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
+2. <span data-ttu-id="d9dc4-123">Na seção <b>Nomes Alternativos,</b> digite quaisquer outros nomes aos qual o tópico possa ser referido.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-123">In the <b>Alternate Names</b> section, type any other names that the topic might be referred to.</span></span> 
 
     ![Nomes alternativos](../media/knowledge-management/alt-names.png) </br> 
-3. <span data-ttu-id="3e769-125">Na seção <b>Descrição,</b> digite algumas frases que descrevem o tópico.</span><span class="sxs-lookup"><span data-stu-id="3e769-125">In the <b>Description</b> section, type a couple of sentences that describes the topic.</span></span> <span data-ttu-id="3e769-126">Ou se uma descrição já existir, atualize-a se necessário.</span><span class="sxs-lookup"><span data-stu-id="3e769-126">Or if a description already exists, update it if needed.</span></span>
+3. <span data-ttu-id="d9dc4-125">Na seção <b>Descrição,</b> digite algumas frases que descrevem o tópico.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-125">In the <b>Description</b> section, type a couple of sentences that describes the topic.</span></span> <span data-ttu-id="d9dc4-126">Ou se uma descrição já existir, atualize-a se necessário.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-126">Or if a description already exists, update it if needed.</span></span>
 
     ![Seção Descrição](../media/knowledge-management/description.png)</br>
 
-4. <span data-ttu-id="3e769-128">Na seção <b>Pessoas Fixadas,</b> você pode "fixar" uma pessoa para exibi-la como um especialista no assunto no tópico.</span><span class="sxs-lookup"><span data-stu-id="3e769-128">In the <b>Pinned people</b> section, you can "pin" a person to show them as a subject matter expert on the topic.</span></span> <span data-ttu-id="3e769-129">Comece digitando seu nome ou endereço de email na caixa <b>Adicionar</b> um novo usuário e selecionando o usuário que você deseja adicionar nos resultados da pesquisa.</span><span class="sxs-lookup"><span data-stu-id="3e769-129">Begin by typing their name or email address in the <b>Add a new user</b> box, and then selecting the user you want to add from the search results.</span></span> <span data-ttu-id="3e769-130">Você também pode "desempinar" selecionando o ícone <b>Remover</b> da lista no cartão de usuário.</span><span class="sxs-lookup"><span data-stu-id="3e769-130">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span>
+4. <span data-ttu-id="d9dc4-128">Na seção <b>Pessoas Fixadas,</b> você pode "fixar" uma pessoa para exibi-la como um especialista no assunto no tópico.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-128">In the <b>Pinned people</b> section, you can "pin" a person to show them as a subject matter expert on the topic.</span></span> <span data-ttu-id="d9dc4-129">Comece digitando seu nome ou endereço de email na caixa <b>Adicionar</b> um novo usuário e selecionando o usuário que você deseja adicionar nos resultados da pesquisa.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-129">Begin by typing their name or email address in the <b>Add a new user</b> box, and then selecting the user you want to add from the search results.</span></span> <span data-ttu-id="d9dc4-130">Você também pode "desempinar" selecionando o ícone <b>Remover</b> da lista no cartão de usuário.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-130">You can also "unpin" them by selecting the <b>Remove from list</b> icon on the user card.</span></span>
  
     ![Adicionar pessoas fixadas](../media/knowledge-management/pinned-people.png)</br>
 
-    <span data-ttu-id="3e769-132">A <b>seção Pessoas sugeridas</b> mostra aos usuários que a IA acha que podem ser especialistas no assunto no tópico a partir de sua conexão com recursos sobre o tópico.</span><span class="sxs-lookup"><span data-stu-id="3e769-132">The <b>Suggested people</b> section shows users that AI thinks might be subject matter experts on the topic from their connection to resources about the topic.</span></span> <span data-ttu-id="3e769-133">Você pode alterar seu status de Sugerido para Fixado selecionando o ícone de pino no cartão de usuário.</span><span class="sxs-lookup"><span data-stu-id="3e769-133">You can change their status from Suggested to Pinned by selecting the pin icon on the user card.</span></span>
+    <span data-ttu-id="d9dc4-132">A <b>seção Pessoas sugeridas</b> mostra aos usuários que a IA acha que podem ser especialistas no assunto no tópico a partir de sua conexão com recursos sobre o tópico.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-132">The <b>Suggested people</b> section shows users that AI thinks might be subject matter experts on the topic from their connection to resources about the topic.</span></span> <span data-ttu-id="d9dc4-133">Você pode alterar seu status de Sugerido para Fixado selecionando o ícone de pino no cartão de usuário.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-133">You can change their status from Suggested to Pinned by selecting the pin icon on the user card.</span></span>
 
    ![Fixar uma pessoa sugerida](../media/knowledge-management/suggested-people.png)</br>
 
-5. <span data-ttu-id="3e769-135">Na seção <b>Arquivos fixados e</b> páginas, você pode adicionar ou "fixar" um arquivo ou página de site do SharePoint associada ao tópico.</span><span class="sxs-lookup"><span data-stu-id="3e769-135">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
+5. <span data-ttu-id="d9dc4-135">Na seção <b>Arquivos fixados e</b> páginas, você pode adicionar ou "fixar" um arquivo ou página de site do SharePoint associada ao tópico.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-135">In the <b>Pinned files and pages</b> section, you can add or "pin" a file or SharePoint site page that is associated to the topic.</span></span>
 
    ![Seção Arquivos e páginas fixados](../media/knowledge-management/pinned-files-and-pages.png)</br>
  
-    <span data-ttu-id="3e769-137">Para adicionar um novo arquivo, selecione <b>Adicionar</b>, selecione o site do SharePoint em seus sites Frequent ou Followed e selecione o arquivo na biblioteca de documentos do site.</span><span class="sxs-lookup"><span data-stu-id="3e769-137">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
+    <span data-ttu-id="d9dc4-137">Para adicionar um novo arquivo, selecione <b>Adicionar</b>, selecione o site do SharePoint em seus sites Frequent ou Followed e selecione o arquivo na biblioteca de documentos do site.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-137">To add a new file, select <b>Add</b>, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.</span></span>
 
-    <span data-ttu-id="3e769-138">Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou página fornecendo a URL.</span><span class="sxs-lookup"><span data-stu-id="3e769-138">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
+    <span data-ttu-id="d9dc4-138">Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou página fornecendo a URL.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-138">You can also use the <b>From a link</b> option to add a file or page by providing the URL.</span></span> 
 
    > [!Note] 
-   > <span data-ttu-id="3e769-139">Os arquivos e páginas que você adiciona devem estar localizados no mesmo locatário do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="3e769-139">Files and pages that you add must be located within the same Microsoft 365 tenant.</span></span> <span data-ttu-id="3e769-140">Se você quiser adicionar um link a um recurso externo no tópico, você pode adicioná-lo por meio do ícone de tela na etapa 9.</span><span class="sxs-lookup"><span data-stu-id="3e769-140">If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 9.</span></span>
+   > <span data-ttu-id="d9dc4-139">Os arquivos e páginas que você adiciona devem estar localizados no mesmo locatário do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-139">Files and pages that you add must be located within the same Microsoft 365 tenant.</span></span> <span data-ttu-id="d9dc4-140">Se você quiser adicionar um link a um recurso externo no tópico, você pode adicioná-lo por meio do ícone de tela na etapa 9.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-140">If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 9.</span></span>
 
-6. <span data-ttu-id="3e769-141">A <b>seção Arquivos e páginas sugeridos</b> mostra arquivos e páginas que a IA sugere estar associada ao tópico.</span><span class="sxs-lookup"><span data-stu-id="3e769-141">The <b>Suggested files and pages</b> section shows files and pages that AI suggests to be associated to the topic.</span></span>
+6. <span data-ttu-id="d9dc4-141">A <b>seção Arquivos e páginas sugeridos</b> mostra arquivos e páginas que a IA sugere estar associada ao tópico.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-141">The <b>Suggested files and pages</b> section shows files and pages that AI suggests to be associated to the topic.</span></span>
 
    ![Seção Arquivos e páginas sugeridos](../media/knowledge-management/suggested-files-and-pages.png)</br>
 
-    <span data-ttu-id="3e769-143">Você pode alterar um arquivo ou página sugerido para um arquivo ou página fixado selecionando o ícone fixado.</span><span class="sxs-lookup"><span data-stu-id="3e769-143">You can change a suggested file or page to a pinned file or page by selecting the pinned icon.</span></span>
+    <span data-ttu-id="d9dc4-143">Você pode alterar um arquivo ou página sugerido para um arquivo ou página fixado selecionando o ícone fixado.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-143">You can change a suggested file or page to a pinned file or page by selecting the pinned icon.</span></span>
 
-7.  <span data-ttu-id="3e769-144">A <b>seção Sites relacionados</b> mostra sites que têm informações sobre o tópico.</span><span class="sxs-lookup"><span data-stu-id="3e769-144">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
+7.  <span data-ttu-id="d9dc4-144">A <b>seção Sites relacionados</b> mostra sites que têm informações sobre o tópico.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-144">The <b>Related sites</b> section shows sites that have information about the topic.</span></span> 
 
     ![Seção Sites relacionados](../media/knowledge-management/related-sites.png)</br>
 
-    <span data-ttu-id="3e769-146">Você pode adicionar um site relacionado selecionando <b>Adicionar</b> e, em seguida, pesquisando o site ou selecionando-o em sua lista de sites Frequentes ou Recentes.</span><span class="sxs-lookup"><span data-stu-id="3e769-146">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
+    <span data-ttu-id="d9dc4-146">Você pode adicionar um site relacionado selecionando <b>Adicionar</b> e, em seguida, pesquisando o site ou selecionando-o em sua lista de sites Frequentes ou Recentes.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-146">You can add a related site by selecting <b>Add</b> and then either searching for the site, or selecting it from your list of Frequent or Recent sites.</span></span></br>
     
     ![Selecionar um Site](../media/knowledge-management/sites.png)</br>
 
-8. <span data-ttu-id="3e769-148">A <b>seção Tópicos relacionados</b> mostra conexões existentes entre tópicos.</span><span class="sxs-lookup"><span data-stu-id="3e769-148">The <b>Related topics</b> section shows connections that exists between topics.</span></span> <span data-ttu-id="3e769-149">Você pode adicionar uma conexão a um tópico diferente selecionando o botão <b>Conectar a</b> um tópico relacionado e digitando o nome do tópico relacionado e selecionando-o nos resultados da pesquisa.</span><span class="sxs-lookup"><span data-stu-id="3e769-149">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
+8. <span data-ttu-id="d9dc4-148">A <b>seção Tópicos relacionados</b> mostra conexões existentes entre tópicos.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-148">The <b>Related topics</b> section shows connections that exists between topics.</span></span> <span data-ttu-id="d9dc4-149">Você pode adicionar uma conexão a um tópico diferente selecionando o botão <b>Conectar a</b> um tópico relacionado e digitando o nome do tópico relacionado e selecionando-o nos resultados da pesquisa.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-149">You can add a connection to a different topic by selecting the <b>Connect to a related topic</b> button, and then typing the name of the related topic, and selecting it from the search results.</span></span> 
 
    ![Seção Tópicos relacionados](../media/knowledge-management/related-topic.png)</br>  
 
-    <span data-ttu-id="3e769-151">Em seguida, você pode dar uma descrição de como os tópicos estão relacionados e selecionar <b>Atualizar</b>.</span><span class="sxs-lookup"><span data-stu-id="3e769-151">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
+    <span data-ttu-id="d9dc4-151">Em seguida, você pode dar uma descrição de como os tópicos estão relacionados e selecionar <b>Atualizar</b>.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-151">You can then give a description of how the topics are related, and select <b>Update</b>.</span></span></br>
 
    ![Descrição de tópicos relacionados](../media/knowledge-management/related-topics-update.png)</br> 
 
-   <span data-ttu-id="3e769-153">O tópico relacionado adicionado será exibido como um tópico conectado.</span><span class="sxs-lookup"><span data-stu-id="3e769-153">The related topic you added will display as a connected topic.</span></span>
+   <span data-ttu-id="d9dc4-153">O tópico relacionado adicionado será exibido como um tópico conectado.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-153">The related topic you added will display as a connected topic.</span></span>
 
    ![Tópicos relacionados conectados](../media/knowledge-management/related-topics-final.png)</br> 
 
-   <span data-ttu-id="3e769-155">Para remover um tópico relacionado, selecione o tópico que você deseja remover e selecione o <b>ícone Remover tópico.</b></span><span class="sxs-lookup"><span data-stu-id="3e769-155">To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</span></span></br>
+   <span data-ttu-id="d9dc4-155">Para remover um tópico relacionado, selecione o tópico que você deseja remover e selecione o <b>ícone Remover tópico.</b></span><span class="sxs-lookup"><span data-stu-id="d9dc4-155">To remove a related topic, select the topic you want to remove, then select the <b>Remove topic</b> icon.</span></span></br>
  
    ![Remover tópico relacionado](../media/knowledge-management/remove-related.png)</br>  
 
-   <span data-ttu-id="3e769-157">Em seguida, <b>selecione Remover</b>.</span><span class="sxs-lookup"><span data-stu-id="3e769-157">Then select <b>Remove</b>.</span></span></br>
+   <span data-ttu-id="d9dc4-157">Em seguida, <b>selecione Remover</b>.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-157">Then select <b>Remove</b>.</span></span></br>
 
    ![Confirmar remover](../media/knowledge-management/remove-related-confirm.png)</br> 
 
 
-9. <span data-ttu-id="3e769-159">Você também pode adicionar itens estáticos à página , como texto, imagens ou links, selecionando o ícone de tela, que você pode encontrar abaixo da descrição curta.</span><span class="sxs-lookup"><span data-stu-id="3e769-159">You can also add static items to the page — such as text, images, or links - by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="3e769-160">A seleção abrirá a caixa de ferramentas do SharePoint da qual você pode escolher o item que deseja adicionar à página.</span><span class="sxs-lookup"><span data-stu-id="3e769-160">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
+9. <span data-ttu-id="d9dc4-159">Você também pode adicionar itens estáticos à página , como texto, imagens ou links, selecionando o ícone de tela, que você pode encontrar abaixo da descrição curta.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-159">You can also add static items to the page — such as text, images, or links - by selecting the canvas icon, which you can find below the short description.</span></span> <span data-ttu-id="d9dc4-160">A seleção abrirá a caixa de ferramentas do SharePoint da qual você pode escolher o item que deseja adicionar à página.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-160">Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.</span></span>
 
    ![Ícone de tela](../media/knowledge-management/webpart-library.png)</br> 
 
 
-10. <span data-ttu-id="3e769-162">Selecione **Publicar** **ou Republicar para** salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="3e769-162">Select **Publish** or **Republish** to save your changes.</span></span> <span data-ttu-id="3e769-163">**Republicar** será sua opção disponível se o tópico tiver sido publicado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="3e769-163">**Republish** will be your available option if the topic has been published previously.</span></span>
+10. <span data-ttu-id="d9dc4-162">Selecione **Publicar** **ou Republicar para** salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-162">Select **Publish** or **Republish** to save your changes.</span></span> <span data-ttu-id="d9dc4-163">**Republicar** será sua opção disponível se o tópico tiver sido publicado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="d9dc4-163">**Republish** will be your available option if the topic has been published previously.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="3e769-164">Confira também</span><span class="sxs-lookup"><span data-stu-id="3e769-164">See also</span></span>
-
-
-
-  
-
-
-
+## <a name="see-also"></a><span data-ttu-id="d9dc4-164">Confira também</span><span class="sxs-lookup"><span data-stu-id="d9dc4-164">See also</span></span>
 
 
 
