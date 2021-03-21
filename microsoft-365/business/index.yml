@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: ed25671989668d09f7ad3fcc233a6cf8e1e0f1fc
-  ms.sourcegitcommit: cbe8724bd71d1c002395d98f1451c5f578c824f9
+  ms.openlocfilehash: 9364b8b46e413d675876a41bd775b063e0a2fafb
+  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/26/2021
-  ms.locfileid: "49988051"
+  ms.lasthandoff: 03/19/2021
+  ms.locfileid: "50913265"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -31,8 +31,8 @@ productDirectory:
     url: https://aka.ms/SMBSecurityKit
   - title: Quais são as novidades?
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: O Azure AD Premium P1 agora está incluso no Microsoft 365 Business Premium!
-    url: https://aka.ms/aadp1smbblog
+    summary: O gerenciamento de antivírus e a impressão universal agora estão disponíveis no Microsoft 365 Business Premium.
+    url: https://aka.ms/M365BPQ1Update
   - title: Junte-se à série de webinários de parceiros
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
     summary: Acelere o crescimento dos negócios por meio de serviços gerenciados com o Microsoft 365 Business Premium.
@@ -47,10 +47,10 @@ conceptualContent:
     - url: https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
       text: Treinamento do Microsoft 365 Business Premium
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
+    - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
       itemType: overview
       text: Comparar planos
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+    - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
       itemType: reference
       text: Descrição de serviço
     - url: support/microsoft-365-business-faqs.yml
@@ -64,7 +64,7 @@ conceptualContent:
     - url: secure-win-10-pcs.md
       itemType: how-to-guide
       text: 2. Proteja seus PCs
-    - url: https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start
+    - url: /MicrosoftTeams/get-started-with-teams-quick-start
       itemType: video
       text: 3. Configurar o Teams
     - url: https://support.microsoft.com/office/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
@@ -95,51 +95,51 @@ conceptualContent:
       text: Calculadora de Notas
   - title: Gerenciamento de usuários
     links:
-    - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
+    - url: ../admin/add-users/add-users.md
       itemType: how-to-guide
       text: Adicionar um usuário
-    - url: https://docs.microsoft.com/office365/admin/add-users/remove-former-employee
+    - url: /office365/admin/add-users/remove-former-employee
       itemType: how-to-guide
       text: Remover um usuário
-    - url: https://docs.microsoft.com/office365/admin/add-users/reset-passwords
+    - url: /office365/admin/add-users/reset-passwords
       itemType: how-to-guide
       text: Redefinir a senha de alguém
     footerLink:
-      url: https://docs.microsoft.com/office365/admin/admin-home
+      url: /office365/admin/admin-home
       text: Ver mais
   - title: Gerenciar ameaças
     links:
-    - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
+    - url: ../security/office-365-security/office-365-atp.md
       itemType: overview
       text: Proteção Avançada contra Ameaças
-    - url: set-up-mfa.md
+    - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
       itemType: how-to-guide
       text: Configure o MFA
-    - url: https://docs.microsoft.com/microsoft-365/business/increase-threat-protection#protect-against-ransomware
+    - url: ./increase-threat-protection.md#protect-against-ransomware
       itemType: how-to-guide
       text: Proteção contra ransomware
-    - url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
+    - url: /azure/active-directory/conditional-access/overview
       itemType: overview
       text: Acesso Condicional
     footerLink:
-      url: https://docs.microsoft.com/office365/admin/admin-home
+      url: /office365/admin/admin-home
       text: Ver mais
   - title: Gerenciar dados
     links:
-    - url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
+    - url: ../compliance/data-loss-prevention-policies.md
       itemType: overview
       text: Prevenção contra Perda de Dados
     - url: https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980
       itemType: how-to-guide
       text: Enviar e-mail criptografado
-    - url: https://docs.microsoft.com/microsoft-365/business/set-up-compliance#set-up-email-retention-with-exchange-online-archiving
+    - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
       itemType: how-to-guide
       text: Configurar a retenção de e-mail
     - url: https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9
       itemType: video
       text: Criar e usar rótulos de confidencialidade
     footerLink:
-      url: https://docs.microsoft.com/microsoft-365/compliance/
+      url: ../compliance/index.yml
       text: Ver mais
   - title: Gerenciar dispositivos
     links:
@@ -152,7 +152,7 @@ conceptualContent:
     - url: reset-devices-to-factory-settings.md
       itemType: how-to-guide
       text: Apagar e redefinir
-    - url: https://docs.microsoft.com/intune/index
+    - url: /intune/index
       itemType: overview
       text: Intune
     - url: manage-windows-devices.md
@@ -161,7 +161,7 @@ conceptualContent:
     - url: access-resources.md
       itemType: how-to-guide
       text: Configurar o Ingresso no Azure AD
-    - url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
+    - url: /windows/deployment/windows-autopilot/windows-autopilot
       text: Windows Autopilot
       itemType: overview
     footerLink:
@@ -169,17 +169,17 @@ conceptualContent:
       text: Ver mais
   - title: Monitorar a segurança
     links:
-    - url: https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score
+    - url: ../security/mtp/microsoft-secure-score.md
       itemType: how-to-guide
       text: Classificação de segurança
-    - url: https://docs.microsoft.com/intune/apps/app-protection-policies-monitor
+    - url: /intune/apps/app-protection-policies-monitor
       itemType: overview
       text: Relatório de políticas de proteção de aplicativo do Intune
-    - url: https://docs.microsoft.com/microsoft-365/enterprise/view-service-health
+    - url: ../enterprise/view-service-health.md
       itemType: how-to-guide
       text: Alertas de monitoramento de integridade
     footerLink:
-      url: https://docs.microsoft.com/microsoft-365/security/
+      url: ../security/index.yml
       text: Ver mais
   - title: Comunidade e suporte
     links:

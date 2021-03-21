@@ -604,11 +604,11 @@
               href: search-for-ediscovery-activities-in-the-audit-log.md
     - name: Descoberta Eletrônica Avançada
       items:
-        - name: Visão Geral a Descoberta Eletrônica Avançada
+        - name: Visão Geral
           href: overview-ediscovery-20.md
         - name: Configurar a Descoberta Eletrônica Avançada
           href: get-started-with-advanced-ediscovery.md
-        - name: Criar uma ocorrência de Descoberta Eletrônica Avançada
+        - name: Criar e gerenciar um caso
           href: create-and-manage-advanced-ediscoveryv2-case.md
         - name: Gerenciar fontes de dados de custodiantes e não custodiantes
           href: managing-custodians.md
@@ -720,8 +720,6 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: Referência da Descoberta Eletrônica Avançada
           items:
-            - name: Alinhamento de Descoberta Eletrônica Avançada com EDRM
-              href: advanced-ediscovery-edrm.md
             - name: Limites Descoberta Eletrônica Avançada
               href: limits-ediscovery20.md
             - name: Tipos de arquivo compatíveis
@@ -787,11 +785,11 @@
         - name: API da Atividade de Gestão do Office 365
           items:
             - name: Referência da API da Atividade de Gestão do Office 365
-              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference'
+              href: /office/office-365-management-api/office-365-management-activity-api-reference
             - name: Esquema da API da Atividade de Gestão do Office 365
-              href: 'https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema'
+              href: /office/office-365-management-api/office-365-management-activity-api-schema
             - name: Perguntas frequentes e Soluções de problemas da API da Atividade de Gestão do Office 365
-              href: 'https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api'
+              href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
     - name: Auditoria de caixa de correio
       href: enable-mailbox-auditing.md
     - name: Auditoria Avançada
@@ -846,8 +844,8 @@
         - name: Configurar o IRM para usar um servidor RMS do AD local
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
 - name: Microsoft 365 Enterprise
-  href: 'https://docs.microsoft.com/microsoft-365/enterprise/'
+  href: ../enterprise/index.yml
 - name: Segurança do Microsoft 365
-  href: 'https://docs.microsoft.com/microsoft-365/security/'
+  href: ../security/index.yml
 - name: Microsoft 365 Apps para Pequenos e Médios negócios
-  href: 'https://docs.microsoft.com/office365/admin/admin-home'
+  href: /office365/admin/admin-home

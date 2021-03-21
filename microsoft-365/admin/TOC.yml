@@ -35,7 +35,7 @@
         - name: Migrar seus dados para o Microsoft 365
           href: setup/migrate-email-and-contacts-admin.md
         - name: Implantar o Teams
-          href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
+          href: /microsoftteams/how-to-roll-out-teams?bc=%2foffice365%2fadmin%2fbreadcrumb%2ftoc.json&toc=%2foffice365%2fadmin%2ftoc.json
         - name: Treinamento do aplicativo para todos
           href: 'https://support.microsoft.com/training'
         - name: Qual assinatura eu tenho?
@@ -232,7 +232,7 @@
             - name: Integridade do Microsoft 365 Apps
               href: productivity/apps-health.md
             - name: Análise de ponto final
-              href: 'https://docs.microsoft.com/mem/analytics/productivity-score'
+              href: /mem/analytics/productivity-score
         - name: Alterar as informações de contato da sua organização
           href: manage/change-address-contact-and-more.md
         - name: Atualizar suas informações de contato de administrador
@@ -259,6 +259,8 @@
           href: manage/manage-office-scripts-settings.md
         - name: Encontrar um parceiro ou um revendedor
           href: manage/find-your-partner-or-reseller.md
+        - name: Gerenciar Microsoft Rewards
+          href: manage/manage-microsoft-rewards.md
         - name: Gerenciar mensagens do Centro de mensagens
           href: manage/manage-messages.md
         - name: 'Configurar opções de versão  '
@@ -312,7 +314,7 @@
             - name: Configure os recursos de conformidade
               href: ../business/set-up-compliance.md
         - name: Classificação de segurança
-          href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
+          href: ../security/mtp/microsoft-secure-score.md
         - name: Guia para a conformidade com o RGPD
           href: security-and-compliance/gdpr-compliance.md
     - name: Gerenciar dispositivos e dados de aplicativos
@@ -321,7 +323,7 @@
         - name: Métodos de proteção de dados de dispositivos e aplicativos
           href: devices/choose-device-security.md
         - name: Documentação do Microsoft Intune
-          href: 'https://docs.microsoft.com/mem/intune/'
+          href: /mem/intune/
         - name: Microsoft 365 Business Premium
           items:
             - name: Visualize e edite políticas e dispositivos
@@ -404,6 +406,6 @@
         - name: Participe de uma reunião do Teams com convidados
           href: 'https://support.microsoft.com/office/a120c282-063d-46b8-b973-851197ab75d8'
     - name: Solução de problemas
-      href: 'https://docs.microsoft.com/office/troubleshoot/'
+      href: /office/troubleshoot/
     - name: Contatar o suporte
       href: contact-support-for-business-products.md
