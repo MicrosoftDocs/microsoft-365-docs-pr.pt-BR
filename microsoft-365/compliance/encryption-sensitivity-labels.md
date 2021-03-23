@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f906e2a3ddd8a0847174a61e9f2b28238e5dc19
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4b5d25c51560cfe7a4d55419a7de9ce36321e78f
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928069"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034170"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
@@ -227,27 +227,33 @@ Para obter mais informações, pré-requisitos e instruções de configuração,
 
 ## <a name="let-users-assign-permissions"></a>Permitir que usuários atribuam permissões
 
-Você pode usar essas opções para permitir que os usuários atribuam permissões quando os mesmos aplicarem manualmente um rótulo de sensibilidade ao conteúdo:
+> [!IMPORTANT]
+> Nem todos os clientes de rotulagem têm suporte para todas as opções que permitem aos usuários atribuir suas próprias permissões. Use esta seção para saber mais.
 
-- No Outlook, um usuário pode aplicar restrições equivalentes à opção [Não Encaminhar](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) para os destinatários escolhidos.
+Você pode usar essas opções para permitir que os usuários atribuam permissões ao aplicarem manualmente um rótulo de confidencialidade ao conteúdo:
+
+- No Outlook, o usuário pode selecionar restrições equivalentes à opção [Não Encaminhar](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) ou [Criptografar Somente](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) para os destinatários escolhidos.
+    
+    A opção Não Encaminhar é compatível com todos os clientes de email que têm suporte para os rótulos de confidencialidade. No entanto, a aplicação da opção **Criptografar Somente** com um rótulo de confidencialidade é um lançamento recente que tem suporte apenas por rotulagem integrada, e não pelo cliente de rotulagem unificada da Proteção de Informações do Azure. O rotulo não ficará visível para os clientes de email que não têm suporte para esse recurso.
+    
+    Para verificar quais aplicativos do Outlook que usam o suporte de rotulagem integrada aplicando a opção Criptografar Somente com um rótulo de confidencialidade, use a [tabela de recursos para o Outlook](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-outlook) e a linha **Permitir que usuários atribuam permissões: – Criptografar Somente**.
 
 - No Word, no PowerPoint e no Excel, um usuário deve selecionar suas próprias permissões para usuários, grupos ou organizações específicos.
 
-    > [!NOTE]
-    > Essa opção para o Word, o PowerPoint e o Excel têm suporte no cliente de rotulagem unificada da Proteção de Informações do Azure.  Para aplicativos que usam rótulos internos, [verificar quais aplicativos os oferecem suporte](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint).
-    >
-    > Se essa opção estiver selecionada, mas não for compatível com o aplicativo de um usuário, esse rótulo não será exibido para o usuário, ou o rótulo exibirá por consistência, mas não poderá ser aplicado a uma mensagem de explicação aos usuários.
+    Esta opção dá suporte ao cliente de rotulagem unificada da Proteção de Informações do Azure e a alguns aplicativos que usam a rotulagem integrada. Para os aplicativos que não dão suporte a esse recurso, ou a rotulagem não ficará visível para os usuários, ou ela ficará visível para consistência, mas não poderá ser aplicada com uma mensagem de explicação aos usuários.
+    
+    Para verificar quais aplicativos que usam a rotulagem integrada têm suporte para essa opção, use a [tabela de recursos para o Word, o Excel e o PowerPoint](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint) e a linha **Permitir que usuários atribuam permissões: – Solicitar aos usuários**.
 
 Quando houver suporte para as opções, use a tabela a seguir para identificar quais usuários verão o rótulo de confidencialidade:
 
 |Configuração |Rótulo visível no Outlook|Rótulo visível no Word, Excel, PowerPoint|
 |:-----|:-----|:-----|:-----|
-|**No Outlook, um usuário pode aplicar restrições equivalentes à opção Não Encaminhar**|Sim |Não |
+|**No Outlook, impor restrições com a opção de Não Encaminhar ou a de Criptografar Somente**|Sim |Não |
 |**Solicite que os usuário especifiquem permissões no Word, no PowerPoint e no Excel**|Não |Sim|
 
 Quando ambas as configurações são selecionadas, o rótulo fica visível no Outlook, no Word, no Excel e no PowerPoint.
 
-Um rótulo de sensibilidade que permite aos usuários atribuir permissões a conteúdo só poderá ser aplicado manualmente por usuários. Tal rótulo não pode ser aplicado automaticamente ou usado como um rótulo recomendado.
+Um rótulo de confidencialidade que permite aos usuários atribuir permissões deve ser aplicado manualmente ao conteúdo pelos usuários; não pode ser aplicado automaticamente ou usado como um rótulo recomendado.
 
 Configurar as permissões atribuídas ao usuários:
 
@@ -255,13 +261,21 @@ Configurar as permissões atribuídas ao usuários:
 
 ### <a name="outlook-restrictions"></a>Restrições do Outlook
 
-No Outlook, quando um usuário aplica um rótulo de sensibilidade que permite atribuir permissões a uma mensagem, as restrições são as mesmas da opção Não Encaminhar. O usuário verá o nome e a descrição do rótulo na parte superior da mensagem, o que indica que o conteúdo é protegido. Diferentemente do Word, do PowerPoint e do Excel (confira a [ próxima seção](#word-powerpoint-and-excel-permissions)), os usuários não são solicitados a selecionar permissões específicas.
+No Outlook, quando um usuário aplica um rótulo de confidencialidade que permite atribuir permissões a uma mensagem, você pode escolher a opção de **Não Encaminhar** ou a de **Criptografar Somente**. O usuário verá o nome e a descrição do rótulo na parte superior da mensagem, o que indica que o conteúdo é protegido. Diferentemente do Word, do PowerPoint e do Excel (confira a [ próxima seção](#word-powerpoint-and-excel-permissions)), os usuários não são solicitados a selecionar permissões específicas.
 
 ![Rótulo de confidencialidade aplicado a uma mensagem no Outlook](../media/sensitivity-label-outlook-protection-applied.png)
 
-Quando a opção Não Encaminhar for aplicada a um email, tal email será criptografado e os destinatários deverão ser autenticados. Subsequentemente, os destinatários não podem encaminhar, imprimir ou copiar esse email. Por exemplo, no cliente do Outlook, o botão Encaminhar não está disponível, as opções do menu Salvar Como e Imprimir não estão disponíveis, e você não pode adicionar ou alterar destinatários nas caixas Para, CC ou Cco.
+Quando uma dessas opções for aplicada a um email, o email será criptografado e os destinatários deverão ser autenticados. Em seguida, os destinatários automaticamente terão direitos de uso restritos:
 
-Os documentos do Office não criptografados que são anexados ao email herdam automaticamente as mesmas restrições. Os direitos de uso aplicados a esses documentos são Editar Conteúdo, Editar; Salvar, Exibir, Abrir, Ler; e Permitir Macros. Se o usuário quiser direitos de uso diferentes para um anexo, ou se o anexo não for um documento do Office compatível com essa proteção herdada, o usuário precisará proteger o arquivo antes de anexá-lo ao email.
+- **Não Encaminhar**: os destinatários não podem encaminhar o email, imprimi-lo ou copiá-lo. Por exemplo, no cliente do Outlook, o botão Encaminhar não está disponível, as opções do menu Salvar Como e Imprimir não estão disponíveis, e você não pode adicionar ou alterar destinatários nas caixas Para, CC ou Cco.
+    
+    Para saber mais sobre como essa opção funciona, confira [opção Não Encaminhar para emails](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails).
+
+- **Criptografar Somente**: os destinatários têm todos os direitos de uso, exceto Salvar como, Exportar e Controle Total. Essa combinação de direitos de uso significa que os destinatários não têm restrições, exceto que não podem remover a proteção. Por exemplo, um destinatário pode copiar do email, imprimi-lo e encaminhá-lo.
+    
+    Para saber mais sobre como essa opção funciona, confira [opção Criptografar Somente para emails](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails).
+
+Os documentos do Office não criptografados anexados ao email herdam automaticamente as mesmas restrições. Para a opção Não Encaminhar, os direitos de uso aplicados a esses documentos são Editar Conteúdo, Editar; Salvar, Exibir, Abrir, Ler; e Permitir Macros. Se o usuário quiser direitos de uso diferentes para um anexo, ou se o anexo não for um documento do Office compatível com essa proteção herdada, o usuário precisará criptografar o arquivo antes de anexá-lo ao email.
 
 ### <a name="word-powerpoint-and-excel-permissions"></a>Permissões do Word, do PowerPoint e do Excel
 

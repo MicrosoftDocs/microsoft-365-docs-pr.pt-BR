@@ -135,7 +135,7 @@ Para Microsoft Word 2016, Excel 2016, PowerPoint 2016 e Outlook 2016, especifiqu
 Implemente este cenário usando a Política de Grupo ou usando o [Serviço de política de nuvem do Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
 
 > [!NOTE]
-> Se você usar a configuração de Política de Grupo, **Usar o recurso Confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** e defini-la como **1**, há algumas situações em que o cliente da Proteção de Informações do Azure ainda pode carregar nos aplicativos do Office. Bloquear o carregamento do suplemento em cada aplicativo impede que isso aconteça.
+> Se você usar a configuração de Política de Grupo **Usar o recurso Confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** e defini-la como **1**, haverá algumas situações em que o cliente da Proteção de Informações do Azure ainda pode ser carregado nos aplicativos do Office. Bloquear o carregamento do suplemento em cada aplicativo impede que isso aconteça.
 
 Como alternativa, você pode desabilitar ou remover interativamente o suplemento do Office **Proteção de Informações do Microsoft Azure** do Word, Excel, PowerPoint e Outlook. Esse método é adequado para um único computador e para testes ad hoc. Para obter instruções, confira [Visualizar, gerenciar e instalar suplementos em programas do Office](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d). 
 

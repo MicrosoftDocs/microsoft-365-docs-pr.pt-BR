@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: article
 description: Ative uma configuração que permite a coautoria e o Salvamento Automático em aplicativos da área de trabalho para documentos rotulados e criptografados no SharePoint e no OneDrive.
-ms.openlocfilehash: 90c00eb448d6d8f02170a37062af05cb0c0db59d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 34c674dc5fb9be9cb5572ce1f14e11a0f8ab14ae
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919567"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034220"
 ---
 # <a name="enable-co-authoring-for-files-encrypted-with-sensitivity-labels"></a>Ativar a coautoria para arquivos criptografados com rótulos de confidencialidade
 
@@ -83,8 +83,8 @@ Tenha certeza de que entende os seguintes pré-requisitos antes de ativar esse r
 - Os rótulos de confidencialidade devem ser [habilitados para arquivos do Office no SharePoint e no OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) para o locatário. Se esse recurso ainda não estiver habilitado, ele será automaticamente habilitado quando você selecionar a configuração para ativar a coautoria de arquivos com rótulos de confidencialidade.
 
 - Microsoft 365 Apps para Grandes Empresas:
-    - **Windows**: [Canal Atual (Versão Prévia)](https://office.com/insider) com build mínimo 16.0.13801.20182 ou [Canal Beta](https://office.com/insider) com build mínimo 16.0.13819.20006
-    - **macOS**: [Canal Beta](https://office.com/insider) com build mínimo 16.47.218.0
+    - **Windows**: Visualização: [Canal Atual (Visualização)](https://office.com/insider)
+    - **macOS**: Visualização: [Canal Beta](https://office.com/insider)
     - **iOS**: ainda sem suporte
     - **Android**: ainda sem suporte
 

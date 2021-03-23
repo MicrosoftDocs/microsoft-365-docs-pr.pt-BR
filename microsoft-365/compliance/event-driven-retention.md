@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Normalmente parte de uma solução de gerenciamento de registros, em que você pode configurar um rótulo de retenção para iniciar o período de retenção com base em um evento identificado.
-ms.openlocfilehash: 49fe330fa6844361a77caaebb0e6a411297ee643
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ee828b6852440f5be07fdf34df2fb6a11253ae1c
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907011"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034242"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Iniciar a retenção quando um evento ocorrer
 
@@ -89,7 +89,7 @@ Aqui está o fluxo de trabalho de alto nível para a retenção controlada por e
 
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>Etapa 1: criar um rótulo cujo período de retenção seja baseado em um evento
 
-Para criar e configurar seu rótulo de retenção, use as instruções de [Criar e configurar os rótulos de retenção](./create-apply-retention-labels.md#create-and-configure-retention-labels). Mas especificamente para a retenção baseada em eventos, na página **Definir as configurações de retenção** do assistente Criar etiqueta de retenção, depois de **Iniciar o período de retenção com base em**, selecione um dos tipos de eventos padrão na lista suspensa ou crie o seu próprio selecionando **Criar novo tipo de evento**:
+Para criar e configurar seu rótulo de retenção, Confira as instruções em [Criar e configurar rótulos de retenção](./create-apply-retention-labels.md#step-1-create-retention-labels). Mas especificamente para a retenção baseada em eventos, na página **Definir as configurações de retenção** do assistente Criar etiqueta de retenção, depois de **Iniciar o período de retenção com base em**, selecione um dos tipos de eventos padrão na lista suspensa ou crie o seu próprio selecionando **Criar novo tipo de evento**:
 
 ![Criar um novo tipo de evento para um rótulo de retenção](../media/SPRetention6.png)
 
@@ -212,7 +212,7 @@ Existem duas opções para se usar uma API REST:
 
 Antes de usar a API REST como um administrador global, confirme o URL que deverá ser usado para chamar o evento de retenção. Para este fim, execute uma chamada de evento de retenção GET usando o URL da API REST: 
 
-```console
+```http
 https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
 ```
 
