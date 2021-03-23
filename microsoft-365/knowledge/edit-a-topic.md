@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 34c6551dd3a40852368b40d960bf921c52f46372
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 36af6e0f882c87d05c5f397982533fb48875b0da
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921511"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994601"
 ---
 # <a name="edit-an-existing-topic"></a>Editar um tópico existente 
 
@@ -67,11 +67,11 @@ Os gerentes de conhecimento também podem editar tópicos diretamente da página
 
     ![Seção Descrição](../media/knowledge-management/description.png)</br>
 
-4. Na seção <b>Pessoas Fixadas,</b> você pode "fixar" uma pessoa para exibi-la como um especialista no assunto no tópico. Comece digitando seu nome ou endereço de email na caixa <b>Adicionar</b> um novo usuário e selecionando o usuário que você deseja adicionar nos resultados da pesquisa. Você também pode "desempinar" selecionando o ícone <b>Remover</b> da lista no cartão de usuário.
+4. Na seção <b>Pessoas Fixadas,</b> você pode "fixar" uma pessoa para mostrar a ela como tendo uma conexão com o tópico (por exemplo, um proprietário de um recurso conectado). Comece digitando seu nome ou endereço de email na caixa <b>Adicionar</b> um novo usuário e selecionando o usuário que você deseja adicionar nos resultados da pesquisa. Você também pode "desempinar" selecionando o ícone <b>Remover</b> da lista no cartão de usuário.
  
     ![Adicionar pessoas fixadas](../media/knowledge-management/pinned-people.png)</br>
 
-    A <b>seção Pessoas sugeridas</b> mostra aos usuários que a IA acha que podem ser especialistas no assunto no tópico a partir de sua conexão com recursos sobre o tópico. Você pode alterar seu status de Sugerido para Fixado selecionando o ícone de pino no cartão de usuário.
+    A <b>seção Pessoas sugeridas</b> mostra aos usuários que a IA acha que podem estar conectados ao tópico a partir de sua conexão com recursos sobre o tópico. Você pode alterar seu status de Sugerido para Fixado selecionando o ícone de pino no cartão de usuário.
 
    ![Fixar uma pessoa sugerida](../media/knowledge-management/suggested-people.png)</br>
 

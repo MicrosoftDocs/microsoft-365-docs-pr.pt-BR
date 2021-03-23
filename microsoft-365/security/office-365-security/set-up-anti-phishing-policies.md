@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eeb15040f0e47f7d51852dadf68c4b0c37de0975
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3458d6702dab48072e4846038400b087b1a4a8f1
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929223"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994577"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -206,17 +206,21 @@ As seguintes configurações de representação só estão disponíveis em polí
   - **Domínios personificados**: O endereço From contém um domínio protegido.
   - **Caracteres incomuns**: O endereço From contém conjuntos de caracteres incomuns (por exemplo, símbolos matemáticos e texto ou uma mistura de letras maiúsculas e minúsculas) em um remetente ou domínio protegido.
 
-
   > [!IMPORTANT]
   >
-  > Recomendação para habilitar uma dica de segurança que aparecerá durante o contato de primeira vez entre o remetente e os **destinatários:** mesmo quando as dicas de segurança de representação estão desligadas, recomendamos que você use uma  regra de fluxo de emails (também conhecida como regra de transporte) para adicionar um header de mensagem chamado **X-MS-Exchange-EnableFirstContactSafetyTip** com valor habilitado para mensagens.  Uma dica de segurança notificará os destinatários na primeira vez que receberem uma mensagem do remetente ou se não receberem mensagens do remetente. Esse recurso adiciona uma camada extra de proteção de segurança contra possíveis ataques de representação. 
+  > Mesmo quando as dicas de segurança de representação estão desligadas, recomendamos que você use uma regra de fluxo de emails (também conhecida como regra  de transporte) para adicionar um header de mensagem chamado **X-MS-Exchange-EnableFirstContactSafetyTip** com valor habilitado para mensagens.  Uma dica de segurança notificará os destinatários na primeira vez que receberem uma mensagem do remetente ou se não receberem mensagens do remetente. Esse recurso adiciona uma camada extra de proteção de segurança contra possíveis ataques de representação.
+  >
   > :::image type="content" source="../../media/safety-tip-first-contact-multiple-recipients.png" alt-text="O texto da dica de segurança para proteção de representação com vários destinatários.":::
 
-- **Inteligência de caixa** de correio : Habilita ou desabilita a inteligência artificial (AI) que determina padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda a AI a distinguir entre emails legítimos e empoados desses contatos. A inteligência de caixa de correio só está disponível para caixas de correio do Exchange Online.
+- **Inteligência de caixa** de correio : Habilita ou desabilita a inteligência artificial (AI) que determina padrões de email do usuário com seus contatos frequentes. Essa configuração ajuda a AI a distinguir entre mensagens de senders legítimos e personificados.
 
-- **Proteção de representação baseada** em inteligência de caixa de correio : Habilita ou desabilita resultados de representação aprimorados com base no mapa de remetente individual de cada usuário. Essa inteligência permite que o Microsoft 365 personalize a detecção de representação do usuário e melhor manipular falsos positivos. Quando a representação do usuário é detectada, você pode definir uma ação específica a ser tomada na mensagem:
+  Por exemplo, Gabriela Laureano (glaureano@contoso.com) é a CEO da sua empresa, portanto, você  a adiciona como um remetente protegido nos Usuários para proteger as configurações da política. Porém, alguns dos destinatários que a política se aplica para se comunicar regularmente com um fornecedor que também se chama Gabriela Laureano (glaureano@fabrikam.com). Como esses destinatários têm um histórico de comunicação com glaureano@fabrikam.com, a inteligência de caixa de correio não identificará mensagens do glaureano@fabrikam.com como uma tentativa de representação de glaureano@contoso.com para esses destinatários.
 
-  - **Não aplique nenhuma ação**
+  Para usar contatos frequentes que foram aprendidos pela inteligência da caixa de correio (e  a falta dela) para ajudar  a proteger os usuários contra ataques de representação, você pode ativar a proteção de representação baseada em inteligência de caixa de correio e especificar a ação a ser tomada se você também ativar a Inteligência de Caixa de Correio **.**
+
+- **Proteção de representação baseada** em inteligência de caixa de correio : a opção ativar essa configuração para especificar a ação a ser tomada em mensagens para detecções de representação de resultados de inteligência de caixa de correio:
+
+  - **Não aplique nenhuma ação**: observe que esse valor  tem o mesmo resultado que a aplicação da Inteligência de Caixa de Correio, mas a redução da proteção de representação baseada em inteligência de caixa de **correio.**
   - **Redirecionar mensagem para outros endereços de email**
   - **Mover mensagem para a pasta Lixo Eletrônico**
   - **Colocar em quarentena a mensagem**

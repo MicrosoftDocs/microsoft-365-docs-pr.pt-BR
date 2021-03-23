@@ -9,12 +9,12 @@ ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
 description: Use o Centro de administração do Microsoft 365 ou Windows PowerShell excluir calendários do Bookings.
-ms.openlocfilehash: 7b79628327797d2e315d31e1b1a2671f0b24e447
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 21fc7b9994ffd7f76ed04000a50bd0ee8f7f167e
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913773"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034086"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Excluir um calendário de reserva no Bookings
 
@@ -72,7 +72,7 @@ Para executar essas etapas, você deve estar usando uma janela de comando ativa 
 4. Depois que esse comando terminar de processar, insira o seguinte comando para obter uma lista das caixas de correio de reserva em seu locatário:
 
    ```powershell
-   Get-EXOMailbox -RecipientTypeDetails Scheduling
+   Get-EXOMailbox -RecipientTypeDetails SchedulingMailbox
    ```
 
 5. Digite o seguinte comando:

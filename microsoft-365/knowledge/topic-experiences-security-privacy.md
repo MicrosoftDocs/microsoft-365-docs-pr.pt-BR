@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como planejar a segurança e a privacidade dos Tópicos do Microsoft Viva
-ms.openlocfilehash: 9ac7ea085be115ef06244422713099c01ec50a36
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 91d0d5c25502a1938976b9457f8a5dafc6ab957b
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917339"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994541"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Segurança e privacidade dos Tópicos do Microsoft Viva
 
@@ -51,7 +51,7 @@ A tabela a seguir descreve o que os usuários - visualizadores de tópicos, cola
 
 |Item de tópico|O que os usuários podem ver|
 |:---------|:------------------|
-|Nome do tópico|Os usuários podem ver o nome do tópico de todos os tópicos no centro de tópicos. Alguns tópicos podem não estar visíveis se eles têm baixa relevância para o usuário.|
+|Nome do tópico|Os usuários podem ver o nome do tópico de tópicos no centro de tópicos. Alguns tópicos podem não estar visíveis se os usuários não têm permissões para o conteúdo de origem ou têm baixa relevância para o usuário.|
 |Descrição do tópico|As descrições geradas por IA ficam visíveis apenas para usuários que têm permissões para o conteúdo de origem. As descrições inseridas ou editadas manualmente ficam visíveis para todos os usuários.|
 |Pessoas|As pessoas fixadas ficam visíveis para todos os usuários. As pessoas sugeridas só ficam visíveis para usuários que têm permissões para o conteúdo de origem.|
 |Arquivos|Os arquivos só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|

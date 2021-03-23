@@ -12,12 +12,12 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas recomendações de práticas práticas para o EOP (Proteção autônoma do Exchange Online) para se configurar para obter êxito e evitar erros comuns de configuração.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6a6a9fd0dfc654ca37fdd5168b3ecc0c4486f9d0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e968316e23fe2d8e68795318f8e0785a662c8aea
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924451"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994553"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Práticas recomendadas para configurar o EOP autônomo
 
@@ -44,6 +44,8 @@ Capacitamos os administradores de segurança a personalizar suas configurações
 
 Essas configurações abrangem um intervalo de recursos que estão fora das políticas de segurança.
 
+<br>
+
 ****
 
 |Nome do recurso de segurança|Padrão|Estrito|Comentário|
@@ -57,8 +59,8 @@ Essas configurações abrangem um intervalo de recursos que estão fora das pol�
 |A Auditoria Unificada deve ser habilitada|Sim|Sim||
 |[Conectividade IMAP à caixa de correio](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
 |[Conectividade POP à caixa de correio](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
-|Envio SMTP autenticado|Desabilitado|Desabilitado|O envio SMTP do cliente autenticado (também conhecido como envio SMTP do cliente ou AUTH SMTP) é necessário para que os clientes POP3 e IMAP4 enviem emails.|
-|Conectividade EWS à caixa de correio|Desabilitado|Desabilitado||
+|Envio SMTP autenticado|Desabilitado|Desabilitado|O envio SMTP do cliente autenticado (também conhecido como envio SMTP do cliente ou AUTH SMTP) é necessário para clientes POP3 e IMAP4 e aplicativos e dispositivos que geram e enviam emails. <p> Para obter instruções para habilitar e desabilitar o AUTH SMTP global ou seletivamente, consulte [Enable or disable authenticated client SMTP submission in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission).|
+|Conectividade EWS à caixa de correio|Desabilitado|Desabilitado|O Outlook usa os Serviços Web do Exchange para configurações de livre/ocupado, fora do escritório e compartilhamento de calendário. Se você não puder desabilitar o EWS globalmente, terá as seguintes opções: <ul><li>Use [as políticas de autenticação](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) para impedir que o EWS use autenticação básica se seus clientes deem suporte à autenticação moderna (autenticação moderna).</li><li>Use [As Regras de Acesso para Cliente](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para limitar o EWS a usuários específicos ou endereços IP de origem.</li><li>Controlar o acesso do EWS a aplicativos específicos globalmente ou por usuário. Para obter instruções, consulte [Control access to EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange).</li></ul> <p> O [add-in](enable-the-report-message-add-in.md) de mensagem Relatório e o complemento Relatar [phishing](enable-the-report-phish-add-in.md) usam REST por padrão em ambientes com suporte, mas retornarão ao EWS se REST não estiver disponível. Os ambientes com suporte que usam REST são:<ul><li>Exchange Online</li><li>Exchange 2019 ou Exchange 2016</li><li>Outlook atual para Windows de uma assinatura do Microsoft 365 ou compra única do Outlook 2019.</li><li>Outlook atual para Mac de uma assinatura do Microsoft 365 ou compra única do Outlook para Mac 2016 ou posterior.</li><li>Outlook para iOS e Android</li><li>Outlook na Web</li></ul>|
 |[Conectividade do PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User).](/powershell/module/exchange/get-user)|
 |Usar [a inteligência de spoof](learn-about-spoof-intelligence.md) para adicionar os envios à sua lista de permitir|Sim|Sim||
 |[Bloqueio de Borda Baseado em Diretório (DBEB)](/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Habilitado|Habilitado|Tipo de Domínio = Autoritativo|

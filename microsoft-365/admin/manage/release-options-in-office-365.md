@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de versão para novas atualizações de produtos e recursos no Centro de administração do Microsoft 365.
-ms.openlocfilehash: f500aac89495c55d27fc4afb699254653786422d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e909cdf35ba9dd8282540783f7c362e5ae49212e
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915201"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034074"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de versão Padrão ou Direcionada
 
@@ -117,3 +117,7 @@ Você pode alterar como sua organização recebe atualizações do Microsoft 365
 ## <a name="learn-more"></a>Saiba mais
 
 Descubra como gerenciar [mensagens no](/office365/admin/manage/message-center) centro de mensagens do [Microsoft 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) para receber notificações sobre as próximas atualizações e versões do Microsoft 365.
+
+## <a name="related-articles"></a>Artigos relacionados
+
+[Office Insider](https://insider.office.com/join/windows)

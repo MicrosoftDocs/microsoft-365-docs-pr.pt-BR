@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: d6e953c86939d732632e87573fc2aa5392f09aa2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6a182556c68a472145f9d4eac69c8915653a67df
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904931"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994589"
 ---
 # <a name="create-a-new-topic"></a>Criar um novo tópico 
 
@@ -66,7 +66,7 @@ Você pode criar um novo tópico a partir de dois locais:
 
     ![Descrição do tópico](../media/knowledge-management/description.png)</br>
 
-4. Na seção <b>Pessoas Fixadas,</b> você pode "fixar" uma pessoa para exibi-la como um especialista no assunto no tópico. Comece digitando seu nome ou <b></b> endereço de email na caixa adicionar um novo usuário e selecione o usuário que você deseja adicionar nos resultados da pesquisa. Você também pode "desempinar" selecionando o ícone <b>Remover</b> da lista no cartão de usuário. Você também pode arrastar a pessoa para alterar a ordem que a lista de pessoas aparece.
+4. Na seção <b>Pessoas fixadas,</b> você pode "fixar" uma pessoa para mostrar a ela como tendo uma conexão com o tópico (por exemplo, um proprietário de um recurso conectado). Comece digitando seu nome ou <b></b> endereço de email na caixa adicionar um novo usuário e selecione o usuário que você deseja adicionar nos resultados da pesquisa. Você também pode "desempinar" selecionando o ícone <b>Remover</b> da lista no cartão de usuário. Você também pode arrastar a pessoa para alterar a ordem que a lista de pessoas aparece.
  
     ![Pessoas fixadas](../media/knowledge-management/pinned-people.png)</br>
 

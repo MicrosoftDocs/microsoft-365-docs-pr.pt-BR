@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Perguntas frequentes do Microsoft Bookings.
-ms.openlocfilehash: c7bf14c35626eeeec781f6a9f45769e0ead1730e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d357ae83d7fe6fdd9f3d0bff724b037e82a3f5d0
+ms.sourcegitcommit: 1df94f04f138ccf1a2356d26174335c44de7052b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913821"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50999524"
 ---
 # <a name="microsoft-bookings-frequently-asked-questions"></a>Perguntas frequentes sobre o Microsoft Bookings
 
@@ -37,7 +37,7 @@ Seus clientes verão apenas o calendário do Bookings que você publica online p
 
 ### <a name="how-do-i-change-a-bookable-attribute-under-manage-staff"></a>Como alterar um atributo bookable em Gerenciar equipe?
 
-Quando os membros da equipe foram adicionados, eles teriam recebido um email para aceitar ou rejeitar a solicitação. Eles podem abrir o mesmo email e selecionar "Rejeitar" para torná-los não reservados. Atualmente, não temos uma maneira de alternar isso de dentro do aplicativo.
+Quando os membros da equipe foram adicionados, eles teriam recebido um email para aceitar ou rejeitar a solicitação. Eles podem abrir o mesmo email e selecionar "Rejeitar" para torná-los para que não sejam reservados. Atualmente, não temos uma maneira de alternar isso de dentro do aplicativo.
 
 ### <a name="how-do-end-users-access-the-bookings-app"></a>Como os usuários finais acessam o aplicativo Bookings?
 
@@ -61,11 +61,11 @@ Se você usar uma política de Caixa de Correio do OWA para desabilitar o acesso
 
 ### <a name="is-bookings-customizable"></a>O Bookings é personalizável?
 
-Sim, o Bookings é personalizável e pode ser usado para vários cenários diferentes. Ao configurar um calendário do Bookings, muitos aspectos da página de agendamento baseada na Web, suas informações comerciais, detalhes da equipe, tipos de serviço e políticas de agendamento podem ser personalizados.
+Sim, o Bookings é personalizável e pode ser usado para vários cenários. Ao configurar um calendário do Bookings, muitos aspectos da página de agendamento baseada na Web, suas informações comerciais, detalhes da equipe, tipos de serviço e políticas de agendamento podem ser personalizados.
 
 ### <a name="is-all-the-functionality-of-the-original-bookings-web-app-available-in-microsoft-teams"></a>Todas as funcionalidades do aplicativo Web original do Bookings estão disponíveis no Microsoft Teams?
 
-Uma versão leve do Bookings agora está disponível como um aplicativo no Teams. Encontre o comunicado inicial [aqui](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/). Há uma funcionalidade de link profundo a ser usada no aplicativo Web e, após a instalação, o uso dia a dia do Bookings pode ser feito sem sair do Teams. As informações fluem entre plataformas.
+Uma versão leve do Bookings agora está disponível como um aplicativo no Teams. O comunicado inicial está [aqui](https://www.microsoft.com/microsoft-365/blog/2020/03/06/empowering-care-teams-with-new-tools-in-microsoft-365/). Há uma funcionalidade de link profundo a ser usada no aplicativo Web e, após a instalação, o uso dia a dia do Bookings pode ser feito sem sair do Teams. As informações fluem entre plataformas.
 
 ### <a name="is-bookings-a-small-business-offering-or-an-enterprise-offering-or-both"></a>O Bookings é uma oferta de pequenas empresas ou uma oferta enterprise ou ambos?
 
@@ -82,7 +82,7 @@ O Bookings é uma solução ideal para clientes corporativos e de pequenas empre
     - assistência de benefícios
     - treinamentos e seminários
 
-- Saúde
+- Serviços de Saúde
     - visitas de pacientes
     - colaboração de provedor para provedor
     - consultorias de seguros
@@ -118,7 +118,7 @@ O Bookings é uma solução ideal para clientes corporativos e de pequenas empre
 
 ### <a name="how-do-i-get-microsoft-bookings"></a>Como faço para obter o Microsoft Bookings?
 
-O Bookings está disponível no Microsoft 365 para clientes com licenças do Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 e E5, juntamente com um aplicativo para iOS e Android. O Bookings não está disponível como um aplicativo autônomo. O Outlook Web App ou o Outlook na Web devem estar habilitados para usar o Bookings, pois armazena dados no Outlook.
+O Bookings está disponível no Microsoft 365 para clientes com licenças do Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 e E5, juntamente com um aplicativo para iOS e Android. As reservas não estão disponíveis como um aplicativo autônomo. O Outlook Web App ou o Outlook na Web devem estar habilitados para usar o Bookings, pois armazena dados no Outlook.
 
 Uma licença do Bookings fornece funcionalidade completa ao produto, incluindo a criação e o gerenciamento de calendários. Ele também permite que os usuários visualizam e editem calendários existentes, quando esses usuários são adicionados como funcionários em uma função de Administrador ou Visualizador.
 
@@ -144,7 +144,7 @@ Esses funcionários da loja com licenças E1/F1/F3 ou sem licenças ainda podem 
 
 Os funcionários da loja também serão exibidos como indisponíveis no Bookings se um compromisso já tiver sido agendado nesse momento por meio do aplicativo Web do Bookings. Os compromissos reservados por meio do Bookings refletirão como ocupados no calendário de um membro da equipe no Bookings. A equipe com uma licença não habilitada para o Bookings ainda pode ter seu calendário pessoal afetar sua disponibilidade no Bookings, desde que eles estão dentro do mesmo locatário.
 
-As pessoas na função Convidados podem exibir qualquer uma das informações que o cliente forneceu na criação inicial do compromisso. Por exemplo, se o representante da loja reservado para o compromisso for necessário para chamar o cliente antes do compromisso, ele terá acesso às informações que o cliente fornece durante o processo de agendamento. O membro da equipe que está reservado terá acesso a todas as informações que aparecem no email de confirmação, bem como ao evento de calendário .ics (como o número de telefone do cliente se tiver sido inserido).
+As pessoas na função Convidados podem exibir qualquer uma das informações que o cliente forneceu na criação inicial do compromisso. Por exemplo, se o representante da loja reservado para o compromisso for necessário para chamar o cliente antes do compromisso, ele terá acesso às informações que o cliente fornece durante o processo de agendamento. O membro da equipe que está reservado terá acesso a todas as informações que aparecem no email de confirmação e ao evento de calendário .ics (como o número de telefone do cliente se tiver sido inserido).
 
 As pessoas na função Convidado não terão a capacidade de acessar o aplicativo Web do Bookings para alterar as configurações ou para exibir e gerenciar compromissos (adicionar, cancelar e reagendar). No entanto, eles podem fazer compromissos em nome dos clientes usando a página Autoatendir, da mesma forma que um cliente faria um compromisso.
 
@@ -158,7 +158,7 @@ Cada novo calendário do Bookings cria uma caixa de correio correspondente no Ex
 
 ### <a name="can-i-delete-a-previously-created-bookings-calendar"></a>Posso excluir um calendário do Bookings criado anteriormente?
 
-Para excluir um calendário do Bookings, exclua a caixa de correio associada no Exchange.
+Para excluir um calendário do Bookings, você deve excluir a caixa de correio associada no Exchange.
 
 ### <a name="if-i-create-a-calendar-and-someone-else-has-access-to-bookings-would-they-be-able-to-see-my-calendar"></a>Se eu criar um calendário e outra pessoa tiver acesso ao Bookings, eles poderão ver meu calendário?
 
@@ -176,7 +176,7 @@ Uma configuração chamada Tempo máximo **de avanço** determina o mais distant
 
 ### <a name="how-does-bookings-work-across-time-zones"></a>Como o Bookings funciona em fusos horário?
 
-Todas as vezes estão no fuso horário comercial (seu fuso horário local) por padrão. Isso significa que qualquer configuração configurada para um calendário do Bookings, como o horário comercial, aparecerá nesse fuso horário. A página Self-service tem a capacidade de exibir todos os horários de compromisso no fuso horário do usuário final, que podem ser desligados se desejado. Se **Sempre mostrar intervalos de** tempo no fuso horário comercial permanecer desmarcados na guia Página do Bookings, as pessoas que visitarem a página verão intervalos de tempo em seus próprios fusos horário locais.
+Todas as vezes estão no fuso horário comercial (seu fuso horário local) por padrão. Qualquer configuração que você configurar para um calendário do Bookings, como o horário de trabalho, aparecerá neste fuso horário. A página Self-service tem a capacidade de exibir todos os horários de compromisso no fuso horário do usuário final, que podem ser desligados se desejado. Se **Sempre mostrar intervalos de** tempo no fuso horário comercial permanecer desmarcados na guia Página do Bookings, as pessoas que visitarem a página verão intervalos de tempo em seus próprios fusos horário locais.
 
 :::image type="content" source="media/bookings-faq-region.png" alt-text="Configurações de região e fuso horário do Bookings":::
 
@@ -244,7 +244,7 @@ O Booking pode dar suporte a uma grande quantidade de visitantes e reservas ao m
 
 ### <a name="where-is-bookings-data-stored"></a>Onde os dados do Bookings são armazenados?
 
-O Bookings é um aplicativo do Microsoft 365, ou seja, todos os dados são armazenados na plataforma do Microsoft 365 e no Exchange. As reservas seguem todas as políticas de armazenamento de dados definidas pela Microsoft, que são as mesmas políticas seguidas por todos os aplicativos do Office. O Bookings usa caixas de correio compartilhadas no Exchange para armazenar detalhes de clientes, funcionários, serviços e compromissos. As políticas de conformidade para caixas de correio compartilhadas no Exchange também se aplicam às caixas de correio do Bookings. Todos os dados do cliente (incluindo informações fornecidas pelos clientes durante a reserva) são capturados no Bookings e armazenados no aplicativo, portanto são armazenados no Exchange. O Microsoft Bookings usa as mesmas políticas usadas pelo Microsoft 365, que você pode encontrar [aqui.](https://www.microsoft.com/online/legal/v2/?docid=22&langid=en-us)
+O Bookings é um aplicativo do Microsoft 365, ou seja, todos os dados são armazenados na plataforma do Microsoft 365 e no Exchange. As reservas seguem todas as políticas de armazenamento de dados definidas pela Microsoft, que são as mesmas políticas que todos os aplicativos do Office seguem. O Bookings usa caixas de correio compartilhadas no Exchange para armazenar detalhes de clientes, funcionários, serviços e compromissos. As políticas de conformidade para caixas de correio compartilhadas no Exchange também se aplicam às caixas de correio do Bookings. Todos os dados do cliente (incluindo informações fornecidas pelos clientes durante a reserva) são capturados no Bookings e armazenados no aplicativo, portanto são armazenados no Exchange. O Microsoft Bookings usa as mesmas políticas usadas pelo Microsoft 365, que você pode encontrar [aqui.](https://www.microsoft.com/online/legal/v2/?docid=22&langid=en-us)
 
 ### <a name="is-there-a-way-to-centrally-manage-bookings-calendars-for-all-users"></a>Há uma maneira de gerenciar centralmente os calendários do Bookings para todos os usuários?
 
@@ -274,7 +274,7 @@ Esta seção não dá suporte a textos ricos, mas acha que os links podem ser ad
 
 O comando a seguir pode ser usado para recuperar informações de todas as caixas de correio e usuários do Bookings que têm acesso a elas.
 
-`Get-Mailbox -RecipientTypeDetails SchedulingMailbox -ResultSize:Unlimited | Get-MailboxPermission |Select-Object Identity,User,AccessRights | Where-Object {($_.user -like '@')}`
+`Get-Mailbox -RecipientTypeDetails SchedulingMailbox -ResultSize:Unlimited | Get-MailboxPermission |Select-Object Identity,User,AccessRights | Where-Object {($_.user -like '*@*')}`
 
 ## <a name="technical-questions"></a>Perguntas técnicas
 

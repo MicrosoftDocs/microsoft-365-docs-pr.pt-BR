@@ -15,12 +15,12 @@ ms.collection:
 description: Os administradores podem aprender a criar, modificar e excluir as políticas anti-phishing avançadas disponíveis em organizações com o Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2985766cf3388382dbe1d2217843504b2bfd1a1c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9f9fe04b2c3b6db3681212d678c8e827f6a83f41
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906583"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994565"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Configurar políticas anti-phishing no Microsoft Defender para Office 365
 
@@ -220,11 +220,11 @@ Use os procedimentos a seguir para modificar políticas anti-phishing: uma nova 
 
      - **Habilitar a inteligência de** caixa de correio? : O valor padrão é **Ativado**. Para desativar, deslize a alternância para **Off**.
 
-     - **Habilitar a proteção de** representação baseada em inteligência de caixa de correio? : Essa configuração só estará disponível se **Habilitar** a inteligência de caixa de correio? está **ativado**.
+     - **Habilitar a proteção de** representação baseada em inteligência de caixa de correio? : Essa configuração só estará disponível se **Habilitar a** inteligência de caixa de correio? está **ativado**. A opção Ativar essa configuração para especificar a ação a ser tomada em mensagens para detecções de representação de resultados de inteligência de caixa de correio.
 
-       In **If email is sent by an impersonated user**, you can specify one of the following actions to take on messages that fail mailbox intelligence (the same actions that are available for protected users and protected domains):
+       In **If email is sent by an impersonated user**, you can specify one of the following actions (the same actions that are available for protected users and protected domains):
 
-       - **Não aplique nenhuma ação**
+       - **Não aplique nenhuma** ação : observe que esse valor tem o mesmo resultado de ativar a Inteligência de Caixa de **Correio?** mas desligar Habilitar proteção de representação baseada em inteligência de caixa de **correio?**. .
        - **Redirecionar mensagem para outros endereços de email**
        - **Mover mensagem para a pasta Lixo Eletrônico**
        - **Colocar em quarentena a mensagem**
