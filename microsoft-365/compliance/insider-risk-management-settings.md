@@ -15,16 +15,16 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 1e6642113ddba9c9110a65e9032ec59db435ac7f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ee4f18342304cf46f97a6ae7aa6e1ba76685bccd
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919857"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994613"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Começar com as configurações de gerenciamento de riscos insider
 
-As configurações de gerenciamento de riscos insider se aplicam a todas as políticas de gerenciamento de riscos internas, independentemente do modelo escolhido ao criar uma política. As configurações são configuradas usando o **controle de configurações** de risco do Insider localizado na parte superior de todas as guias de gerenciamento de riscos insider. Essas configurações controlam os componentes da política para as seguintes áreas:
+As configurações de gerenciamento de riscos insider se aplicam a todas as políticas de gerenciamento de riscos internas, independentemente do modelo escolhido ao criar uma política. As configurações são definidas usando o controle de **configurações de risco interno** localizado na parte superior de todas as guias de gerenciamento de risco interno. Essas configurações controlam os componentes da política para as seguintes áreas:
 
 - Privacidade
 - Indicadores
@@ -41,9 +41,9 @@ Antes de começar e criar políticas de gerenciamento de riscos internas, é imp
 
 ## <a name="privacy"></a>Privacidade
 
-Proteger a privacidade de usuários que possuem jogos de política é importante e pode ajudar a promover a objetividade na investigação de dados e análises de análises para alertas de risco insider. Para usuários com uma política de risco interna, você pode escolher uma das seguintes configurações:
+A proteção da privacidade de usuários que possuem correspondências de políticas é importante e pode ajudar a promover a objetividade na investigação de dados e nas análises para alertas de risco interno. Para usuários com uma política de risco interna, você pode escolher uma das seguintes configurações:
 
-- **Mostrar versões** anonimizadas de nomes de usuário : os nomes dos usuários são anonimizados para impedir que administradores, investigadores de dados e revisadores consultem quem está associado a alertas de política. Por exemplo, um usuário "Grace Taylor" apareceria com um pseudônimo aleatório, como "AnonIS8-988" em todas as áreas da experiência de gerenciamento de riscos internas. A escolha dessa configuração anonimiza todos os usuários com as combinações de política atual e passada e se aplica a todas as políticas. As informações do perfil do usuário no alerta de risco interno e os detalhes de caso não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários a políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que tenham as configurações de política atual ou passada.
+- **Mostrar versões** anonimizadas de nomes de usuário : os nomes dos usuários são anonimizados para impedir que administradores, investigadores de dados e revisadores consultem quem está associado a alertas de política. Por exemplo, uma usuária "Grace Taylor" apareceria com um pseudônimo aleatório como "AnonIS8-988" em todas as áreas da experiência de gerenciamento de risco interno. A escolha dessa configuração manterá todos os usuários com as políticas atuais e anteriores e se aplicará a todas as políticas. As informações do perfil do usuário no alerta de risco interno e os detalhes de caso não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários a políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que tenham as configurações de política atual ou passada.
 - **Não mostre versões anonimizadas** de nomes de usuário : Os nomes de usuário são exibidos para todas as versões atuais e passadas de política para alertas e casos. As informações de perfil de usuário (nome, título, alias e organização ou departamento) são exibidas para o usuário para todos os alertas e casos de gerenciamento de riscos insider.
 
 ![Configurações de privacidade de gerenciamento de riscos insider](../media/insider-risk-settings-privacy.png)
@@ -155,9 +155,9 @@ Para o primeiro nível de evento diário, você definirá o limite em *10* ou ma
 - Se houver eventos do SharePoint de 20 a 29 que ocorrem após um disparo, a pontuação de risco é inerentemente maior e os níveis de gravidade do alerta tendem a estar em um nível médio.
 - Se houver 30 ou mais eventos do SharePoint que ocorrem após um disparo, a pontuação de risco é inerentemente maior e os níveis de gravidade do alerta tendem a estar em um nível alto.
 
-## <a name="policy-timeframes"></a>Períodos de política
+## <a name="policy-timeframes"></a>Períodos de tempo de política
 
-Os prazos de política permitem que você defina períodos de revisão passados e futuros que são disparados depois que a política corresponde com base em eventos e atividades para os modelos de política de gerenciamento de riscos insider. Dependendo do modelo de política escolhido, os seguintes períodos de política estão disponíveis:
+Os períodos de tempo de política permitem definir períodos de revisão anteriores e futuros que são disparados após as combinações de políticas com base em eventos e atividades para os modelos de política de gerenciamento de riscos do insider. Dependendo do modelo de política escolhido, os seguintes períodos de política estão disponíveis:
 
 - **Janela de** ativação : Disponível para  todos os modelos de política, **a** janela Ativação é o número definido de dias que a janela ativa após um evento de disparo. A janela é ativada de 1 a 30 dias após um evento de disparo ocorrer para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de riscos insider e definiu a janela *Ativação* como 30 dias. Vários meses se passaram desde que você configurou a política e ocorre um evento de gatilho para um dos usuários incluídos na política. O evento de ativação ativa a janela *Ativação* e a política está ativa para esse usuário por 30 dias após o evento de disparo ocorrer.
 - **Detecção de atividade anterior**: Disponível para  todos os modelos de política, **a** detecção de atividade passada é o número definido de dias que a janela ativa antes de um evento de disparo. A janela é ativada de 0 a 180 dias antes que um evento de disparo ocorra para qualquer usuário atribuído à política. Por exemplo, você configurou uma política de gerenciamento de riscos insider e definiu a detecção de atividade *passada* como 90 dias. Vários meses se passaram desde que você configurou a política e ocorre um evento de gatilho para um dos usuários incluídos na política. O evento de gatilho  ativa a detecção de atividade passada e a política reúne atividades históricas para esse usuário por 90 dias antes do evento de disparo.
@@ -170,7 +170,7 @@ As configurações de detecção inteligente ajudam a refinar como as detecçõe
 
 ### <a name="file-type-exclusions"></a>Exclusões de tipo de arquivo
 
-Para excluir tipos de arquivo específicos de todas as correspondências de política de gerenciamento de riscos internas, insira extensões de tipo de arquivo separadas por vírgulas. Por exemplo, para excluir determinados tipos de arquivos de música de diretivas, você pode inserir aac,mp3,wav,wma no campo **Exclusões de** tipo de arquivo. Os arquivos com essas extensões serão ignorados por todas as políticas de gerenciamento de riscos internas.
+Para excluir tipos de arquivo específicos de todas as correspondências de política de gerenciamento de riscos internas, insira extensões de tipo de arquivo separadas por vírgulas. Por exemplo, para excluir determinados tipos de arquivos de música de correspondências de políticas, você pode inserir aac,mp3,wav,wma no campo **Exclusões de tipo de arquivo**. Os arquivos com essas extensões serão ignorados por todas as políticas de gerenciamento de riscos internas.
 
 ### <a name="threshold-for-unusual-file-activity"></a>Limite para atividade de arquivo incomum
 
@@ -217,7 +217,7 @@ Para cada uma das seguintes configurações de domínio, você pode inserir até
     - Arquivos, pastas, sites compartilhados com domínios externos
     - Arquivos carregados em domínios externos (usando o navegador do Microsoft Edge)
 
-    Especificando domínios permitidos em configurações, essa atividade com esses domínios é tratada da mesma forma como a atividade interna da organização é tratada. Por exemplo, domínios adicionados aqui mapeiam para atividades podem envolver o compartilhamento de conteúdo com alguém de fora da sua organização (por exemplo, enviar emails para alguém com um endereço gmail.com endereço). Você não pode incluir seus sites do SharePoint como domínios permitidos. 
+    Especificando domínios permitidos em configurações, essa atividade com esses domínios é tratada da mesma forma como a atividade interna da organização é tratada. Por exemplo, domínios adicionados aqui mapeiam para atividades podem envolver o compartilhamento de conteúdo com alguém de fora da sua organização (por exemplo, enviar emails para alguém com um endereço gmail.com endereço).
 
 - **Domínios de terceiros:** Se sua organização usa domínios de terceiros para fins comerciais (como armazenamento na nuvem), inclua-os aqui para que você possa receber alertas para atividades relacionadas ao indicador de dispositivo Use um navegador para baixar conteúdo de um site de *terceiros.*
 
@@ -242,12 +242,12 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 | AlertType | O tipo do alerta é *Custom*.  |
 | AlertId | O GUID do alerta. Alertas de gerenciamento de riscos insider são mutáveis. À medida que o status do alerta muda, um novo log com o mesmo AlertID é gerado. Esse AlertID pode ser usado para correlacionar atualizações para um alerta. |
 | Categoria | A categoria do alerta é *InsiderRiskManagement*. Essa categoria pode ser usada para distinguir esses alertas de outros alertas de conformidade & segurança. |
-| Comentários | Comentários padrão para o alerta. Os valores *são Novo Alerta* (registrado quando um alerta é criado) e Alerta *Atualizado* (registrado quando há uma atualização para um alerta). Use o AlertID para correlacionar atualizações para um alerta. |
+| Comments | Comentários padrão para o alerta. Os valores *são Novo Alerta* (registrado quando um alerta é criado) e Alerta *Atualizado* (registrado quando há uma atualização para um alerta). Use o AlertID para correlacionar atualizações para um alerta. |
 | Dados | Os dados do alerta incluem a ID do usuário exclusiva, o nome principal do usuário e a data e hora (UTC) quando o usuário foi acionado em uma política. |
 | Nome | Nome da política para política de gerenciamento de riscos internas que gerou o alerta. |
 | PolicyId | O GUID da política de gerenciamento de riscos internas que disparou o alerta. |
 | Severity | A gravidade do alerta. Os valores *são Alto,* *Médio* ou *Baixo.* |
-| Source | A origem do alerta. O valor é *Segurança do Office 365 & Conformidade*. |
+| Origem | A origem do alerta. O valor é *Segurança do Office 365 & Conformidade*. |
 | Status | O status do alerta. Os valores são *ativos* (*Precisa de* Revisão no risco insider), *Investigação* *(* Confirmado no risco insider), *Resolvido* (*Resolvido* no risco insider), *Ignorado* (*Ignorado* no risco insider). |
 | Versão | A versão do esquema de alerta de segurança e conformidade. |
 
@@ -257,7 +257,7 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 - Id
 - RecordType
 - CreationTime
-- Operação
+- Operation
 - OrganizationId
 - UserType
 - UserKey

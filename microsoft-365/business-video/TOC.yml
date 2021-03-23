@@ -49,6 +49,8 @@
       items:
         - name: Usar o Outlook e o Teams
           href: collab-outlook-teams.md
+        - name: Comece a trabalhar com o Microsoft Teams em seu pequeno negócio
+          href: get-started-teams-small-business.md
         - name: Criar um endereço de e-mail do grupo
           href: group-email.md
         - name: Criar calendário compartilhado

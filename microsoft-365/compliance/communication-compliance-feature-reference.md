@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 48cc75276e4e3791fa16520df5a4c392c23a0cd5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 298300de8581d3eea185f05b92bb69cb6e7a69eb
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919907"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034200"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -78,7 +78,7 @@ Para ajudar no planejamento de migração, considere o exemplo a seguir. Atualme
 - Administrador de Revisão de Supervisão
 - Gerenciamento de Casos
 - Administrador de Conformidade
-- Revisão
+- Analisar
 
 Para atualizar as funções desses usuários para a nova estrutura de grupo de funções e separar as permissões de acesso e gerenciamento para os usuários, você pode considerar três novos grupos e as novas atribuições de grupo de função associadas:
 
@@ -262,7 +262,7 @@ Proteger a privacidade de usuários que possuem jogos de política é importante
 
 Para usuários com uma combinação de conformidade de comunicação, você pode escolher uma das seguintes configurações em **Configurações de conformidade de comunicação:**
 
-- **Mostrar versões** anonimizadas de nomes de usuário  : os nomes de usuário são anonimizados para impedir que os usuários no grupo de função analista de conformidade de comunicação veja quem está associado a alertas de política. Os usuários do grupo *de função Pesquisador de Conformidade* de Comunicação sempre verão nomes de usuário, não as versões anônimas. Por exemplo, um usuário "Grace Taylor" apareceria com um pseudônimo aleatório, como "AnonIS8-988" em todas as áreas da experiência de conformidade de comunicação. A escolha dessa configuração anonimiza todos os usuários com as combinações de política atual e passada e se aplica a todas as políticas. As informações do perfil do usuário nos detalhes do alerta de conformidade de comunicação não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários a políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que tenham as configurações de política atual ou passada.
+- **Mostrar versões** anonimizadas de nomes de usuário  : os nomes de usuário são anonimizados para impedir que os usuários no grupo de função analista de conformidade de comunicação veja quem está associado a alertas de política. Os usuários do grupo *de função Pesquisador de Conformidade* de Comunicação sempre verão nomes de usuário, não as versões anônimas. Por exemplo, um usuário "Grace Taylor" apareceria com um pseudônimo aleatório, como "AnonIS8-988" em todas as áreas da experiência de conformidade de comunicação. A escolha dessa configuração manterá todos os usuários com as políticas atuais e anteriores e se aplicará a todas as políticas. As informações do perfil do usuário nos detalhes do alerta de conformidade de comunicação não estarão disponíveis quando essa opção for escolhida. No entanto, os nomes de usuário são exibidos ao adicionar novos usuários a políticas existentes ou ao atribuir usuários a novas políticas. Se você optar por desativar essa configuração, os nomes de usuário serão exibidos para todos os usuários que tenham as configurações de política atual ou passada.
 - **Não mostre versões anonimizadas** de nomes de usuário : os nomes de usuário são exibidos para todas as versões atuais e passadas de políticas para alertas de conformidade de comunicação. As informações de perfil de usuário (nome, título, alias e organização ou departamento) são exibidas para o usuário para todos os alertas de conformidade de comunicação.
 
 ## <a name="notice-templates"></a>Modelos de aviso
@@ -526,6 +526,21 @@ Este exemplo retorna atividades que corresponderem às políticas atuais de conf
 ```PowerShell
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionRuleMatch 
 ```
+
+As correspondências da política de conformidade de comunicação são armazenadas em uma caixa de correio de supervisão para cada política. Em alguns casos, talvez seja necessário verificar o tamanho da sua caixa de correio de supervisão para uma política para garantir que você não está se aproximando do limite atual de 50 GB. Se o limite de caixa de correio for atingido, as correspondências de política não serão capturadas e você precisará criar uma nova política (com as mesmas configurações) para continuar a capturar correspondências para as mesmas atividades.
+
+Para verificar o tamanho de uma caixa de correio de supervisão para uma política, conclua o seguinte:
+
+1. Use o cmdlet [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) no módulo Do PowerShell V2 do Exchange Online para se conectar ao PowerShell do Exchange Online usando a autenticação moderna.
+2. Execute o seguinte no PowerShell:
+
+    ```PowerShell
+    ForEach ($p in Get-SupervisoryReviewPolicyV2 | Sort-Object Name) 
+    {
+       "<Name of your communication compliance policy>: " + $p.Name
+       Get-MailboxStatistics $p.ReviewMailbox | ft ItemCount,TotalItemSize
+    }
+    ```
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Transição da Supervisão no Office 365
 

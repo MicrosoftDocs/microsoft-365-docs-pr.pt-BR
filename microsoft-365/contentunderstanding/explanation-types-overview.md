@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Saiba mais sobre tipos de explicação no Microsoft SharePoint Syntex
-ms.openlocfilehash: 5187b27438f25db1a2714f1fbc7b31db6d060ccc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b34de9ffc565e3d1a17cac05084e4e4b4113a3c6
+ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928395"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50994623"
 ---
 # <a name="introduction-to-explanation-types"></a>Introdução aos tipos de explicação
 
@@ -157,25 +157,25 @@ Por exemplo, em vez de adicionar manualmente todas as variações de *Data*, voc
  
 A biblioteca de explicação inclui explicações da lista de frases comumente usadas, incluindo:</br>
 
-- Data</br>
-- Data (numérico)</br>
-- Hora</br>
-- Número</br>
-- Porcentagem</br>
-- Número de telefone</br>
-- Código postal</br>
-- Primeira palavra da frase</br>
-- Fim da frase</br>
-- Cartão de crédito</br>
-- Cadastro de pessoas físicas</br>
-- Caixa de seleção</br>
-- Moeda</br>
-- Email CC</br>
-- Data do email</br>
-- Saudação por email</br>
-- Destinatário do email</br>
-- Remetente do email</br>
-- Assunto do email</br>
+- Data: datas do Calendário do Outlook, todos os formatos. Inclui texto e números (por exemplo, "9 de dezembro de 2020").</br>
+- Data (numérico): datas do Calendário do Outlook, todos os formatos. Inclui números (por exemplo, 1-11-2020).</br>
+- Relógio: formatos de 12 e 24 horas.</br>
+- Número: números positivos e negativos até 2 decimais. </br>
+- Porcentagem: uma lista de padrões que representam uma porcentagem. Por exemplo, 1%, 11%, 100%, 11,11%, etc.</br>
+- Número de telefone: formatos comuns nos EUA e internacionais. Por exemplo, 000 000 0000, 000-000-0000, (000) 000-0000, (000) 000-0000, etc.</br>
+- Código postal: formatos de código postal dos EUA. Por exemplo, 11111, 11111-1111.</br>
+- Primeira palavra da frase: padrões comuns para palavras de até 9 caracteres. </br>
+- Fim da frase: pontuação comum para o final de uma frase</br>
+- Cartão de crédito: formatos comuns de número de cartão de crédito. Por exemplo, 1111-1111-1111-1111. </br>
+- Número da previdência social: formato do número da previdência social dos EUA. Por exemplo, 111-11-1111. </br>
+- Caixa de seleção: uma lista de frases que representa variações de uma caixa de seleção preenchida. Por exemplo, _X_, _ _X_, etc.</br>
+- Moeda: principais símbolos internacionais. Por exemplo, $. </br>
+- CC de email: uma lista de frases com o termo 'CC:', geralmente encontrada perto dos nomes ou endereços de email de outras pessoas ou grupos para os quais a mensagem foi enviada.</br>
+- Data do email: uma lista de frases com o termo 'Enviado em:', geralmente encontrada próximo à data em que o email foi enviado.</br>
+- Saudação por email: linhas de abertura comuns para emails.</br>
+- Destinatário do email: uma lista de frases com o termo 'Para:', geralmente encontrada próximo aos nomes ou endereços de email de pessoas ou grupos para os quais a mensagem foi enviada. </br>
+- Remetente do email: uma lista de frases com o termo 'De:', geralmente encontrada próximo ao nome ou endereço de email do remetente. </br>
+- Assunto do email: uma lista de frases com o termo 'Assunto:', geralmente encontrada próximo ao assunto do email. </br>
 
 A biblioteca de explicação também inclui três tipos de modelos automáticos que funcionam com os dados que você rotulou em seus arquivos de exemplo:
 

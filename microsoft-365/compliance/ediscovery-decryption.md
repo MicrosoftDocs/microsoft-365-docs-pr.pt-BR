@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como as ferramentas de Descoberta Eletrônico do Microsoft 365 lidam com documentos criptografados anexados a mensagens de email e armazenados no SharePoint Online e no OneDrive for Business.
-ms.openlocfilehash: 4ddc66d595b9d2129a7ba1b75e69586ccbd130f7
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: ad7ee9816e83caa49e437e1723655162a44c93fa
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423814"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034064"
 ---
 # <a name="decryption-in-microsoft-365-ediscovery-tools"></a>Descriptografia em ferramentas de Descoberta Online do Microsoft 365
 
@@ -29,7 +29,7 @@ A criptografia é uma parte importante da sua estratégia de proteção de arqui
 
 Para executar tarefas comuns de Descoberta Eletrônico em conteúdo criptografado, os gerentes de Descoberta Eletrônico eram necessários para descriptografar o conteúdo da mensagem de email à medida que ele era exportado de pesquisas de conteúdo, principais casos de Descoberta Eletrônico e Casos avançados de Descoberta Eletrônico. O conteúdo criptografado com tecnologias de criptografia da Microsoft não estava disponível para revisão até ser exportado.
 
-Para facilitar o gerenciamento de conteúdo criptografado no fluxo de trabalho de Descoberta Eletrônico, as ferramentas de Descoberta Eletrônico do Microsoft 365 agora incorporam a descriptografia de arquivos criptografados anexados a mensagens de email e enviadas no Exchange Online. Além disso, documentos criptografados armazenados no SharePoint Online e no OneDrive for Business são descriptografados em Descoberta Avançada. 
+Para facilitar o gerenciamento de conteúdo criptografado no fluxo de trabalho de Descoberta Eletrônico, as ferramentas de Descoberta Eletrônico do Microsoft 365 agora incorporam a descriptografia de arquivos criptografados anexados a mensagens de email e enviadas no Exchange Online. Além disso, documentos criptografados armazenados no SharePoint Online e no OneDrive for Business são descriptografados em Descoberta Avançada.
 
 Antes desse novo recurso, apenas o conteúdo de uma mensagem de email protegida pelo gerenciamento de direitos (e arquivos não anexados) eram descriptografados. Os documentos criptografados no SharePoint e no OneDrive não puderam ser descriptografados durante o fluxo de trabalho de Descoberta Eletrônico. Agora, se um arquivo criptografado com uma tecnologia de criptografia da Microsoft estiver anexado a uma mensagem de email ou localizado em uma conta do SharePoint ou do OneDrive, esses itens criptografados serão descriptografados quando os resultados da pesquisa são preparados para visualização, adicionados a um conjunto de revisão na Descoberta Avançada e exportados. Isso permite que os gerentes de Descoberta Eletrônico visualizem o conteúdo de anexos de email criptografados e documentos de site ao visualizar os resultados da pesquisa e revisá-los depois que eles foram adicionados a um conjunto de revisão na Descoberta Avançada.
 
@@ -39,7 +39,7 @@ As ferramentas de Descoberta Online da Microsoft suportam itens criptografados c
 
 ## <a name="ediscovery-activities-that-support-encrypted-items"></a>Atividades de Descoberta Livre que suportam itens criptografados
 
-A tabela a seguir identifica as tarefas com suporte que podem ser executadas nas ferramentas de Descoberta Eletrônico do Microsoft 365 em arquivos criptografados anexados a massagens de email e documentos criptografados no SharePoint e no OneDrive. Essas tarefas com suporte podem ser executadas em arquivos criptografados que corresponderem aos critérios de uma pesquisa. Um valor indica que a funcionalidade não está disponível na `N/A` ferramenta de Descoberta Digital correspondente.
+A tabela a seguir identifica as tarefas com suporte que podem ser executadas nas ferramentas de Descoberta Eletrônico do Microsoft 365 em arquivos criptografados anexados a mensagens de email e documentos criptografados no SharePoint e no OneDrive. Essas tarefas com suporte podem ser executadas em arquivos criptografados que corresponderem aos critérios de uma pesquisa. Um valor indica que a funcionalidade não está disponível na `N/A` ferramenta de Descoberta Digital correspondente.
 
 |Tarefa de Descoberta Desdiscovery  |Pesquisa de conteúdo  |Descoberta Eletrônica Central  |Descoberta Eletrônica Avançada  |
 |:---------|:---------|:---------|:---------|
