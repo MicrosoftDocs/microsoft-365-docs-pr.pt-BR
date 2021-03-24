@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Use o Centro de conformidade do Microsoft 365 para pesquisar o log de auditoria unificado para visualizar a atividade do usuário e administrador em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eabc9a59592ed2b1849bac8c7b716e68d4b9e214
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f61a67b29dec114d222dfc7b25e44c163859ba41
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922545"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051733"
 ---
 # <a name="search-the-audit-log-in-the-compliance-center"></a>Pesquisar o log de auditoria no centro de conformidade
 
@@ -900,7 +900,7 @@ A tabela a seguir lista as atividades no explorador de conteúdo registradas no 
 
 ### <a name="quarantine-activities"></a>Atividades de quarentena
 
-A tabela a seguir lista as atividades de quarentena que podem ser pesquisadas no log de auditoria. Para saber mais sobre a quarentena, confira [Mensagens de e-mail em quarentena no Office 365](../security/office-365-security/quarantine-email-messages.md).
+A tabela a seguir lista as atividades de quarentena que podem ser pesquisadas no log de auditoria. Para saber mais sobre a quarentena, confira [Mensagens de e-mail em quarentena no Office 365](../security/defender-365-security/quarantine-email-messages.md).
 
 |Nome amigável|Operação|Descrição|
 |:-----|:-----|:-----|
