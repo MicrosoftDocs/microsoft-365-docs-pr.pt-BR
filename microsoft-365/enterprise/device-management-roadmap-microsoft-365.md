@@ -15,12 +15,12 @@ ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
 description: O roteiro para configurar o gerenciamento de dispositivos para o Microsoft 365.
-ms.openlocfilehash: 4c37033898865372fea19ddbb53ec9c8586f27b1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ec284a96fc8e7285f89e8a909b76c782b4469ce1
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918961"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051455"
 ---
 # <a name="device-management-roadmap-for-microsoft-365"></a>Roteiro de gerenciamento de dispositivos para Microsoft 365
 
@@ -54,10 +54,10 @@ Com base em sua avaliação, começar a gerenciar seus dispositivos com:
  
 ## <a name="identity-and-device-access-recommendations"></a>Recomendações de acesso de dispositivo e identidade
 
-A Microsoft fornece um conjunto de recomendações para [acesso de dispositivo e identidade](../security/office-365-security/microsoft-365-policies-configurations.md) para garantir uma força de trabalho segura e produtiva. Para acesso ao dispositivo, use as recomendações e configurações nestes artigos:
+A Microsoft fornece um conjunto de recomendações para [acesso de dispositivo e identidade](../security/defender-365-security/microsoft-365-policies-configurations.md) para garantir uma força de trabalho segura e produtiva. Para acesso ao dispositivo, use as recomendações e configurações nestes artigos:
 
-- [Pré-requisitos](../security/office-365-security/identity-access-prerequisites.md)
-- [Identidade comum e políticas de acesso ao dispositivo](../security/office-365-security/identity-access-policies.md)
+- [Pré-requisitos](../security/defender-365-security/identity-access-prerequisites.md)
+- [Identidade comum e políticas de acesso ao dispositivo](../security/defender-365-security/identity-access-policies.md)
 
 ## <a name="how-contoso-did-device-management-for-microsoft-365"></a>Como a Contoso fez o gerenciamento de dispositivos para o Microsoft 365
 

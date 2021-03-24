@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: b6696d15d728e6b66be5e54a9a3c372564c9f187
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7cd9098766024093a0b9fa2d6e95131bf13d09df
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920851"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052477"
 ---
 # <a name="security-hurdles-you-can-sail-overone-architects-viewpoint"></a>Barreiras de segurança que você pode navegar — um ponto de vista de arquiteto
 
@@ -49,7 +49,7 @@ Os clientes que navegam sobre esses obstáculos têm boas parcerias entre opera�
 
 Em seguida, adote uma abordagem de arquitetura de Confiança Zero. Isso começa com a criação de um perímetro de segurança moderno baseado em identidade. Projete a arquitetura de segurança em que cada tentativa de acesso, seja no local ou na nuvem, seja tratada como não confiável até que seja verificada, "nunca confie, sempre verifique". Essa abordagem de design não só aumenta a segurança e a produtividade, mas também permite que os usuários trabalhem de qualquer lugar com qualquer tipo de dispositivo. Os sofisticados controles de nuvem incluídos no Microsoft 365 ajudam você a proteger as identidades dos usuários ao controlar o acesso a recursos valiosos com base no nível de risco do usuário.
 
-Para uma configuração recomendada, consulte [Configurações de identidade e acesso a dispositivos.](../security/office-365-security/microsoft-365-policies-configurations.md)
+Para uma configuração recomendada, consulte [Configurações de identidade e acesso a dispositivos.](../security/defender-365-security/microsoft-365-policies-configurations.md)
 
 ## <a name="transition-security-controls-to-the-cloud"></a>Controles de segurança de transição para a nuvem
 

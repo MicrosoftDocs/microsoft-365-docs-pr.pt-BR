@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Implante o modelo de identidade correto para seus locatários do Microsoft 365 e impor fortes entrada do usuário.
-ms.openlocfilehash: 18d950bcca0c4f24e4777d0e29bd8e319d0de77f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 57e84b38715c4fbe29f9aa362e363663b0401f91
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920863"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052357"
 ---
 # <a name="step-3-identity-for-your-microsoft-365-for-enterprise-tenants"></a>Etapa 3. Identidade do Microsoft 365 para locatários corporativos
 
@@ -77,7 +77,7 @@ Para aumentar a segurança de logins do usuário, use os recursos e recursos na 
 | Windows Hello para Empresas | Substitui senhas por autenticação forte de dois fatores ao entrar em um dispositivo Windows. O recurso de dois fatores é um novo tipo de credencial de usuário vinculado a um dispositivo e a uma leitura biométrica ou a um PIN. | [Visão geral do Windows Hello para Empresas](/windows/security/identity-protection/hello-for-business/hello-overview) | Microsoft 365 E3 ou E5 |
 | Proteção por senha do Microsoft Azure AD | Detecta e bloqueia senhas fracas conhecidas e suas variantes e também pode bloquear termos fracos adicionais específicos da sua organização. | [Configurar a proteção de senha do Azure AD](/azure/active-directory/authentication/concept-password-ban-bad) | Microsoft 365 E3 ou E5 |
 | Use a autenticação multifator (MFA) | A MFA exige que as insíções do usuário sejam sujeitas a uma verificação adicional além da senha da conta do usuário, como a verificação com um aplicativo de smartphone ou uma mensagem de texto enviada a um smartphone. Consulte [este vídeo para](https://support.microsoft.com/office/set-up-multi-factor-authentication-in-microsoft-365-business-a32541df-079c-420d-9395-9d59354f7225) obter instruções sobre como os usuários configuram o MFA. | [MFA para Microsoft 365 para empresas](../enterprise/microsoft-365-secure-sign-in.md#mfa) | Microsoft 365 E3 ou E5 |
-| Identidade e configurações de acesso ao dispositivo | Configurações e políticas que consistem em recursos de pré-requisito recomendados e suas configurações combinadas com as políticas de Acesso Condicional, Intune e Proteção de Identidade do Azure AD que determinam se uma determinada solicitação de acesso deve ser concedida e em quais condições.  | [Configurações de identidade e acesso a dispositivos](../security/office-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 ou E5 |
+| Identidade e configurações de acesso ao dispositivo | Configurações e políticas que consistem em recursos de pré-requisito recomendados e suas configurações combinadas com as políticas de Acesso Condicional, Intune e Proteção de Identidade do Azure AD que determinam se uma determinada solicitação de acesso deve ser concedida e em quais condições.  | [Configurações de identidade e acesso a dispositivos](../security/defender-365-security/microsoft-365-policies-configurations.md) | Microsoft 365 E3 ou E5 |
 | Azure AD Identity Protection | Proteja-se contra comprometimento de credenciais, onde um invasor determina o nome da conta e a senha de um usuário para obter acesso aos serviços e dados de nuvem de uma organização. | [Azure AD Identity Protection](/azure/active-directory/active-directory-identityprotection) | Microsoft 365 E5 ou Microsoft 365 E3 com o complemento Identity & Proteção contra Ameaças |
 |  |  |  |
 

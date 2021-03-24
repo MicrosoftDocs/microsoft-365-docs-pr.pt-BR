@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
 description: Saiba como implementar o ExpressRoute para o Office 365, que fornece um caminho de roteamento alternativo para muitos serviços do Office 365 voltados para a Internet.
-ms.openlocfilehash: d0f0b5156aae5a3e2c38f51ba0b74738918593e9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d75fe3a6dab4926babeef61fc14894566ff819b0
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909827"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051361"
 ---
 # <a name="implementing-expressroute-for-office-365"></a>Como implementar o ExpressRoute para o Office 365
 
@@ -225,7 +225,7 @@ Seu plano de implementação deve abranger os detalhes técnicos da configuraç�
 
 - Decida até que ponto as rotas do ExpressRoute serão anunciadas em sua rede e qual é o mecanismo para os clientes selecionarem Internet ou o caminho do ExpressRoute; por exemplo, roteamento direto ou proxy de aplicativo.
 
-- Planeje alterações no registro DNS, incluindo [entradas da Estrutura](../security/office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md) de Política do Remetente.
+- Planeje alterações no registro DNS, incluindo [entradas da Estrutura](../security/defender-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md) de Política do Remetente.
 
 - Planeje a estratégia NAT, incluindo NAT de origem de saída e de entrada.
 

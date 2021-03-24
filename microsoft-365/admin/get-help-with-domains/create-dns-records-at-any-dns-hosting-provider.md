@@ -20,12 +20,12 @@ description: Aprenda a verificar seu domínio e criar registros DNS em qualquer 
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: d6e8a5a0e23bf9bb9e302566a72b9e1cc6b7bff4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 06a5e7d081a16cd8d5aae28268b3aaf737981a43
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915645"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051037"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Adicionar registros DNS para conectar seu domínio
 
@@ -129,7 +129,7 @@ Valide seu registro SPF usando uma destas [ferramentas de validação de SPF](/o
 
 O SPF foi projetado para ajudar a evitar a falsificação, mas há técnicas de falsificação contra as quais o SPF não pode protegê-lo. Para se proteger contra isso, depois de configurar o SPF, você também deve configurar o DKIM e o DMARC para o Microsoft 365. 
 
-Para começar, consulte [Usar DKIM para validar emails de saída enviados do seu domínio no Microsoft 365](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) e [Usar DMARC para validar emails no Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
+Para começar, consulte [Usar DKIM para validar emails de saída enviados do seu domínio no Microsoft 365](../../security/defender-365-security/use-dkim-to-validate-outbound-email.md) e [Usar DMARC para validar emails no Microsoft 365](../../security/defender-365-security/use-dmarc-to-validate-email.md).
 
 ### <a name="add-srv-records-for-communications-services-teams-skype-for-business"></a>Adicionar registros SRV para serviços de communications (Teams, Skype for Business)
 

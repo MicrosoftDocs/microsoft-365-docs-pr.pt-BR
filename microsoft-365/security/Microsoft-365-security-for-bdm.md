@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: os cenários de ameaça e ataque mais comuns atualmente enfrentados pelas organizações para seus ambientes do Microsoft 365 e ações recomendadas para reduzir esses riscos.
-ms.openlocfilehash: b238ed744d4998d940af456418dbb14ff31360a9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 328bd4c079531ee57b41422fd2d3f2c53ef8dc18
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909077"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051085"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 Security for Business Decision Makers (BDMs)
 
@@ -29,7 +29,7 @@ Este artigo é organizado por prioridade de trabalho, começando pela proteção
 
 [![Planilha de recomendações de segurança de BDM do Microsoft 365](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
-A Microsoft fornece a ferramenta De pontuação segura em seu locatário para analisar automaticamente sua postura de segurança com base em suas atividades regulares, atribuir uma pontuação e fornecer recomendações de melhoria de segurança. Antes de tomar as ações recomendadas neste artigo, anote sua pontuação atual e recomendações. As ações recomendadas neste artigo aumentarão sua pontuação. O objetivo não é atingir a pontuação máxima, mas estar ciente das oportunidades de proteger seu ambiente de uma maneira que não afete negativamente a produtividade para seus usuários. Consulte [Microsoft Secure Score](mtp/microsoft-secure-score.md).
+A Microsoft fornece a ferramenta De pontuação segura em seu locatário para analisar automaticamente sua postura de segurança com base em suas atividades regulares, atribuir uma pontuação e fornecer recomendações de melhoria de segurança. Antes de tomar as ações recomendadas neste artigo, anote sua pontuação atual e recomendações. As ações recomendadas neste artigo aumentarão sua pontuação. O objetivo não é atingir a pontuação máxima, mas estar ciente das oportunidades de proteger seu ambiente de uma maneira que não afete negativamente a produtividade para seus usuários. Consulte [Microsoft Secure Score](defender/microsoft-secure-score.md).
 
 ![Siga estas etapas para reduzir os riscos para sua empresa.](../media/security/security-for-bdms-overview.png)
 
@@ -70,7 +70,7 @@ As ameaças conhecidas incluem malware, contas comprometidas e phishing. Algumas
 
 |Recomendação  |E3  |E5  |
 |---------|---------|---------|
-|**Configure a autenticação multifacional e use políticas de** acesso condicional recomendadas, incluindo políticas de risco de entrada. A Microsoft recomenda e testou um conjunto de políticas que funcionam em conjunto para proteger todos os aplicativos de nuvem, incluindo os serviços do Office 365 e do Microsoft 365. Consulte [Configurações de identidade e acesso a dispositivos.](./office-365-security/microsoft-365-policies-configurations.md) | |![marca de verificação verde](../media/green-check-mark.png)|
+|**Configure a autenticação multifacional e use políticas de** acesso condicional recomendadas, incluindo políticas de risco de entrada. A Microsoft recomenda e testou um conjunto de políticas que funcionam em conjunto para proteger todos os aplicativos de nuvem, incluindo os serviços do Office 365 e do Microsoft 365. Consulte [Configurações de identidade e acesso a dispositivos.](./defender-365-security/microsoft-365-policies-configurations.md) | |![marca de verificação verde](../media/green-check-mark.png)|
 |**Exigir autenticação multifa factor para todos os usuários**. Se você não tiver o licenciamento necessário para implementar as políticas de acesso condicional recomendadas, no mínimo exigirá autenticação multifacional para todos os usuários.|![marca de verificação verde](../media/green-check-mark.png)|![marca de verificação verde](../media/green-check-mark.png)|
 |**Eleva o nível de proteção contra malware no email.** Seu ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware, mas você pode aumentar essa proteção bloqueando anexos com tipos de arquivo comumente usados para malware.|![marca de verificação verde](../media/green-check-mark.png)|![marca de verificação verde](../media/green-check-mark.png)|
 |**Proteja seu email contra ataques de phishing direcionados.** Se você configurou um ou mais domínios personalizados para seu ambiente do Office 365 ou do Microsoft 365, você pode configurar a proteção anti-phishing direcionada. A proteção anti-phishing, parte do Defender para Office 365, pode ajudar a proteger sua organização contra ataques de phishing com base em representação mal-intencionada e outros ataques de phishing. Se você não configurou um domínio personalizado, não precisa fazer isso.| |![marca de verificação verde](../media/green-check-mark.png)|
@@ -116,7 +116,7 @@ Os recursos de proteção de informações do Microsoft 365 podem ajudá-lo a de
 
 |Recomendação |E3|E5 |
 |---------|---------|---------|
-|**Revise e otimize seu acesso condicional e políticas relacionadas para** alinhar com seus objetivos para uma rede de confiança zero. A proteção contra ameaças conhecidas inclui a implementação de um conjunto de [políticas recomendadas.](./office-365-security/microsoft-365-policies-configurations.md) Revise sua implementação dessas políticas para garantir que você esteja protegendo seus aplicativos e dados contra hackers que tiveram acesso à sua rede. Observe que a política de proteção de aplicativos do Intune recomendada para Windows 10 habilita a Wip (Proteção de Informações do Windows). A WIP protege contra vazamentos acidentais de dados da sua organização por meio de aplicativos e serviços, como email, mídia social e a nuvem pública. |         |![marca de verificação verde](../media/green-check-mark.png)|
+|**Revise e otimize seu acesso condicional e políticas relacionadas para** alinhar com seus objetivos para uma rede de confiança zero. A proteção contra ameaças conhecidas inclui a implementação de um conjunto de [políticas recomendadas.](./defender-365-security/microsoft-365-policies-configurations.md) Revise sua implementação dessas políticas para garantir que você esteja protegendo seus aplicativos e dados contra hackers que tiveram acesso à sua rede. Observe que a política de proteção de aplicativos do Intune recomendada para Windows 10 habilita a Wip (Proteção de Informações do Windows). A WIP protege contra vazamentos acidentais de dados da sua organização por meio de aplicativos e serviços, como email, mídia social e a nuvem pública. |         |![marca de verificação verde](../media/green-check-mark.png)|
 |**Desabilitar o encaminhamento de email externo.** Os hackers que têm acesso à caixa de correio de um usuário podem roubar seu email definindo a caixa de correio para encaminhar emails automaticamente. Isso pode acontecer mesmo sem a conscientização do usuário. Você pode impedir que isso aconteça configurando uma regra de fluxo de emails.|![marca de verificação verde](../media/green-check-mark.png) |![marca de verificação verde](../media/green-check-mark.png)|
 |**Desabilitar o compartilhamento de calendário externo anônimo**. Por padrão, o compartilhamento de calendário anônimo externo é permitido. [Desabilite o compartilhamento](/exchange/sharing/sharing-policies/modify-a-sharing-policy) de calendário para reduzir possíveis vazamentos de informações confidenciais.|![marca de verificação verde](../media/green-check-mark.png) |![marca de verificação verde](../media/green-check-mark.png)|
 |**Configurar políticas de prevenção contra perda de dados para dados confidenciais.** Crie uma Política de Prevenção contra Perda de Dados no Centro de Conformidade e Segurança para descobrir e proteger dados confidenciais, como números de cartão de crédito, números da Previdência Social e números &amp; de contas bancárias. O Microsoft 365 inclui muitos tipos de informações confidenciais predefinidos que você pode usar em políticas de prevenção contra perda de dados. Você também pode criar seus próprios tipos de informações confidenciais para dados confidenciais personalizados ao seu ambiente. |![marca de verificação verde](../media/green-check-mark.png)|![marca de verificação verde](../media/green-check-mark.png)|

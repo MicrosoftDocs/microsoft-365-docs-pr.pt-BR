@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Como chegar aos recursos equivalentes ao Centro de Implantação de Área de Trabalho preterido.
-ms.openlocfilehash: c4456d0f17e38920e77c855e31205e51025f111b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 54847305576cb5b2cf96177ad810c1b1ccb11eed
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051467"
 ---
 # <a name="desktop-deployment-center-deprecated"></a>Centro de Implantação da Área de Trabalho (preterido)
 
@@ -29,7 +29,7 @@ Use esses recursos para implantar áreas de trabalho modernas:
 - [Implantação do Windows 10](/windows/deployment/)
 - [Implantar os aplicativos do Microsoft 365.](/deployoffice/deployment-guide-microsoft-365-apps)
 - [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
-- [Políticas de acesso de dispositivos e identidades](../security/office-365-security/microsoft-365-policies-configurations.md)
+- [Políticas de acesso de dispositivos e identidades](../security/defender-365-security/microsoft-365-policies-configurations.md)
 
 Você também pode exibir os vídeos da série [Implantação de Área de](https://www.aka.ms/watchhowtoshift)Trabalho do Microsoft Mechanics .
 

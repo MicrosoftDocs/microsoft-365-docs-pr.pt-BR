@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre a autenticação multifação no Microsoft 365.
-ms.openlocfilehash: e1635e48e3948425a6d91f80fd07d50c474b73d7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 080251efa7d7d3bda6ad89e95960e43dd38d076d
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914505"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050661"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Autenticação multifator para Microsoft 365
 
@@ -61,7 +61,7 @@ Essas maneiras se baseiam no seu plano do Microsoft 365.
 |---|---|---|
 |Todos os planos do Microsoft 365|Use padrões de segurança, que exigem MFA para todas as contas de usuário. <p> Você também pode configurar o MFA por usuário em contas de usuário individuais, mas isso não é recomendado.|Pequena empresa|
 |Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Licenças premium P1 do Azure Active Directory (Azure AD)|Use políticas de Acesso Condicional para exigir MFA para contas de usuário com base em associação a grupos, aplicativos ou outros critérios.|Pequenas empresas para empresas|
-|Microsoft 365 E5 <p> Licenças do Azure AD Premium P2|Use a Proteção de Identidade do Azure AD para exigir MFA com base nos critérios de risco de login.|Empresa|
+|Microsoft 365 E5 <p> Licenças do Azure AD Premium P2|Use a Proteção de Identidade do Azure AD para exigir MFA com base nos critérios de risco de login.|Enterprise|
 ||||
 
 ### <a name="security-defaults"></a>Padrões de segurança
@@ -127,7 +127,7 @@ Para mais informações, confira esta [visão geral do Acesso Condicional](/azur
 
 ### <a name="azure-ad-identity-protection"></a>Azure AD Identity Protection
 
-Com a Proteção de Identidade do Azure AD, você pode criar uma política de Acesso Condicional adicional para exigir MFA quando o risco de entrada [for médio ou alto.](../../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)
+Com a Proteção de Identidade do Azure AD, você pode criar uma política de Acesso Condicional adicional para exigir MFA quando o risco de entrada [for médio ou alto.](../../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)
 
 Você pode usar a Proteção de Identidade do Azure AD e políticas de Acesso Condicional baseadas em risco com:
 

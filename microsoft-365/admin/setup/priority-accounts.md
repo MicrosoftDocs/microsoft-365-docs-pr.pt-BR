@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Monitorar mensagens enviadas por email com falha e atraso enviadas para ou de contas com alto impacto comercial.
-ms.openlocfilehash: b31cbf79b5b1b8f882c4c7bc8926779410baefe3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0bba1f87f80de9fea249ce2604e83ceeadfb79ee
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914049"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050637"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Gerenciar e monitorar contas prioritárias
 
@@ -26,10 +26,10 @@ Em cada organização do Microsoft 365, há pessoas essenciais, como executivos,
 
 Para ajudar sua organização a proteger essas contas, agora você pode designar usuários específicos como contas prioritárias e aproveitar recursos específicos do aplicativo que oferecem a eles proteção extra. No futuro, mais aplicativos e recursos darão suporte a contas de prioridade e, para começar, anunciamos dois **recursos:** proteção de conta de prioridade e monitoramento de fluxo de **emails premium.**
 
-- Proteção de conta de prioridade **–** o Microsoft Defender para Office 365 (anteriormente a Proteção Avançada contra Ameaças do Office 365) dá suporte a contas prioritárias como marcas que podem ser usadas em filtros em alertas, relatórios e investigações. Para obter mais informações, confira [Marcas de usuário no Microsoft Defender para Office 365](../../security/office-365-security/user-tags.md).
+- Proteção de conta de prioridade **–** o Microsoft Defender para Office 365 (anteriormente a Proteção Avançada contra Ameaças do Office 365) dá suporte a contas prioritárias como marcas que podem ser usadas em filtros em alertas, relatórios e investigações. Para obter mais informações, confira [Marcas de usuário no Microsoft Defender para Office 365](../../security/defender-365-security/user-tags.md).
 - **Monitoramento de Fluxo de Email Premium** - O fluxo de emails saudável pode ser fundamental para o sucesso dos negócios, e atrasos ou falhas de entrega podem ter um impacto negativo sobre a empresa. Você pode escolher um limite para emails com falha ou atraso, receber alertas quando esse limite for excedido e exibir um relatório de problemas de email para contas de prioridade. Para obter mais informações, confira Problemas de email para o relatório de contas [de prioridade no EAC moderno](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report)
 
-Para práticas recomendadas de segurança para contas prioritárias, consulte [Recomendações de segurança para contas prioritárias.](../../security/office-365-security/security-recommendations-for-priority-accounts.md)
+Para práticas recomendadas de segurança para contas prioritárias, consulte [Recomendações de segurança para contas prioritárias.](../../security/defender-365-security/security-recommendations-for-priority-accounts.md)
 
 ## <a name="before-you-begin"></a>Antes de começar
 

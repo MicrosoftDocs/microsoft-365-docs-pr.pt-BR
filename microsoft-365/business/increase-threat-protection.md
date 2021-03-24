@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar o Microsoft Defender para Office 365 e proteger dados confidenciais contra phishing, malware e outras ameaças.
-ms.openlocfilehash: 0424fd56e30477f4e8d9e84b7ac78ba6255781fa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 80ad3767b277e4808b6df4bdd977688794649e11
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913277"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050837"
 ---
 # <a name="increase-threat-protection"></a>Aumente a proteção contra ameaças
 
@@ -35,7 +35,7 @@ Este artigo ajuda você a aumentar a proteção em sua assinatura do Microsoft 3
 
 Antes de começar, verifique sua Pontuação Segura do Office 365. A Pontuação Segura do Office 365 analisa a segurança da sua organização com base em suas atividades regulares e configurações de segurança e atribui uma pontuação. Comece anotando sua pontuação atual. Para aumentar sua pontuação, conclua as ações recomendadas neste artigo. O objetivo não é atingir a pontuação máxima, mas estar ciente das oportunidades de proteger seu ambiente que não afetam negativamente a produtividade de seus usuários.
 
-Para obter mais informações, consulte [Microsoft Secure Score](../security/mtp/microsoft-secure-score.md).
+Para obter mais informações, consulte [Microsoft Secure Score](../security/defender/microsoft-secure-score.md).
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Aumentar o nível de proteção contra malware no email
 
@@ -57,7 +57,7 @@ Seu ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware.
 
 6. Selecione **Salvar.**
 
-Para obter mais informações, consulte [Proteção anti-malware no EOP](../security/office-365-security/anti-malware-protection.md).
+Para obter mais informações, consulte [Proteção anti-malware no EOP](../security/defender-365-security/anti-malware-protection.md).
 
 ## <a name="protect-against-ransomware"></a>Proteção contra ransomware
 
@@ -81,7 +81,7 @@ Para criar uma regra de transporte de email:
 
 6. Selecione **Salvar**.
 
-|Setting|Avisar os usuários antes de abrir anexos de arquivos do Office||
+|Configuração|Avisar os usuários antes de abrir anexos de arquivos do Office||
 |---|---|---|
 |Nome|Regra anti-ransomware: avisar os usuários|
 |Aplicar essa regra se . . .|Qualquer anexo . . . extensão de arquivo corresponde . . .|
@@ -113,7 +113,7 @@ Para criar uma regra de transporte de email, assista [a este vídeo curto](https
 
 6. Selecione **Salvar**.
 
-|Setting|Avisar os usuários antes de abrir anexos de arquivos do Office|
+|Configuração|Avisar os usuários antes de abrir anexos de arquivos do Office|
 |---|---|
 |Nome|Impedir o encaminhamento automático de emails para domínios externos|
 |Aplicar essa regra se ...|O remetente . . . é externo/interno . . . Dentro da organização|
@@ -138,7 +138,7 @@ Para criar uma política anti-phishing no Microsoft Defender para Office 365, as
 
 4. Na página **Anti-phishing,** selecione **+ Criar**. Um assistente inicia essa etapa ao definir sua política anti-phishing.
 
-5. Especifique o nome, a descrição e as configurações da política conforme recomendado na tabela a seguir. Para obter mais detalhes, [consulte Learn about anti-phishing policy in Microsoft Defender for Office 365 options](../security/office-365-security/set-up-anti-phishing-policies.md).
+5. Especifique o nome, a descrição e as configurações da política conforme recomendado na tabela a seguir. Para obter mais detalhes, [consulte Learn about anti-phishing policy in Microsoft Defender for Office 365 options](../security/defender-365-security/set-up-anti-phishing-policies.md).
 
 6. Depois de revisar suas configurações, escolha **Criar essa política** ou **Salvar**, conforme apropriado.
 
@@ -181,7 +181,7 @@ Para criar uma política de Anexo Seguro, assista [a este vídeo curto](https://
 |Redirecionar anexo na detecção|Habilitar redirecionamento (selecione esta caixa) Insira a conta de administrador ou uma configuração de caixa de correio para quarentena.          Aplique a seleção acima se ocorrer uma verificação de malware para anexos ou se ocorrer um erro (selecione esta caixa).|
 |Aplicado a|O domínio do destinatário é . . . selecione seu domínio.|
 
-Para obter mais informações, [consulte Configurar políticas anti-phishing no Microsoft Defender para Office 365](../security/office-365-security/set-up-anti-phishing-policies.md).
+Para obter mais informações, [consulte Configurar políticas anti-phishing no Microsoft Defender para Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md).
 
 ## <a name="protect-against-phishing-attacks-with-safe-links"></a>Proteger contra ataques de phishing com Links Seguros
 
@@ -224,7 +224,7 @@ Para criar uma nova política direcionada a todos os destinatários em seu domí
 |Usar Anexos Seguros para examinar o conteúdo baixável|Selecione essa caixa.|
 |Aplicado a|O domínio do destinatário é . . . selecione seu domínio.|
 
-Para obter mais informações, consulte [Links seguros.](../security/office-365-security/atp-safe-links.md)
+Para obter mais informações, consulte [Links seguros.](../security/defender-365-security/safe-links.md)
 
 ## <a name="go-to-intune-admin-center"></a>Vá para o Centro de administração do Intune
 

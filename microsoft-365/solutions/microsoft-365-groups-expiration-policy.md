@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba mais sobre políticas de expiração de grupos do Microsoft 365.
-ms.openlocfilehash: 8232e7df2a8390b905386773ed0656eb8239d5c5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 65a746751cd523a5dadce3eca573e6a9bfce0166
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920911"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052297"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
@@ -37,6 +37,8 @@ Os grupos que estão em uso ativamente são renovados automaticamente. Qualquer 
 - SharePoint - exibir, editar, baixar, mover, compartilhar ou carregar arquivos. (A exibição de uma página do SharePoint não conta como uma ação para renovação automática.)
 - Outlook - ingressar em grupo, ler ou gravar mensagem de grupo do grupo e como uma mensagem (Outlook na Web).
 - Teams - visitando um canal do Teams.
+
+Observe que a única atividade do Yammer que disparará uma renovação automática de grupo é o carregamento de um documento no SharePoint dentro da comunidade.
 
 > [!IMPORTANT]
 > Quando você altera a política de expiração, o serviço recalcula a data de expiração para cada grupo. Ele sempre começa a contar a partir da data em que o grupo foi criado e aplica a nova política de expiração.

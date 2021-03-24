@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Como a Contoso tira proveito da Identidade como um Serviço (IDaaS) e fornece a autenticação baseada na nuvem para seus funcionários e autenticação federada para seus clientes e parceiros.
-ms.openlocfilehash: accd60f6699e7ebf04963213128d1ca1ffc8f7fe
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f3c8746345683652ce601400ae7297e96fff2ee3
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911067"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051515"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Identidade para a Contoso Corporation
 
@@ -64,7 +64,7 @@ Aqui está o servidor executando o Azure AD Connect sondando a floresta contoso 
  
 ## <a name="conditional-access-policies-for-identity-and-device-access"></a>Políticas de Acesso Condicional para acesso de identidades e dispositivos
 
-A Contoso criou um conjunto de [políticas de Acesso Condicional](../security/office-365-security/identity-access-policies.md) do Azure AD e Intune para três níveis de proteção:
+A Contoso criou um conjunto de [políticas de Acesso Condicional](../security/defender-365-security/identity-access-policies.md) do Azure AD e Intune para três níveis de proteção:
 
 - *As* proteções de linha de base se aplicam a todas as contas de usuário.
 - *Proteções* confidenciais se aplicam à liderança sênior e à equipe executiva.

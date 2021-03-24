@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Descubra as etapas de instalação do Microsoft 365 Business Premium, incluindo adicionar um domínio e usuários, configurar políticas de segurança e muito mais.
-ms.openlocfilehash: 5b082e78f3dc4067dcce4a96a8088b2347bc3af4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4d49ba7ccdb65691756aaa505d0856deb115595b
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912561"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052225"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Configurar o Microsoft 365 Business Premium no assistente de instalação
 
@@ -107,7 +107,7 @@ Para configurar serviços, você deve atualizar alguns registros no registrador 
 
 As políticas configuradas no assistente são aplicadas automaticamente a um grupo [de Segurança](/office365/admin/create-groups/compare-groups#security-groups) chamado *Todos os Usuários.* Você também pode criar grupos adicionais para atribuir políticas no centro de administração.
 
-1. Em Aumentar **a proteção contra** ameaças cibernéticas avançadas, é recomendável que você aceite os padrões para permitir que o Office [365 Advance Threat Protection](../security/office-365-security/office-365-atp.md) scan files and links in Office apps.
+1. Em Aumentar **a proteção contra** ameaças cibernéticas avançadas, é recomendável que você aceite os padrões para permitir que o Office [365 Advance Threat Protection](../security/defender-365-security/defender-for-office-365.md) scan files and links in Office apps.
 
     ![Captura de tela da página Aumentar proteção.](../media/increasetreatprotection.png)
 
