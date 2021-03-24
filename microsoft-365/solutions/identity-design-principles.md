@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 10cebf0ab74936d7275586f2e8f09c841c8c653f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 746ca59fd0e9eb0d93d93c00b6a279a9156cc524
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918309"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050733"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Para identidade e além — o ponto de vista de um arquiteto
 
@@ -133,11 +133,11 @@ Combinar todos esses sinais em conjunto permite políticas dinâmicas como estas
 Se você concordar com essa definição expandida de autorização, precisará implementar soluções adicionais. Quais soluções você implementar dependerá da dinâmica que você deseja que a política seja e quais ameaças você deseja priorizar. Alguns exemplos desses sistemas são:
 
 - [Azure AD Identity Protection](/azure/active-directory/identity-protection/) 
-- [O que é o Microsoft Defender para Identidade?](/azure-advanced-threat-protection/)
+- [Microsoft Defender para Identidade?](/azure-advanced-threat-protection/)
 - [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Obter o Microsoft Defender para Office 365](../security/office-365-security/office-365-atp.md?view=o365-worldwide)
+- [Microsoft Defender para Office 365](../security/defender-365-security/defender-for-office-365.md?view=o365-worldwide)
 - [Microsoft Cloud App Security](/cloud-app-security/) (MCAS)
-- [Microsoft 365 Defender](../security/mtp/microsoft-threat-protection.md?view=o365-worldwide)
+- [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
 - [Microsoft Intune](/mem/intune/)
 - [Microsoft Information Protection](../compliance/information-protection.md?view=o365-worldwide) (MIP)
 - [Azure Sentinel](/azure/sentinel/)
@@ -227,7 +227,7 @@ Eu mencionei [o PIM do Azure AD](/azure/active-directory/privileged-identity-man
 
 ### <a name="security-and-compliance-center-scc"></a>Centro de Conformidade e Segurança (SCC)
 
-As permissões no Centro de Conformidade e Segurança do [Office 36 & 5](../security/office-365-security/permissions-in-the-security-and-compliance-center.md) são uma coleção de "grupos de funções", separados e distintos das funções do Azure AD. Isso pode ser confuso porque alguns desses grupos de função têm o mesmo nome que funções do Azure AD (por exemplo, Leitor de Segurança), mas eles podem ter uma associação diferente. Eu prefiro o uso de funções do Azure AD. Cada grupo de funções consiste em uma ou mais "funções" (veja o que quero dizer sobre reutilização da mesma palavra?) e têm membros do Azure AD, que são objetos habilitados para email. Além disso, você pode criar um grupo de funções com o mesmo nome de uma função, que pode ou não conter essa função (evitar essa confusão).
+As permissões no Centro de Conformidade e Segurança do [Office 36 & 5](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md) são uma coleção de "grupos de funções", separados e distintos das funções do Azure AD. Isso pode ser confuso porque alguns desses grupos de função têm o mesmo nome que funções do Azure AD (por exemplo, Leitor de Segurança), mas eles podem ter uma associação diferente. Eu prefiro o uso de funções do Azure AD. Cada grupo de funções consiste em uma ou mais "funções" (veja o que quero dizer sobre reutilização da mesma palavra?) e têm membros do Azure AD, que são objetos habilitados para email. Além disso, você pode criar um grupo de funções com o mesmo nome de uma função, que pode ou não conter essa função (evitar essa confusão).
 
 De certa forma, eles são uma evolução do modelo de grupos de função do Exchange. No entanto, o Exchange Online tem sua própria interface [de gerenciamento de grupo de](/exchange/permissions-exo) funções. Alguns grupos de função no Exchange Online são bloqueados e gerenciados do Azure AD ou do Centro de Conformidade do & segurança, mas outros podem ter os mesmos nomes ou nomes semelhantes e são gerenciados no Exchange Online (adicionando à confusão). Eu recomenda que você evite usar a interface do usuário do Exchange Online, a menos que você precise de escopos para gerenciamento do Exchange.
 
@@ -262,7 +262,7 @@ Como dito anteriormente, muitos clientes estão procurando obter um modelo de de
 Observação: a segurança e a delegação da plataforma de dados (que o Power BI é um componente) é uma área complexa.
 - **MEM/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](/mem/intune/fundamentals/role-based-access-control)
 - **Microsoft Defender para Ponto de Extremidade**  -  [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles](/windows/security/threat-protection/microsoft-defender-atp/user-roles)
-- **Microsoft 365 Defender** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](../security/mtp/mtp-permissions.md)
+- **Microsoft 365 Defender** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](../security/defender/m365d-permissions.md)
 - **Microsoft Cloud App Security** - [https://docs.microsoft.com/cloud-app-security/manage-admins](/cloud-app-security/manage-admins)
 - **Stream**  -  [https://docs.microsoft.com/stream/assign-administrator-user-role](/stream/assign-administrator-user-role)
 - **Barreiras de informações**  -  [https://docs.microsoft.com/microsoft-365/compliance/information-barriers](../compliance/information-barriers.md)
@@ -296,7 +296,7 @@ Combinar todos os logs em um local de armazenamento inclui benefícios adicionai
 
 Os logs não têm que ser direcionados apenas para um local. Também pode ser útil integrar logs do [Office 365](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) com o Microsoft Cloud App Security ou um modelo RBAC personalizado no [Power BI](../admin/usage-analytics/usage-analytics.md?view=o365-worldwide). Repositórios diferentes têm diferentes benefícios e audiências.
 
-Vale a pena mencionar que há um sistema de análise integrado muito rico para segurança, ameaças, vulnerabilidades e assim por diante em um serviço chamado [Microsoft 365 Defender](../security/mtp/microsoft-threat-protection.md?view=o365-worldwide).
+Vale a pena mencionar que há um sistema de análise integrado muito rico para segurança, ameaças, vulnerabilidades e assim por diante em um serviço chamado [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md?view=o365-worldwide).
 
 Muitos clientes grandes querem transferir esses dados de log para um sistema de terceiros (por exemplo, SIEM). Há diferentes abordagens para isso, mas, em geral, o Hub de Eventos do [Azure](/azure/azure-monitor/platform/stream-monitoring-data-event-hubs) [e o Graph](/graph/security-integration) são bons pontos de partida.
 

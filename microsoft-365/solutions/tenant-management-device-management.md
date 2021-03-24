@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Implante a opção correta para gerenciamento de dispositivos e aplicativos para seus locatários do Microsoft 365.
-ms.openlocfilehash: 994ab7d21ae70307fa78e1f7249d39ac314a7358
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0351f6be3f191e1a131da5b0b665a205a0abda8c
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904607"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050989"
 ---
 # <a name="step-5-device-and-app-management-for-your-microsoft-365-for-enterprise-tenants"></a>Etapa 5. Gerenciamento de dispositivos e aplicativos para seus locatários do Microsoft 365 para empresas
 
@@ -48,7 +48,7 @@ Você também determinará como gerenciar dispositivos pessoais e dispositivos d
 
 ## <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
-A Microsoft fornece um conjunto de configurações para acesso a identidades e [dispositivos](../security/office-365-security/microsoft-365-policies-configurations.md) para garantir uma força de trabalho segura e produtiva. Essas configurações incluem o uso de:
+A Microsoft fornece um conjunto de configurações para acesso a identidades e [dispositivos](../security/defender-365-security/microsoft-365-policies-configurations.md) para garantir uma força de trabalho segura e produtiva. Essas configurações incluem o uso de:
 
 - Políticas de Acesso Condicional do Azure AD
 - Políticas de conformidade e proteção de aplicativos do Microsoft Intune
@@ -61,8 +61,8 @@ Aqui está um exemplo da aplicação dessas configurações e políticas para va
 
 Para acesso a dispositivos e gerenciamento de aplicativos, use as configurações nestes artigos:
 
-- [Pré-requisitos](../security/office-365-security/identity-access-prerequisites.md)
-- [Identidade comum e políticas de acesso ao dispositivo](../security/office-365-security/identity-access-policies.md)
+- [Pré-requisitos](../security/defender-365-security/identity-access-prerequisites.md)
+- [Identidade comum e políticas de acesso ao dispositivo](../security/defender-365-security/identity-access-policies.md)
 
 ## <a name="results-of-step-5"></a>Resultados da Etapa 5
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: 2ecd8e0458f6ebef9ebd1b0c3724195cc70f6378
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7c9b770c712d2468369482ba3a6256e57f621f74
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51042681"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -60,8 +60,8 @@ Veja como a Contoso Corporation usou uma equipe isolada para um projeto ultrasse
 ## <a name="initial-protections"></a>Proteções iniciais
 
 Para ajudar a proteger o acesso à equipe e ao site subjacente do Microsoft Office SharePoint Online, revise as seguintes práticas recomendadas:
-- [Políticas de acesso de dispositivos e identidades](../security/office-365-security/identity-access-policies.md)
-- [Políticas de acesso do SharePoint Online](../security/office-365-security/sharepoint-file-access-policies.md)
+- [Políticas de acesso de dispositivos e identidades](../security/defender-365-security/identity-access-policies.md)
+- [Políticas de acesso do SharePoint Online](../security/defender-365-security/sharepoint-file-access-policies.md)
 - [Implantar equipes com proteção de linha de base](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>Compartilhamento de convidados

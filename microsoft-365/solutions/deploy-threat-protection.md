@@ -16,18 +16,18 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 3156e6bc7715db9847b295add7850dcbd0ff6642
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b5dba3aa5db6a687a195f866d1cabe1138f9aa66
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918401"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050893"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Implantar recursos de proteção contra ameaças no Microsoft 365
 
 [Malware](/windows/security/threat-protection/intelligence/understanding-malware)e ataques cibernéticos sofisticados, como ameaças [sem arquivo,](/windows/security/threat-protection/intelligence/fileless-threats)são uma ocorrência comum. As empresas precisam proteger a si mesmos e seus clientes com recursos eficazes de segurança de IT. Os ataques cibernéticos podem causar grandes problemas para sua organização, desde perda de confiança até problemas financeiros, tempo de inatividade que ameaçam os negócios e muito mais. Proteger contra ameaças é importante, mas pode ser um desafio determinar onde concentrar o tempo, o esforço e os recursos da sua organização. 
 
-As soluções de segurança da Microsoft são integradas aos nossos produtos e serviços. Os recursos de automação e aprendizado de máquina reduzem a carga em suas equipes de segurança para garantir que os itens certos sejam abordados. E a força das soluções de segurança da Microsoft é construída em trilhões de sinais que processam todos os dias em nosso [Gráfico de Segurança Inteligente.](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph) As soluções de segurança do Microsoft 365 incluem o [Microsoft 365 Defender](../security/mtp/microsoft-threat-protection.md), uma solução que reúne sinais em seus emails, dados, dispositivos e identidades para pintar uma imagem de ameaças avançadas contra sua organização.
+As soluções de segurança da Microsoft são integradas aos nossos produtos e serviços. Os recursos de automação e aprendizado de máquina reduzem a carga em suas equipes de segurança para garantir que os itens certos sejam abordados. E a força das soluções de segurança da Microsoft é construída em trilhões de sinais que processam todos os dias em nosso [Gráfico de Segurança Inteligente.](https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph) As soluções de segurança do Microsoft 365 incluem o [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md), uma solução que reúne sinais em seus emails, dados, dispositivos e identidades para pintar uma imagem de ameaças avançadas contra sua organização.
 
 
 Assista a esse vídeo para obter uma visão geral do processo de implementação.
@@ -55,8 +55,8 @@ A ilustração a seguir mostra um caminho recomendado para implantar esses recur
 |Solução/recursos  |Descrição  |
 |---------|---------|
 |Autenticação multifacional e Acesso Condicional     |Proteger contra identidades e dispositivos comprometidos. Comece com essa proteção porque ela é fundamental. A configuração recomendada nesta orientação inclui a Proteção de Identidade do Azure AD como um pré-requisito.     |
-|O que é o Microsoft Defender para Identidade?     |  Uma solução de segurança baseada em nuvem que aproveita seus sinais locais do AD DS (Serviços de Domínio do Active Directory) para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização. Concentre-se no Microsoft Defender for Identity em seguida porque protege sua infraestrutura local e de nuvem, não tem dependências ou pré-requisitos e pode fornecer benefícios imediatos de segurança. | 
-|Obter o Microsoft Defender para Office 365     | Protege sua organização contra ameaças mal-intencionadas colocadas por mensagens de email, links (URLs) e ferramentas de colaboração. Proteções para malware, phishing, spoofing e outros tipos de ataque. A configuração do Microsoft Defender para Office 365 é recomendada em seguida, pois alterar o controle, migrar configurações do sistema em questão e outras considerações pode levar mais tempo para implantar. <br><br>Observação: configure os recursos de proteção contra ameaças incluídos em todas as assinaturas do Office 365 (Proteção do Exchange Online).       |
+|Microsoft Defender para Identidade?     |  Uma solução de segurança baseada em nuvem que aproveita seus sinais locais do AD DS (Serviços de Domínio do Active Directory) para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização. Concentre-se no Microsoft Defender for Identity em seguida porque protege sua infraestrutura local e de nuvem, não tem dependências ou pré-requisitos e pode fornecer benefícios imediatos de segurança. | 
+|Microsoft Defender para Office 365     | Protege sua organização contra ameaças mal-intencionadas colocadas por mensagens de email, links (URLs) e ferramentas de colaboração. Proteções para malware, phishing, spoofing e outros tipos de ataque. A configuração do Microsoft Defender para Office 365 é recomendada em seguida, pois alterar o controle, migrar configurações do sistema em questão e outras considerações pode levar mais tempo para implantar. <br><br>Observação: configure os recursos de proteção contra ameaças incluídos em todas as assinaturas do Office 365 (Proteção do Exchange Online).       |
 |Microsoft Defender para Ponto de Extremidade    | Uma plataforma de proteção de ponto de extremidade que ajuda a evitar, detectar, investigar e responder a ameaças avançadas.  O Defender para Ponto de Extremidade pode levar algum tempo para implantar, mas a configuração pode ser feita em paralelo com outros recursos.   |
 |Microsoft Cloud App Security     |   Um agente de segurança de acesso à nuvem para descoberta, investigação e governança. Você pode habilitar o Microsoft Cloud App Security mais cedo para começar a coletar dados e insights. Implementar informações e outra proteção direcionada em seus aplicativos SaaS envolve planejamento e pode levar mais tempo.       | 
 
