@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 07f3d268da44f92ea665e5a1751cad9acf70dfc1
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: a483f0d60d54e1436738d44f95bfed3524968d18
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50915405"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51050697"
 landingContent:
 - title: Monitorar o status do nosso serviço
   linkLists:
@@ -69,7 +69,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: Documentação de administração do Microsoft Teams
-      url: /microsoftteams/
+      url: https://docs.microsoft.com/microsoftteams/
     - text: Usar o Outlook e o Teams juntos
       url: https://support.microsoft.com/office/9bc459c4-ce13-479b-b88b-b8ae49092732
   - linkListType: learn

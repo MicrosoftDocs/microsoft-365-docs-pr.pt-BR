@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Use eDiscovery e ferramentas de pesquisa para gerenciar e responder a um incidente de vazamento de dados em sua organização.
-ms.openlocfilehash: 9ca637dcd3b4b07846d977d64f535b7b5319d884
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: da473fcdf553176d3c6d4dfa2a4c4b17b2bcce03
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925677"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051973"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>Série de soluções de Descoberta eDiscovery: Cenário de vazamento de dados - Pesquisa e limpeza
 
@@ -121,7 +121,7 @@ Para investigar ainda mais se o email com dados espalhados foi compartilhado, vo
   
 Você pode usar rastreamento de mensagem no centro de conformidade e segurança ou usar os cmdlets correspondentes no PowerShell do Exchange Online. É importante observar que o rastreamento de mensagens não oferece garantias completas sobre a totalidade dos dados retornados. Para obter mais informações sobre como usar rastreamento de mensagens, consulte: 
   
-- [Rastreamento de mensagens no Centro de Conformidade e Segurança](../security/office-365-security/message-trace-scc.md)
+- [Rastreamento de mensagens no Centro de Conformidade e Segurança](../security/defender-365-security/message-trace-scc.md)
     
 - [Novo Rastreamento de Mensagens no Centro de Conformidade & Segurança](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
     

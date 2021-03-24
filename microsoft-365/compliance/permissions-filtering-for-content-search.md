@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: Use a filtragem de permissões de Pesquisa de Conteúdo para permitir que um gerente de Descoberta Eletrônico pesquise apenas um subconjunto de caixas de correio e sites em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be1daa4785f67ef54f107319bf88438c134896ec
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 78d36ccd602ea546099e768d7e91594a668df586
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927979"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051723"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>Configurar permissões de filtragem para a Pesquisa de Conteúdo
 
@@ -45,7 +45,7 @@ A filtragem de permissões de pesquisa é suportada pelo recurso Pesquisa de Con
 
 ## <a name="requirements-to-configure-permissions-filtering"></a>Requisitos para configurar a filtragem de permissões
 
-- Para executar os cmdlets de filtro de segurança de conformidade, você precisa ser membro do grupo de função Gerenciamento da Organização no Centro de Conformidade & Segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
+- Para executar os cmdlets de filtro de segurança de conformidade, você precisa ser membro do grupo de função Gerenciamento da Organização no Centro de Conformidade & Segurança. Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md).
 
 - Você precisa se conectar ao Exchange Online e ao Centro de Conformidade & PowerShell para usar os cmdlets de filtro de segurança de conformidade. Isso é necessário porque esses cmdlets exigem acesso às propriedades da caixa de correio, e é por isso que você precisa se conectar ao PowerShell do Exchange Online. Veja as etapas na próxima seção.
 

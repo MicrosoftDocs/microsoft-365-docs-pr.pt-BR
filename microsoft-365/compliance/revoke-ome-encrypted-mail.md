@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Como administrador e remetente de mensagem, você pode revogar determinados emails que foram criptografados com a Criptografia Avançada de Mensagens do Office 365.
-ms.openlocfilehash: b49915b6ef72d366a4b2718319150d2d5b640b9f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 340a9e73dba50e28223ee561db749a089c649df6
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917193"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051713"
 ---
 # <a name="revoke-email-encrypted-by-advanced-message-encryption"></a>Revogar emails criptografados pela Criptografia Avançada de Mensagens
 
@@ -91,7 +91,7 @@ Há várias maneiras de encontrar a ID da mensagem do email que você deseja rev
 
 #### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-office-message-encryption-reports-in-the-security-amp-compliance-center"></a>Para identificar a ID da mensagem do email que você deseja revogar usando relatórios de Criptografia de Mensagens do Office no Centro &amp; de Conformidade de Segurança
 
-1. No Centro de &amp; Conformidade de Segurança, navegue até o **relatório de criptografia de mensagem**. Para obter informações sobre este relatório, consulte [Exibir relatórios de segurança de email no Centro de Conformidade de &amp; Segurança.](../security/office-365-security/view-email-security-reports.md)
+1. No Centro de &amp; Conformidade de Segurança, navegue até o **relatório de criptografia de mensagem**. Para obter informações sobre este relatório, consulte [Exibir relatórios de segurança de email no Centro de Conformidade de &amp; Segurança.](../security/defender-365-security/view-email-security-reports.md)
 
 2. Escolha a **tabela Exibir detalhes** e identifique a mensagem que você deseja revogar.
 

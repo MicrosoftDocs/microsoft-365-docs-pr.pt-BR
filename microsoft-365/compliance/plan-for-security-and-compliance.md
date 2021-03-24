@@ -17,12 +17,12 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Esta página inicial fornece links e informações de planejamento para segurança e conformidade no Office 365.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f050d8bb7052ec2f62a9e33c35bcbe43546a40c2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 90f4083bdf38f4b1390ee31d0853ad65e3fe236f
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927957"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051703"
 ---
 # <a name="plan-for-security-amp-compliance"></a>Planejar a conformidade com &amp; a segurança
 
@@ -38,7 +38,7 @@ Oriente-se para os recursos de proteção de informações no cartaz proteção 
 
 Depois de configurar sua assinatura do Microsoft 365, anote sua pontuação inicial. A Pontuação Segura fornece sugestões de configuração que você pode fazer para aumentar sua pontuação. O objetivo é estar ciente das oportunidades que você pode aproveitar para proteger seu ambiente, o que não afetará negativamente a produtividade de seus usuários.
   
-- [Apresentando a Pontuação Segura do Office 365](../security/mtp/microsoft-secure-score.md)
+- [Apresentando a Pontuação Segura do Office 365](../security/defender/microsoft-secure-score.md)
     
 ## <a name="step-3-plan-access-protection-for-identity-and-devices"></a>Etapa 3: Planejar a proteção de acesso para identidade e dispositivos
 
@@ -46,7 +46,7 @@ Proteger o acesso aos seus dados e serviços do Microsoft 365 é fundamental par
   
 - [Proteger o acesso a dados e serviços no Office 365](protect-access-to-data-and-services.md)
     
-- [Políticas e configurações de email seguros](../security/office-365-security/secure-email-recommended-policies.md)
+- [Políticas e configurações de email seguros](../security/defender-365-security/secure-email-recommended-policies.md)
     
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [Mais idiomas](https://www.microsoft.com/download/details.aspx?id=55032)
   
@@ -62,15 +62,15 @@ O Centro de Conformidade de Segurança fornece uma única exibição sobre os co
   
 - [Vá para o Centro &amp; de Conformidade de Segurança](./microsoft-365-compliance-center.md)
     
-- [Permissões no Centro de &amp; Conformidade de Segurança](~/security/office-365-security/protect-against-threats.md)
+- [Permissões no Centro de &amp; Conformidade de Segurança](~/security/defender-365-security/protect-against-threats.md)
     
-- [Dar aos usuários acesso ao Centro &amp; de Conformidade e Segurança](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [Dar aos usuários acesso ao Centro &amp; de Conformidade e Segurança](~/security/defender-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>Etapa 6: usar cenários de segurança de ponta a ponta como pontos de partida
 
 Use essas configurações recomendadas como ponto de partida para cenários de segurança de acesso sofisticados ou de escala corporativa.
   
-- [Políticas e configurações de email seguros](../security/office-365-security/secure-email-recommended-policies.md)
+- [Políticas e configurações de email seguros](../security/defender-365-security/secure-email-recommended-policies.md)
     
 - [Contoso no Microsoft Cloud](../enterprise/contoso-case-study.md)
     

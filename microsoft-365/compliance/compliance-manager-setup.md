@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: De definir permissões e funções de usuário do Microsoft Compliance Manager e configurar testes automatizados de ações. Gerencie o histórico do usuário e filtre o seu painel de exibição.
-ms.openlocfilehash: d8eb1d7d8245aa31cb5429452128cedc0adf4684
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 08a62a12e5f412781595ba7d54c3b63a03ae19aa
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925699"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052129"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
@@ -72,7 +72,7 @@ Para definir permissões e atribuir funções no Centro de Conformidade e Segura
 
 ##### <a name="more-about-the-office-365-security--compliance-center"></a>Mais sobre o Centro de Conformidade e Segurança & do Office 365
 
-Saiba mais sobre permissões no Centro de Conformidade e Segurança [& do Office 365.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
+Saiba mais sobre permissões no Centro de Conformidade e Segurança [& do Office 365.](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)
 
 Se você não tiver acesso ao Centro de Conformidade e Segurança do Office 365 ou se precisar acessar a versão clássica do Gerenciador de Conformidade no Portal de Confiança do Serviço Microsoft, as configurações do Administrador no Portal de Confiança de Serviço fornece outra maneira de atribuir funções ([instruções](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users)de exibição ). Esteja ciente de que essas funções são mais limitadas em sua funcionalidade.
 
@@ -104,7 +104,7 @@ As configurações do Gerenciador de Conformidade no centro de conformidade do M
 
 ### <a name="set-up-automated-testing"></a>Configurar testes automatizados
 
-Algumas ações de melhoria no Gerenciador de Conformidade também são monitoradas pela [Pontuação Segura da Microsoft.](../security/mtp/microsoft-secure-score.md) Você pode configurar testes automatizados de ações que são monitoradas em conjunto, o que significa que, quando uma ação é testada e atualizada na Pontuação Segura, esses resultados sincronizam com as mesmas ações no Gerenciador de Conformidade e contam para sua pontuação de conformidade.
+Algumas ações de melhoria no Gerenciador de Conformidade também são monitoradas pela [Pontuação Segura da Microsoft.](../security/defender/microsoft-secure-score.md) Você pode configurar testes automatizados de ações que são monitoradas em conjunto, o que significa que, quando uma ação é testada e atualizada na Pontuação Segura, esses resultados sincronizam com as mesmas ações no Gerenciador de Conformidade e contam para sua pontuação de conformidade.
 
 O teste automático é ligado por padrão para organizações novas para o Gerenciador de Conformidade. Quando você implanta o Microsoft 365 ou o Office 365 pela primeira vez, leva aproximadamente sete dias para a Pontuação Segura coletar totalmente os dados e fatorá-los em sua pontuação de conformidade.  Quando o teste automatizado estiver ligado, a data de teste da ação não será atualizada, mas seu status de teste será atualizado. Quando novas avaliações são criadas, as pontuações incluem automaticamente pontuações de controle da Microsoft e integração com a Pontuação Segura.
 

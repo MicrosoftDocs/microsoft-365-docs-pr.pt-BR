@@ -12,12 +12,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 9364b8b46e413d675876a41bd775b063e0a2fafb
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: 19e501ff95b32841cab53bff4ef2d1b69d0bd433
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50913265"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51050825"
 productDirectory:
   title: Trabalho remoto seguro com o Microsoft 365 Business Premium
   items:
@@ -109,7 +109,7 @@ conceptualContent:
       text: Ver mais
   - title: Gerenciar ameaças
     links:
-    - url: ../security/office-365-security/office-365-atp.md
+    - url: ../security/defender-365-security/defender-for-office-365.md
       itemType: overview
       text: Proteção Avançada contra Ameaças
     - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
@@ -169,7 +169,7 @@ conceptualContent:
       text: Ver mais
   - title: Monitorar a segurança
     links:
-    - url: ../security/mtp/microsoft-secure-score.md
+    - url: ../security/defender/microsoft-secure-score.md
       itemType: how-to-guide
       text: Classificação de segurança
     - url: /intune/apps/app-protection-policies-monitor

@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar rapidamente com a conformidade no Microsoft 365.
-ms.openlocfilehash: 69aef07e65f5644f9aa294025c8388410f160243
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b8a6f98a38dcb6096287cbc2389648c0e7457e5c
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908581"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052099"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
 
@@ -34,7 +34,7 @@ Depois de concluir essas tarefas básicas de conformidade, considere expandir a 
 
 Comece atribuindo permissões de conformidade às pessoas em sua organização para que possam executar essas tarefas e impedir que pessoas não autorizadas tenham acesso a áreas fora de suas responsabilidades. Certifique-se de que as pessoas adequadas foram atribuídas ao administrador  de dados de Conformidade e às funções de administrador de Conformidade antes de começar a configurar e implementar soluções de conformidade incluídas no Microsoft 365.  Você também precisará atribuir usuários à função de leitor global do Azure Active Directory para exibir dados no Gerenciador de Conformidade.
 
-Para obter orientações passo a passo para configurar permissões e atribuir pessoas a funções de administrador, consulte [Permissions in the Security & Compliance Center](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
+Para obter orientações passo a passo para configurar permissões e atribuir pessoas a funções de administrador, consulte [Permissions in the Security & Compliance Center](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="task-2-know-your-state-of-compliance"></a>Tarefa 2: Conheça seu estado de conformidade
 
@@ -47,9 +47,9 @@ Para obter orientações passo a passo para começar a trabalhar com o Gerenciad
 >[!IMPORTANT]
 >A segurança e a conformidade são fortemente integradas para a maioria das organizações. É importante que sua organização aborda as áreas básicas de segurança, proteção contra ameaças e gerenciamento de identidade e acesso para ajudar a fornecer uma abordagem aprofundada de defesa à segurança e à conformidade.
 >
->Verifique sua Pontuação Segura do [Microsoft 365](../security/mtp/microsoft-secure-score.md) no centro de segurança do Microsoft 365 e concluindo as tarefas descritas nos seguintes artigos:
+>Verifique sua Pontuação Segura do [Microsoft 365](../security/defender/microsoft-secure-score.md) no centro de segurança do Microsoft 365 e concluindo as tarefas descritas nos seguintes artigos:
 >
-> - [Roteiro de segurança - Principais prioridades para os primeiros 30 dias, 90 dias e além](../security/office-365-security/security-roadmap.md)
+> - [Roteiro de segurança - Principais prioridades para os primeiros 30 dias, 90 dias e além](../security/defender-365-security/security-roadmap.md)
 > - [Principais 12 tarefas para equipes de segurança para dar suporte ao trabalho em casa](../security/top-security-tasks-for-remote-work.md)
 
 ## <a name="task-3-enable-auditing-for-your-organization"></a>Tarefa 3: Habilitar a auditoria para sua organização
@@ -84,7 +84,7 @@ Quando o conteúdo está sujeito a uma política de retenção, as pessoas podem
 
 Você pode colocar rapidamente uma política de retenção em vários locais em seu ambiente do Microsoft 365, como email do Exchange, sites do SharePoint, contas do OneDrive e grupos do Microsoft 365. Não há limites para o número de caixas de correio ou sites que essa política pode incluir automaticamente. Mas, se precisar ser mais seletivo, você pode fazer isso configurando uma política de retenção para locais específicos e incluir ou excluir sites ou usuários.
 
-Para obter orientações passo a passo para configurar uma política de retenção, consulte [Create and configure retention policies](create-retention-policies.md). Se você é novo na configuração de retenção no Microsoft 365, consulte [Iniciar com políticas de retenção e rótulos de retenção](get-started-with-retention.md).
+Para obter orientações passo a passo para configurar uma política de retenção, consulte [Create and configure retention policies](create-retention-policies.md). Se você é novo na configuração de retenção no Microsoft 365, consulte [Começar com políticas e rótulos de retenção](get-started-with-retention.md).
 
 ## <a name="task-7-configure-sensitive-information-and-offensive-language-policies"></a>Tarefa 7: Configurar informações confidenciais e políticas de idioma ofensivo
 
@@ -100,7 +100,7 @@ Para obter orientações passo a passo para planejar e configurar a conformidade
 
 Rótulos de sensibilidade, tipos de informações confidenciais, rótulos e políticas de retenção e classificadores de treinamento podem ser usados para classificar e rotular itens confidenciais no Exchange, no SharePoint e no OneDrive, como você viu nas tarefas anteriores. A última etapa em sua jornada rápida de tarefas é ver quais itens foram rotulados e quais ações seus usuários estão fazendo nesses itens confidenciais. [O explorador de](data-classification-content-explorer.md) conteúdo [e o explorador](data-classification-activity-explorer.md) de atividades fornecem essa visibilidade.
 
-### <a name="content-explorer"></a>Explorador de conteúdo
+### <a name="content-explorer"></a>Explorador de conteúdos
  O explorador de conteúdo permite que você veja, no formato nativo, todos os itens que foram classificados como um tipo de informação confidencial ou pertencentes a uma determinada classificação por um classificador treinável, bem como todos os itens que tenham confidencialidade ou rótulo de retenção aplicados.
 
 Para obter orientações passo a passo sobre como usar o explorador de conteúdo, consulte Know your [data - data classification overview](data-classification-overview.md), and Get started with content [explorer](data-classification-content-explorer.md).
@@ -146,7 +146,7 @@ Defina tipos de informações confidenciais com base no padrão contido nas info
 
 Para obter orientações passo a passo para definir tipos de informações confidenciais personalizados, consulte Create a custom sensitive information [type in the Security & Compliance Center](./create-a-custom-sensitive-information-type.md).
 
-### <a name="prevent-data-loss"></a>Evita a perda de dados
+### <a name="prevent-data-loss"></a>Evitar a perda de dados
 
 As políticas de prevenção contra perda de dados [(DLP)](data-loss-prevention-policies.md) permitem identificar, monitorar e proteger automaticamente informações confidenciais em sua organização do Microsoft 365. Use políticas de DLP para identificar itens confidenciais em todos os serviços da Microsoft, impedir o compartilhamento acidental de itens confidenciais e ajudar os usuários a aprender a manter a conformidade sem interromper o fluxo de trabalho.
 

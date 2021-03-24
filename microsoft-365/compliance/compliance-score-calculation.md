@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: Entenda como o Microsoft Compliance Manager calcula uma pontuação personalizada com base em ações tomadas para resolver riscos e melhorar sua postura de conformidade.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 75d340c31b4f5477df845531bfb933883f331198
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 756ce207b1e9583bf63f19351e85955950487404
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908571"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052109"
 ---
 # <a name="compliance-score-calculation"></a>Cálculo de pontuação de conformidade
 
@@ -61,7 +61,7 @@ Seu status de ação é atualizado no painel a cada 24 horas. Depois de seguir u
 
 Por exemplo, se você ativar a autenticação multifator (MFA) no portal do Azure AD, o Gerenciador de Conformidade detectará a configuração e a refletirá nos detalhes da solução de acesso ao controle. Por outro lado, se você não a ativar o MFA, o Gerenciador de Conformidade sinaliza como uma ação recomendada a ser tomada.
 
-Saiba mais sobre [a Pontuação Segura e como ela funciona.](../security/mtp/microsoft-secure-score.md)
+Saiba mais sobre [a Pontuação Segura e como ela funciona.](../security/defender/microsoft-secure-score.md)
   
 ## <a name="action-types-and-points"></a>Tipos e pontos de ação
 
@@ -96,7 +96,7 @@ As ações são atribuídas a um valor de pontuação com base em se elas são o
 
 ### <a name="mandatory-and-discretionary-actions"></a>Ações obrigatórias e discricionárias
 
- - **As ações obrigatórias** não podem ser ignoradas, intencionalmente ou acidentalmente. Um exemplo de uma ação obrigatória é uma política de senha gerenciada centralmente que define os requisitos de comprimento, complexidade e expiração da senha. Os usuários devem seguir esses requisitos para acessar o sistema.
+ - **As ações obrigatórias** não podem ser ignoradas, intencionalmente ou acidentalmente. Um exemplo de uma ação obrigatória é uma política de senha gerenciada centralmente que define os requisitos de comprimento, complexidade e expiração da senha. Os usuários devem seguir estes requisitos para acessar o sistema.
   
  - **As ações discricionárias** dependem dos usuários para entender e aderir a uma política. Por exemplo, uma política que exige que os usuários bloqueiem o computador quando o deixam é uma ação discricionária porque depende do usuário.
   

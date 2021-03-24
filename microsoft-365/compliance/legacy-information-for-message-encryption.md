@@ -18,18 +18,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Entenda como fazer a transição de arquivos herdados para o Office 365 Message Encryption (OME) para sua organização.
-ms.openlocfilehash: 0b9c32b8b30753b02a5a0cdaa40b644ca89cfba3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: eabf655b6fa92a6f502ebe1e071d41f394f78929
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905913"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51051823"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Informações herdadas de Criptografia de Mensagens do Office 365
 
 Se você ainda não moveu sua organização para os novos recursos OME, mas já implantou o OME, as informações neste artigo se aplicarão à sua organização. A Microsoft recomenda que você faça um plano para mover para os novos recursos OME assim que for razoável para sua organização. Para obter instruções, consulte Configurar novos recursos de Criptografia de Mensagens do Office 365 com base na Proteção de Informações [do Azure.](set-up-new-message-encryption-capabilities.md) Se você quiser saber mais sobre como os novos recursos funcionam primeiro, consulte Criptografia de Mensagem do [Office 365.](ome.md) O restante deste artigo refere-se ao comportamento OME antes da versão dos novos recursos OME.
   
-Com a Criptografia de Mensagens do Office 365, sua organização pode enviar e receber mensagens de email criptografadas entre pessoas dentro e fora da sua organização. A Criptografia de Mensagens do Office 365 funciona com Outlook.com, Yahoo, Gmail e outros serviços de email. A criptografia de mensagem de email ajuda a garantir que somente os destinatários pretendido possam exibir o conteúdo da mensagem.
+Com o Criptografia de Mensagens do Office 365, sua empresa pode enviar e receber mensagens criptografadas entre pessoas de dentro e de fora da sua organização. A Criptografia de Mensagens do Office 365 funciona com Outlook.com, Yahoo, Gmail e outros serviços de email. A criptografia de mensagem de email ajuda a garantir que somente os destinatários pretendido possam exibir o conteúdo da mensagem.
   
 Aqui estão alguns exemplos:
   
@@ -293,7 +293,7 @@ Quando uma resposta criptografada é enviada do portal de criptografia ou pelo a
   
  **P. Sou um assinante do Exchange Hosted Encryption (EHE). Onde posso saber mais sobre a atualização para a Criptografia de Mensagens do Office 365?**
   
-Todos os clientes do EHE foram atualizados para a Criptografia de Mensagens do Office 365. Para obter mais informações, visite o [Centro de Atualização de Criptografia Hospedado do Exchange](../security/office-365-security/exchange-online-protection-overview.md).
+Todos os clientes do EHE foram atualizados para a Criptografia de Mensagens do Office 365. Para obter mais informações, visite o [Centro de Atualização de Criptografia Hospedado do Exchange](../security/defender-365-security/exchange-online-protection-overview.md).
   
  **P. Preciso abrir URLs, endereços IP ou portas no firewall da minha organização para dar suporte à Criptografia de Mensagens do Office 365?**
   
