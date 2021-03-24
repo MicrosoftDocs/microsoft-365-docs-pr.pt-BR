@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41716fecd0c70c99fd61b090421cb3dc0277cb48
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 72b5422de2ee4b01e3209ec78ea0c10f1285d682
+ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919547"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51034190"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -63,7 +63,7 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | 2010+           | 16.42+     | 2.42+ | 16.0.13328+ | Em revisão |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21+     | 2.21+ | 16.0.11231+ | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | Em revisão   | Em revisão         | Em revisão                                                        |
+|[Permitir que usuários atribuam permissões: <br /> – Solicitar aos usuários](encryption-sensitivity-labels.md#let-users-assign-permissions)                     |2004+ | 16.35+   | Em revisão   | Em revisão         | Em revisão                                                        |
 |[Atividade do usuário relacionada a rótulos de auditoria](data-classification-activity-explorer.md)                      | 2011+ | 16.43+ | 2.46+ | Em implantação: 16.0.13628+ | Sim <sup>\*</sup>                                                        |
 |[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | 2101+             | Em implantação: 16.45+         | Visualização: [Canal Beta](https://office.com/insider) | Em implantação: 16.0.13628+ | Em revisão                                            
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                                  | Em implantação: 16.44+ | Em revisão | Em revisão | [Sim – aceitar](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -87,7 +87,8 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | Em revisão                     | Em revisão                 | Em revisão         | Em revisão           | Em revisão               |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
-|[Permitir que usuários atribuam permissões](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
+|[Permitir que usuários atribuam permissões: <br /> – Não Encaminhar](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
+|[Permitir que usuários atribuam permissões: <br /> – Criptografar Somente](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | Em revisão | Em revisão  | Em revisão | Em implantação |
 |[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Em implantação: 2101+                        | 16.43+ <sup>\*</sup>                    | Em revisão            | Em revisão                | Sim                |
 |[Atividade do usuário relacionada a rótulos de auditoria](data-classification-activity-explorer.md) | 2011+ | Em revisão | Em revisão           | Em revisão               | Em revisão |
 |[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | Em revisão           | Em revisão               | Sim |
@@ -135,7 +136,7 @@ Para Microsoft Word 2016, Excel 2016, PowerPoint 2016 e Outlook 2016, especifiqu
 Implemente este cenário usando a Política de Grupo ou usando o [Serviço de política de nuvem do Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
 
 > [!NOTE]
-> Se você usar a configuração de Política de Grupo **Usar o recurso Confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** e defini-la como **1**, haverá algumas situações em que o cliente da Proteção de Informações do Azure ainda pode ser carregado nos aplicativos do Office. Bloquear o carregamento do suplemento em cada aplicativo impede que isso aconteça.
+> Se você usar a configuração de Política de Grupo, **Usar o recurso Confidencialidade no Office para aplicar e exibir rótulos de confidencialidade** e defini-la como **1**, há algumas situações em que o cliente da Proteção de Informações do Azure ainda pode carregar nos aplicativos do Office. Bloquear o carregamento do suplemento em cada aplicativo impede que isso aconteça.
 
 Como alternativa, você pode desabilitar ou remover interativamente o suplemento do Office **Proteção de Informações do Microsoft Azure** do Word, Excel, PowerPoint e Outlook. Esse método é adequado para um único computador e para testes ad hoc. Para obter instruções, confira [Visualizar, gerenciar e instalar suplementos em programas do Office](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d). 
 
