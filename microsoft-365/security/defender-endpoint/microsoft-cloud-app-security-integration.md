@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 10/18/2018
 ms.technology: mde
-ms.openlocfilehash: 6ea885c17cf506ef6f9a4a7138630aed671f0ce8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d756c738f9f61638a9e7424aa3fdf639f8f02f2a
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053917"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185594"
 ---
 # <a name="microsoft-cloud-app-security-in-defender-for-endpoint-overview"></a>Visão geral do Microsoft Cloud App Security no Defender para Ponto de Extremidade
 
@@ -32,7 +32,7 @@ ms.locfileid: "51053917"
 [!include[Prerelease information](../../includes/prerelease.md)]
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 

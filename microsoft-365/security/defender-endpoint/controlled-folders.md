@@ -16,12 +16,12 @@ ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: ae50d53fbc9bf01d4cd16b939461eecc9ec1a568
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: cd662dc130adc37b3bf8bd06839242ccc9a49f8e
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165172"
+ms.locfileid: "51185964"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Proteger pastas importantes com acesso controlado a pastas
 
@@ -40,7 +40,7 @@ O acesso controlado a pastas ajuda a proteger seus dados valiosos contra aplicat
 > [!NOTE]
 > Os mecanismos de script não são confiáveis e você não pode permitir que eles acessem pastas protegidas controladas.  Por exemplo, o PowerShell não é confiável por acesso controlado a pastas, mesmo que você permita com indicadores [de certificado e arquivo.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/indicator-certificates) 
 
-O acesso controlado a pastas funciona melhor com o [Microsoft Defender para Ponto](microsoft-defender-advanced-threat-protection.md)de Extremidade , que fornece relatórios detalhados sobre eventos e blocos de acesso controlado a pastas como parte dos cenários de investigação de [alertas usuais.](investigate-alerts.md)
+O acesso controlado a pastas funciona melhor com o [Microsoft Defender para Ponto](microsoft-defender-endpoint.md)de Extremidade , que fornece relatórios detalhados sobre eventos e blocos de acesso controlado a pastas como parte dos cenários de investigação de [alertas usuais.](investigate-alerts.md)
 
 > [!TIP]
 > Os blocos de acesso controlados a pastas não geram alertas na fila [de alertas.](alerts-queue.md) No entanto, você pode exibir informações sobre blocos de acesso controlados a pastas no exibição de linha do tempo do dispositivo [,](investigate-machines.md)ao usar a busca avançada [ou](advanced-hunting-overview.md)com regras de detecção [personalizadas.](custom-detection-rules.md)

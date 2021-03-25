@@ -19,19 +19,19 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: e994069220d8f88f1b8910413ad86da399c4a8f3
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e79e558a7d256c46178e91b89bff27bfa6893ce9
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053407"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186708"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>Investigar uma conta de usuário no Microsoft Defender para Ponto de Extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
@@ -67,7 +67,7 @@ O  painel de detalhes do Usuário à esquerda fornece informações sobre o usu�
 
 A Visão Geral, Alertas e Observados na organização são guias diferentes que exibem vários atributos sobre a conta do usuário.
 
-### <a name="overview"></a>Visão geral
+### <a name="overview"></a>Visão Geral
 
 A **guia Visão** geral mostra os detalhes dos incidentes e uma lista dos dispositivos aos que o usuário fez logor. Você pode expandi-los para ver detalhes dos eventos de logoff para cada dispositivo.
 

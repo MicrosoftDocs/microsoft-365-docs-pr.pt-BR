@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: 6caa1cfe08a20aa824d85966c104a25988b8be53
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: af9e9315088a8dd5da9740b33135551d28664ed7
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165352"
+ms.locfileid: "51186108"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>Visite o Centro de Ações para ver ações de correção
 
@@ -46,14 +46,14 @@ A tabela a seguir compara o novo centro de ações unificado com o centro de aç
 
 |O novo centro de ações unificado  |O centro de ações anterior  |
 |---------|---------|
-|Lista ações pendentes e concluídas para dispositivos e emails em um único local <br/>([Microsoft Defender para Ponto de Extremidade mais](microsoft-defender-advanced-threat-protection.md) Microsoft Defender para Office [365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp))|Lista ações pendentes e concluídas para dispositivos <br/> ([Microsoft Defender somente para Ponto de](microsoft-defender-advanced-threat-protection.md) Extremidade)   |
+|Lista ações pendentes e concluídas para dispositivos e emails em um único local <br/>([Microsoft Defender para Ponto de Extremidade mais](microsoft-defender-endpoint.md) Microsoft Defender para Office [365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp))|Lista ações pendentes e concluídas para dispositivos <br/> ([Microsoft Defender somente para Ponto de](microsoft-defender-endpoint.md) Extremidade)   |
 |Está localizado em:<br/>[https://security.microsoft.com/action-center](https://security.microsoft.com/action-center)         |Está localizado em:<br/>[https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center)     |
 | No centro de segurança do Microsoft 365, escolha **Centro de ações**. <p>:::image type="content" source="images/action-center-nav-new.png" alt-text="Navegando até o Centro de Ações no centro de segurança do Microsoft 365"::: | No Centro de Segurança do Microsoft Defender, escolha **Centro de ações** de  >  **investigações automatizadas.** <p>:::image type="content" source="images/action-center-nav-old.png" alt-text="Navegando até o Centro de Ações do Centro de Segurança do Microsoft Defender":::  |
 
 O centro de ações unificado reúne ações de correção no Defender para Ponto de Extremidade e no Defender para Office 365. Ele define um idioma comum para todas as ações de correção e fornece uma experiência de investigação unificada. 
 
 Você pode usar o Centro de Ações unificado se tiver permissões apropriadas e uma ou mais das seguintes assinaturas:
-- [Defender para Ponto de Extremidade](microsoft-defender-advanced-threat-protection.md)
+- [Defender para Ponto de Extremidade](microsoft-defender-endpoint.md)
 - [O que é o Defender para Office 365?](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-atp)
 - [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 
 

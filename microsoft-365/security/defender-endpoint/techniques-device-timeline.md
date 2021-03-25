@@ -16,18 +16,18 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d6e2c18bd3710e659b5f9887844bc92528da4607
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6b080c209292c8cac1aa64d748926734f4be964c
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052859"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185462"
 ---
 # <a name="techniques-in-the-device-timeline"></a>Técnicas na linha do tempo do dispositivo
 
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 
 Você pode obter mais informações em uma investigação analisando os eventos que aconteceram em um dispositivo específico. Primeiro, selecione o dispositivo de interesse na lista [Dispositivos](machines-view-overview.md). Na página do dispositivo, você pode selecionar a guia **Linha** do Tempo para exibir todos os eventos que ocorreram no dispositivo.

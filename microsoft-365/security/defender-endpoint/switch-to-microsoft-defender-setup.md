@@ -21,17 +21,17 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 71428db81d5cd98e02cdb7c878c1f60562653ae3
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: fb6edf33b02671396fa4d078770d5b502e59d087
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052571"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185510"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 2: Instalação
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 |[![Fase 1: Preparar](images/phase-diagrams/prepare.png)](switch-to-microsoft-defender-prepare.md)<br/>[Fase 1: Preparar](switch-to-microsoft-defender-prepare.md) |![Fase 2: Configurar](images/phase-diagrams/setup.png)<br/>Fase 2: Configurar |[![Fase 3: Onboard3](images/phase-diagrams/onboard.png)](switch-to-microsoft-defender-onboard.md)<br/>[Fase 3: Onboard](switch-to-microsoft-defender-onboard.md) |
@@ -181,7 +181,7 @@ Você pode escolher entre vários métodos para adicionar suas exclusões ao Mic
 |Método | O que fazer|
 |--|--|
 |[Intune](https://docs.microsoft.com/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**OBSERVAÇÃO**: o Intune agora é o Microsoft Endpoint Manager. |1. Vá para o Centro de administração do [Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) e entre.<br/>2. Selecione **Perfis**  >  **de Configuração de** Dispositivos e selecione o perfil que você deseja configurar.<br/>3. Em **Gerenciar**, selecione **Propriedades**. <br/>4. Selecione **Configurações: Editar**.<br/>5. **Expanda o Microsoft Defender Antivírus** e expanda exclusões do **Microsoft Defender Antivírus.**<br/>6. Especifique os arquivos e pastas, extensões e processos a ser excluídos das verificações do Microsoft Defender Antivírus. Para referência, consulte [Exclusões do Microsoft Defender Antivírus](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus-exclusions).<br/>7. Escolha **Revisar + salvar** e, em seguida, escolha **Salvar**.  |
-|[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/) |1. Usando o console do [Configuration Manager,](https://docs.microsoft.com/mem/configmgr/core/servers/manage/admin-console)vá até **Ativos** e Políticas  >    >  **antimalware** de Proteção de Ponto de Extremidade de Conformidade e selecione a política que você deseja modificar. <br/>2. Especifique as configurações de exclusão para arquivos e pastas, extensões e processos a ser excluídos das verificações do Microsoft Defender Antivírus. |
+|[Gerenciador de Configuração do Microsoft Endpoint](https://docs.microsoft.com/mem/configmgr/) |1. Usando o console do [Configuration Manager,](https://docs.microsoft.com/mem/configmgr/core/servers/manage/admin-console)vá até **Ativos** e Políticas  >    >  **antimalware** de Proteção de Ponto de Extremidade de Conformidade e selecione a política que você deseja modificar. <br/>2. Especifique as configurações de exclusão para arquivos e pastas, extensões e processos a ser excluídos das verificações do Microsoft Defender Antivírus. |
 |[Objeto Group Policy](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-objects) | 1. No computador de gerenciamento de Política de Grupo, abra o Console de Gerenciamento de Política de [Grupo](https://technet.microsoft.com/library/cc731212.aspx), clique com o botão direito do mouse no Objeto de Política de Grupo que você deseja configurar e clique em **Editar**.<br/>2. No Editor de Gerenciamento de **Política de Grupo,** acesse **Configuração** do computador e clique em **Modelos Administrativos**.<br/>3. Expanda a árvore para **componentes do Windows > o Microsoft Defender Antivírus > Exclusões**.<br/>**OBSERVAÇÃO**: você pode ver *Windows Defender Antivírus* em vez *do Microsoft Defender Antivírus* em algumas versões do Windows.<br/>4. Clique duas vezes na **configuração Exclusões de** Caminho e adicione as exclusões.<br/>- Definir a opção como **Habilitado**.<br/>- Na seção **Opções,** clique em **Mostrar...**.<br/>- Especifique cada pasta em sua própria linha na **coluna Nome do** valor.<br/>- Se você especificar um arquivo, insira um caminho totalmente qualificado para o arquivo, incluindo a letra da unidade, o caminho da pasta, o nome do arquivo e a extensão. Insira **0** na coluna **Valor.**<br/>5. Clique em **OK**.<br/>6. Clique duas vezes na **configuração Exclusões de** Extensão e adicione as exclusões.<br/>- Definir a opção como **Habilitado**.<br/>- Na seção **Opções,** clique em **Mostrar...**.<br/>- Insira cada extensão de arquivo em sua própria linha na **coluna Nome do** valor.  Insira **0** na coluna **Valor.**<br/>7. Clique em **OK**. |
 |Objeto de política de grupo local |1. No ponto de extremidade ou dispositivo, abra o Editor de Política de Grupo Local. <br/>2. Vá para **Configuração do Computador**  >  **Modelos Administrativos**  >  **Componentes do Windows**  >  **Exclusões do Microsoft Defender**  >  **Antivírus**. <br/>**OBSERVAÇÃO**: você pode ver *Windows Defender Antivírus* em vez *do Microsoft Defender Antivírus* em algumas versões do Windows.<br/>3. Especifique seu caminho e exclusões de processo. |
 |Chave do Registro |1. Exporte a seguinte chave do Registro: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\exclusions` .<br/>2. Importe a chave do Registro. Aqui estão dois exemplos:<br/>- Caminho local: `regedit.exe /s c:\temp\ MDAV_Exclusion.reg` <br/>- Compartilhamento de rede: `regedit.exe /s \\FileServer\ShareName\MDAV_Exclusion.reg` |

@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas de serviço do Microsoft Defender para Pontos de Extremidade
-description: Encontre soluções e soluções para problemas conhecidos, como erros de servidor ao tentar acessar o serviço.
+description: Encontre soluções e soluções alternativas para problemas conhecidos, como erros de servidor ao tentar acessar o serviço.
 keywords: solucionar problemas do Microsoft Defender para ponto de extremidade, solucionar problemas do Windows ATP, erro de servidor, acesso negado, credenciais inválidas, sem dados, portal do painel, permitir, visualizador de eventos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: bd211a56ee9ed6aa871c8d55149247a4755bc863
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 112f682836da37ddfb51c103282518ff74563727
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053561"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186012"
 ---
 # <a name="troubleshoot-service-issues"></a>Solucionar problemas de serviço
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -41,7 +41,7 @@ Se você encontrar um erro de servidor ao tentar acessar o serviço, precisará 
 Configure seu navegador para permitir cookies.
 
 ## <a name="elements-or-data-missing-on-the-portal"></a>Elementos ou dados ausentes no portal
-Se alguns elementos da interface do usuário ou dados estão faltando no Centro de Segurança do Microsoft Defender, é possível que as configurações de proxy o bloqueem.
+Se alguns elementos ou dados estão faltando no Centro de Segurança do Microsoft Defender, é possível que as configurações de proxy o bloqueem.
 
 Certifique-se de `*.securitycenter.windows.com` que está incluída a lista de autorizações de proxy.
 
@@ -51,7 +51,7 @@ Certifique-se de `*.securitycenter.windows.com` que está incluída a lista de a
 
 ## <a name="microsoft-defender-for-endpoint-service-shows-event-or-error-logs-in-the-event-viewer"></a>O serviço do Microsoft Defender para Ponto de Extremidade mostra logs de evento ou erro no Visualizador de Eventos
 
-Consulte o tópico Revisar eventos e erros usando o [Visualizador](event-error-codes.md) de Eventos para uma lista de IDs de evento que são relatadas pelo serviço do Microsoft Defender para Ponto de Extremidade. O tópico também contém etapas de solução de problemas para erros de evento.
+Consulte [Review events and errors using Event Viewer](event-error-codes.md) for a list of event IDs that are reported by the Microsoft Defender for Endpoint service. O artigo também contém etapas de solução de problemas para erros de evento.
 
 ## <a name="microsoft-defender-for-endpoint-service-fails-to-start-after-a-reboot-and-shows-error-577"></a>O serviço do Microsoft Defender para Ponto de Extremidade falha ao iniciar após uma reinicialização e mostra o erro 577
 

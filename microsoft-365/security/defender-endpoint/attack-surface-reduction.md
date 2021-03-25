@@ -15,12 +15,12 @@ ms.reviewer: sugamar, jcedola
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: 2bd8442dd8e119a57c490773b6e01a7c5f7adcac
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 62f1f5f2d47482f642f00c870b3e0f3112f5f639
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054190"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185762"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Usar regras de redução de superfície de ataque para evitar infecção por malware
 
@@ -112,7 +112,7 @@ Você pode definir regras de redução de superfície de ataque para dispositivo
 - Windows Server, [versão 1803 (Canal Semesanuais)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) ou posterior
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
 
-Embora as regras de redução de superfície de ataque não exigem uma licença do [Windows E5](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses), se você tiver o Windows E5, você obterá recursos avançados de gerenciamento. Esses recursos disponíveis apenas no Windows E5 incluem monitoramento, análise e fluxos de trabalho disponíveis no [Defender para](microsoft-defender-advanced-threat-protection.md)Ponto de Extremidade, bem como recursos de relatórios e configuração no centro de segurança do [Microsoft 365.](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center) Esses recursos avançados não estão disponíveis com uma licença do Windows Professional ou do Windows E3; no entanto, se você tiver essas licenças, poderá usar logs do Visualizador de Eventos e do Microsoft Defender Antivírus para revisar seus eventos de regra de redução de superfície de ataque.
+Embora as regras de redução de superfície de ataque não exigem uma licença do [Windows E5](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses), se você tiver o Windows E5, você obterá recursos avançados de gerenciamento. Esses recursos disponíveis apenas no Windows E5 incluem monitoramento, análise e fluxos de trabalho disponíveis no [Defender para](microsoft-defender-endpoint.md)Ponto de Extremidade, bem como recursos de relatórios e configuração no centro de segurança do [Microsoft 365.](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center) Esses recursos avançados não estão disponíveis com uma licença do Windows Professional ou do Windows E3; no entanto, se você tiver essas licenças, poderá usar logs do Visualizador de Eventos e do Microsoft Defender Antivírus para revisar seus eventos de regra de redução de superfície de ataque.
 
 ## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>Revisar eventos de redução de superfície de ataque no Centro de Segurança do Microsoft Defender
 

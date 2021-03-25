@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: d0b7b600e0880bacda3588598387e5b1e8c82958
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 0902dce0af3c101cbaf7ff526beb71e9f46a1bf4
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052532"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51187512"
 ---
 # <a name="deploy-supported-services"></a>Implantar serviços com suporte
 
@@ -88,7 +88,7 @@ Depois de ter implantado os serviços com suporte, [acionar o Microsoft 365 Defe
 
 - [Visão geral do Microsoft 365 Defender](microsoft-365-defender.md)
 - [Ativar o Microsoft 365 Defender](m365d-enable.md)
-- [Visão geral do Microsoft Defender para Ponto de Extremidade](../defender-endpoint/microsoft-defender-advanced-threat-protection.md)
+- [Visão geral do Microsoft Defender para Ponto de Extremidade](../defender-endpoint/microsoft-defender-endpoint.md)
 - [Visão geral do Microsoft Defender para Office 365](../defender-365-security/defender-for-office-365.md)
 - [Visão geral do Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)
 - [Visão geral do Microsoft Defender para Identidade](/azure-advanced-threat-protection/what-is-atp)

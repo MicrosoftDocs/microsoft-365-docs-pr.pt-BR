@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8873177f13ebe8d60533877fa9b8dc0be96a66f9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8f5415b6337d21b780a75a192a565078a6cacc06
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054080"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185726"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Investigar dispositivos na lista do Microsoft Defender for Endpoint Devices
 
@@ -31,7 +31,7 @@ ms.locfileid: "51054080"
 
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigatemachines-abovefoldlink)
@@ -87,7 +87,7 @@ Para obter mais informações, consulte [Investigar entidades do usuário](inves
 
 As guias fornecem informações relevantes de prevenção de ameaças e segurança relacionadas ao dispositivo. Em cada guia, você pode personalizar as colunas mostradas selecionando **Personalizar colunas** da barra acima dos headers da coluna.
 
-### <a name="overview"></a>Visão geral
+### <a name="overview"></a>Visão Geral
 A **guia Visão** geral exibe os cartões [para](#cards) alertas ativos, conectados aos usuários e avaliação de segurança.
 
 ![Imagem da guia visão geral na página do dispositivo](images/overview-device.png)

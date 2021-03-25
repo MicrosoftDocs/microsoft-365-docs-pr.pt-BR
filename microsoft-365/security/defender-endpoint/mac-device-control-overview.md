@@ -18,19 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f2429002a10fd2d033530d75f261ffd04459c64f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 098eb30764870e69c5b1b6c2cec3cf8e5cb11691
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052935"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51186564"
 ---
 # <a name="device-control-for-macos"></a>Controle de dispositivo para macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
@@ -171,7 +171,7 @@ Essa configuração pode ser definida como:
 |||
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | permissão |
+| **Chave** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | nenhuma <br/> leitura <br/> gravação <br/> execute |
 
@@ -194,7 +194,7 @@ Para cada fornecedor, você pode especificar o nível de permissão desejado par
 |||
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | permissão |
+| **Chave** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 
@@ -211,7 +211,7 @@ Para cada produto, você pode especificar o nível de permissão desejado para e
 |||
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | permissão |
+| **Chave** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 
@@ -230,7 +230,7 @@ Para cada número de série, você pode especificar o nível de permissão desej
 |||
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | permissão |
+| **Chave** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 

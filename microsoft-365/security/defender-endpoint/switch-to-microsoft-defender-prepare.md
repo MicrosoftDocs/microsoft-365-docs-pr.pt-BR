@@ -21,17 +21,17 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: faaf8aefca7cb3b2e0583ed080e66f5129488d37
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d5339ce795bff1451d6f4caaf37de39f996890be
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054049"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51185522"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 1: Preparar
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 | ![Fase 1: Preparar](images/phase-diagrams/prepare.png)<br/>Fase 1: Preparar | [![Fase 2: Configurar](images/phase-diagrams/setup.png)](switch-to-microsoft-defender-setup.md)<br/>[Fase 2: Configurar](switch-to-microsoft-defender-setup.md) | [![Fase 3: Onboard](images/phase-diagrams/onboard.png)](switch-to-microsoft-defender-onboard.md)<br/>[Fase 3: Onboard](switch-to-microsoft-defender-onboard.md) |
@@ -60,7 +60,7 @@ Precisa de ajuda? Consulte a documentação do provedor de soluções.
 
 Precisa de ajuda para atualizar os dispositivos da sua organização? Consulte os seguintes recursos:
 
-|SISTEMA OPERACIONAL | Resource |
+|SISTEMA OPERACIONAL | Recurso |
 |:--|:--|
 |Windows |[Microsoft Update](https://www.update.microsoft.com) |
 |macOS | [Como atualizar o software em seu Mac](https://support.apple.com/HT201541)|
