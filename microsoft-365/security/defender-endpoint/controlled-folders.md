@@ -16,12 +16,13 @@ ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: cd662dc130adc37b3bf8bd06839242ccc9a49f8e
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.topic: how-to
+ms.openlocfilehash: b937dd41f0296f2cf4102f41f8ab10bd55e1c35d
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185964"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200276"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Proteger pastas importantes com acesso controlado a pastas
 
