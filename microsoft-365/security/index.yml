@@ -3,7 +3,7 @@ title: Documentação do Centro de segurança do Microsoft 365
 summary: Saiba mais sobre as soluções e os serviços robustos de segurança do Microsoft 365 Security, para que você possa proteger melhor sua organização em superfícies de ataque.
 metadata:
   title: Documentação do Centro de segurança do Microsoft 365
-  description: Saiba mais sobre as soluções e os serviços robustos de segurança do Microsoft 365 Security, para que você possa proteger melhor sua organização em superfícies de ataque
+  description: Saiba mais sobre o Microsoft Defender para Ponto de Extremidade - como ele protege os pontos de extremidade contra ameaças cibernéticas e fornece às equipes de operação de segurança os recursos para corrigir ameaças.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -11,34 +11,34 @@ metadata:
   ms.collection: m365-security-compliance
   author: mjcaparas
   ms.author: macapara
-  ms.date: 09/13/2019
+  ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: 6a670287c98d185e4b9acfeb39715c5e1ddf177a
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: 7d8ccae1b9185beacef027e6e0c73db2a1fdd017
+  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50928971"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51052405"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
   - linkListType: overview
     links:
     - text: O que é o Microsoft 365 Defender?
-      url: mtp/microsoft-threat-protection.md
+      url: defender/microsoft-365-defender.md
     - text: Centro de segurança do Microsoft 365
-      url: mtp/overview-security-center.md
+      url: defender/overview-security-center.md
 - title: Comece com avaliações gratuitas
   linkLists:
-  - linkListType: overview
+  - linkListType: get-started
     links:
     - text: Microsoft 365 Defender
-      url: mtp/mtp-evaluation.md
+      url: defender/m365d-evaluation.md
     - text: Guia estratégico do piloto do Microsoft 365 Defender
-      url: mtp/mtp-pilot.md
+      url: defender/m365d-pilot.md
 - title: Proteja sua força de trabalho remota
   linkLists:
-  - linkListType: get-started
+  - linkListType: how-to-guide
     links:
     - text: Proteja sua força de trabalho remota
       url: /enterprise-mobility-security/remote-work/
@@ -55,10 +55,10 @@ landingContent:
   - linkListType: overview
     links:
     - text: O que é o Defender para Office 365?
-      url: office-365-security/office-365-atp.md
+      url: defender-365-security/defender-for-office-365.md
     - text: Descrição do serviço do Defender para Office 365
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
-- title: Defender para Ponto de Extremidade
+- title: Microsoft Defender para Ponto de Extremidade
   linkLists:
   - linkListType: overview
     links:
@@ -87,7 +87,7 @@ landingContent:
   - linkListType: overview
     links:
     - text: Classificação de segurança
-      url: mtp/microsoft-secure-score.md
+      url: defender/microsoft-secure-score.md
 - title: Azure Sentinel
   linkLists:
   - linkListType: overview
