@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Exibir o status de saúde dos serviços do Microsoft 365 antes de chamar o suporte para ver se há uma interrupção ativa do serviço.
-ms.openlocfilehash: 3802ca01902d5b0d457d2a3d75b784d38f71bd42
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 30b677a80e5a08d75534a91aa04d735443660f18
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924679"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215475"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Como verificar a saúde do serviço do Microsoft 365
 
@@ -47,7 +47,7 @@ Se você não conseguir entrar no centro de administração, poderá usar a pág
 1. Vá para o Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) , e entre com uma conta de administrador.
 
     > [!NOTE]
-    > As pessoas às quais a função de administrador global ou do serviço é atribuída podem visualizar a integridade do serviço. Para permitir que os administradores do Exchange, SharePoint e Skype for Business visualizem a integridade do serviço, eles também devem receber a função de administrador do serviço. Para obter mais informações sobre funções que podem exibir a saúde do serviço, consulte [Sobre funções de administrador](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#roles-available-in-the-microsoft-365-admin-center).
+    > As pessoas às quais a função de administrador global ou do serviço é atribuída podem visualizar a integridade do serviço. Para permitir que os administradores do Exchange, SharePoint e Skype for Business visualizem a integridade do serviço, eles também devem receber a função de administrador do serviço. Para obter mais informações sobre funções que podem exibir a saúde do serviço, consulte [Sobre funções de administrador](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles).
   
 2. Se você não estiver usando o novo centro de administração, na home **page,** selecione a opção **Experimentar** o novo centro de administração no canto superior direito.
 
@@ -153,4 +153,5 @@ Para obter mais informações sobre nosso compromisso com o tempo de atividade, 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 Relatórios de atividades no centro de [administração do](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
- Microsoft 365 [Preferências do Centro de Mensagens](../admin/manage/message-center.md?preserve-view=true&view=o365-worldwide#preferences11)
+ Microsoft 365 [Preferências do Centro de Mensagens](../admin/manage/message-center.md?preserve-view=true&view=o365-worldwide#preferences)<br/>
+[Como verificar a saúde da versão do Windows no Centro de administração](https://docs.microsoft.com/windows/deployment/update/check-release-health)

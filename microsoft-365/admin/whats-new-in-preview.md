@@ -21,12 +21,12 @@ description: O Centro de administração do Microsoft 365 - saiba mais sobre os 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 833f782e071e06d837ca5eacfcb72e2d6e16c8fb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b670c6a333485bc3a19ae14b8e7c71f08181cac5
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913929"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215571"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de administração do Microsoft 365
 
@@ -48,6 +48,7 @@ E se você quiser saber o que há de novo com outros serviços de nuvem da Micro
 - [Novidades no Microsoft 365 Defender](../security/mtp/whats-new.md)
 - [Novidades no Centro de administração do SharePoint](/sharepoint/what-s-new-in-admin-center)
 - [Atualizações do Office](/OfficeUpdates/)
+- [Como verificar a saúde da versão do Windows](https://docs.microsoft.com/windows/deployment/update/check-release-health)
 
 ## <a name="ignite-2021-march"></a>Ignite 2021 (março)
 
@@ -237,7 +238,7 @@ Para saber mais sobre essas funções, consulte [Sobre funções de administrado
 
 Ouvimos de muitos administradores que eles precisam compartilhar informações sobre grupos e seu uso para pessoas que não têm acesso aos centros de administração. Agora você pode exportar a lista Grupos para um arquivo CSV para fins de auditoria, o que significa que você pode lançar esse script antigo do PowerShell. Para experimentar, vá para **Grupos**  >  **Grupos** e selecione **Exportar grupos** na barra de comandos.
 
-### <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura do Microsoft 365
+### <a name="microsoft-365-solution-and-architecture-center"></a>Centro de soluções e arquitetura da Microsoft 365
 
 Apenas este mês, lançamos um novo site no chamado centro de arquitetura e solução do [https://docs.microsoft.com]() [Microsoft 365](../solutions/index.yml), que reúne as diretrizes técnicas que você precisa para entender, planejar e implementar soluções integradas do Microsoft 365 para colaboração segura e compatível. Neste centro, você encontrará:
 
@@ -362,7 +363,7 @@ Os novos nomes de produto entrarão em vigor em 21 de abril de 2020. Isso é uma
 |Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
 |Office 365 Business Premium     |    Microsoft 365 Business Standard     |
 |Microsoft 365 Business     |    Microsoft 365 Business Premium     |
-|Office 365 Business     |    Microsoft 365 Apps para Pequenos e Médios negócios       |
+|Office 365 Business     |    Microsoft 365 Apps para empresas       |
 |Office 365 ProPlus    |   Aplicativos do Microsoft 365 para empresas      |
 
 ### <a name="videos-training-and-docs"></a>Vídeos, treinamentos e documentos
