@@ -18,30 +18,30 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f007364fb1bc5ccb2ef671a344bbb04b7912174b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 79ec47aa2ea440ee46647acf53c77906e32a80ff
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053364"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51187692"
 ---
-# <a name="examples-of-device-control-policies-for-intune"></a><span data-ttu-id="5f5de-104">Exemplos de políticas de controle de dispositivo para o Intune</span><span class="sxs-lookup"><span data-stu-id="5f5de-104">Examples of device control policies for Intune</span></span>
+# <a name="examples-of-device-control-policies-for-intune"></a><span data-ttu-id="c974e-104">Exemplos de políticas de controle de dispositivo para o Intune</span><span class="sxs-lookup"><span data-stu-id="c974e-104">Examples of device control policies for Intune</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="5f5de-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="5f5de-105">**Applies to:**</span></span>
-- [<span data-ttu-id="5f5de-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="5f5de-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2146631)
-- [<span data-ttu-id="5f5de-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="5f5de-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="c974e-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="c974e-105">**Applies to:**</span></span>
+- [<span data-ttu-id="c974e-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="c974e-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="c974e-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="c974e-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="5f5de-108">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="5f5de-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="5f5de-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="5f5de-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> <span data-ttu-id="c974e-108">Deseja experimentar o Microsoft Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="c974e-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="c974e-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="c974e-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-<span data-ttu-id="5f5de-110">Este documento contém exemplos de políticas de controle de dispositivo que você pode personalizar para sua própria organização.</span><span class="sxs-lookup"><span data-stu-id="5f5de-110">This document contains examples of device control policies that you can customize for your own organization.</span></span> <span data-ttu-id="5f5de-111">Esses exemplos serão aplicáveis se você estiver usando o Intune para gerenciar dispositivos em sua empresa.</span><span class="sxs-lookup"><span data-stu-id="5f5de-111">These examples are applicable if you are using Intune to manage devices in your enterprise.</span></span>
+<span data-ttu-id="c974e-110">Este documento contém exemplos de políticas de controle de dispositivo que você pode personalizar para sua própria organização.</span><span class="sxs-lookup"><span data-stu-id="c974e-110">This document contains examples of device control policies that you can customize for your own organization.</span></span> <span data-ttu-id="c974e-111">Esses exemplos serão aplicáveis se você estiver usando o Intune para gerenciar dispositivos em sua empresa.</span><span class="sxs-lookup"><span data-stu-id="c974e-111">These examples are applicable if you are using Intune to manage devices in your enterprise.</span></span>
 
-## <a name="restrict-access-to-all-removable-media"></a><span data-ttu-id="5f5de-112">Restringir o acesso a todas as mídias removíveis</span><span class="sxs-lookup"><span data-stu-id="5f5de-112">Restrict access to all removable media</span></span>
+## <a name="restrict-access-to-all-removable-media"></a><span data-ttu-id="c974e-112">Restringir o acesso a todas as mídias removíveis</span><span class="sxs-lookup"><span data-stu-id="c974e-112">Restrict access to all removable media</span></span>
 
-<span data-ttu-id="5f5de-113">O exemplo a seguir restringe o acesso a todas as mídias removíveis.</span><span class="sxs-lookup"><span data-stu-id="5f5de-113">The following example restricts access to all removable media.</span></span> <span data-ttu-id="5f5de-114">Observe a permissão que é aplicada no nível superior da política, o que significa que todas as operações de arquivo `none` serão desprovidas.</span><span class="sxs-lookup"><span data-stu-id="5f5de-114">Note the `none` permission that is applied at the top level of the policy, meaning that all file operations will be disallowed.</span></span>
+<span data-ttu-id="c974e-113">O exemplo a seguir restringe o acesso a todas as mídias removíveis.</span><span class="sxs-lookup"><span data-stu-id="c974e-113">The following example restricts access to all removable media.</span></span> <span data-ttu-id="c974e-114">Observe a permissão que é aplicada no nível superior da política, o que significa que todas as operações de arquivo `none` serão desprovidas.</span><span class="sxs-lookup"><span data-stu-id="c974e-114">Note the `none` permission that is applied at the top level of the policy, meaning that all file operations will be disallowed.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -105,9 +105,9 @@ ms.locfileid: "51053364"
 </plist>
 ```
 
-## <a name="set-all-removable-media-to-be-read-only"></a><span data-ttu-id="5f5de-115">Definir todas as mídias removíveis como somente leitura</span><span class="sxs-lookup"><span data-stu-id="5f5de-115">Set all removable media to be read-only</span></span>
+## <a name="set-all-removable-media-to-be-read-only"></a><span data-ttu-id="c974e-115">Definir todas as mídias removíveis como somente leitura</span><span class="sxs-lookup"><span data-stu-id="c974e-115">Set all removable media to be read-only</span></span>
 
-<span data-ttu-id="5f5de-116">O exemplo a seguir configura todas as mídias removíveis para serem somente leitura.</span><span class="sxs-lookup"><span data-stu-id="5f5de-116">The following example configures all removable media to be read-only.</span></span> <span data-ttu-id="5f5de-117">Observe a permissão que é aplicada no nível superior da política, o que significa que todas as operações de gravação e execução `read` serão desprovidas.</span><span class="sxs-lookup"><span data-stu-id="5f5de-117">Note the `read` permission that is applied at the top level of the policy, meaning that all write and execute operations will be disallowed.</span></span>
+<span data-ttu-id="c974e-116">O exemplo a seguir configura todas as mídias removíveis para serem somente leitura.</span><span class="sxs-lookup"><span data-stu-id="c974e-116">The following example configures all removable media to be read-only.</span></span> <span data-ttu-id="c974e-117">Observe a permissão que é aplicada no nível superior da política, o que significa que todas as operações de gravação e execução `read` serão desprovidas.</span><span class="sxs-lookup"><span data-stu-id="c974e-117">Note the `read` permission that is applied at the top level of the policy, meaning that all write and execute operations will be disallowed.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -171,9 +171,9 @@ ms.locfileid: "51053364"
 </plist>
 ```
 
-## <a name="disallow-program-execution-from-removable-media"></a><span data-ttu-id="5f5de-118">Excluir a execução do programa de mídia removível</span><span class="sxs-lookup"><span data-stu-id="5f5de-118">Disallow program execution from removable media</span></span>
+## <a name="disallow-program-execution-from-removable-media"></a><span data-ttu-id="c974e-118">Excluir a execução do programa de mídia removível</span><span class="sxs-lookup"><span data-stu-id="c974e-118">Disallow program execution from removable media</span></span>
 
-<span data-ttu-id="5f5de-119">O exemplo a seguir mostra como a execução de programas de mídia removível pode ser desprovada.</span><span class="sxs-lookup"><span data-stu-id="5f5de-119">The following example shows how program execution from removable media can be disallowed.</span></span> <span data-ttu-id="5f5de-120">Observe as `read` permissões e que são `write` aplicadas no nível superior da política.</span><span class="sxs-lookup"><span data-stu-id="5f5de-120">Note the `read` and `write` permissions that are applied at the top level of the policy.</span></span>
+<span data-ttu-id="c974e-119">O exemplo a seguir mostra como a execução de programas de mídia removível pode ser desprovada.</span><span class="sxs-lookup"><span data-stu-id="c974e-119">The following example shows how program execution from removable media can be disallowed.</span></span> <span data-ttu-id="c974e-120">Observe as `read` permissões e que são `write` aplicadas no nível superior da política.</span><span class="sxs-lookup"><span data-stu-id="c974e-120">Note the `read` and `write` permissions that are applied at the top level of the policy.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -238,9 +238,9 @@ ms.locfileid: "51053364"
 </plist> 
 ```
 
-## <a name="restrict-all-devices-from-specific-vendors"></a><span data-ttu-id="5f5de-121">Restringir todos os dispositivos de fornecedores específicos</span><span class="sxs-lookup"><span data-stu-id="5f5de-121">Restrict all devices from specific vendors</span></span>
+## <a name="restrict-all-devices-from-specific-vendors"></a><span data-ttu-id="c974e-121">Restringir todos os dispositivos de fornecedores específicos</span><span class="sxs-lookup"><span data-stu-id="c974e-121">Restrict all devices from specific vendors</span></span>
 
-<span data-ttu-id="5f5de-122">O exemplo a seguir restringe todos os dispositivos de fornecedores específicos (nesse caso, identificados `fff0` por e `4525` ).</span><span class="sxs-lookup"><span data-stu-id="5f5de-122">The following example restricts all devices from specific vendors (in this case identified by `fff0` and `4525`).</span></span> <span data-ttu-id="5f5de-123">Todos os outros dispositivos não serão restritos, pois a permissão definida no nível superior da política lista todas as permissões possíveis (leitura, gravação e execução).</span><span class="sxs-lookup"><span data-stu-id="5f5de-123">All other devices will be unrestricted, since the permission defined at the top level of the policy lists all possible permissions (read, write, and execute).</span></span>
+<span data-ttu-id="c974e-122">O exemplo a seguir restringe todos os dispositivos de fornecedores específicos (nesse caso, identificados `fff0` por e `4525` ).</span><span class="sxs-lookup"><span data-stu-id="c974e-122">The following example restricts all devices from specific vendors (in this case identified by `fff0` and `4525`).</span></span> <span data-ttu-id="c974e-123">Todos os outros dispositivos não serão restritos, pois a permissão definida no nível superior da política lista todas as permissões possíveis (leitura, gravação e execução).</span><span class="sxs-lookup"><span data-stu-id="c974e-123">All other devices will be unrestricted, since the permission defined at the top level of the policy lists all possible permissions (read, write, and execute).</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -323,9 +323,9 @@ ms.locfileid: "51053364"
 </plist>
 ```
 
-## <a name="restrict-specific-devices-identified-by-vendor-id-product-id-and-serial-number"></a><span data-ttu-id="5f5de-124">Restringir dispositivos específicos identificados pela ID do fornecedor, ID do produto e número de série</span><span class="sxs-lookup"><span data-stu-id="5f5de-124">Restrict specific devices identified by vendor ID, product ID, and serial number</span></span>
+## <a name="restrict-specific-devices-identified-by-vendor-id-product-id-and-serial-number"></a><span data-ttu-id="c974e-124">Restringir dispositivos específicos identificados pela ID do fornecedor, ID do produto e número de série</span><span class="sxs-lookup"><span data-stu-id="c974e-124">Restrict specific devices identified by vendor ID, product ID, and serial number</span></span>
 
-<span data-ttu-id="5f5de-125">O exemplo a seguir restringe dois dispositivos específicos, identificados por ID do fornecedor, ID do produto `fff0` e números de série e `1000` `04ZSSMHI2O7WBVOA` `04ZSSMHI2O7WBVOB` .</span><span class="sxs-lookup"><span data-stu-id="5f5de-125">The following example restricts two specific devices, identified by vendor ID `fff0`, product ID `1000`, and serial numbers `04ZSSMHI2O7WBVOA` and `04ZSSMHI2O7WBVOB`.</span></span> <span data-ttu-id="5f5de-126">Em todos os outros níveis da política, as permissões incluem todos os valores possíveis (leitura, gravação e execução), o que significa que todos os outros dispositivos serão irrestritos.</span><span class="sxs-lookup"><span data-stu-id="5f5de-126">At all other levels of the policy the permissions include all possible values (read, write, and execute), meaning that all other devices will be unrestricted.</span></span>
+<span data-ttu-id="c974e-125">O exemplo a seguir restringe dois dispositivos específicos, identificados por ID do fornecedor, ID do produto `fff0` e números de série e `1000` `04ZSSMHI2O7WBVOA` `04ZSSMHI2O7WBVOB` .</span><span class="sxs-lookup"><span data-stu-id="c974e-125">The following example restricts two specific devices, identified by vendor ID `fff0`, product ID `1000`, and serial numbers `04ZSSMHI2O7WBVOA` and `04ZSSMHI2O7WBVOB`.</span></span> <span data-ttu-id="c974e-126">Em todos os outros níveis da política, as permissões incluem todos os valores possíveis (leitura, gravação e execução), o que significa que todos os outros dispositivos serão irrestritos.</span><span class="sxs-lookup"><span data-stu-id="c974e-126">At all other levels of the policy the permissions include all possible values (read, write, and execute), meaning that all other devices will be unrestricted.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
@@ -426,6 +426,6 @@ ms.locfileid: "51053364"
 </plist>
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="5f5de-127">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="5f5de-127">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c974e-127">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="c974e-127">Related topics</span></span>
 
-- [<span data-ttu-id="5f5de-128">Visão geral do controle de dispositivo para macOS</span><span class="sxs-lookup"><span data-stu-id="5f5de-128">Overview of device control for macOS</span></span>](mac-device-control-overview.md)
+- [<span data-ttu-id="c974e-128">Visão geral do controle de dispositivo para macOS</span><span class="sxs-lookup"><span data-stu-id="c974e-128">Overview of device control for macOS</span></span>](mac-device-control-overview.md)
