@@ -14,12 +14,12 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a35c18d805ef3645659f49b8340cbb4cabab2f8d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 6d07e2a21bb01794990160cf02837fc524008098
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165064"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218755"
 ---
 # <a name="enable-controlled-folder-access"></a>Habilitar o acesso controlado a pastas
 
@@ -38,7 +38,7 @@ Você pode habilitar o acesso controlado a pastas usando qualquer um desses mét
 * [Aplicativo de Segurança do Windows](#windows-security-app)
 * [Microsoft Intune](#intune)
 * [Gerenciamento de Dispositivo Móvel (MDM)](#mobile-device-management-mdm)
-* [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
+* [Gerenciador de Configuração do Microsoft Endpoint](#microsoft-endpoint-configuration-manager)
 * [Política de grupo](#group-policy)
 * [PowerShell](#powershell)
 
@@ -87,7 +87,7 @@ Para obter mais informações sobre como desabilitar a mesclação de listas loc
 
 Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/ControlledFolderAccessProtectedFolders](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-controlledfolderaccessprotectedfolders) (CSP) para permitir que os aplicativos façam alterações em pastas protegidas.
 
-## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
+## <a name="microsoft-endpoint-configuration-manager"></a>Gerenciador de Configuração do Microsoft Endpoint
 
 1. No Microsoft Endpoint Configuration Manager, acesse **Assets and Compliance**  >  **Endpoint Protection** Windows Defender Exploit  >  **Guard.**
 
@@ -141,4 +141,4 @@ Use `Disabled` para desativar o recurso.
 
 * [Proteger pastas importantes com acesso controlado a pastas](controlled-folders.md)
 * [Personalizar o acesso controlado a pastas](customize-controlled-folders.md)
-* [Avaliar o Microsoft Defender para o Ponto de Extremidade](evaluate-atp.md)
+* [Avaliar o Microsoft Defender para o Ponto de Extremidade](evaluate-mde.md)

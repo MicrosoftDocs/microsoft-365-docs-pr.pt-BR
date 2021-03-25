@@ -13,12 +13,12 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e5da8ec3e4555af062aad1a4ebfa96d972bee23b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e965e1a882dadfb565231074165507a6727b45c1
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053813"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218743"
 ---
 # <a name="evaluate-controlled-folder-access"></a>Avaliar o acesso controlado a pastas
 
@@ -76,5 +76,5 @@ Consulte [Proteger pastas importantes](controlled-folders.md) com acesso control
 ## <a name="see-also"></a>Confira também
 
 * [Proteger pastas importantes com acesso controlado a pastas](controlled-folders.md)
-* [Avaliar o Microsoft Defender para o Ponto de Extremidade](evaluate-atp.md)
+* [Avaliar o Microsoft Defender para o Ponto de Extremidade](evaluate-mde.md)
 * [Usar o modo de auditoria](audit-windows-defender.md)

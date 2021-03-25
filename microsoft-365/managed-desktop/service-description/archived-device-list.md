@@ -11,12 +11,12 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f3e4b434f1ca267d5bbfbc7e67cb20c7e2b9dbbb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 79b4d343326d722e42e09ae2794c05dcdd8eb603
+ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920559"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51218731"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Dispositivos arquivados da Área de Trabalho Gerenciada da Microsoft
 
@@ -40,12 +40,15 @@ Para estar registrado na Área de Trabalho Gerenciada da Microsoft, um dispositi
 |---------|---------|---------|---------|
 |Dell Precision 3530| RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | **22 de maio de 2023** |
 |Dell Latitude 5300 / 5300 2 em 1 / 5400 / 5500 | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | **1º de junho de 2024**  |
+|Dell Latitude 5310 / 5310 2 em 1 / 256 GB / Intel i5 / 8 GB RAM | Câmera de IR necessária | **28 de abril de 2025**  |
+|Dell Latitude 5410 / 5410 2 em 1 / 256 GB / Intel i5 / 8 GB RAM | Câmera de IR necessária | **28 de abril de 2025**  |
 |Dell Latitude 5490 | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | **9 de janeiro de 2023** |
 |Dell Latitude 7200 2 em 1 | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | **1º de maio de 2024** |
 |Dell Latitude 7300 / 7400 / 7400 2 em 1 | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | **1º de maio de 2024**  |
 |Dell Latitude 7390 / 7390 2 em 1 / 7490 | RAM de 256 GB / Intel i5 / 8 GB   | Câmera de IR necessária | **9 de janeiro de 2023** |
 |Dell Latitude 7410 / 7410 2 em 1 | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | **19 de maio de 2025**  |
-|Dell Optiplex 3070 | RAM de 128 GB / Intel i3 / 8 GB | Nenhum | **1º de maio de 2025**  |
+|Dell Latitude 9410 / 9410 2 em 1 | RAM de 256 GB / Intel i5 / 8 GB | Câmera de IR necessária | **05 de maio de 2025**  |
+|Dell Optiplex 3070 | RAM de 128 GB / Intel i3 / 8 GB | Nenhuma | **1º de maio de 2025**  |
 |HP EliteBook 830 / 840 / 850 G5| RAM de 128 GB / Intel i5 / 8 GB | SKU com 5VS01AV, câmera IR ou sensor de impressão digital necessário  | **15 de fevereiro de 2023** |
 |HP EliteBook 830 / 840 / 850 G6| RAM de 128 GB / Intel i5 / 8 GB | SKU com 5VS01AV, câmera IR ou sensor de impressão digital necessário  | **30 de novembro de 2023** |
 |HP EliteBook 830 / 840 / 850 G7| RAM de 128 GB / Intel i5 / 8 GB | SKU com 9MZ21AV, câmera IR ou sensor de impressão digital necessário  | **30 de novembro de 2024** |
@@ -64,12 +67,12 @@ Para estar registrado na Área de Trabalho Gerenciada da Microsoft, um dispositi
 |HP EliteOne 800 G6 24/27 AIO |RAM de 256 GB / Intel i5 / 8 GB |SKU com 9XM14AV| **Jun 30, 2025** |
 |HP ZBook 14u/15u G6 Mobile Workstation |RAM de 256 GB / Intel i5 / 8 GB |SKU com 5VS04AV, câmera DE IR necessária| **30 de novembro de 2023** |
 |HP ZBook Firefly 14/15 G7 Mobile Workstation |RAM de 256 GB / Intel i5 / 8 GB |SKU com 9MZ22AV, câmera DE IR necessária| **30 de novembro de 2024** |
-|Surface Book 2| RAM de 256 GB / Intel i5 / 8 GB | Nenhum | **16 de novembro de 2022** |
-|Surface Go| 128 GB / Intel 4415Y / 8 GB DE RAM | Nenhum | **2 de agosto de 2023** |
-|Surface Laptop| RAM de 256 GB / Intel i5 / 8 GB | Nenhum | **20 de maio de 2022** |
-|Surface Laptop 2| RAM de 128 GB / Intel i5 / 8 GB | Nenhum | **16 de outubro de 2023** |
-|Surface Pro| RAM de 256 GB / Intel i5 / 8 GB | Nenhum | **Jun 15, 2022** |
-|Surface Pro 6| RAM de 128 GB / Intel i5 / 8 GB | Nenhum | **16 de outubro de 2023** |
+|Surface Book 2| RAM de 256 GB / Intel i5 / 8 GB | Nenhuma | **16 de novembro de 2022** |
+|Surface Go| 128 GB / Intel 4415Y / 8 GB DE RAM | Nenhuma | **2 de agosto de 2023** |
+|Surface Laptop| RAM de 256 GB / Intel i5 / 8 GB | Nenhuma | **20 de maio de 2022** |
+|Surface Laptop 2| RAM de 128 GB / Intel i5 / 8 GB | Nenhuma | **16 de outubro de 2023** |
+|Surface Pro| RAM de 256 GB / Intel i5 / 8 GB | Nenhuma | **Jun 15, 2022** |
+|Surface Pro 6| RAM de 128 GB / Intel i5 / 8 GB | Nenhuma | **16 de outubro de 2023** |
 
 Além disso, o dispositivo também deve:
 
