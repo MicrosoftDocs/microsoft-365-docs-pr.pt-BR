@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Documentação do Microsoft Defender para Ponto de Extremidade
-summary: O Microsoft Defender for Endpoint oferece proteção preventiva, detecção pós-violação, investigação automatizada e resposta.
+summary: O Microsoft Defender para Ponto de Extremidade oferece proteção preventiva, detecção pós-violação, investigação automatizada e resposta.
 metadata:
   title: Documentação do Microsoft Defender para Ponto de Extremidade
-  description: Saiba mais sobre o Microsoft Defender para Ponto de Extremidade e maximize os recursos de segurança integrados para proteger dispositivos, detectar atividades mal-intencionadas e correção de ameaças# Obrigatório; descrição do artigo exibida nos resultados da pesquisa. < 160 caracteres.
+  description: Saiba mais sobre o Microsoft Defender para Ponto de Extremidade e maximize os recursos de segurança internos para proteger dispositivos, detectar atividades mal-intencionadas e remediar ameaças# Obrigatório; descrição do artigo exibido nos resultados da pesquisa. < 160 caracteres.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: efa23f4c40021d95185203c22c8bba5009e15f2f
   ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: pt-BR
   ms.lasthandoff: 03/24/2021
   ms.locfileid: "51185738"
@@ -34,19 +34,19 @@ landingContent:
     links:
     - text: Vídeo de visão geral
       url: https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0
-- title: Avaliar & implantar o serviço
+- title: Avaliar e implantar o serviço
   linkLists:
   - linkListType: get-started
     links:
-    - text: Avaliar o Microsoft Defender para o Ponto de Extremidade
+    - text: Avaliar o Microsoft Defender para Ponto de Extremidade
       url: evaluation-lab.md
-    - text: Planejar sua implantação
+    - text: Planejar implantação
       url: deployment-strategy.md
   - linkListType: deploy
     links:
     - text: Guia de implantação
       url: deployment-phases.md
-    - text: Dispositivos compatíveis com integração
+    - text: Dispositivos com suporte a integração
       url: onboard-configure.md
   - linkListType: how-to-guide
     links:
@@ -60,15 +60,15 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Detecção e resposta do terminal.
+    - text: Detecção de ponto de extremidade e resposta
       url: overview-endpoint-detection-response.md
-    - text: Bloqueio e contenção comportamentais
+    - text: Bloqueio e contenção comportamental
       url: behavioral-blocking-containment.md
     - text: Investigação e resposta automatizadas (AIR)
       url: automated-investigations.md
     - text: Busca avançada
       url: advanced-hunting-overview.md
-    - text: Especialistas em ameaças da Microsoft
+    - text: Especialistas em Ameaças da Microsoft
       url: microsoft-threat-experts.md
     - text: Análise de ameaças
       url: threat-analytics.md
@@ -96,9 +96,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Gerenciamento de & de vulnerabilidades
+    - text: Gerenciamento de ameaças e vulnerabilidades
       url: next-gen-threat-and-vuln-mgt.md
-    - text: Redução da superfície do ataque.
+    - text: Redução de superfície de ataque
       url: overview-attack-surface-reduction.md
-    - text: Proteção de última geração
+    - text: Proteção de próxima geração
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10
