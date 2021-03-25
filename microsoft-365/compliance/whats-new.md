@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Se ele está adicionando novas soluções ao centro de conformidade, atualizando recursos existentes com base em seus comentários ou implantando documentação atualizada e atualizada, o Microsoft 365 ajuda você a se manter no topo do cenário de conformidade em constante mudança. Descubra o que estamos fazendo este mês.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed29ad5186972f56609a596d88a48c7c460f295f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c695bc2632e766eb6f14c4e9f7eabbbddff66fd2
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905853"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164970"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Novidades na Conformidade do Microsoft 365
 
@@ -33,7 +33,7 @@ Seja adicionando novas soluções ao centro de conformidade do [Microsoft 365,](
 > Alguns recursos de conformidade são lançados em velocidades diferentes para nossos clientes. Se você ainda não estiver vendo um recurso, tente adicionar a si mesmo à [versão direcionada](/office365/admin/manage/release-options-in-office-365).
 
 > [!TIP]
-> Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[Novidades no centro de administração do Microsoft 365](/office365/admin/whats-new-in-preview)<br>[Novidades no Centro de administração do SharePoint](/sharepoint/what-s-new-in-admin-center)<br>[Novidades no Microsoft 365 Defender](../security/mtp/whats-new.md)<br><br>
+> Interessado no que está acontecendo em outros centros de administração? Confira estes artigos:<br>[Novidades no centro de administração do Microsoft 365](/office365/admin/whats-new-in-preview)<br>[Novidades no Centro de administração do SharePoint](/sharepoint/what-s-new-in-admin-center)<br>[Novidades no Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
 E visite o Roteiro do [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para saber mais sobre os recursos do Microsoft 365 que foram lançados, estão sendo lançados, estão em desenvolvimento, foram cancelados ou lançados anteriormente.
 
 ## <a name="january-2021"></a>Janeiro de 2021
@@ -78,7 +78,7 @@ Fluxo de trabalho e funcionalidade aprimorados para a adição [de custodiantes]
 
 ### <a name="data-connectors"></a>Conectores de dados
 
-[Quatro novos conectores Globanet lançados](archiving-third-party-data.md#third-party-data-connectors): Redtail Speak, Salesforce Chatter, ServiceNow e Yieldbroker.
+[Quatro novos conectores Veritas lançados](archiving-third-party-data.md#third-party-data-connectors): Redtail Speak, Salesforce Chatter, ServiceNow e Yieldbroker.
 
 ### <a name="encryption"></a>Criptografia
 
@@ -122,7 +122,7 @@ Para facilitar o gerenciamento de conteúdo criptografado no fluxo de trabalho d
 
 ### <a name="data-connectors"></a>Conectores de dados
 
-[Cinco novos conectores Globanet na visualização](archiving-third-party-data.md#third-party-data-connectors). Os novos conectores incluem Reuters Dealing, Reuters FX, CellTrust, XIP, MS genéricos SQL Dados de Banco de Dados.
+[Cinco novos conectores Veritas na visualização](archiving-third-party-data.md#third-party-data-connectors). Os novos conectores incluem Reuters Dealing, Reuters FX, CellTrust, XIP, MS genéricos SQL Dados de Banco de Dados.
 
 ### <a name="retention-labels-disposition-review"></a>Rótulos de retenção (revisão de disposição)
 
@@ -169,7 +169,7 @@ Assista ao vídeo abaixo para saber como o Gerenciador de Conformidade pode ajud
 
 ### <a name="data-connectors"></a>Conectores de dados
 
-- [Novos conectores de dados de terceiros.](archiving-third-party-data.md#third-party-data-connectors) 25 novos conectores de dados, incluindo 14 conectores da Globalnet e 8 da Telemessage.
+- [Novos conectores de dados de terceiros.](archiving-third-party-data.md#third-party-data-connectors) 25 novos conectores de dados, incluindo 14 conectores da Veritas e 8 da Telemessage.
 - [Conector de badging físico](import-physical-badging-data.md). Importe dados de danos físicos, como eventos de acesso físico bruto do funcionário ou quaisquer alarmes de acesso físico gerados pelo sistema de badging da sua organização. Exemplos incluem entradas para edifícios, salas de servidor ou data centers. Os dados de danos físicos podem ser usados pela solução de gerenciamento de riscos insider para ajudar a proteger sua organização contra atividades mal-intencionadas ou roubo de dados dentro da sua organização.
 
 ### <a name="insider-risk-management"></a>Gerenciamento de risco interno
@@ -200,7 +200,7 @@ Esse novo recurso está incluído nos seguintes recursos:
 > [!NOTE]
 > Para todos os recursos, se você fornecer pelo menos 30 respostas de comentários, criaremos uma versão retreinada desse classificador que você pode revisar. Se houver melhorias, você poderá republicar o classificador.
 
-- [Classificadores com treinamento.](classifier-learn-about.md#retraining-classifiers) Para melhorar a precisão dos classificadores publicados, você pode fornecer comentários sobre se os itens detectados corresponderão ao classificador.
+- [Classificadores treináveis](classifier-learn-about.md#retraining-classifiers). Para melhorar a precisão dos classificadores publicados, você pode fornecer comentários sobre se os itens detectados corresponderão ao classificador.
 - [Conformidade de comunicação](classifier-how-to-retrain-comms-compliance.md). A nova **ação Melhorar** correção de classificação permite que você forneça comentários se um item de um alerta de conformidade de comunicação corresponde ao classificador configurado na política de conformidade de comunicação.
 - [Explorador de conteúdo](classifier-how-to-retrain-content-explorer.md). Se você configurar uma política de rotulagem automática de retenção para aplicar rótulos automaticamente a mensagens de email que corresponderem a classificadores treináveis, você poderá usar o explorador de conteúdo para revisar os itens rotulados e fornecer comentários se os itens corresponderem ao classificador.
 

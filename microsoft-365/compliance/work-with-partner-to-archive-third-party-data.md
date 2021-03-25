@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como configurar um conector personalizado para importar dados de terceiros de fontes de dados, como Salesforce Chatter, Yahoo Messenger ou Yammer.
-ms.openlocfilehash: adf6583f397296361e8f0cb6f12e7054436fa34f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6e93ff765129296f62b43c93937701169bbf4b03
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928375"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164936"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>Trabalhar com um parceiro para arquivar dados de terceiros
 
@@ -70,7 +70,7 @@ As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de t
   
 [ArchiveSocial](#archivesocial)
   
-[Globalnet](#globanet)
+[Veritas](#veritas)
   
 [OpenText](#opentext)
   
@@ -142,9 +142,9 @@ As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de t
     
 - Vimeo
   
-### <a name="globanet"></a>Globalnet
+### <a name="veritas"></a>Veritas
 
-[A Globalnet](https://www.globanet.com) dá suporte às seguintes fontes de dados de terceiros: 
+[A Veritas](https://www.globanet.com) dá suporte às seguintes fontes de dados de terceiros: 
   
 - AOL with Pivot Client 
     
@@ -198,7 +198,7 @@ As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de t
     
 - Mobile Guard
     
-- Pivot
+- Dinamizar
     
 - Salesforce Chatter
 
@@ -372,7 +372,7 @@ As seções a seguir listam os parceiros da Microsoft (e as fontes de dados de t
     
 - Pinterest
     
-- Pivot
+- Dinamizar
     
 - QQ
     
@@ -502,7 +502,7 @@ Aqui estão as etapas para criar e configurar uma caixa de correio de dados de t
     
       - [Colocar uma caixa de correio em Retenção de Litígio](./create-a-litigation-hold.md)
     
-      - [Saiba mais sobre as políticas de retenção e rótulos de retenção](retention.md)
+      - [Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)
     
     - Habilitar o log de auditoria de caixa de correio para acesso de proprietário, representante e administrador à caixa de correio de dados de terceiros; consulte [Habilitar auditoria de caixa de correio](enable-mailbox-auditing.md). Isso permite que você audite todas as atividades realizadas por qualquer usuário que tenha acesso à caixa de correio de dados de terceiros.
 
@@ -516,7 +516,7 @@ A próxima etapa é configurar as caixas de correio do usuário para oferecer su
     
     - [Colocar uma caixa de correio em Retenção de Litígio](./create-a-litigation-hold.md)
     
-    - [Saiba mais sobre as políticas de retenção e rótulos de retenção](retention.md)
+    - [Saiba mais sobre as políticas de retenção e os rótulos de retenção](retention.md)
     
     Conforme mencionado anteriormente, quando você coloca as caixas de correio em retenção, é possível definir uma duração para a retenção dos itens da fonte de dados de terceiros, ou você pode optar por reter itens indefinidamente.
 

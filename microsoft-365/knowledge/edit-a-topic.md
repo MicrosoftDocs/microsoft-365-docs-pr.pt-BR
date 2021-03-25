@@ -14,14 +14,14 @@ ms.collection:
 - m365initiative-viva-topics
 ms.service: ''
 localization_priority: Normal
-ms.openlocfilehash: 36af6e0f882c87d05c5f397982533fb48875b0da
-ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
+ms.openlocfilehash: 23c870826261a85aee23af82bb177825f55f4eb2
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50994601"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165388"
 ---
-# <a name="edit-an-existing-topic"></a>Editar um tópico existente 
+# <a name="edit-an-existing-topic-in-microsoft-viva-topics"></a>Editar um tópico existente em Tópicos do Microsoft Viva 
 
 </br>
 

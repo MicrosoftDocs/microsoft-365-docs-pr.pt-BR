@@ -11,17 +11,17 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar dados serviceNow da Globalnet para o Microsoft 365. Esse conector permite arquivar dados de fontes de dados de terceiros no Microsoft 365. Depois de arquivar esses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: d9cc40e8d7660be96cefb8ec0d13e2b95bb8f31a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Os administradores podem configurar um conector para importar e arquivar dados serviceNow da Veritas para o Microsoft 365. Esse conector permite arquivar dados de fontes de dados de terceiros no Microsoft 365. Depois de arquivar esses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
+ms.openlocfilehash: 8f1f56f79d3cdd0e198f03d948837249d3e0ff3b
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925103"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164031"
 ---
 # <a name="set-up-a-connector-to-archive-servicenow-data"></a>Configurar um conector para arquivar dados serviceNow
 
-Use um conector Globalnet no centro de conformidade do Microsoft 365 para importar e arquivar dados da plataforma ServiceNow para caixas de correio de usuário em sua organização do Microsoft 365. A Globalnet fornece um [conector ServiceNow](https://globanet.com/servicenow/) que captura itens da fonte de dados de terceiros e importa esses itens para o Microsoft 365. O conector converte o conteúdo, como mensagens ao vivo, anexos e postagens do ServiceNow em um formato de mensagem de email e importa esses itens para caixas de correio de usuário no Microsoft 365.
+Use um conector Veritas no centro de conformidade do Microsoft 365 para importar e arquivar dados da plataforma ServiceNow para caixas de correio de usuário em sua organização do Microsoft 365. A Veritas fornece um [conector ServiceNow](https://globanet.com/servicenow/) que captura itens da fonte de dados de terceiros e importa esses itens para o Microsoft 365. O conector converte o conteúdo, como mensagens ao vivo, anexos e postagens do ServiceNow em um formato de mensagem de email e importa esses itens para caixas de correio de usuário no Microsoft 365.
 
 Depois que os dados serviceNow são armazenados em caixas de correio de usuário, você pode aplicar recursos de conformidade do Microsoft 365, como Retenção de Litígio, Descoberta Eletrônico, políticas de retenção e rótulos de retenção. O uso de um conector ServiceNow para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a permanecer em conformidade com políticas governamentais e regulatórias.
 
@@ -33,15 +33,15 @@ A visão geral a seguir explica o processo de uso de um conector para arquivar o
 
 1. Sua organização trabalha com ServiceNow para configurar e configurar um site ServiceNow.
 
-2. Uma vez a cada 24 horas, os itens ServiceNow são copiados para o site Globalnet Merge1. O conector também converte itens ServiceNow em um formato de mensagem de email.
+2. Uma vez a cada 24 horas, os itens ServiceNow são copiados para o site Veritas Merge1. O conector também converte itens ServiceNow em um formato de mensagem de email.
 
-3. O conector ServiceNow criado no centro de conformidade do Microsoft 365 conecta-se ao site Globalnet Merge1 todos os dias e transfere o conteúdo serviceNow para um local seguro de Armazenamento do Azure na nuvem da Microsoft.
+3. O conector ServiceNow criado no centro de conformidade do Microsoft 365 conecta-se ao site Veritas Merge1 todos os dias e transfere o conteúdo serviceNow para um local seguro de Armazenamento do Azure na nuvem da Microsoft.
 
 4. O conector importa os itens convertidos para as caixas de correio de usuários específicos usando o valor da propriedade *Email* do mapeamento automático do usuário, conforme descrito [na Etapa 3](#step-3-map-users-and-complete-the-connector-setup). Uma subpasta na pasta Caixa de Entrada chamada **ServiceNow** é criada nas caixas de correio do usuário e os itens são importados para essa pasta. O conector determina para qual caixa de correio importar itens usando o valor da *propriedade Email.* Cada item ServiceNow contém essa propriedade, que é preenchida com o endereço de email de cada participante do item.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta Merge1 para conectores da Microsoft. Para criar uma conta, contate [Globalnet Customer Support](https://globanet.com/contact-us/). Você precisa entrar nessa conta ao criar o conector na Etapa 1.
+- Crie uma conta Merge1 para conectores da Microsoft. Para criar uma conta, entre em contato com [o Suporte ao Cliente veritas.](https://www.veritas.com/content/support/) Você precisa entrar nessa conta ao criar o conector na Etapa 1.
 
 - Crie um aplicativo ServiceNow para buscar dados da sua conta ServiceNow. Para obter instruções passo a passo sobre como criar o aplicativo, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20ServiceNow%20User%20Guide%20.pdf).
 
@@ -61,9 +61,9 @@ A primeira etapa é acessar a página **Conectores** de Dados no centro de confo
 
 5. Entre na sua conta Merge1 para configurar o conector.
 
-## <a name="step-2-configure-the-servicenow-on-the-globanet-merge1-site"></a>Etapa 2: Configurar o ServiceNow no site Globalnet Merge1
+## <a name="step-2-configure-the-servicenow-on-the-veritas-merge1-site"></a>Etapa 2: Configurar o ServiceNow no site Veritas Merge1
 
-A segunda etapa é configurar o conector ServiceNow no site Globalnet Merge1. Para obter informações sobre como configurar o conector ServiceNow, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20ServiceNow%20User%20Guide%20.pdf).
+A segunda etapa é configurar o conector ServiceNow no site Veritas Merge1. Para obter informações sobre como configurar o conector ServiceNow, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20ServiceNow%20User%20Guide%20.pdf).
 
 Depois de clicar em Salvar  **& Concluir,** a página de mapeamento do usuário no assistente de conector no centro de conformidade do Microsoft 365 será exibida.
 

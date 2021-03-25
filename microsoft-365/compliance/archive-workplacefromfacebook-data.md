@@ -11,17 +11,17 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar dados do Workplace do Facebook, que é arquivado no site Merge1 da Globalnet, para o Microsoft 365. Configurar um conector exige que você trabalhe com a Globalnet Esse conector permite arquivar dados de fontes de dados de terceiros no Microsoft 365 para que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar os dados de terceiros da sua organização.
-ms.openlocfilehash: 843e758430b1fe05ac2977c5a06f12838c81cd42
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Os administradores podem configurar um conector para importar e arquivar dados do Workplace do Facebook, que é arquivado no site Merge1 da Veritas, para o Microsoft 365. Configurar um conector exige que você trabalhe com Veritas Esse conector permite arquivar dados de fontes de dados de terceiros no Microsoft 365 para que você possa usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros da sua organização.
+ms.openlocfilehash: 25221b1d71fe106f0f6dcf9c629414aeb0de8709
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923379"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51163820"
 ---
 # <a name="set-up-a-connector-to-archive-workplace-from-facebook-data"></a>Configurar um conector para arquivar o local de trabalho a partir de dados do Facebook
 
-Use um conector Globalnet no centro de conformidade do Microsoft 365 para importar e arquivar dados do Workplace do Facebook para caixas de correio de usuário em sua organização do Microsoft 365. A Globalnet fornece um local de trabalho do conector do [Facebook](https://globanet.com/workplace/) configurado para capturar itens da fonte de dados de terceiros (regularmente) e importar esses itens para o Microsoft 365. O conector converte o conteúdo como chats, anexos, postagens e vídeos do Workplace para um formato de mensagem de email e importa esses itens para caixas de correio de usuário no Microsoft 365.
+Use um conector Veritas no centro de conformidade do Microsoft 365 para importar e arquivar dados do Workplace do Facebook para as caixas de correio do usuário em sua organização do Microsoft 365. A Veritas fornece um [workplace do conector](https://globanet.com/workplace/) do Facebook configurado para capturar itens da fonte de dados de terceiros (regularmente) e importar esses itens para o Microsoft 365. O conector converte o conteúdo como chats, anexos, postagens e vídeos do Workplace para um formato de mensagem de email e importa esses itens para caixas de correio de usuário no Microsoft 365.
 
 Depois que os dados de local de trabalho são armazenados em caixas de correio de usuário, você pode aplicar recursos de conformidade do Microsoft 365, como Retenção de Litígio, Descoberta Eletrônico, políticas de retenção e rótulos de retenção e conformidade de comunicação. Usar o Workplace from Facebook connector to import and archive data in Microsoft 365 can help your organization stay compliance with government and regulatory policies.
 
@@ -33,15 +33,15 @@ A visão geral a seguir explica o processo de uso de um conector para arquivar d
 
 1. Sua organização trabalha com o Workplace a partir do Facebook para configurar e configurar um site do Workplace.
 
-2. Uma vez a cada 24 horas, os itens do Workplace são copiados para o site Globalnet Merge1. O conector também converte o conteúdo desses itens em um formato de mensagem de email.
+2. Uma vez a cada 24 horas, os itens do Workplace são copiados para o site Veritas Merge1. O conector também converte o conteúdo desses itens em um formato de mensagem de email.
 
-3. O workplace from Facebook connector that you create in the Microsoft 365 compliance center, connects to the Globalnet Merge1 every day, and transfers the Workplace items to a secure Azure Storage location in the Microsoft cloud.
+3. O workplace from Facebook connector that you create in the Microsoft 365 compliance center, connects to the Veritas Merge1 every day, and transfers the Workplace items to a secure Azure Storage location in the Microsoft cloud.
 
 4. O conector importa os itens convertidos para as caixas de correio de usuários específicos usando o valor da propriedade *Email* do mapeamento automático do usuário, conforme descrito na Etapa 3. Uma subpasta na pasta Caixa de Entrada chamada **Workplace from Facebook** é criada e os itens workplace são importados para essa pasta. O conector faz isso usando o valor da *propriedade Email.* Cada item workplace contém essa propriedade, que é preenchida com o endereço de email de cada participante de chat ou postagem.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta Globalnet Merge1 para conectores da Microsoft. Para criar essa conta, contate [Globalnet Customer Support](https://globanet.com/ms-connectors-contact). Você entrará nessa conta quando criar o conector na Etapa 1.
+- Crie uma conta Veritas Merge1 para conectores da Microsoft. Para criar essa conta, entre em contato com [o Suporte ao Cliente veritas.](https://globanet.com/ms-connectors-contact) Você entrará nessa conta quando criar o conector na Etapa 1.
 
 - Crie uma integração personalizada para recuperar dados do Workplace por meio de APIs para fins https://my.workplace.com/work/admin/apps/ de conformidade e Descoberta.
 
@@ -63,7 +63,7 @@ A primeira etapa é acessar a página **Conectores** de Dados no centro de confo
 
 5. Entre na sua conta Merge1 para configurar o conector.
 
-## <a name="step-2-configure-the-workplace-from-facebook-connector-on-the-globanet-merge1-site"></a>Etapa 2: Configurar o Local de Trabalho a partir do conector do Facebook no site Globalnet Merge1
+## <a name="step-2-configure-the-workplace-from-facebook-connector-on-the-veritas-merge1-site"></a>Etapa 2: Configurar o Local de Trabalho a partir do conector do Facebook no site Veritas Merge1
 
 A segunda etapa é configurar o Workplace a partir do conector do Facebook no site Merge1. Para obter informações sobre como configurar o Workplace a partir do conector do Facebook, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Workplace%20from%20Facebook%20User%20Guide%20.pdf).
 

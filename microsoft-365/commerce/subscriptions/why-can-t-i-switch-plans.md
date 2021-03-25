@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Entenda os motivos pelos quais, às vezes, a troca de planos precisa ser feita manualmente ou chamando o suporte.
-ms.openlocfilehash: d13b7290f4b5f9aede7406cf76ee60cac262c814
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0880337e4879c093119b98f4d0108ca65c17e705
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922263"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164456"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Por que não posso trocar o Microsoft 365 para planos de negócios?
 
@@ -63,19 +63,19 @@ Se você não vir o botão **Mudar de planos,** seu plano não poderá ser alter
 
 ::: moniker range="o365-worldwide"
 
-Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../admin/manage/resolve-license-conflicts.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
+Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../commerce/licenses/buy-licenses.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../admin/manage/resolve-license-conflicts.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
+Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../commerce/licenses/buy-licenses.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../admin/manage/resolve-license-conflicts.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
+Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../commerce/licenses/buy-licenses.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
 
 ::: moniker-end
 

@@ -11,17 +11,17 @@ ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector para importar e arquivar dados da Globalnet Slack eDiscovery para o Microsoft 365. Esse conector permite arquivar dados de fontes de dados de terceiros no Microsoft 365. Depois de arquivar esses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
-ms.openlocfilehash: a5273082ba2f88cda8c323f47aec40fed31455d2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Os administradores podem configurar um conector para importar e arquivar dados da Descoberta eDiscovery do Veritas Slack para o Microsoft 365. Esse conector permite arquivar dados de fontes de dados de terceiros no Microsoft 365. Depois de arquivar esses dados, você pode usar recursos de conformidade, como retenção legal, pesquisa de conteúdo e políticas de retenção para gerenciar dados de terceiros.
+ms.openlocfilehash: 48b0a6d4d5e8f6eafaaf900aa5c773cf4f99fe72
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925093"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51163950"
 ---
 # <a name="set-up-a-connector-to-archive-slack-ediscovery-data"></a>Configurar um conector para arquivar dados de Descoberta e Descoberta Do Slack
 
-Use um conector Globalnet no centro de conformidade do Microsoft 365 para importar e arquivar dados de terceiros de redes sociais, mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio em sua organização do Microsoft 365. A Globalnet fornece um conector [do Slack](https://globanet.com/slack/) configurado para capturar itens da fonte de dados de terceiros (regularmente) e importar esses itens para o Microsoft 365. O Slack puxa mensagens e arquivos da API do Slack e as converte em um formato de mensagem de email e importa o item para caixas de correio de usuário.
+Use um conector Veritas no centro de conformidade do Microsoft 365 para importar e arquivar dados de terceiros de redes sociais, mensagens instantâneas e plataformas de colaboração de documentos para caixas de correio em sua organização do Microsoft 365. A Veritas fornece um conector [do Slack](https://globanet.com/slack/) configurado para capturar itens da fonte de dados de terceiros (regularmente) e, em seguida, importar esses itens para o Microsoft 365. O Slack puxa mensagens e arquivos da API do Slack e as converte em um formato de mensagem de email e importa o item para caixas de correio de usuário.
 
 Depois que os dados de Descoberta Eletrônico do Slack são armazenados em caixas de correio de usuário, você pode aplicar recursos de conformidade do Microsoft 365, como Retenção de Litígio, Descoberta Eletrônico, políticas de retenção e rótulos de retenção e conformidade de comunicação. O uso de um conector do Slack para importar e arquivar dados no Microsoft 365 pode ajudar sua organização a se manter em conformidade com políticas governamentais e regulatórias.
 
@@ -33,15 +33,15 @@ A visão geral a seguir explica o processo de uso de um conector para arquivar a
 
 1. Sua organização trabalha com o Slack para configurar e configurar um site do Slack.
 
-2. Uma vez a cada 24 horas, as mensagens de chat da Descoberta eDiscovery do Slack são copiadas para o site Globalnet Merge1. O conector também converte o conteúdo de uma mensagem de chat em um formato de mensagem de email.
+2. Uma vez a cada 24 horas, as mensagens de chat da Descoberta eDiscovery do Slack são copiadas para o site Veritas Merge1. O conector também converte o conteúdo de uma mensagem de chat em um formato de mensagem de email.
 
-3. O conector de Descoberta Eletrônica do Slack que você cria no centro de conformidade do Microsoft 365, conecta-se ao site Globalnet Merge1 todos os dias e transfere as mensagens de chat para um local seguro de Armazenamento do Azure na nuvem da Microsoft.
+3. O conector de Descoberta Eletrônica do Slack que você cria no centro de conformidade do Microsoft 365, se conecta ao site Veritas Merge1 todos os dias e transfere as mensagens de chat para um local seguro de Armazenamento do Azure na nuvem da Microsoft.
 
 4. O conector importa os itens de mensagem de chat convertidos para as caixas de correio de usuários específicos usando o valor da propriedade *Email* e o mapeamento automático do usuário, conforme descrito na Etapa 3. Uma nova subpasta na pasta Caixa de Entrada chamada Descoberta Automática do **Slack** é criada nas caixas de correio do usuário e os itens da mensagem de chat são importados para essa pasta. O conector determina para qual caixa de correio importar itens usando o valor da *propriedade Email.* Cada mensagem de chat contém essa propriedade, que é preenchida com o endereço de email de cada participante da mensagem de chat.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Crie uma conta Globalnet Merge1 para conectores da Microsoft. Para criar uma conta, contate [Globalnet Customer Support](https://globanet.com/ms-connectors-contact). Você entrará nessa conta quando criar o conector na Etapa 1.
+- Crie uma conta Veritas Merge1 para conectores da Microsoft. Para criar uma conta, entre em contato com [o Suporte ao Cliente veritas.](https://globanet.com/ms-connectors-contact) Você entrará nessa conta quando criar o conector na Etapa 1.
 
 - Obtenha o nome de usuário e a senha da conta corporativa do Slack da sua organização. Você precisará entrar nessa conta na Etapa 2 quando configurar o Slack.
 
@@ -63,7 +63,7 @@ A primeira etapa é acessar a página **Conectores** de Dados no centro de confo
 
 ## <a name="step-2-configure-slack-ediscovery"></a>Etapa 2: Configurar a Descoberta eDiscovery do Slack
 
-A segunda etapa é configurar o conector de Descoberta EDiscovery do Slack no site Merge1. Para obter mais informações sobre como configurar o conector de Descoberta EDiscovery do Slack no site Globalnet Merge1, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Slack%20eDiscovery%20User%20Guide.pdf).
+A segunda etapa é configurar o conector de Descoberta EDiscovery do Slack no site Merge1. Para obter mais informações sobre como configurar o conector de Descoberta EDiscovery do Slack no site veritas Merge1, consulte [Merge1 Third-Party Connectors User Guide](https://docs.ms.merge1.globanetportal.com/Merge1%20Third-Party%20Connectors%20Slack%20eDiscovery%20User%20Guide.pdf).
 
 Depois de clicar em Salvar &  **Concluir**, a página de mapeamento do usuário no assistente de conector no centro de conformidade do Microsoft 365 será exibida.
 

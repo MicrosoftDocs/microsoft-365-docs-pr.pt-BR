@@ -1,0 +1,52 @@
+---
+title: Acessar o Centro de Comunidade do Microsoft Defender para Ponto de Extremidade
+description: Acesse o Centro de Comunidade do Microsoft Defender ATP para compartilhar experiências, interagir e aprender sobre o produto.
+keywords: community, community center, tech community, conversation, announcements
+search.product: eADQiWindows 10XVcnh
+search.appverid: met150
+ms.prod: m365-security
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: macapara
+author: mjcaparas
+localization_priority: Normal
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: conceptual
+ms.date: 04/24/2018
+ms.technology: mde
+ms.openlocfilehash: 71dc2a004f188eac34258afb2200cfd4e67f47ab
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165232"
+---
+# <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>Acessar o Centro de Comunidade do Microsoft Defender para Ponto de Extremidade
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+**Aplica-se a:**
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
+
+>Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+
+O Defender for Endpoint Community Center é um local onde os membros da comunidade podem aprender, colaborar e compartilhar experiências sobre o produto. 
+
+Há vários espaços que você pode explorar para saber mais sobre informações específicas:
+- Comunicados 
+- Novidades
+- Inteligência contra Ameaças
+
+
+Há várias maneiras de acessar o Centro de Comunidade:
+- No painel de navegação do Centro de Segurança do Microsoft Defender, selecione **Centro de Comunidade**.  Uma nova guia do navegador é aberta e leva você para a página Defender for Endpoint Tech Community. 
+- Acessar a comunidade por meio da página comunidade técnica do [Microsoft Defender for Endpoint](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced)
+
+
+Você pode exibir e ler instantaneamente conversas que foram postadas na comunidade. 
+
+Para obter a experiência completa na comunidade, como poder comentar as postagens, você precisará ingressar na comunidade. Para obter mais informações sobre como começar a usar a Comunidade Técnica da Microsoft, consulte [Microsoft Tech Community: Getting Started](https://techcommunity.microsoft.com/t5/Getting-Started/Microsoft-Tech-Community-Getting-Started-Guide/m-p/77888#M15).
