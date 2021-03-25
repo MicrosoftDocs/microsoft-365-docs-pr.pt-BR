@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Proteja seus emails e dados de negócios contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: 4bc465af99f02edf91dacceaae14d39b3156e103
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9d24381b5947049c506b19553a2ab3d77b95d7c8
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052417"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200312"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Principais 12 tarefas para equipes de segurança para dar suporte ao trabalho em casa
 
@@ -40,7 +40,7 @@ Para clientes que usam nossos planos corporativos, a Microsoft recomenda que voc
 
 ****
 
-|Etapa|Tarefa|Todos os planos do Office 365 Enterprise|Microsoft 365 E3|Microsoft 365 E5|
+|Etapa|Tarefas|Todos os planos do Office 365 Enterprise|Microsoft 365 E3|Microsoft 365 E5|
 |---|---|---|---|---|
 |1|[Habilitar a MFA (Autenticação Multifabilitar) do Azure AD](#1-enable-azure-ad-multi-factor-authentication-mfa)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[Proteção contra ameaças](#2-protect-against-threats)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -74,7 +74,7 @@ A aplicação dessas políticas levará apenas alguns minutos, mas esteja prepar
 |---|---|
 |Planos do Microsoft 365 (sem o Azure AD P1 ou P2)|[Habilitar os padrões de segurança no Microsoft Azure Active Directory](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Os padrões de segurança no Microsoft Azure Active Directory incluem a MFA para usuários e administradores.|
 |Microsoft 365 E3 (com o Azure AD P1)|Use [políticas de Acesso Condicional Comuns](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) para configurar as seguintes políticas: <br/>- [Exigir MFA para administradores](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br/>- [Exigir MFA para todos os usuários](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br/> - [Bloquear autenticação herdada](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)|
-|Microsoft 365 E5 (com o Azure AD P2)|Aproveitando a Azure Active Directory Identity Protection, comece a implementar o [conjunto recomendado de acesso condicional e políticas relacionadas](./defender-365-security/identity-access-policies.md) da Microsoft, criando estas duas políticas:<br/> - [Exigir MFA quando o risco de entrada for médio ou alto](./defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [Bloquear clientes sem suporte para a autenticação moderna](./defender-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br/>- [Usuários de alto risco devem alterar a senha](./defender-365-security/identity-access-policies.md#high-risk-users-must-change-password)|
+|Microsoft 365 E5 (com o Azure AD P2)|Aproveitando a Azure Active Directory Identity Protection, comece a implementar o [conjunto recomendado de acesso condicional e políticas relacionadas](./office-365-security/identity-access-policies.md) da Microsoft, criando estas duas políticas:<br/> - [Exigir MFA quando o risco de entrada for médio ou alto](./office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br/>- [Bloquear clientes sem suporte para a autenticação moderna](./office-365-security/identity-access-policies.md#block-clients-that-dont-support-multi-factor)<br/>- [Usuários de alto risco devem alterar a senha](./office-365-security/identity-access-policies.md#high-risk-users-must-change-password)|
 |
 
 ## <a name="2-protect-against-threats"></a>2: Proteger contra ameaças
@@ -86,7 +86,7 @@ Todos os planos do Microsoft 365 incluem uma variedade de recursos de proteção
 - Proteção anti-phishing
 - Proteção antispam
 
-Consulte [Proteger contra ameaças no Office 365](defender-365-security/protect-against-threats.md) para obter orientações que você pode usar como ponto de partida.
+Consulte [Proteger contra ameaças no Office 365](office-365-security/protect-against-threats.md) para obter orientações que você pode usar como ponto de partida.
 
 ## <a name="3-configure-microsoft-defender-for-office-365"></a>3: Configurar o Microsoft Defender para Office 365
 
@@ -98,17 +98,17 @@ Microsoft Defender para Office 365:
 - Protege sua organização quando os usuários colaboram e compartilham arquivos, identificando e bloqueando arquivos mal-intencionados em sites de equipe e bibliotecas de documentos.
 - Aplica modelos de aprendizado de máquina e algoritmos avançados de detecção de representação para evitar ataques de phishing.
 
-Para uma visão geral, incluindo um resumo de planos, consulte [Defender for Office 365](./defender-365-security/defender-for-office-365.md).
+Para uma visão geral, incluindo um resumo de planos, consulte [Defender for Office 365](./office-365-security/defender-for-office-365.md).
 
 O Administrador Global pode configurar essas proteções:
 
-- [Configurar políticas de Links Seguros](defender-365-security/set-up-safe-links-policies.md)
-- [Configurar configurações globais para Links Seguros](defender-365-security/configure-global-settings-for-safe-links.md)
-- [Configurar políticas de Anexos Seguros](defender-365-security/set-up-safe-attachments-policies.md)
+- [Configurar políticas de Links Seguros](office-365-security/set-up-safe-links-policies.md)
+- [Configurar configurações globais para Links Seguros](office-365-security/configure-global-settings-for-safe-links.md)
+- [Configurar políticas de Anexos Seguros](office-365-security/set-up-safe-attachments-policies.md)
 
 Você precisará trabalhar com o administrador do Exchange Online e o administrador do SharePoint Online para configurar o Defender para o Office 365 para essas cargas de trabalho:
 
-- [ATP para SharePoint, OneDrive e Microsoft Teams](defender-365-security/mdo-for-spo-odb-and-teams.md)
+- [ATP para SharePoint, OneDrive e Microsoft Teams](office-365-security/mdo-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Configurar o Microsoft Defender para Identidade
 
@@ -141,10 +141,10 @@ As políticas de proteção de APLICATIVO incluem muitas configurações. Felizm
 
 Melhor ainda, a Microsoft coordena essa estrutura de proteção de aplicativos com um conjunto de acesso condicional e políticas relacionadas que recomendamos que todas as organizações usem como ponto de partida. Se você implementou o MFA usando as diretrizes neste artigo, você está no meio do caminho!
 
-Para configurar a proteção de aplicativo móvel, use as diretrizes em Políticas comuns de [identidade e acesso a dispositivos:](./defender-365-security/identity-access-policies.md)
+Para configurar a proteção de aplicativo móvel, use as diretrizes em Políticas comuns de [identidade e acesso a dispositivos:](./office-365-security/identity-access-policies.md)
 
- 1. Use as [diretrizes Aplicar políticas de proteção](./defender-365-security/identity-access-policies.md#apply-app-data-protection-policies) de dados do APP para criar políticas para iOS e Android. O nível 2 (proteção de dados aprimorada) é recomendado para proteção de linha de base.
- 2. Crie uma regra de acesso condicional para [Exigir aplicativos aprovados e proteção app](./defender-365-security/identity-access-policies.md#require-approved-apps-and-app-protection).
+ 1. Use as [diretrizes Aplicar políticas de proteção](./office-365-security/identity-access-policies.md#apply-app-data-protection-policies) de dados do APP para criar políticas para iOS e Android. O nível 2 (proteção de dados aprimorada) é recomendado para proteção de linha de base.
+ 2. Crie uma regra de acesso condicional para [Exigir aplicativos aprovados e proteção app](./office-365-security/identity-access-policies.md#require-approved-apps-and-app-protection).
 
 ## <a name="7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection"></a>7: Configurar o MFA e o acesso condicional para convidados, incluindo a proteção de aplicativo móvel do Intune
 
@@ -155,7 +155,7 @@ Se você estiver usando o plano do Microsoft 365 E5 e estiver aproveitando a Pro
 - Crie uma nova regra de acesso condicional para exigir MFA sempre para convidados e usuários externos.
 - Atualize a regra de acesso condicional MFA baseada em risco para excluir convidados e usuários externos.
 
-Use as diretrizes em Atualizar as políticas comuns para permitir e proteger o acesso de convidados e externos para entender como o acesso de convidados funciona com o Azure AD e atualizar as políticas afetadas. [](./defender-365-security/identity-access-policies-guest-access.md)
+Use as diretrizes em Atualizar as políticas comuns para permitir e proteger o acesso de convidados e externos para entender como o acesso de convidados funciona com o Azure AD e atualizar as políticas afetadas. [](./office-365-security/identity-access-policies-guest-access.md)
 
 As políticas de proteção de aplicativo móvel do Intune criadas, juntamente com a regra de acesso condicional para exigir aplicativos aprovados e proteção de APLICATIVO, se aplicam às contas de convidados e ajudarão a proteger os dados da sua organização.
 
@@ -173,12 +173,12 @@ Você também pode tirar proveito desses tutoriais:
 - [Usar o Autopilot para registrar dispositivos Windows no Intune](/mem/intune/enrollment/tutorial-use-autopilot-enroll-devices)
 - [Use os recursos de Registro de Dispositivo Corporativo da Apple no Apple Business Manager (ABM) para registrar dispositivos iOS/iPadOS no Intune](/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
 
-Depois de registrar dispositivos, use as diretrizes em Políticas comuns de [acesso](./defender-365-security/identity-access-policies.md) a dispositivos e identidade para criar essas políticas:
+Depois de registrar dispositivos, use as diretrizes em Políticas comuns de [acesso](./office-365-security/identity-access-policies.md) a dispositivos e identidade para criar essas políticas:
 
-- [Definir políticas de conformidade de dispositivo](./defender-365-security/identity-access-policies.md#define-device-compliance-policies) — As configurações recomendadas para o Windows 10 incluem a necessidade de proteção antivírus. Se você tiver o Microsoft 365 E5, use o Microsoft Defender para Endpoint para monitorar a saúde dos dispositivos dos funcionários. Certifique-se de que as políticas de conformidade para outros sistemas operacionais incluem proteção antivírus e software de proteção de ponto de extremidade.
-- [Exigir PCs compatíveis](./defender-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) — essa é a regra de acesso condicional no Azure AD que impõe as políticas de conformidade do dispositivo.
+- [Definir políticas de conformidade de dispositivo](./office-365-security/identity-access-policies.md#define-device-compliance-policies) — As configurações recomendadas para o Windows 10 incluem a necessidade de proteção antivírus. Se você tiver o Microsoft 365 E5, use o Microsoft Defender para Endpoint para monitorar a saúde dos dispositivos dos funcionários. Certifique-se de que as políticas de conformidade para outros sistemas operacionais incluem proteção antivírus e software de proteção de ponto de extremidade.
+- [Exigir PCs compatíveis](./office-365-security/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) — essa é a regra de acesso condicional no Azure AD que impõe as políticas de conformidade do dispositivo.
 
-Somente uma organização pode gerenciar um dispositivo, portanto, certifique-se de excluir as contas de convidado da regra de acesso condicional no Azure AD. Se você não excluir usuários convidados e externos de políticas que exigem conformidade com o dispositivo, essas políticas bloquearão esses usuários. Para obter mais informações, consulte [Atualizando as políticas comuns para permitir e proteger o acesso de convidados e externos.](./defender-365-security/identity-access-policies-guest-access.md)
+Somente uma organização pode gerenciar um dispositivo, portanto, certifique-se de excluir as contas de convidado da regra de acesso condicional no Azure AD. Se você não excluir usuários convidados e externos de políticas que exigem conformidade com o dispositivo, essas políticas bloquearão esses usuários. Para obter mais informações, consulte [Atualizando as políticas comuns para permitir e proteger o acesso de convidados e externos.](./office-365-security/identity-access-policies-guest-access.md)
 
 ## <a name="9-optimize-your-network-for-cloud-connectivity"></a>9: Otimizar sua rede para conectividade na nuvem
 
@@ -212,7 +212,7 @@ O Microsoft 365 fornece os seguintes recursos para ajudar a informar os usuário
 |---|---|
 |Microsoft 365|[Caminhos de aprendizado personalizáveis](/office365/customlearning/) <p>Esses recursos podem ajudá-lo a montar o treinamento para usuários finais em sua organização|
 |Segurança do Microsoft 365|[Módulo de aprendizagem: proteja sua organização com segurança interna e inteligente do Microsoft 365](/learn/modules/security-with-microsoft-365) <p>Este módulo permite descrever como os recursos de segurança do Microsoft 365 funcionam em conjunto e articular os benefícios desses recursos de segurança.|
-|Autenticação multifator|[Verificação em duas etapas: Qual é a página de verificação adicional?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Este artigo ajuda os usuários finais a entender o que é a autenticação multifatar e por que ela está sendo usada em sua organização.|
+|Multi-factor Authentication|[Verificação em duas etapas: Qual é a página de verificação adicional?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Este artigo ajuda os usuários finais a entender o que é a autenticação multifatar e por que ela está sendo usada em sua organização.|
 |
 
 Além dessas orientações, a Microsoft recomenda que seus usuários tomem as ações descritas neste artigo: Proteger sua conta e dispositivos [contra hackers e malware.](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx) Essas ações incluem:

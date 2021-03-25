@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: d2effb44c145a4fbf1006446685dbcd703754e6e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7143a360fb7093f94c6f66373587e1c895dd3213
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166204"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200300"
 ---
 # <a name="overview-of-automated-investigations"></a>Visão geral das investigações automatizadas
 
@@ -99,5 +99,5 @@ Atualmente, o AIR dá suporte apenas às seguintes versões do sistema operacion
 ## <a name="see-also"></a>Confira também
 
 - [Proteção PUA](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Investigação e resposta automatizadas no Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-air)
+- [Investigação e resposta automatizadas no Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
 - [Investigação e resposta automatizadas no Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)

@@ -17,12 +17,12 @@ ROBOTS: NOINDEX
 description: Os usuários podem aprender a exibir e agir em mensagens em quarentena enviadas a caixas de correio compartilhadas às quais eles têm permissões.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9490a9d5b2b4191d6c039be2758e2e0ba0c981cd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6e3bf4c84e7a762f7f54f42ff61f0fbdb9dc1edd
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203146"
+ms.locfileid: "51215499"
 ---
 # <a name="view-and-release-quarantined-messages-from-shared-mailboxes"></a>Exibir e liberar mensagens em quarentena de caixas de correio compartilhadas
 
@@ -50,6 +50,8 @@ Independentemente do método, os usuários podem evitar confusão incluindo a **
 - O primeiro usuário a agir na mensagem em quarentena decide o destino da mensagem para todos que usam a caixa de correio compartilhada. Por exemplo, se uma caixa de correio compartilhada for acessada por 10 usuários e um usuário decidir excluir a mensagem de quarentena, a mensagem será excluída para todos os 10 usuários. Da mesma forma, se um usuário decidir liberar a mensagem, ela será liberada para a caixa de correio compartilhada e será acessível por todos os outros usuários da caixa de correio compartilhada.
 
 - Atualmente, o **botão Bloquear remetente** não está disponível no sobremenu **de** Detalhes para mensagens em quarentena enviadas à caixa de correio compartilhada.
+
+- Em relação às operações de quarentena para caixas de correio compartilhadas, se você usar grupos de segurança aninhados para conceder acesso a uma caixa de correio compartilhada, recomendamos não mais do que dois níveis de grupos aninhados. Por exemplo, o Grupo A é membro do Grupo B, que é membro do Grupo C. Para atribuir permissões a uma caixa de correio compartilhada, não adicione o usuário ao Grupo A e atribua o Grupo C à caixa de correio compartilhada.  
 
 - Para gerenciar mensagens em quarentena para a caixa de correio compartilhada no PowerShell do [Exchange Online,](/powershell/exchange/connect-to-exchange-online-powershell)o usuário final precisará usar o cmdlet [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) com o endereço de email de caixa de correio compartilhado para o valor do parâmetro _RecipientAddress_ para identificar as mensagens. Por exemplo:
 

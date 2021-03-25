@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba como configurar as configurações de proxy e conexão com a Internet do dispositivo para ponto de extremidade DLP.
-ms.openlocfilehash: 3b8ebdbb08a6a866cc84df2031e77378925eaa0e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4d1aa3b75ec0a0720f3d92c847bf7c6cde6d966f
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907001"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199270"
 ---
 # <a name="configure-device-proxy-and-internet-connection-settings-for-endpoint-dlp"></a>Configurar as configurações de proxy e conexão com a Internet do dispositivo para ponto de extremidade DLP
 
@@ -42,7 +42,7 @@ A definição da configuração do WinHTTP é independente das configurações d
 > Se estiver usando proxy transparente ou WPAD na topologia de rede, você não precisa de configurações especiais. Para saber mais sobre o sobre o Defender para exclusões de URL do ponto de extremidade no proxy, veja [Habilitar acesso para URLs do serviço em nuvem do ponto de extremidade DLP no servidor proxy](#enable-access-to-endpoint-dlp-cloud-service-urls-in-the-proxy-server).
 
 - Configuração manual de proxy estático:
-    - Configuração baseada no registro
+    - Configuração baseada em registro
     - WinHTTP configurado usando o comando netsh - Adequado apenas para desktops em uma topologia estável (por exemplo: um desktop em uma rede corporativa atrás do mesmo proxy)
 
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>Configure o servidor proxy manualmente usando um proxy estático baseado no registro
@@ -96,7 +96,7 @@ Para saber mais, veja [Sintaxe, Contextos e Formatação do Comando Netsh](/wind
 
 Se um proxy ou firewall está bloqueando por padrão todo o tráfego e permitindo apenas a passagem de domínios específicos, adicione os domínios listados na planilha para download à lista de domínios permitidos.
 
-Esta [planilha para download](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/security/threat-protection/microsoft-defender-atp/downloads/mdatp-urls.xlsx) lista os serviços e os seus URLs associados que a sua rede deve ser capaz de se conectar. Você deve garantir que não hajam regras de firewall ou de filtragem de rede que neguem o acesso a esses URLs, ou pode ser necessário criar uma regra de permissão especificamente para eles.
+Esta [planilha para download](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) lista os serviços e os seus URLs associados que a sua rede deve ser capaz de se conectar. Você deve garantir que não hajam regras de firewall ou de filtragem de rede que neguem o acesso a esses URLs, ou pode ser necessário criar uma regra de permissão especificamente para eles.
 
 Se um proxy ou firewall tiver verificação HTTPS habilitada (inspeção SSL), exclua os domínios listados na tabela acima da verificação HTTPS.
 Se um proxy ou firewall estiver bloqueando o tráfego anônimo, como o ponto de extremidade DLP está se conectando a partir do contexto do sistema, certifique-se de que o tráfego anônimo seja permitido nos URLs listados anteriormente.
@@ -123,7 +123,7 @@ Substitua *HardDrivePath* pelo caminho para onde a ferramenta MDATPClientAnalyze
 
 6.  Abra **MDATPClientAnalyzerResult.txt** e verifique se você executou as etapas de configuração do proxy para permitir a descoberta do servidor e o acesso às URLs de serviço.  A ferramenta verifica a conectividade dos URLs do serviço Defender para Ponto de Extremidade com os quais o Defender para ponto de extremidade do cliente está configurado para interagir. Em seguida, ele imprime os resultados no arquivo **MDATPClientAnalyzerResult.txt** para cada URL que pode ser potencialmente usado para se comunicar com os serviços do Defender para Ponto de Extremidade. Por exemplo:
 
-    **Testing URL : https://xxx.microsoft.com/xxx </br> 1 - Default proxy: Succeeded (200) </br> 2 - Proxy auto discovery (WPAD): Succeeded (200)</br> 3 - Proxy disabled: Succeeded (200)</br> 4 - Named proxy: Doesn't exist</br> 5 - Command line proxy: Doesn't exist**</br>
+    **Testing URL: https://xxx.microsoft.com/xxx </br> 1 - Default proxy: Succeeded (200) </br> 2 - Proxy auto discovery (WPAD): Succeeded (200)</br> 3 - Proxy disabled: Succeeded (200)</br> 4 - Named proxy: Doesn't exist</br> 5 - Command-line proxy: Doesn't exist**</br>
 
 
 Se pelo menos uma das opções de conectividade retornar um status (200), então o Defender para ponto de extremidade do cliente pode se comunicar corretamente com o URL testado usando este método de conectividade. 

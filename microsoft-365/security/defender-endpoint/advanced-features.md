@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ed6f6b42570a908a1f4a83d46ef5b2de0c558692
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 059cfbf37c79ff9f99b5e46c8d4329c203aa9665
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199736"
+ms.locfileid: "51215523"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -206,7 +206,7 @@ Você terá acesso aos recursos futuros, nos quais você pode fornecer comentár
 
 Encaminha alertas de segurança do ponto de extremidade e seu status de triagem para o Centro de Conformidade da Microsoft, permitindo que você aprimora as políticas de gerenciamento de riscos internos com alertas e correção de riscos internos antes que causem danos. Os dados encaminhados são processados e armazenados no mesmo local que seus dados do Office 365.
 
-Depois de configurar os [indicadores](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-settings.md#indicators) de violação de política de segurança nas configurações de gerenciamento de riscos insider, os alertas do Defender para Ponto de Extremidade serão compartilhados com o gerenciamento de riscos insider para usuários aplicáveis.
+Depois de configurar os [indicadores](/microsoft-365/compliance/insider-risk-management-settings#indicators) de violação de política de segurança nas configurações de gerenciamento de riscos insider, os alertas do Defender para Ponto de Extremidade serão compartilhados com o gerenciamento de riscos insider para usuários aplicáveis.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
