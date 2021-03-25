@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações das fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 5e1bf9257cfd4751333e2e01789bb7dbaf2685fa
-ms.sourcegitcommit: 30c3054004ddc9d6059c11d55577552aa2464810
+ms.openlocfilehash: 53a8c9470093db9d57d8dc18f4242d1a596c6efd
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "50939630"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165628"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland (geral)
 
@@ -62,7 +62,7 @@ As seções a seguir contêm ações e efeitos para cargas de trabalho à medida
 
 ## <a name="before-the-migration-starts"></a>Antes de iniciar a migração
 
-Certifique-se de que você está familiarizado com as etapas de preparação de migração [que estão se aplicando a todos os clientes](ms-cloud-germany-transition-add-pre-work.md#applies-to-everyone).
+Certifique-se de que você está familiarizado com as etapas de preparação de [migração que se aplicam a todos os clientes](ms-cloud-germany-transition-add-pre-work.md).
 
 Caso você tenha definido um CNAME DNS chamado _msoid_ em um ou muitos namespaces DNS que você possui, você precisa remover o CNAME até o final da fase 8 no máximo. Você pode remover o _msoid_ CNAME a qualquer momento antes do final da fase 8. Consulte o [pré-trabalho para DNS](ms-cloud-germany-transition-add-pre-work.md#dns).
 
@@ -111,7 +111,7 @@ Se você estiver usando o Exchange Online híbrido: os administradores híbridos
 
 Após a conclusão da fase de migração **9** (quando o aviso do Centro de Mensagens é publicado), você precisa executar o HCW novamente usando as configurações do Office 365 Worldwide para apontar seus sistemas locais para os serviços Globais do Office 365.
 
-Se você deseja modificar as fotos do usuário durante a fase 5, consulte [Set-UserPhoto](ms-cloud-germany-transition-add-experience.md#exchange-online-before-phase-5)
+Se você quiser modificar as fotos do usuário durante a fase 5, consulte [Exchange Online Set-UserPhoto fase 5](ms-cloud-germany-transition-add-experience.md#exchange-online-set-userphoto-during-phase-5)
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
@@ -211,11 +211,11 @@ Os clientes com o Dynamics 365 exigem envolvimento adicional para migrar as orga
 
 Os locatários do Office 365 que fazem a transição para a região "Alemanha" exigem que todos os usuários fechem, saia do Office 365 e volte para todos os aplicativos de área de trabalho do Office (Word, Excel, PowerPoint, Outlook etc.) e cliente do OneDrive for Business depois que a migração do locatário atingir a fase 9. Entrar e entrar, permite que os serviços do Office obtenham novos tokens de autenticação do serviço global do Azure AD.
 
-Certifique-se de ter concluído o [procedimento de pré-trabalho para dispositivos móveis.](ms-cloud-germany-transition-add-pre-work.md#mobile)
+Certifique-se de ter concluído o [procedimento de pré-trabalho para dispositivos móveis.](ms-cloud-germany-transition-add-pre-work.md#mobile-device-management)
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
-| Clientes, Office Online durante a reposição de cliente do Office, o Azure AD finaliza o escopo do locatário para apontar para os serviços do Office 365. | Essa alteração de configuração permite que os clientes do Office atualizem e apontem para os pontos de extremidade dos serviços do Office 365. | <ul><li>Notifique os usuários para fechar todos os aplicativos do _Office_ e, em seguida, entrar novamente (ou forçar os clientes a reiniciar e os usuários a entrar) para permitir que os clientes do Office atendam à alteração. </li><li>Notifique os usuários  e a equipe de atendimento técnico de que os usuários podem ver um banner do Office que solicita que eles reativam os aplicativos do Office em até 72 horas após a recortação. </li><li>Todos os aplicativos do Office em máquinas pessoais devem ser fechados e os usuários devem sair e entrar novamente. Na barra de ativação Amarela, entre para reativar em relação aos serviços do Office 365.</li><li>As máquinas compartilhadas exigirão ações semelhantes a máquinas pessoais e não exigirão um procedimento especial. </li><li>Em dispositivos móveis, os usuários devem sair de aplicativos, fechar e entrar novamente. </li></ul>|
+| Clientes, Office Online durante a reposição de cliente do Office, o Azure AD finaliza o escopo do locatário para apontar para os serviços do Office 365. | Essa alteração de configuração permite que os clientes do Office atualizem e apontem para os pontos de extremidade dos serviços do Office 365. | <ul><li>Notifique os usuários para fechar todos os aplicativos do _Office_ e, em seguida, entrar novamente (ou forçar os clientes a reiniciar e os usuários a entrar) para permitir que os clientes do Office atendam à alteração. </li><li>Notifique os usuários  e a equipe de atendimento técnico de que os usuários podem ver um banner do Office que solicita que eles reativam os aplicativos do Office em até 72 horas após a recortação. </li><li>Todos os aplicativos do Office em máquinas pessoais devem ser fechados e os usuários devem sair e entrar novamente. Na barra de ativação Amarela, entre para reativar em relação aos serviços do Office 365.</li><li>As máquinas compartilhadas exigirão ações semelhantes a máquinas pessoais e não exigirão um procedimento especial. </li><li>Em dispositivos móveis, os usuários devem sair de aplicativos, fechar e entrar novamente.</li></ul>|
 ||||
 
 ## <a name="line-of-business-apps"></a>Aplicativos de linha de negócios

@@ -18,80 +18,115 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: pré-trabalho ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 37fde0119dfc84cbe9120cf922cbac469a0a50f1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d05b3fc06c4530a69c49962b0d2b793353033c99
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923833"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51165604"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Pré-trabalho para a migração do Microsoft Cloud Deutschland
 
 Use esses links para chegar às etapas de pré-trabalho relevantes para sua organização:
 
-- Para todos os clientes que usam o Office 365 no Microsoft Cloud Deutschland, faça [estas etapas.](#applies-to-everyone)
-- Se você estiver usando o Exchange Online ou o Exchange híbrido, [faça esta etapa](#exchange-online).
-- Se você estiver usando o SharePoint Online, faça [esta etapa](#sharepoint-online).
-- Se você estiver usando uma solução de gerenciamento de dispositivo móvel (MDM) de terceiros, [faça esta etapa.](#mobile)
-- Se você estiver usando aplicativos lob (serviço de terceiros) ou linha de negócios integrados ao Office 365, [faça esta etapa.](#line-of-business-apps)
-- Se você também estiver usando serviços do Azure além daqueles incluídos com sua assinatura do Office 365, [faça esta etapa](#microsoft-azure).
-- Se você também estiver usando o Dynamics 365, faça [esta etapa](#dynamics365).
-- Se você também estiver usando o Power BI, faça [esta etapa](#power-bi).
-- Para alterações de DNS, [faça esta etapa](#dns).
-- Se você estiver usando a identidade federada, faça [estas etapas.](#federated-identity)
+- Para **todos os clientes** que usam o Office 365 no Microsoft Cloud Deutschland, faça estas [etapas.](#general-tenant-migration-considerations)
+- Para **alterações de DNS,** [faça esta etapa](#dns).
+- Se você estiver usando os **Serviços de Federação** do Active Directory no local, faça estas [etapas.](#active-directory-federation-services-ad-fs)
+- Se você estiver usando o **SharePoint Online,** faça [esta etapa](#sharepoint-online).
+- Se você estiver usando o **Exchange Online** ou o **Exchange híbrido,** [faça esta etapa.](#exchange-online)
+- Se você estiver usando o **Skype for Business Online,** [faça esta etapa](#skype-for-business-online)
+- Se você estiver usando uma solução de gerenciamento de dispositivo móvel (MDM) de terceiros, [faça esta etapa.](#mobile-device-management)
+- Se você estiver  usando serviços de terceiros ou aplicativos **LOB (linha** de negócios) integrados ao Office 365, [faça esta etapa](#line-of-business-apps).
+- Se você também estiver usando **o Dynamics 365,** faça [esta etapa.](#dynamics365)
+- Se você também estiver usando o **Power BI,** faça [esta etapa](#power-bi).
+- Se você também estiver usando os serviços **do Azure** com sua assinatura do Office 365, [faça esta etapa](#microsoft-azure).
 
-## <a name="applies-to-everyone"></a>Aplica-se a todos
+## <a name="general-tenant-migration-considerations"></a>Considerações gerais sobre migração de locatários
+
+**Aplica-se a:** Todos os clientes que usam o Office 365 na instância do Microsoft Deutschland Cloud
+
+Os identificadores de usuário e locatário do Office 365 são preservados durante a migração. As chamadas de serviço do Azure AD são redirecionadas do Microsoft Cloud Deutschland para os serviços Globais do Office 365 e são transparentes para os serviços do Office 365.
+
+- As Solicitações gerais de Assunto de Proteção de Dados (RGPD) são executadas a partir do portal de administração do Azure para solicitações futuras. Quaisquer dados de diagnóstico herdados ou não do cliente residentes no Microsoft Cloud Deutschland são excluídos em ou antes de 30 dias.
+- Solicitações de autenticação multifatória (MFA) que usam a exibição do Microsoft Authenticator como objectID do usuário (um GUID) enquanto o locatário é copiado para serviços do Office 365. As solicitações de MFA terão o desempenho esperado apesar desse comportamento de exibição.  As contas do Microsoft Authenticator que foram ativadas usando pontos de extremidade dos serviços do Office 365 exibirão o nome principal do usuário (UPN).  Contas adicionadas usando pontos de extremidade do Microsoft Cloud Deutschland exibirão o ObjectID do usuário, mas funcionarão com pontos de extremidade do Microsoft Cloud Deutschland e do Office 365.
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
 | Prepare-se para notificar os usuários sobre como reiniciar e entrar e sair de seus clientes após a migração. | O licenciamento do cliente do Office fará a transição do Microsoft Cloud Deutschland para os serviços do Office 365 na migração. Os clientes escolhem uma nova licença válida depois de entrar e sair para clientes do Office. | Os produtos do Office dos usuários precisam atualizar licenças dos serviços do Office 365. Se as licenças não são atualizadas, os produtos do Office podem ter erros de validação de licença. |
-| Certifique-se de conectividade de rede com URLs e endereços IP de serviços do [Office 365.](./urls-and-ip-address-ranges.md) | Todos os clientes e serviços hospedados pelo cliente que são usados para acessar o serviço do Office 365 devem ser capazes de acessar os pontos de extremidade dos serviços globais do Office 365. <br>No caso, você ou seus parceiros de colaboração têm regras de firewall em vigor que impediriam o acesso às URLs e endereços IP listados em URLs de serviços do [Office 365](./urls-and-ip-address-ranges.md) e endereços IP devem alterar as regras de firewall para permitir o acesso aos pontos de extremidade do serviço Global do Office 365| Falhas do serviço ou do software cliente podem ocorrer se isso não for feito antes da Fase 4  |
+| Certifique-se de conectividade de rede com URLs e endereços IP de serviços do [Office 365.](https://aka.ms/o365urls) | Todos os clientes e serviços hospedados pelo cliente que são usados para acessar o serviço do Office 365 devem ser capazes de acessar os pontos de extremidade dos serviços globais do Office 365. <br>Caso você ou seus parceiros de colaboração tenham regras de firewall em vigor que impediriam o acesso às URLs e endereços IP listados em URLs e endereços IP de serviços do [Office 365](https://aka.ms/o365urls) devem alterar as regras de firewall para permitir o acesso aos pontos de extremidade do serviço Global do Office 365| Falhas do serviço ou do software cliente podem ocorrer se isso não for feito antes da Fase 4  |
 | Cancele assinaturas de avaliação. | As assinaturas de avaliação não serão migradas e bloquearão a transferência de assinaturas pagas. | Os serviços de avaliação expiram e não funcionam se acessados pelos usuários após o cancelamento. |
-| Analise as diferenças nos recursos de licença entre o Microsoft Cloud Deutschland e o Office 365 Services. | Os serviços do Office 365 incluem recursos e serviços adicionais não disponíveis no Microsoft Cloud Deutschland atual. Durante a transferência de assinatura, novos recursos estarão disponíveis para os usuários. | <ul><li> Analise os diferentes recursos fornecidos pelas licenças do Microsoft Cloud Deutschland e do Office 365 Services. Comece com a descrição do [serviço da plataforma do Office 365.](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> Determine se os novos recursos dos serviços do Office 365 devem ser desabilitados inicialmente para limitar os efeitos nos usuários ou no gerenciamento de alterações do usuário e alterar as atribuições de licença do usuário conforme necessário. </li><li>Preparar usuários e equipe de help desk para novos serviços e recursos fornecidos pelos serviços do Office 365. |
-| Crie políticas de [retenção em](../compliance/retention.md) toda a organização para proteger contra exclusão inadvertida de conteúdo durante a migração.  |<ul><li>Para garantir que o conteúdo não seja excluído inadvertidamente pelos usuários finais durante a migração, os clientes podem optar por habilitar uma política de retenção em toda a organização. </li><li>Embora a retenção não seja necessária, já que as retenções colocadas a qualquer momento durante a migração devem funcionar conforme o esperado, ter uma política de retenção é um mecanismo de segurança de back-up. Ao mesmo tempo, uma política de retenção pode não ser usada por todos os clientes, especialmente aqueles que estão preocupados com a preservação.</li></ul>| Aplicar política de retenção conforme descrito em [Saiba mais sobre políticas de retenção e rótulos de retenção.](../compliance/retention.md) Falhas do serviço ou do software cliente podem ocorrer se isso não for feito antes da Fase 4 de 9. </li></ul>|
-| Excessos de licença corretos | Em determinadas circunstâncias, os clientes podem ser capazes de consumir mais serviços do que são comprados. Essa condição é conhecida como excesso de licença. A Microsoft não pode migrar clientes em uma condição de excesso de licença do Microsoft Cloud Deutschland para as regiões do datacenter alemão. Para garantir o acesso contínuo ao serviço e aos dados, todos os usuários atribuídos exigem uma licença. | Todos os clientes | Os clientes devem avaliar e resolver a condição de excesso de licença por meio da compra de licenças adicionais ou desaignando licenças de usuários. |
+| Analise as diferenças nos recursos de licença entre o Microsoft Cloud Deutschland e os Serviços Globais do Office 365. | Os serviços do Office 365 incluem recursos e serviços adicionais não disponíveis no Microsoft Cloud Deutschland atual. Durante a transferência de assinatura, novos recursos estarão disponíveis para os usuários. | <ul><li> Analise os diferentes recursos fornecidos pelas licenças do Microsoft Cloud Deutschland e do Office 365 Global Services. Comece com a descrição do [serviço da plataforma do Office 365.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description) </li><li> Determine se os novos recursos dos serviços do Office 365 devem ser desabilitados inicialmente para limitar os efeitos nos usuários ou no gerenciamento de alterações do usuário e alterar as atribuições de licença do usuário conforme necessário. </li><li>Preparar usuários e equipe de help desk para novos serviços e recursos fornecidos pelos serviços do Office 365. |
+| Crie políticas de [retenção em](https://docs.microsoft.com/microsoft-365/compliance/retention) toda a organização para proteger contra exclusão inadvertida de conteúdo durante a migração.  |<ul><li>Para garantir que o conteúdo não seja excluído inadvertidamente pelos usuários finais durante a migração, os clientes podem optar por habilitar uma política de retenção em toda a organização. </li><li>Embora a retenção não seja necessária, já que as retenções colocadas a qualquer momento durante a migração devem funcionar conforme o esperado, ter uma política de retenção é um mecanismo de segurança de back-up. Ao mesmo tempo, uma política de retenção pode não ser usada por todos os clientes, especialmente aqueles que estão preocupados com a preservação.</li></ul>| Aplicar política de retenção conforme descrito em [Saiba mais sobre políticas de retenção e rótulos de retenção.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) Falhas do serviço ou do software cliente podem ocorrer se isso não for feito antes da Fase 4 de 9. </li></ul>|
 |||||
+
+## <a name="dns"></a>DNS
+
+<!-- before phase 9 -->
+
+**Aplica-se** a : clientes que definiram um CNAME _msoid_ personalizado em seu próprio domínio DNS
+
+Se configurado, o CNAME _msoid_ afetará apenas clientes usando o cliente da Área de Trabalho do Office (Microsoft 365 Apps, Office 365 ProPlus, Office 2019, 2016, ...).
+
+Caso você tenha definido um CNAME DNS chamado _msoid_ em um ou muitos namespaces DNS que você possui, você precisa remover o CNAME até o final da fase 8 no máximo. Você pode remover o _msoid_ CNAME a qualquer momento antes do final da fase 8.
+
+Para verificar se você definiu um CNAME em seu namespace DNS, siga as etapas abaixo e substitua contoso.com _pelo_ seu próprio nome de domínio:
+
+```console
+nslookup -querytype=CNMAE msoid.contoso.com
+```
+
+Se a linha de comando retornar um registro DNS, remova o CNAME _msoid_ do seu domínio.
 
 ## <a name="active-directory-federation-services-ad-fs"></a>Serviços de Federação do Active Directory (AD FS)
 
-**Aplica-se** a : clientes que usam o AD FS no local para autenticar usuários que se conectam ao Microsoft Office 365
+<!-- before phase 4 -->
 
-| Step(s) | Descrição | Impacto |
-|:-------|:-------|:-------|
-| [Backup do farm dos Serviços de Federação do Active Directory (AD FS)](ms-cloud-germany-transition-add-adfs.md#backup) para cenários de recuperação de desastres. | Os clientes precisam fazer o back up do farm do AD FS adequadamente para garantir que as confianças da parte confiável nos pontos de extremidade globais & Alemanha possam ser restauradas sem tocar no URI do emissor dos domínios. A Microsoft recomenda usar a Restauração Rápida do AD FS para um backup do farm e a respectiva restauração, se necessário. | Ação Necessária. A inação resultará em impacto no serviço durante a migração se o farm do AD FS do cliente falhar. Para obter mais informações, consulte etapas [de Migração do ADFS](./ms-cloud-germany-transition-add-adfs.md) |
-||||
+**Aplica-se** a : clientes que usam o AD FS no local para autenticar usuários que se conectam ao Microsoft Office 365<br>
+**Quando aplicado:** a qualquer momento antes do início da fase 4
 
-## <a name="exchange-online"></a>Exchange Online
-
-**Aplica-se a**: clientes do Exchange Online que permitiram o compartilhamento de calendário e espaço de endereço de disponibilidade.
-
-| Step(s) | Descrição | Impacto |
-|:-------|:-------|:-------|
-| Notifique parceiros externos sobre a próxima transição para os serviços do Office 365. | As configurações de espaço de endereço de disponibilidade permitem o compartilhamento de informações de disponibilidade com o Office 365. | A falha ao fazer isso pode resultar em falha no serviço ou no cliente em uma fase posterior da migração do cliente. |
-|||||
-
-### <a name="exchange-online-hybrid-configuration"></a>Configuração híbrida do Exchange Online
-
-**Aplica-se a**: clientes do Exchange Online com uma configuração híbrida ativa do Exchange
-
-| Step(s) | Descrição | Impacto |
-|:-------|:-------|:-------|
-| Atualize para a versão mais recente do Assistente de Configuração Híbrida (HCW) a qualquer momento antes que seu locatário entre no estágio 5 de migração. Você pode iniciar essa atividade imediatamente após receber a notificação do centro de mensagens de que a migração de locatários do Office 365 começou.<br><br> Os clientes do Exchange Online híbridos do Microsoft Cloud Deutschland devem desinstalar versões anteriores do HCW e instalar e executar a versão mais recente (17.0.5378.0 ou superior) de [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) . |<ul><li>A versão mais recente do HCW inclui atualizações necessárias para dar suporte aos clientes que estão fazendo a transição do Microsoft Cloud Deutschland para o Office 365 Services.</li><li> As atualizações incluem alterações nas configurações de certificado local para o conector de Envio e o conector de Recebimento.</li><li> Os administradores do Exchange devem instalar o HCW a qualquer momento antes do início da Fase 5 de 9 (migração do Exchange).<br>Ao executar o HCW antes da fase 5, selecione "Office 365 Germany" na 2ª página do HCW em _Office 365 Exchange Online_ na caixa de listagem abaixo da organização do Meu Office _365_ é hospedada pela</li><li>**OBSERVAÇÃO**: após a conclusão da migração de locatários do Office 365, você removerá e instalará novamente o HCW, desta vez usando as configurações "Office 365 Worldwide" na 2ª página do HCW para concluir sua configuração híbrida com o serviço global do Exchange Online.</li></ul>|A falha ao executar o HCW antes da Fase 5 (migração do Exchange) pode resultar em falha no serviço ou no cliente. |
-||||
+Ler e aplicar as etapas [de Migração do ADFS](ms-cloud-germany-transition-add-adfs.md)
 
 ## <a name="sharepoint-online"></a>SharePoint Online
 
-**Aplica-se a**: clientes que usam o SharePoint 2013 no local
+<!-- before phase 4 -->
 
+**Aplica-se a**: clientes que usam o SharePoint 2013 local<br>
+**Quando aplicado:** a qualquer momento antes do início da fase 4
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
 | Limite os fluxos de trabalho do SharePoint 2013, use durante a migração do SharePoint Online. | Reduza os fluxos de trabalho do SharePoint 2013 e conclua fluxos de trabalho de pré-voo antes das transições. | A inação pode resultar em confusão do usuário e chamadas de help desk. |
 ||||
 
+## <a name="exchange-online"></a>Exchange Online
+
+<!-- before phase 5 -->
+
+**Aplica-se a**: clientes do Exchange Online que habilitaram o espaço de endereço de disponibilidade e calendário de compartilhamento<br>
+**Quando aplicado:** a qualquer momento antes do final da fase 9
+
+| Step(s) | Descrição | Impacto |
+|:-------|:-------|:-------|
+| Notifique parceiros externos sobre a próxima transição para os serviços do Office 365. | As configurações de espaço de endereço de disponibilidade permitem o compartilhamento de informações de disponibilidade com o Office 365. | A falha ao fazer isso pode resultar em falha no serviço ou no cliente em uma fase posterior da migração do cliente. |
+||||
+
+### <a name="exchange-online-hybrid-configuration"></a>Configuração híbrida do Exchange Online
+
+**Aplica-se a:** Todos os clientes que usam uma configuração híbrida ativa do Exchange com servidores Exchange locais<br>
+**Quando aplicado:** a qualquer momento antes do início da fase 5
+
+| Step(s) | Descrição | Impacto |
+|:-------|:-------|:-------|
+| Atualize para a versão mais recente do Assistente de Configuração Híbrida (HCW) a qualquer momento antes que seu locatário entre no estágio 5 de migração. Você pode iniciar essa atividade imediatamente após receber a notificação da central de mensagens de que a migração de locatários do Office 365 começou (fase 1).<br>O administrador do Exchange deve desinstalar versões anteriores do HCW e instalar e executar a versão mais recente (17.0.5378.0 ou superior) de [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) . |<ul><li>A versão mais recente do HCW inclui atualizações necessárias para dar suporte à migração do Exchange Online da instância do Microsoft Cloud Deutschland para os Serviços Globais do Office 365.</li><li> As atualizações incluem alterações nas configurações de certificado local para o conector _de envio_ e o conector _de recebimento._</li><li>Ao executar o HCW antes da fase 5, selecione "Office 365 Germany" na 2ª página do HCW em _Office 365 Exchange Online_ na caixa de listagem abaixo da organização do Meu Office _365_ é hospedada pela</li><li>**OBSERVAÇÃO**: após a conclusão da migração de locatários do Office 365 após a fase 9, você removerá e instalará novamente o HCW, desta vez usando as configurações "Office 365 Worldwide" na 2ª página do HCW para concluir sua configuração híbrida com o serviço global do Exchange Online.</li></ul>|A falha ao executar o HCW antes da Fase 5 (migração do Exchange) pode resultar em falha no serviço ou no cliente. |
+| Estabeleça o AuthServer local apontando para STS (Serviço de Token de Segurança) global para autenticação | Isso garante que as solicitações de autenticação para solicitações de disponibilidade do Exchange de usuários em estado de migração destinados ao ambiente local híbrido sejam autenticadas para acessar o serviço local. Da mesma forma, isso garantirá a autenticação de solicitações do local para os pontos de extremidade dos serviços globais do Office 365. | Depois que a migração do Azure AD (fase 2) for concluída, o administrador da topologia local do Exchange (híbrido) deverá adicionar um novo ponto de extremidade do serviço de autenticação para os serviços Globais do Office 365. Com este comando do Exchange PowerShell, substitua pela ID de locatário da sua organização encontrada no portal do `<TenantID>` Azure no Azure Active Directory.<br>`New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantId>/metadata/json/1`<br> A falha na conclusão dessa tarefa pode resultar em solicitações híbridas de ocupado livre que não fornecem informações para usuários de caixa de correio que foram migrados do Microsoft Cloud Deutschland para os serviços do Office 365.  |
+||||
+
 ## <a name="skype-for-business-online"></a>Skype for Business Online
 
-**Aplica-se a**: clientes do Skype For Business Online
+<!-- before phase 7 -->
+
+**Aplica-se a**: clientes do Skype For Business Online<br>
+**Quando aplicado:** a qualquer momento antes do início da fase 7
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
@@ -100,9 +135,11 @@ Use esses links para chegar às etapas de pré-trabalho relevantes para sua orga
 | Preparar treinamento e preparação do Usuário Final e administração para a transição para o Microsoft Teams. | Seja bem-sucedido em sua transição do Skype para o Teams planejando a comunicação e a prontidão do usuário. | <ul><li>Os clientes precisam estar cientes dos novos serviços e como usar depois que seus serviços são transitivos para os serviços do Office 365. </li><li>Depois que as alterações de DNS são feitas para os domínios de cliente e para o domínio inicial, os usuários entrariam no Skype for Business e veriam que eles agora são migrados para o Teams. Isso também baixaria o cliente da área de trabalho para o Teams em segundo plano. </li></ul>|
 ||||
 
-## <a name="mobile"></a>Celular
+## <a name="mobile-device-management"></a>Gerenciamento de dispositivo móvel
 
-Se você estiver usando uma solução de gerenciamento de dispositivo móvel (MDM) de terceiros:
+<!-- before phase 5 -->
+**Aplica-se a:** Clientes que usam uma solução de gerenciamento de dispositivo móvel (MDM) de terceiros<br>
+**Quando aplicado:** a qualquer momento antes do início da fase 5
 
 | Step(s) | Descrição | Aplicável a | Impacto |
 |:-------|:-----|:-------|:-------|
@@ -112,7 +149,10 @@ Se você estiver usando uma solução de gerenciamento de dispositivo móvel (MD
 
 ## <a name="line-of-business-apps"></a>Aplicativos de linha de negócios
 
-Se você estiver usando um serviço de terceiros ou aplicativos de linha de negócios (LOB) integrados ao Office 365: 
+**Aplica-se a:** Clientes que usam aplicativos de linha de negócios (LOB) com pontos de extremidade fornecidos pelo Microsoft Cloud Deutschland<br>
+**Quando aplicado:** após a conclusão da fase 2 e antes do final da fase 9
+
+Se você estiver usando um serviço de terceiros ou aplicativos de linha de negócios (LOB) integrados ao Office 365, você deve resolver quaisquer dependências nos pontos de extremidade fornecidos pela instância do Microsoft Cloud Deutschland. Por exemplo, se seus aplicativos LOB estão se conectando `https://graph.microsoft.de/` a , você deve alterar o ponto de extremidade para `https://graph.microsoft.com/` . Os pontos de extremidade do serviço Microsoft Office 365 Global ficam disponíveis para seu locatário após a fase 2.
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
@@ -121,7 +161,7 @@ Se você estiver usando um serviço de terceiros ou aplicativos de linha de neg�
 
 ## <a name="dynamics-365"></a>Dynamics 365
 
-**Aplica-se a**: clientes que usam o Microsoft Dynamics
+**Aplica-se a**: clientes que usam o Microsoft Dynamics 365
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
@@ -130,31 +170,21 @@ Se você estiver usando um serviço de terceiros ou aplicativos de linha de neg�
 
 ## <a name="power-bi"></a>Power BI
 
-**Aplica-se a**: clientes do Power BI 
+**Aplica-se a**: clientes que usam o Power BI
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
 | Remoção de objetos de assinaturas do Power BI que não serão migrados do Power BI Microsoft Cloud Deutschland para serviços do Office 365. | A migração dos serviços do Power BI exigirá a ação do cliente para excluir determinados artefatos, como conjuntos de dados e painéis. | <ul><li>Os administradores podem ter que remover os seguintes itens de sua assinatura: </li><li>Real-Time dados (por exemplo, conjuntos de dados de streaming ou push) </li><li>Fonte de dados e configuração local do Power BI </li></ul>|
 ||||
 
-## <a name="dns"></a>DNS
-
-**Aplica-se** a : clientes que usam o cliente da Área de Trabalho do Office (Microsoft 365 Apps, Office 365 ProPlus, Office 2019, 2016, ...)<br>
-Remova MSOID, CName do DNS de propriedade do cliente se existir a qualquer momento antes do recorte do Azure Active Directory (Azure AD). Um TTL de 5 minutos pode ser definido para que a alteração possa ter efeito rapidamente.
-
-## <a name="federated-identity"></a>Identidade federada
-
-| Step(s) | Descrição | Impacto |
-|:-------|:-------|:-------|
-| Adicione um identificador para SSO (login único) a uma confiança de parte confiável existente e desabilite as atualizações automáticas de metadados do AD FS. | Uma ID deve ser adicionada à confiança da parte confiável do AD FS antes de iniciar a migração. Para evitar a remoção acidental do identificador de terceiros de confiança, desabilite a atualização automática para atualizações de metadados. <br><br> Execute este comando como uma única linha de comando no servidor do AD FS: <br>`Set-AdfsRelyingPartyTrust -TargetIdentifier urn:federation:microsoftonline.de -Identifier @('urn:federation:microsoftonline.de', 'https://login.microsoftonline.de/extSTS.srf', 'https://login.microsoftonline.de') -AutoUpdate $False`
-| Organizações de autenticação federadas | Ação Necessária. A inação antes da Fase 4 de 9 (SharePoint) resultará em impacto no serviço durante a migração.  |
-| Gere confiança de terceiros confiável para pontos de extremidade globais do Azure AD. | Os clientes precisam criar manualmente um RPT (confiança de parte confiável) para pontos de extremidade [globais.](https://nexus.microsoftonline-p.com/federationmetadata/2007-06/federationmetadata.xml) Isso é feito adicionando um novo RPT via GUI aproveitando a URL de metadados de federação global e usando as Regras de Declaração RPT do [Azure AD](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator#:~:text=%20Azure%20AD%20RPT%20Claim%20Rules%20%201,Azure%20AD.%20This%20will%20be%20what...%20More%20) (na Ajuda do AD FS) para gerar as regras de declaração e importá-las para o RPT. | Organizações de autenticação federadas | Ação Necessária. A inação resultará em impacto no serviço durante a migração. |
-|||||
-
 ## <a name="microsoft-azure"></a>Microsoft Azure
 
 Se você estiver usando a mesma partição de identidade do Azure Active Directory para o Office 365 e o Microsoft Azure na instância do Microsoft Cloud Deutschland, certifique-se de que você está se preparando para a migração orientada pelo cliente dos serviços do Microsoft Azure.
-A migração dos serviços do Microsoft Azure não deve ser iniciada antes que o locatário do Office 365 tenha atingido a fase de migração 3 e deve ser concluída antes da conclusão da fase 8 de migração.
+
+> [!NOTE]
+> A migração dos serviços do Microsoft Azure não deve ser iniciada antes que o locatário do Office 365 tenha atingido a fase de migração 3 e deve ser concluída antes da conclusão da fase 8 de migração.
+
+Os clientes que usam recursos do Office 365 e do Azure (por exemplo, rede, computação e armazenamento) realizarão a migração de recursos para a instância de serviços do Office 365. Essa migração é responsabilidade do cliente. As postagens da Central de Mensagens sinalizam o início. A migração deve ser concluída antes da finalização da organização do Azure AD no ambiente de serviços do Office 365. Para migrações do Azure, consulte o manual de migração do Azure, Visão geral das diretrizes de migração [para o Azure Germany](https://docs.microsoft.com/azure/germany/germany-migration-main).
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
