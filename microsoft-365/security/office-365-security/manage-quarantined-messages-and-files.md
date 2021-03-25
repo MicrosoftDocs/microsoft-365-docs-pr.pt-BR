@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários no Exchange Online Protection (EOP). Os administradores em organizações com o Microsoft Defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8c606daccfd037cad4d894ab7f33ff02fcf172b5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3dee441a3442454c5f2978422d18a2084f8377f3
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202987"
+ms.locfileid: "51215529"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -197,6 +197,8 @@ Depois de selecionar uma mensagem, você tem várias opções para o que fazer c
 
 - **Mensagem de download**: no painel de submenu que é exibido, clique em **Compreendo os riscos de baixar esta mensagem** para salvar uma cópia local da mensagem no formato .eml.
 
+- **Bloquear Remetente**: isso impede que o remetente envie emails para a caixa de correio do destinatário do administrador.
+
 - **Enviar mensagem**: no painel de sub-texto que aparece, escolha as seguintes opções:
 
   - **Tipo de objeto**: **Email** (padrão), **URL** ou **Anexo.**
@@ -307,6 +309,6 @@ Os cmdlets que você usa para exibir e gerencia mensagens e arquivos em quarente
 
 - [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage](/powershell/module/exchange/preview-quarantinemessage): observe que esse cmdlet é apenas para mensagens, não arquivos de malware de Anexos Seguros para SharePoint, OneDrive e Microsoft Teams.
+- [Preview-QuarantineMessage](/powershell/module/exchange/preview-quarantinemessage): observe que esse cmdlet é apenas para mensagens, não arquivos em quarentena de Anexos Seguros para SharePoint, OneDrive e Microsoft Teams.
 
 - [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)

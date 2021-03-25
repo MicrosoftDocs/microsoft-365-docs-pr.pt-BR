@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Use o centro de administração para configurar sua organização na nuvem e gerenciar usuários e assinaturas. Comece acessando a conta com permissões de administrador.
-ms.openlocfilehash: dca9e5dd4cc8a35721014fa06c0bb844b608778c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7d326629de4859819784af015292f99b044658d0
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903543"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215487"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
@@ -84,7 +84,7 @@ Aqui estão os recursos e configurações que você encontrará na navegação e
 |**Settings** <br/> |Gerencie as configurações globais para aplicativos como email, sites e o pacote do Office. Altere a política de senha e a data de expiração. Adicione e atualize os nomes de domínio como contoso.com. Altere o perfil da organização e as preferências de lançamento. E escolha se os parceiros podem acessar seu centro de administração.  <br/> |
 |**Configurar** <br/> |Gerenciar domínios existentes, ative e gerencie autenticação multifator, gerencie o acesso de administrador, migre caixas de correio de usuários para o Office 365, gerencie atualizações de recursos e ajude os usuários a instalar seus aplicativos do Office. |
 |**Relatórios** <br/> |Confira rapidamente como sua organização está usando o Microsoft 365 com relatórios detalhados sobre o uso de email, ativações do Office e muito mais. Saiba como usar os novos [relatórios de atividades](../activity-reports/activity-reports.md).  <br/> |
-|**Integridade** <br/> |Exiba o serviço de integridade num relance. Você também pode conferir mais detalhes e o histórico do serviço de integridade. Confira [Como verificar a integridade do serviço](../../enterprise/view-service-health.md).  <br/> Use o Centro de mensagens para controlar as alterações futuras nos recursos e serviços. Nele, postamos anúncios com informações que ajudam você a se planejar para mudanças e a entender como elas podem afetar os usuários. Obtenha mais detalhes em [Centro de mensagens no Office 365](../manage/message-center.md).  <br/> |
+|**Integridade** <br/> |Exibir a saúde rapidamente. Você também pode conferir mais detalhes e o histórico de saúde. Confira [Como verificar a saúde do serviço e](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health) como verificar a saúde da versão do [Windows](https://docs.microsoft.com/windows/deployment/update/check-release-health) para obter mais informações.  <br/><br/>Use o Centro de mensagens para controlar as alterações futuras nos recursos e serviços. Nele, postamos anúncios com informações que ajudam você a se planejar para mudanças e a entender como elas podem afetar os usuários. Obter mais detalhes no [Centro de Mensagens](../manage/message-center.md). <br/> |
 |**Centros de administração** <br/> |Abra centros de administração do Exchange, Skype for Business, SharePoint e Azure AD, separadamente. Todos os centros de administração possuem todas as configurações disponíveis para seu respectivo serviço.  <br/> Por exemplo, no Centro de administração do Exchange, configure e gerencie emails, calendários, grupos de distribuição e muito mais. No Centro de administração do SharePoint, crie e gerencie conjuntos de sites, configurações do site e o OneDrive for Business. No Centro de administração do Skype for Business, configure as notificações de mensagens instantâneas, conferência discada e presença online.  <br/> Saiba mais sobre o [Centro de administração do Exchange](/exchange/exchange-admin-center) e o [SharePoint Admin Center](/sharepoint/sharepoint-online).<br/> **Observação:** Os centros de administração disponíveis pra você dependem do seu plano e região.           |
    
 ## <a name="common-tasks-in-the-admin-center"></a>Tarefas comuns no centro de administração
