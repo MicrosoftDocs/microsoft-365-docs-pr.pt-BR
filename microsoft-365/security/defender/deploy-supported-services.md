@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 0902dce0af3c101cbaf7ff526beb71e9f46a1bf4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 434c318be404ffb04cac7a05664c8f001bb46507
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187512"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198856"
 ---
 # <a name="deploy-supported-services"></a>Implantar serviços com suporte
 
@@ -78,7 +78,7 @@ A implantação de cada serviço normalmente requer provisionamento para seu loc
 | Serviço | Instruções de provisionamento | Configuração inicial |
 | ------ | ------ | ------ |
 | Microsoft Defender para Ponto de Extremidade | [Guia de implantação do Microsoft Defender para Ponto de Extremidade](../defender-endpoint/deployment-phases.md) | *Consulte instruções de provisionamento* |
-|Microsoft Defender para Office 365 | *Nenhum, provisionado com o Office 365* | [Configurar politicas do Microsoft Defender para Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365#configure-atp-policies) |
+|Microsoft Defender para Office 365 | *Nenhum, provisionado com o Office 365* | [Configurar politicas do Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) |
 | Microsoft Defender para Identidade? | [Início rápido: crie sua instância do Microsoft Defender para Identidade](/azure-advanced-threat-protection/install-atp-step1) | *Consulte instruções de provisionamento* |
 | Microsoft Cloud App Security | *Nenhum* | [Início rápido: começar com o Microsoft Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security) |
 
@@ -89,6 +89,6 @@ Depois de ter implantado os serviços com suporte, [acionar o Microsoft 365 Defe
 - [Visão geral do Microsoft 365 Defender](microsoft-365-defender.md)
 - [Ativar o Microsoft 365 Defender](m365d-enable.md)
 - [Visão geral do Microsoft Defender para Ponto de Extremidade](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Visão geral do Microsoft Defender para Office 365](../defender-365-security/defender-for-office-365.md)
+- [Visão geral do Microsoft Defender para Office 365](../office-365-security/defender-for-office-365.md)
 - [Visão geral do Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)
 - [Visão geral do Microsoft Defender para Identidade](/azure-advanced-threat-protection/what-is-atp)

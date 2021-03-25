@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Aprenda a usar o recurso de email piloto do meu domínio personalizado para uma caixa de correio do Microsoft 365 usando apenas duas contas de teste.
-ms.openlocfilehash: e710218a2a5cb9821abb213eb2ebb0c92c9bdc42
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bdcf86474a7f2edb458075e884c20e56d231df6d
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050685"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197834"
 ---
 # <a name="pilot-microsoft-365-from-my-custom-domain"></a>Piloto do Microsoft 365 a partir do meu domínio personalizado
 
@@ -115,7 +115,7 @@ Há duas etapas a seguir:
 
 Verifique se você concluiu o seguinte no Microsoft 365 ou no Office 365:
 
-1. Para configurar conectores, você precisa ter permissões atribuídas antes de começar. Para verificar quais são as permissões necessárias, confira a entrada dos conectores do Microsoft 365 e do Office 365 no tópico [Permissões de recurso na EOP](https://docs.microsoft.com/microsoft-365/security/defender-365-security/feature-permissions-in-eop).
+1. Para configurar conectores, você precisa ter permissões atribuídas antes de começar. Para verificar quais são as permissões necessárias, confira a entrada dos conectores do Microsoft 365 e do Office 365 no tópico [Permissões de recurso na EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/feature-permissions-in-eop).
 
 2. Se você quiser que a EOP ou o Exchange Online façam a retransmissão de email de seus servidores de email para a Internet:
 

@@ -18,16 +18,16 @@ ms.collection:
 - M365-security-compliance
 - m365solution-mcafeemigrate
 - m365solution-overview
-ms.topic: conceptual
+ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 53d9e68fa357d07cf70ab2282de9cee9fc0bd90d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f46fb354537b61630172d3d735ce6b24f25ab39a
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185630"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198828"
 ---
 # <a name="migrate-from-mcafee-to-microsoft-defender-for-endpoint"></a>Migrar da McAfee para o Microsoft Defender para o Ponto de Extremidade
 

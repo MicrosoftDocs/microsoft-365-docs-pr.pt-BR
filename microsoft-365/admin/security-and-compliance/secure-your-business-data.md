@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: 7affa7a2adaa166861c2932ebe32177335236114
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e45130d101c6e730fd2d487f5f8898c7cd268ab8
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050673"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197846"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 maneiras de proteger o Microsoft 365 para planos de negócios
 
@@ -42,7 +42,7 @@ Se você for uma organização de pequeno ou médio porte usando um dos planos d
 
 A Microsoft recomenda que você conclua as tarefas listadas na tabela a seguir que se aplicam ao seu plano de serviço.
 
-||Tarefa|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
+||Tarefas|Microsoft 365 Business Standard|Microsoft 365 Business Premium|
 |---|---|---|---|
 |1|[Configurar autenticação multifatorial](secure-your-business-data.md#setup)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |2|[Treinar os usuários](secure-your-business-data.md#train)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
@@ -132,7 +132,7 @@ Seu ambiente do Microsoft 365 inclui proteção contra malware, mas você pode a
 
 6. Selecione **Salvar.**
 
-Para obter mais informações, consulte [Proteção anti-malware no EOP](https://docs.microsoft.com/microsoft-365/security/defender-365-security/anti-malware-protection).
+Para obter mais informações, consulte [Proteção anti-malware no EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-malware-protection).
 
 ## <a name="5-protect-against-ransomware"></a>5: Proteger contra ransomware
 <a name="ransomware"> </a>
@@ -254,7 +254,7 @@ Para criar uma política anti-phishing no Defender para Office 365, veja um brev
 
 4. Na página Anti-phishing, selecione **+ Criar**. Um assistente inicia essa etapa ao definir sua política anti-phishing.
 
-5. Especifique o nome, a descrição e as configurações da política conforme recomendado no gráfico abaixo. Confira [Saiba mais sobre a política anti-phishing no Microsoft Defender para Office 365 para](https://docs.microsoft.com/microsoft-365/security/defender-365-security/set-up-anti-phishing-policies) obter mais detalhes.
+5. Especifique o nome, a descrição e as configurações da política conforme recomendado no gráfico abaixo. Confira [Saiba mais sobre a política anti-phishing no Microsoft Defender para Office 365 para](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) obter mais detalhes.
 
 6. Depois de revisar suas configurações, selecione **Criar essa política** ou **Salvar**, conforme apropriado.
 
@@ -270,7 +270,7 @@ Para criar uma política anti-phishing no Defender para Office 365, veja um brev
 |Aplicado a|Selecione **O domínio do destinatário é**. Em **Qualquer um desses**, selecione **Escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, contoso.com, na lista e selecione **Adicionar**. Selecione **Concluído**.|
 |
 
-Para obter mais informações, [consulte Configurar políticas anti-phishing no Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/configure-atp-anti-phishing-policies).
+Para obter mais informações, [consulte Configurar políticas anti-phishing no Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies).
 
 ## <a name="9-protect-against-malicious-attachments-and-files-with-safe-attachments"></a>9: Proteger contra anexos mal-intencionados e arquivos com anexos seguros
 <a name="atp"> </a>
@@ -302,7 +302,7 @@ Para criar uma política de anexo seguro, veja um [vídeo de treinamento curto](
 |Aplicado a|O domínio do destinatário é . . . selecione seu domínio.|
 |
 
-Para obter mais informações, [consulte Configurar políticas anti-phishing no Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/configure-atp-anti-phishing-policies).
+Para obter mais informações, [consulte Configurar políticas anti-phishing no Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies).
 
 ## <a name="10-protect-against-phishing-attacks-with-safe-links"></a>10: Proteger contra ataques de phishing com Links Seguros
 <a name="phishingatp"> </a>
@@ -349,4 +349,4 @@ Para criar uma nova política direcionada a todos os destinatários em seu domí
 |Aplicado a|O domínio do destinatário é . . . selecione seu domínio.|
 |
 
-Para obter mais informações, consulte [Links seguros no Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/atp-safe-links).
+Para obter mais informações, consulte [Links seguros no Microsoft Defender para Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links).

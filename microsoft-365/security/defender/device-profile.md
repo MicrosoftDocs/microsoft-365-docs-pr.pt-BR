@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: ad341de0d0aed45ff3bf734e3c933b423eac3353
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c51c002d263452142a1bcf6fc5603d6ec4ef4cf7
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052534"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197964"
 ---
 # <a name="device-profile-page"></a>Página de perfil de dispositivo
 
@@ -81,7 +81,7 @@ As ações disponíveis na página de perfil do dispositivo incluem:
 * **Executar a verificação antivírus** - atualiza Windows Defender definições do Antivírus e executa imediatamente uma verificação antivírus. Escolha entre Verificação Rápida ou Verificação Completa.
 * **Coletar pacote de investigação** - Coleta informações sobre o dispositivo. Quando a investigação for concluída, você poderá baixá-la.
 * **Iniciar Sessão de Resposta Ao Vivo** - Carrega um shell remoto no dispositivo para [investigações detalhadas de segurança.](/microsoft-365/security/defender-endpoint/live-response)
-* **Iniciar investigação automatizada** - Investiga e corrigi automaticamente [ameaças.](../defender-365-security/office-365-air.md) Embora você possa disparar manualmente investigações automatizadas para executar a partir desta [página,](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) determinadas políticas de alerta disparam investigações automáticas por conta própria.
+* **Iniciar investigação automatizada** - Investiga e corrigi automaticamente [ameaças.](../office-365-security/office-365-air.md) Embora você possa disparar manualmente investigações automatizadas para executar a partir desta [página,](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) determinadas políticas de alerta disparam investigações automáticas por conta própria.
 * **Centro de ações** - Exibe informações sobre todas as ações de resposta que estão sendo executados no momento.
 
 ## <a name="tabs-section"></a>Seção Tabs
@@ -183,4 +183,4 @@ Selecionar um item abrirá um flyout que se vincula à atualização.
 * [Visão geral do Microsoft 365 Defender](microsoft-365-defender.md)
 * [Ativar o Microsoft 365 Defender](m365d-enable.md)
 * [Investigar entidades em dispositivos usando a resposta ao vivo](../defender-endpoint/live-response.md)
-* [Investigação e resposta automatizadas (AIR) no Office 365](../defender-365-security/office-365-air.md)
+* [Investigação e resposta automatizadas (AIR) no Office 365](../office-365-security/office-365-air.md)

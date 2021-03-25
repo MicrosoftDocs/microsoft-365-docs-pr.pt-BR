@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 25f1a177571862e92c502b584bbd51801141069a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8940d1dd370f804f8539bf4e753b1112d3c8d3bf
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054510"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198192"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -58,8 +58,8 @@ Para obter mais informações sobre mensagens de email individuais, você també
 ## <a name="supported-event-types"></a>Tipos de eventos com suporte
 Esta tabela captura eventos com os seguintes `ActionType` valores:
 
-- **Correção manual** – Um administrador tomou medidas manualmente em uma mensagem de email depois que ela foi entregue à caixa de correio do usuário. Isso inclui ações realizadas manualmente por meio do [Explorador](../defender-365-security/threat-explorer.md) de Ameaças ou aprovações de ações automatizadas de investigação e resposta [(AIR).](m365d-autoir-actions.md)
-- **Phish ZAP** – [O ZAP (limpeza automática](../defender-365-security/zero-hour-auto-purge.md) de hora zero) entrou em ação em um email de phishing após a entrega.
+- **Correção manual** – Um administrador tomou medidas manualmente em uma mensagem de email depois que ela foi entregue à caixa de correio do usuário. Isso inclui ações realizadas manualmente por meio do [Explorador](../office-365-security/threat-explorer.md) de Ameaças ou aprovações de ações automatizadas de investigação e resposta [(AIR).](m365d-autoir-actions.md)
+- **Phish ZAP** – [O ZAP (limpeza automática](../office-365-security/zero-hour-auto-purge.md) de hora zero) entrou em ação em um email de phishing após a entrega.
 - **MALWARE ZAP** – O ZAP (limpeza automática de hora zero) entrou em ação em uma mensagem de email encontrada contendo malware após a entrega.
 
 ## <a name="related-topics"></a>Tópicos relacionados

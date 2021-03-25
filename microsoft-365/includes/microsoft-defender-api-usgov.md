@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5b089159db56190a9774182c132c166714fc400e
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 965bacce0006f1435fc632ffbe0462f2f97dc858
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052570"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197777"
 ---
 >[!NOTE]
->Se você for um cliente do Governo dos EUA, use os URIs listados no [Microsoft Defender for Endpoint para clientes do Governo dos EUA.](/microsoft-365/security/defender-endpoint/gov.md#api)
+>Se você for um cliente do Governo dos EUA, use os URIs listados no [Microsoft Defender for Endpoint para clientes do Governo dos EUA.](/microsoft-365/security/defender-endpoint/gov#api)

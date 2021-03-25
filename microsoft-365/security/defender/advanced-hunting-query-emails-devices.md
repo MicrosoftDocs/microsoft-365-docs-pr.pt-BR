@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 60de6ed5a53a5d778f041b1c609019d110d6b64b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e494bfe57c31c1d5044f72a8adb3e2548d531604
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054421"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199144"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Buscar ameaças em dispositivos, e-mails, aplicativos e identidades
 
@@ -104,7 +104,7 @@ DeviceInfo
 ## <a name="hunting-scenarios"></a>Cenários de busca
 
 ### <a name="list-logon-activities-of-users-that-received-emails-that-were-not-zapped-successfully"></a>Listar atividades de logon de usuários que receberam emails que não foram destruídos com êxito
-[O ZAP (limpeza automática](../defender-365-security/zero-hour-auto-purge.md) de hora zero) aborda emails mal-intencionados depois que eles são recebidos. Se o ZAP falhar, o código mal-intencionado poderá ser executado no dispositivo e deixar contas comprometidas. Essa consulta verifica se há atividade de logon feita pelos destinatários de emails que não foram abordados com êxito pela ZAP.
+[O ZAP (limpeza automática](../office-365-security/zero-hour-auto-purge.md) de hora zero) aborda emails mal-intencionados depois que eles são recebidos. Se o ZAP falhar, o código mal-intencionado poderá ser executado no dispositivo e deixar contas comprometidas. Essa consulta verifica se há atividade de logon feita pelos destinatários de emails que não foram abordados com êxito pela ZAP.
 
 ```kusto
 EmailPostDeliveryEvents 

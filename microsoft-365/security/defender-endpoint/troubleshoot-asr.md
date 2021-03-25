@@ -16,12 +16,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: cc8c66665740449e499c11e1db4403caef20cf9c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.topic: how-to
+ms.openlocfilehash: d483c098f221e2d4d2e61a10393154b8f5d1498d
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183760"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198736"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>Solucionar problemas de regras de redução de superfície de ataque
 

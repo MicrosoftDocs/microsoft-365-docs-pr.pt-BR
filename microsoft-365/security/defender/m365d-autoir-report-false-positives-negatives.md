@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 8658b08f0d3948d6d23486ec885486e8bbfdf273
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 851fd05f0fec4b8d113e515783092eed0114db0f
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052527"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199108"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Manipular falsos positivos/negativos em recursos automatizados de investigação e resposta
 
@@ -48,14 +48,14 @@ As seções a seguir descrevem como executar essas tarefas.
 
 |Item perdido ou detectado incorretamente |Serviço  |O que fazer  |
 |---------|---------|---------|
-|- Mensagem de email <br/>- Anexo de email <br/>- URL em uma mensagem de email<br/>- URL em um arquivo do Office      |[Obter o Microsoft Defender para Office 365](/microsoft-365/security/defender-365-security/defender-for-office-365)        |[Enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para verificação](../defender-365-security/admin-submission.md)         |
+|- Mensagem de email <br/>- Anexo de email <br/>- URL em uma mensagem de email<br/>- URL em um arquivo do Office      |[Obter o Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)        |[Enviar spam, phishing, URLs e arquivos suspeitos à Microsoft para verificação](../office-365-security/admin-submission.md)         |
 |Arquivo ou aplicativo em um dispositivo    |[Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection)         |[Enviar um arquivo à Microsoft para análise de malware](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Ajustar um alerta para evitar que falsos positivos se repitam
 
 |Cenário |Serviço |O que fazer |
 |--------|--------|--------|
-|- Um alerta é disparado por uso legítimo <br/>- Um alerta é impreciso    |[Microsoft Cloud App Security](/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal de Segurança do Aplicativo na Nuvem](/cloud-app-security/managing-alerts)         |
+|- Um alerta é disparado por uso legítimo <br/>- Um alerta é impreciso    |[Segurança no Aplicativo da Nuvem da Microsoft](/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal de Segurança do Aplicativo na Nuvem](/cloud-app-security/managing-alerts)         |
 |Um arquivo, endereço IP, URL ou domínio é tratado como malware em um dispositivo, mesmo que seja seguro|[Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection) |[Criar um indicador personalizado com uma ação "Permitir"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Desfazer uma ação de correção que foi tomada em um dispositivo

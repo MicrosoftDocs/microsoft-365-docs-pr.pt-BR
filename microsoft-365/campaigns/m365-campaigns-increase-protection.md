@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda para aumentar o nível de proteção no Microsoft 365
-ms.openlocfilehash: 0e8b63fec3b764f10039e9f738fd047ff2c513a4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 61ac32d3debe391794e85df8c129e5df72887e9e
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052201"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198370"
 ---
 # <a name="increase-threat-protection-for-microsoft-365-subscription"></a>Aumentar a proteção contra ameaças para a assinatura do Microsoft 365
 
@@ -58,7 +58,7 @@ Seu ambiente do Office 365 ou do Microsoft 365 inclui proteção contra malware,
 
 6. Clique em **Salvar.**
 
-Para obter mais informações, consulte [Proteção anti-malware no EOP](../security/defender-365-security/anti-malware-protection.md).
+Para obter mais informações, consulte [Proteção anti-malware no EOP](../security/office-365-security/anti-malware-protection.md).
 
 ## <a name="protect-against-ransomware"></a>Proteção contra ransomware
 
@@ -138,7 +138,7 @@ Para criar uma política anti-phishing no Defender para Office 365, assista a es
 
 4. Na página **Anti-phishing,** selecione **+ Criar**. Um assistente inicia essa etapa ao definir sua política anti-phishing.
 
-5. Especifique o nome, a descrição e as configurações da política conforme recomendado no gráfico abaixo. Para obter mais informações, [consulte Learn about anti-phishing policy in Microsoft Defender for Office 365 options](../security/defender-365-security/set-up-anti-phishing-policies.md).
+5. Especifique o nome, a descrição e as configurações da política conforme recomendado no gráfico abaixo. Para obter mais informações, [consulte Learn about anti-phishing policy in Microsoft Defender for Office 365 options](../security/office-365-security/set-up-anti-phishing-policies.md).
 
 6. Depois de revisar suas configurações, escolha **Criar essa política** ou **Salvar**, conforme apropriado.
 
@@ -153,7 +153,7 @@ Para criar uma política anti-phishing no Defender para Office 365, assista a es
 |Adicionar remetentes e domínios confiáveis|Aqui você pode adicionar seu próprio domínio ou qualquer outro domínio confiável.|
 |Aplicado a|Selecione **O domínio do destinatário é**. Em **Qualquer um desses**, selecione **Escolher**. Selecione **+ Adicionar**. Marque a caixa de seleção ao lado do nome do domínio, por exemplo, *contoso. <span> <span> com*, na lista e selecione **Adicionar**. Selecione **Concluído**.|
 
-Para obter mais informações, [consulte Configurar políticas anti-phishing no Defender para Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md).
+Para obter mais informações, [consulte Configurar políticas anti-phishing no Defender para Office 365](../security/office-365-security/set-up-anti-phishing-policies.md).
 
 ## <a name="protect-against-malicious-attachments-files-and-links-with-defender-for-office-365"></a>Proteger contra anexos, arquivos e links mal-intencionados com o Defender para Office 365
 
@@ -207,7 +207,7 @@ Para criar uma política de Anexo Seguro, assista [a este vídeo curto](https://
 |Redirecionar anexo na detecção|Habilitar redirecionamento (selecione esta caixa) <br/> Insira a conta de administrador ou uma configuração de caixa de correio para quarentena. <br/> Aplique a seleção acima se ocorrer uma verificação de malware para anexos ou se ocorrer um erro (selecione esta caixa).|
 |Aplicado a|O domínio do destinatário é . . . selecione seu domínio.|
 
-Para obter mais informações, [consulte Configurar políticas anti-phishing no Defender para Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md).
+Para obter mais informações, [consulte Configurar políticas anti-phishing no Defender para Office 365](../security/office-365-security/set-up-anti-phishing-policies.md).
 
 ### <a name="set-up-safe-links-in-the-security--compliance-center"></a>Configurar Links Seguros no Centro de Conformidade & Segurança
 
@@ -250,7 +250,7 @@ Para criar uma nova política direcionada a todos os destinatários em seu domí
 |Usar Anexos Seguros para examinar o conteúdo baixável|Selecione essa caixa.|
 |Aplicado a|O domínio do destinatário é . . . selecione seu domínio.|
 
-Para obter mais informações, consulte [Links seguros no Defender para Office 365](../security/defender-365-security/safe-links.md).
+Para obter mais informações, consulte [Links seguros no Defender para Office 365](../security/office-365-security/safe-links.md).
 
 ## <a name="turn-on-the-unified-audit-log"></a>Ativar o Log de Auditoria Unificada
 

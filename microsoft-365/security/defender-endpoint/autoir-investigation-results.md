@@ -22,12 +22,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/02/2021
-ms.openlocfilehash: b66640736e9dc3835919e39d482b2d38b0c9dcc7
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 57a515fec2baabba7146959a43737771ef5c8cfe
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183676"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197764"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -38,7 +38,7 @@ Com o Microsoft Defender para [](automated-investigations.md) Ponto de Extremida
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) Página de investigação unificada
 
-A página de investigação foi atualizada recentemente para incluir informações em seus dispositivos, email e conteúdo de colaboração. A nova página de investigação unificada define um idioma comum e fornece uma experiência unificada para investigações automáticas no [Microsoft Defender para Ponto](microsoft-defender-endpoint.md)  de Extremidade e no Microsoft Defender para Office [365](/microsoft-365/security/defender-365-security/office-365-atp). 
+A página de investigação foi atualizada recentemente para incluir informações em seus dispositivos, email e conteúdo de colaboração. A nova página de investigação unificada define um idioma comum e fornece uma experiência unificada para investigações automáticas no [Microsoft Defender para Ponto](microsoft-defender-endpoint.md)  de Extremidade e no Microsoft Defender para Office [365](/microsoft-365/security/office-365-security/office-365-atp). 
 
 > [!TIP]
 > Para saber mais sobre o que está mudando, consulte [(NEW!) Página de investigação unificada](/microsoft-365/security/mtp/mtp-autoir-results).

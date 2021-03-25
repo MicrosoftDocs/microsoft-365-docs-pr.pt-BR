@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Saiba mais sobre os recursos de segurança que vêm com o Microsoft 365 Business Premium para ajudar a proteger seus dados em computadores, telefones e tablets.
-ms.openlocfilehash: d641fc66e27f3c5e0a7c8609e4fa25fac93d8561
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f04a998c74128edac306167617e073c412fce2ea
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052245"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198402"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Recursos de segurança e conformidade do Microsoft 365 Business Premium
 
@@ -63,7 +63,7 @@ Você pode gerenciar muitos dos recursos de segurança do Microsoft 365 Business
 
 Recursos avançados do Microsoft 365 Business Premium estão disponíveis para ajudá-lo a proteger sua empresa contra ameaças cibernéticas e proteger informações confidenciais.
   
-- **[Microsoft Defender para Office 365](../security/defender-365-security/defender-for-office-365.md)**
+- **[Microsoft Defender para Office 365](../security/office-365-security/defender-for-office-365.md)**
     
     O Microsoft Defender para Office 365 ajuda a proteger sua empresa contra ataques sofisticados de phishing e ransomware projetados para comprometer informações de funcionários ou clientes. Os recursos incluem:
     

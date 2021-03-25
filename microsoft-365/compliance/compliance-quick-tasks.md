@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-compliance
 localization_priority: Normal
 description: Saiba mais sobre tarefas que ajudarão você a começar rapidamente com a conformidade no Microsoft 365.
-ms.openlocfilehash: b8a6f98a38dcb6096287cbc2389648c0e7457e5c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 503e15c8b363dcd63c010d31384565f6e1a8af61
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052099"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197918"
 ---
 # <a name="quick-tasks-for-getting-started-with-microsoft-365-compliance"></a>Tarefas rápidas de introdução ao Centro de conformidade do Microsoft 365.
 
@@ -34,7 +34,7 @@ Depois de concluir essas tarefas básicas de conformidade, considere expandir a 
 
 Comece atribuindo permissões de conformidade às pessoas em sua organização para que possam executar essas tarefas e impedir que pessoas não autorizadas tenham acesso a áreas fora de suas responsabilidades. Certifique-se de que as pessoas adequadas foram atribuídas ao administrador  de dados de Conformidade e às funções de administrador de Conformidade antes de começar a configurar e implementar soluções de conformidade incluídas no Microsoft 365.  Você também precisará atribuir usuários à função de leitor global do Azure Active Directory para exibir dados no Gerenciador de Conformidade.
 
-Para obter orientações passo a passo para configurar permissões e atribuir pessoas a funções de administrador, consulte [Permissions in the Security & Compliance Center](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md).
+Para obter orientações passo a passo para configurar permissões e atribuir pessoas a funções de administrador, consulte [Permissions in the Security & Compliance Center](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="task-2-know-your-state-of-compliance"></a>Tarefa 2: Conheça seu estado de conformidade
 
@@ -49,7 +49,7 @@ Para obter orientações passo a passo para começar a trabalhar com o Gerenciad
 >
 >Verifique sua Pontuação Segura do [Microsoft 365](../security/defender/microsoft-secure-score.md) no centro de segurança do Microsoft 365 e concluindo as tarefas descritas nos seguintes artigos:
 >
-> - [Roteiro de segurança - Principais prioridades para os primeiros 30 dias, 90 dias e além](../security/defender-365-security/security-roadmap.md)
+> - [Roteiro de segurança - Principais prioridades para os primeiros 30 dias, 90 dias e além](../security/office-365-security/security-roadmap.md)
 > - [Principais 12 tarefas para equipes de segurança para dar suporte ao trabalho em casa](../security/top-security-tasks-for-remote-work.md)
 
 ## <a name="task-3-enable-auditing-for-your-organization"></a>Tarefa 3: Habilitar a auditoria para sua organização

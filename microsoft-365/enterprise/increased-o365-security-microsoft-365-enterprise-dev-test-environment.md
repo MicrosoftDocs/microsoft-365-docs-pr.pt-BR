@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Use este Guia de Laboratório de Teste para habilitar configurações de segurança adicionais do Microsoft 365 no ambiente de teste do Microsoft 365 para empresas.
-ms.openlocfilehash: 186452396af4227a94a7f6cd0fa0109e9d6a7e17
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d1bff8b736e5074f621a173d206f7c5f77841b25
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051265"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198346"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-for-enterprise-test-environment"></a>Maior segurança do Microsoft 365 para seu ambiente de teste do Microsoft 365 para empresas
 
@@ -47,7 +47,7 @@ Nesta fase, você habilita maior segurança do Microsoft 365 para seu ambiente d
 
 ### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>Configurar o SharePoint Online para bloquear aplicativos que não suportam autenticação moderna
 
-Os aplicativos que não suportam a autenticação moderna não podem ter configurações de identidade e acesso a [dispositivos aplicadas](../security/defender-365-security/microsoft-365-policies-configurations.md) a eles, o que é um elemento importante para proteger sua assinatura do Microsoft 365 e seus ativos digitais. 
+Os aplicativos que não suportam a autenticação moderna não podem ter configurações de identidade e acesso a [dispositivos aplicadas](../security/office-365-security/microsoft-365-policies-configurations.md) a eles, o que é um elemento importante para proteger sua assinatura do Microsoft 365 e seus ativos digitais. 
 
 1. Vá para o Centro de administração do Microsoft 365 ( ) e entre na assinatura do laboratório de teste do [https://portal.microsoft.com](https://portal.microsoft.com) Microsoft 365 com sua conta de administrador global.
     
@@ -77,7 +77,7 @@ O Defender for Office 365 para SharePoint, OneDrive e Microsoft Teams protege su
 
 Malware é composto por vírus e spywares. Os vírus infectam outros programas e dados e se espalham em todo o computador em busca de programas para infectar. Spyware é um tipo de malware que coleta suas informações pessoais, como informações de logon e dados pessoais, e as envia de volta ao seu autor. 
 
-O Microsoft 365 tem recursos de filtragem de malware e spam integrados que ajudam a proteger mensagens de entrada e saída de software mal-intencionado e ajudam a proteger você contra spam. Para obter mais informações, consulte [Anti-spam & anti-malware protection](../security/defender-365-security/anti-spam-and-anti-malware-protection.md).
+O Microsoft 365 tem recursos de filtragem de malware e spam integrados que ajudam a proteger mensagens de entrada e saída de software mal-intencionado e ajudam a proteger você contra spam. Para obter mais informações, consulte [Anti-spam & anti-malware protection](../security/office-365-security/anti-spam-and-anti-malware-protection.md).
 
 Para garantir que o processamento anti-malware está sendo executado em arquivos com tipos de arquivo de anexo comuns:
 
@@ -100,7 +100,7 @@ Para ver o painel de segurança:
 
 Dê uma olhada de perto em todos os cartões no painel para se familiarizar com as informações fornecidas.
 
-Para obter mais informações, consulte [Painel de Segurança](../security/defender-365-security/security-dashboard.md).
+Para obter mais informações, consulte [Painel de Segurança](../security/office-365-security/security-dashboard.md).
 
 
 ## <a name="phase-4-examine-microsoft-secure-score"></a>Fase 4: Examinar a Pontuação Segura da Microsoft

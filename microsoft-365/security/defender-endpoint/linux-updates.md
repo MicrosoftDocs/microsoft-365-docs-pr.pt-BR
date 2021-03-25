@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: adc19192764e8c57a20f14cc908be23e8d9bdbc8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ad37427e8134c574690c3b3553d7fb9b8507593c
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052947"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51187716"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-for-linux"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -32,7 +32,7 @@ ms.locfileid: "51052947"
 
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Configurar o encaminhamento de email para uma ou mais contas de email usando o Office365.
-ms.openlocfilehash: cdefab3df59f1c57abbc221943b58c978ff582a9
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d7c9a37a066bd53e541cf623c1953fb572827b61
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050709"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197858"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Configurar o encaminhamento de email no Microsoft 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "51050709"
 Como administrador de uma organização, você pode ter requisitos da empresa para configurar o encaminhamento de email para a caixa de correio de um usuário. O encaminhamento de email permite encaminhar mensagens de email enviadas para a caixa de correio de um usuário para a caixa de correio de outro usuário dentro ou fora de sua organização.
 
 > [!IMPORTANT]
-> Você pode usar políticas de filtro de spam de saída para controlar o encaminhamento automático para destinatários externos. Para obter mais informações, consulte [Control automatic external email forwarding in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/defender-365-security/external-email-forwarding?view=o365-worldwide&preserve-view=true#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls).
+> Você pode usar políticas de filtro de spam de saída para controlar o encaminhamento automático para destinatários externos. Para obter mais informações, consulte [Control automatic external email forwarding in Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/external-email-forwarding?view=o365-worldwide&preserve-view=true#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls).
 
 ## <a name="configure-email-forwarding"></a>Configurar encaminhamento de email
 

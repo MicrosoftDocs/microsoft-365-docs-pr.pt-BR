@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business Premium do Office 365 E3.
-ms.openlocfilehash: 3f9fd70b2d31b32027981e638de249d92e98ea08
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: cb70260201686cae02428c715ac98ffe2f88787f
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164524"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198088"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migrando do Office 365 E3 para o Microsoft 365 Business Premium
 
@@ -42,7 +42,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Off
 | Recurso    | Suporte no Microsoft 365 Business Premium    | Suporte no Office 365 E3 | 
 |:-------|:-----|:-----|
 | **No local**        | | | 
-| Aplicativos do Office<sup>1</sup>    | Microsoft 365 Apps para Pequenos e Médios negócios    | Microsoft 365 Apps para Grandes Empresas | 
+| Aplicativos do Office<sup>1</sup>    | Aplicativos do Microsoft 365 para empresas    | Microsoft 365 Apps para Grandes Empresas | 
 | **Aplicativos de produtividade na nuvem**        | | | 
 | Exchange Online e Outlook    | Limite de armazenamento de 50 GB por caixa de correio e limites ilimitados Arquivamento do Exchange Online    | Limite de armazenamento de 100 GB por caixa de correio e limites ilimitados Arquivamento do Exchange Online | 
 | Teams    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Office 365 E3](../media/check-mark.png) | 
@@ -122,7 +122,7 @@ O Microsoft 365 Business Premium tem um limite de armazenamento de 50 GB, pois u
 
 ### <a name="threat-protection"></a>Proteção contra ameaças
 
-Depois de migrar para o Microsoft 365 Business Premium, você terá o Defender para Office 365. Consulte [o Microsoft Defender para Office 365](../security/defender-365-security/defender-for-office-365.md) para ver uma visão geral. Para configurar, consulte [set up Safe Links](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), set up Safe [Attachments](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5), and [set up Anti-phishing in Defender for Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
+Depois de migrar para o Microsoft 365 Business Premium, você terá o Defender para Office 365. Consulte [o Microsoft Defender para Office 365](../security/office-365-security/defender-for-office-365.md) para ver uma visão geral. Para configurar, consulte [set up Safe Links](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), set up Safe [Attachments](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5), and [set up Anti-phishing in Defender for Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 

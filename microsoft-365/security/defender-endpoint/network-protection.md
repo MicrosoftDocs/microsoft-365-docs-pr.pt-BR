@@ -16,12 +16,13 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.date: 03/08/2021
-ms.openlocfilehash: 29844d72f4a081db18ab56941fec53eeaf76dd12
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.topic: how-to
+ms.openlocfilehash: be98bf810d00b6e39ba9d2674604a9fd2128a8cc
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186972"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198643"
 ---
 # <a name="protect-your-network"></a>Proteger sua rede
 

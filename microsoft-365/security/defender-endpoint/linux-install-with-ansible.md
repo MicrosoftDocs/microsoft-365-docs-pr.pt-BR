@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 994adcd718f2318a0bd90e2d8604e6f19b2a42c5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: eca9727676fec9b716724719c182ca958b22ec85
+ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053396"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51187800"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-with-ansible"></a>Implantar o Microsoft Defender para Ponto de Extremidade para Linux com Ansible
 
@@ -32,7 +32,7 @@ ms.locfileid: "51053396"
 
 
 **Aplica-se a:**
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)

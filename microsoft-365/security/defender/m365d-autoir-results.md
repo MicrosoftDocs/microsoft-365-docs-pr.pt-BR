@@ -22,12 +22,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/08/2021
-ms.openlocfilehash: 3d278c7fd06b2dd14bd9a8c0dcbe639d3c911828
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 05208dd8ba893d65db50430861ad5dd5ad9d34fb
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052526"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198964"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -42,7 +42,7 @@ Com o Microsoft 365 [](m365d-autoir.md) Defender, quando uma investigação auto
 
 ## <a name="new-unified-investigation-page"></a>(NEW!) Página de investigação unificada
 
-A página de investigação foi atualizada recentemente para incluir informações em seus dispositivos, email e conteúdo de colaboração. A nova página de investigação unificada define um idioma comum e fornece uma experiência unificada para investigações automáticas no [Microsoft Defender para Ponto](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) de Extremidade e no Microsoft Defender para Office [365](../defender-365-security/defender-for-office-365.md). Para acessar a página de investigação unificada, selecione o link na faixa amarela que você verá em:
+A página de investigação foi atualizada recentemente para incluir informações em seus dispositivos, email e conteúdo de colaboração. A nova página de investigação unificada define um idioma comum e fornece uma experiência unificada para investigações automáticas no [Microsoft Defender para Ponto](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) de Extremidade e no Microsoft Defender para Office [365](../office-365-security/defender-for-office-365.md). Para acessar a página de investigação unificada, selecione o link na faixa amarela que você verá em:
 - Qualquer página de investigação no Centro de Conformidade e Segurança & do Office 365 ( [https://protection.office.com](https://protection.office.com) )
 - Qualquer página de investigação no Centro de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )
 - Qualquer incidente ou experiência do Centro de Ações no centro de segurança do Microsoft 365 aprimorado ( [https://security.microsoft.com](https://security.microsoft.com) )

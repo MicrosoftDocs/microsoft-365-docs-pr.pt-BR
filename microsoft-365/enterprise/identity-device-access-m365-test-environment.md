@@ -14,18 +14,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Crie um ambiente do Microsoft 365 para testar o acesso a identidades e dispositivos.
-ms.openlocfilehash: e90c27edbf4ad5a78c337bf2488956ce82a1ec3e
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5a9e9ef9ea6b8f6dc80aa7fea225f3573b8fcadc
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051313"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197870"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Acesso a identidades e dispositivos para o seu ambiente de teste do Microsoft 365
 
 *Este Guia de Laboratório de Teste só pode ser usado para o Microsoft 365 para ambientes de teste corporativos.*
 
-[Configurações de identidade](../security/defender-365-security/microsoft-365-policies-configurations.md) e acesso a dispositivos são um conjunto de configurações recomendadas e políticas de acesso condicional para proteger o acesso a todos os serviços integrados ao Azure Active Directory (Azure AD).
+[Configurações de identidade](../security/office-365-security/microsoft-365-policies-configurations.md) e acesso a dispositivos são um conjunto de configurações recomendadas e políticas de acesso condicional para proteger o acesso a todos os serviços integrados ao Azure Active Directory (Azure AD).
 
 Para criar um ambiente de teste que tenha as configurações comuns de identidade e acesso a dispositivos:
 
@@ -35,7 +35,7 @@ Para criar um ambiente de teste que tenha as configurações comuns de identidad
   - [Sincronização de hash de senha (PHS)](phs-prereqs-m365-test-environment.md)
   - [Autenticação de passagem (PTA)](pta-prereqs-m365-test-environment.md)
 
-2. Use [políticas comuns de](../security/defender-365-security/identity-access-policies.md) identidade e acesso a dispositivos para configurar as políticas que se baseam nos pré-requisitos configurados para seu ambiente de teste e explore e verifique a proteção de identidades e dispositivos.
+2. Use [políticas comuns de](../security/office-365-security/identity-access-policies.md) identidade e acesso a dispositivos para configurar as políticas que se baseam nos pré-requisitos configurados para seu ambiente de teste e explore e verifique a proteção de identidades e dispositivos.
 
 ## <a name="see-also"></a>Confira também
 

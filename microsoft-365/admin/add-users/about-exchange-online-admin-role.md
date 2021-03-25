@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Os administradores do Exchange online gerenciam os emails e caixas de correio da sua organização. Por exemplo, eles recuperam itens excluídos na caixa de correio de um usuário. '
-ms.openlocfilehash: 5b63f2b0a58fdce75e5d70e329b8a0d02fb94a1a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4dc1f435571650ae4a805198782c3c24a92024fb
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050965"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197644"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Sobre a função de administrador do Exchange Online
 
@@ -48,7 +48,7 @@ Aqui estão algumas das principais tarefas que os usuários podem realizar quand
 
 - [Crie uma caixa de correio compartilhada](../email/create-a-shared-mailbox.md) para que um grupo de pessoas possa monitorar e enviar emails de um endereço de email comum.
 
-- [Filtros de malware e proteção anti-spam](https://docs.microsoft.com/microsoft-365/security/defender-365-security/anti-spam-protection) de email para a organização.
+- [Filtros de malware e proteção anti-spam](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) de email para a organização.
 
 - Gerenciar grupos do Microsoft 365
 

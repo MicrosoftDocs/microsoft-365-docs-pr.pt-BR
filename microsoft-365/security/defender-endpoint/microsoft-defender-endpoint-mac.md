@@ -2,7 +2,7 @@
 title: Microsoft Defender ATP para Mac
 ms.reviewer: ''
 description: Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade para Mac.
-keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
+keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, big sur, catalina, mojave
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6af8a6e0e23201f3c5861cb6a28b2bffa0f04ea4
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 34150088379445d66006c757b2c8ea607865bf4c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186432"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198988"
 ---
 # <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -80,9 +80,9 @@ As três versões principais mais recentes do macOS são suportadas.
 > No macOS 11 (Big Sur), o Microsoft Defender para Endpoint requer perfis de configuração adicionais. Se você for um cliente existente atualizando de versões anteriores do macOS, certifique-se de implantar os perfis de configuração adicionais listados em Novos perfis de configuração para [macOS Catalina](mac-sysext-policies.md)e versões mais recentes do macOS .
 
 > [!IMPORTANT]
-> O suporte para macOS 10.13 (High Sierra) será descontinuado em 15 de fevereiro de 2021.
+> O suporte para macOS 10.13 (High Sierra) foi descontinuado a partir de 15 de fevereiro de 2021.
 
-- 11 (Big Sur), 10.15 (Catalina), 10.14 (Mojave), 10.13 (Alta Sierra)
+- 11 (Big Sur), 10.15 (Catalina), 10.14 (Mojave)
 - Espaço em disco: 1 GB
 
 Não há suporte para versões beta do macOS.

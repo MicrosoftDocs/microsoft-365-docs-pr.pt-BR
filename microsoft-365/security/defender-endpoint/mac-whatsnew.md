@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f1cd2221ab07caeab341447ebd19824d7476fb52
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: be906baca3a54183e22fa3b4ee424a9d8fc6957a
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187368"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198688"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Novidades no Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -40,6 +40,10 @@ ms.locfileid: "51187368"
 
 > [!IMPORTANT]
 > O suporte para macOS 10.13 (High Sierra) será descontinuado em 15 de fevereiro de 2021.
+
+## <a name="1012279-20121012122790"></a>101.22.79 (20.121012.12279.0)
+
+- Melhorias de desempenho & correções de bugs
 
 ## <a name="1011988-20121011119880"></a>101.19.88 (20.121011.11988.0)
 
