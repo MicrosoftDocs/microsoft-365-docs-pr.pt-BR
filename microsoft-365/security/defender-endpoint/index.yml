@@ -13,19 +13,19 @@ metadata:
   ms.author: macapara
   ms.date: 02/5/2021
   localization_priority: Priority
-  ms.openlocfilehash: a183f4d09b596f6dbecf2dc0636ff516b1b26eb6
-  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+  ms.openlocfilehash: efa23f4c40021d95185203c22c8bba5009e15f2f
+  ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51054275"
+  ms.lasthandoff: 03/24/2021
+  ms.locfileid: "51185738"
 landingContent:
 - title: Microsoft Defender para Ponto de Extremidade
   linkLists:
   - linkListType: overview
     links:
     - text: O que é o Microsoft Defender para Ponto de Extremidade?
-      url: microsoft-defender-advanced-threat-protection.md
+      url: microsoft-defender-endpoint.md
   - linkListType: whats-new
     links:
     - text: Novidades no Microsoft Defender para Ponto de Extremidade

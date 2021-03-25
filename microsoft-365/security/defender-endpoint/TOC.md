@@ -1,7 +1,7 @@
 # [Microsoft Defender para Ponto de Extremidade](index.yml)
 
 ## [Visão geral]()
-### [O que é o Microsoft Defender para Ponto de Extremidade?](microsoft-defender-advanced-threat-protection.md)
+### [O que é o Microsoft Defender para Ponto de Extremidade?](microsoft-defender-endpoint.md)
 ### [Requisitos mínimos](minimum-requirements.md)
 ### [Novidades no Microsoft Defender para Ponto de Extremidade](whats-new-in-microsoft-defender-atp.md)
 ### [Recursos de pré-visualização](preview.md)
