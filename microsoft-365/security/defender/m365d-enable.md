@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 399da6fd54145f73ac72fdac04e8d25148f76507
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 18564b2a5a47b2cf4a8bbd94a3e3a315c8f269ec
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186744"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200252"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Ativar o Microsoft 365 Defender
 
@@ -96,7 +96,7 @@ A equipe de suporte da Microsoft pode ajudar a provisionamento ou desprovisionam
 - [Implantar serviços com suporte](deploy-supported-services.md)
 - [Visão geral do Microsoft 365 Defender](microsoft-365-defender.md)
 - [Visão geral do Microsoft Defender para Ponto de Extremidade](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Visão geral do Defender para Office 365](../defender-365-security/defender-for-office-365.md)
+- [Visão geral do Defender para Office 365](../office-365-security/defender-for-office-365.md)
 - [Visão geral do Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)
 - [Visão geral do Microsoft Defender para Identidade](/azure-advanced-threat-protection/what-is-atp)
 - [Microsoft Defender para armazenamento de dados do Ponto de Extremidade](../defender-endpoint/data-storage-privacy.md)

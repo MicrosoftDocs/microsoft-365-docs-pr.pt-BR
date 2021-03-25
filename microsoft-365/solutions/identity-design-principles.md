@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 746ca59fd0e9eb0d93d93c00b6a279a9156cc524
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: da70bbfe5c4dfa4f9eda16adec709826de1247b7
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050733"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200012"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Para identidade e além — o ponto de vista de um arquiteto
 
@@ -135,7 +135,7 @@ Se você concordar com essa definição expandida de autorização, precisará i
 - [Azure AD Identity Protection](/azure/active-directory/identity-protection/) 
 - [Microsoft Defender para Identidade?](/azure-advanced-threat-protection/)
 - [Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Microsoft Defender para Office 365](../security/defender-365-security/defender-for-office-365.md?view=o365-worldwide)
+- [Microsoft Defender para Office 365](../security/office-365-security/defender-for-office-365.md?view=o365-worldwide)
 - [Microsoft Cloud App Security](/cloud-app-security/) (MCAS)
 - [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md?view=o365-worldwide)
 - [Microsoft Intune](/mem/intune/)
@@ -227,7 +227,7 @@ Eu mencionei [o PIM do Azure AD](/azure/active-directory/privileged-identity-man
 
 ### <a name="security-and-compliance-center-scc"></a>Centro de Conformidade e Segurança (SCC)
 
-As permissões no Centro de Conformidade e Segurança do [Office 36 & 5](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md) são uma coleção de "grupos de funções", separados e distintos das funções do Azure AD. Isso pode ser confuso porque alguns desses grupos de função têm o mesmo nome que funções do Azure AD (por exemplo, Leitor de Segurança), mas eles podem ter uma associação diferente. Eu prefiro o uso de funções do Azure AD. Cada grupo de funções consiste em uma ou mais "funções" (veja o que quero dizer sobre reutilização da mesma palavra?) e têm membros do Azure AD, que são objetos habilitados para email. Além disso, você pode criar um grupo de funções com o mesmo nome de uma função, que pode ou não conter essa função (evitar essa confusão).
+As permissões no Centro de Conformidade e Segurança do [Office 36 & 5](../security/office-365-security/permissions-in-the-security-and-compliance-center.md) são uma coleção de "grupos de funções", separados e distintos das funções do Azure AD. Isso pode ser confuso porque alguns desses grupos de função têm o mesmo nome que funções do Azure AD (por exemplo, Leitor de Segurança), mas eles podem ter uma associação diferente. Eu prefiro o uso de funções do Azure AD. Cada grupo de funções consiste em uma ou mais "funções" (veja o que quero dizer sobre reutilização da mesma palavra?) e têm membros do Azure AD, que são objetos habilitados para email. Além disso, você pode criar um grupo de funções com o mesmo nome de uma função, que pode ou não conter essa função (evitar essa confusão).
 
 De certa forma, eles são uma evolução do modelo de grupos de função do Exchange. No entanto, o Exchange Online tem sua própria interface [de gerenciamento de grupo de](/exchange/permissions-exo) funções. Alguns grupos de função no Exchange Online são bloqueados e gerenciados do Azure AD ou do Centro de Conformidade do & segurança, mas outros podem ter os mesmos nomes ou nomes semelhantes e são gerenciados no Exchange Online (adicionando à confusão). Eu recomenda que você evite usar a interface do usuário do Exchange Online, a menos que você precise de escopos para gerenciamento do Exchange.
 

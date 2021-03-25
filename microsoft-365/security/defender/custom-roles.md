@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 17d55a434cc0499b9b24039f19ec7ed3c94310e8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6582e4e940dc9910e7d341c92b525379b924f35b
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052533"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199952"
 ---
 # <a name="custom-roles-in-role-based-access-control-for-microsoft-365-defender"></a>Funções personalizadas no controle de acesso baseado em função para o Microsoft 365 Defender
 
@@ -53,7 +53,7 @@ Os usuários com funções Personalizadas existentes podem acessar dados no cent
 Funções e permissões personalizadas podem ser criadas e gerenciadas individualmente por meio de cada um dos seguintes portais de segurança: 
 
 - Microsoft Defender para Ponto de Extremidade – [Editar funções no Microsoft Defender para Ponto de Extremidade](../defender-endpoint/user-roles.md)
-- Microsoft Defender para Office 365 – [Permissões no Centro](../defender-365-security/permissions-in-the-security-and-compliance-center.md?preserve-view=true&view=o365-worldwide) de Conformidade & Segurança
+- Microsoft Defender para Office 365 – [Permissões no Centro](../office-365-security/permissions-in-the-security-and-compliance-center.md?preserve-view=true&view=o365-worldwide) de Conformidade & Segurança
 - Microsoft Cloud App Security – [Gerenciar acesso de administrador](/cloud-app-security/manage-admins)
 
 Cada função personalizada criada por meio de um portal individual permite o acesso aos dados do portal de produto relevante. Por exemplo, uma função personalizada criada por meio do Microsoft Defender para Ponto de Extremidade permitirá apenas o acesso ao Defender para dados do Ponto de Extremidade.

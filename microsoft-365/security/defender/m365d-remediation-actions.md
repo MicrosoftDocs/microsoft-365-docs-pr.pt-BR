@@ -22,12 +22,12 @@ ms.custom: autoir
 ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: fa73756aa9f350793c00a7e4a960c215627b712f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c81f824a0faaca1c228aa650c003576cce210a67
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053512"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199202"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Ações de correção no Microsoft 365 Defender
 
@@ -45,7 +45,7 @@ Durante e após uma investigação automatizada no Microsoft 365 Defender, as a�
 > Se as ações de correção são tomadas automaticamente ou somente após aprovação depende de determinadas configurações, como os níveis de automação. Para saber mais, confira os seguintes artigos:
 > - [Configurar seus recursos automatizados de investigação e resposta no Microsoft 365 Defender](m365d-configure-auto-investigation-response.md)
 > - [Como as ameaças são remediadas em dispositivos](../defender-endpoint/automated-investigations.md)
-> - [Ações de ameaças e correção no email & conteúdo de colaboração](../defender-365-security/air-remediation-actions.md#threats-and-remediation-actions)
+> - [Ações de ameaças e correção no email & conteúdo de colaboração](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
 A tabela a seguir resume as ações de correção com suporte no Microsoft 365 Defender: 
 
@@ -76,7 +76,7 @@ Além das ações de correção que seguem investigações automatizadas, sua eq
 - Ação de dispositivo manual, como isolamento de dispositivo ou quarentena de arquivo.
 - Ação de email manual, como a exclusão suave de mensagens de email. 
 - [Ação de busca](../defender-endpoint/advanced-hunting-overview.md) avançada em dispositivos ou emails.
-- [Ação](../defender-365-security/threat-explorer.md) do Explorer no conteúdo de email, como a movimentação de emails para lixo eletrônico, a exclusão de emails ou a exclusão de emails.
+- [Ação](../office-365-security/threat-explorer.md) do Explorer no conteúdo de email, como a movimentação de emails para lixo eletrônico, a exclusão de emails ou a exclusão de emails.
 - Ação [de resposta ao vivo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) manual, como excluir um arquivo, interromper um processo e remover uma tarefa agendada.
 - Ação de resposta ao vivo com [APIs](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis)do Microsoft Defender para Ponto de Extremidade , como isolar um dispositivo, executar uma verificação antivírus e obter informações sobre um arquivo. 
 

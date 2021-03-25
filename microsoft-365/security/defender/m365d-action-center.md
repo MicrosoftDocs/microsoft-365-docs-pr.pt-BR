@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.date: 02/01/2021
-ms.openlocfilehash: c91e5152fc7a64c8d26363383192d6b8d74611b8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d958f2787b9d66e42a32b8858139f7d13e83ddef
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186756"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199592"
 ---
 # <a name="the-action-center"></a>A Central de Ações
 
@@ -61,7 +61,7 @@ O centro de ações unificado reúne ações de correção no Defender para Pont
 Você pode usar o Centro de Ações unificado se tiver permissões apropriadas e uma ou mais das seguintes assinaturas:
 
 - [Defender para Ponto de Extremidade](../defender-endpoint/microsoft-defender-endpoint.md)
-- [O que é o Defender para Office 365?](/microsoft-365/security/defender-365-security/defender-for-office-365)
+- [Microsoft Defender para Office 365?](/microsoft-365/security/office-365-security/defender-for-office-365)
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 
 > [!TIP]
@@ -113,11 +113,11 @@ Além das ações de correção que são tomadas automaticamente como resultado 
 | Valor de origem da ação | Descrição |
 |:-----|:---|
 | **Ação manual do dispositivo** | Uma ação manual realizada em um dispositivo. Exemplos [incluem isolamento de dispositivo ou](../defender-endpoint/respond-machine-alerts.md#isolate-devices-from-the-network) quarentena de [arquivo](../defender-endpoint/respond-file-alerts.md#stop-and-quarantine-files). |
-| **Ação de email manual** | Uma ação manual realizada no email. Um exemplo inclui a exclusão suave de mensagens de email ou [a correção de uma mensagem de email](../defender-365-security/remediate-malicious-email-delivered-office-365.md). |
+| **Ação de email manual** | Uma ação manual realizada no email. Um exemplo inclui a exclusão suave de mensagens de email ou [a correção de uma mensagem de email](../office-365-security/remediate-malicious-email-delivered-office-365.md). |
 | **Ação de dispositivo automatizada** | Uma ação automatizada realizada em uma entidade, como um arquivo ou processo. Exemplos de ações automatizadas incluem o envio de um arquivo para quarentena, a interrupção de um processo e a remoção de uma chave do Registro. (Consulte [Ações de correção no Microsoft Defender para Ponto de](../defender-endpoint/manage-auto-investigation.md#remediation-actions)Extremidade .) |
-| **Ação de email automatizada** | Uma ação automatizada realizada no conteúdo de email, como uma mensagem de email, anexo ou URL. Exemplos de ações automatizadas incluem a exclusão automática de mensagens de email, o bloqueio de URLs e a exclusão do encaminhamento de emails externos. (Consulte [Ações de correção no Microsoft Defender para Office 365](../defender-365-security/air-remediation-actions.md).) |
+| **Ação de email automatizada** | Uma ação automatizada realizada no conteúdo de email, como uma mensagem de email, anexo ou URL. Exemplos de ações automatizadas incluem a exclusão automática de mensagens de email, o bloqueio de URLs e a exclusão do encaminhamento de emails externos. (Consulte [Ações de correção no Microsoft Defender para Office 365](../office-365-security/air-remediation-actions.md).) |
 | **Ação de busca avançada** | Ações realizadas em dispositivos ou emails com [busca avançada.](./advanced-hunting-overview.md) |
-| **Ação do Explorer** | Ações realizadas no conteúdo de email com [o Explorer](../defender-365-security/threat-explorer.md). |
+| **Ação do Explorer** | Ações realizadas no conteúdo de email com [o Explorer](../office-365-security/threat-explorer.md). |
 | **Ação manual de resposta ao vivo** | Ações realizadas em um dispositivo com [resposta ao vivo](../defender-endpoint/live-response.md). Exemplos incluem a exclusão de um arquivo, a interrupção de um processo e a remoção de uma tarefa agendada. |
 | **Ação de resposta ao vivo** | Ações realizadas em um dispositivo com [o Microsoft Defender para APIs do Ponto de Extremidade.](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis) Exemplos de ações incluem isolar um dispositivo, executar uma verificação antivírus e obter informações sobre um arquivo. |
 
@@ -128,7 +128,7 @@ Para executar tarefas, como aprovar ou rejeitar ações pendentes no Centro de A
 |Ação de correção |Funções e permissões necessárias |
 |--|----|
 |Microsoft Defender para Correção de Ponto de Extremidade (dispositivos) |Função **Administrador de Segurança** atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---ou---<br/>**Função de ações de correção** ativa atribuídas ao Microsoft Defender para Ponto de Extremidade <br/> <br/> Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Criar e gerenciar funções para controle de acesso baseado em função (Microsoft Defender para Ponto de Extremidade)](../defender-endpoint/user-roles.md)  |
-|Correção do Microsoft Defender para Office 365 (conteúdo do Office e email)  |Função **Administrador de Segurança** atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>**Função de pesquisa e** limpeza atribuída ao Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**IMPORTANTE**: Se  você tiver a função de Administrador de Segurança atribuída apenas no Centro de Conformidade e Segurança do Office 365 & ( ), você não poderá acessar o Centro de Ações ou os recursos do [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. Você deve ter a função **administrador de segurança** atribuída no Azure Active Directory ou no Centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no Centro de Conformidade & Segurança](/microsoft-365/security/defender-365-security/permissions-in-the-security-and-compliance-center) |
+|Correção do Microsoft Defender para Office 365 (conteúdo do Office e email)  |Função **Administrador de Segurança** atribuída no Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) ou no centro de administração do Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>---e--- <br/>**Função de pesquisa e** limpeza atribuída ao Centro de Conformidade & segurança ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**IMPORTANTE**: Se  você tiver a função de Administrador de Segurança atribuída apenas no Centro de Conformidade e Segurança do Office 365 & ( ), você não poderá acessar o Centro de Ações ou os recursos do [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. Você deve ter a função **administrador de segurança** atribuída no Azure Active Directory ou no Centro de administração do Microsoft 365. <br/><br/>Para saber mais, confira os seguintes recursos: <br/>- [Permissões da função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Permissões no Centro de Conformidade & Segurança](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!TIP]
 > Os usuários que têm a função **Administrador Global** atribuída no Azure Active Directory podem aprovar ou rejeitar qualquer ação pendente na Central de ações. No entanto, como prática prática, sua organização deve limitar o número de pessoas que têm a função de **Administrador Global** atribuída. Recomendamos usar as funções Administrador de **Segurança,** Correção Ativa **e** Pesquisa e Limpeza listadas na tabela anterior para permissões do Centro de Ações. 

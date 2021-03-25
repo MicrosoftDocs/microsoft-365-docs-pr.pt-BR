@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 25647e65f9d031a68b9133df68573eac56f8ff24
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7cf9d391533f52a3011698112d4e5be1495118c2
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053534"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200024"
 ---
 # <a name="supported-operating-systems-and-platforms---threat-and-vulnerability-management"></a>Sistemas e plataformas operacionais com suporte - gerenciamento de ameaças e vulnerabilidades
 
@@ -52,7 +52,7 @@ Windows Server 2008 R2 | Vulnerabilidades do Sistema Operacional (SO)<br/>Vulner
 Windows Server 2012 R2 | Vulnerabilidades do Sistema Operacional (SO)<br/>Vulnerabilidades do produto de software<br/>Avaliação de configuração do Sistema Operacional (OS)<br/>Avaliação de configuração de controles de segurança<br/>Avaliação de configuração de produto de software
 Windows Server 2016 | Vulnerabilidades do Sistema Operacional (SO)<br/>Vulnerabilidades do produto de software<br/>Avaliação de configuração do Sistema Operacional (OS)<br/>Avaliação de configuração de controles de segurança<br/>Avaliação de configuração de produto de software
 Windows Server 2019 | Vulnerabilidades do Sistema Operacional (SO)<br/>Vulnerabilidades do produto de software<br/>Avaliação de configuração do Sistema Operacional (OS)<br/>Avaliação de configuração de controles de segurança<br/>Avaliação de configuração de produto de software
-macOS 10.13 "High Sierra" e acima | Vulnerabilidades do Sistema Operacional (SO)<br/>Vulnerabilidades do produto de software 
+macOS 10.14 "Mojave" e acima | Vulnerabilidades do Sistema Operacional (SO)<br/>Vulnerabilidades do produto de software 
 Linux | Sem suporte (planejado)
 
 ## <a name="related-articles"></a>Artigos relacionados

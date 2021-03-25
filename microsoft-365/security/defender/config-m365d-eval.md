@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 5ab4019751a26507fcc80007d3262f20f861d25c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 8bb80e032fd2eb4c618b60f4ab46829d5cf11b6d
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053196"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199224"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Configurar os pilares do Microsoft 365 Defender para seu laboratório de avaliação ou ambiente piloto
 
@@ -96,7 +96,7 @@ Há um Módulo do PowerShell chamado *ORCA (Advanced Threat Protection Recommend
  
 7. Em seguida, selecione **a política Links Seguros** e clique no ícone de lápis para editar a política padrão.
 
-8. Certifique-se de que **a opção Não rastrear quando os** usuários clicarem em links seguros não estiver selecionada, enquanto o restante das opções estiver selecionado. Consulte [Configurações de Links Seguros](/microsoft-365/security/defender-365-security/recommended-settings-for-eop-and-office365) para obter detalhes. Clique em **Salvar**. 
+8. Certifique-se de que **a opção Não rastrear quando os** usuários clicarem em links seguros não estiver selecionada, enquanto o restante das opções estiver selecionado. Consulte [Configurações de Links Seguros](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365) para obter detalhes. Clique em **Salvar**. 
 
    ![Imagem of_Office página do Centro de Conformidade e Segurança & do 365 365 que mostra que a opção Não rastrear quando os usuários clicam em segurança não está selecionada](../../media/mtp-eval-38.png)
 

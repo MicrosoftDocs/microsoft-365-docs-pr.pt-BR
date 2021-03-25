@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 41c97d122362ec1fa945fc012ab7a1da46a43b68
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ed6f6b42570a908a1f4a83d46ef5b2de0c558692
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165580"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199736"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -141,7 +141,7 @@ Ao ativar esse recurso, você poderá incorporar dados da Proteção Avançada c
 > [!NOTE]
 > Você precisará ter a licença apropriada para habilitar esse recurso.
 
-Para receber a integração de dispositivo contextual no Office 365 Threat Intelligence, você precisará habilitar as configurações do Defender para Ponto de Extremidade no painel Segurança & Conformidade. Para obter mais informações, consulte [Investigação e resposta contra ameaças.](https://docs.microsoft.com/microsoft-365/security/defender-365-security/office-365-ti)
+Para receber a integração de dispositivo contextual no Office 365 Threat Intelligence, você precisará habilitar as configurações do Defender para Ponto de Extremidade no painel Segurança & Conformidade. Para obter mais informações, consulte [Investigação e resposta contra ameaças.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
 
 ## <a name="microsoft-threat-experts"></a>Especialistas em ameaças da Microsoft
 

@@ -12,19 +12,17 @@ author: denisebmsft
 ms.author: deniseb
 ms.reviewer: jcedola, dbodorin, vladiso, nixanm, anvascon
 manager: dansimp
-ms.date: 01/06/2021
+ms.date: 03/24/2021
 ms.technology: mde
-ms.openlocfilehash: 64f96544361a672881c590716adea80f40777c6e
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.topic: how-to
+ms.openlocfilehash: 0962913df63e6837664cdb8ff79710d66e66977c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163334"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199894"
 ---
 # <a name="customize-controlled-folder-access"></a>Personalizar o acesso controlado a pastas
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -120,7 +118,7 @@ Um aplicativo ou serviço permitido só tem acesso de gravação a uma pasta con
 
 4. Selecione **Adicionar um aplicativo permitido** e siga as solicitações para adicionar aplicativos.
 
-    ![Captura de tela de como adicionar um botão de aplicativo permitido](/microsoft-365/security/defender-endpoint/images/cfa-allow-app)
+   :::image type="content" source="images/cfa-allow-app.png" alt-text="Adicionar um botão de aplicativo permitido":::
 
 ### <a name="use-group-policy-to-allow-specific-apps"></a>Usar a Política de Grupo para permitir aplicativos específicos
 
@@ -149,7 +147,7 @@ Um aplicativo ou serviço permitido só tem acesso de gravação a uma pasta con
 
    Continue a usar `Add-MpPreference -ControlledFolderAccessAllowedApplications` para adicionar mais aplicativos à lista. Os aplicativos adicionados usando esse cmdlet aparecerão no aplicativo segurança do Windows.
 
-![Captura de tela de uma janela do PowerShell com o cmdlet acima inserido](/microsoft-365/security/defender-endpoint/images/cfa-allow-app-ps)
+   :::image type="content" source="images/cfa-allow-app-ps.png" alt-text="Cmdlet do PowerShell para permitir um aplicativo":::
 
 > [!IMPORTANT]
 > Use `Add-MpPreference` para acrescentar ou adicionar aplicativos à lista. O uso `Set-MpPreference` do cmdlet substituirá a lista existente.

@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d54ab8eaa1e17be82752c480c963d3a24af56389
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a04f3be1f13fb57cd76cda7115d014f2ba3aa8d6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187572"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198820"
 ---
 # <a name="create-indicators"></a>Criar indicadores
 
@@ -33,13 +33,14 @@ ms.locfileid: "51187572"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
+> [!TIP]
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 O indicador de correspondência de comprometimento (IoCs) é um recurso essencial em todas as soluções de proteção de ponto de extremidade. Essa funcionalidade oferece a SecOps a capacidade de definir uma lista de indicadores para detecção e bloqueio (prevenção e resposta).
 
 Crie indicadores que definem a detecção, a prevenção e a exclusão de entidades. Você pode definir a ação a ser tomada, bem como a duração para quando aplicar a ação, bem como o escopo do grupo de dispositivos ao qual aplicá-la.
 
-As fontes atualmente suportadas são o mecanismo de detecção de nuvem do Defender for Endpoint, o mecanismo automatizado de investigação e correção e o mecanismo de prevenção de ponto de extremidade (Microsoft Defender AV).
+As fontes atualmente suportadas são o mecanismo de detecção de nuvem do Defender for Endpoint, o mecanismo automatizado de investigação e correção e o mecanismo de prevenção de ponto de extremidade (Microsoft Defender Antivírus).
 
 **Mecanismo de detecção de nuvem**<br>
 O mecanismo de detecção de nuvem do Defender para Ponto de Extremidade verifica regularmente os dados coletados e tenta corresponder aos indicadores definidos. Quando houver uma combinação, a ação será tomada de acordo com as configurações especificadas para o IoC.
@@ -63,8 +64,8 @@ Você pode criar um indicador para:
 - [Certificados](indicator-certificates.md)
 
 
->[!NOTE]
->Há um limite de 15.000 indicadores por locatário.
+> [!NOTE]
+> Há um limite de 15.000 indicadores por locatário. Os indicadores de arquivo e certificado não bloqueiam [exclusões definidas para o Microsoft Defender Antivírus.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Os indicadores não são suportados no Microsoft Defender Antivírus está no modo passivo. 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

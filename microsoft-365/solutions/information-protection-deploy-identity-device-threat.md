@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Impedir violações de dados pessoais com os serviços de proteção de identidade, dispositivo e ameaças do Microsoft 365.
-ms.openlocfilehash: 145b8a59f7eafb95adf71dc24613ee15ef1c2cca
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5e08ef574e199769e572b3836b3323dc88fc4bbd
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052345"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199460"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Usar identidade, dispositivo e proteção contra ameaças para a regulamentação de privacidade de dados
 
@@ -70,7 +70,7 @@ Use [o Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/micro
 - Exigir que os dispositivos móveis bloqueiem na inatividade.
 - Exigir que os dispositivos móveis limpem várias falhas de entrada.
 
-Use [a Proteção do Exchange Online e o Microsoft Defender para Office 365](../security/defender-365-security/defender-for-office-365.md) para a categoria **Proteger Contra Ameaças,** com a qual você pode:
+Use [a Proteção do Exchange Online e o Microsoft Defender para Office 365](../security/office-365-security/defender-for-office-365.md) para a categoria **Proteger Contra Ameaças,** com a qual você pode:
 
 - Habilitar autenticação de remetente (SPF, DMARC e DKIM).
 - Configurar políticas anti-phishing do Microsoft Defender para Office 365.
@@ -81,8 +81,8 @@ Use [a Proteção do Exchange Online e o Microsoft Defender para Office 365](../
 
 ### <a name="references"></a>Referências:
 
-- [Identidade comum e políticas de acesso ao dispositivo](../security/defender-365-security/identity-access-policies.md)
+- [Identidade comum e políticas de acesso ao dispositivo](../security/office-365-security/identity-access-policies.md)
 - [Proteger contra ameaças no Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58)
-- [Anexos Seguros](../security/defender-365-security/safe-attachments.md)
-- [Links Seguros](../security/defender-365-security/safe-links.md)
-- [Documentos Seguros](../security/defender-365-security/safe-docs.md)
+- [Anexos Seguros](../security/office-365-security/safe-attachments.md)
+- [Links Seguros](../security/office-365-security/safe-links.md)
+- [Documentos Seguros](../security/office-365-security/safe-docs.md)

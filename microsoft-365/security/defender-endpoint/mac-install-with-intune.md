@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb2923c3f2cb3f27a864fdc3c5070107998823d5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 94cb92974b0e73a1254fd024c39d9a6ee620aad3
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054056"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199532"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-for-mac"></a>Implantação baseada no Intune para Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -50,7 +50,7 @@ Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremid
 
 Antes de começar, consulte a página principal do [Microsoft Defender para Ponto](microsoft-defender-endpoint-mac.md) de Extremidade para Mac para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 A tabela a seguir resume as etapas necessárias para implantar e gerenciar o Microsoft Defender para Pontos de Extremidade para Macs, por meio do Intune. Etapas mais detalhadas estão disponíveis abaixo.
 
@@ -137,7 +137,7 @@ Você não precisa de nenhum provisionamento especial para um dispositivo Mac al
 
 1. Confirme o gerenciamento de dispositivos.
 
-    ![Confirmar captura de tela de gerenciamento de dispositivo](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-3-confirmdevicemgmt)
+    ![Confirmar captura de tela de gerenciamento de dispositivo](./images/mdatp-3-confirmdevicemgmt.png)
 
     Selecione **Abrir Preferências do Sistema,** localize **o Perfil** de Gerenciamento na lista e selecione **Aprovar...**. Seu Perfil de Gerenciamento seria exibido como **Verificado**:
 
@@ -160,9 +160,9 @@ Para aprovar as extensões do sistema:
 
 2. Escolha um nome para o perfil. Alterar **Platform=macOS** para **Profile type=Extensions**. Selecione **Criar**.
 
-3. Na `Basics` guia, dê um nome a esse novo perfil.
+3. Na guia **Noções Básicas,** dê um nome a esse novo perfil.
 
-4. Na `Configuration settings` guia, adicione as seguintes entradas na `Allowed system extensions` seção:
+4. Na guia **Configuração de configurações,** adicione as seguintes entradas na seção **Extensões do sistema permitidos:**
 
     Identificador de pacote         | Identificador de equipe
     --------------------------|----------------
@@ -170,9 +170,9 @@ Para aprovar as extensões do sistema:
     com.microsoft.wdav.netext | UBF8T346G9
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de tela da guia Configurações, incluindo a seção Identificadores permitidos da equipe](images/mac-system-extension-intune2.png)
+    > ![Captura de tela das configurações de extensão nas configurações da guia Noções Básicas](images/mac-system-extension-intune2.png)
 
-5. Na `Assignments` guia, atribua esse perfil a **Todos os Usuários & Todos os dispositivos**.
+5. Na guia **Atribuições,** atribua esse perfil a **Todos os Usuários & Todos os dispositivos**.
 
 6. Revise e crie esse perfil de configuração.
 
@@ -186,7 +186,7 @@ Para aprovar as extensões do sistema:
 
 4. Selecione **OK**.
 
-    ![Captura de tela de perfis de configuração do sistema](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-6-systemconfigurationprofiles)
+    ![Importar uma configuração de um arquivo para o Perfil de Configuração Personalizado](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-6-systemconfigurationprofiles)
 
 5. Selecione **Gerenciar**  >  **atribuições**. Na guia **Incluir,** selecione **Atribuir a Todos os Usuários & Todos os dispositivos**.
 
@@ -194,14 +194,14 @@ Para aprovar as extensões do sistema:
 
 7. Crie outro perfil, dê um nome e carregue o arquivo do intune/WindowsDefenderATPOnboarding.xml.
 
-8. Baixe `fulldisk.mobileconfig` do repositório do [GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) e salve-o como `tcc.xml` . Crie outro perfil, dê qualquer nome e carregue esse arquivo nele.<a name="create-system-configuration-profiles-step-8" id = "create-system-configuration-profiles-step-8"></a>
+8. Baixe **fulldisk.mobileconfig** do [repositório do GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) e salve-o como **tcc.xml**. Crie outro perfil, dê qualquer nome e carregue esse arquivo nele.<a name="create-system-configuration-profiles-step-8" id = "create-system-configuration-profiles-step-8"></a>
 
    > [!CAUTION]
    > O macOS 10.15 (Catalina) contém novos aprimoramentos de segurança e privacidade. A partir dessa versão, por padrão, os aplicativos não são capazes de acessar determinados locais no disco (como Documentos, Downloads, Área de Trabalho, etc.) sem consentimento explícito. Na ausência desse consentimento, o Microsoft Defender para Ponto de Extremidade não é capaz de proteger totalmente seu dispositivo.
    >
    > Esse perfil de configuração concede acesso total em disco ao Microsoft Defender para Ponto de Extremidade. Se você configurou anteriormente o Microsoft Defender para Ponto de Extremidade por meio do Intune, recomendamos atualizar a implantação com esse perfil de configuração.
 
-9. Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade para Mac inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade. Baixe `netfilter.mobileconfig` do repositório do [GitHub,](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)salve-o como netext.xml e implante-o usando as mesmas etapas das seções anteriores. <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
+9. Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade para Mac inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade. Baixe **netfilter.mobileconfig** do repositório [do GitHub,](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)salve-o como netext.xml e implante-o usando as mesmas etapas das seções anteriores. <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
 
 10. Para permitir que o Microsoft Defender para o Ponto de Extremidade para Mac e o Microsoft Auto Update eximem notificações na interface do usuário no macOS 10.15 (Catalina), baixe do repositório `notif.mobileconfig` [do GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) e importe-o como uma carga personalizada. <a name = "create-system-configuration-profiles-step-10" id = "create-system-configuration-profiles-step-10"></a>
 
@@ -210,7 +210,7 @@ Para aprovar as extensões do sistema:
 Depois que as alterações do Intune são propagadas para os dispositivos inscritos, você pode vê-las listadas em **Monitor**  >  **Device status**:
 
 > [!div class="mx-imgBorder"]
-> ![Captura de tela do kext - Status do dispositivo](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-7-devicestatusblade)
+> ![Exibição do status do dispositivo no Monitor](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-7-devicestatusblade.png)
 
 ## <a name="publish-application"></a>Publicar aplicativo
 
@@ -222,7 +222,7 @@ Depois que as alterações do Intune são propagadas para os dispositivos inscri
 
 4. Selecione **Configurar** e adicionar as informações necessárias.
 
-5. Use **macOS High Sierra 10.13** como o sistema operacional mínimo.
+5. Use **macOS High Sierra 10.14** como o sistema operacional mínimo.
 
 6. Definir *Ignorar versão do aplicativo* como **Sim**. Outras configurações podem ser qualquer valor arbitrário.
 
@@ -232,12 +232,12 @@ Depois que as alterações do Intune são propagadas para os dispositivos inscri
     > Se a versão carregada pelo Intune for menor do que a versão no dispositivo, a versão inferior será instalada, rebaixando efetivamente o Microsoft Defender para o Ponto de Extremidade. Isso pode resultar em um aplicativo que não está funcionando. Confira [Implantar atualizações do Microsoft Defender para Ponto](mac-updates.md) de Extremidade para Mac para obter informações adicionais sobre como o produto é atualizado. Se você implantou o Microsoft Defender para Ponto de Extremidade *com Ignorar a* versão do aplicativo definida como **Não**, altere-a para **Sim**. Se o Microsoft Defender for Endpoint ainda não puder ser instalado em um dispositivo cliente, desinstale o Microsoft Defender para Ponto de Extremidade e pressione a política atualizada.
      
     > [!div class="mx-imgBorder"]
-    > ![Captura de tela da opção Configurar informações do aplicativo na caixa de diálogo Adicionar aplicativo](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-8-intuneappinfo)
+    > ![Exibição de informações do aplicativo no app add](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-8-intuneappinfo)
 
 7. Selecione **OK** e **Adicionar**.
 
     > [!div class="mx-imgBorder"]
-    > ![Captura de tela de uma visão geral de exemplo](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-9-intunepkginfo)
+    > ![Status do dispositivo mostrado na janela Notificações](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-9-intunepkginfo)
 
 8. Pode levar alguns instantes para carregar o pacote. Depois de terminar, selecione o pacote na lista e vá para **Atribuições** e **Adicionar grupo**.
 

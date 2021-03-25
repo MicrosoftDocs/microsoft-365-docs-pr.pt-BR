@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: De definir permissões e funções de usuário do Microsoft Compliance Manager e configurar testes automatizados de ações. Gerencie o histórico do usuário e filtre o seu painel de exibição.
-ms.openlocfilehash: 08a62a12e5f412781595ba7d54c3b63a03ae19aa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3b32ac5a82bbc726c5bf61859266e0561ca7f53c
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052129"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51199214"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
@@ -72,7 +72,7 @@ Para definir permissões e atribuir funções no Centro de Conformidade e Segura
 
 ##### <a name="more-about-the-office-365-security--compliance-center"></a>Mais sobre o Centro de Conformidade e Segurança & do Office 365
 
-Saiba mais sobre permissões no Centro de Conformidade e Segurança [& do Office 365.](../security/defender-365-security/permissions-in-the-security-and-compliance-center.md)
+Saiba mais sobre permissões no Centro de Conformidade e Segurança [& do Office 365.](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 
 Se você não tiver acesso ao Centro de Conformidade e Segurança do Office 365 ou se precisar acessar a versão clássica do Gerenciador de Conformidade no Portal de Confiança do Serviço Microsoft, as configurações do Administrador no Portal de Confiança de Serviço fornece outra maneira de atribuir funções ([instruções](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#assigning-compliance-manager-roles-to-users)de exibição ). Esteja ciente de que essas funções são mais limitadas em sua funcionalidade.
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 5ee19b96823d1cdba0f6523686e8deefed79ba99
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 66e1bfa8007a972a1963745857a25e1e255634b6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053191"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51200180"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Portais de segurança e centros de administração da Microsoft
 
@@ -42,7 +42,7 @@ Os operadores e administradores de segurança podem acessar os seguintes portais
 |---|---|---| 
 | Centro de segurança do Microsoft 365 | Monitore e responda à atividade de ameaça e fortaleça a postura de segurança em suas identidades, emails, dados, pontos de extremidade e aplicativos com [o Microsoft 365 Defender](microsoft-365-defender.md) | [security.microsoft.com](https://security.microsoft.com/) |
 | Centro de Segurança do Microsoft Defender | Monitorar e responder a atividades de ameaça em seus pontos de extremidade usando recursos fornecidos com [o Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
-| Centro de Conformidade e Segurança | Gerenciar [a Proteção do Exchange Online](../defender-365-security/exchange-online-protection-overview.md?view=o365-worldwide) e o Microsoft Defender para o Office [365](/microsoft-365/security/defender-365-security/defender-for-office-365?view=o365-worldwide) para proteger seus serviços de email e colaboração e garantir a conformidade com vários regulamentos de tratamento de dados | [protection.office.com](https://protection.office.com) |
+| Centro de Conformidade e Segurança | Gerenciar [a Proteção do Exchange Online](../office-365-security/exchange-online-protection-overview.md?view=o365-worldwide) e o Microsoft Defender para o Office [365](/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide) para proteger seus serviços de email e colaboração e garantir a conformidade com vários regulamentos de tratamento de dados | [protection.office.com](https://protection.office.com) |
 | Portal do Azure Defender | Use [o Azure Defender para](/azure/security-center/security-center-intro) fortalecer a postura de segurança de seus data centers e suas cargas de trabalho híbridas na nuvem | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
 | Portal do Microsoft Defender para Identidade | Identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas usando sinais do Active Directory com [o Microsoft Defender para Identidade](/azure-advanced-threat-protection/what-is-atp) | [portal.atp.azure.com](https://portal.atp.azure.com/) |
 | Portal de Segurança de Aplicativos na Nuvem | Use [o Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) para obter visibilidade avançada, controle sobre a viagem de dados e análises sofisticadas para identificar e combater ameaças cibernéticas em serviços de nuvem | [portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/) |
