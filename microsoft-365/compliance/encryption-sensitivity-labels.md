@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Configure rótulos de confidencialidade para criptografia que protege seus dados restringindo o acesso e o uso.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e8080a282ef734490214dc5f2b9e18a1946b314c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f670a3cdefb7b6cd78d24a17fc2e6276274efff3
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185822"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222414"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Restringir o acesso ao conteúdo usando rótulos de confidencialidade para aplicar criptografia
 
@@ -232,7 +232,7 @@ Para obter mais informações, pré-requisitos e instruções de configuração,
 
 Você pode usar as seguintes opções para permitir que os usuários atribuam permissões quando aplicam manualmente um rótulo de sensibilidade ao conteúdo:
 
-- No Outlook, o usuário pode selecionar restrições equivalentes à opção [Não Encaminhar](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) ou [Criptografar Somente](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) (atualmente em implementação) para os destinatários escolhidos.
+- No Outlook, o usuário pode selecionar restrições equivalentes à opção [Não Encaminhar](/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) ou [Criptografar Somente](/azure/information-protection/configure-usage-rights#encrypt-only-option-for-emails) para os destinatários escolhidos.
     
     A opção Não Encaminhar é compatível com todos os clientes de email que têm suporte para os rótulos de confidencialidade. No entanto, a aplicação da opção **Criptografar Somente** com um rótulo de confidencialidade é um lançamento recente que tem suporte apenas por rotulagem integrada, e não pelo cliente de rotulagem unificada da Proteção de Informações do Azure. O rotulo não ficará visível para os clientes de email que não têm suporte para esse recurso.
     
