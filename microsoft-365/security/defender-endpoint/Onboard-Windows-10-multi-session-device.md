@@ -16,25 +16,23 @@ ms.custom: nextgen
 ms.date: 09/10/2020
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 30e664aed74ed01944c67b139e6268fc3340ada4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bfd447120e171fed063b3224e3a47c2ef38f0f16
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052789"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222606"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboard Windows 10 multi-session devices in Windows Virtual Desktop 
 6 minutos para leitura 
 
 Aplicável a: 
 - Windows 10 com várias sessões em execução na Área de Trabalho Virtual do Windows (WVD) 
-> [!IMPORTANT]
-> Bem-vindo ao Microsoft Defender para Ponto de Extremidade, o novo nome do Microsoft Defender para Ponto de Extremidade. Leia mais sobre esta e outras atualizações aqui. Atualizaremos os nomes nos produtos e nos documentos em um futuro próximo.
 
 > [!WARNING]
 > O suporte do Microsoft Defender para Ponto de Extremidade para cenários de várias sessões da Área de Trabalho Virtual do Windows está atualmente em Visualização e limitado a até 25 sessões simultâneas por host/VM. No entanto, cenários de sessão única na Área de Trabalho Virtual do Windows são totalmente suportados.
 
-O Microsoft Defender para Ponto de Extremidade oferece suporte ao monitoramento da VDI, bem como às sessões da Área de Trabalho Virtual do Windows. Dependendo das necessidades da sua organização, talvez seja necessário implementar sessões de VDI ou Área de Trabalho Virtual do Windows para ajudar seus funcionários a acessarem dados corporativos e aplicativos de um dispositivo sem gestão, localização remota ou cenário semelhante. Com o Microsoft Defender para Ponto de Extremidade, você pode monitorar essas máquinas virtuais para atividades anômalas.
+O Microsoft Defender para Ponto de Extremidade oferece suporte ao monitoramento de sessões de VDI e da Área de Trabalho Virtual do Windows. Dependendo das necessidades da sua organização, talvez seja necessário implementar sessões de VDI ou Área de Trabalho Virtual do Windows para ajudar seus funcionários a acessarem dados corporativos e aplicativos de um dispositivo sem gestão, localização remota ou cenário semelhante. Com o Microsoft Defender para Ponto de Extremidade, você pode monitorar essas máquinas virtuais para atividades anômalas.
 
  ## <a name="before-you-begin"></a>Antes de começar
 Familiarize-se com as [considerações para VDI não persistente.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1) Embora a [Área de](https://docs.microsoft.com/azure/virtual-desktop/overview) Trabalho Virtual do Windows não forneça opções de não persistência, ela fornece maneiras de usar uma imagem dourada do Windows que pode ser usada para provisionar novos hosts e reimplantar computadores. Isso aumenta a volatilidade no ambiente e, portanto, afeta quais entradas são criadas e mantidas no portal do Microsoft Defender para Ponto de Extremidade, reduzindo a visibilidade para seus analistas de segurança.
@@ -44,7 +42,7 @@ Familiarize-se com as [considerações para VDI não persistente.](https://docs.
 > - Entrada única para cada área de trabalho virtual 
 > - Várias entradas para cada área de trabalho virtual 
 
-A Microsoft recomenda a integração da Área de Trabalho Virtual do Windows como uma única entrada por área de trabalho virtual. Isso garante que a experiência de investigação no portal do Ponto de Extremidade do Microsoft Defender está no contexto de um dispositivo com base no nome do computador. As organizações que frequentemente excluem e implantem hosts WVD devem considerar fortemente o uso desse método, pois impede que vários objetos para o mesmo computador seja criado no portal do Microsoft Defender para Ponto de Extremidade. Isso pode levar a confusão ao investigar incidentes. Para ambientes de teste ou não voláteis, você pode optar por escolher de forma diferente. 
+A Microsoft recomenda a integração da Área de Trabalho Virtual do Windows como uma única entrada por área de trabalho virtual. Isso garante que a experiência de investigação no portal do Ponto de Extremidade do Microsoft Defender está no contexto de um dispositivo com base no nome do computador. As organizações que frequentemente excluem e reimplantam hosts WVD devem considerar fortemente o uso desse método, pois impede que vários objetos para o mesmo computador seja criado no portal do Microsoft Defender para Ponto de Extremidade. Isso pode levar a confusão ao investigar incidentes. Para ambientes de teste ou não voláteis, você pode optar por escolher de forma diferente. 
 
 A Microsoft recomenda adicionar o script de integração do Microsoft Defender for Endpoint à imagem dourada do WVD. Dessa forma, você pode ter certeza de que esse script de integração é executado imediatamente na primeira inicialização. Ele é executado como um script de inicialização na primeira inicialização em todos os dispositivos WVD provisionados da imagem dourada do WVD. No entanto, se você estiver usando uma das imagens da galeria sem modificação, coloque o script em um local compartilhado e chame-o de política de grupo local ou de domínio. 
 
@@ -103,7 +101,7 @@ Para obter mais informações, consulte: [Integração de dispositivos Windows 1
 
 #### <a name="tagging-your-machines-when-building-your-golden-image"></a>Marcando seus máquinas ao criar sua imagem dourada 
 
-Como parte de sua integração, talvez você queira considerar a configuração de uma marca de máquina para poder diferenciar máquinas WVD com mais facilidade no Centro de Segurança da Microsoft. Para obter mais informações, [consulte Add device tags by setting a Registry key value](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-tags#add-device-tags-by-setting-a-registry-key-value). 
+Como parte de sua integração, talvez você queira considerar a configuração de uma marca de máquina para diferenciar máquinas WVD com mais facilidade no Centro de Segurança da Microsoft. Para obter mais informações, [consulte Add device tags by setting a Registry key value](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-tags#add-device-tags-by-setting-a-registry-key-value). 
 
 #### <a name="other-recommended-configuration-settings"></a>Outras configurações recomendadas 
 

@@ -17,12 +17,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Saiba mais sobre as configurações de compartilhamento de convidados disponíveis no Microsoft 365 que podem afetar o compartilhamento com pessoas de fora da sua organização.
-ms.openlocfilehash: c87f1d0ea8a35d7685f91c1b20a709c58ec4d040
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bdb86dd7545c00f0ed24552b22062a983e450b47
+ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920211"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215559"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Referência de configurações de compartilhamento de convidados do Microsoft 365
 
@@ -35,7 +35,7 @@ Este artigo é uma referência para as diversas configurações que podem afetar
 O Azure Active Directory é o serviço de diretório usado pelo Microsoft 365. As configurações de relações organizacionais do Azure Active Directory afetam diretamente o compartilhamento no Teams, Grupos do Microsoft 365, SharePoint e OneDrive.
 
 > [!NOTE]
-> Essas configurações afetam apenas o SharePoint quando a [integração do SharePoint e OneDrive com o Azure AD B2B (versão prévia)](/sharepoint/sharepoint-azureb2b-integration-preview) tiver sido configurada. A tabela a seguir supõe que ela tenha sido configurada.
+> Essas configurações afetam o SharePoint apenas quando a [Integração do Microsoft Office SharePoint Online e do OneDrive com o Azure Active Directory B2B](/sharepoint/sharepoint-azureb2b-integration-preview) tiver sido configurada. A tabela a seguir supõe que ela tenha sido configurada.
 
 ### <a name="organizational-relationships-settings"></a>Configurações das relações organizacionais
 
@@ -43,7 +43,7 @@ O Azure Active Directory é o serviço de diretório usado pelo Microsoft 365. A
 
 ![Captura de tela da página de configurações das Relações Organizacionais do Azure Active Directory](../media/azure-ad-organizational-relationships-settings.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |As permissões de usuários convidados são limitadas|Sim|Essa configuração afeta as tarefas de diretório que um convidado pode executar.|
 |Somente administradores e usuários na função emissor do convite convidado podem convidar|Sim|Quando definido como **Sim**, os administradores podem convidar convidados por meio do Azure AD e por experiências de compartilhamento da Microsoft 365, como o Teams e SharePoint. Quando definido como **Não**, não podem.|
@@ -66,7 +66,7 @@ O Centro de administração do Microsoft 365 tem configurações no nível da or
 
 ![Captura de tela da configuração de segurança e privacidade do compartilhamento de convidado no centro de administração do Microsoft 365](../media/sharepoint-security-privacy-sharing-setting.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Permitir que os usuários adicionem novos convidados à organização|Habilitado|Quando definido como **Sim**, os membros do Azure AD podem convidar convidados por meio do Azure AD. Quando definido como **Não**, não podem. Quando definido como **Sim**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário. Quando definido como **Não**, os membros do Grupo do Microsoft 365 podem convidar convidados com a aprovação do proprietário, mas os proprietários devem ser administradores globais para aprovar. <br><br>Observe que a frase **Membros podem convidar** se refere aos membros no Azure AD (em vez de convidados) e não aos membros do site ou do grupo no Microsoft 365. <br><br>Isso é idêntico à configuração **Membros podem convidar** nas configurações das relações organizacionais do Azure Active Directory.|
 
@@ -76,7 +76,7 @@ O Centro de administração do Microsoft 365 tem configurações no nível da or
 
 ![Captura de tela das configurações de convidado dos Grupos do Microsoft 365 no Centro de administração do Microsoft 365](../media/office-365-groups-guest-settings.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo|Habilitado|Quando definida como **Habilitado**, convidados podem acessar o conteúdo de grupos. Quando definido como **Desabilitado**, eles não podem. Essa configuração deve estar **Habilitada** para qualquer cenário em que os convidados estejam interagindo com o Teams ou Grupos do Microsoft 365.|
 |Permitir que os proprietários do grupo adicionem pessoas fora da organização aos grupos|Ativado|Quando está **Habilitado**, proprietários dos grupos do Microsoft 365 ou do Teams podem convidar novos convidados ao grupo. Quando está **Desabilitado**, os proprietários só poderão convidar convidados que já estejam no diretório.|
@@ -95,7 +95,7 @@ A chave de acesso principal de convidado do Teams, **Permitir o acesso de convid
 
 ![Captura de tela de alternância de acesso de convidados](../media/teams-guest-access-toggle.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Permitir acesso de convidados no Teams|Desabilitado|Habilita ou desabilita o acesso geral de convidados para o Teams. Essa configuração pode entrar em vigor em até 24 horas após a alteração.|
 
@@ -105,7 +105,7 @@ A chave de acesso principal de convidado do Teams, **Permitir o acesso de convid
 
 ![Captura de tela de opções de chamadas de convidados no Teams](../media/teams-guest-calling-setting.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Fazer chamadas privadas|Habilitado|Quando está **Habilitado**, os convidados podem fazer chamadas de ponto a ponto no Teams. Quando está **Desabilitado**, não podem.|
 
@@ -115,7 +115,7 @@ A chave de acesso principal de convidado do Teams, **Permitir o acesso de convid
 
 ![Captura de tela das configurações de reunião de convidados no Teams](../media/teams-guest-meeting-settings.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Permitir vídeo IP|Habilitado|Quando está **Habilitado**, os convidados podem usar vídeos em suas chamadas e reuniões. Quando está **Desabilitado**, não podem.|
 |Modo de compartilhamento de tela|Tela inteira|Quando está **Desabilitado**, os convidados não podem compartilhar suas telas no Teams. Quando definido como **Aplicativo único**, os convidados só podem compartilhar um único aplicativo na tela. Quando estiver definido como **Tela inteira**, os convidados podem optar por compartilhar um aplicativo ou sua tela inteira.|
@@ -127,7 +127,7 @@ A chave de acesso principal de convidado do Teams, **Permitir o acesso de convid
 
 ![Captura de tela das configurações do sistema de mensagens de convidados no Teams](../media/teams-guest-messaging-settings.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Editar mensagens enviadas|Habilitado|Quando está **Habilitado**, os convidados podem editar mensagens que já foram enviadas. Quando está **Desabilitado**, não podem.|
 |Excluir mensagens enviadas|Habilitado|Quando está **Habilitado**, os convidados podem excluir mensagens que já foram enviadas. Quando está **Desabilitado**, não podem.|
@@ -152,7 +152,7 @@ Como o OneDrive é uma hierarquia de sites no SharePoint, as configurações de 
 
 ![Captura de tela das configurações de compartilhamento no nível da organização do SharePoint](../media/sharepoint-organization-external-sharing-controls.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |SharePoint|Qualquer pessoa|Especifica as permissões de compartilhamento mais permissivas permitidas para sites do SharePoint.|
 |OneDrive|Qualquer pessoa|Especifica as permissões de compartilhamento mais permissivas permitidas para sites do OneDrive. Essa configuração não pode ser mais permissiva que a configuração do SharePoint.|
@@ -163,7 +163,7 @@ Como o OneDrive é uma hierarquia de sites no SharePoint, as configurações de 
 
 ![Captura de tela das configurações de compartilhamento avançado no nível da organização do SharePoint](../media/sharepoint-organization-advanced-sharing-settings.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Limitar o compartilhamento externo por domínio|Desabilitado|Essa configuração permite especificar uma lista de domínios permitidos ou bloqueados para compartilhamento. Quando domínios permitidos são especificados, convites de compartilhamento só poderão ser enviados para esses domínios. Quando domínios negados são especificados, convites de compartilhamento não poderão ser enviados para esses domínios.<br><br> Essa configuração afeta todos os sites do SharePoint e do OneDrive na organização.|
 |Convidados devem entrar com a mesma conta que receberam os convites de compartilhamento.|Desabilitado|Impede que os convidados resgatem os convites de compartilhamento de sites usando um endereço de email diferente do envio do convite.<br><br>[A integração do SharePoint e do OneDrive com o Azure AD B2B (versão prévia)](/sharepoint/sharepoint-azureb2b-integration-preview) não usa essa configuração porque todos os convidados são adicionados ao diretório com base no endereço de email do envio do convite. Endereços de email alternativos não podem ser usados para acessar o site.|
@@ -177,7 +177,7 @@ Quando arquivos e pastas são compartilhados no SharePoint e no OneDrive, os des
 
 ![Captura de tela das configurações de compartilhamento de pastas e arquivos no nível da organização do SharePoint](../media/sharepoint-organization-files-folders-sharing-settings.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Links para arquivos e pastas|Qualquer pessoa com o link|Especifica o link de compartilhamento exibido por padrão quando um usuário compartilha um arquivo ou uma pasta. Os usuários podem alterar a opção antes de compartilhar, se desejarem. Se o padrão estiver definido como **Qualquer pessoa com o link** e *Qualquer pessoa* que compartilha não tem permissão para um determinado site, então **Somente as pessoas da sua organização** serão exibidas como padrão para esse site.|
 |Esses links devem expirar dentro desta quantidade de dias|Desabilitado (sem prazo de expiração).|Especifica o número de dias em que um link para *Qualquer pessoa* criado deve expirar. Os links expirados não podem ser renovados. Crie um novo link se precisar continuar compartilhar além do prazo de expiração.|
@@ -192,7 +192,7 @@ Se quer limitar quem pode compartilhar com os convidados no SharePoint e no OneD
 
 ![Captura de tela das configurações de grupos de segurança de compartilhamento no nível da organização do SharePoint](../media/sharepoint-organization-external-sharing-security-groups.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Permitir que somente os usuários em grupos de segurança selecionados compartilhem com usuários externos autenticados|Desabilitado|Quando **Habilitado**, somente as pessoas dos grupos de segurança especificados podem compartilhar com pessoas de fora da organização. Somente links de *Pessoas específicas* estão disponíveis. *Qualquer pessoa* compartilhando está efetivamente desabilito a não ser que **Permitir que apenas usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos** também esteja **Habilitado**.|
 |Permitir que apenas os usuários dos grupos de segurança selecionados compartilhem com usuários externos autenticados e usem links anônimos.|Desabilitado|Quando está **Habilitado**, somente as pessoas dos grupos de segurança especificados podem compartilhar com convidados. Os links *Qualquer pessoa* e *Pessoas específicas* estão disponíveis.|
@@ -215,7 +215,7 @@ Se o site tiver um rótulo de sensibilidade aplicado, esse rótulo poderá contr
 
 ![Captura de tela das configurações de compartilhamento de site externo do SharePoint](../media/sharepoint-site-external-sharing-settings.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |O conteúdo do site pode ser compartilhado com|Varia por tipo de site (veja a tabela abaixo)|Indica o tipo de compartilhamento externo permitido para esse site. As opções disponíveis aqui estão sujeitas às configurações de compartilhamento no nível da organização para o SharePoint.|
 
@@ -227,7 +227,7 @@ Você pode definir padrões para o tipo de link e permissões e configurações 
 
 ![Captura de tela das configurações de compartilhamento de links no nível do site do SharePoint](../media/sharepoint-site-link-sharing-settings.png)
 
-|**Configuração**|**Padrão**|**Descrição**|
+| Setting | Padrão | Descrição |
 |:-----|:-----|:-----|
 |Limitar o compartilhamento por domínio|Desabilitado|Essa configuração permite especificar uma lista de domínios permitidos ou bloqueados para compartilhamento. Quando domínios permitidos são especificados, convites de compartilhamento só poderão ser enviados para esses domínios. Quando domínios negados são especificados, convites de compartilhamento não poderão ser enviados para esses domínios.<br><br> Essa configuração não pode ser usada para substituir restrições de domínio definidas na organização ou no nível do Azure AD.|
 |Tipo de link padrão de compartilhamento|Igual à configuração de nível da organização|Essa configuração permite especificar o link de compartilhamento padrão apresentado aos usuários neste site. A opção *Igual à configuração no nível da organização* é definida por uma combinação do nível de settings.te da organização e do compartilhamento do site.|
@@ -238,7 +238,7 @@ Você pode definir padrões para o tipo de link e permissões e configurações 
 
 A tabela a seguir exibe a configuração de compartilhamento padrão para cada tipo de site.
 
-|**Tipo de site**|**Configuração de compartilhamento padrão**|
+| Tipo de site | Configuração de compartilhamento padrão |
 |:-----|:-----|
 |Clássico|**Somente pessoas em sua organização**|
 |OneDrive|**Qualquer pessoa**|

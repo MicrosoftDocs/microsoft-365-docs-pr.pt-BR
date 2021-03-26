@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 370048586c5ddfa6fa9ea265e929608357adf5df
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4aab7f12b250c1415ad65a9e706edf6b68050b2f
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186876"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222642"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Recursos de visualização do Microsoft Defender para Ponto de Extremidade
 
@@ -40,9 +40,6 @@ ms.locfileid: "51186876"
 
 
 O serviço Defender para Ponto de Extremidade está constantemente sendo atualizado para incluir novos aprimoramentos e recursos de recursos.
-
-> [!TIP]
-> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-abovefoldlink)
 
 Saiba mais sobre os novos recursos na versão de visualização do Defender para Ponto de Extremidade e entre os primeiros a experimentar os recursos futuros, ligando a experiência de visualização.
 
@@ -68,15 +65,6 @@ Os seguintes novos recursos estão incluídos na visualização prévia:
 - [Filtragem de Conteúdo da Web](web-content-filtering.md) <br> A filtragem de conteúdo da Web faz parte dos recursos de proteção da Web no Microsoft Defender para Ponto de Extremidade. Ele permite que sua organização acompanhe e regular o acesso a sites com base em suas categorias de conteúdo. Muitos desses sites, embora não sejam mal-intencionados, podem ser problemáticos devido a regulamentos de conformidade, uso de largura de banda ou outras preocupações.
 
 - [Relatório de conformidade e saúde do dispositivo](machine-reports.md) <br/> O relatório de conformidade e saúde do dispositivo fornece informações de alto nível sobre os dispositivos em sua organização.
-
-- [Proteção de informações](information-protection-in-windows-overview.md)<BR>
-A proteção de informações é uma parte integrante do pacote do Microsoft 365 Enterprise, fornecendo proteção inteligente para manter dados confidenciais seguros enquanto habilita a produtividade no local de trabalho. O Microsoft Defender for Endpoint é integrado perfeitamente à Proteção contra Ameaças da Microsoft para fornecer uma solução completa e abrangente de prevenção contra perda de dados (DLP) para dispositivos Windows.
-
-    >[!NOTE]
-    >Parcialmente disponível no Windows 10, versão 1809.
-
-- [Integração do Windows Server 2019](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-version-1803-and-windows-server-2019) <BR> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para o Windows Server 2019. Você poderá fazer parte do Windows Server 2019 no mesmo método disponível para dispositivos cliente Windows 10.
-
 
 > [!TIP] 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-preview-belowfoldlink)  

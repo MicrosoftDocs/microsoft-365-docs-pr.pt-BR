@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: 'Resumo: use o PowerShell para o Microsoft 365 para criar relatórios que você não pode produzir no Centro de administração do Microsoft 365.'
-ms.openlocfilehash: 12cba74d114ea03804741335bd34ece403926033
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dc183ae8a315bf788befc85474d0647802ac91ee
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924691"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222774"
 ---
 # <a name="use-powershell-to-create-reports-for-microsoft-365"></a>Usar o PowerShell para criar relatórios para o Microsoft 365
 
@@ -33,7 +33,7 @@ Estes artigos descrevem como usar o PowerShell para o Microsoft 365 para obter i
   
 - Começar a relatar usando o PowerShell para o Microsoft 365:
     
-  - [Por que você precisa usar o PowerShell para Microsoft 365](./why-you-need-to-use-microsoft-365-powershell.md#reveal)
+  - [Por que você precisa usar o PowerShell para Microsoft 365](./why-you-need-to-use-microsoft-365-powershell.md)
     
     
 - Relatórios de contas de usuário e licenças:

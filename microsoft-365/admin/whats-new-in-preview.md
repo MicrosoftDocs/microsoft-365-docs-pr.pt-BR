@@ -21,12 +21,12 @@ description: O Centro de administração do Microsoft 365 - saiba mais sobre os 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: b670c6a333485bc3a19ae14b8e7c71f08181cac5
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 7b802556e051200bf39bc4bd9b97974d4d2d4c47
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215571"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51221998"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de administração do Microsoft 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "51215571"
 
 ::: moniker-end
 
-Estamos adicionando continuamente novos recursos ao Centro de administração do [Microsoft 365,](microsoft-365-admin-center-preview.md)corrigindo problemas que aprendemos e fazendo alterações com base em seus comentários. Confira abaixo o que está disponível para você hoje. Alguns recursos são lançados em velocidades diferentes para nossos clientes. Se você ainda não estiver vendo um recurso, tente adicionar a si [mesmo à versão direcionada](manage/release-options-in-office-365.md).
+Estamos adicionando continuamente novos recursos ao Centro de administração do [Microsoft 365,](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)corrigindo problemas que aprendemos e fazendo alterações com base em seus comentários. Confira abaixo o que está disponível para você hoje. Alguns recursos são lançados em velocidades diferentes para nossos clientes. Se você ainda não estiver vendo um recurso, tente adicionar a si [mesmo à versão direcionada](manage/release-options-in-office-365.md).
 
 E se você quiser saber o que há de novo com outros serviços de nuvem da Microsoft:
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revise as respostas para perguntas frequentes sobre Implantação Centralizada do Centro de administração do Microsoft 365.
-ms.openlocfilehash: 9f4841508701d4dd5878e99fcc51a436bc5824e2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 06e3b7973a209cdf40446c5a9511713d779373b8
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915465"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51221830"
 ---
 # <a name="centralized-deployment-faq"></a>Perguntas frequentes sobre a Implantação centralizada
 
@@ -72,7 +72,7 @@ Sim. A Implantação Centralizada oferece aos administradores a flexibilidade de
 
 Sim. Os administradores podem carregar um novo arquivo de manifesto para dar suporte a alterações de metadados para os complementos LOB implantados pelo administrador. O complemento é atualizado na próxima vez que os aplicativos do Office são iniciados. O aplicativo Web pode mudar a qualquer momento.  
  
-Para obter mais informações, consulte [line-of-business add-in](./manage-addins-in-the-admin-center.md#more-about-office-add-ins-security).  
+Para obter mais informações, consulte [line-of-business add-in](./manage-addins-in-the-admin-center.md).  
 
 ## <a name="can-admins-turn-off-add-ins"></a>Os administradores podem desativar os complementos?  
 

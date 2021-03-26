@@ -1,7 +1,7 @@
 ---
 title: Revisar eventos e erros usando o Visualizador de Eventos
-description: Obter descrições e etapas adicionais de solução de problemas (se necessário) para todos os eventos relatados pelo serviço Microsoft Defender for Endpoint.
-keywords: troubleshoot, event viewer, log summary, failure code, failed, Microsoft Defender for Endpoint service, cannot start, broken, can't start
+description: Obter descrições e etapas adicionais de solução de problemas (se necessário) para todos os eventos relatados pelo serviço do Microsoft Defender para Ponto de Extremidade.
+keywords: troubleshoot, event viewer, log summary, failure code, failed, Microsoft Defender for Endpoint service, can't start, broken, can't start
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
-ms.openlocfilehash: 98c0f790c228989b261b95f3b87cdc9d18e4fa76
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1b8454107b6a2737f1236a066c3a24a2b9c776cb
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054490"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222643"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>Revisar eventos e erros usando o Visualizador de Eventos
 
@@ -64,7 +64,7 @@ Por exemplo, se os dispositivos não aparecerem na lista **Dispositivos,** talve
 <tr>
 <td>1</td>
 <td>Microsoft Defender for Endpoint service started (Version <code>variable</code> ).</td>
-<td>Ocorre durante a iniciação do sistema, o desligar e durante o onbboarding.</td>
+<td>Ocorre durante a inicialização do sistema, o desligar e durante a integração.</td>
 <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
 <tr>
@@ -76,7 +76,7 @@ Por exemplo, se os dispositivos não aparecerem na lista **Dispositivos,** talve
 <tr>
 <td>3</td>
 <td>Falha ao iniciar o serviço do Microsoft Defender para Ponto de Extremidade. Código de falha: <code>variable</code> .</td>
-<td>O serviço não foi a iniciar.</td>
+<td>O serviço não começou.</td>
 <td>Revise outras mensagens para determinar possíveis causas e etapas de solução de problemas.</td>
 </tr>
 <tr>
@@ -96,7 +96,7 @@ O serviço não pôde entrar em contato com os servidores de processamento exter
 <tr>
 <td>6 </td>
 <td>O serviço do Microsoft Defender para Ponto de Extremidade não está integrado e nenhum parâmetro de integração foi encontrado.</td>
-<td>O dispositivo não foi a bordo corretamente e não será reportado ao portal.</td>
+<td>O dispositivo não entrou corretamente e não estará relatando para o portal.</td>
 <td>A integração deve ser executado antes de iniciar o serviço.<br>
 Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a>.</td>
@@ -104,7 +104,7 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 <tr>
 <td>7 </td>
 <td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao ler os parâmetros de integração. Falha: <code>variable</code> .</td>
-<td>Variável = descrição de erro detalhada. O dispositivo não foi a bordo corretamente e não será reportado ao portal.</td>
+<td>Variável = descrição de erro detalhada. O dispositivo não entrou corretamente e não estará relatando para o portal.</td>
 <td>Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a>.</td>
 </tr>
@@ -119,14 +119,14 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 <tr>
 <td>9 </td>
 <td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao alterar seu tipo de início. Código de falha: <code>variable</code> .</td>
-<td><b>Durante a integração:</b> O dispositivo não foi a bordo corretamente e não será reportado ao portal. <br><br><b>Durante o offboard:</b> Falha ao alterar o tipo de início do serviço. O processo de offboarding continua. </td>
+<td><b>Durante a integração:</b> O dispositivo não entrou corretamente e não estará relatando para o portal. <br><br><b>Durante o offboard:</b> Falha ao alterar o tipo de início do serviço. O processo de offboarding continua. </td>
 <td>Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a>.</td>
 </tr>
 <tr>
 <td>10 </td>
 <td>O serviço do Microsoft Defender para Ponto de Extremidade falhou ao manter as informações de integração. Código de falha: <code>variable</code> .</td>
-<td>O dispositivo não foi a bordo corretamente e não será reportado ao portal.</td>
+<td>O dispositivo não entrou corretamente e não estará relatando para o portal.</td>
 <td>Verifique se as configurações e scripts de integração foram implantados corretamente. Tente reimplantar os pacotes de configuração.<br>
 Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Onboard Windows 10 devices</a>.</td>
 </tr>
@@ -341,6 +341,270 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 <td>Falha ao adicionar um provedor à sessão ETW. Como resultado, os eventos do provedor não são relatados.</td>
 <td>Verifique o código de erro. Se o erro persistir, contate Suporte.</td>
 </tr>
+</tr>
+<tr>
+   <td>49</td>
+   <td>Comando de configuração de nuvem inválido recebido e ignorado. Versão: %1, status: %2, código de erro: %3, mensagem: %4</td>
+   <td>Recebeu um arquivo de configuração inválido do serviço de nuvem que foi ignorado.</td>
+   <td>Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>50</td>
+   <td>Nova configuração de nuvem aplicada com êxito. Versão: %1.</td>
+   <td>Aplicou com êxito uma nova configuração do serviço de nuvem.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>51</td>
+   <td>Falha na aplicação da nova configuração de nuvem, versão: %1. Aplicou com êxito a última boa configuração conhecida, versão %2.</td>
+   <td>Recebeu um arquivo de configuração ruim do serviço de nuvem. A última boa configuração conhecida foi aplicada com êxito.</td>
+   <td>Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>52</td>
+   <td>Falha na aplicação da nova configuração de nuvem, versão: %1. Também falhou ao aplicar a última boa configuração conhecida, versão %2. Aplicou com êxito a configuração padrão.</td>
+   <td>Recebeu um arquivo de configuração ruim do serviço de nuvem. Falha ao aplicar a última boa configuração conhecida e a configuração padrão foi aplicada.</td>
+   <td>O serviço tentará baixar um novo arquivo de configuração em 5 minutos. Se você não vir o evento #50 - entre em contato com o Suporte.</td>
+</tr>
+<tr>
+   <td>53</td>
+   <td>Configuração de nuvem carregada do armazenamento persistente, versão: %1.</td>
+   <td>A configuração foi carregada do armazenamento persistente na inicialização do serviço.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>55</td>
+   <td>Falha ao criar o autologger ETW seguro. Código de falha: %1</td>
+   <td>Falha ao criar o madeireiro ETW seguro.</td>
+   <td>Reinicie o dispositivo. Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>56</td>
+   <td>Falha ao remover o autologger ETW seguro. Código de falha: %1</td>
+   <td>Falha ao remover a sessão ETW segura no offboard.</td>
+   <td>Contate o Suporte.</td>
+</tr>
+<tr>
+   <td>57</td>
+   <td>Capturando um instantâneo do computador para fins de solução de problemas.</td>
+   <td>Um pacote de investigação, também conhecido como pacote forense, está sendo coletado.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>59</td>
+   <td>Comando inicial: %1</td>
+   <td>Iniciando a execução do comando de resposta.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>60</td>
+   <td>Falha ao executar o comando %1, erro: %2.</td>
+   <td>Falha ao executar o comando de resposta.</td>
+   <td>Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>61</td>
+   <td>Os parâmetros de comando da coleção de dados são inválidos: SasUri: %1, compressionLevel: %2.</td>
+   <td>Falha ao ler ou analisar os argumentos de comando da coleção de dados (argumentos inválidos).</td>
+   <td>Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>62</td>
+   <td>Falha ao iniciar o serviço Experiências de Usuário Conectado e Telemetria. Código de falha: %1</td>
+   <td>Falha ao iniciar o serviço Experiências do Usuário Conectado e Telemetria (diagtrack). A telemetria que não seja do Microsoft Defender para Ponto de Extremidade não será enviada desse computador.</td>
+   <td>Procure mais dicas de solução de problemas no log de eventos: Microsoft-Windows-UniversalTelemetryClient/Operational.</td>
+</tr>
+<tr>
+   <td>63</td>
+   <td>Atualizando o tipo de início do serviço externo. Nome: %1, tipo de início real: %2, tipo de início esperado: %3, código de saída: %4</td>
+   <td>Tipo de início atualizado do serviço externo.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>64</td>
+   <td>Iniciando o serviço externo interrompido. Nome: %1, código de saída: %2</td>
+   <td>Iniciando um serviço externo.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>65</td>
+   <td>Falha ao carregar o driver de Minifiltro de Componente de Eventos de Segurança da Microsoft. Código de falha: %1</td>
+   <td>Falha ao carregar MsSecFlt.sys minifiltro de sistema de arquivos.</td>
+   <td>Reinicie o dispositivo. Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>66</td>
+   <td>Atualização de política: modo de latência - %1</td>
+   <td>A C# de frequência de conexão do C&C foi atualizada.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>68</td>
+   <td>O tipo de início do serviço é inesperado. Nome do serviço: %1, tipo de início real: %2, tipo de início esperado: %3</td>
+   <td>Tipo de início de serviço externo inesperado.</td>
+   <td>Correção do tipo de início do serviço externo.</td>
+</tr>
+<tr>
+   <td>69</td>
+   <td>O serviço é interrompido. Nome do serviço: %1</td>
+   <td>O serviço externo é interrompido.</td>
+   <td>Inicie o serviço externo.</td>
+</tr>
+<tr>
+   <td>70</td>
+   <td>Atualização de política: Permitir coleta de amostras - %1</td>
+   <td>A política de coleta de exemplo foi atualizada.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>71</td>
+   <td>Com êxito para executar o comando: %1</td>
+   <td>O comando foi executado com êxito.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>72</td>
+   <td>Tentou enviar o primeiro relatório de perfil completo do computador. Código do resultado: %1</td>
+   <td>Somente informações.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>73</td>
+   <td>Sentido de início da plataforma: %1</td>
+   <td>Somente informações.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>74</td>
+   <td>A marca de dispositivo no Registro excede o limite de comprimento. Nome da marca: %2. Limite de comprimento: %1.</td>
+   <td>A marca do dispositivo excede o limite de comprimento.</td>
+   <td>Use uma marca de dispositivo mais curta.</td>
+</tr>
+<tr>
+   <td>81</td>
+   <td>Falha ao criar um Windows Defender etlogger ETW da Proteção Avançada contra Ameaças. Código de falha: %1</td>
+   <td>Falha ao criar a sessão ETW.</td>
+   <td>Reinicie o dispositivo. Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>82</td>
+   <td>Falha ao remover o Windows Defender etlogger ETW da Proteção Avançada contra Ameaças. Código de falha: %1</td>
+   <td>Falha ao excluir a sessão ETW.</td>
+   <td>Contate o Suporte.</td>
+</tr>
+<tr>
+   <td>84</td>
+   <td>Definir Windows Defender modo de execução antivírus. Forçar o modo passivo: %1, código de resultado: %2.</td>
+   <td>Definir o modo de execução do defender (ativo ou passivo).</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>85</td>
+   <td>Falha ao disparar Windows Defender proteção avançada contra ameaças executável. Código de falha: %1</td>
+   <td>Falha no executável SenseIR estrelado.</td>
+   <td>Reinicie o dispositivo. Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>86</td>
+   <td>A partida novamente interrompeu o serviço externo que deveria estar para cima. Nome: %1, código de saída: %2</td>
+   <td>Iniciando o serviço externo novamente.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>87</td>
+   <td>Não é possível iniciar o serviço externo. Nome: %1</td>
+   <td>Falha ao iniciar o serviço externo.</td>
+   <td>Contate o Suporte.</td>
+</tr>
+<tr>
+   <td>88</td>
+   <td>Atualizando o tipo de início do serviço externo novamente. Nome: %1, tipo de início real: %2, tipo de início esperado: %3, código de saída: %4</td>
+   <td>Atualizou o tipo de início do serviço externo.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>89</td>
+   <td>Não é possível atualizar o tipo de início do serviço externo. Nome: %1, tipo de início real: %2, tipo de início esperado: %3</td>
+   <td>Não é possível atualizar o tipo de início do serviço externo.</td>
+   <td>Contate o Suporte.</td>
+</tr>
+<tr>
+   <td>90</td>
+   <td>Falha ao configurar o System Guard Runtime Monitor para se conectar ao serviço de nuvem na região geográfica %1. Código de falha: %2</td>
+   <td>O System Guard Runtime Monitor não enviará dados de atestado para o serviço de nuvem.</td>
+   <td>Verifique as permissões no caminho do registro: "HKLM\Software\Microsoft\Windows\CurrentVersion\Sgrm". Se nenhum problema for detectado, entre em contato com o Suporte.</td>
+</tr>
+<tr>
+   <td>91</td>
+   <td>Falha ao remover informações de região geográfica do Monitor de Tempo de Execução do System Guard. Código de falha: %1</td>
+   <td>O System Guard Runtime Monitor não enviará dados de atestado para o serviço de nuvem.</td>
+   <td>Verifique as permissões no caminho do registro: "HKLM\Software\Microsoft\Windows\CurrentVersion\Sgrm". Se nenhum problema for detectado, entre em contato com o Suporte.</td>
+</tr>
+<tr>
+   <td>92</td>
+   <td>Interromper o envio da cota de dados cibernéticos do sensor porque a cota de dados é excedida. Retomará o envio depois que o período de cota passar. Máscara de Estado: %1</td>
+   <td>Exceder o limite de limitação.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>93</td>
+   <td>Retomando o envio de dados cibernéticos do sensor. Máscara de Estado: %1</td>
+   <td>Retomar o envio de dados cibernéticos.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>94</td>
+   <td>Windows Defender executável da Proteção Avançada contra Ameaças foi iniciado</td>
+   <td>O executável SenseCE foi iniciado.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>95</td>
+   <td>Windows Defender executável da Proteção Avançada contra Ameaças terminou</td>
+   <td>O executável SenseCE foi encerrado.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>96</td>
+   <td>Windows Defender proteção avançada contra ameaças init chamou. Código do resultado: %2</td>
+   <td>O executável SenseCE chamou a inicialização do MCE.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>97</td>
+   <td>Há problemas de conectividade com a Nuvem para o cenário de DLP</td>
+   <td>Há problemas de conectividade de rede que afetam o fluxo de classificação de DLP.</td>
+   <td>Verifique a conectividade de rede.</td>
+</tr>
+<tr>
+   <td>98</td>
+   <td>A conectividade com a Nuvem para o cenário DLP foi restaurada</td>
+   <td>A conectividade com a rede foi restaurada e o fluxo de classificação DLP pode continuar.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>99</td>
+   <td>Sense encontrou o seguinte erro ao se comunicar com o servidor: (%1). Resultado: (%2)</td>
+   <td>Ocorreu um erro de comunicação.</td>
+   <td>Verifique os seguintes eventos no log de eventos para obter mais detalhes.</td>
+</tr>
+<tr>
+   <td>100</td>
+   <td>Windows Defender executável da Proteção Avançada contra Ameaças falhou ao iniciar. Código de falha: %1</td>
+   <td>O executável SenseCE falhou ao iniciar.</td>
+   <td>Reinicie o dispositivo. Se esse erro persistir, contate o Suporte.</td>
+</tr>
+<tr>
+   <td>102</td>
+   <td>Windows Defender a Detecção Avançada de Rede de Proteção contra Ameaças e o executável de resposta foi iniciado</td>
+   <td>O executável SenseNdr foi iniciado.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
+</tr>
+<tr>
+   <td>103</td>
+   <td>Windows Defender detecção avançada de rede de proteção contra ameaças e a resposta executável terminou</td>
+   <td>O executável SenseNdr foi encerrado.</td>
+   <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
 </tbody>
 </table>

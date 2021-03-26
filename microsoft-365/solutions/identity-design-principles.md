@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: da70bbfe5c4dfa4f9eda16adec709826de1247b7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c94b387bbd73e2c4f9b3de243131ae023ddb4cb8
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200012"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222520"
 ---
 # <a name="to-identity-and-beyondone-architects-viewpoint"></a>Para identidade e além — o ponto de vista de um arquiteto
 
@@ -231,7 +231,7 @@ As permissões no Centro de Conformidade e Segurança do [Office 36 & 5](../secu
 
 De certa forma, eles são uma evolução do modelo de grupos de função do Exchange. No entanto, o Exchange Online tem sua própria interface [de gerenciamento de grupo de](/exchange/permissions-exo) funções. Alguns grupos de função no Exchange Online são bloqueados e gerenciados do Azure AD ou do Centro de Conformidade do & segurança, mas outros podem ter os mesmos nomes ou nomes semelhantes e são gerenciados no Exchange Online (adicionando à confusão). Eu recomenda que você evite usar a interface do usuário do Exchange Online, a menos que você precise de escopos para gerenciamento do Exchange.
 
-Não é possível criar funções personalizadas. As funções são definidas pelos serviços criados pela Microsoft e crescerão à medida que novos serviços são introduzidos. Isso é semelhante no conceito às [funções definidas por aplicativos](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) no Azure AD. Quando novos serviços são habilitados, muitas vezes novos grupos de função precisam ser criados para conceder ou delegar acesso a eles (por exemplo, gerenciamento de riscos [insider](../compliance/insider-risk-management-configure.md?view=o365-worldwide#step-1-required-enable-permissions-for-insider-risk-management)).
+Não é possível criar funções personalizadas. As funções são definidas pelos serviços criados pela Microsoft e crescerão à medida que novos serviços são introduzidos. Isso é semelhante no conceito às [funções definidas por aplicativos](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) no Azure AD. Quando novos serviços são habilitados, muitas vezes novos grupos de função precisam ser criados para conceder ou delegar acesso a eles (por exemplo, gerenciamento de riscos [insider](../compliance/insider-risk-management-configure.md?view=o365-worldwide)).
 
 Esses grupos de função também exigem associação direta e não podem conter grupos do Azure AD. Infelizmente, hoje esses grupos de função não têm suporte do PIM do Azure AD. Como funções do Azure AD, eu tendem a recomendar o gerenciamento delas por meio de APIs ou um produto de governança de parceiros, como Saviynt, ou outros.
 

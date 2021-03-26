@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Aprenda como criar um extrator no Microsoft SharePoint Syntex.
-ms.openlocfilehash: 8218d04d2f5cb4e8f8f67bdcd744b7f1a4a4d18a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e95df00c2601bccc5041f96c745048adc8dfc91f
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905807"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222786"
 ---
 # <a name="create-an-extractor-in-microsoft-sharepoint-syntex"></a>Criar um extrator no Microsoft SharePoint Syntex
 
@@ -91,7 +91,7 @@ Para ajudar a identificar a *Data de Início do Serviço*, você pode criar uma 
 
 ### <a name="use-the-explanation-library"></a>Utilize a biblioteca de explicações
 
-Para criar explicações para itens como datas, é mais fácil [utilizar a biblioteca de explicações ](./explanation-types-overview.md#use-the-explanation-library) do que inserir manualmente todas as variações. A biblioteca de explicação é um conjunto de frases predefinidas e explicações de padrões. A biblioteca busca fornecer todos os formatos de frases comuns ou listas de padrões, como datas, números de telefone, CEPs e muitos outros. 
+Para criar explicações para itens como datas, é mais fácil [utilizar a biblioteca de explicações ](./explanation-types-overview.md) do que inserir manualmente todas as variações. A biblioteca de explicação é um conjunto de frases predefinidas e explicações de padrões. A biblioteca busca fornecer todos os formatos de frases comuns ou listas de padrões, como datas, números de telefone, CEPs e muitos outros. 
 
 Para o exemplo de *Data de Início do Serviço*, é mais eficiente usar a explicação predefinida para *Data* na biblioteca de explicações:
 

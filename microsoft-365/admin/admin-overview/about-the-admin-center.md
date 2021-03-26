@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Use o centro de administração para configurar sua organização na nuvem e gerenciar usuários e assinaturas. Comece acessando a conta com permissões de administrador.
-ms.openlocfilehash: 7d326629de4859819784af015292f99b044658d0
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: ef606565d7cad94bc0c7ff81630ef6c2fe8a6fc4
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215487"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222082"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Sobre o centro de administração do Microsoft 365
 
@@ -71,7 +71,7 @@ Se você achou esse vídeo útil, Confira as [ séries completas de treinamento 
 
 ## <a name="admin-center-features-and-settings"></a>Configurações e recursos do centro de administração.
 
-Aqui estão os recursos e configurações que você encontrará na navegação esquerda do centro de administração. Saiba mais sobre tarefas administrativas em [ajuda para administradores](./admin-overview.md).
+Aqui estão os recursos e configurações que você encontrará na navegação esquerda do centro de administração. Saiba mais sobre tarefas administrativas em [ajuda para administradores](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview).
   
 |**Menu**|**Para que serve**|
 |-----|-----|

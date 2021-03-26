@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Saiba mais sobre funções de usuário em Tópicos do Viva.
-ms.openlocfilehash: 6d93046a96b60779c3cd3bd6c6aa600cb443118f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e91eda6807634ad27bf6c15c2dd0d1c9434ce299
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917351"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222762"
 ---
 # <a name="microsoft-viva-topics-roles"></a>Funções de Tópicos do Microsoft Viva 
 
@@ -49,7 +49,7 @@ Um colaborador de tópicos também pode criar e publicar um novo tópico por mei
 Para criar e editar um tópico, o usuário deve:
 
 -   [Seja atribuída uma licença de Tópicos do Viva](./set-up-topic-experiences.md#assign-licenses) pelo administrador do Microsoft 365.
--   [Sejam atribuídas permissões para criar e editar tópicos](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center). Essa tarefa é feita pelo administrador de conhecimento na página de configurações de Tópicos do Viva no Centro de administração do Microsoft 365.
+-   [Sejam atribuídas permissões para criar e editar tópicos](./topic-experiences-user-permissions.md). Essa tarefa é feita pelo administrador de conhecimento na página de configurações de Tópicos do Viva no Centro de administração do Microsoft 365.
 
 ## <a name="knowledge-managers"></a>Gerentes de conhecimento
 
@@ -64,7 +64,7 @@ Além disso, um gerente de conhecimento pode editar tópicos existentes ou criar
 
 Para gerenciar tópicos, o usuário deve:
 -   [Seja atribuída uma licença de Tópicos do Viva](./set-up-topic-experiences.md#assign-licenses) pelo administrador do Microsoft 365.
--   [Sejam atribuídas permissões para gerenciar tópicos](./topic-experiences-user-permissions.md#change-who-has-permissions-to-do-tasks-on-the-topic-center)). Essa tarefa é feita pelo administrador de conhecimento na página de configurações de Tópicos do Viva no Centro de administração do Microsoft 365.
+-   [Sejam atribuídas permissões para gerenciar tópicos](./topic-experiences-user-permissions.md)). Essa tarefa é feita pelo administrador de conhecimento na página de configurações de Tópicos do Viva no Centro de administração do Microsoft 365.
 
 Os usuários que têm um bom conhecimento geral da sua empresa podem ser bons candidatos para a função de gerente de conhecimento. Essas pessoas podem não apenas ter o conhecimento para saber se os tópicos são válidos ou não, mas também podem conhecer pessoas dentro da empresa que estão relacionadas a esses tópicos.
 

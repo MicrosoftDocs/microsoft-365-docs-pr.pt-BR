@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Saiba como usar a CdN (Rede de Entrega de Conteúdo) do Office 365 para acelerar a entrega dos ativos do SharePoint Online.
-ms.openlocfilehash: 6b740fc1429613627e0597dc6ecf2e150c015989
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17c80b8718ea46c9dfba9f803093974e8ce3e706
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924811"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222678"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>Usar a Rede de Distribuição de Conteúdo (CDN) do Office 365 com o SharePoint Online
 
@@ -888,7 +888,7 @@ Se você quiser usar a URL completa para o ativo em vez de um caminho relativo, 
 `https://<TenantHostName>.sharepoint.com/sites/site/CDN_origins/public/image.png`
 
 > [!NOTE]
-> Em geral, você não deve codificar URLs diretamente para ativos na CDN. No entanto, você pode construir manualmente URLs para ativos em origens públicas, se necessário. Para obter mais informações, consulte [Hardcoding CDN URLs for public assets](use-microsoft-365-cdn-with-spo.md#hardcoding-cdn-urls-for-public-assets).
+> Em geral, você não deve codificar URLs diretamente para ativos na CDN. No entanto, você pode construir manualmente URLs para ativos em origens públicas, se necessário. Para obter mais informações, consulte [Hardcoding CDN URLs for public assets](use-microsoft-365-cdn-with-spo.md).
 
 Para saber mais sobre como verificar se os ativos estão sendo atendidos na CDN, consulte Como confirmar se os ativos estão sendo atendidos pela [CDN?](use-microsoft-365-cdn-with-spo.md#CDNConfirm) na seção Solução de problemas da CDN do [Office 365.](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting)
 
@@ -964,7 +964,7 @@ https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/libra
 
 É importante observar que o SharePoint Online não dá suporte a permissões de nível de item para ativos em origens privadas. Por exemplo, para um arquivo localizado em , os usuários têm acesso efetivo ao `https://contoso.sharepoint.com/sites/site1/library1/folder1/image1.jpg` arquivo dadas as seguintes condições:
 
-|User  |Permissões  |Acesso efetivo  |
+|Usuário  |Permissões  |Acesso efetivo  |
 |---------|---------|---------|
 |Usuário 1     |Tem acesso à pasta1         |Pode acessar image1.jpg da CDN         |
 |Usuário 2     |Não tem acesso à pasta1         |Não é possível acessar image1.jpg da CDN         |

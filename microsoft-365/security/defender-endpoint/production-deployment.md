@@ -1,6 +1,6 @@
 ---
-title: Configurar a implantação do Microsoft Defender ATP
-description: Saiba como configurar a implantação do Microsoft Defender ATP
+title: Configurar o Microsoft Defender para implantação do Ponto de Extremidade
+description: Saiba como configurar a implantação do Microsoft Defender para Ponto de Extremidade
 keywords: implantar, configurar, validação de licenciamento, configuração de locatário, configuração de rede
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4af84c21977e4b90c8b6d9ec4c785339ff229e7d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 8965594789c3c96c043e3cd1a8922d9ba996ef47
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186144"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222436"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>Configurar o Microsoft Defender para implantação do Ponto de Extremidade
 
@@ -124,20 +124,17 @@ O sensor Microsoft Defender ATP requer o Microsoft Windows HTTP (WinHTTP) para r
 
 -   Protocolo de Descoberta Automática de Proxy da Web (WPAD)
 
-Se um proxy transparente ou WPAD tiver sido implementado na topologia de rede, não será necessário definir configurações especiais. Para obter mais informações sobre as exclusões de URL do Microsoft Defender para Ponto de Extremidade no proxy, consulte a seção Apêndice neste documento para a lista de urls permitir ou em [Microsoft Docs](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server).
-
-> [!NOTE]
-> Para uma lista detalhada de URLs que precisam ser permitidas, consulte [este artigo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus).
+Se um proxy transparente ou WPAD tiver sido implementado na topologia de rede, não será necessário definir configurações especiais. Para obter mais informações sobre as exclusões de URL do Microsoft Defender for Endpoint no proxy, consulte a seção [URLs](production-deployment.md#proxy-service-urls) do Serviço proxy neste documento para a lista de urls allowlist ou em Configure device proxy and [Internet connectivity settings](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server).
 
 **Configuração manual de proxy estático:**
 
--   Configuração baseada no Registro
+-   Configuração baseada em registro
 
 -   WinHTTP configurado usando o comando netsh <br> Adequado apenas para áreas de trabalho em uma topologia estável (por exemplo: uma área de trabalho em uma rede corporativa por trás do mesmo proxy)
 
 ### <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>Configure o servidor proxy manualmente usando um proxy estático baseado no registro
 
-Configure um proxy estático baseado no Registro para permitir que apenas o Microsoft Defender para sensor de Ponto de Extremidade reporte dados de diagnóstico e se comunique com o Microsoft Defender para serviços de Ponto de Extremidade se um computador não tiver permissão para se conectar à Internet. O proxy estático é configurável por meio da Política de Grupo (GP). A política do grupo pode ser encontrada em:
+Configure um proxy estático baseado no Registro para permitir que apenas o microsoft Defender para sensor de ponto de extremidade reporte dados de diagnóstico e se comunique com o Microsoft Defender para serviços de Ponto de Extremidade se um computador não tiver permissão para se conectar à Internet. O proxy estático é configurável por meio da Política de Grupo (GP). A política do grupo pode ser encontrada em:
 
  - Modelos Administrativos \> Windows Components Data Collection and Preview \> Builds Configure \> Authenticated Proxy usage for the Connected User Experience and Telemetry Service
      - De defini-lo **como Habilitado e** selecione **Desabilitar o uso de Proxy Autenticado**
@@ -175,7 +172,7 @@ Use netsh para configurar um proxy estático de todo o sistema.
 > - Isso afetará todos os aplicativos, incluindo serviços do Windows que usam WinHTTP com proxy padrão.</br>
 > - Laptops que estão alterando a topologia (por exemplo: do office para o home) não funcionarão com netsh. Use a configuração de proxy estático com base no registro.
 
-1. Abra uma linha de comando elevada:
+1. Abra uma linha de comando com privilégios elevados:
 
     1. Vá para **Iniciar** e digite **cmd**.
 
@@ -200,31 +197,34 @@ AS URLs que incluem v20 neles só serão necessárias se você tiver o Windows 1
 
 Se um proxy ou firewall estiver bloqueando o tráfego anônimo, como o sensor do Microsoft Defender para Ponto de Extremidade está se conectando do contexto do sistema, certifique-se de que o tráfego anônimo seja permitido nas URLs listadas.
 
-A planilha baixável a seguir lista os serviços e as URLs associadas às quais sua rede deve ser capaz de se conectar. Verifique se não há regras de filtragem de rede ou firewall que negariam o acesso *a* essas URLs, ou talvez seja necessário criar uma regra de autorização especificamente para elas.
+A planilha baixável a seguir lista os serviços e as URLs associadas às quais sua rede deve ser capaz de se conectar. Verifique se não há regras de filtragem de rede ou firewall que negariam o acesso a essas URLs, ou talvez seja necessário criar uma regra *de* autorização especificamente para elas.
 
 |**Planilha de lista de domínios**|**Descrição**|
 |:-----|:-----|
 |![Imagem em miniatura da planilha URLs do Microsoft Defender para Endpoint](images/mdatp-urls.png)<br/>  | Planilha de registros DNS específicos para locais de serviço, localizações geográficas e sistema operacional. <br><br>[Baixe a planilha aqui.](https://download.microsoft.com/download/8/a/5/8a51eee5-cd02-431c-9d78-a58b7f77c070/mde-urls.xlsx) 
 
 
-###  <a name="microsoft-defender-for-endpoint-service-backend-ip-range"></a>Intervalo de IP de back-end do Serviço do Microsoft Defender para Ponto de Extremidade
+###  <a name="microsoft-defender-for-endpoint-service-backend-ip-ranges"></a>Intervalos de IP de back-end do Serviço do Microsoft Defender para Ponto de Extremidade
 
-Se os dispositivos de rede não suportam as URLs listadas na seção anterior, você pode usar as seguintes informações.
+Se seus dispositivos de rede não suportam regras baseadas em DNS, use intervalos IP.
 
 O Defender para Ponto de Extremidade é criado na nuvem do Azure, implantado nas seguintes regiões:
 
-- \+\<Region Name="uswestcentral">
-- \+\<Region Name="useast2">
-- \+\<Region Name="useast">
-- \+\<Region Name="europenorth">
-- \+\<Region Name="europewest">
-- \+\<Region Name="uksouth">
-- \+\<Region Name="ukwest">
+- AzureCloud.eastus
+- AzureCloud.eastus2
+- AzureCloud.westcentralus
+- AzureCloud.northeurope
+- AzureCloud.westeurope
+- AzureCloud.uksouth
+- AzureCloud.ukwest
 
-Você pode encontrar o intervalo de IP do Azure em Intervalos IP do [Microsoft Azure Datacenter.](https://www.microsoft.com/en-us/download/details.aspx?id=41653)
+Você pode encontrar os intervalos de IP do Azure em Intervalos IP do Azure e Marcas de Serviço [– Nuvem Pública.](https://www.microsoft.com/download/details.aspx?id=56519)
 
 > [!NOTE]
-> Como uma solução baseada em nuvem, o intervalo de endereços IP pode mudar. É recomendável mover para a configuração de resolução de DNS.
+> Como uma solução baseada em nuvem, os intervalos de endereços IP podem mudar. É recomendável mover para regras baseadas em DNS.
+
+> [!NOTE]
+> Se você for um cliente do Governo dos EUA, consulte a seção correspondente na [página Defender for Endpoint for US Government.](gov.md#service-backend-ip-ranges)
 
 ## <a name="next-step"></a>Próxima etapa
 

@@ -16,19 +16,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1fd128a9b734606039438db1f6d9fbc36e93a3b9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 059ff9ca6f0c93c6adbac3b1d552cbedcf308759
+ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199001"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51222702"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender for Endpoint para clientes do Governo dos EUA
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
-O Microsoft Defender for Endpoint para clientes do Governo dos EUA, criado no ambiente do Azure Government dos EUA, usa as mesmas tecnologias subjacentes que o Defender para Ponto de Extremidade no Azure Comercial.
+O Microsoft Defender for Endpoint para clientes do Governo dos EUA, criado no ambiente do Azure US Government, usa as mesmas tecnologias subjacentes que o Defender para Ponto de Extremidade no Azure Comercial.
 
 Essa oferta está disponível para clientes GCC, GCC High e DoD e se baseia na mesma prevenção, detecção, investigação e correção que a versão comercial. No entanto, há algumas diferenças na disponibilidade de recursos para essa oferta.
 
@@ -42,8 +42,8 @@ O Microsoft Defender for Endpoint para clientes do Governo dos EUA requer uma da
 CCG | CCG Alto | DoD
 :---|:---|:---
 Windows 10 Enterprise E5 GCC | Windows 10 Enterprise E5 para GCC High | Windows 10 Enterprise E5 para DOD
-| | Microsoft 365 E5 para GCC High | 
-| | Segurança do Microsoft 365 G5 para GCC High | 
+| | Microsoft 365 E5 para GCC High | Microsoft 365 G5 para DOD
+| | Segurança do Microsoft 365 G5 para GCC High | Segurança do Microsoft 365 G5 para DOD
 Microsoft Defender para Ponto de Extremidade - GCC | Microsoft Defender para Ponto de Extremidade para GCC High | Microsoft Defender para Ponto de Extremidade para DOD
 
 ### <a name="server-licensing"></a>Licenciamento de servidor
@@ -51,9 +51,6 @@ CCG | CCG Alto | DoD
 :---|:---|:---
 Microsoft Defender para GCC do Endpoint Server | Microsoft Defender para Servidor de Ponto de Extremidade para GCC High | Microsoft Defender para Servidor de Ponto de Extremidade para DOD
 Azure Defender para Servidores | Azure Defender for Servers - Government | Azure Defender for Servers - Government
-
-> [!NOTE]
-> O licenciamento do DoD só estará disponível na disponibilidade geral do DoD.
 
 <br>
 
@@ -64,7 +61,7 @@ Tipo de cliente | Portal URL
 :---|:---
 CCG | https://gcc.securitycenter.microsoft.us
 CCG Alto | https://securitycenter.microsoft.us
-DoD (PREVIEW) | https://securitycenter.microsoft.us
+DoD | https://securitycenter.microsoft.us
 
 <br>
 
@@ -73,7 +70,7 @@ DoD (PREVIEW) | https://securitycenter.microsoft.us
 ### <a name="standalone-os-versions"></a>Versões autônomas do sistema operacional
 As seguintes versões do sistema operacional são suportadas:
 
-Versão do sistema operacional | CCG | CCG Alto | DoD (PREVIEW)
+Versão do sistema operacional | CCG | CCG Alto | DoD
 :---|:---|:---|:---
 Windows 10, versão 20H2 (com [KB4586853](https://support.microsoft.com/help/4586853)) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Windows 10, versão 2004 (com [KB4586853](https://support.microsoft.com/help/4586853)) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
@@ -91,8 +88,8 @@ Windows 8.1 Enterprise | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/ch
 Windows 8 Pro | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Windows 7 SP1 Enterprise | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Windows 7 SP1 Pro | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
-Linux | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
-macOS | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
+Linux | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação
+macOS | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação
 Android | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia
 iOS | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia
 
@@ -105,7 +102,7 @@ iOS | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>Versões do sistema operacional ao usar o Azure Defender para Servidores
 As seguintes versões do sistema operacional são suportadas ao usar [o Azure Defender para Servidores](https://docs.microsoft.com/azure/security-center/security-center-wdatp):
 
-Versão do sistema operacional | CCG | CCG Alto | DoD (PREVIEW)
+Versão do sistema operacional | CCG | CCG Alto | DoD
 :---|:---|:---|:---
 Windows Server 2016 | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
@@ -125,14 +122,30 @@ Planilha de lista de domínios | Descrição
 Para obter mais informações, consulte [Configure device proxy and Internet connectivity settings](configure-proxy-internet.md).
 
 > [!NOTE]
-> A planilha também contém URLs comerciais, verifique as guias "US Gov". <br> Ao filtrar, procure os registros rotulados como "US Gov" e sua nuvem específica na coluna geografia.
+> A planilha também contém URLs comerciais, verifique as guias "US Gov".
+> 
+> Ao filtrar, procure os registros rotulados como "US Gov" e sua nuvem específica na coluna geografia.
+
+### <a name="service-backend-ip-ranges"></a>Intervalos de IP de back-end de serviço
+
+Se seus dispositivos de rede não suportam regras baseadas em DNS, use intervalos IP.
+
+O Defender for Endpoint para clientes do Governo dos EUA é criado no ambiente do Azure US Government, implantado nas seguintes regiões:
+
+- AzureCloud.usgovtexas
+- AzureCloud.usgovvirginia
+
+Você pode encontrar os intervalos de IP do Azure em Intervalos de IP do Azure e Marcas de Serviço [– Nuvem governamental dos EUA.](https://www.microsoft.com/download/details.aspx?id=57063)
+
+> [!NOTE]
+> Como uma solução baseada em nuvem, os intervalos de endereços IP podem mudar. É recomendável mover para regras baseadas em DNS.
 
 <br>
 
 ## <a name="api"></a>API
 Em vez das URIs públicas listadas em nossa documentação [de API,](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro)você precisará usar os seguintes URIs:
 
-Tipo de ponto de extremidade | CCG | GCC High & DoD (PREVIEW)
+Tipo de ponto de extremidade | CCG | GCC High & DoD
 :---|:---|:---
 Logon | `https://login.microsoftonline.com` | `https://login.microsoftonline.us`
 API do Defender para Ponto de Extremidade | `https://api-gcc.securitycenter.microsoft.us` | `https://api-gov.securitycenter.microsoft.us`
@@ -141,21 +154,21 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 <br>
 
 ## <a name="feature-parity-with-commercial"></a>Paridade de recursos com comercial
-O Defender para Ponto de Extremidade não tem paridade completa com a oferta comercial. Embora nosso objetivo seja fornecer todos os recursos comerciais e funcionalidades para nossos clientes do Governo dos EUA, há alguns recursos ainda não disponíveis que queremos destacar.
+O Defender for Endpoint para clientes do Governo dos EUA não tem paridade completa com a oferta comercial. Embora nosso objetivo seja fornecer todos os recursos comerciais e funcionalidades para nossos clientes do Governo dos EUA, há alguns recursos ainda não disponíveis que queremos destacar.
 
-Estas são as lacunas conhecidas a partir de fevereiro de 2021:
+Estas são as lacunas conhecidas a partir de março de 2021:
 
-Nome do recurso | CCG | CCG Alto | DoD (PREVIEW)
+Nome do recurso | CCG | CCG Alto | DoD
 :---|:---|:---|:---
 Investigação e correção automatizadas: Resposta ao vivo | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Investigação e correção automatizadas: resposta aos alertas do Office 365 | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia
-Notificações por e-mail | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação
+Notificações por e-mail | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Laboratório de avaliação | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Gerenciamento e APIs: Relatório de conformidade e saúde do dispositivo | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
-Gerenciamento e APIs: integração com produtos de terceiros | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
+Gerenciamento e APIs: integração com produtos de terceiros | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação
 Gerenciamento e APIs: API de streaming | ![Sim](images/svg/check-yes.svg) | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Gerenciamento e APIs: Relatório de proteção contra ameaças | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
-Gerenciamento de & de vulnerabilidades | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
+Gerenciamento de ameaças e vulnerabilidades | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Análise de ameaças | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Filtragem de conteúdo da Web | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Integrações: Azure Sentinel | ![Sim](images/svg/check-yes.svg) | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
@@ -167,4 +180,4 @@ Integrações: DLP do Ponto de Extremidade da Microsoft | ![Não](images/svg/che
 Integrações: Microsoft Intune | ![Sim](images/svg/check-yes.svg) | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Integrações: Microsoft Power Automate & Aplicativos lógicos do Azure | ![Sim](images/svg/check-yes.svg) | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Integrações: Skype for Business /Teams | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
-Especialistas em ameaças da Microsoft | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia
+Especialistas em Ameaças da Microsoft | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images/svg/check-no.svg) No backlog de engenharia
