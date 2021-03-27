@@ -33,7 +33,7 @@
 #### [Fase 2: Configurar](mcafee-to-microsoft-defender-setup.md)
 #### [Fase 3: Integrar](mcafee-to-microsoft-defender-onboard.md)
 ### [Migrar do Symantec para o Microsoft Defender para Ponto de Extremidade]()
-#### [Visão geral da migração](symantec-to-microsoft-defender-atp-migration.md)
+#### [Visão geral da migração](symantec-to-microsoft-defender-endpoint-migration.md)
 #### [Fase 1: Preparar](symantec-to-microsoft-defender-atp-prepare.md)
 #### [Fase 2: Configurar](symantec-to-microsoft-defender-atp-setup.md)
 #### [Fase 3: Integrar](symantec-to-microsoft-defender-atp-onboard.md)
@@ -115,7 +115,7 @@
 ##### [Habilitar o acesso controlado a pastas](enable-controlled-folders.md)
 ##### [Personalizar o acesso controlado a pastas](customize-controlled-folders.md)
 
-### [Proteção Avançada contra Ameaças do Microsoft Defender para Mac]()
+### [Microsoft Defender para Ponto de Extremidade para Mac]()
 #### [Visão geral do Microsoft Defender para Ponto de Extremidade para Mac](microsoft-defender-endpoint-mac.md)
 #### [Novidades](mac-whatsnew.md)
 
@@ -378,6 +378,8 @@
 ##### [Dispositivos de remoção](offboard-machines.md)
 
 #### [Definir configurações de fuso horário da Central de Segurança do Microsoft Defender](time-settings.md)
+
+### [Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)
 
 ### [Configurar integração com outras soluções da Microsoft]()
 #### [Configurar acesso condicional](configure-conditional-access.md)
