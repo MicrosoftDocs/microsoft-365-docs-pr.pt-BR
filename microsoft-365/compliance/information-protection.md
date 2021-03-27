@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-mip
 - m365initiative-compliance
 description: Implemente a Proteção de Informações da Microsoft (MIP) para ajudá-lo a proteger informações confidenciais onde elas ficam ou trafegam.
-ms.openlocfilehash: 285b5885f56151bcbd877eb6ede04447c7a405dc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: e8487bf443592fa45b887929f947b701406dba55
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927035"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394689"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Proteção de Informações da Microsoft no Microsoft 365
 
@@ -47,8 +47,8 @@ Para obter informações sobre como controlar seus dados, confira [Governança d
 Para entender o panorama de dados e identificar dados importantes em ambiente híbrido, use os seguintes recursos:
  
 |Recursos|Que problemas ela resolve?|Introdução|
-|:------|:------------|:--------------------|:-----------------------------|
-|[Tipos de informações confidenciais](sensitive-information-type-entity-definitions.md)| Identifica dados confidenciais usando expressões regulares integradas ou personalizadas ou uma função. A evidência corroborativa inclui palavras-chave, níveis de confiança e proximidade.| [Personalizar um tipo de informação confidencial interno](customize-a-built-in-sensitive-information-type.md)|
+|:------|:------------|:--------------------|
+|[Tipos de informações confidenciais](sensitive-information-type-learn-about.md)| Identifica dados confidenciais usando expressões regulares integradas ou personalizadas ou uma função. A evidência corroborativa inclui palavras-chave, níveis de confiança e proximidade.| [Personalizar um tipo de informação confidencial interno](customize-a-built-in-sensitive-information-type.md)|
 |[Classificadores treináveis](classifier-learn-about.md)| Identifica dados confidenciais usando exemplos dos dados nos quais você está interessado, em vez de identificar elementos no item (correspondência de padrões). Você pode usar classificadores integrados ou treinar um classificador com seu próprio conteúdo.| [Comece com classificadores treináveis](classifier-get-started-with.md) |
 |[Classificação de dados](data-classification-overview.md) | Uma identificação gráfica de itens em sua organização que possuem um rótulo de confidencialidade, um rótulo de retenção ou foram classificados. Você também pode usar essas informações para obter insights sobre as ações que seus usuários estão realizando nesses itens. | [Introdução ao gerenciador de conteúdo ](data-classification-content-explorer.md)<br /><br /> [Introdução ao gerenciador de atividades](data-classification-activity-explorer.md) |
 
@@ -57,7 +57,7 @@ Para entender o panorama de dados e identificar dados importantes em ambiente h�
 Para aplicar ações de proteção flexíveis que incluem criptografia, restrições de acesso e marcações visuais, use os seguintes recursos:
 
 |Recursos|Que problemas ela resolve?|Introdução|
-|:------|:------------|---------------------|:----------------------------|
+|:------|:------------|---------------------|
 |[Rótulos de confidencialidade](sensitivity-labels.md)| Uma solução única entre aplicativos, serviços e dispositivos para rotular e proteger seus dados enquanto eles viajam dentro e fora de sua organização. <br /><br />Exemplos de cenários: <br /> [Gerenciar rótulos de confidencialidade para aplicativos do Office](sensitivity-labels-office-apps.md)<br /> [Criptografar documentos e emails](encryption-sensitivity-labels.md )<br /> [Aplicar e exibir rótulos no Power BI](/power-bi/admin/service-security-apply-data-sensitivity-labels) <br /><br /> Para obter uma lista abrangente de cenários para rótulos de confidencialidade, confira a documentação de introdução.|[Introdução ao rótulos de confidencialidade](get-started-with-sensitivity-labels.md) |
 |[Cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/aip-clientv2)| Para computadores Windows, estende os rótulos de confidencialidade aos recursos e funcionalidades adicionais que incluem rotulagem e proteção de todos os tipos de arquivos do Explorador de Arquivos e do PowerShell<br /><br /> Exemplos de recursos adicionais: [configurações personalizadas do cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Guia do administrador para o cliente de rotulagem unificada da Proteção de Informações do Azure](/azure/information-protection/rms-client/clientv2-admin-guide)|
 |[Criptografia de Chave Dupla](double-key-encryption.md)| Em todas as circunstâncias, apenas sua organização pode descriptografar conteúdo protegido ou, para requisitos regulamentares, você deve manter as chaves de criptografia dentro de um limite geográfico. | [Implantar a Criptografia de Chave Dupla](double-key-encryption.md#deploy-dke)|
@@ -76,6 +76,9 @@ Para ajudar a evitar o compartilhamento acidental de informações confidenciais
 
 
 |Recursos|Que problemas ela resolve?|Introdução|
-|:------|:------------|:---------------------|:-----------------------------|
-|[DLP (Prevenção contra perda de dados)](data-loss-prevention-policies.md)| Ajuda a prevenir o compartilhamento não intencional de itens confidenciais. <br /><br />Cenário de exemplo: [proteger informações confidenciais nas mensagens de chat e de canal do Microsoft Teams](dlp-microsoft-teams.md) | [Introdução à política DLP padrão](get-started-with-the-default-dlp-policy.md)|
+|:------|:------------|:---------------------|
+|[DLP (Prevenção contra perda de dados)](data-loss-prevention-policies.md)| Ajuda a prevenir o compartilhamento não intencional de itens confidenciais. | [Introdução à política DLP padrão](get-started-with-the-default-dlp-policy.md)|
 |[Saiba mais sobre a Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-learn-about.md)| Estende os recursos de DLP para itens que são usados e compartilhados em computadores Windows 10. | [Introdução à Prevenção contra perda de dados do ponto de extremidade](endpoint-dlp-getting-started.md)|
+|[Saiba mais sobre a extensão de conformidade da Microsoft (visualização)](dlp-chrome-learn-about.md) | Estende os recursos de DLP para o navegador Chrome | [Comece com a extensão de conformidade da Microsoft (visualização)](dlp-chrome-get-started.md)|
+|[Saiba mais sobre o scanner local de prevenção contra perda de dados do Microsoft 365 (visualização)](dlp-on-premises-scanner-learn.md)|Estende o monitoramento DLP de atividades de arquivo e ações de proteção para esses arquivos para compartilhamentos de arquivos locais e pastas do SharePoint e bibliotecas de documentos.|[Comece a usar o scanner local de prevenção contra perda de dados do Microsoft 365 (visualização)](dlp-on-premises-scanner-get-started.md)|
+|[Proteja informações confidenciais no bate-papo do Microsoft Teams e nas mensagens do canal](dlp-microsoft-teams.md) | Estende algumas funcionalidades do DLP para o bate-papo do Teams e as mensagens do canal | [Saiba mais sobre a política de prevenção de perda de dados padrão no Microsoft Teams (visualização)](dlp-teams-default-policy.md)| 
