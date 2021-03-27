@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 description: Saiba como os administradores globais do Office 365 podem aplicar a identidade visual da sua organização a mensagens de email criptografadas & conteúdo do portal de criptografia.
-ms.openlocfilehash: 3c5dc089363a7dfe895e79f03e5a01cb57c2ad57
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2898e12ad00d11cd9eb2f3be5d817ef113607e79
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923501"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394709"
 ---
 # <a name="add-your-organizations-brand-to-your-microsoft-365-for-business-message-encryption-encrypted-messages"></a>Adicionar a marca da sua organização ao Microsoft 365 para empresas mensagens criptografadas de Criptografia de Mensagens
 
@@ -121,14 +121,13 @@ Para remover todas as modificações do modelo padrão, incluindo personalizaç�
 
    A tabela a seguir descreve os padrões da opção de personalização de criptografia.
 
-   **Para reverter esse recurso da experiência de criptografia para o texto e a imagem padrões**|**Use esses comandos**|
+   |Para reverter esse recurso da experiência de criptografia para o texto e a imagem padrões|Use esses comandos|
    |:-----|:-----|
-   |Texto padrão que vem com mensagens de email criptografadas  <br/> O texto padrão é exibido acima das instruções para a exibição de mensagens criptografadas|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
+   |Texto padrão que vem com mensagens de email criptografadas.  O texto padrão é exibido acima das instruções para a exibição de mensagens criptografadas|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
    |Declaração de isenção de responsabilidade nos emails que contêm a mensagem criptografada|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **Exemplo:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
    |Texto que aparece na parte superior do portal de exibição do email criptografado|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **Exemplo revertendo de volta para o padrão:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
    |Logotipo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **Exemplo revertendo de volta para o padrão:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
    |Cor da tela de fundo|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **Exemplo revertendo de volta para o padrão:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
-   |
 
 ## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>Remover um modelo de identidade visual personalizado (Criptografia Avançada de Mensagens)
 

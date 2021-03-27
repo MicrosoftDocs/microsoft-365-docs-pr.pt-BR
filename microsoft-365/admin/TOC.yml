@@ -187,7 +187,7 @@
         - name: Gerenciar o Email secundário para sua organização.
           href: email/configure-clutter.md
     - name: Gerenciar domínios
-      href: get-help-with-domains/what-is-a-domain.md
+      href: get-help-with-domains/index.yml
       items:
         - name: Adicionar um domínio
           href: setup/add-domain.md

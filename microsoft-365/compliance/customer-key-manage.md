@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Depois de configurar a Chave do Cliente, saiba como gerenciá-la restaurando chaves AKV e gerenciando permissões e suas políticas de criptografia de dados.
-ms.openlocfilehash: 8f55667254ce7f5cbd9d4de274623ca4a3c4aa9d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 284a8ff24fef2f7e8b807477c99e20aaf593552e
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909943"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394658"
 ---
 # <a name="manage-customer-key"></a>Gerenciar Chave do Cliente
 
@@ -168,9 +168,11 @@ A saída deste cmdlet inclui:
 
   - **Rolling:** Um rol de teclas está em andamento. Se a chave do geo estiver rolando, você também será mostrado informações sobre qual porcentagem de sites concluiu a operação de rolagem de chaves para que você possa monitorar o progresso.
 
-## <a name="unassign-a-dep-from-a-mailbox"></a>Unassign a DEP from a mailbox
+## <a name="roll-back-from-customer-key-to-microsoft-managed-keys"></a>Reverter da Chave do Cliente para chaves gerenciadas da Microsoft
 
-Você desaigna um DEP de uma caixa de correio usando o cmdlet Set-mailbox PowerShell e definindo `DataEncryptionPolicy` como `$NULL` . Executar esse cmdlet desassocia o DEP atribuído no momento e reenscriptografa a caixa de correio usando o DEP associado às chaves gerenciadas padrão da Microsoft. Não é possível desa desasinalhar o DEP usado pelas chaves gerenciadas da Microsoft. Se você não quiser usar chaves gerenciadas da Microsoft, poderá atribuir outro DEP à caixa de correio.
+Para a Chave do Cliente no nível do locatário, você precisará falar com a Microsoft com uma solicitação de "offboarding" da Chave do Cliente. A solicitação será manipulada pela equipe de Engenharia de Chamada.
+
+Para Chave do Cliente no nível do aplicativo, faça isso desaignando um DEP de caixas de correio usando o cmdlet Set-mailbox PowerShell e definindo `DataEncryptionPolicy` como `$NULL` . Executar esse cmdlet desassocia o DEP atribuído no momento e reenscriptografa a caixa de correio usando o DEP associado às chaves gerenciadas padrão da Microsoft. Não é possível desa desasinalhar o DEP usado pelas chaves gerenciadas da Microsoft. Se você não quiser usar chaves gerenciadas da Microsoft, poderá atribuir outro DEP de Chave de Cliente à caixa de correio.
 
 Para desaignar o DEP de uma caixa de correio usando o cmdlet Set-Mailbox PowerShell, conclua estas etapas.
 
@@ -184,7 +186,7 @@ Para desaignar o DEP de uma caixa de correio usando o cmdlet Set-Mailbox PowerSh
 
 ## <a name="revoke-your-keys-and-start-the-data-purge-path-process"></a>Revogar suas chaves e iniciar o processo de caminho de limpeza de dados
 
-Você controla a revogação de todas as chaves raiz, incluindo a chave de disponibilidade. A Chave do Cliente fornece controle do aspecto de planejamento de saída dos requisitos regulatórios para você. Se você decidir revogar suas chaves para limpar seus dados e sair do serviço, o serviço excluirá a chave de disponibilidade depois que o processo de limpeza de dados for concluído.
+Você controla a revogação de todas as chaves raiz, incluindo a chave de disponibilidade. A Chave do Cliente fornece controle do aspecto de planejamento de saída dos requisitos regulatórios para você. Se você decidir revogar suas chaves para limpar seus dados e sair do serviço, o serviço excluirá a chave de disponibilidade depois que o processo de limpeza de dados for concluído. Você não pode executar uma limpeza de dados para uma política de nível de locatário.
 
 O Microsoft 365 audita e valida o caminho de limpeza de dados. Para obter mais informações, consulte o Relatório soc 2 do SSAE 18 disponível no [Portal de Confiança do Serviço.](https://servicetrust.microsoft.com/) Além disso, a Microsoft recomenda os seguintes documentos:
 

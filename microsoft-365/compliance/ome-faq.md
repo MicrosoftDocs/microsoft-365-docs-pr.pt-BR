@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d4181482bf8ad7460480a70c762fe60fd28ad0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2ad0ef4f16e5b458da80227b93fab574e3ce8dde
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051743"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394679"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -62,7 +62,7 @@ Para obter mais informações sobre BYOK, consulte [Planning and implementing yo
   
 ## <a name="do-ome-and-byok-with-azure-information-protection-change-microsofts-approach-to-third-party-data-requests-such-as-subpoenas"></a>O OME e BYOK com a Proteção de Informações do Azure alteram a abordagem da Microsoft para solicitações de dados de terceiros, como intimações?
 
-Não. OME e a opção de fornecer e controlar suas próprias chaves de criptografia, chamadas BYOK, da Proteção de Informações do Azure não foram projetadas para responder a intimações de imposição da lei. OME, com BYOK para a Proteção de Informações do Azure, foi projetado para clientes com foco em conformidade. A Microsoft leva muito a sério as solicitações de terceiros para dados do cliente. Como provedor de serviços de nuvem, sempre defendemos a privacidade dos dados do cliente. Caso obtenhamos uma intimação, sempre tentaremos redirecionar o terceiro para o cliente para obter as informações. (Leia o blog de Brad Smith: [Protegendo os dados do cliente contra a espionagem governamental](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/)). Publicamos periodicamente informações detalhadas da solicitação que recebemos. Para obter mais informações sobre solicitações de dados de terceiros, consulte [Respondendo](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) a solicitações governamentais e de aplicação da lei para acessar dados do cliente no Centro de Confiança da Microsoft. Além disso, consulte "Divulgação de dados do cliente" nos Termos de [Serviços Online (OST)](https://www.microsoft.com/Licensing/product-licensing/products.aspx).
+Não. OME e a opção de fornecer e controlar suas próprias chaves de criptografia, chamadas BYOK, da Proteção de Informações do Azure não foram projetadas para responder a intimações de imposição da lei. OME, com BYOK para a Proteção de Informações do Azure, foi projetado para clientes com foco em conformidade. A Microsoft leva a sério as solicitações de terceiros para dados do cliente. Como provedor de serviços de nuvem, sempre defendemos a privacidade dos dados do cliente. Caso obtenhamos uma intimação, sempre tentaremos redirecionar o terceiro para o cliente para obter as informações. (Leia o blog de Brad Smith: [Protegendo os dados do cliente contra o snooping do governo](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/)). Publicamos periodicamente informações detalhadas da solicitação que recebemos. Para obter mais informações sobre solicitações de dados de terceiros, consulte [Respondendo](https://www.microsoft.com/trustcenter/privacy/govt-requests-for-data) a solicitações governamentais e de aplicação da lei para acessar dados do cliente no Centro de Confiança da Microsoft. Além disso, consulte "Divulgação de dados do cliente" nos Termos de [Serviços Online (OST)](https://www.microsoft.com/Licensing/product-licensing/products.aspx).
   
 ## <a name="how-is-this-feature-related-to-legacy-office-365-message-encryption-ome-and-information-rights-management-irm-features"></a>Como esse recurso está relacionado aos recursos herdado da Criptografia de Mensagens do Office 365 (OME) e do Gerenciamento de Direitos de Informação (IRM)?
 
@@ -120,7 +120,7 @@ Se um formato de arquivo for suportado, como um arquivo do Word, Excel ou PowerP
 
 A resposta curta é sim! A criptografia PDF permite proteger documentos PDF confidenciais por meio de comunicação segura ou colaboração segura. Quando você envia emails, o serviço do Office 365 criptografa anexos de arquivo PDF e não o cliente do Outlook.
 
-Para o Outlook na Web, o Outlook para iOS e o Outlook para Android, você pode criptografar PDFs que você envia sem qualquer etapa adicional. Esses clientes nações suportam criptografia PDF.
+Para o Outlook na Web, o Outlook para iOS e o Outlook para Android, você pode criptografar PDFs que você envia sem mais etapas. Esses clientes nações suportam criptografia PDF.
 
 A área de trabalho do Outlook não dá suporte nativo à criptografia de anexos de arquivo PDF. Em vez disso, você precisará configurar regras de fluxo de emails do Exchange ou DLP para aplicar criptografia a anexos PDF primeiro. Quando você envia emails da Área de Trabalho do Outlook com um anexo PDF, o cliente envia a mensagem com o anexo para o serviço primeiro. Quando o serviço recebe o arquivo, o serviço aplica a proteção OME da política de prevenção contra perda de dados (DLP) ou regra de fluxo de emails no Exchange Online. Em seguida, o Exchange Online envia a mensagem com o anexo de arquivo PDF protegido.
 
@@ -165,7 +165,7 @@ Sim! Para obter informações sobre como personalizar mensagens de email e o por
   
 ## <a name="are-there-any-reporting-capabilities-or-insights-for-encrypted-emails"></a>Há recursos de relatórios ou ideias para emails criptografados?
 
-Há um relatório de criptografia no Centro de Segurança e Conformidade. Consulte [Exibir relatórios de segurança de email no Centro de Conformidade & Segurança.](../security/defender-365-security/view-email-security-reports.md)
+Há um relatório de criptografia no Centro de Segurança e Conformidade. Consulte [Exibir relatórios de segurança de email no Centro de Conformidade & Segurança.](../security/office-365-security/view-email-security-reports.md)
   
 ## <a name="can-i-use-message-encryption-with-compliance-features-such-as-ediscovery"></a>Posso usar a criptografia de mensagens com recursos de conformidade, como a Descoberta eDiscovery?
 
@@ -173,7 +173,7 @@ Sim. Todas as mensagens de email criptografadas são descobertas pelos recursos 
 
 ## <a name="can-i-remove-encryption-from-email"></a>Posso remover a criptografia do email?
 
-Os administradores podem configurar uma regra de fluxo de emails para remover a criptografia. Você não pode remover a criptografia usando uma regra de fluxo de emails do email que é aplicada por outra organização, a menos que o email seja encriptado usando proteção somente criptografada.
+Os administradores podem configurar uma regra de fluxo de emails para remover a criptografia. Você não pode remover a criptografia usando uma regra de fluxo de emails do email que é aplicada por outra organização, a menos que o email seja criptografado usando proteção somente criptografada.
 
 ## <a name="is-delegated-access-supported"></a>O acesso delegado é suportado?
 
