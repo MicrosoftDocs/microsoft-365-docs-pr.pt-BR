@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: bd92b44892b49a007316acb97296a44514db0578
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5013d94277eeba7d1df100d2850cb950fe2e0742
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052759"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379341"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -89,7 +89,10 @@ Execute as seguintes etapas para atender aos requisitos de integração:
  - Além disso, para o Windows Server 2008 R2 SP1, verifique se você atende aos seguintes requisitos:
     - Instalar o [acúmulo de atualizações mensal de fevereiro](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
     - Instalar o [.NET framework 4.5](https://www.microsoft.com/download/details.aspx?id=30653) (ou posterior) ou [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework)
-
+   
+   > [!NOTE]
+    > Se você estiver gerenciando seu Windows Server 2008 R2 SP1 com SCCM, o agente cliente SCCM instalará o .Net Framework 4.5.2. Portanto, você não precisa instalar o .NET framework 4.5 (ou posterior).
+   
  - Para Windows Server 2008 R2 SP1 e Windows Server 2012 R2: Configurar e atualizar clientes de Proteção de Ponto de Extremidade do [System Center.](#configure-and-update-system-center-endpoint-protection-clients)
 
     > [!NOTE]
@@ -154,7 +157,7 @@ Você pode integrar o Windows Server (SAC) versão 1803, o Windows Server 2019 o
 
 - [Script local](configure-endpoints-script.md) 
 - [Política de grupo](configure-endpoints-gp.md)
-- [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+- [Gerenciador de Configuração do Microsoft Endpoint](configure-endpoints-sccm.md)
 - [System Center Configuration Manager 2012 /2012 R2 1511 / 1602](configure-endpoints-sccm.md#onboard-devices-using-system-center-configuration-manager)
 - [Scripts de integração VDI para dispositivos não persistentes](configure-endpoints-vdi.md)
 

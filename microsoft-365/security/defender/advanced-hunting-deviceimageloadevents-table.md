@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c2cc0fe7746c7574b427e3f546050ab4756fb525
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 31bcd6764bd1f32085928b2b37e613248ee8a9f8
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053216"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382656"
 ---
 # <a name="deviceimageloadevents"></a>DeviceImageLoadEvents
 
@@ -55,6 +55,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `SHA256` | cadeia de caracteres | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `MD5` | string | Hash MD5 do arquivo ao que a ação gravada foi aplicada |
+| `FileSize` | long | Tamanho do arquivo em bytes |
 | `InitiatingProcessAccountDomain` | cadeia de caracteres | Domínio da conta que correu o processo responsável pelo evento |
 | `InitiatingProcessAccountName` | cadeia de caracteres | Nome de usuário da conta que correu o processo responsável pelo evento |
 | `InitiatingProcessAccountSid` | cadeia de caracteres | Identificador de Segurança (SID) da conta que correu o processo responsável pelo evento |
@@ -66,6 +67,13 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessSHA256` | cadeia de caracteres | SHA-256 do processo (arquivo de imagem) que iniciou o evento. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `InitiatingProcessMD5` | string | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessFileName` | cadeia de caracteres | Nome do processo que iniciou o evento |
+| `InitiatingProcessFileSize` | long | Tamanho do arquivo que correu o processo responsável pelo evento |
+| `InitiatingProcessVersionInfoCompanyName` | cadeia de caracteres | Nome da empresa a partir das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoProductName` | cadeia de caracteres | Nome do produto das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoProductVersion`| cadeia de caracteres | Versão do produto das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoInternalFileName` | cadeia de caracteres | Nome do arquivo interno das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoOriginalFileName` | cadeia de caracteres | Nome do arquivo original das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoFileDescription` | cadeia de caracteres | Descrição das informações de versão do processo (arquivo de imagem) responsável pelo evento |
 | `InitiatingProcessId` | int | ID do processo (PID) do processo que iniciou o evento |
 | `InitiatingProcessCommandLine` | cadeia de caracteres | Linha de comando usada para executar o processo que iniciou o evento |
 | `InitiatingProcessCreationTime` | datetime | Data e hora em que o processo que iniciou o evento foi iniciado |
@@ -75,8 +83,6 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessParentCreationTime` | datetime | Data e hora em que o pai do processo responsável pelo evento foi iniciado |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 | `AppGuardContainerId` | cadeia de caracteres | Identificador do contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
-| `InitiatingProcessFileSize` | long | Tamanho do arquivo que correu o processo responsável pelo evento |
-| `FileSize` | long | Tamanho do arquivo em bytes |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: b31e7aeb9178cb6021434319e55ddef927d7c263
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7bee6c99d2c1c5ad3cec8f2e317b729a0a4e1f8b
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165868"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379473"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Detecção e resposta do ponto de extremidade (EDR) no modo de bloqueio
 
@@ -132,6 +132,9 @@ Para saber mais, confira [Get-MpComputerStatus](https://docs.microsoft.com/power
 2. Digite `sc query windefend`.
 
 3. Na lista de resultados, na linha **STATE,** confirme se o serviço está sendo executado.
+
+### <a name="how-much-time-does-it-take-for-edr-in-block-mode-to-be-disabled"></a>Quanto tempo leva para que o EDR no modo de bloqueio seja desabilitado?
+Se você optou por desabilitar o EDR no modo de bloqueio, pode levar até 30 minutos para o sistema desabilitar esse recurso.
 
 ## <a name="see-also"></a>Confira também
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 247b8b8d8e18c8eecb09029581635ae907433f55
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: df96b57b9898dd973fab053918d763d1972bd50d
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054429"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382800"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Obter treinamento especializado em busca avançada
 
@@ -37,8 +37,7 @@ ms.locfileid: "51054429"
 
 Aumente o conhecimento da busca avançada rapidamente com _o Controle_ do adversário , uma série de webcast para novos analistas de segurança e caçadores de ameaças experientes. A série orienta você pelos conceitos básicos até criar suas próprias consultas sofisticadas. Comece com o primeiro vídeo sobre fundamentos ou pule para vídeos mais avançados que se adequam ao seu nível de experiência.
 
-
-| Título | Descrição | Relógio | Consultas | 
+| Cargo | Descrição | Relógio | Consultas | 
 |--|--|--|--|
 | Episódio 1: conceitos básicos de KQL | Este episódio aborda as noções básicas de busca avançada no Microsoft 365 Defender. Saiba mais sobre os dados avançados de busca disponíveis e a sintaxe básica de KQL e operadores. | [YouTube](https://youtu.be/0D9TkGjeJwM?t=351) (54:14) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl) |
 | Episódio 2: Joins | Continue aprendendo sobre dados na busca avançada e como unir tabelas. Saiba mais `inner` sobre , , e `outer` `unique` `semi` insumente e entenda as nuances da junção padrão do Kusto. `innerunique` | [YouTube](https://youtu.be/LMrO6K5TWOU?t=297) (53:33) | [Arquivo CSL](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl) |
@@ -48,7 +47,7 @@ Aumente o conhecimento da busca avançada rapidamente com _o Controle_ do advers
 
 Obter mais treinamento especializado com *L33TSP3AK:* Busca avançada no Microsoft 365 Defender , uma série de webcast para analistas que procuram expandir seus conhecimentos técnicos e habilidades práticas na realização de investigações de segurança usando a busca avançada no Microsoft 365 Defender. 
 
-| Título | Descrição | Relógio | Consultas | 
+| Cargo | Descrição | Relógio | Consultas | 
 |--|--|--|--|
 | Episódio 1  | Neste episódio, você aprenderá diferentes práticas recomendadas na execução de consultas avançadas de busca. Entre os tópicos abordados estão: como otimizar suas consultas, usar a busca avançada por ransomware, manipular o JSON como um tipo dinâmico e trabalhar com operadores de dados externos. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [Arquivo CSL](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.csl)
 

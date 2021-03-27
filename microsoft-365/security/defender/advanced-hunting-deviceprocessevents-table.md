@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f014eea240e3c8e52c424be36402c2826cb131d1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 363d80431c14bc550cba34850c85593163aea1b1
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053202"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382836"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 
@@ -55,6 +55,13 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `SHA256` | cadeia de caracteres | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `MD5` | string | Hash MD5 do arquivo ao que a ação gravada foi aplicada |
+| `FileSize` | long | Tamanho do arquivo em bytes |
+| `ProcessVersionInfoCompanyName` | cadeia de caracteres | Nome da empresa a partir das informações de versão do processo recém-criado |
+| `ProcessVersionInfoProductName` | cadeia de caracteres | Nome do produto das informações de versão do processo recém-criado |
+| `ProcessVersionInfoProductVersion` | cadeia de caracteres | Versão do produto a partir das informações de versão do processo recém-criado |
+| `ProcessVersionInfoInternalFileName` | cadeia de caracteres | Nome do arquivo interno das informações de versão do processo recém-criado |
+| `ProcessVersionInfoOriginalFileName` | cadeia de caracteres | Nome do arquivo original das informações de versão do processo recém-criado |
+| `ProcessVersionInfoFileDescription` | cadeia de caracteres | Descrição das informações de versão do processo recém-criado |
 | `ProcessId` | int | ID do processo (PID) do processo recém-criado |
 | `ProcessCommandLine` | cadeia de caracteres | Linha de comando usada para criar o novo processo |
 | `ProcessIntegrityLevel` | cadeia de caracteres | Nível de integridade do processo recém-criado. O Windows atribui níveis de integridade a processos com base em determinadas características, como se eles foram lançados de uma internet baixada. Esses níveis de integridade influenciam permissões para recursos |
@@ -79,6 +86,12 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessMD5` | string | Hash MD5 do processo (arquivo de imagem) que iniciou o evento |
 | `InitiatingProcessFileName` | cadeia de caracteres | Nome do processo que iniciou o evento |
 | `InitiatingProcessFileSize` | long | Tamanho do arquivo que correu o processo responsável pelo evento |
+| `InitiatingProcessVersionInfoCompanyName` | cadeia de caracteres | Nome da empresa a partir das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoProductName` | cadeia de caracteres | Nome do produto das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoProductVersion` | cadeia de caracteres | Versão do produto das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoInternalFileName` | cadeia de caracteres | Nome do arquivo interno das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoOriginalFileName` | cadeia de caracteres | Nome do arquivo original das informações de versão do processo (arquivo de imagem) responsável pelo evento |
+| `InitiatingProcessVersionInfoFileDescription` | cadeia de caracteres | Descrição das informações de versão do processo (arquivo de imagem) responsável pelo evento |
 | `InitiatingProcessId` | int | ID do processo (PID) do processo que iniciou o evento |
 | `InitiatingProcessCommandLine` | cadeia de caracteres | Linha de comando usada para executar o processo que iniciou o evento |
 | `InitiatingProcessCreationTime` | datetime | Data e hora em que o processo que iniciou o evento foi iniciado |
@@ -86,10 +99,12 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `InitiatingProcessParentId` | int | ID do processo (PID) do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentFileName` | cadeia de caracteres | Nome do processo pai que gerou o processo responsável pelo evento |
 | `InitiatingProcessParentCreationTime` | datetime | Data e hora em que o pai do processo responsável pelo evento foi iniciado |
+| `InitiatingProcessSignerType` | cadeia de caracteres | Tipo de signator de arquivo do processo (arquivo de imagem) que iniciou o evento |
+| `InitiatingProcessSignatureStatus` | cadeia de caracteres | Informações sobre o status de assinatura do processo (arquivo de imagem) que iniciou o evento |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 | `AppGuardContainerId` | cadeia de caracteres | Identificador do contêiner virtualizado usado pelo Application Guard para isolar a atividade do navegador |
 | `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre o evento no formato de matriz JSON |
-| `FileSize` | long | Tamanho do arquivo em bytes |
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

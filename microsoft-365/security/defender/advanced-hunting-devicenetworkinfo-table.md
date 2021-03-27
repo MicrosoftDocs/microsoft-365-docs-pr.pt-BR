@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1c8a3f3ab91add9e057c4661677997e658f42386
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 9a3806d3e2bff66e04f4adb50217fc1c6f267364
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053211"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382590"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -46,7 +46,6 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
 | `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
 | `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
-| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 | `NetworkAdapterName` | cadeia de caracteres | Nome do adaptador de rede |
 | `MacAddress` | cadeia de caracteres | Endereço MAC do adaptador de rede |
 | `NetworkAdapterType` | cadeia de caracteres | Tipo de adaptador de rede. Para os valores possíveis, consulte [esta enumeração](/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
@@ -58,6 +57,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `IPv6Dhcp` | cadeia de caracteres | Endereço IPv6 do servidor DHCP |
 | `DefaultGateways` | cadeia de caracteres | Endereços de gateway padrão no formato de matriz JSON |
 | `IPAddresses` | cadeia de caracteres | Matriz JSON contendo todos os endereços IP atribuídos ao adaptador, juntamente com seu respectivo prefixo de sub-rede e espaço de endereço IP, como público, privado ou link-local |
+| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

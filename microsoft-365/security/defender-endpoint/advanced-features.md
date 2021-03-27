@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 059cfbf37c79ff9f99b5e46c8d4329c203aa9665
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 684025441c8400775f469515df1bcd0423d6460b
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215523"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394741"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -63,6 +63,14 @@ Para obter mais informações sobre atribuições de função, consulte [Create 
 ## <a name="live-response-unsigned-script-execution"></a>Execução de script não assinado de resposta ao vivo
 
 A habilitação desse recurso permite executar scripts não assinados em uma sessão de resposta ao vivo.
+
+
+## <a name="restrict-correlation-to-within-scoped-device-groups"></a>Restringir a correlação para dentro de grupos de dispositivos com escopo
+Quando essa configuração é acionada, os alertas são correlacionados em incidentes separados com base no grupo de dispositivos com escopo. Por padrão, a correlação de incidentes ocorre em todo o escopo do locatário.
+
+>[!NOTE]
+>Alterar essa configuração afeta apenas as futuras correlações de alerta.
+
 
 ## <a name="autoresolve-remediated-alerts"></a>Autoresolve correção de alertas
 
@@ -143,7 +151,7 @@ Ao ativar esse recurso, você poderá incorporar dados da Proteção Avançada c
 
 Para receber a integração de dispositivo contextual no Office 365 Threat Intelligence, você precisará habilitar as configurações do Defender para Ponto de Extremidade no painel Segurança & Conformidade. Para obter mais informações, consulte [Investigação e resposta contra ameaças.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
 
-## <a name="microsoft-threat-experts"></a>Especialistas em ameaças da Microsoft
+## <a name="microsoft-threat-experts"></a>Especialistas em Ameaças da Microsoft
 
 Dos dois componentes do Microsoft Threat Expert, a notificação de ataque direcionada está em disponibilidade geral. A funcionalidade especialistas sob demanda ainda está em visualização. Você só poderá usar o recurso especialistas sob demanda se tiver se aplicado à visualização e seu aplicativo tiver sido aprovado. Você pode receber notificações de ataque direcionadas dos Especialistas em Ameaças da Microsoft por meio do painel de alertas do portal do Defender para Pontos de Extremidade e por email se você configurá-lo.
 

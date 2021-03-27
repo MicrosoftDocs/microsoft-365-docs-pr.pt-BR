@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de extensão de kernel no Microsoft Defender ATP para Mac
-description: Solucionar problemas relacionados a extensões de kernel no Microsoft Defender ATP para Mac.
+title: Solucionar problemas de extensão de kernel no Microsoft Defender para Ponto de Extremidade para Mac
+description: Solucionar problemas relacionados a extensões de kernel no Microsoft Defender para Endpoint para Mac.
 keywords: microsoft, defender, atp, mac, kernel, extension
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bdd5c6309a19863339b00e846c1c2670fc4f261b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 877cc619d3ba048cdf6ecc8149f073461d9eac8e
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187596"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379497"
 ---
 # <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-for-mac"></a>Solucionar problemas de extensão de kernel no Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -44,7 +44,7 @@ A partir do macOS High Sierra (10.13), o macOS exige que todas as extensões de 
 
 Se você não aprovou a extensão do kernel durante a implantação/instalação do Microsoft Defender para Ponto de Extremidade para Mac, o aplicativo exibirá uma faixa solicitando que você habilita-lo:
 
-   ![Captura de tela desabilitada de RTP](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-32-main-app-fix)
+   ![Captura de tela desabilitada de RTP](images/mdatp-32-main-app-fix.png)
 
 Você também pode executar ```mdatp health``` . Ele relata se a proteção em tempo real está habilitada, mas não está disponível. Isso indica que a extensão do kernel não foi aprovada para ser executado em seu dispositivo.
 
@@ -73,7 +73,7 @@ Se menos de 30 minutos se passaram desde que o produto foi instalado, navegue at
 
 Se você não vir esse prompt, isso significa que 30 ou mais minutos passaram e a extensão do kernel ainda não foi aprovada para ser executado em seu dispositivo:
 
-![Janela de segurança e privacidade após a captura de tela expirada do prompt](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-33-securityprivacysettings-noprompt)
+![Janela de segurança e privacidade após a captura de tela expirada do prompt](images/mdatp-33-securityprivacysettings-noprompt.png)
 
 Nesse caso, você precisa executar as etapas a seguir para disparar o fluxo de aprovação novamente.
 

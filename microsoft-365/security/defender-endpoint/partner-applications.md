@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79db436c2017c00e1b5d669797c5fb025f651a8a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 563dd2a5102ec66a1e953ae6ab30d56ea4f99036
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186228"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382921"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>Aplicativos parceiros no Microsoft Defender para Ponto de Extremidade 
 
@@ -98,6 +98,7 @@ Logotipo |Nome do parceiro   | Descrição
 ![Imagem do logotipo do Gerenciador de Políticas aruba ClearPass](images/aruba-logo.png) | [Aruba ClearPass Policy Manager](https://go.microsoft.com/fwlink/?linkid=2127544) | Verifique se o Defender para Ponto de Extremidade está instalado e atualizado em cada ponto de extremidade antes de permitir o acesso à rede
 ![Imagem do hexagonal azul para o logotipo da rede](images/bluehexagon-logo.png) | [Hexagonal Azul para Rede](https://go.microsoft.com/fwlink/?linkid=2104613) | O Hexagon Azul criou a primeira plataforma de aprendizado profundo em tempo real do setor para proteção contra ameaças de rede
 ![Imagem do logotipo CyberMDX](images/cybermdx-logo.png) | [CyberMDX](https://go.microsoft.com/fwlink/?linkid=2135620) | O Cyber MDX integra visibilidade, prevenção e repouso de ativos de saúde abrangentes ao seu ambiente do Defender para Ponto de Extremidade
+![Imagem do logotipo HYAS Protect](images/hyas-logo.png) | [HYAS Protect](https://go.microsoft.com/fwlink/?linkid=2156763) | O HYAS Protect utiliza o conhecimento autoritativo da infraestrutura de invasores para proteger proativamente o Microsoft Defender para pontos de extremidade do Ponto de Extremidade contra ataques cibernéticos
 ![Imagem do logotipo de Detecção e Resposta de Rede vectra (NDR)](images/vectra-logo.png) |[Detecção e resposta de rede do Vectra (NDR)](https://go.microsoft.com/fwlink/?linkid=866934)| O Vectra aplica AI & pesquisa de segurança para detectar e responder a ataques cibernéticos em tempo real
 
 

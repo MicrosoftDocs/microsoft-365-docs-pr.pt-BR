@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de desempenho do Microsoft Defender ATP para Mac
-description: Solucionar problemas de desempenho no Microsoft Defender ATP para Mac.
+title: Solucionar problemas de desempenho do Microsoft Defender para Ponto de Extremidade para Mac
+description: Solucionar problemas de desempenho no Microsoft Defender para Ponto de Extremidade para Mac.
 keywords: microsoft, defender, atp, mac, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f6dd5681dfafd069a4c52f72e1dc1733584283a2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 87190d9e0bb62d42642374bd7c9f6f3acad3c80a
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185904"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379377"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Solucionar problemas de desempenho do Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -42,7 +42,7 @@ Este tópico fornece algumas etapas gerais que podem ser usadas para reduzir os 
 
 A proteção em tempo real (RTP) é um recurso do Microsoft Defender para Ponto de Extremidade para Mac que monitora e protege continuamente seu dispositivo contra ameaças. Ele consiste no monitoramento de arquivos e processos e outras heurísticas.
 
-Dependendo dos aplicativos que você está executando e suas características de dispositivo, você pode ter um desempenho suboptimal ao executar o Microsoft Defender para Ponto de Extremidade para Mac. Em particular, aplicativos ou processos do sistema que acessam muitos recursos em um curto período de tempo podem levar a problemas de desempenho no Microsoft Defender para Ponto de Extremidade para Mac.
+Dependendo dos aplicativos que você está executando e das características do dispositivo, você pode ter um desempenho suboptimal ao executar o Microsoft Defender para Ponto de Extremidade para Mac. Em particular, aplicativos ou processos do sistema que acessam muitos recursos em um curto período de tempo podem levar a problemas de desempenho no Microsoft Defender para Ponto de Extremidade para Mac.
 
 As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses problemas:
 
@@ -52,7 +52,7 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
 
     - Na interface do usuário. Abra o Microsoft Defender para Ponto de Extremidade para Mac e navegue até **Gerenciar configurações**.
 
-      ![Gerenciar captura de tela de proteção em tempo real](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-36-rtp)
+      ![Gerenciar captura de tela de proteção em tempo real](images/mdatp-36-rtp.png)
 
     - Do Terminal. Para fins de segurança, essa operação requer elevação.
 

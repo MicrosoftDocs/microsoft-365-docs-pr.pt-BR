@@ -1,6 +1,6 @@
 ---
-title: Implantação manual do Microsoft Defender ATP para macOS
-description: Instale o Microsoft Defender ATP para macOS manualmente, na linha de comando.
+title: Implantação manual do Microsoft Defender para Ponto de Extremidade para macOS
+description: Instale o Microsoft Defender para Ponto de Extremidade para macOS manualmente, na linha de comando.
 keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2629eb3d13e6eb908644dfcade46a7ac2768637
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 044a3d48dc350a5663a27ab3c16c2da7a5e3f3f1
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187440"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379409"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Implantação manual do Microsoft Defender para Ponto de Extremidade para macOS
 
@@ -64,20 +64,20 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
 
 1. Navegue até o wdav.pkg baixado no Finder e abra-o.
 
-    ![Captura de tela de instalação do aplicativo1](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-28-appinstall)
+    ![Captura de tela de instalação do aplicativo1](images/mdatp-28-appinstall.png)
 
 2. Selecione **Continuar**, concordar com os termos de Licença e insira a senha quando solicitado.
 
-    ![Captura de tela de instalação do aplicativo2](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-29-appinstalllogin)
+    ![Captura de tela de instalação do aplicativo2](images/mdatp-29-appinstalllogin.png)
 
    > [!IMPORTANT]
    > Você será solicitado a permitir que um driver da Microsoft seja instalado ("Bloqueio de Extensão do Sistema" ou "Instalação está em espera" ou ambos. O driver deve ter permissão para ser instalado.
 
-   ![Captura de tela de instalação do aplicativo3](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-30-systemextension)
+   ![Captura de tela de instalação do aplicativo3](images/mdatp-30-systemextension.png)
 
 3. Selecione **Abrir Preferências de Segurança** ou Abrir **Preferências do Sistema > Segurança & Privacidade**. Selecione **Permitir**:
 
-    ![Captura de tela de janela de segurança e privacidade](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-31-securityprivacysettings)
+    ![Captura de tela de janela de segurança e privacidade](images/mdatp-31-securityprivacysettings.png)
 
    A instalação continua.
 
@@ -139,7 +139,7 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
 
 Após a instalação, você verá o ícone do Microsoft Defender na barra de status do macOS no canto superior direito.
 
-   ![Ícone do Microsoft Defender na captura de tela da barra de status](/windows/security/threat-protection/microsoft-defender-antivirus/images/mdatp-icon-bar)
+   ![Ícone do Microsoft Defender na captura de tela da barra de status](images/mdatp-icon-bar.png)
    
 
 ## <a name="how-to-allow-full-disk-access"></a>Como permitir o acesso total ao disco

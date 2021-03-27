@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7196053ffef3dffc3c737d0df26a5d12bdfe8a4c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: ab5400a197a1f0ac61c8b298a06165d217f44fd1
+ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187752"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51394729"
 ---
 # <a name="resources"></a>Recursos
 
@@ -105,6 +105,7 @@ A tabela a seguir lista comandos para alguns dos cenários mais comuns. Execute 
 |Grupo                 |Cenário                                                |Comando                                                                |
 |----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
 |Configuração         |Ativar/desativar a proteção em tempo real                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
+|Configuração         |Ativar/desativar o monitoramento de comportamento                         |`mdatp config behavior-monitoring --value [enabled\|disabled]` 
 |Configuração         |Ativar/desativar a proteção de nuvem                            |`mdatp config cloud --value [enabled\|disabled]`                       |
 |Configuração         |Ativar/desativar diagnósticos de produto                         |`mdatp config cloud-diagnostic --value [enabled\|disabled]`            |
 |Configuração         |Ativar/desativar envio automático de exemplo                 |`mdatp config cloud-automatic-sample-submission [enabled\|disabled]`   |
@@ -120,8 +121,8 @@ A tabela a seguir lista comandos para alguns dos cenários mais comuns. Execute 
 |Configuração         |Ativar a proteção pua                                  |`mdatp threat policy set --type potentially_unwanted_application --action block` |
 |Configuração         |Desativar a proteção PUA                                 |`mdatp threat policy set --type potentially_unwanted_application --action off` |
 |Configuração         |Ativar o modo de auditoria para proteção pua                   |`mdatp threat policy set --type potentially_unwanted_application --action audit` |
-|Diagnóstico           |Alterar o nível de log                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
-|Diagnóstico           |Gerar logs de diagnóstico                                |`mdatp diagnostic create --path [directory]`                           |
+|Diagnostics           |Alterar o nível de log                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
+|Diagnostics           |Gerar logs de diagnóstico                                |`mdatp diagnostic create --path [directory]`                           |
 |Integridade                |Verificar a saúde do produto                              |`mdatp health`                                                         |
 |Proteção            |Examinar um caminho                                             |`mdatp scan custom --path [path] [--ignore-exclusions]`                |
 |Proteção            |Fazer uma verificação rápida                                         |`mdatp scan quick`                                                     |

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 9699b5e2bc2e33b94795b7c23bd3f34f0383a8cc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 12a35a9f80da6b401495fcae7c245436b35b991c
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052550"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382884"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Criar e gerenciar regras de detecções personalizadas
 
@@ -116,12 +116,16 @@ Com a consulta no editor de consulta, selecione **Criar regra de** detecção e 
 - **Ações recomendadas**— ações adicionais que os respondentes podem tomar em resposta a um alerta
 
 #### <a name="rule-frequency"></a>Frequência de regra
-Quando você salva ou edita uma nova regra, ela é executado e verifica se há combinações dos últimos 30 dias de dados. Em seguida, a regra é executado novamente em intervalos fixos, aplicando uma duração de retorno com base na frequência escolhida:
+Quando você salva uma nova regra, ela é executado e verifica se há combinações dos últimos 30 dias de dados. Em seguida, a regra é executado novamente em intervalos fixos, aplicando uma duração de retorno com base na frequência escolhida:
 
 - **A cada 24 horas**— é executado a cada 24 horas, verificando dados dos últimos 30 dias
 - **A cada 12 horas**— é executado a cada 12 horas, verificando dados das últimas 24 horas
 - **A cada 3 horas**— é executado a cada 3 horas, verificando dados das últimas 6 horas
 - **A cada hora**— é executado por hora, verificando dados das últimas 2 horas
+
+Quando você editar uma regra, ela será executado com as alterações aplicadas no próximo tempo de executar agendado de acordo com a frequência definida.
+
+
 
 >[!TIP]
 > Match the time filters in your query with the lookback duration. Os resultados fora da duração do retorno de pesquisa são ignorados.  

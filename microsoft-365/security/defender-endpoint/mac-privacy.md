@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 83a56a74ff949b23843417942923d2b4b810b4ee
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1386809778edeb92521a8656e9ece78591a682a4
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185917"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382896"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Privacidade do Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -156,6 +156,18 @@ Os seguintes campos são coletados:
 | motivo           | Mensagem de erro se a atualização foi arquivada. |
 
 #### <a name="product-and-service-performance-data-events"></a>Eventos de dados de desempenho de produtos e serviços
+
+**Saída inesperada do aplicativo (falha)**
+
+Coleta informações do sistema e o estado de um aplicativo quando um aplicativo sai inesperadamente.
+
+Os seguintes campos são coletados:
+
+| Campo                          | Descrição |
+| ------------------------------ | ----------- |
+| v1_crash_count                 | Número de vezes que o processo do mecanismo V1 falha a cada hora na máquina cliente  |
+| v2_crash_count                 | Número de vezes que o processo do mecanismo V2 falha a cada hora na máquina cliente  |
+| EDR_crash_count                | Número de vezes que o processo EDR cai a cada hora no computador cliente        |
 
 **Estatísticas de extensão do kernel**
 

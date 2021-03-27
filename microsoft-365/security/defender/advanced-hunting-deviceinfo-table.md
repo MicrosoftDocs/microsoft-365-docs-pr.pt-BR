@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 46efb531331cf76472c67c769c96804d11fb9e4b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d56710f4933a8971230c78d7b3570f14b9bda335
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053215"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382620"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -55,10 +55,10 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `AadObjectId` | cadeia de caracteres | Identificador exclusivo do dispositivo no Azure AD |
 | `LoggedOnUsers` | cadeia de caracteres | Lista de todos os usuários que estão conectados no computador no momento do evento no formato de matriz JSON |
 | `RegistryDeviceTag` | cadeia de caracteres | Marca de máquina adicionada por meio do Registro |
-| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
-|`AdditionalFields` | cadeia de caracteres | Informações adicionais sobre o evento no formato de matriz JSON |
 | `OSVersion` | string | Versão do sistema operacional em execução no computador. |
 | `MachineGroup` | string | Grupo de máquinas do computador. Esse grupo é usado pelo controle de acesso baseado em função para determinar o acesso ao computador |
+| `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
+|`AdditionalFields` | cadeia de caracteres | Informações adicionais sobre o evento no formato de matriz JSON |
 
 A `DeviceInfo` tabela fornece informações do dispositivo com base em pulsações, que são relatórios periódicos ou sinais de um dispositivo. A cada quinze minutos, o dispositivo envia uma pulsação parcial que contém atributos que mudam com frequência, como `LoggedOnUsers` . Uma vez por dia, uma pulsação completa que contém os atributos do dispositivo é enviada.
 

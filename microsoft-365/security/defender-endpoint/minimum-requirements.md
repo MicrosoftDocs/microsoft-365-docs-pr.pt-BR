@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c6afa48fcee80c0b8fb7ed0563264932566b6321
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6a8e1091490cb9f3fe1eedadec0b76a56ada936e
+ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185786"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51379485"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Requisitos mínimos para o Microsoft Defender para Ponto de Extremidade
 
@@ -31,12 +31,10 @@ ms.locfileid: "51185786"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
+> Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink)
 
 
 Há alguns requisitos mínimos para a integração de dispositivos ao serviço. Saiba mais sobre os requisitos de licenciamento, hardware e software e outras configurações para os dispositivos de integração ao serviço.
-
-> Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-minreqs-abovefoldlink).
 
 > [!TIP]
 > - Saiba mais sobre os aprimoramentos mais recentes no Defender for Endpoint: [Defender for Endpoint Tech Community](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced).
@@ -80,7 +78,6 @@ Para uma tabela de comparação detalhada da comparação de edição comercial 
 O acesso ao Defender para Ponto de Extremidade é feito por meio de um navegador, suportando os seguintes navegadores:
 
 - Microsoft Edge
-- Internet Explorer versão 11
 - Google Chrome
 
 > [!NOTE]
@@ -112,7 +109,7 @@ Os dispositivos em sua rede devem estar executando uma dessas edições.
 Os requisitos de hardware para o Defender para Ponto de Extremidade em dispositivos são os mesmos para as edições com suporte.
 
 > [!NOTE]
-> Computadores que executam versões móveis do Windows (como Windows CE e Windows 10 Mobile) não são suportados.
+> Não há suporte para computadores que executam versões móveis do Windows (como Windows CE e Windows 10 Mobile).
 >
 > Máquinas virtuais que executam o Windows 10 Enterprise 2016 LTSB podem encontrar problemas de desempenho se executados em plataformas de virtualização que não são da Microsoft.
 >
@@ -121,11 +118,12 @@ Os requisitos de hardware para o Defender para Ponto de Extremidade em dispositi
 
 ### <a name="other-supported-operating-systems"></a>Outros sistemas operacionais com suporte
 - Android
+- iOS
 - Linux
 - macOS
 
 > [!NOTE]
-> Você precisará saber as distribuições e versões exatas do Linux do Android e macOS compatíveis com o Defender para o Ponto de Extremidade para que a integração funcione.
+> Você precisará confirmar as distribuições e versões do Linux do Android, iOS e macOS que você é compatível com o Defender para o Ponto de Extremidade para que a integração funcione.
 
 
 
@@ -164,7 +162,7 @@ Use a linha de comando para verificar o tipo de inicialização do serviço de d
    ![Resultado do comando de consulta sc para diagtrack](images/windefatp-sc-qc-diagtrack.png)
 
 
-Você precisará definir o serviço para iniciar automaticamente se **o** START_TYPE não estiver definido como **AUTO_START**.
+Você precisará definir o serviço para iniciar automaticamente se o START_TYPE **não** estiver definido como **AUTO_START**.
 
 
 **Use a linha de comando para definir o serviço de dados de diagnóstico do Windows 10 para iniciar automaticamente:**
@@ -191,7 +189,7 @@ Você precisará definir o serviço para iniciar automaticamente se **o** START_
 #### <a name="internet-connectivity"></a>Conectividade com a Internet
 A conectividade com a Internet em dispositivos é necessária diretamente ou por proxy.
 
-O sensor Defender para Ponto de Extremidade pode utilizar uma largura de banda média diária de 5 MB para se comunicar com o serviço de nuvem do Defender para Ponto de Extremidade e relatar dados cibernéticos. Atividades exclusivas, como carregamentos de arquivos e conjunto de pacotes de investigação, não estão incluídas nesta largura de banda média diária.
+O sensor Defender para Ponto de Extremidade pode usar uma largura de banda média diária de 5 MB para se comunicar com o serviço de nuvem do Defender para Ponto de Extremidade e relatar dados cibernéticos. Atividades exclusivas, como carregamentos de arquivos e conjunto de pacotes de investigação, não são incluídas nesta largura de banda média diária.
 
 Para obter mais informações sobre configurações de proxy adicionais, consulte [Configure device proxy and Internet connectivity settings](configure-proxy-internet.md).
 

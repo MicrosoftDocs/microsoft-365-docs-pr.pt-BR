@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: fc4c15d2e391176ed0b4420c13fb865674da0361
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 48b1f1bf9506acc8491887fca49295d5e4ccbd69
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163582"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51382704"
 ---
 # <a name="create-custom-detection-rules"></a>Criar regras de detecção personalizadas
 
@@ -98,8 +98,8 @@ Quando salva, uma nova regra de detecção personalizada é imediatamente execut
 - **A cada 3 horas**— é executado a cada 3 horas, verificando dados das últimas 6 horas
 - **A cada hora**— é executado por hora, verificando dados das últimas 2 horas
 
-> [!IMPORTANT]
-> Ao alterar uma consulta que já está agendada como Detecção Personalizada, a próxima execução imediata terá uma janela de retorno de 30 dias, exatamente como se uma nova consulta estivesse sendo criada. Alterações em um grande número de consultas, e com filtros de tempo superiores à duração de retorno padrão para a frequência selecionada, podem ter um impacto no consumo de cota geral da Busca Avançada e resultando no esgotamento da cota diária.
+Quando você editar uma regra, ela será executado com as alterações aplicadas no próximo tempo de executar agendado de acordo com a frequência definida.
+
 
 > [!TIP]
 > Match the time filters in your query with the lookback duration. Os resultados fora da duração do retorno de pesquisa são ignorados.
