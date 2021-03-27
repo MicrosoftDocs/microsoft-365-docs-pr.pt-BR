@@ -382,6 +382,6 @@
     - name: Segurança do Microsoft 365
       href: ../index.yml
     - name: Microsoft 365 Defender
-      href: ../defender/index.yml
+      href: ../index.yml
     - name: Microsoft Defender para Ponto de Extremidade
       href: ../defender-endpoint/index.yml
