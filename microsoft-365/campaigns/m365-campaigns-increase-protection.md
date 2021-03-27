@@ -2,10 +2,10 @@
 title: Aumente a proteção contra ameaças
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: Skjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Obter ajuda para aumentar o nível de proteção no Microsoft 365
-ms.openlocfilehash: 61ac32d3debe391794e85df8c129e5df72887e9e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: a1f4714d5b7dcd8d6a22a07c118055e13b27e069
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198370"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398272"
 ---
 # <a name="increase-threat-protection-for-microsoft-365-subscription"></a>Aumentar a proteção contra ameaças para a assinatura do Microsoft 365
 
@@ -82,7 +82,7 @@ Para criar uma regra de transporte de email:
 
 6. Clique em **Salvar**.
 
-|Configuração|Avisar os usuários antes de abrir anexos de arquivos do Office|
+|Setting|Avisar os usuários antes de abrir anexos de arquivos do Office|
 |---|---|
 |Nome|Regra anti-ransomware: avisar os usuários|
 |Aplicar essa regra se . . .|Qualquer anexo . . . extensão de arquivo corresponde . . .|
@@ -114,7 +114,7 @@ Para criar uma regra de transporte de email, assista [a este vídeo curto](https
 
 6. Clique em **Salvar**.
 
-|Configuração|Avisar os usuários antes de abrir anexos de arquivos do Office|
+|Setting|Avisar os usuários antes de abrir anexos de arquivos do Office|
 |---|---|
 |Nome|Impedir o encaminhamento automático de emails para domínios externos|
 |Aplicar essa regra se ...|O remetente . . . é externo/interno . . . Dentro da organização|

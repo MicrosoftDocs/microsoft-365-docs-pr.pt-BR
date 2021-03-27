@@ -2,10 +2,10 @@
 title: Proteger suas contas de administrador
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como configurar e proteger suas contas de administrador.
-ms.openlocfilehash: ec5b971ba4f1fdc8834e10ddf90ff219f763f805
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0d687407fad1cec5da49dbc33ffeb84366f1c309
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912169"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398236"
 ---
 # <a name="protect-your-administrator-accounts"></a>Proteger suas contas de administrador
 
@@ -76,12 +76,11 @@ Para criar uma nova conta de usuário:
 3. Expanda **a seção Funções** e escolha Usuário **(sem acesso administrativo)**.
 4. Na seção **Licenças de produto,** mova o seletor do **Microsoft 365 Business** para **On**.
 
-## <a name="register-each-of-these-accounts-for-multi-factor-authentication"></a>Registrar cada uma dessas contas para autenticação multifafação
+## <a name="turn-on-security-defaults"></a>Ativar padrões de segurança
 
-Certifique-se de que essas contas estão usando [a autenticação multifator](m365-campaigns-multifactor-authenication.md).
+Os padrões de segurança ajudam a proteger sua organização contra ataques relacionados à identidade fornecendo configurações de segurança pré-configuradas que a Microsoft gerencia em nome da sua organização. Essas configurações incluem a habilitação da autenticação multifafação (MFA) para todos os administradores e contas de usuário. Para obter mais informações sobre os padrões de segurança e saber como habilita-los, consulte [Ativar padrões de segurança](m365-campaigns-conditional-access.md).
 
 ## <a name="additional-recommendations"></a>Recomendações adicionais
 
-- Certifique-se de que as contas de administrador também estão configuradas para autenticação multifaiona. Mostraremos como fazer isso em Configurar políticas de acesso [condicional.](m365-campaigns-conditional-access.md)
 - Antes de usar contas de administrador, feche todas as sessões e aplicativos do navegador não relacionados, incluindo contas de email pessoais. Você também pode usar em janelas de navegador privadas ou anônimas.
 - Depois de concluir tarefas de administrador, certifique-se de sair da sessão do navegador.

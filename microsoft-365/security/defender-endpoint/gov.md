@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 089614fab57950af5f60181ce7ed2116046ad347
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 320913058f1d3cab36b3a279996443c2e4ef117f
+ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379365"
+ms.locfileid: "51382908"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender for Endpoint para clientes do Governo dos EUA
 
@@ -100,7 +100,7 @@ iOS | ![Não](images/svg/check-no.svg) No backlog de engenharia | ![Não](images
 > Tentar a integração de dispositivos Windows mais antigos do que o Windows 10 ou o Windows Server 2019 usando [o Microsoft Monitoring Agent](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma)? Você precisará escolher "Azure US Government" em "Nuvem do Azure" se [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) estiver usando o assistente de instalação [ou](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)se estiver usando uma linha de comando ou um [script,](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) de definir o parâmetro "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" como 1.
 
 > [!NOTE]
-> Você precisará da versão 101.25.72 e superior para Linux e versão 101.25.69 e superior para macOS. Enquanto estamos na visualização, essas versões só podem ser aproveitadas no canal "Insider Fast". Consulte [Configure the Linux software repository](linux-install-manually.md#configure-the-linux-software-repository) or Set the channel name [(macOS)](mac-updates.md#set-the-channel-name) for instructions.
+> Você precisará da versão 101.25.72 e superior para Linux e versão 101.25.69 e superior para macOS. Durante a visualização, essas versões só podem ser aproveitadas no canal "Insider Fast". Consulte [Configure the Linux software repository](linux-install-manually.md#configure-the-linux-software-repository) or Set the channel name [(macOS)](mac-updates.md#set-the-channel-name) for instructions.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>Versões do sistema operacional ao usar o Azure Defender para Servidores
 As seguintes versões do sistema operacional são suportadas ao usar [o Azure Defender para Servidores](https://docs.microsoft.com/azure/security-center/security-center-wdatp):
@@ -168,7 +168,7 @@ Investigação e correção automatizadas: resposta aos alertas do Office 365 | 
 Notificações por e-mail | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Laboratório de avaliação | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Gerenciamento e APIs: Relatório de conformidade e saúde do dispositivo | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
-Gerenciamento e APIs: integração com produtos de terceiros | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação | ![Não](images/svg/check-no.svg) Em implantação
+Gerenciamento e APIs: integração com produtos de terceiros | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Gerenciamento e APIs: API de streaming | ![Sim](images/svg/check-yes.svg) | ![Não](images/svg/check-no.svg) No desenvolvimento | ![Não](images/svg/check-no.svg) No desenvolvimento
 Gerenciamento e APIs: Relatório de proteção contra ameaças | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)
 Gerenciamento de ameaças e vulnerabilidades | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg) | ![Sim](images/svg/check-yes.svg)

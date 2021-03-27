@@ -5,42 +5,35 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_TOC
-- commerce
 ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
+- okr_smb
+- commerce
 search.appverid:
 - MET150
 description: Saiba como desaignar licenças de contas de usuário.
 ms.date: 07/01/2020
-ms.openlocfilehash: 858daaf0069ecba3e6ff65ce957462764b45c22c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 550136c2cfa8d81a31e52a4313dc9c967a55d56e
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915189"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398188"
 ---
 # <a name="unassign-licenses-from-users"></a>Cancelar a atribuição de licenças de usuários
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 Você pode desasignar licenças  de usuários na página Usuários ativos ou na página **Licenças.** O método usado depende se você deseja desasincar licenças de produtos de usuários específicos ou desasincar licenças de usuários de um produto específico.
 
-::: moniker-end
+> [!NOTE]
+> Como administrador, você não pode atribuir ou desatribuição de licenças para uma assinatura de compra de autoatendados comprada por um usuário em sua organização. Você pode assumir uma assinatura de compra [autoatendente](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription)e, em seguida, atribuir ou desatribuição de licenças.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -48,21 +41,31 @@ Você pode desasignar licenças  de usuários na página Usuários ativos ou na 
 - Você pode [remover licenças a contas de usuário com o Office 365 PowerShell](../../enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell.md).
 - Você também pode [excluir contas de usuário](../add-users/delete-a-user.md) que foram atribuídas a uma licença para disponibilizar sua licença para outros usuários. Quando você exclui uma conta de usuário, sua licença está disponível imediatamente para atribuir a outra pessoa.
 
-::: moniker range="o365-worldwide"
-
 ## <a name="use-the-licenses-page-to-unassign-licenses"></a>Usar a página Licenças para desasincar licenças
 
 Quando você usa a página **Licenças** para desasincar licenças, desaigna licenças para um produto específico para até 20 usuários.
 
+::: moniker range="o365-worldwide"
+
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página  > **Licenças de** Cobrança.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página  > **Licenças de** Cobrança.
+
+::: moniker-end
+
 2. Selecione o produto para o qual você deseja desasincar licenças.
 3. Selecione os usuários para os quais você deseja desasincar licenças.
 4. Selecione **Unassign licenses**.
 5. Na caixa **Licenças não assinadas,** selecione **Unassign**.
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
 
 ## <a name="use-the-active-users-page-to-unassign-licenses"></a>Usar a página Usuários ativos para desasinalhar licenças
 
@@ -70,71 +73,52 @@ Quando você usa a **página Usuários ativos** para desaignar licenças, você 
 
 ### <a name="unassign-licenses-from-one-user"></a>Unassign licenses from one user
   
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+::: moniker range="o365-worldwide"
+
+1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página **Cobrança** > **de usuários ativos.**
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página **Cobrança** > **de usuários ativos.**
+
+::: moniker-end
+
 2. Selecione a linha do usuário para o que você deseja desaignar uma licença.
 3. No painel direito, selecione **Licenças e Aplicativos**.
 4. Expanda **a seção Licenças,** limpe as caixas das licenças que você deseja desasinalhar e selecione **Salvar alterações**.
 
+###  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
+
+::: moniker range="o365-worldwide"
+
+1. No centro de administração, vá para a página **Usuários** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-## <a name="unassign-licenses-from-one-user"></a>Unassign licenses from one user
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
-2. Escolha o usuário para o que você deseja desaignar a licença.
-3. À direita, na linha **Licenças do** produto, selecione **Editar**.
-4. No painel **Licenças de** produto, alterne  a alternância para a posição Off da licença que você deseja desasinchar para o usuário. Por exemplo, se você desligar a licença do Office 365 Enterprise E3, ela desaigna essa licença e todos os serviços sob essa licença para esse usuário.
-5. Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">de administração,</a>vá para a página **Cobrança** > **de usuários ativos.**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-## <a name="unassign-licenses-from-one-user"></a>Unassign licenses from one user
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
-2. Escolha o usuário para o que você deseja desaignar a licença.
-3. À direita, na linha **Licenças do** produto, selecione **Editar**.
-4. No painel **Licenças de** produto, alterne  a alternância para a posição Off da licença que você deseja desasinchar para o usuário. Por exemplo, se você desligar a licença do Office 365 Enterprise E3, ela desaigna essa licença e todos os serviços sob essa licença para esse usuário.
-5. Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.
+1. No centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração,</a>vá para a página **Cobrança** > **de usuários ativos.**
 
 ::: moniker-end
 
-::: moniker range="o365-worldwide"
-###  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 2. Selecione os círculos ao lado dos nomes dos usuários para os que você deseja desasinalhar licenças.
 3. Na parte superior, selecione **mais opções (...)**, em seguida, selecione **Gerenciar licenças de produtos**.
 4. No painel **Gerenciar licenças de produtos**, selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.
 5. Na parte inferior do painel **Substituir produtos** existentes, marque a caixa de seleção Remover todas **as licenças** de produto da caixa de seleção Usuários e, em seguida, selecione **Substituir** \> **Fechar**.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-##  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
-2. Selecione as caixas ao lado dos nomes dos usuários para os que você deseja desaignar todas as licenças.
-3. No painel **Ações em massa**, escolha **Editar licenças de produto**.
-4. No painel **Substituir produtos existentes**, escolha **Substituir atribuições de licenças de produtos existentes** \> **Avançar**.
-5. Na parte inferior do painel Substituir **produtos** existentes, marque a caixa de seleção Remover todas as **licenças** de produto da caixa de seleção usuários e, em seguida, selecione **Substituir** \> **Fechar** \> **Fechar.**
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-##  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
-  
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
-2. Selecione as caixas ao lado dos nomes dos usuários para os que você deseja desaignar todas as licenças.
-3. No painel **Ações em massa**, escolha **Editar licenças de produto**.
-4. No painel **Substituir produtos existentes**, escolha **Substituir atribuições de licenças de produtos existentes** \> **Avançar**.
-5. Na parte inferior do painel Substituir **produtos** existentes, marque a caixa de seleção Remover todas as **licenças** de produto da caixa de seleção usuários e, em seguida, selecione **Substituir** \> **Fechar** \> **Fechar.**
-
-::: moniker-end
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>O que acontece com os dados de um usuário ao remover a licença?
 

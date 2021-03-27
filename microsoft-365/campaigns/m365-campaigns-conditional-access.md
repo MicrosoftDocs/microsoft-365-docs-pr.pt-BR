@@ -1,11 +1,11 @@
 ---
-title: Configurar políticas de acesso condicional
+title: Ativar padrões de segurança
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -23,62 +23,65 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Saiba como exigir MFA e configurar políticas de acesso condicional para o Microsoft 365 para empresas.
-ms.openlocfilehash: dcb79ed060dd15fd288cdcfb9e3739a788f5fbc2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Saiba como os padrões de segurança podem ajudar a proteger sua organização contra ataques relacionados à identidade fornecendo configurações de segurança pré-configuradas.
+ms.openlocfilehash: ea36ba45af26a767b08ee1e75931dca54dacea64
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912181"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398284"
 ---
-# <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Exigir autenticação multifacional e configurar políticas de acesso condicional
+# <a name="turn-on-security-defaults"></a>Ativar padrões de segurança
 
-Você protege o acesso aos seus dados com autenticação multifacional e políticas de acesso condicional. Eles adicionam segurança adicional substancial. A Microsoft fornece um conjunto de políticas de acesso condicional de linha de base recomendadas para todos os clientes. As políticas de linha de base são um conjunto de políticas predefinidas que ajudam a proteger as organizações contra muitos ataques comuns. Esses ataques comuns podem incluir spray de senha, repetição e phishing.
+Os padrões de segurança ajudam a proteger sua organização contra ataques relacionados à identidade fornecendo configurações de segurança pré-configuradas que a Microsoft gerencia em nome da sua organização. Essas configurações incluem a habilitação da autenticação multifafação (MFA) para todos os administradores e contas de usuário. Para a maioria das organizações, os padrões de segurança oferecem um bom nível de segurança de login adicional.
 
-Essas políticas exigem que os administradores e usuários insiram uma segunda forma de autenticação (chamada autenticação multifatória ou MFA) em determinadas condições. Por exemplo, se um usuário em sua organização tentar entrar no Microsoft 365 de um país diferente ou de um dispositivo desconhecido, a entrada pode ser considerada arriscada. O usuário deve fornecer uma forma extra de autenticação (como uma impressão digital ou um código) para provar sua identidade.
+Para obter mais informações sobre os padrões de segurança e as políticas que eles impõem, consulte [O que são padrões de segurança?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
-Atualmente, as políticas de linha de base incluem as seguintes políticas:
+Se sua assinatura foi criada em ou após 22 de outubro de 2019, os padrões de segurança podem ter sido habilitados automaticamente para você, você deve verificar suas configurações para &mdash; confirmar.
 
-- Configurar no Centro de administração do Microsoft 365:
-  - **Exigir MFA para administradores**: requer autenticação multifatória para as funções de administrador mais privilegiadas, incluindo o administrador global.
-  - **Proteção do usuário final**: requer autenticação multifafa para os usuários somente quando uma login é arriscada. 
-- Configurar no portal do Azure Active Directory:
-  - **Bloquear autenticação herdada**: aplicativos cliente mais antigos e alguns novos aplicativos não usam protocolos de autenticação mais novos, mais seguros. Esses aplicativos mais antigos podem ignorar políticas de acesso condicional e obter acesso não autorizado ao seu ambiente. Essa política bloqueia o acesso de clientes que não suportam acesso condicional. 
-  - **Exigir MFA para Gerenciamento de Serviço**: requer autenticação multifacional para acesso a ferramentas de gerenciamento, incluindo o portal do Azure (onde você configura políticas de linha de base).
+Para habilitar os padrões de segurança no Azure Active Directory (Azure AD) ou para verificar se eles já estão habilitados:
 
-Recomendamos que você habilita todas essas políticas de linha de base. Depois que essas políticas são habilitadas, os administradores e os usuários serão solicitados a se registrarem para a Autenticação Multifator do Azure AD.
+1. Entre no Centro de administração do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365</a> com credenciais de administrador global.
 
-Para obter mais informações sobre essas políticas, consulte [O que são políticas de linha de base](/azure/active-directory/conditional-access/concept-baseline-protection)?
+2. No painel esquerdo, selecione **Mostrar Tudo e,** em Centros **de administração,** selecione **Azure Active Directory**.
 
-## <a name="require-mfa"></a>Exigir MFA
+3. No painel esquerdo do centro de administração do **Azure Active Directory,** selecione **Azure Active Directory**.
 
-Para exigir que todos os usuários entre com uma segunda forma de ID:
+4. No menu esquerdo do Painel, na seção **Gerenciar,** selecione **Propriedades**.
 
-1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> e escolha **Instalação**.
+    :::image type="content" source="../media/m365-campaigns-conditional-access/azure-ad-properties.png" alt-text="Captura de tela do centro de administração do Azure Active Directory mostrando o local do item de menu Propriedades.":::
 
-2. Na página Instalação, escolha **Exibir** no **cartão Tornar entrar mais** seguro.
+5. Na parte inferior da página **Propriedades,** selecione **Gerenciar padrões de segurança**.
 
-    ![Tornar o cartão de acesso mais seguro.](../media/setupmfa.png)
-3. Na página Tornar a conexão mais segura, escolha **Começar**.
-
-4. No painel Fortalecer a segurança de entrada, selecione  as caixas de seleção ao lado de Exigir autenticação multifator para administradores e Exigir que os usuários se registrem para autenticação multifator e bloqueiem o acesso se o risco for **detectado**.
-    Certifique-se de excluir a [conta de](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) administrador de emergência ou "quebra de vidro" do requisito MFA na caixa **Encontrar usuários.**
-
-    ![Fortalecer a página de segurança de canto.](../media/requiremfa.png)
-
-5. Escolha **Criar política** na parte inferior da página.
-
-## <a name="set-up-baseline-policies"></a>Configurar políticas de linha de base
-
-1. Vá para o [portal do Azure](https://portal.azure.com)e navegue até Acesso Condicional de Segurança do **Azure Active Directory** para criar uma nova \>  \>  **política.**
-
-Consulte as seguintes instruções específicas para cada política: <br>
-    - [Exigir MFA para administradores](/azure/active-directory/conditional-access/howto-baseline-protect-administrators) <br>
-    - [Exigir MFA para usuários](/azure/active-directory/conditional-access/howto-baseline-protect-end-users) <br>
-    - [Bloquear autenticação herdda](/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth) <br>
-    - [Exigir MFA para gerenciamento de serviço](/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+6. No painel direito, você verá a configuração **Habilitar padrões de** segurança. Se **Sim** estiver selecionado, os padrões de segurança já estão habilitados e nenhuma ação é necessária. Se os padrões de segurança não estão habilitados no momento, selecione **Sim** para habilita-los e selecione **Salvar**.
 
 > [!NOTE]
-> Políticas de visualização não existem mais e os usuários precisarão criar suas próprias políticas.
+> Se você estiver usando políticas de Acesso Condicional, precisará afuní-las antes de usar os padrões de segurança.
+>
+> Você pode usar os padrões de segurança ou políticas de Acesso Condicional, mas não pode usar ambos ao mesmo tempo.
 
-Você pode configurar políticas extras, como exigir aplicativos cliente aprovados. Para obter mais informações, consulte [a documentação do Acesso Condicional](/azure/active-directory/conditional-access/).
+## <a name="consider-using-conditional-access"></a>Considere usar o Acesso Condicional
+
+Se sua organização tiver requisitos complexos de segurança ou precisar de controle mais granular sobre suas políticas de segurança, considere usar o Acesso Condicional em vez de padrões de segurança para obter uma postura de segurança semelhante ou superior. 
+
+O Acesso Condicional permite criar e definir políticas que reagem a eventos de entrada e solicitam ações adicionais antes que um usuário tenha acesso a um aplicativo ou serviço. As políticas de Acesso Condicional podem ser granulares e específicas, capacitando os usuários a serem produtivos sempre e sempre, mas também protegendo sua organização.
+
+Os padrões de segurança estão disponíveis para todos os clientes, enquanto o Acesso Condicional requer uma licença para um dos seguintes planos:
+
+- Azure Active Directory Premium P1 ou P2
+- Microsoft 365 Business Premium
+- Microsoft 365 E3 ou E5
+- Enterprise Mobility & Segurança E3 ou E5
+
+Se você quiser usar o Acesso Condicional para configurar políticas equivalentes às habilitadas por padrões de segurança, confira os seguintes guias passo a passo:
+
+- [Exigir MFA para administradores](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
+- [Exigir MFA para gerenciamento do Azure](/azure/active-directory/conditional-access/howto-conditional-access-policy-azure-management)
+- [Bloquear autenticação herdda](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+- [Exigir MFA para todos os usuários](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+- [Exigir o registro MFA do Azure AD](/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy) - Requer a Proteção de Identidade do Azure AD, que faz parte do Azure Active Directory Premium P2
+
+Para saber mais sobre o Acesso Condicional, consulte [O que é o Acesso Condicional?](/azure/active-directory/conditional-access/overview) Para obter mais informações sobre como criar políticas de Acesso Condicional, consulte [Create a Conditional Access policy](/azure/active-directory/authentication/tutorial-enable-azure-mfa#create-a-conditional-access-policy).
+
+> [!NOTE]
+> Se você tiver um plano ou licença que fornece Acesso Condicional, mas ainda não criou nenhuma política de Acesso Condicional, você pode usar os padrões de segurança. No entanto, você precisará desativar os padrões de segurança antes de poder usar as políticas de Acesso Condicional.

@@ -2,10 +2,10 @@
 title: Configurar a autenticação multifator
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: SKjerland
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -23,22 +23,22 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Configurar a autenticação multifator.
-ms.openlocfilehash: 35f96bc41eba9a903bdb3d377a523e2b82e8c428
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+description: Configurar autenticação multifator.
+ms.openlocfilehash: 2a0c8b8fb8451d3d8868c493ad5e1f65adc30b6c
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044427"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398200"
 ---
 # <a name="set-up-multifactor-authentication"></a>Configurar a autenticação multifator
 
-A autenticação multifatare oferece mais segurança para sua empresa. Depois que o administrador exigir que você use a MFA, você poderá configurar o aplicativo Microsoft Authenticator para permitir que você faça logon nos principais aplicativos com segurança com seu telefone. 
+A autenticação multifafação oferece mais segurança para sua empresa. Depois que o administrador exigir que você use o MFA, você pode configurar o aplicativo Microsoft Authenticator para permitir que você faça logon em aplicativos importantes com segurança com seu telefone. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR]
 
-Veja mais em [Configurar a autenticação multifator no Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
+Consulte mais em [Configurar autenticação multifator no Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
 
-## <a name="use-the-outlook-app-in-your-devices"></a>Usar o aplicativo Outlook em seus dispositivos
+## <a name="use-the-outlook-app-in-your-devices"></a>Usar o aplicativo do Outlook em seus dispositivos
 
-Depois que o administrador exigir que você use a MFA e você configurar um aplicativo autenticador como uma segunda forma de autenticação, recomendamos que você instale e use apenas o aplicativo Outlook para acessar seu email do Microsoft 365. Confira [Configurar dispositivos móveis para](../business/set-up-mobile-devices.md) saber como instalar aplicativos do Office, incluindo o Outlook, em seu telefone.
+Depois que o administrador exigir que você use o MFA e você configurar um aplicativo autenticador como uma segunda forma de autenticação, recomendamos que você instale e use apenas o aplicativo do Outlook para acessar seu email do Microsoft 365. Consulte [Configurar dispositivos móveis para](../business/set-up-mobile-devices.md) saber como instalar aplicativos do Office, incluindo o Outlook, em seu telefone.
