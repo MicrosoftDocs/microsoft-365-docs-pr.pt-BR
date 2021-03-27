@@ -5,45 +5,36 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_TOC
-- commerce
 ms.custom:
+- AdminSurgePortfolio
 - TopSMBIssues
 - SaRA
 - okr_SMB
-- AdminSurgePortfolio
 - manage_licenses
+- commerce
 search.appverid:
 - MET150
 description: Aprenda a atribuir licenças aos usuários.
-ms.date: 08/14/2020
-ms.openlocfilehash: 9f044f29cabf4976d5fbf17b22777da62e4414c5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3622be180ae622d5d08066cc03773a8175fe9342
+ms.sourcegitcommit: c5d1528559953c6db7dca1d5cb453e0aa3215f02
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915489"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51398152"
 ---
 # <a name="assign-licenses-to-users"></a>Atribuir licenças aos usuários
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-
-::: moniker range="o365-worldwide"
-
 Você pode atribuir licenças a usuários na página **Usuários ativos** ou na página **Licenças**. O método usado depende de você querer atribuir licenças do produto a usuários específicos ou atribuir licenças de usuários a um produto específico.
 
-::: moniker-end
+> [!NOTE]
+> Como administrador, você não pode atribuir ou cancelar a atribuição de licenças para uma assinatura de compra de autoatendimento comprada por um usuário em sua organização. Você pode [assumir uma assinatura de compra de autoatendimento](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription), e, em seguida, atribuir ou cancelar a atribuição de licenças.
 
 [Aprenda como adicionar um usuário e atribuir uma licença ao mesmo tempo](../add-users/add-users.md).
 
@@ -54,31 +45,58 @@ Você pode atribuir licenças a usuários na página **Usuários ativos** ou na 
 - Para obter mais instruções do licenciamento baseado em grupo, consulte [Atribuir licenças a usuários por membro de grupo no Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 - Alguns serviços, como o Sway, são atribuídos automaticamente aos usuários e não precisam ser atribuídos individualmente.
 
-::: moniker range="o365-worldwide"
-
 ## <a name="use-the-licenses-page-to-assign-licenses-to-users"></a>Use a página Licenças para atribuir licenças aos usuários
 
 Ao usar a página **Licenças** para atribuir licenças, você atribui licenças de um produto específico para até 20 usuários. Na página **Licenças**, você verá uma lista de todos os produtos que você possui assinaturas. Você também verá o número total de licenças de cada produto, quantas licenças são atribuídas e quantas estão disponíveis.
 
+::: moniker range="o365-worldwide"
+
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
+
+::: moniker-end
+
 2. Selecione um produto.
 3. Na página de detalhes do produto, selecione **Atribuir licenças**.
 4. No painel **Atribuir licenças a usuários**, comece a digitar um nome e, em seguida, selecione-o nos resultados para adicioná-lo à lista. É possível selecionar até 20 usuários de cada vez.
-5. Selecione **Ativar ou desativar os aplicativos e serviços** para atribuir ou remover o acesso a itens específicos.
+4. Selecione **Ativar ou desativar os aplicativos e serviços** para atribuir ou remover o acesso a itens específicos.
 6. Quando tiver terminado, clique em **Atribuir** e depois em **Fechar**.
 
 Se houver um conflito, será exibida uma mensagem informando qual é o problema e como corrigi-lo. Por exemplo, se você selecionou licenças que contêm serviços conflitantes, a mensagem de erro indicará revisar os serviços incluídos em cada licença e tentar novamente.
 
 ## <a name="change-the-apps-and-services-a-user-has-access-to"></a>Para alterar os aplicativos e serviços que o usuário tem acesso:
 
+::: moniker range="o365-worldwide"
+
 1. No centro de administração, acesse a página **Cobrança** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a>.
-2. Na página **Licenças**, selecione a linha de um usuário específico.
-3. No painel direito, marque ou desmarque os aplicativos e serviços aos quais você deseja conceder acesso ou remover o acesso.
-4. Quando tiver terminado, selecione **Salvar**, e então selecione **Fechar**.
 
 ::: moniker-end
 
-::: moniker range="o365-worldwide"
+::: moniker range="o365-germany"
+
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Licenças** página.
+
+::: moniker-end
+
+2. Na página **Licenças**, selecione a linha de um usuário específico.
+3. No painel direito, marque ou desmarque os aplicativos e serviços aos quais você deseja conceder acesso ou remover o acesso.
+4. Quando tiver terminado, selecione **Salvar**, e então selecione **Fechar**.
 
 ## <a name="use-the-active-users-page-to-assign-licenses"></a>Use a página Usuários ativos para atribuir licenças
 
@@ -86,7 +104,24 @@ Ao usar a página **Usuários ativos** para atribuir licenças, você atribui li
 
 ### <a name="assign-licenses-to-multiple-users"></a>Atribuir licenças a vários usuários
 
+::: moniker range="o365-worldwide"
+
 1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
+
+::: moniker-end
+
 2. Selecione os círculos ao lado dos nomes dos usuários aos quais você quer atribuir licenças.
 3. Na parte superior, selecione **mais opções (...)**, em seguida, selecione **Gerenciar licenças de produtos**.
 4. No painel **Gerenciar licenças de produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **.Avançar**.
@@ -94,72 +129,29 @@ Ao usar a página **Usuários ativos** para atribuir licenças, você atribui li
     Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.
 6. Na parte inferior do painel, selecione **Adicionar** \> **Fechar**.  
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-## <a name="assign-licenses-to-multiple-users"></a>Atribuir licenças a vários usuários
-
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
-2. Selecione as caixas ao lado dos nomes dos usuários aos quais você quer atribuir licenças.
-3. No painel **Ações em massa**, escolha **Editar licenças de produto**.
-4. No painel **Atribuir produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **Avançar**.
-5. Alterne para a posição **Ativado** das licenças que você quer que os usuários selecionados tenham.\
-    Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.
-6. Na parte inferior do painel **Adicionar a produtos existentes**, selecione **Adicionar** \> **Fechar**\> **Fechar**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-## <a name="assign-licenses-to-multiple-users"></a>Atribuir licenças a vários usuários
-
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
-2. Selecione as caixas ao lado dos nomes dos usuários aos quais você quer atribuir licenças.
-3. No painel **Ações em massa**, escolha **Editar licenças de produto**.
-4. No painel **Atribuir produtos**, selecione **Adicionar a atribuições de licença de produto existentes** \> **Avançar**.
-5. Alterne para a posição **Ativado** das licenças que você quer que os usuários selecionados tenham.\
-    Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.
-6. Na parte inferior do painel **Adicionar a produtos existentes**, selecione **Adicionar** \> **Fechar**\> **Fechar**.
-
-::: moniker-end
+### <a name="assign-licenses-to-one-user"></a>Atribuir licenças a um usuário
 
 ::: moniker range="o365-worldwide"
 
-### <a name="assign-licenses-to-one-user"></a>Atribuir licenças a um usuário
-
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
-2. Selecione a linha do usuário ao qual você quer atribuir uma licença.
-3. No painel direito, selecione **Licenças e Aplicativos**.
-4. Expanda a seção **Licenças**, marque as caixas das licenças que você deseja atribuir e, em seguida, selecione **salvar alterações**.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-## <a name="assign-licenses-to-one-user"></a>Atribuir licenças a um usuário
-
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
-2. Selecione a caixa ao lado do nome do usuário ao qual você quer atribuir uma licença.
-3. No painel direito, na linha **Licenças do produto**, clique em **Editar**.
-4. No painel **Licenças do produto**, alterne o botão para a posição **Ativado** na licença que você quer atribuir ao usuário.
-    Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.
-5. Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-## <a name="assign-licenses-to-one-user"></a>Atribuir licenças a um usuário
-
-1. No centro de administração, acesse a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
-2. Selecione a caixa ao lado do nome do usuário ao qual você quer atribuir uma licença.
-3. No painel direito, na linha **Licenças do produto**, clique em **Editar**.
-4. No painel **Licenças do produto**, alterne o botão para a posição **Ativado** na licença que você quer atribuir ao usuário.
-    Por padrão, todos os serviços associados a essa licença são atribuídos automaticamente ao usuário. Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão a posição **Desativado** para os serviços que você não deseja que os usuários tenham.
-5. Na parte inferior do painel **Licenças de produto**, escolha **Salvar** \> **Fechar** \> **Fechar**.
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a **Cobrança** > **Usuários ativos** página.
 
 ::: moniker-end
+
+2. Selecione a linha do usuário ao qual você quer atribuir uma licença.
+3. No painel direito, selecione **Licenças e Aplicativos**.
+4. Expanda a seção **Licenças**, marque as caixas das licenças que você deseja atribuir e, em seguida, selecione **salvar alterações**.
 
 ## <a name="assign-a-license-to-a-guest-user"></a>Atribuir uma licença a um usuário convidado
 
