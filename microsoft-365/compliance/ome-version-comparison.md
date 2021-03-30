@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Este artigo ajuda a explicar as diferenças entre diferentes versões da Criptografia de Mensagens do Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e75a709be6141c4bd1df4e63df677dd263c0777a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5c8b0852220b2144c4ab92ec9b692299c9d2c860
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927729"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408564"
 ---
 # <a name="compare-versions-of-ome"></a>Comparar versões de OME
 
@@ -35,23 +35,11 @@ Este artigo faz parte de uma série maior de artigos sobre a Criptografia de Men
 
 ## <a name="overview-of-ad-rms-deprecation-in-exchange-online"></a>Visão geral da precarização do AD RMS no Exchange Online
 
-O Exchange Online inclui a funcionalidade de Gerenciamento de Direitos de Informação (IRM) que fornece proteção online e offline de mensagens de email e anexos. Por padrão, o Exchange Online usa a Proteção de Informações do Azure Azure. No entanto, sua organização pode ter configurado o IRM do Exchange Online para usar o Serviço de Gerenciamento de Direitos do Active Directory (AD RMS) local. O suporte ao AD RMS no Exchange Online está se retirando. Em vez disso, a Proteção de Informações do Azure substituirá totalmente o AD RMS.
+O Exchange Online inclui a funcionalidade de Gerenciamento de Direitos de Informação (IRM) que fornece proteção online e offline de mensagens de email e anexos. Por padrão, o Exchange Online usa a Proteção de Informações do Azure. No entanto, sua organização pode ter configurado o IRM do Exchange Online para usar o Serviço de Gerenciamento de Direitos do Active Directory (AD RMS) local. O suporte ao AD RMS no Exchange Online está se retirando. Em vez disso, a Proteção de Informações do Azure substituirá totalmente o AD RMS.
 
-Antes de começar, revise e avalie o impacto para sua organização. Se sua organização já estiver usando a Proteção de Informações do Azure para criptografar emails no Exchange Online, não há nada para você fazer. Se você criptografar seus emails usando regras de fluxo de emails do Exchange, por exemplo, usando a Criptografia de Mensagens do Office 365, não será preciso alterar seu email seguro. Caso contrário, você precisará se preparar para o adiamento do AD RMS alternando para a Proteção de Informações do Azure.
+Para avaliar se essa depreciação afeta sua organização, consulte Como migrar o [AD RMS para o Azure RMS no Exchange Online](https://support.microsoft.com/help/5001237). Este artigo fornece recomendações sobre opções de migração.
 
-### <a name="prepare-for-ad-rms-deprecation"></a>Preparar-se para o adiamento do AD RMS
-
-Se você já definiu a Proteção de Informações do Azure, mas não a está usando, habilita o serviço usando o PowerShell do Exchange Online. Em seu computador local, usando uma conta de estudante ou de trabalho que tenha permissões globais de administrador em sua organização, conecte-se ao [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) do Exchange Online em uma Windows PowerShell de usuário.
-
-Para habilitar a Proteção de Informações do Azure, use o cmdlet Set-IrmConfiguration digitando o seguinte comando.
-
-```powershell
-Set-IrmConfiguration -AzureRMSLicensingEnabled $true
-```
-
-Se sua organização ainda não tiver definido a Proteção de Informações do Azure, você precisará migrar do AD RMS para a Proteção de Informações do Azure. Para obter instruções, [consulte Migrating from AD RMS to Azure Information Protection](/azure/information-protection/migrate-from-ad-rms-to-azure-rms).
-
-## <a name="side-by-side-comparison-of-features-and-capabilities"></a>Comparação lado a lado de recursos e recursos
+## <a name="side-by-side-comparison-of-ome-features-and-capabilities"></a>Comparação lado a lado dos recursos e recursos do OME
 
 |           **Situação**           | **OME Herdado**    | **IRM no AD RMS**        | **Novos recursos OME** |
 |-----------------------------------|-------------------|-------------------|--------------------------|

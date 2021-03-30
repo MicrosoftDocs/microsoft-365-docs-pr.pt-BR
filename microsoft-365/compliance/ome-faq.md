@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Tem uma pergunta sobre como funcionam os novos recursos de proteção de mensagens? Verifique se há uma resposta aqui.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad0ef4f16e5b458da80227b93fab574e3ce8dde
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: 589a28690d1654576ace45edd482b8d67161d616
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394679"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408586"
 ---
 # <a name="message-encryption-faq"></a>Perguntas frequentes sobre criptografia de mensagens
 
@@ -118,7 +118,7 @@ Se um formato de arquivo for suportado, como um arquivo do Word, Excel ou PowerP
   
 ## <a name="are-pdf-file-attachments-supported"></a>Há suporte para anexos de arquivo PDF?
 
-A resposta curta é sim! A criptografia PDF permite proteger documentos PDF confidenciais por meio de comunicação segura ou colaboração segura. Quando você envia emails, o serviço do Office 365 criptografa anexos de arquivo PDF e não o cliente do Outlook.
+A resposta curta é sim! Se habilitada, a criptografia PDF permite proteger documentos PDF confidenciais por meio de comunicação segura ou colaboração segura. Quando você envia um email, o serviço do Office 365 criptografa anexos de arquivo PDF. O cliente do Outlook não criptografa anexos de arquivo PDF.
 
 Para o Outlook na Web, o Outlook para iOS e o Outlook para Android, você pode criptografar PDFs que você envia sem mais etapas. Esses clientes nações suportam criptografia PDF.
 
