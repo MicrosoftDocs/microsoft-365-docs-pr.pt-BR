@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 684025441c8400775f469515df1bcd0423d6460b
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+ms.openlocfilehash: bcb96ea29649bf3525b2ffcf6d5cbb5d299bacf3
+ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394741"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418111"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -72,6 +72,9 @@ Quando essa configuração é acionada, os alertas são correlacionados em incid
 >Alterar essa configuração afeta apenas as futuras correlações de alerta.
 
 
+## <a name="enable-edr-in-block-mode"></a>Habilitar eDR no modo de bloqueio
+A detecção e a resposta do ponto de extremidade (EDR) no modo de bloqueio fornece proteção contra artefatos mal-intencionados, mesmo quando o Microsoft Defender Antivírus está em execução no modo passivo. Quando ligado, o EDR no modo de bloqueio bloqueia artefatos mal-intencionados ou comportamentos detectados em um dispositivo. A EDR no modo de bloqueio funciona nos bastidores para correção de artefatos mal-intencionados detectados após a violação.
+
 ## <a name="autoresolve-remediated-alerts"></a>Autoresolve correção de alertas
 
 Para locatários criados em ou após o Windows 10, versão 1809, o recurso de investigação e correção automatizado é configurado por padrão para resolver alertas em que o status do resultado da análise automatizada é "Nenhuma ameaça encontrada" ou "Correção".  Se você não quiser ter alertas resolvidos automaticamente, será necessário desativar manualmente o recurso.
@@ -115,6 +118,14 @@ Para obter mais informações, consulte [Gerenciar indicadores](manage-indicator
 
 > [!NOTE]
 > A proteção de rede aproveita os serviços de reputação que processam solicitações em locais que podem estar fora do local selecionado para seus dados do Defender para o Ponto de Extremidade.
+
+
+## <a name="tamper-protection"></a>Proteção contra adulteração
+Durante alguns tipos de ataques cibernéticos, os atores ruins tentam desabilitar recursos de segurança, como proteção antivírus, em seus computador. Os atores ruins gostam de desabilitar seus recursos de segurança para obter acesso mais fácil aos seus dados, instalar malware ou explorar seus dados, identidade e dispositivos.
+
+A proteção contra violações bloqueia essencialmente o Microsoft Defender Antivírus e impede que suas configurações de segurança seja alterada por meio de aplicativos e métodos.
+
+Mantenha a proteção contra adulteração 24h para evitar alterações indesejadas em sua solução de segurança e seus recursos essenciais.
 
 ## <a name="show-user-details"></a>Mostrar detalhes do usuário
 

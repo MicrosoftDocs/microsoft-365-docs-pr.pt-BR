@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Saiba como configurar a autenticação multifator para a sua organização.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 54c862d8f7c25472d84557e177a9107d2c14d846
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: de5f8ffbc5c26015f6ff0eb2863b622273f96ca1
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914457"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408508"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Configurar a autenticação multifator
 
@@ -102,8 +102,8 @@ Se você já habilitou a MFA por usuário, é necessário desabilitá-lo antes d
 - [Como entrar após o registro](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
 - [Como alterar o método de verificação adicional](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Vídeo: Ativar a autenticação multifator](../../business-video/turn-on-mfa.md)
+[Ativar a autenticação multifator](../../business-video/turn-on-mfa.md) (vídeo)
 
-[Vídeo: Ativar a autenticação multifator para seu telefone](../../business-video/set-up-mfa.md)
+[Ativar a autenticação multifator para seu telefone](../../business-video/set-up-mfa.md) (vídeo)

@@ -1,5 +1,5 @@
 ---
-title: Assistência comercial para o Microsoft 365
+title: Business Assist para Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -15,19 +15,19 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Saiba mais sobre o programa Microsoft Business Assist e como ele pode ajudar sua organização com ajuda e uso aprimorados para o Microsoft 365 para empresas.
-ms.openlocfilehash: eb0309ae68bf4569d4cba8dd8501343304389e80
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+description: Saiba mais sobre o programa assistência comercial e como ele pode ajudar sua organização com ajuda e uso aprimorados para o Microsoft 365 para empresas.
+ms.openlocfilehash: 4531c841b4856e22b364906c180aa336cb8fd04a
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034255"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408520"
 ---
-# <a name="business-assist-for-microsoft-365"></a>Assistência comercial para o Microsoft 365
+# <a name="business-assist-for-microsoft-365"></a>Business Assist para Microsoft 365
 
 Obter o máximo de sua assinatura com consultoria especializada de especialistas em pequenas empresas.
 
-**O Business Assist para o Microsoft 365** é um serviço especialmente projetado para empresas com menos de 5 usuários para dar a você e seus funcionários acesso 24 horas por dia a especialistas em pequenas empresas à medida que você cresce sua empresa, da integração ao uso diário.
+**O Business Assist para o Microsoft 365** foi projetado para empresas com menos de 5 usuários para dar a você e seus funcionários acesso 24 horas por dia a especialistas em pequenas empresas à medida que você cresce sua empresa, da integração ao uso diário.
 
 ## <a name="business-assist-services"></a>Serviços de Assistência Comercial
 
@@ -38,7 +38,7 @@ Obter o máximo de sua assinatura com consultoria especializada de especialistas
 | | | |
 
 > [!div class="nextstepaction"]
-> [Comprar agora](https://go.microsoft.com/fwlink/p/?linkid=868433)
+> [Comprar agora](https://go.microsoft.com/fwlink/p/?linkid=2158423)
 
 ## <a name="eligibility-for-business-assist"></a>Qualificação para Assistência Empresarial
 
@@ -58,4 +58,4 @@ Somente as organizações qualificadas verão a opção de comprar o Business As
 :::image type="content" source="../../media/projectgenie-purchase services.png" alt-text="Screeenshot: Purchase Business Assist from the Add-ons section on the Purchase services page":::
 
 > [!div class="nextstepaction"]
-> [Comprar agora](https://go.microsoft.com/fwlink/p/?linkid=868433)
+> [Comprar agora](https://go.microsoft.com/fwlink/p/?linkid=2158423)

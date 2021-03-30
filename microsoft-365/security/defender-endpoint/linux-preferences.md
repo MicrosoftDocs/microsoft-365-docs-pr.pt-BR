@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ed28d3b5b7bafaea2d72b7a8c45f66bf69033bc2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a8595bae216911350d3f18fcceef729ef020a424
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187788"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408160"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-for-linux"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -61,6 +61,7 @@ A *seção antivírusEngine* do perfil de configuração é usada para gerenciar
 | **Chave** | antivirusEngine |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 | **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+|||
 
 #### <a name="enable--disable-real-time-protection"></a>Habilitar/desabilitar a proteção em tempo real
 
@@ -71,6 +72,7 @@ Determina se a proteção em tempo real (arquivos de verificação conforme eles
 | **Chave** | enableRealTimeProtection |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
+|||
 
 #### <a name="enable--disable-passive-mode"></a>Habilitar/desabilitar o modo passivo
 
@@ -87,6 +89,7 @@ Determina se o mecanismo antivírus é executado no modo passivo ou não. No mod
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | falso (padrão) <br/> verdadeiro |
 | **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.67.60 ou superior. |
+|||
 
 #### <a name="exclusion-merge-policy"></a>Política de mesclagem de exclusão
 
@@ -98,6 +101,7 @@ Especifica a política de mesclagem para exclusões. Pode ser uma combinação d
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | merge (padrão) <br/> admin_only |
 | **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
+|||
 
 #### <a name="scan-exclusions"></a>Exclusões de verificação
 
@@ -108,6 +112,7 @@ Entidades que foram excluídas da verificação. As exclusões podem ser especif
 | **Chave** | exclusões |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 | **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+|||
 
 **Tipo de exclusão**
 
@@ -118,6 +123,7 @@ Especifica o tipo de conteúdo excluído da verificação.
 | **Chave** | $type |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | excludedPath <br/> excludedFileExtension <br/> excludedFileName |
+|||
 
 **Caminho para conteúdo excluído**
 
@@ -129,6 +135,7 @@ Usado para excluir conteúdo da verificação por caminho de arquivo completo.
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | caminhos válidos |
 | **Comments** | Aplicável somente se *$type* *for excludedPath* |
+|||
 
 **Tipo de caminho (arquivo/diretório)**
 
@@ -140,6 +147,7 @@ Indica se a *propriedade path* se refere a um arquivo ou diretório.
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | falso (padrão) <br/> verdadeiro |
 | **Comments** | Aplicável somente se *$type* *for excludedPath* |
+|||
 
 **Extensão de arquivo excluída da verificação**
 
@@ -151,6 +159,7 @@ Usado para excluir conteúdo da verificação por extensão de arquivo.
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | extensões de arquivo válidas |
 | **Comments** | Aplicável somente se *$type* *for excludedFileExtension* |
+|||
 
 **Processo excluído da verificação**
 
@@ -162,6 +171,7 @@ Especifica um processo para o qual todas as atividades de arquivo são excluída
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | qualquer cadeia de caracteres |
 | **Comments** | Aplicável somente *se* $type *for excludedFileName* |
+|||
 
 #### <a name="allowed-threats"></a>Ameaças permitidas
 
@@ -171,6 +181,7 @@ Lista de ameaças (identificadas pelo nome) que não são bloqueadas pelo produt
 |:---|:---|
 | **Chave** | allowedThreats |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
+|||
 
 #### <a name="disallowed-threat-actions"></a>Ações de ameaça não permitidos
 
@@ -182,6 +193,7 @@ Restringe as ações que o usuário local de um dispositivo pode tomar quando as
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | allow (restringe os usuários a permitir ameaças) <br/> restore (restringe os usuários de restaurar ameaças da quarentena) |
 | **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
+|||
 
 #### <a name="threat-type-settings"></a>Configurações de tipo de ameaça
 
@@ -192,6 +204,7 @@ A *preferência threatTypeSettings* no mecanismo antivírus é usada para contro
 | **Chave** | threatTypeSettings |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 | **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+|||
 
 **Tipo de ameaça**
 
@@ -202,6 +215,7 @@ Tipo de ameaça para a qual o comportamento está configurado.
 | **Chave** | chave |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | potentially_unwanted_application <br/> archive_bomb |
+|||
 
 **O que fazer**
 
@@ -216,6 +230,7 @@ Ação a ser tomada ao se deparar com uma ameaça do tipo especificado na seçã
 | **Chave** | valor |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | audit (padrão) <br/> block <br/> off |
+|||
 
 #### <a name="threat-type-settings-merge-policy"></a>Política de mesclagem de configurações de tipo de ameaça
 
@@ -227,6 +242,7 @@ Especifica a política de mesclagem para configurações de tipo de ameaça. Iss
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | merge (padrão) <br/> admin_only |
 | **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
+|||
 
 #### <a name="antivirus-scan-history-retention-in-days"></a>Retenção de histórico de verificação de antivírus (em dias)
 
@@ -238,6 +254,7 @@ Especifique o número de dias que os resultados são mantidos no histórico de v
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | 90 (padrão). Os valores permitidos são de 1 dia a 180 dias. |
 | **Comments** | Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior. |
+|||
 
 #### <a name="maximum-number-of-items-in-the-antivirus-scan-history"></a>Número máximo de itens no histórico de verificação de antivírus
 
@@ -249,6 +266,7 @@ Especifique o número máximo de entradas a manter no histórico de verificaçã
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | 10000 (padrão). Os valores permitidos são de 5.000 itens a 15.000 itens. |
 | **Comments** | Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior. |
+|||
 
 ### <a name="cloud-delivered-protection-preferences"></a>Preferências de proteção entregues na nuvem
 
@@ -259,6 +277,7 @@ A *entrada do cloudService* no perfil de configuração é usada para configurar
 | **Chave** | cloudService |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 | **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+|||
 
 #### <a name="enable--disable-cloud-delivered-protection"></a>Habilitar/desabilitar a proteção entregue na nuvem
 
@@ -269,6 +288,7 @@ Determina se a proteção entregue na nuvem está habilitada no dispositivo ou n
 | **Chave** | habilitadas |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
+|||
 
 #### <a name="diagnostic-collection-level"></a>Nível de coleta de diagnóstico
 
@@ -279,6 +299,7 @@ Os dados de diagnóstico são usados para manter o Defender para o Ponto de Extr
 | **Chave** | diagnosticLevel |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | opcional (padrão) <br/> obrigatório |
+|||
 
 #### <a name="enable--disable-automatic-sample-submissions"></a>Habilitar/desabilitar envios automáticos de exemplo
 
@@ -293,6 +314,7 @@ Determina se amostras suspeitas (que provavelmente contêm ameaças) são enviad
 | **Chave** | automaticSampleSubmissionConsent |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | nenhuma <br/> safe (padrão) <br/> all |
+|||
 
 #### <a name="enable--disable-automatic-security-intelligence-updates"></a>Habilitar/desabilitar atualizações automáticas de inteligência de segurança
 
@@ -303,6 +325,7 @@ Determina se as atualizações de inteligência de segurança são instaladas au
 | **Chave** | automaticDefinitionUpdateEnabled |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
+|||
 
 ## <a name="recommended-configuration-profile"></a>Perfil de configuração recomendado
 
@@ -339,6 +362,7 @@ O seguinte perfil de configuração será:
       "automaticDefinitionUpdateEnabled":true,
       "automaticSampleSubmissionConsent":"safe",
       "enabled":true
+      "proxy":"http://proxy.server:port/"
    }
 }
 ```
@@ -399,6 +423,7 @@ O perfil de configuração a seguir contém entradas para todas as configuraçõ
       "diagnosticLevel":"optional",
       "automaticSampleSubmissionConsent":"safe",
       "automaticDefinitionUpdateEnabled":true
+      "proxy": "http://proxy.server:port/"
    }
 }
 ```
@@ -412,6 +437,17 @@ python -m json.tool mdatp_managed.json
 ```
 
 Se o JSON for bem formado, o comando acima o retornará ao Terminal e retornará um código de saída de `0` . Caso contrário, um erro que descreve o problema é exibido e o comando retorna um código de saída de `1` .
+
+## <a name="verifying-that-the-mdatp_managedjson-file-is-working-as-expected"></a>Verificar se o arquivo mdatp_managed.json está funcionando conforme o esperado
+Para verificar se o /etc/opt/microsoft/mdatp/managed/mdatp_managed.json está funcionando corretamente, você deve ver "[gerenciado]" ao lado dessas configurações:  
+- cloud_enabled
+- cloud_automatic_sample_submission_consent
+- passice_mode_enabled
+- real_time_protection_enabled
+- automatic_definition_update_enabled
+
+> [!NOTE]
+> Para que mdatp_managed.jsa ação entre em vigor, nenhuma reinicialização do wdavdaemon é necessária.
 
 ## <a name="configuration-profile-deployment"></a>Implantação de perfil de configuração
 

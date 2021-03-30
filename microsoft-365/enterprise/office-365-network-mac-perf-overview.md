@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Visão geral da conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
-ms.openlocfilehash: 0bfcebff4ebbefdb77049119fef2402af1ca8f90
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2b80dd001bd2ee5d5725ea67c73aa34b4eb8816c
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926091"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408400"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
 
@@ -148,6 +148,10 @@ A guia detalhes na página de local do office mostra os resultados de medida esp
 
 > [!div class="mx-imgBorder"]
 > ![Detalhes específicos do local](../media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)
+
+## <a name="sharing-network-assessment-data-with-microsoft"></a>Compartilhamento de dados de avaliação de rede com a Microsoft
+
+Por padrão, as avaliações de rede para sua organização e as percepções de rede são compartilhadas com os funcionários da Microsoft. Isso não inclui dados pessoais de sua equipe, mas apenas as métricas de avaliação de rede e informações de rede específicas mostradas no centro de administração para seus locais de escritório. Ele também não inclui seus nomes de local do escritório ou endereços de rua, portanto, você precisaria dizer a eles a cidade e a ID de suporte do escritório que você deseja discutir. Se isso estiver desligado, os engenheiros da Microsoft com os que você está discutindo sua conectividade de rede não poderão exibir nenhuma dessas informações. Habilitar essa configuração só compartilha dados futuros a partir do dia após habilita-los.
 
 ## <a name="csv-import-for-lan-subnet-office-locations"></a>Importação de CSV para locais de office de sub-rede lan
 

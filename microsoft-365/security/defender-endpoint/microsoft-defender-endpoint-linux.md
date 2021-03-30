@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 84d85b723d4dcbdfc07a074c40241242c57bc390
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 08bb4c73cb9df429c4b07194f1c7615f44d745d8
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185582"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408332"
 ---
 # <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -83,6 +83,11 @@ Se você tiver alguma falha de instalação, consulte [Troubleshooting installat
   > Não há suporte para executar o Defender para Ponto de Extremidade para Linux lado a lado com outras soluções `fanotify` de segurança baseadas. Pode levar a resultados imprevisíveis, incluindo a suspensão do sistema operacional.
 
 - Espaço em disco: 1 GB
+- /opt/microsoft/mdatp/sbin/wdavdaemon requer permissão executável. Para obter mais informações, consulte "Verifique se o daemon tem permissão executável" em Solucionar problemas de instalação do [Microsoft Defender ATP para Linux](/microsoft-365/security/defender-endpoint/linux-support-install).
+- Memória: 1 GB
+    > [!NOTE]
+    > Verifique se você tem espaço livre em disco no /var.
+
 - Atualmente, a solução fornece proteção em tempo real para os seguintes tipos de sistema de arquivos:
 
   - `btrfs`

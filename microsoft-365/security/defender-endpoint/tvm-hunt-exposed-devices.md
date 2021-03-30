@@ -1,5 +1,5 @@
 ---
-title: Busca por dispositivos expostos
+title: Buscar por dispositivos expostos
 description: Saiba como o gerenciamento de ameaças e vulnerabilidades pode ser usado para ajudar administradores de segurança, administradores de IT e SecOps a colaborar.
 keywords: Cenários de mdatp-tvm, mdatp, tvm, cenários de tvm, redução da exposição de vulnerabilidades & ameaça, redução de ameaças e vulnerabilidades, melhoria da configuração de segurança, aumento da Pontuação Segura da Microsoft para Dispositivos, aumento da vulnerabilidade de ameaças & Microsoft Secure Score for Devices, Pontuação Segura da Microsoft para Dispositivos, pontuação de exposição, controles de segurança
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9af7464d9cae06dc53abb019aa0b189d6e72e749
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 99e59005bc01a113567e64c921ddcdc1d66785d2
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052554"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408286"
 ---
 # <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>Busca por dispositivos expostos - gerenciamento de ameaças e vulnerabilidades
 
@@ -43,13 +43,13 @@ A busca avançada é uma ferramenta de busca de ameaças baseada em consultas qu
 
 ### <a name="schema-tables"></a>Tabelas de esquema
 
-- [DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md) - Inventário de software instalado em dispositivos, incluindo suas informações de versão e status de fim de suporte
+- [DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md) - Inventário de software instalado em dispositivos, incluindo suas informações de versão e status de fim de suporte.
 
-- [DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md) - Vulnerabilidades de software encontradas em dispositivos e a lista de atualizações de segurança disponíveis que abordam cada vulnerabilidade
+- [DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md) - Vulnerabilidades de software encontradas em dispositivos e a lista de atualizações de segurança disponíveis que abordam cada vulnerabilidade.
 
-- [DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md) - Base de conhecimento de vulnerabilidades publicamente divulgadas, incluindo se o código de exploração está disponível publicamente
+- [DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md) - Base de conhecimento de vulnerabilidades publicamente divulgadas, incluindo se o código de exploração está disponível publicamente.
 
-- [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) - Eventos de avaliação de gerenciamento de ameaças e vulnerabilidades, indicando o status de várias configurações de segurança em dispositivos
+- [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) - Eventos de avaliação de gerenciamento de ameaças e vulnerabilidades, indicando o status de várias configurações de segurança em dispositivos.
 
 - [DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md) - Base de conhecimento de várias configurações de segurança usadas pelo Gerenciamento de Vulnerabilidades & Ameaças para avaliar dispositivos; inclui mapeamentos para vários padrões e parâmetros de referência
 
