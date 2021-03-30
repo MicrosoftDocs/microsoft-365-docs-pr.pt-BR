@@ -57,7 +57,7 @@
     - name: Visão geral do Centro de administração do Microsoft 365
       items:
         - name: Visão geral do Centro de administração
-          href: admin-overview/about-the-admin-center.md
+          href: ../business-video/admin-center-overview.md
         - name: Sobre funções de administrador
           href: add-users/about-admin-roles.md
         - name: Aplicativo móvel do administrador
