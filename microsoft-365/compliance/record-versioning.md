@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os registros para ajudá-lo na implementação de uma solução de gerenciamento de registros no Microsoft 365.
-ms.openlocfilehash: f622e7e6a75cacf5b9cf283847e6b3eea718d542
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 52ca56436686faac1d414dac47e2e9e16c36fa90
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925567"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408554"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>Use o controle de versão de registro para atualizar os registros armazenados no SharePoint ou no OneDrive
 
@@ -44,6 +44,9 @@ Agora, você pode fazer o seguinte:
   - **Ter os registros armazenados automaticamente em um repositório de registros in-loco, localizado no conjunto de sites.** Cada conjunto de sites no SharePoint e no OneDrive preserva o conteúdo em sua biblioteca de Retenção para Preservação. As versões de registro são armazenadas na pasta Registros nesta biblioteca.
 
   - **Manter um documento perene que contenha todas as versões.** Por padrão, cada documento do SharePoint e do OneDrive têm um histórico de versão disponível no menu do item. Nesse histórico de versão, você pode ver facilmente quais versões são registros e exibir esses documentos.
+
+> [!NOTE]
+> Ao usar o controle de versão de registro com um rótulo de retenção com uma ação de exclusão, recomendamos que você também defina a configuração de retenção **Iniciar o período de retenção com base em:** para ser **Quando os itens forem rotulados**. Com essa configuração de rótulo, o início do período de retenção é redefinido para cada nova versão de registro, o que garante que versões mais antigas sejam excluídas antes das versões mais recentes.
 
 O controle de versão do registro está disponível automaticamente para qualquer documento que tenha um rótulo de retenção que marque o item como registro. Quando um usuário exibe as propriedades do documento usando o painel de detalhes, eles podem alternar o **Status do registro** de **Bloqueado** para **Desbloqueado**. Essa ação cria um registro na pasta Registros na Biblioteca de Retenção para Preservação, onde reside pelo restante do período de retenção. 
 
@@ -75,7 +78,7 @@ Quando um usuário bloqueia um registro, o documento original não poderá ser e
 
 ## <a name="record-versions"></a>Versões de registro
 
-Sempre que um usuário desbloqueia um registro, a versão mais recente é copiada para a pasta Registros na biblioteca de Retenção para Preservação, e essa versão contém o valor de **Registro** no campo **Comentários** do histórico da versão.
+Sempre que um usuário desbloqueia um registro, a última versão é copiada para a biblioteca de Retenção para Preservação, e essa versão contém o valor de **Registro** no campo **Comentários** do histórico da versão.
 <br/><br/>
 
 ![Registro mostrado na biblioteca de Retenção para Preservação](../media/recordversioning10.png)
@@ -93,16 +96,13 @@ Os registros são armazenados na pasta Registros na biblioteca de Retenção par
 
 ![A pasta Registros na biblioteca de Retenção para Preservação](../media/recordversioning12.png)
 
-A biblioteca de Retenção para Preservação está visível somente para administradores de conjuntos de sites. Além disso, a biblioteca de Retenção para Preservação não existe por padrão. Ela é criada apenas quando o conteúdo sujeito a um rótulo ou política de retenção é excluído pela primeira vez do conjunto de sites.
+Para saber mais sobre como a biblioteca de Retenção para Preservação funciona, confira [Como funciona a retenção no SharePoint e no OneDrive](retention-policies-sharepoint.md#how-retention-works-for-sharepoint-and-onedrive).
 
 ## <a name="searching-the-audit-log-for-record-versioning-events"></a>Pesquisando o log de auditoria para eventos de controle de versão do registro
 
-As ações de bloqueio e desbloqueio de registros são registradas no log de auditoria. Você pode pesquisar pelas atividades específicas **Status do registro alterado para bloqueado** e **Status do registro alterado para desbloqueado**, que estão localizadas na seção **Atividades de arquivo e página** na lista suspensa de **Atividades** na página de **Pesquisa de log de auditoria** no centro de conformidade e segurança.
-<br/><br/>
+As ações de bloqueio e desbloqueio de registros são registradas no log de auditoria. Em **Atividades de arquivo e página**, selecione **Status de registro alterado para bloqueado** e **Status de registro alterado para desbloqueado**.
 
-![Pesquisar o log de auditoria para eventos de controle de versão do registro](../media/recordversioning13.png)
-
-Para obter mais informações sobre a pesquisa desses eventos, confira a seção "Atividades de arquivo e página" em [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities).
+Para obter mais informações sobre a pesquisa desses eventos, confira [Pesquisar o log de auditoria no Centro de Conformidade e Segurança](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities).
 
 ## <a name="next-steps"></a>Próximas etapas
 

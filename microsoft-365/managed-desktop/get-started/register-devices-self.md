@@ -1,18 +1,23 @@
 ---
 title: Registre novos dispositivos por conta própria
 description: Registre os dispositivos por conta própria para que eles possam ser gerenciados pela Área de Trabalho Gerenciada da Microsoft
-ms.prod: w10
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
+ms.service: m365-md
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
-ms.localizationpriority: medium
-ms.openlocfilehash: 8dc9412de7b682c34a48ae64b676e4b0313dea35
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
+manager: laurawi
+ms.topic: article
+audience: Admin
+ms.openlocfilehash: 3aff3bdc1260e9aa2a23760020aeabd71d6b28fd
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920675"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445573"
 ---
 # <a name="register-new-devices-yourself"></a>Registre novos dispositivos por conta própria
 
@@ -96,7 +101,7 @@ Você pode monitorar o andamento do registro do dispositivo na página principal
 | Registro Pendente | O registro ainda não foi feito. Volte mais tarde. |
 | Falha no registro | O registro não pôde ser concluído. Consulte [Troubleshooting device registration para](#troubleshooting-device-registration) obter mais informações. |
 | Pronto para usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A Área de Trabalho Gerenciada da Microsoft os orientará durante a configuração da primeira vez, portanto, não há necessidade de você fazer outras preparações. |
-| Ativa | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. Esse estado também indica que eles estão usando regularmente o dispositivo. |
+| Ativo | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. Esse estado também indica que eles estão usando regularmente o dispositivo. |
 | Inativo | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Solução de problemas de registro de dispositivo

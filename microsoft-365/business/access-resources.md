@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Saiba como obter acesso a recursos locais, como aplicativos de linha de negócios, compartilhamentos de arquivos e impressoras de um dispositivo do Azure Active Directory ingressado no Windows 10.
-ms.openlocfilehash: b78509d72cbd9b3c121039c4965625bf5c21c7e0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1bca0beb3ccc78e670ad33ce446b9b3f7c372ba7
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913513"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445339"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Acessar recursos locais de um dispositivo ingressado no Azure AD no Microsoft 365 Business Premium
 
@@ -64,3 +64,7 @@ Se o dispositivo Windows que você ingressou no Azure-AD foi ingressado anterior
 - Os usuários podem não ser capazes de se autenticar em aplicativos que dependem da autenticação do Active Directory. Avalie o aplicativo herdado e considere atualizar para um aplicativo que usa a Auth moderna, se possível.
 
 - A descoberta da impressora do Active Directory não funcionará. Você pode fornecer caminhos de impressora diretos para todos os usuários ou usar [Impressão Universal](/universal-print/).
+
+### <a name="related-articles"></a>Artigos relacionados
+
+[Pré-requisitos para o Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)

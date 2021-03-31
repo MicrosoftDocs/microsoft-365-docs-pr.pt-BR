@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6a8e1091490cb9f3fe1eedadec0b76a56ada936e
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 1b203a29083aaa4a1f86abcd7e2c7b24bd63f186
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379485"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445739"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Requisitos mínimos para o Microsoft Defender para Ponto de Extremidade
 
@@ -54,6 +54,7 @@ O Microsoft Defender para Ponto de Extremidade requer uma das seguintes ofertas 
 > [!NOTE]
 > Os usuários licenciados qualificados podem usar o Microsoft Defender para Ponto de Extremidade em até cinco dispositivos simultâneos.
 > O Microsoft Defender para Ponto de Extremidade também está disponível para compra de um Provedor de Soluções na Nuvem (CSP).
+> As VMs RDSH não exigem uma licença separada do Defender para Ponto de Extremidade.
 
 O Microsoft Defender para Ponto de Extremidade para servidores requer uma das seguintes opções de licenciamento:
 

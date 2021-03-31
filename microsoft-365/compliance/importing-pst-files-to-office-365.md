@@ -7,7 +7,7 @@ author: markjjo
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: overview
+ms.topic: article
 f1_keywords:
 - ms.o365.cc.IngestionHelp
 ms.service: O365-seccomp
@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a usar o serviço Importar no Centro de conformidade e segurança para importar em massa dados de e-mail (Arquivos PST) para caixas de correio do usuário.
-ms.openlocfilehash: 6d0bca6d76a0eccb9bc8181e73f2c36c51acaf77
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c645228598eb9cf0e6edca7104b8977e7eaf72f7
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911315"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408532"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>Visão geral da importação dos arquivos PST da sua organização
 
@@ -66,11 +66,11 @@ Esta é uma ilustração e uma descrição do processo de importação de PST co
     
 4. **Criar um trabalho de importação PST** - A próxima etapa é criar um trabalho de importação PST na página **Importar arquivos PST** no Centro de Conformidade e Segurança e enviar o arquivo de mapeamento de importação PST criado na etapa anterior. Para carregamento de rede (como os arquivos PST foram carregados para o Azure), o Microsoft 365 analisa os dados nos arquivos PST e oferece a você a oportunidade de definir filtros que controlam quais dados serão importados para as caixas de correio especificadas no arquivos de mapeamento de importação de PST. 
     
-    Para o envio de unidades, algumas coisas adicionais acontecem neste momento do processo.
+    Para o envio de unidades, outras coisas acontecem neste momento do processo.
     
     - Você envia fisicamente o disco rígido para um data center da Microsoft (o endereço de envio para o data center da Microsoft é exibido quando o trabalho de importação é criado).
     
-    - Quando a Microsoft recebe o disco rígido, a equipe do data center carregará os arquivos PST no disco rígido para o local de Armazenamento do Azure da sua organização. Como explicado anteriormente, os arquivos PST são carregados em um local de Armazenamento do Azure que está localizado no mesmo datacenter regional da Microsoft em que sua organização está.
+    - Quando a Microsoft recebe o disco rígido, a equipe do data center carregará os arquivos PST no disco rígido para o local de Armazenamento do Azure da sua organização. Como explicado anteriormente, os arquivos PST são carregados em um local de Armazenamento do Azure localizado no mesmo datacenter regional da Microsoft em que sua organização está.
     
       > [!NOTE]
       > Os arquivos PST do disco rígido são carregados para o Azure dentro de sete a 10 dias úteis, depois que a Microsoft recebe o disco rígido.
@@ -178,7 +178,7 @@ O processo de importação de PST verifica itens duplicados e não copia os iten
  
  **Há um limite de tamanho de mensagem ao importar arquivos PST?**
   
-Sim. Quando um arquivo PST inclui um item de caixa de correio com mais de 150 MB, o item é ignorado durante o processo de importação.
+Sim. Quando um arquivo PST inclui um item de caixa de correio com mais de 150 MB, o item será ignorado e não importado durante o processo de importação. Itens com mais de 150 MB não são importados, pois 150 MB é o limite de tamanho das mensagens no Exchange Online. Para obter mais informações, confira [Limites de mensagens no Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits).
   
  **As propriedades da mensagem, como quando a mensagem foi enviada ou recebida, a lista de destinatários e outras propriedades, são mantidas quando os arquivos PST são importados para uma caixa de correio do Microsoft 365?**
   
@@ -271,7 +271,7 @@ Além disso, os arquivos PST do Outlook 2007 e versões posteriores podem ser im
   
  **Há um limite de tamanho de mensagem ao importar arquivos PST?**
   
-Sim. Quando um arquivo PST inclui um item de caixa de correio com mais de 150 MB, o item é ignorado durante o processo de importação.
+Sim. Quando um arquivo PST inclui um item de caixa de correio com mais de 150 MB, o item será ignorado e não importado durante o processo de importação. Itens com mais de 150 MB não são importados, pois 150 MB é o limite de tamanho das mensagens no Exchange Online. Para obter mais informações, confira [Limites de mensagens no Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits).
   
   **Como o processo de importação de PST controla os itens de email duplicados?**
 
@@ -317,6 +317,6 @@ Os custos da remessa de devolução variam, dependendo da sua proximidade em rel
   
 Sim.
   
- **Se eu tiver que enviar meu disco rígido para outro país, há algo que precise ser feito?**
+ **If I have to ship my hard drive to another country, is there anything I need to do?**
   
-O disco rígido que você enviará para a Microsoft terá talvez que cruzar fronteiras internacionais. Se esse for o caso, você é responsável por garantir que o disco rígido e os dados contidos nele sejam importados e/ou exportados de acordo com a legislação aplicável. Antes de enviar um disco rígido, verifique com seu consultores se a unidade e os dados podem ser legalmente enviados para o centro de dados especificado da Microsoft. Isso ajudará a garantir que ele chegue à Microsoft em tempo hábil.
+The hard drive that you ship to Microsoft might have to cross international borders. Se esse for o caso, você é responsável por garantir que o disco rígido e os dados inclusos nele sejam importados e/ou exportados de acordo com as leis aplicáveis. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.

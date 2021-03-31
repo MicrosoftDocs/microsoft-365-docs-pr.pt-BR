@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Saiba como modificar um esquema EDM para usar a correspondência configurável.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e00466e4648ebe93f0658383515d1543f858e1b0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dea641072983163c6fbbcc5888d5ee6ea91f6990
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919367"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408310"
 ---
 # <a name="modify-exact-data-match-schema-to-use-configurable-match"></a>Modificar o esquema de Correspondência de Dados Exato para usar a correspondência configurável
 
@@ -102,6 +102,9 @@ O sinalizador `ignoredDelimiters` não tem suporte para:
 - \,
 
 6. Conectar ao centro de Conformidade e Segurança usando os procedimentos em [Conectar ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
+
+> [!NOTE]
+> Se sua organização configurou a [Chave de Cliente para Microsoft 365 no nível dos locatários (visualização pública)](customer-key-tenant-level.md#overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview), a Correspondência exata de dados usará sua funcionalidade de criptografia automaticamente. Isso está disponível apenas para locatários licenciados do E5 na nuvem Comercial.
 
 7. Atualize o esquema executando estes cmdlets um de cada vez:
 

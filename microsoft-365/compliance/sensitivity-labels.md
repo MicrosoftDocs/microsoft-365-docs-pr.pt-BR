@@ -22,12 +22,12 @@ description: Use rótulos de confidencialidade da MIP (Proteção de Informaçõ
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6c1f8b404ddcda45d782a6517880955a6199025d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a540529c174cc12b0e037be4af4e08c29e3835ea
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919587"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408596"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Saiba mais sobre rótulos de confidencialidade
 
@@ -49,9 +49,9 @@ Exemplo mostrando os rótulos de confidencialidade disponíveis no Excel, na gui
 Para aplicar rótulos de confidencialidade, os usuários devem ter entrado com sua conta Microsoft 365 do trabalho ou da escola.
 
 > [!NOTE]
-> Rótulos de confidencialidade são recentemente suportados para locatários do governo dos EUA (GCC e GCC-H). Para obter mais informações, confira as notas de lançamento do Microsoft 365 Apps para Grandes Empresas, [Versão 2101: 26 de janeiro](/officeupdates/current-channel#version-2101-january-26).
+> Para locatários do governo dos Estados Unidos, os rótulos de sensibilidade [agora são suportados para ambientes GCC e GCC Altos](/officeupdates/current-channel#version-2101-january-26) e estão sendo implementados atualmente para ambientes DoD.
 >
-> Para o cliente e scanner de rotulagem unificada da Proteção de Informações do Azure, confira [Descrição do serviço governamental premium da Proteção de Informações do Azure](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description).
+> Se você usar o cliente de rotulagem unificada da Proteção de Informações do Azure e o verificador para esses ambientes, consulte [Descrição do Serviço GovernamentalPpremium da Proteção de Informações do Azure](/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description).
 
 Você pode usar rótulos de confidencialidade para:
   

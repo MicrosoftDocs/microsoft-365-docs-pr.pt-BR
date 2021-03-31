@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 167db9b5da841528e95f167b3af6a840b6c71eb4
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: bf1e706562db06064409cb7cf11441d048ef8db6
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165556"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445281"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)
 
@@ -48,8 +48,11 @@ Pode haver desafios associados ao integração de VDIs. Veja a seguir os desafio
 
 Dispositivos VDI podem aparecer no portal do Defender para Ponto de Extremidade como:
 
-- Entrada única para cada dispositivo.  
-Observe que, nesse caso, *o* mesmo nome de dispositivo deve ser configurado quando a sessão é criada, por exemplo, usando um arquivo de resposta autônoma.
+- Entrada única para cada dispositivo.
+
+  > [!NOTE]
+  > Nesse caso, o *mesmo nome* de dispositivo deve ser configurado quando a sessão é criada, por exemplo, usando um arquivo de resposta autônoma.
+
 - Várias entradas para cada dispositivo - uma para cada sessão.
 
 As etapas a seguir orientarão você através da integração de dispositivos VDI e destacarão etapas para entradas simples e múltiplas.
@@ -84,14 +87,15 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
    > [!NOTE]
    > A Política de Grupo de Domínio também pode ser usada para a integração de dispositivos VDI não persistentes.
 
-4. Dependendo do método que você gostaria de implementar, siga as etapas apropriadas: <br>
-   **Para entrada única para cada dispositivo**:<br>
+4. Dependendo do método que você gostaria de implementar, siga as etapas apropriadas:
+
+   - Para entrada única para cada dispositivo:
    
-   Selecione a **guia Scripts** do PowerShell e clique em **Adicionar** (o Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script do PowerShell de `Onboard-NonPersistentMachine.ps1` integração.
+     Selecione a **guia Scripts** do PowerShell e clique em **Adicionar** (o Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script do PowerShell de `Onboard-NonPersistentMachine.ps1` integração. Não é necessário especificar o outro arquivo, pois ele será disparado automaticamente.
    
-   **Para várias entradas para cada dispositivo**:
+   - Para várias entradas para cada dispositivo:
    
-   Selecione a **guia Scripts** e clique em **Adicionar** (o Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script bash de `WindowsDefenderATPOnboardingScript.cmd` integração.
+     Selecione a **guia Scripts** e clique em **Adicionar** (o Windows Explorer abrirá diretamente no caminho onde você copiou o script de integração anteriormente). Navegue até o script bash de `WindowsDefenderATPOnboardingScript.cmd` integração.
 
 5. Teste sua solução:
 
@@ -103,8 +107,15 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
 
    1. Fazer logon no dispositivo com outro usuário.
       
-   1. **Para entrada única para cada dispositivo**: Verifique apenas uma entrada no Centro de Segurança do Microsoft Defender.<br>
-      **Para várias entradas para cada dispositivo**: Verifique várias entradas no Centro de Segurança do Microsoft Defender.
+   1. Dependendo do método que você gostaria de implementar, siga as etapas apropriadas:
+   
+      - Para entrada única para cada dispositivo: 
+    
+        Verifique apenas uma entrada no Centro de Segurança do Microsoft Defender.
+
+      - Para várias entradas para cada dispositivo: 
+       
+        Verifique várias entradas no Centro de Segurança do Microsoft Defender.
 
 6. Clique **na lista Dispositivos** no painel De navegação.
 
@@ -118,14 +129,14 @@ As etapas a seguir orientarão você através da integração de dispositivos VD
 
 1. De definir o valor do Registro como:
 
-    ```reg
+    ```console
    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging]
     "VDI"="NonPersistent"
     ```
 
     ou usando a linha de comando:
 
-    ```
+    ```console
     reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging" /v VDI /t REG_SZ /d "NonPersistent" /f
     ```
 

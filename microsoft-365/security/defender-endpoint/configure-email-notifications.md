@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d8b68e6b6dc42de5730aa634386406d4762b1fa2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0d9e63c5d89b13b02dfcf116c1555c8db319d23f
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163678"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445359"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-atp"></a>Configurar notificações de alerta no Microsoft Defender ATP
 
@@ -51,9 +51,9 @@ A notificação por email inclui informações básicas sobre o alerta e um link
 Você pode criar regras que determinam os dispositivos e as gravidades de alerta para enviar notificações por email e para os destinatários de notificação.
 
 
-1. No painel de navegação, selecione **Configurações**  >  **Notificações de alerta.**
+1. No painel de navegação, selecione **Configurações**  >  **Notificações de email.**
 
-2. Clique **em Adicionar regra de notificação**.
+2. Clique **em Adicionar item**.
 
 3. Especifique as informações gerais:
     - **Nome da** regra - Especifique um nome para a regra de notificação.

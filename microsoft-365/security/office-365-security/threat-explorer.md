@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no Centro de Conform
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f48bad9d8ae6fc6d68ae27a655f4bdfdefd819d0
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 47bb14b90a94d0c8b542b12268bd6d5ed6e5c05a
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203131"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445715"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -58,7 +58,7 @@ Com este relatório, você pode:
 Hoje, se você navegar de um alerta para o Explorador de Ameaças, ele abrirá uma exibição filtrada dentro do Explorer, com o exibição filtrado pela ID da política de alerta (a ID da política é um identificador exclusivo para uma política de alerta).
 Estamos tornando essa integração mais relevante introduzindo a ID de alerta (consulte um exemplo de ID de alerta abaixo) no Explorador de Ameaças e detecções em tempo real para que você veja mensagens relevantes para o alerta específico, bem como uma contagem de emails. Você também poderá ver se uma mensagem fazia parte de um alerta, bem como navegar dessa mensagem para o alerta específico.  
 
-A ID do alerta está disponível na URL quando você está exibindo um alerta individual; um exemplo sendo `https://protection.office.com/viewalerts?id=372c9b5b-a6c3-5847-fa00-08d8abb04ef1`
+A ID do alerta está disponível na URL quando você está exibindo um alerta individual; um exemplo sendo `https://protection.office.com/viewalerts?id=372c9b5b-a6c3-5847-fa00-08d8abb04ef1` .
 
 > [!div class="mx-imgBorder"]
 > ![Filtragem para ID de alerta](../../media/AlertID-Filter.png)
@@ -177,7 +177,6 @@ No momento, vamos superfícier o local de entrega na grade de email e no sobrevo
 > - Haverá novos campos e valores para tecnologias **de** detecção e **ações adicionais** (especialmente para cenários ZAP). Você precisará avaliar suas consultas salvas existentes e consultas controladas para garantir que elas funcionem com os novos valores.
 
 > [!div class="mx-imgBorder"]
-
 > ![Ações adicionais no Explorer](../../media/Additional_Actions.png)
 
 ### <a name="system-overrides"></a>Substituições do sistema
@@ -185,9 +184,13 @@ No momento, vamos superfícier o local de entrega na grade de email e no sobrevo
 *As substituições do* sistema permitem que você faça exceções ao local de entrega pretendido de uma mensagem. Você substitui o local de entrega fornecido pelo sistema, com base nas ameaças e outras detecções identificadas pela pilha de filtragem. As substituições do sistema podem ser definidas por meio de uma política de locatário ou de usuário para entregar a mensagem conforme sugerido pela política. As substituições podem identificar a entrega não intencional de mensagens mal-intencionadas devido a lacunas de configurações, como uma política de Remetente Seguro amplamente ampla definida por um usuário. Esses valores de substituição podem ser:
 
 - Permitido pela política de usuário: um usuário cria políticas no nível da caixa de correio para permitir domínios ou destinatários.
+
 - Bloqueado pela política de usuário: um usuário cria políticas no nível da caixa de email para bloquear domínios ou senders.
+
 - Permitido pela política organizacional: as equipes de segurança da organização configuram políticas ou regras de fluxo de emails do Exchange (também conhecidas como regras de transporte) para permitir que os envios e domínios para usuários em sua organização. Isso pode ser para um conjunto de usuários ou toda a organização.
+
 - Bloqueado pela política de organização: as equipes de segurança da organização configuram políticas ou regras de fluxo de emails para bloquear os envios, domínios, idiomas de mensagens ou IPs de origem para usuários em sua organização. Isso pode ser aplicado a um conjunto de usuários ou a toda a organização.
+
 - Extensão de arquivo bloqueada pela política da organização: a equipe de segurança de uma organização bloqueia uma extensão de nome de arquivo pelas configurações de política anti-malware. Esses valores agora serão exibidos em detalhes de email para ajudar nas investigações. As equipes do Secops também podem usar o recurso rich-filtering para filtrar extensões de arquivo bloqueados.
 
 [![Substituições do sistema no Explorer](../../media/System_Overrides.png)](../../media/System_Overrides.png#lightbox)
@@ -233,7 +236,8 @@ Agora você pode classificar e filtrar o sistema ou marcas de usuário personali
 > [!IMPORTANT]
 > A filtragem e a classificação por marcas de usuário estão atualmente em visualização pública. Essa funcionalidade pode ser substancialmente modificada antes de ser lançada comercialmente. A Microsoft não faz garantias, expressas ou implícitas, com relação às informações fornecidas sobre ele.
 
-![Coluna Marcas no Explorer](../../media/threat-explorer-tags.png)
+> [!div class="mx-imgBorder"]
+> ![Coluna Marcas no Explorer](../../media/threat-explorer-tags.png)
 
 ### <a name="timezone-improvements"></a>Melhorias no timezone
 
@@ -282,21 +286,20 @@ Como parte do enriquecimento de dados, você poderá ver todas as diferentes reg
 
 Você poderá ver o GUID e o nome das regras de transporte que foram aplicadas à mensagem. Você poderá pesquisar as mensagens usando o nome da regra de transporte. Esta é uma pesquisa "Contém", o que significa que você também pode fazer pesquisas parciais.
 
-#### <a name="important-note"></a>Observação importante:
-
-A pesquisa ETR e a disponibilidade de nome dependem da função específica atribuída a você. Você precisa ter uma das seguintes funções/permissões para exibir os nomes e a pesquisa do ETR. Se você não tiver nenhuma dessas funções atribuídas a você, não poderá ver os nomes das regras de transporte ou pesquisar mensagens usando nomes ETR. No entanto, você pode ver o rótulo ETR e informações GUID nos Detalhes do Email. Outras experiências de visualização de registro em Grades de Email, Sub-sub-sublhsados de email, Filtros e Exportação não são afetadas.
-
-- Somente EXO - Prevenção contra Perda de Dados: Todos
-- Somente EXO - O365SupportViewConfig: Todos
-- Microsoft Azure Active Directory ou EXO - Administrador de Segurança: Todos
-- AAD ou EXO - Leitor de Segurança: Tudo
-- Somente EXO - Regras de Transporte: Todos
-- Somente EXO - View-Only configuração: todos
-
-Na grade de email, sobremenos e CSV exportados, os ETRs são apresentados com um Nome/GUID, conforme mostrado abaixo.
-
-> [!div class="mx-imgBorder"]
-> ![Regras de Transporte do Exchange](../../media/ETR_Details.png)
+> [!IMPORTANT]
+> A pesquisa ETR e a disponibilidade de nome dependem da função específica atribuída a você. Você precisa ter uma das seguintes funções/permissões para exibir os nomes e a pesquisa do ETR. Se você não tiver nenhuma dessas funções atribuídas a você, não poderá ver os nomes das regras de transporte ou pesquisar mensagens usando nomes ETR. No entanto, você pode ver o rótulo ETR e informações GUID nos Detalhes do Email. Outras experiências de visualização de registro em Grades de Email, Sub-sub-sublhsados de email, Filtros e Exportação não são afetadas.
+> 
+> - Somente EXO - Prevenção contra Perda de Dados: Todos
+> - Somente EXO - O365SupportViewConfig: Todos
+> - Microsoft Azure Active Directory ou EXO - Administrador de Segurança: Todos
+> - AAD ou EXO - Leitor de Segurança: Tudo
+> - Somente EXO - Regras de Transporte: Todos
+> - Somente EXO - View-Only configuração: todos
+> 
+> Na grade de email, sobremenos e CSV exportados, os ETRs são apresentados com um Nome/GUID, conforme mostrado abaixo.
+> 
+> > [!div class="mx-imgBorder"]
+> > ![Regras de Transporte do Exchange](../../media/ETR_Details.png)
 
 ### <a name="inbound-connectors"></a>Conectores de entrada
 
@@ -334,18 +337,23 @@ Este exemplo usa o Explorador de Ameaças.
 
 4. Selecione o Assunto de qualquer mensagem na guia Email > Detalhes para ver informações adicionais de representação, como Domínio Personificado / Local Detectado.
 
-5. **OR** Selecione **Usuário personificado** e digite o endereço de email de um usuário protegido na caixa de texto.
+    **OU** 
 
-6. Selecione o **Assunto de** qualquer mensagem na guia Detalhes da guia **Email** para ver informações de representação adicionais sobre o usuário ou domínio e o  >   local *detectado.*
+    Selecione **Usuário personificado** e digite o endereço de email de um usuário protegido na caixa de texto.
 
-:::image type="content" source="../../media/threat-ex-views-impersonated-user-image.png" alt-text="O painel de detalhes do Explorador de Ameaças para um usuário protegido mostrando o local de detecção e a ameaça detectada (aqui representação de phishing de um usuário).":::
+    > [!TIP]
+    > **Para melhores resultados,** use *endereços de email completos* para pesquisar usuários protegidos. Você encontrará seu usuário protegido com mais rapidez e mais êxito se procurar por firstname.lastname@contoso.com *,* por exemplo, ao investigar a representação do usuário. Ao pesquisar um domínio protegido, a pesquisa levará o domínio raiz (contoso.com, por exemplo) e o nome de domínio (*contoso*). Pesquisar o domínio raiz *contoso.com* retornará as duas contoso.com *e* o nome de domínio *contoso*.
 
-> [!TIP]
-> **Para melhores resultados,** use *endereços de email completos* para pesquisar usuários protegidos. Você encontrará seu usuário protegido com mais rapidez e mais êxito se procurar por firstname.lastname@contoso.com *,* por exemplo, ao investigar a representação do usuário. Ao pesquisar um domínio protegido, a pesquisa levará o domínio raiz (contoso.com, por exemplo) e o nome de domínio (*contoso*). Pesquisar o domínio raiz *contoso.com* retornará as duas contoso.com *e* o nome de domínio *contoso*.
+5. Selecione o **Assunto de** qualquer mensagem na guia Detalhes da guia **Email** para ver informações de representação adicionais sobre o usuário ou domínio e o  >   local *detectado.*
+
+    :::image type="content" source="../../media/threat-ex-views-impersonated-user-image.png" alt-text="O painel de detalhes do Explorador de Ameaças para um usuário protegido mostrando o local de detecção e a ameaça detectada (aqui representação de phishing de um usuário).":::
+
+> [!NOTE]
+> Na etapa 3 ou 5, se  você escolher  Tecnologia de Detecção e selecionar Domínio de Representação ou Usuário de Representação, respectivamente, as informações na guia **Detalhes** da guia Email sobre o usuário ou domínio e o local Detectado serão mostradas somente nas mensagens relacionadas ao usuário ou domínio listados na página  política  >   *Anti-Phishing.*  
 
 ### <a name="preview-email-header-and-download-email-body"></a>Visualizar o header de email e baixar o corpo do email
 
-Agora você pode visualizar um header de email e baixar o corpo do email em Administradores do Explorador de Ameaças podem analisar os headers/mensagens de email baixados para ameaças. Como baixar mensagens de email pode correr o risco de exposição de informações, esse processo é controlado pelo controle de acesso baseado em função (RBAC). Uma nova função, *Preview*, deve ser adicionada a outro grupo de funções (como Operações de Segurança ou Administrador de Segurança) para conceder a capacidade de baixar emails no visualização de mensagens de email. No entanto, a exibição do header de email não exige nenhuma função adicional (diferente do necessário para exibir mensagens no Explorador de Ameaças).
+Agora você pode visualizar um header de email e baixar o corpo do email no Explorador de Ameaças. Os administradores podem analisar os headers/mensagens de email baixadas para ameaças. Como baixar mensagens de email pode correr o risco de exposição de informações, esse processo é controlado pelo controle de acesso baseado em função (RBAC). Uma nova função, *Preview*, deve ser adicionada a outro grupo de funções (como Operações de Segurança ou Administrador de Segurança) para conceder a capacidade de baixar emails no visualização de mensagens de email. No entanto, a exibição do header de email não exige nenhuma função adicional (diferente do necessário para exibir mensagens no Explorador de Ameaças).
 
 As detecções do Explorer e em tempo real também receberão novos campos que fornecem uma imagem mais completa de onde suas mensagens de email chegarão. Essas alterações facilitam a busca para Operações de Segurança. Mas o resultado principal é que você pode saber o local das mensagens de email com problemas rapidamente.
 

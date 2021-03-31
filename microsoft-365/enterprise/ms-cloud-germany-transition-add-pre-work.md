@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: pré-trabalho ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: d05b3fc06c4530a69c49962b0d2b793353033c99
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: fb352c17d9868cf5c42034e198be63b6e0543dbb
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165604"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445597"
 ---
 # <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Pré-trabalho para a migração do Microsoft Cloud Deutschland
 
@@ -113,11 +113,14 @@ Ler e aplicar as etapas [de Migração do ADFS](ms-cloud-germany-transition-add-
 ### <a name="exchange-online-hybrid-configuration"></a>Configuração híbrida do Exchange Online
 
 **Aplica-se a:** Todos os clientes que usam uma configuração híbrida ativa do Exchange com servidores Exchange locais<br>
-**Quando aplicado:** a qualquer momento antes do início da fase 5
+**Quando aplicado:** a qualquer momento antes do início da Fase 5
+
+Clientes corporativos com uma implantação híbrida do Exchange Online e um serviço local Exchange Server executar o Assistente de Configuração Híbrida (HCW) para manter e estabelecer a instalação híbrida. Ao fazer a transição do Microsoft Cloud Deutschland para a região do Office 365 Germany, o administrador deve executar a versão mais recente do HCW no modo "Office 365 Germany" antes do início da migração do Exchange (Fase 5). Em seguida, execute o HCW novamente no modo "Office 365 Worldwide" na conclusão da Fase 5 para finalizar a implantação local com as configurações da região do Office 365 Germany.
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
-| Atualize para a versão mais recente do Assistente de Configuração Híbrida (HCW) a qualquer momento antes que seu locatário entre no estágio 5 de migração. Você pode iniciar essa atividade imediatamente após receber a notificação da central de mensagens de que a migração de locatários do Office 365 começou (fase 1).<br>O administrador do Exchange deve desinstalar versões anteriores do HCW e instalar e executar a versão mais recente (17.0.5378.0 ou superior) de [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) . |<ul><li>A versão mais recente do HCW inclui atualizações necessárias para dar suporte à migração do Exchange Online da instância do Microsoft Cloud Deutschland para os Serviços Globais do Office 365.</li><li> As atualizações incluem alterações nas configurações de certificado local para o conector _de envio_ e o conector _de recebimento._</li><li>Ao executar o HCW antes da fase 5, selecione "Office 365 Germany" na 2ª página do HCW em _Office 365 Exchange Online_ na caixa de listagem abaixo da organização do Meu Office _365_ é hospedada pela</li><li>**OBSERVAÇÃO**: após a conclusão da migração de locatários do Office 365 após a fase 9, você removerá e instalará novamente o HCW, desta vez usando as configurações "Office 365 Worldwide" na 2ª página do HCW para concluir sua configuração híbrida com o serviço global do Exchange Online.</li></ul>|A falha ao executar o HCW antes da Fase 5 (migração do Exchange) pode resultar em falha no serviço ou no cliente. |
+| (Pré-Estágio 5) - Executar o HCW usando configurações do Office 365 Germany <br><br> <i>Você pode iniciar essa atividade imediatamente após receber a notificação da central de mensagens de que a migração de locatários do Office 365 começou (fase 1).</i>| Desinstalar e executar novamente o HCW (17.0.5378.0 ou superior) antes do Estágio 5 garantirá que sua configuração local esteja preparada para enviar e receber emails com usuários do Microsoft Cloud Deutschland e usuários migrados para a região do [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) Office 365 Germany. <p><li> No HCW, para a caixa de listagem abaixo da organização do **Meu Office 365** é hospedada por , selecione **Office 365 Germany.** | A falha na conclusão dessa tarefa antes do estágio 5 [Migração do Exchange] começar pode resultar em NDRs para emails roteados entre sua implantação local do Exchange e o Office 365.  
+| (Post-Stage 5) - Executar o HCW usando as configurações do Office 365 Worldwide <br><br> <i>Você pode iniciar essa atividade depois de receber a notificação do centro de mensagens de que sua Migração do Exchange está concluída (Fase 5).</i>| Desinstalar e executar novamente o HCW a partir do Estágio 5 irá redefinir a configuração local para configuração híbrida com apenas [https://aka.ms/hybridwizard](https://aka.ms/hybridwizard) o Office 365 global. <p><li> Na caixa de listagem abaixo **da organização do Meu Office 365** é hospedada por , selecione Office **365 Worldwide**. | A falha na conclusão dessa tarefa antes do Estágio 9 [Conclusão da Migração] pode resultar em NDRs para emails roteados entre sua implantação local do Exchange e o Office 365.  
 | Estabeleça o AuthServer local apontando para STS (Serviço de Token de Segurança) global para autenticação | Isso garante que as solicitações de autenticação para solicitações de disponibilidade do Exchange de usuários em estado de migração destinados ao ambiente local híbrido sejam autenticadas para acessar o serviço local. Da mesma forma, isso garantirá a autenticação de solicitações do local para os pontos de extremidade dos serviços globais do Office 365. | Depois que a migração do Azure AD (fase 2) for concluída, o administrador da topologia local do Exchange (híbrido) deverá adicionar um novo ponto de extremidade do serviço de autenticação para os serviços Globais do Office 365. Com este comando do Exchange PowerShell, substitua pela ID de locatário da sua organização encontrada no portal do `<TenantID>` Azure no Azure Active Directory.<br>`New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<TenantId>/metadata/json/1`<br> A falha na conclusão dessa tarefa pode resultar em solicitações híbridas de ocupado livre que não fornecem informações para usuários de caixa de correio que foram migrados do Microsoft Cloud Deutschland para os serviços do Office 365.  |
 ||||
 

@@ -1,20 +1,23 @@
 ---
 title: Trabalhar com Serviços de consultoria da Microsoft
-description: preparação e etapas a seguir para trabalhar com o MCS para empacotar seus aplicativos
-keywords: Microsoft Managed Desktop, Microsoft 365, serviço, documentação, aplicativos, MCS, empacotamento
+description: Preparação e etapas a seguir para trabalhar com o MCS para empacotar seus aplicativos
+keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
+f1.keywords:
+- NOCSH
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 04b0c7905c83be2afa46abcfb2d4bb5cd9735e06
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 1441ca3305a5f3e5a83ddd5e1547812f08d7d96b
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909221"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445691"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Trabalhar com Serviços de consultoria da Microsoft
 
@@ -31,7 +34,7 @@ Para trabalhar com o empacotamento de aplicativos MCS, **você deve fornecer est
 **O MCS tratará dessas ações:**
 
 - Verificar se o aplicativo é proibido ou restrito no ambiente da Área de Trabalho Gerenciada da Microsoft.
-- Teste de instalação, início e desinstalação do aplicativo para garantir a compatibilidade com o Windows 10. Se o MCS descobrir um problema de compatibilidade, eles entregarão o aplicativo para o programa [de](/fasttrack/win-10-desktop-app-assure) Garantia de Aplicativos da Área de Trabalho para correção.
+- Teste de instalação, início e desinstalação do aplicativo para garantir a compatibilidade com o Windows 10. Se o MCS descobrir um problema de compatibilidade, eles entregarão o aplicativo para o programa [de Garantia](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure) de Aplicativos para correção.
 - Empacotando o aplicativo para sua especificação e testando a implantação do aplicativo usando o Microsoft Intune.
 
 ## <a name="app-delivery-schedule"></a>Cronograma de entrega de aplicativos

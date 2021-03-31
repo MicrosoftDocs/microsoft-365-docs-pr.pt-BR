@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 56645553c43289995012d53d7caf879874e65c8a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 56a62ca4ebbd140f507d1735c663924014ca4771
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186924"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445727"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>Integração ao serviço microsoft defender para ponto de extremidade
 
@@ -40,7 +40,7 @@ Saiba mais sobre as várias fases de implantação do Microsoft Defender para Po
 
 Implantar o Defender para Ponto de Extremidade é um processo de três fases:
 
-| [![fase de implantação - preparar](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Fase 1: Preparar](prepare-deployment.md) | [![fase de implantação - instalação](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Fase 2: Instalação](production-deployment.md) | ![fase de implantação - onboard](images/phase-diagrams/onboard.png)<br>Fase 3: Onboard |
+| [![fase de implantação - preparar](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Fase 1: Preparar](prepare-deployment.md) | [![fase de implantação - instalação](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Fase 2: Configurar](production-deployment.md) | ![fase de implantação - onboard](images/phase-diagrams/onboard.png)<br>Fase 3: Integrar |
 | ----- | ----- | ----- |
 | | |*Você está aqui!*|
 
@@ -97,3 +97,4 @@ Usando as ferramentas de implantação mencionadas acima, você será orientado 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Integração usando o Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
 - [Integração usando o Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
+- [Documentos Seguros no Microsoft 365 E5](../office-365-security/safe-docs.md)

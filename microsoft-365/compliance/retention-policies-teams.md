@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção que se aplicam ao Microsoft Teams.
-ms.openlocfilehash: 985131900a5e07188c0af641fb86f794d558f80b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cc17f89da743afce0d64b45f96493c050e61e343
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919777"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408356"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Saiba mais sobre retenção para o Microsoft Teams
 
@@ -43,33 +43,33 @@ Para outras cargas de trabalho, confira:
 
 ## <a name="whats-included-for-retention-and-deletion"></a>O que está incluído para retenção e exclusão
 
-Os seguintes itens de equipes podem ser retidos e excluídos usando políticas de retenção para equipes: Mensagens de bate-papo e mensagens de canal, incluindo imagens incorporadas, tabelas, links de hipertexto e links para outras mensagens e arquivos de equipes e [conteúdo de cartão](/microsoftteams/platform/task-modules-and-cards/what-are-cards). As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
+As mensagens de chat e as mensagens de canal do Teams podem ser excluídas usando políticas de retenção para o Teams e, além do texto nas mensagens, os seguintes itens podem ser retidos por razões de conformidade: Imagens incorporadas, tabelas, links de hipertexto e links para outras mensagens e arquivos do Teams, e [conteúdo do cartão](/microsoftteams/platform/task-modules-and-cards/what-are-cards). As mensagens do chat incluem todos os nomes das pessoas no chat e as mensagens do canal incluem o nome da equipe e o título da mensagem (se fornecido). 
 
 > [!NOTE]
 > Incluir o conteúdo do cartão é uma adição recente e agora totalmente implementada para os locatários. Para obter mais informações, confira [Centro de conformidade do Microsoft 365 para conteúdo do Cartão Adaptável por meio de aplicativos no Teams agora disponíveis](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
-No momento, as mensagens em canais privados do Teams não têm suporte das políticas de retenção. Trechos de código, memorandos de voz gravados do cliente móvel do Teams, miniaturas, imagens de anúncio e reações de outras pessoas na forma de emoticons não estão incluídos quando você usa políticas de retenção para Teams.
+No momento, as mensagens em canais privados do Teams não têm suporte das políticas de retenção. Trechos de código, memorandos de voz gravados a partir do cliente móvel do Teams, miniaturas, imagens de anúncios e reações de outras pessoas na forma de emoticons não são retidos quando você usa políticas de retenção para o Teams.
 
 Emails e arquivos que você usa com o Teams não são incluídos nas políticas de retenção para Teams. Esses itens têm suas próprias políticas de retenção.
 
 ## <a name="how-retention-works-with-microsoft-teams"></a>Como retenção funciona com o Microsoft Teams
 
-Você pode usar uma política de retenção para reter e excluir dados de bate-papos e mensagens de canal no Teams. Nos bastidores, as caixas de correio do Exchange são usadas para armazenar essas mensagens. Os dados dos bate-papos do Teams são armazenados em uma pasta oculta na caixa de correio de cada usuário incluído no bate-papo, e uma pasta oculta semelhante em uma caixa de correio do grupo é usada para mensagens do canal do Teams.
+Você pode usar uma política de retenção para manter os dados de chats e mensagens de canal no Teams, e excluir esses chats e mensagens. Nos bastidores, as caixas de correio do Exchange são utilizadas para armazenar os dados dessas mensagens. Os dados dos bate-papos do Teams são armazenados em uma pasta oculta na caixa de correio de cada usuário incluído no bate-papo, e uma pasta oculta semelhante em uma caixa de correio do grupo é usada para mensagens do canal do Teams.
 
 Estas caixas de correio são listadas pelo atributo RecipientTypeDetails:
 
-- **MailUser**: Essas caixas de correio armazenam mensagens para usuários do Teams baseados em nuvem.
-- **UserMailbox**: Essas caixas de correio armazenam mensagens para [ usuários](search-cloud-based-mailboxes-for-on-premises-users.md) do Teams no local.
-- **GroupMailbox**: essas caixas de correio armazenam mensagens de canais do Teams.
+- **MailUser**: Estas caixas de correio armazenam dados de mensagens para usuários do Teams baseados em nuvem.
+- **UserMailbox**: Essas caixas de correio armazenam dados de mensagens para [usuários do Teams no local](search-cloud-based-mailboxes-for-on-premises-users.md).
+- **GroupMailbox**: Estas caixas de correio armazenam dados de mensagens para os canais do Teams.
 
 Outros tipos de caixa de correio, como RoomMailbox que é usado em salas de conferência do Teams, não têm suporte das políticas de retenção do Teams.
 
-No entanto, é importante compreender que o Teams usa um serviço de chat fornecido pelo Azure que também armazena esses dados e, por padrão, esse serviço armazena os dados para sempre. Por esse motivo, se você precisar excluir mensagens do Teams por motivos de conformidade, recomendamos que você use políticas de retenção para Teams que podem excluir permanentemente esses dados das caixas de correio do Exchange e do serviço de bate-papo baseado no Azure. Para obter mais informações sobre a arquitetura subjacente, confira [Segurança e conformidade no Microsoft Teams](/MicrosoftTeams/security-compliance-overview) e, especificamente, a seção [Arquitetura de Proteção de Informações](/MicrosoftTeams/security-compliance-overview#information-protection-architecture).
+É importante entender que o Teams utiliza um serviço de chat alimentado pelo Azure como seu principal armazenamento para todas as mensagens (chats e mensagens de canal), e por padrão, este serviço armazena os dados indefinidamente. Por essa razão, se você precisar excluir mensagens do Teams por razões de conformidade, recomendamos que você utilize políticas de retenção para o Teams que possam excluir as mensagens após um período específico, com base em quando elas foram criadas. As mensagens são então excluídas permanentemente das caixas de correio do Exchange e do serviço de chat alimentado pelo Azure. Para obter mais informações sobre a arquitetura subjacente, consulte [Segurança e conformidade no Microsoft Teams](/MicrosoftTeams/security-compliance-overview) e, especificamente, a seção [Arquitetura de Proteção de Informações](/MicrosoftTeams/security-compliance-overview#information-protection-architecture).
 
-Embora os chats do Teams e as mensagens do canal sejam armazenados em caixas de correio, esses dados do Teams são incluídos apenas por uma política de retenção configurada para as **mensagens do canal do Teams** e os **locais dos chats do Teams**. Os chats do Teams e as mensagens do canal não são afetados pelas políticas de retenção configuradas para caixas de correio de usuário ou grupo do Exchange.
+Embora os dados dos chats e das mensagens dos canais do Teams sejam armazenadas em caixas de correio, esses dados são incluídos apenas por uma política de retenção configurada para os locais **Mensagens de canal do Teams** e **Chats do Teams**. Os chats do Teams e as mensagens do canal não são afetados pelas políticas de retenção configuradas para caixas de correio de usuário ou grupo do Exchange.
 
 > [!NOTE]
-> Se um usuário estiver incluído em uma política de retenção ativa que retém dados do Teams e você excluir uma caixa de correio de um usuário incluído nessa política, para reter os dados do Teams, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md). Se você não precisar reter esses dados do Teams para o usuário, exclua o usuário da política de retenção antes de excluir a caixa de correio.
+> Se um usuário estiver incluído em uma política de retenção ativa que retenha as mensagens do Teams e você excluir uma caixa de correio de um usuário incluído nesta política, a caixa de correio será convertida em uma [caixa de correio inativa](inactive-mailboxes-in-office-365.md) para reter os dados do Teams. Se você não precisar reter esses dados do Teams para o usuário, exclua o usuário da política de retenção antes de excluir a caixa de correio.
 
 Depois que uma política de retenção for configurada para mensagens de chat e de canal, um trabalho de temporizador do serviço do Exchange avaliará periodicamente os itens na pasta oculta em que essas mensagens do Teams são armazenadas. O trabalho de temporizador leva até sete dias para ser executado. Quando esses itens expiraram o período de retenção, eles são movidos para a pasta SubstrateHolds, outra pasta oculta que todo usuário ou caixa de correio de grupo possui para armazenar itens “excluídos temporariamente” antes de serem permanentemente excluídos.
 
