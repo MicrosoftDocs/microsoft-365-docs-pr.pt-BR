@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 298300de8581d3eea185f05b92bb69cb6e7a69eb
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: dbfe1d4aaa821714bac68692d3be38ba8aad8e7f
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034200"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488218"
 ---
 # <a name="communication-compliance-feature-reference"></a>Referência do recurso de conformidade de comunicação
 
@@ -114,11 +114,6 @@ Com as políticas de conformidade de comunicação, você pode optar por examina
     - **Para comunicações de chat do Teams:** Atribua usuários individuais ou atribua um [grupo de distribuição](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) à política de conformidade de comunicação. Essa configuração é para relações de usuário/chat de um para um ou um para muitos.
     - **Para comunicações do Teams Channel:** Atribua cada canal do Microsoft Teams ou grupo do Microsoft 365 que você deseja verificar que contém um usuário específico para a política de conformidade de comunicação. Se você adicionar o mesmo usuário a outros canais do Microsoft Teams ou grupos do Microsoft 365, adicione esses novos canais e grupos à política de conformidade de comunicação. Se qualquer membro do canal for um usuário  supervisionado dentro de uma política e a direção de entrada estiver configurada em uma política, todas as mensagens enviadas dentro do canal estão sujeitas a análises e possíveis combinações de política (mesmo para usuários no canal que não são explicitamente supervisionados). Por exemplo, o Usuário A é o proprietário ou membro de um canal. Os usuários B e User C são membros do mesmo canal e usam idioma que é corresponde à política de idioma ofensivo que supervisiona apenas o Usuário A. O usuário B e o usuário C criam jogos de política para conversas dentro do canal, mesmo que não sejam supervisionados diretamente na política de idioma ofensivo. As conversas do Teams entre o Usuário B e o Usuário C que estão fora do canal que inclui o Usuário A não estariam sujeitas à política de idioma ofensivo que inclui o Usuário A. Para excluir membros do canal da supervisão quando outros membros do  canal são explicitamente supervisionados, desligue a configuração de direção de comunicação de entrada na política de conformidade de comunicação aplicável.
     - Para comunicações de chat do Teams com ambientes de **email híbridos:** a conformidade de comunicação pode monitorar mensagens de chat para usuários para organizações com uma implantação local do Exchange ou um provedor de email externo que tenha habilitado o Microsoft Teams. Você deve criar um grupo de distribuição para os usuários com caixas de correio locais ou externas para monitorar. Ao criar uma política de conformidade de comunicação,  você atribuirá esse grupo de distribuição como a seleção usuários supervisionados e grupos no assistente de política.
-
-    >[!IMPORTANT]
-    >Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams para usuários locais. Para obter mais informações, consulte [Pesquisar caixas de correio baseadas em nuvem para usuários locais.](search-cloud-based-mailboxes-for-on-premises-users.md)
-
-Você deve registrar uma solicitação com o suporte da Microsoft para permitir que a sua organização use a interface gráfica do usuário no Centro de Conformidade e Segurança para pesquisar os dados de chat do Teams as caixas de correio baseadas em nuvem para usuários locais.
 
 - **Email do Exchange**: As caixas de correio hospedadas no Exchange Online como parte da sua assinatura do Microsoft 365 ou do Office 365 estão qualificadas para verificação de mensagens. As mensagens de email e anexos do Exchange que coincidem com as condições da política de conformidade de comunicação podem levar até 24 horas para ser processadas. Os tipos de anexo com suporte para conformidade de comunicação são os mesmos que os tipos de arquivo com suporte para inspeções de conteúdo da regra de fluxo de emails [do Exchange.](/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)
 
@@ -310,7 +305,7 @@ Os filtros de conformidade de comunicação permitem filtrar e classificar mensa
 | **Tem anexo** | A presença de anexo na mensagem. |
 | **Classe Item** | A origem da mensagem com base no tipo de mensagem, email, chat da Equipe da Microsoft, Bloomberg, etc. Para obter mais informações sobre tipos de item comuns e classes de mensagem, consulte [Tipos de Item e Classes de Mensagem.](/office/vba/outlook/concepts/forms/item-types-and-message-classes) |
 | **Domínios de destinatário** | O domínio para o qual a mensagem foi enviada. Esse domínio normalmente é seu domínio de assinatura do Microsoft 365 por padrão. |
-| **Recipient** | O usuário para o qual a mensagem foi enviada. |
+| **Recipiente** | O usuário para o qual a mensagem foi enviada. |
 | **Sender** | A pessoa que enviou a mensagem. |
 | **Domínio do remetente** | O domínio que enviou a mensagem. |
 | **Tamanho** | O tamanho da mensagem em KB. |

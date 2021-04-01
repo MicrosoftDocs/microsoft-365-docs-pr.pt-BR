@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma ressarcição associada a um caso core de Descoberta eDiscovery para preservar conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: c84d0be5a4a659ff9b64af14052bcf4033e2ed24
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 1026de3b5357c3417a00a69b4ae6890e8036c091
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470472"
+ms.locfileid: "51488240"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -131,8 +131,8 @@ As conversas que fazem parte de um canal do Microsoft Teams são armazenadas na 
 
 Como alternativa, as conversas que fazem parte da lista chat no Teams (chamadas *de chats 1:1* ou chats de grupo *1:N*) são armazenadas nas caixas de correio dos usuários que participam do chat. E os arquivos que os usuários compartilham em conversas de chat são armazenados na conta do OneDrive do usuário que compartilha o arquivo. Portanto, você precisa adicionar as caixas de correio de usuário individuais e contas do OneDrive a uma responsabilidade de Descoberta Eletrônico para preservar conversas e arquivos na lista de chat. É uma boa ideia colocar em espera as caixas de correio de membros de uma Equipe da Microsoft, além de colocar a caixa de correio e o site de equipe em espera.
 
-> [!IMPORTANT]
-> Em uma organização baseada em nuvem, os usuários que participam de conversas que fazem parte da lista de chat no Teams devem ter uma caixa de correio do Exchange Online para manter conversas de chat quando a caixa de correio é colocada em uma retenção de Descoberta Eletrônico. Isso porque as conversas que fazem parte da lista de chat são armazenadas nas caixas de correio baseadas em nuvem dos participantes do chat. Se um participante de chat não tiver uma caixa de correio do Exchange Online, você não poderá preservar essas conversas de chat. Por exemplo, em uma implantação híbrida do Exchange, os usuários com uma caixa de correio local podem participar de conversas que fazem parte da lista de chat no Teams. Mas, nesse caso, o conteúdo dessa conversa não pode ser preservado porque esses usuários não têm caixas de correio baseadas em nuvem que podem ser colocadas em espera.
+> [!NOTE]
+> Se sua organização tiver uma implantação híbrida do Exchange (ou sua organização sincronizar uma organização local do Exchange com o Office 365) e habilitar o Microsoft Teams, os usuários locais poderão usar o aplicativo de chat do Teams e participar de chats 1:1 e chats de grupo 1:N. Essas conversas são armazenadas no armazenamento baseado em nuvem associado a um usuário local. Se um usuário local for colocado em uma responsabilidade de Descoberta Virtual, o conteúdo de chat do Teams no armazenamento baseado em nuvem será preservado. Para obter mais informações, confira [Pesquisar dados de bate-papo do Teams para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
 
 Para obter mais informações sobre como preservar o conteúdo do Teams, consulte Colocar um usuário ou equipe do [Microsoft Teams em espera legal](/MicrosoftTeams/legal-hold).
 
