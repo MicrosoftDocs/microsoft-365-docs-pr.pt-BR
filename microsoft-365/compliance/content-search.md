@@ -21,12 +21,12 @@ ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 ms.custom:
 - seo-marvel-apr2020
 description: Use a ferramenta de Pesquisa de Conteúdo no centro de conformidade da Microsoft para pesquisar conteúdo em diferentes serviços do Microsoft 365.
-ms.openlocfilehash: 2e9dcde65a4f2728782fd300f962dfb3e80ed3c9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f648d0d0a68db4db32297a407fb944571f702b8e
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908623"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470650"
 ---
 # <a name="content-search"></a>Pesquisa de Conteúdo
 
@@ -66,18 +66,18 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
     
     ![Especifique palavras-chave, condições e locais a serem pesquisados](../media/1e6de9dd-eac9-4e2a-819d-9740cf6c9106.png)
   
-   - **Palavras-chave a pesquisar:** Digite uma consulta de pesquisa na caixa de **Palavras-chave**. Você pode especificar palavras-chave, propriedades de mensagem como datas enviadas e recebidas, ou ainda, propriedades do documento como nomes de arquivos ou a data em que um documento foi alterado pela última vez. Faça consultas mais complexas que usam um operador Booleano, **E**, **OU**, **NÃO** e **PRÓXIMO**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavra-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa.
+   1. **Palavras-chave a pesquisar:** Digite uma consulta de pesquisa na caixa de **Palavras-chave**. Você pode especificar palavras-chave, propriedades de mensagem como datas enviadas e recebidas, ou ainda, propriedades do documento como nomes de arquivos ou a data em que um documento foi alterado pela última vez. Faça consultas mais complexas que usam um operador Booleano, **E**, **OU**, **NÃO** e **PRÓXIMO**. Você também pode procurar informações confidenciais (por exemplo, números de seguridade social) em documentos ou pesquisar documentos que foram compartilhados externamente. Se você deixar a caixa de palavra-chave vazia, todo o conteúdo localizado nos locais de conteúdo especificado será incluído nos resultados da pesquisa.
 
       Como alternativa, você pode clicar na caixa de seleção **Mostrar lista de palavras-chave** e digitar uma palavra-chave em cada linha. Ao fazer isso, as palavras-chave em cada linha serão conectadas por um operador lógico (**c:s**) com funcionalidade semelhante ao operador **OU** na consulta de pesquisa criada. 
     
       Por que usar a lista de palavras-chave? Para obter estatísticas que mostram quantos itens correspondem a cada palavra-chave. Isso ajudará a identificar rapidamente quais palavras-chave são as mais recentes. Também poderá usar uma frase de palavra-chave (entre parênteses) em uma linha. Para obter mais informações sobre as estatísticas de pesquisa, confira [Exibir estatísticas da palavra-chave para Resultados de Pesquisa de Conteúdo](view-keyword-statistics-for-content-search.md).
 
-     > [!NOTE]
-     > Para ajudar a reduzir problemas causados por listas de palavras-chave muito extensas, agora você está limitado a um máximo de 20 linhas na lista de palavras-chave.
+      > [!NOTE]
+      > Para ajudar a reduzir problemas causados por listas de palavras-chave muito extensas, agora você está limitado a um máximo de 20 linhas na lista de palavras-chave.
     
-    - **Condições:** Você também pode adicionar condições a uma consulta de pesquisa para restringir a pesquisa e produzir um conjunto de resultados mais refinado. Cada condição adiciona uma cláusula à consulta de pesquisa que é criada e executada quando você inicia a pesquisa. Uma condição é logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) por um operador lógico (**c:c**) parecido com a funcionalidade do operador **E**. Isso significa que os itens precisam atender à consulta de palavras-chave e uma ou mais condições para serem incluídas nos resultados. É assim que as condições ajudam a restringir os resultados. Para obter uma lista e uma descrição das condições que podem ser usadas em uma consulta de pesquisa, confira a seção "Condições de pesquisa" em [Consultas de palavra-chave e condições ou critérios de pesquisa para a Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md#search-conditions).
+    2. **Condições:** Você também pode adicionar condições a uma consulta de pesquisa para restringir a pesquisa e produzir um conjunto de resultados mais refinado. Cada condição adiciona uma cláusula à consulta de pesquisa que é criada e executada quando você inicia a pesquisa. Uma condição é logicamente conectada à consulta de palavra-chave (especificada na caixa de palavra-chave) por um operador lógico (**c:c**) parecido com a funcionalidade do operador **E**. Isso significa que os itens precisam atender à consulta de palavras-chave e uma ou mais condições para serem incluídas nos resultados. É assim que as condições ajudam a restringir os resultados. Para obter uma lista e uma descrição das condições que podem ser usadas em uma consulta de pesquisa, confira a seção "Condições de pesquisa" em [Consultas de palavra-chave e condições ou critérios de pesquisa para a Pesquisa de Conteúdo](keyword-queries-and-search-conditions.md#search-conditions).
     
-       - **Locais:** Escolha os locais de conteúdo a serem pesquisados.
+    3. **Locais:** Escolha os locais de conteúdo a serem pesquisados.
     
       - **Todos os locais:** Use essa opção para pesquisar todos os locais de conteúdo em sua organização. Isso inclui e-mails em todas as caixas de correio do Exchange (incluindo todas as caixas de correio inativas e caixas de correio do Microsoft Teams, Yammer Groups e Grupos do Microsoft 365), todas as conversas do Skype for Business, todos os sites do SharePoint e do OneDrive for Business (incluindo o sites para todos os grupos do Microsoft Teams, do Yammer e do Grupos do Microsoft 365), e itens em todas as pastas públicas do Exchange.
     
@@ -87,9 +87,11 @@ Para ter acesso à página da **Pesquisa de conteúdo** e poder executar pesquis
   
          Também é possível adicionar grupos de distribuição à lista de caixas de correio do Exchange para pesquisar. Para grupos de distribuição, as caixas de correio dos membros do grupo são pesquisadas. Não há suporte para grupos dinâmicos de distribuição.
     
-       > [!NOTE]
-       > Quando você pesquisa todos os locais de caixa de correio ou apenas caixas de correio específicas, os dados de outros aplicativos do Office 365 salvos nas caixas de correio do usuário são incluídos quando você exporta os resultados de uma pesquisa de conteúdo. Esses dados não serão incluídos nos resultados de pesquisa estimados e não estarão disponíveis para visualização. Eles serão incluídos na exportação e no download dos resultados da pesquisa. Para obter mais informações, confira [Conteúdo armazenado nas caixas de correio do Exchange Online](what-is-stored-in-exo-mailbox.md).
-   
+        > [!NOTE]
+        > Quando você pesquisa todos os locais de caixa de correio ou apenas caixas de correio específicas, os dados de outros aplicativos do Office 365 salvos nas caixas de correio do usuário são incluídos quando você exporta os resultados de uma pesquisa de conteúdo. Esses dados não serão incluídos nos resultados de pesquisa estimados e não estarão disponíveis para visualização. Eles serão incluídos na exportação e no download dos resultados da pesquisa. Para obter mais informações, confira [Conteúdo armazenado nas caixas de correio do Exchange Online](what-is-stored-in-exo-mailbox.md).
+
+   4. **Adicionar conteúdo de aplicativo para usuários locais:** Selecione esta caixa de seleção para incluir o conteúdo do Teams para usuários locais na pesquisa. Por exemplo, se você pesquisar todas as caixas de correio do Exchange na organização e também selecionar esta caixa de seleção, o armazenamento baseado em nuvem usado para armazenar os dados de bate-papo do Teams para usuários locais será incluído no escopo da pesquisa. Para obter mais informações, confira [Pesquisar dados de bate-papo do Teams para usuários locais](search-cloud-based-mailboxes-for-on-premises-users.md).
+
 5. Depois de configurar a consulta de pesquisa, clique em **Salvar e executar**.
     
 6. Na página **Salvar pesquisa**, digite um nome para a pesquisa e uma descrição opcional que ajude a identificar a pesquisa. O nome da pesquisa deve ser exclusivo na organização. 

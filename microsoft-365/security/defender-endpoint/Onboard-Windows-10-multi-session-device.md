@@ -1,5 +1,5 @@
 ---
-title: Onboard Windows 10 multi-session devices in Windows Virtual Desktop
+title: Dispositivos integrados com várias sessões do Windows 10 na Área de Trabalho Virtual do Windows
 description: Leia mais neste artigo sobre a integração de dispositivos de várias sessões do Windows 10 na Área de Trabalho Virtual do Windows
 keywords: Área de trabalho virtual do Windows, WVD, microsoft defender, ponto de extremidade, onboard
 search.product: eADQiWindows 10XVcnh
@@ -13,24 +13,20 @@ ms.topic: article
 author: dansimp
 ms.author: dansimp
 ms.custom: nextgen
-ms.date: 09/10/2020
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: bfd447120e171fed063b3224e3a47c2ef38f0f16
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 3f925fdc514c5e53b50f748d991f54d20fb49bd0
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222606"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488140"
 ---
-# <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Onboard Windows 10 multi-session devices in Windows Virtual Desktop 
+# <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Dispositivos integrados com várias sessões do Windows 10 na Área de Trabalho Virtual do Windows 
 6 minutos para leitura 
 
 Aplicável a: 
 - Windows 10 com várias sessões em execução na Área de Trabalho Virtual do Windows (WVD) 
-
-> [!WARNING]
-> O suporte do Microsoft Defender para Ponto de Extremidade para cenários de várias sessões da Área de Trabalho Virtual do Windows está atualmente em Visualização e limitado a até 25 sessões simultâneas por host/VM. No entanto, cenários de sessão única na Área de Trabalho Virtual do Windows são totalmente suportados.
 
 O Microsoft Defender para Ponto de Extremidade oferece suporte ao monitoramento de sessões de VDI e da Área de Trabalho Virtual do Windows. Dependendo das necessidades da sua organização, talvez seja necessário implementar sessões de VDI ou Área de Trabalho Virtual do Windows para ajudar seus funcionários a acessarem dados corporativos e aplicativos de um dispositivo sem gestão, localização remota ou cenário semelhante. Com o Microsoft Defender para Ponto de Extremidade, você pode monitorar essas máquinas virtuais para atividades anômalas.
 

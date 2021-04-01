@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a8ab1ba1f0dc1bb629e438380b7b77e1ed221f08
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 16f0d96b75ec7035ca133f75a83df1f284ee5c4b
+ms.sourcegitcommit: 847b0920016ae20c82a0501bda6019cd940482df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186024"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51484739"
 ---
 # <a name="web-content-filtering"></a>Filtragem de conteúdo da Web
 
@@ -60,7 +60,7 @@ Para uma experiência mais amigável no navegador, considere usar o Microsoft Ed
 
 Antes de tentar esse recurso, certifique-se de ter os seguintes requisitos:
 
-- Licença do Windows 10 Enterprise E5 OU Complemento de Segurança do Microsoft 365 E3 + Microsoft 365 E5.
+- Windows 10 Enterprise E5, Microsoft 365 E5, Microsoft 365 E5 Security, Microsoft 365 E3 + Complemento de Segurança do Microsoft 365 E5 ou a licença autônoma do Microsoft Defender for Endpoint. 
 - Acesso ao portal do Centro de Segurança do Microsoft Defender
 - Dispositivos que executam a Atualização de Aniversário do Windows 10 (versão 1607) ou posterior com a atualização mais recente do MoCAMP.
 
@@ -159,6 +159,8 @@ Use o filtro de intervalo de tempo na parte superior esquerda da página para se
 - Somente o Microsoft Edge é suportado se a configuração do sistema operacional do seu dispositivo for Server (cmd > Systeminfo > configuração do sistema operacional). A Proteção de Rede só tem suporte no modo Inspecionar em dispositivos Server, que é responsável por proteger o tráfego em navegadores de terceiros com suporte.
 
 - Os dispositivos não atribuídos terão dados incorretos mostrados no relatório. No pivot Detalhes do relatório > grupos de dispositivos, você pode ver uma linha com um campo Grupo de Dispositivos em branco. Esse grupo contém seus dispositivos não atribuídos antes que eles sejam colocados no grupo especificado. O relatório dessa linha pode não conter uma contagem precisa de dispositivos ou contagens de acesso.
+
+- Atualmente, os relatórios de Filtragem de Conteúdo da Web estão limitados a mostrar os 5.000 principais registros. Por exemplo, o relatório 'Domínios' mostrará apenas um máximo dos 5.000 domínios principais para uma determinada consulta de filtro, se aplicável. 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

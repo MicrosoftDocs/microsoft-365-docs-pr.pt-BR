@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'A prevenção contra perda de dados do Microsoft 365 Endpoint estende o monitoramento de atividades de arquivo e ações de proteção desses arquivos para os pontos de extremidade. Os arquivos do são visíveis nas soluções do Centro de conformidade do Microsoft 365 '
-ms.openlocfilehash: d4a3fef03322912bf169cd195984a17d8dfe3b17
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5aaed57574f1ecabdf28442b30dcd42677243df1
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907045"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445271"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade do Microsoft 365
 
@@ -36,7 +36,7 @@ Você pode usar a prevenção contra perda de dados (DLP) da Microsoft 365 para 
 
 O Microsoft Endpoint DLP permite a auditoria e o gerenciamento dos seguintes tipos de atividades que os usuários têm em itens confidenciais em dispositivos com Windows 10. 
 
-|atividade |descrição  | auditável/restringivel|
+|Atividade |Descrição  | Auditável/restringivel|
 |---------|---------|---------|
 |carregar para o serviço de nuvem ou acessar por navegadores não permitidos    | Detecta quando um usuário tenta carregar um item em um domínio de serviço restrito ou acessar um item por meio de um navegador.  Se eles estiverem usando um navegador listado na DLP como um navegador não permitido, a atividade de carregamento será bloqueada e o usuário será redirecionado para usar o Edge Chromium. O Edge Chromium permitirá ou bloqueará o carregamento ou o acesso com base na configuração da política DLP         |auditável e restringível|
 |copiar para outro aplicativo    |Detecta quando um usuário tenta copiar informações de um item protegido e, em seguida, colá-las em outro aplicativo, processo ou item. A cópia e a colagem de informações dentro do mesmo aplicativo, processo ou item não é detectada por essa atividade.         | auditável e restringível|
@@ -67,7 +67,7 @@ Endpoint DLP oferece suporte ao monitoramento destes tipos de arquivo:
 - Arquivos .h
 - Arquivos .java
  
-Por padrão, o DLP do endpoint audita as atividades para esses tipos de arquivo, mesmo se não houver uma correspondência de política. Se quiser apenas monitorar dados de correspondências de política, você pode desligar **Sempre auditar atividade de arquivo para dispositivos** nas configurações globais de DLP do endpoint. Não importa o que aconteça, as atividades em qualquer arquivo Word, PowerPoint, Excel, PDF e .csv são sempre auditadas.
+Por padrão, o DLP do endpoint audita as atividades para esses tipos de arquivo, mesmo se não houver uma correspondência de política. Se quiser apenas monitorar dados de correspondências de política, você pode desligar **Sempre auditar atividade de arquivo para dispositivos** nas configurações globais de DLP do endpoint. Se esta configuração estiver ativada, as atividades em qualquer arquivo do Word, PowerPoint, Excel, PDF e .CSV serão sempre auditadas, mesmo que o dispositivo não seja direcionado por nenhuma política.
 
 O DLP do ponto de extremidade monitora a atividade com base no tipo MIME, portanto, as atividades serão capturadas mesmo se a extensão do arquivo for alterada. 
 
@@ -102,15 +102,15 @@ Se você tiver dispositivos integrados por meio do [Microsoft Defender para Pont
 
 ### <a name="viewing-endpoint-dlp-data"></a>Exibir dados de DLP do Endpoint
 
-
-
 Visualize os alertas relacionados às políticas DLP aplicadas em dispositivos de ponto de extremidade no [Painel de Gerenciamento de Alertas DLP](dlp-configure-view-alerts-policies.md).
 
-![Informações sobre alertas](../media/Alert-info-1.png)
+> [!div class="mx-imgBorder"]
+> ![Informações sobre alertas](../media/Alert-info-1.png)
 
-Você também pode visualizar detalhes do evento associado com metadados ricos no mesmo painel
+Você também pode exibir os detalhes do evento associado com metadados ricos no mesmo painel
 
-![informações do evento](../media/Event-info-1.png)
+> [!div class="mx-imgBorder"]
+> ![informações do evento](../media/Event-info-1.png)
 
 Após a integração de um dispositivo, as informações sobre as atividades auditadas fluem no explorador de atividades mesmo antes de você configurar e implantar as políticas DLP que têm dispositivos como um local.
 

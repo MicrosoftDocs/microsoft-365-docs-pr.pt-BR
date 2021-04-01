@@ -18,25 +18,25 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações das fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 53a8c9470093db9d57d8dc18f4242d1a596c6efd
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ca24fff5e8b18128c55288352e65aa3cecfe3d81
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165628"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476608"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland-general"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland (geral)
 
-As migrações de locatários do Microsoft Cloud Deutschland (MCD) para a região "Alemanha" dos serviços Globais do Office 365 da Microsoft são executadas como um conjunto de fases e suas ações configuradas para cada carga de trabalho. Esta figura mostra as nove fases de migração para os novos datacenters alemães.
+As migrações de locatários do Microsoft Cloud Deutschland (MCD) para a região "Alemanha" dos serviços Globais do Office 365 da Microsoft são executadas como um conjunto de fases e suas ações configuradas para cada carga de trabalho. Esta figura mostra as dez fases de migração para os novos datacenters alemães.
 
-![As nove fases de migração para os novos datacenters da Alemanha](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+![As dez fases de migração para os novos datacenters da Alemanha](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
 
 O processo de migração será concluído ao longo de muitas semanas, dependendo do tamanho geral e da complexidade da organização. Enquanto a migração está em andamento, os usuários e administradores podem continuar utilizando os serviços com alterações notáveis detalhadas nesta documentação. O gráfico e a tabela definem fases e etapas durante a migração.
 
 |Etapa|Duration|Responsável|Descrição|
 |:--------|:--------|:--------|:--------|
 |Opt-In|Horas|Cliente|Opte pela sua organização na migração.|
-|Pré-trabalho|Dias|Cliente|Conclua o trabalho necessário para preparar usuários, estações de trabalho e rede para migração.|
+|Pré-trabalho|Days|Cliente|Conclua o trabalho necessário para preparar usuários, estações de trabalho e rede para migração.|
 |Azure Active Directory (Azure AD)|1 a 2 dias|Microsoft|Migrar a organização do Azure AD para todo o mundo.|
 |Azure|Semanas|Cliente|Criar novas assinaturas do Azure em todo o mundo e fazer a transição dos serviços do Azure.|
 |Transição de licença & assinatura|1 a 2 dias|Microsoft|Compre assinaturas em todo o mundo, cancele assinaturas do Microsoft Cloud Deutschland e licenças de usuário de transição.|
@@ -47,6 +47,8 @@ O processo de migração será concluído ao longo de muitas semanas, dependendo
 |Power BI & Dynamics 365|Mais de 15 dias|Microsoft|Migrar conteúdo do Power BI e do Dynamics 365.|
 |Finalizar o Azure AD|1 a 2 dias|Microsoft|Concluir a recortamento de locatários para todo o mundo.|
 |Clean-Up|1 a 2 dias|Cliente|Limpe as conexões herdadas com o Microsoft Cloud Deutschland, como reinicializações dos Serviços de Federação do Active Directory (AD FS), Confiança de Parte Confiável do Azure AD Connect e cliente do Office.|
+|Pontos de extremidade desabilitados|30 dias|Microsoft|30 dias após a finalização do Azure AD, o serviço do Microsoft Cloud Deutschland Azure AD interromperá o acesso ao ponto de extremidade para a organização em transição. As solicitações de ponto de extremidade, como Autenticação, falharão deste ponto em diante em relação ao serviço Microsoft Cloud Deutschland. |
+
 
 As fases e suas ações garantem que dados críticos e experiências sejam migrados para os serviços Globais do Office 365. Depois que o locatário for adicionado à fila de migração, cada carga de trabalho será concluída como um conjunto de etapas executadas no serviço de back-end. Algumas cargas de trabalho podem exigir ações do administrador (ou do usuário) ou a migração pode afetar o uso das fases executadas e discutidas em Como a migração [é organizada?](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
@@ -118,6 +120,7 @@ Se você quiser modificar as fotos do usuário durante a fase 5, consulte [Excha
 |Pare ou exclua qualquer movimentação de caixa de correio de integração ou de offboard, ou seja, não mova caixas de correio entre o Exchange local e o Exchange Online.  | Isso garante que as solicitações de movimentação de caixa de correio não falhem com um erro. | A falha ao fazer isso pode resultar em falha do serviço ou dos clientes do Office. |
 | As caixas de correio do Exchange Online são movidas do Microsoft Cloud Deutschland para os serviços Globais do Office 365.| A configuração do Exchange Online adiciona a nova região go-local alemã à organização em transição. A região de serviços globais do Office 365 é definida como padrão, o que permite que o serviço de balanceamento de carga interno redistribua caixas de correio para a região padrão apropriada nos serviços do Office 365. Nesta transição, os usuários de ambos os lados (mcd ou serviços globais) estão na mesma organização e podem usar o ponto de extremidade da URL. |<ul><li>Transições de usuários e serviços de urls mcd herdados (outlook.office.de) para novas URLs de serviços do Office 365 ( `https://outlook.office365.com` ).</li><li>Os usuários podem continuar a acessar o serviço por meio de URLs MCD herdados durante a migração, no entanto, eles precisam parar de usar as URLs herdados na conclusão da migração.</li><li>Os usuários devem fazer a transição para o uso do portal do Office mundial para recursos do Office Online (Calendário, Email, Pessoas). A navegação para serviços que ainda não foram migrados para os serviços do Office 365 não funcionará até que sejam migrados. </li><li>O Outlook Web App não fornecerá a experiência de pasta pública durante a migração. </li></ul>|
 | Atualizar configurações de DNS personalizadas para Descoberta Automática| As configurações de DNS gerenciadas pelo cliente para Descoberta Automática que apontam para o Microsoft Cloud Deutschland precisam ser atualizadas para se referir ao ponto de extremidade global do Office 365 na conclusão da fase do Exchange Online (fase 5). <br> Entradas DNS existentes com CNAME apontando para autodiscover-outlook.office.de precisam ser atualizadas para apontar para autodiscover.outlook.com. |  Solicitações de disponibilidade e chamadas de descoberta de serviço por meio do ponto de Descoberta Automática diretamente para os serviços do Office 365. Os clientes que não executam essas atualizações DNS podem ter problemas de serviço de Descoberta Automática quando a migração for finalizada. |
+| Os usuários devem atualizar a configuração do cliente POP3, IMAP4, SMTP. | Os usuários que têm conexões de dispositivo com pontos de extremidade do Microsoft Cloud Deutschland para protocolos de cliente POP3, IMAP4, SMTP são obrigados a atualizar manualmente seus dispositivos cliente para alternar para os pontos de extremidade do [Office 365](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) em todo o mundo simultaneamente com a migração de caixa de correio para a região do Office 365 Germany. <br> smtp.office365.com : SMTP (TCP:587), outlook.office365.com : IMAP4 (TCP:993), POP3 (TCP:995)| Os usuários desses protocolos devem alternar para usar o Outlook mobile ou o Outlook na Web enquanto sua caixa de correio é transionada e atualizar as configurações IMAP4, POP3, SMTP em dispositivos cliente para os novos pontos de extremidade após a conclusão. A falha na atualização dos pontos de extremidade do cliente resultará em falhas de conexão do cliente em relação ao Microsoft Cloud Deutschland quando as caixas de correio de usuário são migradas. |
 ||||
 
 Considerações adicionais:
@@ -204,6 +207,18 @@ Os clientes com o Dynamics 365 exigem envolvimento adicional para migrar as orga
 ||||
 
 \*\* (i) Os clientes com o Microsoft Power BI devem tomar medidas nesse cenário de migração conforme definido pelo processo de migração fornecido. (ii) A falha da ação do cliente significa que a Microsoft não poderá concluir a migração. (iii) Quando a Microsoft não conseguir concluir a migração devido à inação do cliente, a assinatura do cliente expirará em 29 de outubro de 2021.
+
+## <a name="azure-ad-finalization-phase-9-10"></a>Finalização do Azure AD (Fase 9, 10)
+
+**Aplica-se a:** Todos os clientes
+
+Quando o locatário do Office 365 conclui a etapa final da migração [Finalização do Azure AD (Fase 9)] todos os serviços são transições para todo o mundo. Nenhum aplicativo ou usuário deve estar acessando recursos para o locatário em qualquer um dos pontos de extremidade do Microsoft Cloud Deutschland. Automaticamente, 30 dias após a conclusão da finalização, o serviço do Microsoft Cloud Deutschland Azure AD interromperá o acesso ao ponto de extremidade para o locatário em transição. As solicitações de ponto de extremidade, como Autenticação, falharão deste ponto em diante em relação ao serviço Microsoft Cloud Deutschland. 
+
+| Step(s) | Descrição | Impacto |
+|:-------|:-------|:-------|
+| Atualizar pontos de extremidade do usuário | Garantir que todos os usuários acessem o serviço usando os pontos de extremidade do mundo inteiro da Microsoft apropriados |30 dias após a finalização da migração, os pontos de extremidade do Microsoft Cloud Deutschland param de receber solicitações; o tráfego de cliente ou aplicativo falhará.  |
+| Atualizar pontos de extremidade do aplicativo do Azure AD | Você deve atualizar a Autenticação, o Azure Active Directory (Azure AD) Graph e os pontos de extremidade do MS Graph para seus aplicativos para os do serviço Microsoft Worldwide. | 30 dias após a finalização da migração, os pontos de extremidade do Microsoft Cloud Deutschland param de receber solicitações; o tráfego de cliente ou aplicativo falhará. |
+||||
 
 ## <a name="office-apps"></a>Office Apps
 

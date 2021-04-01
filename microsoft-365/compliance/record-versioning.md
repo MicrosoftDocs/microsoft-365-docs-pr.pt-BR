@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre os registros para ajudá-lo na implementação de uma solução de gerenciamento de registros no Microsoft 365.
-ms.openlocfilehash: 52ca56436686faac1d414dac47e2e9e16c36fa90
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 5c828f06f2ce9e2bd18869f897f1f372c1a62f21
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408554"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471120"
 ---
 # <a name="use-record-versioning-to-update-records-stored-in-sharepoint-or-onedrive"></a>Use o controle de versão de registro para atualizar os registros armazenados no SharePoint ou no OneDrive
 
@@ -45,8 +45,8 @@ Agora, você pode fazer o seguinte:
 
   - **Manter um documento perene que contenha todas as versões.** Por padrão, cada documento do SharePoint e do OneDrive têm um histórico de versão disponível no menu do item. Nesse histórico de versão, você pode ver facilmente quais versões são registros e exibir esses documentos.
 
-> [!NOTE]
-> Ao usar o controle de versão de registro com um rótulo de retenção com uma ação de exclusão, recomendamos que você também defina a configuração de retenção **Iniciar o período de retenção com base em:** para ser **Quando os itens forem rotulados**. Com essa configuração de rótulo, o início do período de retenção é redefinido para cada nova versão de registro, o que garante que versões mais antigas sejam excluídas antes das versões mais recentes.
+> [!TIP]
+> Quando você usar o controle de versão do registro com um rótulo de retenção que tenha uma ação de exclusão, considere definir a configuração de retenção **Inicie o período de retenção com base em:** para ser **Quando os itens forem rotulados**. Com essa configuração de rótulo, o início do período de retenção é redefinido para cada nova versão de registro, o que garante que versões mais antigas sejam excluídas antes das versões mais recentes.
 
 O controle de versão do registro está disponível automaticamente para qualquer documento que tenha um rótulo de retenção que marque o item como registro. Quando um usuário exibe as propriedades do documento usando o painel de detalhes, eles podem alternar o **Status do registro** de **Bloqueado** para **Desbloqueado**. Essa ação cria um registro na pasta Registros na Biblioteca de Retenção para Preservação, onde reside pelo restante do período de retenção. 
 

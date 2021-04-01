@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Visão geral dos Tópicos do Viva.
-ms.openlocfilehash: 68a88e74a674a7bbc290ae0e8f88bfbe0277d910
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4598c47b07287789a7a194914232799de5ca7b85
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917375"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488152"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Visão geral dos Tópicos do Microsoft Viva 
 
@@ -99,7 +99,7 @@ Consulte [Gerenciar tópicos na Central de tópicos](manage-topics.md) para sabe
 
 ## <a name="admin-controls"></a>Controles de administrador
 
-Os controles de administrador no Centro de administração do Microsoft 365 permitem que você gerencie sua rede de conhecimento. Eles permitem que um administrador global do Microsoft 365 ou do SharePoint:
+Os controles de administrador no Centro de administração do Microsoft 365 permitem que você gerencie Tópicos do Viva. Eles permitem que um administrador global do Microsoft 365 ou do SharePoint:
 
 - Controle quais usuários em sua organização têm permissão para ver tópicos nas páginas modernas do SharePoint ou nos resultados de pesquisa do SharePoint.
 - Controle quais sites do SharePoint serão rastreados para identificar tópicos.
