@@ -20,21 +20,15 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Atualize o número de telefone e o endereço de email do administrador no centro de administração. Você precisará dessa informação se quiser redefinir sua própria senha de administrador.
-ms.openlocfilehash: a5b1548ee6ac0fa6bac976758ea8f6753ea2853c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 39b68905c0d43608a0d0ce1d37167fd7d9aff8fb
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914985"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470912"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>Atualizar o número de telefone do administrador e o endereço de email
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 Este artigo explica como você, o administrador, pode alterar seu telefone comercial e endereço de email no Microsoft 365.
   
 Se você estiver procurando como alterar informações de perfil da sua empresa, como nome, endereço e telefone, e informações do contato técnico, confira [Alterar o endereço da sua organização, o email do contato técnico e outras informações](change-address-contact-and-more.md).

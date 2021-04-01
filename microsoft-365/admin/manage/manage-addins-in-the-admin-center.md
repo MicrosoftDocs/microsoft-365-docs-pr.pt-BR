@@ -20,21 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba mais sobre como usar os complementos centralizados para implantar os complementos para usuários e grupos em sua organização.
-ms.openlocfilehash: 0750b6c9b91bc5cbd67d227fadb304bfc6cf7537
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 836dfa7a0c1b6cf1550e5c139bc0ca36be8f5424
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915393"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470936"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Os complementos do Office ajudam você a personalizar seus documentos e simplificar a maneira como você acessa informações na Web (consulte Iniciar usando o [seu complemento do Office](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). 
 
@@ -46,7 +39,7 @@ Para obter mais informações sobre como instalar os complementos do centro de a
 
 Um complemento pode estar no estado **On** ou **Off.**
   
-|**State**|**Como o estado ocorre**|**Impacto**|
+|**Estado**|**Como o estado ocorre**|**Impacto**|
 |:-----|:-----|:-----|
 |**Active**  <br/> |O administrador carregou o complemento e o atribuiu a usuários ou grupos.  <br/> |Os usuários e grupos atribuídos ao complemento o veem nos clientes relevantes.  <br/> |
 |**Desativado**  <br/> |O administrador desativou o suplemento.  <br/> |Os usuários e grupos atribuídos ao complemento não têm mais acesso a ele.  <br/> Se o estado do add-in for alterado para Ativo, os usuários e grupos terão acesso a ele novamente.  <br/> |

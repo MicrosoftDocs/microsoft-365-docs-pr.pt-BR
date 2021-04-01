@@ -22,21 +22,14 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Saiba como remover um domínio antigo do Microsoft 365 e mover usuários e grupos para outro domínio.
-ms.openlocfilehash: f4281eb793e6a832e3bd7f31484a97ccd5065bf5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 916730975e9e17c42b01d9fa0ff55b3cb7078f66
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915609"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470960"
 ---
 # <a name="remove-a-domain"></a>Excluir um domínio
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
   
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](../setup/domains-faq.yml)**. 
   

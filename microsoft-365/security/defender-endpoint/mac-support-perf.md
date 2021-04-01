@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 87190d9e0bb62d42642374bd7c9f6f3acad3c80a
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 6ff93b44627cf876384522f0c4f25d22347c8661
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379377"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476250"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Solucionar problemas de desempenho do Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -48,7 +48,7 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
 
 1. Desabilite a proteção em tempo real usando um dos métodos a seguir e observe se o desempenho melhora. Essa abordagem ajuda a restringir se o Microsoft Defender para Ponto de Extremidade para Mac está contribuindo para os problemas de desempenho.
 
-    Se o dispositivo não for gerenciado pela sua organização, a proteção em tempo real poderá ser desabilitada usando uma das seguintes opções:
+      Se o dispositivo não for gerenciado pela sua organização, a proteção em tempo real poderá ser desabilitada usando uma das seguintes opções:
 
     - Na interface do usuário. Abra o Microsoft Defender para Ponto de Extremidade para Mac e navegue até **Gerenciar configurações**.
 
@@ -60,10 +60,100 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
       mdatp config real-time-protection --value disabled
       ```
 
-    Se seu dispositivo for gerenciado pela sua organização, a proteção em tempo real poderá ser desabilitada pelo administrador usando as instruções em Definir [preferências](mac-preferences.md)do Microsoft Defender para Ponto de Extremidade para Mac .
+      Se seu dispositivo for gerenciado pela sua organização, a proteção em tempo real poderá ser desabilitada pelo administrador usando as instruções em Definir [preferências](mac-preferences.md)do Microsoft Defender para Ponto de Extremidade para Mac .
+      
+      Se o problema de desempenho persistir enquanto a proteção em tempo real estiver desligada, a origem do problema poderá ser o componente de detecção e resposta do ponto de extremidade. Nesse caso, entre em contato com o suporte do cliente para obter mais instruções e mitigação.
 
 2. Abra o Finder e navegue até  >  **Utilitários de Aplicativos.** Abra **o Monitor de Atividades** e analise quais aplicativos estão usando os recursos em seu sistema. Exemplos típicos incluem atualizadores e compiladores de software.
 
-3. Configure o Microsoft Defender para Ponto de Extremidade para Mac com exclusões para os processos ou locais de disco que contribuem para os problemas de desempenho e rehabilitam a proteção em tempo real.
+1. Para encontrar os aplicativos que estão disparando a maioria das verificações, você pode usar estatísticas em tempo real coletadas pelo Defender para Ponto de Extremidade para Mac.
 
-    Consulte [Configure and validate exclusions for Microsoft Defender for Endpoint for Mac para](mac-exclusions.md) obter detalhes.
+      > [!NOTE]
+      > Esse recurso está disponível na versão 100.90.70 ou mais recente.
+      Esse recurso é habilitado por padrão nos canais **Dogfood** e **InsiderFast.** Se você estiver usando um canal de atualização diferente, esse recurso poderá ser habilitado a partir da linha de comando:
+      ```bash
+      mdatp config real-time-protection-statistics  --value enabled
+      ```
+
+      Esse recurso requer proteção em tempo real para ser habilitado. Para verificar o status da proteção em tempo real, execute o seguinte comando:
+
+      ```bash
+      mdatp health --field real_time_protection_enabled
+      ```
+
+    Verifique se a **entrada real_time_protection_enabled** é verdadeira. Caso contrário, execute o seguinte comando para habilita-lo:
+
+      ```bash
+      mdatp config real-time-protection --value enabled
+      ```
+
+      ```output
+      Configuration property updated
+      ```
+
+      Para coletar estatísticas atuais, execute:
+
+      ```bash
+      mdatp config real-time-protection --value enabled
+      ```
+
+      > [!NOTE]
+      > Usar **--output json** (observe o traço duplo) garante que o formato de saída esteja pronto para análise.
+      A saída desse comando mostrará todos os processos e suas atividades de verificação associadas.
+
+1. Em seu sistema Mac, baixe o analisador Python de exemplo high_cpu_parser.py usando o comando:
+
+    ```bash
+    wget -c https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/diagnostic/high_cpu_parser.py
+    ```
+
+    A saída deste comando deve ser semelhante ao seguinte:
+
+    ```Output
+    --2020-11-14 11:27:27-- https://raw.githubusercontent.com/microsoft.
+    mdatp-xplat/master/linus/diagnostic/high_cpu_parser.py
+    Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.xxx.xxx
+    Connecting to raw.githubusercontent.com (raw.githubusercontent.com)| 151.101.xxx.xxx| :443... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 1020 [text/plain]
+    Saving to: 'high_cpu_parser.py'
+    100%[===========================================>] 1,020    --.-K/s   in 
+    0s
+    ```
+
+1. Em seguida, digite os seguintes comandos:
+
+      ```bash
+        chmod +x high_cpu_parser.py
+      ```
+
+      ```bash
+        cat real_time_protection.json | python high_cpu_parser.py  > real_time_protection.log
+      ```
+
+      A saída do acima é uma lista dos principais colaboradores para problemas de desempenho. A primeira coluna é o identificador de processo (PID), a segunda coluna é o nome do processo e a última coluna é o número de arquivos verificados, classificação por impacto.
+
+      Por exemplo, a saída do comando será algo como o abaixo:
+
+      ```output
+        ... > python ~/repo/mdatp-xplat/linux/diagnostic/high_cpu_parser.py <~Downloads/output.json | head -n 10
+        27432 None 76703
+        73467 actool     1249
+        73914 xcodebuild 1081
+        73873 bash 1050
+        27475 None 836
+        1    launchd    407
+        73468 ibtool     344
+        549  telemetryd_v1   325
+        4764 None 228
+        125  CrashPlanService 164
+      ```
+
+      Para melhorar o desempenho do Defender para Ponto de Extremidade para Mac, localize o que tem o número mais alto na linha Total de arquivos verificados e adicione uma exclusão para ele. Para obter mais informações, [consulte Configure and validate exclusions for Defender for Endpoint for Linux](linux-exclusions.md).
+
+      > [!NOTE]
+      > O aplicativo armazena estatísticas na memória e só mantém o controle da atividade do arquivo desde que foi iniciado e a proteção em tempo real foi habilitada. Os processos que foram lançados antes ou durante períodos em que a proteção em tempo real estava desligada não são contados. Além disso, somente os eventos que dispararam verificações são contados.
+      > 
+1. Configure o Microsoft Defender para Ponto de Extremidade para Mac com exclusões para os processos ou locais de disco que contribuem para os problemas de desempenho e rehabilitam a proteção em tempo real.
+
+     Consulte [Configure and validate exclusions for Microsoft Defender for Endpoint for Mac para](mac-exclusions.md) obter detalhes.

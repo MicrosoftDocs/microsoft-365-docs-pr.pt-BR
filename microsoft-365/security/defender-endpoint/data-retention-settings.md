@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7c0e8adde9b1ed66e401348d998ae5c1ad8a7442
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b83e6682ce0c11d076e0bbef60fdef365c9be564
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166000"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471096"
 ---
 # <a name="verify-data-storage-location-and-update-data-retention-settings-for-microsoft-defender-for-endpoint"></a>Verificar o local de armazenamento de dados e atualizar as configurações de retenção de dados do Microsoft Defender para Ponto de Extremidade
 
@@ -45,6 +45,8 @@ Durante a [fase Configurar](production-deployment.md), você teria selecionado o
 Você pode verificar o local dos dados navegando até **Configurações**  >  **Retenção de dados.**
 
 ## <a name="update-data-retention-settings"></a>Atualizar configurações de retenção de dados
+
+Você pode atualizar as configurações de retenção de dados. Por padrão, o período de retenção é de 180 dias. 
 
 1. No painel de navegação, selecione **Configurações**  >  **Retenção de dados**.
 

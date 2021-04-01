@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8965594789c3c96c043e3cd1a8922d9ba996ef47
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7abf1c9e4115c928ae581da3789270fd8ed036d3
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222436"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476296"
 ---
 # <a name="set-up-microsoft-defender-for-endpoint-deployment"></a>Configurar o Microsoft Defender para implantação do Ponto de Extremidade
 
@@ -39,7 +39,7 @@ ms.locfileid: "51222436"
 
 Implantar o Defender para Ponto de Extremidade é um processo de três fases:
 
-| [![fase de implantação - preparar](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Fase 1: Preparar](prepare-deployment.md) | ![fase de implantação - instalação](images/phase-diagrams/setup.png)<br>Fase 2: Instalação | [![fase de implantação - onboard](images/phase-diagrams/onboard.png)](onboarding.md)<br>[Fase 3: Onboard](onboarding.md) |
+| [![fase de implantação - preparar](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Fase 1: Preparar](prepare-deployment.md) | ![fase de implantação - instalação](images/phase-diagrams/setup.png)<br>Fase 2: Configurar | [![fase de implantação - onboard](images/phase-diagrams/onboard.png)](onboarding.md)<br>[Fase 3: Integrar](onboarding.md) |
 | ----- | ----- | ----- |
 | | *Você está aqui!*||
 
@@ -124,7 +124,7 @@ O sensor Microsoft Defender ATP requer o Microsoft Windows HTTP (WinHTTP) para r
 
 -   Protocolo de Descoberta Automática de Proxy da Web (WPAD)
 
-Se um proxy transparente ou WPAD tiver sido implementado na topologia de rede, não será necessário definir configurações especiais. Para obter mais informações sobre as exclusões de URL do Microsoft Defender for Endpoint no proxy, consulte a seção [URLs](production-deployment.md#proxy-service-urls) do Serviço proxy neste documento para a lista de urls allowlist ou em Configure device proxy and [Internet connectivity settings](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server).
+Se um proxy transparente ou WPAD tiver sido implementado na topologia de rede, não será necessário definir configurações especiais. Para obter mais informações sobre as exclusões de URL do Microsoft Defender para Ponto de Extremidade no proxy, consulte a seção [URLs](production-deployment.md#proxy-service-urls) do Serviço proxy neste documento para a lista de URLs permitir ou em Configurar configurações de proxy de dispositivo e conectividade com [a Internet.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)
 
 **Configuração manual de proxy estático:**
 

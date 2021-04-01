@@ -23,21 +23,14 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Saiba como restaurar contas de usuário excluídas e todos os dados associados.
-ms.openlocfilehash: f3986ed1ba007dcac87bdfb9322ba5c5bf081b35
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 75e664c68dec13b857e4bd308d49e5b58d5edfc8
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50903707"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471008"
 ---
 # <a name="restore-a-user"></a>Restaurar um usuário
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
    
 Quando você restaura uma conta de usuário dentro de 30 dias após sua exclusão, nosso sistema restaura a conta e todos os dados associados a ela. O usuário pode entrar com a mesma conta corporativa ou de estudante. A caixa de correio será totalmente restaurada. Para saber até quando uma determinada conta de usuário poderá ser restaurada, [entre em contato conosco](../contact-support-for-business-products.md).
   

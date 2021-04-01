@@ -22,21 +22,14 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de versão para novas atualizações de produtos e recursos no Centro de administração do Microsoft 365.
-ms.openlocfilehash: e909cdf35ba9dd8282540783f7c362e5ae49212e
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 6c5d505f0ece47b0a47df8b7ed1dc015afe93e82
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034074"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470566"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de versão Padrão ou Direcionada
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 > [!IMPORTANT]
 > As atualizações do Microsoft 365 descritas neste artigo se aplicam ao Microsoft 365, SharePoint Online e Exchange Online. Essas opções de versão são direcionadas, melhores maneiras de lançar alterações no Microsoft 365, mas não podem ser garantidas em todos os momentos ou para todas as atualizações. Eles não se aplicam ao Microsoft 365 Apps, Skype for Business, Microsoft Teams e serviços relacionados. Para obter informações sobre opções de versão para Aplicativos do Microsoft 365, consulte [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).

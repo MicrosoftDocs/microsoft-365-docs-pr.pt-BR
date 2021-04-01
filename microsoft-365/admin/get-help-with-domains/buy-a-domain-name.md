@@ -23,21 +23,14 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Saiba como comprar um nome de domínio no Microsoft 365.
-ms.openlocfilehash: 24c6ac017cf25e1a40148e7a2c982e9d1068664b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: eb0520f605715c3403e1ce0134aa60abed0f6751
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915669"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470506"
 ---
 # <a name="buy-a-domain-name"></a>Comprar um nome de domínio
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
  *Para adicionar, modificar ou remover domínios, você **deve** ser um **Administrador Global** de um [plano empresarial ou corporativo.](https://products.office.com/business/office) Essas alterações afetam todo o locatário, administradores *personalizados* ou *usuários regulares* não poderão fazer essas alterações.*  
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be906baca3a54183e22fa3b4ee424a9d8fc6957a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 16d78cf014e775ecb98a59d90b5734836eb3cbf2
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198688"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476620"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Novidades no Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -39,7 +39,12 @@ ms.locfileid: "51198688"
 > No macOS 11 (Big Sur), o Microsoft Defender para Endpoint requer perfis de configuração adicionais. Se você for um cliente existente atualizando de versões anteriores do macOS, certifique-se de implantar os perfis de configuração adicionais listados [nesta página](mac-sysext-policies.md).
 
 > [!IMPORTANT]
-> O suporte para macOS 10.13 (High Sierra) será descontinuado em 15 de fevereiro de 2021.
+> O suporte para macOS 10.13 (High Sierra) foi descontinuado em 15 de fevereiro de 2021.
+
+## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
+
+- Adicionada uma nova opção à ferramenta de linha de comando para exibir informações sobre a última verificação sob demanda. Para exibir informações sobre a última verificação sob demanda, execute `mdatp health --details antivirus`
+- Melhorias de desempenho & correções de bugs
 
 ## <a name="1012279-20121012122790"></a>101.22.79 (20.121012.12279.0)
 

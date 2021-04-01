@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 044a3d48dc350a5663a27ab3c16c2da7a5e3f3f1
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: a9e75441a8c4a336e8c657d27330c118fcac4788
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379409"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476299"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Implantação manual do Microsoft Defender para Ponto de Extremidade para macOS
 
@@ -119,7 +119,7 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
 
 1. Copie wdav.pkg e MicrosoftDefenderATPOnboardingMacOs.py para o dispositivo onde você implanta o Microsoft Defender para Ponto de Extremidade para macOS.
 
-    O dispositivo cliente não está associado a orgId. Observe que o *atributo orgId* está em branco.
+    O dispositivo cliente não está associado ao org_id. Observe que o *atributo org_id* está em branco.
 
     ```bash
     mdatp health --field org_id
@@ -131,23 +131,96 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
     /usr/bin/python MicrosoftDefenderATPOnboardingMacOs.py
     ```
 
-3. Verifique se o dispositivo agora está associado à sua organização e relata uma *orgId válida*:
+3. Verifique se o dispositivo agora está associado à sua organização e relata uma ID da organização válida:
 
     ```bash
     mdatp health --field org_id
     ```
 
-Após a instalação, você verá o ícone do Microsoft Defender na barra de status do macOS no canto superior direito.
+    Após a instalação, você verá o ícone do Microsoft Defender na barra de status do macOS no canto superior direito.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Ícone do Microsoft Defender na captura de tela da barra de status](images/mdatp-icon-bar.png)
 
-   ![Ícone do Microsoft Defender na captura de tela da barra de status](images/mdatp-icon-bar.png)
-   
 
 ## <a name="how-to-allow-full-disk-access"></a>Como permitir o acesso total ao disco
 
 > [!CAUTION]
 > O macOS 10.15 (Catalina) contém novos aprimoramentos de segurança e privacidade. A partir dessa versão, por padrão, os aplicativos não são capazes de acessar determinados locais no disco (como Documentos, Downloads, Área de Trabalho, etc.) sem consentimento explícito. Na ausência desse consentimento, o Microsoft Defender para Ponto de Extremidade não é capaz de proteger totalmente seu dispositivo.
 
-Para conceder consentimento, abra Preferências do Sistema -> Segurança & Privacidade -> Privacidade -> Acesso total em disco. Clique no ícone de bloqueio para fazer alterações (parte inferior da caixa de diálogo). Selecione Microsoft Defender para Ponto de Extremidade.
+1. Para conceder consentimento, abra **o System Preferences**  >  **Security & Privacidade**  >  **Acesso**  >  **total ao disco**. Clique no ícone de bloqueio para fazer alterações (parte inferior da caixa de diálogo). Selecione Microsoft Defender para Ponto de Extremidade.
+
+2. Execute um teste de detecção de AV para verificar se o dispositivo está corretamente conectado e relatando ao serviço. Execute as seguintes etapas no dispositivo recém-integrado:
+
+    1. Verifique se a proteção em tempo real está habilitada (denotada por um resultado de 1 da execução do seguinte comando):
+
+        ```bash
+        mdatp health --field real_time_protection_enabled
+        ```
+
+    1. Abra uma janela de Terminal. Copie e execute o seguinte comando:
+
+        ```bash
+        curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
+        ```
+
+    1. O arquivo deve ter sido colocado em quarentena pelo Defender para Ponto de Extremidade para Mac. Use o seguinte comando para listar todas as ameaças detectadas:
+
+        ```bash
+        mdatp threat list
+        ```
+
+3. Execute um teste de detecção de EDR para verificar se o dispositivo está corretamente conectado e relatando ao serviço. Execute as seguintes etapas no dispositivo recém-integrado:
+
+   1. No navegador, como o Microsoft Edge para Mac ou Safari.
+
+   1. Baixe o MDATP MacOS DIY.zip https://aka.ms/mdatpmacosdiy e extraia.
+
+      Você pode ser solicitado:
+
+      > Deseja permitir downloads em "mdatpclientanalyzer.blob.core.windows.net"?<br/>
+      > Você pode alterar quais sites podem baixar arquivos em Preferências de Sites.
+
+4. Clique **em Permitir**.
+
+5. Abrir **Downloads**.
+
+6. Você deve ver **MDATP MacOS DIY**.
+
+   > [!TIP]
+   > Se você clicar duas vezes, receberá a seguinte mensagem:
+   > 
+   > > **"MDATP MacOS DIY" não pode ser aberto porque o desenvolvedor não pode ser verificador.**<br/>
+   > > O macOS não pode verificar se esse aplicativo está livre de malware.<br/>
+   > > **\[ Mover para \] o Cancelamento de** **\[ Lixo \]** 
+  
+7. Clique em **Cancelar**.
+
+8. Clique com o botão direito do **mouse em MDATP MacOS DIY** e clique em **Abrir**. 
+
+    O sistema deve exibir a seguinte mensagem:
+
+    > **macOS não pode verificar o desenvolvedor **do MDATP MacOS DIY**. Tem certeza de que deseja abri-lo?**<br/>
+    > Ao abrir este aplicativo, você estará substituindo a segurança do sistema que pode expor seu computador e informações pessoais a malware que podem prejudicar seu Mac ou comprometer sua privacidade.
+
+10. Clique em **Abrir**. 
+
+    O sistema deve exibir a seguinte mensagem:
+
+    > Microsoft Defender ATP - arquivo de teste macOS EDR DIY<br/>
+    > O alerta correspondente estará disponível no portal MDATP.
+
+11. Clique em **Abrir**. 
+
+    Em alguns minutos, um alerta chamado "alerta de teste EDR do macOS" deve ser a gerado.
+
+12. Vá para o Centro de Segurança do Microsoft Defender ( https://SecurityCenter.microsoft.com) .
+
+13. Vá para a Fila de Alertas.
+
+    :::image type="content" source="images/b8db76c2-c368-49ad-970f-dcb87534d9be.png" alt-text="Exemplo de um alerta de teste EDR do macOS que mostra gravidade, categoria, fonte de detecção e um menu de ações recolhido.":::
+    
+    Veja os detalhes do alerta e a linha do tempo do dispositivo e execute as etapas de investigação regulares.
 
 ## <a name="logging-installation-issues"></a>Problemas de instalação de log
 

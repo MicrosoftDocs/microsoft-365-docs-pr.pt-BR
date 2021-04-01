@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5013d94277eeba7d1df100d2850cb950fe2e0742
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 1757160b37500e97586fbb6dfb16d81303bc54e4
+ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379341"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51476476"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -204,7 +204,7 @@ Os seguintes recursos estão incluídos nesta integração:
 - Integração automatizada – o sensor Defender para Ponto de Extremidade é habilitado automaticamente em Servidores Windows que estão integrados ao Centro de Segurança do Azure. Para obter mais informações sobre a integração do Centro de Segurança do Azure, consulte [Onboarding to Azure Security Center Standard for enhanced security](https://docs.microsoft.com/azure/security-center/security-center-onboarding).
 
     > [!NOTE]
-    > A integração automatizada só é aplicável para Windows Server 2008 R2 SP1, Windows Server 2012 R2 e Windows Server 2016.
+    > A integração entre o Azure Defender for Servers e o Microsoft Defender for Endpoint foi expandida para dar suporte ao Windows Server 2019 e à Área de Trabalho [Virtual do Windows (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
 
 - Os servidores Windows monitorados pelo Centro de Segurança do Azure também estarão disponíveis no Defender para Ponto de Extremidade - o Centro de Segurança do Azure conecta-se perfeitamente ao locatário do Defender para Ponto de Extremidade, fornecendo uma única exibição entre clientes e servidores.  Além disso, os alertas do Defender para Ponto de Extremidade estarão disponíveis no console do Centro de Segurança do Azure.
 - Investigação do servidor - Os clientes do Centro de Segurança do Azure podem acessar o Centro de Segurança do Microsoft Defender para executar uma investigação detalhada para descobrir o escopo de uma possível violação.
@@ -283,8 +283,8 @@ Para fazer o offboard do servidor Windows, você pode usar um dos seguintes mét
 <br>
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10](configure-endpoints.md)
-- [Integração de dispositivos que não são windows](configure-endpoints-non-windows.md)
-- [Configurar configurações de conectividade de proxy e Internet](configure-proxy-internet.md)
+- [Dispositivos integrados do Windows 10](configure-endpoints.md)
+- [Dispositivos Windows não integrados](configure-endpoints-non-windows.md)
+- [Definir as configurações de proxy e conectividade com a Internet](configure-proxy-internet.md)
 - [Executar um teste de detecção em um dispositivo Defender para Ponto de Extremidade recém-integrado](run-detection-test.md)
 - [Solução de problemas de integração do Microsoft Defender para Ponto de Extremidade](troubleshoot-onboarding.md)

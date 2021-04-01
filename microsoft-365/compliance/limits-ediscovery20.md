@@ -16,12 +16,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba mais sobre os limites de caso, os limites de indexação e os limites de pesquisa em vigor para a solução de Descoberta Avançada de EDiscovery no Microsoft 365.
-ms.openlocfilehash: 9b36407868a0f426b71a0a551d2f702d0a20b777
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 145d5de5027a9d6171215c0602a733ced5265657
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423432"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445317"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Limites da Descoberta Eletrônica Avançada
 
@@ -36,10 +36,12 @@ A tabela a seguir lista os limites de casos e conjuntos de revisão em Descobert
 |Número total de documentos que podem ser adicionados a uma ocorrência (para todos os conjuntos de revisão em um caso).  <br/> |3 milhões <br/> |
 |Tamanho total do arquivo por conjunto de carga. Isso inclui carregar o não-Office 365 em um conjunto de revisão.  <br/> |300 GB <br/> |
 |Quantidade total de dados carregados em todos os conjuntos de revisão na organização por dia.<br/> |2 TB <br/> |
-|Número máximo de conjuntos de cargas por caso.  <br/> |200 <br/> |
+|Número máximo de conjuntos de carga por caso.  <br/> |200 <br/> |
 |Número máximo de conjuntos de revisão por caso.  <br/> |20 <br/> |
 |Número máximo de grupos de marca por caso.  <br/> |1000 <br/> |
 |Número máximo de marcas por caso.  <br/> |1000 <br/> |
+|Máximo de trabalhos simultâneos em sua organização para adicionar conteúdo a um conjunto de revisão. Esses trabalhos são nomeados **Adicionando dados a um conjunto de** revisão e são exibidos na guia **Trabalhos** em um caso.| 10 <sup>4</sup> |
+|Máximo de trabalhos simultâneos para adicionar conteúdo a um conjunto de revisão por usuário. Esses trabalhos são nomeados **Adicionando dados a um conjunto de** revisão e são exibidos na guia **Trabalhos** em um caso. | 3 |
 |||
 
 ## <a name="hold-limits"></a>Limites de espera
@@ -74,7 +76,7 @@ Os limites descritos nesta seção estão relacionados ao  uso da ferramenta de 
 |Número máximo de pesquisas que podem ser executados ao mesmo tempo. |Sem limite |
 |Número máximo de pesquisas que um único usuário pode iniciar ao mesmo tempo. |10  | 
 |Número máximo de caracteres para uma consulta de pesquisa (incluindo operadores e condições). |10.000 &nbsp; <sup>2</sup>|
-|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo, **um \* *_ ou _* set \***.|3  |  
+|Número mínimo de caracteres alfa para caracteres curinga de prefixo; por exemplo, **um \* *_ ou _* set \***.|3 |  
 |As variantes máximas retornadas ao usar o caractere curinga de prefixo para pesquisar uma frase exata ou ao usar um caractere curinga de prefixo e o **operador Boolean NEAR.** |10.000 &nbsp; <sup>3</sup>|
 |Número máximo de itens por caixa de correio de usuário que são exibidos na página de visualização para pesquisas. Os itens mais novos são exibidos. |100|
 |Número máximo de itens de todas as caixas de correio exibidas na página de visualização para pesquisas.|1.000|
@@ -107,16 +109,14 @@ A Microsoft coleta informações de desempenho para pesquisas executados por tod
 |Tamanho máximo do arquivo do Excel que pode ser exibido no visualizador nativo.  <br/> |4 MB  <br/> |
 |||
 
-## <a name="export-limits"></a>Limites de exportação
+## <a name="export-limits---final-export-out-of-review-set"></a>Limites de exportação - Exportação final fora do Conjunto de Revisão
+
+Os limites descritos nesta seção estão relacionados à exportação de documentos de um conjunto de revisão.
 
 | Descrição do limite | Limite |
 |:-----|:-----|
 |Tamanho máximo de uma única exportação.|3 milhões de documentos ou 100 GB, o que for menor|
-|Quantidade máxima de dados em um único dia. | 2 TB |
-|Máximo de exportações simultâneas em sua organização. | 10 <sup>4</sup> |
-|Máximo de exportações simultâneas por usuário. | 3  |
-|Tamanho máximo de um único arquivo PST. | 10 GB |
-|Máximo de exportações simultâneas por conjunto de revisão. | 1  |
+|Máximo de exportações simultâneas por conjunto de revisão. | 1 |
 |||
 
 ## <a name="review-set-download-limits"></a>Revisar os limites de download definidos
@@ -136,7 +136,7 @@ A Microsoft coleta informações de desempenho para pesquisas executados por tod
 >
 > <sup>3 Para</sup> consultas que não são frases (um valor de palavra-chave que não usa aspas duplas), usamos um índice de prefixo especial. Isso nos diz que uma palavra ocorre em um documento, mas não onde ela ocorre no documento. Para fazer uma consulta de frase (um valor de palavra-chave com aspas duplas), precisamos comparar a posição dentro do documento para as palavras na frase. Isso significa que não podemos usar o índice de prefixo para consultas de frase. Nesse caso, expandimos internamente a consulta com todas as palavras possíveis às quais o prefixo se expande; por exemplo, **time _ pode expandir para \* *_*"time OR timer OR times OR timex OR timeboxed OR ..."**. O limite de 10.000 é o número máximo de variantes que a palavra pode expandir, e não o número de documentos correspondentes à consulta. Não há limite superior para termos que não são frases.
 >
-> <sup>4</sup> Esse limite é compartilhado em todas as ferramentas de Descoberta Online. Isso significa que as exportações simultâneas na pesquisa de Conteúdo, Descoberta Principal e Descoberta Avançada são aplicadas nesse limite.
+> <sup>4</sup> Esse limite é compartilhado com a exportação de conteúdo em outras ferramentas de Descoberta Online. Isso significa que as exportações simultâneas na pesquisa de conteúdo e na Descoberta Principal (e adicionar conteúdo a conjuntos de revisão em Descoberta Avançada) são aplicadas em relação a esse limite.
 >
 > <sup>5</sup> Esse limite se aplica ao download de documentos selecionados de um conjunto de revisão. Ele não se aplica à exportação de documentos de um conjunto de revisão. Para obter mais informações sobre como baixar e exportar documentos, consulte Exportar dados de caso [em Descoberta Avançada.](exporting-data-ediscover20.md)
 >

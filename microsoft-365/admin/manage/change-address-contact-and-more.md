@@ -21,21 +21,14 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Saiba como fazer alterações no perfil da sua organização, como nome da organização, endereço, telefone, contato técnico e email.
-ms.openlocfilehash: 9813e7a959579223f27efa082b1ef11efe6ed06d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 93f0777ba5f1cd20cca6e286a4b4366c403fc9da
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915417"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470554"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Alterar o endereço, o contato técnico e outras informações da organização
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
   
 Você pode fazer alterações no perfil da sua organização, como nome da organização, endereço, telefone e contato técnico. **É necessário ser administrador global para atualizar essas informações.**
   

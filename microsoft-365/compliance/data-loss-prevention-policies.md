@@ -22,12 +22,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Aprenda a identificar, monitorar e proteger automaticamente as informações confidenciais da sua organização no Office 365.
-ms.openlocfilehash: 9ef369786aa4b79dbdec551c9750500f9c092906
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 737e556972ca8ab0f82e1c4fe9e8602f09e91fc8
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052069"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445425"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Visão geral da prevenção contra perda de dados
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -86,7 +86,7 @@ Por exemplo, você pode ter uma política DLP que ajuda a detectar a presença d
 As políticas de DLP são aplicadas a itens confidenciais em locais do Microsoft 365 e podem ter um escopo adicional conforme detalhado nesta tabela.
 
 
-|localização | incluir/excluir por|
+|Local | Incluir/excluir por|
 |---------|---------|
 |Email do Exchange| grupos de distribuição|
 |Sites do Microsoft Office SharePoint Online |sites |
@@ -96,9 +96,14 @@ As políticas de DLP são aplicadas a itens confidenciais em locais do Microsoft
 |Microsoft Cloud App Security |instância |
 
 
- Se você optar por incluir grupos de distribuição específicos no Exchange, a política DLP será delimitada somente aos membros desse grupo. Da mesma maneira, a exclusão de um grupo de distribuição excluirá todos os membros desse grupo de distribuição da avaliação de políticas. Você pode optar por criar uma política para os membros das listas de distribuição, grupos de distribuição dinâmicas e grupos de segurança. Uma política DLP pode conter, no máximo, 50 inclusões e exclusões.
+Se você optar por incluir grupos de distribuição específicos no Exchange, a política DLP será delimitada somente aos membros desse grupo. Da mesma maneira, a exclusão de um grupo de distribuição excluirá todos os membros desse grupo de distribuição da avaliação de políticas. Você pode optar por criar uma política para os membros das listas de distribuição, grupos de distribuição dinâmicas e grupos de segurança. Uma política DLP pode conter, no máximo, 50 inclusões e exclusões.
 
-Se optar por incluir ou excluir sites específicos do SharePoint ou contas do OneDrive, uma política de DLP pode conter até 100 inclusões e exclusões. Embora esses limites existam, você pode excede-los ao ignorar uma política no âmbito da organização ou uma política que se aplica a locais inteiros.
+Se optar por incluir ou excluir sites específicos do SharePoint, uma política de DLP poderá conter até 100 inclusões e exclusões. Embora esses limites existam, você pode excede-los ao ignorar uma política no âmbito da organização ou uma política que se aplica a locais inteiros.
+
+Se optar por incluir ou excluir contas ou grupos específicos do OneDrive, uma política DLP não poderá conter mais de 100 contas de usuários ou 50 grupos como inclusão ou exclusão.
+
+> [!NOTE]
+> O escopo de política do OneDrive for Business está usando as contas ou grupos em visualização pública. Durante essa fase, é possível incluir ou excluir contas de usuários e grupos como parte de uma política DLP. Não há suporte para inclusão e exclusão como parte da mesma política.
   
 ### <a name="rules"></a>Regras
 
@@ -201,8 +206,9 @@ Esta é a aparência de uma dica de política em uma conta do OneDrive for Busin
 Quando uma regra é correspondida, você pode enviar um email de alerta ao responsável pela conformidade (ou a qualquer pessoa(s) que você escolher) com os detalhes do alerta. O email de alerta carregará um link do [Painel de Gerenciamento de Alertas DLP](dlp-configure-view-alerts-policies.md) que o responsável pela conformidade pode acessar para exibir os detalhes do alerta e eventos. O painel contém detalhes do evento que acionou o alerta junto com detalhes da política DLP combinada e o conteúdo confidencial detectado.
 
 Além disso, também pode ser enviado um relatório de incidentes com detalhes do evento. Esse relatório inclui informações sobre o item que foi correspondido, o conteúdo real que correspondeu à regra e o nome da pessoa que modificou o conteúdo por último. Para mensagens de email, o relatório também inclui a mensagem original como anexo que corresponde a uma política DLP.
-  
-![Página para configurar relatórios de incidente](../media/Alerts-and-incident-report.png)
+
+> [!div class="mx-imgBorder"]
+> ![Página para configurar relatórios de incidente](../media/Alerts-and-incident-report.png)
 
 O DLP verifica os e-mails de forma diferente da dos itens do SharePoint Online ou do OneDrive for Business. No Microsoft Office SharePoint Online e no Microsoft OneDrive for Business, a DLP verifica os itens existentes e também os novos e gera um alerta e relatório de incidentes sempre que uma correspondência é encontrada. No Exchange Online, a DLP verifica apenas novas mensagens de email e gera um relatório se houver uma correspondência de política. O DLP ***não*** verifica ou combina os itens de e-mail existentes anteriormente que são armazenados em uma caixa de correio ou arquivo morto.
   
@@ -252,13 +258,15 @@ Por exemplo, a política interna **HIPAA (Lei de Seguro de Saúde) dos EUA** tem
   
 ## <a name="the-priority-by-which-rules-are-processed"></a>A prioridade em que as regras são processadas
 
-Quando você cria regras em uma política, cada regra recebe uma prioridade na ordem em que ela é criada, ou seja, a regra criada primeiro tem a primeira prioridade, a regra criada em segundo lugar tem a segunda prioridade e assim por diante. 
-  
-![Regras na ordem de prioridade](../media/dlp-rules-in-priority-order.png)
+Quando você cria regras em uma política, cada regra recebe uma prioridade na ordem em que ela é criada, ou seja, a regra criada primeiro tem a primeira prioridade, a regra criada em segundo lugar tem a segunda prioridade e assim por diante.
+
+> [!div class="mx-imgBorder"]
+> ![Regras na ordem de prioridade](../media/dlp-rules-in-priority-order.png)
   
 Após configurar mais de uma política DLP, você pode alterar a prioridade de uma ou mais políticas. Para fazer isso, selecione uma política, clique em **Editar política** e use a lista **Prioridade** para especificar a prioridade.
 
-![Definir a prioridade em uma política](../media/dlp-set-policy-priority.png)
+> [!div class="mx-imgBorder"]
+> ![Definir prioridade de uma política](../media/dlp-set-policy-priority.png)
 
 Quando o conteúdo é avaliado em relação às regras, estas são processadas na ordem de prioridade. Se o conteúdo corresponde a várias regras, as regras são processadas na ordem de prioridade, e a ação mais restritiva será aplicada. Por exemplo, se o conteúdo corresponder a todas as regras a seguir, a Regra 3 será aplicada porque tem a prioridade mais alta, é a regra mais restritiva:
   
@@ -295,8 +303,9 @@ Para resolver esses problemas, você pode regular suas regras ajustando a contag
 ### <a name="instance-count"></a>Contagem de instâncias
 
 A contagem de instâncias se refere à quantidade de ocorrências de um tipo específico de informação confidencial que deve estar presente para que o conteúdo corresponda à regra. Por exemplo, o conteúdo corresponde com a regra mostrada abaixo se entre 1 e 9 passaportes únicos dos EUA ou UE são identificados.
-  
-Observe que a contagem de instâncias inclui apenas correspondências **únicas** a palavras-chave e tipos de informações confidenciais. Por exemplo, se um email contém 10 ocorrências do mesmo número de cartão de crédito, as 10 ocorrências são contadas como uma única instância de um número de cartão de crédito. 
+
+> [!NOTE]
+> A contagem de instâncias inclui apenas correspondências **exclusivas** para palavras-chave e tipos de informações confidenciais. Por exemplo, se um email contém 10 ocorrências do mesmo número de cartão de crédito, as 10 ocorrências são contadas como uma única instância de um número de cartão de crédito.
   
 Para usar a contagem de instâncias para ajustar as regras, a orientação é simples:
   
@@ -393,7 +402,7 @@ Ao criar uma política DLP, decida entre configurações simples ou avançadas:
     
 - **Configurações avançadas** usam o editor de regras para oferecer controle completo sobre cada configuração para a sua política DLP. 
     
-Não se preocupe, nos bastidores, as configurações simples e avançadas funcionam exatamente da mesma forma, aplicando regras compostas por condições e ações. A única diferença é que, com configurações simples, você não vê o editor de regras. Trata-se de uma maneira rápida de criar uma política DLP.
+As configurações simples e as avançadas funcionam exatamente da mesma forma, aplicando regras compostas por condições e ações. A única diferença e que, com as configurações simples, você não ver o editor de regras. Trata-se de uma maneira rápida de criar uma política DLP.
   
 ### <a name="simple-settings"></a>Configurações simples
 
@@ -443,7 +452,8 @@ Se estiver criando políticas DLP com um grande impacto em potencial, é recomen
 
     Você também pode alterar a prioridade de várias regras em uma política. Para fazer isso, abra uma política para edição. Em uma linha para uma regra, escolha as reticências (**...**) e, em seguida, escolha uma opção, como **Mover para baixo** ou **Colocar como mais baixa**.
 
-    ![Definir prioridade da regra](../media/dlp-set-rule-priority.png)
+    > [!div class="mx-imgBorder"]
+    > ![Definir prioridade da regra](../media/dlp-set-rule-priority.png)
   
 ## <a name="dlp-reports"></a>Relatórios DLP
 
@@ -534,7 +544,7 @@ Os membros da sua equipe de conformidade que irão criar políticas DLP precisam
 
 Você também pode criar um grupo de função com privilégios de somente exibição às Políticas DLP e aos Relatórios DLP, concedendo a função **Gerenciamento de conformidade DLP somente exibição**.
 
-Para saber mais, consulte [Conceder aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md).
+Para saber mais, consulte [Conceder aos usuários acesso ao Centro de Conformidade e Segurança do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
   
 Essas permissões são necessárias somente para criar e aplicar uma política de DLP. A imposição da política não exige acesso ao conteúdo.
   

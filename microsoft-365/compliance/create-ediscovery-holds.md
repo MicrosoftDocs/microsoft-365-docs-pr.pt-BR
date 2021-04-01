@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Você pode criar uma ressarcição associada a um caso core de Descoberta eDiscovery para preservar conteúdo que pode ser relevante para uma investigação.
-ms.openlocfilehash: ca87b1b2ad35949de01622771b1ae78c5b3038e9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c84d0be5a4a659ff9b64af14052bcf4033e2ed24
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908335"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470472"
 ---
 # <a name="create-an-ediscovery-hold"></a>Criar uma retenção de Descoberta Eletrônica
 
@@ -146,7 +146,7 @@ As informações de resumo para reuniões e chamadas em um canal do Teams també
 
 ### <a name="preserve-content-in-private-channels"></a>Preservar conteúdo em canais privados
 
-A partir de fevereiro de 2020, também a capacidade de preservar conteúdo em canais privados. Como os chats de canal privado são armazenados nas caixas de correio dos participantes do chat, colocar uma caixa de correio de usuário em espera de Descoberta Eletrônico preservará chats de canal privado. Além disso, se uma caixa de correio de usuário foi colocada em uma suspensão de Descoberta Automática antes de fevereiro de 2020, a suspensão agora se aplicará automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. A preservação de arquivos compartilhados em canais privados também é suportada.
+A partir de fevereiro de 2020, também a iniciamos a capacidade de preservar o conteúdo em canais privados. Como os chats de canal privado são armazenados nas caixas de correio dos participantes do chat, colocar uma caixa de correio de usuário em espera de Descoberta Eletrônico preservará chats de canal privado. Além disso, se uma caixa de correio de usuário foi colocada em uma suspensão de Descoberta Automática antes de fevereiro de 2020, a suspensão agora se aplicará automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. A preservação de arquivos compartilhados em canais privados também é suportada.
 
 ### <a name="preserve-wiki-content"></a>Preservar conteúdo wiki
 

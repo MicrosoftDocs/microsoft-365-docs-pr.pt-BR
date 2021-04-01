@@ -17,14 +17,16 @@ search.appverid:
 - MET150
 description: Criar tipos personalizados de informações confidenciais com classificação baseada em Correspondência Exata de Dados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 583419f6808d5b3d54d1f48d380e5b4110898ded
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9288a7bc1bf93f1fa7ac329305bdc45c3cb1528c
+ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908345"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408640"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Criar tipos personalizados de informações confidenciais com classificação baseada em Exact Data Match
+
+
 
 [Tipos de informações confidenciais personalizadas](sensitive-information-type-learn-about.md) são usadas para ajudar a identificar itens confidenciais para que você possa evitar que sejam compartilhados inadvertidamente ou inadequadamente. Você define um tipo de informações confidenciais personalizada com base em:
 
@@ -35,7 +37,7 @@ ms.locfileid: "50908345"
 
  Esses tipos personalizados de informações confidenciais atendem às necessidades comerciais de várias organizações.
 
-Mas e se você quiser um tipo personalizado de informações confidenciais que usa valores de dados exatos, em vez de corresponder apenas a padrões genéricos? Com a classificação baseada em Exact Data Match (EDM), você pode criar um tipo personalizado de informações confidenciais que é criada para:
+Mas e se você quiser um tipo de informação confidencial personalizado (SIT) que use valores de dados exatos, em vez de um que encontre correspondências com base em padrões genéricos? Com a classificação baseada em Exact Data Match (EDM), você pode criar um tipo personalizado de informações confidenciais que é criada para:
 
 - ser dinâmica e facilmente atualizada
 - ser mais escalonável
@@ -56,6 +58,7 @@ A classificação baseada no EDM permite criar tipos personalizados de informaç
 > - Japonês
 > 
 > Este suporte está disponível para tipos de informações confidenciais. Para obter mais informações, confira [Suporte à proteção de informações para notas de versão de conjuntos de caracteres de byte duplo (visualização)](mip-dbcs-relnotes.md).
+ 
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 
@@ -369,7 +372,10 @@ Se você quiser usar o hash e carregá-los de um computador, será preciso fazer
 Se você não quiser expor o seu arquivo de dados confidenciais de texto não criptografado, poderá hashá-lo em um computador em um local seguro e, em seguida, copiar o arquivo de hash e o arquivo salt para um computador que possa conectar-se diretamente ao locatário do Microsoft 365 para carregamento. Neste cenário, você precisará do EDMUploadAgent em ambos os computadores.
 
 > [!IMPORTANT]
-> Caso tenha usado o Assistente de Correspondência Exata de Dados e Tipo de Informações Confidenciais, você ***deve** baixar o esquema para esse procedimento.
+> Caso tenha usado o Assistente de Correspondência Exata de Dados e assistente de tipo de informação confidencial para criar seus arquivos de esquema e padrão, você ***deve*** baixar o esquema.
+
+> [!NOTE]
+> Se sua organização configurou a [Chave de Cliente para Microsoft 365 no nível dos locatários (visualização pública)](customer-key-tenant-level.md#overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview), a Correspondência exata de dados usará sua funcionalidade de criptografia automaticamente. Isso está disponível apenas para locatários licenciados do E5 na nuvem Comercial.
 
 #### <a name="prerequisites"></a>Pré-requisitos
 

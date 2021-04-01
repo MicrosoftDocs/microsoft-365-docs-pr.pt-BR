@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c6338155aae3605ac5721958363b8c2d86618d9b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: e395420b92c29977f1c802d1c10683492c1aba10
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183844"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470460"
 ---
 # <a name="microsoft-defender-security-center-time-zone-settings"></a>Configurações do fuso horário do Centro de Segurança do Microsoft Defender
 
@@ -29,9 +29,6 @@ ms.locfileid: "51183844"
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
-
 
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-settings-abovefoldlink)

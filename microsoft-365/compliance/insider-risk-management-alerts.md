@@ -12,18 +12,20 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 2a21dfead9b1f1ba2f05fc7629ce4fcda9991017
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: 9fe1665eda882793a62315299a3cbf6667ec7988
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819963"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445649"
 ---
 # <a name="insider-risk-management-alerts"></a>Alertas de gerenciamento de riscos insider
 
-Os alertas de gerenciamento de riscos insider são gerados automaticamente por indicadores de risco definidos em políticas de gerenciamento de riscos internas. Esses alertas dão aos analistas e investigadores de conformidade uma visão all-up do status de risco atual e permitem que sua organização triagem e tome ações para riscos descobertos. Por padrão, as políticas geram uma certa quantidade de alertas de baixa, média e alta gravidade, mas você pode aumentar ou diminuir o volume de [alerta](insider-risk-management-settings.md#alert-volume) para atender às suas necessidades. Além disso, você pode configurar o limite de alerta para [indicadores](insider-risk-management-settings.md#indicator-level-settings-preview) de política ao criar uma nova política com o assistente de política.
+Alertas de gerenciamento de riscos internos são gerados automaticamente por indicadores de risco definidos nas políticas de gerenciamento de riscos internos. Esses alertas dão aos analistas de conformidade uma visão global do status de risco atual e permitem que sua organização selecione e tome medidas para descobrir riscos. Por padrão, as políticas geram uma certa quantidade de alertas de baixa, média e alta gravidade, mas você pode aumentar ou diminuir o volume de [alerta](insider-risk-management-settings.md#alert-volume) para atender às suas necessidades. Além disso, você pode configurar o limite de alerta para [indicadores](insider-risk-management-settings.md#indicator-level-settings-preview) de política ao criar uma nova política com o assistente de política.
 
-## <a name="alert-dashboard"></a>Painel de alertas
+Confira o vídeo da Experiência de Triagem de Alertas de Gerenciamento de Riscos do [Insider](https://www.youtube.com/watch?v=KgmpxBLJLPI) para obter uma visão geral de como os alertas fornecem detalhes, contexto e conteúdo relacionado para atividades arriscadas e como tornar o processo de investigação mais eficaz.
+
+## <a name="alert-dashboard"></a>Painel de alerta
 
 O painel alerta de risco **interno** permite que você veja e aja em alertas gerados por políticas de risco internas. Cada widget de relatório exibe informações dos últimos 30 dias.
 
@@ -31,15 +33,15 @@ O painel alerta de risco **interno** permite que você veja e aja em alertas ger
 - **Alertas abertos nos últimos 30** dias : O número total de alertas criados pela política corresponde aos últimos 30 dias, organizados por níveis altos, médios e de gravidade de alerta baixo.
 - **Tempo médio para resolver alertas**: um resumo das estatísticas de alerta úteis:
     - Tempo médio para resolver alertas de alta gravidade, listados em horas, dias ou meses.
-    - Tempo médio para resolver alertas de gravidade média, listados em horas, dias ou meses.
+    - Tempo médio para resolver alertas de média gravidade, listados em horas, dias ou meses.
     - Tempo médio para resolver alertas de baixa gravidade, listados em horas, dias ou meses.
 
 ![Painel de alertas de gerenciamento de riscos insider](../media/insider-risk-alerts-dashboard.png)
 
 >[!NOTE]
->O gerenciamento de riscos insider usa a otimização de alerta interna para ajudar a proteger e otimizar sua experiência de investigação e revisão de riscos. Essa throttling protege contra problemas que podem resultar em uma sobrecarga de alertas de política, como conectores de dados mal configurados ou políticas de DLP. Como resultado, pode haver um atraso na exibição de novos alertas para um usuário.
+>O gerenciamento de risco interno usa a limitação de alerta incorporada para ajudar a proteger e otimizar sua experiência de investigação de risco e revisão. Essa limitação protege contra problemas que podem resultar em uma sobrecarga de alertas de política, como conectores de dados mal-configurados ou políticas DLP. Como resultado, pode haver um atraso na exibição de novos alertas para um usuário.
 
-## <a name="alert-status-and-severity"></a>Status e gravidade do alerta
+## <a name="alert-status-and-severity"></a>Status de alerta e gravidade
 
 Você pode triagem de alertas em um dos seguintes status:
 
@@ -48,7 +50,7 @@ Você pode triagem de alertas em um dos seguintes status:
 - **Precisa de revisão**: um novo alerta em que as ações de triagem ainda não foram tomadas.
 - **Resolvido**: um alerta que faz parte de um caso fechado e resolvido.
 
-As pontuações de risco de alerta são calculadas automaticamente a partir de vários indicadores de atividade de risco. Esses indicadores incluem o tipo de atividade de risco, o número e a frequência da ocorrência da atividade, o histórico da atividade de risco do usuário e a adição de riscos de atividade que podem aumentar a seriedade da atividade. A pontuação de risco de alerta impulsiona a atribuição programática de um nível de gravidade de risco para cada alerta e não pode ser personalizada. Se os alertas permanecerem sem estrias e as atividades de risco continuarem a acumular para o alerta, o nível de gravidade do risco poderá aumentar. Os analistas de risco e os investigadores podem usar a gravidade do risco de alerta para ajudar os alertas de triagem de acordo com as políticas e padrões de risco da sua organização.
+As pontuações de risco de alerta são calculadas automaticamente a partir de vários indicadores de atividade de risco. Esses indicadores incluem o tipo de atividade de risco, o número e a frequência da ocorrência da atividade, o histórico da atividade de risco do usuário e a adição de riscos de atividade que podem aumentar a seriedade da atividade. A pontuação de risco de alerta orienta a atribuição programática de um nível de gravidade de risco para cada alerta e não pode ser personalizada. Se os alertas permanecerem sem estrias e as atividades de risco continuarem a acumular para o alerta, o nível de gravidade do risco poderá aumentar. Os analistas de risco e os investigadores podem usar a gravidade do risco de alerta para ajudar os alertas de triagem de acordo com as políticas e padrões de risco da sua organização.
 
 Os níveis de gravidade do risco de alerta são:
 
@@ -58,16 +60,16 @@ Os níveis de gravidade do risco de alerta são:
 
 ## <a name="filter-alerts-on-the-alert-dashboard"></a>Filtrar alertas no painel de alertas
 
-Dependendo do número e do tipo de políticas de gerenciamento de riscos insider ativos em sua organização, a revisão de uma grande fila de alertas pode ser desafiadora. O uso de filtros de alerta pode ajudar analistas e investigadores a classificar alertas por vários atributos. Para filtrar alertas no **painel Alertas,** selecione o **controle Filter.** Você pode filtrar alertas por um ou mais atributos:
+Dependendo do número e do tipo de políticas ativas de gerenciamento de risco interno em sua organização, a revisão de uma grande fila de alertas pode ser um desafio. O uso de filtros de alerta pode ajudar analistas e investigadores a classificar alertas por vários atributos. Para filtrar alertas no **painel Alertas,** selecione o **controle Filter.** Você pode filtrar alertas por um ou mais atributos:
 
-- **Status**: selecione um ou mais valores de status para filtrar a lista de alertas. As opções são *Confirm*, *Dismissed*, *Needs review* e *Resolved*.
-- **Severidade**: selecione um ou mais níveis de gravidade de risco de alerta para filtrar a lista de alertas. As opções são *Alta,* *Média* e *Baixa.*
+- **Status**: selecione um ou mais valores de status para filtrar a lista de alertas. As opções são *Confirmado*, *Descartado*, *Precisa de revisão* e *Resolvido*.
+- **Severidade**: selecione um ou mais níveis de gravidade de risco de alerta para filtrar a lista de alertas. As opções são *Alta*, *Média* e *Baixa*.
 - **Tempo detectado**: Selecione as datas de início e término para quando o alerta foi criado.
 - **Política**: selecione uma ou mais políticas para filtrar os alertas gerados pelas políticas selecionadas.
 
 ## <a name="search-alerts-on-the-alert-dashboard"></a>Alertas de pesquisa no painel alerta
 
-Para pesquisar o nome do alerta para uma palavra específica, selecione o controle **Pesquisar** e digite a palavra a ser pesquisada. Os resultados da pesquisa exibem qualquer alerta de política que contenha a palavra definida na pesquisa.
+Para pesquisar o nome do alerta em uma palavra específica, selecione o controle **Pesquisar** e digite a palavra para pesquisar. Os resultados da pesquisa exibem qualquer alerta de política que contenha a palavra definida na pesquisa.
 
 ## <a name="triage-alerts"></a>Alertas de triagem
 

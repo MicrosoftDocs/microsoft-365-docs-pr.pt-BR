@@ -22,21 +22,14 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba como implantar os complementos para usuários e grupos em sua organização usando a Implantação Centralizada no centro de administração.
-ms.openlocfilehash: 9ded0294912a3c3c99e62913bcdc349de7bae1b5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 996ef34f1fc8d9663f6fa59f13a56a169b7edd11
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915381"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470518"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Implantar suplementos no centro de administração
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Os complementos do Office ajudam você a personalizar seus documentos e a simplificar a maneira como você acessa informações na Web (consulte [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). Como administrador, você pode implantar os complementos do Office para os usuários em sua organização usando o recurso Implantação Centralizada no centro de administração do Microsoft 365. A Implantação Centralizada é a maneira recomendada e mais rica em recursos para a maioria dos administradores implantarem os complementos para usuários e grupos em uma organização.
 

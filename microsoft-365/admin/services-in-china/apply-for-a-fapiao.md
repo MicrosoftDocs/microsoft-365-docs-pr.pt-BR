@@ -21,17 +21,14 @@ search.appverid:
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: Saiba como enviar sua solicitação fapiao para o sistema de gerenciamento do 21Vianet Fapiao após fazer um pagamento no Office 365 operado pela 21Vianet na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 681d2d79c510c773d7597c62811256458e3d166d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d9f75dfd00bb547e9d2e0f53826e5bc50926de39
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914469"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470948"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Aplicar um Fapiao para o Office 365 operado pela 21Vianet
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 Você pode enviar sua solicitação fapiao para o sistema de gerenciamento do 21Vianet Fapiao cerca de três dias após o pagamento. Depois de enviar sua solicitação fapiao, ela será processada em dois dias.
   
@@ -111,7 +108,7 @@ Quando Fapiao estiver fora de uso, o sistema exibirá um aviso e indicará o tem
   
 ![A mensagem de erro exibida quando o sistema de gerenciamento do 21Vianet Fapiao está fora de uso.](../../media/effe0796-83aa-4a91-a488-15d6f58c01dc.png)
   
-## <a name="faqs"></a>Perguntas frequentes
+## <a name="faqs"></a>Perguntas Frequentes
 
 ### <a name="what-services-can-i-get-from-online-support"></a>Quais serviços posso obter com o suporte online?
 

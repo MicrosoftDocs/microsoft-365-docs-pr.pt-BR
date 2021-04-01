@@ -12,16 +12,18 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 96d265a7b909b439f960c951b10c84f4bc7a63b0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 23c2ed180606e61820c6e736e472aef0ae4933a5
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916825"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445681"
 ---
 # <a name="insider-risk-management-policies"></a>Políticas de gerenciamento de riscos insider
 
 As políticas de gerenciamento de riscos internas determinam quais usuários estão no escopo e quais tipos de indicadores de risco são configurados para alertas. Você pode criar rapidamente uma política que se aplique a todos os usuários em sua organização ou definir usuários individuais ou grupos para gerenciamento em uma política. As políticas suportam prioridades de conteúdo para focalizar as condições de política em vários ou específicos do Microsoft Teams, sites do SharePoint, tipos de sensibilidade de dados e rótulos de dados. Usando modelos, você pode selecionar indicadores de risco específicos e personalizar limites de eventos para indicadores de política, personalização efetiva de pontuações de risco e nível e frequência de alertas. Além disso, os impulsionadores de pontuação de risco e as detecções de anomalias ajudam a identificar a atividade do usuário de maior importância ou mais incomum. As janelas de política permitem definir o período de tempo para aplicar a política às atividades de alerta e são usadas para determinar a duração da política uma vez ativada.
+
+Confira o vídeo Configuração de Políticas de Gerenciamento de Riscos do [Insider](https://www.youtube.com/watch?v=kudK5ajZTUo) para ter uma visão geral de como as políticas criadas com modelos de política internas podem ajudá-lo a tomar medidas rapidamente sobre possíveis riscos.
 
 ## <a name="policy-dashboard"></a>Painel de política
 
@@ -44,7 +46,7 @@ Para saber mais sobre análises de risco interno e recomendações de política,
 
 ## <a name="policy-templates"></a>Modelos de política
 
-Modelos de gerenciamento de riscos insider são condições de política pré-definidas que definem os tipos de indicadores de risco e o modelo de pontuação de risco usado pela política. Cada política deve ter um modelo atribuído ao assistente de criação de política antes da criação da política. O gerenciamento de riscos insider dá suporte a até cinco políticas para cada modelo de política. Ao criar uma nova política de risco interno com o assistente de política, você escolherá entre um dos seguintes modelos de política:
+Modelos de gerenciamento de riscos insider são condições de política pré-definidas que definem os tipos de indicadores de risco e o modelo de pontuação de risco usado pela política. Cada política deve ter um modelo atribuído no assistente de criação de política antes de a política ser criada. O gerenciamento de riscos insider dá suporte a até cinco políticas para cada modelo de política. Ao criar uma nova política de risco interno com o assistente de política, você escolherá entre um dos seguintes modelos de política:
 
 ### <a name="data-theft-by-departing-users"></a>Roubo de dados ao separar usuários
 

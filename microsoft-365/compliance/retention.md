@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: 0eaf89b3f49d8b69cb7b36e4e25df90946c19e32
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dbb294cdb865fb01f931e2e9c3bc4f6afb3f1e09
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917203"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51471030"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -36,27 +36,29 @@ ms.locfileid: "50917203"
 > As informações desta página são para administradores de TI que podem criar políticas de retenção e rótulos de retenção por motivos de conformidade.
 
 Para a maioria das organizações, o volume e a complexidade dos dados aumentam diariamente, como emails, documentos, mensagens instantâneas e muito mais. O gerenciamento ou controle efetivo dessas informações é importante porque você precisa:
-  
-- **Estar em conformidade de forma proativa com as regulamentações do setor e as políticas internas** que exigem a retenção do conteúdo por um período mínimo de tempo, por exemplo, a lei Sarbanes-Oxley, que pode exigir que você guarde determinados tipos de conteúdo por sete anos. 
 
-- **Reduzir seu risco em caso de litígio ou violação de segurança** excluindo definitivamente o conteúdo antigo que você não tem mais obrigação de guardar. 
-    
-- **Ajudar a sua organização a compartilhar conhecimento de maneira eficaz e ser mais ágil** garantindo que seus usuários trabalhem apenas com conteúdo atual e relevante para eles. 
-    
-As configurações de retenção que você configura podem ajudá-lo a atingir todos esses objetivos. O gerenciamento de conteúdo requer duas ações:
-  
-- **Reter** conteúdo para que ele não seja excluído permanentemente antes do fim do período de retenção. 
-    
-- **Excluir** conteúdo permanentemente no final do período de retenção. 
-    
+- **Estar em conformidade de forma proativa com as regulamentações do setor e as políticas internas** que exigem a retenção do conteúdo por um período mínimo de tempo, por exemplo, a lei Sarbanes-Oxley, que pode exigir que você guarde determinados tipos de conteúdo por sete anos.
+
+- **Reduzir seu risco em caso de litígio ou violação de segurança** excluindo definitivamente o conteúdo antigo que você não tem mais obrigação de guardar.
+
+- **Ajudar a sua organização a compartilhar conhecimento de maneira eficaz e ser mais ágil** garantindo que seus usuários trabalhem apenas com conteúdo atual e relevante para eles.
+
+As configurações de retenção configuradas podem ajudar você a alcançar todos esses objetivos. O gerenciamento de conteúdo requer duas ações:
+
+| Ação| Objetivo |
+|:-----|:-----|
+|Reter o conteúdo | Impedir a exclusão permanente e permanecer disponível para a Descoberta Eletrônica |
+|Excluir conteúdo | Excluir conteúdo permanentemente da organização|
 
 Com essas duas ações de retenção, você pode definir as configurações de retenção para os seguintes resultados:
 
 - Reter somente: mantém o conteúdo infinitamente ou por um período de tempo especificado.
-- Excluir somente: exclui o conteúdo após um período de tempo especificado.
-- Reter e excluir: reter conteúdo por um período de tempo especificado e, em seguida, excluí-lo.
+- Excluir somente: exclui o conteúdo permanentemente após um período de tempo especificado.
+- Reter e excluir: reter o conteúdo por um período de tempo especificado e, em seguida, excluí-lo permanentemente.
 
 Essas configurações de retenção funcionam com o conteúdo que poupa os demais custos de criação e configuração de armazenamento adicional quando você precisar manter o conteúdo por motivos de conformidade. Além disso, não é necessário implementar processos personalizados para copiar e sincronizar esses dados.
+
+Use as seções a seguir para saber mais sobre como funcionam as políticas e os rótulos de retenção, quando usá-los e como eles se complementam. Mas se você estiver pronto para começar e implantar as configurações de retenção para alguns cenários comuns, confira [Introdução às políticas e rótulos de retenção](get-started-with-retention.md).
 
 ## <a name="how-retention-settings-work-with-content-in-place"></a>Como funcionam as configurações de retenção com conteúdo no local
 

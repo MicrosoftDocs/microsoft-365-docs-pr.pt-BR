@@ -26,21 +26,14 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Adicione seu domínio ao Microsoft 365 no Centro de administração do Microsoft 365 adicionando um registro DNS ao host DNS. O assistente de instalação orienta você durante o processo.
-ms.openlocfilehash: 30bce7dd207532c441fdfaf572add44baec16d8d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 747de5f61dc9fce53f82f52b65f701572a56f8d4
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914265"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470876"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Adicionar um domínio ao Microsoft 365
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
  Caso não encontre o conteúdo que está procurando, **[verifique as perguntas frequentes sobre domínios](domains-faq.yml)**. 
   

@@ -21,17 +21,14 @@ search.appverid:
 ms.assetid: c29d38b5-53a6-4bd9-b7aa-ce12c902da83
 description: Exibir sua instrução de cobrança ou fatura sobre o Office 365 operado pela 21Vianet na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: aa6a83f7054488b4e8944010a24341daeb83c690
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cf12a74a612cbdce366d7e3528a9aefaa0849ee0
+ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914289"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51470900"
 ---
 # <a name="view-your-bill-or-get-a-fapiao-in-office-365-operated-by-21vianet"></a>Exibir sua conta ou obter um Fapiao no Office 365 operado pela 21Vianet
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
 
 Você pode exibir sua instrução de cobrança ou fatura para obter informações sobre seu Office 365 operado pelos encargos de assinatura da 21Vianet. Você também pode obter um Fapiao (sua prova final de compra). Você pode enviar sua solicitação fapiao para nosso sistema de gerenciamento [fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465) cerca de três dias após o pagamento. 
   

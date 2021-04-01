@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: ee4f18342304cf46f97a6ae7aa6e1ba76685bccd
-ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
+ms.openlocfilehash: b3a555ba41cee7c8272467de20962eb1e7f25cfc
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50994613"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445609"
 ---
 # <a name="get-started-with-insider-risk-management-settings"></a>Começar com as configurações de gerenciamento de riscos insider
 
@@ -242,7 +242,7 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 | AlertType | O tipo do alerta é *Custom*.  |
 | AlertId | O GUID do alerta. Alertas de gerenciamento de riscos insider são mutáveis. À medida que o status do alerta muda, um novo log com o mesmo AlertID é gerado. Esse AlertID pode ser usado para correlacionar atualizações para um alerta. |
 | Categoria | A categoria do alerta é *InsiderRiskManagement*. Essa categoria pode ser usada para distinguir esses alertas de outros alertas de conformidade & segurança. |
-| Comments | Comentários padrão para o alerta. Os valores *são Novo Alerta* (registrado quando um alerta é criado) e Alerta *Atualizado* (registrado quando há uma atualização para um alerta). Use o AlertID para correlacionar atualizações para um alerta. |
+| Comentários | Comentários padrão para o alerta. Os valores *são Novo Alerta* (registrado quando um alerta é criado) e Alerta *Atualizado* (registrado quando há uma atualização para um alerta). Use o AlertID para correlacionar atualizações para um alerta. |
 | Dados | Os dados do alerta incluem a ID do usuário exclusiva, o nome principal do usuário e a data e hora (UTC) quando o usuário foi acionado em uma política. |
 | Nome | Nome da política para política de gerenciamento de riscos internas que gerou o alerta. |
 | PolicyId | O GUID da política de gerenciamento de riscos internas que disparou o alerta. |
@@ -257,7 +257,7 @@ Os seguintes campos e valores são exportados para alertas de gerenciamento de r
 - Id
 - RecordType
 - CreationTime
-- Operation
+- Operação
 - OrganizationId
 - UserType
 - UserKey
@@ -502,12 +502,14 @@ A análise de risco insider permite que você conduza uma avaliação de possív
 - Requisitos mínimos de privacidade: os resultados e as percepções de verificação são retornados como atividades de usuário anonimizadas, nomes de usuário individuais não são identificáveis pelos revisadores.
 - Entenda os riscos potenciais por meio de insights consolidados: Os resultados da verificação podem ajudá-lo a identificar rapidamente áreas de risco potenciais para seus usuários e qual política seria melhor para ajudar a reduzir esses riscos.
 
+Confira o vídeo análise de gerenciamento de riscos do Insider para ajudar a entender como a análise pode ajudar a acelerar a identificação de possíveis riscos [insider](https://www.youtube.com/watch?v=5c0P5MCXNXk) e ajudá-lo a tomar medidas rapidamente.
+
 Análises verificam eventos de atividade de risco de várias fontes para ajudar a identificar informações sobre áreas potenciais de risco. Dependendo da configuração atual, a análise procura atividades de risco de qualificação nas seguintes áreas:
 
-- Logs de auditoria do Microsoft 365: incluídos em todas as verificações, essa é a principal fonte para identificar a maioria das atividades potencialmente arriscadas.
-- Exchange Online: Incluída em todas as verificações, a atividade do Exchange Online ajuda a identificar atividades nas quais os dados em anexos são enviado por email para contatos ou serviços externos.
-- Azure Active Directory: incluído em todas as verificações, o histórico do Azure Active Directory ajuda a identificar atividades arriscadas associadas aos usuários com contas de usuário excluídas.
-- Conector de dados de RH do Microsoft 365: se configurados, os eventos do conector de RH ajudam a identificar atividades arriscadas associadas aos usuários que têm datas de encerramento ou de demissão futuras.
+- Logs de auditoria do **Microsoft 365**: Incluídos em todas as verificações, esta é a principal fonte para identificar a maioria das atividades potencialmente arriscadas.
+- **Exchange Online**: Incluída em todas as verificações, a atividade do Exchange Online ajuda a identificar atividades nas quais os dados em anexos são enviado por email para contatos ou serviços externos.
+- **Azure Active Directory**: Incluído em todas as verificações, o histórico do Azure Active Directory ajuda a identificar atividades arriscadas associadas aos usuários com contas de usuário excluídas.
+- Conector de dados de RH do **Microsoft 365**: Se configurados, os eventos do conector de RH ajudam a identificar atividades arriscadas associadas aos usuários que têm renúncia ou datas de término futuras.
 
 As percepções de análise das verificações se baseiam nos mesmos sinais de atividade de risco usados pelas políticas de gerenciamento de riscos internas e relatam resultados com base nas atividades de usuário única e de sequência. No entanto, a pontuação de risco para análise baseia-se em até 30 dias de atividade, enquanto as políticas de risco insider usam atividades diárias para insights. Ao habilitar e executar a análise pela primeira vez em sua organização, você verá os resultados da verificação por um dia. Se você deixar a análise habilitada, verá os resultados de cada verificação diária adicionados aos relatórios de insights para um intervalo máximo dos 30 dias de atividade anteriores.
 
