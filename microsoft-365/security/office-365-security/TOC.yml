@@ -95,7 +95,7 @@
         - name: Segurança por padrão
           href: secure-by-default.md
         - name: Configurar políticas anti-phishing no Defender para Office 365
-          href: configure-atp-anti-phishing-policies.md
+          href: configure-mdo-anti-phishing-policies.md
         - name: Configurar políticas antimalware
           href: configure-anti-malware-policies.md
         - name: Configurar políticas antispam
