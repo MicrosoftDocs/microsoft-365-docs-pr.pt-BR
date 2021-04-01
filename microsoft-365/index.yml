@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: fdd4063947a262de2f4140412fa1b94362de4e96
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+  ms.openlocfilehash: 721d017ecdf40ecce020b6298e87a9bddd999256
+  ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51199940"
+  ms.lasthandoff: 03/30/2021
+  ms.locfileid: "51418075"
 highlightedContent:
   items:
   - title: Capacitar trabalhadores remotos
@@ -89,7 +89,9 @@ productDirectory:
       text: Principais tarefas para as equipes de segurança darem suporte ao trabalho em casa
     - url: solutions/configure-teams-three-tiers-protection.md
       text: Configurar três camadas de proteção com o Microsoft Teams
-    - url: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases
+    - url: security/defender/get-started.md
+      text: Comece a usar o Microsoft 365 Defender
+    - url: security/defender-endpoint/deployment-phases.md
       text: Microsoft Defender para Ponto de Extremidade
     - url: security/office-365-security/defender-for-office-365.md
       text: Obter o Microsoft Defender para Office 365
