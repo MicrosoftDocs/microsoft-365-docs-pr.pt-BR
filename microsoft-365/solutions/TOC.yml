@@ -29,7 +29,7 @@
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: setup-secure-collaboration-with-teams.md
         - name: Etapa 1. Configurar três camadas de proteção com o Microsoft Teams
           items:
@@ -71,7 +71,7 @@
               href: microsoft-365-guest-settings.md
     - name: Implantar proteção contra ameaças no Microsoft 365
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: deploy-threat-protection.md
         - name: Etapas para implantar a proteção contra ameaças
           href: deploy-threat-protection-configure.md
@@ -174,7 +174,15 @@
         - name: Guia do OneDrive para empresas
           href: /onedrive/plan-onedrive-enterprise?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
         - name: Migrar compartilhamentos de arquivos para o Microsoft 365
-          href: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          items:
+            - name: Visão Geral
+              href: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: 'Etapa 1: Configurar agentes'
+              href: /sharepointmigration/mm-setup-clients?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: 'Etapa 2: Criar uma tarefa de migração'
+              href: /sharepointmigration/mm-how-to-use?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: 'Etapa 3: Monitorar e relatar'
+              href: /sharepointmigration/mm-reports?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Segurança
       items:
         - name: Principais tarefas para as equipes de segurança dar suporte ao trabalho em casa
