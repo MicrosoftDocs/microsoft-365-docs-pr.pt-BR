@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7754fa586b24fdedaa9691b45f5da4654c882a5b
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: aeeea02ca1ef2d37623e9ab434b162237c2f4946
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185976"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499903"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>Proteger sua organização contra ameaças da Web
 
@@ -36,7 +36,7 @@ ms.locfileid: "51185976"
 A proteção contra ameaças da Web faz parte da [proteção da Web](web-protection-overview.md) no Defender for Endpoint. Ele usa [a proteção de rede](network-protection.md) para proteger seus dispositivos contra ameaças da Web. Ao integrar-se ao Microsoft Edge e aos navegadores populares de terceiros, como o Chrome e o Firefox, a proteção contra ameaças da Web interrompe as ameaças da Web sem um proxy da Web e pode proteger dispositivos enquanto eles estão fora ou no local. A proteção contra ameaças da Web interrompe o acesso a sites de phishing, vetores de malware, sites de exploração, sites não falsos ou de baixa reputação, bem como sites bloqueados em sua lista de indicadores [personalizados.](manage-indicators.md)
 
 >[!Note]
->Pode levar até uma hora para que os dispositivos recebam novos indicadores de cliente.
+>Pode levar até uma hora para que os dispositivos recebam novos indicadores personalizados.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 A proteção da Web usa a proteção de rede para fornecer segurança de navegação na Web no Microsoft Edge e em navegadores da Web de terceiros.

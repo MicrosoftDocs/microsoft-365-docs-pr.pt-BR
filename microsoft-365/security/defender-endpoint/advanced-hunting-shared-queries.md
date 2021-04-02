@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9788594eaab29aba54c634e79c7aa00d6148aacd
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 78a532167e4256e3453803f1a0b4a9e4875771cf
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054202"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499419"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Usar consultas compartilhadas na busca avançada
 

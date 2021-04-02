@@ -88,9 +88,9 @@
                   href: defender/m365d-pilot-close.md
         - name: Introdução
           items:
-            - name: Visão Geral
+            - name: Visão geral
               href: defender/get-started.md
-            - name: Habilitar a Proteção contra Ameaças da Microsoft
+            - name: Ativar o Microsoft 365 Defender
               href: defender/m365d-enable.md
             - name: Implantar serviços com suporte
               href: defender/deploy-supported-services.md
@@ -140,6 +140,12 @@
                       href: defender/investigate-users.md
                 - name: Obter notificações por email
                   href: defender/get-incident-notifications.md
+            - name: Especialistas em Ameaças da Microsoft
+              items:
+                - name: Visão geral dos Especialistas em Ameaças da Microsoft
+                  href: mtp/microsoft-threat-experts.md
+                - name: Configurar e gerenciar os recursos de Especialistas em Ameaças da Microsoft
+                  href: mtp/configure-microsoft-threat-experts.md
             - name: Investigação e resposta automatizadas
               items:
                 - name: Visão geral da investigação e resposta automatizadas
@@ -422,7 +428,7 @@
             - name: Segurança por padrão
               href: ./office-365-security/secure-by-default.md
             - name: Configurar políticas anti-phishing no Defender para Office 365
-              href: ./office-365-security/configure-atp-anti-phishing-policies.md
+              href: ./office-365-security/configure-mdo-anti-phishing-policies.md
             - name: Configurar políticas antimalware
               href: ./office-365-security/configure-anti-malware-policies.md
             - name: Configurar políticas antispam

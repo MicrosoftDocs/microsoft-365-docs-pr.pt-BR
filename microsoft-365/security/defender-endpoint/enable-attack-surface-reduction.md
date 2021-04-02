@@ -1,5 +1,5 @@
 ---
-title: Habilitar regras de redução de superfície de ataque
+title: Habilitar regras da redução da superfície de ataque
 description: Habilita as regras de redução de superfície de ataque (ASR) para proteger seus dispositivos contra ataques que usam macros, scripts e técnicas de injeção comuns.
 keywords: Redução de superfície de ataque, quadris, sistema de prevenção contra intrusões de host, regras de proteção, antiexploit, exploração, prevenção de infecção, habilitar, ativar
 search.product: eADQiWindows 10XVcnh
@@ -14,14 +14,14 @@ ms.author: ellevin
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 1deec767c6af777b23ab5a91c9e719f690e0c048
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: bf4fa88b3fbbf5d977d54a78c480129665049b23
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165136"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499399"
 ---
-# <a name="enable-attack-surface-reduction-rules"></a>Habilitar regras de redução de superfície de ataque
+# <a name="enable-attack-surface-reduction-rules"></a>Habilitar regras da redução da superfície de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -52,7 +52,7 @@ Você pode habilitar regras de redução de superfície de ataque usando qualque
 
 - [Microsoft Intune](#intune)
 - [Gerenciamento de Dispositivo Móvel (MDM)](#mdm)
-- [Microsoft Endpoint Configuration Manager](#microsoft-endpoint-configuration-manager)
+- [Gerenciador de Configuração do Microsoft Endpoint](#microsoft-endpoint-configuration-manager)
 - [Política de grupo](#group-policy)
 - [PowerShell](#powershell)
 
@@ -114,7 +114,7 @@ Exemplo:
 > [!NOTE]
 > Insira valores OMA-URI sem espaços.
 
-## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
+## <a name="microsoft-endpoint-configuration-manager"></a>Gerenciador de Configuração do Microsoft Endpoint
 
 1. No Microsoft Endpoint Configuration Manager, acesse **Assets and Compliance**  >  **Endpoint Protection** Windows Defender Exploit  >  **Guard.**
 
@@ -137,7 +137,7 @@ Exemplo:
 
 2. No Editor **de Gerenciamento de Política de Grupo,** acesse **Configuração do** computador e selecione Modelos **administrativos.**
 
-3. Expanda a árvore para **componentes do Windows**  >  **Microsoft Defender**  >  **Antivírus Windows Defender redução de** superfície de ataque do Exploit  >  Guard.
+3. Expanda a árvore para **componentes do Windows**  >  **Microsoft Defender Antivírus**  >  **Redução** de superfície  >  **de ataque do** Microsoft Defender Exploit Guard .
 
 4. Selecione **Configurar regras de redução de superfície de ataque** e selecione **Habilitado**. Em seguida, você pode definir o estado individual para cada regra na seção opções.
 
@@ -211,4 +211,4 @@ Exemplo:
 
 - [Avaliar a redução de superfície de ataque](evaluate-attack-surface-reduction.md)
 
-- [Perguntas frequentes sobre redução de superfície de ataque](attack-surface-reduction.md)
+- [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction.md)

@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3d991bc5e78fc7b33e20df1f86471a0969b7345f
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 1c4b71139a0fba84928c3f604e3c770d140d9e2b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382586"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499740"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -44,8 +44,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `DeviceId` | string | Identificador exclusivo do dispositivo no serviço |
-| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
-| `OSPlatform` | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7.|
+| `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `OSPlatform` | string | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7.|
 | `Timestamp` | datetime | Data e hora em que o registro foi gerado |
 | `ConfigurationId` | string | Identificador exclusivo para uma configuração específica |
 | `ConfigurationCategory` | string | Categoria ou agrupamento ao qual a configuração pertence: aplicativo, sistema operacional, rede, contas, controles de segurança |
@@ -53,7 +53,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `ConfigurationImpact` | string | Impacto avaliado da configuração na classificação total (1-10) |
 | `IsCompliant` | booliano | Indica se a configuração ou política está configurada corretamente |
 | `IsApplicable` | booliano | Indica se a configuração ou a política se aplica ao dispositivo |
-| `Context` | cadeia de caracteres | Informações contextuais adicionais sobre a configuração ou a política |
+| `Context` | string | Informações contextuais adicionais sobre a configuração ou a política |
 | `IsExpectedUserImpact` | booliano | Indica se haverá impacto do usuário se a configuração ou a política for aplicada |
 
 ## <a name="related-topics"></a>Tópicos relacionados

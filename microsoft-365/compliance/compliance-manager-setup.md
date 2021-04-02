@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: De definir permissões e funções de usuário do Microsoft Compliance Manager e configurar testes automatizados de ações. Gerencie o histórico do usuário e filtre o seu painel de exibição.
-ms.openlocfilehash: 3b32ac5a82bbc726c5bf61859266e0561ca7f53c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4558f6b2a75f1635c7984b386f217efa148b22af
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199214"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499030"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
@@ -91,7 +91,7 @@ A tabela a seguir mostra as funções permitidas por cada função no Gerenciado
 | :------------- | :-------------: | :------------: |
 | **Ler, mas não editar dados**| Leitor do Gerenciador de Conformidade  | Leitor global do Azure AD, Leitor de segurança | 
 | **Editar dados**| Contribuição do Gerenciador de Conformidade | Administrador de Conformidade | 
-| **Editar resultados de teste**| Avaliação do Gerenciador de Conformidade | Administrador de Conformidade | 
+| **Editar resultados de teste**| Avaliador do Gerenciador de Conformidade | Administrador de Conformidade | 
 | **Gerenciar avaliações e dados de modelo e locatário**| Administração do Gerenciador de Conformidade | Administrador de Conformidade, Administrador de Dados de Conformidade, Administrador de Segurança  | 
 | **Atribuir usuários**| Administrador Global | Administrador Global | 
 

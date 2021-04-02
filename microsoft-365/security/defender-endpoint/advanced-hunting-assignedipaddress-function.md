@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: 08ab7ff5bac917a027e4380a46ab1cb2cf0a1312
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 5dcc41302d797b4084c36d020908ba59131c90d4
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053433"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499279"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -41,8 +41,8 @@ Esta função retorna uma tabela com as seguintes colunas:
 Coluna | Tipo de dados | Descrição
 -|-|-
 `Timestamp` | datetime | Última hora em que o dispositivo foi observado usando o endereço IP
-`IPAddress` | cadeia de caracteres | Endereço IP usado pelo dispositivo
-`IPType` | cadeia de caracteres | Indica se o endereço IP é um endereço público ou privado
+`IPAddress` | string | Endereço IP usado pelo dispositivo
+`IPType` | string | Indica se o endereço IP é um endereço público ou privado
 `NetworkAdapterType` | int | Tipo de adaptador de rede usado pelo dispositivo que recebeu o endereço IP. Para os valores possíveis, consulte [esta enumeração](https://docs.microsoft.com/dotnet/api/system.net.networkinformation.networkinterfacetype)
 `ConnectedNetworks` | int | Redes às que o adaptador com o endereço IP atribuído está conectado. Cada matriz JSON contém o nome da rede, categoria (público, privado ou domínio), uma descrição e um sinalizador indicando se ela está conectada publicamente à Internet
 

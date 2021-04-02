@@ -15,7 +15,7 @@
     - name: Descrição do serviço da Área de trabalho gerenciada da Microsoft
       href: service-description/index.md
       items:
-        - name: Regiões e idiomas com suporte
+        - name: Regiões com suporte
           href: service-description/regions-languages.md
         - name: Ciclo de vida do produto
           href: service-description/device-lifecycle.md
@@ -96,6 +96,8 @@
           href: get-started/company-portal.md
         - name: Habilite o roaming do estado da empresa
           href: get-started/enterprise-state-roaming.md
+        - name: Localizar a experiência do usuário
+          href: get-started/localization.md
         - name: Configure os dispositivos
           href: get-started/set-up-devices.md
           items:

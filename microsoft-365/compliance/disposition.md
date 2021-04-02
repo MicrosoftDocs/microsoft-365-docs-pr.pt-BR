@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Monitore e gerencie a disposição do conteúdo, se você usa uma revisão de disposição ou o conteúdo é excluído automaticamente de acordo com as configurações definidas.
-ms.openlocfilehash: d9786b5e93801153e168784d51e37a00ee1822bc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c49f669498424169a89fa99fcdd259de1f5c720b
+ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051923"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51488164"
 ---
 # <a name="disposition-of-content"></a>Disposição de conteúdo
 
@@ -44,7 +44,7 @@ Para conceder aos usuários apenas as permissões necessárias para revisões de
 
 Além disso, para exibir o conteúdo dos itens durante o processo de disposição, adicione usuários aos dois grupos de funções a seguir: **Visualizador de conteúdo do Explorador de Conteúdos** e **Visualizador de Lista de Explorador de Conteúdos**. Se os usuários não tiverem as permissões desses grupos de função, ainda poderão selecionar uma ação de revisão de disposição para concluir a revisão de disposição, mas deve fazê-lo sem a capacidade de exibir o conteúdo do item do centro de conformidade.
 
-Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Segurança e Conformidade do Office 365](../security/defender-365-security/grant-access-to-the-security-and-compliance-center.md).
+Para obter instruções, consulte [Fornecer aos usuários acesso ao Centro de Segurança e Conformidade do Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
 
 ### <a name="enable-auditing"></a>Habilitar auditoria
 
@@ -124,16 +124,21 @@ O conteúdo que aguarda uma revisão de disposição é excluído apenas após u
 
 ## <a name="disposition-of-records"></a>Disposição de registros
 
-Use a guia **Disposição** da página **Gerenciamento de registros** para identificar os registros excluídos, automaticamente ou após uma revisão de disposição. Esses itens exibem **Registros Descartados** na coluna **Tipo**. Por exemplo:
+Use a guia **Disposição** da página **Gerenciamento de Registros** para identificar:
+
+- Itens excluídos como resultado de uma revisão de disposição.
+- Itens marcados como registro A ou registro regulamentar que foram excluídos automaticamente no final do período de retenção.
+
+Esses itens exibem **Registros Descartados** na coluna **Tipo**. Por exemplo:
 
 ![Itens que foram descartados sem uma revisão de disposição](../media/records-disposed2.png)
 
-Os itens mostrados na guia **Itens descartados** de rótulos de registro serão mantidos por até sete anos após o item ter sido descartado, com um limite de 1 milhão itens por registro para esse período. Se você vir que o número de **Contagem** se aproxima desse limite de 1 milhão e precisar de prova de disposição para seus registros, contate o [Suporte da Microsoft](/office365/admin/contact-support-for-business-products).
+Itens mostrados na guia **Itens Dispostos** são mantidos por até sete anos após o item ser descartado, com um limite de um milhão de itens por registro para aquele período. Se você vir que o número de **Contagem** se aproxima desse limite de 1 milhão e precisar de prova de disposição para seus registros, contate o [Suporte da Microsoft](/office365/admin/contact-support-for-business-products).
 
 > [!NOTE]
-> Esta funcionalidade baseia-se em informações do[Log de auditoria unificada](search-the-audit-log-in-security-and-compliance.md) e, portanto, exige que a auditoria seja [habilitada e pesquisável](turn-audit-log-search-on-or-off.md), para que os eventos correspondentes sejam capturados.
+> Esta funcionalidade usa informações do [log de auditoria unificado](search-the-audit-log-in-security-and-compliance.md) e, portanto, requer que a auditoria seja [habilitada e pesquisável](turn-audit-log-search-on-or-off.md) para que os eventos correspondentes sejam capturados.
 
-Para auditoria, pesquise **Arquivo excluído marcado como registro** na categoria **Arquivo e atividades de página**. Esse evento de auditoria é aplicável a documentos e emails.
+Para auditoria de itens excluídos que foram marcados como registros ou registros regulamentares, pesquise **Arquivo excluído marcado como registro** na categoria **Arquivo e atividades de página**. Esse evento de auditoria é aplicável a documentos e emails.
 
 ## <a name="filter-and-export-the-views"></a>Filtrar e exportar os modos de exibição
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e3a20f0a356a32eddc05b3792c0c04c23197a7b0
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 5fa811b2419d107e91b301d5c9bad691fc016b5b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185690"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498960"
 ---
 # <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-for-mac"></a>Implantação com um sistema MDM (Gerenciamento de Dispositivo Móvel) diferente para o Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -84,6 +84,10 @@ O MDM o usa para implantar o arquivo de configurações em **/Library/Managed Pr
 ### <a name="kernel-extension-policy"></a>Política de extensão de kernel
 
 Configurar uma política de extensão KEXT ou kernel. Use o identificador de **equipe UBF8T346G9** para permitir extensões de kernel fornecidas pela Microsoft.
+
+> [!CAUTION]
+> Se seu ambiente consistir em dispositivos Apple Silicon (M1), esses dispositivos não devem receber perfis de configuração com políticas KEXT.
+> A Apple não dá suporte a KEXT nesses dispositivos, a implantação desse perfil falharia em máquinas M1.
 
 ### <a name="system-extension-policy"></a>Política de extensão do sistema
 

@@ -11,8 +11,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc534b7bec27784ccf25f92ab0282fdbecdc9196
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f916137be71dffeaed7e3718286032a17c9f8e04
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054028"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498475"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Compreender o relatório do analista na análise de ameaças
 
@@ -35,7 +35,7 @@ ms.locfileid: "51054028"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-> Deseja experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) ou executar seu projeto piloto em [produção](m365d-pilot.md?ocid=cx-evalpilot).
+> Quer experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) ou [executar seu projeto piloto em produção](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
@@ -104,6 +104,6 @@ Consultas de busca avançadas nos relatórios de analistas foram vetada por anal
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral de análise de ameaças](threat-analytics.md)
+- [Visão geral da análise de ameaças](threat-analytics.md)
 - [Encontrar proativamente ameaças com busca avançada](advanced-hunting-overview.md) 
 - [Regras de detecção personalizadas](custom-detection-rules.md)

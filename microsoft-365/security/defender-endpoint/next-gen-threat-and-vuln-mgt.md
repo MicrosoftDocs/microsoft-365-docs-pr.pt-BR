@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: d1402d8486725559335a5edc5ee13c78a0125932
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 0c3c5ebbcd4483cae159fe9b46a6f4c376443be3
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186420"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499064"
 ---
 # <a name="threat-and-vulnerability-management"></a>Gerenciamento de ameaças e vulnerabilidades
 
@@ -90,7 +90,7 @@ Assista a este vídeo para um passo a passo abrangente do gerenciamento de amea�
 [**Correção**](tvm-remediation.md) | Consulte as atividades de correção que você criou e exceções de recomendação.
 [**Inventário de software**](tvm-software-inventory.md) | Consulte a lista de softwares vulneráveis em sua organização, juntamente com informações de fraqueza e ameaças.
 [**Pontos fracos**](tvm-weaknesses.md) | Consulte a lista de vulnerabilidades e exposições comuns (CVEs) em sua organização.
-[**Linha do tempo do evento**](threat-and-vuln-mgt-event-timeline.md) | Exibir eventos que podem afetar o risco da sua organização.
+[**Cronograma do evento**](threat-and-vuln-mgt-event-timeline.md) | Exibir eventos que podem afetar o risco da sua organização.
 
 ## <a name="apis"></a>APIs
 
@@ -98,7 +98,7 @@ Execute chamadas de API relacionadas a ameaças e vulnerabilidades para automati
 
 Consulte os seguintes artigos para APIs relacionadas:
 
-- [Microsoft Defender para APIs de Ponto de Extremidade com suporte](exposed-apis-list.md)
+- [Suporte de APIs do Microsoft Defender para Ponto de Extremidade](exposed-apis-list.md)
 - [APIs do computador](machine.md)
 - [APIs de recomendação](vulnerability.md)
 - [APIs de pontuação](score.md)

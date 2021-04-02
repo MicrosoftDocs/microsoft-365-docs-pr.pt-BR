@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: c22e4b754f9d28156c3d26c567581572e59d718d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 66ecdc8fbcde04d78f2deede5f4e296a7f051ef0
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053431"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499157"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 
@@ -43,8 +43,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançado, con
 |-------------|-----------|-------------|
 | `AlertId` | string | Identificador exclusivo do alerta. |
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | cadeia de caracteres | Identificador exclusivo do dispositivo no serviço |
-| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `DeviceId` | string | Identificador exclusivo do dispositivo no serviço |
+| `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo |
 | `Severity` | cadeia de caracteres | Indica o impacto potencial (alto, médio ou baixo) do indicador de ameaça ou da atividade de violação identificados pelo alerta |
 | `Category` | cadeia de caracteres | Tipo de atividade indicadora de ameaça ou violação identificada pelo alerta |
 | `Title` | cadeia de caracteres | Título do alerta |
@@ -52,7 +52,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançado, con
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `RemoteUrl` | cadeia de caracteres | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
 | `RemoteIP` | cadeia de caracteres | Endereço IP que estava sendo conectado ao |
-| `AttackTechniques` | cadeia de caracteres | MITRE ATT&técnicas de CK associadas à atividade que disparou o alerta |
+| `AttackTechniques` | string | MITRE ATT&técnicas de CK associadas à atividade que disparou o alerta |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com `DeviceName` as `Timestamp` colunas e |
 | `Table` | cadeia de caracteres | Tabela que contém os detalhes do evento |
 

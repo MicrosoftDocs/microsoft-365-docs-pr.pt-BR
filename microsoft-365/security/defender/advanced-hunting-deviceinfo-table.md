@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d56710f4933a8971230c78d7b3570f14b9bda335
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: b5baf4adf9c9abaf746c1d6c3ea1c29c3b471b0b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382620"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498595"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -44,21 +44,21 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
-| `ClientVersion` | cadeia de caracteres | Versão do agente de ponto de extremidade ou sensor em execução no computador |
-| `PublicIP` | cadeia de caracteres | Endereço IP público usado pelo computador interno para se conectar ao serviço Microsoft Defender para Ponto de Extremidade. Esse pode ser o endereço IP do próprio computador, um dispositivo NAT ou um proxy |
+| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
+| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `ClientVersion` | string | Versão do agente de ponto de extremidade ou sensor em execução no computador |
+| `PublicIP` | string | Endereço IP público usado pelo computador interno para se conectar ao serviço Microsoft Defender para Ponto de Extremidade. Esse pode ser o endereço IP do próprio computador, um dispositivo NAT ou um proxy |
 | `OSArchitecture` | string | Arquitetura do sistema operacional em execução no computador. |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7 |
-| `OSBuild` | cadeia de caracteres | Versão de com build do sistema operacional em execução no computador |
+| `OSBuild` | string | Versão de com build do sistema operacional em execução no computador |
 | `IsAzureADJoined` | booliano | Indicador booleano de se o computador está ingressado no Azure Active Directory |
-| `AadObjectId` | cadeia de caracteres | Identificador exclusivo do dispositivo no Azure AD |
-| `LoggedOnUsers` | cadeia de caracteres | Lista de todos os usuários que estão conectados no computador no momento do evento no formato de matriz JSON |
-| `RegistryDeviceTag` | cadeia de caracteres | Marca de máquina adicionada por meio do Registro |
+| `AadObjectId` | string | Identificador exclusivo do dispositivo no Azure AD |
+| `LoggedOnUsers` | string | Lista de todos os usuários que estão conectados no computador no momento do evento no formato de matriz JSON |
+| `RegistryDeviceTag` | string | Marca de máquina adicionada por meio do Registro |
 | `OSVersion` | string | Versão do sistema operacional em execução no computador. |
 | `MachineGroup` | string | Grupo de máquinas do computador. Esse grupo é usado pelo controle de acesso baseado em função para determinar o acesso ao computador |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
-|`AdditionalFields` | cadeia de caracteres | Informações adicionais sobre o evento no formato de matriz JSON |
+|`AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
 
 A `DeviceInfo` tabela fornece informações do dispositivo com base em pulsações, que são relatórios periódicos ou sinais de um dispositivo. A cada quinze minutos, o dispositivo envia uma pulsação parcial que contém atributos que mudam com frequência, como `LoggedOnUsers` . Uma vez por dia, uma pulsação completa que contém os atributos do dispositivo é enviada.
 

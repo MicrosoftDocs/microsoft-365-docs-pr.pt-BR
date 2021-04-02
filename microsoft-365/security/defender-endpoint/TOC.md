@@ -390,6 +390,7 @@
 ## Referência
 ### [Gerenciamento e APIs]()
 #### [Visão geral do gerenciamento e APIs](management-apis.md)
+#### [Notas de versão da API](api-release-notes.md)
 #### [API do Microsoft Defender para Ponto de Extremidade]()
 ##### [Introdução]()
 ###### [Termos e licença da API do Microsoft Defender para Ponto de Extremidade](api-terms-of-use.md)
@@ -586,6 +587,5 @@
 ##### [Proteção de rede](troubleshoot-np.md)
 ##### [Regras da redução da superfície de ataque](troubleshoot-asr.md)
 
-# [Segurança do Microsoft 365](../index.yml)
-# [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+# [Microsoft 365 Defender](../index.yml)
 # [Defender para Office 365](../office-365-security/overview.md)

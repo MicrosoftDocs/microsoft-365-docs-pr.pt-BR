@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eaa0068fe52119bfd9dc2381b253b259cb8df907
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1fc4635b71e68bb56fa7ec54c9c7b1263b83446b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052855"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498241"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Estender a cobertura de busca avançada com as configurações corretas
 
@@ -42,9 +42,9 @@ A opção Ativar essas configurações avançadas de auditoria para garantir que
 
 | Data | Descrição | Tabela de esquema | Como configurar |
 | --- | --- | --- | --- |
-| Account management | Eventos capturados como vários `ActionType` valores indicando criação, exclusão e outras atividades relacionadas à conta local | [Eventos do dispositivo](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar o Gerenciamento de Contas de Usuário](/windows/security/threat-protection/auditing/audit-user-account-management)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](/windows/security/threat-protection/auditing/advanced-security-auditing) |
-| Gerenciamento de grupo de segurança | Eventos capturados como vários valores indicando a criação de grupos `ActionType` de segurança local e outras atividades de gerenciamento de grupo locais | [Eventos do dispositivo](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar o Gerenciamento de Grupo de Segurança](/windows/security/threat-protection/auditing/audit-security-group-management)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](/windows/security/threat-protection/auditing/advanced-security-auditing) |
-| Instalação do serviço | Eventos capturados com `ActionType` o `ServiceInstalled` valor , indicando que um serviço foi criado | [Eventos do dispositivo](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar a Extensão do Sistema de Segurança](/windows/security/threat-protection/auditing/audit-security-system-extension)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](/windows/security/threat-protection/auditing/advanced-security-auditing) |
+| Account management | Eventos capturados como vários `ActionType` valores indicando criação, exclusão e outras atividades relacionadas à conta local | [DeviceEvents](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar o Gerenciamento de Contas de Usuário](/windows/security/threat-protection/auditing/audit-user-account-management)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](/windows/security/threat-protection/auditing/advanced-security-auditing) |
+| Gerenciamento de grupo de segurança | Eventos capturados como vários valores indicando a criação de grupos `ActionType` de segurança local e outras atividades de gerenciamento de grupo locais | [DeviceEvents](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar o Gerenciamento de Grupo de Segurança](/windows/security/threat-protection/auditing/audit-security-group-management)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](/windows/security/threat-protection/auditing/advanced-security-auditing) |
+| Instalação do serviço | Eventos capturados com `ActionType` o `ServiceInstalled` valor , indicando que um serviço foi criado | [DeviceEvents](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar a Extensão do Sistema de Segurança](/windows/security/threat-protection/auditing/audit-security-system-extension)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](/windows/security/threat-protection/auditing/advanced-security-auditing) |
 
 ## <a name="microsoft-defender-for-identity-sensor-on-the-domain-controller"></a>Sensor do Microsoft Defender para Identidade no controlador de domínio
 Se você estiver executando o Active Directory no local, precisará instalar o sensor do Microsoft Defender for Identity no controlador de domínio para obter dados para o Microsoft Defender for Identity. Quando instalados e configurados corretamente, esses dados também se alimentam de busca avançada por meio do Microsoft Defender para Identidade e fornece uma imagem mais holística das informações e eventos de identidade em sua rede. Esses dados também aprimoram a capacidade do Microsoft Defender for Identity de gerar alertas relevantes que também são abordados pela busca avançada. 

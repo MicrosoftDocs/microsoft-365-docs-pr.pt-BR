@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como usar e gerenciar modelos para criar avaliações no Microsoft Compliance Manager. Crie e modifique modelos usando um arquivo do Excel formatado.
-ms.openlocfilehash: 2d95aa4172d80a81e8c635edb01ab56579513c53
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: ac5fe5f0a62c3b20021a9829499d8cec9339f72a
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922781"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499018"
 ---
 # <a name="working-with-assessment-templates-in-compliance-manager"></a>Trabalhar com modelos de avaliação no Gerenciador de Conformidade
 
@@ -38,17 +38,17 @@ Um modelo é uma estrutura de controles para criar uma avaliação no Gerenciado
 
 #### <a name="included-and-premium-templates"></a>Modelos premium e incluídos
 
-Os modelos disponíveis para uso são baseados no contrato de licenciamento da sua organização ([exibir detalhes de licenciamento).](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) Há duas categorias de modelos: incluídas e premium.
+Os modelos disponíveis para uso são baseados no contrato de licenciamento da sua organização ([exibir detalhes de licenciamento).](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager) Há duas categorias de modelos: incluídas e premium.
 
 1. **Modelos incluídos** estão disponíveis para uso como parte do contrato de licenciamento da sua organização.
-2. **Modelos premium devem** ser comprados para criar avaliações a partir deles. Depois de comprado, você pode criar o máximo de avaliações de um modelo conforme necessário.
+2. **Modelos premium devem** ser comprados para criar avaliações a partir deles. Depois de comprado, você pode criar o máximo de avaliações de um modelo conforme necessário. [Saiba como comprar modelos premium.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager)
 
 #### <a name="active-and-inactive-templates"></a>Modelos ativos e inativos
 
 Os modelos exibirão um status de ativação como ativo ou inativo:
 
 - Um modelo é considerado **ativo depois** que você cria uma avaliação a partir desse modelo.
-- Um modelo é considerado **inativo** se sua organização não o estiver usando como a estrutura de uma avaliação.
+- Um modelo é considerado **inativo** se sua organização não o estiver usando para uma avaliação.
 
 Quando você compra um modelo premium e cria uma avaliação dele, esse modelo fica ativo por um ano. Sua compra será renovada automaticamente, a menos que você cancele a renovação.
 
@@ -60,7 +60,7 @@ Por exemplo, se o contador mostrar 2/5, isso significa que sua organização ati
 
 Se o contador mostrar 5/2, isso indica que sua organização excede seus limites e precisa comprar 3 dos modelos premium em uso.
 
-Consulte [Diretrizes de licenciamento do Gerenciador de Conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) para obter mais detalhes.
+Consulte [Diretrizes de licenciamento do Gerenciador de Conformidade](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager) para obter mais detalhes.
 
 ## <a name="viewing-and-managing-templates-from-the-assessment-templates-page"></a>Exibindo e gerenciando modelos da página modelos de avaliação
 

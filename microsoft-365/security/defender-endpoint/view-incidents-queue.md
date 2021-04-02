@@ -1,5 +1,5 @@
 ---
-title: Exibir e organizar a fila incidentes
+title: Exibir e organizar a Fila de incidentes
 ms.reviewer: ''
 description: Consulte a lista de incidentes e saiba como aplicar filtros para limitar a lista e obter uma exibição mais focada.
 keywords: exibir, organizar, incidentes, agregar, investigações, fila, ttp
@@ -9,20 +9,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f25189ac6550d9c3349e08f7e7ac685d4b8031fc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 93aa685f12e0241758bf86d3aa956717db052e5f
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053267"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499931"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-incidents-queue"></a>Exibir e organizar a fila do Microsoft Defender para Incidentes de Ponto de Extremidade
 

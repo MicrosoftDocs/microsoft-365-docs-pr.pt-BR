@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bc81c9c8406a6e70df6ec38e3896ef9977a120e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1386830a4b3e05009b19a7d0e3a4ea62ce3321f2
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053235"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499823"
 ---
 # <a name="alertinfo"></a>AlertInfo
 
@@ -49,8 +49,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `Category` | cadeia de caracteres | Tipo de atividade indicadora de ameaça ou violação identificada pelo alerta |
 | `Severity` | cadeia de caracteres | Indica o impacto potencial (alto, médio ou baixo) do indicador de ameaça ou da atividade de violação identificados pelo alerta |
 | `ServiceSource` | cadeia de caracteres | Produto ou serviço que forneceu as informações de alerta |
-| `DetectionSource` | cadeia de caracteres | Tecnologia de detecção ou sensor que identificou o componente ou atividade notável |
-| `AttackTechniques` | cadeia de caracteres | MITRE ATT&técnicas de CK associadas à atividade que disparou o alerta |
+| `DetectionSource` | string | Tecnologia de detecção ou sensor que identificou o componente ou atividade notável |
+| `AttackTechniques` | string | MITRE ATT&técnicas de CK associadas à atividade que disparou o alerta |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: acb259088717b2772ec9798027545f2ff6dbc5e0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ab6bdefb457fb31df98d829ee801b72f4c8ae70a
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054512"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499695"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Esquema de busca avançado - Alterações de nomenis
 
@@ -60,16 +60,16 @@ As alterações de nomenisagem são aplicadas automaticamente a consultas salvas
 | `DetectionSource` | WindowsDefenderAv | Antivírus | Rebranding |
 | `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Rebranding |
 | `DetectionSource` | CustomerTI |  TI personalizada | Rebranding |
-| `DetectionSource` | OfficeATP | Microsoft Defender para Office 365 | Rebranding |
+| `DetectionSource` | OfficeATP | Obter o Microsoft Defender para Office 365 | Rebranding |
 | `DetectionSource` | MTP   | Microsoft 365 Defender | Rebranding |
 | `DetectionSource` | AzureATP |    Microsoft Defender para Identidade? | Rebranding |
 | `DetectionSource` | CustomDetection   | Detecção personalizada | Rebranding |
 | `DetectionSource` | AutomatedInvestigation |Investigação automatizada | Rebranding |
-| `DetectionSource` | ThreatExperts | Especialistas em ameaças da Microsoft | Rebranding |
+| `DetectionSource` | ThreatExperts | Especialistas em Ameaças da Microsoft | Rebranding |
 | `DetectionSource` | TI de terceiros | Sensores de terceiros | Rebranding |
 | `ServiceSource` | O Microsoft Defender ATP| Microsoft Defender para Ponto de Extremidade | Rebranding |
 |`ServiceSource` |Proteção contra Ameaças da Microsoft   | Microsoft 365 Defender | Rebranding |
-| `ServiceSource` | Office 365 ATP  |Microsoft Defender para Office 365 | Rebranding |
+| `ServiceSource` | Office 365 ATP  |Obter o Microsoft Defender para Office 365 | Rebranding |
 | `ServiceSource` |Azure ATP    |Microsoft Defender para Identidade? | Rebranding |
 
 `DetectionSource`está disponível na tabela [AlertInfo.](advanced-hunting-alertinfo-table.md) `ServiceSource`está disponível nas tabelas [AlertEvidence e](advanced-hunting-alertevidence-table.md) [AlertInfo.](advanced-hunting-alertinfo-table.md) 

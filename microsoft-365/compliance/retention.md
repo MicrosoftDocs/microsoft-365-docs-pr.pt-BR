@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Saiba mais sobre as políticas de retenção e os rótulos de retenção que ajudam você a manter o que precisa e excluir o que não.
-ms.openlocfilehash: dbb294cdb865fb01f931e2e9c3bc4f6afb3f1e09
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 42fe70d1360f45deb6f98f41c0ffec97de7e00a9
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471030"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498345"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Saiba mais sobre as políticas de retenção e rótulos de retenção
 
@@ -259,7 +259,7 @@ Use a tabela a seguir para ajudá-lo a identificar se deseja usar uma política 
 |Declarar um item como um registro| Não | Sim |
 |Iniciar o período de retenção ao rotular ou com base em um evento | Não | Sim |
 |Revisão de disposição | Não| Sim |
-|Prova de disposição por até 7 anos | Não |Sim, quando o item é declarado um registro|
+|Prova de disposição por até 7 anos | Não |Sim, quando você usa a revisão de disposição ou o item é marcado como um registro|
 |Auditoria de atividades administrativas| Sim | Sim|
 |Identifique os itens sujeitos à retenção: <br /> - Pesquisa de Conteúdo <br /> - Página de classificação de dados, explorador de conteúdo, explorador de atividades | <br /> Não <br /> Não | <br /> Sim <br /> Sim|
 

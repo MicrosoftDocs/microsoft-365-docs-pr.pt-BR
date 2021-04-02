@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0d592bcd4d4dfa766816798ecf8418c146d48839
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 323ec9292115cf810bca7bf5de03b09cb35bceb1
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053822"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498857"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -42,9 +42,9 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Microsoft 365 |
 | `Url` | string | URL completa no assunto, no corpo ou no anexo de email |
-| `UrlDomain` | cadeia de caracteres | Nome de domínio ou nome de host da URL |
+| `UrlDomain` | string | Nome de domínio ou nome de host da URL |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
 
 ## <a name="related-topics"></a>Tópicos relacionados

@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ca095a7a65a114182d736176840fdd4e651a8646
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1d9c3233f72541ccd0463eefef93bde5e7d9900f
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054046"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499955"
 ---
 # <a name="prerequisites--permissions---threat-and-vulnerability-management"></a>Pré-requisitos & permissões - gerenciamento de ameaças e vulnerabilidades
 
@@ -41,7 +41,7 @@ Certifique-se de que seus dispositivos:
 - Executar [sistemas operacionais e plataformas com suporte](tvm-supported-os.md)
 - Tenha as seguintes atualizações obrigatórias instaladas e implantadas em sua rede para aumentar suas taxas de detecção de avaliação de vulnerabilidade:
 
-> Liberar | Número e link do KB de atualização de segurança
+> Lançar | Número e link do KB de atualização de segurança
 > :---|:---
 > Windows 10 Versão 1709 | [KB4493441](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441) e [KB 4516071](https://support.microsoft.com/help/4516071/windows-10-update-kb4516071)
 > Windows 10 Versão 1803 | [KB4493464](https://support.microsoft.com/help/4493464) e [KB 4516045](https://support.microsoft.com/help/4516045/windows-10-update-kb4516045)
@@ -77,6 +77,6 @@ Para obter mais informações, consulte [opções de permissão RBAC](user-roles
 
 - [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Sistemas operacionais e plataformas com suporte](tvm-supported-os.md)
-- [Atribuir valor de dispositivo](tvm-assign-device-value.md)
+- [Atribuir valor ao dispositivo](tvm-assign-device-value.md)
 - [Painel de gerenciamento de ameaças e vulnerabilidades](tvm-dashboard-insights.md)
 

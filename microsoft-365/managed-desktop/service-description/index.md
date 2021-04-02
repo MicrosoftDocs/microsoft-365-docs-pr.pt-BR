@@ -4,16 +4,20 @@ description: Descreve o que está incluído na Área de Trabalho Gerenciada da M
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
-ms.localizationpriority: normal
+f1.keywords:
+- NOCSH
 ms.author: jaimeo
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c51ebdbcd2a8d6d13f5ba0009d470581e317a365
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: a107c6364e6766094724972e931606003e0c87f7
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920427"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445191"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Descrição do serviço da Área de Trabalho Gerenciada da Microsoft
 
@@ -23,7 +27,7 @@ A Área de Trabalho Gerenciada da Microsoft é um serviço que fornece a seus us
 - Configuração de dispositivos
 - Recursos para manter os usuários e dispositivos seguros, incluindo o Windows Hello, BitLocker, SecureBoot e a segurança baseada em virtualização, de acordo com as práticas recomendadas da Microsoft
 - Serviços de monitoramento e correção de segurança do dispositivo
-- Compatibilidade do aplicativo, por meio do [Garantia de Aplicativo da Área de Trabalho](/fasttrack/win-10-desktop-app-assure)
+- Compatibilidade do aplicativo, por meio da [Garantia de Aplicativo](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)
 - Gerenciamento de atualizações do Windows 10 e aplicativos do Microsoft 365 Apps para Grandes Empresas
 - Dados analíticos sobre o uso de dispositivos e aplicativos
 - Suporte de TI para seus usuários
@@ -31,7 +35,7 @@ A Área de Trabalho Gerenciada da Microsoft é um serviço que fornece a seus us
 
 Para obter detalhes sobre os serviços específicos que acompanham a Área de Trabalho Gerenciada da Microsoft, confira os outros artigos nesta seção. Se você já decidiu que a Área de Trabalho Gerenciada da Microsoft é para você, os artigos em [Preparar-se para o registro na Área de Trabalho Gerenciada da Microsoft](../get-ready/index.md) fornecem as etapas para se preparar para participar do serviço.
 
-- [A Área de Trabalho Gerenciada da Microsoft com suporte a idiomas e linguagens](regions-languages.md) explica quais regiões e idiomas são compatíveis com o serviço.
+- [As regiões e idiomas com suporte](regions-languages.md) explicam quais regiões e idiomas são compatíveis com o serviço.
 - Para garantir a melhor experiência para os seus usuários, somente certos dispositivos têm suporte da Área de Trabalho Gerenciada da Microsoft. [Dispositivos de programa](device-list.md) especifica os modelos de dispositivo e as configurações exatas que você pode usar com o serviço, seja por fornecer ou trabalhar com um parceiro.
 - [Serviços de dispositivo](device-services.md) especifica os serviços relacionados a dispositivos que a Microsoft fornecerá aos assinantes.
 - [Configuração do dispositivo](device-policies.md) esclarece as políticas de Gerenciamento de Dispositivo Móvel relacionadas à segurança e padrão que o serviço aplica a dispositivos registrados.

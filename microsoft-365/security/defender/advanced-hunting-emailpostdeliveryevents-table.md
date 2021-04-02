@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8940d1dd370f804f8539bf4e753b1112d3c8d3bf
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c6612127f43e650dee18bdc9390fc26b0a693f69
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198192"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498885"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -45,13 +45,13 @@ Para obter mais informações sobre mensagens de email individuais, você també
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Microsoft 365 |
 | `InternetMessageId` | cadeia de caracteres | Identificador público do email definido pelo seu sistema de envio |
 | `Action` | cadeia de caracteres | Ação realizada na entidade |
-| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento: Correção manual, PHISH ZAP, MALWARE ZAP |
-| `ActionTrigger` | cadeia de caracteres | Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automatizada pendente) ou por algum mecanismo especial, como um ZAP ou Entrega Dinâmica |
-| `ActionResult` | cadeia de caracteres | Resultado da ação |
-| `RecipientEmailAddress` | cadeia de caracteres | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
+| `ActionType` | string | Tipo de atividade que disparou o evento: Correção manual, PHISH ZAP, MALWARE ZAP |
+| `ActionTrigger` | string | Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automatizada pendente) ou por algum mecanismo especial, como um ZAP ou Entrega Dinâmica |
+| `ActionResult` | string | Resultado da ação |
+| `RecipientEmailAddress` | string | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
 | `DeliveryLocation` | cadeia de caracteres | Local onde o email foi entregue: Caixa de Entrada/Pasta, Local/Externo, Tratado como Lixo Eletrônico, Quarentena, Falha, Descartado, Itens excluídos |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp. |
 

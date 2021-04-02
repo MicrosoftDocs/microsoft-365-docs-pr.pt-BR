@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 00e10c84c4bcb20f2e018bf05033b5b2235fd9ae
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: eafe84e2d08ce15fe2c3a7cbfafb0822a2f38666
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053218"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498640"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -42,17 +42,17 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
+| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `IsSigned` | booliano | Indica se o arquivo está assinado |
-| `SignatureType` | cadeia de caracteres | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou leitura de um arquivo de catálogo externo |
-| `Signer` | cadeia de caracteres | Informações sobre o signante do arquivo |
-| `SignerHash` | cadeia de caracteres | Valor de hash exclusivo que identifica o signante |
-| `Issuer` | cadeia de caracteres | Informações sobre a autoridade de certificação de emissão (CA) |
-| `IssuerHash` | cadeia de caracteres | Valor de hash exclusivo identificando a autoridade de certificação de emissão (CA) |
-| `CertificateSerialNumber` | cadeia de caracteres | Identificador do certificado exclusivo da autoridade de certificação de emissão (CA) |
-| `CrlDistributionPointUrls` | cadeia de caracteres |  Matriz JSON listando as URLs de compartilhamentos de rede que contêm certificados e listas de revogação de certificados (CRLs) |
+| `SignatureType` | string | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou leitura de um arquivo de catálogo externo |
+| `Signer` | string | Informações sobre o signante do arquivo |
+| `SignerHash` | string | Valor de hash exclusivo que identifica o signante |
+| `Issuer` | string | Informações sobre a autoridade de certificação de emissão (CA) |
+| `IssuerHash` | string | Valor de hash exclusivo identificando a autoridade de certificação de emissão (CA) |
+| `CertificateSerialNumber` | string | Identificador do certificado exclusivo da autoridade de certificação de emissão (CA) |
+| `CrlDistributionPointUrls` | string |  Matriz JSON listando as URLs de compartilhamentos de rede que contêm certificados e listas de revogação de certificados (CRLs) |
 | `CertificateCreationTime` | datetime | Data e hora em que o certificado foi criado |
 | `CertificateExpirationTime` | datetime | Data e hora em que o certificado está definido para expirar |
 | `CertificateCountersignatureTime` | datetime | Data e hora em que o certificado foi contra-assinado |

@@ -9,20 +9,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 599eab29628d11d67843f89a0eb59bb4db1e66ad
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 2ebc826e21246381d3220855f7e8cb01741f12e9
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185450"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499384"
 ---
 # <a name="understand-the-analyst-report-in-threat-analytics"></a>Compreender o relatório do analista na análise de ameaças
 
@@ -90,6 +90,6 @@ Consultas de busca avançadas nos relatórios de analistas foram vetada por anal
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Visão geral de análise de ameaças](threat-analytics.md)
+- [Visão geral da análise de ameaças](threat-analytics.md)
 - [Encontrar proativamente ameaças com busca avançada](advanced-hunting-overview.md) 
 - [Regras de detecção personalizadas](custom-detection-rules.md)

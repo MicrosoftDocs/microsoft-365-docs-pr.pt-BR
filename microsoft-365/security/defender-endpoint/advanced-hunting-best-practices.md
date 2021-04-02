@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6259ac1c5804b244c825a1bb54401640fdefaf34
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b65adbc968e095a6845f27ae1ae859830e4065c4
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053432"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499254"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 

@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -19,12 +19,12 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: f48716ebd9e25d1f8b24d9276aaa5890a335a808
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ab6ce0e8572fc20d3e5dd9f36e84ce9894280fe2
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052528"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51498187"
 ---
 # <a name="investigate-users-in-microsoft-365-security-center"></a>Investigar usuários no Centro de segurança do Microsoft 365
 

@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o portal Envios no Centro de Conformidade de Segurança & para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e arquivos para a Microsoft para verificação.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3dd566de3ba4b4281b19c423b8623f081c378bca
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6f1294335be5a82ef7219ef9096d84d840271c5b
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203365"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51499328"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -122,9 +122,9 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
    ![Exemplo de envio de anexo](../../media/submission-file-flyout.PNG)
 
-## <a name="view-admin-submissions"></a>Exibir envios de administrador
+## <a name="view-items-submitted-for-analysis"></a>Exibir itens enviados para análise
 
-Na Central de Conformidade & segurança,  vá para Envios de gerenciamento de ameaças , verifique se você está na guia \>  **Envios de** administrador e clique em **Novo envio**.
+No Centro de Conformidade & segurança,  vá para \> **Envios** de gerenciamento de ameaças , verifique se você está na guia **Enviado para** análise
 
 Na parte superior da página, você pode inserir uma data de início, uma data de término e (por padrão) você pode filtrar pela **ID** do Envio (um valor GUID atribuído a cada envio) inserindo um valor na caixa e clicando em Atualizar botão ![ ](../../media/scc-quarantine-refresh.png) . Update
 
@@ -254,6 +254,9 @@ Você pode clicar no **botão Opções de** coluna perto da parte inferior da p�
 Na parte superior da página, você pode inserir uma data de  início, uma data de término e filtrar enviando inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
 Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**. Na caixa de diálogo exibida, salve o arquivo .csv.
+
+> [!NOTE]
+> Se as organizações estão configuradas para enviar somente para a caixa de correio personalizada, as mensagens relatadas não serão enviadas para análise novamente e os resultados no portal de mensagens relatadas pelo usuário sempre estarão vazios.
 
 ## <a name="undo-user-submissions"></a>Desfazer envios de usuário
 
