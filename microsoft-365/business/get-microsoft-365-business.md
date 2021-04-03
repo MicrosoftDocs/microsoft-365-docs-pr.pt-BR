@@ -2,8 +2,8 @@
 title: Obter o Microsoft 365 Business Premium no partner center
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Descubra suas opções para comprar o Microsoft 365 Business Premium e instruções passo a passo para comprá-lo no Microsoft Partner Center.
-ms.openlocfilehash: 9f29846a7017259340b2125b09bc9fa5f935501b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9e88229f22bdfbfc0b363b5bf56ed2def4db9b8c
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913317"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580225"
 ---
 # <a name="get-microsoft-365-business-premium"></a>Obtenha o Microsoft 365 Business Premium
 

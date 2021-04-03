@@ -2,8 +2,8 @@
 title: Proteger arquivos de trabalho em dispositivos
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -27,19 +27,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
-description: 'Saiba mais sobre a configuração padrão e a adição de políticas de gerenciamento de aplicativos para proteger os dados da empresa em dispositivos móveis pessoais dos usuários. '
-ms.openlocfilehash: 6dd6bc5c16ffbbd6ed62f16ad11e1eeb8e06a193
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: 'Saiba mais sobre configuração padrão e a adição de políticas de gerenciamento de aplicativos para proteger dados da empresa em dispositivos móveis pessoais dos usuários. '
+ms.openlocfilehash: 7e3967dad47508e938b760d0eb96ba8685d886a1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470898"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580025"
 ---
 # <a name="protect-work-files-on-devices"></a>Proteger arquivos de trabalho em dispositivos
 
 Este artigo se aplica ao Microsoft 365 Business Premium.
 
-No mundo atual, os usuários estão vinculados a seus dispositivos e, à medida que a vida pessoal e a vida profissional colidem, os dados da empresa podem acabar no dispositivo pessoal de um funcionário. As configurações que você define aqui podem ajudar a reassumir o controle e fornecem proteção para arquivos de trabalho, sem afetar os dados ou as configurações pessoais do usuário.
+No mundo atual, os usuários estão vinculados a seus dispositivos e, à medida que a vida pessoal e profissional colide, os dados da sua empresa podem acabar em um dispositivo pessoal de um funcionário. As configurações que você define aqui podem ajudar a reassumir o controle e fornecem proteção para arquivos de trabalho, sem afetar os dados ou as configurações pessoais do usuário.
   
 ## <a name="configuring-policies-during-setup"></a>Configuração de políticas durante a instalação
 

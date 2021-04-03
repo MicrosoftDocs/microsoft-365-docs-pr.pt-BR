@@ -2,8 +2,8 @@
 title: Adicionar um administrador
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como adicionar outro administrador.
-ms.openlocfilehash: 83b4432858f33f8132647840b746bb5aa23d68b5
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: f6f50f65a886d3c094a162349496a7e0c13562f1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423172"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580721"
 ---
 # <a name="add-an-admin"></a>Adicionar um administrador
 
@@ -50,10 +50,10 @@ Se houver uma pessoa de TI externa que ajudará a gerenciar sua empresa, você p
 
 1. No Centro de administração do Microsoft 365, selecione **Usuários**, Usuários **ativos** e, em seguida, **Adicionar um usuário**.
 1. Na página **Configurar as noções básicas,** insira o nome, o nome de exibição e o nome de usuário do usuário.
-1. Marque a **caixa de seleção Enviar senha no email após** a conclusão para que a senha do usuário seja enviada para eles. Digite seu endereço de email. Separe vários endereços com ponto-e-vírgula. Selecione **Avançar**.
+1. Marque a **caixa de seleção Enviar senha no email após** a conclusão para que a senha do usuário seja enviada para eles. Digite seu endereço de email. Separe vários endereços com ponto-e-vírgula. Selecione **Próximo**.
 1. Na lista **listada** Selecionar local, escolha o local do usuário.
-1. Marque a **caixa de seleção Criar usuário sem licença de** produto. Não é necessário atribuir uma licença a esse usuário porque ele só gerenciará os serviços do Microsoft 365 e não os utilizará. Selecione **Avançar**.
-1. Expanda **a seção Funções.** Desempure a caixa de seleção ao lado da função atual do usuário e escolha **Administrador global**. Selecione **Avançar**.
+1. Marque a **caixa de seleção Criar usuário sem licença de** produto. Não é necessário atribuir uma licença a esse usuário porque ele só gerenciará os serviços do Microsoft 365 e não os utilizará. Selecione **Próximo**.
+1. Expanda **a seção Funções.** Desempure a caixa de seleção ao lado da função atual do usuário e escolha **Administrador global**. Selecione **Próximo**.
 1. Revise suas configurações e selecione **Concluir adicionar**.
 1. Selecione **Fechar**.
 

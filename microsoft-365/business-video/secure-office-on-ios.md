@@ -2,8 +2,8 @@
 title: Baixar aplicativos seguros do Office no iOS
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como proteger aplicativos do Office no iOS com o Microsoft 365 Business Premium.
-ms.openlocfilehash: 197041a4eb9ada65f4b6046d93f2a856cbdfb40d
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 5a5f52f87fe63fdec6df9611a5ea44a2ecf4466b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422106"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580457"
 ---
 # <a name="secure-office-apps-on-ios"></a>Baixar aplicativos seguros do Office no iOS
 

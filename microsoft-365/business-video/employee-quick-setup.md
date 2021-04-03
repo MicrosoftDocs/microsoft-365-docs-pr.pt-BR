@@ -2,8 +2,8 @@
 title: Guia de configuração rápida do funcionário
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Ajude seus funcionários a aprender a configurar os aplicativos do Office que eles têm com o Microsoft 365 Business Premium.
-ms.openlocfilehash: c336e12e05a0bb2f0967c7e7591913cbb2ce6742
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 72b05435de13ef0d020be74f619a140e188f79d8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422754"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580613"
 ---
 # <a name="employee-quick-setup"></a>Configuração rápida para funcionários
 

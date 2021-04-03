@@ -2,8 +2,8 @@
 title: Compartilhar seus arquivos de negócios - visão geral
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: twerner
+author: twernermsft
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral de como compartilhar seus arquivos de negócios.
-ms.openlocfilehash: 6066bb2b1f1ea4fb4fac6a2d9d08dbd19d6cb7b0
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: a28830b9dc863c38ff45e2d6a140ab764ae66b06
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164592"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580517"
 ---
 # <a name="overview-of-sharing-business-files"></a>Visão geral do compartilhamento de arquivos comerciais
 

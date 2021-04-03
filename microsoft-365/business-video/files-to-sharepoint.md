@@ -2,8 +2,8 @@
 title: Mover arquivos da empresa para o SharePoint
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como mover arquivos da empresa para o SharePoint.
-ms.openlocfilehash: ab19fed6f0ebe473cbe8493ceebc5f4ca7dc9a8f
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: e7a778fea9d358d2c5b3e7944edfbb8b2b7fb0f1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422706"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580601"
 ---
 # <a name="move-files-to-sharepoint"></a>Mover arquivos para o SharePoint
 

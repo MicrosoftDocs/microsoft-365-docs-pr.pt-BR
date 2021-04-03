@@ -2,8 +2,8 @@
 title: Permitir que os usuários redefinir suas senhas
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como permitir que os usuários redefinir suas próprias senhas no Microsoft 365 Business Premium.
-ms.openlocfilehash: 42b4c70b5cfc17b0315a6c2ac8d509aeece8e458
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 3ba46529dcbb8d5af7343aafbb9e5a5863b9139f
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422022"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580421"
 ---
 # <a name="set-up-self-service-password-reset"></a>Configurar a redefinição de senha self-service
 

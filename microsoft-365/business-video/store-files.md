@@ -2,8 +2,8 @@
 title: Onde armazenar arquivos no Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba onde você pode armazenar arquivos no Microsoft 365 para empresas.
-ms.openlocfilehash: e8c0347489b3d35217b3cad38e26670d2c6023bb
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: d1f0a35c3b9b253b8f847ae8578e26a7deec18bb
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421830"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580361"
 ---
 # <a name="where-to-store-files"></a>Onde armazenar arquivos
 

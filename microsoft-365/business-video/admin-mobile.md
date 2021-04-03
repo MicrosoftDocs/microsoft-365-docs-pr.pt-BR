@@ -2,8 +2,8 @@
 title: Baixar o aplicativo móvel de Administração
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como instalar o aplicativo móvel administrador do Microsoft 365 em seu telefone.
-ms.openlocfilehash: 43c2c2905dec978a520e2bf2d4b9b2aa7318b7a7
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 0367123e9bd74ab79c17b38eb49cc31fc6fba8e4
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50423006"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580697"
 ---
 # <a name="install-the-microsoft-365-admin-mobile-app-on-your-phone"></a>Instalar o aplicativo móvel administrador do Microsoft 365 em seu telefone
 

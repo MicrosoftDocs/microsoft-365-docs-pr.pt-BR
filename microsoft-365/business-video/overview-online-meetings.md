@@ -2,8 +2,8 @@
 title: Visão geral de reuniões online
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: twerner
+author: twernermsft
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como hospedar reuniões online para sua empresa.
-ms.openlocfilehash: 85163990d65126cc3d9d6c11627e63aa975b2924
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dffdf847962962b2f2e9daf70dae210abbb7614b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913596"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580505"
 ---
 # <a name="host-online-meetings-for-your-business"></a>Hospedar reuniões online para sua empresa
 

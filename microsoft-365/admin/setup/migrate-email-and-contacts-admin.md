@@ -2,8 +2,8 @@
 title: Migrar email e contatos para o Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -28,12 +28,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: Aprenda a importar contatos, calendários e emails do Gmail ou de outro provedor de email e migrá-los para o Microsoft 365.
-ms.openlocfilehash: 91c8177322e8ebc1e1530675d92d60e96cc73adb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 752138d3194379529d78a299b36aa177a832d55b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914097"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580805"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Migrar email e contatos para o Microsoft 365
 

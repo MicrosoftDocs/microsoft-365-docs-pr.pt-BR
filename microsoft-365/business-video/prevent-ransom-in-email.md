@@ -2,8 +2,8 @@
 title: Criar regras de e-mail para ransomware
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como criar regras de email para evitar ransomware.
-ms.openlocfilehash: 34590945b13408cf3521f000d703bd37e04ba73f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 96822916753f2f70d481c213e7e31046f7081446
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913545"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580493"
 ---
 # <a name="create-email-rules-to-prevent-ransomware"></a>Criar regras de email para evitar ransomware
 

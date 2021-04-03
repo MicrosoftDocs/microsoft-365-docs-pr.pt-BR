@@ -2,8 +2,8 @@
 title: Aumentar a proteção contra ameaças para o Microsoft 365 for Business
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Configurar o Microsoft Defender para Office 365 e proteger dados confidenciais contra phishing, malware e outras ameaças.
-ms.openlocfilehash: 6526ed9a849e83f19f74656004978089ce367ea9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8fb2c3881876cabea6d8907a85bc9397212126dc
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198382"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580185"
 ---
 # <a name="increase-threat-protection"></a>Aumente a proteção contra ameaças
 
@@ -81,7 +81,7 @@ Para criar uma regra de transporte de email:
 
 6. Selecione **Salvar**.
 
-|Configuração|Avisar os usuários antes de abrir anexos de arquivos do Office||
+|Setting|Avisar os usuários antes de abrir anexos de arquivos do Office||
 |---|---|---|
 |Nome|Regra anti-ransomware: avisar os usuários|
 |Aplicar essa regra se . . .|Qualquer anexo . . . extensão de arquivo corresponde . . .|
@@ -89,7 +89,7 @@ Para criar uma regra de transporte de email:
 |Faça o seguinte . . .|Notificar o destinatário com uma mensagem|
 |Fornecer texto de mensagem|Não abra esses tipos de arquivos de pessoas que você não conhece porque elas podem conter macros com código mal-intencionado.|
 
-Para mais informações, confira:
+Para saber mais, confira:
 
 - [Ransomware: como reduzir o risco](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 
@@ -113,7 +113,7 @@ Para criar uma regra de transporte de email, assista [a este vídeo curto](https
 
 6. Selecione **Salvar**.
 
-|Configuração|Avisar os usuários antes de abrir anexos de arquivos do Office|
+|Setting|Avisar os usuários antes de abrir anexos de arquivos do Office|
 |---|---|
 |Nome|Impedir o encaminhamento automático de emails para domínios externos|
 |Aplicar essa regra se ...|O remetente . . . é externo/interno . . . Dentro da organização|

@@ -2,8 +2,8 @@
 title: Remover dados da empresa de dispositivos
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: Descubra como usar o Microsoft 365 para empresas para remover dados da empresa que seus usuários têm em seus dispositivos ou computadores Windows.
-ms.openlocfilehash: 3a2faf0c5617b5d1e6beccf1e457f8b483820604
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 2e1af384d83937d65fd5c8ae655d228df48422cd
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470818"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579985"
 ---
 # <a name="remove-company-data-from-devices"></a>Remover dados da empresa de dispositivos
 
@@ -41,15 +41,15 @@ Você pode usar o Microsoft 365 para empresas para [](app-protection-settings-fo
   
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
-2. Na internet à esquerda, escolha Gerenciar  \> **Dispositivos.**  
+2. À esquerda, escolha  Devices \> **Manage**.  
   
-3. Na página **Gerenciar,** escolha ou pesquise um usuário que deseja remover os dados e escolha o nome. 
+3. Na página **Gerenciar,** escolha ou procure um usuário que deseja remover os dados e escolha o nome. 
     
-4. No painel seguinte, selecione o dispositivo ou dispositivos na lista **Dispositivos.** No painel de dispositivos que é aberto, você pode optar por redefinir o dispositivo para as configurações de fábrica ou remover dados da empresa, dependendo do tipo de dispositivo. 
+4. No próximo painel, selecione o dispositivo ou dispositivo na lista **Dispositivos.** No painel de dispositivos que é aberto, você pode optar por redefinir o dispositivo para configurações de fábrica ou remover dados da empresa, dependendo do tipo de dispositivo. 
     
     ![No painel remover dados da empresa, selecione o dispositivo do qual você deseja remover os dados.](../media/resetorremove.png)
   
-5. No painel de confirmação, escolha **Confirmar** \> **Fechamento.**
+5. No painel de confirmação, escolha **Confirmar** \> **Fechar**.
     
 
 

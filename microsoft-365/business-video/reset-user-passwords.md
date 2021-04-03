@@ -2,8 +2,8 @@
 title: Redefinir senhas do usuário
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como redefinir senhas de usuário no Microsoft 365 para empresas.
-ms.openlocfilehash: 897ee87149c779d3de6d2175993d17e88dfc270f
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 42832bd48f637589687b75c4995ae58154b62226
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422262"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580481"
 ---
 # <a name="reset-passwords-for-your-users"></a>Redefinir senhas para seus usuários
 

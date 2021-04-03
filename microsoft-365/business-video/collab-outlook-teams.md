@@ -2,8 +2,8 @@
 title: Colaborar usando o Outlook e o Teams
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como usar o Outlook e o Microsoft Teams para colaborar.
-ms.openlocfilehash: dd1030833a10678b4630d9e86905c98d30ac15fe
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: dc0eaf1b47796becf62222fb93ccd071cc197a1c
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913653"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580661"
 ---
 # <a name="use-outlook-and-teams-together"></a>Usar o Outlook e o Teams juntos
 

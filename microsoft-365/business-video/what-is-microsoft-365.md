@@ -2,8 +2,8 @@
 title: O que é o Microsoft 365 Business Premium?
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 description: Saiba mais sobre os recursos do Microsoft 365 Business Premium.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: b92e3790e83c5da62d65e6c98bf448d33862df54
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f4c41e86f3a98c2af076a58e311aa14be79704e9
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913533"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580325"
 ---
 # <a name="microsoft-365-business-premium"></a>Microsoft 365 Business Premium
 
