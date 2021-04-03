@@ -8,17 +8,17 @@ metadata:
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
-  author: sirkkuw
-  ms.author: sirkkuw
+  author: kwekua
+  ms.author: kwekua
   ms.date: 11/08/2019
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 9d8104660c4686b2240c292509a499a25308d9f6
-  ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
+  ms.openlocfilehash: ed025ce26e22c85c1dd56a6c49ba0abf448ef476
+  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/18/2020
-  ms.locfileid: "44799954"
+  ms.lasthandoff: 04/02/2021
+  ms.locfileid: "51579309"
 highlightedContent:
   items:
   - title: O Office 365 agora é Microsoft 365!

@@ -6,17 +6,17 @@ metadata:
   description: Compartilhe documentos e use o Teams para colaboração e reunião.
   ms.service: O365-administration
   ms.topic: landing-page
-  author: sirkkuw
-  ms.author: sirkkuw
+  author: efrene
+  ms.author: efrene
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 80aea7aef92cd584df0c35b0d14ec71e0ad738b7
-  ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+  ms.openlocfilehash: af01532312d675e3b685e51334235a9cf07683e0
+  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/18/2020
-  ms.locfileid: "44785455"
+  ms.lasthandoff: 04/02/2021
+  ms.locfileid: "51579020"
 landingContent:
 - title: Trabalhar com clientes
   linkLists:
