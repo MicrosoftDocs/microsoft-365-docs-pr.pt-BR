@@ -2,8 +2,8 @@
 title: Trabalhar de qualquer lugar - visão geral
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral de como o Microsoft 365 ajuda você a trabalhar em qualquer lugar.
-ms.openlocfilehash: f68c2f4b05437dd5cb29a3588a4878f464c5566a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 94033282edd980b022898da80b298a22c228e586
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164556"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578538"
 ---
 # <a name="work-from-anywhere---overview"></a>Trabalhar de qualquer lugar - visão geral
 

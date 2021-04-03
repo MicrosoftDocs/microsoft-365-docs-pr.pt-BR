@@ -2,8 +2,8 @@
 title: Atualizar o Windows 10 Home para o Windows 10 Pro
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como atualizar o Windows 10 Home para o Windows 10 Pro.
-ms.openlocfilehash: 3e4d1e5220399ff2cfa25102cada165b25bc53ba
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 319152f8a587c123b25907db060b0572ec3a7cf3
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421746"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578562"
 ---
 # <a name="upgrade-from-windows-10-home-to-windows-10-pro"></a>Atualizar do Windows 10 Home para o Windows 10 Pro
 

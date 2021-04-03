@@ -2,8 +2,8 @@
 title: Estados do dispositivo
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: Saiba mais sobre os vários estados de dispositivo na lista de ações do dispositivo na página de administração no Microsoft 365 para empresas.
-ms.openlocfilehash: 64138e2b6ae73c067709cde1912a96615d08ebf1
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Saiba mais sobre os vários estados de dispositivo na lista Ações do dispositivo na home admin no Microsoft 365 para empresas.
+ms.openlocfilehash: e6f1b428413d094e0a1ce3afb026528074038736
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471170"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578458"
 ---
 # <a name="device-states"></a>Estados do dispositivo
 
@@ -45,14 +45,14 @@ Os dispositivos na lista **Ações do dispositivo** (página inicial do administ
 |:-----|:-----|
 |Gerenciado pelo Intune  <br/> |Gerenciado pelo Microsoft 365 Business Premium.  <br/> |
 |Desativação pendente  <br/> |O Microsoft 365 Business Premium está se preparando para remover dados da empresa do dispositivo.  <br/> |
-|Desativação em andamento  <br/> |No momento, o Microsoft 365 Business Premium remove dados da empresa do dispositivo.  <br/> |
+|Desativação em andamento  <br/> |O Microsoft 365 Business Premium está removendo dados da empresa do dispositivo.  <br/> |
 |Falha na desativação  <br/> | Falha ao remover ação de dados da empresa.  <br/> |
-|Retire canceled  <br/> |A ação Destivar foi cancelada.  <br/> |
+|Retirar cancelado  <br/> |A ação Desaposente foi cancelada.  <br/> |
 |Apagamento pendente  <br/> |Aguardando redefinição de fábrica para iniciar.  <br/> |
 |Apagamento em andamento  <br/> |A redefinição de fábrica foi emitida.  <br/> |
-|Falha ao apagar  <br/> |Não foi preciso redefinir a fábrica.  <br/> |
-|Apagando cancelado  <br/> |A limpeza de fábrica foi cancelada.  <br/> |
-|Não íntegro  <br/> |Uma ação está pendente (ou em andamento), mas o dispositivo não fez check-in por mais de 30 dias.  <br/> |
+|Falha ao apagar  <br/> |Não foi consegui fazer a redefinição de fábrica.  <br/> |
+|Apagar cancelado  <br/> |A limpeza de fábrica foi cancelada.  <br/> |
+|Não íntegro  <br/> |Uma ação está pendente (ou em andamento), mas o dispositivo não faz check-in há mais de 30 dias.  <br/> |
 |Exclusão pendente  <br/> |Ação de Excluir está em andamento.  <br/> |
 |Descoberto  <br/> |O Microsoft 365 Business Premium detectou o dispositivo.  <br/> |
    

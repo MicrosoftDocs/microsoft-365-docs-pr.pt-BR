@@ -2,8 +2,8 @@
 title: Editar ou criar configurações de proteção de dispositivo para computadores Windows 10
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Saiba mais sobre as configurações disponíveis no Microsoft 365 para empresas para proteger dispositivos Windows 10.
-ms.openlocfilehash: db310731ef996500de61535b5b9f99e240ec75ff
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: acfb27b2e4592d4ed1e446a63c9495ae07d916de
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912793"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578218"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Editar ou criar configurações de proteção de dispositivo para computadores Windows 10
 

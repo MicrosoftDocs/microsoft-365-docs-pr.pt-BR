@@ -2,8 +2,8 @@
 title: Visão geral do Microsoft 365 Business Premium Security
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre os recursos de segurança incluídos no Microsoft 365 para empresas.
-ms.openlocfilehash: e21dc1a9f27f9b5896ace2f09ebb936b8189fdd3
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 5274d54fb39cfbeee8ce9abd7fb738543aaacc53
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422322"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578730"
 ---
 # <a name="overview-of-security"></a>Visão geral da segurança
 
@@ -34,10 +34,10 @@ ms.locfileid: "50422322"
 
 O Microsoft 365 Business Premium fornece proteção contra ameaças, proteção de dados e recursos de gerenciamento de dispositivos para ajudar você a proteger sua empresa contra ameaças online e acesso não autorizado, bem como proteger e gerenciar dados da empresa em seus telefones, tablets e computadores.
 
-|![Proteção contra ameaças](../media/m365-business-security-threat-protection.png)<br/>[Proteção contra ameaças](#threat-protection)|![Colaborar com um cliente](../media/m365-business-security-data-protection.png) <br/>[Proteção de dados](#data-protection) | ![Gerenciamento de dispositivo](../media/m365-business-security-device-management.png) <br/>[Gerenciamento de dispositivos](#device-management) |
+|![Proteção contra ameaças](../media/m365-business-security-threat-protection.png)<br/>[Proteção contra Ameaças](#threat-protection)|![Colaborar com um cliente](../media/m365-business-security-data-protection.png) <br/>[Proteção de dados](#data-protection) | ![Gerenciamento de dispositivo](../media/m365-business-security-device-management.png) <br/>[Gerenciamento de dispositivo](#device-management) |
 |--|--|--|
 
-## <a name="threat-protection"></a>Proteção contra Ameaças
+## <a name="threat-protection"></a>Proteção contra ameaças
 
 O Microsoft 365 Business Premium inclui a Proteção Avançada contra Ameaças (ATP) do Office 365, um serviço de filtragem de email baseado em nuvem que protege você contra malware, ransomware, links prejudiciais e muito mais. Os Links Seguros atp protegem você contra URLs mal-intencionadas em documentos do Office ou email. Os Anexos Seguros atp protegem você contra malware e vírus anexados a mensagens ou documentos.
 

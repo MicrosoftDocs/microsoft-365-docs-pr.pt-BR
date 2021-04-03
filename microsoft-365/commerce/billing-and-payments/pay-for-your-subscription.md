@@ -21,21 +21,14 @@ ms.custom:
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 44cb7b09c76ee5e49d2f556df104e55150212f30
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 582ecb0f9b46d877c30aa29334b30b9209c93993
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911777"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576932"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Como pagar por sua assinatura
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Você pode usar um cartão de crédito ou débito ou uma conta bancária para pagar sua assinatura. Em alguns casos, você pode pagar por fatura, usando cheque ou transferência eletrônica de fundos (TEF). Se você tem um perfil de faturamento, suas opções são um pouco diferentes. Para mais informações, consulte [Como pagar por sua assinatura com um perfil de faturamento](pay-for-subscription-billing-profile.md). Se você não tiver certeza se sua conta tem um perfil de faturamento, consulte [Entenda os perfis de faturamento](manage-billing-profiles.md).
 

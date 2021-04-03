@@ -19,21 +19,14 @@ search.appverid:
 - MET150
 description: Saiba como obter uma avaliação gratuita ou comprar uma assinatura para o Microsoft 365 para empresas.
 ms.date: 08/07/2020
-ms.openlocfilehash: 05ac30ae25f4748751eee04c34d049b07d5b7511
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9daa7022007aa3c71dc7291f592d3b166a2c45a5
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198427"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576896"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Experimente ou compre uma assinatura do Microsoft 365 para empresas
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../admin/microsoft-365-admin-center-preview.md?view=o365-21vianet).
-
-::: moniker-end
 
 O Microsoft 365 para empresas é um serviço de assinatura que permite que você execute sua organização na nuvem enquanto a Microsoft cuida da TI para você. A Microsoft gerencia dispositivos, protege contra ameaças do mundo real e fornece à sua organização o software de negócios mais recente. Você pode se inscrever para uma assinatura de avaliação gratuita para o Microsoft 365 Business Standard, o Microsoft 365 Business Premium ou o Microsoft 365 Apps para empresas e experimentar por 30 dias.
 
@@ -42,7 +35,7 @@ O Microsoft 365 para empresas é um serviço de assinatura que permite que você
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você não precisa de uma conta da Microsoft existente para se inscrever em uma avaliação gratuita. Para todos os outros procedimentos deste artigo, você deve ser um administrador global ou de cobrança para sua organização. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+Você não precisa de uma conta da Microsoft existente para se inscrever em uma avaliação gratuita. Para todos os outros procedimentos deste artigo, você deve ser um administrador global ou de cobrança para sua organização. Para obter mais informações, confira [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="try-a-free-trial-subscription"></a>Experimente uma assinatura de avaliação gratuita
 
@@ -110,6 +103,21 @@ Quando você compra outra assinatura por meio do centro de administração, a no
 
 > [!NOTE]
 > Você deve mover os usuários da sua assinatura de avaliação gratuita para a nova assinatura antes que seu período de carência de 90 dias termine depois que sua assinatura de avaliação expirar. Ao fazer isso, você mantém seus dados, contas e configuração. Caso contrário, essas informações serão excluídas.
+
+::: moniker range="o365-21vianet"
+## <a name="payment-options"></a>Opções de pagamento
+
+Você pode pagar por sua assinatura:
+
+- Fatura
+
+- Pagamento online usando Alipay ou China UnionPay
+
+A prova de pagamento será fornecida na forma de Fapiaos. Você pode enviar sua solicitação fapiao para nosso sistema [Fapiao](https://go.microsoft.com/fwlink/p/?LinkId=395314) cerca de três (3) dias após o pagamento. Para obter mais informações, [consulte Apply for a Fapiao for Office 365 operated by 21Vianet](../admin/services-in-china/apply-for-a-fapiao.md).
+
+> [!NOTE]
+>  Cartões de crédito internacionais não são aceitos.
+::: moniker-end
 
 ## <a name="next-steps"></a>Próximas etapas
 

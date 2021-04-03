@@ -2,8 +2,8 @@
 title: Enviar e-mail criptografado
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 ms.date: 9/20/2018
 ms.audience: Admin
@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Saiba como enviar emails criptografados usando o Outlook.
-ms.openlocfilehash: af34d632ead2ae1e6ed81845c56b95b95af1dc51
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 209734bd52d1d97278d5632f035723758fe2e016
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911969"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576968"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Criptografe ou rotule emails confidenciais
 

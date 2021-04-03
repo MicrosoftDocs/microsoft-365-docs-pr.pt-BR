@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: ''
 description: Saiba como colocar retém os custodiantes e suas fontes de dados para preservar conteúdo relevante para seu caso de Descoberta Avançada.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07edcb2707d1dffecfa5a2aac6c4340ac6cbe53f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 70390a933de788a6b1190e42b5087b85a175b9a2
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926369"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570585"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Gerenciar rescuções na Descoberta Avançada de EDiscovery
 
@@ -76,8 +76,6 @@ Para criar uma responsabilidade não custodial para um caso de Descoberta Avanç
       > Quando você clica **em Escolher usuários, grupos** ou equipes para especificar caixas de correio para colocar em espera, o seletor de caixa de correio exibido está vazio. Isso foi desenvolvido para melhorar o desempenho. Para adicionar pessoas a essa lista, digite um nome (no mínimo 3 caracteres) na caixa de pesquisa.
 
    1. **Sites do SharePoint** - Clique em **Escolher sites** e clique em **Escolher sites** novamente para especificar sites do SharePoint e do OneDrive for Business para colocar em espera. Digite a URL de cada site que você deseja colocar em retenção. Você também pode adicionar a URL do site do SharePoint para um Grupo do Microsoft 365 ou uma Equipe da Microsoft. Clique **em Escolher** e clique em **Feito**.
-    
-      Consulte a **seção Perguntas frequentes** para saber mais sobre como colocar o Microsoft 365 Groups e o Microsoft Teams em espera.
 
       > [!NOTE]
       > A URL da conta do OneDrive de um usuário inclui o nome principal do usuário (UPN) (por exemplo, `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com` ). No caso raro de a UPN de uma pessoa ser alterada, a URL do OneDrive também será alterada para incorporar o novo UPN. Se a conta do OneDrive de um usuário faz parte de uma responsabilidade não custodiada e seu UPN é alterado, você precisa atualizar a responsabilidade e apontar para a nova URL do OneDrive. Para saber mais, confira [Como as alterações de UPN afetam a URL do OneDrive](/onedrive/upn-changes).
@@ -118,7 +116,7 @@ Lembre-se das seguintes coisas sobre estatísticas de espera:
 
 ## <a name="place-a-hold-on-microsoft-teams-and-office-365-groups"></a>Colocar uma espera nos Grupos do Microsoft Teams e do Office 365
 
-O Microsoft Teams é criado em Grupos do Office 365. Portanto, colocá-los em espera na Descoberta Avançada é muito semelhante. 
+O Microsoft Teams é criado em Grupos do Office 365. Portanto, colocá-los em espera na Descoberta Avançada é muito semelhante.
 
 - **Como mapear um site adicional do Microsoft 365 Groups ou do Microsoft Teams para um custodiado? E sobre a colocação de uma ressalção não custodial nos Grupos do Microsoft 365 e no Microsoft Teams?** O Microsoft Teams é criado com base nos Grupos do Microsoft 365. Portanto, colocá-los em espera em um caso de Descoberta eDiscovery é muito semelhante. Lembre-se das seguintes coisas ao colocar os Grupos do Microsoft 365 e o Microsoft Teams em espera.
   - Para colocar o conteúdo localizado nos Grupos do Microsoft 365 e no Microsoft Teams em espera, você precisa especificar a caixa de correio e o site do SharePoint associados a um grupo ou equipe.

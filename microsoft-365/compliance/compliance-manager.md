@@ -1,5 +1,5 @@
 ---
-title: Microsoft Compliance Manager
+title: Gerente de Conformidade Microsoft
 f1.keywords:
 - NOCSH
 ms.author: chvukosw
@@ -17,20 +17,20 @@ search.appverid:
 - MOE150
 - MET150
 description: O Microsoft Compliance Manager ajuda as organizações a simplificar e automatizar avaliações de risco e sugere ações recomendadas para ajudar a resolver riscos.
-ms.openlocfilehash: 80d955f3d321ef8f82fe3654e4d7d08572ec72cc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f938bb6b82ee7e24dd58b66597f0af7a3a00a9a2
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922725"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570448"
 ---
-# <a name="microsoft-compliance-manager"></a>Microsoft Compliance Manager
+# <a name="microsoft-compliance-manager"></a>Gerente de Conformidade Microsoft
 
 **Neste artigo:** Saiba o que é o Gerenciador de Conformidade, como ele ajuda a simplificar a conformidade e reduzir o risco e seus principais componentes.
 
 ## <a name="whats-new-the-ga-release-of-compliance-manager"></a>Novidades: a versão ga do Gerenciador de Conformidade
 
-O Gerenciador de Conformidade agora está geralmente disponível (GA) como uma solução de gerenciamento de conformidade de ponta a ponta dentro do centro de [conformidade do Microsoft 365.](microsoft-365-compliance-center.md) Com essa versão, o Gerenciador de Conformidade conclui a transição de seu local anterior no Portal de Confiança do Serviço Microsoft. O Gerenciador de Conformidade também agora está disponível para clientes moderados e GCC High da Comunidade Governamental dos EUA (GCC).
+O Gerenciador de Conformidade agora está geralmente disponível (GA) como uma solução de gerenciamento de conformidade de ponta a ponta dentro do centro de [conformidade do Microsoft 365.](microsoft-365-compliance-center.md) Com essa versão, o Gerenciador de Conformidade conclui a transição de seu local anterior no Portal de Confiança do Serviço Microsoft. O Gerenciador de Conformidade também está disponível para clientes moderados da Comunidade Governamental dos EUA (GCC), GCC High e Departamento de Defesa (DoD).
 
 O que começou como a visualização pública da Pontuação de Conformidade evoluiu para uma ferramenta centralizada com recursos avançados de gerenciamento de conformidade e maior facilidade de uso.  A versão ga traz uma coleção maior de avaliações pré-criadas para ajudá-lo a dimensionar suas atividades de conformidade.
 
@@ -99,7 +99,7 @@ Uma avaliação é agrupar controles de uma regulamentação, padrão ou políti
 
 As avaliações têm vários componentes:
 
-- **Serviços no escopo**: o conjunto específico de serviços microsoft aplicáveis à avaliação
+- **Serviços dentro do escopo**: o conjunto específico de serviços Microsoft aplicáveis à avaliação
 - **Controles gerenciados pela Microsoft**: controles para serviços de nuvem da Microsoft, que a Microsoft implementa em seu nome
 - **Seus controles**: às vezes chamados de controles gerenciados pelo cliente, esses são controles implementados e gerenciados pela sua organização
 - **Controles compartilhados**: são controles que sua organização e a Microsoft compartilham responsabilidade pela implementação
@@ -113,7 +113,7 @@ Ao criar avaliações, você as atribuirá a um grupo. Você pode configurar gru
 
 ### <a name="templates"></a>Modelos
 
-O Gerenciador de Conformidade fornece modelos para ajudá-lo a criar avaliações rapidamente. Você pode modificar esses modelos para criar uma avaliação otimizada para suas necessidades. Você também pode criar uma avaliação personalizada criando um modelo com seus próprios controles e ações. Por exemplo, você pode querer que um modelo cubra um controle de processo de negócios interno ou um padrão de proteção de dados regional que não seja coberto por um dos nossos modelos de avaliação pré-construídos de 150+.
+O Gerenciador de Conformidade fornece modelos para ajudá-lo a criar avaliações rapidamente. Você pode modificar esses modelos para criar uma avaliação otimizada para suas necessidades. Você também pode criar uma avaliação personalizada criando um modelo com seus próprios controles e ações. Por exemplo, você pode querer que um modelo cubra um controle de processo comercial interno ou um padrão de proteção de dados regional que não seja coberto por um dos nossos modelos de avaliação pré-criado do 325+.
 
 ##### <a name="learn-more"></a>Saiba mais
 

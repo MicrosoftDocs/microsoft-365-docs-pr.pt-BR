@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: De definir permissões e funções de usuário do Microsoft Compliance Manager e configurar testes automatizados de ações. Gerencie o histórico do usuário e filtre o seu painel de exibição.
-ms.openlocfilehash: 4558f6b2a75f1635c7984b386f217efa148b22af
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 8877a9a1e65a624708646c17a2517647c8a72f6a
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499030"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570553"
 ---
 # <a name="get-started-with-compliance-manager"></a>Introdução ao Gerenciador de Conformidade
 
@@ -30,7 +30,7 @@ ms.locfileid: "51499030"
 
 ## <a name="who-can-access-compliance-manager"></a>Quem pode acessar o Gerenciador de Conformidade
 
-O Gerenciador de Conformidade está disponível para organizações com licenças do Office 365 e do Microsoft 365 e para clientes moderados E GCC (Nuvem da Comunidade Governamental) dos EUA e alto GCC. Os recursos de disponibilidade e gerenciamento de avaliação dependem do contrato de licenciamento.  [Exibir detalhes de descrição do serviço](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+O Gerenciador de Conformidade está disponível para organizações com licenças do Office 365 e do Microsoft 365 e para clientes do GCC (Nuvem da Comunidade governamental) dos EUA, moderados, GCC High e clientes do Departamento de Defesa (DoD). Os recursos de disponibilidade e gerenciamento de avaliação dependem do contrato de licenciamento.  [Exibir detalhes de descrição do serviço](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -52,7 +52,7 @@ O Gerenciador de Conformidade usa um modelo de permissão de controle de acesso 
 A pessoa que tem a função de administrador global da sua organização pode definir permissões de usuário para o Gerenciador de Conformidade. As permissões podem ser definidas no Centro de Conformidade & Segurança do Office 365, bem como no Azure Active Directory (Azure AD).
 
 > [!NOTE]
-> Os clientes na Comunidade Governamental dos EUA (GCC) Ambientes altos só podem definir permissões e funções do usuário para o Gerenciador de Conformidade no Azure AD. Confira abaixo instruções do Azure AD e definições de tipo de função.
+> Os clientes em ambientes da Comunidade governamental dos EUA (GCC) High e Department of Defense (DoD) só podem definir permissões e funções do usuário para o Gerenciador de Conformidade no Azure AD. Confira abaixo instruções do Azure AD e definições de tipo de função.
 
 Para definir permissões e atribuir funções no Centro de Conformidade e Segurança & do Office 365, siga as etapas a seguir:
 
@@ -100,7 +100,7 @@ A tabela a seguir mostra as funções permitidas por cada função no Gerenciado
 As configurações do Gerenciador de Conformidade no centro de conformidade do Microsoft 365 permitem habilitar e desabilitar o teste automático de ações de melhoria. As configurações também permitem que você gerencie os dados de usuários associados a ações de melhoria, incluindo a capacidade de reatribuir ações de melhoria para um usuário diferente.  Somente pessoas com uma função de administrador global ou Administrador do Gerenciador de Conformidade podem acessar as configurações do Gerenciador de Conformidade.
 
 > [!NOTE]
-> O recurso de teste automatizado não está disponível para clientes em ambientes GCC High porque a Pontuação Segura não está disponível nesses ambientes. Os clientes do GCC High precisarão implementar e testar manualmente suas ações de melhoria.
+> O recurso de teste automatizado não está disponível para clientes em ambientes GCC High e DoD porque a Pontuação Segura não está disponível nesses ambientes. Os clientes GCC High e DoD precisarão implementar e testar manualmente suas ações de melhoria.
 
 ### <a name="set-up-automated-testing"></a>Configurar testes automatizados
 

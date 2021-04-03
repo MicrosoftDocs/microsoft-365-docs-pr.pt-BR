@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: O Microsoft Compliance Manager fornece modelos para a criação de avaliações que se alinham aos regulamentos, padrões e leis nacionais, regionais e do setor.
-ms.openlocfilehash: b83ad63de34217ac7c469dc784ca85644f6a5e3d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8cdeb6da09a42ad0331690b843ab4f039a5c2bf6
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922815"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570563"
 ---
 # <a name="compliance-manager-templates-list"></a>Lista de modelos do Gerenciador de Conformidade
 
@@ -60,7 +60,7 @@ Leia mais sobre [como exibir e gerenciar seus modelos.](compliance-manager-templ
 - NIST 800-53 Rev.4
 
 > [!NOTE]
-> Para clientes moderados da Comunidade Governamental dos EUA (GCC) e do GCC High, os modelos cmmc (certificação de modelo de maturidade de segurança cibernética) níveis 1 a 5 estão incluídos, além dos modelos listados acima.
+> Para clientes da Comunidade Governamental dos EUA (GCC) Moderados, GCC High e Department of Defense (DoD), os modelos cmmc (certificação de modelo de maturidade de segurança cibernética) níveis 1 a 5 estão incluídos, além dos modelos listados acima.
 
 ## <a name="premium-templates"></a>Modelos premium
 

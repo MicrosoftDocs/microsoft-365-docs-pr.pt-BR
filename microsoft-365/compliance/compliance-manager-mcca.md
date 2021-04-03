@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Entenda como usar o Analisador de Configuração de Conformidade da Microsoft para começar a funcionar rapidamente com o Microsoft Compliance Manager.
-ms.openlocfilehash: a77f38dcc0c0215e539c868e47135f5d7194f4b6
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2b91ac274d7270f5be9530742cf711a3918b287d
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906033"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570370"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>Analisador de Configuração de Conformidade da Microsoft para Gerenciador de Conformidade (visualização)
 
@@ -33,7 +33,7 @@ O MCCA pode ajudá-lo a ver rapidamente quais ações de melhoria no Compliance 
 
 Um recurso adicional para entender o MCCA é visitar as instruções [README no GitHub](https://github.com/OfficeDev/MCCA#overview). Esta página fornece informações detalhadas sobre pré-requisitos e fornece instruções de instalação completas. Você não precisa de uma conta do GitHub para acessar esta página.
 
-**Disponibilidade**: O MCCA está disponível para todas as organizações com licenças do Office 365 e do Microsoft 365 e clientes do GCC (Us Government Community) Moderados e do GCC High, com planos em andamento para expandir o serviço para clientes do DOD.
+**Disponibilidade**: O MCCA está disponível para todas as organizações com licenças do Office 365 e microsoft 365 e clientes do GCC (Us Government Community), GCC High e Department of Defense (DoD).
 
 ## <a name="install-mcca-and-run-a-report"></a>Instalar o MCCA e executar um relatório
 
@@ -113,7 +113,7 @@ Siga estas instruções para executar um relatório com base em um local especí
   | 10  | América do Sul |
   | 11 | África do Sul |
   | 12  | Suíça |
-  | 13  | Emirados Árabes Unidos |
+  | 13 | Emirados Árabes Unidos |
   | 14  | Reino Unido |
 
 
@@ -129,11 +129,11 @@ A tabela a seguir mostra quais funções têm acesso a quais seções do relató
 ![MCCA - funções](../media/compliance-manager-mcca-roles.png "Funções MCCA")
 
 Exceções:
-1. O usuário não poderá gerar relatório para IP além da seção "Usar IRM para Exchange Online".
-2. O usuário poderá gerar relatório para IP além da seção "Usar IRM para Exchange Online".
-3. O usuário poderá gerar relatório para IP além da seção "Habilitar a Conformidade de Comunicação no O365".
-4. O usuário não poderá gerar relatório para IP além da seção "Habilitar auditoria no Office 365".
-5. O usuário poderá gerar relatório para IP além da seção "Habilitar auditoria no Office 365".
+1. Os usuários não poderão gerar relatório para IP além da seção "Usar IRM para Exchange Online".
+2. Os usuários poderão gerar relatório para IP além da seção "Usar IRM para Exchange Online".
+3. Os usuários poderão gerar relatório para IP além da seção "Habilitar a Conformidade de Comunicação no O365".
+4. Os usuários não poderão gerar relatório para IP além da seção "Habilitar auditoria no Office 365".
+5. Os usuários poderão gerar relatório para IP além da seção "Habilitar auditoria no Office 365".
 
 #### <a name="solutions-summary-section"></a>Seção Resumo de Soluções
 

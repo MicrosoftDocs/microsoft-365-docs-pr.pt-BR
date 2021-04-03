@@ -2,8 +2,8 @@
 title: Acessar o Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -26,12 +26,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba o que o Microsoft 365 Business Premium inclui e receba orientações passo a passo ao se inscrever no Microsoft 365 Business Premium.
-ms.openlocfilehash: 54a8e92ccced24f446e73a96f75e4aa1531a95aa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4aa1ae9ea48863434c960da69e41ffb2d3a0a89
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912501"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578098"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium"></a>Acessar o Microsoft 365 Business Premium
 
@@ -54,7 +54,7 @@ Assista a este vídeo para uma visão geral rápida do processo de inscrever-se.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
 
-Se você achou esse vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades do Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Para se inscrever e comprar o Microsoft 365 para sua empresa, conclua as seguintes etapas:
 
@@ -62,7 +62,7 @@ Para se inscrever e comprar o Microsoft 365 para sua empresa, conclua as seguint
 2. Na próxima página, descubra o custo mensal e role para baixo a página para saber mais sobre o que está incluído no Microsoft 365. Em Microsoft 365 Business Premium, selecione **Comprar agora**.
 3. Na página **Obrigado por escolher o Microsoft 365 Business Premium,** insira suas informações para começar.
 4. Na **etapa 1,** insira um endereço de email que você já usa. Esse pode ser seu endereço de email de trabalho atual ou qualquer endereço que você deseja que a Microsoft use para se comunicar com você durante a instalação. Também é o endereço onde enviaremos informações sobre sua fatura e renovações. Em seguida, selecione **Configurar conta**.
-5. Na **etapa 2**, insira seu nome, número de telefone comercial, nome da empresa e local. Seu País ou Região determina os serviços exatos que você recebe da Microsoft e não pode ser alterado após concluir esta etapa. Selecione **Avançar**.
+5. Na **etapa 2**, insira seu nome, número de telefone comercial, nome da empresa e local. Seu País ou Região determina os serviços exatos que você recebe da Microsoft e não pode ser alterado após concluir esta etapa. Selecione **Próximo**.
     > [!NOTE]
     > Exibemos o nome da empresa no centro de administração; é onde você gerencia usuários, licenças e assim por diante do Microsoft 365. Também o incluímos em urLs de site internas (SharePoint).
 6. Na **etapa 3:**

@@ -2,8 +2,8 @@
 title: Proteger arquivos de trabalho quando um dispositivo móvel for perdido ou roubado
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -26,16 +26,16 @@ search.appverid:
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
 description: Saiba mais sobre as configurações disponíveis no Microsoft 365 para empresas para proteger arquivos de trabalho se o dispositivo de um usuário for perdido ou roubado.
-ms.openlocfilehash: 89f9041a39ef0167d5b918622b68c9566e65d5b3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6b10ce73d3ebe936d3878724783d6076455a3552
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401253"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578238"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Proteger arquivos de trabalho quando um dispositivo móvel for perdido ou roubado
 
-As configurações de política determinam o que acontece automaticamente para proteger um dispositivo perdido ou roubado. Recomendamos que você aceite os valores padrão durante a instalação para criar políticas de aplicativo para Android, iOS e Windows 10 que se apliquem a todos os usuários. Você pode criar mais políticas após concluir a instalação.
+As configurações de política determinam o que acontece automaticamente para proteger um dispositivo perdido ou roubado. Recomendamos que você aceite os valores padrão durante a instalação para criar políticas de aplicativo para Android, iOS e Windows 10 que se aplicam a todos os usuários. Você pode criar mais políticas após concluir a instalação.
   
 ## <a name="settings-that-protect-work-files"></a>Configurações que protegem os arquivos de trabalho
 
@@ -44,8 +44,8 @@ As configurações a seguir estão disponíveis para proteger os arquivos de tra
 |||
 |:-----|:-----|
 |Setting  <br/> |Descrição  <br/> |
-|Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado pelo número de dias especificado aqui, todos os arquivos de trabalho armazenados no dispositivo serão automaticamente excluídos.  <br/> |
-|Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração estiver **1,** o único local de armazenamento disponível para arquivos de trabalho será o OneDrive for Business.  <br/> |
+|Excluir arquivos de trabalho de um dispositivo inativo após determinada quantidade de dias  <br/> |Se um dispositivo não for usado para o número de dias especificado aqui, todos os arquivos de trabalho armazenados no dispositivo serão excluídos automaticamente.  <br/> |
+|Forçar os usuários a salvar todos os arquivos de trabalho no OneDrive for Business  <br/> |Se essa configuração for **On**, o único local de salvação disponível para arquivos de trabalho será o OneDrive for Business.  <br/> |
 |Criptografar arquivos de trabalho  <br/> |Mantenha essa configuração **Ativada** para que os arquivos de trabalho sejam protegidos por criptografia. Mesmo que o dispositivo seja perdido ou roubado, ninguém poderá ler os dados da empresa.  <br/> |
    
 

@@ -1,6 +1,6 @@
 ---
 title: Prepare as unidades mapeadas da Área de trabalho gerenciada da Microsoft
-description: Etapas importantes para garantir
+description: Etapas importantes para garantir que os usuários possam acessar dados em unidades mapeadas
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -9,12 +9,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: cd45d6155fc0e01f6a285f6182aa051281d160e0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: f770f5083fe9193660b03e7971b09a127f2dae16
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922903"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574554"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Prepare as unidades mapeadas da Área de trabalho gerenciada da Microsoft
 
@@ -52,4 +53,16 @@ Certifique-se de que as unidades mapeadas não podem ser evitadas e você reviu 
 2. Envie uma solicitação de suporte intitulada "Implantação de unidades mapeadas" e forneça todos os detalhes de compartilhamento de arquivos necessários.  
 3. As Operações de IT da Área de Trabalho Gerenciada da Microsoft aconselharão, usando atualizações de solicitação de suporte, quando a solicitação for concluída. Inicialmente, essa configuração só será implantada em dispositivos no grupo de implantação de teste.  
 4. Você deve testar e confirmar se a configuração implantada pelas Operações de TI da Área de Trabalho Gerenciada da Microsoft funciona conforme o esperado. Responder usando a guia Discussão nos detalhes da mesma solicitação de suporte para notificar as Operações de TI da Área de Trabalho Gerenciada da Microsoft depois de concluir o teste.  
-5. A equipe de Operações de ÁREA de Trabalho Gerenciada da Microsoft implantará a configuração para os outros grupos de implantação.
+5. A equipe de Operações de ÁREA de Trabalho Gerenciada da Microsoft implantará a configuração para os outros grupos de implantação. 
+
+## <a name="steps-to-get-ready"></a>Etapas para se preparar
+
+1. Revise [os pré-requisitos da Área de Trabalho Gerenciada da Microsoft.](prerequisites.md)
+2. [Use ferramentas de avaliação de preparação.](readiness-assessment-tool.md)
+3. [Pré-requisitos para contas de convidados](guest-accounts.md)
+4. [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](network.md)
+5. [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md)
+6. [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](authentication.md)
+7. [Aplicativos na Área de Trabalho Gerenciada da Microsoft](apps.md)
+8. [Preparar unidades mapeadas para a Área de Trabalho Gerenciada](mapped-drives.md) da Microsoft (Este artigo)
+9. [Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft](printing.md)

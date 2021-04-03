@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Encontre respostas para perguntas frequentes sobre o Microsoft Compliance Manager, o que ajuda as organizações a simplificar e automatizar avaliações de risco.
-ms.openlocfilehash: a6ce93a39e242d5edf4806ad974296c8c007561e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: efa9de8506c088ceae64de26d32efe8553d0b574
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922825"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570390"
 ---
 # <a name="compliance-manager-frequently-asked-questions"></a>Perguntas frequentes do Gerenciador de Conformidade
 
@@ -73,7 +73,7 @@ O Gerenciador de Conformidade é uma solução de ponta a ponta no centro de con
 
 ## <a name="are-there-licensing-requirements-for-using-compliance-manager"></a>Há requisitos de licenciamento para usar o Gerenciador de Conformidade?
 
-Sim. A versão ga do Gerenciador de Conformidade contém novos termos de licenciamento. Todas as organizações com licenças do Office 365 e do Microsoft 365 e clientes do GCC (Comunidade Governamental dos EUA) moderados e do GCC High têm acesso ao Gerenciador de Conformidade. No entanto, as avaliações disponíveis para sua organização e como você gerencia modelos de avaliação dependem do contrato de licenciamento. Visite as diretrizes de licenciamento do [Microsoft 365 para obter](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) detalhes sobre segurança e conformidade.
+Sim. A versão ga do Gerenciador de Conformidade contém novos termos de licenciamento. Todas as organizações com licenças do Office 365 e do Microsoft 365 e da Comunidade governamental dos EUA (GCC) moderados, GCC High e Departamento de Defesa (DoD) têm acesso ao Gerenciador de Conformidade. No entanto, as avaliações disponíveis para sua organização e como você gerencia modelos de avaliação dependem do contrato de licenciamento. Visite as diretrizes de licenciamento do [Microsoft 365 para obter](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) detalhes sobre segurança e conformidade.
 
 ## <a name="if-i-have-a-high-score-does-it-mean-im-fully-compliant"></a>Se eu tiver uma pontuação alta, significa que estou totalmente em conformidade?
 

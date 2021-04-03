@@ -14,26 +14,18 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Saiba como ativar e gerenciar aplicativos de terceiros no Centro de administração do Microsoft 365.
-ms.openlocfilehash: f560b23871fc6d6ecb319a5704453f2400cb9982
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 974ce99b55dcb078286d7f6dba35166e51ce62a7
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911405"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51576908"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
 
 Você pode gerenciar licenças e cobranças para aplicativos de terceiros no novo centro de administração do Microsoft 365. Os recursos atualizados incluem gerenciamento aprimorado de assinatura, acesso aprimorado às informações de cobrança e flexibilidade aprimorada para gerenciar contas. O gerenciamento de assinatura se baseia na plataforma de comércio atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes compram diretamente ou de um provedor de terceiros.
 
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
-
 Você pode gerenciar licenças e cobranças para aplicativos de terceiros no Centro de administração do Microsoft 365 com o modo de visualização ligado. Os recursos atualizados incluem gerenciamento aprimorado de assinatura, acesso aprimorado às informações de cobrança e flexibilidade aprimorada para gerenciar contas. O gerenciamento de assinatura se baseia na plataforma de comércio atualizada da Microsoft. Isso se aplica a aplicativos de software como serviço que os clientes compram diretamente ou de provedores de terceiros.
-
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>Como obter aplicativos de software como serviço
 
@@ -89,7 +81,7 @@ Veja o que você pode fazer em cada portal.
 
 Depois que o aplicativo é ativado, ele permanece ativo, a menos que seja cancelado, expire ou se o pagamento não for mantido atual. Esses eventos alteram o status do aplicativo para desabilitado. Depois que um aplicativo é desabilitado, ele não pode ser reativado. Para continuar usando o aplicativo, compre outra cópia dele.
 
-## <a name="assign-licenses"></a>Atribua licenças
+## <a name="assign-licenses"></a>Atribuir licenças
 
 Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Eles são ativados no portal do editor de terceiros. Na página do aplicativo, em **Configurações & ações,** selecione o link para atribuir licenças.
 
@@ -105,7 +97,7 @@ Os administradores podem alterar o número de licenças pertencentes a sua organ
 2. Encontre e selecione o aplicativo que você deseja gerenciar.
 3. Selecione **Alterar quantidade de licença**.
 
-## <a name="manage-payment-methods"></a>Gerenciar formas de pagamento
+## <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 
 Cada aplicativos de software como serviço têm um perfil de cobrança atribuído a eles. Os perfis de cobrança permitem personalizar quais produtos estão incluídos em sua fatura e como você paga suas faturas. Elas incluem:
 

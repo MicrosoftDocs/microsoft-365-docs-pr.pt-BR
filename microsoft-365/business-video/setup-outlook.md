@@ -2,8 +2,8 @@
 title: Configurar o Outlook para e-mail
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como configurar o Outlook para seu email do Microsoft 365.
-ms.openlocfilehash: b27f59e50190a4f355ff1f4c346161b8efc4219e
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 9dc0ed41df4aaadee060e0c7606600ba5512df09
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421986"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578634"
 ---
 # <a name="set-up-outlook-for-microsoft-365-for-business-email"></a>Configurar o Outlook para o Microsoft 365 para email comercial 
 

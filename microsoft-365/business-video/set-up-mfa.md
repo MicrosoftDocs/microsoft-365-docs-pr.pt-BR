@@ -2,8 +2,8 @@
 title: Configurar a login multi-fator em seu telefone
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como configurar a autenticação multifação em seu telefone.
-ms.openlocfilehash: a41f8b99dfbfc25af0815450b42cb83884e3246e
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 4a4041777b055b03e2ab5efede72eca56afdf589
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422046"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578658"
 ---
 # <a name="set-up-multi-factor-authentication-on-your-phone"></a>Configurar a autenticação multifa factor em seu telefone
 
@@ -36,7 +36,7 @@ A autenticação multifafação oferece mais segurança para sua empresa. Siga e
 
 ## <a name="try-it"></a>Experimente!
 
-1. Ao entrar [https://office.com](https://office.com) em , você verá o prompt Mais informações **necessárias.** Escolha **Próximo**.
+1. Ao entrar [https://office.com](https://office.com) em , você verá o prompt Mais informações **necessárias.** Escolher **Próximo**.
 1. Em **Etapa 1**, escolha **Aplicativo móvel** na **lista** de lista de espera do telefone de autenticação.
 1. Em Como você deseja usar o aplicativo móvel?, selecione o método que deseja usar para entrar:
     - Selecione **Receber notificações para verificação para** autenticação diretamente do aplicativo móvel, o que pode incluir autenticação de impressão digital.

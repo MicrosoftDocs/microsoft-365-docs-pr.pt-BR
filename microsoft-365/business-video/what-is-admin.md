@@ -2,8 +2,8 @@
 title: O que é um administrador no Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre as funções de administrador no Microsoft 365 para empresas.
-ms.openlocfilehash: 87d9db451ca38bc8d8045b0bb257461e8f8c4647
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: a4fcb60218069d73fe658a6dc4ef681a659ec70b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421652"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578550"
 ---
 # <a name="what-is-a-microsoft-365-admin"></a>O que é um administrador do Microsoft 365?
 
@@ -58,8 +58,8 @@ Você também pode criar uma conta de administrador dedicada para uma pessoa ou 
 1. No painel de navegação esquerdo, selecione **Usuários**, em **seguida, Usuários ativos**.
 1. Selecione **Adicionar um usuário**.
 1. Insira o Nome do usuário **e** **Sobrenome,** **Nome** de exibição e Nome de Usuário **e** selecione **Next**.
-1. Escolha **Criar usuário sem licença de produto.** Isso adiciona um novo usuário, mas você não precisa pagar por uma assinatura mensal. Selecione **Avançar**.
+1. Escolha **Criar usuário sem licença de produto.** Isso adiciona um novo usuário, mas você não precisa pagar por uma assinatura mensal. Selecione **Próximo**.
 1. Funções **abertas**.
-1. Desempure a caixa de seleção e selecione uma das funções de administrador. Selecione **Avançar**.
+1. Desempure a caixa de seleção e selecione uma das funções de administrador. Selecione **Próximo**.
 1. Revise as informações e selecione **Concluir a adição**.
 1. Selecione **Fechar**.
