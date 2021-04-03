@@ -19,21 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce
-ms.openlocfilehash: 750420b6fac8fff16130710ef96a9ceb6345a87a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: be89c2d355202dd8ca8698ac735cbb384bb8ef06
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911825"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579765"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>Como pagar sua assinatura com um perfil de cobrança
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Ao comprar uma assinatura, você paga por ela com um perfil de cobrança. O perfil de cobrança está vinculado a um método de pagamento específico e pode ser um cartão de crédito ou débito, ou uma fatura, mas não uma conta bancária.
 

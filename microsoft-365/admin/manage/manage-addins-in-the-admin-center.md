@@ -2,8 +2,8 @@
 title: Gerenciar suplementos no centro de administração
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Saiba mais sobre como usar os complementos centralizados para implantar os complementos para usuários e grupos em sua organização.
-ms.openlocfilehash: 836dfa7a0c1b6cf1550e5c139bc0ca36be8f5424
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 8503ed7ea2e088a8e17b52e619ee999aa05f497a
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470936"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579285"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Gerenciar suplementos no centro de administração
 

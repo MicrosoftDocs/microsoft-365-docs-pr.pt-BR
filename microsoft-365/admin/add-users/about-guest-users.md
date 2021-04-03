@@ -2,8 +2,8 @@
 title: Usuários convidados no Centro de administração do Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: overview
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como a lista de usuários convidados é preenchida no Centro de administração do Microsoft 365.
-ms.openlocfilehash: f7baf3f9714df49d045579a66bc947f394e1eda0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 227735c7d61aea3f48481d08ea76a96116917308
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906331"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579417"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Usuários convidados no Centro de administração do Microsoft 365
 

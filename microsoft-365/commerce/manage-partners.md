@@ -15,21 +15,14 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Saiba como trabalhar com provedores de soluções certificados pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola.
-ms.openlocfilehash: 3297b2322983eabb793116a450a618b3a62a5a9c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a0c70f229ff11132beccf118f4158ab2880a8aa6
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911393"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579729"
 ---
 # <a name="manage-partner-relationships"></a>Gerenciar relacionamentos de parceiros
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Você pode trabalhar com provedores de soluções certificados pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola. Há algumas etapas envolvidas na configuração das coisas.
 
@@ -39,7 +32,7 @@ Você pode trabalhar com provedores de soluções certificados pela Microsoft (p
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador Global ou Cobrança para fazer essas etapas. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador Global ou Cobrança para fazer essas etapas. Para obter mais informações, confira [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="what-can-a-partner-do-for-my-organization-or-school"></a>O que um parceiro pode fazer para minha organização ou escola?
 

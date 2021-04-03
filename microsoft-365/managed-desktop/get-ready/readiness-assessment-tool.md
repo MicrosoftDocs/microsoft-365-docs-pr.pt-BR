@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0311450386f3b7c9f950276340901daacc06b2a8
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
+audience: Admin
+ms.openlocfilehash: caf9274284548a179e088131930ae832c098b521
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50453928"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579393"
 ---
 # <a name="readiness-assessment-tools"></a>Ferramentas de avaliação de preparação
 
@@ -82,10 +83,22 @@ Para cada verificação, a ferramenta relatará um dos quatro resultados possív
 |Resultado  |Significado  |
 |---------|---------|
 |Pronto     | Nenhuma ação é necessária antes de concluir o registro.        |
-|Consultoria    | Siga as etapas na ferramenta para ter a melhor experiência com registro e usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
+|Aviso    | Siga as etapas na ferramenta para ter a melhor experiência com registro e usuários. Você *pode* concluir o registro, mas deve corrigir esses problemas antes de implantar seu primeiro dispositivo.        |
 |Não está pronto | *O registro falhará* se você não corrigir esses problemas. Siga as etapas na ferramenta para resolvê-las.        |
-|Erro | A função Azure Active Director (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
+|Error | A função Azure Active Director (AD) que você está usando não tem permissão suficiente para executar essa verificação. |
 
 ## <a name="after-enrollment"></a>Após o registro
 
 Depois de concluir o registro na Área de Trabalho Gerenciada da Microsoft, lembre-se de voltar e ajustar determinadas configurações do Intune e do Azure AD. Para obter detalhes, consulte [Ajustar configurações após o registro](../get-started/conditional-access.md).
+
+## <a name="steps-to-get-ready"></a>Etapas para se preparar
+
+1. Revise [os pré-requisitos da Área de Trabalho Gerenciada da Microsoft.](prerequisites.md)
+2. Use [ferramentas de avaliação de preparação.](readiness-assessment-tool.md) (Este artigo)
+3. [Pré-requisitos para contas de convidados](guest-accounts.md)
+4. [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](network.md)
+5. [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md)
+6. [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](authentication.md)
+7. [Aplicativos na Área de Trabalho Gerenciada da Microsoft](apps.md)
+8. [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](mapped-drives.md)
+9. [Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft](printing.md)

@@ -2,8 +2,8 @@
 title: 'Navegar e utilizar os relatórios da análise de uso do Microsoft 365 '
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 286fcf0b-ffc7-4593-8073-d7a4a5dd2b45
 description: Saiba como exibir os relatórios usando guias de navegação e filtros.
-ms.openlocfilehash: 921b32448deeb13b33d58112183002bace44c430
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: e69953aaf42b7ad55853ac4ad9162a7ae6a4f916
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471040"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579045"
 ---
 # <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Navegar e utilizar os relatórios da análise de uso do Microsoft 365 
 

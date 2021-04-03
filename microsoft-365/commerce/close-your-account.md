@@ -17,21 +17,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Saiba como fechar sua conta com a Microsoft.
-ms.openlocfilehash: 19e9a92a90f7c88cc150844ab451bc71d63e4c4a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0ee0a649a9adb93ecdbb1cd9dbedbc04dfb46ba0
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911657"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579741"
 ---
 # <a name="close-your-account"></a>Fechar sua conta
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Quando você fecha a sua conta do Microsoft, todas as informações relacionadas à sua conta são excluídas. Essas informações incluem assinaturas, licenças, métodos de pagamento, usuários e dados do usuário.
 

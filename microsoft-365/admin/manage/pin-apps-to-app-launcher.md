@@ -2,8 +2,8 @@
 title: Fixar aplicativos no launcher de aplicativos de seus usuários
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ ms.collection:
 ms.service: o365-administration
 localization_priority: Normal
 description: Como administrador global, você pode fixar até três aplicativos no launcher de aplicativos dos usuários.
-ms.openlocfilehash: 965fcbbb3f0e22074e3f6c5476d65ade98fea94c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 786368f1236c7a86a6fbd0dd863ad0296cb65fac
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915213"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579261"
 ---
 # <a name="pin-apps-to-your-users-app-launcher"></a>Fixar aplicativos no launcher de aplicativos de seus usuários
 

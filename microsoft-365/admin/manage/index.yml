@@ -6,17 +6,17 @@ metadata:
   description: Monitore o status do serviço, faça backup dos dados, instale suplementos e atualize para os aplicativos mais recentes
   ms.service: O365-administration
   ms.topic: landing-page
-  author: sirkkuw
-  ms.author: sirkkuw
+  author: kwekua
+  ms.author: kwekua
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: a483f0d60d54e1436738d44f95bfed3524968d18
-  ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+  ms.openlocfilehash: 63b3a0daa8c40a74e7da92aab1ded380e9985812
+  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51050697"
+  ms.lasthandoff: 04/02/2021
+  ms.locfileid: "51579273"
 landingContent:
 - title: Monitorar o status do nosso serviço
   linkLists:

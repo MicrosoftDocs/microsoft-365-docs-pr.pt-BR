@@ -2,8 +2,8 @@
 title: Análise de uso do Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Obter uma visão geral de como sua organização está adotando serviços do Microsoft 365 para se comunicar e colaborar.
-ms.openlocfilehash: 5120e487604fbaf4421c1b2f814cd57e79d5f9dc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a88fb5f6381079644c7b2615432bcbc625b820ad
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913809"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579032"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
 
@@ -78,7 +78,7 @@ A página de ativação e licença oferece relatórios sobre a ativação do Mic
 
 Este relatório contém um relatório separado para cada serviço do Microsoft 365, incluindo Exchange, grupos do Microsoft 365, OneDrive, SharePoint, Skype, Teams e Yammer. Cada relatório contém o total habilitado versus total de relatórios de usuários ativos, contagens de entidades como caixas de correio, sites, grupos e contas, bem como relatórios de tipo de atividade, quando apropriado. Todos os valores do mês mostrados na seção superior do relatório referem-se ao mês completo mais recente.
 
-## <a name="user-activity"></a>Atividades do usuário
+## <a name="user-activity"></a>Atividade do usuário
 
 Os relatórios de atividades do usuário estão disponíveis para determinados serviços individuais. Esses relatórios fornecem dados de uso de detalhes no nível do usuário ingressados nos atributos do Active Directory. Além disso, o relatório de Adoção do Departamento permite fatiar os atributos do Active Directory para que você possa ver usuários ativos em todos os serviços individuais. Todas as métricas são agregadas para o mês completo mais recente.
 

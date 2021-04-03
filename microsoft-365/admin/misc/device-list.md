@@ -2,8 +2,8 @@
 title: Arquivo CSV da lista de dispositivos
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: overview
@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
 description: Saiba como fazer um arquivo CSV para AutoPilot no Microsoft 365 para empresas.
-ms.openlocfilehash: 78a9012bac054329bdb87b02757f49f30dd44f65
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 13d7fbffd8d6fbe1af0dde55a4e98688060d9da8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914733"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579213"
 ---
 # <a name="device-list-csv-file"></a>Arquivo CSV da lista de dispositivos
 

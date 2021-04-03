@@ -2,8 +2,8 @@
 title: Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Saiba como adicionar um parceiro de consultor de assinatura como parceiro de registro no momento da compra do Microsoft 365, alterar o parceiro ou excluir um parceiro de uma assinatura.
-ms.openlocfilehash: 9734ee5f23af24ec701b8ae1fbd448d6bedb63fb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 913b0e14e1bc08cfd4037775aa4b72b7280c704c
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914925"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579225"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Adicionar, mudar ou excluir um parceiro para assessoria de assinaturas
 
@@ -102,7 +102,7 @@ Siga as etapas na página provedores para pesquisar ou para obter uma combinaç�
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na guia **Produtos,** selecione a assinatura que você deseja editar.
 3. Na página detalhes da assinatura, em **Informações do parceiro,** digite a **ID da Rede de Parceiros.** Você pode obter a ID do Microsoft Partner Network do parceiro solicitando-a ao parceiro.
-4. Selecione **Adicionar**.
+4. Clique em **Adicionar**.
 
 ::: moniker-end
 
@@ -136,7 +136,7 @@ Para aceitar essa oferta
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 2. Na página detalhes das assinaturas, em **Informações do parceiro,** selecione **Remover**.
 3. Digite a **ID da Rede** de Parceiros da Microsoft para o novo parceiro. Você pode obter a ID de Parceiro da Microsoft, solicitando-a do parceiro.
-4. Selecione **Adicionar**.
+4. Clique em **Adicionar**.
   
 ::: moniker-end
 

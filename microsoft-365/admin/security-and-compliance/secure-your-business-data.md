@@ -2,8 +2,8 @@
 title: Top 10 maneiras de proteger o Microsoft 365 para planos de negócios
 f1.keywords:
 - CSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Proteja seus emails e dados de negócios contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados. '
-ms.openlocfilehash: e45130d101c6e730fd2d487f5f8898c7cd268ab8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 77213ab7f63b87ba985e6e4ca43119acc2345e2d
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197846"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579141"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Top 10 maneiras de proteger o Microsoft 365 para planos de negócios
 
@@ -159,7 +159,7 @@ Para criar uma regra de transporte de email, veja um [vídeo de](https://support
 
 6. Selecione **Salvar**.
     
-| Configuração | Avisar os usuários antes de abrir anexos de arquivos do Office | Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado |
+| Setting | Avisar os usuários antes de abrir anexos de arquivos do Office | Bloquear tipos de arquivo que podem conter ransomware ou outro código mal-intencionado |
 |:-----|:-----|:-----|
 |Nome  <br/> |Regra anti-ransomware: avisar os usuários  <br/> |Regra anti-ransomware: bloquear tipos de arquivo  <br/> |
 |Aplicar essa regra se . . .  <br/> |Qualquer anexo . . . extensão de arquivo corresponde . . .  <br/> |Qualquer anexo . . . extensão de arquivo corresponde . . .  <br/> |
@@ -170,7 +170,7 @@ Para criar uma regra de transporte de email, veja um [vídeo de](https://support
 > [!TIP]
 > Você também pode adicionar os arquivos que deseja bloquear à lista Anti-malware na [etapa 4](#4-raise-the-level-of-protection-against-malware-in-mail).
 
-Para mais informações, confira:
+Para saber mais, confira:
 
 - [Ransomware: como reduzir o risco](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 
@@ -195,7 +195,7 @@ Para criar uma regra de transporte de email:
 
 6. Selecione **Salvar**.
 
-|Configuração|Rejeitar emails de encaminhamento automático para domínios externos|
+|Setting|Rejeitar emails de encaminhamento automático para domínios externos|
 |---|---|
 |Nome|Impedir o encaminhamento automático de emails para domínios externos|
 |Aplicar essa regra se ...|O remetente . . . é externo/interno . . . Dentro da organização|

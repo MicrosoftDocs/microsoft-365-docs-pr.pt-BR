@@ -2,8 +2,8 @@
 title: Relatórios do Microsoft 365 no centro de administração - Relatório de atividades do Yammer
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,33 +19,33 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
-description: Obter o relatório de Atividades do Yammer e saber mais sobre o número de usuários que usam o Yammer para postar, como ou ler uma mensagem.
-ms.openlocfilehash: 2bf02c0599f999b0eebb52d119096567bb09508b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Obter o relatório atividade do Yammer e saber mais sobre o número de usuários que usam o Yammer para postar, como, ou ler uma mensagem.
+ms.openlocfilehash: 5ebf180189b2785070c269ef15b6a6c6c9f7f61a
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387460"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579477"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>Relatórios do Microsoft 365 no centro de administração - Relatório de atividades do Yammer
 
-Como administrador do Microsoft 365, o painel **Relatórios** mostra dados sobre o uso dos produtos em sua organização. Confira os [relatórios de atividades no centro de administração.](activity-reports.md) Com o **Relatório de atividades do Yammer**, você vai entender o nível de interação da sua organização com o Yammer examinando o número de usuários exclusivos usando o Yammer para postar, curtir ou ler uma mensagem e a quantidade de atividade gerada em toda a organização. 
+Como administrador do Microsoft 365, o painel **Relatórios** mostra dados sobre o uso dos produtos em sua organização. Confira relatórios [de atividades no centro de administração](activity-reports.md). Com o **Relatório de atividades do Yammer**, você vai entender o nível de interação da sua organização com o Yammer examinando o número de usuários exclusivos usando o Yammer para postar, curtir ou ler uma mensagem e a quantidade de atividade gerada em toda a organização. 
   
 > [!NOTE]
-> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint, Teams Service, Teams Communications ou Skype for Business para ver os relatórios. 
+> Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou um administrador do Exchange, SharePoint, Teams Service, Teams Communications ou Skype for Business para ver relatórios. 
  
 ## <a name="how-to-get-to-the-yammer-activity-report"></a>Como acessar o relatório de atividade do Yammer
 
 1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>.
 
     
-2. No **drop-down Selecionar** um relatório, selecione **Atividade do Yammer.** \> 
+2. No **drop-down Selecionar** um relatório, selecione **Atividade do Yammer** \> .
   
 ## <a name="interpret-the-yammer-activity-report"></a>Interpretar o relatório de atividades do Yammer
 
 Você pode observar a atividade do Yammer do usuário examinando os gráficos Atividade e Usuários.
   
-![Relatório de atividades do Yammer](../../media/92e8b2c6-166a-4154-9824-3fb6bbedf0db.JPG)
+![Relatório de Atividades do Yammer](../../media/92e8b2c6-166a-4154-9824-3fb6bbedf0db.JPG)
   
 O relatório de atividade contém as informações a seguir.
   
@@ -61,13 +61,13 @@ O relatório de atividade contém as informações a seguir.
     
 - Você pode ver o gráfico **Usuário** para entender a tendência da quantidade de usuários exclusivos que estão gerando as atividades do Yammer. Você pode examinar a tendência de usuários postando, lendo ou curtindo mensagens do Yammer. 
     
-    ![Exibição dos usuários no relatório de atividades do Yammer](../../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
+    ![Exibição de usuários no relatório de atividades do Yammer](../../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
   
   - No gráfico de atividades **Usuários**, o eixo Y é o usuário postando, lendo ou curtindo mensagens do Yammer. 
     
   - O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse relatório específico.
     
-- Você pode filtrar a série que vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **Atividade,** selecione **Postado** **,** Lido ou Curtido para ver apenas as informações relacionadas a cada um deles.  
+- Você pode filtrar a série que você vê no gráfico selecionando um item na legenda. Por exemplo, no gráfico **Atividade,** selecione **Posted,** **Read** ou **Liked** para ver apenas as informações relacionadas a cada uma delas. 
     
     ![Opções postadas, lidas e curtidas](../../media/8b832afc-415c-409b-816f-cb02b7a71e69.png)
   
@@ -83,7 +83,7 @@ O relatório de atividade contém as informações a seguir.
     
   - **Nome de usuário** é o endereço de email do usuário. Você pode exibir o endereço de email real ou tornar este campo anônimo. 
     
-    Esta grade mostra os usuários que se registraram no Yammer usando a conta do Microsoft 365 ou que fizeram logor na rede usando o logor único.
+    Esta grade mostra os usuários que fizeram logont no Yammer usando a conta do Microsoft 365 ou que fizeram logont na rede usando logont único.
     
   - **Nome para exibição** é o nome completo do usuário. Você pode exibir o endereço de email real ou tornar este campo anônimo. 
     
@@ -101,9 +101,9 @@ O relatório de atividade contém as informações a seguir.
     
   - **Curtidos** é o número de mensagens que o usuário leu durante o período especificado. 
     
-  - **Produto atribuído são** os produtos atribuídos a esse usuário. 
+  - **O produto atribuído** é os produtos atribuídos a esse usuário. 
     
-    Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção **Como faço para ocultar detalhes no nível do usuário?** Nos relatórios de atividades no centro de administração do Microsoft [365.](activity-reports.md)
+    Se as políticas da organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar as configurações de privacidade para todos esses relatórios. Confira a seção Como ocultar detalhes do nível **do usuário?** em Relatórios de atividade no Centro de administração [do Microsoft 365](activity-reports.md).
     
 - Você também pode exportar os dados do relatório para um arquivo .csv do Excel, selecionando o link **Exportar.** Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados. 
     
@@ -113,6 +113,6 @@ O relatório de atividade contém as informações a seguir.
     
 - **Nenhum dado de rede externa** dados de rede externa não estão incluídos nesses relatórios. 
     
-- **Redes ativadas** Esses relatórios mostram dados para a rede do Yammer que faz parte da sua assinatura do Microsoft 365. O gráfico agrega o uso de todos os usuários que se conectaram à rede do Yammer, independentemente de eles usarem o Microsoft 365 ou o Yammer para entrar. 
+- **Redes ativadas** Esses relatórios mostram dados para a rede do Yammer que fazem parte da sua assinatura do Microsoft 365. O gráfico agrega o uso de todos os usuários que fizeram logoff na rede do Yammer, independentemente de eles usarem o Microsoft 365 ou o Yammer para fazer logoff. 
     
 

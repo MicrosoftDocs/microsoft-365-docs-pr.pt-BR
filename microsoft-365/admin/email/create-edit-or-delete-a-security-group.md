@@ -2,8 +2,8 @@
 title: Criar, editar ou excluir um grupo de segurança no Centro de administração do Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Aprenda a criar, editar ou excluir um grupo de segurança.
-ms.openlocfilehash: 4ea97683e47f7f0ef8f196db32df8e22f9b1a0b9
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 03e391727f9a61b1fc8e819e92d5a119017c38e0
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470972"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579333"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Criar, editar ou excluir um grupo de segurança no Centro de administração do Microsoft 365
 

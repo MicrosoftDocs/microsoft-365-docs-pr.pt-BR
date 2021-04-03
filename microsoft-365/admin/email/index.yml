@@ -6,17 +6,17 @@ metadata:
   description: Gerencie as configurações de email, grupos de distribuição, configurações de segurança e configure caixas de correio compartilhadas.
   ms.service: O365-administration
   ms.topic: landing-page
-  author: sirkkuw
-  ms.author: sirkkuw
+  author: kwekua
+  ms.author: kwekua
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: fe5cdfb7106a3ee8b9b14a5e02374b4e1f4d9264
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: f274480d80f97319df8110571c11552bcb7d3639
+  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50915741"
+  ms.lasthandoff: 04/02/2021
+  ms.locfileid: "51579321"
 landingContent:
 - title: Gerenciar e-mail
   linkLists:

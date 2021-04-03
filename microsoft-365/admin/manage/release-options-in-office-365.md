@@ -2,8 +2,8 @@
 title: Configurar as opções de versão Padrão ou Direcionada
 f1.keywords:
 - CSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Saiba como configurar a opção de versão para novas atualizações de produtos e recursos no Centro de administração do Microsoft 365.
-ms.openlocfilehash: 6c5d505f0ece47b0a47df8b7ed1dc015afe93e82
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: d3692f2e1cca58fec81f2ad492b9232d5576f99b
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470566"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579249"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Configurar as opções de versão Padrão ou Direcionada
 

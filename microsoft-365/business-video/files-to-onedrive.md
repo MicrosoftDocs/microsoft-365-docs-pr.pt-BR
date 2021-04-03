@@ -2,8 +2,8 @@
 title: Mover seus arquivos para o OneDrive
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como mover seus arquivos para o OneDrive.
-ms.openlocfilehash: f5795ba907e2ac88136887410b5b713bd7d56d81
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: b955895d48853e73a5f2f73e6c6f49d8806e735f
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422718"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578910"
 ---
 # <a name="move-files-to-onedrive"></a>Mover arquivos para o OneDrive
 

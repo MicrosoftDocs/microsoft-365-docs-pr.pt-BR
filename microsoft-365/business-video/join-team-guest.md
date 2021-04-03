@@ -2,8 +2,8 @@
 title: Participe de uma equipe como convidado
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como ingressar em uma equipe como convidado no Microsoft Teams.
-ms.openlocfilehash: 51f287361877cb0b427a38c48683c064bda99126
-ms.sourcegitcommit: 9adb89206daa075af34a73bcb7e8fb86d7c2919a
+ms.openlocfilehash: 9e60882907021c11d906ce9cd778a0f1eef32beb
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50603955"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578850"
 ---
 # <a name="join-a-team-as-a-guest"></a>Participe de uma equipe como convidado
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7887f26cb8ca7e0e769249a10f008308149aaa42
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: c076a64b1e35978f09999b288b6849580df24972
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186684"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579693"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-ios"></a>Implantar o Microsoft Defender para Ponto de Extremidade para iOS
 
@@ -58,7 +58,7 @@ Implante o Defender para Ponto de Extremidade para iOS por meio do Portal da Emp
     > [!div class="mx-imgBorder"]
     > ![Imagem do Centro de Administração do Microsoft Endpoint Manager1](images/ios-deploy-1.png)
 
-1. Na página Adicionar aplicativo, clique em **Pesquisar na Loja de Aplicativos** e digite Microsoft Defender **ATP** na barra de pesquisa. Na seção resultados da pesquisa, clique em *Microsoft Defender ATP* e clique em **Selecionar**.
+1. Na página Adicionar aplicativo, clique em **Pesquisar na Loja de Aplicativos** e digite o Ponto de Extremidade do Microsoft **Defender** na barra de pesquisa. Na seção resultados da pesquisa, clique em Ponto de *Extremidade do Microsoft Defender* e clique em **Selecionar**.
 
 1. Selecione **iOS 11.0 como** o sistema operacional Mínimo. Revise o restante das informações sobre o aplicativo e clique em **Próximo**.
 
@@ -143,6 +143,6 @@ O Intune permite configurar o aplicativo Defender para iOS por meio de uma polí
     - Na seção **Atribuição,** selecione o grupo de dispositivos ao qual você deseja aplicar esse perfil. Como prática prática, isso deve ser aplicado a todos os dispositivos iOS gerenciados. Clique em **Avançar**.
     - Na página **Revisar + criar,** quando terminar, escolha **Criar**. O novo perfil é exibido na lista de perfis de configuração.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximas Etapas
 
 [Configurar o Defender para Ponto de Extremidade para recursos do iOS](ios-configure-features.md)

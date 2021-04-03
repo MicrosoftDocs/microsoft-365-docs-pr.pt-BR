@@ -2,8 +2,8 @@
 title: Configurar o Microsoft 365 Business Standard
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Saiba como configurar sua assinatura do Microsoft 365 Business Standard.
-ms.openlocfilehash: 51bd06a3ac23a794c71aa7d0ba682f65d48c913e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9efd14af2955e85b9b13c437ad869710f69a90f6
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914013"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579081"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Configurar o Microsoft Business Standard
 

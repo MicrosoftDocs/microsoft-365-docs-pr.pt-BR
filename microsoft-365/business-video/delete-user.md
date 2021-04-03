@@ -2,8 +2,8 @@
 title: Excluir um usuário do Microsoft 365 para empresas
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como excluir usuários no Microsoft 365 para empresas.
-ms.openlocfilehash: 902bf9d22a904064562346d2451cef596b71cca6
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+ms.openlocfilehash: 8b2f0db242197aecb04df2261caac3688ad4f1b2
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422742"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578922"
 ---
 # <a name="delete-a-user"></a>Excluir um usuário
 
