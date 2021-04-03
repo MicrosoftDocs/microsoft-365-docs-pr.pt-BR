@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8bb80e032fd2eb4c618b60f4ab46829d5cf11b6d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9b192a029704d1354867b169efdf0d489345030e
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199224"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580961"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Configurar os pilares do Microsoft 365 Defender para seu laboratório de avaliação ou ambiente piloto
 
@@ -39,7 +39,7 @@ ms.locfileid: "51199224"
 
 Criar um laboratório de avaliação do Microsoft 365 Defender ou um ambiente piloto e implantá-lo é um processo de três fases:
 
-|[![Fase 1: Preparar](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Fase 1: Preparar](prepare-m365d-eval.md) |[![Fase 2: Configurar](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Configurar](setup-m365deval.md) |![Fase 3: Onboard](../../media/phase-diagrams/onboard.png)<br/>Fase 3: Onboard | [![Voltar ao piloto](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Voltar ao playbook piloto](m365d-pilot.md) |
+|[![Fase 1: Preparar](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Fase 1: Preparar](prepare-m365d-eval.md) |[![Fase 2: Configurar](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Configurar](setup-m365deval.md) |![Fase 3: Integrar](../../media/phase-diagrams/onboard.png)<br/>Fase 3: Integrar | [![Voltar ao piloto](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Voltar ao playbook piloto](m365d-pilot.md) |
 |--|--|--|--|
 || |*Você está aqui!* | |
 
@@ -54,7 +54,7 @@ O Microsoft 365 Defender consiste em quatro pilares. Embora um pilar já possa f
 ![Solução do Image of_Microsoft 365 Defender para usuários, Microsoft Defender for Identity, para pontos de extremidade Microsoft Defender para Ponto de Extremidade, para aplicativos de nuvem, Microsoft Cloud App Security e para dados, Microsoft Defender para Office 365](../../media/mtp/m365pillars.png)
 
 Esta seção o orientará a configurar:
--   Microsoft Defender para Office 365
+-   Obter o Microsoft Defender para Office 365
 -   Microsoft Defender para Identidade? 
 -   Microsoft Cloud App Security
 -   Microsoft Defender para Ponto de Extremidade
@@ -285,8 +285,7 @@ Para obter uma orientação mais abrangente, consulte [Ativar o Microsoft 365 De
 
 Parabéns! Você acabou de criar seu laboratório de avaliação do Microsoft 365 Defender ou um ambiente piloto! Agora você pode se familiarizar com a interface do usuário do Microsoft 365 Defender! Veja o que você pode aprender com o guia interativo do Microsoft 365 Defender a seguir e saiba como usar cada painel para suas tarefas de operação de segurança diárias.
 
-
->[!VIDEO https://aka.ms/MTP-Interactive-Guide]
+[Confira o guia interativo](https://aka.ms/MTP-Interactive-Guide)
 
 Em seguida, você pode simular um ataque e ver como os recursos entre produtos detectam, criam alertas e respondem automaticamente a um ataque sem arquivo em um ponto de extremidade.
 

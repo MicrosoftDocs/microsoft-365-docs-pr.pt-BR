@@ -1,5 +1,5 @@
 ---
-title: Visão geral do Centro de Segurança do Microsoft Defender
+title: Visão geral da Central de Segurança do Microsoft Defender
 description: Saiba mais sobre os recursos no Centro de Segurança do Microsoft Defender, incluindo como os alertas funcionam e sugestões sobre como investigar possíveis violações e ataques.
 keywords: painel, fila de alertas, gerenciar alertas, investigação, investigar alertas, investigar dispositivos, enviar arquivos, análise profunda, alto, médio, baixo, gravidade, ioc, ioa
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b490159d12bebdb95b6f168671393f8939da33be
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ee6fd4bd8d60f828bb474fc80cb987f4f94edcbe
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054513"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581089"
 ---
-# <a name="overview-of-microsoft-defender-security-center"></a>Visão geral do Centro de Segurança do Microsoft Defender
+# <a name="overview-of-microsoft-defender-security-center"></a>Visão geral da Central de Segurança do Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -46,7 +46,7 @@ Use o **painel de análise** de ameaças para avaliar e controlar continuamente 
 ## <a name="microsoft-defender-for-endpoint-interactive-guide"></a>Guia interativo do Microsoft Defender para Ponto de Extremidade
 Neste guia interativo, você aprenderá a investigar ameaças à sua organização com o Microsoft Defender para o Ponto de Extremidade. Você verá como o Microsoft Defender para Ponto de Extremidade pode ajudá-lo a identificar atividades suspeitas, investigar riscos para sua organização e correção de ameaças.
 
-> [!VIDEO https://aka.ms/MSDE-IG]
+[Confira o guia interativo](https://aka.ms/MSDE-IG)
 
 ### <a name="in-this-section"></a>Nesta seção
 

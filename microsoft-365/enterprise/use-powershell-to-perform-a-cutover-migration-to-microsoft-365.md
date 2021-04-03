@@ -1,7 +1,7 @@
 ---
 title: Usar o PowerShell para realizar uma migração de substituição para o Microsoft 365
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -15,16 +15,16 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: b468cb4b-a35c-43d3-85bf-65446998af40
 description: Saiba como usar o PowerShell para mover o conteúdo de um sistema de email de origem de uma só vez executando uma migração de recortamento para o Microsoft 365.
-ms.openlocfilehash: 60bd3cb246e04aba37be06f7a951abbf25708412
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6e59ac4d590208e0faed22e94cabe05601b17f18
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924799"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581053"
 ---
 # <a name="use-powershell-to-perform-a-cutover-migration-to-microsoft-365"></a>Usar o PowerShell para realizar uma migração de substituição para o Microsoft 365
 
-*Este artigo se aplica tanto ao Microsoft 365 Enterprise quanto ao Office 365 Enterprise.*
+*Esse artigo se aplica ao Microsoft 365 Enterprise e ao Office 365 Enterprise.*
 
 Você pode migrar o conteúdo das caixas de correio de usuário de um sistema de email de origem para o Microsoft 365 de uma só vez usando uma migração de transferência. Este artigo apresenta as tarefas para uma migração de substituição de email usando o PowerShell do Exchange Online.
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Visão geral da conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
-ms.openlocfilehash: 2b80dd001bd2ee5d5725ea67c73aa34b4eb8816c
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: dd97a6d5cc9662f01854e1432660784358bce7b8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408400"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581125"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
 
@@ -205,6 +205,10 @@ Uma porta de entrada de serviço ideal do Microsoft 365 é a mais próxima da sa
 ### <a name="what-is-an-internet-egress-location"></a>O que é um local de saída da Internet?
 
 O local de saída da Internet é o local onde o tráfego de rede sai da rede corporativa e se conecta à Internet. Isso também é identificado como o local onde você tem um dispositivo NAT (Conversão de Endereço de Rede) e geralmente onde você se conecta a um Provedor de Serviços da Internet (ISP). Se você vir uma longa distância entre sua localização e seu local de saída da Internet, isso pode indicar um backhaul WAN significativo.
+
+### <a name="what-license-is-needed-for-this-capability"></a>Qual licença é necessária para esse recurso?
+
+Você precisa de uma licença que fornece acesso ao centro de administração do Microsoft 365.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

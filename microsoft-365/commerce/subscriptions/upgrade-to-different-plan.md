@@ -20,21 +20,14 @@ ms.custom:
 search.appverid:
 - MET150
 description: Saiba como atualizar para um plano diferente.
-ms.openlocfilehash: 5f853dcd0d247a6422489cbe5d0287765bfd72a6
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 79ca18df28505c457e085dbd73c2fbd04eff53ca
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164444"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580973"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Quando sua empresa muda ou você precisa de mais recursos, você pode atualizar planos. A maneira mais fácil de fazer isso é usar a guia **Atualização** no centro de administração. No entanto, o uso **da** guia Atualização não é suportado em todas as situações. Em alguns casos, você pode ser capaz de alterar os planos manualmente.
 

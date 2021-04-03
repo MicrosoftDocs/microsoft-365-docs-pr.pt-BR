@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: f789053e0922ee81155a243bbaa7b3ab5b0f6d87
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 687077b1c9ff2449d9994875419a97cf0c503c2f
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053498"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51581077"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -35,7 +35,7 @@ ms.locfileid: "51053498"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-> Deseja experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) ou executar seu projeto piloto em [produção](m365d-pilot.md?ocid=cx-evalpilot).
+> Quer experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) ou [executar seu projeto piloto em produção](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
 O Microsoft 365 Defender é um pacote de defesa empresarial pré e pós-violação unificado que coordena de forma nativa a detecção, a prevenção, a investigação e a resposta entre pontos de extremidade, identidades, e-mail e aplicativos para fornecer proteção integrada contra ataques sofisticados.
@@ -56,7 +56,7 @@ Com a solução integrada do Microsoft 365 Defender, os profissionais de seguran
 
 Neste guia interativo, você aprenderá a proteger sua organização com o Microsoft 365 Defender. Você verá como o Microsoft 365 Defender pode ajudá-lo a detectar riscos de segurança, investigar ataques à sua organização e evitar atividades prejudiciais automaticamente.
 
-> [!VIDEO https://aka.ms/M365Defender-InteractiveGuide]
+[Confira o guia interativo](https://aka.ms/M365Defender-InteractiveGuide)
 
 
 

@@ -21,12 +21,12 @@ ms.custom:
 description: O Microsoft Defender para Office 365 inclui anexos seguros, links seguros, ferramentas anti-phishing avançadas, ferramentas de relatórios e recursos de inteligência de ameaças.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ec60fc7063bdd4a2656385ed86098d6ae2b4abc0
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: dad2722a1f9e99fad53c83348d049fa9a60f8b62
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203093"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580985"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Obter o Microsoft Defender para Office 365
 
@@ -52,7 +52,7 @@ O Microsoft Defender para Office 365 protege sua organização contra ameaças m
 ## <a name="interactive-guide-to-microsoft-defender-for-office-365"></a>Guia interativo para o Microsoft Defender para Office 365
 Neste guia interativo, você aprenderá a proteger sua organização com o Microsoft Defender para Office 365. Você verá como o Defender para Office 365 pode ajudar a definir políticas de proteção, analisar ameaças à sua organização e responder a ataques.
 
-> [!VIDEO https://aka.ms/MSDO-IG]
+[Conferir o guia interativo](https://aka.ms/MSDO-IG)
 
 ## <a name="getting-started"></a>Introdução
 
@@ -97,6 +97,8 @@ A tabela a seguir resume o que está incluído em cada plano.
 ## <a name="configure-microsoft-defender-for-office-365-policies"></a>Configurar politicas do Microsoft Defender para Office 365
 
 Com o Microsoft Defender para Office 365, a equipe de segurança da sua organização pode configurar a proteção definindo políticas no Centro de Conformidade e Segurança (Vá para <https://protection.office.com> \> **Política de gerenciamento de** \> **ameaças**.)
+
+Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=vivvTmWJ_3c). 
 
 > [!TIP]
 > Para obter uma lista rápida de políticas a serem definidas, confira [Proteção contra ameaças](protect-against-threats.md).
