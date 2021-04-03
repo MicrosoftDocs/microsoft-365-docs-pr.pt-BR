@@ -8,17 +8,17 @@ metadata:
   ms.service: O365-administration
   ms.prod: microsoft-365-business
   ms.topic: hub-page
-  author: Sirkkuw
-  ms.author: sirkkuw
+  author: twerner
+  ms.author: twernermsft
   ms.date: 12/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 2a874179c9a3da778ff0757d9a883af44a462141
-  ms.sourcegitcommit: 9833f95ab6ab95aea20d68a277246dca2223f93d
+  ms.openlocfilehash: 0c9ba8560c2ee64b8e0da4d14afe869006bd6ed8
+  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/11/2021
-  ms.locfileid: "49794155"
+  ms.lasthandoff: 04/02/2021
+  ms.locfileid: "51580565"
 productDirectory:
   items:
   - title: Introdução
@@ -43,11 +43,11 @@ productDirectory:
     url: collab-outlook-teams.md
   - title: Armazenar e compartilhar arquivos
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg
-    summary: Armazene arquivos com segurança e acesse em qualquer lugar.
+    summary: Armazene arquivos com segurança e acesse de qualquer lugar.
     url: overview-file-sharing.md
   - title: Configurar o Business Voice
     imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
-    summary: Configurar serviço telefônico e conferência.
+    summary: Configurar o serviço telefônico e a conferência.
     url: business-voice.md
   - title: Configurar aplicativos de negócios
     imageSrc: https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg
@@ -55,7 +55,7 @@ productDirectory:
     url: overview-bookings.md
   - title: Gerenciar sua assinatura
     imageSrc: https://docs.microsoft.com/office/media/icons/settings.svg
-    summary: Gerenciar usuários, redefinir senhas, exibir sua fatura...
+    summary: Gerenciar usuários, redefinir senhas, exibir sua conta...
     url: what-is-admin.md
   - title: Gerenciar seus dispositivos
     imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-blue.svg
@@ -77,7 +77,7 @@ additionalContent:
       summary: Saiba como usar o Word, Excel, PowerPoint e outros aplicativos do Office.
       url: https://support.microsoft.com/training
     - title: Alterne a partir do Google Workspace
-      summary: Descubra como mudar para o Microsoft 365 para empresas.
+      summary: Saiba como mudar para o Microsoft 365 para empresas.
       url: moveto-microsoft-365/move-from-google-workspace-overview.md
     - title: Encontre mais recursos de administrador
       summary: Vá para o site de ajuda do Centro de administração do Microsoft 365.
