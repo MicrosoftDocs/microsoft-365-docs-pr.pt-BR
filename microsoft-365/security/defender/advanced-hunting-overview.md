@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 0338e87c103bef0f12a45277a14152ef429d0067
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3aa964f8e213d64f583738d8957899c1b7b5146c
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054422"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501096"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Busca proativamente por ameaças com busca avançada no Microsoft 365 Defender
 
@@ -36,7 +36,7 @@ ms.locfileid: "51054422"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-> Deseja experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) ou executar seu projeto piloto em [produção](m365d-pilot.md?ocid=cx-evalpilot).
+> Quer experimentar o Microsoft 365 Defender? Você pode [avaliá-lo em um ambiente de laboratório](m365d-evaluation.md?ocid=cx-docs-MTPtriallab) ou [executar seu projeto piloto em produção](m365d-pilot.md?ocid=cx-evalpilot).
 >
 
 A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos. Você pode inspecionar proativamente eventos em sua rede para localizar indicadores e entidades de ameaça. O acesso flexível aos dados permite a busca não restrita por ameaças conhecidas e potenciais.
@@ -49,7 +49,7 @@ Você pode usar as mesmas consultas de busca de ameaças para criar regras de de
 Esse recurso é semelhante à busca [avançada no Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Disponível no Centro de segurança do Microsoft 365, esse recurso oferece suporte a consultas que verificam um conjunto de dados mais amplo de:
 
 - Microsoft Defender para Ponto de Extremidade
-- Microsoft Defender para Office 365
+- Obter o Microsoft Defender para Office 365
 - Microsoft Cloud App Security
 - Microsoft Defender para Identidade?
 

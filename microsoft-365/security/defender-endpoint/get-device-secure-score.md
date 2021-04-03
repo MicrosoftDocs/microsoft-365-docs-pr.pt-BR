@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 921334c937e3f211b032a5d24d4244d9a6fb3d61
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: db4682d0d2fccd7504eb46d9099a9783408cfb73
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166265"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570931"
 ---
 # <a name="get-device-secure-score"></a>Obter pontuação segura do dispositivo
 
@@ -48,7 +48,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Score.Read.Alll |   'Leitura da pontuação de Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | Score.Read | 'Leitura da pontuação de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | Score.Read | 'Leitura da pontuação de Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 

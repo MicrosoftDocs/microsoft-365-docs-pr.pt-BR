@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: ea0990e5f30aa45ec48bb2e6a7c957c187c74ebb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: d970ac1a28c62703f648e4fbf6f66e2f825a6188
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922939"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574614"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Aplicativos na Área de Trabalho Gerenciada da Microsoft
 
@@ -75,3 +76,16 @@ Há três opções para obter seus aplicativos empacotados:
 ## <a name="deploying-apps"></a>Implantando aplicativos
 
 Qualquer método que você use para obter aplicativos empacotados, uma vez concluído, você estará pronto para seguir as etapas em Implantar aplicativos para dispositivos da Área de [Trabalho Gerenciada da Microsoft.](../get-started/deploy-apps.md)
+
+
+## <a name="steps-to-get-ready"></a>Etapas para se preparar
+
+1. Revise [os pré-requisitos da Área de Trabalho Gerenciada da Microsoft.](prerequisites.md)
+2. Use [ferramentas de avaliação de preparação.](readiness-assessment-tool.md)
+3. [Pré-requisitos para contas de convidados](guest-accounts.md)
+4. [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](network.md)
+5. [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md)
+6. [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](authentication.md)
+7. [Aplicativos na Área de Trabalho Gerenciada](apps.md) da Microsoft (Este artigo)
+8. [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](mapped-drives.md)
+9. [Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft](printing.md)

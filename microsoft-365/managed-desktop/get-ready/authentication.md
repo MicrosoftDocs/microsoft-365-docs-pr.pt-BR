@@ -9,12 +9,13 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: f6b1e257fd767fa112fddb41d773065b8002a2a3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 6df23e0d7e3ea0ecd7ebacd96f00cb47b9e0aa84
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909185"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574590"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Prepare o acesso aos recursos locais da Área de trabalho gerenciada da Microsoft
 
@@ -77,3 +78,14 @@ Os dispositivos da Área de Trabalho Gerenciada da Microsoft não podem se conec
 Embora as impressoras não possam ser descobertas automaticamente em um ambiente somente na nuvem, os usuários podem usar impressoras locais usando o caminho da impressora ou o caminho da fila da impressora, desde que os dispositivos tenham acesso a um controlador de domínio local.
 
 <!--add fuller material on printers when available-->
+## <a name="steps-to-get-ready"></a>Etapas para se preparar
+
+1. Revise [os pré-requisitos da Área de Trabalho Gerenciada da Microsoft.](prerequisites.md)
+2. Use [ferramentas de avaliação de preparação.](readiness-assessment-tool.md)
+3. [Pré-requisitos para contas de convidados](guest-accounts.md)
+4. [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](network.md)
+5. [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md)
+6. [Preparar o acesso de recursos locais para a Área de Trabalho Gerenciada](authentication.md) da Microsoft (Este artigo)
+7. [Aplicativos na Área de Trabalho Gerenciada da Microsoft](apps.md)
+8. [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](mapped-drives.md)
+9. [Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft](printing.md)

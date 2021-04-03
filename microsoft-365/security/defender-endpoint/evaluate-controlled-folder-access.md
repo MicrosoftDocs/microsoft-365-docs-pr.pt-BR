@@ -8,17 +8,17 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e965e1a882dadfb565231074165507a6727b45c1
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: f996a8fdaf630c8ea389ac9648369cc955a6e95d
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218743"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569892"
 ---
 # <a name="evaluate-controlled-folder-access"></a>Avaliar o acesso controlado a pastas
 
@@ -76,5 +76,5 @@ Consulte [Proteger pastas importantes](controlled-folders.md) com acesso control
 ## <a name="see-also"></a>Confira também
 
 * [Proteger pastas importantes com acesso controlado a pastas](controlled-folders.md)
-* [Avaliar o Microsoft Defender para o Ponto de Extremidade](evaluate-mde.md)
+* [Avaliar o Microsoft Defender para Ponto de Extremidade](evaluate-mde.md)
 * [Usar o modo de auditoria](audit-windows-defender.md)

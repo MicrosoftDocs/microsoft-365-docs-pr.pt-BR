@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as políticas anti-phishing que estão disponíveis no Exchange Online Protection (EOP) e no Microsoft Defender para Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 64defeaa1e8cf4a08610742571a01ea527163d14
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 44472d49936f400ee16227f3f29141738ad28daa
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203038"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51571015"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Políticas anti-phishing no Microsoft 365
 
@@ -93,7 +93,7 @@ As seguintes configurações de política estão disponíveis em políticas anti
 
 ## <a name="spoof-settings"></a>Configurações de spoof
 
-A spoofing é quando o endereço From em uma mensagem de email (o endereço de remetente que é show em clientes de email) não corresponderá ao domínio da fonte de email. Para obter mais informações sobre a spoofing, consulte [Anti-spoofing protection in Microsoft 365](anti-spoofing-protection.md).
+A spoofing é quando o endereço From em uma mensagem de email (o endereço de remetente mostrado em clientes de email) não corresponderá ao domínio da fonte de email. Para obter mais informações sobre a spoofing, consulte [Anti-spoofing protection in Microsoft 365](anti-spoofing-protection.md).
 
 As seguintes configurações de spoof estão disponíveis em políticas anti-phishing no EOP e no Microsoft Defender para Office 365:
 

@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c79a235051897f19ca2c3f42b220c87a48cfac3f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7dd691b0d018db2b7afb3b88a2c1f9f7f8a39a33
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203292"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569774"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades no Microsoft Defender para Office 365
 
@@ -38,6 +38,7 @@ ms.locfileid: "51203292"
 
 Este artigo lista os novos recursos na versão mais recente do Microsoft Defender para Office 365. Os recursos que estão atualmente em visualização são denodos com **(visualização)**.
 
+Saiba mais assistindo [a este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3).
 > [!TIP]
 > O Microsoft Defender para Office 365 ainda não tem? [Entre em contato com vendas para iniciar uma avaliação.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 

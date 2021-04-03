@@ -17,12 +17,12 @@ ms.collection:
 description: Os administradores podem aprender a configurar uma caixa de correio para coletar emails de spam e phishing relatados pelos usuários.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d3f2640752f2dae152ef4be8b9ac2d2996c802a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d86c79f0f0ab74d1dfbb88e7803f4ee4d691ea73
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203110"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501180"
 ---
 # <a name="user-submissions-policy"></a>Política de envios de usuários
 
@@ -119,6 +119,9 @@ Em **Opções para mostrar quando as mensagens são relatadas,** selecione pelo 
 
         > [!NOTE]
         > As organizações governamentais dos EUA (GCC, GCC-H e DoD) só podem configurar a **caixa de correio personalizada**. As outras duas opções estão desabilitadas.
+
+        > [!NOTE]
+        > Se as organizações estão configuradas para enviar somente para a caixa de correio personalizada, as mensagens relatadas não serão enviadas para análise novamente e os resultados no portal de mensagens relatadas pelo usuário sempre estarão vazios.
 
       Quando terminar, clique em **Confirmar**.
 

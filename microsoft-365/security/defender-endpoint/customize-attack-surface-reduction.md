@@ -1,5 +1,5 @@
 ---
-title: Personalizar regras de redução de superfície de ataque
+title: Personalizar regras da redução da superfície de ataque
 description: Definir regras individualmente em modos de auditoria, bloqueio ou desabilitação e adicionar arquivos e pastas que devem ser excluídos das regras de redução de superfície de ataque
 keywords: Redução de superfície de ataque, quadris, sistema de prevenção contra invasões de host, regras de proteção, antiexploit, exploração, prevenção de infecção, personalizar, configurar, excluir
 search.product: eADQiWindows 10XVcnh
@@ -8,19 +8,19 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 99a88a869c8a79f79cbc3a16fc73bf556416c51a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 52a51b1035f1aa0fb152cf17dc9561cce378d59d
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163286"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570346"
 ---
-# <a name="customize-attack-surface-reduction-rules"></a>Personalizar regras de redução de superfície de ataque
+# <a name="customize-attack-surface-reduction-rules"></a>Personalizar regras da redução da superfície de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -116,6 +116,6 @@ Você pode personalizar a notificação para quando uma regra é disparada e blo
 ## <a name="related-topics"></a>Tópicos relacionados
 
 * [Reduzir superfícies de ataque com regras de redução de superfície de ataque](attack-surface-reduction.md)
-* [Habilitar regras de redução de superfície de ataque](enable-attack-surface-reduction.md)
-* [Avaliar regras de redução de superfície de ataque](evaluate-attack-surface-reduction.md)
-* [Perguntas frequentes sobre redução de superfície de ataque](attack-surface-reduction.md)
+* [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
+* [Avaliar as regras da redução da superfície de ataque](evaluate-attack-surface-reduction.md)
+* [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction.md)

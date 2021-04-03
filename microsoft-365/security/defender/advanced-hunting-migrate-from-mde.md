@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: c0575b5eaf5a4683f86d4a48dd1076fa2c423acf
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: c0a29f93b9ea926beaeecb840ba108da04a89ebb
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054423"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501140"
 ---
 # <a name="migrate-advanced-hunting-queries-from-microsoft-defender-for-endpoint"></a>Migrar consultas de busca avançadas do Microsoft Defender para o Ponto de Extremidade
 
@@ -38,7 +38,7 @@ ms.locfileid: "51054423"
 Mova seus fluxos de trabalho de busca avançados do Microsoft Defender para o Ponto de Extremidade para procurar proativamente ameaças usando um conjunto mais amplo de dados. No Microsoft 365 Defender, você tem acesso a dados de outras soluções de segurança do Microsoft 365, incluindo:
 
 - Microsoft Defender para Ponto de Extremidade
-- Microsoft Defender para Office 365
+- Obter o Microsoft Defender para Office 365
 - Microsoft Cloud App Security
 - Microsoft Defender para Identidade?
 

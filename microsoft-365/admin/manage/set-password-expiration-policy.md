@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365.
-ms.openlocfilehash: 74b23b4a1b67ecd5c9199388985e8e38c3231239
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0280f4fd43034f9ffb70104771fa4a099943af2d
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221818"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500229"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -43,16 +43,15 @@ ms.locfileid: "51221818"
 
 Este artigo é destinado às pessoas que definem a política de expiração de senhas para uma empresa, escola ou entidade sem fins lucrativos. Para concluir essas etapas, você precisa entrar com a sua conta de administrador do Microsoft 365. [O que é uma conta de administrador?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview).
 
+Como administrador, você pode fazer as senhas de usuário expirarem após um determinado número de dias ou definir as senhas para nunca expirarem. Por padrão, as senhas da sua organização estão definidas para nunca expirar.
+
+A pesquisa atual indica que as alterações de senha obrigatórias são mais prejudicadas do que o recomendado. Eles direcionam os usuários a escolher senhas mais fracas, reutilizar senhas ou atualizar senhas antigas de maneiras que são facilmente adivinhadas pelos hackers. Recomendamos habilitar a [autenticação multifator](../security-and-compliance/set-up-multi-factor-authentication.md).
+
 Você deve ser um administrador [global](../add-users/about-admin-roles.md) para executar essas etapas.
 
 Se é um usuário, você não tem as permissões para definir a senha para nunca expirar. Peça ao suporte técnico do seu trabalho ou da sua escola que faça isso para você. 
 
-Como administrador, você pode fazer as senhas de usuário expirarem após um determinado número de dias ou definir as senhas para nunca expirarem.
-
 ## <a name="set-password-expiration-policy"></a>Definir política de expiração de senha
-
-> [!Tip]
-> Por padrão, as senhas estão definidas para expirar em 90 dias. A pesquisa atual indica que as alterações de senha obrigatórias são mais prejudicadas do que o recomendado. Eles direcionam os usuários a escolher senhas mais fracas, reutilizar senhas ou atualizar senhas antigas de maneiras que são facilmente adivinhadas pelos hackers. Se a senha for configurada para nunca expirar, recomendamos habilitar a [autenticação multifator](../security-and-compliance/set-up-multi-factor-authentication.md).
 
 Siga as etapas abaixo se desejar definir as senhas dos usuários para expirarem após um período de tempo específico.
 

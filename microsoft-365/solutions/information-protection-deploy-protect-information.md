@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Implante os recursos de segurança e conformidade do Microsoft 365 e proteja suas informações pessoais.
-ms.openlocfilehash: 657b3c9c6416c8a38629a0d26253e1222aa6d242
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 2d3a5baa063e6672760dda60ae6d76ea928ccd16
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928467"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500983"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Proteger informações sujeitas à regulamentação de privacidade de dados
 
@@ -90,7 +90,8 @@ Para obter informações sobre outros recursos de proteção de informações fo
 
 Os rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft permitem que você classifique e proteja os dados da sua organização sem prejudicar a produtividade dos usuários e sua capacidade de colaborar.
 
-![Rótulos de sensibilidade no Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-labels.png)
+> [!div class="mx-imgBorder"]
+> ![Rótulos de sensibilidade no Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-labels.png)
 
 ### <a name="prerequisites-for-sensitivity-labels"></a>Pré-requisitos para rótulos de sensibilidade
 
@@ -115,7 +116,7 @@ Conclua essas atividades antes de implementar qualquer um dos recursos baseados 
 
       Se você estiver planejando usar a rotulagem de sensibilidade moderna para proteção de email e métodos de criptografia de email existentes, como o OME, eles podem existir em co-existir, mas você deve entender os cenários nos quais ambos devem ser aplicados. Consulte [Office 365 Message Encryption new capabilities (OME)](#office-365-message-encryption-ome-new-capabilities), which includes a table comparing modern sensitivity label-type protection with OME-based protection.
 
-3. Planeje a integração em um esquema mais amplo de proteção de informações. Além da coexistência com o OME, os rótulos de sensibilidade atuais podem ser usados junto com recursos como a prevenção contra perda de dados (DLP) do Microsoft 365 e o Microsoft Cloud App Security. Consulte [Rótulos de Sensibilidade e Segurança do Microsoft Cloud App para](../compliance/sensitivity-labels.md#sensitivity-labels-and-microsoft-cloud-app-security) atingir suas metas de proteção de informações relacionadas à privacidade de dados.
+3. Planeje a integração em um esquema mais amplo de proteção de informações. Além da coexistência com o OME, os rótulos de sensibilidade podem ser usados junto com recursos como a prevenção contra perda de dados (DLP) do Microsoft 365 e o Microsoft Cloud App Security. Consulte [Microsoft Information Protection in Microsoft 365](../compliance/information-protection.md) to achieve your data privacy-related information protection goals.
 
 4. Desenvolva um esquema de classificação e controle de rótulo de sensibilidade. Consulte [Classificação de Dados e Taxonomia do Rótulo de](https://aka.ms/dataclassificationwhitepaper)Sensibilidade.
 
@@ -215,11 +216,13 @@ Por exemplo, você pode identificar qualquer documento que contenha um número d
 
 Você também pode monitorar e proteger itens confidenciais nas versões instaladas localmente do Excel, PowerPoint e Word, que incluem a capacidade de identificar itens confidenciais e aplicar políticas de DLP. A DLP fornece monitoramento contínuo quando as pessoas compartilham conteúdo desses aplicativos do Office.
 
-![Cargas de trabalho com suporte para DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-supported-workloads.png)
+> [!div class="mx-imgBorder"]
+> ![Cargas de trabalho com suporte para DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-supported-workloads.png)
 
 Esta figura mostra um exemplo de DLP protegendo dados pessoais.
 
-![Exemplo de proteção de dados pessoais usando DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-example-use.png)
+> [!div class="mx-imgBorder"]
+> ![Exemplo de proteção de dados pessoais usando DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-example-use.png)
 
 A DLP é usada para identificar um documento ou email que contém um registro de saúde e bloqueia automaticamente o acesso a esse documento ou impede que o email seja enviado. Em seguida, a DLP notifica o destinatário com uma dica de política e envia um alerta para o usuário final e o administrador.
 
@@ -252,7 +255,8 @@ Embora os rótulos de sensibilidade não possam ser usados em condições de pol
 
 As políticas de DLP são configuradas no Centro de administração de Conformidade da Microsoft e especificam o nível de proteção, o tipo de informação sensível que a política está procurando e as cargas de trabalho de destino. Seus componentes básicos consistem em identificar a proteção e os tipos de dados.
 
-![Configuração da política de DLP no Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-config.png)
+> [!div class="mx-imgBorder"]
+> ![Configuração da política de DLP no Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-dlp-config.png)
 
 Aqui está um exemplo de política de DLP para reconhecimento do RGPD.
 
@@ -270,7 +274,7 @@ A primeira configuração, Reconhecimento, pode ser usada como ponto de partida 
 
 >[!Note]
 >À medida que os níveis de proteção aumentam, a capacidade dos usuários de compartilhar e acessar informações diminuirá em alguns casos e poderá afetar sua produtividade ou capacidade de concluir tarefas diárias.
->
+
 
 Para ajudar seus funcionários a continuarem a ser produtivos em um ambiente mais seguro ao aumentar os níveis de proteção, aproveite o tempo para treiná-los e educá-los sobre novas políticas e procedimentos de segurança.
 
@@ -285,7 +289,8 @@ Os rótulos de sensibilidade podem trabalhar em conjunto com a DLP para fornecer
 
 Depois que esses elementos são determinados, você pode usar tipos de informações confidenciais, sua taxonomia de rotulagem de sensibilidade e políticas de DLP em conjunto. Esta figura mostra um exemplo.
 
-![Exemplo de rótulos de sensibilidade trabalhando com DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
+> [!div class="mx-imgBorder"]
+> ![Exemplo de rótulos de sensibilidade trabalhando com DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
 [Consulte uma versão maior dessa imagem](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 

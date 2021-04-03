@@ -4,8 +4,8 @@ description: O Defender for Office 365 no modo de avaliação cria políticas de
 keywords: avaliar o Office 365, o Microsoft Defender para Office 365, a avaliação do Office 365, experimentar o office 365, o Microsoft Defender, o ATP
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2e97e510cbc3188f8cc6117c5d7bd1e1d23897eb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0b6166d22930119949faf99334416b85fdb64da0
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203084"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500267"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft Defender para Office 365
 
@@ -59,7 +59,7 @@ Com a experiência de configuração simplificada, você pode se concentrar em:
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-### <a name="licensing"></a>Licenciamento
+### <a name="licensing"></a>Licenças
 
 Para acessar a avaliação, você precisará atender aos requisitos de licenciamento. Qualquer uma das seguintes licenças funcionará:
 

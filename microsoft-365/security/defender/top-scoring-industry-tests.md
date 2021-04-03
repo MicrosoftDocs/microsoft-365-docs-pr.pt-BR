@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: secure
 ms.sitesec: library
 localization_priority: Priority
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: b9de46510f15ca41b09a53284b0b37bde7bb431a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1f649af2ca6089d1366cc6e080a430a6a00fc300
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054496"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569854"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Melhor pontuação nos testes do setor
 

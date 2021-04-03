@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: macapara
-author: mjcaparas
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 10fa2765a4fe5bd256e0588af0db51f5a22339a2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f6b085f200d3b0c71bb3608f8e5ba9ed85632676
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052837"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500333"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Investigar incidentes no Microsoft 365 Defender
 

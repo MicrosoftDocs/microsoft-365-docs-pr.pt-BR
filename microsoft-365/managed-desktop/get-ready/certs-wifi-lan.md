@@ -1,6 +1,6 @@
 ---
 title: Prepare certificados e perfis de rede da Área de trabalho gerenciada da Microsoft
-description: certs/wifi/lan
+description: Requisitos de certificado e conectividade wi-fi
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
@@ -11,12 +11,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 9f4490711c1ea051afe9d8efb081a2f7a141f8ba
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: a59add6f6821824f189703b3dedd35fda313ec31
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909113"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574578"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Prepare certificados e perfis de rede da Área de trabalho gerenciada da Microsoft  
  
@@ -86,3 +87,14 @@ Para implantar certificados e perfis, siga estas etapas:
 4. Crie um perfil para cada VPN corporativa (consulte Configurações do dispositivo Windows 10 e Windows Holographic para adicionar conexões [VPN usando o Intune](/intune/vpn-settings-windows-10)).
 5. Envie uma solicitação de Suporte intitulada "Implantação de Certificado" ou "Implantação de Perfil wi-fi" para operações de IT da Área de Trabalho Gerenciada da Microsoft usando o portal de Administração da Área de Trabalho Gerenciada da Microsoft para revisar e implantar o perfil de configuração em "Dispositivos de Trabalho Modernos – Teste". As Operações de TI da Área de Trabalho Gerenciada da Microsoft permitirão que você saiba quando a solicitação foi concluída por meio da solicitação de Suporte no portal de administração. 
  
+## <a name="steps-to-get-ready"></a>Etapas para se preparar
+
+1. Revise [os pré-requisitos da Área de Trabalho Gerenciada da Microsoft.](prerequisites.md)
+2. Use [ferramentas de avaliação de preparação.](readiness-assessment-tool.md)
+3. [Pré-requisitos para contas de convidados](guest-accounts.md)
+4. [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](network.md)
+5. [Preparar certificados e perfis de rede para a Área de Trabalho Gerenciada](certs-wifi-lan.md) da Microsoft (Este artigo)
+6. [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](authentication.md)
+7. [Aplicativos na Área de Trabalho Gerenciada da Microsoft](apps.md)
+8. [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](mapped-drives.md)
+9. [Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft](printing.md) 

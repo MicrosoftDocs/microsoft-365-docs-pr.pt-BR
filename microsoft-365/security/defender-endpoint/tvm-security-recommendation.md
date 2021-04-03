@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1bc8fb7dad16d141d6da3efc55200fce40a76900
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 97d496271c1ef7185419f7d39956da0429f070aa
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053541"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500484"
 ---
 # <a name="security-recommendations---threat-and-vulnerability-management"></a>Recomendações de segurança - gerenciamento de ameaças e vulnerabilidades
 
@@ -164,7 +164,7 @@ Você pode relatar um falso positivo quando vir qualquer informação de recomen
 - [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Painel](tvm-dashboard-insights.md)
 - [Pontuação de exposição](tvm-exposure-score.md)
-- [Pontuação segura da Microsoft para dispositivos](tvm-microsoft-secure-score-devices.md)
+- [Microsoft Secure Score para dispositivos](tvm-microsoft-secure-score-devices.md)
 - [Correção de vulnerabilidades](tvm-remediation.md)
 - [Criar e exibir exceções para recomendações de segurança](tvm-exception.md)
-- [Linha do tempo do evento](threat-and-vuln-mgt-event-timeline.md)
+- [Cronograma do evento](threat-and-vuln-mgt-event-timeline.md)

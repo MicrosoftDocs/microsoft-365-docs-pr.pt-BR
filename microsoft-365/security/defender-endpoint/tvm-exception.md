@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c8ad69930ce4faecbffbc6d2fab59bbe2cac06fa
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 13ac09b1ad918ed945edec6167fd57ea02b616ea
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053275"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500183"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Criar e exibir exceções para recomendações de segurança - gerenciamento de ameaças e vulnerabilidades
 
@@ -42,7 +42,7 @@ Como alternativa a uma solicitação de correção quando uma recomendação nã
 
 Quando uma exceção é criada para uma recomendação, a recomendação não estará ativa até o final da duração da exceção. O estado de recomendação mudará para **Exceção Total** ou **Parcial** (por grupo de dispositivos).
 
-## <a name="permissions"></a>Permissões
+## <a name="permissions"></a>Permissions
 
 Somente usuários com permissões de "tratamento de exceções" podem gerenciar exceções (incluindo criação ou cancelamento). [Saiba mais sobre funções RBAC](user-roles.md).
 
@@ -144,4 +144,4 @@ O impacto (após exceções) mostra o impacto restante na pontuação de exposi�
 - [Correção de vulnerabilidades](tvm-remediation.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)
 - [Pontuação de exposição](tvm-exposure-score.md)
-- [Pontuação segura da Microsoft para dispositivos](tvm-microsoft-secure-score-devices.md)
+- [Microsoft Secure Score para dispositivos](tvm-microsoft-secure-score-devices.md)

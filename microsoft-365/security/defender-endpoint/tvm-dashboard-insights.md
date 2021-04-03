@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 594d4b5790f95abed966163e448d332467f35b51
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35dd300d828bfa48ad753d7c65f36b2555cf4f60
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054533"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500169"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>Insights do painel - gerenciamento de ameaças e vulnerabilidades
 
@@ -66,7 +66,7 @@ Assista a este vídeo para uma visão geral rápida do que está no painel de ge
 :---|:---
 **Grupos de dispositivos selecionados (#/#)**   | Filtre os dados de gerenciamento de ameaças e vulnerabilidades que você deseja ver no painel e cartões por grupos de dispositivos. O que você selecionar no filtro se aplica em todas as páginas de gerenciamento de ameaças e vulnerabilidades.
 [**Pontuação de exposição**](tvm-exposure-score.md)   | Consulte o estado atual da exposição de dispositivos da sua organização a ameaças e vulnerabilidades. Vários fatores afetam a pontuação de exposição da sua organização: pontos fracos descobertos em seus dispositivos, probabilidade de que seus dispositivos sejam violados, o valor dos dispositivos para sua organização e alertas relevantes descobertos com seus dispositivos. O objetivo é reduzir a pontuação de exposição da sua organização para ser mais segura. Para reduzir a pontuação, você precisa resolver os problemas de configuração de segurança relacionados listados nas recomendações de segurança.
-[**Pontuação segura da Microsoft para dispositivos**](tvm-microsoft-secure-score-devices.md) | Consulte a postura de segurança do sistema operacional, aplicativos, rede, contas e controles de segurança da sua organização. O objetivo é resolver os problemas de configuração de segurança relacionados para aumentar sua pontuação para dispositivos. Selecionar as barras o levará à página **Recomendação de** segurança.
+[**Microsoft Secure Score para dispositivos**](tvm-microsoft-secure-score-devices.md) | Consulte a postura de segurança do sistema operacional, aplicativos, rede, contas e controles de segurança da sua organização. O objetivo é resolver os problemas de configuração de segurança relacionados para aumentar sua pontuação para dispositivos. Selecionar as barras o levará à página **Recomendação de** segurança.
 **Distribuição de exposição de dispositivo** | Veja quantos dispositivos são expostos com base no nível de exposição. Selecione uma seção no gráfico de  roscas para ir até a página de lista Dispositivos e exibir os nomes de dispositivo afetados, o nível de exposição, o nível de risco e outros detalhes, como domínio, plataforma do sistema operacional, seu estado de saúde, quando foi visto pela última vez e suas marcas.
 **Principais recomendações de segurança** | Consulte as recomendações de segurança coladas que são organizadas e priorizadas com base na exposição de risco da sua organização e na urgência necessária. Selecione **Mostrar mais** para ver o restante das recomendações de segurança na lista. Selecione **Mostrar exceções** para a lista de recomendações que têm uma exceção.
 **Principais softwares vulneráveis** | Obter visibilidade em tempo real do inventário de software da sua organização com uma lista classificada em pilha de softwares vulneráveis instalados nos dispositivos da rede e como eles impactam sua pontuação de exposição organizacional. Selecione um item para obter detalhes ou **Mostrar mais** para ver o restante da lista de softwares vulneráveis na página **Inventário de** software.
@@ -80,8 +80,8 @@ Para obter mais informações sobre os ícones usados em todo o portal, consulte
 
 - [Visão geral do gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Pontuação de exposição](tvm-exposure-score.md)
-- [Pontuação segura da Microsoft para dispositivos](tvm-microsoft-secure-score-devices.md)
+- [Microsoft Secure Score para dispositivos](tvm-microsoft-secure-score-devices.md)
 - [Recomendações de segurança](tvm-security-recommendation.md)
 - [Inventário de software](tvm-software-inventory.md)
-- [Linha do tempo do evento](threat-and-vuln-mgt-event-timeline.md)
+- [Cronograma do evento](threat-and-vuln-mgt-event-timeline.md)
 

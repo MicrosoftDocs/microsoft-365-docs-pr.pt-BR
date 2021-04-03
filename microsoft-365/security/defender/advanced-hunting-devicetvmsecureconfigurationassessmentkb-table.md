@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e664f0da29e0403b415792c839fd740006791cf0
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 71ebcd759e9fb6fd39550975039eb58be13e6b84
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053198"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51501155"
 ---
 # <a name="devicetvmsecureconfigurationassessmentkb"></a>DeviceTvmSecureConfigurationAssessmentKB
 
@@ -52,7 +52,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `ConfigurationSubcategory` | string |Subcategoria ou subgrupo ao qual a configuração pertence. Em muitos casos, isso descreve capacidades ou recursos específicos. |
 | `ConfigurationBenchmarks` | string | Lista de benchmarks da indústria recomendando a mesma configuração ou configuração similar |
 | `Tags` | string | Rótulos que representam vários atributos usados para identificar ou categorizar uma configuração de segurança |
-| `RemediationOptions` | cadeia de caracteres | Ações recomendadas para reduzir ou resolver quaisquer riscos associados |
+| `RemediationOptions` | string | Ações recomendadas para reduzir ou resolver quaisquer riscos associados |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

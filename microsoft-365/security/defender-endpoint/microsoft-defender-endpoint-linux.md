@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender ATP para Linux
+title: Microsoft Defender para Ponto de Extremidade para Linux
 ms.reviewer: ''
 description: Descreve como instalar e usar o Microsoft Defender ATP para Linux.
 keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 08bb4c73cb9df429c4b07194f1c7615f44d745d8
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: cc2f5be700395f6d88c05481d74501f4d9d92b76
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408332"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500669"
 ---
 # <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -39,7 +39,7 @@ ms.locfileid: "51408332"
 Este tópico descreve como instalar, configurar, atualizar e usar o Microsoft Defender para Endpoint para Linux.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade para Linux provavelmente causará problemas de desempenho e erros imprevisíveis do sistema.
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade para Linux provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para a funcionalidade EDR do Ponto de Extremidade para Linux depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Como instalar o Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -110,8 +110,8 @@ Se você tiver alguma falha de instalação, consulte [Troubleshooting installat
 Depois de habilitar o serviço, talvez seja necessário configurar sua rede ou firewall para permitir conexões de saída entre ele e seus pontos de extremidade.
 
 - A estrutura de auditoria ( `auditd` ) deve estar habilitada.
-  >[!NOTE]
-  > Os eventos do sistema capturados por regras adicionadas serão adicionados aos logs de auditoria e poderão afetar a auditoria de host e a `audit.logs` coleção upstream. Os eventos adicionados pelo Microsoft Defender para Endopoint para Linux serão marcados com `mdatp` chave.
+  > [!NOTE]
+  > Os eventos do sistema capturados por regras `/etc/audit/rules.d/` adicionadas serão adicionados a (s) e poderão afetar a auditoria de host e `audit.log` a coleção upstream. Os eventos adicionados pelo Microsoft Defender para Ponto de Extremidade para Linux serão marcados com `mdatp` chave.
 
 ### <a name="network-connections"></a>Conexões de rede
 

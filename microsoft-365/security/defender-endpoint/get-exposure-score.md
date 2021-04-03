@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e7037e49a7f750597af15cfb16e1552aeb98859a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: c6b3f965c7abb1cb9208f0bfa157c1fd8aa3f891
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166261"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500705"
 ---
 # <a name="get-exposure-score"></a>Obter pontuação de exposição
 

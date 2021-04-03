@@ -8,17 +8,17 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 84a0e94b653eb426fab14d9c55ba8d29df388fe5
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: a513013c4b5f41cf95b876648882cb56ba818b32
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164738"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570991"
 ---
 # <a name="turn-on-network-protection"></a>Ativar a proteção de rede
 

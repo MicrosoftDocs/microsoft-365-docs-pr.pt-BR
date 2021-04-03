@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f249fda9c7aed50d1a55d7c88fe6162e1240d665
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d23ec690194f87046e6c5f2ab859201bbf2dede9
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053490"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569798"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>O que está chegando à Pontuação Segura da Microsoft
 
@@ -42,6 +42,6 @@ Não há alterações planejadas no momento.
 ## <a name="related-resources"></a>Recursos relacionados
 
 - [Visão geral da Pontuação Segura da Microsoft](microsoft-secure-score.md)
-- [Avaliar sua postura de segurança](microsoft-secure-score-improvement-actions.md)
+- [Avaliar postura de segurança](microsoft-secure-score-improvement-actions.md)
 - [Rastrear seu histórico de Pontuação Segura da Microsoft e cumprir metas](microsoft-secure-score-history-metrics-trends.md)
 - [Novidades](microsoft-secure-score-whats-new.md)

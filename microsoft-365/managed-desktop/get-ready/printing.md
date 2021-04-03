@@ -9,12 +9,13 @@ ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 3decc7d67decc5557e7921e68108e2ddb447f0fd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+audience: Admin
+ms.openlocfilehash: 971644aafabda733bf745fae278bdfeeed3282e3
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924547"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574542"
 ---
 # <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Preparar recursos de impressão da Área de Trabalho Gerenciada da Microsoft
 
@@ -37,3 +38,15 @@ Se você decidiu implantar impressoras usando um script personalizado do PowerSh
 3.  Usando o Portal de Administração, você saberá quando a solicitação for concluída. Inicialmente, implantaremos apenas a configuração em dispositivos no grupo de implantação de teste.
 4.  Você deve testar e confirmar se a configuração funciona conforme o esperado. Responda usando a guia **Discussão** na solicitação de Suporte para nos dizer quando você concluiu o teste.
 5.  Em seguida, implantaremos a configuração nos outros grupos de implantação.
+
+## <a name="steps-to-get-ready"></a>Etapas para se preparar
+
+1. Revise [os pré-requisitos da Área de Trabalho Gerenciada da Microsoft.](prerequisites.md)
+2. Use [ferramentas de avaliação de preparação.](readiness-assessment-tool.md)
+3. [Pré-requisitos para contas de convidados](guest-accounts.md)
+4. [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](network.md)
+5. [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md)
+6. [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](authentication.md)
+7. [Aplicativos na Área de Trabalho Gerenciada da Microsoft](apps.md)
+8. [Preparar unidades mapeadas da Área de Trabalho Gerenciada da Microsoft](mapped-drives.md)
+9. [Preparar recursos de impressão para a Área de Trabalho Gerenciada](printing.md) da Microsoft (Este artigo)

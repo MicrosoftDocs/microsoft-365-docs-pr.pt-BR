@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no Centro de Conform
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 47bb14b90a94d0c8b542b12268bd6d5ed6e5c05a
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 1c5935115d7496aca22c3941f34983cddebe7b46
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445715"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570979"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -112,6 +112,8 @@ As informações de marcas também são mostradas no flyout de cliques da URL. P
 
 > [!div class="mx-imgBorder"]
 > ![Marcas de URL](../../media/tags-urls.png)
+> 
+Saiba mais assistindo [a este vídeo](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4). 
 
 ## <a name="improvements-to-the-threat-hunting-experience-upcoming"></a>Melhorias na experiência de busca de ameaças (futuras)
 

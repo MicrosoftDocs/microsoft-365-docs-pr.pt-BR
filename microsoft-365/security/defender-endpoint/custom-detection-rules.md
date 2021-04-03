@@ -9,8 +9,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 09/20/2020
 ms.technology: mde
-ms.openlocfilehash: 48b1f1bf9506acc8491887fca49295d5e4ccbd69
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 15dec5396a5ba95fe3ec7af5f9a72bbf15e07140
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382704"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500491"
 ---
 # <a name="create-custom-detection-rules"></a>Criar regras de detecção personalizadas
 

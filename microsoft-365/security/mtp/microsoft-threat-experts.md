@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.openlocfilehash: f1df3550bab34f43695bc233c0b6c2aef00748df
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 617e6a31a304407d28925e7ab273b712d8d5d9db
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476646"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569726"
 ---
 # <a name="microsoft-threat-experts-in-microsoft-365-overview"></a>Visão geral dos Especialistas em Ameaças da Microsoft no Microsoft 365
 
@@ -29,7 +29,7 @@ ms.locfileid: "51476646"
 **Aplica-se a:**
 
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
+- [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 
 [!INCLUDE [Prerelease](../includes/prerelease.md)]
 

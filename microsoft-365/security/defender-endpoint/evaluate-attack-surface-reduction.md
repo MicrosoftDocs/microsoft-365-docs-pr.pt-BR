@@ -1,5 +1,5 @@
 ---
-title: Avaliar regras de redução de superfície de ataque
+title: Avaliar as regras da redução da superfície de ataque
 description: Veja como a redução de superfície de ataque bloquearia e impediria ataques com a ferramenta de demonstração personalizada.
 keywords: Redução de superfície de ataque, quadris, sistema de prevenção contra invasões de host, regras de proteção, antiexploit, exploração, prevenção de infecção, avaliação, teste, demonstração
 search.product: eADQiWindows 10XVcnh
@@ -8,19 +8,19 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 13b1ac5f71f2bc24ad6f52af6722e12fab935270
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 07573fd92643ce5fdf3e9140031bf5f15ae8f7aa
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054293"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570334"
 ---
-# <a name="evaluate-attack-surface-reduction-rules"></a>Avaliar regras de redução de superfície de ataque
+# <a name="evaluate-attack-surface-reduction-rules"></a>Avaliar as regras da redução da superfície de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -76,7 +76,7 @@ ID de evento | Descrição
  1121 | Evento quando uma regra de redução de superfície de ataque dispara no modo de bloqueio
  1122 | Evento quando uma regra de redução de superfície de ataque é ativas no modo de auditoria
 
-## <a name="customize-attack-surface-reduction-rules"></a>Personalizar regras de redução de superfície de ataque
+## <a name="customize-attack-surface-reduction-rules"></a>Personalizar regras da redução da superfície de ataque
 
 Durante sua avaliação, você pode querer configurar cada regra individualmente ou excluir determinados arquivos e processos de serem avaliados pelo recurso.
 
@@ -86,4 +86,4 @@ Consulte [Personalizar regras de redução de superfície de](customize-attack-s
 
 * [Reduzir superfícies de ataque com regras de redução de superfície de ataque](attack-surface-reduction.md)
 * [Usar o modo de auditoria para avaliar Windows Defender](audit-windows-defender.md)
-* [Perguntas frequentes sobre redução de superfície de ataque](attack-surface-reduction.md)
+* [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction.md)

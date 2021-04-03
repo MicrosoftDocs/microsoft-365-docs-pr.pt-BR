@@ -1,5 +1,5 @@
 ---
-title: Exibir eventos de redução de superfície de ataque
+title: Exibir os eventos da redução da superfície de ataque
 description: Importe exibições personalizadas para ver eventos de redução de superfície de ataque.
 keywords: exibição de eventos, proteção de exploração, auditoria, revisão, eventos
 search.product: eADQiWindows 10XVcnh
@@ -8,19 +8,19 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: de605a667284c1218a3efe6e388d99b26b42e333
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 0a2ec16685ede2e625528fc3944943923bba3fc9
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054489"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569738"
 ---
-# <a name="view-attack-surface-reduction-events"></a>Exibir eventos de redução de superfície de ataque
+# <a name="view-attack-surface-reduction-events"></a>Exibir os eventos da redução da superfície de ataque
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -76,7 +76,7 @@ Você também pode navegar manualmente até a área de evento que corresponde ao
 
 4. Colar o código XML do recurso de onde você deseja filtrar eventos na seção XML.
 
-5. Selecione **OK**. Especifique um nome para o filtro.
+5. Clique em **OK**. Especifique um nome para o filtro.
 
 6. Ele criará uma exibição personalizada que filtra apenas os eventos relacionados a esse recurso.
 
@@ -181,6 +181,6 @@ Acesso controlado a pastas | Windows Defender (Operacional) | 1124 | Evento de a
 Acesso controlado a pastas | Windows Defender (Operacional) | 1123 | Evento de acesso controlado a pastas bloqueadas
 Acesso controlado a pastas | Windows Defender (Operacional) | 1127 | Evento bloqueado de bloqueio de gravação do setor de acesso controlado a pastas
 Acesso controlado a pastas | Windows Defender (Operacional) | 1128 | Evento de bloqueio de gravação do setor de acesso controlado a pastas auditadas
-Redução da superfície do ataque. | Windows Defender (Operacional) | 5007 | Evento quando as configurações são alteradas
-Redução da superfície do ataque. | Windows Defender (Operacional) | 1122 | Evento quando a regra é a disparar no modo de auditoria
-Redução da superfície do ataque. | Windows Defender (Operacional) | 1121 | Evento quando a regra é a disparar no modo de bloqueio
+Redução de superfície de ataque | Windows Defender (Operacional) | 5007 | Evento quando as configurações são alteradas
+Redução de superfície de ataque | Windows Defender (Operacional) | 1122 | Evento quando a regra é a disparar no modo de auditoria
+Redução de superfície de ataque | Windows Defender (Operacional) | 1121 | Evento quando a regra é a disparar no modo de bloqueio

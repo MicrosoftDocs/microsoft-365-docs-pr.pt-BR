@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: b52b97bf33b2164a82906bec53bed361885facd5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f9ac4632259d26045c70551ea7ea4a8a4a7e8e85
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054495"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51569858"
 ---
 # <a name="integrate-servicenow-tickets-into-the-microsoft-365-security-center-and-compliance-center"></a>Integrar tíquetes serviceNow ao centro de segurança e ao centro de conformidade do Microsoft 365
 

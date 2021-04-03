@@ -9,17 +9,17 @@ ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 audience: ITPro
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: bf4fa88b3fbbf5d977d54a78c480129665049b23
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 84947057abbd456dee5cbf5d0c6fea37f679d9ad
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499399"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570943"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Habilitar regras da redução da superfície de ataque
 

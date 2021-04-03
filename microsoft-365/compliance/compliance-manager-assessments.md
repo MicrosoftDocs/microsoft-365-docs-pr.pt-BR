@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Crie avaliações no Microsoft Compliance Manager para ajudá-lo a atender aos requisitos de regulamentos e certificações importantes para sua organização.
-ms.openlocfilehash: ff2aa41b91f3cb019dbed542c422d61c79c4ecb5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b8051a036f2ffda2f3a2840880318466a2ec71af
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908591"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500640"
 ---
 # <a name="build-and-manage-assessments-in-compliance-manager"></a>Criar e gerenciar avaliações no Gerenciador de Conformidade
 
@@ -53,7 +53,7 @@ Há três maneiras de configurar avaliações:
 3. [Crie sua própria avaliação personalizada.](#create-your-own-custom-assessment)
 
 > [!NOTE]
-> Somente os usuários que têm uma função de Administrador Global ou Administração do Gerenciador de Conformidade podem criar e modificar avaliações. Saiba mais sobre [funções e permissões.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
+> Somente os usuários que têm uma função de Administrador Global, Administração do Gerenciador de Conformidade ou Assessor do Gerenciador de Conformidade podem criar e modificar avaliações. Saiba mais sobre [funções e permissões.](compliance-manager-setup.md#set-user-permissions-and-assign-roles)
 
 **Usar uma avaliação pré-criada**
 

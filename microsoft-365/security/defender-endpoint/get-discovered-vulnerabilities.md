@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-author: levinec
-ms.author: ellevin
+author: dansimp
+ms.author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 08fa910c8d4c7130fdb3ed564a97cdbd2f31d233
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 73b8fe5140ff635791e7d42358024bb7fb4ee926
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166263"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570322"
 ---
 # <a name="get-discovered-vulnerabilities"></a>Obter vulnerabilidades descobertas
 
@@ -49,7 +49,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |Vulnerability.Read.All | 'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
-Delegada (conta corporativa ou de estudante) | Vulnerability.Read | 'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
+Delegado (conta corporativa ou de estudante) | Vulnerability.Read | 'Ler informações de vulnerabilidade de Gerenciamento de Ameaças e Vulnerabilidades'
 
 ## <a name="http-request"></a>Solicitação HTTP
 

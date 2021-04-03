@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 2b211eb0f55a9fa9faad1290443d62ac406f8360
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 0b2b9f1f01a583a96e0ae663e3f78cb0a7d846fc
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053493"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570595"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Avaliar sua postura de segurança com a Pontuação Segura da Microsoft
 

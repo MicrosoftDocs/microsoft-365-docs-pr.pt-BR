@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: lomayor
-author: lomayor
+ms.author: maccruz
+author: schmurky
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 10/10/2020
 ms.technology: mde
-ms.openlocfilehash: 60e8710415e328d06fac4c02e428094e5e4bcc92
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ea2524cb214d3cf7c784162a472722727cf0d57c
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054210"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500611"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Estender a cobertura de busca avançada com as configurações corretas
 
@@ -39,9 +39,9 @@ A opção Ativar essas configurações avançadas de auditoria para garantir que
 
 Data | Descrição | Tabela de esquema | Como configurar
 -|-|-|-
-Account management | Eventos capturados como vários `ActionType` valores indicando criação, exclusão e outras atividades relacionadas à conta local | [Eventos do dispositivo](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar o Gerenciamento de Contas de Usuário](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-user-account-management)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/advanced-security-auditing)
-Gerenciamento de grupo de segurança | Eventos capturados como vários valores indicando a criação de grupos `ActionType` de segurança local e outras atividades de gerenciamento de grupo locais | [Eventos do dispositivo](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar o Gerenciamento de Grupo de Segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-security-group-management)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/advanced-security-auditing)
-Instalação do serviço | Eventos capturados com `ActionType` o `ServiceInstalled` valor , indicando que um serviço foi criado | [Eventos do dispositivo](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar a Extensão do Sistema de Segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-security-system-extension)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/advanced-security-auditing)
+Account management | Eventos capturados como vários `ActionType` valores indicando criação, exclusão e outras atividades relacionadas à conta local | [DeviceEvents](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar o Gerenciamento de Contas de Usuário](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-user-account-management)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/advanced-security-auditing)
+Gerenciamento de grupo de segurança | Eventos capturados como vários valores indicando a criação de grupos `ActionType` de segurança local e outras atividades de gerenciamento de grupo locais | [DeviceEvents](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar o Gerenciamento de Grupo de Segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-security-group-management)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/advanced-security-auditing)
+Instalação do serviço | Eventos capturados com `ActionType` o `ServiceInstalled` valor , indicando que um serviço foi criado | [DeviceEvents](advanced-hunting-deviceevents-table.md) | - Implantar uma política avançada de auditoria de segurança: [Auditar a Extensão do Sistema de Segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-security-system-extension)<br> - [Saiba mais sobre políticas avançadas de auditoria de segurança](https://docs.microsoft.com/windows/security/threat-protection/auditing/advanced-security-auditing)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

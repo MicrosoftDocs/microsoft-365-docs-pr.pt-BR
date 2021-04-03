@@ -7,8 +7,8 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 98f335a38b2e4f581d4b08def39353e53e1bafd4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 19b83fe7dd733bb8a0668039d4df2b692a398ad4
+ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053486"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570458"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -134,7 +134,7 @@ Se você tiver algum problema, nos avise postando na comunidade [Segurança, Pri
 
 ## <a name="related-resources"></a>Recursos relacionados
 
-- [Avaliar sua postura de segurança](microsoft-secure-score-improvement-actions.md)
+- [Avaliar postura de segurança](microsoft-secure-score-improvement-actions.md)
 - [Rastrear seu histórico de Pontuação Segura da Microsoft e cumprir metas](microsoft-secure-score-history-metrics-trends.md)
 - [O que estar por vir.](microsoft-secure-score-whats-coming.md)
 - [Novidades](microsoft-secure-score-whats-new.md)

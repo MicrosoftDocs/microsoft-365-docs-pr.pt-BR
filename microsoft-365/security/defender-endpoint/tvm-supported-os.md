@@ -8,8 +8,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: ellevin
-author: levinec
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7cf9d391533f52a3011698112d4e5be1495118c2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: fd778b66e85507d5e6d91ed786b16454a5c0fc8f
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200024"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500435"
 ---
 # <a name="supported-operating-systems-and-platforms---threat-and-vulnerability-management"></a>Sistemas e plataformas operacionais com suporte - gerenciamento de ameaças e vulnerabilidades
 

@@ -1,8 +1,8 @@
 ---
-title: Microsoft Defender ATP para Mac
+title: Microsoft Defender para Ponto de Extremidade para Mac
 ms.reviewer: ''
 description: Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade para Mac.
-keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, big sur, catalina, mojave
+keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, big sur, catalina, mojave, mde for mac
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34150088379445d66006c757b2c8ea607865bf4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 22d35a42eb7fb7eadbba686c292729772951c05c
+ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198988"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51500684"
 ---
 # <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender para Ponto de Extremidade para Mac
 
@@ -39,7 +39,7 @@ ms.locfileid: "51198988"
 Este tópico descreve como instalar, configurar, atualizar e usar o Defender para Ponto de Extremidade para Mac.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Defender for Endpoint para Mac provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança a funcionalidade MDATP para Mac EDR depois de configurar a funcionalidade de antivírus do MDATP para Mac para ser executado no modo [Passivo.](mac-preferences.md#enable--disable-passive-mode)
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade para Mac provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para a funcionalidade do Ponto de Extremidade para Mac EDR depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>Novidades na versão mais recente
 
