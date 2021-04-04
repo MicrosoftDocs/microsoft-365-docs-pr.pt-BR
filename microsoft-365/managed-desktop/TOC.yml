@@ -57,23 +57,6 @@
       items:
         - name: Pré-requisitos da Área de trabalho gerenciada da Microsoft
           href: get-ready/prerequisites.md
-        - name: Prepare a rede
-          href: get-ready/network.md
-        - name: Prepare o acesso aos recursos locais
-          href: get-ready/authentication.md
-        - name: Preparar unidades mapeadas
-          href: get-ready/mapped-drives.md
-        - name: Prepare certificados e perfis de rede
-          href: get-ready/certs-wifi-lan.md
-        - name: Pré-requisitos para contas de convidados
-          href: get-ready/guest-accounts.md
-        - name: Prepare recursos de impressão
-          href: get-ready/printing.md
-        - name: Prepare os aplicativos
-          href: get-ready/apps.md
-          items:
-            - name: Trabalhar com Serviços de consultoria da Microsoft
-              href: get-ready/apps-MCS.md
         - name: Utilize ferramentas de avaliação de prontidão
           href: get-ready/readiness-assessment-tool.md
           items:
@@ -81,6 +64,23 @@
               href: get-ready/readiness-assessment-fix.md
             - name: Verificador de avaliação de prontidão para download
               href: get-ready/readiness-assessment-downloadable.md
+        - name: Pré-requisitos para contas de convidados
+          href: get-ready/guest-accounts.md
+        - name: Prepare a rede
+          href: get-ready/network.md
+        - name: Prepare certificados e perfis de rede
+          href: get-ready/certs-wifi-lan.md
+        - name: Prepare o acesso aos recursos locais
+          href: get-ready/authentication.md
+        - name: Prepare os aplicativos
+          href: get-ready/apps.md
+          items:
+            - name: Trabalhar com Serviços de consultoria da Microsoft
+              href: get-ready/apps-MCS.md
+        - name: Preparar unidades mapeadas
+          href: get-ready/mapped-drives.md
+        - name: Prepare recursos de impressão
+          href: get-ready/printing.md
     - name: Introdução à Área de Trabalho Gerenciada da Microsoft
       href: get-started/index.md
       items:

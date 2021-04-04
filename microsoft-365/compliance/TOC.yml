@@ -710,6 +710,8 @@
               href: download-documents-from-review-set.md
             - name: Exportar documentos de um conjunto de revisão
               href: export-documents-from-review-set.md
+            - name: Exportar documentos para uma conta de Armazenamento do Microsoft Azure
+              href: download-export-jobs.md
         - name: Gerenciar tarefas
           href: managing-jobs-ediscovery20.md
         - name: Definir configurações da ocorrência
