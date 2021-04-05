@@ -13,16 +13,38 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 9176bfbbd015243266ba1c8cbad9d04787f6a6cc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5e57f21690372b16c86a65fcfe4d00cb5c907391
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909245"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587522"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Histórico de alterações da documentação da Área e trabalho gerenciada da Microsoft
 
 Este artigo lista artigos novos e atualizados na [documentação da Área de Trabalho Gerenciada da Microsoft.](index.yml) Os artigos "atualizados" tiveram adições ou correções materiais-- correções secundárias, como correção de erros de digitação, estilo ou formatação, não estão listadas. Você sempre pode exibir o histórico de confirmações específicas (incluindo detalhes de quaisquer alterações) visitando o [repositório no GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="march-2021"></a>Março de 2021
+Artigo novo ou alterado | Descrição
+--- | ---
+[Administrador de suporte para Área de Trabalho Gerenciada da Microsoft](working-with-managed-desktop/admin-support.md) | Artigo atualizado
+[Experiência da primeira execução com o piloto automático e a página de status do registro](get-started/esp-first-run.md) | Artigo atualizado
+[Serviço de localização do Windows 10](get-started/device-location.md) | Novo artigo
+[Imagens do dispositivo](service-description/device-images.md) | Novo artigo
+[Regiões com suporte da Área de Trabalho Gerenciada da Microsoft](service-description/regions-languages.md) | Artigo atualizado
+[Localizar a experiência do usuário](get-started/localization.md) | Novo artigo
+
+## <a name="february-2021"></a>Fevereiro de 2021
+Artigo novo ou alterado | Descrição
+--- | ---
+[Acessar o portal de administração](get-started/access-admin-portal.md) | Artigo atualizado
+[Tecnologias de Área de Trabalho Gerenciada da Microsoft](intro/technologies.md) | Artigo atualizado
+[Requisitos do dispositivo](service-description/device-requirements.md) | Artigo atualizado
+[Corrigir problemas encontrados pela ferramenta de avaliação de prontidão](get-ready/readiness-assessment-fix.md) | Artigo atualizado
+[Microsoft OneDrive](get-started/onedrive.md) | Novo artigo
+[Conformidade](intro/compliance.md) | Atualizado
+[Microsoft 365 Apps para empresas](get-started/m365-apps.md) | Artigo atualizado
+[Ferramentas de avaliação de preparação](get-ready/readiness-assessment-tool.md) | Artigo atualizado
 
 ## <a name="january-2021"></a>Janeiro de 2021
 Artigo novo ou alterado | Descrição
@@ -56,7 +78,7 @@ Artigo novo ou alterado | Descrição
 [Corrigir problemas encontrados pela ferramenta de avaliação de prontidão](get-ready/readiness-assessment-fix.md) | Novo artigo
 [Registrar novos dispositivos sozinho](get-started/register-devices-self.md) | Artigo atualizado
 [Etapas para registrar dispositivos de Parceiros](get-started/register-devices-partner.md) | Artigo atualizado
-[Pré-requisitos para contas de convidados](get-ready/guest-accounts.md) | Novo artigo
+[Pré-requisitos para contas de convidado](get-ready/guest-accounts.md) | Novo artigo
 [Acessar o portal de administração](get-started/access-admin-portal.md) | Artigo atualizado
 
 

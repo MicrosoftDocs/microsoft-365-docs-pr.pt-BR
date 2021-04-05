@@ -16,15 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2f0e2dacdbc20821cde30e241666373751db18ee
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 424f08c525ef7f4b80c21812970921613320f4cd
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186660"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587654"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-with-puppet"></a>Implantar o Microsoft Defender para Ponto de Extremidade para Linux com o Puppet
 

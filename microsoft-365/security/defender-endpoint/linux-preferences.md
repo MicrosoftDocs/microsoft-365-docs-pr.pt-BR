@@ -16,15 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a8595bae216911350d3f18fcceef729ef020a424
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 5aedf841ddfc5a592fe4afd2f13d6470e24c438c
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408160"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587510"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-for-linux"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade para Linux
 

@@ -16,15 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: eca9727676fec9b716724719c182ca958b22ec85
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 0a4dd551da8fcb38559360307a878edde3b3a1ba
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187800"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587630"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-with-ansible"></a>Implantar o Microsoft Defender para Ponto de Extremidade para Linux com Ansible
 

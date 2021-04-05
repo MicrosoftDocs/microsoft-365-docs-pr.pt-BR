@@ -1,6 +1,6 @@
 ---
 title: Bloqueio comportamental do cliente
-description: O bloqueio comportamental do cliente faz parte dos recursos de bloqueio comportamental e de contenção no Microsoft Defender ATP
+description: O bloqueio comportamental do cliente faz parte dos recursos de bloqueio comportamental e de contenção no Microsoft Defender para Ponto de Extremidade
 keywords: bloqueio comportamental, proteção rápida, comportamento do cliente, Microsoft Defender ATP
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: c37a1180f9def51daa4229418b05abe7cf787aa3
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 9fcff96b2583c6ef6bec05429ec50a71f3872e43
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165256"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587102"
 ---
 # <a name="client-behavioral-blocking"></a>Bloqueio comportamental do cliente
 
@@ -36,7 +36,7 @@ ms.locfileid: "51165256"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O bloqueio comportamental do cliente é um componente dos recursos de [bloqueio comportamental e de contenção](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) no Defender para Ponto de Extremidade. À medida que comportamentos suspeitos são detectados em dispositivos (também chamados de clientes ou pontos de extremidade), artefatos (como arquivos ou aplicativos) são bloqueados, verificados e remediados automaticamente. 
 
@@ -85,17 +85,17 @@ Se sua organização estiver usando o Defender para Ponto de Extremidade, o bloq
 
 - [Dispositivos a bordo do Defender para Ponto de Extremidade](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-configure)
 
-- [EDR no modo de bloqueio](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/edr-in-block-mode)
+- [EDR em modo de bloco](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/edr-in-block-mode)
 
-- [Redução da superfície do ataque.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)
+- [Redução de superfície de ataque](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)
 
 - [Proteção de última geração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-microsoft-defender-antivirus-features) (antivírus)
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Bloqueio comportamental e contenção](behavioral-blocking-containment.md)
+- [Bloqueio e contenção comportamental](behavioral-blocking-containment.md)
 
-- [Bloqueio de loop de feedback](feedback-loop-blocking.md)
+- [Bloqueio do loop de comentários](feedback-loop-blocking.md)
 
 - [(Blog) Bloqueio comportamental e contenção: transformar a ótica em proteção](https://www.microsoft.com/security/blog/2020/03/09/behavioral-blocking-and-containment-transforming-optics-into-protection/)
 

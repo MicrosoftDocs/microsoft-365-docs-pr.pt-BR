@@ -1,7 +1,7 @@
 ---
-title: Solucionar problemas no Microsoft Defender ATP para Android
-description: Solucionar problemas do Microsoft Defender ATP para Android
-keywords: microsoft, defender, atp, android, nuvem, conectividade, comunicação
+title: Solucionar problemas no Microsoft Defender para Ponto de Extremidade para Android
+description: Solucionar problemas do Microsoft Defender para Ponto de Extremidade para Android
+keywords: microsoft, defender, atp, mde, android, cloud, connectivity, communication
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 444541c85f8f4416288dcebf4bbee2c65a33d3d2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5fabcb3156a54d4aa8a4671d7561a8deca16fe1f
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164864"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587642"
 ---
 # <a name="troubleshooting-issues-on-microsoft-defender-for-endpoint-for-android"></a>Solução de problemas no Microsoft Defender para Ponto de Extremidade para Android
 

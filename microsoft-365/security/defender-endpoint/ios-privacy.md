@@ -16,15 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f3851d9ecc0a40a9fa52702ee187fb8a94a740c3
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 97d22cd8ff1c651bdab5c3613567b2a4778ec9d6
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186672"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587570"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-for-ios"></a>Informações de privacidade - Microsoft Defender para Ponto de Extremidade para iOS
 

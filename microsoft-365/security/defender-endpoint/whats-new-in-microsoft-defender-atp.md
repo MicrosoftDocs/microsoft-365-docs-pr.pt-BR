@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ea6beba2d17b72f100703d26dd4106d0537c6fa6
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a72b742d8f4a69d2e38cf4fa234ba5b7e2961ac6
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053240"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587606"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Novidades no Microsoft Defender para Ponto de Extremidade
 
@@ -123,7 +122,7 @@ Para obter mais recursos de visualização de informações, consulte [Recursos 
 - [Relatórios de proteção contra ameaças](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/threat-protection-reports-windows-defender-advanced-threat-protection)<BR>O relatório de proteção contra ameaças fornece informações de alto nível sobre alertas gerados em sua organização. 
 
 
-- [Especialistas em ameaças da Microsoft](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)<BR> Especialistas em Ameaças da Microsoft é o novo serviço gerenciado de busca de ameaças no Microsoft Defender para Ponto de Extremidade que fornece busca proativa, priorização e contexto adicional e percepções que capacitam ainda mais os centros de operações de segurança (SOCs) a identificar e responder a ameaças de forma rápida e precisa. Ele fornece camada adicional de experiência e ótica que os clientes da Microsoft podem usar para aumentar os recursos de operação de segurança como parte do Microsoft 365.  
+- [Especialistas em Ameaças da Microsoft](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)<BR> Especialistas em Ameaças da Microsoft é o novo serviço gerenciado de busca de ameaças no Microsoft Defender para Ponto de Extremidade que fornece busca proativa, priorização e contexto adicional e percepções que capacitam ainda mais os centros de operações de segurança (SOCs) a identificar e responder a ameaças de forma rápida e precisa. Ele fornece camada adicional de experiência e ótica que os clientes da Microsoft podem usar para aumentar os recursos de operação de segurança como parte do Microsoft 365.  
 
 - [Indicadores](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/ti-indicator) <BR> As APIs para indicadores agora estão geralmente disponíveis. 
 
@@ -141,11 +140,11 @@ Para obter mais recursos de visualização de informações, consulte [Recursos 
 ## <a name="february-2019"></a>Fevereiro de 2019
 - [Incidentes](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/incidents-queue) <BR> Incident é uma nova entidade no Microsoft Defender para Ponto de Extremidade que reúne todos os alertas relevantes e entidades relacionadas para narrar a história de ataque mais ampla, dando aos analistas uma perspectiva melhor sobre a responsabilidade de ameaças complexas. 
 
-- [Integração de versões anteriores do Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> Versões compatíveis com a integração de dispositivos Windows para que possam enviar dados do sensor para o sensor do Microsoft Defender para Ponto de Extremidade.
+- [Versões anteriores integradas do Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/onboard-downlevel-windows-defender-advanced-threat-protection)<BR> Versões compatíveis com a integração de dispositivos Windows para que possam enviar dados do sensor para o sensor do Microsoft Defender para Ponto de Extremidade.
 
 
 ## <a name="october-2018"></a>Outubro de 2018
-- [Regras de redução de superfície de ataque](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>Todas as regras de redução de superfície de ataque agora têm suporte no Windows Server 2019.
+- [Regras da redução da superfície de ataque](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>Todas as regras de redução de superfície de ataque agora têm suporte no Windows Server 2019.
 
 - [Acesso controlado a pastas](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR> O acesso controlado a pastas agora é suportado no Windows Server 2019.
 
@@ -177,7 +176,7 @@ A Análise de Ameaças é um conjunto de relatórios interativos publicados pela
 - [Busca Avançada](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) <BR>
 Dados de consulta usando a busca avançada no Microsoft Defender para Ponto de Extremidade.
 
-- [Regras de redução de superfície de ataque](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
+- [Regras da redução da superfície de ataque](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)<BR>
     Novas regras de redução de superfície de ataque: 
   - Usar proteção avançada contra ransomware
   - Bloquear o roubo de credenciais do subsistema de autoridade de segurança local do Windows (lsass.exe)
@@ -198,7 +197,7 @@ Dados de consulta usando a busca avançada no Microsoft Defender para Ponto de E
 - [Acesso controlado a pastas](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-controlled-folders-exploit-guard)<BR>
 Agora você pode bloquear processos não confirmados da escrita em setores de disco usando o Acesso Controlado a Pastas.
 
-- [Integração de dispositivos que não são windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
+- [Dispositivos Windows não integrados](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-endpoints-non-windows-windows-defender-advanced-threat-protection)<BR>
     O Microsoft Defender para Ponto de Extremidade fornece uma experiência centralizada de operações de segurança para o Windows, bem como para plataformas que não são do Windows. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no Centro de Segurança do Microsoft Defender e proteger melhor a rede da sua organização.
 
 - [Controle de Acesso Baseado em Função (RBAC)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/rbac-windows-defender-advanced-threat-protection)<BR>

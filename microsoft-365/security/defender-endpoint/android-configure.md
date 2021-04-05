@@ -1,7 +1,7 @@
 ---
-title: Configurar o Microsoft Defender ATP para recursos android
-description: Descreve como configurar o Microsoft Defender ATP para Android
-keywords: microsoft, defender, atp, android, configuration
+title: Configurar o Microsoft Defender para Ponto de Extremidade para recursos do Android
+description: Descreve como configurar o Microsoft Defender para Ponto de Extremidade para Android
+keywords: microsoft, defender, atp, mde, android, configuration
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4325020e653f14898ece4192e03cbf8b90131136
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: c395aafc8a468cfdeaea973ab02421212870192a
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163442"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587210"
 ---
 # <a name="configure-defender-for-endpoint-for-android-features"></a>Configurar o Defender para o Ponto de Extremidade para recursos android
 

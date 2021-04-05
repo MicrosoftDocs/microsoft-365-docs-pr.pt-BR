@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ce8599556b1d0c8efbd020d525b30ed2cedaa9cb
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b529b1c7fa5c4f9f81cb6bfbb5f1a6bd7823a9ad
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165460"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587594"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Configurar configurações de proxy de dispositivo e conectividade com a Internet
 
@@ -225,5 +224,5 @@ No entanto, se os resultados da verificação de conectividade indicarem uma fal
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Integração de dispositivos Windows 10](configure-endpoints.md)
+- [Dispositivos integrados do Windows 10](configure-endpoints.md)
 - [Solucionar problemas de integração do Microsoft Defender para pontos de extremidade](troubleshoot-onboarding.md)

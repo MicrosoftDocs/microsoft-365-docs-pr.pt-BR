@@ -1,7 +1,7 @@
 ---
-title: Implantar o Microsoft Defender ATP para Android com o Microsoft Intune
-description: Descreve como implantar o Microsoft Defender ATP para Android com o Microsoft Intune
-keywords: microsoft, defender, atp, android, installation, deploy, uninstallation,
+title: Implantar o Microsoft Defender para Ponto de Extremidade para Android com o Microsoft Intune
+description: Descreve como implantar o Microsoft Defender para Ponto de Extremidade para Android com o Microsoft Intune
+keywords: microsoft, defender, atp, mde, android, installation, deploy, uninstallation,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -15,15 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e557f60346b2f68354df621b6e4812eac775d812
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: fdfc6e63945e15ce2d1f1a293c377f641eeb9bc4
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165664"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587690"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-android-with-microsoft-intune"></a>Implantar o Microsoft Defender para Ponto de Extremidade para Android com o Microsoft Intune 
 
@@ -61,7 +60,7 @@ Saiba como implantar o Defender para Ponto de Extremidade para Android no Portal
    - **Publisher** como Microsoft.
    - **URL da Loja de Aplicativos** https://play.google.com/store/apps/details?id=com.microsoft.scmx como (URL do Defender for Endpoint App Google Play Store) 
 
-   Outros campos são opcionais. Selecione **Avançar**.
+   Outros campos são opcionais. Selecione **Próximo**.
 
    ![Imagem do Centro de Administração do Microsoft Endpoint Manager adicionar informações de aplicativo](images/mda-addappinfo.png)
 
@@ -262,4 +261,4 @@ Selecione **Criar**.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral do Microsoft Defender para Ponto de Extremidade para Android](microsoft-defender-endpoint-android.md)
-- [Configurar o Microsoft Defender para o Ponto de Extremidade para recursos android](android-configure.md)
+- [Configurar o Microsoft Defender para Ponto de Extremidade para recursos do Android](android-configure.md)

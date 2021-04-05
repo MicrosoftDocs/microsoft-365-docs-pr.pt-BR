@@ -1,6 +1,6 @@
 ---
-title: Bloqueio comportamental e contenção
-description: Saiba mais sobre os recursos de bloqueio e contenção comportamental no Microsoft Defender ATP
+title: Bloqueio e contenção comportamental
+description: Saiba mais sobre os recursos de bloqueio comportamental e de contenção no Microsoft Defender para Ponto de Extremidade
 keywords: Microsoft Defender ATP, EDR no modo de bloqueio, bloqueio de modo passivo
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -19,14 +19,14 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: dcad3b7233f2efd444d41c15916eaae195634c8c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7cea65292c427cb953e2e8e3ca866c89f83128b1
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166228"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587162"
 ---
-# <a name="behavioral-blocking-and-containment"></a>Bloqueio comportamental e contenção
+# <a name="behavioral-blocking-and-containment"></a>Bloqueio e contenção comportamental
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,13 +36,13 @@ ms.locfileid: "51166228"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O cenário de ameaças de hoje é ultrapassado por [malware](https://docs.microsoft.com/windows/security/threat-protection/intelligence/fileless-threats) sem arquivo e que vive fora da terra, ameaças altamente polimórficas que se mutam mais rápido do que as soluções tradicionais podem acompanhar e ataques operados por humanos que se adaptam ao que os adversários encontram em dispositivos comprometidos. Soluções de segurança tradicionais não são suficientes para parar esses ataques; você precisa de recursos com suporte de inteligência artificial (AI) e aprendizado de dispositivo (ML), como bloqueio comportamental e contenção, incluídos no [Defender for Endpoint](https://docs.microsoft.com/windows/security). 
 
 Os recursos de bloqueio e contenção comportamentais podem ajudar a identificar e parar ameaças, com base em seus comportamentos e árvores de processo, mesmo quando a ameaça iniciou a execução. Os recursos de proteção de última geração, EDR e Defender para Endpoint funcionam em conjunto em recursos de bloqueio comportamental e contenção. 
 
-:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="Bloqueio comportamental e contenção":::
+:::image type="content" source="images/mdatp-next-gen-EDR-behavblockcontain.png" alt-text="Bloqueio e contenção comportamental":::
 
 Os recursos de bloqueio comportamental e de contenção funcionam com vários componentes e recursos do Defender for Endpoint para interromper os ataques imediatamente e impedir que os ataques avancem.
 

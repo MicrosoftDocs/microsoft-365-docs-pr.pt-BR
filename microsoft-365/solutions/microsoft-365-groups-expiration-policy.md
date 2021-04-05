@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Saiba mais sobre políticas de expiração de grupos do Microsoft 365.
-ms.openlocfilehash: 65a746751cd523a5dadce3eca573e6a9bfce0166
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: fdef06918ec2c35547c084e5f431aa7bef8d6a8c
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052297"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587618"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Política de expiração de grupo do Microsoft 365
 
@@ -53,7 +53,7 @@ Observe que a única atividade do Yammer que disparará uma renovação automát
 |Role|O que eles podem fazer|
 |---------|---------|
 |Administrador global do Office 365 (no Azure, o administrador da empresa), Administrador do usuário|Crie, leia, atualize ou exclua as configurações de política de expiração de grupos do Microsoft 365.|
-|User|Renovar ou [restaurar](/azure/active-directory/users-groups-roles/groups-restore-deleted) um grupo do Microsoft 365 que eles próprios|
+|Usuário|Renovar ou [restaurar](/azure/active-directory/users-groups-roles/groups-restore-deleted) um grupo do Microsoft 365 que eles próprios|
 
 ## <a name="how-to-set-the-expiration-policy"></a>Como definir a política de expiração
 
@@ -63,7 +63,7 @@ O tempo de vida do grupo é especificado em dias e pode ser definido como 180, 3
 
 Se o grupo não tiver um proprietário, os emails de expiração serão para o administrador especificado.
 
-Você pode definir a política para todos os seus grupos, somente grupos selecionados ou a desativar completamente selecionando **Nenhum**. Observe que atualmente você não pode ter políticas diferentes para grupos diferentes.
+Você pode definir a política para todos os seus grupos, somente grupos selecionados (até 500) ou a desativar completamente selecionando **Nenhum**. Observe que atualmente você não pode ter políticas diferentes para grupos diferentes.
 
 ![Captura de tela das configurações de expiração de grupos no Azure Active Directory](../media/azure-groups-expiration-settings.png)
 

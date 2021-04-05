@@ -16,15 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c076a64b1e35978f09999b288b6849580df24972
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c94c6839c17b3bbb432cef12fe58723d0cc2ecff
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579693"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587234"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-ios"></a>Implantar o Microsoft Defender para Ponto de Extremidade para iOS
 

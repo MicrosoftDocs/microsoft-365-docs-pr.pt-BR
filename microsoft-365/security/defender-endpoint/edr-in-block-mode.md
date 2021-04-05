@@ -1,7 +1,7 @@
 ---
 title: Detecção e resposta do ponto de extremidade no modo de bloqueio
 description: Saiba mais sobre a detecção e a resposta do ponto de extremidade no modo de bloqueio
-keywords: Microsoft Defender ATP, EDR no modo de bloqueio, bloqueio de modo passivo
+keywords: Microsoft Defender ATP, mde, EDR no modo de bloqueio, bloqueio de modo passivo
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 7bee6c99d2c1c5ad3cec8f2e317b729a0a4e1f8b
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: e492d57d8a7e10a1fff57980408ed8234bbeead0
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379473"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587198"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Detecção e resposta do ponto de extremidade (EDR) no modo de bloqueio
 
@@ -139,6 +139,6 @@ Se você optou por desabilitar o EDR no modo de bloqueio, pode levar até 30 min
 ## <a name="see-also"></a>Confira também
 
 - [Blog da Comunidade Técnica: Introdução à EDR no modo de bloqueio: Interrompendo ataques em suas faixas](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/introducing-edr-in-block-mode-stopping-attacks-in-their-tracks/ba-p/1596617)
-- [Bloqueio comportamental e contenção](behavioral-blocking-containment.md)
+- [Bloqueio e contenção comportamental](behavioral-blocking-containment.md)
 - [Melhor juntos: Microsoft Defender Antivírus e Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/why-use-microsoft-antivirus)
 

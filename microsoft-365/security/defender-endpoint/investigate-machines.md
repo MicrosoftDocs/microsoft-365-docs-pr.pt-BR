@@ -1,5 +1,5 @@
 ---
-title: Investigar dispositivos na lista Defender for Endpoint Defender ATP Devices
+title: Investigar dispositivos na lista Defender para Dispositivos de Ponto de Extremidade
 description: Investigue os dispositivos afetados revisando alertas, informações de conexão de rede, adicionando marcas de dispositivo e grupos e verificando a saúde do serviço.
 keywords: devices, tags, groups, endpoint, alerts queue, alerts, device name, domain, last seen, internal IP, active alerts, threat category, filter, sort, review alerts, network, connection, type, password stealer, ransomware, exploit, threat, low severity, service health
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8f5415b6337d21b780a75a192a565078a6cacc06
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 154ecd66399b031ef2e60eef16227bb9bc2f8785
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185726"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587714"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Investigar dispositivos na lista do Microsoft Defender for Endpoint Devices
 
@@ -69,8 +69,8 @@ As ações de resposta são executados ao longo da parte superior de uma página
 
 - Gerenciar marcas
 - Isolar dispositivo
-- Restringir a execução do aplicativo
-- Executar verificação antivírus
+- Restringir execução de aplicativo
+- Executar verificação de antivírus
 - Coletar pacote de investigação
 - Iniciar sessão de resposta ao vivo
 - Iniciar investigação automatizada

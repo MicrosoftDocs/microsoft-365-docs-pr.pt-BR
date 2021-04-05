@@ -16,15 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 461c728f6b61aa407d76e3674ba3339027c21a25
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: b96f49d6c4744eae987393c17792c4f566d98997
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187452"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587054"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-for-linux-for-static-proxy-discovery"></a>Configurar o Microsoft Defender para Ponto de Extremidade para Linux para descoberta de proxy estático
 

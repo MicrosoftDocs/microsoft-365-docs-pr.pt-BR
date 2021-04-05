@@ -1,5 +1,5 @@
 ---
-title: Implantar o Microsoft Defender ATP para Linux manualmente
+title: Implantar o Microsoft Defender para Ponto de Extremidade para Linux manualmente
 ms.reviewer: ''
 description: Descreve como implantar o Microsoft Defender ATP para Linux manualmente a partir da linha de comando.
 keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -16,15 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection:
 - m365-security-compliance
-- m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 98b568206d4263a574c8de653fe5345dd344ba43
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 91dda662b12893fb010e8bb46541a87ea4a8cd27
+ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408542"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587666"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Implantar o Microsoft Defender para Ponto de Extremidade para Linux manualmente
 
