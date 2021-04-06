@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f6b085f200d3b0c71bb3608f8e5ba9ed85632676
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a6c7e7e920d18d9d8bf29d71d317008ea0c37bbf
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500333"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592091"
 ---
 # <a name="investigate-incidents-in-microsoft-365-defender"></a>Investigar incidentes no Microsoft 365 Defender
 
@@ -85,6 +85,10 @@ Ao clicar no nome do computador onde ocorreu o ataque, você será direcionado p
 ![Imagem da guia Computadores de um incidente](../../media/incident-machines.png)
 
 Selecionar a guia Linha do tempo permite percorrer a linha do tempo do computador e exibir todos os eventos e comportamentos observados no computador em ordem cronológica, intercalados com os alertas gerados.
+
+> [!TIP]
+> Você pode fazer verificações sob demanda em uma página de dispositivo. No Centro de segurança do Microsoft 365, escolha **Inventário de dispositivos**. Selecione um dispositivo que tenha alertas e execute uma verificação antivírus. Ações, como verificações de antivírus, são controladas e ficam visíveis na página **Inventário de** dispositivos. Para saber mais, confira [Executar a verificação do Microsoft Defender Antivírus em dispositivos](/microsoft-365/security/defender-endpoint/respond-machine-alerts#run-microsoft-defender-antivirus-scan-on-devices).
+
 
 ## <a name="users"></a>Usuários
 

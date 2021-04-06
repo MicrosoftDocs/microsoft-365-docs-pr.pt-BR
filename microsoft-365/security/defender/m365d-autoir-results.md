@@ -1,6 +1,6 @@
 ---
 title: Detalhes e resultados de uma investigação automatizada
-description: Durante e após uma investigação automática, você pode exibir os resultados e as principais descobertas
+description: Exibir os resultados e os principais resultados da investigação automatizada no Microsoft 365 Defender
 keywords: automatização, investigação, resultados, análise, detalhes, correção, autoair
 search.appverid: met150
 ms.prod: m365-security
@@ -21,13 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/08/2021
-ms.openlocfilehash: 05208dd8ba893d65db50430861ad5dd5ad9d34fb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ca023ea49a8d92123467be640a097a72233d3198
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198964"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592115"
 ---
 # <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
 
@@ -61,8 +60,11 @@ O Centro de [Ações](m365d-action-center.md) aprimorado ( ) reúne ações de c
 > Você deve ter [certas permissões para](m365d-action-center.md#required-permissions-for-action-center-tasks) aprovar, rejeitar ou desfazer ações.
 
 1. Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre. 
+
 2. No painel de navegação, escolha **Central de ações**. 
+
 3. Na guia **Pendente** ou **Histórico**, selecione um item. Seu painel de sobrevoo é aberto.
+
 4. Revise as informações no painel de sobrevoos e, em seguida, dê uma das seguintes etapas:
    - Selecione **Abrir página de investigação** para exibir mais detalhes sobre a investigação.
    - Selecione **Aprovar** para iniciar uma ação pendente.
@@ -76,9 +78,13 @@ Use uma página de detalhes do incidente para exibir informações detalhadas so
 ![Detalhes do incidente](../../media/mtp-incidentdetails-tabs.png)
 
 1. Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre. 
+
 2. No painel de navegação, escolha **Incidentes &**  >  **alertas Incidentes**. 
+
 3. Selecione um item na lista e escolha **Abrir página de incidentes**.
+
 4. Selecione a **guia Investigações** e selecione uma investigação na lista. Seu painel de sobrevoo é aberto.
+
 5. Selecione **Abrir página de investigação**. 
 
 ## <a name="investigation-details"></a>Detalhes da investigação

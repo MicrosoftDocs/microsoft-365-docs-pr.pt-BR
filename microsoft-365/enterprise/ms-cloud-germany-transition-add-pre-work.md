@@ -1,5 +1,5 @@
 ---
-title: Pré-trabalho para a migração do Microsoft Cloud Deutschland
+title: Atividades de pré-migração para a migração do Microsoft Cloud Deutschland
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -18,28 +18,32 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: pré-trabalho ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 9f5a38eae6d42f992879f97b8e8e1e8e6c4d56c3
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: e04246626088d9fca653c98246fd4a5b81bc1d30
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476344"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591869"
 ---
-# <a name="pre-work-for-the-migration-from-microsoft-cloud-deutschland"></a>Pré-trabalho para a migração do Microsoft Cloud Deutschland
+# <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Atividades de pré-migração para a migração do Microsoft Cloud Deutschland
 
-Use esses links para chegar às etapas de pré-trabalho relevantes para sua organização:
+Use esses links para chegar às etapas de pré-migração relevantes para sua organização.
 
-- Para **todos os clientes** que usam o Office 365 no Microsoft Cloud Deutschland, faça estas [etapas.](#general-tenant-migration-considerations)
-- Para **alterações de DNS,** [faça esta etapa](#dns).
-- Se você estiver usando os **Serviços de Federação** do Active Directory no local, faça estas [etapas.](#active-directory-federation-services-ad-fs)
-- Se você estiver usando o **SharePoint Online,** faça [esta etapa](#sharepoint-online).
-- Se você estiver usando o **Exchange Online** ou o **Exchange híbrido,** [faça esta etapa.](#exchange-online)
-- Se você estiver usando o **Skype for Business Online,** [faça esta etapa](#skype-for-business-online)
-- Se você estiver usando uma solução de gerenciamento de dispositivo móvel (MDM) de terceiros, [faça esta etapa.](#mobile-device-management)
-- Se você estiver  usando serviços de terceiros ou aplicativos **LOB (linha** de negócios) integrados ao Office 365, [faça esta etapa](#line-of-business-apps).
-- Se você também estiver usando **o Dynamics 365,** faça [esta etapa.](#dynamics365)
-- Se você também estiver usando o **Power BI,** faça [esta etapa](#power-bi).
-- Se você também estiver usando os serviços **do Azure** com sua assinatura do Office 365, [faça esta etapa](#microsoft-azure).
+Se você estiver usando
+
+- **Office 365 no Microsoft Cloud Deutschland**, faça [estas etapas](#general-tenant-migration-considerations).
+- **Domínios personalizados**, [faça esta etapa](#dns-entries-for-custom-domains).
+
+- **SharePoint Online**, faça [esta etapa](#sharepoint-online).
+- **Exchange Online** ou **Exchange Híbrido**, faça [esta etapa](#exchange-online).
+- **Skype for Business Online**, [faça esta etapa](#skype-for-business-online).
+- **Dynamics 365**, faça [esta etapa.](#dynamics365)
+- **Power BI**, faça [esta etapa](#power-bi).
+
+- **Serviços de Federação do Active Directory** para o Azure AD Connect, faça estas [etapas.](#active-directory-federation-services-ad-fs)
+- **Serviços de terceiros ou** aplicativos de linha de **negócios (LOB)** integrados ao Office 365, [faça esta etapa](#line-of-business-apps).
+- Uma solução de gerenciamento de dispositivo móvel (MDM) de terceiros, [faça esta etapa](#mobile-device-management).
+- **Serviços do Azure** com sua assinatura do Office 365, faça [esta etapa](#microsoft-azure).
 
 ## <a name="general-tenant-migration-considerations"></a>Considerações gerais sobre migração de locatários
 
@@ -59,7 +63,7 @@ Os identificadores de usuário e locatário do Office 365 são preservados duran
 | Crie políticas de [retenção em](https://docs.microsoft.com/microsoft-365/compliance/retention) toda a organização para proteger contra exclusão inadvertida de conteúdo durante a migração.  |<ul><li>Para garantir que o conteúdo não seja excluído inadvertidamente pelos usuários finais durante a migração, os clientes podem optar por habilitar uma política de retenção em toda a organização. </li><li>Embora a retenção não seja necessária, já que as retenções colocadas a qualquer momento durante a migração devem funcionar conforme o esperado, ter uma política de retenção é um mecanismo de segurança de back-up. Ao mesmo tempo, uma política de retenção pode não ser usada por todos os clientes, especialmente aqueles que estão preocupados com a preservação.</li></ul>| Aplicar política de retenção conforme descrito em [Saiba mais sobre políticas de retenção e rótulos de retenção.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) Falhas do serviço ou do software cliente podem ocorrer se isso não for feito antes da Fase 4 de 9. </li></ul>|
 |||||
 
-## <a name="dns"></a>DNS
+## <a name="dns-entries-for-custom-domains"></a>Entradas DNS para domínios personalizados
 
 <!-- before phase 9 -->
 
@@ -72,7 +76,7 @@ Caso você tenha definido um CNAME DNS chamado _msoid_ em um ou muitos namespace
 Para verificar se você definiu um CNAME em seu namespace DNS, siga as etapas abaixo e substitua contoso.com _pelo_ seu próprio nome de domínio:
 
 ```console
-nslookup -querytype=CNMAE msoid.contoso.com
+nslookup -querytype=CNAME msoid.contoso.com
 ```
 
 Se a linha de comando retornar um registro DNS, remova o CNAME _msoid_ do seu domínio.

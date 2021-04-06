@@ -20,13 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/01/2021
-ms.openlocfilehash: d958f2787b9d66e42a32b8858139f7d13e83ddef
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: edf809c5fbc257e1dacafeed931da1a2d1471f4a
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199592"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592079"
 ---
 # <a name="the-action-center"></a>A Central de Ações
 
@@ -61,7 +60,7 @@ O centro de ações unificado reúne ações de correção no Defender para Pont
 Você pode usar o Centro de Ações unificado se tiver permissões apropriadas e uma ou mais das seguintes assinaturas:
 
 - [Defender para Ponto de Extremidade](../defender-endpoint/microsoft-defender-endpoint.md)
-- [Microsoft Defender para Office 365?](/microsoft-365/security/office-365-security/defender-for-office-365)
+- [Defender para Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 
 > [!TIP]
@@ -96,12 +95,12 @@ Todas as ações, sejam elas pendentes de aprovação ou já foram realizadas, s
 
 - Coletar pacote de investigação 
 - Isolar dispositivo (essa ação pode ser desfeita) 
-- Máquina de offboard 
+- Remover computador 
 - Execução de código de versão 
 - Liberar da quarentena 
 - Exemplo de solicitação 
 - Restringir a execução de código (essa ação pode ser desfeita) 
-- Executar verificação antivírus 
+- Executar verificação de antivírus 
 - Parar e colocar em quarentena 
 
 Além das ações de correção que são tomadas automaticamente como resultado de [investigações automatizadas,](m365d-autoir.md)o Centro de Ações também rastreia ações que sua equipe de segurança tem feito para resolver ameaças detectadas e ações que foram tomadas como resultado de recursos de proteção contra ameaças no Microsoft 365 Defender. Para obter mais informações sobre ações de correção automáticas e manuais, consulte [Ações de correção](m365d-remediation-actions.md).

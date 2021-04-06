@@ -20,14 +20,13 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 01/29/2021
 ms.technology: m365d
-ms.openlocfilehash: d78bf3689020b5a24863e5a0f1ec817af50178ad
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7106f5d2e740d2b4cacbcaeb0b9391095bbeb356
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053821"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592019"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Exibir e gerenciar ações no Centro de Ações
 
@@ -52,8 +51,11 @@ Os recursos de proteção contra ameaças no Microsoft 365 Defender podem result
 ![Aprovar ou rejeitar uma ação](../../media/air-actioncenter-itemselected.png)
 
 1. Vá para [https://security.microsoft.com](https://security.microsoft.com) e entre. 
+
 2. No painel de navegação, escolha **Central de Ações**. 
+
 3. Em Central de Ações, na guia **Pendente**, selecione um item na lista. Seu painel de sobrevoo é aberto.
+
 4. Revise as informações no painel de sobrevoos e, em seguida, dê uma das seguintes etapas:
    - Selecione **Abrir página de investigação** para exibir mais detalhes sobre a investigação.
    - Selecione **Aprovar** para iniciar uma ação pendente.
@@ -71,19 +73,25 @@ Se você tiver determinado que um dispositivo ou um arquivo não é uma ameaça,
 ### <a name="undo-one-remediation-action"></a>Desfazer uma ação de correção
 
 1. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.
+
 2. Na guia **Histórico,** selecione uma ação que você deseja desfazer.
+
 3. No painel no lado direito da tela, selecione **Desfazer**.
 
 ### <a name="undo-multiple-remediation-actions"></a>Desfazer várias ações de correção
 
 1. Vá para a Central de Ações ( https://security.microsoft.com/action-center) e entre.
+
 2. Na guia **Histórico,** selecione as ações que você deseja desfazer. Certifique-se de selecionar itens que tenham o mesmo tipo de Ação. Um painel de sobrevoo é aberto.
+
 3. No painel de sobrevoos, selecione **Desfazer**.
 
 ### <a name="to-remove-a-file-from-quarantine-across-multiple-devices"></a>Para remover um arquivo da quarentena em vários dispositivos 
 
 1. Vá para a Central de Ações ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ) e entre.
+
 2. Na guia **Histórico,** selecione um arquivo que tenha o arquivo De quarentena tipo **ação.**
+
 3. No painel no lado direito da tela, selecione Aplicar a X mais **instâncias** deste arquivo e selecione **Desfazer**.
 
 ## <a name="next-steps"></a>Próximas etapas

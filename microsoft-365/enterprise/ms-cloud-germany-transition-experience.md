@@ -1,5 +1,5 @@
 ---
-title: O que mudou para a migração para os serviços do Office 365 nas novas regiões do datacenter alemão
+title: O que mudará após a migração para os serviços do Office 365 nas novas regiões do datacenter alemão
 ms.author: andyber
 author: andybergen
 manager: laurawi
@@ -19,23 +19,23 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Resumo: entenda o que mudou para mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: cadad596011bbcde02b61f01e949c93a5a62a1c3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 74ad9a662d3ea7a68ef1f82961864eb4468f6098
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923821"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591775"
 ---
-# <a name="what-has-changed-for-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>O que mudou para a migração para os serviços do Office 365 nas novas regiões do datacenter alemão
+# <a name="what-will-change-after-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>O que mudará após a migração para os serviços do Office 365 nas novas regiões do datacenter alemão
 
 As migrações de locatários foram projetadas para ter efeito mínimo sobre administradores e usuários. No entanto, há considerações para cada carga de trabalho. Revise as seções a seguir para ter uma melhor compreensão da experiência de migração para as cargas de trabalho.
 
 A seguir estão as principais diferenças entre o Microsoft Cloud Deutschland e os serviços do Office 365 nas novas regiões do datacenter alemão.
 
-| Categoria | Microsoft Cloud Deutschland (Microsoft Cloud Deutschland) | Serviços do Office 365 nas novas regiões de datacenter alemãs  |
+| Categoria | Microsoft Cloud Alemanha (Microsoft Cloud Deutschland) | Serviços do Office 365 nas novas regiões de datacenter alemãs  |
 |:-------|:-----|:-------|
 | Serviços disponíveis do Microsoft 365 para assinatura com apenas um locatário do Office 365 | 15 serviços | 29 serviços <br><br> Para obter mais informações, consulte Qual é a disponibilidade de serviço entre as diferentes ofertas de serviço de [nuvem do Office 365?](ms-cloud-germany-transition.md#serv-avail). |
-| Novos recursos | Não há novos recursos disponíveis. | Os novos recursos estarão disponíveis de acordo com os serviços do Office 365. |
+| Novos recursos | Nenhum novo recursos estará disponível. | Os novos recursos estarão disponíveis de acordo com os serviços do Office 365. |
 | Objeto de confiança dos dados | Sim | Não |
 | Colaboração entre os locatários com locatários globais do Office 365 | Não | Sim |
 | Residência de dados do cliente | Os dados do cliente serão armazenados somente em data centers alemães. | A Microsoft armazenará os seguintes Dados do Cliente em repouso exclusivamente na Alemanha: <ul><li> Conteúdo da caixa de correio do Exchange Online (corpo do email, entradas de calendário e o conteúdo de anexos de email) </li><li> Conteúdo do site do SharePoint Online e os arquivos armazenados nesse site e arquivos carregados no OneDrive for Business </li></ul> |
@@ -79,6 +79,8 @@ Considerações a observar:
 ## <a name="office-services"></a>Serviços do Office
 
 Os serviços do Office Online são acessíveis `office.de` via antes e durante a transição. Após a transição das caixas de correio dos usuários para os serviços do Office 365, os usuários devem começar a usar URLs de serviços do Office 365. À medida que as cargas de trabalho subsequentes migram para serviços do Office 365, sua interface do portal office.com começará a funcionar.
+
+O serviço mru (mru) usado mais recentemente no Office é uma recorte do Microsoft Cloud Deutschland para os serviços Globais do Office 365, não uma migração. Somente os links de MRU do lado dos serviços globais do Office 365 estarão visíveis após a migração do portal Office.com. Os links de MRU do Microsoft Cloud Deutschland não são visíveis como links MRU nos serviços Globais do Office 365. Nos serviços globais do Office 365, os links de MRU só podem ser acessados depois que a migração de locatários atingir a fase 9.
 
 ## <a name="exchange-online-protection"></a>Proteção do Exchange Online
 

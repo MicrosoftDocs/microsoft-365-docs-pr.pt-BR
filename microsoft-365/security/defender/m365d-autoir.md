@@ -19,15 +19,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.custom: autoir
-ms.date: 01/29/2021
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 8ed6f1ccd6587d6c618974a123f0d5d42a44e753
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: be0423b0af8251347420d9e970dcfe10db0bb72b
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199628"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591918"
 ---
 # <a name="automated-investigation-and-response-in-microsoft-365-defender"></a>Investigação e resposta automatizadas no Microsoft 365 Defender
 
@@ -94,6 +93,11 @@ No Microsoft 365 Defender, cada investigação automatizada correlaciona sinais 
 
 > [!NOTE]
 > Nem todos os alertas disparam uma investigação automatizada, e nem todas as investigações resulta em ações de correção automatizadas; depende de como a investigação e a resposta automatizadas são configuradas para sua organização. Consulte [Configure automated investigation and response capabilities in Microsoft 365 Defender](m365d-configure-auto-investigation-response.md).
+
+## <a name="viewing-a-list-of-investigations"></a>Exibindo uma lista de investigações
+
+Para exibir investigações, vá para a **página Incidentes.** Selecione um incidente e selecione a guia **Investigações.** Para saber mais, confira [Detalhes e resultados de uma investigação automatizada.](m365d-autoir-results.md)
+
 
 ## <a name="next-steps"></a>Próximas etapas
 

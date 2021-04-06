@@ -1,5 +1,5 @@
 ---
-title: Configure a colaboração segura com o Microsoft 365
+title: Configurar a colaboração segura com o Microsoft 365
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -16,18 +16,16 @@ ms.custom:
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 description: Saiba como configurar a colaboração de conteúdo seguro no Teams para proteger seus dados com base em sua sensibilidade.
-ms.openlocfilehash: 88cb3557f1c150a9c9fd68ba362fcc9c424aa73a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 804307b3035f0d2246dc0ac541cce2d63506c351
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906463"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591905"
 ---
-# <a name="set-up-secure-collaboration-with-microsoft-365"></a>Configure a colaboração segura com o Microsoft 365
+# <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>Configurar a colaboração segura com o Microsoft 365 e o Microsoft Teams
 
 Ser capaz de compartilhar facilmente informações com as pessoas certas ao evitar o excesso de compartilhamento é fundamental para o sucesso de uma organização. Isso inclui poder compartilhar dados confidenciais com segurança apenas com aqueles que devem ter acesso a eles. Dependendo do projeto, isso pode incluir o compartilhamento de dados confidenciais com pessoas de fora da sua organização.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 Esta orientação de solução de colaboração inclui dois componentes para ajudá-lo:
 - Implantar o Microsoft Teams com o nível de proteção certo para cada projeto
@@ -36,6 +34,8 @@ Esta orientação de solução de colaboração inclui dois componentes para aju
 ![Implantar o Teams com proteção apropriada e configurar o compartilhamento externo com as configurações de segurança apropriadas](..\media\solutions-architecture-center\secure-collaboration-overview.png)
 
 Se ferramentas de colaboração de conteúdo versáteis e fáceis de usar não estão disponíveis, os usuários geralmente colaboram enviando documentos por email. Esse é um método de colaboração tedioso e propenso a erros e pode aumentar o risco de compartilhamento inadequado de informações. Se as pessoas acharem muito difícil compartilhar informações, poderão reverter o uso de produtos de consumo que não são governados por IT. Isso pode representar um risco ainda maior.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxMmL?autoplay=false]
 
 Com o Microsoft 365, você pode implantar o Teams com uma variedade de configurações que ajudam:
 
@@ -92,7 +92,7 @@ Essas camadas - *linha* de base *,* sensível e altamente sensível *-* aumentam
 |Associação de equipe|Qualquer pessoa pode ingressar em equipes públicas.<br>Aprovação do proprietário da equipe necessária para ingressar em equipes privadas.|Aprovação do proprietário da equipe necessária para ingressar.|Aprovação do proprietário da equipe necessária para ingressar.|
 |Criptografia de documento|||Disponível com rótulo de sensibilidade|
 |Compartilhamento de convidados|Permitido|Pode ser permitido ou bloqueado|Pode ser permitido ou bloqueado|
-|Dispositivos sem gestão|Nenhuma restrição|Acesso somente web|Blocked|
+|Dispositivos não gerenciados|Nenhuma restrição|Acesso somente web|Blocked|
 
 A configuração dessas camadas envolve:
 

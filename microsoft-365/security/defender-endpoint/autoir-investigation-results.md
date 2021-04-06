@@ -1,5 +1,5 @@
 ---
-title: Detalhes e resultados de uma investigação automatizada
+title: Exibir os detalhes e resultados de uma investigação automatizada
 description: Durante e após uma investigação automática, você pode exibir os resultados e as principais descobertas
 keywords: automatização, investigação, resultados, análise, detalhes, correção, autoair
 search.appverid: met150
@@ -21,15 +21,14 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.date: 02/02/2021
-ms.openlocfilehash: 57a515fec2baabba7146959a43737771ef5c8cfe
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8ecf39090d368427c103c7ec78e22bc13f7c339f
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197764"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591763"
 ---
-# <a name="details-and-results-of-an-automated-investigation"></a>Detalhes e resultados de uma investigação automatizada
+# <a name="view-the-details-and-results-of-an-automated-investigation"></a>Exibir os detalhes e resultados de uma investigação automatizada
 
 **Aplica-se a:**
 - Microsoft Defender para Ponto de Extremidade

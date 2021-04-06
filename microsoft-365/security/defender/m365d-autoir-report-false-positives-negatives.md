@@ -11,7 +11,6 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-ms.date: 01/29/2021
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -22,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 851fd05f0fec4b8d113e515783092eed0114db0f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: f57e68ba88879ed78170e6348ecdbce4db82b668
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199108"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51592055"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Manipular falsos positivos/negativos em recursos automatizados de investigação e resposta
 
@@ -55,7 +54,7 @@ As seções a seguir descrevem como executar essas tarefas.
 
 |Cenário |Serviço |O que fazer |
 |--------|--------|--------|
-|- Um alerta é disparado por uso legítimo <br/>- Um alerta é impreciso    |[Segurança no Aplicativo da Nuvem da Microsoft](/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal de Segurança do Aplicativo na Nuvem](/cloud-app-security/managing-alerts)         |
+|- Um alerta é disparado por uso legítimo <br/>- Um alerta é impreciso    |[Microsoft Cloud App Security](/cloud-app-security)<br/> ou <br/>[Detecção avançada de ameaças do Azure](/azure/security/fundamentals/threat-detection)         |[Gerenciar alertas no portal de Segurança do Aplicativo na Nuvem](/cloud-app-security/managing-alerts)         |
 |Um arquivo, endereço IP, URL ou domínio é tratado como malware em um dispositivo, mesmo que seja seguro|[Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection) |[Criar um indicador personalizado com uma ação "Permitir"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Desfazer uma ação de correção que foi tomada em um dispositivo
@@ -74,4 +73,4 @@ Se uma ação de correção tiver sido tomada em uma entidade (como um dispositi
 
 - [Exibir os detalhes e resultados de uma investigação automatizada](m365d-autoir-results.md)
 - [Busca proativamente por ameaças com busca avançada no Microsoft 365 Defender](advanced-hunting-overview.md)
-- [Resolver falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)
+- [Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)
