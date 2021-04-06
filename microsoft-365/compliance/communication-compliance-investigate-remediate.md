@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4f0be1b416bb80bc5cd2b43f5e4c95f0dbc24142
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 7e564bfd090a778ae2cd14214c35af8cd2fc6692
+ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50542319"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51591859"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>Investigar e corrigir alertas de conformidade em comunicações
 
@@ -122,25 +122,6 @@ Agora que você reviu os detalhes da mensagem para o alerta, pode escolher vári
 - **Notificar**: você pode usar o controle **Notificar** para atribuir um modelo de aviso personalizado ao alerta e enviar um aviso de aviso ao usuário. Escolha o modelo de aviso  apropriado configurado na área Configurações de conformidade de comunicação e selecione **Enviar** para enviar um lembrete por email para o usuário que enviou a mensagem e resolver o problema.
 - **Escalate**: Usando o **controle Escalate,** você pode escolher quem mais em sua organização deve revisar a mensagem. Escolha em uma lista de revisadores configurados na política de conformidade de comunicação para enviar uma notificação de email solicitando revisão adicional do alerta de mensagem. O revistor selecionado pode usar um link na notificação de email para ir diretamente para itens escalonados para eles para revisão.
 - **Escalonamento para investigação**: usando o **Escalonamento** [](overview-ediscovery-20.md) para controle de investigação, você pode criar um novo caso de Descoberta Interna Avançada para mensagens simples ou múltiplas. Você fornecerá um nome e anotações para o novo caso, e o usuário que enviou a mensagem que corresponde à política é atribuído automaticamente como o custodiante do caso. Você não precisa de permissões adicionais para gerenciar o caso. A criação de um caso não resolve ou cria uma nova marca para a mensagem. Você pode selecionar um total de 100 mensagens ao criar um caso de Descoberta Avançada durante o processo de correção. Há suporte para mensagens em todos os canais de comunicação monitorados pela conformidade de comunicação. Por exemplo, você pode selecionar 50 chats do Microsoft Teams, 25 mensagens de email do Exchange Online e 25 mensagens do Yammer ao abrir um novo caso de Descoberta Eletrônico Avançada para um usuário.
-- **Melhorar a classificação (visualização)**: Alertas criados a partir de combinações de tipo de classificador podem precisar de comentários para ajudar a minimizar falsos positivos em sua organização. Use o **controle Melhorar** classificação para fornecer comentários sobre se a classificação de conformidade de comunicação é válida ou para sugerir outros classificadores que treinem para esse tipo de combinação. Você pode confirmar se os classificadores são um *Match* ou *Not a match* ou sugerir que outros classificadores que treinem associem a esse tipo de atividade de alerta no futuro.
-
-    1. Selecione uma mensagem na lista de alertas.
-    2. Escolha a reellipse e selecione **Melhorar a classificação**.
-    3. No painel **Comentários detalhados do** classificador, se o item for um verdadeiro positivo, escolha **Corresponder**.  Se o item foi incluído incorretamente na categoria como um falso positivo, escolha **Não uma combinação**.
-    4. Se houver outro classificador que seria mais apropriado para o item, escolha-o na lista Sugerir outros classificadores **treináveis.** Esse feedback dispara o outro classificador para avaliar o item.
-
-    > [!TIP]
-    > Você pode fornecer comentários sobre vários itens simultaneamente escolhendo-os todos e escolhendo Fornecer **comentários** detalhados na barra de comandos.
-
-    5. Escolha **Enviar comentários** para enviar sua avaliação das classificações **Match** e Not **a match** e sugerir outros classificadores com treinamento. Quando você forneceu 30 instâncias de comentários para um classificador, ele retreina automaticamente. A retreinamento pode levar de 1 a 4 horas para ser concluída. Os classificadores só podem ser retreinados duas vezes por dia.
-
-    > [!IMPORTANT]
-    > Essas informações vão para o classificador em seu locatário, **ela não volta para a Microsoft**.
-
-    Para saber mais sobre como retreinar o classificador para conformidade com a comunicação, consulte o artigo Como [retreinar](classifier-how-to-retrain-comms-compliance.md) um classificador em conformidade com comunicações.
-
-    ![Conformidade de comunicação melhora a classificação](../media/communication-compliance-improve-classifier.png)
-
 - **Remover mensagem no Teams**: Usando a mensagem Remover no controle **do Teams,** você pode bloquear mensagens inadequadas e conteúdo identificado em alertas de canais do Microsoft Teams e chats 1:1 e de grupo. As mensagens removidas e o conteúdo são substituídos por uma dica de política que explica que ela está bloqueada e a política que se aplica à sua remoção do ponto de vista. Os destinatários têm um link na dica de política para saber mais sobre a política aplicável e o processo de revisão. O remetente recebe uma dica de política para a mensagem e conteúdo bloqueados, mas pode revisar os detalhes da mensagem bloqueada e o conteúdo para contexto sobre a remoção.
 
     ![Remover uma mensagem do Microsoft Teams](../media/communication-compliance-remove-teams-message.png)
