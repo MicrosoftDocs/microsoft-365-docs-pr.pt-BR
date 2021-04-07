@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - Ent_Architecture
 description: Entenda as relações das organizações, assinaturas, licenças, contas de usuário e locatários nas ofertas de nuvem da Microsoft.
-ms.openlocfilehash: eaf1c2399b5d44ea8d6000042b3258d0e8b5a7de
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 34e920e6b5a48adaffcc31150090e96f9c8d8b0e
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909509"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604316"
 ---
 # <a name="subscriptions-licenses-accounts-and-tenants-for-microsofts-cloud-offerings"></a>Assinaturas, licenças, contas e locatários para ofertas de nuvem da Microsoft
 
@@ -88,7 +88,7 @@ A Figura 3 mostra um exemplo de várias assinaturas de uma organização usando 
   
 ### <a name="tenants"></a>Locatários
 
-Para ofertas de nuvem SaaS, o local regional do locatário alojará os servidores que fornecem serviços de nuvem. Por exemplo, a Contoso Corporation escolheu a região Europeia para hospedar os locatários do Microsoft 365, EMS e Dynamics 365 para os 15.000 funcionários em sua sede em Paris.
+Para ofertas de nuvem SaaS, o local regional do locatário alojará os servidores que fornecem serviços de nuvem. Por exemplo, a Contoso Corporation escolheu a região europeia para hospedar suas assinaturas Microsoft 365, EMS e Dynamics 365 para os 15.000 funcionários em sua sede em Paris.
   
 Serviços de PaaS do Azure e as cargas de trabalho baseadas em máquina virtual hospedadas na infraestrutura como serviço do Azure podem ter locatários em qualquer datacenter do Azure do mundo. Especifique o datacenter do Azure, ou o local, ao criar o serviço ou o aplicativo de PaaS do Azure ou o elemento de uma carga de trabalho de IaaS.
   

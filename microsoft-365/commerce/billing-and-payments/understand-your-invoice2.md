@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Saiba como interpretar as cobranças, as faturas e as informações de pagamento na fatura do Microsoft 365 para Empresas e como alterar o número da ordem de compra.
-ms.openlocfilehash: 99b52928d458e7883919ee46aaafaa7a66278447
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 56f1ba3e7cc328593873aaf06ddfe6dc82fc1a17
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911681"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615370"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Compreenda sua conta ou fatura para o Microsoft 365 para Empresas
 
@@ -106,36 +106,24 @@ Se paga por fatura, você pode adicionar ou alterar o número da OC (ordem de co
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-
-2. Se você estiver no modo de exibição de **Tabela**, selecione **Cartões** para alternar entre modos de exibição.
-
-3. Localize a assinatura que você deseja reativar.
-
-4. Na seção **Cobrança**, ao lado de **fatura**, selecione **Editar**.
-
-5. Na parte inferior do painel **Alterar detalhes de pagamento**, insira o número da OC e escolha **Salvar**.
-
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
-
-2. Escolha a assinatura que deseja alterar e na seção **Forma de pagamento**, escolha **Alterar detalhes do pagamento**.
-
-3. Na parte inferior do painel **Alterar detalhes de pagamento**, insira o número da OC e escolha **Enviar**.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
-
-2. Escolha a assinatura que deseja alterar e na seção **Forma de pagamento**, escolha **Alterar detalhes do pagamento**.
-
-3. Na parte inferior do painel **Alterar detalhes de pagamento**, insira o número da OC e escolha **Enviar**.
-
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
 ::: moniker-end
+
+1. Na guia **Produtos**, encontre a assinatura que quer alterar.
+
+1. Na página detalhes da assinatura, na seção **Configurações** de assinatura e pagamento, selecione **Editar fatura**. 
+
+1. Na parte inferior do **painel Editar detalhes para pagar** pelo painel de voz, insira seu número de PO e selecione **Salvar**.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

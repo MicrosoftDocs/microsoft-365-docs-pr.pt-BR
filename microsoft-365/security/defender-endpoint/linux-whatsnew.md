@@ -18,16 +18,22 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 02a446f47ce4292b214c868e773802c53f7e3353
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7a55d254c20506913d0995bffc941a67bb34a38e
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580997"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615430"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-for-linux"></a>Novidades no Microsoft Defender para Ponto de Extremidade para Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+## <a name="1012572-30121022125630"></a>101.25.72 (30.121022.12563.0)
+
+- O Microsoft Defender para Ponto de Extremidade para Linux agora está disponível em versão prévia para clientes do Governo dos EUA. Para obter mais informações, consulte [Microsoft Defender for Endpoint for US Government customers](gov.md).
+- Correção de um problema em que o uso do Microsoft Defender para Ponto de Extremidade para Linux em sistemas com sistemas de arquivos FUSE estava levando ao travamento do sistema operacional
+- Melhorias de desempenho & outras correções de bugs
 
 ## <a name="1012563-30121022125630"></a>101.25.63 (30.121022.12563.0)
 

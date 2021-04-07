@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 9d7170ff261a53ba5755134973a912221363b3c8
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 104ef919d356642985e7b34d16650c27a8141e86
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599802"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615094"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -201,7 +201,7 @@ A Microsoft recomenda que você não crie conjuntos de políticas que se aplique
 1. Configure os recursos de identidade de pré-requisito e suas configurações.
 2. Configure a identidade comum e acesse políticas de Acesso Condicional.
 3. Configurar políticas de Acesso Condicional para usuários convidados e externos.
-4. Configure políticas de Acesso Condicional para aplicativos de nuvem do Microsoft 365, como Microsoft Teams, Exchange Online e SharePoint.
+4. Configure políticas de Acesso Condicional para aplicativos de nuvem do Microsoft 365─ como Microsoft Teams, Exchange Online e SharePoint─ e políticas de Segurança de Aplicativos na Nuvem da Microsoft.
 
 Depois de configurar o acesso a identidades e dispositivos, consulte o guia de implantação de recursos do [Azure AD](/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2) para obter uma lista de verificação em fases de recursos adicionais a considerar e a Governança de Identidade do [Azure AD](/azure/active-directory/governance/) para proteger, monitorar e auditar o acesso.
 

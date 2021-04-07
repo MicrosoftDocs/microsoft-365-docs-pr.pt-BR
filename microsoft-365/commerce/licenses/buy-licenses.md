@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,27 +20,20 @@ search.appverid:
 - MET150
 description: Saiba como comprar mais licenças ou reduzir o número de licenças para sua assinatura do Microsoft 365 para empresas.
 ms.date: ''
-ms.openlocfilehash: 904444790a7984ebce4f549c77bfd22e8f459c9c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4d0b73fb33d27f82a02b4ae0c6ecb009eb9d38d
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911537"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615130"
 ---
 # <a name="buy-or-remove-licenses"></a>Comprar ou remover licenças
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Você pode comprar mais licenças ou reduzir o número de licenças para suas assinaturas usando as etapas a seguir.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-- Você deve ser um administrador global ou de cobrança para realizar as tarefas descritas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+- Você deve ser um administrador global ou de cobrança para realizar as tarefas descritas neste artigo. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 - Você pode [adicionar usuários e atribuir licenças ao mesmo tempo.](../../admin/add-users/add-users.md)
 - Se você comprou seu plano do Microsoft 365 para empresas ou do Office 365 Enterprise por meio de um parceiro de terceiros, você deve comprar licenças adicionais por meio desse parceiro.
 
@@ -60,29 +53,24 @@ Se você tiver removido licenças de uma assinatura, a próxima coisa a fazer é
 
 ::: moniker range="o365-worldwide"
 
-1. No Centro de administração do Microsoft 365, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Na guia **Produtos,** encontre a assinatura para a qual você deseja comprar ou remover licenças. Selecione **Mais ações** (três pontos) e selecione Comprar **licenças**. [E se eu não vir os botões Comprar licenças ou Remover licenças?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
-3. Se você quiser reduzir o número de licenças, na parte superior do painel **Comprar licenças,** selecione **remover licenças**.
-4. Para comprar ou remover licenças, em **Nova quantidade** na caixa Total de **licenças,** insira o número total de licenças que você deseja para essa assinatura. Por exemplo, se você tiver 100 licenças e quiser adicionar mais cinco, digite 105. Se você quiser remover cinco delas, digite 95.
-5. Selecione **Salvar**.
-
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Assinaturas</a>.
-2. Na página **Assinaturas,** selecione a assinatura à qual você deseja comprar ou remover licenças e selecione **Adicionar/Remover licenças**. [E se eu não vir os botões Comprar licenças ou Remover licenças?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
-3. Na caixa **Total de licenças,** insira o número total de licenças que você deseja para essa assinatura e selecione **Enviar** \> **Fechar**. Por exemplo, se você tiver 100 licenças e quiser adicionar mais cinco, digite 105. Se você quiser remover cinco licenças, digite 95.
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Seus produtos</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Assinaturas</a>.
-2. Na página **Assinaturas,** selecione a assinatura à qual você deseja comprar ou remover licenças e selecione **Adicionar/Remover licenças**. [E se eu não vir os botões Comprar licenças ou Remover licenças?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
-3. Na caixa **Total de licenças,** insira o número total de licenças que você deseja para essa assinatura e selecione **Enviar** \> **Fechar**. Por exemplo, se você tem 100 licenças e precisa adicionar mais 5, digite 105. Se você quiser remover 5 delas, digite 95.
-
+1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Seus produtos</a>.
 ::: moniker-end
+
+2. Na guia **Produtos,** encontre a assinatura para a qual você deseja comprar ou remover licenças. Selecione **Mais ações** (três pontos) e selecione Comprar **licenças**. [E se eu não vir os botões Comprar licenças ou Remover licenças?](#what-if-i-dont-see-the-buy-licenses-or-remove-licenses-buttons)
+3. Se você quiser reduzir o número de licenças, na parte superior do painel **Comprar licenças,** selecione **remover licenças**.
+4. Para comprar ou remover licenças, em **Nova quantidade** na caixa Total de **licenças,** insira o número total de licenças que você deseja para essa assinatura. Por exemplo, se você tiver 100 licenças e quiser adicionar mais cinco, digite 105. Se você quiser remover cinco delas, digite 95.
+5. Selecione **Salvar**.
 
 > [!NOTE]
 > Você não pode reduzir o número de licenças para sua assinatura se todas as licenças estão atribuídas atualmente aos usuários. Para reduzir o número de licenças, primeiro remova uma ou mais [licenças](../../admin/manage/remove-licenses-from-users.md)dos usuários e remova as licenças da assinatura.

@@ -24,81 +24,31 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Entenda os motivos pelos quais, às vezes, a troca de planos precisa ser feita manualmente ou chamando o suporte.
-ms.openlocfilehash: 0880337e4879c093119b98f4d0108ca65c17e705
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 41cc0511b1c04249a6c359054b2fdc829ca40713
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164456"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615322"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Por que não posso trocar o Microsoft 365 para planos de negócios?
 
-::: moniker range="o365-worldwide"
 > [!NOTE]
 > Este artigo se aplica ao centro de administração antigo. Para exibir o artigo sobre o centro de administração (visualização), consulte [Por que não posso atualizar planos?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans). A visualização está disponível para todos os administradores do Microsoft  365, você pode optar selecionando Tentar a alternância de visualização localizada na parte superior da Home page. Para saber mais, confira [Sobre o novo centro de administração do Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
-::: moniker-end
 
 Se você não vir o botão **Mudar de planos,** seu plano não poderá ser alternado automaticamente. Em alguns casos, você pode conseguir resolver o problema para que você possa usar o botão **Mudar de plano** ou pode conseguir [mudar de plano manualmente](switch-plans-manually.md). Posicione o mouse sobre o ícone de informações para exibir uma mensagem que explica por que o botão **Mudar de plano** não está disponível. Use as informações neste artigo para solucionar o problema.
-  
-::: moniker range="o365-worldwide"
 
  **Precisa de outra coisa?** [Comprar outra assinatura](../try-or-buy-microsoft-365.md)  |  [Cancelar sua assinatura](cancel-your-subscription.md)  |  [Assinaturas e cobranças](../index.yml)  |  [Suporte a chamada](../../admin/contact-support-for-business-products.md)
-::: moniker-end
-
-::: moniker range="o365-germany"
-
- **Precisa de outra coisa?** [Comprar outra assinatura](../try-or-buy-microsoft-365.md)  |  [Cancelar sua assinatura](cancel-your-subscription.md)  |  [Assinaturas e cobranças](../index.yml)  |  [Suporte a chamada](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
- **Precisa de outra coisa?** [Comprar ou experimentar assinaturas do Office 365 operado pela 21Vianet](../../admin/services-in-china/buy-or-try-subscriptions.md)  |  [Cancelar sua assinatura](cancel-your-subscription.md)  |  [Suporte a chamada](../../admin/contact-support-for-business-products.md)
-
-::: moniker-end
 
 ## <a name="why-isnt-the-switch-plans-button-available-for-my-subscription"></a>Por que o botão Mudar de plano não está disponível para minha assinatura?
 
 ### <a name="you-cant-switch-subscriptions-now-because-you-have-more-users-than-licenses"></a>No momento, não é possível mudar de assinatura porque você tem mais usuários do que licenças.
 
-::: moniker range="o365-worldwide"
-
 Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../commerce/licenses/buy-licenses.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../commerce/licenses/buy-licenses.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-Para usar o botão **Mudar de plano** para mudar de plano automaticamente, todos os usuários precisam ter licenças válidas. Se você tiver atribuído mais licenças do que comprou, verá um alerta na página <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Licenças</a> informando que há um conflito de licenças que precisa ser resolvido. [Saiba como resolver conflitos de licença](../../commerce/licenses/buy-licenses.md). Depois de resolver os conflitos de licenças, você verá o botão **Mudar de plano**. Caso não seja, você pode [alternar os planos manualmente](switch-plans-manually.md)ou [chamar suporte](../../admin/contact-support-for-business-products.md).
-
-::: moniker-end
 
 ### <a name="you-cant-switch-subscriptions-right-now-because-this-subscription-isnt-fully-set-up-or-the-service-isnt-available"></a>Você não pode mudar de assinatura no momento porque esta assinatura não está totalmente configurada ou o serviço não está disponível.
 
-
-::: moniker range="o365-worldwide"
-
 Para ver se há problemas de provisionamento ou de saúde <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank"></a> do serviço, no centro de administração, vá para a página De saúde do serviço ou selecione **Saúde** \> **do Serviço de Saúde.**
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-Para ver se há problemas de provisionamento ou de saúde do serviço, <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank"></a> no Centro de administração do Microsoft 365, vá para a página De saúde do serviço ou selecione **Health** \> **Service health**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-Para ver se há problemas de provisionamento ou de saúde do serviço, <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank"></a> no Centro de administração do Microsoft 365, vá para a página De saúde do serviço ou selecione **Health** \> **Service health**.
-
-::: moniker-end
 
 Se você acha que um serviço não está totalmente provisionado ou que está com um problema de integridade, aguarde algumas horas para que o serviço fique disponível e tente novamente. Se você ainda tiver um problema, chame [o suporte](../../admin/contact-support-for-business-products.md).
   

@@ -20,33 +20,40 @@ search.appverid:
 - MET150
 description: Saiba como mover usuários entre assinaturas.
 ms.date: 07/01/2020
-ms.openlocfilehash: 31deb1b81e1f9605210b50036441f98dc3b6a811
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: e0c6aabbdfd50fa66d846c76d317d940dc0cd819
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408298"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615106"
 ---
 # <a name="move-users-to-a-different-subscription"></a>Migrar usuários para uma assinatura diferente
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se sua experiência não corresponder aos detalhes apresentados aqui, consulte [Overview of Microsoft 365 admin center](../../business-video/admin-center-overview.md).
-
-::: moniker-end
 
 Se você tiver mais de uma assinatura, tenha usuários com uma licença para uma assinatura, mas queira movê-los para outra assinatura, você pode substituir a licença existente por outra.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador global, de licença ou de usuário para atribuir licenças. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../../admin/add-users/about-admin-roles.md?view=o365-worldwide).
+Você deve ser um administrador global, de licença ou de usuário para atribuir licenças. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="move-users-to-a-different-subscription"></a>Migrar usuários para uma assinatura diferente
 
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
 
 2. Selecione os círculos ao lado dos nomes dos usuários para os que você deseja substituir as licenças existentes.
 
@@ -55,44 +62,6 @@ Você deve ser um administrador global, de licença ou de usuário para atribuir
 4. No painel **Gerenciar licenças de** produto, selecione **Substituir**  e selecione as licenças que você gostaria de atribuir aos usuários.
 
 5. Na parte inferior, selecione **Salvar Alterações** \> **Fechar**.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
-
-2. Selecione as caixas ao lado dos nomes dos usuários de que você deseja substituir as licenças existentes.
-
-3. No painel **Ações em massa**, escolha **Editar licenças de produto**.
-
-4. No painel **Atribuir produtos**, selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.
-
-5. Alterne o botão para a posição **Ativado** nas licenças que você deseja atribuir aos usuários.
-
-    Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão para a posição **Desativado** para os serviços que você não deseja que os usuários tenham. Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas. 
-
-6. Na parte inferior do painel **Substituir produtos existentes**, selecione **Substituir** \> **Fechar** \> **Fechar**.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
-
-2. Selecione as caixas ao lado dos nomes dos usuários de que você deseja substituir as licenças existentes.
-
-3. No painel **Ações em massa**, escolha **Editar licenças de produto**.
-
-4. No painel **Atribuir produtos**, selecione **Substituir atribuições de licença de produto existentes** \> **Avançar**.
-
-5. Alterne o botão para a posição **Ativado** nas licenças que você deseja atribuir aos usuários.
-
-    Você pode limitar quais serviços estão disponíveis para os usuários. Alterne o botão para a posição **Desativado** para os serviços que você não deseja que os usuários tenham. Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas. 
-
-6. Na parte inferior do painel **Substituir produtos existentes**, selecione **Substituir** \> **Fechar** \> **Fechar**.
-
-::: moniker-end
 
 ## <a name="next-steps"></a>Próximas etapas
 

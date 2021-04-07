@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 72c3cfd51e472bbbda61f0084e131c4298633193
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 7d4bc095a9fbc0b9cd166d3133ed291a2c8c01da
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186984"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615418"
 ---
 # <a name="microsoft-defender-for-endpoint-for-ios"></a>Microsoft Defender para Ponto de Extremidade para iOS
 
@@ -78,7 +78,7 @@ Para obter mais informações, [consulte Deploy Microsoft Defender for Endpoint 
 
 ## <a name="resources"></a>Recursos
 
-- Mantenha-se informado sobre os próximos lançamentos visitando nosso [blog](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS).
+- Mantenha-se informado sobre as próximas versões visitando Novidades no Microsoft Defender para Ponto de Extremidade para [iOS](ios-whatsnew.md) ou [nosso blog.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
 
 - Fornecer comentários por meio do sistema de comentários no aplicativo ou por meio do [portal SecOps](https://securitycenter.microsoft.com)
 

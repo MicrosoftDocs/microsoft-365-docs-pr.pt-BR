@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4883a4f04f06774d02aa0d942edc841867eb36b6
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 9e5f29874ae42f2b82906a5ac0d2e615009d499f
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499517"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615478"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Busca proativamente por ameaças com busca avançada
 
@@ -43,7 +43,8 @@ Assista a este vídeo para obter uma visão geral rápida da busca avançada e u
 Você pode usar as mesmas consultas de busca de ameaças para criar regras de detecção personalizadas. Essas regras são executados automaticamente para verificar e responder a atividades suspeitas de violação, máquinas mal configuradas e outras descobertas.
 
 >[!TIP]
->Use a busca [avançada na Proteção](https://docs.microsoft.com/microsoft-365/security/defender/advanced-hunting-overview) contra Ameaças da Microsoft para procurar ameaças usando dados do Defender para Ponto de Extremidade, do Microsoft Defender para Office 365, do Microsoft Cloud App Security e do Microsoft Defender para Identidade. [Ativar o Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-enable)
+>Use a busca avançada no [Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) para procurar ameaças usando dados do Defender para Ponto de Extremidade, do Microsoft Defender para Office 365, do Microsoft Cloud App Security e do Microsoft Defender para Identidade. [A turn on Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable).<br><br>
+Saiba mais sobre como mover seus fluxos de trabalho de busca avançados do Microsoft Defender para o Endpoint para o Microsoft 365 Defender em [Migrar](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde)consultas de busca avançadas do Microsoft Defender para o Ponto de Extremidade .
 
 ## <a name="get-started-with-advanced-hunting"></a>Introdução à busca avançada
 
