@@ -115,6 +115,8 @@
 ##### [Habilitar o acesso controlado a pastas](enable-controlled-folders.md)
 ##### [Personalizar o acesso controlado a pastas](customize-controlled-folders.md)
 
+### [Dispositivos de rede](network-devices.md)
+
 ### [Microsoft Defender para Ponto de Extremidade para Mac]()
 #### [Visão geral do Microsoft Defender para Ponto de Extremidade para Mac](microsoft-defender-endpoint-mac.md)
 #### [Novidades](mac-whatsnew.md)
