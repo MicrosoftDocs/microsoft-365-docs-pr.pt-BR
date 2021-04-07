@@ -16,22 +16,20 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1526190116c55ba6916b690583f224ee1e86fd8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 5869e8406158eb6d6b2f48b3083cb9011bb3951d
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186156"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604340"
 ---
 # <a name="configure-microsoft-defender-security-center-settings"></a>Configurar configurações do Centro de Segurança do Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-prefsettings-abovefoldlink)
 
@@ -45,4 +43,5 @@ Configurações gerais | Modifique suas configurações gerais que foram definid
 Permissões | Gerencie o acesso ao portal usando o RBAC, bem como grupos de dispositivos.
 APIs | Habilita a integração entre intel e SIEM de ameaças.
 Regras | Configure regras de supressões e configurações de automação.
-Gerenciamento de dispositivos | Dispositivos de integração e offboard.
+Gerenciamento de dispositivo | Dispositivos de integração e offboard.
+Avaliações de rede | Escolha dispositivos a serem verificados regularmente e adicionados ao inventário do dispositivo.

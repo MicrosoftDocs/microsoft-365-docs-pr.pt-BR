@@ -5,6 +5,7 @@ ms.prod: m365-security
 ms.topic: article
 ms.author: josephd
 author: JoeDavies-MSFT
+audience: Admin
 manager: Laurawi
 f1.keywords:
 - NOCSH
@@ -18,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 9d3a47752efc86c8ced32905bda851b7d8157f82
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0baefab441b17aa4a9527536cead181bae8f8948
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202990"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599990"
 ---
 # <a name="policies-for-allowing-guest-access-and-b2b-external-user-access"></a>Políticas para permitir acesso de convidados e acesso de usuário externo B2B
 

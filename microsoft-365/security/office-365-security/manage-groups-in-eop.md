@@ -15,12 +15,12 @@ ms.custom:
 description: Os administradores em organizações autônomas do Exchange Online Protection (EOP) podem aprender a criar, modificar e remover grupos de distribuição e grupos de segurança habilitados para email no Centro de administração do Exchange (EAC) e no PowerShell do Exchange Online Protection (EOP) autônomo.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3b97e3fac0840753edada964252875a6e3a4fa04
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b9d83f2fb59ee8f8d2d3035045ed438d5ba45851
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202929"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599564"
 ---
 # <a name="manage-groups-in-eop"></a>Gerenciar grupos no EOP
 
@@ -216,7 +216,7 @@ $CurrentMemberNames += "Tyson Fawcett"
 Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMemberNames
 ```
 
-Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/set-eopdistributiongroup) e [Update-EOPDistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/update-eopdistributiongroupmember).
+Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-EOPDistributionGroup](/powershell/module/exchange/set-eopdistributiongroup) e [Update-EOPDistributionGroupMember](/powershell/module/exchange/update-eopdistributiongroupmember).
 
 ### <a name="remove-a-group-using-remote-windows-powershell"></a>Remover um grupo usando Windows PowerShell
 
@@ -226,7 +226,7 @@ Este exemplo usa remove o grupo de distribuição chamado Administradores de IT.
 Remove-EOPDistributionGroup -Identity "IT Administrators"
 ```
 
-Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remove-EOPDistributionGroup](https://docs.microsoft.com/powershell/module/exchange/remove-eopdistributiongroup).
+Para obter informações detalhadas sobre sintaxes e parâmetros, [consulte Remove-EOPDistributionGroup](/powershell/module/exchange/remove-eopdistributiongroup).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Como saber se esses procedimentos funcionaram?
 

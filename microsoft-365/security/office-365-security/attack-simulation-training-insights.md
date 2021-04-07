@@ -12,12 +12,12 @@ ms.collection:
 - m365initiative-defender-office365
 description: Os administradores podem aprender como o treinamento de simulação de ataque no centro de segurança do Microsoft 365 afeta os funcionários e podem obter informações sobre resultados de simulação e treinamento.
 ms.technology: mdo
-ms.openlocfilehash: 93d8829f9fbc4271d33e3208e5564529b4022fc3
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0fcb88406558f73b587d8452375c33dbbec1c78b
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202957"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51600002"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Obter insights por meio do treinamento de simulação de Ataque
 
@@ -45,7 +45,7 @@ Para ver um relatório mais detalhado, clique em **Exibir simulações e relató
 
 Na guia [ **Simulações,**](https://security.microsoft.com/attacksimulator?viewid=simulations)selecionar uma simulação levará você aos detalhes da simulação, onde você encontrará a **seção Ações recomendadas.**
 
-A seção ações recomendadas detalha as recomendações conforme disponível na [Pontuação Segura da Microsoft.](https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score) Essas recomendações se baseiam na carga usada na simulação e ajudarão você a proteger seus funcionários e seu ambiente. Clicar em cada ação de melhoria levará você aos detalhes.
+A seção ações recomendadas detalha as recomendações conforme disponível na [Pontuação Segura da Microsoft.](../defender/microsoft-secure-score.md) Essas recomendações se baseiam na carga usada na simulação e ajudarão você a proteger seus funcionários e seu ambiente. Clicar em cada ação de melhoria levará você aos detalhes.
 
 > [!div class="mx-imgBorder"]
 > ![Seção Ações de recomendação no treinamento de simulação de ataque](../../media/attack-sim-preview-recommended-actions.png)

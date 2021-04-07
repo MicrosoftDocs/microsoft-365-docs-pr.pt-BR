@@ -12,12 +12,12 @@ ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: Os administradores podem aprender a usar o widget Queues no painel de fluxo de email no Centro de Conformidade de Segurança & para monitorar o fluxo de emails malsucedido para suas organizações locais ou parceiras por meio de conectores de saída.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 14cadd0e8611fbbc65c3bdc9849beebf3a3eb34d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 65452b0ad7c31673c910ba48c9c6709995e563ce
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203407"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599978"
 ---
 # <a name="queues-insight-in-the-security--compliance-center"></a>Visão de filas no Centro de Conformidade & Segurança
 
@@ -87,7 +87,7 @@ Se você clicar no número de  mensagens no widget, um sobrevoo de mensagens em 
 - **Servidor de destino**
 - **Último endereço IP**
 - **Último erro**
-- **Como corrigir**: Problemas comuns e soluções estão disponíveis. Se for um **link Corrigir agora** está disponível, clique nele para corrigir o problema. Caso contrário, clique em quaisquer links disponíveis para obter mais informações sobre o erro e possíveis soluções.
+- **Como corrigir**: Problemas comuns e soluções estão disponíveis. Se um **link Corrigir agora** estiver disponível, clique nele para corrigir o problema. Caso contrário, clique em quaisquer links disponíveis para obter mais informações sobre o erro e possíveis soluções.
 
 ![Detalhes após clicar no insight Filas no painel fluxo de emails](../../media/mfi-queues-details.png)
 

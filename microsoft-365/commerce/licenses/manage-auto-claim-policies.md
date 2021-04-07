@@ -18,12 +18,12 @@ ms.custom:
 - commerce
 search.appverid:
 - MET150
-ms.openlocfilehash: bf3f79e425b3f7cd86f1a5ab95a337ef5127e345
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 001b612820bb13873ec18733d68828837fcecd78
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911465"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599446"
 ---
 # <a name="manage-auto-claim-policies"></a>Gerenciar políticas de declaração automática
 
@@ -43,7 +43,7 @@ Depois de criar uma política de declaração automática, você pode fazer as s
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador global para criar e gerenciar políticas de declaração automática. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador Global, Usuário ou Licença para criar e gerenciar políticas de declaração automática. Para obter mais informações, consulte [Sobre as funções de administrador do Microsoft 365](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="turn-the-auto-claim-policy-feature-on-or-off"></a>Ativar ou desativar o recurso de política de declaração automática
 
@@ -55,6 +55,8 @@ Por padrão, o recurso de política de declaração automática está desligado.
 2. No centro da página, selecione o **botão Ativar configuração.**
 
 ### <a name="turn-off-auto-claim-policies"></a>Desativar políticas de declaração automática
+
+Somente um administrador global pode desativar uma configuração de política de declaração automática.
 
 1. No centro de administração, vá para a página **Configurações** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">da Organização.</a>
 2. Na parte inferior da tabela, selecione **Aplicativos e serviços de propriedade do usuário.**
@@ -76,7 +78,7 @@ Ao criar uma política de declaração automática, você pode adicionar um prod
 3. Na página **Nomear essa política de declaração** automática, insira um nome para a política e selecione **Próximo**.
 4. Na página **Definir um aplicativo de declaração automática** e produto, selecione um aplicativo e a assinatura de onde atribuir licenças.
 5. Se você quiser adicionar um produto de backup, selecione **Adicionar um produto de backup a essa política** e selecione o produto na lista.
-6. Selecione **Avançar**.
+6. Selecione **Próximo**.
 7. Na página **Selecionar aplicativos,** deslele ou selecione as caixas para os aplicativos excluirem ou incluirem com a licença e selecione **Próximo**.
 8. Se você adicionou um ou mais produtos de backup, repita a etapa 7 para cada produto. Caso contrário, vá para a etapa 9.
 9. Na página **Revisar e** concluir, verifique as novas informações de política, faça as alterações necessárias e selecione **Criar política**.

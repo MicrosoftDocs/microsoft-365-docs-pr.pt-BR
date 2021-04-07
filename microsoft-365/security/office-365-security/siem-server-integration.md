@@ -18,12 +18,12 @@ ms.custom:
 description: Obter uma visão geral da integração do servidor SIEM (Gerenciamento de Informações e Eventos de Segurança) com seus serviços e aplicativos de nuvem do Microsoft 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d060b3c12304f6a23ad9421bb43e54c4cd561af5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: bea8aa3914da4b813f3928eddbb6df9c98ef6605
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203382"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599942"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Integração do servidor SIEM (Gerenciamento de Informações de Segurança e Gerenciamento de Eventos) com os serviços e aplicativos do Microsoft 365
 
@@ -58,8 +58,8 @@ Um servidor SIEM pode receber dados de uma ampla variedade de serviços e aplica
 |Serviço ou Aplicativo do Microsoft 365|Entradas/métodos do servidor SIEM|Recursos para saber mais|
 |---|---|---|
 |[Obter o Microsoft Defender para Office 365](defender-for-office-365.md)|Logs de auditoria|[Integração do SIEM com o Microsoft Defender para Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <p> API REST|[Puxar alertas para suas ferramentas SIEM](../defender-endpoint/configure-siem.md)|
-|[Segurança no Aplicativo da Nuvem da Microsoft](/cloud-app-security/what-is-cloud-app-security)|Integração de log|[Integração do SIEM com o Microsoft Cloud App Security](/cloud-app-security/siem)|
+|[Microsoft Defender para Ponto de Extremidade](/windows/security/threat-protection/)|Ponto de extremidade HTTPS hospedado no Azure <p> API REST|[Puxar alertas para suas ferramentas SIEM](../defender-endpoint/configure-siem.md)|
+|[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|Integração de log|[Integração do SIEM com o Microsoft Cloud App Security](/cloud-app-security/siem)|
 |
 
 > [!TIP]

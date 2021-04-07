@@ -17,12 +17,12 @@ ms.collection:
 description: Saiba como os pools de entrega são usados para proteger a reputação dos servidores de email nos datacenters do Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 461b5f9aa0407c5115ab84a075c793139a8b4305
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ac3469150ef5cf5c1040fcddf7f0bc95e7a18805
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202997"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599906"
 ---
 # <a name="outbound-delivery-pools"></a>Pools de entrega de saída
 
@@ -35,7 +35,7 @@ ms.locfileid: "51202997"
 
 Os servidores de email nos datacenters do Microsoft 365 podem ser temporariamente considerados como os que enviam spam. Por exemplo, um ataque de malware ou spam mal-intencionado em uma organização de email local que envia emails de saída por meio do Microsoft 365 ou contas comprometidas do Microsoft 365. Os invasores também tentam evitar a detecção retransmitindo mensagens por meio do encaminhamento do Microsoft 365.
 
-Esses cenários podem resultar no endereço IP dos servidores de datacenter do Microsoft 365 afetados que aparecem em listas de bloqueio de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
+Esses cenários podem resultar no endereço IP dos servidores de datacenter do Microsoft 365 afetados que aparecem em listas de bloqueios de terceiros. As organizações de email de destino que usam essas listas de bloqueio rejeitarão emails dessas fontes de mensagens.
 
 ## <a name="high-risk-delivery-pool"></a>Pool de entrega de alto risco
 Para evitar isso, todas as mensagens de saída dos servidores de datacenter do Microsoft 365 que são determinadas como spam ou que excedem os limites de envio do serviço ou das políticas de [spam](configure-the-outbound-spam-policy.md) de saída são enviadas por meio do _pool_ de entrega de alto risco. [](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)
@@ -61,9 +61,3 @@ As possíveis causas para uma sobrecarga em NDRs incluem:
 - Um servidor de email desonesto.
 
 Todos esses problemas podem resultar em um aumento repentino no número de NDRs sendo processados pelo serviço. Muitas vezes, essas NDRs parecem ser spam para outros servidores de email e serviços (também conhecidos como _[backscatter](backscatter-messages-and-eop.md)_).
-
-## <a name="relay-pool"></a>Pool de retransmissão
-
-As mensagens encaminhadas ou retransmitida do Microsoft 365 são enviadas usando um pool de retransmissão especial, pois o destino final não deve considerar o Microsoft 365 como o remetente real. Também é importante isolar esse tráfego, pois existem cenários legítimos e inválidos para autoforwarding ou retransmitir emails do Microsoft 365. Semelhante ao pool de entrega de alto risco, um pool de endereços IP separado é usado para emails reenvados. Esse pool de endereços não é publicado, pois ele pode mudar com frequência.
-
-O Microsoft 365 precisa verificar se o remetente original é legítimo para que possamos entregar com confiança a mensagem encaminhada. Para fazer isso, a autenticação de email (SPF, DKIM e DMARC) precisa passar quando a mensagem chegar até nós. Nos casos em que podemos autenticar o remetente, usamos a Reescrita do Remetente para ajudar o receptor a saber que a mensagem encaminhada é de uma fonte confiável. Você pode ler mais sobre como isso funciona e o que pode fazer para ajudar a garantir que o domínio de envio passe autenticação no Esquema de Reescrita do Remetente [(SRS)](/office365/troubleshoot/antispam/sender-rewriting-scheme).

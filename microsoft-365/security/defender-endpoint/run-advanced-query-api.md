@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: caf7a1bacfd726c560356d542bec3cf56c6b39d4
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 40487143ff18cedb76c9f3f33c52cab24687c282
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200192"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604364"
 ---
 # <a name="advanced-hunting-api"></a>API de busca avançada
 
@@ -37,21 +37,27 @@ ms.locfileid: "51200192"
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 ## <a name="limitations"></a>Limitações
+
 1. Você só pode executar uma consulta em dados dos últimos 30 dias.
+
 2. Os resultados incluirão no máximo 100.000 linhas.
+
 3. O número de execuções é limitado por locatário:
-   - Chamadas de API: até 45 chamadas por minuto.
+   - Chamadas de API: até 45 chamadas por minuto, até 1500 chamadas por hora.
    - Tempo de execução: 10 minutos de tempo de execução a cada hora e 3 horas de tempo de execução por dia.
+
 4. O tempo máximo de execução de uma única solicitação é de 10 minutos.
+
 5. A resposta 429 representará atingir o limite de cota por número de solicitações ou por CPU. Leia o corpo da resposta para entender qual limite foi atingido. 
 
 ## <a name="permissions"></a>Permissões
+
 Uma das seguintes permissões é necessária para chamar essa API. Para saber mais, incluindo como escolher permissões, consulte [Use Microsoft Defender for Endpoint APIs](apis-intro.md)
 
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   AdvancedQuery.Read.All |    'Executar consultas avançadas'
-Delegada (conta corporativa ou de estudante) | AdvancedQuery.Read | 'Executar consultas avançadas'
+Delegado (conta corporativa ou de estudante) | AdvancedQuery.Read | 'Executar consultas avançadas'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:
@@ -59,7 +65,8 @@ Delegada (conta corporativa ou de estudante) | AdvancedQuery.Read | 'Executar co
 >- O usuário precisa ter acesso ao dispositivo, com base nas configurações do grupo de dispositivos (Consulte Criar e gerenciar grupos [de dispositivos](machine-groups.md) para obter mais informações)
 
 ## <a name="http-request"></a>Solicitação HTTP
-```
+
+```http
 POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 ```
 
@@ -71,6 +78,7 @@ Autorização | Portador {token}. **Obrigatório**.
 Content-Type    | application/json
 
 ## <a name="request-body"></a>Corpo da solicitação
+
 No corpo da solicitação, fornece um objeto JSON com os seguintes parâmetros:
 
 Parâmetro | Tipo    | Descrição
@@ -78,12 +86,13 @@ Parâmetro | Tipo    | Descrição
 Consulta | Texto |  A consulta a ser executado. **Obrigatório**.
 
 ## <a name="response"></a>Resposta
+
 Se tiver êxito, este método retornará 200 OK e _o objeto QueryResponse_ no corpo da resposta.
 
 
 ## <a name="example"></a>Exemplo
 
-Solicitação
+##### <a name="request"></a>Solicitação
 
 Este é um exemplo da solicitação.
 
@@ -101,7 +110,7 @@ POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 }
 ```
 
-Resposta
+##### <a name="response"></a>Resposta
 
 Veja a seguir um exemplo da resposta.
 
@@ -145,7 +154,8 @@ Veja a seguir um exemplo da resposta.
 }
 ```
 
-## <a name="related-topic"></a>Tópicos relacionados
+## <a name="related-topics"></a>Tópicos relacionados
+
 - [Introdução às APIs do Microsoft Defender para Endpoint](apis-intro.md)
 - [Busca Avançada do Portal](advanced-hunting-query-language.md)
-- [Busca Avançada usando o PowerShell](run-advanced-query-sample-powershell.md)
+- [Busca avançada usando o PowerShell](run-advanced-query-sample-powershell.md)

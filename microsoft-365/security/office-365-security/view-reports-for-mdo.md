@@ -20,12 +20,12 @@ description: Encontre e use relatórios para o Microsoft Defender para Office 36
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 28978dbca3f9e4039b4f8c21c49a2963802afa54
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 0b3e1ddf48ccd74b36c594d232c6761b921dee8c
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203034"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599894"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Exibir relatórios do Defender para o Office 365 no painel Relatórios no Centro de Conformidade & Segurança
 
@@ -114,7 +114,7 @@ Se você clicar em **Exibir** tabela de detalhes, o relatório fornece uma exibi
   - **Endereço do remetente**.
   - **ID da mensagem**
   - **Arquivo**
-  - **Assunto**
+  - **Subject**
 
   Se você clicar **em Filtros,** poderá modificar os resultados com os seguintes filtros:
 
@@ -183,7 +183,7 @@ Se você clicar em **Exibir** tabela de detalhes, o relatório fornece uma exibi
   - **Endereço do remetente**.
   - **ID da mensagem**
   - **Arquivo**
-  - **Assunto**
+  - **Subject**
 
   Se você clicar **em Filtros,** poderá modificar os resultados com os seguintes filtros:
 
@@ -282,8 +282,8 @@ O **relatório de proteção contra** ameaças de URL tem duas exibições agreg
 - **Ação de proteção de clique em URL**: mostra o número de cliques de URL pelos usuários na organização e os resultados do clique:
 
   - **Bloqueado** (o usuário foi impedido de navegar para a URL)
-  - **Bloqueado e clicado por meio**
-  - **Clicado durante a verificação**
+  - **Bloqueado e clicado (o** usuário optou por continuar navegando para a URL)
+  - **Clicado durante a verificação** (o usuário clicou no link antes de a verificação ser concluída)
 
   Um clique indica que o usuário clicou na página de bloqueio para o site mal-intencionado (os administradores podem desabilitar o clique em políticas de Links Seguros).
 
@@ -315,9 +315,9 @@ O **relatório de proteção contra** ameaças de URL tem duas exibições agreg
 Se você clicar em **Exibir** tabela de detalhes, o relatório fornece uma exibição quase em tempo real de todos os cliques que ocorrem na organização nos últimos 7 dias com os seguintes detalhes:
 
 - **Clique em hora**
-- **User**
+- **Usuário**
 - **URL**
-- **Ação**
+- **Action**
 - **App**
 
 Se você clicar **em Filtros** no modo de exibição de tabela de detalhes, poderá filtrar pelos mesmos critérios do modo de exibição de relatório e também por **Domínios** ou **Destinatários separados** por vírgulas.
@@ -350,11 +350,11 @@ Para exibir e usar os relatórios descritos neste artigo, você precisa ser memb
 - **Organization Management**
 - **Administrador de Segurança**
 - **Leitor de Segurança**
-- **Leitor Global**
+- **Leitor global**
 
 Para saber mais, confira [Permissões no Centro de Conformidade de Segurança](permissions-in-the-security-and-compliance-center.md).
 
-**Observação**: a adição de usuários à função correspondente do Azure Active Directory no Centro de administração do  Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Conformidade & Segurança e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
+**Observação**: a adição de usuários à função correspondente do Azure Active Directory no Centro de administração do  Microsoft 365 fornece aos usuários as permissões necessárias no Centro de Conformidade & Segurança e permissões para outros recursos no Microsoft 365. Para obter mais informações, confira [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>E se os relatórios não mostrarem dados?
 

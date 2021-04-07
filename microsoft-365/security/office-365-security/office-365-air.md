@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1460deef11a87044530c54c8b10637284829a0cd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6dfa22b2afb33c318eae8937888b5b75a1742938
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203354"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599458"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Investigação e resposta automatizadas (AIR) no Microsoft Defender para Office 365
 
@@ -81,11 +81,9 @@ Os recursos air são incluídos [no Microsoft Defender para Office 365](defender
 - [Políticas antimalware](protect-against-threats.md#part-1---anti-malware-protection)
 - [Proteção antiphishing](protect-against-threats.md#part-2---anti-phishing-protection)
 - [Proteção antispam](protect-against-threats.md#part-3---anti-spam-protection)
-- [Proteção antiphishing](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-2---anti-phishing-protection)
-- [Proteção antispam](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-3---anti-spam-protection)
-- [Links seguros e anexos seguros](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
-- [Anexos seguros para SharePoint, OneDrive e Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#part-5---verify-atp-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
-- [Limpeza automática de hora zero para email](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats#zero-hour-auto-purge-for-email-in-eop)
+- [Links seguros e anexos seguros](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
+- [Anexos seguros para SharePoint, OneDrive e Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
+- [Limpeza automática de hora zero para email](protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop)
 
 Além disso, revise as políticas [de](../../compliance/alert-policies.md)alerta da sua organização, especialmente as políticas padrão [na categoria gerenciamento de ameaças.](../../compliance/alert-policies.md#default-alert-policies)
 
@@ -94,7 +92,7 @@ Além disso, revise as políticas [de](../../compliance/alert-policies.md)alerta
 O Microsoft 365 fornece muitas políticas de alerta internas que ajudam a identificar abuso de permissões de administrador do Exchange, atividade de malware, possíveis ameaças externas e internas e riscos de governança de informações. Várias das políticas [de alerta padrão podem](../../compliance/alert-policies.md#default-alert-policies) disparar investigações automatizadas. A tabela a seguir descreve os alertas que disparam investigações automatizadas, sua gravidade no centro de segurança do Microsoft 365 e como eles são gerados:
 
 |Alerta|Severity|Como o alerta é gerado|
-|:---|:---|:---|
+|---|---|---|
 |Um clique de URL potencialmente mal-intencionado foi detectado|**High**|Esse alerta é gerado quando ocorre um dos seguintes: <ul><li>Um usuário protegido por [Links Seguros](safe-links.md) em sua organização clica em um link mal-intencionado</li><li>Alterações de veredito para URLs são identificadas pelo Microsoft Defender para Office 365</li><li>Os usuários substituem páginas de aviso de Links Seguros (com base na política de Links Seguros da [sua organização).](set-up-safe-links-policies.md)</li></ul> <p> Para obter mais informações sobre eventos que disparam esse alerta, consulte [Configurar políticas de Links Seguros.](set-up-safe-links-policies.md)|
 |Uma mensagem de email é relatada por um usuário como malware ou phishing|**Informações**|Esse alerta é gerado quando os usuários da sua organização relatam mensagens como emails de phishing usando o complemento [Mensagem](enable-the-report-message-add-in.md) de Relatório ou o [complemento Relatar Phishing](enable-the-report-phish-add-in.md).|
 |As mensagens de email que contêm malware são removidas após a entrega|**Informações**|Esse alerta é gerado quando todas as mensagens de email que contêm malware são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando [a limpeza automática zero hora.](zero-hour-auto-purge.md)|
@@ -122,7 +120,6 @@ As permissões são concedidas por meio de determinadas funções, como as descr
 - Administradores de segurança (incluindo administradores globais)
 - A equipe de operações de segurança da sua organização (incluindo leitores de segurança e aqueles com a **função Pesquisar e Limpar)**
 - Usuários finais
-
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>As alterações estão chegando em breve em seu centro de segurança
 
@@ -152,9 +149,9 @@ A tabela a seguir lista as alterações e melhorias que estão chegando ao AIR n
 |**Guia Entidades**|A **guia Entidades** tem um estilo tab-in-tab que inclui um exibição de resumo completo e a capacidade de filtrar por tipo de entidade. A **guia Entidades** agora inclui uma **opção Ir** para busca, além da opção Abrir no **Explorer.** Agora você pode usar o [Explorador de Ameaças](threat-explorer.md) ou a busca [avançada](../defender-endpoint/advanced-hunting-overview.md) para encontrar entidades e ameaças e filtrar os resultados.|
 |**Guia Ações**|A guia **Ações atualizada** agora inclui uma guia **Ações Pendentes** e uma guia **Histórico de** Ações. As ações podem ser aprovadas (ou rejeitadas) em um painel lateral que é aberto quando você seleciona uma ação pendente.|
 |**Guia Evidências**|Uma nova **guia Evidências** mostra as principais descobertas da entidade relacionadas às ações. As ações relacionadas a cada prova podem ser aprovadas (ou rejeitadas) em um painel lateral que é aberto quando você seleciona uma ação pendente.|
-|**Central de ações**|O Centro **de Ações** atualizado ( ) reúne ações pendentes e concluídas em [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) email, dispositivos e identidades. Para saber mais, confira Centro de ações. (Para saber mais, consulte [O Centro de Ações](https://docs.microsoft.com/microsoft-365/security/defender/mtp-action-center).)
-|**Página Incidentes**|A **página Incidentes** agora correlaciona várias investigações para fornecer uma visão melhor consolidada das investigações. ([Saiba mais sobre Incidentes](https://docs.microsoft.com/microsoft-365/security/defender/incidents-overview).)
-
+|**Central de ações**|O Centro **de Ações** atualizado ( ) reúne ações pendentes e concluídas em [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) email, dispositivos e identidades. Para saber mais, confira Centro de ações. (Para saber mais, consulte [O Centro de Ações](../defender/m365d-action-center.md).)|
+|**Página Incidentes**|A **página Incidentes** agora correlaciona várias investigações para fornecer uma visão melhor consolidada das investigações. ([Saiba mais sobre Incidentes](../defender/incidents-overview.md).)|
+|
 
 ## <a name="next-steps"></a>Próximas etapas
 

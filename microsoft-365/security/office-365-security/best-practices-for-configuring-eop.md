@@ -12,12 +12,12 @@ ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Siga estas recomendações de práticas práticas para o EOP (Proteção autônoma do Exchange Online) para se configurar para obter êxito e evitar erros comuns de configuração.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dfd0b7290bdcded887ef6b81d5b0d4acbdd6cddb
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 94586d409d6d8b53ba68c22b6b4f62d2b72266db
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202936"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599464"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Práticas recomendadas para configurar o EOP autônomo
 
@@ -48,7 +48,7 @@ Essas configurações abrangem um intervalo de recursos que estão fora das pol�
 
 ****
 
-|Nome do recurso de segurança|Padrão|Estrito|Comentário|
+|Nome do recurso de segurança|Padrão|Estrito|Comment|
 |---|---|---|---|
 |[Configurar o SPF para ajudar a prevenir falsificação](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Sim|Sim||
 |[Usar DKIM para validar emails enviados de seu domínio personalizado no Office 365](use-dkim-to-validate-outbound-email.md)|Sim|Sim||
@@ -60,7 +60,7 @@ Essas configurações abrangem um intervalo de recursos que estão fora das pol�
 |[Conectividade IMAP à caixa de correio](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
 |[Conectividade POP à caixa de correio](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Desabilitado|Desabilitado||
 |Envio SMTP autenticado|Desabilitado|Desabilitado|O envio SMTP do cliente autenticado (também conhecido como envio SMTP do cliente ou AUTH SMTP) é necessário para clientes POP3 e IMAP4 e aplicativos e dispositivos que geram e enviam emails. <p> Para obter instruções para habilitar e desabilitar o AUTH SMTP global ou seletivamente, consulte [Enable or disable authenticated client SMTP submission in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission).|
-|Conectividade EWS à caixa de correio|Desabilitado|Desabilitado|O Outlook usa os Serviços Web do Exchange para configurações de livre/ocupado, fora do escritório e compartilhamento de calendário. Se você não puder desabilitar o EWS globalmente, terá as seguintes opções: <ul><li>Use [as políticas de autenticação](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) para impedir que o EWS use autenticação básica se seus clientes deem suporte à autenticação moderna (autenticação moderna).</li><li>Use [As Regras de Acesso para Cliente](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para limitar o EWS a usuários específicos ou endereços IP de origem.</li><li>Controlar o acesso do EWS a aplicativos específicos globalmente ou por usuário. Para obter instruções, consulte [Control access to EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange).</li></ul> <p> O [add-in](enable-the-report-message-add-in.md) de mensagem Relatório e o complemento Relatar [phishing](enable-the-report-phish-add-in.md) usam REST por padrão em ambientes com suporte, mas retornarão ao EWS se REST não estiver disponível. Os ambientes com suporte que usam REST são:<ul><li>Exchange Online</li><li>Exchange 2019 ou Exchange 2016</li><li>Outlook atual para Windows de uma assinatura do Microsoft 365 ou compra única do Outlook 2019.</li><li>Outlook atual para Mac de uma assinatura do Microsoft 365 ou compra única do Outlook para Mac 2016 ou posterior.</li><li>Outlook para iOS e Android</li><li>Outlook na Web</li></ul>|
+|Conectividade EWS à caixa de correio|Desabilitado|Desabilitado|O Outlook usa os Serviços Web do Exchange para configurações de livre/ocupado, fora do escritório e compartilhamento de calendário. Se você não puder desabilitar o EWS globalmente, terá as seguintes opções: <ul><li>Use [as políticas de autenticação](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) para impedir que o EWS use autenticação básica se seus clientes deem suporte à autenticação moderna (autenticação moderna).</li><li>Use [As Regras de Acesso para Cliente](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para limitar o EWS a usuários específicos ou endereços IP de origem.</li><li>Controlar o acesso do EWS a aplicativos específicos globalmente ou por usuário. Para obter instruções, consulte [Control access to EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange).</li></ul> <p> O [add-in](enable-the-report-message-add-in.md) de mensagem Relatório e o complemento Relatar [phishing](enable-the-report-phish-add-in.md) usam REST por padrão em ambientes com suporte, mas retornarão ao EWS se REST não estiver disponível. Os ambientes com suporte que usam REST são:<ul><li>Exchange Online</li><li>Exchange 2019 ou Exchange 2016</li><li>Outlook atual para Windows de uma assinatura do Microsoft 365 ou compra única do Outlook 2019.</li><li>Outlook atual para Mac de uma assinatura do Microsoft 365 ou compra única do Outlook para Mac 2016 ou posterior.</li><li>Outlook para iOS e Android</li><li>Outlook na Web</li></ul>|
 |[Conectividade do PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)|Desabilitado|Desabilitado|Disponível para usuários de caixa de correio ou usuários de email (objetos de usuário retornados pelo cmdlet [Get-User).](/powershell/module/exchange/get-user)|
 |Usar [a inteligência de spoof](learn-about-spoof-intelligence.md) para adicionar os envios à sua lista de permitir|Sim|Sim||
 |[Bloqueio de Borda Baseado em Diretório (DBEB)](/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Habilitado|Habilitado|Tipo de Domínio = Autoritativo|

@@ -18,12 +18,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Saiba como configurar aplicativos do Microsoft 365 como Teams, OneDrive e SharePoint para colaboração com pessoas de fora da sua organização.
-ms.openlocfilehash: 359e72c12c43ca1ea984f93d87ab4868e6d1eb66
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 85aa77982fa15adb62bd587856546d2828edb942
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916389"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599814"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Colaborar com pessoas de fora da sua organização
 
@@ -33,6 +33,8 @@ Colaborar com pessoas de fora da sua organização consiste em dois componentes 
 
 - **Habilitar** o compartilhamento - Configure os controles de compartilhamento no Azure Active Directory, Teams, Grupos do Microsoft 365 e SharePoint para permitir o nível de compartilhamento que você deseja para sua organização.
 - **Habilitar** segurança adicional - Embora os recursos básicos de compartilhamento possam ser configurados para exigir a autenticação de pessoas de fora da sua organização, o Microsoft 365 fornece muitos recursos adicionais de segurança e conformidade para ajudá-lo a proteger seus dados e manter suas políticas de governança enquanto compartilha externamente.
+
+Leia Configurar a colaboração segura com [o Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams) e o Microsoft Teams para saber como o compartilhamento externo se vincula às diretrizes gerais de colaboração do Microsoft 365.
 
 ## <a name="enable-sharing"></a>Habilitar o compartilhamento
 

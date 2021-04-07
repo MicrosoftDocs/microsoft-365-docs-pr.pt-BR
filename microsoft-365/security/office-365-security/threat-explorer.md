@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no Centro de Conform
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1c5935115d7496aca22c3941f34983cddebe7b46
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 7c601169d76fe92ac3038ccb25c5c50aa390f714
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570979"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599882"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -113,7 +113,7 @@ As informações de marcas também são mostradas no flyout de cliques da URL. P
 > [!div class="mx-imgBorder"]
 > ![Marcas de URL](../../media/tags-urls.png)
 > 
-Saiba mais assistindo [a este vídeo](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4). 
+Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=UoVzN0lYbfY&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=4). 
 
 ## <a name="improvements-to-the-threat-hunting-experience-upcoming"></a>Melhorias na experiência de busca de ameaças (futuras)
 
@@ -520,7 +520,7 @@ Além dos cenários descritos neste artigo, você tem muito mais opções de rel
 - [Exibir arquivos mal-intencionados detectados no SharePoint Online, OneDrive e Microsoft Teams](./mdo-for-spo-odb-and-teams.md)
 - [Obter uma visão geral dos exibições no Explorador de Ameaças (e detecções em tempo real)](threat-explorer-views.md)
 - [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
-- [Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](../defender/m365d-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 

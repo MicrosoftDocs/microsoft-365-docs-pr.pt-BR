@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o portal Envios no Centro de Conformidade de Segurança & para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e arquivos para a Microsoft para verificação.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 96a5469b1093c71997747b2c4c3b49bc1964f72b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e0975d5b6c2d29c94a30f7bbc703221b80217761
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581065"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599870"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -78,7 +78,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
    - **Arquivo**: clique **em Escolher arquivo**. Na caixa de diálogo que é aberta, encontre e selecione o arquivo .eml ou .msg e clique em **Abrir**.
 
    > [!NOTE]
-   > Os administradores com o Defender para o Office 365 Plano 1 ou o Plano 2 podem enviar mensagens com até 30 dias. Outros administradores só poderão voltar 7 dias.
+   > A capacidade de enviar mensagens com até 30 dias foi temporariamente suspensa para clientes do Defender para o Office 365. Os administradores só poderão voltar 7 dias.
 
 2. Na seção **Destinatários,** especifique um ou mais destinatários com os quais você gostaria de executar uma verificação de política. A verificação de política determinará se o email foi ignorado devido a políticas de usuário ou organização.
 
@@ -225,7 +225,7 @@ Na parte superior da página, você pode inserir uma data de início, uma data d
 Para alterar os critérios de filtro, clique no botão **Remetente** e escolha um dos seguintes valores:
 
 - **Domínio do remetente**
-- **Assunto**
+- **Subject**
 - **Enviado por**
 - **Tipo de envio**
 - **IP do remetente**

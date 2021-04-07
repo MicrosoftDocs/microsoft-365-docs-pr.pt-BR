@@ -20,19 +20,18 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 5a705444c81d884c10b99e5f0d2bfbb9e4f057e2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c5f5837f4e4069a67bc080178fefd10bd2a08629
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203328"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599846"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendações de política para proteger o email
 
 **Aplica-se a**
 - [Proteção do Exchange Online](exchange-online-protection-overview.md)
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
-
 
 Este artigo descreve como implementar as políticas de acesso de dispositivo e identidade recomendadas para proteger clientes de email e email organizacionais que suportam autenticação moderna e acesso condicional. Essa orientação se baseia nas políticas [de](identity-access-policies.md) acesso a dispositivos e identidade comum e também inclui algumas recomendações adicionais.
 
@@ -103,7 +102,7 @@ Estas são as etapas:
 
 Para garantir que os usuários de dispositivos iOS e Android só possam acessar conteúdo de trabalho ou de estudante usando o Outlook para iOS e Android, você precisa de uma política de Acesso Condicional destinado a esses usuários em potencial.
 
-Consulte as etapas para configurar essa política em Gerenciar o acesso à colaboração de mensagens usando [o Outlook para iOS e Android.]( https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
+Consulte as etapas para configurar essa política em Gerenciar o acesso à colaboração de mensagens usando [o Outlook para iOS e Android.](/mem/intune/apps/app-configuration-policies-outlook#apply-conditional-access)
 
 ## <a name="set-up-message-encryption"></a>Configurar criptografia de mensagens
 

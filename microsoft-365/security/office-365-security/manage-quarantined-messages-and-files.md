@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a exibir e gerenciar mensagens em quarentena para todos os usuários no Exchange Online Protection (EOP). Os administradores em organizações com o Microsoft Defender para Office 365 também podem gerenciar arquivos em quarentena no SharePoint Online, no OneDrive for Business e no Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3dee441a3442454c5f2978422d18a2084f8377f3
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: 7dc7fd26d7a81bc76850af4799363c8d17fc1c83
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215529"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599519"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Gerenciar arquivos e mensagens em quarentena como administrador no EOP
 
@@ -189,7 +189,6 @@ Depois de selecionar uma mensagem, você tem várias opções para o que fazer c
 - **Exibir cabeçalho da mensagem**: escolha este link para visualizar o texto do cabeçalho da mensagem. Para analisar os valores e campos de cabeçalho em detalhes, copie o texto do cabeçalho da mensagem para a área de transferência e, em seguida, escolha **Analisador de Cabeçalhos de Mensagens da Microsoft** para acessar o Analisar de Conectividade Remota (clique com o botão direito e escolha **Abrir em uma nova guia** se não quiser deixar o Microsoft 365 para concluir essa tarefa). Cole o cabeçalho da mensagem na página na seção Analisador do cabeçalho da mensagem e escolha **Analisar cabeçalhos**:
 
 - **Visualizar mensagem**: no painel de submenu que é exibido, escolha uma das seguintes opções:
-
   - **Visualização da fonte**: mostra a versão HTML do corpo da mensagem com todos os links desabilitados.
   - **Visualização do texto**: mostra o corpo da mensagem em texto sem formatação.
 
@@ -197,7 +196,7 @@ Depois de selecionar uma mensagem, você tem várias opções para o que fazer c
 
 - **Mensagem de download**: no painel de submenu que é exibido, clique em **Compreendo os riscos de baixar esta mensagem** para salvar uma cópia local da mensagem no formato .eml.
 
-- **Bloquear Remetente**: isso impede que o remetente envie emails para a caixa de correio do destinatário do administrador.
+- **Bloquear Remetente**: impede que o remetente envie mensagens para destinatários na organização.
 
 - **Enviar mensagem**: no painel de sub-texto que aparece, escolha as seguintes opções:
 
