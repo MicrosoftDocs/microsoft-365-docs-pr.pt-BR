@@ -1,6 +1,6 @@
 ---
 title: Implantar recursos de proteção contra ameaças no Microsoft 365
-description: Obter uma visão geral dos serviços de proteção contra ameaças e segurança no Microsoft 365 E5.
+description: Obter uma visão geral dos serviços de proteção contra ameaças e recursos de segurança no Microsoft 365 E5. Proteja suas contas de usuário, dispositivos, conteúdo de email e muito mais com o Microsoft 365 E5.
 keywords: proteção contra ameaças, segurança, E5, ataque cibernético, malware, M365, solução
 ms.author: deniseb
 author: denisebmsft
@@ -17,16 +17,20 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 922e7b7ea8bceced7085af49485b3479a671d5cd
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 806c97a55b3cbe46d597566425cf71476586ecee
+ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599954"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51604373"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Implantar recursos de proteção contra ameaças no Microsoft 365 E5
 
-[Malware](/windows/security/threat-protection/intelligence/understanding-malware)e ataques cibernéticos sofisticados, como ameaças [sem arquivo,](/windows/security/threat-protection/intelligence/fileless-threats)são uma ocorrência comum. As empresas precisam proteger a si mesmos e seus clientes com recursos eficazes de segurança de IT. Os ataques cibernéticos podem causar grandes problemas para sua organização, desde perda de confiança até problemas financeiros, tempo de inatividade que ameaçam os negócios e muito mais. Proteger contra ameaças é importante, mas pode ser um desafio determinar onde concentrar o tempo, o esforço e os recursos da sua organização. 
+Esta solução descreve os poderosos recursos de proteção contra ameaças no Microsoft 365 E5. Leia esta solução para obter uma visão geral do que está incluído, como ela funciona e como começar a implantar esses recursos em sua organização.
+
+## <a name="why-protecting-against-threats-is-important"></a>Por que proteger contra ameaças é importante 
+
+[Malware](/windows/security/threat-protection/intelligence/understanding-malware)e ataques cibernéticos sofisticados, como ameaças [sem arquivo,](/windows/security/threat-protection/intelligence/fileless-threats)são uma ocorrência comum. As empresas precisam proteger a si mesmos e seus clientes com recursos eficazes de segurança de IT. Os ataques cibernéticos podem causar grandes problemas para sua organização, desde perda de confiança até problemas financeiros, tempo de inatividade que ameaçam os negócios e muito mais. Proteger contra ameaças é importante, mas pode ser um desafio determinar onde concentrar o tempo, o esforço e os recursos da sua organização. O Microsoft 365 E5 pode ajudar. 
 
 As soluções de segurança da Microsoft são integradas aos nossos produtos e serviços. Os recursos de automação e aprendizado de máquina reduzem a carga em suas equipes de segurança para garantir que os itens certos sejam abordados. E a força das soluções de segurança da Microsoft é construída em trilhões de sinais que processam todos os dias em nosso [Gráfico de Segurança Inteligente.](/graph/security-concept-overview) As soluções de segurança do Microsoft 365 incluem o [Microsoft 365 Defender](../security/defender/microsoft-365-defender.md), uma solução que reúne sinais em seus emails, dados, dispositivos e identidades para pintar uma imagem de ameaças avançadas contra sua organização.
 
@@ -45,11 +49,13 @@ No Microsoft 365 E5, os recursos de proteção contra ameaças são integrados p
 
 O Microsoft 365 Defender reúne os sinais e os dados em um centro de segurança unificado [do Microsoft 365.](/microsoft-365/security/defender/overview-security-center) 
 
-![Ilustração conceitual do painel do Microsoft 365 Defender](../media/deploy-threat-protection/deploy-threat-protection-across-m365-mtp.png)
+> [!div class="mx-imgBorder"]
+> ![Ilustração conceitual do painel do Microsoft 365 Defender](../media/deploy-threat-protection/deploy-threat-protection-across-m365-mtp.png)
 
 A ilustração a seguir mostra um caminho recomendado para implantar esses recursos individuais. 
 
-![Sinais de proteção contra ameaças do M365](../media/deploy-threat-protection/deploy-threat-protection-across-m365.png)
+> [!div class="mx-imgBorder"]
+> ![Sinais de proteção contra ameaças do M365](../media/deploy-threat-protection/deploy-threat-protection-across-m365.png)
 
 |Solução/recursos  |Descrição  |
 |---------|---------|
@@ -62,29 +68,27 @@ A ilustração a seguir mostra um caminho recomendado para implantar esses recur
 > [!TIP]
 > Organizações com várias equipes de segurança podem implementar esses recursos em paralelo. 
 
-## <a name="deploy-your-threat-protection-solution"></a>Implantar sua solução de proteção contra ameaças
+## <a name="plan-to-deploy-your-threat-protection-solution"></a>Planejar a implantação da solução de proteção contra ameaças
 
- O diagrama a seguir ilustra o processo de alto nível para implantar recursos de proteção contra ameaças. 
+O diagrama a seguir ilustra o processo de alto nível para implantar recursos de proteção contra ameaças. 
 
 ![Processo para implantar recursos de proteção contra ameaças](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
 
-Para garantir que sua organização tenha a melhor proteção possível, configurar e implantar sua solução de segurança com um processo que inclua as seguintes etapas:
+Para garantir que sua organização tenha a melhor proteção possível, configurar e implantar sua solução de segurança usando um processo que inclua as seguintes etapas:
 
-1. [Configurar a autenticação multifacional e políticas de Acesso Condicional](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
-2. [Configurar o Microsoft Defender para Identidade](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity)
-3. [Ativar o Microsoft 365 Defender](deploy-threat-protection-configure.md#step-3-turn-on-microsoft-365-defender)
-4. [Configurar o Defender para Office 365](deploy-threat-protection-configure.md#step-4-configure-microsoft-defender-for-office-365)
-5. [Configurar o Microsoft Defender para Ponto de Extremidade](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint)
-6. [Configurar o Microsoft Cloud App Security](deploy-threat-protection-configure.md#step-6-configure-microsoft-cloud-app-security)
-7. [Monitorar status e tomar ações](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions)
-8. [Treinar usuários](deploy-threat-protection-configure.md#step-8-train-users)
+1. [Configurar a autenticação multifacional e políticas de Acesso Condicional.](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
+2. [Configurar o Microsoft Defender para Identidade](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity).
+3. [A turn on Microsoft 365 Defender](deploy-threat-protection-configure.md#step-3-turn-on-microsoft-365-defender).
+4. [Configurar o Defender para o Office 365](deploy-threat-protection-configure.md#step-4-configure-microsoft-defender-for-office-365).
+5. [Configurar o Microsoft Defender para Ponto de Extremidade](deploy-threat-protection-configure.md#step-5-configure-microsoft-defender-for-endpoint).
+6. [Configurar o Microsoft Cloud App Security](deploy-threat-protection-configure.md#step-6-configure-microsoft-cloud-app-security).
+7. [Monitore o status e tome ações](deploy-threat-protection-configure.md#step-7-monitor-status-and-take-actions).
+8. [Treinar usuários](deploy-threat-protection-configure.md#step-8-train-users).
 
 Seus recursos de proteção contra ameaças podem ser configurados em paralelo, portanto, se você tiver várias equipes de segurança de rede responsáveis por serviços diferentes, eles poderão configurar os recursos de proteção da sua organização ao mesmo tempo.
 
 ## <a name="next-step"></a>Próxima etapa
 
+Prossiga [para Configurar recursos de proteção contra ameaças no Microsoft 365](deploy-threat-protection-configure.md).
 
-![Processo para implantar recursos de proteção contra ameaças](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
-
-Prossiga [para Configurar recursos de proteção contra ameaças no Microsoft 365](deploy-threat-protection-configure.md)
 
