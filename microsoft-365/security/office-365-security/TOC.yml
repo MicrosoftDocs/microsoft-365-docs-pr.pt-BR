@@ -6,6 +6,8 @@
       items:
         - name: O que é o Defender para Office 365?
           href: defender-for-office-365.md
+        - name: Passo a passo da proteção contra ameaças no Defender para Office 365
+          href: protection-stack-microsoft-defender-for-office365.md
         - name: Avaliar o Defender para Office 365
           href: office-365-evaluation.md
         - name: Novidades no Defender para Office 365
