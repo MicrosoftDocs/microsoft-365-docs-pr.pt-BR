@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Determine onde os dados de cliente do Microsoft 365 estão armazenados em todo o mundo
-ms.openlocfilehash: 28bfa7c18aff485e084e4d77bb2a36f0f5b7e95f
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19df44a702d842d4171d867946fb818d3f36fd80
+ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905675"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51615226"
 ---
 # <a name="data-locations-for-the-european-union"></a>Locais de dados da União Europeia
 
@@ -92,7 +92,7 @@ A Microsoft protege seus dados usando várias camadas de protocolos de seguranç
 
 Por padrão, as Teclas Gerenciadas pela Microsoft protegem os dados dos seus clientes. Os dados que persistem em qualquer mídia física são sempre criptografados usando protocolos de criptografia compatíveis com FIPS 140-2. Você também pode usar chaves gerenciadas pelo cliente (CMK), [criptografia dupla](../compliance/double-key-encryption.md) e/ou módulos de segurança de hardware (HSMs) para aumentar a proteção de dados.
 
-Todo o tráfego de dados que se move entre os centros de dados também está protegido por padrões de segurança IEEE 802.1 AE MAC, o que impede ataques físicos "por intermediários".
+Além disso, por padrão, a Microsoft usa o protocolo de [Segurança da Camada de Transporte (TLS)](https://wikipedia.org/wiki/Transport_Layer_Security) para criptografar dados quando estão viajando entre os serviços de nuvem e os clientes. Os serviços da Microsoft negociam uma conexão TLS com sistemas cliente que se conectam aos serviços do Microsoft 365. 
 
 Para evitar o acesso físico não autorizado aos centros de dados, empregamos controles operacionais rigorosos e processos que incluem monitoramento de vídeo 24x7, funcionários e processos de segurança treinados, controles de acesso multifatores e cartões inteligentes. Após o fim da vida útil, os discos de dados serão destruídos e destruídos. Se um drive de disco usado no armazenamento sofrer uma falha de hardware ou alcançar o fim da vida útil, ele será apagado ou destruído com segurança. Os dados no drive são completamente substituídos para garantir que os dados não possam ser recuperados de forma alguma. Quando esses dispositivos estiverem descomissionados, eles serão triturados e destruídos de acordo com o NIST SP 800-88 R1, Diretrizes para a Limpeza de Mídia. Os registros da destruição são mantidos e revisados como parte do processo de auditoria e conformidade da Microsoft. Todos os serviços do Microsoft 365 utilizam o armazenamento de mídia aprovado e os serviços de gerenciamento de alienação.
 
