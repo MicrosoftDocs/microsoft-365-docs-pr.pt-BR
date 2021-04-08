@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Agora você pode aplicar políticas de DLP a chats e canais do Microsoft Teams. Leia este artigo para saber mais sobre como ele funciona.
-ms.openlocfilehash: 40c55ed486efc75619b514a60b707ac75554953b
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: bd6fa1c04a57f64997d5646374007641afa0f958
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445659"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632233"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Prevenção contra perda de dados e Microsoft Teams
 
@@ -34,7 +34,7 @@ Para saber mais sobre os requisitos de licenciamento, confira [Diretrizes do Lic
 Recentemente, [os recursos de](data-loss-prevention-policies.md) prevenção contra perda de dados (DLP) foram estendidos para incluir mensagens de chat e canal do Microsoft Teams, incluindo mensagens de canal **privado**. 
 
 > [!IMPORTANT]
-> A DLP atualmente só se aplica às mensagens reais no thread de chat ou canal. As notificações de atividade - que incluem uma visualização de mensagem  curta e aparecem com base nas configurações de notificação de um usuário - não estão incluídas na DLP do Teams no momento. Quaisquer informações confidenciais presentes na parte da mensagem exibida na visualização permanecerão visíveis na notificação mesmo após a política DLP ter sido aplicada e removida o inforamtion sensível da mensagem em si.
+> A DLP atualmente só se aplica às mensagens reais no thread de chat ou canal. As notificações de atividade - que incluem uma visualização de mensagem  curta e aparecem com base nas configurações de notificação de um usuário - não estão incluídas na DLP do Teams no momento. Quaisquer informações confidenciais presentes na parte da mensagem exibida na visualização permanecerão visíveis na notificação mesmo depois que a política DLP tiver sido aplicada e removida informações confidenciais da própria mensagem.
 
 Se sua organização tiver DLP, agora você pode definir políticas que impedem que as pessoas compartilhem informações confidenciais em um canal do Microsoft Teams ou sessão de chat. Aqui estão alguns exemplos de como essa proteção funciona:
 
@@ -184,7 +184,7 @@ Para garantir que documentos do SharePoint que contenham informações confidenc
           > [!div class="mx-imgBorder"]
           > ![Condições de DLP para detectar o compartilhamento externo de conteúdos confidenciais](../media/dlp-teams-external-sharing/external-condition.png)
 
-    - **Ações**
+    - **Actions**
         - Restringir o acesso ao conteúdo para usuários externos
         
         - Notificar os usuários com dicas de política e email

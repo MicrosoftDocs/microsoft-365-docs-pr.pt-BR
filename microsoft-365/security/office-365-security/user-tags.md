@@ -16,12 +16,12 @@ ms.collection:
 description: Os administradores podem aprender a identificar grupos específicos de usuários com marcas de usuário no Microsoft Defender para Office 365 Plano 2. A filtragem de marca está disponível em alertas, relatórios e investigações no Microsoft Defender para Office 365 para identificar rapidamente os usuários marcados.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6f98dcfe3e8c44e852134e7a12def4ff78c1bcdd
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4c439dcb91831475bc10da4a01d0fa29e7aae359
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203148"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632197"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Marcas de usuário no Microsoft Defender para Office 365
 
@@ -34,6 +34,9 @@ As marcas de usuário são identificadores para grupos específicos de usuários
 - **Marcas personalizadas**: você mesmo cria essas marcas de usuário.
 
 Se sua organização tiver o Defender for Office 365 Plan 2 (incluído na sua assinatura ou como complemento), você poderá criar marcas de usuário personalizadas, além de usar a marca de contas de prioridade.
+
+> [!NOTE]
+> Atualmente, você só pode aplicar marcas de usuário a usuários de caixa de correio.
 
 Depois de aplicar marcas de sistema ou marcas personalizadas aos usuários, você pode usar essas marcas como filtros em alertas, relatórios e investigações:
 
@@ -64,6 +67,8 @@ Para ver como as marcas de usuário fazem parte da estratégia para ajudar a pro
   - O gerenciamento de marca de usuário é controlado pelas funções **Leitor de Marca e** Gerenciador de **Marca.**
 
 - Você também pode gerenciar e monitorar contas de prioridade no Centro de administração do Microsoft 365. Para obter instruções, consulte [Manage and monitor priority accounts](../../admin/setup/priority-accounts.md).
+
+- Para obter informações sobre como proteger contas _privilegiadas_ (contas de administrador), consulte [este tópico](/azure/architecture/framework/security/critical-impact-accounts).
 
 ## <a name="use-the-security--compliance-center-to-create-user-tags"></a>Use o Centro de Conformidade & segurança para criar marcas de usuário
 

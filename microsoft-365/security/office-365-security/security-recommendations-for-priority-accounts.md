@@ -20,12 +20,12 @@ ms.collection:
 description: Os administradores podem aprender a elevar as configurações de segurança e usar relatórios, alertas e investigações para contas prioritárias em suas organizações do Microsoft 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9bb2586c11a22286bde5be01f1e9b3e5e0d981ac
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 73be3832b2391b6f47e4c796daf76c884a17dcdd
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203327"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632216"
 ---
 # <a name="security-recommendations-for-priority-accounts-in-microsoft-365"></a>Recomendações de segurança para contas prioritárias no Microsoft 365
 
@@ -47,6 +47,9 @@ O Microsoft 365 e o Microsoft Defender para Office 365 contêm vários recursos 
 |[Monitorar contas de prioridade em alertas, relatórios e detecções](#monitor-priority-accounts-in-alerts-reports-and-detections)|||![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |[Treinar usuários](#train-users)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|![Incluído](../../media/d238e041-6854-4a78-9141-049224df0795.png)|
 |
+
+> [!NOTE]
+> Para obter informações sobre como proteger contas _privilegiadas_ (contas de administrador), consulte [este tópico](/azure/architecture/framework/security/critical-impact-accounts).
 
 ## <a name="increase-sign-in-security-for-priority-accounts"></a>Aumentar a segurança de login para contas prioritárias
 
@@ -117,7 +120,7 @@ O Microsoft 365 fornece os seguintes recursos para ajudar a informar os usuário
 |---|---|---|
 |Microsoft 365|[Caminhos de aprendizado personalizáveis](/office365/customlearning/)|Esses recursos podem ajudá-lo a montar um treinamento para usuários em sua organização.|
 |Segurança do Microsoft 365|[Módulo de aprendizagem: proteja sua organização com segurança interna e inteligente do Microsoft 365](/learn/modules/security-with-microsoft-365)|Este módulo permite descrever como os recursos de segurança do Microsoft 365 funcionam em conjunto e articular os benefícios desses recursos de segurança.|
-|Multi-factor Authentication|[Verificação em duas etapas: Qual é a página de verificação adicional?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time)|Este artigo ajuda os usuários finais a entender o que é a autenticação multifatar e por que ela está sendo usada em sua organização.|
+|Autenticação multifator|[Verificação em duas etapas: Qual é a página de verificação adicional?](/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time)|Este artigo ajuda os usuários finais a entender o que é a autenticação multifatar e por que ela está sendo usada em sua organização.|
 |Treinamento de simulação de ataque|[Começar a usar o Treinamento de simulação de ataque](attack-simulation-training-get-started.md)|O treinamento de simulação de ataque no Microsoft Defender para Office 365 Plano 2 permite ao administrador configurar, iniciar e acompanhar ataques de phishing simulados contra grupos específicos de usuários.|
 
 Além disso, a Microsoft recomenda que os usuários tomem as ações descritas neste artigo: Proteger sua conta e dispositivos [contra hackers e malware.](https://support.microsoft.com/office/066d6216-a56b-4f90-9af3-b3a1e9a327d6) Essas ações incluem:

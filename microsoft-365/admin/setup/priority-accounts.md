@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Monitorar mensagens enviadas por email com falha e atraso enviadas para ou de contas com alto impacto comercial.
-ms.openlocfilehash: 0bba1f87f80de9fea249ce2604e83ceeadfb79ee
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f67b9c6f0eaa229b650026670cf1b2adf88ab3c0
+ms.sourcegitcommit: 58fbcfd6437bfb08966b79954ca09556e636ff4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050637"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51632175"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Gerenciar e monitorar contas prioritárias
 
@@ -26,10 +26,16 @@ Em cada organização do Microsoft 365, há pessoas essenciais, como executivos,
 
 Para ajudar sua organização a proteger essas contas, agora você pode designar usuários específicos como contas prioritárias e aproveitar recursos específicos do aplicativo que oferecem a eles proteção extra. No futuro, mais aplicativos e recursos darão suporte a contas de prioridade e, para começar, anunciamos dois **recursos:** proteção de conta de prioridade e monitoramento de fluxo de **emails premium.**
 
-- Proteção de conta de prioridade **–** o Microsoft Defender para Office 365 (anteriormente a Proteção Avançada contra Ameaças do Office 365) dá suporte a contas prioritárias como marcas que podem ser usadas em filtros em alertas, relatórios e investigações. Para obter mais informações, confira [Marcas de usuário no Microsoft Defender para Office 365](../../security/defender-365-security/user-tags.md).
+- Proteção de conta de prioridade **–** o Microsoft Defender para Office 365 (anteriormente a Proteção Avançada contra Ameaças do Office 365) dá suporte a contas prioritárias como marcas que podem ser usadas em filtros em alertas, relatórios e investigações. Para obter mais informações, confira [Marcas de usuário no Microsoft Defender para Office 365](../../security/office-365-security/user-tags.md).
+
+  Uma pergunta natural é: "Todos os usuários não são uma prioridade? Por que não designar todos os usuários como contas prioritárias?" Sim, todos os usuários são uma prioridade, mas a proteção da conta de prioridade oferece os seguintes benefícios adicionais:
+
+  - **Heurística adicional**: Nossa análise do fluxo de emails nos datacenters da Microsoft indica que os padrões de fluxo de emails para executivos da empresa são diferentes dos funcionários médios. A proteção de conta de prioridade oferece heurísticas adicionais especificamente adaptadas aos executivos da empresa que não beneficiaria um funcionário normal.
+  - **Visibilidade adicional no relatório**: Na verdade, as informações para todos os usuários (ou todos os usuários afetados) já estão disponíveis em alertas, relatórios e investigações. A marca de contas de prioridade como filtro permite direcionar especificamente suas investigações.
+
 - **Monitoramento de Fluxo de Email Premium** - O fluxo de emails saudável pode ser fundamental para o sucesso dos negócios, e atrasos ou falhas de entrega podem ter um impacto negativo sobre a empresa. Você pode escolher um limite para emails com falha ou atraso, receber alertas quando esse limite for excedido e exibir um relatório de problemas de email para contas de prioridade. Para obter mais informações, confira Problemas de email para o relatório de contas [de prioridade no EAC moderno](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report)
 
-Para práticas recomendadas de segurança para contas prioritárias, consulte [Recomendações de segurança para contas prioritárias.](../../security/defender-365-security/security-recommendations-for-priority-accounts.md)
+Para práticas recomendadas de segurança para contas prioritárias, consulte [Recomendações de segurança para contas prioritárias.](../../security/office-365-security/security-recommendations-for-priority-accounts.md)
 
 ## <a name="before-you-begin"></a>Antes de começar
 
@@ -44,6 +50,8 @@ O recurso Monitoramento de **Fluxo de** Email Premium descrito neste tópico est
 
 > [!NOTE]
 > Você pode monitorar até 250 contas de prioridade.
+
+Ao aplicar a proteção de conta de prioridade a uma caixa de correio, você também deve aplicar a proteção de conta de prioridade aos usuários que têm acesso à caixa de correio (por exemplo, o CEO e o assistente executivo do CEO que gerencia o calendário do CEO).
 
 ### <a name="add-priority-accounts-from-the-setup-page"></a>Adicionar contas de prioridade da página De instalação
 
