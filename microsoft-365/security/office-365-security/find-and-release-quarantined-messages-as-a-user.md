@@ -156,7 +156,7 @@ Depois de selecionar uma mensagem, você tem opções para o que fazer com as me
 
 - **Remover da quarentena**: depois de clicar em **Sim** no aviso que é exibido, a mensagem é imediatamente excluída.
 
-- **Bloquear Remetente**: Evita que o remetente envie mensagens para você.
+- **Bloquear Remetente**: evita que o remetente envie mensagens para você.
 
 Quando terminar, clique em **Fechar**.
 

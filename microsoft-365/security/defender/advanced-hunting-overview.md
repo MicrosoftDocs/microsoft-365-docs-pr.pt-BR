@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 3aa964f8e213d64f583738d8957899c1b7b5146c
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 3532fd461fff02fac54e96e0a1a1e69c39c16907
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501096"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51657014"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Busca proativamente por ameaças com busca avançada no Microsoft 365 Defender
 
@@ -54,6 +54,17 @@ Esse recurso é semelhante à busca [avançada no Microsoft Defender para Ponto 
 - Microsoft Defender para Identidade?
 
 Para usar a busca avançada, [a ligue o Microsoft 365 Defender](m365d-enable.md).
+
+### <a name="before-you-begin"></a>Antes de começar
+
+Os usuários precisam de um dos seguintes níveis de permissões para acessar o Microsoft Defender:
+
+- Acesso completo (leitura e gravação)
+- Acesso somente leitura
+
+**Acesso total:** os usuários com acesso total podem salvar, modificar e compartilhar uma consulta. A atribuição de direitos de acesso completo requer a adição dos usuários às funções internas "Administrador de Segurança" ou "Administrador Global" no Azure Active Directory (AAD).
+
+**Acesso somente leitura:** os usuários com acesso somente leitura podem fazer logoff e exibir todos os alertas e informações relacionadas. Eles não poderão salvar, modificar ou compartilhar uma consulta. Atribuir direitos de acesso somente leitura requer adicionar os usuários à função interna "Leitor de Segurança" no AAD.
 
 ## <a name="get-started-with-advanced-hunting"></a>Introdução à busca avançada
 

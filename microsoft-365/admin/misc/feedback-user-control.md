@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre comentários que seus usuários podem enviar para a Microsoft sobre produtos microsoft.
-ms.openlocfilehash: 0a6c895eacd7a1cf8077141c6a848236a53818e7
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 29fe6b7f43b3c888c3848daeb6ab4c2152a9c44c
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644783"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650048"
 ---
 # <a name="learn-about-microsoft-feedback-for-your-organization"></a>Saiba mais sobre os comentários da Microsoft para sua organização
 
@@ -49,9 +49,9 @@ Se os usuários estão usando um dos aplicativos da Microsoft e desejam fornecer
 
 Os usuários também podem taxar sua experiência e fornecer informações adicionais sobre sua experiência por meio de prompts de pesquisa iniciados pelo sistema. Esses prompts ocorrem dentro dos produtos do Microsoft 365 de vez em quando. Quando solicitado, os usuários podem escolher se querem fornecer comentários. Os prompts de pesquisa normalmente aparecem na parte inferior direita do aplicativo. Se o usuário decidir fornecer comentários, descartar o prompt ou permitir que o prompt desapareça por conta própria, esse usuário não verá a pesquisa novamente por algum tempo. A Microsoft também aproveita um processo de governança para limitar o número dessas pesquisas iniciadas pelo sistema.  A intenção da governança é garantir que os usuários não sejam sobrecarregados pelo número de prompts de pesquisa.
 
-:::image type="content" source="../../media/feedback-outlook-example.png" alt-text="Captura de tela: Exemplo de comentários no produto para o Outlook":::
-:::image type="content" source="../../media/how-likely-recommend.png" alt-text="Captura de tela: Qual a probabilidade de você recomendar a pesquisa do Microsoft 365":::
-:::image type="content" source="../../media/feedback-in-product1.png" alt-text="Captura de tela: exemplos de páginas de comentários no produto":::
+:::image type="content" source="../../media/feedback-love.png" alt-text="Captura de tela: Exemplo de solicitação de feedback no produto":::
+
+:::image type="content" source="../../media/feedback-excel.png" alt-text="Captura de tela: Exemplo de solicitação de feedback no produto":::
 
 ## <a name="what-kind-of-feedback-is-best"></a>Que tipo de comentários é melhor?
 
@@ -90,3 +90,7 @@ Trabalhamos para ganhar confiança, garantindo que nos concentremos no tratament
 Asseguramos que os comentários recebidos sejam armazenados e manipulados em regras de governança da Microsoft e que ele só possa ser acessado para usos aprovados.
 
 Colocamos você no controle de sua privacidade com ferramentas fáceis de usar e opções claras. Somos transparentes sobre como coletamos e usamos dados, para que você possa tomar decisões informadas sobre o que deseja compartilhar. Protegemos os dados que você confia a nós com segurança e criptografia fortes. Respeitamos as leis de privacidade local e lutamos pela proteção legal de sua privacidade como um direito humano. Não usamos seu email, chat, arquivos ou outro conteúdo pessoal para direcionar anúncios para você. Quando coletamos dados, os usamos para melhorar suas experiências. Saiba mais sobre a abordagem da Microsoft para privacidade [aqui](https://privacy.microsoft.com/). Saiba mais sobre nossa visão geral [de privacidade.](/compliance/assurance/assurance-privacy)
+
+## <a name="how-can-i-see-my-users-feedback"></a>Como posso ver os comentários do meu usuário?
+
+Em breve, compartilharemos os dados de comentários que coletamos para os produtos microsoft de volta para você. Estamos trabalhando em uma nova experiência no Centro de administração do Microsoft 365 que permite que você exclua, exclua e exporte os dados de comentários para sua organização. Isso oferece transparência direta e informações úteis sobre as experiências dos usuários com produtos do Microsoft 365.

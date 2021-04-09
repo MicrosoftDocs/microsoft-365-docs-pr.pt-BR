@@ -18,15 +18,15 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: O Microsoft Defender para Office 365 inclui anexos seguros, links seguros, ferramentas anti-phishing avançadas, ferramentas de relatórios e recursos de inteligência de ameaças.
+description: O Microsoft Defender para Office 365 inclui Anexos Seguros, Links Seguros, ferramentas avançadas de anti-phishing, ferramentas de relatórios e recursos de inteligência contra ameaças.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dad2722a1f9e99fad53c83348d049fa9a60f8b62
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: e7570a925f4f24148874eada8a835ae473efaeb9
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580985"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650345"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Obter o Microsoft Defender para Office 365
 
@@ -63,8 +63,8 @@ Se você é novo no Microsoft Defender para Office 365 ou aprende melhor *fazend
   - anti-phishing
   - antispam
 - Configure tudo com '*seguro*' no nome.
-  - links seguros
-  - anexos seguros
+  - Links seguros
+  - Anexos seguros
 - Defenda as cargas de trabalho (por exemplo, SharePoint Online, OneDrive e Teams)
 - Proteja com a Limpeza Automática Zero Hora
 

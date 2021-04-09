@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerencie comentários que os usuários podem enviar para a Microsoft sobre produtos da Microsoft.
-ms.openlocfilehash: 9c6ed46b21a5ee697c4c512c09defd66e6b961c9
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: c92adec1689d6f0c46b03ae4f46c567f054b6457
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644787"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650011"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>Gerenciar comentários da Microsoft para sua organização
 
@@ -32,7 +32,7 @@ Como administrador de uma organização do Microsoft 365, agora há várias pol�
 
 Para saber mais sobre os tipos de comentários e como a Microsoft usa comentários do usuário, consulte Saiba mais sobre os [comentários da Microsoft para sua organização.](../misc/feedback-user-control.md)
 
-A tabela a seguir representa quais aplicativos e serviços estão conectados atualmente às políticas de feedback mostradas na tabela de políticas de feedback abaixo.
+A tabela a seguir representa quais aplicativos e serviços estão conectados atualmente às políticas de feedback mostradas na tabela de políticas de feedback abaixo. Consulte abaixo a tabela para ver exemplos de captura de tela.
 
 |**Aplicativos & Serviços**|**Comentários no produto** <br> |**Pesquisas no produto** <br> |**Coleção Metadata** <br> |**Envolvimento do cliente** <br> |
 |:-----|:-----|:-----|:-----|:-----|
@@ -51,15 +51,7 @@ A tabela a seguir representa quais aplicativos e serviços estão conectados atu
 |**Visio**|Sim|Sim|Sim|Sim|
 |**Yammer**|Sim|Sim|Sim|Sim|
 
-Aqui estão alguns exemplos de comentários do produto.
-
-**Comentários no produto**
-
-:::image type="content" source="../../media/feedback-in-product-help.png" alt-text="Captura de tela: Exemplo de ajuda no produto":::
-
-**Pesquisas no produto**
-
-:::image type="content" source="../../media/feedback-in-product-survey.png" alt-text="Captura de tela: exemplo de pesquisa no produto do aplicativo Microsoft":::
+[Consulte aqui alguns exemplos de pesquisas no produto e comentários.](https://docs.microsoft.com/microsoft-365/admin/misc/feedback-user-control?view=o365-worldwide#in-product-surveys)
 
 **Coleção Metadata**
 
