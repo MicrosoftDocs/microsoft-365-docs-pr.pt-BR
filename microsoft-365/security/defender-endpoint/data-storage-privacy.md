@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 228a8813bcfff052c7f861dcd2962a94cb58c0fb
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: e19c64c01c892a8a5f47f5892882feab1242f897
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165960"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644483"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Privacidade e armazenamento de dados do Microsoft Defender para Ponto de Extremidade
 
@@ -94,6 +94,9 @@ Você pode escolher a política de retenção de dados para seus dados. Isso det
 
 **Na rescisão ou expiração do contrato**<br>
 Seus dados serão mantidos e estarão disponíveis enquanto a licença estiver em período de carência ou no modo suspenso. No final desse período, esses dados serão apagados dos sistemas da Microsoft para torná-los irrecuperáveis, no máximo 180 dias após a rescisão ou expiração do contrato.
+
+**Dados de Busca Avançada**<br>
+A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos.
 
 
 ## <a name="can-microsoft-help-us-maintain-regulatory-compliance"></a>A Microsoft pode nos ajudar a manter a conformidade regulamentar?

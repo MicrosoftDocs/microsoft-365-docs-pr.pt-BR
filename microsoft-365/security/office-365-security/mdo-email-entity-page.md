@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Os clientes do Microsoft Defender para Office 365 E5 e ATP P1 e ATP P2 agora podem obter uma exibição de 360 graus de cada email com a página da entidade de email.
-ms.openlocfilehash: 6d2777113e7e9f9ce760dab3b83252eceab520ff
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 7797e9f5965f43b856c2c34df1f99fddf72d5df5
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599482"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650333"
 ---
 # <a name="the-email-entity-page"></a>A página de entidade de email
 
@@ -119,7 +119,7 @@ Os usuários verão detalhes de detonação enriquecidos para anexos ou hiperlin
   - Quando a regra lixo eletrônico é habilitada na caixa de correio, a Proteção do Exchange Online (EOP) é capaz de mover mensagens para Lixo Eletrônico de acordo com alguns critérios. A movimentação pode ser baseada na ação de veredito de filtragem de spam *Mover* mensagem para a pasta Lixo Eletrônico ou na lista Remetentes Bloqueados na caixa de correio. Desabilitar a regra lixo eletrônico impede a entrega de mensagens para a pasta Lixo Eletrônico com base na lista *De envios seguros* na caixa de correio.
   - Quando a regra  de lixo eletrônico é desabilitada na caixa de correio, o EOP não pode mover mensagens para a pasta Lixo Eletrônico com base na ação de veredito de filtragem de spam *Mover* mensagem para a pasta Lixo Eletrônico ou a coleção de listas seguras na caixa de correio.
 
-- *Nível de conformidade em massa (BCL)*: o nível de reclamação em massa (BCL) da mensagem. Uma BCL mais alta indica que uma mensagem de email em massa tem mais probabilidade de gerar reclamações (o resultado natural se o email provavelmente for spam).
+- Nível de reclamação em massa *(BCL)*: O nível de reclamação em massa (BCL) da mensagem. Uma BCL mais alta indica que uma mensagem de email em massa tem mais probabilidade de gerar reclamações (o resultado natural se o email provavelmente for spam).
 
 - *Nível de Confiança de Spam (SCL)*: O nível de confiança de spam (SCL) da mensagem. Um valor mais alto indica que é mais provável que a mensagem seja spam.
 

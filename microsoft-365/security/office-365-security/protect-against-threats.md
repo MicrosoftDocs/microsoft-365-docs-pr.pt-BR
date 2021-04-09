@@ -20,12 +20,12 @@ description: Os administradores podem aprender sobre a proteção contra ameaça
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 189325dab37a548c717cd554ecd1d37c19ae57ea
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2df88df9f1f0e2c14c0adcf0d5772189a1276e9d
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203066"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650225"
 ---
 # <a name="protect-against-threats"></a>Proteção contra ameaças
 
@@ -59,9 +59,9 @@ Os recursos de proteção contra ameaças estão incluídos em *todas as* assina
 |Proteção anti-phishing|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Proteção antispam|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Limpeza automática de hora zero (para email)|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|Proteção contra URLs mal-intencionadas e arquivos em documentos de email e do Office (links seguros e anexos seguros)|[Obter o Microsoft Defender para Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|Ativar anexos seguros para cargas de trabalho do SharePoint, OneDrive e Microsoft Teams|[Defender para Office 365 ](turn-on-mdo-for-spo-odb-and-teams.md)|
-|Proteção anti-phishing avançada|[Microsoft Defender para Office 365?](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Proteção contra URLs mal-intencionadas e arquivos em documentos de email e do Office (Links Seguros e Anexos Seguros)|[Obter o Microsoft Defender para Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Ativar anexos seguros para cargas de trabalho do SharePoint, OneDrive e Microsoft Teams|[Defender para Office 365](turn-on-mdo-for-spo-odb-and-teams.md)|
+|Proteção anti-phishing avançada|[Defender para Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Funções e permissões
 

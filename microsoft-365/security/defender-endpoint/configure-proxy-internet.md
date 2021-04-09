@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b529b1c7fa5c4f9f81cb6bfbb5f1a6bd7823a9ad
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 97d1d50e2557cbb760248738b1f096614873958f
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587594"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644699"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Configurar configurações de proxy de dispositivo e conectividade com a Internet
 
@@ -57,6 +57,13 @@ A configuração winhttp é independente das configurações de proxy de navega�
 ## <a name="configure-the-proxy-server-manually-using-a-registry-based-static-proxy"></a>Configure o servidor proxy manualmente usando um proxy estático baseado no registro
 
 Configure um proxy estático baseado no Registro para permitir que apenas o sensor Defender for Endpoint reporte dados de diagnóstico e se comunique com o Defender para serviços de Ponto de Extremidade se um computador não tiver permissão para se conectar à Internet.
+
+> [!NOTE]
+> - Ao usar essa opção no Windows 10 ou no Windows Server 2019, é recomendável ter a seguinte com build (ou posterior) e acúmulo cumulativo de atualizações:</br>
+> Windows 10, versão 1909 - https://support.microsoft.com/kb/4601380</br>
+> Windows 10, versão 2004 - https://support.microsoft.com/kb/4601382</br>
+> Windows 10, versão 20H2 - https://support.microsoft.com/kb/4601382</br>
+> Essas atualizações melhoram a conectividade e a confiabilidade do canal CnC (Comando e Controle).</br>
 
 O proxy estático é configurável por meio da Política de Grupo (GP). A política do grupo pode ser encontrada em:
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 687077b1c9ff2449d9994875419a97cf0c503c2f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 86bc6ef03438b637f62cf0e2a46e418dbea7a3c1
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51581077"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650273"
 ---
 # <a name="microsoft-365-defender"></a>Microsoft 365 Defender
 
@@ -56,7 +56,7 @@ Com a solução integrada do Microsoft 365 Defender, os profissionais de seguran
 
 Neste guia interativo, você aprenderá a proteger sua organização com o Microsoft 365 Defender. Você verá como o Microsoft 365 Defender pode ajudá-lo a detectar riscos de segurança, investigar ataques à sua organização e evitar atividades prejudiciais automaticamente.
 
-[Confira o guia interativo](https://aka.ms/M365Defender-InteractiveGuide)
+[Conferir o guia interativo](https://aka.ms/M365Defender-InteractiveGuide)
 
 
 
@@ -92,7 +92,11 @@ Os recursos entre produtos do Microsoft 365 Defender incluem:
 - **Busca de ameaças** entre produtos - As equipes de segurança podem aproveitar seu conhecimento organizacional exclusivo para buscar sinais de comprometimento criando suas próprias consultas personalizadas sobre os dados brutos coletados pelos vários produtos de proteção. O Microsoft 365 Defender fornece acesso baseado em consulta a 30 dias de sinais brutos históricos e dados de alerta no ponto de extremidade e dados do Microsoft Defender para Office 365. 
 
 
-## <a name="get-started"></a>Introdução
+## <a name="get-started"></a>Começar
 Os requisitos de licenciamento do Microsoft 365 Defender devem ser atendidos antes que você possa habilitar o serviço no centro de segurança do Microsoft 365 [em security.microsoft.com](https://security.microsoft.com). Para obter mais informações, leia:
 - [Requisitos de licenciamento](prerequisites.md#licensing-requirements)
 - [Ativar o Microsoft 365 Defender](m365d-enable.md)
+
+
+## <a name="see-also"></a>Confira também
+- [Implantar recursos de proteção contra ameaças no Microsoft 365 E5](https://docs.microsoft.com/microsoft-365/solutions/deploy-threat-protection)

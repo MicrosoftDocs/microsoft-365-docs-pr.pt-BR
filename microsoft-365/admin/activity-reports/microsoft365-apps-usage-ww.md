@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Saiba como obter um relatório de uso do Microsoft 365 Apps usando o painel Relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: 88ef5e1291c35bbac050609e26e2ac5adef9d981
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 5b45e7994126018701c409d4fbfc6f1172924773
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579585"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644262"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>Relatórios do Microsoft 365 no centro de administração - uso do Microsoft 365 Apps
 
@@ -33,7 +33,7 @@ O painel Relatórios  do Microsoft 365 mostra a visão geral da atividade em tod
 
 
  > [!NOTE]
- > Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou administrador do Exchange, SharePoint ou Skype for Business para ver relatórios.
+ > Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou administrador do Exchange, SharePoint ou Skype for Business para ver relatórios. As ativações de computador compartilhadas não são suportadas neste relatório.
 
 ## <a name="how-to-get-to-the-microsoft-365-apps-usage-report"></a>Como chegar ao relatório de uso do Microsoft 365 Apps
 
@@ -44,7 +44,8 @@ O painel Relatórios  do Microsoft 365 mostra a visão geral da atividade em tod
 
 Você pode obter uma exibição na atividade do Microsoft 365 Apps do usuário, olhando para os gráficos **Usuários** **e Plataforma.**
 
-![Relatório de uso do Microsoft 365 Apps](../../media/0bcf67e6-a6e4-4109-a215-369f9f20ad84.png)
+> [!div class="mx-imgBorder"]
+> ![Relatório de uso do Microsoft 365 Apps](../../media/0bcf67e6-a6e4-4109-a215-369f9f20ad84.png)
 
 |Item|Descrição|
  |:-----|:-----|

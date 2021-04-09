@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: Neste artigo, os administradores podem aprender sobre a proteção de Links Seguros no Defender para Office 365 para proteger sua organização contra phishing e outros ataques que usam URLs mal-intencionadas.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 06ec3ab1a255e9eaa8c190ed5c248c9587273e03
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1f27e1bbd051bd43d1f160707589db2bb7189b76
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203330"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644771"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Links seguros no Microsoft Defender para Office 365
 
@@ -118,11 +118,11 @@ As configurações em políticas de Links Seguros que se aplicam a mensagens de 
 
 - **Não permita que os usuários cliquem** na URL original : Permite ou impede que os usuários cliquem na página de aviso [para](#warning-pages-from-safe-links) a URL original. O valor recomendado está habilitado.
 
-- **Exibir a identidade visual da organização em páginas** de notificação e aviso: essa opção mostra a identidade visual da sua organização em páginas de aviso. A identidade visual ajuda os usuários a identificar avisos legítimos, pois as páginas de aviso padrão da Microsoft geralmente são usadas por invasores. Para obter mais informações sobre identidade visual personalizada, consulte Adicionar identidade visual à página de login do [Azure Active Directory](/azure/active-directory/fundamentals/customize-branding)da sua organização.
+- **Exibir a identidade visual da organização em páginas** de notificação e aviso: essa opção mostra a identidade visual da sua organização em páginas de aviso. A identidade visual ajuda os usuários a identificar avisos legítimos, pois as páginas de aviso padrão da Microsoft geralmente são usadas por invasores. Para obter mais informações sobre identidade visual personalizada, consulte [Personalizar o tema do Microsoft 365 para sua organização.](../../admin/setup/customize-your-organization-theme.md)
 
 - **Não reescreva as SEGUINTES URLs**: deixa URLs como estão. Mantém uma lista personalizada de URLs seguras que não precisam de verificação. A lista é exclusiva para cada política de Links Seguros. Para obter mais informações sobre a lista Não reescrever as **URLs** a seguir, consulte as listas "Não reescrever as [URLs a seguir"](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies) na seção Políticas de Links Seguros mais adiante neste artigo.
 
-Para obter mais informações sobre os valores recomendados para configurações de política padrão e estrita para políticas de Links Seguros, consulte Configurações de política de [Links Seguros.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
+  Para obter mais informações sobre os valores recomendados para configurações de política padrão e estrita para políticas de Links Seguros, consulte Configurações de política de [Links Seguros.](recommended-settings-for-eop-and-office365.md#safe-links-policy-settings)
 
 - **Filtros de** destinatário : Você precisa especificar as condições e exceções de destinatário que determinam a quem a política se aplica. Você pode usar essas propriedades para condições e exceções:
 
@@ -167,7 +167,7 @@ As configurações a seguir em políticas de Links Seguros que se aplicam a link
 - **Não rastrear cliques do usuário**
 - **Não permitir que os usuários cliquem na URL original**
 
-Essas configurações são explicadas nas configurações anteriores [de Links Seguros para mensagens de email.](#safe-links-settings-for-email-messages)
+Essas configurações são explicadas anteriormente em [Configurações de Links Seguros para mensagens de email.](#safe-links-settings-for-email-messages)
 
 Depois de ativar a proteção de Links Seguros para o Microsoft Teams, as URLs no Teams são verificadas em uma lista de links mal-intencionados conhecidos quando o usuário protegido clica no link (proteção de hora em clique). URLs não são regravadas. Se um link for considerado mal-intencionado, os usuários terão as seguintes experiências:
 
@@ -256,22 +256,22 @@ Quando um usuário em uma política de Links Seguros ativo clica em um link bloq
 
 Você configura a lista de URLs nas configurações globais para Links Seguros. Para obter instruções, [consulte Configure the "Block the following URLs" list](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center).
 
-**Observações**:
-
-- Para uma lista verdadeiramente universal de URLs bloqueadas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
-
-- Limites:
-  - O número máximo de entradas é 500.
-  - O comprimento máximo de uma entrada é de 128 caracteres.
-  - Todas as entradas não podem exceder 10.000 caracteres.
-
-- Não inclua uma barra de avanço ( `/` ) no final da URL. Por exemplo, use `https://www.contoso.com` , não `https://www.contoso.com/` .
-
-- Uma URL somente de domínio (por `contoso.com` exemplo ou `tailspintoys.com` ) bloqueará qualquer URL que contenha o domínio.
-
-- Você pode bloquear um subdomínio sem bloquear o domínio completo. Por exemplo, bloqueia qualquer URL que contenha o subdomínio, mas não bloqueia `toys.contoso.com*` URLs que contenham o domínio completo `contoso.com` .
-
-- Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL.
+> [!NOTE]
+> 
+> - Para uma lista verdadeiramente universal de URLs bloqueadas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
+> 
+> - Limites:
+>   - O número máximo de entradas é 500.
+>   - O comprimento máximo de uma entrada é de 128 caracteres.
+>   - Todas as entradas não podem exceder 10.000 caracteres.
+> 
+> - Não inclua uma barra de avanço ( `/` ) no final da URL. Por exemplo, use `https://www.contoso.com` , não `https://www.contoso.com/` .
+> 
+> - Uma URL somente de domínio (por `contoso.com` exemplo ou `tailspintoys.com` ) bloqueará qualquer URL que contenha o domínio.
+> 
+> - Você pode bloquear um subdomínio sem bloquear o domínio completo. Por exemplo, bloqueia qualquer URL que contenha o subdomínio, mas não bloqueia `toys.contoso.com*` URLs que contenham o domínio completo `contoso.com` .
+> 
+> - Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL.
 
 ### <a name="entry-syntax-for-the-block-the-following-urls-list"></a>Sintaxe de entrada para a lista "Bloquear as URLs a seguir"
 
@@ -296,20 +296,20 @@ Cada política de Links Seguros contém uma lista Não reescrever a lista de **U
 
 Para adicionar entradas à lista em políticas de Links Seguros novas ou existentes, consulte [Create Safe Links policies](set-up-safe-links-policies.md#use-the-security--compliance-center-to-create-safe-links-policies) or Modify Safe Links [policies](set-up-safe-links-policies.md#use-the-security--compliance-center-to-modify-safe-links-policies).
 
-**Observações**:
-
-- Os clientes a seguir não reconhecem as listas Não reescrever **as SEGUINTES URLs** em políticas de Links Seguros. Os usuários incluídos nas polícias podem ser impedidos de acessar as URLs com base nos resultados da verificação de Links Seguros nesses clientes:
-
-  - Microsoft Teams
-  - Aplicativos web do Office
-
-  Para uma lista verdadeiramente universal de URLs permitidas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
-
-- Considere adicionar URLs internas comumente usadas à lista para melhorar a experiência do usuário. Por exemplo, se você tiver serviços locais, como Skype for Business ou SharePoint, poderá adicionar essas URLs para exclui-las da verificação.
-
-- Se você já tiver Não reescreve as seguintes entradas **URLs** em suas políticas de Links Seguros, não deixe de revisar as listas e adicionar curingas conforme necessário. Por exemplo, sua lista tem uma entrada como e você decide incluir `https://contoso.com/a` subcaminho como `https://contoso.com/a/b` . Em vez de adicionar uma nova entrada, adicione um caractere curinga à entrada existente para que ela se torne `https://contoso.com/a/*` .
-
-- Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL. Caracteres curinga incluem explicitamente prefixos ou subdomas. Por exemplo, a entrada não é igual a , porque permite que as pessoas `contoso.com` `*.contoso.com/*` `*.contoso.com/*` visitem subdomas e caminhos no domínio especificado.
+> [!NOTE]
+> 
+> - Os clientes a seguir não reconhecem as listas Não reescrever **as SEGUINTES URLs** em políticas de Links Seguros. Os usuários incluídos nas polícias podem ser impedidos de acessar as URLs com base nos resultados da verificação de Links Seguros nesses clientes:
+> 
+>   - Microsoft Teams
+>   - Aplicativos web do Office
+> 
+>   Para uma lista verdadeiramente universal de URLs permitidas em todos os lugares, consulte [Manage the Tenant Allow/Block List](tenant-allow-block-list.md).
+> 
+> - Considere adicionar URLs internas comumente usadas à lista para melhorar a experiência do usuário. Por exemplo, se você tiver serviços locais, como Skype for Business ou SharePoint, poderá adicionar essas URLs para exclui-las da verificação.
+> 
+> - Se você já tiver Não reescreve as seguintes entradas **URLs** em suas políticas de Links Seguros, não deixe de revisar as listas e adicionar curingas conforme necessário. Por exemplo, sua lista tem uma entrada como e você decide incluir `https://contoso.com/a` subcaminho como `https://contoso.com/a/b` . Em vez de adicionar uma nova entrada, adicione um caractere curinga à entrada existente para que ela se torne `https://contoso.com/a/*` .
+> 
+> - Você pode incluir até três caracteres curinga ( `*` ) por entrada de URL. Caracteres curinga incluem explicitamente prefixos ou subdomas. Por exemplo, a entrada não é igual a , porque permite que as pessoas `contoso.com` `*.contoso.com/*` `*.contoso.com/*` visitem subdomas e caminhos no domínio especificado.
 
 ### <a name="entry-syntax-for-the-do-not-rewrite-the-following-urls-list"></a>Sintaxe de entrada para a lista "Não reescrever as URLs a seguir"
 

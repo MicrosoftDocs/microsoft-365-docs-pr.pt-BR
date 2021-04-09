@@ -18,12 +18,12 @@ description: Saiba como reconhecer e remediar o consentimento ilícito concede a
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4a9b3ff11acb32a4b3038cc18922f8e22fda0b4c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 7869419677ba1d5d6b480b7f0dea7f67880af0c7
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203091"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644675"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Detectar e remediar concessões de consentimento ilícito
 
@@ -86,7 +86,7 @@ Você pode fazer isso para seus usuários com o Portal do Azure Active Directory
 
 Você pode procurar os aplicativos aos quais qualquer usuário individual concedeu permissões usando o Portal do [Azure Active Directory](https://portal.azure.com/).
 
-1. Entre no Portal do Azure com direitos administrativos.
+1. Entre no portal do Azure com direitos administrativos.
 
 2. Selecione a folha do Azure Active Directory.
 
@@ -128,7 +128,7 @@ A maneira mais simples de verificar o ataque de Concessão de Consentimento Ilí
 5. Execute este comando do PowerShell:
 
    ```powershell
-   Get-AzureADPSPermissions.ps1 | Export-csv -Path "Permissions.csv" -NoTypeInformation
+   .\Get-AzureADPSPermissions.ps1 | Export-csv -Path "Permissions.csv" -NoTypeInformation
    ```
 
 O script produz um arquivo chamado Permissions.csv. Siga estas etapas para procurar concessões de permissão ilícitas de aplicativo:

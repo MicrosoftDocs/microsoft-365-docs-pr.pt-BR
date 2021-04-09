@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Informações para administradores de TI para gerenciar rótulos de confidencialidade em aplicativos do Office para área de trabalho, dispositivos móveis e Web.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a82eba3801509ed2e8ffb46ab32045466204fab
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 3aa5c8065b882dff670d6b829141955bf615d933
+ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498828"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51599836"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Gerenciar rótulos de confidencialidade em aplicativos do Office
 
@@ -85,18 +85,20 @@ Os números listados são as versão mínima do aplicativo do Office necessária
 |[Exigir uma justificativa para alterar um rótulo](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Fornecer um link de ajuda para uma página de ajuda personalizada](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Marcar o conteúdo](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
-|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables)                                              | Em revisão                     | Em revisão                 | Em revisão         | Em revisão           | Em revisão               |
+|[Marcações dinâmicas com variáveis](#dynamic-markings-with-variables) <sup>1</sup>                                              | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Atribuir permissões agora](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Permitir que usuários atribuam permissões: <br /> – Não Encaminhar](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21+                 | 4.7.1+         | 4.0.39+           | Sim               |
 |[Permitir que usuários atribuam permissões: <br /> – Criptografar Somente](encryption-sensitivity-labels.md#let-users-assign-permissions)  |2011+ | Em revisão | Em revisão  | Em revisão | Em implantação |
-|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Em implantação: 2101+                        | 16.43+ <sup>\*</sup>                    | Em revisão            | Em revisão                | Sim                |
+|[Exigir que os usuários apliquem um rótulo a seus emails e documentos](#require-users-to-apply-a-label-to-their-email-and-documents)   | Em implantação: 2101+                        | 16.43+ <sup>2</sup>                    | Em revisão            | Em revisão                | Sim                |
 |[Atividade do usuário relacionada a rótulos de auditoria](data-classification-activity-explorer.md) | 2011+ | Em revisão | Em revisão           | Em revisão               | Em revisão |
-|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>\*</sup>                    | Em revisão           | Em revisão               | Sim |
+|[Aplicar um rótulo de confidencialidade automaticamente ao conteúdo](apply-sensitivity-label-automatically.md)                    | 2009+                      | 16.44+ <sup>2</sup>                    | Em revisão           | Em revisão               | Sim |
 |
 
-**Rodapé:**
+**Notas de rodapé:**
 
-<sup>\*</sup> Requer o [novo Outlook para Mac](https://support.microsoft.com/office/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439)
+<sup>1</sup>Atualmente, são suportadas apenas as variáveis [Item.Label e If.App](#dynamic-markings-with-variables)
+<br />
+<sup>2</sup> Requer o [novo Outlook para Mac](https://support.microsoft.com/office/the-new-outlook-for-mac-6283be54-e74d-434e-babb-b70cefc77439)
 
 
 ## <a name="office-built-in-labeling-client-and-other-labeling-solutions"></a>Cliente de rotulagem interna do Office e outras soluções de rotulagem
@@ -291,20 +293,20 @@ Ao usar aplicativos do Office nesses cenários, um usuário com rotulagem intern
 ### <a name="dynamic-markings-with-variables"></a>Marcações dinâmicas com variáveis
 
 > [!IMPORTANT]
-> Atualmente, nem todos os aplicativos, em todas as plataformas, dão suporte a marcações dinâmicas de conteúdo que você pode especificar para cabeçalhos, rodapés e marcas d'água. Para aplicativos que não dão suporte a esse recurso, aplicam-se as marcações como o texto original especificado na configuração de rótulo, em vez de resolver as variáveis.
+> Atualmente, nem todos os aplicativos, em todas as plataformas, dão suporte a marcações dinâmicas de conteúdo que você pode especificar para cabeçalhos, rodapés e marcas d'água. Para aplicativos que não possuem suporte a esse recurso, aplicam-se as marcações como o texto original especificado na configuração de rótulo, em vez de resolver as variáveis.
 > 
-> O cliente de rotulagem unificada da Proteção de Informações do Azure dá suporte a marcações dinâmicas. Sobre a rotulagem interna do Office, confira as tabelas na seção [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página.
+> O cliente de rotulagem unificada da Proteção de Informações do Azure oferece suporte a marcações dinâmicas e todas as variáveis listadas. Para a rotulagem integrada ao Office, consulte as tabelas na seção de [recursos](#support-for-sensitivity-label-capabilities-in-apps) desta página para versões mínimas e, em seguida, a tabela a seguir para identificar as variáveis com suporte.
 
 Ao configurar um rótulo de confidencialidade para marcações de conteúdo, você pode usar as seguintes variáveis na cadeia de texto do seu título, rodapé ou marca d'água:
 
 | Variável | Descrição | Exemplo quando um rótulo é aplicado |
 | -------- | ----------- | ------- |
-| `${Item.Label}` | Nome de exibição de rótulo do rótulo aplicado| **Geral**|
-| `${Item.Name}` | Nome do arquivo ou assunto do email do conteúdo que está sendo rotulado | **Sales.docx** |
-| `${Item.Location}` | O caminho e o nome do arquivo do documento que está sendo rotulado, ou o assunto do email de um email que está sendo rotulado | **\\\Sales\2020\Q3\Report.docx**|
-| `${User.Name}` | Nome de exibição do usuário que está aplicando o rótulo| **Ricardo Cavalcanti** |
-| `${User.PrincipalName}` | UPN (nome principal do usuário) do Azure AD do usuário que aplica o rótulo | **rcavalcanti\@contoso.com** |
-| `${Event.DateTime}` | Data e hora em que o conteúdo é rotulado, no fuso horário local do usuário que aplica o rótulo | **10/8/2020 13:30** |
+| `${Item.Label}` | Nome de exibição de rótulo do rótulo aplicado <br /><br> Rotulagem integrada: compatível com Word, Excel, PowerPoint e Outlook | **Geral**|
+| `${Item.Name}` | Nome do arquivo ou assunto do email do conteúdo que está sendo rotulado <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint | **Sales.docx** |
+| `${Item.Location}` | O caminho e o nome do arquivo do documento que está sendo rotulado, ou o assunto do email de um email que está sendo rotulado <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint | **\\\Sales\2020\Q3\Report.docx**|
+| `${User.Name}` | Nome de exibição do usuário que está aplicando o rótulo <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint | **Ricardo Cavalcanti** |
+| `${User.PrincipalName}` | UPN (nome principal do usuário) do Azure AD do usuário que aplica o rótulo <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint  | **rcavalcanti\@contoso.com** |
+| `${Event.DateTime}` | Data e hora em que o conteúdo é rotulado, no fuso horário local do usuário que aplica o rótulo <br /><br> Rotulagem integrada: compatível com Word, Excel e PowerPoint  | **10/8/2020 13:30** |
 
 > [!NOTE]
 > A sintaxe dessas variáveis diferencia maiúsculas de minúsculas.
@@ -312,9 +314,6 @@ Ao configurar um rótulo de confidencialidade para marcações de conteúdo, voc
 #### <a name="setting-different-visual-markings-for-word-excel-powerpoint-and-outlook"></a>Definir marcações visuais diferentes para o Word, o Excel, o PowerPoint e o Outlook
 
 Como variável adicional, configure marcações visuais por tipo de aplicativo do Office usando uma instrução de variável "If.App" na cadeia de texto, e identifique o tipo de aplicativo usando os valores do **Word**, do **Excel**, do **PowerPoint** ou do **Outlook**. Você também pode abreviar esses valores, o que é necessário se você quiser especificar mais de um na mesma instrução If.App.
-
-> [!NOTE]
-> Para concluir, estão incluídas instruções para o Outlook, embora atualmente com suporte apenas para o cliente de rotulagem unificada da Proteção de Informações do Azure.
 
 Use a seguinte sintaxe:
 

@@ -21,12 +21,12 @@ ms.custom:
 description: Os administradores podem aprender sobre as configurações e filtros anti-spam que ajudarão a evitar spam no Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5f19330d7af9c4a6601baa9562766eb5a6e7052a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: eaff771d6fa0490819ec076b5a9a43ac843cf207
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203391"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650261"
 ---
 # <a name="anti-spam-protection-in-eop"></a>Proteção anti-spam no EOP
 
@@ -91,7 +91,7 @@ Aqui estão algumas práticas recomendadas que se aplicam a qualquer cenário:
 
   - **DMARC**: Autenticação, Relatórios e Conformidade de Mensagens baseadas em domínio ajuda os sistemas de email de destino a determinar o que fazer com mensagens que falham nas verificações SPF ou DKIM e fornece outro nível de confiança para seus parceiros de email. Para obter mais informações, [consulte Use DMARC to validate email in Microsoft 365](use-dmarc-to-validate-email.md).
 
-- **Verifique suas** configurações de email em massa : O limite de BCL (nível de conformidade em massa) que você configura em políticas anti-spam determina se o email em massa (também conhecido como email cinza _)_ está marcado como spam. A configuração somente do PowerShell _MarkAsSpamBulkMail_ que está em por padrão também contribui para os resultados. Para obter mais informações, consulte [Configure anti-spam policies in Microsoft 365](configure-your-spam-filter-policies.md).
+- **Verifique suas** configurações de email em massa : O limite bcl (nível de reclamação em massa) que você configura em políticas anti-spam determina se o email em massa (também conhecido como email cinza _)_ está marcado como spam. A configuração somente do PowerShell _MarkAsSpamBulkMail_ que está em por padrão também contribui para os resultados. Para obter mais informações, consulte [Configure anti-spam policies in Microsoft 365](configure-your-spam-filter-policies.md).
 
 ### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>Impedir a entrega de spam na Caixa de Entrada
 

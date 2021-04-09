@@ -1,7 +1,7 @@
 ---
 title: Implantar recursos de proteção contra ameaças no Microsoft 365
 description: Obter uma visão geral dos serviços de proteção contra ameaças e recursos de segurança no Microsoft 365 E5. Proteja suas contas de usuário, dispositivos, conteúdo de email e muito mais com o Microsoft 365 E5.
-keywords: proteção contra ameaças, segurança, E5, ataque cibernético, malware, M365, solução
+keywords: proteção avançada contra ameaças, segurança, microsoft 365 E5, solução, proteger dispositivos, defender
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 806c97a55b3cbe46d597566425cf71476586ecee
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: ea28e9c244b6b8faaeb9b1f3685d57169605cbb9
+ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604373"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650309"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Implantar recursos de proteção contra ameaças no Microsoft 365 E5
 

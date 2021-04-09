@@ -26,12 +26,12 @@ search.appverid:
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
 description: Exibir o status de saúde dos serviços do Microsoft 365 antes de chamar o suporte para ver se há uma interrupção ativa do serviço.
-ms.openlocfilehash: 30b677a80e5a08d75534a91aa04d735443660f18
-ms.sourcegitcommit: 3d2261af22bebbbf7efa8a0d3135225a15bd6ba8
+ms.openlocfilehash: e0ab4eaa1f7a96168839a4abef2f0f254a21d0ad
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215475"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644627"
 ---
 # <a name="how-to-check-microsoft-365-service-health"></a>Como verificar a saúde do serviço do Microsoft 365
 
@@ -47,7 +47,7 @@ Se você não conseguir entrar no centro de administração, poderá usar a pág
 1. Vá para o Centro de administração do Microsoft 365 em [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339) , e entre com uma conta de administrador.
 
     > [!NOTE]
-    > As pessoas às quais a função de administrador global ou do serviço é atribuída podem visualizar a integridade do serviço. Para permitir que os administradores do Exchange, SharePoint e Skype for Business visualizem a integridade do serviço, eles também devem receber a função de administrador do serviço. Para obter mais informações sobre funções que podem exibir a saúde do serviço, consulte [Sobre funções de administrador](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles).
+    > As pessoas que são atribuídas à função de administrador global ou de suporte ao serviço podem exibir a saúde do serviço. Para permitir que os administradores do Exchange, SharePoint e Skype for Business visualizem a integridade do serviço, eles também devem receber a função de administrador do serviço. Para obter mais informações sobre funções que podem exibir a saúde do serviço, consulte [Sobre funções de administrador](../admin/add-users/about-admin-roles.md?preserve-view=true&view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles).
   
 2. Se você não estiver usando o novo centro de administração, na home **page,** selecione a opção **Experimentar** o novo centro de administração no canto superior direito.
 
@@ -117,7 +117,7 @@ Na maioria das vezes, os serviços aparecerão como saudáveis sem mais informa�
   
 ### <a name="incidents-and-advisories"></a>Incidentes e avisos
 
-| Ícone | Descrição |
+| Icon | Descrição |
 |:-----|:-----|
 |![Information icon for advisory](../media/a7f5fd21-c760-4948-9bc1-50f7c8070e28.png)|Quando um serviço exibe um aviso, estamos cientes de um problema que está afetando alguns usuários, mas o serviço ainda está disponível. Em um aviso, muitas vezes há uma solução para o problema, e o problema pode ser intermitente ou ter alcance e impacto limitados no usuário.  <br/> |
 |![Exclamation point icon for incident](../media/a636db57-6083-44dc-bbd5-556850804f17.png)|Quando um serviço exibe um incidente ativo, esse é um problema crítico, e o serviço ou uma função principal do serviço está indisponível. Por exemplo, os usuários podem não conseguir enviar e receber emails, ou não é possível entrar. Os incidentes terão um impacto perceptível nos usuários. Quando há um incidente em andamento, fornecemos atualizações sobre a investigação, os esforços de atenuação e a confirmação de resolução no painel de Integridade do serviço.  <br/> |

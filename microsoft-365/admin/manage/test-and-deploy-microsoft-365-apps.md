@@ -14,12 +14,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Encontre, teste e implante aplicativos de parceiros microsoft e microsoft para usuários e grupos em sua organização a partir do portal aplicativos integrados no centro de administração do Microsoft 365.
-ms.openlocfilehash: f806d48e0ed582b1b5c1ee262058ce987125bd99
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: da67cbe5f8b6e5f2da42e1f4b57a55d7d4a768fb
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488284"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644471"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-by-partners-in-the-integrated-apps-portal"></a>Testar e implantar aplicativos do Microsoft 365 por parceiros no portal aplicativos integrados
 
@@ -29,7 +29,7 @@ Para obter informações adicionais sobre como comprar e licenciar aplicativos d
 
 Para obter mais informações sobre como os parceiros criam esses aplicativos, consulte [How to plan a SaaS offer for the commercial marketplace](https://go.microsoft.com/fwlink/?linkid=2158277)
 
-O portal aplicativos integrados só está acessível para administradores globais e está disponível apenas para clientes da WorldWide. Esse recurso não está disponível em nuvens soberanas e governamentais.
+O portal aplicativos integrados só está acessível para administradores globais e está disponível apenas para clientes de todo o mundo. Esse recurso não está disponível em nuvens soberanas e governamentais.
 
 O portal aplicativos integrados exibe uma lista de aplicativos, que inclui aplicativos individuais e aplicativos do Microsoft 365 de parceiros implantados em sua organização. Somente aplicativos Web, aplicativos SPFx, complementos do Office e aplicativos do Teams estão listados. Para aplicativos Web, você pode ver dois tipos de aplicativos.
 
