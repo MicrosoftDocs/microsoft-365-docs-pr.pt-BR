@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 18bde560543fd1344a64cf1edd64f02f12831c25
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8dfaf1dbf2c3742cc97060c7f9e811c83d0cb023
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689093"
+ms.locfileid: "51698215"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Solucionar problemas de desempenho do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -149,7 +149,7 @@ As etapas a seguir podem ser usadas para solucionar problemas e atenuar esses pr
         125  CrashPlanService 164
       ```
 
-      Para melhorar o desempenho do Defender para Ponto de Extremidade para Mac, localize o que tem o número mais alto na linha Total de arquivos verificados e adicione uma exclusão para ele. Para obter mais informações, [consulte Configure and validate exclusions for Defender for Endpoint for Linux](linux-exclusions.md).
+      Para melhorar o desempenho do Defender para Ponto de Extremidade no Mac, localize o que tem o número mais alto na linha Total de arquivos verificados e adicione uma exclusão para ele. Para obter mais informações, [consulte Configure and validate exclusions for Defender for Endpoint on Linux](linux-exclusions.md).
 
       > [!NOTE]
       > O aplicativo armazena estatísticas na memória e só mantém o controle da atividade do arquivo desde que foi iniciado e a proteção em tempo real foi habilitada. Os processos que foram lançados antes ou durante períodos em que a proteção em tempo real estava desligada não são contados. Além disso, somente os eventos que dispararam verificações são contados.

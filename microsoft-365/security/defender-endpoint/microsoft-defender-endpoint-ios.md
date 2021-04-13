@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6bf9691f390173ec86dcadd19707c980aa66336f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1f20a81f5205c5734387214822fa87ac5cf9a09c
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687764"
+ms.locfileid: "51698203"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender para Ponto de Extremidade no iOS
 
@@ -39,7 +39,7 @@ ms.locfileid: "51687764"
 **O Microsoft Defender para Ponto de Extremidade** no iOS oferecerá proteção contra phishing e conexões de rede não seguras de sites, emails e aplicativos. Todos os alertas estarão disponíveis por meio de um único painel de vidro no Centro de Segurança do Microsoft Defender. O portal fornece às equipes de segurança uma exibição centralizada de ameaças em dispositivos iOS juntamente com outras plataformas.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Defender for Endpoint para iOS provavelmente causará problemas de desempenho e erros imprevisíveis do sistema.
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Defender for Endpoint no iOS provavelmente causará problemas de desempenho e erros imprevisíveis do sistema.
 
 ## <a name="pre-requisites"></a>Pré-requisitos
 
@@ -58,7 +58,7 @@ ms.locfileid: "51687764"
 - Acesso ao portal do Centro de Segurança do Microsoft Defender.
 
     > [!NOTE]
-    > O Microsoft Intune é a única solução MDM (Gerenciamento de Dispositivo Móvel) com suporte para implantar o Microsoft Defender para Ponto de Extremidade no iOS. Atualmente, apenas dispositivos inscritos têm suporte para impor o Defender for Endpoint para políticas de conformidade de dispositivos relacionados ao iOS no Intune.
+    > O Microsoft Intune é a única solução MDM (Gerenciamento de Dispositivo Móvel) com suporte para implantar o Microsoft Defender para Ponto de Extremidade no iOS. Atualmente, apenas dispositivos inscritos têm suporte para impor o Defender para o Ponto de Extremidade em políticas de conformidade de dispositivos relacionados ao iOS no Intune.
 
 - Acesso ao [Centro de administração do Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431), para implantar o aplicativo em grupos de usuários inscritos em sua organização.
 
@@ -69,7 +69,7 @@ ms.locfileid: "51687764"
 - O dispositivo está inscrito no aplicativo [Portal da Empresa do Intune.](https://apps.apple.com/us/app/intune-company-portal/id719171358)
 
 > [!NOTE]
-> **O Microsoft Defender ATP (Microsoft Defender para Ponto de Extremidade) para iOS agora está disponível na [Apple App Store.](https://aka.ms/mdatpiosappstore)**
+> **O Microsoft Defender ATP (Microsoft Defender para Ponto de Extremidade) no iOS agora está disponível na [Apple App Store](https://aka.ms/mdatpiosappstore).**
 
 ## <a name="installation-instructions"></a>Instruções de instalação
 

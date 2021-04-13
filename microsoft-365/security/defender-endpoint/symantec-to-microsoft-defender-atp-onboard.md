@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 1d332f6b0d6338d18c5a85dcf737f968f00f275f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b42a33d975e1368ad25d4a7102ef44bf8b9824a8
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689516"
+ms.locfileid: "51698275"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Migrar da Symantec - Fase 3: Integração ao Microsoft Defender para Ponto de Extremidade
 
@@ -89,7 +89,7 @@ Agora que você insinuou os dispositivos da sua organização no Microsoft Defen
    - [Desinstalar a Proteção de Ponto de Extremidade da Symantec](https://knowledge.broadcom.com/external/article/156148/uninstall-symantec-endpoint-protection.html)
    - Dispositivos Windows: [desinstalar manualmente clientes do Endpoint Protection 14 no Windows](https://knowledge.broadcom.com/external/article?articleId=170040)
    - computadores macOS: [Remover software Symantec para Mac usando RemoveSymantecMacFiles](https://knowledge.broadcom.com/external/article?articleId=151387)
-   - Dispositivos Linux: [Perguntas frequentes sobre a Proteção de Ponto de Extremidade para Linux](https://knowledge.broadcom.com/external/article?articleId=162054)
+   - Dispositivos Linux: [Perguntas frequentes sobre a Proteção de Ponto de Extremidade no Linux](https://knowledge.broadcom.com/external/article?articleId=162054)
 
 ## <a name="make-sure-microsoft-defender-for-endpoint-is-in-active-mode"></a>Certifique-se de que o Microsoft Defender para Ponto de Extremidade está no modo ativo
 

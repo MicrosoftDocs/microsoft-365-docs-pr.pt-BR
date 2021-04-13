@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 3ad31e385ed1a3c32a261286b91912c7b2562f87
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: c5e6edb40254ab905ef5ef3ddef9bf8bf54fc54b
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650285"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51698263"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -228,6 +228,10 @@ Ao habilitar a integração com o Intune, o Intune criará automaticamente uma p
 
 > [!NOTE]
 > A política de AC clássica criada pelo Intune é distinta das políticas modernas de [Acesso](https://docs.microsoft.com/azure/active-directory/conditional-access/overview/)Condicional , que são usadas para configurar pontos de extremidade.
+
+
+## <a name="device-discovery"></a>Descoberta de dispositivo
+Ajuda você a encontrar dispositivos não administrativos conectados à sua rede corporativa sem a necessidade de dispositivos extras ou alterações de processo complicadas. Usando dispositivos conectados, você pode encontrar dispositivos nãomanageados em sua rede e avaliar vulnerabilidades e riscos. Para obter mais informações, consulte [Descoberta de dispositivo](device-discovery.md).
 
 ## <a name="preview-features"></a>Recursos de pré-visualização
 

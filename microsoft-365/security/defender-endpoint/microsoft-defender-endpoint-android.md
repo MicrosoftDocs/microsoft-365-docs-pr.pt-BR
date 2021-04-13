@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 32c42691b3a2b43f9740da26084bf45af0ee80f5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8311cb703bc5232e1421d19892fec9cdbc94b052
+ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687776"
+ms.locfileid: "51698180"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender para Ponto de Extremidade no Android
 
@@ -36,10 +36,10 @@ ms.locfileid: "51687776"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Este tópico descreve como instalar, configurar, atualizar e usar o Defender para Ponto de Extremidade para Android.
+Este tópico descreve como instalar, configurar, atualizar e usar o Defender para Ponto de Extremidade no Android.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Defender for Endpoint para Android provavelmente causará problemas de desempenho e erros imprevisíveis do sistema.
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Defender for Endpoint no Android provavelmente causará problemas de desempenho e erros imprevisíveis do sistema.
 
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Como instalar o Microsoft Defender para Ponto de Extremidade no Android

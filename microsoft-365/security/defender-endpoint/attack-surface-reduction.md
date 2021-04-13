@@ -11,17 +11,17 @@ localization_priority: Normal
 audience: ITPro
 author: denisebmsft
 ms.author: deniseb
-ms.reviewer: sugamar, jcedola
+ms.reviewer: oogunrinde, sugamar, jcedola
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: d88da04e91875e24b13478b17d6a1e3862e1062e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8790d959dc41e3edea684c66e556a2ec67f85ae1
+ms.sourcegitcommit: 0fe5989b7ee2f7ae0181f2781e31db7f58689441
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197656"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697522"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Usar regras de redução de superfície de ataque para evitar infecção por malware
 
@@ -80,7 +80,7 @@ Para obter mais informações e obter suas atualizações, consulte [Update for 
 
 ### <a name="cases-where-warn-mode-is-not-supported"></a>Casos em que o modo de aviso não é suportado
 
-O modo de aviso não é suportado para as seguintes regras de redução de superfície de ataque:
+O modo de aviso não é suportado para três regras de redução de superfície de ataque quando você as configura no Microsoft Endpoint Manager. (Se você usar a Política de Grupo para configurar suas regras de redução de superfície de ataque, o modo de aviso será suportado.) As três regras que não suportam o modo de aviso ao configurá-las no Microsoft Endpoint Manager são as seguinte:
 
 - [Bloquear JavaScript ou VBScript de iniciar conteúdo executável baixado](#block-javascript-or-vbscript-from-launching-downloaded-executable-content) (GUID `d3e037e1-3eb8-44c8-a917-57927947596d` )
 - [Bloquear a persistência por meio da assinatura de evento WMI](#block-persistence-through-wmi-event-subscription) (GUID `e6db77e5-3df2-4cf1-b95a-636979351e5b` )
@@ -135,7 +135,7 @@ Você pode revisar o log de eventos do Windows para exibir eventos gerados por r
 2. Insira as palavras, *Visualizador de Eventos*, no menu Iniciar para abrir o Visualizador de Eventos do Windows.
 3. Em **Ações,** selecione **Importar exibição personalizada...**.
 4. Selecione o arquivo *cfa-events.xml* de onde ele foi extraído. Como alternativa, [copie o XML diretamente](event-views.md).
-5. Selecione **OK**.
+5. Clique em **OK**.
 
 Você pode criar uma exibição personalizada que filtra eventos para mostrar apenas os seguintes eventos, todos relacionados ao acesso controlado a pastas:
 
@@ -466,7 +466,7 @@ GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
 ## <a name="see-also"></a>Confira também
 
-- [Perguntas frequentes sobre redução de superfície de ataque](attack-surface-reduction-faq.md)
-- [Habilitar regras de redução de superfície de ataque](enable-attack-surface-reduction.md)
-- [Avaliar regras de redução de superfície de ataque](evaluate-attack-surface-reduction.md)
+- [Perguntas frequentes sobre a redução da superfície de ataque](attack-surface-reduction-faq.md)
+- [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
+- [Avaliar as regras da redução da superfície de ataque](evaluate-attack-surface-reduction.md)
 - [Compatibilidade do Microsoft Defender Antivírus com outras soluções antivírus/antimalware](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
