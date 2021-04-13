@@ -1,7 +1,7 @@
 ---
-title: Informações de privacidade - Microsoft Defender para Ponto de Extremidade para iOS
+title: Informações de privacidade - Microsoft Defender para Ponto de Extremidade no iOS
 ms.reviewer: ''
-description: Descreve informações de privacidade do Microsoft Defender para Ponto de Extremidade para iOS
+description: Descreve informações de privacidade do Microsoft Defender para Ponto de Extremidade no iOS
 keywords: microsoft, defender, atp, ios, política, visão geral
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 97d22cd8ff1c651bdab5c3613567b2a4778ec9d6
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: f5598df8a9e3493a1c4922f672468dd54e84c31e
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587570"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688196"
 ---
-# <a name="privacy-information---microsoft-defender-for-endpoint-for-ios"></a>Informações de privacidade - Microsoft Defender para Ponto de Extremidade para iOS
+# <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>Informações de privacidade - Microsoft Defender para Ponto de Extremidade no iOS
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)

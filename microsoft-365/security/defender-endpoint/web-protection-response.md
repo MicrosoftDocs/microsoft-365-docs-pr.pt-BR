@@ -1,5 +1,5 @@
 ---
-title: Responder a ameaças da Web no Microsoft Defender ATP
+title: Responder a ameaças da Web no Microsoft Defender para Ponto de Extremidade
 description: Responder a alertas relacionados a sites mal-intencionados e indesejados. Entenda como a proteção contra ameaças da Web informa os usuários finais por meio de seus navegadores da Web e notificações do Windows
 keywords: proteção da Web, proteção contra ameaças da Web, navegação na Web, alertas, resposta, segurança, phishing, malware, exploração, sites, proteção de rede, Edge, Internet Explorer, Chrome, Firefox, navegador da Web, notificações, usuários finais, notificações do Windows, página de bloqueio,
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b0e6bb0d71c14bf7742f8d6508fbb95b76b10a34
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 110b379863b4c6e23c947c56faf831e136231237
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498364"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688472"
 ---
 # <a name="respond-to-web-threats"></a>Responder a ameaças da Web
 

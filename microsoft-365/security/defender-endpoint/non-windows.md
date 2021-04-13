@@ -17,14 +17,14 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 64a19e9dd3d373c8092553ca9d60c711bfb500bc
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 7d9dd82d8c1beee77ea1f95b11a12bcddf01115f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186408"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688328"
 ---
-# <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender para Ponto de Extremidade para plataformas que não são do Windows
+# <a name="microsoft-defender-for-endpoint-for-non-windows-platforms"></a>Microsoft Defender para Ponto de Extremidade para plataformas que não são Windows
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -71,7 +71,7 @@ Usuários licenciados qualificados podem usar o Microsoft Defender para Ponto de
 
 Os clientes podem obter o Microsoft Defender para Ponto de Extremidade no macOS por meio de uma licença autônoma do Microsoft Defender para Ponto de Extremidade, como parte do Microsoft 365 A5/E5 ou segurança do Microsoft 365.
 
-Os recursos anunciados recentemente do Microsoft Defender para Ponto de Extremidade para Android e iOS estão incluídos nas ofertas mencionadas acima como parte dos cinco dispositivos qualificados para usuários licenciados qualificados.
+Os recursos anunciados recentemente do Microsoft Defender para Ponto de Extremidade no Android e iOS estão incluídos nas ofertas acima mencionadas como parte dos cinco dispositivos qualificados para usuários licenciados qualificados.
 
 O Defender para Ponto de Extremidade no Linux está disponível por meio da SKU do Defender for Endpoint Server que está disponível para clientes comerciais e de educação.
 

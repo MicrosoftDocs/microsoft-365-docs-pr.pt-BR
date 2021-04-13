@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7d4bc095a9fbc0b9cd166d3133ed291a2c8c01da
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 6bf9691f390173ec86dcadd19707c980aa66336f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615418"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687764"
 ---
-# <a name="microsoft-defender-for-endpoint-for-ios"></a>Microsoft Defender para Ponto de Extremidade para iOS
+# <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender para Ponto de Extremidade no iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "51615418"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-**O Microsoft Defender for Endpoint para iOS** oferecerá proteção contra phishing e conexões de rede não seguras de sites, emails e aplicativos. Todos os alertas estarão disponíveis por meio de um único painel de vidro no Centro de Segurança do Microsoft Defender. O portal fornece às equipes de segurança uma exibição centralizada de ameaças em dispositivos iOS juntamente com outras plataformas.
+**O Microsoft Defender para Ponto de Extremidade** no iOS oferecerá proteção contra phishing e conexões de rede não seguras de sites, emails e aplicativos. Todos os alertas estarão disponíveis por meio de um único painel de vidro no Centro de Segurança do Microsoft Defender. O portal fornece às equipes de segurança uma exibição centralizada de ameaças em dispositivos iOS juntamente com outras plataformas.
 
 > [!CAUTION]
 > A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Defender for Endpoint para iOS provavelmente causará problemas de desempenho e erros imprevisíveis do sistema.
@@ -58,7 +58,7 @@ ms.locfileid: "51615418"
 - Acesso ao portal do Centro de Segurança do Microsoft Defender.
 
     > [!NOTE]
-    > O Microsoft Intune é a única solução MDM (Gerenciamento de Dispositivo Móvel) com suporte para implantar o Microsoft Defender para Endpoint para iOS. Atualmente, apenas dispositivos inscritos têm suporte para impor o Defender for Endpoint para políticas de conformidade de dispositivos relacionados ao iOS no Intune.
+    > O Microsoft Intune é a única solução MDM (Gerenciamento de Dispositivo Móvel) com suporte para implantar o Microsoft Defender para Ponto de Extremidade no iOS. Atualmente, apenas dispositivos inscritos têm suporte para impor o Defender for Endpoint para políticas de conformidade de dispositivos relacionados ao iOS no Intune.
 
 - Acesso ao [Centro de administração do Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431), para implantar o aplicativo em grupos de usuários inscritos em sua organização.
 
@@ -73,16 +73,16 @@ ms.locfileid: "51615418"
 
 ## <a name="installation-instructions"></a>Instruções de instalação
 
-A implantação do Microsoft Defender para Ponto de Extremidade para iOS é por meio do Microsoft Intune (MDM) e há suporte para dispositivos supervisionados e não supervisionados.
-Para obter mais informações, [consulte Deploy Microsoft Defender for Endpoint for iOS](ios-install.md).
+A implantação do Microsoft Defender para Ponto de Extremidade no iOS é por meio do Microsoft Intune (MDM) e há suporte para dispositivos supervisionados e não supervisionados.
+Para obter mais informações, [consulte Deploy Microsoft Defender for Endpoint on iOS](ios-install.md).
 
 ## <a name="resources"></a>Recursos
 
-- Mantenha-se informado sobre as próximas versões visitando Novidades no Microsoft Defender para Ponto de Extremidade para [iOS](ios-whatsnew.md) ou [nosso blog.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
+- Mantenha-se informado sobre as próximas versões visitando Novidades do Microsoft Defender para Ponto de Extremidade [no iOS](ios-whatsnew.md) ou em nosso [blog.](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/bg-p/MicrosoftDefenderATPBlog/label-name/iOS)
 
 - Fornecer comentários por meio do sistema de comentários no aplicativo ou por meio do [portal SecOps](https://securitycenter.microsoft.com)
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- [Implantar o Microsoft Defender para Ponto de Extremidade para iOS](ios-install.md)
-- [Configurar o Microsoft Defender para Ponto de Extremidade para recursos do iOS](ios-configure-features.md)
+- [Implantar o Microsoft Defender para Ponto de Extremidade no iOS](ios-install.md)
+- [Configurar o Microsoft Defender para Ponto de Extremidade em recursos do iOS](ios-configure-features.md)

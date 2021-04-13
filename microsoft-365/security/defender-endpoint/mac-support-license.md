@@ -18,27 +18,27 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 645c3657bdd1540ac95b68460b4dff6d25627c2c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 69dd85394837bb7f37e7d277110c8a5dbf7b6506
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185916"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689108"
 ---
-# <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Solucionar problemas de licença do Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Solucionar problemas de licença do Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
 
-- [Microsoft Defender para Ponto de Extremidade para Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender para Ponto de Extremidade no macOS](microsoft-defender-endpoint-mac.md)
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Enquanto você estiver passando pelo [Microsoft Defender para o Ponto](microsoft-defender-endpoint-mac.md) de Extremidade para Mac e teste de implantação [manual](mac-install-manually.md) ou um Teste de Prova de Conceito (PoC), você pode obter o seguinte erro:
+Enquanto você estiver passando pelo Microsoft Defender para Ponto de Extremidade no [macOS](microsoft-defender-endpoint-mac.md) e teste de implantação [manual](mac-install-manually.md) ou em um PoC (Proof Of Concept), você pode obter o seguinte erro:
 
 ![Imagem de erro de licença](images/no-license-found.png)
 
@@ -52,7 +52,7 @@ Entre em contato com o administrador para obter ajuda.
 
 **Causa:** 
 
-Você implantou e/ou instalou o pacote do Microsoft Defender for Endpoint para macOS ("Baixar pacote de instalação") mas pode ter executado o script de configuração ("Baixar pacote de integração").
+Você implantou e/ou instalou o Microsoft Defender para Ponto de Extremidade no pacote macOS ("Baixar pacote de instalação") mas pode ter executado o script de configuração ("Baixar pacote de integração").
 
 **Solução:**
 

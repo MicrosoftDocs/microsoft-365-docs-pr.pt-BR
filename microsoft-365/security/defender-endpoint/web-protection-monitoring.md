@@ -1,6 +1,6 @@
 ---
-title: Monitorando a segurança da navegação na Web no Microsoft Defender ATP
-description: Usar a proteção da Web no Microsoft Defender ATP para monitorar a segurança de navegação na Web
+title: Monitorando a segurança de navegação na Web no Microsoft Defender para Ponto de Extremidade
+description: Usar a proteção da Web no Microsoft Defender para Ponto de Extremidade para monitorar a segurança da navegação na Web
 keywords: proteção da Web, proteção contra ameaças da Web, navegação na Web, monitoramento, relatórios, cartões, lista de domínios, segurança, phishing, malware, exploração, sites, proteção de rede, Edge, Internet Explorer, Chrome, Firefox, navegador da Web
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 629e18c7387f6063254f3482f93a5e17023c7316
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: ee6388c779d2c5bc09a82f5e9064d1b981e885cb
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499942"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687418"
 ---
 # <a name="monitor-web-browsing-security"></a>Monitorar a segurança de navegação na Web
 

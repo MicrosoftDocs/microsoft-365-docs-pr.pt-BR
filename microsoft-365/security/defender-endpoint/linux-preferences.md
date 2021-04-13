@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5aedf841ddfc5a592fe4afd2f13d6470e24c438c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 6ca6b3dd41b867145bfc4af331fb742be469d2a9
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587510"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688388"
 ---
-# <a name="set-preferences-for-microsoft-defender-for-endpoint-for-linux"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade para Linux
+# <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -57,9 +57,9 @@ A *seção antivírusEngine* do perfil de configuração é usada para gerenciar
 
 |||
 |:---|:---|
-| **Chave** | antivirusEngine |
+| **Tecla** | antivirusEngine |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 |||
 
 #### <a name="enable--disable-real-time-protection"></a>Habilitar/desabilitar a proteção em tempo real
@@ -68,7 +68,7 @@ Determina se a proteção em tempo real (arquivos de verificação conforme eles
 
 |||
 |:---|:---|
-| **Chave** | enableRealTimeProtection |
+| **Tecla** | enableRealTimeProtection |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
 |||
@@ -84,10 +84,10 @@ Determina se o mecanismo antivírus é executado no modo passivo ou não. No mod
 
 |||
 |:---|:---|
-| **Chave** | passiveMode |
+| **Tecla** | passiveMode |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | falso (padrão) <br/> verdadeiro |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.67.60 ou superior. |
+| **Comentário** | Disponível no Defender para Ponto de Extremidade versão 100.67.60 ou superior. |
 |||
 
 #### <a name="exclusion-merge-policy"></a>Política de mesclagem de exclusão
@@ -96,10 +96,10 @@ Especifica a política de mesclagem para exclusões. Pode ser uma combinação d
 
 |||
 |:---|:---|
-| **Chave** | exclusionsMergePolicy |
+| **Tecla** | exclusionsMergePolicy |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | merge (padrão) <br/> admin_only |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
+| **Comentário** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
 |||
 
 #### <a name="scan-exclusions"></a>Exclusões de verificação
@@ -108,9 +108,9 @@ Entidades que foram excluídas da verificação. As exclusões podem ser especif
 
 |||
 |:---|:---|
-| **Chave** | exclusões |
+| **Tecla** | exclusões |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 |||
 
 **Tipo de exclusão**
@@ -119,7 +119,7 @@ Especifica o tipo de conteúdo excluído da verificação.
 
 |||
 |:---|:---|
-| **Chave** | $type |
+| **Tecla** | $type |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | excludedPath <br/> excludedFileExtension <br/> excludedFileName |
 |||
@@ -130,10 +130,10 @@ Usado para excluir conteúdo da verificação por caminho de arquivo completo.
 
 |||
 |:---|:---|
-| **Chave** | caminho |
+| **Tecla** | caminho |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | caminhos válidos |
-| **Comments** | Aplicável somente se *$type* *for excludedPath* |
+| **Comentário** | Aplicável somente se *$type* *for excludedPath* |
 |||
 
 **Tipo de caminho (arquivo/diretório)**
@@ -142,10 +142,10 @@ Indica se a *propriedade path* se refere a um arquivo ou diretório.
 
 |||
 |:---|:---|
-| **Chave** | isDirectory |
+| **Tecla** | isDirectory |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | falso (padrão) <br/> verdadeiro |
-| **Comments** | Aplicável somente se *$type* *for excludedPath* |
+| **Comentário** | Aplicável somente se *$type* *for excludedPath* |
 |||
 
 **Extensão de arquivo excluída da verificação**
@@ -154,10 +154,10 @@ Usado para excluir conteúdo da verificação por extensão de arquivo.
 
 |||
 |:---|:---|
-| **Chave** | extension |
+| **Tecla** | extension |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | extensões de arquivo válidas |
-| **Comments** | Aplicável somente se *$type* *for excludedFileExtension* |
+| **Comentário** | Aplicável somente se *$type* *for excludedFileExtension* |
 |||
 
 **Processo excluído da verificação**
@@ -166,10 +166,10 @@ Especifica um processo para o qual todas as atividades de arquivo são excluída
 
 |||
 |:---|:---|
-| **Chave** | nome |
+| **Tecla** | nome |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | qualquer cadeia de caracteres |
-| **Comments** | Aplicável somente *se* $type *for excludedFileName* |
+| **Comentário** | Aplicável somente *se* $type *for excludedFileName* |
 |||
 
 #### <a name="allowed-threats"></a>Ameaças permitidas
@@ -178,7 +178,7 @@ Lista de ameaças (identificadas pelo nome) que não são bloqueadas pelo produt
 
 |||
 |:---|:---|
-| **Chave** | allowedThreats |
+| **Tecla** | allowedThreats |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 |||
 
@@ -188,10 +188,10 @@ Restringe as ações que o usuário local de um dispositivo pode tomar quando as
 
 |||
 |:---|:---|
-| **Chave** | disallowedThreatActions |
+| **Tecla** | disallowedThreatActions |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | allow (restringe os usuários a permitir ameaças) <br/> restore (restringe os usuários de restaurar ameaças da quarentena) |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
+| **Comentário** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
 |||
 
 #### <a name="threat-type-settings"></a>Configurações de tipo de ameaça
@@ -200,9 +200,9 @@ A *preferência threatTypeSettings* no mecanismo antivírus é usada para contro
 
 |||
 |:---|:---|
-| **Chave** | threatTypeSettings |
+| **Tecla** | threatTypeSettings |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 |||
 
 **Tipo de ameaça**
@@ -211,7 +211,7 @@ Tipo de ameaça para a qual o comportamento está configurado.
 
 |||
 |:---|:---|
-| **Chave** | chave |
+| **Tecla** | chave |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | potentially_unwanted_application <br/> archive_bomb |
 |||
@@ -226,7 +226,7 @@ Ação a ser tomada ao se deparar com uma ameaça do tipo especificado na seçã
 
 |||
 |:---|:---|
-| **Chave** | valor |
+| **Tecla** | valor |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | audit (padrão) <br/> block <br/> off |
 |||
@@ -237,10 +237,10 @@ Especifica a política de mesclagem para configurações de tipo de ameaça. Iss
 
 |||
 |:---|:---|
-| **Chave** | threatTypeSettingsMergePolicy |
+| **Tecla** | threatTypeSettingsMergePolicy |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | merge (padrão) <br/> admin_only |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
+| **Comentário** | Disponível no Defender para Ponto de Extremidade versão 100.83.73 ou superior. |
 |||
 
 #### <a name="antivirus-scan-history-retention-in-days"></a>Retenção de histórico de verificação de antivírus (em dias)
@@ -249,10 +249,10 @@ Especifique o número de dias que os resultados são mantidos no histórico de v
 
 |||
 |:---|:---|
-| **Chave** | scanResultsRetentionDays |
+| **Tecla** | scanResultsRetentionDays |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | 90 (padrão). Os valores permitidos são de 1 dia a 180 dias. |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior. |
+| **Comentário** | Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior. |
 |||
 
 #### <a name="maximum-number-of-items-in-the-antivirus-scan-history"></a>Número máximo de itens no histórico de verificação de antivírus
@@ -261,10 +261,10 @@ Especifique o número máximo de entradas a manter no histórico de verificaçã
 
 |||
 |:---|:---|
-| **Chave** | scanHistoryMaximumItems |
+| **Tecla** | scanHistoryMaximumItems |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | 10000 (padrão). Os valores permitidos são de 5.000 itens a 15.000 itens. |
-| **Comments** | Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior. |
+| **Comentário** | Disponível no Defender para Ponto de Extremidade versão 101.04.76 ou superior. |
 |||
 
 ### <a name="cloud-delivered-protection-preferences"></a>Preferências de proteção entregues na nuvem
@@ -273,9 +273,9 @@ A *entrada do cloudService* no perfil de configuração é usada para configurar
 
 |||
 |:---|:---|
-| **Chave** | cloudService |
+| **Tecla** | cloudService |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 |||
 
 #### <a name="enable--disable-cloud-delivered-protection"></a>Habilitar/desabilitar a proteção entregue na nuvem
@@ -284,7 +284,7 @@ Determina se a proteção entregue na nuvem está habilitada no dispositivo ou n
 
 |||
 |:---|:---|
-| **Chave** | habilitadas |
+| **Tecla** | habilitadas |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
 |||
@@ -295,7 +295,7 @@ Os dados de diagnóstico são usados para manter o Defender para o Ponto de Extr
 
 |||
 |:---|:---|
-| **Chave** | diagnosticLevel |
+| **Tecla** | diagnosticLevel |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | opcional (padrão) <br/> obrigatório |
 |||
@@ -310,7 +310,7 @@ Determina se amostras suspeitas (que provavelmente contêm ameaças) são enviad
 
 |||
 |:---|:---|
-| **Chave** | automaticSampleSubmissionConsent |
+| **Tecla** | automaticSampleSubmissionConsent |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | nenhuma <br/> safe (padrão) <br/> all |
 |||
@@ -321,7 +321,7 @@ Determina se as atualizações de inteligência de segurança são instaladas au
 
 |||
 |:---|:---|
-| **Chave** | automaticDefinitionUpdateEnabled |
+| **Tecla** | automaticDefinitionUpdateEnabled |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
 |||

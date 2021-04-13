@@ -1,5 +1,5 @@
 ---
-title: Tomar ações de resposta em um dispositivo no Microsoft Defender ATP
+title: Tomar ações de resposta em um dispositivo no Microsoft Defender para Ponto de Extremidade
 description: Executar ações de resposta em um dispositivo como isolar dispositivos, coletar um pacote de investigação, gerenciar marcas, executar a verificação av e restringir a execução do aplicativo.
 keywords: responder, isolar, isolar dispositivo, coletar pacote de investigação, centro de ações, restringir, gerenciar marcas, verificação av, restringir aplicativo
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f918d1673ef8a83c54f365dd06406c33bcc4d983
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f538bd33ad2f595aa9b3dafa8a13a5682161b52f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052586"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688316"
 ---
-# <a name="take-response-actions-on-a-device"></a>Tomar ações de resposta em um dispositivo
+# <a name="take-response-actions-on-a-device"></a>Executar ações de resposta em um dispositivo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -40,8 +40,8 @@ As ações de resposta são executados ao longo da parte superior de uma página
 - Iniciar investigação automatizada
 - Iniciar sessão de resposta ao vivo
 - Coletar pacote de investigação
-- Executar verificação antivírus
-- Restringir a execução do aplicativo
+- Executar verificação de antivírus
+- Restringir execução de aplicativo
 - Isolar dispositivo
 - Consultar um especialista em ameaças
 - Central de ações
@@ -136,7 +136,7 @@ O Centro de Ações mostrará as informações de verificação e a linha do tem
 >Ao disparar uma verificação usando a ação de resposta do Defender for Endpoint, o valor do antivírus do Microsoft Defender 'ScanAvgCPULoadFactor' ainda se aplica e limita o impacto da CPU da verificação.<br> Se ScanAvgCPULoadFactor não estiver configurado, o valor padrão será um limite de 50% de carga máxima da CPU durante uma verificação.<br>
 >Para obter mais informações, [consulte configure-advanced-scan-types-microsoft-defender-antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-advanced-scan-types-microsoft-defender-antivirus).
 
-## <a name="restrict-app-execution"></a>Restringir a execução do aplicativo
+## <a name="restrict-app-execution"></a>Restringir execução de aplicativo
 
 Além de conter um ataque interrompendo processos mal-intencionados, você também pode bloquear um dispositivo e impedir a execução de tentativas subsequentes de programas potencialmente mal-intencionados.
 
@@ -159,7 +159,7 @@ Quando um aplicativo é restrito, a seguinte notificação é exibida para infor
 
 ![Imagem da restrição de aplicativo](images/atp-app-restriction.png)
 
-## <a name="isolate-devices-from-the-network"></a>Isolar dispositivos da rede
+## <a name="isolate-devices-from-the-network&quot;></a>Isolar dispositivos da rede
 
 Dependendo da gravidade do ataque e da sensibilidade do dispositivo, talvez você queira isolar o dispositivo da rede. Essa ação pode ajudar a impedir que o invasor controle o dispositivo comprometido e realizar outras atividades, como exfiltração de dados e movimento lateral.
 
@@ -169,7 +169,7 @@ Dependendo da gravidade do ataque e da sensibilidade do dispositivo, talvez voc�
 
 Esse recurso de isolamento de dispositivo desconecta o dispositivo comprometido da rede enquanto mantém a conectividade com o serviço Defender para Ponto de Extremidade, que continua a monitorar o dispositivo.
 
-No Windows 10, versão 1709 ou posterior, você terá controle adicional sobre o nível de isolamento de rede. Você também pode optar por habilitar a conectividade do Outlook, do Microsoft Teams e do Skype for Business (também conhecido como "Isolamento Seletivo").
+No Windows 10, versão 1709 ou posterior, você terá controle adicional sobre o nível de isolamento de rede. Você também pode optar por habilitar a conectividade do Outlook, do Microsoft Teams e do Skype for Business (também conhecido como &quot;Isolamento Seletivo").
 
 >[!NOTE]
 >Você poderá reconectar o dispositivo à rede a qualquer momento. O botão na página do dispositivo mudará para dizer Liberar do **isolamento** e, em seguida, você seguirá as mesmas etapas que isolar o dispositivo.
@@ -193,7 +193,7 @@ Você pode consultar um especialista em ameaças da Microsoft para obter mais in
 Consulte [Consult a Microsoft Threat Expert](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-microsoft-threat-experts#consult-a-microsoft-threat-expert-about-suspicious-cybersecurity-activities-in-your-organization) para obter detalhes.
 
 
-## <a name="check-activity-details-in-action-center"></a>Verificar detalhes da atividade no Centro de ações
+## <a name="check-activity-details-in-action-center"></a>Verificar detalhes de atividade na Central de ações
 
 A **Central de Ações** fornece informações sobre ações que foram realizadas em um dispositivo ou arquivo. Você poderá exibir os seguintes detalhes:
 
@@ -207,5 +207,5 @@ Todos os outros detalhes relacionados também são mostrados, por exemplo, data/
 ![Imagem do centro de ações com informações](images/action-center-details.png)
 
 ## <a name="related-topic"></a>Tópicos relacionados
-- [Tomar ações de resposta em um arquivo](respond-file-alerts.md)
+- [Executar ações de resposta em um arquivo](respond-file-alerts.md)
 - [Imprecisão de relatório](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation#report-inaccuracy)

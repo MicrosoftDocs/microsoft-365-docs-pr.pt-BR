@@ -1,7 +1,7 @@
 ---
-title: Novidades no Microsoft Defender ATP
-description: Confira quais recursos geralmente estão disponíveis (GA) na versão mais recente do Microsoft Defender ATP, bem como recursos de segurança no Windows 10 e no Windows Server.
-keywords: novidades no microsoft defender atp, ga, geralmente disponível, recursos, disponíveis, novos
+title: Novidades no Microsoft Defender para Ponto de Extremidade
+description: Confira quais recursos geralmente estão disponíveis (GA) na versão mais recente do Microsoft Defender para Ponto de Extremidade, bem como recursos de segurança no Windows 10 e no Windows Server.
+keywords: novidades no microsoft defender para ponto de extremidade, ga, geralmente disponível, recursos, disponíveis, novos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a72b742d8f4a69d2e38cf4fa234ba5b7e2961ac6
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c9f4c0689739224b00c9c14db1482d54faab3512
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587606"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688232"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Novidades no Microsoft Defender para Ponto de Extremidade
 
@@ -52,22 +52,22 @@ Para obter mais recursos de visualização de informações, consulte [Recursos 
 - [Área de Trabalho Virtual do Windows](https://azure.microsoft.com/services/virtual-desktop/) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para a Área de Trabalho Virtual do Windows.
 
 ## <a name="december-2020"></a>Dezembro de 2020
-- [Microsoft Defender para Ponto de Extremidade para iOS](microsoft-defender-endpoint-ios.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para iOS. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Endpoint para iOS.
+- [Microsoft Defender para Ponto de Extremidade no iOS](microsoft-defender-endpoint-ios.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para iOS. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Endpoint no iOS.
 
 ## <a name="september-2020"></a>Setembro de 2020
-- [Microsoft Defender para Ponto de Extremidade para Android](microsoft-defender-endpoint-android.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Android. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade para Android.
+- [Microsoft Defender para Ponto de Extremidade no Android](microsoft-defender-endpoint-android.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Android. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Android.
 - [Suporte para macOS de gerenciamento de ameaças e vulnerabilidades](tvm-supported-os.md)<br> O gerenciamento de ameaças e vulnerabilidades para macOS agora está em visualização pública e detectará continuamente vulnerabilidades em seus dispositivos macOS para ajudá-lo a priorizar a correção, concentrando-se no risco. Saiba mais nesta [postagem de blog do Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint-adds-depth-and-breadth-to-threat/ba-p/1695824).
 
 
 ## <a name="august-2020"></a>Agosto de 2020
-- [Microsoft Defender para Ponto de Extremidade para Android](microsoft-defender-endpoint-android.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Android. Saiba como instalar, configurar e usar o Microsoft Defender para Ponto de Extremidade para Android.
+- [Microsoft Defender para Ponto de Extremidade no Android](microsoft-defender-endpoint-android.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Android. Saiba como instalar, configurar e usar o Microsoft Defender para Ponto de Extremidade no Android.
 
 
 ## <a name="july-2020"></a>Julho de 2020
 - [Criar indicadores para certificados](manage-indicators.md) <br> Crie indicadores para permitir ou bloquear certificados. 
 
 ## <a name="june-2020"></a>Junho de 2020
-- [Microsoft Defender para Ponto de Extremidade para Linux](microsoft-defender-endpoint-linux.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Linux. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Endpoint para Linux.
+- [Microsoft Defender para Ponto de Extremidade no Linux](microsoft-defender-endpoint-linux.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Linux. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Linux.
 
 - [Simuladores de ataque no laboratório de avaliação](evaluation-lab.md#threat-simulator-scenarios) <br> O Microsoft Defender for Endpoint fez parceria com várias plataformas de simulação de ameaças para lhe dar acesso conveniente para testar os recursos da plataforma desde o portal.
 
@@ -78,7 +78,7 @@ Para obter mais recursos de visualização de informações, consulte [Recursos 
 
 ## <a name="november-december-2019"></a>November-December 2019
 
-- [Microsoft Defender para Ponto de Extremidade para Mac](microsoft-defender-endpoint-mac.md) <BR> O Microsoft Defender para Ponto de Extremidade para Mac traz a proteção de última geração para dispositivos Mac. Os principais componentes da plataforma de segurança do ponto de extremidade unificado agora estarão disponíveis para dispositivos Mac, incluindo a detecção e a resposta do ponto [de extremidade.](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender para Ponto de Extremidade no macOS](microsoft-defender-endpoint-mac.md) <BR> O Microsoft Defender para Ponto de Extremidade no macOS traz a proteção de última geração para dispositivos Mac. Os principais componentes da plataforma de segurança do ponto de extremidade unificado agora estarão disponíveis para dispositivos Mac, incluindo a detecção e a resposta do ponto [de extremidade.](microsoft-defender-endpoint-mac.md)
  
 - [Informações de fim de vida de aplicativos e versão de aplicativos de gerenciamento de vulnerabilidades & ameaças](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation) <BR>Aplicativos e versões de aplicativos que chegaram ao fim da vida útil são marcados ou rotulados como tal, para que você saiba que eles não terão mais suporte e podem tomar medidas para desinstalar ou substituir. Fazer isso ajudará a diminuir os riscos relacionados a várias exposições de vulnerabilidade devido a aplicativos sempata.
 

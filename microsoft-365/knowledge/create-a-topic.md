@@ -14,12 +14,12 @@ ms.collection:
 ms.service: ''
 search.appverid: ''
 localization_priority: Normal
-ms.openlocfilehash: c1f7b67bb49aff8d6656798d80636d9de5858877
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7d1dc1af6e845ccfe2fb0e8f5701a2cd3018c308
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165832"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687526"
 ---
 # <a name="create-a-new-topic-in-microsoft-viva-topics"></a>Criar um novo tópico em Tópicos do Microsoft Viva
 
@@ -42,82 +42,77 @@ Para criar um novo tópico, você precisa:
 
 Você pode criar um novo tópico a partir de dois locais:
 
-- Home page da central de tópicos: qualquer usuário licenciado com a permissão Quem pode criar ou editar **tópicos** (colaboradores) pode criar um novo tópico a partir da central de tópicos selecionando o <b>menu</b> Novo e selecione <b>Página tópico</b>.</br> 
+- Home page da central de tópicos: qualquer usuário licenciado com a permissão Quem pode criar ou editar **tópicos** (colaboradores) pode criar um novo tópico a partir da central de tópicos selecionando o **menu** Novo e selecione **Página tópico**. 
 
-    ![Novo tópico do centro de tópicos](../media/knowledge-management/new-topic.png) </br> 
+    ![Novo tópico do centro de tópicos](../media/knowledge-management/new-topic.png)  
 
-- Página Gerenciar tópicos: qualquer usuário licenciado que tenha Quem pode gerenciar a permissão de **tópicos (gerentes** de conhecimento) pode criar um novo tópico na página Gerenciar tópicos na Central de Tópicos selecionando a página <b>Novo tópico.</b></br> 
+- Página Gerenciar tópicos: qualquer usuário licenciado que tenha Quem pode gerenciar a permissão de **tópicos (gerentes** de conhecimento) pode criar um novo tópico na página Gerenciar tópicos na Central de Tópicos selecionando a página **Novo tópico.** 
 
-    ![Novo tópico de gerenciar tópicos](../media/knowledge-management/new-topic-topic-center.png) </br> 
+    ![Novo tópico de gerenciar tópicos](../media/knowledge-management/new-topic-topic-center.png)  
 
 ### <a name="to-create-a-new-topic"></a>Para criar um novo tópico:
 
 1. Selecione a opção para criar uma nova Página de Tópicos na faixa de opções na página Gerenciar Tópicos.
 
-2.   Na seção **Nome deste tópico,** digite o nome do novo tópico.
+2.  Na seção **Nome deste tópico,** digite o nome do novo tópico.
 
-    ![Nomear este tópico](../media/knowledge-management/k-new-topic-page.png) </br> 
+    ![Nomear este tópico](../media/knowledge-management/k-new-topic-page.png)  
 
+3. Na seção **Nomes Alternativos,** digite quaisquer outros nomes aos qual o tópico possa ser referido. 
 
-3. Na seção <b>Nomes Alternativos,</b> digite quaisquer outros nomes aos qual o tópico possa ser referido. 
+    ![Nomes alternativos](../media/knowledge-management/alt-names.png)  
 
-    ![Nomes alternativos](../media/knowledge-management/alt-names.png) </br> 
-4. Na seção <b>Descrição,</b> digite algumas frases que descrevem o tópico. 
+4. Na seção **Descrição,** digite algumas frases que descrevem o tópico. 
 
-    ![Descrição do tópico](../media/knowledge-management/description.png)</br>
+    ![Descrição do tópico](../media/knowledge-management/description.png)
 
-4. Na seção <b>Pessoas fixadas,</b> você pode "fixar" uma pessoa para mostrar a ela como tendo uma conexão com o tópico (por exemplo, um proprietário de um recurso conectado). Comece digitando seu nome ou <b></b> endereço de email na caixa adicionar um novo usuário e selecione o usuário que você deseja adicionar nos resultados da pesquisa. Você também pode "desempinar" selecionando o ícone <b>Remover</b> da lista no cartão de usuário. Você também pode arrastar a pessoa para alterar a ordem que a lista de pessoas aparece.
+4. Na seção **Pessoas fixadas,** você pode "fixar" uma pessoa para mostrar a ela como tendo uma conexão com o tópico (por exemplo, um proprietário de um recurso conectado). Comece digitando seu nome ou  endereço de email na caixa adicionar um novo usuário e selecione o usuário que você deseja adicionar nos resultados da pesquisa. Você também pode "desempinar" selecionando o ícone **Remover** da lista no cartão de usuário. Você também pode arrastar a pessoa para outro lugar na lista.
  
-    ![Pessoas fixadas](../media/knowledge-management/pinned-people.png)</br>
+    ![Pessoas fixadas](../media/knowledge-management/pinned-people.png)
 
+5. Na seção **Arquivos fixados e** páginas, você pode adicionar ou "fixar" um arquivo ou página de site do SharePoint associada ao tópico.
 
-5. Na seção <b>Arquivos fixados e</b> páginas, você pode adicionar ou "fixar" um arquivo ou página de site do SharePoint associada ao tópico.
-
-   ![Arquivos e páginas fixados](../media/knowledge-management/pinned-files-and-pages.png)</br>
+   ![Arquivos e páginas fixados](../media/knowledge-management/pinned-files-and-pages.png)
  
-    Para adicionar um novo arquivo, selecione <b>Adicionar</b>, selecione o site do SharePoint em seus sites Frequent ou Followed e selecione o arquivo na biblioteca de documentos do site.
+    Para adicionar um novo arquivo, selecione **Adicionar**, selecione o site do SharePoint em seus sites Frequent ou Followed e selecione o arquivo na biblioteca de documentos do site.
 
-    Você também pode usar <b>a opção De um link</b> para adicionar um arquivo ou página fornecendo a URL. 
+    Você também pode usar **a opção De um link** para adicionar um arquivo ou página fornecendo a URL. 
 
     > [!Note] 
     > Os arquivos e páginas que você adiciona devem estar localizados no mesmo locatário do Microsoft 365. Se quiser adicionar um link a um recurso externo no tópico, você pode adicioná-lo por meio do ícone de tela na etapa 8.
 
 
-6.  A <b>seção Sites relacionados</b> mostra sites que têm informações sobre o tópico. 
+6.  A **seção Sites relacionados** mostra sites que têm informações sobre o tópico. 
 
-    ![Seção Sites relacionados](../media/knowledge-management/related-sites.png)</br>
+    ![Seção Sites relacionados](../media/knowledge-management/related-sites.png)
 
-    Você pode adicionar um site relacionado selecionando <b>Adicionar</b> e, em seguida, pesquisando o site ou selecionando-o em sua lista de sites Frequentes ou Recentes.</br>
+    Você pode adicionar um site relacionado selecionando **Adicionar** e, em seguida, pesquisando o site ou selecionando-o em sua lista de sites Frequentes ou Recentes.
     
-    ![Selecionar site](../media/knowledge-management/sites.png)</br>
+    ![Selecionar site](../media/knowledge-management/sites.png)
 
-7. A <b>seção Tópicos relacionados</b> mostra conexões existentes entre tópicos. Você pode adicionar uma conexão a um tópico diferente selecionando o botão <b>Conectar a</b> um tópico relacionado e digitando o nome do tópico relacionado e selecionando-o nos resultados da pesquisa. 
+7. A **seção Tópicos relacionados** mostra conexões existentes entre tópicos. Você pode adicionar uma conexão a um tópico diferente selecionando o botão **Conectar a** um tópico relacionado e digitando o nome do tópico relacionado e selecionando-o nos resultados da pesquisa. 
 
-   ![Tópicos relacionados](../media/knowledge-management/related-topic.png)</br>  
+   ![Tópicos relacionados](../media/knowledge-management/related-topic.png)  
 
-    Em seguida, você pode dar uma descrição de como os tópicos estão relacionados e selecionar <b>Atualizar</b>.</br>
+    Em seguida, você pode dar uma descrição de como os tópicos estão relacionados e selecionar **Atualizar**.
 
-   ![Descrição de tópicos relacionados](../media/knowledge-management/related-topics-update.png)</br> 
+   ![Descrição de tópicos relacionados](../media/knowledge-management/related-topics-update.png) 
 
    O tópico relacionado adicionado será exibido como um tópico conectado.
 
-   ![Tópicos relacionados conectados](../media/knowledge-management/related-topics-final.png)</br> 
+   ![Tópicos relacionados conectados](../media/knowledge-management/related-topics-final.png) 
 
-   Para remover um tópico relacionado, selecione o tópico que você deseja remover e selecione o <b>ícone Remover tópico.</b></br>
+   Para remover um tópico relacionado, selecione o tópico que você deseja remover e selecione o **ícone Remover tópico.**
  
-   ![Remover tópico relacionado](../media/knowledge-management/remove-related.png)</br>  
+   ![Remover tópico relacionado](../media/knowledge-management/remove-related.png)  
 
-   Em seguida, <b>selecione Remover</b>.</br>
+   Em seguida, **selecione Remover**.
 
-   ![Confirmar remover](../media/knowledge-management/remove-related-confirm.png)</br> 
-     
- 
-
+   ![Confirmar remover](../media/knowledge-management/remove-related-confirm.png) 
 
 8. Você também pode adicionar itens estáticos à página (como texto, imagens ou links) selecionando o ícone de tela, que você pode encontrar abaixo da descrição curta. A seleção abrirá a caixa de ferramentas do SharePoint da qual você pode escolher o item que deseja adicionar à página.
 
-   ![Ícone de tela](../media/knowledge-management/webpart-library.png)</br> 
-
+   ![Ícone de tela](../media/knowledge-management/webpart-library.png) 
 
 9. Selecione **Publicar** para salvar suas alterações. 
 

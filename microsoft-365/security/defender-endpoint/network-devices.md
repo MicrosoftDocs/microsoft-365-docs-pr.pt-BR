@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d0ae82c2e284235d96531c04dc2240063d4e4183
-ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
+ms.openlocfilehash: 43ade52e18ffc8e5db890cb0776090e9b32419e2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51657026"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687656"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>Gerenciamento de vulnerabilidade e descoberta de dispositivo de rede
 
@@ -97,7 +97,7 @@ Sua primeira etapa é selecionar um dispositivo que executará as verificações
     - login.microsoftonline.com
     - *.blob.core.windows.net/networkscannerstable/ *
 
-    Observação: nem todas as URLs não são especificadas na lista documentada do Defender for Endpoint da coleção de dados permitida.
+    Observação: nem todas as URLs são especificadas na lista documentada do Defender for Endpoint da coleção de dados permitida.
 
 ## <a name="permissions"></a>Permissões
 

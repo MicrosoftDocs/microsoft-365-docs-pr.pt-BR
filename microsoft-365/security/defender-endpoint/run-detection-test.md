@@ -1,6 +1,6 @@
 ---
-title: Executar um teste de detecção em um dispositivo Microsoft Defender ATP recém-conectado
-description: Execute o script de detecção em um dispositivo recém-integrado para verificar se ele está corretamente conectado ao serviço Microsoft Defender ATP.
+title: Executar um teste de detecção em um dispositivo recém-integrado do Microsoft Defender para Ponto de Extremidade
+description: Execute o script de detecção em um dispositivo recém-integrado para verificar se ele está corretamente conectado ao serviço Microsoft Defender para Ponto de Extremidade.
 keywords: teste de detecção, detecção, powershell, script, verificar, integração, microsoft defender para integração de ponto de extremidade, clientes, servidores, teste
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 10154a734bb4c3d8b26fffb8618484aeb11f907a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 89b8ac7d99cfcd4c5e5e647e5ba54e14184ef0bd
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053868"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688112"
 ---
 # <a name="run-a-detection-test-on-a-newly-onboarded-microsoft-defender-for-endpoint-device"></a>Executar um teste de detecção em um dispositivo recém-integrado do Microsoft Defender para Ponto de Extremidade 
 
@@ -61,6 +61,6 @@ Execute o seguinte script do PowerShell em um dispositivo recém-conectado para 
 A janela prompt de comando será fechada automaticamente. Se bem-sucedido, o teste de detecção será marcado como concluído e um novo alerta aparecerá no portal do dispositivo conectado em aproximadamente 10 minutos.
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10](configure-endpoints.md)
+- [Dispositivos integrados do Windows 10](configure-endpoints.md)
 - [Servidores de integração](configure-server-endpoints.md)
 - [Solucionar problemas de integração do Microsoft Defender para pontos de extremidade](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/troubleshoot-onboarding)

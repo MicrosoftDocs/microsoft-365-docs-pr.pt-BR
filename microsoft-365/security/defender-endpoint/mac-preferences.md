@@ -18,28 +18,28 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 578830d44a9a69c3ccafd78ceaf59ddfe100e43f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 951c51c767ba09ebc6056481b4fac45da09c5671
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054568"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688544"
 ---
-# <a name="set-preferences-for-microsoft-defender-for-endpoint-for-mac"></a>Definir preferências do Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
 
-- [Microsoft Defender para Ponto de Extremidade para Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender para Ponto de Extremidade no macOS](microsoft-defender-endpoint-mac.md)
 
 >[!IMPORTANT]
->Este artigo contém instruções sobre como definir preferências do Microsoft Defender para Ponto de Extremidade para Mac em organizações corporativas. Para configurar o Microsoft Defender para Ponto de Extremidade para Mac usando a interface de linha de comando, [consulte Resources](mac-resources.md#configuring-from-the-command-line).
+>Este artigo contém instruções sobre como definir preferências do Microsoft Defender para Endpoint no macOS em organizações corporativas. Para configurar o Microsoft Defender para Ponto de Extremidade no macOS usando a interface de linha de comando, consulte [Resources](mac-resources.md#configuring-from-the-command-line).
 
 ## <a name="summary"></a>Resumo
 
-Nas organizações empresariais, o Microsoft Defender para Ponto de Extremidade para Mac pode ser gerenciado por meio de um perfil de configuração implantado usando uma das várias ferramentas de gerenciamento. As preferências gerenciadas pela equipe de operações de segurança têm precedência sobre as preferências definidas localmente no dispositivo. Alterar as preferências definidas por meio do perfil de configuração exige privilégios escalonados e não está disponível para usuários sem permissões administrativas.
+Em organizações corporativas, o Microsoft Defender para Ponto de Extremidade no macOS pode ser gerenciado por meio de um perfil de configuração implantado usando uma das várias ferramentas de gerenciamento. As preferências gerenciadas pela equipe de operações de segurança têm precedência sobre as preferências definidas localmente no dispositivo. Alterar as preferências definidas por meio do perfil de configuração exige privilégios escalonados e não está disponível para usuários sem permissões administrativas.
 
 Este artigo descreve a estrutura do perfil de configuração, inclui um perfil recomendado que você pode usar para começar e fornece instruções sobre como implantar o perfil.
 
@@ -56,21 +56,21 @@ O nível superior do perfil de configuração inclui preferências e entradas pa
 
 A *seção antivírusEngine* do perfil de configuração é usada para gerenciar as preferências do componente antivírus do Microsoft Defender para Ponto de Extremidade.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | antivirusEngine |
+| **Tecla** | antivirusEngine |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 #### <a name="enable--disable-real-time-protection"></a>Habilitar/desabilitar a proteção em tempo real
 
 Especifique se é necessário habilitar a proteção em tempo real, que verifica os arquivos conforme eles são acessados.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | enableRealTimeProtection |
+| **Tecla** | enableRealTimeProtection |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
 
@@ -83,45 +83,45 @@ Especifique se o mecanismo antivírus é executado no modo passivo. O modo passi
 - Atualizações de inteligência de segurança estão ativas
 - O ícone do menu Status está oculto
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | passiveMode |
+| **Tecla** | passiveMode |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | falso (padrão) <br/> verdadeiro |
-| **Comments** | Disponível no Microsoft Defender para Endpoint versão 100.67.60 ou superior. |
+| **Comentário** | Disponível no Microsoft Defender para Endpoint versão 100.67.60 ou superior. |
 
 #### <a name="exclusion-merge-policy"></a>Política de mesclagem de exclusão
 
 Especifique a política de mesclagem para exclusões. Isso pode ser uma combinação de exclusões definidas pelo administrador e definidas pelo usuário ( ) ou apenas exclusões definidas pelo administrador `merge` ( `admin_only` ). Essa configuração pode ser usada para restringir os usuários locais de definir suas próprias exclusões.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | exclusionsMergePolicy |
+| **Tecla** | exclusionsMergePolicy |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | merge (padrão) <br/> admin_only |
-| **Comments** | Disponível no Microsoft Defender para Endpoint versão 100.83.73 ou superior. |
+| **Comentário** | Disponível no Microsoft Defender para Endpoint versão 100.83.73 ou superior. |
 
 #### <a name="scan-exclusions"></a>Exclusões de verificação
 
 Especifique entidades excluídas da verificação. As exclusões podem ser especificadas por caminhos completos, extensões ou nomes de arquivo.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | exclusões |
+| **Tecla** | exclusões |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 ##### <a name="type-of-exclusion"></a>Tipo de exclusão
 
 Especifique o conteúdo excluído de ser verificado por tipo.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | $type |
+| **Tecla** | $type |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | excludedPath <br/> excludedFileExtension <br/> excludedFileName |
 
@@ -129,91 +129,91 @@ Especifique o conteúdo excluído de ser verificado por tipo.
 
 Especifique o conteúdo excluído de ser verificado pelo caminho completo do arquivo.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | caminho |
+| **Tecla** | caminho |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | caminhos válidos |
-| **Comments** | Aplicável somente se *$type* *for excludedPath* |
+| **Comentário** | Aplicável somente se *$type* *for excludedPath* |
 
 ##### <a name="path-type-file--directory"></a>Tipo de caminho (arquivo/diretório)
 
 Indique se a *propriedade path* se refere a um arquivo ou diretório. 
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | isDirectory |
+| **Tecla** | isDirectory |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | falso (padrão) <br/> verdadeiro |
-| **Comments** | Aplicável somente se *$type* *for excludedPath* |
+| **Comentário** | Aplicável somente se *$type* *for excludedPath* |
 
 ##### <a name="file-extension-excluded-from-the-scan"></a>Extensão de arquivo excluída da verificação
 
 Especifique o conteúdo excluído de ser verificado por extensão de arquivo.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | extension |
+| **Tecla** | extension |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | extensões de arquivo válidas |
-| **Comments** | Aplicável somente se *$type* *for excludedFileExtension* |
+| **Comentário** | Aplicável somente se *$type* *for excludedFileExtension* |
 
 ##### <a name="process-excluded-from-the-scan"></a>Processo excluído da verificação
 
 Especifique um processo para o qual todas as atividades de arquivo são excluídas da verificação. O processo pode ser especificado pelo nome (por exemplo) ou caminho `cat` completo (por `/bin/cat` exemplo).
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | nome |
+| **Tecla** | nome |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | qualquer cadeia de caracteres |
-| **Comments** | Aplicável somente *se* $type *for excludedFileName* |
+| **Comentário** | Aplicável somente *se* $type *for excludedFileName* |
 
 #### <a name="allowed-threats"></a>Ameaças permitidas
 
 Especifique ameaças por nome que não são bloqueadas pelo Defender para Ponto de Extremidade para Mac. Essas ameaças terão permissão para serem executados.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | allowedThreats |
+| **Tecla** | allowedThreats |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 
 #### <a name="disallowed-threat-actions"></a>Ações de ameaça não permitidos
 
 Restringe as ações que o usuário local de um dispositivo pode tomar quando as ameaças são detectadas. As ações incluídas nesta lista não são exibidas na interface do usuário.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | disallowedThreatActions |
+| **Tecla** | disallowedThreatActions |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | allow (restringe os usuários a permitir ameaças) <br/> restore (restringe os usuários de restaurar ameaças da quarentena) |
-| **Comments** | Disponível no Microsoft Defender para Endpoint versão 100.83.73 ou superior. |
+| **Comentário** | Disponível no Microsoft Defender para Endpoint versão 100.83.73 ou superior. |
 
 #### <a name="threat-type-settings"></a>Configurações de tipo de ameaça
 
-Especifique como determinados tipos de ameaça são manipulados pelo Microsoft Defender para Ponto de Extremidade para Mac.
+Especifique como determinados tipos de ameaça são manipulados pelo Microsoft Defender para Ponto de Extremidade no macOS.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | threatTypeSettings |
+| **Tecla** | threatTypeSettings |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 ##### <a name="threat-type"></a>Tipo de ameaça
 
 Especifique tipos de ameaça.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | chave |
+| **Tecla** | chave |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | potentially_unwanted_application <br/> archive_bomb |
 
@@ -225,10 +225,10 @@ Especifique qual ação tomar quando uma ameaça do tipo especificado na seção
 - **Bloquear**: seu dispositivo é protegido contra esse tipo de ameaça e você é notificado na interface do usuário e no console de segurança.
 - **Off**: seu dispositivo não está protegido contra esse tipo de ameaça e nada é registrado.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | valor |
+| **Tecla** | valor |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | audit (padrão) <br/> block <br/> off |
 
@@ -236,57 +236,57 @@ Especifique qual ação tomar quando uma ameaça do tipo especificado na seção
 
 Especifique a política de mesclagem para configurações de tipo de ameaça. Isso pode ser uma combinação de configurações definidas pelo administrador e definidas pelo usuário ( ) ou apenas `merge` configurações definidas pelo administrador ( `admin_only` ). Essa configuração pode ser usada para restringir os usuários locais de definir suas próprias configurações para tipos de ameaça diferentes.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | threatTypeSettingsMergePolicy |
+| **Tecla** | threatTypeSettingsMergePolicy |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | merge (padrão) <br/> admin_only |
-| **Comments** | Disponível no Microsoft Defender para Endpoint versão 100.83.73 ou superior. |
+| **Comentário** | Disponível no Microsoft Defender para Endpoint versão 100.83.73 ou superior. |
 
 #### <a name="antivirus-scan-history-retention-in-days"></a>Retenção de histórico de verificação de antivírus (em dias)
 
 Especifique o número de dias que os resultados são mantidos no histórico de verificação no dispositivo. Os resultados antigos da verificação são removidos do histórico. Arquivos em quarentena antigos que também são removidos do disco.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | scanResultsRetentionDays |
+| **Tecla** | scanResultsRetentionDays |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | 90 (padrão). Os valores permitidos são de 1 dia a 180 dias. |
-| **Comments** | Disponível no Microsoft Defender para Endpoint versão 101.07.23 ou superior. |
+| **Comentário** | Disponível no Microsoft Defender para Endpoint versão 101.07.23 ou superior. |
 
 #### <a name="maximum-number-of-items-in-the-antivirus-scan-history"></a>Número máximo de itens no histórico de verificação de antivírus
 
 Especifique o número máximo de entradas a manter no histórico de verificação. As entradas incluem todas as verificações sob demanda realizadas no passado e todas as detecções de antivírus.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | scanHistoryMaximumItems |
+| **Tecla** | scanHistoryMaximumItems |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | 10000 (padrão). Os valores permitidos são de 5.000 itens a 15.000 itens. |
-| **Comments** | Disponível no Microsoft Defender para Endpoint versão 101.07.23 ou superior. |
+| **Comentário** | Disponível no Microsoft Defender para Endpoint versão 101.07.23 ou superior. |
 
 ### <a name="cloud-delivered-protection-preferences"></a>Preferências de proteção entregues na nuvem
 
-Configure os recursos de proteção orientados por nuvem do Microsoft Defender para Ponto de Extremidade para Mac.
+Configure os recursos de proteção orientados por nuvem do Microsoft Defender para Endpoint no macOS.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | cloudService |
+| **Tecla** | cloudService |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 #### <a name="enable--disable-cloud-delivered-protection"></a>Habilitar/desabilitar a proteção entregue na nuvem
 
 Especifique se o dispositivo deve ser habilitado ou não para a proteção entregue na nuvem. Para melhorar a segurança dos seus serviços, recomendamos manter esse recurso ligado.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | habilitadas |
+| **Tecla** | habilitadas |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
 
@@ -294,10 +294,10 @@ Especifique se o dispositivo deve ser habilitado ou não para a proteção entre
 
 Os dados de diagnóstico são usados para manter o Microsoft Defender para o Ponto de Extremidade seguro e atualizado, detectar, diagnosticar e corrigir problemas e também fazer melhorias no produto. Essa configuração determina o nível de diagnóstico enviado pelo Microsoft Defender para o Ponto de Extremidade para a Microsoft.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | diagnosticLevel |
+| **Tecla** | diagnosticLevel |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | opcional (padrão) <br/> obrigatório |
 
@@ -305,10 +305,10 @@ Os dados de diagnóstico são usados para manter o Microsoft Defender para o Pon
 
 Determina se amostras suspeitas (que provavelmente contêm ameaças) são enviadas à Microsoft. Você será solicitado se o arquivo enviado provavelmente conter informações pessoais.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | automaticSampleSubmission |
+| **Tecla** | automaticSampleSubmission |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
 
@@ -316,31 +316,31 @@ Determina se amostras suspeitas (que provavelmente contêm ameaças) são enviad
 
 Determina se as atualizações de inteligência de segurança são instaladas automaticamente:
 
-|||
+|Section|Valor|
 |:---|:---|
-| **Chave** | automaticDefinitionUpdateEnabled |
+| **Tecla** | automaticDefinitionUpdateEnabled |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | true (padrão) <br/> falso |
 
 ### <a name="user-interface-preferences"></a>Preferências de interface do usuário
 
-Gerencie as preferências para a interface do usuário do Microsoft Defender para Ponto de Extremidade para Mac.
+Gerencie as preferências para a interface do usuário do Microsoft Defender para Ponto de Extremidade no macOS.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | userInterface |
+| **Tecla** | userInterface |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 #### <a name="show--hide-status-menu-icon"></a>Mostrar/ocultar ícone de menu de status
 
 Especifique se deve mostrar ou ocultar o ícone do menu de status no canto superior direito da tela.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | hideStatusMenuIcon |
+| **Tecla** | hideStatusMenuIcon |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | falso (padrão) <br/> verdadeiro |
 
@@ -348,24 +348,24 @@ Especifique se deve mostrar ou ocultar o ícone do menu de status no canto super
 
 Especifique se os usuários podem enviar comentários para a Microsoft indo para `Help`  >  `Send Feedback` .
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | userInitiatedFeedback |
+| **Tecla** | userInitiatedFeedback |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | habilitado (padrão) <br/> desabilitadas |
-| **Comments** | Disponível no Microsoft Defender para Endpoint versão 101.19.61 ou superior. |
+| **Comentário** | Disponível no Microsoft Defender para Endpoint versão 101.19.61 ou superior. |
 
 ### <a name="endpoint-detection-and-response-preferences"></a>Preferências de detecção e resposta do ponto de extremidade
 
-Gerencie as preferências do componente de detecção e resposta do ponto de extremidade (EDR) do Microsoft Defender para Ponto de Extremidade para Mac.
+Gerencie as preferências do componente de detecção e resposta do ponto de extremidade (EDR) do Microsoft Defender para Ponto de Extremidade no macOS.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | edr |
+| **Tecla** | edr |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 #### <a name="device-tags"></a>Marcas de dispositivo
 
@@ -373,21 +373,21 @@ Especifique um nome de marca e seu valor.
 
 - A marca GROUP marca o dispositivo com o valor especificado. A marca é refletida no portal sob a página do dispositivo e pode ser usada para filtrar e agrupar dispositivos.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | tags |
+| **Tecla** | tags |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 ##### <a name="type-of-tag"></a>Tipo de marca
 
 Especifica o tipo de marca
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | chave |
+| **Tecla** | chave |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | `GROUP` |
 
@@ -395,10 +395,10 @@ Especifica o tipo de marca
 
 Especifica o valor da marca
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | valor |
+| **Tecla** | valor |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | qualquer cadeia de caracteres |
 
@@ -542,7 +542,7 @@ O perfil de configuração a seguir (ou, no caso de JAMF, uma lista de proprieda
 
 ## <a name="full-configuration-profile-example"></a>Exemplo de perfil de configuração completa
 
-Os modelos a seguir contêm entradas para todas as configurações descritas neste documento e podem ser usadas para cenários mais avançados em que você deseja mais controle sobre o Microsoft Defender para Ponto de Extremidade para Mac.
+Os modelos a seguir contêm entradas para todas as configurações descritas neste documento e podem ser usadas para cenários mais avançados em que você deseja mais controle sobre o Microsoft Defender para Ponto de Extremidade no macOS.
 
 ### <a name="property-list-for-jamf-configuration-profile"></a>Lista de propriedades para perfil de configuração JAMF
 
@@ -829,7 +829,7 @@ No console JAMF, **abra** Perfis de Configuração de Computadores, navegue até
 
 5. Abra o perfil de configuração e carregue o `com.microsoft.wdav.xml` arquivo. (Esse arquivo foi criado na etapa 3.)
 
-6. Selecione **OK**.
+6. Clique em **OK**.
 
 7. Selecione **Gerenciar**  >  **atribuições**. Na guia **Incluir,** selecione **Atribuir a Todos os Usuários & Todos os dispositivos**.
 

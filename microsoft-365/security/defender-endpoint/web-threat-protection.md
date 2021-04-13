@@ -1,6 +1,6 @@
 ---
 title: Proteger sua organização contra ameaças da Web
-description: Saiba mais sobre a proteção da Web no Microsoft Defender ATP e como ela pode proteger sua organização.
+description: Saiba mais sobre a proteção da Web no Microsoft Defender para Ponto de Extremidade e como ela pode proteger sua organização.
 keywords: proteção da Web, proteção contra ameaças da Web, navegação na Web, segurança, phishing, malware, exploração, sites, proteção de rede, Edge, Internet Explorer, Chrome, Firefox, navegador da Web
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: aeeea02ca1ef2d37623e9ab434b162237c2f4946
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0c42c05e318390741b94b6d7d1b5394fca961714
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499903"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688940"
 ---
 # <a name="protect-your-organization-against-web-threats"></a>Proteger sua organização contra ameaças da Web
 

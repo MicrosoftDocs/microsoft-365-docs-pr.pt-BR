@@ -1,5 +1,5 @@
 ---
-title: Exemplos de comando de resposta ao vivo
+title: Exemplos de comando de Resposta ao vivo
 description: Aprenda a executar comandos de resposta ao vivo básicos ou avançados do Microsoft Defender para Endpoint e veja exemplos sobre como ele é usado.
 keywords: exemplo, comando, cli, remoto, shell, conexão, ao vivo, resposta, em tempo real, comando, script, correção, busca, exportação, log, soltar, baixar, arquivo
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0e00464b5d5dcf348fcc76a3f093ac8bac373627
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f08f20753a1f0926abbbce01fe97f20ef1c07f2c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187704"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689084"
 ---
-# <a name="live-response-command-examples"></a>Exemplos de comando de resposta ao vivo
+# <a name="live-response-command-examples"></a>Exemplos de comando de Resposta ao vivo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -198,7 +198,11 @@ run script.ps1
 # Run PowerShell script from the library with arguments
 run get-process-by-name.ps1 -parameters "-processName Registry"
 ```
-
+>[!NOTE]
+>
+> Para comandos de execução longa, como '**run**' ou '**getfile**', talvez você queira usar o símbolo ' ' no final do comando para executar essa ação em **&** segundo plano.
+> Isso permitirá que você continue investigando o computador e retorne ao comando em segundo plano quando terminar de usar o comando básico '**fg** ['](live-response.md#basic-commands).
+>
 ## <a name="scheduledtask"></a>scheduledtask
 
 ```

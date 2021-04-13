@@ -1,6 +1,6 @@
 ---
 title: Controle de dispositivo para macOS
-description: Saiba como configurar o Microsoft Defender para Ponto de Extremidade para Mac para reduzir ameaças de armazenamento removível, como dispositivos USB.
+description: Saiba como configurar o Microsoft Defender para Ponto de Extremidade no Mac para reduzir as ameaças de armazenamento removível, como dispositivos USB.
 keywords: microsoft, defender, atp, mac, dispositivo, controle, usb, removível, mídia
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 098eb30764870e69c5b1b6c2cec3cf8e5cb11691
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 696bc45f7bb66313cc9353e252d76c2e9fd73259
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186564"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688676"
 ---
 # <a name="device-control-for-macos"></a>Controle de dispositivo para macOS
 
@@ -52,7 +52,7 @@ O controle de dispositivo para macOS tem os seguintes pré-requisitos:
 >   ```bash
 >   mdatp health --field real_time_protection_subsystem 
 >   ```
-> - Seu dispositivo deve estar `Beta` no (anteriormente chamado ) canal de atualização do Microsoft `InsiderFast` AutoUpdate. Para obter mais informações, [consulte Deploy updates for Microsoft Defender for Endpoint for Mac](mac-updates.md).
+> - Seu dispositivo deve estar `Beta` no (anteriormente chamado ) canal de atualização do Microsoft `InsiderFast` AutoUpdate. Para obter mais informações, [consulte Deploy updates for Microsoft Defender for Endpoint on Mac](mac-updates.md).
 > 
 >   Você pode verificar o canal de atualização usando o seguinte comando: 
 > 
@@ -66,7 +66,7 @@ O controle de dispositivo para macOS tem os seguintes pré-requisitos:
 >    defaults write com.microsoft.autoupdate2 ChannelName -string Beta
 >    ```
 >
->    Como alternativa, se você estiver em um ambiente gerenciado (JAMF ou Intune), poderá configurar o canal de atualização remotamente. Para obter mais informações, [consulte Deploy updates for Microsoft Defender for Endpoint for Mac](mac-updates.md). 
+>    Como alternativa, se você estiver em um ambiente gerenciado (JAMF ou Intune), poderá configurar o canal de atualização remotamente. Para obter mais informações, [consulte Deploy updates for Microsoft Defender for Endpoint on Mac](mac-updates.md). 
 
 ## <a name="device-control-policy"></a>Política de controle de dispositivo
 
@@ -76,12 +76,12 @@ A política de controle de dispositivo está incluída no perfil de configuraç�
 
 No perfil de configuração, a política de controle de dispositivo é definida na seção a seguir:
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | deviceControl |
+| **Tecla** | deviceControl |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 A política de controle de dispositivo pode ser usada para:
 
@@ -96,12 +96,12 @@ Quando a política de controle de dispositivo que você colocou é imposta em um
 
 Quando os usuários finais clicam nessa notificação, uma página da Web é aberta no navegador padrão. Você pode configurar a URL aberta quando os usuários finais clicarem na notificação.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | navigationTarget |
-| **Tipo de dados** | Cadeia de caracteres |
-| **Comments** | Se não estiver definido, o produto usará uma URL padrão apontando para uma página genérica explicando a ação tomada pelo produto. |
+| **Tecla** | navigationTarget |
+| **Tipo de dados** | String |
+| **Comentário** | Se não estiver definido, o produto usará uma URL padrão apontando para uma página genérica explicando a ação tomada pelo produto. |
 
 ### <a name="allow-or-block-removable-devices"></a>Permitir ou bloquear dispositivos removíveis
 
@@ -110,12 +110,12 @@ A seção mídia removível da política de controle de dispositivo é usada par
 > [!NOTE]
 > Os seguintes tipos de mídia removível têm suporte no momento e podem ser incluídos na política: dispositivos de armazenamento USB.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | removableMediaPolicy |
+| **Tecla** | removableMediaPolicy |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
-| **Comments** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
+| **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
 Esta seção da política é hierárquica, permitindo a máxima flexibilidade e abrangendo uma ampla variedade de casos de uso. No nível superior estão fornecedores, identificados por uma ID de fornecedor. Para cada fornecedor, há produtos, identificados por uma ID do produto. Por fim, para cada produto, há números de série que denotam dispositivos específicos.
 
@@ -143,10 +143,10 @@ Na seção mídia removível, há uma opção para definir o nível de imposiç�
 - `audit` - Nesse nível de imposição, se o acesso a um dispositivo for restrito, uma notificação será exibida para o usuário, no entanto, o dispositivo ainda poderá ser usado. Esse nível de imposição pode ser útil para avaliar a eficácia de uma política.
 - `block` - Nesse nível de imposição, as operações que o usuário pode executar no dispositivo são limitadas ao que é definido na política. Além disso, uma notificação é criada para o usuário. 
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | enforcementLevel |
+| **Tecla** | enforcementLevel |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | audit (padrão) <br/> block |
 
@@ -168,10 +168,10 @@ Essa configuração pode ser definida como:
 > [!NOTE]
 > A `execute` permissão refere-se apenas à execução de binários Mach-O. Ele não inclui a execução de scripts ou outros tipos de cargas.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | permission |
+| **Tecla** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | nenhuma <br/> leitura <br/> gravação <br/> execute |
 
@@ -183,35 +183,35 @@ No nível superior da política de mídia removível, você pode, opcionalmente,
 
 O `vendors` dicionário contém uma ou mais entradas, com cada entrada sendo identificada pela ID do fornecedor.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | vendors |
+| **Tecla** | vendors |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 
 Para cada fornecedor, você pode especificar o nível de permissão desejado para dispositivos desse fornecedor.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | permission |
+| **Tecla** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 
 Além disso, opcionalmente, você pode especificar o conjunto de produtos pertencentes a esse fornecedor para o qual as permissões mais granulares são definidas. O `products` dicionário contém uma ou mais entradas, com cada entrada sendo identificada pela ID do produto. 
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | products |
+| **Tecla** | products |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 
 Para cada produto, você pode especificar o nível de permissão desejado para esse produto.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | permission |
+| **Tecla** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 
@@ -219,18 +219,18 @@ Além disso, você pode especificar um conjunto opcional de números de série p
 
 O `serialNumbers` dicionário contém uma ou mais entradas, com cada entrada sendo identificada pelo número de série.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | serialNumbers |
+| **Tecla** | serialNumbers |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 
 Para cada número de série, você pode especificar o nível de permissão desejado.
 
-|||
+|Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Chave** | permission |
+| **Tecla** | permission |
 | **Tipo de dados** | Matriz de cadeias de caracteres |
 | **Valores possíveis** | Mesmo nível [de permissão padrão](#default-permission-level) |
 
@@ -336,7 +336,7 @@ DeviceEvents
 
 ## <a name="device-control-policy-deployment"></a>Implantação da política de controle de dispositivo
 
-A política de controle de dispositivo deve ser incluída ao lado das outras configurações do produto, conforme descrito em [Definir preferências](mac-preferences.md)do Microsoft Defender para Ponto de Extremidade para Mac .
+A política de controle de dispositivo deve ser incluída ao lado das outras configurações do produto, conforme descrito em Definir preferências do Microsoft Defender para Ponto de Extremidade [no macOS](mac-preferences.md).
 
 Esse perfil pode ser implantado usando as instruções listadas na [implantação do perfil de configuração.](mac-preferences.md#configuration-profile-deployment)
 

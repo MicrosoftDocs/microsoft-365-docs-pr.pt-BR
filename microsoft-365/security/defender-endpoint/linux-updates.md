@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: ad37427e8134c574690c3b3553d7fb9b8507593c
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 2e4ea4942446317aef90288da9fb181935503fa9
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187716"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687461"
 ---
-# <a name="deploy-updates-for-microsoft-defender-for-endpoint-for-linux"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade para Linux
+# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

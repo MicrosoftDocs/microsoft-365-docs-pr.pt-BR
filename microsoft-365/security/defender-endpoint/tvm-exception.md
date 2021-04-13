@@ -1,7 +1,7 @@
 ---
 title: Criar e exibir exceções para recomendações de segurança - gerenciamento de ameaças e vulnerabilidades
 description: Crie e monitore exceções para recomendações de segurança no gerenciamento de ameaças e vulnerabilidades.
-keywords: Correção de tvm do microsoft defender atp, tvm mdatp, gerenciamento de ameaças e vulnerabilidades, gerenciamento de vulnerabilidades & ameaças, correção de gerenciamento de vulnerabilidades & ameaças, intune de correção de tvm, sccm de correção de tvm
+keywords: microsoft defender para correção de tvm de ponto de extremidade, mdatp tvm, gerenciamento de ameaças e vulnerabilidades, gerenciamento de vulnerabilidades & ameaças, correção de gerenciamento de vulnerabilidades & ameaças, intune de correção de tvm, sccm de correção de tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 13ac09b1ad918ed945edec6167fd57ea02b616ea
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 4f37300a742ab8cac32e95863cb706f1fd5f5d66
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500183"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689408"
 ---
 # <a name="create-and-view-exceptions-for-security-recommendations---threat-and-vulnerability-management"></a>Criar e exibir exceções para recomendações de segurança - gerenciamento de ameaças e vulnerabilidades
 
@@ -42,7 +42,7 @@ Como alternativa a uma solicitação de correção quando uma recomendação nã
 
 Quando uma exceção é criada para uma recomendação, a recomendação não estará ativa até o final da duração da exceção. O estado de recomendação mudará para **Exceção Total** ou **Parcial** (por grupo de dispositivos).
 
-## <a name="permissions"></a>Permissions
+## <a name="permissions"></a>Permissões
 
 Somente usuários com permissões de "tratamento de exceções" podem gerenciar exceções (incluindo criação ou cancelamento). [Saiba mais sobre funções RBAC](user-roles.md).
 
@@ -84,7 +84,7 @@ Um flyout aparecerá onde você pode pesquisar e escolher os grupos de dispositi
 
 ### <a name="global-exceptions"></a>Exceções globais
 
-Se você tiver permissões de administrador global (chamada de administrador do Microsoft Defender ATP), poderá criar e cancelar uma exceção global. Ele afeta todos **os** grupos de dispositivos atuais e futuros em sua organização, e somente um usuário com permissão semelhante poderá alterá-lo. O estado de recomendação mudará de "ativo" para "exceção completa".
+Se você tiver permissões globais de administrador, poderá criar e cancelar uma exceção global. Ele afeta todos **os** grupos de dispositivos atuais e futuros em sua organização, e somente um usuário com permissão semelhante poderá alterá-lo. O estado de recomendação mudará de "ativo" para "exceção completa".
 
 ![Mostrando a opção de exceção global.](images/tvm-exception-global.png)
 

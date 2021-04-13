@@ -1,6 +1,6 @@
 ---
-title: Novidades no Microsoft Defender para Ponto de Extremidade para Mac
-description: Saiba mais sobre as principais alterações para versões anteriores do Microsoft Defender para Ponto de Extremidade para Mac.
+title: Novidades do Microsoft Defender para Ponto de Extremidade no Mac
+description: Saiba mais sobre as principais alterações nas versões anteriores do Microsoft Defender para Ponto de Extremidade no Mac.
 keywords: microsoft, defender, atp, mac, installation, macos, whatsnew
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5cd1f64d006b5462634dd47df9083e1a89db0e8c
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 67bbc987dc339c0e1f0354e07d6d2db8c39ec8b9
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615202"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689036"
 ---
-# <a name="whats-new-in-microsoft-defender-for-endpoint-for-mac"></a>Novidades no Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Novidades do Microsoft Defender para Ponto de Extremidade no Mac
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "51615202"
 
 ## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
 
-- O Microsoft Defender para Ponto de Extremidade para Mac agora está disponível em versão prévia para clientes do Governo dos EUA. Para obter mais informações, consulte [Microsoft Defender for Endpoint for US Government customers](gov.md).
+- O Microsoft Defender para Ponto de Extremidade no macOS agora está disponível em versão prévia para clientes do Governo dos EUA. Para obter mais informações, consulte [Microsoft Defender for Endpoint for US Government customers](gov.md).
 - Melhorias de desempenho (especificamente para a situação quando o aplicativo XCode Simulator é usado) & correções de bugs
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
@@ -61,7 +61,7 @@ ms.locfileid: "51615202"
 > [!NOTE]
 > A sintaxe da ferramenta de linha de comando antiga foi preterida com essa versão. Para obter informações sobre a nova sintaxe, consulte [Resources](mac-resources.md#configuring-from-the-command-line).
 
-- Adicionada uma nova opção de linha de comando para desabilitar a extensão de rede: `mdatp system-extension network-filter disable` . Esse comando pode ser útil para solucionar problemas de rede que podem estar relacionados ao Microsoft Defender para Ponto de Extremidade para Mac
+- Adicionada uma nova opção de linha de comando para desabilitar a extensão de rede: `mdatp system-extension network-filter disable` . Esse comando pode ser útil para solucionar problemas de rede que podem estar relacionados ao Microsoft Defender para Ponto de Extremidade no Mac
 - Melhorias de desempenho & correções de bugs
 
 ## <a name="1011921-20120101119210"></a>101.19.21 (20.120101.11921.0)
@@ -94,7 +94,7 @@ ms.locfileid: "51615202"
 
 - Esta versão do produto foi validada no macOS Big Sur 11 beta 9
 
-- A nova sintaxe da ferramenta `mdatp` de linha de comando agora é a padrão. Para obter mais informações sobre a nova sintaxe, consulte [Resources for Microsoft Defender for Endpoint for Mac](mac-resources.md#configuring-from-the-command-line)
+- A nova sintaxe da ferramenta `mdatp` de linha de comando agora é a padrão. Para obter mais informações sobre a nova sintaxe, consulte [Resources for Microsoft Defender for Endpoint on macOS](mac-resources.md#configuring-from-the-command-line)
 
   > [!NOTE]
   > A sintaxe da ferramenta de linha de comando antiga será removida do produto em 1º de janeiro de **2021**.
@@ -159,7 +159,7 @@ ms.locfileid: "51615202"
 
 ## <a name="1009027"></a>100.90.27
 
-- Agora você pode [definir um canal de](mac-updates.md#set-the-channel-name) atualização para o Microsoft Defender para Ponto de Extremidade para Mac diferente do canal de atualização em todo o sistema
+- Agora você pode [definir um canal de](mac-updates.md#set-the-channel-name) atualização para o Microsoft Defender para Ponto de Extremidade no macOS diferente do canal de atualização em todo o sistema
 - Novo ícone do produto
 - Outras melhorias na experiência do usuário
 - Correções de bugs
@@ -196,7 +196,7 @@ ms.locfileid: "51615202"
 
 ## <a name="1007942"></a>100.79.42
 
-- Corrigido um problema em que o Microsoft Defender para Ponto de Extremidade para Mac estava, às vezes, interferendo com o Time Machine
+- Corrigido um problema em que o Microsoft Defender para Ponto de Extremidade no Mac estava, às vezes, interferendo com o Time Machine
 - Adicionada uma nova opção ao utilitário de linha de comando para testar a conectividade com o serviço back-end
   ```bash
   mdatp connectivity test

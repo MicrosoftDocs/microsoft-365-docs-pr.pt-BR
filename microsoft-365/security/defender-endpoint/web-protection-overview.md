@@ -1,6 +1,6 @@
 ---
 title: Proteção da Web
-description: Saiba mais sobre a proteção da Web no Microsoft Defender ATP e como ela pode proteger sua organização
+description: Saiba mais sobre a proteção da Web no Microsoft Defender para Ponto de Extremidade e como ela pode proteger sua organização
 keywords: proteção da Web, proteção contra ameaças da Web, navegação na Web, segurança, phishing, malware, exploração, sites, proteção de rede, Edge, Internet Explorer, Chrome, Firefox, navegador da Web, sites mal-intencionados
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4c04ce3479ac995e59c3bdfa9a2bdcca87eca17b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a985719663ec23d41ce4da57aea9aa5e0cf7674c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499918"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688964"
 ---
 # <a name="web-protection"></a>Proteção da Web
 

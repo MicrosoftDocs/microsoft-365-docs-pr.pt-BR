@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b56e8a74875b3377b6f3228bbefb339680dbc6e1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: aaf537c84adaba3d632367567cc569069650d21a
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187776"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688352"
 ---
-# <a name="privacy-for-microsoft-defender-for-endpoint-for-linux"></a>Privacidade do Microsoft Defender para Ponto de Extremidade para Linux
+# <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Privacidade do Microsoft Defender para Ponto de Extremidade no Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ A Microsoft está comprometida em fornecer as informações e controles necessá
 
 Este tópico descreve os controles de privacidade disponíveis no produto, como gerenciar esses controles com configurações de política e mais detalhes sobre os eventos de dados coletados.
 
-## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-for-linux"></a>Visão geral dos controles de privacidade no Microsoft Defender para Ponto de Extremidade para Linux
+## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-on-linux"></a>Visão geral dos controles de privacidade no Microsoft Defender para Ponto de Extremidade no Linux
 
 Esta seção descreve os controles de privacidade para os diferentes tipos de dados coletados pelo Defender para Ponto de Extremidade para Linux.
 

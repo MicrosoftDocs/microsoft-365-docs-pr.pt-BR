@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender para Ponto de Extremidade para Linux
+title: Microsoft Defender para Ponto de Extremidade no Linux
 ms.reviewer: ''
 description: Descreve como instalar e usar o Microsoft Defender ATP para Linux.
 keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cc2f5be700395f6d88c05481d74501f4d9d92b76
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0fea9d4dd46be2a77ea27728787a43b5273f92f5
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500669"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687752"
 ---
-# <a name="microsoft-defender-for-endpoint-for-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
+# <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade no Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,12 +36,12 @@ ms.locfileid: "51500669"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Este tópico descreve como instalar, configurar, atualizar e usar o Microsoft Defender para Endpoint para Linux.
+Este tópico descreve como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Linux.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade para Linux provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para a funcionalidade EDR do Ponto de Extremidade para Linux depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](linux-preferences.md#enable--disable-passive-mode)
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade no Linux provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para a funcionalidade EDR do Ponto de Extremidade para Linux depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](linux-preferences.md#enable--disable-passive-mode)
 
-## <a name="how-to-install-microsoft-defender-for-endpoint-for-linux"></a>Como instalar o Microsoft Defender para Ponto de Extremidade para Linux
+## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Como instalar o Microsoft Defender para Ponto de Extremidade no Linux
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
@@ -52,19 +52,19 @@ Este tópico descreve como instalar, configurar, atualizar e usar o Microsoft De
 
 ### <a name="installation-instructions"></a>Instruções de instalação
 
-Há vários métodos e ferramentas de implantação que você pode usar para instalar e configurar o Microsoft Defender para Endpoint para Linux.
+Há vários métodos e ferramentas de implantação que você pode usar para instalar e configurar o Microsoft Defender para Ponto de Extremidade no Linux.
 
 Em geral, você precisa seguir as seguintes etapas:
 
 - Verifique se você tem uma assinatura do Microsoft Defender para Ponto de Extremidade e se tem acesso ao portal do [Microsoft Defender para Ponto de Extremidade.](microsoft-defender-security-center.md)
-- Implante o Microsoft Defender para Ponto de Extremidade para Linux usando um dos seguintes métodos de implantação:
+- Implante o Microsoft Defender para Ponto de Extremidade no Linux usando um dos seguintes métodos de implantação:
   - A ferramenta de linha de comando:
     - [Implantação manual](linux-install-manually.md)
   - Ferramentas de gerenciamento de terceiros:
     - [Implantar usando a ferramenta de gerenciamento de configuração do Puppet](linux-install-with-puppet.md)
     - [Implantar usando a ferramenta de gerenciamento de configuração Ansible](linux-install-with-ansible.md)
 
-Se você tiver alguma falha de instalação, consulte [Troubleshooting installation failures in Microsoft Defender for Endpoint for Linux](linux-support-install.md).
+Se você tiver alguma falha de instalação, consulte [Troubleshooting installation failures in Microsoft Defender for Endpoint on Linux](linux-support-install.md).
 
 ### <a name="system-requirements"></a>Requisitos do sistema
 
@@ -111,7 +111,7 @@ Depois de habilitar o serviço, talvez seja necessário configurar sua rede ou f
 
 - A estrutura de auditoria ( `auditd` ) deve estar habilitada.
   > [!NOTE]
-  > Os eventos do sistema capturados por regras `/etc/audit/rules.d/` adicionadas serão adicionados a (s) e poderão afetar a auditoria de host e `audit.log` a coleção upstream. Os eventos adicionados pelo Microsoft Defender para Ponto de Extremidade para Linux serão marcados com `mdatp` chave.
+  > Os eventos do sistema capturados por regras `/etc/audit/rules.d/` adicionadas serão adicionados a (s) e poderão afetar a auditoria de host e `audit.log` a coleção upstream. Os eventos adicionados pelo Microsoft Defender para Ponto de Extremidade no Linux serão marcados com `mdatp` chave.
 
 ### <a name="network-connections"></a>Conexões de rede
 
@@ -133,17 +133,17 @@ Se um proxy ou firewall estiver bloqueando o tráfego anônimo, certifique-se de
 > [!WARNING]
 > Pac, WPAD e proxies autenticados não são suportados. Verifique se apenas um proxy estático ou um proxy transparente está sendo usado.
 >
-> Os proxies de inspeção e interceptação de SSL também não são suportados por motivos de segurança. Configure uma exceção para a inspeção SSL e seu servidor proxy passar diretamente os dados do Defender para o Ponto de Extremidade para Linux para as URLs relevantes sem interceptação. Adicionar seu certificado de interceptação ao armazenamento global não permitirá interceptação.
+> Os proxies de inspeção e interceptação de SSL também não são suportados por motivos de segurança. Configure uma exceção para a inspeção SSL e seu servidor proxy passar diretamente os dados do Defender para o Ponto de Extremidade no Linux para as URLs relevantes sem interceptação. Adicionar seu certificado de interceptação ao armazenamento global não permitirá interceptação.
 
-Para etapas de solução de problemas, consulte Solucionar problemas de conectividade de nuvem [para o Microsoft Defender para Endpoint para Linux](linux-support-connectivity.md).
+Para etapas de solução de problemas, consulte Solucionar problemas de conectividade de nuvem [para o Microsoft Defender para Ponto de Extremidade no Linux](linux-support-connectivity.md).
 
-## <a name="how-to-update-microsoft-defender-for-endpoint-for-linux"></a>Como atualizar o Microsoft Defender para Ponto de Extremidade para Linux
+## <a name="how-to-update-microsoft-defender-for-endpoint-on-linux"></a>Como atualizar o Microsoft Defender para Ponto de Extremidade no Linux
 
-A Microsoft publica regularmente atualizações de software para melhorar o desempenho, a segurança e fornecer novos recursos. Para atualizar o Microsoft Defender para Ponto de Extremidade para Linux, consulte [Deploy updates for Microsoft Defender for Endpoint for Linux](linux-updates.md).
+A Microsoft publica regularmente atualizações de software para melhorar o desempenho, a segurança e fornecer novos recursos. Para atualizar o Microsoft Defender para Ponto de Extremidade no Linux, consulte [Deploy updates for Microsoft Defender for Endpoint on Linux](linux-updates.md).
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-for-linux"></a>Como configurar o Microsoft Defender para Ponto de Extremidade para Linux
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-linux"></a>Como configurar o Microsoft Defender para Ponto de Extremidade no Linux
 
-As diretrizes sobre como configurar o produto em ambientes corporativos estão disponíveis em [Definir preferências](linux-preferences.md)do Microsoft Defender para Ponto de Extremidade para Linux .
+As diretrizes sobre como configurar o produto em ambientes corporativos estão disponíveis em [Definir preferências](linux-preferences.md)do Microsoft Defender para Ponto de Extremidade no Linux .
 
 ## <a name="resources"></a>Recursos
 

@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6e65e847403160d24eac04a553ca16a46314e33d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: cf61c6a501a53ac03d3c4cc28068f7af4c0f88d6
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187416"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688100"
 ---
-# <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-for-mac"></a>Detectar e bloquear aplicativos potencialmente indesejados com o Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="detect-and-block-potentially-unwanted-applications-with-microsoft-defender-for-endpoint-on-macos"></a>Detectar e bloquear aplicativos potencialmente indesejados com o Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "51187416"
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-O recurso de proteção de aplicativo potencialmente indesejado (PUA) no Microsoft Defender para Ponto de Extremidade para Mac pode detectar e bloquear arquivos PUA em pontos de extremidade em sua rede.
+O recurso de proteção de aplicativo potencialmente indesejado (PUA) no Microsoft Defender para Ponto de Extremidade no macOS pode detectar e bloquear arquivos PUA em pontos de extremidade em sua rede.
 
 Esses aplicativos não são considerados vírus, malware ou outros tipos de ameaças, mas podem executar ações em pontos de extremidade que afetam adversamente seu desempenho ou uso. A PUA também pode se referir a aplicativos considerados com má reputação.
 
@@ -44,13 +44,13 @@ Esses aplicativos podem aumentar o risco de sua rede ser infectado por malware, 
 
 ## <a name="how-it-works"></a>Como funciona
 
-O Microsoft Defender para Ponto de Extremidade para Mac pode detectar e relatar arquivos PUA. Quando configurados no modo de bloqueio, os arquivos PUA são movidos para a quarentena.
+O Microsoft Defender para Ponto de Extremidade no macOS pode detectar e relatar arquivos PUA. Quando configurados no modo de bloqueio, os arquivos PUA são movidos para a quarentena.
 
-Quando um PUA é detectado em um ponto de extremidade, o Microsoft Defender para Ponto de Extremidade para Mac apresenta uma notificação para o usuário, a menos que as notificações tenham sido desabilitadas. O nome da ameaça conterá a palavra "Application".
+Quando um PUA é detectado em um ponto de extremidade, o Microsoft Defender para Ponto de Extremidade no macOS apresenta uma notificação para o usuário, a menos que as notificações tenham sido desabilitadas. O nome da ameaça conterá a palavra "Application".
 
 ## <a name="configure-pua-protection"></a>Configurar a proteção pua
 
-A proteção PUA no Microsoft Defender para Ponto de Extremidade para Mac pode ser configurada de uma das seguintes maneiras:
+A proteção PUA no Microsoft Defender para Ponto de Extremidade no macOS pode ser configurada de uma das seguintes maneiras:
 
 - **Desativado**: a proteção pua está desabilitada.
 - **Auditoria**: os arquivos PUA são relatados nos logs do produto, mas não no Centro de Segurança do Microsoft Defender. Nenhuma notificação é apresentada ao usuário e nenhuma ação é tomada pelo produto.
@@ -71,8 +71,8 @@ mdatp threat policy set --type potentially_unwanted_application --action [off|au
 
 ### <a name="use-the-management-console-to-configure-pua-protection"></a>Use o console de gerenciamento para configurar a proteção pua:
 
-Em sua empresa, você pode configurar a proteção pua de um console de gerenciamento, como JAMF ou Intune, da mesma forma como outras configurações de produto são configuradas. Para obter mais informações, consulte a seção [Configurações do](mac-preferences.md#threat-type-settings) tipo Ameaça do [tópico Definir preferências](mac-preferences.md) do Microsoft Defender para Ponto de Extremidade para Mac.
+Em sua empresa, você pode configurar a proteção pua de um console de gerenciamento, como JAMF ou Intune, da mesma forma como outras configurações de produto são configuradas. Para obter mais informações, consulte a seção [Configurações de](mac-preferences.md#threat-type-settings) tipo ameaça do tópico Definir preferências do Microsoft Defender para Ponto de Extremidade [no macOS.](mac-preferences.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Definir preferências do Microsoft Defender para Ponto de Extremidade para Mac](mac-preferences.md)
+- [Definir preferências para o Microsoft Defender para Ponto de Extremidade no macOS](mac-preferences.md)

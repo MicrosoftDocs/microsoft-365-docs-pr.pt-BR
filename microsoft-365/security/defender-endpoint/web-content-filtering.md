@@ -1,6 +1,6 @@
 ---
 title: Filtragem de conteúdo da Web
-description: Use a filtragem de conteúdo da Web no Microsoft Defender ATP para controlar e regular o acesso a sites com base em suas categorias de conteúdo.
+description: Use a filtragem de conteúdo da Web no Microsoft Defender para Ponto de Extremidade para controlar e regular o acesso a sites com base em suas categorias de conteúdo.
 keywords: proteção da Web, proteção contra ameaças da Web, navegação na Web, monitoramento, relatórios, cartões, lista de domínios, segurança, phishing, malware, exploração, sites, proteção de rede, Edge, Internet Explorer, Chrome, Firefox, navegador da Web
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c5f44b4ab8354330ec9701261e8fb0dcc2e9fe52
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: c9a069deded237c5ded6bcd9f6c6a77f644e65a2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499969"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689336"
 ---
 # <a name="web-content-filtering"></a>Filtragem de conteúdo da Web
 

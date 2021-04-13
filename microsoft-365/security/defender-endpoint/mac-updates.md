@@ -18,21 +18,21 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 99f507ad381ee21ba91753716439180fafe37c24
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3321c1bd181b89c53e2618fc20fa7f733a20cfc1
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053921"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689048"
 ---
-# <a name="deploy-updates-for-microsoft-defender-for-endpoint-for-mac"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
 
-- [Microsoft Defender para Ponto de Extremidade para Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender para Ponto de Extremidade no macOS](microsoft-defender-endpoint-mac.md)
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -40,7 +40,7 @@ ms.locfileid: "51053921"
 
 A Microsoft publica regularmente atualizações de software para melhorar o desempenho, a segurança e fornecer novos recursos.
 
-Para atualizar o Microsoft Defender para Ponto de Extremidade para Mac, um programa chamado Microsoft AutoUpdate (MAU) é usado. Por padrão, o MAU verifica automaticamente as atualizações diariamente, mas você pode alterá-la para semanal, mensal ou manualmente.
+Para atualizar o Microsoft Defender para Ponto de Extremidade no macOS, um programa chamado Microsoft AutoUpdate (MAU) é usado. Por padrão, o MAU verifica automaticamente as atualizações diariamente, mas você pode alterá-la para semanal, mensal ou manualmente.
 
 ![Captura de tela MAU](images/MDATP-34-MAU.png)
 
@@ -50,7 +50,7 @@ Se você decidir implantar atualizações usando suas ferramentas de distribuiç
 
 O MAU inclui uma ferramenta de linha de comando, chamada *msupdate*, projetada para administradores de IT para que eles tenham um controle mais preciso sobre quando as atualizações são aplicadas. As instruções sobre como usar essa ferramenta podem ser encontradas em [Atualizar o Office para Mac usando msupdate](https://docs.microsoft.com/deployoffice/mac/update-office-for-mac-using-msupdate).
 
-No MAU, o identificador de aplicativo do Microsoft Defender para Ponto de Extremidade para Mac é *WDAV00*. Para baixar e instalar as atualizações mais recentes do Microsoft Defender para Ponto de Extremidade para Mac, execute o seguinte comando de uma janela de Terminal:
+No MAU, o identificador de aplicativo do Microsoft Defender para Ponto de Extremidade no macOS é *WDAV00*. Para baixar e instalar as atualizações mais recentes do Microsoft Defender para Ponto de Extremidade no macOS, execute o seguinte comando de uma janela de Terminal:
 
 ```
 ./msupdate --install --apps wdav00
@@ -76,16 +76,16 @@ O `Current` canal contém a versão mais estável do produto.
 >[!TIP]
 >Para visualizar novos recursos e fornecer comentários antecipados, é recomendável configurar alguns dispositivos em sua empresa para `Beta` ou `Preview` .
 
-|||
+|Section|Valor|
 |:--|:--|
 | **Domínio** | com.microsoft.autoupdate2 |
-| **Chave** | ChannelName |
+| **Tecla** | ChannelName |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | Beta <br/> Visualização <br/> Atual |
 |||
 
 >[!WARNING]
->Essa configuração altera o canal para todos os aplicativos que são atualizados por meio do Microsoft AutoUpdate. Para alterar o canal somente para o Microsoft Defender para Ponto de Extremidade para Mac, execute o seguinte comando após substituir `[channel-name]` pelo canal desejado:
+>Essa configuração altera o canal para todos os aplicativos que são atualizados por meio do Microsoft AutoUpdate. Para alterar o canal somente para o Microsoft Defender para Ponto de Extremidade no macOS, execute o seguinte comando após substituir `[channel-name]` pelo canal desejado:
 > ```bash
 > defaults write com.microsoft.autoupdate2 Applications -dict-add "/Applications/Microsoft Defender ATP.app" " { 'Application ID' = 'WDAV00' ; 'App Domain' = 'com.microsoft.wdav' ; LCID = 1033 ; ChannelName = '[channel-name]' ; }"
 > ```
@@ -94,63 +94,63 @@ O `Current` canal contém a versão mais estável do produto.
 
 Altere a frequência com que o MAU pesquisa atualizações.
 
-|||
+|Section|Valor|
 |:--|:--|
 | **Domínio** | com.microsoft.autoupdate2 |
-| **Chave** | UpdateCheckFrequency |
+| **Tecla** | UpdateCheckFrequency |
 | **Tipo de dados** | Inteiro |
 | **Valor padrão** | 720 (minutos) |
-| **Comentário** | Esse valor é definido em minutos. |
-|||
+| **Comment** | Esse valor é definido em minutos. |
+
 
 ### <a name="change-how-mau-interacts-with-updates"></a>Alterar como o MAU interage com atualizações
 
 Altere como o MAU pesquisa atualizações.
 
-|||
+|Section|Valor|
 |:--|:--|
 | **Domínio** | com.microsoft.autoupdate2 |
-| **Chave** | HowToCheck |
+| **Tecla** | HowToCheck |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | Manual <br/> AutomaticCheck <br/> AutomaticDownload |
-| **Comentário** |  Observe que AutomaticDownload fará um download e instalará silenciosamente, se possível. |
-|||
+| **Comment** |  Observe que AutomaticDownload fará um download e instalará silenciosamente, se possível. |
+
 
 ### <a name="change-whether-the-check-for-updates-button-is-enabled"></a>Alterar se o botão "Verificar atualizações" está habilitado
 
 Altere se os usuários locais poderão clicar na opção "Verificar atualizações" na interface do usuário Microsoft AutoUpdate.
 
-|||
+|Section|Valor|
 |:--|:--|
 | **Domínio** | com.microsoft.autoupdate2 |
-| **Chave** | EnableCheckForUpdatesButton |
+| **Tecla** | EnableCheckForUpdatesButton |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | True (padrão) <br/> Falso |
-|||
+
 
 ### <a name="disable-insider-checkbox"></a>Desabilitar a caixa de seleção Insider
 
 Definir como true para tornar o "Ingressar no Programa Office Insider..." caixa de seleção indisponível/esvazada para os usuários.
 
-|||
+|Section|Valor|
 |:--|:--|
 | **Domínio** | com.microsoft.autoupdate2 |
-| **Chave** | DisableInsiderCheckbox |
+| **Tecla** | DisableInsiderCheckbox |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | False (padrão) <br/> Verdadeiro |
-|||
+
 
 ### <a name="limit-the-telemetry-that-is-sent-from-mau"></a>Limitar a telemetria enviada do MAU
 
 De definida como false para enviar dados mínimos de pulsação, sem uso de aplicativo e sem detalhes do ambiente.
 
-|||
+|Section|Valor|
 |:--|:--|
 | **Domínio** | com.microsoft.autoupdate2 |
-| **Chave** | SendAllTelemetryEnabled |
+| **Tecla** | SendAllTelemetryEnabled |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | True (padrão) <br/> Falso |
-|||
+
 
 ## <a name="example-configuration-profile"></a>Exemplo de perfil de configuração
 

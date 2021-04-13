@@ -15,12 +15,12 @@ ms.custom:
 description: Saiba como a Proteção do Exchange Online (EOP) pode ajudar a proteger sua organização de email local em ambientes autônomos e híbridos.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3df7b376d559535e168bfa21d2a8770b19569c4f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b699c0d6353d725b8d03cf4cf556a3e2ac798041
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203374"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687048"
 ---
 # <a name="exchange-online-protection-overview"></a>Visão geral do Exchange Online Protection
 
@@ -70,6 +70,9 @@ Os planos de assinatura do EOP disponíveis são:
 - **Exchange Enterprise CAL com Serviços**: Se você tiver uma organização local do Exchange onde comprou licenças adicionais do Exchange Enterprise CAL com Serviços, o EOP faz parte dos serviços incluídos.
 
 Para obter informações sobre requisitos, limites importantes e disponibilidade de recursos em todos os planos de assinatura do EOP, consulte a descrição do [serviço de Proteção do Exchange Online](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
+
+> [!NOTE]
+> Se você tiver uma assinatura **do Office 365 E3, ela incluirá eOP**. Para obter etapas para configurar o recurso de segurança do EOP em sua assinatura e informações sobre a segurança adicionada que uma assinatura do Microsoft Defender para Office 365 pode dar a você, consulte [protect against threats](protect-against-threats.md). As configurações recomendadas para o recurso EOP para instalação podem ser [encontradas](best-practices-for-configuring-eop.md) no artigo Recomendações, onde as configurações do EOP são especificamente chamadas.
 
 ## <a name="setting-up-eop-for-on-premises-email-organizations"></a>Configuração do EOP para organizações de email locais
 

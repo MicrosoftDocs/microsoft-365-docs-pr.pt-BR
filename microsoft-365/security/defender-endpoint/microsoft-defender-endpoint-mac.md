@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender para Ponto de Extremidade para Mac
+title: Microsoft Defender para Ponto de Extremidade no Mac
 ms.reviewer: ''
-description: Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade para Mac.
+description: Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Mac.
 keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, big sur, catalina, mojave, mde for mac
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 22d35a42eb7fb7eadbba686c292729772951c05c
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 406a0e699ea563670f41355d122aa54ba8667a0e
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500684"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687740"
 ---
-# <a name="microsoft-defender-for-endpoint-for-mac"></a>Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender para Ponto de Extremidade no Mac
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,23 +36,23 @@ ms.locfileid: "51500684"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Este tópico descreve como instalar, configurar, atualizar e usar o Defender para Ponto de Extremidade para Mac.
+Este tópico descreve como instalar, configurar, atualizar e usar o Defender para Ponto de Extremidade no Mac.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade para Mac provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para a funcionalidade do Ponto de Extremidade para Mac EDR depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](mac-preferences.md#enable--disable-passive-mode)
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade no Mac provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para o Ponto de Extremidade na funcionalidade do Mac EDR depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](mac-preferences.md#enable--disable-passive-mode)
 
 ## <a name="whats-new-in-the-latest-release"></a>Novidades na versão mais recente
 
 [Novidades no Microsoft Defender para Ponto de Extremidade](whats-new-in-microsoft-defender-atp.md)
 
-[Novidades no Microsoft Defender para Ponto de Extremidade para Mac](mac-whatsnew.md)
+[Novidades do Microsoft Defender para Ponto de Extremidade no Mac](mac-whatsnew.md)
 
 > [!TIP]
-> Se você tiver algum comentário que gostaria de compartilhar, envie-o abrindo o Microsoft Defender para Ponto de Extremidade para Mac em seu dispositivo e navegando para Ajudar a  >  **enviar comentários.**
+> Se você tiver algum comentário que gostaria de compartilhar, envie-o abrindo o Microsoft Defender para Ponto de Extremidade no Mac em seu dispositivo e navegando para Ajudar a  >  **enviar comentários.**
 
 Para obter os recursos mais recentes, incluindo recursos de visualização (como detecção de ponto de extremidade e resposta para seus dispositivos Mac), configure seu dispositivo macOS executando o Microsoft Defender para Ponto de Extremidade como um dispositivo "Insider".
 
-## <a name="how-to-install-microsoft-defender-for-endpoint-for-mac"></a>Como instalar o Microsoft Defender para Ponto de Extremidade para Mac
+## <a name="how-to-install-microsoft-defender-for-endpoint-on-mac"></a>Como instalar o Microsoft Defender para Ponto de Extremidade no Mac
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
@@ -62,7 +62,7 @@ Para obter os recursos mais recentes, incluindo recursos de visualização (como
 
 ### <a name="installation-instructions"></a>Instruções de instalação
 
-Há vários métodos e ferramentas de implantação que você pode usar para instalar e configurar o Defender para Ponto de Extremidade para Mac.
+Há vários métodos e ferramentas de implantação que você pode usar para instalar e configurar o Defender para Ponto de Extremidade no Mac.
 
 - Ferramentas de gerenciamento de terceiros:
     - [Implantação baseada no Microsoft Intune](mac-install-with-intune.md)
@@ -91,7 +91,7 @@ Depois de habilitar o serviço, talvez seja necessário configurar sua rede ou f
 
 ### <a name="licensing-requirements"></a>Requisitos de licença
 
-O Microsoft Defender para Ponto de Extremidade para Mac requer uma das seguintes ofertas de Licenciamento por Volume da Microsoft:
+O Microsoft Defender para Ponto de Extremidade no Mac requer uma das seguintes ofertas de Licenciamento por Volume da Microsoft:
 
 - Microsoft 365 E5 (M365 E5)
 - Segurança do Microsoft 365 E5
@@ -121,7 +121,7 @@ Se um proxy ou firewall estiver bloqueando o tráfego anônimo, certifique-se de
 > [!WARNING]
 > Proxies autenticados não são suportados. Verifique se apenas PAC, WPAD ou um proxy estático estão sendo usados.
 >
-> Os proxies de inspeção e interceptação de SSL também não são suportados por motivos de segurança. Configure uma exceção para a inspeção SSL e seu servidor proxy passar diretamente os dados do Microsoft Defender para o Ponto de Extremidade para Mac para as URLs relevantes sem interceptação. Adicionar seu certificado de interceptação ao armazenamento global não permitirá interceptação.
+> Os proxies de inspeção e interceptação de SSL também não são suportados por motivos de segurança. Configure uma exceção para a inspeção SSL e seu servidor proxy passar diretamente os dados do Microsoft Defender para o Ponto de Extremidade no macOS para as URLs relevantes sem interceptação. Adicionar seu certificado de interceptação ao armazenamento global não permitirá interceptação.
 
 Para testar se uma conexão não está bloqueada, abra [https://x.cp.wd.microsoft.com/api/report](https://x.cp.wd.microsoft.com/api/report) [https://cdn.x.cp.wd.microsoft.com/ping](https://cdn.x.cp.wd.microsoft.com/ping) e em um navegador.
 
@@ -145,20 +145,20 @@ Depois que o Microsoft Defender for Endpoint estiver instalado, a conectividade 
 mdatp connectivity test
 ```
 
-## <a name="how-to-update-microsoft-defender-for-endpoint-for-mac"></a>Como atualizar o Microsoft Defender para Ponto de Extremidade para Mac
+## <a name="how-to-update-microsoft-defender-for-endpoint-on-mac"></a>Como atualizar o Microsoft Defender para Ponto de Extremidade no Mac
 
-A Microsoft publica regularmente atualizações de software para melhorar o desempenho, a segurança e fornecer novos recursos. Para atualizar o Microsoft Defender para Ponto de Extremidade para Mac, um programa chamado Microsoft AutoUpdate (MAU) é usado. Para saber mais, consulte [Deploy updates for Microsoft Defender for Endpoint for Mac](mac-updates.md).
+A Microsoft publica regularmente atualizações de software para melhorar o desempenho, a segurança e fornecer novos recursos. Para atualizar o Microsoft Defender para Ponto de Extremidade no Mac, um programa chamado Microsoft AutoUpdate (MAU) é usado. Para saber mais, consulte [Deploy updates for Microsoft Defender for Endpoint on Mac](mac-updates.md).
 
-## <a name="how-to-configure-microsoft-defender-for-endpoint-for-mac"></a>Como configurar o Microsoft Defender para Ponto de Extremidade para Mac
+## <a name="how-to-configure-microsoft-defender-for-endpoint-on-mac"></a>Como configurar o Microsoft Defender para Ponto de Extremidade no Mac
 
-As diretrizes sobre como configurar o produto em ambientes corporativos estão disponíveis em [Definir preferências](mac-preferences.md)do Microsoft Defender para Ponto de Extremidade para Mac .
+As diretrizes sobre como configurar o produto em ambientes corporativos estão disponíveis em [Definir preferências](mac-preferences.md)do Microsoft Defender para Ponto de Extremidade no Mac .
 
 ## <a name="macos-kernel-and-system-extensions"></a>Extensões do sistema e kernel do macOS
 
-Em alinhamento com a evolução do macOS, estamos preparando uma atualização do Microsoft Defender para Endpoint para Mac que aproveita extensões do sistema em vez de extensões de kernel. Para obter detalhes relevantes, consulte [Novidades no Microsoft Defender para Ponto de Extremidade para Mac](mac-whatsnew.md).
+Em alinhamento com a evolução do macOS, estamos preparando um Microsoft Defender para Endpoint no Mac update que aproveita extensões do sistema em vez de extensões de kernel. Para obter detalhes relevantes, consulte [Novidades no Microsoft Defender para Ponto de Extremidade no Mac](mac-whatsnew.md).
 
 ## <a name="resources"></a>Recursos
 
-- Para obter mais informações sobre log, desinstalação ou outros tópicos, consulte [Resources for Microsoft Defender for Endpoint for Mac](mac-resources.md).
+- Para obter mais informações sobre registro em log, desinstalação ou outros tópicos, consulte [Resources for Microsoft Defender for Endpoint on Mac](mac-resources.md).
 
-- [Privacidade do Microsoft Defender para Ponto de Extremidade para Mac](mac-privacy.md).
+- [Privacidade do Microsoft Defender para Ponto de Extremidade no Mac](mac-privacy.md).

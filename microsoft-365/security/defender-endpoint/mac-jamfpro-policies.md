@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be01d5908e4c79f642cdbbddd75115f6ebc2c713
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 9b00d81d3d51c343565ec4eb743181baa2750b01
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499611"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687728"
 ---
-# <a name="set-up-the-microsoft-defender-for-endpoint-for-macos-policies-in-jamf-pro"></a>Configurar o Microsoft Defender para Endpoint para políticas macOS no Jamf Pro
+# <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Configurar o Microsoft Defender para Ponto de Extremidade em políticas macOS no Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -56,9 +56,9 @@ Você precisará seguir as seguintes etapas:
 
 9. [Configurar Extensão de Rede](#step-9-configure-network-extension)
 
-10. [Agendar verificações com o Microsoft Defender para Ponto de Extremidade para Mac](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+10. [Agendar verificações com o Microsoft Defender para Ponto de Extremidade no macOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
-11. [Implantar o Microsoft Defender para Ponto de Extremidade para macOS](#step-11-deploy-microsoft-defender-for-endpoint-for-macos)
+11. [Implantar o Microsoft Defender para Ponto de Extremidade no macOS](#step-11-deploy-microsoft-defender-for-endpoint-on-macos)
 
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>Etapa 1: Obter o pacote de integração do Microsoft Defender para Ponto de Extremidade
@@ -360,7 +360,7 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
         - **Método Distribution**: Instalar Automaticamente *(padrão)*
         - **Nível**: Nível do *computador (padrão)*
 
-        ![Imagem das configurações mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![Imagem das configurações de perfil mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
     - Notificações **de tabulação,** clique **em Adicionar** e insira os seguintes valores:
         - **ID do pacote:**`com.microsoft.wdav.tray`
@@ -681,7 +681,7 @@ Como alternativa, você pode baixar [kext.mobileconfig](https://github.com/micro
 
 ## <a name="step-9-configure-network-extension"></a>Etapa 9: Configurar a Extensão de Rede
 
-Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade para Mac inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade.
+Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade.
 
 Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
@@ -707,7 +707,7 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
         Observe que **Os valores exatos de Identificador,** **Filtro de Soquete** e Filtro **de Soquete designados,** conforme especificado acima.
 
-        ![Imagem das configurações mdatpmdav](images/netext-create-profile.png)
+        ![Imagem da configuração de configuração mdatpmdav](images/netext-create-profile.png)
 
 3. Selecione a **guia Escopo.**
 
@@ -731,10 +731,10 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
 
 Como alternativa, você pode baixar [netfilter.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) e carregar nos Perfis de Configuração DO JAMF conforme descrito em [Deploying Custom Configuration Profiles using Jamf Pro| Método 2: Carregar um Perfil de Configuração para Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
-## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-for-mac"></a>Etapa 10: Agendar verificações com o Microsoft Defender para Ponto de Extremidade para Mac
-Siga as instruções em [Agendar verificações com o Microsoft Defender para Ponto de Extremidade para Mac](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp).
+## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>Etapa 10: Agendar verificações com o Microsoft Defender para Ponto de Extremidade no macOS
+Siga as instruções em [Agendar verificações com o Microsoft Defender para Ponto de Extremidade no macOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp).
 
-## <a name="step-11-deploy-microsoft-defender-for-endpoint-for-macos"></a>Etapa 11: Implantar o Microsoft Defender para Ponto de Extremidade para macOS
+## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>Etapa 11: Implantar o Microsoft Defender para Ponto de Extremidade no macOS
 
 1. Navegue até onde você salvou `wdav.pkg` .
 

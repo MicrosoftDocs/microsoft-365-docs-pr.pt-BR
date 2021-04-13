@@ -1,7 +1,6 @@
 ---
 title: Registre dispositivos existentes por conta própria
 description: Registre dispositivos reutilizáveis que você já pode ter para que eles possam ser gerenciados pela Área de Trabalho Gerenciada da Microsoft
-keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -12,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 1703e4ed4ea0f3306edf6fdf07ab9c97a9266d4f
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: f2b3e109493331a4b63d669501525a48cb996809
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445561"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689216"
 ---
 # <a name="register-existing-devices-yourself"></a>Registre dispositivos existentes por conta própria
 
@@ -150,9 +149,11 @@ No [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), selecione **Di
 Siga estas etapas:
 
 1. Em **Carregamento de arquivo,** forneça um caminho para o arquivo CSV que você criou anteriormente.
+2. Selecione um [perfil de](../service-description/profiles.md) dispositivo no menu suspenso.
+3. Selecione **Registrar dispositivos**. O sistema adicionará os dispositivos à sua lista de dispositivos na folha **Dispositivos**, marcada como **Registro Pendente**. O registro normalmente leva menos de 10 minutos e, quando bem-sucedido, o dispositivo será mostrar como **Pronto** para o usuário, o que significa que ele está pronto e aguardando que um usuário comece a usar.
 
-1. Selecione **Registrar dispositivos**. O sistema adicionará os dispositivos à sua lista de dispositivos na folha **Dispositivos**, marcada como **Registro Pendente**. O registro normalmente leva menos de 10 minutos e, quando bem-sucedido, o dispositivo será mostrar como **Pronto** para o usuário, o que significa que ele está pronto e aguardando que um usuário comece a usar.
-
+> [!NOTE]
+> Se você alterar manualmente a associação de grupo do Azure Active Directory (AAD) de um dispositivo, ele será automaticamente reatribuido ao grupo para seu perfil de dispositivo e removido de todos os grupos conflitantes.
 
 Você pode monitorar o andamento do registro do dispositivo na página principal. Os estados possíveis relatados incluem:
 
@@ -161,7 +162,7 @@ Você pode monitorar o andamento do registro do dispositivo na página principal
 | Registro Pendente | O registro ainda não foi feito. Volte mais tarde. |
 | Falha no registro | O registro não pôde ser concluído. Consulte [Troubleshooting device registration para](#troubleshooting-device-registration) obter mais informações. |
 | Pronto para usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A Área de Trabalho Gerenciada da Microsoft os orientará durante a configuração da primeira vez, portanto, não há necessidade de você fazer outras preparações. |
-| Ativo | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. Isso também indica que eles estão usando regularmente o dispositivo. |
+| Ativa | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. Isso também indica que eles estão usando regularmente o dispositivo. |
 | Inativo | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Solução de problemas de registro de dispositivo

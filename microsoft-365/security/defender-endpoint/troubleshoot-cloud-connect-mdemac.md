@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de conectividade na nuvem do Microsoft Defender para Endpoint para Mac
-description: Este tópico descreve como solucionar problemas de conectividade de nuvem para o Microsoft Defender para Ponto de Extremidade para Mac
+title: Solucionar problemas de conectividade na nuvem para o Microsoft Defender para Ponto de Extremidade no macOS
+description: Este tópico descreve como solucionar problemas de conectividade de nuvem para o Microsoft Defender para Ponto de Extremidade no macOS
 keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e522495fa86b5a71faa9f25cc863c29cc5d124c0
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: a8871274cabae0762cecc2ff513afe93c2d4811f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476648"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688496"
 ---
-# <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-for-mac"></a>Solucionar problemas de conectividade na nuvem do Microsoft Defender para Endpoint para Mac
+# <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Solucionar problemas de conectividade na nuvem para o Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51476648"
 
 **Plataforma** macOS
 
-Este tópico descreve como solucionar problemas de conectividade de nuvem para o Microsoft Defender para Ponto de Extremidade para Mac.
+Este tópico descreve como solucionar problemas de conectividade de nuvem para o Microsoft Defender para Ponto de Extremidade no macOS.
 
 ## <a name="run-the-connectivity-test"></a>Executar o teste de conectividade
 Para testar se o Defender para Ponto de Extremidade para Mac pode se comunicar com a nuvem com as configurações de rede atuais, execute um teste de conectividade da linha de comando:
@@ -72,7 +72,7 @@ Use o procedimento a seguir para testar se uma conexão não está bloqueada em 
 Se um proxy ou firewall estiver bloqueando o tráfego anônimo, certifique-se de que o tráfego anônimo seja permitido nas URLs listadas anteriormente.
 
 > [!WARNING]
-> Proxies autenticados não são suportados. Verifique se apenas PAC, WPAD ou um proxy estático estão sendo usados. Os proxies de inspeção e interceptação de SSL também não são suportados por motivos de segurança. Configure uma exceção para a inspeção SSL e seu servidor proxy passar diretamente os dados do Microsoft Defender para o Ponto de Extremidade para Mac para as URLs relevantes sem interceptação. Adicionar seu certificado de interceptação ao armazenamento global não permitirá interceptação.
+> Proxies autenticados não são suportados. Verifique se apenas PAC, WPAD ou um proxy estático estão sendo usados. Os proxies de inspeção e interceptação de SSL também não são suportados por motivos de segurança. Configure uma exceção para a inspeção SSL e seu servidor proxy passar diretamente os dados do Microsoft Defender para o Ponto de Extremidade no macOS para as URLs relevantes sem interceptação. Adicionar seu certificado de interceptação ao armazenamento global não permitirá interceptação.
 Para testar se uma conexão não está bloqueada: em um navegador como o Microsoft Edge para Mac ou Safari aberto https://x.cp.wd.microsoft.com/api/report e https://cdn.x.cp.wd.microsoft.com/ping .
 
 Opcionalmente, no Terminal, execute o seguinte comando:

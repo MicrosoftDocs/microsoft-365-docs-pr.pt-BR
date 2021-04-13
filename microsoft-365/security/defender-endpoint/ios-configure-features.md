@@ -1,5 +1,5 @@
 ---
-title: Configurar o Microsoft Defender para Ponto de Extremidade para recursos do iOS
+title: Configurar o Microsoft Defender para Ponto de Extremidade em recursos do iOS
 description: Descreve como implantar o Microsoft Defender ATP para recursos iOS
 keywords: microsoft, defender, atp, ios, configurar, recursos, ios
 search.product: eADQiWindows 10XVcnh
@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8f74d4799bcb02051cddd09b80ed6ab50258302b
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 0e351f6500d5076e724653d0fde1940592dd1ae5
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587222"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687480"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-for-ios-features"></a>Configurar o Microsoft Defender para Ponto de Extremidade para recursos do iOS
+# <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Configurar o Microsoft Defender para Ponto de Extremidade em recursos do iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51587222"
 > O Defender for Endpoint para iOS usaria uma VPN para fornecer o recurso de Proteção da Web. Esta não é uma VPN regular e é uma VPN local/auto-loop que não faz o tráfego fora do dispositivo.
 
 ## <a name="conditional-access-with-defender-for-endpoint-for-ios"></a>Acesso condicional com o Defender para Ponto de Extremidade para iOS  
-O Microsoft Defender for Endpoint para iOS juntamente com o Microsoft Intune e o Azure Active Directory permite a aplicação de políticas de conformidade de dispositivo e acesso condicional com base nos níveis de risco do dispositivo. O Defender for Endpoint é uma solução MTD (Mobile Threat Defense) que você pode implantar para aproveitar esse recurso por meio do Intune.
+O Microsoft Defender for Endpoint no iOS juntamente com o Microsoft Intune e o Azure Active Directory permite a aplicação de políticas de conformidade de dispositivo e Acesso Condicional com base nos níveis de risco do dispositivo. O Defender for Endpoint é uma solução MTD (Mobile Threat Defense) que você pode implantar para aproveitar esse recurso por meio do Intune.
 
 Para obter mais informações sobre como configurar o Acesso Condicional com o Defender para Ponto de Extremidade para iOS, consulte [Defender for Endpoint e Intune](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection).
 
@@ -68,7 +68,7 @@ O iOS da Apple não dá suporte a várias VPNs em todo o dispositivo para serem 
 Para proteger os dados corporativos de serem acessados em dispositivos iOS de cadeia, recomendamos que você defina a seguinte política de conformidade no Intune.
 
 > [!NOTE]
-> No momento, o Microsoft Defender para Ponto de Extremidade para iOS não oferece proteção contra cenários de jailbreak. Se usado em um dispositivo jailbroken, em cenários específicos, os dados que são usados pelo aplicativo, como sua id de email corporativa e imagem de perfil corporativo (se disponível) podem ser expostos localmente
+> No momento, o Microsoft Defender para Ponto de Extremidade no iOS não oferece proteção contra cenários de jailbreak. Se usado em um dispositivo jailbroken, em cenários específicos, os dados que são usados pelo aplicativo, como sua id de email corporativa e imagem de perfil corporativo (se disponível) podem ser expostos localmente
 
 Siga as etapas a seguir para criar uma política de conformidade contra dispositivos com cadeia de segurança.
 

@@ -19,14 +19,14 @@ ms.collection:
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: ba39eea9730b38b7666fe53c0c128fc53cae3a78
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 75bcf13120c05990abf2b20cd68f460219b73cd6
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587186"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688928"
 ---
-# <a name="microsoft-defender-for-endpoint-for-ios-application-license-terms"></a>Termos de licença de aplicativo do Microsoft Defender para Endpoint para iOS
+# <a name="microsoft-defender-for-endpoint-on-ios-application-license-terms"></a>Microsoft Defender para Ponto de Extremidade em termos de licença de aplicativo iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

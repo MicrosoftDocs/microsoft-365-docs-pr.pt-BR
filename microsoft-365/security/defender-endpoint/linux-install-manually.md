@@ -1,5 +1,5 @@
 ---
-title: Implantar o Microsoft Defender para Ponto de Extremidade para Linux manualmente
+title: Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente
 ms.reviewer: ''
 description: Descreve como implantar o Microsoft Defender ATP para Linux manualmente a partir da linha de comando.
 keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c695eb0d786e73da5adb95bbca5c1747243d6203
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: 78ea8b106253098791d71ef9ff788b7cf1df4ec7
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644735"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688400"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-linux-manually"></a>Implantar o Microsoft Defender para Ponto de Extremidade para Linux manualmente
+# <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,9 +36,9 @@ ms.locfileid: "51644735"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Este artigo descreve como implantar o Microsoft Defender para Ponto de Extremidade para Linux manualmente. Uma implantação bem-sucedida requer a conclusão de todas as seguintes tarefas:
+Este artigo descreve como implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente. Uma implantação bem-sucedida requer a conclusão de todas as seguintes tarefas:
 
-- [Implantar o Microsoft Defender para Ponto de Extremidade para Linux manualmente](#deploy-microsoft-defender-for-endpoint-for-linux-manually)
+- [Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente](#deploy-microsoft-defender-for-endpoint-on-linux-manually)
   - [Pré-requisitos e requisitos do sistema](#prerequisites-and-system-requirements)
   - [Configurar o repositório de software Linux](#configure-the-linux-software-repository)
     - [RHEL e variantes (CentOS e Oracle Linux)](#rhel-and-variants-centos-and-oracle-linux)
@@ -54,7 +54,7 @@ Este artigo descreve como implantar o Microsoft Defender para Ponto de Extremida
 
 ## <a name="prerequisites-and-system-requirements"></a>Pré-requisitos e requisitos do sistema
 
-Antes de começar, consulte [Microsoft Defender for Endpoint for Linux](microsoft-defender-endpoint-linux.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
+Antes de começar, consulte [Microsoft Defender for Endpoint on Linux](microsoft-defender-endpoint-linux.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
 
 ## <a name="configure-the-linux-software-repository"></a>Configurar o repositório de software Linux
 

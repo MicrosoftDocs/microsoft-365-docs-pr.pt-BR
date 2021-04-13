@@ -1,6 +1,6 @@
 ---
 title: Atualizar a API da entidade de alerta
-description: Saiba como atualizar um alerta do Microsoft Defender ATP usando essa API. Você pode atualizar as propriedades status, determinação, classificação e assignedTo.
+description: Saiba como atualizar um alerta do Microsoft Defender para Ponto de Extremidade usando essa API. Você pode atualizar as propriedades status, determinação, classificação e assignedTo.
 keywords: apis, api gráfica, apis com suporte, obter, alerta, informações, id
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7dd3ab3da34efa6cb954db2a596d7a1e48efedf1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 94be185bd30cd36f456a66d5ae30a4361abc0c48
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199304"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688244"
 ---
 # <a name="update-alert"></a>Atualizar alerta
 
@@ -54,7 +54,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão |   Permissão  |   Nome de exibição de permissão
 :---|:---|:---
 Aplicativo |   Alerts.ReadWrite.All |  'Ler e gravar todos os alertas'
-Delegada (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
+Delegado (conta corporativa ou de estudante) | Alert.ReadWrite | 'Alertas de leitura e gravação'
 
 >[!Note]
 > Ao obter um token usando credenciais de usuário:
@@ -70,7 +70,7 @@ PATCH /api/alerts/{id}
 
 Nome | Tipo | Descrição
 :---|:---|:---
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
+Autorização | String | Portador {token}. **Obrigatório**.
 Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 
@@ -81,10 +81,10 @@ No corpo da solicitação, fornece os valores dos campos relevantes que devem se
 
 Propriedade | Tipo | Descrição
 :---|:---|:---
-status | Cadeia de caracteres | Especifica o status atual do alerta. Os valores da propriedade são: 'New', 'InProgress' e 'Resolved'.
-assignedTo | Cadeia de caracteres | Proprietário do alerta
+status | String | Especifica o status atual do alerta. Os valores da propriedade são: 'New', 'InProgress' e 'Resolved'.
+assignedTo | String | Proprietário do alerta
 classificação | String | Especifica a especificação do alerta. Os valores da propriedade são: 'Unknown', 'FalsePositive', 'TruePositive'. 
-determinação | Cadeia de caracteres | Especifica a determinação do alerta. Os valores da propriedade são: 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'
+determinação | String | Especifica a determinação do alerta. Os valores da propriedade são: 'NotAvailable', 'Apt', 'Malware', 'SecurityPersonnel', 'SecurityTesting', 'UnwantedSoftware', 'Other'
 comment | String | Comentário a ser adicionado ao alerta.
 
 ## <a name="response"></a>Resposta

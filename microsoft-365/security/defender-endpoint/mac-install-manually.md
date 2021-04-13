@@ -1,6 +1,6 @@
 ---
-title: Implantação manual do Microsoft Defender para Ponto de Extremidade para macOS
-description: Instale o Microsoft Defender para Ponto de Extremidade para macOS manualmente, na linha de comando.
+title: Implantação manual do Microsoft Defender para Ponto de Extremidade no macOS
+description: Instale o Microsoft Defender para Ponto de Extremidade no macOS manualmente, a partir da linha de comando.
 keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a9e75441a8c4a336e8c657d27330c118fcac4788
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: 0e8faf95df6691828558175412a1de8aa844d93f
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476299"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688592"
 ---
-# <a name="manual-deployment-for-microsoft-defender-for-endpoint-for-macos"></a>Implantação manual do Microsoft Defender para Ponto de Extremidade para macOS
+# <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Implantação manual do Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51476299"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremidade para macOS manualmente. Uma implantação bem-sucedida requer a conclusão de todas as etapas a seguir:
+Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremidade no macOS manualmente. Uma implantação bem-sucedida requer a conclusão de todas as etapas a seguir:
 - [Baixar pacotes de instalação e integração](#download-installation-and-onboarding-packages)
 - [Instalação do aplicativo (macOS 10.15 e versões anteriores)](#application-installation-macos-1015-and-older-versions)
 - [Instalação do aplicativo (macOS 11 e versões mais recentes)](#application-installation-macos-11-and-newer-versions)
@@ -43,7 +43,7 @@ Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremid
 
 ## <a name="prerequisites-and-system-requirements"></a>Pré-requisitos e requisitos do sistema
 
-Antes de começar, consulte a página principal do Microsoft Defender para Ponto de Extremidade para [macOS](microsoft-defender-endpoint-mac.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
+Antes de começar, consulte a página principal do Microsoft Defender para Ponto de Extremidade no [macOS](microsoft-defender-endpoint-mac.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
 
 ## <a name="download-installation-and-onboarding-packages"></a>Baixar pacotes de instalação e integração
 
@@ -105,9 +105,9 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
 
     ![Preferências de segurança de extensão do sistema1](images/big-sur-install-3.png)
 
-5. Repita as etapas 3 & 4 para todas as extensões do sistema distribuídas com o Microsoft Defender para Ponto de Extremidade para Mac.
+5. Repita as etapas 3 & 4 para todas as extensões do sistema distribuídas com o Microsoft Defender para Ponto de Extremidade no Mac.
 
-6. Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade para Mac inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. Quando solicitado a conceder permissões do Microsoft Defender para o Ponto de Extremidade para filtrar o tráfego de rede, selecione **Permitir**.
+6. Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no Mac inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. Quando solicitado a conceder permissões do Microsoft Defender para o Ponto de Extremidade para filtrar o tráfego de rede, selecione **Permitir**.
 
     ![Preferências de segurança de extensão do sistema2](images/big-sur-install-4.png)
 
@@ -117,7 +117,7 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
 
 ## <a name="client-configuration"></a>Configuração do cliente
 
-1. Copie wdav.pkg e MicrosoftDefenderATPOnboardingMacOs.py para o dispositivo onde você implanta o Microsoft Defender para Ponto de Extremidade para macOS.
+1. Copie wdav.pkg e MicrosoftDefenderATPOnboardingMacOs.py para o dispositivo onde você implanta o Microsoft Defender para Ponto de Extremidade no macOS.
 
     O dispositivo cliente não está associado ao org_id. Observe que o *atributo org_id* está em branco.
 

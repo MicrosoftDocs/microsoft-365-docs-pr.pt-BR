@@ -1,6 +1,6 @@
 ---
-title: Verificar a saúde do serviço do Microsoft Defender ATP
-description: Verifique a saúde do serviço do Microsoft Defender ATP, veja se o serviço está enfrentando problemas e revise os problemas anteriores que foram resolvidos.
+title: Verificar a saúde do serviço do Microsoft Defender para Ponto de Extremidade
+description: Verifique a saúde do serviço do Microsoft Defender para o Ponto de Extremidade, veja se o serviço está enfrentando problemas e revise os problemas anteriores que foram resolvidos.
 keywords: painel, serviço, problemas, saúde do serviço, status atual, histórico de status, resumo do impacto, causa raiz preliminar, resolução, tempo de resolução, tempo de resolução esperado
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 45782fcce51e15adf61757d836d313d229558571
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1b4545daace5df1a1a9c6e827f7d8f1b522a690c
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053564"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687620"
 ---
 # <a name="check-the-microsoft-defender-for-endpoint-service-health"></a>Verificar a saúde do serviço do Microsoft Defender para Ponto de Extremidade
 

@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0d9e63c5d89b13b02dfcf116c1555c8db319d23f
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: d5a19464b9d5d1b9659d7bfae2d853f7a640a00b
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445359"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51687884"
 ---
-# <a name="configure-alert-notifications-in-microsoft-defender-atp"></a>Configurar notificações de alerta no Microsoft Defender ATP
+# <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Configurar notificações de alerta no Microsoft Defender para Ponto de Extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ Você pode configurar o Defender para o Ponto de Extremidade para enviar notific
 > [!NOTE]
 > Somente usuários com permissões "Gerenciar configurações de segurança" podem configurar notificações por email. Se você optou por usar o gerenciamento de permissões básicas, os usuários com funções de Administrador de Segurança ou Administrador Global podem configurar notificações por email.
 
-Você pode definir os níveis de gravidade do alerta que disparam notificações. Você também pode adicionar ou remover destinatários da notificação de email. Novos destinatários são notificados sobre alertas encontrados depois que são adicionados. Para obter mais informações sobre alertas, consulte [Exibir e organizar a fila de alertas.](alerts-queue.md)
+Você pode definir os níveis de gravidade do alerta que disparam notificações. Você também pode adicionar ou remover destinatários da notificação de email. Novos destinatários são notificados sobre alertas disparados depois que são adicionados. Para obter mais informações sobre alertas, consulte [Exibir e organizar a fila de alertas.](alerts-queue.md)
 
 Se você estiver usando o controle de acesso baseado em função (RBAC), os destinatários receberão notificações apenas com base nos grupos de dispositivos que foram configurados na regra de notificação.
 Os usuários com a permissão adequada só podem criar, editar ou excluir notificações limitadas ao escopo de gerenciamento do grupo de dispositivos.
@@ -98,7 +98,7 @@ Esta seção lista vários problemas que você pode encontrar ao usar notificaç
 **Solução:** Certifique-se de que as notificações não sejam bloqueadas por filtros de email:
 
 1. Verifique se as notificações de email do Defender para Ponto de Extremidade não são enviadas para a pasta Lixo Eletrônico. Marcá-los como Não lixo eletrônico.
-2. Verifique se seu produto de segurança de email não está bloqueando as notificações de email do Defender para Ponto de Extremidade.
+2. Verifique se seu produto de segurança de email não está bloqueando as notificações de email do Defender para o Ponto de Extremidade.
 3. Verifique as regras do aplicativo de email que podem estar capturando e movendo o Defender para notificações de email do Ponto de Extremidade.
 
 ## <a name="related-topics"></a>Tópicos relacionados
