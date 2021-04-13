@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d1d4aa871438e10aed86ddd436757072fb6b5cc4
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 93715f761beded95cfaa91b4747a2e4b5a3c61c1
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587498"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689672"
 ---
-# <a name="privacy-for-microsoft-defender-for-endpoint-for-mac"></a>Privacidade do Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>Privacidade do Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,13 +35,13 @@ ms.locfileid: "51587498"
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-A Microsoft está comprometida em fornecer as informações e controles necessários para fazer escolhas sobre como seus dados são coletados e usados quando você está usando o Microsoft Defender para o Ponto de Extremidade para Mac.
+A Microsoft está comprometida em fornecer as informações e controles necessários para fazer escolhas sobre como seus dados são coletados e usados quando você está usando o Microsoft Defender para o Ponto de Extremidade no macOS.
 
 Este tópico descreve os controles de privacidade disponíveis no produto, como gerenciar esses controles com configurações de política e mais detalhes sobre os eventos de dados coletados.
 
-## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-for-mac"></a>Visão geral dos controles de privacidade no Microsoft Defender para Ponto de Extremidade para Mac
+## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-on-macos"></a>Visão geral dos controles de privacidade no Microsoft Defender para Ponto de Extremidade no macOS
 
-Esta seção descreve os controles de privacidade para os diferentes tipos de dados coletados pelo Microsoft Defender para Ponto de Extremidade para Mac.
+Esta seção descreve os controles de privacidade para os diferentes tipos de dados coletados pelo Microsoft Defender para Ponto de Extremidade no macOS.
 
 ### <a name="diagnostic-data"></a>Dados de diagnóstico
 
@@ -73,7 +73,7 @@ Quando esse recurso está habilitado e o exemplo coletado provavelmente conterá
 
 Se você for um administrador de TI, talvez queira configurar esses controles no nível da empresa. 
 
-Os controles de privacidade para os vários tipos de dados descritos na seção anterior são descritos em detalhes em [Definir preferências](mac-preferences.md)do Microsoft Defender para Ponto de Extremidade para Mac .
+Os controles de privacidade para os vários tipos de dados descritos na seção anterior são descritos em detalhes em Definir preferências do Microsoft Defender para Ponto de Extremidade [no macOS](mac-preferences.md).
 
 Assim como em qualquer nova configuração de política, você deve testá-las cuidadosamente em um ambiente limitado e controlado para garantir que as configurações configuradas tenham o efeito desejado antes de implementar as configurações de política mais amplamente em sua organização.
 
@@ -94,7 +94,7 @@ Os campos a seguir são considerados comuns para todos os eventos:
 | org_id                  | Identificador exclusivo associado à empresa à que o dispositivo pertence. Permite que a Microsoft identifique se os problemas estão afetando um conjunto selecionado de empresas e quantas empresas são impactadas. |
 | hostname                | Nome do dispositivo local (sem sufixo DNS). Permite que a Microsoft identifique se os problemas estão afetando um conjunto selecionado de instalação e quantos usuários são afetados. |
 | product_guid            | Identificador exclusivo do produto. Permite que a Microsoft diferencie problemas que impactam diferentes tipos de produto. |
-| app_version             | Versão do aplicativo Microsoft Defender para Ponto de Extremidade para Mac. Permite que a Microsoft identifique quais versões do produto estão mostrando um problema para que ele possa ser priorizado corretamente.|
+| app_version             | Versão do Microsoft Defender para Ponto de Extremidade no aplicativo macOS. Permite que a Microsoft identifique quais versões do produto estão mostrando um problema para que ele possa ser priorizado corretamente.|
 | sig_version             | Versão do banco de dados de inteligência de segurança. Permite que a Microsoft identifique quais versões da inteligência de segurança estão mostrando um problema para que ela possa ser priorizada corretamente. |
 | supported_compressions  | Lista de algoritmos de compactação suportados pelo aplicativo, por exemplo `['gzip']` . Permite que a Microsoft entenda quais tipos de compactações podem ser usadas quando se comunicam com o aplicativo. |
 | release_ring            | Toque ao lado do dispositivo (por exemplo, Insider Fast, Insider Slow, Production). Permite que a Microsoft identifique em qual anel de lançamento um problema pode estar ocorrendo para que ele possa ser priorizado corretamente. |
@@ -174,7 +174,7 @@ Os seguintes campos são coletados:
 
 | Campo            | Descrição |
 | ---------------- | ----------- |
-| versão          | Versão do Microsoft Defender para Ponto de Extremidade para Mac. |
+| versão          | Versão do Microsoft Defender para Ponto de Extremidade no macOS. |
 | instance_id      | Identificador exclusivo gerado na inicialização de extensão do kernel. |
 | trace_level      | Nível de rastreamento da extensão do kernel. |
 | subsistema        | O subsistema subjacente usado para proteção em tempo real. |
@@ -189,8 +189,8 @@ Os seguintes campos são coletados:
 Os logs de diagnóstico são coletados somente com o consentimento do usuário como parte do recurso de envio de comentários. Os seguintes arquivos são coletados como parte dos logs de suporte:
 
 - Todos os arquivos *em /Library/Logs/Microsoft/mdatp/*
-- Subconjunto de arquivos *em /Library/Application Support/Microsoft/Defender/* que são criados e usados pelo Microsoft Defender para Ponto de Extremidade para Mac
-- Subconjunto de arquivos *em /Library/Preferências Gerenciadas* que são usados pelo Microsoft Defender para Ponto de Extremidade para Mac
+- Subconjunto de arquivos *em /Library/Application Support/Microsoft/Defender/* criados e usados pelo Microsoft Defender para Ponto de Extremidade no macOS
+- Subconjunto de arquivos *em /Library/Preferências Gerenciadas* que são usadas pelo Microsoft Defender para Ponto de Extremidade no macOS
 - /Library/Logs/Microsoft/autoupdate.log
 - $HOME/Library/Preferences/com.microsoft.autoupdate2.plist
 

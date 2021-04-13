@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 37d31fe93a849871e7da92fff521b6a75beac531
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 71ebe48fdbb8f9995ef2f3429cb8a824ed76f244
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187632"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689636"
 ---
-# <a name="resources-for-microsoft-defender-for-endpoint-for-mac"></a>Recursos do Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Recursos para o Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -80,7 +80,7 @@ O log detalhado será salvo em `/Library/Logs/Microsoft/mdatp/install.log` . Se 
 
 ## <a name="uninstalling"></a>Desinstalação
 
-Há várias maneiras de desinstalar o Microsoft Defender para o Ponto de Extremidade para Mac. Observe que, embora a desinstalação gerenciada centralmente está disponível no JAMF, ela ainda não está disponível para o Microsoft Intune.
+Há várias maneiras de desinstalar o Microsoft Defender para o Ponto de Extremidade no macOS. Observe que, embora a desinstalação gerenciada centralmente está disponível no JAMF, ela ainda não está disponível para o Microsoft Intune.
 
 ### <a name="interactive-uninstallation"></a>Desinstalação interativa
 
@@ -95,7 +95,7 @@ Há várias maneiras de desinstalar o Microsoft Defender para o Ponto de Extremi
 
 Tarefas importantes, como controlar as configurações do produto e disparar verificações sob demanda, podem ser feitas a partir da linha de comando:
 
-|Grupo        |Cenário                                   |Comando                                                                           |
+|Group        |Cenário                                   |Comando                                                                           |
 |-------------|-------------------------------------------|----------------------------------------------------------------------------------|
 |Configuração|Ativar/desativar a proteção em tempo real           |`mdatp config real-time-protection --value [enabled/disabled]`                    |
 |Configuração|Ativar/desativar a proteção de nuvem               |`mdatp config cloud --value [enabled/disabled]`                                   |
@@ -108,8 +108,8 @@ Tarefas importantes, como controlar as configurações do produto e disparar ver
 |Configuração|Desativar a proteção PUA                    |`mdatp threat policy set --type potentially_unwanted_application -- action off`   |
 |Configuração|Ativar o modo de auditoria para proteção pua      |`mdatp threat policy set --type potentially_unwanted_application -- action audit` |
 |Configuração|Ativar/desativar passiveMode                    |`mdatp config passive-mode --value enabled [enabled/disabled]`                    |
-|Diagnóstico  |Alterar o nível de log                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
-|Diagnóstico  |Gerar logs de diagnóstico                   |`mdatp diagnostic create --path [directory]`                                      |
+|Diagnostics  |Alterar o nível de log                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
+|Diagnostics  |Gerar logs de diagnóstico                   |`mdatp diagnostic create --path [directory]`                                      |
 |Integridade       |Verificar a saúde do produto                 |`mdatp health`                                                                    |
 |Integridade       |Verifique se há um atributo de produto esefico       |`mdatp health --field [attribute: healthy/licensed/engine_version...]`            |
 |Proteção   |Examinar um caminho                                |`mdatp scan custom --path [path] [--ignore-exclusions]`                           |
@@ -143,7 +143,7 @@ Para habilitar a comcompleção automática em zsh:
    echo "autoload -Uz compinit && compinit" >> ~/.zshrc
    ```
 
-- Execute os seguintes comandos para habilitar a autocompleção do Microsoft Defender para Ponto de Extremidade para Mac e reinicie a sessão de Terminal:
+- Execute os seguintes comandos para habilitar a composição automática do Microsoft Defender para Ponto de Extremidade no macOS e reinicie a sessão terminal:
 
    ```zsh
    sudo mkdir -p /usr/local/share/zsh/site-functions

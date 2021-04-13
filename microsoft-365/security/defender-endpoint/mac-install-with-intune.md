@@ -1,6 +1,6 @@
 ---
-title: Implantação baseada no Intune para Microsoft Defender para Ponto de Extremidade para Mac
-description: Instale o Microsoft Defender para Ponto de Extremidade para Mac, usando o Microsoft Intune.
+title: Implantação baseada no Intune para o Microsoft Defender para Ponto de Extremidade no macOS
+description: Instale o Microsoft Defender para Ponto de Extremidade no macOS, usando o Microsoft Intune.
 keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,27 +18,27 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bd74f3a487de4febecb2086cb126c50b8432c342
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 7486bde0886506a5966a95cdb0b85fc009858801
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379534"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689744"
 ---
-# <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-for-mac"></a>Implantação baseada no Intune para Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Implantação baseada no Intune para o Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 > [!NOTE]
 > Esta documentação explica o método herdados para implantar e configurar o Microsoft Defender para Ponto de Extremidade em dispositivos macOS. A experiência nativa agora está disponível no console do MEM. A versão da interface do usuário nativa no console do MEM oferece aos administradores uma maneira muito mais simples de configurar e implantar o aplicativo e enviá-lo para dispositivos macOS. <br> <br>
->A postagem [do blog MEM simplifica a implantação do Microsoft Defender para Endpoint para macOS](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/microsoft-endpoint-manager-simplifies-deployment-of-microsoft/ba-p/1322995) explica os novos recursos. Para configurar o aplicativo, vá para Configurações do Microsoft Defender para Ponto de [Extremidade para Mac no Microsoft InTune](https://docs.microsoft.com/mem/intune/protect/antivirus-microsoft-defender-settings-macos). Para implantar o aplicativo, vá para Adicionar o Microsoft Defender para Ponto de Extremidade a [dispositivos macOS usando o Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos).
+>A postagem [do blog MEM simplifica a implantação do Microsoft Defender para Endpoint para macOS](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/microsoft-endpoint-manager-simplifies-deployment-of-microsoft/ba-p/1322995) explica os novos recursos. Para configurar o aplicativo, vá para Configurações do Microsoft Defender para Ponto de [Extremidade no macOS no Microsoft InTune](https://docs.microsoft.com/mem/intune/protect/antivirus-microsoft-defender-settings-macos). Para implantar o aplicativo, vá para Adicionar o Microsoft Defender para Ponto de Extremidade a [dispositivos macOS usando o Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos).
 
 **Aplica-se a:**
 
-- [Microsoft Defender para Ponto de Extremidade para Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender para Ponto de Extremidade no macOS](microsoft-defender-endpoint-mac.md)
 
-Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremidade para Mac por meio do Intune. Uma implantação bem-sucedida requer a conclusão de todas as etapas a seguir:
+Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremidade no macOS por meio do Intune. Uma implantação bem-sucedida requer a conclusão de todas as etapas a seguir:
 
 1. [Baixar pacotes de instalação e integração](#download-installation-and-onboarding-packages)
 1. [Configuração de dispositivo cliente](#client-device-setup)
@@ -48,7 +48,7 @@ Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremid
 
 ## <a name="prerequisites-and-system-requirements"></a>Pré-requisitos e requisitos do sistema
 
-Antes de começar, consulte a página principal do [Microsoft Defender para Ponto](microsoft-defender-endpoint-mac.md) de Extremidade para Mac para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
+Antes de começar, consulte a página principal do Microsoft Defender para Ponto de Extremidade no [macOS](microsoft-defender-endpoint-mac.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -201,9 +201,9 @@ Para aprovar as extensões do sistema:
    >
    > Esse perfil de configuração concede acesso total em disco ao Microsoft Defender para Ponto de Extremidade. Se você configurou anteriormente o Microsoft Defender para Ponto de Extremidade por meio do Intune, recomendamos atualizar a implantação com esse perfil de configuração.
 
-9. Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade para Mac inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade. Baixe **netfilter.mobileconfig** do repositório [do GitHub,](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)salve-o como netext.xml e implante-o usando as mesmas etapas das seções anteriores. <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
+9. Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade. Baixe **netfilter.mobileconfig** do repositório [do GitHub,](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig)salve-o como netext.xml e implante-o usando as mesmas etapas das seções anteriores. <a name = "create-system-configuration-profiles-step-9" id = "create-system-configuration-profiles-step-9"></a>
 
-10. Para permitir que o Microsoft Defender para o Ponto de Extremidade para Mac e o Microsoft Auto Update eximem notificações na interface do usuário no macOS 10.15 (Catalina), baixe do repositório `notif.mobileconfig` [do GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) e importe-o como uma carga personalizada. <a name = "create-system-configuration-profiles-step-10" id = "create-system-configuration-profiles-step-10"></a>
+10. Para permitir que o Microsoft Defender para o Ponto de Extremidade no macOS e o Microsoft Auto Update eximem notificações na interface do usuário no macOS 10.15 (Catalina), baixe do repositório `notif.mobileconfig` [do GitHub](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) e importe-o como uma carga personalizada. <a name = "create-system-configuration-profiles-step-10" id = "create-system-configuration-profiles-step-10"></a>
 
 11. Selecione **Gerenciar > atribuições**.  Na guia **Incluir,** selecione **Atribuir a Todos os Usuários & Todos os dispositivos**.
 
@@ -227,9 +227,9 @@ Depois que as alterações do Intune são propagadas para os dispositivos inscri
 6. Definir *Ignorar versão do aplicativo* como **Sim**. Outras configurações podem ser qualquer valor arbitrário.
 
     > [!CAUTION]
-    > Definir *Ignorar versão do aplicativo* como **Nenhuma** afeta a capacidade do aplicativo de receber atualizações por meio do Microsoft AutoUpdate. Confira [Implantar atualizações do Microsoft Defender para Ponto](mac-updates.md) de Extremidade para Mac para obter informações adicionais sobre como o produto é atualizado.
+    > Definir *Ignorar versão do aplicativo* como **Nenhuma** afeta a capacidade do aplicativo de receber atualizações por meio do Microsoft AutoUpdate. Consulte [Deploy updates for Microsoft Defender for Endpoint on macOS](mac-updates.md) para obter informações adicionais sobre como o produto é atualizado.
     >
-    > Se a versão carregada pelo Intune for menor do que a versão no dispositivo, a versão inferior será instalada, rebaixando efetivamente o Microsoft Defender para o Ponto de Extremidade. Isso pode resultar em um aplicativo que não está funcionando. Confira [Implantar atualizações do Microsoft Defender para Ponto](mac-updates.md) de Extremidade para Mac para obter informações adicionais sobre como o produto é atualizado. Se você implantou o Microsoft Defender para Ponto de Extremidade *com Ignorar a* versão do aplicativo definida como **Não**, altere-a para **Sim**. Se o Microsoft Defender for Endpoint ainda não puder ser instalado em um dispositivo cliente, desinstale o Microsoft Defender para Ponto de Extremidade e pressione a política atualizada.
+    > Se a versão carregada pelo Intune for menor do que a versão no dispositivo, a versão inferior será instalada, rebaixando efetivamente o Microsoft Defender para o Ponto de Extremidade. Isso pode resultar em um aplicativo que não está funcionando. Consulte [Deploy updates for Microsoft Defender for Endpoint on macOS](mac-updates.md) para obter informações adicionais sobre como o produto é atualizado. Se você implantou o Microsoft Defender para Ponto de Extremidade *com Ignorar a* versão do aplicativo definida como **Não**, altere-a para **Sim**. Se o Microsoft Defender for Endpoint ainda não puder ser instalado em um dispositivo cliente, desinstale o Microsoft Defender para Ponto de Extremidade e pressione a política atualizada.
      
     > [!div class="mx-imgBorder"]
     > ![Exibição de informações do aplicativo no app add](images/mdatp-8-intuneappinfo.png)
@@ -282,4 +282,4 @@ Para obter mais informações sobre como encontrar o log gerado automaticamente 
 
 ## <a name="uninstallation"></a>Desinstalação
 
-Consulte [Desinstalar](mac-resources.md#uninstalling) para obter detalhes sobre como remover o Microsoft Defender para Ponto de Extremidade para Mac de dispositivos cliente.
+Consulte [Desinstalar](mac-resources.md#uninstalling) para obter detalhes sobre como remover o Microsoft Defender para o Ponto de Extremidade no macOS de dispositivos cliente.

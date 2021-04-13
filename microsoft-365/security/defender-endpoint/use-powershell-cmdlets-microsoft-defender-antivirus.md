@@ -1,0 +1,70 @@
+---
+title: Usar cmdlets do PowerShell para configurar e executar o Microsoft Defender AV
+description: No Windows 10, você pode usar cmdlets do PowerShell para executar verificações, atualizar a inteligência de segurança e alterar configurações no Microsoft Defender Antivírus.
+keywords: scan, linha de comando, mpcmdrun, defender
+search.product: eADQiWindows 10XVcnh
+ms.prod: m365-security
+ms.mktglfcycl: manage
+ms.sitesec: library
+ms.pagetype: security
+ms.localizationpriority: medium
+author: denisebmsft
+ms.author: deniseb
+ms.custom: nextgen
+ms.date: 07/23/2020
+ms.reviewer: ''
+manager: dansimp
+ms.technology: mde
+ms.openlocfilehash: 912136a7229ec55b7f1644aebc946f63acb68040
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689867"
+---
+# <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>Usar cmdlets do PowerShell para configurar e gerenciar o Microsoft Defender Antivírus
+
+[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+
+
+**Aplica-se a:**
+
+- [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
+
+Você pode usar o PowerShell para executar várias funções Windows Defender. Semelhante ao prompt de comando ou linha de comando, o PowerShell é um shell de linha de comando baseado em tarefas e linguagem de script projetada especialmente para a administração do sistema. Você pode ler mais sobre isso no [hub do PowerShell no MSDN](/previous-versions/msdn10/mt173057(v=msdn.10)).
+
+Para ver uma lista dos cmdlets e suas funções e parâmetros disponíveis, consulte o [tópico cmdlets](/powershell/module/defender) do Defender.
+
+Os cmdlets do PowerShell são mais úteis em ambientes do Windows Server que não dependem de uma interface gráfica do usuário (GUI) para configurar o software.
+
+> [!NOTE]
+> Os cmdlets do PowerShell não devem ser usados como um substituto para uma infraestrutura completa de gerenciamento de política de rede, como [o Microsoft Endpoint Configuration Manager,](/configmgr)o Console de Gerenciamento de Política de [Grupo](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))ou os modelos ADMX da Política de Grupo do Microsoft [Defender Antivírus.](https://www.microsoft.com/download/101445)
+
+As alterações feitas com o PowerShell afetarão as configurações locais no ponto de extremidade onde as alterações são implantadas ou feitas. Isso significa que as implantações de política com a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Microsoft Intune podem substituir as alterações feitas com o PowerShell.
+
+Você pode [configurar quais configurações podem ser substituidas localmente com substituições de política local.](configure-local-policy-overrides-microsoft-defender-antivirus.md)
+
+O PowerShell normalmente é instalado na pasta `%SystemRoot%\system32\WindowsPowerShell` .
+
+## <a name="use-microsoft-defender-antivirus-powershell-cmdlets"></a>Usar cmdlets do Microsoft Defender Antivírus PowerShell
+
+1. Na barra de pesquisa do Windows, digite **powershell**.
+2. Selecione **Windows PowerShell** dos resultados para abrir a interface.
+3. Insira o comando do PowerShell e todos os parâmetros.
+
+> [!NOTE]
+> Talvez seja necessário abrir o PowerShell no modo de administrador. Clique com o botão direito do mouse no item no menu Iniciar, clique em **Executar como administrador** e clique em **Sim** no prompt de permissões.
+
+Para abrir a ajuda online para qualquer um dos cmdlets, digite o seguinte:
+
+```PowerShell
+Get-Help <cmdlet> -Online
+```
+
+Omita o `-online` parâmetro para obter ajuda em cache local.
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Tópicos de referência para ferramentas de gerenciamento e configuração](configuration-management-reference-microsoft-defender-antivirus.md)
+- [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Cmdlets do Microsoft Defender Antivírus](/powershell/module/defender/?view=win10-ps)

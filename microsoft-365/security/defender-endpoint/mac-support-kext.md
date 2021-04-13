@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de extensão de kernel no Microsoft Defender para Ponto de Extremidade para Mac
-description: Solucionar problemas relacionados a extensões de kernel no Microsoft Defender para Endpoint para Mac.
+title: Solucionar problemas de extensão de kernel no Microsoft Defender para Ponto de Extremidade no macOS
+description: Solucionar problemas relacionados a extensões de kernel no Microsoft Defender para Ponto de Extremidade no macOS.
 keywords: microsoft, defender, atp, mac, kernel, extension
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,31 +18,31 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 877cc619d3ba048cdf6ecc8149f073461d9eac8e
-ms.sourcegitcommit: a965c498e6b3890877f895d5197898b306092813
+ms.openlocfilehash: 32a4819f7a607c69b4dbf45b3284b2f4ea66ffc4
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51379497"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689648"
 ---
-# <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-for-mac"></a>Solucionar problemas de extensão de kernel no Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="troubleshoot-kernel-extension-issues-in-microsoft-defender-for-endpoint-on-macos"></a>Solucionar problemas de extensão de kernel no Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Aplica-se a:**
 
-- [Microsoft Defender para Ponto de Extremidade para Mac](microsoft-defender-endpoint-mac.md)
+- [Microsoft Defender para Ponto de Extremidade no macOS](microsoft-defender-endpoint-mac.md)
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Este artigo fornece informações sobre como solucionar problemas com a extensão do kernel instalada como parte do Microsoft Defender para Ponto de Extremidade para Mac.
+Este artigo fornece informações sobre como solucionar problemas com a extensão do kernel instalada como parte do Microsoft Defender para Ponto de Extremidade no macOS.
 
 A partir do macOS High Sierra (10.13), o macOS exige que todas as extensões de kernel sejam aprovadas explicitamente antes que elas sejam permitidas para execução no dispositivo.
 
-Se você não aprovou a extensão do kernel durante a implantação/instalação do Microsoft Defender para Ponto de Extremidade para Mac, o aplicativo exibirá uma faixa solicitando que você habilita-lo:
+Se você não aprovou a extensão do kernel durante a implantação/instalação do Microsoft Defender para Ponto de Extremidade no macOS, o aplicativo exibirá uma faixa solicitando que você habilita-lo:
 
    ![Captura de tela desabilitada de RTP](images/mdatp-32-main-app-fix.png)
 
@@ -58,7 +58,7 @@ real_time_protection_available              : true
 ...
 ```
 
-As seções a seguir fornecem orientações sobre como resolver esse problema, dependendo do método usado para implantar o Microsoft Defender para Ponto de Extremidade para Mac.
+As seções a seguir fornecem orientações sobre como resolver esse problema, dependendo do método usado para implantar o Microsoft Defender para Ponto de Extremidade no macOS.
 
 ## <a name="managed-deployment"></a>Implantação gerenciada
 

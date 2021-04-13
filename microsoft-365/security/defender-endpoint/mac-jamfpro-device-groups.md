@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 36db18ba16bb51f3be0cbaba7d4ca4d27195e85d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 6c1d6ae5d4635186bf0a1cbb55c7f906e8584f01
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187656"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689684"
 ---
-# <a name="set-up-microsoft-defender-for-endpoint-for-macos-device-groups-in-jamf-pro"></a>Configurar o Microsoft Defender para o Ponto de Extremidade para grupos de dispositivos macOS no Jamf Pro
+# <a name="set-up-microsoft-defender-for-endpoint-on-macos-device-groups-in-jamf-pro"></a>Configurar o Microsoft Defender para Ponto de Extremidade em grupos de dispositivos macOS no Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -52,4 +52,4 @@ Configurar os grupos de dispositivos semelhantes às OUs (organização de polí
     ![Imagem do Jamf Pro3](images/contoso-machine-group.png)
 
 ## <a name="next-step"></a>Próxima etapa
-- [Configurar o Microsoft Defender para o Ponto de Extremidade para políticas macOS no Jamf Pro](mac-jamfpro-policies.md)
+- [Configurar o Microsoft Defender para Ponto de Extremidade em políticas macOS no Jamf Pro](mac-jamfpro-policies.md)

@@ -18,14 +18,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c94c6839c17b3bbb432cef12fe58723d0cc2ecff
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 6cfd2953e752ed9c96f7f16a3ec7ea1fd8862ab2
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587234"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689732"
 ---
-# <a name="deploy-microsoft-defender-for-endpoint-for-ios"></a>Implantar o Microsoft Defender para Ponto de Extremidade para iOS
+# <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Implantar o Microsoft Defender para Ponto de Extremidade no iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -91,7 +91,7 @@ Implante o Defender para Ponto de Extremidade para iOS por meio do Portal da Emp
 
 ## <a name="configure-microsoft-defender-for-endpoint-for-supervised-mode"></a>Configurar o Microsoft Defender para Ponto de Extremidade para Modo Supervisionado
 
-O aplicativo Microsoft Defender for Endpoint para iOS tem capacidade especializada em dispositivos iOS/iPadOS supervisionados, dado o aumento dos recursos de gerenciamento fornecidos pela plataforma nesses tipos de dispositivos. Para aproveitar esses recursos, o aplicativo Defender for Endpoint precisa saber se um dispositivo está no modo Supervisionado.
+O Microsoft Defender for Endpoint no aplicativo iOS tem capacidade especializada em dispositivos iOS/iPadOS supervisionados, dado o aumento dos recursos de gerenciamento fornecidos pela plataforma nesses tipos de dispositivos. Para aproveitar esses recursos, o aplicativo Defender for Endpoint precisa saber se um dispositivo está no modo Supervisionado.
 
 ### <a name="configure-supervised-mode-via-intune"></a>Configurar o modo Supervisionado por meio do Intune
 

@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de integração do Microsoft Defender ATP
-description: Solucionar problemas que podem surgir durante a integração de dispositivos ou para o serviço Microsoft Defender ATP.
+title: Solucionar problemas de integração do Microsoft Defender para pontos de extremidade
+description: Solucionar problemas que podem surgir durante a integração de dispositivos ou para o serviço Microsoft Defender para Ponto de Extremidade.
 keywords: solucionar problemas de integração, problemas de integração, visualizador de eventos, builds de coleta e visualização de dados, dados do sensor e diagnósticos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 3b2c944cd7fc9d629b47947db9d6e8856729e0d7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4599741f501e9b55bc73e0eb8def9208bc988957
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053851"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689660"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Solucionar problemas de integração do Microsoft Defender para pontos de extremidade
 
@@ -56,7 +56,7 @@ Se o script for concluído com êxito, consulte [Solucionar](#troubleshoot-onboa
 
 Ao integrar dispositivos usando as seguintes versões do Configuration Manager:
 
-- Microsoft Endpoint Configuration Manager
+- Gerenciador de Configuração do Microsoft Endpoint
 - System Center Configuration Manager 2012
 - Gerenciador de Configurações do System Center 2012 R2
 
@@ -455,6 +455,6 @@ As etapas a seguir fornecem orientações para o seguinte cenário:
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Solucionar problemas do Microsoft Defender para o Ponto de Extremidade](troubleshoot-mdatp.md)
+- [Solucionar problemas do Microsoft Defender para Ponto de Extremidade](troubleshoot-mdatp.md)
 - [Dispositivos de integração](onboard-configure.md)
 - [Configurar configurações de proxy de dispositivo e conectividade com a Internet](configure-proxy-internet.md)

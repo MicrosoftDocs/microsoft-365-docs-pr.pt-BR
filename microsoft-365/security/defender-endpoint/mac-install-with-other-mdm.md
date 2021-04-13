@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5fa811b2419d107e91b301d5c9bad691fc016b5b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 58e3b14dcb80db961f01b92f038ce4d32da7e2e8
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498960"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689696"
 ---
-# <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-for-mac"></a>Implantação com um sistema MDM (Gerenciamento de Dispositivo Móvel) diferente para o Microsoft Defender para Ponto de Extremidade para Mac
+# <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a>Implantação com um sistema MDM (Gerenciamento de Dispositivo Móvel) diferente para o Microsoft Defender para Ponto de Extremidade no macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,16 +38,16 @@ ms.locfileid: "51498960"
  
 ## <a name="prerequisites-and-system-requirements"></a>Pré-requisitos e requisitos do sistema
 
-Antes de começar, consulte a página principal do [Microsoft Defender para Ponto](microsoft-defender-endpoint-mac.md) de Extremidade para Mac para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
+Antes de começar, consulte a página principal do Microsoft Defender para Ponto de Extremidade no [macOS](microsoft-defender-endpoint-mac.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
 
 ## <a name="approach"></a>Abordagem
 
 > [!CAUTION]
-> Atualmente, a Microsoft dá suporte oficial apenas ao Intune e ao JAMF para implantação e gerenciamento do Microsoft Defender para Ponto de Extremidade para Mac. A Microsoft não faz garantias, expressas ou implícitas, com relação às informações fornecidas abaixo.
+> Atualmente, a Microsoft dá suporte oficial apenas ao Intune e ao JAMF para implantação e gerenciamento do Microsoft Defender para Ponto de Extremidade no macOS. A Microsoft não faz garantias, expressas ou implícitas, com relação às informações fornecidas abaixo.
 
-Se sua organização usa uma solução MDM (Gerenciamento de Dispositivo Móvel) que não tem suporte oficial, isso não significa que você não é capaz de implantar ou executar o Microsoft Defender para Ponto de Extremidade para Mac.
+Se sua organização usa uma solução MDM (Gerenciamento de Dispositivo Móvel) que não tem suporte oficial, isso não significa que você não pode implantar ou executar o Microsoft Defender para Ponto de Extremidade no macOS.
 
-O Microsoft Defender para Ponto de Extremidade para Mac não depende de recursos específicos do fornecedor. Ele pode ser usado com qualquer solução MDM que oferece suporte aos seguintes recursos:
+O Microsoft Defender para Ponto de Extremidade no macOS não depende de recursos específicos do fornecedor. Ele pode ser usado com qualquer solução MDM que oferece suporte aos seguintes recursos:
 
 - Implante um macOS .pkg em dispositivos gerenciados.
 - Implantar perfis de configuração do sistema macOS em dispositivos gerenciados.
@@ -72,7 +72,7 @@ Para implantar o pacote em sua empresa, use as instruções associadas à sua so
 
 ### <a name="license-settings"></a>Configurações de licença
 
-Configurar um [perfil de configuração do sistema.](mac-install-with-jamf.md) Sua solução MDM pode chamá-la de algo como "Perfil de Configurações Personalizadas", pois o Microsoft Defender para Ponto de Extremidade para Mac não faz parte do macOS.
+Configurar um [perfil de configuração do sistema.](mac-install-with-jamf.md) Sua solução MDM pode chamá-la de algo como "Perfil de Configurações Personalizadas", pois o Microsoft Defender para Ponto de Extremidade no macOS não faz parte do macOS.
 
 Use a lista de propriedades, jamf/WindowsDefenderATPOnboarding.plist, que pode ser extraída de um pacote de integração baixado do Centro de Segurança do [Microsoft Defender.](mac-install-with-jamf.md)
 Seu sistema pode dar suporte a uma lista de propriedades arbitrárias no formato XML. Você pode carregar o arquivo jamf/WindowsDefenderATPOnboarding.plist como está nesse caso.
@@ -112,7 +112,7 @@ Conceda acesso em disco completo aos seguintes componentes:
 
 ### <a name="network-extension-policy"></a>Política de extensão de rede
 
-Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade para Mac inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade.
+Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender. A política a seguir permite que a extensão de rede execute essa funcionalidade.
 
 - Tipo de filtro: Plug-in
 - Identificador do pacote de plug-in: `com.microsoft.wdav`

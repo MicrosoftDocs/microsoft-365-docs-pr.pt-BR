@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 56f5e860bd2a9dd47ce16379b5e1ca1a263d62d0
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a8015221f26250451a6cbcab8e66f35aafdc0767
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187404"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689699"
 ---
-# <a name="deploying-microsoft-defender-for-endpoint-for-macos-with-jamf-pro"></a>Implantando o Microsoft Defender para Ponto de Extremidade para macOS com o Jamf Pro
+# <a name="deploying-microsoft-defender-for-endpoint-on-macos-with-jamf-pro"></a>Implantando o Microsoft Defender para Ponto de Extremidade no macOS com o Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "51187404"
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Saiba como implantar o Microsoft Defender para Ponto de Extremidade para macOS com o Jamf Pro.
+Saiba como implantar o Microsoft Defender para Ponto de Extremidade no macOS com o Jamf Pro.
 
 > [!NOTE]
 > Se você estiver usando macOS Catalina (10.15.4) ou versões mais recentes do macOS, consulte Novos perfis de configuração para [macOS Catalina](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-sysext-policies)e versões mais recentes do macOS .
@@ -44,9 +44,9 @@ Saiba como implantar o Microsoft Defender para Ponto de Extremidade para macOS c
 Este é um processo de várias etapas. Você precisará concluir todas as etapas a seguir:
 
 - [Faça logon no Portal jamf](mac-install-jamfpro-login.md)
-- [Configurar o Microsoft Defender para Endpoint para grupos de dispositivos macOS no Jamf Pro](mac-jamfpro-device-groups.md)
-- [Configurar o Microsoft Defender para Endpoint para políticas macOS no Jamf Pro](mac-jamfpro-policies.md)
-- [Registrar o Microsoft Defender para Ponto de Extremidade para dispositivos macOS no Jamf Pro](mac-jamfpro-enroll-devices.md)
+- [Configurar o Microsoft Defender para Ponto de Extremidade em grupos de dispositivos macOS no Jamf Pro](mac-jamfpro-device-groups.md)
+- [Configurar o Microsoft Defender para Ponto de Extremidade em políticas macOS no Jamf Pro](mac-jamfpro-policies.md)
+- [Registrar o Microsoft Defender para Ponto de Extremidade em dispositivos macOS no Jamf Pro](mac-jamfpro-enroll-devices.md)
 
 
 
