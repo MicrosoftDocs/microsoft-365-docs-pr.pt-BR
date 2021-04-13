@@ -263,6 +263,8 @@
           href: manage/manage-microsoft-rewards.md
         - name: Gerenciar mensagens do Centro de mensagens
           href: manage/manage-messages.md
+        - name: Gerenciar comentários da Microsoft para sua organização
+          href: /admin/manage/manage-feedback-ms-org.md
         - name: 'Configurar opções de versão  '
           href: manage/release-options-in-office-365.md
         - name: Mostrar ou ocultar novos recursos
