@@ -29,13 +29,13 @@ Esses tipos de explicação estão disponíveis:
 
 - **Lista de frases**: lista de palavras, frases, números ou outros caracteres que você pode usar no documento ou informações que você está extraindo. Por exemplo, a cadeia de texto **Médico encaminhador** está em todos os documentos de Encaminhamento Médico que você está identificando. Ou o **Número de telefone** do médico de referência de todos os documentos de referência médica que você está identificando.
 
-- **Proximidade**: Descreve como as explicações são próximas umas das outras. Por exemplo, um *número da rua* lista de frases vai logo antes do *nome da rua* lista de frases, sem tokens entre eles (você aprenderá sobre tokens posteriormente neste artigo). Usar o tipo de proximidade exige que você tenha pelo menos duas explicações em seu modelo, ou a opção será desabilitada. 
+- **Proximidade**: descreve como as explicações são próximas umas das outras. Por exemplo, uma lista de frases de *número da rua* vai logo antes da lista de frases de *nome da rua*, sem tokens entre eles (você aprenderá sobre tokens posteriormente neste artigo). Usar o tipo de proximidade exige que você tenha pelo menos duas explicações em seu modelo, ou a opção será desabilitada. 
  
 ## <a name="phrase-list"></a>Lista de frases
 
 Um tipo de explicação de lista de frases geralmente é usado para identificar e classificar um documento por meio do seu modelo. Conforme descrito no exemplo de rótulo *Médico encaminhador*, é uma cadeia de cadeia de palavras, frases, números ou caracteres que está de maneira consistente nos documentos que você está identificando.
 
-Embora não seja um requisito, você pode obter um sucesso melhor com a sua explicação se a frase que está capturando estiver localizada em um local consistente no documento. Por exemplo, o rótulo *Médico encaminhador* pode estar localizado, de maneira consistente, no primeiro parágrafo do documento. Você também pode usar o **[Configurar onde as frases ocorrem no documento](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#configure-where-phrases-occur-in-the-document)** configuração avançada para selecionar áreas específicas onde a frase está localizada, especialmente se houver uma chance de que a frase possa ocorrer em vários locais em seu documento.
+Embora não seja um requisito, você pode obter um sucesso melhor com a sua explicação se a frase que está capturando estiver localizada em um local consistente no documento. Por exemplo, o rótulo *Médico encaminhador* pode estar localizado, de maneira consistente, no primeiro parágrafo do documento. Você também pode usar a configuração avançada **[Configurar onde as frases ocorrem no documento](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#configure-where-phrases-occur-in-the-document)** para selecionar áreas específicas onde a frase está localizada, especialmente se houver uma chance de que a frase possa ocorrer em vários locais em seu documento.
 
 Se a diferenciação de maiúsculas e minúsculas for um requisito para a identificação do seu rótulo, usar o tipo de lista de frases permite que você o especifique na sua explicação selecionando a caixa de seleção **Somente maiúsculas**.
 
@@ -43,31 +43,31 @@ Se a diferenciação de maiúsculas e minúsculas for um requisito para a identi
 
 Um tipo de frase é especialmente útil quando você cria uma explicação que identifica e extrai informações em diferentes formatos, como datas, números de telefone e números de cartão de crédito. Por exemplo, uma data pode ser exibida em vários formatos diferentes (1/1/2020, 1-1-2020, 01/01/20, 01/01/2020, Jan 1,2020, etc.). Definir uma lista de frases torna sua explicação mais eficiente, capturando quaisquer variações possíveis nos dados que você está tentando identificar e extrair. 
 
-Para o **Número de telefone** Por exemplo, você extrai o número de telefone de cada médico de referência de todos os documentos de referência médica que o modelo identifica. Ao criar a explicação, digite os diferentes formatos que um número de telefone pode exibir em seu documento para que você possa capturar possíveis variações. 
+Para o exemplo de **Número de telefone**, você extrai o número de telefone de cada médico de referência de todos os documentos de referência médica que o modelo identifica. Ao criar a explicação, digite os diferentes formatos que um número de telefone pode exibir em seu documento para que você possa capturar possíveis variações. 
 
 ![Padrões de frase de número de telefone](../media/content-understanding/pattern-list.png)
 
-Para este exemplo, em **Configurações avançadas** selecione os **Qualquer dígito de 0-9** caixa de seleção para reconhecer cada valor "0" usado em sua lista de frases como qualquer dígito de 0 a 9.
+Para este exemplo, em **Configurações Avançadas**, marque a caixa de seleção **Qualquer dígito de 0-9** para reconhecer cada valor "0" usado em sua lista de frases como qualquer dígito de 0 a 9.
 
 ![Qualquer dígito de 0-9](../media/content-understanding/digit-identity.png)
 
-Da mesma forma, se você criar uma lista de frases que inclua caracteres de texto, selecione o **Qualquer letra de a-z** caixa de seleção para reconhecer cada caractere "a" usado na lista de frases como qualquer caractere de "a" a "z".
+Da mesma forma, se você criar uma lista de frases que inclua caracteres de texto, marque a caixa de seleção **Qualquer letra de a-z** para reconhecer cada caractere "a" usado na lista de frases como qualquer caractere de "a" a "z".
 
-Por exemplo, se você criar um **Data** lista de frases e você deseja ter certeza de que um formato de data como *Jan 1, 2020* é reconhecido, você precisa:
-- Adicionar *aaa 0, 0000* e *aaa 00, 0000* para sua lista de frases.
+Por exemplo, se você criar uma lista de frases de **Data** e desejar ter certeza de que um formato de data como *Jan 1, 2020* será reconhecido, você precisará:
+- Adicionar *aaa 0, 0000* e *aaa 00, 0000* à sua lista de frases.
 - Verificar se **Qualquer letra de a-z** também está selecionada.
 
 ![Qualquer letra de a-z](../media/content-understanding/any-letter.png)
 
-Além disso, se houver requisitos de letras maiúsculas em sua lista de frases, você terá a opção de selecionar o **Apenas letras maiúsculas exatas** caixa de seleção. Para o exemplo de data, se você quiser que a primeira letra do mês seja maiúscula, você precisa:
+Além disso, se houver requisitos de letras maiúsculas em sua lista de frases, você terá a opção de marcar a caixa de seleção **Apenas letras maiúsculas exatas**. Para o exemplo de data, se você quiser que a primeira letra do mês seja maiúscula, você precisará:
 
-- Adicionar *Aaa 0, 0000* and *Aaa 00, 0000* para sua lista de frases.
+- Adicionar *Aaa 0, 0000* e *Aaa 00, 0000* à sua lista de frases.
 - Verificar se **Somente maiúsculas** também está selecionada.
 
 ![Somente maiúsculas](../media/content-understanding/exact-caps.png)
 
 > [!NOTE]
-> Em vez de criar manualmente uma explicação de lista de frases, use o [biblioteca de explicação](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-explanation-templates) para usar modelos de lista de frases para uma lista de frases comum, como *data*, *número de telefone*, *número do cartão de crédito*, etc.
+> Em vez de criar manualmente uma explicação de lista de frases, use a [biblioteca de explicação](https://docs.microsoft.com/microsoft-365/contentunderstanding/explanation-types-overview#use-explanation-templates) para usar modelos de lista de frases para uma lista de frases comum, como *data*, *número de telefone*, *número do cartão de crédito*, etc.
 
 ## <a name="proximity"></a>Proximidade 
 
@@ -123,7 +123,7 @@ Definir a configuração de proximidade para ter um intervalo de 0 a 3.
 
 ## <a name="configure-where-phrases-occur-in-the-document"></a>Configurar onde as frases ocorrem no documento
 
-Quando você cria uma explicação, por padrão, todo o documento é pesquisado pela frase que você está tentando extrair. No entanto, você pode usar a configuração avançada **Onde essas frases ocorrem** para ajudar a isolar um local específico do documento em que ocorre uma frase. Isso é útil em situações em que instâncias semelhantes de uma frase podem aparecer em outro lugar no documento e você deseja ter certeza de que a correta está selecionada. Ao se referir ao nosso exemplo de documento de Referência Médica, o **Médico Encaminhador** sempre é mencionado no primeiro parágrafo do documento. Com a configuração ** Onde essas frases ocorrem, neste exemplo, você pode configurar sua explicação para pesquisar esse rótulo apenas na seção inicial do documento ou em qualquer outro local em que possa ocorrer.
+Quando você cria uma explicação, por padrão, todo o documento é pesquisado pela frase que você está tentando extrair. No entanto, você pode usar a configuração avançada **Onde essas frases ocorrem** para ajudar a isolar um local específico do documento em que ocorre uma frase. Isso é útil em situações em que instâncias semelhantes de uma frase podem aparecer em outro lugar no documento e você deseja ter certeza de que a correta está selecionada. Ao se referir ao nosso exemplo de documento de Referência Médica, o **Médico Encaminhador** sempre é mencionado no primeiro parágrafo do documento. Com a configuração **Onde essas frases ocorrem, neste exemplo, você pode configurar sua explicação para pesquisar esse rótulo apenas na seção inicial do documento ou em qualquer outro local em que possa ocorrer.
 
 ![Configuração de onde essas frases ocorrem](../media/content-understanding/phrase-location.png)
 
@@ -139,7 +139,7 @@ Você pode escolher uma das três opções para esta configuração:
 
    ![Início da caixa de posição do arquivo](../media/content-understanding/beginning-box.png)
 
-- Fim do arquivo: O documento é pesquisado desde o final até a localização da frase.
+- Fim do arquivo: o documento é pesquisado desde o final até a localização da frase.
 
    ![Fim do arquivo](../media/content-understanding/end-of-file.png)
 
@@ -147,7 +147,7 @@ Você pode escolher uma das três opções para esta configuração:
 
    ![Fim da caixa de fim do arquivo](../media/content-understanding/end-box.png)
 
-- Intervalo personalizado: O documento é pesquisado em um intervalo especificado dentro dele para a localização da frase.
+- Intervalo personalizado: o documento é pesquisado em um intervalo especificado dentro dele para a localização da frase.
 
    ![Intervalo personalizado](../media/content-understanding/custom-file.png)
 
