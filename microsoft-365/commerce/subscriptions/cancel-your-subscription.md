@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 description: Saiba como cancelar sua assinatura paga ou de avaliação do Microsoft 365 Business.
 ms.date: ''
-ms.openlocfilehash: 0d37a2459c89bf5931af26a91ed14e2898c1c8c4
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 2163462ae206871d66155331096337c29d6a87c2
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615382"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644639"
 ---
 # <a name="cancel-your-subscription"></a>Cancelar sua assinatura
 
@@ -47,6 +47,15 @@ Se você tiver adicionado seu próprio nome de domínio para usar com a sua assi
 ::: moniker range="o365-worldwide"
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
+2. Encontre a assinatura que deseja cancelar. Selecione **Mais ações** (três pontos) e, em seguida, selecione **Cancelar assinatura**.
+3. No painel **Cancelar assinatura**, escolha um motivo pelo qual você está cancelando. Opcionalmente, forneça qualquer comentário.
+4. Selecione **Salvar**.
+
+Sua assinatura aparecerá com um estado **Desabilitado** e terá funcionalidade reduzida até que seja excluída. Para obter mais informações sobre o que você pode esperar quando uma assinatura paga do Microsoft 365 Business é cancelada, confira [O que acontece com meus dados e acesso quando minha assinatura do Microsoft 365 Business termina?](what-if-my-subscription-expires.md)
+
+> [!NOTE]
+> Se você excluir explicitamente uma assinatura, ela ignorará os estágios Expirado e Desabilitado, e os dados e conteúdo do SharePoint Online, incluindo o OneDrive, serão excluídos imediatamente.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"

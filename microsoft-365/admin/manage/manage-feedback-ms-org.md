@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerencie comentários que os usuários podem enviar para a Microsoft sobre produtos da Microsoft.
-ms.openlocfilehash: c92adec1689d6f0c46b03ae4f46c567f054b6457
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: 490081ace32203d015ee8cf3561ccf0ae978bace
+ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650011"
+ms.locfileid: "51657002"
 ---
 # <a name="manage-microsoft-feedback-for-your-organization"></a>Gerenciar comentários da Microsoft para sua organização
 
-Como administrador de uma organização do Microsoft 365, agora há várias políticas para ajudá-lo a gerenciar a coleção de comentários e a experiência de envolvimento do cliente de seus usuários ao usar aplicativos do Microsoft 365. Você pode criar e usar grupos de diretórios existentes do Azure Active em sua organização para cada uma dessas políticas. Com essas polícias, você pode controlar como diferentes departamentos em sua organização podem enviar comentários para a Microsoft. A Microsoft revisa todos os comentários enviados pelos clientes e usa esses comentários para melhorar o produto. Manter as experiências de comentários **ativas** permite que você veja o que seus usuários estão dizendo sobre os produtos da Microsoft que estão usando. Os comentários que coletamos de seus usuários estarão disponíveis em breve no Centro de administração do Microsoft 365."
+Como administrador de uma organização do Microsoft 365, agora há várias políticas para ajudá-lo a gerenciar a coleção de comentários e a experiência de envolvimento do cliente de seus usuários ao usar aplicativos do Microsoft 365. Você pode criar e usar grupos de diretórios existentes do Azure Active em sua organização para cada uma dessas políticas. Com essas polícias, você pode controlar como diferentes departamentos em sua organização podem enviar comentários para a Microsoft. A Microsoft revisa todos os comentários enviados pelos clientes e usa esses comentários para melhorar o produto. Manter as experiências de comentários **ativas** permite que você veja o que seus usuários estão dizendo sobre os produtos da Microsoft que estão usando. Os comentários que coletamos de seus usuários estarão disponíveis em breve no Centro de administração do Microsoft 365.
 
 Para saber mais sobre os tipos de comentários e como a Microsoft usa comentários do usuário, consulte Saiba mais sobre os [comentários da Microsoft para sua organização.](../misc/feedback-user-control.md)
 

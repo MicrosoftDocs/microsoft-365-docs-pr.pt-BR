@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Saiba o que acontece com seus dados quando sua assinatura do Microsoft 365 para empresas expira, é desabilitada ou cancelada.
-ms.openlocfilehash: ee83e237d17dc2de60b08b8d4dbdc46c98fc8251
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 8f853000ebd20ab8f6625df9f773bbb182bdb7fd
+ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615394"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51644651"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>O que acontecerá com meus dados e o acesso ao Microsoft 365 para empresas quando a assinatura terminar?
 
@@ -68,6 +68,9 @@ Para saber como cancelar, confira [Cancelar a assinatura](cancel-your-subscripti
 > [!IMPORTANT]
 > Se você quiser que seus dados de assinatura sejam excluídos antes que o estágio típico de Desabilitação tenha terminado, você pode [fechar sua conta](../close-your-account.md).
   
+> [!NOTE]
+> Se você excluir explicitamente uma assinatura, ela ignorará os estágios Expirado e Desabilitado, e os dados e conteúdo do SharePoint Online, incluindo o OneDrive, serão excluídos imediatamente.
+
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Quais são as minhas opções se minha assinatura estiver prestes a expirar?
 
 Enquanto a assinatura estiver ativa, você e seus usuários finais terão acesso normal a seus dados, serviços, como email e o OneDrive for Business, e aplicativos do Office. Como administrador, você receberá uma série de notificações por email e no centro de administração quando a sua assinatura estiver próxima da data de vencimento.
