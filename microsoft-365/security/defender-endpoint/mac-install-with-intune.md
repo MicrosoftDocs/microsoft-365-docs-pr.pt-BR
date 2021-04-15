@@ -18,14 +18,15 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7486bde0886506a5966a95cdb0b85fc009858801
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: dbb4e3a558256f19594ab0aa4efbd2c9eed6b7f8
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689744"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764210"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Implantação baseada no Intune para o Microsoft Defender para Ponto de Extremidade no macOS
+
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -50,9 +51,10 @@ Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremid
 
 Antes de começar, consulte a página principal do Microsoft Defender para Ponto de Extremidade no [macOS](microsoft-defender-endpoint-mac.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
 
-## <a name="overview"></a>Visão Geral
 
-A tabela a seguir resume as etapas necessárias para implantar e gerenciar o Microsoft Defender para Pontos de Extremidade para Macs, por meio do Intune. Etapas mais detalhadas estão disponíveis abaixo.
+## <a name="overview"></a>Visão geral
+
+A tabela a seguir resume as etapas necessárias para implantar e gerenciar o Microsoft Defender para Ponto de Extremidade em Macs, por meio do Intune. Etapas mais detalhadas estão disponíveis abaixo.
 
 | Etapa | Exemplo de nomes de arquivo | BundleIdentifier |
 |-|-|-|

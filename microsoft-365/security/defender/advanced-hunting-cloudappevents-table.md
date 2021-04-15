@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2aa592e70bce7bb469f851bedc542ee58cac0037
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 83b9eec37648ba48aa8e6931e836e8a5e22458c8
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498672"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51760021"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -37,7 +37,7 @@ ms.locfileid: "51498672"
 
 
 
-A tabela no esquema de busca avançada contém informações sobre atividades em vários aplicativos e serviços de nuvem cobertos pelo Microsoft Cloud App Security, especificamente `CloudAppEvents` Dropbox, Exchange Online, OneDrive, Microsoft Teams e SharePoint. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
+A tabela no esquema de busca avançado contém informações sobre atividades em vários aplicativos e serviços de nuvem `CloudAppEvents` cobertos pelo Microsoft Cloud App Security. [](advanced-hunting-overview.md) Para uma lista completa, pule para [Aplicativos e serviços abordados](#apps-and-services-covered). Use essa referência para criar consultas que retornam informações dessa tabela. 
 
 >[!IMPORTANT]
 >Esta tabela inclui informações que costumavam estar disponíveis na `AppFileEvents` tabela. A partir de 7 de março de 2021, os usuários que pesquisam atividades relacionadas a arquivos em serviços de nuvem dentro e fora dessa data devem usar a `CloudAppEvents` tabela. <br><br>Procure por consultas e regras de detecção personalizadas que ainda usem a tabela e `AppFileEvents` edite-as para usar a `CloudAppEvents` tabela. Mais orientações sobre a conversão de consultas afetadas podem ser encontradas em [Hunt across cloud app activities with Microsoft 365 Defender advanced hunting](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857).
@@ -71,6 +71,19 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `RawEventData` | string | Informações de evento brutos do aplicativo ou serviço de origem no formato JSON |
 | `AdditionalFields` | string | Informações adicionais sobre a entidade ou evento |
 
+## <a name="apps-and-services-covered"></a>Aplicativos e serviços cobertos
+
+- Dropbox
+- Dynamics 365
+- Exchange Online
+- Microsoft Teams
+- OneDrive for Business
+- Power Automate
+- Power BI
+- SharePoint Online
+- Skype for Business
+- Office 365
+- Yammer 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

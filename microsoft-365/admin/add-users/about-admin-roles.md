@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: As funções de administrador são mapeadas para as funções de negócios e oferecem permissões para realizar tarefas específicas no centro de administração. Por exemplo, o administrador de serviço pode abrir tíquetes de suporte por meio do centro de administração.
-ms.openlocfilehash: e0155ee9e263d4b62dced0e2bd943781ccf93a4c
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: d220ee918f70a56ba27bdad9d7d0f45025fad451
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644250"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755613"
 ---
 # <a name="about-admin-roles"></a>Sobre funções de administrador
 
@@ -61,11 +61,7 @@ Se você receber uma mensagem no centro de administração informando que você 
 
 ## <a name="commonly-used-microsoft-365-admin-center-roles"></a>Funções comuns do Centro de administração do Microsoft 365
 
-::: moniker range="o365-worldwide"
-
 No Centro de administração do Microsoft 365, você pode acessar **Funções** e, em seguida, selecionar qualquer função para abrir seu painel de detalhes. Selecione a guia **Permissões** para exibir a lista detalhada do que os administradores com aquela função têm permissão para fazer. Marque a guia **Atribuir** ou **Administradores atribuídos** para adicionar usuários a funções.
-
-::: moniker-end
 
 Provavelmente, você só precisará atribuir as funções a seguir em sua organização. Por padrão, vamos primeiro mostrar as funções que a maioria das organizações usa. Se você não conseguir encontrar uma função, vá para a parte inferior da lista e selecione **Mostrar tudo por categoria**. "(Para obter informações detalhadas, incluindo os cmdlets associados a uma função, confira [Permissões de função de administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
 

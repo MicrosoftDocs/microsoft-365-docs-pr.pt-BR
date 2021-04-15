@@ -7,7 +7,7 @@ ms.mktglfcycl: deploy
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.date: 02/02/2021
+ms.date: 04/07/2021
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -19,18 +19,16 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 142bc305950f9322c90e0d207f255c14abbc6b8c
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d89e5dc29bfe7f980d40a9a5b139884750a966bc
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197928"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760009"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Visão geral da central de segurança unificada do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 **Aplica-se a:**
 
@@ -57,39 +55,39 @@ Se você precisar de informações sobre o que foi alterado do Centro de Conform
 
 Todo o conteúdo de segurança que você usa no Centro de Conformidade e Segurança do Office 365 (protection.office.com) e no Centro de Segurança do Microsoft Defender (securitycenter.microsoft.com) agora pode ser encontrado no centro de segurança do *Microsoft 365.*
 
-O Centro de segurança do Microsoft 365 ajuda as equipes de segurança a investigar e responder a ataques, transformando sinais de cargas de trabalho diferentes em uma única experiência unificada:
+O Centro de segurança do Microsoft 365 ajuda as equipes de segurança a investigar e responder a ataques trazendo sinais de cargas de trabalho diferentes para um conjunto de experiências unificadas para:
 
 - Incidentes & alertas
 - Busca
 - Central de Ações
 - Análise de ameaças
 
-O Centro de segurança do Microsoft 365 enfatiza a *unidade,* a clareza e as metas comuns à medida que mescla o Microsoft Defender para o Office 365 e o Microsoft Defender para o Ponto de Extremidade. A mesclagem foi baseada nas prioridades listadas abaixo e feita sem sacrificar os recursos que cada pacote de segurança trouxe para a combinação:
+O Centro de segurança do Microsoft 365 enfatiza a *unidade,* a clareza e as metas comuns à medida que mescla o Microsoft Defender para o Office 365 e o Microsoft Defender para o Ponto de Extremidade. A mesclagem foi baseada nas prioridades listadas abaixo e feita sem sacrificar os recursos que cada pacote de segurança trouxe para a combinação de:
 
-- blocos de construção comuns
-- terminologia comum
-- entidades comuns
-- paridade de recursos com outras cargas de trabalho
+- Blocos de construção comuns
+- Terminologia comum
+- Entidades comuns
+- Paridade de recursos com outras cargas de trabalho
 
 ## <a name="unified-investigations"></a>Investigações unificadas
 
-O fluxo de centros de segurança cria um único painel para investigar quaisquer incidentes em uma organização do Microsoft 365. Um exemplo principal é o **nó Incidentes** no início rápido do centro de segurança do Microsoft 365.
+Convergir centros de segurança cria um único local para investigar incidentes de segurança no Microsoft 365. Um exemplo principal é **Incidentes** em **Incidentes & alertas** sobre o início rápido do centro de segurança do Microsoft 365.
 
-:::image type="content" source="../../media/converged-incidents-2.png.png" alt-text="A página Incidentes no MDO.":::
+:::image type="content" source="../../media/converged-incidents-2.png.png" alt-text="A página Incidentes no centro de segurança do Microsoft 365.":::
 
-Como exemplo, clicar duas vezes em  um nome de incidente com Alta gravidade o leva a uma página que demonstra a vantagem de convergir centros.
+Selecionar um nome de incidente exibe uma página que demonstra o valor dos centros de segurança convergentes.
 
-![Incidente em vários estágios envolvendo escalonamento de privilégios em vários pontos de extremidade, mostrando 16 dispositivos afetados e 9 usuários afetados.](../../media/converged-incident-info-3.png)
+:::image type="content" source="../../media/converged-incident-info-3.png" alt-text="Exemplo da página Resumo de um incidente no centro de segurança do Microsoft 365":::
 
-> [!TIP]
-> A guia **Usuários convergentes** é um bom lugar para começar suas consultas. Esta página única apresenta informações para usuários de cargas de trabalho convergentes (Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Identidade e MCAS, se você aproveitar) e um intervalo de fontes, como o Active Directory local, o Azure Active Directory, usuários sincronizados, locais e de terceiros. Saiba mais sobre [a nova experiência dos usuários.](investigate-users.md)
+<!--
+![Example of the Summary page for an incident in the Microsoft 365 security center](../../media/converged-incident-info-3.png)
+--> 
 
-As informações sobre incidentes mostram as especificidades do usuário/identidade e os dispositivos em risco, além das caixas de correio afetadas. Ele também relaciona todas as informações **de Investigação e** evidências **coletadas.** Isso facilita que os administradores e equipes de operação de segurança girem de um alerta de alto risco para os usuários e caixas de correio afetados. Ao ver as **guias Incidentes** na parte superior desta página, há outros pivôs de segurança principais disponíveis neste único local.
+Na parte superior de uma página de incidentes, você verá as guias **Resumo,** **Alertas, Dispositivos,** **Usuários,** Caixas de **Correio,** **Investigações** **e** Evidências. Selecione essas guias para obter informações mais detalhadas. Por exemplo,  a guia Usuários exibe informações para usuários de cargas de trabalho convergentes (Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Identidade e Segurança do Microsoft Cloud App) e um intervalo de fontes, como serviços de domínio do Active Directory local (AD DS), Azure Active Directory (Azure AD) e provedores de identidade de terceiros. Para obter mais informações, consulte [investigar usuários](investigate-users.md).
 
-> [!IMPORTANT]
-> Na parte superior de qualquer página para um Incidente específico, você verá as guias **Resumo,** **Alertas, Dispositivos,** **Usuários,** **Caixas** de Correio, **Investigações** **e** Evidências.
+Aproveite o tempo para revisar os incidentes em seu ambiente, fazer uma análise dessas guias e praticar a criação de uma compreensão de como acessar as informações fornecidas para incidentes para diferentes tipos de ameaças.
 
-Selecionar **Investigações** abre uma página que apresenta um gráfico da análise em andamento e lista um status (como aprovação **pendente**) para correção. Desem tempo para selecionar incidentes específicos em seu ambiente, fazer uma análise dessas guias e praticar a criação de um perfil para diferentes tipos de ameaças. A familiaridade beneficiará investigações posteriores.
+Para obter mais informações, consulte incidentes no centro de segurança [do Microsoft 365.](incidents-overview.md)
 
 ## <a name="improved-processes"></a>Processos aprimorados
 

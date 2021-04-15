@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Saiba como trabalhar com provedores de soluções certificados pela Microsoft (parceiros) para comprar e gerenciar produtos e serviços para sua organização ou escola.
-ms.openlocfilehash: a0c70f229ff11132beccf118f4158ab2880a8aa6
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f4c270e179a3d52616f6d7efb049beac4d1a8e03
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579729"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51749849"
 ---
 # <a name="manage-partner-relationships"></a>Gerenciar relacionamentos de parceiros
 
@@ -32,7 +32,7 @@ Você pode trabalhar com provedores de soluções certificados pela Microsoft (p
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador Global ou Cobrança para fazer essas etapas. Para obter mais informações, confira [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador Global ou Cobrança para fazer essas etapas. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="what-can-a-partner-do-for-my-organization-or-school"></a>O que um parceiro pode fazer para minha organização ou escola?
 
@@ -85,7 +85,7 @@ Se você não quiser dar as funções de administrador ao parceiro, cancele o co
 
 Você pode remover funções de administrador de um parceiro a qualquer momento. Remover as funções de administrador não remove a relação de parceiro. Eles ainda podem trabalhar com você em uma capacidade diferente, como um Revendedor. Se você decidir que não deseja mais trabalhar com um parceiro, entre em contato com seu parceiro para encerrar o relacionamento.
 
-1. No centro de administração, vá para a página **Relacionamentos**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">do Parceiro de</a> Cobrança.
+1. No centro de administração, vá para a página **Configurações**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">Relações de</a> parceiros.
 2. Na página **Relações de parceiros,** selecione a linha que contém o nome do parceiro que você deseja remover.
 3. Selecione a linha que contém o nome do parceiro.
 4. Na página do parceiro, selecione **Remover funções**.

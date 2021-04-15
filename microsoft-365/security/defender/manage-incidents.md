@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 72d368cd92739e191dcb292000b8429a472aa981
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 2d2bf18c6cacb377e710f34b74ec8f83bb77d3b1
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498443"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760057"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Gerenciar incidentes no Microsoft 365 Defender
 
@@ -37,49 +37,63 @@ ms.locfileid: "51498443"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
+O gerenciamento de incidentes é fundamental para garantir que as ameaças sejam contidas e abordadas.
 
+Você gerencia incidentes de **incidentes & alertas** > incidentes no início rápido do centro de segurança do Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)). Veja um exemplo.
 
-Gerenciar incidentes é fundamental para garantir que as ameaças sejam contidas e tratadas. No Microsoft 365 Defender, você tem acesso ao gerenciamento de incidentes em dispositivos, usuários e caixas de correio. 
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Exemplo da fila de incidentes":::
 
+Aqui estão as maneiras de gerenciar seus incidentes:
 
-Você pode gerenciar incidentes selecionando um deles da **fila de incidentes**. 
+- Alterar o nome do incidente
+- Adicione marcas de incidente.
+- Atribuir o incidente a uma conta de usuário
+- Resolvê-los 
+- Definir sua classificação e determinação
+- Adicione comentários.
 
-Você pode editar o nome de um incidente, resolvê-lo e definir sua classificação e determinação. Você também pode atribuir o incidente a si mesmo e adicionar marcas e comentários.
+Você pode gerenciar incidentes do **painel Gerenciar incidentes** para um incidente. Veja um exemplo.
 
-Em casos em que, durante uma investigação, você deseje migrar os alertas de um incidente para outro, você também pode fazer isso na guia Alertas, criando, assim, um incidente maior ou menor que inclua todos os alertas relevantes.
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-manage.png" alt-text="Exemplo do painel Gerenciar incidentes de um incidente":::
 
-## <a name="edit-incident-name"></a>Editar o nome do incidente
-Os incidentes são atribuídos automaticamente a um nome com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
+Você pode exibir esse painel no link **Gerenciar incidentes** no:
 
-Por exemplo: *incidente em vários estágios em vários pontos de extremidade relatados por várias fontes.*
+- Painel de propriedades de um incidente na fila de incidentes.
+- **Página** de resumo de um incidente.
 
-Você pode modificar o nome do incidente para um melhor alinhamento à sua convenção de nomenclatura preferencial.
+Em casos em que, ao investigar, você gostaria de mover alertas de um incidente para outro, você também pode fazer isso da guia **Alertas,** criando um incidente maior ou menor que inclui todos os alertas relevantes.
+
+## <a name="edit-the-incident-name"></a>Editar o nome do incidente
+
+Os incidentes são atribuídos automaticamente a um nome com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente. Por exemplo: *incidente em vários estágios em vários pontos de extremidade relatados por várias fontes.*
+
+Você pode editar o nome do incidente no campo **Nome do** incidente no **painel Gerenciar** incidentes.
 
 > [!NOTE]
 > Incidentes que existiam antes da adoção do recurso de nomenização automática de incidentes manterão seu nome.
 
+## <a name="add-incident-tags"></a>Adicionar marcas de incidente
 
+Você pode adicionar marcas personalizadas a um incidente, por exemplo, para sinalizar um grupo de incidentes com uma característica comum. Posteriormente, você pode filtrar a fila de incidentes para todos os incidentes que contenham uma marca específica.
+
+Ao começar a digitar, você tem a opção de selecionar em uma lista de marcas selecionadas.
 
 ## <a name="assign-incidents"></a>Atribuir incidentes
-Caso um incidente ainda não tenha sido atribuído, você poderá selecionar **Atribuir a mim** para atribuir o incidente a si mesmo. Ao fazer isso, você assume a propriedade não apenas do incidente, como também de todos os alertas associados a ele.
 
-## <a name="set-status-and-classification"></a>Definir o status e a classificação
-### <a name="incident-status"></a>Status do incidente
-Você pode categorizar os incidentes (como **Ativo** ou **Resolvido**) alterando o status deles durante sua investigação. Isso ajuda você a organizar e a gerenciar a maneira como sua equipe é capaz de responder a incidentes.
+Se um incidente ainda não tiver sido atribuído, você poderá selecionar **Atribuir e** especificar a conta de usuário. Isso atribui a propriedade do incidente e todos os alertas associados a ele.
 
-Por exemplo, seu analista de SOC pode analisar os incidentes **Ativos** urgentes do dia e decidir atribuí-los a si mesmo para investigação.
+## <a name="resolve-incident"></a>Resolver incidente
 
-Como alternativa, seu analista de SOC pode definir o incidente como **Resolvido** caso ele já tenha sido solucionado. Ao resolver um incidente, todos os alertas que fazem parte do incidente e que ainda estão abertos serão fechados automaticamente. 
+Se o incidente tiver sido resolvido, selecione **Resolver incidentes** para mover a alternância para a direita. Observe que a resolução de um incidente também resolve todos os alertas vinculados e ativos relacionados ao incidente.
 
-### <a name="classification-and-determination"></a>Classificação e determinação
-Você pode optar por não definir uma classificação ou decidir especificar se um incidente é verdadeiro ou falso. Isso ajuda a equipe a ver padrões e a aprender com eles. 
+Um incidente que não é resolvido é exibido como **Ativo**.
+
+## <a name="set-the-classification-and-determination"></a>Definir a classificação e a determinação
+
+A classificação de incidentes é se foi um alerta verdadeiro ou falso, que você configura no **campo Classificação.** 
+
+Se foi um alerta verdadeiro, você também deve especificar que tipo de ameaça era com o campo **Determinação.** Especificar o tipo de ameaça ajuda sua equipe de segurança a ver padrões de ameaças e agir para defender sua organização deles. 
 
 ## <a name="add-comments"></a>Adicionar comentários
-Você pode adicionar comentários e exibir eventos históricos sobre um incidente para ver as alterações feitas anteriormente.
 
-Sempre que uma alteração ou um comentário forem feitos em um alerta, eles são registrados na seção Comentários e histórico.
-
-Os comentários adicionados aparecem instantaneamente no painel.
-
-## <a name="add-incident-tags"></a>Adicionar marcas de incidente
-Você pode adicionar marcas personalizadas a um incidente, por exemplo, para sinalizar um grupo de incidentes com uma característica comum. Posteriormente, você pode filtrar a fila incidentes, buscando todos os incidentes que contenham uma marca específica.
+Você pode adicionar vários comentários a um incidente com o **campo Comentário.** Cada comentário é adicionado aos eventos históricos do incidente. Você pode ver os comentários e o histórico de um incidente no link **Comentários e** histórico na página **Resumo.**

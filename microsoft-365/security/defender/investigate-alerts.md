@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 989574a860bea798c48e077f5633c31eb857e85e
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 601a8674327c424592c65014793599dc19b2bcd3
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500941"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51759427"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Investigar alertas no Microsoft 365 Defender
 
@@ -35,8 +35,6 @@ ms.locfileid: "51500941"
 
 **Aplica-se a:**
 - Microsoft 365 Defender
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 Os alertas são a base de todos os incidentes e indicam a ocorrência de eventos mal-intencionados ou suspeitos em seu ambiente. Os alertas geralmente fazem parte de um ataque mais amplo e fornecem pistas sobre um incidente.
 

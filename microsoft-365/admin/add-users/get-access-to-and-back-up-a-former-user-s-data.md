@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Saiba como preservar os arquivos e emails de um funcionário quando a pessoa sair da organização.
-ms.openlocfilehash: 38cc44bbe602f3c8c38ca54391d0967fbafbfcf7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 17911e4a4551bba07d2c2ad034941bba737dcc1d
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906307"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755601"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Obtenha acesso e faça backup dos dados de um usuário anterior
 
@@ -44,8 +44,22 @@ Para preservar os arquivos do OneDrive de um usuário anterior, primeiro dê a s
 
 ::: moniker range="o365-worldwide"
 
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.  
-    
+1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+
+::: moniker-end
+
 2. Selecione um usuário.
 
 3. No painel direito, selecione **OneDrive**. Em **Obter acesso a arquivos,** selecione Criar link para **arquivos**.
@@ -56,69 +70,27 @@ Para preservar os arquivos do OneDrive de um usuário anterior, primeiro dê a s
 > Você pode mover ou copiar até 500 MB de arquivos e pastas por vez.<br/>
 > Quando você move ou copia documentos que têm histórico de versão, somente a versão mais recente é movida.  
 
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.  
-
-2. Selecione um usuário.
-
-3. No painel direito, expanda **Configurações do OneDrive** e, ao lado de **Access,** selecione **Arquivos de acesso.**
-
-4. Selecione o link para abrir o local do arquivo. Baixe os arquivos no computador ou selecione **Mover** para **ou** Copiar para mover ou copiá-los para seu próprio OneDrive ou para uma biblioteca compartilhada. 
-
-> [!NOTE]
-> Você pode mover ou copiar até 500 MB de arquivos e pastas por vez.<br/>
-> Quando você move ou copia documentos que têm histórico de versão, somente a versão mais recente é movida.  
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>. 
-
-2. Selecione um usuário.
-
-3. No painel direito, expanda **Configurações do OneDrive** e, ao lado de **Access,** selecione **Arquivos de acesso.**
-
-4. Selecione o link para abrir o local do arquivo. Baixe os arquivos no computador ou selecione **Mover** para **ou** Copiar para mover ou copiá-los para seu próprio OneDrive ou para uma biblioteca compartilhada.  
-
-> [!NOTE]
-> Você pode mover ou copiar até 500 MB de arquivos e pastas por vez.<br/>
-> Quando você move ou copia documentos que têm histórico de versão, somente a versão mais recente é movida.  
-
-::: moniker-end
-    
-
-
 ## <a name="revoke-admin-access-to-a-users-onedrive"></a>Revogar o acesso do administrador ao OneDrive de um usuário
 
 Como administrador global, você pode se dar acesso ao conteúdo no OneDrive de um usuário, mas talvez queira remover seu acesso quando não precisar mais dele. 
 
-::: moniker range="o365-worldwide"
+ ::: moniker range="o365-worldwide"
 
-1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">administração como</a> administrador global ou administrador do SharePoint. 
-
-    Se você receber uma mensagem de que não tem permissão para acessar o centro de administração, não terá permissões de administrador em sua organização.
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">administração como</a> administrador global ou administrador do SharePoint.
-
-    Se você receber uma mensagem de que não tem permissão para acessar o centro de administração, não terá permissões de administrador em sua organização.
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Entre no centro de <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">administração como</a> administrador global ou administrador do SharePoint.
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
 
-    Se você receber uma mensagem de que não tem permissão para acessar o centro de administração, não terá permissões de administrador em sua organização.
-
-::: moniker-end
+::: moniker-end 
 
 2. No painel esquerdo, selecione **Centros de administração do** \> **SharePoint**. (Talvez seja necessário selecionar **Mostrar tudo** para ver a lista de centros de administração.)
 

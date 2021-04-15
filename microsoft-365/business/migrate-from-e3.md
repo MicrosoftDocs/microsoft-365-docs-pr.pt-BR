@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Saiba como mover sua empresa para o Microsoft 365 Business Premium do Office 365 E3.
-ms.openlocfilehash: ffb82fa40f05383260ac1b97ed0bdf5f2f30c1df
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f2b7962918186f4a1063c5a66596135c2972ec71
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578318"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51749991"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Migrando do Office 365 E3 para o Microsoft 365 Business Premium
 
@@ -42,14 +42,14 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Off
 | Recurso    | Suporte no Microsoft 365 Business Premium    | Suporte no Office 365 E3 | 
 |:-------|:-----|:-----|
 | **No local**        | | | 
-| Aplicativos do Office<sup>1</sup>    | Aplicativos do Microsoft 365 para empresas    | Microsoft 365 Apps para empresas | 
+| Aplicativos do Office<sup>1</sup>    | Aplicativos do Microsoft 365 para empresas    | Microsoft 365 Apps para Grandes Empresas | 
 | **Aplicativos de produtividade na nuvem**        | | | 
 | Exchange Online e Outlook    | Limite de armazenamento de 50 GB por caixa de correio e limites ilimitados Arquivamento do Exchange Online    | Limite de armazenamento de 100 GB por caixa de correio e limites ilimitados Arquivamento do Exchange Online | 
 | Teams    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Office 365 E3](../media/check-mark.png) | 
 | OneDrive for Business    | Limite de armazenamento de 1 TB por usuário    | Ilimitado | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | ![Incluído no Office 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | | 
+| MileIQ    | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Proteção contra Ameaças**        | | | 
 | Microsoft Defender para Office 365 Plano 1 | ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    | Não incluído, mas pode ser adicionado em | 
 | **O gerenciamento de identidades**        | | | 
@@ -60,7 +60,7 @@ Esta tabela mostra as diferenças entre o Microsoft 365 Business Premium e o Off
 | Direitos de atualização para o Windows 10 Pro a partir de licenças do Win 7/8.1 Pro|     ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)    || 
 | **Proteção de informações**        | | |
 |Prevenção contra Perda de Dados do Office 365|    ![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)|![Incluído no Office 365 E3](../media/check-mark.png)|
-|Plano 1 de Proteção de Informações do Azure, imposição do Bitlocker|![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)||
+|Plano 1 de Proteção de Informações do Azure, imposição do BitLocker|![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)||
 |Plano 1 de Proteção de Informações do Azure, rótulos de sensibilidade|![Incluído no Microsoft 365 Business Premium](../media/check-mark.png)||
 |**Licença de Acesso para Cliente (direitos CAL)**|||
 |Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Incluído no Office 365 E3](../media/check-mark.png)|

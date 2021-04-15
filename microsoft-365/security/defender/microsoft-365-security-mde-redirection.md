@@ -20,18 +20,16 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c993977e0f052a7dc2e7827ff5bdefacee19ac2d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: db458015d8434843ec64f3c2c00d640d4c4d8ff2
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053495"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51760171"
 ---
 # <a name="redirecting-accounts-from-microsoft-defender-for-endpoint-to-the-microsoft-365-security-center"></a>Redirecionando contas do Microsoft Defender para o Ponto de Extremidade para o centro de segurança do Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
-
-[!INCLUDE [Prerelease](../includes/prerelease.md)]
 
 **Aplica-se a:**
 - Microsoft 365 Defender
@@ -56,7 +54,7 @@ Isso inclui redirecionamento para acesso direto ao portal anterior por meio do n
 Consulte a tabela abaixo para obter mais informações sobre links e roteamento.
 ## <a name="siem-api-routing"></a>Roteamento de API SIEM
 
-|**Propriedade**  |**Destino quando o redirecionamento está OFF**  |**Destino quando o redirecionamento está ON** | 
+|**Property**  |**Destino quando o redirecionamento está OFF**  |**Destino quando o redirecionamento está ON** | 
 |---------|---------|---------|
 | LinkToWDATP | Página de alerta no securitycenter.windows.com | Página de alerta em security.microsoft.com  |
 | IncidentLinkToWDATP | Página incidente no securitycenter.windows.com  | Página de incidentes em security.microsoft.com  |
@@ -65,7 +63,7 @@ Consulte a tabela abaixo para obter mais informações sobre links e roteamento.
 
 ## <a name="email-alert-notifications"></a>Notificações de alerta de email
 
-|**Propriedade**  |**Destino quando o redirecionamento está OFF**  |**Destino quando o redirecionamento está ON** |
+|**Property**  |**Destino quando o redirecionamento está OFF**  |**Destino quando o redirecionamento está ON** |
 |---------|---------|---------|
 | Página alerta  | Página de alerta no securitycenter.windows.com  | Página de alerta em security.microsoft.com  |
 | Página incidente  |Página incidente no securitycenter.windows.com  | Página de incidentes em security.microsoft.com  

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 description: Gerencie essas funções de administrador do Azure no Centro de administração do Microsoft 365.
-ms.openlocfilehash: b07174763384150a7ae8cda6709f5d0ec5cb40ec
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 72835a0f9fdf9a15fc3ffa07c0fab6ca6f0260cb
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904487"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759937"
 ---
 # <a name="azure-active-directory-roles-in-the-microsoft-365-admin-center"></a>Funções do Azure Active Directory no Centro de administração do Microsoft 365
 
@@ -29,15 +29,11 @@ O centro de administração do Microsoft 365 permite gerenciar mais de 30 funç�
 
 Um usuário que recebe uma função de administrador terá as mesmas permissões em todos os serviços na nuvem para os quais a sua organização se inscreveu, independentemente de você atribuir a função no centro de administração do Office 365 ou no portal clássico do Azure ou usando o módulo do Azure AD para Windows PowerShell.
 
-::: moniker range="o365-worldwide"
-
 No Centro de administração do Microsoft 365, você pode acessar **Funções** e, em seguida, selecionar qualquer função para abrir seu painel de detalhes. Selecione a guia **Permissões** para exibir a lista detalhada do que os administradores com aquela função têm permissão para fazer. Marque a guia **Atribuir** ou **Administradores atribuídos** para adicionar usuários a funções. Para obter mais informações sobre como atribuir funções no Centro de administração do Microsoft 365, confira [Atribuir funções de administrador](assign-admin-roles.md).
-
-::: moniker-end
 
 ## <a name="all-azure-ad-roles"></a>Todas as funções do Azure AD
 
-Esta é uma lista de todas as funções disponíveis no centro de administração do Microsoft 365. Procurando as descrições detalhadas das funções de administrador do Microsoft 365? Veja [Sobre funções de administrador](./about-admin-roles.md?view=o365-worldwide).
+Esta é uma lista de todas as funções disponíveis no centro de administração do Microsoft 365. Procurando as descrições detalhadas das funções de administrador do Microsoft 365? Veja [Sobre funções de administrador](./about-admin-roles.md).
 
 |Função do administrador     |Descrição  |
 |---------|---------|

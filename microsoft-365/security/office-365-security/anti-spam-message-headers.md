@@ -18,12 +18,12 @@ description: Os administradores podem aprender sobre os campos de cabeçalho adi
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04b98ad6b1ca136429395dfd1636b43bbbc6878a
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 469f28acb40017f3d431e3545c81877126f50c18
+ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203394"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51688448"
 ---
 # <a name="anti-spam-message-headers-in-microsoft-365"></a>Cabeçalhos de mensagens anti-spam no Office 365
 
@@ -74,7 +74,7 @@ Os campos e valores individuais são descritos na tabela a seguir.
 |`LANG`|O idioma no qual a mensagem foi escrita, conforme especificado pelo código de país/região (por exemplo, ru_RU para russo).|
 |`PTR:[ReverseDNS]`|O registro PTR do endereço IP de envio, também conhecido como o endereço de DNS reverso.|
 |`SCL`|O nível de confiança do spam (SCL) da mensagem. Um valor mais alto indica que é mais provável que a mensagem seja spam. Para obter mais informações, confira [Nível de confiança de Spam (SCL)](spam-confidence-levels.md).|
-|`SFTY`|A mensagem foi identificada como phishing e também será marcada com um dos seguintes valores: <ul><li>9.1: Valor padrão. A mensagem contém alguns ou todos os seguintes elementos: uma URL de phishing, outro conteúdo de phishing, ou foi marcada como phishing pelo Exchange local.</li><li>9.11: [Falsificação dentro da organização ou self-to-self](anti-spoofing-protection.md#different-types-of-spoofing). A dica de segurança para falsificação dentro da organização será adicionada à mensagem.</li><li>9.19: Usurpação de identidade de domínio. O domínio de envio está tentando [usurpar a identidade de um domínio protegido](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365). A dica de segurança contra a usurpação de identidade de domínio é adicionada à mensagem (se estiver habilitada).</li><li>9.20: Usurpação de identidade de usuário. O usuário remetente está tentando usurpar a identidade de um usuário na organização do destinatário ou um usuário protegido que está especificado em uma política anti-phishing no Microsoft Defender para Office 365. A dica de segurança contra a usurpação de identidade de usuário é adicionada à mensagem (se estiver habilitada).</li><li>9.21: [Falsificação entre domínios](anti-spoofing-protection.md#different-types-of-spoofing). A mensagem falhou nas verificações antifalsificação. O domínio de email do remetente no cabeçalho De não autentica e é um domínio externo. Usado em combinação com a [autenticação composta](#authentication-results-message-header-fields).</li><li>9.22: Igual a 9.21, exceto pelo fato de o usuário ter um remetente seguro que foi substituído.</li><li>9.23: Igual a 9.22, exceto que a organização tem um remetente ou domínio permitido que foi substituído.</li><li>9.24: O mesmo que 9.23, exceto que o usuário possui uma regra de fluxo de mensagens do Exchange (também conhecida como regra de transporte) que foi substituída.</li></ul>|
+|`SFTY`|A mensagem foi identificada como phishing e também será marcada com um dos seguintes valores: <ul><li>9.19: Usurpação de identidade de domínio. O domínio de envio está tentando [usurpar a identidade de um domínio protegido](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365). A dica de segurança contra a usurpação de identidade de domínio é adicionada à mensagem (se estiver habilitada).</li><li>9.20: Usurpação de identidade de usuário. O usuário remetente está tentando usurpar a identidade de um usuário na organização do destinatário ou [um usuário protegido que está especificado em uma política anti-phishing](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) no Microsoft Defender para Office 365. A dica de segurança contra a usurpação de identidade de usuário é adicionada à mensagem (se estiver habilitada).</li></ul>|
 |`SFV:BLK`|A filtragem foi ignorada e a mensagem foi bloqueada, pois foi enviada de um endereço da lista de remetentes bloqueados de um usuário. <p> Para saber mais sobre como os administradores podem gerenciar a lista de remetentes bloqueados de um usuário, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).|
 |`SFV:NSPM`|A filtragem de spam marcou a mensagem como não spam e a mensagem foi enviada aos destinatários pretendidos.|
 |`SFV:SFE`|A filtragem foi ignorada e a mensagem foi permitida porque foi enviada de um endereço na lista de remetentes Confiáveis ​​de um Usuário. <p> Para obter mais informações sobre como os administradores podem gerenciar a lista de remetentes confiáveis de um usuário, confira [Definir as configurações de lixo eletrônico nas caixas de correio do Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).|

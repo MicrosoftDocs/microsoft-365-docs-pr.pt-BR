@@ -10,16 +10,18 @@ ms.localizationpriority: medium
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 03/31/2021
+ms.date: 04/13/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6c411507b834bd7f09f4688bda11e3ece9f6d7c8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+audience: ITPro
+ms.topic: how-to
+ms.openlocfilehash: b8122807b8e26a848781f9f66f8e13032345f3fd
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689869"
+ms.locfileid: "51749909"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Usar configurações de Política de Grupo para configurar e gerenciar o Microsoft Defender Antivírus
 
@@ -87,9 +89,9 @@ A tabela a seguir neste tópico lista as configurações da Política de Grupo d
 | Correção | Especificar a hora do dia para executar uma verificação completa agendada para concluir a correção | [Configurar verificações agendadas do Microsoft Defender Antivírus](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Relatório | Desativar notificações aprimoradas | [Configurar as notificações que aparecem nos pontos de extremidade](configure-notifications-microsoft-defender-antivirus.md)
 | Root | Desativar o Microsoft Defender Antivírus | Não usado (Essa configuração deve ser definida como **Não configurada** para garantir que os aplicativos antivírus de terceiros instalados funcionem corretamente)
-| Root | Definir endereços para ignorar o servidor proxy | Não é mais relevante |
-| Root | Definir configuração automática de proxy (.pac) para se conectar à rede | Não é mais relevante |
-| Root | Definir servidor proxy para se conectar à rede | Não é mais relevante |
+| Root | Definir endereços para ignorar o servidor proxy | Não usado |
+| Root | Definir configuração automática de proxy (.pac) para se conectar à rede | Não usado |
+| Root | Definir servidor proxy para se conectar à rede | Não usado |
 | Root | Configurar o comportamento de mesclagem de administrador local para listas | [Impedir ou permitir que os usuários modifiquem localmente as configurações de política](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | Root | Permitir que o serviço antimalware inicie com prioridade normal | [Configurar correção para verificações do Microsoft Defender Antivírus](configure-remediation-microsoft-defender-antivirus.md) |
 | Root | Permitir que o serviço antimalware permaneça em execução sempre | [Configurar correção para verificações do Microsoft Defender Antivírus](configure-remediation-microsoft-defender-antivirus.md) |

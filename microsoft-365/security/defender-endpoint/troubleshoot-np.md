@@ -11,26 +11,26 @@ localization_priority: Normal
 audience: ITPro
 author: dansimp
 ms.author: dansimp
-ms.date: 01/26/2021
-ms.reviewer: ''
+ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 34bebddcf052a643529f1d2b8a8a869a0ffe4a91
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.topic: how-to
+ms.openlocfilehash: 9efc42441c2cb30f35abf658071088f7f7bbaf00
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51183809"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760093"
 ---
 # <a name="troubleshoot-network-protection"></a>Solucionar problemas de proteção de rede
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+> [!TIP]
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
@@ -103,9 +103,29 @@ Quando você relata um problema com a proteção de rede, é solicitado a coleta
    mpcmdrun -getfiles
    ```
 
-3. Por padrão, eles são salvos em C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab. Anexe o arquivo ao formulário de envio.
+3. Anexe o arquivo ao formulário de envio. Por padrão, os logs de diagnóstico são salvos em `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` . 
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="resolve-connectivity-issues-with-network-protection-for-e5-customers"></a>Resolver problemas de conectividade com a proteção de rede (para clientes E5)
+
+Devido ao ambiente em que a proteção de rede é executado, a Microsoft não consegue ver as configurações de proxy do sistema operacional. Em alguns casos, os clientes de proteção de rede não conseguem alcançar o serviço de nuvem. Para resolver problemas de conectividade com a proteção de rede, configure uma das seguintes chaves do Registro para que a proteção de rede fique ciente da configuração de proxy:
+
+```powershell
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyServer /d "<proxy IP address: Port>" /f
+```
+
+---OR---
+
+
+```powershell
+reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC url>" /f
+```
+
+Você pode configurar a chave do Registro usando o PowerShell, o Microsoft Endpoint Manager ou a Política de Grupo. Aqui estão alguns recursos para ajudar:
+- [Trabalhando com chaves do Registro](/powershell/scripting/samples/working-with-registry-keys)
+- [Configurar configurações de cliente personalizadas para a Proteção de Ponto de Extremidade](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
+- [Usar configurações de Política de Grupo para gerenciar a Proteção de Ponto de Extremidade](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
+
+## <a name="see-also"></a>Confira também
 
 - [Proteção de rede](network-protection.md)
 - [Avaliar a proteção de rede](evaluate-network-protection.md)

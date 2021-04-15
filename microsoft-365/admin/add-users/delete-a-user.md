@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Saiba como excluir uma conta de usuário. Decida o que fazer com o email do usuário e o conteúdo do OneDrive. E decida se deve manter a licença do produto ou parar de pagar por ela.
-ms.openlocfilehash: 5c647d353f807f20a35c889ba1d6f7715343c5cb
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0069577b83c318fa57eaceddccc93b5832e634e0
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904439"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755547"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
@@ -59,15 +59,21 @@ Antes de começar, pense no que você deseja fazer com o email do usuário e o c
 Como a experiência guiada percorre as etapas para excluir um usuário, veja como começar.
 
 ::: moniker range="o365-worldwide"
+
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Usuários ativos</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+
+ 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Usuários ativos</a>.
+
 ::: moniker-end
 
 2. Selecione o usuário que você deseja excluir e selecione **Excluir usuário**.

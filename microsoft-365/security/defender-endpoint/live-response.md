@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 784e73467efc114f05ebdfca9bc4034e2d75f6c6
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 235df8c84077311444c597b120a19477cfd0986a
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185702"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760411"
 ---
 # <a name="investigate-entities-on-devices-using-live-response"></a>Investigar entidades em dispositivos usando a resposta ao vivo
 
@@ -144,11 +144,13 @@ Os comandos a seguir estão disponíveis para funções de usuário que têm a c
 |`connections` | Mostra todas as conexões ativas. |
 |`dir` | Mostra uma lista de arquivos e subdireários em um diretório. |
 |`download <file_path> &` | Baixa um arquivo em segundo plano. |
-drivers |  Mostra todos os drivers instalados no dispositivo. |
-|`fg <command ID>` | Retorna um download de arquivo para o primeiro plano. |
+|`drivers` |  Mostra todos os drivers instalados no dispositivo. |
+|`fg <command ID>` | Coloque o trabalho especificado em primeiro plano em primeiro plano, tornando-o o trabalho atual. <br> OBSERVAÇÃO: fg tem uma "ID de comando" disponível nos trabalhos, não em um PID |
 |`fileinfo` | Obter informações sobre um arquivo. |
 |`findfile` | Localiza arquivos por um determinado nome no dispositivo. |
+|`getfile <file_path>` | Baixa um arquivo. |
 |`help` | Fornece informações de ajuda para comandos de resposta ao vivo. |
+|`jobs` | Mostra trabalhos em execução no momento, sua ID e status. |
 |`persistence` | Mostra todos os métodos de persistência conhecidos no dispositivo. |
 |`processes` | Mostra todos os processos em execução no dispositivo. |
 |`registry` | Mostra valores do Registro. |
@@ -162,7 +164,6 @@ Os comandos a seguir estão disponíveis para funções de usuário que têm a c
 | Comando | Descrição |
 |---|---|
 | `analyze` | Analisa a entidade com vários mecanismos de rebaixamento para chegar a um veredito. |
-| `getfile` | Obtém um arquivo do dispositivo. <br> OBSERVAÇÃO: Este comando tem um comando de pré-requisito. Você pode usar `-auto` o comando em conjunto com para executar `getfile` automaticamente o comando de pré-requisito. |
 | `run` | Executa um script do PowerShell da biblioteca no dispositivo. |
 | `library` | Lista arquivos que foram carregados na biblioteca de resposta ao vivo. |
 | `putfile` | Coloca um arquivo da biblioteca no dispositivo. Os arquivos são salvos em uma pasta de trabalho e são excluídos quando o dispositivo é reiniciado por padrão. |
@@ -303,10 +304,9 @@ Selecione a **guia Log de** comando para ver os comandos usados no dispositivo d
 
 ## <a name="limitations"></a>Limitações
 
-- As sessões de resposta ao vivo são limitadas a 10 sessões de resposta ao vivo por vez.
-- Não há suporte para execução de comando em grande escala.
-- O valor de tempo de tempo de inatividade da sessão de resposta ao vivo é de 5 minutos. 
-- Um usuário só pode iniciar uma sessão por vez.
+- As sessões de resposta ao vivo são limitadas a 25 sessões de resposta ao vivo por vez.
+- O valor de tempo de tempo de inatividade da sessão de resposta ao vivo é de 30 minutos. 
+- Um usuário pode iniciar até 10 sessões simultâneas.
 - Um dispositivo só pode estar em uma sessão por vez.
 - Os seguintes limites de tamanho de arquivo se aplicam:
    - `getfile` limite: 3 GB
@@ -314,4 +314,4 @@ Selecione a **guia Log de** comando para ver os comandos usados no dispositivo d
    - `library` limite: 250 MB
 
 ## <a name="related-article"></a>Artigo relacionado
-- [Exemplos de comando de resposta ao vivo](live-response-command-examples.md)
+- [Exemplos de comando de Resposta ao vivo](live-response-command-examples.md)

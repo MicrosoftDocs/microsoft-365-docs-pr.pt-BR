@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 3f925fdc514c5e53b50f748d991f54d20fb49bd0
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: 6ad61d583815f669affe989d7519ba0ade6fe08d
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488140"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760081"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Dispositivos integrados com várias sessões do Windows 10 na Área de Trabalho Virtual do Windows 
 6 minutos para leitura 
@@ -54,7 +54,7 @@ Há várias maneiras de fazer a integração de um computador host WVD:
 #### <a name="scenario-1-using-local-group-policy"></a>*Cenário 1: usando a política de grupo local*
 Esse cenário exige colocar o script em uma imagem dourada e usa a política de grupo local para ser executado no início do processo de inicialização.
 
-Use as instruções em [Onboard non-persistent virtual desktop infrastructure VDI devices](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1).
+Use as instruções em [Onboard non-persistent virtual desktop infrastructure VDI devices](configure-endpoints-vdi.md#onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices-1).
 
 Siga as instruções para uma única entrada para cada dispositivo.
 
@@ -62,32 +62,41 @@ Siga as instruções para uma única entrada para cada dispositivo.
 Esse cenário usa um script localizado centralmente e o executa usando uma política de grupo baseada em domínio. Você também pode colocar o script na imagem dourada e execute-o da mesma maneira.
 
 **Baixe o WindowsDefenderATPOnboardingPackage.zip do Centro de Segurança Windows Defender de segurança**
+
 1. Abra o arquivo .zip do pacote de configuração da VDI (WindowsDefenderATPOnboardingPackage.zip)  
-    - No painel de navegação do Centro de Segurança do Microsoft Defender, selecione **Configurações**  >  **integrando**. 
-    - Selecione Windows 10 como o sistema operacional. 
-    - No campo **Método de implantação,** selecione scripts de integração VDI para pontos de extremidade não persistentes. 
-    - Clique **em Baixar pacote** e salve o arquivo .zip. 
+
+    1. No painel de navegação do Centro de Segurança do Microsoft Defender, selecione **Configurações**  >  **integrando**. 
+    1. Selecione Windows 10 como o sistema operacional. 
+    1. No campo **Método de implantação,** selecione scripts de integração VDI para pontos de extremidade não persistentes. 
+    1. Clique **em Baixar pacote** e salve o arquivo .zip. 
+
 2. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelo dispositivo. Você deve ter uma pasta chamada **OptionalParamsPolicy** e os arquivos **WindowsDefenderATPOnboardingScript.cmd** e **Onboard-NonPersistentMachine.ps1**.
 
 **Usar o console de gerenciamento de Política de Grupo para executar o script quando a máquina virtual for iniciada**
+
 1. Abra o Console de Gerenciamento de Política de Grupo (GPMC), clique com o botão direito do mouse no Objeto de Política de Grupo (GPO) que você deseja configurar e clique em **Editar**.
+
 1. No Editor de Gerenciamento de Política de Grupo, vá até **Configuração** do computador \> **Configurações Configurações** Do painel \> **Controle de configurações**. 
+
 1. Clique com o botão direito do mouse em **Tarefas Agendadas,** clique em **Novo** e em **Tarefa Imediata** (Pelo menos Windows 7). 
+
 1. Na janela Tarefa aberta, vá para a **guia** Geral. Em **Opções de segurança,** **clique em Alterar Usuário ou Grupo** e digite SISTEMA. Clique **em Verificar Nomes** e clique em OK. NT AUTHORITY\SYSTEM aparece como a conta de usuário que a tarefa executará como. 
+
 1. Selecione **Executar se o usuário está conectado ou não** e marque a caixa de seleção Executar com privilégios **mais** altos. 
+
 1. Vá até a guia **Ações** e clique em **Novo**. Verifique se **Iniciar um programa** está selecionado no campo Ação. Insira o seguinte: 
 
-> Ação = "Iniciar um programa" <br>
-> Programa/Script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe <br>
-> Adicionar Argumentos (opcional) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"
+    > Ação = "Iniciar um programa" <br>
+    > Programa/Script = C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe <br>
+    > Adicionar Argumentos (opcional) = -ExecutionPolicy Bypass -command "& \\Path\To\Onboard-NonPersistentMachine.ps1"
 
-Clique **em OK** e feche as janelas do GPMC abertas.
+1. Clique **em OK** e feche as janelas do GPMC abertas.
 
 #### <a name="scenario-3-onboarding-using-management-tools"></a>*Cenário 3: Integração usando ferramentas de gerenciamento*
 
 Se você planeja gerenciar seus dispositivos usando uma ferramenta de gerenciamento, poderá integrar dispositivos com o Microsoft Endpoint Configuration Manager.
 
-Para obter mais informações, consulte: [Integração de dispositivos Windows 10 usando o Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm) 
+Para obter mais informações, consulte [Onboard Windows 10 devices using Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm). 
 
 > [!WARNING]
 > Se você planeja usar As Regras de Redução de Superfície de Ataque [,](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)observe que a regra " Bloquear criações de processo originadas de[comandos PSExec](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction#block-process-creations-originating-from-psexec-and-wmi-commands)e WMI " não deve ser usada, pois é incompatível com o gerenciamento por meio do Microsoft Endpoint Configuration Manager porque essa regra bloqueia comandos WMI que o cliente do Configuration Manager usa para funcionar corretamente. 

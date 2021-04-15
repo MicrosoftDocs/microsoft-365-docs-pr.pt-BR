@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 392db06aa517e3e970f85ccc971c3a6a6bc6e548
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0f09f74a1cefad5a9b6b438752ebe57e583397c7
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498284"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759973"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Busca rápida por informações de entidade ou evento com a busca de ida e volta
 
@@ -39,7 +39,7 @@ Com a *ação ir à* busca, você pode investigar rapidamente eventos e vários 
 
 A *ação de busca* de go está disponível em várias seções do centro de segurança sempre que os detalhes do evento ou da entidade são exibidos. Por exemplo, você pode usar *ir procurar* nas seguintes seções:
 
-- Na página [incidente,](investigate-incidents.md#incident-overview)você pode revisar detalhes sobre usuários, dispositivos e muitas outras entidades associadas a um incidente. Ao selecionar uma entidade, você obterá informações adicionais, bem como várias ações que você poderia tomar sobre essa entidade. No exemplo abaixo, uma caixa de correio é selecionada, mostrando detalhes sobre a caixa de correio, bem como a opção de procurar mais informações sobre a caixa de correio.
+- Na página [incidente,](investigate-incidents.md#summary)você pode revisar detalhes sobre usuários, dispositivos e muitas outras entidades associadas a um incidente. Ao selecionar uma entidade, você obterá informações adicionais, bem como várias ações que você poderia tomar sobre essa entidade. No exemplo abaixo, uma caixa de correio é selecionada, mostrando detalhes sobre a caixa de correio, bem como a opção de procurar mais informações sobre a caixa de correio.
 
     ![Imagem mostrando detalhes da caixa de correio com a opção ir buscar](../../media/mtp-ah/go-hunt-email.png)
 

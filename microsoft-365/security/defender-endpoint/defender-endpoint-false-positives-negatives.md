@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: ddd10e6164a8fae5d0d3d60c04ca854ef9771dba
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f2615cf5ec49c9df27472f04c367f30511e9c0cc
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688736"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759865"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade
 
@@ -125,9 +125,11 @@ Se você tiver alertas que sejam falsos positivos ou que sejam verdadeiros posit
 Outras ações, como iniciar uma verificação antivírus ou coletar um pacote de investigação, ocorrem manualmente ou por meio [do Live Response.](live-response.md) As ações realizadas por meio do Live Response não podem ser desfeitas.
 
 Depois de revisar seus alertas, a próxima etapa é revisar as ações [de correção.](manage-auto-investigation.md) Se quaisquer ações foram tomadas como resultado de falsos positivos, você pode desfazer a maioria dos tipos de ações de correção. Especificamente, você pode:
-- [Desfazer uma ação de cada vez;](#undo-an-action)
-- [Desfazer várias ações ao mesmo tempo;](#undo-multiple-actions-at-one-time) e 
-- [Remover um arquivo da quarentena em vários dispositivos](#remove-a-file-from-quarantine-across-multiple-devices). 
+
+- [Restaurar um arquivo em quarentena do Centro de Ações](#restore-a-quarantined-file-from-the-action-center)
+- [Desfazer várias ações ao mesmo tempo](#undo-multiple-actions-at-one-time)
+- [Remover um arquivo da quarentena em vários dispositivos](#remove-a-file-from-quarantine-across-multiple-devices).  e 
+- [Restaurar arquivo da quarentena](#restore-file-from-quarantine)
 
 Quando terminar de revisar e desfazer as ações que foram tomadas como resultado de falsos positivos, prossiga para revisar ou [definir exclusões.](#part-3-review-or-define-exclusions)
 
@@ -139,7 +141,7 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 
 3. Selecione um item para exibir mais detalhes sobre a ação de correção que foi tomada.
 
-### <a name="undo-an-action"></a>Desfazer uma ação
+### <a name="restore-a-quarantined-file-from-the-action-center"></a>Restaurar um arquivo em quarentena do Centro de Ações
 
 1. Vá para a Central de Ações ( [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) ) e entre.
 
@@ -164,7 +166,33 @@ Quando terminar de revisar e desfazer as ações que foram tomadas como resultad
 
 2. Na guia **Histórico,** selecione um arquivo que tenha o arquivo De quarentena tipo **ação.**
 
+3. No painel no lado direito da tela, selecione Aplicar a X mais **instâncias** deste arquivo e selecione **Desfazer**.
+
+### <a name="restore-file-from-quarantine"></a>Restaurar arquivo da quarentena
+
+Você pode reverter e remover um arquivo da quarentena se tiver determinado que ele está limpo após uma investigação. Execute o seguinte comando em cada dispositivo em que o arquivo foi colocado em quarentena.
+
+1. Abra um prompt de linha de comando elevada no dispositivo:
+
+   1. Vá para **Iniciar** e digite _cmd_.
+
+   1. Clique com o botão **direito do mouse no prompt de comando** e selecione Executar como **administrador**.
+
+2. Insira o seguinte comando e pressione **Enter**:
+
+    ```console
+    "ProgramFiles%\Windows Defender\MpCmdRun.exe" –Restore –Name EUS:Win32/CustomEnterpriseBlock –All
+    ```
+
+    > [!NOTE]
+    > Em alguns cenários, **o ThreatName** pode aparecer como: `EUS:Win32/
+CustomEnterpriseBlock!cl` . O Defender for Endpoint restaurará todos os arquivos bloqueados personalizados que foram colocados em quarentena neste dispositivo nos últimos 30 dias.
+
+    > [!IMPORTANT]
+    > Um arquivo que foi colocado em quarentena como uma possível ameaça de rede pode não ser recuperável. Se um usuário tentar restaurar o arquivo após a quarentena, esse arquivo pode não estar acessível. Isso pode ser devido ao sistema não ter mais credenciais de rede para acessar o arquivo. Normalmente, isso é resultado de um logoff temporário em um sistema ou pasta compartilhada e os tokens de acesso expiraram.
+
 3. No painel no lado direito da tela, selecione Aplicar a X mais **instâncias** deste arquivo e selecione **Desfazer**. 
+
 
 ## <a name="part-3-review-or-define-exclusions"></a>Parte 3: Revisar ou definir exclusões
 
