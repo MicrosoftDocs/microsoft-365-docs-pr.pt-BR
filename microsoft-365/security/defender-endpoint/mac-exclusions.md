@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b1282543a68ce4cb5c322423656d33c5db12b97b
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 2281fccfb97d38dbdc218799b087290433deff30
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688580"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764152"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-macos"></a>Configurar e validar exclusões do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -39,18 +39,18 @@ ms.locfileid: "51688580"
 Este artigo fornece informações sobre como definir exclusões que se aplicam a verificações sob demanda e proteção e monitoramento em tempo real.
 
 >[!IMPORTANT]
->As exclusões descritas neste artigo não se aplicam a outros recursos do Defender for Endpoint para Mac, incluindo a detecção e a resposta do ponto de extremidade (EDR). Os arquivos excluídos usando os métodos descritos neste artigo ainda podem disparar alertas de EDR e outras detecções.
+>As exclusões descritas neste artigo não se aplicam a outros recursos do Defender for Endpoint no Mac, incluindo a detecção e a resposta do ponto de extremidade (EDR). Os arquivos excluídos usando os métodos descritos neste artigo ainda podem disparar alertas de EDR e outras detecções.
 
-Você pode excluir determinados arquivos, pastas, processos e arquivos abertos por processo de verificações do Defender para Ponto de Extremidade para Mac.
+Você pode excluir determinados arquivos, pastas, processos e arquivos abertos por processo do Defender para Ponto de Extremidade em verificações do Mac.
 
-As exclusões podem ser úteis para evitar detecções incorretas em arquivos ou softwares exclusivos ou personalizados para sua organização. Eles também podem ser úteis para reduzir problemas de desempenho causados pelo Defender para Ponto de Extremidade para Mac.
+As exclusões podem ser úteis para evitar detecções incorretas em arquivos ou softwares exclusivos ou personalizados para sua organização. Eles também podem ser úteis para reduzir problemas de desempenho causados pelo Defender para Ponto de Extremidade no Mac.
 
 >[!WARNING]
->Definir exclusões reduz a proteção oferecida pelo Defender para Ponto de Extremidade para Mac. Você sempre deve avaliar os riscos associados à implementação de exclusões, e você deve excluir apenas arquivos que você tem certeza de que não são mal-intencionados.
+>Definir exclusões reduz a proteção oferecida pelo Defender para Ponto de Extremidade no Mac. Você sempre deve avaliar os riscos associados à implementação de exclusões, e você deve excluir apenas arquivos que você tem certeza de que não são mal-intencionados.
 
 ## <a name="supported-exclusion-types"></a>Tipos de exclusão com suporte
 
-A tabela a seguir mostra os tipos de exclusão suportados pelo Defender para Ponto de Extremidade para Mac.
+A tabela a seguir mostra os tipos de exclusão suportados pelo Defender para Ponto de Extremidade no Mac.
 
 Exclusão | Definição | Exemplos
 ---|---|---
@@ -73,7 +73,7 @@ Curinga | Descrição | Exemplo | Matches | Não se iguala
 
 ### <a name="from-the-management-console"></a>No console de gerenciamento
 
-Para obter mais informações sobre como configurar exclusões de JAMF, Intune ou outro console de gerenciamento, consulte [Set preferences for Defender for Endpoint for Mac](mac-preferences.md).
+Para obter mais informações sobre como configurar exclusões de JAMF, Intune ou outro console de gerenciamento, consulte [Set preferences for Defender for Endpoint on Mac](mac-preferences.md).
 
 ### <a name="from-the-user-interface"></a>Na interface do usuário
 
@@ -93,7 +93,7 @@ No trecho Bash a seguir, substitua por um arquivo que esteja em conformidade `te
 curl -o test.txt https://www.eicar.org/download/eicar.com.txt
 ```
 
-Se o Defender for Endpoint para Mac relata malware, a regra não está funcionando. Se não houver nenhum relatório de malware e o arquivo baixado existir, a exclusão está funcionando. Você pode abrir o arquivo para confirmar se o conteúdo é igual ao descrito no site do arquivo de teste [EICAR.](http://2016.eicar.org/86-0-Intended-use.html)
+Se o Defender for Endpoint no Mac relata malware, a regra não está funcionando. Se não houver nenhum relatório de malware e o arquivo baixado existir, a exclusão está funcionando. Você pode abrir o arquivo para confirmar se o conteúdo é igual ao descrito no site do arquivo de teste [EICAR.](http://2016.eicar.org/86-0-Intended-use.html)
 
 Se você não tiver acesso à Internet, poderá criar seu próprio arquivo de teste EICAR. Escreva a cadeia de caracteres EICAR em um novo arquivo de texto com o seguinte comando Bash:
 

@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,12 @@ ms.date: 01/06/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: efc2aa0f48cb2bc55e729b65c892a07b74c1bc46
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 146447f4036d800832c75c7a59978e9571253a17
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690001"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764814"
 ---
 # <a name="deploy-and-enable-microsoft-defender-antivirus"></a>Implantar e habilitar o Microsoft Defender Antivírus
 
@@ -43,4 +43,4 @@ O artigo restante nesta seção fornece orientações e práticas recomendadas d
 
 - [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 - [Implantar, gerenciar atualizações e relatório sobre o Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Guia de implantação do Microsoft Defender Antivírus em um ambiente de infraestrutura de área de trabalho virtual (VDI)](deployment-vdi-microsoft-defender-antivirus.md)
+- [Guia de implantação do Microsoft Defender Antivírus em um ambiente virtual de área de trabalho (VDI)](deployment-vdi-microsoft-defender-antivirus.md)

@@ -7,7 +7,7 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.date: 10/26/2020
@@ -15,14 +15,14 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: a6678811ca83c4ddefae3dcbe9ab6de79391da4b
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: a0c73c8dd341c4940e3eddd4ede75240e57502d6
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690020"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764116"
 ---
-# <a name="specify-the-cloud-delivered-protection-level"></a>Especificar o nível de proteção entregue na nuvem
+# <a name="specify-the-cloud-delivered-protection-level"></a>Especificar o nível de proteção fornecida na nuvem
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,14 +14,14 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 64b65363ff53773f73cbbdc33b05a0a1beaf7f92
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 82c4bc1feec1556dc864558a843ed5e911c3ef3d
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689861"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764478"
 ---
-# <a name="use-limited-periodic-scanning-in-microsoft-defender-antivirus"></a>Usar verificação periódica limitada no Microsoft Defender Antivírus
+# <a name="use-limited-periodic-scanning-in-microsoft-defender-antivirus"></a>Usar uma verificação periódica limitada no Microsoft Defender Antivírus
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -52,5 +52,5 @@ Deslizar a opção para **On** mostrará as opções padrão do Microsoft Defend
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Configurar proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)
+- [Configurar a proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

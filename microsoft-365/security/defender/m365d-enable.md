@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 18564b2a5a47b2cf4a8bbd94a3e3a315c8f269ec
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: bf8fdb2a8a42ef7b70b744cbbb5663e6afe51989
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200252"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764370"
 ---
 # <a name="turn-on-microsoft-365-defender"></a>Ativar o Microsoft 365 Defender
 
@@ -77,7 +77,7 @@ Depois que o serviço é provisionado, ele adiciona:
 - [Recursos avançados de busca](advanced-hunting-overview.md)
 - Análise de ameaças
 
-![Imagem do painel de navegação do Centro de Segurança do Microsoft 365 com o Microsoft 365 Defender apresenta o Centro de segurança do Microsoft 365 com gerenciamento de incidentes e outros recursos do ](../../media/mtp-enable/mtp-on.png)
+![Imagem do painel de navegação do Centro de Segurança do Microsoft 365 com o Microsoft 365 Defender apresenta o Centro de segurança do Microsoft 365 com gerenciamento de incidentes e outros recursos do ](../../media/overview-incident.png)
  *Microsoft 365 Defender*
 
 ### <a name="getting-microsoft-defender-for-identity-data"></a>Obter dados do Microsoft Defender para Identidade 

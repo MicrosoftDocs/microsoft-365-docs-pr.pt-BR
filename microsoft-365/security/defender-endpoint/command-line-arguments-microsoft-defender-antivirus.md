@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,12 @@ ms.reviewer: ksarens
 manager: dansimp
 ms.date: 03/19/2021
 ms.technology: mde
-ms.openlocfilehash: 2b20227ac27b90d142d263dfa4522aa41319b9d5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1b357f7c1e02211f3949383a380666cb7444f814
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689828"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764622"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>Configurar e gerenciar o Microsoft Defender Antivírus com a mpcmdrun.exe de linha de comando
 
@@ -49,7 +49,7 @@ MpCmdRun.exe -Scan -ScanType 2
 
 | Comando  | Descrição   |
 |:----|:----|
-| `-?` **ou** `-h`   | Exibe todas as opções disponíveis para esta ferramenta |
+| `-?`**ou**`-h`   | Exibe todas as opções disponíveis para esta ferramenta |
 | `-Scan [-ScanType [0\|1\|2\|3]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | Verifica se há software mal-intencionado. Os valores **para ScanType** são: **0** Padrão, de acordo com sua configuração, **-1** Verificação rápida, **-2** Verificação completa, **-3** Verificação personalizada de arquivo e diretório.  CpuThrottling irá honrar a throttling de CPU configurada da política |
 | `-Trace [-Grouping #] [-Level #]` | Inicia o rastreamento de diagnóstico |
 | `-GetFiles [-SupportLogLocation <path>]` | Coleta informações de suporte. Consulte '[coletando dados de diagnóstico](collect-diagnostic-data.md)'  |

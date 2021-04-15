@@ -10,7 +10,7 @@ ms.sitesec: library
 ms.pagetype: security
 ms.author: sunasing
 author: sunasing
-ms.localizationpriority: medium
+localization_priority: normal
 manager: sunasing
 audience: ITPro
 ms.collection:
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 632cb054bb12ab52fe41f8fc974beca05631c1b6
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f4d65c1f730bfa8c1611f3f85da4b5c0e49312e5
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688904"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764514"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>Novidades do Microsoft Defender para Ponto de Extremidade no iOS
 
