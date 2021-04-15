@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-ms.localizationpriority: medium
+localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 7165d943fd39e298894531f1dabdec408144898d
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: b3fef3479fa2d36806e6657b31f5152c54b9251f
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698407"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764994"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>Descoberta de dispositivo perguntas frequentes
 
@@ -70,7 +70,7 @@ Você tem a opção de desativar a descoberta de dispositivo por meio da [págin
  À medida que a descoberta de dispositivo usa métodos passivos para descobrir dispositivos na rede, qualquer dispositivo que se comunica com seus dispositivos conectados na rede corporativa pode ser descoberto e listado no inventário. Você só pode excluir dispositivos de sondagem ativa.
 
 ## <a name="how-frequent-is-the-active-probing"></a>Qual é a frequência da sondagem ativa?
- Os dispositivos serão sondados ativamente quando as alterações nas características do dispositivo são observadas e uma vez por semana para garantir que as informações existentes estão atualizadas.
+ Os dispositivos serão sondados ativamente quando as alterações nas características do dispositivo são observadas (a cada 1 a 3 semanas) para garantir que as informações existentes estão atualizadas.
 
 ## <a name="my-security-tool-raised-alert-on-unicastscannerps1-or-port-scanning-activity-initiated-by-it-what-should-i-do"></a>Minha ferramenta de segurança acionou alerta UnicastScanner.ps1 atividade de verificação de porta ou porta iniciada por ela, o que devo fazer?
  Os scripts de sondagem ativos são assinados pela Microsoft e são seguros. Você pode adicionar o seguinte caminho à sua lista de exclusão: `C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\*.ps`

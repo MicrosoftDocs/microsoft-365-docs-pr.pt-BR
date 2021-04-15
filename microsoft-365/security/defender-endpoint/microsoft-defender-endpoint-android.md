@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP no Android
+title: Microsoft Defender para Ponto de Extremidade para Android
 ms.reviewer: ''
-description: Descreve como instalar e usar o Microsoft Defender ATP para Android
+description: Descreve como instalar e usar o Microsoft Defender para Ponto de Extremidade no Android
 keywords: microsoft, defender, atp, android, installation, deploy, uninstallation, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8311cb703bc5232e1421d19892fec9cdbc94b052
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 8a78fc7e07f89c2e13a698ee526403989f26dd65
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698180"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768837"
 ---
-# <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender para Ponto de Extremidade no Android
+# <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender para Ponto de Extremidade para Android
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -90,6 +90,6 @@ As diretrizes sobre como configurar o Microsoft Defender para Ponto de Extremida
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Implantar o Microsoft Defender para Ponto de Extremidade no Android com o Microsoft Intune](android-intune.md)
-- [Configurar o Microsoft Defender para Ponto de Extremidade em recursos android](android-configure.md)
+- [Implantar o Microsoft Defender para Ponto de Extremidade para Android com o Microsoft Intune](android-intune.md)
+- [Configurar o Microsoft Defender para Ponto de Extremidade para recursos do Android](android-configure.md)
 

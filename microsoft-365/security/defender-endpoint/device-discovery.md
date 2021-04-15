@@ -1,5 +1,5 @@
 ---
-title: Visão geral da descoberta de dispositivo
+title: Visão geral sobre descoberta de dispositivo
 description: Saiba como aproveitar a descoberta de ponto de extremidade no Microsoft 365 Defender para encontrar dispositivos nãomanageados em sua rede
 keywords: descoberta de dispositivo, descoberta, passiva, proativa, rede, visibilidade, servidor, estação de trabalho, a integração, dispositivos não gerenciamento
 search.product: eADQiWindows 10XVcnh
@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.author: macapara
 author: mjcaparas
-ms.localizationpriority: medium
+localization_priority: normal
 manager: dansimp
 audience: ITPro
 ms.collection:
@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2e58b6048f9d815d759cd78ceb3316eb2ed6f66d
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: c549d5d2a7c30892a9272b4ac3e03cb8979bc1a5
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698409"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764982"
 ---
-# <a name="device-discovery-overview"></a>Visão geral da descoberta de dispositivo
+# <a name="device-discovery-overview"></a>Visão geral sobre descoberta de dispositivo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

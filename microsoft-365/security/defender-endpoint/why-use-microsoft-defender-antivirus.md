@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 audience: ITPro
 ms.topic: article
 author: denisebmsft
@@ -15,14 +15,14 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b4cf7d553534d1c2b935f4f07fc7ae0d95d15b22
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 97b9d95638c205dd47453bf6ad09c0d0487f0f8e
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689851"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765630"
 ---
-# <a name="better-together-microsoft-defender-antivirus-and-microsoft-defender-for-endpoint"></a>Melhor juntos: Microsoft Defender Antivírus e Microsoft Defender para Ponto de Extremidade
+# <a name="better-together-microsoft-defender-antivirus-and-microsoft-defender-for-endpoint"></a>Melhores juntos: Microsoft Defender Antivírus e Microsoft Defender para Ponto de Extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

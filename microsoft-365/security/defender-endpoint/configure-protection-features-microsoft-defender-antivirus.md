@@ -7,21 +7,21 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 7a0e0571445e8ec753c3813a81dbcca9c698e7df
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9fc51682b659670a21c3c293ea8996beb228802a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689787"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765066"
 ---
-# <a name="configure-behavioral-heuristic-and-real-time-protection"></a>Configurar proteção comportamental, heurística e em tempo real
+# <a name="configure-behavioral-heuristic-and-real-time-protection"></a>Configurar a proteção comportamental, heurística e em tempo real
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

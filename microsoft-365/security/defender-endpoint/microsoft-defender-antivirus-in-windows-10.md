@@ -7,19 +7,19 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: high
+localization_priority: priority
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 9d8ab5be45e671fb07df0d9d1f46eb626d9dd149
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
-ms.translationtype: MT
+ms.openlocfilehash: eb7e0253b3761d05d112500c0410fffa58548221
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689804"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765414"
 ---
 # <a name="next-generation-protection"></a>Proteção de próxima geração
 

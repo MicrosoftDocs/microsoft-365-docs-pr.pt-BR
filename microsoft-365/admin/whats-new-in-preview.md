@@ -21,12 +21,12 @@ description: O Centro de administração do Microsoft 365 - saiba mais sobre os 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 7b802556e051200bf39bc4bd9b97974d4d2d4c47
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0c17c6840d73c5b0a2714c6c6a832c154e2a9640
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221998"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768673"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de administração do Microsoft 365
 
@@ -50,6 +50,27 @@ E se você quiser saber o que há de novo com outros serviços de nuvem da Micro
 - [Atualizações do Office](/OfficeUpdates/)
 - [Como verificar a saúde da versão do Windows](https://docs.microsoft.com/windows/deployment/update/check-release-health)
 
+## <a name="april-2021"></a>Abril de 2021
+
+### <a name="admin-mobile-app"></a>Aplicativo móvel do administrador
+
+### <a name="manage-licenses-and-bills-from-the-admin-mobile-app"></a>Gerenciar licenças e contas do aplicativo móvel administrador
+
+- Agora você pode exibir todas as licenças disponíveis e atribuídas para suas assinaturas. Você também pode atribuir ou não atribuir licenças aos usuários e adicionar ou remover licenças.
+- Agora você pode exibir faturas detalhadas no aplicativo.
+- Essas atualizações estão disponíveis em [dispositivos Android](https://go.microsoft.com/fwlink/p/?linkid=2159786) [e iOS.](https://go.microsoft.com/fwlink/p/?linkid=2159787)
+
+:::image type="content" source="../media/assign-license-mobile-app2.png" alt-text="Captura de tela: página de licença de atribuição de aplicativo móvel de administrador":::
+:::image type="content" source="../media/license-screen-mobile-app2.png" alt-text="Captura de tela: tela do aplicativo móvel do administrador com usuários e suas licenças":::
+:::image type="content" source="../media/invoice-summary-mobile-app.png" alt-text="Captura de tela: Página de resumo da fatura do aplicativo móvel do administrador":::
+
+### <a name="updated-message-center-feed-in-the-admin-mobile-app"></a>Feed do Centro de Mensagens atualizado no aplicativo móvel administrador
+
+- Agora você tem uma experiência de leitura mais flexível do feed do Centro de Mensagens. Agora você tem a capacidade de filtrar mensagens com base em serviço ou marcas e marcar mensagens como favoritas. Ações em massa para marcar mensagens como leitura, não lidas ou arquivadas também foram adicionadas.
+- Essas atualizações estão disponíveis em [dispositivos Android](https://go.microsoft.com/fwlink/p/?linkid=2159786) [e iOS.](https://go.microsoft.com/fwlink/p/?linkid=2159787)
+
+:::image type="content" source="../media/mc-feed-mobile-app.png" alt-text="Captura de tela: Página de feed do centro de mensagens do aplicativo móvel do administrador":::
+
 ## <a name="ignite-2021-march"></a>Ignite 2021 (março)
 
 Bem-vindo ao Microsoft Ignite. Esperamos que você tenha participado de algumas de nossas sessões: [Microsoft Ignite 2021](https://myignite.microsoft.com/sessions). Aqui estão algumas das coisas sobre as que falamos no Ignite.
@@ -66,7 +87,7 @@ Para saber mais sobre os novos recursos, confira [Gerenciar mensagens no Centro 
 
 ### <a name="whats-new-features"></a>Quais são os novos recursos
 
-Fizemos melhorias na forma como você visualiza os recursos "Novidades" para os usuários nos aplicativos do Office. Agora você pode ver o conteúdo rico no novo painel Whats que seus usuários podem ver. Você também pode saber mais sobre o recurso antes de decidir deixar seus usuários saberem sobre o recurso. For more info, check out [Manage which Office‎ features appear in What's New](manage/show-hide-new-features.md).
+Fizemos melhorias na forma como você visualiza os recursos "Novidades" para os usuários nos aplicativos do Office. Agora você pode ver o conteúdo rico no novo painel Whats que seus usuários podem ver. Você também pode saber mais sobre o recurso antes de decidir deixar seus usuários saberem sobre o recurso. Para obter mais informações, confira [Gerenciar quais recursos do Office aparecem em What's New](manage/show-hide-new-features.md).
 
 :::image type="content" source="../media/power-bi-whats-new2.png" alt-text="Captura de tela: Aplicativos do Office novidades mostrando melhorias no Power BI":::
 
@@ -206,7 +227,7 @@ Novidades na série de vídeo do [Microsoft 365:](https://youtu.be/m1Nu8WJgCDY) 
 
 ### <a name="keeping-up-with-office-whats-new-management"></a>Acompanhar o gerenciamento do Office What's New
 
-Alguns meses atrás, adicionamos uma configuração que permite que você gerencie as mensagens Novidades que aparecem nos aplicativos do Office de [um usuário.](#office-whats-new-management) Este mês, lançamos um novo cartão home page que ajudará  você a agir rapidamente e acompanhar as mensagens novidades que você deseja mostrar aos usuários em sua organização.
+Alguns meses atrás, adicionamos uma configuração que permite gerenciar as mensagens Novidades que aparecem nos aplicativos do Office de um usuário. Este mês, lançamos um novo cartão home page que ajudará  você a agir rapidamente e acompanhar as mensagens novidades que você deseja mostrar aos usuários em sua organização.
 
 ### <a name="docs-training-and-videos-june"></a>Documentos, treinamento e vídeos (junho)
 
@@ -363,7 +384,7 @@ Os novos nomes de produto entrarão em vigor em 21 de abril de 2020. Isso é uma
 |Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
 |Office 365 Business Premium     |    Microsoft 365 Business Standard     |
 |Microsoft 365 Business     |    Microsoft 365 Business Premium     |
-|Office 365 Business     |    Microsoft 365 Apps para empresas       |
+|Office 365 Business     |    Aplicativos do Microsoft 365 para empresas       |
 |Office 365 ProPlus    |   Aplicativos do Microsoft 365 para empresas      |
 
 ### <a name="videos-training-and-docs"></a>Vídeos, treinamentos e documentos
@@ -398,46 +419,3 @@ Algumas alterações na área de grupos este mês:
 - Novidades na série de vídeos do **Microsoft 365**: este mês, estamos focados nos recursos de pesquisa personalizados para o SharePoint Online, o recurso de gerenciamento do Office "Novidades" que permite mostrar ou ocultar recursos específicos dos usuários finais por meio do painel de ajuda no aplicativo, as atualizações mais recentes de segurança e conformidade no Yammer e muito mais. Este é o último episódio: [Novidades no Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
 
 - **Movimentação de** documentos : combinamos os artigos da Web de administrador do Office 365 com o conteúdo do Microsoft 365 e você pode ter notado a nova URL. Por exemplo, este artigo costumava ser hospedado em: docs.microsoft.com/Office365/Admin/whats-new-in-preview , mas **a** URL agora é: **docs.microsoft.com/microsoft-365/admin/whats-new-in-preview**. Se você tiver páginas marcadas, atualize seus links; no entanto, os links de conteúdo serão redirecionados para o novo repo de conteúdo.
-
-## <a name="january-2020---happy-new-year"></a>Janeiro de 2020 - Feliz Ano Novo
-
-> [!NOTE]
-> Você sabia que há uma série de vídeo Novidades do [Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096) no YouTube? Ele realça os recursos mais recentes que nós versões para os usuários. Todos os meses, vamos começar a vincular ao último episódio na seção [Vídeos, treinamentos e documentos.](#videos-training-and-docs) <br> <br> Este é o último episódio: [Novidades no Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=2118096)
-
-### <a name="dark-mode"></a>Modo escuro
-
-Quando começamos a lançar o modo escuro, ele estava disponível apenas na home page. O modo escuro agora está fora de visualização e está em Versão direcionada na maioria das páginas no centro de administração.
-
-1. Primeiro, você precisará ativar a Versão Direcionada: Vá para **Configurações** \> **Configurações Preferências** de versão do perfil \>  \> **da organização**.
-1. E, em seguida, para ativar o modo escuro, vá para a **Página** Inicial e selecione o **botão Modo** Escuro. (Ele está ao lado do campo **Pesquisa** e o link **Novidades deste** artigo.)
-1. Para qualquer página que tenha o modo escuro disponível, o botão está na parte superior da página, ao lado da nova **alternância do centro de** administração.
-
-### <a name="office-whats-new-management"></a>Office What's New management
-
-Os administradores querem controle sobre como a Microsoft comunica "Novidades" aos usuários nos aplicativos do Office e agora você tem esse controle. Vá para **Configurações** \> **Office O que há de novo gerenciamento visualização**. Selecione um recurso para exibir seus detalhes  e, em seguida, você pode selecionar o botão Ocultar dos usuários se não quiser que seus usuários vejam uma mensagem específica "novidades". Por exemplo, sua organização pode estar esperando para que os usuários saibam sobre um recurso até que todos em sua organização sejam treinados nele.
-
-![Captura de tela do Office What's New preview com o painel de detalhes de um recurso aberto.](../media/whatsnew-officemgmt-preview.png)
-
-Esse recurso foi lançado pela primeira vez para visualização em novembro, mas houve algumas atualizações de recursos que você deve saber: Atualizações de visualização de gerenciamento do [Office What's New](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-preview/ba-p/1020438) agora disponíveis
-
-### <a name="partners"></a>Parceiros
-
-Olá, Parceiros! (Não pude evitar.) Também temos uma atualização para você este mês. Há um novo recurso que permite aos parceiros dar aos clientes CSP a opção de aceitar o Contrato de Cliente da Microsoft (MCA) na seção Contas **de** Cobrança do centro de administração. Nesta nova experiência:
-
-1. O cliente recebe um email de convite com um link para aceitar a relação de parceiro e o MCA.
-2. Depois que o cliente entrar, ele pode exibir e aceitar as permissões MCA e partner - direto do centro de administração.
-
-### <a name="resource-mailboxes"></a>Caixas de correio de recurso
-
-A lista Caixas de correio de recursos foi atualizada para o novo estilo. No Centro de administração do Microsoft 365, vá para **Salas de Recursos &** \> **equipamento**.
-
-### <a name="videos-training-and-docs-january"></a>Vídeos, treinamentos e documentos (janeiro)
-
-Confira o treinamento de administrador de pequenas empresas que lançamos em janeiro:
-
-- [Criar seu site de negócios](https://support.microsoft.com/office/3325d50e-d131-403c-a278-7f3296fe33a9)
-- [Encontrar respostas e ajuda](https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988)
-- [Obter ajuda ou suporte](https://support.microsoft.com/office/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
-- [Excluir um usuário](https://support.microsoft.com/office/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
-- [Escolher uma assinatura da Microsoft](https://support.microsoft.com/office/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [Visão geral da segurança do Microsoft 365 para empresas](https://support.microsoft.com/office/3274b159-a825-46d7-9421-7d6e209389d1)

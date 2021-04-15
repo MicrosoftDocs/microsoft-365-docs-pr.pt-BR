@@ -21,7 +21,7 @@ ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755721"
+ms.locfileid: "51759901"
 ---
 # <a name="intune-admin-roles-in-the-microsoft-365-admin-center"></a>Funções de administrador Intune no Centro de administração do Microsoft 365
 

@@ -7,21 +7,21 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 44a0e78ecfe3854a070831bf01a012c2cec06ce7
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3b1e7e70c6ca217d3ad8859c1493598d71054f84
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689798"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765330"
 ---
-# <a name="run-and-review-the-results-of-a-microsoft-defender-offline-scan"></a>Executar e revisar os resultados de uma verificação offline do Microsoft Defender
+# <a name="run-and-review-the-results-of-a-microsoft-defender-offline-scan"></a>Executar e revisar os resultados de uma verificação do Microsoft Defender Offline
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

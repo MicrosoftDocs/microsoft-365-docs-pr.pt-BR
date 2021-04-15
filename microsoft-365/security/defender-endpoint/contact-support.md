@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 726a85969dab715a1b6244f14d1bf0259cf301e8
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 4c44e2c73eabcb89c178235bc3ce6738d2322dfa
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163370"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768981"
 ---
-# <a name="contact-microsoft-defender-for-endpoint-support"></a>Entrar em contato com o Suporte do Microsoft Defender para Ponto de Extremidade
+# <a name="contact-microsoft-defender-for-endpoint-support"></a>Entre em contato com suporte do Microsoft Defender para Ponto de Extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -79,8 +79,8 @@ Caso os artigos sugeridos não sejam suficientes, você pode abrir uma solicita�
 
 Saiba como abrir tíquetes de suporte contatando o suporte do Defender para Ponto de Extremidade. 
 
-
-
+> [!Note]
+> Se você tiver um contrato de suporte de permier com a Microsoft, verá a marca premier no widget. Caso não seja, entre em contato com o gerente de conta da Microsoft.
 
 ### <a name="contact-support"></a>Contatar o suporte
 Essa opção está disponível clicando no ícone que se parece com um fone de ouvido. Em seguida, você receberá a seguinte página para enviar seu caso de suporte:
@@ -96,4 +96,4 @@ Essa opção está disponível clicando no ícone que se parece com um fone de o
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Solucionar problemas de serviço](troubleshoot-mdatp.md)
-- [Verificar a saúde do serviço](service-status.md)
+- [Verificar integridade do serviço](service-status.md)

@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.date: 12/16/2019
@@ -15,14 +15,14 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 7fa4f90282bf87c1def1917037e090b213cad3db
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 807348fcbf3ad4ef9698b11b194d752d8038b4c9
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689785"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765102"
 ---
-# <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>Habilitar e configurar a proteção always-on do Microsoft Defender Antivírus na Política de Grupo
+# <a name="enable-and-configure-microsoft-defender-antivirus-always-on-protection-in-group-policy"></a>Habilitar e configurar a proteção do Microsoft Defender Antivírus sempre ativa na Política de Grupo
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -137,5 +137,5 @@ Para desabilitar a proteção em tempo real na política de grupo:
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Configurar proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)
+- [Configurar a proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

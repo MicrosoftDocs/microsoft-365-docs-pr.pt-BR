@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: detect
 ms.sitesec: library
-ms.localizationpriority: high
+localization_priority: priority
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,12 +14,12 @@ audience: ITPro
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: bee92dfa998596578c27bda579a86776bc77c07b
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 20d4767f9813b741c55109d617f78302feaa0f7e
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689999"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765018"
 ---
 # <a name="detect-and-block-potentially-unwanted-applications"></a>Detectar e bloquear aplicativos potencialmente indesejados
 
@@ -189,4 +189,4 @@ Para obter mais informações, [consulte Configure and validate exclusions based
 ## <a name="see-also"></a>Confira também
 
 - [Proteção de próxima geração](microsoft-defender-antivirus-in-windows-10.md)
-- [Configurar proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)
+- [Configurar a proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)

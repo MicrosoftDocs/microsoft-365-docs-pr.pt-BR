@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: high
+localization_priority: priority
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: ''
@@ -14,14 +14,14 @@ manager: dansimp
 ms.custom: nextgen
 ms.date: 10/22/2020
 ms.technology: mde
-ms.openlocfilehash: 837b7899368e69b274323125c97169bbe4f823b7
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1baa770da677ec755bd56db9b92c071680efae7b
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51690013"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765750"
 ---
-# <a name="turn-on-block-at-first-sight"></a>Ativar o bloco à primeira vista
+# <a name="turn-on-block-at-first-sight"></a>Ativar o bloqueio à primeira vista
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

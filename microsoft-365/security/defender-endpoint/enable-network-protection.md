@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: a513013c4b5f41cf95b876648882cb56ba818b32
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 5c7a2d943ec1813623065e70330b914a3911d1eb
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570991"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768993"
 ---
 # <a name="turn-on-network-protection"></a>Ativar a proteção de rede
 
@@ -28,20 +28,24 @@ ms.locfileid: "51570991"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> [!TIP]
+> Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 [A proteção de](network-protection.md) rede ajuda a impedir que os funcionários usem qualquer aplicativo para acessar domínios perigosos que podem hospedar esquemas de phishing, explorações e outros conteúdos mal-intencionados na Internet. Você pode [auditar](evaluate-network-protection.md) a proteção de rede em um ambiente de teste para exibir quais aplicativos seriam bloqueados antes de habilita-la.
 
-[Saiba mais sobre as opções de configuração de filtragem de rede](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
+[Saiba mais sobre as opções de configuração de filtragem de rede](/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
 
 ## <a name="check-if-network-protection-is-enabled"></a>Verificar se a proteção de rede está habilitada
 
 Verifique se a proteção de rede foi habilitada em um dispositivo local usando o editor do Registro.
 
 1. Selecione o **botão Iniciar** na barra de tarefas e digite **regedit** para abrir o editor do Registro
-1. Escolha **HKEY_LOCAL_MACHINE** no menu lateral
-1. Navegue pelos menus aninhados para **Políticas de SOFTWARE**  >    >  **Microsoft**  >  **Windows Defender** Windows Defender Proteção de  >    >  **Rede** do Exploit Guard
-1. Selecione **EnableNetworkProtection** para ver o estado atual da proteção de rede no dispositivo
+
+2. Escolha **HKEY_LOCAL_MACHINE** no menu lateral
+
+3. Navegue pelos menus aninhados para **Políticas de SOFTWARE**  >    >  **Microsoft**  >  **Windows Defender** Windows Defender Proteção de  >    >  **Rede** do Exploit Guard
+
+4. Selecione **EnableNetworkProtection** para ver o estado atual da proteção de rede no dispositivo
 
     * 0 ou **Off**
     * 1 ou **On**
@@ -83,9 +87,9 @@ Use o provedor de serviço de configuração [./Vendor/MSFT/Policy/Config/Defend
 
 1. Entre no Centro de administração do Microsoft Endpoint Manager (https://endpoint.microsoft.com)
 
-2. Criar ou editar um perfil [de configuração de proteção de ponto de extremidade](https://docs.microsoft.com/mem/intune/protect/endpoint-protection-configure)
+2. Criar ou editar um perfil [de configuração de proteção de ponto de extremidade](/mem/intune/protect/endpoint-protection-configure)
 
-3. Em "Configurações configurações" no fluxo de perfil, acesse **Microsoft Defender Exploit Guard** Network  >  **filtering** Network protection  >    >  **Enable** or Audit **only**
+3. Em **Configuração Configurações no** fluxo de perfil, acesse **Microsoft Defender Exploit Guard** Network  >  **filtering** Network  >  **protection**  >  **Enable** or **Audit only**
 
 ### <a name="group-policy"></a>Política de Grupo
 
@@ -116,7 +120,7 @@ Confirme se a proteção de rede está habilitada em um computador local usando 
 
 1. Selecione **Iniciar** e digite **regedit** para abrir **o Editor do Registro.**
 
-2. Navegue até **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection**
+2. Navegue até **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**
 
 3. Selecione **EnableNetworkProtection** e confirme o valor:
    * 0=Off

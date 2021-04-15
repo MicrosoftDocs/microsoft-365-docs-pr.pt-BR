@@ -7,21 +7,21 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 7ec134c2861b0185f66a08257fbc410b7a475b5a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 372d679f45d6f87392b612f757e6bdf1c6c6b9ad
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689824"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765798"
 ---
-# <a name="configure-the-cloud-block-timeout-period"></a>Configurar o período de tempo de bloqueio na nuvem
+# <a name="configure-the-cloud-block-timeout-period"></a>Configurar o período de tempo limite de bloqueio da nuvem
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

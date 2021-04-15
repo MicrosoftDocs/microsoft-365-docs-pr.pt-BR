@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: ae7dbea7d476e8a8f6198378e1d1bb29e24c37a2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 95c87330eec3cb557e5fea96148d626b7e0ee4b3
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688340"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768909"
 ---
 # <a name="protect-your-network"></a>Proteger sua rede
 
@@ -37,7 +37,7 @@ A proteção de rede ajuda a reduzir a superfície de ataque de seus dispositivo
 
 A proteção de rede é suportada no Windows, começando com o Windows 10, versão 1709. A proteção de rede ainda não é suportada em outros sistemas operacionais, mas a proteção da Web é suportada usando o novo Microsoft Edge com base no Chromium. Para saber mais, confira [Proteção da Web](web-protection-overview.md).
 
-a proteção de rede amplia a proteção na [Web para](web-protection-overview.md) o nível do sistema operacional. Ele fornece a funcionalidade de proteção da Web no Edge para outros navegadores com suporte e aplicativos que não são navegadores. Além disso, a proteção de rede fornece visibilidade e bloqueio de indicadores de comprometimento (IOCs) quando usado com detecção e resposta do ponto [de extremidade.](overview-endpoint-detection-response.md) Por exemplo, a proteção de rede funciona com seus [indicadores personalizados.](manage-indicators.md)
+A proteção de rede amplia a proteção na [Web para](web-protection-overview.md) o nível do sistema operacional. Ele fornece a funcionalidade de proteção da Web no Edge para outros navegadores com suporte e aplicativos que não são navegadores. Além disso, a proteção de rede fornece visibilidade e bloqueio de indicadores de comprometimento (IOCs) quando usado com detecção e resposta do ponto [de extremidade.](overview-endpoint-detection-response.md) Por exemplo, a proteção de rede funciona com seus [indicadores personalizados.](manage-indicators.md)
 
 Para obter mais informações sobre como habilitar a proteção de rede, consulte [Enable network protection](enable-network-protection.md). Use A Política de Grupo, PowerShell ou CSPs MDM para habilitar e gerenciar a proteção de rede em sua rede.
 

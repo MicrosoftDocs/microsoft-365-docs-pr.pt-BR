@@ -1,5 +1,5 @@
 ---
-title: Proteger configurações de segurança com proteção contra violações
+title: Proteger as configurações de segurança com proteção contra adulteração
 ms.reviewer: shwjha, hayhov
 manager: dansimp
 description: Use a proteção contra violações para impedir que aplicativos mal-intencionados alterem configurações de segurança importantes.
@@ -9,20 +9,20 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 audience: ITPro
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 147247435564133502f33d33799d05ef809e0427
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 84864965d7a18902a01307c1dcf373fa7c0534e8
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689883"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765570"
 ---
-# <a name="protect-security-settings-with-tamper-protection"></a>Proteger configurações de segurança com proteção contra violações
+# <a name="protect-security-settings-with-tamper-protection"></a>Proteger as configurações de segurança com proteção contra adulteração
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -297,4 +297,4 @@ Sua equipe de operações de segurança também pode usar consultas de busca, co
 
 [Obter uma visão geral do Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint)
 
-[Melhor juntos: Microsoft Defender Antivírus e Microsoft Defender para Ponto de Extremidade](why-use-microsoft-defender-antivirus.md)
+[Melhores juntos: Microsoft Defender Antivírus e Microsoft Defender para Ponto de Extremidade](why-use-microsoft-defender-antivirus.md)

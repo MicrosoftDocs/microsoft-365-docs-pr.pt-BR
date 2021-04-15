@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,12 @@ ms.date: 11/18/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3dcf0ab24541a8837fbab91049fed0157b7f1fc9
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 8503bb5bdd6337ec60390ef1d8e59f6f506fbce2
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689775"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765162"
 ---
 # <a name="configure-microsoft-defender-antivirus-features"></a>Configurar recursos do Microsoft Defender Antivírus
 
@@ -50,7 +50,7 @@ Os artigos a seguir descrevem como executar tarefas importantes ao configurar o 
 |Artigo  |Descrição  |
 |---------|---------|
 |[Usar a proteção do Microsoft Defender Antivírus fornecida na nuvem pela Microsoft](cloud-protection-microsoft-defender-antivirus.md)     | Use a proteção entregue na nuvem para detecção avançada, rápida e robusta de antivírus.        |
-|[Configurar proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)     |Habilita a proteção antivírus baseada em comportamento, heurística e em tempo real.         |
+|[Configurar a proteção comportamental, heurística e em tempo real](configure-protection-features-microsoft-defender-antivirus.md)     |Habilita a proteção antivírus baseada em comportamento, heurística e em tempo real.         |
 |[Configurar a interação do usuário final com o Microsoft Defender Antivírus](configure-end-user-interaction-microsoft-defender-antivirus.md) | Configure como os usuários finais em sua organização interagem com o Microsoft Defender Antivírus, quais notificações eles veem e se eles podem substituir as configurações. |
 
 > [!TIP]

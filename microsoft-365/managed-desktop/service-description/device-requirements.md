@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 18422f74d87bbadf014de24849235ce5c25bd614
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: baaebd185389e7ac1f2173aed092141067a5629f
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920463"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768885"
 ---
 # <a name="device-requirements"></a>Requisitos do dispositivo
 
@@ -46,7 +46,7 @@ O dispositivo deve ter sido feito por um desses fabricantes:
 O dispositivo deve ter esse software pré-instalado:
 
 - Windows 10 Enterprise, Pro ou Pro Workstation edition
-- a versão de 64 bits do Microsoft Office clique para executar 
+- a versão de 64 bits do Microsoft 365 Apps para empresas 
 - Todos os drivers de dispositivo aplicáveis
 
 
@@ -57,7 +57,7 @@ Os dispositivos devem ter esses recursos:
 - Habilitado para inicialização segura UEFI 
 - Trusted Platform Module 2.0 
 - Capaz de segurança baseada em virtualização 
-- Oferece suporte à integridade de código protegido por hipervisor 
+- Integridade de código protegido por [hipervisor](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) com suporte do BIOS
 
 Para saber mais sobre esses recursos e as tecnologias relacionadas a eles que o serviço usa, consulte [Tecnologias da Área de Trabalho Gerenciada da Microsoft.](../intro/technologies.md)
 
@@ -72,12 +72,13 @@ Os dispositivos devem atender ou exceder os seguintes limites para armazenamento
 
 Se o dispositivo foi feito após 1º de julho de 2020, ele também deve ter uma câmera DE IR, um leitor de impressão digital ou ambos, para dar suporte ao [Windows Hello.](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security)
 
-## <a name="recommended-requirements"></a>Requisitos recomendados
+## <a name="recommended-features"></a>Recursos recomendados
 
-Embora eles não sejam requisitos absolutos, seus usuários terão uma experiência muito melhor se você escolher dispositivos que tenham esses recursos:
+Seus usuários terão uma experiência muito melhor se você escolher dispositivos com esses recursos:
 
 - Um processador intel vPro-platform ou um processador AMD Ryzen Pro
 - Unidade de inicialização do tipo SSD com uma capacidade de pelo menos 256 GB
+- Memória interna do dispositivo (RAM) de pelo menos 16 GB
 - Suporte para Espera Moderna
 - O dispositivo é do tipo de computador protegido
 - Oferece suporte à Proteção de DMA kernel

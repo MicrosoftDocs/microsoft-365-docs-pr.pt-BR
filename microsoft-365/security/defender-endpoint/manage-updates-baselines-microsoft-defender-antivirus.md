@@ -7,19 +7,19 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: bf027dd7f5fad032d57d2dd0b686ccd129f568c7
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b70cf96cde7d4dff8e2a4db6ce2469090dba7eb1
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689807"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765606"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Gerenciar atualizações do Microsoft Defender Antivírus e aplicar linhas de base
 
@@ -565,5 +565,5 @@ Para obter mais informações, consulte [Microsoft Defender update for Windows o
 |[Gerenciar como as atualizações de proteção são baixadas e aplicadas](manage-protection-updates-microsoft-defender-antivirus.md) | As atualizações de proteção podem ser entregues por meio de várias fontes. |
 |[Gerenciar quando as atualizações de proteção devem ser baixadas e aplicadas](manage-protection-update-schedule-microsoft-defender-antivirus.md) | Você pode agendar quando as atualizações de proteção devem ser baixadas. |
 |[Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md) | Se um ponto de extremidade perder uma atualização ou uma verificação agendada, você poderá forçar uma atualização ou verificar na próxima vez que um usuário entrar. |
-|[Gerenciar atualizações forçadas baseadas em eventos](manage-event-based-updates-microsoft-defender-antivirus.md) | Você pode definir atualizações de proteção a serem baixadas na inicialização ou após determinados eventos de proteção entregues na nuvem. |
+|[Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md) | Você pode definir atualizações de proteção a serem baixadas na inicialização ou após determinados eventos de proteção entregues na nuvem. |
 |[Gerenciar atualizações para dispositivos móveis e máquinas virtuais (VMs)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)| Você pode especificar configurações, como se as atualizações devem ocorrer na energia da bateria, que são especialmente úteis para dispositivos móveis e máquinas virtuais. |

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0b6166d22930119949faf99334416b85fdb64da0
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 5862361dbd3a220e4b37400dbb6515af91eaa959
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500267"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768801"
 ---
 # <a name="evaluate-microsoft-defender-for-office-365"></a>Avaliar o Microsoft Defender para Office 365
 
@@ -59,7 +59,7 @@ Com a experiência de configuração simplificada, você pode se concentrar em:
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-### <a name="licensing"></a>Licenças
+### <a name="licensing"></a>Licenciamento
 
 Para acessar a avaliação, você precisará atender aos requisitos de licenciamento. Qualquer uma das seguintes licenças funcionará:
 

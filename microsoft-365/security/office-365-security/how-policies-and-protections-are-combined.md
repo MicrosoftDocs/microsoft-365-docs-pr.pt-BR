@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre a ordem de aplicativos de proteções no Exchange Online Protection (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3419cba5781e7ab1042f7312c721069d88fb8767
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b36e66f095ff81f551a55d2dc2af0693f8b3455a
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687644"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51769005"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência da proteção de email
 
@@ -41,6 +41,8 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
 - **A prioridade do tipo de proteção de email**: Essa ordem não é configurável e é descrita na tabela a seguir:
 
+  <br>
+
   ****
 
   |Priority|Proteção por email|Categoria|Onde gerenciar|
@@ -57,19 +59,21 @@ Há dois fatores principais que determinam qual política é aplicada a uma mens
 
   <sup>\*</sup> Esses recursos só estão disponíveis em políticas anti-phishing no Microsoft Defender para Office 365.
 
-- A prioridade da política **:** para cada tipo de proteção (anti-spam, anti-malware, anti-phishing, etc.), há uma política padrão que se aplica a todos, mas você pode criar políticas personalizadas que se apliquem a usuários específicos. Cada política personalizada tem um valor de prioridade que determina a ordem na qual as políticas são aplicadas. A política padrão é sempre aplicada por último.
+- A prioridade da política **:** Para cada tipo de política (anti-spam, anti-malware, anti-phishing, etc.), há uma política padrão que se aplica a todos, mas você pode criar políticas personalizadas que se apliquem a usuários específicos. Cada política personalizada tem um valor de prioridade que determina a ordem na qual as políticas são aplicadas. A política padrão é sempre aplicada por último.
 
   Se um usuário for definido em várias políticas do mesmo tipo, somente a política com a maior prioridade será aplicada a ele. Quaisquer políticas restantes desse tipo não são avaliadas para o usuário (incluindo a política padrão).
 
 Por exemplo, considere as seguintes políticas anti-phishing no Microsoft Defender para Office 365 que se aplicam aos mesmos usuários e uma mensagem identificada como representação de usuário e fraude:
 
-  ****
+<br>
 
-  |Nome da política|Priority|Representação de usuário|Antifalsificação|
-  |---|---|---|---|
-  |Política A|1|Ativada|Desativada|
-  |Política B|2|Desativada|Ativada|
-  |
+****
+
+|Nome da política|Priority|Representação de usuário|Antifalsificação|
+|---|---|---|---|
+|Política A|1|Ativada|Desativada|
+|Política B|2|Desativada|Ativada|
+|
 
 1. A mensagem é marcada e tratada como spoof, pois a spoofing tem uma prioridade maior (4) do que a representação do usuário (5).
 2. A Política A é aplicada aos usuários porque tem uma prioridade maior do que a Política B.

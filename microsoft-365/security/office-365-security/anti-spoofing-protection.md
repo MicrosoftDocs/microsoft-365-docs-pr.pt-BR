@@ -22,12 +22,12 @@ localization_priority: Priority
 description: Os administradores podem saber mais sobre os recursos de anti-falsificação disponíveis na Proteção do Exchange Online (EOP), que podem ajudar a reduzir os ataques de phishing de remetentes e domínios falso.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 54b94e2d2cc0395ce7a9785887c253df3addf7fa
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 20294bf00c62e59da33b54ea0c8ee85f7b1372af
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688772"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51769017"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Proteção antifalsificação no EOP
 
@@ -120,7 +120,7 @@ A Microsoft diferencia dois tipos diferentes de mensagens falsas:
 
   - `reason=000` indica que a mensagem foi reprovada na autenticação explícita de email. `reason=001` indica que a mensagem foi reprovada na autenticação implícita de email.
 
-  - SFTY é o nível de segurança da mensagem. 9 indica phishing, .22 indica falsificação entre domínios.
+  - `SFTY` é o nível de segurança da mensagem. 9 indica phishing, .22 indica falsificação entre domínios.
 
 > [!NOTE]
 > Se você recebeu uma mensagem como ***compauth=fail reason=###** _e precisa saber sobre autenticação composta (compauth) e os valores relacionados a falsificação, consulte [_Cabeçalhos de mensagens anti-spam no Microsoft 365*](anti-spam-message-headers.md). Ou vá diretamente para os códigos [*motivo*](anti-spam-message-headers.md).

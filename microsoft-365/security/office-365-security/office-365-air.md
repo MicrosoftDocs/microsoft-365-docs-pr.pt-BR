@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6dfa22b2afb33c318eae8937888b5b75a1742938
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 9850506771f53b125c08b1df2149ee024191d823
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599458"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768861"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Investigação e resposta automatizadas (AIR) no Microsoft Defender para Office 365
 
@@ -94,9 +94,9 @@ O Microsoft 365 fornece muitas políticas de alerta internas que ajudam a identi
 |Alerta|Severity|Como o alerta é gerado|
 |---|---|---|
 |Um clique de URL potencialmente mal-intencionado foi detectado|**High**|Esse alerta é gerado quando ocorre um dos seguintes: <ul><li>Um usuário protegido por [Links Seguros](safe-links.md) em sua organização clica em um link mal-intencionado</li><li>Alterações de veredito para URLs são identificadas pelo Microsoft Defender para Office 365</li><li>Os usuários substituem páginas de aviso de Links Seguros (com base na política de Links Seguros da [sua organização).](set-up-safe-links-policies.md)</li></ul> <p> Para obter mais informações sobre eventos que disparam esse alerta, consulte [Configurar políticas de Links Seguros.](set-up-safe-links-policies.md)|
-|Uma mensagem de email é relatada por um usuário como malware ou phishing|**Informações**|Esse alerta é gerado quando os usuários da sua organização relatam mensagens como emails de phishing usando o complemento [Mensagem](enable-the-report-message-add-in.md) de Relatório ou o [complemento Relatar Phishing](enable-the-report-phish-add-in.md).|
-|As mensagens de email que contêm malware são removidas após a entrega|**Informações**|Esse alerta é gerado quando todas as mensagens de email que contêm malware são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando [a limpeza automática zero hora.](zero-hour-auto-purge.md)|
-|As mensagens de email que contêm URLs de phishing são removidas após a entrega|**Informações**|Esse alerta é gerado quando todas as mensagens que contêm phishing são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando [a limpeza automática zero hora.](zero-hour-auto-purge.md)|
+|Uma mensagem de email é relatada por um usuário como malware ou phishing|**Informativo**|Esse alerta é gerado quando os usuários da sua organização relatam mensagens como emails de phishing usando o complemento [Mensagem](enable-the-report-message-add-in.md) de Relatório ou o [complemento Relatar Phishing](enable-the-report-phish-add-in.md).|
+|As mensagens de email que contêm malware são removidas após a entrega|**Informativo**|Esse alerta é gerado quando todas as mensagens de email que contêm malware são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando [a limpeza automática zero hora.](zero-hour-auto-purge.md)|
+|As mensagens de email que contêm URLs de phishing são removidas após a entrega|**Informativo**|Esse alerta é gerado quando todas as mensagens que contêm phishing são entregues às caixas de correio em sua organização. Se esse evento ocorrer, a Microsoft removerá as mensagens infectados das caixas de correio do Exchange Online usando [a limpeza automática zero hora.](zero-hour-auto-purge.md)|
 |Padrões suspeitos de envio de email são detectados|**Medium**|Esse alerta é gerado quando alguém em sua organização envia emails suspeitos e corre o risco de ser impedido de enviar emails. O alerta é um aviso antecipado sobre o comportamento que pode indicar que a conta está comprometida, mas não grave o suficiente para restringir o usuário. <p> Embora seja raro, um alerta gerado por essa política pode ser uma anomalia. No entanto, é uma boa ideia verificar se a [conta de usuário está comprometida](responding-to-a-compromised-email-account.md).|
 |Um usuário é impedido de enviar emails|**High**|Esse alerta é gerado quando alguém em sua organização é impedido de enviar emails de saída. Esse alerta normalmente resulta quando uma conta [de email é comprometida](responding-to-a-compromised-email-account.md). <p> Para obter mais informações sobre usuários restritos, consulte [Remove blocked users from the Restricted Users portal in Microsoft 365](removing-user-from-restricted-users-portal-after-spam.md).|
 |
@@ -123,7 +123,7 @@ As permissões são concedidas por meio de determinadas funções, como as descr
 
 ## <a name="changes-are-coming-soon-in-your-security-center"></a>As alterações estão chegando em breve em seu centro de segurança
 
-Se você já estiver usando recursos AIR no Microsoft Defender para Office 365, você está prestes a ver algumas alterações no centro de segurança do [Microsoft 365 aprimorado.](../defender/overview-security-center.md) 
+Se você já estiver usando recursos AIR no Microsoft Defender para Office 365, você está prestes a ver algumas alterações no centro de segurança do [Microsoft 365 aprimorado.](../defender/overview-security-center.md)
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Centro de Ações Unificadas":::
 

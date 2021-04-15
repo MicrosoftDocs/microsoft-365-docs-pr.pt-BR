@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: b8122807b8e26a848781f9f66f8e13032345f3fd
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: e8d3cbd58b80d6c393b8d7173c61509b26a29b4a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51749909"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765654"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Usar configurações de Política de Grupo para configurar e gerenciar o Microsoft Defender Antivírus
 
@@ -64,8 +64,8 @@ A tabela a seguir neste tópico lista as configurações da Política de Grupo d
 | MAPS | Ingressar no Microsoft MAPS | [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | MAPS | Enviar amostras de arquivo quando uma análise posterior for necessária | [Habilitar a proteção entregue na nuvem](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | MAPS | Configurar a substituição de configuração local para relatórios para o Microsoft MAPS | [Impedir ou permitir que os usuários modifiquem localmente as configurações de política](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
-| MpEngine | Configurar verificação de nuvem estendida | [Configurar o período de tempo de bloqueio na nuvem](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
-| MpEngine | Selecionar nível de proteção na nuvem | [Especificar o nível de proteção entregue na nuvem](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
+| MpEngine | Configurar verificação de nuvem estendida | [Configurar o período de tempo limite de bloqueio da nuvem](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
+| MpEngine | Selecionar nível de proteção na nuvem | [Especificar o nível de proteção fornecida na nuvem](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
 | Sistema de inspeção de rede | Especificar conjuntos de definições adicionais para inspeção de tráfego de rede | Não é mais relevante |
 | Sistema de inspeção de rede | Ativar a aposentadoria de definição | Não é mais relevante |
 | Sistema de inspeção de rede | Ativar o reconhecimento de protocolo | Não é mais relevante |
@@ -98,7 +98,7 @@ A tabela a seguir neste tópico lista as configurações da Política de Grupo d
 | Root | Desativar a correção de rotina | [Configurar correção para verificações do Microsoft Defender Antivírus](configure-remediation-microsoft-defender-antivirus.md) |
 | Root | Randomize tempos de tarefa agendados | [Configurar verificações agendadas para o Microsoft Defender Antivírus](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Examinar | Permitir que os usuários pausem a verificação | [Impedir que os usuários visem](prevent-end-user-interaction-microsoft-defender-antivirus.md) ou interajam com a interface do usuário do Microsoft Defender Antivírus (Sem suporte no Windows 10) |
-| Examinar | Verifique as definições mais recentes de vírus e spyware antes de executar uma verificação agendada | [Gerenciar atualizações forçadas baseadas em eventos](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Examinar | Verifique as definições mais recentes de vírus e spyware antes de executar uma verificação agendada | [Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Examinar | Definir o número de dias após os quais uma verificação de captura é forçada | [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Examinar | Ativar a verificação completa de captura | [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Examinar | Ativar a verificação rápida de captura | [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
@@ -128,15 +128,15 @@ A tabela a seguir neste tópico lista as configurações da Política de Grupo d
 | Examinar | Iniciar a verificação agendada somente quando o computador estiver em uso, mas não estiver em uso | [Configurar verificações agendadas para o Microsoft Defender Antivírus](scheduled-catch-up-scans-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Permitir atualizações de inteligência de segurança do Microsoft Update | [Gerenciar atualizações para dispositivos móveis e máquinas virtuais (VMs)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Permitir atualizações de inteligência de segurança ao executar na energia da bateria | [Gerenciar atualizações para dispositivos móveis e máquinas virtuais (VMs)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md) |
-| Atualizações de inteligência de segurança | Permitir notificações para desabilitar relatórios baseados em definições para o Microsoft MAPS | [Gerenciar atualizações forçadas baseadas em eventos](manage-event-based-updates-microsoft-defender-antivirus.md) |
-| Atualizações de inteligência de segurança | Permitir atualizações de inteligência de segurança em tempo real com base em relatórios para o Microsoft MAPS | [Gerenciar atualizações forçadas baseadas em eventos](manage-event-based-updates-microsoft-defender-antivirus.md) |
-| Atualizações de inteligência de segurança | Verifique as definições mais recentes de vírus e spyware na inicialização | [Gerenciar atualizações forçadas baseadas em eventos](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Atualizações de inteligência de segurança | Permitir notificações para desabilitar relatórios baseados em definições para o Microsoft MAPS | [Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Atualizações de inteligência de segurança | Permitir atualizações de inteligência de segurança em tempo real com base em relatórios para o Microsoft MAPS | [Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Atualizações de inteligência de segurança | Verifique as definições mais recentes de vírus e spyware na inicialização | [Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Definir compartilhamentos de arquivos para baixar atualizações de inteligência de segurança | [Gerenciar atualizações de inteligência de segurança e proteção do Microsoft Defender Antivírus](manage-protection-updates-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Definir o número de dias após os quais uma atualização de inteligência de segurança de atualização é necessária | [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Definir o número de dias antes que as definições de spyware sejam consideradas des date | [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Definir o número de dias antes que as definições de vírus sejam consideradas des date | [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Definir a ordem das fontes para baixar atualizações de inteligência de segurança | [Gerenciar atualizações de inteligência de segurança e proteção do Microsoft Defender Antivírus](manage-protection-updates-microsoft-defender-antivirus.md) |
-| Atualizações de inteligência de segurança | Iniciar a atualização de inteligência de segurança na inicialização | [Gerenciar atualizações forçadas baseadas em eventos](manage-event-based-updates-microsoft-defender-antivirus.md) |
+| Atualizações de inteligência de segurança | Iniciar a atualização de inteligência de segurança na inicialização | [Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Especificar o dia da semana para verificar se há atualizações de inteligência de segurança | [Gerenciar quando as atualizações de proteção devem ser baixadas e aplicadas](manage-protection-update-schedule-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Especifique o intervalo para verificar se há atualizações de inteligência de segurança | [Gerenciar quando as atualizações de proteção devem ser baixadas e aplicadas](manage-protection-update-schedule-microsoft-defender-antivirus.md) |
 | Atualizações de inteligência de segurança | Especifique o tempo para verificar se há atualizações de inteligência de segurança | [Gerenciar quando as atualizações de proteção devem ser baixadas e aplicadas](manage-protection-update-schedule-microsoft-defender-antivirus.md) |

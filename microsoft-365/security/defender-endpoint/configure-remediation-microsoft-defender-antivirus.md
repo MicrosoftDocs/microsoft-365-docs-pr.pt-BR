@@ -1,5 +1,5 @@
 ---
-title: Configurar correção para detecções do Microsoft Defender Antivírus
+title: Configurar a remediação para detecções do Microsoft Defender Antivírus
 description: Configure o que o Microsoft Defender Antivírus deve fazer quando detectar uma ameaça e por quanto tempo os arquivos em quarentena devem ser mantidos na pasta de quarentena
 keywords: correção, correção, remoção, ameaças, quarentena, verificação, restauração
 search.product: eADQiWindows 10XVcnh
@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,14 +15,14 @@ ms.date: 03/16/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 7f41e9c5b38e93ce84fbd971e02ebc2d77432c3f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 98bc079bcfd772ada52d699d5f873a187d4ab4c1
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689783"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765054"
 ---
-# <a name="configure-remediation-for-microsoft-defender-antivirus-detections"></a>Configurar correção para detecções do Microsoft Defender Antivírus
+# <a name="configure-remediation-for-microsoft-defender-antivirus-detections"></a>Configurar a remediação para detecções do Microsoft Defender Antivírus
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

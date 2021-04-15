@@ -8,19 +8,19 @@ search.appverid: met150
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: e4ba9a438ff4640a556a236b50b0be6e816fc7e8
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 327974c4db4166301820cf148811aceda1700513
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689817"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765342"
 ---
 # <a name="manage-the-schedule-for-when-protection-updates-should-be-downloaded-and-applied"></a>Gerenciar o cronograma para quando as atualizações de proteção devem ser baixadas e aplicadas
 
@@ -104,6 +104,6 @@ Confira o seguinte para obter mais informações e parâmetros permitidos:
 - [Implantar o Microsoft Defender Antivírus](deploy-manage-report-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações do Microsoft Defender Antivírus e aplicar linhas de base](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [Gerenciar atualizações forçadas baseadas em eventos](manage-event-based-updates-microsoft-defender-antivirus.md)
+- [Gerenciar atualizações aplicadas com base em evento](manage-event-based-updates-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações para dispositivos móveis e máquinas virtuais (VMs)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
 - [Microsoft Defender Antivírus no Windows 10](microsoft-defender-antivirus-in-windows-10.md)

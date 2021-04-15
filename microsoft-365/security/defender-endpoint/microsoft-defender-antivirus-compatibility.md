@@ -7,19 +7,19 @@ ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: tewchen, pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 8eb52e277f7987477114db9333c3f90bb581ebb5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 131b9970572b1034ba5c9907a001f0497d450339
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689806"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765438"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Compatibilidade com o Microsoft Defender Antivírus
 
@@ -29,7 +29,7 @@ ms.locfileid: "51689806"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O Microsoft Defender Antivírus é habilitado e instalado automaticamente em pontos de extremidade e dispositivos que executam o Windows 10. Mas o que acontece quando outra solução antivírus/antimalware é usada? Depende se você está usando o Microsoft Defender para Ponto de Extremidade [juntamente](microsoft-defender-endpoint.md) com sua proteção antivírus.
 - Se os pontos de extremidade e os dispositivos da sua organização estão protegidos com uma solução antivírus/antimalware que não seja da Microsoft e o Microsoft Defender para Ponto de Extremidade não é usado, o Microsoft Defender Antivírus entra automaticamente no modo desabilitado.

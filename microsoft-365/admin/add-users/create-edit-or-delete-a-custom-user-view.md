@@ -25,7 +25,7 @@ ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755567"
+ms.locfileid: "51759925"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view"></a>Criar, editar ou excluir uma exibição personalizada do usuário
 

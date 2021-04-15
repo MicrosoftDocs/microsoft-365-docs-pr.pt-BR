@@ -6,7 +6,7 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.date: 11/13/2020
@@ -14,14 +14,14 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: cfaf4563e96568ae26bd990678462836b9202656
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9f949a4cb54ca5dd64a2648bb05a5cb9ad50e44d
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689998"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51764958"
 ---
-# <a name="turn-on-cloud-delivered-protection"></a>Ativar a proteção entregue na nuvem
+# <a name="turn-on-cloud-delivered-protection"></a>Ativar a proteção fornecida pela nuvem
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -147,7 +147,7 @@ Para obter mais informações sobre parâmetros permitidos, [consulte Windows De
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Configurar o período de tempo de bloqueio na nuvem](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
+- [Configurar o período de tempo limite de bloqueio da nuvem](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
 - [Configurar o bloco à primeira vista](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 - [Usar cmdlets do PowerShell para gerenciar o Microsoft Defender Antivírus](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Ajudar a proteger computadores Windows com a Proteção de Ponto de Extremidade para o Microsoft Intune](/intune/deploy-use/help-secure-windows-pcs-with-endpoint-protection-for-microsoft-intune)]

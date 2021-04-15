@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 287ad9adeccd527b756bdd5304d3c89fc1b2d789
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7d12afd27288655f4f5a82eeed24686f27171a7a
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054458"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765390"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>Microsoft Defender para Ponto de Extremidade e outras soluções da Microsoft
 
@@ -45,7 +45,7 @@ O Microsoft Defender for Endpoint fornece uma solução abrangente de proteção
 O conector do Microsoft Defender para Ponto de Extremidade permite transmitir alertas do Microsoft Defender para Ponto de Extremidade no Azure Sentinel. Isso permitirá que você analise de forma mais abrangente os eventos de segurança em toda a sua organização e crie playbooks para resposta efetiva e imediata.
 
 ### <a name="azure-information-protection"></a>Proteção de Informações do Azure
-Mantenha os dados confidenciais seguros enquanto habilita a produtividade no local de trabalho por meio da descoberta de dados e da proteção de dados.
+Recentemente, preterimos a integração com a Proteção de Informações do Azure, pois nossos recursos de DLP do Ponto de Extremidade incorporam uma solução aprimorada de descoberta e proteção para dados confidenciais armazenados em dispositivos de ponto de extremidade que facilitam maior visibilidade e integração entre soluções. Isso foi anunciado no [blog a seguir.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/protecting-sensitive-information-on-devices/ba-p/2143555) Recomendamos que os clientes mudem para o uso de DLP do ponto de extremidade.
 
 ### <a name="conditional-access"></a>Acesso Condicional
 A pontuação de risco de dispositivo dinâmico do Microsoft Defender para Endpoint é integrada à avaliação do Acesso Condicional, garantindo que somente dispositivos seguros tenham acesso aos recursos. 

@@ -7,19 +7,19 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f67330e1ccd7361c3982b76a6ab8754db23bd110
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 826e1456de2aadf4031a91e30925a1e771d44f70
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689808"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765582"
 ---
 # <a name="manage-updates-for-mobile-devices-and-virtual-machines-vms"></a>Gerenciar atualizações para dispositivos móveis e máquinas virtuais (VMs)
 
@@ -40,7 +40,7 @@ Há duas configurações úteis para esses dispositivos:
 Os artigos a seguir também podem ser úteis nessas situações:
 - [Configurando verificações agendadas e de catch-up](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
 - [Gerenciar atualizações para pontos de extremidade que estão des date](manage-outdated-endpoints-microsoft-defender-antivirus.md)
-- [Guia de implantação do Microsoft Defender Antivírus em um ambiente de infraestrutura de área de trabalho virtual (VDI)](deployment-vdi-microsoft-defender-antivirus.md)
+- [Guia de implantação do Microsoft Defender Antivírus em um ambiente virtual de área de trabalho (VDI)](deployment-vdi-microsoft-defender-antivirus.md)
 
 ## <a name="opt-in-to-microsoft-update-on-mobile-computers-without-a-wsus-connection"></a>Optar pelo Microsoft Update em computadores móveis sem uma conexão WSUS
 

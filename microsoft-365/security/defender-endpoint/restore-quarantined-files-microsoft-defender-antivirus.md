@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,12 @@ ms.date: 05/20/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: d065b93478d9f144661e0fb4195a33bec52adfdc
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3de9ddfc0cab12d2eea717c5d6b01e5b70b21213
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689855"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51765786"
 ---
 # <a name="restore-quarantined-files-in-microsoft-defender-av"></a>Restaurar arquivos em quarentena no Microsoft Defender AV
 
