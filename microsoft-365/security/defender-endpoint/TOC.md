@@ -222,6 +222,7 @@
 
 ### [Microsoft Defender para Ponto de Extremidade para iOS]()
 #### [Visão geral do Microsoft Defender para Ponto de Extremidade para iOS](microsoft-defender-endpoint-ios.md)
+#### [Novidades](ios-whatsnew.md)
 
 #### [Implantar]()
 ##### [Implantar o Microsoft Defender para Ponto de Extremidade para iOS via Intune](ios-install.md)
@@ -631,4 +632,5 @@
 ##### [Migrar para as regras de redução da superfície de ataque](migrating-asr-rules.md)
 
 # [Microsoft 365 Defender](../index.yml)
-# [Defender para Office 365](../office-365-security/overview.md)
+# [Defender para Office 365](../office-365-security/index.yml)
+# [Microsoft Defender para Identidade](https://docs.microsoft.com/defender-for-identity/)
