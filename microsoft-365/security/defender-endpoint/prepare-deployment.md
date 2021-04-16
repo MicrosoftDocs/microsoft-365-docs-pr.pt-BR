@@ -1,6 +1,6 @@
 ---
-title: Preparar a implantação do Microsoft Defender ATP
-description: Preparar aprovação, cronogramas, considerações de ambiente e ordem de adoção ao implantar o Microsoft Defender ATP
+title: Preparar o Microsoft Defender para implantação do Ponto de Extremidade
+description: Preparar aprovação, cronogramas, considerações de ambiente e ordem de adoção ao implantar o Microsoft Defender para o Ponto de Extremidade
 keywords: implantar, preparar, stakeholder, linha do tempo, ambiente, ponto de extremidade, servidor, gerenciamento, adoção
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2704aefb3f15cc3244de6580137fa12204bfc3ce
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a59d09aa4de2644e9904eb854c183d0352aa65c9
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187464"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861162"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>Preparar o Microsoft Defender para implantação do Ponto de Extremidade
 
@@ -38,7 +38,7 @@ ms.locfileid: "51187464"
 
 Implantar o Defender para Ponto de Extremidade é um processo de três fases:
 
-| ![fase de implantação - preparar](images/phase-diagrams/prepare.png)<br>Fase 1: Preparar | [![fase de implantação - instalação](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Fase 2: Instalação](production-deployment.md) | [![fase de implantação - onboard](images/phase-diagrams/onboard.png)](onboarding.md)<br>[Fase 3: Onboard](onboarding.md) |
+| ![fase de implantação - preparar](images/phase-diagrams/prepare.png)<br>Fase 1: Preparar | [![fase de implantação - instalação](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Fase 2: Configurar](production-deployment.md) | [![fase de implantação - onboard](images/phase-diagrams/onboard.png)](onboarding.md)<br>[Fase 3: Integrar](onboarding.md) |
 | ----- | ----- | ----- |
 |*Você está aqui!* | ||
 
@@ -126,7 +126,7 @@ Escolha o componente do Defender para o Ponto de Extremidade a ser usado e remov
 
 | Componente                               | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Classificação de Ordem de Adoção |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| Resposta & EDR (Endpoint Detection)     | Os recursos de detecção e resposta de ponto de extremidade do Defender para pontos de extremidade fornecem detecções avançadas de ataque que são quase em tempo real e ativas. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)                                                                                                                                                                                                                                             | 1                   |
+| Resposta & EDR (Endpoint Detection)     | Os recursos de detecção e resposta de ponto de extremidade do Defender para pontos de extremidade fornecem detecções avançadas de ataque que são quase em tempo real e ativas. Os analistas de segurança podem priorizar alertas de maneira eficaz, ganhar visibilidade em todo o escopo de uma violação e tomar medidas de resposta para remediar as ameaças. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)                                                                                                                                                                                                                                             | 1                   |
 |Gerenciamento & de Vulnerabilidades (TVM)|O & gerenciamento de vulnerabilidades é um componente do Microsoft Defender para Ponto de Extremidade e fornece aos administradores de segurança e equipes de operações de segurança um valor exclusivo, incluindo: <br> - Percepções de detecção e resposta do ponto de extremidade em tempo real (EDR) correlacionadas com vulnerabilidades de ponto de extremidade <br> - Contexto de vulnerabilidade de dispositivo inestimável durante investigações de incidentes <br> - Processos internos de correção por meio do Microsoft Intune e do Microsoft System Center Configuration Manager <br> [Saiba mais](https://techcommunity.microsoft.com/t5/Windows-Defender-ATP/Introducing-a-risk-based-approach-to-threat-and-vulnerability/ba-p/377845).| 2 |
 | Proteção de última geração (NGP)        | O Microsoft Defender Antivírus é uma solução antimalware integrada que fornece proteção de última geração para desktops, computadores portáteis e servidores. O Microsoft Defender Antivírus inclui: <br> -Proteção entregue na nuvem para detecção quase instantânea e bloqueio de ameaças novas e emergentes. Além do aprendizado da máquina e do gráfico de segurança inteligente, a proteção oferecida na nuvem faz parte das tecnologias de próxima geração que para alimentam o Microsoft Defender Antivírus.   <br> - Verificação sempre em tempo real usando monitoramento avançado de comportamento de arquivo e processo e outras heurísticas (também conhecida como "proteção em tempo real"). <br> - Atualizações de proteção dedicadas com base no aprendizado de máquina, análise de big data humana e automatizada e pesquisa detalhada de resistência a ameaças. <br> [Saiba mais](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
 | Redução de superfície de ataque (ASR)          | Os recursos de redução de superfície de ataque no Microsoft Defender para Ponto de Extremidade ajudam a proteger os dispositivos e aplicativos na organização contra ameaças novas e emergentes. <br> [Saiba Mais.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-attack-surface-reduction)                                                                                                                                                                                                                                                                                                                                                                                       | 4                    |
@@ -136,5 +136,5 @@ Escolha o componente do Defender para o Ponto de Extremidade a ser usado e remov
 ## <a name="next-step"></a>Próxima etapa
 |||
 |:-------|:-----|
-|![Fase 2: Instalação](images/setup.png) <br>[Fase 2: Instalação](production-deployment.md) | Configurar o Microsoft Defender para implantação do Ponto de Extremidade
+|![Fase 2: Configurar](images/setup.png) <br>[Fase 2: Configurar](production-deployment.md) | Configurar o Microsoft Defender para implantação do Ponto de Extremidade
 

@@ -15,12 +15,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Encontre as informações, dicas, recursos e orientações mais recentes sobre o trabalho remoto para empresas que usam o Microsoft 365.
-ms.openlocfilehash: eac86583a1e72b70399024354f9adc7ad24e1047
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: 3ef8bb3527e6be258eda8d745d841e8bd81cdd6c
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034252"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860578"
 ---
 # <a name="empower-your-small-business-with-remote-work"></a>Capacitar sua pequena empresa com trabalho remoto
 
@@ -87,7 +87,7 @@ Para obter detalhes, consulte [Recursos do Microsoft 365 Business.](https://docs
 
 ## <a name="need-to-ask-a-question"></a>Precisa fazer uma pergunta? 
 
-Pergunte no fórum [do Teams ou](https://answers.microsoft.com/msteams/forum) no fórum [administradores do Office.](https://answers.microsoft.com/msoffice/forum/msoffice_o365Admin)
+Pergunte no fórum [do Teams ou](https://answers.microsoft.com/msteams/forum) no fórum [administradores do Office.](https://answers.microsoft.com)
 
 > [!NOTE]
 > A maioria das tarefas neste artigo e vídeo pode ser realizada com uma assinatura do Microsoft 365 Business Basic (anteriormente Office 365 Business Essentials), mas algumas exigem uma assinatura premium. 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP no iOS
+title: Microsoft Defender para Ponto de Extremidade para iOS
 ms.reviewer: ''
-description: Descreve como instalar e usar o Microsoft Defender ATP para iOS
+description: Descreve como instalar e usar o Microsoft Defender para Endpoint para iOS
 keywords: microsoft, defender, atp, ios, visão geral, instalação, implantação, desinstalação, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bc28c40443a6cae2815ad97126073df4579c494c
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: a04d939d5c25341f07090ac896cfb80b43ab1a1c
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768777"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861370"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender para Ponto de Extremidade para iOS
 

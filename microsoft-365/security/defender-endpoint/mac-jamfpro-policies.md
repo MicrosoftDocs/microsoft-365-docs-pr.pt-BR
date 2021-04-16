@@ -1,6 +1,6 @@
 ---
-title: Configurar o Microsoft Defender ATP para políticas macOS no Jamf Pro
-description: Saiba como configurar o Microsoft Defender ATP para políticas macOS no Jamf Pro
+title: Configurar o Microsoft Defender para Endpoint para políticas macOS no Jamf Pro
+description: Saiba como configurar o Ponto de Extremidade do Microsoft Defender para políticas macOS no Jamf Pro
 keywords: policies, microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79f5837ae6bae6e6a9d952d90605f4cf7b31262e
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 1a00d1c0863db7f4f5f853312f202b5e985b1512
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765126"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862266"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Configurar o Microsoft Defender para Ponto de Extremidade em políticas macOS no Jamf Pro
 
@@ -162,7 +162,7 @@ Você precisará seguir as seguintes etapas:
     - archive_bomb
     - cloudService
     - automaticSampleSubmission
-    - tags
+    - categorias
     - hideStatusMenuIcon
     
      Para obter informações, consulte [Lista de propriedades para perfil de configuração jamf](mac-preferences.md#property-list-for-jamf-configuration-profile).
@@ -360,7 +360,7 @@ Essas etapas são aplicáveis ao macOS 10.15 (Catalina) ou mais novo.
         - **Método Distribution**: Instalar Automaticamente *(padrão)*
         - **Nível**: Nível do *computador (padrão)*
 
-        ![Imagem das configurações de perfil mdatpmdav](images/c9820a5ff84aaf21635c04a23a97ca93.png)
+        ![Imagem da nova tela de perfil de configuração do macOS](images/c9820a5ff84aaf21635c04a23a97ca93.png)
 
     - Notificações **de tabulação,** clique **em Adicionar** e insira os seguintes valores:
         - **ID do pacote:**`com.microsoft.wdav.tray`

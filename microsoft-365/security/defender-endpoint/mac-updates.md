@@ -1,6 +1,6 @@
 ---
-title: Implantar atualizações do Microsoft Defender ATP para Mac
-description: Controlar atualizações do Microsoft Defender ATP para Mac em ambientes corporativos.
+title: Implantar atualizações do Microsoft Defender para Ponto de Extremidade para Mac
+description: Atualizações de controle do Microsoft Defender para Ponto de Extremidade para Mac em ambientes corporativos.
 keywords: microsoft, defender, atp, mac, atualizações, implantar
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3321c1bd181b89c53e2618fc20fa7f733a20cfc1
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9d373594771efe4eb647c007db3a26efe83e330e
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689048"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860310"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -78,7 +78,7 @@ O `Current` canal contém a versão mais estável do produto.
 
 |Section|Valor|
 |:--|:--|
-| **Domínio** | com.microsoft.autoupdate2 |
+| **Domínio** | `com.microsoft.autoupdate2` |
 | **Tecla** | ChannelName |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | Beta <br/> Visualização <br/> Atual |
@@ -96,11 +96,11 @@ Altere a frequência com que o MAU pesquisa atualizações.
 
 |Section|Valor|
 |:--|:--|
-| **Domínio** | com.microsoft.autoupdate2 |
+| **Domínio** | `com.microsoft.autoupdate2` |
 | **Tecla** | UpdateCheckFrequency |
 | **Tipo de dados** | Inteiro |
 | **Valor padrão** | 720 (minutos) |
-| **Comment** | Esse valor é definido em minutos. |
+| **Comentário** | Esse valor é definido em minutos. |
 
 
 ### <a name="change-how-mau-interacts-with-updates"></a>Alterar como o MAU interage com atualizações
@@ -109,11 +109,11 @@ Altere como o MAU pesquisa atualizações.
 
 |Section|Valor|
 |:--|:--|
-| **Domínio** | com.microsoft.autoupdate2 |
+| **Domínio** | `com.microsoft.autoupdate2` |
 | **Tecla** | HowToCheck |
 | **Tipo de dados** | Cadeia de caracteres |
 | **Valores possíveis** | Manual <br/> AutomaticCheck <br/> AutomaticDownload |
-| **Comment** |  Observe que AutomaticDownload fará um download e instalará silenciosamente, se possível. |
+| **Comentário** |  Observe que AutomaticDownload fará um download e instalará silenciosamente, se possível. |
 
 
 ### <a name="change-whether-the-check-for-updates-button-is-enabled"></a>Alterar se o botão "Verificar atualizações" está habilitado
@@ -122,7 +122,7 @@ Altere se os usuários locais poderão clicar na opção "Verificar atualizaçõ
 
 |Section|Valor|
 |:--|:--|
-| **Domínio** | com.microsoft.autoupdate2 |
+| **Domínio** | `com.microsoft.autoupdate2` |
 | **Tecla** | EnableCheckForUpdatesButton |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | True (padrão) <br/> Falso |
@@ -134,7 +134,7 @@ Definir como true para tornar o "Ingressar no Programa Office Insider..." caixa 
 
 |Section|Valor|
 |:--|:--|
-| **Domínio** | com.microsoft.autoupdate2 |
+| **Domínio** | `com.microsoft.autoupdate2` |
 | **Tecla** | DisableInsiderCheckbox |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | False (padrão) <br/> Verdadeiro |
@@ -146,7 +146,7 @@ De definida como false para enviar dados mínimos de pulsação, sem uso de apli
 
 |Section|Valor|
 |:--|:--|
-| **Domínio** | com.microsoft.autoupdate2 |
+| **Domínio** | `com.microsoft.autoupdate2` |
 | **Tecla** | SendAllTelemetryEnabled |
 | **Tipo de dados** | Booliano |
 | **Valores possíveis** | True (padrão) <br/> Falso |

@@ -1,6 +1,6 @@
 ---
-title: Definir preferências para o Microsoft Defender ATP para Mac
-description: Configure o Microsoft Defender ATP para Mac em organizações corporativas.
+title: Definir preferências do Microsoft Defender para Ponto de Extremidade para Mac
+description: Configure o Microsoft Defender para Ponto de Extremidade para Mac em organizações corporativas.
 keywords: microsoft, defender, atp, mac, gerenciamento, preferências, enterprise, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 951c51c767ba09ebc6056481b4fac45da09c5671
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d2bea469031e2c5932e859fbad7d442ebe4d34ed
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688544"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860914"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -376,7 +376,7 @@ Especifique um nome de marca e seu valor.
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | tags |
+| **Tecla** | categorias |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 | **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 
@@ -829,7 +829,7 @@ No console JAMF, **abra** Perfis de Configuração de Computadores, navegue até
 
 5. Abra o perfil de configuração e carregue o `com.microsoft.wdav.xml` arquivo. (Esse arquivo foi criado na etapa 3.)
 
-6. Clique em **OK**.
+6. Selecione **OK**.
 
 7. Selecione **Gerenciar**  >  **atribuições**. Na guia **Incluir,** selecione **Atribuir a Todos os Usuários & Todos os dispositivos**.
 

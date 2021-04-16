@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - GEA150
 description: Saiba como obter um relatório de uso do Microsoft 365 Apps usando o painel Relatórios do Microsoft 365 no centro de administração do Microsoft 365.
-ms.openlocfilehash: 5b45e7994126018701c409d4fbfc6f1172924773
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: d41a1680b46709c3f41b5238d309794c68101cee
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644262"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860744"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-apps-usage"></a>Relatórios do Microsoft 365 no centro de administração - uso do Microsoft 365 Apps
 
@@ -33,7 +33,7 @@ O painel Relatórios  do Microsoft 365 mostra a visão geral da atividade em tod
 
 
  > [!NOTE]
- > Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou administrador do Exchange, SharePoint ou Skype for Business para ver relatórios. As ativações de computador compartilhadas não são suportadas neste relatório.
+ > Você deve ser um administrador global, leitor global ou leitor de relatórios no Microsoft 365 ou administrador do Exchange, SharePoint ou Skype for Business para ver relatórios. As ativações de computador compartilhadas não estão incluídas neste relatório.
 
 ## <a name="how-to-get-to-the-microsoft-365-apps-usage-report"></a>Como chegar ao relatório de uso do Microsoft 365 Apps
 
@@ -50,7 +50,7 @@ Você pode obter uma exibição na atividade do Microsoft 365 Apps do usuário, 
 |Item|Descrição|
  |:-----|:-----|
  |1. <br/> |O relatório de uso do **Microsoft 365 Apps** pode ser exibido para tendências nos últimos 7 dias, 30, 90 dias ou 180 dias. No entanto, se você selecionar um dia específico no relatório, a tabela (7) mostrará dados por até 28 dias a partir da data atual (e não a data em que o relatório foi gerado). <br/> |
- |2. <br/> |Os dados em cada relatório geralmente abrangem até os últimos sete dias. <br/> |
+ |2. <br/> |Os dados em cada relatório geralmente abrangem até os últimos dois dias. A cada seis dias, atualizaremos o relatório com atualizações secundárias para garantir a qualidade dos dados. <br/> |
  |3. <br/> |A **exibição** Usuários mostra a tendência no número de usuários ativos para cada aplicativo – Outlook, Word, Excel, PowerPoint, OneNote e Teams. "Usuários ativos" são aqueles que executam ações intencionais dentro desses aplicativos. <br/> |
  |4. <br/> |A **exibição Plataformas** mostra a tendência de usuários ativos em todos os aplicativos para cada plataforma – Windows, Mac, Web e Mobile. <br/> |
  |5.<br/>|No gráfico **Usuários,** o eixo Y é o número de usuários ativos exclusivos para o aplicativo respectivo. No gráfico **Plataformas,**   o eixo Y é o número de usuários exclusivos para a respectiva plataforma. O eixo X em ambos os gráficos é a data na qual um aplicativo foi usado em uma determinada plataforma.<br/>|

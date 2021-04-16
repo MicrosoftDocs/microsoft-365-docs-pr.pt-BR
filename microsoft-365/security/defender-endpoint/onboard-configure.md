@@ -1,5 +1,5 @@
 ---
-title: Integração de dispositivos para o serviço Microsoft Defender ATP
+title: Integração de dispositivos para o serviço do Microsoft Defender para Ponto de Extremidade
 description: Onboard Windows 10 devices, servers, non-Windows devices and learn how to run a detection test.
 keywords: integração, microsoft defender para integração de ponto de extremidade, integração do windows atp, sccm, política de grupo, mdm, script local, teste de detecção
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9b7a225e29b4b79b2e6caf95332cb91da3dade7f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4aa3e30f34e7d9dc362cc0bbb277aaee5834b4fe
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186948"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861366"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Integração de dispositivos para o serviço do Microsoft Defender para Ponto de Extremidade
 
@@ -63,11 +63,11 @@ A tabela a seguir lista as ferramentas disponíveis com base no ponto de extremi
 ## <a name="in-this-section"></a>Nesta seção
 Tópico | Descrição
 :---|:---
-[Integração de versões anteriores do Windows](onboard-downlevel.md)| Integração de dispositivos Windows 7 e Windows 8.1 para Defender para Ponto de Extremidade. 
-[Integração de dispositivos Windows 10](configure-endpoints.md) | Você precisará integrar dispositivos para que ele se reporte ao serviço Defender para Ponto de Extremidade. Saiba mais sobre as ferramentas e métodos que você pode usar para configurar dispositivos em sua empresa.
+[Versões anteriores integradas do Windows](onboard-downlevel.md)| Integração de dispositivos Windows 7 e Windows 8.1 para Defender para Ponto de Extremidade. 
+[Dispositivos integrados do Windows 10](configure-endpoints.md) | Você precisará integrar dispositivos para que ele se reporte ao serviço Defender para Ponto de Extremidade. Saiba mais sobre as ferramentas e métodos que você pode usar para configurar dispositivos em sua empresa.
 [Servidores de integração](configure-server-endpoints.md) |  Integrando o Windows Server 2008 R2 SP1, o Windows Server 2012 R2, o Windows Server 2016, o Windows Server (SAC) versão 1803 e posterior, o Windows Server 2019 e posterior e a edição principal do Windows Server 2019 para o Defender para Ponto de Extremidade.
-[Integração de dispositivos que não são windows](configure-endpoints-non-windows.md) | O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para o Windows, bem como para plataformas que não são do Windows. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no Centro de Segurança do Microsoft Defender e proteger melhor a rede da sua organização. Essa experiência aproveita os dados do sensor de produtos de segurança de terceiros. 
-[Executar um teste de detecção em um dispositivo recém-conectado](run-detection-test.md) | Execute um script em um dispositivo recém-conectado para verificar se ele está relatando corretamente para o serviço Defender para Ponto de Extremidade.
+[Dispositivos Windows não integrados](configure-endpoints-non-windows.md) | O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para o Windows, bem como para plataformas que não são do Windows. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no Centro de Segurança do Microsoft Defender e proteger melhor a rede da sua organização. Essa experiência aproveita os dados do sensor de produtos de segurança de terceiros. 
+[Executar um teste de detecção em um dispositivo recém-integrado](run-detection-test.md) | Execute um script em um dispositivo recém-conectado para verificar se ele está relatando corretamente para o serviço Defender para Ponto de Extremidade.
 [Configurar configurações de proxy e Internet](configure-proxy-internet.md)| Habilita a comunicação com o serviço de nuvem do Defender para Ponto de Extremidade configurando as configurações de conectividade proxy e Internet.
 [Solucionar problemas de integração](troubleshoot-onboarding.md) | Saiba mais sobre como resolver problemas que podem surgir durante a integração.
 

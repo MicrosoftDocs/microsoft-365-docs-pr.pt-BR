@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 description: Saiba como ativar e gerenciar aplicativos de terceiros no Centro de administração do Microsoft 365.
-ms.openlocfilehash: 974ce99b55dcb078286d7f6dba35166e51ce62a7
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 457545282801829ca34de0318dd9eb7791866214
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576908"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860530"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Gerenciar assinaturas de aplicativos de terceiros para sua organização
 
@@ -31,7 +31,7 @@ Você pode gerenciar licenças e cobranças para aplicativos de terceiros no Cen
 
 Há algumas maneiras de comprar aplicativos de terceiros.
 
-- **Compra direta** – os clientes podem comprar diretamente assinaturas do [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)ou [appSource](https://www.appsource.com/).
+- **Compra direta** – os clientes podem comprar diretamente assinaturas do [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)ou [appSource](https://appsource.microsoft.com/).
 - **Compra de parceiros** – trabalhe com um parceiro por meio do Partner Center para comprar assinaturas.
 - **Proposta da Microsoft** – Responda a uma proposta do Microsoft Sales que inclui aplicativos de terceiros.
 
@@ -81,7 +81,7 @@ Veja o que você pode fazer em cada portal.
 
 Depois que o aplicativo é ativado, ele permanece ativo, a menos que seja cancelado, expire ou se o pagamento não for mantido atual. Esses eventos alteram o status do aplicativo para desabilitado. Depois que um aplicativo é desabilitado, ele não pode ser reativado. Para continuar usando o aplicativo, compre outra cópia dele.
 
-## <a name="assign-licenses"></a>Atribuir licenças
+## <a name="assign-licenses"></a>Atribua licenças
 
 Os administradores precisam ativar aplicativos de terceiros antes de atribuí-los aos usuários. Eles são ativados no portal do editor de terceiros. Na página do aplicativo, em **Configurações & ações,** selecione o link para atribuir licenças.
 

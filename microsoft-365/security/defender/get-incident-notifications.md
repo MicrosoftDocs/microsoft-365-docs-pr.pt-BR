@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: fec2263599f3ed727d3d9d70023927084eb1c094
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 72a1f8fe71efcfa7f4f73671611576a454b508e6
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501068"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861306"
 ---
 # <a name="get-incident-notifications-by-email"></a>Obter notificações de incidentes por email
 
@@ -37,42 +37,44 @@ ms.locfileid: "51501068"
 **Aplica-se a:**
 - Microsoft 365 Defender
 
-Você pode configurar o Microsoft 365 Defender para notificá-lo por email sempre que houver novos incidentes ou novas atualizações para incidentes existentes. 
+Você pode configurar o Microsoft 365 Defender para notificar sua equipe com um email sobre novos incidentes ou atualizações para incidentes existentes. Você pode optar por receber notificações com base em:
 
-Você pode optar por receber notificações com base na gravidade do incidente ou no grupo de dispositivos. Você também pode optar por receber uma notificação somente na primeira atualização por incidente.
+- Gravidade do incidente.
+- Grupo de dispositivos.
+- Somente na primeira atualização por incidente.
 
-Você pode adicionar ou remover destinatários nas notificações de email. Os destinatários recém-adicionados são notificados sobre incidentes depois que são adicionados. 
+A notificação de email contém detalhes importantes sobre o incidente, como o nome do incidente, gravidade e categorias, entre outros. Você também pode ir diretamente para o incidente e iniciar sua investigação imediatamente. Para obter mais informações, consulte [Investigar incidentes](investigate-incidents.md).
 
-A notificação de email contém detalhes importantes sobre o incidente, como o nome do incidente, gravidade e categorias, entre outros. Você também pode ir diretamente a incidentes para que possa iniciar sua investigação imediatamente. Para obter mais informações sobre a investigação de incidentes, consulte [Investigar incidentes no Microsoft 365 Defender](./investigate-incidents.md).
+Você pode adicionar ou remover destinatários nas notificações de email. Novos destinatários são notificados sobre incidentes depois que são adicionados. 
 
 >[!NOTE]
->Você precisa de permissões "Gerenciar configurações de segurança" para configurar as configurações de notificação de email. Se você optou por usar o gerenciamento de permissões básicas, os usuários com funções de Administrador de Segurança ou Administrador Global podem configurar notificações de email para você. <br> <br>
+>Você precisa da permissão "Gerenciar configurações de segurança" para configurar as configurações de notificação de email. Se você optou por usar o gerenciamento de permissões básicas, os usuários com funções de Administrador de Segurança ou Administrador Global podem configurar notificações de email para você. <br> <br>
 Da mesma forma, se sua organização estiver usando o controle de acesso baseado em função (RBAC), você só poderá criar, editar, excluir e receber notificações com base nos grupos de dispositivos que você tem permissão para gerenciar.
 
-## <a name="create-rules-for-incident-notifications"></a>Criar regras para notificações de incidentes
+## <a name="create-a-rule-for-email-notifications"></a>Criar uma regra para notificações por email
 
-Para configurar sua primeira notificação de email para incidentes, crie uma nova regra e personalize as configurações de notificação de email.
+Siga estas etapas para criar uma nova regra e personalizar as configurações de notificação de email.
 
-1. No painel de navegação, selecione **Configurações**  >  **Notificações de email de incidentes.**
+1. No painel de navegação, selecione **Configurações > do Microsoft 365 Defender > notificações de email de incidentes.**
 2. Selecione **Adicionar item**.
-3. Dê à regra um nome em **Name e** fornece uma **Descrição**.
+3. Na página **Noções Básicas,** digite o nome da regra e uma descrição e selecione **Next**.
+4. Na página **Configurações de notificação,** configure:
+    - **Gravidade do alerta** - Escolha as gravidades de alerta que dispararão uma notificação de incidente. Por exemplo, se você quiser apenas ser informado sobre incidentes de alta gravidade, selecione **Alta**.
+    - **Escopo do grupo de** dispositivos - Você pode especificar todos os grupos de dispositivos ou selecionar na lista de grupos de dispositivos em seu locatário.
+    - **Notificar somente a primeira ocorrência por incidente** - Selecione se quiser uma notificação somente no primeiro alerta que corresponde às outras seleções. Atualizações ou alertas posteriores relacionados ao incidente não enviarão notificações adicionais.
+    - **Inclua o nome da organização no email** - Selecione se você deseja que o nome da sua organização apareça na notificação de email.
+    - **Incluir link de portal** específico do locatário - Selecione se você deseja adicionar um link com a ID do locatário na notificação de email para acesso a um locatário específico do Microsoft 365.
 
-    ![Criar janela de regra para notificações de email de incidentes](../../media/incidentemailnotif1.png) 
-4. Selecione **Próximo** para ir para **Configurações de notificação**. Aqui você pode especificar:
-    - **Gravidade do alerta** - Escolha a gravidade do alerta que disparará uma notificação de incidente. Por exemplo, se você quiser apenas ser informado sobre incidentes de alta gravidade, selecione Alta.
-    - **Escopo do grupo de** dispositivos - Essa lista lista exibe todos os grupos de dispositivos que o usuário pode acessar. Selecione para quais grupos de dispositivos você está criando as regras de notificação de incidentes.
-    - **Notificar somente a primeira ocorrência por incidente** - Selecionar essa opção enviará uma notificação de email somente no primeiro alerta que corresponde às outras seleções. Atualizações posteriores ou alertas relacionados ao incidente não dispararão uma notificação.
-    - **Incluir nome da** organização - Indica se o nome do cliente aparece na notificação de email ou não.
-    - **Incluir link de portal específico do locatário** - Adiciona um link com a ID do locatário para permitir o acesso a um locatário específico.
-    
-    ![Notif settings window for incident email notifs](../../media/incidentemailnotif2.png)
-5. Selecione **Próximo** para ir na **seção Destinatários.** Aqui você pode especificar endereços de email que receberão as notificações de email de incidente. Selecione **Adicionar um destinatário após** digitar cada endereço de email.
+    :::image type="content" source="../../media/get-incident-notifications/incidents-ss-email-notification-settings.png" alt-text="Configurações de notificação para notificações de email de incidentes":::
 
-    ![Adicionar janela de destinatários para notificações de email de incidentes](../../media/incidentemailnotif3.png) 
+5. Selecione **Avançar**. Na página **Destinatários,** adicione os endereços de email que receberão as notificações de incidentes. Selecione **Adicionar** após digitar cada novo endereço de email. Para testar notificações e garantir que os destinatários as recebam nas caixas de entrada, selecione **Enviar email de teste.** 
+6. Selecione **Avançar**. Na página **Revisar regra,** revise as configurações da regra e selecione **Criar regra**. Os destinatários começarão a receber notificações de incidentes por email com base nas configurações.
 
-6. Por fim, **selecione Próximo** a ir para **Revisar regra** para que você possa ver todas as configurações associadas à nova regra. Os destinatários começarão a receber notificações de incidentes por email com base nas configurações.
+Para editar uma regra existente, selecione-a na lista de regras. No painel com o nome da regra, selecione **Editar** regra e faça suas alterações nas páginas **Noções Básicas,** Configurações de Notificação e **Destinatários.** 
+
+Para editar uma regra existente, selecione-a na lista de regras. No painel com o nome da regra, selecione **Excluir**.
 
 ## <a name="see-also"></a>Confira também
-- [Visão geral de incidentes no Microsoft 365 Defender](./incidents-overview.md)
-- [Priorizar incidentes no Microsoft 365 Defender](./incident-queue.md)
-- [Investigar incidentes no Microsoft 365 Defender](./investigate-incidents.md)
+- [Visão geral dos incidentes](incidents-overview.md)
+- [Priorizar incidentes](incident-queue.md)
+- [Investigar incidentes](investigate-incidents.md)

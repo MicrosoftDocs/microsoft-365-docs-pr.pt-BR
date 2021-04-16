@@ -1,5 +1,5 @@
 ---
-title: Criar e gerenciar grupos de dispositivos no Microsoft Defender ATP
+title: Criar e gerenciar grupos de dispositivos no Microsoft Defender para Ponto de Extremidade
 description: Criar grupos de dispositivos e definir níveis automatizados de correção neles, confiando as regras que se aplicam ao grupo
 keywords: grupos de dispositivos, grupos, correção, nível, regras, aad group, role, assign, rank
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: dfc7c04bbde2b7061c92f5a25115b75a2f5b47b5
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: acd24e5c87a74bbb32835ec170a121c5c0b6bb33
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053920"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860298"
 ---
 # <a name="create-and-manage-device-groups"></a>Criar e gerenciar grupos de dispositivos
 

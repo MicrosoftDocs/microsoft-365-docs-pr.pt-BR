@@ -1,5 +1,5 @@
 ---
-title: Relatório de conformidade e saúde do dispositivo no Microsoft Defender ATP
+title: Relatório de conformidade e saúde do dispositivo no Microsoft Defender para Ponto de Extremidade
 description: Rastrear detecções de estado de saúde do dispositivo, status do antivírus, plataforma do sistema operacional e versões do Windows 10 usando o relatório de conformidade e saúde do dispositivo
 keywords: estado de saúde, antivírus, plataforma do sistema operacional, versão do windows 10, versão, saúde, conformidade, estado
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5229ba068672035c2dce3afee1919f9c2d7f9e44
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 35100a4b8bdaee23c427816450e948ced9ed3191
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186444"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860286"
 ---
 # <a name="device-health-and-compliance-report-in-microsoft-defender-for-endpoint"></a>Relatório de conformidade e saúde do dispositivo no Microsoft Defender para Ponto de Extremidade
 
@@ -39,7 +39,7 @@ O relatório de status dos dispositivos fornece informações de alto nível sob
 
 O painel é estruturado em duas seções: ![ Imagem do relatório do dispositivo](images/device-reports.png)
  
-Seção | Descrição
+Section | Descrição
 :---|:---
 1 | Tendências de dispositivo
 2 | Resumo do dispositivo (dia atual)

@@ -1,6 +1,6 @@
 ---
 title: Provedores de serviços de segurança gerenciados com suporte
-description: Consulte a lista de MSSPs que o Microsoft Defender ATP integra
+description: Consulte a lista de MSSPs que o Microsoft Defender for Endpoint integra
 keywords: provedor de serviços de segurança gerenciado, mssp, configurar, integração
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 16b238a1d38e1aad70a4286d4ce8ecae1aae9a21
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 71db42f4bd651f4e9d4236e1f4d794aeb99dfa9f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186600"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862146"
 ---
 # <a name="supported-managed-security-service-providers"></a>Provedores de serviços de segurança gerenciados com suporte
 

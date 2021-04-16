@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Determine se o locatário e os usuários atendem aos requisitos, para que você possa usar a Implantação Centralizada para implantar os complementos do Office.
-ms.openlocfilehash: 1516a10932158ba137f58900e0c19c5fea3bd119
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7eb15563ca11e8fcce17dc6b505347475d18641e
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580949"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860686"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Determinar se a Implantação Centralizada de complementos funciona para sua organização
 
@@ -155,5 +155,5 @@ Se você ou seus usuários encontrarem problemas para carregar o complemento enq
   
 |**Plataforma**|**Informações de depuração**|
 |:-----|:-----|
-|Office  <br/> | Registros de Charles/Fiddler  <br/>  ID do locatário ( [saiba como](/onedrive/find-your-office-365-tenant-id.aspx))  <br/>  CorrelationID. Exibir a origem de uma das páginas do office e procurar o valor da ID de correlação e enviá-la para dar suporte a:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|Office  <br/> | Registros de Charles/Fiddler  <br/>  ID do locatário ( [saiba como](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id))  <br/>  CorrelationID. Exibir a origem de uma das páginas do office e procurar o valor da ID de correlação e enviá-la para dar suporte a:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Clientes avançados (Windows, Mac)  <br/> | Registros de Charles/Fiddler  <br/>  Criar números do aplicativo cliente (preferencialmente como uma captura de tela de **Arquivo/Conta**)  <br/> |

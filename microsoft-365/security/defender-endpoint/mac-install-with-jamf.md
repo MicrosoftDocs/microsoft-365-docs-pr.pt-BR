@@ -1,6 +1,6 @@
 ---
-title: Implantando o Microsoft Defender ATP para macOS com o Jamf Pro
-description: Implantando o Microsoft Defender ATP para macOS com o Jamf Pro
+title: Implantando o Microsoft Defender para Ponto de Extremidade para macOS com o Jamf Pro
+description: Implantando o Microsoft Defender para Ponto de Extremidade para macOS com o Jamf Pro
 keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a8015221f26250451a6cbcab8e66f35aafdc0767
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: e49a56b138e792f06229345d19a5867c9f6438af
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689699"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862254"
 ---
 # <a name="deploying-microsoft-defender-for-endpoint-on-macos-with-jamf-pro"></a>Implantando o Microsoft Defender para Ponto de Extremidade no macOS com o Jamf Pro
 

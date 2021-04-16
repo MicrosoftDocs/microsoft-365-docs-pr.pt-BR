@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 43ade52e18ffc8e5db890cb0776090e9b32419e2
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: da15519211599bfc248c20c36cfab456c1661caa
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687656"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862062"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>Gerenciamento de vulnerabilidade e descoberta de dispositivo de rede
 
@@ -41,6 +41,9 @@ ms.locfileid: "51687656"
 > Para obter mais informações, consulte Recursos de visualização do [Microsoft Defender for Endpoint](preview.md).
 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
+
+> [!NOTE]  
+> O Blog de avaliação de vulnerabilidade e descoberta de [dispositivos](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/network-device-discovery-and-vulnerability-assessments/ba-p/2267548) de rede publicado em \( 13/04/2021 fornece informações sobre os novos recursos de descoberta de dispositivos de rede no \) Defender for Endpoint.  Este artigo fornece uma visão  geral do desafio que a descoberta de dispositivos de rede foi projetada para resolver e informações detalhadas sobre como começar a usar esses novos recursos.
 
 Os recursos de descoberta de rede estão disponíveis na **seção** Inventário de dispositivos do Centro de Segurança do Microsoft 365 e consoles do Centro de Segurança do Microsoft Defender.  
 
@@ -97,20 +100,22 @@ Sua primeira etapa é selecionar um dispositivo que executará as verificações
     - login.microsoftonline.com
     - *.blob.core.windows.net/networkscannerstable/ *
 
-    Observação: nem todas as URLs são especificadas na lista documentada do Defender for Endpoint da coleção de dados permitida.
+    > [!NOTE]
+    > Nem todas as URLs são especificadas na lista documentada do Defender for Endpoint da coleção de dados permitida.
 
 ## <a name="permissions"></a>Permissões
 
-Para configurar trabalhos de avaliação, a seguinte opção de permissão de usuário é necessária: **Gerenciar configurações de segurança no Centro de Segurança**. Você pode encontrar a permissão indo para **Configurações**  >  **Funções**. Para obter mais informações, [consulte Create and manage roles for role-based access control](user-roles.md)
+Para configurar trabalhos de avaliação, a seguinte opção de permissão de usuário é necessária: **Gerenciar configurações de segurança no Centro de Segurança**. Você pode encontrar a permissão indo para **Configurações**  >  **Funções**. Para obter mais informações, [consulte Create and manage roles for role-based access control](user-roles.md).
 
 ## <a name="install-the-network-scanner"></a>Instalar o scanner de rede
 
-1. Vá para **Configurações de Segurança do Microsoft 365** Trabalhos de Avaliação de Pontos de Extremidade  >    >    >   (em 'Avaliações de rede').
+1. Vá para **Configurações de Segurança do Microsoft 365 Trabalhos** de Avaliação de Pontos de Extremidade  >    >    >   (em **Avaliações de rede**).
     1. Na Central de Segurança do Microsoft Defender, acesse Configurações > Trabalhos de Avaliação.
 
 2. Baixe o scanner de rede e instale-o no dispositivo de avaliação do Defender para Ponto de Extremidade designado.
 
-![Botão Baixar scanner](images/assessment-jobs-download-scanner.png)
+    > [!div class="mx-imgBorder"]
+    > ![Botão Baixar scanner](images/assessment-jobs-download-scanner.png)
 
 ## <a name="network-scanner-installation--registration"></a>Instalação do scanner de rede & registro
 
@@ -119,7 +124,9 @@ O processo de entrada pode ser concluído no próprio dispositivo de avaliação
 Para concluir o processo de registro do scanner de rede:
 
 1. Copie e siga a URL que aparece na linha de comando e use o código de instalação fornecido para concluir o processo de registro.
-    - Observação: talvez seja necessário alterar as configurações do Prompt de Comando para poder copiar a URL.
+
+    > [!NOTE]
+    > Talvez seja necessário alterar as configurações do Prompt de Comando para poder copiar a URL.
 
 2. Insira o código e entre usando uma conta da Microsoft que tenha a permissão Defender para Ponto de Extremidade chamada "Gerenciar configurações de segurança no Centro de Segurança".
 
@@ -131,13 +138,17 @@ Na página Trabalhos de Avaliação em **Configurações,** selecione **Adiciona
 
 Para impedir a duplicação de dispositivos no inventário de dispositivos de rede, certifique-se de que cada endereço IP está configurado apenas uma vez em vários dispositivos de avaliação.
 
-![Adicionar botão de trabalho de avaliação de rede](images/assessment-jobs-add.png)
+> [!div class="mx-imgBorder"]
+> ![Adicionar botão de trabalho de avaliação de rede](images/assessment-jobs-add.png)
 
 Adicionando etapas de trabalho de avaliação de rede:
 
-1. Escolha um nome "Trabalho de Avaliação" e o "Dispositivo de Avaliação" no qual o scanner de rede foi instalado. Este dispositivo executará as verificações autenticadas periódicas. 
+1. Escolha um nome "Trabalho de Avaliação" e o "Dispositivo de Avaliação" no qual o scanner de rede foi instalado. Este dispositivo executará as verificações autenticadas periódicas.
+
 2. Adicione endereços IP de dispositivos de rede de destino a serem verificados (ou as sub-redes onde esses dispositivos são implantados). 
+
 3. Adicione credenciais SNMP necessárias dos dispositivos de rede de destino. 
+
 4. Salve o trabalho de avaliação de rede recém-configurado para iniciar a verificação periódica da rede. 
 
 ### <a name="scan-and-add-network-devices"></a>Examinar e adicionar dispositivos de rede
@@ -157,13 +168,14 @@ Depois que os resultados aparecerem, você poderá escolher quais dispositivos s
 
 Os dispositivos recém-descobertos serão mostrados na nova guia **Dispositivos** de rede na página **Inventário de** dispositivos. Pode levar até duas horas após adicionar um trabalho de avaliação até que os dispositivos sejam atualizados.
 
-![Seção Dispositivos de rede no inventário de dispositivos](images/assessment-jobs-device-inventory.png)
+> [!div class="mx-imgBorder"]
+> ![Seção Dispositivos de rede no inventário de dispositivos](images/assessment-jobs-device-inventory.png)
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
 ### <a name="network-scanner-installation-has-failed"></a>Falha na instalação do scanner de rede
 
-Verifique se as URLs necessárias são adicionadas aos domínios permitidos em suas configurações de firewall. Além disso, certifique-se de que as configurações de proxy estão configuradas conforme descrito em [Configure device proxy and Internet connectivity settings](configure-proxy-internet.md)
+Verifique se as URLs necessárias são adicionadas aos domínios permitidos em suas configurações de firewall. Além disso, certifique-se de que as configurações de proxy estão configuradas conforme descrito em [Configure device proxy and Internet connectivity settings](configure-proxy-internet.md).
 
 ### <a name="the-microsoftcomdevicelogin-web-page-did-not-show-up"></a>A Microsoft.com/devicelogin da Web não foi a aparecer
 

@@ -1,5 +1,5 @@
 ---
-title: Recursos de visualização do Microsoft Defender ATP
+title: Recursos de visualização do Microsoft Defender para Ponto de Extremidade
 description: Saiba como acessar os recursos de visualização do Microsoft Defender for Endpoint.
 keywords: visualização, experiência de visualização, Microsoft Defender para Ponto de Extremidade, recursos, atualizações
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4a91fa3c8ff55f46619c7b49eaf973ad94f60bfe
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 817ed5e33505f691b11970e3da4c956afa7dc76c
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698179"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861054"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Recursos de visualização do Microsoft Defender para Ponto de Extremidade
 

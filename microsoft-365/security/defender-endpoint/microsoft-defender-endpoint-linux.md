@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender para Ponto de Extremidade no Linux
+title: Microsoft Defender para Ponto de Extremidade para Linux
 ms.reviewer: ''
-description: Descreve como instalar e usar o Microsoft Defender ATP para Linux.
+description: Descreve como instalar e usar o Microsoft Defender para Endpoint para Linux.
 keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0fea9d4dd46be2a77ea27728787a43b5273f92f5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f67dd28902e8b45a5401b60c027faa89d7467cd8
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687752"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861390"
 ---
-# <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade no Linux
+# <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -83,7 +83,7 @@ Se você tiver alguma falha de instalação, consulte [Troubleshooting installat
   > Não há suporte para executar o Defender para Ponto de Extremidade para Linux lado a lado com outras soluções `fanotify` de segurança baseadas. Pode levar a resultados imprevisíveis, incluindo a suspensão do sistema operacional.
 
 - Espaço em disco: 1 GB
-- /opt/microsoft/mdatp/sbin/wdavdaemon requer permissão executável. Para obter mais informações, consulte "Verifique se o daemon tem permissão executável" em Solucionar problemas de instalação do [Microsoft Defender ATP para Linux](/microsoft-365/security/defender-endpoint/linux-support-install).
+- /opt/microsoft/mdatp/sbin/wdavdaemon requer permissão executável. Para obter mais informações, consulte "Certifique-se de que o daemon tenha permissão executável" em Solucionar problemas de instalação do [Microsoft Defender para Endpoint para Linux](/microsoft-365/security/defender-endpoint/linux-support-install).
 - Memória: 1 GB
     > [!NOTE]
     > Verifique se você tem espaço livre em disco no /var.

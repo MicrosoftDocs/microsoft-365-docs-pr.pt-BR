@@ -1,5 +1,5 @@
 ---
-title: Começar a trabalhar com o Microsoft Teams em sua pequena empresa
+title: Comece a trabalhar com o Microsoft Teams em seu pequeno negócio
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -20,14 +20,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como usar o Microsoft Teams em sua pequena empresa.
-ms.openlocfilehash: 592d5eda985239f79ce42291af840ff7762a903c
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+ms.openlocfilehash: b77ad43722764895a4f89c623d4af9403aa25e5b
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034253"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860554"
 ---
-# <a name="get-started-with-microsoft-teams-in-your-small-business"></a>Começar a trabalhar com o Microsoft Teams em sua pequena empresa
+# <a name="get-started-with-microsoft-teams-in-your-small-business"></a>Comece a trabalhar com o Microsoft Teams em seu pequeno negócio
 
 - [Usar o Teams para sua empresa (vídeo)](#use-teams-for-your-business-video)
 - [Hospedar reuniões online para sua empresa (vídeo)](#host-online-meetings-for-your-business-video)
@@ -47,7 +47,7 @@ Para ajudar a trabalhar remotamente, recomendamos começar com estas três etapa
 
 ## <a name="1-get-ready"></a>1. Prepare-se 
 
-Começar é fácil. Se você já tiver uma assinatura do Microsoft 365, certifique-se de que todos tenham uma licença que inclua o Microsoft Teams. Se sua empresa ainda não tiver o Microsoft Teams, você poderá [encontrar o Microsoft Teams](https://aka.ms/TeamsBusinessBasic) certo para sua empresa e se inscrever.
+Começar é fácil. Se você já tiver uma assinatura do Microsoft 365, certifique-se de que todos tenham uma licença que inclua o Microsoft Teams. Se sua empresa ainda não tiver o Microsoft Teams, você poderá [encontrar o Microsoft Teams](https://www.microsoft.com/microsoft-teams/teams-for-work) certo para sua empresa e se inscrever.
 
 ### <a name="get-microsoft-teams-ready-for-your-customers"></a>Preparar o Microsoft Teams para seus clientes
 
@@ -133,4 +133,4 @@ Transforme qualquer computador, Mac ou dispositivo móvel em um telefone comerci
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-[Capacitar sua pequena empresa com trabalho remoto](https://docs.microsoft.com/microsoft-365/admin/misc/empower-your-small-business-with-remote-work.md) (artigo)
+[Capacitar sua pequena empresa com trabalho remoto](https://docs.microsoft.com/microsoft-365/admin/misc/empower-your-small-business-with-remote-work) (artigo)

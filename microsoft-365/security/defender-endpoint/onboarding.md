@@ -1,7 +1,7 @@
 ---
 title: Integração ao serviço microsoft defender para ponto de extremidade
 description: Saiba como integrar pontos de extremidade ao serviço do Microsoft Defender para Ponto de Extremidade
-keywords: ''
+keywords: microsoft defender para ponto de extremidade, onboard, deploy
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: cc538c887397d5bbea78f63c8a8acd318ec7fe9f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 2a3325a290dc985bdb99a5a843b4b9e1f642a62b
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689528"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861798"
 ---
 # <a name="onboard-to-the-microsoft-defender-for-endpoint-service"></a>Integração ao serviço microsoft defender para ponto de extremidade
 

@@ -1,5 +1,5 @@
 ---
-title: Gerenciar incidentes do Microsoft Defender ATP
+title: Gerenciar o Microsoft Defender para incidentes de ponto de extremidade
 description: Gerencie incidentes atribuindo-o, atualizando seu status ou definindo sua classificação.
 keywords: incidentes, gerenciar, atribuir, status, classificação, alerta verdadeiro, alerta falso
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b8b5e806d09f08a12c090a1055f2c165f25b7ea1
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: abb538972b48f8790286c0a546eecdd69fc83fb5
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185800"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862134"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-incidents"></a>Gerenciar o Microsoft Defender para incidentes de ponto de extremidade
 
@@ -82,5 +82,5 @@ Os comentários adicionados aparecem instantaneamente no painel.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Fila de incidentes](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
-- [Exibir e organizar a fila incidentes](view-incidents-queue.md)
+- [Exibir e organizar a Fila de incidentes](view-incidents-queue.md)
 - [Investigar incidentes](investigate-incidents.md)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 12207d69b0a1565caf762a265c1a0d32158ca291
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 8acd8d85826d7bda399c03cc60f2806af954c6c3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759830"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861598"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
@@ -44,9 +44,9 @@ Você pode chegar à fila de incidentes de **Incidentes & alertas** > Incidentes
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Exemplo da fila de incidentes":::
 
-Por padrão, a fila no centro de segurança do Microsoft 365 exibe incidentes vistos nos últimos seis meses. O incidente mais recente está na parte superior da lista para que você possa vê-lo primeiro.
+Por padrão, a fila de incidentes no centro de segurança do Microsoft 365 exibe incidentes vistos nos últimos seis meses. O incidente mais recente está na parte superior da lista para que você possa vê-lo primeiro.
 
-A fila de incidentes tem colunas personalizáveis (selecione **Escolher colunas**) que dão visibilidade a diferentes características do incidente ou das entidades impactadas. Isso ajuda você a tomar uma decisão informada sobre a priorização de incidentes para anailsis.
+A fila de incidentes tem colunas personalizáveis (selecione **Escolher colunas**) que dão visibilidade a diferentes características do incidente ou das entidades impactadas. Isso ajuda você a tomar uma decisão informada sobre a priorização de incidentes para análise.
 
 Para obter visibilidade adicional rapidamente, a nomenização automática de incidentes gera nomes de incidentes com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente.
 
@@ -108,7 +108,7 @@ Depois de resolver o incidente, aproveite um momento para aprender com ele para:
 
 - Entenda o tipo de ataque e seu impacto.
 - Pesquise o ataque na comunidade de segurança para uma tendência de ataque de segurança.
-- Lembre-se do fluxo de trabalho usado para resolver o incidente e atualizar seus fluxos de trabalho padrão e os plalbooks, conforme necessário.
+- Lembre-se do fluxo de trabalho usado para resolver o incidente e atualizar seus fluxos de trabalho padrão e playbooks conforme necessário.
 
 Aqui está um resumo do processo básico.
 

@@ -1,6 +1,6 @@
 ---
 title: Gerenciar regras de supressão do Microsoft Defender para Pontos de Extremidade
-description: Talvez seja necessário impedir que alertas apareçam no portal usando regras de supressão. Saiba como gerenciar suas regras de supressão no Microsoft Defender ATP.
+description: Talvez seja necessário impedir que alertas apareçam no portal usando regras de supressão. Saiba como gerenciar suas regras de supressão no Microsoft Defender para Ponto de Extremidade.
 keywords: gerenciar supressão, regras, nome da regra, escopo, ação, alertas, ativar, desativar
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d2ff8fa1f07f82c3cc719f49f50ee25937aea243
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: f1549512a02fe3af71d32c6b33c69cc705de99a8
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187560"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862122"
 ---
 # <a name="manage-suppression-rules"></a>Gerenciar regras de supressão
 

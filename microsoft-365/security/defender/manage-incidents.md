@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 2d2bf18c6cacb377e710f34b74ec8f83bb77d3b1
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: da5a2190a53dfe7f8dd0cc3cf7b410af92ca4ec5
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760057"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861726"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Gerenciar incidentes no Microsoft 365 Defender
 
@@ -65,7 +65,7 @@ Em casos em que, ao investigar, você gostaria de mover alertas de um incidente 
 
 ## <a name="edit-the-incident-name"></a>Editar o nome do incidente
 
-Os incidentes são atribuídos automaticamente a um nome com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente. Por exemplo: *incidente em vários estágios em vários pontos de extremidade relatados por várias fontes.*
+O Microsoft 365 Defender atribui automaticamente um nome com base em atributos de alerta, como o número de pontos de extremidade afetados, usuários afetados, fontes de detecção ou categorias. Isso permite que você entenda rapidamente o escopo do incidente. Por exemplo: *incidente em vários estágios em vários pontos de extremidade relatados por várias fontes.*
 
 Você pode editar o nome do incidente no campo **Nome do** incidente no **painel Gerenciar** incidentes.
 
@@ -97,3 +97,9 @@ Se foi um alerta verdadeiro, você também deve especificar que tipo de ameaça 
 ## <a name="add-comments"></a>Adicionar comentários
 
 Você pode adicionar vários comentários a um incidente com o **campo Comentário.** Cada comentário é adicionado aos eventos históricos do incidente. Você pode ver os comentários e o histórico de um incidente no link **Comentários e** histórico na página **Resumo.**
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Visão geral dos incidentes](incidents-overview.md)
+- [Priorizar incidentes](incident-queue.md)
+- [Investigar incidentes](investigate-incidents.md)

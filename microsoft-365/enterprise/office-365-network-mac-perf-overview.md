@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Visão geral da conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
-ms.openlocfilehash: cc01f2a22f6f8c89d0ae8fcd8b53498790930d3e
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 99c05c18f3825680824854f86e469ab4aa8bbcba
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768621"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860858"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
 
@@ -121,6 +121,14 @@ Você pode exibir uma exibição de tabela dos locais onde eles podem ser filtra
 
 > [!div class="mx-imgBorder"]
 > ![Locais de insights de rede](../media/m365-mac-perf/m365-mac-perf-locations.png)
+
+## <a name="remote-worker-assessment-and-user-connection-metrics"></a>Avaliação de trabalho remoto e métricas de conexão do usuário
+
+Classificamos os logs de tráfego de rede como usuários remotos ou locais e mostramos suas porcentagens na seção métricas de conexão do usuário do painel de visão geral. Para cidades onde você tem usuários remotos, você encontrará a pontuação de avaliação de rede remota específica do local quando abrir a página desse local. A lista de locais terá locais de escritório e cidades de trabalho remotas, que podem ser filtradas e classificação. Fornecemos a pontuação de avaliação de funcionários remotos, com divisão de pontos para Exchange, SharePoint e Teams.
+
+As percepções de rede do usuário local são agregadas e relatadas no nível da cidade e limitadas a cidades com no mínimo cinco funcionários remotos. Não identificamos funcionários individuais trabalhando em casa.
+
+Os locais são classificados automaticamente como locais ou remotos, no entanto, você tem a opção de inserir todos os seus endereços IP de saída no local manualmente para garantir uma classificação de 100%. Se você decidir ir por essa rota, você terá que verificar a caixa de seleção Inserir todos os endereços IP de saída no **local manualmente** no flyout Configurações de Locais depois de adicionar todos os seus endereços IP de saída. Quando isso for feito, todos os logs de tráfego de rede de endereços IP de saída marcados como locais sempre serão classificados como escritórios e todos os outros endereços IP de saída serão classificados como remotos.
 
 ## <a name="specific-office-location-network-performance-summary-and-insights"></a>Resumo e insights específicos do desempenho da rede de localização do escritório
 

@@ -1,5 +1,5 @@
 ---
-title: Aplicativos parceiros no Microsoft Defender ATP
+title: Aplicativos parceiros no Microsoft Defender para Ponto de Extremidade
 ms.reviewer: ''
 description: Exibir aplicativos parceiros com suporte para aprimorar os recursos de detecção, investigação e inteligência contra ameaças da plataforma
 keywords: parceiros, aplicativos, terceiros, conexões, sentinelone, mirante, bitdefender, corrata, morphisec, paloalto, ziften, melhor móvel
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 563dd2a5102ec66a1e953ae6ab30d56ea4f99036
-ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+ms.openlocfilehash: 60a2eca25090f60414e91eacfed090bc86a4cf93
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51382921"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862206"
 ---
 # <a name="partner-applications-in-microsoft-defender-for-endpoint"></a>Aplicativos parceiros no Microsoft Defender para Ponto de Extremidade 
 
@@ -125,7 +125,7 @@ Logotipo |Nome do parceiro   | Descrição
 
 
 
-## <a name="siem-integration"></a>Integração siem
+## <a name="siem-integration"></a>Integração SIEM
 O Defender para Ponto de Extremidade oferece suporte à integração siem por meio de vários métodos. Isso pode incluir interface de sistema SIEM especializada com conectores de caixa de entrada, uma API de alerta genérica habilitando implementações personalizadas e uma API de ação habilitando o gerenciamento de status de alerta.  Para obter mais informações, consulte [Enable SIEM integration](enable-siem-integration.md).
 
 

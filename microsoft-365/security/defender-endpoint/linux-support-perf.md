@@ -1,6 +1,6 @@
 ---
-title: Solucionar problemas de desempenho do Microsoft Defender ATP para Linux
-description: Solucionar problemas de desempenho no Microsoft Defender ATP para Linux.
+title: Solucionar problemas de desempenho do Microsoft Defender para Ponto de Extremidade para Linux
+description: Solucionar problemas de desempenho no Microsoft Defender Endpoint para Linux.
 keywords: microsoft, defender, atp, linux, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a8865da0c8080213f6a2b82f78a6b31983c50409
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: cb43fd383606ab26ba2688ad5704bb7653e82a7f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688616"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860334"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Solucionar problemas de desempenho do Microsoft Defender para Ponto de Extremidade no Linux
 

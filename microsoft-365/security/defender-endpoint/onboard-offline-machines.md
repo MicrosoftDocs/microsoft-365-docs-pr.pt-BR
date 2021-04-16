@@ -1,7 +1,7 @@
 ---
 title: Dispositivos de integração sem acesso à Internet ao Microsoft Defender para Ponto de Extremidade
 ms.reviewer: ''
-description: Dispositivos integrados sem acesso à Internet para que eles possam enviar dados do sensor para o sensor do Microsoft Defender ATP
+description: Dispositivos integrados sem acesso à Internet para que eles possam enviar dados do sensor para o sensor do Microsoft Defender para Ponto de Extremidade
 keywords: onboard, servers, vm, on-premise, oms gateway, log analytics, azure log analytics, mma
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b31705a4e6dc8cdd480c8b43c2154a2d6ddacddd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: fb5a9a4d35af2d400cdff1e417727e662738514e
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186936"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861342"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>Dispositivos de integração sem acesso à Internet ao Microsoft Defender para Ponto de Extremidade
 
@@ -48,7 +48,7 @@ Para os dispositivos de integração sem acesso à Internet, você precisará se
 > - Para obter mais informações sobre como atualizar CTLs offline, consulte [Configure a file or web server to download the CTL files](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265983(v=ws.11)#configure-a-file-or-web-server-to-download-the-ctl-files).
 
 Para obter mais informações sobre métodos de integração, consulte os seguintes artigos:
-- [Integração de versões anteriores do Windows](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel)
+- [Versões anteriores integradas do Windows](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel)
 - [Servidores de integração para o serviço do Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016)
 - [Configurar configurações de proxy de dispositivo e conectividade com a Internet](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#configure-the-proxy-server-manually-using-a-registry-based-static-proxy)
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Saiba como excluir uma conta de usuário. Decida o que fazer com o email do usuário e o conteúdo do OneDrive. E decida se deve manter a licença do produto ou parar de pagar por ela.
-ms.openlocfilehash: 0069577b83c318fa57eaceddccc93b5832e634e0
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: d40f70534499b08073278ffc2bed2b098ae1c4da
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759913"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860732"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Excluir um usuário da sua organização
   
@@ -155,7 +155,7 @@ Mais tarde, quando você passar pelas etapas para adicionar outra pessoa à sua 
 
 ## <a name="delete-many-users-at-the-same-time"></a>Excluir muitos usuários ao mesmo tempo
 
-Consulte o cmdlet [Remove-MsolUser](https://go.microsoft.com/fwlink/p/?linkid=842230) PowerShell.
+Consulte o cmdlet [Remove-MsolUser](https://docs.microsoft.com/powershell/module/msonline/remove-msoluser) PowerShell.
 
 ## <a name="fix-issues-with-deleting-a-user"></a>Corrigir problemas na exclusão de um usuário
 

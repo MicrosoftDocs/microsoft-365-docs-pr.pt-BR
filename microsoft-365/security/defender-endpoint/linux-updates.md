@@ -1,7 +1,7 @@
 ---
-title: Implantar atualizações para o Microsoft Defender ATP para Linux
+title: Implantar atualizações do Microsoft Defender para Ponto de Extremidade para Linux
 ms.reviewer: ''
-description: Descreve como implantar atualizações do Microsoft Defender ATP para Linux em ambientes corporativos.
+description: Descreve como implantar atualizações do Microsoft Defender para Endpoint para Linux em ambientes corporativos.
 keywords: microsoft, defender, atp, linux, atualizações, implantar
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2e4ea4942446317aef90288da9fb181935503fa9
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 77b428e359596e73e08dc04f15190ecf68db29be
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687461"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861138"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux
 

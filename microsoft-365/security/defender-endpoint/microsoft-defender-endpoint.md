@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender para Ponto de Extremidade
 description: O Microsoft Defender for Endpoint é uma plataforma de segurança de ponto de extremidade empresarial que ajuda a se defender contra ameaças persistentes avançadas.
-keywords: introdução ao Microsoft Defender para Ponto de Extremidade, introdução à Proteção Avançada contra Ameaças do Microsoft Defender, introdução ao Microsoft Defender ATP, segurança cibernética, ameaças persistentes avançadas, segurança corporativa, sensor comportamental de máquina, segurança na nuvem, análise, inteligência contra ameaças, redução de superfície de ataque, proteção de última geração, investigação e correção automatizadas, especialistas em ameaças da Microsoft, pontuação segura, busca avançada, proteção contra ameaças da Microsoft, busca de ameaças cibernéticas
+keywords: introdução ao Microsoft Defender para Ponto de Extremidade, introdução à Proteção Avançada contra Ameaças do Microsoft Defender, introdução ao Microsoft Defender para Endpoint, segurança cibernética, ameaças persistentes avançadas, segurança corporativa, sensor comportamental de máquina, segurança na nuvem, análise, inteligência contra ameaças, redução de superfície de ataque, proteção de última geração, investigação e correção automatizadas, especialistas em ameaças da Microsoft, pontuação segura, busca avançada, proteção contra ameaças da Microsoft, busca de ameaças cibernéticas
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8c5d02a4d76ae7e031ad9f3af0db282cc4cb45ed
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: adc7d780c1af73d8cb4fe229720ac2ed74f90251
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187025"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861822"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade
 
@@ -84,7 +84,7 @@ Esse recurso integrado usa uma abordagem baseada em risco que altera o jogo para
 
 <a name="asr"></a>
 
-**[Redução da superfície do ataque.](overview-attack-surface-reduction.md)**<br>
+**[Redução de superfície de ataque](overview-attack-surface-reduction.md)**<br>
 O conjunto de recursos de redução de superfície de ataque fornece a primeira linha de defesa na pilha. Ao garantir que as configurações sejam definidas corretamente e que as técnicas de mitigação de exploração sejam aplicadas, os recursos resistem a ataques e exploração. Esse conjunto de recursos também inclui proteção de rede e [proteção da Web](web-protection-overview.md), que regulam o acesso a endereços IP mal-intencionados, domínios e URLs. [](network-protection.md) 
 
 <a name="ngp"></a>
@@ -94,7 +94,7 @@ Para reforçar ainda mais o perímetro de segurança da sua rede, o Microsoft De
 
 <a name="edr"></a>
 
-**[Detecção e resposta do terminal.](overview-endpoint-detection-response.md)**<br>
+**[Detecção de ponto de extremidade e resposta](overview-endpoint-detection-response.md)**<br>
 Os recursos de detecção e resposta do ponto de extremidade são colocados para detectar, investigar e responder a ameaças avançadas que podem ter passado dos dois primeiros pilares de segurança. [A busca avançada](advanced-hunting-overview.md) fornece uma ferramenta de busca de ameaças baseada em consulta que permite que você encontre violações e crie detecções personalizadas proativamente.
 
 <a name="ai"></a>
@@ -104,13 +104,13 @@ Em conjunto com a capacidade de responder rapidamente a ataques avançados, o Mi
 
 <a name="ss"></a>
 
-**[Pontuação segura da Microsoft para dispositivos](tvm-microsoft-secure-score-devices.md)**<br>
+**[Microsoft Secure Score para dispositivos](tvm-microsoft-secure-score-devices.md)**<br>
 
 O Defender for Endpoint inclui a Pontuação Segura da Microsoft para Dispositivos para ajudá-lo a avaliar dinamicamente o estado de segurança da sua rede corporativa, identificar sistemas desprotegidos e a tomar ações recomendadas para melhorar a segurança geral da sua organização.
 
 <a name="mte"></a>
 
-**[Especialistas em ameaças da Microsoft](microsoft-threat-experts.md)**<br>
+**[Especialistas em Ameaças da Microsoft](microsoft-threat-experts.md)**<br>
 O novo serviço gerenciado de busca de ameaças do Microsoft Defender for Endpoint fornece busca proativa, priorização e contexto adicional e percepções que capacitam ainda mais os Centros de Operação de Segurança (SOCs) a identificar e responder a ameaças de forma rápida e precisa.
 
 >[!IMPORTANT]

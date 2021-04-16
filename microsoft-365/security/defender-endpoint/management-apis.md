@@ -1,7 +1,7 @@
 ---
 title: Visão geral do gerenciamento e APIs
 ms.reviewer: ''
-description: Saiba mais sobre as ferramentas de gerenciamento e categorias de API no Microsoft Defender ATP
+description: Saiba mais sobre as ferramentas de gerenciamento e categorias de API no Microsoft Defender para Ponto de Extremidade
 keywords: integração, api, siem, rbac, acesso, portal, integração, investigação, resposta, entidades, entidades, contexto do usuário, contexto do aplicativo, streaming
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 94cfe1cc053be896c137e0c0b9ee02ea53dd2717
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 9e54fb5f2105f0a77c4b63e8d880135005c17168
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187548"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51862086"
 ---
 # <a name="overview-of-management-and-apis"></a>Visão geral do gerenciamento e APIs 
 
@@ -57,8 +57,8 @@ O Defender for Endpoint expõe grande parte de seus dados e ações por meio de 
 
 As APIs do Defender para Ponto de Extremidade podem ser agrupadas em três:
 - APIs do Microsoft Defender para Ponto de Extremidade 
-- API de streaming de dados brutos
-- Integração siem
+- API de streaming de dados não processados
+- Integração SIEM
 
 ## <a name="microsoft-defender-for-endpoint-apis"></a>APIs do Microsoft Defender para Ponto de Extremidade
 
@@ -71,7 +71,7 @@ A **API** de Investigação expõe a riqueza do Defender para o Ponto de Extremi
 
 A **API** de Resposta expõe a capacidade de tomar ações no serviço e em dispositivos, permitindo que os clientes ingeram indicadores, gerenciem configurações, status de alerta, bem como ações de resposta em dispositivos programaticamente, como isolar dispositivos da rede, arquivos de quarentena e outros. 
 
-## <a name="raw-data-streaming-api"></a>API de streaming de dados brutos 
+## <a name="raw-data-streaming-api"></a>API de streaming de dados não processados 
 A API de streaming de dados brutos do Defender for Endpoint oferece a capacidade para os clientes enviarem eventos e alertas em tempo real de suas instâncias conforme ocorrem em um único fluxo de dados, fornecendo um mecanismo de entrega de alta taxa de transferência de baixa latência.
 
 As informações do evento Defender for Endpoint são empurradas diretamente para o armazenamento do Azure para retenção de dados de longo prazo ou para hubs de eventos do Azure para consumo por serviços de visualização ou mecanismos de processamento de dados adicionais. 
@@ -85,5 +85,5 @@ Quando você habilita a integração de informações de segurança e gerenciame
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Acessar as APIs do Microsoft Defender para Pontos de Extremidade ](apis-intro.md)
 - [APIs com suporte](exposed-apis-list.md)
-- [Oportunidades de parceiros técnicos](partner-integration.md)
+- [Oportunidades para parceiros técnicos](partner-integration.md)
 

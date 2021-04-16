@@ -1,6 +1,6 @@
 ---
 title: Oportunidades de parceria do provedor de serviços de segurança gerenciado (MSSP)
-description: Entenda como o Microsoft Defender ATP se integra com provedores de serviços de segurança gerenciados (MSSP)
+description: Entenda como o Microsoft Defender for Endpoint se integra com provedores de serviços de segurança gerenciados (MSSP)
 keywords: mssp, integração, gerenciado, segurança, serviço, provedor
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a3f357553e259075b3a47d6866faee06c98036a8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 790abaad5506a77b70cb8d772e83289d8dbd791f
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186576"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860780"
 ---
 # <a name="managed-security-service-provider-partnership-opportunities"></a>Oportunidades de parceria do provedor de serviços de segurança gerenciada
 

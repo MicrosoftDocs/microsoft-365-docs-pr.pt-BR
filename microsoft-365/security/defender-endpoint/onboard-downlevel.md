@@ -1,6 +1,6 @@
 ---
-title: Integração de versões anteriores do Windows no Microsoft Defender ATP
-description: Integração com versões anteriores de dispositivos Windows para que eles possam enviar dados do sensor para o sensor do Microsoft Defender ATP
+title: Integração de versões anteriores do Windows no Microsoft Defender para Ponto de Extremidade
+description: Versões anteriores compatíveis com versões anteriores de dispositivos Windows para que eles possam enviar dados do sensor para o sensor do Microsoft Defender para Ponto de Extremidade
 keywords: onboard, windows, 7, 81, oms, sp1, enterprise, pro, down level
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: b180e7555bb3339324d3b99956d8f8ad73dc13c3
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 945645e0f20f316c094f746adb6ba193f6806f86
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186384"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861354"
 ---
-# <a name="onboard-previous-versions-of-windows"></a>Integração de versões anteriores do Windows
+# <a name="onboard-previous-versions-of-windows"></a>Versões anteriores integradas do Windows
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -102,7 +102,7 @@ Revise os seguintes detalhes para verificar os requisitos mínimos do sistema:
 
 Depois de concluído, você deverá ver pontos de extremidade integrados no portal dentro de uma hora.
 
-### <a name="configure-proxy-and-internet-connectivity-settings"></a>Configurar configurações de conectividade de proxy e Internet
+### <a name="configure-proxy-and-internet-connectivity-settings"></a>Definir as configurações de proxy e conectividade com a Internet
  
 - Cada ponto de extremidade do Windows deve ser capaz de se conectar à Internet usando HTTPS. Essa conexão pode ser direta, usando um proxy ou por meio do [Gateway OMS.](https://docs.microsoft.com/azure/log-analytics/log-analytics-oms-gateway)
 - Se um proxy ou firewall estiver bloqueando todo o tráfego por padrão e permitindo apenas domínios específicos por meio ou a verificação de HTTPS (inspeção SSL) estiver habilitada, certifique-se de que você habilita o acesso a [URLs](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)de serviço do Defender para Ponto de Extremidade.

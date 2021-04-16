@@ -1,7 +1,7 @@
 ---
 title: Gerenciamento de ameaças e vulnerabilidades
 description: Esse novo recurso usa uma abordagem baseada em risco que altera o jogo para a descoberta, priorização e correção de vulnerabilidades de ponto de extremidade e configurações in-loco.
-keywords: gerenciamento de vulnerabilidades &, gerenciamento de ameaças e vulnerabilidades, MDATP TVM, MDATP-TVM, gerenciamento de vulnerabilidades, avaliação de vulnerabilidades, verificação de ameaças e vulnerabilidades, avaliação de configuração segura, microsoft defender atp, microsoft defender atp, vulnerabilidades de ponto de extremidade, próxima geração
+keywords: gerenciamento de vulnerabilidades &, gerenciamento de ameaças e vulnerabilidades, MDATP TVM, MDATP-TVM, gerenciamento de vulnerabilidades, avaliação de vulnerabilidade, verificação de ameaças e vulnerabilidades, avaliação de configuração segura, microsoft defender para ponto de extremidade, microsoft defender atp, vulnerabilidades de ponto de extremidade, próxima geração
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: overview
 ms.technology: mde
-ms.openlocfilehash: 0c3c5ebbcd4483cae159fe9b46a6f4c376443be3
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: e9c575aa8968b8cab2c5d91b9fe0b1cb46b292d3
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499064"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51860756"
 ---
 # <a name="threat-and-vulnerability-management"></a>Gerenciamento de ameaças e vulnerabilidades
 

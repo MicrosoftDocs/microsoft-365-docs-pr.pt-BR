@@ -1,6 +1,6 @@
 ---
 title: Transmitir eventos do Microsoft Defender para Ponto de Extremidade para Hubs de Eventos do Azure
-description: Saiba como configurar o Microsoft Defender ATP para transmitir eventos de Busca Avançada para o Hub de Eventos.
+description: Saiba como configurar o Microsoft Defender para o Ponto de Extremidade para transmitir eventos de Busca Avançada para o Hub de Eventos.
 keywords: exportação de dados brutos, API de streaming, API, Hubs de Eventos do Azure, armazenamento do Azure, conta de armazenamento, Busca Avançada, compartilhamento de dados brutos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 231ba79e1d66eee263b6c1a4335f0a7b54eeb75d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: df305c9fcc7fb9249f2387567600adb899f8c49a
+ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053301"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51861042"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-azure-event-hubs"></a>Configurar o Microsoft Defender para o Ponto de Extremidade para transmitir eventos de Busca Avançada para seus Hubs de Eventos do Azure
 
