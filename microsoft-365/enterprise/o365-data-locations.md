@@ -16,24 +16,20 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Determine onde os dados de cliente do Microsoft 365 estão armazenados em todo o mundo
-ms.openlocfilehash: a93f83e7efafa06aa65675342471c26f1b197864
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4c55010508f2b5bde1641b9b7552e4acb95a12d3
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920783"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760231"
 ---
-<!--
-Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
--->
-
 # <a name="where-your-microsoft-365-customer-data-is-stored"></a>Onde os dados de cliente do Microsoft 365 estão armazenados
 
 As tabelas abaixo mostram onde os dados do cliente são armazenados em repouso para os serviços do Microsoft 365 em todos os locais de nuvem global da Microsoft. Expanda a localização do seu país de endereço de cobrança para descobrir onde os dados do cliente para cada serviço seriam armazenados.
 
 Se sua empresa estiver localizada na União Europeia, consulte[Localizações de dados para a União Europeia](EU-data-storage-locations.md)para maiores informações. 
 
-Os clientes devem visualizar as informações sobre localização de dados específicos do locatário no Centro de Administração do Microsoft 365 em **Configurações | Configurações da organização | Perfil da Organização | Localização de dados**.
+Os clientes devem visualizar as informações sobre localização de dados específicos do locatário no Centro de Administração do Microsoft 365 em **Configurações | Configurações da organização | Perfil da Organização | Localização de dados**. Se você [solicitou a mudança para um novo Geo](request-your-data-move.md), as informações de localização de dados no Centro de administração do Microsoft 365 podem mostrar apenas seu novo Geo, embora alguns dados possam ser armazenados temporariamente em seu Geo anterior durante a transição. 
 
 Os locatários do novo Microsoft 365 são padronizados numa localização geográfica baseada no país/região onde a transação da primeira assinatura do locatário foi realizada.
 

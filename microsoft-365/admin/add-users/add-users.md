@@ -21,21 +21,14 @@ search.appverid:
 - MET150
 description: Aprenda a adicionar usuários e atribuir licenças ao Microsoft 365 ao mesmo tempo.
 ms.date: 07/01/2020
-ms.openlocfilehash: 3c752bd12c0aeb3806ad7d5d90373aad13730944
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a7c5fcf1a129a1d434b6e641688ce4c5d234817d
+ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906295"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51759997"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Adicionar usuários e atribuir licenças ao mesmo tempo
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> O centro de administração está mudando. Se a sua experiência não corresponder aos detalhes apresentados aqui, consulte [Sobre o novo centro de administração do Microsoft 365](../microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Cada pessoa da sua equipe precisa de uma conta de usuário antes de poder entrar e acessar o [Microsoft 365 para negócios](https://www.microsoft.com/microsoft-365/business). A maneira mais fácil de adicionar contas de usuário é adicioná-las uma de cada vez no Centro de administração do Microsoft 365. Depois de executar essa etapa, seus usuários terão licenças do Microsoft 365, credenciais de entrada e caixas de correio do Microsoft 365.
 
@@ -52,10 +45,25 @@ Você deve ser um global, licenciado ou administrador de usuário para adicionar
 
 ## <a name="add-users-one-at-a-time"></a>Adicionar um usuário por vez
 
-::: moniker range="o365-worldwide"
+ ::: moniker range="o365-worldwide"
 
-1. Vá para o centro de administração em <https://admin.microsoft.com>.
-2. Vá para **Usuários** > **Usuários ativos** e selecione **Adicionar um usuário**.
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
+
+::: moniker-end 
+
+2. Acesse **Usuários** > **Usuários ativos** e selecione **Adicionar um usuário**.
 3. No painel **Configurar o básico**, preencha as informações básicas do usuário e selecione **Avançar**.
     - **Nome** Preencha o nome e o sobrenome, o nome de exibição e o nome de usuário.
     - **Domínio** Escolha o domínio para a conta do usuário. Por exemplo, se o nome de usuário do usuário for Carlos e o domínio for contoso.com, eles entrarão usando carlos@contoso.com.
@@ -65,36 +73,6 @@ Você deve ser um global, licenciado ou administrador de usuário para adicionar
 4. No painel **Atribuir licenças de produto**, selecione o local e a licença apropriada para o usuário. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários. Expanda **Aplicativos** e selecione ou desmarque os aplicativos para limitar os aplicativos para os quais o usuário possui uma licença. Selecione **Avançar**.
 5. No painel **Configurações opcionais**, expanda **Funções** para tornar este usuário um administrador. Expanda **Informações do perfil** para adicionar informações adicionais sobre o usuário.
 6. Selecione **Próximo**, análise as configurações do novo usuário, faça as alterações que desejar e selecione **Concluir** adição e **Fechar**.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. Vá para o centro de administração em <https://portal.office.de/adminportal>.
-2. Vá para **Usuários** > **Usuários ativos** e selecione **Adicionar um usuário**.
-3. No painel **Novo usuário**, preencha as seguintes informações. Ao terminar, selecione **Adicionar**.
-    - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário.
-    - **Domínio** Por exemplo, se o nome de usuário do usuário for Carlos e o domínio for contoso.com, eles entrarão digitando carlos@contoso.com.
-    - **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante.
-    - **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. Eles devem alterar sua senha após 90 dias. Além disso, você pode optar por **Permitir que esse usuário altere a senha quando entrar pela primeira vez**.
-    - **Funções** Expanda, caso precise tornar esse usuário um administrador.
-    - **Licenças de produto** Expanda esta seção e escolha a licença apropriada. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. Vá para o Centro de Administração em<https://portal.partner.microsoftonline.cn>.
-2. Vá para **Usuários** > **Usuários ativos** e selecione **Adicionar um usuário**.
-3. No painel **Novo usuário**, preencha as seguintes informações. Ao terminar, selecione **Adicionar**.
-    - **Nome** Preencha o nome, o sobrenome, o nome para exibição e o nome de usuário.
-    - **Domínio** Por exemplo, se o nome de usuário do usuário for Carlos e o domínio for contoso.com, eles entrarão digitando carlos@contoso.com.
-    - **Informações de contato** Expanda para preencher um número de telefone celular, endereço e assim por diante.
-    - **Senha** Use a senha gerada automaticamente ou expanda para especificar uma senha forte para o usuário. Eles devem alterar sua senha após 90 dias. Além disso, você pode optar por **Permitir que esse usuário altere a senha quando entrar pela primeira vez**.
-    - **Funções** Expanda, caso precise tornar esse usuário um administrador.
-    - **Licenças de produto** Expanda esta seção e escolha a licença apropriada. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários.
-
-::: moniker-end
 
 ## <a name="add-multiple-users-at-the-same-time"></a>Adicionar vários usuários ao mesmo tempo
 
