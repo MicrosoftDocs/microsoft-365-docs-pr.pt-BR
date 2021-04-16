@@ -245,6 +245,8 @@
               href: dlp-on-premises-scanner-learn.md
             - name: Saiba mais sobre a Extensão de Conformidade da Microsoft (visualização)
               href: dlp-chrome-learn-about.md
+            - name: Saiba mais sobre o painel de alertas de prevenção contra perda de dados
+              href: dlp-alerts-dashboard-learn.md
         - name: Introdução à prevenção contra perda de dados
           items:
             - name: Introdução à política DLP padrão
@@ -261,6 +263,8 @@
               href: endpoint-dlp-configure-proxy.md
             - name: Comece com a Extensão de Conformidade da Microsoft (visualização)
               href: dlp-chrome-get-started.md
+            - name: Comece com o painel de alerta de prevenção contra perda de dados
+              href: dlp-alerts-dashboard-get-started.md
             - name: Ferramentas e métodos de integração de DLP do ponto de extremidade para dispositivos Windows 10
               items:
                 - name: Ferramentas e métodos de integração para computadores Windows 10
@@ -594,6 +598,8 @@
               href: ediscovery-decryption.md
             - name: Coletar informações de diagnóstico de descoberta eletrônica
               href: ediscovery-diagnostic-info.md
+            - name: Resolver erros de retenção da descoberta eletrônica
+              href: hold-distribution-errors.md
             - name: Solucionar problemas comuns de Descoberta Eletrônica
               href: ediscovery-troubleshooting-common-issues.md
             - name: Repetir uma pesquisa com falha
@@ -748,6 +754,8 @@
               href: what-is-stored-in-exo-mailbox.md
             - name: Descriptografia em ferramentas de descoberta eletrônica
               href: ediscovery-decryption.md
+            - name: Resolver erros de retenção da descoberta eletrônica
+              href: hold-distribution-errors.md
             - name: Coletar informações de diagnóstico de descoberta eletrônica
               href: ediscovery-diagnostic-info.md
             - name: Procurar atividades de descoberta eletrônica no log de auditoria
@@ -766,6 +774,8 @@
       href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
     - name: Aumentar a cota de Itens Recuperáveis para caixas de correio em espera
       href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
+    - name: Resolver erros de retenção da descoberta eletrônica
+      href: hold-distribution-errors.md
     - name: Preservar destinatários de grupo de distribuição Cco e expandido
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Gerenciar políticas de alerta e auditoria
