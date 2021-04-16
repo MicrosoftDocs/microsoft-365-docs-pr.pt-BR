@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Documentação do Centro de segurança do Microsoft 365
-summary: Saiba mais sobre as soluções e os serviços robustos de segurança do Microsoft 365 Security, para que você possa proteger melhor sua organização em superfícies de ataque.
+summary: O Centro de segurança do Microsoft 365 une várias tecnologias de segurança em um console de administração abrangente, com aprimoramentos para proteger sua empresa.
 metadata:
   title: Documentação do Centro de segurança do Microsoft 365
   description: Saiba mais sobre o Microsoft Defender para Ponto de Extremidade - como ele protege os pontos de extremidade contra ameaças cibernéticas e fornece às equipes de operação de segurança os recursos para corrigir ameaças.
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 02/05/2021
   localization_priority: Priority
-  ms.openlocfilehash: c7ec3e0bb970d74d9e33c3d74eb0cd18aaf8d16c
-  ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+  ms.openlocfilehash: a8d2e2c5ec41436bba7f013304daa8f259db9444
+  ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "51200348"
+  ms.lasthandoff: 04/15/2021
+  ms.locfileid: "51768549"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:

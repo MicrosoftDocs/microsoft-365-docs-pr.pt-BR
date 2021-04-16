@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 193e7e634ecf8407816db10c820edcd241b94b12
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 4f3b2b54370e3481699a540dd8fd2acc30be7514
+ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760159"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768873"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Solucionar problemas de integração do Microsoft Defender para pontos de extremidade
 
@@ -302,8 +302,8 @@ Se a verificação falhar e seu ambiente estiver usando um proxy para se conecta
 
 Se você encontrar problemas durante a integração de um servidor, vá pelas etapas de verificação a seguir para resolver possíveis problemas.
 
-- [Verifique se o Microsoft Monitoring Agent (MMA) está instalado e configurado para relatar dados do sensor ao serviço](configure-server-endpoints.md#server-mma)
-- [Verifique se o proxy do servidor e as configurações de conectividade com a Internet estão configuradas corretamente](configure-server-endpoints.md#server-proxy)
+- [Verifique se o Microsoft Monitoring Agent (MMA) está instalado e configurado para relatar dados do sensor ao serviço](configure-server-endpoints.md)
+- [Verifique se o proxy do servidor e as configurações de conectividade com a Internet estão configuradas corretamente](configure-server-endpoints.md)
 
 Você também pode precisar verificar o seguinte:
 

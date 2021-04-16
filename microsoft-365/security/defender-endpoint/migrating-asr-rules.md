@@ -8,19 +8,19 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-ms.localizationpriority: medium
+localization_priority: normal
 audience: ITPro
 author: lovina-saldanha
 ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: 4385a99206b6d10dee710e4315e690c82359f397
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 5b2c6c12de7b87a045a81a552e3fe74b4829e94d
+ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759961"
+ms.locfileid: "51764778"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>Migrando de um HIPS de terceiros para regras ASR
 
