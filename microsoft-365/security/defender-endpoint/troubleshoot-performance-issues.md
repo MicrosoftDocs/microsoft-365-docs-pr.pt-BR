@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 560eeb1e1099576f9f4babf02cc38eb842094fd1
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5175d630dd5d80b62451b3a1eafc4c2f6350ac32
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862350"
+ms.locfileid: "51876332"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>Solucionar problemas de desempenho relacionados à proteção em tempo real
 
@@ -60,7 +60,7 @@ Em **MPLog-xxxxxxxx-xxxxxx.log,** você pode encontrar as informações de impac
 
 | Nome do campo | Descrição |
 |---|---|
-|ProcessImageName   | Processar nome da imagem |
+|ProcessImageName | Processar nome da imagem |
 | TotalTime | A duração cumulativa em milissegundos gastos em verificações de arquivos acessados por esse processo |
 |Contar | O número de arquivos verificados acessados por esse processo |
 |MaxTime |  A duração em milissegundos na verificação única mais longa de um arquivo acessado por esse processo |
@@ -69,13 +69,13 @@ Em **MPLog-xxxxxxxx-xxxxxx.log,** você pode encontrar as informações de impac
 
 Se o impacto no desempenho for alto, tente adicionar o processo às exclusões de Caminho/Processo seguindo as etapas em Configurar e validar exclusões para verificações do [Microsoft Defender Antivírus.](collect-diagnostic-data.md)
 
-Se a etapa anterior não resolver o problema, você poderá coletar mais informações por meio do [Monitor](#capture-process-logs-using-process-monitor) de Processo ou do [Windows Performance Recorder](#capture-performance-logs-using-windows-performance-recorder) nas seções a seguir. 
+Se a etapa anterior não resolver o problema, você poderá coletar mais informações por meio do [Monitor](#capture-process-logs-using-process-monitor) de Processo ou do [Windows Performance Recorder](#capture-performance-logs-using-windows-performance-recorder) nas seções a seguir.
      
 ## <a name="capture-process-logs-using-process-monitor"></a>Capturar logs de processo usando o Monitor de Processo
 
-O Monitor de Processos (ProcMon) é uma ferramenta de monitoramento avançada que pode mostrar processos em tempo real. Você pode usar isso para capturar o problema de desempenho enquanto ele está ocorrendo. 
+O Monitor de Processos (ProcMon) é uma ferramenta de monitoramento avançada que pode mostrar processos em tempo real. Você pode usar isso para capturar o problema de desempenho enquanto ele está ocorrendo.
 
-1. Baixe [o Monitor de Processo v3.60](/sysinternals/downloads/procmon) para uma pasta como `C:\temp` . 
+1. Baixe [o Monitor de Processo v3.60](/sysinternals/downloads/procmon) para uma pasta como `C:\temp` .
 
 2. Para remover a marca do arquivo da Web:
     1. Clique com o botão **direito doProcessMonitor.zip** e selecione **Propriedades**.
@@ -188,7 +188,9 @@ Como *alternativa,* você também pode usar a ferramenta de linha de comandowpr.
 6. Selecione **Adicionar Perfis...** e navegue até o caminho do `WD.wprp` arquivo.
 
 7. Depois disso, você deverá ver um novo conjunto de perfis em *Medidas personalizadas* chamadas *Microsoft Defender para Análise* do Ponto de Extremidade abaixo dele.
+
     ![in-file](images/wpr-infile.png)
+
     >[!WARNING]
     >Se o Windows Server tiver 64 GB de RAM ou mais, use a medida personalizada `Microsoft Defender for Endpoint analysis for large servers` em vez de `Microsoft Defender for Endpoint analysis` . Caso contrário, seu sistema poderia consumir uma grande quantidade de memória de pool não páginada ou buffers que podem levar à instabilidade do sistema. Você pode escolher quais perfis adicionar expandindo **a Análise de Recursos**. Esse perfil personalizado fornece o contexto necessário para análise detalhada de desempenho.
  
@@ -227,8 +229,8 @@ Como *alternativa,* você também pode usar a ferramenta de linha de comandowpr.
 
     ![Preencher detalhes](images/wpr-12.png)
 
-    1. Selecione **Nome do Arquivo:** para determinar onde o arquivo de rastreamento será salvo. Por padrão, ele 1.is salvo em `%user%\Documents\WPR Files\` . 
-    1. Selecione **Salvar**. 
+    1. Selecione **Nome do Arquivo:** para determinar onde o arquivo de rastreamento será salvo. Por padrão, ele 1.is salvo em `%user%\Documents\WPR Files\` .
+    1. Selecione **Salvar**.
 
 14. Aguarde enquanto o rastreamento está sendo mesclado.
 

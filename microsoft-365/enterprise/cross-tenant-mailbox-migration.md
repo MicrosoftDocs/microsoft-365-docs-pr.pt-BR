@@ -14,12 +14,12 @@ ms.custom:
 - it-pro
 ms.collection:
 - M365-subscription-management
-ms.openlocfilehash: f24f519ec3bb12622d74c1d02fbc0bb017aa2b24
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: d52a0ca4a2dc9b799a32f70962416ffe190e16db
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476404"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876182"
 ---
 # <a name="cross-tenant-mailbox-migration-preview"></a>Migração de caixa de correio entre locatários (visualização)
 
@@ -435,6 +435,10 @@ Depois que a caixa de correio mudar de origem para destino, você deve garantir 
 **Precisamos atualizar RemoteMailboxes na origem local após a movimentação?**
 
 Sim, você deve atualizar o targetAddress (RemoteRoutingAddress/ExternalEmailAddress) dos usuários locais de origem quando a caixa de correio de locatário de origem for migrada para o locatário de destino.  Embora o roteamento de email possa seguir as indicações entre vários usuários de email com destinos diferentesAddresses, as buscas de usuários de email devem direcionar o local do usuário da caixa de correio. As buscas de livre/ocupado não perseguirão vários redirecionamentos. 
+
+**As reuniões do Teams migram entre locatários?**  
+
+As reuniões serão movimentadas no entanto, a URL de reunião do Teams não será atualizada quando os itens migrarem entre locatários. Como a URL será inválida no locatário de destino, você precisará remover e recriar as reuniões do Teams.
 
 **O conteúdo da pasta de chat do Teams migra entre locatários?**  
 
