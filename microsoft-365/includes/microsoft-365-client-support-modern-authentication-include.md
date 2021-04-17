@@ -7,7 +7,6 @@
 |PORTAL DA EMPRESA|✔|✔|✔|N/D|✔|
 |CORTANA|✔|✔|N/D|N/D|✔|
 |DELVE|✔|✔|N/D|N/D|N/D|
-|EDGE|✔|✔|N/D|✔|N/D|
 |EXCEL|✔|✔|✔|✔|✔|
 |ADMINISTRADOR DO EXCHANGE|N/D|N/D|N/D|✔|N/D|
 |FORMS|N/D|N/D|N/D|N/D|N/D|

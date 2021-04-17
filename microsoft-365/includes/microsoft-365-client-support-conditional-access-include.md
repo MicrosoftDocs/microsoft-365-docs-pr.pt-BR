@@ -6,7 +6,6 @@
 |PORTAL DA EMPRESA|Planejado|Planejado|Planejado|N/D|Planejado|
 |CORTANA|N/D|N/D|N/D|N/D|Planejado|
 |DELVE|✔|✔|N/D|N/D|N/D|
-|EDGE|Planejado|Planejado|N/D|Planejado|N/D|
 |EXCEL|✔|Planejado|Planejado|Planejado|N/D|
 |ADMINISTRADOR DO EXCHANGE|N/D|N/D|N/D|✔|N/D|
 |FORMS|N/D|N/D|N/D|N/D|N/D|
