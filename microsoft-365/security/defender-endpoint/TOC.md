@@ -140,6 +140,7 @@
 
 #### Solução de problemas do Microsoft Defender Antivírus
 ##### [Solucionar problemas de relatórios do Microsoft Defender Antivírus em Conformidade de Atualização](troubleshoot-reporting.md)
+##### [Solucionar problemas de desempenho](troubleshoot-performance-issues.md)
 ##### [Revise logs de eventos e códigos de erro para solucionar problemas com o Microsoft Defender Antivírus](troubleshoot-microsoft-defender-antivirus.md)
 ##### [Solucionar problemas do Microsoft Defender Antivírus durante a migração de uma solução de terceiros](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
 
@@ -249,6 +250,7 @@
 ##### [Detectar e bloquear Aplicativos Potencialmente Indesejados](linux-pua.md)
 ##### [Agendar verificações com o Microsoft Defender para Ponto de Extremidade para Linux](linux-schedule-scan-atp.md)
 ##### [Agendar uma atualização do Microsoft Defender para Ponto de Extremidade (Linux)](linux-update-MDE-Linux.md)
+##### [Implantar o Defender para Ponto de Extremidade no Linux com Chef](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [Solucionar problemas]()
 ##### [Solucionar problemas de instalação](linux-support-install.md)
