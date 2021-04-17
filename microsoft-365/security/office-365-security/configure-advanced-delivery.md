@@ -18,12 +18,12 @@ description: Os administradores podem aprender a usar a política de entrega ava
 ms.technology: mdo
 ms.prod: m365-security
 ROBOTS: NOINDEX
-ms.openlocfilehash: 09e07d8406b470fd3dac25944d013b997f2f90c1
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9d737472be5da2af0a0a36beb4b7914b8bfe3a10
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760423"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876060"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>Configurar a entrega de simulações de phishing de terceiros para usuários e mensagens não filtradas para caixas de correio SecOps
 
@@ -35,7 +35,7 @@ ms.locfileid: "51760423"
 > [!NOTE]
 > O recurso descrito neste artigo está em Visualização, não está disponível para todos e está sujeito a alterações.
 
-Queremos manter sua organização segura por [padrão,](secure-by-default.md)para que a Proteção do Exchange Online (EOP) não permita listas seguras ou bypass de filtragem para mensagens que resultem em malware ou vereditos de phishing de alta confiança. No entanto, reconhecemos que há cenários específicos que exigem a entrega de mensagens não filtradas. Por exemplo:
+Para manter sua organização segura por [padrão,](secure-by-default.md)a Proteção do Exchange Online (EOP) não permite listas seguras ou bypass de filtragem para mensagens que resultam em malware ou vereditos de phishing de alta confiança. Mas há cenários específicos que exigem a entrega de mensagens não filtradas. Por exemplo:
 
 - **Simulações de phishing de** terceiros : Ataques simulados podem ajudá-lo a identificar usuários vulneráveis antes que um ataque real impacte sua organização.
 - Caixas de correio de operações de segurança **(SecOps)**: Caixas de correio dedicadas que são usadas pelas equipes de segurança para coletar e analisar mensagens não filtradas (boas e ruins).
@@ -47,8 +47,8 @@ Você usa a _política de entrega_ avançada no Microsoft 365 para impedir que e
 - [Os alertas padrão do](alerts.md) sistema não são disparados para esses cenários.
 - [AIR e clustering no Defender para Office 365](office-365-air.md) ignora essas mensagens.
 - Especificamente para simulações de phishing de terceiros:
-  - [Os envios de administrador](admin-submission.md) geram uma resposta automática informando que a mensagem faz parte de uma campanha de simulação de phishing e não é uma ameaça real. Os alertas e o AIR não serão disparados.
-  - [Os Links Seguros no Defender para Office 365](safe-links.md) não bloqueiam ou detonam as URLs especificamente identificadas nessas mensagens.
+  - [Os envios de administrador](admin-submission.md) geram uma resposta automática dizendo que a mensagem faz parte de uma campanha de simulação de phishing e não é uma ameaça real. Os alertas e o AIR não serão disparados.
+  - [Os Links Seguros no Defender para o Office 365](safe-links.md) não bloqueiam ou detonam as URLs especificamente identificadas nessas mensagens.
   - [Anexos seguros no Defender para Office 365](safe-attachments.md) não detona anexos nessas mensagens.
 
 <sup>\*</sup> Não é possível ignorar a filtragem de malware ou o ZAP para malware.
@@ -106,8 +106,8 @@ As entradas de caixa de correio SecOps que você configurou são exibidas na gui
 
 Além dos dois cenários em que a política de entrega avançada pode ajudá-lo, há outros cenários que podem exigir que você ignore a filtragem:
 
-- **Filtros de** terceiros : se o registro MX do domínio não apontar para o Office 365 (as mensagens são roteadas primeiro para outro [lugar),](secure-by-default.md) a segurança por padrão não está disponível.
+- **Filtros de** terceiros : Se o  registro MX do seu domínio não apontar para o Office 365 (as mensagens são roteadas primeiro para outro [lugar),](secure-by-default.md) a segurança por padrão não *está disponível*.
 
   Para ignorar a filtragem da Microsoft para mensagens que já foram avaliadas pela filtragem de terceiros, use regras de fluxo de emails (também conhecidas como regras de transporte), consulte [Use mail flow rules to set the SCL in messages](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md).
 
-- **Falsos positivos** em revisão : talvez você queira permitir temporariamente determinadas mensagens que ainda estão sendo analisadas pela Microsoft por meio de envios de administrador para relatar mensagens boas [conhecidas](admin-submission.md) que estão sendo marcadas incorretamente como ruins para a Microsoft (falsos positivos). Como com todas as substituições, é altamente recomendável que essas concessões sejam temporárias.
+- **Falsos positivos** em revisão : talvez você queira permitir temporariamente determinadas mensagens que ainda estão sendo analisadas pela Microsoft por meio de envios de administrador para relatar mensagens boas [conhecidas](admin-submission.md) que estão sendo marcadas incorretamente como ruins para a Microsoft (falsos positivos). Como com todas as substituições, é **_altamente recomendável_** que essas concessões sejam feitas temporariamente.

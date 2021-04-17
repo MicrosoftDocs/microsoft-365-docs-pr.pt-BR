@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d38d7a54aa860049e1968e5b92c801107bea0514
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 79f8882e21f23e75d85813cde03260ef17adf246
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687956"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876104"
 ---
-#  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender para Ponto de Extremidade no Android - Informações de privacidade
+#  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender para Ponto de Extremidade para Android – Informações de privacidade
 
 **Aplica-se a:**
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -32,7 +32,9 @@ ms.locfileid: "51687956"
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-O Defender for Endpoint para Android coleta informações de seus dispositivos Android configurados e as armazena no mesmo locatário onde você tem o Defender para Ponto de Extremidade.
+O Defender for Endpoint para Android coleta informações de seus dispositivos Android configurados e as armazena no mesmo locatário onde você tem o Defender para Ponto de Extremidade. As informações são coletadas para ajudar a manter o Defender for Endpoint para iOS seguro, atualizado, executando conforme esperado e para dar suporte ao serviço.
+
+Para obter mais informações sobre armazenamento de dados, consulte [Microsoft Defender for Endpoint data storage and privacy](data-storage-privacy.md).
 
 As informações são coletadas para ajudar a manter o Defender for Endpoint para Android seguro, atualizado, executando conforme esperado e para dar suporte ao serviço.
 
@@ -42,7 +44,7 @@ Os dados necessários consistem em dados necessários para que o Defender for En
 
 ### <a name="app-information"></a>Informações do aplicativo
 
-Informações sobre pacotes de aplicativos Android (APKs) no dispositivo, incluindo
+Informações sobre **pacotes de** aplicativos Android mal-intencionados (APKs) no dispositivo, incluindo
 
 -  Instalar origem
 -  Local de armazenamento (caminho do arquivo) do APK
@@ -50,7 +52,7 @@ Informações sobre pacotes de aplicativos Android (APKs) no dispositivo, inclui
 
 ### <a name="web-page--network-information"></a>Página da Web / Informações de rede
 
-- URL completa (em navegadores com suporte), quando clicado
+- URL completa do site somente quando uma conexão mal-intencionada ou página da Web é detectada.
 - Informações de conexão
 - Tipo de protocolo (como HTTP, HTTPS, etc.)
 
@@ -73,6 +75,9 @@ Informações sobre pacotes de aplicativos Android (APKs) no dispositivo, inclui
     -   Nome principal do usuário – ID de email do usuário
 
 ### <a name="product-and-service-usage-data"></a>Dados de uso de produtos e serviços
+
+As informações a seguir são coletadas apenas para o aplicativo do Microsoft Defender para Ponto de Extremidade instalado no dispositivo. 
+
 -   Informações do pacote do aplicativo, incluindo o nome, a versão e o status da atualização do aplicativo
 
 -   Ações executadas no aplicativo

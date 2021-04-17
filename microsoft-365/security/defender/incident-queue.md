@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8acd8d85826d7bda399c03cc60f2806af954c6c3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: cd571414512ce876e730199b21bf755e4c4b733f
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861598"
+ms.locfileid: "51876194"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
@@ -83,12 +83,12 @@ Esta tabela lista os nomes de filtro disponíveis.
 
 ## <a name="incident-response-workflow"></a>Fluxo de trabalho de resposta a incidentes
 
-Aqui está o fluxo de trabalho típico para responder a incidentes:
+Este é o fluxo de trabalho típico para responder a incidentes:
 
 1. Identificar e triagem dos incidentes de maior prioridade para investigação e resolução.
 2. Para cada incidente de alta prioridade, inicie uma [investigação:](investigate-incidents.md)
 
-   a. Exibir o resumo do incidente para entender seu escopo, quais entidades são afetadas e gravidade (a **guia Resumo).**
+   a. Exibir o resumo do incidente para entender seu escopo e gravidade e quais entidades são afetadas (a **guia Resumo).**
 
    b. Comece a olhar para os alertas para entender sua origem, escopo e gravidade (a **guia Alertas).**
 
@@ -98,17 +98,18 @@ Aqui está o fluxo de trabalho típico para responder a incidentes:
    
    e. Conforme necessário, use informações no conjunto de dados do incidente para obter mais informações (a **guia Evidências e Resposta).**
 
-À medida que você investiga, você deve se preocupar com:
+   À medida que você investiga, você deve se preocupar com:
 
-- Contenção: reduzindo qualquer impacto adicional em seu locatário.
-- Erradicação: Removendo a ameaça de segurança.
-- Recuperação: restaurando os recursos do locatário para o estado em que estavam antes do ataque.
+   - Contenção: reduzindo qualquer impacto adicional em seu locatário.
+   - Erradicação: Removendo a ameaça de segurança.
+   - Recuperação: restaurando os recursos do locatário para o estado em que estavam antes do ataque.
 
-Depois de resolver o incidente, aproveite um momento para aprender com ele para:
+3. Depois de resolver o incidente, aproveite o tempo para:
 
-- Entenda o tipo de ataque e seu impacto.
-- Pesquise o ataque na comunidade de segurança para uma tendência de ataque de segurança.
-- Lembre-se do fluxo de trabalho usado para resolver o incidente e atualizar seus fluxos de trabalho padrão e playbooks conforme necessário.
+   - Entenda o tipo de ataque e seu impacto.
+   - Pesquise o ataque na comunidade de segurança para uma tendência de ataque de segurança.
+   - Lembre-se do fluxo de trabalho usado para resolver o incidente e atualizar seus fluxos de trabalho padrão e playbooks conforme necessário.
+   - Determine se as alterações na postura de segurança são necessárias e tome as etapas para implementá-las.
 
 Aqui está um resumo do processo básico.
 
