@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da pontuação de produtividade da Microsoft.
-ms.openlocfilehash: d818bd766f76f3df6c67a740d6ad1994a2be66de
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0eac22eadd099ebe4c7efbdf1198f6dc576dc080
+ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914577"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51876126"
 ---
 # <a name="microsoft-productivity-score"></a>Microsoft Productivity Score 
 
@@ -155,3 +155,11 @@ Este relatório ajuda as organizações a entender:
 ## <a name="we-want-to-hear-from-you"></a>Queremos ouvir de você
 
 Compartilhe seus pensamentos sobre a Pontuação de Produtividade e suas ideias sobre como melhorá-la. Use as seções **Comentários** dentro do produto e/ou entre em contato com a equipe de Pontuação de Produtividade em prodscorefeedback@microsoft.com.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Monitorar a atividade do Microsoft 365 usando relatórios](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) (artigo)
+
+[Habilitar a análise de uso do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics) (artigo)
+
+[Visão geral do Centro de administração do Microsoft 365](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) (vídeo)
