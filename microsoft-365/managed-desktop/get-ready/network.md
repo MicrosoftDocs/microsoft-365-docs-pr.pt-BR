@@ -86,7 +86,7 @@ OneNote | apis.live.net <br>www.onedrive.com <br>login.microsoft.com  <br>www.on
 
 1. Revise [os pré-requisitos da Área de Trabalho Gerenciada da Microsoft.](prerequisites.md)
 2. Use [ferramentas de avaliação de preparação.](readiness-assessment-tool.md)
-3. [Pré-requisitos para contas de convidados](guest-accounts.md)
+3. [Pré-requisitos para contas de convidado](guest-accounts.md)
 4. [Configuração de rede para Área de Trabalho Gerenciada](network.md) da Microsoft (Este artigo)
 5. [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md)
 6. [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](authentication.md)
