@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: cd571414512ce876e730199b21bf755e4c4b733f
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 3b381749108d4a75024d9a546c0d3f1631c948ed
+ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876194"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51887252"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
@@ -102,7 +102,7 @@ Este é o fluxo de trabalho típico para responder a incidentes:
 
    - Contenção: reduzindo qualquer impacto adicional em seu locatário.
    - Erradicação: Removendo a ameaça de segurança.
-   - Recuperação: restaurando os recursos do locatário para o estado em que estavam antes do ataque.
+   - Recuperação: restaurando os recursos do locatário para o estado em que estavam antes do incidente.
 
 3. Depois de resolver o incidente, aproveite o tempo para:
 

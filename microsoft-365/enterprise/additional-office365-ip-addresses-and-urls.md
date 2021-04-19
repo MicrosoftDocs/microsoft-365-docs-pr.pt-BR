@@ -3,7 +3,7 @@ title: Pontos de extremidade adicionais não incluídos no endereço IP do Offic
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/29/2020
+ms.date: 04/19/2021
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: ''
 description: 'Resumo: o novo serviço Web de ponto de extremidade não inclui uma quantidade pequena de pontos de extremidade para cenários específicos.'
 hideEdit: true
-ms.openlocfilehash: e9c9f28749691a8a2585c0865895718ea86d7141
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 6c545b6060b44ebe234baaebd3ae1eb2fdb0fb89
+ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927001"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51887204"
 ---
 # <a name="additional-endpoints-not-included-in-the-office-365-ip-address-and-url-web-service"></a>Pontos de extremidade adicionais não incluídos no endereço IP do Office 365 e no serviço Web de URL
 
@@ -46,7 +46,7 @@ Exceto pelo DNS, todos estes são opcionais para a maioria dos clientes, a menos
 | Linha | Objetivo | Destino | Tipo |
 |:-----|:-----|:-----|:-----|
 | 1  | [Serviço de importação](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6) para PST e ingestão de arquivos | Confira o [Serviço de Importação](https://support.office.com/article/use-network-upload-to-import-your-organization-pst-files-to-office-365-103f940c-0468-4e1a-b527-cc8ad13a5ea6) para requisitos adicionais. | Cenários excepcionais de saída |
-| 2  | [Assistente de Recuperação e Suporte da Microsoft para o Office 365](https://diagnostics.office.com/#/)  | https<span>://</span>autodiscover.outlook.com <BR> <span>https://</span>officecdn.microsoft.com <BR> <span>https://</span>api.diagnostics.office.com <BR> <span>https://</span>apibasic.diagnostics.office.com <BR> <span>https://</span>autodiscover-s.outlook.com <BR> <span>https://</span>cloudcheckenabler.azurewebsites.net <BR> <span>https://</span>dcs-staging.azure-api.net <BR> <span>https://</span>login.live.com <BR> <span>https://</span>login.microsoftonline.com <BR> <span>https://</span>login.windows.net <BR> <span>https://</span>o365diagtelemetry.trafficmanager.net <BR> <span>https://</span>odc.officeapps.live.com <BR> <span>https://</span>offcatedge.azureedge.net <BR> <span>https://</span>officeapps.live.com <BR> <span>https://</span>outlook.office365.com <BR> <span>https://</span>outlookdiagnostics.azureedge.net | Tráfego do servidor de saída |
+| 2  | [Assistente de Recuperação e Suporte da Microsoft para o Office 365](https://diagnostics.office.com/#/)  | https<span>://</span>autodiscover.outlook.com <BR> <span>https://</span>officecdn.microsoft.com <BR> <span>https://</span>api.diagnostics.office.com <BR> <span>https://</span>apibasic.diagnostics.office.com <BR> <span>https://</span>autodiscover-s.outlook.com <BR> <span>https://</span>cloudcheckenabler.azurewebsites.net <BR> <span>https://</span>login.live.com <BR> <span>https://</span>login.microsoftonline.com <BR> <span>https://</span>login.windows.net <BR> <span>https://</span>o365diagtelemetry.trafficmanager.net <BR> <span>https://</span>odc.officeapps.live.com <BR> <span>https://</span>offcatedge.azureedge.net <BR> <span>https://</span>officeapps.live.com <BR> <span>https://</span>outlook.office365.com <BR> <span>https://</span>outlookdiagnostics.azureedge.net | Tráfego do servidor de saída |
 | 3  | Azure AD Connect (com opção de SSO) – WinRM e PowerShell remoto | Ambiente de STS do cliente (servidor do AD FS e Proxy do AD FS) \| portas TCP 80 e 443 | Tráfego do servidor de entrada |
 | 4   | STS, como servidor (es) Proxy do AD FS (somente para clientes federados) | STS do cliente (como Proxy do AD FS) \| portas TCP 443 ou TCP 49443 com ClientTLS | Tráfego do servidor de entrada |
 | 5   | [Mensagens unificadas no Exchange Online/Integração de SBC](/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers) | Bidirecional entre controlador de borda de sessão local e *. um.outlook.com | Somente o tráfego de servidor de saída |
@@ -57,7 +57,7 @@ Exceto pelo DNS, todos estes são opcionais para a maioria dos clientes, a menos
 | 10   | O serviço de detecção automática é usado em cenários do [Exchange Híbrido](/exchange/exchange-deployment-assistant) com [Autenticação Híbrida Moderna com Outlook para iOS e Android](/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) <BR> <BR> ```*.acompli.net``` <BR> <BR> ```*.outlookmobile.com``` <BR> <BR> ```*.outlookmobile.us``` <BR> <BR> ```52.125.128.0/20``` <BR> ```52.127.96.0/23``` <BR> | Servidor Exchange local do cliente em TCP 443 | Tráfego do servidor de entrada |
 | 11  | Autenticação Híbrida do Azure AD do Exchange | *.msappproxy.net | Tráfego somente de servidor de saída TCP |
 | 12   | O Skype for Business no Office 2016 inclui o compartilhamento de tela baseado em vídeo que usa portas UDP. Os clientes mais antigos do Skype for Business no Office 2013 e em versões anteriores usavam a porta 443 RDP em vez da TCP. | Porta 443 TCP aberta para 52.112.0.0/14 | Versões de cliente mais antigas do Skype for Business no Office 2013 e em versões anteriores |
-| 13   | Conectividade entre o servidor híbrido local do Skype for Business e o Skype for Business Online | 13.107.64.0/18, 52.112.0.0/14  <BR> Portas UDP 50.000-59.999 <BR>  Portas TCP 50.000-59.999; 5061 | Conectividade de saída de servidor local no Skype for Business |
+| 13  | Conectividade entre o servidor híbrido local do Skype for Business e o Skype for Business Online | 13.107.64.0/18, 52.112.0.0/14  <BR> Portas UDP 50.000-59.999 <BR>  Portas TCP 50.000-59.999; 5061 | Conectividade de saída de servidor local no Skype for Business |
 | 14   | O PSTN na nuvem sem conectividade híbrida local requer conectividade aberta ao host local. Para saber mais sobre as configurações híbridas do Skype for Business Online  | Confira [Planejar conectividade híbrida entre o Skype for Business Server e o Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity). | Entrada híbrida local do Skype for Business |
 | 15   | **FQDNs de autenticação e identidade** <br> O FDQN ```secure.aadcdn.microsoftonline-p.com```precisa estar no Internet Explorer (IE) ou na Zona de Sites Confiáveis de Borda para funcionar. |  | Sites confiáveis |
 | 16   |  **FDQNs do Microsoft Teams** <br> Se estiver usando o Internet Explorer ou o Microsoft Edge, é necessário habilitar os cookies primários e de terceiros, adicionar os FQDNs do Teams aos Sites Confiáveis, além de todo o pacote de FQDNs, CDNs e telemetria relacionados na linha 14. Para saber mais, confira o artigo [Problemas conhecidos do Microsoft Teams](/microsoftteams/known-issues). |  | Sites confiáveis |
@@ -74,7 +74,7 @@ Exceto pelo DNS, todos estes são opcionais para a maioria dos clientes, a menos
 
 [Gerenciar pontos de extremidade do Office 365](managing-office-365-endpoints.md)
   
-[Monitorar a conectividade do Microsoft 365](./monitor-connectivity.md?view=o365-worldwide)
+[Monitorar a conectividade do Microsoft 365](./monitor-connectivity.md)
   
 [Conectividade de cliente](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b)
   
