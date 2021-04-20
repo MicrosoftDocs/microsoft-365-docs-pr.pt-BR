@@ -15,12 +15,12 @@ ms.custom:
 - M365solutions
 f1.keywords: NOCSH
 description: Saiba mais sobre opções de conformidade para grupos do Microsoft 365, colaboração do Teams e do SharePoint.
-ms.openlocfilehash: 88083d88b274e750e0fc6f1907268c996312163c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5006f0cf9f7eb174082d4fc2508bf112864fcba3
+ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920887"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899347"
 ---
 # <a name="compliance-options-for-microsoft-365-groups-teams-and-sharepoint-collaboration"></a>Opções de conformidade para grupos do Microsoft 365, colaboração do Teams e do SharePoint
 
@@ -40,7 +40,7 @@ A tabela a seguir fornece uma referência rápida para os controles de conformid
 |Proteção de informações|||
 ||Impedir a perda de informações confidenciais|[Visão geral da prevenção contra perda de dados](../compliance/data-loss-prevention-policies.md)|
 ||Proteja informações confidenciais no chat.|[Prevenção contra perda de dados e Microsoft Teams](../compliance/dlp-microsoft-teams.md)|
-||Definir as informações confidenciais da sua organização|[Personalizar tipos de informação confidencial](../compliance/sensitive-information-type-learn-about.md)|
+||Definir as informações confidenciais da sua organização|[Tipos personalizados de informações confidenciais](../compliance/sensitive-information-type-learn-about.md)|
 |Segmentação de usuário|||
 ||Restringir a comunicação entre segmentos de usuário|[Barreiras de informações](../compliance/information-barriers.md)|
 
@@ -60,7 +60,7 @@ Os chats de usuário são mantidos indefinidamente, mesmo se uma conta de usuár
 
 - [Políticas de retenção no Microsoft Teams](/microsoftteams/retention-policies)
 
-Uma única política de retenção pode ser definida para aplicar-se a grupos do Microsoft 365, chat do Teams e mensagens de canal do Teams. 
+Uma única política de retenção pode ser definida para se aplicar a mensagens de chat do Teams e canal do Teams. 
 
 Recursos adicionais:
 
@@ -101,7 +101,7 @@ A DLP no Teams pode ajudar a proteger informações confidenciais em mensagens d
 
 Se você tiver informações confidenciais exclusivas da sua organização, como nomes de código do projeto, poderá criar seus próprios tipos de informações confidenciais e aplicá-los a políticas de DLP para proteger o conteúdo em grupos, equipes e Sharepoint.
 
-- [Personalizar tipos de informação confidencial](../compliance/sensitive-information-type-learn-about.md)
+- [Tipos personalizados de informações confidenciais](../compliance/sensitive-information-type-learn-about.md)
 
 ## <a name="user-segmentation"></a>Segmentação de usuário
 

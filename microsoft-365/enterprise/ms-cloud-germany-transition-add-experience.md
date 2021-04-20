@@ -18,33 +18,42 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: atividades pós-migração após a migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 745589c1c997540094fc4a770e437de89015f88a
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: ee8dedf7ffaf6bfc4246b1a8cc2522c15d763cd1
+ms.sourcegitcommit: 1c53f114a810e7aaa2dc876b84d66348492ea36c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591751"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899359"
 ---
 # <a name="post-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Atividades pós-migração para a migração do Microsoft Cloud Deutschland
 
 As seções a seguir fornecem atividades pós-migração para vários serviços depois de migrar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.
 
-## <a name="azure-ad"></a>Azure Active Directory
+## <a name="azure-ad"></a>Azure AD
+<!-- This AAD Endpoints comparison table could be added to the documentation, not finally decided.
+### Azure AD Endpoints
+**Applies to:** All customers
 
-### <a name="azure-ad-connect"></a>Azure AD Connect
-**Aplica-se a:** Todos os clientes sincronizando identidades com a conexão do Azure AD
+After the cut over to Azure AD is complete, the organization is fully using Office 365 services and is no longer connected to Microsoft Cloud Deutschland and the endpoints cannot be used anymore. At this point, the customer needs to ensure that all applications are using the endpoints for the new German datacenter region.
+The following table provides an overview about which endpoints will replace the previously used endpoints in Microsoft Cloud Germany (Microsoft Cloud Deutschland). 
 
-| Step(s) | Descrição | Impacto |
-|:-------|:-------|:-------|
-| Atualizar o Azure AD Connect. | Após a conclusão do corte no Azure AD, a organização está usando totalmente os serviços do Office 365 e não está mais conectada ao Microsoft Cloud Deutschland. Neste ponto, o cliente precisa garantir que o processo de sincronização delta tenha sido finalizado e, depois disso, altere o valor da cadeia de caracteres de `AzureInstance` 3 (Microsoft Cloud Deutschland) para 0 no caminho do `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Azure AD Connect` Registro. | Altere o valor `AzureInstance` de , a chave do Registro. Se não fizer isso, os objetos não serão sincronizados depois que os pontos de extremidade do Microsoft Cloud Deutschland não estiverem mais disponíveis. |
-|||||
+|Endpoint in Microsoft Cloud Germany  |Endpoint in the new German datacenter region  |
+|:---------|:---------|
+|becws.microsoftonline.de<br>provisioningapi.microsoftonline.de |becws.microsoftonline.com<br>provisioningapi.microsoftonline.com |
+|adminwebservice.microsoftonline.de |adminwebservice.microsoftonline.com |
+|login.microsoftonline.de<br>logincert.microsoftonline.de<br>sts.microsoftonline.de |login.microsoftonline.com<br>login.windows.net<br>logincert.microsoftonline.com<br>accounts.accesscontrol.windows.net |
+|enterpriseregistration.microsoftonline.de |enterpriseregistration.windows.net |
+|graph.cloudapi.de |graph.windows.net |
+|graph.microsoft.de |graph.microsoft.com |
+|||
+-->
 
 ### <a name="azure-ad-federated-authentication-with-ad-fs"></a>Autenticação federada do Azure AD com o AD FS
 **Aplica-se a:** Todos os clientes que usam autenticação federada com o AD FS
 
 | Step(s) | Descrição | Impacto |
 |:-------|:-------|:-------|
-| Remova as confianças de terceiros confiável do Microsoft Cloud Deutschland AD FS. | Após a conclusão do corte no Azure AD, a organização está usando totalmente os serviços do Office 365 e não está mais conectada ao Microsoft Cloud Deutschland. Neste ponto, o cliente precisa remover a confiança da parte confiável para os pontos de extremidade do Microsoft Cloud Deutschland. Isso só pode ser feito quando nenhum dos aplicativos do cliente aponta para os pontos de extremidade do Microsoft Cloud Deutschland quando o Azure AD é aproveitado como um Provedor de Identidade (IdP). | Organizações de Autenticação Federada | Nenhum. |
+| Remova as confianças de terceiros confiável do Microsoft Cloud Deutschland AD FS. | Após a conclusão do corte no Azure AD, a organização está usando totalmente os serviços do Office 365 e não está mais conectada ao Microsoft Cloud Deutschland. Neste ponto, o cliente precisa remover a confiança da parte confiável para os pontos de extremidade do Microsoft Cloud Deutschland. Isso só pode ser feito quando nenhum dos aplicativos do cliente aponta para os pontos de extremidade do Microsoft Cloud Deutschland quando o Azure AD é aproveitado como um Provedor de Identidade (IdP). | Organizações de Autenticação Federada | Nenhum |
 ||||
 
 <!--
