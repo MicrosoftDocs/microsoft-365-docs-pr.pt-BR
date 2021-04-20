@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 4de1d173a26005d32fb07117d93ee78582b77d54
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b2976fc643eb433039d9595bc8e9632fd8cb60ea
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689204"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893468"
 ---
 # <a name="register-new-devices-yourself"></a>Registre novos dispositivos por conta própria
 
@@ -77,7 +77,7 @@ Você precisará ter os dados nos arquivos CSV combinados em um único arquivo p
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
 
-#### <a name="register-devices-by-using-the-admin-portal"></a>Registrar dispositivos usando o Portal de Administração
+### <a name="register-devices-by-using-the-admin-portal"></a>Registrar dispositivos usando o Portal de Administração
 
 No [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), selecione **Dispositivos** no painel de navegação esquerdo. Procure a seção Área de Trabalho Gerenciada da Microsoft do menu e selecione **Dispositivos**. No espaço de trabalho Dispositivos de Área de Trabalho Gerenciados da Microsoft, Selecione **+ Registrar dispositivos**, que abre um fly-in para registrar novos dispositivos.
 
@@ -103,7 +103,7 @@ Você pode monitorar o andamento do registro do dispositivo na página principal
 | Registro Pendente | O registro ainda não foi feito. Volte mais tarde. |
 | Falha no registro | O registro não pôde ser concluído. Consulte [Troubleshooting device registration para](#troubleshooting-device-registration) obter mais informações. |
 | Pronto para usuário | O registro foi bem-sucedido e o dispositivo agora está pronto para ser entregue ao usuário. A Área de Trabalho Gerenciada da Microsoft os orientará durante a configuração da primeira vez, portanto, não há necessidade de você fazer outras preparações. |
-| Ativa | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. Esse estado também indica que eles estão usando regularmente o dispositivo. |
+| Ativo | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. Esse estado também indica que eles estão usando regularmente o dispositivo. |
 | Inativo | O dispositivo foi entregue ao usuário e ele se registrou com seu locatário. No entanto, eles não usaram o dispositivo recentemente (nos últimos 7 dias).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Solução de problemas de registro de dispositivo

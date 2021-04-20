@@ -1,6 +1,6 @@
 ---
 title: Acessar o Centro de Comunidade do Microsoft Defender para Ponto de Extremidade
-description: Acesse o Centro de Comunidade do Microsoft Defender ATP para compartilhar experiências, interagir e aprender sobre o produto.
+description: Acesse o Centro de Comunidade do Microsoft Defender para Ponto de Extremidade para compartilhar experiências, interagir e aprender sobre o produto.
 keywords: community, community center, tech community, conversation, announcements
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 71dc2a004f188eac34258afb2200cfd4e67f47ab
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ef1076fb5b8bfc38090374671998460190faaba9
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165232"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893420"
 ---
 # <a name="access-the-microsoft-defender-for-endpoint-community-center"></a>Acessar o Centro de Comunidade do Microsoft Defender para Ponto de Extremidade
 
@@ -37,7 +37,7 @@ ms.locfileid: "51165232"
 O Defender for Endpoint Community Center é um local onde os membros da comunidade podem aprender, colaborar e compartilhar experiências sobre o produto. 
 
 Há vários espaços que você pode explorar para saber mais sobre informações específicas:
-- Comunicados 
+- Announcements 
 - Novidades
 - Inteligência contra Ameaças
 

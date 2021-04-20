@@ -1,5 +1,5 @@
 ---
-title: Integração de dispositivos Windows 10 para o Microsoft Defender ATP por meio da Política de Grupo
+title: Integração de dispositivos Windows 10 para o Microsoft Defender para Ponto de Extremidade por meio da Política de Grupo
 description: Use a Política de Grupo para implantar o pacote de configuração em dispositivos Windows 10 para que eles sejam integrados ao serviço.
 keywords: configurar dispositivos usando política de grupo, gerenciamento de dispositivos, configurar dispositivos WINDOWS ATP, microsoft defender para dispositivos de ponto de extremidade, política de grupo
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: fc4b17ef96e85d3bacd4e83c2de3f4bb7fbfa5c3
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b839cf204e8ab042e0c88a8f8c48df79770e7b4f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166162"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893622"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Integração de dispositivos Windows 10 usando a Política de Grupo 
 
@@ -42,7 +42,7 @@ ms.locfileid: "51166162"
 > 
 > Para o Windows Server 2019, talvez seja necessário substituir o NT AUTHORITY\Well-Known-System-Account por NT AUTHORITY\SYSTEM do arquivo XML que a preferência de Política de Grupo cria.
 
-## <a name="onboard-devices-using-group-policy"></a>Dispositivos de integração usando a Política de Grupo
+## <a name="onboard-devices-using-group-policy"></a>Dispositivos integrados usando Política de Grupo
 
 [![Imagem do PDF mostrando os vários caminhos de implantação](images/onboard-gp.png)](images/onboard-gp.png#lightbox)
 
@@ -121,7 +121,7 @@ Todas as políticas estão localizadas em `Computer Configuration\Policies\Admin
 
 **Local da política:** \Componentes do Windows\Windows Defender ATP
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Enable\Disable Sample collection|   Habilitado - verificado "Habilitar coleta de exemplo em máquinas"
 
@@ -129,7 +129,7 @@ Enable\Disable Sample collection|   Habilitado - verificado "Habilitar coleta de
 
 **Local da política:**  \Componentes do Windows\Windows Defender Antivírus
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Configurar a detecção para aplicativos potencialmente indesejados | Habilitado, Bloqueado
 
@@ -137,7 +137,7 @@ Configurar a detecção para aplicativos potencialmente indesejados | Habilitado
 
 **Local da política:** \Componentes do Windows\Windows Defender Antivírus\MAPS
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Ingressar no Microsoft MAPS | MAPAs avançados e habilitados
 Enviar amostras de arquivo quando uma análise posterior for necessária | Habilitado, Enviar amostras seguras
@@ -146,9 +146,9 @@ Enviar amostras de arquivo quando uma análise posterior for necessária | Habil
 
 **Local da política:** \Componentes do Windows\Windows Defender Antivírus\Proteção em tempo real
 
-Política | Configuração 
+Política | Setting 
 :---|:---
-Desativar a proteção em tempo real|Desabilitado
+Desativar a proteção em tempo real|Desabilitada
 Ativar o monitoramento de comportamento|Habilitado
 Examinar todos os arquivos e anexos baixados|Habilitado
 Monitorar atividades de arquivo e programa em seu computador|Habilitado
@@ -159,7 +159,7 @@ Monitorar atividades de arquivo e programa em seu computador|Habilitado
 
 Essas configurações configuram verificações periódicas do ponto de extremidade. Recomendamos a realização de uma verificação rápida semanal, permitindo desempenho.
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Verifique a inteligência de segurança de vírus e spyware mais recente antes de executar uma verificação agendada |Habilitado
 
@@ -184,7 +184,7 @@ Obter a lista atual de GUIDs de redução de superfície de ataque de Personaliz
 
 
 
-Política | Configuração 
+Política | Setting 
 :---|:---
 Configurar acesso controlado a pastas| Habilitado, Modo de Auditoria
 
@@ -242,6 +242,6 @@ Com a Política de Grupo, não há uma opção para monitorar a implantação de
 - [Integração de dispositivos Windows 10 usando o Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md)
 - [Integrar dispositivos Windows 10 usando um script local](configure-endpoints-script.md)
-- [Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)](configure-endpoints-vdi.md)
+- [Dispositivos integrados de VDI (Virtual Desktop Infrastructure) não persistente](configure-endpoints-vdi.md)
 - [Executar um teste de detecção em um Microsoft Defender recém-integrado para dispositivos de ponto de extremidade](run-detection-test.md)
 - [Solucionar problemas de integração do Microsoft Defender para pontos de extremidade](troubleshoot-onboarding.md)

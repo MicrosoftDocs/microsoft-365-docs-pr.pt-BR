@@ -14,12 +14,12 @@ ms.custom: nextgen
 ms.reviewer: tewchen, pahuijbr, shwjha
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 131b9970572b1034ba5c9907a001f0497d450339
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 8e179135f12ad6f4ea765eaf975a40534446b51f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765438"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893384"
 ---
 # <a name="microsoft-defender-antivirus-compatibility"></a>Compatibilidade com o Microsoft Defender Antivírus
 
@@ -29,7 +29,7 @@ ms.locfileid: "51765438"
 
 - [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/)
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O Microsoft Defender Antivírus é habilitado e instalado automaticamente em pontos de extremidade e dispositivos que executam o Windows 10. Mas o que acontece quando outra solução antivírus/antimalware é usada? Depende se você está usando o Microsoft Defender para Ponto de Extremidade [juntamente](microsoft-defender-endpoint.md) com sua proteção antivírus.
 - Se os pontos de extremidade e os dispositivos da sua organização estão protegidos com uma solução antivírus/antimalware que não seja da Microsoft e o Microsoft Defender para Ponto de Extremidade não é usado, o Microsoft Defender Antivírus entra automaticamente no modo desabilitado.
@@ -60,7 +60,7 @@ A tabela a seguir resume o que acontece com o Microsoft Defender Antivírus quan
 
 Se você estiver usando o Windows Server, versão 1803 ou mais recente, ou o Windows Server 2019, poderá definir o Microsoft Defender Antivírus como modo passivo definindo a seguinte chave do Registro:
 - Caminho: `HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`
-- Nome: `ForcePassiveMode`
+- Nome: `ForceDefenderPassiveMode`
 - Digite: `REG_DWORD`
 - Valor: `1`
 

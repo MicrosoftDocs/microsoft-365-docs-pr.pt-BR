@@ -1,7 +1,7 @@
 ---
 title: Detecção e resposta do ponto de extremidade no modo de bloqueio
 description: Saiba mais sobre a detecção e a resposta do ponto de extremidade no modo de bloqueio
-keywords: Microsoft Defender ATP, mde, EDR no modo de bloqueio, bloqueio de modo passivo
+keywords: Microsoft Defender para Ponto de Extremidade, mde, EDR no modo de bloqueio, bloqueio de modo passivo
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
@@ -20,12 +20,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: e492d57d8a7e10a1fff57980408ed8234bbeead0
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: a2fbb8f1b48dacb27468f8f088f5000da9fcb3b9
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587198"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893560"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Detecção e resposta do ponto de extremidade (EDR) no modo de bloqueio
 
@@ -75,11 +75,11 @@ A imagem a seguir mostra uma instância de software indesejado que foi detectado
 
 |Requisito  |Detalhes  |
 |---------|---------|
-|Permissões |Função administrador global ou administrador de segurança atribuída no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal). Consulte [Permissões básicas](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/basic-permissions). |
+|Permissions |Função administrador global ou administrador de segurança atribuída no [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal). Consulte [Permissões básicas](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/basic-permissions). |
 |Sistema operacional     |Uma das seguintes versões: <br/>- Windows 10 (todas as versões) <br/>- Windows Server, versão 1803 ou mais recente <br/>- Windows Server 2019         |
 |Registro do Windows E5     |O Windows E5 está incluído nas seguintes assinaturas: <br/>- Microsoft 365 E5 <br/>– Microsoft 365 E3 juntamente com a oferta de Proteção contra Ameaças & Identidade <br/><br/>Consulte [Componentes](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview?view=o365-worldwide&preserve-view=true#components) [e recursos e recursos para cada plano](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).       |
 |Microsoft Defender Antivírus  |O Microsoft Defender Antivírus deve ser instalado e executado no modo ativo ou no modo passivo. (Você pode usar o Microsoft Defender Antivírus juntamente com uma solução antivírus não Microsoft.) [Confirme se o Microsoft Defender Antivírus está no modo ativo ou passivo.](#how-do-i-confirm-microsoft-defender-antivirus-is-in-active-or-passive-mode) |
-|Proteção entregue na nuvem |Certifique-se de que o Microsoft Defender Antivírus está configurado para que a proteção [entregue na nuvem seja habilitada.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) |
+|Proteção fornecida na nuvem |Certifique-se de que o Microsoft Defender Antivírus está configurado para que a proteção [entregue na nuvem seja habilitada.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) |
 |Cliente antimalware do Microsoft Defender Antivírus |Certifique-se de que seu cliente está atualizado. Usando o PowerShell, execute o cmdlet [Get-MpComputerStatus](https://docs.microsoft.com/powershell/module/defender/get-mpcomputerstatus?view=win10-ps&preserve-view=true) como administrador. Na linha **AMProductVersion,** você deve ver **4.18.2001.10** ou superior. |
 |Mecanismo do Microsoft Defender Antivírus |Certifique-se de que o mecanismo está atualizado. Usando o PowerShell, execute o cmdlet [Get-MpComputerStatus](https://docs.microsoft.com/powershell/module/defender/get-mpcomputerstatus?view=win10-ps&preserve-view=true) como administrador. Na linha **AMEngineVersion,** você deve ver **1.1.16700.2** ou superior. |
 
@@ -140,5 +140,5 @@ Se você optou por desabilitar o EDR no modo de bloqueio, pode levar até 30 min
 
 - [Blog da Comunidade Técnica: Introdução à EDR no modo de bloqueio: Interrompendo ataques em suas faixas](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/introducing-edr-in-block-mode-stopping-attacks-in-their-tracks/ba-p/1596617)
 - [Bloqueio e contenção comportamental](behavioral-blocking-containment.md)
-- [Melhor juntos: Microsoft Defender Antivírus e Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/why-use-microsoft-antivirus)
+- [Melhores juntos: Microsoft Defender Antivírus e Microsoft Defender para Ponto de Extremidade](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/why-use-microsoft-antivirus)
 

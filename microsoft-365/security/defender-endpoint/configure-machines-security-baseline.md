@@ -1,7 +1,7 @@
 ---
-title: Aumentar a conformidade com a linha de base de segurança do Microsoft Defender ATP
-description: A linha de base de segurança do Microsoft Defender ATP define os controles de segurança do Microsoft Defender ATP para fornecer proteção ideal.
-keywords: Gerenciamento do Intune, MDATP, WDATP, Microsoft Defender, ASR de proteção avançada contra ameaças, linha de base de segurança
+title: Aumentar a conformidade com a linha de base de segurança do Microsoft Defender for Endpoint
+description: A linha de base de segurança do Microsoft Defender para Ponto de Extremidade define controles de segurança para fornecer proteção ideal.
+keywords: Gerenciamento do Intune, MDATP, WDATP, MDE, Microsoft Defender para Ponto de Extremidade, ASR de proteção avançada contra ameaças, linha de base de segurança
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 74073441ad7be89e0af278ff1e371133251b5ea7
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 19a2276955b253a23ee1552a3f1d4d0345dfe247
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163394"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893536"
 ---
 # <a name="increase-compliance-to-the-microsoft-defender-for-endpoint-security-baseline"></a>Aumentar a conformidade com a linha de base de segurança do Microsoft Defender for Endpoint
 
@@ -41,11 +41,11 @@ Antes de implantar e rastrear a conformidade com as linhas de base de segurança
 - [Registrar seus dispositivos no gerenciamento do Intune](configure-machines.md#enroll-devices-to-intune-management)
 - [Verifique se você tem as permissões necessárias](configure-machines.md#obtain-required-permissions)
 
-## <a name="compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines"></a>Comparar o Microsoft Defender ATP e as linhas de base de segurança do Windows Intune
+## <a name="compare-the-microsoft-defender-for-endpoint-and-the-windows-intune-security-baselines"></a>Comparar o Microsoft Defender para Ponto de Extremidade e as linhas de base de segurança do Windows Intune
 A linha de base de segurança do Windows Intune fornece um conjunto abrangente de configurações recomendadas necessárias para configurar com segurança dispositivos que executam o Windows, incluindo configurações do navegador, configurações do PowerShell, bem como configurações para alguns recursos de segurança, como o Microsoft Defender Antivírus. Por outro lado, a linha de base do Defender for Endpoint fornece configurações que otimizam todos os controles de segurança na pilha do Defender para Ponto de Extremidade, incluindo configurações para detecção e resposta do ponto de extremidade (EDR), bem como configurações também encontradas na linha de base de segurança do Windows Intune. Para obter mais informações sobre cada linha de base, consulte:
 
 - [Configurações de linha de base de segurança do Windows para o Intune](https://docs.microsoft.com/intune/security-baseline-settings-windows)
-- [Configurações de linha de base do Microsoft Defender ATP para o Intune](https://docs.microsoft.com/intune/security-baseline-settings-defender-atp)
+- [Configurações de linha de base do Microsoft Defender para Ponto de Extremidade para Intune](https://docs.microsoft.com/intune/security-baseline-settings-defender-atp)
 
 O ideal é que os dispositivos que integram o Defender para o Ponto de Extremidade sejam implantados em ambas as linhas de base: a linha de base de segurança do Windows Intune para proteger inicialmente o Windows e, em seguida, a linha de base de segurança do Defender for Endpoint em camadas na parte superior para configurar idealmente os controles de segurança do Defender para Ponto de Extremidade. Para se beneficiar dos dados mais recentes sobre riscos e ameaças e minimizar conflitos à medida que as linhas de base evoluem, sempre aplique as versões mais recentes das linhas de base em todos os produtos assim que eles são lançados.
 
@@ -107,6 +107,6 @@ O gerenciamento de configuração de dispositivo monitora apenas a conformidade 
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Verifique se seus dispositivos estão configurados corretamente](configure-machines.md)
+- [Verificar se os dispositivos estão configurados corretamente](configure-machines.md)
 - [Obter dispositivos conectados ao Microsoft Defender para Ponto de Extremidade](configure-machines-onboarding.md)
 - [Otimizar a implantação e as detecções de regras ASR](configure-machines-asr.md)

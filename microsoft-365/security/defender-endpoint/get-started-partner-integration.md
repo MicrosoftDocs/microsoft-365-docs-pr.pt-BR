@@ -1,7 +1,7 @@
 ---
-title: Tornar-se um parceiro do Microsoft Defender para Ponto de Extremidade
+title: Torne-se um parceiro do Microsoft Defender para Ponto de Extremidade
 ms.reviewer: ''
-description: Saiba as etapas e requisitos para integrar sua solução com o Microsoft Defender ATP e ser um parceiro
+description: Saiba as etapas e requisitos para integrar sua solução com o Microsoft Defender para Ponto de Extremidade e ser um parceiro
 keywords: partner, integration, solution validation, certification, requirements, member, misa, application portal
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: ea7ebe1656c0173395df158b8f934ab388bea4ba
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 35ba1fe85fa9b62770142636d46303b37534b976
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053379"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893312"
 ---
-# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>Tornar-se um parceiro do Microsoft Defender para Ponto de Extremidade
+# <a name="become-a-microsoft-defender-for-endpoint-partner"></a>Torne-se um parceiro do Microsoft Defender para Ponto de Extremidade
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -71,4 +71,4 @@ Para que sua empresa seja listada como um parceiro na página do parceiro no pro
 As parcerias com o Microsoft Defender para Ponto de Extremidade ajudam nossos clientes mútuos a simplificar, integrar e orquestrar ainda mais as defesas. Estamos felizes por você ter escolhido se tornar um parceiro do Microsoft Defender para Ponto de Extremidade e alcançar nosso objetivo comum de proteger efetivamente os clientes e seus ativos, impedindo e respondendo a ameaças modernas juntos.
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Oportunidades de parceiros técnicos](partner-integration.md)
+- [Oportunidades para parceiros técnicos](partner-integration.md)

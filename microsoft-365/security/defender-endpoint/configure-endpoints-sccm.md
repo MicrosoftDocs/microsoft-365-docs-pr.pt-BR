@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: b477f302855cb5d4b00e0502bcfa9aa3aeb6b5c2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 3550bec28945ab888efbe2ca46f12ca7f96aab4a
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165568"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892858"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>Integrar dispositivo Windows 10 usando o Configuration Manager
 
@@ -223,7 +223,7 @@ Se você estiver usando o System Center 2012 R2 Configuration Manager, o monitor
 
     ![Gerenciador de Configurações mostrando implantação bem-sucedida sem erros](images/sccm-deployment.png)
 
-### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-atp-service"></a>Verifique se os dispositivos estão em conformidade com o serviço do Microsoft Defender ATP
+### <a name="check-that-the-devices-are-compliant-with-the-microsoft-defender-for-endpoint-service"></a>Verifique se os dispositivos estão em conformidade com o serviço do Microsoft Defender para Ponto de Extremidade
 
 Você pode definir uma regra de conformidade para o item de configuração no System Center 2012 R2 Configuration Manager para monitorar sua implantação.
 
@@ -243,6 +243,6 @@ Para obter mais informações, consulte Introdução às configurações de conf
 - [Integração de dispositivos Windows 10 usando a Política de Grupo](configure-endpoints-gp.md)
 - [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](configure-endpoints-mdm.md)
 - [Integrar dispositivos Windows 10 usando um script local](configure-endpoints-script.md)
-- [Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)](configure-endpoints-vdi.md)
-- [Executar um teste de detecção em um dispositivo Microsoft Defender ATP recém-conectado](run-detection-test.md)
+- [Dispositivos integrados de VDI (Virtual Desktop Infrastructure) não persistente](configure-endpoints-vdi.md)
+- [Executar um teste de detecção em um dispositivo recém-integrado do Microsoft Defender para Ponto de Extremidade](run-detection-test.md)
 - [Solucionar problemas de integração do Microsoft Defender para pontos de extremidade](troubleshoot-onboarding.md)

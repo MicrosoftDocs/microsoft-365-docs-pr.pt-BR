@@ -1,6 +1,6 @@
 ---
 title: Integração de dispositivos que não são windows ao serviço microsoft defender para ponto de extremidade
-description: Configure dispositivos que não são do Windows para que eles possam enviar dados do sensor para o serviço microsoft Defender ATP.
+description: Configure dispositivos que não são windows para que eles possam enviar dados do sensor para o serviço Microsoft Defender para Ponto de Extremidade.
 keywords: integração de dispositivos que não são windows, macos, linux, gerenciamento de dispositivos, configurar dispositivos Windows ATP, configurar o Microsoft Defender para dispositivos de ponto de extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71f230f557792d75659dc4dbfc5911811514d5ea
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: c78779cd4a8a329864b6ac7e0debfc30ca0b3a56
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687872"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893584"
 ---
 # <a name="onboard-non-windows-devices"></a>Dispositivos Windows não integrados
 
@@ -40,7 +40,7 @@ ms.locfileid: "51687872"
 
 O Defender for Endpoint fornece uma experiência centralizada de operações de segurança para o Windows, bem como para plataformas que não são do Windows. Você poderá ver alertas de vários sistemas operacionais com suporte (SO) no Centro de Segurança do Microsoft Defender e proteger melhor a rede da sua organização. 
 
-Você precisará saber as versões exatas do Linux e macOS compatíveis com o Defender para o Ponto de Extremidade para que a integração funcione. Para mais informações, confira:
+Você precisará saber as versões exatas do Linux e macOS compatíveis com o Defender para o Ponto de Extremidade para que a integração funcione. Para saber mais, confira:
 - [Microsoft Defender para Ponto de Extremidade em requisitos do sistema Linux](microsoft-defender-endpoint-linux.md#system-requirements)  
 - [Microsoft Defender para Ponto de Extremidade em requisitos do sistema macOS.](microsoft-defender-endpoint-mac.md#system-requirements)
 
@@ -48,7 +48,7 @@ Você precisará saber as versões exatas do Linux e macOS compatíveis com o De
 Você precisará seguir as etapas a seguir para a integração de dispositivos que não são windows:
 1. Selecione seu método preferencial de integração:
 
-   - Para dispositivos macOS, você pode optar por integração por meio do Microsoft Defender ATP ou por meio de uma solução de terceiros. Para obter mais informações, consulte [Microsoft Defender for Endpoint for Mac](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac).
+   - Para dispositivos macOS, você pode optar por integração por meio do Microsoft Defender para Ponto de Extremidade ou por meio de uma solução de terceiros. Para obter mais informações, consulte [Microsoft Defender for Endpoint for Mac](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac).
 
    - Para outros dispositivos que não são do Windows, escolha **Integrar dispositivos que não são do Windows por meio da integração de terceiros.**   
     1. No painel de navegação, selecione **Parceiros de**  >  **Interoperabilidade**. Certifique-se de que a solução de terceiros está listada.

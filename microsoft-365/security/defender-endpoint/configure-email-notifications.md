@@ -1,7 +1,7 @@
 ---
 title: Configurar notificações de alerta no Microsoft Defender para Ponto de Extremidade
 description: Você pode usar o Microsoft Defender para o Ponto de Extremidade para configurar as configurações de notificação de email para alertas de segurança, com base na gravidade e em outros critérios.
-keywords: notificações por email, configurar notificações de alerta, notificações do microsoft defender atp, alertas do microsoft defender atp, windows 10 enterprise, windows 10 education
+keywords: notificações de email, configurar notificações de alerta, microsoft defender para ponto de extremidade, microsoft defender para notificações de ponto de extremidade, microsoft defender para alertas de ponto de extremidade, windows 10 enterprise, windows 10 education
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d5a19464b9d5d1b9659d7bfae2d853f7a640a00b
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: b629d6a90931026ce28ce241e74d490ce67c6962
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687884"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893620"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Configurar notificações de alerta no Microsoft Defender para Ponto de Extremidade
 

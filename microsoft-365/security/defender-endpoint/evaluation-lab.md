@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ead616b7af3df05f4c0c5755ad779f0251555734
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 2382281fbb975daa18ec21aabaf5acf8d3fbfb2f
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053981"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893432"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Laboratório de avaliação do Microsoft Defender para Ponto de Extremidade
 
@@ -74,10 +74,10 @@ Você pode acessar o laboratório no menu. No menu de navegação, selecione **A
 ![Imagem do laboratório de avaliação no menu](images/evaluation-lab-menu.png)
 
 >[!NOTE]
->- Cada ambiente é provisionado com um conjunto limitado de dispositivos de teste.
 >- Dependendo do tipo de estrutura de ambiente selecionada, os dispositivos estarão disponíveis para o número especificado de horas a partir do dia da ativação.
->- Quando você usou os dispositivos provisionados, nenhum novo dispositivo é fornecido. Um dispositivo excluído não atualize a contagem de dispositivos de teste disponível.
->- Considerando os recursos limitados, é recomendável usar os dispositivos cuidadosamente.
+>- Cada ambiente é provisionado com um conjunto limitado de dispositivos de teste. Quando você usou os dispositivos provisionados, nenhum novo dispositivo é fornecido. Um dispositivo excluído não atualize a contagem de dispositivos de teste disponível.
+>- Você não pode mais usar o laboratório quando os recursos foram usados. Ele não redefine nem atualize.
+>- É recomendável usar os recursos com cuidado. Os recursos do laboratório são limitados. Eles não redefinim nem atualizem. 
 
 Já tem um laboratório? Certifique-se de habilitar os novos simuladores de ameaças e ter dispositivos ativos.
 
@@ -122,13 +122,13 @@ O dispositivo será automaticamente integrado ao seu locatário com os component
 
 Os seguintes componentes de segurança são pré-configurados nos dispositivos de teste:
 
-- [Redução da superfície do ataque.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
+- [Redução de superfície de ataque](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
 - [Bloquear à primeira vista](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
 - [Acesso controlado a pastas](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
 - [Proteção de exploração](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
 - [Proteção de rede](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
 - [Detecção de aplicativo potencialmente indesejado](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Proteção entregue na nuvem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
+- [Proteção fornecida na nuvem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
 - [Microsoft Defender SmartScreen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
 
 >[!NOTE]

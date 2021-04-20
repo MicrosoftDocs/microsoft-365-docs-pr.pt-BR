@@ -1,5 +1,5 @@
 ---
-title: Configurar o Acesso Condicional no Microsoft Defender ATP
+title: Configurar o Acesso Condicional no Microsoft Defender para Ponto de Extremidade
 description: Saiba mais sobre as etapas que você precisa fazer no Intune, no Centro de Segurança do Microsoft Defender e no Azure para implementar o acesso condicional
 keywords: acesso condicional, condicional, acesso, risco de dispositivo, nível de risco, integração, integração do intune
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 0185d7875ac149909ef088d041383a1cf36a8a3a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 482f86d4a0a181b72a0a33eeb1a857dce0664584
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165856"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893644"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Configurar o Acesso Condicional no Microsoft Defender para Ponto de Extremidade
 

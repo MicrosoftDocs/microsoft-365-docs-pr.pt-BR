@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Microsoft 365 para empresas. '
-ms.openlocfilehash: a44271cdbf52136e61702697a960cc3cbcd8119d
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: 4003dcfca29a722ccdf9b86cca5aa1141fbdb367
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470996"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892800"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
   
@@ -75,7 +75,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal de Eliza Hoffman, Eliza@NodPublishers.com, e seu alias, Sales@NodPublishers.com, irão para a Caixa de Entrada de Eliza.
     
   
-7. **Quando o usuário responder, o *endereço From*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem, seu endereço de email principal aparecerá como remetente, não Sales@NodPublishers.com. 
+7. **Quando o usuário responder, o *endereço De* dependerá do cliente do Outlook. O Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). A área de trabalho do Outlook usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando a área de trabalho do Outlook, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
     
 ::: moniker-end
 
@@ -106,7 +106,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal de Eliza Hoffman, Eliza@NodPublishers.com, e seu alias, Sales@NodPublishers.com, irão para a Caixa de Entrada de Eliza.
     
   
-7. **Quando o usuário responder, o *endereço From*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem, seu endereço de email principal aparecerá como remetente, não Sales@NodPublishers.com. 
+7. **Quando o usuário responder, o *endereço De* dependerá do cliente do Outlook. O Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). A área de trabalho do Outlook usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando a área de trabalho do Outlook, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -137,7 +137,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal de Eliza Hoffman, Eliza@NodPublishers.com, e seu alias, Sales@NodPublishers.com, irão para a Caixa de Entrada de Eliza.
     
   
-7. **Quando o usuário responder, o *endereço From*  será seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem, seu endereço de email principal aparecerá como remetente, não Sales@NodPublishers.com. 
+7. **Quando o usuário responder, o *endereço De* dependerá do cliente do Outlook. O Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). A área de trabalho do Outlook usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando a área de trabalho do Outlook, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -151,6 +151,10 @@ Se você receber a mensagem de erro " Um parâmetro não pode ser encontrado que
 
 
 Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal.
+
+## <a name="sending-email-from-the-proxy-address-easily"></a>Enviando emails do endereço proxy facilmente
+
+Um novo recurso está sendo implantada em abril de 2021 que permite que os usuários enviem de seus aliases facilmente ao usar o Outlook na Web. Quando o recurso é rolado para um locatário onde o administrador do locatário usa o cmdlet, os usuários dentro da locação terão acesso a uma lista de caixas de seleção onde cada entrada corresponde a um alias em suas configurações do `Set-OrganizationConfig -SendFromAliasEnabled $true` Outlook. Selecionar um alias fará com que ele apareça no menu suspenso De no formulário Redação.
   
 ## <a name="related-articles"></a>Artigos relacionados
 

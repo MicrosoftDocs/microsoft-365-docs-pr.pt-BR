@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/06/2020
 ms.technology: mde
-ms.openlocfilehash: a24dc4ef23d32b19de9d2871b7d87aae90d05828
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3a26951a796d72237f992e520e1b793654e467e3
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053769"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893396"
 ---
 # <a name="fix-unhealthy-sensors-in-microsoft-defender-for-endpoint"></a>Corrigir sensores não salubres no Microsoft Defender para Ponto de Extremidade
 
@@ -68,7 +68,7 @@ As seguintes ações sugeridas podem ajudar a corrigir problemas relacionados a 
 - [Verifique se o dispositivo tem conexão com a Internet](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
   O sensor Windows Defender ATP exige que o Microsoft Windows HTTP (WinHTTP) reporte dados do sensor e se comunique com o serviço Microsoft Defender para Ponto de Extremidade.
 
-- [Verificar a conectividade do cliente com o Microsoft Defender para URLs de serviço de ponto de extremidade](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)</br>
+- [Verificar a conectividade do cliente com o Microsoft Defender para URLs de serviço de ponto de extremidade](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Verifique se a configuração de proxy foi concluída com êxito, se o WinHTTP pode descobrir e se comunicar por meio do servidor proxy em seu ambiente e se o servidor proxy permite o tráfego para as URLs de serviço do Microsoft Defender para Ponto de Extremidade.
 
 Se você tiver ações corretivas e o status do dispositivo ainda estiver configurado incorretamente, [abra um tíquete de suporte](https://go.microsoft.com/fwlink/?LinkID=761093&clcid=0x409).
@@ -80,7 +80,7 @@ Siga estas ações para corrigir problemas conhecidos relacionados a um disposit
 - [Verifique se o dispositivo tem conexão com a Internet](troubleshoot-onboarding.md#troubleshoot-onboarding-issues-on-the-device)</br>
   O sensor Windows Defender ATP exige que o Microsoft Windows HTTP (WinHTTP) reporte dados do sensor e se comunique com o serviço Microsoft Defender para Ponto de Extremidade.
 
-- [Verificar a conectividade do cliente com o Microsoft Defender para URLs de serviço de ponto de extremidade](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls)</br>
+- [Verificar a conectividade do cliente com o Microsoft Defender para URLs de serviço de ponto de extremidade](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)</br>
   Verifique se a configuração de proxy foi concluída com êxito, se o WinHTTP pode descobrir e se comunicar por meio do servidor proxy em seu ambiente e se o servidor proxy permite o tráfego para as URLs de serviço do Microsoft Defender para Ponto de Extremidade.
 
 - [Verifique se o serviço de dados de diagnóstico está habilitado](troubleshoot-onboarding.md#ensure-the-diagnostics-service-is-enabled)</br>

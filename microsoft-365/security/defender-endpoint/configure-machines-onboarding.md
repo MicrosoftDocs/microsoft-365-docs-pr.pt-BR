@@ -1,6 +1,6 @@
 ---
-title: Obter dispositivos conectados ao Microsoft Defender ATP
-description: Acompanhe a integração de dispositivos gerenciados pelo Intune ao Microsoft Defender ATP e aumente a taxa de integração.
+title: Obter dispositivos conectados ao Microsoft Defender para Ponto de Extremidade
+description: Acompanhe a integração de dispositivos gerenciados pelo Intune ao Microsoft Defender para Ponto de Extremidade e aumente a taxa de integração.
 keywords: onboard, Gerenciamento do Intune, MDATP, WDATP, Microsoft Defender, Windows Defender, proteção avançada contra ameaças, gerenciamento de configuração
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6145acd5e8e2743ff42dce3cf01af0128e8ca225
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5e20c424f15561c8b6f0544b80aca6e30c56409d
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166084"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893324"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>Obter dispositivos conectados ao Microsoft Defender para Ponto de Extremidade
 
@@ -74,6 +74,6 @@ Para obter mais informações, [leia sobre como usar perfis de configuração](h
 >Deseja experimentar o Microsoft Defender ATP? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Verifique se seus dispositivos estão configurados corretamente](configure-machines.md)
+- [Verificar se os dispositivos estão configurados corretamente](configure-machines.md)
 - [Aumentar a conformidade com a linha de base de segurança do Defender para Ponto de Extremidade](configure-machines-security-baseline.md)
 - [Otimizar a implantação e as detecções de regras ASR](configure-machines-asr.md)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 4f3b2b54370e3481699a540dd8fd2acc30be7514
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 84caa39b44a4e0706b1fe4a103d8a8a14c52daed
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768873"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51892946"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Solucionar problemas de integração do Microsoft Defender para pontos de extremidade
 
@@ -255,7 +255,7 @@ O sensor Windows Defender ATP exige que o Microsoft Windows HTTP (WinHTTP) repor
 
 O WinHTTP é independente das configurações de proxy de navegação na Internet e de outros aplicativos de contexto de usuário e deve ser capaz de detectar os servidores proxy que estão disponíveis em seu ambiente específico.
 
-Para garantir que o sensor tenha conectividade de serviço, siga as etapas descritas no tópico Verificar a conectividade do cliente com o [Microsoft Defender para URLs](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-atp-service-urls) de serviço de ponto de extremidade.
+Para garantir que o sensor tenha conectividade de serviço, siga as etapas descritas no tópico Verificar a conectividade do cliente com o [Microsoft Defender para URLs](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls) de serviço de ponto de extremidade.
 
 Se a verificação falhar e seu ambiente estiver usando um proxy para se conectar à Internet, siga as etapas descritas em [Configure proxy and Internet connectivity settings](configure-proxy-internet.md) topic.
 

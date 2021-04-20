@@ -1,6 +1,6 @@
 ---
 title: Configurar configurações de proxy de dispositivo e conexão com a Internet
-description: Configure as configurações de proxy e internet do Microsoft Defender ATP para habilitar a comunicação com o serviço de nuvem.
+description: Configure as configurações de proxy e internet do Microsoft Defender para Endpoint para habilitar a comunicação com o serviço de nuvem.
 keywords: configurar, proxy, internet, conectividade com a Internet, configurações, configurações de proxy, netsh, winhttp, servidor proxy
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 97d1d50e2557cbb760248738b1f096614873958f
-ms.sourcegitcommit: 437bdbf3f99610869811e80432a59b5f244f7a87
+ms.openlocfilehash: ebfff7721bc61012811a66146079ac9758889594
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51644699"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893596"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Configurar configurações de proxy de dispositivo e conectividade com a Internet
 
@@ -178,7 +178,7 @@ O ponto de extremidade da URL *.blob.core.windows.net pode ser substituído por 
 > [!NOTE]
 > No caso de integração por meio do Centro de Segurança do Azure (ASC), vários espaços de trabalho talvez usados. Você precisará executar o procedimento TestCloudConnection.exe acima em uma máquina interna de cada espaço de trabalho (para determinar se há alterações nas URLs *.blob.core.windows.net entre os espaços de trabalho).
 
-## <a name="verify-client-connectivity-to-microsoft-defender-atp-service-urls"></a>Verificar a conectividade do cliente com URLs de serviço do Microsoft Defender ATP
+## <a name="verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls"></a>Verificar a conectividade do cliente com o Microsoft Defender para URLs de serviço de ponto de extremidade
 
 Verifique se a configuração do proxy foi concluída com êxito, se o WinHTTP pode descobrir e se comunicar por meio do servidor proxy em seu ambiente e se o servidor proxy permite o tráfego para os URLs do serviço Defender para Ponto de Extremidade.
 
