@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: Saiba como definir uma política de expiração de senha para sua organização no centro de administração do Microsoft 365.
-ms.openlocfilehash: 0280f4fd43034f9ffb70104771fa4a099943af2d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 14ff08126533d5c530fb56761a2ef1676d5864b8
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500229"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903149"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Definir a política de expiração de senha para sua organização
 
@@ -45,7 +45,7 @@ Este artigo é destinado às pessoas que definem a política de expiração de s
 
 Como administrador, você pode fazer as senhas de usuário expirarem após um determinado número de dias ou definir as senhas para nunca expirarem. Por padrão, as senhas da sua organização estão definidas para nunca expirar.
 
-A pesquisa atual indica que as alterações de senha obrigatórias são mais prejudicadas do que o recomendado. Eles direcionam os usuários a escolher senhas mais fracas, reutilizar senhas ou atualizar senhas antigas de maneiras que são facilmente adivinhadas pelos hackers. Recomendamos habilitar a [autenticação multifator](../security-and-compliance/set-up-multi-factor-authentication.md).
+A pesquisa atual indica que as alterações de senha obrigatórias são mais prejudicadas do que o recomendado. Eles direcionam os usuários a escolher senhas mais fracas, reutilizar senhas ou atualizar senhas antigas de maneiras que são facilmente adivinhadas pelos hackers. Recomendamos habilitar a [autenticação multifator](../security-and-compliance/set-up-multi-factor-authentication.md). Para saber mais sobre a política de senha, confira [recomendações de políticas de senha](../misc/password-policy-recommendations.md).
 
 Você deve ser um administrador [global](../add-users/about-admin-roles.md) para executar essas etapas.
 
