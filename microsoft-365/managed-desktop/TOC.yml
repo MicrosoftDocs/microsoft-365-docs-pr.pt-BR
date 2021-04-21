@@ -23,6 +23,8 @@
           href: service-description/device-requirements.md
         - name: Imagens do dispositivo
           href: service-description/device-images.md
+        - name: Nomes do dispositivo
+          href: service-description/device-names.md
         - name: Dispositivos do programa
           href: service-description/device-list.md
           items:
@@ -83,6 +85,8 @@
           href: get-ready/mapped-drives.md
         - name: Prepare recursos de impressão
           href: get-ready/printing.md
+        - name: Nomes do dispositivo de endereço
+          href: get-ready/address-device-names.md
     - name: Introdução à Área de Trabalho Gerenciada da Microsoft
       href: get-started/index.md
       items:
@@ -157,6 +161,8 @@
           href: working-with-managed-desktop/work-with-app-control.md
         - name: Alterar perfil do dispositivo
           href: working-with-managed-desktop/change-device-profile.md
+        - name: Remover dispositivos
+          href: working-with-managed-desktop/remove-devices.md
         - name: Configurações configuráveis
           href: working-with-managed-desktop/config-setting-overview.md
           items:

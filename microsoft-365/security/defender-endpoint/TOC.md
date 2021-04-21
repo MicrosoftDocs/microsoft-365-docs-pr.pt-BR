@@ -175,6 +175,9 @@
 ##### [Habilitar o acesso controlado a pastas](enable-controlled-folders.md)
 ##### [Personalizar o acesso controlado a pastas](customize-controlled-folders.md)
 
+#### [Controle do Dispositivo]()
+##### [Relatórios de Controle do Dispositivo](device-control-report.md)
+##### [Controlar dispositivos USB](control-usb-devices-using-intune.md)
 
 ### [Descoberta de dispositivo]()
 #### [Visão geral sobre descoberta de dispositivo](device-discovery.md)
