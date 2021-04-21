@@ -138,6 +138,8 @@
           href: data-classification-content-explorer.md
         - name: Começar a usar o gerenciador de atividades
           href: data-classification-activity-explorer.md
+        - name: Rotular ações relatadas no gerenciador de Atividades
+          href: data-classification-activity-explorer-available-events.md
         - name: Notas de versão de classificação de dados
           href: data-classification-pub-preview-relnotes.md
     - name: Rótulos de confidencialidade
