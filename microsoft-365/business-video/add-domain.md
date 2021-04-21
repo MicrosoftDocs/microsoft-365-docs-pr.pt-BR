@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como adicionar outro domínio à sua assinatura.
-ms.openlocfilehash: 8899cb9667ffa080746ca9173b61897f9c5db399
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a641005913f7dfd866366f0f8065019dd5c17fe8
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578996"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903737"
 ---
 # <a name="add-another-domain"></a>Adicionar outro domínio
 
@@ -53,3 +53,7 @@ Para receber emails em seu novo domínio, você precisará adicionar um novo ali
 1. Insira o nome de usuário e escolha o novo domínio na listada.
 1. Selecione **Salvar alterações** e feche a janela.
 1. Repita estas etapas para cada usuário que deve receber emails no novo domínio.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+Adicionar um domínio ao [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) (artigo) Adicionar registros [DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) para conectar seu domínio (artigo) Alterar nameservers para configurar o [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar) com qualquer registrador de domínios (artigo) [Perguntas frequentes](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) sobre domínios (artigo)

@@ -1,5 +1,5 @@
 ---
-title: Investigar incidentes no Microsoft Defender ATP
+title: Investigar incidentes no Microsoft Defender para Ponto de Extremidade
 description: Consulte alertas associados, gerencie o incidente e consulte metadados de alerta para ajudá-lo a investigar um incidente
 keywords: investigar, incidente, alertas, metadados, risco, fonte de detecção, dispositivos afetados, padrões, correlação
 search.product: eADQiWindows 10XVcnh
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5a74da55d733d690cb218c78b87b67d6eba6b9d2
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 1d8f4452273047684a30db3b18d1281f40f46378
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186048"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903293"
 ---
 # <a name="investigate-incidents-in-microsoft-defender-for-endpoint"></a>Investigar incidentes no Microsoft Defender para Ponto de Extremidade
 

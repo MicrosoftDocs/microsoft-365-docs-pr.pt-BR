@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 482f86d4a0a181b72a0a33eeb1a857dce0664584
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: e68a8c35fb1028fa8e60cf52a8e8bb411a534b19
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893644"
+ms.locfileid: "51903773"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Configurar o Acesso Condicional no Microsoft Defender para Ponto de Extremidade
 
@@ -98,7 +98,7 @@ Tome as seguintes etapas para habilitar o Acesso Condicional:
 
 ### <a name="step-4-assign-the-policy"></a>Etapa 4: Atribuir a política
 1. No portal [do Azure,](https://portal.azure.com)selecione **Todos os serviços,** filtre **no Intune** e selecione **Microsoft Intune**.
-2. Selecione **Políticas de conformidade** de dispositivo> sua política de conformidade do Microsoft Defender  >   ATP.
+2. Selecione **Políticas de conformidade**  >  **de** dispositivo> sua política de conformidade do Microsoft Defender para Ponto de Extremidade.
 3. Selecione **Atribuições**.
 4. Inclua ou exclua seus grupos do Azure AD para atribuir a política a eles.
 5. Para implantar a política nos grupos, selecione **Salvar**. Os dispositivos de usuário direcionados pela política são avaliados para conformidade.
@@ -114,6 +114,6 @@ Tome as seguintes etapas para habilitar o Acesso Condicional:
 
 6. Selecione **Habilitar política** e, em **seguida, Criar** para salvar suas alterações.
 
-Para obter mais informações, [consulte Enable Microsoft Defender ATP with Conditional Access in Intune](https://docs.microsoft.com/intune/advanced-threat-protection).
+Para obter mais informações, [consulte Enforce compliance for Microsoft Defender for Endpoint with Conditional Access in Intune](https://docs.microsoft.com/intune/advanced-threat-protection).
 
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-belowfoldlink)

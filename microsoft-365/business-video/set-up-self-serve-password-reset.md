@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como permitir que os usuários redefinir suas próprias senhas no Microsoft 365 Business Premium.
-ms.openlocfilehash: 3ba46529dcbb8d5af7343aafbb9e5a5863b9139f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 62f82f106327c5378310bac0d41fde8462449329
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580421"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903701"
 ---
 # <a name="set-up-self-service-password-reset"></a>Configurar a redefinição de senha self-service
 
@@ -42,3 +42,7 @@ Para permitir que seus usuários redefinir suas próprias senhas sem precisar en
 1. Selecione **Todos para** habilitar a redefinição de senha de autoatendados e, em seguida, selecione **Salvar**.
 
 Na próxima vez que um usuário entrar em sua conta, será solicitado sua ID de usuário e senha. Eles **selecionam Next** e, em seguida, escolhem se devem se autenticar com seu telefone, email ou ambos. Eles entram no código recebido, **selecionam Verificar** e, em seguida, selecione **Concluir**. Quando terminarem, eles poderão redefinir sua própria senha.
+
+## <a name="related-content"></a>Conteúdo relacionado 
+
+[Definir a política de](https://docs.microsoft.com/microsoft-365/admin/manage/set-password-expiration-policy) expiração de senha para sua organização (artigo) [Definir a](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire) senha de um usuário individual para nunca expirar (artigo) Desativar requisitos fortes de senha [para](https://docs.microsoft.com/microsoft-365/admin/add-users/strong-password) usuários (artigo)

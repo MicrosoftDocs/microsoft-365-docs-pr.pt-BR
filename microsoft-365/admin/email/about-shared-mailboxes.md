@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: As caixas de correio compartilhadas são usadas quando várias pessoas precisam de acesso à mesma caixa de correio. Saiba o que você precisa saber antes de criar uma caixa de correio compartilhada.
-ms.openlocfilehash: eb1947b5baffd97f067bfe4e0c6d71d5c1329d65
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 83e779d59a8e763b3d0c0482966e75604d5f1574
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915981"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903209"
 ---
 # <a name="about-shared-mailboxes"></a>Sobre as caixas de correio compartilhadas
 
@@ -63,7 +63,7 @@ Antes de [criar uma caixa de correio compartilhada,](create-a-shared-mailbox.md)
 > [!NOTE]
 > Para acessar uma caixa de correio compartilhada, um usuário deve ter uma licença do Exchange Online, mas a caixa de correio compartilhada não exige uma licença separada. Toda caixa de correio compartilhada tem uma conta de usuário correspondente. Observe como você não foi solicitado a fornecer uma senha ao criar a caixa de correio compartilhada? A conta tem uma senha, mas é gerada pelo sistema (desconhecido). Você não deve usar a conta para fazer logoff na caixa de correio compartilhada. Sem uma licença, as caixas de correio compartilhadas são limitadas a 50 GB. Para aumentar o limite de tamanho para 100 GB, a caixa de correio compartilhada deve ser atribuída uma licença do Plano 2 do Exchange Online ou uma licença do Plano 1 do Exchange Online com uma licença complementar de Arquivamento do Exchange Online. Isso também permitirá que você habilite o arquivamento automático para uma quantidade ilimitada de capacidade de armazenamento de arquivos. Da mesma forma, se você deseja colocar uma caixa de correio compartilhada em retenção de litígio, a caixa de correio compartilhada deve ter uma licença Exchange Online Plano 2 ou uma licença Exchange Online Plano 1 com uma licença complementar de Arquivamento do Exchange Online. Se você quiser aplicar recursos avançados, como o Microsoft Defender para Office 365, a Descoberta Avançada de Descoberta Automática ou políticas de retenção automática, a caixa de correio compartilhada deve ser licenciada para esses recursos.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
 [Criar uma caixa de correio compartilhada](create-a-shared-mailbox.md)
 

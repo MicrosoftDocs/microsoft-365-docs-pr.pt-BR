@@ -1,7 +1,7 @@
 ---
 title: Bloqueio comportamental do cliente
 description: O bloqueio comportamental do cliente faz parte dos recursos de bloqueio comportamental e de contenção no Microsoft Defender para Ponto de Extremidade
-keywords: bloqueio comportamental, proteção rápida, comportamento do cliente, Microsoft Defender ATP
+keywords: bloqueio comportamental, proteção rápida, comportamento do cliente, Microsoft Defender ATP, microsoft defender para ponto de extremidade
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 author: denisebmsft
@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 9fcff96b2583c6ef6bec05429ec50a71f3872e43
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 48929d0e2b0c932d37cb5d29783712d00b17117f
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587102"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904147"
 ---
 # <a name="client-behavioral-blocking"></a>Bloqueio comportamental do cliente
 

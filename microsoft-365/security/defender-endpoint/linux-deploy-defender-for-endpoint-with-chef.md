@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 362222e4737b1a8dd6b8a0a284bf3bfb1903c288
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: aa699aae24b1e6383f5a2afbe7fce31e0f53805c
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861438"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903923"
 ---
-# <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Implantar o Defender para Ponto de Extremidade no Linux com o Chefe
+# <a name="deploy-defender-for-endpoint-on-linux-with-chef"></a>Implantar o Defender para Ponto de Extremidade no Linux com Chef
 
 Antes de começar:
 
@@ -110,7 +110,7 @@ end
 
 Certifique-se de atualizar o nome do caminho para o local do arquivo de integração.
 Para testar implantá-lo na estação de trabalho do Chefe, basta executar ``sudo chef-client -z -o mdatp`` .
-Após a implantação, você deve considerar a criação e a implantação de um arquivo de configuração nos servidores com base em Definir preferências do Microsoft Defender ATP para Linux - segurança do Windows |  [ Microsoft Docs](/windows/security/threat-protection/microsoft-defender-atp/linux-preferences).  
+Após a implantação, você deve considerar a criação e a implantação de um arquivo de configuração nos servidores com base em Definir  [preferências](/linux-preferences.md)do Microsoft Defender para Ponto de Extremidade no Linux .  
 Depois de criar e testar seu arquivo de configuração, você pode posicioná-lo na pasta cookbook/mdatp/files onde também colocou o pacote de integração.  Em seguida, você pode criar um arquivo settings_mdatp.rb na pasta mdatp/recipies e adicionar este texto:
 
 ```powershell

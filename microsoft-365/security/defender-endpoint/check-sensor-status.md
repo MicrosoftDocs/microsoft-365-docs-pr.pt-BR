@@ -1,5 +1,5 @@
 ---
-title: Verificar o estado de saúde do sensor no Microsoft Defender ATP
+title: Verifique o estado de saúde do sensor no Microsoft Defender para Ponto de Extremidade
 description: Verifique a saúde do sensor em dispositivos para identificar quais estão configurados de forma mal configurada, inativas ou não estão relatando dados do sensor.
 keywords: sensor, a saúde do sensor, configurada inativa, sem dados do sensor, dados do sensor, comunicações prejudicadas, comunicação
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 21313463519383f4bf052465a0d907d2df293ec8
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 0361b7956339670d006c9f050274e07d4e979bca
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165268"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904159"
 ---
 # <a name="check-sensor-health-state-in-microsoft-defender-for-endpoint"></a>Verificar o estado de saúde do sensor no Microsoft Defender para Ponto de Extremidade
 

@@ -1,6 +1,6 @@
 ---
-title: Configurar e validar exclusões do Microsoft Defender ATP para Linux
-description: Fornecer e validar exclusões para o Microsoft Defender ATP para Linux. As exclusões podem ser definidas para arquivos, pastas e processos.
+title: Configurar e validar exclusões do Microsoft Defender para Ponto de Extremidade no Linux
+description: Fornecer e validar exclusões para o Microsoft Defender para Ponto de Extremidade no Linux. As exclusões podem ser definidas para arquivos, pastas e processos.
 keywords: microsoft, defender, atp, linux, exclusões, verificações, antivírus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fbc8fe7ef6f9af86debdeb0826865c88e86b2c6a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 56fe152532b77f7f04c9edd52998fea83493adfe
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688184"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903935"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Configurar e validar exclusões do Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -54,7 +54,7 @@ A tabela a seguir mostra os tipos de exclusão suportados pelo Defender para Pon
 Exclusão | Definição | Exemplos
 ---|---|---
 Extensão de arquivo | Todos os arquivos com a extensão, em qualquer lugar do dispositivo | `.test`
-File | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+Arquivo | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
 Folder | Todos os arquivos na pasta especificada (recursivamente) | `/var/log/`<br/>`/var/*/`
 Processo | Um processo específico (especificado pelo caminho completo ou nome do arquivo) e todos os arquivos abertos por ele | `/bin/cat`<br/>`cat`<br/>`c?t`
 

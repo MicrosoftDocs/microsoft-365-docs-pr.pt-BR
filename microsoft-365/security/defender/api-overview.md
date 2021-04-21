@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 14553f3891fd81a672b62fa0575f6c253fbb0224
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 496ad5695d9cd491817bad5daf3c76a02addefd1
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052549"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904183"
 ---
 # <a name="overview-of--microsoft-365-defender-apis"></a>Visão geral das APIs do Microsoft 365 Defender
 
@@ -47,6 +47,11 @@ Use as APIs do Microsoft 365 Defender para automatizar fluxos de trabalho com ba
 - **[Busca de](api-advanced-hunting.md)** ameaças entre produtos - Aproveite o conhecimento organizacional da equipe de segurança para procurar sinais de comprometimento, criando suas próprias consultas personalizadas para sicar dados brutos coletados em vários produtos de proteção.
 
 Juntamente com essas APIs específicas do Microsoft 365 Defender, cada um dos nossos outros produtos de segurança [expõem APIs](api-articles.md) adicionais para ajudá-lo a tirar proveito de seus recursos exclusivos.
+
+
+> [!NOTE]
+> A transição para o portal unificado não deve afetar os painéis do PowerBi com base nas APIs do Microsoft Defender para Ponto de Extremidade. Você pode continuar a trabalhar com as APIs existentes, independentemente da transição de portal interativo.
+
 
 ## <a name="learn-more"></a>Saiba mais
 

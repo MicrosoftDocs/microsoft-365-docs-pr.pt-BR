@@ -1,6 +1,6 @@
 ---
 title: Novidades no Microsoft Defender para Ponto de Extremidade no Linux
-description: Lista das principais alterações do Microsoft Defender ATP no Linux.
+description: Lista das principais alterações do Microsoft Defender para Ponto de Extremidade no Linux.
 keywords: microsoft, defender, atp, linux, whatsnew, release
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2866cd0c9ee9b40aa9c08c4ff7dce64f745d3d03
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 999463f92c014e061bc4e2fdc22eedcd8f680a72
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688623"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903809"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-linux"></a>Novidades no Microsoft Defender para Ponto de Extremidade no Linux
 

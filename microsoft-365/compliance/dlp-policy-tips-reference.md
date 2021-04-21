@@ -1,5 +1,5 @@
 ---
-title: Referência de dicas de política de prevenção contra perda de dados
+title: Referência de dicas de política de Prevenção contra Perda de Dados
 f1.keywords: CSH
 ms.author: chrfox
 author: chrfox
@@ -18,14 +18,14 @@ ms.collection:
 - SPO_Content
 description: Saiba como adicionar uma dica de política a uma política de prevenção contra perda de dados (DLP) notificar um usuário de que está trabalhando com conteúdo que conflita com uma política de DLP.
 ms.custom: seo-marvel-apr2021
-ms.openlocfilehash: 693f511b6303fb07d393c62efb4a61631b844474
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 36e4d4f96146b51e0b31731c9e93222eed767045
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876791"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903797"
 ---
-# <a name="data-loss-prevention-policy-tips-reference"></a>Referência de dicas de política de prevenção contra perda de dados
+# <a name="data-loss-prevention-policy-tips-reference"></a>Referência de dicas de política de Prevenção contra Perda de Dados
 
 As dicas de política de DLP no Outlook Web Access têm suporte para todas as condições, exceções e ações aplicáveis à carga de trabalho do Exchange em uma política de DLP, exceto o seguinte:
 
@@ -63,7 +63,6 @@ As dicas de política de DLP no Outlook Web Access têm suporte para todas as co
 - Adicionar aviso de isenção de responsabilidade HTML
 - Assunto de email de pré-envio
 - Remover a criptografia de mensagens O365 e a proteção de direitos
-- Remover
 
 ## <a name="outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions"></a>O Outlook 2013 e posterior oferece suporte para mostrar dicas de política apenas para algumas condições e exceções
 
@@ -72,11 +71,11 @@ Atualmente, o Outlook 2013 e posterior oferece suporte para mostrar dicas de pol
 - O conteúdo contém (funciona apenas para tipos de informações confidenciais. Rótulos de sensibilidade não são suportados)
 - O conteúdo é compartilhado
 
-Observe que todas as condições funcionam para emails de autoria no aplicativo cliente do Outlook, onde eles corresponderão ao conteúdo e imporão ações de proteção ao conteúdo. No entanto, mostrar dicas de política para os usuários ainda não é suportado para quaisquer condições que sejam usadas além das mencionadas acima.
+Observe que todas as condições funcionam para emails de autoria no aplicativo cliente do Outlook, onde eles corresponderão ao conteúdo e imporão ações de proteção ao conteúdo. No entanto, não há suporte para mostrar dicas de política aos usuários para quaisquer condições que sejam usadas além das mencionadas acima.
 
-## <a name="outlook-2013-and-later-supports-showing-policy-tips-for-only-some-sensitive-information-types"></a>O Outlook 2013 e posterior oferece suporte para mostrar dicas de política apenas para alguns tipos de informações confidenciais
+## <a name="outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types"></a>Outlook 2013 e posterior e suporte a aplicativos do Office na Área de Trabalho mostrando dicas de política para apenas alguns tipos de informações confidenciais
 
-A lista de tipos de informações confidenciais não disponíveis que serão detectados para mostrar dicas de política de DLP no Outlook na Área de Trabalho (2013 e posteriores) são os seguintes:
+A lista de tipos de informações confidenciais que serão detectados para mostrar dicas de política de DLP no Outlook na Área de Trabalho (2013 e posterior) e aplicativos do Office (Word, Excel, PowerPoint) na Área de Trabalho são as seguintes:
 
 - Número de roteamento ABA
 - Número de Identidade Nacional (DNI) da Argentina
@@ -180,7 +179,7 @@ A lista de tipos de informações confidenciais não disponíveis que serão det
 
 Observe que os tipos de informações confidenciais personalizados também são suportados para dicas de política de DLP, além dos tipos de informações confidenciais externas acima.
 
-## <a name="data-loss-prevention-on-endpoint-supports-policy-tips-for-only-some-sensitive-information-types"></a>Prevenção contra Perda de Dados no Ponto de Extremidade oferece suporte a dicas de política apenas para alguns tipos de informações confidenciais
+## <a name="data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types"></a>Prevenção contra Perda de Dados em dispositivos de ponto de extremidade oferece suporte a dicas de política apenas para alguns tipos de informações confidenciais
 
 A lista de tipos de informações confidenciais que serão detectados em documentos que residem em dispositivos de ponto de extremidade são os seguintes:
 
@@ -395,16 +394,16 @@ Observe que os tipos de informações confidenciais personalizados também serã
 |**Aplicativo e plataforma**|**Suporte à dica de política DLP**|**Tipos de informações confidenciais suportados**|**Predicados e ações com suporte**|**Comentário**|
 |:--|:--|:--|:--|:--|
 |**Outlook Web Access**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Todos|Subset|Consulte [Referência de dicas de política de prevenção contra](#data-loss-prevention-policy-tips-reference) perda de dados|
-|**Outlook Win32 (Outlook 2013 e além)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|Consulte [o Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) e mais tarde oferece suporte para mostrar dicas de política apenas para algumas condições e exceções e o [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-sensitive-information-types) e mais tarde oferece suporte a mostrar dicas de política para apenas alguns tipos de informações confidenciais para obter detalhes sobre o suporte para tipos de informações confidenciais e condições de DLP e ações suportadas para mostrar dicas de política de DLP no Outlook Win32.|
+|**Outlook Win32 (Outlook 2013 e além)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|Consulte [o Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) e mais tarde oferece suporte para mostrar dicas de política para apenas algumas condições e exceções e [o Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) e posteriores e aplicativos do Office na Área de Trabalho mostrando dicas de política para apenas alguns tipos de informações confidenciais para obter detalhes sobre o suporte a tipos de informações confidenciais e condições de DLP e ações com suporte para mostrar dicas de política de DLP no Outlook Win32.|
 |**Outlook Mobile (iOS, Android)/Outlook Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum|Dicas de política de DLP não são suportadas no Outlook Mobile|
 |**Cliente Web do Sharepoint Online/One Drive for Business**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Todos|Todos os predicados e ações do SPO/ODB em DLP||
 |**Cliente Do Sharepoint Win32/ One Drive for Business Win32**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum|As dicas de política de DLP não são suportadas em aplicativos cliente da área de trabalho do Sharepoint ou do OneDrive|
-|**Word, Excel, Cliente Web do PowerPoint**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Todos|Todos os predicados e ações do SPO/ODB em DLP|A dica de política de DLP é suportada se o documento estiver hospedado no aplicativo Web SPO ou ODB e a política DLP já estiver carimbada.|
-|**Word, Excel, Powerpoint Mobile Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum|As dicas de política de DLP não são suportadas em aplicativos móveis para Office.|
+|**Word, Excel, PowerPoint Web Client**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Todos|Todos os predicados e ações do SPO/ODB em DLP|A dica de política de DLP é suportada se o documento estiver hospedado no aplicativo Web SPO ou ODB e a política DLP já estiver carimbada.|
+|**Word, Excel, PowerPoint Mobile Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum|As dicas de política de DLP não são suportadas em aplicativos móveis para Office.|
 |**Teams Web/ Teams Desktop/ Teams Mobile/ Teams Mac**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Todos|Todos os predicados do Teams na política de DLP|As dicas de política mostrarão quando uma mensagem for sinalizada como "Esta mensagem foi sinalizada. O que posso fazer?" Ao clicar no link, o usuário pode revisar os tipos de informações confidenciais detectados e substituir ou relatar um problema, se permitido pelo administrador. Observe que nenhuma dica de política é mostrada para arquivos. Quando o destinatário tenta acessar o documento, ele pode ter acesso negado se não for permitido.|
-|**Dispositivos de ponto de extremidade Win32**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Todos os predicados de DLP de ponto de extremidade e ações na política de DLP|Consulte [Prevenção contra Perda de Dados no Ponto de](#data-loss-prevention-on-endpoint-supports-policy-tips-for-only-some-sensitive-information-types) Extremidade oferece suporte a dicas de política apenas para alguns tipos de informações confidenciais|
-|**Dispositivos Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum|A prevenção contra perda de dados hoje não é imposivel em dispositivos Mac|
-|**Aplicativos de nuvem de terceiros**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum|Prevenção contra Perda de Dados|
+|**Dispositivos de ponto de extremidade Win32**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Todos os predicados de DLP de ponto de extremidade e ações na política de DLP|Consulte [Prevenção contra Perda de Dados no Ponto de](#data-loss-prevention-on-endpoint-devices-supports-policy-tips-for-only-some-sensitive-information-types) Extremidade oferece suporte a dicas de política apenas para alguns tipos de informações confidenciais|
+|**Dispositivos Mac**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum|Políticas de prevenção contra perda de dados não são impositivas em dispositivos Mac hoje|
+|**Aplicativos de nuvem de terceiros**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum|Dicas de política de prevenção contra perda de dados não são suportadas em aplicativos de nuvem de terceiros|
 |**On-prem**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Nenhum|Nenhum||
-|**Word, Excel, Powerpoint Win32 Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Subset|Subset|As dicas de política para aplicativos cliente WXP funcionarão para documentos armazenados em Sites do Sharepoint Online ou do One Drive for Business para todas as políticas de DLP que tenham exatamente o abaixo ou um subconjunto de condições ou ações na política DLP:</br> <ul><li>O conteúdo contém tipos de informações confidenciais</li><li>Escopo do Access (o conteúdo é compartilhado internamente/externamente)</li><li>Notificar o usuário (dicas de política/notificações do usuário)</li><li>Bloquear todos</li><li>Relatórios de incidentes</li></ul></br> Se qualquer outra condição ou ação estiver presente, a dica de política DLP para essa política não aparecerá nos aplicativos de área de trabalho do Word, Excel ou PowerPoint.|
+|**Word, Excel, PowerPoint Win32 Client**|:::image type="icon" source="../media/crsmrk.png" border="false":::|Subset|Subset|Confira [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) e posterior e suporte a aplicativos do Office na Área de Trabalho mostrando dicas de política para apenas alguns tipos de informações confidenciais para a lista de tipos de informações confidenciais com suporte</br></br>As dicas de política para aplicativos cliente WXP funcionarão para documentos armazenados em Sites do Sharepoint Online ou do One Drive for Business para todas as políticas de DLP que tenham exatamente o abaixo ou um subconjunto de condições ou ações na política DLP:</br> <ul><li>O conteúdo contém tipos de informações confidenciais</li><li>Escopo do Access (o conteúdo é compartilhado internamente/externamente)</li><li>Notificar o usuário (dicas de política/notificações do usuário)</li><li>Bloquear todos</li><li>Relatórios de incidentes</li></ul></br> Se qualquer outra condição ou ação estiver presente, a dica de política DLP para essa política não aparecerá nos aplicativos de área de trabalho do Word, Excel ou PowerPoint.</br>Confira [Dicas de política no Excel, PowerPoint e Word](use-notifications-and-policy-tips.md#policy-tips-in-excel-powerpoint-and-word) para obter mais detalhes|
 ||||||

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: d89e5dc29bfe7f980d40a9a5b139884750a966bc
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 2e1553b231692d184146897ddc05e11930ed1bf0
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760009"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903969"
 ---
 # <a name="the-unified-microsoft-365-security-center-overview"></a>Visão geral da central de segurança unificada do Microsoft 365
 
@@ -149,6 +149,9 @@ Depois de clicar no conteúdo, pode ser útil marcar esse site e organizar indic
 > Há **filtros** úteis na parte superior do hub de aprendizado do centro de segurança do Microsoft 365 que permitem escolher entre produtos (atualmente, o Microsoft 365 Defender, o Microsoft Defender para o Ponto de Extremidade e o Microsoft Defender para Office 365). Observe que o número de recursos de aprendizagem para cada seção está listado, o que pode ajudar os alunos a controlar quantos recursos eles têm em mãos para treinamento e aprendizado.
 >
 > Junto com o filtro Produto, tópicos atuais, tipos de recursos (de vídeos a webinars), níveis de familiaridade ou experiência com áreas de segurança, funções de segurança e recursos do produto são listados.
+
+> [!TIP]
+> Há muitas outras oportunidades de aprendizado no [Microsoft Learn](https://docs.microsoft.com/e/learn/). Você encontrará treinamento de certificação como [o Curso MS-500T02-A: Implementação da Proteção contra Ameaças do Microsoft 365.](https://docs.microsoft.com/learn/certifications/courses/ms-500t02)
 
 ## <a name="send-us-your-feedback"></a>Envie seus comentários
 

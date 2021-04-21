@@ -1,7 +1,7 @@
 ---
-title: Implantar o Microsoft Defender ATP para Linux com o Puppet
+title: Implantar o Microsoft Defender para Ponto de Extremidade no Linux com o Puppet
 ms.reviewer: ''
-description: Descreve como implantar o Microsoft Defender ATP para Linux usando o Puppet.
+description: Descreve como implantar o Microsoft Defender para Ponto de Extremidade no Linux usando o Puppet.
 keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 562433ee52b2e39716e933c67c706f030195bd2f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 413f8113d2f782c0a57d648a6db8178f2e522270
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688412"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903877"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-puppet"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux com o Puppet
 
@@ -120,7 +120,7 @@ Nos comandos a seguir, substitua *[distro]* e *[versão]* pela informação que 
 > No caso de RedHat, Oracle EL e CentOS 8, substitua *[distro]* por 'rel'.
 
 ```puppet
-# Puppet manifest to install Microsoft Defender ATP.
+# Puppet manifest to install Microsoft Defender for Endpoint on Linux.
 # @param channel The release channel based on your environment, insider-fast or prod.
 # @param distro The Linux distribution in lowercase. In case of RedHat, Oracle EL, and CentOS 8, the distro variable should be 'rhel'.
 # @param version The Linux distribution release number, e.g. 7.4.

@@ -1,7 +1,7 @@
 ---
-title: Solucionar problemas de conectividade na nuvem para o Microsoft Defender ATP para Linux
+title: Solucionar problemas de conectividade na nuvem para o Microsoft Defender para Ponto de Extremidade no Linux
 ms.reviewer: ''
-description: Solucionar problemas de conectividade na nuvem para o Microsoft Defender ATP para Linux
+description: Solucionar problemas de conectividade na nuvem para o Microsoft Defender para Ponto de Extremidade no Linux
 keywords: microsoft, defender, atp, linux, nuvem, conectividade, comunicação
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d698eb78f354d624d9ab115a8ecd2e0862e607e3
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 985e4c39c60600da892c010b6ee26e9c98bb0611
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688856"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903161"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Solucionar problemas de conectividade na nuvem para o Microsoft Defender para Ponto de Extremidade no Linux
 

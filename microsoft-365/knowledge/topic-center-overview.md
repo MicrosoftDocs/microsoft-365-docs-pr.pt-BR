@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: None
-ms.openlocfilehash: 01b3310f5f822f3f6f38bf4d9e727d41fe2b179b
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 290c06d95c6569b5a446a7a7410d34ff3b57055d
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760105"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904065"
 ---
 # <a name="topic-center-overview-in-microsoft-viva-topics"></a>Visão geral do centro de tópicos em Tópicos do Microsoft Viva
 
@@ -70,12 +70,12 @@ Depois que um usuário confirmar sua conexão com um tópico, o usuário poderá
 
 ## <a name="manage-topics-page"></a>Gerenciar página de tópicos
 
-Para trabalhar na seção **Gerenciar Tópicos** do Centro de tópicos, você precisa ter as permissões de tópico necessárias Para a função de gerente de conhecimento, você precisa ter as permissões de tópico necessárias. O administrador pode atribuir essas permissões aos usuários durante a configuração de gerenciamento de conhecimento [ou](set-up-topic-experiences.md)novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do Centro de administração do Microsoft 365.
+Para trabalhar na seção **Gerenciar Tópicos** do centro de tópicos, você precisa ter as permissões necessárias para Gerenciar Tópicos necessárias para a função de gerente de conhecimento. O administrador pode atribuir essas permissões aos usuários durante a configuração de gerenciamento de conhecimento [ou](set-up-topic-experiences.md)novos usuários podem ser [adicionados](topic-experiences-knowledge-rules.md) posteriormente por um administrador por meio do Centro de administração do Microsoft 365.
 
 Na página Gerenciar Tópicos, o painel de tópicos mostra todos os tópicos aos que você tem acesso, que foram identificados de seus locais de origem especificados. Cada tópico mostrará a data em que o tópico foi descoberto. Um usuário que foi atribuído Gerenciar permissões de tópicos pode revisar os tópicos não confirmados e optar por:
-- Confirme o tópico: realça o tópico para os usuários que têm acesso aos arquivos e páginas relacionados ao tópico e permite que eles vejam o cartão de tópico e a página de tópicos associados.
+- Confirme o tópico: Indica aos usuários que um tópico sugerido por AI foi validado por um curador humano. 
 - Publique o tópico: Edite as informações do tópico para melhorar a qualidade do tópico identificado inicialmente e realça o tópico para todos os usuários que têm acesso a tópicos. 
-- Rejeitar o tópico: Torna o tópico não disponível para os usuários. O tópico é movido para a guia **Rejeitados** e pode ser confirmado posteriormente, se necessário. 
+- Rejeitar o tópico: torna o tópico indiscoverable para os usuários finais. O tópico é movido para a guia **Rejeitados** e pode ser confirmado posteriormente, se necessário. 
 
 > [!Note] 
 > Consulte [Gerenciar tópicos para](manage-topics.md) obter mais detalhes sobre tópicos de gerenciamento de tópicos na página Gerenciar tópicos.
@@ -88,7 +88,7 @@ Se você tiver permissões Criar e editar tópicos, poderá:
 - [Criar novos tópicos](create-a-topic.md): Você pode criar novos tópicos para aqueles que não foram encontrados por meio da descoberta ou se as ferramentas de AI não encontraram evidências suficientes para criar um tópico.
 
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 
 [Gerenciar tópicos no centro de tópicos](manage-topics.md)
 

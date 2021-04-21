@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes da colaboração de conteúdo - as pessoas experimentam a Pontuação de Produtividade.
-ms.openlocfilehash: dedd39a84580f26e80e5586e07fb64c8a6d35573
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 43a5fbc3b1c4b6227cd29d79bfb0928a3b4b8ac9
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580853"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903317"
 ---
 # <a name="content-collaboration--people-experiences"></a>Colaboração de conteúdo – Experiências de pessoas
 
@@ -49,6 +49,9 @@ Um aspecto fundamental da transformação digital é como as pessoas colaboram n
 ## <a name="how-we-calculate-the-content-collaboration-score"></a>Como calculamos a pontuação de colaboração de conteúdo
 
 Fornecemos uma visão principal que contém as principais métricas para colaboração de conteúdo em sua organização. Em seguida, uma estrutura de pontuação detalhada abaixo é usada para essas métricas calcularem a pontuação da sua organização.
+
+> [!NOTE]
+> Em 22 de abril de 2021, mudamos a forma como a métrica dos colaboradores é calculada. Isso afeta a visão [primária](#primary-insight), o insight de colaboração [de](#number-of-files-collaborated-on)arquivos e a forma como a pontuação de colaboração de conteúdo é medida. Essa alteração ajuda a reduzir o ruído nos dados de agentes não humanos (ou bots) da Microsoft e de outros aplicativos de terceiros, resultando em uma pontuação mais precisa e a ação.
 
 ### <a name="primary-insight"></a>Visão primária
 
@@ -97,10 +100,9 @@ O gráfico de visualizações de tendência mostra a linha de tendência das pri
 
 ### <a name="scoring-framework"></a>Estrutura de pontuação
 
-A pontuação de colaboração de conteúdo para sua organização mede em um nível agregado (organização) se as pessoas estão lendo, criando ou colaborando consistentemente em arquivos do Office online, como Word, Excel, PowerPoint, OneNote ou PDFs; ou no OneDrive ou no SharePoint.
+A pontuação de colaboração de conteúdo para sua organização mede em um nível agregado (organização) se as pessoas estão lendo, criando ou colaborando consistentemente em arquivos do Office online, como Word, Excel, PowerPoint, OneNote ou PDFs, ou no OneDrive ou no SharePoint.
 
-As pontuações não são fornecidas no nível de usuário individual .
-
+As pontuações não são fornecidas no nível de usuário individual.
 
 ## <a name="explore-how-your-organization-collaborates"></a>Explorar como sua organização colabora
 
@@ -131,13 +133,13 @@ Também fornecemos informações que ajudam você a obter visibilidade sobre com
 3. **Visualização:** A divisão na visualização deve representar a extensão em que as pessoas que estão anexando conteúdo em emails estão usando modos diferentes (arquivos que não estão no OneDrive ou no SharePoint; links para arquivos online e links inseridos no email):
       - **Anexar arquivos:** A parte azul (colorida) da barra e a fração (numerador/denominador) na barra representa a porcentagem de pessoas que usam anexos em emails.
         - Numerador: o número de pessoas que anexam arquivos a emails que não foram salvos no OneDrive ou no SharePoint nos últimos 28 dias.
-        - Denominador: . Denominador: o número de pessoas que tiveram acesso ao Exchange e Ao OneDrive, Ao SharePoint ou ambos nos últimos 28 dias.
+        - Denominador: o número de pessoas que tiveram acesso ao Exchange e Ao OneDrive, Ao SharePoint ou ambos nos últimos 28 dias.
       - **Links para arquivos online:** A parte azul (colorida) da barra e a fração (numerador/denominador) na barra representam a porcentagem de pessoas usando anexos e anexando links a arquivos em emails.
         - Numerador: o número de pessoas anexando links a arquivos online (salvos no OneDrive ou no SharePoint) para emails nos últimos 28 dias.
-        - Denominador: . Denominador: O número de pessoas que têm acesso ao Exchange e Ao OneDrive, Ao SharePoint ou ambos nos últimos 28 dias.
+        - Denominador: o número de pessoas que têm acesso ao Exchange e Ao OneDrive, Ao SharePoint ou ambos nos últimos 28 dias.
       - **Inserir links no email:** A parte azul (colorida) da barra e a fração na barra representam a porcentagem de pessoas que incorporam links no corpo dos emails.
         - Numerador: o número de pessoas incorporando links no corpo de emails para arquivos online (salvos no OneDrive ou no SharePoint) nos últimos 28 dias.
-        - Denominador: . Denominador: o número de pessoas que têm acesso ao Exchange e ao OneDrive,SharePoint ou ambos nos últimos 28 dias.
+        - Denominador: o número de pessoas que têm acesso ao Exchange e Ao OneDrive, Ao SharePoint ou ambos nos últimos 28 dias.
 4. **Link para recursos:** Selecione este link para exibir o conteúdo da ajuda.
 
 ### <a name="sharing-of-online-files"></a>Compartilhamento de arquivos online
@@ -159,21 +161,21 @@ Também fornecemos informações que ajudam você a obter visibilidade sobre com
 
 :::image type="content" source="../../media/intensityofcollab.png" alt-text="Gráfico mostrando quantos arquivos foram mais colaborados.":::
 
-1. **Header:** Isso realça a porcentagem de pessoas que têm acesso ao OneDrive ou Ao SharePoint que estão colaborando em 4 ou mais arquivos.
-2. **Corpo:** Isso fornece informações sobre como as pessoas podem aproveitar arquivos online para melhor colaboração.
-3. **Visualização:** Isso mostra uma distribuição das pessoas que têm acesso ao OneDrive ou Ao SharePoint, com base no número de arquivos em que colaboram. Isso é mostrado pelas 4 categorias a seguir (para cada uma, a parte azul da barra e a fração representam a porcentagem de pessoas que têm acesso ao OneDrive ou Ao SharePoint que se enquadram nessa categoria):
+1. **Header:** Realça a porcentagem de pessoas que têm acesso ao OneDrive ou Ao SharePoint que estão colaborando em 4 ou mais arquivos.
+2. **Corpo:** Fornece informações sobre como as pessoas podem aproveitar arquivos online para melhor colaboração.
+3. **Visualização:** Mostra uma distribuição das pessoas que têm acesso ao OneDrive ou Ao SharePoint, com base no número de arquivos em que colaboram. Isso é mostrado pelas 4 categorias a seguir (para cada uma, a parte azul da barra e a fração representam a porcentagem de pessoas que têm acesso ao OneDrive ou Ao SharePoint que se enquadram nessa categoria):
       - **Nenhuma colaboração:**
-        - **Numerador:** O número de pessoas que não colaboram em nenhum arquivo nos últimos 28 dias
-        - **Denominador:** O número total de pessoas que têm acesso ao OneDrive ou Ao SharePoint por pelo menos 1 dos últimos 28 dias.
+        - Numerador: número de pessoas que não colaboraram em nenhum arquivo nos últimos 28 dias.
+        - Denominador: Número total de pessoas que têm acesso ao OneDrive ou Ao SharePoint por pelo menos um dos últimos 28 dias.
       - **Colaboração em arquivos de 1 a 3:**
-        - **Numerador:** O número de pessoas colaborando em arquivos de 1 a 3 nos últimos 28 dias.
-        - **Denominador:** O número total de pessoas que tiveram acesso ao OneDrive ou Ao SharePoint por pelo menos um dos últimos 28 dias.
+        - Numerador: número de pessoas colaborando em arquivos de 1 a 3 nos últimos 28 dias.
+        - Denominador: Número total de pessoas que tiveram acesso ao OneDrive ou Ao SharePoint por pelo menos um dos últimos 28 dias.
       - **Colaboração em arquivos de 4 a 10:**
-        - **Numerador:** O número de pessoas colaborando em arquivos de 4 a 10 nos últimos 28 dias
-        - **Denominador: o** número total de pessoas que tiveram acesso ao OneDrive ou Ao SharePoint por pelo menos 1 dos últimos 28 dias.
+        - Numerador: número de pessoas colaborando em 4 a 10 arquivos nos últimos 28 dias.
+        - Denominador: Número total de pessoas que tiveram acesso ao OneDrive ou Ao SharePoint por pelo menos um dos últimos 28 dias.
       - **Colaboração em 11 ou mais arquivos:**
-        - **Numerador:** O número de pessoas colaborando em 11 ou mais arquivos nos últimos 28 dias
-        - **Denominador:** O número total de pessoas que tiveram acesso ao OneDrive ou Ao SharePoint por pelo menos um dos últimos 28 dias.
+        - Numerador: número de pessoas colaborando em 11 ou mais arquivos nos últimos 28 dias.
+        - Denominador: Número total de pessoas que tiveram acesso ao OneDrive ou Ao SharePoint por pelo menos um dos últimos 28 dias.
         
 4. **Link para recursos:** Selecione este link para exibir o conteúdo da ajuda.
 
@@ -183,12 +185,12 @@ Também fornecemos informações que ajudam você a obter visibilidade sobre com
 
 1. **Header:** Realça a porcentagem de dispositivos fora de todos os testados que têm uma conexão de rede ruim com o OneDrive e o SharePoint. 
 2. **Corpo:** Fornece informações sobre por que o desempenho da conexão de rede é importante para a colaboração. 
-3. **Visualização:** mostra uma porcentagem de dispositivos com diferentes níveis de desempenho de conectividade de rede relacionados ao OneDrive e ao SharePoint:
-      - **81-100 (melhor)**: a parte verde escuro (colorida) da barra representa a porcentagem de dispositivos com melhor desempenho.
-      - **61-80**: A parte verde (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho de rede entre 60 e 80. 
-      - **41-60**: A parte laranja (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho de rede entre 40 e 60. 
-      - **21-40**: A parte vermelha (colorida) da barra representa a porcentagem de dispositivos com pontuação de desempenho de rede entre 20 e 40. 
-      - **0-20**: A parte vermelha escura (colorida) da barra representa a porcentagem de dispositivos com pior pontuação de desempenho de rede entre 0 e 20. 
+3. **Visualização:** Mostra uma porcentagem de dispositivos com níveis diferentes de desempenho de conectividade de rede relacionados ao OneDrive e ao SharePoint:
+      - **81-100 (melhor)**: a parte verde escuro (colorida) da barra representa a porcentagem de dispositivos com o melhor desempenho.
+      - **61-80**: A parte verde (colorida) da barra representa a porcentagem de dispositivos com uma pontuação de desempenho de rede entre 60 e 80. 
+      - **41-60**: A parte laranja (colorida) da barra representa a porcentagem de dispositivos com uma pontuação de desempenho de rede entre 40 e 60. 
+      - **21-40**: A parte vermelha (colorida) da barra representa a porcentagem de dispositivos com uma pontuação de desempenho de rede entre 20 e 40. 
+      - **0-20**: A parte vermelha escura (colorida) da barra representa a porcentagem de dispositivos com a pior pontuação de desempenho de rede entre 0 e 20. 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

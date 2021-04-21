@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como ingressar em uma equipe como convidado no Microsoft Teams.
-ms.openlocfilehash: 9e60882907021c11d906ce9cd778a0f1eef32beb
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 0260365e8a064dd96cda75c9becf9f82bc6871a3
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578850"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903713"
 ---
 # <a name="join-a-team-as-a-guest"></a>Participe de uma equipe como convidado
 
@@ -48,3 +48,7 @@ Se você receber um convite do Microsoft Teams para ingressar em uma equipe, hav
 
 1. Basta abrir o aplicativo do Microsoft Teams e escolher  **Sim**  para alternar para a equipe para a qual você está convidado.  Agora você pode colaborar no projeto no Teams.
 2. Para alternar de volta para a equipe da sua empresa, selecione-o no drop-down **Organização.**
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Experiência de convidado no Teams](https://docs.microsoft.com/microsoftteams/guest-experience) (artigo) Gerenciar configurações do Microsoft [Teams](https://docs.microsoft.com/microsoftteams/enable-features-office-365) para sua organização (artigo) [Use](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations) o acesso de convidados e o acesso externo para colaborar com pessoas de fora da sua organização (artigo)

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2b191c4a24ce170d23fc3d9e43293cc7bbe59e80
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: dfdfcdcfb8d76f95e3b866f5f95af7efd94ed59e
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892812"
+ms.locfileid: "51904123"
 ---
 # <a name="microsoft-defender-for-endpoint-data-storage-and-privacy"></a>Privacidade e armazenamento de dados do Microsoft Defender para Ponto de Extremidade
 
@@ -90,7 +90,7 @@ Não. Os dados do cliente são isolados de outros clientes e não são compartil
 
 ## <a name="how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy"></a>Por quanto tempo a Microsoft armazenará meus dados? Qual é a política de retenção de dados da Microsoft?
 **Integração de serviço**<br>
-Você pode escolher a política de retenção de dados para seus dados. Isso determina por quanto tempo o Window Defender for Endpoint armazenará seus dados. Há uma flexibilidade de escolher no intervalo de um mês a seis meses para atender às necessidades de conformidade regulamentar da sua empresa.
+Por padrão, os dados são mantidos por 180 dias; no entanto, você pode especificar a política de retenção de dados para seus dados. Isso determina por quanto tempo o Window Defender for Endpoint armazenará seus dados. Há uma flexibilidade de escolher no intervalo de um mês a seis meses para atender às necessidades de conformidade regulamentar da sua empresa.
 
 **Na rescisão ou expiração do contrato**<br>
 Seus dados serão mantidos e estarão disponíveis enquanto a licença estiver em período de carência ou no modo suspenso. No final desse período, esses dados serão apagados dos sistemas da Microsoft para torná-los irrecuperáveis, no máximo 180 dias após a rescisão ou expiração do contrato.

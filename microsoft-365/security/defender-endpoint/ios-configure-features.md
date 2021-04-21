@@ -1,6 +1,6 @@
 ---
 title: Configurar o Microsoft Defender para Ponto de Extremidade em recursos do iOS
-description: Descreve como implantar o Microsoft Defender ATP para recursos iOS
+description: Descreve como implantar o Microsoft Defender para Ponto de Extremidade em recursos do iOS
 keywords: microsoft, defender, atp, ios, configurar, recursos, ios
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e351f6500d5076e724653d0fde1940592dd1ae5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: f5f7345f92b3ac76aa647a9caed63e5684be9c30
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687480"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903305"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-ios-features"></a>Configurar o Microsoft Defender para Ponto de Extremidade em recursos do iOS
 
@@ -49,7 +49,7 @@ Por padrão, o Defender para Ponto de Extremidade para iOS inclui e habilita o r
 Embora habilitada por padrão, pode haver alguns casos que exigem que você desabilite a VPN. Por exemplo, você deseja executar alguns aplicativos que não funcionam quando uma VPN está configurada. Nesses casos, você pode optar por desabilitar a VPN do aplicativo no dispositivo seguindo as etapas abaixo:
 
 1. Em seu dispositivo iOS, abra o aplicativo **Configurações,** clique ou toque em **Geral** **e,** em seguida, VPN .
-1. Clique ou toque no botão "i" do Microsoft Defender ATP.
+1. Clique ou toque no botão "i" do Microsoft Defender para Ponto de Extremidade.
 1. Desative o **Connect On Demand para** desabilitar a VPN.
 
     > [!div class="mx-imgBorder"]

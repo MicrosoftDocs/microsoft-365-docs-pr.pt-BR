@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5e20c424f15561c8b6f0544b80aca6e30c56409d
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 09ca9fb466efd7764f7459a4754cfb30c8100bdb
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893324"
+ms.locfileid: "51904135"
 ---
 # <a name="get-devices-onboarded-to-microsoft-defender-for-endpoint"></a>Obter dispositivos conectados ao Microsoft Defender para Ponto de Extremidade
 
@@ -55,8 +55,8 @@ O Defender para Ponto de Extremidade fornece várias opções convenientes para 
 
 No cartão **De integração,** selecione **Onboard more devices** to create and assign a profile on Intune. O link leva você para a página de conformidade do dispositivo no Intune, que fornece uma visão geral semelhante do seu estado de integração.
 
-![Página de conformidade de dispositivos do Microsoft Defender ATP no gerenciamento de dispositivos do Intune](images/secconmgmt_onboarding_1deviceconfprofile.png)<br>
-   *Página de conformidade de dispositivos do Microsoft Defender ATP no gerenciamento de dispositivos do Intune*
+![Página de conformidade de dispositivo do Microsoft Defender para Ponto de Extremidade no gerenciamento de dispositivos do Intune](images/secconmgmt_onboarding_1deviceconfprofile.png)<br>
+   *Página de conformidade de dispositivo do Microsoft Defender para Ponto de Extremidade no gerenciamento de dispositivos do Intune*
 
 >[!TIP]
 >Como alternativa, você pode navegar até a página de conformidade de integração do Defender for Endpoint no portal do [Microsoft Azure](https://portal.azure.com/) a partir de Todos os serviços **> Intune > Conformidade** de dispositivo > Microsoft Defender ATP .

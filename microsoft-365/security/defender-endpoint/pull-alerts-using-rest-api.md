@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a7d13da6abfb2cd6c829b6fd04fdf94de8cd20b8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 06028f64a3340aeeef52269bc8a1e739d18e6db7
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186864"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903113"
 ---
 # <a name="pull-microsoft-defender-for-endpoint-detections-using-siem-rest-api"></a>Puxar o Microsoft Defender para detecções de ponto de extremidade usando a API REST SIEM
 
@@ -106,7 +106,7 @@ Agora você pode usar o valor no *campo* access_token em uma solicitação à AP
 Com um token de acesso, seu aplicativo pode fazer solicitações autenticadas para a API do Microsoft Defender para Ponto de Extremidade. Seu aplicativo deve anexar o token de acesso ao cabeçalho Authorization de cada solicitação.
 
 ### <a name="request-syntax"></a>Sintaxe de solicitação
-Método | Solicitar URI
+Method | Solicitar URI
 :---|:---|
 GET| Use o URI aplicável à sua região. <br><br> **Para a UE**: `https://wdatp-alertexporter-eu.windows.com/api/alerts` </br> **Para NÓS**: `https://wdatp-alertexporter-us.windows.com/api/alerts` <br> **Para o Reino Unido**: `https://wdatp-alertexporter-uk.windows.com/api/alerts` 
 
@@ -125,7 +125,7 @@ sinceTimeUtc | DateTime | Define os alertas com limite de tempo inferior dos qua
 untilTimeUtc | DateTime | Define que os alertas de limite de tempo superior são recuperados. <br> O intervalo de tempo será: de `sinceTimeUtc` vez em `untilTimeUtc` quando. <br><br> **OBSERVAÇÃO**: quando não especificado, o valor padrão será a hora atual.
 ago | cadeia de caracteres | Puxa alertas no seguinte intervalo de tempo: de `(current_time - ago)` vez em `current_time` quando. <br><br> O valor deve ser definido de acordo com o formato de duração **iso 8601** <br> Exemplo: `ago=PT10M` puxará alertas recebidos nos últimos 10 minutos.
 limite | int | Define o número de alertas a serem recuperados. Os alertas mais recentes serão recuperados com base no número definido.<br><br> **OBSERVAÇÃO**: Quando não especificado, todos os alertas disponíveis no intervalo de tempo serão recuperados.
-machinegroups | cadeia de caracteres | Especifica grupos de dispositivos para puxar alertas. <br><br> **OBSERVAÇÃO**: Quando não especificado, os alertas de todos os grupos de dispositivos serão recuperados. <br><br> Exemplo: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/Alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
+machinegroups | cadeia de caracteres | Especifica grupos de dispositivos para puxar alertas. <br><br> **OBSERVAÇÃO**: Quando não especificado, os alertas de todos os grupos de dispositivos serão recuperados. <br><br> Exemplo: <br><br> ```https://wdatp-alertexporter-eu.securitycenter.windows.com/api/alerts/?machinegroups=UKMachines&machinegroups=FranceMachines```
 DeviceCreatedMachineTags | cadeia de caracteres | Marca de dispositivo único do Registro.
 CloudCreatedMachineTags | cadeia de caracteres | Marcas de dispositivo que foram criadas no Centro de Segurança do Microsoft Defender.
 
@@ -339,4 +339,4 @@ Código de erro HTTP | Descrição
 - [Configurar ArcSight para puxar o Microsoft Defender para detecções de ponto de extremidade](configure-arcsight.md)
 - [Pull detections to your SIEM tools](configure-siem.md)
 - [Campos de Detecção de Ponto de Extremidade do Microsoft Defender](api-portal-mapping.md)
-- [Solucionar problemas de integração de ferramentas SIEM](troubleshoot-siem.md)
+- [Solucionar problemas de integração da ferramenta SIEM](troubleshoot-siem.md)

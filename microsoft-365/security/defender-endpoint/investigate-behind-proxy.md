@@ -1,6 +1,6 @@
 ---
 title: Investigar eventos de conexão que ocorrem por meio de proxies de encaminhamento
-description: Saiba como usar o monitoramento avançado de nível HTTP por meio da proteção de rede no Microsoft Defender ATP, que apresenta um destino real, em vez de um proxy.
+description: Saiba como usar o monitoramento avançado de nível HTTP por meio da proteção de rede no Microsoft Defender para Ponto de Extremidade, que apresenta um destino real, em vez de um proxy.
 keywords: proxy, proteção de rede, proxy de encaminhamento, eventos de rede, auditoria, bloco, nomes de domínio, domínio
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 28d8a113ed77e9624bd914571b1af4a7ece2aa5c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: 47be07759a72a080a3687ed3bb50cef9d0a959b7
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587558"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51904041"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>Investigar eventos de conexão que ocorrem por meio de proxies de encaminhamento
 

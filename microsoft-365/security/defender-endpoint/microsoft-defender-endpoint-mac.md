@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 406a0e699ea563670f41355d122aa54ba8667a0e
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 705b1fffbc38282441f66e0dc411cf09699cb3f9
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687740"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903761"
 ---
 # <a name="microsoft-defender-for-endpoint-on-mac"></a>Microsoft Defender para Ponto de Extremidade no Mac
 
@@ -86,6 +86,8 @@ As três versões principais mais recentes do macOS são suportadas.
 - Espaço em disco: 1 GB
 
 Não há suporte para versões beta do macOS.
+
+Não há suporte para dispositivos macOS com processadores M1.
 
 Depois de habilitar o serviço, talvez seja necessário configurar sua rede ou firewall para permitir conexões de saída entre ele e seus pontos de extremidade.
 

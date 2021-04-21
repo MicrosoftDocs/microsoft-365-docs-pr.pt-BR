@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP para recursos Linux
+title: Microsoft Defender para Ponto de Extremidade em recursos Linux
 ms.reviewer: ''
-description: Descreve os recursos do Microsoft Defender ATP para Linux, incluindo como desinstalar, como coletar logs de diagnóstico, comandos CLI e problemas conhecidos com o produto.
+description: Descreve os recursos do Microsoft Defender para Ponto de Extremidade no Linux, incluindo como desinstalar, como coletar logs de diagnóstico, comandos CLI e problemas conhecidos com o produto.
 keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a4f2324bc47bdee38e1cdeed1e21b5f9063e9a5c
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: de2602bdc94507d27236b939553a6567b2587f36
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587055"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903137"
 ---
 # <a name="resources"></a>Recursos
 
@@ -101,7 +101,7 @@ Por padrão, a ferramenta de linha de comando resulta no formato aceitável para
 
 A tabela a seguir lista comandos para alguns dos cenários mais comuns. Execute `mdatp help` a partir do Terminal para exibir a lista completa de comandos com suporte.
 
-|Grupo                 |Cenário                                                |Comando                                                                |
+|Group                 |Cenário                                                |Comando                                                                |
 |----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
 |Configuração         |Ativar/desativar a proteção em tempo real                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
 |Configuração         |Ativar/desativar o monitoramento de comportamento                         |`mdatp config behavior-monitoring --value [enabled\|disabled]` 
@@ -120,8 +120,8 @@ A tabela a seguir lista comandos para alguns dos cenários mais comuns. Execute 
 |Configuração         |Ativar a proteção pua                                  |`mdatp threat policy set --type potentially_unwanted_application --action block` |
 |Configuração         |Desativar a proteção PUA                                 |`mdatp threat policy set --type potentially_unwanted_application --action off` |
 |Configuração         |Ativar o modo de auditoria para proteção pua                   |`mdatp threat policy set --type potentially_unwanted_application --action audit` |
-|Diagnostics           |Alterar o nível de log                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
-|Diagnostics           |Gerar logs de diagnóstico                                |`mdatp diagnostic create --path [directory]`                           |
+|Diagnóstico           |Alterar o nível de log                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
+|Diagnóstico           |Gerar logs de diagnóstico                                |`mdatp diagnostic create --path [directory]`                           |
 |Integridade                |Verificar a saúde do produto                              |`mdatp health`                                                         |
 |Proteção            |Examinar um caminho                                             |`mdatp scan custom --path [path] [--ignore-exclusions]`                |
 |Proteção            |Fazer uma verificação rápida                                         |`mdatp scan quick`                                                     |

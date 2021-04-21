@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c5e6edb40254ab905ef5ef3ddef9bf8bf54fc54b
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 9c77cb19731e55976058ce2f628baf4026639949
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698263"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903785"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -71,8 +71,7 @@ A turn on this feature so that potentially unwanted applications (PUA) are remed
 
 
 ## <a name="restrict-correlation-to-within-scoped-device-groups"></a>Restringir a correlação para dentro de grupos de dispositivos com escopo
-Quando essa configuração é acionada, os alertas são correlacionados em incidentes separados com base no grupo de dispositivos com escopo. Por padrão, a correlação de incidentes ocorre em todo o escopo do locatário.
-
+Essa configuração pode ser usada para cenários em que as operações SOC locais gostaria de limitar as correlações de alerta apenas aos grupos de dispositivos que eles podem acessar. Ao ligar essa configuração, um incidente composto por alertas que cruzam grupos de dispositivos não será mais considerado um único incidente. O SOC local pode, em seguida, tomar medidas sobre o incidente porque eles têm acesso a um dos grupos de dispositivos envolvidos. No entanto, o SOC global verá vários incidentes diferentes por grupo de dispositivos em vez de um incidente. Não recomendamos a adoção dessa configuração, a menos que isso supere os benefícios da correlação de incidentes em toda a organização
 >[!NOTE]
 >Alterar essa configuração afeta apenas as futuras correlações de alerta.
 

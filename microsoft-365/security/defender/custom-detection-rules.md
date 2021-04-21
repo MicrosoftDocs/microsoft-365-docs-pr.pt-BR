@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 220e4e6546899dd00f3a02bf83039a928be4f8dc
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: bfc8724f8dc27aa2475c293e7370488b2ea392b8
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498841"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903749"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Criar e gerenciar regras de detecções personalizadas
 
@@ -179,6 +179,9 @@ Você mantém o controle sobre a ampla ou a especificidade de suas detecções p
 ## <a name="manage-existing-custom-detection-rules"></a>Gerenciar regras de detecção personalizadas existentes
 Você pode exibir a lista de regras de detecção personalizadas existentes, verificar suas versões anteriores e revisar os alertas disparados. Você também pode executar uma regra sob demanda e modificá-la.
 
+>[!TIP]
+> Alertas gerados por detecções personalizadas estão disponíveis por meio de alertas e APIs de incidentes. Para obter mais informações, consulte APIs do [Microsoft 365 Defender com suporte.](api-supported.md)
+
 ### <a name="view-existing-rules"></a>Exibir regras existentes
 
 Para exibir todas as regras de detecção personalizadas existentes, navegue até **Hunting**  >  **Custom detections**. A página lista todas as regras com as seguintes informações de executar:
@@ -217,7 +220,7 @@ Na tela de detalhes da regra (**Hunting**  >  **Custom detections**  >  **[Nome*
 >[!TIP]
 >Para exibir rapidamente informações e tomar medidas em um item em uma tabela, use a coluna de seleção [&#10003;] à esquerda da tabela.
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Também consulte
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Conhecer a linguagem de consulta de busca avançada](advanced-hunting-query-language.md)

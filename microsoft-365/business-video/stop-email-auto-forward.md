@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como parar o encaminhamento automático de emails.
-ms.openlocfilehash: b6715cfdf8622521d977e0746cb9a340a8f70a5c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f8bd599c7c8bca8d4789188acbcd3574b7473dcb
+ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578598"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51903677"
 ---
 # <a name="stop-email-auto-forward"></a>Parar o encaminhamento automático de email
 
@@ -47,3 +47,7 @@ Se um hacker tiver acesso à caixa de correio de um usuário, ele poderá encami
 1. Role até a parte inferior e selecione **Salvar**.
 
     Sua regra foi criada e os hackers não poderão mais encaminhar mensagens automaticamente.
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Adicionar outro alias de email para](https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user) um usuário (artigo) Configure email [forwarding in Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding) (article) [Find and fix email delivery issues as an Office 365 for business admin](https://docs.microsoft.com/exchange/troubleshoot/email-delivery/email-delivery-issues) (article)
