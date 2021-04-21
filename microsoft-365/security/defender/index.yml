@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4187cc69acba30ae5cbcad093d91ec291b42bca5
-  ms.sourcegitcommit: ef98b8a18d275e5b5961e63d2b0743d046321737
+  ms.openlocfilehash: 1085b54a4b879a316b57cad89e138a73c871370e
+  ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/26/2021
-  ms.locfileid: "51382490"
+  ms.lasthandoff: 04/20/2021
+  ms.locfileid: "51904171"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -26,8 +26,64 @@ landingContent:
     links:
     - text: O que é o Microsoft 365 Defender?
       url: ../defender/microsoft-365-defender.md
-    - text: Centro de segurança do Microsoft 365
-      url: ../defender/overview-security-center.md
+  - linkListType: whats-new
+    links:
+    - text: Novidades do iMicrosoft 365 Defender
+      url: ../defender/whats-new.md
+  - linkListType: video
+    links:
+    - text: Vídeo de visão geral
+      url: https://www.microsoft.com/en-us/videoplayer/embed/RE4Bzww
+- title: Avaliar as funcionalidades
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Criar laboratório de avaliação
+      url: m365d-evaluation.md
+    - text: Executar projeto piloto em produção
+      url: m365d-pilot.md
+- title: Introdução
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Comece a usar o Microsoft 365 Defender
+      url: get-started.md
+  - linkListType: deploy
+    links:
+    - text: Ativar o Microsoft 365 Defender
+      url: m365d-enable.md
+    - text: Implantar serviços com suporte
+      url: deploy-supported-services.md
+- title: Microsoft Defender para Identidade?
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Microsoft Defender para Identidade?
+      url: /azure-advanced-threat-protection/what-is-atp
+    - text: Arquitetura do Microsoft Defender para Identidade
+      url: /azure-advanced-threat-protection/atp-architecture
+- title: Microsoft Defender para Office 365
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Defender para Office 365?
+      url: /office-365-security/defender-for-office-365
+    - text: Descrição do serviço do Defender para Office 365
+      url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+    - text: Defender para Office 365 no Microsoft 365 Defender
+      url: /defender/microsoft-365-security-center-mdo
+    - text: Redirecionando o Defender para o Office 365 no Microsoft 365 Defender
+      url: /defender/microsoft-365-security-mdo-redirection
+- title: Microsoft Defender para Ponto de Extremidade
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Microsoft Defender para Ponto de Extremidade?
+      url: /defender-endpoint/microsoft-defender-endpoint
+    - text: Defender para Ponto de Extremidade no Microsoft 365 Defender
+      url: /defender/microsoft-365-security-cente
+    - text: Redirecionando o Defender para o Ponto de Extremidade no Microsoft 365 Defender
+      url: /defender/microsoft-365-security-mde-redirection
 - title: Centro de segurança do Microsoft 365
   linkLists:
   - linkListType: overview
@@ -38,13 +94,29 @@ landingContent:
       url: microsoft-365-security-center-mde.md
     - text: Microsoft Defender para Office 365 no Centro de segurança do Microsoft 365
       url: ../defender/microsoft-365-security-center-mdo.md
+- title: Microsoft Cloud App Security
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é o Microsoft Cloud App Security?
+      url: /cloud-app-security/what-is-cloud-app-security
+    - text: Introdução ao Microsoft Cloud App Security
+      url: /cloud-app-security/getting-started-with-cloud-app-security
 - title: Gerenciar incidentes e alertas
   linkLists:
   - linkListType: overview
     links:
     - text: Investigar incidentes
       url: investigate-incidents.md
+    - text: Rastrear e responder a ameaças emergentes
+      url: threat-analytics.md
     - text: Investigação e resposta automatizadas
       url: m365d-autoir.md
     - text: Busca por ameaças
       url: advanced-hunting-overview.md
+- title: Referência
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: APIs do Microsoft 365 Defender (visualização)
+      url: api-overview.md
