@@ -19,21 +19,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como usar o alternador de locatários e sobre os modo de exibição de vários locatários.
-ms.openlocfilehash: 21b51a5e0c79496bf73e60c04aea68def3cf8ad6
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d59760b8a143acc33747aff9f7deaa0b6dd3e711
+ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580877"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51943024"
 ---
 # <a name="multi-tenant-management"></a>Gerenciamento de vários locatários
 
-O gerenciamento de vários locatários oferece uma forma unificada de gerenciamento que permite aos administradores a capacidade de administrar todos os locatários que gerenciam de um único local. Se você gerenciar vários locatários, poderá:
+O gerenciamento de vários locatários oferece uma forma unificada de gerenciamento que permite aos administradores parceiros do Microsoft 365 a capacidade de administrar todos os locatários que gerenciam de um único local. Se você for um parceiro que gerencia vários locatários, poderá:
 
 - Mova-se rapidamente entre locatários que você gerencia.
 - Avalie a saúde do serviço, produtos e cobrança em vários locatários.
 - Na página Todos os **locatários,** você pode ver rapidamente a saúde de todos os serviços de seus locatários, todas as solicitações de serviço abertas, seus produtos e cobrança e o número de usuários nesse locatário.
-
 
 ## <a name="move-between-tenants"></a>Mover entre locatários
 
@@ -54,7 +53,6 @@ O gerenciamento de vários locatários oferece uma forma unificada de gerenciame
   - Pesquisar ou selecionar o locatário que você deseja gerenciar
   - Você também pode fixar seu locatário mais visitado na parte superior da lista.
 
-
 Se você marcou um locatário como favorito, ele é expandido automaticamente para que você possa exibir imediatamente os detalhes de status.
 
 ## <a name="view-service-health-for-all-accounts"></a>Exibir a saúde do serviço para todas as contas
@@ -63,7 +61,7 @@ A exibição de saúde do serviço mostra se quaisquer incidentes ou avisos est�
 
 1. No Centro de administração do Microsoft 365, no modo de exibição de vários locatários, selecione **Service Health**.
 2. Na  exibição agregada da página de saúde do serviço, você também pode ver o número total de incidentes, o número total de avisos que afetam qualquer um dos locatários gerenciados e o número de serviços com incidentes ativos. Você também pode ver quantos de seus locatários são afetados por incidentes e avisos.
-    
+
     - Você pode usar a opção de filtro para exibir problemas por tipo de problema ou por serviço
 
     - Você pode revisar problemas nas **guias Todos os serviços** ou Todos **os** problemas.

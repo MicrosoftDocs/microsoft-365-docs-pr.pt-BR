@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
 ms.date: 07/31/2020
-ms.openlocfilehash: 395c9773d4bc67ed466d7b3f8d568cecedddfd36
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b117071fa708ad9d425d578833d8b0ad85537151
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911634"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939481"
 ---
 # <a name="view-your-bill-or-invoice"></a>Exibir sua conta ou fatura
 
@@ -55,6 +55,22 @@ Você deve ser um administrador Global ou de Cobrança para realizar as etapas d
 2. Na guia **Faturas**, selecione um período na lista suspensa e, em seguida, escolha a ordem que quer visualizar.
 3. Na página do resumo, você pode ver os itens, a quantidade, o preço, o desconto e o total de todos os itens na fatura.
 4. Para imprimir ou salvar uma cópia da fatura em PDF, selecione **Baixar PDF**.
+
+::: moniker region="o365-21vianet"
+
+## <a name="request-a-fapiao"></a>Solicitar um Fapiao
+
+Você pode enviar sua solicitação de Fapiao ao nosso [Sistema de gestão de Fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465) cerca de três (3) dias depois de ter pago.
+
+1. No <a href=”https://go.microsoft.com/fwlink/p/?linkid=850627” target=”_blank”>centro de administração</a>, vá para página **Cobrança** > **Faturas e pagamentos**.
+
+2. Encontre a fatura desejada, e então selecione **Obter Fapiaos**.
+
+> [!NOTE]
+
+> Você precisa de uma conta registrada para acessar o [sistema de gerenciamento Fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465). Se você ainda não configurou uma conta, consulte [Candidatar-se a um Fapiao para o Office 365 operado pela 21Vianet](../../admin/services-in-china/apply-for-a-fapiao.md).
+
+::: moniker-end
 
 ## <a name="receive-a-copy-of-your-billing-statement-in-email"></a>Receber uma cópia do seu demonstrativo por email
 
