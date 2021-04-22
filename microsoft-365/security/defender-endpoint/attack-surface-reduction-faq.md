@@ -1,6 +1,6 @@
 ---
 title: Redução de superfície de ataque perguntas frequentes (perguntas frequentes)
-description: Encontre respostas para perguntas frequentes sobre as regras de redução de superfície de ataque do Microsoft Defender ATP.
+description: Encontre respostas para perguntas frequentes sobre o Microsoft Defender para as regras de redução de superfície de ataque do Endpoint.
 keywords: Regras de redução de superfície de ataque, asr, quadris, sistema de prevenção contra invasões de host, regras de proteção, antiexploit, exploração, prevenção de infecção, microsoft defender para ponto de extremidade
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 71c3f89b721039753709d65daa135cad74a81711
-ms.sourcegitcommit: 7b8104015a76e02bc215e1cf08069979c70650ae
+ms.openlocfilehash: cf41dda4ff61137d6b60b2fc735227f15418477e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51476441"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935588"
 ---
 # <a name="attack-surface-reduction-frequently-asked-questions-faq"></a>Redução de superfície de ataque perguntas frequentes (perguntas frequentes)
 

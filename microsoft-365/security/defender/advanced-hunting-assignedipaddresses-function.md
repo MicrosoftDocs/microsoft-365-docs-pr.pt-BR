@@ -1,7 +1,7 @@
 ---
 title: Função AssignedIPAddresses() em busca avançada do Microsoft 365 Defender
 description: Saiba como usar a função AssignedIPAddresses() para obter os endereços IP mais recentes atribuídos a um dispositivo
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, FileProfile, perfil de arquivo, função, enriquecimento
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, FileProfile, perfil de arquivo, função, enriquecimento
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: be638141e205946be18d6a718470e7b92b18b1e7
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: d3ebd301d6c79bf5286d9293e04e4073b99d1e35
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500416"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934904"
 ---
 # <a name="assignedipaddresses"></a>AssignedIPAddresses()
 
@@ -42,8 +42,8 @@ Esta função retorna uma tabela com as seguintes colunas:
 | Coluna | Tipo de dados | Descrição |
 |------------|-------------|-------------|
 | `Timestamp` | datetime | Última hora em que o dispositivo foi observado usando o endereço IP |
-| `IPAddress` | string | Endereço IP usado pelo dispositivo |
-| `IPType` | string | Indica se o endereço IP é um endereço público ou privado |
+| `IPAddress` | cadeia de caracteres | Endereço IP usado pelo dispositivo |
+| `IPType` | cadeia de caracteres | Indica se o endereço IP é um endereço público ou privado |
 | `NetworkAdapterType` | int | Tipo de adaptador de rede usado pelo dispositivo que recebeu o endereço IP. Para os valores possíveis, consulte [esta enumeração](/dotnet/api/system.net.networkinformation.networkinterfacetype) |
 | `ConnectedNetworks` | int | Redes às que o adaptador com o endereço IP atribuído está conectado. Cada matriz JSON contém o nome da rede, categoria (público, privado ou domínio), uma descrição e um sinalizador indicando se ela está conectada publicamente à Internet |
 

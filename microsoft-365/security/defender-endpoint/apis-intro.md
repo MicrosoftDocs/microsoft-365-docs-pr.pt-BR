@@ -1,8 +1,8 @@
 ---
-title: Acessar as APIs do Microsoft Defender para Pontos de Extremidade
+title: Acessar as APIs do Microsoft Defender para Ponto de Extremidade
 ms.reviewer: ''
-description: Saiba como usar APIs para automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender ATP
-keywords: apis, api, wdatp, api aberta, api do microsoft defender atp, api pública, apis com suporte, alertas, dispositivo, usuário, domínio, ip, arquivo, busca avançada, consulta
+description: Saiba como você pode usar APIs para automatizar fluxos de trabalho e inovar com base nos recursos do Microsoft Defender para o Ponto de Extremidade
+keywords: apis, api, Microsoft Defender para Ponto de Extremidade, api aberta, api do Microsoft Defender para Ponto de Extremidade, api pública, apis com suporte, alertas, dispositivo, usuário, domínio, ip, arquivo, busca avançada, consulta
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 70a8ba9d3ff864ca58c856714b00f0e8feba933a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 87dce8ff4fde505eb8d4e458c8d9fb56556f4d78
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164737"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935099"
 ---
-# <a name="access-the-microsoft-defender-for-endpoint-apis"></a>Acessar as APIs do Microsoft Defender para Pontos de Extremidade 
+# <a name="access-the-microsoft-defender-for-endpoint-apis"></a>Acessar as APIs do Microsoft Defender para Ponto de Extremidade 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -61,7 +61,7 @@ Você pode acessar a API do Defender para Ponto de Extremidade com **Contexto de
   2. Atribua a permissão desejada ao aplicativo, por exemplo, 'Alertas de leitura', 'Isolar Máquinas'. 
   3. Crie uma chave para este Aplicativo.
   4. Obter token usando o aplicativo com sua chave.
-  5. Usar o token para acessar a API do Microsoft Defender ATP
+  5. Usar o token para acessar a API do Microsoft Defender for Endpoint
 
      Para obter mais informações, consulte [Obter acesso com o contexto do aplicativo](exposed-apis-create-app-webapp.md).
 
@@ -74,7 +74,7 @@ Você pode acessar a API do Defender para Ponto de Extremidade com **Contexto de
   1. Criar aplicativo nativo do AAD.
   2. Atribua a permissão desejada ao aplicativo, por exemplo, "Alertas de leitura", "Isolar Máquinas" etc. 
   3. Obter token usando o aplicativo com credenciais de usuário.
-  4. Usar o token para acessar a API do Microsoft Defender ATP
+  4. Usar o token para acessar a API do Microsoft Defender for Endpoint
 
      Para obter mais informações, consulte [Obter acesso com o contexto do usuário](exposed-apis-create-app-nativeapp.md).
 

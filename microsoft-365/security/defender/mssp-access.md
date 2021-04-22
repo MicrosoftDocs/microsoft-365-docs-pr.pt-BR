@@ -1,7 +1,7 @@
 ---
 title: Fornecer acesso ao MSSP (provedor de serviços de segurança gerenciado)
 description: Saiba mais sobre as alterações do Centro de Segurança do Microsoft Defender para o centro de segurança do Microsoft 365
-keywords: Iniciando o centro de segurança do Microsoft 365, OATP, MDATP, MDO, MDE, painel único de vidro, portal convergido, portal de segurança, portal de segurança do defender
+keywords: Iniciando com o Centro de Segurança do Microsoft 365, Microsoft Defender para Office 365, Microsoft Defender para Ponto de Extremidade, MDO, MDE, painel único de vidro, portal convergido, portal de segurança, portal de segurança do defender
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 4ea8c5a07016d3fe875d60501acee2cd46481489
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 4b34d3ea20716fb2424d9317b8a51c088a5714a6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165724"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935348"
 ---
 # <a name="provide-managed-security-service-provider-mssp-access"></a>Fornecer acesso ao MSSP (provedor de serviços de segurança gerenciado) 
 

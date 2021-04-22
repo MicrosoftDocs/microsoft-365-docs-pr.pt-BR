@@ -1,7 +1,7 @@
 ---
 title: Migrar da Symantec para o Microsoft Defender para o Ponto de Extremidade
 description: Obter uma visão geral de como fazer a mudança da Symantec para o Microsoft Defender para o Ponto de Extremidade
-keywords: migração, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: migração, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 6517359c805bb449d075e401283a79a791461630
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: 587cf49ddc8d6135047fbb5e0207ed0f94d1dbe0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218768"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934724"
 ---
 # <a name="migrate-from-symantec-to-microsoft-defender-for-endpoint"></a>Migrar da Symantec para o Microsoft Defender para o Ponto de Extremidade
 Se você estiver planejando mudar do Symantec Endpoint Protection (Symantec) para o [Microsoft Defender para](https://docs.microsoft.com/windows/security/threat-protection) Ponto de Extremidade (Microsoft Defender para Ponto de Extremidade), você está no lugar certo. Use este artigo como um guia.
@@ -58,12 +58,12 @@ Neste guia de migração, nos concentramos nos recursos de detecção e resposta
 
 | Recurso/Funcionalidade | Descrição |
 |---|---|
-| [Gerenciamento de & de vulnerabilidades](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | Os & gerenciamento de vulnerabilidades ajudam a identificar, avaliar e remediar as deficiências em seus pontos de extremidade (como dispositivos). |
-| [Redução da superfície do ataque.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction) | As regras de redução de superfície de ataque ajudam a proteger os dispositivos e aplicativos da sua organização contra ameaças cibernéticas e ataques. |
-| [Proteção de última geração](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) | A proteção de última geração inclui o Microsoft Defender Antivírus para ajudar a bloquear ameaças e malware. |
-| [Detecção e resposta do terminal.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) | Os recursos de detecção e resposta do ponto de extremidade detectam, investigam e respondem a tentativas de intrusão e violações ativas.  |
+| [Gerenciamento de ameaças e vulnerabilidades](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) | Os & gerenciamento de vulnerabilidades ajudam a identificar, avaliar e remediar as deficiências em seus pontos de extremidade (como dispositivos). |
+| [Redução de superfície de ataque](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction) | As regras de redução de superfície de ataque ajudam a proteger os dispositivos e aplicativos da sua organização contra ameaças cibernéticas e ataques. |
+| [Proteção de próxima geração](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-in-windows-10) | A proteção de última geração inclui o Microsoft Defender Antivírus para ajudar a bloquear ameaças e malware. |
+| [Detecção de ponto de extremidade e resposta](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) | Os recursos de detecção e resposta do ponto de extremidade detectam, investigam e respondem a tentativas de intrusão e violações ativas.  |
 | [Busca avançada](advanced-hunting-overview.md) | Os recursos avançados de busca permitem que sua equipe de operações de segurança localize indicadores e entidades de ameaças conhecidas ou potenciais. |
-| [Bloqueio comportamental e contenção](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | Os recursos de bloqueio comportamental e de contenção ajudam a identificar e parar ameaças, com base em seus comportamentos e no processo de árvores, mesmo quando a ameaça iniciou a execução. |
+| [Bloqueio e contenção comportamental](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/behavioral-blocking-containment) | Os recursos de bloqueio comportamental e de contenção ajudam a identificar e parar ameaças, com base em seus comportamentos e no processo de árvores, mesmo quando a ameaça iniciou a execução. |
 | [Investigação e correção automatizadas](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations) | Os recursos automatizados de investigação e resposta examinam alertas e tomarão medidas imediatas de correção para resolver violações. |
 | [Serviço de busca de ameaças](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-threat-experts) (Especialistas em Ameaças da Microsoft) | Os serviços de busca de ameaças fornecem às equipes de operações de segurança monitoramento e análise de nível especializado e ajudam a garantir que as ameaças críticas não sejam perdidas. |
 

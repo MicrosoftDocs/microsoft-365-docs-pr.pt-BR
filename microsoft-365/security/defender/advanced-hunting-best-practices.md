@@ -1,7 +1,7 @@
 ---
 title: Práticas recomendadas de consulta de busca avançada no Microsoft 365 Defender
 description: Saiba como construir consultas de busca de ameaças rápidas, eficientes e sem erros com a busca avançada
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, esquema, kusto, evitar tempo de espera, linhas de comando, id do processo, otimizar, prática, análise, participar, resumir
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, esquema, kusto, evitar tempo de espera, linhas de comando, id do processo, otimizar, prática, análise, participar, resumir
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e0744a01fc599b66f371b01194579f4845ed19fb
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 7db7607d3ed9d6f1b215fb842d5b6dd2415a770a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498726"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934892"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Práticas recomendadas de consulta de busca avançada
 

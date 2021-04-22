@@ -2,7 +2,7 @@
 title: Implantação baseada em aplicativo para o Microsoft Defender para Ponto de Extremidade no iOS
 ms.reviewer: ''
 description: Descreve como implantar o Microsoft Defender para Ponto de Extremidade no iOS usando um aplicativo
-keywords: microsoft, defender, atp, ios, app, installation, deploy, uninstallation, intune
+keywords: microsoft, defender, Microsoft Defender for Endpoint, ios, app, installation, deploy, uninstallation, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4ddaf8759fa0f2ffb4ed3eb3bb940426dfb3da2c
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 62eefbd17b826aa2cfb541c04ba206d0f58f9bbf
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904053"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935048"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-ios"></a>Implantar o Microsoft Defender para Ponto de Extremidade no iOS
 
@@ -35,20 +35,20 @@ ms.locfileid: "51904053"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Este tópico descreve a implantação do Defender para Ponto de Extremidade para iOS em dispositivos inscritos no Portal da Empresa do Intune. Para obter mais informações sobre o registro de dispositivo do Intune, consulte [Registrar dispositivos iOS/iPadOS no Intune](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll).
+Este tópico descreve a implantação do Defender para Ponto de Extremidade no iOS em dispositivos inscritos no Portal da Empresa do Intune. Para obter mais informações sobre o registro de dispositivo do Intune, consulte [Registrar dispositivos iOS/iPadOS no Intune](https://docs.microsoft.com/mem/intune/enrollment/ios-enroll).
 
 ## <a name="before-you-begin"></a>Antes de começar
 
 - Verifique se você tem acesso ao Centro de [administração do Gerenciador de Pontos de Extremidade da Microsoft.](https://go.microsoft.com/fwlink/?linkid=2109431)
 
-- Certifique-se de que o registro do iOS seja feito para seus usuários. Os usuários precisam ter uma licença do Defender para Ponto de Extremidade atribuída para usar o Defender para Endpoint para iOS. Consulte [Atribuir licenças aos usuários para](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) obter instruções sobre como atribuir licenças.
+- Certifique-se de que o registro do iOS seja feito para seus usuários. Os usuários precisam ter uma licença do Defender para Ponto de Extremidade atribuída para usar o Defender para o Ponto de Extremidade no iOS. Consulte [Atribuir licenças aos usuários para](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign) obter instruções sobre como atribuir licenças.
 
 > [!NOTE]
 > O Microsoft Defender para Ponto de Extremidade no iOS agora está disponível na [Apple App Store](https://aka.ms/mdatpiosappstore).
 
 ## <a name="deployment-steps"></a>Etapas de implantação
 
-Implante o Defender para Ponto de Extremidade para iOS por meio do Portal da Empresa do Intune.
+Implante o Defender para Ponto de Extremidade no iOS por meio do Portal da Empresa do Intune.
 
 ### <a name="add-ios-store-app"></a>Adicionar aplicativo da loja do iOS
 
@@ -61,7 +61,7 @@ Implante o Defender para Ponto de Extremidade para iOS por meio do Portal da Emp
 
 1. Selecione **iOS 11.0 como** o sistema operacional Mínimo. Revise o restante das informações sobre o aplicativo e clique em **Próximo**.
 
-1. Na seção *Atribuições,* vá para a seção **Obrigatório** e selecione **Adicionar grupo**. Em seguida, você pode escolher os grupos de usuários que você gostaria de direcionar o Defender para Ponto de Extremidade para aplicativo iOS. Clique **em Selecionar** e, em **seguida, Em Seguida.**
+1. Na seção *Atribuições,* vá para a seção **Obrigatório** e selecione **Adicionar grupo**. Em seguida, você pode escolher os grupos de usuários que você gostaria de direcionar o Defender para Ponto de Extremidade no aplicativo iOS. Clique **em Selecionar** e, em **seguida, Em Seguida.**
 
     > [!NOTE]
     > O grupo de usuários selecionado deve consistir em usuários inscritos do Intune.
@@ -78,11 +78,11 @@ Implante o Defender para Ponto de Extremidade para iOS por meio do Portal da Emp
 
 ## <a name="complete-onboarding-and-check-status"></a>Concluir a integração e verificar o status
 
-1. Depois que o Defender for Endpoint para iOS tiver sido instalado no dispositivo, você verá o ícone do aplicativo.
+1. Depois que o Defender for Endpoint no iOS tiver sido instalado no dispositivo, você verá o ícone do aplicativo.
 
     ![Uma captura de tela de um telefone inteligente Descrição gerada automaticamente](images/41627a709700c324849bf7e13510c516.png)
 
-2. Toque no ícone do aplicativo Defender para Ponto de Extremidade e siga as instruções na tela para concluir as etapas de integração. Os detalhes incluem a aceitação do usuário final das permissões do iOS exigidas pelo Defender para Ponto de Extremidade para iOS.
+2. Toque no ícone do aplicativo Defender para Ponto de Extremidade e siga as instruções na tela para concluir as etapas de integração. Os detalhes incluem a aceitação do usuário final das permissões do iOS exigidas pelo Defender para Ponto de Extremidade no iOS.
 
 3. Após a integração bem-sucedida, o dispositivo começará a aparecer na lista Dispositivos no Centro de Segurança do Microsoft Defender.
 
@@ -144,4 +144,4 @@ O Intune permite configurar o aplicativo Defender para iOS por meio de uma polí
 
 ## <a name="next-steps"></a>Próximas Etapas
 
-[Configurar o Defender para Ponto de Extremidade para recursos do iOS](ios-configure-features.md)
+[Configurar o Defender para Ponto de Extremidade em recursos do iOS](ios-configure-features.md)

@@ -1,7 +1,7 @@
 ---
 title: Como agendar uma atualização do Microsoft Defender para Ponto de Extremidade (Linux)
 description: Saiba como agendar uma atualização do Microsoft Defender para Ponto de Extremidade (Linux) para proteger melhor os ativos da sua organização.
-keywords: microsoft, defender, atp, linux, scans, antivírus, microsoft defender for endpoint (linux)
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, scans, antivírus, microsoft defender for endpoint (linux)
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a967333a58f74938ea70e32e0c48d2decb597e98
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 22ff42cb399b3d07c0ebd8ec4f947352eb6f44aa
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688796"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934760"
 ---
 # <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>Agendar uma atualização do Microsoft Defender para Ponto de Extremidade (Linux)
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3ad23e030048506784edd8f1988fa33263a085ae
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 25b70f91824db2a6d05db5d3981dd50f4f2b477a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861330"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934736"
 ---
 # <a name="configure-and-manage-microsoft-defender-for-endpoint-capabilities"></a>Configurar e gerenciar o Microsoft Defender para recursos de ponto de extremidade
 
@@ -49,5 +49,5 @@ Tópico | Descrição
 [Configurar recursos de redução de superfície de ataque](configure-attack-surface-reduction.md) | Configure os recursos de redução de superfície de ataque, para garantir que as configurações sejam aplicadas corretamente e que as técnicas de mitigação de exploração sejam definidas.
 [Configurar a proteção de última geração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-microsoft-defender-antivirus-features) | Configure a proteção de última geração para capturar todos os tipos de ameaças emergentes.
 [Configurar recursos de Especialistas em Ameaças da Microsoft](configure-microsoft-threat-experts.md) | Configure e gerencie a inteligência de ameaças de segurança cibernética dos Especialistas em Ameaças da Microsoft.
-[Configurar a integração com a Proteção contra Ameaças da Microsoft](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/threat-protection-integration) | Configure outras soluções que se integram ao Defender para Ponto de Extremidade.
+[Configurar a integração do Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/threat-protection-integration) | Configure outras soluções que se integram ao Defender para Ponto de Extremidade.
 [Gerenciamento e suporte à API](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/management-apis) | Puxe alertas para seu SIEM (Gerenciamento de Informações e Eventos de Segurança) ou use APIs para criar alertas personalizados. Criar e criar relatórios do Power BI.

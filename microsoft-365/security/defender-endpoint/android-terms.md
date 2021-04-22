@@ -1,8 +1,8 @@
 ---
-title: Termos de licença do Microsoft Defender ATP para Aplicativo Android
+title: Microsoft Defender para Ponto de Extremidade em termos de licença do aplicativo Android
 ms.reviewer: ''
-description: Descreve os termos de licença do Microsoft Defender ATP para Android
-keywords: microsoft, defender, atp, android,license, terms, application, use, installation, service, feedback, scope,
+description: Descreve o Microsoft Defender para Ponto de Extremidade em termos de licença do Android
+keywords: microsoft, defender, Microsoft Defender for Endpoint, android, license, terms, application, use, installation, service, feedback, scope,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: 2bcc8c1f977a6060ac94dc3a634f075a5c1ee041
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d73ddb3a8defb7697a995c2593d6a240a59c9cfe
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687944"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934616"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Microsoft Defender para Ponto de Extremidade em termos de licença de aplicativo Android
 
@@ -105,7 +105,7 @@ para este aplicativo, a menos que outros termos acompanhem esses itens. Em caso 
 
     2.  O respectivo provedor de armazenamento de aplicativos e suas subsidiárias são beneficiários de terceiros desses Termos e, após a aceitação desses Termos, os provedores de armazenamento de aplicativos terão o direito de impor e depender diretamente de qualquer disposição desses Termos que lhes conceda um benefício ou direitos.
 
-9.  **AVISOS DE MARCA REGISTRADA.** Microsoft, Microsoft Defender ATP, MDATP e Microsoft 365 são marcas comerciais registradas ou comuns da Microsoft Corporation nos Estados Unidos e/ou em outros países.
+9.  **AVISOS DE MARCA REGISTRADA.** Microsoft, Microsoft Defender para Ponto de Extremidade e Microsoft 365 são marcas comerciais registradas ou comuns da Microsoft Corporation nos Estados Unidos e/ou em outros países.
 
 10. **ENTIRE AGREEMENT.** Este contrato e os termos para suplementos, atualizações, serviços baseados na Internet e serviços de suporte que você usa são o contrato inteiro para os serviços de aplicativo e suporte.
 

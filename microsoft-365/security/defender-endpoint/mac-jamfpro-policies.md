@@ -1,7 +1,7 @@
 ---
-title: Configurar o Microsoft Defender para Endpoint para políticas macOS no Jamf Pro
-description: Saiba como configurar o Ponto de Extremidade do Microsoft Defender para políticas macOS no Jamf Pro
-keywords: policies, microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
+title: Configurar o Microsoft Defender para Ponto de Extremidade em políticas macOS no Jamf Pro
+description: Saiba como configurar o Microsoft Defender para Ponto de Extremidade em políticas macOS no Jamf Pro
+keywords: policies, microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1a00d1c0863db7f4f5f853312f202b5e985b1512
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 84d0b37632dc23615a37bbbd73c17fe509dedae5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862266"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934676"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Configurar o Microsoft Defender para Ponto de Extremidade em políticas macOS no Jamf Pro
 
@@ -162,7 +162,7 @@ Você precisará seguir as seguintes etapas:
     - archive_bomb
     - cloudService
     - automaticSampleSubmission
-    - categorias
+    - tags
     - hideStatusMenuIcon
     
      Para obter informações, consulte [Lista de propriedades para perfil de configuração jamf](mac-preferences.md#property-list-for-jamf-configuration-profile).
@@ -772,7 +772,7 @@ Siga as instruções em [Agendar verificações com o Microsoft Defender para Po
 
 7. Selecione **Abrir**. De definir **o Nome de Exibição** **como Proteção Avançada contra Ameaças do Microsoft Defender e o Microsoft Defender Antivírus**.
 
-    **O Arquivo de Manifesto** não é necessário. A Proteção Avançada contra Ameaças do Microsoft Defender funciona sem o Arquivo de Manifesto.
+    **O Arquivo de Manifesto** não é necessário. O Microsoft Defender para Ponto de Extremidade funciona sem Arquivo de Manifesto.
     
     **Guia Opções**<br> Mantenha valores padrão.
 

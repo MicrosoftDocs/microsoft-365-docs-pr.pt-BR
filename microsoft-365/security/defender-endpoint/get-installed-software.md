@@ -1,7 +1,7 @@
 ---
-title: Obter software instalado
+title: Obter o software instalado
 description: Recupera uma coleção de softwares instalados relacionados a uma determinada ID de dispositivo.
-keywords: apis, api gráfica, apis com suporte, get, list, file, information, software inventory, installed software per device, threat & vulnerability management api, mdatp tvm api
+keywords: apis, api gráfica, apis com suporte, get, list, file, information, software inventory, installed software per device, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,14 +15,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6164020ef05561563fe0434bd2edac8c7b3e689a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: ebd689fd53dd804f857c6bec7a412c27988835d0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166252"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935096"
 ---
-# <a name="get-installed-software"></a>Obter software instalado
+# <a name="get-installed-software"></a>Obter o software instalado
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

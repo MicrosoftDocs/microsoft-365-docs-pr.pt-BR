@@ -1,7 +1,7 @@
 ---
-title: Solucionar problemas de instalação do Microsoft Defender para Ponto de Extremidade para Mac
-description: Solucionar problemas de instalação no Microsoft Defender para Ponto de Extremidade para Mac.
-keywords: microsoft, defender, atp, mac, install
+title: Solucionar problemas de instalação do Microsoft Defender para Ponto de Extremidade no Mac
+description: Solucionar problemas de instalação no Microsoft Defender para Ponto de Extremidade no Mac.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, install
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d2ad3160c9f36a27dc98f44365433de5f8b26bb2
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5166de3a7c7017979a93ac7026636ba24671892e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861414"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935144"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Solucionar problemas de instalação do Microsoft Defender para Ponto de Extremidade no macOS
 

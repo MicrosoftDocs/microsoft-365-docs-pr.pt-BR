@@ -1,5 +1,5 @@
 ---
-title: Conexão de APIs do Microsoft Defender ATP ao Power BI
+title: Conexão do Microsoft Defender para APIs de Ponto de Extremidade com o Power BI
 ms.reviewer: ''
 description: Crie um relatório do Power Business Intelligence (BI) em cima das APIs do Microsoft Defender para Ponto de Extremidade.
 keywords: apis, apis com suporte, Power BI, relatórios
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 696782ca03e5494c3fc5ca08943d1079c5d78f8a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 7c99267d75c89b3484d207cd763131e4bcc91527
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166290"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935036"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Criar relatórios personalizados usando o Power BI
 
@@ -141,10 +141,10 @@ O primeiro exemplo demonstra como conectar o Power BI à API de Busca Avançada 
 Para obter mais informações, consulte os [modelos de relatório do Power BI.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>Relatórios de exemplo
-Exibir os exemplos de relatório do Microsoft Defender ATP Power BI. Para obter mais informações, consulte [Procurar exemplos de código](https://docs.microsoft.com/samples/browse/?products=mdatp).
+Exibir os exemplos de relatório do Microsoft Defender for Endpoint Power BI. Para obter mais informações, consulte [Procurar exemplos de código](https://docs.microsoft.com/samples/browse/?products=mdatp).
 
 
 ## <a name="related-topic"></a>Tópicos relacionados
 - [Defender para APIs de Ponto de Extremidade](apis-intro.md)
 - [API de Busca Avançada](run-advanced-query-api.md)
-- [Usando consultas OData](exposed-apis-odata-samples.md)
+- [Usar consultas de OData](exposed-apis-odata-samples.md)

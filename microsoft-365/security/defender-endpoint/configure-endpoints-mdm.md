@@ -1,7 +1,7 @@
 ---
 title: Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel
 description: Use ferramentas de Gerenciamento de Dispositivo Móvel para implantar o pacote de configuração em dispositivos para que eles sejam integrados ao serviço.
-keywords: onboard devices using mdm, device management, onboard Windows ATP devices, onboard Microsoft Defender for Endpoint devices, mdm
+keywords: onboard devices using mdm, device management, onboard Microsoft Defender for Endpoint devices, mdm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f3042ef9ced11ebc5439308d2781528d5267975f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 951b0f33356ab99485f09ccc4147691e13ed3c6e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893608"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935000"
 ---
 # <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel
 

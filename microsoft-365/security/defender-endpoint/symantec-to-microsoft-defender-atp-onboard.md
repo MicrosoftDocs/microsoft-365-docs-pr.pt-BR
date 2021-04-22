@@ -1,7 +1,7 @@
 ---
 title: Symantec para Microsoft Defender para Ponto de Extremidade - Fase 3, Integração
 description: Esta é a Fase 3, Integração, de migração da Symantec para o Microsoft Defender para o Ponto de Extremidade
-keywords: migração, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: migração, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: b42a33d975e1368ad25d4a7102ef44bf8b9824a8
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 63c870c5682e963e6ab29160218c7405cabb0838
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698275"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935540"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Migrar da Symantec - Fase 3: Integração ao Microsoft Defender para Ponto de Extremidade
 
@@ -57,12 +57,12 @@ ms.locfileid: "51698275"
  
 Os métodos de implantação variam, dependendo de qual sistema operacional está selecionado. Consulte os recursos listados na tabela abaixo para obter ajuda com a integração.
 
-|Sistema operacional  |Method  |
+|Sistema operacional  |Método  |
 |---------|---------|
 |Windows 10     |- [Política de Grupo](configure-endpoints-gp.md)<br/>- [Configuration Manager](configure-endpoints-sccm.md)<br/>- [Gerenciamento de dispositivo móvel (Intune)](configure-endpoints-mdm.md)<br/>- [Script local](configure-endpoints-script.md) <br/><br/>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Intune.         |
 |- Windows 8.1 Enterprise <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Agente de Monitoramento da Microsoft](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint)<br/><br/>**OBSERVAÇÃO**: o Agente de Monitoramento da Microsoft agora é o agente do Azure Log Analytics. Para saber mais, confira [Visão geral do agente do Log Analytics.](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent)        |
 |- Windows Server 2019 e posterior <br/>- Edição principal do Windows Server 2019 <br/>- Windows Server versão 1803 e posterior |- [Script local](configure-endpoints-script.md) <br/>- [Política de Grupo](configure-endpoints-gp.md) <br/>- [Configuration Manager](/configure-endpoints-sccm.md) <br/>- [System Center Configuration Manager](configure-endpoints-sccm.md#onboard-devices-using-system-center-configuration-manager)<br/>- [Scripts de integração VDI para dispositivos não persistentes](configure-endpoints-vdi.md) <br/><br/>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Intune.    |
-|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Centro de Segurança do Microsoft Defender](configure-server-endpoints.md)<br/>- [Centro de Segurança do Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
+|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Centro de Segurança do Microsoft Defender](configure-server-endpoints.md)<br/>- [Azure Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
 |macOS<br/>- 10.15 (Catalina)<br/>- 10.14 (Mojave)<br/>- 10,13 (High Sierra)<br/><br/>iOS<br/><br/>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS ou LTS superior<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Dispositivos Windows não integrados](configure-endpoints-non-windows.md)  |
 
 ## <a name="run-a-detection-test"></a>Executar um teste de detecção
@@ -96,7 +96,7 @@ Agora que você insinuou os dispositivos da sua organização no Microsoft Defen
 Agora que você desinstalou a Symantec, sua próxima etapa é garantir que o Microsoft Defender Antivírus e o Microsoft Defender para Ponto de Extremidade estão habilitados e no modo ativo.
 
 Para fazer isso, visite o site de cenários de demonstração do Microsoft Defender for Endpoint ( [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) ). Experimente um ou mais dos cenários de demonstração nessa página, incluindo pelo menos o seguinte:
-- Proteção entregue na nuvem
+- Proteção fornecida na nuvem
 - Aplicativos potencialmente indesejados (PUA)
 - Proteção de Rede (NP)
 

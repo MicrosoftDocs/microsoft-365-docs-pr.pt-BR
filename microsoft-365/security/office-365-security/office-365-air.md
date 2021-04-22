@@ -1,6 +1,6 @@
 ---
 title: Investigação e resposta automatizadas no Microsoft Defender para Office 365
-keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançadas, ameaças, proteção
+keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9850506771f53b125c08b1df2149ee024191d823
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 89421348d858a869e033380802e402465949c554
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768861"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935168"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Investigação e resposta automatizadas (AIR) no Microsoft Defender para Office 365
 

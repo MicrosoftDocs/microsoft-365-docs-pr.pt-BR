@@ -1,8 +1,8 @@
 ---
-title: Implantar atualizações do Microsoft Defender para Ponto de Extremidade para Linux
+title: Implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux
 ms.reviewer: ''
-description: Descreve como implantar atualizações do Microsoft Defender para Endpoint para Linux em ambientes corporativos.
-keywords: microsoft, defender, atp, linux, atualizações, implantar
+description: Descreve como implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux em ambientes corporativos.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, atualizações, deploy
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 77b428e359596e73e08dc04f15190ecf68db29be
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 9cb0c7375b538f502cf6165f13c68fd4b2fdcc64
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861138"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934748"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -40,12 +40,12 @@ ms.locfileid: "51861138"
 A Microsoft publica regularmente atualizações de software para melhorar o desempenho, a segurança e fornecer novos recursos.
 
 > [!WARNING]
-> Cada versão do Defender para Ponto de Extremidade para Linux tem uma data de expiração, após a qual ela não continuará mais a proteger seu dispositivo. Você deve atualizar o produto antes dessa data. Para verificar a data de expiração, execute o seguinte comando:
+> Cada versão do Defender para Ponto de Extremidade no Linux tem uma data de expiração, após a qual ele não continuará mais a proteger seu dispositivo. Você deve atualizar o produto antes dessa data. Para verificar a data de expiração, execute o seguinte comando:
 > ```bash
 > mdatp health --field product_expiration
 > ```
 
-Para atualizar o Defender para Ponto de Extremidade para Linux manualmente, execute um dos seguintes comandos:
+Para atualizar o Defender para Ponto de Extremidade no Linux manualmente, execute um dos seguintes comandos:
 
 ## <a name="rhel-and-variants-centos-and-oracle-linux"></a>RHEL e variantes (CentOS e Oracle Linux)
 

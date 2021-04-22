@@ -1,7 +1,7 @@
 ---
 title: Tabela EmailAttachmentInfo no esquema de busca avançada
 description: Saiba mais sobre informações de anexo de email na tabela EmailAttachmentInfo do esquema de busca avançada
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailAttachmentInfo, id de mensagem de rede, remetente, destinatário, id de anexo, nome do anexo, veredito de malware
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailAttachmentInfo, id de mensagem de rede, remetente, destinatário, id de anexo, nome do anexo, veredito de malware
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ mms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 84d0c1fd256b013291e3df33dc5d7a0524741685
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 961474fa62981364919ae3bf482a886eb9a5e821
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498924"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935492"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -44,18 +44,18 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Microsoft 365 |
-| `SenderFromAddress` | string | Endereço de email do remetente no cabeçalho DE, visível para os destinatários dos seus clientes de email |
-| `SenderDisplayName` | string | Nome do remetente exibido no livro de endereços, normalmente uma combinação de um nome ou nome determinado, uma inicial do meio e um sobrenome ou sobrenome |
-| `SenderObjectId` | string | Identificador exclusivo da conta do remetente no Azure AD |
-| `RecipientEmailAddress` | string | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
-| `RecipientObjectId` | string | Identificador exclusivo para o destinatário de email no Azure AD |
-| `FileName` | string | Nome do arquivo ao qual a ação gravada foi aplicada |
+| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `SenderFromAddress` | cadeia de caracteres | Endereço de email do remetente no cabeçalho DE, visível para os destinatários dos seus clientes de email |
+| `SenderDisplayName` | cadeia de caracteres | Nome do remetente exibido no livro de endereços, normalmente uma combinação de um nome ou nome determinado, uma inicial do meio e um sobrenome ou sobrenome |
+| `SenderObjectId` | cadeia de caracteres | Identificador exclusivo da conta do remetente no Azure AD |
+| `RecipientEmailAddress` | cadeia de caracteres | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
+| `RecipientObjectId` | cadeia de caracteres | Identificador exclusivo para o destinatário de email no Azure AD |
+| `FileName` | cadeia de caracteres | Nome do arquivo ao qual a ação gravada foi aplicada |
 | `FileType` | string | Tipo de extensão do arquivo |
 | `SHA256` | string | SHA-256 do arquivo ao qual a ação gravada foi aplicada. Esse campo geralmente não é preenchido; use a coluna SHA1 quando disponível. |
 | `ThreatTypes` | string | Veredito da pilha de filtragem de email sobre se o email contém malware, phishing ou outras ameaças |
-| `ThreatNames` | string | Nome da detecção de malware ou outras ameaças encontradas |
-| `DetectionMethods` | string | Métodos usados para detectar malware, phishing ou outras ameaças encontradas no email |
+| `ThreatNames` | cadeia de caracteres | Nome da detecção de malware ou outras ameaças encontradas |
+| `DetectionMethods` | cadeia de caracteres | Métodos usados para detectar malware, phishing ou outras ameaças encontradas no email |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp. |
 
 ## <a name="related-topics"></a>Tópicos relacionados

@@ -1,7 +1,7 @@
 ---
 title: Sistemas operacionais e plataformas com suporte para gerenciamento de ameaças e vulnerabilidades
 description: Certifique-se de atender aos requisitos do sistema operacional ou da plataforma para gerenciamento de ameaças e vulnerabilidades, para que as atividades em todos os dispositivos sejam contabiladas corretamente.
-keywords: gerenciamento & de vulnerabilidades, gerenciamento de ameaças e vulnerabilidades, sistema operacional, requisitos de plataforma, pré-requisitos, sistema operacional com suporte mdatp-tvm, mdatp-tvm,
+keywords: gerenciamento & de vulnerabilidades, gerenciamento de ameaças e vulnerabilidades, sistema operacional, requisitos de plataforma, pré-requisitos, sistema operacional com suporte do Microsoft Defender para Endpoint-tvm, Microsoft Defender para Endpoint-tvm,
 search.appverid: met150
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fd778b66e85507d5e6d91ed786b16454a5c0fc8f
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 55322d238839d347882ec1d74b767c68fd2be2b3
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500435"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935516"
 ---
 # <a name="supported-operating-systems-and-platforms---threat-and-vulnerability-management"></a>Sistemas e plataformas operacionais com suporte - gerenciamento de ameaças e vulnerabilidades
 

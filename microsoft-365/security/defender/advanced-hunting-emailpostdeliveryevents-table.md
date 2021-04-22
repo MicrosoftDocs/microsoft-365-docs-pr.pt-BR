@@ -1,7 +1,7 @@
 ---
 title: Tabela EmailPostDeliveryEvents no esquema de busca avançado
 description: Saiba mais sobre ações pós-entrega realizadas em emails do Microsoft 365 na tabela EmailPostDeliveryEvents do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailPostDeliveryEvents, id de mensagem de rede, remetente, destinatário, id de anexo, nome do anexo, veredito de malware, veredito de phishing, contagem de anexos, contagem de links, contagem de url
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, EmailPostDeliveryEvents, id de mensagem de rede, remetente, destinatário, id de anexo, nome do anexo, veredito de malware, veredito de phishing, contagem de anexos, contagem de links, contagem de url
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: c6612127f43e650dee18bdc9390fc26b0a693f69
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 444af2441eef5a3720325656f996e6bcdb42937e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498885"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935468"
 ---
 # <a name="emailpostdeliveryevents"></a>EmailPostDeliveryEvents
 
@@ -45,13 +45,13 @@ Para obter mais informações sobre mensagens de email individuais, você també
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `NetworkMessageId` | string | Identificador exclusivo do email, gerado pelo Microsoft 365 |
+| `NetworkMessageId` | cadeia de caracteres | Identificador exclusivo do email, gerado pelo Microsoft 365 |
 | `InternetMessageId` | cadeia de caracteres | Identificador público do email definido pelo seu sistema de envio |
 | `Action` | cadeia de caracteres | Ação realizada na entidade |
-| `ActionType` | string | Tipo de atividade que disparou o evento: Correção manual, PHISH ZAP, MALWARE ZAP |
-| `ActionTrigger` | string | Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automatizada pendente) ou por algum mecanismo especial, como um ZAP ou Entrega Dinâmica |
-| `ActionResult` | string | Resultado da ação |
-| `RecipientEmailAddress` | string | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
+| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento: Correção manual, PHISH ZAP, MALWARE ZAP |
+| `ActionTrigger` | cadeia de caracteres | Indica se uma ação foi disparada por um administrador (manualmente ou por meio da aprovação de uma ação automatizada pendente) ou por algum mecanismo especial, como um ZAP ou Entrega Dinâmica |
+| `ActionResult` | cadeia de caracteres | Resultado da ação |
+| `RecipientEmailAddress` | cadeia de caracteres | Endereço de email do destinatário ou endereço de email do destinatário após a expansão da lista de distribuição |
 | `DeliveryLocation` | cadeia de caracteres | Local onde o email foi entregue: Caixa de Entrada/Pasta, Local/Externo, Tratado como Lixo Eletrônico, Quarentena, Falha, Descartado, Itens excluídos |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp. |
 

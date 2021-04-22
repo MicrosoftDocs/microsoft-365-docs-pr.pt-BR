@@ -1,6 +1,6 @@
 ---
 title: Resolver contas de usuário comprometidas com investigação e resposta automatizadas
-keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção, comprometido
+keywords: AIR, autoIR, Microsoft Defender para Ponto de Extremidade, automatizado, investigação, resposta, correção, ameaças, avançado, ameaça, proteção, comprometido
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +15,12 @@ ms.date: 02/25/2020
 description: Saiba como acelerar o processo de detecção e endereçamento de contas de usuário comprometidas com recursos automatizados de investigação e resposta no Microsoft Defender para Office 365 Plano 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2428cc2c1f82b4f2b881433fde991dd04b268d6e
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c500221a10c00cc3b8d9d99c102ce8ec54fa2a48
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203367"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934688"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Resolver contas de usuário comprometidas com investigação e resposta automatizadas
 

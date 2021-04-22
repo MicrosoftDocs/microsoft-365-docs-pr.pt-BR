@@ -1,7 +1,7 @@
 ---
 title: Obter recomendações de segurança
 description: Recupera uma coleção de recomendações de segurança relacionadas a uma determinada ID de dispositivo.
-keywords: apis, api gráfica, apis com suporte, get, list, file, information, security recommendation per device, threat & vulnerability management api, mdatp tvm api
+keywords: apis, api gráfica, apis com suporte, obter, listar, arquivo, informações, recomendação de segurança por dispositivo, api de gerenciamento de & de ameaças, api de tvm do Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6c65926985c7c8a194ab87c44c3fc269488c463c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: bc209687d51b3e05bfcfd6028042ba5912b877f6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199760"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935300"
 ---
 # <a name="get-security-recommendations"></a>Obter recomendações de segurança
 

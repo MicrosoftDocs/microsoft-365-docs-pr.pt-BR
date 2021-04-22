@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb5a9a4d35af2d400cdff1e417727e662738514e
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ee06f927579445825a2b2813e483c24357d2ed78
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861342"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934916"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>Dispositivos de integração sem acesso à Internet ao Microsoft Defender para Ponto de Extremidade
 
@@ -73,7 +73,7 @@ Para obter mais informações sobre métodos de integração, consulte os seguin
       - Configurar o IP do Azure Log Analytics como proxy
       - Chave de Espaço de Trabalho do Azure Log Analytics & ID
 
-    - Centro de Segurança do Azure (ASC)
+    - Azure Defender
       - [Espaço de Trabalho \> de Análise de Log de Política de Segurança](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
       - [Detecção de \> ameaças Permitir que o Defender para o Ponto de Extremidade acesse meus dados](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enable-windows-defender-atp-integration)
 

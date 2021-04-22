@@ -2,7 +2,7 @@
 title: Microsoft Defender para Ponto de Extremidade em termos de licença do aplicativo iOS
 ms.reviewer: ''
 description: Descreve o Microsoft Defender para Ponto de Extremidade em termos de licença do iOS
-keywords: microsoft, defender, atp, iOS, licença, termos, aplicativo, uso, instalação, serviço, feedback, escopo,
+keywords: microsoft, defender, Microsoft Defender for Endpoint, iOS, license, terms, application, use, installation, service, feedback, scope
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: e2f2abbb27d1040f0fa9bcd1134103d54372b25b
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: a8cea87e9f26262b4c54e7991add7affc8013033
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903957"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934976"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios-application-license-terms"></a>Microsoft Defender para Ponto de Extremidade em termos de licença de aplicativo iOS
 

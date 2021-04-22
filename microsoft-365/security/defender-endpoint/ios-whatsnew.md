@@ -1,7 +1,7 @@
 ---
 title: Novidades do Microsoft Defender para Ponto de Extremidade no iOS
 description: Saiba mais sobre as principais alterações para versões anteriores do Microsoft Defender para Ponto de Extremidade no iOS.
-keywords: microsoft, defender, atp, mac, installation, macos, whatsnew
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, installation, macos, whatsnew
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e47631682b5620a3f42746c3e3848a8bc3ee1f76
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 76abde885aa16c174bb81d22e5939d47894a59bf
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861786"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934964"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>Novidades do Microsoft Defender para Ponto de Extremidade no iOS
 

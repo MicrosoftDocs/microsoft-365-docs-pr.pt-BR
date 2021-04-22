@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender para Ponto de Extremidade para Mac - extensões do sistema (Visualização)
-description: Este artigo contém instruções para tentar a funcionalidade de extensões do sistema do Microsoft Defender para Ponto de Extremidade para Mac. Essa funcionalidade está atualmente em visualização pública.
-keywords: microsoft, defender, atp, mac, kernel, sistema, extensões, catalina
+title: Microsoft Defender para Ponto de Extremidade no Mac - extensões do sistema (Visualização)
+description: Este artigo contém instruções para tentar a funcionalidade de extensões do sistema do Microsoft Defender para Ponto de Extremidade no Mac. Essa funcionalidade está atualmente em visualização pública.
+keywords: microsoft, defender, Microsoft Defender para Endpoint, mac, kernel, sistema, extensões, catalina
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: 0b593aa0046a28e558523c2f3ebc7da9976f62d3
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: cc148bcc0b2623eaaa8d31ef50708174264fa3b2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860322"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934940"
 ---
 # <a name="microsoft-defender-for-endpoint-on-macos---system-extensions-public-preview"></a>Microsoft Defender para Ponto de Extremidade no macOS - visualização pública de extensões do sistema)
 
@@ -34,7 +34,7 @@ ms.locfileid: "51860322"
 
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Em alinhamento com a evolução do macOS, estamos preparando um Defender para Endpoint para atualização do Mac que aproveita extensões do sistema em vez de extensões de kernel. Essa atualização só se aplicará ao macOS Catalina (10.15.4) e versões posteriores do macOS.
+Em alinhamento com a evolução do macOS, estamos preparando um Defender para Endpoint no Mac update que aproveita extensões do sistema em vez de extensões de kernel. Essa atualização só se aplicará ao macOS Catalina (10.15.4) e versões posteriores do macOS.
 
 Essa funcionalidade está atualmente em visualização pública. Este artigo descreve como habilitar essa funcionalidade em seu dispositivo. Você pode experimentar esse recurso localmente em seu próprio dispositivo ou configurá-lo remotamente por meio de uma ferramenta de gerenciamento.
 
@@ -62,7 +62,7 @@ Estas etapas pressuem que você já tenha o Defender para Ponto de Extremidade e
   defaults write com.microsoft.autoupdate2 ChannelName -string Beta
   ```
 
-  Como alternativa, se você estiver em um ambiente gerenciado (JAMF ou Intune), poderá configurar o canal de atualização remotamente. Para obter mais informações, [consulte Deploy updates for Microsoft Defender for Endpoint for Mac: Set the channel name](mac-updates.md#set-the-channel-name).
+  Como alternativa, se você estiver em um ambiente gerenciado (JAMF ou Intune), poderá configurar o canal de atualização remotamente. Para obter mais informações, [consulte Deploy updates for Microsoft Defender for Endpoint on Mac: Set the channel name](mac-updates.md#set-the-channel-name).
 
 ## <a name="deployment-steps"></a>Etapas de implantação
 
@@ -74,7 +74,7 @@ Siga as etapas de implantação que correspondem ao seu ambiente e ao seu métod
 
 1. Depois que todos os pré-requisitos de implantação são atendidos, reinicie o dispositivo para iniciar o processo de aprovação e ativação de extensão do sistema.
 
-   Você verá uma série de prompts do sistema para aprovar as extensões do sistema Defender for Endpoint. Você deve aprovar **todos os** prompts da série, pois o macOS exige uma aprovação explícita para cada extensão que o Defender para Ponto de Extremidade para Mac instala no dispositivo.
+   Você verá uma série de prompts do sistema para aprovar as extensões do sistema Defender for Endpoint. Você deve aprovar **todos os** prompts da série, pois o macOS exige uma aprovação explícita para cada extensão que o Defender para Ponto de Extremidade no Mac instala no dispositivo.
    
    Para cada aprovação, selecione **Abrir Preferências de Segurança** e, em seguida, selecione **Permitir** para permitir que a extensão do sistema seja executado.
 

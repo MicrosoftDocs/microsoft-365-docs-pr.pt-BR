@@ -1,10 +1,10 @@
 ---
 title: Integrar o Microsoft Defender para Ponto de Extremidade com outras soluções da Microsoft
-description: Saiba como o Microsoft Defender for Endpoint se integra a outras soluções da Microsoft, incluindo o Microsoft Defender para Identidade e o Centro de Segurança do Azure.
+description: Saiba como o Microsoft Defender for Endpoint se integra a outras soluções da Microsoft, incluindo o Microsoft Defender para Identidade e o Azure Defender.
 author: mjcaparas
 ms.author: macapara
 ms.prod: m365-security
-keywords: microsoft 365 defender, acesso condicional, office, proteção avançada contra ameaças, microsoft defender para identidade, microsoft defender for office, centro de segurança do azure, segurança do aplicativo na nuvem da Microsoft, azure sentinel
+keywords: microsoft 365 defender, acesso condicional, office, Microsoft Defender for Endpoint, microsoft defender for identity, microsoft defender for office, Azure Defender, microsoft cloud app security, azure sentinel
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.mktglfcycl: deploy
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 7d12afd27288655f4f5a82eeed24686f27171a7a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ce8dbef2f4fb7c3503f04f15148d2071b449b2dc
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765390"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935528"
 ---
 # <a name="microsoft-defender-for-endpoint-and-other-microsoft-solutions"></a>Microsoft Defender para Ponto de Extremidade e outras soluções da Microsoft
 
@@ -38,7 +38,7 @@ ms.locfileid: "51765390"
 
 O Microsoft Defender para Ponto de Extremidade integra-se diretamente a várias soluções da Microsoft.
 
-### <a name="azure-security-center"></a>Central de Segurança do Azure
+### <a name="azure-defender"></a>Azure Defender
 O Microsoft Defender for Endpoint fornece uma solução abrangente de proteção de servidor, incluindo recursos de detecção e resposta de ponto de extremidade (EDR) em servidores Windows.
 
 ### <a name="azure-sentinel"></a>Azure Sentinel
@@ -54,10 +54,10 @@ A pontuação de risco de dispositivo dinâmico do Microsoft Defender para Endpo
 O Microsoft Cloud App Security aproveita os sinais de ponto de extremidade do Microsoft Defender para o Ponto de Extremidade para permitir visibilidade direta do uso de aplicativos na nuvem, incluindo o uso de serviços de nuvem sem suporte (shadow IT) de todos os dispositivos monitorados do Microsoft Defender para Ponto de Extremidade.
 
 ### <a name="microsoft-defender-for-identity"></a>Microsoft Defender para Identidade?
-Atividades suspeitas são processos em execução em um contexto de usuário. A integração entre o Microsoft Defender para Ponto de Extremidade e o Azure ATP oferece a flexibilidade de conduzir a investigação de segurança cibernética entre atividades e identidades.
+Atividades suspeitas são processos em execução em um contexto de usuário. A integração entre o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender para Identidade fornece a flexibilidade de conduzir a investigação de segurança cibernética entre atividades e identidades.
 
 ### <a name="microsoft-defender-for-office"></a>Microsoft Defender para Office
-[O Defender for Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) ajuda a proteger sua organização contra malware em mensagens de email ou arquivos por meio de Links Seguros atp, anexos seguros atp, anti-phishing avançado e recursos de inteligência falsa. A integração entre o Office 365 ATP e o Microsoft Defender for Endpoint permite que os analistas de segurança acessem o upstream para investigar o ponto de entrada de um ataque. Por meio do compartilhamento de inteligência de ameaças, os ataques podem ser contidos e bloqueados. 
+[O Defender for Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) ajuda a proteger sua organização contra malware em mensagens de email ou arquivos por meio de Links Seguros, Anexos Seguros, Anti-Phishing avançado e recursos de inteligência falsa. A integração entre o Microsoft Defender para Office 365 e o Microsoft Defender for Endpoint permite que os analistas de segurança acessem o upstream para investigar o ponto de entrada de um ataque. Por meio do compartilhamento de inteligência de ameaças, os ataques podem ser contidos e bloqueados. 
 
 >[!NOTE]
 > Os dados do Defender para Office 365 são exibidos para eventos nos últimos 30 dias. Para alertas, os dados do Defender para Office 365 são exibidos com base na primeira hora de atividade. Depois disso, os dados não estarão mais disponíveis no Defender para Office 365.

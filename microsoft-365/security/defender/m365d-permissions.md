@@ -1,7 +1,7 @@
 ---
 title: Gerenciar o acesso aos dados do Microsoft 365 Defender no centro de segurança do Microsoft 365
 description: Saiba como gerenciar permissões para dados no Microsoft 365 Defender
-keywords: acesso, permissões, MTP, Proteção contra Ameaças da Microsoft, M365, segurança, MCAS, MDATP, Cloud App Security, Proteção Avançada contra Ameaças do Microsoft Defender, escopo, gerar escopo, RBAC
+keywords: access, permissions, Microsoft 365 Defender, M365, security, MCAS, Cloud App Security, Microsoft Defender for Endpoint, scope, scoping, RBAC
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e1be2cf4d5510b2a31a61f848d7d99d6a6704d49
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 52e4e9fc8c73d1adca0c24c5bebb50f9dcf7ac6f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054498"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935624"
 ---
 # <a name="manage-access-to-microsoft-365-defender-with-azure-active-directory-global-roles"></a>Gerenciar o acesso ao Microsoft 365 Defender com funções globais do Azure Active Directory
 

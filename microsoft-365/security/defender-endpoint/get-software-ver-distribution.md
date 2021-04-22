@@ -1,7 +1,7 @@
 ---
-title: Listar distribuição de versão de software
+title: Listar distribuição das versões do software
 description: Recupera uma lista da distribuição de versão de software da sua organização
-keywords: apis, api gráfica, apis com suporte, obter, distribuição de versão de software, api mdatp tvm
+keywords: apis, api gráfica, apis com suporte, obter, distribuição de versão de software, api de tvm do Microsoft Defender para Endpoint
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 88f446ddd87768817099c1a206bab17aa8be5b7b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: e47a97477500491f634e3f5134a32241bd68985b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198572"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935288"
 ---
-# <a name="list-software-version-distribution"></a>Listar distribuição de versão de software 
+# <a name="list-software-version-distribution"></a>Listar distribuição das versões do software 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

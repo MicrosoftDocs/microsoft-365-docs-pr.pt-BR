@@ -1,7 +1,7 @@
 ---
 title: Proteção contra Ameaças (Windows 10)
 description: O Microsoft Defender ATP é uma plataforma unificada para proteção preventiva, detecção pós-violação, investigação automatizada e resposta.
-keywords: proteção contra ameaças, Proteção Avançada contra Ameaças do Microsoft Defender, redução de superfície de ataque, proteção de próxima geração, detecção e resposta do ponto de extremidade, investigação e resposta automatizadas, especialistas em ameaças da Microsoft, Pontuação Segura da Microsoft para Dispositivos, busca avançada, busca de ameaças cibernéticas, proteção contra ameaças da Web
+keywords: proteção contra ameaças, Microsoft Defender para Ponto de Extremidade, redução de superfície de ataque, proteção de próxima geração, detecção e resposta do ponto de extremidade, investigação e resposta automatizadas, especialistas em ameaças da Microsoft, Pontuação Segura da Microsoft para Dispositivos, busca avançada, busca de ameaças cibernéticas, proteção contra ameaças da Web
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 4206519d62feb82bbc297659e01b0cc3902b83dc
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 3098c2786874650ad14d226beacd5ec760decef0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052625"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934928"
 ---
 # <a name="threat-protection"></a>Proteção contra Ameaças
 [O Microsoft Defender ATP](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-advanced-threat-protection) é uma plataforma unificada para proteção preventiva, detecção pós-violação, investigação automatizada e resposta. O Defender for Endpoint protege os pontos de extremidade contra ameaças cibernéticas, detecta ataques avançados e violações de dados, automatiza incidentes de segurança e melhora a postura de segurança.
@@ -52,18 +52,18 @@ ms.locfileid: "51052625"
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4obJq]
 
-**[Gerenciamento de & de vulnerabilidades](next-gen-threat-and-vuln-mgt.md)**<br>
+**[Gerenciamento de ameaças e vulnerabilidades](next-gen-threat-and-vuln-mgt.md)**<br>
 Esse recurso integrado usa uma abordagem baseada em risco que altera o jogo para a descoberta, priorização e correção de vulnerabilidades de ponto de extremidade e configurações in-loco.
 
 - [Visão geral & gerenciamento de vulnerabilidades](next-gen-threat-and-vuln-mgt.md)
 - [Introdução](tvm-prerequisites.md)
 - [Acessar sua postura de segurança](tvm-dashboard-insights.md)
 - [Melhorar a postura de segurança e reduzir o risco](tvm-security-recommendation.md)
-- [Compreender vulnerabilidades em seus dispositivos](tvm-software-inventory.md)
+- [Entender as vulnerabilidades em seus dispositivos](tvm-software-inventory.md)
 
 <a name="asr"></a>
 
-**[Redução da superfície do ataque.](overview-attack-surface-reduction.md)**<br>
+**[Redução de superfície de ataque](overview-attack-surface-reduction.md)**<br>
 O conjunto de recursos de redução de superfície de ataque fornece a primeira linha de defesa na pilha. Ao garantir que as configurações sejam definidas corretamente e que as técnicas de mitigação de exploração sejam aplicadas, esse conjunto de recursos resistem a ataques e exploração.
 
 - [Isolamento baseado em hardware](overview-hardware-based-isolation.md)
@@ -73,11 +73,11 @@ O conjunto de recursos de redução de superfície de ataque fornece a primeira 
 - [Proteção de rede](network-protection.md), [proteção da Web](web-protection-overview.md)
 - [Acesso controlado a pastas](controlled-folders.md)
 - [Firewall de rede](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)
-- [Regras de redução de superfície de ataque](attack-surface-reduction.md)
+- [Regras da redução da superfície de ataque](attack-surface-reduction.md)
 
 <a name="ngp"></a>
 
-**[Proteção de última geração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
+**[Proteção de próxima geração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
 Para reforçar ainda mais o perímetro de segurança da sua rede, o Microsoft Defender for Endpoint usa proteção de última geração projetada para capturar todos os tipos de ameaças emergentes.
 
 - [Monitoramento de comportamento](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
@@ -88,7 +88,7 @@ Para reforçar ainda mais o perímetro de segurança da sua rede, o Microsoft De
 
 <a name="edr"></a>
 
-**[Detecção e resposta do terminal.](overview-endpoint-detection-response.md)**<br>
+**[Detecção de ponto de extremidade e resposta](overview-endpoint-detection-response.md)**<br>
 Os recursos de detecção e resposta do ponto de extremidade são colocados para detectar, investigar e responder a tentativas de invasão e violações ativas. Com a busca avançada, você tem uma ferramenta de busca de ameaças baseada em consulta que permite que seu usuário encontre violações de forma proativa e crie detecções personalizadas.
 
 - [Alertas](alerts-queue.md)
@@ -106,12 +106,12 @@ Os recursos de detecção e resposta do ponto de extremidade são colocados para
 Além de responder rapidamente a ataques avançados, o Microsoft Defender for Endpoint oferece recursos automáticos de investigação e correção que ajudam a reduzir o volume de alertas em minutos em escala.
 
 - [Investigação e correção automatizadas](automated-investigations.md)
-- [Exiba os detalhes e resultados das investigações automatizadas](auto-investigation-action-center.md)
+- [Exibir detalhes e resultados das investigações automatizadas](auto-investigation-action-center.md)
 - [Exibir e aprovar ações de correção](manage-auto-investigation.md)
 
 <a name="mte"></a>
 
-**[Especialistas em ameaças da Microsoft](microsoft-threat-experts.md)**<br>
+**[Especialistas em Ameaças da Microsoft](microsoft-threat-experts.md)**<br>
 O novo serviço de busca de ameaças gerenciadas do Microsoft Defender para Endpoint fornece busca proativa, priorização e contexto e insights adicionais. Os Especialistas em Ameaças da Microsoft capacitam ainda mais os Centros de Operação de Segurança (SOCs) a identificar e responder a ameaças com rapidez e precisão.
 
 - [Notificação de ataque direcionada](microsoft-threat-experts.md)

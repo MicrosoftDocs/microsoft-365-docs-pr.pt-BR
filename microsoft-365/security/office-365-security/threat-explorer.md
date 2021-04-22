@@ -19,12 +19,12 @@ description: Use as detecções do Explorer e em tempo real no Centro de Conform
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7c601169d76fe92ac3038ccb25c5c50aa390f714
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 0dcda063fc544c88157cff21b8a28f7a84a6a6fb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599882"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934700"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Explorador de Ameaças e Detecções em tempo real
 
@@ -520,7 +520,7 @@ Além dos cenários descritos neste artigo, você tem muito mais opções de rel
 - [Exibir arquivos mal-intencionados detectados no SharePoint Online, OneDrive e Microsoft Teams](./mdo-for-spo-odb-and-teams.md)
 - [Obter uma visão geral dos exibições no Explorador de Ameaças (e detecções em tempo real)](threat-explorer-views.md)
 - [Relatório de status de proteção contra ameaças](view-email-security-reports.md#threat-protection-status-report)
-- [Investigação e resposta automatizadas na Proteção contra Ameaças da Microsoft](../defender/m365d-autoir.md)
+- [Investigação e resposta automatizadas no Microsoft 365 Defender](../defender/m365d-autoir.md)
 
 ## <a name="required-licenses-and-permissions"></a>Licenças e permissões necessárias
 

@@ -1,7 +1,7 @@
 ---
 title: Tabela DeviceAlertEvents no esquema de busca avançado
 description: Saiba mais sobre eventos de geração de alertas na tabela DeviceAlertEvents do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, mdatp, microsoft defender atp, pesquisa wdatp, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, DeviceAlertEvents, alerta, gravidade, categoria
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft Defender para Ponto de Extremidade, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, DeviceAlertEvents, alerta, gravidade, categoria
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: 66ecdc8fbcde04d78f2deede5f4e296a7f051ef0
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: bb2350fed5fadee359695743989e02a3b3e44fb2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499157"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935336"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 
@@ -43,8 +43,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançado, con
 |-------------|-----------|-------------|
 | `AlertId` | string | Identificador exclusivo do alerta. |
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | string | Identificador exclusivo do dispositivo no serviço |
-| `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo do dispositivo no serviço |
+| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
 | `Severity` | cadeia de caracteres | Indica o impacto potencial (alto, médio ou baixo) do indicador de ameaça ou da atividade de violação identificados pelo alerta |
 | `Category` | cadeia de caracteres | Tipo de atividade indicadora de ameaça ou violação identificada pelo alerta |
 | `Title` | cadeia de caracteres | Título do alerta |
@@ -52,7 +52,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançado, con
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `RemoteUrl` | cadeia de caracteres | URL ou FQDN (nome de domínio totalmente qualificado) que estava sendo conectado à |
 | `RemoteIP` | cadeia de caracteres | Endereço IP que estava sendo conectado ao |
-| `AttackTechniques` | string | MITRE ATT&técnicas de CK associadas à atividade que disparou o alerta |
+| `AttackTechniques` | cadeia de caracteres | MITRE ATT&técnicas de CK associadas à atividade que disparou o alerta |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com `DeviceName` as `Timestamp` colunas e |
 | `Table` | cadeia de caracteres | Tabela que contém os detalhes do evento |
 

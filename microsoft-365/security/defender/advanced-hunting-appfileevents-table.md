@@ -1,7 +1,7 @@
 ---
 title: Tabela AppFileEvents no esquema de busca avançado
 description: Saiba mais sobre eventos relacionados a arquivos associados a aplicativos e serviços de nuvem na tabela AppFileEvents do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, AppFileEvents, Cloud App Security, MCAS
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, AppFileEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b8b3b34e1b8535772d19f8ddd9f52c5c0a89292b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 861a04eb168190f2bb64bbb0258de6767c619e1b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499343"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934712"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -46,31 +46,31 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `ActionType` | string | Tipo de atividade que disparou o evento. Consulte a [referência de esquema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) no portal para obter detalhes |
-| `Application` | string | Aplicativo que realizou a ação gravada |
-| `FileName` | string | Nome do arquivo ao qual a ação gravada foi aplicada |
-| `FolderPath` | string | Pasta que contém o arquivo ao que a ação gravada foi aplicada |
-| `PreviousFileName` | string | Nome original do arquivo que foi renomeado como resultado da ação |
-| `PreviousFolderPath` | string | Pasta original que contém o arquivo antes da ação gravada ser aplicada |
-| `Protocol` | string | Protocolo de rede usado |
-| `AccountName` | string | Nome de usuário da conta |
-| `AccountDomain` | string | Domínio da conta |
-| `AccountSid` | string | Identificador de Segurança (SID) da conta |
-| `AccountUpn` | string | Nome principal do usuário (UPN) da conta |
-| `AccountObjectId` | string | Identificador exclusivo da conta no Azure AD |
-| `AccountDisplayName` | string | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação intermediária e um sobrenome ou sobrenome. |
-| `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo |
-| `DeviceType` | string | Tipo de dispositivo | 
-| `OSPlatform` | string | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
+| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento. Consulte a [referência de esquema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) no portal para obter detalhes |
+| `Application` | cadeia de caracteres | Aplicativo que realizou a ação gravada |
+| `FileName` | cadeia de caracteres | Nome do arquivo ao qual a ação gravada foi aplicada |
+| `FolderPath` | cadeia de caracteres | Pasta que contém o arquivo ao que a ação gravada foi aplicada |
+| `PreviousFileName` | cadeia de caracteres | Nome original do arquivo que foi renomeado como resultado da ação |
+| `PreviousFolderPath` | cadeia de caracteres | Pasta original que contém o arquivo antes da ação gravada ser aplicada |
+| `Protocol` | cadeia de caracteres | Protocolo de rede usado |
+| `AccountName` | cadeia de caracteres | Nome de usuário da conta |
+| `AccountDomain` | cadeia de caracteres | Domínio da conta |
+| `AccountSid` | cadeia de caracteres | Identificador de Segurança (SID) da conta |
+| `AccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta |
+| `AccountObjectId` | cadeia de caracteres | Identificador exclusivo da conta no Azure AD |
+| `AccountDisplayName` | cadeia de caracteres | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação intermediária e um sobrenome ou sobrenome. |
+| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `DeviceType` | cadeia de caracteres | Tipo de dispositivo | 
+| `OSPlatform` | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Isso indica os sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
 | `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas |
-| `Port` | string | Porta TCP usada durante a comunicação  |
-| `DestinationDeviceName` | string | Nome do dispositivo que executa o aplicativo de servidor que processou a ação gravada |
-| `DestinationIPAddress` | string | Endereço IP do dispositivo que executa o aplicativo de servidor que processou a ação gravada |
-| `DestinationPort` | string | Porta de destino de comunicações de rede relacionadas |
-| `Location` | string | Cidade, país ou outra localização geográfica associada ao evento |
-| `Isp` | string | Provedor de serviços de Internet (ISP) associado ao endereço IP do ponto de extremidade |
+| `Port` | cadeia de caracteres | Porta TCP usada durante a comunicação  |
+| `DestinationDeviceName` | cadeia de caracteres | Nome do dispositivo que executa o aplicativo de servidor que processou a ação gravada |
+| `DestinationIPAddress` | cadeia de caracteres | Endereço IP do dispositivo que executa o aplicativo de servidor que processou a ação gravada |
+| `DestinationPort` | cadeia de caracteres | Porta de destino de comunicações de rede relacionadas |
+| `Location` | cadeia de caracteres | Cidade, país ou outra localização geográfica associada ao evento |
+| `Isp` | cadeia de caracteres | Provedor de serviços de Internet (ISP) associado ao endereço IP do ponto de extremidade |
 | `ReportId` | long | Identificador exclusivo do evento |
-| `AdditionalFields` | string | Informações adicionais sobre a entidade ou evento |
+| `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre a entidade ou evento |
 
 >[!TIP]
 > Para obter informações detalhadas sobre os tipos de eventos ( valores) suportados por uma tabela, use a referência de `ActionType` esquema interna disponível no centro de segurança.

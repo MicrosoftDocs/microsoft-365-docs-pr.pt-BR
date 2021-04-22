@@ -2,7 +2,7 @@
 title: Definir preferências para o Microsoft Defender para Ponto de Extremidade no Linux
 ms.reviewer: ''
 description: Descreve como configurar o Microsoft Defender para Ponto de Extremidade no Linux em empresas.
-keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2c162d652656afb61f1d74bad9ec963825d25a14
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 7f3dd65aea0efa570ec5d6a1d27479b787e16831
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903865"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935276"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-linux"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -37,9 +37,9 @@ ms.locfileid: "51903865"
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 >[!IMPORTANT]
->Este tópico contém instruções sobre como definir preferências para o Defender for Endpoint para Linux em ambientes corporativos. Se você estiver interessado em configurar o produto em um dispositivo da linha de comando, consulte [Resources](linux-resources.md#configure-from-the-command-line).
+>Este tópico contém instruções sobre como definir preferências para o Defender para o Ponto de Extremidade no Linux em ambientes corporativos. Se você estiver interessado em configurar o produto em um dispositivo da linha de comando, consulte [Resources](linux-resources.md#configure-from-the-command-line).
 
-Em ambientes corporativos, o Defender for Endpoint para Linux pode ser gerenciado por meio de um perfil de configuração. Esse perfil é implantado a partir da ferramenta de gerenciamento de sua escolha. As preferências gerenciadas pela empresa têm precedência sobre as definidas localmente no dispositivo. Em outras palavras, os usuários em sua empresa não são capazes de alterar as preferências definidas por meio desse perfil de configuração.
+Em ambientes corporativos, o Defender for Endpoint no Linux pode ser gerenciado por meio de um perfil de configuração. Esse perfil é implantado a partir da ferramenta de gerenciamento de sua escolha. As preferências gerenciadas pela empresa têm precedência sobre as definidas localmente no dispositivo. Em outras palavras, os usuários em sua empresa não são capazes de alterar as preferências definidas por meio desse perfil de configuração.
 
 Este artigo descreve a estrutura desse perfil (incluindo um perfil recomendado que você pode usar para começar) e instruções sobre como implantar o perfil.
 
@@ -450,4 +450,4 @@ Para verificar se o /etc/opt/microsoft/mdatp/managed/mdatp_managed.json está fu
 
 ## <a name="configuration-profile-deployment"></a>Implantação de perfil de configuração
 
-Depois de construir o perfil de configuração para sua empresa, você poderá implantá-lo por meio da ferramenta de gerenciamento que sua empresa está usando. O Defender for Endpoint para Linux lê a configuração gerenciada do *arquivo /etc/opt/microsoft/mdatp/managed/mdatp_managed.json.*
+Depois de construir o perfil de configuração para sua empresa, você poderá implantá-lo por meio da ferramenta de gerenciamento que sua empresa está usando. O Defender para Ponto de Extremidade no Linux lê a configuração gerenciada do *arquivo /etc/opt/microsoft/mdatp/managed/mdatp_managed.json.*

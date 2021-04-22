@@ -1,7 +1,7 @@
 ---
 title: Tabela DeviceTvmSecureConfigurationAssessmentKB no esquema de busca avançada
 description: Saiba mais sobre as várias configurações seguras avaliadas pelo Gerenciamento de Vulnerabilidades e Ameaças na tabela DeviceTvmSecureConfigurationAssessmentKB do esquema de busca avançado.
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, gerenciamento de vulnerabilidades & ameaça, TVM, gerenciamento de dispositivos, configuração de segurança, estrutura do MITRE ATT&CK, base de conhecimento, KB, DeviceTvmSecureConfigurationAssessmentKBBSMENT
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, gerenciamento de vulnerabilidades & ameaça, TVM, gerenciamento de dispositivos, configuração de segurança, estrutura mitre att&CK, base de conhecimento, KB, DeviceTvmSecureConfigurationAssessmentKBB
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 71ebcd759e9fb6fd39550975039eb58be13e6b84
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: a387d917e5ae93a6289aa2af527d52f1ce1195f4
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501155"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934857"
 ---
 # <a name="devicetvmsecureconfigurationassessmentkb"></a>DeviceTvmSecureConfigurationAssessmentKB
 
@@ -52,7 +52,7 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, con
 | `ConfigurationSubcategory` | string |Subcategoria ou subgrupo ao qual a configuração pertence. Em muitos casos, isso descreve capacidades ou recursos específicos. |
 | `ConfigurationBenchmarks` | string | Lista de benchmarks da indústria recomendando a mesma configuração ou configuração similar |
 | `Tags` | string | Rótulos que representam vários atributos usados para identificar ou categorizar uma configuração de segurança |
-| `RemediationOptions` | string | Ações recomendadas para reduzir ou resolver quaisquer riscos associados |
+| `RemediationOptions` | cadeia de caracteres | Ações recomendadas para reduzir ou resolver quaisquer riscos associados |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

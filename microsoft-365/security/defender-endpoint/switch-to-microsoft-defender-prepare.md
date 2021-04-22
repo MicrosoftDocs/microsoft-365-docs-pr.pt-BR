@@ -1,7 +1,7 @@
 ---
 title: Alternar para o Microsoft Defender para Ponto de Extremidade - Preparar
 description: Esta é a fase 1, Preparar, para migrar para o Microsoft Defender para o Ponto de Extremidade.
-keywords: migração, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: migração, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: de0d5ca756cdd8fe6eaf82968d04d143a098269c
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3705a84ae6cc182fb82120eae05cb1ff6e7df430
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688064"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935240"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-1-prepare"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 1: Preparar
 

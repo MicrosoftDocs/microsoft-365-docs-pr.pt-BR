@@ -1,7 +1,7 @@
 ---
 title: Compatibilidade do Microsoft Defender Antivírus com o Defender para Ponto de Extremidade
 description: Saiba como o Windows Defender funciona com o Microsoft Defender para Ponto de Extremidade e como ele funciona quando um cliente antimalware de terceiros é usado.
-keywords: Compatibilidade com o windows defender, defender, microsoft defender atp, defender para ponto de extremidade, antivírus, mde
+keywords: Compatibilidade com o Windows Defender, Defender, Microsoft Defender para Ponto de Extremidade, Defender para ponto de extremidade, antivírus, mde
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 63dca2694dae5dee924c9a0a02a660003907c42b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: a8dca4a80385fabcdc64a5584474214d05be4a6c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165952"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935372"
 ---
 # <a name="microsoft-defender-antivirus-compatibility-with-microsoft-defender-for-endpoint"></a>Compatibilidade do Microsoft Defender Antivírus com o Microsoft Defender para Ponto de Extremidade
 

@@ -1,7 +1,7 @@
 ---
 title: Implantação manual do Microsoft Defender para Ponto de Extremidade no macOS
 description: Instale o Microsoft Defender para Ponto de Extremidade no macOS manualmente, a partir da linha de comando.
-keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0e8faf95df6691828558175412a1de8aa844d93f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: d8458f1bacc6577d83878a94c24e649371d90038
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688592"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935324"
 ---
 # <a name="manual-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Implantação manual do Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -164,7 +164,7 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    1. O arquivo deve ter sido colocado em quarentena pelo Defender para Ponto de Extremidade para Mac. Use o seguinte comando para listar todas as ameaças detectadas:
+    1. O arquivo deve ter sido colocado em quarentena pelo Defender para Ponto de Extremidade no Mac. Use o seguinte comando para listar todas as ameaças detectadas:
 
         ```bash
         mdatp threat list
@@ -207,7 +207,7 @@ Para concluir esse processo, você deve ter privilégios de administrador no dis
 
     O sistema deve exibir a seguinte mensagem:
 
-    > Microsoft Defender ATP - arquivo de teste macOS EDR DIY<br/>
+    > Microsoft Defender para Ponto de Extremidade - arquivo de teste macOS EDR DIY<br/>
     > O alerta correspondente estará disponível no portal MDATP.
 
 11. Clique em **Abrir**. 
@@ -228,4 +228,4 @@ Consulte [Log de problemas de](mac-resources.md#logging-installation-issues) ins
 
 ## <a name="uninstallation"></a>Desinstalação
 
-Consulte [Desinstalar](mac-resources.md#uninstalling) para obter detalhes sobre como remover o Microsoft Defender for Endpoint para macOS de dispositivos cliente.
+Consulte [Desinstalar](mac-resources.md#uninstalling) para obter detalhes sobre como remover o Microsoft Defender para o Ponto de Extremidade no macOS de dispositivos cliente.

@@ -1,7 +1,7 @@
 ---
 title: Investigar uma conta de usuário no Microsoft Defender para Ponto de Extremidade
 description: Investigue uma conta de usuário para possíveis credenciais comprometidas ou pivô na conta de usuário associada durante uma investigação.
-keywords: investigar, conta, usuário, entidade do usuário, alerta, microsoft defender atp
+keywords: investigar, conta, usuário, entidade de usuário, alerta, Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 672867d107d005004201caab7d6497ceb048ac97
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: e98142e4076c5e695f16eb06c062bc69d3d7dd55
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587702"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935060"
 ---
 # <a name="investigate-a-user-account-in-microsoft-defender-for-endpoint"></a>Investigar uma conta de usuário no Microsoft Defender para Ponto de Extremidade
 
@@ -51,7 +51,7 @@ Um link de conta de usuário clicável está disponível nessas exibições, que
 
 Ao investigar uma entidade de conta de usuário, você verá:
 
-- Detalhes da conta de usuário, alertas da Proteção Avançada contra Ameaças do Azure (Azure ATP) e logon em dispositivos, função, tipo de logon e outros detalhes
+- Detalhes da conta de usuário, alertas do Microsoft Defender para Identidade e logon em dispositivos, função, tipo de logon e outros detalhes
 - Visão geral dos incidentes e dispositivos do usuário
 - Alertas relacionados a esse usuário
 - Observado na organização (dispositivos conectados)
@@ -60,10 +60,10 @@ Ao investigar uma entidade de conta de usuário, você verá:
 
 ### <a name="user-details"></a>Detalhes do usuário
 
-O  painel de detalhes do Usuário à esquerda fornece informações sobre o usuário, como incidentes abertos relacionados, alertas ativos, nome SAM, SID, alertas do Azure ATP, número de dispositivos aos quais o usuário está conectado, quando o usuário foi visto pela primeira e última vez, função e tipos de logon. Dependendo dos recursos de integração habilitados, você verá outros detalhes. Por exemplo, se você habilitar a integração do Skype for Business, poderá entrar em contato com o usuário a partir do portal. A **seção alertas atp do Azure** contém um link que o levará para a página atp do Azure, se você tiver habilitado o recurso atp do Azure e houver alertas relacionados ao usuário. A página do Azure ATP fornecerá mais informações sobre os alertas.
+O  painel de detalhes do usuário à esquerda fornece informações sobre o usuário, como incidentes abertos relacionados, alertas ativos, nome SAM, SID, alertas do Microsoft Defender para Identidade, número de dispositivos aos quais o usuário está conectado, quando o usuário foi visto pela primeira e última vez, função e tipos de logon. Dependendo dos recursos de integração habilitados, você verá outros detalhes. Por exemplo, se você habilitar a integração do Skype for Business, poderá entrar em contato com o usuário a partir do portal. A **seção alertas do Azure ATP** contém um link que o levará para a página Do Microsoft Defender para Identidade, se você tiver habilitado o recurso Microsoft Defender para Identidade e houver alertas relacionados ao usuário. A página Do Microsoft Defender para Identidade fornecerá mais informações sobre os alertas.
 
 >[!NOTE]
->Você precisará habilitar a integração no Azure ATP e no Defender for Endpoint para usar esse recurso. No Defender para Ponto de Extremidade, você pode habilitar esse recurso em recursos avançados. Para obter mais informações sobre como habilitar recursos avançados, consulte [Ativar recursos avançados](advanced-features.md).
+>Você precisará habilitar a integração no Microsoft Defender for Identity e no Defender for Endpoint para usar esse recurso. No Defender para Ponto de Extremidade, você pode habilitar esse recurso em recursos avançados. Para obter mais informações sobre como habilitar recursos avançados, consulte [Ativar recursos avançados](advanced-features.md).
 
 A Visão Geral, Alertas e Observados na organização são guias diferentes que exibem vários atributos sobre a conta do usuário.
 

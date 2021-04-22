@@ -1,7 +1,7 @@
 ---
-title: Definir preferências do Microsoft Defender para Ponto de Extremidade para Mac
-description: Configure o Microsoft Defender para Ponto de Extremidade para Mac em organizações corporativas.
-keywords: microsoft, defender, atp, mac, gerenciamento, preferências, enterprise, intune, jamf, macos, catalina, mojave, high sierra
+title: Definir preferências para o Microsoft Defender para Ponto de Extremidade no Mac
+description: Configure o MMicrosoft Defender para Ponto de Extremidade no Mac em organizações corporativas.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, management, preferences, enterprise, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d2bea469031e2c5932e859fbad7d442ebe4d34ed
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: f13734392e4975738a0d60d38e618595b5175667
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860914"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934556"
 ---
 # <a name="set-preferences-for-microsoft-defender-for-endpoint-on-macos"></a>Definir preferências para o Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -175,7 +175,7 @@ Especifique um processo para o qual todas as atividades de arquivo são excluíd
 
 #### <a name="allowed-threats"></a>Ameaças permitidas
 
-Especifique ameaças por nome que não são bloqueadas pelo Defender para Ponto de Extremidade para Mac. Essas ameaças terão permissão para serem executados.
+Especifique ameaças por nome que não são bloqueadas pelo Defender para Ponto de Extremidade no Mac. Essas ameaças terão permissão para serem executados.
 
 |Section|Valor|
 |:---|:---|
@@ -376,7 +376,7 @@ Especifique um nome de marca e seu valor.
 |Section|Valor|
 |:---|:---|
 | **Domínio** | `com.microsoft.wdav` |
-| **Tecla** | categorias |
+| **Tecla** | tags |
 | **Tipo de dados** | Dicionário (preferência aninhada) |
 | **Comentário** | Consulte as seções a seguir para ver uma descrição do conteúdo do dicionário. |
 

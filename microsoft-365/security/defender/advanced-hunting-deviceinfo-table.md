@@ -1,7 +1,7 @@
 ---
 title: Tabela DeviceInfo no esquema de busca avançado
 description: Saiba mais sobre o sistema operacional, o nome do computador e outras informações do computador na tabela DeviceInfo do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, machineinfo, DeviceInfo, dispositivo, máquina, sistema operacional, plataforma, usuários
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, machineinfo, DeviceInfo, dispositivo, máquina, sistema operacional, plataforma, usuários
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: b5baf4adf9c9abaf746c1d6c3ea1c29c3b471b0b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: e3686099606ec1cdab756bd4991cf61289299b43
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498595"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934880"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -44,21 +44,21 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
-| `ClientVersion` | string | Versão do agente de ponto de extremidade ou sensor em execução no computador |
-| `PublicIP` | string | Endereço IP público usado pelo computador interno para se conectar ao serviço Microsoft Defender para Ponto de Extremidade. Esse pode ser o endereço IP do próprio computador, um dispositivo NAT ou um proxy |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
+| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `ClientVersion` | cadeia de caracteres | Versão do agente de ponto de extremidade ou sensor em execução no computador |
+| `PublicIP` | cadeia de caracteres | Endereço IP público usado pelo computador interno para se conectar ao serviço Microsoft Defender para Ponto de Extremidade. Esse pode ser o endereço IP do próprio computador, um dispositivo NAT ou um proxy |
 | `OSArchitecture` | string | Arquitetura do sistema operacional em execução no computador. |
 | `OSPlatform` | string | Plataforma do sistema operacional em execução no computador. Isso indica sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7 |
-| `OSBuild` | string | Versão de com build do sistema operacional em execução no computador |
+| `OSBuild` | cadeia de caracteres | Versão de com build do sistema operacional em execução no computador |
 | `IsAzureADJoined` | booliano | Indicador booleano de se o computador está ingressado no Azure Active Directory |
-| `AadObjectId` | string | Identificador exclusivo do dispositivo no Azure AD |
-| `LoggedOnUsers` | string | Lista de todos os usuários que estão conectados no computador no momento do evento no formato de matriz JSON |
-| `RegistryDeviceTag` | string | Marca de máquina adicionada por meio do Registro |
+| `AadObjectId` | cadeia de caracteres | Identificador exclusivo do dispositivo no Azure AD |
+| `LoggedOnUsers` | cadeia de caracteres | Lista de todos os usuários que estão conectados no computador no momento do evento no formato de matriz JSON |
+| `RegistryDeviceTag` | cadeia de caracteres | Marca de máquina adicionada por meio do Registro |
 | `OSVersion` | string | Versão do sistema operacional em execução no computador. |
 | `MachineGroup` | string | Grupo de máquinas do computador. Esse grupo é usado pelo controle de acesso baseado em função para determinar o acesso ao computador |
 | `ReportId` | long | Identificador de evento baseado em um contador de repetição. Para identificar eventos exclusivos, essa coluna deve ser usada em conjunto com as colunas DeviceName e Timestamp |
-|`AdditionalFields` | string | Informações adicionais sobre o evento no formato de matriz JSON |
+|`AdditionalFields` | cadeia de caracteres | Informações adicionais sobre o evento no formato de matriz JSON |
 
 A `DeviceInfo` tabela fornece informações do dispositivo com base em pulsações, que são relatórios periódicos ou sinais de um dispositivo. A cada quinze minutos, o dispositivo envia uma pulsação parcial que contém atributos que mudam com frequência, como `LoggedOnUsers` . Uma vez por dia, uma pulsação completa que contém os atributos do dispositivo é enviada.
 

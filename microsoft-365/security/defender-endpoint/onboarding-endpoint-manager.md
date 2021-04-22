@@ -1,7 +1,7 @@
 ---
 title: Integração usando o Microsoft Endpoint Manager
 description: Saiba como integrar o Microsoft Defender para Ponto de Extremidade usando o Microsoft Endpoint Manager
-keywords: onboarding, configuration, deploy, deployment, endpoint manager, mdatp, advanced threat protection, collection creation, endpoint detection response, next generation protection, attack surface reduction, microsoft endpoint manager
+keywords: onboarding, configuration, deploy, deployment, endpoint manager, Microsoft Defender for Endpoint, collection creation, endpoint detection response, next generation protection, attack surface reduction, microsoft endpoint manager
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9edcceca2f6cc7c2377eb388d7394a23dfbae99d
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: e744262cfd63383e69abf02be9fbf91d2d229db2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186252"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935252"
 ---
 # <a name="onboarding-using-microsoft-endpoint-manager"></a>Integração usando o Microsoft Endpoint Manager
 
@@ -123,14 +123,14 @@ Na seção a seguir, você criará várias políticas de configuração.
 
 Em primeiro lugar, uma política de configuração para selecionar quais grupos de usuários ou dispositivos serão integrados ao Defender para Ponto de Extremidade:
 
-- [Detecção e resposta do terminal.](#endpoint-detection-and-response) 
+- [Detecção de ponto de extremidade e resposta](#endpoint-detection-and-response) 
 
 Em seguida, você continuará criando vários tipos diferentes de políticas de segurança do ponto de extremidade:
 
-- [Proteção de última geração](#next-generation-protection)
-- [Redução da superfície do ataque.](#attack-surface-reduction--attack-surface-reduction-rules)
+- [Proteção de próxima geração](#next-generation-protection)
+- [Redução de superfície de ataque](#attack-surface-reduction--attack-surface-reduction-rules)
 
-### <a name="endpoint-detection-and-response"></a>Detecção e resposta do terminal.
+### <a name="endpoint-detection-and-response"></a>Detecção de ponto de extremidade e resposta
 
 1.  Abra o portal MEM.
 
@@ -178,7 +178,7 @@ Em seguida, você continuará criando vários tipos diferentes de políticas de 
     > [!div class="mx-imgBorder"]
     > ![Imagem do portal do Microsoft Endpoint Manager11](images/5a568b6878be8243ea2b9d82d41ed297.png)
 
-### <a name="next-generation-protection"></a>Proteção de última geração
+### <a name="next-generation-protection"></a>Proteção de próxima geração
 
 1.  Abra o portal MEM.
 
@@ -355,7 +355,7 @@ Para confirmar se a política de configuração foi aplicada ao dispositivo de t
     > [!div class="mx-imgBorder"]
     > [![Imagem do portal do Microsoft Endpoint Manager37 ](images/42acc69d0128ed09804010bdbdf0a43c.png)](images/42acc69d0128ed09804010bdbdf0a43c.png#lightbox)
 
-### <a name="endpoint-detection-and-response"></a>Detecção e resposta do terminal.
+### <a name="endpoint-detection-and-response"></a>Detecção de ponto de extremidade e resposta
 
 
 1.  Antes de aplicar a configuração, o serviço Defender for Endpoint Protection não deve ser iniciado.
@@ -373,7 +373,7 @@ Para confirmar se a política de configuração foi aplicada ao dispositivo de t
     > [!div class="mx-imgBorder"]
     > [![Imagem do Centro de Segurança do ](images/df0c64001b9219cfbd10f8f81a273190.png) Microsoft Defender](images/df0c64001b9219cfbd10f8f81a273190.png#lightbox)
 
-### <a name="next-generation-protection"></a>Proteção de última geração
+### <a name="next-generation-protection"></a>Proteção de próxima geração
 
 1.  Antes de aplicar a política em um dispositivo de teste, você deve ser capaz de gerenciar manualmente as configurações, conforme mostrado abaixo.
 

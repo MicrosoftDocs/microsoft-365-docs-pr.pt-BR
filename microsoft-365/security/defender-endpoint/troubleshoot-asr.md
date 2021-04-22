@@ -1,7 +1,7 @@
 ---
 title: Solucionar problemas com regras de redução de superfície de ataque
 description: Recursos e código de exemplo para solucionar problemas com regras de redução de superfície de ataque no Microsoft Defender para Ponto de Extremidade.
-keywords: solução de problemas, erro, correção, windows defender por exemplo, asr, regras, quadris, solução de problemas, auditoria, exclusão, falso positivo, quebrado, bloqueado, microsoft defender para ponto de extremidade, proteção avançada contra ameaças do Microsoft Defender
+keywords: troubleshoot, error, fix, windows defender eg, asr, rules, hips, troubleshoot, audit, exclusion, false positive, broken, blocking, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: d483c098f221e2d4d2e61a10393154b8f5d1498d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 9ff00c706b0fb336c178e227b1cb33eff9e9ebbc
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198736"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935216"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>Solucionar problemas de regras de redução de superfície de ataque
 
@@ -122,8 +122,8 @@ Quando você relata um problema com regras de redução de superfície de ataque
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Regras de redução de superfície de ataque](attack-surface-reduction.md)
+- [Regras da redução da superfície de ataque](attack-surface-reduction.md)
 
-- [Habilitar regras de redução de superfície de ataque](enable-attack-surface-reduction.md)
+- [Habilitar regras da redução da superfície de ataque](enable-attack-surface-reduction.md)
 
-- [Avaliar regras de redução de superfície de ataque](evaluate-attack-surface-reduction.md)
+- [Avaliar as regras da redução da superfície de ataque](evaluate-attack-surface-reduction.md)

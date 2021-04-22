@@ -1,7 +1,7 @@
 ---
 title: Pré-requisitos & permissões - gerenciamento de ameaças e vulnerabilidades
 description: Antes de começar a usar o gerenciamento de ameaças e vulnerabilidades, certifique-se de ter as configurações e permissões relevantes.
-keywords: pré-& permissões de gerenciamento de vulnerabilidade, permissões de gerenciamento de ameaças e vulnerabilidades pré-requisitos, pré-requisitos de permissões de TVM MDATP, gerenciamento de vulnerabilidades
+keywords: pré-& permissões de gerenciamento de vulnerabilidades, pré-requisitos de permissões de gerenciamento de ameaças e vulnerabilidades, pré-requisitos de permissões de TVM do Microsoft Defender para Endpoint, gerenciamento de vulnerabilidades
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1d9c3233f72541ccd0463eefef93bde5e7d9900f
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0df348e3a5564720468d95d7b23578f9dcad9294
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499955"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935180"
 ---
 # <a name="prerequisites--permissions---threat-and-vulnerability-management"></a>Pré-requisitos & permissões - gerenciamento de ameaças e vulnerabilidades
 

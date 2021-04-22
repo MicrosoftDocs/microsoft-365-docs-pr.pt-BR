@@ -2,7 +2,7 @@
 title: Implantar o Microsoft Defender para Ponto de Extremidade no Linux com Ansible
 ms.reviewer: ''
 description: Descreve como implantar o Microsoft Defender para Ponto de Extremidade no Linux usando Ansible.
-keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 697fcddad595c6883fe1e1f7258ca6154c48b94d
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 15ee02d90e81c48bf5ec718e669bf8f88f6424ff
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903899"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934772"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux com Ansible
 
@@ -36,7 +36,7 @@ ms.locfileid: "51903899"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Este artigo descreve como implantar o Defender para Endpoint para Linux usando Ansible. Uma implantação bem-sucedida requer a conclusão de todas as seguintes tarefas:
+Este artigo descreve como implantar o Defender para Ponto de Extremidade no Linux usando Ansible. Uma implantação bem-sucedida requer a conclusão de todas as seguintes tarefas:
 
 - [Baixar o pacote de integração](#download-the-onboarding-package)
 - [Criar arquivos YAML ansible](#create-ansible-yaml-files)
@@ -45,7 +45,7 @@ Este artigo descreve como implantar o Defender para Endpoint para Linux usando A
 
 ## <a name="prerequisites-and-system-requirements"></a>Pré-requisitos e requisitos do sistema
 
-Antes de começar, consulte a página [principal do Defender para Ponto](microsoft-defender-endpoint-linux.md) de Extremidade para Linux para obter uma descrição dos pré-requisitos e dos requisitos do sistema para a versão de software atual.
+Antes de começar, consulte a página [principal do Defender para Ponto](microsoft-defender-endpoint-linux.md) de Extremidade no Linux para obter uma descrição dos pré-requisitos e dos requisitos do sistema para a versão de software atual.
 
 Além disso, para a implantação ansible, você precisa estar familiarizado com tarefas de administração Ansible, ter Ansible configurado e saber como implantar playbooks e tarefas. Ansible tem muitas maneiras de concluir a mesma tarefa. Essas instruções pressuem disponibilidade de módulos Ansible com suporte, como *apt* e *unarchive* para ajudar a implantar o pacote. Sua organização pode usar um fluxo de trabalho diferente. Consulte a [documentação Ansible para](https://docs.ansible.com/) obter detalhes.
 
@@ -129,7 +129,7 @@ Crie uma subtarefa ou arquivos de função que contribuam para um playbook ou ta
 
 - Adicione o repositório do Defender para Ponto de Extremidade e a chave.
 
-    O Defender para Ponto de Extremidade para Linux pode ser implantado de um dos seguintes canais (denotado abaixo como *[canal]*): *insiders-fast,* *insiders-slow* ou *prod*. Cada um desses canais corresponde a um repositório de software Linux.
+    O Defender para Ponto de Extremidade no Linux pode ser implantado de um dos seguintes canais (denotado abaixo como *[canal]*): *insiders-fast,* *insiders-slow* ou *prod*. Cada um desses canais corresponde a um repositório de software Linux.
 
     A escolha do canal determina o tipo e a frequência de atualizações oferecidas ao seu dispositivo. Os *dispositivos em insiders-fast* são os primeiros a receber atualizações e novos recursos, seguidos posteriormente por *insiders-slow* e por *último por prod*.
 
@@ -271,7 +271,7 @@ Consulte [Log installation issues](linux-resources.md#log-installation-issues) f
 
 ## <a name="operating-system-upgrades"></a>Atualizações do sistema operacional
 
-Ao atualizar seu sistema operacional para uma nova versão principal, primeiro você deve desinstalar o Defender para o Ponto de Extremidade para Linux, instalar a atualização e, finalmente, reconfigurar o Defender para Ponto de Extremidade para Linux em seu dispositivo.
+Ao atualizar o sistema operacional para uma nova versão principal, primeiro você deve desinstalar o Defender para o Ponto de Extremidade no Linux, instalar a atualização e, finalmente, reconfigurar o Defender para Ponto de Extremidade no Linux em seu dispositivo.
 
 ## <a name="references"></a>Referências
 

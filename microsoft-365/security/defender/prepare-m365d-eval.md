@@ -1,7 +1,7 @@
 ---
 title: Preparar seu ambiente de laboratório de avaliação do Microsoft 365 Defender
 description: Preparar a aprovação de participantes, cronogramas, considerações de ambiente e ordem de adoção ao configurar o laboratório de avaliação do Microsoft 365 Defender ou o ambiente piloto
-keywords: Preparação de avaliação MTP, preparação piloto MTP, preparação para executar um projeto piloto MTP, executar um projeto piloto MTP, implantar, preparar, stakeholder, linha do tempo, ambiente, ponto de extremidade, servidor, gerenciamento, adoção
+keywords: Preparação de avaliação do Microsoft 365 Defender, preparação piloto do Microsoft 365 Defender, preparação para executar um projeto piloto do Microsoft 365 Defender, executar um projeto piloto do Microsoft 365 Defender, implantar, preparar, stakeholder, linha do tempo, ambiente, ponto de extremidade, servidor, gerenciamento, adoção
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: dada110faca71c9e8fcf384eb5bb0a78faefaad9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: d5e98cead84c0be76ca252b23f3c2d062b22dd73
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199132"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935612"
 ---
 # <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Preparar seu laboratório de avaliação do Microsoft 365 Defender ou ambiente piloto
 
@@ -36,7 +36,7 @@ ms.locfileid: "51199132"
 
 Criar um laboratório de avaliação do Microsoft 365 Defender ou um ambiente piloto e implantá-lo é um processo de três fases:
 
-|![Fase 1: Preparar](../../media/phase-diagrams/prepare.png)<br/>Fase 1: Preparar |[![Fase 2: Configurar](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Configurar](setup-m365deval.md) |[![Fase 3: Onboard](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Fase 3: Onboard](config-m365d-eval.md) | [![Voltar ao piloto](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Voltar ao playbook piloto](m365d-pilot.md) |
+|![Fase 1: Preparar](../../media/phase-diagrams/prepare.png)<br/>Fase 1: Preparar |[![Fase 2: Configurar](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Fase 2: Configurar](setup-m365deval.md) |[![Fase 3: Integrar](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Fase 3: Integrar](config-m365d-eval.md) | [![Voltar ao piloto](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Voltar ao playbook piloto](m365d-pilot.md) |
 |--|--|--|--|
 |*Você está aqui!* | || |
 
@@ -111,5 +111,5 @@ A tabela a seguir indica a ordem que a Microsoft recomenda para configurar os co
 |Microsoft Defender para Ponto de Extremidade | Os recursos de detecção e resposta de ponto de extremidade do Microsoft Defender ATP fornecem detecções de ataque avançadas que são quase em tempo real e acionáveis. Os analistas de segurança podem priorizar alertas de maneira eficaz, obter visibilidade de todo o escopo de uma violação e executar ações de resposta para remediar ameaças. <br> [Saiba Mais.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
 ## <a name="next-step"></a>Próxima etapa
-|![Fase 2: Instalação](../../media/setup.png) <br>[Fase 2: Instalação](setup-m365deval.md) | Configurar o laboratório de avaliação do Microsoft 365 Defender ou o ambiente piloto
+|![Fase 2: Configurar](../../media/setup.png) <br>[Fase 2: Configurar](setup-m365deval.md) | Configurar o laboratório de avaliação do Microsoft 365 Defender ou o ambiente piloto
 |:-------|:-----|

@@ -1,7 +1,7 @@
 ---
 title: Pré-requisitos do Microsoft 365 Defender
 description: Saiba mais sobre os requisitos de licenciamento, hardware e software e outras configurações do Microsoft 365 Defender
-keywords: requisitos, pré-requisitos, hardware, software, navegador, MTP, M365, licença, E5, A5, EMS, compra
+keywords: requisitos, pré-requisitos, hardware, software, navegador, Microsoft 365 Defender, M365, licença, E5, A5, EMS, compra
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f9904ecb5b9ab0a0f634903a5dc0ee3049d06b38
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 930a3de078d6d003241bb6fcd5df71bc9f301962
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054031"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935600"
 ---
 # <a name="microsoft-365-defender-prerequisites"></a>Pré-requisitos do Microsoft 365 Defender
 

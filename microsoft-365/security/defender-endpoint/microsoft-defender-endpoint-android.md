@@ -2,7 +2,7 @@
 title: Microsoft Defender para Ponto de Extremidade para Android
 ms.reviewer: ''
 description: Descreve como instalar e usar o Microsoft Defender para Ponto de Extremidade no Android
-keywords: microsoft, defender, atp, android, installation, deploy, uninstallation, intune
+keywords: microsoft, defender, Microsoft Defender for Endpoint, android, installation, deploy, uninstallation, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8a78fc7e07f89c2e13a698ee526403989f26dd65
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 35a43aa7bfcd9ed8c83d10c2ec44a974b03bca72
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768837"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935564"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender para Ponto de Extremidade para Android
 
@@ -62,7 +62,7 @@ Este tópico descreve como instalar, configurar, atualizar e usar o Defender par
     -   Acesso ao portal do Centro de Segurança do Microsoft Defender.
 
         > [!NOTE]
-        > O Microsoft Intune é a única solução MDM (Gerenciamento de Dispositivo Móvel) com suporte para implantar o Microsoft Defender para Ponto de Extremidade no Android. Atualmente, apenas dispositivos inscritos têm suporte para impor o Defender for Endpoint para políticas de conformidade de dispositivos android no Intune. 
+        > O Microsoft Intune é a única solução MDM (Gerenciamento de Dispositivo Móvel) com suporte para implantar o Microsoft Defender para Ponto de Extremidade no Android. Atualmente, apenas dispositivos inscritos têm suporte para impor o Defender for Endpoint em políticas de conformidade de dispositivos relacionados ao Android no Intune. 
 
     -   Acesse [o Centro de administração do Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431), para implantar o aplicativo em grupos de usuários inscritos em sua organização.
 
