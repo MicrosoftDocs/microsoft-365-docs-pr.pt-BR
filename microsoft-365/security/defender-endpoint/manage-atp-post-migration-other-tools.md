@@ -1,7 +1,7 @@
 ---
 title: Gerenciar o Microsoft Defender para Ponto de Extremidade usando PowerShell, WMI e MPCmdRun.exe
 description: Saiba como gerenciar o Microsoft Defender para Ponto de Extremidade com PowerShell, WMI e MPCmdRun.exe
-keywords: pós-migração, gerenciar, operações, manutenção, utilização, PowerShell, WMI, MPCmdRun.exe, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: pós-migração, gerenciar, operações, manutenção, utilização, PowerShell, WMI, MPCmdRun.exe, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 5f0e94360cfaa0c66aedec400e81adc85f4f5450
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 98b192551a351b58709185022cf311174052592b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185868"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934452"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-powershell-wmi-and-mpcmdrunexe"></a>Gerenciar o Microsoft Defender para Ponto de Extremidade com PowerShell, WMI e MPCmdRun.exe
 
@@ -52,7 +52,7 @@ Você pode gerenciar algumas configurações do Microsoft Defender Antivírus em
 
 Você pode usar o PowerShell para gerenciar o Microsoft Defender Antivírus, explorar a proteção e suas regras de redução de superfície de ataque.
 
-|Tarefa  |Recursos para saber mais  |
+|Tarefas  |Recursos para saber mais  |
 |---------|---------|
 |**Gerenciar o Microsoft Defender Antivírus** <br/><br/>*Exibir o status da proteção antimalware, configurar preferências para verificações antivírus & atualizações e fazer outras alterações em sua proteção antivírus.*    |[Usar cmdlets do PowerShell para configurar e gerenciar o Microsoft Defender Antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-powershell-cmdlets-microsoft-defender-antivirus)  <br/><br/>[Usar cmdlets do PowerShell para habilitar a proteção entregue na nuvem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-powershell-cmdlets-to-enable-cloud-delivered-protection)       |
 |**Configurar a proteção de exploração** para mitigar ameaças nos dispositivos da sua organização<br/><br/> *Recomendamos usar a proteção de exploração [no modo de auditoria](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/evaluate-exploit-protection#powershell) no início. Dessa forma, você pode ver como a proteção de exploração afeta aplicativos que sua organização está usando.*     | [Personalizar a proteção de exploração](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection)<br/><br/>[Cmdlets do PowerShell para proteção de exploração](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/customize-exploit-protection#powershell-reference)        |
@@ -66,7 +66,7 @@ Você pode usar o PowerShell para gerenciar o Microsoft Defender Antivírus, exp
 
 WMI é uma interface de script que permite recuperar, modificar e atualizar configurações. Para saber mais, consulte [Using WMI](https://docs.microsoft.com/windows/win32/wmisdk/using-wmi). 
 
-|Tarefa  |Recursos para saber mais  |
+|Tarefas  |Recursos para saber mais  |
 |---------|---------|
 |**Habilitar a proteção entregue na nuvem** em um dispositivo    |[Use a Instrução de Gerenciamento do Windows (WMI) para habilitar a proteção entregue na nuvem](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus#use-windows-management-instruction-wmi-to-enable-cloud-delivered-protection)       |
 |**Recuperar, modificar e atualizar configurações do** Microsoft Defender Antivírus     | [Usar o WMI para configurar e gerenciar o Microsoft Defender Antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-wmi-microsoft-defender-antivirus)<br/><br/>[Revise a lista de classes WMI disponíveis e scripts de exemplo](https://docs.microsoft.com/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal) <br/><br/>Consulte também as informações de referência do [Windows Defender WMIv2 Provider](https://docs.microsoft.com/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal?redirectedfrom=MSDN)   |
@@ -76,7 +76,7 @@ WMI é uma interface de script que permite recuperar, modificar e atualizar conf
 
 Em um dispositivo individual, você pode executar uma verificação, iniciar o rastreamento de diagnóstico, verificar se há atualizações de inteligência de segurança e muito mais usando a ferramenta mpcmdrun.exe linha de comando. Você pode encontrar o utilitário em `%ProgramFiles%\Windows Defender\MpCmdRun.exe` . Execute-o de um prompt de comando.
 
-|Tarefa  |Recursos para saber mais  |
+|Tarefas  |Recursos para saber mais  |
 |---------|---------|
 |**Gerenciar o Microsoft Defender Antivírus**  |[Configurar e gerenciar o Microsoft Defender Antivírus com mpcmdrun.exe](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/command-line-arguments-microsoft-defender-antivirus)        |
 

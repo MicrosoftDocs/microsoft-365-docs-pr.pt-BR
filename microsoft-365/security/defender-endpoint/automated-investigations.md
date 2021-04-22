@@ -1,7 +1,7 @@
 ---
 title: Usar investigações automatizadas para investigar e remediar ameaças
 description: Entenda o fluxo de investigação automatizado no Microsoft Defender para Ponto de Extremidade.
-keywords: automatizado, investigação, detecção, defender atp
+keywords: automated, investigation, detection, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: 7143a360fb7093f94c6f66373587e1c895dd3213
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 5ea869d4016cc794b3046a664c1519f6b3250c67
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200300"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933968"
 ---
 # <a name="overview-of-automated-investigations"></a>Visão geral das investigações automatizadas
 

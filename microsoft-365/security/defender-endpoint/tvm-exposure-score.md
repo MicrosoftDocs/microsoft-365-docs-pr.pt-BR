@@ -1,7 +1,7 @@
 ---
 title: Pontuação de exposição no gerenciamento de ameaças e vulnerabilidades
 description: A pontuação de exposição ao gerenciamento de ameaças e vulnerabilidades reflete como sua organização está vulnerável a ameaças de segurança cibernética.
-keywords: pontuação de exposição, pontuação de exposição mdatp, pontuação de exposição de tvm mdatp, pontuação de exposição da organização, pontuação de exposição da organização de tvm, gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para Ponto de Extremidade
+keywords: pontuação de exposição, pontuação de exposição do Microsoft Defender para Ponto de Extremidade, pontuação de exposição de TV do Microsoft Defender para Endpoint, pontuação de exposição da organização, pontuação de exposição da organização de tvm, gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34c3122b017b14605fdbb3358f31f73e26361a4d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: fcea240fe1dc0ce97a2800391320b04c39c84336
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500124"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934100"
 ---
 # <a name="exposure-score---threat-and-vulnerability-management"></a>Pontuação de exposição - gerenciamento de ameaças e vulnerabilidades
 

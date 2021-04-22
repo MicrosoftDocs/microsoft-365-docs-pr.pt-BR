@@ -1,7 +1,7 @@
 ---
 title: Inventário de software no gerenciamento de ameaças e vulnerabilidades
 description: A página de inventário de software do Microsoft Defender para o gerenciamento de ameaças e vulnerabilidades do Endpoint mostra quantas deficiências e vulnerabilidades foram detectadas no software.
-keywords: gerenciamento de ameaças e vulnerabilidades, microsoft defender for endpoint, microsoft defender for endpoint software inventory, mdatp threat & vulnerability management, mdatp threat & vulnerability management software inventory, mdatp tvm software inventory, tvm software inventory
+keywords: gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para Ponto de Extremidade, Inventário de software do Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Ameaças de Ponto de Extremidade & gerenciamento de vulnerabilidades, Microsoft Defender para Endpoint threat & inventário de software de gerenciamento de vulnerabilidades, inventário de software do Microsoft Defender para Endpoint tvm, inventário de software tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: a4ceb7cc4d39dbddbb4cd325491c16f4503bfc52
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 0d270760cfed965c8190668afcdb1cc25223d2b1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689372"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933716"
 ---
 # <a name="software-inventory---threat-and-vulnerability-management"></a>Inventário de software - gerenciamento de ameaças e vulnerabilidades
 

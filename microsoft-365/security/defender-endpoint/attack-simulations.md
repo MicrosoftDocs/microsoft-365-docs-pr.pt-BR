@@ -1,7 +1,7 @@
 ---
-title: Experimente o Microsoft Defender ATP por meio de ataques simulados
-description: Execute as simulações de cenário de ataque fornecidas para experimentar como o Microsoft Defender ATP pode detectar, investigar e responder a violações.
-keywords: wdatp, teste, cenário, ataque, simulação, simulado, diy, Microsoft Defender para Ponto de Extremidade
+title: Experimente o Microsoft Defender para Ponto de Extremidade por meio de ataques simulados
+description: Execute as simulações de cenário de ataque fornecidas para experimentar como o Microsoft Defender for Endpoint pode detectar, investigar e responder a violações.
+keywords: test, scenario, attack, simulation, simulated, diy, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/20/2018
 ms.technology: mde
-ms.openlocfilehash: b3fb862ac6e845ed4a3f5b72bae902f00c125b53
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 6ecbf98c81b1f68e42f39269809592fb446e6036
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498297"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934376"
 ---
 # <a name="experience-microsoft-defender-for-endpoint-through-simulated-attacks"></a>Experimente o Microsoft Defender para Ponto de Extremidade por meio de ataques simulados 
 
@@ -36,7 +36,7 @@ ms.locfileid: "51498297"
 >Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-attacksimulations-abovefoldlink)
 
 >[!TIP]
->- Saiba mais sobre os aprimoramentos mais recentes no Microsoft Defender ATP: [Novidades no Defender para Ponto de Extremidade?](https://cloudblogs.microsoft.com/microsoftsecure/2018/11/15/whats-new-in-windows-defender-atp/).
+>- Saiba mais sobre os aprimoramentos mais recentes no Microsoft Defender para Ponto de Extremidade: [Novidades no Defender para Ponto de Extremidade?](https://cloudblogs.microsoft.com/microsoftsecure/2018/11/15/whats-new-in-windows-defender-atp/).
 >- O Defender for Endpoint demonstrou recursos de detecção e ótica líderes do setor na avaliação recente do MITRE. Leitura: [Insights do MITRE ATT&avaliação baseada em CK.](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)
 
 Talvez você queira experimentar o Defender para Ponto de Extremidade antes de entrar em mais de alguns dispositivos no serviço. Para fazer isso, você pode executar simulações de ataque controladas em alguns dispositivos de teste. Depois de executar os ataques simulados, você pode revisar como o Defender for Endpoint superfície atividade mal-intencionada e explorar como ele habilita uma resposta eficiente.

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Secure Score para dispositivos
 description: Sua pontuação para dispositivos mostra o estado de configuração de segurança coletiva de seus dispositivos em aplicativos, sistema operacional, rede, contas e controles de segurança.
-keywords: Microsoft Secure Score for Devices, mdatp Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
+keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: fcf33b309045b9ca763b0d3cabc44fb13505ee0b
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: f2c799d477c400482c16b09b4d8a5cdc01106dfa
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500049"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934076"
 ---
 # <a name="microsoft-secure-score-for-devices"></a>Microsoft Secure Score para dispositivos
 

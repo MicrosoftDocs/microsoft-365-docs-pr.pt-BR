@@ -1,7 +1,7 @@
 ---
 title: Listar software
 description: Recupera uma lista de inventário de software
-keywords: apis, api gráfica, apis com suporte, obter, listar, arquivo, informações, inventário de software, api de gerenciamento de & de ameaças, api de tvm mdatp
+keywords: apis, api gráfica, apis com suporte, obter, listar, arquivo, informações, inventário de software, api de gerenciamento de ameaças & de gerenciamento de vulnerabilidades, Api de tv do Microsoft Defender para Endpoint
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 867fb57f61bd98b7c0afabd20b27e68d6bf45ef7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 6522b546dfde7447a03b3c417be93d288e261908
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198560"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934004"
 ---
 # <a name="list-software-inventory-api"></a>Listar API de inventário de software
 

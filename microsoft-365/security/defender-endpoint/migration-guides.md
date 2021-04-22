@@ -1,6 +1,6 @@
 ---
 title: Guias de migração para fazer a opção para o Microsoft Defender para o Ponto de Extremidade
-description: Saiba como fazer a troca de uma solução de proteção contra ameaças que não seja da Microsoft para o Microsoft Defender para o Ponto de Extremidade
+description: Saiba como fazer a mudança de uma solução que não seja do Microsoft 365 Defender para o Microsoft Defender para Ponto de Extremidade
 search.appverid: MET150
 author: denisebmsft
 ms.author: deniseb
@@ -17,12 +17,12 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 09/24/2020
 ms.technology: mde
-ms.openlocfilehash: c191e2006f42eda215508ba961dcbeb1ea282078
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: f834ab371b9d860c451c89bb1a4e7d64bdd6ec1f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218623"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934436"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Alternar para o Microsoft Defender para Ponto de Extremidade e o Microsoft Defender Antivírus
 
@@ -36,14 +36,14 @@ ms.locfileid: "51218623"
 
 ## <a name="migration-guides"></a>Guias de migração
 
-Se você estiver pensando em mudar de uma solução de proteção contra ameaças que não seja da Microsoft para o Microsoft Defender para Ponto de Extremidade com o Microsoft Defender Antivírus, confira nossas diretrizes de migração. Selecione o cenário que melhor representa onde você está no processo de implantação e consulte as diretrizes.
+Se você estiver pensando em mudar de uma solução que não seja do Microsoft 365 Defender para o Microsoft Defender para Ponto de Extremidade com o Microsoft Defender Antivírus, confira nossas diretrizes de migração. Selecione o cenário que melhor representa onde você está no processo de implantação e consulte as diretrizes.
 
 |Cenário |Orientação |
 |:--|:--|
 |Você ainda não tem uma solução de proteção de ponto de extremidade e deseja saber mais sobre como o Microsoft Defender para Ponto de Extremidade & o Microsoft Defender Antivírus funciona.  |[Laboratório de avaliação do Microsoft Defender para Ponto de Extremidade](evaluation-lab.md)   |
 |Você tem o Microsoft Defender para Endpoint & Microsoft Defender Antivírus e precisa de ajuda para configurar e configurar tudo.  |[Guia de implantação do Microsoft Defender para Ponto de Extremidade](deployment-phases.md)  |
-|Você está planejando migrar do McAfee Endpoint Security (McAfee) para o Microsoft Defender para o Ponto de Extremidade & Microsoft Defender Antivírus. |[Alternar da McAfee para o Microsoft Defender para o Ponto de Extremidade](mcafee-to-microsoft-defender-migration.md) |
-|Você está planejando migrar do Symantec Endpoint Protection (Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Alternar da Symantec para o Microsoft Defender para o Ponto de Extremidade](symantec-to-microsoft-defender-endpoint-migration.md) |
+|Você está planejando migrar do McAfee Endpoint Security (McAfee) para o Microsoft Defender para o Ponto de Extremidade & Microsoft Defender Antivírus. |[Migrar do McAfee para o Microsoft Defender para Ponto de Extremidade](mcafee-to-microsoft-defender-migration.md) |
+|Você está planejando migrar do Symantec Endpoint Protection (Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Migrar do Symantec para o Microsoft Defender para Ponto de Extremidade](symantec-to-microsoft-defender-endpoint-migration.md) |
 |Você está planejando migrar de uma solução de proteção de ponto de extremidade que não seja a Microsoft (diferente da McAfee ou da Symantec) para o Microsoft Defender para o & Microsoft Defender Antivírus. |[Alternar para o Microsoft Defender para Ponto de Extremidade](switch-to-microsoft-defender-migration.md)   |
 |Você migrou para o Microsoft Defender para Endpoint & Microsoft Defender Antivírus e precisa de ajuda com as próximas etapas, como configurar recursos adicionais ou ajustar suas configurações de segurança. | [Gerenciar o Microsoft Defender para Ponto de Extremidade, pós-migração](manage-atp-post-migration.md) |
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 84caa39b44a4e0706b1fe4a103d8a8a14c52daed
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 6465be53de38872e3eb1d7b70dc3efbb9154aace
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892946"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934196"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Solucionar problemas de integração do Microsoft Defender para pontos de extremidade
 
@@ -251,7 +251,7 @@ Use a linha de comando para verificar o tipo de inicialização do serviço de d
 
 ### <a name="ensure-the-device-has-an-internet-connection"></a>Verifique se o dispositivo tem uma conexão com a Internet
 
-O sensor Windows Defender ATP exige que o Microsoft Windows HTTP (WinHTTP) reporte dados do sensor e se comunique com o serviço Microsoft Defender para Ponto de Extremidade.
+O sensor Microsoft Defender ATP requer o Microsoft Windows HTTP (WinHTTP) para relatar os dados do sensor e se comunicar com o serviço Microsoft Defender ATP.
 
 O WinHTTP é independente das configurações de proxy de navegação na Internet e de outros aplicativos de contexto de usuário e deve ser capaz de detectar os servidores proxy que estão disponíveis em seu ambiente específico.
 

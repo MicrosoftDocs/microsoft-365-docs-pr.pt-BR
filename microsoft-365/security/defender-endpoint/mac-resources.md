@@ -1,7 +1,7 @@
 ---
-title: Recursos do Microsoft Defender para Ponto de Extremidade para Mac
-description: Recursos para o Microsoft Defender para Ponto de Extremidade para Mac, incluindo como desinstalar, como coletar logs de diagnóstico, comandos CLI e problemas conhecidos com o produto.
-keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
+title: Recursos para o Microsoft Defender para Ponto de Extremidade no Mac
+description: Recursos para o Microsoft Defender para Ponto de Extremidade no Mac, incluindo como desinstalar, como coletar logs de diagnóstico, comandos CLI e problemas conhecidos com o produto.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 98e123ac4775096c968bc831965a562481c848b6
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 34feeec0f8c34748678862b9aa7b20f84087eb5e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862170"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934520"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Recursos para o Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -108,8 +108,8 @@ Tarefas importantes, como controlar as configurações do produto e disparar ver
 |Configuração|Desativar a proteção PUA                    |`mdatp threat policy set --type potentially_unwanted_application -- action off`   |
 |Configuração|Ativar o modo de auditoria para proteção pua      |`mdatp threat policy set --type potentially_unwanted_application -- action audit` |
 |Configuração|Ativar/desativar passiveMode                    |`mdatp config passive-mode --value enabled [enabled/disabled]`                    |
-|Diagnostics  |Alterar o nível de log                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
-|Diagnostics  |Gerar logs de diagnóstico                   |`mdatp diagnostic create --path [directory]`                                      |
+|Diagnóstico  |Alterar o nível de log                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
+|Diagnóstico  |Gerar logs de diagnóstico                   |`mdatp diagnostic create --path [directory]`                                      |
 |Integridade       |Verificar a saúde do produto                 |`mdatp health`                                                                    |
 |Integridade       |Verifique se há um atributo de produto esefico       |`mdatp health --field [attribute: healthy/licensed/engine_version...]`            |
 |Proteção   |Examinar um caminho                                |`mdatp scan custom --path [path] [--ignore-exclusions]`                           |

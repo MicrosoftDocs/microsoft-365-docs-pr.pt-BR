@@ -1,7 +1,7 @@
 ---
 title: Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)
-description: Implante o pacote de configuração no dispositivo VDI (infraestrutura de área de trabalho virtual) para que eles sejam integrados ao serviço Microsoft Defender para Ponto de Extremidade.
-keywords: configurar dispositivo VDI (infraestrutura de área de trabalho virtual), vdi, gerenciamento de dispositivos, configurar pontos de extremidade do Windows ATP, configurar o Microsoft Defender para pontos de extremidade do ponto de extremidade
+description: Implante o pacote de configuração no dispositivo VDI (infraestrutura de área de trabalho virtual) para que eles sejam integrados ao serviço do Microsoft Defender para Ponto de Extremidade.
+keywords: configurar dispositivo VDI (infraestrutura de área de trabalho virtual), vdi, gerenciamento de dispositivos, configurar o Microsoft Defender para Ponto de Extremidade, pontos de extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 1e970be7967e221c29017be804a98770a778654f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 3872be343e51c4e28f946192256932b048a23791
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892788"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933896"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)
 

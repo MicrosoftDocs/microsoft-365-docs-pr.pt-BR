@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender para Ponto de Extremidade no centro de segurança do Microsoft 365
 description: Saiba mais sobre as alterações do Centro de Segurança do Microsoft Defender para o centro de segurança do Microsoft 365
-keywords: Iniciando o centro de segurança do Microsoft 365, OATP, MDATP, MDO, MDE, painel único de vidro, portal convergido, portal de segurança, portal de segurança do defender
+keywords: Iniciando com o Centro de Segurança do Microsoft 365, Microsoft Defender para Office 365, Microsoft Defender para Ponto de Extremidade, MDO, MDE, painel único de vidro, portal convergido, portal de segurança, portal de segurança do defender
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -18,12 +18,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: edf0baa369142f6a0aafc86794a47ab0be6e345a
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: c8e38e3f22b48b58ea7fb1a4a6f000c80c170675
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760045"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934400"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft Defender para Ponto de Extremidade no centro de segurança do Microsoft 365
 
@@ -92,7 +92,7 @@ Esta tabela é uma referência rápida das alterações entre o Centro de Segura
 |---------|---------|
 | Relatórios  | Consulte relatórios sobre pontos de extremidade e & de email, incluindo proteção contra ameaças, conformidade e conformidade de dispositivos e dispositivos vulneráveis. |
 | Integridade  |  Atualmente, links para a página "Saúde do serviço" no Centro de administração [do Microsoft 365](https://admin.microsoft.com/). |
-| Configurações |  Gerencie suas configurações para o Centro de segurança do Microsoft 365, Microsoft 365 Defender, Pontos de Extremidade, Colaboração de email &, Identidades e Descoberta de Dispositivo.   |
+| Settings |  Gerencie suas configurações para o Centro de segurança do Microsoft 365, Microsoft 365 Defender, Pontos de Extremidade, Colaboração de email &, Identidades e Descoberta de Dispositivo.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Recursos e navegação de segurança do Microsoft 365
 

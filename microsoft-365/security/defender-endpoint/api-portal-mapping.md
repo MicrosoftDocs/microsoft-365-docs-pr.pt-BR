@@ -1,5 +1,5 @@
 ---
-title: Campos da API de detecções do Microsoft Defender ATP
+title: Campos da API do Microsoft Defender para Detecções de Ponto de Extremidade
 description: Entenda como os campos da API de Detecções mapeiam para os valores no Centro de Segurança do Microsoft Defender
 keywords: detecções, campos de detecções, campos, api, campos, pull Detections, api de repouso, solicitação, resposta
 search.product: eADQiWindows 10XVcnh
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e304d731409c4cd0fac722d492b3fab5ed28fd35
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d6d2ad9abe88d0099b58dd2df486120082bb22c1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164876"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933632"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>Campos da API do Microsoft Defender para Detecções de Ponto de Extremidade
 
@@ -105,4 +105,4 @@ Os números de campo combinam com os números nas imagens abaixo.
 - [Habilitar a integração do SIEM no Microsoft Defender para Endpoint](enable-siem-integration.md)
 - [Configurar ArcSight para puxar o Microsoft Defender para detecções de ponto de extremidade](configure-arcsight.md)
 - [Puxar o Microsoft Defender para detecções de ponto de extremidade usando a API REST](pull-alerts-using-rest-api.md)
-- [Solucionar problemas de integração de ferramentas SIEM](troubleshoot-siem.md)
+- [Solucionar problemas de integração da ferramenta SIEM](troubleshoot-siem.md)

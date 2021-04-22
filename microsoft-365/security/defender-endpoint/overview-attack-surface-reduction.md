@@ -2,7 +2,7 @@
 title: Visão geral da redução da superfície de ataque
 ms.reviewer: ''
 description: Saiba mais sobre os recursos de redução de superfície de ataque do Microsoft Defender para Ponto de Extremidade.
-keywords: asr, redução de superfície de ataque, microsoft defender atp, microsoft defender para ponto de extremidade, microsoft defender, antivírus, av, windows defender
+keywords: asr, redução de superfície de ataque, Microsoft Defender para Endpoint, microsoft defender, antivírus, av, windows defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.custom: asr
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 60efae91e4b65c5977bd2aebf111d9174d7c1042
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 68c9bad95e36863a57d27d49adc2ad46744cbd4a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893548"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933524"
 ---
 # <a name="overview-of-attack-surface-reduction"></a>Visão geral da redução da superfície de ataque
 

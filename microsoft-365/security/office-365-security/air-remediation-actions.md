@@ -1,6 +1,6 @@
 ---
 title: Ações de correção no Microsoft Defender para Office 365
-keywords: AIR, autoIR, ATP, automatizado, investigação, resposta, correção, ameaças, avançadas, ameaças, proteção
+keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, protection
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -21,12 +21,12 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fa4e2d6656ec430edc221ab94cac494e1ec0ca98
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 37953ad1125d5dad10eb5c6933b1ed9931d5de60
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202948"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933656"
 ---
 # <a name="remediation-actions-in-microsoft-defender-for-office-365"></a>Ações de correção no Microsoft Defender para Office 365
 
@@ -55,7 +55,7 @@ O Microsoft Defender para Office 365 inclui ações de correção para lidar com
 |:---|:---|:---|
 |Email|Malware|Excluir email/cluster de exclusão suave <p> Se mais de algumas mensagens de email em um cluster contêm malware, o cluster é considerado mal-intencionado.|
 |Email|URL mal-intencionada<br/>(Uma URL mal-intencionada foi detectada por [Links Seguros](safe-links.md).)|Excluir email/cluster de exclusão suave <br/>Bloquear URL (verificação de hora de clique)<p> O email que contém uma URL mal-intencionada é considerado mal-intencionado.|
-|Email|Phish|Excluir email/cluster de exclusão suave <p> Se mais de algumas mensagens de email em um cluster conterem tentativas de phishing, todo o cluster será considerado uma tentativa de phishing.|
+|Email|Golpe|Excluir email/cluster de exclusão suave <p> Se mais de algumas mensagens de email em um cluster conterem tentativas de phishing, todo o cluster será considerado uma tentativa de phishing.|
 |Email|Phishing com ataque de phishing <br>(As mensagens de email foram entregues e depois [enviadas .)](zero-hour-auto-purge.md)|Excluir email/cluster de exclusão suave <p>Os relatórios estão disponíveis para exibir mensagens sem visualização. [Veja se o ZAP moveu uma mensagem e perguntas frequentes.](zero-hour-auto-purge.md#how-to-see-if-zap-moved-your-message)|
 |Email|Email de [phishing perdido relatado](enable-the-report-message-add-in.md) por um usuário|[Investigação automatizada disparada pelo relatório do usuário](automated-investigation-response-office.md#example-a-user-reported-phish-message-launches-an-investigation-playbook)|
 |Email|Anomalia de volume <br> (Quantidades recentes de email excedem os 7 a 10 dias anteriores para critérios de correspondência.)|A investigação automatizada não resulta em uma ação pendente específica. <p>A anomalia de volume não é uma ameaça clara, mas é apenas uma indicação de volumes de email maiores nos últimos dias em comparação com os últimos 7 a 10 dias. <p>Embora um alto volume de emails possa indicar possíveis problemas, a confirmação é necessária em termos de vereditos mal-intencionados ou de uma revisão manual de mensagens de email/clusters. Consulte [Encontrar emails suspeitos que foram entregues](investigate-malicious-email-that-was-delivered.md#find-suspicious-email-that-was-delivered).|

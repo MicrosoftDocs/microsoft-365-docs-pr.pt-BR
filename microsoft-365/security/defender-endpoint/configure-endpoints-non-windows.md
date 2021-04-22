@@ -1,7 +1,7 @@
 ---
 title: Integração de dispositivos que não são windows ao serviço microsoft defender para ponto de extremidade
 description: Configure dispositivos que não são windows para que eles possam enviar dados do sensor para o serviço Microsoft Defender para Ponto de Extremidade.
-keywords: integração de dispositivos que não são windows, macos, linux, gerenciamento de dispositivos, configurar dispositivos Windows ATP, configurar o Microsoft Defender para dispositivos de ponto de extremidade
+keywords: integração de dispositivos que não são windows, macos, linux, gerenciamento de dispositivos, configurar o Microsoft Defender para dispositivos de ponto de extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c78779cd4a8a329864b6ac7e0debfc30ca0b3a56
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 1c10576b72793ab3833f2e9027e3814a449334ee
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893584"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933920"
 ---
 # <a name="onboard-non-windows-devices"></a>Dispositivos Windows não integrados
 
@@ -48,7 +48,7 @@ Você precisará saber as versões exatas do Linux e macOS compatíveis com o De
 Você precisará seguir as etapas a seguir para a integração de dispositivos que não são windows:
 1. Selecione seu método preferencial de integração:
 
-   - Para dispositivos macOS, você pode optar por integração por meio do Microsoft Defender para Ponto de Extremidade ou por meio de uma solução de terceiros. Para obter mais informações, consulte [Microsoft Defender for Endpoint for Mac](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac).
+   - Para dispositivos macOS, você pode optar por integração por meio do Microsoft Defender para Ponto de Extremidade ou por meio de uma solução de terceiros. Para obter mais informações, consulte [Microsoft Defender for Endpoint on Mac](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint-mac).
 
    - Para outros dispositivos que não são do Windows, escolha **Integrar dispositivos que não são do Windows por meio da integração de terceiros.**   
     1. No painel de navegação, selecione **Parceiros de**  >  **Interoperabilidade**. Certifique-se de que a solução de terceiros está listada.

@@ -1,7 +1,7 @@
 ---
 title: Aumentar a conformidade com a linha de base de segurança do Microsoft Defender for Endpoint
 description: A linha de base de segurança do Microsoft Defender para Ponto de Extremidade define controles de segurança para fornecer proteção ideal.
-keywords: Gerenciamento do Intune, MDATP, WDATP, MDE, Microsoft Defender para Ponto de Extremidade, ASR de proteção avançada contra ameaças, linha de base de segurança
+keywords: Gerenciamento do Intune, Microsoft Defender para Ponto de Extremidade, Microsoft Defender, Microsoft Defender para Endpoint ASR, linha de base de segurança
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 19a2276955b253a23ee1552a3f1d4d0345dfe247
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: fbdc0d02d4c5ba5cfda9773e62082217ba4f8c4e
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893536"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933596"
 ---
 # <a name="increase-compliance-to-the-microsoft-defender-for-endpoint-security-baseline"></a>Aumentar a conformidade com a linha de base de segurança do Microsoft Defender for Endpoint
 

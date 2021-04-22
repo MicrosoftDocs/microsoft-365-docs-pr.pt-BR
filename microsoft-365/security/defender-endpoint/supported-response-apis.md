@@ -1,6 +1,6 @@
 ---
-title: APIs de resposta avançada contra ameaças do Microsoft Defender com suporte
-description: Saiba mais sobre as chamadas específicas da API de Proteção Avançada contra Ameaças do Microsoft Defender.
+title: APIs de resposta do Microsoft Defender para Ponto de Extremidade com suporte
+description: Saiba mais sobre as chamadas de API específicas relacionadas à resposta do Microsoft Defender para Endpoint.
 keywords: apis de resposta, api gráfica, apis com suporte, ator, alertas, dispositivo, usuário, domínio, ip, arquivo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a290c431f6d81b23896ddf77e7c7a47de378de22
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 36ed1f624fda7ae413ffbbf807925cf00e0a23ca
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185546"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933764"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-query-apis"></a>APIs de consulta com suporte do Microsoft Defender para Ponto de Extremidade 
 
@@ -43,8 +43,8 @@ Isolar dispositivo | Execute essa API para isolar um dispositivo da rede.
 Dispositivo unisolado | Remova um dispositivo do isolamento. 
 Restringir a execução de código | Execute essa API para conter um ataque interrompendo processos mal-intencionados. Você também pode bloquear um dispositivo e impedir a execução de tentativas subsequentes de programas potencialmente mal-intencionados.
 Execução de código desconsumentado | Execute isso para reverter a restrição da política de aplicativos depois de verificar se o dispositivo comprometido foi remediado.
-Executar verificação antivírus | Inicie remotamente uma verificação antivírus para ajudar a identificar e correção de malware que pode estar presente em um dispositivo comprometido.
-Arquivo stop and quarantine |  Execute essa chamada para interromper a execução de processos, arquivos de quarentena e excluir a persistência, como chaves do Registro.
+Executar verificação de antivírus | Inicie remotamente uma verificação antivírus para ajudar a identificar e correção de malware que pode estar presente em um dispositivo comprometido.
+Interromper e colocar o arquivo em quarentena |  Execute essa chamada para interromper a execução de processos, arquivos de quarentena e excluir a persistência, como chaves do Registro.
 Exemplo de solicitação | Execute essa chamada para solicitar um exemplo de um arquivo de um dispositivo específico. O arquivo será coletado do dispositivo e carregado em um armazenamento seguro.
 Bloquear arquivo | Execute essa API para evitar a propagação de um ataque em sua organização, proibindo arquivos potencialmente mal-intencionados ou suspeitas de malware. 
 Desbloquear arquivo | Permitir que um arquivo seja executado na organização usando o Microsoft Defender Antivírus.

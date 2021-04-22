@@ -1,7 +1,7 @@
 ---
 title: Integração usando o Microsoft Endpoint Configuration Manager
 description: Saiba como integrar o Microsoft Defender para Ponto de Extremidade usando o Microsoft Endpoint Configuration Manager
-keywords: onboarding, configuration, deploy, deployment, endpoint configuration manager, mdatp, advanced threat protection, collection creation, endpoint detection response, next generation protection, attack surface reduction, microsoft endpoint configuration manager
+keywords: integração, configuração, implantação, implantação, gerenciador de configuração de ponto de extremidade, Microsoft Defender para Ponto de Extremidade, criação de coleção, resposta de detecção de ponto de extremidade, proteção de próxima geração, redução de superfície de ataque, microsoft endpoint configuration manager
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 31c946ccad84aca3b2fc86c95655cea9e66e182f
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 84273ce3e060eb86ee246a5cc6a8cae3cba743b5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186396"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934484"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Integração usando o Microsoft Endpoint Configuration Manager
 
@@ -117,12 +117,12 @@ Depois de concluir essa tarefa, agora você tem uma coleção de dispositivos co
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>Etapa 2: Configurar o Microsoft Defender para recursos do Ponto de Extremidade 
 Esta seção orienta você na configuração dos seguintes recursos usando o Microsoft Endpoint Configuration Manager em dispositivos Windows:
 
-- [**Detecção e resposta do terminal.**](#endpoint-detection-and-response)
-- [**Proteção de última geração**](#next-generation-protection)
-- [**Redução da superfície do ataque.**](#attack-surface-reduction)
+- [**Detecção de ponto de extremidade e resposta**](#endpoint-detection-and-response)
+- [**Proteção de próxima geração**](#next-generation-protection)
+- [**Redução de superfície de ataque**](#attack-surface-reduction)
 
 
-### <a name="endpoint-detection-and-response"></a>Detecção e resposta do terminal.
+### <a name="endpoint-detection-and-response"></a>Detecção de ponto de extremidade e resposta
 #### <a name="windows-10"></a>Windows 10
 De dentro do Centro de Segurança do Microsoft Defender, é possível baixar a política '.onboarding' que pode ser usada para criar a política no System Center Configuration Manager e implantar essa política em dispositivos Windows 10.
 
@@ -264,7 +264,7 @@ O Windows Defender Antivírus é uma solução antimalware interna que oferece p
 
 Depois de concluir essa tarefa, você agora configurou com êxito o Windows Defender Antivírus.
 
-### <a name="attack-surface-reduction"></a>Redução da superfície do ataque.
+### <a name="attack-surface-reduction"></a>Redução de superfície de ataque
 O pilar de redução de superfície de ataque do Defender para Ponto de Extremidade inclui o conjunto de recursos que está disponível em Exploit Guard. Regras de redução de superfície de ataque (ASR), Acesso Controlado a Pastas, Proteção de Rede e Proteção contra Exploração. 
 
 Todos esses recursos fornecem um modo de auditoria e um modo de bloqueio. No modo de auditoria, não há impacto no usuário final. Tudo o que ele faz é coletar telemetria adicional e torná-la disponível no Centro de Segurança do Microsoft Defender. O objetivo com uma implantação é mover passo a passo os controles de segurança para o modo de bloqueio.

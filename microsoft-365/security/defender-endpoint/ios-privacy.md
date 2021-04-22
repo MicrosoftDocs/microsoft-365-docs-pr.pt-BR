@@ -2,7 +2,7 @@
 title: Informações de privacidade - Microsoft Defender para Ponto de Extremidade no iOS
 ms.reviewer: ''
 description: Descreve informações de privacidade do Microsoft Defender para Ponto de Extremidade no iOS
-keywords: microsoft, defender, atp, ios, política, visão geral
+keywords: microsoft, defender, Microsoft Defender for Endpoint, ios, policy, overview
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f5598df8a9e3493a1c4922f672468dd54e84c31e
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688196"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934280"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>Informações de privacidade - Microsoft Defender para Ponto de Extremidade no iOS
 
@@ -34,15 +34,15 @@ ms.locfileid: "51688196"
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
 > [!NOTE]
-> O Defender for Endpoint para iOS usa uma VPN para fornecer o recurso de Proteção da Web. Esta não é uma VPN regular e é uma VPN local ou auto-loop que não leva tráfego fora do dispositivo. **A Microsoft ou sua organização não vê sua atividade de navegação.**
+> O Defender for Endpoint no iOS usa uma VPN para fornecer o recurso de Proteção da Web. Esta não é uma VPN regular e é uma VPN local ou auto-loop que não leva tráfego fora do dispositivo. **A Microsoft ou sua organização não vê sua atividade de navegação.**
 
-O Defender para Ponto de Extremidade para iOS coleta informações de seus dispositivos iOS configurados e as armazena no mesmo locatário em que você tem o Defender para Ponto de Extremidade. As informações são coletadas para ajudar a manter o Defender for Endpoint para iOS seguro, atualizado, executando conforme esperado e para dar suporte ao serviço.
+O Defender para Ponto de Extremidade no iOS coleta informações de seus dispositivos iOS configurados e as armazena no mesmo locatário em que você tem o Defender para Ponto de Extremidade. As informações são coletadas para ajudar a manter o Defender para o Ponto de Extremidade no iOS seguro, atualizado, executando conforme esperado e para dar suporte ao serviço.
 
 Para obter mais informações sobre armazenamento de dados, consulte [Microsoft Defender for Endpoint data storage and privacy](data-storage-privacy.md).
 
 ## <a name="required-data"></a>Dados necessários 
 
-Os dados necessários consistem em dados necessários para que o Defender for Endpoint para iOS funcione conforme esperado. Esses dados são essenciais para a operação do serviço e podem incluir dados relacionados ao usuário final, organização, dispositivo e aplicativos. 
+Os dados necessários consistem em dados necessários para que o Defender for Endpoint no iOS funcione conforme o esperado. Esses dados são essenciais para a operação do serviço e podem incluir dados relacionados ao usuário final, organização, dispositivo e aplicativos. 
 
 Aqui está uma lista dos tipos de dados que estão sendo coletados: 
 

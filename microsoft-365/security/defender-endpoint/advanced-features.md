@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9c77cb19731e55976058ce2f628baf4026639949
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 34ca51c066eddb65f2df0cf8a5d85732bd84a9c0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903785"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934364"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -151,7 +151,7 @@ A habilitação da integração do Skype for Business oferece a capacidade de se
 
 ## <a name="microsoft-defender-for-identity-integration"></a>Integração do Microsoft Defender para Identidade
 
-A integração com a Proteção Avançada contra Ameaças do Azure permite que você pivote diretamente em outro produto de segurança da Microsoft Identity. A Proteção Avançada contra Ameaças do Azure aumenta uma investigação com informações adicionais sobre uma conta suspeita comprometida e recursos relacionados. Habilitando esse recurso, você enriquecerá o recurso de investigação baseado em dispositivo, girando em toda a rede de um ponto de vista de identificação.
+A integração com o Microsoft Defender para Identidade permite que você pivote diretamente em outro produto de segurança da Microsoft Identity. O Microsoft Defender for Identity aumenta uma investigação com informações adicionais sobre uma conta suspeita comprometida e recursos relacionados. Habilitando esse recurso, você enriquecerá o recurso de investigação baseado em dispositivo, girando em toda a rede de um ponto de vista de identificação.
 
 > [!NOTE]
 > Você precisará ter a licença apropriada para habilitar esse recurso.
@@ -160,7 +160,7 @@ A integração com a Proteção Avançada contra Ameaças do Azure permite que v
 
 Esse recurso só estará disponível se você tiver um Office 365 E5 ativo ou o complemento threat Intelligence. Para obter mais informações, consulte a página de produtos do Office 365 Enterprise E5.
 
-Ao ativar esse recurso, você poderá incorporar dados da Proteção Avançada contra Ameaças do Office 365 no Centro de Segurança do Microsoft Defender para conduzir uma investigação abrangente de segurança em caixas de correio do Office 365 e dispositivos Windows.
+Ao ativar esse recurso, você poderá incorporar dados do Microsoft Defender para Office 365 ao Centro de Segurança do Microsoft Defender para conduzir uma investigação abrangente de segurança em caixas de correio do Office 365 e dispositivos Windows.
 
 > [!NOTE]
 > Você precisará ter a licença apropriada para habilitar esse recurso.

@@ -1,7 +1,7 @@
 ---
 title: Integração de dispositivos Windows 10 para o Microsoft Defender para Ponto de Extremidade por meio da Política de Grupo
 description: Use a Política de Grupo para implantar o pacote de configuração em dispositivos Windows 10 para que eles sejam integrados ao serviço.
-keywords: configurar dispositivos usando política de grupo, gerenciamento de dispositivos, configurar dispositivos WINDOWS ATP, microsoft defender para dispositivos de ponto de extremidade, política de grupo
+keywords: configurar dispositivos usando a política de grupo, o gerenciamento de dispositivos, configurar o Microsoft Defender para dispositivos de ponto de extremidade, a integração do Microsoft Defender para dispositivos de ponto de extremidade, a política de grupo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: b839cf204e8ab042e0c88a8f8c48df79770e7b4f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: b8f56c8f2ba92073ea7ae9464f199d9c900b932f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893622"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933956"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Integração de dispositivos Windows 10 usando a Política de Grupo 
 

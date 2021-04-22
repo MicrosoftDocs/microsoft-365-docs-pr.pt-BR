@@ -1,7 +1,7 @@
 ---
-title: Solucionar problemas de serviço do Microsoft Defender para Pontos de Extremidade
+title: Solucionar problemas de serviço do Microsoft Defender para Ponto de Extremidade
 description: Encontre soluções e soluções alternativas para problemas conhecidos, como erros de servidor ao tentar acessar o serviço.
-keywords: solucionar problemas do Microsoft Defender para ponto de extremidade, solucionar problemas do Windows ATP, erro de servidor, acesso negado, credenciais inválidas, sem dados, portal do painel, permitir, visualizador de eventos
+keywords: solução de problemas do Microsoft Defender para Ponto de Extremidade, erro de servidor, acesso negado, credenciais inválidas, sem dados, portal de painel, permitir, visualizador de eventos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 112f682836da37ddfb51c103282518ff74563727
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 81f1b4154de25f6186679adc5b1f24f78f302415
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186012"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933752"
 ---
 # <a name="troubleshoot-service-issues"></a>Solucionar problemas de serviço
 
@@ -80,7 +80,7 @@ Não há suporte para o uso de vírgulas como separador em números. Regiões on
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-troubleshoot-belowfoldlink)
 
 ## <a name="microsoft-defender-for-endpoint-tenant-was-automatically-created-in-europe"></a>O locatário do Microsoft Defender para Ponto de Extremidade foi criado automaticamente na Europa
-Quando você usa o Centro de Segurança do Azure para monitorar servidores, um locatário do Microsoft Defender para Ponto de Extremidade é criado automaticamente. Os dados do Microsoft Defender para Ponto de Extremidade são armazenados na Europa por padrão.
+Quando você usa o Azure Defender para monitorar servidores, um locatário do Microsoft Defender for Endpoint é criado automaticamente. Os dados do Microsoft Defender para Ponto de Extremidade são armazenados na Europa por padrão.
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Configurar e validar exclusões do Microsoft Defender para Ponto de Extremidade no Linux
 description: Fornecer e validar exclusões para o Microsoft Defender para Ponto de Extremidade no Linux. As exclusões podem ser definidas para arquivos, pastas e processos.
-keywords: microsoft, defender, atp, linux, exclusões, verificações, antivírus
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, exclusões, verificações, antivírus
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 56fe152532b77f7f04c9edd52998fea83493adfe
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 8e861055067a55630da458e87b7376a607dc69c4
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903935"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934292"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Configurar e validar exclusões do Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -38,23 +38,23 @@ ms.locfileid: "51903935"
 Este artigo fornece informações sobre como definir exclusões que se aplicam a verificações sob demanda e proteção e monitoramento em tempo real.
 
 > [!IMPORTANT]
-> As exclusões descritas neste artigo não se aplicam a outros recursos do Defender for Endpoint para Linux, incluindo a detecção e a resposta do ponto de extremidade (EDR). Os arquivos excluídos usando os métodos descritos neste artigo ainda podem disparar alertas de EDR e outras detecções.
+> As exclusões descritas neste artigo não se aplicam a outros recursos do Defender for Endpoint no Linux, incluindo a detecção e a resposta do ponto de extremidade (EDR). Os arquivos excluídos usando os métodos descritos neste artigo ainda podem disparar alertas de EDR e outras detecções.
 
-Você pode excluir determinados arquivos, pastas, processos e arquivos abertos por processo do Defender para Ponto de Extremidade para Verificações do Linux.
+Você pode excluir determinados arquivos, pastas, processos e arquivos abertos por processo do Defender para Ponto de Extremidade em verificações do Linux.
 
-As exclusões podem ser úteis para evitar detecções incorretas em arquivos ou softwares exclusivos ou personalizados para sua organização. Eles também podem ser úteis para reduzir problemas de desempenho causados pelo Defender para Ponto de Extremidade para Linux.
+As exclusões podem ser úteis para evitar detecções incorretas em arquivos ou softwares exclusivos ou personalizados para sua organização. Eles também podem ser úteis para atenuar problemas de desempenho causados pelo Defender para Ponto de Extremidade no Linux.
 
 > [!WARNING]
-> Definir exclusões reduz a proteção oferecida pelo Defender para Ponto de Extremidade para Linux. Você sempre deve avaliar os riscos associados à implementação de exclusões, e você deve excluir apenas arquivos que você tem certeza de que não são mal-intencionados.
+> Definir exclusões reduz a proteção oferecida pelo Defender para Ponto de Extremidade no Linux. Você sempre deve avaliar os riscos associados à implementação de exclusões, e você deve excluir apenas arquivos que você tem certeza de que não são mal-intencionados.
 
 ## <a name="supported-exclusion-types"></a>Tipos de exclusão com suporte
 
-A tabela a seguir mostra os tipos de exclusão suportados pelo Defender para Ponto de Extremidade para Linux.
+A tabela a seguir mostra os tipos de exclusão suportados pelo Defender para Ponto de Extremidade no Linux.
 
 Exclusão | Definição | Exemplos
 ---|---|---
 Extensão de arquivo | Todos os arquivos com a extensão, em qualquer lugar do dispositivo | `.test`
-Arquivo | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
+File | Um arquivo específico identificado pelo caminho completo | `/var/log/test.log`<br/>`/var/log/*.log`<br/>`/var/log/install.?.log`
 Folder | Todos os arquivos na pasta especificada (recursivamente) | `/var/log/`<br/>`/var/*/`
 Processo | Um processo específico (especificado pelo caminho completo ou nome do arquivo) e todos os arquivos abertos por ele | `/bin/cat`<br/>`cat`<br/>`c?t`
 
@@ -72,7 +72,7 @@ Curinga | Descrição | Exemplo | Matches | Não se iguala
 
 ### <a name="from-the-management-console"></a>No console de gerenciamento
 
-Para obter mais informações sobre como configurar exclusões de Puppet, Ansible ou outro console de gerenciamento, consulte [Set preferences for Defender for Endpoint for Linux](linux-preferences.md).
+Para obter mais informações sobre como configurar exclusões de Puppet, Ansible ou outro console de gerenciamento, consulte [Set preferences for Defender for Endpoint on Linux](linux-preferences.md).
 
 ### <a name="from-the-command-line"></a>Da linha de comando
 
@@ -152,7 +152,7 @@ No trecho Bash a seguir, substitua por um arquivo que esteja em conformidade `te
 curl -o test.txt https://www.eicar.org/download/eicar.com.txt
 ```
 
-Se o Defender for Endpoint para Linux relata malware, a regra não está funcionando. Se não houver nenhum relatório de malware e o arquivo baixado existir, a exclusão está funcionando. Você pode abrir o arquivo para confirmar se o conteúdo é igual ao descrito no site do arquivo de teste [EICAR.](http://2016.eicar.org/86-0-Intended-use.html)
+Se o Defender for Endpoint no Linux relata malware, a regra não está funcionando. Se não houver nenhum relatório de malware e o arquivo baixado existir, a exclusão está funcionando. Você pode abrir o arquivo para confirmar se o conteúdo é igual ao descrito no site do arquivo de teste [EICAR.](http://2016.eicar.org/86-0-Intended-use.html)
 
 Se você não tiver acesso à Internet, poderá criar seu próprio arquivo de teste EICAR. Escreva a cadeia de caracteres EICAR em um novo arquivo de texto com o seguinte comando Bash:
 

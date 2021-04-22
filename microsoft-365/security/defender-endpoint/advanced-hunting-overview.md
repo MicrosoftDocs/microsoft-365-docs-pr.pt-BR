@@ -1,7 +1,7 @@
 ---
-title: Visão geral da busca avançada no Microsoft Defender ATP
-description: Usar recursos de busca de ameaças no Microsoft Defender ATP para criar consultas que encontrem ameaças e pontos fracos em sua rede
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, mdatp, microsoft defender atp, wdatp, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, fuso horário, UTC
+title: Visão geral da busca avançada no Microsoft Defender para Ponto de Extremidade
+description: Usar recursos de busca de ameaças no Microsoft Defender para Ponto de Extremidade para criar consultas que encontrem ameaças e pontos fracos em sua rede
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft Defender para Ponto de Extremidade, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, fuso horário, UTC
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9e5f29874ae42f2b82906a5ac0d2e615009d499f
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 114c0192f77411016fcb13ec2b912f4440ffa6e0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615478"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934352"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Busca proativamente por ameaças com busca avançada
 

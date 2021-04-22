@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9e54fb5f2105f0a77c4b63e8d880135005c17168
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: a57cebd2cb7d35f968ed9ddfa4d9215eac2182d6
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862086"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934448"
 ---
 # <a name="overview-of-management-and-apis"></a>Visão geral do gerenciamento e APIs 
 
@@ -41,7 +41,7 @@ Reconhecendo que os ambientes e estruturas do cliente podem variar, o Defender f
 
 ## <a name="endpoint-onboarding-and-portal-access"></a>Integração do ponto de extremidade e acesso ao portal 
 
-A integração de dispositivos está totalmente integrada ao Microsoft Endpoint Manager e ao Microsoft Intune para dispositivos cliente e ao Centro de Segurança do Azure para dispositivos de servidor, fornecendo uma experiência completa de configuração, implantação e monitoramento. Além disso, o Microsoft Defender para Ponto de Extremidade oferece suporte à Política de Grupo e outras ferramentas de terceiros usadas para gerenciamento de dispositivos.
+A integração de dispositivos está totalmente integrada ao Microsoft Endpoint Manager e ao Microsoft Intune para dispositivos cliente e ao Azure Defender para dispositivos de servidor, fornecendo uma experiência completa de configuração, implantação e monitoramento. Além disso, o Microsoft Defender para Ponto de Extremidade oferece suporte à Política de Grupo e outras ferramentas de terceiros usadas para gerenciamento de dispositivos.
 
 O Defender para Ponto de Extremidade fornece controle fino sobre o que os usuários com acesso ao portal podem ver e fazer por meio da flexibilidade do controle de acesso baseado em função (RBAC). O modelo RBAC dá suporte a todos os sabores da estrutura de equipes de segurança:
 - Organizações e equipes de segurança distribuídas globalmente

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 05/21/2018
 ms.technology: mde
-ms.openlocfilehash: 1b8454107b6a2737f1236a066c3a24a2b9c776cb
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: a8b7268e89470a85a34015967b69abb1818fe64f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222643"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933836"
 ---
 # <a name="review-events-and-errors-using-event-viewer"></a>Revisar eventos e erros usando o Visualizador de Eventos
 
@@ -301,13 +301,13 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 </tr>
 <tr>
 <td>42</td>
-<td>O componente WDATP do Microsoft Defender para Ponto de Extremidade falhou ao executar a ação. Componente: %1, Ação: %2, Tipo de Exceção: %3, Mensagem de exceção: %4</td>
+<td>O componente do Microsoft Defender para Ponto de Extremidade falhou ao executar a ação. Componente: %1, Ação: %2, Tipo de Exceção: %3, Mensagem de exceção: %4</td>
 <td>Erro interno. Falha ao iniciar o serviço.</td>
 <td>Se esse erro persistir, contate o Suporte.</td>
 </tr>
 <tr>
 <td>43</td>
-<td>O componente WDATP do Microsoft Defender para Ponto de Extremidade falhou ao executar a ação. Componente: %1, Ação: %2, Tipo de Exceção: %3, Erro de Exceção: %4, Mensagem de exceção: %5</td>
+<td>O componente do Microsoft Defender para Ponto de Extremidade falhou ao executar a ação. Componente: %1, Ação: %2, Tipo de Exceção: %3, Erro de Exceção: %4, Mensagem de exceção: %5</td>
 <td>Erro interno. Falha ao iniciar o serviço.</td>
 <td>Se esse erro persistir, contate o Suporte.</td>
 </tr>
@@ -482,13 +482,13 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 </tr>
 <tr>
    <td>81</td>
-   <td>Falha ao criar um Windows Defender etlogger ETW da Proteção Avançada contra Ameaças. Código de falha: %1</td>
+   <td>Falha ao criar o Microsoft Defender para o autologger ETW do ponto de extremidade. Código de falha: %1</td>
    <td>Falha ao criar a sessão ETW.</td>
    <td>Reinicie o dispositivo. Se esse erro persistir, contate o Suporte.</td>
 </tr>
 <tr>
    <td>82</td>
-   <td>Falha ao remover o Windows Defender etlogger ETW da Proteção Avançada contra Ameaças. Código de falha: %1</td>
+   <td>Falha ao remover o microsoft defender para o autologger ETW do ponto de extremidade. Código de falha: %1</td>
    <td>Falha ao excluir a sessão ETW.</td>
    <td>Contate o Suporte.</td>
 </tr>
@@ -500,7 +500,7 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 </tr>
 <tr>
    <td>85</td>
-   <td>Falha ao disparar Windows Defender proteção avançada contra ameaças executável. Código de falha: %1</td>
+   <td>Falha ao disparar o Microsoft Defender para o ponto de extremidade executável. Código de falha: %1</td>
    <td>Falha no executável SenseIR estrelado.</td>
    <td>Reinicie o dispositivo. Se esse erro persistir, contate o Suporte.</td>
 </tr>
@@ -554,19 +554,19 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 </tr>
 <tr>
    <td>94</td>
-   <td>Windows Defender executável da Proteção Avançada contra Ameaças foi iniciado</td>
+   <td>O executável do Microsoft Defender para Ponto de Extremidade foi iniciado</td>
    <td>O executável SenseCE foi iniciado.</td>
    <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
 <tr>
    <td>95</td>
-   <td>Windows Defender executável da Proteção Avançada contra Ameaças terminou</td>
+   <td>O executável do Microsoft Defender para Ponto de Extremidade terminou</td>
    <td>O executável SenseCE foi encerrado.</td>
    <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
 <tr>
    <td>96</td>
-   <td>Windows Defender proteção avançada contra ameaças init chamou. Código do resultado: %2</td>
+   <td>O Microsoft Defender para Endpoint Init chamou. Código do resultado: %2</td>
    <td>O executável SenseCE chamou a inicialização do MCE.</td>
    <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
@@ -590,19 +590,19 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 </tr>
 <tr>
    <td>100</td>
-   <td>Windows Defender executável da Proteção Avançada contra Ameaças falhou ao iniciar. Código de falha: %1</td>
+   <td>O executável do Microsoft Defender para Ponto de Extremidade falhou ao iniciar. Código de falha: %1</td>
    <td>O executável SenseCE falhou ao iniciar.</td>
    <td>Reinicie o dispositivo. Se esse erro persistir, contate o Suporte.</td>
 </tr>
 <tr>
    <td>102</td>
-   <td>Windows Defender a Detecção Avançada de Rede de Proteção contra Ameaças e o executável de resposta foi iniciado</td>
+   <td>O microsoft Defender for Endpoint Network Detection and Response executable foi iniciado</td>
    <td>O executável SenseNdr foi iniciado.</td>
    <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
 <tr>
    <td>103</td>
-   <td>Windows Defender detecção avançada de rede de proteção contra ameaças e a resposta executável terminou</td>
+   <td>Microsoft Defender for Endpoint Network Detection and Response executable has ended</td>
    <td>O executável SenseNdr foi encerrado.</td>
    <td>Notificação operacional normal; nenhuma ação necessária.</td>
 </tr>
@@ -612,6 +612,6 @@ Consulte <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 d
 >Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-eventerrorcodes-belowfoldlink)
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10](configure-endpoints.md)
+- [Dispositivos integrados do Windows 10](configure-endpoints.md)
 - [Configurar configurações de proxy de dispositivo e conectividade com a Internet](configure-proxy-internet.md)
-- [Solucionar problemas do Microsoft Defender para o Ponto de Extremidade](troubleshoot-onboarding.md)
+- [Solucionar problemas do Microsoft Defender para Ponto de Extremidade](troubleshoot-onboarding.md)

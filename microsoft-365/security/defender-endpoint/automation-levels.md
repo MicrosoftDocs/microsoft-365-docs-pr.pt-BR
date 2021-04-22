@@ -1,7 +1,7 @@
 ---
 title: Níveis de automação em investigação e correção automatizadas
 description: Obter uma visão geral dos níveis de automação e como eles funcionam no Microsoft Defender para Ponto de Extremidade
-keywords: automated, investigation, level, defender atp
+keywords: automated, investigation, level, Microsoft Defender for Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: bb3e8c468983622d780ca185640c2816316bfd48
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 013e01e9f84cae01258afc6ba139b7b5ada5912f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165316"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934112"
 ---
 # <a name="automation-levels-in-automated-investigation-and-remediation-capabilities"></a>Níveis de automação em recursos automatizados de investigação e correção
 
@@ -49,7 +49,7 @@ A tabela a seguir descreve cada nível de automação e como ela funciona.
 |Nível de automação | Descrição|
 |:---|:---|
 |**Completo - correção de ameaças automaticamente** <br/>(também conhecido como *automação completa*)| Com a automação completa, as ações de correção são executadas automaticamente. Todas as ações de correção realizadas podem ser exibidas na [Central de Ações](auto-investigation-action-center.md) na **guia** Histórico. Se necessário, uma ação de correção pode ser desfeita.<br/><br/>**_A automação_* completa é recomendada e selecionada por padrão para locatários criados em ou após 16 de agosto de 2020 com o Microsoft Defender para Ponto de Extremidade, sem grupos de dispositivos definidos ainda.*  |
-|**Semi - exigir aprovação para qualquer correção** <br/>(também conhecido como *semi-automação*)| Com esse nível de semi automação, a aprovação é necessária para *qualquer* ação de correção. Essas ações pendentes podem ser exibidas e aprovadas na [Central de](auto-investigation-action-center.md)Ações , na **guia Pendente.**<br/><br/>*Esse nível de semi automação é selecionado por padrão para locatários criados antes de 16 de agosto de 2020 com o Microsoft Defender ATP, sem grupos de dispositivos definidos.*|
+|**Semi - exigir aprovação para qualquer correção** <br/>(também conhecido como *semi-automação*)| Com esse nível de semi automação, a aprovação é necessária para *qualquer* ação de correção. Essas ações pendentes podem ser exibidas e aprovadas na [Central de](auto-investigation-action-center.md)Ações , na **guia Pendente.**<br/><br/>*Esse nível de semi automação é selecionado por padrão para locatários criados antes de 16 de agosto de 2020 com o Microsoft Defender para Ponto de Extremidade, sem grupos de dispositivos definidos.*|
 |**Semi - exigir aprovação para correção de pastas principais** <br/>(também um tipo de *semi-automação*)  | Com esse nível de semi automação, a aprovação é necessária para todas as ações de correção necessárias em arquivos ou executáveis que estão em pastas principais. As pastas principais incluem diretórios do sistema operacional, como o **Windows** ( `\windows\*` ).<br/><br/>As ações de correção podem ser executadas automaticamente em arquivos ou executáveis que estão em outras pastas (não essenciais). <br/><br/>Ações pendentes para arquivos ou executáveis em pastas principais podem ser exibidas e aprovadas no Centro de Ações [,](auto-investigation-action-center.md)na **guia** Pendente. <br/><br/>As ações realizadas em arquivos ou executáveis em outras pastas podem ser exibidas na Central de Ações [,](auto-investigation-action-center.md) **na** guia Histórico. |
 |**Semi - exigir aprovação para correção de pastas não temporárias** <br/>(também um tipo de *semi-automação*)| Com esse nível de semi automação, a aprovação é necessária para todas as ações de correção necessárias em arquivos ou executáveis que não *estão* em pastas temporárias. <br/><br/>Pastas temporárias podem incluir os seguintes exemplos: <br/>- `\users\*\appdata\local\temp\*`<br/>- `\documents and settings\*\local settings\temp\*` <br/>- `\documents and settings\*\local settings\temporary\*`<br/>- `\windows\temp\*`<br/>- `\users\*\downloads\*`<br/>- `\program files\` <br/>- `\program files (x86)\*`<br/>- `\documents and settings\*\users\*`<br/><br/>As ações de correção podem ser executadas automaticamente em arquivos ou executáveis que estão em pastas temporárias. <br/><br/>Ações pendentes para arquivos ou executáveis que não estão em pastas temporárias podem ser exibidas e aprovadas na Central de Ações [,](auto-investigation-action-center.md)na **guia** Pendente.<br/><br/>As ações realizadas em arquivos ou executáveis em pastas temporárias podem ser exibidas e aprovadas na Central de Ações [,](auto-investigation-action-center.md)na guia **Histórico.**   |
 |**Nenhuma resposta automatizada** <br/>(também conhecido como sem *automação*) | Sem automação, a investigação automatizada não é executado nos dispositivos da sua organização. Como resultado, nenhuma ação de correção é tomada ou pendente como resultado de uma investigação automatizada. No entanto, outros recursos [](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)de proteção contra ameaças, como a proteção contra aplicativos potencialmente indesejados, podem estar em vigor, dependendo de como seus recursos de proteção antivírus e de última geração estão configurados.<br/><br/>***Não é *recomendável*** usar a opção sem automação, pois reduz a postura de segurança dos dispositivos da sua organização. [Considere configurar seu nível de automação para automação completa (ou pelo menos semi-automação)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups)*. |

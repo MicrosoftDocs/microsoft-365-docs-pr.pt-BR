@@ -1,7 +1,7 @@
 ---
 title: Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade
 description: Saiba como lidar com falsos positivos ou falsos negativos no Microsoft Defender para Ponto de Extremidade.
-keywords: antivírus, exceção, exclusão, defender atp, falso positivo, falso negativo, arquivo bloqueado, url bloqueada
+keywords: antivírus, exceção, exclusão, Microsoft Defender para Ponto de Extremidade, falso positivo, falso negativo, arquivo bloqueado, url bloqueada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: f2615cf5ec49c9df27472f04c367f30511e9c0cc
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 368de770f772dc75a366b2120c8824fda6a7ba11
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759865"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933584"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade
 
@@ -338,11 +338,11 @@ Para verificar se há atualizações relacionadas ao envio, entre no site de env
 
 O Microsoft Defender para Ponto de Extremidade oferece uma ampla variedade de opções, incluindo a capacidade de ajustar as configurações para vários recursos e recursos. Se você estiver recebendo vários falsos positivos, revise as configurações de proteção contra ameaças da sua organização. Talvez seja necessário fazer alguns ajustes para:
 
-- [Proteção entregue na nuvem](#cloud-delivered-protection)
+- [Proteção fornecida na nuvem](#cloud-delivered-protection)
 - [Correção de aplicativos potencialmente indesejados](#remediation-for-potentially-unwanted-applications)
 - [Investigação e correção automatizadas](#automated-investigation-and-remediation)
 
-### <a name="cloud-delivered-protection"></a>Proteção entregue na nuvem
+### <a name="cloud-delivered-protection"></a>Proteção fornecida na nuvem
 
 Verifique seu nível de proteção entregue na nuvem para o Microsoft Defender Antivírus. Por padrão, a proteção entregue na nuvem é definida como **Não** configurada , o que corresponde a um nível normal de proteção para a maioria das organizações. Se sua proteção entregue na nuvem estiver definida como **alta,** **alta +** ou **tolerância zero,** você poderá experimentar um número maior de falsos positivos.
 

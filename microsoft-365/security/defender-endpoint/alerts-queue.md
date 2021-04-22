@@ -1,6 +1,6 @@
 ---
-title: Exibir e organizar a fila de alertas do Microsoft Defender ATP
-description: Saiba como funcionam as filas de alertas do Microsoft Defender ATP e como classificar e filtrar listas de alertas.
+title: Exibir e organizar a fila de alertas do Microsoft Defender for Endpoint
+description: Saiba como funcionam as filas de alertas do Microsoft Defender para Ponto de Extremidade e como classificar e filtrar listas de alertas.
 keywords: alertas, filas, filas de alertas, classificação, ordem, filtro, gerenciar alertas, novos, em andamento, resolvidos, mais novos, tempo na fila, gravidade, período de tempo, alertas de especialistas em ameaças da Microsoft
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 03/27/2020
 ms.technology: mde
-ms.openlocfilehash: e1c85db5afac70ec4f2520eed55dcc4f3773fd03
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 48a3ff8dba5bccd62d7d43b295c136a814056a15
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054327"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934328"
 ---
 # <a name="view-and-organize-the-microsoft-defender-for-endpoint-alerts-queue"></a>Exibir e organizar a fila de alertas do Microsoft Defender for Endpoint
 
@@ -61,7 +61,7 @@ Gravidade do alerta | Descrição
 Alto </br>(Vermelho) | Alertas comumente vistos associados a ameaças persistentes avançadas (APT). Esses alertas indicam um alto risco devido à gravidade dos danos que podem causar em dispositivos. Alguns exemplos são: atividades de ferramentas de roubo de credenciais, atividades de ransomware não associadas a nenhum grupo, adulteração de sensores de segurança ou atividades mal-intencionadas indicando um adversário humano.
 Médio </br>(Laranja) | Alertas de comportamentos pós-violação de detecção e resposta do ponto de extremidade que podem fazer parte de uma ameaça persistente avançada (APT). Isso inclui comportamentos observados típicos de estágios de ataque, alteração anômala do registro, execução de arquivos suspeitos e assim por diante. Embora alguns possam fazer parte de testes internos de segurança, ele requer investigação, pois também pode fazer parte de um ataque avançado.
 Baixo </br>(Amarelo) | Alertas sobre ameaças associadas ao malware predominante. Por exemplo, ferramentas de hack, ferramentas de hack não malware, como a execução de comandos de exploração, a limpeza de logs, etc., que muitas vezes não indicam uma ameaça avançada visando a organização. Ele também pode vir de um teste de ferramenta de segurança isolado por um usuário em sua organização.
-Informações </br>(Cinza) | Alertas que podem não ser considerados prejudiciais para a rede, mas podem impulsionar a conscientização de segurança organizacional sobre possíveis problemas de segurança.
+Informativo </br>(Cinza) | Alertas que podem não ser considerados prejudiciais para a rede, mas podem impulsionar a conscientização de segurança organizacional sobre possíveis problemas de segurança.
 
 #### <a name="understanding-alert-severity"></a>Noções básicas sobre a gravidade do alerta
 
@@ -136,7 +136,7 @@ Selecione a origem que disparou a detecção de alerta. Os participantes de visu
 | EDR                               | WindowsDefenderAtp         |
 | Microsoft 365 Defender            | MTP                        |
 | Microsoft Defender para Office 365 | OfficeATP                  |
-| Especialistas em ameaças da Microsoft          | ThreatExperts              |
+| Especialistas em Ameaças da Microsoft          | ThreatExperts              |
 | SmartScreen                       | WindowsDefenderSmartScreen |
 
 ### <a name="os-platform"></a>Plataforma do sistema operacional

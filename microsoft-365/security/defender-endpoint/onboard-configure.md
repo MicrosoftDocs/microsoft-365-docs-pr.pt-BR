@@ -1,7 +1,7 @@
 ---
 title: Integração de dispositivos para o serviço do Microsoft Defender para Ponto de Extremidade
 description: Onboard Windows 10 devices, servers, non-Windows devices and learn how to run a detection test.
-keywords: integração, microsoft defender para integração de ponto de extremidade, integração do windows atp, sccm, política de grupo, mdm, script local, teste de detecção
+keywords: integração, integração do Microsoft Defender para Ponto de Extremidade, sccm, política de grupo, mdm, script local, teste de detecção
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4aa3e30f34e7d9dc362cc0bbb277aaee5834b4fe
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 05cc5770df5bb05687bb8be69ad89a7abd6875ed
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861366"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933548"
 ---
 # <a name="onboard-devices-to-the-microsoft-defender-for-endpoint-service"></a>Integração de dispositivos para o serviço do Microsoft Defender para Ponto de Extremidade
 

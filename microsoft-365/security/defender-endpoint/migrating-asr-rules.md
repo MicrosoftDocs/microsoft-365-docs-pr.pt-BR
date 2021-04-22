@@ -1,7 +1,7 @@
 ---
 title: Migrando de um HIPS de terceiros para regras ASR
 description: Descreve como abordar uma migração de uma solução HIPS (Sistema de Prevenção contra Intrusão de Host) de terceiros para regras ASR.
-keywords: Regras de redução de superfície de ataque, asr, regras de asr, quadris, sistema de prevenção contra invasões de host, regras de proteção, antiexploit, exploração, prevenção de infecção, Microsoft Defender para Ponto de Extremidade, Microsoft Defender ATP
+keywords: Regras de redução de superfície de ataque, asr, regras de asr, quadris, sistema de prevenção contra invasões de host, regras de proteção, antiexploit, antiexploit, exploit, prevenção de infecção, Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 ms.topic: article
 ms.prod: m365-security
@@ -15,12 +15,12 @@ ms.author: v-lsaldanha
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
-ms.openlocfilehash: 5b2c6c12de7b87a045a81a552e3fe74b4829e94d
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: de65c134560ecca219de9174ff222d31dd578d31
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764778"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933776"
 ---
 # <a name="migrating-from-a-third-party-hips-to-asr-rules"></a>Migrando de um HIPS de terceiros para regras ASR
 
@@ -41,7 +41,7 @@ Este artigo ajuda você a mapear regras comuns para o Microsoft Defender para Po
 - **Aplica-se a**- Todos os Processos
 - **Processos**- N/A
 - **Operação**- Modificações do Registro
-- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos,Serviços** -  *\Software*,HKCU\Environment\UserInitMprLogonScript,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs *\StartExe, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options*\Depurador,HKEY_CURRENT_USER\Software\Microsoft\HtmlHelp Author\location,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit*\MonitorProcessExit*\MonitorProcessProcess
+- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos, Serviços** -  *\Software*,HKCU\Environment\UserInitMprLogonScript,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs *\StartExe, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options*\Depurador, HKEY_CURRENT_USER\Software\Microsoft\HtmlHelp Author\location, HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit*\MonitorProcessProcessExit*\MonitorProcessProcess
 - **Regras de Redução de Superfície de** Ataque - as regras asR bloqueiam as técnicas de ataque e não os Indicadores de Comprometimento (IOC). O bloqueio de uma extensão de arquivo específica nem sempre é útil, pois não impede que um dispositivo seja comprometido. Ele apenas impede parcialmente um ataque até que os invasores criem um novo tipo de extensão para a carga.
 - **Outros recursos recomendados**- Ter o Microsoft Defender AV habilitado, juntamente com a Análise de Comportamento e Proteção na Nuvem é altamente recomendado. Recomendamos que você use prevenção adicional, como a regra ASR "Usar proteção avançada contra ransomware". Isso fornece um nível maior de proteção contra ataques de ransomware. Além disso, várias dessas chaves do Registro são monitoradas pelo Microsoft Defender para Ponto de Extremidade, como técnicas ASEP, que dispararão alertas específicos. Além disso, as chaves do Registro usadas exigem um mínimo de privilégios de Administrador Local ou Instalador Confiável podem ser modificados. É recomendável usar um ambiente bloqueado, com contas ou direitos administrativos mínimos. Outras configurações do sistema podem ser habilitadas, incluindo "Desabilitar SeDebug para funções não necessárias" que fazem parte de nossas recomendações de segurança mais amplas.
 
@@ -50,7 +50,7 @@ Este artigo ajuda você a mapear regras comuns para o Microsoft Defender para Po
 - **Aplica-se a**- Programas NãoTrudos do USB
 - **Processos**- *
 - **Operação**- Execução do Processo
-- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos,Serviços:-*
+- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos, Serviços:-*
 - Regras de Redução de Superfície de Ataque **-** as regras asR têm uma regra interno para impedir o lançamento de programas não assinados e não assinados de unidades removíveis: "Bloquear processos não assinados e não assinados executados a partir do USB", GUID "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4".
 - **Outros recursos recomendados**- Explore controles adicionais para dispositivos USB e outras mídias removíveis usando o Microsoft Defender para Ponto de Extremidade: como controlar dispositivos USB e outras [mídias removíveis](/windows/security/threat-protection/device-control/control-usb-devices-using-intune)usando o Microsoft Defender para Ponto de Extremidade .
 
@@ -59,7 +59,7 @@ Este artigo ajuda você a mapear regras comuns para o Microsoft Defender para Po
 - **Aplica-se a**- Mshta
 - **Processos**- mshta.exe
 - **Operação**- Execução do Processo
-- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos,Serviços**- powershell.exe, cmd.exe, regsvr32.exe
+- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos, Serviços**- powershell.exe, cmd.exe, regsvr32.exe
 - **Regras de Redução de** Superfície de Ataque - as regras ASR não contêm nenhuma regra específica para impedir processos filho de "mshta.exe". Esse controle está dentro do limite de Exploit Protection ou Windows Defender Application Control.
 - **Outros recursos recomendados**- Habilitar Windows Defender Controle de Aplicativos para impedir mshta.exe de ser executado completamente. Se sua organização exigir "mshta.exe" para aplicativos de linha de negócios, configure uma regra específica Windows Defender Exploit Protection, para impedir mshta.exe iniciar processos filho.
 
@@ -68,7 +68,7 @@ Este artigo ajuda você a mapear regras comuns para o Microsoft Defender para Po
 - **Aplica-se a**- Outlook
 - **Processos**- outlook.exe
 - **Operação**- Execução do Processo
-- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos,Serviços**- powershell.exe
+- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos, Serviços**- powershell.exe
 - Regras de Redução de Superfície de Ataque **-** as regras asR têm uma regra interna para impedir que os aplicativos de comunicação do Office (Outlook, Skype e Teams) iniciam processos filho: "Bloquear o aplicativo de comunicação do Office de criar processos filho", GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
 - **Outros recursos recomendados**- Recomendamos habilizar o modo de idioma restrito do PowerShell para minimizar a superfície de ataque do PowerShell.
 
@@ -78,7 +78,7 @@ Este artigo ajuda você a mapear regras comuns para o Microsoft Defender para Po
 - **Aplica-se a**- Office  
 - **Processos**- winword.exe, powerpnt.exe, excel.exe
 - **Operação**- Execução do Processo
-- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos,Serviços**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
+- **Exemplos de Arquivos/Pastas, Chaves/Valores do Registro, Processos, Serviços**- powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
 - **Regras** de Redução de Superfície de Ataque - as regras asR têm uma regra interno para impedir que os aplicativos do Office inibam processos filho: "Bloquear todos os aplicativos do Office de criar processos filho", GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A".
 - **Outros recursos recomendados**- N/A
     
@@ -87,7 +87,7 @@ Este artigo ajuda você a mapear regras comuns para o Microsoft Defender para Po
 - **Aplica-se a**- Office
 - **Processos**- winword.exe, powerpnt.exe, excel.exe
 - **Operação**- Criação de Arquivo
-- **Exemplos de arquivos/pastas, Chaves/Valores do Registro, Processos,Serviços**- C:\Users *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop***.exe
+- **Exemplos de arquivos/pastas, Chaves/Valores do Registro, Processos,** Serviços - C:\Users *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp **.com, C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData**.scf, C:\Users\Public*.exe, C:\Users*\Desktop***.exe
 - **Regras de Redução de Superfície de** Ataque - N/A.
 
 ### <a name="block-wscript-from-reading-certain-types-of-files"></a>Impedir o Wscript de ler determinados tipos de arquivos
@@ -137,7 +137,7 @@ Este artigo ajuda você a mapear regras comuns para o Microsoft Defender para Po
 - **Regras de Redução de** Superfície de Ataque - Em geral, as regras asR não são projetadas para funcionar como gerenciador de aplicativos.
 - **Outros recursos recomendados**- Para impedir que os usuários iniciam processos ou programas específicos, é recomendável usar Windows Defender Controle de Aplicativos. Os indicadores de Arquivo e Certificado do Microsoft Defender para Endpoint podem ser usados em um cenário de Resposta a Incidentes (não deve ser visto como um mecanismo de controle de aplicativo).
     
-### <a name="block-unauthorized-changes-to-mdatp-av-configurations"></a>Bloquear alterações não autorizadas nas configurações av do MDATP
+### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>Bloquear alterações não autorizadas nas configurações do Microsoft Defender Antivírus
 
 - **Aplica-se a**- Todos os Processos
 - **Processos**- *

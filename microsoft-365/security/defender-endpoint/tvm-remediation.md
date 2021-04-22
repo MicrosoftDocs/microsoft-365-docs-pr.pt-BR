@@ -1,7 +1,7 @@
 ---
 title: Correção de vulnerabilidades com gerenciamento de ameaças e vulnerabilidades
 description: Remediar as deficiências de segurança descobertas por meio de recomendações de segurança e criar exceções, se necessário, no gerenciamento de ameaças e vulnerabilidades.
-keywords: microsoft defender para correção de tvm de ponto de extremidade, mdatp tvm, gerenciamento de ameaças e vulnerabilidades, gerenciamento de vulnerabilidades & ameaças, correção de gerenciamento de vulnerabilidades & ameaças, intune de correção de tvm, sccm de correção de tvm
+keywords: Microsoft Defender for Endpoint tvm corretion, Microsoft Defender for Endpoint tvm, gerenciamento de ameaças e vulnerabilidades, gerenciamento de vulnerabilidades & ameaça, correção de gerenciamento de vulnerabilidades & ameaça, intune de correção de tvm, sccm de correção de tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: be24528c2337c5d2616eb1bf69906f60ae7b4375
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 56b6c809e31285bbfae47a5fdcc0446890919e8b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689360"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934064"
 ---
 # <a name="remediate-vulnerabilities-with-threat-and-vulnerability-management"></a>Correção de vulnerabilidades com gerenciamento de ameaças e vulnerabilidades
 

@@ -1,7 +1,7 @@
 ---
 title: Insights do painel - gerenciamento de ameaças e vulnerabilidades
 description: O painel de gerenciamento de ameaças e vulnerabilidades pode ajudar os administradores de Segurança e SecOps a lidar com ameaças de segurança cibernética e criar a resiliência de segurança de sua organização.
-keywords: mdatp-tvm, painel mdatp-tvm, gerenciamento de vulnerabilidades & ameaças, gerenciamento de ameaças e vulnerabilidades, gerenciamento de ameaças baseadas em risco & gerenciamento de vulnerabilidades, configuração de segurança, Pontuação Segura da Microsoft para Dispositivos, pontuação de exposição
+keywords: Microsoft Defender para Endpoint-tvm, Painel do Microsoft Defender para Endpoint-tvm, gerenciamento de vulnerabilidades & ameaças, gerenciamento de ameaças e vulnerabilidades, gerenciamento de ameaças baseadas em risco & gerenciamento de vulnerabilidades, configuração de segurança, Pontuação Segura da Microsoft para Dispositivos, pontuação de exposição
 search.appverid: met150
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 35dd300d828bfa48ad753d7c65f36b2555cf4f60
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 82b6123a99eb406918708c6bf23b870ef3bc3d79
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500169"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934136"
 ---
 # <a name="dashboard-insights---threat-and-vulnerability-management"></a>Insights do painel - gerenciamento de ameaças e vulnerabilidades
 

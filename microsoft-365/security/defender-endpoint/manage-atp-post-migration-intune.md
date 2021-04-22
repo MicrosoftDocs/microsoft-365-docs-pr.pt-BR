@@ -1,7 +1,7 @@
 ---
 title: Gerenciar o Microsoft Defender para Ponto de Extremidade usando o Intune
 description: Saiba como gerenciar o Microsoft Defender para Ponto de Extremidade com o Intune
-keywords: pós-migração, gerenciar, operações, manutenção, utilização, intune, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: pós-migração, gerenciar, operações, manutenção, utilização, intune, Microsoft Defender para Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: 01936eb323060190f2e785df04c3d317f7999d08
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: d8396c352e593f9922b11e23119f7d9718eaf752
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185880"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934220"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-intune"></a>Gerenciar o Microsoft Defender para Ponto de Extremidade com o Intune
 
@@ -61,7 +61,7 @@ Este artigo descreve como encontrar suas configurações do Microsoft Defender p
 
 A tabela a seguir lista várias tarefas que você pode executar para configurar o Microsoft Defender para Ponto de Extremidade com o Intune. Não é preciso configurar tudo de uma vez. escolha uma tarefa, leia os recursos correspondentes e prossiga.
 
-|Tarefa  |Recursos para saber mais  |
+|Tarefas  |Recursos para saber mais  |
 |---------|---------|
 |**Gerenciar os dispositivos da sua organização usando o Intune** para proteger esses dispositivos e dados armazenados neles     |[Proteger dispositivos com o Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/device-protect)         |
 |**Integrar o Microsoft Defender para Ponto de Extremidade com o Intune** como uma solução de Defesa contra Ameaças Móveis <br/>*(para dispositivos Android e dispositivos que executam o Windows 10 ou posterior)*   |[Impor a conformidade para o Microsoft Defender para Ponto de Extremidade com Acesso Condicional no Intune](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection)         |

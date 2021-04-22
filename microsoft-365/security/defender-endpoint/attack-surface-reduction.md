@@ -1,7 +1,7 @@
 ---
 title: Usar regras de redução de superfície de ataque para evitar infecção por malware
 description: As regras de redução de superfície de ataque podem ajudar a impedir que explorações usem aplicativos e scripts para infectar dispositivos com malware.
-keywords: Regras de redução de superfície de ataque, asr, quadris, sistema de prevenção contra invasões de host, regras de proteção, antiexploit, exploração, prevenção de infecção, Microsoft Defender para Ponto de Extremidade, Microsoft Defender ATP
+keywords: Regras de redução de superfície de ataque, asr, quadris, sistema de prevenção contra invasão de host, regras de proteção, antiexploit, antiexploit, exploração, prevenção de infecção, Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 8790d959dc41e3edea684c66e556a2ec67f85ae1
-ms.sourcegitcommit: 0fe5989b7ee2f7ae0181f2781e31db7f58689441
+ms.openlocfilehash: 98f04a9aa34fda78c7caba2f6cb71c135428784f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697522"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933980"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Usar regras de redução de superfície de ataque para evitar infecção por malware
 
@@ -135,7 +135,7 @@ Você pode revisar o log de eventos do Windows para exibir eventos gerados por r
 2. Insira as palavras, *Visualizador de Eventos*, no menu Iniciar para abrir o Visualizador de Eventos do Windows.
 3. Em **Ações,** selecione **Importar exibição personalizada...**.
 4. Selecione o arquivo *cfa-events.xml* de onde ele foi extraído. Como alternativa, [copie o XML diretamente](event-views.md).
-5. Clique em **OK**.
+5. Selecione **OK**.
 
 Você pode criar uma exibição personalizada que filtra eventos para mostrar apenas os seguintes eventos, todos relacionados ao acesso controlado a pastas:
 

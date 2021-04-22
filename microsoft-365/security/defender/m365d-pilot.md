@@ -1,7 +1,7 @@
 ---
 title: Executar seu projeto piloto do Microsoft 365 Defender
 description: Execute seu projeto piloto do Microsoft 365 Defender em produção para determinar efetivamente os benefícios e a adoção do Microsoft 365 Defender.
-keywords: Piloto da Proteção contra Ameaças da Microsoft, execute o projeto piloto da Proteção contra Ameaças da Microsoft, avalie a Proteção contra Ameaças da Microsoft em produção, projeto piloto da Proteção contra Ameaças da Microsoft, segurança cibernética, ameaças persistentes avançadas, segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação automatizada e correção, busca avançada
+keywords: Piloto do Microsoft 365 Defender, execute o projeto piloto do Microsoft 365 Defender, avalie o Microsoft 365 Defender em produção, projeto piloto do Microsoft 365 Defender, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação automatizada e correção, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1dd310d962cbce2b339cf09d5be6317c227d3f13
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b1616b39597a90ff8e8f7b4c92f29f75c62fea18
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054407"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934424"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Executar seu projeto piloto do Microsoft 365 Defender 
 
@@ -50,9 +50,9 @@ Executar um piloto ajuda você a determinar efetivamente o benefício de adotar 
 Este guia fornece uma visão geral do Microsoft 365 Defender e instruções passo a passo sobre como configurar seu projeto piloto. 
 
 O Microsoft 365 Defender é um pacote de defesa empresarial unificado pré e pós-violação que coordena a proteção, a detecção, a prevenção, a investigação e a resposta entre pontos de extremidade, identidades, email e aplicativos para fornecer proteção integrada contra ataques sofisticados. Ele faz isso combinando e orquestrando os seguintes recursos em uma única solução de segurança:
-  - Microsoft Defender para Ponto de Extremidade, o novo nome para Proteção Avançada contra Ameaças do Microsoft Defender (pontos de extremidade)
-  - Microsoft Defender para Office 365, o novo nome do Office 365 ATP (email) 
-  - Microsoft Defender for Identity, o novo nome do Azure ATP (identidade) 
+  - Microsoft Defender para Ponto de Extremidade (pontos de extremidade)
+  - Microsoft Defender para Office 365 (email) 
+  - Microsoft Defender para Identidade (identidade) 
   - Microsoft Cloud App Security (aplicativos)
 
 ![Solução do Image of_Microsoft 365 Defender para usuários, Microsoft Defender for Identity, para pontos de extremidade Microsoft Defender para Ponto de Extremidade, para aplicativos de nuvem, Microsoft Cloud App Security e para dados, Microsoft Defender para Office 365](../../media/mtp/m365pillars.png)

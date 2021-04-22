@@ -1,7 +1,7 @@
 ---
-title: Implantar atualizações do Microsoft Defender para Ponto de Extremidade para Mac
-description: Atualizações de controle do Microsoft Defender para Ponto de Extremidade para Mac em ambientes corporativos.
-keywords: microsoft, defender, atp, mac, atualizações, implantar
+title: Implantar atualizações do Microsoft Defender para Ponto de Extremidade no Mac
+description: Controlar atualizações do Microsoft Defender para Ponto de Extremidade no Mac em ambientes corporativos.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, atualizações, deploy
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9d373594771efe4eb647c007db3a26efe83e330e
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 886195de38856306d69932446eae34212fe4bb0d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860310"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934496"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-macos"></a>Implantar atualizações do Microsoft Defender para Ponto de Extremidade no macOS
 

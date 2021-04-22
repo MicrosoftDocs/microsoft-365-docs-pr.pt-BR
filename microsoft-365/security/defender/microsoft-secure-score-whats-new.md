@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 5a868904a43e17952368e097c0b0e963252d5bed
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: b3f86dfbc1ae89eff61c680737061b01998a527b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570358"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933860"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Novidades na Pontuação Segura da Microsoft
 
@@ -50,7 +50,7 @@ Os clientes do Microsoft Teams verão "Restringir usuários anônimos de partici
 
 ## <a name="december-2020"></a>Dezembro de 2020
 
-### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Foram adicionadas seis ações de melhoria relacionadas a contas para o Microsoft Defender para Ponto de Extremidade (anteriormente Microsoft Defender ATP):
+### <a name="added-six-accounts-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>Foram adicionadas seis ações de melhoria relacionadas a contas para o Microsoft Defender para o Ponto de Extremidade:
 
 - Definir 'Tamanho mínimo da senha' como '14 ou mais caracteres'
 - Definir 'Impor histórico de senhas' como '24 ou mais senhas)'
@@ -65,7 +65,7 @@ Os clientes do Microsoft Teams verão "Restringir usuários anônimos de partici
 
 A capacidade de criar tíquetes serviceNow por meio da Pontuação Segura indo **para o Share > ServiceNow** não está mais disponível. Obrigado por seus comentários e suporte contínuo enquanto determinamos as próximas etapas.
 
-### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint-previously-microsoft-defender-atp"></a>Adicionadas três ações de melhoria relacionadas a serviços para o Microsoft Defender para Ponto de Extremidade (anteriormente Microsoft Defender ATP):
+### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>Adicionadas três ações de melhoria relacionadas a serviços para o Microsoft Defender para Ponto de Extremidade:
 
 - Corrigir o caminho de serviço não citado para serviços do Windows
 - Alterar o caminho executável do serviço para um local protegido comum

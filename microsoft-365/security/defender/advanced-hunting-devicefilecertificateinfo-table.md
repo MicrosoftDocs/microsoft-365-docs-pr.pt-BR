@@ -1,7 +1,7 @@
 ---
 title: Tabela DeviceFileCertificateInfo no esquema de busca avançado
 description: Saiba mais sobre informações de assinatura de arquivo na tabela DeviceFileCertificateInfo do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, assinatura digital, certificado, assinatura de arquivo, DeviceFileCertificateInfo
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, assinatura digital, certificado, assinatura de arquivo, DeviceFileCertificateInfo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: eafe84e2d08ce15fe2c3a7cbfafb0822a2f38666
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 272896c745386f13fc0e36301c5c16f5f24dbb42
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498640"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933668"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -42,17 +42,17 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `DeviceId` | string | Identificador exclusivo da máquina no serviço |
-| `DeviceName` | string | Nome de domínio totalmente qualificado (FQDN) da máquina |
+| `DeviceId` | cadeia de caracteres | Identificador exclusivo da máquina no serviço |
+| `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `IsSigned` | booliano | Indica se o arquivo está assinado |
-| `SignatureType` | string | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou leitura de um arquivo de catálogo externo |
-| `Signer` | string | Informações sobre o signante do arquivo |
-| `SignerHash` | string | Valor de hash exclusivo que identifica o signante |
-| `Issuer` | string | Informações sobre a autoridade de certificação de emissão (CA) |
-| `IssuerHash` | string | Valor de hash exclusivo identificando a autoridade de certificação de emissão (CA) |
-| `CertificateSerialNumber` | string | Identificador do certificado exclusivo da autoridade de certificação de emissão (CA) |
-| `CrlDistributionPointUrls` | string |  Matriz JSON listando as URLs de compartilhamentos de rede que contêm certificados e listas de revogação de certificados (CRLs) |
+| `SignatureType` | cadeia de caracteres | Indica se as informações de assinatura foram lidas como conteúdo incorporado no próprio arquivo ou leitura de um arquivo de catálogo externo |
+| `Signer` | cadeia de caracteres | Informações sobre o signante do arquivo |
+| `SignerHash` | cadeia de caracteres | Valor de hash exclusivo que identifica o signante |
+| `Issuer` | cadeia de caracteres | Informações sobre a autoridade de certificação de emissão (CA) |
+| `IssuerHash` | cadeia de caracteres | Valor de hash exclusivo identificando a autoridade de certificação de emissão (CA) |
+| `CertificateSerialNumber` | cadeia de caracteres | Identificador do certificado exclusivo da autoridade de certificação de emissão (CA) |
+| `CrlDistributionPointUrls` | cadeia de caracteres |  Matriz JSON listando as URLs de compartilhamentos de rede que contêm certificados e listas de revogação de certificados (CRLs) |
 | `CertificateCreationTime` | datetime | Data e hora em que o certificado foi criado |
 | `CertificateExpirationTime` | datetime | Data e hora em que o certificado está definido para expirar |
 | `CertificateCountersignatureTime` | datetime | Data e hora em que o certificado foi contra-assinado |

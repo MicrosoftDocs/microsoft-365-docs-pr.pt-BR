@@ -1,7 +1,7 @@
 ---
 title: Entrar em contato com o Microsoft Defender para suporte ao ponto de extremidade para clientes do Governo dos EUA
 description: Saiba como entrar em contato com o Suporte do Microsoft Defender para Ponto de Extremidade para clientes do Governo dos EUA
-keywords: suporte, contato, suporte premier, soluções, problemas, caso, governo, gcc, gcc-m, gcc-h, defender, ponto de extremidade, mdatp, mde
+keywords: suporte, contato, suporte premier, soluções, problemas, caso, governo, gcc, gcc-m, gcc-h, defender, ponto de extremidade, Microsoft Defender para Ponto de Extremidade, mde
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ROBOTS: noindex,nofollow
 ms.technology: mde
-ms.openlocfilehash: efdd2807db53f37a76108b872ca0822acfb2af81
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 97971699ec6000ab9233c2fd739f471cdda01b2d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053001"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933848"
 ---
 # <a name="contact-microsoft-defender-for-endpoint-support-for-us-government-customers"></a>Entrar em contato com o Microsoft Defender para suporte ao ponto de extremidade para clientes do Governo dos EUA
 

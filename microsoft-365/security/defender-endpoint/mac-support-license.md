@@ -1,7 +1,7 @@
 ---
-title: Solucionar problemas de licença do Microsoft Defender para Ponto de Extremidade para Mac
-description: Solucionar problemas de licença no Microsoft Defender para Ponto de Extremidade para Mac.
-keywords: microsoft, defender, atp, mac, performance
+title: Solucionar problemas de licença do Microsoft Defender para Ponto de Extremidade no Mac
+description: Solucionar problemas de licença no Microsoft Defender para Ponto de Extremidade no Mac.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, performance
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3fb351d9ce8e9beef812e6aaa7d463161a6af8df
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: e8084fab434246a5c9f12af40872ade66e6fa163
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862182"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934256"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Solucionar problemas de licença do Microsoft Defender para Ponto de Extremidade no macOS
 

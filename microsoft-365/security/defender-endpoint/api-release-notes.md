@@ -1,7 +1,7 @@
 ---
 title: Notas de versão da API do Microsoft Defender para Ponto de Extremidade
 description: Notas de versão para atualizações feitas no conjunto de APIs do Microsoft Defender for Endpoint.
-keywords: microsoft defender para notas de versão da api de ponto de extremidade, mde, apis, api mdatp, atualizações, anotações, versão
+keywords: Notas de versão da API do Microsoft Defender para Ponto de Extremidade, mde, APIs, API do Microsoft Defender para Ponto de Extremidade, atualizações, anotações, versão
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e37841fa17a5998c431c6a76b878f20ef1b06d10
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 02fd995b04c1644e88b38fd0feebc2c80a3681ac
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052785"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933620"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Notas de versão da API do Microsoft Defender para Ponto de Extremidade
 
