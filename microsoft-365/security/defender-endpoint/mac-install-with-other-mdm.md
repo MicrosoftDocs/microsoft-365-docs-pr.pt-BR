@@ -1,7 +1,7 @@
 ---
-title: Implantação com um sistema MDM (Gerenciamento de Dispositivo Móvel) diferente para o Microsoft Defender para Ponto de Extremidade para Mac
-description: Instale o Microsoft Defender para Ponto de Extremidade para Mac em outras soluções de gerenciamento.
-keywords: microsoft, defender, atp, mac, installation, deploy, macos, catalina, mojave, high sierra
+title: Implantação com um sistema MDM (Gerenciamento de Dispositivo Móvel) diferente para o Microsoft Defender para Ponto de Extremidade no Mac
+description: Instale o Microsoft Defender para Ponto de Extremidade no Mac em outras soluções de gerenciamento.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,112 +18,112 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e929c17ada761a334700f6e66d2921483686834b
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ca779fc4cc8c40adb25a0e95a9450f59954dc605
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861558"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933788"
 ---
-# <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a><span data-ttu-id="f02b5-104">Implantação com um sistema MDM (Gerenciamento de Dispositivo Móvel) diferente para o Microsoft Defender para Ponto de Extremidade no macOS</span><span class="sxs-lookup"><span data-stu-id="f02b5-104">Deployment with a different Mobile Device Management (MDM) system for Microsoft Defender for Endpoint on macOS</span></span>
+# <a name="deployment-with-a-different-mobile-device-management-mdm-system-for-microsoft-defender-for-endpoint-on-macos"></a><span data-ttu-id="2ddd0-104">Implantação com um sistema MDM (Gerenciamento de Dispositivo Móvel) diferente para o Microsoft Defender para Ponto de Extremidade no macOS</span><span class="sxs-lookup"><span data-stu-id="2ddd0-104">Deployment with a different Mobile Device Management (MDM) system for Microsoft Defender for Endpoint on macOS</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="f02b5-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="f02b5-105">**Applies to:**</span></span>
-- [<span data-ttu-id="f02b5-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="f02b5-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="f02b5-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f02b5-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="2ddd0-105">**Aplica-se a:**</span><span class="sxs-lookup"><span data-stu-id="2ddd0-105">**Applies to:**</span></span>
+- [<span data-ttu-id="2ddd0-106">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="2ddd0-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="2ddd0-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="2ddd0-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="f02b5-108">Deseja experimentar o Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="f02b5-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="f02b5-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="f02b5-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
+> <span data-ttu-id="2ddd0-108">Deseja experimentar o Defender para Ponto de Extremidade?</span><span class="sxs-lookup"><span data-stu-id="2ddd0-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="2ddd0-109">Inscreva-se para uma avaliação gratuita.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
  
-## <a name="prerequisites-and-system-requirements"></a><span data-ttu-id="f02b5-110">Pré-requisitos e requisitos do sistema</span><span class="sxs-lookup"><span data-stu-id="f02b5-110">Prerequisites and system requirements</span></span>
+## <a name="prerequisites-and-system-requirements"></a><span data-ttu-id="2ddd0-110">Pré-requisitos e requisitos do sistema</span><span class="sxs-lookup"><span data-stu-id="2ddd0-110">Prerequisites and system requirements</span></span>
 
-<span data-ttu-id="f02b5-111">Antes de começar, consulte a página principal do Microsoft Defender para Ponto de Extremidade no [macOS](microsoft-defender-endpoint-mac.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.</span><span class="sxs-lookup"><span data-stu-id="f02b5-111">Before you get started, see [the main Microsoft Defender for Endpoint on macOS page](microsoft-defender-endpoint-mac.md) for a description of prerequisites and system requirements for the current software version.</span></span>
+<span data-ttu-id="2ddd0-111">Antes de começar, consulte a página principal do Microsoft Defender para Ponto de Extremidade no [macOS](microsoft-defender-endpoint-mac.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-111">Before you get started, see [the main Microsoft Defender for Endpoint on macOS page](microsoft-defender-endpoint-mac.md) for a description of prerequisites and system requirements for the current software version.</span></span>
 
 
-## <a name="approach"></a><span data-ttu-id="f02b5-112">Abordagem</span><span class="sxs-lookup"><span data-stu-id="f02b5-112">Approach</span></span>
-
-> [!CAUTION]
-
-> <span data-ttu-id="f02b5-113">Atualmente, a Microsoft dá suporte oficial apenas ao Intune e ao JAMF para implantação e gerenciamento do Microsoft Defender para Ponto de Extremidade no macOS.</span><span class="sxs-lookup"><span data-stu-id="f02b5-113">Currently, Microsoft officially supports only Intune and JAMF for the deployment and management of Microsoft Defender for Endpoint on macOS.</span></span> <span data-ttu-id="f02b5-114">A Microsoft não faz garantias, expressas ou implícitas, com relação às informações fornecidas abaixo.</span><span class="sxs-lookup"><span data-stu-id="f02b5-114">Microsoft makes no warranties, express or implied, with respect to the information provided below.</span></span>
-
-<span data-ttu-id="f02b5-115">Se sua organização usa uma solução MDM (Gerenciamento de Dispositivo Móvel) que não tem suporte oficial, isso não significa que você não pode implantar ou executar o Microsoft Defender para Ponto de Extremidade no macOS.</span><span class="sxs-lookup"><span data-stu-id="f02b5-115">If your organization uses a Mobile Device Management (MDM) solution that is not officially supported, this does not mean you are unable to deploy or run Microsoft Defender for Endpoint on macOS.</span></span>
-
-<span data-ttu-id="f02b5-116">O Microsoft Defender para Ponto de Extremidade no macOS não depende de recursos específicos do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="f02b5-116">Microsoft Defender for Endpoint on macOS does not depend on any vendor-specific features.</span></span> <span data-ttu-id="f02b5-117">Ele pode ser usado com qualquer solução MDM que oferece suporte aos seguintes recursos:</span><span class="sxs-lookup"><span data-stu-id="f02b5-117">It can be used with any MDM solution that supports the following features:</span></span>
-
-- <span data-ttu-id="f02b5-118">Implante um macOS .pkg em dispositivos gerenciados.</span><span class="sxs-lookup"><span data-stu-id="f02b5-118">Deploy a macOS .pkg to managed devices.</span></span>
-- <span data-ttu-id="f02b5-119">Implantar perfis de configuração do sistema macOS em dispositivos gerenciados.</span><span class="sxs-lookup"><span data-stu-id="f02b5-119">Deploy macOS system configuration profiles to managed devices.</span></span>
-- <span data-ttu-id="f02b5-120">Execute uma ferramenta/script arbitrária configurada pelo administrador em dispositivos gerenciados.</span><span class="sxs-lookup"><span data-stu-id="f02b5-120">Run an arbitrary admin-configured tool/script on managed devices.</span></span>
-
-<span data-ttu-id="f02b5-121">A maioria das soluções MDM modernas incluem esses recursos, no entanto, eles podem chamá-los de forma diferente.</span><span class="sxs-lookup"><span data-stu-id="f02b5-121">Most modern MDM solutions include these features, however, they may call them differently.</span></span>
-
-<span data-ttu-id="f02b5-122">No entanto, você pode implantar o Defender sem o último requisito da lista anterior:</span><span class="sxs-lookup"><span data-stu-id="f02b5-122">You can deploy Defender without the last requirement from the preceding list, however:</span></span>
-
-- <span data-ttu-id="f02b5-123">Você não poderá coletar status de forma centralizada</span><span class="sxs-lookup"><span data-stu-id="f02b5-123">You will not be able to collect status in a centralized way</span></span>
-- <span data-ttu-id="f02b5-124">Se você decidir desinstalar o Defender, precisará fazer logoff no dispositivo cliente localmente como administrador</span><span class="sxs-lookup"><span data-stu-id="f02b5-124">If you decide to uninstall Defender, you will need to log on to the client device locally as an administrator</span></span>
-
-## <a name="deployment"></a><span data-ttu-id="f02b5-125">Implantação</span><span class="sxs-lookup"><span data-stu-id="f02b5-125">Deployment</span></span>
-
-<span data-ttu-id="f02b5-126">A maioria das soluções MDM usa o mesmo modelo para gerenciar dispositivos macOS, com terminologia semelhante.</span><span class="sxs-lookup"><span data-stu-id="f02b5-126">Most MDM solutions use the same model for managing macOS devices, with similar terminology.</span></span> <span data-ttu-id="f02b5-127">Use [a implantação baseada em JAMF](mac-install-with-jamf.md) como modelo.</span><span class="sxs-lookup"><span data-stu-id="f02b5-127">Use [JAMF-based deployment](mac-install-with-jamf.md) as a template.</span></span>
-
-### <a name="package"></a><span data-ttu-id="f02b5-128">Pacote</span><span class="sxs-lookup"><span data-stu-id="f02b5-128">Package</span></span>
-
-<span data-ttu-id="f02b5-129">Configurar a implantação [de um pacote de](mac-install-with-jamf.md)aplicativos necessário , com o pacote de instalação (wdav.pkg) baixado do Centro de Segurança do Microsoft [Defender](mac-install-with-jamf.md).</span><span class="sxs-lookup"><span data-stu-id="f02b5-129">Configure deployment of a [required application package](mac-install-with-jamf.md), with the installation package (wdav.pkg) downloaded from [Microsoft Defender Security Center](mac-install-with-jamf.md).</span></span>
-
-<span data-ttu-id="f02b5-130">Para implantar o pacote em sua empresa, use as instruções associadas à sua solução MDM.</span><span class="sxs-lookup"><span data-stu-id="f02b5-130">In order to deploy the package to your enterprise, use the instructions associated with your MDM solution.</span></span>
-
-### <a name="license-settings"></a><span data-ttu-id="f02b5-131">Configurações de licença</span><span class="sxs-lookup"><span data-stu-id="f02b5-131">License settings</span></span>
-
-<span data-ttu-id="f02b5-132">Configurar um [perfil de configuração do sistema.](mac-install-with-jamf.md)</span><span class="sxs-lookup"><span data-stu-id="f02b5-132">Set up [a system configuration profile](mac-install-with-jamf.md).</span></span> 
-
-<span data-ttu-id="f02b5-133">Sua solução MDM pode chamá-la de algo como "Perfil de Configurações Personalizadas", pois o Microsoft Defender para Ponto de Extremidade no macOS não faz parte do macOS.</span><span class="sxs-lookup"><span data-stu-id="f02b5-133">Your MDM solution may call it something like "Custom Settings Profile", as Microsoft Defender for Endpoint on macOS is not part of macOS.</span></span>
-
-<span data-ttu-id="f02b5-134">Use a lista de propriedades, jamf/WindowsDefenderATPOnboarding.plist, que pode ser extraída de um pacote de integração baixado do Centro de Segurança do [Microsoft Defender.](mac-install-with-jamf.md)</span><span class="sxs-lookup"><span data-stu-id="f02b5-134">Use the property list, jamf/WindowsDefenderATPOnboarding.plist, which can be extracted from an onboarding package downloaded from [Microsoft Defender Security Center](mac-install-with-jamf.md).</span></span>
-<span data-ttu-id="f02b5-135">Seu sistema pode dar suporte a uma lista de propriedades arbitrárias no formato XML.</span><span class="sxs-lookup"><span data-stu-id="f02b5-135">Your system may support an arbitrary property list in XML format.</span></span> <span data-ttu-id="f02b5-136">Você pode carregar o arquivo jamf/WindowsDefenderATPOnboarding.plist como está nesse caso.</span><span class="sxs-lookup"><span data-stu-id="f02b5-136">You can upload the jamf/WindowsDefenderATPOnboarding.plist file as-is in that case.</span></span>
-<span data-ttu-id="f02b5-137">Como alternativa, pode exigir que você converta a lista de propriedades em um formato diferente primeiro.</span><span class="sxs-lookup"><span data-stu-id="f02b5-137">Alternatively, it may require you to convert the property list to a different format first.</span></span>
-
-<span data-ttu-id="f02b5-138">Normalmente, seu perfil personalizado tem uma ID, nome ou atributo de domínio.</span><span class="sxs-lookup"><span data-stu-id="f02b5-138">Typically, your custom profile has an ID, name, or domain attribute.</span></span> <span data-ttu-id="f02b5-139">Você deve usar exatamente "com.microsoft.wdav.atp" para esse valor.</span><span class="sxs-lookup"><span data-stu-id="f02b5-139">You must use exactly "com.microsoft.wdav.atp" for this value.</span></span>
-<span data-ttu-id="f02b5-140">O MDM o usa para implantar o arquivo de configurações em **/Library/Managed Preferences/com.microsoft.wdav.atp.plist** em um dispositivo cliente, e o Defender usa esse arquivo para carregar as informações de integração.</span><span class="sxs-lookup"><span data-stu-id="f02b5-140">MDM uses it to deploy the settings file to **/Library/Managed Preferences/com.microsoft.wdav.atp.plist** on a client device, and Defender uses this file for loading the onboarding information.</span></span>
-
-### <a name="kernel-extension-policy"></a><span data-ttu-id="f02b5-141">Política de extensão de kernel</span><span class="sxs-lookup"><span data-stu-id="f02b5-141">Kernel extension policy</span></span>
-
-<span data-ttu-id="f02b5-142">Configurar uma política de extensão KEXT ou kernel.</span><span class="sxs-lookup"><span data-stu-id="f02b5-142">Set up a KEXT or kernel extension policy.</span></span> <span data-ttu-id="f02b5-143">Use o identificador de **equipe UBF8T346G9** para permitir extensões de kernel fornecidas pela Microsoft.</span><span class="sxs-lookup"><span data-stu-id="f02b5-143">Use team identifier **UBF8T346G9** to allow kernel extensions provided by Microsoft.</span></span>
+## <a name="approach"></a><span data-ttu-id="2ddd0-112">Abordagem</span><span class="sxs-lookup"><span data-stu-id="2ddd0-112">Approach</span></span>
 
 > [!CAUTION]
-> <span data-ttu-id="f02b5-144">Se seu ambiente consistir em dispositivos Apple Silicon (M1), esses dispositivos não devem receber perfis de configuração com políticas KEXT.</span><span class="sxs-lookup"><span data-stu-id="f02b5-144">If your environment consists of Apple Silicon (M1) devices, these machines should not receive configuration profiles with KEXT policies.</span></span>
-> <span data-ttu-id="f02b5-145">A Apple não dá suporte a KEXT nesses dispositivos, a implantação desse perfil falharia em máquinas M1.</span><span class="sxs-lookup"><span data-stu-id="f02b5-145">Apple does not support KEXT on these machines, deployment of such profile would fail on M1 machines.</span></span>
 
-### <a name="system-extension-policy"></a><span data-ttu-id="f02b5-146">Política de extensão do sistema</span><span class="sxs-lookup"><span data-stu-id="f02b5-146">System extension policy</span></span>
+> <span data-ttu-id="2ddd0-113">Atualmente, a Microsoft dá suporte oficial apenas ao Intune e ao JAMF para implantação e gerenciamento do Microsoft Defender para Ponto de Extremidade no macOS.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-113">Currently, Microsoft officially supports only Intune and JAMF for the deployment and management of Microsoft Defender for Endpoint on macOS.</span></span> <span data-ttu-id="2ddd0-114">A Microsoft não faz garantias, expressas ou implícitas, com relação às informações fornecidas abaixo.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-114">Microsoft makes no warranties, express or implied, with respect to the information provided below.</span></span>
 
-<span data-ttu-id="f02b5-147">Configurar uma política de extensão do sistema.</span><span class="sxs-lookup"><span data-stu-id="f02b5-147">Set up a system extension policy.</span></span> <span data-ttu-id="f02b5-148">Use o identificador de **equipe UBF8T346G9** e aprove os seguintes identificadores de pacote:</span><span class="sxs-lookup"><span data-stu-id="f02b5-148">Use team identifier **UBF8T346G9** and approve the following bundle identifiers:</span></span>
+<span data-ttu-id="2ddd0-115">Se sua organização usa uma solução MDM (Gerenciamento de Dispositivo Móvel) que não tem suporte oficial, isso não significa que você não pode implantar ou executar o Microsoft Defender para Ponto de Extremidade no macOS.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-115">If your organization uses a Mobile Device Management (MDM) solution that is not officially supported, this does not mean you are unable to deploy or run Microsoft Defender for Endpoint on macOS.</span></span>
 
-- <span data-ttu-id="f02b5-149">com.microsoft.wdav.epsext</span><span class="sxs-lookup"><span data-stu-id="f02b5-149">com.microsoft.wdav.epsext</span></span>
-- <span data-ttu-id="f02b5-150">com.microsoft.wdav.netext</span><span class="sxs-lookup"><span data-stu-id="f02b5-150">com.microsoft.wdav.netext</span></span>
+<span data-ttu-id="2ddd0-116">O Microsoft Defender para Ponto de Extremidade no macOS não depende de recursos específicos do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-116">Microsoft Defender for Endpoint on macOS does not depend on any vendor-specific features.</span></span> <span data-ttu-id="2ddd0-117">Ele pode ser usado com qualquer solução MDM que oferece suporte aos seguintes recursos:</span><span class="sxs-lookup"><span data-stu-id="2ddd0-117">It can be used with any MDM solution that supports the following features:</span></span>
 
-### <a name="full-disk-access-policy"></a><span data-ttu-id="f02b5-151">Política de acesso em disco completo</span><span class="sxs-lookup"><span data-stu-id="f02b5-151">Full disk access policy</span></span>
+- <span data-ttu-id="2ddd0-118">Implante um macOS .pkg em dispositivos gerenciados.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-118">Deploy a macOS .pkg to managed devices.</span></span>
+- <span data-ttu-id="2ddd0-119">Implantar perfis de configuração do sistema macOS em dispositivos gerenciados.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-119">Deploy macOS system configuration profiles to managed devices.</span></span>
+- <span data-ttu-id="2ddd0-120">Execute uma ferramenta/script arbitrária configurada pelo administrador em dispositivos gerenciados.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-120">Run an arbitrary admin-configured tool/script on managed devices.</span></span>
 
-<span data-ttu-id="f02b5-152">Conceda acesso em disco completo aos seguintes componentes:</span><span class="sxs-lookup"><span data-stu-id="f02b5-152">Grant Full Disk Access to the following components:</span></span>
+<span data-ttu-id="2ddd0-121">A maioria das soluções MDM modernas incluem esses recursos, no entanto, eles podem chamá-los de forma diferente.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-121">Most modern MDM solutions include these features, however, they may call them differently.</span></span>
 
-- <span data-ttu-id="f02b5-153">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="f02b5-153">Microsoft Defender for Endpoint</span></span>
-    - <span data-ttu-id="f02b5-154">Identificador: `com.microsoft.wdav`</span><span class="sxs-lookup"><span data-stu-id="f02b5-154">Identifier: `com.microsoft.wdav`</span></span>
-    - <span data-ttu-id="f02b5-155">Tipo de identificador: ID do pacote</span><span class="sxs-lookup"><span data-stu-id="f02b5-155">Identifier Type: Bundle ID</span></span>
-    - <span data-ttu-id="f02b5-156">Requisito de código: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span><span class="sxs-lookup"><span data-stu-id="f02b5-156">Code Requirement: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span></span>
+<span data-ttu-id="2ddd0-122">No entanto, você pode implantar o Defender sem o último requisito da lista anterior:</span><span class="sxs-lookup"><span data-stu-id="2ddd0-122">You can deploy Defender without the last requirement from the preceding list, however:</span></span>
 
-- <span data-ttu-id="f02b5-157">Extensão de Segurança do Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="f02b5-157">Microsoft Defender for Endpoint Security Extension</span></span>
-    - <span data-ttu-id="f02b5-158">Identificador: `com.microsoft.wdav.epsext`</span><span class="sxs-lookup"><span data-stu-id="f02b5-158">Identifier: `com.microsoft.wdav.epsext`</span></span>
-    - <span data-ttu-id="f02b5-159">Tipo de identificador: ID do pacote</span><span class="sxs-lookup"><span data-stu-id="f02b5-159">Identifier Type: Bundle ID</span></span>
-    - <span data-ttu-id="f02b5-160">Requisito de código: `identifier "com.microsoft.wdav.epsext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span><span class="sxs-lookup"><span data-stu-id="f02b5-160">Code Requirement: `identifier "com.microsoft.wdav.epsext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span></span>
+- <span data-ttu-id="2ddd0-123">Você não poderá coletar status de forma centralizada</span><span class="sxs-lookup"><span data-stu-id="2ddd0-123">You will not be able to collect status in a centralized way</span></span>
+- <span data-ttu-id="2ddd0-124">Se você decidir desinstalar o Defender, precisará fazer logoff no dispositivo cliente localmente como administrador</span><span class="sxs-lookup"><span data-stu-id="2ddd0-124">If you decide to uninstall Defender, you will need to log on to the client device locally as an administrator</span></span>
 
-### <a name="network-extension-policy"></a><span data-ttu-id="f02b5-161">Política de extensão de rede</span><span class="sxs-lookup"><span data-stu-id="f02b5-161">Network extension policy</span></span>
+## <a name="deployment"></a><span data-ttu-id="2ddd0-125">Implantação</span><span class="sxs-lookup"><span data-stu-id="2ddd0-125">Deployment</span></span>
 
-<span data-ttu-id="f02b5-162">Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="f02b5-162">As part of the Endpoint Detection and Response capabilities, Microsoft Defender for Endpoint on macOS inspects socket traffic and reports this information to the Microsoft Defender Security Center portal.</span></span> <span data-ttu-id="f02b5-163">A política a seguir permite que a extensão de rede execute essa funcionalidade.</span><span class="sxs-lookup"><span data-stu-id="f02b5-163">The following policy allows the network extension to perform this functionality.</span></span>
+<span data-ttu-id="2ddd0-126">A maioria das soluções MDM usa o mesmo modelo para gerenciar dispositivos macOS, com terminologia semelhante.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-126">Most MDM solutions use the same model for managing macOS devices, with similar terminology.</span></span> <span data-ttu-id="2ddd0-127">Use [a implantação baseada em JAMF](mac-install-with-jamf.md) como modelo.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-127">Use [JAMF-based deployment](mac-install-with-jamf.md) as a template.</span></span>
 
-- <span data-ttu-id="f02b5-164">Tipo de filtro: Plug-in</span><span class="sxs-lookup"><span data-stu-id="f02b5-164">Filter type: Plugin</span></span>
-- <span data-ttu-id="f02b5-165">Identificador do pacote de plug-in: `com.microsoft.wdav`</span><span class="sxs-lookup"><span data-stu-id="f02b5-165">Plugin bundle identifier: `com.microsoft.wdav`</span></span>
-- <span data-ttu-id="f02b5-166">Filtrar o identificador de pacote do provedor de dados: `com.microsoft.wdav.netext`</span><span class="sxs-lookup"><span data-stu-id="f02b5-166">Filter data provider bundle identifier: `com.microsoft.wdav.netext`</span></span>
-- <span data-ttu-id="f02b5-167">Requisito designado do provedor de dados de filtro: `identifier "com.microsoft.wdav.tunnelext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span><span class="sxs-lookup"><span data-stu-id="f02b5-167">Filter data provider designated requirement: `identifier "com.microsoft.wdav.tunnelext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span></span>
-- <span data-ttu-id="f02b5-168">Soquetes de filtro: `true`</span><span class="sxs-lookup"><span data-stu-id="f02b5-168">Filter sockets: `true`</span></span>
+### <a name="package"></a><span data-ttu-id="2ddd0-128">Pacote</span><span class="sxs-lookup"><span data-stu-id="2ddd0-128">Package</span></span>
 
-## <a name="check-installation-status"></a><span data-ttu-id="f02b5-169">Verificar o status da instalação</span><span class="sxs-lookup"><span data-stu-id="f02b5-169">Check installation status</span></span>
+<span data-ttu-id="2ddd0-129">Configurar a implantação [de um pacote de](mac-install-with-jamf.md)aplicativos necessário , com o pacote de instalação (wdav.pkg) baixado do Centro de Segurança do Microsoft [Defender](mac-install-with-jamf.md).</span><span class="sxs-lookup"><span data-stu-id="2ddd0-129">Configure deployment of a [required application package](mac-install-with-jamf.md), with the installation package (wdav.pkg) downloaded from [Microsoft Defender Security Center](mac-install-with-jamf.md).</span></span>
 
-<span data-ttu-id="f02b5-170">Execute [o Microsoft Defender para Ponto de](mac-install-with-jamf.md) Extremidade em um dispositivo cliente para verificar o status de integração.</span><span class="sxs-lookup"><span data-stu-id="f02b5-170">Run [Microsoft Defender for Endpoint](mac-install-with-jamf.md) on a client device to check the onboarding status.</span></span>
+<span data-ttu-id="2ddd0-130">Para implantar o pacote em sua empresa, use as instruções associadas à sua solução MDM.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-130">In order to deploy the package to your enterprise, use the instructions associated with your MDM solution.</span></span>
+
+### <a name="license-settings"></a><span data-ttu-id="2ddd0-131">Configurações de licença</span><span class="sxs-lookup"><span data-stu-id="2ddd0-131">License settings</span></span>
+
+<span data-ttu-id="2ddd0-132">Configurar um [perfil de configuração do sistema.](mac-install-with-jamf.md)</span><span class="sxs-lookup"><span data-stu-id="2ddd0-132">Set up [a system configuration profile](mac-install-with-jamf.md).</span></span> 
+
+<span data-ttu-id="2ddd0-133">Sua solução MDM pode chamá-la de algo como "Perfil de Configurações Personalizadas", pois o Microsoft Defender para Ponto de Extremidade no macOS não faz parte do macOS.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-133">Your MDM solution may call it something like "Custom Settings Profile", as Microsoft Defender for Endpoint on macOS is not part of macOS.</span></span>
+
+<span data-ttu-id="2ddd0-134">Use a lista de propriedades, jamf/WindowsDefenderATPOnboarding.plist, que pode ser extraída de um pacote de integração baixado do Centro de Segurança do [Microsoft Defender.](mac-install-with-jamf.md)</span><span class="sxs-lookup"><span data-stu-id="2ddd0-134">Use the property list, jamf/WindowsDefenderATPOnboarding.plist, which can be extracted from an onboarding package downloaded from [Microsoft Defender Security Center](mac-install-with-jamf.md).</span></span>
+<span data-ttu-id="2ddd0-135">Seu sistema pode dar suporte a uma lista de propriedades arbitrárias no formato XML.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-135">Your system may support an arbitrary property list in XML format.</span></span> <span data-ttu-id="2ddd0-136">Você pode carregar o arquivo jamf/WindowsDefenderATPOnboarding.plist como está nesse caso.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-136">You can upload the jamf/WindowsDefenderATPOnboarding.plist file as-is in that case.</span></span>
+<span data-ttu-id="2ddd0-137">Como alternativa, pode exigir que você converta a lista de propriedades em um formato diferente primeiro.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-137">Alternatively, it may require you to convert the property list to a different format first.</span></span>
+
+<span data-ttu-id="2ddd0-138">Normalmente, seu perfil personalizado tem uma ID, nome ou atributo de domínio.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-138">Typically, your custom profile has an ID, name, or domain attribute.</span></span> <span data-ttu-id="2ddd0-139">Você deve usar exatamente "com.microsoft.wdav.atp" para esse valor.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-139">You must use exactly "com.microsoft.wdav.atp" for this value.</span></span>
+<span data-ttu-id="2ddd0-140">O MDM o usa para implantar o arquivo de configurações em **/Library/Managed Preferences/com.microsoft.wdav.atp.plist** em um dispositivo cliente, e o Defender usa esse arquivo para carregar as informações de integração.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-140">MDM uses it to deploy the settings file to **/Library/Managed Preferences/com.microsoft.wdav.atp.plist** on a client device, and Defender uses this file for loading the onboarding information.</span></span>
+
+### <a name="kernel-extension-policy"></a><span data-ttu-id="2ddd0-141">Política de extensão de kernel</span><span class="sxs-lookup"><span data-stu-id="2ddd0-141">Kernel extension policy</span></span>
+
+<span data-ttu-id="2ddd0-142">Configurar uma política de extensão KEXT ou kernel.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-142">Set up a KEXT or kernel extension policy.</span></span> <span data-ttu-id="2ddd0-143">Use o identificador de **equipe UBF8T346G9** para permitir extensões de kernel fornecidas pela Microsoft.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-143">Use team identifier **UBF8T346G9** to allow kernel extensions provided by Microsoft.</span></span>
+
+> [!CAUTION]
+> <span data-ttu-id="2ddd0-144">Se seu ambiente consistir em dispositivos Apple Silicon (M1), esses dispositivos não devem receber perfis de configuração com políticas KEXT.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-144">If your environment consists of Apple Silicon (M1) devices, these machines should not receive configuration profiles with KEXT policies.</span></span>
+> <span data-ttu-id="2ddd0-145">A Apple não dá suporte a KEXT nesses dispositivos, a implantação desse perfil falharia em máquinas M1.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-145">Apple does not support KEXT on these machines, deployment of such profile would fail on M1 machines.</span></span>
+
+### <a name="system-extension-policy"></a><span data-ttu-id="2ddd0-146">Política de extensão do sistema</span><span class="sxs-lookup"><span data-stu-id="2ddd0-146">System extension policy</span></span>
+
+<span data-ttu-id="2ddd0-147">Configurar uma política de extensão do sistema.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-147">Set up a system extension policy.</span></span> <span data-ttu-id="2ddd0-148">Use o identificador de **equipe UBF8T346G9** e aprove os seguintes identificadores de pacote:</span><span class="sxs-lookup"><span data-stu-id="2ddd0-148">Use team identifier **UBF8T346G9** and approve the following bundle identifiers:</span></span>
+
+- <span data-ttu-id="2ddd0-149">com.microsoft.wdav.epsext</span><span class="sxs-lookup"><span data-stu-id="2ddd0-149">com.microsoft.wdav.epsext</span></span>
+- <span data-ttu-id="2ddd0-150">com.microsoft.wdav.netext</span><span class="sxs-lookup"><span data-stu-id="2ddd0-150">com.microsoft.wdav.netext</span></span>
+
+### <a name="full-disk-access-policy"></a><span data-ttu-id="2ddd0-151">Política de acesso em disco completo</span><span class="sxs-lookup"><span data-stu-id="2ddd0-151">Full disk access policy</span></span>
+
+<span data-ttu-id="2ddd0-152">Conceda acesso em disco completo aos seguintes componentes:</span><span class="sxs-lookup"><span data-stu-id="2ddd0-152">Grant Full Disk Access to the following components:</span></span>
+
+- <span data-ttu-id="2ddd0-153">Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="2ddd0-153">Microsoft Defender for Endpoint</span></span>
+    - <span data-ttu-id="2ddd0-154">Identificador: `com.microsoft.wdav`</span><span class="sxs-lookup"><span data-stu-id="2ddd0-154">Identifier: `com.microsoft.wdav`</span></span>
+    - <span data-ttu-id="2ddd0-155">Tipo de identificador: ID do pacote</span><span class="sxs-lookup"><span data-stu-id="2ddd0-155">Identifier Type: Bundle ID</span></span>
+    - <span data-ttu-id="2ddd0-156">Requisito de código: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span><span class="sxs-lookup"><span data-stu-id="2ddd0-156">Code Requirement: `identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span></span>
+
+- <span data-ttu-id="2ddd0-157">Extensão de Segurança do Microsoft Defender para Ponto de Extremidade</span><span class="sxs-lookup"><span data-stu-id="2ddd0-157">Microsoft Defender for Endpoint Security Extension</span></span>
+    - <span data-ttu-id="2ddd0-158">Identificador: `com.microsoft.wdav.epsext`</span><span class="sxs-lookup"><span data-stu-id="2ddd0-158">Identifier: `com.microsoft.wdav.epsext`</span></span>
+    - <span data-ttu-id="2ddd0-159">Tipo de identificador: ID do pacote</span><span class="sxs-lookup"><span data-stu-id="2ddd0-159">Identifier Type: Bundle ID</span></span>
+    - <span data-ttu-id="2ddd0-160">Requisito de código: `identifier "com.microsoft.wdav.epsext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span><span class="sxs-lookup"><span data-stu-id="2ddd0-160">Code Requirement: `identifier "com.microsoft.wdav.epsext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span></span>
+
+### <a name="network-extension-policy"></a><span data-ttu-id="2ddd0-161">Política de extensão de rede</span><span class="sxs-lookup"><span data-stu-id="2ddd0-161">Network extension policy</span></span>
+
+<span data-ttu-id="2ddd0-162">Como parte dos recursos de Detecção e Resposta do Ponto de Extremidade, o Microsoft Defender para Ponto de Extremidade no macOS inspeciona o tráfego de soquete e relata essas informações ao portal do Centro de Segurança do Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-162">As part of the Endpoint Detection and Response capabilities, Microsoft Defender for Endpoint on macOS inspects socket traffic and reports this information to the Microsoft Defender Security Center portal.</span></span> <span data-ttu-id="2ddd0-163">A política a seguir permite que a extensão de rede execute essa funcionalidade.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-163">The following policy allows the network extension to perform this functionality.</span></span>
+
+- <span data-ttu-id="2ddd0-164">Tipo de filtro: Plug-in</span><span class="sxs-lookup"><span data-stu-id="2ddd0-164">Filter type: Plugin</span></span>
+- <span data-ttu-id="2ddd0-165">Identificador do pacote de plug-in: `com.microsoft.wdav`</span><span class="sxs-lookup"><span data-stu-id="2ddd0-165">Plugin bundle identifier: `com.microsoft.wdav`</span></span>
+- <span data-ttu-id="2ddd0-166">Filtrar o identificador de pacote do provedor de dados: `com.microsoft.wdav.netext`</span><span class="sxs-lookup"><span data-stu-id="2ddd0-166">Filter data provider bundle identifier: `com.microsoft.wdav.netext`</span></span>
+- <span data-ttu-id="2ddd0-167">Requisito designado do provedor de dados de filtro: `identifier "com.microsoft.wdav.tunnelext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span><span class="sxs-lookup"><span data-stu-id="2ddd0-167">Filter data provider designated requirement: `identifier "com.microsoft.wdav.tunnelext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9`</span></span>
+- <span data-ttu-id="2ddd0-168">Soquetes de filtro: `true`</span><span class="sxs-lookup"><span data-stu-id="2ddd0-168">Filter sockets: `true`</span></span>
+
+## <a name="check-installation-status"></a><span data-ttu-id="2ddd0-169">Verificar o status da instalação</span><span class="sxs-lookup"><span data-stu-id="2ddd0-169">Check installation status</span></span>
+
+<span data-ttu-id="2ddd0-170">Execute [o Microsoft Defender para Ponto de](mac-install-with-jamf.md) Extremidade em um dispositivo cliente para verificar o status de integração.</span><span class="sxs-lookup"><span data-stu-id="2ddd0-170">Run [Microsoft Defender for Endpoint](mac-install-with-jamf.md) on a client device to check the onboarding status.</span></span>
