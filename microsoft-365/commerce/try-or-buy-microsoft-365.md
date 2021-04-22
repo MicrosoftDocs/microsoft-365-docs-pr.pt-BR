@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Saiba como obter uma avaliação gratuita ou comprar uma assinatura para o Microsoft 365 para empresas.
 ms.date: 08/07/2020
-ms.openlocfilehash: 9daa7022007aa3c71dc7291f592d3b166a2c45a5
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 505ce060b9b40d72a54adbfffbcb2b3cf47a66e6
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576896"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939179"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Experimente ou compre uma assinatura do Microsoft 365 para empresas
 
@@ -33,9 +33,19 @@ O Microsoft 365 para empresas é um serviço de assinatura que permite que você
 > [!NOTE]
 > Você deve usar um cartão de crédito ao se inscrever para uma avaliação gratuita. No final do período de avaliação gratuita, sua assinatura de avaliação é convertida automaticamente em uma assinatura paga. Seu cartão de crédito não é cobrado até o final do período de avaliação.
 
+
+::: moniker region="o365-21vianet"
+
+> [!IMPORTANT]
+> **Opções de pagamento para o Office 365 operado pela 21Vianet na China** Cartões de crédito internacionais não são aceitos. Você pode pagar por sua assinatura:
+> - Fatura
+> - Pagamento online usando Alipay ou China UnionPay A prova de pagamento será fornecida na forma de Fapiaos. Você pode enviar sua solicitação fapiao para nosso sistema [Fapiao](https://go.microsoft.com/fwlink/p/?LinkId=395314) cerca de três (3) dias após o pagamento. Para obter mais informações, [consulte Apply for a Fapiao for Office 365 operated by 21Vianet](../admin/services-in-china/apply-for-a-fapiao.md).
+
+::: moniker-end
+
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você não precisa de uma conta da Microsoft existente para se inscrever em uma avaliação gratuita. Para todos os outros procedimentos deste artigo, você deve ser um administrador global ou de cobrança para sua organização. Para obter mais informações, confira [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+Você não precisa de uma conta da Microsoft existente para se inscrever em uma avaliação gratuita. Para todos os outros procedimentos deste artigo, você deve ser um administrador global ou de cobrança para sua organização. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="try-a-free-trial-subscription"></a>Experimente uma assinatura de avaliação gratuita
 

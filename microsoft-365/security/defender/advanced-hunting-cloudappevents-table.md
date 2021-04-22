@@ -1,7 +1,7 @@
 ---
 title: Tabela CloudAppEvents no esquema de busca avançado
 description: Saiba mais sobre eventos de aplicativos e serviços de nuvem na tabela CloudAppEvents do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, CloudAppEvents, Cloud App Security, MCAS
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, CloudAppEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 83b9eec37648ba48aa8e6931e836e8a5e22458c8
-ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
+ms.openlocfilehash: 17f424d368c0df2f07cda41917f005e4163e5750
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51760021"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935864"
 ---
 # <a name="cloudappevents"></a>CloudAppEvents
 
@@ -48,28 +48,28 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `ActionType` | string | Tipo de atividade que disparou o evento |
-| `Application` | string | Aplicativo que realizou a ação gravada |
-| `ApplicationId` | string | Identificador exclusivo do aplicativo |
-| `AccountObjectId` | string | Identificador exclusivo da conta no Azure Active Directory |
-| `AccountDisplayName` | string | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação intermediária e um sobrenome ou sobrenome. |
-| `IsAdminOperation` | string | Indica se a atividade foi executada por um administrador |
-| `DeviceType` | string | Tipo de dispositivo com base na finalidade e funcionalidade, como "Dispositivo de rede", "Estação de Trabalho", "Servidor", "Mobile", "Console de Jogos" ou "Impressora" | 
-| `OSPlatform` | string | Plataforma do sistema operacional em execução no dispositivo. Esta coluna indica sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
-| `IPAddress` | string | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas |
-| `IsAnonymousProxy` | string | Indica se o endereço IP pertence a um proxy anônimo conhecido |
-| `CountryCode` | string | Código de duas letras indicando o país onde o endereço IP do cliente está geolocado |
-| `City` | string | Cidade onde o endereço IP do cliente está geolocado |
-| `Isp` | string | Provedor de serviços de Internet (ISP) associado ao endereço IP |
-| `UserAgent` | string | Informações do agente do usuário do navegador da Web ou de outro aplicativo cliente |
-| `ActivityType` | string | Tipo de atividade que disparou o evento |
-| `ActivityObjects` | string | Lista de objetos, como arquivos ou pastas, que estavam envolvidos na atividade gravada |
-| `ObjectName` | string | Nome do objeto ao que a ação gravada foi aplicada |
-| `ObjectType` | string | Tipo de objeto, como um arquivo ou uma pasta, ao qual a ação gravada foi aplicada |
-| `ObjectId` | string | Identificador exclusivo do objeto ao que a ação gravada foi aplicada |
-| `ReportId` | string | Identificador exclusivo do evento |
-| `RawEventData` | string | Informações de evento brutos do aplicativo ou serviço de origem no formato JSON |
-| `AdditionalFields` | string | Informações adicionais sobre a entidade ou evento |
+| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento |
+| `Application` | cadeia de caracteres | Aplicativo que realizou a ação gravada |
+| `ApplicationId` | cadeia de caracteres | Identificador exclusivo do aplicativo |
+| `AccountObjectId` | cadeia de caracteres | Identificador exclusivo da conta no Azure Active Directory |
+| `AccountDisplayName` | cadeia de caracteres | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação intermediária e um sobrenome ou sobrenome. |
+| `IsAdminOperation` | cadeia de caracteres | Indica se a atividade foi executada por um administrador |
+| `DeviceType` | cadeia de caracteres | Tipo de dispositivo com base na finalidade e funcionalidade, como "Dispositivo de rede", "Estação de Trabalho", "Servidor", "Mobile", "Console de Jogos" ou "Impressora" | 
+| `OSPlatform` | cadeia de caracteres | Plataforma do sistema operacional em execução no dispositivo. Esta coluna indica sistemas operacionais específicos, incluindo variações na mesma família, como o Windows 10 e o Windows 7. |
+| `IPAddress` | cadeia de caracteres | Endereço IP atribuído ao ponto de extremidade e usado durante comunicações de rede relacionadas |
+| `IsAnonymousProxy` | cadeia de caracteres | Indica se o endereço IP pertence a um proxy anônimo conhecido |
+| `CountryCode` | cadeia de caracteres | Código de duas letras indicando o país onde o endereço IP do cliente está geolocado |
+| `City` | cadeia de caracteres | Cidade onde o endereço IP do cliente está geolocado |
+| `Isp` | cadeia de caracteres | Provedor de serviços de Internet (ISP) associado ao endereço IP |
+| `UserAgent` | cadeia de caracteres | Informações do agente do usuário do navegador da Web ou de outro aplicativo cliente |
+| `ActivityType` | cadeia de caracteres | Tipo de atividade que disparou o evento |
+| `ActivityObjects` | cadeia de caracteres | Lista de objetos, como arquivos ou pastas, que estavam envolvidos na atividade gravada |
+| `ObjectName` | cadeia de caracteres | Nome do objeto ao que a ação gravada foi aplicada |
+| `ObjectType` | cadeia de caracteres | Tipo de objeto, como um arquivo ou uma pasta, ao qual a ação gravada foi aplicada |
+| `ObjectId` | cadeia de caracteres | Identificador exclusivo do objeto ao que a ação gravada foi aplicada |
+| `ReportId` | cadeia de caracteres | Identificador exclusivo do evento |
+| `RawEventData` | cadeia de caracteres | Informações de evento brutos do aplicativo ou serviço de origem no formato JSON |
+| `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre a entidade ou evento |
 
 ## <a name="apps-and-services-covered"></a>Aplicativos e serviços cobertos
 

@@ -20,19 +20,16 @@ ms.custom:
 search.appverid:
 - MET150
 description: Saiba como atualizar para um plano diferente.
-ms.openlocfilehash: 79ca18df28505c457e085dbd73c2fbd04eff53ca
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c8d71e6ab79bfea35334f2c034dbc13f60397227
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580973"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939167"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Atualizar para um plano diferente
 
 Quando sua empresa muda ou você precisa de mais recursos, você pode atualizar planos. A maneira mais fácil de fazer isso é usar a guia **Atualização** no centro de administração. No entanto, o uso **da** guia Atualização não é suportado em todas as situações. Em alguns casos, você pode ser capaz de alterar os planos manualmente.
-
-> [!NOTE]
-> Este artigo se aplica ao novo centro de administração. Se não estiver usando o novo centro de administração do Microsoft 365, você poderá ativá-lo selecionando a alternância **Experimentar o novo centro de administração** localizado na parte superior da Home Page. Para exibir o artigo sobre o centro de administração antigo, consulte Alternar para um plano de negócios diferente do [Microsoft 365](switch-to-a-different-plan.md)para empresas.
 
 ## <a name="use-the-upgrade-tab"></a>Usar a guia Atualização
 

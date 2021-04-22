@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: e6f3d6da2424b2b3b6b7c1f2c9973e4046d6e27f
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 7aeda679d5ce350ef64a2758359390adc4a280f0
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689157"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939237"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Habilitar regras da redução da superfície de ataque
 
@@ -38,6 +38,15 @@ ms.locfileid: "51689157"
 - Windows 10 Enterprise, [versão 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) ou posterior
 - Windows Server, [versão 1803 (Canal Semesanuais)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) ou posterior
 - [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+**Requisitos** Você pode definir regras de redução de superfície de ataque para dispositivos que estão executando qualquer uma das seguintes edições e versões do Windows:
+
+- Windows 10 Pro, versão 1709 ou posterior
+- Windows 10 Enterprise, versão 1709 ou posterior
+- Windows Server, versão 1803 (Canal Semesanuais) ou posterior
+- Windows Server 2019
+
+Embora as regras de redução de superfície de ataque não exigem uma licença do Windows E5, se você tiver o Windows E5, você obterá recursos avançados de gerenciamento. Esses recursos disponíveis apenas no Windows E5 incluem monitoramento, análise e fluxos de trabalho disponíveis no Defender para Ponto de Extremidade, bem como recursos de relatórios e configuração no centro de segurança do Microsoft 365. Esses recursos avançados não estão disponíveis com uma licença do Windows Professional ou do Windows E3; no entanto, se você tiver essas licenças, poderá usar logs do Visualizador de Eventos e do Microsoft Defender Antivírus para revisar seus eventos de regra de redução de superfície de ataque.
 
 Cada regra ASR contém uma das quatro configurações:
 
@@ -108,7 +117,7 @@ Os valores para habilitar (Bloquear), desabilitar, avisar ou habilitar no modo d
 - 0 : Desabilitar (Desabilitar a regra ASR)
 - 1 : Bloquear (Habilitar a regra ASR)
 - 2 : Auditoria (Avalie como a regra ASR afetaria sua organização se habilitada)
-- 6 : Avisar (Habilitar a regra ASR, mas permitir que o usuário final ignore o bloco)
+- 6 : Avisar (Habilitar a regra ASR, mas permitir que o usuário final ignore o bloco). O modo de aviso agora está disponível para a maioria das regras ASR.
 
 Use o provedor de serviços de configuração [./Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionOnlyExclusions](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-attacksurfacereductiononlyexclusions) (CSP) para adicionar exclusões.
 
@@ -159,8 +168,8 @@ Exemplo:
 
 5. Para excluir arquivos e pastas de regras  ASR, selecione a configuração Excluir arquivos e caminhos de regras de redução de superfície de ataque e de definir a opção **como Habilitado**. Selecione **Mostrar** e insira cada arquivo ou pasta na coluna **Nome do** valor. Insira **0** na coluna **Valor** para cada item.
 
-> [!WARNING]
-> Não use aspas, pois elas não são suportadas para a coluna **Nome do** valor ou para a **coluna Valor.**
+   > [!WARNING]
+   > Não use aspas, pois elas não são suportadas para a coluna **Nome do** valor ou para a **coluna Valor.**
 
 ## <a name="powershell"></a>PowerShell
 

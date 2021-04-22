@@ -1,7 +1,7 @@
 ---
 title: Gerar um alerta do Microsoft 365 Defender de teste
 description: Gerar um alerta de teste para tentar como seu ambiente de laboratório do Microsoft 365 Defender funciona
-keywords: Simulação da Proteção contra Ameaças da Microsoft, experimente a Proteção contra Ameaças da Microsoft, gere alerta de teste na Proteção contra Ameaças da Microsoft, alerta de teste no laboratório de avaliação da Proteção contra Ameaças da Microsoft
+keywords: Simulação do Microsoft 365 Defender, experimente o Microsoft 365 Defender, gere alerta de teste no Microsoft 365 Defender, alerta de teste no laboratório de avaliação do Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: eae17a2cec3aa4da036ef1de52c3cd637701b929
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: ebe01570b8b425b45acdcb11cc7df47d2d62e547
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052529"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935648"
 ---
 # <a name="generate-a-test-alert-in-your-microsoft-365-defender-evaluation-lab"></a>Gerar um alerta de teste no laboratório de avaliação do Microsoft 365 Defender  
 

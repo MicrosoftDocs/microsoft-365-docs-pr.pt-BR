@@ -1,7 +1,7 @@
 ---
 title: Criar e gerenciar regras de detecção personalizadas no Microsoft 365 Defender
 description: Saiba como criar e gerenciar regras de detecções personalizadas com base em consultas de busca avançadas
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, detecções personalizadas, regras, esquema, kusto, microsoft 365, Microsoft Threat Protection, RBAC, permissões, Microsoft Defender ATP
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, detecções personalizadas, regras, esquema, kusto, RBAC, permissões, Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: bfc8724f8dc27aa2475c293e7370488b2ea392b8
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: bcb31b904f8e6156d644864f03143e9fc37ae34b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903749"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935708"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Criar e gerenciar regras de detecções personalizadas
 
@@ -220,7 +220,7 @@ Na tela de detalhes da regra (**Hunting**  >  **Custom detections**  >  **[Nome*
 >[!TIP]
 >Para exibir rapidamente informações e tomar medidas em um item em uma tabela, use a coluna de seleção [&#10003;] à esquerda da tabela.
 
-## <a name="see-also"></a>Também consulte
+## <a name="see-also"></a>Confira também
 - [Visão geral de detecções personalizadas](custom-detections-overview.md)
 - [Visão geral da busca avançada](advanced-hunting-overview.md)
 - [Conhecer a linguagem de consulta de busca avançada](advanced-hunting-query-language.md)

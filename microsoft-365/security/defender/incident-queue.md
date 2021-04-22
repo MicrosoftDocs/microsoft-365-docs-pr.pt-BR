@@ -1,7 +1,7 @@
 ---
 title: Priorizar incidentes no Microsoft 365 Defender
 description: Saiba como filtrar incidentes da fila de incidentes no Microsoft 365 Defender
-keywords: incidente, fila, visão geral, dispositivos, identidades, usuários, caixa de correio, email, incidentes
+keywords: incident, queue, overview, devices, identities, users, mailbox, email, incidents, analyze, response
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3b381749108d4a75024d9a546c0d3f1631c948ed
-ms.sourcegitcommit: 76f3c75413cc960289489d0ca29efadb8a9a5b31
+ms.openlocfilehash: c3efff1e7ebb3a5e868ede018512d12cf38e38fc
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51887252"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939701"
 ---
 # <a name="prioritize-incidents-in-microsoft-365-defender"></a>Priorizar incidentes no Microsoft 365 Defender
 
@@ -81,45 +81,11 @@ Esta tabela lista os nomes de filtro disponíveis.
 | Status | Você pode optar por limitar a lista de incidentes exibidos com base em seu status para ver quais estão ativos ou resolvidos. |
 |||
 
-## <a name="incident-response-workflow"></a>Fluxo de trabalho de resposta a incidentes
-
-Este é o fluxo de trabalho típico para responder a incidentes:
-
-1. Identificar e triagem dos incidentes de maior prioridade para investigação e resolução.
-2. Para cada incidente de alta prioridade, inicie uma [investigação:](investigate-incidents.md)
-
-   a. Exibir o resumo do incidente para entender seu escopo e gravidade e quais entidades são afetadas (a **guia Resumo).**
-
-   b. Comece a olhar para os alertas para entender sua origem, escopo e gravidade (a **guia Alertas).**
-
-   c. Conforme necessário, reúna informações sobre dispositivos, usuários e caixas de correio afetados (as guias **Dispositivos,** **Usuários** e **Caixas** de Correio).
-
-   d. Veja como o Microsoft 365 Defender resolveu automaticamente alguns alertas (a guia **Investigações).**
-   
-   e. Conforme necessário, use informações no conjunto de dados do incidente para obter mais informações (a **guia Evidências e Resposta).**
-
-   À medida que você investiga, você deve se preocupar com:
-
-   - Contenção: reduzindo qualquer impacto adicional em seu locatário.
-   - Erradicação: Removendo a ameaça de segurança.
-   - Recuperação: restaurando os recursos do locatário para o estado em que estavam antes do incidente.
-
-3. Depois de resolver o incidente, aproveite o tempo para:
-
-   - Entenda o tipo de ataque e seu impacto.
-   - Pesquise o ataque na comunidade de segurança para uma tendência de ataque de segurança.
-   - Lembre-se do fluxo de trabalho usado para resolver o incidente e atualizar seus fluxos de trabalho padrão e playbooks conforme necessário.
-   - Determine se as alterações na postura de segurança são necessárias e tome as etapas para implementá-las.
-
-Aqui está um resumo do processo básico.
-
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents-process.png" alt-text="O processo básico para investigar incidentes":::
-
 ## <a name="next-step"></a>Próxima etapa
 
-Depois de determinar qual incidente requer a maior prioridade, selecione-o e inicie a [investigação.](investigate-incidents.md)
+Depois de determinar qual incidente requer a maior prioridade, selecione-o e inicie a [análise.](investigate-incidents.md)
 
 ## <a name="see-also"></a>Confira também
 - [Visão geral dos incidentes](incidents-overview.md)
-- [Investigar incidentes](investigate-incidents.md)
+- [Analisar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)

@@ -1,7 +1,7 @@
 ---
 title: McAfee para Microsoft Defender para Ponto de Extremidade - Onboard
 description: Esta é a fase 3, Onboard, para migrar da McAfee para o Microsoft Defender para o Ponto de Extremidade.
-keywords: migração, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: migração, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: c30a552b4a2abcea9ceff4968c2a9e7e32ff2450
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 973491ffd5f29cef4a6dd652676cad538182f009
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862074"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935948"
 ---
 # <a name="migrate-from-mcafee---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Migrar da McAfee - Fase 3: Integração ao Microsoft Defender para Ponto de Extremidade
 
@@ -40,7 +40,7 @@ ms.locfileid: "51862074"
 |--|--|--|
 || |*Você está aqui!* |
 
-Bem-vindo à Fase 3 de migração do **[McAfee Endpoint Security (McAfee)](mcafee-to-microsoft-defender-migration.md#the-migration-process)** para a Proteção Avançada contra Ameaças do Microsoft Defender (Microsoft Defender para Ponto de Extremidade) . Essa fase de migração inclui as seguintes etapas:
+**Bem-vindo à Fase 3 de [migração do McAfee Endpoint Security (McAfee) para o Microsoft Defender para o Ponto de Extremidade.](mcafee-to-microsoft-defender-migration.md#the-migration-process)** Essa fase de migração inclui as seguintes etapas:
 
 1. [Dispositivos de integração com o Microsoft Defender para Ponto de Extremidade](#onboard-devices-to-microsoft-defender-for-endpoint).
 2. [Execute um teste de detecção](#run-a-detection-test).
@@ -66,7 +66,7 @@ Os métodos de implantação variam, dependendo de qual sistema operacional est�
 |Windows 10     |- [Política de Grupo](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-gp)<br/>- [Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm)<br/>- [Gerenciamento de dispositivo móvel (Intune)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-mdm)<br/>- [Script local](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-script) <br/><br/>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Intune.         |
 |- Windows 8.1 Enterprise <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Agente de Monitoramento da Microsoft](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-atp)<br/><br/>**OBSERVAÇÃO**: o Agente de Monitoramento da Microsoft agora é o agente do Azure Log Analytics. Para saber mais, confira [Visão geral do agente do Log Analytics.](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent)        |
 |- Windows Server 2019 e posterior <br/>- Edição principal do Windows Server 2019 <br/>- Windows Server versão 1803 e posterior |- [Script local](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-script) <br/>- [Política de Grupo](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-gp) <br/>- [Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm) <br/>- [System Center Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm#onboard-windows-10-devices-using-earlier-versions-of-system-center-configuration-manager) <br/>- [Scripts de integração VDI para dispositivos não persistentes](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi) <br/><br/>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Intune.    |
-|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Centro de Segurança do Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#option-1-onboard-servers-through-microsoft-defender-security-center)<br/>- [Centro de Segurança do Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
+|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Centro de Segurança do Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#option-1-onboard-servers-through-microsoft-defender-security-center)<br/>- [Azure Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
 |macOS<br/>- 10.15 (Catalina)<br/>- 10.14 (Mojave)<br/>- 10,13 (High Sierra)<br/><br/>iOS<br/><br/>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS ou LTS superior<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Dispositivos Windows não integrados](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-non-windows)  |
 
 ## <a name="run-a-detection-test"></a>Executar um teste de detecção
@@ -77,8 +77,8 @@ Para verificar se seus dispositivos conectados estão conectados corretamente ao
 |Sistema operacional  |Orientação  |
 |---------|---------|
 |- Windows 10 <br/>- Windows Server 2019 <br/>- Windows Server, versão 1803 <br/>- Windows Server 2016 <br/>- Windows Server 2012 R2     |Consulte [Executar um teste de detecção](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/run-detection-test). <br/><br/>Visite o site de cenários de demonstração do Microsoft Defender for Endpoint ( ) e experimente um ou mais [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) dos cenários. Por exemplo, experimente o **cenário de demonstração de proteção entregue na** nuvem.         |
-|macOS<br/>- 10.15 (Catalina)<br/>- 10.14 (Mojave)<br/>- 10,13 (High Sierra)     |Baixe e use o aplicativo DIY em [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) . <br/><br/>Para obter mais informações, consulte [Microsoft Defender for Endpoint for Mac](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac).        |
-|Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS ou LTS superior<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |1. Execute o seguinte comando e procure um resultado de **1**: <br/>`mdatp health --field real_time_protection_enabled`. <br/><br/>2. Abra uma janela de Terminal e execute o seguinte comando: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <br/><br/>3. Execute o seguinte comando para listar quaisquer ameaças detectadas: <br/>`mdatp threat list`. <br/><br/>Para obter mais informações, consulte [Microsoft Defender for Endpoint for Linux](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux). |
+|macOS<br/>- 10.15 (Catalina)<br/>- 10.14 (Mojave)<br/>- 10,13 (High Sierra)     |Baixe e use o aplicativo DIY em [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) . <br/><br/>Para obter mais informações, consulte [Microsoft Defender for Endpoint on Mac](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac).        |
+|Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS ou LTS superior<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |1. Execute o seguinte comando e procure um resultado de **1**: <br/>`mdatp health --field real_time_protection_enabled`. <br/><br/>2. Abra uma janela de Terminal e execute o seguinte comando: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <br/><br/>3. Execute o seguinte comando para listar quaisquer ameaças detectadas: <br/>`mdatp threat list`. <br/><br/>Para obter mais informações, consulte [Microsoft Defender for Endpoint on Linux](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux). |
 
 ## <a name="uninstall-mcafee"></a>Desinstalar o McAfee
 
@@ -103,4 +103,4 @@ Para fazer isso, visite o site de cenários de demonstração do Microsoft Defen
 **Parabéns**! Você concluiu sua [migração da McAfee para o Microsoft Defender para o Ponto de Extremidade!](mcafee-to-microsoft-defender-migration.md#the-migration-process) 
 
 - [Visite seu painel de operações de](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/security-operations-dashboard) segurança no Centro de Segurança do Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
-- [Gerenciar a Proteção Avançada contra Ameaças do Microsoft Defender, pós-migração.](manage-atp-post-migration.md)
+- [Gerenciar o Microsoft Defender para Ponto de Extremidade, pós-migração](manage-atp-post-migration.md).

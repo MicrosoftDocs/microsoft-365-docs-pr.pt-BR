@@ -1,7 +1,7 @@
 ---
 title: APIs com suporte do Microsoft 365 Defender
 description: APIs com suporte do Microsoft 365 Defender
-keywords: MTP, APIs, api
+keywords: Microsoft 365 Defender, APIs, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b2239b960106d756cbd29504af05af77a553067d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: f2c66dca326589807f5712c5548c177a0d08ade0
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052548"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935720"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>APIs com suporte do Microsoft 365 Defender 
 
@@ -59,6 +59,6 @@ Todas as APIs ao longo `/api` do caminho usam o Protocolo [OData;](/odata/overvi
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Visão geral das APIs do Microsoft 365 Defender](api-overview.md)
-- [Acessar as APIs da Proteção contra Ameaças da Microsoft](api-access.md)
+- [Acessar as APIs do Microsoft 365 Defender](api-access.md)
 - [Saiba mais sobre limites de API e licenciamento](api-terms.md)
 - [Compreender códigos de erro](api-error-codes.md)

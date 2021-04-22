@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender para Ponto de Extremidade
 description: O Microsoft Defender for Endpoint é uma plataforma de segurança de ponto de extremidade empresarial que ajuda a se defender contra ameaças persistentes avançadas.
-keywords: introdução ao Microsoft Defender para Ponto de Extremidade, introdução à Proteção Avançada contra Ameaças do Microsoft Defender, introdução ao Microsoft Defender para Endpoint, segurança cibernética, ameaças persistentes avançadas, segurança corporativa, sensor comportamental de máquina, segurança na nuvem, análise, inteligência contra ameaças, redução de superfície de ataque, proteção de última geração, investigação e correção automatizadas, especialistas em ameaças da Microsoft, pontuação segura, busca avançada, proteção contra ameaças da Microsoft, busca de ameaças cibernéticas
+keywords: introdução ao Microsoft Defender para Ponto de Extremidade, introdução ao Microsoft Defender para Ponto de Extremidade, segurança cibernética, ameaça persistente avançada, segurança corporativa, sensor comportamental de máquina, segurança na nuvem, análise, inteligência contra ameaças, redução de superfície de ataque, proteção de próxima geração, investigação automatizada e correção, especialistas em ameaças da Microsoft, pontuação segura, busca avançada, Microsoft 365 Defender, busca de ameaças cibernéticas
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: adc7d780c1af73d8cb4fe229720ac2ed74f90251
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 57d4506e32db5defe29f2d0e59f72bd4c1998310
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861822"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935924"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender para Ponto de Extremidade
 
@@ -64,7 +64,7 @@ O Defender para Ponto de Extremidade usa a seguinte combinação de tecnologia c
 <a href="#apis"><center><b>Configuração centralizada e administração, APIs</a></b></center></td>
 </tr>
 <tr>
-<td colspan="7"><a href="#mtp"><center><b>Proteção contra Ameaças da Microsoft</a></center></b></td>
+<td colspan="7"><a href="#mtp"><center><b>Microsoft 365 Defender</a></center></b></td>
 </tr>
 </table>
 <br>
@@ -89,7 +89,7 @@ O conjunto de recursos de redução de superfície de ataque fornece a primeira 
 
 <a name="ngp"></a>
 
-**[Proteção de última geração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
+**[Proteção de próxima geração](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)**<br>
 Para reforçar ainda mais o perímetro de segurança da sua rede, o Microsoft Defender for Endpoint usa proteção de última geração projetada para capturar todos os tipos de ameaças emergentes.
 
 <a name="edr"></a>
@@ -126,7 +126,7 @@ Integre o Microsoft Defender para Ponto de Extremidade aos fluxos de trabalho ex
 
 **[Integração com soluções da Microsoft](threat-protection-integration.md)** <br>
 O Defender para Ponto de Extremidade integra-se diretamente a várias soluções da Microsoft, incluindo:
-- Central de Segurança do Azure
+- Azure Defender
 - Azure Sentinel
 - Intune
 - Microsoft Cloud App Security

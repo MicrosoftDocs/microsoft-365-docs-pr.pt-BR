@@ -1,7 +1,7 @@
 ---
 title: Perfil de dispositivo no portal de segurança do Microsoft 365
 description: Exibir níveis de risco e exposição para um dispositivo em sua organização. Analise as ameaças passadas e presentes e proteja o dispositivo com as atualizações mais recentes.
-keywords: segurança, malware, Microsoft 365, M365, Proteção contra Ameaças da Microsoft, MTP, central de segurança, Microsoft Defender ATP, Office 365 ATP, Azure ATP, página de dispositivo, perfil de dispositivo, página de máquina, perfil de máquina
+keywords: segurança, malware, Microsoft 365, M365, Microsoft 365 Defender, central de segurança, Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Defender para Identidade, página de dispositivo, perfil de dispositivo, página de máquina, perfil de máquina
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: c51c002d263452142a1bcf6fc5603d6ec4ef4cf7
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8e2788fd9163a27b41bd3788facf5fc9623b0543
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197964"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935660"
 ---
 # <a name="device-profile-page"></a>Página de perfil de dispositivo
 

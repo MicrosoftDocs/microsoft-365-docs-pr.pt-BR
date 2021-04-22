@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Obter um relatório de grupos do Microsoft 365 para saber sobre os grupos e suas atividades.
-ms.openlocfilehash: 9ab034531099b5572c42eb3a48ec28d99487ac99
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d123e3beb55ba6e636084fabe995f4dd0ff56707
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579549"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939133"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Relatórios do Microsoft 365 no centro de administração - grupos do Microsoft 365
 
@@ -60,4 +60,5 @@ Você pode obter uma exibição em atividades de grupos olhando para os **gráfi
 |10,  <br/> |Selecione ou toque **no botão Mais Ações** Mais Ações do Mobile OWA ao lado de um título de coluna para adicionar ou remover ![ ](../../media/80044eef-2368-4c7e-8d31-7155b029e0cf.png) colunas do relatório.  <br/> ![Relatório de grupos - escolha colunas](../../media/d7fb95d6-2a2e-4144-b80d-581223e48043.png)|
 |11,  <br/> |Você também pode exportar os dados do relatório para um arquivo .csv do Excel selecionando o link **Exportar.** Isso exporta os dados de todos os usuários e permite que você realize uma classificação e filtragem simples para mais análise. Se você tiver menos de 2000 usuários, poderá classificar e filtrar dentro da tabela no próprio relatório. Se você tiver mais de 2000 usuários, para filtrar e classificar, você precisa exportar os dados.  <br/> |
 |||
-   
+
+

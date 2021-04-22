@@ -1,7 +1,7 @@
 ---
 title: Alternar para o Microsoft Defender para Ponto de Extremidade - Onboard
 description: Esta é a fase 3, Onboard, para migrar de uma solução que não seja da Microsoft para o Microsoft Defender para o Ponto de Extremidade.
-keywords: migração, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: migração, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: cd4cf62ee532519e0f6d2aa857d30eb4cf1a7290
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 459a113bb28c4ae0fa7c4d4a0b004ad2badc0da8
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688076"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935912"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Alternar para o Microsoft Defender para o Ponto de Extremidade - Fase 3: Onboard
 
@@ -57,12 +57,12 @@ ms.locfileid: "51688076"
  
 Os métodos de implantação variam, dependendo de qual sistema operacional está selecionado. Consulte os recursos listados na tabela abaixo para obter ajuda com a integração.
 
-|Sistema operacional  |Method  |
+|Sistema operacional  |Método  |
 |---------|---------|
 |Windows 10     |- [Política de Grupo](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-gp)<br/>- [Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm)<br/>- [Gerenciamento de dispositivo móvel (Intune)](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-mdm)<br/>- [Script local](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-script) <br/><br/>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Intune.         |
 |- Windows 8.1 Enterprise <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Agente de Monitoramento da Microsoft](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-atp)<br/><br/>**OBSERVAÇÃO**: o Agente de Monitoramento da Microsoft agora é o agente do Azure Log Analytics. Para saber mais, confira [Visão geral do agente do Log Analytics.](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent)        |
 |- Windows Server 2019 e posterior <br/>- Edição principal do Windows Server 2019 <br/>- Windows Server versão 1803 e posterior |- [Script local](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-script) <br/>- [Política de Grupo](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-gp) <br/>- [Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm) <br/>- [System Center Configuration Manager](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-sccm#onboard-windows-10-devices-using-earlier-versions-of-system-center-configuration-manager) <br/>- [Scripts de integração VDI para dispositivos não persistentes](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-vdi) <br/><br/>**OBSERVAÇÃO**: um script local é adequado para uma prova de conceito, mas não deve ser usado para implantação de produção. Para uma implantação de produção, recomendamos usar a Política de Grupo, o Microsoft Endpoint Configuration Manager ou o Intune.    |
-|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Centro de Segurança do Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#option-1-onboard-servers-through-microsoft-defender-security-center)<br/>- [Centro de Segurança do Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
+|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Centro de Segurança do Microsoft Defender](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-server-endpoints#option-1-onboard-servers-through-microsoft-defender-security-center)<br/>- [Azure Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
 |macOS<br/>- 10.15 (Catalina)<br/>- 10.14 (Mojave)<br/>- 10,13 (High Sierra)<br/><br/>iOS<br/><br/>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS ou LTS superior<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Dispositivos Windows não integrados](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-endpoints-non-windows)  |
 
 ## <a name="run-a-detection-test"></a>Executar um teste de detecção
@@ -86,7 +86,7 @@ Para obter ajuda com esta etapa, entre em contato com a equipe de suporte técni
 Agora que você desinstalou sua solução de proteção de ponto de extremidade não Microsoft, sua próxima etapa é garantir que o Microsoft Defender Antivírus e o Microsoft Defender para Ponto de Extremidade estão habilitados e no modo ativo.
 
 Para fazer isso, visite o site de cenários de demonstração do Microsoft Defender for Endpoint ( [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) ). Experimente um ou mais dos cenários de demonstração nessa página, incluindo pelo menos o seguinte:
-- Proteção entregue na nuvem
+- Proteção fornecida na nuvem
 - Aplicativos potencialmente indesejados (PUA)
 - Proteção de Rede (NP)
 

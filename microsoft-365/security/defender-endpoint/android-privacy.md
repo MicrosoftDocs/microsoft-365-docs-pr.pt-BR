@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 415a1f555e1a33c103894221086b783aa754cf32
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1aaae2970cfb2f6da82507eefa87c8d0e2227661
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51930132"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939619"
 ---
 #  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender para Ponto de Extremidade para Android – Informações de privacidade
 
@@ -70,7 +70,7 @@ Informações sobre **pacotes de** aplicativos Android mal-intencionados (APKs) 
 
     -   ID do locatário do Azure - GUID que identifica sua organização no Azure Active Directory
 
-    -   ID da organização do Microsoft Defender ATP - Identificador exclusivo associado à empresa à que o dispositivo pertence. Permite que a Microsoft identifique se os problemas estão afetando um conjunto selecionado de empresas e quantas empresas são impactadas 
+    -   ID da organização do Microsoft Defender for Endpoint - Identificador exclusivo associado à empresa à que o dispositivo pertence. Permite que a Microsoft identifique se os problemas estão afetando um conjunto selecionado de empresas e quantas empresas são impactadas 
 
     -   Nome principal do usuário – ID de email do usuário
 

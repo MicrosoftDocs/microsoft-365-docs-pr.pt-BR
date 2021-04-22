@@ -1,7 +1,7 @@
 ---
 title: Tabela DeviceAlertEvents no esquema de busca avançado
 description: Saiba mais sobre eventos de geração de alertas na tabela DeviceAlertEvents do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft Defender para Ponto de Extremidade, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, DeviceAlertEvents, alerta, gravidade, categoria
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, mdatp, microsoft defender atp, microsoft defender para ponto de extremidade, pesquisa wdatp, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, DeviceAlertEvents, alerta, gravidade, categoria
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/22/2020
 ms.technology: mde
-ms.openlocfilehash: bb2350fed5fadee359695743989e02a3b3e44fb2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f4f6ecdc57d8602f49fb389c741c5e01dc1b41b5
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935336"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939643"
 ---
 # <a name="devicealertevents"></a>DeviceAlertEvents
 

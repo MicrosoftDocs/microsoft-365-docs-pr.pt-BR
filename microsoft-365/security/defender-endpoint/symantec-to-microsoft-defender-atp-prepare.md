@@ -1,7 +1,7 @@
 ---
 title: Symantec para o Microsoft Defender para Ponto de Extremidade - Fase 1, Preparação
 description: Esta é a Fase 1, Preparar, de migrar da Symantec para o Microsoft Defender para o Ponto de Extremidade.
-keywords: migração, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: migração, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 8c8f91448415bc1e9490706ee23bd8cae7f51a63
-ms.sourcegitcommit: 72ae1b49e7a3d3199272fcb4c39f5daec0d66f1a
+ms.openlocfilehash: 03bc323958ffbf027a25290bb61bc82307d937a8
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51698239"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935900"
 ---
 # <a name="migrate-from-symantec---phase-1-prepare-for-your-migration"></a>Migrar da Symantec - Fase 1: Preparar-se para sua migração
 

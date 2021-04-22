@@ -1,8 +1,8 @@
 ---
 title: Microsoft Defender para Ponto de Extremidade para Linux
 ms.reviewer: ''
-description: Descreve como instalar e usar o Microsoft Defender para Endpoint para Linux.
-keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+description: Descreve como instalar e usar o Microsoft Defender para Ponto de Extremidade no Linux.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f67dd28902e8b45a5401b60c027faa89d7467cd8
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 34274e260da2e8acc8088fcff6d324b6b31fc2ef
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861390"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935936"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender para Ponto de Extremidade para Linux
 
@@ -39,7 +39,7 @@ ms.locfileid: "51861390"
 Este tópico descreve como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Linux.
 
 > [!CAUTION]
-> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade no Linux provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para a funcionalidade EDR do Ponto de Extremidade para Linux depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](linux-preferences.md#enable--disable-passive-mode)
+> A execução de outros produtos de proteção de ponto de extremidade de terceiros juntamente com o Microsoft Defender para Ponto de Extremidade no Linux provavelmente levará a problemas de desempenho e efeitos colaterais imprevisíveis. Se a proteção de ponto de extremidade que não é da Microsoft for um requisito absoluto em seu ambiente, você ainda poderá aproveitar com segurança o Defender para Ponto de Extremidade na funcionalidade EDR do Linux depois de configurar a funcionalidade antivírus para ser executado no modo [Passivo.](linux-preferences.md#enable--disable-passive-mode)
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Como instalar o Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -80,10 +80,10 @@ Se você tiver alguma falha de instalação, consulte [Troubleshooting installat
 - Kernel mínimo versão 3.10.0-327
 - A `fanotify` opção kernel deve estar habilitada
   > [!CAUTION]
-  > Não há suporte para executar o Defender para Ponto de Extremidade para Linux lado a lado com outras soluções `fanotify` de segurança baseadas. Pode levar a resultados imprevisíveis, incluindo a suspensão do sistema operacional.
+  > Não há suporte para executar o Defender para Ponto de Extremidade no Linux lado a lado com outras soluções `fanotify` de segurança baseadas. Pode levar a resultados imprevisíveis, incluindo a suspensão do sistema operacional.
 
 - Espaço em disco: 1 GB
-- /opt/microsoft/mdatp/sbin/wdavdaemon requer permissão executável. Para obter mais informações, consulte "Certifique-se de que o daemon tenha permissão executável" em Solucionar problemas de instalação do [Microsoft Defender para Endpoint para Linux](/microsoft-365/security/defender-endpoint/linux-support-install).
+- /opt/microsoft/mdatp/sbin/wdavdaemon requer permissão executável. Para obter mais informações, consulte "Certifique-se de que o daemon tenha permissão executável" em Solucionar problemas de instalação do [Microsoft Defender para Ponto de](/microsoft-365/security/defender-endpoint/linux-support-install)Extremidade no Linux .
 - Memória: 1 GB
     > [!NOTE]
     > Verifique se você tem espaço livre em disco no /var.

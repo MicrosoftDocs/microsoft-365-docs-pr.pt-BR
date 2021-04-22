@@ -1,7 +1,7 @@
 ---
 title: Outras APIs de proteção contra ameaças e segurança
 description: Exibir uma lista de APIs relacionadas aos produtos de proteção contra ameaças e segurança da Microsoft.
-keywords: api, segurança, proteção contra ameaças, mde, microsoft defender para ponto de extremidade, microsoft defender atp, proteção avançada contra ameaças do office 365, proteção avançada contra ameaças do Microsoft Defender, segurança do aplicativo na nuvem
+keywords: api, segurança, proteção contra ameaças, mde, Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, segurança do aplicativo na nuvem
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7edd4683d3cbe0aa1fd1f1c88bf8e7326b14287f
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 93697ac4009d19a09a57600a1736e839fb04fb80
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054410"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935744"
 ---
 # <a name="other-security-and-threat-protection-apis"></a>Outras APIs de proteção contra ameaças e segurança
 

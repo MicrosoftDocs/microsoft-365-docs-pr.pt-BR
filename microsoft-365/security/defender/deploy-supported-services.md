@@ -1,7 +1,7 @@
 ---
 title: Implantar serviços com suporte do Microsoft 365 Defender
 description: Saiba mais sobre os serviços de segurança da Microsoft que podem ser integrados pelo Microsoft 365 Defender, seus requisitos de licenciamento e procedimentos de implantação
-keywords: implantar, licenças, serviços com suporte, provisionamento, configuração Microsoft Threat Protection, M365, qualificação de licença, Microsoft Defender ATP, MDATP, Office 365 ATP, Azure ATP, Microsoft Cloud App Security, MCAS, proteção avançada contra ameaças, E5, A5, EMS
+keywords: implantar, licenças, serviços com suporte, provisionamento, configuração do Microsoft 365 Defender, M365, qualificação de licença, Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Defender para Identidade, Microsoft Cloud App Security, MCAS, E5, A5, EMS
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 434c318be404ffb04cac7a05664c8f001bb46507
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4e1b36423974e46a485727f7e1f158dc6163d834
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198856"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935672"
 ---
 # <a name="deploy-supported-services"></a>Implantar serviços com suporte
 

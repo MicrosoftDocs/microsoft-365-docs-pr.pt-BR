@@ -1,7 +1,7 @@
 ---
 title: Gerenciar incidentes no Microsoft 365 Defender
 description: Saiba como atribuir, atualizar o status,
-keywords: incidente, incidentes, alertas, alertas correlacionados, atribuir, atualizar, status, gerenciar, classificação, microsoft, 365, m365
+keywords: incidentes, incidentes, análise, resposta, alertas, alertas correlacionados, atribuir, atualizar, status, gerenciar, classificação, microsoft, 365, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: da5a2190a53dfe7f8dd0cc3cf7b410af92ca4ec5
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 5f66189979f401430353f4c15978a85276b48840
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861726"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939749"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Gerenciar incidentes no Microsoft 365 Defender
 
@@ -61,7 +61,7 @@ Você pode exibir esse painel no link **Gerenciar incidentes** no:
 - Painel de propriedades de um incidente na fila de incidentes.
 - **Página** de resumo de um incidente.
 
-Em casos em que, ao investigar, você gostaria de mover alertas de um incidente para outro, você também pode fazer isso da guia **Alertas,** criando um incidente maior ou menor que inclui todos os alertas relevantes.
+Em casos em que, ao analisar você gostaria de mover alertas de um incidente para outro, você também pode fazê-lo a partir da guia **Alertas,** criando assim um incidente maior ou menor que inclui todos os alertas relevantes.
 
 ## <a name="edit-the-incident-name"></a>Editar o nome do incidente
 
@@ -102,4 +102,4 @@ Você pode adicionar vários comentários a um incidente com o **campo Comentár
 
 - [Visão geral dos incidentes](incidents-overview.md)
 - [Priorizar incidentes](incident-queue.md)
-- [Investigar incidentes](investigate-incidents.md)
+- [Analisar incidentes](investigate-incidents.md)

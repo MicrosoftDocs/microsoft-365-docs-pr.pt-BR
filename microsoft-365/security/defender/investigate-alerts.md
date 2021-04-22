@@ -1,7 +1,7 @@
 ---
-title: Investigar alertas no Microsoft 365 Defender
-description: Investigue alertas vistos em dispositivos, usuários e caixas de correio.
-keywords: incidentes, alertas, investigar, correlação, ataque, máquinas, dispositivos, usuários, identidades, identidade, caixa de correio, email, 365, microsoft, m365
+title: Analisar alertas no Microsoft 365 Defender
+description: Analisar alertas vistos em dispositivos, usuários e caixas de correio.
+keywords: incidentes, alertas, investigar, analisar, responder, correlação, ataque, máquinas, dispositivos, usuários, identidades, identidade, caixa de correio, email, 365, microsoft, m365
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 77b30e8a8eee70470115bcd61f081863fa5a41ee
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 18b4df6a2dbb22235d6781f1430f7a75e319fbcf
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861978"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939537"
 ---
-# <a name="investigate-alerts-in-microsoft-365-defender"></a>Investigar alertas no Microsoft 365 Defender
+# <a name="analyze-alerts-in-microsoft-365-defender"></a>Analisar alertas no Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51861978"
 
 Os alertas são a base de todos os incidentes e indicam a ocorrência de eventos mal-intencionados ou suspeitos em seu ambiente. Os alertas geralmente fazem parte de um ataque mais amplo e fornecem pistas sobre um incidente.
 
-No Microsoft 365 Defender, os alertas relacionados são agregados em [incidentes de formulário.](incidents-overview.md) Os incidentes sempre fornecerão o contexto mais amplo de um ataque, no entanto, a investigação de alertas pode ser valiosa quando uma análise mais profunda é necessária. 
+No Microsoft 365 Defender, os alertas relacionados são agregados em [incidentes de formulário.](incidents-overview.md) Os incidentes sempre fornecerão o contexto mais amplo de um ataque, no entanto, a análise de alertas pode ser valiosa quando uma análise mais profunda é necessária. 
 
 A **fila Alertas** mostra o conjunto atual de alertas. Você pode chegar à fila de alertas de **Incidentes & alertas** > alertas sobre o início rápido do centro de segurança do Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)).
 
@@ -134,12 +134,12 @@ A lista de ações adicionais depende do tipo de alerta.
 
 ## <a name="resolve-an-alert"></a>Resolver um alerta
 
-Depois de terminar de investigar um alerta e ele  puder ser resolvido, vá para o  painel Gerenciar alerta para o alerta e marque o status dele como Resolvido e classifique-o como um alerta **False** ou **Alerta** True. Para alertas verdadeiros, especifique o tipo de ameaça do alerta no campo **Determinação.**
+Depois de terminar de analisar um alerta e ele  puder ser resolvido, vá para o  painel Gerenciar alerta para o alerta e marque o status dele como Resolvido e classifique-o como um alerta **False** ou **Alerta** True. Para alertas verdadeiros, especifique o tipo de ameaça do alerta no campo **Determinação.**
 
 Classificar alertas e especificar sua determinação ajuda a ajustar o Microsoft 365 Defender para fornecer mais alertas verdadeiros e menos alertas falsos.
 
 ## <a name="see-also"></a>Confira também
 
 - [Visão geral dos incidentes](incidents-overview.md)
-- [Investigar incidentes](investigate-incidents.md)
 - [Gerenciar incidentes](manage-incidents.md)
+- [Analisar incidentes](investigate-incidents.md)

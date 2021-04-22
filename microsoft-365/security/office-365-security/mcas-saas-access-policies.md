@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 61509c88ea2289509abd5ec7b6c0dcd54395d5f0
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 414d6ae0586078551c737e45763ea665d5eec4e6
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599966"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939549"
 ---
 # <a name="recommended-microsoft-cloud-app-security-policies-for-saas-apps"></a>Políticas recomendadas do Microsoft Cloud App Security para aplicativos SaaS
 O Microsoft Cloud App Security se baseia em políticas de acesso condicional do Azure AD para habilitar o monitoramento em tempo real e o controle de ações granulares com aplicativos SaaS, como bloquear downloads, uploads, copiar e colar e imprimir. Esse recurso adiciona segurança a sessões que carregam riscos inerentes, como quando os recursos corporativos são acessados de dispositivos não utilizados ou por usuários convidados.

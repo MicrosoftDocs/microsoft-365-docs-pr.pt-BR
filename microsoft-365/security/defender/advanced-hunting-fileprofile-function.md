@@ -1,7 +1,7 @@
 ---
 title: Função FileProfile() em busca avançada do Microsoft 365 Defender
 description: Saiba como usar o FileProfile() para enriquecer informações sobre arquivos nos resultados avançados da consulta de busca
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, FileProfile, perfil de arquivo, função, enriquecimento
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, FileProfile, perfil de arquivo, função, enriquecimento
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ea4f22b70e607b42155342dde1ac16b1ad640981
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 67295529cdb7b8a3e93e663f2a8a28d27a8f6737
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498460"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935840"
 ---
 # <a name="fileprofile"></a>FileProfile()
 
@@ -39,22 +39,22 @@ A função é uma função de enriquecimento na busca avançada que adiciona os 
 
 | Coluna | Tipo de dados | Descrição |
 |------------|---------------|-------------|
-| `SHA1` | string | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
+| `SHA1` | cadeia de caracteres | SHA-1 do arquivo ao qual a ação gravada foi aplicada |
 | `SHA256` | cadeia de caracteres | SHA-256 do arquivo ao que a ação gravada foi aplicada |
-| `MD5` | string | Hash MD5 do arquivo ao que a ação gravada foi aplicada |
+| `MD5` | cadeia de caracteres | Hash MD5 do arquivo ao que a ação gravada foi aplicada |
 | `FileSize` | int | Tamanho do arquivo em bytes |
 | `GlobalPrevalence` | int | Número de instâncias da entidade observadas globalmente pela Microsoft |
 | `GlobalFirstSeen` | datetime | Data e hora em que a entidade foi observada pela primeira vez pela Microsoft globalmente |
 | `GlobalLastSeen` | datetime | Data e hora em que a entidade foi observada pela última vez pela Microsoft globalmente |
-| `Signer` | string | Informações sobre o signante do arquivo |
-| `Issuer` | string | Informações sobre a autoridade de certificação de emissão (CA) |
-| `SignerHash` | string | Valor de hash exclusivo que identifica o signante |
+| `Signer` | cadeia de caracteres | Informações sobre o signante do arquivo |
+| `Issuer` | cadeia de caracteres | Informações sobre a autoridade de certificação de emissão (CA) |
+| `SignerHash` | cadeia de caracteres | Valor de hash exclusivo que identifica o signante |
 | `IsCertificateValid` | booliano | Se o certificado usado para assinar o arquivo é válido |
 | `IsRootSignerMicrosoft` | booliano | Indica se o signante do certificado raiz é a Microsoft |
-| `SignatureState` | string | Estado da assinatura do arquivo: SignedValid - o arquivo é assinado com uma assinatura válida, SignedInvalid - o arquivo é assinado, mas o certificado é inválido, não assinado - o arquivo não está assinado, Unknown - as informações sobre o arquivo não podem ser recuperadas
+| `SignatureState` | cadeia de caracteres | Estado da assinatura do arquivo: SignedValid - o arquivo é assinado com uma assinatura válida, SignedInvalid - o arquivo é assinado, mas o certificado é inválido, não assinado - o arquivo não está assinado, Unknown - as informações sobre o arquivo não podem ser recuperadas
 | `IsExecutable` | booliano | Se o arquivo é um arquivo Executável Portátil (PE) |
-| `ThreatName` | string | Nome da detecção de qualquer malware ou outras ameaças encontradas |
-| `Publisher` | string | Nome da organização que publicou o arquivo |
+| `ThreatName` | cadeia de caracteres | Nome da detecção de qualquer malware ou outras ameaças encontradas |
+| `Publisher` | cadeia de caracteres | Nome da organização que publicou o arquivo |
 | `SoftwareName` | string | Nome do produto de software |
 
 ## <a name="syntax"></a>Sintaxe

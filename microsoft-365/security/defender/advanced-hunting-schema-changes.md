@@ -1,7 +1,7 @@
 ---
 title: Nomenisar alterações no esquema de busca avançada do Microsoft 365 Defender
 description: Controlar e revisar as alterações de nomenis e colunas no esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, dados, alterações de nomentar, renomear, Proteção contra Ameaças da Microsoft
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, dados, alterações de nomeação, renomear
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ab6bdefb457fb31df98d829ee801b72f4c8ae70a
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 22d26dac6b7ee502d6934349d22b1d40532f575f
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51499695"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935768"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Esquema de busca avançado - Alterações de nomenis
 
@@ -60,7 +60,7 @@ As alterações de nomenisagem são aplicadas automaticamente a consultas salvas
 | `DetectionSource` | WindowsDefenderAv | Antivírus | Rebranding |
 | `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Rebranding |
 | `DetectionSource` | CustomerTI |  TI personalizada | Rebranding |
-| `DetectionSource` | OfficeATP | Obter o Microsoft Defender para Office 365 | Rebranding |
+| `DetectionSource` | OfficeATP | Microsoft Defender para Office 365 | Rebranding |
 | `DetectionSource` | MTP   | Microsoft 365 Defender | Rebranding |
 | `DetectionSource` | AzureATP |    Microsoft Defender para Identidade? | Rebranding |
 | `DetectionSource` | CustomDetection   | Detecção personalizada | Rebranding |
@@ -69,7 +69,7 @@ As alterações de nomenisagem são aplicadas automaticamente a consultas salvas
 | `DetectionSource` | TI de terceiros | Sensores de terceiros | Rebranding |
 | `ServiceSource` | O Microsoft Defender ATP| Microsoft Defender para Ponto de Extremidade | Rebranding |
 |`ServiceSource` |Proteção contra Ameaças da Microsoft   | Microsoft 365 Defender | Rebranding |
-| `ServiceSource` | Office 365 ATP  |Obter o Microsoft Defender para Office 365 | Rebranding |
+| `ServiceSource` | Office 365 ATP  |Microsoft Defender para Office 365 | Rebranding |
 | `ServiceSource` |Azure ATP    |Microsoft Defender para Identidade? | Rebranding |
 
 `DetectionSource`está disponível na tabela [AlertInfo.](advanced-hunting-alertinfo-table.md) `ServiceSource`está disponível nas tabelas [AlertEvidence e](advanced-hunting-alertevidence-table.md) [AlertInfo.](advanced-hunting-alertinfo-table.md) 

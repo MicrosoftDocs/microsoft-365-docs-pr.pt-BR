@@ -1,7 +1,7 @@
 ---
 title: Referência avançada do esquema de busca
 description: Saiba mais sobre as tabelas no esquema avançado de busca para entender os dados em que você pode executar consultas de busca de ameaças.
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft Defender para Ponto de Extremidade, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, dados
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, mdatp, microsoft defender atp, microsoft defender para ponto de extremidade, pesquisa wdatp, consulta, telemetria, referência de esquema, kusto, tabela, dados
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: b35cc32f776083b58bc6467be43508a805d92d9c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fa111197dfd68cfcca40ce8a39befe20b97d1be8
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934340"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939631"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>Entenda o esquema de busca avançado no Microsoft Defender para Ponto de Extremidade
 

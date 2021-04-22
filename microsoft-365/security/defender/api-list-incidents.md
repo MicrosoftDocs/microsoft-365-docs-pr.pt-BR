@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4488a552475121adc4a439106bc0bf0d97cb509a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 7fb0de4f8dc67331e7acca59e70d061fe7c19493
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052844"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51935732"
 ---
 # <a name="list-incidents-api-in-microsoft-365-defender"></a>Listar a API de incidentes no Microsoft 365 Defender
 
@@ -124,7 +124,7 @@ lastUpdatedTime | Hora em que o alerta foi atualizado pela última vez no back-e
 resolvedTime | Hora em que o alerta foi resolvido. | 2020-09-10T05:22:59Z
 firstActivity | Hora em que o alerta relatou pela primeira vez que a atividade foi atualizada no back-end.| 2020-09-04T05:22:59Z
 title | Breve identificação do valor da cadeia de caracteres disponível para cada alerta. | Atividade ransomware
-descrição | Valor de cadeia de caracteres que descreve cada alerta. | O usuário Test User2 (testUser2@contoso.com) manipulou 99 arquivos com várias extensões terminando com a extensão *incomum herunterladen*. Esse é um número incomum de manipulações de arquivos e indica um possível ataque de ransomware.
+description | Valor de cadeia de caracteres que descreve cada alerta. | O usuário Test User2 (testUser2@contoso.com) manipulou 99 arquivos com várias extensões terminando com a extensão *incomum herunterladen*. Esse é um número incomum de manipulações de arquivos e indica um possível ataque de ransomware.
 category | Exibição visual e numérica da distância em que o ataque progrediu ao longo da cadeia de morte. Alinhado ao [MITRE ATT&CK™ framework](https://attack.mitre.org/). | Impacto
 status | Categorizar alertas (como *Novo,* *Ativo* ou *Resolvido).* Ele pode ajudá-lo a organizar e gerenciar sua resposta a alertas. | Novo
 severity | Indica o possível impacto nos ativos. Quanto maior a gravidade, maior será o impacto. Normalmente, itens de severidade mais altos exigem a atenção mais imediata.<br>Um dos seguintes valores: *Informational*, *Low*, *Medium e *High*. | Médio
@@ -142,7 +142,7 @@ devices | Todos os dispositivos onde os alertas relacionados ao incidente foram 
 
 Nome do campo | Descrição | Valor de exemplo
 -|-|-
-DeviceId | A ID do dispositivo conforme designado no Microsoft Defender ATP. | 24c222b0b0b60fe148eeece49ac83910cc6a7ef491
+DeviceId | A ID do dispositivo conforme designado no Microsoft Defender para Ponto de Extremidade. | 24c222b0b0b60fe148eeece49ac83910cc6a7ef491
 aadDeviceId |  A ID do dispositivo conforme designado no [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis). Disponível apenas para dispositivos ingressados no domínio. | null
 deviceDnsName | O nome de domínio totalmente qualificado para o dispositivo. | user5cx.middleeast.corp.contoso.com
 osPlatform | A plataforma do sistema operacional que o dispositivo está executando.| WindowsServer2016
@@ -157,7 +157,7 @@ entidades | Todas as entidades identificadas para fazer parte ou relacionadas a 
 
 Nome do campo | Descrição | Valor de exemplo
 -|-|-
-entityType | Entidades identificadas para fazer parte ou relacionadas a um determinado alerta.<br>Os valores das propriedades são: *User*, *Ip*, *Url*, File , *Process*, *MailBox*, *MailMessage,* *MailCluster*, *Registry*  | User
+entityType | Entidades identificadas para fazer parte ou relacionadas a um determinado alerta.<br>Os valores das propriedades são: *User*, *Ip*, *Url*, File , *Process*, *MailBox*, *MailMessage,* *MailCluster*, *Registry*  | Usuário
 sha1 | Disponível se entityType for *File*.<br>O hash de arquivo para alertas associados a um arquivo ou processo. | 5de839186691aa96ee2ca6d74f0a38fb8d1bd6dd
 sha256 | Disponível se entityType for *File*.<br>O hash de arquivo para alertas associados a um arquivo ou processo. | 28cb017dfc99073a1b47c1b30f413e3ce774c4991eb4158de50f9dbb36d8043
 fileName | Disponível se entityType for *File*.<br>O nome do arquivo para alertas associados a um arquivo ou processo | Detector.UnitTests.dll

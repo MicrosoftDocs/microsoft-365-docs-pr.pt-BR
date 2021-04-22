@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba como hospedar reuniões online para sua empresa.
-ms.openlocfilehash: dffdf847962962b2f2e9daf70dae210abbb7614b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 893a03b064b6f73711b69a61c90cd40023241c48
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580505"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939513"
 ---
 # <a name="host-online-meetings-for-your-business"></a>Hospedar reuniões online para sua empresa
 
@@ -35,9 +35,9 @@ Eles precisarão baixar a versão gratuita ou [ingressar](https://support.micros
 
 Se você colaborar com frequência em projetos com um cliente, [](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7) cliente ou parceiro, considere criar uma equipe para seus clientes, você pode convidá-los facilmente para reuniões e também ter conversas, compartilhar arquivos e acompanhar projetos no Microsoft Teams.
 
-Baixe um infográfico para obter uma visão geral rápida de como ingressar ou hospedar uma reunião online com o Microsoft Teams.
+Baixe um infográfico para obter uma visão geral rápida de como ingressar ou hospedar uma reunião online com o Microsoft Teams:
 
-Baixe um infográfico para obter uma visão geral rápida de como ingressar ou hospedar uma reunião online com o Microsoft Teams. [PDF](https://go.microsoft.com/fwlink/?linkid=2078712)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515)
+[PDF](https://go.microsoft.com/fwlink/?linkid=2078712)  |  [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515)
 
 ## <a name="1-schedule-a-meeting"></a>1. Agendar uma reunião
 
