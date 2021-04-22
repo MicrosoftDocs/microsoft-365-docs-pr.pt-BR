@@ -10,7 +10,6 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
-- M365-subscription-management
 - Adm_O365
 - Adm_TOC
 ms.custom:
@@ -22,12 +21,12 @@ search.appverid:
 description: Obtenha suporte técnico e de cobrança usando números de telefone listados para seu país ou região ou enviando uma solicitação de serviço online.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 6e355a07584d45a85c363956d1bb4e45eae708be
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 7e9f324bca8614e8e5b644c529802030778509b5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222034"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929068"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Maneiras de contatar o suporte para produtos comerciais - Ajuda para Administradores
 

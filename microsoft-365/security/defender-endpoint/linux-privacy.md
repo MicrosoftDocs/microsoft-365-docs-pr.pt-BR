@@ -1,7 +1,7 @@
 ---
 title: Privacidade do Microsoft Defender para Ponto de Extremidade no Linux
 description: Controles de privacidade, como configurar configurações de política que impactam a privacidade e informações sobre os dados de diagnóstico coletados no Microsoft Defender para Ponto de Extremidade no Linux.
-keywords: microsoft, defender, atp, linux, privacidade, diagnóstico
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, privacidade, diagnóstico
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 69af56efa57f389842ed31afa5f0a74667bd8f7b
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: cbf68b6ce8397f0339b374a041ba2629b20db699
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903245"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933332"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Privacidade do Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -33,13 +33,13 @@ ms.locfileid: "51903245"
 
 > Deseja experimentar o Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-A Microsoft está comprometida em fornecer as informações e controles necessários para fazer escolhas sobre como seus dados são coletados e usados quando você está usando o Defender para o Ponto de Extremidade para Linux.
+A Microsoft está comprometida em fornecer as informações e controles necessários para fazer escolhas sobre como seus dados são coletados e usados quando você está usando o Defender para o Ponto de Extremidade no Linux.
 
 Este tópico descreve os controles de privacidade disponíveis no produto, como gerenciar esses controles com configurações de política e mais detalhes sobre os eventos de dados coletados.
 
 ## <a name="overview-of-privacy-controls-in-microsoft-defender-for-endpoint-on-linux"></a>Visão geral dos controles de privacidade no Microsoft Defender para Ponto de Extremidade no Linux
 
-Esta seção descreve os controles de privacidade para os diferentes tipos de dados coletados pelo Defender para Ponto de Extremidade para Linux.
+Esta seção descreve os controles de privacidade para os diferentes tipos de dados coletados pelo Defender para Ponto de Extremidade no Linux.
 
 ### <a name="diagnostic-data"></a>Dados de diagnóstico
 
@@ -75,7 +75,7 @@ Há três níveis para controlar o envio de exemplo:
 
 Se você for um administrador de TI, talvez queira configurar esses controles no nível da empresa. 
 
-Os controles de privacidade para os vários tipos de dados descritos na seção anterior são descritos em detalhes em [Definir preferências](linux-preferences.md)para Defender para Ponto de Extremidade para Linux .
+Os controles de privacidade para os vários tipos de dados descritos na seção anterior são descritos em detalhes em [Definir preferências](linux-preferences.md)para Defender para Ponto de Extremidade no Linux .
 
 Assim como em qualquer nova configuração de política, você deve testá-las cuidadosamente em um ambiente limitado e controlado para garantir que as configurações configuradas tenham o efeito desejado antes de implementar as configurações de política mais amplamente em sua organização.
 
@@ -96,7 +96,7 @@ Os campos a seguir são considerados comuns para todos os eventos:
 | org_id                  | Identificador exclusivo associado à empresa à que o dispositivo pertence. Permite que a Microsoft identifique se os problemas estão afetando um conjunto selecionado de empresas e quantas empresas são impactadas. |
 | hostname                | Nome do dispositivo local (sem sufixo DNS). Permite que a Microsoft identifique se os problemas estão afetando um conjunto selecionado de instalação e quantos usuários são afetados. |
 | product_guid            | Identificador exclusivo do produto. Permite que a Microsoft diferencie problemas que impactam diferentes tipos de produto. |
-| app_version             | Versão do aplicativo Defender para Ponto de Extremidade para Linux. Permite que a Microsoft identifique quais versões do produto estão mostrando um problema para que ele possa ser priorizado corretamente.|
+| app_version             | Versão do aplicativo Defender para Ponto de Extremidade no Linux. Permite que a Microsoft identifique quais versões do produto estão mostrando um problema para que ele possa ser priorizado corretamente.|
 | sig_version             | Versão do banco de dados de inteligência de segurança. Permite que a Microsoft identifique quais versões da inteligência de segurança estão mostrando um problema para que ela possa ser priorizada corretamente. |
 | supported_compressions  | Lista de algoritmos de compactação suportados pelo aplicativo, por exemplo `['gzip']` . Permite que a Microsoft entenda quais tipos de compactações podem ser usadas quando se comunicam com o aplicativo. |
 | release_ring            | Toque ao lado do dispositivo (por exemplo, Insider Fast, Insider Slow, Production). Permite que a Microsoft identifique em qual anel de lançamento um problema pode estar ocorrendo para que ele possa ser priorizado corretamente. |
@@ -163,7 +163,7 @@ Os seguintes campos são coletados:
 
 | Campo            | Descrição |
 | ---------------- | ----------- |
-| versão          | Versão do Defender para Ponto de Extremidade para Linux. |
+| versão          | Versão do Defender para Ponto de Extremidade no Linux. |
 | instance_id      | Identificador exclusivo gerado na inicialização de extensão do kernel. |
 | trace_level      | Nível de rastreamento da extensão do kernel. |
 | subsistema        | O subsistema subjacente usado para proteção em tempo real. |
@@ -178,7 +178,7 @@ Os seguintes campos são coletados:
 Os logs de diagnóstico são coletados somente com o consentimento do usuário como parte do recurso de envio de comentários. Os seguintes arquivos são coletados como parte dos logs de suporte:
 
 - Todos os arquivos *em /var/log/microsoft/mdatp*
-- Subconjunto de arquivos *em /etc/opt/microsoft/mdatp* criados e usados pelo Defender para Endpoint para Linux
+- Subconjunto de arquivos *em /etc/opt/microsoft/mdatp* criados e usados pelo Defender para Ponto de Extremidade no Linux
 - Instalação do produto e logs de desinstalação em */var/log/microsoft_mdatp_ \* .log*
 
 ### <a name="optional-diagnostic-data"></a>Dados de diagnóstico opcionais

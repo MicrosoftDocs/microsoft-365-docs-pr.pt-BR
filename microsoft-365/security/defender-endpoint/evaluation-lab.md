@@ -1,7 +1,7 @@
 ---
 title: Laboratório de avaliação do Microsoft Defender para Ponto de Extremidade
 description: Saiba mais sobre os recursos do Microsoft Defender para Ponto de Extremidade, execute simulações de ataque e veja como ele impede, detecta e corre ameaças.
-keywords: avaliar mdatp, avaliação, laboratório, simulação, windows 10, windows server 2019, laboratório de avaliação
+keywords: avaliar o Microsoft Defender para Ponto de Extremidade, avaliação, laboratório, simulação, windows 10, windows server 2019, laboratório de avaliação
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2382281fbb975daa18ec21aabaf5acf8d3fbfb2f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: ed2165c0102170256f50964180a550d8eccbce8c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893432"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932782"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Laboratório de avaliação do Microsoft Defender para Ponto de Extremidade
 

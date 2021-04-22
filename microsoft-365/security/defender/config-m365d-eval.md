@@ -1,7 +1,7 @@
 ---
 title: Configurar os pilares do Microsoft 365 Defender para o laboratório de avaliação ou o ambiente piloto
 description: Configure os pilares do Microsoft 365 Defender, como o Microsoft Defender para Office 365 , o Microsoft Defender para Identidade, o Microsoft Cloud App Security e o Microsoft Defender para Ponto de Extremidade, para seu laboratório de avaliação ou ambiente piloto.
-keywords: configurar a avaliação da Proteção contra Ameaças da Microsoft, a configuração de avaliação da Proteção contra Ameaças da Microsoft, configurar o projeto piloto da Proteção contra Ameaças da Microsoft, configurar os pilares da Proteção contra Ameaças da Microsoft, os pilares da Proteção contra Ameaças da Microsoft
+keywords: configurar a avaliação do Microsoft 365 Defender, a configuração de avaliação do Microsoft 365 Defender, configurar o projeto piloto do Microsoft 365 Defender, configurar os pilares do Microsoft 365 Defender, os pilares do Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 9b192a029704d1354867b169efdf0d489345030e
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 05bdc9cbb678a3d6c1cee726fc4d8c2e45d2d360
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580961"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933500"
 ---
 # <a name="configure-microsoft-365-defender-pillars-for-your-trial-lab-or-pilot-environment"></a>Configurar os pilares do Microsoft 365 Defender para seu laboratório de avaliação ou ambiente piloto
 
@@ -54,7 +54,7 @@ O Microsoft 365 Defender consiste em quatro pilares. Embora um pilar já possa f
 ![Solução do Image of_Microsoft 365 Defender para usuários, Microsoft Defender for Identity, para pontos de extremidade Microsoft Defender para Ponto de Extremidade, para aplicativos de nuvem, Microsoft Cloud App Security e para dados, Microsoft Defender para Office 365](../../media/mtp/m365pillars.png)
 
 Esta seção o orientará a configurar:
--   Obter o Microsoft Defender para Office 365
+-   Microsoft Defender para Office 365
 -   Microsoft Defender para Identidade? 
 -   Microsoft Cloud App Security
 -   Microsoft Defender para Ponto de Extremidade
@@ -162,9 +162,6 @@ Há um Módulo do PowerShell chamado *ORCA (Advanced Threat Protection Recommend
 11. Na seção [Configurações](https://go.microsoft.com/fwlink/?linkid=2040449) do Microsoft Defender para Identidade, selecione **Microsoft Defender para Ponto de Extremidade **e, em seguida, acione a alternância. Clique em **Salvar**. 
 
     ![Página of_the configurações de identidade do Microsoft Defender para a qual você deve ativar a alternância do Microsoft Defender para o Ponto de Extremidade](../../media/mtp-eval-52.png)
-
-> [!NOTE]
-> Windows Defender ATP foi renomeada como Microsoft Defender para Ponto de Extremidade. Alterações de marcação em todos os nossos portais estão sendo roladas para consistência.
 
 
 ## <a name="configure-microsoft-cloud-app-security"></a>Configurar o Microsoft Cloud App Security
@@ -285,7 +282,7 @@ Para obter uma orientação mais abrangente, consulte [Ativar o Microsoft 365 De
 
 Parabéns! Você acabou de criar seu laboratório de avaliação do Microsoft 365 Defender ou um ambiente piloto! Agora você pode se familiarizar com a interface do usuário do Microsoft 365 Defender! Veja o que você pode aprender com o guia interativo do Microsoft 365 Defender a seguir e saiba como usar cada painel para suas tarefas de operação de segurança diárias.
 
-[Confira o guia interativo](https://aka.ms/MTP-Interactive-Guide)
+[Conferir o guia interativo](https://aka.ms/MTP-Interactive-Guide)
 
 Em seguida, você pode simular um ataque e ver como os recursos entre produtos detectam, criam alertas e respondem automaticamente a um ataque sem arquivo em um ponto de extremidade.
 

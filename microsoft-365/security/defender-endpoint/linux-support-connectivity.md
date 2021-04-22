@@ -2,7 +2,7 @@
 title: Solucionar problemas de conectividade na nuvem para o Microsoft Defender para Ponto de Extremidade no Linux
 ms.reviewer: ''
 description: Solucionar problemas de conectividade na nuvem para o Microsoft Defender para Ponto de Extremidade no Linux
-keywords: microsoft, defender, atp, linux, nuvem, conectividade, comunicação
+keywords: microsoft, defender, Microsoft Defender para Endpoint, linux, nuvem, conectividade, comunicação
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 985e4c39c60600da892c010b6ee26e9c98bb0611
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0345d7f88d147abb750e66a5e61f516abf38d553
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903161"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933104"
 ---
 # <a name="troubleshoot-cloud-connectivity-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Solucionar problemas de conectividade na nuvem para o Microsoft Defender para Ponto de Extremidade no Linux
 
@@ -37,7 +37,7 @@ ms.locfileid: "51903161"
 
 ## <a name="run-the-connectivity-test"></a>Executar o teste de conectividade
 
-Para testar se o Defender para Ponto de Extremidade para Linux pode se comunicar com a nuvem com as configurações de rede atuais, execute um teste de conectividade da linha de comando:
+Para testar se o Defender para Ponto de Extremidade no Linux pode se comunicar com a nuvem com as configurações de rede atuais, execute um teste de conectividade da linha de comando:
 
 ```bash
 mdatp connectivity test
@@ -86,7 +86,7 @@ OK https://cdn.x.cp.wd.microsoft.com/ping
 > [!WARNING]
 > Pac, WPAD e proxies autenticados não são suportados. Verifique se apenas um proxy estático ou um proxy transparente está sendo usado.
 >
-> Os proxies de inspeção e interceptação de SSL também não são suportados por motivos de segurança. Configure uma exceção para a inspeção SSL e seu servidor proxy passar diretamente os dados do Defender para o Ponto de Extremidade para Linux para as URLs relevantes sem interceptação. Adicionar seu certificado de interceptação ao armazenamento global não permitirá interceptação.
+> Os proxies de inspeção e interceptação de SSL também não são suportados por motivos de segurança. Configure uma exceção para a inspeção SSL e seu servidor proxy passar diretamente os dados do Defender para o Ponto de Extremidade no Linux para as URLs relevantes sem interceptação. Adicionar seu certificado de interceptação ao armazenamento global não permitirá interceptação.
 
 Se for necessário um proxy estático, adicione um parâmetro proxy ao comando acima, onde corresponde `proxy_address:port` ao endereço de proxy e à porta:
 
@@ -107,7 +107,7 @@ Para usar um proxy estático, `mdatp.service` o arquivo deve ser modificado. Cer
 
 Certifique-se também de que o endereço proxy estático correto seja preenchido para substituir `address:port` .
 
-Se esse arquivo estiver correto, tente executar o seguinte comando no terminal para recarregar o Defender para Endpoint para Linux e propagar a configuração:
+Se esse arquivo estiver correto, tente executar o seguinte comando no terminal para recarregar o Defender para Ponto de Extremidade no Linux e propagar a configuração:
 
 ```bash
 sudo systemctl daemon-reload; sudo systemctl restart mdatp

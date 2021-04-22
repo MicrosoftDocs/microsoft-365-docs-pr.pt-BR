@@ -1,7 +1,7 @@
 ---
 title: Tabela IdentityDirectoryEvents no esquema de busca avançado
 description: Saiba mais sobre o controlador de domínio e eventos do Active Directory na tabela IdentityDirectoryEvents do esquema de busca avançado
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, IdentityDirectoryEvents, controlador de domínio, Active Directory, Azure ATP, identidades
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, referência de esquema, kusto, tabela, coluna, tipo de dados, descrição, IdentityDirectoryEvents, controlador de domínio, Active Directory, Microsoft Defender para Identidade, identidades
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 73018bb65c011d10234ec9c02fc61bfb93fa125a
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: b42ff09f1e363f115ecc06c361c8386b328b0bcb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501128"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932996"
 ---
 # <a name="identitydirectoryevents"></a>IdentityDirectoryEvents
 
@@ -45,28 +45,28 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | Nome da coluna | Tipo de dados | Descrição |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | A data e a hora em que o evento foi gravado |
-| `ActionType` | string | Tipo de atividade que disparou o evento. Consulte a [referência de esquema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) no portal para obter detalhes |
-| `Application` | string | Aplicativo que realizou a ação gravada |
-| `TargetAccountUpn` | string | Nome principal do usuário (UPN) da conta à que a ação gravada foi aplicada |
-| `TargetAccountDisplayName` | string | Nome de exibição da conta à que a ação gravada foi aplicada |
-| `TargetDeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo ao qual a ação gravada foi aplicada |
-| `DestinationDeviceName` | string | Nome do dispositivo que executa o aplicativo de servidor que processou a ação gravada |
-| `DestinationIPAddress` | string | Endereço IP do dispositivo que executa o aplicativo de servidor que processou a ação gravada |
-| `DestinationPort` | string | Porta de destino da atividade |
-| `Protocol` | string | Protocolo usado durante a comunicação |
-| `AccountName` | string | Nome de usuário da conta |
-| `AccountDomain` | string | Domínio da conta |
-| `AccountUpn` | string | Nome principal do usuário (UPN) da conta |
-| `AccountSid` | string | Identificador de Segurança (SID) da conta |
-| `AccountObjectId` | string | Identificador exclusivo da conta no Azure Active Directory |
-| `AccountDisplayName` | string | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação intermediária e um sobrenome ou sobrenome. |
-| `DeviceName` | string | FQDN (nome de domínio totalmente qualificado) do dispositivo |
-| `IPAddress` | string | Endereço IP atribuído ao dispositivo durante a comunicação |
-| `Port` | string | Porta TCP usada durante a comunicação |
-| `Location` | string | Cidade, país ou outra localização geográfica associada ao evento |
-| `ISP` | string | Provedor de serviços de Internet associado ao endereço IP |
+| `ActionType` | cadeia de caracteres | Tipo de atividade que disparou o evento. Consulte a [referência de esquema](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) no portal para obter detalhes |
+| `Application` | cadeia de caracteres | Aplicativo que realizou a ação gravada |
+| `TargetAccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta à que a ação gravada foi aplicada |
+| `TargetAccountDisplayName` | cadeia de caracteres | Nome de exibição da conta à que a ação gravada foi aplicada |
+| `TargetDeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo ao qual a ação gravada foi aplicada |
+| `DestinationDeviceName` | cadeia de caracteres | Nome do dispositivo que executa o aplicativo de servidor que processou a ação gravada |
+| `DestinationIPAddress` | cadeia de caracteres | Endereço IP do dispositivo que executa o aplicativo de servidor que processou a ação gravada |
+| `DestinationPort` | cadeia de caracteres | Porta de destino da atividade |
+| `Protocol` | cadeia de caracteres | Protocolo usado durante a comunicação |
+| `AccountName` | cadeia de caracteres | Nome de usuário da conta |
+| `AccountDomain` | cadeia de caracteres | Domínio da conta |
+| `AccountUpn` | cadeia de caracteres | Nome principal do usuário (UPN) da conta |
+| `AccountSid` | cadeia de caracteres | Identificador de Segurança (SID) da conta |
+| `AccountObjectId` | cadeia de caracteres | Identificador exclusivo da conta no Azure Active Directory |
+| `AccountDisplayName` | cadeia de caracteres | Nome do usuário da conta exibido no livro de endereços. Normalmente, uma combinação de um nome ou nome determinado, uma iniciação intermediária e um sobrenome ou sobrenome. |
+| `DeviceName` | cadeia de caracteres | FQDN (nome de domínio totalmente qualificado) do dispositivo |
+| `IPAddress` | cadeia de caracteres | Endereço IP atribuído ao dispositivo durante a comunicação |
+| `Port` | cadeia de caracteres | Porta TCP usada durante a comunicação |
+| `Location` | cadeia de caracteres | Cidade, país ou outra localização geográfica associada ao evento |
+| `ISP` | cadeia de caracteres | Provedor de serviços de Internet associado ao endereço IP |
 | `ReportId` | long | Identificador exclusivo do evento |
-| `AdditionalFields` | string | Informações adicionais sobre a entidade ou evento |
+| `AdditionalFields` | cadeia de caracteres | Informações adicionais sobre a entidade ou evento |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Visão geral da busca avançada](advanced-hunting-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Otimizar a implantação e as detecções de regras ASR
 description: Otimize suas regras de redução de superfície de ataque (ASR) para identificar e impedir explorações típicas de malware.
-keywords: onboard, Gerenciamento do Intune, MDATP, WDATP, Microsoft Defender, Windows Defender, proteção avançada contra ameaças, redução de superfície de ataque, ASR, linha de base de segurança
+keywords: onboard, gerenciamento do Intune, Microsoft Defender para Ponto de Extremidade, Microsoft Defender, Windows Defender, redução de superfície de ataque, ASR, linha de base de segurança
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a5ce39bb3ff0bf3eea4ac4e89c554de43499b15f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 91295135c833c6b403078bdfd517c7b84ec7d630
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165472"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932842"
 ---
 # <a name="optimize-asr-rule-deployment-and-detections"></a>Otimizar a implantação e as detecções de regras ASR
 
@@ -56,6 +56,6 @@ Para obter mais informações sobre a implantação de regras ASR no Centro de s
 
 **Tópicos relacionados**
 
-* [Verifique se seus dispositivos estão configurados corretamente](configure-machines.md)
+* [Verificar se os dispositivos estão configurados corretamente](configure-machines.md)
 * [Obter dispositivos conectados ao Microsoft Defender para Ponto de Extremidade](configure-machines-onboarding.md)
 * [Monitorar a conformidade com a linha de base de segurança do Microsoft Defender for Endpoint](configure-machines-security-baseline.md)

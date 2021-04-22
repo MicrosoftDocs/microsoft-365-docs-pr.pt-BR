@@ -2,7 +2,7 @@
 title: Microsoft Defender para Ponto de Extremidade em recursos Linux
 ms.reviewer: ''
 description: Descreve os recursos do Microsoft Defender para Ponto de Extremidade no Linux, incluindo como desinstalar, como coletar logs de diagnóstico, comandos CLI e problemas conhecidos com o produto.
-keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: de2602bdc94507d27236b939553a6567b2587f36
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 176ee89c8d60a1515855296e2565f0649f908a33
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903137"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933320"
 ---
 # <a name="resources"></a>Recursos
 
@@ -81,7 +81,7 @@ O log detalhado será salvo em `/var/log/microsoft/mdatp_install.log` . Se você
 
 ## <a name="uninstall"></a>Uninstall
 
-Há várias maneiras de desinstalar o Defender para o Ponto de Extremidade para Linux. Se você estiver usando uma ferramenta de configuração como o Puppet, siga as instruções de desinstalação do pacote para a ferramenta de configuração.
+Há várias maneiras de desinstalar o Defender para o Ponto de Extremidade no Linux. Se você estiver usando uma ferramenta de configuração como o Puppet, siga as instruções de desinstalação do pacote para a ferramenta de configuração.
 
 ### <a name="manual-uninstallation"></a>Desinstalação manual
 

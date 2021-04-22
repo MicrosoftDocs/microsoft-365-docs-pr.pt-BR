@@ -1,7 +1,7 @@
 ---
 title: Configurações do fuso horário do Centro de Segurança do Microsoft Defender
 description: Use as informações contidas aqui para configurar as configurações do fuso horário do Centro de Segurança do Microsoft Defender e exibir informações de licença.
-keywords: configurações, Microsoft Defender, inteligência contra ameaças de segurança cibernética, proteção avançada contra ameaças, fuso horário, utc, hora local, licença
+keywords: configurações, Microsoft Defender, inteligência contra ameaças de segurança cibernética, Microsoft Defender para Ponto de Extremidade, fuso horário, utc, hora local, licença
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e395420b92c29977f1c802d1c10683492c1aba10
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: df55a1b0e92c24b5f52032330ef95bf19aeb8cb3
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470460"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932626"
 ---
 # <a name="microsoft-defender-security-center-time-zone-settings"></a>Configurações do fuso horário do Centro de Segurança do Microsoft Defender
 

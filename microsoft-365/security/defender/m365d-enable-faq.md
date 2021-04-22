@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes ao ligar o Microsoft 365 Defender
 description: Obter respostas para as perguntas mais frequentes sobre licenciamento, permissões, configurações iniciais e outros produtos e serviços relacionados à habilitação do Microsoft 365 Defender
-keywords: perguntas frequentes, perguntas frequentes, GCC, começar, habilitar MTP, Proteção contra Ameaças da Microsoft, M365, segurança, localização de dados, permissões necessárias, qualificação de licença, página de configurações
+keywords: perguntas frequentes, perguntas frequentes, GCC, começar, habilitar o Microsoft 365 Defender, o Microsoft 365 Defender, o M365, a segurança, o local dos dados, as permissões necessárias, a qualificação da licença, a página de configurações
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 7482bf614e7cb3ffad6596f3c5d8bc554d46d912
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 55c1a3807fe8e28ca12f4f638c1ab2ca717523ed
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054507"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933428"
 ---
 # <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>Perguntas frequentes ao ligar o Microsoft 365 Defender
 

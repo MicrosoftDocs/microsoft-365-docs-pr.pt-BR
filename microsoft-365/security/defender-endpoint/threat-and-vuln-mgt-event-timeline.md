@@ -1,7 +1,7 @@
 ---
 title: Linha do tempo do evento no gerenciamento de ameaças e vulnerabilidades
 description: A linha do tempo do evento é um feed de notícias de risco que ajuda você a interpretar como o risco é introduzido na organização e quais mitigações aconteceram para reduzi-lo.
-keywords: linha do tempo do evento, linha do tempo do evento mdatp, linha do tempo do evento mdatp tvm, gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para Ponto de Extremidade
+keywords: linha do tempo do evento, linha do tempo do evento do Microsoft Defender for Endpoint, linha do tempo do evento tvm do Microsoft Defender para Endpoint, gerenciamento de ameaças e vulnerabilidades, Microsoft Defender para Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 90a124f9b0bf9ef775141e359224fde566c61c8d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 64362598ff4b0512eb110917071e6d32abb8ede9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501208"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933476"
 ---
 # <a name="event-timeline---threat-and-vulnerability-management"></a>Linha do tempo do evento - gerenciamento de ameaças e vulnerabilidades
 

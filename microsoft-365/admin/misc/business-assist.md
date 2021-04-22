@@ -16,12 +16,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Saiba mais sobre o programa assistência comercial e como ele pode ajudar sua organização com ajuda e uso aprimorados para o Microsoft 365 para empresas.
-ms.openlocfilehash: 4531c841b4856e22b364906c180aa336cb8fd04a
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 767146cbbb68ff2e6632a7cae74a8b232834b01b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408520"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929020"
 ---
 # <a name="business-assist-for-microsoft-365"></a>Business Assist para Microsoft 365
 
@@ -55,7 +55,7 @@ Somente as organizações qualificadas verão a opção de comprar o Business As
 
 2. Selecione **Detalhes** sobre a **Assistência para Pequenas Empresas do Microsoft 365** e conclua sua compra.
 
-:::image type="content" source="../../media/projectgenie-purchase services.png" alt-text="Screeenshot: Purchase Business Assist from the Add-ons section on the Purchase services page":::
+:::image type="content" source="../../media/business-assist-april.png" alt-text="Screeenshot: Purchase Business Assist from the Add-ons section on the Purchase services page":::
 
 > [!div class="nextstepaction"]
 > [Comprar agora](https://go.microsoft.com/fwlink/p/?linkid=2158423)

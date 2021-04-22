@@ -1,7 +1,7 @@
 ---
 title: Gerenciar a migração pós-migração do Microsoft Defender para Ponto de Extremidade
 description: Agora que você alternou para o Microsoft Defender para Ponto de Extremidade, sua próxima etapa é gerenciar seus recursos de proteção contra ameaças
-keywords: pós-migração, gerenciar, operações, manutenção, utilização, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: pós-migração, gerenciar, operações, manutenção, utilização, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: conceptual
 ms.date: 01/26/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 54302f38f0fd63560ecd1c5545efa4621c6b9bbd
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: eedd13030fd6a649985dc7280dc256e4ab35089a
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185856"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933188"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-post-migration"></a>Gerenciar o Microsoft Defender para Ponto de Extremidade, pós-migração
 
@@ -52,4 +52,4 @@ A tabela a seguir lista várias ferramentas/métodos que você pode usar, com li
 
 ## <a name="see-also"></a>Confira também
 
-- [Resolver falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)
+- [Endereços falsos positivos/negativos no Microsoft Defender para Ponto de Extremidade](defender-endpoint-false-positives-negatives.md)

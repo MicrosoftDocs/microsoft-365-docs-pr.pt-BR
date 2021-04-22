@@ -1,7 +1,7 @@
 ---
 title: Mitigar vulnerabilidades de dia zero - gerenciamento de ameaças e vulnerabilidades
 description: Saiba como encontrar e reduzir vulnerabilidades de dia zero em seu ambiente por meio do gerenciamento de ameaças e vulnerabilidades.
-keywords: Mdatp tvm zero day vulnerabilities, tvm, threat & vulnerability management, zero day, 0-day, mitigar vulnerabilidades de 0 dia, CVE vulnerável
+keywords: Microsoft Defender for Endpoint tvm zero day vulnerabilities, tvm, threat & vulnerability management, zero day, 0-day, mitigar vulnerabilidades de 0 dia, CVE vulnerável
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 941e4989dcb91ff9240131f5980d0e1eced2b21d
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: be508e646a67f01887814a0e72170e438ee86212
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51501231"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933056"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>Mitigar vulnerabilidades de dia zero - gerenciamento de ameaças e vulnerabilidades
 

@@ -1,7 +1,7 @@
 ---
 title: Visão geral - Busca avançada
 description: Saiba mais sobre as consultas avançadas de buscas no Microsoft 365 e sobre como usá-las para encontrar ameaças e deficiências na rede de forma proativa
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, microsoft 365, Proteção contra Ameaças da Microsoft
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: 3532fd461fff02fac54e96e0a1a1e69c39c16907
-ms.sourcegitcommit: dcc6bfd228ca9070975ce9eb14574e084f9ed92c
+ms.openlocfilehash: df48ec921dee7d8f3b441ed3f68ed148c5c6c857
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51657014"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932972"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Busca proativamente por ameaças com busca avançada no Microsoft 365 Defender
 
@@ -49,7 +49,7 @@ Você pode usar as mesmas consultas de busca de ameaças para criar regras de de
 Esse recurso é semelhante à busca [avançada no Microsoft Defender para Ponto de Extremidade.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Disponível no Centro de segurança do Microsoft 365, esse recurso oferece suporte a consultas que verificam um conjunto de dados mais amplo de:
 
 - Microsoft Defender para Ponto de Extremidade
-- Obter o Microsoft Defender para Office 365
+- Microsoft Defender para Office 365
 - Microsoft Cloud App Security
 - Microsoft Defender para Identidade?
 

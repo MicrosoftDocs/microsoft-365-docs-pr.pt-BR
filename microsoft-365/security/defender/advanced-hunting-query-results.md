@@ -1,7 +1,7 @@
 ---
 title: Trabalhar com resultados de consulta de busca avançada no Microsoft 365 Defender
 description: Fazer o máximo dos resultados da consulta retornados pela busca avançada no Microsoft 365 Defender
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, microsoft 365, Microsoft Threat Protection, visualização, gráfico, filtros, drill-down
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, detecções personalizadas, esquema, kusto, visualização, gráfico, filtros, drill-down
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 7086108febc25c4ecaaa3015c1d9a49f9d8ee642
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 34880c870cdf398ab1565f7f532ac95a6fde475d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500913"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932924"
 ---
 # <a name="work-with-advanced-hunting-query-results"></a>Trabalhar com resultados avançados de consulta de busca
 

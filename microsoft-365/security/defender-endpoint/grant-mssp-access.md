@@ -1,6 +1,6 @@
 ---
 title: Conceder acesso ao provedor de serviços de segurança gerenciado (MSSP)
-description: Tomar as etapas necessárias para configurar a integração do MSSP com o Microsoft Defender ATP
+description: Tomar as etapas necessárias para configurar a integração do MSSP com o Microsoft Defender para Ponto de Extremidade
 keywords: provedor de serviços de segurança gerenciado, mssp, configurar, integração
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1bb7bc3565bbb7c05f165c5649f3672ff33bb18b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 320355f838db5dbb1540350e95e4cc0645acd805
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165448"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932746"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>Conceder acesso ao MSSP (provedor de serviços de segurança gerenciado) (visualização)
 

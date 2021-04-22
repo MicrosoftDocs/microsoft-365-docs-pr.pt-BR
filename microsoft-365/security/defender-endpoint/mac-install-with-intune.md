@@ -1,7 +1,7 @@
 ---
-title: Implantação baseada no Intune para o Microsoft Defender para Ponto de Extremidade no macOS
-description: Instale o Microsoft Defender para Ponto de Extremidade no macOS, usando o Microsoft Intune.
-keywords: microsoft, defender, atp, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
+title: Implantação baseada no Intune para o Microsoft Defender para Ponto de Extremidade no Mac
+description: Instale o Microsoft Defender para Ponto de Extremidade no Mac, usando o Microsoft Intune.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamf, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: dbb4e3a558256f19594ab0aa4efbd2c9eed6b7f8
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: c98ce17b7b71f2d05aeffe66dbb1e08f9046f463
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764210"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933140"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Implantação baseada no Intune para o Microsoft Defender para Ponto de Extremidade no macOS
 
@@ -52,7 +52,7 @@ Este tópico descreve como implantar o Microsoft Defender para Ponto de Extremid
 Antes de começar, consulte a página principal do Microsoft Defender para Ponto de Extremidade no [macOS](microsoft-defender-endpoint-mac.md) para obter uma descrição dos pré-requisitos e requisitos do sistema para a versão de software atual.
 
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 A tabela a seguir resume as etapas necessárias para implantar e gerenciar o Microsoft Defender para Ponto de Extremidade em Macs, por meio do Intune. Etapas mais detalhadas estão disponíveis abaixo.
 
@@ -186,7 +186,7 @@ Para aprovar as extensões do sistema:
 
 3. Abra o perfil de configuração e carregue o intune/kext.xml. Esse arquivo foi criado em uma das seções anteriores.
 
-4. Clique em **OK**.
+4. Selecione **OK**.
 
     ![Importar uma configuração de um arquivo para o Perfil de Configuração Personalizado](images/mdatp-6-systemconfigurationprofiles.png)
 
@@ -272,7 +272,7 @@ Depois que as alterações do Intune são propagadas para os dispositivos inscri
     > [!div class="mx-imgBorder"]
     > ![Ícone do Microsoft Defender na captura de tela da barra de status](images/mdatp-icon-bar.png)
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 
 Problema: nenhuma licença encontrada
 

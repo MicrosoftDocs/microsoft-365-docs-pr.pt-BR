@@ -1,6 +1,6 @@
 ---
 title: Obter API da coleção de grupos de máquinas RBAC
-description: Saiba como usar a API da coleção Get KB para recuperar uma coleção de grupos de dispositivos RBAC na Proteção Avançada contra Ameaças do Microsoft Defender.
+description: Saiba como usar a API da coleção Get KB para recuperar uma coleção de grupos de dispositivos RBAC no Microsoft Defender para Ponto de Extremidade.
 keywords: apis, api gráfica, apis com suporte, get, RBAC, group
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 10/07/2018
-ms.openlocfilehash: 54a0edb47204fe6e48666f0927d05121af95e00a
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 18566025d79f02281c1d2c1509dd98f1e57879c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166288"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932770"
 ---
 # <a name="get-kb-collection-api"></a>Obter API de coleção KB
 

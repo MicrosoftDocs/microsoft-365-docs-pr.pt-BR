@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 154ecd66399b031ef2e60eef16227bb9bc2f8785
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: c1e572910ad311daba18a8b0f5eeb546ffe36956
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587714"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929104"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Investigar dispositivos na lista do Microsoft Defender for Endpoint Devices
 
@@ -172,12 +172,12 @@ A **guia KBs ausentes** lista as atualizações de segurança ausentes para o di
 
 ### <a name="active-alerts"></a>Alertas ativos
 
-O cartão proteção avançada contra ameaças do **Azure** exibirá uma visão geral de alto nível dos alertas relacionados ao dispositivo e seu nível de risco, se você tiver habilitado o recurso ATP do Azure e houver alertas ativos. Mais informações estão disponíveis na sonda "Alertas".
+O cartão proteção avançada contra ameaças do **Azure** exibirá uma visão geral de alto nível dos alertas relacionados ao dispositivo e ao nível de risco, se você tiver habilitado o recurso Microsoft Defender para Identidade e houver alertas ativos. Mais informações estão disponíveis na sonda "Alertas".
 
 ![Imagem do cartão de alertas ativos](images/risk-level-small.png)
 
 >[!NOTE]
->Você precisará habilitar a integração no Azure ATP e no Defender for Endpoint para usar esse recurso. No Defender para Ponto de Extremidade, você pode habilitar esse recurso em recursos avançados. Para obter mais informações sobre como habilitar recursos avançados, consulte [Ativar recursos avançados](advanced-features.md).
+>Você precisará habilitar a integração no Microsoft Defender for Identity e no Defender for Endpoint para usar esse recurso. No Defender para Ponto de Extremidade, você pode habilitar esse recurso em recursos avançados. Para obter mais informações sobre como habilitar recursos avançados, consulte [Ativar recursos avançados](advanced-features.md).
 
 ### <a name="logged-on-users"></a>Usuários conectados
 

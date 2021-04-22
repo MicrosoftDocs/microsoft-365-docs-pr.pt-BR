@@ -1,7 +1,7 @@
 ---
-title: Conector de fluxo do Microsoft Defender ATP
+title: Microsoft Defender para Conector de Fluxo de Ponto de Extremidade
 ms.reviewer: ''
-description: Use o Conector de Fluxo do Microsoft Defender ATP para automatizar a segurança e criar um fluxo que será disparado sempre que um novo alerta ocorrer em seu locatário.
+description: Use o Microsoft Defender for Endpoint Flow connector para automatizar a segurança e criar um fluxo que será disparado sempre que um novo alerta ocorrer em seu locatário.
 keywords: fluxo, apis com suporte, api, fluxo da Microsoft, consulta, automação
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6fd210ddfb8e3ab6e4f1f4ffc0635c8b813e3a07
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 33a7c7b1907ac761dfdde43a70bfb8f515235150
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163382"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929294"
 ---
 # <a name="microsoft-power-automate-formerly-microsoft-flow-and-azure-functions"></a>Microsoft Power Automate (anteriormente Microsoft Flow) e Funções do Azure
 

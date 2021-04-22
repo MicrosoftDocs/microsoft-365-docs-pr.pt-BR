@@ -1,7 +1,7 @@
 ---
 title: Tomar medidas em resultados avançados da consulta de busca no Microsoft 365 Defender
 description: Resolver rapidamente ameaças e ativos afetados em seus resultados de consulta de busca avançada
-keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, proteção contra ameaças da Microsoft, microsoft 365, mtp, m365, pesquisa, consulta, telemetria, tomar medidas
+keywords: busca avançada, busca de ameaças, busca de ameaças cibernéticas, Microsoft 365 Defender, microsoft 365, m365, pesquisa, consulta, telemetria, tomar medidas
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ee35bcc29ef8a283b6b04cb34ab97705d5dd15f4
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+ms.openlocfilehash: 0c088375cd784b411fdce417d77b1ea176bcee26
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51498233"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932900"
 ---
 # <a name="take-action-on-advanced-hunting-query-results"></a>Tomar medidas nos resultados avançados da consulta de busca
 

@@ -2,7 +2,7 @@
 title: Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente
 ms.reviewer: ''
 description: Descreve como implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente a partir da linha de comando.
-keywords: microsoft, defender, atp, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
+keywords: microsoft, defender, Microsoft Defender for Endpoint, linux, installation, deploy, uninstallation, puppet, ansible, linux, redhat, ubuntu, debian, sles, suse, centos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2beb46c62de2e9720d1626e0e1e5ce806a6d7e19
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0374c1a44a4d942ea631d97f51fa48df15d3ec13
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903911"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51929080"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux manualmente
 
@@ -58,7 +58,7 @@ Antes de começar, consulte [Microsoft Defender for Endpoint on Linux](microsoft
 
 ## <a name="configure-the-linux-software-repository"></a>Configurar o repositório de software Linux
 
-O Defender para Ponto de Extremidade para Linux pode ser implantado de um dos seguintes canais (denotado abaixo como *[canal]*): *insiders-fast,* *insiders-slow* ou *prod*. Cada um desses canais corresponde a um repositório de software Linux. Instruções para configurar seu dispositivo para usar um desses repositórios são fornecidas abaixo.
+O Defender para Ponto de Extremidade no Linux pode ser implantado de um dos seguintes canais (denotado abaixo como *[canal]*): *insiders-fast,* *insiders-slow* ou *prod*. Cada um desses canais corresponde a um repositório de software Linux. Instruções para configurar seu dispositivo para usar um desses repositórios são fornecidas abaixo.
 
 A escolha do canal determina o tipo e a frequência de atualizações oferecidas ao seu dispositivo. Os *dispositivos em insiders-fast* são os primeiros a receber atualizações e novos recursos, seguidos posteriormente por *insiders-slow* e por *último por prod*.
 
@@ -86,7 +86,7 @@ Para visualizar novos recursos e fornecer comentários antecipados, é recomend�
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    Por exemplo, se você estiver executando o CentOS 7 e quiser implantar o Defender para Endpoint para Linux a partir *do canal prod:*
+    Por exemplo, se você estiver executando o CentOS 7 e quiser implantar o Defender para Ponto de Extremidade no Linux a partir *do canal prod:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
@@ -328,7 +328,7 @@ Baixe o pacote de integração do Centro de Segurança do Microsoft Defender:
     > ```bash
     > mdatp health --field definitions_status
     > ```
-    > Observe que você também pode precisar configurar um proxy após concluir a instalação inicial. Consulte [Configure Defender for Endpoint for Linux for static proxy discovery: Post-installation configuration](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).
+    > Observe que você também pode precisar configurar um proxy após concluir a instalação inicial. Consulte [Configure Defender for Endpoint on Linux for static proxy discovery: Post-installation configuration](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-static-proxy-configuration#post-installation-configuration).
 
 5. Execute um teste de detecção para verificar se o dispositivo está corretamente conectado e relatando ao serviço. Execute as seguintes etapas no dispositivo recém-integrado:
 
@@ -344,7 +344,7 @@ Baixe o pacote de integração do Centro de Segurança do Microsoft Defender:
         curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
-    - O arquivo deve ter sido colocado em quarentena pelo Defender para Endpoint para Linux. Use o seguinte comando para listar todas as ameaças detectadas:
+    - O arquivo deve ter sido colocado em quarentena pelo Defender para Ponto de Extremidade no Linux. Use o seguinte comando para listar todas as ameaças detectadas:
 
         ```bash
         mdatp threat list
@@ -381,7 +381,7 @@ Consulte [Log installation issues](linux-resources.md#log-installation-issues) f
 
 ## <a name="operating-system-upgrades"></a>Atualizações do sistema operacional
 
-Ao atualizar seu sistema operacional para uma nova versão principal, primeiro você deve desinstalar o Defender para o Ponto de Extremidade para Linux, instalar a atualização e, finalmente, reconfigurar o Defender para Ponto de Extremidade para Linux em seu dispositivo.
+Ao atualizar o sistema operacional para uma nova versão principal, primeiro você deve desinstalar o Defender para o Ponto de Extremidade no Linux, instalar a atualização e, finalmente, reconfigurar o Defender para Ponto de Extremidade no Linux em seu dispositivo.
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>Como migrar do Insiders-Fast para o canal de produção
 
@@ -406,4 +406,4 @@ Ao atualizar seu sistema operacional para uma nova versão principal, primeiro v
 
 ## <a name="uninstallation"></a>Desinstalação
 
-Consulte [Desinstalar](linux-resources.md#uninstall) para obter detalhes sobre como remover o Defender for Endpoint para Linux de dispositivos cliente.
+Consulte [Desinstalar](linux-resources.md#uninstall) para obter detalhes sobre como remover o Defender for Endpoint no Linux de dispositivos cliente.

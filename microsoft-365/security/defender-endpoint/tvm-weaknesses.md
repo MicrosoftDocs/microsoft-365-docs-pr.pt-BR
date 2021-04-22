@@ -1,7 +1,7 @@
 ---
 title: Vulnerabilidades na minha organização - gerenciamento de ameaças e vulnerabilidades
 description: Lista a ID de vulnerabilidades e exposições comuns (CVE) de pontos fracos encontrados no software em execução em sua organização. Descoberto pelo Microsoft Defender para o recurso de gerenciamento de ameaças e vulnerabilidades do Ponto de Extremidade.
-keywords: Mdatp threat & gerenciamento de vulnerabilidades, gerenciamento de ameaças e vulnerabilidades, página de fraquezas do mdatp tvm, encontrar pontos fracos por meio de tvm, lista de vulnerabilidades de tvm, detalhes de vulnerabilidade no tvm
+keywords: Microsoft Defender for Endpoint threat & vulnerability management, threat and vulnerability management, Microsoft Defender for Endpoint tvm weaknesses page, finding weaknesses through tvm, tvm vulnerability list, vulnerability details in tvm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0f573b2425764876e877de44555691979a0e1fcf
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: a8039a06dc58c31158f90d39857ffbeba92138d5
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689396"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933068"
 ---
 # <a name="vulnerabilities-in-my-organization---threat-and-vulnerability-management"></a>Vulnerabilidades na minha organização - gerenciamento de ameaças e vulnerabilidades
 

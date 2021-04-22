@@ -1,7 +1,7 @@
 ---
 title: Solucionar problemas de eventos ausentes ou alertas para o Microsoft Defender para Ponto de Extremidade no Linux
 description: Solucionar problemas de eventos ausentes ou alertas no Microsoft Defender para Endpoint no Linux.
-keywords: microsoft, defender, atp, linux, eventos
+keywords: microsoft, defender, Microsoft Defender para Endpoint, linux, eventos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,12 +18,12 @@ mms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 40d394a4fc7349789dea9bd96ccdaf71067ab39e
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 7de216c1397a7cc4806af8221257eeedd2290830
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903993"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933308"
 ---
 # <a name="troubleshoot-missing-events-or-alerts-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Solucionar problemas de eventos ausentes ou alertas para o Microsoft Defender para Ponto de Extremidade no Linux
 

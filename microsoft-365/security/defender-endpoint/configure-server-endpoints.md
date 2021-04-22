@@ -1,7 +1,7 @@
 ---
 title: Onboard Windows servers to the Microsoft Defender for Endpoint service
 description: Integração de servidores Windows para que eles possam enviar dados do sensor para o sensor do Microsoft Defender para Ponto de Extremidade.
-keywords: servidor de integração, servidor, 2012r2, 2016, 2019, integração de servidor, gerenciamento de dispositivos, configurar servidores Windows ATP, integração do Microsoft Defender para servidores de Ponto de Extremidade, integração do Microsoft Defender para servidores de Ponto de Extremidade
+keywords: servidor de integração, servidor, 2012r2, 2016, 2019, integração de servidor, gerenciamento de dispositivos, configurar o Microsoft Defender para servidores de Ponto de Extremidade, a integração do Microsoft Defender para servidores de Ponto de Extremidade, a integração do Microsoft Defender para servidores de Ponto de Extremidade
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f2660f19d4b6b0d5f8e2dbf48843002a2bfb7f1d
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 4eea2931196c192620812c1609c506e1fb99093d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769030"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932948"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -55,7 +55,7 @@ Você pode integrar o Windows Server 2008 R2 SP1, o Windows Server 2012 R2 e o W
 Após concluir as etapas de integração usando qualquer uma das opções fornecidas, você precisará configurar e atualizar os clientes de Proteção de Ponto de Extremidade do [System Center.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
-> A licença de servidor autônomo do Defender for Endpoint é necessária, por nó, para a integração de um servidor Windows por meio do Microsoft Monitoring Agent (Opção 1) ou por meio do Microsoft Endpoint Manager (Opção 3). Como alternativa, uma licença do Azure Defender for Servers é necessária, por nó, para a integração de um servidor Windows por meio do Centro de Segurança do Azure (Opção 2), consulte Recursos com suporte disponíveis no Centro de Segurança [do Azure.](https://docs.microsoft.com/azure/security-center/security-center-services)
+> A licença de servidor autônomo do Defender for Endpoint é necessária, por nó, para a integração de um servidor Windows por meio do Microsoft Monitoring Agent (Opção 1) ou por meio do Microsoft Endpoint Manager (Opção 3). Como alternativa, uma licença do Azure Defender for Servers é necessária, por nó, para a integração de um servidor Windows por meio do Centro de Segurança do Azure (Opção 2), consulte Recursos com suporte disponíveis no [Azure Defender](https://docs.microsoft.com/azure/security-center/security-center-services).
 
 ### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>Opção 1: Integrando instalando e configurando o Microsoft Monitoring Agent (MMA)
 
@@ -127,13 +127,13 @@ Depois de concluído, você deverá ver servidores Windows internados no portal 
 
 3. Clique **em Servidores Integrados no Centro de Segurança do Azure.**
 
-4. Siga as instruções de integração no Microsoft Defender para Ponto de Extremidade com o Centro de Segurança do [Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) e Se você estiver usando o Azure ARC, siga as instruções de integração em [Habilitando](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)a integração do Microsoft Defender para Ponto de Extremidade .
+4. Siga as instruções de integração no Microsoft Defender para Ponto de Extremidade com [o Azure Defender](https://docs.microsoft.com/azure/security-center/security-center-wdatp) e, se você estiver usando o Azure ARC, siga as instruções de integração em [Habilitando](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)a integração do Microsoft Defender para Ponto de Extremidade .
 
 Após concluir as etapas de integração, você precisará configurar e atualizar os clientes de Proteção de Ponto de Extremidade do [System Center.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
 >
-> - Para que a integração por meio do Azure Defender for Servers (anteriormente Azure Security Center Standard Edition) funcione conforme o esperado, o servidor deve ter um espaço de trabalho e uma chave apropriados configurados nas configurações do Microsoft Monitoring Agent (MMA).
+> - Para que a integração por meio do Azure Defender for Servers funcione conforme o esperado, o servidor deve ter um espaço de trabalho e uma chave apropriados configurados nas configurações do Microsoft Monitoring Agent (MMA).
 > - Depois de configurado, o pacote de gerenciamento de nuvem apropriado é implantado no computador e o processo de sensor (MsSenseS.exe) será implantado e iniciado.
 > - Isso também será necessário se o servidor estiver configurado para usar um servidor gateway OMS como proxy.
 
@@ -188,26 +188,25 @@ O suporte para o Windows Server fornece informações mais profundas sobre ativi
 
     Para obter informações sobre como usar a Política de Grupo para configurar e gerenciar o Microsoft Defender Antivírus em seus servidores Windows, consulte [Use Group Policy settings to configure and manage Microsoft Defender Antivírus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus).
 
-## <a name="integration-with-azure-security-center"></a>Integração com o Centro de Segurança do Azure
+## <a name="integration-with-azure-defender"></a>Integração com o Azure Defender
 
-O Defender for Endpoint pode se integrar ao Centro de Segurança do Azure para fornecer uma solução abrangente de proteção do servidor Windows. Com essa integração, o Centro de Segurança do Azure pode usar o poder do Defender para o Ponto de Extremidade para fornecer detecção aprimorada de ameaças para servidores Windows.
+O Defender for Endpoint pode se integrar ao Azure Defender para fornecer uma solução abrangente de proteção do servidor Windows. Com essa integração, o Azure Defender pode usar o poder do Defender para o Ponto de Extremidade para fornecer detecção aprimorada de ameaças para servidores Windows.
 
 Os seguintes recursos estão incluídos nesta integração:
 
-- Integração automatizada – o sensor Defender para Ponto de Extremidade é habilitado automaticamente em Servidores Windows que estão integrados ao Centro de Segurança do Azure. Para obter mais informações sobre a integração do Centro de Segurança do Azure, consulte [Onboarding to Azure Security Center Standard for enhanced security](https://docs.microsoft.com/azure/security-center/security-center-onboarding).
+- Integração automatizada - o sensor defender para ponto de extremidade é habilitado automaticamente em Servidores Windows que estão integrados ao Azure Defender. Para obter mais informações sobre a integração do Azure Defender, consulte [Onboarding to Azure Defender Standard for enhanced security](https://docs.microsoft.com/azure/security-center/security-center-onboarding).
 
     > [!NOTE]
     > A integração entre o Azure Defender for Servers e o Microsoft Defender for Endpoint foi expandida para dar suporte ao Windows Server 2019 e à Área de Trabalho [Virtual do Windows (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
 
-- Os servidores Windows monitorados pelo Centro de Segurança do Azure também estarão disponíveis no Defender para Ponto de Extremidade - o Centro de Segurança do Azure conecta-se perfeitamente ao locatário do Defender para Ponto de Extremidade, fornecendo uma única exibição entre clientes e servidores.  Além disso, os alertas do Defender para Ponto de Extremidade estarão disponíveis no console do Centro de Segurança do Azure.
-- Investigação do servidor - Os clientes do Centro de Segurança do Azure podem acessar o Centro de Segurança do Microsoft Defender para executar uma investigação detalhada para descobrir o escopo de uma possível violação.
+- Os servidores Windows monitorados pelo Azure Defender também estarão disponíveis no Defender para Ponto de Extremidade - o Azure Defender conecta-se perfeitamente ao locatário do Defender para Ponto de Extremidade, fornecendo uma única exibição entre clientes e servidores.  Além disso, os alertas do Defender para Ponto de Extremidade estarão disponíveis no console do Azure Defender.
+- Investigação do servidor - Os clientes do Azure Defender podem acessar o Centro de Segurança do Microsoft Defender para executar uma investigação detalhada para descobrir o escopo de uma possível violação.
 
 > [!IMPORTANT]
->
-> - Quando você usa o Centro de Segurança do Azure para monitorar servidores, um locatário do Defender for Endpoint é criado automaticamente (nos EUA para usuários dos EUA, na UE para usuários europeus e do Reino Unido).
+> - Quando você usa o Azure Defender para monitorar servidores, um locatário do Defender for Endpoint é criado automaticamente (nos EUA para usuários dos EUA, na UE para usuários europeus e do Reino Unido).<br>
 Os dados coletados pelo Defender para Ponto de Extremidade são armazenados na localização geográfica do locatário conforme identificado durante o provisionamento.
-> - Se você usar o Defender para o Ponto de Extremidade antes de usar o Centro de Segurança do Azure, seus dados serão armazenados no local especificado quando você criou seu locatário, mesmo que você se integre ao Centro de Segurança do Azure posteriormente.
-> - Depois de configurado, você não pode alterar o local onde seus dados estão armazenados. Se precisar mover seus dados para outro local, entre em contato com o Suporte da Microsoft para redefinir o locatário.
+> - Se você usar o Defender para o Ponto de Extremidade antes de usar o Azure Defender, seus dados serão armazenados no local especificado ao criar seu locatário, mesmo que você se integre ao Azure Defender posteriormente.
+> - Depois de configurado, você não pode alterar o local onde seus dados estão armazenados. Se precisar mover seus dados para outro local, entre em contato com o Suporte da Microsoft para redefinir o locatário. <br>
 O monitoramento do ponto de extremidade do servidor que utiliza essa integração foi desabilitado para clientes do Office 365 GCC.
 
 ## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>Configurar e atualizar clientes de Proteção de Ponto de Extremidade do System Center

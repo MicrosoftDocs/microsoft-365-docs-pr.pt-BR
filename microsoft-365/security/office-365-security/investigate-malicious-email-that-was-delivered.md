@@ -1,6 +1,6 @@
 ---
 title: Investigar emails mal-intencionados que foram entregues no Office 365, encontrar e investigar emails mal-intencionados
-keywords: TIMailData-Inline, Incidente de segurança, incidente, ATP PowerShell, malware de email, usuários comprometidos, phishing de email, malware de email, ler os headers de email, ler os headers, abrir os headers de email, ações especiais
+keywords: TIMailData-Inline, Incidente de segurança, incidente, Microsoft Defender para PowerShell do Ponto de Extremidade, malware de email, usuários comprometidos, phishing de email, malware de email, ler os headers de email, ler os headers, abrir os headers de email, ações especiais
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -20,12 +20,12 @@ description: Saiba como usar recursos de investigação e resposta contra ameaç
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2781850eacf8b0fcf4909406aca335f1bbeb0753
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 02e396cac060f2b8431b2b70e89c18950596d9c2
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203012"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933368"
 ---
 # <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Investigar emails mal-intencionados que foram entregues no Office 365
 

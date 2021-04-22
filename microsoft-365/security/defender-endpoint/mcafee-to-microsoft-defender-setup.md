@@ -1,7 +1,7 @@
 ---
 title: McAfee para Microsoft Defender para Ponto de Extremidade - Instalação
 description: Esta é a fase 2, Instalação, para migrar da McAfee para o Microsoft Defender para o Ponto de Extremidade.
-keywords: migração, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: migração, Microsoft Defender para Ponto de Extremidade, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,12 +22,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: be39d64743979fe903193a388ce491523819f299
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 36dc50aa66df932703e50a5d2c57afb42871e5b1
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185606"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933080"
 ---
 # <a name="migrate-from-mcafee---phase-2-set-up-microsoft-defender-for-endpoint"></a>Migrar da McAfee - Fase 2: Configurar o Microsoft Defender para Ponto de Extremidade
 
@@ -35,7 +35,7 @@ ms.locfileid: "51185606"
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-|[![Fase 1: Preparar](images/phase-diagrams/prepare.png)](mcafee-to-microsoft-defender-prepare.md)<br/>[Fase 1: Preparar](mcafee-to-microsoft-defender-prepare.md) |![Fase 2: Configurar](images/phase-diagrams/setup.png)<br/>Fase 2: Configurar |[![Fase 3: Onboard](images/phase-diagrams/onboard.png)](mcafee-to-microsoft-defender-onboard.md)<br/>[Fase 3: Onboard](mcafee-to-microsoft-defender-onboard.md) |
+|[![Fase 1: Preparar](images/phase-diagrams/prepare.png)](mcafee-to-microsoft-defender-prepare.md)<br/>[Fase 1: Preparar](mcafee-to-microsoft-defender-prepare.md) |![Fase 2: Configurar](images/phase-diagrams/setup.png)<br/>Fase 2: Configurar |[![Fase 3: Integrar](images/phase-diagrams/onboard.png)](mcafee-to-microsoft-defender-onboard.md)<br/>[Fase 3: Integrar](mcafee-to-microsoft-defender-onboard.md) |
 |--|--|--|
 ||*Você está aqui!* | |
 
@@ -144,7 +144,7 @@ Para habilitar o Microsoft Defender Antivírus, recomendamos usar o Intune. No e
 |---------|---------|
 |[Intune](https://docs.microsoft.com/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/><br/>**OBSERVAÇÃO**: o Intune agora é o Microsoft Endpoint Manager. |1. Vá para o Centro de administração do [Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431) e entre.<br/><br/>2. Selecione **Perfis**  >  **de Configuração de** Dispositivos e selecione o tipo de perfil que você deseja configurar. <br/>Se você ainda não  criou um tipo de perfil de restrições de dispositivo ou se deseja criar um novo, consulte [Configure device restriction settings in Microsoft Intune](https://docs.microsoft.com/intune/device-restrictions-configure).<br/><br/>3. Selecione **Propriedades** e selecione **Configurações: Editar**.<br/><br/>4. **Expanda o Microsoft Defender Antivírus**. <br/><br/>5. Habilitar **a proteção entregue na nuvem**.<br/><br/>6. No **Prompt users before sample submission** dropdown, select Send all **samples automatically**.<br/><br/>7. No menu suspenso **Detectar aplicativos** potencialmente indesejados, selecione **Habilitar** ou **Auditar**.<br/><br/>8. Selecione **Revisar + salvar** e, em seguida, escolha **Salvar**.<br/><br/>Para obter mais informações sobre perfis de dispositivo do Intune, incluindo como criar e configurar suas configurações, consulte O que são perfis de dispositivo [do Microsoft Intune?](https://docs.microsoft.com/intune/device-profiles).|
 |Painel de Controle no Windows     |Siga as diretrizes aqui: [Ativar o Microsoft Defender Antivírus](https://docs.microsoft.com/mem/intune/user-help/turn-on-defender-windows). <br/><br/>**OBSERVAÇÃO**: você pode ver *Windows Defender Antivírus* em vez *do Microsoft Defender Antivírus* em algumas versões do Windows.        |
-|[Gerenciamento avançado de política de grupo](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) <br/>ou<br/>[Console de Gerenciamento de Política de Grupo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  |1. Vá para `Computer configuration > Administrative templates > Windows components > Microsoft Defender Antivirus` . <br/><br/>2. Procure uma política chamada **Desativar o Microsoft Defender Antivírus**.<br/> <br/>3. Escolha **Editar configuração de política** e certifique-se de que a política está desabilitada. Isso habilita o Microsoft Defender Antivírus. <br/><br/>**OBSERVAÇÃO**: você pode ver *Windows Defender Antivírus* em vez *do Microsoft Defender Antivírus* em algumas versões do Windows. |
+|[Gerenciamento avançado de política de grupo](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) <br/>or<br/>[Console de Gerenciamento de Política de Grupo](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  |1. Vá para `Computer configuration > Administrative templates > Windows components > Microsoft Defender Antivirus` . <br/><br/>2. Procure uma política chamada **Desativar o Microsoft Defender Antivírus**.<br/> <br/>3. Escolha **Editar configuração de política** e certifique-se de que a política está desabilitada. Isso habilita o Microsoft Defender Antivírus. <br/><br/>**OBSERVAÇÃO**: você pode ver *Windows Defender Antivírus* em vez *do Microsoft Defender Antivírus* em algumas versões do Windows. |
 
 ### <a name="confirm-that-microsoft-defender-antivirus-is-in-passive-mode"></a>Confirme se o Microsoft Defender Antivírus está no modo passivo
 

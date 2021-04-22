@@ -1,7 +1,7 @@
 ---
 title: Novidades no Microsoft Defender para Office 365
 description: Saiba mais sobre os novos recursos e funcionalidades disponíveis na versão mais recente do Microsoft Defender para Office 365.
-keywords: novidades no Office 365 atp, ga, geralmente disponível, recursos, disponíveis, novos
+keywords: novidades no Microsoft Defender para Office 365, ga, geralmente disponível, recursos, disponíveis, novos
 search.appverid: met150
 ms.sitesec: library
 ms.pagetype: security
@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7dd691b0d018db2b7afb3b88a2c1f9f7f8a39a33
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 4bb1450790883deec295f554ddf9614c0f01fe2d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569774"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930478"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Novidades no Microsoft Defender para Office 365
 
@@ -38,7 +38,7 @@ ms.locfileid: "51569774"
 
 Este artigo lista os novos recursos na versão mais recente do Microsoft Defender para Office 365. Os recursos que estão atualmente em visualização são denodos com **(visualização)**.
 
-Saiba mais assistindo [a este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3).
+Saiba mais assistindo a [este vídeo](https://www.youtube.com/watch?v=Tdz6KfruDGo&list=PL3ZTgFEc7LystRja2GnDeUFqk44k7-KXf&index=3).
 > [!TIP]
 > O Microsoft Defender para Office 365 ainda não tem? [Entre em contato com vendas para iniciar uma avaliação.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 

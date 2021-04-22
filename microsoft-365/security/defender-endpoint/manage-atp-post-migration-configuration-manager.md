@@ -1,7 +1,7 @@
 ---
 title: Gerenciar o Microsoft Defender para Ponto de Extremidade usando o Configuration Manager
 description: Saiba como gerenciar o Microsoft Defender para Ponto de Extremidade com o Configuration Manager
-keywords: pós-migração, gerenciar, operações, manutenção, utilização, Configuration Manager, proteção avançada contra ameaças do Windows Defender, atp, edr
+keywords: pós-migração, gerenciar, operações, manutenção, utilização, Configuration Manager, Microsoft Defender para Endpoint, edr
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: article
 ms.date: 09/22/2020
 ms.reviewer: chventou
-ms.openlocfilehash: bd6b6bd2721b686ab10922d09a9e94b9ebcce522
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 0cd52388feb987b4231d911cd3c3fd10babba017
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185642"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933200"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-configuration-manager"></a>Gerenciar o Microsoft Defender para Ponto de Extremidade com o Configuration Manager
 
@@ -44,7 +44,7 @@ Recomendamos usar o [Microsoft Endpoint Manager](https://docs.microsoft.com/mem)
 
 ## <a name="configure-microsoft-defender-for-endpoint-with-configuration-manager"></a>Configurar o Microsoft Defender para Ponto de Extremidade com o Configuration Manager
 
-|Tarefa  |Recursos para saber mais  |
+|Tarefas  |Recursos para saber mais  |
 |---------|---------|
 |**Instale o console do Configuration Manager** se você ainda não o tiver<br/><br/>*Se você ainda não tiver o console do Configuration Manger, use esses recursos para obter os bits e instalá-lo.* |[Obter a mídia de instalação](https://docs.microsoft.com/mem/configmgr/core/servers/deploy/install/get-install-media)<br/><br/>[Instalar o console do Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/servers/deploy/install/install-consoles)  |
 |**Usar o Configuration Manager para integração de dispositivos** no Microsoft Defender para Ponto de Extremidade <br/><br/> *Se você tiver dispositivos (ou pontos de extremidade) ainda não conectados ao Microsoft Defender para Ponto de Extremidade, poderá fazer isso com o Configuration Manager.*   |[Integração ao Microsoft Defender para Ponto de Extremidade com o Configuration Manager](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection#about-onboarding-to-atp-with-configuration-manager)      |

@@ -1,5 +1,5 @@
 ---
-title: Explorador de API no Microsoft Defender ATP
+title: API Explorer no Microsoft Defender para Ponto de Extremidade
 ms.reviewer: ''
 description: Use o Explorador de API para criar e fazer consultas de API, testar e enviar solicitações para qualquer API disponível
 keywords: api, explorer, send, request, get, post,
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0cfe5227d5d1cdb1f1f4eaea2c859937d7e75264
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: b8d0d991e46464bae3b4d21d6218b9b3b2d2b4cb
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51053610"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930108"
 ---
 # <a name="api-explorer"></a>Explorador de API
 

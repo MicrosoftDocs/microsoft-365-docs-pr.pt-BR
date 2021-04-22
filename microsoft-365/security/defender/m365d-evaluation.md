@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Defender
 description: Configurar o laboratório de avaliação do Microsoft 365 Defender ou o ambiente piloto para experimentar e experimentar a solução de segurança projetada para proteger dispositivos, identidade, dados e aplicativos em sua organização.
-keywords: Avaliação da Proteção contra Ameaças da Microsoft, tente a Proteção contra Ameaças da Microsoft, avalie a Proteção contra Ameaças da Microsoft, laboratório de avaliação da Proteção contra Ameaças da Microsoft, piloto da Proteção contra Ameaças da Microsoft, segurança cibernética, ameaças persistentes avançadas, segurança corporativa, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação automatizada e correção, busca avançada
+keywords: Avaliação do Microsoft 365 Defender, experimente o Microsoft 365 Defender, avalie o Microsoft 365 Defender, o laboratório de avaliação do Microsoft 365 Defender, o piloto do Microsoft 365 Defender, a segurança cibernética, a ameaça persistente avançada, a segurança corporativa, os dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação automatizada e correção, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2ea829e0e2697facd2522dbf16ced7d620662eee
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 1c260588b80d8325567b74148a7a62586cfbc707
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054499"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51933164"
 ---
 # <a name="create-a-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Criar um laboratório de avaliação do Microsoft 365 Defender ou um ambiente piloto 
 
@@ -55,7 +55,7 @@ Este guia ajudará você:
 >Para obter resultados ideais, siga as instruções de instalação do laboratório o mais próximo possível.
 
 
-## <a name="deployment-phases"></a>Fases de implantação
+## <a name="deployment-phases"></a>Fases da implementação
 
 Há três fases na criação de um ambiente de laboratório de avaliação do Microsoft 365 Defender.
 
@@ -64,7 +64,7 @@ Há três fases na criação de um ambiente de laboratório de avaliação do Mi
 |Fase | Descrição | 
 |:-------|:-----|
 |[Fase 1: Preparar](prepare-m365d-eval.md)| Saiba o que você precisa considerar ao implantar o Microsoft 365 Defender em um laboratório de avaliação ou em um ambiente piloto: <br><br>- Stakeholders e sign-off <br> - Considerações sobre o ambiente <br>- Access <br>- Configuração do Azure Active Directory <br> - Ordem de configuração
-|[Fase 2: Instalação](setup-m365deval.md)|  Tome as etapas iniciais para acessar o Centro de Segurança do Microsoft 365 para configurar o laboratório de avaliação do Microsoft 365 Defender ou o ambiente piloto. Você será guiado para:<br><br>- Inscrever-se na avaliação do Microsoft 365 E5 <br>  - Configurar domínio<br>- Atribuir licenças do Microsoft 365 E5<br>– Conclua o assistente de instalação no portal|
+|[Fase 2: Configurar](setup-m365deval.md)|  Tome as etapas iniciais para acessar o Centro de Segurança do Microsoft 365 para configurar o laboratório de avaliação do Microsoft 365 Defender ou o ambiente piloto. Você será guiado para:<br><br>- Inscrever-se na avaliação do Microsoft 365 E5 <br>  - Configurar domínio<br>- Atribuir licenças do Microsoft 365 E5<br>– Conclua o assistente de instalação no portal|
 |[Fase 3: Configurar o & Onboard](config-m365d-eval.md) | Configure cada pilar do Microsoft 365 Defender e pontos de extremidade de integração. Você será guiado para:<br><br>- Configurar o Microsoft Defender para Office 365<br>- Configurar o Microsoft Cloud App Security<br>- Configurar o Microsoft Defender para Identidade<br>- Configurar o Microsoft Defender para Ponto de Extremidade
 
 

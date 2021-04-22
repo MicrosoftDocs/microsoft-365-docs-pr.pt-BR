@@ -1,6 +1,6 @@
 ---
 title: Ordem e precedência da proteção de email
-keywords: segurança, malware, Microsoft 365, M365, central de segurança, ATP, Microsoft Defender para Ponto de Extremidade, Office 365 ATP, Azure ATP
+keywords: segurança, malware, Microsoft 365, M365, central de segurança, Microsoft Defender para Ponto de Extremidade, Microsoft Defender para Office 365, Microsoft Defender para Identidade
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,12 +17,12 @@ ms.custom:
 description: Os administradores podem aprender sobre a ordem de aplicativos de proteções no Exchange Online Protection (EOP) e como o valor de prioridade nas políticas de proteção determina qual política é aplicada.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b36e66f095ff81f551a55d2dc2af0693f8b3455a
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 8cd2809fa69064c2058516f459eeba60683c91b9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51769005"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930372"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Ordem e precedência da proteção de email
 

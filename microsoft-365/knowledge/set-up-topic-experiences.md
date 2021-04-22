@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como configurar tópicos do Microsoft Viva
-ms.openlocfilehash: 629008e083d71e09632b05e21eaefb011d7d9ce2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 19395cf3a9ecc991f08f375425803cb81a2a1d35
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929439"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930216"
 ---
 # <a name="set-up-microsoft-viva-topics"></a>Configurar tópicos do Microsoft Viva
 
@@ -36,6 +36,27 @@ Este vídeo mostra o processo de configuração de Tópicos no Microsoft 365.
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
 
 <br>
+
+## <a name="assign-licenses"></a>Atribua licenças
+
+Você deve atribuir licenças para os usuários que usarão Tópicos. Somente usuários com uma licença podem ver informações sobre tópicos, incluindo destaques, cartões de tópicos, páginas de tópicos e o centro de tópicos. 
+
+Atribuição de licenças:
+
+1. No Centro de administração do Microsoft 365, em **Usuários**, clique em **Usuários ativos**.
+
+2. Selecione os usuários que você deseja licenciar e clique **em Licenças e aplicativos.**
+
+3. Em **Licenças,** selecione **Viva Tópicos**.
+
+4. Em **Aplicativos,** certifique-se de que a Pesquisa **de Conectores do Graph com Índice (Tópicos** do Viva) e os Tópicos do Viva estão **selecionados.**
+
+   > [!div class="mx-imgBorder"]
+   > ![Licenças de tópicos do Microsoft Viva no centro de administração do Microsoft 365](../media/topic-experiences-licenses.png)
+
+5. Clique em **Salvar alterações**.
+
+Pode levar até uma hora para que os usuários tenham acesso a Tópicos depois que as licenças são atribuídas.
 
 ## <a name="set-up-topics"></a>Configurar tópicos
 
@@ -124,25 +145,6 @@ Para configurar tópicos
     ![Configurações aplicadas](../media/ksetup7.png)    
 
 Observe que a primeira descoberta de tópicos está habilitada, pode levar até duas semanas para que todos os tópicos sugeridos apareçam no modo de exibição Gerenciar Tópicos. A descoberta de tópicos continua à medida que novos conteúdos ou atualizações para o conteúdo são feitos. É normal ter flutuações no número de tópicos sugeridos em sua organização à medida que o Viva Topics avalia novas informações.
-
-## <a name="assign-licenses"></a>Atribua licenças
-
-Depois de configurar experiências de tópicos, você deve atribuir licenças para os usuários que estarão usando Tópicos. Somente usuários com uma licença podem ver informações sobre tópicos, incluindo destaques, cartões de tópicos, páginas de tópicos e o centro de tópicos. 
-
-Atribuição de licenças:
-
-1. No Centro de administração do Microsoft 365, em **Usuários**, clique em **Usuários ativos**.
-
-2. Selecione os usuários que você deseja licenciar e clique **em Licenças e aplicativos.**
-
-3. Em **Licenças,** selecione **Viva Tópicos**.
-
-4. Em **Aplicativos,** certifique-se de que a Pesquisa **de Conectores do Graph com Índice (Tópicos** do Viva) e os Tópicos do Viva estão **selecionados.**
-
-   > [!div class="mx-imgBorder"]
-   > ![Licenças de tópicos do Microsoft Viva no centro de administração do Microsoft 365](../media/topic-experiences-licenses.png)
-
-5. Clique em **Salvar alterações**.
 
 ## <a name="manage-topic-experiences"></a>Gerenciar experiências de tópico
 

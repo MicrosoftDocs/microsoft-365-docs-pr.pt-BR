@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ebfff7721bc61012811a66146079ac9758889594
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: a3885a462265368bc42c758ee5a8fd1c673ec08c
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893596"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932794"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Configurar configurações de proxy de dispositivo e conectividade com a Internet
 
@@ -176,7 +176,7 @@ Os curingas (*) usados em *.ods.opinsights.azure.com, *.oms.opinsights.azure.com
 O ponto de extremidade da URL *.blob.core.windows.net pode ser substituído por URLs mostradas na seção "Regra de Firewall: *.blob.core.windows.net" dos resultados do teste. 
 
 > [!NOTE]
-> No caso de integração por meio do Centro de Segurança do Azure (ASC), vários espaços de trabalho talvez usados. Você precisará executar o procedimento TestCloudConnection.exe acima em uma máquina interna de cada espaço de trabalho (para determinar se há alterações nas URLs *.blob.core.windows.net entre os espaços de trabalho).
+> No caso de integração por meio do Azure Defender, vários espaços de trabalho talvez usados. Você precisará executar o procedimento TestCloudConnection.exe acima em uma máquina interna de cada espaço de trabalho (para determinar se há alterações nas URLs *.blob.core.windows.net entre os espaços de trabalho).
 
 ## <a name="verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls"></a>Verificar a conectividade do cliente com o Microsoft Defender para URLs de serviço de ponto de extremidade
 

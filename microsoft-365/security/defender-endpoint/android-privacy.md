@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender ATP para Android - Informações de privacidade
-description: Controles de privacidade, como configurar configurações de política que impactam a privacidade e informações sobre os dados de diagnóstico coletados no Microsoft Defender ATP para Android.
-keywords: microsoft, defender, atp, android, privacidade, diagnóstico
+title: Microsoft Defender para Ponto de Extremidade para Android – Informações de privacidade
+description: Controles de privacidade, como configurar configurações de política que impactam a privacidade e informações sobre os dados de diagnóstico coletados no Microsoft Defender para Ponto de Extremidade no Android.
+keywords: microsoft, defender, Microsoft Defender for Endpoint, android, privacy, diagnostic
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 79f8882e21f23e75d85813cde03260ef17adf246
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 415a1f555e1a33c103894221086b783aa754cf32
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876104"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930132"
 ---
 #  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender para Ponto de Extremidade para Android – Informações de privacidade
 
@@ -32,7 +32,7 @@ ms.locfileid: "51876104"
 > Deseja experimentar o Microsoft Defender para Ponto de Extremidade? [Inscreva-se para uma avaliação gratuita.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
-O Defender for Endpoint para Android coleta informações de seus dispositivos Android configurados e as armazena no mesmo locatário onde você tem o Defender para Ponto de Extremidade. As informações são coletadas para ajudar a manter o Defender for Endpoint para iOS seguro, atualizado, executando conforme esperado e para dar suporte ao serviço.
+O Defender para Ponto de Extremidade no Android coleta informações de seus dispositivos Android configurados e o armazena no mesmo locatário onde você tem o Defender para Ponto de Extremidade. As informações são coletadas para ajudar a manter o Defender for Endpoint para Android seguro, atualizado, executando conforme o esperado e para dar suporte ao serviço.
 
 Para obter mais informações sobre armazenamento de dados, consulte [Microsoft Defender for Endpoint data storage and privacy](data-storage-privacy.md).
 

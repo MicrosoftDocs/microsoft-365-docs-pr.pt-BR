@@ -1,7 +1,7 @@
 ---
 title: Resumindo os resultados do projeto piloto do Microsoft 365 Defender
 description: Conclua seu projeto piloto do Microsoft 365 Defender concluindo seu scorecard, analisando suas descobertas do relatório e decidindo como seguir em frente.
-keywords: Piloto da Proteção contra Ameaças da Microsoft, decida o que fazer depois do projeto piloto da Proteção contra Ameaças da Microsoft, o que fazer depois de avaliar a Proteção contra Ameaças da Microsoft em produção, a transição do piloto da Proteção contra Ameaças da Microsoft para a implantação, a segurança cibernética, a ameaça persistente avançada, a segurança corporativa, dispositivos, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
+keywords: Piloto do Microsoft 365 Defender, decida o que fazer depois do projeto piloto do Microsoft 365 Defender, o que fazer após avaliar o Microsoft 365 Defender em produção, transição do piloto do Microsoft 365 Defender para implantação, segurança cibernética, ameaça persistente avançada, segurança corporativa, dispositivos, identidade, usuários, dados, aplicativos, incidentes, investigação e correção automatizadas, busca avançada
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2553e88992b7eca906b4697edee4cdf632929444
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 64cdb37b64780a651b2689e68e21c5a385df5ba9
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51054497"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932864"
 ---
 # <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Fechar e resumir seu piloto do Microsoft 365 Defender  
 

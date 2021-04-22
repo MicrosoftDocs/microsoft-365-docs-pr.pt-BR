@@ -1,7 +1,7 @@
 ---
 title: Novidades no Microsoft Defender para Ponto de Extremidade
 description: Confira quais recursos geralmente estão disponíveis (GA) na versão mais recente do Microsoft Defender para Ponto de Extremidade, bem como recursos de segurança no Windows 10 e no Windows Server.
-keywords: novidades no microsoft defender para ponto de extremidade, ga, geralmente disponível, recursos, disponíveis, novos
+keywords: novidades no Microsoft Defender para Ponto de Extremidade, ga, geralmente disponíveis, recursos, disponíveis, novos
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c9f4c0689739224b00c9c14db1482d54faab3512
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: abb20fe79077eda5c50c9aa36829e0dd45e756b8
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688232"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51932614"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Novidades no Microsoft Defender para Ponto de Extremidade
 
@@ -52,22 +52,22 @@ Para obter mais recursos de visualização de informações, consulte [Recursos 
 - [Área de Trabalho Virtual do Windows](https://azure.microsoft.com/services/virtual-desktop/) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para a Área de Trabalho Virtual do Windows.
 
 ## <a name="december-2020"></a>Dezembro de 2020
-- [Microsoft Defender para Ponto de Extremidade no iOS](microsoft-defender-endpoint-ios.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para iOS. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Endpoint no iOS.
+- [Microsoft Defender para Ponto de Extremidade para iOS](microsoft-defender-endpoint-ios.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para iOS. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Endpoint no iOS.
 
 ## <a name="september-2020"></a>Setembro de 2020
-- [Microsoft Defender para Ponto de Extremidade no Android](microsoft-defender-endpoint-android.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Android. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Android.
+- [Microsoft Defender para Ponto de Extremidade para Android](microsoft-defender-endpoint-android.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Android. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Android.
 - [Suporte para macOS de gerenciamento de ameaças e vulnerabilidades](tvm-supported-os.md)<br> O gerenciamento de ameaças e vulnerabilidades para macOS agora está em visualização pública e detectará continuamente vulnerabilidades em seus dispositivos macOS para ajudá-lo a priorizar a correção, concentrando-se no risco. Saiba mais nesta [postagem de blog do Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint-adds-depth-and-breadth-to-threat/ba-p/1695824).
 
 
 ## <a name="august-2020"></a>Agosto de 2020
-- [Microsoft Defender para Ponto de Extremidade no Android](microsoft-defender-endpoint-android.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Android. Saiba como instalar, configurar e usar o Microsoft Defender para Ponto de Extremidade no Android.
+- [Microsoft Defender para Ponto de Extremidade para Android](microsoft-defender-endpoint-android.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Android. Saiba como instalar, configurar e usar o Microsoft Defender para Ponto de Extremidade no Android.
 
 
 ## <a name="july-2020"></a>Julho de 2020
 - [Criar indicadores para certificados](manage-indicators.md) <br> Crie indicadores para permitir ou bloquear certificados. 
 
 ## <a name="june-2020"></a>Junho de 2020
-- [Microsoft Defender para Ponto de Extremidade no Linux](microsoft-defender-endpoint-linux.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Linux. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Linux.
+- [Microsoft Defender para Ponto de Extremidade para Linux](microsoft-defender-endpoint-linux.md) <br> O Microsoft Defender para Ponto de Extremidade agora adiciona suporte para Linux. Saiba como instalar, configurar, atualizar e usar o Microsoft Defender para Ponto de Extremidade no Linux.
 
 - [Simuladores de ataque no laboratório de avaliação](evaluation-lab.md#threat-simulator-scenarios) <br> O Microsoft Defender for Endpoint fez parceria com várias plataformas de simulação de ameaças para lhe dar acesso conveniente para testar os recursos da plataforma desde o portal.
 
@@ -150,7 +150,7 @@ Para obter mais recursos de visualização de informações, consulte [Recursos 
 
 - [Detecção personalizada](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-custom-detections)<BR>Com detecções personalizadas, você pode criar consultas personalizadas para monitorar eventos de qualquer tipo de comportamento, como ameaças suspeitas ou emergentes. Isso pode ser feito aproveitando o poder da busca avançada por meio da criação de regras de detecção personalizadas. 
 
-- [Integração com o Centro de Segurança do Azure](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> O Microsoft Defender for Endpoint se integra ao Centro de Segurança do Azure para fornecer uma solução abrangente de proteção de servidor. Com essa integração, o Centro de Segurança do Azure pode aproveitar o poder do Microsoft Defender para o Ponto de Extremidade para fornecer uma detecção aprimorada de ameaças para servidores Windows.
+- [Integração com o AAzure Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection#integration-with-azure-security-center)<BR> O Microsoft Defender for Endpoint se integra ao Azure Defender para fornecer uma solução abrangente de proteção do servidor. Com essa integração, o Azure Defender pode aproveitar o poder do Microsoft Defender para o Ponto de Extremidade para fornecer detecção aprimorada de ameaças para servidores Windows.
 
 - [Suporte a MSSP (provedor de serviços de segurança gerenciado)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/mssp-support-windows-defender-advanced-threat-protection)<BR> O Microsoft Defender para Ponto de Extremidade adiciona suporte a esse cenário fornecendo integração com o MSSP. A integração permitirá que os MSSPs tenham as seguintes ações: obter acesso ao portal da Central de Segurança do Cliente do Microsoft Defender do MSSP, buscar notificações por email e buscar alertas por meio de informações de segurança e ferramentas de gerenciamento de eventos (SIEM).
 

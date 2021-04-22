@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: Proteja seus emails e dados de negócios contra ameaças cibernéticas, incluindo ransomware, phishing e anexos mal-intencionados.
-ms.openlocfilehash: 9d24381b5947049c506b19553a2ab3d77b95d7c8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 109ba05b21ce9c1355be73dbdfb000d6eb8c4e4d
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51200312"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51930466"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>Principais 12 tarefas para equipes de segurança para dar suporte ao trabalho em casa
 
@@ -108,7 +108,7 @@ O Administrador Global pode configurar essas proteções:
 
 Você precisará trabalhar com o administrador do Exchange Online e o administrador do SharePoint Online para configurar o Defender para o Office 365 para essas cargas de trabalho:
 
-- [ATP para SharePoint, OneDrive e Microsoft Teams](office-365-security/mdo-for-spo-odb-and-teams.md)
+- [Microsoft Defender para Ponto de Extremidade para SharePoint, OneDrive e Microsoft Teams](office-365-security/mdo-for-spo-odb-and-teams.md)
 
 ## <a name="4-configure-microsoft-defender-for-identity"></a>4: Configurar o Microsoft Defender para Identidade
 
