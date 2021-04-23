@@ -2,7 +2,7 @@
 title: Melhor pontuação nos testes do setor - Microsoft 365 Defender
 ms.reviewer: ''
 description: Veja as últimas pontuações e análises do Microsoft 365 Defender. Ele consegue consistemente altas pontuações em testes independentes (AV-TEST, AV Comparatives, SE Labs, MITRE ATT&CK). Exibição das últimas pontuações e análises.
-keywords: Microsoft Defender Antivírus, Windows Defender Antivírus, análises de AV, teste de antivírus, teste de AV, pontuações mais recentes de AV, pontuações de detecção, testes de produto de segurança, testes do setor de antivírus, melhor antivírus, teste AV, comparativos de AV, SE labs, MITRE ATT&CK, plataforma de proteção de ponto de extremidade, EPP, detecção e resposta de ponto de extremidade, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, MDATP, Proteção contra Ameaças da Microsoft, segurança, malware, AV, antivírus, pontuações, pontuação, proteção de última geração, classificação, sucesso
+keywords: Microsoft Defender Antivírus, Windows Defender Antivírus, análises de AV, teste de antivírus, teste de AV, pontuações mais recentes de AV, pontuações de detecção, testes de produto de segurança, testes do setor de antivírus, melhor antivírus, teste AV, comparativos de AV, SE labs, MITRE ATT&CK, plataforma de proteção de ponto de extremidade, EPP, detecção e resposta de ponto de extremidade, EDR, Windows 10, Microsoft Defender Antivirus, WDAV, Microsoft Defender para Ponto de Extremidade, Microsoft 365 Defender, segurança, malware, AV, antivírus, pontuações, pontuação, proteção de última geração, classificação, sucesso
 ms.prod: m365-security
 ms.mktglfcycl: secure
 ms.sitesec: library
@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 1f649af2ca6089d1366cc6e080a430a6a00fc300
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: a49fb83f9186541094910ec8842a09b5121ffb5b
+ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569854"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51934388"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Melhor pontuação nos testes do setor
 

@@ -20,16 +20,21 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d8d165f39c45bd235800dc951d50934b47dd7ff5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 32d50103c6476a89f24568edeea75a206e37e227
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935444"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952675"
 ---
 # <a name="handle-advanced-hunting-errors"></a>Manipular erros avançados de busca
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
+
+
+**Aplica-se a:**
+- Microsoft 365 Defender
+- Microsoft Defender para Ponto de Extremidade
 
 
 A busca avançada exibe erros para notificar erros de sintaxe e sempre que as consultas atingem [cotas e parâmetros de uso predefinidos.](advanced-hunting-limits.md) Consulte a tabela abaixo para saber mais sobre como resolver ou evitar erros.
@@ -43,6 +48,8 @@ A busca avançada exibe erros para notificar erros de sintaxe e sempre que as co
 | Limite de tamanho do resultado excedido  | O tamanho agregado do conjunto de resultados da consulta excedeu o tamanho máximo. Esse erro pode ocorrer se o conjunto de resultados for tão grande que a truncamento no limite de 10.000 registros não poderá reduzi-lo a um tamanho aceitável. Os resultados que têm várias colunas com conteúdo considerável são mais prováveis de serem afetados por esse erro. | [Otimizar a consulta](advanced-hunting-best-practices.md) | `Result size limit exceeded. Use "summarize" to aggregate results, "project" to drop uninteresting columns, or "take" to truncate results.` |
 | Consumo excessivo de recursos | A consulta consumiu quantidades excessivas de recursos e foi impedida de concluir. Em alguns casos, a busca avançada identifica o operador específico que não foi otimizado. | [Otimizar a consulta](advanced-hunting-best-practices.md) | -`Query stopped due to excessive resource consumption.`<br>-`Query stopped. Adjust use of the <operator name> operator to avoid excessive resource consumption.` |
 | Erros desconhecidos | A consulta falhou devido a um motivo desconhecido. | Tente executar a consulta novamente. Contate a Microsoft por meio do portal se as consultas continuarem a retornar erros desconhecidos. | `An unexpected error occurred during query execution. Please try again in a few minutes.`
+
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Práticas recomendadas de busca avançada](advanced-hunting-best-practices.md)

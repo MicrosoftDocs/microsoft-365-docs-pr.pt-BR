@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4eea2931196c192620812c1609c506e1fb99093d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 17aca5fb388aef26504902ee63b22410420c8827
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932948"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952483"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
 
@@ -194,7 +194,7 @@ O Defender for Endpoint pode se integrar ao Azure Defender para fornecer uma sol
 
 Os seguintes recursos estão incluídos nesta integração:
 
-- Integração automatizada - o sensor defender para ponto de extremidade é habilitado automaticamente em Servidores Windows que estão integrados ao Azure Defender. Para obter mais informações sobre a integração do Azure Defender, consulte [Onboarding to Azure Defender Standard for enhanced security](https://docs.microsoft.com/azure/security-center/security-center-onboarding).
+- Integração automatizada - o sensor defender para ponto de extremidade é habilitado automaticamente em Servidores Windows que estão integrados ao Azure Defender. Para obter mais informações sobre a integração do Azure Defender, [consulte Use the integrated Microsoft Defender for Endpoint license](https://docs.microsoft.com/azure/security-center/security-center-wdatp).
 
     > [!NOTE]
     > A integração entre o Azure Defender for Servers e o Microsoft Defender for Endpoint foi expandida para dar suporte ao Windows Server 2019 e à Área de Trabalho [Virtual do Windows (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
@@ -293,7 +293,7 @@ Para fazer o offboard do servidor Windows, você pode usar um dos seguintes mét
     > [!NOTE]
     > Este artigo pressupo que você está usando servidores baseados em x64 (MMA Agent .exe x64 Nova versão compatível com [SHA-2](https://go.microsoft.com/fwlink/?LinkId=828603))
 
-**Etapa 2: criar um nome de arquivo DeployMMA.cmd (usando o bloco de notas)** Adicione as linhas a seguir ao arquivo cmd. Observe que você precisará de sua ID e CHAVE do WORKSPACE.
+**Etapa 2: criar um nome de arquivo DeployMMA.cmd (usando o bloco de notas)** Adicione as linhas a seguir ao arquivo cmd. Observe que você precisará da ID do WORKSPACE e da CHAVE.
 
 ```dos
 @echo off 
@@ -338,7 +338,8 @@ Depois que isso for feito, você precisará criar uma política de script de in�
 
 :::image type="content" source="images/startupprops.png" alt-text="iniciar propriedades":::
 
-O nome do arquivo a ser executado aqui é c:\windows\MMA\DeployMMA.cmd Assim que o servidor for reiniciado como parte do processo de início, ele instalará o KB update para experiência do cliente e telemetria de diagnóstico e instalará o MMAAgent, enquanto configura a ID e a chave do espaço de trabalho, e o servidor será onboarded.
+O nome do arquivo a ser executado aqui é c:\windows\MMA\DeployMMA.cmd.
+Depois que o servidor for reiniciado como parte do processo de start-up, ele instalará o KB De atualização para experiência do cliente e telemetria de diagnóstico e, em seguida, instalará o Agente MMA, enquanto configura a ID e a Chave do Espaço de Trabalho, e o servidor será integrado.
 
 Você também pode usar uma **tarefa imediata** para executar o deployMMA.cmd se não quiser reiniciar todos os servidores.
 Isso pode ser feito em duas fases. Primeiro crie **os arquivos** e a pasta no GPO – dê tempo ao sistema para garantir que o GPO tenha sido aplicado e todos os servidores tenham os arquivos de instalação. Em seguida, adicione a tarefa imediata. Isso alcançará o mesmo resultado sem exigir uma reinicialização.

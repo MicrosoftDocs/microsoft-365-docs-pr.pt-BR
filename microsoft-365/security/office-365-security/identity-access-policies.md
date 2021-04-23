@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 7ade29259a5552bc9bbaac4b143842c69d05f917
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 4b7315cbb8704b691ce4f3d6b96958f18248b478
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51202988"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952627"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Identidade comum e políticas de acesso ao dispositivo
 
@@ -55,18 +55,18 @@ O restante deste artigo descreve como configurar essas políticas.
 
 Para dar tempo para realizar essas tarefas, recomendamos implementar as políticas de linha de base na ordem listada nesta tabela. No entanto, as políticas de MFA para níveis de proteção confidenciais e altamente regulamentados podem ser implementadas a qualquer momento.
 
-|Nível de Proteção|Políticas|Mais informações|
-|---|---|---|
-|**Baseline**|[Exigir MFA quando o risco de entrar é *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)||
-||[Bloquear clientes sem suporte para a autenticação moderna](#block-clients-that-dont-support-multi-factor)|Os clientes que não usam autenticação moderna podem ignorar políticas de Acesso Condicional, portanto, é importante bloqueá-los.|
-||[Usuários de alto risco devem alterar a senha](#high-risk-users-must-change-password)|Força os usuários a alterar sua senha ao entrar se atividade de alto risco for detectada para sua conta.|
-||[Aplicar políticas de proteção de dados do aplicativo](#apply-app-data-protection-policies)|Uma política de Proteção de Aplicativo do Intune por plataforma (Windows, iOS/iPadOS, Android).|
-||[Exigir aplicativos aprovados e proteção de aplicativos](#require-approved-apps-and-app-protection)|Impõe a proteção de aplicativos móveis para telefones e tablets usando iOS, iPadOS ou Android.|
-||[Definir políticas de conformidade de dispositivo](#define-device-compliance-policies)|Uma política para cada plataforma.|
-||[Exigir PCs compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento do Intune de computadores usando Windows ou MacOS.|
-|**Confidencial**|[Exigir MFA quando o risco de entrar é *baixo,* *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)||
-||[Exigir PCs e *dispositivos* móveis compatíveis](#require-compliant-pcs-and-mobile-devices)|Impõe o gerenciamento do Intune para computadores (Windows ou MacOS) e telefones ou tablets (iOS, iPadOS ou Android).|
-|**Altamente controlado**|[*Sempre* exigir MFA](#require-mfa-based-on-sign-in-risk)|
+|Nível de Proteção|Políticas|Mais informações|Licenciamento|
+|---|---|---|---|
+|**Baseline**|[Exigir MFA quando o risco de entrar é *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 ou Microsoft 365 E3 com o complemento segurança do E5|
+||[Bloquear clientes sem suporte para a autenticação moderna](#block-clients-that-dont-support-multi-factor)|Os clientes que não usam autenticação moderna podem ignorar políticas de Acesso Condicional, portanto, é importante bloqueá-los.|Microsoft 365 E3 ou E5|
+||[Usuários de alto risco devem alterar a senha](#high-risk-users-must-change-password)|Força os usuários a alterar sua senha ao entrar se atividade de alto risco for detectada para sua conta.|Microsoft 365 E5 ou Microsoft 365 E3 com o complemento segurança do E5|
+||[Aplicar proteção de dados app (políticas de proteção de aplicativos)](#apply-app-data-protection-policies)|Uma política de Proteção de Aplicativo do Intune por plataforma (Windows, iOS/iPadOS, Android).|Microsoft 365 E3 ou E5|
+||[Exigir aplicativos aprovados e proteção de aplicativos](#require-approved-apps-and-app-protection)|Impõe a proteção de aplicativos móveis para telefones e tablets usando iOS, iPadOS ou Android.|Microsoft 365 E3 ou E5|
+||[Definir políticas de conformidade de dispositivo](#define-device-compliance-policies)|Uma política para cada plataforma.|Microsoft 365 E3 ou E5|
+||[Exigir PCs compatíveis](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Impõe o gerenciamento do Intune de computadores usando Windows ou MacOS.|Microsoft 365 E3 ou E5|
+|**Confidencial**|[Exigir MFA quando o risco de entrar é *baixo,* *médio* ou *alto*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 ou Microsoft 365 E3 com o complemento segurança do E5|
+||[Exigir PCs e *dispositivos* móveis compatíveis](#require-compliant-pcs-and-mobile-devices)|Impõe o gerenciamento do Intune para computadores (Windows ou MacOS) e telefones ou tablets (iOS, iPadOS ou Android).|Microsoft 365 E3 ou E5|
+|**Altamente controlado**|[*Sempre* exigir MFA](#assigning-policies-to-groups-and-users)||Microsoft 365 E3 ou E5|
 |
 
 ## <a name="assigning-policies-to-groups-and-users"></a>Atribuindo políticas a grupos e usuários
@@ -95,11 +95,11 @@ Tenha cuidado ao aplicar níveis mais altos de proteção a grupos e usuários. 
 
 Todos os grupos do Azure AD criados como parte dessas recomendações devem ser criados como grupos do Microsoft 365. Isso é importante para a implantação de rótulos de sensibilidade ao proteger documentos no Microsoft Teams e no SharePoint.
 
-![Captura de tela para criar grupos do Microsoft 365](../../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
+![Exemplo de criação de um grupo do Microsoft 365](../../media/microsoft-365-policies-configurations/identity-device-AAD-groups.png)
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>Exigir MFA com base no risco de entrar
 
-Você deve fazer com que seus usuários se registrem no MFA antes de exigir seu uso. Se você tiver o Microsoft 365 E5, o Microsoft 365 E3 com o complemento Identity & Threat Protection, o Office 365 com EMS E5 ou licenças individuais do Azure AD Premium P2, poderá usar a política de registro MFA com a Proteção de Identidade do Azure AD para exigir que os usuários se registrem no MFA. O [trabalho de pré-requisito](identity-access-prerequisites.md) inclui o registro de todos os usuários com MFA.
+Você deve fazer com que seus usuários se registrem no MFA antes de exigir seu uso. Se você tiver o Microsoft 365 E5, o Microsoft 365 E3 com o complemento segurança do E5, o Office 365 com EMS E5 ou licenças individuais do Azure AD Premium P2, você poderá usar a política de registro MFA com a Proteção de Identidade do Azure AD para exigir que os usuários se registrem no MFA. O [trabalho de pré-requisito](identity-access-prerequisites.md) inclui o registro de todos os usuários com MFA.
 
 Depois que seus usuários são registrados, você pode exigir MFA para entrar com uma nova política de Acesso Condicional.
 
@@ -112,7 +112,7 @@ As tabelas a seguir descrevem as configurações de política de Acesso Condicio
 
 Na seção **Atribuições:**
 
-|Configuração|Propriedades|Valores|Anotações|
+|Setting|Propriedades|Valores|Anotações|
 |---|---|---|---|
 |Usuários e grupos|Incluir|**Selecione usuários e grupos > Usuários e grupos**: Selecione grupos específicos que contenham contas de usuário direcionadas.|Comece com o grupo que inclui contas de usuário piloto.|
 ||Excluir|**Usuários e grupos**: selecione seu grupo de exceção de Acesso Condicional; contas de serviço (identidades de aplicativo).|A associação deve ser modificada de forma temporária e necessária.|
@@ -134,7 +134,7 @@ Aplique as configurações de nível de risco com base no nível de proteção q
 
 Na seção **Controles do Access:**
 
-|Configuração|Propriedades|Valores|Action|
+|Setting|Propriedades|Valores|Action|
 |---|---|---|---|
 |Conceder|**Grant access**||Selecionar|
 |||**Exigir autenticação multifa factor**|Cheque|
@@ -155,7 +155,7 @@ Consulte [este artigo](../../enterprise/microsoft-365-client-support-multi-facto
 
 Na seção **Atribuições:**
 
-|Configuração|Propriedades|Valores|Anotações|
+|Setting|Propriedades|Valores|Anotações|
 |---|---|---|---|
 |Usuários e grupos|Incluir|**Selecione usuários e grupos > Usuários e grupos**: Selecione grupos específicos que contenham contas de usuário direcionadas.|Comece com o grupo que inclui contas de usuário piloto.|
 ||Excluir|**Usuários e grupos**: selecione seu grupo de exceção de Acesso Condicional; contas de serviço (identidades de aplicativo).|A associação deve ser modificada de forma temporária e necessária.|
@@ -165,7 +165,7 @@ Na seção **Atribuições:**
 
 Na seção **Controles do Access:**
 
-|Configuração|Propriedades|Valores|Action|
+|Setting|Propriedades|Valores|Action|
 |---|---|---|---|
 |Conceder|**Bloquear acesso**||Selecionar|
 ||**Exigir todos os controles selecionados**||Selecionar|
@@ -211,7 +211,7 @@ Use essa política em conjunto com a Proteção de senha do [Azure AD](/azure/ac
 
 ## <a name="apply-app-data-protection-policies"></a>Aplicar políticas de proteção de dados do APP
 
-As Políticas de Proteção de Aplicativos (APP) definem quais aplicativos são permitidos e as ações que podem ser tomadas com os dados da sua organização. As opções disponíveis no APP permitem que as organizações adaptem a proteção às suas necessidades específicas. Para alguns, pode não ser óbvio quais configurações de política são necessárias para implementar um cenário completo. Para ajudar as organizações a priorizar o fortalecimento do ponto de extremidade do cliente móvel, a Microsoft introduziu taxonomia para sua estrutura de proteção de dados do APP para gerenciamento de aplicativos móveis iOS e Android.
+As APPs definem quais aplicativos são permitidos e as ações que podem ser tomadas com os dados da sua organização. As opções disponíveis no APP permitem que as organizações adaptem a proteção às suas necessidades específicas. Para alguns, pode não ser óbvio quais configurações de política são necessárias para implementar um cenário completo. Para ajudar as organizações a priorizar o fortalecimento do ponto de extremidade do cliente móvel, a Microsoft introduziu taxonomia para sua estrutura de proteção de dados do APP para gerenciamento de aplicativos móveis iOS e Android.
 
 A estrutura de proteção de dados do APP é organizada em três níveis de configuração distintos, com cada nível criando o nível anterior:
 
@@ -331,12 +331,12 @@ Para **segurança do** sistema, consulte esta tabela.
 
 |Tipo|Propriedades|Valor|Action|
 |---|---|---|---|
-|Regras do Microsoft Defender para Ponto de Extremidade|Exigir que o dispositivo seja em ou sob a pontuação de risco da máquina|Médio|Selecionar|
+|Regras do Microsoft Defender para Ponto de Extremidade no centro de administração do Microsoft Endpoint Manager|[Exigir que o dispositivo seja em ou sob a pontuação de risco da máquina](https://docs.microsoft.com/mem/intune/protect/advanced-threat-protection-configure#create-and-assign-compliance-policy-to-set-device-risk-level)|Médio|Selecionar|
 |
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Exigir computadores compatíveis (mas não telefones e tablets compatíveis)
 
-Antes de adicionar uma política para exigir PCs compatíveis, certifique-se de registrar dispositivos para gerenciamento no Intune. O uso da autenticação multifaionária é recomendado antes de registrar dispositivos no Intune para garantir que o dispositivo está na posse do usuário pretendido.
+Antes de adicionar uma política para exigir PCs compatíveis, certifique-se de registrar seus dispositivos para gerenciamento no Intune. O uso da autenticação multifaionária é recomendado antes de registrar dispositivos no Intune para garantir que o dispositivo está na posse do usuário pretendido.
 
 Para exigir PCs compatíveis:
 

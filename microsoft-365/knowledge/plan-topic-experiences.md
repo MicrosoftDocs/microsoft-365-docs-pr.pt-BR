@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como planejar os Tópicos do Microsoft Viva
-ms.openlocfilehash: 19baf8bdcfdd1fe38d64e3c2f259ace1ceab5a4b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d64e4b341fe96d7aa3636f58bffe3dd8f388838e
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925971"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957534"
 ---
 # <a name="plan-for-microsoft-viva-topics"></a>Planejar tópicos do Microsoft Viva
 
@@ -70,6 +70,9 @@ Todo o processamento e armazenamento do conteúdo é feito no local central.
 ## <a name="user-permissions"></a>Permissões do usuário
 
 As permissões de usuário especificadas determinam quais pessoas em sua organização interagem com tópicos e o que podem fazer.
+
+> [!Note] 
+> Neste momento, os Tópicos do Viva não suportam o fornecimento de licenças ou permissões de usuário para usuários convidados (externos). 
 
 *Gerenciar tópicos*
 

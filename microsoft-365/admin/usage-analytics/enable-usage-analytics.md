@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Saiba como começar a coletar dados para seu locatário usando o aplicativo de modelo análise de uso do Microsoft 365 no Power BI.
-ms.openlocfilehash: 7c92fb643f9be6b5f1474f08df659c4f488a9a41
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d9cadcc8258478fd1d5dbc0d9ae6bf4e814a8435
+ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579057"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51957510"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Habilitar a análise de uso do Microsoft 365
 
@@ -53,11 +53,11 @@ Para habilitar o aplicativo de modelo, você precisa ser um **administrador glob
   
 Confira [mais informações sobre funções de](../add-users/about-admin-roles.md) administrador. 
   
-1. No centro de administração do, vá para a página **Relatórios** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Uso</a>. 
+1. No centro de administração, vá para a guia **Configurações** \> **da Organização Configurações** \> **Serviços.** 
     
-2. Na página **Uso,** localize o cartão de análise de uso do **Microsoft 365** e selecione **Começar**.
+2. Na guia **Serviços,** selecione  **Relatórios**.
     
-3. No painel Relatórios que é aberto, de acordo com **Make data available to Microsoft 365 usage analytics for Power BI** to **On** \> **Save**. 
+3. No painel Relatórios que é aberto, de acordo com **Make report data available to Microsoft 365 usage analytics for Power BI** to **On** \> **Save**. 
   
 O processo de coleta de dados será concluído em duas a 48 horas, dependendo do tamanho do locatário. O **botão Ir para o Power BI** será habilitado (não mais cinza) quando a coleta de dados for concluída. 
     

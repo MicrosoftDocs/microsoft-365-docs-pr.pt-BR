@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-overview
 ms.technology: mdo
-ms.openlocfilehash: 104ef919d356642985e7b34d16650c27a8141e86
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.openlocfilehash: 464a99ca67da72633879840263fe64ad8311fd4c
+ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615094"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51952567"
 ---
 # <a name="identity-and-device-access-configurations"></a>Identidade e configurações de acesso ao dispositivo
 
@@ -50,6 +50,8 @@ Se sua organização tiver requisitos ou complexidades de ambiente exclusivos, u
 
 Assista a este vídeo para uma visão geral rápida das configurações de identidade e acesso a dispositivos do Microsoft 365 para empresas.
 
+<br>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxEDQ]
 
 > [!NOTE]
@@ -57,13 +59,13 @@ Assista a este vídeo para uma visão geral rápida das configurações de ident
 
 ## <a name="intended-audience"></a>Público-alvo pretendido
 
-Essas recomendações destinam-se a arquitetos corporativos e profissionais de TI que estão familiarizados com os serviços de segurança e produtividade na nuvem do Microsoft 365, que incluem o Azure AD (identidade), o Microsoft Intune (gerenciamento de dispositivos) e a Proteção de Informações do Azure (proteção de dados).
+Essas recomendações destinam-se a arquitetos corporativos e profissionais de TI que estão familiarizados com os serviços de segurança e produtividade na nuvem do Microsoft 365, que incluem o Azure AD (identidade), o Microsoft Intune (gerenciamento de dispositivos) e a Proteção de Informações da Microsoft (proteção de dados).
 
 ### <a name="customer-environment"></a>Ambiente do cliente
 
 As políticas recomendadas são aplicáveis a organizações corporativas que operam inteiramente dentro da nuvem da Microsoft e para clientes com infraestrutura de identidade híbrida, que é uma floresta local dos Serviços de Domínio do Active Directory (AD DS) sincronizada com um locatário do Azure AD.
 
-Muitas das recomendações fornecidas dependem de serviços disponíveis apenas com licenças do Microsoft 365 E5, Microsoft 365 E3 com o complemento Identity & Threat Protection, EMS E5 ou Azure Premium P2.
+Muitas das recomendações fornecidas dependem de serviços disponíveis apenas com licenças do Microsoft 365 E5, Microsoft 365 E3 com o complemento E5 Security, EMS E5 ou licenças do Azure AD Premium P2.
 
 Para as organizações que não têm essas licenças, a Microsoft recomenda que você implemente pelo menos os padrões de segurança , que estão [incluídos](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)em todos os planos do Microsoft 365.
 
@@ -112,7 +114,7 @@ O Microsoft 365 para empresas foi projetado para grandes organizações para cap
 
 Esta seção fornece uma visão geral dos serviços e recursos do Microsoft 365 que são importantes para o acesso à identidade e ao dispositivo.
 
-### <a name="azure-ad"></a>Azure Active Directory
+### <a name="azure-ad"></a>Azure AD
 
 O Azure AD fornece um pacote completo de recursos de gerenciamento de identidade. Recomendamos usar esses recursos para proteger o acesso.
 
@@ -122,8 +124,8 @@ O Azure AD fornece um pacote completo de recursos de gerenciamento de identidade
 |[Acesso condicional](/azure/active-directory/conditional-access/overview)|O Azure AD avalia as condições da entrada do usuário e usa políticas de Acesso Condicional para determinar o acesso permitido. Por exemplo, nesta orientação, mostramos como criar uma política de Acesso Condicional para exigir a conformidade do dispositivo para acesso a dados confidenciais. Isso reduz consideravelmente o risco de que um hacker com seu próprio dispositivo e credenciais roubadas possa acessar seus dados confidenciais. Ele também protege dados confidenciais nos dispositivos, pois os dispositivos devem atender aos requisitos específicos de segurança e saúde.|Microsoft 365 E3 ou E5|
 |[Grupos do Azure AD](/azure/active-directory/fundamentals/active-directory-manage-groups)|Políticas de Acesso Condicional, gerenciamento de dispositivos com o Intune e até mesmo permissões para arquivos e sites em sua organização dependem da atribuição para contas de usuário ou grupos do Azure AD. Recomendamos que você crie grupos do Azure AD que correspondam aos níveis de proteção que você está implementando. Por exemplo, sua equipe executiva provavelmente são alvos de valores mais altos para hackers. Portanto, faz sentido adicionar as contas de usuário desses funcionários a um grupo do Azure AD e atribuir esse grupo a políticas de Acesso Condicional e outras políticas que impõem um nível mais alto de proteção para acesso.|Microsoft 365 E3 ou E5|
 |[Registro de dispositivo](/azure/active-directory/devices/overview)|Você registra um dispositivo no Azure AD para criar uma identidade para o dispositivo. Essa identidade é usada para autenticar o dispositivo quando um usuário entra e para aplicar políticas de Acesso Condicional que exigem PCs ingressados no domínio ou compatíveis. Para essa orientação, usamos o registro de dispositivo para registrar automaticamente computadores Windows ingressados no domínio. O registro de dispositivo é um pré-requisito para gerenciar dispositivos com o Intune.|Microsoft 365 E3 ou E5|
-|[Azure AD Identity Protection](/azure/active-directory/identity-protection/overview)|Permite detectar possíveis vulnerabilidades que afetam as identidades da sua organização e configurar a política de correção automatizada para baixo, médio e alto risco de login e risco de usuário. Essa orientação baseia-se nessa avaliação de risco para aplicar políticas de Acesso Condicional para autenticação multifacional. Essa orientação também inclui uma política de Acesso Condicional que exige que os usuários alterem sua senha se atividades de alto risco são detectadas para suas contas.|Microsoft 365 E5, Microsoft 365 E3 com o complemento Identity & Threat Protection, EMS E5 ou licenças do Azure Premium P2|
-|[Redefinição de senha de autoatendados (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)|Permita que os usuários redefinam suas senhas com segurança e sem intervenção do help-desk, fornecendo a verificação de vários métodos de autenticação que o administrador pode controlar.|Microsoft 365 E3 ou E5|
+|[Azure AD Identity Protection](/azure/active-directory/identity-protection/overview)|Permite detectar possíveis vulnerabilidades que afetam as identidades da sua organização e configurar a política de correção automatizada para baixo, médio e alto risco de login e risco de usuário. Essa orientação baseia-se nessa avaliação de risco para aplicar políticas de Acesso Condicional para autenticação multifacional. Essa orientação também inclui uma política de Acesso Condicional que exige que os usuários alterem sua senha se atividades de alto risco são detectadas para suas contas.|Licenças do Microsoft 365 E5, Microsoft 365 E3 com o complemento E5 Security, EMS E5 ou licenças do Azure AD Premium P2|
+|[Redefinição de senha por autoatendimento (SSPR)](/azure/active-directory/authentication/concept-sspr-howitworks)|Permita que os usuários redefinam suas senhas com segurança e sem intervenção do help-desk, fornecendo a verificação de vários métodos de autenticação que o administrador pode controlar.|Microsoft 365 E3 ou E5|
 |[Proteção de senha do Azure AD](/azure/active-directory/authentication/concept-password-ban-bad)|Detecte e bloqueie senhas fracas conhecidas e suas variantes e termos fracos adicionais específicos para sua organização. Listas de senhas globais proibidas padrão são aplicadas automaticamente a todos os usuários em um locatário do Microsoft Azure AD. Você pode definir entradas adicionais em uma lista de senhas proibidas personalizadas. Quando os usuários alteram ou redefinem suas senhas, essas listas de senhas proibidas são verificadas para garantir o uso de senhas fortes.|Microsoft 365 E3 ou E5|
 |
 
@@ -194,7 +196,7 @@ Da mesma forma, para seus aplicativos confidenciais, crie o conjunto de polític
 
 A Microsoft recomenda que você não crie conjuntos de políticas que se apliquem a todos os aplicativos porque isso pode resultar em algumas configurações não intencional. Por exemplo, as políticas que bloqueiam todos os aplicativos podem bloquear os administradores do portal do Azure e as exclusões não podem ser configuradas para pontos de extremidade importantes, como o Microsoft Graph.
 
-## <a name="steps-in-the-process-of-configuring-identity-and-device-access"></a>Etapas no processo de configuração de identidade e acesso a dispositivos
+## <a name="steps-to-configure-identity-and-device-access"></a>Etapas para configurar o acesso de identidade e dispositivo
 
 ![Etapas para configurar a identidade e o acesso ao dispositivo.](../../media/microsoft-365-policies-configurations/identity-device-access-steps.png)
 

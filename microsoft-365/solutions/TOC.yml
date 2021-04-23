@@ -7,6 +7,8 @@
       href: productivity-illustrations.md
     - name: Modelos de arquitetura em nuvem da Microsoft
       href: cloud-architecture-models.md
+    - name: Infográficos para os usuários
+      href: infographics-for-users.md
     - name: Modelos e Ícones de arquitetura
       href: architecture-icons-templates.md
 - name: Soluções de base do Microsoft 365
@@ -29,7 +31,7 @@
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Configurar a colaboração segura com o Microsoft 365
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: setup-secure-collaboration-with-teams.md
         - name: Etapa 1. Configurar três camadas de proteção com o Microsoft Teams
           items:
@@ -71,7 +73,7 @@
               href: microsoft-365-guest-settings.md
     - name: Implantar proteção contra ameaças no Microsoft 365
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: deploy-threat-protection.md
         - name: Etapas para implantar a proteção contra ameaças
           href: deploy-threat-protection-configure.md
