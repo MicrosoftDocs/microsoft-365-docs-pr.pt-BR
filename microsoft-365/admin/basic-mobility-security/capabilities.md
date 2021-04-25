@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: A Mobilidade Básica e a Segurança podem ajudá-lo a proteger e gerenciar dispositivos móveis.
-ms.openlocfilehash: 468f06edf16eb6ea00fd4d26c716bc145474dd25
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 60de4e3f36427a69ecf0bf52e5dfd34f089991f3
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904271"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994968"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>Capacidades de Mobilidade e Segurança Básica
 
@@ -47,11 +47,9 @@ Você pode usar o Basic Mobility and Security para proteger e gerenciar os segui
 
 <sup>1</sup> O controle de acesso para dispositivos RT do Windows 8.1 está limitado a Exchange ActiveSync.
 
-<sup>2</sup> O controle de acesso para dispositivos RT do Windows 8.1 está limitado a Exchange ActiveSync.
-O controle de acesso para Windows 10 requer uma assinatura que inclui o Azure AD Premium e o dispositivo precisa ser ingressado no Azure Active Directory.
+<sup>2</sup> O controle de acesso para Windows 10 requer uma assinatura que inclui o Azure AD Premium e o dispositivo precisa ser ingressado no Azure Active Directory.
 
-<sup>3</sup> O controle de acesso para dispositivos RT do Windows 8.1 está limitado a Exchange ActiveSync.
-Após junho de 2020, as versões do Android posteriores a 9 não podem gerenciar configurações de senha, exceto em dispositivos Samsung Knox.
+<sup>3</sup> Após junho de 2020, as versões do Android posteriores a 9 não podem gerenciar configurações de senha, exceto em dispositivos Samsung Knox.
 
 >[!NOTE]
 >Os dispositivos já inscritos com versões anteriores do sistema operacional continuam funcionando, embora os recursos possam mudar sem aviso prévio.
@@ -62,7 +60,7 @@ Se as pessoas em sua organização usam dispositivos móveis que não são supor
 
 Os aplicativos com suporte para os diferentes tipos de dispositivos móveis na tabela a seguir solicitam que os usuários se inscrevam no Basic Mobility and Security, onde há uma nova política de gerenciamento de dispositivo móvel que se aplica ao dispositivo de um usuário e o usuário não registrou o dispositivo anteriormente. Se o dispositivo de um usuário não estiver em conformidade com uma política, dependendo de como você configurar a política, um usuário poderá ser impedido de acessar recursos do Microsoft 365 nesses aplicativos, ou poderá ter acesso, mas o Microsoft 365 relata uma violação de política.
 
-|**Produto**|**iOS 10.0 ou posterior**|**Android 5.0 ou posterior**|
+|**Product**|**iOS 10.0 ou posterior**|**Android 5.0 ou posterior**|
 |:-----|:-----|:-----|
 |**Exchange** Exchange ActiveSync inclui email e aplicativos de terceiros, como o TouchDown, que usam Exchange ActiveSync versão 14.1 ou posterior. |Email |Email |
 |**Office**   e  **OneDrive for Business** |Outlook </br>OneDrive </br>Word </br>Excel </br>PowerPoint|**Em telefones e tablets**:<br/>Outlook <br/> OneDrive <br/> Word <br/> Excel <br/> PowerPoint <br/> **Apenas para telefones:** <br/> Office Mobile |

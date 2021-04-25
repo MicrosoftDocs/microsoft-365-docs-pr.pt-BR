@@ -8,18 +8,20 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: normal
+audience: ITPro
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b70cf96cde7d4dff8e2a4db6ce2469090dba7eb1
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ae17aa6e2cb0cefd460ef0db0730570af8c84bb8
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765606"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995028"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Gerenciar atualizações do Microsoft Defender Antivírus e aplicar linhas de base
 
@@ -34,7 +36,8 @@ Há dois tipos de atualizações relacionadas a manter o Microsoft Defender Anti
 - Atualizações de produtos
 
 > [!IMPORTANT]
-> Manter o Microsoft Defender Antivírus atualizado é fundamental para garantir que seus dispositivos tenham a tecnologia e os recursos mais recentes necessários para proteger contra novas técnicas de malware e ataque.  
+> Manter o Microsoft Defender Antivírus atualizado é fundamental para garantir que seus dispositivos tenham a tecnologia e os recursos mais recentes necessários para proteger contra novas técnicas de malware e ataque.
+> 
 > Certifique-se de atualizar sua proteção antivírus mesmo se o Microsoft Defender Antivírus estiver em execução no [modo passivo](./microsoft-defender-antivirus-compatibility.md).
 > 
 > Para ver o mecanismo, a plataforma e a data de assinatura mais atuais, visite as atualizações de inteligência de segurança do Microsoft Defender Antivírus e [outros antimalware da Microsoft.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
@@ -147,7 +150,7 @@ Depois que uma nova versão de pacote é lançada, o suporte para as duas versõ
 &ensp;Lançado: **03 de dezembro de 2020**  
 &ensp;Plataforma: **4.18.2011.6**  
 &ensp;Mecanismo: **1.1.17700.4**  
-&ensp;Fase de suporte: **Segurança e Atualizações Críticas**
+&ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
 ### <a name="whats-new"></a>Novidades
 
@@ -163,7 +166,7 @@ Nenhum problema conhecido
 &ensp;Lançado: **29 de outubro de 2020**  
 &ensp;Plataforma: **4.18.2010.7**  
 &ensp;Mecanismo: **1.1.17600.5**  
-&ensp;Fase de suporte: **Segurança e Atualizações Críticas**
+&ensp;Fase de suporte: **Suporte técnico de atualização (somente)**
     
 ### <a name="whats-new"></a>Novidades
 

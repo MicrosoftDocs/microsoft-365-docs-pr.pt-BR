@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: edbabf83c7bf1ac8dbe1ca9451ad191b45a862ac
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a1e07ac2e2e544605f04e9090177004db64d2f04
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932722"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994992"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Novidades do Microsoft Defender para Ponto de Extremidade no Mac
 
@@ -38,10 +38,14 @@ ms.locfileid: "51932722"
 > [!IMPORTANT]
 > No macOS 11 (Big Sur), o Microsoft Defender para Endpoint requer perfis de configuração adicionais. Se você for um cliente existente atualizando de versões anteriores do macOS, certifique-se de implantar os perfis de configuração adicionais listados [nesta página](mac-sysext-policies.md).
 
+## <a name="1012750-20121022127500"></a>101.27.50 (20.121022.12750.0)
+
+- Correção para acomodar a expiração do certificado Apple para macOS Catalina e anteriores. Essa correção restaura a funcionalidade & Gerenciamento de Vulnerabilidades (TVM).
+
 ## <a name="1012569-20121022125690"></a>101.25.69 (20.121022.12569.0)
 
 - O Microsoft Defender para Ponto de Extremidade no macOS agora está disponível em versão prévia para clientes do Governo dos EUA. Para obter mais informações, consulte [Microsoft Defender for Endpoint for US Government customers](gov.md).
-- Melhorias de desempenho (especificamente para a situação quando o aplicativo XCode Simulator é usado) & correções de bugs
+- Melhorias de desempenho (especificamente para a situação quando o aplicativo XCode Simulator é usado) & correções de bugs.
 
 ## <a name="1012364-20121021123640"></a>101.23.64 (20.121021.12364.0)
 

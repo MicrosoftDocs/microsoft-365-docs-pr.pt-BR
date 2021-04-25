@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 34ca51c066eddb65f2df0cf8a5d85732bd84a9c0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 15909684d07bac46fd42163cee545bc4752b61d4
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934364"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995004"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Configurar recursos avançados no Defender para Ponto de Extremidade
 
@@ -127,6 +127,8 @@ Para obter mais informações, consulte [Gerenciar indicadores](manage-indicator
 Durante alguns tipos de ataques cibernéticos, os atores ruins tentam desabilitar recursos de segurança, como proteção antivírus, em seus computador. Os atores ruins gostam de desabilitar seus recursos de segurança para obter acesso mais fácil aos seus dados, instalar malware ou explorar seus dados, identidade e dispositivos.
 
 A proteção contra violações bloqueia essencialmente o Microsoft Defender Antivírus e impede que suas configurações de segurança seja alterada por meio de aplicativos e métodos.
+
+Esse recurso estará disponível se sua organização usar o Microsoft Defender Antivírus e a proteção baseada em nuvem estiver habilitada. Para obter mais informações, [consulte Use next-generation technologies in Microsoft Defender Antivírus through cloud-delivered protection](cloud-protection-microsoft-defender-antivirus.md).
 
 Mantenha a proteção contra adulteração 24h para evitar alterações indesejadas em sua solução de segurança e seus recursos essenciais.
 

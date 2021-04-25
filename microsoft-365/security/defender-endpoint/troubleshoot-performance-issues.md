@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 5175d630dd5d80b62451b3a1eafc4c2f6350ac32
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 71c2391361c645d26cdaddff0bff86796da50391
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876332"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995076"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>Solucionar problemas de desempenho relacionados à proteção em tempo real
 
@@ -33,7 +33,7 @@ ms.locfileid: "51876332"
 
 - [Microsoft Defender para Ponto de Extremidade](https://go.microsoft.com/fwlink/p/?linkid=2146631)
  
-Se o seu sistema estiver tendo altos problemas de uso ou desempenho da CPU relacionados ao serviço de proteção em tempo real no Microsoft Defender para Ponto de Extremidade, você pode enviar um tíquete para o suporte da Microsoft. Siga as etapas em [Coletar dados de diagnóstico do Microsoft Defender AV.](/collect-diagnostic-data.md)
+Se o seu sistema estiver tendo altos problemas de uso ou desempenho da CPU relacionados ao serviço de proteção em tempo real no Microsoft Defender para Ponto de Extremidade, você pode enviar um tíquete para o suporte da Microsoft. Siga as etapas em Coletar dados de [diagnóstico do Microsoft Defender Antivírus.](collect-diagnostic-data.md)
 
 Como administrador, você também pode solucionar esses problemas por conta própria. 
 
@@ -132,7 +132,6 @@ O Monitor de Processos (ProcMon) é uma ferramenta de monitoramento avançada qu
  
     >[!TIP] 
     >Aguarde até que o problema seja totalmente reproduzido e, em seguida, anote o data/hora quando o rastreamento foi iniciado.
-    
 
 10. Depois de ter de dois a quatro minutos de atividade de processo durante a condição de alto uso da CPU, pare a captura selecionando o ícone de lupa.
 
@@ -250,7 +249,7 @@ A ferramenta de linha *de comandowpr.exe* faz parte do sistema operacional a par
 
 1. Baixe o perfil de análise **[do Microsoft Defender para Ponto](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** de Extremidade para rastreamentos de desempenho para um arquivo nomeado em um diretório local como `WD.wprp` `C:\traces` .
 
-3. Clique com o botão direito do mouse no **ícone menu Iniciar** e selecione Windows **Powershell (Administrador)** ou Prompt de **Comando (Administrador)** para abrir uma janela de prompt de comando de administrador.
+3. Clique com o botão direito do mouse no **ícone Menu** Iniciar e selecione **Windows PowerShell (Administrador)** ou Prompt de **Comando (Administrador)** para abrir uma janela de prompt de comando de administrador.
 
 4. Quando a caixa de diálogo Controle de Conta de Usuário for exibida, selecione **Sim**.
 
@@ -280,5 +279,5 @@ A ferramenta de linha *de comandowpr.exe* faz parte do sistema operacional a par
 
 ## <a name="see-also"></a>Confira também
 
-- [Coletar dados de diagnóstico do Microsoft Defender AV](collect-diagnostic-data.md)
+- [Coletar dados de diagnóstico do Microsoft Defender Antivírus](collect-diagnostic-data.md)
 - [Configurar e validar exclusões para verificações do Microsoft Defender Antivírus](configure-exclusions-microsoft-defender-antivirus.md)

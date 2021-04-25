@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
 description: Visão geral da conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
-ms.openlocfilehash: 99c05c18f3825680824854f86e469ab4aa8bbcba
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: c3ce053ecc859d3ac0cf53b0a132a7032ce6a87a
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860858"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994672"
 ---
 # <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Conectividade de rede no Centro de Administração do Microsoft 365 (visualização)
 
@@ -152,7 +152,9 @@ A página de resumo de localização do escritório também mostra a avaliação
 
 As comparações entre clientes na mesma cidade se baseiam na expectativa de que todos os clientes tenham acesso igual a provedores de serviços de rede, infraestrutura de telecomunicações e pontos de presença de rede da Microsoft próximos.
 
-A guia detalhes na página de local do office mostra os resultados de medida específicos que foram usados para obter informações, recomendações e a avaliação de rede. Isso é fornecido para que os engenheiros de rede possam validar as recomendações e o fator em quaisquer restrições ou especificações em seu ambiente.
+Os nomes de locais podem ser personalizados ao adicionar um novo local ou editar um local existente no sobrevoo de local. Isso oferece flexibilidade para personalizar seus nomes de local a qualquer momento. Além disso, ao adicionar sub-redes de LAN diretamente no sub-plano de localização, mostramos uma lista lista de sub-redes lan com conexão suave que você pode selecionar. Os nomes de circuitos para endereços IP de saída específicos do office também podem ser adicionados e editados.
+
+A guia detalhes na página de local do office mostra os resultados de medida específicos que foram usados para obter informações, recomendações e a avaliação de rede. Isso é fornecido para que os engenheiros de rede possam validar as recomendações e o fator em quaisquer restrições ou especificações em seu ambiente. Você também encontrará o número estimado de usuários para amostras coletadas nesses locais de escritório, bem como os funcionários remotos nessa cidade.
 
 > [!div class="mx-imgBorder"]
 > ![Detalhes específicos do local](../media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)

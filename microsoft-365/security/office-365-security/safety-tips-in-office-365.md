@@ -19,12 +19,12 @@ description: Saiba mais sobre como o EOP e o Office 365 protegem você com preve
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a1820cab63abbbac09aa60a9c1684f3672882451
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 659a83c73b4fef9097aa317332c9951d53b09a33
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51203044"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994980"
 ---
 # <a name="safety-tips-in-email-messages"></a>Dicas de segurança para mensagens de email
 
@@ -55,6 +55,6 @@ A dica de segurança - uma mensagem codificada por cores - avisará você sobre 
 
 ## <a name="working-with-safety-tips"></a>Trabalhar com dicas de segurança
 
-As dicas de segurança estão sempre habilitadas para o Outlook na Web, mesmo que nem todas as mensagens recebam uma. Os administradores podem desativar as dicas de segurança para outros clientes de email, como o Outlook. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
+Os administradores podem ativar ou desativar dicas de segurança em políticas anti-spam. Para obter mais informações, consulte [Configure as políticas de anti-spam no Office 365](configure-your-spam-filter-policies.md).
 
 Se você não concordar com como o EOP categorizou uma mensagem (ou seja, a mensagem não é spam ou deveria ter sido marcada como spam), você pode enviar as mensagens à Microsoft para análise para ajudar a melhorar sua experiência. Para obter instruções, consulte [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md). Você também pode clicar no link Comentários na dica de segurança para enviar comentários diretamente à Microsoft para nos ajudar a melhorar.
