@@ -243,6 +243,8 @@
 ##### [Implantação manual](linux-install-manually.md)
 ##### [Implantação baseada no Puppet](linux-install-with-puppet.md)
 ##### [Implantação baseada no Ansible](linux-install-with-ansible.md)
+##### [Implantar o Defender para Ponto de Extremidade no Linux com Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+
 
 #### [Atualizar](linux-updates.md)
 
@@ -253,7 +255,6 @@
 ##### [Detectar e bloquear Aplicativos Potencialmente Indesejados](linux-pua.md)
 ##### [Agendar verificações com o Microsoft Defender para Ponto de Extremidade para Linux](linux-schedule-scan-atp.md)
 ##### [Agendar uma atualização do Microsoft Defender para Ponto de Extremidade (Linux)](linux-update-MDE-Linux.md)
-##### [Implantar o Defender para Ponto de Extremidade no Linux com Chef](linux-deploy-defender-for-endpoint-with-chef.md)
 
 #### [Solucionar problemas]()
 ##### [Solucionar problemas de instalação](linux-support-install.md)
