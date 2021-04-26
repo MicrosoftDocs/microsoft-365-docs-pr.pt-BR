@@ -23,40 +23,40 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: Saiba como configurar e usar o Microsoft 365 em seu computador, telefone e tablet.
-ms.openlocfilehash: 0bc2478375cdec231a00bade933680cb69578126
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9b1dc7d42cf532e3f18af74df5d3d87b712fb4d4
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759877"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023924"
 ---
-# <a name="get-started"></a><span data-ttu-id="b8d48-103">Introdução</span><span class="sxs-lookup"><span data-stu-id="b8d48-103">Get started</span></span>
+# <a name="get-started"></a><span data-ttu-id="8c826-103">Introdução</span><span class="sxs-lookup"><span data-stu-id="8c826-103">Get started</span></span>
 
-<span data-ttu-id="b8d48-104">Sua organização recebeu recentemente o Microsoft 365 e agora você precisa usá-lo para começar a ler emails, compartilhar documentos e muito mais.</span><span class="sxs-lookup"><span data-stu-id="b8d48-104">Your organization recently got Microsoft 365, and now you need to use it so you can start reading email, sharing documents, and more.</span></span> <span data-ttu-id="b8d48-105">Saiba como configurar e usar o Microsoft 365 em seu computador, telefone e tablet.</span><span class="sxs-lookup"><span data-stu-id="b8d48-105">Learn how to set up and use Microsoft 365 on your computer, phone, and tablet.</span></span>
+<span data-ttu-id="8c826-104">Sua organização recebeu recentemente o Microsoft 365 e agora você precisa usá-lo para começar a ler emails, compartilhar documentos e muito mais.</span><span class="sxs-lookup"><span data-stu-id="8c826-104">Your organization recently got Microsoft 365, and now you need to use it so you can start reading email, sharing documents, and more.</span></span> <span data-ttu-id="8c826-105">Saiba como configurar e usar o Microsoft 365 em seu computador, telefone e tablet.</span><span class="sxs-lookup"><span data-stu-id="8c826-105">Learn how to set up and use Microsoft 365 on your computer, phone, and tablet.</span></span>
 
-## <a name="training-resources-for-your-users"></a><span data-ttu-id="b8d48-106">Recursos de treinamento para os usuários</span><span class="sxs-lookup"><span data-stu-id="b8d48-106">Training resources for your users</span></span>
+## <a name="training-resources-for-your-users"></a><span data-ttu-id="8c826-106">Recursos de treinamento para os usuários</span><span class="sxs-lookup"><span data-stu-id="8c826-106">Training resources for your users</span></span>
 
 
-- [<span data-ttu-id="b8d48-107">Início rápido do funcionário</span><span class="sxs-lookup"><span data-stu-id="b8d48-107">Employee quick start</span></span>](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f)
-    
-- [<span data-ttu-id="b8d48-108">Centro de Treinamento do Office</span><span class="sxs-lookup"><span data-stu-id="b8d48-108">Office Training Center</span></span>](https://support.microsoft.com/office/b8f02f81-ec85-4493-a39b-4c48e6bc4bfb)
-    
-- [<span data-ttu-id="b8d48-109">Onde entrar</span><span class="sxs-lookup"><span data-stu-id="b8d48-109">Where to sign in</span></span>](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
-    
-- [<span data-ttu-id="b8d48-110">Instalar o Office em seu PC ou Mac</span><span class="sxs-lookup"><span data-stu-id="b8d48-110">Install Office on your PC or Mac</span></span>](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
-    
-- [<span data-ttu-id="b8d48-111">Instalação móvel</span><span class="sxs-lookup"><span data-stu-id="b8d48-111">Mobile setup</span></span>](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
-    
-## <a name="training-resources-for-you-the-admin"></a><span data-ttu-id="b8d48-112">Recursos de treinamento para o administrador</span><span class="sxs-lookup"><span data-stu-id="b8d48-112">Training resources for you, the admin</span></span>
+- [<span data-ttu-id="8c826-107">Início rápido do funcionário</span><span class="sxs-lookup"><span data-stu-id="8c826-107">Employee quick start</span></span>](../../business-video/employee-quick-setup.md)
 
-<span data-ttu-id="b8d48-113">Aqui estão alguns recursos para ajudá-lo a começar.</span><span class="sxs-lookup"><span data-stu-id="b8d48-113">Here are some resources to help you get started.</span></span>
+- [<span data-ttu-id="8c826-108">Centro de Treinamento do Office</span><span class="sxs-lookup"><span data-stu-id="8c826-108">Office Training Center</span></span>](https://support.microsoft.com/office/b8f02f81-ec85-4493-a39b-4c48e6bc4bfb)
+    
+- [<span data-ttu-id="8c826-109">Onde entrar</span><span class="sxs-lookup"><span data-stu-id="8c826-109">Where to sign in</span></span>](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
+    
+- [<span data-ttu-id="8c826-110">Instalar o Office em seu PC ou Mac</span><span class="sxs-lookup"><span data-stu-id="8c826-110">Install Office on your PC or Mac</span></span>](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+    
+- [<span data-ttu-id="8c826-111">Instalação móvel</span><span class="sxs-lookup"><span data-stu-id="8c826-111">Mobile setup</span></span>](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
+    
+## <a name="training-resources-for-you-the-admin"></a><span data-ttu-id="8c826-112">Recursos de treinamento para o administrador</span><span class="sxs-lookup"><span data-stu-id="8c826-112">Training resources for you, the admin</span></span>
+
+<span data-ttu-id="8c826-113">Aqui estão alguns recursos para ajudá-lo a começar.</span><span class="sxs-lookup"><span data-stu-id="8c826-113">Here are some resources to help you get started.</span></span>
   
-- <span data-ttu-id="b8d48-114">[Treinamento para administradores](../index.yml): Obter links para classes online gratuitas para administradores.</span><span class="sxs-lookup"><span data-stu-id="b8d48-114">[Training for admins](../index.yml): Get links to free online classes for admins.</span></span>
+- <span data-ttu-id="8c826-114">[Treinamento para administradores](../index.yml): Obter links para classes online gratuitas para administradores.</span><span class="sxs-lookup"><span data-stu-id="8c826-114">[Training for admins](../index.yml): Get links to free online classes for admins.</span></span>
     
-- <span data-ttu-id="b8d48-115">[Ajuda do administrador](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview): obter informações sobre as principais tarefas, começar com ferramentas de administração e solucionar problemas.</span><span class="sxs-lookup"><span data-stu-id="b8d48-115">[Admin Help](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview): Get info about top tasks, getting started with admin tools, and troubleshooting problems.</span></span>
+- <span data-ttu-id="8c826-115">[Ajuda do administrador](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview): obter informações sobre as principais tarefas, começar com ferramentas de administração e solucionar problemas.</span><span class="sxs-lookup"><span data-stu-id="8c826-115">[Admin Help](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview): Get info about top tasks, getting started with admin tools, and troubleshooting problems.</span></span>
     
-- <span data-ttu-id="b8d48-116">[Suporte para contatos - Ajuda do administrador](../contact-support-for-business-products.md) : chame-nos, abra uma solicitação online ou deixe a comunidade ajudar.</span><span class="sxs-lookup"><span data-stu-id="b8d48-116">[Contact support - Admin Help](../contact-support-for-business-products.md) : Call us, open an online request, or let the community help.</span></span> 
+- <span data-ttu-id="8c826-116">[Suporte para contatos - Ajuda do administrador](../contact-support-for-business-products.md) : chame-nos, abra uma solicitação online ou deixe a comunidade ajudar.</span><span class="sxs-lookup"><span data-stu-id="8c826-116">[Contact support - Admin Help](../contact-support-for-business-products.md) : Call us, open an online request, or let the community help.</span></span> 
     
-## <a name="related-articles"></a><span data-ttu-id="b8d48-117">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="b8d48-117">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="8c826-117">Artigos relacionados</span><span class="sxs-lookup"><span data-stu-id="8c826-117">Related articles</span></span>
 
-[<span data-ttu-id="b8d48-118">Configurar o Microsoft 365 para empresas - Ajuda do administrador</span><span class="sxs-lookup"><span data-stu-id="b8d48-118">Set up Microsoft 365 for business - Admin Help</span></span>](../setup/setup.md)
+[<span data-ttu-id="8c826-118">Configurar o Microsoft 365 para empresas - Ajuda do administrador</span><span class="sxs-lookup"><span data-stu-id="8c826-118">Set up Microsoft 365 for business - Admin Help</span></span>](../setup/setup.md)
