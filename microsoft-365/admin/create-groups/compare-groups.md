@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Saiba mais sobre os tipos de grupos que você pode usar.
-ms.openlocfilehash: 8565b567706a70bb014fab42b23e9c55fb0efc45
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 7b67fa5e7dc661163ce6c2c8933ebdafd0a5940d
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908741"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023840"
 ---
 # <a name="compare-groups"></a>Comparar grupos
 
@@ -83,8 +83,8 @@ Os usuários com permissões para a caixa de correio do grupo podem enviar como 
 
 Atualmente, não é possível migrar uma caixa de correio compartilhada para um grupo do Microsoft 365. Era disso que você estava precisando? Fale conosco. **[Vote aqui](https://go.microsoft.com/fwlink/?linkid=871518)**.
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-content"></a>Conteúdo relacionado
 
-[Saiba mais sobre os grupos do Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Saiba mais sobre os grupos do Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (artigo)
 
-[Por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+[Por que você deve atualizar suas listas de distribuição para grupos no Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (artigo)
