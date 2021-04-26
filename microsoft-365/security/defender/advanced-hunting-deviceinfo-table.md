@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e3686099606ec1cdab756bd4991cf61289299b43
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f97947c2c9f02720facae4f0c3c29ff702416261
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934880"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023124"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -34,6 +34,7 @@ ms.locfileid: "51934880"
 
 **Aplica-se a:**
 - Microsoft 365 Defender
+- Microsoft Defender para Ponto de Extremidade
 
 
 

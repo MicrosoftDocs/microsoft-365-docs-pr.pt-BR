@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 24da8f556fe9f8a3b8172afe87ea9a87e4522d44
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 17faffc45cfd1f472dec3f423681aaa3f64944a3
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934820"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023804"
 ---
 # <a name="devicetvmsoftwarevulnerabilities"></a>DeviceTvmSoftwareVulnerabilities
 
@@ -34,6 +34,7 @@ ms.locfileid: "51934820"
 
 **Aplica-se a:**
 - Microsoft 365 Defender
+- Microsoft Defender para Ponto de Extremidade
 
 >[!IMPORTANT]
 > Algumas informações estão relacionadas a produtos pré-lançados que podem ser substancialmente modificados antes de seu lançamento comercial. A Microsoft não faz garantias, expressas ou implícitas, quanto às informações fornecidas aqui.

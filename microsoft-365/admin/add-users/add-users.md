@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Aprenda a adicionar usuários e atribuir licenças ao Microsoft 365 ao mesmo tempo.
 ms.date: 07/01/2020
-ms.openlocfilehash: a7c5fcf1a129a1d434b6e641688ce4c5d234817d
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 97b7118f4052d4ab4e0ffe8ecec96f32e4042108
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759997"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024008"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Adicionar usuários e atribuir licenças ao mesmo tempo
 
@@ -85,7 +85,7 @@ Você pode usar qualquer um dos seguintes métodos para adicionar vários usuár
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Depois de adicionar um usuário, você recebe uma notificação por email Microsoft. O email contém o ID de usuário e a senha da pessoa para que ela possa entrar no Microsoft 365. Use seu processo normal para comunicar novas senhas. Compartilhe o [guia de início rápido do funcionário](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f) com seus novos usuários para configurar coisas, como [baixar e instalar aplicativos do Office em um PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) e como [configurar aplicativos do Office e email em um dispositivo móvel](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
+Depois de adicionar um usuário, você recebe uma notificação por email Microsoft. O email contém o ID de usuário e a senha da pessoa para que ela possa entrar no Microsoft 365. Use seu processo normal para comunicar novas senhas. Compartilhe o [guia de início rápido do funcionário](../../business-video/employee-quick-setup.md) com seus novos usuários para configurar coisas, como [baixar e instalar aplicativos do Office em um PC ou Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) e como [configurar aplicativos do Office e email em um dispositivo móvel](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

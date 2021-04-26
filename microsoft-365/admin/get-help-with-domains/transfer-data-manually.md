@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Encontre como transferir dados manualmente entre duas contas do Microsoft 365 quando você alterou o plano ou o nome da empresa ou combinou várias assinaturas em uma.
-ms.openlocfilehash: 9916da50f4589f949d35466ca6aa8f1d79cc40ea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b240ffbbdbfb6ed7d20a9ead9b1ee90a3af4570d
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915501"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023828"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Transferir dados manualmente entre duas contas
 
@@ -60,7 +60,7 @@ Se você estiver transferindo dados do Microsoft 365 para o Microsoft 365 Midsiz
   
 Para o Microsoft 365 Enterprise e o Microsoft 365 Midsize Business:
   
-|**Location**|**Objetivo**|
+|**Localização**|**Objetivo**|
 |:-----|:-----|
 |**Admin** \> **Microsoft 365** \> **Configurações de serviço** <br/> |Selecione cada guia para configurações de email, sites, Lync, software de usuário, senhas, comunidade, gerenciamento de direitos e celular.  <br/> |
 |**Admin** \> **Exchange** <br/> | Configurações do Exchange Online  <br/> |
@@ -69,7 +69,7 @@ Para o Microsoft 365 Enterprise e o Microsoft 365 Midsize Business:
 
 Para o Microsoft 365 Small Business
   
-|**Location**|**Objetivo**|
+|**Localização**|**Objetivo**|
 |:-----|:-----|
 |**Admin** \> **Gerenciar configurações em toda a organização** <br/> |Configurações administrativas  <br/> |
 
@@ -91,11 +91,11 @@ Há várias maneiras de salvar ou transferir dados do site da equipe:
   
 - Você pode salvar o site antigo como um modelo e importar o modelo para o novo site.
 
-- Para transferir documentos, primeiro recrie manualmente sua hierarquia no novo site. Em seguida, você pode abrir os dois sites de equipe do SharePoint ao mesmo tempo, abrir bibliotecas de documentos com o Windows Explorer e copiar e colar os documentos. Consulte [Vídeo: Copie ou mova arquivos de biblioteca usando Abrir com o Explorer](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
+- Para transferir documentos, primeiro recrie manualmente sua hierarquia no novo site. Em seguida, você pode abrir os dois sites de equipe do SharePoint ao mesmo tempo, abrir bibliotecas de documentos com o Windows Explorer e copiar e colar os documentos. Consulte [Vídeo: Copie ou mova arquivos de biblioteca usando Abrir com o Explorer](../../business-video/store-files.md).
 
 - Para transferir dados de lista, salve um modelo [de](https://support.microsoft.com/office/c3884ad1-bc49-44b8-b3d6-3bc6a01eb393)lista e use o modelo salvo para criar a lista no novo site.
 
-- Para salvar uma biblioteca de documentos ou conteúdo de lista de um ambiente do SharePoint Online (OneDrive for Business ou sites de equipe) em compartilhamentos de arquivos ou em um computador local, consulte Informações sobre a migração manual do conteúdo [do SharePoint Online.](https://support.microsoft.com/kb/2783484)
+- Para salvar uma biblioteca de documentos ou conteúdo de lista de um ambiente do SharePoint Online (OneDrive for Business ou sites de equipe) em compartilhamentos de arquivos ou em um computador local, consulte Informações sobre a migração manual do conteúdo [do SharePoint Online.](/sharepoint/troubleshoot/migration-tool/content-manual-migration)
 
 ## <a name="transfer-users-data-between-subscriptions"></a>Transferir dados dos usuários entre assinaturas
 

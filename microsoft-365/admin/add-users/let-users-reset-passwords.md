@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Saiba como você pode redefinir suas senhas usando a ferramenta de redefinição de senha de autoatendados.
-ms.openlocfilehash: f43c409e98aa98e942bd7c7cbb15302422df241d
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0842430eda8c96647dd12d0da6d0c9e0481346dc
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222118"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023756"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Permitir que os usuários redefinam as próprias senhas
 
@@ -52,7 +52,7 @@ Você deve ser um [administrador global ou administrador de senha](about-admin-r
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
 
 ## <a name="steps-let-people-reset-their-own-passwords"></a>Etapas: Permitir que as pessoas redefinir suas próprias senhas
 
@@ -94,4 +94,4 @@ Estas etapas habilitam a redefinição de senhas de autoatendimento para todas a
 
 [Definir a senha de um usuário individual para nunca expirar](set-password-to-never-expire.md)
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](../../business-video/index.yml)

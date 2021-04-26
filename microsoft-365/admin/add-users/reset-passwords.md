@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Saiba como redefinir a senha para um usuário no Microsoft 365 para empresas.
-ms.openlocfilehash: da2f2b7aced29cd121f7d597af5a518462d2623d
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 24fc6581837f71659a2ecc0359c6967e3969d868
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222046"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023972"
 ---
 # <a name="reset-passwords"></a>Redefinir senha
 
@@ -50,7 +50,7 @@ Assista a um breve vídeo sobre como redefinir senhas de usuário.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP]
 
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
   
 ## <a name="steps-reset-a-business-password-for-a-user"></a>Etapas: Redefinir uma senha comercial para um usuário
 
@@ -150,4 +150,4 @@ Experimente os procedimentos deste artigo: [Eu esqueci o nome de usuário ou a s
 
 [Remover um ex-funcionário](remove-former-employee.md)
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Vídeos de treinamento do Microsoft 365 Business ](../../business-video/index.yml)

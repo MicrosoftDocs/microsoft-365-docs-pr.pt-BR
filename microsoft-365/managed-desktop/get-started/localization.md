@@ -1,5 +1,5 @@
 ---
-title: Localize a experiência do usuário
+title: Localizar a experiência do usuário
 description: Como localizar dispositivos para usuários
 keywords: Área de Trabalho Gerenciada da Microsoft, Microsoft 365, serviço, documentação
 ms.service: m365-md
@@ -12,14 +12,14 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 20456ce837be60b707569ae07d4fb00b695b3a98
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 354f61284bbd95c1c7ca4cd50459a1644a89d090
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445919"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023256"
 ---
-# <a name="localize-the-user-experience"></a>Localize a experiência do usuário
+# <a name="localize-the-user-experience"></a>Localizar a experiência do usuário
 
 Os usuários de dispositivos da Área de Trabalho Gerenciada da Microsoft podem selecionar o idioma de sua escolha durante o processo de instalação (a "experiência fora da caixa") ou posteriormente.
 
@@ -62,43 +62,43 @@ Se você estiver reutilando dispositivos existentes, talvez seja necessário tra
 
 A [imagem universal](../service-description/device-images.md#universal-image) fornecida pela Área de Trabalho Gerenciada da Microsoft inclui esses idiomas e para o Windows 10:
 
+- Árabe
+- Búlgaro
+- Chinese Simplified
+- Chinese Traditional
+- Croata
+- Tcheco
+- Dinamarquês  
+- Holandês  
 - Inglês (US, GB, AU, CA, IN)
-- Espanhol (Espanha, México)
-- Japonês
+- Estoniano
+- Finlandês 
 - Francês (França, Canadá)
 - Alemão
-- Português (Brasil)
-- Italiano
-- Chinese Simplified
-- Holandês  
-- Sueco
-- Dinamarquês  
-- Finlandês 
-- Russo 
-- Norueguês (Bokmål)
-- Coreano
-- Chinese Traditional
-- Polonês
-- Turco
-- Árabe
-- Hebraico
-- Português (Portugal)
-- Tcheco
-- Húngaro
-- Tailandês
-- Indonésio
 - Grego
-- Eslovaco
-- Vietnamita
-- Esloveno
-- Croata
-- Romeno
-- Lituano
-- Búlgaro
-- Sérvio (alfabeto latino)
+- Hebraico
+- Húngaro
+- Indonésio
+- Italiano
+- Japonês
+- Coreano
 - Letão
+- Lituano
+- Norueguês (Bokmål)
+- Polonês
+- Português (Brasil)
+- Português (Portugal)
+- Romeno
+- Russo 
+- Sérvio (alfabeto latino)
+- Eslovaco
+- Esloveno
+- Espanhol (Espanha, México)
+- Sueco
+- Tailandês
+- Turco
 - Ucraniano
-- Estoniano
+- Vietnamita
 
 O Microsoft 365 Apps for Enterprise pode dar suporte a uma lista ligeiramente diferente.
 

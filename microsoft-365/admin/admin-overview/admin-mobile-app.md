@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obter o aplicativo administrador do Microsoft 365 e aprender a gerenciar sua organização online a partir do seu telefone ou tablet.
-ms.openlocfilehash: eba3783e3673efe84bdb823da2a14e06c06c5fbe
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+ms.openlocfilehash: 20a44501db43b8cba7f31bcfded039b00f3ab341
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826111"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023936"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Sobre o aplicativo móvel de administrador do Microsoft 365
 
@@ -116,6 +116,6 @@ No menu de navegação esquerdo, vá para **Configurações**  >  **Notificaçõ
 
 Email [feedback365@microsoft.com](mailto:feedback365@microsoft.com) para relatar um problema com o aplicativo. Ou você pode fazer comentários na parte inferior deste artigo.
   
-## <a name="see-also"></a>Confira também
+## <a name="related-content"></a>Conteúdo relacionado 
 
-[Vídeos de treinamento do Microsoft 365 Business ](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+Vídeos de treinamento do [Microsoft 365 para empresas](../../business-video/index.yml) (links)

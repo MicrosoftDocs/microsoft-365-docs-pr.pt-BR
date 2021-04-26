@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e6bfb781b3454025c5ce0f43899180c91761a56d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 11a6fd00524e3dd7ad456f68da6f493d74deee69
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932554"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023184"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 
@@ -34,6 +34,7 @@ ms.locfileid: "51932554"
 
 **Aplica-se a:**
 - Microsoft 365 Defender
+- Microsoft Defender para Ponto de Extremidade
 
 
 
@@ -48,8 +49,8 @@ Para obter informações sobre outras tabelas no esquema de busca avançada, [co
 | `DeviceName` | cadeia de caracteres | Nome de domínio totalmente qualificado (FQDN) da máquina |
 | `NetworkAdapterName` | cadeia de caracteres | Nome do adaptador de rede |
 | `MacAddress` | cadeia de caracteres | Endereço MAC do adaptador de rede |
-| `NetworkAdapterType` | cadeia de caracteres | Tipo de adaptador de rede. Para os valores possíveis, consulte [esta enumeração](/dotnet/api/system.net.networkinformation.networkinterfacetype?view=netframework-4.7.2) |
-| `NetworkAdapterStatus` | cadeia de caracteres | Status operacional do adaptador de rede. Para os valores possíveis, consulte [esta enumeração](/dotnet/api/system.net.networkinformation.operationalstatus?view=netframework-4.7.2) |
+| `NetworkAdapterType` | cadeia de caracteres | Tipo de adaptador de rede. Para os valores possíveis, consulte [esta enumeração](/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `NetworkAdapterStatus` | cadeia de caracteres | Status operacional do adaptador de rede. Para os valores possíveis, consulte [esta enumeração](/dotnet/api/system.net.networkinformation.operationalstatus) |
 | `TunnelType` | cadeia de caracteres | Protocolo de túnel, se a interface for usada para essa finalidade, por exemplo, 6to4, Teredo, ISATAP, PPTP, SSTP e SSH |
 | `ConnectedNetworks` | cadeia de caracteres | Redes às que o adaptador está conectado. Cada matriz JSON contém o nome da rede, categoria (público, privado ou domínio), uma descrição e um sinalizador indicando se ela está conectada publicamente à Internet |
 | `DnsAddresses` | cadeia de caracteres | Endereços de servidor DNS no formato de matriz JSON |

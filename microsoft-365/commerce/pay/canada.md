@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 909cd6a7e3d1334ab2aa5ad2ad000de55e3a1224
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 94febae2ba015ebc102473937443129bcfc56e9c
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50551795"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024128"
 ---
 # <a name="payment-information-for-canada"></a>Informações de pagamento para o Canadá
 
@@ -44,3 +44,5 @@ Número de roteamento: 032820012\
 Código BIC/SWIFT: CITICATTBCH\
 Número da conta: 3003600001\
 Nome da conta: MICROSOFT
+
+As faturas emitidas de uma Subsidiária local da Microsoft são emitidas com a taxa padrão de IVA/Imposto de Vendas/GST e considerada uma oferta doméstica de serviços para fins de IVA/Imposto de Vendas/GST.

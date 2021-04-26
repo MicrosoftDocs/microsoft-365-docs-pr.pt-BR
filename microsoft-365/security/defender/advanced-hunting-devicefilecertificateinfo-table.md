@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 272896c745386f13fc0e36301c5c16f5f24dbb42
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1f894f3fc8cff2113004ff9c9e34ec2ca0144799
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933668"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023208"
 ---
 # <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
@@ -34,6 +34,7 @@ ms.locfileid: "51933668"
 
 **Aplica-se a:**
 - Microsoft 365 Defender
+- Microsoft Defender para Ponto de Extremidade
 
 A `DeviceFileCertificateInfo` tabela no esquema de busca [avançada](advanced-hunting-overview.md) contém informações sobre certificados de assinatura de arquivo. Esta tabela usa dados obtidos de atividades de verificação de certificado regularmente executadas em arquivos nos pontos de extremidade.
 

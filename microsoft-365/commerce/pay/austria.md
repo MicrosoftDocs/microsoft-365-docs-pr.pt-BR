@@ -12,12 +12,12 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: Saiba onde enviar o pagamento para sua assinatura.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f973737f3be59a9206b207e58605784da617fc81
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 6b405536aaa86df5ca6f7f959bd5e9b1cf942ca4
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50549599"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024152"
 ---
 # <a name="payment-information-for-austria"></a>Informações de pagamento para a Áustria
 
@@ -43,3 +43,5 @@ Código SWIFT: CITIIE2X\
 Código IBAN: IE81CITI99005170000124\
 Número da conta: 70000124\
 Nome da conta: MICROSOFT
+
+As faturas emitidas de uma Subsidiária local da Microsoft são emitidas com a taxa padrão de IVA/Imposto de Vendas/GST e considerada uma oferta doméstica de serviços para fins de IVA/Imposto de Vendas/GST.

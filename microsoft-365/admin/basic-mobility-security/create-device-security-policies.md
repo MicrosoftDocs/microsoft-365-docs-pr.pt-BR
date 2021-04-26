@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Use o Basic Mobility and Security para criar políticas de dispositivo que protejam as informações da sua organização.
-ms.openlocfilehash: f31930f1a753259622520e50da8c255e7cd410e5
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 5abd27f963208140a53cfd885152301992830b5e
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904283"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023900"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>Criar políticas de segurança de dispositivos em Mobilidade Básica e Segurança
 
@@ -36,7 +36,7 @@ Você pode usar o Basic Mobility and Security para criar políticas de dispositi
 
 - Saiba mais sobre os dispositivos, aplicativos de dispositivo móvel e configurações de segurança compatíveis com a Mobilidade Básica e Segurança. Consulte [Recursos de Mobilidade Básica e Segurança.](capabilities.md)
 - Crie grupos de segurança que incluam usuários do Microsoft 365 que você deseja implantar políticas para e para usuários que talvez você queira excluir do acesso bloqueado ao Microsoft 365. Recomendamos que antes de implantar uma nova política em sua organização, teste a política implantando-a em um pequeno número de usuários. Você pode criar e usar um grupo de segurança que inclua apenas você ou um pequeno número de usuários do Microsoft 365 que podem testar a política para você. Para saber mais sobre grupos de segurança, consulte [Create, edit, or delete a security group](../email/create-edit-or-delete-a-security-group.md).
-- Para criar e implantar políticas básicas de Mobilidade e Segurança no Microsoft 365, você precisa ser um administrador global do Microsoft 365. Para obter mais informações, consulte Permissões no Centro de [Conformidade & Segurança.](https://support.microsoft.com/office/d10608af-7934-490a-818e-e68f17d0e9c1)
+- Para criar e implantar políticas básicas de Mobilidade e Segurança no Microsoft 365, você precisa ser um administrador global do Microsoft 365. Para obter mais informações, consulte Permissões no Centro de [Conformidade & Segurança.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 - Antes de implantar políticas, deixe sua organização saber os possíveis impactos de registrar um dispositivo em Mobilidade Básica e Segurança. Dependendo de como você configura as políticas, dispositivos não compatíveis podem ser impedidos de acessar o Microsoft 365 e dados, incluindo aplicativos instalados, fotos e informações pessoais em um dispositivo inscrito e os dados podem ser excluídos.
 
 >[!NOTE]
@@ -85,7 +85,7 @@ A política é empurrada para o dispositivo móvel de cada usuário, a política
 
 ## <a name="step-4-block-email-access-for-unsupported-devices"></a>Etapa 4: Bloquear o acesso de email para dispositivos sem suporte
 
-Para ajudar a proteger as informações da sua organização, você deve bloquear o acesso do aplicativo ao email do Microsoft 365 para dispositivos móveis que não têm suporte da Mobilidade Básica e Segurança. Para ver uma lista de dispositivos com suporte, consulte [Dispositivos com suporte](https://support.microsoft.com/office/capabilities-of-basic-mobility-and-security-a1da44e5-7475-4992-be91-9ccec25905b0#bkmk_supporteddevices).
+Para ajudar a proteger as informações da sua organização, você deve bloquear o acesso do aplicativo ao email do Microsoft 365 para dispositivos móveis que não têm suporte da Mobilidade Básica e Segurança. Para ver uma lista de dispositivos com suporte, consulte [Dispositivos com suporte](../../admin/basic-mobility-security/capabilities.md).
 
 **Para bloquear o acesso ao aplicativo:**
 

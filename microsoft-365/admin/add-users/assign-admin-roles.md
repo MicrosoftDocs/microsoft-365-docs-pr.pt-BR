@@ -27,18 +27,18 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Saiba como atribuir funções de administrador a um usuário ou vários usuários em sua empresa para que eles possam executar tarefas específicas no centro de administração.
-ms.openlocfilehash: 5c40199823c93968be97302efc8e2d404f3cfed1
-ms.sourcegitcommit: dc1ac43a57fac6f57438859dd668f927d94fdf34
+ms.openlocfilehash: c723053d8d1a39bf0f996840bc418ffe299db089
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51604328"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023984"
 ---
 # <a name="assign-admin-roles"></a>Atribuir funções de administrador
 
 Se você for a pessoa que comprou sua assinatura de negócios da Microsoft, será o administrador global. Isso significa que você tem controle ilimitado sobre os produtos em suas assinaturas e pode acessar a maioria dos dados.
 
-Para obter mais informações, confira [Sobre funções de administrador](about-admin-roles.md).
+Para obter mais informações, confira o artigo [Sobre funções de administrador](about-admin-roles.md).
 
 Quando você adiciona novos usuários, se você não atribuir a  eles uma função de administrador, eles estão na função de usuário e não têm privilégios de administrador em nenhum dos centros de administração da Microsoft. Mas se você precisar de ajuda para fazer as coisas, poderá atribuir uma função de administrador a um usuário. Por exemplo, se você precisar de alguém para ajudar a redefinir senhas, não deve atribuir a elas a função de administrador global, você deve atribuí-las a função de administrador de senha. Ter muitos administradores globais, com acesso ilimitado aos seus dados e negócios online, é um risco de segurança.
 
@@ -46,7 +46,7 @@ Quando você adiciona novos usuários, se você não atribuir a  eles uma funç�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
 
 ## <a name="assign-admin-roles"></a>Atribuir funções de administrador 
 
@@ -66,13 +66,13 @@ Você pode atribuir usuários a uma função de duas maneiras diferentes:
 5. Adicione vários usuários até terminar.
 6. Selecione **Salvar** e, em seguida, o usuário será adicionado à lista de administradores atribuídos.
 
-### <a name="assign-a-user-to-an-admin-role-from-active-users"></a>Atribuir um usuário a uma função de administrador de usuários ativos
+### <a name="assign-a-user-to-an-admin-role-from-active-users"></a>Atribuir um usuário a uma função de administrador a partir de Usuários ativos
 
 1. No centro de administração, vá para a **página Usuários** > [Usuários ativos.](https://go.microsoft.com/fwlink/p/?linkid=834822)
 
 2. Na página **Usuários ativos,** selecione o usuário cuja função de administrador você deseja alterar. No painel sublevado, em **Funções**, selecione **Gerenciar funções**.
 
-3. Selecione a função de administrador que você deseja atribuir ao usuário. Se você não vir a função que está procurando, selecione **Mostrar tudo** na parte inferior da lista.
+3. Selecione a função de administrador que deseja atribuir ao usuário. Se você não vir a função que está procurando, selecione **Mostrar tudo** na parte inferior da lista.
 
 ::: moniker-end
 

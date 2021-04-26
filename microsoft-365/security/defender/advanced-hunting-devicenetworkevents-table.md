@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 38cc354429649d1380a3a823e53054267f4b869d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d2b2d1fab4b8cece0bd8fdce91310a7611bef3f5
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932566"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024200"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -34,6 +34,7 @@ ms.locfileid: "51932566"
 
 **Aplica-se a:**
 - Microsoft 365 Defender
+- Microsoft Defender para Ponto de Extremidade
 
 
 

@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Perguntas frequentes sobre Mobilidade Básica e Segurança.
-ms.openlocfilehash: a538c0b3f9fa6a4bf1861734fc9dea94030760a3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 14e12678ec210325f63914594fb6debcf7abb880
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906259"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023888"
 ---
 # <a name="basic-mobility-and-security-frequently-asked-questions-faq"></a>Perguntas frequentes sobre mobilidade básica e segurança (perguntas frequentes)
 
@@ -51,7 +51,7 @@ Para obter mais detalhes, [consulte Set up Basic Mobility and Security](set-up.m
 
 ## <a name="im-trying-to-set-up-basic-mobility-and-security-but-it-seems-stuck-the-microsoft-365-service-health-has-been-showing-provisioning-for-a-while-what-can-i-do"></a>Estou tentando configurar o Basic Mobility and Security, mas parece travado. A Saúde do Serviço do Microsoft 365 mostra "provisionamento" há algum tempo. O que posso fazer?
 
-Pode levar algum tempo para preparar o serviço para você. Quando o provisionamento for concluído, você verá a página Mobilidade Básica e Segurança. Se você tiver esperado 24 horas e o status ainda estiver provisionando, entre em contato com o Suporte e ajudaremos a descobrir qual é o problema. Para opções de suporte, consulte [Still need help?](https://support.microsoft.com/office/frequently-asked-questions-about-basic-mobility-and-security-3871f99c-c9db-4a23-86f9-902c1b02f58d#bkmk_needhelp).
+Pode levar algum tempo para preparar o serviço para você. Quando o provisionamento for concluído, você verá a página Mobilidade Básica e Segurança. Se você tiver esperado 24 horas e o status ainda estiver provisionando, entre em contato com o Suporte e ajudaremos a descobrir qual é o problema.
 
 ## <a name="what-can-i-do-if-device-enrollment-fails"></a>O que posso fazer se o registro do dispositivo falhar?
 
@@ -73,7 +73,7 @@ A Mobilidade Básica e Segurança é hospedada pelo serviço do Intune. É um su
 
 ## <a name="how-do-policies-work-for-basic-mobility-and-security-how-do-i-set-them-up-disable-them"></a>Como as políticas funcionam para Mobilidade Básica e Segurança? Como faço para defini-los? Desabilitá-los?
 
-Depois de concluir a configuração inicial para Mobilidade Básica e Segurança, crie políticas e aplique-as a grupos de usuários no Centro de Conformidade & Segurança. As políticas exigem que os usuários das políticas inscrevam seus dispositivos no Basic Mobility and Security antes que o dispositivo possa ser usado para acessar dados do Microsoft 365. As políticas configuradas determinam as configurações para dispositivos móveis, por exemplo, com que frequência as senhas devem ser redefinidas ou se a criptografia de dados é necessária. Para obter mais informações, [consulte Create device security policies in Basic Mobility and Security](create-device-security-policies.md)and Microsoft   [365 compliance center](https://support.microsoft.com/office/7e696a40-b86b-4a20-afcc-559218b7b1b8).
+Depois de concluir a configuração inicial para Mobilidade Básica e Segurança, crie políticas e aplique-as a grupos de usuários no Centro de Conformidade & Segurança. As políticas exigem que os usuários das políticas inscrevam seus dispositivos no Basic Mobility and Security antes que o dispositivo possa ser usado para acessar dados do Microsoft 365. As políticas configuradas determinam as configurações para dispositivos móveis, por exemplo, com que frequência as senhas devem ser redefinidas ou se a criptografia de dados é necessária. Para obter mais informações, [consulte Create device security policies in Basic Mobility and Security](create-device-security-policies.md)and Microsoft   [365 compliance center](../../compliance/microsoft-365-compliance-center.md).
 
 Para obter instruções passo a passo para criar e implantar políticas de dispositivo, consulte [Create device security policies in Basic Mobility and Security](create-device-security-policies.md).
 

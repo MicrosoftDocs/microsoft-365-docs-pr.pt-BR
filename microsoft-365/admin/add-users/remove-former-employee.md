@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Siga esta lista de verificação para remover um funcionário do Microsoft 365 e proteger dados. '
-ms.openlocfilehash: 50355a20e0d0e8ff782deebd9be65fdabf875bb2
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ec2dd37a38c2509c2aa6a904326b74c8d3b8d7fb
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860768"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52023996"
 ---
 # <a name="remove-or-delete-a-former-employee"></a>Remover ou excluir um ex-funcionário
 
@@ -42,7 +42,7 @@ Assista a um breve vídeo sobre como remover um funcionário. <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
-Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Se você achou este vídeo útil, consulte as [séries completas de treinamento para pequenas empresas e as novidades para o Microsoft 365](../../business-video/index.yml).
 
 Para impedir que um funcionário entre em log:
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: e128eabc43c73949b5c747e51f3b59ac8b9a0ac5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2e3e649911cb2ce63c2a49be0ebc93e35e8055d6
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933020"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024212"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
@@ -34,6 +34,7 @@ ms.locfileid: "51933020"
 
 **Aplica-se a:**
 - Microsoft 365 Defender
+- Microsoft Defender para Ponto de Extremidade
 
 
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 40663a06e380377ccfa33dcb41a69c42e729704d
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1b716a37aa39dffc8dc541335f42265ae47fe989
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935504"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52022992"
 ---
 # <a name="devicefileevents"></a>DeviceFileEvents
 
@@ -34,6 +34,7 @@ ms.locfileid: "51935504"
 
 **Aplica-se a:**
 - Microsoft 365 Defender
+- Microsoft Defender para Ponto de Extremidade
 
 A tabela no esquema de busca avançada contém informações sobre a criação, modificação e outros eventos do sistema `DeviceFileEvents` de arquivos. [](advanced-hunting-overview.md) Use essa referência para criar consultas que retornam informações dessa tabela.
 

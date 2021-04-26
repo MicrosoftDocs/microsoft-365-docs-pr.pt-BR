@@ -21,12 +21,12 @@ description: O Centro de administração do Microsoft 365 - saiba mais sobre os 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 0c17c6840d73c5b0a2714c6c6a832c154e2a9640
-ms.sourcegitcommit: 4acf613587128cae27e0fd470d1216b509775529
+ms.openlocfilehash: 90f75b0c1ea38833325c51399108551286f55e92
+ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768673"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52024188"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de administração do Microsoft 365
 
@@ -231,7 +231,7 @@ Alguns meses atrás, adicionamos uma configuração que permite gerenciar as men
 
 ### <a name="docs-training-and-videos-june"></a>Documentos, treinamento e vídeos (junho)
 
-- [Como começar com o Teams](https://support.microsoft.com/office/184f1aba-2f91-43f0-86e1-9fae607e24f6)
+- [Como começar com o Teams](../business-video/get-started-teams-small-business.md)
 
 ## <a name="may-2020"></a>Maio de 2020
 
@@ -333,19 +333,19 @@ Novidades na série de vídeos do **Microsoft 365**: este mês, abrangemos dicas
 
 #### <a name="for-your-users"></a>Para seus usuários
 
-- [Agendar uma reunião](https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a)
+- [Agendar uma reunião](../business-video/schedule-guest-meeting.md)
 - [Participar de uma reunião do Teams](https://support.microsoft.com/office/078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Criar uma equipe em toda a organização](https://support.microsoft.com/office/037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [Criar uma equipe com convidados](https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7)
-- [Ingressar em uma equipe como convidado](https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Criar um endereço de e-mail do grupo](https://support.microsoft.com/office/ded875f9-a9de-437f-b559-2ae4f235bb2b)
+- [Criar uma equipe em toda a organização](../business-video/org-wide-team.md)
+- [Criar uma equipe com convidados](../business-video/team-with-guests.md)
+- [Ingressar em uma equipe como convidado](../business-video/join-team-guest.md)
+- [Criar um endereço de e-mail do grupo](../business-video/group-email.md)
 
 #### <a name="for-admins-and-business-owners"></a>Para administradores e proprietários de negócios
 
 - [Capacitar sua pequena empresa com trabalho remoto](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
-- [Executando uma pequena empresa remota](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Inscrever-se no Microsoft Business Basic](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
-- [Configurando a assinatura de dois fatores](https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298)
+- [Executando uma pequena empresa remota](../business-video/sign-up.md)
+- [Inscrever-se no Microsoft Business Basic](../business-video/sign-up.md)
+- [Configurando a assinatura de dois fatores](../business-video/sign-up.md)
 
 ## <a name="march-2020"></a>Março de 2020
 
@@ -384,7 +384,7 @@ Os novos nomes de produto entrarão em vigor em 21 de abril de 2020. Isso é uma
 |Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
 |Office 365 Business Premium     |    Microsoft 365 Business Standard     |
 |Microsoft 365 Business     |    Microsoft 365 Business Premium     |
-|Office 365 Business     |    Aplicativos do Microsoft 365 para empresas       |
+|Office 365 Business     |    Microsoft 365 Apps para Pequenos e Médios negócios       |
 |Office 365 ProPlus    |   Aplicativos do Microsoft 365 para empresas      |
 
 ### <a name="videos-training-and-docs"></a>Vídeos, treinamentos e documentos
