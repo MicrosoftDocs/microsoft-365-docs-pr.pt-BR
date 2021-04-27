@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: d970ac1a28c62703f648e4fbf6f66e2f825a6188
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 571acc9c240fc0243998050ac3013258a2f85a3e
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574614"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52028939"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Aplicativos na Área de Trabalho Gerenciada da Microsoft
 
@@ -27,8 +27,7 @@ ms.locfileid: "51574614"
 
 A Microsoft inclui determinados aplicativos principais juntamente com a licença do Microsoft 365 E3 ou E5 necessária para participar da Área de Trabalho Gerenciada da Microsoft. No entanto, mesmo que forneçamos esses aplicativos, você ainda tem certas responsabilidades e ações a ser concluídas.
 
-Você também pode implantar aplicativos adicionais que não são da Microsoft para seus usuários para autoatendê por meio do Portal da Empresa ou uma instalação em segundo plano necessária, todos usando o pipeline de implantação do Microsoft Intune. Se você tiver a experiência, poderá migrar os aplicativos de que precisa. como alternativa, o Microsoft Consulting Services (MCS) ou fornecedores que não sejam da Microsoft terão o prazer de ajudá-lo com um projeto de empacotamento e migração. Para obter mais informações sobre como trabalhar com MCS, consulte [Working with Microsoft Consulting Services](apps-MCS.md).
-
+Você também pode implantar aplicativos adicionais que não são da Microsoft para seus usuários para autoatendê por meio do Portal da Empresa ou uma instalação em segundo plano necessária, todos usando o pipeline de implantação do Microsoft Intune. 
 
 ## <a name="apps-provided-by-microsoft"></a>Aplicativos fornecidos pela Microsoft
 
@@ -48,10 +47,7 @@ Ainda há certas coisas que você precisa fazer com esses aplicativos:
 
 ## <a name="apps-you-provide"></a>Aplicativos que você fornece
 
-Você provavelmente tem outros aplicativos necessários para suas operações de negócios. Esses aplicativos só podem ser implantados em dispositivos da Área de Trabalho Gerenciada da Microsoft usando o pipeline de implantação do Microsoft Intune. Se o aplicativo precisar dele, você pode empacotá-los por um fornecedor (que pode ser um fornecedor que não seja a Microsoft ou o Microsoft Consulting Services (MCS)) ou se tiver os meios, você mesmo poderá empacotá-los. Em seguida, adicione esses pacotes ao portal da Área de Trabalho Gerenciada da Microsoft e atribua-os aos grupos do Azure Active Directory para disparar a implantação. 
-
-Se você implantar seus aplicativos usando o Microsoft Endpoint Configuration Manager, a Área de Trabalho Gerenciada da Microsoft poderá fornecer uma consulta para avaliar seus aplicativos e descobrir quais estão prontos para migrar para o Microsoft Intune e quais podem exigir algum ajuste.
-
+Você provavelmente tem outros aplicativos necessários para suas operações de negócios. Esses aplicativos só podem ser implantados em dispositivos da Área de Trabalho Gerenciada da Microsoft usando o pipeline de implantação do Microsoft Intune. Para obter mais informações sobre a implantação de aplicativos, siga as etapas em [Deploy apps to Microsoft Managed Desktop devices](../get-started/deploy-apps.md).
 
 ### <a name="preparing-your-own-apps-for-inclusion-in-microsoft-managed-desktop"></a>Preparando seus próprios aplicativos para inclusão na Área de Trabalho Gerenciada da Microsoft
 Revise seus aplicativos, verificando:
@@ -60,29 +56,11 @@ Revise seus aplicativos, verificando:
 - Os aplicativos devem estar prontos para gerenciamento pelo Microsoft Intune. Para obter mais informações sobre este tópico, consulte Implantação de aplicativos do [Windows 10 usando o Microsoft Intune](/intune/apps-windows-10-app-deploy) e Adicionar [aplicativos ao Microsoft Intune](/intune/apps-add).
 - Outros requisitos de pré-empacotamento, como fornecimento de chaves de licença, acordo com termos de licença e conexões de servidor de pré-configuração.
 
-### <a name="decide-how-to-package-apps"></a>Decidir como empacotar aplicativos
-
-Alguns editores de software independentes podem exigir que seus aplicativos sejam empacotados antes que sejam implantados centralmente. "Empacotamento" significa que o instalador do aplicativo está configurado com configurações como chaves de licença, locais de servidor remoto ou atalhos da área de trabalho para que o aplicativo possa ser instalado em segundo plano.
-
-Há três opções para obter seus aplicativos empacotados: 
-
-
-- Você pode empacotar aplicativos sozinho
-- Você pode trabalhar com um fornecedor que não seja da Microsoft
-- Você pode interagir com MCS para empacotar seus aplicativos. Trabalhe com seu representante de conta da Microsoft. Para obter mais informações, consulte [Working with Microsoft Consulting Services](apps-MCS.md).
-
-
-
-## <a name="deploying-apps"></a>Implantando aplicativos
-
-Qualquer método que você use para obter aplicativos empacotados, uma vez concluído, você estará pronto para seguir as etapas em Implantar aplicativos para dispositivos da Área de [Trabalho Gerenciada da Microsoft.](../get-started/deploy-apps.md)
-
-
 ## <a name="steps-to-get-ready"></a>Etapas para se preparar
 
 1. Revise [os pré-requisitos da Área de Trabalho Gerenciada da Microsoft.](prerequisites.md)
 2. Use [ferramentas de avaliação de preparação.](readiness-assessment-tool.md)
-3. [Pré-requisitos para contas de convidados](guest-accounts.md)
+3. [Pré-requisitos para contas de convidado](guest-accounts.md)
 4. [Configuração de rede na Área de Trabalho Gerenciada da Microsoft](network.md)
 5. [Preparar certificados e perfis de rede da Área de Trabalho Gerenciada da Microsoft](certs-wifi-lan.md)
 6. [Preparar o acesso aos recursos locais da Área de Trabalho Gerenciada da Microsoft](authentication.md)

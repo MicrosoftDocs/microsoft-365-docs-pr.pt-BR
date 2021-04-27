@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
 ms.author: josephd
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 description: Treine seus usuários e garanta que os problemas sejam tratados rapidamente.
-ms.openlocfilehash: 662b0d6d7a40a69b3e5c10f3aeea63c2e5237d6d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 66091269e4bb4844456feac1b8cfa28718b0ca36
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916161"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52028915"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Etapa 6: Treinar os funcionários remotos e responder a questões sobre o uso
 

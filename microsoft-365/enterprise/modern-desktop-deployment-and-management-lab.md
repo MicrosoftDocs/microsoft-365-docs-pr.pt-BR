@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: dd066339ccfefdc58eb241bb9fdb69cdd5a458d8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: efbcec6417b082311d3f094b0251702d8e0dbeac
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907451"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52028659"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows e do Office
 
@@ -99,7 +99,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
 [Baixe o Kit de laboratório de implantação do Office e do Windows](https://www.microsoft.com/evalcenter/evaluate-lab-kit).
 
-* A linha de base instalada versão 2002 pode ser atualizada para a versão 2010 usando e no console atualização. Use uma conexão de Internet de largura de banda larga para baixar esse conteúdo e permitir de 30 a 45 minutos para provisionamento automático. O ambiente de laboratório exige no mínimo 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, recomenda-se 32 GB de memória disponível e 300 GB de espaço livre. O kit expira em 2 de maio de 2021. Uma nova versão será publicada antes da expiração.
+* A linha de base instalada versão 2002 pode ser atualizada para a versão 2010 usando e no console atualização. Use uma conexão de Internet de largura de banda larga para baixar esse conteúdo e permitir de 30 a 45 minutos para provisionamento automático. O ambiente de laboratório exige no mínimo 16 GB de memória disponível e 150 GB de espaço livre em disco. Para um desempenho ideal, recomenda-se 32 GB de memória disponível e 300 GB de espaço livre. O kit expira em 22 de julho de 2021. Uma nova versão será publicada antes da expiração.
 
 ## <a name="additional-guidance"></a>Orientações adicionais
 
@@ -109,7 +109,7 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 
   - [Plano de implantação do Windows 10](/windows/deployment/planning/index)
 
-  - [Guia de implantação dos Aplicativos do Microsoft 365](/deployoffice/deployment-guide-microsoft-365-apps)
+  - [Guia de implantação para o Microsoft 365 Apps](/deployoffice/deployment-guide-microsoft-365-apps)
 
   - [Introdução ao Intune](/intune/get-started-evaluation)
 

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
-manager: laurawi
+manager: dansimp
 ms.date: 08/14/2020
 audience: ITPro
 ms.topic: overview
@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Architecture
 description: 'Resumo: Como a Contoso usou uma equipe com isolamento de segurança para um projeto top-secret para desenvolver um novo pacote de produtos e serviços.'
-ms.openlocfilehash: d5ab2808251ff6a53f8975ea868431691d3301e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 751bf3972d148219a6cc341067c0bf34cd581447
+ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051001"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "52029011"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Equipe isolada para um projeto secreto da Contoso Corporation
 
@@ -40,7 +40,7 @@ A equipe de IT da Contoso usou [uma equipe com isolamento de](secure-teams-secur
 
 ## <a name="step-1-created-a-private-team"></a>Etapa 1: Criar uma equipe privada
 
-Primeiro, para proteger o acesso ao site subjacente do SharePoint para a equipe, os administradores de IT da Contoso configuraram as políticas de acesso recomendadas [do SharePoint.](../security/defender-365-security/sharepoint-file-access-policies.md)
+Primeiro, para proteger o acesso ao site subjacente do SharePoint para a equipe, os administradores de IT da Contoso configuraram as políticas de acesso recomendadas [do SharePoint.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Em seguida, um administrador de IT da Contoso criou uma nova equipe privada chamada Project 2X e adicionou as contas de usuário da equipe do Project 2X como membros. Eles também configuraram a equipe para que apenas os proprietários da equipe do Project 2X possam criar canais privados.
 
@@ -64,7 +64,7 @@ Para obter os detalhes da configuração, [consulte Create a sensitivity label](
 
 ## <a name="step-3-configured-the-underlying-sharepoint-site"></a>Etapa 3: Configurar o site subjacente do SharePoint
 
-Primeiro, para proteger o acesso ao site subjacente do SharePoint para a equipe, os administradores de IT da Contoso configuraram as políticas de acesso recomendadas [do SharePoint.](../security/defender-365-security/sharepoint-file-access-policies.md)
+Primeiro, para proteger o acesso ao site subjacente do SharePoint para a equipe, os administradores de IT da Contoso configuraram as políticas de acesso recomendadas [do SharePoint.](../security/office-365-security/sharepoint-file-access-policies.md)
 
 Em seguida, eles configuraram configurações de permissão adicionais para o site:
 
