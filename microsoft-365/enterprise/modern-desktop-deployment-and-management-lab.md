@@ -2,10 +2,10 @@
 title: Kit de laboratório de implantação do Windows e do Office
 f1.keywords:
 - NOCSH
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: greglin
+author: greg-lindsay
 manager: laurawi
-ms.date: 08/10/2020
+ms.date: 04/26/2021
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Saiba mais sobre como e onde acessar o Kit de laboratório de implantação do Office e do Windows.
-ms.openlocfilehash: efbcec6417b082311d3f094b0251702d8e0dbeac
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: c0cf3ce239ed91261bd6e53cf317a7053168509a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028659"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060868"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Kit de laboratório de implantação do Windows e do Office
 
@@ -104,23 +104,15 @@ Detalhados guias de laboratório o conduzem por vários cenários de implantaç�
 ## <a name="additional-guidance"></a>Orientações adicionais
 
   - [Vídeos da série Implantação do Computador do Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
-
   - [Implantação de Sistema Operacional usando o Microsoft Endpoint Configuration Manager](/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
-
   - [Plano de implantação do Windows 10](/windows/deployment/planning/index)
-
   - [Guia de implantação para o Microsoft 365 Apps](/deployoffice/deployment-guide-microsoft-365-apps)
-
   - [Introdução ao Intune](/intune/get-started-evaluation)
 
 ## <a name="related-resources"></a>Recursos relacionados
 
   - [Introdução ao Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)
-
   - [Office 365 para empresas](https://products.office.com/business/office)
-
   - [Introdução ao Microsoft Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
-
   - [Windows 10 para empresas](https://www.microsoft.com/WindowsForBusiness/windows-for-enterprise)
-
   - [Windows 10 para pequenas e médias empresas](https://www.microsoft.com/WindowsForBusiness/windows-for-small-business)

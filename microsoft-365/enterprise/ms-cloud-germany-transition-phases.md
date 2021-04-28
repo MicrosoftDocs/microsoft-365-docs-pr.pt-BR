@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações das fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 5764b5cedf17487320fbfd05885120de86da3a84
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 481447fa291354b3377648089cff193a2ad6fc2a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029057"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061080"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland
 
 As migrações de locatários do Microsoft Cloud Deutschland (MCD) para a região "Alemanha" dos serviços Globais do Office 365 da Microsoft são executadas como um conjunto de fases e suas ações configuradas para cada carga de trabalho. Esta figura mostra as dez fases de migração para os novos datacenters alemães.
 
-![As dez fases de migração para os novos datacenters da Alemanha](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+[![As dez fases de migração para os novos datacenters da Alemanha ](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)](../media/ms-cloud-germany-migration-opt-in/migration-organization.png#lightbox)
 
 O processo de migração será concluído ao longo de muitas semanas, dependendo do tamanho geral e da complexidade da organização. Enquanto a migração está em andamento, os usuários e administradores podem continuar utilizando os serviços com alterações notáveis detalhadas nesta documentação. O gráfico e a tabela definem fases e etapas durante a migração.
 
@@ -125,7 +125,7 @@ Caso você ainda esteja usando fluxos de trabalho do SharePoint 2013, limite o u
 |:-------|:-----|:-------|
 | SharePoint e OneDrive são transições | O SharePoint Online e o OneDrive for Business são migrados do Microsoft Cloud Deutschland para os serviços globais do Office 365 nesta fase.<br><ul><li>As URLs existentes do Microsoft Cloud Deutschland são preservadas (por exemplo, `contoso.sharepoint.de` ).</li><li>Os sites existentes são preservados.</li><li>Os tokens de autenticação do lado do cliente que foram emitidos pelo Serviço de Token de Segurança (STS) na instância de serviços Globais do Microsoft Cloud Deutschland ou office 365 são válidos durante a transição.</li></ul>|<ul><li>O conteúdo será somente leitura por dois breves períodos durante a migração. Durante esse tempo, espere um banner "você não pode editar conteúdo" no SharePoint.</li><li>O índice de pesquisa não será preservado e pode levar até 10 dias para ser reconstruído.</li><li>O conteúdo do SharePoint Online e do OneDrive for Business será somente leitura por dois breves períodos durante a migração. Os usuários verão um banner "você não pode editar conteúdo" brevemente durante esse tempo.</li><li>Após a conclusão da migração do SharePoint Online, os resultados da pesquisa para o conteúdo do SharePoint Online e do OneDrive for Business podem ficar indisponíveis enquanto o índice é reconstruído. Durante esse período, as consultas de pesquisa podem não retornar resultados completos. Recursos que dependem dos índices de pesquisa, como o SharePoint Online News, podem ser afetados enquanto a reindexação é concluída.</li><li>Os fluxos de trabalho do SharePoint 2013 serão interrompidos durante a migração e devem ser republicados após a migração.</li></ul>
 |**Administrador de SPO**: Republicar fluxos de trabalho do SharePoint 2013| Um administrador do SharePoint Online republica os fluxos de trabalho do SharePoint 2013 após a migração.|Os fluxos de trabalho do SharePoint 2013 estão disponíveis.
-|**Usuário do PowerShell**: atualizar para novo módulo| Todos os usuários do módulo do Powershell do SharePoint Online precisam atualizar o módulo/Microsoft.SharePointOnline.CSOM para a versão 16.0.20717.12000 ou superior após a conclusão da migração do SharePoint Online. A conclusão é comunicada no centro de mensagens.| O SharePoint Online via PowerShell ou o modelo de objeto do lado do cliente não falhará mais.
+|**Usuário do PowerShell**: atualizar para novo módulo| Todos os usuários do módulo do PowerShell do SharePoint Online precisam atualizar o módulo/Microsoft.SharePointOnline.CSOM para a versão 16.0.20717.12000 ou superior após a conclusão da migração do SharePoint Online. A conclusão é comunicada no centro de mensagens.| O SharePoint Online via PowerShell ou o modelo de objeto do lado do cliente não falhará mais.
 ||||
 
 Considerações adicionais:
