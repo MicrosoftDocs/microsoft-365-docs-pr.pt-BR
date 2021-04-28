@@ -127,6 +127,8 @@
           href: act-on-report.md
         - name: Adicionar outro domínio
           href: add-domain.md
+        - name: Configurar um novo endereço de email comercial
+          href: set-up-a-new-business-email-address.md
     - name: Gerenciar dispositivos
       items:
         - name: Proteger dispositivos Windows 10 Pro

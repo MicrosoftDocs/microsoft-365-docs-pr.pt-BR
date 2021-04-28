@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 description: Localize a sua fatura ou demonstrativo de cobrança no Centro de administração do Microsoft 365. Você também pode salvar e imprimir uma cópia da fatura.
 ms.date: 07/31/2020
-ms.openlocfilehash: b117071fa708ad9d425d578833d8b0ad85537151
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: d391d99f5d5870d964fc4c420a105f25032e3640
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939481"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060962"
 ---
 # <a name="view-your-bill-or-invoice"></a>Exibir sua conta ou fatura
 
@@ -62,7 +62,7 @@ Você deve ser um administrador Global ou de Cobrança para realizar as etapas d
 
 Você pode enviar sua solicitação de Fapiao ao nosso [Sistema de gestão de Fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465) cerca de três (3) dias depois de ter pago.
 
-1. No <a href=”https://go.microsoft.com/fwlink/p/?linkid=850627” target=”_blank”>centro de administração</a>, vá para página **Cobrança** > **Faturas e pagamentos**.
+1. No <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">centro de administração</a>, vá para a página **Cobrança** > **Cobranças e pagamentos**.
 
 2. Encontre a fatura desejada, e então selecione **Obter Fapiaos**.
 
