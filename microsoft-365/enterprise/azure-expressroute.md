@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
 description: Saiba como usar o Azure ExpressRoute com o Office 365 e planejar o projeto de implementação de rede se você estiver implantando com ele.
-ms.openlocfilehash: d4c14d97cff2952f5f7052a8aa2940f05d644737
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 8047cdaa1325df487709660b558420609afffd42
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023720"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073944"
 ---
 # <a name="azure-expressroute-for-office-365"></a>Rota Expressa do Azure para Office 365
 
@@ -39,9 +39,7 @@ Saiba como o Azure ExpressRoute é usado com o Office 365 e como planejar o proj
 > O Microsoft Defender para Ponto de Extremidade não tem suporte na Rota expressa do Azure.
 
 > [!NOTE]
-> A autorização da Microsoft é necessária para usar o ExpressRoute para o Office 365. A Microsoft revisa todas as solicitações do cliente e autoriza o uso do ExpressRoute para o Office 365 quando o requisito regulatório do cliente determina a conectividade direta. Se você tiver esses requisitos, entre em contato com seu representante de conta da Microsoft para iniciar uma revisão da Microsoft. Assinaturas não autorizadas que tentam criar filtros de rota para o Office 365 receberão uma [mensagem de erro](https://support.microsoft.com/kb/3181709).
-
-Agora você pode adicionar uma conexão de rede direta ao Office 365 para tráfego de rede do Office 365 selecionado. O Azure ExpressRoute oferece uma conexão direta, um desempenho previsível e vem com um SLA de tempo de atividade de 99,95% para os componentes de rede da Microsoft. Você ainda exigirá uma conexão com a Internet para serviços que não são suportados pelo Azure ExpressRoute.
+> Não recomendamos o ExpressRoute para o Microsoft 365 porque ele não fornece o melhor modelo de conectividade para o serviço na maioria das circunstâncias. Dessa forma, a autorização da Microsoft é necessária para usar esse modelo de conectividade para o Microsoft 365. Analisamos cada solicitação de cliente e autorizamos o ExpressRoute para o Microsoft 365 somente nos cenários raros em que for necessário. Leia o guia [ExpressRoute para Microsoft 365](https://aka.ms/erguide) para obter mais informações e, após uma revisão abrangente do documento com suas equipes de produtividade, rede e segurança, trabalhe com sua equipe de conta da Microsoft para enviar uma exceção, se necessário. Assinaturas não autorizadas que tentam criar filtros de rota para o Office 365 receberão uma [mensagem de erro](https://support.microsoft.com/kb/3181709).
 
 ## <a name="planning-azure-expressroute-for-office-365"></a>Planejando o Azure ExpressRoute para o Office 365
 
@@ -64,7 +62,7 @@ Ainda deseja mais informações? Saiba como gerenciar o tráfego de rede com [o 
 
 A tabela a seguir lista os serviços do Office 365 com suporte no ExpressRoute. Revise o artigo pontos de extremidade do [Office 365](./urls-and-ip-address-ranges.md) para entender quais solicitações de rede para esses aplicativos exigem conectividade com a Internet.
 
-|**Aplicativos incluídos**|
+| Aplicativos incluídos |
 |:-----|
 |Exchange Online<sup>1</sup> <br/> Proteção do Exchange Online<sup>1</sup> <br/> Delve<sup>1</sup> <br/> |
 |Skype for Business Online<sup>1</sup> <br/> Microsoft Teams <sup>1</sup> <br/> |
@@ -125,7 +123,7 @@ Pronto para se inscrever no [ExpressRoute para Office 365](https://aka.ms/ert)?
 
 [Plano de solução de problemas de desempenho do Office 365](performance-troubleshooting-plan.md)
 
-[URLs e intervalos de endereços IP do Office 365](urls-and-ip-address-ranges.md)
+[Intervalos de URLs e de endereços IP do Office 365](urls-and-ip-address-ranges.md)
 
 [Rede do Office 365 e ajuste de desempenho](network-planning-and-performance.md)
 
