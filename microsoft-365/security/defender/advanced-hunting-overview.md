@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: article
 ms.custom: seo-marvel-apr2020
 ms.technology: m365d
-ms.openlocfilehash: df48ec921dee7d8f3b441ed3f68ed148c5c6c857
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f43d3bf9575f00649a2b5015a8be16351bebd11b
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932972"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073956"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-365-defender"></a>Busca proativamente por ameaças com busca avançada no Microsoft 365 Defender
 
@@ -40,7 +40,7 @@ ms.locfileid: "51932972"
 >
 
 A busca avançada é uma ferramenta de busca de ameaças baseada em consultas que permite explorar até 30 dias de dados brutos. Você pode inspecionar proativamente eventos em sua rede para localizar indicadores e entidades de ameaça. O acesso flexível aos dados permite a busca não restrita por ameaças conhecidas e potenciais.
-<p></p>
+<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bp7O]
 
@@ -55,17 +55,6 @@ Esse recurso é semelhante à busca [avançada no Microsoft Defender para Ponto 
 
 Para usar a busca avançada, [a ligue o Microsoft 365 Defender](m365d-enable.md).
 
-### <a name="before-you-begin"></a>Antes de começar
-
-Os usuários precisam de um dos seguintes níveis de permissões para acessar o Microsoft Defender:
-
-- Acesso completo (leitura e gravação)
-- Acesso somente leitura
-
-**Acesso total:** os usuários com acesso total podem salvar, modificar e compartilhar uma consulta. A atribuição de direitos de acesso completo requer a adição dos usuários às funções internas "Administrador de Segurança" ou "Administrador Global" no Azure Active Directory (AAD).
-
-**Acesso somente leitura:** os usuários com acesso somente leitura podem fazer logoff e exibir todos os alertas e informações relacionadas. Eles não poderão salvar, modificar ou compartilhar uma consulta. Atribuir direitos de acesso somente leitura requer adicionar os usuários à função interna "Leitor de Segurança" no AAD.
-
 ## <a name="get-started-with-advanced-hunting"></a>Introdução à busca avançada
 
 Recomendamos passar por várias etapas para começar rapidamente com a busca avançada.
@@ -73,14 +62,17 @@ Recomendamos passar por várias etapas para começar rapidamente com a busca ava
 | Meta de aprendizagem | Descrição | Recurso |
 |--|--|--|
 | **Aprenda o idioma** | A busca avançada baseia-se [na linguagem de consulta Kusto](/azure/kusto/query/), suportando a mesma sintaxe e operadores. Comece a aprender a linguagem de consulta executando a primeira consulta. | [Visão geral sobre a linguagem de consulta](advanced-hunting-query-language.md) |
-| **Saiba como usar os resultados da consulta** | Saiba mais sobre gráficos e várias maneiras de exibir ou exportar seus resultados. Explore como você pode ajustar rapidamente as consultas, fazer uma análise mais profunda para obter informações mais ricas e tomar ações de resposta. | - [Trabalhar com resultados de consulta](advanced-hunting-query-results.md)<br>- [Tomar medidas sobre os resultados da consulta](advanced-hunting-take-action.md) |
-| **Compreender o esquema** | Obtenha uma compreensão de alto nível das tabelas no esquema e em suas colunas. Saiba onde procurar dados ao construir suas consultas. | - [Referência de esquema](advanced-hunting-schema-tables.md)<br>- [Transição do Microsoft Defender para o Ponto de Extremidade](advanced-hunting-migrate-from-mde.md) |
-| **Obter dicas e exemplos de especialistas** | Treine gratuitamente com guias de especialistas da Microsoft. Explore coleções de consultas predefinidas que abrangem diferentes cenários de exploração de ameaças. | - [Obter treinamento especializado](advanced-hunting-expert-training.md)<br>- [Usar consultas compartilhadas](advanced-hunting-shared-queries.md)<br>- [Ir procurar](advanced-hunting-go-hunt.md)<br>- [Procurar ameaças em dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md) |
-| **Otimizar consultas e manipular erros** | Entenda como criar consultas eficientes e sem erros. | - [Práticas recomendadas de consulta](advanced-hunting-best-practices.md)<br>- [Manipular erros](advanced-hunting-errors.md) |
-| **Criar regras de detecção personalizadas** | Entenda como você pode usar consultas de busca avançadas para disparar alertas e tomar ações de resposta automaticamente. | - [Visão geral de detecções personalizadas](custom-detections-overview.md)<br>- [Regras de detecção personalizadas](custom-detection-rules.md) |
+| **Saiba como usar os resultados da consulta** | Saiba mais sobre gráficos e várias maneiras de exibir ou exportar seus resultados. Explore como você pode ajustar rapidamente as consultas, fazer uma análise mais profunda para obter informações mais ricas e tomar ações de resposta. | - [Trabalhar com resultados de consulta](advanced-hunting-query-results.md)<br /> - [Tomar medidas sobre os resultados da consulta](advanced-hunting-take-action.md) |
+| **Compreender o esquema** | Obtenha uma compreensão de alto nível das tabelas no esquema e em suas colunas. Saiba onde procurar dados ao construir suas consultas. | - [Referência de esquema](advanced-hunting-schema-tables.md) <br />- [Transição do Microsoft Defender para o Ponto de Extremidade](advanced-hunting-migrate-from-mde.md) |
+| **Obter dicas e exemplos de especialistas** | Treine gratuitamente com guias de especialistas da Microsoft. Explore coleções de consultas predefinidas que abrangem diferentes cenários de exploração de ameaças. | - [Obter treinamento especializado](advanced-hunting-expert-training.md) <br />- [Usar consultas compartilhadas](advanced-hunting-shared-queries.md) <br />- [Ir procurar](advanced-hunting-go-hunt.md) <br />- [Procurar ameaças em dispositivos, emails, aplicativos e identidades](advanced-hunting-query-emails-devices.md) |
+| **Otimizar consultas e manipular erros** | Entenda como criar consultas eficientes e sem erros. | - [Práticas recomendadas de consulta](advanced-hunting-best-practices.md)<br />- [Manipular erros](advanced-hunting-errors.md) |
+| **Criar regras de detecção personalizadas** | Entenda como você pode usar consultas de busca avançadas para disparar alertas e tomar ações de resposta automaticamente. | - [Visão geral de detecções personalizadas](custom-detections-overview.md) <br />- [Regras de detecção personalizadas](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Obter acesso
-Para usar a busca avançada ou outros recursos do [Microsoft 365 Defender,](microsoft-365-defender.md) você precisa de uma função apropriada no Azure Active Directory. Além disso, o acesso aos dados do ponto de extremidade é determinado pelas configurações de controle de acesso baseado em função (RBAC) no Microsoft Defender para Ponto de Extremidade. [Ler sobre como gerenciar o acesso ao Microsoft 365 Defender](m365d-permissions.md)
+Para usar a busca avançada ou outros recursos do [Microsoft 365 Defender,](microsoft-365-defender.md) você precisa de uma função apropriada no Azure Active Directory. Leia sobre funções e permissões necessárias [para a busca avançada.](custom-roles.md)
+
+Além disso, o acesso aos dados do ponto de extremidade é determinado pelas configurações de controle de acesso baseado em função (RBAC) no Microsoft Defender para Ponto de Extremidade. [Leia sobre como gerenciar o acesso ao Microsoft 365 Defender](m365d-permissions.md).
+
 
 ## <a name="data-freshness-and-update-frequency"></a>Atualização de dados e frequência de atualização
 Os dados de busca avançada podem ser categorizados em dois tipos distintos, cada um consolidado de forma diferente.

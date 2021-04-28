@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ab3d3aa9a13b71f65d3d4335646e32a7e4270242
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 656aa26d80db73bfc52511f9dd94e58e771f3ac6
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061044"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073824"
 ---
 # <a name="supported-microsoft-defender-for-endpoint-apis"></a>Suporte de APIs do Microsoft Defender para Ponto de Extremidade
 
@@ -69,7 +69,6 @@ Tópico | Descrição
 [Métodos e propriedades de computadores](machine.md) | Execute chamadas de API, como obter dispositivos, obter dispositivos por ID, informações sobre \- usuários conectados, editar marcas e muito mais.
 [Métodos e propriedades de Ação do Computador](machineaction.md) | Execute uma chamada de API, como \- Isolamento, Executar verificação antivírus e muito mais.
 [Métodos e propriedades da recomendação](recommendation.md) | Execute chamadas de API, como \- obter recomendação por ID.
-[Métodos e propriedades de atividade de correção](get-remediation-methods-properties.md) | Execute uma chamada de API, como obter todas as tarefas de correção, obter tarefas de correção de dispositivos expostos e obter uma tarefa de correção \- por id.
 [Métodos e propriedades de pontuação](score.md) | Execute chamadas de API, como \- obter pontuação de exposição ou obter pontuação segura do dispositivo.
 [Métodos e propriedades de software](software.md) | Execute chamadas de API, como \- vulnerabilidades de lista por software.
 [Métodos do usuário](user.md) | Execute chamadas de API, como \- obter alertas relacionados ao usuário e dispositivos relacionados ao usuário.

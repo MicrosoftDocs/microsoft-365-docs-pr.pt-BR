@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: entenda as ações das fases de migração e os impactos da migração do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: 481447fa291354b3377648089cff193a2ad6fc2a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 354ca55bae7704c011af5a76a1112e4d2ecb47ca
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061080"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073920"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Ações e impactos de fases de migração para a migração do Microsoft Cloud Deutschland
 
@@ -264,18 +264,26 @@ Os clientes com o Dynamics 365 exigem envolvimento adicional para migrar as orga
 
 ## <a name="phase-9-office-apps"></a>Fase 9: Office Apps
 
-**Aplica-se a:** Todos os clientes que usam aplicativos da área de trabalho do Office (Word, Excel, PowerPoint, Outlook, ...)
+**Aplica-se a:** Todos os clientes que usam aplicativos da área de trabalho do Office (Word, Excel, PowerPoint, Outlook, OneDrive ...)
+
+Nesta fase, todos os aplicativos cliente e o Office Online estão executando a replicação do cliente. O Azure AD finaliza o escopo do locatário para apontar para os serviços do Office 365 e os pontos de extremidade relacionados.
 
 Os locatários do Office 365 que fazem a transição para a região "Alemanha" exigem que todos os usuários fechem, saia do Office 365 e volte para todos os aplicativos de área de trabalho do Office (Word, Excel, PowerPoint, Outlook etc.) e cliente do OneDrive for Business depois que a migração do locatário atingir a fase 9. Entrar e entrar, permite que os serviços do Office obtenham novos tokens de autenticação do serviço global do Azure AD.
+
+Caso os aplicativos da área de trabalho do Office não funcionem depois de executar a assinatura e a entrada dos aplicativos, é recomendável executar a Ferramenta de Recortamento de Cliente [do Office (OCCT)](https://github.com/microsoft/OCCT) no computador afetado para corrigir o problema.
+
+Se a Ferramenta de Transferência de Cliente [do Office (OCCT)](https://github.com/microsoft/OCCT) tiver sido implantada e agendada em clientes windows com antecedência, o procedimento de saída/entrada não será necessário.
 
 A melhor experiência do usuário pode ser assegurada usando aplicativos do Office mais recentes. As empresas devem considerar o uso do Canal Empresarial Mensal.
 
 Certifique-se de ter concluído o [procedimento de pré-trabalho para dispositivos móveis.](ms-cloud-germany-transition-add-pre-work.md#mobile-device-management)
 
-| Step(s) | Descrição | Impacto |
-|:-------|:-------|:-------|
-| Clientes, Office Online durante a reposição de cliente do Office, o Azure AD finaliza o escopo do locatário para apontar para os serviços do Office 365. | Essa alteração de configuração permite que os clientes do Office atualizem e apontem para os pontos de extremidade dos serviços do Office 365. | <ul><li>Notifique os usuários para fechar todos os aplicativos do _Office_ e, em seguida, entrar novamente (ou forçar os clientes a reiniciar e os usuários a entrar) para permitir que os clientes do Office atendam à alteração. </li><li>Notifique os usuários  e a equipe de atendimento técnico de que os usuários podem ver um banner do Office que solicita que eles reativam os aplicativos do Office em até 72 horas após a recortação. </li><li>Todos os aplicativos do Office em máquinas pessoais devem ser fechados e os usuários devem sair e entrar novamente. Na barra de ativação Amarela, entre para reativar em relação aos serviços do Office 365.</li><li>As máquinas compartilhadas exigirão ações semelhantes a máquinas pessoais e não exigirão um procedimento especial. </li><li>Em dispositivos móveis, os usuários devem sair de aplicativos, fechar e entrar novamente.</li></ul>|
-||||
+Considerações adicionais:
+- Notifique os usuários para fechar todos os aplicativos do Office e, em seguida, entrar novamente (ou forçar os clientes a reiniciar e os usuários a entrar) para permitir que os clientes do Office atendam à alteração.
+- Notifique os usuários e a equipe de atendimento técnico de que os usuários podem ver um banner do Office que solicita que eles reativam os aplicativos do Office em até 72 horas após a recortação.
+- Todos os aplicativos do Office em máquinas pessoais devem ser fechados e os usuários devem sair e entrar novamente. Na barra de ativação Amarela, entre para reativar em relação aos serviços do Office 365.
+- As máquinas compartilhadas exigirão ações semelhantes a máquinas pessoais e não exigirão um procedimento especial.
+- Em dispositivos móveis, os usuários devem sair de aplicativos, fechar e entrar novamente.
 
 ## <a name="phase-9-line-of-business-apps"></a>Fase 9: aplicativos de linha de negócios
 

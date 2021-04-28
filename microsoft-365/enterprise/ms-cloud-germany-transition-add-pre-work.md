@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: 'Resumo: pré-trabalho ao mudar do Microsoft Cloud Germany (Microsoft Cloud Deutschland) para os serviços do Office 365 na nova região do datacenter alemão.'
-ms.openlocfilehash: ce7aad932482d7a9d1681957c06b85ab22a82149
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+ms.openlocfilehash: 9c3aff56f5d85cd1b98747ef5b747720af74fe02
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760387"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073932"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Atividades de pré-migração para a migração do Microsoft Cloud Deutschland
 
@@ -33,7 +33,7 @@ Se você estiver usando
 
 - **Office 365 no Microsoft Cloud Deutschland**, faça [estas etapas](#general-tenant-migration-considerations).
 - **Domínios personalizados**, [faça esta etapa](#dns-entries-for-custom-domains).
-
+- **Office Apps**, considere [esta etapa](#office-apps).
 - **SharePoint Online**, faça [esta etapa](#sharepoint-online).
 - **Exchange Online** ou **Exchange Híbrido**, faça [esta etapa](#exchange-online).
 - **Skype for Business Online**, [faça esta etapa](#skype-for-business-online).
@@ -83,6 +83,19 @@ Se a linha de comando retornar um registro DNS, remova o CNAME _msoid_ do seu do
 
 > [!NOTE]
 > Se você estiver usando um domínio personalizado para o Exchange Online, precisará ter acesso ao seu provedor de hospedagem DNS. Certifique-se de que você pode acessar e editar suas configurações de DNS, você modificará os registros DNS durante a migração.
+
+## <a name="office-apps"></a>Office Apps
+
+**Aplica-se a**: clientes que usam o Office Apps, especialmente em clientes Windows <br>
+**Quando aplicado:** a qualquer momento antes do início da fase 9
+
+Os locatários do Office 365 que fazem a transição para a região "Alemanha" exigem que todos os usuários fechem, saia do Office 365 e volte para todos os aplicativos de área de trabalho do Office (Word, Excel, PowerPoint, Outlook etc.) e cliente do OneDrive for Business depois que a migração do locatário atingir a fase 9. Entrar e entrar, permite que os serviços do Office obtenham novos tokens de autenticação do serviço global do Azure AD.
+
+Isso é necessário para todos os clientes. Para garantir uma experiência de migração suave, é altamente recomendável informar e instruir todos os usuários afetados com antecedência e em um estágio inicial sobre essa atividade futura.
+
+Os clientes com clientes gerenciados do Windows podem preparar computadores Windows com a Ferramenta de Transferência de Cliente [do Office (OCCT)](https://github.com/microsoft/OCCT). A OCCT foi projetada para ser executado periodicamente em clientes windows até que o locatário atingiu a fase 9 da migração. Quando a fase 9 for atingida, a OCCT executará todas as alterações necessárias no computador automaticamente sem a interação do usuário.
+
+A OCCT pode ser implantada em clientes windows a qualquer momento antes da fase 9. Se a OCCT deve dar suporte à experiência de migração, recomendamos iniciar a implantação assim que possível para equipar um número máximo de clientes.
 
 ## <a name="active-directory-federation-services-ad-fs"></a>Serviços de Federação do Active Directory (AD FS)
 

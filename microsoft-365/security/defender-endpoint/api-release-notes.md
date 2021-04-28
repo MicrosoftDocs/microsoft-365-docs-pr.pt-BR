@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 5093bf64614f30c7daa145484453d7c9000ef2c7
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 7bae413028a0add7e5288e52bc3184e30f319c46
+ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060880"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52073833"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Notas de versão da API do Microsoft Defender para Ponto de Extremidade
 
@@ -37,12 +37,7 @@ As informações a seguir listam as atualizações feitas para as APIs do Micros
 > https://docs.microsoft.com/api/search/rss?search=%22Release+notes+for+updates+made+to+the+Microsoft+Defender+for+Endpoint+set+of+APIs%22&locale=en-us&facet=&%24filter=scopes%2Fany%28t%3A+t+eq+%27Windows+10%27%29
 > ```
 
-
 ## <a name="release-notes---newest-to-oldest"></a>Notas de versão - mais recente para mais antiga
-
-### <a name="23042021"></a>23.04.2021
-
-- Adicionada nova API: métodos e propriedades de atividade [de correção.](get-remediation-methods-properties.md)
 
 ### <a name="10022021"></a>10.02.2021
 
