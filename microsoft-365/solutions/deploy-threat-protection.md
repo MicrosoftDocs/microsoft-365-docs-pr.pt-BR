@@ -1,7 +1,7 @@
 ---
 title: Implantar recursos de proteção contra ameaças no Microsoft 365
 description: Obter uma visão geral dos serviços de proteção contra ameaças e recursos de segurança no Microsoft 365 E5. Proteja suas contas de usuário, dispositivos, conteúdo de email e muito mais com o Microsoft 365 E5.
-keywords: proteção avançada contra ameaças, segurança, microsoft 365 E5, solução, proteger dispositivos, defender
+keywords: solução, instalação, proteção avançada contra ameaças, atp, segurança, microsoft 365 E5, proteger dispositivos, defender, m365
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -17,16 +17,16 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 0edc3847d6b832f254c6f289355570a3a044b1f4
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 04e9ed3d108fa68bdfbf3b34de618d904e3f2cba
+ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061032"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52065092"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365-e5"></a>Implantar recursos de proteção contra ameaças no Microsoft 365 E5
 
-Esta solução descreve os poderosos recursos de proteção contra ameaças no Microsoft 365 E5 e por que esses recursos são importantes. Leia esta solução para obter uma visão geral do que está incluído no Microsoft 365 E5, como funcionam os recursos de proteção contra ameaças e como configurar e configurar a proteção contra ameaças em sua organização.
+Essa solução descreve os poderosos recursos de proteção contra ameaças no Microsoft 365 E5 e explica por que a proteção contra ameaças é importante. Leia este artigo para obter uma visão geral da proteção contra ameaças no Microsoft 365 E5 e como abordar a configuração e a configuração da sua organização.
 
 ## <a name="why-threat-protection-is-important"></a>Por que a proteção contra ameaças é importante 
 
@@ -60,7 +60,7 @@ A ilustração a seguir mostra um caminho recomendado para implantar esses recur
 |Solução/recursos  |Descrição  |
 |---------|---------|
 |Autenticação multifacional e Acesso Condicional     |Proteger contra identidades e dispositivos comprometidos. Comece com essa proteção porque ela é fundamental. A configuração recomendada nesta orientação inclui a Proteção de Identidade do Azure AD como um pré-requisito.     |
-|Microsoft Defender para Identidade?     |  Uma solução de segurança baseada em nuvem que aproveita seus sinais locais do AD DS (Serviços de Domínio do Active Directory) para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização. Concentre-se no Microsoft Defender for Identity em seguida porque protege sua infraestrutura local e de nuvem, não tem dependências ou pré-requisitos e pode fornecer benefícios imediatos de segurança. | 
+|Microsoft Defender para Identidade?     |  Uma solução de segurança baseada em nuvem que usa os sinais dos Serviços de Domínio do Active Directory (AD DS) locais para identificar, detectar e investigar ameaças avançadas, identidades comprometidas e ações internas mal-intencionadas direcionadas à sua organização. Concentre-se no Microsoft Defender for Identity em seguida porque protege sua infraestrutura local e de nuvem, não tem dependências ou pré-requisitos e pode fornecer benefícios imediatos de segurança. | 
 |Microsoft Defender para Office 365     | Protege sua organização contra ameaças mal-intencionadas colocadas por mensagens de email, links (URLs) e ferramentas de colaboração. Proteções para malware, phishing, spoofing e outros tipos de ataque. A configuração do Microsoft Defender para Office 365 é recomendada em seguida, pois alterar o controle, migrar configurações do sistema em questão e outras considerações pode levar mais tempo para implantar. <p>**OBSERVAÇÃO**: configure os recursos de proteção contra ameaças incluídos em todas as assinaturas do Office 365 (Proteção do Exchange Online).       |
 |Proteção Avançada contra Ameaças do Microsoft Defender    | Uma plataforma de proteção de ponto de extremidade que ajuda a evitar, detectar, investigar e responder a ameaças avançadas.  O Defender para Ponto de Extremidade pode levar algum tempo para implantar, mas a configuração pode ser feita em paralelo com outros recursos.   |
 |Microsoft Cloud App Security     |   Um agente de segurança de acesso à nuvem para descoberta, investigação e governança. Você pode habilitar o Microsoft Cloud App Security mais cedo para começar a coletar dados e insights. Implementar informações e outra proteção direcionada em seus aplicativos SaaS envolve planejamento e pode levar mais tempo.       | 
@@ -74,7 +74,7 @@ O diagrama a seguir ilustra o processo de alto nível para implantar recursos de
 
 ![Processo para implantar recursos de proteção contra ameaças](../media/deploy-threat-protection/deploy-threat-protection-across-m365-grid.png)
 
-Para garantir que sua organização tenha a melhor proteção possível, configurar e implantar sua solução de segurança usando um processo que inclua as seguintes etapas:
+Para garantir que sua organização tenha a melhor proteção possível, configurar e implantar sua solução de segurança com um processo que inclua as seguintes etapas:
 
 1. [Configurar a autenticação multifacional e políticas de Acesso Condicional.](deploy-threat-protection-configure.md#step-1-set-up-multi-factor-authentication-and-conditional-access-policies)
 2. [Configurar o Microsoft Defender para Identidade](deploy-threat-protection-configure.md#step-2-configure-microsoft-defender-for-identity).
@@ -89,6 +89,6 @@ Seus recursos de proteção contra ameaças podem ser configurados em paralelo, 
 
 ## <a name="next-step"></a>Próxima etapa
 
-Prossiga [para Configurar recursos de proteção contra ameaças no Microsoft 365](deploy-threat-protection-configure.md).
+Continue a [configurar recursos de proteção contra ameaças no Microsoft 365](deploy-threat-protection-configure.md).
 
 

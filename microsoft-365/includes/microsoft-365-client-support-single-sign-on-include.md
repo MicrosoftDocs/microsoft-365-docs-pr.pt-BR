@@ -26,7 +26,7 @@
 |OBSERVAÇÕES STICKY|N/D|N/D|N/D|N/D|✔|
 |STREAM|Planejado|Planejado|N/D|N/D|N/D|
 |SWAY|N/D|N/D|N/D|N/D|✔|
-|TEAMS|✔|✔|Planejado|Planejado|N/D|
+|TEAMS|✔|✔|Planejado|✔|N/D|
 |TO-DO|✔|✔|N/D|N/D|✔|
 |VISIO|N/D|✔|N/D|✔|N/D|
 |WHITEBOARD|N/D|✔|N/D|N/D|✔|

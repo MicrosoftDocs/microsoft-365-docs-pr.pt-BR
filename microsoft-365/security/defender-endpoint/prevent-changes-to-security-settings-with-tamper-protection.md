@@ -15,12 +15,12 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 84864965d7a18902a01307c1dcf373fa7c0534e8
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: ff98b78d113a67ad6bd816753c691e8afe71dd77
+ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765570"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52065068"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Proteger as configurações de segurança com proteção contra adulteração
 
@@ -61,6 +61,8 @@ A proteção contra violações bloqueia essencialmente o Microsoft Defender Ant
 
 A proteção contra violações não impede que você veja suas configurações de segurança. Além disso, a proteção contra violações não afeta como aplicativos antivírus de terceiros se registram com o aplicativo segurança do Windows. Se sua organização estiver usando o Windows 10 Enterprise E5, usuários individuais não poderão alterar a configuração de proteção contra violações; nesses casos, a proteção contra violações é gerenciada pela sua equipe de segurança.
 
+
+
 ### <a name="what-do-you-want-to-do"></a>O que você deseja fazer?
 
 | Para executar essa tarefa... | Consulte esta seção... |
@@ -73,6 +75,19 @@ A proteção contra violações não impede que você veja suas configurações 
 | Revise suas recomendações de segurança | [Revisar recomendações de segurança](#review-your-security-recommendations) |
 | Revise a lista de perguntas frequentes (perguntas frequentes) | [Procurar perguntas frequentes](#view-information-about-tampering-attempts) |
 
+Dependendo do método ou ferramenta de gerenciamento que você usa para habilitar a proteção contra adulteração, pode haver uma dependência no MAPS (proteção entregue na nuvem). 
+
+A tabela a seguir fornece detalhes sobre os métodos, ferramentas e dependências.
+
+
+
+|     Como a proteção contra adulteração está habilitada                                         |     Dependência do MAPS (proteção entregue na nuvem)    |
+|------------------------------------------------------------------------------|--------------------------------------------------------|
+|     Microsoft Intune                                                         |     Não                                                 |
+| Microsoft Endpoint Configuration Manager + Tenant Attach                     |     Não                                                 |
+|     Portal do Microsoft Defender para Ponto de Extremidade (securitycenter.microsoft.com)    |     Sim                                                |
+|     Portal do Microsoft 365 Defender (security.microsoft.com)                   |     Sim                                                |
+
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Gerenciar a proteção contra violações para sua organização usando o Centro de Segurança do Microsoft Defender
 
 A proteção contra adulteração pode ser 1 ou 2016 para seu locatário usando o Centro de Segurança do Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). Aqui estão alguns pontos para ter em mente:
@@ -84,6 +99,9 @@ A proteção contra adulteração pode ser 1 ou 2016 para seu locatário usando 
 - Quando você gerencia a proteção contra violações no Centro de Segurança do Microsoft Defender, a configuração é aplicada em todo o locatário, afetando todos os dispositivos que estão executando o Windows 10, o Windows Server 2016 ou o Windows Server 2019. Para ajustar a proteção contra adulteração (como a proteção contra adulteração para alguns dispositivos, mas para outros), use [o Intune](#manage-tamper-protection-for-your-organization-using-intune) ou o Configuration Manager com anexação [de locatário.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - Se você tiver um ambiente híbrido, as configurações de proteção contra violações configuradas no Intune terão precedência sobre as configurações configuradas no Centro de Segurança do Microsoft Defender. 
+
+
+
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-defender-security-center"></a>Requisitos para gerenciar a proteção contra violações no Centro de Segurança do Microsoft Defender
 
