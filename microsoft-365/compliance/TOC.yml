@@ -118,8 +118,6 @@
           href: create-a-keyword-dictionary.md
         - name: Impressão Digital de Documento
           href: document-fingerprinting.md
-        - name: Funções DLP para informações confidenciais
-          href: what-the-dlp-functions-look-for.md
     - name: Classificadores de treinamento
       items:
         - name: Saiba mais sobre classificadores treináveis
