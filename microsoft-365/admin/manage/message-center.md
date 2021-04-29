@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Obter uma visão geral do Centro de Mensagens do Microsoft 365 e sua função no gerenciamento de alterações.
-ms.openlocfilehash: 905aa411e931f802735c913922a6431e7466cdb5
-ms.sourcegitcommit: 3d48e198e706f22ac903b346cadda06b2368dd1e
+ms.openlocfilehash: 52d2c0815757127ad0c4e34d077a8807f926740e
+ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50727218"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52077150"
 ---
 # <a name="message-center"></a>Centro de mensagens
 
@@ -54,8 +54,11 @@ Para abrir o Centro de Mensagens:
 ::: moniker-end
 
 Você também pode usar o aplicativo administrador do [Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=627216) em seu dispositivo móvel para exibir o Centro de Mensagens, que é uma ótima maneira de se manter atualizado com notificações por push.
+
+Para cancelar a assinatura de emails da Central de Mensagens, consulte Cancelar assinatura de [emails da](#unsubscribe-from-message-center-emails) Central de Mensagens neste artigo.
+
   
-### <a name="frequently-asked-questions"></a>Perguntas frequentes
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
 |**Pergunta**|**Resposta**|
 |:-----|:-----|
@@ -70,34 +73,40 @@ Você também pode usar o aplicativo administrador do [Microsoft 365](https://go
 |Como posso garantir que as notificações de privacidade de dados sejam recebidas pelos contatos certos na minha organização? <br/> |Como administrador global, você receberá mensagens de privacidade de dados para sua organização. Além disso, você pode atribuir a função de leitor de Privacidade do Centro de Mensagens a pessoas que devem ver mensagens de privacidade de dados. Outras funções de administrador com acesso ao Centro de Mensagens não podem exibir mensagens de privacidade de dados.   <br/><br/>Para obter mais informações, consulte [Preferências](#preferences) neste artigo.<br/> |
 |Por que não consigo ver uma mensagem que estava lá anteriormente? <br/> |Para gerenciar o número de mensagens no Centro de Mensagens, cada mensagem expirará e será removida após um período de tempo. Geralmente, as mensagens expiram 30 dias após o período de tempo descrito no corpo da mensagem. <br/> |
 
-### <a name="messages"></a>Mensagens
+## <a name="filter-messages"></a>Filtrar mensagens
 
 O centro de mensagens apresenta uma exibição de todas as mensagens ativas em um formato de tabela. Por padrão, ela mostra a mensagem mais recente na parte superior da lista. Você pode selecionar **Serviço para** ver mensagens para vários serviços, como Aplicativos do Microsoft 365, SharePoint Online, etc.   Em **Marca,** você pode selecionar **Impacto do administrador,** privacidade de dados, atualização de recursos, atualização **principal,** **novo** **recurso,** aposentadoria ou **mensagens de impacto do** usuário.   Em **Estado de mensagem,** você pode selecionar **Favoritos,** Mensagens **Não Lidas** ou **Atualizadas.**
 
 A guia Arquivo morto mostra as mensagens arquivadas. Para arquivar uma mensagem, no painel de mensagens, selecione **Arquivar**.
 
-### <a name="choose-columns"></a>Escolher colunas
+::: moniker range="o365-worldwide"
 
-Para escolher colunas,  na página Central de mensagens, à extrema direita, selecione Escolher **colunas** e, no painel Escolher **colunas,** selecione as que você deseja exibir.
+Use os menus suspensos **Serviço**, **Rótulo** e **estado da Mensagem**  para selecionar uma exibição filtrada das mensagens. Por exemplo, neste diagrama, as mensagens estão rotuladas com o rótulo de **impacto de Administrador**.
 
-Aqui está uma visão geral rápida das informações que você verá em cada coluna.
+Você pode selecionar qualquer título de coluna, exceto **Serviço** e **Rótulo**,  para classificar as mensagens em ordem crescente ou decrescente.
 
-#### <a name="column-information"></a>Informações da coluna
+:::image type="content" source="../../media/message-center-admin-impact1.png" alt-text="Exibição da central de mensagens classificada por impacto de Administrador":::
 
-|**Coluna**|**Descrição**|
-|:-----|:-----|
-|Marca de seleção  <br/> |Selecionar a marca de seleção na linha de título da coluna selecionará todas as mensagens exibidas no momento. Selecionar a marca de seleção ao lado de uma ou mais mensagens permite que você tome medidas nessas mensagens.  <br/> |
-|Título da mensagem  <br/> |Os títulos da mensagem são breves descrições das alterações futuras. Se o título completo não for exibido, passe o cursor sobre ele e o título inteiro aparecerá em uma caixa pop-up.  <br/> |
-|Serviço <br/> |Os ícones indicam o aplicativo ao qual a mensagem se aplica.<br/> |
-|Mais opções <br/> |Mais opções permitem descartar uma mensagem, marcá-la como lida ou não lida ou compartilhá-la com outro administrador. Para restaurar uma mensagem arquivada, selecione a guia Arquivo morto, marque a marca de seleção ao lado da mensagem e selecione **Restaurar**.  <br/> |
-|Marcas <br/> |Você pode escolher marcas no drop-down **Tag** para filtrar mensagens. As marcas disponíveis são: Impacto do **administrador,** **Atualização** **principal,** Privacidade de Dados, **Atualização** de Recursos, **Novo** recurso, **Aposentadoria** e Impacto **do usuário.** <br/> |
-|Categoria  <br/> | Isso não é mostrado por padrão, mas pode ser especificado no painel **Escolher colunas.** As mensagens são identificadas por uma das três categorias a seguir: <br/><br/> **Evitar ou corrigir problemas**: informa sobre problemas conhecidos que afetam sua organização e pode exigir que você tome medidas para evitar interrupções no serviço. Os problemas de prevenção ou correção são diferentes das mensagens de saúde do serviço porque elas solicitam que você seja proativo para evitar problemas. <br/> <br/> **Plano de alteração**: Informa as alterações no Microsoft 365 que podem exigir que você aja para evitar interrupções no serviço. Por exemplo, vamos permitir que você saiba sobre alterações nos requisitos do sistema ou sobre os recursos que estão sendo removidos. Tentamos fornecer pelo menos 30 dias de aviso de qualquer alteração que exija que um administrador aja para manter o serviço funcionando normalmente. <br/> <br/> **Mantenha-se** informado : informa sobre recursos novos ou atualizados que estamos a ligar em sua organização. Os recursos geralmente são anunciados primeiro no Mapa do [Microsoft 365.](https://go.microsoft.com/fwlink/?linkid=2070821) <br/><br/>Também pode permitir que você saiba sobre a manutenção planejada de acordo com nosso Contrato de Nível de Serviço. A manutenção planejada pode resultar em tempo de in atividade, em que você ou seus usuários não podem acessar o Microsoft 365, um recurso específico ou um serviço como email ou OneDrive for Business.  <br/> |
-|Agir por  <br/> |Só teremos datas aqui se estamos fazendo uma alteração que exija que você tome uma ação por um determinado prazo. Como raramente usamos **o Ato por** coluna, se você vir algo aqui, você deve prestar atenção extra a ele.  <br/> |
-|Última atualização  <br/> |Data em que a mensagem foi publicada ou atualizada pela última vez.  <br/> |
-|ID da mensagem  <br/> |A Microsoft rastreia nossas postagens do Centro de Mensagens por ID da mensagem. Você pode consultar essa ID se quiser dar comentários ou se chamar Suporte sobre uma mensagem específica.  <br/> |
+::: moniker-end
 
-Vá até [Gerenciar mensagens no Centro de Mensagens](manage-messages.md) para obter mais informações sobre o que você pode fazer com as mensagens.
-  
+::: moniker range="o365-germany"
+
+Use o menu suspenso **Filtrar** para selecionar uma exibição filtrada das mensagens.
+
+Você pode selecionar qualquer título de coluna para classificar as mensagens em ordem crescente ou decrescente. Por exemplo, nesta ilustração, as mensagens são classificadas como **Agir por** data.
+
+![Exibição da central de mensagens classificada por rótulo impacto de Administrador](../../media/message-center-filter-act-by.png)
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+Use os menus suspensos **Serviço**, **Rótulo** e **estado da Mensagem**  para selecionar uma exibição filtrada das mensagens. Por exemplo, neste diagrama, as mensagens estão rotuladas com o **impacto de Administrador**.
+
+Você pode selecionar qualquer título de coluna, exceto **Serviço** e **Rótulos**,  para classificar as mensagens em ordem crescente ou decrescente.
+
+::: moniker-end
+
 ### <a name="major-updates"></a>Principais atualizações
 
 As principais atualizações podem ser revisadas selecionando-se a **atualização Principal** no drop-down **Tags.**
@@ -180,13 +189,33 @@ Se a administração for distribuída pela sua organização, talvez você não 
 
 ::: moniker-end
 
-#### <a name="display-messages-in-your-preferred-language"></a>Exibir mensagens em seu idioma preferencial
+### <a name="display-messages-in-your-preferred-language"></a>Exibir mensagens em seu idioma preferencial
   
 Usamos a tradução automática para exibir automaticamente mensagens em seu idioma preferencial. Leia [As postagens da Central de Mensagens](language-translation-for-message-center-posts.md) para obter mais informações sobre como definir seu idioma.
   
 > [!NOTE]
 > O resumo semanal e todas as postagens enviadas por email são enviadas somente em inglês. Os destinatários podem usar [o Tradutor para Outlook](https://support.microsoft.com/office/3d7e12ed-99d6-406e-a453-b9db0d9653fa) para ler a mensagem em seu idioma preferencial. 
-  
+
+## <a name="choose-columns"></a>Escolher colunas
+
+Para escolher colunas,  na página Central de mensagens, à extrema direita, selecione Escolher **colunas** e, no painel Escolher **colunas,** selecione as que você deseja exibir.
+
+Aqui está uma visão geral rápida das informações que você verá em cada coluna.
+
+### <a name="column-information"></a>Informações da coluna
+
+|**Coluna**|**Descrição**|
+|:-----|:-----|
+|Marca de seleção  <br/> |Selecionar a marca de seleção na linha de título da coluna selecionará todas as mensagens exibidas no momento. Selecionar a marca de seleção ao lado de uma ou mais mensagens permite que você tome medidas nessas mensagens.  <br/> |
+|Título da mensagem  <br/> |Os títulos da mensagem são breves descrições das alterações futuras. Se o título completo não for exibido, passe o cursor sobre ele e o título inteiro aparecerá em uma caixa pop-up.  <br/> |
+|Serviço <br/> |Os ícones indicam o aplicativo ao qual a mensagem se aplica.<br/> |
+|Mais opções <br/> |Mais opções permitem descartar uma mensagem, marcá-la como lida ou não lida ou compartilhá-la com outro administrador. Para restaurar uma mensagem arquivada, selecione a guia Arquivo morto, marque a marca de seleção ao lado da mensagem e selecione **Restaurar**.  <br/> |
+|Marcas <br/> |Você pode escolher marcas no drop-down **Tag** para filtrar mensagens. As marcas disponíveis são: Impacto do **administrador,** **Atualização** **principal,** Privacidade de Dados, **Atualização** de Recursos, **Novo** recurso, **Aposentadoria** e Impacto **do usuário.** <br/> |
+|Categoria  <br/> | Isso não é mostrado por padrão, mas pode ser especificado no painel **Escolher colunas.** As mensagens são identificadas por uma das três categorias a seguir: <br/><br/> **Evitar ou corrigir problemas**: informa sobre problemas conhecidos que afetam sua organização e pode exigir que você tome medidas para evitar interrupções no serviço. Os problemas de prevenção ou correção são diferentes das mensagens de saúde do serviço porque elas solicitam que você seja proativo para evitar problemas. <br/> <br/> **Plano de alteração**: Informa as alterações no Microsoft 365 que podem exigir que você aja para evitar interrupções no serviço. Por exemplo, vamos permitir que você saiba sobre alterações nos requisitos do sistema ou sobre os recursos que estão sendo removidos. Tentamos fornecer pelo menos 30 dias de aviso de qualquer alteração que exija que um administrador aja para manter o serviço funcionando normalmente. <br/> <br/> **Mantenha-se** informado : informa sobre recursos novos ou atualizados que estamos a ligar em sua organização. Os recursos geralmente são anunciados primeiro no Mapa do [Microsoft 365.](https://go.microsoft.com/fwlink/?linkid=2070821) <br/><br/>Também pode permitir que você saiba sobre a manutenção planejada de acordo com nosso Contrato de Nível de Serviço. A manutenção planejada pode resultar em tempo de in atividade, em que você ou seus usuários não podem acessar o Microsoft 365, um recurso específico ou um serviço como email ou OneDrive for Business.  <br/> |
+|Agir por  <br/> |Só teremos datas aqui se estamos fazendo uma alteração que exija que você tome uma ação por um determinado prazo. Como raramente usamos **o Ato por** coluna, se você vir algo aqui, você deve prestar atenção extra a ele.  <br/> |
+|Última atualização  <br/> |Data em que a mensagem foi publicada ou atualizada pela última vez.  <br/> |
+|ID da mensagem  <br/> |A Microsoft rastreia nossas postagens do Centro de Mensagens por ID da mensagem. Você pode consultar essa ID se quiser dar comentários ou se chamar Suporte sobre uma mensagem específica.  <br/> |
+
 ### <a name="admin-roles-that-dont-have-access-to-the-message-center"></a>Funções de administrador que não têm acesso ao Centro de Mensagens
 
 - Administrador de conformidade
@@ -200,6 +229,114 @@ Usamos a tradução automática para exibir automaticamente mensagens em seu idi
 - Administrador de função com privilégios
 - Leitor de relatórios
 
+## <a name="give-feedback-on-a-post"></a>Deixar comentários sobre uma postagem
+
+No Centro de mensagens, selecione uma mensagem para ver os detalhes.
+
+Se você deixar comentários sobre a mensagem, no painel de detalhes, selecione o ícone **Gostar** ou **Não gostar** na parte inferior do painel de detalhes da mensagem e deixe comentários opcionais na caixa de texto exibida. Não forneça informações pessoais. Selecione opcionalmente **Podem me contatar a respeito desse comentário** e, em seguida, selecione **Enviar**.
+
+## <a name="share-a-message"></a>Compartilhar uma mensagem
+
+Está vendo uma mensagem pedindo a ação de outra pessoa? Você pode compartilhar o conteúdo da mensagem com qualquer usuário por email:
+  
+1. Selecione a mensagem para abri-la e, em seguida, selecione **Compartilhar**.
+  
+2. Para compartilhar a mensagem, insira até dois endereços de email separados por dois-pontos. Você pode enviar para endereços de email individuais e de grupos. Opcionalmente, você pode optar por receber uma cópia da mensagem por email (a mensagem será enviada para seu endereço de email principal) ou adicionar uma mensagem pessoal para fornecer mais contexto aos destinatários.
+  
+3. Selecione **Compartilhar** para enviar o email.
+
+## <a name="get-a-link"></a>Obter um link
+
+Precisa acompanhar com outro administrador para garantir que eles estão cientes de uma alteração e que estão agindo? Você pode gerar um link para compartilhar por email ou mensagens instantâneas, por exemplo, que conectará o usuário diretamente à mensagem. A pessoa com quem você compartilha o link deve ter acesso ao Centro de mensagens. Para obter mais informações, consulte [funções de administrador que não têm acesso ao Centro de mensagens](message-center.md#admin-roles-that-dont-have-access-to-the-message-center).
+
+::: moniker range="o365-worldwide"
+
+1. Selecione a mensagem para abri-la.
+
+2. Selecione **Copiar link**.
+
+3. Use Ctrl+V ou clique com o botão direito e selecione **Colar** para inserir o link para qualquer documento que você desejar.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Selecione a mensagem para abri-la.
+
+2. Escolha **Mais** \> **Obter um link** na barra de ações.
+
+3. Permitir que a página da Web acesse sua Área de Transferência. Um link direto é copiado para sua Área de Transferência.
+
+4. Use Ctrl+V ou clique com o botão direito e selecione **Colar** para inserir o link.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. Selecione a mensagem para abri-la.
+
+2. Selecione **Copiar link**.
+
+3. Use Ctrl+V ou clique com o botão direito e selecione **Colar** para inserir o link para qualquer documento que você desejar.
+
+::: moniker-end
+
+## <a name="read-and-unread-states"></a>Estados lidos e não lidos
+
+Qualquer mensagem não lida do Centro de mensagens será exibida em negrito. Abrir uma mensagem a marcará como lida. Você pode marcar uma mensagem como não lida.
+
+::: moniker range="o365-worldwide"
+
+- Na página principal do Centro de mensagens, selecione as reticências **Mais opções** ao lado de uma mensagem e, em seguida, selecione **Marcar como não lida**.
+
+Você também pode abrir uma mensagem e marcá-la como não lida no painel de detalhes.
+  
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. Selecione a mensagem para abri-la.
+
+2. Selecione **Mais** \> **Marcar como não lida**.
+
+3. Feche a mensagem.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+- Na página principal do Centro de mensagens, selecione as reticências **Mais opções** ao lado de uma mensagem e, em seguida, selecione **Marcar como não lida**.
+
+::: moniker-end
+
+## <a name="archive-and-restore"></a>Arquivar e restaurar
+
+Se você vir uma mensagem que não pertence a você, ou talvez já fez alguma ação nela, você pode arquivar a mensagem para removê-la da caixa de entrada. A exibição que você vê no Centro de mensagens é específica para sua conta de usuário, portanto, arquivá-la da sua exibição não afetará outros administradores. Há duas maneiras de arquivar uma mensagem.
+
+- Na página principal do Centro de mensagens, selecione uma mensagem e, em seguida, selecione **Arquivo** acima da lista de mensagens.
+
+- Abra a mensagem e selecione **Arquivar** na parte superior do painel de mensagens.
+
+Precisa arquivar novamente uma mensagem? Não tem problema.
+  
+1. Selecione a guia **Arquivar** na parte superior do Centro de mensagens. Uma lista de mensagens arquivadas será exibida.
+
+2. Escolha a mensagem, selecione **Restaurar** e a mensagem será restaurada para a caixa de entrada.
+
+## <a name="favorite-messages"></a>Mensagens favoritas
+
+Para marcar uma mensagem como favorita, passe o mouse sobre o título da mensagem e você verá uma estrela de **Favorito** :::image type="icon" source="../../media/favorite-star.png" border="false"::: que pode ser selecionada logo após as reticências **Mais opções**. Depois de marcar as mensagens como favoritas, você também pode classificá-las e filtrá-las.
+
+## <a name="scroll-messages-in-the-message-pane"></a>Rolar as mensagens no painel de mensagens
+
+Ao abrir uma mensagem em um painel de leitura, você pode usar as setas **Para cima** e **Para baixo** :::image type="icon" source="../../media/updownarrows.png" border="false"::: na parte superior do painel para mover para a próxima mensagem ou para a anterior na lista.
+
+## <a name="track-your-message-center-tasks-in-planner"></a>Acompanhe o centro de mensagens no Planner
+
+Uma grande quantidade de informações acionáveis sobre as alterações nos serviços do Microsoft 365 chega no centro de mensagens da Microsoft 365. Pode ser difícil acompanhar quais alterações requerem tarefas a serem concluídas, quando e por quem, e acompanhar a conclusão de cada tarefa. Você também pode querer fazer uma anotação de algo e marcá-la para que seja verificada depois. Você pode fazer tudo isso e muito mais ao sincronizar suas mensagens do Centro de administração do Microsoft 365 para o Microsoft Planner. Para mais informações, confira [Acompanhe as tarefas do centro de mensagens no Planner](/office365/planner/track-message-center-tasks-planner).
+
+Para uma visão geral do Centro de mensagens, confira [Centro de mensagens no Microsoft 365](message-center.md). Ou para saber como definir suas preferências de idioma e permitir a tradução automática das postagens do Centro de mensagens, confira [Tradução de idioma para postagens do Centro de mensagens](language-translation-for-message-center-posts.md). Se você quiser programar uma maneira alternativa de obter informações em tempo real sobre a integridade do serviço e sobre as comunicações do Centro de Mensagens, confira [Visão geral da API de Comunicações de Serviço do Microsoft 365](/previous-versions/office/developer/o365-enterprise-developers/jj984343(v=office.15)).
+
 ## <a name="unsubscribe-from-message-center-emails"></a>Cancelar assinatura de emails da Central de Mensagens
 
 1. Os emails digest são aados por padrão e são enviados para seu endereço de email principal. Para parar de receber o resumo semanal, selecione **Preferências** e, em seguida, **Email**.
@@ -209,3 +346,11 @@ Usamos a tradução automática para exibir automaticamente mensagens em seu idi
     -   Para parar de receber avisos de email sobre mensagens de privacidade de dados, verifique se a caixa de seleção **Enviar emails** para mensagens de privacidade de dados não está selecionada.  (As mensagens de privacidade de dados não estão incluídas no resumo semanal.)
 
 2. Selecione **Salvar** para manter suas alterações.<br/>
+
+## <a name="related-content"></a>Conteúdo relacionado
+
+[Configurar as opções de versão Padrão ou Direcionada](../manage/release-options-in-office-365.md) (artigo)
+
+[Gerenciar quais recursos do Office aparecem em Novidades](../manage/show-hide-new-features.md) (artigo)
+
+[Assinaturas comerciais e documentação de cobrança](../../commerce/index.yml) (links)

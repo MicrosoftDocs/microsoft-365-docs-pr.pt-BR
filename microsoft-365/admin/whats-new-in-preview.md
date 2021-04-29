@@ -21,12 +21,12 @@ description: O Centro de administração do Microsoft 365 - saiba mais sobre os 
 ms.custom:
 - MACDashWhatsNew
 - AdminSurgePortfolio
-ms.openlocfilehash: 90f75b0c1ea38833325c51399108551286f55e92
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: b226f48edd5f65100c81e95d2026c7c172959c8d
+ms.sourcegitcommit: b169f6ad3e44a7fcebf77f43be9eb5edd84ea5ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52024188"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52077306"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Novidades no centro de administração do Microsoft 365
 
@@ -83,7 +83,7 @@ Renovamos o Centro de Mensagens para ajudá-lo a descobrir mensagens relevantes 
 
 :::image type="content" source="../media/message-center.png" alt-text="Captura de tela: home page do centro de mensagens mostrando caixa de entrada e mensagens":::
 
-Para saber mais sobre os novos recursos, confira [Gerenciar mensagens no Centro de Mensagens](manage/manage-messages.md).
+Para saber mais sobre os novos recursos, confira [Central de mensagens](manage/message-center.md).
 
 ### <a name="whats-new-features"></a>Quais são os novos recursos
 
@@ -342,7 +342,7 @@ Novidades na série de vídeos do **Microsoft 365**: este mês, abrangemos dicas
 
 #### <a name="for-admins-and-business-owners"></a>Para administradores e proprietários de negócios
 
-- [Capacitar sua pequena empresa com trabalho remoto](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
+- [Capacite sua pequena empresa com trabalho remoto](https://support.microsoft.com/office/9b91a85a-39b4-40a6-a590-0f9bea0ba8e6)
 - [Executando uma pequena empresa remota](../business-video/sign-up.md)
 - [Inscrever-se no Microsoft Business Basic](../business-video/sign-up.md)
 - [Configurando a assinatura de dois fatores](../business-video/sign-up.md)
