@@ -204,18 +204,10 @@
           href: ../../compliance/alert-policies.md
         - name: Relatórios inteligentes e insights no Centro de Conformidade e Segurança
           href: reports-and-insights-in-security-and-compliance.md
-        - name: Habilitar o suplemento de Mensagem de Relatório
-          href: enable-the-report-message-add-in.md
-        - name: Habilite o suplemento Relatório de Phishing
-          href: enable-the-report-phish-add-in.md
-        - name: Instalar e usar o suplemento Relatório de Lixo Eletrônico
-          href: junk-email-reporting-add-in-for-microsoft-outlook.md
+        - name: Relatar falsos positivos e falsos negativos no Outlook
+          href: report-false-positives-and-false-negatives.md
         - name: Regras de fluxo de email (regras de transporte) no EOP autônomo
           href: mail-flow-rules-transport-rules-0.md
-        - name: Relatar lixo eletrônico e phishing no Outlook na Web
-          href: report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
-        - name: Relatar lixo eletrônico e phishing no Outlook para iOS e Android
-          href: report-junk-email-and-phishing-scams-in-outlook-for-ios-and-android.md
         - name: Executar um relatório de grupo de função de administrador no EOP autônomo
           href: run-an-administrator-role-group-report-in-eop-eop.md
     - name: Investigar
