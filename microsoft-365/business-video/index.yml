@@ -13,72 +13,66 @@ metadata:
   ms.date: 12/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 0c9ba8560c2ee64b8e0da4d14afe869006bd6ed8
-  ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
-  ms.translationtype: MT
-  ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/02/2021
-  ms.locfileid: "51580565"
 productDirectory:
   items:
-  - title: Introdução
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Planeje sua mudança para o Microsoft 365 para empresas.
-    url: what-is-microsoft-365.md
-  - title: Configurar o Microsoft 365 para empresas
-    imageSrc: https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg
-    summary: Adicionar um domínio, adicionar usuários, configurar políticas de segurança...
-    url: sign-up.md
-  - title: Configurar computadores
-    imageSrc: https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg
-    summary: Instalar o Office, configurar email, migrar arquivos...
-    url: upgrade.md
-  - title: Configurar dispositivos móveis
-    imageSrc: https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg
-    summary: Instalar aplicativos do Office em dispositivos móveis.
-    url: work-from-anywhere.md
-  - title: Colaborar com outras pessoas
-    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
-    summary: Trabalhe com funcionários e clientes no Teams.
-    url: collab-outlook-teams.md
-  - title: Armazenar e compartilhar arquivos
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg
-    summary: Armazene arquivos com segurança e acesse de qualquer lugar.
-    url: overview-file-sharing.md
-  - title: Configurar o Business Voice
-    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-blue.svg
-    summary: Configurar o serviço telefônico e a conferência.
-    url: business-voice.md
-  - title: Configurar aplicativos de negócios
-    imageSrc: https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg
-    summary: Configurar e aprender sobre Reservas, Listas, Tarefas...
-    url: overview-bookings.md
-  - title: Gerenciar sua assinatura
-    imageSrc: https://docs.microsoft.com/office/media/icons/settings.svg
-    summary: Gerenciar usuários, redefinir senhas, exibir sua conta...
-    url: what-is-admin.md
-  - title: Gerenciar seus dispositivos
-    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-blue.svg
-    summary: Configurar políticas para dispositivos pessoais e de trabalho.
-    url: secure-win-10-pro-devices.md
-  - title: Proteja sua empresa
-    imageSrc: https://docs.microsoft.com/office/media/icons/security-blue.svg
-    summary: Configurar recursos de segurança e conformidade.
-    url: overview-m365-security.md
-  - title: Obter suporte
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-blue.svg
-    summary: Obter ajuda com o Microsoft 365 para empresas.
-    url: find-help-answers.md
+    - title: Introdução
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      summary: Planeje sua mudança para o Microsoft 365 para empresas.
+      url: what-is-microsoft-365.md
+    - title: Configurar o Microsoft 365 para empresas
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/add-to-cloud-blue.svg'
+      summary: 'Adicionar um domínio, adicionar usuários, configurar políticas de segurança...'
+      url: sign-up.md
+    - title: Configurar computadores
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/device-desktop-download-blue.svg'
+      summary: 'Instalar o Office, configurar email, migrar arquivos...'
+      url: upgrade.md
+    - title: Configurar dispositivos móveis
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/device-mobile-download-blue.svg'
+      summary: Instalar aplicativos do Office em dispositivos móveis.
+      url: work-from-anywhere.md
+    - title: Colaborar com outras pessoas
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/collaborate-blue.svg'
+      summary: Trabalhe com funcionários e clientes no Teams.
+      url: collab-outlook-teams.md
+    - title: Armazenar e compartilhar arquivos
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/cloud-storage-folder-blue.svg'
+      summary: Armazene arquivos com segurança e acesse de qualquer lugar.
+      url: overview-file-sharing.md
+    - title: Configurar o Business Voice
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/call-phone-blue.svg'
+      summary: Configurar o serviço telefônico e a conferência.
+      url: business-voice.md
+    - title: Configurar aplicativos de negócios
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/task-list-planning-blue.svg'
+      summary: 'Configurar e aprender sobre Reservas, Listas, Tarefas...'
+      url: overview-bookings.md
+    - title: Gerenciar sua assinatura
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/settings.svg'
+      summary: 'Gerenciar usuários, redefinir senhas, exibir sua conta...'
+      url: what-is-admin.md
+    - title: Gerenciar seus dispositivos
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-blue.svg'
+      summary: Configurar políticas para dispositivos pessoais e de trabalho.
+      url: secure-win-10-pro-devices.md
+    - title: Proteja sua empresa
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/security-blue.svg'
+      summary: Configurar recursos de segurança e conformidade.
+      url: overview-m365-security.md
+    - title: Obter suporte
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-blue.svg'
+      summary: Obter ajuda com o Microsoft 365 para empresas.
+      url: find-help-answers.md
 additionalContent:
   sections:
-  - title: Saiba mais
-    items:
-    - title: Saiba mais sobre o Office
-      summary: Saiba como usar o Word, Excel, PowerPoint e outros aplicativos do Office.
-      url: https://support.microsoft.com/training
-    - title: Alterne a partir do Google Workspace
-      summary: Saiba como mudar para o Microsoft 365 para empresas.
-      url: moveto-microsoft-365/move-from-google-workspace-overview.md
-    - title: Encontre mais recursos de administrador
-      summary: Vá para o site de ajuda do Centro de administração do Microsoft 365.
-      url: ../admin/index.yml
+    - title: Saiba mais
+      items:
+        - title: Saiba mais sobre o Office
+          summary: 'Saiba como usar o Word, Excel, PowerPoint e outros aplicativos do Office.'
+          url: 'https://support.microsoft.com/training'
+        - title: Obter treinamento para ITPros
+          summary: Conclua caminhos de aprendizado para empresas de médio porte e empresas.
+          url: 'https://docs.microsoft.com/learn/m365/'
+        - title: Encontre mais recursos de administrador
+          summary: Vá para o site de ajuda do Centro de administração do Microsoft 365.
+          url: ../admin/index.yml
