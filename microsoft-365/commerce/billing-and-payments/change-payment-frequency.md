@@ -12,21 +12,23 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - TopSMBIssues
 - okr_SMB
 - AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 description: Saiba como alterar a frequência com que você é cobrado por sua assinatura comercial.
-ms.openlocfilehash: a7d2f60e25611025e5b06d4e78555d59c486626d
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.date: 04/02/2021
+ms.openlocfilehash: c2cf64c980cb6f16292de4d4f12f2047187f46bd
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579789"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107479"
 ---
 # <a name="change-your-billing-frequency"></a>Alterar sua frequência de cobrança
 

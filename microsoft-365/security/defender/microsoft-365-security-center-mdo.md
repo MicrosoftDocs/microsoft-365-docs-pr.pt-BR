@@ -1,7 +1,7 @@
 ---
 title: Microsoft Defender para Office 365 no Centro de segurança do Microsoft 365
 description: Saiba mais sobre alterações do Centro de Conformidade e Segurança do Office 365 para o Centro de segurança do Microsoft 365.
-keywords: Segurança do Microsoft 365, Iniciando com o Centro de Segurança do Microsoft 365, Microsoft Defender para Office 365, Microsoft Defender para Ponto de Extremidade, MDO, MDE, painel único de vidro, novo portal de segurança, novo portal de segurança do Defender
+keywords: Microsoft 365 segurança, Iniciando com o centro de segurança do Microsoft 365, o Microsoft Defender para Office 365, o Microsoft Defender para Ponto de Extremidade, o MDO, o MDE, o painel único de vidro, o novo portal de segurança, o novo portal de segurança do defender
 ms.date: 02/21/2021
 ms.author: tracyp
 author: msfttracyp
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: b5decd562509d134899b85b380791087a913cd58
-ms.sourcegitcommit: 682ed2c4e2bc6979025cdb89094866cef6c8751a
+ms.openlocfilehash: a0ab671f879119c1ab490bcb726f08224e59bfdd
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51943060"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114407"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender para Office 365 no Centro de segurança do Microsoft 365
 
@@ -66,7 +66,7 @@ Verifique também a seção **Informações Relacionadas** na parte inferior des
 > O portal de Segurança do Microsoft 365 (https://security.microsoft.com) combina recursos de segurança em https://securitycenter.windows.com e https://protection.office.com. No entanto, o que você verá vai depender da sua assinatura. Se você tem apenas o Plano 1 ou 2 do Microsoft Defender para Office 365, como assinaturas autônomas, por exemplo, não verá os recursos de Segurança para Pontos de Extremidade e Defender para Office. Os clientes do plano 1 não verão itens como Análise de Ameaças.
 
 > [!TIP]
->  Todas as funções do Exchange Online Protection (EOP) serão incluídas no centro de segurança do Microsoft 365, pois o EOP é um elemento principal do Defender para Office 365.
+>  Todas as Proteção do Exchange Online (EOP) serão incluídas no centro de segurança Microsoft 365, pois o EOP é um elemento principal do Defender para Office 365.
 
 ## <a name="microsoft-365-security-center-home-page"></a>Página inicial do Centro de segurança do Microsoft 365
 
@@ -74,7 +74,7 @@ A página inicial do portal mostra:
 
 - Classificação de segurança 
 - o número de usuários e dispositivos em risco
-- listas de incidente ativo
+- fila de incidentes ativos
 - lista de aplicativos OAuth privilegiados
 - dados de integridade do dispositivo
 - tuítes do feed do twitter da inteligência de segurança da Microsoft

@@ -19,12 +19,12 @@ ms.custom:
 description: Os administradores podem aprender a usar o portal Envios no Centro de Conformidade de Segurança & para enviar emails suspeitos, emails suspeitos de phishing, spam e outras mensagens potencialmente prejudiciais, URLs e arquivos para a Microsoft para verificação.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e0975d5b6c2d29c94a30f7bbc703221b80217761
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: d0b91808aa9008f467f66b8200f2c05a120fbcd9
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599870"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107225"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Usar o Envio do Administrador para enviar spam, phishing, URLs e arquivos à Microsoft
 
@@ -35,7 +35,7 @@ ms.locfileid: "51599870"
 - [Plano 1 e plano 2 do Microsoft Defender para Office 365](defender-for-office-365.md)
 
 
-Nas organizações do Microsoft 365 com caixas de correio no Exchange Online, os administradores podem usar o portal Envios no Centro de Conformidade & Segurança para enviar mensagens de email, URLs e anexos à Microsoft para verificação.
+Em Microsoft 365 organizações com caixas de correio no Exchange Online, os administradores podem usar o portal Envios no Centro de Conformidade & Segurança para enviar mensagens de email, URLs e anexos à Microsoft para verificação.
 
 Ao enviar uma mensagem de email, você receberá:
 
@@ -57,7 +57,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
   - **Gerenciamento da** organização **ou leitor de segurança** no Centro de Conformidade & [Segurança.](permissions-in-the-security-and-compliance-center.md)
 
-  - **Gerenciamento de organização** no [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
+  - **Gerenciamento de organização** em [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
     Observe que a associação neste grupo de funções é necessária para Exibir [envios](#view-user-submissions-to-the-custom-mailbox) de usuário para a caixa de correio personalizada conforme descrito posteriormente neste artigo.
 
@@ -78,7 +78,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
    - **Arquivo**: clique **em Escolher arquivo**. Na caixa de diálogo que é aberta, encontre e selecione o arquivo .eml ou .msg e clique em **Abrir**.
 
    > [!NOTE]
-   > A capacidade de enviar mensagens com até 30 dias foi temporariamente suspensa para clientes do Defender para o Office 365. Os administradores só poderão voltar 7 dias.
+   > A capacidade de enviar mensagens com até 30 dias foi temporariamente suspensa para o Defender Office 365 clientes. Os administradores só poderão voltar 7 dias.
 
 2. Na seção **Destinatários,** especifique um ou mais destinatários com os quais você gostaria de executar uma verificação de política. A verificação de política determinará se o email foi ignorado devido a políticas de usuário ou organização.
 
@@ -90,7 +90,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 4. Quando terminar, clique no **botão Enviar.**
 
-   ![Exemplo de envio de URL](../../media/submission-flyout-email.PNG)
+   ![Novo exemplo de envio de URL](../../media/submission-flyout-email.PNG)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Enviar uma URL suspeita para a Microsoft
 
@@ -104,7 +104,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 3. Quando terminar, clique no **botão Enviar.**
 
-   ![Exemplo de envio de email](../../media/submission-url-flyout.png)
+   ![Novo exemplo de envio de email](../../media/submission-url-flyout.png)
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Enviar um arquivo suspeito à Microsoft
 
@@ -120,7 +120,7 @@ Para outras maneiras de enviar mensagens de email, URLs e anexos à Microsoft, c
 
 4. Quando terminar, clique no **botão Enviar.**
 
-   ![Exemplo de envio de anexo](../../media/submission-file-flyout.PNG)
+   ![Novo exemplo de envio de anexo](../../media/submission-file-flyout.PNG)
 
 ## <a name="view-items-submitted-for-analysis"></a>Exibir itens enviados para análise
 
@@ -136,9 +136,9 @@ Para alterar os critérios de filtro, clique no botão **ID do** Envio e escolha
 - **Tipo de envio**
 - **Status**
 
-![Opções de filtro para envios de administrador](../../media/admin-submission-email-filter-options.png)
+![Novas opções de Filtro para envios de administrador](../../media/admin-submission-email-filter-options.png)
 
-Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**. Na caixa de diálogo exibida, salve o arquivo .csv.
+Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**. Na caixa de diálogo exibida, salve o arquivo .csv arquivo.
 
 Abaixo do gráfico, há três guias: **Email** (padrão), **URL** e **Anexo.**
 
@@ -203,7 +203,7 @@ Você pode clicar no **botão Opções de** coluna perto da parte inferior da p�
 
 ## <a name="view-user-submissions-to-microsoft"></a>Exibir envios de usuários para a Microsoft
 
-Se você tiver implantado o [add-in](enable-the-report-message-add-in.md)Mensagem de Relatório, o complemento Relatar [Phishing](enable-the-report-phish-add-in.md)ou as pessoas usarem os relatórios **integrados** no Outlook na [Web,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)você poderá ver o que os usuários estão relatando na guia Envios do usuário.
+Se você tiver implantado o [add-in](enable-the-report-message-add-in.md)De Mensagem de Relatório, o complemento Relatar [Phishing](enable-the-report-phish-add-in.md)ou as pessoas usarem o relatório integrado no Outlook na [Web,](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)você poderá ver o que os usuários estão relatando na guia **Envios do** usuário.
 
 1. No Centro de Conformidade & segurança, vá para **Envios de gerenciamento** \> **de ameaças.**
 
@@ -225,14 +225,14 @@ Na parte superior da página, você pode inserir uma data de início, uma data d
 Para alterar os critérios de filtro, clique no botão **Remetente** e escolha um dos seguintes valores:
 
 - **Domínio do remetente**
-- **Subject**
+- **Assunto**
 - **Enviado por**
 - **Tipo de envio**
 - **IP do remetente**
 
-![Opções de filtro para envios de usuários](../../media/user-submissions-filter-options.png)
+![Novas opções de Filtro para envios de usuários](../../media/user-submissions-filter-options.png)
 
-Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**. Na caixa de diálogo exibida, salve o arquivo .csv.
+Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**. Na caixa de diálogo exibida, salve o arquivo .csv arquivo.
 
 ## <a name="view-user-submissions-to-the-custom-mailbox"></a>Exibir envios de usuário para a caixa de correio personalizada
 
@@ -253,7 +253,7 @@ Você pode clicar no **botão Opções de** coluna perto da parte inferior da p�
 
 Na parte superior da página, você pode inserir uma data de  início, uma data de término e filtrar enviando inserindo um valor na caixa e clicando em ![ Atualizar botão ](../../media/scc-quarantine-refresh.png) . Update
 
-Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**. Na caixa de diálogo exibida, salve o arquivo .csv.
+Para exportar os resultados, clique em **Exportar** próximo à parte superior da página e selecione **Dados de gráfico** ou **Tabela**. Na caixa de diálogo exibida, salve o arquivo .csv arquivo.
 
 > [!NOTE]
 > Se as organizações estão configuradas para enviar somente para a caixa de correio personalizada, as mensagens relatadas não serão enviadas para análise novamente e os resultados no portal de mensagens relatadas pelo usuário sempre estarão vazios.
@@ -266,11 +266,11 @@ Depois que um usuário envia um email suspeito para a caixa de correio personali
 
 Se você configurou a caixa de correio personalizada para interceptar mensagens relatadas pelo usuário sem enviar as mensagens para a Microsoft, você poderá encontrar e enviar mensagens específicas para a Microsoft para análise. Isso move efetivamente um envio de usuário para um envio de administrador.
 
-Na guia **Caixa de Correio** Personalizada, selecione uma mensagem na lista, clique no botão **Ação** e faça uma das seguintes seleções:
+Na guia **Mensagens relatadas pelo** usuário, selecione uma mensagem na lista, clique no botão **Ação** e faça uma das seguintes seleções:
 
 - **Relatório limpo**
 - **Relatar phishing**
 - **Relatar malware**
 - **Relatar spam**
 
-![Opções no botão Ação](../../media/user-submission-custom-mailbox-action-button.png)
+![Novas opções no botão Ação](../../media/user-submission-custom-mailbox-action-button.png)

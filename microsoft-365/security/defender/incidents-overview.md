@@ -1,7 +1,7 @@
 ---
 title: Incidentes no Microsoft 365 Defender
-description: Investigue incidentes vistos em dispositivos, usuários e caixas de correio no centro de segurança do Microsoft 365.
-keywords: incidentes, alertas, investigar, analisar, responder, correlação, ataque, máquinas, dispositivos, usuários, identidades, identidade, caixa de correio, email, 365, microsoft, m365
+description: Investigue incidentes vistos em dispositivos, usuários e caixas de correio no centro Microsoft 365 segurança.
+keywords: incidentes, alertas, investigar, analisar, resposta, correlação, ataque, máquinas, dispositivos, usuários, identidades, identidade, caixa de correio, email, 365, microsoft, m365, resposta a incidentes, ataques cibernéticos
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 890e64367c49c24c8c70e2cbda9869a5d0797219
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: e2e29015d4cb5e04510577118eb847b9b596a6c5
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939571"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114277"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Incidentes no Microsoft 365 Defender
 
@@ -42,13 +42,13 @@ ms.locfileid: "51939571"
 
 Um incidente no Microsoft 365 Defender é uma coleção de alertas correlacionados e dados associados que comentam a história de um ataque. 
 
-Os serviços e aplicativos do Microsoft 365 criam alertas quando detectam um evento ou atividade suspeito ou mal-intencionado. Alertas individuais fornecem dicas valiosas sobre um ataque concluído ou contínuo. No entanto, os ataques geralmente empregam várias técnicas contra diferentes tipos de entidades, como dispositivos, usuários e caixas de correio. O resultado são vários alertas para várias entidades em seu locatário. 
+Microsoft 365 serviços e aplicativos criam alertas quando detectam um evento ou atividade suspeito ou mal-intencionado. Alertas individuais fornecem dicas valiosas sobre um ataque concluído ou contínuo. No entanto, os ataques geralmente empregam várias técnicas contra diferentes tipos de entidades, como dispositivos, usuários e caixas de correio. O resultado são vários alertas para várias entidades em seu locatário. 
 
 Como reunir os alertas individuais para obter informações sobre um ataque pode ser desafiador e demorado, o Microsoft 365 Defender agrega automaticamente os alertas e suas informações associadas a um incidente.
 
-:::image type="content" source="../../media/incidents-overview/incidents.png" alt-text="Como o Microsoft 365 Defender correlaciona eventos de entidades em um incidente":::
+:::image type="content" source="../../media/incidents-overview/incidents.png" alt-text="Como Microsoft 365 Defender correlaciona eventos de entidades em um incidente":::
 
-Assista a esta breve visão geral dos incidentes no Microsoft 365 Defender (4 minutos).
+Assista a esta breve visão geral dos incidentes Microsoft 365 Defender (4 minutos).
 
 <br>
 
@@ -62,17 +62,17 @@ Agrupar alertas relacionados a um incidente oferece uma visão abrangente de um 
 - O escopo do ataque, como quantos dispositivos, usuários e caixas de correio foram afetados. 
 - Todos os dados associados ao ataque.
 
-Se [habilitado, o](m365d-enable.md)Microsoft 365 Defender pode investigar e resolver alertas automaticamente por meio da automação e da inteligência artificial. Você também pode executar etapas de correção adicionais para resolver o ataque. 
+Se [habilitado, o](m365d-enable.md)Microsoft 365 Defender poderá investigar e resolver automaticamente os alertas por meio da automação e da inteligência artificial. Você também pode executar etapas de correção adicionais para resolver o ataque. 
 
-## <a name="incidents-and-alerts-in-the-microsoft-365-security-center"></a>Incidentes e alertas no centro de segurança do Microsoft 365
+## <a name="incidents-and-alerts-in-the-microsoft-365-security-center"></a>Incidentes e alertas no centro Microsoft 365 segurança
 
-Você gerencia incidentes de **incidentes & alertas** > incidentes no início rápido do centro de segurança do Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)). Veja um exemplo.
+Você gerencia incidentes de **incidentes & alertas** > Incidentes no início rápido do centro de segurança do Microsoft 365 ([security.microsoft.com](https://security.microsoft.com)). Veja um exemplo.
 
-:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="A página Incidentes no centro de segurança do Microsoft 365":::
+:::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="A página Incidentes no centro Microsoft 365 segurança":::
 
 Selecionar um nome de incidente exibe um resumo do incidente e fornece acesso a guias com informações adicionais.
 
-:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Exemplo da página Resumo de um incidente no centro de segurança do Microsoft 365":::
+:::image type="content" source="../../media/incidents-overview/incidents-ss-incident-summary.png" alt-text="Exemplo da página Resumo de um incidente no centro Microsoft 365 segurança":::
 
 As guias adicionais para um incidente são:
 
@@ -100,15 +100,15 @@ As guias adicionais para um incidente são:
 
   Todos os eventos com suporte e entidades suspeitas nos alertas no incidente.
 
-Aqui está a relação entre um incidente e seus dados e as guias de um incidente no centro de segurança do Microsoft 365.
+Aqui está a relação entre um incidente e seus dados e as guias de um incidente no centro Microsoft 365 segurança.
 
-:::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="A relação de um incidente e seus dados com as guias de um incidente no centro de segurança do Microsoft 365":::
+:::image type="content" source="../../media/incidents-overview/incidents-security-center.png" alt-text="A relação de um incidente e seus dados com as guias de um incidente no Microsoft 365 de segurança":::
 
-## <a name="example-incident-response-workflow-for-microsoft-365-defender"></a>Exemplo de fluxo de trabalho de resposta a incidentes para o Microsoft 365 Defender
+## <a name="example-incident-response-workflow-for-microsoft-365-defender"></a>Exemplo de fluxo de trabalho de resposta a incidentes Microsoft 365 Defender
 
-Veja um exemplo de fluxo de trabalho para responder a incidentes no Microsoft 365 com o centro de segurança do Microsoft 365.
+Aqui está um exemplo de fluxo de trabalho para responder a incidentes em Microsoft 365 com o centro de Microsoft 365 de segurança.
 
-:::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="Exemplo de um fluxo de trabalho de resposta a incidentes para o Microsoft 365":::
+:::image type="content" source="../../media/incidents-overview/incidents-example-workflow.png" alt-text="Exemplo de um fluxo de trabalho de resposta a incidentes para Microsoft 365":::
 
 Em uma base contínua, identifique os incidentes de maior prioridade para análise e resolução na fila de incidentes e prepare-os para resposta. Esta é uma combinação de:
 
@@ -116,18 +116,18 @@ Em uma base contínua, identifique os incidentes de maior prioridade para análi
 - [Gerenciando](manage-incidents.md) incidentes modificando seu título, atribuindo-os a um analista e adicionando marcas e comentários.
 
 1. Para cada incidente, inicie uma análise [de ataque e alerta:](investigate-incidents.md)
-
+ 
    a. Exibir o resumo do incidente para entender seu escopo e gravidade e quais entidades são afetadas (a **guia Resumo).**
 
    b. Comece a analisar os alertas para entender sua origem, escopo e gravidade (a **guia Alertas).**
 
    c. Conforme necessário, reúna informações sobre dispositivos, usuários e caixas de correio afetados (as guias **Dispositivos,** **Usuários** e **Caixas** de Correio).
 
-   d. Veja como o Microsoft 365 Defender resolveu automaticamente alguns alertas (a guia **Investigações).**
+   d. Veja como Microsoft 365 o Defender resolveu automaticamente alguns alertas (a guia **Investigações).**
    
    e. Conforme necessário, use informações no conjunto de dados do incidente para obter mais informações (a **guia Evidências e Resposta).**
 
-2. Após ou durante sua análise, contenção de endereços para reduzir qualquer impacto adicional do ataque e da erradicação da ameaça de segurança.
+2. Após ou durante sua análise, execute a contenção para reduzir qualquer impacto adicional do ataque e da erradicação da ameaça de segurança.
 
 3. O máximo possível, recupere-se do ataque restaurando os recursos do locatário para o estado em que estavam antes do incidente.
 
@@ -138,7 +138,9 @@ Em uma base contínua, identifique os incidentes de maior prioridade para análi
    - Lembre-se do fluxo de trabalho usado para resolver o incidente e atualizar seus fluxos de trabalho, processos, políticas e playbooks padrão conforme necessário.
    - Determine se as alterações na configuração de segurança são necessárias e implementá-las.
 
-## <a name="example-security-operations-for-microsoft-365-defender"></a>Exemplo de operações de segurança para o Microsoft 365 Defender
+Se você for novo na [](incidents-overview.md) análise de segurança, consulte a introdução para responder ao seu primeiro incidente para obter informações adicionais e passar por um incidente de exemplo.
+
+## <a name="example-security-operations-for-microsoft-365-defender"></a>Exemplo de operações de segurança para Microsoft 365 Defender
 
 Veja um exemplo de operações de segurança para o Microsoft 365 Defender.
 

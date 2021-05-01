@@ -16,13 +16,13 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-scenario
 ms.custom: ''
-description: Implante os recursos de segurança e conformidade do Microsoft 365 e proteja suas informações pessoais.
-ms.openlocfilehash: 2d3a5baa063e6672760dda60ae6d76ea928ccd16
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+description: Implante Microsoft 365 segurança e conformidade e proteja suas informações pessoais.
+ms.openlocfilehash: 659a5295f8b2973c8efef7a7d77f49b2904accf6
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500983"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113433"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Proteger informações sujeitas à regulamentação de privacidade de dados
 
@@ -33,12 +33,12 @@ Esses controles estão nas seguintes áreas de solução:
 - Rótulos de confidencialidade
 - Prevenção de perda de dados (DLP)
 - Criptografia de Mensagem do Office (OME)
-- Controles de acesso de equipes e sites
+- Teams e controles de acesso a sites
 
 ![Principais serviços para proteger informações pessoais sujeitas à regulamentação de privacidade de dados](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-grid.png)
 
 >[!Note]
->Esta solução descreve recursos de segurança e conformidade para proteger informações sujeitas a regulamentos de privacidade de dados. Para ver uma lista completa de recursos de segurança no Microsoft 365, consulte [a documentação de segurança do Microsoft 365.](../security/index.yml) Para ver uma lista completa de recursos de conformidade no Microsoft 365, consulte a documentação [de conformidade do Microsoft 365.](../compliance/index.yml)
+>Esta solução descreve recursos de segurança e conformidade para proteger informações sujeitas a regulamentos de privacidade de dados. Para ver uma lista completa de recursos de segurança Microsoft 365, [consulte Microsoft 365 documentação de segurança.](../security/index.yml) Para ver uma lista completa de recursos de conformidade Microsoft 365, [consulte Microsoft 365 documentação de conformidade.](../compliance/index.yml)
 >
 
 ## <a name="data-privacy-regulations-that-impact-information-protection-controls"></a>Regulamentos de privacidade de dados que impactam controles de proteção de informações
@@ -59,27 +59,27 @@ Os regulamentos de privacidade de dados para proteção de informações recomen
 - Aplicação baseada em risco de mecanismos de proteção.
 - Uso da criptografia quando apropriado.
 
-Sua organização também pode querer proteger o conteúdo do Microsoft 365 para outros fins, como outras necessidades de conformidade ou por motivos comerciais. O estabelecimento do seu esquema de proteção de informações para privacidade de dados deve ser feito como parte do planejamento geral da proteção de informações, implementação e gerenciamento.
+Sua organização também pode querer proteger Microsoft 365 conteúdo para outras finalidades, como outras necessidades de conformidade ou por motivos comerciais. O estabelecimento do seu esquema de proteção de informações para privacidade de dados deve ser feito como parte do planejamento geral da proteção de informações, implementação e gerenciamento.
 
-Para ajudá-lo a começar com um esquema de proteção de informações no Microsoft 365, a seção a seguir inclui uma breve lista de recursos relacionados e ações de melhoria para o Microsoft 365. A lista inclui recursos e ações de aperfeiçoamento aplicáveis aos regulamentos de privacidade de dados. No entanto, a lista não inclui tecnologias mais antigas se houver um recurso mais novo que sobressalte amplamente o mais antigo. Por exemplo, o IRM (Gerenciamento de Direitos de Informação) para SharePoint e OneDrive não está incluído na lista, mas os rótulos de sensibilidade são incluídos.
+Para ajudá-lo a começar com um esquema de proteção de informações no Microsoft 365, a seção a seguir inclui uma breve lista de recursos relacionados e ações de melhoria para Microsoft 365. A lista inclui recursos e ações de aperfeiçoamento aplicáveis aos regulamentos de privacidade de dados. No entanto, a lista não inclui tecnologias mais antigas se houver um recurso mais novo que sobressalte amplamente o mais antigo. Por exemplo, o IRM (Gerenciamento de Direitos de Informação) para SharePoint e OneDrive não está incluído na lista, mas os rótulos de sensibilidade são incluídos.
 
-## <a name="managing-information-protection-in-microsoft-365"></a>Gerenciando a proteção de informações no Microsoft 365
+## <a name="managing-information-protection-in-microsoft-365"></a>Gerenciando a proteção de informações Microsoft 365
 
-As [soluções de proteção](../compliance/information-protection.md) de informações da Microsoft incluem vários recursos integrados no Microsoft 365, Microsoft Azure e Microsoft Windows. No Microsoft 365, as soluções de proteção de informações incluem:
+As [soluções de proteção](../compliance/information-protection.md) de informações da Microsoft incluem vários recursos integrados entre Microsoft 365, Microsoft Azure e Microsoft Windows. Em Microsoft 365, as soluções de proteção de informações incluem:
 
 - [Criptografia do serviço com a Chave de Cliente](../compliance/customer-key-overview.md)
 - [Tipos de informações confidenciais](../compliance/sensitive-information-type-entity-definitions.md) (descritos no artigo avaliar riscos de privacidade [de dados e identificar itens confidenciais](information-protection-deploy-assess.md))
 - [Rótulos de confidencialidade](../compliance/sensitivity-labels.md) 
   - Nível de serviço/contêiner
   - Lado do cliente/nível de conteúdo
-  - Automatizado para dados em repouso no SharePoint e no OneDrive
+  - Automatizado para dados em repouso em SharePoint e OneDrive
 - Prevenção de Perda de Dados (DLP)
-- [Prevenção contra perda de dados do Microsoft 365 Endpoint](../compliance/endpoint-dlp-learn-about.md)
-- Novos recursos de criptografia de mensagens [do Office 365 (OME)](../compliance/ome.md) e criptografia avançada [de mensagens](../compliance/ome-advanced-message-encryption.md) OME
+- [Microsoft 365 Prevenção contra perda de dados do ponto de extremidade](../compliance/endpoint-dlp-learn-about.md)
+- [Criptografia de Mensagens do Office 365 novos recursos (OME)](../compliance/ome.md) e Criptografia Avançada [de Mensagens](../compliance/ome-advanced-message-encryption.md) OME
 
 Além disso, a proteção de nível de site e biblioteca são mecanismos importantes para incluir em qualquer esquema de proteção.
 
-Para obter informações sobre outros recursos de proteção de informações fora do Microsoft 365, consulte:
+Para obter informações sobre outros recursos de proteção de informações fora Microsoft 365, consulte:
 
 - [Microsoft Cloud Application Security (MCAS)](/cloud-app-security/)
 - [Proteção de Informações do Azure](/azure/information-protection/what-is-information-protection)
@@ -91,7 +91,7 @@ Para obter informações sobre outros recursos de proteção de informações fo
 Os rótulos de sensibilidade da estrutura da Proteção de Informações da Microsoft permitem que você classifique e proteja os dados da sua organização sem prejudicar a produtividade dos usuários e sua capacidade de colaborar.
 
 > [!div class="mx-imgBorder"]
-> ![Rótulos de sensibilidade no Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-labels.png)
+> ![Rótulos de sensibilidade em Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-labels.png)
 
 ### <a name="prerequisites-for-sensitivity-labels"></a>Pré-requisitos para rótulos de sensibilidade
 
@@ -103,9 +103,9 @@ Conclua essas atividades antes de implementar qualquer um dos recursos baseados 
    - **Principais coisas a lembrar** Os rótulos de sensibilidade são gerenciados no Centro de administração de Conformidade da Microsoft, mas as opções de direcionamento e aplicativo variam significativamente.
       - Há rótulos de sensibilidade para sites, grupos e Teams no nível do contêiner (as configurações não se aplicam ao conteúdo dentro do contêiner). Eles são publicados para usuários e grupos que os aplicam quando um site, grupo ou Equipe é provisionado.
       - Há rótulos de sensibilidade para conteúdo ativo. Eles também são publicados para usuários ou grupos, que os aplicam manualmente ou são aplicados automaticamente quando:
-        - O arquivo é aberto/editado/salvo, na área de trabalho do usuário ou em um site do SharePoint.
+        - O arquivo é aberto/editado/salvo, na área de trabalho do usuário ou SharePoint site.
         - Um email é redigido e enviado.
-      - Há rótulos de sensibilidade para aplicativo automático para arquivos em repouso no SharePoint e no OneDrive, além de emails em trânsito pelo Exchange. Eles são direcionados para todos os sites ou específicos e se aplicam automaticamente aos arquivos em repouso nesses ambientes.
+      - Há rótulos de sensibilidade para aplicativo automático para arquivos em repouso no SharePoint e OneDrive além de emails em trânsito por Exchange. Eles são direcionados para todos os sites ou específicos e se aplicam automaticamente aos arquivos em repouso nesses ambientes.
 
 2. Racionalizar a rotulagem de sensibilidade atual com métodos anteriores ou alternativos
 
@@ -114,9 +114,9 @@ Conclua essas atividades antes de implementar qualquer um dos recursos baseados 
       O esquema de rotulagem de sensibilidade atual pode precisar ser reconciliado com qualquer implementação de rotulagem existente da Proteção de Informações do [Azure.](../compliance/sensitivity-labels.md#sensitivity-labels-and-azure-information-protection)
    - OME
 
-      Se você estiver planejando usar a rotulagem de sensibilidade moderna para proteção de email e métodos de criptografia de email existentes, como o OME, eles podem existir em co-existir, mas você deve entender os cenários nos quais ambos devem ser aplicados. Consulte [Office 365 Message Encryption new capabilities (OME)](#office-365-message-encryption-ome-new-capabilities), which includes a table comparing modern sensitivity label-type protection with OME-based protection.
+      Se você estiver planejando usar a rotulagem de sensibilidade moderna para proteção de email e métodos de criptografia de email existentes, como o OME, eles podem existir em co-existir, mas você deve entender os cenários nos quais ambos devem ser aplicados. Consulte [Criptografia de Mensagens do Office 365 novos recursos (OME),](#office-365-message-encryption-ome-new-capabilities)que inclui uma tabela comparando a proteção moderna do tipo de rótulo de sensibilidade com a proteção baseada em OME.
 
-3. Planeje a integração em um esquema mais amplo de proteção de informações. Além da coexistência com o OME, os rótulos de sensibilidade podem ser usados junto com recursos como a prevenção contra perda de dados (DLP) do Microsoft 365 e o Microsoft Cloud App Security. Consulte [Microsoft Information Protection in Microsoft 365](../compliance/information-protection.md) to achieve your data privacy-related information protection goals.
+3. Planeje a integração em um esquema mais amplo de proteção de informações. Além da coexistência com o OME, os rótulos de sensibilidade podem ser usados junto com recursos como Microsoft 365 prevenção contra perda de dados (DLP) e Microsoft Cloud App Security. Consulte [a Proteção de Informações da Microsoft Microsoft 365](../compliance/information-protection.md) para atingir suas metas de proteção de informações relacionadas à privacidade de dados.
 
 4. Desenvolva um esquema de classificação e controle de rótulo de sensibilidade. Consulte [Classificação de Dados e Taxonomia do Rótulo de](https://aka.ms/dataclassificationwhitepaper)Sensibilidade.
 
@@ -136,15 +136,15 @@ Conclua essas atividades antes de implementar qualquer um dos recursos baseados 
 
 ### <a name="create-and-deploy-sensitivity-labels-for-sites-groups-and-teams"></a>Criar e implantar rótulos de sensibilidade para sites, grupos e equipes
 
-Ao criar [rótulos de sensibilidade](../compliance/sensitivity-labels-teams-groups-sites.md) no centro de conformidade do Microsoft 365, agora você pode aplicá-los a esses contêineres:
+Ao criar [rótulos de sensibilidade](../compliance/sensitivity-labels-teams-groups-sites.md) no Microsoft 365 de conformidade, agora você pode aplicá-los a esses contêineres:
 
-- Sites do Microsoft Teams
-- Grupos do Microsoft 365 (anteriormente grupos do Office 365)
+- Microsoft Teams sites
+- Microsoft 365 grupos (anteriormente Office 365 grupos)
 - Sites do Microsoft Office SharePoint Online
 
 Use as configurações de rótulo a seguir para ajudar a proteger o conteúdo desses contêineres:
 
-- Privacidade (pública ou privada) dos sites do Teams conectados a grupos do Microsoft 365
+- Privacidade (pública ou privada) de Microsoft 365 sites conectados Teams grupos
 - Acesso de usuários externos
 - Acesso de dispositivos não gerenciados
 
@@ -152,7 +152,7 @@ Para privacidade de dados, para impedir o compartilhamento externo para contêin
 
 ### <a name="create-and-deploy-sensitivity-labels-for-content"></a>Criar e implantar rótulos de sensibilidade para conteúdo
 
-Os rótulos de sensibilidade aplicados a arquivos permitem que você criptografe seu conteúdo, a marca d'água o conteúdo e defina outros controles para conteúdo de aplicativos do Office, incluindo o Outlook e o Office na Web.
+Os rótulos de sensibilidade aplicados a arquivos permitem que você criptografe seu conteúdo, a marca d'água o conteúdo e defina outros controles para o conteúdo de aplicativos Office, incluindo Outlook e Office na Web.
 
 Quando você estiver pronto para começar a proteger os dados da sua organização com rótulos de sensibilidade:
 
@@ -160,9 +160,9 @@ Quando você estiver pronto para começar a proteger os dados da sua organizaç�
 2. **Defina o que cada rótulo pode fazer.** Defina as configurações de proteção desejadas associadas a cada rótulo. Por exemplo, você pode querer que o conteúdo de confidencialidade mais baixo (como um rótulo "Geral" tenha apenas um header ou rodapé aplicado, enquanto o conteúdo de confidencialidade mais alto (como um rótulo "Confidencial") deve ter uma marca d'água e ter criptografia habilitada.
 3. **Publique os rótulos.** Quando os rótulos de confidencialidade estiverem configurados, publique-os usando uma política de rótulo. Decida quais usuários e grupos devem ter os rótulos e quais configurações de política utilizar. Um único rótulo é reutilizável. Você o define uma vez e, em seguida, pode incluí-lo em várias políticas de rótulo atribuídas a usuários diferentes.
 
-Depois que você publica rótulos de sensibilidade do Centro de conformidade do Microsoft 365, eles começam a aparecer em aplicativos do [Office](../compliance/sensitivity-labels-office-apps.md) para que os usuários classifiquem e protejam o conteúdo à medida que ele é criado ou editado.
+Depois que você publica rótulos de Microsoft 365 de conformidade do Microsoft 365, eles começam [a](../compliance/sensitivity-labels-office-apps.md) aparecer em aplicativos Office para que os usuários classifiquem e protejam o conteúdo à medida que ele é criado ou editado.
 
-![Fluxo de implantação de rótulos de sensibilidade no Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-label-flow.png)
+![Fluxo de implantação do rótulo de sensibilidade Microsoft 365](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-label-flow.png)
 
 Para privacidade de dados, você aplica manualmente um rótulo de sensibilidade com criptografia e outras regras a emails ou conteúdo que contenha informações pessoais confidenciais.
 
@@ -181,25 +181,25 @@ A capacidade de aplicar rótulos de confidencialidade automaticamente ao conteú
 
 A rotulagem automática dá suporte à recomendação de um rótulo aos usuários, bem como à aplicação automática de um rótulo. Mas em ambos os casos, o usuário decide se aceita ou rejeita o rótulo, para ajudar a garantir a rotulagem correta do conteúdo.
 
-Essa rotulagem do lado do cliente possui um atraso mínimo para os documentos, pois o rótulo pode ser aplicado mesmo antes de o documento ser salvo. No entanto, nem todos os aplicativos cliente oferecem suporte à rotulagem automática. Esse recurso é suportado pelo cliente de rotulagem unificada da Proteção de Informações do Azure e algumas [versões de aplicativos do Office.](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)
+Essa rotulagem do lado do cliente possui um atraso mínimo para os documentos, pois o rótulo pode ser aplicado mesmo antes de o documento ser salvo. No entanto, nem todos os aplicativos cliente oferecem suporte à rotulagem automática. Esse recurso é suportado pelo cliente de rotulagem unificada da Proteção de Informações do Azure e algumas versões de Office [aplicativos](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
-Para obter instruções de configuração, [consulte Como configurar a rotulagem automática para aplicativos do Office.](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)
+Para obter instruções de configuração, [consulte How to configure auto-labeling for Office apps](../compliance/sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps).
 
 Para privacidade de dados, você aplica automaticamente rótulos de sensibilidade para conteúdo que contém informações pessoais confidenciais.
 
 ### <a name="service-side-auto-labeling-when-content-is-already-saved"></a>Rotulagem automática do lado do serviço quando o conteúdo já está salvo
 
-Esse método é chamado de classificação automática com rótulos de confidencialidade. Você também pode ouvi-lo chamado de rotulagem automática para dados em repouso (para documentos no SharePoint e no OneDrive) e dados em trânsito (para emails enviados ou recebidos pelo Exchange). Para o Exchange, ele não inclui emails em caixas de correio em repouso.
+Esse método é chamado de classificação automática com rótulos de confidencialidade. Você também pode ouvi-lo chamado de rotulagem automática para dados em repouso (para documentos em SharePoint e OneDrive) e dados em trânsito (para emails enviados ou recebidos por Exchange). Para Exchange, ele não inclui emails em caixas de correio em repouso.
  
 Como essa rotulagem é aplicada pelo serviço em si e não pelo aplicativo de usuário, você não precisa se preocupar com quais aplicativos os usuários têm e qual versão. Como resultado, esse recurso está imediatamente disponível em toda a organização e apropriado para rotular em escala. As políticas de rotulagem automática não oferecem suporte à rotulagem recomendada porque o usuário não interage com o processo de rotulagem. Em vez disso, o administrador executa as políticas no modo de simulação para ajudar a garantir a rotulagem correta do conteúdo antes de aplicar o rótulo.
 
-Para obter instruções de configuração, consulte Como configurar políticas de rotulagem automática [para SharePoint, OneDrive e Exchange](../compliance/apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange).
+Para obter instruções de configuração, consulte Como configurar políticas de rotulagem automática para [SharePoint, OneDrive e Exchange](../compliance/apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange).
 
 Para privacidade de dados em sites de preocupação, pressione rótulos de sensibilidade para criptografia automática de conteúdo contendo informações pessoais confidenciais.
 
-## <a name="data-loss-prevention"></a>Prevenção contra perda de dados 
+## <a name="data-loss-prevention"></a>Prevenção contra a perda de dados 
 
-Você pode usar a prevenção contra perda de dados [(DLP)](../compliance/data-loss-prevention-policies.md) no Microsoft 365 para detectar, avisar e bloquear compartilhamentos arriscados, inadvertentes ou inadequados, como o compartilhamento de dados contendo informações pessoais, internas e externamente.
+Você pode usar a prevenção contra perda de dados [(DLP)](../compliance/dlp-learn-about-dlp.md) no Microsoft 365 para detectar, avisar e bloquear compartilhamentos arriscados, inadvertentes ou inadequados, como o compartilhamento de dados contendo informações pessoais, interna e externamente.
 
 DLP permite que você:
 
@@ -212,9 +212,9 @@ DLP permite que você:
 
 Com uma política de DLP no centro de conformidade do Microsoft 365, você pode identificar, monitorar e proteger automaticamente itens confidenciais em vários locais do Microsoft 365, como Exchange Online, SharePoint, OneDrive e Microsoft Teams.
 
-Por exemplo, você pode identificar qualquer documento que contenha um número de cartão de crédito armazenado em qualquer site do OneDrive ou pode monitorar apenas os sites do OneDrive de pessoas específicas.
+Por exemplo, você pode identificar qualquer documento que contenha um número de cartão de crédito armazenado em qualquer site OneDrive, ou pode monitorar apenas os sites OneDrive de pessoas específicas.
 
-Você também pode monitorar e proteger itens confidenciais nas versões instaladas localmente do Excel, PowerPoint e Word, que incluem a capacidade de identificar itens confidenciais e aplicar políticas de DLP. A DLP fornece monitoramento contínuo quando as pessoas compartilham conteúdo desses aplicativos do Office.
+Você também pode monitorar e proteger itens confidenciais nas versões instaladas localmente do Excel, PowerPoint e Word, que incluem a capacidade de identificar itens confidenciais e aplicar políticas de DLP. A DLP fornece monitoramento contínuo quando as pessoas compartilham conteúdo desses Office aplicativos.
 
 > [!div class="mx-imgBorder"]
 > ![Cargas de trabalho com suporte para DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-supported-workloads.png)
@@ -248,7 +248,7 @@ Embora os rótulos de sensibilidade não possam ser usados em condições de pol
 
   - A DLP tem níveis de controle mais granulares em termos de regras, condições e ações.
 
-  - As políticas DLP podem ser aplicadas a mensagens de chat e canal do Teams. Os rótulos de sensibilidade só podem ser aplicados a documentos e emails.
+  - As políticas de DLP podem ser aplicadas Teams mensagens de chat e canal. Os rótulos de sensibilidade só podem ser aplicados a documentos e emails.
 
 
 ### <a name="dlp-policies"></a>Políticas DLP
@@ -300,21 +300,21 @@ Aqui estão alguns cenários de proteção de dados usando DLP e rótulos de sen
 |:-------|:-----|
 | A | <ol><li>Os rótulos de sensibilidade para conteúdo são publicados por um administrador para usuários e grupos para aplicativos manuais ou automáticos para conteúdo e email. </li><li>O Usuário A aplica os rótulos manualmente ou automaticamente ao interagir com o conteúdo, com criptografia ou outras configurações aplicadas. </li><li>O Usuário A envia um email ou arquivo protegido para o Usuário B, um usuário convidado. </li></ol> |
 | B | A política de DLP publicada por um administrador para Usuário A impede que o Usuário A envie o email e/ou o arquivo para o Usuário B. |
-| C |  O rótulo de sensibilidade com a configuração "proprietário não pode convidar convidados" é publicado no Usuário A, que provisiona uma equipe do Teams ou site do SharePoint. Outro usuário do site tenta seletivamente compartilhar um arquivo com o Usuário B, mas a DLP o bloqueia. |
+| C |  O rótulo de sensibilidade com a configuração "proprietário não pode convidar convidados" é publicado no Usuário A, que provisiona uma equipe Teams ou SharePoint site. Outro usuário do site tenta seletivamente compartilhar um arquivo com o Usuário B, mas a DLP o bloqueia. |
 | D | O rótulo de sensibilidade para o aplicativo automático para o conteúdo do site é publicado em um ou mais sites, fornecendo outra camada de proteção, resultando em um site protegido. |
 |||
 
-## <a name="office-365-message-encryption-ome-new-capabilities"></a>Novos recursos de Criptografia de Mensagens do Office 365 (OME)
+## <a name="office-365-message-encryption-ome-new-capabilities"></a>Criptografia de Mensagens do Office 365 novos recursos (OME)
 
 As pessoas geralmente usam email para trocar itens confidenciais, como informações de saúde do paciente ou informações de clientes e funcionários. A criptografia de mensagem de email ajuda a garantir que somente os destinatários pretendido possam exibir o conteúdo da mensagem.
 
 Com [o OME,](../compliance/ome.md)você pode enviar e receber mensagens criptografadas entre pessoas dentro e fora da sua organização. O OME funciona com Outlook.com, Yahoo!, Gmail e outros serviços de email. O OME ajuda a garantir que somente destinatários pretendido possam exibir o conteúdo da mensagem.
 
-Para privacidade de dados, você usa o OME para proteger mensagens internas que contêm itens confidenciais. A Criptografia de Mensagens do Office 365 é um serviço online criado com base no Microsoft Azure Rights Management (Azure RMS), que faz parte da Proteção de Informações do Azure. Isso inclui políticas de criptografia, identidade e autorização para ajudar a proteger seu email. Você pode criptografar mensagens usando modelos de gerenciamento de direitos, a opção Não Encaminhar e a opção somente criptografar.
+Para privacidade de dados, você usa o OME para proteger mensagens internas que contêm itens confidenciais. Criptografia de Mensagens do Office 365 é um serviço online criado Microsoft Azure Gerenciamento de Direitos (Azure RMS) que faz parte da Proteção de Informações do Azure. Isso inclui políticas de criptografia, identidade e autorização para ajudar a proteger seu email. Você pode criptografar mensagens usando modelos de gerenciamento de direitos, a opção Não Encaminhar e a opção somente criptografar.
 
 Você também pode definir regras de fluxo de emails para aplicar essa proteção. Por exemplo, você pode criar uma regra que exija a criptografia de todas as mensagens endereçadas a um destinatário específico ou que contenha palavras-chave específicas na linha de assunto e também especifique que os destinatários não podem copiar ou imprimir o conteúdo da mensagem.
 
-Além disso, a Criptografia [Avançada](../compliance/ome-advanced-message-encryption.md) de Mensagens OME ajuda você a cumprir obrigações de conformidade que exigem controles mais flexíveis sobre destinatários externos e seu acesso a emails criptografados. Com a Criptografia Avançada de Mensagens do OME no Microsoft 365, você pode controlar emails confidenciais compartilhados fora da organização com políticas automáticas que detectam tipos de informações confidenciais. 
+Além disso, a Criptografia [Avançada](../compliance/ome-advanced-message-encryption.md) de Mensagens OME ajuda você a cumprir obrigações de conformidade que exigem controles mais flexíveis sobre destinatários externos e seu acesso a emails criptografados. Com a Criptografia Avançada de Mensagens do OME Microsoft 365, você pode controlar emails confidenciais compartilhados fora da organização com políticas automáticas que detectam tipos de informações confidenciais. 
 
 Para privacidade de dados, se você precisar compartilhar emails com uma parte externa, poderá especificar uma data de expiração e revogar mensagens. Você só pode revogar e definir uma data de expiração para mensagens enviadas para destinatários externos.
 
@@ -328,12 +328,12 @@ Os rótulos de OME e de sensibilidade aplicados ao email com criptografia têm a
 | Partes externas <br> Comunicar e colaborar com segurança com qualquer usuário externo/consumidor | Sim – predefina destinatários no rótulo | Recomendação – proteção just-in-time com base em destinatários |
 | Internos + parceiros, com expiração/revogação <br> Controlar o acesso de email e conteúdo com usuários internos e parceiros confiáveis com expiração e revogação | Recomendação - proteção totalmente personalizada com duração de acesso, o usuário pode rastrear e revogar arquivos manualmente | Não – nenhuma revogação ou expiração para email interno |
 | Partes externas com expiração/revogação <br> Controlar o acesso de email e conteúdo com usuários externos/consumidores com expiração e revogação | Sim – o usuário pode rastrear arquivos manualmente | Recomendação (E5) – o administrador pode revogar emails do Centro de Conformidade & Segurança |
-| Rotulagem automática <br> A organização deseja proteger automaticamente emails/anexos com conteúdos confidenciais específicos e/ou destinatários específicos | Recomendação (E5) - Rotulagem automática em clientes do Exchange e do Outlook, aumenta as regras de fluxo de emails e a política de DLP | Sim - regras de fluxo de emails e política de DLP somente com Criptografia ou Não Encaminhar proteção |
+| Rotulagem automática <br> A organização deseja proteger automaticamente emails/anexos com conteúdos confidenciais específicos e/ou destinatários específicos | Recomendação (E5) - Rotulagem automática em clientes Exchange e Outlook, aumenta as regras de fluxo de emails e a política de DLP | Sim - regras de fluxo de emails e política de DLP somente com Criptografia ou Não Encaminhar proteção |
 ||||
 
 Também haverá diferenças nas experiências de administrador e usuário final entre esses dois métodos.
 
-## <a name="teams-with-protection-for-highly-sensitive-data"></a>Equipes com proteção para dados altamente confidenciais
+## <a name="teams-with-protection-for-highly-sensitive-data"></a>Teams proteção para dados altamente confidenciais
 
 Para organizações que planejam armazenar dados pessoais sujeitos a regulamentos de privacidade de dados no Teams, consulte [Configure a team](secure-teams-security-isolation.md)with security isolation , which provides detailed guidance and configuration steps for:
 

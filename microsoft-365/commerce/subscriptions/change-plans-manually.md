@@ -1,5 +1,5 @@
 ---
-title: Alterar o Microsoft 365 para planos de negócios manualmente
+title: Alterar Microsoft 365 para planos de negócios manualmente
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- commerce
-- Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ROBOTS: NOINDEX
 description: Altere as assinaturas manualmente comprando uma nova assinatura e garantindo que ambas as assinaturas sejam listadas e ativas.
-ms.openlocfilehash: d6b0c822f9d3ceeb6c50a6ec872682d1db5decb0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: 1dc7ff8cd6b8a43db7d70ab6c17aec16a020baac
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907899"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107675"
 ---
 # <a name="change-plans-manually"></a>Alterar planos manualmente
 
@@ -52,7 +52,7 @@ Para continuar com uma alteração manual, leia [Etapa 2: Comprar](#step-2-buy-a
 
 OU
 
-**Comprar uma nova assinatura e licenças:** Siga as etapas em Comprar outra assinatura do [Microsoft 365 para](../try-or-buy-microsoft-365.md) empresas para comprar uma nova assinatura.
+**Comprar uma nova assinatura e licenças:** Siga as etapas em [Comprar outra assinatura Microsoft 365 para empresas](../try-or-buy-microsoft-365.md) para comprar uma nova assinatura.
 
 Certifique-se de comprar uma assinatura para a mesma organização em que os usuários estão agora. Por exemplo, verifique os endereços de email dos usuários que você deseja mover. Se os endereços de email contoso.com, você \@ deve comprar uma nova assinatura para contoso.com.
 Inclua uma licença para cada usuário que você deseja mover.
@@ -63,7 +63,7 @@ Inclua uma licença para cada usuário que você deseja mover.
 
 2. **Verifique se ambas as assinaturas estão listadas e ativas** A assinatura de onde você está movendo os usuários e a assinatura para a que você está movendo os usuários devem estar listadas juntas. Se a nova assinatura não estiver lá quando você verificar pela primeira vez, tente novamente mais tarde. Verifique se ambas as assinaturas estão ativas. [A nova assinatura não está listada ou não está ativa](#the-new-subscription-isnt-listed-or-isnt-active).
 
-3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponde à assinatura. Portanto, se você quiser mover dez usuários para o Microsoft 365 Business Premium, você precisará garantir que dez licenças estão disponíveis.
+3. **Verifique se você tem licenças suficientes para cada usuário** Cada usuário precisa de uma licença que corresponde à assinatura. Portanto, se você quiser mover dez usuários para Microsoft 365 Business Premium, você precisará garantir que dez licenças estão disponíveis.
 
 4. **Precisa de mais licenças para a nova assinatura?**
    Vá até a **página Seus produtos** e compre mais [licenças.](../licenses/buy-licenses.md)
@@ -103,7 +103,7 @@ As licenças da assinatura atual serão removidas posteriormente; você só paga
 5. Alterne a alternância **para a posição On** para os produtos que você deseja atribuir a esses usuários.
 
     > [!TIP]
-    > - Para limitar quais serviços estão disponíveis para o usuário,  alterne para alternar para a posição Off para os serviços que você deseja remover para esse usuário. Por exemplo, se você quiser que o usuário tenha acesso a todos os serviços disponíveis, exceto o Skype for Business Online, você pode alternar a alternância para o serviço Skype for Business Online para a posição **Off.**
+    > - Para limitar quais serviços estão disponíveis para o usuário,  alterne para alternar para a posição Off para os serviços que você deseja remover para esse usuário. Por exemplo, se você quiser que o usuário tenha acesso a todos os serviços disponíveis, exceto Skype for Business Online, você pode alternar a alternância para o serviço Skype for Business Online para a posição **Off.**
     > - Atribuições de licença para os usuários selecionados que tenham sido feitas anteriormente serão removidas.
 
 6. Na parte inferior do painel **Substituir produtos existentes**, selecione **Substituir** \> **Fechar**.

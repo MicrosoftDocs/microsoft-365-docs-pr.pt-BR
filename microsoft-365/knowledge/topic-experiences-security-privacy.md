@@ -10,18 +10,18 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Saiba como planejar a segurança e a privacidade dos Tópicos do Microsoft Viva
-ms.openlocfilehash: 91d0d5c25502a1938976b9457f8a5dafc6ab957b
-ms.sourcegitcommit: 3d3c446d5e2e90369be1339dd0a33e71432fbc36
+ms.openlocfilehash: 587b6a2921e7d1a3cc8d4ab663ff199fdd36871d
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50994541"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114057"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Segurança e privacidade dos Tópicos do Microsoft Viva
 
-Os tópicos usam recursos de segurança de conteúdo existentes no Microsoft 365, juntamente com controles administrativos, para controlar qual conteúdo gerado por IA é mostrado aos usuários em sua organização. É a combinação de configurações de segurança do Microsoft 365 (permissões para sites, arquivos e pastas) e configurações de administrador de Tópicos que determinam o que um determinado usuário pode ver nos tópicos.
+Os tópicos usam recursos de segurança de conteúdo existentes no Microsoft 365, juntamente com controles administrativos, para controlar o conteúdo gerado pela IA aos usuários em sua organização. É a combinação de Microsoft 365 de segurança (permissões para sites, arquivos e pastas) e configurações de administrador de Tópicos que determinam o que um determinado usuário pode ver nos tópicos.
 
-Configurar Tópicos não modifica controles de acesso existentes em conteúdo em sua organização. Os usuários só verão ao que já têm acesso.
+Configurar Tópicos não modifica nenhum controle de acesso existente sobre o conteúdo da sua organização. Os usuários verão apenas o conteúdo ao qual têm acesso.
 
 Este artigo descreve como os Tópicos funcionam de uma perspectiva de segurança e as opções que os administradores de conhecimento e gerentes de conhecimento têm para controlar a visibilidade do tópico. Leia este artigo como parte do [seu planejamento para Tópicos.](plan-topic-experiences.md)
 
@@ -52,23 +52,23 @@ A tabela a seguir descreve o que os usuários - visualizadores de tópicos, cola
 |Item de tópico|O que os usuários podem ver|
 |:---------|:------------------|
 |Nome do tópico|Os usuários podem ver o nome do tópico de tópicos no centro de tópicos. Alguns tópicos podem não estar visíveis se os usuários não têm permissões para o conteúdo de origem ou têm baixa relevância para o usuário.|
-|Descrição do tópico|As descrições geradas por IA ficam visíveis apenas para usuários que têm permissões para o conteúdo de origem. As descrições inseridas ou editadas manualmente ficam visíveis para todos os usuários.|
-|Pessoas|As pessoas fixadas ficam visíveis para todos os usuários. As pessoas sugeridas só ficam visíveis para usuários que têm permissões para o conteúdo de origem.|
+|Descrição do tópico|As descrições geradas por AI são visíveis apenas para os usuários que têm permissões para o conteúdo de origem. As descrições inseridas ou editadas manualmente ficam visíveis para todos os usuários.|
+|Pessoas|As pessoas fixadas ficam visíveis para todos os usuários. As pessoas sugeridas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Arquivos|Os arquivos só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Páginas|As páginas só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 |Sites|Os sites só ficam visíveis para os usuários que têm permissões para o conteúdo de origem.|
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
-Os tópicos apresentam informações aos usuários com base em suas permissões existentes para o conteúdo. O Microsoft 365 fornece várias maneiras de garantir que o conteúdo confidenciais seja restrito aos usuários apropriados. Além das permissões padrão de equipe [](../compliance/sensitivity-labels.md) ou site, você pode usar rótulos de sensibilidade ou prevenção contra perda de dados para restringir o acesso ao conteúdo e acessar análises para revisar periodicamente o acesso do usuário a informações confidenciais. [](../compliance/data-loss-prevention-policies.md) [](/azure/active-directory/governance/access-reviews-overview)
+Os tópicos apresentam informações aos usuários com base em suas permissões existentes para o conteúdo. Microsoft 365 fornece várias maneiras de garantir que o conteúdo confidenciais seja restrito aos usuários apropriados. Além das permissões padrão de equipe [](../compliance/sensitivity-labels.md) ou site, você pode usar rótulos de sensibilidade ou prevenção contra perda de dados para restringir o acesso ao conteúdo e acessar análises para revisar periodicamente o acesso do usuário a informações confidenciais. [](../compliance/dlp-learn-about-dlp.md) [](/azure/active-directory/governance/access-reviews-overview)
 
-Recomendamos que você use essas ferramentas para garantir que suas permissões de conteúdo sejam definidas adequadamente dentro da sua organização. As experiências de tópicos podem fornecer informações úteis e apropriadas aos usuários.
+Recomendamos que você use essas ferramentas para garantir que suas permissões de conteúdo sejam definidas adequadamente dentro da sua organização. As experiências de tópico podem, então, fornecer informações úteis e apropriadas aos seus usuários.
 
 Se houver tópicos que você deseja excluir inteiramente das experiências de tópicos, você também pode:
 
-- [Excluir sites confidenciais do SharePoint da descoberta de tópicos.](topic-experiences-discovery.md#select-sharepoint-topic-sources) O conteúdo nesses sites não aparecerá em experiências de tópicos.
+- [Excluir sites SharePoint confidenciais da descoberta de tópicos.](topic-experiences-discovery.md#select-sharepoint-topic-sources) O conteúdo desses sites não aparecerá nas experiências de tópico.
 
-- [Excluir tópicos pelo nome](topic-experiences-discovery.md#exclude-topics-by-name). Os tópicos explicitamente excluídos não serão exibidos em experiências de tópicos.
+- [Excluir tópicos pelo nome](topic-experiences-discovery.md#exclude-topics-by-name). Os tópicos explicitamente excluídos não aparecerão nas experiências de tópicos.
 
 - Fazer com que os gerentes de conhecimento removam os tópicos na central de tópicos.
 
@@ -76,9 +76,9 @@ Além disso, recomendamos estas práticas recomendadas:
 
 - Recrutar gerentes de conhecimento de diferentes áreas da sua organização. Ter gerentes de conhecimento com uma variedade de experiência - e acesso ao conteúdo subjacente usado pela AI - pode ajudá-lo a recuperar o conhecimento mais útil para seus usuários e remover informações confidenciais se encontrado.
 
-- Configurar um fluxo de trabalho para solicitar alterações. Gerentes de conhecimento ou proprietários de equipe ou site devem ter um processo pelo qual eles podem solicitar a exclusão de tópicos ou sites à medida que novos projetos são iniciados em sua organização ou se eles encontram conteúdo com configurações de permissões inadequadas.
+- Configure um fluxo de trabalho para solicitar alterações. Gerentes de conhecimento ou proprietários de equipe ou site devem ter um processo pelo qual eles podem solicitar a exclusão de tópicos ou sites à medida que novos projetos são iniciados em sua organização ou se eles encontram conteúdo com configurações de permissões inadequadas.
 
-- Esteja ciente da audiência e da sensibilidade das informações ao criar descrições de tópicos. Essas descrições podem estar visíveis para os usuários que não têm permissões para o conteúdo de origem do tópico.
+- Esteja ciente do público e da confidencialidade das informações ao criar descrições de tópicos. Essas descrições podem ser visíveis para usuários que não têm permissão para acessar o conteúdo de origem do tópico.
 
 Embora você possa alterar as permissões em páginas de tópicos individuais para restringir o acesso a um grupo específico de usuários, não recomendamos essa abordagem devido ao alto grau de esforço administrativo necessário.
 

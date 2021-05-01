@@ -17,18 +17,18 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Neste artigo, você aprenderá sobre as práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados.
-ms.openlocfilehash: acc825a8fc445d224fbc91dd12dace2a5e1b25c8
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 1e696611d37cd1b57f881457025464dccea54496
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51199520"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114313"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Práticas recomendadas para compartilhar arquivos e pastas com usuários não autenticados
 
 O compartilhamento não autenticado (links de *Qualquer pessoa*) pode ser conveniente e útil em vários cenários. *Qualquer pessoa* a maneira mais fácil de compartilhar é usando links: as pessoas podem abrir o link sem autenticação e podem repassar para outras pessoas.
 
-Geralmente nem todo conteúdo de uma organização é apropriado para o compartilhamento não autenticado. Este artigo aborda as opções disponíveis para ajudá-lo a criar um ambiente no qual os usuários podem compartilhar arquivos e pastas não autenticados, mas com proteções para ajudar a proteger o conteúdo da sua organização.
+Normalmente, nem todo o conteúdo de uma organização é apropriado para compartilhamentos não autenticados. Este artigo aborda as opções disponíveis para ajudá-lo a criar um ambiente em que os usuários podem usar compartilhamentos não autenticados de arquivos e pastas, mas há medidas de segurança no local para ajudar a proteger o conteúdo da sua organização.
 
 > [!NOTE]
 > Para que o compartilhamento não autenticado funcione, habilite-o para a sua organização e para a equipe ou site individual que irão usá-lo. Confira [Colaborar com pessoas de fora da sua organização](collaborate-with-people-outside-your-organization.md) para ver o cenário que você deseja habilitar.
@@ -103,7 +103,7 @@ Para definir o link padrão de compartilhamento de arquivos e pastas para um sit
 
 ## <a name="prevent-unauthenticated-sharing-of-sensitive-content"></a>Impedir o compartilhamento não autenticado de conteúdo confidencial
 
-Você pode usar a [prevenção contra perda de dados (DLP)](../compliance/data-loss-prevention-policies.md) para impedir o compartilhamento não autenticado de conteúdo confidencial. A prevenção contra perda de dados pode agir com base no rótulo de confidencialidade de um arquivo, rótulo de retenção ou informações confidenciais no próprio arquivo.
+Você pode usar a [prevenção contra perda de dados (DLP)](../compliance/dlp-learn-about-dlp.md) para impedir o compartilhamento não autenticado de conteúdo confidencial. A prevenção contra perda de dados pode agir com base no rótulo de confidencialidade de um arquivo, rótulo de retenção ou informações confidenciais no próprio arquivo.
 
 Para criar uma regra DLP
 1. No centro de administração de conformidade do Microsoft 365, vá até a [página de prevenção contra perda de dados](https://compliance.microsoft.com/datalossprevention).

@@ -12,18 +12,21 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- commerce
-- Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 description: Saiba como gerenciar assinaturas de inscrição gratuitas de autoatendir para sua organização.
-ms.openlocfilehash: 5910ed5d65f93a4dab15c681610d4d59d0427fb0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.date: 03/17/2021
+ms.openlocfilehash: 64648151d7761bd8bb0d2301d59fb093de98b127
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920163"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107611"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Gerenciar assinaturas de inscrição de autoatend
 
@@ -57,4 +60,4 @@ Você usa o cmdlet [**Set-MsolCompanySettings**](/powershell/module/msonline/set
 
 ## <a name="i-have-a-self-service-sign-up-subscription-that-blocks-directory-deletion"></a>Tenho uma assinatura de inscrição de autoatendados que bloqueia a exclusão de diretórios
 
-Os produtos de assinatura de autoatendados que os usuários individuais podem inscrever também criam um usuário convidado para autenticação no diretório do Azure AD. Para evitar a perda de dados, esses produtos autoatendados bloqueiam exclusões de diretório até que eles são totalmente excluídos do diretório. Eles só podem ser excluídos pelo administrador do Azure AD. Para obter mais informações, consulte [Excluir um diretório no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-delete-howto).
+Os produtos de assinatura de autoatendados que os usuários individuais podem inscrever também criam um usuário convidado para autenticação no diretório do Azure AD. Para evitar a perda de dados, esses produtos autoatendados bloqueiam exclusões de diretório até que eles são totalmente excluídos do diretório. Eles só podem ser excluídos pelo administrador do Azure AD. Para obter mais informações, [consulte Delete a directory in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-delete-howto).

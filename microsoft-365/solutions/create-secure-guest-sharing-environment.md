@@ -17,12 +17,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Saiba mais sobre as opções disponíveis para criar um ambiente seguro de compartilhamento para convidados no Microsoft 365, fornecendo acesso de convidado para uma colaboração aperfeiçoada.
-ms.openlocfilehash: 0eb999d48bc0976d7c2bb32ff1bdba8d63409d81
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a04ee4a96b5e9124ca94a4ece16c32ccc6b072d1
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918461"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114301"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Criar um ambiente de compartilhamento de convidados seguro
 
@@ -72,7 +72,7 @@ Agora, o convidado será solicitado a se inscrever na autenticação multifator 
 
 Em algumas situações, os convidados podem não ter assinado acordos de não divulgação ou outros acordos legais com sua organização. Você pode exigir que os convidados concordem com os termos de uso antes de acessar os arquivos que são compartilhados com eles. Os termos de uso podem ser exibidos na primeira vez que tentam acessar um site ou arquivo compartilhado.
 
-Para criar os termos de uso, primeiro é necessário criar um documento no Word ou em outro programa de criação e, em seguida, salvá-lo como um arquivo .pdf. Esse arquivo pode ser carregado no Azure AD.
+Para criar os termos de uso, primeiro é necessário criar um documento no Word ou em outro programa de criação e, em seguida, salvá-lo como um arquivo .pdf. Em seguida, esse arquivo pode ser carregado para o Azure AD.
 
 Para criar os termos de uso do Azure AD
 
@@ -256,7 +256,7 @@ Com a política em vigor, quando um usuário digita "Projeto Saturno" em um docu
 
 ## <a name="create-a-dlp-policy-to-remove-guest-access-to-highly-sensitive-files"></a>Crie uma política DLP para remover o acesso de convidados a arquivos altamente confidenciais
 
-Você pode usar a [prevenção contra perda de dados (DLP)](../compliance/data-loss-prevention-policies.md) para evitar o compartilhamento indesejado de conteúdo confidencial por convidados. A prevenção contra perda de dados pode agir com base no rótulo de confidencialidade de um arquivo e remover o acesso de convidado.
+Você pode usar a [prevenção contra perda de dados (DLP)](../compliance/dlp-learn-about-dlp.md) para evitar o compartilhamento indesejado de conteúdo confidencial por convidados. A prevenção contra perda de dados pode agir com base no rótulo de confidencialidade de um arquivo e remover o acesso de convidado.
 
 Para criar uma regra DLP
 

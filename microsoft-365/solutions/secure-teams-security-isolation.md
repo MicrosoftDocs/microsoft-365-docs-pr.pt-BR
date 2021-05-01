@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Saiba como criar uma equipe com um rótulo de confidencialidade exclusivo para segurança.
-ms.openlocfilehash: 7c9b770c712d2468369482ba3a6256e57f621f74
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 4d305e952d48d42afffe91466121c67621aa9d85
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51042681"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113397"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Configurar uma equipe com isolamento de segurança
 
@@ -60,8 +60,8 @@ Veja como a Contoso Corporation usou uma equipe isolada para um projeto ultrasse
 ## <a name="initial-protections"></a>Proteções iniciais
 
 Para ajudar a proteger o acesso à equipe e ao site subjacente do Microsoft Office SharePoint Online, revise as seguintes práticas recomendadas:
-- [Políticas de acesso de dispositivos e identidades](../security/defender-365-security/identity-access-policies.md)
-- [Políticas de acesso do SharePoint Online](../security/defender-365-security/sharepoint-file-access-policies.md)
+- [Políticas de acesso de dispositivos e identidades](../security/office-365-security/identity-access-policies.md)
+- [Políticas de acesso do SharePoint Online](../security/office-365-security/sharepoint-file-access-policies.md)
 - [Implantar equipes com proteção de linha de base](configure-teams-baseline-protection.md)
 
 ## <a name="guest-sharing"></a>Compartilhamento de convidados
@@ -111,7 +111,7 @@ Para criar um rótulo de confidencialidade
 1. Abra o [Centro de conformidade do Microsoft 365](https://compliance.microsoft.com).
 2. Em **Soluções**, clique em **Proteção de informações**.
 3. Clique em **Criar um rótulo**.
-4. Dê um nome ao rótulo. Sugerimos nomeá-lo após a equipe com a quem você vai usá-lo.
+4. Dê um nome para o rótulo. Sugerimos nomeá-lo após a equipe com quem você vai usá-lo.
 5. Adicione um nome de exibição e uma descrição e clique em **Avançar**.
 6. Na página **Definir o escopo para este rótulo**, selecione **Arquivos e emails** e **Grupos e sites** e clique em **Avançar**.
 7. Na página **Escolher configurações de proteção para arquivos e emails**, selecione **Criptografar arquivos e emails** e clique em **Avançar**.
@@ -231,7 +231,7 @@ O Microsoft 365 oferece métodos adicionais para proteger seu conteúdo. Conside
 
 - Fazer com que seus usuários convidados concordem com os [termos de uso](/azure/active-directory/conditional-access/terms-of-use).
 - Configurar uma [política de tempo limite de sessão](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime) para convidados.
-- Criar [tipos de informações confidenciais](../compliance/sensitive-information-type-learn-about.md) e usar a [proteção contra perda de dados](../compliance/data-loss-prevention-policies.md) para definir políticas de acesso a informações confidenciais.
+- Criar [tipos de informações confidenciais](../compliance/sensitive-information-type-learn-about.md) e usar a [proteção contra perda de dados](../compliance/dlp-learn-about-dlp.md) para definir políticas de acesso a informações confidenciais.
 - Usar as revisões de acesso do [Azure Active Directory](/azure/active-directory/governance/access-reviews-overview) para revisar periodicamente o acesso à equipe e a associação.
 
 ## <a name="drive-user-adoption-for-team-members"></a>Impulsionar a adoção do usuário para membros da equipe

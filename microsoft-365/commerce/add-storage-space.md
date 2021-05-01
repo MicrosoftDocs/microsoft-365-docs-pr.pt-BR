@@ -12,40 +12,41 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - SPO_Content
 ms.custom:
 - MAX_CampaignID
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
+- commerce_purchase
+- PPM_jmueller
+ms.reviewer: drjones
 search.appverid:
 - MET150
-description: Aprenda a adicionar e reduzir o armazenamento de arquivos em sua assinatura do Microsoft 365. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e no OneDrive.
-ms.date: ''
-ms.openlocfilehash: d65677b9c078026343410b53acd48932258cb4b1
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Aprenda a adicionar e reduzir o armazenamento de arquivos em sua assinatura Microsoft 365 de arquivo. Com o armazenamento de arquivos extra, você pode armazenar mais conteúdo no SharePoint Online e OneDrive.
+ms.date: 04/02/2021
+ms.openlocfilehash: 576efee4ba0e1ad8fb43b3d8475d6c3a949ee1e8
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576956"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107383"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Adicionar espaço de armazenamento para sua assinatura
 
-Se você começar a ficar sem armazenamento para seus conjuntos de sites do SharePoint Online, será possível adicionar armazenamento à sua assinatura, se seu plano estiver qualificado. Se você não vir o Armazenamento de Arquivos Extras do **Office 365** na lista de complementos disponíveis, isso significa que seu plano não está qualificado. Para obter mais informações, consulte [Meu plano é qualificado?](#is-my-plan-eligible-for-office-365-extra-file-storage)
+Se você começar a ficar sem armazenamento para seus conjuntos de sites do SharePoint Online, será possível adicionar armazenamento à sua assinatura, se seu plano estiver qualificado. Se você não vir o **Office 365 com Espaço de Armazenamento Adicional** na lista de complementos disponíveis, isso significa que seu plano não está qualificado. Para obter mais informações, consulte [Meu plano é qualificado?](#is-my-plan-eligible-for-office-365-extra-file-storage)
 
 > [!NOTE]
-> Se você comprou sua assinatura por meio de Licenciamento por Volume ou CSP, não poderá comprar o Armazenamento de Arquivos Extras do **Office 365** para sua organização diretamente da Microsoft. Entre em contato com seu representante ou parceiro para pedir ajuda.
+> Se você comprou sua assinatura por meio de Licenciamento por Volume ou CSP, não poderá comprar Office 365 com Espaço de Armazenamento Adicional **sua** organização diretamente da Microsoft. Entre em contato com seu representante ou parceiro para pedir ajuda.
 
 ## <a name="before-you-begin"></a>Antes de começar
 
-Você deve ser um administrador global ou do SharePoint para realizar as tarefas neste artigo. Para obter mais informações, confira [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
+Você deve ser um administrador global ou SharePoint para realizar as tarefas neste artigo. Para obter mais informações, confira o artigo [Sobre funções de administrador](../admin/add-users/about-admin-roles.md).
 
 ## <a name="view-available-storage"></a>Exibir armazenamento disponível
 
-1. No Centro de administração do SharePoint, vá para a página <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">Sites</a> ativos e entre com uma conta que tenha permissões de administrador [para](/sharepoint/sharepoint-admin-role) sua organização.
+1. No centro SharePoint de administração, vá para a página <a href="https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true" target="_blank">Sites</a> ativos e entre com uma conta que tenha permissões de administrador [para](/sharepoint/sharepoint-admin-role) sua organização.
 
-2. No canto superior direito da página, veja a quantidade de armazenamento usada em todos os sites e o armazenamento total para sua assinatura. Se sua organização configurou o Multi-Geo no Office 365, a barra também mostra a quantidade de armazenamento usada em todas as localizações geográficas.
+2. No canto superior direito da página, veja a quantidade de armazenamento usada em todos os sites e o armazenamento total para sua assinatura. Se sua organização configurou o Multi-Geo em Office 365, a barra também mostra a quantidade de armazenamento usada em todos os locais geo.
 
    ![Barra de armazenamento na página de sites ativos](/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
 
@@ -61,7 +62,7 @@ Para obter informações sobre como definir limites de armazenamento do conjunto
 Se você ainda não comprou armazenamento extra para sua assinatura, você pode fazer isso.
 
 1. No centro de administração, vá para a página **Serviços de** Compra \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">de</a> Cobrança.
-2. Na parte inferior da página **Serviços de** Compra, na seção **Complementos,** encontre o **Office 365 Extra File Storage** e selecione **Detalhes**.
+2. Na parte inferior da página **Serviços de** Compra, na seção **Complementos,** encontre Office 365 com Espaço de Armazenamento Adicional **e** selecione **Detalhes**.
 3. Na página detalhes do produto, selecione **Próximo**.
 4. Se necessário, escolha a assinatura base e insira o número de gigabytes de armazenamento que você deseja adicionar.
 5. Selecione **Check-out agora**.
@@ -70,12 +71,12 @@ Se você ainda não comprou armazenamento extra para sua assinatura, você pode 
 
 ## <a name="increase-or-decrease-storage"></a>Aumentar ou diminuir armazenamento
 
-Se você já comprou armazenamento de arquivo extra por meio do complemento Armazenamento de Arquivos Extras do **Office 365,** você pode usar essas etapas para aumentar ou diminuir o espaço de armazenamento extra para sua assinatura. Você pode reduzir o armazenamento para até 1 gigabyte. Para remover todo o espaço de armazenamento extra, contate [o suporte](../admin/contact-support-for-business-products.md).
+Se você já comprou armazenamento de arquivo extra por meio do complemento **Office 365 com Espaço de Armazenamento Adicional,** você pode usar essas etapas para aumentar ou diminuir o espaço de armazenamento extra para sua assinatura. Você pode reduzir o armazenamento para até 1 gigabyte. Para remover todo o espaço de armazenamento extra, contate [o suporte](../admin/contact-support-for-business-products.md).
 
 1. No centro de administração, vá para a página **Cobrança** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Seus produtos</a>.
-2. Na guia **Produtos,** selecione a assinatura que contém o complemento armazenamento de arquivos extras do **Office 365.**
+2. Na guia **Produtos,** selecione a assinatura que contém o **Office 365 com Espaço de Armazenamento Adicional** complemento.
 3. Na página detalhes do produto, na seção **Complementos,** selecione **Gerenciar complementos**.
-4. No painel **Gerenciar complementos,** na  lista Complementos, escolha **Office 365 Extra File Storage**.
+4. No painel **Gerenciar complementos,** na lista **Complementos,** escolha **Office 365 com Espaço de Armazenamento Adicional**.
 5. Na caixa **de texto Quantidade,** digite o número de GBs de espaço de armazenamento que você deseja para a assinatura.
 6. Selecione **Salvar**.
 
@@ -88,8 +89,8 @@ O Office 365 com Espaço de Armazenamento Adicional está disponível para as se
 - Office 365 Enterprise E3
 - Office 365 Enterprise E4
 - Office 365 Enterprise E5
-- Office para a Web com o Plano 1 do SharePoint
-- Office para a Web com o Plano 2 do SharePoint
+- Office para a Web com SharePoint Plano 1
+- Office para a Web com SharePoint Plano 2
 - SharePoint Online Plano 1
 - SharePoint Online Plano 2
 - Microsoft 365 Business Basic
@@ -100,9 +101,9 @@ O Office 365 com Espaço de Armazenamento Adicional está disponível para as se
 - Microsoft 365 F1
 
 > [!NOTE]
-> O Office 365 Extra File Storage também está disponível para planos GCC, GCC High e DOD.
+> Office 365 com Espaço de Armazenamento Adicional também está disponível para planos GCC, GCC High e DOD.
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
 [Gerenciar limites de armazenamento de site](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) (artigo)\
-[Definir o espaço de armazenamento padrão para usuários do OneDrive](/onedrive/set-default-storage-space)(artigo)
+[Definir o espaço de armazenamento padrão para OneDrive usuários](/onedrive/set-default-storage-space)(artigo)

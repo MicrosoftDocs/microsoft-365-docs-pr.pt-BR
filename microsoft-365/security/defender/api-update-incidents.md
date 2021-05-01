@@ -1,6 +1,6 @@
 ---
 title: Atualizar a API de incidentes
-description: Saiba como atualizar incidentes usando a API do Microsoft 365 Defender
+description: Saiba como atualizar incidentes usando Microsoft 365 API do Defender
 keywords: update, api, incident
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 549f9bf2b9dc2ea5d1c734a809ad10a168c8123e
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: d6872a7a4b1b2d2c131066076af02a65b4ef6d8a
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052547"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107599"
 ---
 # <a name="update-incidents-api"></a>Atualizar a API de incidentes
 
@@ -56,7 +56,7 @@ Uma das seguintes permissões é necessária para chamar essa API. Para saber ma
 Tipo de permissão | Permissão | Nome de exibição de permissão
 -|-|-
 Aplicativo | Incident.ReadWrite.All | Ler e gravar todos os incidentes
-Delegada (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
+Delegado (conta corporativa ou de estudante) | Incident.ReadWrite | Incidentes de leitura e gravação
 
 > [!NOTE]
 > Ao obter um token usando credenciais de usuário, o usuário precisa ter permissão para atualizar o incidente no portal.
@@ -71,7 +71,7 @@ PATCH /api/incidents/{id}
 
 Nome | Tipo | Descrição
 -|-|-
-Autorização | Cadeia de caracteres | Portador {token}. **Obrigatório**.
+Autorização | String | Portador {token}. **Obrigatório**.
 Content-Type | Cadeia de Caracteres | application/json. **Obrigatório**.
 
 ## <a name="request-body"></a>Corpo da solicitação
@@ -80,10 +80,10 @@ No corpo da solicitação, fornece os valores para os campos que devem ser atual
 
 Propriedade | Tipo | Descrição
 -|-|-
-status | Enum | Especifica o status atual do alerta. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
+status | Enum | Especifica o status atual do incidente. Os valores possíveis são: ```Active``` ```Resolved``` , e ```Redirected``` .
 assignedTo | cadeia de caracteres | Proprietário do incidente.
-classificação | Enum | Especificação do alerta. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
-determinação | Enum | Especifica a determinação do alerta. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
+classificação | Enum | Especificação do incidente. Os valores possíveis são: ```Unknown```, ```FalsePositive```, ```TruePositive```.
+determinação | Enum | Especifica a determinação do incidente. Os valores possíveis são: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
 tags | string List | Lista de marcas de incidente.
 
 ## <a name="response"></a>Resposta
@@ -114,7 +114,7 @@ Veja um exemplo da solicitação.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Acessar as APIs do Microsoft 365 Defender](api-access.md)
+- [Acessar as APIs Microsoft 365 Defender](api-access.md)
 - [Saiba mais sobre limites de API e licenciamento](api-terms.md)
 - [Compreender códigos de erro](api-error-codes.md)
 - [APIs de Incidente](api-incident.md)

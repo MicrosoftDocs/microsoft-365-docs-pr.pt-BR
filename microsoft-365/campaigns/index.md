@@ -24,13 +24,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Orientação do Microsoft 365 para empresas menores, incluindo empresas menores, práticas e campanhas políticas.
-ms.openlocfilehash: 0f7b441a4280ba9eaaf5f1f673d1ccf43a0a5350
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+description: Recomendações de segurança e de colaboração do Microsoft 365 para pequenas empresas, incluindo pequenas firmas, práticas e campanhas políticas.
+ms.openlocfilehash: 621ebe483683f68ccb9332f9c8b2802bd9b98867
+ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044698"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52100778"
 ---
 <a name="microsoft-365-for-smaller-businesses-and-campaigns"></a>Microsoft 365 para empresas menores e campanhas
 ===========================

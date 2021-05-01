@@ -21,19 +21,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
-description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua conta do Microsoft 365 para empresas. '
-ms.openlocfilehash: 4003dcfca29a722ccdf9b86cca5aa1141fbdb367
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+description: 'Saiba como você pode ter mais de um endereço de email, chamado alias de email, associado à sua Microsoft 365 para empresas. '
+ms.openlocfilehash: 00e1c55edfcfa9937ab6a18b4bf268adb858b775
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51892800"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107117"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Adicionar outro alias de email para um usuário
   
-Este artigo é para administradores do Microsoft 365 que têm assinaturas comerciais. Ele não se destina a usuários domésticos.
+Este artigo é para Microsoft 365 administradores que têm assinaturas comerciais. Ele não se destina a usuários domésticos.
   
-Um endereço de email principal no Microsoft 365 geralmente é o endereço de email que um usuário foi atribuído quando sua conta foi criada. Quando o usuário envia emails para outras pessoas, o endereço de email principal dele é o que normalmente aparece no campo  *De*  , nos aplicativos de email. Eles também podem ter mais de um endereço de email associado à conta do Microsoft 365 para empresas. Esses endereços adicionais são chamados também de alias. 
+Um endereço de email principal no Microsoft 365 geralmente é o endereço de email que um usuário foi atribuído quando sua conta foi criada. Quando o usuário envia emails para outras pessoas, o endereço de email principal dele é o que normalmente aparece no campo  *De*  , nos aplicativos de email. Eles também podem ter mais de um endereço de email associado à conta Microsoft 365 para empresas. Esses endereços adicionais são chamados também de alias. 
   
 Por exemplo, digamos que Ela tenha o endereço de email jenna@contosoco.com, mas também deseja receber emails no jen@contosoco.com porque algumas pessoas se referem a ela por esse nome. Você pode criar aliases para ela para que ambos os endereços de email acessem a caixa de entrada de Irene.
 <br><br>  
@@ -53,7 +53,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
 
 1. No centro de administração, vá para a página **Usuários** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Usuários ativos</a>.
 
-2. Na página **Usuários ativos,** selecione o usuário > **Gerenciar aliases de email.** Você não verá essa opção se a pessoa não tiver uma licença atribuída a ela. 
+2. Na página **Usuários ativos,** selecione o usuário > **Gerenciar nome de usuário e email.** Você não verá essa opção se a pessoa não tiver uma licença atribuída a ela. 
     
 3. Selecione **+ Adicionar um alias** e insira um novo alias para o usuário.   
     
@@ -65,7 +65,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Microsoft 365](../setup/add-domain.md). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Add a domain to Microsoft 365](../setup/add-domain.md). 
   
      
 5. Quando terminar, escolha Salvar **alterações.**
@@ -75,7 +75,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal de Eliza Hoffman, Eliza@NodPublishers.com, e seu alias, Sales@NodPublishers.com, irão para a Caixa de Entrada de Eliza.
     
   
-7. **Quando o usuário responder, o *endereço De* dependerá do cliente do Outlook. O Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). A área de trabalho do Outlook usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando a área de trabalho do Outlook, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
+7. **Quando o usuário responder, o *endereço From* dependerá de seu Outlook cliente. Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). Outlook desktop usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando Outlook área de trabalho, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
     
 ::: moniker-end
 
@@ -97,7 +97,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Microsoft 365](../setup/add-domain.md). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Add a domain to Microsoft 365](../setup/add-domain.md). 
 
 5. Quando terminar, selecione **Salvar**.
 
@@ -106,7 +106,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal de Eliza Hoffman, Eliza@NodPublishers.com, e seu alias, Sales@NodPublishers.com, irão para a Caixa de Entrada de Eliza.
     
   
-7. **Quando o usuário responder, o *endereço De* dependerá do cliente do Outlook. O Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). A área de trabalho do Outlook usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando a área de trabalho do Outlook, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
+7. **Quando o usuário responder, o *endereço From* dependerá de seu Outlook cliente. Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). Outlook desktop usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando Outlook área de trabalho, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -128,7 +128,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     > Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respectivo console de gerenciamento para definir o novo alias como principal. 
   
     > [!TIP]
-    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Adicionar um domínio ao Microsoft 365](../setup/add-domain.md). 
+    > O alias de email deve terminar com um domínio da lista suspensa. Para adicionar outro nome de domínio à lista, consulte [Add a domain to Microsoft 365](../setup/add-domain.md). 
 
 5. Quando terminar, selecione **Salvar**.
 
@@ -137,7 +137,7 @@ Você deve ter [permissões de administrador](../add-users/about-admin-roles.md)
     O usuário agora terá um endereço principal e um alias. Por exemplo, todos os emails enviados para o endereço principal de Eliza Hoffman, Eliza@NodPublishers.com, e seu alias, Sales@NodPublishers.com, irão para a Caixa de Entrada de Eliza.
     
   
-7. **Quando o usuário responder, o *endereço De* dependerá do cliente do Outlook. O Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). A área de trabalho do Outlook usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando a área de trabalho do Outlook, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
+7. **Quando o usuário responder, o *endereço From* dependerá de seu Outlook cliente. Outlook na Web usará o alias no qual o email foi recebido (chamaremos isso de princípio ping-pong). Outlook desktop usará seu alias de email principal.** Por exemplo, digamos que uma mensagem é enviada para Sales@NodPublishers.com, e ela chega na caixa de entrada de Eliza. Quando Eliza responder à mensagem usando Outlook área de trabalho, seu endereço de email principal aparecerá como Eliza@NodPublishers.com, não Sales@NodPublishers.com.
 
 ::: moniker-end
 
@@ -154,7 +154,7 @@ Se você comprou a assinatura da GoDaddy ou de outro parceiro, vá até o respec
 
 ## <a name="sending-email-from-the-proxy-address-easily"></a>Enviando emails do endereço proxy facilmente
 
-Um novo recurso está sendo implantada em abril de 2021 que permite que os usuários enviem de seus aliases facilmente ao usar o Outlook na Web. Quando o recurso é rolado para um locatário onde o administrador do locatário usa o cmdlet, os usuários dentro da locação terão acesso a uma lista de caixas de seleção onde cada entrada corresponde a um alias em suas configurações do `Set-OrganizationConfig -SendFromAliasEnabled $true` Outlook. Selecionar um alias fará com que ele apareça no menu suspenso De no formulário Redação.
+Um novo recurso está sendo implantada em abril de 2021 que permite que os usuários enviem de seus aliases facilmente ao usar Outlook na Web. Quando o recurso é rolado para um locatário onde o administrador do locatário usa o cmdlet, os usuários dentro da locação terão acesso a uma lista de caixas de seleção onde cada entrada corresponde a um alias em suas configurações de `Set-OrganizationConfig -SendFromAliasEnabled $true` Outlook. Selecionar um alias fará com que ele apareça no menu suspenso De no formulário Redação.
   
 ## <a name="related-articles"></a>Artigos relacionados
 

@@ -1,5 +1,5 @@
 ---
-title: Aplicar um Fapiao para o Office 365 operado pela 21Vianet
+title: Aplicar um Fapiao para Office 365 operado pela 21Vianet
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -12,23 +12,25 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
-- commerce
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 - GEA150
-ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: Saiba como enviar sua solicitação fapiao para o sistema de gerenciamento do 21Vianet Fapiao após fazer um pagamento no Office 365 operado pela 21Vianet na China.
 monikerRange: o365-21vianet
-ms.openlocfilehash: d9f75dfd00bb547e9d2e0f53826e5bc50926de39
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.date: 03/30/2021
+ms.openlocfilehash: 1f2dec1ca224b7f8c6c22d5d9d0d2a0cac8630ea
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470948"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107455"
 ---
-# <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Aplicar um Fapiao para o Office 365 operado pela 21Vianet
+# <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Aplicar um Fapiao para Office 365 operado pela 21Vianet
 
 Você pode enviar sua solicitação fapiao para o sistema de gerenciamento do 21Vianet Fapiao cerca de três dias após o pagamento. Depois de enviar sua solicitação fapiao, ela será processada em dois dias.
   
@@ -38,18 +40,18 @@ Você pode enviar sua solicitação fapiao para o sistema de gerenciamento do 21
 
 Há duas maneiras de aplicar-se a um Fapiao:
   
-1. Depois de fazer um pagamento no site do Office 365 operado pela 21Vianet, você receberá um email de confirmação de pedido que contém seu número de pedido e um link para o sistema de gerenciamento do Fapiao. Você pode usar o link no email para criar uma conta no sistema de gerenciamento de informações <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">do 21Vianet Fapiao.</a>
+1. Depois de fazer um pagamento no Office 365 operado pelo site da 21Vianet, você receberá um email de confirmação de pedido que contém seu número de pedido e um link para o sistema de gerenciamento fapiao. Você pode usar o link no email para criar uma conta no sistema de gerenciamento de informações <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">do 21Vianet Fapiao.</a>
 
     Ou
 
 2. Você pode aplicar um Fapiao no centro <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">de administração</a>.
 
-    ![A página Contas no Centro de administração do Microsoft 365.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
+    ![A página Contas no Microsoft 365 de administração.](../../media/a6e3b953-abd4-46aa-a910-08c517915a21.png)
   
 ## <a name="step-2-register-with-the-21vianet-fapiao-management-system"></a>Etapa 2: Registrar-se com o sistema de gerenciamento do 21Vianet Fapiao
 
 > [!NOTE]
-> Você pode usar o mesmo nome de email e senha que sua conta do Office 365 ou pode usar algo diferente.
+> Você pode usar o mesmo nome de email e senha que sua conta Office 365, ou pode usar algo diferente.
   
 1. Vá para o sistema de gerenciamento de <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">informações do 21Vianet Fapiao.</a>
 
@@ -108,7 +110,7 @@ Quando Fapiao estiver fora de uso, o sistema exibirá um aviso e indicará o tem
   
 ![A mensagem de erro exibida quando o sistema de gerenciamento do 21Vianet Fapiao está fora de uso.](../../media/effe0796-83aa-4a91-a488-15d6f58c01dc.png)
   
-## <a name="faqs"></a>Perguntas Frequentes
+## <a name="faqs"></a>Perguntas frequentes
 
 ### <a name="what-services-can-i-get-from-online-support"></a>Quais serviços posso obter com o suporte online?
 

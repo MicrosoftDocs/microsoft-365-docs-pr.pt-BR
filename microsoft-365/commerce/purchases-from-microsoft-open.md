@@ -1,5 +1,5 @@
 ---
-title: Insira a chave do produto adquirida no Microsoft Open
+title: Insira a chave do produto adquirida do Microsoft Open
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -12,60 +12,59 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
-- commerce
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- commerce_purchase
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
-description: Saiba como ativar, renovar ou adicionar licenças a uma assinatura do Microsoft 365 para empresas.
-ms.openlocfilehash: 59235c7af5ec39ba830f77aca6170727fedf91c5
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+description: Saiba como ativar, renovar ou adicionar licenças a uma assinatura Microsoft 365 para empresas.
+ms.date: 10/21/2020
+ms.openlocfilehash: e0e317dc0917876c6299fe1eea5812b7bfe0cd8b
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48647874"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107587"
 ---
-# <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Insira a chave do produto adquirida no Microsoft Open
+# <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Insira a chave do produto adquirida do Microsoft Open
 
-Se você comprou o Microsoft 365 para empresas de um Programa de Licença Aberta da [Microsoft,](https://go.microsoft.com/fwlink/p/?LinkID=613298)este artigo é para você. Os clientes de licenciamento por volume que compraram uma chave do produto (Product Key) podem seguir este tópico para ativar, renovar ou adicionar licenças a uma assinatura.
+Se você comprou Microsoft 365 para empresas de um Programa de Licença Aberta da [Microsoft,](https://go.microsoft.com/fwlink/p/?LinkID=613298)este artigo é para você. Os clientes de licenciamento por volume que compraram uma chave de produto podem seguir este tópico para ativar, renovar ou adicionar licenças a uma assinatura.
   
- **Precisa de ajuda imediatamente?** [Ligue para o Suporte da Microsoft.](../admin/contact-support-for-business-products.md) 
+ **Precisa de ajuda imediatamente?** [Chame o Suporte da Microsoft.](../admin/contact-support-for-business-products.md) 
   
- **Precisa de algo mais?**
+ **Precisa de outra coisa?**
  
- **Para ajuda com o Microsoft 365 Home, ou Pessoal,** confira [Usar chaves do produto com o Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).
+ **Para ajudar com Microsoft 365 Home ou Pessoal,** consulte [Usando chaves de produto com Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).
   
- **Para ajuda com o Microsoft 365 Business Standard adquirido** em uma loja de varejo, confira Insira sua chave do produto adquirida em [uma loja de varejo.](enter-your-product-key.md) 
+ **Para saber mais sobre Microsoft 365 Business Standard de** uma loja de varejo, consulte Enter your product key purchased from a retail [store](enter-your-product-key.md). 
   
-## <a name="activate-renew-or-add-licenses-to-a-subscription-purchased-from-microsoft-open"></a>Ativar, renovar ou adicionar licenças a uma assinatura adquirida do Microsoft Open
+## <a name="activate-renew-or-add-licenses-to-a-subscription-purchased-from-microsoft-open"></a>Ativar, renovar ou adicionar licenças a uma assinatura comprada do Microsoft Open
 
-Se você comprou o Microsoft 365 de um Programa de Licença Aberta da Microsoft, o sistema inserirá automaticamente a chave quando você ativar, renovar ou adicionar licenças a uma assinatura.
+Se você comprou Microsoft 365 de um Programa de Licença Aberta da Microsoft, o sistema inserirá automaticamente a chave para você quando você ativar, renovar ou adicionar licenças a uma assinatura.
   
-1. Depois de comprar uma chave de um parceiro do Microsoft 365, verifique sua caixa de entrada em busca de um email da Microsoft contendo um link de ativação.
+1. Depois de comprar uma chave de um Microsoft 365, verifique sua caixa de entrada para um email da Microsoft contendo um link de ativação.
     
     > [!TIP]
-    >  O email é enviado para a pessoa indicada como administrador online no contrato de licenciamento por volume. Se você não tiver certeza de quem está designado como administrador online, pergunte ao seu parceiro do Microsoft 365. 
+    >  O email é enviado para a pessoa indicada como administrador online no contrato de licenciamento por volume. Se você não tiver certeza de quem é designado como administrador online, pergunte ao seu Microsoft 365 parceiro. 
   
-2. Siga o link no email para entrar com sua conta corporativa ou de estudante, aceite o Contrato da Licença Open e renove a assinatura. Para um passo a passo passo, baixe o guia em PDF, Ativar Serviços Online: Assinatura do [Microsoft 365,](https://go.microsoft.com/fwlink/p/?LinkId=618100)que aborda como ativar uma nova assinatura, renovar uma assinatura existente ou adicionar licenças a uma assinatura existente.
+2. Siga o link no email para entrar com sua conta corporativa ou de estudante, aceite o Contrato da Licença Open e renove a assinatura. Para um passo a passo, baixe o guia PDF, [Activate Online Services: Microsoft 365 Subscription](https://go.microsoft.com/fwlink/p/?LinkId=618100), que aborda como ativar uma nova assinatura, renovar uma assinatura existente ou adicionar licenças a uma assinatura existente.
     
 > [!NOTE]
-> Os clientes de licenciamento por volume também podem optar por ativar assinaturas no Centro de [Serviços de Licenciamento por Volume.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Para saber como fazer isso, baixe o guia em PDF [Ativar Serviços Online no Centro de Serviços de Licenciamento por Volume](https://go.microsoft.com/fwlink/p/?LinkId=618096). 
+> Os clientes de licenciamento por volume também podem optar por ativar assinaturas no Centro de Serviço de [Licenciamento por Volume.](https://go.microsoft.com/fwlink/p/?LinkID=282016) Para saber como fazer isso, baixe o guia em PDF [Ativar Serviços Online no Centro de Serviços de Licenciamento por Volume](https://go.microsoft.com/fwlink/p/?LinkId=618096). 
   
 ## <a name="whats-next"></a>O que vem a seguir?
 
-Se você é novo no Microsoft 365 para empresas, saiba como configurar o [Microsoft 365 para sua organização.](../admin/setup/setup.md)
+Se você é novo para Microsoft 365 para empresas, saiba como configurar o Microsoft 365 [para sua organização.](../admin/setup/setup.md)
   
-## <a name="still-having-trouble-with-product-keys"></a>Ainda está tendo problemas com as chaves do produto?
+## <a name="still-having-trouble-with-product-keys"></a>Ainda está com problemas com chaves do produto?
 
-Confira esta lista de erros e soluções comuns: problemas [com sua chave do produto?](product-key-errors-and-solutions.md)
+Confira esta lista de erros e soluções comuns: [Problemas com a chave do produto?](product-key-errors-and-solutions.md)
   
 Se for um parceiro, confira [Parceiros: usar uma chave do produto para configurar uma assinatura de cliente](https://support.microsoft.com/office/cf22c50f-95c9-4fa2-b959-c264de256d40).
   
 Se for um cliente de licenciamento por volume, pode saber mais visitando [Recursos e treinamento do Centro de Serviços de Licenciamento por Volume da Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=618103).
   
-Ou, se você quiser falar com uma pessoa, ligue [para o Suporte da Microsoft.](../admin/contact-support-for-business-products.md)
+Ou, se você quiser falar com uma pessoa, [chame o Suporte da Microsoft.](../admin/contact-support-for-business-products.md)

@@ -10,19 +10,24 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- commerce
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
 - fwlink 2133922 to Delete subscription heading
+- commerce_subscription
+- PPM_jmueller
+ms.reviewer: jkinma
 search.appverid:
 - MET150
 description: Saiba como fechar sua conta com a Microsoft.
-ms.openlocfilehash: 44428654946d31ad249bfd3e7a3609da3e3634a6
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.date: 04/02/2021
+ms.openlocfilehash: 4fa1366186f0a37d3319208224628332d958a0ea
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860542"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107467"
 ---
 # <a name="close-your-account"></a>Fechar sua conta
 
@@ -38,13 +43,13 @@ Você deve ser um administrador Global ou de Cobrança para realizar as etapas d
 
 Exclua todos os usuários, exceto um administrador global. O administrador global conclui as etapas para fechar a conta. Antes de poder excluir o diretório no final deste processo, você deve excluir todos os outros usuários.
 
-Se os usuários estiverem sincronizados no local, primeiro desligue a sincronização e exclua os usuários no diretório de nuvem usando o portal do Azure ou os cmdlets do Azure PowerShell.
+Se os usuários estiverem sincronizados no local, primeiro desligue a sincronização e exclua os usuários no diretório de nuvem usando o portal do Azure ou Azure PowerShell cmdlets.
 
-Para excluir usuários, consulte <a href="/office365/admin/add-users/delete-a-user?view=o365-worldwide#user-management-admin-delete-one-or-more-users-from-office-365">User management admin: Delete one or more users</a>.
+Para excluir usuários, consulte [User management admin: Delete one or more users](../admin/add-users/delete-a-user.md#user-management-admin-delete-one-or-more-users-from-office-365).
 
-Você também pode usar o cmdlet <a href="https://docs.microsoft.com/powershell/module/msonline/remove-msoluser">Remove-MsolUser</a> PowerShell para excluir usuários em massa.
+Você também pode usar o cmdlet [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell para excluir usuários em massa.
 
-Se sua organização usa o Active Directory que se sincroniza com o Microsoft Azure Active Directory (Azure AD), exclua a conta de usuário do Active Directory, em vez disso. Para obter instruções, consulte <a href="/azure/active-directory/users-groups-roles/users-bulk-delete">Bulk delete users in Azure Active Directory</a>.
+Se sua organização usa o Active Directory que sincroniza com o Microsoft Azure Active Directory (Azure AD), exclua a conta de usuário do Active Directory, em vez disso. Para obter instruções, consulte [Bulk delete users in Azure Active Directory](/azure/active-directory/users-groups-roles/users-bulk-delete).
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Etapa 2: Cancelar todas as assinaturas ativas
 
@@ -64,7 +69,7 @@ Se sua organização usa o Active Directory que se sincroniza com o Microsoft Az
 6. Para cada assinatura desabilitada, repita as etapas de 3 a 5 até que todas as assinaturas sejam excluídas.
 
 > [!NOTE]
-> Se você não puder excluir imediatamente uma assinatura desabilitada, <a href="/microsoft-365/Admin/contact-support-for-business-products" target="_blank">contate o suporte</a>
+> Se você não puder excluir imediatamente uma assinatura desabilitada, [contate o suporte](../admin/contact-support-for-business-products.md).
 
 ## <a name="step-4-disable-multi-factor-authentication"></a>Etapa 4: Desabilitar a autenticação multifa factor
 
@@ -73,7 +78,8 @@ Se sua organização usa o Active Directory que se sincroniza com o Microsoft Az
 3. Escolha **Autenticação multifa factor**.
 4. Na página de autenticação multifação, desabilite todas as contas, exceto a conta de administrador global que você está usando no momento.
 
-Você também pode <a href="/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">usar o PowerShell para desabilitar a autenticação multifa factor para vários usuários</a>.
+Você também pode [usar o PowerShell para desabilitar a autenticação multifa factor para vários usuários](/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell).
+
 
 ## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Etapa 5: Excluir o diretório no Azure Active Directory
 

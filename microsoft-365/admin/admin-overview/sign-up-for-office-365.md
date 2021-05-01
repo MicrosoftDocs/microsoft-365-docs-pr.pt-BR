@@ -12,50 +12,49 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 - TRN_SMB
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - okr_SMB
 - AdminSurgePortfolio
+- commerce_signup
+- PPM_pablom
+ms.reviewer: seemg
 search.appverid:
 - MET150
-- MOE150
-- BEA160
-- GEA150
-ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
-description: 'Entenda o que você precisa saber antes de passar pelo processo de inscrever-se no Office 365. '
-ms.openlocfilehash: f2a4f555540b801441644af28435170f82229909
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+description: Entenda o que você precisa saber antes de passar pelo processo de Office 365.
+ms.date: 03/17/2021
+ms.openlocfilehash: 37cbe20a5cc1a7506e8db218c3e9ffe2b4e64478
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023912"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107021"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Como se inscrever - Ajuda do administrador
 
 ::: moniker range="o365-worldwide"
 
-Inscreva-se no Microsoft 365 para empresas para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e outros programas do Office.
+Inscreva-se no Microsoft 365 para empresas para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e outros programas Office.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Inscreva-se no Microsoft 365 para empresas para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e outros programas do Office.
+Inscreva-se no Microsoft 365 para empresas para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e outros programas Office.
   
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-O Office 365 operado pela 21Vianet foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China. Este serviço utiliza a tecnologia que a Microsoft licenciou para a 21Vianet. A Microsoft não opera o serviço em si. A 21Vianet opera, fornece e gerencia a entrega do serviço. A 21Vianet é o maior provedor de serviços de datacenter de Internet de operadora neutra da China, fornecendo hospedagem, serviços de rede gerenciada e serviços de infraestrutura de computação em nuvem. Ao licenciar as tecnologias da Microsoft, a 21Vianet opera datacenters locais da Microsoft para fornecer a você a capacidade de usar os serviços da Microsoft enquanto mantém seus dados na China. A 21Vianet também fornece seus serviços de assinatura e cobrança, bem como suporte.
+Office 365 operado pela 21Vianet foi projetado para atender às necessidades de serviços de nuvem seguros, confiáveis e escalonáveis na China. Este serviço utiliza a tecnologia que a Microsoft licenciou para a 21Vianet. A Microsoft não opera o serviço em si. A 21Vianet opera, fornece e gerencia a entrega do serviço. A 21Vianet é o maior provedor de serviços de datacenter de Internet de operadora neutra da China, fornecendo hospedagem, serviços de rede gerenciada e serviços de infraestrutura de computação em nuvem. Ao licenciar as tecnologias da Microsoft, a 21Vianet opera datacenters locais da Microsoft para fornecer a você a capacidade de usar serviços Microsoft enquanto mantém seus dados na China. A 21Vianet também fornece seus serviços de assinatura e cobrança, bem como suporte.
   
 > [!NOTE]
 > Esses serviços estão sujeitos à legislação chinesa.
   
-Inscreva-se no Office 365 operado pela 21Vianet para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e outros programas do Office.
+Inscreva-se no Office 365 operado pela 21Vianet para que sua equipe possa começar a usar as versões mais recentes do Word, Excel, PowerPoint e outros programas Office.
   
 Pronto para se inscrever? [Selecione um Plano](https://products.office.com/zh-cn/business/compare-office-365-for-business-plans).
   
@@ -66,7 +65,7 @@ Pronto para se inscrever? [Selecione um Plano](https://products.office.com/zh-cn
 
 Antes de comprar, coloque um pouco de pensamento no plano em que você se ins inscrever. Isso evitará dores de cabeça no futuro.
 
-Assista a um breve vídeo sobre como escolher um plano de negócios do Microsoft 365.<br><br>
+Assista a um breve vídeo sobre como escolher um Microsoft 365 para o plano de negócios.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
@@ -120,9 +119,9 @@ Você não precisa cancelar sua avaliação. Se você não comprar a assinatura 
   - O **Email** e o **número de telefone** para que possamos entrar em contato, caso seja necessário tratar sobre sua assinatura. Por exemplo, se você esquecer sua senha, poderemos usar essas informações para lhe enviar uma senha temporária. Também poderemos enviar suas informações de cobrança para o endereço de email que você especificar.
 
     > [!NOTE]
-    > O endereço de email que você inserir aqui é diferente do endereço de email do Microsoft 365 (seu nome de logon, abaixo). Recomendamos que você use um endereço de email adequado para receber emails comerciais, pois é aqui que você receberá as informações de cobrança.
+    > O endereço de email que você inserir aqui é diferente do seu endereço de email Microsoft 365 (seu nome de logon, abaixo). Recomendamos que você use um endereço de email adequado para receber emails comerciais, pois é aqui que você receberá as informações de cobrança.
   
-- **Um nome de login (ID do usuário):** Essa ID de usuário se torna seu endereço de email inicial do Microsoft 365, apenas para começar rapidamente.
+- **Um nome de login (ID do usuário):** Essa ID de usuário se torna seu endereço de email Microsoft 365 inicial, apenas para começar rapidamente.
 
     Essa ID de usuário é o endereço de email que você usa para entrar. Por exemplo, se o nome da sua empresa for Fourth Coffee, você pode escolher ricardo@fourthcoffee.onmicrosoft.com como sua ID de usuário.
 
@@ -137,4 +136,4 @@ Você não precisa cancelar sua avaliação. Se você não comprar a assinatura 
 
 ## <a name="related-content"></a>Conteúdo relacionado
 
-Vídeos de treinamento do [Microsoft 365 para empresas](../../business-video/index.yml) (links)
+[Microsoft 365 para vídeos de treinamento empresarial](../../business-video/index.yml) (links)

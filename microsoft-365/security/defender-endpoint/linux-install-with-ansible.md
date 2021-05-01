@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15ee02d90e81c48bf5ec718e669bf8f88f6424ff
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 12ff9834e2853c1745c20847f869bc2cba4e082e
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934772"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114265"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-with-ansible"></a>Implantar o Microsoft Defender para Ponto de Extremidade no Linux com Ansible
 
@@ -49,13 +49,13 @@ Antes de começar, consulte a página [principal do Defender para Ponto](microso
 
 Além disso, para a implantação ansible, você precisa estar familiarizado com tarefas de administração Ansible, ter Ansible configurado e saber como implantar playbooks e tarefas. Ansible tem muitas maneiras de concluir a mesma tarefa. Essas instruções pressuem disponibilidade de módulos Ansible com suporte, como *apt* e *unarchive* para ajudar a implantar o pacote. Sua organização pode usar um fluxo de trabalho diferente. Consulte a [documentação Ansible para](https://docs.ansible.com/) obter detalhes.
 
-- Ansible precisa ser instalado em pelo menos um computador (vamos chamá-lo de computador principal).
-- O SSH deve ser configurado para uma conta de administrador entre o computador principal e todos os clientes, e é recomendável ser configurado com autenticação de chave pública.
-- O software a seguir deve ser instalado em todos os clientes:
+- Ansible precisa ser instalado em pelo menos um computador (Ansible chama esse nó de controle).
+- O SSH deve ser configurado para uma conta de administrador entre o nó de controle e todos os nós gerenciados (dispositivos que terão o Defender para Ponto de Extremidade instalado neles) e é recomendável ser configurado com autenticação de chave pública.
+- O software a seguir deve ser instalado em todos os nós gerenciados:
   - cache
   - python-apt
 
-- Todos os hosts devem estar listados no seguinte formato no `/etc/ansible/hosts` arquivo ou relevante:
+- Todos os nós gerenciados devem estar listados no seguinte formato no `/etc/ansible/hosts` arquivo ou relevante:
 
     ```bash
     [servers]
@@ -71,13 +71,13 @@ Além disso, para a implantação ansible, você precisa estar familiarizado com
 
 ## <a name="download-the-onboarding-package"></a>Baixar o pacote de integração
 
-Baixe o pacote de integração do Centro de Segurança do Microsoft Defender:
+Baixe o pacote de integração Central de Segurança do Microsoft Defender:
 
-1. No Centro de Segurança do Microsoft Defender, acesse **Configurações > Gerenciamento de Dispositivos > Integração**.
+1. Em Central de Segurança do Microsoft Defender, vá para Configurações > Gerenciamento de **Dispositivos > Integração**.
 2. No primeiro menu suspenso, selecione **Servidor Linux como** o sistema operacional. No segundo menu suspenso, selecione Sua ferramenta de gerenciamento de configuração **do Linux preferencial** como o método de implantação.
 3. Selecione **Baixar pacote de integração**. Salve o arquivo como WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Captura de tela do Centro de Segurança do Microsoft Defender](images/atp-portal-onboarding-linux-2.png)
+    ![Central de Segurança do Microsoft Defender captura de tela](images/atp-portal-onboarding-linux-2.png)
 
 4. Em um prompt de comando, verifique se você tem o arquivo. Extraia o conteúdo do arquivo morto:
 
