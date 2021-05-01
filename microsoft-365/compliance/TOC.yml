@@ -235,8 +235,8 @@
       items:
         - name: Saiba mais sobre prevenção contra perda de dados
           items:
-            - name: Saiba mais sobre prevenção contra perda de dados
-              href: data-loss-prevention-policies.md
+            - name: Saiba mais sobre a prevenção contra perda de dados do ponto de extremidade
+              href: dlp-learn-about-dlp.md
             - name: Saiba mais sobre a prevenção contra perda de dados do Ponto de extremidade
               href: endpoint-dlp-learn-about.md
             - name: Saiba mais sobre a política padrão de prevenção contra perda de dados no Microsoft Teams (visualização)

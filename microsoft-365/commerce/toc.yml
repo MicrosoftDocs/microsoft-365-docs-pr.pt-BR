@@ -40,6 +40,8 @@
       href: ../admin/manage/remove-licenses-from-users.md
     - name: Migrar usuários para uma assinatura diferente
       href: subscriptions/move-users-different-subscription.md
+    - name: Gerenciar licenças de aplicativos
+      href: licenses/manage-third-party-app-licenses.md
     - name: Gerenciar políticas de declaração automática
       href: licenses/manage-auto-claim-policies.md
     - name: Entenda as assinaturas e licenças

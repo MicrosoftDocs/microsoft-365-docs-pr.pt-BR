@@ -12,22 +12,23 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
 - TopSMBIssues
 - okr_SMB
 - AdminSurgePortfolio
-- commerce
+- commerce_billing
+- PPM_jmueller
+ms.reviewer: jamitche
 search.appverid:
 - MET150
 description: Saiba como gerenciar suas formas de pagamento no Centro de administração do Microsoft 365.
-ms.date: ''
-ms.openlocfilehash: 1d28d082c0a7c123aadaa2230930326139fdcb8e
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.date: 04/02/2021
+ms.openlocfilehash: 4b35b7b8e874915e5f9c792686ff0e368292c802
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579777"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107034"
 ---
 # <a name="manage-payment-methods"></a>Gerenciar métodos de pagamento
 
@@ -35,7 +36,7 @@ Ao comprar produtos ou serviços empresariais da Microsoft, você pode usar uma 
 
 Se sua conta comercial tiver um perfil de cobrança e você for proprietário de perfil de cobrança ou colaborador de perfil de cobrança, você poderá usar o perfil de cobrança que tem um cartão de crédito ou fatura para fazer compras ou pagar faturas. Se você for um gerente de cobrança de fatura, só poderá usar um perfil de cobrança para pagar contas. Para saber mais sobre funções e perfis de cobrança, consulte [Gerenciar perfis de cobrança](manage-billing-profiles.md).
 
-Se sua conta comercial não tiver um perfil de cobrança, qualquer administrador Global ou de Cobrança poderá gerenciar e usar qualquer conta bancária adicionada à conta comercial. No entanto, você só pode gerenciar ou usar os cartões de crédito que adicionar.
+Se sua conta comercial não tiver um perfil de cobrança, qualquer administrador Global ou de Cobrança poderá gerenciar e usar qualquer conta bancária adicionada à conta comercial. No entanto, você só pode gerenciar ou usar cartões de crédito que adicionar.
 
 > [!NOTE]
 > O pagamento por conta bancária não está disponível em alguns países ou regiões.
@@ -112,9 +113,9 @@ Se uma forma de pagamento for vinculada a qualquer assinatura ou perfil de cobra
 4. Para usar uma forma de pagamento existente, escolha uma na lista suspensa e selecione **Avançar** e então selecione **Excluir**.
     > [!NOTE]
     > Se você tiver assinaturas associadas a um perfil de cobrança, só poderá usar um cartão de crédito ou débito para pagar por eles. Se você tiver contas bancárias listadas na página **Formas de pagamento**, elas não estarão disponíveis para seleção na lista suspensa.
-5. Para adicionar uma nova forma de pagamento, selecione **Adicionar forma de pagamento**.
+5. Para adicionar um novo método de pagamento, marque **Adicionar método de pagamento**.
 6. Escolha o tipo de pagamento que você deseja adicionar, insira as informações da conta e selecione **Salvar**.
-7. A nova forma de pagamento já está selecionada na lista suspensa. Selecione **Avançar**.
+7. O novo método de pagamento já está selecionado na lista suspensa. Selecione **Avançar**.
 8. Selecione **Excluir**.
 
 ## <a name="troubleshoot-payment-methods"></a>Solucionar problemas de formas de pagamento

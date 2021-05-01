@@ -12,21 +12,19 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365_Setup
-- Adm_O365_TOC
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-- manage_licenses
 search.appverid:
 - MET150
 description: Aprenda a adicionar usuários e atribuir licenças ao Microsoft 365 ao mesmo tempo.
 ms.date: 07/01/2020
-ms.openlocfilehash: 97b7118f4052d4ab4e0ffe8ecec96f32e4042108
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 6a1361d9cfebd2b305a71248fcbb461d0a68a052
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52024008"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107081"
 ---
 # <a name="add-users-and-assign-licenses-at-the-same-time"></a>Adicionar usuários e atribuir licenças ao mesmo tempo
 
@@ -36,22 +34,43 @@ Cada pessoa da sua equipe precisa de uma conta de usuário antes de poder entrar
 
 Você deve ser um global, licenciado ou administrador de usuário para adicionar usuários e atribuir licenças. Para obter mais informações, confira o artigo [Sobre funções de administrador](../../admin/add-users/about-admin-roles.md).
 
-## <a name="watch-add-users-in-the-admin-center"></a>Assistir: adicionar usuários no centro de administração
+## <a name="add-a-user-in-the-admin-simplified-view"></a>Adicionar um usuário na exibição simplificada do administrador
+
+Se estiver vendo esta página no centro de administração, você está na **exibição simplificada do administrador**. Em seguida, siga as etapas para adicionar um usuário.
+
+:::image type="content" source="../../media/vsb-add-user-view.png" alt-text="Captura de tela: Exibição simplificada do centro de administração":::
+
+1. Vá para o Centro de Administração em<https://admin.microsoft.com>.
+2. Selecione **Criar uma conta para outra pessoa**.
+3. Na página **Adicionar uma conta de usuário**, preencha o nome e sobrenome, o nome de exibição e o nome de usuário que ele usará para entrar.
+4. Adicione o endereço de email do usuário na caixa de texto **Até cinco endereços de email...**. Isso garantirá que o novo usuário obterá as informações necessárias para entrar nos serviços do Microsoft 365.
+5. Selecione **Adicionar usuário** e **Baixar informações de login** se quiser salvar essas informações.
+
+## <a name="watch-add-users-in-the-dashboard-view"></a>Assista: Adicionar usuários no painel de exibição
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN?autoplay=false]
 
 > [!NOTE]
 > As etapas usadas no vídeo mostram um ponto de partida diferente para adicionar usuários, mas as etapas restantes são as mesmas do procedimento a seguir.
 
-## <a name="add-users-one-at-a-time"></a>Adicionar um usuário por vez
+## <a name="add-users-one-at-a-time-in-the-dashboard-view"></a>Adicionar um usuário por vez no painel de exibição
 
  ::: moniker range="o365-worldwide"
 
-1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+:::image type="content" source="../../media/classic-admin-center.png" alt-text="Captura de tela: Exibição do painel do centro de administração":::
 
-::: moniker-end
+1. Vá para o Centro de Administração em<https://admin.microsoft.com>.
+2. Vá para **Usuários** > **Usuários ativos** e selecione **Adicionar um usuário**.
+3. No painel **Configurar o básico**, preencha as informações básicas do usuário e selecione **Avançar**.
+    - **Nome** Preencha o nome e o sobrenome, o nome de exibição e o nome de usuário.
+    - **Domínio** Escolha o domínio para a conta do usuário. Por exemplo, se o nome de usuário for Jakob e o domínio for contoso.com, ele entrará usando jakob@contoso.com.
+    - **Configurações de senha** Escolha usar a senha gerada automaticamente ou criar sua própria senha forte para o usuário.
+    - O usuário deve alterar sua senha após 90 dias. Ou você pode **Solicitar que este usuário altere a senha ao fazer login pela primeira vez**.
+    - Escolha se deseja enviar a senha por email quando o usuário for adicionado.
+4. No painel **Atribuir licenças de produto**, selecione o local e a licença apropriada para o usuário. Caso não haja licenças disponíveis, você pode comprar mais licenças e adicionar usuários. Expanda **Aplicativos** e selecione ou desmarque os aplicativos para limitar os aplicativos para os quais o usuário possui uma licença. Selecione **Avançar**.
+5. No painel **Configurações opcionais**, expanda **Funções** para tornar este usuário um administrador. Expanda **Informações do perfil** para adicionar informações adicionais sobre o usuário.
+6. Selecione **Próximo**, análise as configurações do novo usuário, faça as alterações que desejar e selecione **Concluir** adição e **Fechar**.
 
-::: moniker range="o365-germany"
 
 1. Vá para o centro de administração do<a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.
 
@@ -66,7 +85,7 @@ Você deve ser um global, licenciado ou administrador de usuário para adicionar
 2. Acesse **Usuários** > **Usuários ativos** e selecione **Adicionar um usuário**.
 3. No painel **Configurar o básico**, preencha as informações básicas do usuário e selecione **Avançar**.
     - **Nome** Preencha o nome e o sobrenome, o nome de exibição e o nome de usuário.
-    - **Domínio** Escolha o domínio para a conta do usuário. Por exemplo, se o nome de usuário do usuário for Carlos e o domínio for contoso.com, eles entrarão usando carlos@contoso.com.
+    - **Domínio** Escolha o domínio para a conta do usuário. Por exemplo, se o nome de usuário for Jakob e o domínio for contoso.com, ele entrará usando jakob@contoso.com.
     - **Configurações de senha** Escolha usar a senha gerada automaticamente ou criar sua própria senha forte para o usuário.
     - O usuário deve alterar sua senha após 90 dias. Ou você pode **Solicitar que este usuário altere a senha ao fazer login pela primeira vez**.
     - Escolha se deseja enviar a senha por email quando o usuário for adicionado.
