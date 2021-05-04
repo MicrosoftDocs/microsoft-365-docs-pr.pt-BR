@@ -1,5 +1,5 @@
 ---
-title: Configurar e visualizar alertas para políticas de prevenção contra perda de dados (pré-visualização)
+title: Configurar e exibir alertas para políticas de prevenção contra perda de dados
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,23 +19,25 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba como definir e gerenciar alertas para políticas DLP.
-ms.openlocfilehash: 0594cee5208049aef16dee6fa03954faae2a1cdd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Saiba como definir e gerenciar alertas para políticas de prevenção contra perda de dados.
+ms.openlocfilehash: ee04f6080edcde86dc39c7f4aa43130223fee8bf
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917857"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51750033"
 ---
-# <a name="configure-and-view-alerts-for-dlp-polices-preview"></a>Configurar e exibir alertas para políticas DLP (visualização)
+# <a name="configure-and-view-alerts-for-data-loss-prevention-polices"></a>Configurar e exibir alertas para as polícias de prevenção contra perda de dados
 
-Este artigo mostra como definir políticas de alerta rich que estão vinculadas às políticas de prevenção contra perda de dados (DLP). Você verá como usar o novo painel de gerenciamento de alertaS DLP no centro de conformidade do [Microsoft 365](https://compliance.microsoft.com/) para exibir alertas, eventos e metadados associados para violações de política DLP.
+As políticas de prevenção contra perda de dados (DLP) podem tomar ações de proteção para evitar o compartilhamento não intencional de itens confidenciais. Quando uma ação é realizada em um item sensível, você pode ser notificado configurando alertas para DLP. Este artigo mostra como definir políticas de alerta rich que estão vinculadas às políticas de prevenção contra perda de dados (DLP). Você verá como usar o novo painel de [](https://compliance.microsoft.com/) gerenciamento de alertaS DLP no centro de conformidade Microsoft 365 para exibir alertas, eventos e metadados associados para violações de política DLP.
+
+<!-- LEFT OFF HERE-->
 
 ## <a name="features"></a>Recursos
 
-Os seguintes recursos fazem parte desta visualização:
+Os seguintes recursos fazem parte disso:
 
--   **Painel de gerenciamento de** alertas DLP : No Centro de conformidade do Microsoft [365,](https://compliance.microsoft.com/)este painel mostra alertas para políticas de DLP que são impostas nas seguintes cargas de trabalho:
+-   Painel de gerenciamento de alertas de DLP : no centro de conformidade do [Microsoft 365,](https://compliance.microsoft.com/)este painel mostra alertas para políticas de **DLP** impostas nas seguintes cargas de trabalho:
 
     -   Exchange
     -   SharePoint
@@ -54,9 +56,9 @@ Antes de começar, certifique-se de ter os pré-requisitos necessários:
 
 ### <a name="licensing-for-the-dlp-alert-management-dashboard"></a>Licenciamento para o painel de gerenciamento de alertas DLP
 
-Todos os locatários qualificados para a DLP do Office 365 podem acessar o novo painel de gerenciamento de alertas de DLP. Para começar, você deve estar qualificado para o Office 365 DLP para Exchange Online, SharePoint Online e OneDrive for Business. Para obter mais informações sobre os requisitos de licenciamento para a DLP do Office 365, consulte Quais licenças fornecem os direitos para um usuário se [beneficiar do serviço?](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
+Todos os locatários qualificados para Office 365 DLP podem acessar o novo painel de gerenciamento de alertas DLP. Para começar, você deve estar qualificado para Office 365 DLP para Exchange Online, SharePoint Online e OneDrive for Business. Para obter mais informações sobre os requisitos de licenciamento para Office 365 DLP, consulte Quais licenças fornecem os direitos para um usuário se [beneficiar do serviço?](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-licenses-provide-the-rights-for-a-user-to-benefit-from-the-service-16).
 
-Os clientes que participam da visualização pública [de DLP](./endpoint-dlp-learn-about.md?view=o365-worldwide) do Ponto de Extremidade ou que estão qualificados para a DLP do Teams verão seus alertas de política de [DLP](./dlp-microsoft-teams.md?view=o365-worldwide) de ponto de extremidade e alertas de política de DLP do Teams no painel de gerenciamento de alertas DLP.
+Os clientes que usam a [DLP](endpoint-dlp-learn-about.md) de ponto de extremidade qualificados para Teams DLP verão seus alertas de política [DLP](dlp-microsoft-teams.md) de ponto de extremidade e alertas de política de DLP do Teams no painel de gerenciamento de alertas DLP.
 
 ### <a name="licensing-for-alert-configuration-options"></a>Licenciamento para opções de configuração de alerta
 
@@ -66,7 +68,7 @@ Os clientes que participam da visualização pública [de DLP](./endpoint-dlp-le
     -   Uma assinatura E1, F1 ou G1 ou uma assinatura E3 ou G3 que inclui um dos seguintes recursos:
         -   Plano 2 de proteção avançada contra ameaças do Office 365
         -   Conformidade do Microsoft 365 E5
-        -   Licença de complemento descoberta e auditoria do Microsoft 365
+        -   Microsoft 365 eDiscovery and Audit add-on license
 
 ### <a name="roles"></a>Funções
 
@@ -99,7 +101,7 @@ Se você estiver qualificado para opções de configuração de alerta de evento
 
 Para trabalhar com o painel de gerenciamento de alertas DLP:
 
-1.  No Centro de conformidade do [Microsoft 365,](https://www.compliance.microsoft.com)acesse **Prevenção** contra Perda de Dados .
+1.  No centro [Microsoft 365 de conformidade,](https://www.compliance.microsoft.com)vá para **Prevenção contra Perda de Dados**.
 
 2.  Selecione a **guia Alertas** para exibir o painel de alertas DLP.
 
@@ -118,19 +120,19 @@ Para trabalhar com o painel de gerenciamento de alertas DLP:
     |                   | Local                      | Carga de trabalho em que o evento foi detectado                                      | Todos os eventos                               |
     |                   | Hora da atividade              | Hora da atividade do usuário que causou a violação de DLP                    | Todos os eventos                               |
     |*Entidades impactadas*||
-    |  | User                          | Usuário que causou a violação de DLP                                          | Todos os eventos                               |
+    |  | Usuário                          | Usuário que causou a violação de DLP                                          | Todos os eventos                               |
     |                   | Nome do host                      | Nome do host do computador em que a violação de DLP foi detectada              | Eventos de dispositivos                           |
     |                   | Endereço IP                    | Endereço IP do computador                                                  | Eventos de dispositivos                           |
-    |                   | Caminho do arquivo                     | Caminho absoluto do arquivo envolvido na violação                        | Eventos do SharePoint, OneDrive e Devices |
-    |                   | Destinatários de email              | Destinatários do email que violou a política DLP                       | Eventos do Exchange                          |
-    |                   | Assunto do email                 | Assunto do email que violou a política DLP                          | Eventos do Exchange                          |
-    |                   | Anexos de email             | Nomes dos anexos no email que violaram a política DLP         | Eventos do Exchange                          |
-    |                   | Proprietário do site                    | Nome do proprietário do site                                                     | Eventos do SharePoint e do OneDrive           |
-    |                   | URL do site                      | URL completa do site do SharePoint ou do OneDrive                                | Eventos do SharePoint e do OneDrive           |
-    |                   | Arquivo foi criado                  | Hora da criação de arquivos                                                      | Eventos do SharePoint e do OneDrive           |
-    |                   | Arquivo modificado pela última vez            | Hora da última modificação do arquivo                                  | Eventos do SharePoint e do OneDrive           |
-    |                   | Tamanho do arquivo                     | Tamanho do arquivo                                                           | Eventos do SharePoint e do OneDrive           |
-    |                   | Proprietário do arquivo                    | Proprietário do arquivo                                                          | Eventos do SharePoint e do OneDrive           |
+    |                   | Caminho do arquivo                     | Caminho absoluto do arquivo envolvido na violação                        | SharePoint, OneDrive e dispositivos |
+    |                   | Destinatários de email              | Destinatários do email que violou a política DLP                       | Exchange eventos                          |
+    |                   | Assunto do email                 | Assunto do email que violou a política DLP                          | Exchange eventos                          |
+    |                   | Anexos de e-mail             | Nomes dos anexos no email que violaram a política DLP         | Exchange eventos                          |
+    |                   | Proprietário do site                    | Nome do proprietário do site                                                     | SharePoint e OneDrive eventos           |
+    |                   | URL do site                      | URL completa do site SharePoint ou OneDrive site                                | SharePoint e OneDrive eventos           |
+    |                   | Arquivo foi criado                  | Hora da criação de arquivos                                                      | SharePoint e OneDrive eventos           |
+    |                   | Arquivo modificado pela última vez            | Hora da última modificação do arquivo                                  | SharePoint e OneDrive eventos           |
+    |                   | Tamanho do arquivo                     | Tamanho do arquivo                                                           | SharePoint e OneDrive eventos           |
+    |                   | Proprietário do arquivo                    | Proprietário do arquivo                                                          | SharePoint e OneDrive eventos           |
     |*Detalhes da política*||
     |     | Política de DLP corresponder            | Nome da política de DLP que foi corresponder                                    | Todos os eventos                               |
     |                   | Regra corresponder                  | Nome da regra DLP na política de DLP que foi corresponder                    | Todos os eventos                               |

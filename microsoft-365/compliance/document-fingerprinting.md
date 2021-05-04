@@ -12,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Os funcionários de TI em sua organização lidam com vários tipos de informações confidenciais em um dia comum. A Impressão Digital de Documento facilita a proteção dessas informações identificando formas padrão usadas em sua organização. Este tópico descreve os conceitos por trás da Impressão Digital de Documento e como criar um usando o PowerShell.
-ms.openlocfilehash: 1542b956d0a1f662e059ca59ea346a8afc439c83
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 392b42e779de249dddc0acb4c7c757a009f9f743
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918497"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086734"
 ---
 # <a name="document-fingerprinting"></a>Impressão Digital de Documento
 
@@ -39,13 +39,13 @@ Idealmente, sua organização já tem uma prática comercial estabelecida sobre 
 Provavelmente você já sabe que os documentos não têm impressões digitais reais, mas o nome ajuda a explicar o recurso. Da mesma maneira que as impressões digitais de uma pessoa têm padrões exclusivos, os documentos têm padrões de palavra exclusivos. Quando você carrega um arquivo, a DLP identifica o padrão de palavra exclusivo no documento, cria uma impressão digital de documento com base nesse padrão e usa essa impressão digital do documento para detectar documentos de saída que contêm o mesmo padrão. É por isso que o carregamento de um formulário ou de um modelo cria o tipo mais eficaz de impressão digital de documento. Todos que preenchem um formulário usam o mesmo conjunto de palavras do original e, então, adicionam suas próprias palavras ao documento. Desde que o documento de saída não seja protegido por senha e contenha todo o texto do formulário original, a DLP poderá determinar se o documento corresponde à impressão digital do documento.
 
 > [!IMPORTANT]
-> Por enquanto, a DLP pode usar a impressão digital de documento como um método de detecção somente no Exchange online.
+> Por enquanto, a DLP pode usar a impressão digital de documento como um método de detecção Exchange somente online.
 
 O exemplo a seguir mostra o que acontecerá se você criar uma impressão digital de documento com base em um modelo de patente, mas você pode usar qualquer formulário como base para a criação de uma impressão digital de documento.
   
 ### <a name="example-of-a-patent-document-matching-a-document-fingerprint-of-a-patent-template"></a>Exemplo de um documento de patente correspondente a uma impressão digital de documento de um modelo de patente
 
-![Document-Fingerprinting-diagram.png](../media/Document-Fingerprinting-diagram.png)
+![Diagrama de impressão digital de documento.](../media/Document-Fingerprinting-diagram.png)
   
 O modelo de patente contém os campos em branco "Título da patente", "Inventores" e "Descrição" e descrições para cada um desses campos— esse é o padrão da palavra. Quando você carrega o modelo de patente original, ele está em um dos tipos de arquivo com suporte e em texto sem texto. A DLP converte esse padrão de palavra em uma impressão digital de documento, que é um pequeno arquivo Xml Unicode que contém um valor de hash exclusivo que representa o texto original e a impressão digital é salva como uma classificação de dados no Active Directory. (Como medida de segurança, o documento original em si não é armazenado no serviço; somente o valor de hash é armazenado e o documento original não pode ser reconstruído a partir do valor de hash.) Em seguida, a impressão digital de patente se torna um tipo de informação confidenciais que você pode associar a uma política DLP. Depois de associar a impressão digital a uma política de DLP, a DLP detecta todos os emails de saída que contenham documentos que corresponderem à impressão digital de patente e lida com eles de acordo com a política da sua organização. 
 
@@ -62,10 +62,11 @@ A impressão digital do documento não detectará informações confidenciais no
 - Arquivos protegidos por senha
 - Arquivos que contenham somente imagens
 - Documentos que não contenham todo o texto do formulário original usado para criar a impressão digital de documento
+- Arquivos com mais de 10 MB
 
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>Usar o PowerShell para criar um pacote de regras de classificação com base na impressão digital do documento
 
-Observe que você pode criar uma impressão digital de documento apenas usando o PowerShell no Centro &amp; de Conformidade de Segurança. Para se conectar, [consulte Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell).
+Observe que você pode criar uma impressão digital de documento apenas usando o PowerShell no Centro &amp; de Conformidade de Segurança. Para se conectar, [consulte Conexão Segurança & Centro de Conformidade PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
 A DLP usa pacotes de regra de classificação para detectar conteúdos confidenciais. Para criar um pacote de regra de classificação com base em uma impressão digital de documento, use os cmdlets **New-DlpFingerprint** e **New-DlpSensitiveInformationType.** Como os resultados de **New-DlpFingerprint** não são armazenados fora da regra de classificação de dados, você sempre **executará New-DlpFingerprint** e **New-DlpSensitiveInformationType** ou **Set-DlpSensitiveInformationType** na mesma sessão do PowerShell. Este exemplo cria uma nova impressão digital de documento baseada no arquivo CC:\My Documents\Contoso Employee Template.docx. Armazene a nova impressão digital como uma variável para poder usá-la com o cmdlet **New-DlpSensitiveInformationType** na mesma sessão do PowerShell.
   
@@ -90,7 +91,7 @@ Por fim, adicione o pacote de regras de classificação de dados "Contoso Custom
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
 ```
 
-Você também pode usar o pacote de regras de classificação de dados em regras de fluxo de emails no Exchange Online, conforme mostrado no exemplo a seguir. Para executar esse comando, primeiro você precisa [se conectar ao PowerShell do Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell) Observe também que leva tempo para que o pacote de regras sincronize do Centro de Conformidade de Segurança &amp; para o Centro de administração do Exchange.
+Você também pode usar o pacote de regra de classificação de dados em regras de fluxo de emails Exchange Online, conforme mostrado no exemplo a seguir. Para executar esse comando, primeiro você precisa Conexão [para Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Observe também que leva tempo para que o pacote de regras sincronize do Centro de Conformidade de Segurança &amp; para o Exchange de administração.
   
 ```powershell
 New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}

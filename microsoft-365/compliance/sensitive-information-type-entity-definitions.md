@@ -17,29 +17,18 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 feedback_system: None
-description: A prevenção contra perda de dados (DLP) no Centro de Conformidade e Segurança inclui 80 tipos de informações confidenciais que estão prontos para uso em suas políticas &amp; de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo.
-ms.openlocfilehash: 341ded0c4c7f6ff31074d17624c029e7f6187480
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: A prevenção contra perda de dados (DLP) no Centro de Conformidade e Segurança inclui mais de 200 tipos de informações confidenciais que estão prontos para uso em suas políticas &amp; de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo.
+ms.openlocfilehash: 0f3de14466cf9d2ebf5550eaec002bd4dea6e435
+ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919707"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "52086724"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Definições da entidade de tipo de informações confidenciais 
 
-A prevenção contra perda de dados (DLP) no Centro de Conformidade inclui muitos tipos de informações confidenciais que estão prontos para uso em suas políticas de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo. Um tipo de informação confidencial é definido por um padrão que pode ser identificado por uma função ou uma expressão regular. Evidências comprobatórias, como palavras-chave e verificações, podem ser usadas para identificar um tipo de informação sensível. O nível de confiança e a proximidade também são usados no processo de avaliação.
-
-Os tipos de informações confidenciais exigem uma dessas assinaturas:
-- Microsoft 365 E3
-- Microsoft 365 E5
-
-Tipos de informações confidenciais são usados em:
-
-- [Políticas de prevenção contra perda de dados](data-loss-prevention-policies.md) 
-- [Rótulos de confidencialidade](sensitivity-labels.md)
-- [Rótulos de retenção](retention.md)
-- [Conformidade em comunicações](communication-compliance.md)
-- [Políticas de rotulagem automática](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
+A prevenção contra perda de dados (DLP) no Centro de Conformidade inclui muitos tipos de informações confidenciais que estão prontos para uso em suas políticas de DLP. Este artigo lista todos esses tipos de informações confidenciais e mostra o que uma política de DLP procura quando detecta cada tipo. Para saber mais sobre tipos de informações confidenciais, consulte [Tipos de informações confidenciais](sensitive-information-type-learn-about.md)
 
 ## <a name="aba-routing-number"></a>Número de roteamento ABA
 
@@ -154,6 +143,89 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 - documento numero 
 - registro nacional de las personas 
 - rnp 
+   
+## <a name="argentina-unique-tax-identification-key-cuitcuil"></a>Chave de Identificação Fiscal Exclusiva da Argentina (CUIT/CUIL)
+
+### <a name="format"></a>Formatar
+
+11 dígitos com traço
+
+### <a name="pattern"></a>Padrão
+
+11 dígitos com um traço:
+- dois dígitos em 20, 23, 24, 27, 30, 33 ou 34
+- um hífen (-)
+- oito dígitos
+- um hífen (-)
+- um dígito de verificação
+
+### <a name="checksum"></a>Soma de verificação
+
+Sim
+
+### <a name="definition"></a>Definição
+
+Uma política DLP tem alta confiança de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
+- A função `Func_Argentina_Unique_Tax_Key` localiza conteúdo que corresponde ao padrão.
+- Uma palavra-chave de `Keyword_Argentina_Unique_Tax_Key` é encontrada.
+
+Uma política de DLP tem confiança média de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
+- A função `Func_Argentina_Unique_Tax_Key` localiza conteúdo que corresponde ao padrão.
+
+```xml
+    <!-- Argentina Unique Tax Identification Key (CUIT/CUIL) -->
+      <Entity id="98da3da1-9199-4571-b7c4-b6522980b507" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_Argentina_Unique_Tax_Key" />
+          <Match idRef="Keyword_Argentina_Unique_Tax_Key" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_Argentina_Unique_Tax_Key" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>Palavras-chave
+
+#### <a name="keyword_argentina_unique_tax_key"></a>Keyword_Argentina_Unique_Tax_Key
+
+- Clave Unica de Identificacion Tributaria
+- CUIT
+- código exclusivo de identificação de mão-de-obra 
+- Clave Única de Identificación Tributaria
+- código de identificação de trabalho exclusivo
+- CUIL
+- Chave de Identificação Fiscal Exclusiva
+- Chave de Identificação de Trabalho Exclusiva
+- Chave exclusiva da identificação de mão de obra
+- Código de Identificação de Trabalho Exclusivo
+- Identificação exclusiva do Código de Trabalho
+- Chave de Identificação de Trabalho Exclusiva
+- Chave exclusiva da identificação do trabalho
+- Código exclusivo de identificação fiscal
+- Chave exclusiva de identificação fiscal
+- Código de Identificação de Trabalho Exclusivo
+- Identificação exclusiva do Código de Trabalho
+- Chave de Identificação de Trabalho Exclusiva
+- Chave exclusiva de identificação do trabalho
+- ID de imposto
+- taxID #
+- taxId
+- taxidnumber
+- número de imposto
+- tax no
+- tax #
+- tax #
+- ID do contribuinte
+- número do contribuinte
+- contribuinte não
+- taxpayer #
+- taxpayer #
+- identidade fiscal
+- tax identification
+- Número de Identificación Fiscal
+- número de contribuyente
+   
    
 ## <a name="australia-bank-account-number"></a>Número da conta bancária da Austrália
 
@@ -1612,7 +1684,7 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 - testacs.<!--no-hyperlink-->com
 - s-int.<!--no-hyperlink-->net
 
-## <a name="azure-storage-account-key-generic"></a>Chave da conta de armazenamento do Azure (genérica)
+## <a name="azure-storage-account-key-generic"></a>Chave de conta do Azure Armazenamento (genérica)
 
 ### <a name="format"></a>Formatar
 
@@ -3392,9 +3464,12 @@ Uma política de DLP tem baixa confiança de que detectou esse tipo de informaç
 - codigo de seguranca
 - codigo de segurança
 - código de seguranca
-- cód. segurança
+- 
+cód. segurança
 - cod. seguranca
+
 - cod. segurança
+
 - cód. seguranca
 - cód segurança
 - cod seguranca
@@ -3574,7 +3649,8 @@ Uma política de DLP tem baixa confiança de que detectou esse tipo de informaç
 - no do cartão
 - no do cartao
 - Não. do cartão
-- Não. do cartao
+- no. do cartao
+
 - クレジットカード番号
 - クレジットカードナンバー
 - クレジットカード＃
@@ -5606,11 +5682,15 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 - no de tarjeta 
 - no do cartao 
 - no do cartão 
-- Não. de tarjeta 
-- Não. do cartao 
-- Não. do cartão 
+- no. de tarjeta
+ 
+- no. do cartao
+ 
+- no. do cartão
+ 
 - nr carta 
-- nr. carta 
+- nr. carta
+ 
 - numeri di scheda 
 - numero carta 
 - numero de cartao 
@@ -5629,7 +5709,8 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 - nº de tarjeta 
 - nº do cartao 
 - nº do cartão 
-- nº. do cartão 
+- nº. do cartão
+ 
 - número de cartao 
 - número de cartão 
 - número de tarjeta 
@@ -5681,10 +5762,14 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 - cod seguranca 
 - cod segurança 
 - cod sicurezza 
-- cod. seg 
-- cod. seguranca 
-- cod. segurança 
-- cod. sicurezza 
+- cod. seg
+ 
+- cod. seguranca
+ 
+- cod. segurança
+ 
+- cod. sicurezza
+ 
 - codice di sicurezza 
 - codice di verifica 
 - codigo 
@@ -5701,8 +5786,10 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 - cvv2 
 - cód seguranca 
 - cód segurança 
-- cód. seguranca 
-- cód. segurança 
+- cód. seguranca
+ 
+- cód. segurança
+ 
 - código 
 - código de seguranca 
 - código de segurança 
@@ -5714,8 +5801,10 @@ Uma política DLP tem alta confiança de que detectou esse tipo de informação 
 - kreditkartenprufnummer 
 - kreditkartenprüfnummer 
 - kwestieaantal 
-- Não. dell'edizione 
-- Não. di sicurezza 
+- no. dell'edizione
+ 
+- no. di sicurezza
+ 
 - numero de securite 
 - numero de verificacao 
 - numero dell'edizione 
@@ -6759,14 +6848,16 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 - national id
 - national identification
 - no d'identité
-- Não. d'identité
+- 
+no. d'identité
 - numéro d'assurance
 - numéro d'identité
 - numero d'identite
 - numéro de sécu
 - numéro de sécurité sociale
 - no d'identite
-- Não. d'identite
+- 
+no. d'identite
 - ssn
 - ssn #
 - sécurité sociale
@@ -11685,6 +11776,132 @@ Uma política de DLP tem baixa confiança de que detectou esse tipo de informaç
 - número de identidade exclusivo
 - uniqueidentityno #
 
+
+## <a name="medicare-beneficiary-identifier-mbi-card"></a>Cartão de Identificador de Beneficiário do Medicare (MBI)
+
+### <a name="format"></a>Formatar
+
+padrão alfanumérico de 11 caracteres
+  
+### <a name="pattern"></a>Padrão
+
+- um dígito entre 1 e 9
+- uma letra excluindo S, L, O, I, B, Z
+- um dígito ou letra excluindo S, L, O, I, B, Z
+- um dígito
+- um Hífen opcional
+- uma letra excluindo S, L, O, I, B, Z
+- um dígito ou letra excluindo S, L, O, I, B, Z
+- um dígito
+- um Hífen opcional
+- duas letras excluindo S, L, O, I, B, Z
+- dois dígitos
+    
+### <a name="checksum"></a>Soma de verificação
+
+Não
+  
+### <a name="definition"></a>Definição
+
+Uma política DLP tem alta confiança de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
+- A expressão regular  `Regex_mbi_card` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keyword_mbi_card` é encontrada. 
+    
+Uma política de DLP tem confiança média de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
+- A expressão regular  `Regex_mbi_card` localiza conteúdo que corresponde ao padrão. 
+    
+```xml
+    <!-- Medicare Beneficiary Identifier (MBI) card -->
+      <Entity id="f753a286-f5cc-47e6-a592-4be25fd02591" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Regex_mbi_card" />
+          <Match idRef="Keyword_mbi_card" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Regex_mbi_card" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>Palavras-chave
+
+#### <a name="keyword_mbi_card"></a>Keyword_mbi_card
+
+- mbi
+- mbi #
+- beneficiário do plano de saúde #
+- identificador do beneficiário do plano de saúde
+- não do beneficiário do plano de saúde
+- número do beneficiário do plano de saúde
+- beneficiário do plano de saúde #
+
+
+## <a name="mexico-unique-population-registry-code-curp"></a>Código de Registro de População Exclusivo do México (CURP)
+
+### <a name="format"></a>Formatar
+
+Padrão alfanumérico de 18 caracteres
+  
+### <a name="pattern"></a>Padrão
+
+- quatro letras (sem maiúsculas e minúsculas)
+- seis dígitos indicando uma data válida
+- uma letra - H/h ou M/m
+- duas letras indicando um código de estado mexicano válido
+- três letras
+- uma letra ou dígito
+- um dígito
+    
+### <a name="checksum"></a>Soma de verificação
+
+Não
+  
+### <a name="definition"></a>Definição
+
+Uma política DLP tem alta confiança de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
+- A função  `Func_mexico_population_registry_code` localiza conteúdo que corresponde ao padrão. 
+- Uma palavra-chave de  `Keyword_mexico_population_registry_code` é encontrada. 
+    
+Uma política de DLP tem confiança média de que detectou esse tipo de informação confidenciais se, dentro de uma proximidade de 300 caracteres:
+- A função  `Func_mexico_population_registry_code` localiza conteúdo que corresponde ao padrão. 
+    
+```xml
+    <!-- Mexico Unique Population Registry Code (CURP) -->
+      <Entity id="e905ad4d-5a74-406d-bf36-b1efca798af4" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_mexico_population_registry_code" />
+          <Match idRef="Keyword_mexico_population_registry_code" />
+        </Pattern>
+        <Pattern confidenceLevel="75">
+          <IdMatch idRef="Func_mexico_population_registry_code" />
+        </Pattern>
+      </Entity>
+```
+
+### <a name="keywords"></a>Palavras-chave
+
+#### <a name="keyword_mexico_population_registry_code"></a>Keyword_mexico_population_registry_code
+
+- Clave Única de Registro de Población
+- Clave Unica de Registro de Poblacion
+- Código exclusivo do Registro de População 
+- código de população exclusivo
+- CURP
+- ID Pessoal
+- ID exclusiva
+- personalid
+- personalidnumber
+- uniqueidkey
+- uniqueidnumber
+- clave única
+- clave unica
+- clave personal Identidad
+- personal Identidad Clave
+- ClaveÚnica
+- claveunica
+- clavepersonalIdentidad
+
+
 ## <a name="netherlands-citizens-service-bsn-number"></a>Número do serviço de cidadãos (BSN) dos Países Baixos
 
 ### <a name="format"></a>Formatar
@@ -12788,6 +13005,7 @@ Uma política de DLP tem confiança média de que detectou esse tipo de informa�
 - Nazwa i nr dowodu tożsamości
 - Dowód Tożsamości
 - dow. os.
+
 
    
 ## <a name="poland-national-id-pesel"></a>ID nacional da Polônia (PESEL)

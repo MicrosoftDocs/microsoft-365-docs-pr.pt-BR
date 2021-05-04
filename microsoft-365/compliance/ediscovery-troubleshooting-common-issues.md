@@ -16,15 +16,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Saiba mais sobre as etapas básicas de solução de problemas que você pode tomar para resolver problemas comuns na Descoberta eDiscovery do Office 365.
+description: Saiba mais sobre as etapas básicas de solução de problemas que você pode tomar para resolver problemas comuns Office 365 Descoberta eDiscovery.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a867ed2e55c73fe4bbd890273d78cf57f4bfbd2c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 3d3d0830ac677ea812a0d09793de8214245d6b2a
+ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926541"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52060986"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Investigar, solucionar problemas e resolver problemas comuns de Descoberta e Descoberta
 
@@ -32,13 +32,13 @@ Este tópico aborda as etapas básicas de solução de problemas que podem ser t
 
 ## <a name="errorissue-ambiguous-location"></a>Erro/problema: local ambíguo
 
-Se você tentar adicionar o local da caixa de correio do usuário à pesquisa e houver objetos duplicados ou conflitantes com o mesmo userID no diretório proteção do Exchange Online (EOP), você receberá este erro: `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous` .
+Se você tentar adicionar o local da caixa de correio do usuário à pesquisa e houver objetos duplicados ou conflitantes com o mesmo userID no diretório Proteção do Exchange Online (EOP), você receberá este erro: `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous` .
 
 ### <a name="resolution"></a>Resolução
 
 Verifique se há usuários duplicados ou lista de distribuição com a mesma ID de usuário.
 
-1. Conecte-se [ao Centro de Conformidade & Segurança do PowerShell](/powershell/exchange/connect-to-scc-powershell).
+1. Conexão [para o Centro de Conformidade & Segurança powerShell](/powershell/exchange/connect-to-scc-powershell).
 
 2. Execute o seguinte comando para recuperar todas as instâncias do nome de usuário:
 
@@ -52,7 +52,7 @@ Verifique se há usuários duplicados ou lista de distribuição com a mesma ID 
    > |Nome|RecipientType|
    > |---|---|
    > |Alias, User|MailUser|
-   > |Alias, User|User|
+   > |Alias, User|Usuário|
 
 3. Se vários usuários são retornados, localize e corrige o objeto conflitante.
 
@@ -66,7 +66,7 @@ Uma descoberta de conteúdo ou descoberta de conteúdo pode gerar o seguinte err
 
 Se você receber esse erro, recomendamos que você verifique os locais que falharam na pesquisa e, em seguida, reprise a pesquisa somente nos locais com falha.
 
-1. Conecte-se ao Centro de Conformidade & Segurança do [PowerShell](/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
+1. Conexão para o Centro de Conformidade & Segurança do [PowerShell](/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -80,9 +80,9 @@ Se você receber esse erro, recomendamos que você verifique os locais que falha
 
 ## <a name="errorissue-file-not-found"></a>Erro/problema: Arquivo não encontrado
 
-Ao executar uma pesquisa de Descoberta Virtual que inclui locais do SharePoint Online e do One Drive For Business, você pode receber o erro, embora o arquivo está `File Not Found` localizado no site. Esse erro estará nos avisos de exportação e errors.csv ou ignorado items.csv. Isso pode ocorrer se o arquivo não puder ser encontrado no site ou se o índice estiver desa datado. Aqui está o texto de um erro real (com ênfase adicionada).
+Ao executar uma pesquisa de Descoberta Virtual que inclui SharePoint online e locais do One Drive For Business, você pode receber o erro, embora o arquivo está `File Not Found` localizado no site. Esse erro estará nos avisos de exportação e errors.csv ou ignorado items.csv. Isso pode ocorrer se o arquivo não puder ser encontrado no site ou se o índice estiver desa datado. Aqui está o texto de um erro real (com ênfase adicionada).
 
-> 28.06.2019 10:02:19_FailedToExportItem_Failed baixar conteúdo. Informações de diagnóstico adicionais : Microsoft.Office.Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: Falha ao baixar do conteúdo 6ea52149-91cd-4965-b5bb-82ca6a3ec9be do tipo Document. Id de correlação: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 ---> Microsoft.SharePoint.Client.ServerException: ***Arquivo não encontrado***. em Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream) em Microsoft.SharePoint.Client.ClientRequest.ProcessResponse() --- Fim do rastreamento de pilha de exceção interna ---
+> 28.06.2019 10:02:19_FailedToExportItem_Failed baixar conteúdo. Informações de diagnóstico adicionais : Microsoft. Office. Compliance.EDiscovery.ExportWorker.Exceptions.ContentDownloadTemporaryFailure: Falha ao baixar do conteúdo 6ea52149-91cd-4965-b5bb-82ca6a3ec9be do tipo Document. Id de correlação: 3bd84722-937b-4c23-b61b-08d6fba9ec32. ServerErrorCode: -2147024894 ---> Microsoft. SharePoint. Client.ServerException: ***Arquivo não encontrado***. na Microsoft. SharePoint. Client.ClientRequest.ProcessResponseStream(Stream responseStream) na Microsoft. SharePoint. Client.ClientRequest.ProcessResponse() --- fim da pilha de exceção interna ---
 
 ### <a name="resolution"></a>Resolução
 
@@ -92,13 +92,13 @@ Ao executar uma pesquisa de Descoberta Virtual que inclui locais do SharePoint O
 
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>Erro/problema: a pesquisa falha porque o destinatário não foi encontrado
 
-Uma pesquisa de Descoberta E falha com o erro `recipient not found` de . Esse erro pode ocorrer se o objeto do usuário não puder ser encontrado no Exchange Online Protection (EOP) porque o objeto não foi sincronizado.
+Uma pesquisa de Descoberta E falha com o erro `recipient not found` de . Esse erro pode ocorrer se o objeto do usuário não puder ser encontrado no Proteção do Exchange Online (EOP) porque o objeto não foi sincronizado.
 
 ### <a name="resolution"></a>Resolução
 
-1. Conecte-se [ao PowerShell do Exchange Online.](/powershell/exchange/connect-to-exchange-online-powershell)
+1. Conexão para [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-2. Execute o seguinte comando para verificar se o usuário está sincronizado com a Proteção do Exchange Online:
+2. Execute o seguinte comando para verificar se o usuário está sincronizado com Proteção do Exchange Online:
 
    ```powershell
    Get-Recipient <userId> | FL
@@ -112,7 +112,7 @@ Ao exportar resultados da pesquisa da Descoberta Digital ou da Pesquisa de Conte
 
 ### <a name="resolution"></a>Resolução
 
-1. Conecte-se ao Centro de Conformidade & Segurança do [PowerShell](/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
+1. Conexão para o Centro de Conformidade & Segurança do [PowerShell](/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
 
    ```powershell
    Get-ComplianceSearch <searchname> | FL
@@ -142,7 +142,7 @@ Ao executar uma pesquisa de Descoberta Eletrônico, se a pesquisa falhar continu
 
 1. Quebre a pesquisa em pesquisas menores e execute a pesquisa novamente.  Tente usar um intervalo de datas menor ou limite o número de locais que estão sendo pesquisados.
 
-2. Conecte-se ao Centro de Conformidade & Segurança do [PowerShell](/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
+2. Conexão para o Centro de Conformidade & Segurança do [PowerShell](/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando:
 
    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
    Get-ComplianceSearch <searchname> | FL
@@ -162,7 +162,7 @@ Erro de Distribuição de Sincronização de Sincronização de Política de Des
 
 ### <a name="resolution"></a>Resolução
 
-1. Conecte-se ao Centro de Conformidade & Segurança do [PowerShell](/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando para um caso de descoberta de eDiscovery:
+1. Conexão & para o Centro de Conformidade e Segurança do [PowerShell](/powershell/exchange/connect-to-scc-powershell) e execute o seguinte comando para uma ressarção de caso de Descoberta eDiscovery:
 
    ```powershell
    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
@@ -196,7 +196,7 @@ Erro de Distribuição de Sincronização de Sincronização de Política de Des
 
 ## <a name="error-the-condition-specified-using-http-conditional-headers-is-not-met"></a>Erro: "A condição especificada usando cabeçalhos condicionais HTTP não é atendida"
 
-Ao baixar os resultados da pesquisa usando a Ferramenta de Exportação de Descoberta Virtual, é possível que você receba o seguinte erro: este é um erro transitório, que normalmente ocorre no local de Armazenamento do `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` Azure.
+Ao baixar os resultados da pesquisa usando a Ferramenta de Exportação de Descoberta Armazenamento, é possível que você receba o seguinte erro: Este é um erro transitório, que normalmente ocorre no local de Armazenamento `System.Net.WebException: The remote server returned an error: (412) The condition specified using HTTP conditional header(s) is not met.` do Azure.
 
 ### <a name="resolution"></a>Resolução
 
@@ -212,12 +212,14 @@ Este é um problema do lado do cliente e, para remediar, tente as seguintes etap
 
 1. Tente usar outro cliente/máquina para baixar.
 
-2. Certifique-se de baixar para uma unidade local.
+2. Remova pesquisas antigas que não são mais necessárias usando o cmdlet [Remove-ComplianceSearch][/powershell/module/exchange/remove-compliancesearch].
 
-3. Certifique-se de que o scanner de vírus não está em execução.
+3. Certifique-se de baixar para uma unidade local.
 
-4. Certifique-se de que nenhuma outra exportação está baixando para a mesma pasta ou qualquer pasta pai.
+4. Certifique-se de que o scanner de vírus não está em execução.
 
-5. Se as etapas anteriores não funcionarem, desabilite o zipping e a de duplicação.
+5. Certifique-se de que nenhuma outra exportação está baixando para a mesma pasta ou qualquer pasta pai.
 
-6. Se isso funcionar, o problema será devido a um scanner de vírus local ou a um problema de disco.
+6. Se as etapas anteriores não funcionarem, desabilite o zipping e a de duplicação.
+
+7. Se isso funcionar, o problema será devido a um scanner de vírus local ou a um problema de disco.

@@ -1,5 +1,5 @@
 ---
-title: Saiba mais sobre a política de prevenção de perda de dados padrão no Microsoft Teams (visualização)
+title: Saiba mais sobre a política padrão de prevenção contra perda de dados no Microsoft Teams (visualização)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,21 +14,21 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Saiba mais sobre a política de prevenção de perda de dados padrão no Microsoft Teams
-ms.openlocfilehash: 3992daf9431dbd87ed5e947a1e5a2b0acd20edce
-ms.sourcegitcommit: 450661071e44854f0a0a92af648f76d907767b71
+description: Saiba mais sobre a política de prevenção de perda de dados padrão Microsoft Teams
+ms.openlocfilehash: 0663c370373708009346d4f858729e17436f0f62
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826217"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114139"
 ---
-# <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Saiba mais sobre a política de prevenção de perda de dados padrão no Microsoft Teams (visualização)
+# <a name="learn-about-the-default-data-loss-prevention-policy-in-microsoft-teams-preview"></a>Saiba mais sobre a política padrão de prevenção contra perda de dados no Microsoft Teams (visualização)
 
-[Os recursos de prevenção](data-loss-prevention-policies.md) contra perda de dados (DLP) foram estendidos para incluir mensagens de chat e canal do Microsoft Teams, incluindo mensagens de canal privado. Como parte dessa versão, criamos uma política DLP padrão para clientes de primeira para o Centro de Conformidade.
+[Os recursos de prevenção](dlp-learn-about-dlp.md) contra perda de dados foram estendidos para incluir Microsoft Teams de chat e de canal, incluindo mensagens de canal privado. Como parte dessa versão, criamos uma política DLP padrão para clientes de primeira para o Centro de Conformidade.
 
 ## <a name="applies-to"></a>Aplicável a
 
-Qualquer locatário licenciado com uma ou mais das licenças abaixo e que tenha usuários ativos do Teams
+Qualquer locatário licenciado com uma ou mais das licenças abaixo e que tenha usuários Teams ativos
  
 - ME5, 
 - MA5, 
@@ -47,7 +47,7 @@ Os administradores podem exibir essa política na página Centro de [Conformidad
 
 
 > [!div class="mx-imgBorder"]
-> ![política DLP padrão do Teams](../media/default-teams-dlp-policy.png)
+> ![política Teams DLP padrão](../media/default-teams-dlp-policy.png)
 
 ## <a name="edit-or-delete-the-default-policy"></a>Editar ou excluir a política padrão
 

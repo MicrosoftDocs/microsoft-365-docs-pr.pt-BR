@@ -17,17 +17,17 @@ search.appverid:
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 ms.custom:
 - seo-marvel-apr2020
-description: Saiba como gerenciar itens parcialmente indexados (também chamados de itens não indexados) do Exchange, do SharePoint e do OneDrive for Business em sua organização.
-ms.openlocfilehash: 5d30c0f7c6ae77236ba7fd9f2dbfcc7a0397ae21
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Saiba como gerenciar itens parcialmente indexados (também chamados de itens não indexados) Exchange, SharePoint e OneDrive for Business dentro da sua organização.
+ms.openlocfilehash: c24fb2d9b633181538d76cf35e27dae1824b311d
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922575"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994800"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>Investigando itens parcialmente indexados na Descoberta eDiscovery
 
-Uma pesquisa de Descoberta Automática que você executar do centro de conformidade do Microsoft 365 inclui automaticamente itens parcialmente indexados nos resultados estimados da pesquisa ao executar uma pesquisa. Itens parcialmente indexados são itens de caixa de correio e documentos do Exchange em sites do SharePoint e do OneDrive for Business que, por algum motivo, não foram totalmente indexados para pesquisa. A maioria das mensagens de email e documentos de site são indexadas com êxito porque estão dentro dos [limites de indexação para mensagens de email.](limits-for-content-search.md#indexing-limits-for-email-messages) No entanto, alguns itens podem exceder esses limites de indexação e serão parcialmente indexados. Aqui estão outros motivos pelos quais os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados quando você executar uma pesquisa de Descoberta E:
+Uma pesquisa de Descoberta Automática que você executar do centro de conformidade Microsoft 365 inclui automaticamente itens parcialmente indexados nos resultados estimados da pesquisa ao executar uma pesquisa. Itens parcialmente indexados são Exchange de caixa de correio e documentos em sites SharePoint e OneDrive for Business que, por algum motivo, não foram totalmente indexados para pesquisa. A maioria das mensagens de email e documentos de site são indexadas com êxito porque estão dentro dos [limites de indexação para mensagens de email.](limits-for-content-search.md#indexing-limits-for-email-messages) No entanto, alguns itens podem exceder esses limites de indexação e serão parcialmente indexados. Aqui estão outros motivos pelos quais os itens não podem ser indexados para pesquisa e são retornados como itens parcialmente indexados quando você executar uma pesquisa de Descoberta E:
   
 - As mensagens de email têm um arquivo anexado sem um manipulador válido, como arquivos de imagem; essa é a causa mais comum de itens de email parcialmente indexados.
 
@@ -45,10 +45,7 @@ Depois que você executar uma pesquisa de Descobertas E, o número total e o tam
   
 - Se um item for parcialmente indexado e corresponde à consulta de pesquisa, ele será incluído na contagem (e no tamanho) dos itens de resultado da pesquisa e itens parcialmente indexados. No entanto, quando os resultados dessa mesma pesquisa são exportados, o item é incluído apenas com o conjunto de resultados da pesquisa; ele não está incluído como um item parcialmente indexado.
 
-- Se você especificar um intervalo de datas para uma consulta de pesquisa (incluindo-a na consulta de palavra-chave ou usando uma condição), qualquer item parcialmente indexado que não corresponder ao intervalo de datas não será incluído na contagem de itens parcialmente indexados. Itens parcialmente indexados que se enquadram no intervalo de datas são incluídos na contagem de itens indexados.
-
-  > [!NOTE]
-  > Os itens parcialmente indexados localizados nos *sites* do SharePoint e do OneDrive não são incluídos na estimativa de itens parcialmente indexados exibidos nas estatísticas detalhadas da pesquisa. No entanto, itens parcialmente indexados podem ser exportados quando você exporta os resultados de uma pesquisa de Descoberta e. Por exemplo, se você pesquisar apenas sites, o número estimado parcialmente indexado itens será zero.
+- Os itens parcialmente indexados localizados em sites SharePoint e OneDrive *não* estão incluídos na estimativa de itens parcialmente indexados exibidos nas estatísticas detalhadas da pesquisa. No entanto, itens parcialmente indexados podem ser exportados quando você exporta os resultados de uma pesquisa de Descoberta e. Por exemplo, se você pesquisar apenas sites, o número estimado parcialmente indexado itens será zero.
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>Calculando a proporção de itens parcialmente indexados em sua organização
 
@@ -80,7 +77,7 @@ Nos casos em que você precisa examinar parcialmente itens para validar que eles
   
 ![Escolha a segunda ou a terceira opção para exportar itens parcialmente indexados](../media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
   
-Quando você exporta resultados de pesquisa de Descoberta Items.csv. Este relatório inclui a maioria das mesmas informações que o arquivo ResultsLog.csv arquivo; no entanto, o arquivo Items.csv também inclui dois campos relacionados a itens parcialmente **indexados:** **Marcas** de Erro e Propriedades de Erro . Esses campos contêm informações sobre o erro de indexação para cada item parcialmente indexado. O uso das informações nesses dois campos pode ajudá-lo a determinar se o erro de indexação de um determinado afeta ou não sua investigação. Se isso acontecer, você poderá executar uma pesquisa direcionada e recuperar e exportar mensagens de email específicas e documentos do SharePoint ou do OneDrive para que você possa examiná-los para determinar se elas são relevantes para sua investigação. Para obter instruções passo a passo, consulte [Prepare a CSV file for a targeted search in Office 365](csv-file-for-an-id-list-content-search.md).
+Quando você exporta resultados de pesquisa de Descoberta Items.csv. Este relatório inclui a maioria das mesmas informações que o arquivo ResultsLog.csv arquivo; no entanto, o arquivo Items.csv também inclui dois campos relacionados a itens parcialmente **indexados:** **Marcas** de Erro e Propriedades de Erro . Esses campos contêm informações sobre o erro de indexação para cada item parcialmente indexado. O uso das informações nesses dois campos pode ajudá-lo a determinar se o erro de indexação de um determinado afeta ou não sua investigação. Se isso acontecer, você poderá executar uma pesquisa direcionada e recuperar e exportar mensagens de email específicas e documentos SharePoint ou OneDrive para que você possa examiná-los para determinar se elas são relevantes para sua investigação. Para obter instruções passo a passo, consulte [Prepare a CSV file for a targeted search in Office 365](csv-file-for-an-id-list-content-search.md).
 
 > [!NOTE]
 > O arquivo Items.csv não Items.csv também contém campos denominados **Tipo de** Erro e Mensagem **de Erro.** Esses são campos herdados que contêm informações semelhantes  às informações nos campos **Marcas** de Erro e Propriedades de Erro, mas com informações menos detalhadas. Você pode ignorar com segurança esses campos herddos.
@@ -105,13 +102,13 @@ Veja a seguir uma lista de erros de indexação e uma descrição da possível c
 | `attachmentsize` <br/> |Um arquivo anexado a uma mensagem de email era muito grande e não podia ser processado.  <br/> |
 | `indexingtruncated` <br/> |Ao escrever a mensagem de email processada no índice, uma das propriedades indexáveis era muito grande e foi truncada. As propriedades truncadas estão listadas no campo Propriedades de Erro.  <br/> |
 | `invalidunicode` <br/> |Uma mensagem de email continha texto que não poderia ser processado como Unicode válido. A indexação para este item pode estar incompleta.  <br/> |
-| `parserencrypted` <br/> |O conteúdo do anexo ou da mensagem de email é criptografado e o Microsoft 365 não conseguiu decodificar o conteúdo.  <br/> |
+| `parserencrypted` <br/> |O conteúdo do anexo ou da mensagem de email é criptografado e Microsoft 365 não pôde decodificar o conteúdo.  <br/> |
 | `parsererror` <br/> |Ocorreu um erro desconhecido durante a análise. Isso normalmente resulta de um bug de software ou de uma falha de serviço.  <br/> |
 | `parserinputsize` <br/> |Um anexo era muito grande para o analisador manipular, e a análise desse anexo não aconteceu ou não foi concluída.  <br/> |
 | `parsermalformed` <br/> |Um anexo foi malformado e não pôde ser manipulado pelo analisador. Esse resultado pode ser devido a formatos de arquivo antigos, arquivos criados por software incompatível ou vírus que fingem ser algo diferente de reivindicado.  <br/> |
 | `parseroutputsize` <br/> |A saída da análise de um anexo era muito grande e precisava ser truncada.  <br/> |
-| `parserunknowntype` <br/> |Um anexo tinha um tipo de arquivo que o Microsoft 365 não detectou.  <br/> |
-| `parserunsupportedtype` <br/> |Um anexo tinha um tipo de arquivo que o Office 365 poderia detectar, mas não há suporte para analisar esse tipo de arquivo.  <br/> |
+| `parserunknowntype` <br/> |Um anexo tinha um tipo de arquivo Microsoft 365 não era detectado.  <br/> |
+| `parserunsupportedtype` <br/> |Um anexo tinha um tipo de arquivo que Office 365 poderia detectar, mas não há suporte para analisar esse tipo de arquivo.  <br/> |
 | `propertytoobig` <br/> |O valor de uma propriedade de email no Exchange Store era muito grande para ser recuperado e a mensagem não pôde ser processada. Normalmente, isso só acontece com a propriedade body de uma mensagem de email.  <br/> |
 | `retrieverrms` <br/> |O recuperador de conteúdo falhou ao decodificar uma mensagem protegida por RMS.  <br/> |
 | `wordbreakertruncated` <br/> |Muitas palavras foram identificadas no documento durante a indexação. O processamento da propriedade parou ao atingir o limite e a propriedade é truncada.  <br/> |
@@ -120,7 +117,7 @@ Os campos de erro descrevem quais campos são afetados pelo erro de processament
   
 ## <a name="using-a-powershell-script-to-determine-your-organizations-exposure-to-partially-indexed-email-items"></a>Usando um script do PowerShell para determinar a exposição da sua organização a itens de email parcialmente indexados
 
-As etapas a seguir mostram como executar um script do PowerShell que pesquisa todos os itens em todas as caixas de correio do Exchange e, em seguida, gera um relatório sobre a taxa de sua organização de itens de email parcialmente indexados (por contagem e por tamanho) e exibe o número de itens (e seu tipo de arquivo) para cada erro de indexação que ocorre. Use as descrições da marca de erro na seção anterior para identificar o erro de indexação.
+As etapas a seguir mostram como executar um script do PowerShell que pesquisa todos os itens em todas as caixas de correio do Exchange e, em seguida, gera um relatório sobre a proporção da sua organização de itens de email parcialmente indexados (por contagem e por tamanho) e exibe o número de itens (e seu tipo de arquivo) para cada erro de indexação que ocorre. Use as descrições da marca de erro na seção anterior para identificar o erro de indexação.
   
 1. Salve o texto a seguir em um arquivo Windows PowerShell script usando um sufixo de nome de arquivo de .ps1; por exemplo, `PartiallyIndexedItems.ps1` .
 
@@ -167,7 +164,7 @@ As etapas a seguir mostram como executar um script do PowerShell que pesquisa to
      }
    ```
 
-2. [Conectar-se ao PowerShell do Centro de Conformidade e Segurança](/powershell/exchange/exchange-online-powershell).
+2. [Conectar ao Centro de Conformidade e Segurança do PowerShell](/powershell/exchange/exchange-online-powershell).
 
 3. No Centro de Conformidade & Segurança do PowerShell, vá para a pasta onde você salvou o script na etapa 1 e execute o script; por exemplo:
 

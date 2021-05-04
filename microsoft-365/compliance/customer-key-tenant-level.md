@@ -3,7 +3,6 @@ title: Chave do cliente para Microsoft 365 no nível do locatário (visualizaç�
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 3/26/2021
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,65 +13,65 @@ ms.collection:
 - M365-security-compliance
 - m365solution-mip
 - m365initiative-compliance
-description: Saiba como configurar a Chave do Cliente para seus dados no Microsoft 365 no nível do locatário.
-ms.openlocfilehash: 811b153d5b0a472c6e542851fec45f1f42bca59b
-ms.sourcegitcommit: 94fa3e57fa6505551d84ae7b458150dceff30db7
+description: Saiba como configurar a Chave do Cliente para seus dados Microsoft 365 no nível do locatário.
+ms.openlocfilehash: 90ad08059d6b71583850368a70e32167b9defe88
+ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51394699"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52100790"
 ---
-# <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Visão geral da Chave do Cliente do Microsoft 365 no nível do locatário (visualização pública)
+# <a name="overview-of-customer-key-for-microsoft-365-at-the-tenant-level-public-preview"></a>Visão geral da Chave do Cliente para Microsoft 365 no nível do locatário (visualização pública)
 
 Usando chaves fornecidas, você pode criar uma POLÍTICA de criptografia de dados (DEP) e atribuí-la ao locatário. A DEP em todo o locatário que você cria criptografa os seguintes dados:
 
-- Mensagens de chat do Teams (chats 1:1, chats de grupo, chats de reunião e conversas de canal)
-- Mensagens de mídia do Teams (imagens, trechos de código, mensagens de vídeo, mensagens de áudio, imagens wiki)
-- Gravações de chamada e reunião do Teams armazenadas no armazenamento do Teams
-- Notificações de chat do Teams
-- Sugestões de chat do Teams pela Cortana
-- Mensagens de status do Teams
-- Informações de usuário e sinal para o Exchange Online
-- Caixas de correio do Exchange Online que ainda não estão criptografadas DEPs de Chave do Cliente no nível do aplicativo
+- Teams de chat (chats 1:1, chats de grupo, chats de reunião e conversas de canal)
+- Teams de mídia (imagens, trechos de código, mensagens de vídeo, mensagens de áudio, imagens wiki)
+- Teams de chamada e reuniões armazenadas no Teams armazenamento
+- Teams de chat
+- Teams sugestões de chat da Cortana
+- Teams de status
+- Informações de usuário e sinal para Exchange Online
+- Exchange Online caixas de correio que ainda não estão criptografadas DEPs de Chave de Cliente no nível do aplicativo
 - Dados exatos do MIP (EDM) – (esquemas de arquivo de dados, pacotes de regras e os sais usados para hash dos dados confidenciais)
 
-Para a Proteção de Informações da Microsoft e o Microsoft Teams, a Chave do Cliente no nível do locatário criptografa novos dados a partir do momento em que você atribui o DEP ao locatário. A visualização pública não dá suporte à criptografia de dados passados. Para o Exchange Online, a Chave do Cliente criptografa todos os dados existentes e novos.
+Para a Proteção de Informações da Microsoft e Microsoft Teams, a Chave do Cliente no nível do locatário criptografa novos dados a partir do momento em que você atribui o DEP ao locatário. A visualização pública não dá suporte à criptografia de dados passados. Para Exchange Online, a Chave do Cliente criptografa todos os dados existentes e novos.
 
 Você pode criar vários DEPs por locatário, mas só pode atribuir um DEP por vez. Quando você atribui o DEP, a criptografia começa automaticamente, mas leva algum tempo para ser concluída, dependendo do tamanho do locatário.
 
-## <a name="tenant-level-policies-add-broader-control-to-customer-key-for-microsoft-365"></a>As políticas de nível de locatário adicionam um controle mais amplo à Chave do Cliente do Microsoft 365
+## <a name="tenant-level-policies-add-broader-control-to-customer-key-for-microsoft-365"></a>As políticas de nível de locatário adicionam um controle mais amplo à Chave do Cliente para Microsoft 365
 
 Se você já tiver a Chave do Cliente configurada para o Exchange Online e o Sharepoint Online, veja como a nova visualização pública no nível do locatário se encaixa.
 
-A política de criptografia no nível de locatário que você cria criptografa todos os dados para as cargas de trabalho do Microsoft Teams e do Exchange Online no Microsoft 365. No entanto, para o Exchange Online, se você já tiver atribuído DEPs de Chave de Cliente a caixas de correio individuais, a política de nível de locatário não substituirá esses DEPs. A política de nível de locatário só criptografa caixas de correio que ainda não foram atribuídas a um DEP de Chave de Cliente de nível de caixa de correio. Quando você criptografa uma caixa de correio de usuário usando um DEP de nível de locatário, todo o conteúdo é criptografado. Para obter informações sobre o que é criptografado com um DEP no nível do aplicativo, consulte Criptografia de serviço [com Chave do Cliente](customer-key-overview.md).
+A política de criptografia no nível de locatário que você cria criptografa todos os dados para as cargas de trabalho Microsoft Teams e Exchange Online no Microsoft 365. No entanto, Exchange Online, se você já tiver atribuído DEPs de Chave de Cliente a caixas de correio individuais, a política de nível de locatário não substituirá esses DEPs. A política de nível de locatário só criptografa caixas de correio que ainda não foram atribuídas a um DEP de Chave de Cliente de nível de caixa de correio. Quando você criptografa uma caixa de correio de usuário usando um DEP de nível de locatário, todo o conteúdo é criptografado. Para obter informações sobre o que é criptografado com um DEP no nível do aplicativo, consulte Criptografia de serviço [com Chave do Cliente](customer-key-overview.md).
 
 ## <a name="data-that-isnt-encrypted-with-customer-key-at-the-tenant-level"></a>Dados que não são criptografados com a Chave do Cliente no nível do locatário
 
-A Chave do Cliente não criptografa os seguintes tipos de dados no nível do locatário. Em vez disso, o Microsoft 365 usa outros tipos de criptografia para proteger esses dados.
+A Chave do Cliente não criptografa os seguintes tipos de dados no nível do locatário. Em vez disso, Microsoft 365 usa outros tipos de criptografia para proteger esses dados.
 
-- Caixas de correio online do Exchange que você já criptografou usando um DEP de Chave de Cliente no nível do aplicativo. As caixas de correio que não têm uma DEP de Chave de Cliente atribuída a elas serão criptografadas usando o DEP de nível de locatário. Esse acordo significa que você pode ter algumas caixas de correio criptografadas com um DEP de nível de locatário e algumas caixas de correio criptografadas com DEPs de nível de aplicativo.
-- O SharePoint e o OneDrive for Business usam a Chave do Cliente no nível do aplicativo. Um único DEP criptografa conteúdo no SharePoint para um único geo.
-- Os arquivos do Microsoft Teams e algumas gravações de chamada e reunião do Teams salvas no OneDrive for Business e no SharePoint são criptografados por um DEP do SharePoint Online.
+- Exchange caixas de correio online que você já criptografou usando um DEP de Chave de Cliente no nível do aplicativo. As caixas de correio que não têm uma DEP de Chave de Cliente atribuída a elas serão criptografadas usando o DEP de nível de locatário. Esse acordo significa que você pode ter algumas caixas de correio criptografadas com um DEP de nível de locatário e algumas caixas de correio criptografadas com DEPs de nível de aplicativo.
+- SharePoint e OneDrive for Business usar a Chave do Cliente no nível do aplicativo. Um único DEP criptografa conteúdo em SharePoint para um único geo.
+- Microsoft Teams arquivos e algumas Teams de chamada e reuniões salvas no OneDrive for Business e SharePoint são criptografados por uma DEP SharePoint Online.
 
-Quaisquer cargas de trabalho ou cenários que não sejam suportados atualmente pela Chave do Cliente para o Microsoft 365.
+Quaisquer cargas de trabalho ou cenários que não sejam suportados atualmente pela Chave do Cliente para Microsoft 365.
 
-- Outras cargas de trabalho do Microsoft 365, como Yammer, Planner e assim por diante.
-- Eventos do Teams Live e Q&A em eventos ao vivo. Para o Teams, esse cenário é o único que não é criptografado pela Chave do Cliente no nível do locatário.
+- Outras Microsoft 365 cargas de trabalho, como Yammer, Planner e assim por diante.
+- Teams Eventos ao vivo e&A em eventos ao vivo. Para Teams, esse cenário é o único que não é criptografado pela Chave do Cliente no nível do locatário.
 
 ## <a name="set-up-customer-key-at-the-tenant-level-public-preview"></a>Configurar a Chave do Cliente no nível do locatário (visualização pública)
 
-Essas etapas são semelhantes, mas não idênticas às etapas para configurar a Chave do Cliente no nível do aplicativo. Use somente essa visualização pública com dados de teste em locatários de teste. Não use essa versão com dados de produção ou em seu ambiente de produção. Se você já tiver uma implantação de produção da Chave do Cliente, use estas etapas para configurar a Chave do Cliente no nível do locatário em um ambiente de teste. Depois de ter atribuído um DEP de nível de locatário ao seu locatário, você pode iniciar o processo de validação e entrar em contato m365ck@microsoft.com com quaisquer dúvidas ou preocupações. Você também pode encontrar etapas de validação documentadas na visualização pública das Instruções de Validação para Criptografia de Dados em Repouso [para o Microsoft 365](https://aka.ms/CustomerKey/PublicPreviewValidation).
+Essas etapas são semelhantes, mas não idênticas às etapas para configurar a Chave do Cliente no nível do aplicativo. Use somente essa visualização pública com dados de teste em locatários de teste. Não use essa versão com dados de produção ou em seu ambiente de produção. Se você já tiver uma implantação de produção da Chave do Cliente, use estas etapas para configurar a Chave do Cliente no nível do locatário em um ambiente de teste. Depois de ter atribuído um DEP de nível de locatário ao seu locatário, você pode iniciar o processo de validação e entrar em contato m365ck@microsoft.com com quaisquer dúvidas ou preocupações. Você também pode encontrar etapas de validação documentadas na visualização pública de Instruções de Validação para Criptografia de Dados [em](https://aka.ms/CustomerKey/PublicPreviewValidation)repouso para Microsoft 365 .
 
-Você concluirá a maioria dessas tarefas conectando-se remotamente ao Azure PowerShell. Para melhores resultados, use a versão 4.4.0 ou posterior do Azure PowerShell.
+Você concluirá a maioria dessas tarefas conectando-se remotamente a Azure PowerShell. Para melhores resultados, use a versão 4.4.0 ou posterior do Azure PowerShell.
 
 Antes de começar:
 
 - Você precisará usar uma conta de estudante ou de trabalho que tenha a função de administrador de conformidade para configurar a Chave do Cliente no nível do locatário.
-- Verifique se você tem o licenciamento apropriado para sua organização. Use uma Assinatura paga e faturada do Azure usando um Contrato Enterprise ou um Provedor de Serviços na Nuvem. As Assinaturas do Azure compradas usando planos Pay As You Go ou usando um cartão de crédito não são suportadas para a Chave do Cliente. A partir de 1º de abril de 2020, a Chave do Cliente no Office 365 é oferecida no Office 365 E5, no Microsoft 365 E5, na Conformidade com o Microsoft 365 E5 e no Microsoft 365 E5 & Governance SKUs. O SKU de Conformidade Avançada do Office 365 não está mais disponível para novas licenças. As licenças existentes de Conformidade Avançada do Office 365 continuarão a ser suportadas. Embora o serviço possa ser habilitado com um mínimo de um usuário licenciado adequadamente no locatário, você ainda deve garantir que todos os usuários que se beneficiam do serviço tenham licenças apropriadas.
+- Verifique se você tem o licenciamento apropriado para sua organização. Use uma Assinatura paga e faturada do Azure usando um Enterprise Agreement ou um Provedor de Serviços de Nuvem. As Assinaturas do Azure compradas usando planos Pay As You Go ou usando um cartão de crédito não são suportadas para a Chave do Cliente. A partir de 1º de abril de 2020, a Chave do Cliente no Office 365 é oferecida no Office 365 E5, Microsoft 365 E5, Microsoft 365 E5 Compliance e Microsoft 365 E5 Proteção de Informações & SKUs de Governança. Conformidade Avançada do Office 365 O SKU não está mais disponível para novas licenças. As licenças Conformidade Avançada do Office 365 existentes continuarão a ser suportadas. Embora o serviço possa ser habilitado com um mínimo de um usuário licenciado adequadamente no locatário, você ainda deve garantir que todos os usuários que se beneficiam do serviço tenham licenças apropriadas.
 
 ### <a name="create-two-new-azure-subscriptions"></a>Criar duas novas assinaturas do Azure
 
-A Chave do Cliente requer duas chaves para cada POLÍTICA de criptografia de dados (DEP). Para criar duas chaves, você deve criar duas assinaturas do Azure. Como prática prática, a Microsoft recomenda que você tenha membros separados da sua organização configurar uma chave em cada assinatura. Use apenas essas assinaturas do Azure para administrar chaves de criptografia para o Microsoft 365. Seguir essas diretrizes ajuda a proteger sua organização caso um de seus operadores exclua acidentalmente, intencionalmente ou maliciosamente ou, de outra forma, as chaves pelas quais são responsáveis.
+A Chave do Cliente requer duas chaves para cada POLÍTICA de criptografia de dados (DEP). Para criar duas chaves, você deve criar duas assinaturas do Azure. Como prática prática, a Microsoft recomenda que você tenha membros separados da sua organização configurar uma chave em cada assinatura. Use apenas essas assinaturas do Azure para administrar chaves de criptografia para Microsoft 365. Seguir essas diretrizes ajuda a proteger sua organização caso um de seus operadores exclua acidentalmente, intencionalmente ou maliciosamente ou, de outra forma, as chaves pelas quais são responsáveis.
 
 Não há limite prático para o número de assinaturas do Azure que você pode criar para sua organização. Seguir essa prática prática ajuda a minimizar o impacto do erro humano enquanto ajuda a gerenciar os recursos usados pela Chave do Cliente.
 
@@ -80,9 +79,9 @@ Não há limite prático para o número de assinaturas do Azure que você pode c
 
 A perda temporária ou permanente de chaves de criptografia raiz pode ser prejudicial ou até catastrófica para a operação de serviço e pode resultar em perda de dados. Por esse motivo, os recursos usados com a Chave do Cliente exigem uma proteção forte. Todos os recursos do Azure usados com a Chave do Cliente oferecem mecanismos de proteção além da configuração padrão. As assinaturas do Azure podem ser marcadas ou registradas de forma que impeçam o cancelamento imediato e irrevogável. Esse processo é chamado de registro para um período de retenção obrigatório. As etapas necessárias para registrar assinaturas do Azure para um período de retenção obrigatório exigem colaboração com a Microsoft. Esse processo pode levar até cinco dias úteis. Anteriormente, esse processo às vezes era chamado de "Não Cancelar".
   
-Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as etapas a seguir para cada assinatura do Azure que você usa com a Chave do Cliente. Verifique se você tem o [módulo do Azure PowerShell Az](/powershell/azure/new-azureps-module-az) instalado antes de iniciar.
+Antes de entrar em contato com a equipe Microsoft 365, você deve executar as etapas a seguir para cada assinatura do Azure que você usa com a Chave do Cliente. Verifique se você tem o [Azure PowerShell do Az](/powershell/azure/new-azureps-module-az) instalado antes de iniciar.
 
-1. Entre com o Azure PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](/powershell/azure/authenticate-azureps).
+1. Entre com Azure PowerShell. Para obter instruções, [consulte Entrar com Azure PowerShell](/powershell/azure/authenticate-azureps).
 
 2. Execute o cmdlet Register-AzProviderFeature para registrar suas assinaturas para usar um período de retenção obrigatório. Execute essa ação para cada assinatura.
 
@@ -116,12 +115,12 @@ Antes de entrar em contato com a equipe do Microsoft 365, você deve executar as
 
 ### <a name="create-a-premium-azure-key-vault-in-each-subscription"></a>Criar um Cofre de Chaves premium do Azure em cada assinatura
 
-As etapas para criar um cofre de chaves são documentadas em [Getting Started with Azure Key Vault](/azure/key-vault/general/overview), que orienta você a instalar e iniciar o Azure PowerShell, conectar-se à sua assinatura do Azure, criar um grupo de recursos e criar um cofre de chaves nesse grupo de recursos.
+As etapas para criar um cofre de chaves estão documentadas em [Getting Started with Azure Key Vault](/azure/key-vault/general/overview), que orienta você durante a instalação e o lançamento do Azure PowerShell, a conexão com sua assinatura do Azure, a criação de um grupo de recursos e a criação de um cofre de chaves nesse grupo de recursos.
   
-Ao criar um cofre de chaves, você deve escolher um SKU: Standard ou Premium. A SKU padrão permite que as chaves do Azure Key Vault sejam protegidas com software - não há proteção de chave HSM (Módulo de Segurança de Hardware) - e a SKU Premium permite o uso de HSMs para proteção de chaves do Cofre de Chaves. A Chave do Cliente aceita cofres-chave que usam SKU, embora a Microsoft recomenda que você use apenas o SKU Premium. O custo das operações com chaves de qualquer tipo é o mesmo, portanto, a única diferença de custo é o custo por mês para cada chave protegida por HSM. Consulte [Key Vault pricing for](https://azure.microsoft.com/pricing/details/key-vault/) details.
+Ao criar um cofre de chaves, você deve escolher um SKU: Standard ou Premium. A SKU padrão permite que as chaves do Azure Key Vault sejam protegidas com software - não há proteção de chave HSM (Módulo de Segurança de Hardware) - e o SKU do Premium permite o uso de HSMs para proteção de chaves do Key Vault. A Chave do Cliente aceita cofres-chave que usam SKU, embora a Microsoft recomenda que você use apenas o SKU Premium de segurança. O custo das operações com chaves de qualquer tipo é o mesmo, portanto, a única diferença de custo é o custo por mês para cada chave protegida por HSM. Consulte [Key Vault pricing for](https://azure.microsoft.com/pricing/details/key-vault/) details.
   
 > [!IMPORTANT]
-> Use os cofres de chave SKU Premium e as chaves protegidas por HSM para dados de produção e use apenas os cofres e chaves de chave SKU padrão para fins de teste e validação.
+> Use os Premium chave SKU e as chaves protegidas por HSM para dados de produção e use apenas os cofres e chaves de chave SKU padrão para fins de teste e validação.
 
 Use um prefixo comum para cofres de chaves e inclua uma abreviação do uso e escopo do cofre de chaves e chaves. Por exemplo, para o serviço Contoso onde os cofres estarão localizados na América do Norte, um possível par de nomes é Contoso-O365-NA-VaultA1 e Contoso-O365-NA-VaultA2. Os nomes de cofre são cadeias de caracteres globalmente exclusivas no Azure, portanto, talvez seja necessário experimentar variações dos nomes desejados caso os nomes desejados já sejam reivindicados por outros clientes do Azure. Depois de configurado, os nomes do cofre não podem ser alterados, portanto, a prática ideal é ter um plano escrito para instalação e usar uma segunda pessoa para verificar se o plano foi executado corretamente.
 
@@ -136,7 +135,7 @@ Para cada cofre de chaves, você precisará definir três conjuntos separados de
   > [!IMPORTANT]
   > O conjunto de permissões atribuídas aos administradores do cofre de chaves não inclui a permissão para excluir chaves. Isso é intencional e uma prática importante. A exclusão de chaves de criptografia normalmente não é feita, pois isso destrói permanentemente os dados. Como prática prática, não conceda essa permissão aos administradores do cofre de chaves por padrão. Em vez disso, reserve-o para colaboradores chave do cofre e atribua-o apenas a um administrador em curto prazo, uma vez que uma compreensão clara das consequências seja compreendida.
   
-  Para atribuir essas permissões a um usuário em sua organização, entre na assinatura do Azure com o Azure PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](/powershell/azure/authenticate-azureps).
+  Para atribuir essas permissões a um usuário em sua organização, entre na assinatura do Azure com Azure PowerShell. Para obter instruções, [consulte Entrar com Azure PowerShell](/powershell/azure/authenticate-azureps).
 
    Execute o cmdlet Set-AzKeyVaultAccessPolicy para atribuir as permissões necessárias.
 
@@ -152,7 +151,7 @@ Para cada cofre de chaves, você precisará definir três conjuntos separados de
 
 - **Colaboradores do cofre de chaves** que podem alterar permissões no próprio Azure Key Vault. Você precisará alterar essas permissões à medida que os funcionários sairem ou ingressarem em sua equipe, ou na rara situação em que os administradores do cofre de chaves precisam de permissão para excluir ou restaurar uma chave. Esse conjunto de colaboradores do cofre de chaves precisa ser concedido à função Colaborador no seu cofre de chaves. Você pode atribuir essa função usando o Gerenciador de Recursos do Azure. Para etapas detalhadas, [consulte Use Role-Based Access Control](/azure/active-directory/role-based-access-control-configure) para gerenciar o acesso aos recursos de assinatura do Azure. O administrador que cria uma assinatura tem esse acesso por padrão e a capacidade de atribuir outros administradores à função Colaborador.
 
-- **Dados do Microsoft 365 no serviço de** criptografia de repouso que faz o trabalho da Chave do Cliente no nível do locatário. Para dar permissão ao Microsoft 365, execute o cmdlet **Set-AzKeyVaultAccessPolicy** usando a seguinte sintaxe:
+- **Microsoft 365 dados no serviço de criptografia rest** que faz o trabalho da Chave do Cliente no nível do locatário. Para dar permissão Microsoft 365, execute o cmdlet **Set-AzKeyVaultAccessPolicy** usando a seguinte sintaxe:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName <Microsoft 365 appID>
@@ -162,7 +161,7 @@ Para cada cofre de chaves, você precisará definir três conjuntos separados de
 
   - *nome do* cofre é o nome do cofre de chaves que você criou.
 
-  Exemplo: para o serviço dados do Microsoft 365 em Criptografia rest, substitua  *o Microsoft 365 appID* pelo `c066d759-24ae-40e7-a56f-027002b5d3e4`
+  Exemplo: para o serviço Microsoft 365 Dados no Rest Encryption, *substitua Microsoft 365 appID* por`c066d759-24ae-40e7-a56f-027002b5d3e4`
 
   ```powershell
   Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName c066d759-24ae-40e7-a56f-027002b5d3e4
@@ -174,7 +173,7 @@ Quando você pode recuperar rapidamente suas chaves, é menos provável que voc�
   
 Para habilitar a Exclusão Suave em seus cofres de chaves, conclua estas etapas:
   
-1. Entre em sua assinatura do Azure com Windows PowerShell. Para obter instruções, [consulte Entrar com o Azure PowerShell](/powershell/azure/authenticate-azureps).
+1. Entre em sua assinatura do Azure com Windows PowerShell. Para obter instruções, [consulte Entrar com Azure PowerShell](/powershell/azure/authenticate-azureps).
 
 2. Execute o cmdlet [Get-AzKeyVault.](/powershell/module/az.keyvault/get-azkeyvault) Neste exemplo, *o nome do cofre* é o nome do cofre de chaves para o qual você está habilitando a exclusão suave:
 
@@ -220,9 +219,9 @@ Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-V
 
 ### <a name="check-the-recovery-level-of-your-keys"></a>Verifique o nível de recuperação de suas chaves
 
-O Microsoft 365 exige que a assinatura do Azure Key Vault seja definida como Não Cancelar e que as chaves usadas pela Chave do Cliente tenham exclusão suave habilitada. Você pode confirmar essas configurações olhando para o nível de recuperação em suas chaves.
+Microsoft 365 requer que a assinatura do Azure Key Vault seja definida como Não Cancelar e que as chaves usadas pela Chave do Cliente tenham exclusão suave habilitada. Você pode confirmar essas configurações olhando para o nível de recuperação em suas chaves.
   
-Para verificar o nível de recuperação de uma chave, no Azure PowerShell, execute o cmdlet Get-AzKeyVaultKey da seguinte forma:
+Para verificar o nível de recuperação de uma chave, em Azure PowerShell, execute o cmdlet Get-AzKeyVaultKey da seguinte forma:
   
 ```powershell
 (Get-AzKeyVaultKey -VaultName <vault name> -Name <key name>).Attributes
@@ -263,7 +262,7 @@ Execute o cmdlet [Get-AzKeyVault](/powershell/module/az.keyvault/get-azkeyvault)
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-Na saída, procure a Política de Acesso e a ID do aplicativo do Microsoft 365 (GUID), conforme apropriado. Todas as três operações, get, wrapKey e unwrapKey, devem ser mostradas em Permissões para Chaves.
+Na saída, procure a Política de Acesso e a ID do aplicativo Microsoft 365 (GUID) conforme apropriado. Todas as três operações, get, wrapKey e unwrapKey, devem ser mostradas em Permissões para Chaves.
   
 Se a configuração da política de acesso estiver incorreta, execute o cmdlet Set-AzKeyVaultAccessPolicy da seguinte maneira:
   
@@ -271,7 +270,7 @@ Se a configuração da política de acesso estiver incorreta, execute o cmdlet S
 Set-AzKeyVaultAccessPolicy -VaultName <vault name> -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName <Microsoft 365 appID>
 ```
 
-Exemplo: para o serviço dados do Microsoft 365 em Criptografia rest, substitua  *o Microsoft 365 appID* pelo `c066d759-24ae-40e7-a56f-027002b5d3e4`
+Exemplo: para o serviço Microsoft 365 Dados no Rest Encryption, *substitua Microsoft 365 appID* por`c066d759-24ae-40e7-a56f-027002b5d3e4`
 
   ```powershell
   Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName c066d759-24ae-40e7-a56f-027002b5d3e4
@@ -283,7 +282,7 @@ Para verificar se uma data de expiração não está definida para suas chaves, 
 Get-AzKeyVaultKey -VaultName <vault name>
 ```
 
-Uma chave expirada não pode ser usada pela Chave do Cliente e as operações tentadas com uma chave expirada falharão e possivelmente resultarão em uma paralisação de serviço. É recomendável que as chaves usadas com a Chave do Cliente não tenham uma data de expiração. Uma data de expiração, uma vez definida, não pode ser removida, mas pode ser alterada para uma data diferente. Se uma chave tiver que ser usada com um conjunto de datas de expiração, altere o valor de expiração para 31/12/9999. Chaves com uma data de expiração definida para uma data diferente de 31/12/9999 não passarão na validação do Microsoft 365.
+Uma chave expirada não pode ser usada pela Chave do Cliente e as operações tentadas com uma chave expirada falharão e possivelmente resultarão em uma paralisação de serviço. É recomendável que as chaves usadas com a Chave do Cliente não tenham uma data de expiração. Uma data de expiração, uma vez definida, não pode ser removida, mas pode ser alterada para uma data diferente. Se uma chave tiver que ser usada com um conjunto de datas de expiração, altere o valor de expiração para 31/12/9999. Chaves com uma data de expiração definida como uma data diferente de 31/12/9999 não passarão na validação Microsoft 365.
   
 Para alterar uma data de expiração definida para qualquer valor diferente de 31/12/9999, execute o cmdlet [Update-AzKeyVaultKey](/powershell/module/az.keyvault/update-azkeyvaultkey) da seguinte forma:
   
@@ -295,7 +294,7 @@ Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date
 
 Depois de concluir todas as etapas no Azure para configurar seus cofres de chaves e adicionar suas chaves, execute o seguinte comando para obter o URI da chave em cada cofre de chaves. Você precisará usar esses URIs ao criar e atribuir cada DEP posteriormente, portanto, salve essas informações em um local seguro. Lembre-se de executar esse comando uma vez para cada cofre de chaves.
   
-No Azure PowerShell:
+Em Azure PowerShell:
   
 ```powershell
 (Get-AzKeyVaultKey -VaultName <vault name>).Id
@@ -374,11 +373,11 @@ Parâmetros:
 | Nome | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
 |-Identity|Especifica a política de criptografia de dados que você deseja modificar.|N|
-|-Refresh|Use a opção Atualizar para atualizar a política de criptografia de dados depois de girar qualquer uma das chaves associadas no Cofre de Chaves do Azure. Não é preciso especificar um valor com essa opção.|S|
+|-Refresh|Use a opção Atualizar para atualizar a política de criptografia de dados depois de girar qualquer uma das chaves associadas no Cofre de Chaves do Azure. Não é preciso especificar um valor com essa opção.|Y|
 |-Habilitado|O parâmetro Enabled habilita ou desabilita a política de criptografia de dados. Antes de desabilitar uma política, você deve desaigná-la do locatário. Os valores válidos são:</br > $true: a política está habilitada</br > $true: a política está habilitada. Esse é o valor padrão.
-|S|
-|-Name|O parâmetro Name especifica o nome exclusivo da política de criptografia de dados.|S|
-|-Description|O parâmetro Description especifica uma descrição opcional para a política de criptografia de dados.|S|
+|Y|
+|-Name|O parâmetro Name especifica o nome exclusivo da política de criptografia de dados.|Y|
+|-Description|O parâmetro Description especifica uma descrição opcional para a política de criptografia de dados.|Y|
 
 ### <a name="get-policy-details"></a>Obter detalhes da política
 
@@ -406,7 +405,7 @@ Parâmetros:
 
 | Nome | Descrição | Opcional (Y/N) |
 |----------|----------|---------|
-|-Identity|Especifica a política de criptografia de dados para a que você deseja listar os detalhes.|S|
+|-Identity|Especifica a política de criptografia de dados para a que você deseja listar os detalhes.|Y|
 
 ### <a name="get-policy-assignment-info"></a>Obter informações sobre a atribuição de política
 
@@ -418,12 +417,12 @@ Descrição: este cmdlet lista a política atribuída no momento ao locatário.
 
 ## <a name="offboarding-from-customer-key-at-the-tenant-level"></a>Offboarding from Customer Key at the tenant level
 
-Se precisar reverter para chaves gerenciadas pela Microsoft, você pode. Quando você sai do barco, seus dados são recriptados usando a criptografia padrão suportada por cada carga de trabalho individual. Por exemplo, o Exchange Online dá suporte à criptografia padrão usando chaves gerenciadas pela Microsoft.
+Se precisar reverter para chaves gerenciadas pela Microsoft, você pode. Quando você sai do barco, seus dados são recriptados usando a criptografia padrão suportada por cada carga de trabalho individual. Por exemplo, Exchange Online dá suporte à criptografia padrão usando chaves gerenciadas pela Microsoft.
 
 Se você decidir desativar o locatário da Chave do Cliente no nível do [locatário,](mailto:m365ck@microsoft.com) envie m365ck@microsoft.com email com uma solicitação para "desabilitar" o serviço para o locatário.
 
 > [!IMPORTANT]
-> O offboard não é o mesmo que uma limpeza de dados. Uma limpeza de dados exclui permanentemente os dados da sua organização do Microsoft 365, o offboard não. Você não pode executar uma limpeza de dados para uma política de nível de locatário. Para obter informações sobre o caminho de limpeza de dados, consulte [Revogar suas](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process)chaves e iniciar o processo de caminho de limpeza de dados .
+> O offboard não é o mesmo que uma limpeza de dados. Uma limpeza de dados exclui permanentemente os dados da sua organização Microsoft 365, o offboard não. Você não pode executar uma limpeza de dados para uma política de nível de locatário. Para obter informações sobre o caminho de limpeza de dados, consulte [Revogar suas](customer-key-manage.md#revoke-your-keys-and-start-the-data-purge-path-process)chaves e iniciar o processo de caminho de limpeza de dados .
 
 ## <a name="about-the-availability-key"></a>Sobre a chave de disponibilidade
 
@@ -432,10 +431,6 @@ Para obter informações sobre a chave de disponibilidade, [consulte Saiba mais 
 ## <a name="key-rotation"></a>Rotação de teclas
 
 Para obter informações sobre como girar ou rolar chaves que você usa com a Chave do [Cliente,](customer-key-availability-key-roll.md)consulte Roll or rotate a Customer Key or an availability key . Ao atualizar o DEP para usar a nova versão das chaves, você executará o cmdlet Set-M365DataAtRestEncryptionPolicy como descrito anteriormente neste artigo.
-
-## <a name="known-issues"></a>Problemas conhecidos
-
-Ao habilitar a Chave do Cliente no nível do locatário, não é possível criar uma nova equipe no Microsoft Teams.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

@@ -17,32 +17,32 @@ search.appverid:
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 ms.custom:
 - seo-marvel-apr2020
-description: Quando você não precisa mais preservar o conteúdo de uma caixa de correio inativa do Microsoft 365, você pode excluir permanentemente a caixa de correio inativa.
-ms.openlocfilehash: 94a20bee1ca3d11a193a25efeb6d73f356e1d58d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Quando você não precisa mais preservar o conteúdo de uma caixa de correio Microsoft 365 inativa, você pode excluir permanentemente a caixa de correio inativa.
+ms.openlocfilehash: 077a71bfdd82721e0992e5d14073aa037b7cfd1b
+ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909921"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52100820"
 ---
 # <a name="delete-an-inactive-mailbox"></a>Excluir uma caixa de correio inativa
 
-Uma caixa de correio inativa é usada para preservar o email de um ex-funcionário após sair da sua organização. Quando você não precisa mais preservar o conteúdo de uma caixa de correio inativa, você pode excluir permanentemente a caixa de correio inativa removendo a espera. Além disso, é possível que vários retém possam ser colocados em uma caixa de correio inativa. Por exemplo, uma caixa de correio inativa pode ser colocada em Contencioso e em um ou mais In-Place Holds. Além disso, uma política de retenção (criada no centro de segurança e conformidade no Office 365 ou no Microsoft 365) pode ser aplicada à caixa de correio inativa. Você precisa remover todas as políticas de retenção e retenção de uma caixa de correio inativa para excluí-la. Depois de remover as políticas de retenção e retenção, a caixa de correio inativa será marcada para exclusão e será excluída permanentemente depois de processada.
+Uma caixa de correio inativa é usada para preservar o email de um ex-funcionário após sair da sua organização. Quando você não precisa mais preservar o conteúdo de uma caixa de correio inativa, você pode excluir permanentemente a caixa de correio inativa removendo a espera. Além disso, é possível que vários retém possam ser colocados em uma caixa de correio inativa. Por exemplo, uma caixa de correio inativa pode ser colocada em Contencioso e em um ou mais In-Place Holds. Além disso, uma política de retenção (criada no centro de segurança e conformidade no Office 365 ou Microsoft 365) pode ser aplicada à caixa de correio inativa. Você precisa remover todas as políticas de retenção e retenção de uma caixa de correio inativa para excluí-la. Depois de remover as políticas de retenção e retenção, a caixa de correio inativa será marcada para exclusão e será excluída permanentemente depois de processada.
   
 > [!IMPORTANT]
-> À medida que continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a ress contração de In-Place no Centro de administração do Exchange. Isso significa que você deve usar as Políticas de Retenção e Retenção de Litígio para criar uma caixa de correio inativa. A partir de 1º de julho de 2020, você não poderá criar novos In-Place no Exchange Online. Mas você ainda poderá alterar a duração de espera de uma In-Place de espera colocada em uma caixa de correio inativa. No entanto, a partir de 1º de outubro de 2020, você não poderá alterar a duração da espera. Você só poderá excluir uma caixa de correio inativa removendo o In-Place Hold. As caixas de correio inativas existentes que estão em In-Place de espera ainda serão preservadas até que a espera seja removida. Para obter mais informações sobre a aposentadoria de In-Place Detém, consulte A aposentadoria de ferramentas [de Descoberta eDiscovery herdado.](legacy-ediscovery-retirement.md)
+> À medida que continuamos a investir em diferentes maneiras de preservar o conteúdo da caixa de correio, anunciamos a ress contração de In-Place no centro de administração Exchange. Isso significa que você deve usar as Políticas de Retenção e Retenção de Litígio para criar uma caixa de correio inativa. A partir de 1º de julho de 2020, você não poderá criar novos In-Place de Exchange Online. Mas você ainda poderá alterar a duração de espera de uma In-Place de espera colocada em uma caixa de correio inativa. No entanto, a partir de 1º de outubro de 2020, você não poderá alterar a duração da espera. Você só poderá excluir uma caixa de correio inativa removendo o In-Place Hold. As caixas de correio inativas existentes que estão em In-Place de espera ainda serão preservadas até que a espera seja removida. Para obter mais informações sobre a aposentadoria de In-Place Detém, consulte A aposentadoria de ferramentas [de Descoberta eDiscovery herdado.](legacy-ediscovery-retirement.md)
   
 Consulte a [seção Mais informações](#more-information) para obter uma descrição do que acontece após a remoção de retém de uma caixa de correio inativa.
   
 ## <a name="before-you-delete-an-inactive-mailbox"></a>Antes de excluir uma caixa de correio inativa
 
-- Você precisa usar o PowerShell do Exchange Online para remover uma Moção de Litígio de uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções passo a passo, confira [Conectar-se ao Exchange Online Windows PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
+- Você precisa usar o Exchange Online PowerShell para remover uma Moção de Litígio de uma caixa de correio inativa. Você não pode usar o Centro de Administração do Exchange (EAC). Para obter instruções passo a passo, confira [Conectar-se ao Exchange Online Windows PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Você pode copiar o conteúdo de uma caixa de correio inativa para outra caixa de correio antes de remover a espera e excluir uma caixa de correio inativa. Para obter detalhes, [consulte Restore an inactive mailbox in Office 365](restore-an-inactive-mailbox.md).
 
 - Se você remover a política de retenção ou retenção de uma caixa de correio inativa e o período de retenção de caixa de correio excluída pela caixa de correio tiver expirado, a caixa de correio será excluída permanentemente. Depois que ele é excluído, ele não pode ser recuperado. Antes de remover a espera, certifique-se de não precisar mais do conteúdo na caixa de correio. Se você quiser reativar uma caixa de correio inativa, poderá recuperá-la. Para obter detalhes, [consulte Recover an inactive mailbox in Office 365](recover-an-inactive-mailbox.md).
 
-- Para obter mais informações sobre caixas de correio inativas, consulte Caixas de correio [inativas no Office 365](inactive-mailboxes-in-office-365.md).
+- Para obter mais informações sobre caixas de correio inativas, consulte Caixas de correio [inativas em Office 365](inactive-mailboxes-in-office-365.md).
 
 ## <a name="step-1-identify-the-holds-on-an-inactive-mailbox"></a>Etapa 1: identificar os retém em uma caixa de correio inativa
 
@@ -81,26 +81,26 @@ Depois de identificar qual tipo de espera é colocada na caixa de correio inativ
   
 ### <a name="remove-a-litigation-hold"></a>Remover uma moção de litígio
 
-Como mencionado anteriormente, você precisa usar Windows PowerShell remover uma Moção de Litígio de uma caixa de correio inativa. Não é possível usar o EAC. Execute o seguinte comando para remover uma Moção de Litígio.
+Como mencionado anteriormente, você precisa usar Windows PowerShell para remover uma Moção de Litígio de uma caixa de correio inativa. Não é possível usar o EAC. Execute o seguinte comando para remover uma Moção de Litígio.
   
 ```powershell
 Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -LitigationHoldEnabled $false
 ```
 
 > [!TIP]
-> A melhor maneira de identificar uma caixa de correio inativa é usando seu valor Distinguished Name ou GUID do Exchange. Usar um desses valores ajuda a evitar a especificação acidental da caixa de correio errada. 
+> A melhor maneira de identificar uma caixa de correio inativa é usando seu nome diferenciado ou Exchange guid. Usar um desses valores ajuda a evitar a especificação acidental da caixa de correio errada. 
   
 ### <a name="remove-an-inactive-mailbox-from-a-retention-policy"></a>Remover uma caixa de correio inativa de uma política de retenção
 
-O procedimento para remover uma caixa de correio inativa de uma política de retenção do Microsoft 365 depende se a política de retenção atribuída à caixa de correio inativa é de toda a organização ou explícita. no tipo de política de retenção atribuída à caixa de correio inativa.
+O procedimento para remover uma caixa de correio inativa de uma política de retenção Microsoft 365 depende se a política de retenção atribuída à caixa de correio inativa é de toda a organização ou explícita. no tipo de política de retenção atribuída à caixa de correio inativa.
 
-- Políticas de retenção em toda a organização atribuídas a todas as caixas de correio na organização. Use o cmdlet **Get-OrganizationConfig** no PowerShell do Exchange Online para obter informações sobre políticas de retenção em toda a organização.
+- Políticas de retenção em toda a organização atribuídas a todas as caixas de correio na organização. Use o cmdlet **Get-OrganizationConfig** no Exchange Online PowerShell para obter informações sobre políticas de retenção em toda a organização.
 
-- Políticas de retenção de localização específicas atribuídas a caixas de correio específicas. São políticas atribuídas aos locais de conteúdo de usuários específicos. Use o cmdlet **Get-Mailbox -IncludeInactiveMailbox** no PowerShell do Exchange Online para obter informações sobre políticas de retenção atribuídas a caixas de correio inativas específicas.
+- Políticas de retenção de localização específicas atribuídas a caixas de correio específicas. São políticas atribuídas aos locais de conteúdo de usuários específicos. Use o cmdlet **Get-Mailbox -IncludeInactiveMailbox** no Exchange Online PowerShell para obter informações sobre políticas de retenção atribuídas a caixas de correio inativas específicas.
 
 #### <a name="remove-an-inactive-mailbox-from-an-organization-wide-retention-policy"></a>Remover uma caixa de correio inativa de uma política de retenção em toda a organização
 
-Execute o seguinte comando no PowerShell do Exchange Online para excluir uma caixa de correio inativa de uma política de retenção em toda a organização.
+Execute o seguinte comando no Exchange Online PowerShell para excluir uma caixa de correio inativa de uma política de retenção em toda a organização.
 
 ```powershell
 Set-Mailbox <identity of inactive mailbox> -ExcludeFromOrgHolds <retention policy GUID without prefix or suffix>
@@ -157,7 +157,7 @@ Para obter mais informações sobre como identificar políticas de retenção de
 
 #### <a name="remove-an-inactive-mailbox-from-an-in-place-hold"></a>Remover uma caixa de correio inativa de um In-Place Hold
 
-Se o In-Place hold contiver um grande número de caixas de correio de origem,  é possível que a caixa de correio inativa não seja listada na página Fontes no EAC. Até 3.000 caixas de correio  são exibidas na página Fontes quando você edita um In-Place Hold. Se uma caixa de correio inativa  não estiver listada na página Fontes, você poderá usar o PowerShell do Exchange Online para removê-la do In-Place Hold. 
+Se o In-Place hold contiver um grande número de caixas de correio de origem,  é possível que a caixa de correio inativa não seja listada na página Fontes no EAC. Até 3.000 caixas de correio  são exibidas na página Fontes quando você edita um In-Place Hold. Se uma caixa de correio inativa  não estiver listada na página Fontes, você poderá usar Exchange Online PowerShell para removê-la do In-Place Hold. 
   
 1. Crie uma variável que contenha as propriedades do In-Place hold colocado na caixa de correio inativa. Use o GUID In-Place de espera que você obteve na [Etapa 1:](#step-1-identify-the-holds-on-an-inactive-mailbox)Identificar os retém em uma caixa de correio inativa .
 
@@ -206,25 +206,26 @@ Se o In-Place hold contiver um grande número de caixas de correio de origem,  �
 
 ## <a name="more-information"></a>Mais informações
 
-- **Uma caixa de correio inativa é um tipo de caixa de correio excluída de forma suave.** No Exchange Online, uma caixa de correio excluída de forma suave é uma caixa de correio que foi excluída, mas pode ser recuperada em um período de retenção específico. O período de retenção de caixa de correio excluído no Exchange Online é de 30 dias. Isso significa que a caixa de correio pode ser recuperada dentro de 30 dias após a exclusão suave. Após 30 dias, uma caixa de correio excluída de forma suave é marcada para exclusão permanente e não pode ser recuperada.
+- **Uma caixa de correio inativa é um tipo de caixa de correio excluída de forma suave.** No Exchange Online, uma caixa de correio excluída de forma suave é uma caixa de correio que foi excluída, mas pode ser recuperada em um período de retenção específico. Uma caixa de correio inativa anteriormente estará disponível como uma caixa de correio excluída no Exchange Online por 183 dias. Isso significa que a caixa de correio pode ser recuperada dentro de 183 dias após a exclusão suave. Após 183 dias, uma caixa de correio excluída de forma suave é marcada para exclusão permanente e não pode ser recuperada.
 
-- **O que acontece depois de remover a espera em uma caixa de correio inativa?** A caixa de correio é tratada como outras caixas de correio excluídas de forma suave e é marcada para exclusão permanente após o período de retenção de caixa de correio excluído por 30 dias. Esse período de retenção começa na data em que a caixa de correio foi inativa pela primeira vez. Essa data é conhecida como a data excluída de forma suave, que é a data em que a conta de usuário correspondente foi excluída ou quando a caixa de correio do Exchange Online foi excluída com o cmdlet **Remove-Mailbox.** A data excluída de forma suave não é a data em que você remove a espera.
+- **O que acontece depois de remover a espera em uma caixa de correio inativa?** A caixa de correio é tratada como outras caixas de correio excluídas de forma suave e é marcada para exclusão permanente após o período de retenção de caixa de correio excluído por 183 dias. Esse período de retenção começa na data em que a caixa de correio foi inativa pela primeira vez. Essa data é conhecida como a data excluída de forma suave, que é a data em que a conta de usuário correspondente foi excluída ou quando Exchange Online caixa de correio foi excluída com o cmdlet **Remove-Mailbox.** A data excluída de forma suave não é a data em que você remove a espera.
 
-- **Uma caixa de correio inativa será excluída permanentemente imediatamente após a remoção da moção?** Se a data de exclusão suave de uma caixa de correio inativa tiver mais de 30 dias, a caixa de correio não será excluída permanentemente assim que você remover a responsabilidade. A caixa de correio será marcada para exclusão permanente e será excluída na próxima vez que for processada.
-
-- **Como o período de retenção de caixa de correio excluído suave afeta caixas de correio inativas?** Se a data de exclusão suave de uma caixa de correio inativa for superior a 30 dias antes da data em que a remoção foi removida, a caixa de correio será marcada para exclusão permanente. Porém, se uma caixa de correio inativa tiver uma data excluída nos últimos 30 dias e você remover a retenção, poderá recuperar a caixa de correio até que o período de retenção de caixa de correio excluído de forma suave expire. Para obter detalhes, consulte [Delete or restore user mailboxes in Exchange Online](/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes). Depois que o período de retenção de caixa de correio excluídos de forma suave expirar, você deve seguir os procedimentos para recuperar uma caixa de correio inativa. Para obter detalhes, [consulte Recover an inactive mailbox in Office 365](recover-an-inactive-mailbox.md).
+- **Uma caixa de correio inativa será excluída permanentemente imediatamente após a remoção da moção?** Uma caixa de correio anteriormente inativa estará disponível no estado excluído por 183 dias. Após 183 dias, a caixa de correio será marcada para exclusão permanente.
 
 - **Como você exibe informações sobre uma caixa de correio inativa após a remoção da moção?** Depois que uma espera é removida e a caixa de correio inativa é revertida de volta para uma caixa de correio excluída de forma suave, ela não será retornada usando o parâmetro *InactiveMailboxOnly* com o cmdlet **Get-Mailbox.** Mas você pode exibir informações sobre a caixa de correio usando o **comando Get-Mailbox -SoftDeletedMailbox.** Por exemplo:
 
   ```text
   Get-Mailbox -SoftDeletedMailbox -Identity pilarp | FL Name,Identity,LitigationHoldEnabled,In
-  Placeholds,WhenSoftDeleted,IsInactiveMailbox
+  Placeholds,WhenSoftDeleted,IsInactiveMailbox,WasInactiveMailbox,InactiveMailboxRetireTime
   Name                   : pilarp
   Identity               : Soft Deleted Objects\pilarp
   LitigationHoldEnabled  : False
   InPlaceHolds           : {}
-  WhenSoftDeleted        : 10/30/2014 1:19:04 AM
+  WhenSoftDeleted        : 6/16/2020 1:19:04 AM
   IsInactiveMailbox      : False
+  WasInactiveMailbox     : True
+  InactiveMailboxRetireTime : 9/30/2020 11:16:23 PM
   ```
 
-  No exemplo acima, a *propriedade WhenSoftDeleted* identifica a data excluída de forma suave, que neste exemplo é 30 de outubro de 2014. Se essa caixa de correio excluída suave anteriormente fosse uma caixa de correio inativa para a qual a responsabilidade foi removida, ela será excluída permanentemente 30 dias após o valor da *propriedade WhenSoftDeleted.* Nesse caso, a caixa de correio é excluída permanentemente após 30 de novembro de 2014.
+  No exemplo acima, a *propriedade WhenSoftDeleted* identifica a data excluída de forma suave, que neste exemplo é 16 de junho de 2020. A *propriedade WasInactiveMailbox* está listada como porque anteriormente era `True` uma caixa de correio inativa. A caixa de correio será excluída permanentemente 183 dias após 30 de setembro de 2020.
+

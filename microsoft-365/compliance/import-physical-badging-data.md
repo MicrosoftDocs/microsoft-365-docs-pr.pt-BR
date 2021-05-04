@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-description: Os administradores podem configurar um conector de dados para importar dados do sistema de badagem física da organização para o Microsoft 365. Isso permite que você use esses dados em políticas de gerenciamento de riscos internos para ajudá-lo a detectar o acesso aos seus edifícios físicos por usuários específicos que podem indicar uma possível ameaça interna à sua organização.
-ms.openlocfilehash: c07dfcbefa338f7499f2c45f595bf2ccda6387fa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Os administradores podem configurar um conector de dados para importar dados do sistema de badagem física da organização para Microsoft 365. Isso permite que você use esses dados em políticas de gerenciamento de riscos internos para ajudá-lo a detectar o acesso aos seus edifícios físicos por usuários específicos que podem indicar uma possível ameaça interna à sua organização.
+ms.openlocfilehash: a300107af1d3fe07f208f7e3f239f75a9cd6e5af
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911361"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994822"
 ---
 # <a name="set-up-a-connector-to-import-physical-badging-data-preview"></a>Configurar um conector para importar dados de danos físicos (visualização)
 
-Você pode configurar um conector de dados no centro de conformidade do Microsoft 365 para importar dados de danos físicos, como eventos de acesso físico bruto do funcionário ou quaisquer alarmes de acesso físico gerados pelo sistema de badging da sua organização. Exemplos de pontos de acesso físico são uma entrada para um edifício ou uma entrada para sala de servidor ou data center. Os dados de danos físicos podem ser [](insider-risk-management.md) usados pela solução de gerenciamento de risco interno do Microsoft 365 para ajudar a proteger sua organização contra atividades mal-intencionadas ou roubo de dados dentro da sua organização.
+Você pode configurar um conector de dados no centro de conformidade do Microsoft 365 para importar dados de danos físicos, como os eventos de acesso físico bruto do funcionário ou quaisquer alarmes de acesso físico gerados pelo sistema de badging da sua organização. Exemplos de pontos de acesso físico são uma entrada para um edifício ou uma entrada para sala de servidor ou data center. Os dados de danos físicos podem ser usados pela Microsoft 365 de gerenciamento de riscos [insider](insider-risk-management.md) para ajudar a proteger sua organização contra atividades mal-intencionadas ou roubo de dados dentro da sua organização.
 
 Configurar um conector de badging físico consiste nas seguintes tarefas:
 
@@ -31,7 +31,7 @@ Configurar um conector de badging físico consiste nas seguintes tarefas:
 
 - Criando a carga JSON com um esquema definido pelo conector de dados de badação física.
 
-- Criando um conector de dados com problemas físicos no centro de conformidade do Microsoft 365.
+- Criando um conector de dados com problemas físicos no Microsoft 365 de conformidade.
 
 - Executando um script para empurrar os dados de insucessões físicas para o ponto de extremidade da API.
 
@@ -39,7 +39,7 @@ Configurar um conector de badging físico consiste nas seguintes tarefas:
 
 ## <a name="before-you-set-up-the-connector"></a>Antes de configurar o conector
 
-- O usuário que cria o conector de badging físico na Etapa 3 deve receber a função de Exportação de Importação de Caixa de Correio no Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização no Exchange Online. Ou você pode criar um novo grupo de funções, atribuir a função De Exportação de Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de função no Exchange Online".
+- O usuário que cria o conector de badging físico na Etapa 3 deve receber a função De exportação de importação de caixa de correio Exchange Online. Por padrão, essa função não é atribuída a nenhum grupo de funções no Exchange Online. Você pode adicionar a função Exportar Importação de Importação de Caixa de Correio ao grupo de função Gerenciamento da Organização Exchange Online. Ou você pode criar um novo grupo de funções, atribuir a função De Exportação de Importação de Caixa de Correio e adicionar os usuários apropriados como membros. Para obter mais informações, consulte as seções Criar grupos de [função](/Exchange/permissions-exo/role-groups#create-role-groups) ou [Modificar](/Exchange/permissions-exo/role-groups#modify-role-groups) grupos de função no artigo "Gerenciar grupos de funções em Exchange Online".
 
 - Você precisa determinar como recuperar ou exportar os dados do sistema de danos físicos da sua organização (diariamente) e criar um arquivo JSON descrito na Etapa 2. O script executado na Etapa 4 empurrará os dados no arquivo JSON para o ponto de extremidade da API.
 
@@ -55,7 +55,7 @@ A primeira etapa é criar e registrar um novo aplicativo no Azure Active Directo
 
 - ID do locatário (também chamada de *ID de diretório*)
 
-Para obter instruções passo a passo para criar um aplicativo no Azure AD, consulte [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
+Para obter instruções passo a passo para criar um aplicativo no Azure AD, consulte [Register an application with the plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 ## <a name="step-2-prepare-a-json-file-with-physical-badging-data"></a>Etapa 2: preparar um arquivo JSON com dados de badagem física
 
@@ -63,13 +63,13 @@ A próxima etapa é criar um arquivo JSON que contenha informações sobre os da
 
 O arquivo JSON deve estar em conformidade com a definição de esquema exigida pelo conector. Aqui estão as descrições das propriedades de esquema necessárias para o arquivo JSON:
 
-| Propriedade | Descrição | Tipo de dados |
-|:-----------|:--------------|:------------|
-|UserId|Um funcionário pode ter várias identidades digitais nos sistemas. A entrada precisa ter a ID do Azure AD já resolvida pelo sistema de origem. |UPN ou endereço de email|
-|AssetId|A ID de referência do ativo físico ou ponto de acesso físico.| Cadeia de caracteres alfanumérico|
+|Propriedade|Descrição|Tipo de dados|
+|---|---|---|
+|UserId|Um funcionário pode ter várias identidades digitais nos sistemas. A entrada precisa ter a ID do Azure AD já resolvida pelo sistema de origem.|UPN ou endereço de email|
+|AssetId|A ID de referência do ativo físico ou ponto de acesso físico.|Cadeia de caracteres alfanumérico|
 |AssetName|O nome amigável do ativo físico ou ponto de acesso físico.|Cadeia de caracteres alfanumérico|
 |EventTime|O carimbo de data/hora do acesso.|Data e hora, no formato UTC|
-|AccessStatus|Valor `Success` de ou `Failed`| Cadeia de caracteres|
+|AccessStatus|Valor `Success` de ou `Failed`|String|
 |||
 
 Aqui está um exemplo de um arquivo JSON que está em conformidade com o esquema necessário:
@@ -84,67 +84,68 @@ Aqui está um exemplo de um arquivo JSON que está em conformidade com o esquema
         "AccessStatus":"Failed",
     },
     {
-        "UserId":"pilarp@contoso.com",        
+        "UserId":"pilarp@contoso.com",
         "AssetId":"Mid-Sec-7",
         "AssetName":"Main Building 1st Floor Mid Section",
-        "EventTime":"2019-07-04T02:57:49",        
+        "EventTime":"2019-07-04T02:57:49",
         "AccessStatus":"Success",
     }
 ]
 ```
+
 Você também pode baixar a definição de esquema a seguir para o arquivo JSON do assistente ao criar o conector de danos físicos na Etapa 3.
 
 ```text
 {
-    "title" : "Physical Badging Signals",
-    "description" : "Access signals from physical badging systems",
-    "DataType" : {
-        "description" : "Identify what is the data type for input signal",
-        "type" : "string",
-    },
-    "type" : "object",
-    "properties": {
-        "UserId" : {
-            "description" : "Unique identifier AAD Id resolved by the source system",
-            "type" : "string",
-        },
-        "AssetId": {
-            "description" : "Unique ID of the physical asset/access point",
-            "type" : "string",
-        },
-        "AssetName": {
-            "description" : "friendly name of the physical asset/access point",
-            "type" : "string",
-        },
-        "EventTime" : {
-            "description" : "timestamp of access",
-            "type" : "string",
-        },
-        "AccessStatus" : {
-            "description" : "what was the status of access attempt - Success/Failed",
-            "type" : "string",
-        },
-    }
-    "required" : ["UserId", "AssetId", "EventTime" "AccessStatus"]
+   "title" : "Physical Badging Signals",
+   "description" : "Access signals from physical badging systems",
+   "DataType" : {
+      "description" : "Identify what is the data type for input signal",
+      "type" : "string",
+   },
+   "type" : "object",
+   "properties": {
+      "UserId" : {
+         "description" : "Unique identifier AAD Id resolved by the source system",
+         "type" : "string",
+      },
+      "AssetId": {
+         "description" : "Unique ID of the physical asset/access point",
+         "type" : "string",
+      },
+      "AssetName": {
+         "description" : "friendly name of the physical asset/access point",
+         "type" : "string",
+      },
+      "EventTime" : {
+         "description" : "timestamp of access",
+         "type" : "string",
+      },
+      "AccessStatus" : {
+         "description" : "what was the status of access attempt - Success/Failed",
+         "type" : "string",
+      },
+   }
+   "required" : ["UserId", "AssetId", "EventTime" "AccessStatus"]
 }
 ```
 
 ## <a name="step-3-create-the-physical-badging-connector"></a>Etapa 3: Criar o conector de badging físico
 
-A próxima etapa é criar um conector de badging físico no centro de conformidade do Microsoft 365. Depois de executar o script na Etapa 4, o arquivo JSON que você criou na Etapa 3 será processado e levado para o ponto de extremidade da API configurado na Etapa 1. Nesta etapa, copie o JobId gerado ao criar o conector. Você usará o JobId quando executar o script.
+A próxima etapa é criar um conector de badging físico no Microsoft 365 de conformidade. Depois de executar o script na Etapa 4, o arquivo JSON que você criou na Etapa 3 será processado e levado para o ponto de extremidade da API configurado na Etapa 1. Nesta etapa, copie o JobId gerado ao criar o conector. Você usará o JobId quando executar o script.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique em **Conectores de dados** na nav esquerda.
+1. Vá para <https://compliance.microsoft.com> e clique em **Conectores de dados** na nav esquerda.
 
 2. Na página **Conectores de dados** em **Problemas físicos,** clique em **Exibir**.
 
 3. Na página **Problemas físicos,** clique em **Adicionar conector**.
 
 4. Na página **Credenciais de autenticação,** faça o seguinte e clique em **Próximo**:
-  
+
    1. Digite ou colar a ID do aplicativo do Azure AD para o aplicativo do Azure que você criou na Etapa 1.
-  
+
    2. Baixe o esquema de exemplo para sua referência para criar o arquivo JSON.
-  
+
    3. Digite um nome exclusivo para o conector de danos físicos.
 
 5. Na página **Revisão,** revise suas configurações e clique em **Concluir** para criar o conector.
@@ -163,12 +164,12 @@ A próxima etapa é criar um conector de badging físico no centro de conformida
 
 A próxima etapa na configuração de um conector de badging físico é executar um script que empurrará os dados de danos físicos no arquivo JSON (criado na Etapa 2) para o ponto de extremidade da API que você criou na Etapa 1. Fornecemos um script de exemplo para sua referência e você pode optar por usá-la ou criar seu próprio script para postar o arquivo JSON no ponto de extremidade da API.
 
-Depois de executar o script, o arquivo JSON que contém os dados de danos físicos é pressionado para sua organização do Microsoft 365, onde ele pode ser acessado pela solução de gerenciamento de riscos insider. Recomendamos que você poste dados de badagem física diariamente. Você pode fazer isso automatizando o processo para gerar o arquivo JSON todos os dias a partir de seu sistema de bading físico e agendando o script para empurrar os dados.
+Depois de executar o script, o arquivo JSON que contém os dados de danos físicos é pressionado para sua organização Microsoft 365 onde ele pode ser acessado pela solução de gerenciamento de riscos insider. Recomendamos que você poste dados de badagem física diariamente. Você pode fazer isso automatizando o processo para gerar o arquivo JSON todos os dias a partir de seu sistema de bading físico e agendando o script para empurrar os dados.
 
 > [!NOTE]
 > O número máximo de registros no arquivo JSON que pode ser processado pela API é de 50.000 registros.
 
-1. Acesse este [site do GitHub](https://github.com/microsoft/m365-hrconnector-sample-scripts/blob/master/upload_termination_records.ps1) para acessar o script de exemplo.
+1. Acesse este [site GitHub para](https://github.com/microsoft/m365-hrconnector-sample-scripts/blob/master/upload_termination_records.ps1) acessar o script de exemplo.
 
 2. Clique no **botão Bruto** para exibir o script no exibição de texto
 
@@ -188,13 +189,13 @@ Depois de executar o script, o arquivo JSON que contém os dados de danos físic
 
    A tabela a seguir descreve os parâmetros a ser usado com esse script e seus valores necessários. As informações obtidas nas etapas anteriores são usadas nos valores desses parâmetros.
 
-   | Parâmetro | Descrição |
-   |:-------------|:--------------|
-   |tenantId | Esta é a ID da sua organização do Microsoft 365 obtida na Etapa 1. Você também pode obter o tenantId para sua organização na folha **Visão** geral no centro de administração do Azure AD. Isso é usado para identificar sua organização. |
-   |appId | Esta é a ID do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na Etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua organização do Microsoft 365.                    |
-   |appSecret | Este é o segredo do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na Etapa 1. Isso também é usado para autenticação.                                                        |
-   |jobId | Esta é a ID de trabalho para o conector de badging físico que você criou na Etapa 3. Isso é usado para associar os dados de badagem física que são empurrados para a nuvem da Microsoft com o conector de badging físico.              |
-   |JsonFilePath | Este é o caminho do arquivo no computador local (o que você está usando para executar o script) para o arquivo JSON que você criou na Etapa 2. Este arquivo deve seguir o esquema de exemplo descrito na Etapa 3.|
+   |Parâmetro|Descrição|
+   |---|---|
+   |tenantId|Esta é a ID da sua Microsoft 365 que você obteve na Etapa 1. Você também pode obter o tenantId para sua organização na folha **Visão** geral no centro de administração do Azure AD. Isso é usado para identificar sua organização.|
+   |appId|Esta é a ID do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na Etapa 1. Isso é usado pelo Azure AD para autenticação quando o script tenta acessar sua Microsoft 365 organização.|
+   |appSecret|Este é o segredo do aplicativo do Azure AD para o aplicativo que você criou no Azure AD na Etapa 1. Isso também é usado para autenticação.|
+   |jobId|Esta é a ID de trabalho para o conector de badging físico que você criou na Etapa 3. Isso é usado para associar os dados de badagem física que são empurrados para a nuvem da Microsoft com o conector de badging físico.|
+   |JsonFilePath|Este é o caminho do arquivo no computador local (o que você está usando para executar o script) para o arquivo JSON que você criou na Etapa 2. Este arquivo deve seguir o esquema de exemplo descrito na Etapa 3.|
    |||
 
    Veja um exemplo da sintaxe do script do conector de badging físico usando valores reais para cada parâmetro:
@@ -203,7 +204,7 @@ Depois de executar o script, o arquivo JSON que contém os dados de danos físic
    .\PhysicalBadging.ps1 -tenantId d5723623-11cf-4e2e-b5a5-01d1506273g9 -appId 29ee526e-f9a7-4e98-a682-67f41bfd643e -appSecret MNubVGbcQDkGCnn -jobId b8be4a7d-e338-43eb-a69e-c513cd458eba -csvFilePath 'C:\Users\contosoadmin\Desktop\Data\physical_badging_data.json'
    ```
 
-   Se o carregamento for bem-sucedido, o script exibirá a **mensagem Carregar bem-sucedida.**
+   Se o carregamento for bem-sucedido, o script exibirá a mensagem Upload **Bem-sucedida.**
 
    Se você tiver vários arquivos JSON, será preciso executar o script para cada arquivo.
 
@@ -212,9 +213,9 @@ Depois de executar o script, o arquivo JSON que contém os dados de danos físic
 
 ## <a name="step-5-monitor-the-physical-badging-connector"></a>Etapa 5: Monitorar o conector de badging físico
 
-Depois de criar o conector de badging físico e empurrar seus dados de badging físico, você poderá exibir o conector e o status de carregamento no centro de conformidade do Microsoft 365. Se você agendar o script para ser executado automaticamente regularmente, você também poderá exibir o status atual após a última vez em que o script foi executado.
+Depois de criar o conector de badging físico e empurrar seus dados de in badging físico, você poderá exibir o conector e o status de carregamento no centro de conformidade Microsoft 365 de segurança. Se você agendar o script para ser executado automaticamente regularmente, você também poderá exibir o status atual após a última vez em que o script foi executado.
 
-1. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com/) e clique **em Conectores de dados** na nav esquerda.
+1. Vá para <https://compliance.microsoft.com> e clique **em Conectores de dados** na nav esquerda.
 
 2. Clique na **guia Conectores** e selecione o conector de badging físico para exibir a página de sobrevoo. Esta página contém as propriedades e informações sobre o conector.
 
@@ -232,9 +233,9 @@ Se você não tiver executado o script na Etapa 4, um link para baixar o script 
 
 Para garantir que os dados de danos físicos mais recentes da sua organização estão disponíveis para ferramentas como a solução de gerenciamento de riscos insider, recomendamos que você agende o script para ser executado automaticamente de forma recorrente, como uma vez por dia. Isso também exige que você atualize os dados de danos físicos para o arquivo JSON em um cronograma semelhante (se não o mesmo) para que ele contenha as informações mais recentes sobre os funcionários que saem da sua organização. O objetivo é carregar os dados de danos físicos mais atuais para que o conector de badging físico possa torná-los disponíveis para a solução de gerenciamento de riscos insider.
 
-Você pode usar o aplicativo Agendador de Tarefas no Windows para executar automaticamente o script todos os dias.
+Você pode usar o aplicativo Agendador de Tarefas Windows executar automaticamente o script todos os dias.
 
-1. No computador local, clique no botão **Iniciar** do Windows e digite **Agendador de Tarefas.**
+1. No computador local, clique no botão Iniciar Windows **e** digite **Agendador de Tarefas.**
 
 2. Clique no **aplicativo Agendador de** Tarefas para abri-lo.
 
@@ -250,7 +251,7 @@ Você pode usar o aplicativo Agendador de Tarefas no Windows para executar autom
 
 6. Selecione a **guia Gatilhos,** clique em **Novo** e faça o seguinte:
 
-   1. Em **Configurações,** selecione **a opção Diário** e escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
+   1. Em **Configurações**, selecione a **opção Diário** e escolha uma data e hora para executar o script pela primeira vez. O script será todos os dias no mesmo horário especificado.
 
    2. Em **Configurações avançadas,** verifique se a caixa **de seleção** Habilitado está selecionada.
 

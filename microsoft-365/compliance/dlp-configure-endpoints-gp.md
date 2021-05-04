@@ -13,35 +13,35 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Use a Política de Grupo para implantar o pacote de configuração em dispositivos Windows 10 para que eles sejam integrados ao serviço.
-ms.openlocfilehash: b786d011a46f69e7bcac846e726e2aeb3031ae08
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Use a Política de Grupo para implantar o pacote de configuração em Windows 10 dispositivos para que eles sejam integrados ao serviço.
+ms.openlocfilehash: 284de5169324b6da4038cfe0b50b2f2ffa40e3fd
+ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50918017"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51893282"
 ---
-# <a name="onboard-windows-10-devices-using-group-policy"></a>Integração de dispositivos Windows 10 usando a Política de Grupo 
+# <a name="onboard-windows-10-devices-using-group-policy"></a>Integração Windows 10 usando a Política de Grupo 
 
 **Aplica-se a:**
 
-- [Prevenção contra perda de dados do Microsoft 365 Endpoint (DLP)](./endpoint-dlp-learn-about.md)
+- [Microsoft 365 Prevenção contra perda de dados do ponto de extremidade (DLP)](./endpoint-dlp-learn-about.md)
 - Política de Grupo
 
 > [!NOTE]
-> Para usar atualizações de Política de Grupo (GP) para implantar o pacote, você deve estar no Windows Server 2008 R2 ou posterior.
+> Para usar atualizações de Política de Grupo (GP) para implantar o pacote, você deve estar Windows Server 2008 R2 ou posterior.
 
 > Para o Windows Server 2019, talvez seja necessário substituir o NT AUTHORITY\Well-Known-System-Account por NT AUTHORITY\SYSTEM do arquivo XML que a preferência de Política de Grupo cria.
 
-## <a name="onboard-devices-using-group-policy"></a>Dispositivos de integração usando a Política de Grupo
+## <a name="onboard-devices-using-group-policy"></a>Dispositivos integrados usando Política de Grupo
 
-1. Abra o arquivo .zip do pacote de configuração da GP (*DeviceComplianceOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Centro de Conformidade da Microsoft](https://compliance.microsoft.com/compliancesettings/deviceonboarding)
+1. Abra o arquivo de pacote de configuração da GP .zip (*DeviceComplianceOnboardingPackage.zip*) que você baixou do assistente de integração do serviço. Você também pode obter o pacote do [Centro de Conformidade da Microsoft](https://compliance.microsoft.com/compliancesettings/deviceonboarding)
 
-2. No painel de navegação, selecione **Configurações**  >  **integração do dispositivo**.
+2. No painel de navegação, selecione **Configurações**  >  **Integração de Dispositivos**.
 
 3. No campo **Método de implantação,** selecione **Política de grupo**.
 
-4. Clique **em Baixar pacote** e salve o arquivo .zip.
+4. Clique **em Baixar pacote** e salve o .zip arquivo.
 
 5. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelo dispositivo. Você deve ter uma pasta chamada *OptionalParamsPolicy* e o *arquivo DeviceComplianceLocalOnboardingScript.cmd*.
 
@@ -49,7 +49,7 @@ ms.locfileid: "50918017"
 
 7. No Editor **de Gerenciamento de Política de Grupo,** vá para **Configuração** do computador, **Preferências** e configurações **do painel de controle.**
 
-8. Clique com o botão direito do mouse em **Tarefas Agendadas**, aponte para **Novo** e clique em **Tarefa Imediata (Pelo menos Windows 7)**.
+8. Clique com o botão direito do mouse em **Tarefas Agendadas,** aponte para **Novo** e clique em Tarefa Imediata (Pelo menos **Windows 7)**.
 
 9. Na janela **Tarefa** aberta, vá para a **guia** Geral. Em **Opções de segurança,** **clique em Alterar Usuário ou Grupo** e digite SISTEMA e clique em Verificar **Nomes,** em **seguida, OK**. NT AUTHORITY\SYSTEM aparece como a conta de usuário que a tarefa executará como.
 
@@ -68,11 +68,11 @@ Por motivos de segurança, o pacote usado para dispositivos offboard expirará 3
 
 1. Obter o pacote de offboard do [Centro de Conformidade da Microsoft.](https://compliance.microsoft.com/compliancesettings/deviceonboarding)
 
-2. No painel de navegação, selecione **Configurações**  >  **//Dispositivo integrando**  >  **Offboarding**.
+2. No painel de navegação, selecione **Configurações**  >  **//Device onboarding**  >  **Offboarding**.
 
 3. No campo **Método de implantação,** selecione **Política de grupo**.
 
-4. Clique **em Baixar pacote** e salve o arquivo .zip.
+4. Clique **em Baixar pacote** e salve o .zip arquivo.
 
 5. Extraia o conteúdo do arquivo .zip para um local compartilhado somente leitura que pode ser acessado pelo dispositivo. Você deve ter um arquivo chamado *DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd*.
 
@@ -107,9 +107,9 @@ Com a Política de Grupo, não há uma opção para monitorar a implantação de
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Integração de dispositivos Windows 10 usando o Microsoft Endpoint Configuration Manager](dlp-configure-endpoints-sccm.md)
+- [Integração Windows 10 dispositivos usando Microsoft Endpoint Configuration Manager](dlp-configure-endpoints-sccm.md)
 - [Integrar dispositivo Windows 10 usando as ferramentas de Gerenciamento de Dispositivo Móvel](dlp-configure-endpoints-mdm.md)
 - [Integrar dispositivos Windows 10 usando um script local](dlp-configure-endpoints-script.md)
-- [Integrar dispositivos não persistentes de VDI (virtual desktop infrastructure)](dlp-configure-endpoints-vdi.md)
-- [Executar um teste de detecção em dispositivos MICROSOFT Defender ATP recém-instados](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [Solucionar problemas de integração da Proteção Avançada contra Ameaças do Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Dispositivos integrados de VDI (Virtual Desktop Infrastructure) não persistente](dlp-configure-endpoints-vdi.md)
+- [Executar um teste de detecção em um Microsoft Defender recém-integrado para dispositivos de ponto de extremidade](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
+- [Solucionar Proteção Avançada contra Ameaças do Microsoft Defender problemas de integração](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

@@ -7,7 +7,7 @@ author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
-ms.topic: conceptual
+ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
@@ -16,13 +16,14 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
+hideEdit: true
 description: Entenda o número máximo de políticas e itens por política para políticas de retenção e políticas de rótulos de retenção
-ms.openlocfilehash: 53539df4d36fab02171e1ac06ba944ed3bea34e8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 007ca6eec50b243e1b820938ffa67553d7882c7b
+ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917237"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52107653"
 ---
 # <a name="limits-for-retention-policies-and-retention-label-policies"></a>Limites para políticas de retenção e políticas de rótulo de retenção
 

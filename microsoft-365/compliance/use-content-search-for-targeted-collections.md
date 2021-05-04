@@ -18,28 +18,28 @@ search.appverid:
 - MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 ms.custom: seo-marvel-apr2020
-description: Use a Pesquisa de Conteúdo no centro de conformidade do Microsoft 365 para executar coleções direcionadas, que garantem que os itens estão localizados em uma caixa de correio ou pasta de site específica.
-ms.openlocfilehash: 376adfd1bec20d3b1ec11dac5e775eb386ea6317
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Use a Pesquisa de Conteúdo no Microsoft 365 de conformidade para executar coleções direcionadas, que garantem que os itens estão localizados em uma caixa de correio ou pasta de site específica.
+ms.openlocfilehash: ea01386b7e52c05f8116caacddd6dec7baf12272
+ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907693"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51994758"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>Usar a Pesquisa de Conteúdo para determinadas coleções
 
-O recurso pesquisa de conteúdo no centro de conformidade do Microsoft 365 não fornece uma maneira direta na interface do usuário de pesquisar pastas específicas em caixas de correio do Exchange ou sites do SharePoint e do OneDrive for Business. No entanto, é possível pesquisar pastas específicas (chamadas de uma coleção direcionada *)* especificando a propriedade ID da pasta para a propriedade email ou caminho (DocumentLink) para sites na sintaxe de consulta de pesquisa real. Usar a Pesquisa de Conteúdo para executar uma coleção direcionada é útil quando você tem certeza de que os itens que respondem a uma ocorrência ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Você pode usar o script neste artigo para obter a ID da pasta para pastas de caixa de correio ou o caminho (DocumentLink) para pastas em um site do SharePoint e do OneDrive for Business. Em seguida, você pode usar a ID da pasta ou o caminho em uma consulta de pesquisa para retornar itens localizados na pasta.
+O recurso pesquisa de conteúdo no centro de conformidade do Microsoft 365 não fornece uma maneira direta na interface do usuário de pesquisar pastas específicas em caixas de correio Exchange ou sites SharePoint e OneDrive for Business. No entanto, é possível pesquisar pastas específicas (chamadas de uma coleção direcionada *)* especificando a propriedade ID da pasta para a propriedade email ou caminho (DocumentLink) para sites na sintaxe de consulta de pesquisa real. Usar a Pesquisa de Conteúdo para executar uma coleção direcionada é útil quando você tem certeza de que os itens que respondem a uma ocorrência ou itens privilegiados estão localizados em uma caixa de correio ou pasta de site específica. Você pode usar o script neste artigo para obter a ID da pasta para pastas de caixa de correio ou o caminho (DocumentLink) para pastas em um SharePoint e OneDrive for Business site. Em seguida, você pode usar a ID da pasta ou o caminho em uma consulta de pesquisa para retornar itens localizados na pasta.
 
 > [!NOTE]
-> Para retornar o conteúdo localizado em uma pasta em um site do SharePoint ou do OneDrive for Business, o script neste tópico usa a propriedade gerenciada DocumentLink em vez da propriedade Path. A propriedade DocumentLink é mais robusta do que a propriedade Path porque retornará todo o conteúdo em uma pasta, enquanto a propriedade Path não retornará alguns arquivos de mídia.
+> Para retornar o conteúdo localizado em uma pasta em um SharePoint ou OneDrive for Business site, o script neste tópico usa a propriedade gerenciada DocumentLink em vez da propriedade Path. A propriedade DocumentLink é mais robusta do que a propriedade Path porque retornará todo o conteúdo em uma pasta, enquanto a propriedade Path não retornará alguns arquivos de mídia.
 
 ## <a name="before-you-run-a-targeted-collection"></a>Antes de executar uma coleção direcionada
 
 - Você precisa ser membro do grupo de funções do Gerenciador de Descobertas e no Centro de Conformidade & Segurança para executar o script na Etapa 1. Para obter mais informações, confira [Atribuir permissões de descoberta eletrônica](assign-ediscovery-permissions.md).
 
-    Além disso, você precisa receber a função Destinatários de Email em sua organização do Exchange Online. Isso é necessário para executar o cmdlet **Get-MailboxFolderStatistics,** que está incluído no script. Por padrão, a função Destinatários de Email é atribuída aos grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários no Exchange Online. Para obter mais informações sobre como atribuir permissões no Exchange Online, consulte [Manage role group members](/exchange/manage-role-group-members-exchange-2013-help). Você também pode criar um grupo de função personalizado, atribuir a função Destinatários de Email a ele e, em seguida, adicionar os membros que precisam executar o script na Etapa 1. Para obter mais informações, consulte [Manage role groups](/Exchange/permissions-exo/role-groups).
+    Além disso, você precisa receber a função Destinatários de Email em sua Exchange Online organização. Isso é necessário para executar o cmdlet **Get-MailboxFolderStatistics,** que está incluído no script. Por padrão, a função Destinatários de Email é atribuída aos grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários Exchange Online. Para obter mais informações sobre a atribuição de permissões Exchange Online, consulte [Gerenciar membros do grupo de função](/exchange/manage-role-group-members-exchange-2013-help). Você também pode criar um grupo de função personalizado, atribuir a função Destinatários de Email a ele e, em seguida, adicionar os membros que precisam executar o script na Etapa 1. Para obter mais informações, consulte [Manage role groups](/Exchange/permissions-exo/role-groups).
 
-- O script neste artigo dá suporte à autenticação moderna. Você pode usar o script como está se você for um Microsoft 365 ou uma organização do Microsoft 365 GCC. Se você for uma organização do Office 365 Germany, uma organização do Microsoft 365 GCC High ou uma organização do Microsoft 365 DoD, você terá que editar o script para executar com êxito. Especificamente, você precisa editar a linha e usar o parâmetro `Connect-ExchangeOnline` *ExchangeEnvironmentName* (e o valor apropriado para o tipo de organização) para se conectar ao PowerShell do Exchange Online.  Além disso, você precisa editar a linha e usar os `Connect-IPPSSession` parâmetros *ConnectionUri* e *AzureADAuthorizationEndpointUri* (e os valores apropriados para o tipo de organização) para se conectar ao Centro de Conformidade e Segurança & do PowerShell. Para obter mais informações, consulte os exemplos em [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-without-using-mfa) e Connect to Security & Compliance Center [PowerShell](/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa).
+- O script neste artigo dá suporte à autenticação moderna. Você pode usar o script como está se você for um Microsoft 365 ou uma organização Microsoft 365 GCC. Se você for uma organização Office 365 Alemanha, uma organização Microsoft 365 GCC alta ou uma organização Microsoft 365 do DoD, será necessário editar o script para executar com êxito. Especificamente, você precisa editar a linha e usar o parâmetro `Connect-ExchangeOnline` *ExchangeEnvironmentName* (e o valor apropriado para o tipo de organização) para se conectar ao Exchange Online PowerShell.  Além disso, você precisa editar a linha e usar os `Connect-IPPSSession` parâmetros *ConnectionUri* e *AzureADAuthorizationEndpointUri* (e os valores apropriados para o tipo de organização) para se conectar ao Centro de Conformidade e Segurança & do PowerShell. Para obter mais informações, consulte os exemplos em [Conexão para Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell#connect-to-exchange-online-powershell-without-using-mfa) e Conexão para o Centro de Conformidade e [Segurança & PowerShell](/powershell/exchange/connect-to-scc-powershell#connect-to-security--compliance-center-powershell-without-using-mfa).
 
 - Sempre que você executar o script, uma nova sessão remota do PowerShell é criada. Isso significa que você pode usar todas as sessões remotas do PowerShell disponíveis para você. Para impedir que isso aconteça, execute o seguinte comando para desconectar suas sessões remotas ativas do PowerShell.
 
@@ -52,23 +52,23 @@ O recurso pesquisa de conteúdo no centro de conformidade do Microsoft 365 não 
 - O script inclui tratamento mínimo de erros. O principal objetivo do script é exibir rapidamente uma lista de IDs de pasta de caixa de correio ou caminhos de site que podem ser usados na sintaxe de consulta de pesquisa de uma Pesquisa de Conteúdo para executar uma coleção direcionada.
 
 - O script de exemplo fornecido neste tópico não é suportado em qualquer programa ou serviço de suporte padrão da Microsoft. O script de amostra é fornecido COMO ESTÁ, sem garantia de nenhum tipo. A Microsoft também se isenta de todas as garantias implícitas, incluindo, sem limitação, quaisquer garantias implícitas de comercialização ou adequação a uma finalidade específica. Todo o risco decorrente do uso ou desempenho do script de amostra e da documentação permanece com você. De modo algum a Microsoft, seus autores ou qualquer outra pessoa envolvida na criação, produção ou veiculação dos scripts serão considerados responsáveis por quaisquer danos (incluindo sem limitações danos por perda de lucros comerciais, interrupção de negócios, perda de informações comerciais ou outras perdas pecuniárias) resultantes do uso ou da incapacidade de uso da documentação ou scripts de exemplo, mesmo que a Microsoft tenha sido alertada sobre a possibilidade de tais danos.
-  
+
 ## <a name="step-1-run-the-script-to-get-a-list-of-folders-for-a-mailbox-or-site"></a>Etapa 1: Executar o script para obter uma lista de pastas para uma caixa de correio ou site
 
-O script executado nesta primeira etapa retornará uma lista de pastas de caixa de correio ou pastas do SharePoint e do OneDrive for Business e a ID da pasta ou caminho correspondente para cada pasta. Quando você executar esse script, ele solicitará as seguintes informações.
-  
-- **Endereço de email ou URL do site**: Digite um endereço de email do custodiado para retornar uma lista de pastas de caixa de correio do Exchange e IDs de pasta. Ou digite a URL de um site do SharePoint ou um site do OneDrive for Business para retornar uma lista de caminhos para o site especificado. Aqui estão alguns exemplos:
+O script executado nesta primeira etapa retornará uma lista de pastas de caixa de correio ou pastas SharePoint e OneDrive for Business e a ID de pasta ou caminho correspondente para cada pasta. Quando você executar esse script, ele solicitará as seguintes informações.
+
+- **Endereço de email ou URL do site**: Digite um endereço de email do custodiado para retornar uma lista de pastas Exchange de caixa de correio e IDs de pasta. Ou digite a URL de um site SharePoint ou um site OneDrive for Business para retornar uma lista de caminhos para o site especificado. Aqui estão alguns exemplos:
 
   - **Exchange**: stacig@contoso.onmicrosoft <spam> <spam> .com
 
-  - **SharePoint**: https <span>://</span>contoso.sharepoint.com/sites/marketing 
+  - **SharePoint:** https <span>://</span>contoso.sharepoint.com/sites/marketing
 
-  - **OneDrive for Business**: https <span>://</span>contoso-my.sharepoint.com/personal/stacig_contoso_onmicrosoft_com 
+  - **OneDrive for Business**: https <span>://</span>contoso-my.sharepoint.com/personal/stacig_contoso_onmicrosoft_com
 
-- **Suas credenciais de usuário**: o script usará suas credenciais para se conectar ao PowerShell do Exchange Online ou ao Centro de Conformidade & PowerShell usando a autenticação moderna. Conforme explicado anteriormente, você precisa ter as permissões apropriadas para executar esse script com êxito.
+- **Suas credenciais de usuário**: o script usará suas credenciais para se conectar Exchange Online PowerShell ou Security & Centro de Conformidade do PowerShell usando a autenticação moderna. Conforme explicado anteriormente, você precisa ter as permissões apropriadas para executar esse script com êxito.
 
 Para exibir uma lista de pastas de caixa de correio ou nomes de link de documento do site (caminho:
-  
+
 1. Salve o texto a seguir em um arquivo Windows PowerShell script usando um sufixo de nome de arquivo de .ps1; por exemplo, `GetFolderSearchParameters.ps1` .
 
    ```powershell
@@ -192,33 +192,33 @@ Para exibir uma lista de pastas de caixa de correio ou nomes de link de document
 
     > [!TIP]
     > Em vez de exibir uma lista de pastas na tela do computador, você pode direcionar a saída do script para um arquivo de texto. Esse arquivo será salvo na pasta onde o script está localizado. Por exemplo, para redirecionar a saída do script para um arquivo de texto, execute o seguinte comando na Etapa 3: Em seguida, você pode copiar uma ID de pasta ou um link de documento do arquivo a ser usado em uma consulta de  `.\GetFolderSearchParameters.ps1 > StacigFolderIds.txt` pesquisa.
-  
+
 ### <a name="script-output-for-mailbox-folders"></a>Saída de script para pastas de caixa de correio
 
-Se você estiver recebendo IDs de pasta de caixa de correio, o script se conecta ao PowerShell do Exchange Online, executa o cmdlet **Get-MailboxFolderStatisics** e exibe a lista das pastas da caixa de correio especificada. Para cada pasta na caixa de correio, o script exibe o nome da pasta na coluna **FolderPath** e a ID da pasta na coluna **FolderQuery.** Além disso, o script adiciona o prefixo **de folderId** (que é o nome da propriedade de caixa de correio) à ID da pasta. Como a **propriedade folderid** é uma propriedade pesquisável, você usará em uma consulta de pesquisa na  `folderid:<folderid>` Etapa 2 para pesquisar essa pasta. O script exibe no máximo 100 pastas de caixa de correio.
+Se você estiver recebendo IDs de pasta de caixa de correio, o script se conecta ao Exchange Online PowerShell, executa o cmdlet **Get-MailboxFolderStatisics** e exibe a lista das pastas da caixa de correio especificada. Para cada pasta na caixa de correio, o script exibe o nome da pasta na coluna **FolderPath** e a ID da pasta na coluna **FolderQuery.** Além disso, o script adiciona o prefixo **de folderId** (que é o nome da propriedade de caixa de correio) à ID da pasta. Como a **propriedade folderid** é uma propriedade pesquisável, você usará em uma consulta de pesquisa na  `folderid:<folderid>` Etapa 2 para pesquisar essa pasta. O script exibe no máximo 100 pastas de caixa de correio.
 
 > [!IMPORTANT]
 > O script neste artigo inclui a lógica de codificação que converte os valores de ID de pasta de 64 caracteres retornados por **Get-MailboxFolderStatistics** para o mesmo formato de 48 caracteres indexado para pesquisa. Se você apenas executar o cmdlet **Get-MailboxFolderStatistics** no PowerShell para obter uma ID de pasta (em vez de executar o script neste artigo), uma consulta de pesquisa que usa esse valor de ID de pasta falhará. Você precisa executar o script para obter as IDs de pasta formatadas corretamente que podem ser usadas em uma Pesquisa de Conteúdo.
-  
+
 Aqui está um exemplo da saída retornada pelo script para pastas de caixa de correio.
-  
+
 ![Exemplo da lista de pastas de caixa de correio e IDs de pasta retornadas pelo script](../media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
-  
+
 O exemplo na Etapa 2 mostra a consulta usada para pesquisar a subpasta Limpa na pasta Itens Recuperáveis do usuário.
-  
+
 ### <a name="script-output-for-site-folders"></a>Saída de script para pastas de site
 
-Se você estiver recebendo o caminho da propriedade **documentlink** dos sites do SharePoint ou do OneDrive for Business, o & script se conectará ao PowerShell de Conformidade e Segurança, criará uma nova Pesquisa de Conteúdo que pesquisa pastas no site e exibe uma lista das pastas localizadas no site especificado. O script exibe o nome de cada pasta e adiciona o prefixo **de documentlink** à URL da pasta. Como a **propriedade documentlink** é uma propriedade pesquisável, você usará o par property:value em uma consulta de pesquisa na Etapa 2 para `documentlink:<path>` pesquisar essa pasta. O script exibe no máximo 200 pastas de site. Se houver mais de 200 pastas de site, as mais novas serão exibidas.
-  
+Se você estiver recebendo o caminho da propriedade **documentlink** de sites SharePoint ou OneDrive for Business, o & script se conectará ao PowerShell de Conformidade e Segurança do PowerShell, criará uma nova Pesquisa de Conteúdo que pesquisa pastas no site e exibe uma lista das pastas localizadas no site especificado. O script exibe o nome de cada pasta e adiciona o prefixo **de documentlink** à URL da pasta. Como a **propriedade documentlink** é uma propriedade pesquisável, você usará o par property:value em uma consulta de pesquisa na Etapa 2 para `documentlink:<path>` pesquisar essa pasta. O script exibe no máximo 200 pastas de site. Se houver mais de 200 pastas de site, as mais novas serão exibidas.
+
 Aqui está um exemplo da saída retornada pelo script para pastas de site.
-  
+
 ![Exemplo da lista de nomes de documentlink para pastas de site retornadas pelo script](../media/519e8347-7365-4067-af78-96c465dc3d15.png)
-  
+
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>Etapa 2: Usar uma ID de pasta ou um link de documento para executar uma coleção direcionada
 
-Depois de executar o script para coletar uma lista de IDs de pasta ou links de documento para um usuário específico, a próxima etapa é ir para o centro de conformidade do Microsoft 365 e criar uma nova Pesquisa de Conteúdo para pesquisar uma pasta específica. Você usará o par ou property:value na consulta de pesquisa que você configurar na caixa de palavra-chave Pesquisa de Conteúdo (ou como o valor do parâmetro ContentMatchQuery se você usar o `folderid:<folderid>` `documentlink:<path>` cmdlet **New-ComplianceSearch).**  Você pode combinar a  `folderid` propriedade ou com outros  `documentlink` parâmetros de pesquisa ou condições de pesquisa. Se você incluir apenas a propriedade ou na consulta, a pesquisa retornará todos os  `folderid`  `documentlink` itens localizados na pasta especificada.
-  
-1. Acesse e entre usando a conta e as credenciais que você usou para executar [https://compliance.microsoft.com](https://compliance.microsoft.com) o script na Etapa 1.
+Depois de executar o script para coletar uma lista de IDs de pasta ou links de documento para um usuário específico, a próxima etapa é ir para o centro de conformidade Microsoft 365 e criar uma nova Pesquisa de Conteúdo para pesquisar uma pasta específica. Você usará o par ou property:value na consulta de pesquisa que você configurar na caixa de palavra-chave Pesquisa de Conteúdo (ou como o valor do parâmetro ContentMatchQuery se você usar o `folderid:<folderid>` `documentlink:<path>` cmdlet **New-ComplianceSearch).**  Você pode combinar a  `folderid` propriedade ou com outros  `documentlink` parâmetros de pesquisa ou condições de pesquisa. Se você incluir apenas a propriedade ou na consulta, a pesquisa retornará todos os  `folderid`  `documentlink` itens localizados na pasta especificada.
+
+1. Acesse e entre usando a conta e as credenciais que você usou para executar <https://compliance.microsoft.com> o script na Etapa 1.
 
 2. No painel esquerdo do centro de conformidade, clique em **Mostrar toda** a pesquisa de conteúdo e clique em  >  Nova **pesquisa**.
 
@@ -232,18 +232,18 @@ Depois de executar o script para coletar uma lista de IDs de pasta ou links de d
 
 5. Faça um dos seguintes, com base em se você está pesquisando uma pasta de caixa de correio ou uma pasta de site:
 
-    - Ao lado do **email do Exchange,** clique em **Escolher usuários,** grupos ou equipes e, em seguida, adicione a mesma caixa de correio especificada quando você correu o script na Etapa 1.
+    - Ao lado **Exchange email,** clique em Escolher usuários, grupos ou equipes e, em **seguida,** adicione a mesma caixa de correio especificada quando você correu o script na Etapa 1.
 
       Ou
 
-    - Ao lado **de sites do SharePoint,** clique em **Escolher sites** e, em seguida, adicione a mesma URL de site que você especificou quando você correu o script na Etapa 1.
+    - Ao lado **SharePoint sites,** clique em Escolher **sites** e, em seguida, adicione a mesma URL de site que você especificou quando você correu o script na Etapa 1.
 
-6. Depois de salvar o local de conteúdo para pesquisar, clique em Salvar &  **executar,** digite um nome para a Pesquisa de Conteúdo e clique em Salvar para iniciar a pesquisa de coleção direcionada. 
-  
+6. Depois de salvar o local de conteúdo para pesquisar, clique em Salvar &  **executar,** digite um nome para a Pesquisa de Conteúdo e clique em Salvar para iniciar a pesquisa de coleção direcionada.
+
 ### <a name="examples-of-search-queries-for-targeted-collections"></a>Exemplos de consultas de pesquisa para coleções direcionadas
 
-Aqui estão alguns exemplos de uso das propriedades e em uma consulta de pesquisa  `folderid` para executar uma coleção  `documentlink` direcionada. Espaços reservados são usados para  `folderid:<folderid>` e  `documentlink:<path>` para economizar espaço. 
-  
+Aqui estão alguns exemplos de uso das propriedades e em uma consulta de pesquisa  `folderid` para executar uma coleção  `documentlink` direcionada. Espaços reservados são usados para  `folderid:<folderid>` e  `documentlink:<path>` para economizar espaço.
+
 - Este exemplo pesquisa três pastas de caixa de correio diferentes. Você pode usar uma sintaxe de consulta semelhante para pesquisar as pastas ocultas na pasta Itens Recuperáveis de um usuário.
 
   ```powershell
@@ -271,13 +271,13 @@ Aqui estão alguns exemplos de uso das propriedades e em uma consulta de pesquis
 ## <a name="more-information"></a>Mais informações
 
 Lembre-se das seguintes coisas ao usar o script neste artigo para executar coleções direcionadas.
-  
+
 - O script não remove pastas dos resultados. Portanto, algumas pastas listadas nos resultados podem não ser pesquisadas (ou retornar itens zero) porque contêm conteúdo gerado pelo sistema ou porque contêm apenas subpastas e não itens de caixa de correio.
 
 - Esse script retorna apenas informações de pasta para a caixa de correio principal do usuário. Ele não retorna informações sobre pastas na caixa de correio de arquivo morto do usuário. Para retornar informações sobre pastas na caixa de correio de arquivo morto do usuário, você pode editar o script. Para fazer isso, altere a linha `$folderStatistics = Get-MailboxFolderStatistics $emailAddress` para e salve e execute o script `$folderStatistics = Get-MailboxFolderStatistics $emailAddress -Archive` editado. Essa alteração retornará as IDs de pasta para pastas e subpastas na caixa de correio de arquivo morto do usuário. Para pesquisar toda a caixa de correio de arquivo morto, você pode conectar todas as propriedades de ID de pasta:pares de valores com um operador em uma `OR` consulta de pesquisa.
 
 - Ao pesquisar pastas de caixa de correio, somente a pasta especificada (identificada por sua propriedade) será `folderid` pesquisada; as subpastas não serão pesquisadas. Para pesquisar subpastas, você precisa usar a ID da pasta para a subpasta que deseja pesquisar.
 
-- Ao pesquisar pastas de site, a pasta (identificada por sua propriedade) e `documentlink` todas as subpastas serão pesquisadas. 
+- Ao pesquisar pastas de site, a pasta (identificada por sua propriedade) e `documentlink` todas as subpastas serão pesquisadas.
 
 - Ao exportar os resultados de uma pesquisa na qual você especificou apenas a propriedade na consulta de pesquisa, você pode escolher a primeira opção de exportação: "Todos os itens, excluindo aqueles que têm um formato não-reconheceu, são criptografados ou não `folderid` foram indexados por outros motivos". Todos os itens na pasta sempre serão exportados independentemente do status de indexação, pois a ID da pasta sempre é indexada.

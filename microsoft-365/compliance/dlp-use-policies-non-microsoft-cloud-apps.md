@@ -20,16 +20,16 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Saiba como usar políticas dlp para aplicativos de nuvem que não são da Microsoft.
-ms.openlocfilehash: 6787add3ef8b2d6ded22bd05c0ff9658c4b7fbfc
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4c5170cab01b1ca22701b13c7afbf4f2e0ba7da
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50922077"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52114129"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Usar políticas de prevenção contra perda de dados para aplicativos de nuvem que não são da Microsoft (visualização)
 
-As políticas de prevenção contra perda de dados (DLP) para aplicativos de nuvem que não são da Microsoft fazem parte do pacote de recursos da DLP do Microsoft 365; usando esses recursos, você pode descobrir e proteger itens confidenciais em todos os serviços do Microsoft 365. Para obter mais informações sobre todas as ofertas de DLP da Microsoft, consulte [Overview of data loss prevention](./data-loss-prevention-policies.md?view=o365-worldwide).
+As políticas de prevenção contra perda de dados (DLP) para aplicativos de nuvem que não são da Microsoft fazem parte do Microsoft 365 DLP de recursos; usando esses recursos, você pode descobrir e proteger itens confidenciais em Microsoft 365 serviços. Para obter mais informações sobre todas as ofertas de DLP da Microsoft, [consulte Learn about data loss prevention](dlp-learn-about-dlp.md).
 
 Você pode usar políticas de DLP para aplicativos de nuvem que não sejam da Microsoft para monitorar e detectar quando itens confidenciais são usados e compartilhados por meio de aplicativos de nuvem que não são da Microsoft. O uso dessas políticas oferece a visibilidade e o controle necessários para garantir que elas são usadas e protegidas corretamente, e isso ajuda a evitar comportamentos de risco que podem comprometer eles.
 
@@ -37,37 +37,37 @@ Você pode usar políticas de DLP para aplicativos de nuvem que não sejam da Mi
 
 ### <a name="skusubscriptions-licensing"></a>Licenciamento SKU/assinaturas
 
-Antes de começar a usar políticas DLP para aplicativos de nuvem que não são da Microsoft, confirme sua assinatura do [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) e quaisquer complementos. Para acessar e usar essa funcionalidade, você deve ter uma dessas assinaturas ou complementos:
+Antes de começar a usar políticas DLP para aplicativos de nuvem que não são da Microsoft, confirme sua assinatura [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) e quaisquer complementos. Para acessar e usar essa funcionalidade, você deve ter uma dessas assinaturas ou complementos:
 
 - Microsoft 365 E5
 - Conformidade do Microsoft 365 E5
-- Segurança do Microsoft 365 E5
+- Microsoft 365 E5 Security
 
-### <a name="prepare-your-cloud-app-security-environment"></a>Preparar seu ambiente de Segurança de Aplicativos na Nuvem
+### <a name="prepare-your-cloud-app-security-environment"></a>Preparar seu ambiente Cloud App Security ambiente
 
-As políticas de DLP para aplicativos de nuvem que não são da Microsoft usam recursos DLP de Segurança de Aplicativos na Nuvem. Para usá-lo, você deve preparar seu ambiente de Segurança de Aplicativo na Nuvem. Para obter instruções, consulte [Set instant visibility, protection, and governance actions for your apps](/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps).
+As políticas de DLP para aplicativos de nuvem que não são da Microsoft usam Cloud App Security DLP. Para usá-lo, você deve preparar seu ambiente Cloud App Security ambiente. Para obter instruções, consulte [Set instant visibility, protection, and governance actions for your apps](/cloud-app-security/getting-started-with-cloud-app-security#step-1-set-instant-visibility-protection-and-governance-actions-for-your-apps).
 
-### <a name="connect-a-non-microsoft-cloud-app"></a>Conectar um aplicativo de nuvem que não seja da Microsoft
+### <a name="connect-a-non-microsoft-cloud-app"></a>Conexão um aplicativo de nuvem que não seja da Microsoft
 
-Para usar a política DLP a um aplicativo de nuvem específico que não seja da Microsoft, o aplicativo deve estar conectado ao Cloud App Security. Para obter informações, consulte:
+Para usar a política de DLP a um aplicativo de nuvem não Microsoft específico, o aplicativo deve estar conectado a Cloud App Security. Para obter informações, consulte:
 
-- [Caixa Conectar](/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
-- [Conectar Dropbox](/cloud-app-security/connect-dropbox-to-microsoft-cloud-app-security)
-- [Connect G-Suite](/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
-- [Connect Salesforce](/cloud-app-security/connect-salesforce-to-microsoft-cloud-app-security)
-- [Conectar o Cisco Webex](/cloud-app-security/connect-webex-to-microsoft-cloud-app-security)
+- [Conexão Box](/cloud-app-security/connect-box-to-microsoft-cloud-app-security)
+- [Conexão Dropbox](/cloud-app-security/connect-dropbox-to-microsoft-cloud-app-security)
+- [Conexão G-Suite](/cloud-app-security/connect-google-apps-to-microsoft-cloud-app-security)
+- [Conexão Salesforce](/cloud-app-security/connect-salesforce-to-microsoft-cloud-app-security)
+- [Conexão Cisco Webex](/cloud-app-security/connect-webex-to-microsoft-cloud-app-security)
 
-Depois de conectar seus aplicativos de nuvem ao Cloud App Security, você pode criar políticas de DLP do Microsoft 365 para eles.
+Depois de conectar seus aplicativos de nuvem Cloud App Security, você pode criar Microsoft 365 DLP para eles.
 
 >[!NOTE]
 >Também é possível usar o Microsoft Cloud App Security para criar políticas de DLP para aplicativos de nuvem da Microsoft. No entanto, é recomendável usar o Microsoft 365 para criar e gerenciar políticas de DLP para aplicativos de nuvem da Microsoft.
 
 ## <a name="create-a-dlp-policy-to-a-non-microsoft-cloud-app"></a>Criar uma política de DLP para um aplicativo de nuvem que não seja da Microsoft
 
-Quando você selecionar um local para a política de DLP, acione o local de Segurança do **Aplicativo na Nuvem da Microsoft.**
+Quando você selecionar um local para a política DLP, a Microsoft Cloud App Security **local.**
 
 - Para selecionar um aplicativo ou instância específico, selecione **Escolher instância**.
-- Se você não selecionar uma instância, a política usará todos os aplicativos conectados em seu locatário do Microsoft Cloud App Security.
+- Se você não selecionar uma instância, a política usará todos os aplicativos conectados em seu Microsoft Cloud App Security locatário.
 
    ![Locais para aplicar a política](../media/1-dlp-non-microsoft-cloud-app-choose-instance.png)
 

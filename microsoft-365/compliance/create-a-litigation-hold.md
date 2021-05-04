@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 3/13/2018
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ description: Saiba como colocar uma caixa de correio em Retenção de Litígio, 
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 046ee6fdc7c42026b1a69805883175982e3100b7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 81d3bf7bba0aadbcd2d52b5f7707caeea96e26c1
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50908395"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51750055"
 ---
 # <a name="create-a-litigation-hold"></a>Criar uma Retenção de Litígio
 
@@ -30,21 +30,23 @@ Você pode colocar uma caixa de correio em Retenção de Litígio para reter tod
 Veja o que acontece quando você cria um Litígio.
   
 - Os itens excluídos permanentemente pelo usuário são mantidos na pasta Itens Recuperáveis na caixa de correio do usuário durante a espera.
-    
-- Os itens que são limpos da pasta Itens Recuperáveis pelo usuário são mantidos durante a espera.
-    
-- A cota de armazenamento para a pasta Itens Recuperáveis é aumentada de 30 GB para 110 GB.
-    
-- Os itens nas caixas de correio primárias e de arquivo morto do usuário são mantidos
-    
-## <a name="assign-an-exchange-online-plan-2-license"></a>Atribuir uma licença do Plano 2 do Exchange Online
 
-- Para colocar uma caixa de correio do Exchange Online em Contencioso, ela deve receber uma licença do Plano 2 do Exchange Online. Se uma caixa de correio for atribuída a uma licença do Plano 1 do Exchange Online, você terá que atribuí-la uma licença de Arquivamento do Exchange Online separada para mantê-la em espera.
-    
+- Os itens que são limpos da pasta Itens Recuperáveis pelo usuário são mantidos durante a espera.
+
+- A cota de armazenamento para a pasta Itens Recuperáveis é aumentada de 30 GB para 110 GB.
+
+- Os itens nas caixas de correio primárias e de arquivo morto do usuário são mantidos
+
+## <a name="assign-an-exchange-online-plan-2-license"></a>Atribuir uma licença Exchange Online Plano 2
+
+Para colocar uma caixa de correio Exchange Online de litígio em Contencioso, ela deve receber uma licença Exchange Online Plano 2. Se uma caixa de correio receber uma licença Exchange Online Plano 1, você terá que atribuí-la uma licença de Arquivamento do Exchange Online separada para mantê-la em espera.
+
+> [!NOTE]
+> Para Office 365 Education organizações, a responsabilidade por litígio é suportada em assinaturas Office 365 A1, que incluem uma licença Exchange Online Plano 1 com recursos complementares. Para obter mais informações, consulte a seção "Exchange Online recursos" na descrição [Office 365 Education serviço.](/office365/servicedescriptions/office-365-platform-service-description/office-365-education#exchange-online-features)
 
 ## <a name="place-a-mailbox-on-litigation-hold"></a>Colocar uma caixa de correio em Retenção de Litígio
 
-Aqui estão as etapas para colocar uma caixa de correio em Responsabilidade de Litígio usando o Centro de administração do Exchange.
+Aqui estão as etapas para colocar uma caixa de correio em Responsabilidade de Litígio usando o Exchange de administração.
 
 1. Acesse e [https://outlook.office.com/ecp](https://outlook.office.com/ecp) entre usando sua conta de administrador global.
 
@@ -60,15 +62,15 @@ Aqui estão as etapas para colocar uma caixa de correio em Responsabilidade de L
     
     - **Duração de espera de litígio (dias)** - Use essa caixa para criar uma hold baseada em tempo e especificar por quanto tempo os itens de caixa de correio são mantidos quando a caixa de correio é colocada em Contencioso. A duração é calculada a partir da data em que um item de caixa de correio é recebido ou criado. Quando a duração da espera expirar para um item específico, esse item não será mais preservado. Se você deixar essa caixa em branco, os itens serão preservados indefinidamente ou até que a espera seja removida. Use dias para especificar a duração.
     
-    - **Observação** - Use esta caixa para informar ao usuário que sua caixa de correio está em Contencioso. A observação aparecerá na página Informações da Conta na caixa de correio do usuário se estiver usando o Outlook 2010 ou posterior. Para acessar esta página, os usuários podem clicar **em Arquivo** no Outlook.
+    - **Observação** - Use esta caixa para informar ao usuário que sua caixa de correio está em Contencioso. A observação aparecerá na página Informações da Conta na caixa de correio do usuário se estiver usando Outlook 2010 ou posterior. Para acessar esta página, os usuários podem clicar **em Arquivo** em Outlook.
     
-    - **URL** - Use essa caixa para direcionar o usuário para um site para obter mais informações sobre a responsabilidade por litígio. Essa URL será exibida na página Informações da Conta na caixa de correio do usuário se estiver usando o Outlook 2010 ou posterior. Para acessar esta página, os usuários podem clicar **em Arquivo** no Outlook..
+    - **URL** - Use essa caixa para direcionar o usuário para um site para obter mais informações sobre a responsabilidade por litígio. Essa URL será exibida na página Informações da Conta na caixa de correio do usuário se estiver usando Outlook 2010 ou posterior. Para acessar esta página, os usuários podem clicar **em Arquivo** em Outlook..
 
 7. Clique **em Salvar** na página De espera **de** litígio e clique em **Salvar** na página propriedades da caixa de correio.
 
 ### <a name="create-a-litigation-hold-using-powershell"></a>Criar uma hold de litígio usando o PowerShell
 
-Você também pode criar uma Hold de Litígio executando o seguinte comando no [PowerShell do Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell):
+Você também pode criar uma Hold de Litígio executando o seguinte comando [em Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell):
 
 ```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $true
